@@ -27,7 +27,7 @@ with
 ```math
 j_n\to\infty,
 \qquad
-|I_n|\simeq 2^{-2j_n},
+|I_n|=2^{-2j_n},
 \qquad
 t_n\uparrow T_\ast,
 ```

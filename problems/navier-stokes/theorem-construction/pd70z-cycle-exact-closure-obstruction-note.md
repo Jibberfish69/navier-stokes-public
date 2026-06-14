@@ -29,7 +29,7 @@ bundle-angle losses are peeled off, the residual pairwise burden is
 
 ```math
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le C_{\mathrm{PD70s}}
 \mathcal E_J^{obs}(I).
 \tag{R.1}
 ```
@@ -48,7 +48,7 @@ via `(PD.70x)`-`(PD.70y)`, so the residual theorem collapses to
 
 ```math
 \mathcal E_J^{dir}(I)
-\lesssim
+\le C_{\mathrm{PD70z}}
 \mathcal E_J^{obs}(I).
 \tag{R.3}
 ```
@@ -72,7 +72,7 @@ In the bridge theorem, the directional loss is encoded by
 where `\Xi_J` is only specified as
 
 ```text
-any admissible quadratic pair-direction defect satisfying `\Xi_J \gtrsim \xi_J^2`.
+any admissible quadratic pair-direction defect satisfying `\Xi_J \ge c_\Xi \xi_J^2`.
 ```
 
 See Theorem Candidate B in

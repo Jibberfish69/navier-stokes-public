@@ -1,0 +1,1272 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-03
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-03
+  sequence: 155
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 3
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 3727
+  line_end: 4326
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3727
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3794
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4010
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4042
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4091
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4122
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4154
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4241
+  subsection_titles:
+  - 'Theorem D.2: Global Coercive Energy Estimate'
+  - 'Theorem D.3: Commutative Shadow Theorem'
+  - D.6b' - Global coercive decay in H
+  - D.6c - Global low-tier coercivity under uniform H-control
+  - D.8a - Strong convergence of the approximating family
+  - D.8b - Global projected well-posedness and exponential decay
+  - Defect-Reduction Tower And Four-Body Recurrence Note
+  - Derivative-LP Compatibility Bridge Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Theorem D.2: Global Coercive Energy Estimate'
+    line_start: 3727
+    line_end: 3793
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3727
+    start_anchor: "\\subsection{Theorem D.2: Global Coercive Energy Estimate}\n"
+    end_anchor: "\\subsection{Theorem D.3: Commutative Shadow Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Theorem D.2: Global Coercive Energy Estimate}
+
+      D.2 pays the analytic cost of the projected lane.  It shows how the carrier
+      flow absorbs the nonlinear term into the dissipative quantity.  The theorem
+      note uses
+      \[
+      \mathcal E_D(X)
+      :=
+      \|\Delta_{D,\omega}^{1/2}X\|^2+\|\Omega_D(X)\|^2,
+      \qquad
+      \mathcal D_D(X)
+      :=
+      \|\Delta_{D,\omega}X\|^2
+      +\|\Delta_{D,\omega}^{1/2}\Omega_D(X)\|^2.
+      \]
+      The formal energy identity leaves two nonlinear terms:
+      \[
+      \mathcal N_1(X)
+      :=
+      2\langle \Delta_{D,\omega}X,\mathbb P_DN_D(X)\rangle,
+      \qquad
+      \mathcal N_2(X)
+      :=
+      2\langle \Omega_D(X),
+      [\nabla_{D,\omega},\mathbb P_DN_D(X)]\rangle .
+      \]
+      Those two terms are the D.2 hinge.  The desired estimate is
+      \[
+      |\mathcal N_1(X)|+|\mathcal N_2(X)|
+      \le
+      \varepsilon\,\mathcal D_D(X)
+      +C_\varepsilon\,\Psi(\mathcal E_D(X)),
+      \]
+      with \(\Psi\) small enough or structured enough to close the continuation
+      argument.
+
+      The carrier-leakage completion supplies the derivative-placement estimate
+      used at this hinge.  In model form,
+      \[
+      \|[\Delta_D,Q_i]\mathbb P_DN_D(X)e_\beta\|
+      +\|Q_i\mathbb P_D[\Delta_D,N_D(X)]e_\beta\|
+      \le
+      \varepsilon\Big(
+      \|\Delta_DX\|
+      +\|\Delta_D^{1/2}\Omega_D(X)\|
+      \Big)
+      +C_{\varepsilon,i,\beta}\mathcal E_D(X)^{1/2}.
+      \]
+      This is the passage from a raw nonlinear transport term to an absorbable
+      carrier term.  The reader-facing point is the coercive absorption statement:
+      the projected nonlinearity is controlled on the same carrier domain supplied
+      by D.1.
+
+      With the H-level estimate and the commutator-tier estimate summed together,
+      the theorem file records the lane-local inequality
+      \[
+      \frac{d}{dt}\|X(t)\|_{\mathcal N}^2
+      +c_0\|\nabla_DX(t)\|_H^2
+      \le
+      C_0\|X(t)\|_H^2,
+      \]
+      using the carrier constants and the leakage discharge.  This gives the
+      projected-lane coercive payment.  The payment belongs on the same theorem
+      surface as the D.1 carrier and the later D.3 shadow readout; that shared
+      surface is what lets the appendix cite it as projected-flow support.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Theorem D.3: Commutative Shadow Theorem'
+    line_start: 3794
+    line_end: 3849
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3794
+    start_anchor: "\\subsection{Theorem D.3: Commutative Shadow Theorem}\n"
+    end_anchor: "\\subsection{Theorem D.4: Shadow Continuation Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Theorem D.3: Commutative Shadow Theorem}
+
+      D.3 is the readout theorem.  It says when the carrier solution \(X\) descends
+      to a classical Navier--Stokes velocity field.  The theorem note keeps two
+      readout branches separate.  The strict branch is remainder-free:
+      \[
+      \mathcal C(\partial_t X)=\partial_t u,
+      \qquad
+      \mathcal C(\Delta_DX)=\Delta u,
+      \qquad
+      \mathcal C(\mathbb P_DX)=\mathbb P_{\mathrm{Leray}}u,
+      \]
+      \[
+      \mathcal C(\mathbb P_DN_D(X))
+      =
+      \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+      \qquad
+      \|u\|_{H^s}\le C\|X\|_{H_D^s}.
+      \]
+      On that strict branch the commutative shadow \(u:=\mathcal C(X)\) satisfies
+      \[
+      \partial_t u+\mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+      =\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0,
+      \]
+      equivalently
+      \[
+      \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0.
+      \]
+
+      The weaker branch carries an explicit shadow defect:
+      \[
+      \mathcal C(\mathcal L_D(X))
+      =
+      \mathrm{classical}_{\mathrm{NS}}(u)
+      +\mathrm{Shadow}_{\mathrm{def}}(X),
+      \]
+      where
+      \[
+      \mathrm{Shadow}_{\mathrm{def}}(X)
+      =
+      \nabla p_{\mathrm{shadow}}
+      +\mathrm{Curv}_{\mathrm{sh}}(X)
+      +\mathrm{Tail}_{\mathrm{sh}}(X).
+      \]
+      The pressure-like part belongs to the exact channel, the curvature part belongs
+      to the persistent carrier package, and the tail belongs to the continuation
+      argument.  The strict remainder-free branch is the branch consumed by the
+      clean D.5 composition.  The weak branch has use in the D.4 absorption setting,
+      where the tail is absorbed and the classical equation claimed by the paper
+      stays unchanged.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: D.6b' - Global coercive decay in H
+    line_start: 4010
+    line_end: 4041
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4010
+    start_anchor: "\\subsection{D.6b' - Global coercive decay in H}\n"
+    end_anchor: "\\subsection{D.6c - Global low-tier coercivity under uniform H-control}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{D.6b' - Global coercive decay in H}
+
+      D.6b' is the scalar decay estimate behind the global carrier bound.  Split the
+      drift term as
+      \[
+      \delta_\omega=S_\omega+K_\omega,
+      \qquad
+      S_\omega:=\tfrac12(\delta_\omega+\delta_\omega^*),
+      \qquad
+      K_\omega:=\tfrac12(\delta_\omega-\delta_\omega^*).
+      \]
+      The skew part \(K_\omega\) has zero \(H\)-growth.  The symmetric part is bounded
+      by \(C_\delta\), and the active carrier supplies an effective coercive gap
+      \(\lambda_*^{\mathrm{eff}}\).  The threshold is
+      \[
+      \nu\lambda_*^{\mathrm{eff}}>C_\delta.
+      \]
+      Under that threshold,
+      \[
+      \frac12\frac{d}{dt}\|X(t)\|_H^2
+      +\nu\|\nabla_DX(t)\|_H^2
+      +(\nu\lambda_*^{\mathrm{eff}}-C_\delta)\|X(t)\|_H^2
+      \le 0.
+      \]
+      Thus, with \(c:=\nu\lambda_*^{\mathrm{eff}}-C_\delta>0\),
+      \[
+      \|X(t)\|_H\le e^{-ct}\|X(0)\|_H.
+      \]
+      This is the scalar decay input.  It says that the dissipative spectral gap
+      dominates the symmetric drift on the carrier surface.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: D.6c - Global low-tier coercivity under uniform H-control
+    line_start: 4042
+    line_end: 4090
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4042
+    start_anchor: "\\subsection{D.6c - Global low-tier coercivity under uniform H-control}\n"
+    end_anchor: "\\subsection{D.8a - Strong convergence of the approximating family}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{D.6c - Global low-tier coercivity under uniform H-control}
+
+      D.6c turns the slaving estimate into a single decay inequality.  Start from the
+      projected energy identity
+      \[
+      \frac{d}{dt}\|X\|_H^2
+      +\nu\Big(\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2\Big)
+      \le C_1\|X\|_{\mathcal N}^3.
+      \]
+      The global carrier bound supplies
+      \[
+      \|X\|_{\mathcal N}
+      \le
+      C_{\mathrm{slv}}\|X\|_H^{1/2}
+      \Big(\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2\Big)^{1/4}.
+      \]
+      The low-tier coercivity assumption is
+      \[
+      \|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2
+      \ge C_\Lambda\|X\|_H^2,
+      \]
+      and the \(H\)-tier bound gives
+      \[
+      \|X(t)\|_H\le M_H.
+      \]
+      The quantitative threshold is
+      \[
+      C_1C_{\mathrm{slv}}^3M_H<\nu C_\Lambda^{1/2}.
+      \]
+      Under that threshold the energy inequality becomes
+      \[
+      \frac{d}{dt}\|X(t)\|_H^2
+      \le
+      -c_{\mathrm{glob}}\|X(t)\|_H^2,
+      \qquad
+      c_{\mathrm{glob}}
+      :=
+      C_\Lambda^{1/2}\big(\nu C_\Lambda^{1/2}
+      -C_1C_{\mathrm{slv}}^3M_H\big)>0.
+      \]
+      Gronwall gives
+      \[
+      \|X(t)\|_H^2\le e^{-c_{\mathrm{glob}}t}\|X(0)\|_H^2.
+      \]
+      This is the explicit low-tier decay payment.  The threshold is part of the
+      proof because it turns the nonlinear carrier term into an absorbable term
+      inside the dissipative block.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: D.8a - Strong convergence of the approximating family
+    line_start: 4091
+    line_end: 4121
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4091
+    start_anchor: "\\subsection{D.8a - Strong convergence of the approximating family}\n"
+    end_anchor: "\\subsection{D.8b - Global projected well-posedness and exponential
+      decay}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{D.8a - Strong convergence of the approximating family}
+
+      D.8a is the compactness bridge for approximating carrier solutions.  The input
+      family satisfies
+      \[
+      X_n \hbox{ bounded in } L^\infty(0,T;H)\cap L^2(0,T;\mathcal N),
+      \]
+      and
+      \[
+      \partial_tX_n \hbox{ bounded in } L^2(0,T;\mathcal N^*).
+      \]
+      On \(\mathbb T^3\), the compact embedding
+      \[
+      H^1_\sigma\Subset L^2_\sigma
+      \]
+      gives strong convergence by Aubin--Lions.  On \(\mathbb R^3\), the same lemma
+      first gives local convergence in \(L^2(0,T;L^2(B_R))\), and the admissible tail
+      estimate promotes the local convergence to the full carrier space:
+      \[
+      \sup_n\int_0^T\int_{|x|>R}|X_n(t,x)|^2\,dx\,dt\le \varepsilon
+      \]
+      for \(R\) large.  The output is a subsequence and a limit \(X\) with
+      \[
+      X_n\to X
+      \qquad\hbox{strongly in }L^2(0,T;H).
+      \]
+      This strong convergence lets the projected nonlinear term pass to the limit on
+      the certified approximation route.  The carrier realization file records this
+      as Theorem \(R5\); D.4 uses Proposition \(R6\) as the continuation criterion.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: D.8b - Global projected well-posedness and exponential decay
+    line_start: 4122
+    line_end: 4153
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4122
+    start_anchor: "\\subsection{D.8b - Global projected well-posedness and exponential
+      decay}\n"
+    end_anchor: "\\subsection{Defect-Reduction Tower And Four-Body Recurrence Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{D.8b - Global projected well-posedness and exponential decay}
+
+      D.8b combines D.8a with the D.6 carrier bound.  The approximating family is
+      uniformly bounded on each finite interval, D.8a supplies strong convergence,
+      and the limit satisfies the projected weak formulation.  The global projected
+      solution lies in
+      \[
+      X\in
+      L^\infty_{\mathrm{loc}}([0,\infty);H)
+      \cap
+      L^2_{\mathrm{loc}}([0,\infty);\mathcal N).
+      \]
+      The low-tier decay then passes to the limit:
+      \[
+      \frac{d}{dt}\|X(t)\|_H^2
+      \le
+      -c_{\mathrm{glob}}\|X(t)\|_H^2,
+      \qquad t\ge 0.
+      \]
+      Consequently,
+      \[
+      \|X(t)\|_H^2
+      \le
+      e^{-c_{\mathrm{glob}}t}\|X(0)\|_H^2.
+      \]
+
+      The projected weak solution and exponential carrier-decay surface are the
+      conclusions here.  The result remains a projected-flow conclusion.  The classical
+      Navier--Stokes conclusion uses it through the strict shadow descent and
+      same-surface composition described in D.3--D.5.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Defect-Reduction Tower And Four-Body Recurrence Note
+    line_start: 4154
+    line_end: 4240
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4154
+    start_anchor: "\\subsection{Defect-Reduction Tower And Four-Body Recurrence Note}\n"
+    end_anchor: "\\subsection{Derivative-LP Compatibility Bridge Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Defect-Reduction Tower And Four-Body Recurrence Note}
+
+      D.75 organizes the Euclidean repair routes as one defect-reduction picture.
+      Each route starts from the same one-sided accumulated-scale obstruction and
+      rewrites the survivor in a sharper normal form.  The page shows one common
+      problem moving through several languages: shell gain, cumulative tail stress,
+      signed descent, Volterra scale memory, lower-triangular scale memory, and the
+      four-body recurrence.
+
+      \[
+      \mathcal E^{(0)}
+      :=
+      \begin{gathered}
+      \text{one-sided scale-memory / accumulated lower-prefix transport-stress}\\
+      \text{against the active shell}
+      \end{gathered}
+      \]
+
+      Each route applies a different normal-form reduction to this class:
+
+      \[
+      \mathcal E^{(n+1)} = \mathcal R(\mathcal E^{(n)}),
+      \]
+
+      At this stage \(\mathcal R\) records a structural reduction.  The evidence gives
+      descent of form, while a quantitative contraction theorem remains open.  The
+      route stack has the same pattern in several languages:
+
+      \[
+      \begin{gathered}
+      \text{shell obstruction}
+      \rightsquigarrow
+      \text{tail survivor}
+      \rightsquigarrow
+      \text{residual square-factor payment request},\\
+      \text{cumulative tail stress}
+      \rightsquigarrow
+      \text{dyadic lower-prefix active square},\\
+      \text{signed lifted bulk}
+      \rightsquigarrow
+      \text{boundary packet}+\text{mesoscopic residual},\\
+      \text{one-sided prefix}
+      \rightsquigarrow
+      \text{weighted quotient mode}
+      \rightsquigarrow
+      \text{affine moments }(M_0,M_1).
+      \end{gathered}
+      \]
+
+      The Body \(1\) lifted-band route gives the sharpest form of the same survivor.
+      It gains a real spectral-gap kernel, and the remaining lower-shell defect is
+
+      \[
+      \mathcal P_j^\downarrow(t)\,2^{-j}D_j(t)^2.
+      \]
+
+      \[
+      \text{raw lifted packet}
+      \rightsquigarrow
+      \text{kernelized lifted packet}
+      \rightsquigarrow
+      \text{persistent lower-shell defect}.
+      \]
+
+      \[
+      2^{3k}\|\Delta_k u\|_2^2
+      =
+      2^k \cdot 2^{2k}\|\Delta_k u\|_2^2,
+      \]
+
+      The four-body route remains live as a defect-reduction loop:
+
+      \[
+      S_{\mathrm{cl}}\to Q_{\mathrm{cl}},\qquad
+      (S_{\mathrm{cl}},Q_{\m
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Derivative-LP Compatibility Bridge Note
+    line_start: 4241
+    line_end: 4326
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4241
+    start_anchor: "\\subsection{Derivative-LP Compatibility Bridge Note}\n"
+    end_anchor: "\\subsection{Diagonal Restriction Stability On Entrance-Sector Refinement}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Derivative-LP Compatibility Bridge Note}
+
+      D.76 localizes the derivative source for the Lagrangian pressure wall and the
+      deformation commutator family.  It fixes the overstrong collar-local slogan:
+      after Littlewood--Paley projection, the derivative tower splits by Bony geometry
+      into low-high, high-low, and finite-collar resonant packets.
+
+      \[
+      (\partial_a^\beta A)\,U_{\alpha-\beta},
+      \qquad
+      0<\beta\le \alpha,
+      \]
+
+      \[
+      \mathcal Z_\alpha
+      :=
+      -\sum_{0<\beta\le\alpha}\binom{\alpha}{\beta}
+      (\partial_a^\beta A)\,U_{\alpha-\beta}.
+      \]
+
+      Fix a homogeneous Littlewood--Paley decomposition in the Lagrangian variable
+      \(a\), with shell operators \(\Delta_j\), low cutoffs \(S_j\), and collar width
+      \(C_0\ge4\). For one derivative split set
+
+      \[
+      F_{\alpha,\beta}:=\partial_a^\beta A,
+      \qquad
+      V_{\alpha,\beta}:=U_{\alpha-\beta}.
+      \]
+
+      The exact product localization is
+
+      \[
+      \Delta_j(F_{\alpha,\beta}V_{\alpha,\beta})
+      =
+      \mathsf{LH}_{\alpha,\beta,j}
+      +\mathsf{HL}_{\alpha,\beta,j}
+      +\mathsf{RR}_{\alpha,\beta,j}.
+      \]
+
+      The first two terms are strict coefficient packets. The resonant term is the
+      finite-collar packet:
+
+      \[
+      \mathsf{RR}_{\alpha,\beta,j}\ne0
+      \Longrightarrow
+      |k-\ell|\le C_0,\qquad |j-k|\le C_0.
+      \]
+
+      Summing over \(0<\beta\le\alpha\) gives the pressure-source split
+
+      \[
+      \Delta_j\mathcal Z_\alpha
+      =
+      \mathcal Z_{\alpha,j}^{LH}
+      +\mathcal Z_{\alpha,j}^{HL}
+      +\mathcal Z_{\alpha,j}^{RR}.
+      \]
+
+      This gives the source-side bridge for Lemma \(4B\).  The pressure wall continues
+      through the variable-coefficient exact projector
+
+      \[
+      \Pi_G^{ex}=-G\nabla_aL_G^{-1}\operatorname{div}_a .
+      \]
+
+      The shellwise response identity is
+
+      \[
+      \Delta_j\Pi_G^{ex}\mathcal Z_\alpha
+      =
+      \Pi_G^{ex}\mathcal Z_{\alpha,j}^{LH}
+      +\Pi_G^{ex}\mathcal Z_{\alpha,j}^{HL}
+      +\Pi_G^{ex}\mathcal Z_{\alpha,j}^{RR}
+      +[\Delta_j,\Pi_G^{ex}]\mathcal Z_\alpha .
+      \]
+
+      The reserve \(4B\) debt is explicit.  The low-high projector commutator theorem
+      is the named payment surface for the coefficient packets and commutator; the
+      same-depth resonant side is the na
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Theorem D.2: Global Coercive Energy Estimate}
+
+    D.2 pays the analytic cost of the projected lane.  It shows how the carrier
+    flow absorbs the nonlinear term into the dissipative quantity.  The theorem
+    note uses
+    \[
+    \mathcal E_D(X)
+    :=
+    \|\Delta_{D,\omega}^{1/2}X\|^2+\|\Omega_D(X)\|^2,
+    \qquad
+    \mathcal D_D(X)
+    :=
+    \|\Delta_{D,\omega}X\|^2
+    +\|\Delta_{D,\omega}^{1/2}\Omega_D(X)\|^2.
+    \]
+    The formal energy identity leaves two nonlinear terms:
+    \[
+    \mathcal N_1(X)
+    :=
+    2\langle \Delta_{D,\omega}X,\mathbb P_DN_D(X)\rangle,
+    \qquad
+    \mathcal N_2(X)
+    :=
+    2\langle \Omega_D(X),
+    [\nabla_{D,\omega},\mathbb P_DN_D(X)]\rangle .
+    \]
+    Those two terms are the D.2 hinge.  The desired estimate is
+    \[
+    |\mathcal N_1(X)|+|\mathcal N_2(X)|
+    \le
+    \varepsilon\,\mathcal D_D(X)
+    +C_\varepsilon\,\Psi(\mathcal E_D(X)),
+    \]
+    with \(\Psi\) small enough or structured enough to close the continuation
+    argument.
+
+    The carrier-leakage completion supplies the derivative-placement estimate
+    used at this hinge.  In model form,
+    \[
+    \|[\Delta_D,Q_i]\mathbb P_DN_D(X)e_\beta\|
+    +\|Q_i\mathbb P_D[\Delta_D,N_D(X)]e_\beta\|
+    \le
+    \varepsilon\Big(
+    \|\Delta_DX\|
+    +\|\Delta_D^{1/2}\Omega_D(X)\|
+    \Big)
+    +C_{\varepsilon,i,\beta}\mathcal E_D(X)^{1/2}.
+    \]
+    This is the passage from a raw nonlinear transport term to an absorbable
+    carrier term.  The reader-facing point is the coercive absorption statement:
+    the projected nonlinearity is controlled on the same carrier domain supplied
+    by D.1.
+
+    With the H-level estimate and the commutator-tier estimate summed together,
+    the theorem file records the lane-local inequality
+    \[
+    \frac{d}{dt}\|X(t)\|_{\mathcal N}^2
+    +c_0\|\nabla_DX(t)\|_H^2
+    \le
+    C_0\|X(t)\|_H^2,
+    \]
+    using the carrier constants and the leakage discharge.  This gives the
+    projected-lane coercive payment.  The payment belongs on the same theorem
+    surface as the D.1 carrier and the later D.3 shadow readout; that shared
+    surface is what lets the appendix cite it as projected-flow support.
+
+
+
+    \subsection{Theorem D.3: Commutative Shadow Theorem}
+
+    D.3 is the readout theorem.  It says when the carrier solution \(X\) descends
+    to a classical Navier--Stokes velocity field.  The theorem note keeps two
+    readout branches separate.  The strict branch is remainder-free:
+    \[
+    \mathcal C(\partial_t X)=\partial_t u,
+    \qquad
+    \mathcal C(\Delta_DX)=\Delta u,
+    \qquad
+    \mathcal C(\mathbb P_DX)=\mathbb P_{\mathrm{Leray}}u,
+    \]
+    \[
+    \mathcal C(\mathbb P_DN_D(X))
+    =
+    \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+    \qquad
+    \|u\|_{H^s}\le C\|X\|_{H_D^s}.
+    \]
+    On that strict branch the commutative shadow \(u:=\mathcal C(X)\) satisfies
+    \[
+    \partial_t u+\mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+    =\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0,
+    \]
+    equivalently
+    \[
+    \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0.
+    \]
+
+    The weaker branch carries an explicit shadow defect:
+    \[
+    \mathcal C(\mathcal L_D(X))
+    =
+    \mathrm{classical}_{\mathrm{NS}}(u)
+    +\mathrm{Shadow}_{\mathrm{def}}(X),
+    \]
+    where
+    \[
+    \mathrm{Shadow}_{\mathrm{def}}(X)
+    =
+    \nabla p_{\mathrm{shadow}}
+    +\mathrm{Curv}_{\mathrm{sh}}(X)
+    +\mathrm{Tail}_{\mathrm{sh}}(X).
+    \]
+    The pressure-like part belongs to the exact channel, the curvature part belongs
+    to the persistent carrier package, and the tail belongs to the continuation
+    argument.  The strict remainder-free branch is the branch consumed by the
+    clean D.5 composition.  The weak branch has use in the D.4 absorption setting,
+    where the tail is absorbed and the classical equation claimed by the paper
+    stays unchanged.
+
+
+
+    \subsection{D.6b' - Global coercive decay in H}
+
+    D.6b' is the scalar decay estimate behind the global carrier bound.  Split the
+    drift term as
+    \[
+    \delta_\omega=S_\omega+K_\omega,
+    \qquad
+    S_\omega:=\tfrac12(\delta_\omega+\delta_\omega^*),
+    \qquad
+    K_\omega:=\tfrac12(\delta_\omega-\delta_\omega^*).
+    \]
+    The skew part \(K_\omega\) has zero \(H\)-growth.  The symmetric part is bounded
+    by \(C_\delta\), and the active carrier supplies an effective coercive gap
+    \(\lambda_*^{\mathrm{eff}}\).  The threshold is
+    \[
+    \nu\lambda_*^{\mathrm{eff}}>C_\delta.
+    \]
+    Under that threshold,
+    \[
+    \frac12\frac{d}{dt}\|X(t)\|_H^2
+    +\nu\|\nabla_DX(t)\|_H^2
+    +(\nu\lambda_*^{\mathrm{eff}}-C_\delta)\|X(t)\|_H^2
+    \le 0.
+    \]
+    Thus, with \(c:=\nu\lambda_*^{\mathrm{eff}}-C_\delta>0\),
+    \[
+    \|X(t)\|_H\le e^{-ct}\|X(0)\|_H.
+    \]
+    This is the scalar decay input.  It says that the dissipative spectral gap
+    dominates the symmetric drift on the carrier surface.
+
+
+
+    \subsection{D.6c - Global low-tier coercivity under uniform H-control}
+
+    D.6c turns the slaving estimate into a single decay inequality.  Start from the
+    projected energy identity
+    \[
+    \frac{d}{dt}\|X\|_H^2
+    +\nu\Big(\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2\Big)
+    \le C_1\|X\|_{\mathcal N}^3.
+    \]
+    The global carrier bound supplies
+    \[
+    \|X\|_{\mathcal N}
+    \le
+    C_{\mathrm{slv}}\|X\|_H^{1/2}
+    \Big(\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2\Big)^{1/4}.
+    \]
+    The low-tier coercivity assumption is
+    \[
+    \|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2
+    \ge C_\Lambda\|X\|_H^2,
+    \]
+    and the \(H\)-tier bound gives
+    \[
+    \|X(t)\|_H\le M_H.
+    \]
+    The quantitative threshold is
+    \[
+    C_1C_{\mathrm{slv}}^3M_H<\nu C_\Lambda^{1/2}.
+    \]
+    Under that threshold the energy inequality becomes
+    \[
+    \frac{d}{dt}\|X(t)\|_H^2
+    \le
+    -c_{\mathrm{glob}}\|X(t)\|_H^2,
+    \qquad
+    c_{\mathrm{glob}}
+    :=
+    C_\Lambda^{1/2}\big(\nu C_\Lambda^{1/2}
+    -C_1C_{\mathrm{slv}}^3M_H\big)>0.
+    \]
+    Gronwall gives
+    \[
+    \|X(t)\|_H^2\le e^{-c_{\mathrm{glob}}t}\|X(0)\|_H^2.
+    \]
+    This is the explicit low-tier decay payment.  The threshold is part of the
+    proof because it turns the nonlinear carrier term into an absorbable term
+    inside the dissipative block.
+
+
+
+    \subsection{D.8a - Strong convergence of the approximating family}
+
+    D.8a is the compactness bridge for approximating carrier solutions.  The input
+    family satisfies
+    \[
+    X_n \hbox{ bounded in } L^\infty(0,T;H)\cap L^2(0,T;\mathcal N),
+    \]
+    and
+    \[
+    \partial_tX_n \hbox{ bounded in } L^2(0,T;\mathcal N^*).
+    \]
+    On \(\mathbb T^3\), the compact embedding
+    \[
+    H^1_\sigma\Subset L^2_\sigma
+    \]
+    gives strong convergence by Aubin--Lions.  On \(\mathbb R^3\), the same lemma
+    first gives local convergence in \(L^2(0,T;L^2(B_R))\), and the admissible tail
+    estimate promotes the local convergence to the full carrier space:
+    \[
+    \sup_n\int_0^T\int_{|x|>R}|X_n(t,x)|^2\,dx\,dt\le \varepsilon
+    \]
+    for \(R\) large.  The output is a subsequence and a limit \(X\) with
+    \[
+    X_n\to X
+    \qquad\hbox{strongly in }L^2(0,T;H).
+    \]
+    This strong convergence lets the projected nonlinear term pass to the limit on
+    the certified approximation route.  The carrier realization file records this
+    as Theorem \(R5\); D.4 uses Proposition \(R6\) as the continuation criterion.
+
+
+
+    \subsection{D.8b - Global projected well-posedness and exponential decay}
+
+    D.8b combines D.8a with the D.6 carrier bound.  The approximating family is
+    uniformly bounded on each finite interval, D.8a supplies strong convergence,
+    and the limit satisfies the projected weak formulation.  The global projected
+    solution lies in
+    \[
+    X\in
+    L^\infty_{\mathrm{loc}}([0,\infty);H)
+    \cap
+    L^2_{\mathrm{loc}}([0,\infty);\mathcal N).
+    \]
+    The low-tier decay then passes to the limit:
+    \[
+    \frac{d}{dt}\|X(t)\|_H^2
+    \le
+    -c_{\mathrm{glob}}\|X(t)\|_H^2,
+    \qquad t\ge 0.
+    \]
+    Consequently,
+    \[
+    \|X(t)\|_H^2
+    \le
+    e^{-c_{\mathrm{glob}}t}\|X(0)\|_H^2.
+    \]
+
+    The projected weak solution and exponential carrier-decay surface are the
+    conclusions here.  The result remains a projected-flow conclusion.  The classical
+    Navier--Stokes conclusion uses it through the strict shadow descent and
+    same-surface composition described in D.3--D.5.
+
+
+
+    \subsection{Defect-Reduction Tower And Four-Body Recurrence Note}
+
+    D.75 organizes the Euclidean repair routes as one defect-reduction picture.
+    Each route starts from the same one-sided accumulated-scale obstruction and
+    rewrites the survivor in a sharper normal form.  The page shows one common
+    problem moving through several languages: shell gain, cumulative tail stress,
+    signed descent, Volterra scale memory, lower-triangular scale memory, and the
+    four-body recurrence.
+
+    \[
+    \mathcal E^{(0)}
+    :=
+    \begin{gathered}
+    \text{one-sided scale-memory / accumulated lower-prefix transport-stress}\\
+    \text{against the active shell}
+    \end{gathered}
+    \]
+
+    Each route applies a different normal-form reduction to this class:
+
+    \[
+    \mathcal E^{(n+1)} = \mathcal R(\mathcal E^{(n)}),
+    \]
+
+    At this stage \(\mathcal R\) records a structural reduction.  The evidence gives
+    descent of form, while a quantitative contraction theorem remains open.  The
+    route stack has the same pattern in several languages:
+
+    \[
+    \begin{gathered}
+    \text{shell obstruction}
+    \rightsquigarrow
+    \text{tail survivor}
+    \rightsquigarrow
+    \text{residual square-factor payment request},\\
+    \text{cumulative tail stress}
+    \rightsquigarrow
+    \text{dyadic lower-prefix active square},\\
+    \text{signed lifted bulk}
+    \rightsquigarrow
+    \text{boundary packet}+\text{mesoscopic residual},\\
+    \text{one-sided prefix}
+    \rightsquigarrow
+    \text{weighted quotient mode}
+    \rightsquigarrow
+    \text{affine moments }(M_0,M_1).
+    \end{gathered}
+    \]
+
+    The Body \(1\) lifted-band route gives the sharpest form of the same survivor.
+    It gains a real spectral-gap kernel, and the remaining lower-shell defect is
+
+    \[
+    \mathcal P_j^\downarrow(t)\,2^{-j}D_j(t)^2.
+    \]
+
+    \[
+    \text{raw lifted packet}
+    \rightsquigarrow
+    \text{kernelized lifted packet}
+    \rightsquigarrow
+    \text{persistent lower-shell defect}.
+    \]
+
+    \[
+    2^{3k}\|\Delta_k u\|_2^2
+    =
+    2^k \cdot 2^{2k}\|\Delta_k u\|_2^2,
+    \]
+
+    The four-body route remains live as a defect-reduction loop:
+
+    \[
+    S_{\mathrm{cl}}\to Q_{\mathrm{cl}},\qquad
+    (S_{\mathrm{cl}},Q_{\mathrm{cl}})\to C_{\mathrm{cl}},\qquad
+    C_{\mathrm{cl}}\to G_{\mathrm{cl}},\qquad
+    G_{\mathrm{cl}}\to S_{\mathrm{cl}}.
+    \]
+
+    In that reading, Body \(4\) exposes the current survivor at the continuation
+    side and the \(4\to1\) return feeds it back into the next Body \(1\) export
+    theorem on the same geometry.  The boundary is precise: the tower has structural
+    descent, a norm-contraction theorem remains open, and the terminal comparison
+    currently shows two survivor families.  The exact bridge question is whether
+    \((B1)\)--\((B3)\) identify those families as one terminal class.
+
+
+
+    \subsection{Derivative-LP Compatibility Bridge Note}
+
+    D.76 localizes the derivative source for the Lagrangian pressure wall and the
+    deformation commutator family.  It fixes the overstrong collar-local slogan:
+    after Littlewood--Paley projection, the derivative tower splits by Bony geometry
+    into low-high, high-low, and finite-collar resonant packets.
+
+    \[
+    (\partial_a^\beta A)\,U_{\alpha-\beta},
+    \qquad
+    0<\beta\le \alpha,
+    \]
+
+    \[
+    \mathcal Z_\alpha
+    :=
+    -\sum_{0<\beta\le\alpha}\binom{\alpha}{\beta}
+    (\partial_a^\beta A)\,U_{\alpha-\beta}.
+    \]
+
+    Fix a homogeneous Littlewood--Paley decomposition in the Lagrangian variable
+    \(a\), with shell operators \(\Delta_j\), low cutoffs \(S_j\), and collar width
+    \(C_0\ge4\). For one derivative split set
+
+    \[
+    F_{\alpha,\beta}:=\partial_a^\beta A,
+    \qquad
+    V_{\alpha,\beta}:=U_{\alpha-\beta}.
+    \]
+
+    The exact product localization is
+
+    \[
+    \Delta_j(F_{\alpha,\beta}V_{\alpha,\beta})
+    =
+    \mathsf{LH}_{\alpha,\beta,j}
+    +\mathsf{HL}_{\alpha,\beta,j}
+    +\mathsf{RR}_{\alpha,\beta,j}.
+    \]
+
+    The first two terms are strict coefficient packets. The resonant term is the
+    finite-collar packet:
+
+    \[
+    \mathsf{RR}_{\alpha,\beta,j}\ne0
+    \Longrightarrow
+    |k-\ell|\le C_0,\qquad |j-k|\le C_0.
+    \]
+
+    Summing over \(0<\beta\le\alpha\) gives the pressure-source split
+
+    \[
+    \Delta_j\mathcal Z_\alpha
+    =
+    \mathcal Z_{\alpha,j}^{LH}
+    +\mathcal Z_{\alpha,j}^{HL}
+    +\mathcal Z_{\alpha,j}^{RR}.
+    \]
+
+    This gives the source-side bridge for Lemma \(4B\).  The pressure wall continues
+    through the variable-coefficient exact projector
+
+    \[
+    \Pi_G^{ex}=-G\nabla_aL_G^{-1}\operatorname{div}_a .
+    \]
+
+    The shellwise response identity is
+
+    \[
+    \Delta_j\Pi_G^{ex}\mathcal Z_\alpha
+    =
+    \Pi_G^{ex}\mathcal Z_{\alpha,j}^{LH}
+    +\Pi_G^{ex}\mathcal Z_{\alpha,j}^{HL}
+    +\Pi_G^{ex}\mathcal Z_{\alpha,j}^{RR}
+    +[\Delta_j,\Pi_G^{ex}]\mathcal Z_\alpha .
+    \]
+
+    The reserve \(4B\) debt is explicit.  The low-high projector commutator theorem
+    is the named payment surface for the coefficient packets and commutator; the
+    same-depth resonant side is the named payment surface for the capwise operator
+    theorem or one of its symbolic sufficient routes.  The support value of D.76 is
+    the exact localization of the remaining wall: the derivative tower localizes at
+    the source level, and the live debt is propagation of that localized source
+    through the elliptic response.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Theorem D.2: Global Coercive Energy Estimate'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3727
+  line_start: 3727
+  line_end: 3793
+  start_anchor: "\\subsection{Theorem D.2: Global Coercive Energy Estimate}\n"
+  end_anchor: "\\subsection{Theorem D.3: Commutative Shadow Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Theorem D.2: Global Coercive
+    Energy Estimate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3727
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Theorem D.3: Commutative Shadow Theorem'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3794
+  line_start: 3794
+  line_end: 3849
+  start_anchor: "\\subsection{Theorem D.3: Commutative Shadow Theorem}\n"
+  end_anchor: "\\subsection{Theorem D.4: Shadow Continuation Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Theorem D.3: Commutative Shadow
+    Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3794
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: D.6b' - Global coercive decay in H
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4010
+  line_start: 4010
+  line_end: 4041
+  start_anchor: "\\subsection{D.6b' - Global coercive decay in H}\n"
+  end_anchor: "\\subsection{D.6c - Global low-tier coercivity under uniform H-control}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite D.6b'' - Global coercive decay
+    in H as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4010
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: D.6c - Global low-tier coercivity under uniform H-control
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4042
+  line_start: 4042
+  line_end: 4090
+  start_anchor: "\\subsection{D.6c - Global low-tier coercivity under uniform H-control}\n"
+  end_anchor: "\\subsection{D.8a - Strong convergence of the approximating family}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite D.6c - Global low-tier coercivity
+    under uniform H-control as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4042
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: D.8a - Strong convergence of the approximating family
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4091
+  line_start: 4091
+  line_end: 4121
+  start_anchor: "\\subsection{D.8a - Strong convergence of the approximating family}\n"
+  end_anchor: "\\subsection{D.8b - Global projected well-posedness and exponential
+    decay}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite D.8a - Strong convergence of
+    the approximating family as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4091
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: D.8b - Global projected well-posedness and exponential decay
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4122
+  line_start: 4122
+  line_end: 4153
+  start_anchor: "\\subsection{D.8b - Global projected well-posedness and exponential
+    decay}\n"
+  end_anchor: "\\subsection{Defect-Reduction Tower And Four-Body Recurrence Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite D.8b - Global projected well-posedness
+    and exponential decay as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4122
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Defect-Reduction Tower And Four-Body Recurrence Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4154
+  line_start: 4154
+  line_end: 4240
+  start_anchor: "\\subsection{Defect-Reduction Tower And Four-Body Recurrence Note}\n"
+  end_anchor: "\\subsection{Derivative-LP Compatibility Bridge Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Defect-Reduction Tower And Four-Body
+    Recurrence Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4154
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Derivative-LP Compatibility Bridge Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4241
+  line_start: 4241
+  line_end: 4326
+  start_anchor: "\\subsection{Derivative-LP Compatibility Bridge Note}\n"
+  end_anchor: "\\subsection{Diagonal Restriction Stability On Entrance-Sector Refinement}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Derivative-LP Compatibility Bridge
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4241
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-03
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-03.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

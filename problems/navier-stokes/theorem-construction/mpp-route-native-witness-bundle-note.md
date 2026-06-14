@@ -330,7 +330,7 @@ First, the packing piece is controlled by
 So the classical continuation criterion gives
 
 ```math
-\Gamma(t)\lesssim
+\Gamma(t)\le C_{\Gamma,0}
 \exp\!\Big(\int_0^t \|\nabla u(\tau)\|_{L^\infty}\,d\tau\Big).
 \tag{RW.20}
 ```
@@ -351,12 +351,11 @@ Pressure is recovered by the elliptic law
 
 so the carrier is globally tied to `u`.
 
-Third, the carrier witness is formally controlled by higher tower data. At the
-rough symbolic level,
+Third, the carrier witness requires the following higher-tower control estimate:
 
 ```math
 \mathfrak P_N(t)+\mathfrak Q_N(r,t)
-\lesssim_{N,r}
+\le C_{N,r}
 \mathfrak T_{N+2}(t)+\mathfrak C_{N+2}(r,t)
 +
 \text{nonlinear lower-order tower products.}

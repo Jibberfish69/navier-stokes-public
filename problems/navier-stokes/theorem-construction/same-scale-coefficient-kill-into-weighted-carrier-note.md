@@ -90,13 +90,20 @@ Consequently,
 \tag{8}
 ```
 
-Equivalently, on the weighted spectral surface with
-`T_1(K,t)\sim E_N(t)` and
+Equivalently, on the weighted spectral surface with fixed constants
+`c_T,C_T>0` satisfying
+
+```math
+c_T T_1(K,t)\le E_N(t)\le C_T\,T_1(K,t)
+```
+
+and
 `\mathcal C_1^\sharp(K,t)=\widetilde\Lambda_N^\sharp(t)`,
 
 ```math
 \int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt
-\lesssim
+\le
+C_T
 \int_0^T \mathcal C_1^\sharp(K,t)\,T_1(K,t)\,dt.
 \tag{9}
 ```
@@ -134,8 +141,8 @@ The second inequality in `(7)` is immediate from `(4)` because `\Lambda_N(t)\ge
 ```
 
 Multiplying `(7)` by `E_N(t)\ge 0` and integrating in time yields `(8)`.
-Using Littlewood--Paley equivalence on the weighted spectral surface gives
-`(9)`.
+Using the displayed Littlewood--Paley upper bound `E_N(t)\le C_T\,T_1(K,t)` on
+the weighted spectral surface gives `(9)`.
 
 ## Corollary: weak same-scale closure is already on the carrier surface
 

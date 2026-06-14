@@ -184,7 +184,7 @@ has the same critical weight as the Carleson reserve:
 
 ```math
 \int_{I_m}2^{3k_m}|\delta_{k_m}U|^2dt
-\gtrsim
+\ge c_{\mathrm{SCF}}
 \int_{I_m}2^{k_m}T_{k_m}(t)^2dt
 -Loss_{legal}(I_m).
 ```

@@ -55,9 +55,9 @@ D_N^{(n)}(t)
 Littlewood--Paley equivalence gives
 
 ```math
-T_1^{(n)}(K,t)\sim E_N^{(n)}(t),
+c_{LP}E_N^{(n)}(t)\le T_1^{(n)}(K,t)\le C_{LP}E_N^{(n)}(t),
 \qquad
-Q_1^{(n)}(K,t)\sim D_N^{(n)}(t).
+c_{LP}D_N^{(n)}(t)\le Q_1^{(n)}(K,t)\le C_{LP}D_N^{(n)}(t).
 \tag{3}
 ```
 
@@ -258,9 +258,9 @@ C_*2^{-2\delta N}.
 Using `(3)` and `(6)`,
 
 ```math
-E_N^{(n)}(t)\sim T_1^{(n)}(K,t),
+C_{LP}^{-1}T_1^{(n)}(K,t)\le E_N^{(n)}(t)\le c_{LP}^{-1}T_1^{(n)}(K,t),
 \qquad
-D_N^{(n)}(t)\sim Q_1^{(n)}(K,t),
+C_{LP}^{-1}Q_1^{(n)}(K,t)\le D_N^{(n)}(t)\le c_{LP}^{-1}Q_1^{(n)}(K,t),
 \qquad
 \Lambda_N^{(n)}+\Theta_N^{\sharp,(n)}=\mathcal C_1^{\sharp,(n)}.
 \tag{18}

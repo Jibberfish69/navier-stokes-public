@@ -80,7 +80,8 @@ Therefore
 
 ```math
 \int_0^{T_\ast}\sum_{j>N}\gamma_j(t)\,dt
-\lesssim_M
+\le
+C_M
 2^{-N}
 \int_0^{T_\ast}\sum_mE_m(t)\,dt
 \to0.
@@ -113,23 +114,25 @@ Equation `(1)` gives no such domination.
 
 The obstruction has the exact active scaling.
 
-At shell `j`, a scale-critical pulse has
+At shell `j`, take the exact heat-scale pulse model
 
 ```math
-E_j(t)\sim 2^j
+I_j:=[t_j,t_j+2^{-2j}],
+\qquad
+E_j(t):=2^j\,\mathbf 1_{I_j}(t).
 ```
 
-on a heat-scale interval
+Then
 
 ```math
-|I_j|\sim 2^{-2j}.
+|I_j|=2^{-2j}.
 ```
 
 Then
 
 ```math
 \int_{I_j}E_j(t)\,dt
-\sim
+=
 2^{-j},
 ```
 
@@ -137,7 +140,7 @@ so the energy-dissipation ledger can sum such pulses across increasing shells.
 But the mixed-shell spill coefficient is not small:
 
 ```math
-\gamma_j(t)=2^{-j}E_j(t)\sim1
+\gamma_j(t)=2^{-j}E_j(t)=1
 \qquad (t\in I_j).
 ```
 
@@ -209,10 +212,11 @@ theorem `(SS-model)`, one must prove
 ```
 
 This is again the no-pulse assertion.  The same critical pulse with
-`E_j\sim2^j` on a heat-scale interval has
+`E_j(t)=2^j` on `I_j` has
 
 ```math
-\Theta_j^{ss,\sharp}\sim 2^jE_j\sim 2^{2j},
+\Theta_j^{ss,\sharp}=2^jE_j=2^{2j}
+\qquad (t\in I_j),
 ```
 
 so `(3)` cannot be upgraded by energy bookkeeping alone.

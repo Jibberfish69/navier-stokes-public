@@ -39,7 +39,7 @@ packet family
 \qquad
 j_n\to\infty,
 \qquad
-|I_n|\simeq 2^{-2j_n},
+c_I2^{-2j_n}\le |I_n|\le C_I2^{-2j_n},
 \qquad
 t_n\uparrow T_\ast,
 ```

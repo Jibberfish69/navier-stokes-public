@@ -175,7 +175,7 @@ The correct route reading is narrower.  For any fixed threshold `N`,
 
 ```math
 \|u(t)\|_{H^1}^2
-\lesssim
+\le C_N
 \sum_{j<N}2^{2j}\|\Delta_j u(t)\|_2^2
 +
 E_N(t).
@@ -467,7 +467,7 @@ For the actual scale-normalized donor factor,
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\sim
+:=
 \sum_{k>N}2^k
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2.
 ```

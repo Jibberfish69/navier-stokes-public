@@ -26,19 +26,19 @@ Kato-Ponce/tame estimates give
 
 ```math
 |\langle [\Lambda_D^s, X\cdot\nabla_D]X,\Lambda_D^s X\rangle|
-\le C\|\nabla_DX\|_{L^\infty}\|X\|_{H_D^s}^2+	ext{lower terms}.
+\le C\|\nabla_DX\|_{L^\infty}\|X\|_{H_D^s}^2+\mathrm{Lower}_s(t).
 ```
 
 On the current lifted surface,
 
 ```math
-\|\nabla_DX\|_{L^\infty}\lesssim E(t)^{1/2}.
+\|\nabla_DX\|_{L^\infty}\le C_EE(t)^{1/2}.
 ```
 
 Therefore
 
 ```math
-E'(t)\lesssim E(t)^{3/2}+E(t)+1.
+E'(t)\le C_sE(t)^{3/2}+C_sE(t)+C_s.
 ```
 
 This is the exact source of the non-Osgood `Phi_s`.
@@ -48,7 +48,7 @@ This is the exact source of the non-Osgood `Phi_s`.
 The route needs a replacement for
 
 ```math
-\|\nabla_DX\|_{L^\infty}\lesssim E^{1/2}.
+\|\nabla_DX\|_{L^\infty}\le C_EE^{1/2}.
 ```
 
 Any one of the following repairs is sufficient.
@@ -98,7 +98,9 @@ The shortest structural target is Repair B:
 \|\nabla_D\mathbb S_D(j)\mathbb H_DX\|_{L^\infty}\le c\nu2^{2j}
 ```
 
-with a proof from persistent-support transport rather than from the lifted energy size. That theorem eliminates the same-rung coefficient causing `Phi_s(E)\sim E^{3/2}`.
+with a proof from persistent-support transport rather than from the lifted
+energy size. That theorem eliminates the same-rung coefficient causing
+`Phi_s(E):=C_sE^{3/2}+C_sE+C_s`.
 
 ## Boundary
 

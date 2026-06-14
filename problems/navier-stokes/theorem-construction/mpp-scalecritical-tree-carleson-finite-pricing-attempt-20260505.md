@@ -104,7 +104,7 @@ For the source-pulse branch donor normalization, the parent amplitude ledger is:
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\sim
+:=
 \sum_{k>N}
 2^k
 \left(
@@ -162,7 +162,7 @@ while the scale-critical reserve contains:
 \left(
 \sum_{\ell>k+4}D_\ell(t)
 \right)^2dt
-\simeq
+=
 2^nM_n^2\varepsilon_n.
 ```
 

@@ -1,0 +1,1285 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-13
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-13
+  sequence: 165
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 13
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 11706
+  line_end: 12291
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11706
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11834
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11908
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11962
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12088
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12135
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12184
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12230
+  subsection_titles:
+  - Localized Projector Coarse Route Reduces to Force-Ceiling Plus Familywise Summation
+  - Localized Projector Kernel Mismatch Implies Overlap Surrogate
+  - Localized Projector Localizer-Modulus Overlap Reduction
+  - Localized Projector-Moment Concentration Implies Pair Suppliers
+  - Localized Projector-Moment Weighted Residual Suppliers
+  - Localized Projector Overlap-Mismatch Globalization
+  - Localized Projector Time-Dependent PSJ+.22 Forcing Variant
+  - Localized Projector Weighted PSJ+.22 Suppliers
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Route Reduces to Force-Ceiling Plus
+      Familywise Summation
+    line_start: 11706
+    line_end: 11737
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11706
+    start_anchor: "\\subsection{Localized Projector Coarse Route Reduces to Force-Ceiling
+      Plus Familywise Summation}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Route Stronger Adiabatic
+      Continuation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Route Reduces to Force-Ceiling Plus Familywise Summation}
+
+      Viewed from the older exact-potential synchronization packet, the same coarse
+      route reduces to two upstream walls: the force-ceiling/entrance side and the
+      familywise source summation side.
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k);
+      \]
+
+      \[
+      \sum_\ell
+      \bigl(\mathbf B_{\ell,\mathrm{proj}}^{ent}+\kappa_\ell\bigr)\,
+      \nu_J(\Lambda_\ell)
+      +
+      \frac{1}{\gamma_\ast^2}
+      \sum_{(\ell,\ell')\in\mathcal O_\Lambda}
+      \Bigl(
+      \operatorname*{ess\,sup}_{\Lambda_\ell\cap\Lambda_{\ell'}}
+      \varepsilon_{\ell\ell'}^{sur}
+      \Bigr)^2
+      \nu_J(\Lambda_\ell\cap\Lambda_{\ell'})
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr);
+      \]
+
+      Overlap no longer survives as an independent scalar geometry burden. This
+      section records the older-packet view of the same route: the remaining theorem
+      content is exactly that two-part wall, and the current localized-projector
+      branch has not paid those packets here.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Kernel Mismatch Implies Overlap Surrogate
+    line_start: 11834
+    line_end: 11907
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11834
+    start_anchor: "\\subsection{Localized Projector Kernel Mismatch Implies Overlap
+      Surrogate}\n"
+    end_anchor: "\\subsection{Localized Projector Localizer-Modulus Overlap Reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Kernel Mismatch Implies Overlap Surrogate}
+
+      The overlap-mismatch box is abstract until it is tied to the actual localized
+      projector. On this route, each local positive-semidefinite section is a
+      positive weighted average of the same rank-one projectors. The mismatch is a
+      kernel-mismatch problem, not a new spectral phenomenon.
+
+      Fix one active overlap point \(z=(a,b,t)\). On the overlap of two active local
+      windows \(\ell\) and \(\ell'\), assume one common packet space
+      \(\mathcal P_J(z)\), one fixed reference measure \(\bar\nu_{J,z}\), and one
+      common measurable rank-one projector field
+
+      \[
+      P_J(z,p),
+      \qquad
+      \|P_J(z,p)\|_{\mathrm{op}}=1
+      \qquad
+      \text{for }\bar\nu_{J,z}\text{-a.e. }p\in\mathcal P_J(z).
+      \]
+
+      \[
+      \widetilde S_{J,\ell}(z)
+      =
+      \int_{\mathcal P_J(z)}
+      \lambda_{J,\ell}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+      \]
+
+      \[
+      \widetilde S_{J,\ell'}(z)
+      =
+      \int_{\mathcal P_J(z)}
+      \lambda_{J,\ell'}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+      \]
+
+      \[
+      m_{J,\ell}(z)
+      :=
+      \int_{\mathcal P_J(z)}\lambda_{J,\ell}(z,p)\,d\bar\nu_{J,z}(p),
+      \qquad
+      m_{J,\ell'}(z)
+      :=
+      \int_{\mathcal P_J(z)}\lambda_{J,\ell'}(z,p)\,d\bar\nu_{J,z}(p),
+      \]
+
+      \[
+      \vartheta_{J,\ell}(z,p):=\frac{\lambda_{J,\ell}(z,p)}{m_{J,\ell}(z)},
+      \qquad
+      \vartheta_{J,\ell'}(z,p):=\frac{\lambda_{J,\ell'}(z,p)}{m_{J,\ell'}(z)},
+      \]
+
+      Normalize the two sections by their masses. Then
+
+      \[
+      \left\|
+      \frac{\widetilde S_{J,\ell}(z)}{m_{J,\ell}(z)}
+      -
+      \frac{\widetilde S_{J,\ell'}(z)}{m_{J,\ell'}(z)}
+      \right\|_{\mathrm{op}}
+      \le
+      \int_{\mathcal P_J(z)}
+      \bigl|
+      \vartheta_{J,\ell}(z,p)
+      -
+      \vartheta_{J,\ell'}(z,p)
+      \bigr|
+      \,d\bar\nu_{J,z}(p).
+      \]
+
+      On the exact PSJ+.1 realization, the overlapping packets use the same selector,
+      pair-length window, and confidence weight. Their difference comes from the
+      spatial kernels. This reduces overlap mismatch to a kernel-weight comparison,
+      which is handled by the localizer-modulus estimate in the next section.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Localizer-Modulus Overlap Reduction
+    line_start: 11908
+    line_end: 11961
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11908
+    start_anchor: "\\subsection{Localized Projector Localizer-Modulus Overlap Reduction}\n"
+    end_anchor: "\\subsection{Localized Projector-Moment Concentration Implies Pair
+      Suppliers}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Localizer-Modulus Overlap Reduction}
+
+      On the exact PSJ+.1 localized-projector realization, localizer overlap is not a
+      separate spectral burden. It is a geometric modulus-of-continuity question for
+      the spatial kernel \(\phi_r\).
+
+      \[
+      \phi_\ell(z,p)=\phi_r\!\bigl(c_{J,\ell}(z)-m_p(t)\bigr),
+      \qquad
+      \phi_{\ell'}(z,p)=\phi_r\!\bigl(c_{J,\ell'}(z)-m_p(t)\bigr).
+      \]
+
+      \[
+      |\phi_r(y)-\phi_r(y')|
+      \le
+      \omega_{\phi_r}(|y-y'|)
+      \qquad
+      \text{for all }y,y'\in\mathbf R^3.
+      \]
+
+      \[
+      \delta_{J,\ell\ell'}^{ctr}(z)
+      :=
+      |c_{J,\ell}(z)-c_{J,\ell'}(z)|.
+      \]
+
+      \[
+      A_J(z)
+      :=
+      \int_{\mathcal P_J(z)}
+      \chi_J(z,p)\,\psi_\rho(z,p)\,\alpha(z,p)
+      \,d\bar\nu_{J,z}(p).
+      \]
+
+      \[
+      \Delta_{J,\ell\ell'}^{raw}(z)
+      \le
+      \omega_{\phi_r}\!\bigl(\delta_{J,\ell\ell'}^{ctr}(z)\bigr)\,A_J(z).
+      \]
+
+      For the coarse normalized-kernel specialization, the remaining new theorem
+      content is the scalar retained-cover counting law
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      The stronger fine route keeps the packet factor and reduces the problem to a
+      radius-gap budget; under a fixed gap floor and finite active measure, that gives
+      a uniform shrinking-radius theorem. That is a bypass realization, not the
+      installed minimal theorem wall. The installed coarse route remains the scalar
+      retained-cover counting endpoint recorded above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector-Moment Concentration Implies Pair Suppliers
+    line_start: 11962
+    line_end: 12031
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11962
+    start_anchor: "\\subsection{Localized Projector-Moment Concentration Implies Pair
+      Suppliers}\n"
+    end_anchor: "\\subsection{Localized Projector-Moment Dynamics And Moment Closure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector-Moment Concentration Implies Pair Suppliers}
+
+      This is a support reduction on the exact-potential simple-top branch. Its job is
+      to say what the pair supplier would need from the localized projector-moment
+      surrogate. The earlier scalar top-direction test is useful as a diagnostic, but
+      it is not a separate theorem wall once the surrogate is normalized
+      operator-close to the cocycle-side strain block.
+
+      \[
+      \Pi_J^{pair}
+      :=
+      \Pi_{\max}\!\bigl(T_J^{pair}\bigr),
+      \]
+
+      \[
+      \tau_{J,1}^{pair}:=\lambda_1(T_J^{pair}).
+      \]
+
+      \[
+      \rho_J^{pair}:=\operatorname{tr}(\Pi_J^{pair}S_J^N),
+      \qquad
+      \mathcal B_J^{pair}:=(I-\Pi_J^{pair})S_J^N\Pi_J^{pair},
+      \]
+
+      \[
+      \delta_J^{sur}
+      :=
+      \frac{\|S_J^N-T_J^{pair}\|_{\mathrm{op}}}{g_J^{str}},
+      \qquad
+      g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+      \]
+
+      The desired supplier is the weighted smallness of \(\delta_J^{sur}\). By the
+      Davis-Kahan projector estimate, this controls the top pair projector on the
+      simple-gap region:
+
+      \[
+      d_{\mathrm{proj}}\!\bigl(
+      \Pi_J^{pair},\Pi_{\max}(S_J^N)
+      \bigr)
+      \le
+      C\,\delta_J^{sur}.
+      \]
+
+      It also controls the off-diagonal and Rayleigh defects
+
+      \[
+      \delta_{J,\mathrm{pair}}^{off}
+      :=
+      \frac{\|\mathcal B_J^{pair}\|_F}{g_J^{str}},
+      \qquad
+      \delta_{J,\mathrm{pair}}^{ray}
+      :=
+      \frac{
+      \bigl[\kappa_0 g_J^{str}-(\rho_J^{pair}-\lambda_{J,2}^{top})\bigr]_+
+      }{
+      g_J^{str}
+      }.
+      \]
+
+      For the Rayleigh side, choose a measurable unit vector
+      \(e_J^{pair}\in\operatorname{ran}\Pi_J^{pair}\). Then
+      \(\rho_J^{pair}=\langle S_J^N e_J^{pair},e_J^{pair}\rangle\). The spectral
+      gap converts the same operator error into a deficit estimate for
+      \(\delta_{J,\mathrm{pair}}^{ray}\). Thus this subroute reduces the pair-level
+      supplier wall to one normalized operator-concentration theorem for
+      \(T_J^{pair}\) against \(S_J^N\). This is a sufficient reduction only; it does
+      not replace the later averaged projector dynamics and moment-closure supplier.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector-Moment Weighted Residual Suppliers
+    line_start: 12088
+    line_end: 12134
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12088
+    start_anchor: "\\subsection{Localized Projector-Moment Weighted Residual Suppliers}\n"
+    end_anchor: "\\subsection{Localized Projector Overlap-Mismatch Globalization}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector-Moment Weighted Residual Suppliers}
+
+      The residual suppliers attached to the averaged projector-moment dynamics are
+      support obligations, not a standalone closure claim.
+
+      \[
+      w_J(x,t):=\frac{M_J(x,t)^2}{g_J^{str}(x,t)^2}.
+      \]
+
+      \[
+      R_J^{coeff}
+      :=
+      \int (\partial_t a_J)P_J\,d\bar\nu_{J,x},
+      \]
+
+      \[
+      R_J^{tail}:=\partial_t\mathrm{Tail}_J,
+      \]
+
+      \[
+      \|R_J^{mc}\|_{\mathrm{op}}
+      \le
+      4\,\|S_J^{seg}\|_{\mathrm{op}}\,m_J\,\varepsilon_J^{1/2}.
+      \]
+
+      \[
+      \sup_x \bar\nu_{J,x}(\mathcal P_J(x))\le \nu_\ast,
+      \]
+
+      The weighted supplier packet asks for
+
+      \[
+      \int_I\!\!\int_{\Omega_J}
+      w_J
+      \bigl(
+      \|R_J^{coeff}\|_{\mathrm{op}}^2+
+      \|R_J^{tail}\|_{\mathrm{op}}^2+
+      \|R_J^{mc}\|_{\mathrm{op}}^2
+      \bigr)\,dx\,dt
+      =o_J(1).
+      \]
+
+      The moment-closure estimate above shows where the top-slot concentration
+      quantity enters. The branch is reduced to coefficient-density control, tail
+      control, and this explicit moment-closure packet.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Overlap-Mismatch Globalization
+    line_start: 12135
+    line_end: 12183
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12135
+    start_anchor: "\\subsection{Localized Projector Overlap-Mismatch Globalization}\n"
+    end_anchor: "\\subsection{Localized Projector Time-Dependent PSJ+.22 Forcing Variant}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Overlap-Mismatch Globalization}
+
+      This globalization note is still support for the localized-projector
+      exact-potential branch. The pair-family angular-forcing record has already
+      fixed the local forcing input. The remaining question is whether the local
+      positive semidefinite surrogates agree well enough on overlaps and whether the
+      entrance scalars have a summable envelope.
+
+      \[
+      m_\ell:=\int_{\Lambda_\ell} w_\ell(a,b,t)\,d\mu_J^{pair}(a,b)\,dt>0;
+      \]
+
+      \[
+      \widehat P_{J,\ell}:=\Pi_{\max}(\widetilde S_{J,\ell}).
+      \]
+
+      \[
+      \mathbf 1_{\mathcal J\times I}
+      \le
+      \sum_\ell w_\ell(a,b,t)
+      \le
+      N_{\mathrm{cov}}
+      \qquad\text{for a.e. }(a,b,t)\in\mathcal J\times I.
+      \]
+
+      \[
+      d_{\mathrm{proj}}\!\bigl(
+      \widehat P_{J,\iota(a,b,t)}(a,b,t),
+      \widehat P_{J,\ell}(a,b,t)
+      \bigr)^2
+      \le
+      \mathfrak d_J(a,b,t).
+      \]
+
+      \[
+      \widehat P_J(a,b,t):=\widehat P_{J,\iota(a,b,t)}(a,b,t).
+      \]
+
+      For a fixed point \((a,b,t)\) and a containing window, the projective triangle
+      inequality compares the chosen projector to the projectors from every other
+      overlapping window. The one-dimensional Davis-Kahan estimate applies to the
+      symmetric pair \((\widetilde S_{J,\ell},\widetilde S_{J,\ell'})\) on the
+      overlap, giving a pointwise mismatch cost bounded by \(\mathfrak d_J\). After
+      integration over the retained cover, the coarse route has no new geometric
+      wall beyond the familywise summability or retained-cover counting law already
+      isolated in the previous cluster. The sharper localizer-modulus route remains a
+      fine-geometry sibling, not the installed coarse endpoint.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Time-Dependent PSJ+.22 Forcing Variant
+    line_start: 12184
+    line_end: 12229
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12184
+    start_anchor: "\\subsection{Localized Projector Time-Dependent PSJ+.22 Forcing
+      Variant}\n"
+    end_anchor: "\\subsection{Localized Projector Weighted PSJ+.22 Suppliers}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Time-Dependent PSJ+.22 Forcing Variant}
+
+      This is a sufficient sharpening of the weighted PSJ+.22 supplier. It replaces a
+      coarse uniform drift term by the time-dependent forcing profile carried by the
+      installed \(J\)-record.
+
+      \[
+      \Gamma_0:=\gamma_0(1-\bar q)>0.
+      \]
+
+      \[
+      \varepsilon_J(x,t)
+      \le
+      e^{-2\Gamma_0\tau_J(x,t)}\,q_J^{ent}(x,t)
+      +
+      \int_{t-\tau_J(x,t)}^{t}
+      e^{-2\Gamma_0(t-s)}\,F_J(x,t;s)\,ds.
+      \]
+
+      \[
+      \int_I\!\!\int_{\Omega_J}
+      M_J(x,t)^2
+      e^{-2\Gamma_0\tau_J(x,t)}\,q_J^{ent}(x,t)\,dx\,dt
+      =
+      o_J(1),
+      \]
+
+      \[
+      \int_I\!\!\int_{\Omega_J}
+      M_J(x,t)^2
+      \int_{t-\tau_J(x,t)}^{t}
+      e^{-2\Gamma_0(t-s)}\,F_J(x,t;s)\,ds\,dx\,dt
+      =
+      o_J(1),
+      \]
+
+      \[
+      F_J(x,t;s):=C\,\beta_J(x,t;s),
+      \]
+
+      The localized-projector drift side is thereby reduced to a weighted
+      \(J\)-convolution supplier. This route is valid as a sufficient route, but it is
+      not the sharpest one in the current written argument. The following weighted
+      PSJ+.22 supplier is the tighter way to read the same support.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Weighted PSJ+.22 Suppliers
+    line_start: 12230
+    line_end: 12291
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12230
+    start_anchor: "\\subsection{Localized Projector Weighted PSJ+.22 Suppliers}\n"
+    end_anchor: "\\subsection{Low-Mode Duhamel Product Reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Weighted PSJ+.22 Suppliers}
+
+      The weighted PSJ+.22 supplier enters the localized-projector branch through the
+      following form.
+
+      \[
+      \int_I\!\!\int_{\Omega_J}
+      M_J(x,t)^2\,\varepsilon_J(x,t)\,dx\,dt
+      =
+      o_J(1).
+      \]
+
+      On the exact-potential simple-top branch, this is controlled by the installed
+      localized concentration theorem PSJ+.22 once the strip-local window packet of
+      Proposition PSJ+.5 is supplied. For almost every strip point \((x,t)\), use a
+      backward window \([t-\tau_J(x,t),t]\) with measurable window data
+
+      \[
+      \gamma_J^{win}(x,t)>0,
+      \qquad
+      \kappa_J^{win}(x,t)\ge 0,
+      \qquad
+      q_J^{ent}(x,t)\in[0,1),
+      \]
+
+      \[
+      \eta_J^{win}=0,
+      \qquad
+      \gamma=\gamma_J^{win},
+      \qquad
+      \kappa=\kappa_J^{win},
+      \qquad
+      q_\ast=q_J^{ent}.
+      \]
+
+      \[
+      \Gamma_J(x,t)
+      :=
+      \gamma_J^{win}(x,t)\bigl(1-q_J^{ent}(x,t)\bigr).
+      \]
+
+      The concentration quantity \(\varepsilon_J(x,t)\) is the localized average
+      projector misalignment from (PSJ+.6). Substituting the PSJ+.5 data into
+      PSJ+.22 gives
+
+      \[
+      \varepsilon_J(x,t)
+      \le
+      e^{-2\Gamma_J(x,t)\tau_J(x,t)}\,q_J^{ent}(x,t)
+      +
+      \frac{C\,\kappa_J^{win}(x,t)}{\Gamma_J(x,t)}
+      \quad\text{for a.e. }(x,t)\in\Omega_J\times I.
+      \]
+
+      Thus the auxiliary entrance route reduces to a weighted auxiliary-projector
+      restart budget together with the same weighted drift supplier. The linear
+      \(J\)-convolution is still not the final forcing wall: on the simple-top cone it
+      collapses to the already-installed pair-family forcing record D.7ie1, or to the
+      adiabatic record D.7ie3, with weighted coverage and globalization carrying the
+      local windows into the global synchronization channel.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Localized Projector Coarse Route Reduces to Force-Ceiling Plus Familywise Summation}
+
+    Viewed from the older exact-potential synchronization packet, the same coarse
+    route reduces to two upstream walls: the force-ceiling/entrance side and the
+    familywise source summation side.
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k);
+    \]
+
+    \[
+    \sum_\ell
+    \bigl(\mathbf B_{\ell,\mathrm{proj}}^{ent}+\kappa_\ell\bigr)\,
+    \nu_J(\Lambda_\ell)
+    +
+    \frac{1}{\gamma_\ast^2}
+    \sum_{(\ell,\ell')\in\mathcal O_\Lambda}
+    \Bigl(
+    \operatorname*{ess\,sup}_{\Lambda_\ell\cap\Lambda_{\ell'}}
+    \varepsilon_{\ell\ell'}^{sur}
+    \Bigr)^2
+    \nu_J(\Lambda_\ell\cap\Lambda_{\ell'})
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr);
+    \]
+
+    Overlap no longer survives as an independent scalar geometry burden. This
+    section records the older-packet view of the same route: the remaining theorem
+    content is exactly that two-part wall, and the current localized-projector
+    branch has not paid those packets here.
+
+
+
+    \subsection{Localized Projector Kernel Mismatch Implies Overlap Surrogate}
+
+    The overlap-mismatch box is abstract until it is tied to the actual localized
+    projector. On this route, each local positive-semidefinite section is a
+    positive weighted average of the same rank-one projectors. The mismatch is a
+    kernel-mismatch problem, not a new spectral phenomenon.
+
+    Fix one active overlap point \(z=(a,b,t)\). On the overlap of two active local
+    windows \(\ell\) and \(\ell'\), assume one common packet space
+    \(\mathcal P_J(z)\), one fixed reference measure \(\bar\nu_{J,z}\), and one
+    common measurable rank-one projector field
+
+    \[
+    P_J(z,p),
+    \qquad
+    \|P_J(z,p)\|_{\mathrm{op}}=1
+    \qquad
+    \text{for }\bar\nu_{J,z}\text{-a.e. }p\in\mathcal P_J(z).
+    \]
+
+    \[
+    \widetilde S_{J,\ell}(z)
+    =
+    \int_{\mathcal P_J(z)}
+    \lambda_{J,\ell}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+    \]
+
+    \[
+    \widetilde S_{J,\ell'}(z)
+    =
+    \int_{\mathcal P_J(z)}
+    \lambda_{J,\ell'}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+    \]
+
+    \[
+    m_{J,\ell}(z)
+    :=
+    \int_{\mathcal P_J(z)}\lambda_{J,\ell}(z,p)\,d\bar\nu_{J,z}(p),
+    \qquad
+    m_{J,\ell'}(z)
+    :=
+    \int_{\mathcal P_J(z)}\lambda_{J,\ell'}(z,p)\,d\bar\nu_{J,z}(p),
+    \]
+
+    \[
+    \vartheta_{J,\ell}(z,p):=\frac{\lambda_{J,\ell}(z,p)}{m_{J,\ell}(z)},
+    \qquad
+    \vartheta_{J,\ell'}(z,p):=\frac{\lambda_{J,\ell'}(z,p)}{m_{J,\ell'}(z)},
+    \]
+
+    Normalize the two sections by their masses. Then
+
+    \[
+    \left\|
+    \frac{\widetilde S_{J,\ell}(z)}{m_{J,\ell}(z)}
+    -
+    \frac{\widetilde S_{J,\ell'}(z)}{m_{J,\ell'}(z)}
+    \right\|_{\mathrm{op}}
+    \le
+    \int_{\mathcal P_J(z)}
+    \bigl|
+    \vartheta_{J,\ell}(z,p)
+    -
+    \vartheta_{J,\ell'}(z,p)
+    \bigr|
+    \,d\bar\nu_{J,z}(p).
+    \]
+
+    On the exact PSJ+.1 realization, the overlapping packets use the same selector,
+    pair-length window, and confidence weight. Their difference comes from the
+    spatial kernels. This reduces overlap mismatch to a kernel-weight comparison,
+    which is handled by the localizer-modulus estimate in the next section.
+
+
+
+    \subsection{Localized Projector Localizer-Modulus Overlap Reduction}
+
+    On the exact PSJ+.1 localized-projector realization, localizer overlap is not a
+    separate spectral burden. It is a geometric modulus-of-continuity question for
+    the spatial kernel \(\phi_r\).
+
+    \[
+    \phi_\ell(z,p)=\phi_r\!\bigl(c_{J,\ell}(z)-m_p(t)\bigr),
+    \qquad
+    \phi_{\ell'}(z,p)=\phi_r\!\bigl(c_{J,\ell'}(z)-m_p(t)\bigr).
+    \]
+
+    \[
+    |\phi_r(y)-\phi_r(y')|
+    \le
+    \omega_{\phi_r}(|y-y'|)
+    \qquad
+    \text{for all }y,y'\in\mathbf R^3.
+    \]
+
+    \[
+    \delta_{J,\ell\ell'}^{ctr}(z)
+    :=
+    |c_{J,\ell}(z)-c_{J,\ell'}(z)|.
+    \]
+
+    \[
+    A_J(z)
+    :=
+    \int_{\mathcal P_J(z)}
+    \chi_J(z,p)\,\psi_\rho(z,p)\,\alpha(z,p)
+    \,d\bar\nu_{J,z}(p).
+    \]
+
+    \[
+    \Delta_{J,\ell\ell'}^{raw}(z)
+    \le
+    \omega_{\phi_r}\!\bigl(\delta_{J,\ell\ell'}^{ctr}(z)\bigr)\,A_J(z).
+    \]
+
+    For the coarse normalized-kernel specialization, the remaining new theorem
+    content is the scalar retained-cover counting law
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    The stronger fine route keeps the packet factor and reduces the problem to a
+    radius-gap budget; under a fixed gap floor and finite active measure, that gives
+    a uniform shrinking-radius theorem. That is a bypass realization, not the
+    installed minimal theorem wall. The installed coarse route remains the scalar
+    retained-cover counting endpoint recorded above.
+
+
+
+    \subsection{Localized Projector-Moment Concentration Implies Pair Suppliers}
+
+    This is a support reduction on the exact-potential simple-top branch. Its job is
+    to say what the pair supplier would need from the localized projector-moment
+    surrogate. The earlier scalar top-direction test is useful as a diagnostic, but
+    it is not a separate theorem wall once the surrogate is normalized
+    operator-close to the cocycle-side strain block.
+
+    \[
+    \Pi_J^{pair}
+    :=
+    \Pi_{\max}\!\bigl(T_J^{pair}\bigr),
+    \]
+
+    \[
+    \tau_{J,1}^{pair}:=\lambda_1(T_J^{pair}).
+    \]
+
+    \[
+    \rho_J^{pair}:=\operatorname{tr}(\Pi_J^{pair}S_J^N),
+    \qquad
+    \mathcal B_J^{pair}:=(I-\Pi_J^{pair})S_J^N\Pi_J^{pair},
+    \]
+
+    \[
+    \delta_J^{sur}
+    :=
+    \frac{\|S_J^N-T_J^{pair}\|_{\mathrm{op}}}{g_J^{str}},
+    \qquad
+    g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+    \]
+
+    The desired supplier is the weighted smallness of \(\delta_J^{sur}\). By the
+    Davis-Kahan projector estimate, this controls the top pair projector on the
+    simple-gap region:
+
+    \[
+    d_{\mathrm{proj}}\!\bigl(
+    \Pi_J^{pair},\Pi_{\max}(S_J^N)
+    \bigr)
+    \le
+    C\,\delta_J^{sur}.
+    \]
+
+    It also controls the off-diagonal and Rayleigh defects
+
+    \[
+    \delta_{J,\mathrm{pair}}^{off}
+    :=
+    \frac{\|\mathcal B_J^{pair}\|_F}{g_J^{str}},
+    \qquad
+    \delta_{J,\mathrm{pair}}^{ray}
+    :=
+    \frac{
+    \bigl[\kappa_0 g_J^{str}-(\rho_J^{pair}-\lambda_{J,2}^{top})\bigr]_+
+    }{
+    g_J^{str}
+    }.
+    \]
+
+    For the Rayleigh side, choose a measurable unit vector
+    \(e_J^{pair}\in\operatorname{ran}\Pi_J^{pair}\). Then
+    \(\rho_J^{pair}=\langle S_J^N e_J^{pair},e_J^{pair}\rangle\). The spectral
+    gap converts the same operator error into a deficit estimate for
+    \(\delta_{J,\mathrm{pair}}^{ray}\). Thus this subroute reduces the pair-level
+    supplier wall to one normalized operator-concentration theorem for
+    \(T_J^{pair}\) against \(S_J^N\). This is a sufficient reduction only; it does
+    not replace the later averaged projector dynamics and moment-closure supplier.
+
+
+
+    \subsection{Localized Projector-Moment Weighted Residual Suppliers}
+
+    The residual suppliers attached to the averaged projector-moment dynamics are
+    support obligations, not a standalone closure claim.
+
+    \[
+    w_J(x,t):=\frac{M_J(x,t)^2}{g_J^{str}(x,t)^2}.
+    \]
+
+    \[
+    R_J^{coeff}
+    :=
+    \int (\partial_t a_J)P_J\,d\bar\nu_{J,x},
+    \]
+
+    \[
+    R_J^{tail}:=\partial_t\mathrm{Tail}_J,
+    \]
+
+    \[
+    \|R_J^{mc}\|_{\mathrm{op}}
+    \le
+    4\,\|S_J^{seg}\|_{\mathrm{op}}\,m_J\,\varepsilon_J^{1/2}.
+    \]
+
+    \[
+    \sup_x \bar\nu_{J,x}(\mathcal P_J(x))\le \nu_\ast,
+    \]
+
+    The weighted supplier packet asks for
+
+    \[
+    \int_I\!\!\int_{\Omega_J}
+    w_J
+    \bigl(
+    \|R_J^{coeff}\|_{\mathrm{op}}^2+
+    \|R_J^{tail}\|_{\mathrm{op}}^2+
+    \|R_J^{mc}\|_{\mathrm{op}}^2
+    \bigr)\,dx\,dt
+    =o_J(1).
+    \]
+
+    The moment-closure estimate above shows where the top-slot concentration
+    quantity enters. The branch is reduced to coefficient-density control, tail
+    control, and this explicit moment-closure packet.
+
+
+
+    \subsection{Localized Projector Overlap-Mismatch Globalization}
+
+    This globalization note is still support for the localized-projector
+    exact-potential branch. The pair-family angular-forcing record has already
+    fixed the local forcing input. The remaining question is whether the local
+    positive semidefinite surrogates agree well enough on overlaps and whether the
+    entrance scalars have a summable envelope.
+
+    \[
+    m_\ell:=\int_{\Lambda_\ell} w_\ell(a,b,t)\,d\mu_J^{pair}(a,b)\,dt>0;
+    \]
+
+    \[
+    \widehat P_{J,\ell}:=\Pi_{\max}(\widetilde S_{J,\ell}).
+    \]
+
+    \[
+    \mathbf 1_{\mathcal J\times I}
+    \le
+    \sum_\ell w_\ell(a,b,t)
+    \le
+    N_{\mathrm{cov}}
+    \qquad\text{for a.e. }(a,b,t)\in\mathcal J\times I.
+    \]
+
+    \[
+    d_{\mathrm{proj}}\!\bigl(
+    \widehat P_{J,\iota(a,b,t)}(a,b,t),
+    \widehat P_{J,\ell}(a,b,t)
+    \bigr)^2
+    \le
+    \mathfrak d_J(a,b,t).
+    \]
+
+    \[
+    \widehat P_J(a,b,t):=\widehat P_{J,\iota(a,b,t)}(a,b,t).
+    \]
+
+    For a fixed point \((a,b,t)\) and a containing window, the projective triangle
+    inequality compares the chosen projector to the projectors from every other
+    overlapping window. The one-dimensional Davis-Kahan estimate applies to the
+    symmetric pair \((\widetilde S_{J,\ell},\widetilde S_{J,\ell'})\) on the
+    overlap, giving a pointwise mismatch cost bounded by \(\mathfrak d_J\). After
+    integration over the retained cover, the coarse route has no new geometric
+    wall beyond the familywise summability or retained-cover counting law already
+    isolated in the previous cluster. The sharper localizer-modulus route remains a
+    fine-geometry sibling, not the installed coarse endpoint.
+
+
+
+    \subsection{Localized Projector Time-Dependent PSJ+.22 Forcing Variant}
+
+    This is a sufficient sharpening of the weighted PSJ+.22 supplier. It replaces a
+    coarse uniform drift term by the time-dependent forcing profile carried by the
+    installed \(J\)-record.
+
+    \[
+    \Gamma_0:=\gamma_0(1-\bar q)>0.
+    \]
+
+    \[
+    \varepsilon_J(x,t)
+    \le
+    e^{-2\Gamma_0\tau_J(x,t)}\,q_J^{ent}(x,t)
+    +
+    \int_{t-\tau_J(x,t)}^{t}
+    e^{-2\Gamma_0(t-s)}\,F_J(x,t;s)\,ds.
+    \]
+
+    \[
+    \int_I\!\!\int_{\Omega_J}
+    M_J(x,t)^2
+    e^{-2\Gamma_0\tau_J(x,t)}\,q_J^{ent}(x,t)\,dx\,dt
+    =
+    o_J(1),
+    \]
+
+    \[
+    \int_I\!\!\int_{\Omega_J}
+    M_J(x,t)^2
+    \int_{t-\tau_J(x,t)}^{t}
+    e^{-2\Gamma_0(t-s)}\,F_J(x,t;s)\,ds\,dx\,dt
+    =
+    o_J(1),
+    \]
+
+    \[
+    F_J(x,t;s):=C\,\beta_J(x,t;s),
+    \]
+
+    The localized-projector drift side is thereby reduced to a weighted
+    \(J\)-convolution supplier. This route is valid as a sufficient route, but it is
+    not the sharpest one in the current written argument. The following weighted
+    PSJ+.22 supplier is the tighter way to read the same support.
+
+
+
+    \subsection{Localized Projector Weighted PSJ+.22 Suppliers}
+
+    The weighted PSJ+.22 supplier enters the localized-projector branch through the
+    following form.
+
+    \[
+    \int_I\!\!\int_{\Omega_J}
+    M_J(x,t)^2\,\varepsilon_J(x,t)\,dx\,dt
+    =
+    o_J(1).
+    \]
+
+    On the exact-potential simple-top branch, this is controlled by the installed
+    localized concentration theorem PSJ+.22 once the strip-local window packet of
+    Proposition PSJ+.5 is supplied. For almost every strip point \((x,t)\), use a
+    backward window \([t-\tau_J(x,t),t]\) with measurable window data
+
+    \[
+    \gamma_J^{win}(x,t)>0,
+    \qquad
+    \kappa_J^{win}(x,t)\ge 0,
+    \qquad
+    q_J^{ent}(x,t)\in[0,1),
+    \]
+
+    \[
+    \eta_J^{win}=0,
+    \qquad
+    \gamma=\gamma_J^{win},
+    \qquad
+    \kappa=\kappa_J^{win},
+    \qquad
+    q_\ast=q_J^{ent}.
+    \]
+
+    \[
+    \Gamma_J(x,t)
+    :=
+    \gamma_J^{win}(x,t)\bigl(1-q_J^{ent}(x,t)\bigr).
+    \]
+
+    The concentration quantity \(\varepsilon_J(x,t)\) is the localized average
+    projector misalignment from (PSJ+.6). Substituting the PSJ+.5 data into
+    PSJ+.22 gives
+
+    \[
+    \varepsilon_J(x,t)
+    \le
+    e^{-2\Gamma_J(x,t)\tau_J(x,t)}\,q_J^{ent}(x,t)
+    +
+    \frac{C\,\kappa_J^{win}(x,t)}{\Gamma_J(x,t)}
+    \quad\text{for a.e. }(x,t)\in\Omega_J\times I.
+    \]
+
+    Thus the auxiliary entrance route reduces to a weighted auxiliary-projector
+    restart budget together with the same weighted drift supplier. The linear
+    \(J\)-convolution is still not the final forcing wall: on the simple-top cone it
+    collapses to the already-installed pair-family forcing record D.7ie1, or to the
+    adiabatic record D.7ie3, with weighted coverage and globalization carrying the
+    local windows into the global synchronization channel.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Route Reduces to Force-Ceiling Plus
+    Familywise Summation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11706
+  line_start: 11706
+  line_end: 11737
+  start_anchor: "\\subsection{Localized Projector Coarse Route Reduces to Force-Ceiling
+    Plus Familywise Summation}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Route Stronger Adiabatic Continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Route
+    Reduces to Force-Ceiling Plus Familywise Summation as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11706
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Kernel Mismatch Implies Overlap Surrogate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11834
+  line_start: 11834
+  line_end: 11907
+  start_anchor: "\\subsection{Localized Projector Kernel Mismatch Implies Overlap
+    Surrogate}\n"
+  end_anchor: "\\subsection{Localized Projector Localizer-Modulus Overlap Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Kernel Mismatch
+    Implies Overlap Surrogate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11834
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Localizer-Modulus Overlap Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11908
+  line_start: 11908
+  line_end: 11961
+  start_anchor: "\\subsection{Localized Projector Localizer-Modulus Overlap Reduction}\n"
+  end_anchor: "\\subsection{Localized Projector-Moment Concentration Implies Pair
+    Suppliers}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Localizer-Modulus
+    Overlap Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11908
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector-Moment Concentration Implies Pair Suppliers
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11962
+  line_start: 11962
+  line_end: 12031
+  start_anchor: "\\subsection{Localized Projector-Moment Concentration Implies Pair
+    Suppliers}\n"
+  end_anchor: "\\subsection{Localized Projector-Moment Dynamics And Moment Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector-Moment Concentration
+    Implies Pair Suppliers as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11962
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector-Moment Weighted Residual Suppliers
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12088
+  line_start: 12088
+  line_end: 12134
+  start_anchor: "\\subsection{Localized Projector-Moment Weighted Residual Suppliers}\n"
+  end_anchor: "\\subsection{Localized Projector Overlap-Mismatch Globalization}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector-Moment Weighted
+    Residual Suppliers as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12088
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Overlap-Mismatch Globalization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12135
+  line_start: 12135
+  line_end: 12183
+  start_anchor: "\\subsection{Localized Projector Overlap-Mismatch Globalization}\n"
+  end_anchor: "\\subsection{Localized Projector Time-Dependent PSJ+.22 Forcing Variant}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Overlap-Mismatch
+    Globalization as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12135
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Time-Dependent PSJ+.22 Forcing Variant
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12184
+  line_start: 12184
+  line_end: 12229
+  start_anchor: "\\subsection{Localized Projector Time-Dependent PSJ+.22 Forcing Variant}\n"
+  end_anchor: "\\subsection{Localized Projector Weighted PSJ+.22 Suppliers}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Time-Dependent
+    PSJ+.22 Forcing Variant as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12184
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Weighted PSJ+.22 Suppliers
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12230
+  line_start: 12230
+  line_end: 12291
+  start_anchor: "\\subsection{Localized Projector Weighted PSJ+.22 Suppliers}\n"
+  end_anchor: "\\subsection{Low-Mode Duhamel Product Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Weighted
+    PSJ+.22 Suppliers as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12230
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-13
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-13.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

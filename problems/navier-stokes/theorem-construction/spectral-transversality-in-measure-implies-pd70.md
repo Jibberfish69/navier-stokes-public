@@ -106,7 +106,8 @@ such that
 
 ```math
 \mathfrak d_J^-(a,b,t)
-\lesssim
+\le
+C_{cal}
 \mathcal O_J[W_J](a,b,t)
 +
 \operatorname{Err}_J^{cal}(a,b,t),
@@ -118,7 +119,8 @@ and
 ```math
 \int_I\!\!\int_{G_J^{pair,\angle}}
 \big(\operatorname{Err}_J^{cal}\big)^2
-\lesssim
+\le
+C_{cal}'
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -132,7 +134,8 @@ same residual packet that appears in `PD.70`:
 
 ```math
 \mathfrak E_{J,2}^{SG}(I)
-\lesssim
+\le
+C_{SG}
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -146,7 +149,8 @@ and the exact remaining open input is the pairwise closure
 
 ```math
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}(I).
 \tag{ST.6}
 ```
@@ -162,7 +166,8 @@ selector-defect budget sharpens to
 
 ```math
 \mathfrak E_{J,2}^{SG}(I)
-\lesssim
+\le
+C_{SG}
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -188,7 +193,7 @@ vanish, so `\mathcal E_J^{loop}(I)=0` and `(ST.6)` collapses to the directional
 estimate
 
 ```math
-\mathcal E_J^{dir}(I)\lesssim \mathcal E_J^{obs}(I).
+\mathcal E_J^{dir}(I)\le C_{PD}\mathcal E_J^{obs}(I).
 \tag{ST.6a}
 ```
 

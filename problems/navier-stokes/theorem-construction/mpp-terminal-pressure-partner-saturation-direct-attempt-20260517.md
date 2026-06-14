@@ -109,7 +109,7 @@ A negative lobe may be spread across many small packets:
 
 ```math
 \sum_{\alpha=1}^{M}\mathsf J^{press}(A^-_\alpha\to P)
-\simeq
+=
 -\mathsf J^{press}(A^+\to P),
 \qquad M\to\infty,
 \tag{TPPS.6}

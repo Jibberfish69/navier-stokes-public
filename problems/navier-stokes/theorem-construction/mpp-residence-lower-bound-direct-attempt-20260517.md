@@ -47,7 +47,7 @@ It gives a route for the source packet.  It does not assign a macroscopic time l
 A terminal packet at spatial scale `r_N` naturally has a parabolic time window
 
 ```math
-\tau_N\sim r_N^2.
+\tau_N:=r_N^2.
 ```
 
 Along a Zeno branch,
@@ -60,7 +60,7 @@ r_N\downarrow0,
 The normalized source mass can remain order one while the physical time support shrinks:
 
 ```math
-F_N^{src,+}(t)\sim \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t).
+F_N^{src,+}(t):= \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t).
 ```
 
 This model preserves the `L^1_t` budget and violates every macroscopic residence lower bound.
@@ -70,7 +70,7 @@ This model preserves the `L^1_t` budget and violates every macroscopic residence
 A scale-aware residence estimate of the form
 
 ```math
-|I_P|\gtrsim r_P^2
+|I_P|\ge c_{\mathrm{res}}r_P^2
 ```
 
 is already compatible with terminal atoms after rescaling.  It gives the natural packet duration and still permits all source mass to sit in shrinking terminal slabs.

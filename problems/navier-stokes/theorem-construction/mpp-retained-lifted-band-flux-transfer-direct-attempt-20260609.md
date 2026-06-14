@@ -45,7 +45,7 @@ commutator reduction
 
 ```math
 \mathfrak P^{scale,lift}_{N}[u^{(n)}]
-\lesssim
+\le C_{\mathrm{lift}}
 \int_0^T \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t)\,dt,
 ```
 

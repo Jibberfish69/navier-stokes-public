@@ -1,0 +1,1119 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-70
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-70
+  sequence: 222
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 70
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 61389
+  line_end: 61806
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61389
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61425
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61454
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61571
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61627
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61689
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61739
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61772
+  subsection_titles:
+  - Signed Weighted Lifted-Remainder Theorem Attempt
+  - Simple-Top Gap For Observable Surrogate
+  - Spatial-Derivative / Deformation-Geometry Curvature-Dissipation Theorem Target
+  - Spectral Gap Rigidity And Projector Identification Note
+  - Spectral Transversality Cocycle Bridge To Sg4
+  - Spectral Transversality In Measure Implies Pd70
+  - Square-Source Shell Flux Estimate Result
+  - Square-Source To Active-Square Control Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed Weighted Lifted-Remainder Theorem Attempt
+    line_start: 61389
+    line_end: 61424
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61389
+    start_anchor: "\\subsection{Signed Weighted Lifted-Remainder Theorem Attempt}\n"
+    end_anchor: "\\subsection{Simple-Top Gap For Observable Surrogate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Signed Weighted Lifted-Remainder Theorem Attempt}
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      =
+      2^{2j}\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle,
+      \qquad a_k=\Delta_k u.
+      \]
+
+      \[
+      [\Delta_j,a_k\cdot\nabla]\Delta_\ell u
+      =
+      2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)+\text{lower order collar terms}.
+      \]
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      \sfcomp{59881}
+      2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+      \]
+
+      The coefficient is the low/intermediate strain a k acting on the active shell energy density.
+
+      The leading bilinear form has no fixed sign. A local wave packet can be aligned with an expanding eigen-direction of the symmetric part of a k, giving a positive contribution. Aligning with a contracting direction gives the opposite sign.
+
+      The weights W j,k,ell sigma are fixed by the one-sided tail route. They supply scale orientation, while they supply no algebraic sign reversal tied to the strain eigendirection.
+
+      Thus the signed weighted sum can have many same-sign leading contributions when the active shell packets are arranged coherently relative to the low/intermediate strain.
+
+      The exact unweighted shell exchange antisymmetry applies to the vacuous bare separated exchange. The true output-collar commutatorized remainder is a different object. Its principal symbol is the paracommutator strain form above, and the current algebra supplies no cancellation theorem for its weighted signed sum.
+
+      \[
+      \text{a strain-sign cancellation theorem for }\mathfrak G_N^{lift,\sigma},
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Simple-Top Gap For Observable Surrogate
+    line_start: 61425
+    line_end: 61453
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61425
+    start_anchor: "\\subsection{Simple-Top Gap For Observable Surrogate}\n"
+    end_anchor: "\\subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+      Theorem Target}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Simple-Top Gap For Observable Surrogate}
+
+      \[
+      g_J^{str}
+      :=
+      \lambda_{J,\top}-\lambda_{J,2}.
+      \]
+
+      Prove lower control on 1( J). Prove upper control on 2( J). Use the selector-good simple-top packet to separate them uniformly on the relevant strip.
+
+      \[
+      \Sigma_J(a,b,t)=\widehat P_{J,\varepsilon}^{pair}(a,b,t).
+      \]
+
+      \[
+      \operatorname{spec}(\Sigma_J(a,b,t))=\{1,0,0\}.
+      \]
+
+      \[
+      g_J^{obs}(a,b,t):=
+      \lambda_1(\Sigma_J(a,b,t))-\lambda_2(\Sigma_J(a,b,t))
+      =1.
+      \]
+
+      So on this branch the remaining theorem-critical gap is not a new observable surrogate gap. It is the Cauchy--Green / strain gap used downstream in selector-strain compatibility.
+
+      Proof. A rank-one orthogonal projector has one eigenvalue equal to 1 and the rest equal to 0. .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+      Theorem Target
+    line_start: 61454
+    line_end: 61515
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61454
+    start_anchor: "\\subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+      Theorem Target}\n"
+    end_anchor: "\\subsection{Spectral Carrier-Floor-Leakage Direction Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation Theorem Target}
+
+      Record the corrected theorem target suggested by the current tower, matrix, weighted-Gram obstruction, and YM-heat bridge notes.
+
+      The spatial derivative family U remains a useful analogue of YM curvature, but the deeper target is the deformation geometry generated by the Lagrangian flow.
+
+      For the current live route, the chosen classical surface is the periodic torus branch. Any whole-space R 3 formula is downstream export only unless explicitly labeled otherwise.
+
+      \[
+      U_\alpha := \partial_x^\alpha u,
+      \qquad
+      v(a,t):=u(X(a,t),t),
+      \qquad
+      G(a,t):=A(a,t)A(a,t)^\top.
+      \]
+
+      In YM heat flow, the cubic term appears because the field diffuses through a geometry that the field itself creates. For Navier--Stokes, the closest source-backed analogue is not the bare Eulerian tower. It is the Lagrangian equation
+
+      \[
+      \partial_t v + A^\top \nabla_a q
+      =
+      \nu\,\operatorname{div}_a(G\nabla_a v),
+      \qquad
+      G:=AA^\top,
+      \]
+
+      where the viscous operator is already a geometry-modified heat operator and the geometry is generated by the flow itself.
+
+      \[
+      U_\alpha=\partial_x^\alpha u,
+      \qquad 1\le |\alpha|\le r.
+      \]
+
+      \[
+      \mathcal K_W[u]
+      :=
+      \sum_{\alpha,\beta} w_{\alpha,\beta}\,\langle U_\alpha,U_\beta\rangle.
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal K_W[u(t)]
+      +
+      2\nu\,\mathcal D_W[u(t)]
+      =
+      -\mathcal N_W[u(t)],
+      \]
+
+      Pull back by the flow map X(a,t). Then advection disappears exactly and the equation becomes (2).
+
+      So the missing NS should be sought first in the deformation geometry, not in a bare quadratic Eulerian tower energy.
+
+      K r Lag is the deformation-curvature energy; D r Lag is the genuine viscous drain in the evolving metric; C r Lag is the -type deformation defect, built from the coefficient-commutator packet and the failure of the evolving metric to remain transport-flat/tame; r Lag is a blowup-controlling geometry norm.
+
+      The older weighted-Gram / spatial-tower target is still useful, but only as the visible shadow of the d
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Spectral Gap Rigidity And Projector Identification Note
+    line_start: 61571
+    line_end: 61626
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61571
+    start_anchor: "\\subsection{Spectral Gap Rigidity And Projector Identification
+      Note}\n"
+    end_anchor: "\\subsection{Spectral Transversality Cocycle Bridge To Sg4}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Spectral Gap Rigidity And Projector Identification Note}
+
+      The synchronization, surrogate, gap, and SSC packets discussed here are branch-local consumers of the installed exact-potential readout packet; they are not primitive branch starts.
+
+      A spectral gap by itself does not yield Navier-Stokes smoothness. Its role is narrower: it supplies a legitimate rigidity mechanism, identifies where that mechanism enters the live route, and leaves explicit theorem burdens after the gap enters.
+
+      \[
+      \widehat P_J(a,b,t):=\Pi_{\max}\bigl(\Sigma_J(a,b,t)\bigr).
+      \]
+
+      \[
+      \lambda_1\bigl(\Sigma_J(a,b,t)\bigr)-\lambda_2\bigl(\Sigma_J(a,b,t)\bigr)
+      \ge g_J(a,b,t)>0,
+      \]
+
+      then the top eigenspace is stable. Quantitatively, if J is a comparison surrogate on the same pair family, then a Davis--Kahan type estimate has the form
+
+      \[
+      \bigl\|
+      \Pi_{\max}(\Sigma_J)-\Pi_{\max}(\widetilde\Sigma_J)
+      \bigr\|_F
+      \le C_{\mathrm{sf},60056}
+      \frac{\|\Sigma_J-\widetilde\Sigma_J\|_{\mathrm{op}}}{g_J}.
+      \]
+
+      The gap does not identify the surrogate projector with the true target projector.
+
+      \[
+      P_{J,\top}^{seg}(a,b,t)
+      :=
+      n_J(a,b,t)\otimes n_J(a,b,t),
+      \]
+
+      \[
+      \widehat P_J
+      \sfmodel{60081}
+      P_{J,\top}^{seg}.
+      \]
+
+      The route becomes legitimate only if it is factorized into the following exact theorem chain.
+
+      This step is not automatic. The live no-go statements already say that W J plus the current PDE coercive bounds do not by themselves force the one-sided directional deficit. So Step 1 needs extra synchronization structure, kernel structure, or packet structure.
+
+      This is exactly where the route stops being a rigidity story and becomes a true identification theorem.
+
+      One needs a symmetric tensor field that is actually observable from the installed route data. On the exact-potential branch, the live on-disk surrogate candidate is the localized projector-moment tensor S J. On the measurable-derivative branch, the alternate candidate is C J N.
+
+      The exact burden is not that these come from W J alone. The burden is tha
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Spectral Transversality Cocycle Bridge To Sg4
+    line_start: 61627
+    line_end: 61688
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61627
+    start_anchor: "\\subsection{Spectral Transversality Cocycle Bridge To Sg4}\n"
+    end_anchor: "\\subsection{Spectral Transversality In Measure Implies Pd70}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Spectral Transversality Cocycle Bridge To Sg4}
+
+      It is a theorem-shape synthesis note. It does not claim the full chain is already discharged.
+
+      \[
+      \partial_t G
+      =
+      -A\big((\nabla_x u)+(\nabla_x u)^\top\big)(X,t)A^\top.
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal K_r^{Lag}[v,G]
+      +
+      \mathcal D_r^{Lag}[v,G]
+      +
+      \mathcal C_r^{Lag}[v,G]
+      \le 0.
+      \]
+
+      \[
+      S_{\le J}(x,t):=\operatorname{Sym}\nabla u_{\le J}(x,t),
+      \qquad
+      E_{\le J}^+(x,t):=\text{top two-dimensional spectral plane of }S_{\le J}(x,t),
+      \]
+
+      \[
+      \lambda_{2,\le J}(X_{\le J}(a,t),t)
+      \ge
+      \Lambda_J(t)-\varepsilon_J^{spec}(t,a),
+      \]
+
+      \[
+      \big\|
+      \big(I-Q_{\le J}^+(X_{\le J}(a,t),t)\big)P_{N_a}
+      \big\|_{\mathrm{op}}
+      \le
+      \theta_J(a,t),
+      \]
+
+      This is already the right replacement for a raw "orientation theorem." The bundle is not asked to align with one single eigenvector; it is asked to remain close to the full expanding plane.
+
+      The role of (3.2) is pairwise transversality. The role of (3.3)-(3.4) is to keep the active-pair orientation data from being destroyed by loop circulation.
+
+      Assume DG-SF and PG-C. Then for a.e. t and every refined good active pair (a,b) one has
+
+      where J is any admissible quadratic pair-direction defect satisfying J J 2, and Err J loop is the pairwise observable error induced by the cocycle harmonic part h J or any equivalent chart-transport defect.
+
+      When e ab (t) lies exactly in N a, Proposition A gives the lower bound J- J bundle .
+
+      Using the operator bound S J op M J(t) and the pair-angle defect (3.2), the cross-terms are controlled by C M J J.
+
+      Finally, any failure of exact pairwise orientation propagation is carried by the loop/cocycle defect and is absorbed into Err J loop .
+
+      This is exactly the missing bridge type isolated in the selector-observability note.
+
+      The current note already shows that DG-SF is not enough by itself: it gives a transport-stable rank-two expanding plane, while the live splice still needs a rank-one directional carrier and a way to read that carrier from the signless pair packet. So the st
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Spectral Transversality In Measure Implies Pd70
+    line_start: 61689
+    line_end: 61738
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61689
+    start_anchor: "\\subsection{Spectral Transversality In Measure Implies Pd70}\n"
+    end_anchor: "\\subsection{Square-Source Shell Flux Estimate Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Spectral Transversality In Measure Implies Pd70}
+
+      The theorem below is not yet discharged. It is the cleanest direct theorem shape currently visible on the torus-first TPS route.
+
+      \[
+      \text{signless pair defect built from }W_J
+      \Longrightarrow
+      [\lambda_J-\mathfrak s_J]_+ \text{ one-sided directional deficit}.
+      \]
+
+      YM-heat / deformation geometry remains relevant, but only one layer upstream: it should supply the spectral floor and coherence packet that this direct selector theorem consumes.
+
+      \[
+      v^\top P_{N_a}\operatorname{Sym}\nabla u_{\le J}P_{N_a}v
+      \ge
+      \big(\Lambda_J-\varepsilon_J^{spec}-2M_J\theta_J^2\big)|v|^2.
+      \]
+
+      \[
+      \lambda_{2,\le J} \text{ floor}
+      \quad+\quad
+      \theta_J^2 \text{ bundle-angle defect}.
+      \]
+
+      \[
+      D_J(t;Q,Q')=-D_J(t;Q',Q),
+      \qquad
+      \sum_{e\in\gamma}D_J(t;e)=0
+      \text{ on closed active cycles.}
+      \]
+
+      This is the right structure for recovering selector labels as derived potentials rather than primitive scalars.
+
+      Let G J pair, be a selector-good active pair family on the torus-first TPS branch, and let I=[t 0,t 1].
+
+      \[
+      \mathfrak d_J^-(a,b,t)
+      \le C_{\mathrm{sf},60190}
+      \mathcal O_J[W_J](a,b,t)
+      +
+      \operatorname{Err}_J^{cal}(a,b,t),
+      \]
+
+      This is the minimal source-aligned selector-calibration theorem on the torus branch. The Euclidean strict-shadow discharge branch remains separate and is not part of this splice.
+
+      Outside that branch, the loop burden is better read as a harmonic-circulation observability theorem for the Hodge part h J, rather than as an undifferentiated error term.
+
+      It correspondingly demotes YM-heat/deformation geometry to the upstream role of manufacturing the spectral floor/coherence packet consumed here.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Square-Source Shell Flux Estimate Result
+    line_start: 61739
+    line_end: 61771
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61739
+    start_anchor: "\\subsection{Square-Source Shell Flux Estimate Result}\n"
+    end_anchor: "\\subsection{Square-Source To Active-Square Control Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Square-Source Shell Flux Estimate Result}
+
+      \[
+      \int_I |F_j(t)|^2dt
+      \le
+      c\varepsilon\nu^3 2^{3j}|I|
+      +C\nu^2 2^j2^{-2\delta j}.
+      \]
+
+      This estimate is intended to feed the damped scalar response and produce active- control.
+
+      \[
+      F_j(t)=2^{2j}\langle \Delta_j(u\cdot\nabla u),\Delta_j u\rangle.
+      \]
+
+      \[
+      u_0^A=A u_0.
+      \]
+
+      \[
+      F_j(0;u_0^A)=A^3F_j(0;u_0).
+      \]
+
+      \[
+      \int_I |F_j(t;u_0^A)|^2dt
+      \ge c h A^6 |F_j(0;u_0)|^2
+      \]
+
+      The -source estimate fails as a universal fixed-shell theorem from original smooth data. Finite shell localization and smoothness supply regularity, while they supply no amplitude normalization.
+
+      The -source path returns to the same live obstruction: active- Carleson or direct LPAS must be proved by a mechanism that controls active shell amplitude, rather than by smoothness or finite-shell localization alone.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Square-Source To Active-Square Control Result
+    line_start: 61772
+    line_end: 61806
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61772
+    start_anchor: "\\subsection{Square-Source To Active-Square Control Result}\n"
+    end_anchor: "\\subsection{SS and LPAS/CTS Blocker Demonstration Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Square-Source To Active-Square Control Result}
+
+      \[
+      \int_I2^{-j}D_j(t)^2dt.
+      \]
+
+      \[
+      \int_I2^{3j}E_j(t)^2dt.
+      \]
+
+      \[
+      \|E_j\|_{L^2(I)}^2
+      \le
+      C\lambda_j^{-1}E_j(t_0)^2
+      +C\lambda_j^{-2}\|F_j\|_{L^2(I)}^2.
+      \]
+
+      \[
+      \int_I2^{-j}D_j^2dt
+      \le
+      C\nu^{-1}2^jE_j(t_0)^2
+      +C\nu^{-2}2^{-j}\int_I|F_j(t)|^2dt.
+      \]
+
+      \[
+      \int_I2^{-j}D_j^2dt
+      \le
+      \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}
+      \]
+
+      The -source route is a valid conditional replacement for shell-amplitude gain. Current inputs do not supply the required L 2 t shell-source scale. The exact new theorem is
+
+      Once this -source theorem is installed, it yields active- Carleson and then LPAS through the existing lower-prefix embedding route.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Signed Weighted Lifted-Remainder Theorem Attempt}
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    =
+    2^{2j}\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle,
+    \qquad a_k=\Delta_k u.
+    \]
+
+    \[
+    [\Delta_j,a_k\cdot\nabla]\Delta_\ell u
+    =
+    2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)+\text{lower order collar terms}.
+    \]
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    \sfcomp{59881}
+    2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+    \]
+
+    The coefficient is the low/intermediate strain a k acting on the active shell energy density.
+
+    The leading bilinear form has no fixed sign. A local wave packet can be aligned with an expanding eigen-direction of the symmetric part of a k, giving a positive contribution. Aligning with a contracting direction gives the opposite sign.
+
+    The weights W j,k,ell sigma are fixed by the one-sided tail route. They supply scale orientation, while they supply no algebraic sign reversal tied to the strain eigendirection.
+
+    Thus the signed weighted sum can have many same-sign leading contributions when the active shell packets are arranged coherently relative to the low/intermediate strain.
+
+    The exact unweighted shell exchange antisymmetry applies to the vacuous bare separated exchange. The true output-collar commutatorized remainder is a different object. Its principal symbol is the paracommutator strain form above, and the current algebra supplies no cancellation theorem for its weighted signed sum.
+
+    \[
+    \text{a strain-sign cancellation theorem for }\mathfrak G_N^{lift,\sigma},
+    \]
+
+
+
+    \subsection{Simple-Top Gap For Observable Surrogate}
+
+    \[
+    g_J^{str}
+    :=
+    \lambda_{J,\top}-\lambda_{J,2}.
+    \]
+
+    Prove lower control on 1( J). Prove upper control on 2( J). Use the selector-good simple-top packet to separate them uniformly on the relevant strip.
+
+    \[
+    \Sigma_J(a,b,t)=\widehat P_{J,\varepsilon}^{pair}(a,b,t).
+    \]
+
+    \[
+    \operatorname{spec}(\Sigma_J(a,b,t))=\{1,0,0\}.
+    \]
+
+    \[
+    g_J^{obs}(a,b,t):=
+    \lambda_1(\Sigma_J(a,b,t))-\lambda_2(\Sigma_J(a,b,t))
+    =1.
+    \]
+
+    So on this branch the remaining theorem-critical gap is not a new observable surrogate gap. It is the Cauchy--Green / strain gap used downstream in selector-strain compatibility.
+
+    Proof. A rank-one orthogonal projector has one eigenvalue equal to 1 and the rest equal to 0. .
+
+
+
+    \subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation Theorem Target}
+
+    Record the corrected theorem target suggested by the current tower, matrix, weighted-Gram obstruction, and YM-heat bridge notes.
+
+    The spatial derivative family U remains a useful analogue of YM curvature, but the deeper target is the deformation geometry generated by the Lagrangian flow.
+
+    For the current live route, the chosen classical surface is the periodic torus branch. Any whole-space R 3 formula is downstream export only unless explicitly labeled otherwise.
+
+    \[
+    U_\alpha := \partial_x^\alpha u,
+    \qquad
+    v(a,t):=u(X(a,t),t),
+    \qquad
+    G(a,t):=A(a,t)A(a,t)^\top.
+    \]
+
+    In YM heat flow, the cubic term appears because the field diffuses through a geometry that the field itself creates. For Navier--Stokes, the closest source-backed analogue is not the bare Eulerian tower. It is the Lagrangian equation
+
+    \[
+    \partial_t v + A^\top \nabla_a q
+    =
+    \nu\,\operatorname{div}_a(G\nabla_a v),
+    \qquad
+    G:=AA^\top,
+    \]
+
+    where the viscous operator is already a geometry-modified heat operator and the geometry is generated by the flow itself.
+
+    \[
+    U_\alpha=\partial_x^\alpha u,
+    \qquad 1\le |\alpha|\le r.
+    \]
+
+    \[
+    \mathcal K_W[u]
+    :=
+    \sum_{\alpha,\beta} w_{\alpha,\beta}\,\langle U_\alpha,U_\beta\rangle.
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal K_W[u(t)]
+    +
+    2\nu\,\mathcal D_W[u(t)]
+    =
+    -\mathcal N_W[u(t)],
+    \]
+
+    Pull back by the flow map X(a,t). Then advection disappears exactly and the equation becomes (2).
+
+    So the missing NS should be sought first in the deformation geometry, not in a bare quadratic Eulerian tower energy.
+
+    K r Lag is the deformation-curvature energy; D r Lag is the genuine viscous drain in the evolving metric; C r Lag is the -type deformation defect, built from the coefficient-commutator packet and the failure of the evolving metric to remain transport-flat/tame; r Lag is a blowup-controlling geometry norm.
+
+    The older weighted-Gram / spatial-tower target is still useful, but only as the visible shadow of the deeper Lagrangian law.
+
+    K r Eul is a diagonal-plus-off-diagonal functional of the spatial derivative family U ; D r Eul is the visible viscous drain; F r Eul is the nonnegative transport-assisted dissipation term seen in Eulerian coordinates.
+
+    This is the precise sense in which the first branch is the visible shadow of the second.
+
+    The deformation-geometry theorem is not yet proved.
+
+
+
+    \subsection{Spectral Gap Rigidity And Projector Identification Note}
+
+    The synchronization, surrogate, gap, and SSC packets discussed here are branch-local consumers of the installed exact-potential readout packet; they are not primitive branch starts.
+
+    A spectral gap by itself does not yield Navier-Stokes smoothness. Its role is narrower: it supplies a legitimate rigidity mechanism, identifies where that mechanism enters the live route, and leaves explicit theorem burdens after the gap enters.
+
+    \[
+    \widehat P_J(a,b,t):=\Pi_{\max}\bigl(\Sigma_J(a,b,t)\bigr).
+    \]
+
+    \[
+    \lambda_1\bigl(\Sigma_J(a,b,t)\bigr)-\lambda_2\bigl(\Sigma_J(a,b,t)\bigr)
+    \ge g_J(a,b,t)>0,
+    \]
+
+    then the top eigenspace is stable. Quantitatively, if J is a comparison surrogate on the same pair family, then a Davis--Kahan type estimate has the form
+
+    \[
+    \bigl\|
+    \Pi_{\max}(\Sigma_J)-\Pi_{\max}(\widetilde\Sigma_J)
+    \bigr\|_F
+    \le C_{\mathrm{sf},60056}
+    \frac{\|\Sigma_J-\widetilde\Sigma_J\|_{\mathrm{op}}}{g_J}.
+    \]
+
+    The gap does not identify the surrogate projector with the true target projector.
+
+    \[
+    P_{J,\top}^{seg}(a,b,t)
+    :=
+    n_J(a,b,t)\otimes n_J(a,b,t),
+    \]
+
+    \[
+    \widehat P_J
+    \sfmodel{60081}
+    P_{J,\top}^{seg}.
+    \]
+
+    The route becomes legitimate only if it is factorized into the following exact theorem chain.
+
+    This step is not automatic. The live no-go statements already say that W J plus the current PDE coercive bounds do not by themselves force the one-sided directional deficit. So Step 1 needs extra synchronization structure, kernel structure, or packet structure.
+
+    This is exactly where the route stops being a rigidity story and becomes a true identification theorem.
+
+    One needs a symmetric tensor field that is actually observable from the installed route data. On the exact-potential branch, the live on-disk surrogate candidate is the localized projector-moment tensor S J. On the measurable-derivative branch, the alternate candidate is C J N.
+
+    The exact burden is not that these come from W J alone. The burden is that they are readable from the route data carried on the transported good family strongly enough to feed projector recovery and projector comparison.
+
+    This is still the same theorem burden: compare the recovered projective object to the true instantaneous top-strain projector strongly enough for the one-sided angle record to become observable.
+
+    In the present Navier--Stokes route, a failure mode means: one arrow in the intended chain stops being true.
+
+    So the real question is not whether the story sounds plausible in prose. The real question is where one implication can fail as mathematics.
+
+
+
+    \subsection{Spectral Transversality Cocycle Bridge To Sg4}
+
+    It is a theorem-shape synthesis note. It does not claim the full chain is already discharged.
+
+    \[
+    \partial_t G
+    =
+    -A\big((\nabla_x u)+(\nabla_x u)^\top\big)(X,t)A^\top.
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal K_r^{Lag}[v,G]
+    +
+    \mathcal D_r^{Lag}[v,G]
+    +
+    \mathcal C_r^{Lag}[v,G]
+    \le 0.
+    \]
+
+    \[
+    S_{\le J}(x,t):=\operatorname{Sym}\nabla u_{\le J}(x,t),
+    \qquad
+    E_{\le J}^+(x,t):=\text{top two-dimensional spectral plane of }S_{\le J}(x,t),
+    \]
+
+    \[
+    \lambda_{2,\le J}(X_{\le J}(a,t),t)
+    \ge
+    \Lambda_J(t)-\varepsilon_J^{spec}(t,a),
+    \]
+
+    \[
+    \big\|
+    \big(I-Q_{\le J}^+(X_{\le J}(a,t),t)\big)P_{N_a}
+    \big\|_{\mathrm{op}}
+    \le
+    \theta_J(a,t),
+    \]
+
+    This is already the right replacement for a raw "orientation theorem." The bundle is not asked to align with one single eigenvector; it is asked to remain close to the full expanding plane.
+
+    The role of (3.2) is pairwise transversality. The role of (3.3)-(3.4) is to keep the active-pair orientation data from being destroyed by loop circulation.
+
+    Assume DG-SF and PG-C. Then for a.e. t and every refined good active pair (a,b) one has
+
+    where J is any admissible quadratic pair-direction defect satisfying J J 2, and Err J loop is the pairwise observable error induced by the cocycle harmonic part h J or any equivalent chart-transport defect.
+
+    When e ab (t) lies exactly in N a, Proposition A gives the lower bound J- J bundle .
+
+    Using the operator bound S J op M J(t) and the pair-angle defect (3.2), the cross-terms are controlled by C M J J.
+
+    Finally, any failure of exact pairwise orientation propagation is carried by the loop/cocycle defect and is absorbed into Err J loop .
+
+    This is exactly the missing bridge type isolated in the selector-observability note.
+
+    The current note already shows that DG-SF is not enough by itself: it gives a transport-stable rank-two expanding plane, while the live splice still needs a rank-one directional carrier and a way to read that carrier from the signless pair packet. So the strongest theorem schema worth targeting is the following two-layer statement.
+
+    Assumptions (7.2)-(7.5) are exactly the missing upgrade from the current rank-two expanding-plane packet to the strip-local window data isolated in PSJ+.5: a rank-one carrier, a simple-top gap floor, corotational drift control, and an entrance bound. Assumptions (7.6)-(7.7) are the signless projective synchronization / selector-calibration step needed to compare the actual pair projector P ab to that carrier. Once those are available, the triangle inequality behind D.7m and the PSJ+.5 reduction give (7.9), while (7.8) upgrades the pointwise bound to the stripwise family estimate (7.10).
+
+    Under DG-SF together with a deformation-side one-sided drain law on (v,G), there exists on a quantitatively large selector-good active family a measurable rank-one projector field N J(a,b,t) P N a and explicit records J line , J gap , J drift , B J ent such that (7.2)-(7.5) hold.
+
+
+
+    \subsection{Spectral Transversality In Measure Implies Pd70}
+
+    The theorem below is not yet discharged. It is the cleanest direct theorem shape currently visible on the torus-first TPS route.
+
+    \[
+    \text{signless pair defect built from }W_J
+    \Longrightarrow
+    [\lambda_J-\mathfrak s_J]_+ \text{ one-sided directional deficit}.
+    \]
+
+    YM-heat / deformation geometry remains relevant, but only one layer upstream: it should supply the spectral floor and coherence packet that this direct selector theorem consumes.
+
+    \[
+    v^\top P_{N_a}\operatorname{Sym}\nabla u_{\le J}P_{N_a}v
+    \ge
+    \big(\Lambda_J-\varepsilon_J^{spec}-2M_J\theta_J^2\big)|v|^2.
+    \]
+
+    \[
+    \lambda_{2,\le J} \text{ floor}
+    \quad+\quad
+    \theta_J^2 \text{ bundle-angle defect}.
+    \]
+
+    \[
+    D_J(t;Q,Q')=-D_J(t;Q',Q),
+    \qquad
+    \sum_{e\in\gamma}D_J(t;e)=0
+    \text{ on closed active cycles.}
+    \]
+
+    This is the right structure for recovering selector labels as derived potentials rather than primitive scalars.
+
+    Let G J pair, be a selector-good active pair family on the torus-first TPS branch, and let I=[t 0,t 1].
+
+    \[
+    \mathfrak d_J^-(a,b,t)
+    \le C_{\mathrm{sf},60190}
+    \mathcal O_J[W_J](a,b,t)
+    +
+    \operatorname{Err}_J^{cal}(a,b,t),
+    \]
+
+    This is the minimal source-aligned selector-calibration theorem on the torus branch. The Euclidean strict-shadow discharge branch remains separate and is not part of this splice.
+
+    Outside that branch, the loop burden is better read as a harmonic-circulation observability theorem for the Hodge part h J, rather than as an undifferentiated error term.
+
+    It correspondingly demotes YM-heat/deformation geometry to the upstream role of manufacturing the spectral floor/coherence packet consumed here.
+
+
+
+    \subsection{Square-Source Shell Flux Estimate Result}
+
+    \[
+    \int_I |F_j(t)|^2dt
+    \le
+    c\varepsilon\nu^3 2^{3j}|I|
+    +C\nu^2 2^j2^{-2\delta j}.
+    \]
+
+    This estimate is intended to feed the damped scalar response and produce active- control.
+
+    \[
+    F_j(t)=2^{2j}\langle \Delta_j(u\cdot\nabla u),\Delta_j u\rangle.
+    \]
+
+    \[
+    u_0^A=A u_0.
+    \]
+
+    \[
+    F_j(0;u_0^A)=A^3F_j(0;u_0).
+    \]
+
+    \[
+    \int_I |F_j(t;u_0^A)|^2dt
+    \ge c h A^6 |F_j(0;u_0)|^2
+    \]
+
+    The -source estimate fails as a universal fixed-shell theorem from original smooth data. Finite shell localization and smoothness supply regularity, while they supply no amplitude normalization.
+
+    The -source path returns to the same live obstruction: active- Carleson or direct LPAS must be proved by a mechanism that controls active shell amplitude, rather than by smoothness or finite-shell localization alone.
+
+
+
+    \subsection{Square-Source To Active-Square Control Result}
+
+    \[
+    \int_I2^{-j}D_j(t)^2dt.
+    \]
+
+    \[
+    \int_I2^{3j}E_j(t)^2dt.
+    \]
+
+    \[
+    \|E_j\|_{L^2(I)}^2
+    \le
+    C\lambda_j^{-1}E_j(t_0)^2
+    +C\lambda_j^{-2}\|F_j\|_{L^2(I)}^2.
+    \]
+
+    \[
+    \int_I2^{-j}D_j^2dt
+    \le
+    C\nu^{-1}2^jE_j(t_0)^2
+    +C\nu^{-2}2^{-j}\int_I|F_j(t)|^2dt.
+    \]
+
+    \[
+    \int_I2^{-j}D_j^2dt
+    \le
+    \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}
+    \]
+
+    The -source route is a valid conditional replacement for shell-amplitude gain. Current inputs do not supply the required L 2 t shell-source scale. The exact new theorem is
+
+    Once this -source theorem is installed, it yields active- Carleson and then LPAS through the existing lower-prefix embedding route.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed Weighted Lifted-Remainder Theorem Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61389
+  line_start: 61389
+  line_end: 61424
+  start_anchor: "\\subsection{Signed Weighted Lifted-Remainder Theorem Attempt}\n"
+  end_anchor: "\\subsection{Simple-Top Gap For Observable Surrogate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed Weighted Lifted-Remainder
+    Theorem Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61389
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Simple-Top Gap For Observable Surrogate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61425
+  line_start: 61425
+  line_end: 61453
+  start_anchor: "\\subsection{Simple-Top Gap For Observable Surrogate}\n"
+  end_anchor: "\\subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+    Theorem Target}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Simple-Top Gap For Observable
+    Surrogate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61425
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+    Theorem Target
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61454
+  line_start: 61454
+  line_end: 61515
+  start_anchor: "\\subsection{Spatial-Derivative / Deformation-Geometry Curvature-Dissipation
+    Theorem Target}\n"
+  end_anchor: "\\subsection{Spectral Carrier-Floor-Leakage Direction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Spatial-Derivative / Deformation-Geometry
+    Curvature-Dissipation Theorem Target as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61454
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Spectral Gap Rigidity And Projector Identification Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61571
+  line_start: 61571
+  line_end: 61626
+  start_anchor: "\\subsection{Spectral Gap Rigidity And Projector Identification Note}\n"
+  end_anchor: "\\subsection{Spectral Transversality Cocycle Bridge To Sg4}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Spectral Gap Rigidity And Projector
+    Identification Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61571
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Spectral Transversality Cocycle Bridge To Sg4
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61627
+  line_start: 61627
+  line_end: 61688
+  start_anchor: "\\subsection{Spectral Transversality Cocycle Bridge To Sg4}\n"
+  end_anchor: "\\subsection{Spectral Transversality In Measure Implies Pd70}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Spectral Transversality Cocycle
+    Bridge To Sg4 as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61627
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Spectral Transversality In Measure Implies Pd70
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61689
+  line_start: 61689
+  line_end: 61738
+  start_anchor: "\\subsection{Spectral Transversality In Measure Implies Pd70}\n"
+  end_anchor: "\\subsection{Square-Source Shell Flux Estimate Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Spectral Transversality In Measure
+    Implies Pd70 as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61689
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Square-Source Shell Flux Estimate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61739
+  line_start: 61739
+  line_end: 61771
+  start_anchor: "\\subsection{Square-Source Shell Flux Estimate Result}\n"
+  end_anchor: "\\subsection{Square-Source To Active-Square Control Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Square-Source Shell Flux Estimate
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61739
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Square-Source To Active-Square Control Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61772
+  line_start: 61772
+  line_end: 61806
+  start_anchor: "\\subsection{Square-Source To Active-Square Control Result}\n"
+  end_anchor: "\\subsection{SS and LPAS/CTS Blocker Demonstration Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Square-Source To Active-Square
+    Control Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61772
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-70
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-70.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

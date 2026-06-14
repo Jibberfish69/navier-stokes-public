@@ -36,11 +36,11 @@ The `Jump_avg` lower argument is not raw. It comes from the scale-critical thres
 SCF_{base}(Q_r^\Phi)>\varepsilon_m,
 ```
 
-so the lower unit is a normalized density, schematically
+so the lower unit is the normalized density
 
 ```math
 \operatorname{dens}_{SCF}(\nu_{SCF};Q_r^\Phi)
-\sim r^{-\alpha}\nu_{SCF}(Q_r^\Phi)
+:= r^{-\alpha}\nu_{SCF}(Q_r^\Phi)
 ```
 
 with the precise exponent determined by the selected packet normalization.
@@ -57,7 +57,7 @@ Thus the contradiction needs
 Raw finite measure does not imply the normalized estimate. A model finite measure can satisfy
 
 ```math
-\nu(Q_k)\simeq r_k^{\alpha}
+\nu(Q_k):= r_k^{\alpha}
 ```
 
 on disjoint shrinking windows with

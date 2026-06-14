@@ -155,7 +155,7 @@ Packet-language form:
 
 ```math
 \mathcal R_N(W)
-\simeq
+:=
 \int_W\sum_{P^-}|A_{P^-}(t)|^2dt,
 ```
 
@@ -358,7 +358,7 @@ This is the right shape, but for the wrong variable. The donor square reserve is
 
 ```math
 \mathcal R_N(W)
-\simeq
+:=
 \int_W\sum_{P^-}|A_{P^-}(t)|^2dt.
 ```
 
@@ -504,7 +504,7 @@ Past(W_m)=0,
 \qquad
 Charge_N(W_m)\to0,
 \qquad
-\mathcal R_N(W_m)\gtrsim1.
+\mathcal R_N(W_m)\ge c_R.
 ```
 
 To rule out this pattern one needs a genuine Navier--Stokes theorem forbidding
@@ -538,7 +538,7 @@ Equivalent sufficient forms are:
 ActiveWindowHeight.A:
 \quad
 \sup_{t\in W}\sup_{\ell>N}
-2^\ell\sum_{m>\ell+O(1)}D_m(t)
+2^\ell\sum_{m>\ell+L_0}D_m(t)
 \le
 C_{legal},
 }

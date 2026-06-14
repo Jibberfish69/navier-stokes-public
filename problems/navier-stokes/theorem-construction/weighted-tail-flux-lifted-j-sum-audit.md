@@ -144,7 +144,7 @@ So the weighted lifted remainder has the form
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{\ell\ge j}2^{-\sigma(\ell-j)}
 \sum_{j+M<k<\ell-4}
 a_k(t)\,D_\ell(t).
@@ -156,7 +156,7 @@ to `k>j+M` and `\ell\ge k+4`, one gets
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{k>j+M}
 a_k(t)\sum_{\ell\ge k+4}2^{-\sigma(\ell-j)}D_\ell(t).
 ```
@@ -173,7 +173,7 @@ Therefore
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{k>j+M}
 2^{-\sigma(k-j)}\,a_k(t)\,
 \underbrace{\Big(\sum_{\ell\ge k+4}2^{-\sigma(\ell-k)}D_\ell(t)\Big)}_{=:\mathcal D_k^\uparrow(t)}.
@@ -190,7 +190,7 @@ Now sum `(2)` in `j` with the square-theorem weight `2^j`. Then
 
 ```math
 \sum_{j>N+M+4}2^j\,\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{k>N+M}a_k(t)\,\mathcal D_k^\uparrow(t)
 \sum_{N<j<k-M}2^j\,2^{-\sigma(k-j)}.
 ```
@@ -201,15 +201,15 @@ The inner geometric sum is explicit:
 \sum_{N<j<k-M}2^j\,2^{-\sigma(k-j)}
 =
 2^{-\sigma k}\sum_{N<j<k-M}2^{(1+\sigma)j}
-\sim_\sigma
-2^k.
+\le
+C_\sigma 2^k.
 ```
 
 Hence
 
 ```math
 \sum_{j>N+M+4}2^j\,\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+\le C_\sigma
 \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^\uparrow(t).
 \tag{3}
 ```

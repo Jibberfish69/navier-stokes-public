@@ -1,0 +1,369 @@
+---
+version: 1
+kind: single-integrated-source-delta
+status: dry-run
+generated_at: '2026-06-13T00:11:02Z'
+plan_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/supervisor-plan.yaml
+batch_id: 20260612-active-loop
+applied_pack_refs:
+- problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/rewrite-packs/10-front-route-source-author.yaml
+skipped_pack_refs:
+- problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/rewrite-packs/00-mechanical-candidates.yaml
+- problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/rewrite-packs/20-cm-core-source-author.yaml
+- problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/rewrite-packs/30-branch-payment-source-author.yaml
+- problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/rewrite-packs/40-appendix-distillation-source-author.yaml
+changed_files:
+- problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+operations:
+- index: 1
+  op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:86-103
+- index: 2
+  op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:119-169
+- index: 3
+  op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:166-263
+- index: 4
+  op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:239-257
+changed_section_refs:
+- spine_id: original-problem-statement
+  section_title: Original Problem Statement
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:86
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 86
+  line_end: 103
+- spine_id: gold-standard-approach-explained-live-example
+  section_title: Gold Standard Approach (Explained) + Live Example
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:104
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 104
+  line_end: 154
+- spine_id: reaching-obstruction
+  section_title: Reaching Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:155
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 155
+  line_end: 252
+- spine_id: reframing-the-problem
+  section_title: Reframing the Problem
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:253
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 253
+  line_end: 271
+- spine_id: exhaustive-failure-list
+  section_title: Exhaustive Failure List
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:272
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 272
+  line_end: 352
+- spine_id: generally-classifying-failure-types-from-the-list
+  section_title: Generally Classifying Failure Types From the List
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:353
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 353
+  line_end: 380
+- spine_id: silver-standard-approach
+  section_title: Silver Standard Approach
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:381
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 381
+  line_end: 413
+- spine_id: defining-class-membership
+  section_title: Defining Class Membership
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:414
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 414
+  line_end: 537
+- spine_id: participation-and-one-field-coherence-witness-laws
+  section_title: Participation and One-Field Coherence Witness Laws
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:538
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 538
+  line_end: 593
+- spine_id: packet-witness-law
+  section_title: Packet Witness Law
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:594
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 594
+  line_end: 611
+- spine_id: packet-failure-types
+  section_title: Packet Failure Types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 612
+  line_end: 632
+- spine_id: velocity-failure-types
+  section_title: Velocity Failure Types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:633
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 633
+  line_end: 689
+- spine_id: the-contrapositive-logic
+  section_title: The Contrapositive Logic
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:690
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 690
+  line_end: 736
+- spine_id: simplifying-the-witness-logic-table
+  section_title: Simplifying The Witness Logic Table
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:737
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 737
+  line_end: 780
+- spine_id: the-class-law-proof
+  section_title: The Class-Law Proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:781
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 781
+  line_end: 1085
+- spine_id: the-clay-facing-cm-completion
+  section_title: The Clay-Facing CM Completion
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1086
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1086
+  line_end: 1164
+- spine_id: forward-families-as-support-examples
+  section_title: Forward Families As Support Examples
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1165
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1165
+  line_end: 1370
+- spine_id: branch-family-support-exhaustion
+  section_title: Branch-Family Support Exhaustion
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1371
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1371
+  line_end: 1454
+- spine_id: the-support-boundary
+  section_title: The Support Boundary
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1455
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1455
+  line_end: 1493
+- spine_id: comparison-and-transfer-boundary
+  section_title: Comparison And Transfer Boundary
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1494
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1494
+  line_end: 1523
+- spine_id: whole-space-mathbb-r-3-cm-exterior-source-branch
+  section_title: Whole-Space \(\mathbb R^3\) CM Exterior-Source Branch
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1524
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1524
+  line_end: 1640
+- spine_id: mathematical-branch-coverage
+  section_title: Mathematical Branch Coverage
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1641
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1641
+  line_end: 1675
+- spine_id: the-closing-hinges
+  section_title: The Closing Hinges
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1676
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1676
+  line_end: 1688
+- spine_id: the-same-solution-cm-proof
+  section_title: The Same-Solution CM Proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1689
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1689
+  line_end: 1783
+- spine_id: how-auxiliary-estimates-enter
+  section_title: How Auxiliary Estimates Enter
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1784
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1784
+  line_end: 1803
+- spine_id: supplementary-branch-checks
+  section_title: Supplementary Branch Checks
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1804
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1804
+  line_end: 1820
+- spine_id: branch-derivation-patterns
+  section_title: Branch Derivation Patterns
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1821
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1821
+  line_end: 1879
+build_check_scope:
+  mode: changed-source-spans-only
+  source_files_touched:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  changed_section_refs:
+  - spine_id: original-problem-statement
+    section_title: Original Problem Statement
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:86
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 86
+    line_end: 103
+  - spine_id: gold-standard-approach-explained-live-example
+    section_title: Gold Standard Approach (Explained) + Live Example
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:104
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 104
+    line_end: 154
+  - spine_id: reaching-obstruction
+    section_title: Reaching Obstruction
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:155
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 155
+    line_end: 252
+  - spine_id: reframing-the-problem
+    section_title: Reframing the Problem
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:253
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 253
+    line_end: 271
+  - spine_id: exhaustive-failure-list
+    section_title: Exhaustive Failure List
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:272
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 272
+    line_end: 352
+  - spine_id: generally-classifying-failure-types-from-the-list
+    section_title: Generally Classifying Failure Types From the List
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:353
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 353
+    line_end: 380
+  - spine_id: silver-standard-approach
+    section_title: Silver Standard Approach
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:381
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 381
+    line_end: 413
+  - spine_id: defining-class-membership
+    section_title: Defining Class Membership
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:414
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 414
+    line_end: 537
+  - spine_id: participation-and-one-field-coherence-witness-laws
+    section_title: Participation and One-Field Coherence Witness Laws
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:538
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 538
+    line_end: 593
+  - spine_id: packet-witness-law
+    section_title: Packet Witness Law
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:594
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 594
+    line_end: 611
+  - spine_id: packet-failure-types
+    section_title: Packet Failure Types
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 612
+    line_end: 632
+  - spine_id: velocity-failure-types
+    section_title: Velocity Failure Types
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:633
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 633
+    line_end: 689
+  - spine_id: the-contrapositive-logic
+    section_title: The Contrapositive Logic
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:690
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 690
+    line_end: 736
+  - spine_id: simplifying-the-witness-logic-table
+    section_title: Simplifying The Witness Logic Table
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:737
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 737
+    line_end: 780
+  - spine_id: the-class-law-proof
+    section_title: The Class-Law Proof
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:781
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 781
+    line_end: 1085
+  - spine_id: the-clay-facing-cm-completion
+    section_title: The Clay-Facing CM Completion
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1086
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1086
+    line_end: 1164
+  - spine_id: forward-families-as-support-examples
+    section_title: Forward Families As Support Examples
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1165
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1165
+    line_end: 1370
+  - spine_id: branch-family-support-exhaustion
+    section_title: Branch-Family Support Exhaustion
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1371
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1371
+    line_end: 1454
+  - spine_id: the-support-boundary
+    section_title: The Support Boundary
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1455
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1455
+    line_end: 1493
+  - spine_id: comparison-and-transfer-boundary
+    section_title: Comparison And Transfer Boundary
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1494
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1494
+    line_end: 1523
+  - spine_id: whole-space-mathbb-r-3-cm-exterior-source-branch
+    section_title: Whole-Space \(\mathbb R^3\) CM Exterior-Source Branch
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1524
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1524
+    line_end: 1640
+  - spine_id: mathematical-branch-coverage
+    section_title: Mathematical Branch Coverage
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1641
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1641
+    line_end: 1675
+  - spine_id: the-closing-hinges
+    section_title: The Closing Hinges
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1676
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1676
+    line_end: 1688
+  - spine_id: the-same-solution-cm-proof
+    section_title: The Same-Solution CM Proof
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1689
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1689
+    line_end: 1783
+  - spine_id: how-auxiliary-estimates-enter
+    section_title: How Auxiliary Estimates Enter
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1784
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1784
+    line_end: 1803
+  - spine_id: supplementary-branch-checks
+    section_title: Supplementary Branch Checks
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1804
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1804
+    line_end: 1820
+  - spine_id: branch-derivation-patterns
+    section_title: Branch Derivation Patterns
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1821
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1821
+    line_end: 1879
+  compile_policy: compile after source batch; extract/reread changed_section_refs
+    and local cross-reference spillover only
+  full_pdf_reread: skip unless finality is being claimed or the pack requests a milestone
+math_unknown_queue_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/20260612-active-loop/math-unknown-queue.yaml
+token_savings_rule: This is one integrated source delta; compile and reread only build_check_scope.changed_section_refs
+  unless finality is being claimed.

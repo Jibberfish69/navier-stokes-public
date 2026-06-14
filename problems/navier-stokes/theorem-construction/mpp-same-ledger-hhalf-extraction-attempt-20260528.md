@@ -70,7 +70,7 @@ Since the atlas is finite, the fixed least-index maximizer selects a chart `a_m`
 
 ```math
 2^{J_m}\|P_{J_m}(\chi_{a_m}^{\mathcal W}(t_m)u(t_m))\|_2^2
-\gtrsim
+\ge c_{\mathcal W}
 2^{J_m}\|P_{J_m}u(t_m)\|_2^2
 -
 Err_{pack}(m).

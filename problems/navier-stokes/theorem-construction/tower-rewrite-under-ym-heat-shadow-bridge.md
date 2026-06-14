@@ -115,17 +115,17 @@ viscous dissipation at rung r.
 
 ## 2. The rung-by-rung derivative count
 
-At total derivative order `r`, write schematically
+At total derivative order `r`, use the model representative
 
 ```math
-J_r \sim \partial^r u.
+J_r := \partial^r u.
 \tag{7}
 ```
 
 The viscous contribution is
 
 ```math
-\nu\Delta J_r \sim \nu\,\partial^{r+2}u.
+\nu\Delta J_r = \nu\,\partial^{r+2}u.
 \tag{8}
 ```
 
@@ -133,7 +133,7 @@ A mixed term that splits the rung into `a` and `r-a` has the form
 
 ```math
 (\partial^a u)\,\nabla(\partial^{r-a}u)
-\sim
+=
 (\partial^a u)(\partial^{r-a+1}u).
 \tag{9}
 ```
@@ -175,16 +175,16 @@ So viscosity contributes:
 
 ```math
 \text{dissipation at rung }r
-\sim
+:=
 \nu\,\|\partial^{r+1}u\|_{L^2}^2,
 \tag{12}
 ```
 
-while mixed transfer into rung `r` has the schematic form
+while mixed transfer into rung `r` is represented by
 
 ```math
 \text{mixed transfer into rung }r
-\sim
+:=
 \|\partial^a u\|_{L^\infty}\,
 \|\partial^{r-a}u\|_{L^2}\,
 \|\partial^r u\|_{L^2}.

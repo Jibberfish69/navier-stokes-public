@@ -91,9 +91,9 @@ b_G^{main}(a,\xi,\eta)
 :=
 p_G(a,\xi)^\top G(a)^{-1}p_G(a,\eta),
 \qquad
-|\xi|\sim|\eta|\sim 2^j,
+2^{j-1}\le |\xi|,|\eta|\le 2^{j+1},
 \quad
-|\xi-\eta|\lesssim 2^j,
+|\xi-\eta|\le C_{res}2^j,
 \tag{WEP.RR.4}
 ```
 

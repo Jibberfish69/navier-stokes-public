@@ -60,7 +60,7 @@ Then a direct expansion of the `k`-square gives
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}2^jD_j(t)\,\mathcal T_j^\sigma(t).
 ```
 

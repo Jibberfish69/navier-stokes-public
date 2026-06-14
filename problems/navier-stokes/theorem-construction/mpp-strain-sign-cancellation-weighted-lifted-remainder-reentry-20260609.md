@@ -31,7 +31,7 @@ The principal lifted term has strain form:
 
 ```text
 R_{j,k,ell}^{lift}
-~ 2^{2j}<C_j(nabla a_k, Delta_j u), Delta_j u>.
+:= 2^{2j}<C_j(nabla a_k, Delta_j u), Delta_j u>.
 ```
 
 The unweighted dyadic exchange cancels paired shell exchange before the

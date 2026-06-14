@@ -171,7 +171,7 @@ Uniform ellipticity then yields
 
 ```math
 |\partial_\xi p_G(a,\xi)|
-\lesssim_{\lambda,\Lambda,M}
+\le C_{\lambda,\Lambda,M}
 |\xi|^{-1},
 \tag{WEP.A6}
 ```
@@ -271,7 +271,7 @@ The abstract pressure-ledger form then reads:
 ```math
 \boxed{
 \|[\Pi_G^{ex},a_{<j-C}]\,\Delta_j v\|_{\mathsf{Press}_j}
-\lesssim
+\le C_{\mathsf{Press}}
 \|\nabla_a a_{<j-C}\|_{L^\infty_a}\,
 \|\Delta_j v\|_{\mathsf{SameDepth}_j},
 }
@@ -312,11 +312,11 @@ which is order `-1`. Here `p=p_G(a,\xi)`, so the same principle applies to
 coming from the variable coefficient `G`. Those lower terms are exactly where a
 rigorous paradifferential construction for `L_G^{-1}` has to enter.
 
-On the active shell `|\xi|\sim 2^j`, `(WEP.A6)` becomes
+On the active dyadic support `2^{j-1}\le|\xi|\le 2^{j+1}`, `(WEP.A6)` becomes
 
 ```math
 |\partial_\xi p_G(a,\xi)|
-\lesssim_G
+\le C_{G,\Delta}
 2^{-j},
 \tag{WEP.2''a}
 ```
@@ -374,7 +374,7 @@ where `S_{-2}` is one order better. Therefore
 
 ```math
 \|T_{\,i\,\partial_\xi p_G\cdot\nabla_a a_{<j-C}}\,v_j\|_{L^2_a}
-\lesssim
+\le C_G
 2^{-j}\|\nabla_a a_{<j-C}\|_{L^\infty_a}\,\|v_j\|_{L^2_a}.
 \tag{WEP.2m4}
 ```

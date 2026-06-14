@@ -1,0 +1,1217 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-pressure-and-participation-01
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-01
+  sequence: 54
+  group_id: pressure-and-participation
+  title: Pressure and participation 1
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 9088
+  line_end: 15791
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9088
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10746
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13693
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14025
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14279
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15355
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15713
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15754
+  subsection_titles:
+  - Gradient Low-Mode Strain Recovery Audit
+  - Lemma 4B No-Loss Pressure Recovery Attack
+  - Active Strain Alignment Cost.A continuation
+  - Adjoint strain-gauge parent-kernel conditional discharge packet
+  - Affine/Pressure Normalization Compatibility Lemma
+  - B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe Boundary
+  - B ASAC Pressure Elliptic Continuation
+  - B ASAC Pressure Tether Diagnostic
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Gradient Low-Mode Strain Recovery Audit
+    line_start: 9088
+    line_end: 9142
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9088
+    start_anchor: "\\subsection{Gradient Low-Mode Strain Recovery Audit}\n"
+    end_anchor: "\\subsection{Navier-Stokes Gradient Package}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Gradient Low-Mode Strain Recovery Audit}
+
+      \[
+      \|\nabla u_{<j_0}(t)\|_{L^\infty_x}
+      \le
+      c\,\nu\,2^{2j_0},
+      \]
+
+      \[
+      A_{j_0-1}(t)\le C\,\nu\,2^{2j_0},
+      \qquad
+      A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}.
+      \]
+
+      If this were available at \(j_0=N-4\), the strict low-mode packet would return
+      to the cleaner declared surface by direct viscous absorption.
+
+      \[
+      \big\langle \Delta_j(\omega\cdot\nabla u),\,\Delta_j\omega\big\rangle
+      =
+      \big\langle [\Delta_j,u\cdot\nabla]\omega,\,\Delta_j\omega\big\rangle,
+      \]
+
+      \[
+      \big|\nabla S_{j-1}u\big|_{L^\infty_x}\,|\Delta_j\omega|_{L^2_x}^2.
+      \]
+
+      The exact decomposition produces the low-mode strain coefficient.  It does not
+      produce a uniform coercive deficit by itself.
+
+      \[
+      \mathcal L_N(t)
+      :=
+      1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x},
+      \]
+
+      while the strain bound needs the stronger \(2^{5k/2}\) weight.  That is the
+      one-derivative gap in the strict-low packet.
+
+      The existing Euclidean bridges do not supply that missing pointwise
+      low-frequency strain theorem.  The monotone \(Q(t)\) bridge controls
+      \(\|u\|_2^2+\|\nabla u\|_2^2\) and integrated dissipation.  The scale barrier
+      controls the high-frequency \(L_t^2L_x^2\) tail.  Compactness closes the
+      nonlinear limit.  None of those gives
+
+      \[
+      \|\nabla u_{<j_0}(t)\|_{L^\infty_x}
+      \le c\nu2^{2j_0}.
+      \]
+
+      The honest conclusion is that the gradient bridge either needs a new low-mode
+      strain theorem of the form \((GLM.1)\), or it must stay on the upgraded
+      coefficient surface \(\widetilde\Lambda_N^\sharp\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lemma 4B No-Loss Pressure Recovery Attack
+    line_start: 10746
+    line_end: 10825
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10746
+    start_anchor: "\\subsection{Lemma 4B No-Loss Pressure Recovery Attack}\n"
+    end_anchor: "\\subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Lemma 4B No-Loss Pressure Recovery Attack}
+
+      This is the pressure side of the same bridge. The route is not to guess a
+      pressure. It is to derive the differentiated pressure constraint and show that
+      the top-order pressure pairing can be charged to the same Lagrangian energy
+      record.
+
+      \[
+      \begin{aligned}
+      \partial_t v + A^\top \nabla_a q
+      &=
+      \nu\,\operatorname{div}_a(G\nabla_a v),
+      &G&:=AA^\top,\\
+      U_\alpha&:=\partial_a^\alpha v,
+      &Q_\alpha&:=\partial_a^\alpha q.
+      \end{aligned}
+      \]
+
+      \[
+      \begin{aligned}
+      \partial_t U_\alpha
+      +
+      A^\top\nabla_a Q_\alpha
+      &=
+      \nu\,\operatorname{div}_a(G\nabla_a U_\alpha)
+      +
+      \mathcal C_\alpha^v,\\
+      \operatorname{div}_a(AU_\alpha)&=\mathcal P_\alpha .
+      \end{aligned}
+      \]
+
+      \[
+      \mathcal C_\alpha^v
+      =
+      -\sum_{0<\beta\le \alpha}\binom{\alpha}{\beta}
+      (\partial_a^\beta A^\top)\nabla_a Q_{\alpha-\beta}
+      +
+      \nu\sum_{0<\beta\le \alpha}\binom{\alpha}{\beta}
+      \operatorname{div}_a\!\Big((\partial_a^\beta G)\nabla_a U_{\alpha-\beta}\Big).
+      \]
+
+      \(\mathcal P_\alpha\) is not an arbitrary source. It is generated by
+      differentiating the constraint:
+
+      \[
+      \mathcal P_\alpha
+      =
+      -\sum_{0<\beta\le\alpha}\binom{\alpha}{\beta}
+      \operatorname{div}_a\bigl((\partial_a^\beta A)U_{\alpha-\beta}\bigr).
+      \]
+
+      Every term in \(\mathcal P_\alpha\) contains at least one derivative of \(A\);
+      there is no free top-order divergence of \(U_\alpha\). That is why this route
+      can still be same-depth, provided the recursion is proved without using the
+      desired pressure estimate as an input.
+
+      The proposed no-loss test field is the variable-coefficient solution
+      \(Z_\alpha\) of
+
+      \[
+      \operatorname{div}_a(AZ_\alpha)=\mathcal P_\alpha .
+      \]
+
+      The estimate still owed is
+
+      \[
+      \|Z_\alpha\|_{H^1_G}
+      \le C_{\mathrm{sf},10692}
+      \|\mathcal P_\alpha\|_{H^{-1}_{A,G}},
+      \]
+
+      with constants controlled by the same \(A,G\) record. The dangerous viscous
+      term is then integrated by parts against \(Z_\alpha\) instead of being treated
+      as an independent forcing term.
+
+      The pressure-recovery attack and the loss mechanism are exact. The remaini
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active Strain Alignment Cost.A continuation
+    line_start: 13693
+    line_end: 13732
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13693
+    start_anchor: "\\subsection{Active Strain Alignment Cost.A continuation}\n"
+    end_anchor: "\\subsection{Active-window amplitude gain - hard obstruction}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Active Strain Alignment Cost.A continuation}
+
+      This continuation records the active strain-alignment obstruction. The
+      unconditional theorem is not installed; the conditional reduction to
+      terminal-pulse no-incoming rigidity remains valid.
+
+      \[
+      \int_I\sum_{j>N}\sum_{k<j-M}W_{j,k}^{\sigma}A_{j,k}(t)dt
+      \le
+      \theta\int_I\sum_{q>N}D_q(t)dt+o_N(1),
+      \]
+
+      \[
+      A_{j,k}(t)
+      :=2^{2j}\sum_{P\in\mathcal P_j}
+      (\langle S_k(x_P,t)e_P,e_P\rangle)_+|c_P(t)|^2.
+      \]
+
+      This is the positive strain-alignment carrier appearing in the lifted
+      commutator.
+
+      A trace-free strain matrix \(S_k\) can still have expanding eigendirections. A
+      high packet polarized along an expanding eigendirection produces a positive
+      one-sided carrier.
+
+      Incompressibility and bare skew exchange do not remove that positive aligned
+      packet carrier.
+
+      Cauchy, pressure, cutoff, and projection estimates control size or legal
+      losses. They do not provide a sign-depletion mechanism for the localized
+      positive part. Absolute-value estimates return to the same positive carrier.
+
+      The source-ancestry version supplies only First Pulse.No Parent. That is weaker
+      than global no-incoming control for the frozen-strain ancient tangent.
+
+      Active Strain Alignment Cost.A cannot currently discharge Lifted Skew
+      Commutator.A. Weighted Lifted Skew Defect Legal.A remains blocked at the active
+      strain-alignment carrier.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Adjoint strain-gauge parent-kernel conditional discharge packet
+    line_start: 14025
+    line_end: 14085
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14025
+    start_anchor: "\\subsection{Adjoint strain-gauge parent-kernel conditional discharge
+      packet}\n"
+    end_anchor: "\\subsection{Affine-Excess Coefficient-Dependence Audit}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Adjoint strain-gauge parent-kernel conditional discharge packet}
+
+      This packet is a conditional discharge of the parent-kernel gain route.  It
+      does not prove the source-pulse wall by itself.  It proves the chain after four
+      inputs have been supplied: an admissible tile atlas, a strain-gauged packet
+      parametrix, a residual decomposition, and first-pulse selection.  Those inputs
+      are live proof obligations for an unconditional source-pulse discharge.
+
+      \[
+      L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+      \qquad b_k=u_{\le k},
+      \]
+
+      \[
+      L_{j,k}w_j=R_{j,k}.
+      \]
+
+      \[
+      L_{j,k}^*\psi_T=0
+      \]
+
+      The adjoint test function \(\psi_T\) is weighted by the accumulated positive
+      strain along the selected tile:
+
+      \[
+      \Gamma_T=\int_{I_T}\lambda_{\max}^+(A_k(X_T(t),t))\,dt,
+      \qquad g_T=e^{\Gamma_T},
+      \qquad \chi_T=g_T^{-1}\psi_T.
+      \]
+
+      Pairing the packet equation with the adjoint gives the exact bookkeeping
+      identity
+
+      \[
+      \langle w_j(t_+),\psi_T(t_+)\rangle
+      =
+      \langle w_j(t_-),\psi_T(t_-)\rangle
+      +\int_{I_T}\langle R_{j,k},\psi_T\rangle\,dt.
+      \]
+
+      This identity is the point of the packet.  A high-gain stopped edge cannot be
+      only a terminal event once the adjoint packet is admissible: the terminal
+      coefficient is accounted for by an earlier coefficient or by the residual
+      charge.  The heat cylinder centered at \(X_T(t_+)\) at scale \(2^{-j_T}\) is the
+      earlier active ancestor attached to that edge.
+
+      Under the active-threshold selection and ancestor-cylinder measurability
+      hypotheses, this gives Gain Stop.A conditionally.
+
+      After Gain Stop.A, high-gain branches are converted into residual charges or
+      earlier source-pulse ancestors.  First-pulse selection removes the earlier
+      source-pulse ancestor alternative in the ancient limit.  The remaining branches
+      are quiet and contractive inside the same conditional packet.
+
+      This is First Pulse Kill.A under first-pulse selection and finite local
+      source-mass compactness.
+
+      The five requested gates are conditionally linked.  The unconditional proof is
+      reduced to the four
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Affine/Pressure Normalization Compatibility Lemma
+    line_start: 14279
+    line_end: 14331
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14279
+    start_anchor: "\\subsection{Affine/Pressure Normalization Compatibility Lemma}\n"
+    end_anchor: "\\subsection{Aligned Alpha Thresholded Mass Collapse Boundary}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Affine/Pressure Normalization Compatibility Lemma}
+
+      On a bounded-distortion same-fluid moving cylinder, write the moving-frame
+      variables in normalized coordinates.  The pressure used in the SCF base is
+
+      \[
+      p^{norm}=p-c(t)-p^{frame}_{aff}(x,t),
+      \]
+
+      where \(c(t)\) is the usual CKN pressure gauge and \(p^{frame}_{aff}\) is the
+      affine potential generated by the chosen translating or accelerating frame.
+      This is the pressure term appearing in the transformed local energy inequality.
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      The time-dependent constant \(c(t)\) is the standard pressure gauge.  It leaves
+      the Navier-Stokes equations unchanged and is allowed in the CKN pressure
+      smallness term.
+
+      The moving same-fluid frame introduces inertial affine terms in the transformed
+      equation.  These terms are represented by the affine pressure potential
+      \(p^{frame}_{aff}\), whose gradient is the frame acceleration contribution.
+      After this transformation, the normalized velocity and pressure solve the
+      same-fluid equation in the normalized frame with bounded lower-order
+      coefficients controlled by the chart distortion constants.
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}_{r}|^{3/2}.
+      \]
+
+      This quantity is invariant under the allowed pressure gauge and comparable to
+      the standard CKN pressure smallness quantity in the normalized cylinder.
+
+      For endpoint readout, return to the original pressure \(p\).  On each fixed
+      readout cover element, use
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      This lemma uses gauge and frame normalization only.  It excludes amplitude
+      rescaling of selected coherent modes at readout.  The obstruction recorded
+      elsewhere remains: exact readout preservation and fixed-shell amplitude damping
+      are incompatible without an independent amplitude bound.
+
+      All pointwise pressure derivatives are routed through the later fixed-cover
+      Poisson readout.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+      Boundary
+    line_start: 15355
+    line_end: 15391
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15355
+    start_anchor: "\\subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+      Boundary}\n"
+    end_anchor: "\\subsection{B ASAC Remaining Production Gates}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe Boundary}
+
+      The reverse-Holder route would close the terminal atom by proving
+
+      \[
+      \left\|
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+      \right\|_{L_s^p((-1,0))}
+      \le C_R,
+      \qquad p>1,
+      \]
+
+      which would again give
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p}+o_m(1),
+      \qquad
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      The named theorem surface is
+      \(\operatorname{UniformTemporalSourceIntegrability}_{p}\mathrm{.A}\).
+
+      The pressure/eigenframe route does not supply it.  Those inputs support
+      near-band signed-current control and pressure-Hessian/eigenframe persistence.
+      The positive source-weighted carrier is
+
+      \[
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+      \]
+
+      After the positive part is selected, signed-current support and near-band
+      pressure/eigenframe structure no longer control the full positive carrier.  The
+      B ASAC reverse-Holder route remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Pressure Elliptic Continuation
+    line_start: 15713
+    line_end: 15753
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15713
+    start_anchor: "\\subsection{B ASAC Pressure Elliptic Continuation}\n"
+    end_anchor: "\\subsection{B ASAC Pressure Tether Diagnostic}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{B ASAC Pressure Elliptic Continuation}
+
+      The pressure/elliptic route sharpens the next possible pressure theorem, while
+      the B ASAC terminal atom remains the target-local obstruction. The desired
+      pressure support relation is
+
+      \[
+      \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
+      \]
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j),
+      \qquad
+      \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+      \]
+
+      This supplies spatial partner structure and Calderon-Zygmund bounds. It does
+      not dominate the pressure quadratic-gradient carrier by the native same-fluid
+      source-current carrier after localization, one-sided terminal weights, and
+      positive selection.
+
+      The installed Leray identity is algebraic before selection. The one-sided
+      terminal packet record needs additional gates. Importing the existing terminal
+      skew/source-current record would make the fork circular.
+
+      Pressure recovery is elliptic and time-slice based. It can spread a pressure
+      lobe across space at a fixed time. The B ASAC obstruction is concentration in
+      time, so elliptic recovery alone supplies no terminal time-face anti-atom
+      estimate.
+
+      \[
+      \mu_*^{press\perp src}\perp(\mu_*^{src}+\mu_*^{legal,src}).
+      \]
+
+      Existing pressure legal records cover cutoff, projector, harmonic collar,
+      off-family tail, geometric collar, and boundary pressure work. The retained
+      pure pressure-sustain residue is interior after those exits are removed. The
+      pressure route remains open unless it supplies residue-level absolute
+      continuity plus terminal time-face spread.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Pressure Tether Diagnostic
+    line_start: 15754
+    line_end: 15791
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15754
+    start_anchor: "\\subsection{B ASAC Pressure Tether Diagnostic}\n"
+    end_anchor: "\\subsection{B ASAC Source Ancestry Compactness}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{B ASAC Pressure Tether Diagnostic}
+
+      The pressure/Leray tether remains a plausible production mechanism. The desired
+      content is residue-level absolute continuity of the pressure quadratic-gradient
+      residue with respect to the native source-current residue, together with a
+      spread estimate that excludes pure terminal time-face concentration.
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j),
+      \qquad
+      \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+      \]
+
+      After localization, near-band projection, one-sided terminal selection, and
+      positive-part extraction, the installed pressure/eigenframe material gives
+      conditional signed-current support. It does not give residue-level absolute
+      continuity plus terminal spread.
+
+      The survivor is a retained same-fluid terminal native source residue after ASAC
+      defect, legal exits, finite donor trees, temporal anti-concentration, active
+      reserve, transported no-incoming, pressure/Leray tether, and rigid-subclass
+      production have been audited.
+
+      This survivor is a selected terminal Zeno source atom. In the current
+      source-wall bookkeeping it is Pack-facing zero-radius residue support. It is not
+      a retained source-wall Field defect without an added positive-scale
+      retained-carrier bridge.
+
+      \[
+      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      \]
+
+      The pressure/source tether route stays conditional at Pressure Time Face
+      Spread.A. Forward source-wall theorem closure still requires a new production
+      theorem, and this diagnostic records the survivor without upgrading it into a
+      positive-scale Field readout.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Gradient Low-Mode Strain Recovery Audit}
+
+    \[
+    \|\nabla u_{<j_0}(t)\|_{L^\infty_x}
+    \le
+    c\,\nu\,2^{2j_0},
+    \]
+
+    \[
+    A_{j_0-1}(t)\le C\,\nu\,2^{2j_0},
+    \qquad
+    A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}.
+    \]
+
+    If this were available at \(j_0=N-4\), the strict low-mode packet would return
+    to the cleaner declared surface by direct viscous absorption.
+
+    \[
+    \big\langle \Delta_j(\omega\cdot\nabla u),\,\Delta_j\omega\big\rangle
+    =
+    \big\langle [\Delta_j,u\cdot\nabla]\omega,\,\Delta_j\omega\big\rangle,
+    \]
+
+    \[
+    \big|\nabla S_{j-1}u\big|_{L^\infty_x}\,|\Delta_j\omega|_{L^2_x}^2.
+    \]
+
+    The exact decomposition produces the low-mode strain coefficient.  It does not
+    produce a uniform coercive deficit by itself.
+
+    \[
+    \mathcal L_N(t)
+    :=
+    1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x},
+    \]
+
+    while the strain bound needs the stronger \(2^{5k/2}\) weight.  That is the
+    one-derivative gap in the strict-low packet.
+
+    The existing Euclidean bridges do not supply that missing pointwise
+    low-frequency strain theorem.  The monotone \(Q(t)\) bridge controls
+    \(\|u\|_2^2+\|\nabla u\|_2^2\) and integrated dissipation.  The scale barrier
+    controls the high-frequency \(L_t^2L_x^2\) tail.  Compactness closes the
+    nonlinear limit.  None of those gives
+
+    \[
+    \|\nabla u_{<j_0}(t)\|_{L^\infty_x}
+    \le c\nu2^{2j_0}.
+    \]
+
+    The honest conclusion is that the gradient bridge either needs a new low-mode
+    strain theorem of the form \((GLM.1)\), or it must stay on the upgraded
+    coefficient surface \(\widetilde\Lambda_N^\sharp\).
+
+
+
+    \subsection{Lemma 4B No-Loss Pressure Recovery Attack}
+
+    This is the pressure side of the same bridge. The route is not to guess a
+    pressure. It is to derive the differentiated pressure constraint and show that
+    the top-order pressure pairing can be charged to the same Lagrangian energy
+    record.
+
+    \[
+    \begin{aligned}
+    \partial_t v + A^\top \nabla_a q
+    &=
+    \nu\,\operatorname{div}_a(G\nabla_a v),
+    &G&:=AA^\top,\\
+    U_\alpha&:=\partial_a^\alpha v,
+    &Q_\alpha&:=\partial_a^\alpha q.
+    \end{aligned}
+    \]
+
+    \[
+    \begin{aligned}
+    \partial_t U_\alpha
+    +
+    A^\top\nabla_a Q_\alpha
+    &=
+    \nu\,\operatorname{div}_a(G\nabla_a U_\alpha)
+    +
+    \mathcal C_\alpha^v,\\
+    \operatorname{div}_a(AU_\alpha)&=\mathcal P_\alpha .
+    \end{aligned}
+    \]
+
+    \[
+    \mathcal C_\alpha^v
+    =
+    -\sum_{0<\beta\le \alpha}\binom{\alpha}{\beta}
+    (\partial_a^\beta A^\top)\nabla_a Q_{\alpha-\beta}
+    +
+    \nu\sum_{0<\beta\le \alpha}\binom{\alpha}{\beta}
+    \operatorname{div}_a\!\Big((\partial_a^\beta G)\nabla_a U_{\alpha-\beta}\Big).
+    \]
+
+    \(\mathcal P_\alpha\) is not an arbitrary source. It is generated by
+    differentiating the constraint:
+
+    \[
+    \mathcal P_\alpha
+    =
+    -\sum_{0<\beta\le\alpha}\binom{\alpha}{\beta}
+    \operatorname{div}_a\bigl((\partial_a^\beta A)U_{\alpha-\beta}\bigr).
+    \]
+
+    Every term in \(\mathcal P_\alpha\) contains at least one derivative of \(A\);
+    there is no free top-order divergence of \(U_\alpha\). That is why this route
+    can still be same-depth, provided the recursion is proved without using the
+    desired pressure estimate as an input.
+
+    The proposed no-loss test field is the variable-coefficient solution
+    \(Z_\alpha\) of
+
+    \[
+    \operatorname{div}_a(AZ_\alpha)=\mathcal P_\alpha .
+    \]
+
+    The estimate still owed is
+
+    \[
+    \|Z_\alpha\|_{H^1_G}
+    \le C_{\mathrm{sf},10692}
+    \|\mathcal P_\alpha\|_{H^{-1}_{A,G}},
+    \]
+
+    with constants controlled by the same \(A,G\) record. The dangerous viscous
+    term is then integrated by parts against \(Z_\alpha\) instead of being treated
+    as an independent forcing term.
+
+    The pressure-recovery attack and the loss mechanism are exact. The remaining
+    bridge-internal gap is the no-loss same-depth inverse needed to close Lemma 4B
+    without calling the installed bridge capsule.
+
+
+
+    \subsection{Active Strain Alignment Cost.A continuation}
+
+    This continuation records the active strain-alignment obstruction. The
+    unconditional theorem is not installed; the conditional reduction to
+    terminal-pulse no-incoming rigidity remains valid.
+
+    \[
+    \int_I\sum_{j>N}\sum_{k<j-M}W_{j,k}^{\sigma}A_{j,k}(t)dt
+    \le
+    \theta\int_I\sum_{q>N}D_q(t)dt+o_N(1),
+    \]
+
+    \[
+    A_{j,k}(t)
+    :=2^{2j}\sum_{P\in\mathcal P_j}
+    (\langle S_k(x_P,t)e_P,e_P\rangle)_+|c_P(t)|^2.
+    \]
+
+    This is the positive strain-alignment carrier appearing in the lifted
+    commutator.
+
+    A trace-free strain matrix \(S_k\) can still have expanding eigendirections. A
+    high packet polarized along an expanding eigendirection produces a positive
+    one-sided carrier.
+
+    Incompressibility and bare skew exchange do not remove that positive aligned
+    packet carrier.
+
+    Cauchy, pressure, cutoff, and projection estimates control size or legal
+    losses. They do not provide a sign-depletion mechanism for the localized
+    positive part. Absolute-value estimates return to the same positive carrier.
+
+    The source-ancestry version supplies only First Pulse.No Parent. That is weaker
+    than global no-incoming control for the frozen-strain ancient tangent.
+
+    Active Strain Alignment Cost.A cannot currently discharge Lifted Skew
+    Commutator.A. Weighted Lifted Skew Defect Legal.A remains blocked at the active
+    strain-alignment carrier.
+
+
+
+    \subsection{Adjoint strain-gauge parent-kernel conditional discharge packet}
+
+    This packet is a conditional discharge of the parent-kernel gain route.  It
+    does not prove the source-pulse wall by itself.  It proves the chain after four
+    inputs have been supplied: an admissible tile atlas, a strain-gauged packet
+    parametrix, a residual decomposition, and first-pulse selection.  Those inputs
+    are live proof obligations for an unconditional source-pulse discharge.
+
+    \[
+    L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+    \qquad b_k=u_{\le k},
+    \]
+
+    \[
+    L_{j,k}w_j=R_{j,k}.
+    \]
+
+    \[
+    L_{j,k}^*\psi_T=0
+    \]
+
+    The adjoint test function \(\psi_T\) is weighted by the accumulated positive
+    strain along the selected tile:
+
+    \[
+    \Gamma_T=\int_{I_T}\lambda_{\max}^+(A_k(X_T(t),t))\,dt,
+    \qquad g_T=e^{\Gamma_T},
+    \qquad \chi_T=g_T^{-1}\psi_T.
+    \]
+
+    Pairing the packet equation with the adjoint gives the exact bookkeeping
+    identity
+
+    \[
+    \langle w_j(t_+),\psi_T(t_+)\rangle
+    =
+    \langle w_j(t_-),\psi_T(t_-)\rangle
+    +\int_{I_T}\langle R_{j,k},\psi_T\rangle\,dt.
+    \]
+
+    This identity is the point of the packet.  A high-gain stopped edge cannot be
+    only a terminal event once the adjoint packet is admissible: the terminal
+    coefficient is accounted for by an earlier coefficient or by the residual
+    charge.  The heat cylinder centered at \(X_T(t_+)\) at scale \(2^{-j_T}\) is the
+    earlier active ancestor attached to that edge.
+
+    Under the active-threshold selection and ancestor-cylinder measurability
+    hypotheses, this gives Gain Stop.A conditionally.
+
+    After Gain Stop.A, high-gain branches are converted into residual charges or
+    earlier source-pulse ancestors.  First-pulse selection removes the earlier
+    source-pulse ancestor alternative in the ancient limit.  The remaining branches
+    are quiet and contractive inside the same conditional packet.
+
+    This is First Pulse Kill.A under first-pulse selection and finite local
+    source-mass compactness.
+
+    The five requested gates are conditionally linked.  The unconditional proof is
+    reduced to the four obligations named at the start of this subsection.
+
+
+
+    \subsection{Affine/Pressure Normalization Compatibility Lemma}
+
+    On a bounded-distortion same-fluid moving cylinder, write the moving-frame
+    variables in normalized coordinates.  The pressure used in the SCF base is
+
+    \[
+    p^{norm}=p-c(t)-p^{frame}_{aff}(x,t),
+    \]
+
+    where \(c(t)\) is the usual CKN pressure gauge and \(p^{frame}_{aff}\) is the
+    affine potential generated by the chosen translating or accelerating frame.
+    This is the pressure term appearing in the transformed local energy inequality.
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    The time-dependent constant \(c(t)\) is the standard pressure gauge.  It leaves
+    the Navier-Stokes equations unchanged and is allowed in the CKN pressure
+    smallness term.
+
+    The moving same-fluid frame introduces inertial affine terms in the transformed
+    equation.  These terms are represented by the affine pressure potential
+    \(p^{frame}_{aff}\), whose gradient is the frame acceleration contribution.
+    After this transformation, the normalized velocity and pressure solve the
+    same-fluid equation in the normalized frame with bounded lower-order
+    coefficients controlled by the chart distortion constants.
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}_{r}|^{3/2}.
+    \]
+
+    This quantity is invariant under the allowed pressure gauge and comparable to
+    the standard CKN pressure smallness quantity in the normalized cylinder.
+
+    For endpoint readout, return to the original pressure \(p\).  On each fixed
+    readout cover element, use
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    This lemma uses gauge and frame normalization only.  It excludes amplitude
+    rescaling of selected coherent modes at readout.  The obstruction recorded
+    elsewhere remains: exact readout preservation and fixed-shell amplitude damping
+    are incompatible without an independent amplitude bound.
+
+    All pointwise pressure derivatives are routed through the later fixed-cover
+    Poisson readout.
+
+
+
+    \subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe Boundary}
+
+    The reverse-Holder route would close the terminal atom by proving
+
+    \[
+    \left\|
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+    \right\|_{L_s^p((-1,0))}
+    \le C_R,
+    \qquad p>1,
+    \]
+
+    which would again give
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p}+o_m(1),
+    \qquad
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    The named theorem surface is
+    \(\operatorname{UniformTemporalSourceIntegrability}_{p}\mathrm{.A}\).
+
+    The pressure/eigenframe route does not supply it.  Those inputs support
+    near-band signed-current control and pressure-Hessian/eigenframe persistence.
+    The positive source-weighted carrier is
+
+    \[
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+    \]
+
+    After the positive part is selected, signed-current support and near-band
+    pressure/eigenframe structure no longer control the full positive carrier.  The
+    B ASAC reverse-Holder route remains open.
+
+
+
+    \subsection{B ASAC Pressure Elliptic Continuation}
+
+    The pressure/elliptic route sharpens the next possible pressure theorem, while
+    the B ASAC terminal atom remains the target-local obstruction. The desired
+    pressure support relation is
+
+    \[
+    \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
+    \]
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j),
+    \qquad
+    \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+    \]
+
+    This supplies spatial partner structure and Calderon-Zygmund bounds. It does
+    not dominate the pressure quadratic-gradient carrier by the native same-fluid
+    source-current carrier after localization, one-sided terminal weights, and
+    positive selection.
+
+    The installed Leray identity is algebraic before selection. The one-sided
+    terminal packet record needs additional gates. Importing the existing terminal
+    skew/source-current record would make the fork circular.
+
+    Pressure recovery is elliptic and time-slice based. It can spread a pressure
+    lobe across space at a fixed time. The B ASAC obstruction is concentration in
+    time, so elliptic recovery alone supplies no terminal time-face anti-atom
+    estimate.
+
+    \[
+    \mu_*^{press\perp src}\perp(\mu_*^{src}+\mu_*^{legal,src}).
+    \]
+
+    Existing pressure legal records cover cutoff, projector, harmonic collar,
+    off-family tail, geometric collar, and boundary pressure work. The retained
+    pure pressure-sustain residue is interior after those exits are removed. The
+    pressure route remains open unless it supplies residue-level absolute
+    continuity plus terminal time-face spread.
+
+
+
+    \subsection{B ASAC Pressure Tether Diagnostic}
+
+    The pressure/Leray tether remains a plausible production mechanism. The desired
+    content is residue-level absolute continuity of the pressure quadratic-gradient
+    residue with respect to the native source-current residue, together with a
+    spread estimate that excludes pure terminal time-face concentration.
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j),
+    \qquad
+    \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+    \]
+
+    After localization, near-band projection, one-sided terminal selection, and
+    positive-part extraction, the installed pressure/eigenframe material gives
+    conditional signed-current support. It does not give residue-level absolute
+    continuity plus terminal spread.
+
+    The survivor is a retained same-fluid terminal native source residue after ASAC
+    defect, legal exits, finite donor trees, temporal anti-concentration, active
+    reserve, transported no-incoming, pressure/Leray tether, and rigid-subclass
+    production have been audited.
+
+    This survivor is a selected terminal Zeno source atom. In the current
+    source-wall bookkeeping it is Pack-facing zero-radius residue support. It is not
+    a retained source-wall Field defect without an added positive-scale
+    retained-carrier bridge.
+
+    \[
+    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    \]
+
+    The pressure/source tether route stays conditional at Pressure Time Face
+    Spread.A. Forward source-wall theorem closure still requires a new production
+    theorem, and this diagnostic records the survivor without upgrading it into a
+    positive-scale Field readout.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Gradient Low-Mode Strain Recovery Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9088
+  line_start: 9088
+  line_end: 9142
+  start_anchor: "\\subsection{Gradient Low-Mode Strain Recovery Audit}\n"
+  end_anchor: "\\subsection{Navier-Stokes Gradient Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Gradient Low-Mode Strain Recovery
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9088
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lemma 4B No-Loss Pressure Recovery Attack
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10746
+  line_start: 10746
+  line_end: 10825
+  start_anchor: "\\subsection{Lemma 4B No-Loss Pressure Recovery Attack}\n"
+  end_anchor: "\\subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lemma 4B No-Loss Pressure Recovery
+    Attack as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10746
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active Strain Alignment Cost.A continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13693
+  line_start: 13693
+  line_end: 13732
+  start_anchor: "\\subsection{Active Strain Alignment Cost.A continuation}\n"
+  end_anchor: "\\subsection{Active-window amplitude gain - hard obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active Strain Alignment Cost.A
+    continuation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13693
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Adjoint strain-gauge parent-kernel conditional discharge packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14025
+  line_start: 14025
+  line_end: 14085
+  start_anchor: "\\subsection{Adjoint strain-gauge parent-kernel conditional discharge
+    packet}\n"
+  end_anchor: "\\subsection{Affine-Excess Coefficient-Dependence Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Adjoint strain-gauge parent-kernel
+    conditional discharge packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14025
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Affine/Pressure Normalization Compatibility Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14279
+  line_start: 14279
+  line_end: 14331
+  start_anchor: "\\subsection{Affine/Pressure Normalization Compatibility Lemma}\n"
+  end_anchor: "\\subsection{Aligned Alpha Thresholded Mass Collapse Boundary}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Affine/Pressure Normalization
+    Compatibility Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14279
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+    Boundary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15355
+  line_start: 15355
+  line_end: 15391
+  start_anchor: "\\subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+    Boundary}\n"
+  end_anchor: "\\subsection{B ASAC Remaining Production Gates}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Terminal-Source Reverse
+    Holder And Pressure/Eigenframe Boundary as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15355
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Pressure Elliptic Continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15713
+  line_start: 15713
+  line_end: 15753
+  start_anchor: "\\subsection{B ASAC Pressure Elliptic Continuation}\n"
+  end_anchor: "\\subsection{B ASAC Pressure Tether Diagnostic}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Pressure Elliptic Continuation
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15713
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Pressure Tether Diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15754
+  line_start: 15754
+  line_end: 15791
+  start_anchor: "\\subsection{B ASAC Pressure Tether Diagnostic}\n"
+  end_anchor: "\\subsection{B ASAC Source Ancestry Compactness}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Pressure Tether Diagnostic
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15754
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-01
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-pressure-and-participation-01.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

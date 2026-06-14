@@ -1,0 +1,958 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-63
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-63
+  sequence: 215
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 63
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 51541
+  line_end: 54484
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51541
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51644
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51688
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51858
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53130
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53273
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53651
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54463
+  subsection_titles:
+  - Source No Pulse Direct Attempt Note
+  - Source No Pulse Read Cover Bypass Discharge
+  - Source No Pulse Root Route Audit Map Note
+  - 'Source Drain.Theorem Grade.A correct resolution: diffuse ancestry obstruction'
+  - Sourcewall Reconcile A Resolution And Root Reopen
+  - Source-wall root hard stop after repeated blocker
+  - Square Reserve Evolution.A or Zeno rigidity final attempt
+  - Terminal Defect Liouville.A external Liouville audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source No Pulse Direct Attempt Note
+    line_start: 51541
+    line_end: 51595
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51541
+    start_anchor: "\\subsection{Source No Pulse Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction
+      Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Source No Pulse Direct Attempt Note}
+
+      Direct theorem-facing attempt on the atom left by the no-Field avg Jump avg branch.
+
+      The installed energy, pressure, dyadic exchange, monotone-functional, and smooth-data inputs do not imply the atom. The atom remains the exact new theorem required for unconditional Jump avg elimination on this branch.
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t),
+      \]
+
+      where F j is the nonlinear shell flux/source. A no-pulse theorem must exclude heat-scale intervals on which F j balances the viscous drain and maintains an active terminal packet.
+
+      \[
+      F_j(t)\le a_j(t)E_j(t)+b_j(t),
+      \qquad
+      a_j\in L^1_{\text{active}},
+      \]
+
+      \[
+      \int_{I_j}|F_j(t)|^2\,dt
+      \text{ heat-scale normalized and summable};
+      \]
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x}.
+      \]
+
+      This controls first-moment dissipation. It does not control the dissipation density or heat-scale source needed to rule out short active pulses. A pulse can have small time support and finite first moment while its active- contribution is large.
+
+      Original smooth data gives finite amplitudes on every compact preterminal time interval. It does not give scale-normalized terminal smallness as active shells drift to high frequency or as the terminal time is approached.
+
+      The nonlinear shell flux is trilinear. For a smooth divergence-free packet, amplitude scaling multiplies the source by the cube of the amplitude, while the energy and enstrophy layers only give data-dependent finite quantities unless a separate terminal bound has already been proved.
+
+      Thus smoothness of the initial data alone does not provide the active heat-scale source normalization.
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      \sfcomp{50013}
+      2^{2j}
+      \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+      \]
+
+      The installed algebra does not prove eigendirection decorrelation or signed cancellation of this weighted strain object. Taking absolute values returns to the positive-carrier active- residual-tail wall.
+
+      Thus the monotone-functional ro
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source No Pulse Read Cover Bypass Discharge
+    line_start: 51644
+    line_end: 51687
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51644
+    start_anchor: "\\subsection{Source No Pulse Read Cover Bypass Discharge}\n"
+    end_anchor: "\\subsection{Source No Pulse Root Route Audit Map Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Source No Pulse Read Cover Bypass Discharge}
+
+      \[
+      r_{\mathrm{good}}(a,t)=r_{\mathrm{good}}^1(a,t).
+      \]
+
+      \[
+      r_{\mathrm{good}}^{1/2}
+      \quad\text{produces}\quad
+      \varepsilon_m\text{-good readout cylinders}.
+      \]
+
+      This threshold split is necessary. A positive lower bound for r good 1 alone does not by itself supply the strict margin needed to perturb centers and extract an open cover. The lawful bypass so targets
+
+      \[
+      GoodScaleNonCollapse_{1/2}.A:
+      \quad
+      \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}^{1/2}(a,t)>0.
+      \]
+
+      \[
+      \forall(a,t)\in\mathcal T,\qquad
+      r_{\mathrm{good}}^{1/2}(a,t)>0.
+      \]
+
+      Then the half-threshold cylinders and strict-margin stability generate an open cover of T by m-good same-fluid cylinders.
+
+      The neighborhoods U(a,t) cover T. This proves the open-cover form needed for finite extraction.
+
+      \[
+      \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}^{1/2}(a,t)\ge r_*>0.
+      \]
+
+      Apply strict-margin stability to get a material neighborhood U(a,t) and a readout radius (a,t) c *s(a,t) after a fixed admissible shrink. The bounded-distortion same-fluid chart constants give
+
+      Emptiness of B m/2 gives a positive half-threshold good scale at every point. By Good Scale Open Cover.A, the associated strict-margin neighborhoods cover T. Compactness gives a finite subcover. The finitely many stable radii are positive and the corresponding cylinders are m-good. Hence they are exactly a finite positive-scale readout cover.
+
+      Half-threshold bad-set emptiness plus half-to-full stability gives a full threshold readout cover, not a uniform half-threshold lower scale. To prove Good Scale Non Collapse 1/2 .A through a bad-set theorem, the bad set must be empty at a stricter threshold, for example m/4, together with a threshold-flexible stability lemma from m/4 to m/2.
+
+      This is a compactness theorem, not a Liouville theorem. It closes once the route supplies the uniform local-energy and pressure normalization on the bad-scale sequence.
+
+      This requires a quantitative no-loss statement for the scale-c
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source No Pulse Root Route Audit Map Note
+    line_start: 51688
+    line_end: 51716
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51688
+    start_anchor: "\\subsection{Source No Pulse Root Route Audit Map Note}\n"
+    end_anchor: "\\subsection{Clay problem Source No-Pulse Terminal Target Stack Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Source No Pulse Root Route Audit Map Note}
+
+      The atom remains unproved. The four remaining root entrances and the installed audit state of each are recorded so an already-collapsed entrance is not reopened as a fresh theorem path.
+
+      \[
+      \mu_\ast^{sing}=0.
+      \]
+
+      The theorem would dominate the mixed bilinear dissipation/source measure on the bad spill-coefficient set.
+
+      Result: the good-coefficient region is absorbable, but the installed scheduler gives only small Lebesgue bad-time measure. The abstract heat-scale countermodel shows that this does not dominate B N (t)dt.
+
+      The theorem would prove cancellation of the true lifted weighted commutator before positive-part or absolute-value extraction.
+
+      Result: the bare commutator cancellation is not the true lifted source packet. The true lifted remainder has a strain principal part. After weights, cutoffs, terminal packet selection, and active positive extraction, the route returns to the same native positive source carrier unless a new signed cancellation theorem is proved for that exact lifted object.
+
+      The theorem would use the incompressible pressure law to deplete active vortex stretching on the same terminal source-pulse packets.
+
+      \[
+      \omega\cdot S\omega
+      \quad\text{or}\quad
+      \langle S_{<j}^{loc}w_j,w_j\rangle.
+      \]
+
+      Result: compactness can extract only after a localized source-residue carrier is available. The global mixed-shell carrier first gives a double-space or shell-time product, not a same physical heat-scale source-residue cylinder. Broad ancient no-pulse is too strong because nonzero smooth ancient profiles exist. The viable ancient theorem must be source-residue typed and proved by a first-pulse drain contradiction, and it is not installed without the missing carrier localization or rigid-class production.
+
+      Future progress must install a genuinely new theorem in one of the four entrances above. A note that only renames the active source carrier, applies bad-time Chebyshev, invokes pointwise trace-free str
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Source Drain.Theorem Grade.A correct resolution: diffuse ancestry
+      obstruction'
+    line_start: 51858
+    line_end: 51892
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51858
+    start_anchor: "\\subsection{Source Drain.Theorem Grade.A correct resolution: diffuse
+      ancestry obstruction}\n"
+    end_anchor: "\\subsection{Clay problem Source Parent Edge-Disintegration and Anti-Diffuse
+      Split Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Source Drain.Theorem Grade.A correct resolution: diffuse ancestry obstruction}
+
+      The normalized-adjoint package remains a valid conditional parent-or-charge mechanism. It does not close the source wall as a theorem-grade consequence of Original Smooth Data.
+
+      The failed theorem-grade certificate is First Pulse Kill.A at the no-diffuse-ancestry step.
+
+      The first-pulse selection excludes earlier threshold-crossing source-pulse tiles on fixed backward slices. It does not price diffuse legal source-parent ancestry.
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},\qquad M\to\infty,
+      \]
+
+      \[
+      \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0,
+      \]
+
+      So bounded parent selection plus first-pulse minimality cannot imply source-parent compactness.
+
+      Global skew cancellation is signed and unlocalized. The target is localized, terminal-selected, weighted, and positive-parted. Calderon-Zygmund pressure recovery supplies size control, while Cauchy/Young estimates return to an active- envelope.
+
+      Raw energy dissipation gives only a first-moment tail. It does not control the scale-critical reserve
+
+      \[
+      \int\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+      \]
+
+      A terminal heat-scale pulse can keep first-moment dissipation small while the scale-critical reserve remains non-small.
+
+      \[
+      \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.}
+      \]
+
+      Equivalently, an admissible repair may prove a finite pricing theorem for diffuse legal source-parent ancestry. Such a theorem must dominate the diffuse parent measure in a /Carleson reserve or place the Zeno limit in a rigid class with a source-residue Liouville theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sourcewall Reconcile A Resolution And Root Reopen
+    line_start: 53130
+    line_end: 53178
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53130
+    start_anchor: "\\subsection{Sourcewall Reconcile A Resolution And Root Reopen}\n"
+    end_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade
+      Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Sourcewall Reconcile A Resolution And Root Reopen}
+
+      The normalized-adjoint source-drain package is accepted as a theorem-grade analytic parent-or-charge core, but it is not accepted as an unconditional proof of the source wall.
+
+      provided First Pulse Kill.A includes a genuine source-parent compactness / no-diffuse-ancestry theorem.
+
+      The first-pulse construction rules out earlier threshold-crossing source-pulse tiles on finite backward slices. It does not, by itself, rule out diffuse legal source-parent measures in the terminal ancient limit.
+
+      \[
+      \pi_P
+      =
+      \frac{1}{M}
+      \sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+      \qquad
+      M\to\infty.
+      \]
+
+      \[
+      \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)
+      \le
+      \frac{B}{M}
+      \to0,
+      \]
+
+      \[
+      \boxed{
+      ZenoBoundedClass_B.A
+      +ZenoResidueLiouville_B.A.
+      }
+      \]
+
+      An equivalent route may instead prove a finite pricing theorem for diffuse legal source-parent ancestry.
+
+      Parent Square Embed.A is installed under the packet Bessel hypotheses. It controls the diffuse parent cloud in norm without selecting boundedly many parents.
+
+      \[
+      \int\sum_{k>N}D_k(t)\,dt\to0,
+      \]
+
+      \[
+      ZenoBoundedClass_B.A
+      +ZenoResidueLiouville_B.A.
+      \]
+
+      The installed compactness extraction gives an ancient local suitable source-residue limit with nonzero source mass, but does not currently produce a rigid class B such as Type I, finite global ancient energy, critical smallness, self-similarity, symmetry reduction, or finite branch-entropy class.
+
+      So the Zeno route remains open unless a new rigid class is produced and paired with a residue Liouville theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source-wall root hard stop after repeated blocker
+    line_start: 53273
+    line_end: 53291
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53273
+    start_anchor: "\\subsection{Source-wall root hard stop after repeated blocker}\n"
+    end_anchor: "\\subsection{Clay problem Source-Wall Root Post-Reconcile Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Source-wall root hard stop after repeated blocker}
+
+      \[
+      \text{produce a dynamic law for }\mathcal R_N
+      \quad\text{or}\quad
+      \text{produce a rigid Zeno class with source-residue Liouville.}
+      \]
+
+      Parent Square Embed.A is a static Bessel embedding. It prices diffuse parent clouds into the scalar reserve R N. It gives no derivative identity, no dissipative sign, and no residual-charge alternative for R N itself.
+
+      Weighted Adj Res.A is a dynamic charge estimate for child packet mass. It does not become a dynamic law for donor reserve without an additional theorem.
+
+      The minimal Zeno compactness class is only a local suitable ancient source-residue object with local energy bounds, nonzero selected residue, and no fixed-time incoming threshold pulse. This class allows terminal-layer source residue concentration.
+
+      \[
+      \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.}
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Square Reserve Evolution.A or Zeno rigidity final attempt
+    line_start: 53651
+    line_end: 53671
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53651
+    start_anchor: "\\subsection{Square Reserve Evolution.A or Zeno rigidity final
+      attempt}\n"
+    end_anchor: "\\subsection{Clay problem Square Reserve Evolution.A Sufficiency
+      And Temporal Fork}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Square Reserve Evolution.A or Zeno rigidity final attempt}
+
+      \[
+      \mathcal R_N(I)
+      =
+      \int_I\sum_{P^-}|A_{P^-}(t)|^2dt
+      \sfcomp{52085}
+      \int_I\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+      \]
+
+      These two facts do not combine into Square Reserve Evolution.A. The missing map is a dynamic identity for the donor factor |A P - | 2. Current surfaces provide a dynamic parent-or-charge identity for child packet mass M(T), plus a static Bessel embedding for donor clouds. They provide no derivative, dissipative sign, residual charge, or contractive parent edge for R N itself.
+
+      This implication fails as a theorem from the stated structure. The local energy inequality allows a positive source-residue measure concentrating in a terminal layer s 0. The no-incoming property controls fixed backward slices and leaves terminal-time Zeno concentration available.
+
+      Known stronger rigid classes also fail production from Original Smooth Data along this route: finite global ancient energy, Type I, critical smallness, bounded vorticity/strain, self-similarity, symmetry, and source-cancellation. The temporal anti-atom presentation is not an independent produced class: the direct Uniform Temporal Source Integrability p.A attempt reduces it to Heat Scale Square Source.A / Scale Critical Tree Carleson.A.
+
+      \[
+      \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A}
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Defect Liouville.A external Liouville audit
+    line_start: 54463
+    line_end: 54484
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54463
+    start_anchor: "\\subsection{Terminal Defect Liouville.A external Liouville audit}\n"
+    end_anchor: "\\subsection{Terminal Defect Persistence.A measure split}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Defect Liouville.A external Liouville audit}
+
+      Koch--Nadirashvili--Seregin--Sverak, Liouville theorems for the Navier-Stokes equations and applications, ar Xiv:0709.3599.
+
+      The paper studies bounded ancient Navier-Stokes solutions. Its abstract says the general three-dimensional problem is beyond the available techniques, with partial results in axisymmetric settings.
+
+      Albritton--Barker, On local Type I singularities of the Navier-Stokes equations and Liouville theorems, ar Xiv:1811.00502.
+
+      The route produces Liouville conclusions under Type I / mild bounded ancient structure and an additional L 3-type backward-time condition. Those are not outputs of the present Terminal Bad Scale Extraction.A packet.
+
+      Koch--Nadirashvili--Seregin--Sverak also emphasize in the singularity application section that producing a nonzero bounded ancient solution is not itself contradictory; one must add a scale-invariant exclusion or a Liouville theorem for the produced class.
+
+      The available Liouville tools cover rigid classes such as bounded ancient mild
+      solutions, Type I decay classes, additional backward-time $L^3$ control,
+      axisymmetric or lower-dimensional reductions, or finite global ancient energy
+      paired with a valid exclusion theorem. A terminal extraction becomes a
+      contradiction only after the extracted object is proved to belong to one of
+      those rigid classes $R_*$. The present packet has not supplied that membership,
+      So this subsection records an external Liouville audit rather than a closed
+      terminal-defect exclusion.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Source No Pulse Direct Attempt Note}
+
+    Direct theorem-facing attempt on the atom left by the no-Field avg Jump avg branch.
+
+    The installed energy, pressure, dyadic exchange, monotone-functional, and smooth-data inputs do not imply the atom. The atom remains the exact new theorem required for unconditional Jump avg elimination on this branch.
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t),
+    \]
+
+    where F j is the nonlinear shell flux/source. A no-pulse theorem must exclude heat-scale intervals on which F j balances the viscous drain and maintains an active terminal packet.
+
+    \[
+    F_j(t)\le a_j(t)E_j(t)+b_j(t),
+    \qquad
+    a_j\in L^1_{\text{active}},
+    \]
+
+    \[
+    \int_{I_j}|F_j(t)|^2\,dt
+    \text{ heat-scale normalized and summable};
+    \]
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x}.
+    \]
+
+    This controls first-moment dissipation. It does not control the dissipation density or heat-scale source needed to rule out short active pulses. A pulse can have small time support and finite first moment while its active- contribution is large.
+
+    Original smooth data gives finite amplitudes on every compact preterminal time interval. It does not give scale-normalized terminal smallness as active shells drift to high frequency or as the terminal time is approached.
+
+    The nonlinear shell flux is trilinear. For a smooth divergence-free packet, amplitude scaling multiplies the source by the cube of the amplitude, while the energy and enstrophy layers only give data-dependent finite quantities unless a separate terminal bound has already been proved.
+
+    Thus smoothness of the initial data alone does not provide the active heat-scale source normalization.
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    \sfcomp{50013}
+    2^{2j}
+    \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+    \]
+
+    The installed algebra does not prove eigendirection decorrelation or signed cancellation of this weighted strain object. Taking absolute values returns to the positive-carrier active- residual-tail wall.
+
+    Thus the monotone-functional route is equivalent to the same source atom, not a proof of it.
+
+    The pressure Poisson structure supplies Calderon-Zygmund pressure control from velocity products and supports the local pressure packets used downstream. It does not create a sign or monotone law for the nonlinear shell source. Pressure normalization so does not exclude source-balanced active pulses.
+
+    Thus the current argument needs the source atom named here. An independent direct Pack.TTU proof becomes necessary only if the averaged TGC bridge is rejected.
+
+    That is Lebesgue-time smallness of the spill coefficient. It does not imply absolute continuity of the target measure
+
+
+
+    \subsection{Source No Pulse Read Cover Bypass Discharge}
+
+    \[
+    r_{\mathrm{good}}(a,t)=r_{\mathrm{good}}^1(a,t).
+    \]
+
+    \[
+    r_{\mathrm{good}}^{1/2}
+    \quad\text{produces}\quad
+    \varepsilon_m\text{-good readout cylinders}.
+    \]
+
+    This threshold split is necessary. A positive lower bound for r good 1 alone does not by itself supply the strict margin needed to perturb centers and extract an open cover. The lawful bypass so targets
+
+    \[
+    GoodScaleNonCollapse_{1/2}.A:
+    \quad
+    \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}^{1/2}(a,t)>0.
+    \]
+
+    \[
+    \forall(a,t)\in\mathcal T,\qquad
+    r_{\mathrm{good}}^{1/2}(a,t)>0.
+    \]
+
+    Then the half-threshold cylinders and strict-margin stability generate an open cover of T by m-good same-fluid cylinders.
+
+    The neighborhoods U(a,t) cover T. This proves the open-cover form needed for finite extraction.
+
+    \[
+    \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}^{1/2}(a,t)\ge r_*>0.
+    \]
+
+    Apply strict-margin stability to get a material neighborhood U(a,t) and a readout radius (a,t) c *s(a,t) after a fixed admissible shrink. The bounded-distortion same-fluid chart constants give
+
+    Emptiness of B m/2 gives a positive half-threshold good scale at every point. By Good Scale Open Cover.A, the associated strict-margin neighborhoods cover T. Compactness gives a finite subcover. The finitely many stable radii are positive and the corresponding cylinders are m-good. Hence they are exactly a finite positive-scale readout cover.
+
+    Half-threshold bad-set emptiness plus half-to-full stability gives a full threshold readout cover, not a uniform half-threshold lower scale. To prove Good Scale Non Collapse 1/2 .A through a bad-set theorem, the bad set must be empty at a stricter threshold, for example m/4, together with a threshold-flexible stability lemma from m/4 to m/2.
+
+    This is a compactness theorem, not a Liouville theorem. It closes once the route supplies the uniform local-energy and pressure normalization on the bad-scale sequence.
+
+    This requires a quantitative no-loss statement for the scale-critical defect. Weak convergence alone is insufficient unless the defect density is lower semicontinuous in the retained normalization and no mass escapes through the same-fluid chart boundary.
+
+
+
+    \subsection{Source No Pulse Root Route Audit Map Note}
+
+    The atom remains unproved. The four remaining root entrances and the installed audit state of each are recorded so an already-collapsed entrance is not reopened as a fresh theorem path.
+
+    \[
+    \mu_\ast^{sing}=0.
+    \]
+
+    The theorem would dominate the mixed bilinear dissipation/source measure on the bad spill-coefficient set.
+
+    Result: the good-coefficient region is absorbable, but the installed scheduler gives only small Lebesgue bad-time measure. The abstract heat-scale countermodel shows that this does not dominate B N (t)dt.
+
+    The theorem would prove cancellation of the true lifted weighted commutator before positive-part or absolute-value extraction.
+
+    Result: the bare commutator cancellation is not the true lifted source packet. The true lifted remainder has a strain principal part. After weights, cutoffs, terminal packet selection, and active positive extraction, the route returns to the same native positive source carrier unless a new signed cancellation theorem is proved for that exact lifted object.
+
+    The theorem would use the incompressible pressure law to deplete active vortex stretching on the same terminal source-pulse packets.
+
+    \[
+    \omega\cdot S\omega
+    \quad\text{or}\quad
+    \langle S_{<j}^{loc}w_j,w_j\rangle.
+    \]
+
+    Result: compactness can extract only after a localized source-residue carrier is available. The global mixed-shell carrier first gives a double-space or shell-time product, not a same physical heat-scale source-residue cylinder. Broad ancient no-pulse is too strong because nonzero smooth ancient profiles exist. The viable ancient theorem must be source-residue typed and proved by a first-pulse drain contradiction, and it is not installed without the missing carrier localization or rigid-class production.
+
+    Future progress must install a genuinely new theorem in one of the four entrances above. A note that only renames the active source carrier, applies bad-time Chebyshev, invokes pointwise trace-free strain, imports pressure recovery, or extracts a broad local suitable ancient limit is not a discharge.
+
+
+
+    \subsection{Source Drain.Theorem Grade.A correct resolution: diffuse ancestry obstruction}
+
+    The normalized-adjoint package remains a valid conditional parent-or-charge mechanism. It does not close the source wall as a theorem-grade consequence of Original Smooth Data.
+
+    The failed theorem-grade certificate is First Pulse Kill.A at the no-diffuse-ancestry step.
+
+    The first-pulse selection excludes earlier threshold-crossing source-pulse tiles on fixed backward slices. It does not price diffuse legal source-parent ancestry.
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},\qquad M\to\infty,
+    \]
+
+    \[
+    \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0,
+    \]
+
+    So bounded parent selection plus first-pulse minimality cannot imply source-parent compactness.
+
+    Global skew cancellation is signed and unlocalized. The target is localized, terminal-selected, weighted, and positive-parted. Calderon-Zygmund pressure recovery supplies size control, while Cauchy/Young estimates return to an active- envelope.
+
+    Raw energy dissipation gives only a first-moment tail. It does not control the scale-critical reserve
+
+    \[
+    \int\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+    \]
+
+    A terminal heat-scale pulse can keep first-moment dissipation small while the scale-critical reserve remains non-small.
+
+    \[
+    \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.}
+    \]
+
+    Equivalently, an admissible repair may prove a finite pricing theorem for diffuse legal source-parent ancestry. Such a theorem must dominate the diffuse parent measure in a /Carleson reserve or place the Zeno limit in a rigid class with a source-residue Liouville theorem.
+
+
+
+    \subsection{Sourcewall Reconcile A Resolution And Root Reopen}
+
+    The normalized-adjoint source-drain package is accepted as a theorem-grade analytic parent-or-charge core, but it is not accepted as an unconditional proof of the source wall.
+
+    provided First Pulse Kill.A includes a genuine source-parent compactness / no-diffuse-ancestry theorem.
+
+    The first-pulse construction rules out earlier threshold-crossing source-pulse tiles on finite backward slices. It does not, by itself, rule out diffuse legal source-parent measures in the terminal ancient limit.
+
+    \[
+    \pi_P
+    =
+    \frac{1}{M}
+    \sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+    \qquad
+    M\to\infty.
+    \]
+
+    \[
+    \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)
+    \le
+    \frac{B}{M}
+    \to0,
+    \]
+
+    \[
+    \boxed{
+    ZenoBoundedClass_B.A
+    +ZenoResidueLiouville_B.A.
+    }
+    \]
+
+    An equivalent route may instead prove a finite pricing theorem for diffuse legal source-parent ancestry.
+
+    Parent Square Embed.A is installed under the packet Bessel hypotheses. It controls the diffuse parent cloud in norm without selecting boundedly many parents.
+
+    \[
+    \int\sum_{k>N}D_k(t)\,dt\to0,
+    \]
+
+    \[
+    ZenoBoundedClass_B.A
+    +ZenoResidueLiouville_B.A.
+    \]
+
+    The installed compactness extraction gives an ancient local suitable source-residue limit with nonzero source mass, but does not currently produce a rigid class B such as Type I, finite global ancient energy, critical smallness, self-similarity, symmetry reduction, or finite branch-entropy class.
+
+    So the Zeno route remains open unless a new rigid class is produced and paired with a residue Liouville theorem.
+
+
+
+    \subsection{Source-wall root hard stop after repeated blocker}
+
+    \[
+    \text{produce a dynamic law for }\mathcal R_N
+    \quad\text{or}\quad
+    \text{produce a rigid Zeno class with source-residue Liouville.}
+    \]
+
+    Parent Square Embed.A is a static Bessel embedding. It prices diffuse parent clouds into the scalar reserve R N. It gives no derivative identity, no dissipative sign, and no residual-charge alternative for R N itself.
+
+    Weighted Adj Res.A is a dynamic charge estimate for child packet mass. It does not become a dynamic law for donor reserve without an additional theorem.
+
+    The minimal Zeno compactness class is only a local suitable ancient source-residue object with local energy bounds, nonzero selected residue, and no fixed-time incoming threshold pulse. This class allows terminal-layer source residue concentration.
+
+    \[
+    \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.}
+    \]
+
+
+
+    \subsection{Square Reserve Evolution.A or Zeno rigidity final attempt}
+
+    \[
+    \mathcal R_N(I)
+    =
+    \int_I\sum_{P^-}|A_{P^-}(t)|^2dt
+    \sfcomp{52085}
+    \int_I\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+    \]
+
+    These two facts do not combine into Square Reserve Evolution.A. The missing map is a dynamic identity for the donor factor |A P - | 2. Current surfaces provide a dynamic parent-or-charge identity for child packet mass M(T), plus a static Bessel embedding for donor clouds. They provide no derivative, dissipative sign, residual charge, or contractive parent edge for R N itself.
+
+    This implication fails as a theorem from the stated structure. The local energy inequality allows a positive source-residue measure concentrating in a terminal layer s 0. The no-incoming property controls fixed backward slices and leaves terminal-time Zeno concentration available.
+
+    Known stronger rigid classes also fail production from Original Smooth Data along this route: finite global ancient energy, Type I, critical smallness, bounded vorticity/strain, self-similarity, symmetry, and source-cancellation. The temporal anti-atom presentation is not an independent produced class: the direct Uniform Temporal Source Integrability p.A attempt reduces it to Heat Scale Square Source.A / Scale Critical Tree Carleson.A.
+
+    \[
+    \boxed{ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A}
+    \]
+
+
+
+    \subsection{Terminal Defect Liouville.A external Liouville audit}
+
+    Koch--Nadirashvili--Seregin--Sverak, Liouville theorems for the Navier-Stokes equations and applications, ar Xiv:0709.3599.
+
+    The paper studies bounded ancient Navier-Stokes solutions. Its abstract says the general three-dimensional problem is beyond the available techniques, with partial results in axisymmetric settings.
+
+    Albritton--Barker, On local Type I singularities of the Navier-Stokes equations and Liouville theorems, ar Xiv:1811.00502.
+
+    The route produces Liouville conclusions under Type I / mild bounded ancient structure and an additional L 3-type backward-time condition. Those are not outputs of the present Terminal Bad Scale Extraction.A packet.
+
+    Koch--Nadirashvili--Seregin--Sverak also emphasize in the singularity application section that producing a nonzero bounded ancient solution is not itself contradictory; one must add a scale-invariant exclusion or a Liouville theorem for the produced class.
+
+    The available Liouville tools cover rigid classes such as bounded ancient mild
+    solutions, Type I decay classes, additional backward-time $L^3$ control,
+    axisymmetric or lower-dimensional reductions, or finite global ancient energy
+    paired with a valid exclusion theorem. A terminal extraction becomes a
+    contradiction only after the extracted object is proved to belong to one of
+    those rigid classes $R_*$. The present packet has not supplied that membership,
+    So this subsection records an external Liouville audit rather than a closed
+    terminal-defect exclusion.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source No Pulse Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51541
+  line_start: 51541
+  line_end: 51595
+  start_anchor: "\\subsection{Source No Pulse Direct Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source No Pulse Direct Attempt
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51541
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source No Pulse Read Cover Bypass Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51644
+  line_start: 51644
+  line_end: 51687
+  start_anchor: "\\subsection{Source No Pulse Read Cover Bypass Discharge}\n"
+  end_anchor: "\\subsection{Source No Pulse Root Route Audit Map Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source No Pulse Read Cover Bypass
+    Discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51644
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source No Pulse Root Route Audit Map Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51688
+  line_start: 51688
+  line_end: 51716
+  start_anchor: "\\subsection{Source No Pulse Root Route Audit Map Note}\n"
+  end_anchor: "\\subsection{Clay problem Source No-Pulse Terminal Target Stack Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source No Pulse Root Route Audit
+    Map Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51688
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Source Drain.Theorem Grade.A correct resolution: diffuse ancestry
+    obstruction'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51858
+  line_start: 51858
+  line_end: 51892
+  start_anchor: "\\subsection{Source Drain.Theorem Grade.A correct resolution: diffuse
+    ancestry obstruction}\n"
+  end_anchor: "\\subsection{Clay problem Source Parent Edge-Disintegration and Anti-Diffuse
+    Split Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source Drain.Theorem Grade.A
+    correct resolution: diffuse ancestry obstruction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51858
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sourcewall Reconcile A Resolution And Root Reopen
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53130
+  line_start: 53130
+  line_end: 53178
+  start_anchor: "\\subsection{Sourcewall Reconcile A Resolution And Root Reopen}\n"
+  end_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade
+    Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sourcewall Reconcile A Resolution
+    And Root Reopen as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53130
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source-wall root hard stop after repeated blocker
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53273
+  line_start: 53273
+  line_end: 53291
+  start_anchor: "\\subsection{Source-wall root hard stop after repeated blocker}\n"
+  end_anchor: "\\subsection{Clay problem Source-Wall Root Post-Reconcile Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source-wall root hard stop after
+    repeated blocker as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53273
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Square Reserve Evolution.A or Zeno rigidity final attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53651
+  line_start: 53651
+  line_end: 53671
+  start_anchor: "\\subsection{Square Reserve Evolution.A or Zeno rigidity final attempt}\n"
+  end_anchor: "\\subsection{Clay problem Square Reserve Evolution.A Sufficiency And
+    Temporal Fork}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Square Reserve Evolution.A or
+    Zeno rigidity final attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53651
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Defect Liouville.A external Liouville audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54463
+  line_start: 54463
+  line_end: 54484
+  start_anchor: "\\subsection{Terminal Defect Liouville.A external Liouville audit}\n"
+  end_anchor: "\\subsection{Terminal Defect Persistence.A measure split}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Defect Liouville.A external
+    Liouville audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54463
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-63
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-63.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

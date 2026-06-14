@@ -58,7 +58,8 @@ and legal kernel hypotheses:
 \left|
 \sum_{P^-\prec P}K(P,P^-)a_{P^-}
 \right|^2
-\lesssim
+\le
+C_{\mathrm{Bessel}}
 \sum_{P^-}|a_{P^-}|^2.
 ```
 

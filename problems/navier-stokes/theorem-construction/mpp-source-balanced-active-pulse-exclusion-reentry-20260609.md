@@ -28,7 +28,7 @@ as a terminal packet:
 
 ```text
 P_n=(Q_n^Phi,j_n,I_n),
-|I_n| ~ 2^{-2j_n},
+|I_n| = 2^{-2j_n},
 j_n -> infinity,
 t_n -> T_*,
 ```

@@ -1,3 +1,12 @@
+---
+ns_viewer:
+  theorem_id: terminal-time-face-anti-atom-hard-obstruction-20260517
+  status: hard-obstruction-certificate-new-time-thickness-required
+  proof_role: exact_gold_obstruction_for_terminal_zeno_source_branch
+  logical_landing_node: terminal_time_face_source_atom
+  edge_effect: "Certifies that the installed source-wall route reaches a precise terminal time-face concentration obstruction. The note does not prove TerminalTimeFaceAntiAtom.A; it names the theorem strength needed to close the gold source-wall route and keeps that missing time-thickness input from being counted as an installed supplier."
+---
+
 # MPP TerminalTimeFaceAntiAtom.A Hard Obstruction Certificate
 
 Date: 2026-05-17
@@ -43,7 +52,7 @@ ResidenceLowerBound.A
 fails because same-fluid ancestry supplies lineage and parabolic residence windows, while Zeno refinement permits
 
 ```math
-\tau_N\sim r_N^2\downarrow0.
+\tau_N:=r_N^2\downarrow0.
 ```
 
 ```math
@@ -132,3 +141,13 @@ TerminalTimeFaceAntiAtom.A.
 ```
 
 At the present theorem resolution, `TerminalTimeFaceAntiAtom.A` is the hard obstruction. This certificate should be treated as the active closure bottleneck for `source-wall-root-after-reconcile`.
+
+## 6. Non-claims
+
+This certificate does not prove `TerminalTimeFaceAntiAtom.A`.
+
+It does not close the stronger scale-uniform annular supplier.
+
+It does not turn a terminal time-face source atom into an admitted CM witness.
+It only records the exact obstruction that a gold proof must remove before that
+route can be counted as a supplier.

@@ -1,0 +1,215 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: pack-part-field-grammar
+batch_id: pack-part-field-grammar-current-source-certification-20260614T081705Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Packet Witness
+  spine_id: the-packet-witness
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:647
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:647
+  endpoint_status: silver CM face payment
+  reader_payments: &1
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to pack-part-field-grammar.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside The Packet Witness without
+      requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:17:05Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Packet Failure
+  spine_id: packet-failure
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:682
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:682
+  endpoint_status: silver CM face payment
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to pack-part-field-grammar.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Packet Failure without
+      requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:17:05Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Velocity Failure Mechanisms
+  spine_id: velocity-failure-mechanisms
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:703
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:703
+  endpoint_status: silver CM face payment
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to pack-part-field-grammar.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Velocity Failure Mechanisms
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:17:05Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Reading the Witness Table
+  spine_id: reading-the-witness-table
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:768
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:768
+  - brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
+  - problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  - problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
+  - problems/navier-stokes/ns-proof-program-route-table.yaml
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
+  - problems/navier-stokes/submission-bundle/reader-facing-abstract-intro-checklist.md
+  - problems/navier-stokes/submission-bundle/source-field-representation-rubric.md
+  - problems/navier-stokes/submission-bundle/submission-synopsis.md
+  - problems/navier-stokes/theorem-construction/basacreverseholderproduction-a-theorem-creation-20260525.md
+  repo_sources_excluded:
+  - path: problems/navier-stokes/auto-audit.yaml
+    reason: Audit mirror; direct CM witness-face law sources govern this arc.
+  - path: problems/navier-stokes/campaign-status.yaml
+    reason: Campaign status surface; it does not add proof content beyond the direct
+      witness grammar and route-law sources.
+  - path: problems/navier-stokes/chat24-status.yaml
+    reason: Chat status note; not manuscript proof authority for Pack/Part/Field
+      grammar.
+  - path: problems/navier-stokes/current-route-dependency-graph.yaml
+    reason: Generated dependency graph; direct route-law and branch-certificate
+      sources are used instead.
+  - path: problems/navier-stokes/dependency-graph.yaml
+    reason: Generated dependency graph; it indexes surfaces but does not govern the
+      proof wording here.
+  - path: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    reason: Publish manifest; index surface only.
+  - path: problems/navier-stokes/layered-route-graph.yaml
+    reason: Route graph mirror; direct witness-face sources govern the section.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609-iteration-2.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260609.yaml
+    reason: Route-sync mirror; represented by direct CM witness grammar sources.
+  - path: problems/navier-stokes/ns-visual-branch-depth-audit-20260531.yaml
+    reason: Visual/audit surface; not a direct proof-law source for this text.
+  - path: problems/navier-stokes/paper-quality-verdict.yaml
+    reason: Paper-quality verdict; verification surface rather than Pack/Part/Field
+      proof authority.
+  - path: problems/navier-stokes/pipeline-state.yaml
+    reason: Runtime pipeline state; not manuscript proof authority.
+  - path: problems/navier-stokes/runtime/meta/quality-verdict.yaml
+    reason: Runtime quality verdict; represented by direct proof-law sources.
+  - path: problems/navier-stokes/source-forensics/ns-historical-biography.md
+    reason: Historical biography; the section uses current proof-law sources instead
+      of origin narrative.
+  - path: problems/navier-stokes/spine.md
+    reason: Route summary; the exact witness grammar is paid by direct sources.
+  - path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+    reason: Coverage ledger; not direct source authority for the prose.
+  - path: problems/navier-stokes/submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
+    reason: Architecture note; the section now pays the concrete witness grammar
+      directly.
+  - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    reason: Prior writing-batch report; not proof authority for this arc.
+  - path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+    reason: Completion strategy surface; batching guidance, not proof content.
+  - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+    reason: Workplan; represented by the concrete Pack/Part/Field witness-table
+      prose.
+  - path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+    reason: Frontier index; direct sources are used where they govern this arc.
+  - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    reason: Export status mirror; not direct manuscript proof authority.
+  - path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    reason: Submission verdict surface; not direct Pack/Part/Field proof authority.
+  - path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+    reason: Packet index; direct theorem and route-law sources are used instead.
+  endpoint_status: silver CM face payment
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to pack-part-field-grammar.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Reading the Witness Table
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:17:05Z'
+author_contract:
+  arc_id: pack-part-field-grammar
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - Pack
+  - Part
+  - Field
+  - "(Exit|Member)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+certification_note: Current TeX source for this whole proof arc passed the Math/Reader
+  critic; this pack certifies existing page prose instead of forcing a gratuitous
+  rewrite.

@@ -104,7 +104,7 @@ For the forcing term,
 \tag{8}
 ```
 
-Using `\|u\|_{H^{s+1}}\lesssim \|\nabla u\|_{H^s}` and then Young,
+Using `\|u\|_{H^{s+1}}\le C_{\nabla,s}\|\nabla u\|_{H^s}` and then Young,
 
 ```math
 \|E\|_{H^{s-1}}\|u\|_{H^{s+1}}

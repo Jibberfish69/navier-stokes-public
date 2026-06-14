@@ -1,0 +1,112 @@
+---
+version: 1
+kind: ns-paper-straight-through-draft-manifest
+batch_id: 2026-06-13-straight-through-draft-prep
+generated_at: '2026-06-14T00:23:21Z'
+first_job: make a full straight-through draft exist quickly as finished TeX proof
+  scenes
+production_move: prepare hard -> write fast -> verify mechanically -> repair only
+  failures
+paper_product_rule: the paper is the only product; plans, packets, ledgers, builds,
+  and reports are support evidence only
+arc_count: 8
+arc_sequence:
+- arc_id: opening-theorem-route
+  title: Opening theorem route
+  priority: 1
+  author_job: write the theorem target, gold route, obstruction, and CM turn as finished
+    opening proof exposition
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: failure-taxonomy
+  title: Failure taxonomy and endpoint roles
+  priority: 2
+  author_job: turn endpoint names into readable mathematical cases with their proof
+    roles stated
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: cm-class-membership
+  title: CM class membership
+  priority: 3
+  author_job: define the CM test as the reader-facing class-membership object, with
+    every witness role separated
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: pack-part-field-grammar
+  title: Pack/Part/Field witness grammar
+  priority: 4
+  author_job: write the witness-face grammar and the contrapositive class-exit proof
+    without role conflation
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: clay-facing-cm-completion
+  title: Clay-facing CM completion
+  priority: 5
+  author_job: write the final CM closure as a theorem proof, including exactly what
+    it certifies
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: forward-branch-treatment
+  title: Forward-positive branch treatment
+  priority: 6
+  author_job: write the forward-positive branches as paid proof, obstruction, support,
+    obsolete, or open continuation
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: comparison-transfer-boundary
+  title: Comparison and transfer boundary
+  priority: 7
+  author_job: include comparison material only where it pays an NS proof role or a
+    smoothness-boundary role
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: appendix-source-field-integration
+  title: Appendix and source-field integration
+  priority: 8
+  author_job: convert raw appendix/source-field material into readable paper text
+    or explicit support/open status
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+context_packet_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/context-packets/appendix-source-field-integration.yaml
+work_packet_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/work-packets/appendix-source-field-integration.yaml
+author_pack_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/appendix-source-field-integration.yaml
+verification_gate:
+  mechanical: verify every author pack before integration
+  math_reader: attack only the written arc for claim truth, reader loss, and unpaid
+    derivation jumps, and record the repair decision inside the author pack before
+    integration
+  repair: repair only failed points in the arc source; do not restart the whole manuscript
+  rendering: compile and reread changed sections and spillover pages only
+first_draft_gate:
+  scope: all ready arcs must have authored replacements integrated into TeX source
+  critic_requirement: every replacement must carry claim-truth, reader-thread, and
+    unpaid-derivation criticism with a resolved repair decision
+  completion_language: first draft approval means the paper itself is readable and
+    current; packet generation, green verifiers, and builds are support evidence only
+math_containment_rule: no independent theorem pursuit before first-draft approval;
+  theorem effort may only supply TeX-ready derivation, exact obstruction, endpoint
+  classification, or CM counterpart for the selected arc

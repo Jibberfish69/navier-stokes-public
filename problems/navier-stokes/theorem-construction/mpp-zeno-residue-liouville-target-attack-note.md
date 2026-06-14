@@ -69,7 +69,7 @@ A Type I or critical-norm bound would place the ancient limit in a known rigid
 class:
 
 ```math
-|u_\ast(y,s)|\lesssim |s|^{-1/2},
+|u_\ast(y,s)|\le C_I |s|^{-1/2},
 \qquad
 \|u_\ast\|_{L^\infty_s L^3_y}<\infty,
 ```

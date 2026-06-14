@@ -1,0 +1,976 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-03
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-03
+  sequence: 88
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 3
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 11164
+  line_end: 15215
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11164
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11254
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12032
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12590
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12629
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12650
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13123
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15198
+  subsection_titles:
+  - Lifted Packet Closure Result
+  - Lifted Packet Three-Piece Closure Program
+  - Localized Projector-Moment Dynamics And Moment Closure
+  - LPAS Active-Square Closure Attempt
+  - LPAS Closure Blocked By Active-Square Amplitude Gap
+  - LPAS Closure Blocked By Square-Source
+  - Aact Kx Global Nojump Restart Scheduler Closure Dtc A
+  - Avg Main Read End Pointwise Endpoint Closure
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted Packet Closure Result
+    line_start: 11164
+    line_end: 11201
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11164
+    start_anchor: "\\subsection{Lifted Packet Closure Result}\n"
+    end_anchor: "\\subsection{Lifted Packet Signed Continuous-Scale Translation}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Lifted Packet Closure Result}
+
+      The lifted packet has now been separated into same-scale pieces and the
+      large-gap far-corona piece:
+
+      \[
+      \mathfrak H_N^{grad,lift}
+      \Longrightarrow
+      \mathfrak B_N^{upper}
+      +
+      \Pi_N^{mov\text{-}spill,L}
+      +
+      \Pi_N^{mid,far,L}.
+      \]
+
+      The upper-boundary and moving-spill packets reduce to finite same-scale edge
+      packets. On the weighted carrier route they are controlled by the same-scale
+      factor
+
+      \[
+      \widetilde\Lambda_N^\sharp E_N.
+      \]
+
+      \[
+      \begin{aligned}
+      \mathrm{CTS}&\Longrightarrow \mathrm{FCTS}
+      \Longrightarrow \mathrm{Car}
+      \Longrightarrow \mathrm{FC},\\
+      \mathrm{LPAS}&\Longrightarrow \mathrm{FC}
+      \quad\text{on the fallback dyadic route.}
+      \end{aligned}
+      \]
+
+      The \(CTS/FCTS/Car/FC/LPAS\) chain remains the external far-corona burden. The
+      local result isolates the exact lifted-packet theorem left after same-scale
+      reabsorption into the weighted carrier surface.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted Packet Three-Piece Closure Program
+    line_start: 11254
+    line_end: 11319
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11254
+    start_anchor: "\\subsection{Lifted Packet Three-Piece Closure Program}\n"
+    end_anchor: "\\subsection{Lifted Remainder Feedback Into Body 1 Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Lifted Packet Three-Piece Closure Program}
+
+      \[
+      \mathfrak B_N^{upper},
+      \qquad
+      \Pi_N^{mov\text{-}spill,L},
+      \qquad
+      \Pi_N^{mid,far,L}.
+      \]
+
+      Once these three estimates are paid, the lifted packet is absorbable and the
+      weighted leakage theorem closes.
+
+      \[
+      \begin{aligned}
+      \text{lifted packet}
+      &\Longrightarrow
+      \mathfrak B_N^{upper}
+      +
+      \Pi_N^{mov\text{-}spill,L}
+      +
+      \Pi_N^{mid,far,L},\\
+      \mathfrak H_N^{grad,lift}
+      &\le C_{\mathrm{sf},11143}
+      |\mathfrak B_N^{upper}|
+      +
+      \Pi_N^{mov\text{-}spill,L}
+      +
+      \Pi_N^{mid,far,L}.
+      \end{aligned}
+      \]
+
+      The upper boundary is a finite-width frozen same-scale packet near \(N\).
+      Moving spill has already been reduced to fixed-offset same-scale edge packets.
+      Those two are controlled on the weighted carrier route, even though the
+      stronger coefficient-free same-scale theorem remains a separate possible
+      upgrade.
+
+      The hard part is the far-corona packet:
+
+      \[
+      \Pi_N^{mid,far,L}
+      \Longleftarrow
+      \mathrm{Car}
+      \Longleftarrow
+      \mathrm{FCTS}
+      \Longleftarrow
+      \mathrm{CTS},
+      \]
+
+      \[
+      \mathrm{CTS}
+      \Longrightarrow
+      \mathrm{FCTS}
+      \Longrightarrow
+      \mathrm{Car}
+      \Longrightarrow
+      \text{(FC)}.
+      \]
+
+      This is the current stop status for the lifted packet. Same-scale pieces have
+      been reduced to the weighted carrier side. The only genuine large-gap theorem
+      still visible here is the far-corona route, written as CTS/FCTS/Car/FC or,
+      equivalently on the fallback dyadic side, LPAS.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector-Moment Dynamics And Moment Closure
+    line_start: 12032
+    line_end: 12087
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12032
+    start_anchor: "\\subsection{Localized Projector-Moment Dynamics And Moment Closure}\n"
+    end_anchor: "\\subsection{Localized Projector-Moment Weighted Residual Suppliers}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Localized Projector-Moment Dynamics And Moment Closure}
+
+      The sharper support surface for the same branch is projector-moment dynamics.
+      A direct transport comparison
+
+      \[
+      \|\widetilde S_J-S_J^N\|_{\mathrm{op}}/g_J^{str}\to 0
+      \]
+
+      is too strong as a first principle. The raw symmetric cocycle-side block is
+
+      \[
+      S_J^N=\frac12\bigl(A_J^N+(A_J^N)^*\bigr).
+      \]
+
+      The localized projector-moment tensor \(\widetilde S_J\) is instead a
+      nonnegative average of rank-one pair projectors. It is positive semidefinite,
+      and its trace is the local packet mass. Those projectors evolve by an averaged
+      Riccati-type law, so \(\widetilde S_J\) has its own dynamics; it is not allowed
+      to inherit the principal evolution of \(S_J^N\) for free.
+
+      The correct supplier target has two parts:
+
+      \[
+      \begin{aligned}
+      &\text{derive the exact averaged projector evolution of }\widetilde S_J,\\
+      &\text{close the nonlinear moment term against the top slot.}
+      \end{aligned}
+      \]
+
+      On a fixed transported packet window the exact PSJ+.1 construction writes
+
+      \[
+      \widetilde S_J(x,t)
+      :=
+      \int_{\mathcal P_J(x)}
+      a_J(x,p,t)\,P_J(x,p,t)\,d\bar\nu_{J,x}(p)
+      +
+      \mathrm{Tail}_J(x,t),
+      \]
+
+      \[
+      P_J(x,p,t)=e_J(x,p,t)\otimes e_J(x,p,t)
+      \]
+
+      \[
+      m_J(x,t):=
+      \int_{\mathcal P_J(x)} a_J(x,p,t)\,d\bar\nu_{J,x}(p).
+      \]
+
+      On the exact-potential subbranch using Proposition PSJ+.5, the pair separation
+      law is exact, so the pair-projector transport residual
+      \(E_J^{pair}\) vanishes. The remaining work is the averaged dynamics of the
+      weights, the tail term, and the nonlinear moment closure recorded next.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: LPAS Active-Square Closure Attempt
+    line_start: 12590
+    line_end: 12628
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12590
+    start_anchor: "\\subsection{LPAS Active-Square Closure Attempt}\n"
+    end_anchor: "\\subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{LPAS Active-Square Closure Attempt}
+
+      The direct LPAS closure attempt starts from
+
+      \[
+      \mathcal P_j^\downarrow(t)=\sum_{k\le j-C_1}E_k(t),
+      \qquad
+      D_j(t)=2^{2j}E_j(t).
+      \]
+
+      \[
+      \mathcal P_j^\downarrow 2^{-j}D_j^2.
+      \]
+
+      \[
+      \mathcal P_j^\downarrow 2^{-j}D_j\le \varepsilon\nu.
+      \]
+
+      This is an active-shell amplitude condition. Baseline energy and dissipation
+      control \(D_j\) only in the integrated sense; LPAS needs \(D_j\) with the lower
+      prefix as a weight.
+
+      \[
+      \mathcal P_j^\downarrow(t)\le \|\nabla u(t)\|_2^2
+      \]
+
+      \[
+      \sum_{j\ge N}2^{-j}D_j^2.
+      \]
+
+      Thus the crude collapse leaves a product problem rather than an absorption estimate.
+
+      This is a lower-prefix times active-square object. The installed upper-tail
+      queues act in the opposite orientation and cannot directly absorb it.
+
+      The far-corona closure remains conditional on LPAS, CTS, F2S, or DER+EP. The
+      tail reserve and weighted carrier closure inherit this conditional state.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: LPAS Closure Blocked By Active-Square Amplitude Gap
+    line_start: 12629
+    line_end: 12649
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12629
+    start_anchor: "\\subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}\n"
+    end_anchor: "\\subsection{LPAS Closure Blocked By Square-Source}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}
+
+      \[
+      dM_k(t)=\left(\sum_{j\ge\max(N,k+C_1)}2^{-j}D_j(t)^2\right)dt.
+      \]
+
+      The source-mass route gives interval control of the lifted source only after the
+      upper-tail carrier estimate. The active-square theorem still requires a
+      shell-amplitude gain or a source estimate.
+
+      \[
+      \int_I
+      \sum_{j\ge\max(N,k+C_1)}2^{-j}D_j(t)^2dt
+      \le
+      \varepsilon\nu2^{2k}|I|+C2^{-2\delta\max(N,k)}.
+      \]
+
+      Equivalently, the route needs either a direct LPAS theorem or a shell-amplitude
+      theorem strong enough to control \(2^{-j}D_j(t)^2\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: LPAS Closure Blocked By Square-Source
+    line_start: 12650
+    line_end: 12661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12650
+    start_anchor: "\\subsection{LPAS Closure Blocked By Square-Source}\n"
+    end_anchor: "\\subsection{LPM Transport Comparison And Residual Split}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{LPAS Closure Blocked By Square-Source}
+
+      Lower-prefix dualization reduces LPAS to active-square upper-tail Carleson.
+      That theorem remains blocked because the single-shell active-square estimate
+      requires the source estimate for \(F_j\), and the universal source estimate
+      fails by cubic amplitude scaling.
+
+      LPAS remains open. The live alternatives are a valid source estimate on active
+      intervals, active-shell amplitude normalization, direct active-square Carleson,
+      or a direct LPAS proof.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Global Nojump Restart Scheduler Closure Dtc A
+    line_start: 13123
+    line_end: 13156
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13123
+    start_anchor: "\\subsection{Aact Kx Global Nojump Restart Scheduler Closure Dtc
+      A}\n"
+    end_anchor: "\\subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg
+      Repair}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Aact Kx Global Nojump Restart Scheduler Closure Dtc A}
+
+      The restart scheduler closes after reanchoring. At each scheduler restart, the
+      proof chooses a fresh same-fluid SCF-good cylinder from the finite
+      no-\(\mathrm{Jump}_{avg}\) terminal cover and shrinks it by the \(ATD_m\)
+      factor. The seed is
+
+      \[
+      X_{\alpha,j,p}(\tau_\alpha)\le\eta_X
+      \]
+
+      \[
+      B_*\in L^1,\qquad F_*\in L^1.
+      \]
+
+      \[
+      \left(\eta_X+\int_{I_\alpha}F_*\right)
+      \exp\left(\int_{I_\alpha}B_*\right)
+      \le2\eta_X.
+      \]
+
+      \[
+      X_{\alpha,j,p}\in L^\infty,
+      \qquad
+      N_{\alpha,j,p}\in L^1,
+      \qquad
+      \mathcal K_{\le m,\alpha,j,p}^{avg}\in L^1.
+      \]
+
+      This supplies the good-side averaged receiver spine. It does not eliminate the
+      complementary jump branch. The branch-native no-escape theorem still needs
+      same-charge lower production and scale-normalized upper control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Avg Main Read End Pointwise Endpoint Closure
+    line_start: 15198
+    line_end: 15215
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15198
+    start_anchor: "\\subsection{Avg Main Read End Pointwise Endpoint Closure}\n"
+    end_anchor: "\\subsection{Avg Rcv A Completion Lci A}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Avg Main Read End Pointwise Endpoint Closure}
+
+      Once the averaged route has produced the averaged endpoint package, terminal
+      readout recovers the old pointwise endpoint package on a finite positive-scale
+      same-fluid cover:
+
+      \[
+      End_{NS,avg}.
+      \]
+
+      The readout cover has positive lower scale, and the SCF base is below the
+      \(m\)-threshold on each cover element.  The local \(ATD_m\) theorem then applies
+      on the shrunken cover elements, giving the old pointwise endpoint packet there.
+
+      The bridge conclusion is deliberately narrow. It does not construct the cover;
+      it states what the averaged route may conclude once the cover has been selected.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Lifted Packet Closure Result}
+
+    The lifted packet has now been separated into same-scale pieces and the
+    large-gap far-corona piece:
+
+    \[
+    \mathfrak H_N^{grad,lift}
+    \Longrightarrow
+    \mathfrak B_N^{upper}
+    +
+    \Pi_N^{mov\text{-}spill,L}
+    +
+    \Pi_N^{mid,far,L}.
+    \]
+
+    The upper-boundary and moving-spill packets reduce to finite same-scale edge
+    packets. On the weighted carrier route they are controlled by the same-scale
+    factor
+
+    \[
+    \widetilde\Lambda_N^\sharp E_N.
+    \]
+
+    \[
+    \begin{aligned}
+    \mathrm{CTS}&\Longrightarrow \mathrm{FCTS}
+    \Longrightarrow \mathrm{Car}
+    \Longrightarrow \mathrm{FC},\\
+    \mathrm{LPAS}&\Longrightarrow \mathrm{FC}
+    \quad\text{on the fallback dyadic route.}
+    \end{aligned}
+    \]
+
+    The \(CTS/FCTS/Car/FC/LPAS\) chain remains the external far-corona burden. The
+    local result isolates the exact lifted-packet theorem left after same-scale
+    reabsorption into the weighted carrier surface.
+
+
+
+    \subsection{Lifted Packet Three-Piece Closure Program}
+
+    \[
+    \mathfrak B_N^{upper},
+    \qquad
+    \Pi_N^{mov\text{-}spill,L},
+    \qquad
+    \Pi_N^{mid,far,L}.
+    \]
+
+    Once these three estimates are paid, the lifted packet is absorbable and the
+    weighted leakage theorem closes.
+
+    \[
+    \begin{aligned}
+    \text{lifted packet}
+    &\Longrightarrow
+    \mathfrak B_N^{upper}
+    +
+    \Pi_N^{mov\text{-}spill,L}
+    +
+    \Pi_N^{mid,far,L},\\
+    \mathfrak H_N^{grad,lift}
+    &\le C_{\mathrm{sf},11143}
+    |\mathfrak B_N^{upper}|
+    +
+    \Pi_N^{mov\text{-}spill,L}
+    +
+    \Pi_N^{mid,far,L}.
+    \end{aligned}
+    \]
+
+    The upper boundary is a finite-width frozen same-scale packet near \(N\).
+    Moving spill has already been reduced to fixed-offset same-scale edge packets.
+    Those two are controlled on the weighted carrier route, even though the
+    stronger coefficient-free same-scale theorem remains a separate possible
+    upgrade.
+
+    The hard part is the far-corona packet:
+
+    \[
+    \Pi_N^{mid,far,L}
+    \Longleftarrow
+    \mathrm{Car}
+    \Longleftarrow
+    \mathrm{FCTS}
+    \Longleftarrow
+    \mathrm{CTS},
+    \]
+
+    \[
+    \mathrm{CTS}
+    \Longrightarrow
+    \mathrm{FCTS}
+    \Longrightarrow
+    \mathrm{Car}
+    \Longrightarrow
+    \text{(FC)}.
+    \]
+
+    This is the current stop status for the lifted packet. Same-scale pieces have
+    been reduced to the weighted carrier side. The only genuine large-gap theorem
+    still visible here is the far-corona route, written as CTS/FCTS/Car/FC or,
+    equivalently on the fallback dyadic side, LPAS.
+
+
+
+    \subsection{Localized Projector-Moment Dynamics And Moment Closure}
+
+    The sharper support surface for the same branch is projector-moment dynamics.
+    A direct transport comparison
+
+    \[
+    \|\widetilde S_J-S_J^N\|_{\mathrm{op}}/g_J^{str}\to 0
+    \]
+
+    is too strong as a first principle. The raw symmetric cocycle-side block is
+
+    \[
+    S_J^N=\frac12\bigl(A_J^N+(A_J^N)^*\bigr).
+    \]
+
+    The localized projector-moment tensor \(\widetilde S_J\) is instead a
+    nonnegative average of rank-one pair projectors. It is positive semidefinite,
+    and its trace is the local packet mass. Those projectors evolve by an averaged
+    Riccati-type law, so \(\widetilde S_J\) has its own dynamics; it is not allowed
+    to inherit the principal evolution of \(S_J^N\) for free.
+
+    The correct supplier target has two parts:
+
+    \[
+    \begin{aligned}
+    &\text{derive the exact averaged projector evolution of }\widetilde S_J,\\
+    &\text{close the nonlinear moment term against the top slot.}
+    \end{aligned}
+    \]
+
+    On a fixed transported packet window the exact PSJ+.1 construction writes
+
+    \[
+    \widetilde S_J(x,t)
+    :=
+    \int_{\mathcal P_J(x)}
+    a_J(x,p,t)\,P_J(x,p,t)\,d\bar\nu_{J,x}(p)
+    +
+    \mathrm{Tail}_J(x,t),
+    \]
+
+    \[
+    P_J(x,p,t)=e_J(x,p,t)\otimes e_J(x,p,t)
+    \]
+
+    \[
+    m_J(x,t):=
+    \int_{\mathcal P_J(x)} a_J(x,p,t)\,d\bar\nu_{J,x}(p).
+    \]
+
+    On the exact-potential subbranch using Proposition PSJ+.5, the pair separation
+    law is exact, so the pair-projector transport residual
+    \(E_J^{pair}\) vanishes. The remaining work is the averaged dynamics of the
+    weights, the tail term, and the nonlinear moment closure recorded next.
+
+
+
+    \subsection{LPAS Active-Square Closure Attempt}
+
+    The direct LPAS closure attempt starts from
+
+    \[
+    \mathcal P_j^\downarrow(t)=\sum_{k\le j-C_1}E_k(t),
+    \qquad
+    D_j(t)=2^{2j}E_j(t).
+    \]
+
+    \[
+    \mathcal P_j^\downarrow 2^{-j}D_j^2.
+    \]
+
+    \[
+    \mathcal P_j^\downarrow 2^{-j}D_j\le \varepsilon\nu.
+    \]
+
+    This is an active-shell amplitude condition. Baseline energy and dissipation
+    control \(D_j\) only in the integrated sense; LPAS needs \(D_j\) with the lower
+    prefix as a weight.
+
+    \[
+    \mathcal P_j^\downarrow(t)\le \|\nabla u(t)\|_2^2
+    \]
+
+    \[
+    \sum_{j\ge N}2^{-j}D_j^2.
+    \]
+
+    Thus the crude collapse leaves a product problem rather than an absorption estimate.
+
+    This is a lower-prefix times active-square object. The installed upper-tail
+    queues act in the opposite orientation and cannot directly absorb it.
+
+    The far-corona closure remains conditional on LPAS, CTS, F2S, or DER+EP. The
+    tail reserve and weighted carrier closure inherit this conditional state.
+
+
+
+    \subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}
+
+    \[
+    dM_k(t)=\left(\sum_{j\ge\max(N,k+C_1)}2^{-j}D_j(t)^2\right)dt.
+    \]
+
+    The source-mass route gives interval control of the lifted source only after the
+    upper-tail carrier estimate. The active-square theorem still requires a
+    shell-amplitude gain or a source estimate.
+
+    \[
+    \int_I
+    \sum_{j\ge\max(N,k+C_1)}2^{-j}D_j(t)^2dt
+    \le
+    \varepsilon\nu2^{2k}|I|+C2^{-2\delta\max(N,k)}.
+    \]
+
+    Equivalently, the route needs either a direct LPAS theorem or a shell-amplitude
+    theorem strong enough to control \(2^{-j}D_j(t)^2\).
+
+
+
+    \subsection{LPAS Closure Blocked By Square-Source}
+
+    Lower-prefix dualization reduces LPAS to active-square upper-tail Carleson.
+    That theorem remains blocked because the single-shell active-square estimate
+    requires the source estimate for \(F_j\), and the universal source estimate
+    fails by cubic amplitude scaling.
+
+    LPAS remains open. The live alternatives are a valid source estimate on active
+    intervals, active-shell amplitude normalization, direct active-square Carleson,
+    or a direct LPAS proof.
+
+
+
+    \subsection{Aact Kx Global Nojump Restart Scheduler Closure Dtc A}
+
+    The restart scheduler closes after reanchoring. At each scheduler restart, the
+    proof chooses a fresh same-fluid SCF-good cylinder from the finite
+    no-\(\mathrm{Jump}_{avg}\) terminal cover and shrinks it by the \(ATD_m\)
+    factor. The seed is
+
+    \[
+    X_{\alpha,j,p}(\tau_\alpha)\le\eta_X
+    \]
+
+    \[
+    B_*\in L^1,\qquad F_*\in L^1.
+    \]
+
+    \[
+    \left(\eta_X+\int_{I_\alpha}F_*\right)
+    \exp\left(\int_{I_\alpha}B_*\right)
+    \le2\eta_X.
+    \]
+
+    \[
+    X_{\alpha,j,p}\in L^\infty,
+    \qquad
+    N_{\alpha,j,p}\in L^1,
+    \qquad
+    \mathcal K_{\le m,\alpha,j,p}^{avg}\in L^1.
+    \]
+
+    This supplies the good-side averaged receiver spine. It does not eliminate the
+    complementary jump branch. The branch-native no-escape theorem still needs
+    same-charge lower production and scale-normalized upper control.
+
+
+
+    \subsection{Avg Main Read End Pointwise Endpoint Closure}
+
+    Once the averaged route has produced the averaged endpoint package, terminal
+    readout recovers the old pointwise endpoint package on a finite positive-scale
+    same-fluid cover:
+
+    \[
+    End_{NS,avg}.
+    \]
+
+    The readout cover has positive lower scale, and the SCF base is below the
+    \(m\)-threshold on each cover element.  The local \(ATD_m\) theorem then applies
+    on the shrunken cover elements, giving the old pointwise endpoint packet there.
+
+    The bridge conclusion is deliberately narrow. It does not construct the cover;
+    it states what the averaged route may conclude once the cover has been selected.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted Packet Closure Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11164
+  line_start: 11164
+  line_end: 11201
+  start_anchor: "\\subsection{Lifted Packet Closure Result}\n"
+  end_anchor: "\\subsection{Lifted Packet Signed Continuous-Scale Translation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted Packet Closure Result
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11164
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted Packet Three-Piece Closure Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11254
+  line_start: 11254
+  line_end: 11319
+  start_anchor: "\\subsection{Lifted Packet Three-Piece Closure Program}\n"
+  end_anchor: "\\subsection{Lifted Remainder Feedback Into Body 1 Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted Packet Three-Piece Closure
+    Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11254
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector-Moment Dynamics And Moment Closure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12032
+  line_start: 12032
+  line_end: 12087
+  start_anchor: "\\subsection{Localized Projector-Moment Dynamics And Moment Closure}\n"
+  end_anchor: "\\subsection{Localized Projector-Moment Weighted Residual Suppliers}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector-Moment Dynamics
+    And Moment Closure as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12032
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: LPAS Active-Square Closure Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12590
+  line_start: 12590
+  line_end: 12628
+  start_anchor: "\\subsection{LPAS Active-Square Closure Attempt}\n"
+  end_anchor: "\\subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite LPAS Active-Square Closure Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12590
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: LPAS Closure Blocked By Active-Square Amplitude Gap
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12629
+  line_start: 12629
+  line_end: 12649
+  start_anchor: "\\subsection{LPAS Closure Blocked By Active-Square Amplitude Gap}\n"
+  end_anchor: "\\subsection{LPAS Closure Blocked By Square-Source}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite LPAS Closure Blocked By Active-Square
+    Amplitude Gap as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12629
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: LPAS Closure Blocked By Square-Source
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12650
+  line_start: 12650
+  line_end: 12661
+  start_anchor: "\\subsection{LPAS Closure Blocked By Square-Source}\n"
+  end_anchor: "\\subsection{LPM Transport Comparison And Residual Split}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite LPAS Closure Blocked By Square-Source
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12650
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Global Nojump Restart Scheduler Closure Dtc A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13123
+  line_start: 13123
+  line_end: 13156
+  start_anchor: "\\subsection{Aact Kx Global Nojump Restart Scheduler Closure Dtc
+    A}\n"
+  end_anchor: "\\subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg
+    Repair}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Global Nojump Restart
+    Scheduler Closure Dtc A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13123
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Avg Main Read End Pointwise Endpoint Closure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15198
+  line_start: 15198
+  line_end: 15215
+  start_anchor: "\\subsection{Avg Main Read End Pointwise Endpoint Closure}\n"
+  end_anchor: "\\subsection{Avg Rcv A Completion Lci A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Avg Main Read End Pointwise Endpoint
+    Closure as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15198
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-03
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-03.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

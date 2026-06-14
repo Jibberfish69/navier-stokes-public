@@ -211,7 +211,7 @@ Once `RefObs` is available from the audited projector-first note
 
 ```math
 \int_{\mathcal G_J} M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
+\le C_{ang}
 \mathcal E_{J,M}^{obs}+o_J(1),
 \tag{SDC.12}
 ```
@@ -263,7 +263,7 @@ The naive route
 
 ```math
 \bigl|Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J\bigr|
-\lesssim
+\le C_{mix}
 |S_J^N|\,|Q_J^{top}\Pi_J^{ref}|_F
 \tag{SDC.14}
 ```
@@ -304,7 +304,7 @@ Then `D.7me6` gives the pointwise reduction
 
 ```math
 \eta_{J,\mathrm{mix}}^{mb}(t,a,b)
-\lesssim
+\le C_{SDC,17}
 \eta_{J,\mathrm{mix}}^{self}(t,a,b)
 +
 \eta_{J,\mathrm{mix}}^{comm}(t,a,b).
@@ -516,7 +516,7 @@ Therefore `(SDC.26)`-`(SDC.29)` imply
 
 ```math
 \eta_{J,\mathrm{mix}}^{mb}(t,a,b)
-\lesssim
+\le C_{SDC,31}
 \Lambda_J^{boot}(a)\,\eta_J^{boot}(a,b),
 \tag{SDC.31}
 ```
@@ -527,7 +527,7 @@ and `(SDC.30)`-`(SDC.31)` imply
 \mathcal R_{J,2}^{mix}
 +
 \mathcal R_{J,2}^{drift}
-\lesssim
+\le C_{SDC,32}
 \int_{\mathcal G_J}
 M_J^2
 \Bigl(

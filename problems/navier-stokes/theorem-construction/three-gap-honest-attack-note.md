@@ -325,7 +325,7 @@ The best current identification attempt is:
 
 ```math
 \text{composite spread}
-\sim
+:=
 -\partial_s(\chi_{mid}\widetilde\Psi)
 +
 \mathcal I^{nose}
@@ -336,7 +336,7 @@ The best current identification attempt is:
 
 ```math
 \text{primitive residual candidate}
-\sim
+:=
 \mathcal A_{\ell,r}.
 \tag{17}
 ```

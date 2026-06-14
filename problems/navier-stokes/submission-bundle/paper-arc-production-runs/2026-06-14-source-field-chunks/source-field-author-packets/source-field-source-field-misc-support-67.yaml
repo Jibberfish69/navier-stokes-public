@@ -1,0 +1,851 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-67
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-67
+  sequence: 219
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 67
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 58533
+  line_end: 58894
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58533
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58540
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58655
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58689
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58756
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58822
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58866
+  subsection_titles:
+  - Phi Final Theorem Statement Convention Result
+  - Phi Low record Propagation Result
+  - Projected Generator And Sector Invariance
+  - Projected Nonlinearity Diagnostic
+  - PSJ+.1 Overlap Live Frontier Branch Audit
+  - PSJ Plus D.7mb Residual-Budget Route
+  - PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope
+  - PSJ Plus Terminal Assembly
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Phi Final Theorem Statement Convention Result
+    line_start: 58533
+    line_end: 58539
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58533
+    start_anchor: "\\subsection{Phi Final Theorem Statement Convention Result}\n"
+    end_anchor: "\\subsection{Phi Low record Propagation Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Phi Final Theorem Statement Convention Result}
+
+      Final theorem statements need one lower-order record symbol carrying all selected lower-order branches.
+
+      The final amplitude/speed theorem and final collar theorem should use final . If original-record domination and bounded-test tail control are proved later, final may be reduced back to .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Phi Low record Propagation Result
+    line_start: 58540
+    line_end: 58552
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58540
+    start_anchor: "\\subsection{Phi Low record Propagation Result}\n"
+    end_anchor: "\\subsection{Phi s Osgood Subcriticality Test Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Phi Low record Propagation Result}
+
+      The low-record replacement preserves collar absorption statements.
+
+      \[
+      A
+      \le
+      \varepsilon\nu2^{2j}B+C_\varepsilon\Phi(\mathcal E_D(X))
+      \]
+
+      The global theorem statement must explicitly use low wherever the finite low-shell amplitude record is absorbed. Statements that insist on the original require the separate domination theorem
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Projected Generator And Sector Invariance
+    line_start: 58638
+    line_end: 58654
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58638
+    start_anchor: "\\subsection{Projected Generator And Sector Invariance}\n"
+    end_anchor: "\\subsection{Projected Nonlinearity Diagnostic}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Projected Generator And Sector Invariance}
+
+      This is the next theorem-bearing bridge after the NC Leray / Hodge projection. It packages the projected flow as a single operator on the physical sector and sets up the semigroup lift used by the next bridge layer.
+
+      The projected-flow route should not remain a loose rewritten equation. It needs a single operator on the physical sector, together with sector invariance, positive-time support preservation, and semigroup consistency.
+
+      The projected flow lives on this carrier. Pressure is auxiliary and is reconstructed from the exact-sector complement.
+
+      The initial condition gives P DX(0)-X(0)=0, hence P DX(t)=X(t) for all admissible t.
+
+      From the carrier energy estimate, A D is dissipative on the physical sector. In the sector-invariant regime it is maximal dissipative, hence generates a contraction semigroup
+
+      A D is built from D, and P D; both preserve the route filtration / causal ordering; hence P t preserves positive-time support.
+
+      This is not a discharged theorem. It is the exact theorem-bearing bridge that promotes the projected generator / sector invariance step into the next bridge layer.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Projected Nonlinearity Diagnostic
+    line_start: 58655
+    line_end: 58661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58655
+    start_anchor: "\\subsection{Projected Nonlinearity Diagnostic}\n"
+    end_anchor: "\\subsection{Proper Carrier-Core Geometric Localization Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Projected Nonlinearity Diagnostic}
+
+      This means D.2 is not just an energy estimate. It is also a transport-law realization problem.
+
+      The transport-law wall is now explicit in the Navier-Stokes argument. The algebraic collapse is the exact reason D.2 remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PSJ+.1 Overlap Live Frontier Branch Audit
+    line_start: 58689
+    line_end: 58732
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58689
+    start_anchor: "\\subsection{PSJ+.1 Overlap Live Frontier Branch Audit}\n"
+    end_anchor: "\\subsection{PSJ+.1 Overlap Terminal Closure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{PSJ+.1 Overlap Live Frontier Branch Audit}
+
+      Active theorem-facing branch-audit note for the localized-projector exact-potential packet.
+
+      The live PSJ+.1 overlap frontier is decided by reading the fine localizer notes together with the coarse retained-cover notes. No new packet is added here; the point is to identify which already-installed branch is the narrower honest live wall.
+
+      The installed close chooses the coarse normalized-kernel realization and routes the scalar retained-cover object to the retained-family supplier layer. The fine localizer-modulus route remains a sharper sibling, not a live blocker for the installed PSJ+.1 branch.
+
+      \[
+      \int_I\int_{\mathcal J}
+      \frac{A_J(z)^2}{m_\ast^2\overline\gamma_\ast^2}
+      \omega_{\phi_r}\!\bigl(\delta_{J,\ell\ell'}^{ctr}(z)\bigr)^2
+      d\mu_J^{pair}\,dt
+      \le
+      C\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+      \]
+
+      \[
+      \int_I\int_{\mathcal J}
+      \frac{A_J(z)^2}{m_\ast^2\overline\gamma_\ast^2}
+      \delta_{J,\ell\ell'}^{ctr}(z)^2
+      d\mu_J^{pair}\,dt
+      \le
+      \frac{C}{L_r^2}
+      \bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+      \]
+
+      \[
+      \mathrm{Overlap}_{J,\mathrm{coarse}}
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      provided the route is allowed to use the installed normalized-kernel coarse realization, bounded multiplicity, and retained-box subordination hypotheses.
+
+      The fine localizer-modulus route remains an honest sibling route, but it is no longer the minimal remaining overlap wall after the coarse endpoint notes are admitted. It should be kept as the sharper-geometry subbranch for contexts that require preserving pointwise localizer comparison.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PSJ Plus D.7mb Residual-Budget Route
+    line_start: 58756
+    line_end: 58821
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58756
+    start_anchor: "\\subsection{PSJ Plus D.7mb Residual-Budget Route}\n"
+    end_anchor: "\\subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{PSJ Plus D.7mb Residual-Budget Route}
+
+      Theorem-facing sufficient-descendant note for the exact-potential simple-top branch.
+
+      Role: record one residual-collapse descendant that can discharge the selector-strain slot after the projector-first packet has already fixed the branch readout.
+
+      So D.7mr2 is an organized branch export, not the final live obstruction. The actual theorem effort belongs upstream, at PSJ+.
+
+      That note does not claim E J cm closes PSJ+ by itself; it states the honest interface by which the Clay problem witness exports packing/transport records into the exact-potential readout already installed here.
+
+      \[
+      |m_J(t_0)|,
+      \]
+
+      \[
+      \int_I
+      \bigl|Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J\bigr|,
+      \]
+
+      \[
+      \int_I
+      |\mathcal C_J^N|\,|\partial_t S_J^N|/g_J^{str}.
+      \]
+
+      The later packets D.7md, D.7me, D.7mp, D.7mo, and D.7mm already refine these into the current selector-strain sufficiency route.
+
+      \[
+      \begin{aligned}
+      \eta_J^{mb}(t,a,b)
+      &:=
+      |m_J(t_0,a,b)|\\
+      &\quad+
+      2\int_{t_0}^t
+      \Bigl|
+      Q_J^{top}(s)\,(W_J^N(s,a))^*S_J^N(s,a)W_J^N(s,a)\,n_J(a,b,s)
+      \Bigr|\,ds\\
+      &\quad+
+      3\int_{t_0}^t
+      \frac{
+      |\mathcal C_J^N(s,a)|\,|\partial_s S_J^N(s,a)|
+      }{
+      g_J^{str}(s,a)
+      }\,ds.
+      \end{aligned}
+      \]
+
+      \[
+      E_{J,t_0}^{CG}(t,a)\le \frac{g_0}{4}
+      \qquad\text{for every }t\in I_0,
+      \]
+
+      The plain pair-measure extraction theorem is correct as a pointwise family selection device, but the authoritative exact branch closes through the weighted record G J M J 2( ) d J. So the supplier theorem needed by D.7mr2 is the weighted version.
+
+      so, if c , E, 0 along the supplier packet, the weighted selector-strain remainder is o J(1) on G. This is the exact weighted familywise form needed by the branch export D.7mr2.
+
+      The weighted supplier theorem above still packages the strip through the abstract sup-records E J and J . On the measurable-derivative exact branch one can reduce those two abstract quantities to three concrete weighted suppliers.
+
+      The bare Mix Collapse label is only the budget R J,2 mix =o J(1). The theo
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope
+    line_start: 58822
+    line_end: 58865
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58822
+    start_anchor: "\\subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}\n"
+    end_anchor: "\\subsection{PSJ Plus Terminal Assembly}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}
+
+      \[
+      \int_{\mathcal G_J}
+      M_J^2\bigl(\Lambda_J^{boot}\eta_J^{boot}\bigr)^2\,d\mu_J=o_J(1)
+      \]
+
+      \[
+      \text{off-axis smallness}
+      \Longrightarrow
+      (\mathrm{Boot})
+      \]
+
+      \[
+      \eta_J^{boot}
+      \Longrightarrow
+      \bigl\|\Pi_J^{ref}-\Pi_J^{top}\bigr\|_F^2,
+      \]
+
+      The off-axis block alone does not identify the top line. If is any rank-one invariant projector for S J N, then (I- )S J N =0, even if is a lower eigenspace rather than the top eigenspace. So one needs a second hypothesis asserting that the reference line actually lives in the top spectral slot.
+
+      \[
+      \text{off-axis smallness only}
+      \Longrightarrow
+      (\mathrm{Boot}),
+      \]
+
+      This is a sharper branch-local route: it bypasses the D.7mb bootstrap envelope instead of deriving it.
+
+      \[
+      \Pi_J^{ref}:=P_J^{CG},
+      \qquad
+      \Pi_J^{top}:=P_{J,\top}^{seg},
+      \qquad
+      g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+      \]
+
+      Choose a measurable unit vector u J spanning J ref and an orthonormal eigenbasis n J,e J,2 , ,e J,N for S J N, where n J spans J top and S J N e J,i = J,i top e J,i for i 2.
+
+      so SSC follows directly. Consequently the already audited projector-first splice yields
+
+      The second formulation shows exactly what the first is hiding: off-axis invariance failure is not enough by itself; one also needs the reference line to occupy the top spectral slot of S J N.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PSJ Plus Terminal Assembly
+    line_start: 58866
+    line_end: 58894
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58866
+    start_anchor: "\\subsection{PSJ Plus Terminal Assembly}\n"
+    end_anchor: "\\subsection{PTC Linearization And Shape Closure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{PSJ Plus Terminal Assembly}
+
+      The branch-local assembly gap closes here. PSJ+ is not promoted back to the route-wide live frontier; the terminal theorem records that the installed PSJ+ inputs already imply the exact-potential downstream export.
+
+      The current argument-wide authority remains the class-membership forward-invariance / endpoint-exclusion route. The exact-potential PSJ+ branch is preserved downstream as a Law-2-survivor / one-field readout branch.
+
+      \[
+      \|\Pi_J^{pair}-\Pi_J^{ref}\|_F^2\le R_J^{pair},
+      \qquad
+      \int_{\mathcal G_J}M_J^2R_J^{pair}\,d\mu_J=o_J(1).
+      \]
+
+      Together with the ambient synchronization estimate (D.7m3), the angular record note gives Ref Obs.
+
+      \[
+      \|\Pi_J^{ref}-\Pi_J^{top}\|_F^2\le R_J^{ssc},
+      \qquad
+      \int_{\mathcal G_J}M_J^2R_J^{ssc}\,d\mu_J=o_J(1).
+      \]
+
+      \[
+      \int_{\mathcal G_J}M_J^2\Xi_J^{ang}\,d\mu_J
+      \le C_{\mathrm{sf},57355}
+      \mathcal E_{J,M}^{obs}+o_J(1).
+      \]
+
+      The remaining caution is about authority, not assembly: PSJ+ remains a downstream exact-potential branch under the current class-membership edge. The PSJ+.1 overlap refinements are now terminalized in
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Phi Final Theorem Statement Convention Result}
+
+    Final theorem statements need one lower-order record symbol carrying all selected lower-order branches.
+
+    The final amplitude/speed theorem and final collar theorem should use final . If original-record domination and bounded-test tail control are proved later, final may be reduced back to .
+
+
+
+    \subsection{Phi Low record Propagation Result}
+
+    The low-record replacement preserves collar absorption statements.
+
+    \[
+    A
+    \le
+    \varepsilon\nu2^{2j}B+C_\varepsilon\Phi(\mathcal E_D(X))
+    \]
+
+    The global theorem statement must explicitly use low wherever the finite low-shell amplitude record is absorbed. Statements that insist on the original require the separate domination theorem
+
+
+
+    \subsection{Projected Generator And Sector Invariance}
+
+    This is the next theorem-bearing bridge after the NC Leray / Hodge projection. It packages the projected flow as a single operator on the physical sector and sets up the semigroup lift used by the next bridge layer.
+
+    The projected-flow route should not remain a loose rewritten equation. It needs a single operator on the physical sector, together with sector invariance, positive-time support preservation, and semigroup consistency.
+
+    The projected flow lives on this carrier. Pressure is auxiliary and is reconstructed from the exact-sector complement.
+
+    The initial condition gives P DX(0)-X(0)=0, hence P DX(t)=X(t) for all admissible t.
+
+    From the carrier energy estimate, A D is dissipative on the physical sector. In the sector-invariant regime it is maximal dissipative, hence generates a contraction semigroup
+
+    A D is built from D, and P D; both preserve the route filtration / causal ordering; hence P t preserves positive-time support.
+
+    This is not a discharged theorem. It is the exact theorem-bearing bridge that promotes the projected generator / sector invariance step into the next bridge layer.
+
+
+
+    \subsection{Projected Nonlinearity Diagnostic}
+
+    This means D.2 is not just an energy estimate. It is also a transport-law realization problem.
+
+    The transport-law wall is now explicit in the Navier-Stokes argument. The algebraic collapse is the exact reason D.2 remains open.
+
+
+
+    \subsection{PSJ+.1 Overlap Live Frontier Branch Audit}
+
+    Active theorem-facing branch-audit note for the localized-projector exact-potential packet.
+
+    The live PSJ+.1 overlap frontier is decided by reading the fine localizer notes together with the coarse retained-cover notes. No new packet is added here; the point is to identify which already-installed branch is the narrower honest live wall.
+
+    The installed close chooses the coarse normalized-kernel realization and routes the scalar retained-cover object to the retained-family supplier layer. The fine localizer-modulus route remains a sharper sibling, not a live blocker for the installed PSJ+.1 branch.
+
+    \[
+    \int_I\int_{\mathcal J}
+    \frac{A_J(z)^2}{m_\ast^2\overline\gamma_\ast^2}
+    \omega_{\phi_r}\!\bigl(\delta_{J,\ell\ell'}^{ctr}(z)\bigr)^2
+    d\mu_J^{pair}\,dt
+    \le
+    C\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+    \]
+
+    \[
+    \int_I\int_{\mathcal J}
+    \frac{A_J(z)^2}{m_\ast^2\overline\gamma_\ast^2}
+    \delta_{J,\ell\ell'}^{ctr}(z)^2
+    d\mu_J^{pair}\,dt
+    \le
+    \frac{C}{L_r^2}
+    \bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+    \]
+
+    \[
+    \mathrm{Overlap}_{J,\mathrm{coarse}}
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    provided the route is allowed to use the installed normalized-kernel coarse realization, bounded multiplicity, and retained-box subordination hypotheses.
+
+    The fine localizer-modulus route remains an honest sibling route, but it is no longer the minimal remaining overlap wall after the coarse endpoint notes are admitted. It should be kept as the sharper-geometry subbranch for contexts that require preserving pointwise localizer comparison.
+
+
+
+    \subsection{PSJ Plus D.7mb Residual-Budget Route}
+
+    Theorem-facing sufficient-descendant note for the exact-potential simple-top branch.
+
+    Role: record one residual-collapse descendant that can discharge the selector-strain slot after the projector-first packet has already fixed the branch readout.
+
+    So D.7mr2 is an organized branch export, not the final live obstruction. The actual theorem effort belongs upstream, at PSJ+.
+
+    That note does not claim E J cm closes PSJ+ by itself; it states the honest interface by which the Clay problem witness exports packing/transport records into the exact-potential readout already installed here.
+
+    \[
+    |m_J(t_0)|,
+    \]
+
+    \[
+    \int_I
+    \bigl|Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J\bigr|,
+    \]
+
+    \[
+    \int_I
+    |\mathcal C_J^N|\,|\partial_t S_J^N|/g_J^{str}.
+    \]
+
+    The later packets D.7md, D.7me, D.7mp, D.7mo, and D.7mm already refine these into the current selector-strain sufficiency route.
+
+    \[
+    \begin{aligned}
+    \eta_J^{mb}(t,a,b)
+    &:=
+    |m_J(t_0,a,b)|\\
+    &\quad+
+    2\int_{t_0}^t
+    \Bigl|
+    Q_J^{top}(s)\,(W_J^N(s,a))^*S_J^N(s,a)W_J^N(s,a)\,n_J(a,b,s)
+    \Bigr|\,ds\\
+    &\quad+
+    3\int_{t_0}^t
+    \frac{
+    |\mathcal C_J^N(s,a)|\,|\partial_s S_J^N(s,a)|
+    }{
+    g_J^{str}(s,a)
+    }\,ds.
+    \end{aligned}
+    \]
+
+    \[
+    E_{J,t_0}^{CG}(t,a)\le \frac{g_0}{4}
+    \qquad\text{for every }t\in I_0,
+    \]
+
+    The plain pair-measure extraction theorem is correct as a pointwise family selection device, but the authoritative exact branch closes through the weighted record G J M J 2( ) d J. So the supplier theorem needed by D.7mr2 is the weighted version.
+
+    so, if c , E, 0 along the supplier packet, the weighted selector-strain remainder is o J(1) on G. This is the exact weighted familywise form needed by the branch export D.7mr2.
+
+    The weighted supplier theorem above still packages the strip through the abstract sup-records E J and J . On the measurable-derivative exact branch one can reduce those two abstract quantities to three concrete weighted suppliers.
+
+    The bare Mix Collapse label is only the budget R J,2 mix =o J(1). The theorem-facing hard supplier is Mix Collapse-Honest, because it is the installed D.7md / D.7me split that actually controls that budget without using the unjustified projector-angle domination shortcut. Init Collapse and Drift Collapse-Honest are supporting suppliers inside the same SSC-D7mb-collapse packet.
+
+    This is the honest measurable-derivative descendant inside the projector-first exact-potential path.
+
+    This supplies the -budget selector-strain descendant consumed by that terminal assembly. The terminal assembly closes the branch-local PSJ+ splice from installed inputs; it does not promote PSJ+ above the current class-membership live edge.
+
+    Assume the three D.7mb supplier descendants are represented by measurable densities
+
+
+
+    \subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}
+
+    \[
+    \int_{\mathcal G_J}
+    M_J^2\bigl(\Lambda_J^{boot}\eta_J^{boot}\bigr)^2\,d\mu_J=o_J(1)
+    \]
+
+    \[
+    \text{off-axis smallness}
+    \Longrightarrow
+    (\mathrm{Boot})
+    \]
+
+    \[
+    \eta_J^{boot}
+    \Longrightarrow
+    \bigl\|\Pi_J^{ref}-\Pi_J^{top}\bigr\|_F^2,
+    \]
+
+    The off-axis block alone does not identify the top line. If is any rank-one invariant projector for S J N, then (I- )S J N =0, even if is a lower eigenspace rather than the top eigenspace. So one needs a second hypothesis asserting that the reference line actually lives in the top spectral slot.
+
+    \[
+    \text{off-axis smallness only}
+    \Longrightarrow
+    (\mathrm{Boot}),
+    \]
+
+    This is a sharper branch-local route: it bypasses the D.7mb bootstrap envelope instead of deriving it.
+
+    \[
+    \Pi_J^{ref}:=P_J^{CG},
+    \qquad
+    \Pi_J^{top}:=P_{J,\top}^{seg},
+    \qquad
+    g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+    \]
+
+    Choose a measurable unit vector u J spanning J ref and an orthonormal eigenbasis n J,e J,2 , ,e J,N for S J N, where n J spans J top and S J N e J,i = J,i top e J,i for i 2.
+
+    so SSC follows directly. Consequently the already audited projector-first splice yields
+
+    The second formulation shows exactly what the first is hiding: off-axis invariance failure is not enough by itself; one also needs the reference line to occupy the top spectral slot of S J N.
+
+
+
+    \subsection{PSJ Plus Terminal Assembly}
+
+    The branch-local assembly gap closes here. PSJ+ is not promoted back to the route-wide live frontier; the terminal theorem records that the installed PSJ+ inputs already imply the exact-potential downstream export.
+
+    The current argument-wide authority remains the class-membership forward-invariance / endpoint-exclusion route. The exact-potential PSJ+ branch is preserved downstream as a Law-2-survivor / one-field readout branch.
+
+    \[
+    \|\Pi_J^{pair}-\Pi_J^{ref}\|_F^2\le R_J^{pair},
+    \qquad
+    \int_{\mathcal G_J}M_J^2R_J^{pair}\,d\mu_J=o_J(1).
+    \]
+
+    Together with the ambient synchronization estimate (D.7m3), the angular record note gives Ref Obs.
+
+    \[
+    \|\Pi_J^{ref}-\Pi_J^{top}\|_F^2\le R_J^{ssc},
+    \qquad
+    \int_{\mathcal G_J}M_J^2R_J^{ssc}\,d\mu_J=o_J(1).
+    \]
+
+    \[
+    \int_{\mathcal G_J}M_J^2\Xi_J^{ang}\,d\mu_J
+    \le C_{\mathrm{sf},57355}
+    \mathcal E_{J,M}^{obs}+o_J(1).
+    \]
+
+    The remaining caution is about authority, not assembly: PSJ+ remains a downstream exact-potential branch under the current class-membership edge. The PSJ+.1 overlap refinements are now terminalized in
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Phi Final Theorem Statement Convention Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58533
+  line_start: 58533
+  line_end: 58539
+  start_anchor: "\\subsection{Phi Final Theorem Statement Convention Result}\n"
+  end_anchor: "\\subsection{Phi Low record Propagation Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Phi Final Theorem Statement Convention
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58533
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Phi Low record Propagation Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58540
+  line_start: 58540
+  line_end: 58552
+  start_anchor: "\\subsection{Phi Low record Propagation Result}\n"
+  end_anchor: "\\subsection{Phi s Osgood Subcriticality Test Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Phi Low record Propagation Result
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58540
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Projected Generator And Sector Invariance
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58638
+  line_start: 58638
+  line_end: 58654
+  start_anchor: "\\subsection{Projected Generator And Sector Invariance}\n"
+  end_anchor: "\\subsection{Projected Nonlinearity Diagnostic}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Projected Generator And Sector
+    Invariance as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58638
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Projected Nonlinearity Diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58655
+  line_start: 58655
+  line_end: 58661
+  start_anchor: "\\subsection{Projected Nonlinearity Diagnostic}\n"
+  end_anchor: "\\subsection{Proper Carrier-Core Geometric Localization Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Projected Nonlinearity Diagnostic
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58655
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PSJ+.1 Overlap Live Frontier Branch Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58689
+  line_start: 58689
+  line_end: 58732
+  start_anchor: "\\subsection{PSJ+.1 Overlap Live Frontier Branch Audit}\n"
+  end_anchor: "\\subsection{PSJ+.1 Overlap Terminal Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PSJ+.1 Overlap Live Frontier
+    Branch Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58689
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PSJ Plus D.7mb Residual-Budget Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58756
+  line_start: 58756
+  line_end: 58821
+  start_anchor: "\\subsection{PSJ Plus D.7mb Residual-Budget Route}\n"
+  end_anchor: "\\subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PSJ Plus D.7mb Residual-Budget
+    Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58756
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58822
+  line_start: 58822
+  line_end: 58865
+  start_anchor: "\\subsection{PSJ Plus Off-Axis Smallness Implies Bootstrap Envelope}\n"
+  end_anchor: "\\subsection{PSJ Plus Terminal Assembly}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PSJ Plus Off-Axis Smallness Implies
+    Bootstrap Envelope as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58822
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PSJ Plus Terminal Assembly
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58866
+  line_start: 58866
+  line_end: 58894
+  start_anchor: "\\subsection{PSJ Plus Terminal Assembly}\n"
+  end_anchor: "\\subsection{PTC Linearization And Shape Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PSJ Plus Terminal Assembly as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58866
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-67
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-67.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

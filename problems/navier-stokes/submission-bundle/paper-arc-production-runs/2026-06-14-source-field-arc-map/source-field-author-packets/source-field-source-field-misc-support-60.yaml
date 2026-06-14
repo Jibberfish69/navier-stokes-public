@@ -1,0 +1,844 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-60
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-60
+  sequence: 212
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 60
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 45173
+  line_end: 45741
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45173
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45191
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45261
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45323
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45567
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45589
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45702
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45713
+  subsection_titles:
+  - Pctp Hard Endpoint Face Audit
+  - Pctp Hard Face Exclusion Assembly
+  - Pctp Hard Five Burden Frontier Audit Note
+  - Pctp Hard Matrix Readable Discharge
+  - Pctp Hard Terminal Tower Final Obstruction
+  - Pctp Hard Tower Control Attempt
+  - Pctp5C Kc Place Noncircularity Audit Note
+  - Pctp5C Known Criteria Source Nopulse Attack Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Endpoint Face Audit
+    line_start: 45173
+    line_end: 45190
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45173
+    start_anchor: "\\subsection{Pctp Hard Endpoint Face Audit}\n"
+    end_anchor: "\\subsection{Pctp Hard Face Exclusion Assembly}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Endpoint Face Audit}
+
+      The endpoint/readout layer now has a separated status: the conditional face-exclusion package is recorded, and the remaining Clay-level theorem is still the production of the analytic face inputs on the terminal tail.
+
+      \[
+      End_{NS,\mathrm{avg}}
+      \Longrightarrow
+      \mathcal B_{\varepsilon_m/2}^{\Phi}=\varnothing.
+      \]
+
+      The endpoint matrix is a conditional face-exclusion package. It becomes a PDE endpoint impossibility theorem only after the analytic face inputs below are supplied on the terminal tail.
+
+      \[
+      \text{no first finite classical endpoint realizes }
+      Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Face Exclusion Assembly
+    line_start: 45191
+    line_end: 45225
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45191
+    start_anchor: "\\subsection{Pctp Hard Face Exclusion Assembly}\n"
+    end_anchor: "\\subsection{Pctp Hard Field Jump Absorption}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Face Exclusion Assembly}
+
+      \[
+      packing\text{-}detached\Longrightarrow Dead\vee Jump\vee tower\text{-}blown,
+      \]
+
+      \[
+      Dead\Longrightarrow Jump\vee tower\text{-}blown,
+      \]
+
+      \[
+      Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
+      \]
+
+      These are supplied by the pack-detachment absorption, participation persistence, and field/jump absorption notes.
+
+      \[
+      Dead\vee packing\text{-}detached\vee Jump
+      \Longrightarrow
+       tower\text{-}blown
+      \]
+
+      \[
+      F_*=packing\text{-}detached,
+      \]
+
+      The first two alternatives would occur no later than the alleged first pack face, contradicting first-face minimality unless they coincide as already-present failures. Hence the only compatible first-face alternative is tower-blown.
+
+      Again, the Jump alternative contradicts first-face minimality unless the failure has already left the dead channel. Thus the compatible first-face alternative is tower-blown.
+
+      The Dead and packing-detached alternatives contradict first-face minimality unless a non-jump failure has already occurred. Thus the compatible first-face alternative is tower-blown.
+
+      The endpoint grammar reduction is closed at this level. The remaining mathematical burden is the noncircular production of terminal tower control from the original periodic Navier-Stokes dynamics.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Five Burden Frontier Audit Note
+    line_start: 45261
+    line_end: 45275
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45261
+    start_anchor: "\\subsection{Pctp Hard Five Burden Frontier Audit Note}\n"
+    end_anchor: "\\subsection{Pctp Hard Hs Continuation Conversion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Five Burden Frontier Audit Note}
+
+      This is stronger than producing conditional averaged packets on a selected tail. It must produce the terminal-tail class-membership readout on the same smooth periodic object and with the same terminal labels.
+
+      \[
+      Jump_{\mathrm{avg}}
+      \Longrightarrow
+      \bot.
+      \]
+
+      The latter says that the mixed bilinear dissipation measure cannot concentrate on large spill-coefficient pulses. It is not installed from energy dissipation alone.
+
+      That fallback should be pursued only if the averaged TGC/AACT/AVG/READ assembly is rejected or a new gap is found in the dependency collapse.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Matrix Readable Discharge
+    line_start: 45323
+    line_end: 45373
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45323
+    start_anchor: "\\subsection{Pctp Hard Matrix Readable Discharge}\n"
+    end_anchor: "\\subsection{Pctp Hard Pack Control Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Matrix Readable Discharge}
+
+      \[
+      pctp\text{-}hard\text{-}terminal\text{-}tail\text{-}uniformization.
+      \]
+
+      The proof uses the averaged production branch first, then the terminal pointwise readout layer.
+
+      \[
+      \text{strict averaged-good finite cover}\quad\vee\quad \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      On the strict averaged-good branch, there is a finite SCF-good same-fluid cover with radii bounded below and bounded overlap. On each shrunken cylinder, ATD m supplies the local finite-depth averaged affine tower packet.
+
+      \[
+      B_{i,p}=1+A_{i,p}+V_i+P_i,
+      \qquad
+      G_{i,p}=F_{i,p}.
+      \]
+
+      SCF base and ATD m give B i,p ,G i,p L 1. The cover and parameter set are finite, so
+
+      \[
+      B:=\sum_{i,p}B_{i,p}\in L^1,
+      \qquad
+      G:=\sum_{i,p}G_{i,p}\in L^1.
+      \]
+
+      The Jump avg branch from the terminal cover dichotomy is removed at this stage as an averaged endpoint face.
+
+      On the resulting finite positive-scale cover, ATD m gives the pointwise readout inputs. The field readout gives
+
+      The pressure component uses the local Poisson split plus energy far-tail control, and the viscous component uses the U q+2 rung.
+
+      \[
+      Dead,
+      \qquad
+      packing\text{-}detached,
+      \qquad
+      tower\text{-}blown,
+      \qquad
+      Jump.
+      \]
+
+      The previous face-reduction notes also show that every non-tower first face reduces to tower-blown, and the readout layer supplies the pointwise tower package. Thus a first finite classical endpoint has no remaining endpoint face.
+
+      The retained \(H^s\) bound with \(s>5/2\) triggers the periodic continuation criterion and extends the solution past T *, contradicting maximality.
+
+      It should be read together with the listed source surfaces as the direct theorem-facing discharge packet for that obligation.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Terminal Tower Final Obstruction
+    line_start: 45567
+    line_end: 45588
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45567
+    start_anchor: "\\subsection{Pctp Hard Terminal Tower Final Obstruction}\n"
+    end_anchor: "\\subsection{Pctp Hard Tower Control Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Terminal Tower Final Obstruction}
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
+      \qquad s>5/2,
+      \]
+
+      and the retained \(H^s\) bound with \(s>5/2\) triggers the periodic continuation criterion and extends the solution past T *. Direct terminal tower control from Original Smooth Data is already the missing regularity theorem.
+
+      This does not produce the terminal tower from Original Smooth Data, because the fixed positive-scale terminal cover and ATD m inputs are exactly the terminal production burden.
+
+      This is valid only if the finite-cover scheduler and terminal cover are produced before spending old pointwise endpoint closure.
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      Equivalently: prove the finite-cover averaged ACT globalization and terminal readout scheduler from finite-energy SCF-good cylinders to pointwise terminal tower control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Tower Control Attempt
+    line_start: 45589
+    line_end: 45625
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45589
+    start_anchor: "\\subsection{Pctp Hard Tower Control Attempt}\n"
+    end_anchor: "\\subsection{Clay problem PCTP / No-Escape / Scheduler / PDE-Export
+      Closure Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp Hard Tower Control Attempt}
+
+      The tower readout here is conditional on a fixed positive-scale terminal cover and local regularity inputs. Those inputs still have to be derived from Original Smooth Data.
+
+      Assume a finite fixed same-fluid readout cover of the terminal tail with positive lower radius, and assume ATD m on each shrunken cover cylinder with m>=N+2.
+
+      \[
+      \sup_{t<T_*}\sup_i\sup_{0\le k\le N+2}\|U_k(t)\|_{L^\infty(B_i')}
+      <\infty.
+      \]
+
+      For the pressure part, use the installed local Poisson estimate. On each cover element,
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}(t)\|_{L^\infty(B_i')}
+      \le C\|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      \[
+      \|\nabla^{q+1}h_i(t)\|_{L^\infty(B_i')}
+      \le C\|u_0\|_{L^2(T^3)}^2.
+      \]
+
+      \[
+      \sup_{t<T_*}\sup_i\sup_{0\le q\le N}\|\nabla^{q+1}p(t)\|_{L^\infty(B_i')}
+      <\infty.
+      \]
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+      \]
+
+      and m>=N+2 supplies the viscous derivative U q. Thus both U q and K q are uniformly bounded through depth N. Taking the supremum over the finite cover gives
+
+      So tower-blown remains a primitive endpoint face until a noncircular terminal cover/field/local-regularity production theorem is proved.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp5C Kc Place Noncircularity Audit Note
+    line_start: 45702
+    line_end: 45712
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45702
+    start_anchor: "\\subsection{Pctp5C Kc Place Noncircularity Audit Note}\n"
+    end_anchor: "\\subsection{Pctp5C Known Criteria Source Nopulse Attack Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp5C Kc Place Noncircularity Audit Note}
+
+      Indeed, on a fixed positive same-fluid scale r, retained Field bounds the finite velocity and force rungs on the source-pulse family, while the energy anchor bounds the base velocity rung. On sufficiently small interior subcylinders, the CKN scale-invariant quantities then obey
+
+      So the retained branch enters the quantitative CKN regularity criterion. This is a legitimate retained-branch exclusion of a source pulse.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}\Longrightarrow\bot
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp5C Known Criteria Source Nopulse Attack Note
+    line_start: 45713
+    line_end: 45741
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45713
+    start_anchor: "\\subsection{Pctp5C Known Criteria Source Nopulse Attack Note}\n"
+    end_anchor: "\\subsection{Clay problem PDE Non-Smoothness To Open Shell-Program
+      Bridge Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pctp5C Known Criteria Source Nopulse Attack Note}
+
+      Caffarelli--Kohn--Nirenberg partial-regularity route, represented here by modern CKN/quantitative partial regularity references such as . Constantin--Fefferman vorticity-direction regularity route, represented in accessible lecture/source form at
+
+      \[
+      \mathfrak B_N^\sigma(t)\,dt
+      \]
+
+      \[
+      \sup_n \|u^{(n)}\|_{L_t^\infty L_x^3(Q_1)}<\infty
+      \]
+
+      Every nonzero terminal source-pulse compactness limit lies in a class for which an ancient-source Liouville theorem is available, for example a bounded ancient mild class, a two-dimensional/axisymmetric scalar class, or another rigid class with a maximum-principle replacement. The limit must still carry nonzero source residue.
+
+      The Liouville theorem forces the limit to be zero in the active source channel, contradicting the retained nonzero source residue.
+
+      On every terminal active source-pulse window with large vorticity, the vorticity direction has the scale-critical coherence required by a Constantin--Fefferman type criterion. Then the vortex-stretching channel
+
+      \[
+      \omega\cdot S\omega
+      \]
+
+      Each clause is a standard regularity criterion applied to the same normalized source-pulse family.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}},
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Pctp Hard Endpoint Face Audit}
+
+    The endpoint/readout layer now has a separated status: the conditional face-exclusion package is recorded, and the remaining Clay-level theorem is still the production of the analytic face inputs on the terminal tail.
+
+    \[
+    End_{NS,\mathrm{avg}}
+    \Longrightarrow
+    \mathcal B_{\varepsilon_m/2}^{\Phi}=\varnothing.
+    \]
+
+    The endpoint matrix is a conditional face-exclusion package. It becomes a PDE endpoint impossibility theorem only after the analytic face inputs below are supplied on the terminal tail.
+
+    \[
+    \text{no first finite classical endpoint realizes }
+    Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+    \]
+
+
+
+    \subsection{Pctp Hard Face Exclusion Assembly}
+
+    \[
+    packing\text{-}detached\Longrightarrow Dead\vee Jump\vee tower\text{-}blown,
+    \]
+
+    \[
+    Dead\Longrightarrow Jump\vee tower\text{-}blown,
+    \]
+
+    \[
+    Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
+    \]
+
+    These are supplied by the pack-detachment absorption, participation persistence, and field/jump absorption notes.
+
+    \[
+    Dead\vee packing\text{-}detached\vee Jump
+    \Longrightarrow
+     tower\text{-}blown
+    \]
+
+    \[
+    F_*=packing\text{-}detached,
+    \]
+
+    The first two alternatives would occur no later than the alleged first pack face, contradicting first-face minimality unless they coincide as already-present failures. Hence the only compatible first-face alternative is tower-blown.
+
+    Again, the Jump alternative contradicts first-face minimality unless the failure has already left the dead channel. Thus the compatible first-face alternative is tower-blown.
+
+    The Dead and packing-detached alternatives contradict first-face minimality unless a non-jump failure has already occurred. Thus the compatible first-face alternative is tower-blown.
+
+    The endpoint grammar reduction is closed at this level. The remaining mathematical burden is the noncircular production of terminal tower control from the original periodic Navier-Stokes dynamics.
+
+
+
+    \subsection{Pctp Hard Five Burden Frontier Audit Note}
+
+    This is stronger than producing conditional averaged packets on a selected tail. It must produce the terminal-tail class-membership readout on the same smooth periodic object and with the same terminal labels.
+
+    \[
+    Jump_{\mathrm{avg}}
+    \Longrightarrow
+    \bot.
+    \]
+
+    The latter says that the mixed bilinear dissipation measure cannot concentrate on large spill-coefficient pulses. It is not installed from energy dissipation alone.
+
+    That fallback should be pursued only if the averaged TGC/AACT/AVG/READ assembly is rejected or a new gap is found in the dependency collapse.
+
+
+
+    \subsection{Pctp Hard Matrix Readable Discharge}
+
+    \[
+    pctp\text{-}hard\text{-}terminal\text{-}tail\text{-}uniformization.
+    \]
+
+    The proof uses the averaged production branch first, then the terminal pointwise readout layer.
+
+    \[
+    \text{strict averaged-good finite cover}\quad\vee\quad \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    On the strict averaged-good branch, there is a finite SCF-good same-fluid cover with radii bounded below and bounded overlap. On each shrunken cylinder, ATD m supplies the local finite-depth averaged affine tower packet.
+
+    \[
+    B_{i,p}=1+A_{i,p}+V_i+P_i,
+    \qquad
+    G_{i,p}=F_{i,p}.
+    \]
+
+    SCF base and ATD m give B i,p ,G i,p L 1. The cover and parameter set are finite, so
+
+    \[
+    B:=\sum_{i,p}B_{i,p}\in L^1,
+    \qquad
+    G:=\sum_{i,p}G_{i,p}\in L^1.
+    \]
+
+    The Jump avg branch from the terminal cover dichotomy is removed at this stage as an averaged endpoint face.
+
+    On the resulting finite positive-scale cover, ATD m gives the pointwise readout inputs. The field readout gives
+
+    The pressure component uses the local Poisson split plus energy far-tail control, and the viscous component uses the U q+2 rung.
+
+    \[
+    Dead,
+    \qquad
+    packing\text{-}detached,
+    \qquad
+    tower\text{-}blown,
+    \qquad
+    Jump.
+    \]
+
+    The previous face-reduction notes also show that every non-tower first face reduces to tower-blown, and the readout layer supplies the pointwise tower package. Thus a first finite classical endpoint has no remaining endpoint face.
+
+    The retained \(H^s\) bound with \(s>5/2\) triggers the periodic continuation criterion and extends the solution past T *, contradicting maximality.
+
+    It should be read together with the listed source surfaces as the direct theorem-facing discharge packet for that obligation.
+
+
+
+    \subsection{Pctp Hard Terminal Tower Final Obstruction}
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
+    \qquad s>5/2,
+    \]
+
+    and the retained \(H^s\) bound with \(s>5/2\) triggers the periodic continuation criterion and extends the solution past T *. Direct terminal tower control from Original Smooth Data is already the missing regularity theorem.
+
+    This does not produce the terminal tower from Original Smooth Data, because the fixed positive-scale terminal cover and ATD m inputs are exactly the terminal production burden.
+
+    This is valid only if the finite-cover scheduler and terminal cover are produced before spending old pointwise endpoint closure.
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    Equivalently: prove the finite-cover averaged ACT globalization and terminal readout scheduler from finite-energy SCF-good cylinders to pointwise terminal tower control.
+
+
+
+    \subsection{Pctp Hard Tower Control Attempt}
+
+    The tower readout here is conditional on a fixed positive-scale terminal cover and local regularity inputs. Those inputs still have to be derived from Original Smooth Data.
+
+    Assume a finite fixed same-fluid readout cover of the terminal tail with positive lower radius, and assume ATD m on each shrunken cover cylinder with m>=N+2.
+
+    \[
+    \sup_{t<T_*}\sup_i\sup_{0\le k\le N+2}\|U_k(t)\|_{L^\infty(B_i')}
+    <\infty.
+    \]
+
+    For the pressure part, use the installed local Poisson estimate. On each cover element,
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}(t)\|_{L^\infty(B_i')}
+    \le C\|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    \[
+    \|\nabla^{q+1}h_i(t)\|_{L^\infty(B_i')}
+    \le C\|u_0\|_{L^2(T^3)}^2.
+    \]
+
+    \[
+    \sup_{t<T_*}\sup_i\sup_{0\le q\le N}\|\nabla^{q+1}p(t)\|_{L^\infty(B_i')}
+    <\infty.
+    \]
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+    \]
+
+    and m>=N+2 supplies the viscous derivative U q. Thus both U q and K q are uniformly bounded through depth N. Taking the supremum over the finite cover gives
+
+    So tower-blown remains a primitive endpoint face until a noncircular terminal cover/field/local-regularity production theorem is proved.
+
+
+
+    \subsection{Pctp5C Kc Place Noncircularity Audit Note}
+
+    Indeed, on a fixed positive same-fluid scale r, retained Field bounds the finite velocity and force rungs on the source-pulse family, while the energy anchor bounds the base velocity rung. On sufficiently small interior subcylinders, the CKN scale-invariant quantities then obey
+
+    So the retained branch enters the quantitative CKN regularity criterion. This is a legitimate retained-branch exclusion of a source pulse.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}\Longrightarrow\bot
+    \]
+
+
+
+    \subsection{Pctp5C Known Criteria Source Nopulse Attack Note}
+
+    Caffarelli--Kohn--Nirenberg partial-regularity route, represented here by modern CKN/quantitative partial regularity references such as . Constantin--Fefferman vorticity-direction regularity route, represented in accessible lecture/source form at
+
+    \[
+    \mathfrak B_N^\sigma(t)\,dt
+    \]
+
+    \[
+    \sup_n \|u^{(n)}\|_{L_t^\infty L_x^3(Q_1)}<\infty
+    \]
+
+    Every nonzero terminal source-pulse compactness limit lies in a class for which an ancient-source Liouville theorem is available, for example a bounded ancient mild class, a two-dimensional/axisymmetric scalar class, or another rigid class with a maximum-principle replacement. The limit must still carry nonzero source residue.
+
+    The Liouville theorem forces the limit to be zero in the active source channel, contradicting the retained nonzero source residue.
+
+    On every terminal active source-pulse window with large vorticity, the vorticity direction has the scale-critical coherence required by a Constantin--Fefferman type criterion. Then the vortex-stretching channel
+
+    \[
+    \omega\cdot S\omega
+    \]
+
+    Each clause is a standard regularity criterion applied to the same normalized source-pulse family.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}},
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Endpoint Face Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45173
+  line_start: 45173
+  line_end: 45190
+  start_anchor: "\\subsection{Pctp Hard Endpoint Face Audit}\n"
+  end_anchor: "\\subsection{Pctp Hard Face Exclusion Assembly}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Endpoint Face Audit
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45173
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Face Exclusion Assembly
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45191
+  line_start: 45191
+  line_end: 45225
+  start_anchor: "\\subsection{Pctp Hard Face Exclusion Assembly}\n"
+  end_anchor: "\\subsection{Pctp Hard Field Jump Absorption}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Face Exclusion Assembly
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45191
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Five Burden Frontier Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45261
+  line_start: 45261
+  line_end: 45275
+  start_anchor: "\\subsection{Pctp Hard Five Burden Frontier Audit Note}\n"
+  end_anchor: "\\subsection{Pctp Hard Hs Continuation Conversion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Five Burden Frontier
+    Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45261
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Matrix Readable Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45323
+  line_start: 45323
+  line_end: 45373
+  start_anchor: "\\subsection{Pctp Hard Matrix Readable Discharge}\n"
+  end_anchor: "\\subsection{Pctp Hard Pack Control Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Matrix Readable Discharge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45323
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Terminal Tower Final Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45567
+  line_start: 45567
+  line_end: 45588
+  start_anchor: "\\subsection{Pctp Hard Terminal Tower Final Obstruction}\n"
+  end_anchor: "\\subsection{Pctp Hard Tower Control Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Terminal Tower Final
+    Obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45567
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Tower Control Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45589
+  line_start: 45589
+  line_end: 45625
+  start_anchor: "\\subsection{Pctp Hard Tower Control Attempt}\n"
+  end_anchor: "\\subsection{Clay problem PCTP / No-Escape / Scheduler / PDE-Export
+    Closure Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Tower Control Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45589
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp5C Kc Place Noncircularity Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45702
+  line_start: 45702
+  line_end: 45712
+  start_anchor: "\\subsection{Pctp5C Kc Place Noncircularity Audit Note}\n"
+  end_anchor: "\\subsection{Pctp5C Known Criteria Source Nopulse Attack Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp5C Kc Place Noncircularity
+    Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45702
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp5C Known Criteria Source Nopulse Attack Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45713
+  line_start: 45713
+  line_end: 45741
+  start_anchor: "\\subsection{Pctp5C Known Criteria Source Nopulse Attack Note}\n"
+  end_anchor: "\\subsection{Clay problem PDE Non-Smoothness To Open Shell-Program
+    Bridge Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp5C Known Criteria Source
+    Nopulse Attack Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45713
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-60
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-60.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

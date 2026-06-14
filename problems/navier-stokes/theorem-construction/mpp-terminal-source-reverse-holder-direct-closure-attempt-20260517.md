@@ -50,7 +50,7 @@ Same-fluid ancestry tracks route membership and parent/child relation through th
 
 ```math
 \tau_N\downarrow0,
-\qquad F_N^{src,+}\sim \tau_N^{-1}\mathbf 1_{[T-	au_N,T]}.
+\qquad F_N^{src,+}:= \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}.
 ```
 
 Ancestry alone supplies location and lineage.  It does not supply a positive lower bound on residence time.

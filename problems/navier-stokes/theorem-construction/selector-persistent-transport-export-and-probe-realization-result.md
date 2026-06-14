@@ -112,7 +112,8 @@ Applying `SPT.1` to this costed probe gives
 
 ```math
 \|\rho(\mathcal T^{coh}_{i,j}[X]Y_{i,x,j})\|_{L_x^\infty}
-\lesssim
+\le
+C_{T,s}
 \kappa_T\nu2^{2j}N_j.
 \tag{SPT.9}
 ```
@@ -121,17 +122,18 @@ The coefficient extraction step divides by the probe slope `2^j`, producing
 
 ```math
 |u_{coh,i}(x)|
-\lesssim
-\kappa_T\nu2^jN_j+	ext{collar terms}.
+\le
+C_{T,s}\kappa_T\nu2^jN_j+\mathrm{Collar}_{i,j}.
 \tag{SPT.10}
 ```
 
-Using `SPT.8`, this gives at best a scale
+Using `SPT.8`, the smallest admissible Sobolev cost already puts the transport
+term at the scale
 
 ```math
-|u_{coh,i}(x)|
-\lesssim
-\kappa_T\nu2^{2j}+	ext{collar terms},
+C_{T,s}\kappa_T\nu2^jN_j
+\ge
+C_{T,s}C_s^{-1}\kappa_T\nu2^{2j},
 \tag{SPT.11}
 ```
 

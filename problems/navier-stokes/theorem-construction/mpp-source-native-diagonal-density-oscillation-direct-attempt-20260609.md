@@ -86,7 +86,8 @@ It does not by itself give the uniform relative scale
 
 ```math
 \operatorname{diam}(Q_s^{ent})
-\lesssim
+\le
+C_{\mathrm{diag}}
 \left(
 \frac{\bar\delta_j(Q)}
 {[\delta_{j,Q}]_{C^\alpha}}

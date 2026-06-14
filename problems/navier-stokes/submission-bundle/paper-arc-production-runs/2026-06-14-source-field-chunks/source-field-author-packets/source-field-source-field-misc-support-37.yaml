@@ -1,0 +1,778 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-37
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-37
+  sequence: 189
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 37
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 24267
+  line_end: 24478
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24267
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24308
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24330
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24375
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24408
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24427
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24447
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24458
+  subsection_titles:
+  - PTC-Shape Suppliers Plus PTC-Lin To D.7mq
+  - Quantified defect-charge / flux machinery - hard obstruction
+  - Quantitative defect-charge lower-bound and separation theorem - hard obstruction
+    record
+  - Quantitative Terminal Good-Cover Theorem
+  - Quantitative Source Dissipation Absolute Continuity.A / Terminal Source Reverse
+    Holder B ASAC .A
+  - Read End Object Recovery Audit
+  - Recovered End Ns To Pctp Hard Bridge Read End
+  - Referee-Readable Manuscript Lemma Compression
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PTC-Shape Suppliers Plus PTC-Lin To D.7mq
+    line_start: 24267
+    line_end: 24307
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24267
+    start_anchor: "\\subsection{PTC-Shape Suppliers Plus PTC-Lin To D.7mq}\n"
+    end_anchor: "\\subsection{Quantified defect-charge / flux machinery - hard obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{PTC-Shape Suppliers Plus PTC-Lin To D.7mq}
+
+      Conditional composite proof. The formal bridge from the four requested packets to D.7mq closes. The analytic source estimates that instantiate those packets remain the active upstream work.
+
+      A sufficient realization is the anchored average-density plus Holder packet. Assume each terminal entrance-sector cell Q s ent subset Q has a reference label a Q,s and constants beta diag,gamma diag >= 0 with beta diag+gamma diag < 1 such that
+
+      This supplies the selector-side diagonal half of the entrance-sector sign primitive once the inherited bounded-multiplicity sector graph supplies the edge half.
+
+      \[
+      \int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|\,d\mu_j(a)
+      \le
+      \varepsilon_J^{shell},
+      \]
+
+      \[
+      \max_{r,\pm}s_{\pm,r}^{shell}\le\varsigma_J,
+      \qquad
+      \varepsilon_J^{shell}\to0,
+      \qquad
+      \varsigma_J\to0.
+      \]
+
+      \[
+      \int_{G_J}\delta_{J,r}^{\pm}(a)d\mu_j(a)
+      \le
+      \varepsilon_J^{shell}+\varsigma_J\mu_j(G_J).
+      \]
+
+      \[
+      \eta_J^{shell}:=\varepsilon_J^{shell}+\varsigma_J\mu_j(G_J)=o_J(1)
+      \]
+
+      Let the balanced frame directions be omega l and the segment scale be h J. Segment-collar derivative continuity gives
+
+      \[
+      |z_l(t,a)-W_J^{coc}(t,a)\omega_l|
+      \le
+      \rho_{J,lin}(a,t;h_J).
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Quantified defect-charge / flux machinery - hard obstruction
+    line_start: 24308
+    line_end: 24329
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24308
+    start_anchor: "\\subsection{Quantified defect-charge / flux machinery - hard obstruction}\n"
+    end_anchor: "\\subsection{Quantitative defect-charge lower-bound and separation
+      theorem - hard obstruction record}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Quantified defect-charge / flux machinery - hard obstruction}
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}\Longrightarrow
+      \{D_k\}\text{ or }\{Flux_k\}\text{ with terminal lower accumulation,}
+      \]
+
+      \[
+      \sum_k D_k\le C(E_0,source)
+      \quad\text{or}\quad
+      \sum_k Flux_k\le C(E_0,source),
+      \]
+
+      The canonical hard-obstruction surface for quantitative defect charge states that persistent B cells do not yet supply the required quantitative separation, quasi-orthogonality, or lower-flux inequality.
+
+      The dyadic flux antisymmetry candidate proves exact unweighted exchange identities and a conditional weighted-defect endpoint. Its own boundary records that the tail-weight mismatch is order-one in the lifted regime, and the surviving route requires a stronger signed commutator-defect theorem. Even granting that conditional endpoint, the residual term is
+
+      \[
+      D_k(B_{\varepsilon}^{\Phi})\ge d_0>0
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Quantitative defect-charge lower-bound and separation theorem
+      - hard obstruction record
+    line_start: 24330
+    line_end: 24340
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24330
+    start_anchor: "\\subsection{Quantitative defect-charge lower-bound and separation
+      theorem - hard obstruction record}\n"
+    end_anchor: "\\subsection{Quantitative Field avg Cover Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Quantitative defect-charge lower-bound and separation theorem - hard obstruction record}
+
+      Target: prove the lower-bound/separation theorem needed for direct Jump avg elimination.
+
+      The required statement is: persistent B epsilon Phi cells generate defect charges D k with a uniform lower contribution and enough separation to force a divergent or globally excessive total charge.
+
+      The current route supplies bad-set persistence and candidate charge language. It does not supply the quantitative separation, quasi-orthogonality, or lower-flux inequality needed to convert persistence into contradiction.
+
+      Result: the quantitative defect-charge theorem remains the hard remainder inside Jump avg elimination. The branch is reduced to this exact theorem plus the pressure/source upper-bound estimates.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Quantitative Terminal Good-Cover Theorem
+    line_start: 24375
+    line_end: 24407
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24375
+    start_anchor: "\\subsection{Quantitative Terminal Good-Cover Theorem}\n"
+    end_anchor: "\\subsection{Quantitative Source Dissipation Absolute Continuity.A
+      / Terminal Source Reverse Holder B ASAC .A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Quantitative Terminal Good-Cover Theorem}
+
+      \[
+      \neg \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      \[
+      r_*>0,
+      \qquad
+      \Omega<\infty,
+      \qquad
+      B_*,F_*\in L^1([t_0,T_*)).
+      \]
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}\cap\mathcal T=\varnothing,
+      \]
+
+      and terminal SCF-good radii along the tail have a positive lower bound after restricting to a terminal subtail.
+
+      The strict-margin SCF stability lemma turns pointwise good cylinders into open same-fluid good neighborhoods after radius shrink. Since the retained terminal portion is compact in the route topology, finitely many such neighborhoods cover it. Thus there are cylinders
+
+      \[
+      Q_j=Q_{r_j}^{\Phi}(a_j,t_j),
+      \qquad
+      1\le j\le J,
+      \]
+
+      \[
+      \operatorname{ovlp}(\{Q_j\}_{j=1}^{J})\le\Omega<\infty.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Quantitative Source Dissipation Absolute Continuity.A / Terminal
+      Source Reverse Holder B ASAC .A
+    line_start: 24408
+    line_end: 24426
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24408
+    start_anchor: "\\subsection{Quantitative Source Dissipation Absolute Continuity.A
+      / Terminal Source Reverse Holder B ASAC .A}\n"
+    end_anchor: "\\subsection{Read End Object Recovery Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Quantitative Source Dissipation Absolute Continuity.A / Terminal Source Reverse Holder B ASAC .A}
+
+      Failed as an immediate import or proof. External literature supplies adjacent tools, but no located theorem directly proves the needed selected-source terminal anti-atom statement for B ASAC.
+
+      Quantitative partial-regularity methods provide refined control of dissipation and singular-set geometry for suitable weak solutions. They suggest a route: turn a terminal selected source atom into a visible quantitative dissipation concentration, then use local absolute-continuity of dissipation to rule out zero-thickness concentration.
+
+      \[
+      \mu_m^{src,+}\quad\text{controlled by the quantitative CKN dissipation measure on the same selected windows.}
+      \]
+
+      Without this tether, CKN controls the usual local energy/dissipation quantities rather than the one-sided same-fluid selected native source marginal.
+
+      The current class supplies finite local L 1 s source mass only, so the terminal-layer model remains compatible.
+
+      Ancient Liouville theorems close rigid classes such as bounded, Type-I, L 3-sequence, two-dimensional, or axisymmetric ancient solutions. The missing input is a production theorem placing the B ASAC tangent object into one of those classes.
+
+      Local pressure projection and pressure decomposition improve pressure bookkeeping. They do not provide temporal anti-concentration of the selected native source marginal.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Read End Object Recovery Audit
+    line_start: 24427
+    line_end: 24446
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24427
+    start_anchor: "\\subsection{Read End Object Recovery Audit}\n"
+    end_anchor: "\\subsection{Recovered End Ns To Pctp Hard Bridge Read End}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Read End Object Recovery Audit}
+
+      End NS avg removes the averaged jump face. Applying the strict-threshold readout-cover theorem gives
+
+      \[
+      Q^\Phi(I,A_\sharp)\subset \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+      \qquad r_*:=\min_i r_i>0,
+      \]
+
+      The finite lower-radius cover and local ATD m give Morrey/Sobolev readout on each cover element. Finite overlap gives uniform pointwise neighboring coherence. so the old endpoint row
+
+      At endpoint depth m N+2, this recovers the pointwise velocity tower and forcing rungs. The forcing rung is
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      They are components of the class witness and do not require terminal readout conversion from averaged field data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Recovered End Ns To Pctp Hard Bridge Read End
+    line_start: 24447
+    line_end: 24457
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24447
+    start_anchor: "\\subsection{Recovered End Ns To Pctp Hard Bridge Read End}\n"
+    end_anchor: "\\subsection{Referee-Readable Manuscript Lemma Compression}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Recovered End Ns To Pctp Hard Bridge Read End}
+
+      \[
+      Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+      \]
+
+      But End NS removes all of these old endpoint faces. so no finite class exit occurs on the retained terminal branch.
+
+      The endpoint consumed here is old pointwise End NS, not End NS avg. The conversion from averaged to pointwise endpoint has already occurred through
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Referee-Readable Manuscript Lemma Compression
+    line_start: 24458
+    line_end: 24478
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24458
+    start_anchor: "\\subsection{Referee-Readable Manuscript Lemma Compression}\n"
+    end_anchor: "\\subsection{Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno
+      residue}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Referee-Readable Manuscript Lemma Compression}
+
+      The periodic proof can be presented with five standard PDE lemmas and one theorem.
+
+      A same-fluid parabolic cylinder with bounded distortion and sufficiently small scale-critical CKN packet has a smaller cylinder carrying finite-depth derivative and pressure bounds.
+
+      On each good moving cylinder, the affine-subtracted velocity residual satisfies a localized energy inequality. On a finite good-cylinder cover with a common scheduler, these local inequalities give a terminal averaged transported-tower bound.
+
+      Every terminal same-fluid tail has a positive-scale good-cylinder cover or loses uniform positive good scale. The second alternative is the averaged field-loss endpoint face.
+
+      A first finite endpoint must enter one of four faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal field-scale loss. The proof package eliminates all four, so the endpoint is impossible.
+
+      The averaged endpoint package gives a finite readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives a uniform H s(T 3) bound for some s>5/2, and periodic local theory extends the solution past any finite endpoint.
+
+      For smooth divergence-free zero-mean data on T 3, the periodic three-dimensional Navier-Stokes solution is global and smooth.
+
+      The manuscript states the periodic theorem. A whole-space R 3 export remains a separately named theorem.
+
+      The manuscript should use the five lemma headings above and move internal labels into dependency notes or appendices.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{PTC-Shape Suppliers Plus PTC-Lin To D.7mq}
+
+    Conditional composite proof. The formal bridge from the four requested packets to D.7mq closes. The analytic source estimates that instantiate those packets remain the active upstream work.
+
+    A sufficient realization is the anchored average-density plus Holder packet. Assume each terminal entrance-sector cell Q s ent subset Q has a reference label a Q,s and constants beta diag,gamma diag >= 0 with beta diag+gamma diag < 1 such that
+
+    This supplies the selector-side diagonal half of the entrance-sector sign primitive once the inherited bounded-multiplicity sector graph supplies the edge half.
+
+    \[
+    \int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|\,d\mu_j(a)
+    \le
+    \varepsilon_J^{shell},
+    \]
+
+    \[
+    \max_{r,\pm}s_{\pm,r}^{shell}\le\varsigma_J,
+    \qquad
+    \varepsilon_J^{shell}\to0,
+    \qquad
+    \varsigma_J\to0.
+    \]
+
+    \[
+    \int_{G_J}\delta_{J,r}^{\pm}(a)d\mu_j(a)
+    \le
+    \varepsilon_J^{shell}+\varsigma_J\mu_j(G_J).
+    \]
+
+    \[
+    \eta_J^{shell}:=\varepsilon_J^{shell}+\varsigma_J\mu_j(G_J)=o_J(1)
+    \]
+
+    Let the balanced frame directions be omega l and the segment scale be h J. Segment-collar derivative continuity gives
+
+    \[
+    |z_l(t,a)-W_J^{coc}(t,a)\omega_l|
+    \le
+    \rho_{J,lin}(a,t;h_J).
+    \]
+
+
+
+    \subsection{Quantified defect-charge / flux machinery - hard obstruction}
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}\Longrightarrow
+    \{D_k\}\text{ or }\{Flux_k\}\text{ with terminal lower accumulation,}
+    \]
+
+    \[
+    \sum_k D_k\le C(E_0,source)
+    \quad\text{or}\quad
+    \sum_k Flux_k\le C(E_0,source),
+    \]
+
+    The canonical hard-obstruction surface for quantitative defect charge states that persistent B cells do not yet supply the required quantitative separation, quasi-orthogonality, or lower-flux inequality.
+
+    The dyadic flux antisymmetry candidate proves exact unweighted exchange identities and a conditional weighted-defect endpoint. Its own boundary records that the tail-weight mismatch is order-one in the lifted regime, and the surviving route requires a stronger signed commutator-defect theorem. Even granting that conditional endpoint, the residual term is
+
+    \[
+    D_k(B_{\varepsilon}^{\Phi})\ge d_0>0
+    \]
+
+
+
+    \subsection{Quantitative defect-charge lower-bound and separation theorem - hard obstruction record}
+
+    Target: prove the lower-bound/separation theorem needed for direct Jump avg elimination.
+
+    The required statement is: persistent B epsilon Phi cells generate defect charges D k with a uniform lower contribution and enough separation to force a divergent or globally excessive total charge.
+
+    The current route supplies bad-set persistence and candidate charge language. It does not supply the quantitative separation, quasi-orthogonality, or lower-flux inequality needed to convert persistence into contradiction.
+
+    Result: the quantitative defect-charge theorem remains the hard remainder inside Jump avg elimination. The branch is reduced to this exact theorem plus the pressure/source upper-bound estimates.
+
+
+
+    \subsection{Quantitative Terminal Good-Cover Theorem}
+
+    \[
+    \neg \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    \[
+    r_*>0,
+    \qquad
+    \Omega<\infty,
+    \qquad
+    B_*,F_*\in L^1([t_0,T_*)).
+    \]
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}\cap\mathcal T=\varnothing,
+    \]
+
+    and terminal SCF-good radii along the tail have a positive lower bound after restricting to a terminal subtail.
+
+    The strict-margin SCF stability lemma turns pointwise good cylinders into open same-fluid good neighborhoods after radius shrink. Since the retained terminal portion is compact in the route topology, finitely many such neighborhoods cover it. Thus there are cylinders
+
+    \[
+    Q_j=Q_{r_j}^{\Phi}(a_j,t_j),
+    \qquad
+    1\le j\le J,
+    \]
+
+    \[
+    \operatorname{ovlp}(\{Q_j\}_{j=1}^{J})\le\Omega<\infty.
+    \]
+
+
+
+    \subsection{Quantitative Source Dissipation Absolute Continuity.A / Terminal Source Reverse Holder B ASAC .A}
+
+    Failed as an immediate import or proof. External literature supplies adjacent tools, but no located theorem directly proves the needed selected-source terminal anti-atom statement for B ASAC.
+
+    Quantitative partial-regularity methods provide refined control of dissipation and singular-set geometry for suitable weak solutions. They suggest a route: turn a terminal selected source atom into a visible quantitative dissipation concentration, then use local absolute-continuity of dissipation to rule out zero-thickness concentration.
+
+    \[
+    \mu_m^{src,+}\quad\text{controlled by the quantitative CKN dissipation measure on the same selected windows.}
+    \]
+
+    Without this tether, CKN controls the usual local energy/dissipation quantities rather than the one-sided same-fluid selected native source marginal.
+
+    The current class supplies finite local L 1 s source mass only, so the terminal-layer model remains compatible.
+
+    Ancient Liouville theorems close rigid classes such as bounded, Type-I, L 3-sequence, two-dimensional, or axisymmetric ancient solutions. The missing input is a production theorem placing the B ASAC tangent object into one of those classes.
+
+    Local pressure projection and pressure decomposition improve pressure bookkeeping. They do not provide temporal anti-concentration of the selected native source marginal.
+
+
+
+    \subsection{Read End Object Recovery Audit}
+
+    End NS avg removes the averaged jump face. Applying the strict-threshold readout-cover theorem gives
+
+    \[
+    Q^\Phi(I,A_\sharp)\subset \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+    \qquad r_*:=\min_i r_i>0,
+    \]
+
+    The finite lower-radius cover and local ATD m give Morrey/Sobolev readout on each cover element. Finite overlap gives uniform pointwise neighboring coherence. so the old endpoint row
+
+    At endpoint depth m N+2, this recovers the pointwise velocity tower and forcing rungs. The forcing rung is
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    They are components of the class witness and do not require terminal readout conversion from averaged field data.
+
+
+
+    \subsection{Recovered End Ns To Pctp Hard Bridge Read End}
+
+    \[
+    Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+    \]
+
+    But End NS removes all of these old endpoint faces. so no finite class exit occurs on the retained terminal branch.
+
+    The endpoint consumed here is old pointwise End NS, not End NS avg. The conversion from averaged to pointwise endpoint has already occurred through
+
+
+
+    \subsection{Referee-Readable Manuscript Lemma Compression}
+
+    The periodic proof can be presented with five standard PDE lemmas and one theorem.
+
+    A same-fluid parabolic cylinder with bounded distortion and sufficiently small scale-critical CKN packet has a smaller cylinder carrying finite-depth derivative and pressure bounds.
+
+    On each good moving cylinder, the affine-subtracted velocity residual satisfies a localized energy inequality. On a finite good-cylinder cover with a common scheduler, these local inequalities give a terminal averaged transported-tower bound.
+
+    Every terminal same-fluid tail has a positive-scale good-cylinder cover or loses uniform positive good scale. The second alternative is the averaged field-loss endpoint face.
+
+    A first finite endpoint must enter one of four faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal field-scale loss. The proof package eliminates all four, so the endpoint is impossible.
+
+    The averaged endpoint package gives a finite readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives a uniform H s(T 3) bound for some s>5/2, and periodic local theory extends the solution past any finite endpoint.
+
+    For smooth divergence-free zero-mean data on T 3, the periodic three-dimensional Navier-Stokes solution is global and smooth.
+
+    The manuscript states the periodic theorem. A whole-space R 3 export remains a separately named theorem.
+
+    The manuscript should use the five lemma headings above and move internal labels into dependency notes or appendices.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PTC-Shape Suppliers Plus PTC-Lin To D.7mq
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24267
+  line_start: 24267
+  line_end: 24307
+  start_anchor: "\\subsection{PTC-Shape Suppliers Plus PTC-Lin To D.7mq}\n"
+  end_anchor: "\\subsection{Quantified defect-charge / flux machinery - hard obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PTC-Shape Suppliers Plus PTC-Lin
+    To D.7mq as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24267
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Quantified defect-charge / flux machinery - hard obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24308
+  line_start: 24308
+  line_end: 24329
+  start_anchor: "\\subsection{Quantified defect-charge / flux machinery - hard obstruction}\n"
+  end_anchor: "\\subsection{Quantitative defect-charge lower-bound and separation
+    theorem - hard obstruction record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Quantified defect-charge / flux
+    machinery - hard obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24308
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Quantitative defect-charge lower-bound and separation theorem
+    - hard obstruction record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24330
+  line_start: 24330
+  line_end: 24340
+  start_anchor: "\\subsection{Quantitative defect-charge lower-bound and separation
+    theorem - hard obstruction record}\n"
+  end_anchor: "\\subsection{Quantitative Field avg Cover Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Quantitative defect-charge lower-bound
+    and separation theorem - hard obstruction record as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24330
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Quantitative Terminal Good-Cover Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24375
+  line_start: 24375
+  line_end: 24407
+  start_anchor: "\\subsection{Quantitative Terminal Good-Cover Theorem}\n"
+  end_anchor: "\\subsection{Quantitative Source Dissipation Absolute Continuity.A
+    / Terminal Source Reverse Holder B ASAC .A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Quantitative Terminal Good-Cover
+    Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24375
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Quantitative Source Dissipation Absolute Continuity.A / Terminal
+    Source Reverse Holder B ASAC .A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24408
+  line_start: 24408
+  line_end: 24426
+  start_anchor: "\\subsection{Quantitative Source Dissipation Absolute Continuity.A
+    / Terminal Source Reverse Holder B ASAC .A}\n"
+  end_anchor: "\\subsection{Read End Object Recovery Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Quantitative Source Dissipation
+    Absolute Continuity.A / Terminal Source Reverse Holder B ASAC .A as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24408
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Read End Object Recovery Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24427
+  line_start: 24427
+  line_end: 24446
+  start_anchor: "\\subsection{Read End Object Recovery Audit}\n"
+  end_anchor: "\\subsection{Recovered End Ns To Pctp Hard Bridge Read End}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Read End Object Recovery Audit
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24427
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Recovered End Ns To Pctp Hard Bridge Read End
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24447
+  line_start: 24447
+  line_end: 24457
+  start_anchor: "\\subsection{Recovered End Ns To Pctp Hard Bridge Read End}\n"
+  end_anchor: "\\subsection{Referee-Readable Manuscript Lemma Compression}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Recovered End Ns To Pctp Hard
+    Bridge Read End as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24447
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Referee-Readable Manuscript Lemma Compression
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24458
+  line_start: 24458
+  line_end: 24478
+  start_anchor: "\\subsection{Referee-Readable Manuscript Lemma Compression}\n"
+  end_anchor: "\\subsection{Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno
+    residue}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Referee-Readable Manuscript Lemma
+    Compression as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24458
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-37
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-37.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

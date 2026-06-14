@@ -1,0 +1,924 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-compactness-and-exact-object-02
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-compactness-and-exact-object-02
+  sequence: 23
+  group_id: compactness-and-exact-object
+  title: Compactness and exact object 2
+  author_job: write compactness material around the exact terminal object and same-solution
+    burden
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 20338
+  line_end: 34975
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20338
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25072
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26125
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27286
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31532
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32949
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32979
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34926
+  subsection_titles:
+  - Moving Concentration Compactness Test
+  - Scfbase Concentrationcompactness Final Blocker
+  - Source Parent Compactness Unconditional Attempt
+  - Terminal Good-Cover Compactness Audit
+  - Clay problem Ancestry Compact Bound / Source Residue Liouville Direct Attempt
+    Note
+  - Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+  - Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+  - Clay problem Critical-Pulse Compactness No-Pulse Attempt Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Moving Concentration Compactness Test
+    line_start: 20338
+    line_end: 20374
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20338
+    start_anchor: "\\subsection{Moving Concentration Compactness Test}\n"
+    end_anchor: "\\subsection{Moving-Cylinder CKN Admissibility Lemma}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Moving Concentration Compactness Test}
+
+      Assume Pack.TTU, so same-fluid cylinders are uniformly comparable. Let the active terminal label family have a compact closure in the retained label topology.
+
+      \[
+      \mu_D=|\nabla u|^2\,dx\,dt,
+      \]
+
+      \[
+      \mu_{P,\chi}=|p^{loc}_\chi|^{3/2}\,dx\,dt.
+      \]
+
+      \[
+      Q_{r_n}^{\Phi}(a_n,t_n),
+      \qquad t_n\uparrow T_* ,
+      \]
+
+      \[
+      \limsup_{n\to\infty}
+      \bigl(D_u(Q_{r_n}^{\Phi}(a_n,t_n))+P(Q_{r_n}^{\Phi}(a_n,t_n))\bigr)>0.
+      \]
+
+      \[
+      a_n\to a_*.
+      \]
+
+      Since t n T *, the time centers converge to the terminal face. For the scales, pass to a subsequence so that either
+
+      On a finite cutoff chart family, the measures D and P, are finite Radon measures. By weak compactness of finite Radon measures on compact chart closures, the localized restrictions along the extracted cylinders admit a subsequential defect functional.
+
+      If r *>0, the defect is a positive terminal mass on a fixed positive-scale cylinder family.
+
+      If r *=0, the defect is a blow-up concentration at the terminal label (a *,T *), detected by positive parabolic density of the normalized D u/P mass.
+
+      This theorem gives compactness of the defect carrier. It does not yet type the defect into
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scfbase Concentrationcompactness Final Blocker
+    line_start: 25072
+    line_end: 25103
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25072
+    start_anchor: "\\subsection{Scfbase Concentrationcompactness Final Blocker}\n"
+    end_anchor: "\\subsection{SCFBase Defect Measure Construction}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Scfbase Concentrationcompactness Final Blocker}
+
+      \[
+      G_\Phi.
+      \]
+
+      The energy inequality controls total energy and total dissipation. The local energy inequality supplies local balances on pack-stabilized cylinders.
+
+      \[
+      D_u
+      \]
+
+      \[
+      P^{loc}.
+      \]
+
+      The gradient term D u may concentrate on moving, shrinking same-fluid cylinders while preserving the global L 2 t,x dissipation bound.
+
+      \[
+      -\Delta p^{loc}=\partial_i\partial_j(\chi u_i u_j),
+      \]
+
+      so its modulus requires a terminal product-source modulus for u u. That source can move with the same concentration pattern.
+
+      Moving \(D_u/P\) concentration on pack-stabilized cylinders must produce
+      either a compact finite defect or an endpoint face.
+
+      This confirms that a high-regularity terminal record supplies the missing modulus.
+
+      It must convert moving gradient/pressure concentration into a finite endpoint defect. This is the remaining direct substitute for BKM.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source Parent Compactness Unconditional Attempt
+    line_start: 26125
+    line_end: 26167
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26125
+    start_anchor: "\\subsection{Source Parent Compactness Unconditional Attempt}\n"
+    end_anchor: "\\subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Source Parent Compactness Unconditional Attempt}
+
+      Failed direct discharge. The source-parent compactness package remains the hard atom of the branch chain.
+
+      \[
+      d\pi_P(P^-)
+      \]
+
+      \[
+      \mathcal C(P)\subset\mathsf{Pred}(P),
+      \qquad |\mathcal C(P)|\le B,
+      \qquad
+      \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+      \]
+
+      The installed data gives shell banding and same-fluid fidelity. It allows the diffuse legal model
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad P^-_\alpha\in\mathsf{Pred}(P),
+      \qquad M\to\infty.
+      \]
+
+      \[
+      \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)
+      \le \frac{B}{M}\to0.
+      \]
+
+      Thus bounded shell banding and same-fluid fidelity fail to force bounded parent concentration.
+
+      The diffuse branch asks the spread-out legal parent measure to spend a finite reserve. Existing records price energy, local-energy balance, pressure/cutoff leakage, illegal localization loss, and residual charge. They supply no price for legal branching entropy inside Pred (P).
+
+      The active- or local positive source Carleson reserve would price this branch, yet that theorem is route-equivalent to the source-pulse wall. Importing it here would close the target by assumption.
+
+      A legal same-fluid ancestry chain may remain at comparable scales or move through nearby dyadic shells. Energy gives
+
+      \[
+      \int\|\nabla u\|_2^2dt<\infty,
+      \]
+
+      The current inputs do not construct that rigid class or its residue Liouville theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Good-Cover Compactness Audit
+    line_start: 27286
+    line_end: 27300
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27286
+    start_anchor: "\\subsection{Terminal Good-Cover Compactness Audit}\n"
+    end_anchor: "\\subsection{Terminal Readout Equivalence Audit}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Terminal Good-Cover Compactness Audit}
+
+      \[
+      \exists T'\subset T,\quad \exists r_*>0,\quad r_{\mathrm{good}}(a,t)\ge r_*\text{ on }T'.
+      \]
+
+      On this branch, the retained material cross-section is compact on the periodic surface, and the terminal subtail is treated through finite terminal windows with a common positive radius floor.
+
+      For each point of the coherent terminal subtail, choose a same-fluid parabolic cylinder with radius in [r *,2r *]. A parabolic Vitali-Besicovitch selection in bounded-distortion coordinates gives finite overlap. Periodicity supplies compact spatial geometry; bounded distortion transfers the overlap constants to the moving cylinders.
+
+      If no terminal subtail has a positive lower radius floor, the branch is terminal scale loss. Compactness is not used to manufacture a cover there.
+
+      The dichotomy has no hidden compactness assumption: compactness is used only on the positive-radius coherent branch, and the scale-collapse branch is separately typed as terminal good-scale loss.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Ancestry Compact Bound / Source Residue Liouville
+      Direct Attempt Note
+    line_start: 31532
+    line_end: 31548
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31532
+    start_anchor: "\\subsection{Clay problem Ancestry Compact Bound / Source Residue
+      Liouville Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Ancestry Drain.A Direct Attempt Note}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Clay problem Ancestry Compact Bound / Source Residue Liouville Direct Attempt Note}
+
+      The test assumes an infinite legal same-fluid source ancestry chain and asks whether installed compactness already forces a forbidden ancient source-residue limit.
+
+      \[
+      \cdots \to P^{-2}\to P^{-1}\to P^0
+      \]
+
+      An infinite ancestry chain can move through scales and labels while preserving only local suitable bounds and nonzero source residue. That is not enough for a known Liouville theorem.
+
+      \[
+      \gamma_\ast\,d\mu_\ast^\sigma=0
+      \]
+
+      Without this new compact-bound/Liouville package, the compactness branch remains conditional.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+    line_start: 32949
+    line_end: 32978
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32949
+    start_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Clay problem BASACSource Ancestry Compactness.A Direct Attempt}
+
+      Outcome: not closed from installed inputs. The theorem is the correct missing compactness statement, but current B ASAC data still allow diffuse terminal Zeno source ancestry.
+
+      This would prove BASACNo Incoming Source Drain.A, then Zeno Residue Liouville B ASAC .A.
+
+      The terminal source residue is locally finite as a Radon measure. That gives compactness after passing to the terminal limit, but it does not give compactness of the pre-terminal ancestry tree.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)
+      \]
+
+      Bounded overlap prevents double-counting of selected terminal packets. It does not prevent the parent mass from spreading over more and more legal same-fluid ancestors as the terminal time is approached.
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad M\to\infty.
+      \]
+
+      \[
+      \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0,
+      \]
+
+      The equality class removes legal/projected/cutoff/boundary exits and zeroes out the ASAC-paid defect measure. Those are exits from the selected branch. They do not bound the cardinality, depth, or density of the remaining legal source-parent cloud.
+
+      The diffuse cloud can be entirely legal and have zero ASAC defect. so zero exits do not imply ancestry compactness.
+
+      This is the conservative next theorem-facing target. The alternative branch is a transported-cylinder no-flux theorem for the same B ASAC source-residue tangent class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+    line_start: 32979
+    line_end: 33027
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32979
+    start_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Target-Local Exhaustion and CM Pack-First
+      Exit Support}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |
+      \subsection{Clay problem BASACSource Ancestry Compactness.A Direct Attempt}
+
+      The lower theorem is tested against the produced B ASAC class and the installed source-parent, no-flux, ASAC, and temporal anti-atom surfaces.
+
+      Since B ASAC removes the first four alternatives by definition, the desired theorem is equivalent on the retained branch to excluding a terminal Zeno source atom.
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+      \]
+
+      \[
+      \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L_s^p((-1,0))}\le C_R,
+      \qquad p>1.
+      \]
+
+      Proof of the first implication: if a retained B ASAC source-residue extraction has nonzero terminal source charge in B R, then for some c 0>0, terminal source mass persists in arbitrarily thin terminal strips. The anti-concentration estimate forces that terminal-strip mass to vanish as 0, contradiction. so every nonzero retained source charge must be represented by an earlier compact same-fluid ancestry witness or by one of the already listed paid exits.
+
+      Proof of the second implication: source ancestry compactness converts terminal charge into a fixed earlier selected same-fluid source parent or a paid escape. The B ASAC clauses exclude those alternatives. Hence a B ASAC survivor carries zero terminal source charge, which is exactly the source-drain conclusion needed for the Liouville branch.
+
+      The local Radon compactness of the positive source measures gives subsequential weak-star limits on compact cylinders. It allows a time marginal with an atom at heat-time zero. The scalar model
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      Thus local finite source mass gives compactness of measures, while the desired theorem requires compactness away from the terminal time face. The installed source account supplies the former property and leaves the latter property open.
+
+      A terminal source charge may have diffuse legal same-fluid parentage. The parent measure model
+
+      \[
+      \pi_m=\frac{1}{M_m}\sum_{\alpha=1}^{M_m}\delta_{P^-_{m,\alpha}
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Critical-Pulse Compactness No-Pulse Attempt Note
+    line_start: 34926
+    line_end: 34975
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34926
+    start_anchor: "\\subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Current Route Linear Proof Order Note}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: "\\subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt Note}\n\nThe
+      compactness route is tested by assuming the no-pulse theorem fails, rescaling
+      the active heat-scale pulses, and trying to exclude the limiting critical object.\n\nThe
+      compactness extraction is route-plausible. The exclusion is not installed. The
+      remaining theorem becomes a Liouville/depletion statement for the critical pulse
+      profile.\n\n\\[\nI_n=[t_n-c2^{-2j_n},t_n],\n\\]\n\n\\[\n\\gamma_{j_n}(t)\\sfcomp{33466}
+      1\n\\qquad\\text{on a nontrivial part of }I_n,\n\\]\n\nEquivalently, in active-window
+      language, the scale-critical source packet does not become small on any terminal
+      subtail.\n\n\\[\nr_n:=2^{-j_n},\n\\qquad\nv_n(y,s):=r_n\\,u(x_n+r_n y,t_n+r_n^2s),\n\\]\n\n\\[\nq_n(y,s):=r_n^2\\,p(x_n+r_n
+      y,t_n+r_n^2s).\n\\]\n\n\\[\n\\partial_s v_n+v_n\\cdot\\nabla v_n+\\nabla q_n-\\nu\\Delta
+      v_n=0,\n\\qquad\n\\nabla\\cdot v_n=0.\n\\]\n\nThe active normalization gives
+      a nonzero critical packet in the rescaled sequence. The energy inequality supplies
+      local suitable bounds of the standard CKN type on bounded cylinders, after passing
+      to the same-fluid/moving coordinate chart with bounded distortion.\n\nEvery
+      local suitable ancient limit generated by a terminal same-fluid scale-critical
+      source pulse, with the retained energy class and pressure normalization inherited
+      from Original Smooth Data, has zero active source residue.\n\nThe installed
+      inputs give compactness and local suitability, but not a Liouville theorem strong
+      enough for this class.\n\nWithout one of those extra structural hypotheses,
+      standard compactness only turns failure of no-pulse into a nontrivial ancient
+      critical object. It does not make that object impossible.\n\nThe CKN epsilon
+      theorem also cannot be used backwards here. The pulse is precisely a failure
+      of smallness of the scale-critical packet; CKN says small packets are regular,
+      not that every nonsmall ancient packet is impossible.\n\nEliminating the branch
+      by compactness so requires a genuine exclusion of the nonzero rescaled packet.
+      That is \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  context_excerpt: |+
+    \subsection{Moving Concentration Compactness Test}
+
+    Assume Pack.TTU, so same-fluid cylinders are uniformly comparable. Let the active terminal label family have a compact closure in the retained label topology.
+
+    \[
+    \mu_D=|\nabla u|^2\,dx\,dt,
+    \]
+
+    \[
+    \mu_{P,\chi}=|p^{loc}_\chi|^{3/2}\,dx\,dt.
+    \]
+
+    \[
+    Q_{r_n}^{\Phi}(a_n,t_n),
+    \qquad t_n\uparrow T_* ,
+    \]
+
+    \[
+    \limsup_{n\to\infty}
+    \bigl(D_u(Q_{r_n}^{\Phi}(a_n,t_n))+P(Q_{r_n}^{\Phi}(a_n,t_n))\bigr)>0.
+    \]
+
+    \[
+    a_n\to a_*.
+    \]
+
+    Since t n T *, the time centers converge to the terminal face. For the scales, pass to a subsequence so that either
+
+    On a finite cutoff chart family, the measures D and P, are finite Radon measures. By weak compactness of finite Radon measures on compact chart closures, the localized restrictions along the extracted cylinders admit a subsequential defect functional.
+
+    If r *>0, the defect is a positive terminal mass on a fixed positive-scale cylinder family.
+
+    If r *=0, the defect is a blow-up concentration at the terminal label (a *,T *), detected by positive parabolic density of the normalized D u/P mass.
+
+    This theorem gives compactness of the defect carrier. It does not yet type the defect into
+
+
+
+    \subsection{Scfbase Concentrationcompactness Final Blocker}
+
+    \[
+    G_\Phi.
+    \]
+
+    The energy inequality controls total energy and total dissipation. The local energy inequality supplies local balances on pack-stabilized cylinders.
+
+    \[
+    D_u
+    \]
+
+    \[
+    P^{loc}.
+    \]
+
+    The gradient term D u may concentrate on moving, shrinking same-fluid cylinders while preserving the global L 2 t,x dissipation bound.
+
+    \[
+    -\Delta p^{loc}=\partial_i\partial_j(\chi u_i u_j),
+    \]
+
+    so its modulus requires a terminal product-source modulus for u u. That source can move with the same concentration pattern.
+
+    Moving \(D_u/P\) concentration on pack-stabilized cylinders must produce
+    either a compact finite defect or an endpoint face.
+
+    This confirms that a high-regularity terminal record supplies the missing modulus.
+
+    It must convert moving gradient/pressure concentration into a finite endpoint defect. This is the remaining direct substitute for BKM.
+
+
+
+    \subsection{Source Parent Compactness Unconditional Attempt}
+
+    Failed direct discharge. The source-parent compactness package remains the hard atom of the branch chain.
+
+    \[
+    d\pi_P(P^-)
+    \]
+
+    \[
+    \mathcal C(P)\subset\mathsf{Pred}(P),
+    \qquad |\mathcal C(P)|\le B,
+    \qquad
+    \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+    \]
+
+    The installed data gives shell banding and same-fluid fidelity. It allows the diffuse legal model
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad P^-_\alpha\in\mathsf{Pred}(P),
+    \qquad M\to\infty.
+    \]
+
+    \[
+    \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)
+    \le \frac{B}{M}\to0.
+    \]
+
+    Thus bounded shell banding and same-fluid fidelity fail to force bounded parent concentration.
+
+    The diffuse branch asks the spread-out legal parent measure to spend a finite reserve. Existing records price energy, local-energy balance, pressure/cutoff leakage, illegal localization loss, and residual charge. They supply no price for legal branching entropy inside Pred (P).
+
+    The active- or local positive source Carleson reserve would price this branch, yet that theorem is route-equivalent to the source-pulse wall. Importing it here would close the target by assumption.
+
+    A legal same-fluid ancestry chain may remain at comparable scales or move through nearby dyadic shells. Energy gives
+
+    \[
+    \int\|\nabla u\|_2^2dt<\infty,
+    \]
+
+    The current inputs do not construct that rigid class or its residue Liouville theorem.
+
+
+
+    \subsection{Terminal Good-Cover Compactness Audit}
+
+    \[
+    \exists T'\subset T,\quad \exists r_*>0,\quad r_{\mathrm{good}}(a,t)\ge r_*\text{ on }T'.
+    \]
+
+    On this branch, the retained material cross-section is compact on the periodic surface, and the terminal subtail is treated through finite terminal windows with a common positive radius floor.
+
+    For each point of the coherent terminal subtail, choose a same-fluid parabolic cylinder with radius in [r *,2r *]. A parabolic Vitali-Besicovitch selection in bounded-distortion coordinates gives finite overlap. Periodicity supplies compact spatial geometry; bounded distortion transfers the overlap constants to the moving cylinders.
+
+    If no terminal subtail has a positive lower radius floor, the branch is terminal scale loss. Compactness is not used to manufacture a cover there.
+
+    The dichotomy has no hidden compactness assumption: compactness is used only on the positive-radius coherent branch, and the scale-collapse branch is separately typed as terminal good-scale loss.
+
+
+
+    \subsection{Clay problem Ancestry Compact Bound / Source Residue Liouville Direct Attempt Note}
+
+    The test assumes an infinite legal same-fluid source ancestry chain and asks whether installed compactness already forces a forbidden ancient source-residue limit.
+
+    \[
+    \cdots \to P^{-2}\to P^{-1}\to P^0
+    \]
+
+    An infinite ancestry chain can move through scales and labels while preserving only local suitable bounds and nonzero source residue. That is not enough for a known Liouville theorem.
+
+    \[
+    \gamma_\ast\,d\mu_\ast^\sigma=0
+    \]
+
+    Without this new compact-bound/Liouville package, the compactness branch remains conditional.
+
+
+
+    \subsection{Clay problem BASACSource Ancestry Compactness.A Direct Attempt}
+
+    Outcome: not closed from installed inputs. The theorem is the correct missing compactness statement, but current B ASAC data still allow diffuse terminal Zeno source ancestry.
+
+    This would prove BASACNo Incoming Source Drain.A, then Zeno Residue Liouville B ASAC .A.
+
+    The terminal source residue is locally finite as a Radon measure. That gives compactness after passing to the terminal limit, but it does not give compactness of the pre-terminal ancestry tree.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)
+    \]
+
+    Bounded overlap prevents double-counting of selected terminal packets. It does not prevent the parent mass from spreading over more and more legal same-fluid ancestors as the terminal time is approached.
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad M\to\infty.
+    \]
+
+    \[
+    \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0,
+    \]
+
+    The equality class removes legal/projected/cutoff/boundary exits and zeroes out the ASAC-paid defect measure. Those are exits from the selected branch. They do not bound the cardinality, depth, or density of the remaining legal source-parent cloud.
+
+    The diffuse cloud can be entirely legal and have zero ASAC defect. so zero exits do not imply ancestry compactness.
+
+    This is the conservative next theorem-facing target. The alternative branch is a transported-cylinder no-flux theorem for the same B ASAC source-residue tangent class.
+
+
+
+    \subsection{Clay problem BASACSource Ancestry Compactness.A Direct Attempt}
+
+    The lower theorem is tested against the produced B ASAC class and the installed source-parent, no-flux, ASAC, and temporal anti-atom surfaces.
+
+    Since B ASAC removes the first four alternatives by definition, the desired theorem is equivalent on the retained branch to excluding a terminal Zeno source atom.
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+    \]
+
+    \[
+    \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L_s^p((-1,0))}\le C_R,
+    \qquad p>1.
+    \]
+
+    Proof of the first implication: if a retained B ASAC source-residue extraction has nonzero terminal source charge in B R, then for some c 0>0, terminal source mass persists in arbitrarily thin terminal strips. The anti-concentration estimate forces that terminal-strip mass to vanish as 0, contradiction. so every nonzero retained source charge must be represented by an earlier compact same-fluid ancestry witness or by one of the already listed paid exits.
+
+    Proof of the second implication: source ancestry compactness converts terminal charge into a fixed earlier selected same-fluid source parent or a paid escape. The B ASAC clauses exclude those alternatives. Hence a B ASAC survivor carries zero terminal source charge, which is exactly the source-drain conclusion needed for the Liouville branch.
+
+    The local Radon compactness of the positive source measures gives subsequential weak-star limits on compact cylinders. It allows a time marginal with an atom at heat-time zero. The scalar model
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    Thus local finite source mass gives compactness of measures, while the desired theorem requires compactness away from the terminal time face. The installed source account supplies the former property and leaves the latter property open.
+
+    A terminal source charge may have diffuse legal same-fluid parentage. The parent measure model
+
+    \[
+    \pi_m=\frac{1}{M_m}\sum_{\alpha=1}^{M_m}\delta_{P^-_{m,\alpha}},
+    \qquad M_m\to\infty,
+    \]
+
+    The B ASAC clauses remove finite and non-Zeno donor-refill exits. They still permit a terminal Zeno cloud with unbounded legal branching and no bounded parent selector. A bounded-parent compactness conclusion so needs a new branch-entropy charge, a scale-critical source reserve, or temporal anti-concentration.
+
+    ASACDefect Measure.A removes the ASAC-paid active-alignment / pair-weight defect from the retained terminal extraction. It gives a vanishing defect measure alpha * for that paid channel.
+
+    The native positive source-residue measure remains a distinct object. A terminal Zeno source marginal can have alpha *=0 and still retain nonzero native positive terminal charge. Hence zero ASAC defect improves the equality class and leaves temporal source thickness open.
+
+    No Earlier Selected Source Slice.A and No Incoming License src.A remove fixed earlier selected source parents. They match the first-pulse graph license.
+
+    \[
+    \int \Phi_T\,d\mu_*^{src}.
+    \]
+
+    That terminal term is the live object. The available first-pulse license removes selected parents and leaves the terminal source charge as the remaining term in the identity. A source-charge theorem is still required.
+
+
+
+    \subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt Note}
+
+    The compactness route is tested by assuming the no-pulse theorem fails, rescaling the active heat-scale pulses, and trying to exclude the limiting critical object.
+
+    The compactness extraction is route-plausible. The exclusion is not installed. The remaining theorem becomes a Liouville/depletion statement for the critical pulse profile.
+
+    \[
+    I_n=[t_n-c2^{-2j_n},t_n],
+    \]
+
+    \[
+    \gamma_{j_n}(t)\sfcomp{33466} 1
+    \qquad\text{on a nontrivial part of }I_n,
+    \]
+
+    Equivalently, in active-window language, the scale-critical source packet does not become small on any terminal subtail.
+
+    \[
+    r_n:=2^{-j_n},
+    \qquad
+    v_n(y,s):=r_n\,u(x_n+r_n y,t_n+r_n^2s),
+    \]
+
+    \[
+    q_n(y,s):=r_n^2\,p(x_n+r_n y,t_n+r_n^2s).
+    \]
+
+    \[
+    \partial_s v_n+v_n\cdot\nabla v_n+\nabla q_n-\nu\Delta v_n=0,
+    \qquad
+    \nabla\cdot v_n=0.
+    \]
+
+    The active normalization gives a nonzero critical packet in the rescaled sequence. The energy inequality supplies local suitable bounds of the standard CKN type on bounded cylinders, after passing to the same-fluid/moving coordinate chart with bounded distortion.
+
+    Every local suitable ancient limit generated by a terminal same-fluid scale-critical source pulse, with the retained energy class and pressure normalization inherited from Original Smooth Data, has zero active source residue.
+
+    The installed inputs give compactness and local suitability, but not a Liouville theorem strong enough for this class.
+
+    Without one of those extra structural hypotheses, standard compactness only turns failure of no-pulse into a nontrivial ancient critical object. It does not make that object impossible.
+
+    The CKN epsilon theorem also cannot be used backwards here. The pulse is precisely a failure of smallness of the scale-critical packet; CKN says small packets are regular, not that every nonsmall ancient packet is impossible.
+
+    Eliminating the branch by compactness so requires a genuine exclusion of the nonzero rescaled packet. That is exactly Ancient.No Pulse.
+
+    That object is not yet a spatial Radon measure on physical cylinders. so the blow-up extraction also needs the carrier-tether form audited in
+
+    This is a stricter dependency list than the original Ancient.No Pulse target: ancient rigidity is only useful after Diag Dom.A preserves physical co-location and source residue through localization. Local Source.No Pulse.A is the direct pre-Cauchy source theorem and would close the no-pulse atom without passing through ancient compactness.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Moving Concentration Compactness Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20338
+  line_start: 20338
+  line_end: 20374
+  start_anchor: "\\subsection{Moving Concentration Compactness Test}\n"
+  end_anchor: "\\subsection{Moving-Cylinder CKN Admissibility Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Moving Concentration Compactness
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20338
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scfbase Concentrationcompactness Final Blocker
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25072
+  line_start: 25072
+  line_end: 25103
+  start_anchor: "\\subsection{Scfbase Concentrationcompactness Final Blocker}\n"
+  end_anchor: "\\subsection{SCFBase Defect Measure Construction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scfbase Concentrationcompactness
+    Final Blocker as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25072
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source Parent Compactness Unconditional Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26125
+  line_start: 26125
+  line_end: 26167
+  start_anchor: "\\subsection{Source Parent Compactness Unconditional Attempt}\n"
+  end_anchor: "\\subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source Parent Compactness Unconditional
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26125
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Good-Cover Compactness Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27286
+  line_start: 27286
+  line_end: 27300
+  start_anchor: "\\subsection{Terminal Good-Cover Compactness Audit}\n"
+  end_anchor: "\\subsection{Terminal Readout Equivalence Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Good-Cover Compactness
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27286
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Ancestry Compact Bound / Source Residue Liouville
+    Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31532
+  line_start: 31532
+  line_end: 31548
+  start_anchor: "\\subsection{Clay problem Ancestry Compact Bound / Source Residue
+    Liouville Direct Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Ancestry Drain.A Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Ancestry Compact
+    Bound / Source Residue Liouville Direct Attempt Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31532
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32949
+  line_start: 32949
+  line_end: 32978
+  start_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem BASACSource Ancestry
+    Compactness.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32949
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem BASACSource Ancestry Compactness.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32979
+  line_start: 32979
+  line_end: 33027
+  start_anchor: "\\subsection{Clay problem BASACSource Ancestry Compactness.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Target-Local Exhaustion and CM Pack-First
+    Exit Support}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem BASACSource Ancestry
+    Compactness.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32979
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Critical-Pulse Compactness No-Pulse Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34926
+  line_start: 34926
+  line_end: 34975
+  start_anchor: "\\subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Current Route Linear Proof Order Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Critical-Pulse Compactness
+    No-Pulse Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34926
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-compactness-and-exact-object-02
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-compactness-and-exact-object-02.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

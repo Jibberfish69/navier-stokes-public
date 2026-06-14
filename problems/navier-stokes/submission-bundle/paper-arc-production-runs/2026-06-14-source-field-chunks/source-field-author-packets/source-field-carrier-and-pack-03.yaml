@@ -1,0 +1,1366 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-03
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-03
+  sequence: 5
+  group_id: carrier-and-pack
+  title: Carrier and Pack 3
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 7377
+  line_end: 9632
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7377
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7466
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7915
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8229
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8344
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9361
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9449
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9567
+  subsection_titles:
+  - Final Global Selector Plateau Theorem
+  - Finite-Frame Linearization On Selector-Good Strips
+  - Four-Body Survivor to Selector Readout Dictionary
+  - Frozen Exceptional-Set Measure Localization
+  - Frozen Tolerance Localization Packet
+  - H.1 Carrier-Leakage Direct Completion
+  - Heat-Governed Carrier Synthesis For Tower And Shadow Route
+  - HFG Continuation, All-Scale, And Carrier Export Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Final Global Selector Plateau Theorem
+    line_start: 7377
+    line_end: 7435
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7377
+    start_anchor: "\\subsection{Final Global Selector Plateau Theorem}\n"
+    end_anchor: "\\subsection{Finite Entrance-Sector Sign Refinement}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Final Global Selector Plateau Theorem}
+
+      The global selector theorem supplies one \(v_{coh}\)-independent plateau weight
+      for every active collar support at shell \(j\). The input is carrier-localized
+      active readout,
+      \[
+      \operatorname{supp}(\widetilde Q_iP_{\le j}v_{coh})
+      \subseteq
+      \Gamma_j(t),
+      \]
+      together with a proper persistent carrier collar,
+      \[
+      \Gamma_j(t)^{+M}
+      \subsetneq \mathbb R^3.
+      \]
+      Define
+      \[
+      \mathcal K_j(t):=\Gamma_j(t)^{+M},
+      \qquad
+      \mathcal P_j(t):=\mathcal K_j(t)^{+L2^{-j}},
+      \]
+      where \(L\) dominates the fixed collar constants. Choose \(w_j\) by the
+      regularized-distance construction so that
+      \[
+      w_j=1\text{ on }\mathcal P_j(t),
+      \qquad
+      \operatorname{supp}w_j\subseteq \mathcal K_j(t)^{+2L2^{-j}}.
+      \]
+
+      For the active collar support
+      \[
+      K_{i,j}(t):=
+      \operatorname{supp}(\widetilde Q_iP_{\le j}v_{coh})^{+M},
+      \]
+      the inclusions are
+      \[
+      K_{i,j}(t)
+      \subseteq\mathcal P_j(t),
+      \qquad
+      w_j=1\text{ on }K_{i,j}(t).
+      \]
+      This closes the weighted-branch selector requirement from one construction. If
+      the proper collar input fails, the algebraic full-space plateau \(w_j\equiv1\)
+      is still available, but geometric localization is then absent.
+
+      This is the point of the construction.  Every active collar term is measured
+      against the same plateau, so the proof is not secretly changing localizers from
+      one term to the next.  The selector branch can then charge collar errors to one
+      geometric object, namely \(\Gamma_j(t)^{+M}\) and its fixed dyadic
+      fattening.
+
+      The result pays the plateau part of the selector localization bill.  Its input
+      is still a proper persistent collar.  When only the algebraic full-space choice
+      \(w_j\equiv1\) is available, the multiplier identity survives, while the
+      localized Pack-side support information has not been supplied.  In the paper
+      this theorem should be read as a support theorem for the carrier route, not as a
+      standalone continuation theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Finite-Frame Linearization On Selector-Good Strips
+    line_start: 7466
+    line_end: 7529
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7466
+    start_anchor: "\\subsection{Finite-Frame Linearization On Selector-Good Strips}\n"
+    end_anchor: "\\subsection{Finite Low-Shell Amplitude Residual Control Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Finite-Frame Linearization On Selector-Good Strips}
+
+      This note replaces the full selector-good pair-average linearization burden by
+      a finite-frame theorem on the exact-potential branch. On a selector-good strip,
+      choose a balanced entrance frame
+      \[
+      \sum_{\ell=1}^m
+      w_\ell\,\omega_{J,0}^\ell(a)\otimes\omega_{J,0}^\ell(a)
+      =
+      \Pi_{N_a},
+      \qquad
+      w_\ell>0,
+      \qquad
+      \omega_{J,0}^\ell(a)\in S(N_a).
+      \]
+      Define the entrance points and transported pair vectors by
+      \[
+      x_{\pm}^\ell(a,t_0):=
+      a\pm h_J\,\omega_{J,0}^\ell(a),
+      \]
+      \[
+      z_J^\ell(t,a):=
+      \frac{X_t(x_+^\ell(a,t_0))-X_t(x_-^\ell(a,t_0))}{2h_J}.
+      \]
+      The finite-frame linearization hypothesis is
+      \[
+      \max_{1\le\ell\le m}
+      \bigl|
+      z_J^\ell(t,a)-W_J^{coc}(t,a)\omega_{J,0}^\ell(a)
+      \bigr|
+      \le
+      \varepsilon_{J,\mathrm{lin}}^{frame}(t,a),
+      \qquad
+      \varepsilon_{J,\mathrm{lin}}^{frame}\to0.
+      \]
+      Under this hypothesis, the finite-frame tensor
+      \[
+      \mathcal K_J^{frame}(t,a):=
+      \sum_{\ell=1}^m w_\ell z_J^\ell(t,a)\otimes z_J^\ell(t,a)
+      \]
+      converges to
+      \[
+      W_J^{coc}(t,a)\Pi_{N_a}(W_J^{coc}(t,a))^\ast
+      \]
+      with an operator-norm error controlled by the displayed linearization error.
+      Thus the balanced-frame packet plus finite-frame linearization closes the
+      tensor-level content of \(PTC\text{-}Lin+PTC\text{-}Shape\). The exact-potential
+      route still carries the comparison packet, the Cauchy--Green gap, and downstream
+      assembly before it reaches the \(D.7mq\) branch.
+
+      For the reader, the reduction is this: the route no longer has to average over
+      an uncontrolled continuum of pair directions.  It may use a finite set of
+      entrance directions whose weighted second moments already give the normal-plane
+      projector.  The only analytic price is the displayed error
+      \(\varepsilon_{J,\mathrm{lin}}^{frame}\), which must go to zero on the same
+      selector-good strip.
+
+      The mathematical object supplied here is the finite tensor
+      \(\mathcal K_J^{frame}\).  Once this tensor is reconstructed from finitely many
+      transported pair directions, it can be compared with the surrounding carr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Four-Body Survivor to Selector Readout Dictionary
+    line_start: 7915
+    line_end: 7973
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7915
+    start_anchor: "\\subsection{Four-Body Survivor to Selector Readout Dictionary}\n"
+    end_anchor: "\\subsection{Fourth Bridge Source-Fidelity Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Four-Body Survivor to Selector Readout Dictionary}
+
+      This subsection is a dictionary, not a new proof program. Its job is to prevent
+      the reader from thinking that \(PSJ+\), \(PD.70\), or \(SG.4\) replaced the old
+      four-body survivor. They are newer readouts of the same survivor.
+
+      The proof role is source fidelity.  The manuscript has several selector-side
+      names for the dangerous packet.  This dictionary says how to read them without
+      changing the underlying field.  The survivor is the compactness-limit object on
+      the exact solution \(u\); the selector quantities are measurements of that
+      object after the later readout choices have been made.
+
+      The compactness/extraction body says that the dangerous packet survives the
+      limit passage on the same exact field:
+      \[
+      u^{(n)}\to u,
+      \qquad
+      \mathcal E_{\mathrm{live}}^{(n)}\to \mathcal E_{\mathrm{live}}[u].
+      \]
+
+      The selector-side readout then uses the one-sided deficit
+      \[
+      \eta_J(a,b,t)
+      :=
+      \big[\lambda_J(t)-\mathfrak s_J(a,b,t)\big]_+.
+      \]
+
+      \[
+      \mathfrak E_{J,2}^{SG}(I)\le \mathfrak F_J^{def}(I),
+      \]
+
+      \[
+      \boxed{
+      \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
+      \le C_{\mathrm{sf},7826}
+      \mathcal E_J^{obs}(I).
+      }
+      \]
+
+      \[
+      \boxed{
+      \mathcal E_J^{dir}(I)\le C_{\mathrm{sf},7833} \mathcal E_J^{obs}(I).
+      }
+      \]
+
+      The signless pair packet \(W_J\) is the installed observable carrier for this
+      selector-side chain; it is not the survivor itself. This is why \(PSJ+\) can come
+      from the original four-body solution without being a route reset. The boundary
+      remains important: this dictionary does not prove quantitative contraction of
+      the survivor, and it does not prove that \(W_J\) alone determines the projector
+      field. The no-go statement in the projective packet remains in force.
+
+      So this subsection pays a naming and readout problem, not a contraction problem.
+      After it is used, the reader is allowed to follow the same bad packet through
+      the four-body, projective, and selector notations.  The reader is still owed the
+      actual estimate that makes the packet s
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Frozen Exceptional-Set Measure Localization
+    line_start: 8229
+    line_end: 8295
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8229
+    start_anchor: "\\subsection{Frozen Exceptional-Set Measure Localization}\n"
+    end_anchor: "\\subsection{Frozen Threshold-Vs-Linearization Synchronization}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Frozen Exceptional-Set Measure Localization}
+
+      The geometric half of the frozen linearization bill is localization and
+      \(L^{p/2}\) control of the thresholded differentiability exceptional-set
+      measure on the standard selector-scale branch.  With the frozen
+      threshold schedule \(\vartheta_{J,\tau}^{lin}(a)\), define
+
+      \[
+      \mu_{J,\tau}^{diff}(a)
+      :=
+      \mu_{J,\varepsilon}^{pair}
+      \bigl(E_{J,\varepsilon,\vartheta_{J,\tau}^{lin}(a)}^{diff}(\tau,a)\bigr).
+      \]
+
+      \[
+      \Theta_{J,\tau}^{diff}(a)
+      \le
+      \bigl(R_{J,\tau}^{frz}(a)\bigr)^2\,\mu_{J,\tau}^{diff}(a).
+      \]
+
+      \[
+      \sup_{a\in\pi_a(\mathcal G_J)}R_{J,\tau}^{frz}(a)
+      \le
+      R_{J,\tau}^{frz,\ast}<\infty,
+      \]
+
+      \[
+      \operatorname{supp}\bigl(\mu_{J,\tau}^{diff}\bigr)
+      \subseteq
+      B_J^{diff,meas,\tau},
+      \qquad
+      \mu_J^{pair}(B_J^{diff,meas,\tau})=o_J(1),
+      \]
+
+      \[
+      \bigl\|\mu_{J,\tau}^{diff}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+      \le
+      C_{p/2,\tau}^{diff,meas}.
+      \]
+
+      Then the weighted geometric price satisfies
+
+      \[
+      \bigl\|\Theta_{J,\tau}^{diff}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+      \le
+      \bigl(R_{J,\tau}^{frz,\ast}\bigr)^2
+      C_{p/2,\tau}^{diff,meas}.
+      \]
+
+      This is a proof under the stated frozen-measure localization inputs.  Its
+      meaning for the paper is precise: the geometric part of the frozen
+      linearization price is a frozen-time exceptional-set localization theorem.
+      The note does not supply the underlying \(\mu_{J,\tau}^{diff}\) localization
+      from original data.
+
+      The calculation is deliberately small.  The exceptional set is first measured
+      by \(\mu_{J,\tau}^{diff}\).  The radius bound
+      \(R_{J,\tau}^{frz,\ast}\) then converts that measure into the geometric price
+      \(\Theta_{J,\tau}^{diff}\).  The \(L^{p/2}\) estimate follows because the
+      radius has been made uniform on the frozen slice.
+
+      This pays the geometric half only after the exceptional-set measure has already
+      been localized.  In the manuscript route, it should be cited as a frozen-time
+      price conversion.  The upstream production of the localized exceptional-set
+      measure remains a named theorem debt.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Frozen Tolerance Localization Packet
+    line_start: 8344
+    line_end: 8404
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8344
+    start_anchor: "\\subsection{Frozen Tolerance Localization Packet}\n"
+    end_anchor: "\\subsection{Frozen Transported Localized Projector Packet Eliminates
+      Coefficient Drift}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Frozen Tolerance Localization Packet}
+
+      The scalar half of the frozen linearization bill packages the chosen frozen
+      tolerance schedule into a localized \(L^p\) packet.  The geometric
+      exceptional-set content stays in the preceding localization theorem.
+
+      \[
+      \vartheta_{J,\tau}^{lin}(a)\ge 0
+      \qquad
+      \text{on }\pi_a(\mathcal G_J).
+      \]
+
+      \[
+      \Xi_{J,\tau}^{tol}(a)
+      :=
+      \bigl(\vartheta_{J,\tau}^{lin}(a)\bigr)^2.
+      \]
+
+      \[
+      \operatorname{supp}\bigl(\vartheta_{J,\tau}^{lin}\bigr)
+      \subseteq
+      B_J^{tol,\tau},
+      \qquad
+      \mu_J^{pair}(B_J^{tol,\tau})=o_J(1),
+      \]
+
+      \[
+      \bigl\|\vartheta_{J,\tau}^{lin}\bigr\|_{L^p(d\mu_J^{pair})}
+      \le
+      C_{p,\tau}^{tol}.
+      \]
+
+      \[
+      \bigl\|\Xi_{J,\tau}^{tol}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+      =
+      \bigl\|\vartheta_{J,\tau}^{lin}\bigr\|_{L^p(d\mu_J^{pair})}^2
+      \le
+      \bigl(C_{p,\tau}^{tol}\bigr)^2.
+      \]
+
+      So the scalar side is paid once the support-localized \(L^p\) tolerance
+      schedule is paid.  This packet is auxiliary.  The intrinsic frozen geometric
+      content still sits in the exceptional-set measure and synchronization
+      statements above.
+
+      Together with the preceding section, this separates the frozen linearization
+      bill into two prices a reader can audit.  The scalar price is the size of the
+      tolerance schedule.  The geometric price is the size and support of the
+      exceptional set.  The synchronization theorem is the bridge that lets the two
+      prices be compared on the same frozen slice.
+
+      This packet pays only the scalar bookkeeping.  It is useful because it prevents
+      the paper from blending the tolerance choice with the geometric exceptional-set
+      claim.  The reader should see the tolerance estimate here, then look back to
+      the exceptional-set section for the geometric payment.
+
+      If a later branch allows global scalar smallness without bad-set support, this
+      packet can be weakened to direct global \(L^p(d\mu_J^{pair})\) smallness of
+      \(\vartheta_{J,\tau}^{lin}\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: H.1 Carrier-Leakage Direct Completion
+    line_start: 9361
+    line_end: 9392
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9361
+    start_anchor: "\\subsection{H.1 Carrier-Leakage Direct Completion}\n"
+    end_anchor: "\\subsection{H2: Standalone Half-Derivative Bound}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{H.1 Carrier-Leakage Direct Completion}
+
+      This is a carrier-side support result for the projected \(NC\)-flow route.  It
+      closes the \(H.1\) commutator-leakage estimate used in the \(D.2\) bilinear
+      hinge:
+
+      \[
+      \|[\Delta_D,Q_i]\mathbb P_DN_D(X)e_\beta\|
+      +
+      \|Q_i\mathbb P_D[\Delta_D,N_D(X)]e_\beta\|
+      \le
+      \varepsilon\bigl(\|\Delta_DX\|+\|\Delta_D^{1/2}\Omega_D(X)\|\bigr)
+      +C_{\varepsilon,i,\beta}\mathcal E_D(X)^{1/2}.
+      \]
+
+      The proof expands the localization commutator with the connection Laplacian,
+      expands \([\Delta_D,N_D(X)]e_\beta\), and absorbs lower-order graph-norm terms.
+      This pays a linear carrier leakage hinge.  It does not discharge the Euclidean
+      gradient lifted remainder or the HFG low-mode residual by itself.
+
+      The proof role is narrow and important.  When a localized carrier projection is
+      commuted past the connection Laplacian and the projected nonlinear operator,
+      the error has to stay below the graph norm already being controlled.  The
+      displayed estimate gives exactly that: an \(\varepsilon\)-small piece of the
+      principal graph norm plus a lower-order energy contribution.
+
+      This is why the result belongs in the carrier support chain.  It makes the
+      projected \(NC\)-flow route stable under one commutator leakage step.  The
+      Euclidean gradient lifted remainder, the low-mode HFG residual, and the final
+      classical continuation argument still require their own payments.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Heat-Governed Carrier Synthesis For Tower And Shadow Route
+    line_start: 9449
+    line_end: 9526
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9449
+    start_anchor: "\\subsection{Heat-Governed Carrier Synthesis For Tower And Shadow
+      Route}\n"
+    end_anchor: "\\subsection{Hfg Alt All Scale Transfer Loss No Free Gap}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Heat-Governed Carrier Synthesis For Tower And Shadow Route}
+
+      This is an auxiliary carrier synthesis note.  It does not add a temperature
+      equation to the classical incompressible Navier--Stokes system.  The claim is
+      that the derived carrier evolution is heat-law type, and the visible variables
+      \((u,p)\) are readouts after projection into the commutative incompressible
+      sector.
+
+      \[
+      (u,p),
+      \qquad
+      \Phi,
+      \qquad
+      F:=\nabla_a\Phi,
+      \qquad
+      \nabla\cdot u=0,
+      \qquad
+      \nu.
+      \]
+
+      Any carrier object is auxiliary and derived from this same MPP source object.
+      The note belongs on the survivor/supplier side of the route.  It is not the
+      CM endpoint-exclusion argument and it is not the Euclidean gradient closure.
+
+      The reader should treat the tower as a derivative bookkeeping device for the
+      same Navier--Stokes equation.  Differentiating the equation creates a heat-loss
+      term, a pressure correction, and lower-order nonlinear routing terms.  The
+      equation remains the classical incompressible system; \(\Phi\), \(F\), and the
+      carrier variables are derived coordinates for reading the same solution.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p,
+      \]
+
+      \[
+      \partial_t J_{m,\alpha}
+      +
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma \binom{\alpha}{\beta}
+      \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+      +
+      \nabla \Pi_{m,\alpha}
+      =
+      \nu\Delta J_{m,\alpha}.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|J_{m,\alpha}\|_{L^2}^2
+      +
+      \nu\|\nabla J_{m,\alpha}\|_{L^2}^2
+      =
+      -\!\!\!\sum_{\substack{0\le a\le m,\ \beta\le\alpha\\(a,\beta)\neq(0,0)}}
+      \binom ma\binom{\alpha}{\beta}\,
+      I_{a,\beta}^{m,\alpha},
+      \]
+
+      \[
+      \nu\Delta J_{m,\alpha}
+      \]
+
+      is the unambiguous heat-loss channel in the raw derivative tower.
+
+      The pressure family is the anti-compression correction that keeps the visible
+      readout in the incompressible sector.  The mixed terms are the routing law that
+      redistributes the same source object across derivative levels.
+
+      For this appendix, the useful boundary is simple: t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: HFG Continuation, All-Scale, And Carrier Export Result
+    line_start: 9567
+    line_end: 9632
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9567
+    start_anchor: "\\subsection{HFG Continuation, All-Scale, And Carrier Export Result}\n"
+    end_anchor: "\\subsection{HFG Production Replay Blocked By Square-Source}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{HFG Continuation, All-Scale, And Carrier Export Result}
+
+      HFG is a sufficient continuation packet in the present route.  Once it is
+      available, the vorticity criterion below prevents breakdown on the retained
+      classical surface.  The appendix has not proved HFG from original data.
+
+      \[
+      \omega:=\nabla\times u.
+      \]
+
+      Assume the HFG summability displayed below is available on the same classical
+      surface.  Bernstein's inequality then places the vorticity in the critical
+      Besov class used by the standard continuation criterion.  Under that hypothesis
+      the retained classical solution cannot break down at time \(T\) through this
+      surface.
+
+      \[
+      \|\Delta_j\omega(t)\|_{L^\infty_x}
+      \le
+      C\,2^{3j/2}\|\Delta_j\omega(t)\|_{L^2_x}.
+      \]
+
+      Thus
+
+      \[
+      \sum_j2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty
+      \Longrightarrow
+      \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty,
+      \]
+
+      and the standard critical vorticity continuation criterion applies.
+
+      The open direction is producing HFG from the original data.  A pure spectral-gap
+      kernel does not produce it, because the low-high channel still contains
+
+      \[
+      A_{j-1}(t):=\|\nabla S_{j-1}u(t)\|_{L^\infty_x},
+      \]
+
+      \[
+      A_{j-1}(t)\|\Delta_j\omega(t)\|_2^2.
+      \]
+
+      The safe route logic is
+
+      \[
+      \text{diagonal/amplitude control}
+      \Longrightarrow
+      HFG
+      \Longrightarrow
+      \text{classical continuation}.
+      \]
+
+      Carrier export can attack the diagonal/amplitude control, but it still has to
+      land on the same classical dyadic surface and handle the residual
+      low-threshold summation.  The downstream export \((HFG.1)\) is proved above,
+      and unconditional HFG remains upstream.
+
+      The endpoint is the implication from HFG to classical continuation.  HFG gives
+      the critical vorticity integrability needed by the continuation criterion, so a
+      solution with HFG on the retained dyadic surface continues through \(T\).  The
+      unresolved upstream problem is the production of HFG from active low-mode
+      strain control, a mixed enstrophy-gradient replacement, direct LPAS, or an
+      equivalent same-surface reserve
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Final Global Selector Plateau Theorem}
+
+    The global selector theorem supplies one \(v_{coh}\)-independent plateau weight
+    for every active collar support at shell \(j\). The input is carrier-localized
+    active readout,
+    \[
+    \operatorname{supp}(\widetilde Q_iP_{\le j}v_{coh})
+    \subseteq
+    \Gamma_j(t),
+    \]
+    together with a proper persistent carrier collar,
+    \[
+    \Gamma_j(t)^{+M}
+    \subsetneq \mathbb R^3.
+    \]
+    Define
+    \[
+    \mathcal K_j(t):=\Gamma_j(t)^{+M},
+    \qquad
+    \mathcal P_j(t):=\mathcal K_j(t)^{+L2^{-j}},
+    \]
+    where \(L\) dominates the fixed collar constants. Choose \(w_j\) by the
+    regularized-distance construction so that
+    \[
+    w_j=1\text{ on }\mathcal P_j(t),
+    \qquad
+    \operatorname{supp}w_j\subseteq \mathcal K_j(t)^{+2L2^{-j}}.
+    \]
+
+    For the active collar support
+    \[
+    K_{i,j}(t):=
+    \operatorname{supp}(\widetilde Q_iP_{\le j}v_{coh})^{+M},
+    \]
+    the inclusions are
+    \[
+    K_{i,j}(t)
+    \subseteq\mathcal P_j(t),
+    \qquad
+    w_j=1\text{ on }K_{i,j}(t).
+    \]
+    This closes the weighted-branch selector requirement from one construction. If
+    the proper collar input fails, the algebraic full-space plateau \(w_j\equiv1\)
+    is still available, but geometric localization is then absent.
+
+    This is the point of the construction.  Every active collar term is measured
+    against the same plateau, so the proof is not secretly changing localizers from
+    one term to the next.  The selector branch can then charge collar errors to one
+    geometric object, namely \(\Gamma_j(t)^{+M}\) and its fixed dyadic
+    fattening.
+
+    The result pays the plateau part of the selector localization bill.  Its input
+    is still a proper persistent collar.  When only the algebraic full-space choice
+    \(w_j\equiv1\) is available, the multiplier identity survives, while the
+    localized Pack-side support information has not been supplied.  In the paper
+    this theorem should be read as a support theorem for the carrier route, not as a
+    standalone continuation theorem.
+
+
+
+    \subsection{Finite-Frame Linearization On Selector-Good Strips}
+
+    This note replaces the full selector-good pair-average linearization burden by
+    a finite-frame theorem on the exact-potential branch. On a selector-good strip,
+    choose a balanced entrance frame
+    \[
+    \sum_{\ell=1}^m
+    w_\ell\,\omega_{J,0}^\ell(a)\otimes\omega_{J,0}^\ell(a)
+    =
+    \Pi_{N_a},
+    \qquad
+    w_\ell>0,
+    \qquad
+    \omega_{J,0}^\ell(a)\in S(N_a).
+    \]
+    Define the entrance points and transported pair vectors by
+    \[
+    x_{\pm}^\ell(a,t_0):=
+    a\pm h_J\,\omega_{J,0}^\ell(a),
+    \]
+    \[
+    z_J^\ell(t,a):=
+    \frac{X_t(x_+^\ell(a,t_0))-X_t(x_-^\ell(a,t_0))}{2h_J}.
+    \]
+    The finite-frame linearization hypothesis is
+    \[
+    \max_{1\le\ell\le m}
+    \bigl|
+    z_J^\ell(t,a)-W_J^{coc}(t,a)\omega_{J,0}^\ell(a)
+    \bigr|
+    \le
+    \varepsilon_{J,\mathrm{lin}}^{frame}(t,a),
+    \qquad
+    \varepsilon_{J,\mathrm{lin}}^{frame}\to0.
+    \]
+    Under this hypothesis, the finite-frame tensor
+    \[
+    \mathcal K_J^{frame}(t,a):=
+    \sum_{\ell=1}^m w_\ell z_J^\ell(t,a)\otimes z_J^\ell(t,a)
+    \]
+    converges to
+    \[
+    W_J^{coc}(t,a)\Pi_{N_a}(W_J^{coc}(t,a))^\ast
+    \]
+    with an operator-norm error controlled by the displayed linearization error.
+    Thus the balanced-frame packet plus finite-frame linearization closes the
+    tensor-level content of \(PTC\text{-}Lin+PTC\text{-}Shape\). The exact-potential
+    route still carries the comparison packet, the Cauchy--Green gap, and downstream
+    assembly before it reaches the \(D.7mq\) branch.
+
+    For the reader, the reduction is this: the route no longer has to average over
+    an uncontrolled continuum of pair directions.  It may use a finite set of
+    entrance directions whose weighted second moments already give the normal-plane
+    projector.  The only analytic price is the displayed error
+    \(\varepsilon_{J,\mathrm{lin}}^{frame}\), which must go to zero on the same
+    selector-good strip.
+
+    The mathematical object supplied here is the finite tensor
+    \(\mathcal K_J^{frame}\).  Once this tensor is reconstructed from finitely many
+    transported pair directions, it can be compared with the surrounding carrier.
+    The comparison packet, the Cauchy--Green gap, and the final assembly into the
+    later \(D.7mq\) branch remain separate proof steps.
+
+
+
+    \subsection{Four-Body Survivor to Selector Readout Dictionary}
+
+    This subsection is a dictionary, not a new proof program. Its job is to prevent
+    the reader from thinking that \(PSJ+\), \(PD.70\), or \(SG.4\) replaced the old
+    four-body survivor. They are newer readouts of the same survivor.
+
+    The proof role is source fidelity.  The manuscript has several selector-side
+    names for the dangerous packet.  This dictionary says how to read them without
+    changing the underlying field.  The survivor is the compactness-limit object on
+    the exact solution \(u\); the selector quantities are measurements of that
+    object after the later readout choices have been made.
+
+    The compactness/extraction body says that the dangerous packet survives the
+    limit passage on the same exact field:
+    \[
+    u^{(n)}\to u,
+    \qquad
+    \mathcal E_{\mathrm{live}}^{(n)}\to \mathcal E_{\mathrm{live}}[u].
+    \]
+
+    The selector-side readout then uses the one-sided deficit
+    \[
+    \eta_J(a,b,t)
+    :=
+    \big[\lambda_J(t)-\mathfrak s_J(a,b,t)\big]_+.
+    \]
+
+    \[
+    \mathfrak E_{J,2}^{SG}(I)\le \mathfrak F_J^{def}(I),
+    \]
+
+    \[
+    \boxed{
+    \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
+    \le C_{\mathrm{sf},7826}
+    \mathcal E_J^{obs}(I).
+    }
+    \]
+
+    \[
+    \boxed{
+    \mathcal E_J^{dir}(I)\le C_{\mathrm{sf},7833} \mathcal E_J^{obs}(I).
+    }
+    \]
+
+    The signless pair packet \(W_J\) is the installed observable carrier for this
+    selector-side chain; it is not the survivor itself. This is why \(PSJ+\) can come
+    from the original four-body solution without being a route reset. The boundary
+    remains important: this dictionary does not prove quantitative contraction of
+    the survivor, and it does not prove that \(W_J\) alone determines the projector
+    field. The no-go statement in the projective packet remains in force.
+
+    So this subsection pays a naming and readout problem, not a contraction problem.
+    After it is used, the reader is allowed to follow the same bad packet through
+    the four-body, projective, and selector notations.  The reader is still owed the
+    actual estimate that makes the packet shrink, exit the CM class, or feed a
+    later closure argument.
+
+
+
+    \subsection{Frozen Exceptional-Set Measure Localization}
+
+    The geometric half of the frozen linearization bill is localization and
+    \(L^{p/2}\) control of the thresholded differentiability exceptional-set
+    measure on the standard selector-scale branch.  With the frozen
+    threshold schedule \(\vartheta_{J,\tau}^{lin}(a)\), define
+
+    \[
+    \mu_{J,\tau}^{diff}(a)
+    :=
+    \mu_{J,\varepsilon}^{pair}
+    \bigl(E_{J,\varepsilon,\vartheta_{J,\tau}^{lin}(a)}^{diff}(\tau,a)\bigr).
+    \]
+
+    \[
+    \Theta_{J,\tau}^{diff}(a)
+    \le
+    \bigl(R_{J,\tau}^{frz}(a)\bigr)^2\,\mu_{J,\tau}^{diff}(a).
+    \]
+
+    \[
+    \sup_{a\in\pi_a(\mathcal G_J)}R_{J,\tau}^{frz}(a)
+    \le
+    R_{J,\tau}^{frz,\ast}<\infty,
+    \]
+
+    \[
+    \operatorname{supp}\bigl(\mu_{J,\tau}^{diff}\bigr)
+    \subseteq
+    B_J^{diff,meas,\tau},
+    \qquad
+    \mu_J^{pair}(B_J^{diff,meas,\tau})=o_J(1),
+    \]
+
+    \[
+    \bigl\|\mu_{J,\tau}^{diff}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+    \le
+    C_{p/2,\tau}^{diff,meas}.
+    \]
+
+    Then the weighted geometric price satisfies
+
+    \[
+    \bigl\|\Theta_{J,\tau}^{diff}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+    \le
+    \bigl(R_{J,\tau}^{frz,\ast}\bigr)^2
+    C_{p/2,\tau}^{diff,meas}.
+    \]
+
+    This is a proof under the stated frozen-measure localization inputs.  Its
+    meaning for the paper is precise: the geometric part of the frozen
+    linearization price is a frozen-time exceptional-set localization theorem.
+    The note does not supply the underlying \(\mu_{J,\tau}^{diff}\) localization
+    from original data.
+
+    The calculation is deliberately small.  The exceptional set is first measured
+    by \(\mu_{J,\tau}^{diff}\).  The radius bound
+    \(R_{J,\tau}^{frz,\ast}\) then converts that measure into the geometric price
+    \(\Theta_{J,\tau}^{diff}\).  The \(L^{p/2}\) estimate follows because the
+    radius has been made uniform on the frozen slice.
+
+    This pays the geometric half only after the exceptional-set measure has already
+    been localized.  In the manuscript route, it should be cited as a frozen-time
+    price conversion.  The upstream production of the localized exceptional-set
+    measure remains a named theorem debt.
+
+
+
+    \subsection{Frozen Tolerance Localization Packet}
+
+    The scalar half of the frozen linearization bill packages the chosen frozen
+    tolerance schedule into a localized \(L^p\) packet.  The geometric
+    exceptional-set content stays in the preceding localization theorem.
+
+    \[
+    \vartheta_{J,\tau}^{lin}(a)\ge 0
+    \qquad
+    \text{on }\pi_a(\mathcal G_J).
+    \]
+
+    \[
+    \Xi_{J,\tau}^{tol}(a)
+    :=
+    \bigl(\vartheta_{J,\tau}^{lin}(a)\bigr)^2.
+    \]
+
+    \[
+    \operatorname{supp}\bigl(\vartheta_{J,\tau}^{lin}\bigr)
+    \subseteq
+    B_J^{tol,\tau},
+    \qquad
+    \mu_J^{pair}(B_J^{tol,\tau})=o_J(1),
+    \]
+
+    \[
+    \bigl\|\vartheta_{J,\tau}^{lin}\bigr\|_{L^p(d\mu_J^{pair})}
+    \le
+    C_{p,\tau}^{tol}.
+    \]
+
+    \[
+    \bigl\|\Xi_{J,\tau}^{tol}\bigr\|_{L^{p/2}(d\mu_J^{pair})}
+    =
+    \bigl\|\vartheta_{J,\tau}^{lin}\bigr\|_{L^p(d\mu_J^{pair})}^2
+    \le
+    \bigl(C_{p,\tau}^{tol}\bigr)^2.
+    \]
+
+    So the scalar side is paid once the support-localized \(L^p\) tolerance
+    schedule is paid.  This packet is auxiliary.  The intrinsic frozen geometric
+    content still sits in the exceptional-set measure and synchronization
+    statements above.
+
+    Together with the preceding section, this separates the frozen linearization
+    bill into two prices a reader can audit.  The scalar price is the size of the
+    tolerance schedule.  The geometric price is the size and support of the
+    exceptional set.  The synchronization theorem is the bridge that lets the two
+    prices be compared on the same frozen slice.
+
+    This packet pays only the scalar bookkeeping.  It is useful because it prevents
+    the paper from blending the tolerance choice with the geometric exceptional-set
+    claim.  The reader should see the tolerance estimate here, then look back to
+    the exceptional-set section for the geometric payment.
+
+    If a later branch allows global scalar smallness without bad-set support, this
+    packet can be weakened to direct global \(L^p(d\mu_J^{pair})\) smallness of
+    \(\vartheta_{J,\tau}^{lin}\).
+
+
+
+    \subsection{H.1 Carrier-Leakage Direct Completion}
+
+    This is a carrier-side support result for the projected \(NC\)-flow route.  It
+    closes the \(H.1\) commutator-leakage estimate used in the \(D.2\) bilinear
+    hinge:
+
+    \[
+    \|[\Delta_D,Q_i]\mathbb P_DN_D(X)e_\beta\|
+    +
+    \|Q_i\mathbb P_D[\Delta_D,N_D(X)]e_\beta\|
+    \le
+    \varepsilon\bigl(\|\Delta_DX\|+\|\Delta_D^{1/2}\Omega_D(X)\|\bigr)
+    +C_{\varepsilon,i,\beta}\mathcal E_D(X)^{1/2}.
+    \]
+
+    The proof expands the localization commutator with the connection Laplacian,
+    expands \([\Delta_D,N_D(X)]e_\beta\), and absorbs lower-order graph-norm terms.
+    This pays a linear carrier leakage hinge.  It does not discharge the Euclidean
+    gradient lifted remainder or the HFG low-mode residual by itself.
+
+    The proof role is narrow and important.  When a localized carrier projection is
+    commuted past the connection Laplacian and the projected nonlinear operator,
+    the error has to stay below the graph norm already being controlled.  The
+    displayed estimate gives exactly that: an \(\varepsilon\)-small piece of the
+    principal graph norm plus a lower-order energy contribution.
+
+    This is why the result belongs in the carrier support chain.  It makes the
+    projected \(NC\)-flow route stable under one commutator leakage step.  The
+    Euclidean gradient lifted remainder, the low-mode HFG residual, and the final
+    classical continuation argument still require their own payments.
+
+
+
+    \subsection{Heat-Governed Carrier Synthesis For Tower And Shadow Route}
+
+    This is an auxiliary carrier synthesis note.  It does not add a temperature
+    equation to the classical incompressible Navier--Stokes system.  The claim is
+    that the derived carrier evolution is heat-law type, and the visible variables
+    \((u,p)\) are readouts after projection into the commutative incompressible
+    sector.
+
+    \[
+    (u,p),
+    \qquad
+    \Phi,
+    \qquad
+    F:=\nabla_a\Phi,
+    \qquad
+    \nabla\cdot u=0,
+    \qquad
+    \nu.
+    \]
+
+    Any carrier object is auxiliary and derived from this same MPP source object.
+    The note belongs on the survivor/supplier side of the route.  It is not the
+    CM endpoint-exclusion argument and it is not the Euclidean gradient closure.
+
+    The reader should treat the tower as a derivative bookkeeping device for the
+    same Navier--Stokes equation.  Differentiating the equation creates a heat-loss
+    term, a pressure correction, and lower-order nonlinear routing terms.  The
+    equation remains the classical incompressible system; \(\Phi\), \(F\), and the
+    carrier variables are derived coordinates for reading the same solution.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p,
+    \]
+
+    \[
+    \partial_t J_{m,\alpha}
+    +
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma \binom{\alpha}{\beta}
+    \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+    +
+    \nabla \Pi_{m,\alpha}
+    =
+    \nu\Delta J_{m,\alpha}.
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|J_{m,\alpha}\|_{L^2}^2
+    +
+    \nu\|\nabla J_{m,\alpha}\|_{L^2}^2
+    =
+    -\!\!\!\sum_{\substack{0\le a\le m,\ \beta\le\alpha\\(a,\beta)\neq(0,0)}}
+    \binom ma\binom{\alpha}{\beta}\,
+    I_{a,\beta}^{m,\alpha},
+    \]
+
+    \[
+    \nu\Delta J_{m,\alpha}
+    \]
+
+    is the unambiguous heat-loss channel in the raw derivative tower.
+
+    The pressure family is the anti-compression correction that keeps the visible
+    readout in the incompressible sector.  The mixed terms are the routing law that
+    redistributes the same source object across derivative levels.
+
+    For this appendix, the useful boundary is simple: this carrier synthesis may
+    feed later export theorems, but it does not by itself solve the lifted
+    remainder, low-mode strain, or HFG residual.
+
+    What it contributes is a lawful supplier surface.  Later arguments may ask this
+    surface for derivative-level heat loss or for pressure-compatible routing
+    identities.  A closure claim must still show how those identities land back on
+    the retained classical surface and pay the named remainder terms.
+
+
+
+    \subsection{HFG Continuation, All-Scale, And Carrier Export Result}
+
+    HFG is a sufficient continuation packet in the present route.  Once it is
+    available, the vorticity criterion below prevents breakdown on the retained
+    classical surface.  The appendix has not proved HFG from original data.
+
+    \[
+    \omega:=\nabla\times u.
+    \]
+
+    Assume the HFG summability displayed below is available on the same classical
+    surface.  Bernstein's inequality then places the vorticity in the critical
+    Besov class used by the standard continuation criterion.  Under that hypothesis
+    the retained classical solution cannot break down at time \(T\) through this
+    surface.
+
+    \[
+    \|\Delta_j\omega(t)\|_{L^\infty_x}
+    \le
+    C\,2^{3j/2}\|\Delta_j\omega(t)\|_{L^2_x}.
+    \]
+
+    Thus
+
+    \[
+    \sum_j2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty
+    \Longrightarrow
+    \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty,
+    \]
+
+    and the standard critical vorticity continuation criterion applies.
+
+    The open direction is producing HFG from the original data.  A pure spectral-gap
+    kernel does not produce it, because the low-high channel still contains
+
+    \[
+    A_{j-1}(t):=\|\nabla S_{j-1}u(t)\|_{L^\infty_x},
+    \]
+
+    \[
+    A_{j-1}(t)\|\Delta_j\omega(t)\|_2^2.
+    \]
+
+    The safe route logic is
+
+    \[
+    \text{diagonal/amplitude control}
+    \Longrightarrow
+    HFG
+    \Longrightarrow
+    \text{classical continuation}.
+    \]
+
+    Carrier export can attack the diagonal/amplitude control, but it still has to
+    land on the same classical dyadic surface and handle the residual
+    low-threshold summation.  The downstream export \((HFG.1)\) is proved above,
+    and unconditional HFG remains upstream.
+
+    The endpoint is the implication from HFG to classical continuation.  HFG gives
+    the critical vorticity integrability needed by the continuation criterion, so a
+    solution with HFG on the retained dyadic surface continues through \(T\).  The
+    unresolved upstream problem is the production of HFG from active low-mode
+    strain control, a mixed enstrophy-gradient replacement, direct LPAS, or an
+    equivalent same-surface reserve.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Final Global Selector Plateau Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7377
+  line_start: 7377
+  line_end: 7435
+  start_anchor: "\\subsection{Final Global Selector Plateau Theorem}\n"
+  end_anchor: "\\subsection{Finite Entrance-Sector Sign Refinement}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Final Global Selector Plateau
+    Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7377
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Finite-Frame Linearization On Selector-Good Strips
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7466
+  line_start: 7466
+  line_end: 7529
+  start_anchor: "\\subsection{Finite-Frame Linearization On Selector-Good Strips}\n"
+  end_anchor: "\\subsection{Finite Low-Shell Amplitude Residual Control Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Finite-Frame Linearization On
+    Selector-Good Strips as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7466
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Four-Body Survivor to Selector Readout Dictionary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7915
+  line_start: 7915
+  line_end: 7973
+  start_anchor: "\\subsection{Four-Body Survivor to Selector Readout Dictionary}\n"
+  end_anchor: "\\subsection{Fourth Bridge Source-Fidelity Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Four-Body Survivor to Selector
+    Readout Dictionary as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7915
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Frozen Exceptional-Set Measure Localization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8229
+  line_start: 8229
+  line_end: 8295
+  start_anchor: "\\subsection{Frozen Exceptional-Set Measure Localization}\n"
+  end_anchor: "\\subsection{Frozen Threshold-Vs-Linearization Synchronization}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Frozen Exceptional-Set Measure
+    Localization as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8229
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Frozen Tolerance Localization Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8344
+  line_start: 8344
+  line_end: 8404
+  start_anchor: "\\subsection{Frozen Tolerance Localization Packet}\n"
+  end_anchor: "\\subsection{Frozen Transported Localized Projector Packet Eliminates
+    Coefficient Drift}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Frozen Tolerance Localization
+    Packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8344
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: H.1 Carrier-Leakage Direct Completion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9361
+  line_start: 9361
+  line_end: 9392
+  start_anchor: "\\subsection{H.1 Carrier-Leakage Direct Completion}\n"
+  end_anchor: "\\subsection{H2: Standalone Half-Derivative Bound}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite H.1 Carrier-Leakage Direct Completion
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9361
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Heat-Governed Carrier Synthesis For Tower And Shadow Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9449
+  line_start: 9449
+  line_end: 9526
+  start_anchor: "\\subsection{Heat-Governed Carrier Synthesis For Tower And Shadow
+    Route}\n"
+  end_anchor: "\\subsection{Hfg Alt All Scale Transfer Loss No Free Gap}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Heat-Governed Carrier Synthesis
+    For Tower And Shadow Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9449
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: HFG Continuation, All-Scale, And Carrier Export Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9567
+  line_start: 9567
+  line_end: 9632
+  start_anchor: "\\subsection{HFG Continuation, All-Scale, And Carrier Export Result}\n"
+  end_anchor: "\\subsection{HFG Production Replay Blocked By Square-Source}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite HFG Continuation, All-Scale,
+    And Carrier Export Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9567
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-03
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-03.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

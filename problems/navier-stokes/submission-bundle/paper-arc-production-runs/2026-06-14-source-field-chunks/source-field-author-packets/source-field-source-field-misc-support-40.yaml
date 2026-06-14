@@ -1,0 +1,744 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-40
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-40
+  sequence: 192
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 40
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 25359
+  line_end: 25633
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25359
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25398
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25524
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25579
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25588
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25599
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25610
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25617
+  subsection_titles:
+  - Scfbase Modulus Component Decomposition
+  - SCFBase Modulus Failure To Epsilon Defect
+  - Selected Source Dissipation Tether.A direct attempt
+  - Separated lower accumulation for nu SCF - obstruction
+  - Separated recurrence after active-window gain reduction
+  - Separated recurrence after E u conditional route
+  - Separated recurrence after original-data E u obstruction
+  - Separated recurrence for final charge - obstruction
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scfbase Modulus Component Decomposition
+    line_start: 25359
+    line_end: 25397
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25359
+    start_anchor: "\\subsection{Scfbase Modulus Component Decomposition}\n"
+    end_anchor: "\\subsection{SCFBase Modulus Failure To Epsilon Defect}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Scfbase Modulus Component Decomposition}
+
+      Direct discharge failed; exact blocking component isolated. Conditional BKM route recorded.
+
+      \[
+      E_u(Q_r^\Phi)
+      \]
+
+      \[
+      D_u(Q_r^\Phi)
+      \]
+
+      \[
+      P(Q_r^\Phi)
+      \]
+
+      \[
+      G_\Phi(Q_r^\Phi)
+      \]
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+      \]
+
+      Thus moving same-fluid cylinders are uniformly comparable to CKN cylinders. The geometric component G has the required comparability. This component is controlled.
+
+      This controls the global energy size. It gives compact-time continuity of E u on [t 0,T 0] for every T 0<T *. It does not give a terminal label-time-scale modulus for E u as t T * and r 0 uniformly over active labels.
+
+      A moving packet can carry the scale-critical velocity energy through fresh labels and shrinking scales while preserving the global energy record.
+
+      This gives spacetime integrability. It does not give a pointwise-in-time, label-scale modulus for
+
+      The same moving-packet obstruction applies: gradient concentration can move through labels and scales while preserving the global L 2 t,x record.
+
+      Thus the pressure oscillation modulus is blocked by the same missing analytic regularity as the velocity tower.
+
+      If Tower Bound.Upstream is supplied, then the already installed typing upgrade gives
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: SCFBase Modulus Failure To Epsilon Defect
+    line_start: 25398
+    line_end: 25434
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25398
+    start_anchor: "\\subsection{SCFBase Modulus Failure To Epsilon Defect}\n"
+    end_anchor: "\\subsection{Scfbase Modulus Original Pack Test}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{SCFBase Modulus Failure To Epsilon Defect}
+
+      Here SCF base is the nonnegative scale-critical packet on pack-stabilized same-fluid cylinders.
+
+      Failure of a label-time-scale modulus can occur by subcritical oscillation. For example, values may oscillate across labels, times, and scales while remaining strictly below the CKN threshold m.
+
+      Such a failure gives no epsilon-level defect. so the bare implication is too strong.
+
+      \[
+      Q_{r_n}^{\Phi}(a_n,t_n),
+      \qquad
+       t_n\uparrow T_* ,
+      \]
+
+      By Pack.TTU, the same-fluid geometry is compactly comparable. Passing to a subsequence gives
+
+      \[
+      (a_n,t_n,r_n)\to(a_*,T_*,r_*),
+      \qquad
+      r_*\in[0,r_0].
+      \]
+
+      If r *=0, this is a terminal blow-up density. If r *>0, this is a positive-scale terminal SCF defect.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      \[
+      tower\text{-}blown.
+      \]
+
+      Thus threshold concentration supplies the defect object needed for the endpoint routes, while full Jump avg typing still requires the stronger bad-at-all-scales condition.
+
+      The next step is endpoint-face exclusion. The defect has already been typed into Jump avg under the bad-at-all-scales strengthening, and into tower-blown under tower/readout compatibility.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selected Source Dissipation Tether.A direct attempt
+    line_start: 25524
+    line_end: 25561
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25524
+    start_anchor: "\\subsection{Selected Source Dissipation Tether.A direct attempt}\n"
+    end_anchor: "\\subsection{Selected Window Negative Part Comparison.Sign Geometry
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Selected Source Dissipation Tether.A direct attempt}
+
+      Failed direct proof. The attempt gives a sharper obstruction: tethering the selected source to CKN dissipation is not enough unless the CKN dissipation measure itself has a terminal-strip modulus on the selected B ASAC windows.
+
+      \[
+      \mu_m^{src,+}\ll \mathcal D_m^{CKN}
+      \]
+
+      \[
+      \mu_m^{src,+}(B_R\times[-\varepsilon,0])
+      \le \omega_R(\varepsilon)+o_m(1),
+      \qquad \omega_R(\varepsilon)\downarrow0.
+      \]
+
+      \[
+      [\langle S_{<j}^{loc}w_j,w_j\rangle]_+.
+      \]
+
+      \[
+      \mathcal D^{CKN}=\nu |\nabla u|^2\,dxdt.
+      \]
+
+      \[
+      [\langle S_{<j}^{loc}w_j,w_j\rangle]_+
+      \le |S_{<j}^{loc}| |w_j|^2.
+      \]
+
+      The second term is the -source / active-reserve carrier. Controlling it is route-equivalent to Local Positive Source Carleson.A, Scale Critical Tree Carleson.A, or Positive Remainder Depletion.A.
+
+      Thus the pointwise tether does not close without importing the existing source-reserve wall.
+
+      The second statement is a no-terminal-dissipation-atom property for the rescaled selected sequence. It is stronger than finite total dissipation. Bounded L 1 families of densities can converge to time atoms.
+
+      Energy-measure concentration theory can rule out some terminal concentration under extra L q tL p x, Type-I, or density hypotheses. The current B ASAC production does not yield those hypotheses. so this route also requires a new production theorem.
+
+      The first input fails by a -source remainder unless an active reserve is added. The second input is not supplied by finite energy/dissipation alone. Hence the route remains open at a sharper pair of analytic atoms.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Separated lower accumulation for nu SCF - obstruction
+    line_start: 25579
+    line_end: 25587
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25579
+    start_anchor: "\\subsection{Separated lower accumulation for nu SCF - obstruction}\n"
+    end_anchor: "\\subsection{Separated recurrence after active-window gain reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Separated lower accumulation for nu SCF - obstruction}
+
+      The missing prior step is component selection. The threshold SCF sequence may still be carried by the velocity-energy component E u, while the selected charge nu SCF carries dissipation and local pressure. Thus the route has no theorem producing even one positive terminal nu SCF defect from the extracted SCF threshold sequence.
+
+      A second obstruction appears after component selection. A finite terminal defect alone gives a positive charge at a limit object or a nested packet. To contradict the finite upper bound, the proof needs a separated or bounded-overlap schedule with repeated positive lower charge. Nested repeats do not qualify for the same bounded-overlap upper estimate.
+
+      This failed attempt preserves the useful progress: the upper side is installed and Jump avg produces a threshold SCF sequence. Full branch elimination still requires the lower schedule theorem for the same charge.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Separated recurrence after active-window gain reduction
+    line_start: 25588
+    line_end: 25598
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25588
+    start_anchor: "\\subsection{Separated recurrence after active-window gain reduction}\n"
+    end_anchor: "\\subsection{Separated recurrence after E u conditional route}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Separated recurrence after active-window gain reduction}
+
+      Prove separated recurrence for the resulting final charge in the Jumpavg no-escape route.
+
+      The nu SCF charge has finite unweighted bounded-overlap upper control, but it does not select the E u component. The enlarged charge including E u would cover the component split, but its upper estimate reduces to an active-window amplitude gain or heat-scale -source theorem.
+
+      The active-window amplitude gain is not installed. so the enlarged charge lacks the scale-normalized upper summability required for contradiction.
+
+      Separated recurrence remains open. The current prerequisite is the active-window amplitude gain or an equivalent heat-scale -source estimate.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Separated recurrence after E u conditional route
+    line_start: 25599
+    line_end: 25609
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25599
+    start_anchor: "\\subsection{Separated recurrence after E u conditional route}\n"
+    end_anchor: "\\subsection{Separated recurrence after original-data E u obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Separated recurrence after E u conditional route}
+
+      Prove separated recurrence for the final charge in the Jump avg no-escape route.
+
+      The E u channel has a conditional route: BKM or equivalent high regularity gives terminal moduli and closes the escape. The live original-data route still lacks an unconditional E u conversion or additive E u carrier.
+
+      Current candidates split these requirements. nu SCF has upper summability and misses the E u component. The enlarged charge including E u has formal component coverage and lacks upper summability.
+
+      Separated recurrence remains open. It has no eligible final charge target on the original-data branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Separated recurrence after original-data E u obstruction
+    line_start: 25610
+    line_end: 25616
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25610
+    start_anchor: "\\subsection{Separated recurrence after original-data E u obstruction}\n"
+    end_anchor: "\\subsection{Separated recurrence for final charge - obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Separated recurrence after original-data E u obstruction}
+
+      Prove separated recurrence for the charge resulting from the original-data E u step.
+
+      Since no such charge is installed, there is no recurrence theorem to run. A single terminal threshold sequence or nested terminal windows do not create the separated lower schedule compatible with the upper estimate.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Separated recurrence for final charge - obstruction
+    line_start: 25617
+    line_end: 25633
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25617
+    start_anchor: "\\subsection{Separated recurrence for final charge - obstruction}\n"
+    end_anchor: "\\subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Separated recurrence for final charge - obstruction}
+
+      Prove separated recurrence for the final charge in the Jump avg no-escape route.
+
+      for infinitely many k, where the same charge C final also has a finite bounded-overlap upper estimate.
+
+      The enlarged charge closes the component-selection gap formally. It fails the upper-bound side because the current surfaces do not install an additive finite carrier for repeated scale-critical E u terminal packets.
+
+      Even if a single positive terminal defect were available, the contradiction would still require separated recurrence. A nested sequence around one terminal defect cannot be summed with the bounded-overlap upper estimate. The lower schedule must be terminal and separated enough for the upper estimate to apply.
+
+      Separated recurrence for the final charge remains open because the final charge itself remains unresolved.
+
+      for bounded-overlap terminal windows, followed by a recurrence theorem producing infinitely many such windows with uniform lower mass.
+
+      The no-escape contradiction must keep the lower estimate, the upper estimate, and the bounded-overlap schedule on the same charge and inside the same upper-bound class.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Scfbase Modulus Component Decomposition}
+
+    Direct discharge failed; exact blocking component isolated. Conditional BKM route recorded.
+
+    \[
+    E_u(Q_r^\Phi)
+    \]
+
+    \[
+    D_u(Q_r^\Phi)
+    \]
+
+    \[
+    P(Q_r^\Phi)
+    \]
+
+    \[
+    G_\Phi(Q_r^\Phi)
+    \]
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+    \]
+
+    Thus moving same-fluid cylinders are uniformly comparable to CKN cylinders. The geometric component G has the required comparability. This component is controlled.
+
+    This controls the global energy size. It gives compact-time continuity of E u on [t 0,T 0] for every T 0<T *. It does not give a terminal label-time-scale modulus for E u as t T * and r 0 uniformly over active labels.
+
+    A moving packet can carry the scale-critical velocity energy through fresh labels and shrinking scales while preserving the global energy record.
+
+    This gives spacetime integrability. It does not give a pointwise-in-time, label-scale modulus for
+
+    The same moving-packet obstruction applies: gradient concentration can move through labels and scales while preserving the global L 2 t,x record.
+
+    Thus the pressure oscillation modulus is blocked by the same missing analytic regularity as the velocity tower.
+
+    If Tower Bound.Upstream is supplied, then the already installed typing upgrade gives
+
+
+
+    \subsection{SCFBase Modulus Failure To Epsilon Defect}
+
+    Here SCF base is the nonnegative scale-critical packet on pack-stabilized same-fluid cylinders.
+
+    Failure of a label-time-scale modulus can occur by subcritical oscillation. For example, values may oscillate across labels, times, and scales while remaining strictly below the CKN threshold m.
+
+    Such a failure gives no epsilon-level defect. so the bare implication is too strong.
+
+    \[
+    Q_{r_n}^{\Phi}(a_n,t_n),
+    \qquad
+     t_n\uparrow T_* ,
+    \]
+
+    By Pack.TTU, the same-fluid geometry is compactly comparable. Passing to a subsequence gives
+
+    \[
+    (a_n,t_n,r_n)\to(a_*,T_*,r_*),
+    \qquad
+    r_*\in[0,r_0].
+    \]
+
+    If r *=0, this is a terminal blow-up density. If r *>0, this is a positive-scale terminal SCF defect.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    \[
+    tower\text{-}blown.
+    \]
+
+    Thus threshold concentration supplies the defect object needed for the endpoint routes, while full Jump avg typing still requires the stronger bad-at-all-scales condition.
+
+    The next step is endpoint-face exclusion. The defect has already been typed into Jump avg under the bad-at-all-scales strengthening, and into tower-blown under tower/readout compatibility.
+
+
+
+    \subsection{Selected Source Dissipation Tether.A direct attempt}
+
+    Failed direct proof. The attempt gives a sharper obstruction: tethering the selected source to CKN dissipation is not enough unless the CKN dissipation measure itself has a terminal-strip modulus on the selected B ASAC windows.
+
+    \[
+    \mu_m^{src,+}\ll \mathcal D_m^{CKN}
+    \]
+
+    \[
+    \mu_m^{src,+}(B_R\times[-\varepsilon,0])
+    \le \omega_R(\varepsilon)+o_m(1),
+    \qquad \omega_R(\varepsilon)\downarrow0.
+    \]
+
+    \[
+    [\langle S_{<j}^{loc}w_j,w_j\rangle]_+.
+    \]
+
+    \[
+    \mathcal D^{CKN}=\nu |\nabla u|^2\,dxdt.
+    \]
+
+    \[
+    [\langle S_{<j}^{loc}w_j,w_j\rangle]_+
+    \le |S_{<j}^{loc}| |w_j|^2.
+    \]
+
+    The second term is the -source / active-reserve carrier. Controlling it is route-equivalent to Local Positive Source Carleson.A, Scale Critical Tree Carleson.A, or Positive Remainder Depletion.A.
+
+    Thus the pointwise tether does not close without importing the existing source-reserve wall.
+
+    The second statement is a no-terminal-dissipation-atom property for the rescaled selected sequence. It is stronger than finite total dissipation. Bounded L 1 families of densities can converge to time atoms.
+
+    Energy-measure concentration theory can rule out some terminal concentration under extra L q tL p x, Type-I, or density hypotheses. The current B ASAC production does not yield those hypotheses. so this route also requires a new production theorem.
+
+    The first input fails by a -source remainder unless an active reserve is added. The second input is not supplied by finite energy/dissipation alone. Hence the route remains open at a sharper pair of analytic atoms.
+
+
+
+    \subsection{Separated lower accumulation for nu SCF - obstruction}
+
+    The missing prior step is component selection. The threshold SCF sequence may still be carried by the velocity-energy component E u, while the selected charge nu SCF carries dissipation and local pressure. Thus the route has no theorem producing even one positive terminal nu SCF defect from the extracted SCF threshold sequence.
+
+    A second obstruction appears after component selection. A finite terminal defect alone gives a positive charge at a limit object or a nested packet. To contradict the finite upper bound, the proof needs a separated or bounded-overlap schedule with repeated positive lower charge. Nested repeats do not qualify for the same bounded-overlap upper estimate.
+
+    This failed attempt preserves the useful progress: the upper side is installed and Jump avg produces a threshold SCF sequence. Full branch elimination still requires the lower schedule theorem for the same charge.
+
+
+
+    \subsection{Separated recurrence after active-window gain reduction}
+
+    Prove separated recurrence for the resulting final charge in the Jumpavg no-escape route.
+
+    The nu SCF charge has finite unweighted bounded-overlap upper control, but it does not select the E u component. The enlarged charge including E u would cover the component split, but its upper estimate reduces to an active-window amplitude gain or heat-scale -source theorem.
+
+    The active-window amplitude gain is not installed. so the enlarged charge lacks the scale-normalized upper summability required for contradiction.
+
+    Separated recurrence remains open. The current prerequisite is the active-window amplitude gain or an equivalent heat-scale -source estimate.
+
+
+
+    \subsection{Separated recurrence after E u conditional route}
+
+    Prove separated recurrence for the final charge in the Jump avg no-escape route.
+
+    The E u channel has a conditional route: BKM or equivalent high regularity gives terminal moduli and closes the escape. The live original-data route still lacks an unconditional E u conversion or additive E u carrier.
+
+    Current candidates split these requirements. nu SCF has upper summability and misses the E u component. The enlarged charge including E u has formal component coverage and lacks upper summability.
+
+    Separated recurrence remains open. It has no eligible final charge target on the original-data branch.
+
+
+
+    \subsection{Separated recurrence after original-data E u obstruction}
+
+    Prove separated recurrence for the charge resulting from the original-data E u step.
+
+    Since no such charge is installed, there is no recurrence theorem to run. A single terminal threshold sequence or nested terminal windows do not create the separated lower schedule compatible with the upper estimate.
+
+
+
+    \subsection{Separated recurrence for final charge - obstruction}
+
+    Prove separated recurrence for the final charge in the Jump avg no-escape route.
+
+    for infinitely many k, where the same charge C final also has a finite bounded-overlap upper estimate.
+
+    The enlarged charge closes the component-selection gap formally. It fails the upper-bound side because the current surfaces do not install an additive finite carrier for repeated scale-critical E u terminal packets.
+
+    Even if a single positive terminal defect were available, the contradiction would still require separated recurrence. A nested sequence around one terminal defect cannot be summed with the bounded-overlap upper estimate. The lower schedule must be terminal and separated enough for the upper estimate to apply.
+
+    Separated recurrence for the final charge remains open because the final charge itself remains unresolved.
+
+    for bounded-overlap terminal windows, followed by a recurrence theorem producing infinitely many such windows with uniform lower mass.
+
+    The no-escape contradiction must keep the lower estimate, the upper estimate, and the bounded-overlap schedule on the same charge and inside the same upper-bound class.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scfbase Modulus Component Decomposition
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25359
+  line_start: 25359
+  line_end: 25397
+  start_anchor: "\\subsection{Scfbase Modulus Component Decomposition}\n"
+  end_anchor: "\\subsection{SCFBase Modulus Failure To Epsilon Defect}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scfbase Modulus Component Decomposition
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25359
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: SCFBase Modulus Failure To Epsilon Defect
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25398
+  line_start: 25398
+  line_end: 25434
+  start_anchor: "\\subsection{SCFBase Modulus Failure To Epsilon Defect}\n"
+  end_anchor: "\\subsection{Scfbase Modulus Original Pack Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite SCFBase Modulus Failure To Epsilon
+    Defect as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25398
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selected Source Dissipation Tether.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25524
+  line_start: 25524
+  line_end: 25561
+  start_anchor: "\\subsection{Selected Source Dissipation Tether.A direct attempt}\n"
+  end_anchor: "\\subsection{Selected Window Negative Part Comparison.Sign Geometry
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selected Source Dissipation Tether.A
+    direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25524
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Separated lower accumulation for nu SCF - obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25579
+  line_start: 25579
+  line_end: 25587
+  start_anchor: "\\subsection{Separated lower accumulation for nu SCF - obstruction}\n"
+  end_anchor: "\\subsection{Separated recurrence after active-window gain reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Separated lower accumulation
+    for nu SCF - obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25579
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Separated recurrence after active-window gain reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25588
+  line_start: 25588
+  line_end: 25598
+  start_anchor: "\\subsection{Separated recurrence after active-window gain reduction}\n"
+  end_anchor: "\\subsection{Separated recurrence after E u conditional route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Separated recurrence after active-window
+    gain reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25588
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Separated recurrence after E u conditional route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25599
+  line_start: 25599
+  line_end: 25609
+  start_anchor: "\\subsection{Separated recurrence after E u conditional route}\n"
+  end_anchor: "\\subsection{Separated recurrence after original-data E u obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Separated recurrence after E
+    u conditional route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25599
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Separated recurrence after original-data E u obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25610
+  line_start: 25610
+  line_end: 25616
+  start_anchor: "\\subsection{Separated recurrence after original-data E u obstruction}\n"
+  end_anchor: "\\subsection{Separated recurrence for final charge - obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Separated recurrence after original-data
+    E u obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25610
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Separated recurrence for final charge - obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25617
+  line_start: 25617
+  line_end: 25633
+  start_anchor: "\\subsection{Separated recurrence for final charge - obstruction}\n"
+  end_anchor: "\\subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Separated recurrence for final
+    charge - obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25617
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-40
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-40.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

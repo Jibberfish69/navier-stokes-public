@@ -72,7 +72,8 @@ Davis--Kahan type estimate has the form
 \bigl\|
 \Pi_{\max}(\Sigma_J)-\Pi_{\max}(\widetilde\Sigma_J)
 \bigr\|_F
-\lesssim
+\le
+C_{DK}
 \frac{\|\Sigma_J-\widetilde\Sigma_J\|_{\mathrm{op}}}{g_J}.
 \tag{SGR.4}
 ```
@@ -120,9 +121,9 @@ Even if a gap gives a stable surrogate projector `\widehat P_J`, the route
 still needs:
 
 ```math
-\widehat P_J
-\approx
-P_{J,\top}^{seg}.
+\|\widehat P_J-P_{J,\top}^{seg}\|_F^2
+\le
+\mathrm{Err}_{J,\mathrm{id}}.
 \tag{SGR.8}
 ```
 
@@ -142,7 +143,7 @@ but
 ```math
 \text{gap}
 \not\Longrightarrow
-\widehat P_J\approx P_{J,\top}^{seg}.
+\|\widehat P_J-P_{J,\top}^{seg}\|_F^2\le \mathrm{Err}_{J,\mathrm{id}}.
 \tag{SGR.9b}
 ```
 
@@ -219,7 +220,8 @@ This is the actual wall:
 
 ```math
 \|\widehat P_J(a,b,t)-P_{J,\top}^{seg}(a,b,t)\|_F^2
-\lesssim
+\le
+C_{id}
 |W_J(a,b,t)|^2+\operatorname{Err}_J(a,b,t).
 \tag{SGR.14}
 ```
@@ -228,7 +230,8 @@ Once `(SGR.14)` holds, the angle ledger follows:
 
 ```math
 \Xi_J^{ang}(a,b,t)
-\lesssim
+\le
+C_{ang}
 |W_J(a,b,t)|^2+\operatorname{Err}_J(a,b,t).
 \tag{SGR.15}
 ```
@@ -243,7 +246,8 @@ and the residual pairwise closure can be written in the live form
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le
+C_{RPC}
 \mathcal E_J^{obs}+\operatorname{Err}_J.
 \tag{SGR.16}
 ```
@@ -358,7 +362,8 @@ projector-moment side, the formal shape is:
 \varepsilon_J,
 \qquad
 \bigl\|P_{\top}(\widetilde S_J)-P_{\top}(S_J^{seg})\bigr\|
-\lesssim
+\le
+C_{DK}
 \frac{\varepsilon_J}{g_J^{str}}.
 \tag{SGR.18e}
 ```
@@ -385,7 +390,8 @@ branch, the desired form is
 
 ```math
 1-(e_{ab}\cdot n_J)^2
-\lesssim
+\le
+C_{dir}
 |W_J|^2+\mathrm{Err}_J,
 \tag{SGR.18g}
 ```
@@ -394,7 +400,8 @@ or abstractly
 
 ```math
 \Xi_J
-\lesssim
+\le
+C_\Phi
 \Phi(W_J)+\mathrm{Err}_J.
 \tag{SGR.18h}
 ```
@@ -427,7 +434,8 @@ closure `(PD.70q)` / `(PD.70s)`:
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}.
 \tag{SGR.18l}
 ```
@@ -468,7 +476,7 @@ So the exact formal chain is
 \Longrightarrow
 \Xi_J
 \Longrightarrow
-\mathcal E_J^{dir}+\mathcal E_J^{loop}\lesssim \mathcal E_J^{obs}
+\mathcal E_J^{dir}+\mathcal E_J^{loop}\le C_{PD}\mathcal E_J^{obs}
 \Longrightarrow
 [\lambda_J-\mathfrak s_J]_+\ \text{control}
 \Longrightarrow
@@ -500,7 +508,7 @@ W_J
 \Longrightarrow
 \text{transported projective object }\Pi_J
 \Longrightarrow
-1-(e_{ab}\cdot n_J)^2\lesssim |W_J|^2+\mathrm{error}.
+1-(e_{ab}\cdot n_J)^2\le C_W|W_J|^2+\mathrm{Err}_J.
 \tag{SGR.18q}
 ```
 
@@ -550,7 +558,7 @@ Davis--Kahan gives stability only when two operators are close and a genuine
 gap is present. So the route still needs closeness
 
 ```math
-\Sigma_J \approx \text{true target object}
+\|\Sigma_J-\Sigma_J^{target}\|_{\mathrm{op}}\le \varepsilon_J^{target}
 \tag{SGR.18t}
 ```
 
@@ -654,7 +662,7 @@ read in the current-strength route form
 \Longrightarrow
 \Xi_J
 \Longrightarrow
-\mathcal E_J^{dir}+\mathcal E_J^{loop}\lesssim \mathcal E_J^{obs}
+\mathcal E_J^{dir}+\mathcal E_J^{loop}\le C_{PD}\mathcal E_J^{obs}
 \Longrightarrow
 [\lambda_J-\mathfrak s_J]_+\ \text{control}
 \Longrightarrow
@@ -703,7 +711,8 @@ with Davis--Kahan comparison
 
 ```math
 \|\widehat P_J-\Pi_J^{ref}\|_F
-\lesssim
+\le
+C_{DK}
 \frac{\|\Sigma_J-\Sigma_J^{ref}\|_{\mathrm{op}}}{g_J^{str}}.
 \tag{SGR.20h}
 ```
@@ -716,7 +725,8 @@ This is the actual wall. The route needs
 
 ```math
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{ssc}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}},
 \tag{SGR.20i}
 ```
@@ -740,7 +750,8 @@ After projector identification, the route runs through
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le
+C_{RPC}
 \mathcal E_J^{obs}+\mathrm{Err}_J,
 \tag{SGR.20k}
 ```
@@ -810,7 +821,7 @@ So on this branch the abstract discharge surfaces specialize as follows:
 ```math
 \text{SSC.B}\ \text{or}\ \text{SSC.C}
 \Longrightarrow
-\Pi_J^{ref}\approx P_{J,\top}^{seg},
+\|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2\le C_{ssc}\mathrm{Err}_{J,\mathrm{ssc}},
 \tag{SGR.20r}
 ```
 
@@ -897,7 +908,8 @@ D.7mq,
 ```math
 \text{SSC-EP.A}
 \Longrightarrow
-P_J^{CG}(t,a)\approx P_{J,\top}^{seg}(a,b,t),
+\|P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)\|_F^2
+\le C_{EP}\eta_J^{mb}(t,a,b)^2/g_0^2,
 \tag{SGR.20w}
 ```
 
@@ -924,7 +936,8 @@ E_{J,t_0}^{CG}\le g_0/4
 \eta_J^{mb}\ \text{controlled}
 \Longrightarrow
 \|P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)\|_F^2
-\lesssim
+\le
+C_{EP}
 \eta_J^{mb}(t,a,b)^2/g_0^2.
 \tag{SGR.20y}
 ```
@@ -972,7 +985,8 @@ There is now also a sharper alternate upstream route on disk:
 \Longrightarrow
 \text{finite-frame linearization}
 \Longrightarrow
-\mathcal K_J^{frame}\approx W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast.
+\|\mathcal K_J^{frame}-W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast\|_{\mathrm{op}}
+\le \mathrm{Err}_{J,\mathrm{frame}}.
 \tag{SGR.20zb}
 ```
 

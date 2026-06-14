@@ -1,0 +1,802 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-59
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-59
+  sequence: 144
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 59
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 66341
+  line_end: 66566
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66341
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66356
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66380
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66416
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66439
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66471
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66526
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66554
+  subsection_titles:
+  - Clay problem Contrapositive-Only Completion Audit
+  - Clay problem Nightly Terminal CM Witness Red-Team
+  - Clay problem No-Third-Branch Clay Closure Audit
+  - Clay problem CM Completion Claim Adversarial Audit
+  - Clay problem Positive Obstruction Pass/Exit CM Engine
+  - Clay problem Genuine CM Exit Equivalence
+  - Clay problem Completed Proof Surface Challenge
+  - Clay problem CM Pass/Exit Positive-Existence Veto
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Contrapositive-Only Completion Audit
+    line_start: 66341
+    line_end: 66355
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66341
+    start_anchor: "\\subsection{Clay problem Contrapositive-Only Completion Audit}\n"
+    end_anchor: "\\subsection{Clay problem Nightly Terminal CM Witness Red-Team}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Contrapositive-Only Completion Audit}
+
+      Write \(F\) for finite terminal non-continuation, and write \(B\) for the disjunction of Pack, Part, Field, readout, source-wall, scheduler, high-side, and Zeno failures exposed by the contrapositive surfaces.  The installed status of the contrapositive record is the routing implication
+      \[
+        F\Longrightarrow B.
+      \]
+      This says that the alleged failure must enter the named witness-face or supplier-failure grammar.  Completion of the Clay proof requires the second implication
+      \[
+        B\Longrightarrow \bot
+      \]
+      under original smooth data, or equivalently a theorem-grade exclusion of every surviving member of \(B\).
+
+      The current source surfaces pay only part of that second implication.  The terminal-consumption bridge still depends on the relevant PCTP/TTU input, the source-wall root still needs either the scale-critical tree Carleson theorem or the Zeno rigid-class pair, and the high-side row still needs its full commutator packet unless a later theorem removes it.  The current conclusion is local: the CM contrapositive routing implication is installed, and full Clay completion still requires the named supplier and exclusion payments.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Nightly Terminal CM Witness Red-Team
+    line_start: 66356
+    line_end: 66379
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66356
+    start_anchor: "\\subsection{Clay problem Nightly Terminal CM Witness Red-Team}\n"
+    end_anchor: "\\subsection{Clay problem No-Third-Branch Clay Closure Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Nightly Terminal CM Witness Red-Team}
+
+      The red-team pass asks whether a finite same-surface Clay breakdown witness can avoid the Pack-first terminal witness tree while still being the Navier-Stokes finite breakdown witness.  The tree is
+      \[
+        \mathrm{Pack}_Q,\qquad
+        \mathrm{Part}_{N,Q},\qquad
+        \mathrm{Field}_{N,r,Q}.
+      \]
+
+      The first escape attempt changes the object.  A regularized flow, Euler comparison object, public-critical translator, external preprint packet, or other surrogate can be useful research material, but the Clay breakdown witness is the maximal classical Navier-Stokes evolution from the original datum on \([0,T_*)\).  Once the witness is fixed to that same-surface object, the surrogate escape is unavailable.
+
+      The second escape attempt uses terminal-only face loss.  Pack, Part, or Field may hold on every compact preterminal window and fail at the terminal face.  That pattern is compatible with the CM contrapositive: the terminal face failure is the witness for
+      \[
+        \Exit(Q_*):=\neg\Member(Q_*).
+      \]
+      The failure serves at the terminal object itself.  Its terminal occurrence is enough for the class-exit reading.
+
+      The third escape attempt asks for a fourth primitive terminal service.  A same-solution terminal service would have to be something other than carrier and packing, pressure-viscosity participation, or neighboring one-field coherence.  The current direct authority gives no such primitive.  Source residue, public-critical response, endpoint readout, donor reserve, and no-pulse language remain supplier, readout, or support presentations until they land in Pack, Part, or Field.
+
+      The fourth escape attempt imports external claimed proofs.  Those claims can sharpen the audit questions: terminal visibility, compactness without hidden core loss, defect classification, and zero-defect rigidity.  The CM chain still takes authority from the same-solution terminal witness entry, the finite-failure Pack/Part/Field exhaustion, and the c
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No-Third-Branch Clay Closure Audit
+    line_start: 66380
+    line_end: 66415
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66380
+    start_anchor: "\\subsection{Clay problem No-Third-Branch Clay Closure Audit}\n"
+    end_anchor: "\\subsection{Clay problem CM Completion Claim Adversarial Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem No-Third-Branch Clay Closure Audit}
+
+      The branch law starts after the ordinary positive program reaches a real same-solution obstruction \(O\) on a terminal tail.  The positive program may have found a source-control wall, a packet-carrier wall, a participation tower wall, a coherence wall, or a later obstruction of the same kind.  The CM question is how that obstruction is classified once it is offered as part of a finite terminal breakdown.
+
+      There are two legal branches.  On the pass branch, the same terminal packet retains the services needed for continuation:
+      \[
+      \begin{aligned}
+        O_{\mathrm{pass}}
+        &\Longrightarrow
+        \mathrm{Pack}_Q,\ \mathrm{Part}_{N_s,Q},\
+        \mathrm{Field}_{N_s,r,Q}\\
+        &\Longrightarrow \Member(Q;\mathfrak O_{NS}^{work})
+        \Longrightarrow \text{smooth continuation.}
+      \end{aligned}
+      \]
+      The continuation readout gives an \(H^s\), \(s>5/2\), norm, and local Navier-Stokes theory extends the same solution past the alleged terminal time.
+
+      On the fail branch, the words ``capable of nonsmoothness'' only identify why the obstruction must enter the terminal CM test.  They are not the proof of class exit.  The failure branch must first be made CM-test-admissible, and then a Pack-first exhaustion theorem must derive the first failed face:
+      \[
+        \neg\mathrm{Pack}_Q,\qquad
+        \mathrm{Pack}_Q\wedge\neg\mathrm{Part}_{N_s,Q},\qquad
+        \mathrm{Pack}_Q\wedge\mathrm{Part}_{N_s,Q}
+        \wedge\forall r>0\,\neg\mathrm{Field}_{N_s,r,Q}.
+      \]
+      Only after that face is derived does the contrapositive embedding read the branch as
+      \[
+        \Exit(Q;\mathfrak O_{NS}^{work})
+        :=
+        \neg\Member(Q;\mathfrak O_{NS}^{work}).
+      \]
+
+      This proves the no-third-branch law.  A branch that remains a legal same-solution continuation branch is a member branch and gives smooth continuation.  A branch that carries the derived Pack/Part/Field face failure is an exit branch.  The alleged Clay breakdown object is the terminal obstruction under test; the continuation candidate is the pas
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Completion Claim Adversarial Audit
+    line_start: 66416
+    line_end: 66438
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66416
+    start_anchor: "\\subsection{Clay problem CM Completion Claim Adversarial Audit}\n"
+    end_anchor: "\\subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem CM Completion Claim Adversarial Audit}\n\nThis
+      audit separates mathematical objections from release, review, and stale-projection
+      surfaces.  A surface earns a CM objection only by attacking the live proof shape:\n\\[\n\\begin{aligned}\n
+      \ \\text{finite same-surface Clay breakdown}\n  &\\Longrightarrow \\text{CM-test-admissible
+      terminal object}\\\\\n  &\\Longrightarrow \\text{first Pack, Part, or Field
+      face failure}\\\\\n  &\\Longrightarrow \\Exit(Q):=\\neg\\Member(Q).\n\\end{aligned}\n\\]\n\nThe
+      live CM route has two earned pieces.  First, the alleged finite Clay breakdown
+      object is the bad terminal object under test, not a class member assumed in
+      advance.  The Clay admissible finite breakdown theorem places that same-surface
+      object inside the CM test grammar without assuming membership.  Second, the
+      finite-failure exhaustion theorem does the Pack-first work: the terminal object
+      loses the legal carrier, or keeps the carrier and loses the pressure-viscosity
+      tower, or keeps both and loses every positive one-field coherence scale.\n\nMany
+      repo surfaces fail to attack that chain.  Generated blockers and release verdicts
+      can mark the paper as unready, but they become mathematical objections only
+      when they name a failure in the terminal Pack/Part/Field classification.  Supplier,
+      source-wall, no-pulse, donor-reserve, endpoint-readout, Euler-transfer, Euler-mirror,
+      public-critical, and export surfaces have the same rule: they matter to this
+      CM route only when they land a theorem directly in \\(\\mathrm{Pack}_Q\\), \\(\\mathrm{Part}_{N,Q}\\),
+      or \\(\\mathrm{Field}_{N,r,Q}\\).\n\nThe tempting objection says that terminal
+      Pack/Part/Field class exit has classified the breakdown object without proving
+      finite breakdown impossible.  That objection asks for a positive packet-survival
+      theorem.  Inside the CM proof program, the terminal face failure is already
+      the class-exit witness.  A further theorem deleting that witness belongs to
+      the positive no-exit route unless the proof program has explicitly \n% ... source
+      excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Positive Obstruction Pass/Exit CM Engine
+    line_start: 66439
+    line_end: 66470
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66439
+    start_anchor: "\\subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}\n"
+    end_anchor: "\\subsection{Clay problem Genuine CM Exit Equivalence}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}
+
+      Let \(O\) be a real obstruction produced by the ordinary positive Navier-Stokes proof program: a source-control wall, packet-carrier wall, participation tower wall, coherence/readout wall, or later same-solution obstruction.  The CM engine allows any lawful pass-side estimate to carry the route through \(O\).  It asks what happens to the same solution on the two legal branches.
+
+      On the pass branch, the obstruction keeps the service needed for continuation:
+      \[
+      \begin{aligned}
+        O_{\mathrm{pass}}
+        &\Longrightarrow \text{retained same-fluid Pack/Part/Field service}\\
+        &\Longrightarrow \Member(Q;\mathfrak O_{NS}^{work})
+        \Longrightarrow \text{smooth continuation.}
+      \end{aligned}
+      \]
+      Any lawful pass-side mechanism may supply that service.
+
+      On the fail branch, the obstruction is offered as the finite nonsmooth terminal event.  The failure has to enter the CM terminal test and pay its first face:
+      \[
+      \begin{aligned}
+        O_{\mathrm{fail}}
+        &\Longrightarrow \text{CM-test-admissible same-solution terminal obstruction}\\
+        &\Longrightarrow \text{first failed Pack, Part, or Field face}\\
+        &\Longrightarrow
+        \Exit(Q;\mathfrak O_{NS}^{work})
+        :=
+        \neg\Member(Q;\mathfrak O_{NS}^{work}).
+      \end{aligned}
+      \]
+      The words ``capable of nonsmoothness'' trigger this test; the Pack/Part/Field face earns the exit conclusion.
+
+      Future theorem surfaces have to preserve this four-field record: the obstruction reached by the positive program, the finite nonsmooth event claimed by the fail branch, the Pack/Part/Field landing for that fail branch, and the in-class service retained by the pass branch.  A surface that demands direct control of \(O\) before the CM split has changed to the positive route.  A surface that labels the bad branch \(\Exit(Q)\) before deriving its face failure has skipped the mechanism.  The noncircular continuation of this engine is obstruction-by-obstruction: prove CM-test entry, derive the first failed fac
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Genuine CM Exit Equivalence
+    line_start: 66471
+    line_end: 66525
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66471
+    start_anchor: "\\subsection{Clay problem Genuine CM Exit Equivalence}\n"
+    end_anchor: "\\subsection{Clay problem Completed Proof Surface Challenge}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Genuine CM Exit Equivalence}
+
+      Role: answer the Clay-referee pressure question for the CM contrapositive program.
+
+      That converse remains too strong at a selected depth, scale, or cover. A single failed certificate can be a bad gauge, bad scale, bad cover, or missing readout choice.
+
+      \[
+      \text{smooth continuation through }T_*
+      \quad\Longleftrightarrow\quad
+      \text{no genuine continuation-complete CM exit at }T_*.
+      \]
+
+      \[
+      \text{finite terminal non-continuation at }T_*
+      \quad\Longleftrightarrow\quad
+      \text{genuine continuation-complete CM exit at }T_*.
+      \]
+
+      CM=>Member is installed while the raw converse not CM=>not Member is not installed.
+
+      Let (u,p) be the maximal classical Navier-Stokes solution on [0,T *), and let T *< .
+
+      Fix s>5/2 and choose a finite depth N s high enough for the installed H s continuation readout.
+
+      \[
+      Pack_Q(u,\Phi)
+      \quad\wedge\quad
+      Part_{N_s,Q}(u,p)
+      \quad\wedge\quad
+      Field_{N_s,r,Q}(u,p),
+      \]
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
+      \]
+
+      This is CM as a continuation packet, not CM as an arbitrary selected certificate.
+
+      GenuineCMExit(T *) means ContCM(T *) fails for every admissible retained same-fluid terminal cover, every legal positive scale choice, and every depth high enough for the classical readout.
+
+      Equivalently, there is no surviving continuation-complete Pack/Part/Field witness packet on the same solution near T *.
+
+      By definition, ContCM(T *) supplies a retained terminal Pack/Part/Field packet through a depth N s high enough for the classical readout, together with the installed H s, s>5/2, readout bridge.
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
+      \]
+
+      The standard classical Navier-Stokes local theory at s>5/2 gives a uniform lifespan from times t j T *. Relaunching the classical solution from those times extends (u,p) past T *.
+
+      So a continuation-complete CM packet rules out finite terminal non-continuation.
+
+      Assume (u,p) extends classically through T *. Choose a small spacetime window Q around the terminal point whose closure re
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Completed Proof Surface Challenge
+    line_start: 66526
+    line_end: 66542
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66526
+    start_anchor: "\\subsection{Clay problem Completed Proof Surface Challenge}\n"
+    end_anchor: "\\subsection{Clay problem CM Proof Completion Surface-Field Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Completed Proof Surface Challenge}
+
+      The signed-pair/no-free-sink item is not certified as a necessary remaining burden for the CM contrapositive proof.
+
+      It was introduced by the zero-moment direct-attempt note as a way to prove a forward visibility/no-free-sink theorem. That is useful as a warning against the wrong positive reading, but it is not automatically a blocker for Thomas's CM contrapositive route.
+
+      The CM program asks a different question: if the same-witness signed-pair branch is the fail branch offered as a finite nonsmooth event, does its mechanism land in Pack, Part, or Field as Exit(Q):=not Member(Q)? If yes, the route does not also need a positive theorem erasing that branch.
+
+      The proof object is the CM contrapositive branch law applied to the Clay finite terminal witness.
+
+      Active Height Flux Trichotomy.A as a forward discharge. That does not by itself prove the terminal signed branch remains an in-class nonsmooth branch.
+
+      When a generated, packet-era, export-bundle, dashboard, or direct-attempt surface says Signed Pair Reserve Visibility.A is needed, it must prove why that is a CM necessity rather than a positive-forward visibility demand.
+
+      If no, it is not a third branch. It is either the pass branch or the exit branch. The mere absence of a positive no-free-sink estimate does not reopen the Clay problem under the CM contrapositive program.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Pass/Exit Positive-Existence Veto
+    line_start: 66554
+    line_end: 66566
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66554
+    start_anchor: "\\subsection{Clay problem CM Pass/Exit Positive-Existence Veto}\n"
+    end_anchor: "\\subsection{Clay problem Uniform Two-Sided Obstruction Lemma}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem CM Pass/Exit Positive-Existence Veto}
+
+      The CM pass-or-exit branch law is not a request to replace the fail-branch work with a broad positive existence theorem. It still has a local non-vacuity requirement: for each obstruction being split, the pass side must be shown by the simplest lawful smooth / Member(Q) witness for that same obstruction. This is not the full forward bootstrap-estimate program. The CM work then acts on the fail branch: admit the obstruction to the CM terminal packet test and derive a concrete Pack/Part/Field face failure supporting
+
+      Alleged finite Clay terminal breakdown: counterexample object under test. CM terminal packet admission: grammar-admissible test entry for that object. Pack Q, Part N,Q , Field N,r,Q : witness faces. Face failure: the actual mathematical landing, one of not Pack Q, Pack Q + not Part N,Q , or Pack Q + Part N,Q + forall r>0 not Field N,r,Q . Exit(Q):=not Member(Q): downstream class-exit conclusion supported by the face failure. Pass branch: legal smooth / Member(Q) side for the same obstruction, witnessed as simply as possible; it must be nonempty, because otherwise "all bad cases exit CM" is vacuous and signals an invalid obstruction split or a proof-model error.
+
+      If the pass-side non-vacuity check fails in the absolute sense, then the branch split has not proved smoothness. The result is a diagnostic problem: either the obstruction was not a valid obstruction for the Clay proof program, or the CM encoding / face derivation has made a mathematical error.
+
+      The same-day source-reserve notes show the distinction. A forward zero-moment active-height route exposed a positive-visibility gap, while
+
+      For external threshold-packet claims, the same rule applies. Shahmurov-style channel dictionaries and Ri-style scale/norm constructions may red-team the
+
+
+    truncated: false
+  context_excerpt: "\\subsection{Clay problem Contrapositive-Only Completion Audit}\n\nWrite
+    \\(F\\) for finite terminal non-continuation, and write \\(B\\) for the disjunction
+    of Pack, Part, Field, readout, source-wall, scheduler, high-side, and Zeno failures
+    exposed by the contrapositive surfaces.  The installed status of the contrapositive
+    record is the routing implication\n\\[\n  F\\Longrightarrow B.\n\\]\nThis says
+    that the alleged failure must enter the named witness-face or supplier-failure
+    grammar.  Completion of the Clay proof requires the second implication\n\\[\n
+    \ B\\Longrightarrow \\bot\n\\]\nunder original smooth data, or equivalently a
+    theorem-grade exclusion of every surviving member of \\(B\\).\n\nThe current source
+    surfaces pay only part of that second implication.  The terminal-consumption bridge
+    still depends on the relevant PCTP/TTU input, the source-wall root still needs
+    either the scale-critical tree Carleson theorem or the Zeno rigid-class pair,
+    and the high-side row still needs its full commutator packet unless a later theorem
+    removes it.  The current conclusion is local: the CM contrapositive routing implication
+    is installed, and full Clay completion still requires the named supplier and exclusion
+    payments.\n\n\n\n\\subsection{Clay problem Nightly Terminal CM Witness Red-Team}\n\nThe
+    red-team pass asks whether a finite same-surface Clay breakdown witness can avoid
+    the Pack-first terminal witness tree while still being the Navier-Stokes finite
+    breakdown witness.  The tree is\n\\[\n  \\mathrm{Pack}_Q,\\qquad\n  \\mathrm{Part}_{N,Q},\\qquad\n
+    \ \\mathrm{Field}_{N,r,Q}.\n\\]\n\nThe first escape attempt changes the object.
+    \ A regularized flow, Euler comparison object, public-critical translator, external
+    preprint packet, or other surrogate can be useful research material, but the Clay
+    breakdown witness is the maximal classical Navier-Stokes evolution from the original
+    datum on \\([0,T_*)\\).  Once the witness is fixed to that same-surface object,
+    the surrogate escape is unavailable.\n\nThe second escape attempt uses terminal-only
+    face loss.  Pack, Part, or Field may hold on every compact preterminal window
+    and fail at the terminal face.  That pattern is compatible with the CM contrapositive:
+    the terminal face failure is the witness for\n\\[\n  \\Exit(Q_*):=\\neg\\Member(Q_*).\n\\]\nThe
+    failure serves at the terminal object itself.  Its terminal occurrence is enough
+    for the class-exit reading.\n\nThe third escape attempt asks for a fourth primitive
+    terminal service.  A same-solution terminal service would have to be something
+    other than carrier and packing, pressure-viscosity participation, or neighboring
+    one-field coherence.  The current direct authority gives no such primitive.  Source
+    residue, public-critical response, endpoint readout, donor reserve, and no-pulse
+    language remain supplier, readout, or support presentations until they land in
+    Pack, Part, or Field.\n\nThe fourth escape attempt imports external claimed proofs.
+    \ Those claims can sharpen the audit questions: terminal visibility, compactness
+    without hidden core loss, defect classification, and zero-defect rigidity.  The
+    CM chain still takes authority from the same-solution terminal witness entry,
+    the finite-failure Pack/Part/Field exhaustion, and the contrapositive embedding.\n\nThe
+    corrected assembly burden is reader-facing.  Phrases such as ``Clay breakdown
+    canonical terminal obstruction'' should be read as exposition labels for the installed
+    same-solution terminal witness entry, not as new frontier theorems.  The write-up
+    has to make the terminal Pack/Part/Field face failure readable as the CM contrapositive
+    witness supporting \\(\\Exit(Q):=\\neg\\Member(Q)\\), while positive smoothness
+    deletion, preterminal reflection, and new obstruction labels stay out of this
+    terminal classifier.\n\n\n\n\\subsection{Clay problem No-Third-Branch Clay Closure
+    Audit}\n\nThe branch law starts after the ordinary positive program reaches a
+    real same-solution obstruction \\(O\\) on a terminal tail.  The positive program
+    may have found a source-control wall, a packet-carrier wall, a participation tower
+    wall, a coherence wall, or a later obstruction of the same kind.  The CM question
+    is how that obstruction is classified once it is offered as part of a finite terminal
+    breakdown.\n\nThere are two legal branches.  On the pass branch, the same terminal
+    packet retains the services needed for continuation:\n\\[\n\\begin{aligned}\n
+    \ O_{\\mathrm{pass}}\n  &\\Longrightarrow\n  \\mathrm{Pack}_Q,\\ \\mathrm{Part}_{N_s,Q},\\\n
+    \ \\mathrm{Field}_{N_s,r,Q}\\\\\n  &\\Longrightarrow \\Member(Q;\\mathfrak O_{NS}^{work})\n
+    \ \\Longrightarrow \\text{smooth continuation.}\n\\end{aligned}\n\\]\nThe continuation
+    readout gives an \\(H^s\\), \\(s>5/2\\), norm, and local Navier-Stokes theory
+    extends the same solution past the alleged terminal time.\n\nOn the fail branch,
+    the words ``capable of nonsmoothness'' only identify why the obstruction must
+    enter the terminal CM test.  They are not the proof of class exit.  The failure
+    branch must first be made CM-test-admissible, and then a Pack-first exhaustion
+    theorem must derive the first failed face:\n\\[\n  \\neg\\mathrm{Pack}_Q,\\qquad\n
+    \ \\mathrm{Pack}_Q\\wedge\\neg\\mathrm{Part}_{N_s,Q},\\qquad\n  \\mathrm{Pack}_Q\\wedge\\mathrm{Part}_{N_s,Q}\n
+    \ \\wedge\\forall r>0\\,\\neg\\mathrm{Field}_{N_s,r,Q}.\n\\]\nOnly after that
+    face is derived does the contrapositive embedding read the branch as\n\\[\n  \\Exit(Q;\\mathfrak
+    O_{NS}^{work})\n  :=\n  \\neg\\Member(Q;\\mathfrak O_{NS}^{work}).\n\\]\n\nThis
+    proves the no-third-branch law.  A branch that remains a legal same-solution continuation
+    branch is a member branch and gives smooth continuation.  A branch that carries
+    the derived Pack/Part/Field face failure is an exit branch.  The alleged Clay
+    breakdown object is the terminal obstruction under test; the continuation candidate
+    is the pass branch that keeps the readout services.\n\nThe noncircular use is
+    obstruction-by-obstruction.  For each concrete obstruction, the paper must identify
+    the obstruction, prove CM-test entry without assuming membership, derive the first
+    failed Pack/Part/Field face on the fail branch, and read the pass branch through
+    retained continuation services.  That is the pass/fail engine: it leaves room
+    for any lawful pass-side control mechanism, and it prevents the shortcut where
+    a bad branch is called \\(\\Exit(Q)\\) before its face failure has been proved.\n\n\n\n\\subsection{Clay
+    problem CM Completion Claim Adversarial Audit}\n\nThis audit separates mathematical
+    objections from release, review, and stale-projection surfaces.  A surface earns
+    a CM objection only by attacking the live proof shape:\n\\[\n\\begin{aligned}\n
+    \ \\text{finite same-surface Clay breakdown}\n  &\\Longrightarrow \\text{CM-test-admissible
+    terminal object}\\\\\n  &\\Longrightarrow \\text{first Pack, Part, or Field face
+    failure}\\\\\n  &\\Longrightarrow \\Exit(Q):=\\neg\\Member(Q).\n\\end{aligned}\n\\]\n\nThe
+    live CM route has two earned pieces.  First, the alleged finite Clay breakdown
+    object is the bad terminal object under test, not a class member assumed in advance.
+    \ The Clay admissible finite breakdown theorem places that same-surface object
+    inside the CM test grammar without assuming membership.  Second, the finite-failure
+    exhaustion theorem does the Pack-first work: the terminal object loses the legal
+    carrier, or keeps the carrier and loses the pressure-viscosity tower, or keeps
+    both and loses every positive one-field coherence scale.\n\nMany repo surfaces
+    fail to attack that chain.  Generated blockers and release verdicts can mark the
+    paper as unready, but they become mathematical objections only when they name
+    a failure in the terminal Pack/Part/Field classification.  Supplier, source-wall,
+    no-pulse, donor-reserve, endpoint-readout, Euler-transfer, Euler-mirror, public-critical,
+    and export surfaces have the same rule: they matter to this CM route only when
+    they land a theorem directly in \\(\\mathrm{Pack}_Q\\), \\(\\mathrm{Part}_{N,Q}\\),
+    or \\(\\mathrm{Field}_{N,r,Q}\\).\n\nThe tempting objection says that terminal
+    Pack/Part/Field class exit has classified the breakdown object without proving
+    finite breakdown impossible.  That objection asks for a positive packet-survival
+    theorem.  Inside the CM proof program, the terminal face failure is already the
+    class-exit witness.  A further theorem deleting that witness belongs to the positive
+    no-exit route unless the proof program has explicitly switched.\n\nAssume a finite
+    same-surface Clay breakdown object \\(W_*\\).  The canonical-terminal-obstruction
+    step makes \\(W_*\\) eligible for terminal packet capture, and the finite-failure
+    witness theorem supplies the Pack-first split.  If the object has no legal positive
+    same-fluid carrier, the failed face is \\(\\neg\\mathrm{Pack}_Q\\).  If a carrier
+    survives while the same pressure-viscosity tower fails, the failed face is \\(\\neg\\mathrm{Part}_{N,Q}\\).
+    \ If carrier and participation survive while no positive coherence scale remains,
+    the failed face is \\(\\forall r>0\\,\\neg\\mathrm{Field}_{N,r,Q}\\).\n\nThe earned
+    CM claim is terminal classification: every finite same-surface Clay breakdown
+    object that enters the canonical terminal CM tree is classified by Pack, Part,
+    or Field, so no unclassified terminal witness remains inside that typed CM test.
+    \ This audit is not a full Clay-closure certificate.  It blocks stale objections
+    to the CM classifier and preserves the exact remaining burden: a local proof step
+    must name the concrete obstruction, its CM-test entry, and the derived Pack/Part/Field
+    face.\n\n\n\n\\subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}\n\nLet
+    \\(O\\) be a real obstruction produced by the ordinary positive Navier-Stokes
+    proof program: a source-control wall, packet-carrier wall, participation tower
+    wall, coherence/readout wall, or later same-solution obstruction.  The CM engine
+    allows any lawful pass-side estimate to carry the route through \\(O\\).  It asks
+    what happens to the same solution on the two legal branches.\n\nOn the pass branch,
+    the obstruction keeps the service needed for continuation:\n\\[\n\\begin{aligned}\n
+    \ O_{\\mathrm{pass}}\n  &\\Longrightarrow \\text{retained same-fluid Pack/Part/Field
+    service}\\\\\n  &\\Longrightarrow \\Member(Q;\\mathfrak O_{NS}^{work})\n  \\Longrightarrow
+    \\text{smooth continuation.}\n\\end{aligned}\n\\]\nAny lawful pass-side mechanism
+    may supply that service.\n\nOn the fail branch, the obstruction is offered as
+    the finite nonsmooth terminal event.  The failure has to enter the CM terminal
+    test and pay its first face:\n\\[\n\\begin{aligned}\n  O_{\\mathrm{fail}}\n  &\\Longrightarrow
+    \\text{CM-test-admissible same-solution terminal obstruction}\\\\\n  &\\Longrightarrow
+    \\text{first failed Pack, Part, or Field face}\\\\\n  &\\Longrightarrow\n  \\Exit(Q;\\mathfrak
+    O_{NS}^{work})\n  :=\n  \\neg\\Member(Q;\\mathfrak O_{NS}^{work}).\n\\end{aligned}\n\\]\nThe
+    words ``capable of nonsmoothness'' trigger this test; the Pack/Part/Field face
+    earns the exit conclusion.\n\nFuture theorem surfaces have to preserve this four-field
+    record: the obstruction reached by the positive program, the finite nonsmooth
+    event claimed by the fail branch, the Pack/Part/Field landing for that fail branch,
+    and the in-class service retained by the pass branch.  A surface that demands
+    direct control of \\(O\\) before the CM split has changed to the positive route.
+    \ A surface that labels the bad branch \\(\\Exit(Q)\\) before deriving its face
+    failure has skipped the mechanism.  The noncircular continuation of this engine
+    is obstruction-by-obstruction: prove CM-test entry, derive the first failed face,
+    and keep the pass branch as the only in-class continuation branch.\n\n\n\n\\subsection{Clay
+    problem Genuine CM Exit Equivalence}\n\nRole: answer the Clay-referee pressure
+    question for the CM contrapositive program.\n\nThat converse remains too strong
+    at a selected depth, scale, or cover. A single failed certificate can be a bad
+    gauge, bad scale, bad cover, or missing readout choice.\n\n\\[\n\\text{smooth
+    continuation through }T_*\n\\quad\\Longleftrightarrow\\quad\n\\text{no genuine
+    continuation-complete CM exit at }T_*.\n\\]\n\n\\[\n\\text{finite terminal non-continuation
+    at }T_*\n\\quad\\Longleftrightarrow\\quad\n\\text{genuine continuation-complete
+    CM exit at }T_*.\n\\]\n\nCM=>Member is installed while the raw converse not CM=>not
+    Member is not installed.\n\nLet (u,p) be the maximal classical Navier-Stokes solution
+    on [0,T *), and let T *< .\n\nFix s>5/2 and choose a finite depth N s high enough
+    for the installed H s continuation readout.\n\n\\[\nPack_Q(u,\\Phi)\n\\quad\\wedge\\quad\nPart_{N_s,Q}(u,p)\n\\quad\\wedge\\quad\nField_{N_s,r,Q}(u,p),\n\\]\n\n\\[\n\\sup_{t<T_*}\\|u(t)\\|_{H^s}<\\infty.\n\\]\n\nThis
+    is CM as a continuation packet, not CM as an arbitrary selected certificate.\n\nGenuineCMExit(T
+    *) means ContCM(T *) fails for every admissible retained same-fluid terminal cover,
+    every legal positive scale choice, and every depth high enough for the classical
+    readout.\n\nEquivalently, there is no surviving continuation-complete Pack/Part/Field
+    witness packet on the same solution near T *.\n\nBy definition, ContCM(T *) supplies
+    a retained terminal Pack/Part/Field packet through a depth N s high enough for
+    the classical readout, together with the installed H s, s>5/2, readout bridge.\n\n\\[\n\\sup_{t<T_*}\\|u(t)\\|_{H^s}<\\infty.\n\\]\n\nThe
+    standard classical Navier-Stokes local theory at s>5/2 gives a uniform lifespan
+    from times t j T *. Relaunching the classical solution from those times extends
+    (u,p) past T *.\n\nSo a continuation-complete CM packet rules out finite terminal
+    non-continuation.\n\nAssume (u,p) extends classically through T *. Choose a small
+    spacetime window Q around the terminal point whose closure remains inside the
+    extended classical interval.\n\n\n\n\\subsection{Clay problem Completed Proof
+    Surface Challenge}\n\nThe signed-pair/no-free-sink item is not certified as a
+    necessary remaining burden for the CM contrapositive proof.\n\nIt was introduced
+    by the zero-moment direct-attempt note as a way to prove a forward visibility/no-free-sink
+    theorem. That is useful as a warning against the wrong positive reading, but it
+    is not automatically a blocker for Thomas's CM contrapositive route.\n\nThe CM
+    program asks a different question: if the same-witness signed-pair branch is the
+    fail branch offered as a finite nonsmooth event, does its mechanism land in Pack,
+    Part, or Field as Exit(Q):=not Member(Q)? If yes, the route does not also need
+    a positive theorem erasing that branch.\n\nThe proof object is the CM contrapositive
+    branch law applied to the Clay finite terminal witness.\n\nActive Height Flux
+    Trichotomy.A as a forward discharge. That does not by itself prove the terminal
+    signed branch remains an in-class nonsmooth branch.\n\nWhen a generated, packet-era,
+    export-bundle, dashboard, or direct-attempt surface says Signed Pair Reserve Visibility.A
+    is needed, it must prove why that is a CM necessity rather than a positive-forward
+    visibility demand.\n\nIf no, it is not a third branch. It is either the pass branch
+    or the exit branch. The mere absence of a positive no-free-sink estimate does
+    not reopen the Clay problem under the CM contrapositive program.\n\n\n\n\\subsection{Clay
+    problem CM Pass/Exit Positive-Existence Veto}\n\nThe CM pass-or-exit branch law
+    is not a request to replace the fail-branch work with a broad positive existence
+    theorem. It still has a local non-vacuity requirement: for each obstruction being
+    split, the pass side must be shown by the simplest lawful smooth / Member(Q) witness
+    for that same obstruction. This is not the full forward bootstrap-estimate program.
+    The CM work then acts on the fail branch: admit the obstruction to the CM terminal
+    packet test and derive a concrete Pack/Part/Field face failure supporting\n\nAlleged
+    finite Clay terminal breakdown: counterexample object under test. CM terminal
+    packet admission: grammar-admissible test entry for that object. Pack Q, Part
+    N,Q , Field N,r,Q : witness faces. Face failure: the actual mathematical landing,
+    one of not Pack Q, Pack Q + not Part N,Q , or Pack Q + Part N,Q + forall r>0 not
+    Field N,r,Q . Exit(Q):=not Member(Q): downstream class-exit conclusion supported
+    by the face failure. Pass branch: legal smooth / Member(Q) side for \n% ... source
+    excerpt truncated for packet size ...\n"
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Contrapositive-Only Completion Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66341
+  line_start: 66341
+  line_end: 66355
+  start_anchor: "\\subsection{Clay problem Contrapositive-Only Completion Audit}\n"
+  end_anchor: "\\subsection{Clay problem Nightly Terminal CM Witness Red-Team}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Contrapositive-Only
+    Completion Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66341
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Nightly Terminal CM Witness Red-Team
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66356
+  line_start: 66356
+  line_end: 66379
+  start_anchor: "\\subsection{Clay problem Nightly Terminal CM Witness Red-Team}\n"
+  end_anchor: "\\subsection{Clay problem No-Third-Branch Clay Closure Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Nightly Terminal
+    CM Witness Red-Team as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66356
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No-Third-Branch Clay Closure Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66380
+  line_start: 66380
+  line_end: 66415
+  start_anchor: "\\subsection{Clay problem No-Third-Branch Clay Closure Audit}\n"
+  end_anchor: "\\subsection{Clay problem CM Completion Claim Adversarial Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No-Third-Branch
+    Clay Closure Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66380
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Completion Claim Adversarial Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66416
+  line_start: 66416
+  line_end: 66438
+  start_anchor: "\\subsection{Clay problem CM Completion Claim Adversarial Audit}\n"
+  end_anchor: "\\subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Completion Claim
+    Adversarial Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66416
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Positive Obstruction Pass/Exit CM Engine
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66439
+  line_start: 66439
+  line_end: 66470
+  start_anchor: "\\subsection{Clay problem Positive Obstruction Pass/Exit CM Engine}\n"
+  end_anchor: "\\subsection{Clay problem Genuine CM Exit Equivalence}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Positive Obstruction
+    Pass/Exit CM Engine as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66439
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Genuine CM Exit Equivalence
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66471
+  line_start: 66471
+  line_end: 66525
+  start_anchor: "\\subsection{Clay problem Genuine CM Exit Equivalence}\n"
+  end_anchor: "\\subsection{Clay problem Completed Proof Surface Challenge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Genuine CM Exit
+    Equivalence as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66471
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Completed Proof Surface Challenge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66526
+  line_start: 66526
+  line_end: 66542
+  start_anchor: "\\subsection{Clay problem Completed Proof Surface Challenge}\n"
+  end_anchor: "\\subsection{Clay problem CM Proof Completion Surface-Field Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Completed Proof
+    Surface Challenge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66526
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Pass/Exit Positive-Existence Veto
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66554
+  line_start: 66554
+  line_end: 66566
+  start_anchor: "\\subsection{Clay problem CM Pass/Exit Positive-Existence Veto}\n"
+  end_anchor: "\\subsection{Clay problem Uniform Two-Sided Obstruction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Pass/Exit Positive-Existence
+    Veto as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66554
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-59
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-59.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,42 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T16:07:47Z'
+arc_id: appendix-source-field-integration
+title: Appendix proof-attempt integration
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 1
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+source_freshness:
+  algorithm: sha256
+  section_count: 1
+  checked_at: '2026-06-14T16:07:47Z'
+issues: []
+source_sections:
+- spine_id: direct-routes-that-did-not-close
+  section_title: Direct Routes That Did Not Close
+  source_path: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+  line_start: 1
+  line_end: 4098
+  source_sha256: 5704b65992a04ce8a832f6eece5144c08b8177c9db6671e59b972a4b591d907d
+  source_byte_count: 162210
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: appendix-source-field-integration
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

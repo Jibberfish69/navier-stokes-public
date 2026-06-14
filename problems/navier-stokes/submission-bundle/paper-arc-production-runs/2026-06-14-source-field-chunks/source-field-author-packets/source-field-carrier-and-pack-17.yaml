@@ -1,0 +1,887 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-17
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-17
+  sequence: 19
+  group_id: carrier-and-pack
+  title: Carrier and Pack 17
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 63116
+  line_end: 64309
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63116
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63550
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63867
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63950
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64237
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64256
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64265
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64274
+  subsection_titles:
+  - Tps Selector Observability To Sg4 Bridge Proof Attempt
+  - Transported Phase-Space Selector Theorem Candidate
+  - Unconditional Carrier HFG Replay Blocked By Same-Rung Coefficient
+  - Universal Active-Support Localization Result
+  - Weighted Carrier Closure And HFG Rerun Conditional On Two Bridges
+  - Weighted Carrier Closure Blocked By Shell Amplitude
+  - Weighted Carrier Closure Blocked By Square-Source
+  - Weighted Carrier Coefficient Term Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tps Selector Observability To Sg4 Bridge Proof Attempt
+    line_start: 63116
+    line_end: 63187
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63116
+    start_anchor: "\\subsection{Tps Selector Observability To Sg4 Bridge Proof Attempt}\n"
+    end_anchor: "\\subsection{TPS Shadow Barrier Formal Closure Packet}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Tps Selector Observability To Sg4 Bridge Proof Attempt}
+
+      provided one has one additional selector-calibration inequality turning the signless pair defect into the one-sided directional deficit.
+
+      \[
+      \partial_t W_J
+      +
+      v_J(x,t)\cdot\nabla_x W_J
+      +
+      v_J(y,t)\cdot\nabla_y W_J
+      -\nu(\Delta_x+\Delta_y)W_J
+      =
+      -\nabla_x\cdot(r_J(x,t)K_J)
+      -\nabla_y\cdot(r_J(y,t)K_J),
+      \]
+
+      \[
+      \|W_J(t)\|_{L^2_{x,y}}^2
+      +\nu\int_{t_0}^t\|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
+      \le C_{\mathrm{sf},61601}
+      \|W_J(t_0)\|_{L^2_{x,y}}^2
+      +\int_{t_0}^t
+      \|r_J(s)\|_{L^\infty_x}^2
+      \|K_J(s)\|_{L^2_{x,y}}^2\,ds,
+      \]
+
+      \[
+      \Delta_J
+      \le
+      C_{\mathrm{bridge}}\,
+      \mathfrak D_J,
+      \qquad
+      \mathfrak D_J
+      :=
+      \sup_{0\le t\le T_J}\|W_J(t)\|_{\mathcal X_J}.
+      \]
+
+      \[
+      \mathfrak d_J^-(a,b,t):=[\lambda_J(t)-\mathfrak s_J(a,b,t)]_+,
+      \qquad
+      B_J^-(a,b;I):=\int_I \mathfrak d_J^-(a,b,t)\,dt,
+      \]
+
+      Let J pair be a finite measure on a selector-good active pair family G J pair . Assume
+
+      \[
+      \int_{G_J^{pair}}\big(B_J^-(a,b;I)\big)^2\,d\mu_J^{pair}(a,b)
+      \le
+      \mathcal E_J^-(I).
+      \]
+
+      Fix one admissible strip I=[t 0,t 1] and one selector-good active pair family G J pair with finite measure J pair .
+
+      and a calibration error Err J(a,b,t) 0 such that for a.e. (a,b,t) one has the pointwise selector calibration
+
+      Integrate (B.9) over I G J pair and apply (B.3) and (B.4) to obtain (B.5) with the budget (B.6).
+
+      So the pair-defect PDE already supplies the signless defect energy. What is still missing is the selector calibration (B.2) and the matching observability inequality (B.3).
+
+      This is the real new theorem-search burden. Pure signless control of W J L 2 or W J L 2 does not by itself determine the negative drift budget [ J- s J] +; the route still needs a pairwise, directional, one-sided calibration from the two-point defect to the segment strain deficit.
+
+      That exact-potential branch is so the smallest honest local endgame. At an active packet point let the coarse strain tensor be
+
+      so angle-closeness to e 1 is the precise geometric content needed to turn
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Transported Phase-Space Selector Theorem Candidate
+    line_start: 63550
+    line_end: 63606
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63550
+    start_anchor: "\\subsection{Transported Phase-Space Selector Theorem Candidate}\n"
+    end_anchor: "\\subsection{Transpose-Profile Local Balance Identity Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: "\\subsection{Transported Phase-Space Selector Theorem Candidate}\n\nThis
+      is a reserve-only geometric localization packet. The ontic Navier-Stokes carrier
+      is not redefined; the proposed object is a theorem-grade selector/localizer
+      layer on top of the realized classical carrier in\n\nIts role is narrower and
+      sharper: package the remaining carrier-verification work for the live local/sign/dynamic
+      scalar gates into one geometric theorem candidate.\n\n\\[\n\\varepsilon_j^{freeze},\n\\qquad\nm_j^{sign},\n\\qquad\n\\beta_J(\\eta).\n\\]\n\nThe
+      point of the present note is to bundle the verification of those three gates
+      into one selector theorem candidate.\n\nThe selector cell \\(\\mathfrak C_{j,\\omega,\\nu}\\)
+      is the intersection of the\ntransported phase-space packet cell, the coefficient
+      stopping cell, and the\ncap-energy balancing refinement.\n\n\\[\n\\sup_x \\#\\{(j,\\omega,\\nu):x\\in
+      \\mathfrak C_{j,\\omega,\\nu}\\}\n\\le\nN_{\\mathrm{ov}},\n\\]\n\n\\[\n\\sup_{(j,\\omega,\\nu)}\n\\#\\{(\\omega',\\nu'):(\\mathfrak
+      C_{j,\\omega,\\nu},\\mathfrak C_{j,\\omega',\\nu'})\n\\text{ is active}\\}\n\\le\nN_{\\mathrm{cap}},\n\\]\n\nand
+      selector coherence compatible with the cap graph used in the frozen local operator
+      packet.\n\nThe selector relation $Q\\sfcomp{62070} Q'$ means two things at once:\nthe
+      parent caps satisfy $(\\omega,\\omega')\\in\\mathcal R_j$, and the selected\ncells
+      lie in one active finite-overlap packet neighborhood.\n\nSo the selector graph
+      is not a new combinatorial object. It is the cellwise refinement of the already-active
+      cap relation R j.\n\nStart with the transported packet cells from the ambient
+      phase-space geometry. Inside each parent packet cell P j, , , run a dyadic stopping-time
+      subdivision and stop on each descendant Q as soon as\n\nThe second refinement
+      is cap-energy balancing. Let d j diag denote the minimal diagonal block mass
+      on active selector cells and let j edge denote the maximal weighted adjacent
+      edge mass. The selector theorem should enforce\n\nKeep the hypotheses of TPS-sign.
+      Assume in addition that each stopped parent packet cell \n% ... source excerpt
+      truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Unconditional Carrier HFG Replay Blocked By Same-Rung Coefficient
+    line_start: 63867
+    line_end: 63893
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63867
+    start_anchor: "\\subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung
+      Coefficient}\n"
+    end_anchor: "\\subsection{Uniform H D s Threshold To Speed Gate Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung Coefficient}
+
+      \[
+      \|\nabla S_j u\|_\infty\le c\nu2^{2j}
+      \]
+
+      The carrier route has this only conditionally, under finite lifted carrier energy and absorbed exported remainders. The finite lifted carrier energy route requires an Osgood-subcritical s in
+
+      \[
+      E'(t)+c\Xi(t)\le C\Phi_s(E(t)).
+      \]
+
+      \[
+      \Phi_s(r)\sfcomp{62366} 1+r+r^{3/2},
+      \]
+
+      \[
+      \int_R^\infty \frac{dr}{r^{3/2}}<\infty.
+      \]
+
+      \[
+      \langle [\Lambda_D^s,X\cdot\nabla_D]X,\Lambda_D^sX\rangle.
+      \]
+
+      The conditional carrier replay remains valid. The unconditional carrier-HFG-production-six-burden replay is blocked by the same-rung lifted transport coefficient.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Universal Active-Support Localization Result
+    line_start: 63950
+    line_end: 63979
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63950
+    start_anchor: "\\subsection{Universal Active-Support Localization Result}\n"
+    end_anchor: "\\subsection{Upper-Boundary Frozen Edge-Family Reduction Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Universal Active-Support Localization Result}
+
+      Let A j,i (t) denote the active coherent readout class entering the collar at (i,j,t). Define
+
+      \[
+      \mathcal K_{j,i}(t)
+      :=
+      (\mathcal K_{j,i}^{0}(t))^{+M}.
+      \]
+
+      \[
+      \mathcal K_{j,i}(t)
+      \subseteq
+      \mathcal K_j(t).
+      \]
+
+      Thus K j,i (t) is the smallest closed global collar core generated by the active readout class.
+
+      \[
+      \mathcal K_j(t):=\Gamma_j(t)^{+M}
+      \]
+
+      \[
+      \mathcal K_{j,i}(t)\subsetneq\mathbb R^3
+      \quad\text{with controlled fixed }2^{-j}\text{ collar size.}
+      \]
+
+      If the union core fills the ambient space, the associated global selector is the full-space plateau w j 1; this closes the weighted algebra while providing no localization gain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Carrier Closure And HFG Rerun Conditional On Two Bridges
+    line_start: 64237
+    line_end: 64255
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64237
+    start_anchor: "\\subsection{Weighted Carrier Closure And HFG Rerun Conditional
+      On Two Bridges}\n"
+    end_anchor: "\\subsection{Weighted Carrier Closure Blocked By Shell Amplitude}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Weighted Carrier Closure And HFG Rerun Conditional On Two Bridges}
+
+      \[
+      Diag_N\le \varepsilon\nu D_N.
+      \]
+
+      provided the same tail- reserve is available. The remaining inherited finite-mode coefficient is
+
+      \[
+      \nu_N^{low}(I)=\int_I(\Lambda_N^{lin}+\Lambda_N^{low-low})(t)dt.
+      \]
+
+      \[
+      \sum_{j\ge0}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty.
+      \]
+
+      Once those two are installed, the weighted carrier route closes HFG and the six-burden replay follows.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Carrier Closure Blocked By Shell Amplitude
+    line_start: 64256
+    line_end: 64264
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64256
+    start_anchor: "\\subsection{Weighted Carrier Closure Blocked By Shell Amplitude}\n"
+    end_anchor: "\\subsection{Weighted Carrier Closure Blocked By Square-Source}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Weighted Carrier Closure Blocked By Shell Amplitude}
+
+      The collar product closes after the tail- reserve is promoted. The tail-generated part of the low-mode product also closes after the same reserve is promoted; the finite-mode part is controlled on terminal windows.
+
+      The tail- reserve currently depends on active- Carleson or direct LPAS. Direct LPAS remains blocked by the missing shell-amplitude gain or equivalent active- theorem.
+
+      Weighted carrier closure remains blocked by the active-/shell-amplitude theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Carrier Closure Blocked By Square-Source
+    line_start: 64265
+    line_end: 64273
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64265
+    start_anchor: "\\subsection{Weighted Carrier Closure Blocked By Square-Source}\n"
+    end_anchor: "\\subsection{Weighted Carrier Coefficient Term Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Weighted Carrier Closure Blocked By Square-Source}
+
+      The weighted carrier closes after the tail- reserve and product closures are installed. The tail- reserve remains conditional on LPAS or equivalent active- closure.
+
+      LPAS remains blocked by the missing -source estimate for F j, or by an equivalent active-shell amplitude/direct active- theorem.
+
+      Weighted carrier closure remains blocked by the -source theorem or an equivalent replacement.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Carrier Coefficient Term Result
+    line_start: 64274
+    line_end: 64309
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64274
+    start_anchor: "\\subsection{Weighted Carrier Coefficient Term Result}\n"
+    end_anchor: "\\subsection{Weighted Direct Speed Mechanism Assessment Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Weighted Carrier Coefficient Term Result}
+
+      \[
+      \widetilde\Lambda_N^\sharp(t)E_N(t)
+      \le \varepsilon\nu D_N(t)+C_\varepsilon R_N(t).
+      \]
+
+      \[
+      \widetilde\Lambda_N^\sharp=\Lambda_N+\Theta_N^\sharp,
+      \]
+
+      \[
+      \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_\infty
+      \]
+
+      \[
+      \Theta_N^\sharp(t)=2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_2^2.
+      \]
+
+      The existing weighted-carrier surface legitimately keeps this coefficient-bearing object in the gradient leakage inequality. This by itself supplies a carrier surface, rather than an integral estimate for the carrier term.
+
+      \[
+      E_N(t)\le 2^{-2N}D_N(t),
+      \]
+
+      This is a threshold-collar amplitude theorem. It is the collar analogue of low-mode strain suppression.
+
+      and finite L 1 t control of the collar components at fixed threshold. Product control does not follow from those facts.
+
+      so the weighted carrier integral is not supplied by the energy layer alone.
+
+      The current weighted carrier surface is a correct coefficient interface, but it is not a closed weighted theorem.
+
+      A successful route must prove one of those products directly, or prove the two viscous-scale coefficient bounds above.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Tps Selector Observability To Sg4 Bridge Proof Attempt}
+
+    provided one has one additional selector-calibration inequality turning the signless pair defect into the one-sided directional deficit.
+
+    \[
+    \partial_t W_J
+    +
+    v_J(x,t)\cdot\nabla_x W_J
+    +
+    v_J(y,t)\cdot\nabla_y W_J
+    -\nu(\Delta_x+\Delta_y)W_J
+    =
+    -\nabla_x\cdot(r_J(x,t)K_J)
+    -\nabla_y\cdot(r_J(y,t)K_J),
+    \]
+
+    \[
+    \|W_J(t)\|_{L^2_{x,y}}^2
+    +\nu\int_{t_0}^t\|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
+    \le C_{\mathrm{sf},61601}
+    \|W_J(t_0)\|_{L^2_{x,y}}^2
+    +\int_{t_0}^t
+    \|r_J(s)\|_{L^\infty_x}^2
+    \|K_J(s)\|_{L^2_{x,y}}^2\,ds,
+    \]
+
+    \[
+    \Delta_J
+    \le
+    C_{\mathrm{bridge}}\,
+    \mathfrak D_J,
+    \qquad
+    \mathfrak D_J
+    :=
+    \sup_{0\le t\le T_J}\|W_J(t)\|_{\mathcal X_J}.
+    \]
+
+    \[
+    \mathfrak d_J^-(a,b,t):=[\lambda_J(t)-\mathfrak s_J(a,b,t)]_+,
+    \qquad
+    B_J^-(a,b;I):=\int_I \mathfrak d_J^-(a,b,t)\,dt,
+    \]
+
+    Let J pair be a finite measure on a selector-good active pair family G J pair . Assume
+
+    \[
+    \int_{G_J^{pair}}\big(B_J^-(a,b;I)\big)^2\,d\mu_J^{pair}(a,b)
+    \le
+    \mathcal E_J^-(I).
+    \]
+
+    Fix one admissible strip I=[t 0,t 1] and one selector-good active pair family G J pair with finite measure J pair .
+
+    and a calibration error Err J(a,b,t) 0 such that for a.e. (a,b,t) one has the pointwise selector calibration
+
+    Integrate (B.9) over I G J pair and apply (B.3) and (B.4) to obtain (B.5) with the budget (B.6).
+
+    So the pair-defect PDE already supplies the signless defect energy. What is still missing is the selector calibration (B.2) and the matching observability inequality (B.3).
+
+    This is the real new theorem-search burden. Pure signless control of W J L 2 or W J L 2 does not by itself determine the negative drift budget [ J- s J] +; the route still needs a pairwise, directional, one-sided calibration from the two-point defect to the segment strain deficit.
+
+    That exact-potential branch is so the smallest honest local endgame. At an active packet point let the coarse strain tensor be
+
+    so angle-closeness to e 1 is the precise geometric content needed to turn the signless packet W J into one-sided control of [ J- s J] +.
+
+    The angle formulation above is not merely heuristic. After the spectral-floor and bundle-angle losses are peeled off, it has an exact installed realization on the simple-top branch.
+
+    So on the simple-top exact-potential branch the live theorem is already reduced formally to observability of one concrete misalignment record: either the angle defect J itself or the sharper angular-forcing budget J 2/g J.
+
+    So on the simple-top exact-potential branch the strip-loss record is no longer an abstract angle budget alone: it is controlled by one boundary term plus the two explicit adiabatic forcing budgets I |K J seg n J| 2/g J and I t A J seg op 2/g J 3.
+
+
+
+    \subsection{Transported Phase-Space Selector Theorem Candidate}
+
+    This is a reserve-only geometric localization packet. The ontic Navier-Stokes carrier is not redefined; the proposed object is a theorem-grade selector/localizer layer on top of the realized classical carrier in
+
+    Its role is narrower and sharper: package the remaining carrier-verification work for the live local/sign/dynamic scalar gates into one geometric theorem candidate.
+
+    \[
+    \varepsilon_j^{freeze},
+    \qquad
+    m_j^{sign},
+    \qquad
+    \beta_J(\eta).
+    \]
+
+    The point of the present note is to bundle the verification of those three gates into one selector theorem candidate.
+
+    The selector cell \(\mathfrak C_{j,\omega,\nu}\) is the intersection of the
+    transported phase-space packet cell, the coefficient stopping cell, and the
+    cap-energy balancing refinement.
+
+    \[
+    \sup_x \#\{(j,\omega,\nu):x\in \mathfrak C_{j,\omega,\nu}\}
+    \le
+    N_{\mathrm{ov}},
+    \]
+
+    \[
+    \sup_{(j,\omega,\nu)}
+    \#\{(\omega',\nu'):(\mathfrak C_{j,\omega,\nu},\mathfrak C_{j,\omega',\nu'})
+    \text{ is active}\}
+    \le
+    N_{\mathrm{cap}},
+    \]
+
+    and selector coherence compatible with the cap graph used in the frozen local operator packet.
+
+    The selector relation $Q\sfcomp{62070} Q'$ means two things at once:
+    the parent caps satisfy $(\omega,\omega')\in\mathcal R_j$, and the selected
+    cells lie in one active finite-overlap packet neighborhood.
+
+    So the selector graph is not a new combinatorial object. It is the cellwise refinement of the already-active cap relation R j.
+
+    Start with the transported packet cells from the ambient phase-space geometry. Inside each parent packet cell P j, , , run a dyadic stopping-time subdivision and stop on each descendant Q as soon as
+
+    The second refinement is cap-energy balancing. Let d j diag denote the minimal diagonal block mass on active selector cells and let j edge denote the maximal weighted adjacent edge mass. The selector theorem should enforce
+
+    Keep the hypotheses of TPS-sign. Assume in addition that each stopped parent packet cell Q admits a finite entrance-sector subdivision
+
+    where each sector cell Q ent s is subordinate to one shell/cap subcarrier (Q,s) (Q) of angular diameter at most \(C_{\mathrm{sf},62084}^{-1/2}\), with S independent of j.
+
+    then the reserve-sign gate still holds on the entrance-sector refined selector. If, moreover, every active pair is assigned to the terminal sector cell whose parent subcarrier contains its entrance direction e ab (t 0), then the sign refinement is entrance-compatible on the exact-potential shape branch.
+
+    Keep the hypotheses of TPS-sign-ent. Then the selector-side entrance-sector sign burden is exactly the conjunction of the two sector-level estimates
+
+    Keep the hypotheses of TPS-sign-ent'', and suppose the entrance-sector graph is inherited from the parent cap graph: each sector is labeled by one parent cap (Q,s), and sector adjacency is allowed only when the parent caps are adjacent in R j. Assume also that each parent cap produces at most S entrance sectors, with S independent of j.
+
+
+
+    \subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung Coefficient}
+
+    \[
+    \|\nabla S_j u\|_\infty\le c\nu2^{2j}
+    \]
+
+    The carrier route has this only conditionally, under finite lifted carrier energy and absorbed exported remainders. The finite lifted carrier energy route requires an Osgood-subcritical s in
+
+    \[
+    E'(t)+c\Xi(t)\le C\Phi_s(E(t)).
+    \]
+
+    \[
+    \Phi_s(r)\sfcomp{62366} 1+r+r^{3/2},
+    \]
+
+    \[
+    \int_R^\infty \frac{dr}{r^{3/2}}<\infty.
+    \]
+
+    \[
+    \langle [\Lambda_D^s,X\cdot\nabla_D]X,\Lambda_D^sX\rangle.
+    \]
+
+    The conditional carrier replay remains valid. The unconditional carrier-HFG-production-six-burden replay is blocked by the same-rung lifted transport coefficient.
+
+
+
+    \subsection{Universal Active-Support Localization Result}
+
+    Let A j,i (t) denote the active coherent readout class entering the collar at (i,j,t). Define
+
+    \[
+    \mathcal K_{j,i}(t)
+    :=
+    (\mathcal K_{j,i}^{0}(t))^{+M}.
+    \]
+
+    \[
+    \mathcal K_{j,i}(t)
+    \subseteq
+    \mathcal K_j(t).
+    \]
+
+    Thus K j,i (t) is the smallest closed global collar core generated by the active readout class.
+
+    \[
+    \mathcal K_j(t):=\Gamma_j(t)^{+M}
+    \]
+
+    \[
+    \mathcal K_{j,i}(t)\subsetneq\mathbb R^3
+    \quad\text{with controlled fixed }2^{-j}\text{ collar size.}
+    \]
+
+    If the union core fills the ambient space, the associated global selector is the full-space plateau w j 1; this closes the weighted algebra while providing no localization gain.
+
+
+
+    \subsection{Weighted Carrier Closure And HFG Rerun Conditional On Two Bridges}
+
+    \[
+    Diag_N\le \varepsilon\nu D_N.
+    \]
+
+    provided the same tail- reserve is available. The remaining inherited finite-mode coefficient is
+
+    \[
+    \nu_N^{low}(I)=\int_I(\Lambda_N^{lin}+\Lambda_N^{low-low})(t)dt.
+    \]
+
+    \[
+    \sum_{j\ge0}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty.
+    \]
+
+    Once those two are installed, the weighted carrier route closes HFG and the six-burden replay follows.
+
+
+
+    \subsection{Weighted Carrier Closure Blocked By Shell Amplitude}
+
+    The collar product closes after the tail- reserve is promoted. The tail-generated part of the low-mode product also closes after the same reserve is promoted; the finite-mode part is controlled on terminal windows.
+
+    The tail- reserve currently depends on active- Carleson or direct LPAS. Direct LPAS remains blocked by the missing shell-amplitude gain or equivalent active- theorem.
+
+    Weighted carrier closure remains blocked by the active-/shell-amplitude theorem.
+
+
+
+    \subsection{Weighted Carrier Closure Blocked By Square-Source}
+
+    The weighted carrier closes after the tail- reserve and product closures are installed. The tail- reserve remains conditional on LPAS or equivalent active- closure.
+
+    LPAS remains blocked by the missing -source estimate for F j, or by an equivalent active-shell amplitude/direct active- theorem.
+
+    Weighted carrier closure remains blocked by the -source theorem or an equivalent replacement.
+
+
+
+    \subsection{Weighted Carrier Coefficient Term Result}
+
+    \[
+    \widetilde\Lambda_N^\sharp(t)E_N(t)
+    \le \varepsilon\nu D_N(t)+C_\varepsilon R_N(t).
+    \]
+
+    \[
+    \widetilde\Lambda_N^\sharp=\Lambda_N+\Theta_N^\sharp,
+    \]
+
+    \[
+    \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_\infty
+    \]
+
+    \[
+    \Theta_N^\sharp(t)=2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_2^2.
+    \]
+
+    The existing weighted-carrier surface legitimately keeps this coefficient-bearing object in the gradient leakage inequality. This by itself supplies a carrier surface, rather than an integral estimate for the carrier term.
+
+    \[
+    E_N(t)\le 2^{-2N}D_N(t),
+    \]
+
+    This is a threshold-collar amplitude theorem. It is the collar analogue of low-mode strain suppression.
+
+    and finite L 1 t control of the collar components at fixed threshold. Product control does not follow from those facts.
+
+    so the weighted carrier integral is not supplied by the energy layer alone.
+
+    The current weighted carrier surface is a correct coefficient interface, but it is not a closed weighted theorem.
+
+    A successful route must prove one of those products directly, or prove the two viscous-scale coefficient bounds above.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tps Selector Observability To Sg4 Bridge Proof Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63116
+  line_start: 63116
+  line_end: 63187
+  start_anchor: "\\subsection{Tps Selector Observability To Sg4 Bridge Proof Attempt}\n"
+  end_anchor: "\\subsection{TPS Shadow Barrier Formal Closure Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tps Selector Observability To
+    Sg4 Bridge Proof Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63116
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Transported Phase-Space Selector Theorem Candidate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63550
+  line_start: 63550
+  line_end: 63606
+  start_anchor: "\\subsection{Transported Phase-Space Selector Theorem Candidate}\n"
+  end_anchor: "\\subsection{Transpose-Profile Local Balance Identity Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Transported Phase-Space Selector
+    Theorem Candidate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63550
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Unconditional Carrier HFG Replay Blocked By Same-Rung Coefficient
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63867
+  line_start: 63867
+  line_end: 63893
+  start_anchor: "\\subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung
+    Coefficient}\n"
+  end_anchor: "\\subsection{Uniform H D s Threshold To Speed Gate Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Unconditional Carrier HFG Replay
+    Blocked By Same-Rung Coefficient as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63867
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Universal Active-Support Localization Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63950
+  line_start: 63950
+  line_end: 63979
+  start_anchor: "\\subsection{Universal Active-Support Localization Result}\n"
+  end_anchor: "\\subsection{Upper-Boundary Frozen Edge-Family Reduction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Universal Active-Support Localization
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63950
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Carrier Closure And HFG Rerun Conditional On Two Bridges
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64237
+  line_start: 64237
+  line_end: 64255
+  start_anchor: "\\subsection{Weighted Carrier Closure And HFG Rerun Conditional On
+    Two Bridges}\n"
+  end_anchor: "\\subsection{Weighted Carrier Closure Blocked By Shell Amplitude}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Carrier Closure And
+    HFG Rerun Conditional On Two Bridges as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64237
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Carrier Closure Blocked By Shell Amplitude
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64256
+  line_start: 64256
+  line_end: 64264
+  start_anchor: "\\subsection{Weighted Carrier Closure Blocked By Shell Amplitude}\n"
+  end_anchor: "\\subsection{Weighted Carrier Closure Blocked By Square-Source}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Carrier Closure Blocked
+    By Shell Amplitude as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64256
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Carrier Closure Blocked By Square-Source
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64265
+  line_start: 64265
+  line_end: 64273
+  start_anchor: "\\subsection{Weighted Carrier Closure Blocked By Square-Source}\n"
+  end_anchor: "\\subsection{Weighted Carrier Coefficient Term Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Carrier Closure Blocked
+    By Square-Source as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64265
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Carrier Coefficient Term Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64274
+  line_start: 64274
+  line_end: 64309
+  start_anchor: "\\subsection{Weighted Carrier Coefficient Term Result}\n"
+  end_anchor: "\\subsection{Weighted Direct Speed Mechanism Assessment Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Carrier Coefficient
+    Term Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64274
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-17
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-17.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

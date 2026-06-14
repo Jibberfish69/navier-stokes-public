@@ -1,0 +1,848 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-41
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-41
+  sequence: 193
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 41
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 25661
+  line_end: 25972
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25661
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25696
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25710
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25746
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25781
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25914
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25927
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25946
+  subsection_titles:
+  - Seven Loss Budgets For Sg 4 Tps Retained Family Ep A
+  - SG4 TPS Aligned Branch Final Assembly After Source Reductions
+  - Sgc A A E Material Coverage Completion Cavg J
+  - Sgc A A E Measure Hardening Lemma Cavg J
+  - Sgc A A E Terminal Scf Good Coverage Cavg J
+  - Signed weighted commutator-defect estimate - failed discharge and exact replacement
+    target
+  - Signed weighted commutator-defect theorem - frontier-loop failure note
+  - Signed weighted lifted-remainder cancellation before absolute values
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Seven Loss Budgets For Sg 4 Tps Retained Family Ep A
+    line_start: 25661
+    line_end: 25695
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25661
+    start_anchor: "\\subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep
+      A}\n"
+    end_anchor: "\\subsection{SG4 TPS Aligned Branch Final Assembly After Source Reductions}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep A}
+
+      Conditional loss-budget theorem. The seven retained-mass losses are proved from explicit measurable defect records.
+
+      \[
+      \mu(G)=m_0>0.
+      \]
+
+      \[
+      \varepsilon_i:=\mu(B_i).
+      \]
+
+      \[
+      \{a\in Q:\delta_{j,Q}(a)\ge \bar\delta_j(Q)\}.
+      \]
+
+      \[
+      D_{r}^{\pm}(a):=|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|.
+      \]
+
+      For shrinking regular shells, the shell error has the model bound
+      \[
+      A_{\mathrm{shell}}
+      \le C\bigl(B_{\mathrm{reg}}
+      +M_{\mathrm{shell}}\bigr).
+      \]
+      The first term vanishes on active shell-boundary regular shells, and the second term vanishes by the spherical shell mass condition. Thus \(A_{\mathrm{shell}}\to0\) on that selected regular-shell family.
+
+      \[
+      B_{C2}:=\{a:R_{C2}(a)>\theta_{C2}\}.
+      \]
+
+      If the CG reference is defined as W J coc N a (W J coc ) *, then R cmp=0 and epsilon cmp=0.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: SG4 TPS Aligned Branch Final Assembly After Source Reductions
+    line_start: 25696
+    line_end: 25702
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25696
+    start_anchor: "\\subsection{SG4 TPS Aligned Branch Final Assembly After Source
+      Reductions}\n"
+    end_anchor: "\\subsection{SG4 TPS Final Closure From Retained Source Packets}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{SG4 TPS Aligned Branch Final Assembly After Source Reductions}
+
+      Together with aligned selector-strain compatibility from the aligned budget, this supplies BridgeA on the retained family.
+
+      The drain gives negative log-ratio drift for the reduced Gramian. The relative error is absorbed. The lower singular-value floor converts ratio contraction into a quantitative simple-top gap.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sgc A A E Material Coverage Completion Cavg J
+    line_start: 25710
+    line_end: 25745
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25710
+    start_anchor: "\\subsection{Sgc A A E Material Coverage Completion Cavg J}\n"
+    end_anchor: "\\subsection{Sgc A A E Measure Hardening Lemma Cavg J}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Sgc A A E Material Coverage Completion Cavg J}
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x},
+      \qquad
+      u\in L^3_{loc},
+      \qquad
+      p\in L^{3/2}_{loc}.
+      \]
+
+      The same-fluid chart has bounded distortion, so its material spacetime measure is comparable to Eulerian spacetime measure on the chart. Pulling the local energy-class functions into material coordinates preserves local integrability up to constants depending only on the distortion bound.
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+      \]
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+      \]
+
+      \[
+      r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+      \]
+
+      \[
+      \mathcal G_{\varepsilon_m}^{\Phi}
+      :=Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+      \]
+
+      The good material region has finite SCF-good subcovers locally. Combined with ATD m epsilon, each such cylinder supplies the averaged finite-depth tower packet.
+
+      Finite energy supplies almost-everywhere good coverage. The complement is retained as
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sgc A A E Measure Hardening Lemma Cavg J
+    line_start: 25746
+    line_end: 25780
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25746
+    start_anchor: "\\subsection{Sgc A A E Measure Hardening Lemma Cavg J}\n"
+    end_anchor: "\\subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Sgc A A E Measure Hardening Lemma Cavg J}
+
+      The same-fluid chart has bounded distortion. Hence the material/Eulerian Jacobian satisfies
+
+      \[
+      0<c(M_\sharp)\le J_\Phi(a,t)\le C(M_\sharp)<\infty.
+      \]
+
+      So material spacetime null sets and Eulerian spacetime null sets agree inside the chart, up to the fixed comparability constants.
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x},
+      \qquad
+      u\in L^3_{loc},
+      \qquad
+      p\in L^{3/2}_{loc}.
+      \]
+
+      By parabolic Lebesgue differentiation in the bounded chart, for material-a.e. point (a,t),
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+      \]
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+      \]
+
+      \[
+      r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sgc A A E Terminal Scf Good Coverage Cavg J
+    line_start: 25781
+    line_end: 25818
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25781
+    start_anchor: "\\subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}\n"
+    end_anchor: "\\subsection{Sharp Pressure Readout Elliptic Package}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}
+
+      On a bounded-distortion same-fluid approach chart, finite-energy suitability supplies material almost-everywhere SCF base good cylinders. Equivalently,
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x},
+      \qquad
+      u\in L^3_{loc},
+      \qquad
+      p\in L^{3/2}_{loc}.
+      \]
+
+      On a same-fluid chart with bounded distortion, material spacetime measure and Eulerian spacetime measure are comparable on the chart. Parabolic Lebesgue differentiation so applies after pullback to material coordinates.
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+      \]
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+      \]
+
+      \[
+      r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+      \]
+
+      \[
+      \mathcal G_{\varepsilon_m}^{\Phi}
+      :=Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+      \]
+
+      The strict inequality can be stabilized after a radius shrink and a small change of center inside the same bounded chart. Hence the SCF-good cylinders form an open cover of each compact subset
+
+      This theorem supplies almost-everywhere coverage and compact-good finite subcovers. The complement is exactly the bad material set B m and is routed by the next theorem item
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed weighted commutator-defect estimate - failed discharge
+      and exact replacement target
+    line_start: 25914
+    line_end: 25926
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25914
+    start_anchor: "\\subsection{Signed weighted commutator-defect estimate - failed
+      discharge and exact replacement target}\n"
+    end_anchor: "\\subsection{Signed weighted commutator-defect theorem - frontier-loop
+      failure note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Signed weighted commutator-defect estimate - failed discharge and exact replacement target}
+
+      Prove the signed weighted commutator-defect estimate needed for the nonlinear shell-flux source theorem.
+
+      Thus the bare commutator vanishes in the declared separated geometry. The displayed estimate is true but vacuous. It does not control the nonlinear shell-flux source.
+
+      This term has variable sign. Coherent packets aligned with expanding strain directions can make same-sign positive contributions, while contracting directions contribute the opposite sign. The current route supplies shell orientation weights, but no strain-eigendirection cancellation theorem.
+
+      and Young's inequality produces the active- tail burden plus a residual sum k D k. This is exactly the obstruction in the flux-source and active- notes.
+
+      The signed weighted commutator-defect theorem is not discharged by the current surfaces. The bare commutator estimate is vacuous; the true lifted signed remainder requires an additional cancellation theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed weighted commutator-defect theorem - frontier-loop failure
+      note
+    line_start: 25927
+    line_end: 25945
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25927
+    start_anchor: "\\subsection{Signed weighted commutator-defect theorem - frontier-loop
+      failure note}\n"
+    end_anchor: "\\subsection{Signed weighted lifted-remainder cancellation before
+      absolute values}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Signed weighted commutator-defect theorem - frontier-loop failure note}
+
+      The theorem would need to supply the missing flux-source control behind the active- Carleson route.
+
+      The bare separated commutator estimate is vacuous. In the separated geometry, Fourier support forces
+
+      for the bare pairwise exchange. This proves only that the bare exchange target is the wrong object.
+
+      This form has variable sign. Coherent active-shell packets aligned with an expanding strain eigendirection give same-sign positive contributions. Alignment with contracting directions gives the opposite sign. The current weighted route supplies scale orientation; it supplies no strain-eigendirection cancellation theorem.
+
+      The one-sided weights break exact antisymmetry by an order-size mismatch. The outer 2 j weight turns the mismatch into an order 2 l defect. Once absolute values enter, the route collapses into the known positive carrier
+
+      and Young's inequality gives the active- tail burden plus sum k D k. That burden is exactly the obstruction already recorded by the flux-source and pulse notes.
+
+      So the signed weighted theorem is unavailable from current exchange algebra.
+
+      Signed weighted commutator-defect theorem is a failed loop item. It should not be promoted as a discharge of Jump avg branch elimination.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed weighted lifted-remainder cancellation before absolute
+      values
+    line_start: 25946
+    line_end: 25972
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25946
+    start_anchor: "\\subsection{Signed weighted lifted-remainder cancellation before
+      absolute values}\n"
+    end_anchor: "\\subsection{Signed weighted lifted-remainder cancellation plus residual-tail
+      control - failed discharge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Signed weighted lifted-remainder cancellation before absolute values}
+
+      \[
+      G_N^{lift,\sigma}
+      =
+      \sum W_{j,k,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
+      \]
+
+      A proof of this target, together with active- residual-tail control, would feed Positive Remainder Depletion.A and hence the source-pulse closure chain.
+
+      The unweighted dyadic exchange identity cancels paired shell transfer. That cancellation acts before one-sided shell weights, lifted packet reductions, physical cutoffs, and terminal active-window selection are inserted.
+
+      \[
+      R_{j,k,\ell}^{lift}
+      \sfcomp{24446}
+      2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+      \]
+
+      The sign of this term depends on the alignment of the active shell packet with the symmetric strain generated by the donor/lower packet. On terminal active windows the active packet may align with an expanding strain eigendirection. In that case the contribution is positive at the exact carrier used by the no-pulse branch.
+
+      One-sided shell weights orient the shell sum. They do not force cancellation among strain eigendirections. Cutoffs and projectors also fail to supply a sign: they localize and route errors, while the legal interior strain-production term remains.
+
+      \[
+      \text{signed measure cancellation for }G_N^{lift,\sigma},
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep A}
+
+    Conditional loss-budget theorem. The seven retained-mass losses are proved from explicit measurable defect records.
+
+    \[
+    \mu(G)=m_0>0.
+    \]
+
+    \[
+    \varepsilon_i:=\mu(B_i).
+    \]
+
+    \[
+    \{a\in Q:\delta_{j,Q}(a)\ge \bar\delta_j(Q)\}.
+    \]
+
+    \[
+    D_{r}^{\pm}(a):=|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|.
+    \]
+
+    For shrinking regular shells, the shell error has the model bound
+    \[
+    A_{\mathrm{shell}}
+    \le C\bigl(B_{\mathrm{reg}}
+    +M_{\mathrm{shell}}\bigr).
+    \]
+    The first term vanishes on active shell-boundary regular shells, and the second term vanishes by the spherical shell mass condition. Thus \(A_{\mathrm{shell}}\to0\) on that selected regular-shell family.
+
+    \[
+    B_{C2}:=\{a:R_{C2}(a)>\theta_{C2}\}.
+    \]
+
+    If the CG reference is defined as W J coc N a (W J coc ) *, then R cmp=0 and epsilon cmp=0.
+
+
+
+    \subsection{SG4 TPS Aligned Branch Final Assembly After Source Reductions}
+
+    Together with aligned selector-strain compatibility from the aligned budget, this supplies BridgeA on the retained family.
+
+    The drain gives negative log-ratio drift for the reduced Gramian. The relative error is absorbed. The lower singular-value floor converts ratio contraction into a quantitative simple-top gap.
+
+
+
+    \subsection{Sgc A A E Material Coverage Completion Cavg J}
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x},
+    \qquad
+    u\in L^3_{loc},
+    \qquad
+    p\in L^{3/2}_{loc}.
+    \]
+
+    The same-fluid chart has bounded distortion, so its material spacetime measure is comparable to Eulerian spacetime measure on the chart. Pulling the local energy-class functions into material coordinates preserves local integrability up to constants depending only on the distortion bound.
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+    \]
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+    \]
+
+    \[
+    r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+    \]
+
+    \[
+    \mathcal G_{\varepsilon_m}^{\Phi}
+    :=Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+    \]
+
+    The good material region has finite SCF-good subcovers locally. Combined with ATD m epsilon, each such cylinder supplies the averaged finite-depth tower packet.
+
+    Finite energy supplies almost-everywhere good coverage. The complement is retained as
+
+
+
+    \subsection{Sgc A A E Measure Hardening Lemma Cavg J}
+
+    The same-fluid chart has bounded distortion. Hence the material/Eulerian Jacobian satisfies
+
+    \[
+    0<c(M_\sharp)\le J_\Phi(a,t)\le C(M_\sharp)<\infty.
+    \]
+
+    So material spacetime null sets and Eulerian spacetime null sets agree inside the chart, up to the fixed comparability constants.
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x},
+    \qquad
+    u\in L^3_{loc},
+    \qquad
+    p\in L^{3/2}_{loc}.
+    \]
+
+    By parabolic Lebesgue differentiation in the bounded chart, for material-a.e. point (a,t),
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+    \]
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+    \]
+
+    \[
+    r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+    \]
+
+
+
+    \subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}
+
+    On a bounded-distortion same-fluid approach chart, finite-energy suitability supplies material almost-everywhere SCF base good cylinders. Equivalently,
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x},
+    \qquad
+    u\in L^3_{loc},
+    \qquad
+    p\in L^{3/2}_{loc}.
+    \]
+
+    On a same-fluid chart with bounded distortion, material spacetime measure and Eulerian spacetime measure are comparable on the chart. Parabolic Lebesgue differentiation so applies after pullback to material coordinates.
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{a,t,r}^{norm}|^3\to0,
+    \]
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{a,t,r}^{norm}|^{3/2}\to0,
+    \]
+
+    \[
+    r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0.
+    \]
+
+    \[
+    \mathcal G_{\varepsilon_m}^{\Phi}
+    :=Q^\Phi(I,A_\sharp)\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+    \]
+
+    The strict inequality can be stabilized after a radius shrink and a small change of center inside the same bounded chart. Hence the SCF-good cylinders form an open cover of each compact subset
+
+    This theorem supplies almost-everywhere coverage and compact-good finite subcovers. The complement is exactly the bad material set B m and is routed by the next theorem item
+
+
+
+    \subsection{Signed weighted commutator-defect estimate - failed discharge and exact replacement target}
+
+    Prove the signed weighted commutator-defect estimate needed for the nonlinear shell-flux source theorem.
+
+    Thus the bare commutator vanishes in the declared separated geometry. The displayed estimate is true but vacuous. It does not control the nonlinear shell-flux source.
+
+    This term has variable sign. Coherent packets aligned with expanding strain directions can make same-sign positive contributions, while contracting directions contribute the opposite sign. The current route supplies shell orientation weights, but no strain-eigendirection cancellation theorem.
+
+    and Young's inequality produces the active- tail burden plus a residual sum k D k. This is exactly the obstruction in the flux-source and active- notes.
+
+    The signed weighted commutator-defect theorem is not discharged by the current surfaces. The bare commutator estimate is vacuous; the true lifted signed remainder requires an additional cancellation theorem.
+
+
+
+    \subsection{Signed weighted commutator-defect theorem - frontier-loop failure note}
+
+    The theorem would need to supply the missing flux-source control behind the active- Carleson route.
+
+    The bare separated commutator estimate is vacuous. In the separated geometry, Fourier support forces
+
+    for the bare pairwise exchange. This proves only that the bare exchange target is the wrong object.
+
+    This form has variable sign. Coherent active-shell packets aligned with an expanding strain eigendirection give same-sign positive contributions. Alignment with contracting directions gives the opposite sign. The current weighted route supplies scale orientation; it supplies no strain-eigendirection cancellation theorem.
+
+    The one-sided weights break exact antisymmetry by an order-size mismatch. The outer 2 j weight turns the mismatch into an order 2 l defect. Once absolute values enter, the route collapses into the known positive carrier
+
+    and Young's inequality gives the active- tail burden plus sum k D k. That burden is exactly the obstruction already recorded by the flux-source and pulse notes.
+
+    So the signed weighted theorem is unavailable from current exchange algebra.
+
+    Signed weighted commutator-defect theorem is a failed loop item. It should not be promoted as a discharge of Jump avg branch elimination.
+
+
+
+    \subsection{Signed weighted lifted-remainder cancellation before absolute values}
+
+    \[
+    G_N^{lift,\sigma}
+    =
+    \sum W_{j,k,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
+    \]
+
+    A proof of this target, together with active- residual-tail control, would feed Positive Remainder Depletion.A and hence the source-pulse closure chain.
+
+    The unweighted dyadic exchange identity cancels paired shell transfer. That cancellation acts before one-sided shell weights, lifted packet reductions, physical cutoffs, and terminal active-window selection are inserted.
+
+    \[
+    R_{j,k,\ell}^{lift}
+    \sfcomp{24446}
+    2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+    \]
+
+    The sign of this term depends on the alignment of the active shell packet with the symmetric strain generated by the donor/lower packet. On terminal active windows the active packet may align with an expanding strain eigendirection. In that case the contribution is positive at the exact carrier used by the no-pulse branch.
+
+    One-sided shell weights orient the shell sum. They do not force cancellation among strain eigendirections. Cutoffs and projectors also fail to supply a sign: they localize and route errors, while the legal interior strain-production term remains.
+
+    \[
+    \text{signed measure cancellation for }G_N^{lift,\sigma},
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Seven Loss Budgets For Sg 4 Tps Retained Family Ep A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25661
+  line_start: 25661
+  line_end: 25695
+  start_anchor: "\\subsection{Seven Loss Budgets For Sg 4 Tps Retained Family Ep A}\n"
+  end_anchor: "\\subsection{SG4 TPS Aligned Branch Final Assembly After Source Reductions}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Seven Loss Budgets For Sg 4 Tps
+    Retained Family Ep A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25661
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: SG4 TPS Aligned Branch Final Assembly After Source Reductions
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25696
+  line_start: 25696
+  line_end: 25702
+  start_anchor: "\\subsection{SG4 TPS Aligned Branch Final Assembly After Source Reductions}\n"
+  end_anchor: "\\subsection{SG4 TPS Final Closure From Retained Source Packets}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite SG4 TPS Aligned Branch Final
+    Assembly After Source Reductions as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25696
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sgc A A E Material Coverage Completion Cavg J
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25710
+  line_start: 25710
+  line_end: 25745
+  start_anchor: "\\subsection{Sgc A A E Material Coverage Completion Cavg J}\n"
+  end_anchor: "\\subsection{Sgc A A E Measure Hardening Lemma Cavg J}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sgc A A E Material Coverage Completion
+    Cavg J as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25710
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sgc A A E Measure Hardening Lemma Cavg J
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25746
+  line_start: 25746
+  line_end: 25780
+  start_anchor: "\\subsection{Sgc A A E Measure Hardening Lemma Cavg J}\n"
+  end_anchor: "\\subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sgc A A E Measure Hardening Lemma
+    Cavg J as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25746
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sgc A A E Terminal Scf Good Coverage Cavg J
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25781
+  line_start: 25781
+  line_end: 25818
+  start_anchor: "\\subsection{Sgc A A E Terminal Scf Good Coverage Cavg J}\n"
+  end_anchor: "\\subsection{Sharp Pressure Readout Elliptic Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sgc A A E Terminal Scf Good Coverage
+    Cavg J as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25781
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed weighted commutator-defect estimate - failed discharge
+    and exact replacement target
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25914
+  line_start: 25914
+  line_end: 25926
+  start_anchor: "\\subsection{Signed weighted commutator-defect estimate - failed
+    discharge and exact replacement target}\n"
+  end_anchor: "\\subsection{Signed weighted commutator-defect theorem - frontier-loop
+    failure note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed weighted commutator-defect
+    estimate - failed discharge and exact replacement target as paper-ready TeX with
+    proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25914
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed weighted commutator-defect theorem - frontier-loop failure
+    note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25927
+  line_start: 25927
+  line_end: 25945
+  start_anchor: "\\subsection{Signed weighted commutator-defect theorem - frontier-loop
+    failure note}\n"
+  end_anchor: "\\subsection{Signed weighted lifted-remainder cancellation before absolute
+    values}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed weighted commutator-defect
+    theorem - frontier-loop failure note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25927
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed weighted lifted-remainder cancellation before absolute
+    values
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25946
+  line_start: 25946
+  line_end: 25972
+  start_anchor: "\\subsection{Signed weighted lifted-remainder cancellation before
+    absolute values}\n"
+  end_anchor: "\\subsection{Signed weighted lifted-remainder cancellation plus residual-tail
+    control - failed discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed weighted lifted-remainder
+    cancellation before absolute values as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25946
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-41
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-41.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

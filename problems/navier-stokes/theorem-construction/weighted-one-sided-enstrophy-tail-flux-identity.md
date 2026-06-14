@@ -134,7 +134,7 @@ Accordingly,
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{\ell\ge j}2^{-\sigma(\ell-j)}
 \sum_{j+M<k<\ell-4}
 a_k(t)\,D_\ell(t).
@@ -145,7 +145,7 @@ Swapping the `(k,\ell)` sums gives
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{k>j+M}
 2^{-\sigma(k-j)}\,a_k(t)\,
 \underbrace{\Big(\sum_{\ell\ge k+4}2^{-\sigma(\ell-k)}D_\ell(t)\Big)}_{=:\mathcal D_k^\uparrow(t)}.
@@ -161,7 +161,7 @@ Now sum `(6)` in `j` with the square-theorem weight `2^j`. Then
 
 ```math
 \sum_{j>N+M+4}2^j\,\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+=
 \sum_{k>N+M}
 2^k\,a_k(t)\,\mathcal D_k^\uparrow(t).
 \tag{7}
@@ -242,8 +242,8 @@ Third, the spectral-locality / anti-resonance form:
 ```
 
 All three are equivalent on the current route because
-`\mathfrak L_j^\sigma[u]\sim \mathcal R_{j,\mathrm{lift}}^\sigma`, and each
-version says the same thing: the lifted packet is coercive against the square
+`\mathfrak L_j^\sigma[u]` and `\mathcal R_{j,\mathrm{lift}}^\sigma` are the same
+routed expression, and each version says the same thing: the lifted packet is coercive against the square
 of the one-sided dissipation queue after a tail correction is added.
 
 The entropy statement is the preferred master formulation because it is the

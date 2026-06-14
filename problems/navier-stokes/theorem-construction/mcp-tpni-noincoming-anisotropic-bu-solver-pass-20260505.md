@@ -75,7 +75,7 @@ Thus the exact theorem is an anisotropic Stokes theorem, not a scalar heat theor
 
 ## Finite-slab result
 
-On every finite slab `[-R,0]`, the matrix `A(s)` is smooth and uniformly elliptic. A finite-slab Carleman theorem for the displayed anisotropic Stokes system is plausible and would give finite-slab unique continuation under the usual boundary hypotheses.
+On every finite slab `[-R,0]`, the matrix `A(s)` is smooth and uniformly elliptic. If one proves a finite-slab Carleman theorem for the displayed anisotropic Stokes system, it yields finite-slab unique continuation under the usual boundary hypotheses.
 
 ## Ancient half-line obstruction
 

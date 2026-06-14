@@ -1,0 +1,997 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-pressure-and-participation-05
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-05
+  sequence: 58
+  group_id: pressure-and-participation
+  title: Pressure and participation 5
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 25792
+  line_end: 32547
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25792
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25824
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27036
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27559
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30534
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31022
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31357
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32529
+  subsection_titles:
+  - Sharp Pressure Readout Elliptic Package
+  - Sharp Pressure Readout For All Endpoint Rungs
+  - Strain-sign cancellation for the weighted lifted remainder - failed discharge
+  - Terminal Weight Coherence.A + Active Strain Alignment Cost.A Signed-Saturation
+    Attempt
+  - Moving Constraint Defect Program
+  - Clay problem Active Strain-Alignment Cost Target Note
+  - Clay problem Adj Bessel Strain-Gauge Packet Calculus Note
+  - Clay problem B ASAC Liouville CM Participation Bridge
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sharp Pressure Readout Elliptic Package
+    line_start: 25792
+    line_end: 25823
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25792
+    start_anchor: "\\subsection{Sharp Pressure Readout Elliptic Package}\n"
+    end_anchor: "\\subsection{Sharp Pressure Readout For All Endpoint Rungs}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Sharp Pressure Readout Elliptic Package}
+
+      \[
+      B_i'\Subset B_i\Subset 2B_i
+      \]
+
+      \[
+      m\ge N+2.
+      \]
+
+      \[
+      \|\nabla^{q+1}p\|_{L^\infty(B_i')}
+      \le C_{q,i}\,\mathcal R_{m,i}(u,p),
+      \]
+
+      where R m,i is the finite-depth readout norm supplied by ATD m epsilon, the frame record, and the periodic energy bound.
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      The cutoff derivatives are bounded by powers of r * -1 , and the derivatives of u are supplied by the ATD m epsilon readout since q<=N<=m-2.
+
+      The pressure gauge has zero spatial derivatives. The affine frame pressure potential contributes only the finite frame-record derivatives already included in ATD m epsilon.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sharp Pressure Readout For All Endpoint Rungs
+    line_start: 25824
+    line_end: 25862
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25824
+    start_anchor: "\\subsection{Sharp Pressure Readout For All Endpoint Rungs}\n"
+    end_anchor: "\\subsection{Signed commutator plus residual-tail direct loop note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Sharp Pressure Readout For All Endpoint Rungs}
+
+      \[
+      B_i'\Subset B_i\Subset 2B_i,
+      \qquad
+      1\le i\le M.
+      \]
+
+      Assume ATD m epsilon supplies product-source carriers through every 0<=q<=N, and the depth condition includes the viscous slots U q+2 . Then for every endpoint rung
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+      \qquad 0\le q\le N,
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}(t)\|_{L^\infty(B_i')}
+      \le
+      C_{q,\alpha,i}
+      \|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      The product-source carrier on the right is supplied by ATD m epsilon and the fixed cutoff bounds.
+
+      \[
+      \|\nabla^{q+1}h_i(t)\|_{L^\infty(B_i')}
+      \le
+      C_{q,i}\|u(t)\|_{L^2(T^3)}^2
+      \le
+      C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Strain-sign cancellation for the weighted lifted remainder -
+      failed discharge
+    line_start: 27036
+    line_end: 27046
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27036
+    start_anchor: "\\subsection{Strain-sign cancellation for the weighted lifted remainder
+      - failed discharge}\n"
+    end_anchor: "\\subsection{Strain Tail.TTU Bad Strain Tail Definition}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Strain-sign cancellation for the weighted lifted remainder - failed discharge}
+
+      Prove strain-sign cancellation for the true weighted lifted remainder in the shell-flux route.
+
+      This term is sign-indefinite. Positive contributions occur when active-shell packets align with expanding strain eigendirections. Negative contributions occur in contracting directions. One-sided shell weights orient the scale sum, but they do not impose eigendirection cancellation.
+
+      The unweighted dyadic exchange identity cancels paired shell exchange exactly. After weights enter, the cancellation leaves an order-size mismatch and a true weighted defect. Current surfaces provide no theorem forcing that defect to oscillate, decorrelate, or cancel across active terminal packets.
+
+      The nonlinear shell-flux/source frontier remains open. The remaining supplied route is active- residual-tail control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Weight Coherence.A + Active Strain Alignment Cost.A
+      Signed-Saturation Attempt
+    line_start: 27559
+    line_end: 27595
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27559
+    start_anchor: "\\subsection{Terminal Weight Coherence.A + Active Strain Alignment
+      Cost.A Signed-Saturation Attempt}\n"
+    end_anchor: "\\subsection{Terminal Source Anti Concentration.ToUTI}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Terminal Weight Coherence.A + Active Strain Alignment Cost.A Signed-Saturation Attempt}
+
+      Equivalently, prove that each selected positive terminal source edge has a negative signed partner inside the same usable terminal record, or a legal charge for every partner that leaves the record.
+
+      \[
+      \Delta_e^{weight}=(W_P-W_{P'})J_e.
+      \]
+
+      \[
+      J(P'\to P)+J(P\to P')=0.
+      \]
+
+      \[
+      |W_P-W_{P'}|\sfcomp{26084} W_P+W_{P'}
+      \]
+
+      The direct proof from bare skewness fails because skewness applies before terminal weighting and selection.
+
+      \[
+      A_{j,k}(t)
+      :=2^{2j}\sum_{P\in\mathcal P_j}
+      (\langle S_k(x_P,t)e_P,e_P\rangle)_+|c_P(t)|^2.
+      \]
+
+      Trace-free strain still has expanding directions. If a high packet is polarized along an expanding eigenvector, then
+
+      Incompressibility gives trace cancellation across all directions. It does not force cancellation on the selected terminal packet directions. Pressure, projection, cutoff, and packet transport estimate errors and sizes; they do not produce sign depletion for the positive part.
+
+      Bare skew current proves this identity on a closed unweighted interaction graph. The selected terminal record is open after one-sided weights, lifted localization, and terminal selection. The negative partner of a selected positive edge can lie outside the selected receiver family, outside the time window, in a donor sink, or in an off-family/collar packet with order-size weighted residue.
+
+      Any one fully successful signed theorem must recover all three effects: flatten or charge terminal weights, deplete positive active strain alignment, and charge donor sinks feeding terminal receivers.
+
+      In direct Carleson language this is Scale Critical Tree Carleson.A. In Zeno language it is Zeno Square Cancellation Class Production.A. In signed-current language it is Terminal Signed Saturation.A. The current installed inputs provide no lower theorem that proves this primitive.
+
+      This is a hard stop for the present frontier loop unless a new independent theorem is added: termin
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Moving Constraint Defect Program
+    line_start: 30534
+    line_end: 30588
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30534
+    start_anchor: "\\subsection{Moving Constraint Defect Program}\n"
+    end_anchor: "\\subsection{Moving-Spill Fixed-Offset Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Moving Constraint Defect Program}
+
+      \[
+      \partial_t w+\nabla_x\pi-\nu\,\Delta_x w
+      =
+      \widetilde f
+      +
+      \nu\,\operatorname{div}_x(\eta\nabla_x w)
+      -\mu^\top\nabla_x\pi,
+      \]
+
+      \[
+      \operatorname{div}_x w
+      =
+      -\operatorname{div}_x(\mu w)
+      \,=:g.
+      \]
+
+      The natural move is to repair the nonzero divergence by a classical divergence solver in the frozen x variables.
+
+      \[
+      u:=w-\mathcal B g.
+      \]
+
+      \[
+      \operatorname{div}_x u=0.
+      \]
+
+      \[
+      g=-\operatorname{div}_x(\mu w),
+      \]
+
+      So the divergence source is not mysterious. It is a first-order bilinear defect.
+
+      This is now a genuine perturbation of classical Stokes on the standard divergence-free space.
+
+      For s> 32, this is a standard Moser/Bogovski 012d estimate. The point is that the divergence defect sits on the H s+1 part of the slab velocity record, not merely on H s.
+
+      Since the dissipative Stokes norm is x w H x s-1 w H x s , this shows the moving divergence defect is not a new operator class. It is a perturbative transport-type term once is controlled in H x s W x 1, .
+
+      This is a real gain, but it does not by itself close the bridge: the system still has a nonzero divergence constraint and the pressure defect x remains. So (9b)-(9c) should be read as a diagnostic showing the divergence defect is perturbative, not as a replacement for the Bogovski 012d/pressure package.
+
+      This is the term that decides whether the moving divergence defect can be treated perturbatively.
+
+      T 1: coefficient-time transport class; T 2: coefficient-times-time-derivative class; P: parabolic Bogovski 012d correction class.
+
+      So T 1 is not an independent source; it is a coefficient-time term driven by the same slab velocity record.
+
+      so Lemma B is perturbative once the standard Sobolev embedding controlling w L t 2W x 1, is available on the chosen depth record.
+
+      The right theorem statement is not a vague "commutator term" slogan. It is a plain same-depth product estimate on the short slab.
+
+      So at the current high-regularity route, Dahlberg-type bilinear estimates are not
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Active Strain-Alignment Cost Target Note
+    line_start: 31022
+    line_end: 31093
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31022
+    start_anchor: "\\subsection{Clay problem Active Strain-Alignment Cost Target Note}\n"
+    end_anchor: "\\subsection{Clay problem Active Amplitude Carleson.A Direct Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: "\\subsection{Clay problem Active Strain-Alignment Cost Target Note}\n\nThe
+      hard Euclidean signed gate remains after the transported tangent-weight rigidity
+      and operator-perturbation gates reduce the localized lifted defect to the frozen
+      Euclidean strain-production problem.\n\n\\[\nu_j=\\Delta_j u,\n\\qquad\na_k=\\Delta_k
+      u,\n\\qquad\nS_k=\\frac12(\\nabla a_k+\\nabla a_k^T).\n\\]\n\n\\[\nR_{j,k,\\ell}^{lift}\n\\sfcomp{29556}\n2^{2j}\n\\langle
+      \\mathcal C_j(S_k,u_j),u_j\\rangle.\n\\]\n\nwhere e P is the packet polarization.
+      Then, up to lower-order packet and commutator errors,\n\n\\[\nR_{j,k,\\ell}^{lift}\n\\sfmodel{29565}\n2^{2j}\n\\sum_{P\\in\\mathcal
+      P_j}\n\\langle S_k(x_P,t)e_P,e_P\\rangle |c_P|^2.\n\\]\n\n\\[\nA_{j,k}(t)\n:=\n2^{2j}\n\\sum_{P\\in\\mathcal
+      P_j}\n\\bigl(\\langle S_k(x_P,t)e_P,e_P\\rangle\\bigr)_+\n|c_P|^2.\n\\]\n\n\\[\n\\boxed{\n\\int_I\n\\sum_{j>N}\\sum_{k<j-M}\nW_{j,k}^{\\sigma}\nA_{j,k}(t)\\,dt\n\\le\n\\theta\n\\int_I\\sum_{q>N}D_q(t)\\,dt\n+\no_N(1),\n\\qquad
+      o_N(1)\\to0.\n}\n\\]\n\nAfter selecting a subsequence, the normalized packets
+      converge to an ancient tangent packet with unit positive strain-alignment measure.\n\nThe
+      earlier rigidity target was too strong. A frozen symmetric trace-free strain
+      field can genuinely amplify aligned packets. If S has a positive eigenvalue
+      and a packet is polarized in the expanding eigendirection, then\n\nfor every
+      finite-energy ancient tangent packet. Positive strain alignment is a real Euclidean
+      phenomenon. The only viable rigidity is terminal-generation rigidity: a terminal
+      pulse tangent with no incoming high-frequency/source mass is zero.\n\nThe tangent
+      equation is homogeneous after freezing, so the adjoint parent-or-charge identity
+      has no volume source term. A first terminal tangent pulse is so impossible once
+      earlier tangent parents are excluded.\n\nThe remaining ASAC-facing burdens are
+      packet normal form, source tether, and limit-pass pinning.\n\nOn each finite
+      interval [-R,0], this is uniformly parabolic. The no-incoming condition becomes
+      local decay of w on compact sets as s - .\n\nFirst, local compact decay as s
+      \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Adj Bessel Strain-Gauge Packet Calculus Note
+    line_start: 31357
+    line_end: 31408
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31357
+    start_anchor: "\\subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem After-ASAC Signed record Reduction}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus Note}
+
+      Weighted Adj Bessel.A is the first packet-calculus gate in the principal-flow adjoint route. It now has a required preliminary layer: Coeff Stop.A. Once this stopped packet frame is valid, Residual Pair.A is expected to be mostly Calderon--Zygmund / commutator bookkeeping in the resulting coordinates.
+
+      The active route now uses weighted adjoint Bessel as the primary theorem. It drops uniform G T control and sends strain amplification into the parent kernel from the start.
+
+      \[
+      L_{j,k}:=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+      \qquad
+      b_k=u_{\le k},
+      \]
+
+      \[
+      L_{j,k}w_j=R_{j,k}.
+      \]
+
+      \[
+      L_{j,k}^*\psi_T=0,
+      \]
+
+      \[
+      -\partial_t\psi_T-b_k\cdot\nabla\psi_T-\nu\Delta\psi_T-A_k^*\psi_T=0.
+      \]
+
+      \[
+      \boxed{
+      \left\|\sum_T c_T\psi_T\right\|_{L_t^2H_x^1}^2
+      \le C.
+      }
+      \]
+
+      Before proving the adjoint Bessel estimate, split the tile family into coefficient-good tiles and stopped tiles.
+
+      Tiles with C(T)> M are stopped at the backward time T where the terminal segment accumulates exactly M of coefficient budget. Those stopped tiles must be discharged by the same residual-charge / earlier-ancestry dichotomy used in Gain Stop.A. The dedicated theorem surface is
+
+      where A T is the sign/transposed central strain matrix needed to cancel the A k *(X T(t),t) term in the adjoint equation. The growth factor is controlled by
+
+      Coefficient stopping turns these into a perturbation bounded by \(C_{\mathrm{sf},29910}M\) in the heat-scale packet calculus.
+
+      where H T is the affine heat propagator associated to (X T,J T). The affine heat part gives
+
+      All perturbative errors generated by the affine low-flow remainder, A k(x,t)-A k(X T(t),t), and cutoff transport must be bounded by \(C_{\mathrm{sf},29914}M\) after coefficient stopping and after choosing the shell gap M large.
+
+      The representation formula then gives a normalized parent-or-charge inequality. Define normalized child mass
+
+      This is the decisive strain-amplification condition for the op
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Liouville CM Participation Bridge
+    line_start: 32529
+    line_end: 32547
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32529
+    start_anchor: "\\subsection{Clay problem B ASAC Liouville CM Participation Bridge}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC LPSC / PRD Reduced-List Audit}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem B ASAC Liouville CM Participation Bridge}
+
+      The CM-relative bridge is installed. The May 19 participation notes convert the terminal atom into an anti-atom inside retained CM, which is still different from the bare forward B ASAC Liouville theorem.
+
+      The installed bridge is Retained Pack Field NoIncoming Participation Flux.A. The stronger forward supplier version from B ASAC alone still needs a new production theorem.
+
+      \[
+      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      \]
+
+      Retained Pack Field NoIncoming Participation Flux.A says that retained Pack Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
+
+      \[
+      \mu_*^{src}(Q_R\times\{0\})=0.
+      \]
+
+      That stronger package is only needed when the goal is bare no-spike production, not when the goal is CM contrapositive exit.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Sharp Pressure Readout Elliptic Package}
+
+    \[
+    B_i'\Subset B_i\Subset 2B_i
+    \]
+
+    \[
+    m\ge N+2.
+    \]
+
+    \[
+    \|\nabla^{q+1}p\|_{L^\infty(B_i')}
+    \le C_{q,i}\,\mathcal R_{m,i}(u,p),
+    \]
+
+    where R m,i is the finite-depth readout norm supplied by ATD m epsilon, the frame record, and the periodic energy bound.
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    The cutoff derivatives are bounded by powers of r * -1 , and the derivatives of u are supplied by the ATD m epsilon readout since q<=N<=m-2.
+
+    The pressure gauge has zero spatial derivatives. The affine frame pressure potential contributes only the finite frame-record derivatives already included in ATD m epsilon.
+
+
+
+    \subsection{Sharp Pressure Readout For All Endpoint Rungs}
+
+    \[
+    B_i'\Subset B_i\Subset 2B_i,
+    \qquad
+    1\le i\le M.
+    \]
+
+    Assume ATD m epsilon supplies product-source carriers through every 0<=q<=N, and the depth condition includes the viscous slots U q+2 . Then for every endpoint rung
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+    \qquad 0\le q\le N,
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}(t)\|_{L^\infty(B_i')}
+    \le
+    C_{q,\alpha,i}
+    \|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    The product-source carrier on the right is supplied by ATD m epsilon and the fixed cutoff bounds.
+
+    \[
+    \|\nabla^{q+1}h_i(t)\|_{L^\infty(B_i')}
+    \le
+    C_{q,i}\|u(t)\|_{L^2(T^3)}^2
+    \le
+    C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+    \]
+
+
+
+    \subsection{Strain-sign cancellation for the weighted lifted remainder - failed discharge}
+
+    Prove strain-sign cancellation for the true weighted lifted remainder in the shell-flux route.
+
+    This term is sign-indefinite. Positive contributions occur when active-shell packets align with expanding strain eigendirections. Negative contributions occur in contracting directions. One-sided shell weights orient the scale sum, but they do not impose eigendirection cancellation.
+
+    The unweighted dyadic exchange identity cancels paired shell exchange exactly. After weights enter, the cancellation leaves an order-size mismatch and a true weighted defect. Current surfaces provide no theorem forcing that defect to oscillate, decorrelate, or cancel across active terminal packets.
+
+    The nonlinear shell-flux/source frontier remains open. The remaining supplied route is active- residual-tail control.
+
+
+
+    \subsection{Terminal Weight Coherence.A + Active Strain Alignment Cost.A Signed-Saturation Attempt}
+
+    Equivalently, prove that each selected positive terminal source edge has a negative signed partner inside the same usable terminal record, or a legal charge for every partner that leaves the record.
+
+    \[
+    \Delta_e^{weight}=(W_P-W_{P'})J_e.
+    \]
+
+    \[
+    J(P'\to P)+J(P\to P')=0.
+    \]
+
+    \[
+    |W_P-W_{P'}|\sfcomp{26084} W_P+W_{P'}
+    \]
+
+    The direct proof from bare skewness fails because skewness applies before terminal weighting and selection.
+
+    \[
+    A_{j,k}(t)
+    :=2^{2j}\sum_{P\in\mathcal P_j}
+    (\langle S_k(x_P,t)e_P,e_P\rangle)_+|c_P(t)|^2.
+    \]
+
+    Trace-free strain still has expanding directions. If a high packet is polarized along an expanding eigenvector, then
+
+    Incompressibility gives trace cancellation across all directions. It does not force cancellation on the selected terminal packet directions. Pressure, projection, cutoff, and packet transport estimate errors and sizes; they do not produce sign depletion for the positive part.
+
+    Bare skew current proves this identity on a closed unweighted interaction graph. The selected terminal record is open after one-sided weights, lifted localization, and terminal selection. The negative partner of a selected positive edge can lie outside the selected receiver family, outside the time window, in a donor sink, or in an off-family/collar packet with order-size weighted residue.
+
+    Any one fully successful signed theorem must recover all three effects: flatten or charge terminal weights, deplete positive active strain alignment, and charge donor sinks feeding terminal receivers.
+
+    In direct Carleson language this is Scale Critical Tree Carleson.A. In Zeno language it is Zeno Square Cancellation Class Production.A. In signed-current language it is Terminal Signed Saturation.A. The current installed inputs provide no lower theorem that proves this primitive.
+
+    This is a hard stop for the present frontier loop unless a new independent theorem is added: terminal weight rigidity, active strain-alignment depletion, parabolic no-free-sink, or an equivalent signed positive-balance theorem.
+
+
+
+    \subsection{Moving Constraint Defect Program}
+
+    \[
+    \partial_t w+\nabla_x\pi-\nu\,\Delta_x w
+    =
+    \widetilde f
+    +
+    \nu\,\operatorname{div}_x(\eta\nabla_x w)
+    -\mu^\top\nabla_x\pi,
+    \]
+
+    \[
+    \operatorname{div}_x w
+    =
+    -\operatorname{div}_x(\mu w)
+    \,=:g.
+    \]
+
+    The natural move is to repair the nonzero divergence by a classical divergence solver in the frozen x variables.
+
+    \[
+    u:=w-\mathcal B g.
+    \]
+
+    \[
+    \operatorname{div}_x u=0.
+    \]
+
+    \[
+    g=-\operatorname{div}_x(\mu w),
+    \]
+
+    So the divergence source is not mysterious. It is a first-order bilinear defect.
+
+    This is now a genuine perturbation of classical Stokes on the standard divergence-free space.
+
+    For s> 32, this is a standard Moser/Bogovski 012d estimate. The point is that the divergence defect sits on the H s+1 part of the slab velocity record, not merely on H s.
+
+    Since the dissipative Stokes norm is x w H x s-1 w H x s , this shows the moving divergence defect is not a new operator class. It is a perturbative transport-type term once is controlled in H x s W x 1, .
+
+    This is a real gain, but it does not by itself close the bridge: the system still has a nonzero divergence constraint and the pressure defect x remains. So (9b)-(9c) should be read as a diagnostic showing the divergence defect is perturbative, not as a replacement for the Bogovski 012d/pressure package.
+
+    This is the term that decides whether the moving divergence defect can be treated perturbatively.
+
+    T 1: coefficient-time transport class; T 2: coefficient-times-time-derivative class; P: parabolic Bogovski 012d correction class.
+
+    So T 1 is not an independent source; it is a coefficient-time term driven by the same slab velocity record.
+
+    so Lemma B is perturbative once the standard Sobolev embedding controlling w L t 2W x 1, is available on the chosen depth record.
+
+    The right theorem statement is not a vague "commutator term" slogan. It is a plain same-depth product estimate on the short slab.
+
+    So at the current high-regularity route, Dahlberg-type bilinear estimates are not the leading tool for Lemma C. The actual requirement is that be small on the slab in the same-depth H s record, not merely in W 1, .
+
+
+
+    \subsection{Clay problem Active Strain-Alignment Cost Target Note}
+
+    The hard Euclidean signed gate remains after the transported tangent-weight rigidity and operator-perturbation gates reduce the localized lifted defect to the frozen Euclidean strain-production problem.
+
+    \[
+    u_j=\Delta_j u,
+    \qquad
+    a_k=\Delta_k u,
+    \qquad
+    S_k=\frac12(\nabla a_k+\nabla a_k^T).
+    \]
+
+    \[
+    R_{j,k,\ell}^{lift}
+    \sfcomp{29556}
+    2^{2j}
+    \langle \mathcal C_j(S_k,u_j),u_j\rangle.
+    \]
+
+    where e P is the packet polarization. Then, up to lower-order packet and commutator errors,
+
+    \[
+    R_{j,k,\ell}^{lift}
+    \sfmodel{29565}
+    2^{2j}
+    \sum_{P\in\mathcal P_j}
+    \langle S_k(x_P,t)e_P,e_P\rangle |c_P|^2.
+    \]
+
+    \[
+    A_{j,k}(t)
+    :=
+    2^{2j}
+    \sum_{P\in\mathcal P_j}
+    \bigl(\langle S_k(x_P,t)e_P,e_P\rangle\bigr)_+
+    |c_P|^2.
+    \]
+
+    \[
+    \boxed{
+    \int_I
+    \sum_{j>N}\sum_{k<j-M}
+    W_{j,k}^{\sigma}
+    A_{j,k}(t)\,dt
+    \le
+    \theta
+    \int_I\sum_{q>N}D_q(t)\,dt
+    +
+    o_N(1),
+    \qquad o_N(1)\to0.
+    }
+    \]
+
+    After selecting a subsequence, the normalized packets converge to an ancient tangent packet with unit positive strain-alignment measure.
+
+    The earlier rigidity target was too strong. A frozen symmetric trace-free strain field can genuinely amplify aligned packets. If S has a positive eigenvalue and a packet is polarized in the expanding eigendirection, then
+
+    for every finite-energy ancient tangent packet. Positive strain alignment is a real Euclidean phenomenon. The only viable rigidity is terminal-generation rigidity: a terminal pulse tangent with no incoming high-frequency/source mass is zero.
+
+    The tangent equation is homogeneous after freezing, so the adjoint parent-or-charge identity has no volume source term. A first terminal tangent pulse is so impossible once earlier tangent parents are excluded.
+
+    The remaining ASAC-facing burdens are packet normal form, source tether, and limit-pass pinning.
+
+    On each finite interval [-R,0], this is uniformly parabolic. The no-incoming condition becomes local decay of w on compact sets as s - .
+
+    First, local compact decay as s - may be too weak by itself. Under the strain flow, mass can enter a fixed compact region from spatial infinity along contracting directions. Thus a valid terminal no-incoming hypothesis must rule out incoming mass through the full backward parabolic boundary, not merely on each fixed compact. A usable form might be a global weighted L 2 decay, a scale-localized high-frequency tail vanishing statement, or a no-flux condition on transported backward cylinders inherited from the terminal rescaling.
+
+    Second, the change of variables must be written with the correct Stokes/divergence structure. The formal transform removes the vector stretching, but the divergence constraint and pressure projection may become anisotropic rather than the standard z w=0 system. The Carleman theorem must be proved for the exact transformed system, not only for the model scalar heat equation.
+
+    This is narrower and more plausible than the rejected positive-strain-zero statement, but it remains a missing theorem.
+
+
+
+    \subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus Note}
+
+    Weighted Adj Bessel.A is the first packet-calculus gate in the principal-flow adjoint route. It now has a required preliminary layer: Coeff Stop.A. Once this stopped packet frame is valid, Residual Pair.A is expected to be mostly Calderon--Zygmund / commutator bookkeeping in the resulting coordinates.
+
+    The active route now uses weighted adjoint Bessel as the primary theorem. It drops uniform G T control and sends strain amplification into the parent kernel from the start.
+
+    \[
+    L_{j,k}:=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+    \qquad
+    b_k=u_{\le k},
+    \]
+
+    \[
+    L_{j,k}w_j=R_{j,k}.
+    \]
+
+    \[
+    L_{j,k}^*\psi_T=0,
+    \]
+
+    \[
+    -\partial_t\psi_T-b_k\cdot\nabla\psi_T-\nu\Delta\psi_T-A_k^*\psi_T=0.
+    \]
+
+    \[
+    \boxed{
+    \left\|\sum_T c_T\psi_T\right\|_{L_t^2H_x^1}^2
+    \le C.
+    }
+    \]
+
+    Before proving the adjoint Bessel estimate, split the tile family into coefficient-good tiles and stopped tiles.
+
+    Tiles with C(T)> M are stopped at the backward time T where the terminal segment accumulates exactly M of coefficient budget. Those stopped tiles must be discharged by the same residual-charge / earlier-ancestry dichotomy used in Gain Stop.A. The dedicated theorem surface is
+
+    where A T is the sign/transposed central strain matrix needed to cancel the A k *(X T(t),t) term in the adjoint equation. The growth factor is controlled by
+
+    Coefficient stopping turns these into a perturbation bounded by \(C_{\mathrm{sf},29910}M\) in the heat-scale packet calculus.
+
+    where H T is the affine heat propagator associated to (X T,J T). The affine heat part gives
+
+    All perturbative errors generated by the affine low-flow remainder, A k(x,t)-A k(X T(t),t), and cutoff transport must be bounded by \(C_{\mathrm{sf},29914}M\) after coefficient stopping and after choosing the shell gap M large.
+
+    The representation formula then gives a normalized parent-or-charge inequality. Define normalized child mass
+
+    This is the decisive strain-amplification condition for the optional unweighted Adj Bessel.A; it is not required by the primary weighted route.
+
+    This is now only an optional shortcut. The main route no longer depends on proving (GT).
+
+    Equivalently, in normalized-mass language the same gate is the contraction of the inherited parent contribution after stopping-time pruning.
+
+
+
+    \subsection{Clay problem B ASAC Liouville CM Participation Bridge}
+
+    The CM-relative bridge is installed. The May 19 participation notes convert the terminal atom into an anti-atom inside retained CM, which is still different from the bare forward B ASAC Liouville theorem.
+
+    The installed bridge is Retained Pack Field NoIncoming Participation Flux.A. The stronger forward supplier version from B ASAC alone still needs a new production theorem.
+
+    \[
+    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    \]
+
+    Retained Pack Field NoIncoming Participation Flux.A says that retained Pack Q and retained Field N,r,Q remove the incoming participation-flux alternative. Incoming flux through failed transported packet geometry is a Pack exit, and incoming flux through retained geometry as source-current mismatch is a Field exit.
+
+    \[
+    \mu_*^{src}(Q_R\times\{0\})=0.
+    \]
+
+    That stronger package is only needed when the goal is bare no-spike production, not when the goal is CM contrapositive exit.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sharp Pressure Readout Elliptic Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25792
+  line_start: 25792
+  line_end: 25823
+  start_anchor: "\\subsection{Sharp Pressure Readout Elliptic Package}\n"
+  end_anchor: "\\subsection{Sharp Pressure Readout For All Endpoint Rungs}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sharp Pressure Readout Elliptic
+    Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25792
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sharp Pressure Readout For All Endpoint Rungs
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25824
+  line_start: 25824
+  line_end: 25862
+  start_anchor: "\\subsection{Sharp Pressure Readout For All Endpoint Rungs}\n"
+  end_anchor: "\\subsection{Signed commutator plus residual-tail direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sharp Pressure Readout For All
+    Endpoint Rungs as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25824
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Strain-sign cancellation for the weighted lifted remainder - failed
+    discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27036
+  line_start: 27036
+  line_end: 27046
+  start_anchor: "\\subsection{Strain-sign cancellation for the weighted lifted remainder
+    - failed discharge}\n"
+  end_anchor: "\\subsection{Strain Tail.TTU Bad Strain Tail Definition}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Strain-sign cancellation for
+    the weighted lifted remainder - failed discharge as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27036
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Weight Coherence.A + Active Strain Alignment Cost.A Signed-Saturation
+    Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27559
+  line_start: 27559
+  line_end: 27595
+  start_anchor: "\\subsection{Terminal Weight Coherence.A + Active Strain Alignment
+    Cost.A Signed-Saturation Attempt}\n"
+  end_anchor: "\\subsection{Terminal Source Anti Concentration.ToUTI}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Weight Coherence.A +
+    Active Strain Alignment Cost.A Signed-Saturation Attempt as paper-ready TeX with
+    proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27559
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Moving Constraint Defect Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30534
+  line_start: 30534
+  line_end: 30588
+  start_anchor: "\\subsection{Moving Constraint Defect Program}\n"
+  end_anchor: "\\subsection{Moving-Spill Fixed-Offset Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Moving Constraint Defect Program
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30534
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Active Strain-Alignment Cost Target Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31022
+  line_start: 31022
+  line_end: 31093
+  start_anchor: "\\subsection{Clay problem Active Strain-Alignment Cost Target Note}\n"
+  end_anchor: "\\subsection{Clay problem Active Amplitude Carleson.A Direct Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Active Strain-Alignment
+    Cost Target Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31022
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Adj Bessel Strain-Gauge Packet Calculus Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31357
+  line_start: 31357
+  line_end: 31408
+  start_anchor: "\\subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem After-ASAC Signed record Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Adj Bessel Strain-Gauge
+    Packet Calculus Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31357
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Liouville CM Participation Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32529
+  line_start: 32529
+  line_end: 32547
+  start_anchor: "\\subsection{Clay problem B ASAC Liouville CM Participation Bridge}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC LPSC / PRD Reduced-List Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Liouville
+    CM Participation Bridge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32529
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-05
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-pressure-and-participation-05.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

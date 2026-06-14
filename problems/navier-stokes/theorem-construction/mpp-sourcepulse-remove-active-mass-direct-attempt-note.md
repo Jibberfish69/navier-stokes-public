@@ -20,7 +20,7 @@ For the terminal source-pulse packet
 ```math
 \mathcal P_n=(Q_n^\Phi,j_n,I_n),
 \qquad
-|I_n|\simeq 2^{-2j_n},
+|I_n|=2^{-2j_n},
 \qquad
 t_n\uparrow T_\ast,
 ```
@@ -85,4 +85,3 @@ OriginalSmoothData
 SourcePulseExclusion.A.
 }
 ```
-

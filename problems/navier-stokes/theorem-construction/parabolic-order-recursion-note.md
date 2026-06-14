@@ -64,7 +64,7 @@ The natural order law for the classical equation is **parabolic order**:
 This is forced by the equality
 
 ```math
-\partial_t u \sim \nu\Delta u,
+\partial_t u = \nu\Delta u,
 \tag{3}
 ```
 
@@ -133,7 +133,7 @@ So each differentiated equation says:
 
 That is the exact cross-order structure.
 
-## Pressure at the same order law
+## Pressure at the matched parabolic order law
 
 Pressure is not independent.
 It satisfies
@@ -158,7 +158,7 @@ c_{m,\alpha}^{m_1,\alpha_1}
 Again the total parabolic order on the right is exactly `N+2`, matching the
 left.
 
-So the pressure constraint preserves the same order bookkeeping.
+So the pressure constraint preserves the matched parabolic-order bookkeeping.
 
 ## Infinite ordered energy tower
 
@@ -182,7 +182,7 @@ Define the corresponding dissipative level
 \tag{10}
 ```
 
-Then the differentiated energy identity has schematic form
+Then the differentiated energy identity has the form
 
 ```math
 \frac12\frac{d}{dt}\mathcal E_N
@@ -207,7 +207,7 @@ It is built from ordered products:
 
 ```math
 \mathcal N_N
-\sim
+:=
 \sum_{a+b=N+1}
 \text{Bil}\big(\mathcal E_a,\mathcal E_b\big).
 \tag{12}

@@ -1,0 +1,1103 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-opening-source-stack-01
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-opening-source-stack-01
+  sequence: 1
+  group_id: opening-source-stack
+  title: Opening source stack 1
+  author_job: write why this source-field material exists and what role it can pay
+    in the paper
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 82
+  line_end: 45111
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:82
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1117
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1185
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16120
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29808
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41674
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45065
+  subsection_titles:
+  - Canonical Source Stack And Original Framework
+  - Canonical-Center Atlas Admissibility Reduction
+  - Canonical-Center Localized Projector Atlas Eliminates Overlap Mismatch
+  - Canonical PCTP Hard Bridge From Averaged Terminal Tail Route
+  - Measurable Selected Center Field Reduces Canonical Atlas Admissibility
+  - Clay problem M Q Local Membership Canonical Surface
+  - Clay problem Pack-Part-Field Canonicality Reduction Note
+  - Pctp Hard Canonical V2 Failure Modes Export Release Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Canonical Source Stack And Original Framework
+    line_start: 82
+    line_end: 107
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:82
+    start_anchor: "\\subsection{Canonical Source Stack And Original Framework}\n"
+    end_anchor: "\\subsection{A1a Full-Data Euclidean Lift Coverage}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Canonical Source Stack And Original Framework}
+
+      The older source stack is part of the record because it fixes what later
+      source-field work was trying to preserve. It is not an independent proof of the
+      Clay conclusion. Its reader-facing use is more modest: it tells the manuscript
+      which route features are source-fidelity requirements and which later features
+      are replacements or upgrades.
+
+      The original framework has four main principles. The monotone functional
+      \(Q(t)\) is one of those principles; it is not anonymous energy bookkeeping. The
+      compactness bridge is an Aubin--Lions-type strong-convergence claim in
+      \(L^2\), but the source version relies on spectral decay together with bounded
+      energy, not on an ordinary Sobolev embedding. The gradient bridge in the source
+      family is curvature-based. Later Euclidean gradient-transfer packages can be
+      useful, but they are theorem replacements unless they explicitly recover the
+      same curvature role.
+
+      This is why the appendix keeps the source stack separate from the main proof.
+      The main proof may use later Euclidean or CM replacements, but the page must not
+      pretend that those replacements were already present in the original source
+      framework. A source-faithful use of this material keeps \(Q(t)\), the
+      non-Sobolev compactness claim, and the curvature-based gradient bridge visible.
+      A later theorem may outrank the old source route only after it pays the same
+      same-solution terminal-test cost used in the main proof.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Canonical-Center Atlas Admissibility Reduction
+    line_start: 1117
+    line_end: 1184
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1117
+    start_anchor: "\\subsection{Canonical-Center Atlas Admissibility Reduction}\n"
+    end_anchor: "\\subsection{Canonical-Center Localized Projector Atlas Eliminates
+      Overlap Mismatch}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Canonical-Center Atlas Admissibility Reduction}
+
+      The stronger canonical-center localized-projector route needs one comparison
+      before it can use a canonical projector field.  The installed PSJ+.22 estimates
+      live on the original local packet windows, so the proof has to show that those
+      windows are admissible for the canonical-center packet.  The missing input is
+      exactly that admissibility theorem.
+
+      \[
+      \frac1{m_\ell}
+      \int_{\Lambda_\ell}
+      w_\ell(z)\,
+      d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_{J,\ell}(z)\bigr)^2
+      d\mu_J(z)
+      \le
+      \varepsilon_\ell.
+      \]
+
+      \[
+      \mathfrak a_{J,\ell}(z)
+      :=
+      d_{\mathrm{proj}}\!\bigl(
+      \widehat P_{J,\ell}(z),\widehat P_J^{can}(z)
+      \bigr)^2.
+      \]
+
+      \[
+      \frac1{m_\ell}
+      \int_{\Lambda_\ell}
+      w_\ell(z)\,
+      d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_J^{can}(z)\bigr)^2
+      d\mu_J(z)
+      \le
+      2\varepsilon_\ell
+      \,
+      \frac{2}{m_\ell}
+      \int_{\Lambda_\ell}
+      w_\ell(z)\,\mathfrak a_{J,\ell}(z)\,d\mu_J(z).
+      \]
+
+      \[
+      d_{\mathrm{proj}}\!\bigl(P_J,\widehat P_J^{can}\bigr)^2
+      \le
+      2\,d_{\mathrm{proj}}\!\bigl(P_J,\widehat P_{J,\ell}\bigr)^2
+      +
+      2\,d_{\mathrm{proj}}\!\bigl(\widehat P_{J,\ell},\widehat P_J^{can}\bigr)^2.
+      \]
+
+      \[
+      \int
+      d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_J^{can}(z)\bigr)^2
+      d\mu_J(z)
+      \le
+      2\sum_\ell m_\ell\varepsilon_\ell
+      +
+      2\sum_\ell
+      \int_{\Lambda_\ell}w_\ell(z)\,\mathfrak a_{J,\ell}(z)\,d\mu_J(z).
+      \]
+
+      The displayed inequalities show the reduction: canonical-center admissibility
+      follows once the atlas controls the comparison defect \(\mathfrak a_{J,\ell}\).
+      A Davis--Kahan projector comparison can supply this comparison from an
+      operator-gap estimate between the local and canonical symmetric surrogates.
+      That operator-gap estimate is the actual missing theorem.  The reduction pays
+      carrier-selection support for the stronger atlas route.  Scalar source closure
+      requires its own source packet and payment.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Canonical-Center Localized Projector Atlas Eliminates Overlap
+      Mismatch
+    line_start: 1185
+    line_end: 1235
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1185
+    start_anchor: "\\subsection{Canonical-Center Localized Projector Atlas Eliminates
+      Overlap Mismatch}\n"
+    end_anchor: "\\subsection{Cap-Null Coercivity-Rigidity Globalization Program}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Canonical-Center Localized Projector Atlas Eliminates Overlap Mismatch}
+
+      This is the stronger sufficient realization note for the localized-projector
+      exact-potential branch. It explains what the canonical center-field atlas would
+      buy and what it would leave untouched.
+
+      The overlap wall comes from allowing the local atlas to carry different local
+      PSD sections on overlapping windows.
+
+      There is a stricter packet realization in which all overlapping windows use the same localized-projector section, built from one canonical measurable center field. On that realization, overlap mismatch vanishes identically.
+
+      \[
+      c_J:Z_J\to \mathbf R^3.
+      \]
+
+      \[
+      w_{J}^{can}(z,p)
+      :=
+      \chi_J(z,p)\,
+      \phi_r\!\bigl(c_J(z)-m_p(t)\bigr)\,
+      \psi_\rho(z,p)\,
+      \alpha(z,p),
+      \]
+
+      \[
+      m_J^{can}(z)
+      :=
+      \int_{\mathcal P_J(z)} w_J^{can}(z,p)\,d\bar\nu_{J,z}(p),
+      \]
+
+      \[
+      \widetilde S_J^{can}(z)
+      :=
+      \int_{\mathcal P_J(z)}
+      w_J^{can}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+      \]
+
+      \[
+      \widehat P_J^{can}(z):=\Pi_{\max}\bigl(\widetilde S_J^{can}(z)\bigr).
+      \]
+
+      The redesign fixes the projector atlas rather than the scalar entrance/forcing
+      packets.
+
+      On this realization, the overlap-mismatch wall disappears for the projector
+      atlas. The scalar entrance and forcing packets still keep their own burdens.
+      Thus the localized-projector globalization channel closes only for the
+      projector-overlap problem.  The scalar source route still needs its own packet,
+      readout, or first-face payment.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Canonical PCTP Hard Bridge From Averaged Terminal Tail Route
+    line_start: 16120
+    line_end: 16134
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16120
+    start_anchor: "\\subsection{Canonical PCTP Hard Bridge From Averaged Terminal
+      Tail Route}\n"
+    end_anchor: "\\subsection{Cascade Route Handoff From PST.A to Proof Dependency
+      5}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Canonical PCTP Hard Bridge From Averaged Terminal Tail Route}
+
+      Start with original smooth periodic data on a same-fluid terminal approach
+      tail. The averaged-good split gives
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}\vee \neg \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      The averaged endpoint rows remove the non-\(\mathrm{Jump}_{avg}\) faces:
+      tower-blown averaged behavior, packing-detached behavior, and dead same-fluid
+      carrier behavior. The surviving live branch is the averaged jump branch unless
+      a no-escape supplier consumes it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Measurable Selected Center Field Reduces Canonical Atlas Admissibility
+    line_start: 29808
+    line_end: 29848
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29808
+    start_anchor: "\\subsection{Measurable Selected Center Field Reduces Canonical
+      Atlas Admissibility}\n"
+    end_anchor: "\\subsection{Meso-Scale Shear Inefficiency Theorem}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Measurable Selected Center Field Reduces Canonical Atlas Admissibility}
+
+      Active theorem-facing reduction note for the stronger canonical-center localized-projector branch.
+
+      Role: show that the canonical-center atlas admissibility theorem is not a new independent geometry wall once the shared center field is chosen by measurable selection from the existing local centers.
+
+      But if the shared center field is selected from the already-installed local window centers, then admissibility is controlled by the same overlap center-spacing theorem that appears on the honest default route.
+
+      \[
+      c_{J,\ell}(z)\in\mathbf R^3
+      \]
+
+      \[
+      \iota(z)\in\{\ell:\ z\in\Lambda_\ell\}
+      \]
+
+      \[
+      c_J^{sel}(z):=c_{J,\iota(z)}(z).
+      \]
+
+      \[
+      |c_{J,\ell}(z)-c_{J,\ell'}(z)|
+      \le
+      \sigma_J(z)
+      \qquad
+      \text{whenever }z\in\Lambda_\ell\cap\Lambda_{\ell'}.
+      \]
+
+      \[
+      |c_{J,\ell}(z)-c_J^{sel}(z)|
+      \le
+      \sigma_J(z).
+      \]
+
+      The stronger canonical-center route repackages the same geometric wall when the center field is built by measurable selection from the existing local centers.
+
+      So the stronger route is a repackaging of the same center-spacing geometry, not an escape from it, unless one can prove a better canonical center field directly.
+
+      then collapses both routes to the same weighted small-radius budget when the localizer is chosen compactly supported and Lipschitz at scale r J.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem M Q Local Membership Canonical Surface
+    line_start: 41674
+    line_end: 41716
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41674
+    start_anchor: "\\subsection{Clay problem M Q Local Membership Canonical Surface}\n"
+    end_anchor: "\\subsection{Msc Badac Energy Measure Countermodel Note}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Clay problem M Q Local Membership Canonical Surface}
+
+      Canonical local membership surface for the current Navier-Stokes terminal-tail route.
+
+      \[
+      \boxed{
+      M_Q(u,p):=Pack_Q\wedge Part_Q\wedge Field_Q.
+      }
+      \]
+
+      \[
+      CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      Here N is the route depth and r>0 is the pointwise coherence scale. Thus M Q is the notation-clean local membership face, while CM N,r,Q is the theorem-route certificate carrying the depth and scale parameters.
+
+      \[
+      Dead,
+      \qquad
+      packing\text{-}detached,
+      \qquad
+      tower\text{-}blown,
+      \qquad
+      Jump.
+      \]
+
+      On a retained terminal branch, End NS preserves the pointwise membership data needed for M Q(u,p). The route flow is
+
+      \[
+      s>\frac52.
+      \]
+
+      Pack Q supplies bounded transported finite-cover geometry and finite overlap. Part Q keeps the tower attached to the same retained fluid object. Field Q supplies pointwise one-field coherence and finite-depth tower control.
+
+      \[
+      M_Q(u,p)
+      \Longrightarrow
+      \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
+      \]
+
+      M Q is a pointwise membership export. In the averaged terminal-tail route, it appears after
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pack-Part-Field Canonicality Reduction Note
+    line_start: 43964
+    line_end: 44014
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
+    start_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Pack-Part-Field Ontological Collapse Question}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |
+      \subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}
+
+      No final theorem is claimed that the triad is the uniquely correct decomposition among all conceivable reformulations.
+
+      and, if one asks for more than lawful regrouping collapse, reduce the remaining failure to one exact unreduced obstruction.
+
+      Use only the triadicity audit note and the installed inputs it cites as route authority.
+
+      \[
+      (u,p,\Phi,F),
+      \qquad
+      F:=\nabla_a\Phi.
+      \]
+
+      \[
+      h(a,r,t):=\Phi(a+r,t)-\Phi(a,t)
+      \]
+
+      \[
+      U_k:=\nabla^k u,
+      \qquad
+      K_k:=-\nabla^{k+1}p+\nu\Delta U_k
+      \]
+
+      So a candidate primitive factorization may speak through those derived readouts, but it may not count them as additional primitive carriers distinct from (u,p, ,F).
+
+      So any primitive law speaking through transported geometry must still be a law of the same field carried by ( ,F) and its derived finite-separation readout h.
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j),
+      \]
+
+      and in the class-membership reading it acts inside the common participation law rather than as a separate free primitive.
+
+      So no fourth primitive law may be introduced by declaring "pressure law" as an independent primitive source surface.
+
+      Finite separation, tower records, neighboring-difference records, selector packets, exact-potential projectors, Hodge/normal-covector readouts, YM-heat carriers, and Euclidean export conditions are derived readouts, downstream consumers, or auxiliary suppliers once (u,p, ,F) is fixed.
+
+      The finite-separation law does not create a fourth family because h is the finite form of the same deformation geometry already tied to F.
+
+      Pressure does not split off as a fourth family because pressure closure is already bound into this same carrier law.
+
+      \[
+      \mathcal P=\{L_j\}_{j\in J}
+      \]
+
+      Within the installed stable-carrier architecture, any lawful primitive local-law factorization built from the same carried structures (u,p, ,F) is triad-generated.
+
+      So the triad is not merely a convenient list. It is the current lawful closure of the
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Canonical V2 Failure Modes Export Release Note
+    line_start: 45065
+    line_end: 45111
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45065
+    start_anchor: "\\subsection{Pctp Hard Canonical V2 Failure Modes Export Release
+      Note}\n"
+    end_anchor: "\\subsection{Pctp Hard Cover Degeneration As Jump Avg}\n"
+    include_end_anchor: false
+    group_id: opening-source-stack
+    text: |+
+      \subsection{Pctp Hard Canonical V2 Failure Modes Export Release Note}
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+      \quad\vee\quad
+      \inf r_{\mathrm{good}}=0
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}},
+      \]
+
+      \[
+      \rho_*:=\theta_m r_*>0.
+      \]
+
+      \[
+      D^+X_{j,p}+cN_{j,p}
+      \le
+      B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p}.
+      \]
+
+      Discharge: the local inequality uses common constants c and C X after the finite family has been normalized to the route scale. Choose
+
+      \[
+      C_X(2\eta_X)^{1/2}\le c/2.
+      \]
+
+      \[
+      B_*:=\sum_{j,p}\mathbf 1_{I_j}B_{j,p},
+      \qquad
+      F_*:=\sum_{j,p}\mathbf 1_{I_j}F_{j,p}.
+      \]
+
+      The bounds are independent of ; passing to T T * gives the terminal interval statement. The route uses uniform estimates on all compact terminal subtails and terminal exhaustion.
+
+      Gronwall and the scheduler-cell condition give X j,p 2 X; strict exit is impossible, and right-continuity closes contact cases.
+
+      Let B i' B i Q r i be a readout ball inside a same-fluid good cylinder. Choose i C c (B i) with i=1 on B i'. Split the pressure by
+
+      Here C i depends on the fixed shrink ratio and the bounded same-fluid geometry. The finite cover gives a finite maximum of these constants.
+
+      Pack gives bounded transported finite-cover geometry. Part keeps tower data on the same retained fluid object. Field gives pointwise finite-depth tower and one-field coherence through depth dominating s.
+
+      Since s>5/2, this is a standard classical continuation norm. Thus the route-native class witness exports to the usual PDE continuation criterion.
+
+      Whole-space, nonzero-force, and non-periodic variants are export branches requiring separate target-fidelity bridges.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Canonical Source Stack And Original Framework}
+
+    The older source stack is part of the record because it fixes what later
+    source-field work was trying to preserve. It is not an independent proof of the
+    Clay conclusion. Its reader-facing use is more modest: it tells the manuscript
+    which route features are source-fidelity requirements and which later features
+    are replacements or upgrades.
+
+    The original framework has four main principles. The monotone functional
+    \(Q(t)\) is one of those principles; it is not anonymous energy bookkeeping. The
+    compactness bridge is an Aubin--Lions-type strong-convergence claim in
+    \(L^2\), but the source version relies on spectral decay together with bounded
+    energy, not on an ordinary Sobolev embedding. The gradient bridge in the source
+    family is curvature-based. Later Euclidean gradient-transfer packages can be
+    useful, but they are theorem replacements unless they explicitly recover the
+    same curvature role.
+
+    This is why the appendix keeps the source stack separate from the main proof.
+    The main proof may use later Euclidean or CM replacements, but the page must not
+    pretend that those replacements were already present in the original source
+    framework. A source-faithful use of this material keeps \(Q(t)\), the
+    non-Sobolev compactness claim, and the curvature-based gradient bridge visible.
+    A later theorem may outrank the old source route only after it pays the same
+    same-solution terminal-test cost used in the main proof.
+
+
+
+    \subsection{Canonical-Center Atlas Admissibility Reduction}
+
+    The stronger canonical-center localized-projector route needs one comparison
+    before it can use a canonical projector field.  The installed PSJ+.22 estimates
+    live on the original local packet windows, so the proof has to show that those
+    windows are admissible for the canonical-center packet.  The missing input is
+    exactly that admissibility theorem.
+
+    \[
+    \frac1{m_\ell}
+    \int_{\Lambda_\ell}
+    w_\ell(z)\,
+    d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_{J,\ell}(z)\bigr)^2
+    d\mu_J(z)
+    \le
+    \varepsilon_\ell.
+    \]
+
+    \[
+    \mathfrak a_{J,\ell}(z)
+    :=
+    d_{\mathrm{proj}}\!\bigl(
+    \widehat P_{J,\ell}(z),\widehat P_J^{can}(z)
+    \bigr)^2.
+    \]
+
+    \[
+    \frac1{m_\ell}
+    \int_{\Lambda_\ell}
+    w_\ell(z)\,
+    d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_J^{can}(z)\bigr)^2
+    d\mu_J(z)
+    \le
+    2\varepsilon_\ell
+    \,
+    \frac{2}{m_\ell}
+    \int_{\Lambda_\ell}
+    w_\ell(z)\,\mathfrak a_{J,\ell}(z)\,d\mu_J(z).
+    \]
+
+    \[
+    d_{\mathrm{proj}}\!\bigl(P_J,\widehat P_J^{can}\bigr)^2
+    \le
+    2\,d_{\mathrm{proj}}\!\bigl(P_J,\widehat P_{J,\ell}\bigr)^2
+    +
+    2\,d_{\mathrm{proj}}\!\bigl(\widehat P_{J,\ell},\widehat P_J^{can}\bigr)^2.
+    \]
+
+    \[
+    \int
+    d_{\mathrm{proj}}\!\bigl(P_J(z),\widehat P_J^{can}(z)\bigr)^2
+    d\mu_J(z)
+    \le
+    2\sum_\ell m_\ell\varepsilon_\ell
+    +
+    2\sum_\ell
+    \int_{\Lambda_\ell}w_\ell(z)\,\mathfrak a_{J,\ell}(z)\,d\mu_J(z).
+    \]
+
+    The displayed inequalities show the reduction: canonical-center admissibility
+    follows once the atlas controls the comparison defect \(\mathfrak a_{J,\ell}\).
+    A Davis--Kahan projector comparison can supply this comparison from an
+    operator-gap estimate between the local and canonical symmetric surrogates.
+    That operator-gap estimate is the actual missing theorem.  The reduction pays
+    carrier-selection support for the stronger atlas route.  Scalar source closure
+    requires its own source packet and payment.
+
+
+
+    \subsection{Canonical-Center Localized Projector Atlas Eliminates Overlap Mismatch}
+
+    This is the stronger sufficient realization note for the localized-projector
+    exact-potential branch. It explains what the canonical center-field atlas would
+    buy and what it would leave untouched.
+
+    The overlap wall comes from allowing the local atlas to carry different local
+    PSD sections on overlapping windows.
+
+    There is a stricter packet realization in which all overlapping windows use the same localized-projector section, built from one canonical measurable center field. On that realization, overlap mismatch vanishes identically.
+
+    \[
+    c_J:Z_J\to \mathbf R^3.
+    \]
+
+    \[
+    w_{J}^{can}(z,p)
+    :=
+    \chi_J(z,p)\,
+    \phi_r\!\bigl(c_J(z)-m_p(t)\bigr)\,
+    \psi_\rho(z,p)\,
+    \alpha(z,p),
+    \]
+
+    \[
+    m_J^{can}(z)
+    :=
+    \int_{\mathcal P_J(z)} w_J^{can}(z,p)\,d\bar\nu_{J,z}(p),
+    \]
+
+    \[
+    \widetilde S_J^{can}(z)
+    :=
+    \int_{\mathcal P_J(z)}
+    w_J^{can}(z,p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+    \]
+
+    \[
+    \widehat P_J^{can}(z):=\Pi_{\max}\bigl(\widetilde S_J^{can}(z)\bigr).
+    \]
+
+    The redesign fixes the projector atlas rather than the scalar entrance/forcing
+    packets.
+
+    On this realization, the overlap-mismatch wall disappears for the projector
+    atlas. The scalar entrance and forcing packets still keep their own burdens.
+    Thus the localized-projector globalization channel closes only for the
+    projector-overlap problem.  The scalar source route still needs its own packet,
+    readout, or first-face payment.
+
+
+
+    \subsection{Canonical PCTP Hard Bridge From Averaged Terminal Tail Route}
+
+    Start with original smooth periodic data on a same-fluid terminal approach
+    tail. The averaged-good split gives
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}\vee \neg \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    The averaged endpoint rows remove the non-\(\mathrm{Jump}_{avg}\) faces:
+    tower-blown averaged behavior, packing-detached behavior, and dead same-fluid
+    carrier behavior. The surviving live branch is the averaged jump branch unless
+    a no-escape supplier consumes it.
+
+
+
+    \subsection{Measurable Selected Center Field Reduces Canonical Atlas Admissibility}
+
+    Active theorem-facing reduction note for the stronger canonical-center localized-projector branch.
+
+    Role: show that the canonical-center atlas admissibility theorem is not a new independent geometry wall once the shared center field is chosen by measurable selection from the existing local centers.
+
+    But if the shared center field is selected from the already-installed local window centers, then admissibility is controlled by the same overlap center-spacing theorem that appears on the honest default route.
+
+    \[
+    c_{J,\ell}(z)\in\mathbf R^3
+    \]
+
+    \[
+    \iota(z)\in\{\ell:\ z\in\Lambda_\ell\}
+    \]
+
+    \[
+    c_J^{sel}(z):=c_{J,\iota(z)}(z).
+    \]
+
+    \[
+    |c_{J,\ell}(z)-c_{J,\ell'}(z)|
+    \le
+    \sigma_J(z)
+    \qquad
+    \text{whenever }z\in\Lambda_\ell\cap\Lambda_{\ell'}.
+    \]
+
+    \[
+    |c_{J,\ell}(z)-c_J^{sel}(z)|
+    \le
+    \sigma_J(z).
+    \]
+
+    The stronger canonical-center route repackages the same geometric wall when the center field is built by measurable selection from the existing local centers.
+
+    So the stronger route is a repackaging of the same center-spacing geometry, not an escape from it, unless one can prove a better canonical center field directly.
+
+    then collapses both routes to the same weighted small-radius budget when the localizer is chosen compactly supported and Lipschitz at scale r J.
+
+
+
+    \subsection{Clay problem M Q Local Membership Canonical Surface}
+
+    Canonical local membership surface for the current Navier-Stokes terminal-tail route.
+
+    \[
+    \boxed{
+    M_Q(u,p):=Pack_Q\wedge Part_Q\wedge Field_Q.
+    }
+    \]
+
+    \[
+    CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    Here N is the route depth and r>0 is the pointwise coherence scale. Thus M Q is the notation-clean local membership face, while CM N,r,Q is the theorem-route certificate carrying the depth and scale parameters.
+
+    \[
+    Dead,
+    \qquad
+    packing\text{-}detached,
+    \qquad
+    tower\text{-}blown,
+    \qquad
+    Jump.
+    \]
+
+    On a retained terminal branch, End NS preserves the pointwise membership data needed for M Q(u,p). The route flow is
+
+    \[
+    s>\frac52.
+    \]
+
+    Pack Q supplies bounded transported finite-cover geometry and finite overlap. Part Q keeps the tower attached to the same retained fluid object. Field Q supplies pointwise one-field coherence and finite-depth tower control.
+
+    \[
+    M_Q(u,p)
+    \Longrightarrow
+    \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
+    \]
+
+    M Q is a pointwise membership export. In the averaged terminal-tail route, it appears after
+
+
+
+    \subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}
+
+    No final theorem is claimed that the triad is the uniquely correct decomposition among all conceivable reformulations.
+
+    and, if one asks for more than lawful regrouping collapse, reduce the remaining failure to one exact unreduced obstruction.
+
+    Use only the triadicity audit note and the installed inputs it cites as route authority.
+
+    \[
+    (u,p,\Phi,F),
+    \qquad
+    F:=\nabla_a\Phi.
+    \]
+
+    \[
+    h(a,r,t):=\Phi(a+r,t)-\Phi(a,t)
+    \]
+
+    \[
+    U_k:=\nabla^k u,
+    \qquad
+    K_k:=-\nabla^{k+1}p+\nu\Delta U_k
+    \]
+
+    So a candidate primitive factorization may speak through those derived readouts, but it may not count them as additional primitive carriers distinct from (u,p, ,F).
+
+    So any primitive law speaking through transported geometry must still be a law of the same field carried by ( ,F) and its derived finite-separation readout h.
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j),
+    \]
+
+    and in the class-membership reading it acts inside the common participation law rather than as a separate free primitive.
+
+    So no fourth primitive law may be introduced by declaring "pressure law" as an independent primitive source surface.
+
+    Finite separation, tower records, neighboring-difference records, selector packets, exact-potential projectors, Hodge/normal-covector readouts, YM-heat carriers, and Euclidean export conditions are derived readouts, downstream consumers, or auxiliary suppliers once (u,p, ,F) is fixed.
+
+    The finite-separation law does not create a fourth family because h is the finite form of the same deformation geometry already tied to F.
+
+    Pressure does not split off as a fourth family because pressure closure is already bound into this same carrier law.
+
+    \[
+    \mathcal P=\{L_j\}_{j\in J}
+    \]
+
+    Within the installed stable-carrier architecture, any lawful primitive local-law factorization built from the same carried structures (u,p, ,F) is triad-generated.
+
+    So the triad is not merely a convenient list. It is the current lawful closure of the primitive source surface on the same stable carriers.
+
+
+
+    \subsection{Pctp Hard Canonical V2 Failure Modes Export Release Note}
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+    \quad\vee\quad
+    \inf r_{\mathrm{good}}=0
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}},
+    \]
+
+    \[
+    \rho_*:=\theta_m r_*>0.
+    \]
+
+    \[
+    D^+X_{j,p}+cN_{j,p}
+    \le
+    B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p}.
+    \]
+
+    Discharge: the local inequality uses common constants c and C X after the finite family has been normalized to the route scale. Choose
+
+    \[
+    C_X(2\eta_X)^{1/2}\le c/2.
+    \]
+
+    \[
+    B_*:=\sum_{j,p}\mathbf 1_{I_j}B_{j,p},
+    \qquad
+    F_*:=\sum_{j,p}\mathbf 1_{I_j}F_{j,p}.
+    \]
+
+    The bounds are independent of ; passing to T T * gives the terminal interval statement. The route uses uniform estimates on all compact terminal subtails and terminal exhaustion.
+
+    Gronwall and the scheduler-cell condition give X j,p 2 X; strict exit is impossible, and right-continuity closes contact cases.
+
+    Let B i' B i Q r i be a readout ball inside a same-fluid good cylinder. Choose i C c (B i) with i=1 on B i'. Split the pressure by
+
+    Here C i depends on the fixed shrink ratio and the bounded same-fluid geometry. The finite cover gives a finite maximum of these constants.
+
+    Pack gives bounded transported finite-cover geometry. Part keeps tower data on the same retained fluid object. Field gives pointwise finite-depth tower and one-field coherence through depth dominating s.
+
+    Since s>5/2, this is a standard classical continuation norm. Thus the route-native class witness exports to the usual PDE continuation criterion.
+
+    Whole-space, nonzero-force, and non-periodic variants are export branches requiring separate target-fidelity bridges.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Canonical Source Stack And Original Framework
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:82
+  line_start: 82
+  line_end: 107
+  start_anchor: "\\subsection{Canonical Source Stack And Original Framework}\n"
+  end_anchor: "\\subsection{A1a Full-Data Euclidean Lift Coverage}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Canonical Source Stack And Original
+    Framework as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:82
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Canonical-Center Atlas Admissibility Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1117
+  line_start: 1117
+  line_end: 1184
+  start_anchor: "\\subsection{Canonical-Center Atlas Admissibility Reduction}\n"
+  end_anchor: "\\subsection{Canonical-Center Localized Projector Atlas Eliminates
+    Overlap Mismatch}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Canonical-Center Atlas Admissibility
+    Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1117
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Canonical-Center Localized Projector Atlas Eliminates Overlap
+    Mismatch
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1185
+  line_start: 1185
+  line_end: 1235
+  start_anchor: "\\subsection{Canonical-Center Localized Projector Atlas Eliminates
+    Overlap Mismatch}\n"
+  end_anchor: "\\subsection{Cap-Null Coercivity-Rigidity Globalization Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Canonical-Center Localized Projector
+    Atlas Eliminates Overlap Mismatch as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1185
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Canonical PCTP Hard Bridge From Averaged Terminal Tail Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16120
+  line_start: 16120
+  line_end: 16134
+  start_anchor: "\\subsection{Canonical PCTP Hard Bridge From Averaged Terminal Tail
+    Route}\n"
+  end_anchor: "\\subsection{Cascade Route Handoff From PST.A to Proof Dependency 5}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Canonical PCTP Hard Bridge From
+    Averaged Terminal Tail Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16120
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Measurable Selected Center Field Reduces Canonical Atlas Admissibility
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29808
+  line_start: 29808
+  line_end: 29848
+  start_anchor: "\\subsection{Measurable Selected Center Field Reduces Canonical Atlas
+    Admissibility}\n"
+  end_anchor: "\\subsection{Meso-Scale Shear Inefficiency Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Measurable Selected Center Field
+    Reduces Canonical Atlas Admissibility as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29808
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem M Q Local Membership Canonical Surface
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41674
+  line_start: 41674
+  line_end: 41716
+  start_anchor: "\\subsection{Clay problem M Q Local Membership Canonical Surface}\n"
+  end_anchor: "\\subsection{Msc Badac Energy Measure Countermodel Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem M Q Local Membership
+    Canonical Surface as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41674
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pack-Part-Field Canonicality Reduction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
+  line_start: 43964
+  line_end: 44014
+  start_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Pack-Part-Field Ontological Collapse Question}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack-Part-Field
+    Canonicality Reduction Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43964
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Canonical V2 Failure Modes Export Release Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45065
+  line_start: 45065
+  line_end: 45111
+  start_anchor: "\\subsection{Pctp Hard Canonical V2 Failure Modes Export Release
+    Note}\n"
+  end_anchor: "\\subsection{Pctp Hard Cover Degeneration As Jump Avg}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Canonical V2 Failure
+    Modes Export Release Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45065
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-opening-source-stack-01
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-opening-source-stack-01.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

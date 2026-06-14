@@ -1,0 +1,1050 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-36
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-36
+  sequence: 121
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 36
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 47795
+  line_end: 48825
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47795
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47834
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48515
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48528
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48621
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48668
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48715
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48765
+  subsection_titles:
+  - Clay problem Quantized Parent Charge.A direct attempt
+  - R3 Conditional state And T3 Closure Boundary
+  - Clay problem Readout Endpoint Compatibility Completion Note
+  - Clay problem Receiver Escape Endpoint Reduction
+  - Clay problem Reference-And-Weighted-Segment Propagation Lemma
+  - Clay problem Reference-Comparison Propagation Lemma
+  - Clay problem Reference-Increment And Bridge-Tube Reduction
+  - Clay problem Reference-Increment And Segment-Packet Reduction
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Quantized Parent Charge.A direct attempt
+    line_start: 47795
+    line_end: 47833
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47795
+    start_anchor: "\\subsection{Clay problem Quantized Parent Charge.A direct attempt}\n"
+    end_anchor: "\\subsection{R3 Conditional state And T3 Closure Boundary}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Quantized Parent Charge.A direct attempt}
+
+      \[
+      \exists P^{-}\in Parents(P):
+      \quad
+      Charge(P^{-}\to P)
+      \ge \eta\,Charge(P),
+      \qquad \eta>0.
+      \]
+
+      Such a lower share would give an entropy drop and a quantized ancestry resource.
+
+      Bounded overlap controls how many selected packets cover a point. It does not bound the total number of legal parents contributing small amounts to a selected child across the whole parent cloud.
+
+      A parent cloud can be diffuse: many legal parents each carry a small share, while bounded overlap remains intact.
+
+      Finite donor balance telescopes finite refill trees. It accounts for donor leaves, legal losses, and terminal leaves.
+
+      The identity is additive. It can distribute charge over many parents. It does not select one parent with a fixed fraction of child charge.
+
+      Same-fluid ancestry licenses the carrier lineage. It preserves coherence of the family.
+
+      It does not collapse a diffuse parent cloud to one dominant parent. The same-fluid label can be shared by many legal parents across nearby scales and locations.
+
+      B ASAC removes the ASAC-paid defect channel and legal exits. It does not impose a concentration rule on the remaining source-parent graph.
+
+      A diffuse same-fluid parent cloud with zero ASAC defect remains compatible with the current bookkeeping.
+
+      This run rechecked Quantized Parent Charge.A as the next ancestry-side production candidate.
+
+      \[
+      \exists P^-:\quad Charge(P^-\to P)\ge \eta Charge(P),\qquad \eta>0.
+      \]
+
+      Current same-fluid ancestry, finite donor balance, bounded overlap, and B ASAC equality data do not impose such a fixed share. The diffuse parent cloud model remains admissible: total child charge stays positive while each legal same-fluid parent carries an arbitrarily small fraction.
+
+      So Quantized Parent Charge.A remains open. The next refined ancestry target is Minimal Bad Ancestry Compactness.A, which asks for compactness of the whole minimal bad parent cloud rather than a dominant single parent.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Conditional state And T3 Closure Boundary
+    line_start: 47834
+    line_end: 47858
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47834
+    start_anchor: "\\subsection{R3 Conditional state And T3 Closure Boundary}\n"
+    end_anchor: "\\subsection{R3 Exterior Cascade Theorem Final state}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Conditional state And T3 Closure Boundary}
+
+      The R 3 extension branch is organized but remains conditional. The periodic T 3 branch remains the closed theorem-program surface.
+
+      \[
+      TailFace_{R^3}^{Hs}.
+      \]
+
+      \[
+      ExtCascade_s^{R^3}
+      \]
+
+      does not close from the current inputs. Its proof requires a continuation-grade coefficient or a new exterior high-frequency cascade estimate beyond finite energy and compact-core tower bounds.
+
+      \[
+      OriginalSmoothData_{R^3}\Longrightarrow T_*=\infty.
+      \]
+
+      The periodic T 3 branch remains the completed theorem-program surface. Its proof uses compactness, finite covers, periodic pressure normalization, and finite-cover Sobolev patching. Those inputs are unavailable on R 3 without tail replacements.
+
+      \[
+      T^3:\quad closed\text{ in the theorem-program matrix.}
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Readout Endpoint Compatibility Completion Note
+    line_start: 48515
+    line_end: 48527
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48515
+    start_anchor: "\\subsection{Clay problem Readout Endpoint Compatibility Completion
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Receiver Escape Endpoint Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Readout Endpoint Compatibility Completion Note}
+
+      Role: complete the readout layer from the averaged endpoint grammar to the original pointwise endpoint matrix.
+
+      Then every cylinder in the cover has a shrunken subcylinder of radius at least carrying the finite-depth averaged tower packet.
+
+      This packet includes local averaged Sobolev control through the required one-field depth. On each shrunken spatial ball, the finite-depth packet gives the Sobolev bounds needed for Morrey readout. In three dimensions, for the selected depth and derivative buffer,
+
+      for the required Holder exponent after applying the finite tower-depth buffer fixed in the route.
+
+      For each cover ball and every q N+2 , the averaged packet gives an H 2 -type control at fixed positive scale. Since
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Receiver Escape Endpoint Reduction
+    line_start: 48528
+    line_end: 48574
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48528
+    start_anchor: "\\subsection{Clay problem Receiver Escape Endpoint Reduction}\n"
+    end_anchor: "\\subsection{Recursive Source-Dominance Frontier Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Receiver Escape Endpoint Reduction}\n\nPurpose:
+      test whether the remaining receiver-escape alternative can be pushed out of
+      the Field branch, or whether it is exactly the Field endpoint.\n\nThe still-live
+      receiver-admission theorem says that if R , pre (t) remains inside one compact
+      still-live collar with a finite smooth tower bound, then the oscillation receiver
+      closes.\n\n\\[\n\\text{there is no compact still-live collar }Q^{rec,+}\n\\text{
+      carrying }\\mathcal R_{\\rho,\\psi}^{pre}(t)\n\\text{ with finite tower bound
+      up to }T_*.\n\\]\n\n\\[\nx_j\\text{ is not carried by the retained same-fluid
+      packet geometry,}\n\\]\n\n\\[\n\\sum_{\\ell\\le M_*}|\\nabla^\\ell u(x_j,t_j)|\\to\\infty.\n\\]\n\nOn
+      T 3, there is no spatial infinity alternative. On R 3, spatial escape is harmless
+      unless the receiver packet is supposed to remain on a retained finite carrier;
+      if it is not retained, that is already a carrier/Pack failure for the selected
+      branch.\n\nThus receiver escape is not a new analytic species. It is carrier
+      loss or finite-depth tower loss along the receiver packet.\n\n\\[\n\\forall
+      r>0:\\neg Field_{N,r,Q}.\n\\]\n\nField N,r,Q supplies positive-scale one-field
+      coherence and finite local tower readout on the retained packet at the chosen
+      depth. A sequence of receiver points with unbounded finite-depth tower size
+      inside every terminal tail contradicts every positive-scale finite Field readout.
+      So no r>0 can witness Field N,r,Q on that terminal packet.\n\n\\[\nPack_Q\n\\wedge\nPart_{N,Q}\n\\wedge\n\\text{receiver
+      escape}\n\\Longrightarrow\n\\forall r>0:\\neg Field_{N,r,Q}.\n\\]\n\nIf Pack
+      Q is absent, receiver escape is a Pack exit. If Part N,Q is absent at the needed
+      depth, receiver escape is a Part exit. If both survive, receiver escape is exactly
+      a Field endpoint.\n\nHere \"both survive\" is branch-local. Pack Q and Part
+      N,Q are retained as licenses that keep receiver escape from being classified
+      earlier as carrier loss or dropped-law participation loss. This does not assert
+      that the terminal ontology row Pack, Part, \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reference-And-Weighted-Segment Propagation Lemma
+    line_start: 48621
+    line_end: 48667
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48621
+    start_anchor: "\\subsection{Clay problem Reference-And-Weighted-Segment Propagation
+      Lemma}\n"
+    end_anchor: "\\subsection{Clay problem Reference-Comparison Propagation Lemma}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Reference-And-Weighted-Segment Propagation Lemma}
+
+      Role: coordination/interface layer for the residual packetized reference-increment and weighted-segment quantities on the standalone class-membership branch.
+
+      The note coordinates the two split burden notes and their concrete successor lemmas. The independent mathematical content lives in those successor surfaces.
+
+      This is the live next coordination surface after the reduction layer. Its job is to turn the installed reduction quantities into propagated interval packets before the downstream closure-packaging note is invoked.
+
+      Its job is to state the first exact propagation burden that makes the downstream closure-packaging note real rather than merely conditional.
+
+      \[
+      \widehat{\mathcal E}^{ref}_{N,r,\psi},
+      \qquad
+      \mathcal M^{wseg}_{N+1,r,\psi},
+      \qquad
+      P_F^\ast(r,t;\psi),
+      \qquad
+      A_F(t;\psi)
+      \]
+
+      \[
+      E_N
+      \quad\text{= PDE-native derivation surface,}
+      \]
+
+      \[
+      \mathcal Q_{1,r,\psi}^{str}
+      \quad\text{= exact source term,}
+      \]
+
+      \[
+      \widehat{\mathcal E}^{ref}_{N,r,\psi},\ P_F^\ast
+      \quad\text{= control envelopes,}
+      \]
+
+      \[
+      \mathcal M^{wseg}_{N+1,r,\psi},\ A_F
+      \quad\text{= packet-side closure quantities.}
+      \]
+
+      Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+      +2 D N; the corrected pressure split; the strain/cascade hierarchy; the cutoff commutator packet.
+
+      A F keeps the packet inside a finite distortion class; P F controls the relative-packing bridge windows; Q 1,r, str is the exact rung-1 material source feeding that relative-packing control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reference-Comparison Propagation Lemma
+    line_start: 48668
+    line_end: 48714
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48668
+    start_anchor: "\\subsection{Clay problem Reference-Comparison Propagation Lemma}\n"
+    end_anchor: "\\subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Reference-Comparison Propagation Lemma}
+
+      The key structural point is that this is a genuinely local packet-generated comparison problem, not merely a family of scalar fixed-increment energy bounds.
+
+      \[
+      \mathcal R_r^{ref}(t;\psi)
+      :=
+      \big\{
+      F(a,t)r:a\in\operatorname{supp}\psi
+      \big\},
+      \]
+
+      \[
+      \mathfrak e^{ref}_{N,r,\psi}(a,t)
+      :=
+      \sup_{\eta\in\mathcal R_r^{ref}(t;\psi)}
+      \sum_{k=0}^{N}\lambda_k
+      \big|
+      \delta_\eta U_k(X(a,t),t)
+      \big|^2,
+      \]
+
+      \[
+      \widehat{\mathcal E}^{ref}_{N,r,\psi}(t)
+      :=
+      \int \psi(a)^2\,\mathfrak e^{ref}_{N,r,\psi}(a,t)\,da.
+      \]
+
+      \[
+      \mathfrak e^{ref}_{N,\rho,\psi}(a,t)
+      :=
+      \sup_{0<|r|\le \rho}\mathfrak e^{ref}_{N,r,\psi}(a,t),
+      \]
+
+      \[
+      \widehat{\mathcal E}^{ref}_{N,\rho,\psi}(t)
+      :=
+      \int \psi(a)^2\,\mathfrak e^{ref}_{N,\rho,\psi}(a,t)\,da.
+      \]
+
+      Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+      The theorem above becomes concrete once one has an Eulerian-side local envelope dominating every packet-generated reference increment.
+
+      The live burden is genuinely local. A family of scalar fixed-increment packet energies is not, by itself, the same thing.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reference-Increment And Bridge-Tube Reduction
+    line_start: 48715
+    line_end: 48764
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48715
+    start_anchor: "\\subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Reference-Increment And Segment-Packet
+      Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}
+
+      Role: auxiliary geometry surface for the residual reference-increment and bridge-tube window objects.
+
+      The live packet-facing reduction is the segment-packet reduction note. The bridge-tube display below is auxiliary geometry.
+
+      \[
+      \widetilde E_{N,r,\psi}(t)
+      \le
+      2\,\mathcal E^{ref}_{N,r,\psi}(t)
+      +
+      2\,|r|^2\,P_F^\ast(r,t;\psi)\,\mathcal M^{seg}_{N+1,r,\psi}(t),
+      \]
+
+      \[
+      \mathcal E^{ref}_{N,r,\psi}(t),
+      \qquad
+      \mathcal M^{seg}_{N+1,r,\psi}(t).
+      \]
+
+      \[
+      x(a,t):=X(a,t),
+      \qquad
+      \eta_\ast(a,r,t):=F(a,t)r,
+      \qquad
+      \varepsilon_h(a,r,t):=h(a,r,t)-F(a,t)r.
+      \]
+
+      \[
+      \mathcal R_r^{ref}(t;\psi)
+      :=
+      \big\{
+      F(a,t)r:a\in \operatorname{supp}\psi
+      \big\},
+      \]
+
+      \[
+      \mathcal T_r^{bridge}(t;\psi)
+      :=
+      \big\{
+      x(a,t)+F(a,t)r+\theta \varepsilon_h(a,r,t):
+      a\in\operatorname{supp}\psi,\ \theta\in[0,1]
+      \big\}.
+      \]
+
+      These are exactly the reference-increment set and the bridge tube generated by the packet.
+
+      E ref N,r, is the reference-increment comparison packet; M tube N+1,r, is the bridge-tube envelope; together with P F , they are the only residual inputs in the current quantitative control of E N,r, .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reference-Increment And Segment-Packet Reduction
+    line_start: 48765
+    line_end: 48825
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48765
+    start_anchor: "\\subsection{Clay problem Reference-Increment And Segment-Packet
+      Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Refill Tree Well Founded.A Direct Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Reference-Increment And Segment-Packet Reduction}
+
+      Role: live reduction surface for the residual reference-increment and weighted-segment packet quantities.
+
+      The live theorem-facing reduction surface for the standalone class-membership branch is the segment-packet reduction below.
+
+      \[
+      \mathcal E^{ref}_{N,r,\psi}(t),
+      \qquad
+      \mathcal M^{seg}_{N+1,r,\psi}(t).
+      \]
+
+      Those are not defects in the increment-stability note. They are the next reduction burden.
+
+      \[
+      x(a,t):=X(a,t),
+      \qquad
+      \eta_\ast(a,r,t):=F(a,t)r,
+      \qquad
+      h(a,r,t)=\eta_\ast(a,r,t)+\varepsilon_h(a,r,t).
+      \]
+
+      \[
+      \widetilde E_{N,r,\psi}(t),
+      \qquad
+      \mathcal R^{inc}_{N,r,\psi}(t),
+      \qquad
+      P_F^\ast(r,t;\psi).
+      \]
+
+      \[
+      \mathcal E^{ref}_{N,r,\psi}(t)
+      :=
+      \sum_{k=0}^{N}\lambda_k
+      \int \psi(a)^2
+      \big|
+      \delta_{F(a,t)r}U_k(x(a,t),t)
+      \big|^2\,da
+      \]
+
+      \[
+      \mathcal R_r^{ref}(t;\psi)
+      :=
+      \big\{
+      F(a,t)r:a\in\operatorname{supp}\psi
+      \big\}.
+      \]
+
+      So the first remaining object is now reduced to a genuine packetized comparison class.
+
+      This is useful as a first theorem shape, but it is stronger than the exact packet error term really needs.
+
+      This is an honest packet quantity: the geometry and the next-rung segment price stay inside the same integral.
+
+      So the rigid envelope is no longer the live object. It is now a stronger comparison bound for a genuine packet quantity.
+
+      So the live bridge is now entirely packetized at its leading level, with the pointwise supremum retained only as a downstream stronger estimate.
+
+      E ref N,r, is the packetized comparison class for reference increments generated by the finite packing class; M wseg N+1,r, is the honest packetized next-rung price for moving from the reference increment to the transported increment; M seg N+1,r, survives only as a stronger envelope above the weighted segment packet.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Quantized Parent Charge.A direct attempt}
+
+    \[
+    \exists P^{-}\in Parents(P):
+    \quad
+    Charge(P^{-}\to P)
+    \ge \eta\,Charge(P),
+    \qquad \eta>0.
+    \]
+
+    Such a lower share would give an entropy drop and a quantized ancestry resource.
+
+    Bounded overlap controls how many selected packets cover a point. It does not bound the total number of legal parents contributing small amounts to a selected child across the whole parent cloud.
+
+    A parent cloud can be diffuse: many legal parents each carry a small share, while bounded overlap remains intact.
+
+    Finite donor balance telescopes finite refill trees. It accounts for donor leaves, legal losses, and terminal leaves.
+
+    The identity is additive. It can distribute charge over many parents. It does not select one parent with a fixed fraction of child charge.
+
+    Same-fluid ancestry licenses the carrier lineage. It preserves coherence of the family.
+
+    It does not collapse a diffuse parent cloud to one dominant parent. The same-fluid label can be shared by many legal parents across nearby scales and locations.
+
+    B ASAC removes the ASAC-paid defect channel and legal exits. It does not impose a concentration rule on the remaining source-parent graph.
+
+    A diffuse same-fluid parent cloud with zero ASAC defect remains compatible with the current bookkeeping.
+
+    This run rechecked Quantized Parent Charge.A as the next ancestry-side production candidate.
+
+    \[
+    \exists P^-:\quad Charge(P^-\to P)\ge \eta Charge(P),\qquad \eta>0.
+    \]
+
+    Current same-fluid ancestry, finite donor balance, bounded overlap, and B ASAC equality data do not impose such a fixed share. The diffuse parent cloud model remains admissible: total child charge stays positive while each legal same-fluid parent carries an arbitrarily small fraction.
+
+    So Quantized Parent Charge.A remains open. The next refined ancestry target is Minimal Bad Ancestry Compactness.A, which asks for compactness of the whole minimal bad parent cloud rather than a dominant single parent.
+
+
+
+    \subsection{R3 Conditional state And T3 Closure Boundary}
+
+    The R 3 extension branch is organized but remains conditional. The periodic T 3 branch remains the closed theorem-program surface.
+
+    \[
+    TailFace_{R^3}^{Hs}.
+    \]
+
+    \[
+    ExtCascade_s^{R^3}
+    \]
+
+    does not close from the current inputs. Its proof requires a continuation-grade coefficient or a new exterior high-frequency cascade estimate beyond finite energy and compact-core tower bounds.
+
+    \[
+    OriginalSmoothData_{R^3}\Longrightarrow T_*=\infty.
+    \]
+
+    The periodic T 3 branch remains the completed theorem-program surface. Its proof uses compactness, finite covers, periodic pressure normalization, and finite-cover Sobolev patching. Those inputs are unavailable on R 3 without tail replacements.
+
+    \[
+    T^3:\quad closed\text{ in the theorem-program matrix.}
+    \]
+
+
+
+    \subsection{Clay problem Readout Endpoint Compatibility Completion Note}
+
+    Role: complete the readout layer from the averaged endpoint grammar to the original pointwise endpoint matrix.
+
+    Then every cylinder in the cover has a shrunken subcylinder of radius at least carrying the finite-depth averaged tower packet.
+
+    This packet includes local averaged Sobolev control through the required one-field depth. On each shrunken spatial ball, the finite-depth packet gives the Sobolev bounds needed for Morrey readout. In three dimensions, for the selected depth and derivative buffer,
+
+    for the required Holder exponent after applying the finite tower-depth buffer fixed in the route.
+
+    For each cover ball and every q N+2 , the averaged packet gives an H 2 -type control at fixed positive scale. Since
+
+
+
+    \subsection{Clay problem Receiver Escape Endpoint Reduction}
+
+    Purpose: test whether the remaining receiver-escape alternative can be pushed out of the Field branch, or whether it is exactly the Field endpoint.
+
+    The still-live receiver-admission theorem says that if R , pre (t) remains inside one compact still-live collar with a finite smooth tower bound, then the oscillation receiver closes.
+
+    \[
+    \text{there is no compact still-live collar }Q^{rec,+}
+    \text{ carrying }\mathcal R_{\rho,\psi}^{pre}(t)
+    \text{ with finite tower bound up to }T_*.
+    \]
+
+    \[
+    x_j\text{ is not carried by the retained same-fluid packet geometry,}
+    \]
+
+    \[
+    \sum_{\ell\le M_*}|\nabla^\ell u(x_j,t_j)|\to\infty.
+    \]
+
+    On T 3, there is no spatial infinity alternative. On R 3, spatial escape is harmless unless the receiver packet is supposed to remain on a retained finite carrier; if it is not retained, that is already a carrier/Pack failure for the selected branch.
+
+    Thus receiver escape is not a new analytic species. It is carrier loss or finite-depth tower loss along the receiver packet.
+
+    \[
+    \forall r>0:\neg Field_{N,r,Q}.
+    \]
+
+    Field N,r,Q supplies positive-scale one-field coherence and finite local tower readout on the retained packet at the chosen depth. A sequence of receiver points with unbounded finite-depth tower size inside every terminal tail contradicts every positive-scale finite Field readout. So no r>0 can witness Field N,r,Q on that terminal packet.
+
+    \[
+    Pack_Q
+    \wedge
+    Part_{N,Q}
+    \wedge
+    \text{receiver escape}
+    \Longrightarrow
+    \forall r>0:\neg Field_{N,r,Q}.
+    \]
+
+    If Pack Q is absent, receiver escape is a Pack exit. If Part N,Q is absent at the needed depth, receiver escape is a Part exit. If both survive, receiver escape is exactly a Field endpoint.
+
+    Here "both survive" is branch-local. Pack Q and Part N,Q are retained as licenses that keep receiver escape from being classified earlier as carrier loss or dropped-law participation loss. This does not assert that the terminal ontology row Pack, Part, not-Field survives. Read as terminal ontology, a realized same-fluid Jump also defeats terminal participation and collapses to Pack, not-Part, not-Field.
+
+    So the receiver-escape alternative is not a missing bureaucratic surface and not an independent theorem target. It is the local endpoint manifestation of the Field failure once Pack and Part are retained.
+
+
+
+    \subsection{Clay problem Reference-And-Weighted-Segment Propagation Lemma}
+
+    Role: coordination/interface layer for the residual packetized reference-increment and weighted-segment quantities on the standalone class-membership branch.
+
+    The note coordinates the two split burden notes and their concrete successor lemmas. The independent mathematical content lives in those successor surfaces.
+
+    This is the live next coordination surface after the reduction layer. Its job is to turn the installed reduction quantities into propagated interval packets before the downstream closure-packaging note is invoked.
+
+    Its job is to state the first exact propagation burden that makes the downstream closure-packaging note real rather than merely conditional.
+
+    \[
+    \widehat{\mathcal E}^{ref}_{N,r,\psi},
+    \qquad
+    \mathcal M^{wseg}_{N+1,r,\psi},
+    \qquad
+    P_F^\ast(r,t;\psi),
+    \qquad
+    A_F(t;\psi)
+    \]
+
+    \[
+    E_N
+    \quad\text{= PDE-native derivation surface,}
+    \]
+
+    \[
+    \mathcal Q_{1,r,\psi}^{str}
+    \quad\text{= exact source term,}
+    \]
+
+    \[
+    \widehat{\mathcal E}^{ref}_{N,r,\psi},\ P_F^\ast
+    \quad\text{= control envelopes,}
+    \]
+
+    \[
+    \mathcal M^{wseg}_{N+1,r,\psi},\ A_F
+    \quad\text{= packet-side closure quantities.}
+    \]
+
+    Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+    +2 D N; the corrected pressure split; the strain/cascade hierarchy; the cutoff commutator packet.
+
+    A F keeps the packet inside a finite distortion class; P F controls the relative-packing bridge windows; Q 1,r, str is the exact rung-1 material source feeding that relative-packing control.
+
+
+
+    \subsection{Clay problem Reference-Comparison Propagation Lemma}
+
+    The key structural point is that this is a genuinely local packet-generated comparison problem, not merely a family of scalar fixed-increment energy bounds.
+
+    \[
+    \mathcal R_r^{ref}(t;\psi)
+    :=
+    \big\{
+    F(a,t)r:a\in\operatorname{supp}\psi
+    \big\},
+    \]
+
+    \[
+    \mathfrak e^{ref}_{N,r,\psi}(a,t)
+    :=
+    \sup_{\eta\in\mathcal R_r^{ref}(t;\psi)}
+    \sum_{k=0}^{N}\lambda_k
+    \big|
+    \delta_\eta U_k(X(a,t),t)
+    \big|^2,
+    \]
+
+    \[
+    \widehat{\mathcal E}^{ref}_{N,r,\psi}(t)
+    :=
+    \int \psi(a)^2\,\mathfrak e^{ref}_{N,r,\psi}(a,t)\,da.
+    \]
+
+    \[
+    \mathfrak e^{ref}_{N,\rho,\psi}(a,t)
+    :=
+    \sup_{0<|r|\le \rho}\mathfrak e^{ref}_{N,r,\psi}(a,t),
+    \]
+
+    \[
+    \widehat{\mathcal E}^{ref}_{N,\rho,\psi}(t)
+    :=
+    \int \psi(a)^2\,\mathfrak e^{ref}_{N,\rho,\psi}(a,t)\,da.
+    \]
+
+    Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+    The theorem above becomes concrete once one has an Eulerian-side local envelope dominating every packet-generated reference increment.
+
+    The live burden is genuinely local. A family of scalar fixed-increment packet energies is not, by itself, the same thing.
+
+
+
+    \subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}
+
+    Role: auxiliary geometry surface for the residual reference-increment and bridge-tube window objects.
+
+    The live packet-facing reduction is the segment-packet reduction note. The bridge-tube display below is auxiliary geometry.
+
+    \[
+    \widetilde E_{N,r,\psi}(t)
+    \le
+    2\,\mathcal E^{ref}_{N,r,\psi}(t)
+    +
+    2\,|r|^2\,P_F^\ast(r,t;\psi)\,\mathcal M^{seg}_{N+1,r,\psi}(t),
+    \]
+
+    \[
+    \mathcal E^{ref}_{N,r,\psi}(t),
+    \qquad
+    \mathcal M^{seg}_{N+1,r,\psi}(t).
+    \]
+
+    \[
+    x(a,t):=X(a,t),
+    \qquad
+    \eta_\ast(a,r,t):=F(a,t)r,
+    \qquad
+    \varepsilon_h(a,r,t):=h(a,r,t)-F(a,t)r.
+    \]
+
+    \[
+    \mathcal R_r^{ref}(t;\psi)
+    :=
+    \big\{
+    F(a,t)r:a\in \operatorname{supp}\psi
+    \big\},
+    \]
+
+    \[
+    \mathcal T_r^{bridge}(t;\psi)
+    :=
+    \big\{
+    x(a,t)+F(a,t)r+\theta \varepsilon_h(a,r,t):
+    a\in\operatorname{supp}\psi,\ \theta\in[0,1]
+    \big\}.
+    \]
+
+    These are exactly the reference-increment set and the bridge tube generated by the packet.
+
+    E ref N,r, is the reference-increment comparison packet; M tube N+1,r, is the bridge-tube envelope; together with P F , they are the only residual inputs in the current quantitative control of E N,r, .
+
+
+
+    \subsection{Clay problem Reference-Increment And Segment-Packet Reduction}
+
+    Role: live reduction surface for the residual reference-increment and weighted-segment packet quantities.
+
+    The live theorem-facing reduction surface for the standalone class-membership branch is the segment-packet reduction below.
+
+    \[
+    \mathcal E^{ref}_{N,r,\psi}(t),
+    \qquad
+    \mathcal M^{seg}_{N+1,r,\psi}(t).
+    \]
+
+    Those are not defects in the increment-stability note. They are the next reduction burden.
+
+    \[
+    x(a,t):=X(a,t),
+    \qquad
+    \eta_\ast(a,r,t):=F(a,t)r,
+    \qquad
+    h(a,r,t)=\eta_\ast(a,r,t)+\varepsilon_h(a,r,t).
+    \]
+
+    \[
+    \widetilde E_{N,r,\psi}(t),
+    \qquad
+    \mathcal R^{inc}_{N,r,\psi}(t),
+    \qquad
+    P_F^\ast(r,t;\psi).
+    \]
+
+    \[
+    \mathcal E^{ref}_{N,r,\psi}(t)
+    :=
+    \sum_{k=0}^{N}\lambda_k
+    \int \psi(a)^2
+    \big|
+    \delta_{F(a,t)r}U_k(x(a,t),t)
+    \big|^2\,da
+    \]
+
+    \[
+    \mathcal R_r^{ref}(t;\psi)
+    :=
+    \big\{
+    F(a,t)r:a\in\operatorname{supp}\psi
+    \big\}.
+    \]
+
+    So the first remaining object is now reduced to a genuine packetized comparison class.
+
+    This is useful as a first theorem shape, but it is stronger than the exact packet error term really needs.
+
+    This is an honest packet quantity: the geometry and the next-rung segment price stay inside the same integral.
+
+    So the rigid envelope is no longer the live object. It is now a stronger comparison bound for a genuine packet quantity.
+
+    So the live bridge is now entirely packetized at its leading level, with the pointwise supremum retained only as a downstream stronger estimate.
+
+    E ref N,r, is the packetized comparison class for reference increments generated by the finite packing class; M wseg N+1,r, is the honest packetized next-rung price for moving from the reference increment to the transported increment; M seg N+1,r, survives only as a stronger envelope above the weighted segment packet.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Quantized Parent Charge.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47795
+  line_start: 47795
+  line_end: 47833
+  start_anchor: "\\subsection{Clay problem Quantized Parent Charge.A direct attempt}\n"
+  end_anchor: "\\subsection{R3 Conditional state And T3 Closure Boundary}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Quantized Parent
+    Charge.A direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47795
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Conditional state And T3 Closure Boundary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47834
+  line_start: 47834
+  line_end: 47858
+  start_anchor: "\\subsection{R3 Conditional state And T3 Closure Boundary}\n"
+  end_anchor: "\\subsection{R3 Exterior Cascade Theorem Final state}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Conditional state And T3 Closure
+    Boundary as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47834
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Readout Endpoint Compatibility Completion Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48515
+  line_start: 48515
+  line_end: 48527
+  start_anchor: "\\subsection{Clay problem Readout Endpoint Compatibility Completion
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Receiver Escape Endpoint Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Readout Endpoint
+    Compatibility Completion Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48515
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Receiver Escape Endpoint Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48528
+  line_start: 48528
+  line_end: 48574
+  start_anchor: "\\subsection{Clay problem Receiver Escape Endpoint Reduction}\n"
+  end_anchor: "\\subsection{Recursive Source-Dominance Frontier Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Receiver Escape
+    Endpoint Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48528
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reference-And-Weighted-Segment Propagation Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48621
+  line_start: 48621
+  line_end: 48667
+  start_anchor: "\\subsection{Clay problem Reference-And-Weighted-Segment Propagation
+    Lemma}\n"
+  end_anchor: "\\subsection{Clay problem Reference-Comparison Propagation Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reference-And-Weighted-Segment
+    Propagation Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48621
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reference-Comparison Propagation Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48668
+  line_start: 48668
+  line_end: 48714
+  start_anchor: "\\subsection{Clay problem Reference-Comparison Propagation Lemma}\n"
+  end_anchor: "\\subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reference-Comparison
+    Propagation Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48668
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reference-Increment And Bridge-Tube Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48715
+  line_start: 48715
+  line_end: 48764
+  start_anchor: "\\subsection{Clay problem Reference-Increment And Bridge-Tube Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Reference-Increment And Segment-Packet Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reference-Increment
+    And Bridge-Tube Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48715
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reference-Increment And Segment-Packet Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48765
+  line_start: 48765
+  line_end: 48825
+  start_anchor: "\\subsection{Clay problem Reference-Increment And Segment-Packet
+    Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Refill Tree Well Founded.A Direct Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reference-Increment
+    And Segment-Packet Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48765
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-36
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-36.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

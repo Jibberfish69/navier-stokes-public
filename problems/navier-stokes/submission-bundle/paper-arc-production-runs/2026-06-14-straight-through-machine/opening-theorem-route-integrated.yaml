@@ -1,0 +1,393 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260614T160747Z
+status: applied
+generated_at: '2026-06-14T16:07:47Z'
+pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/opening-theorem-route.yaml
+batch_id: opening-theorem-route-current-source-certification-20260614T160747Z
+source_rewrite_count: 7
+changed_files: []
+operations:
+- index: 1
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100-119
+  certified_existing_section: true
+- index: 2
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120-159
+  certified_existing_section: true
+- index: 3
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406-425
+  certified_existing_section: true
+- index: 4
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1-33
+  certified_existing_section: true
+- index: 5
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1-21
+  certified_existing_section: true
+- index: 6
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39-48
+  certified_existing_section: true
+- index: 7
+  op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+  source_span_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1-29
+  certified_existing_section: true
+source_manuscript_spine:
+- source_path: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex
+  section_title: Selected-Packet Euler Boundary Theorem
+  line_start: 1
+  line_end: 125
+  sequence: 1
+  source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+  spine_id: selected-packet-euler-boundary-theorem
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Original Problem Statement
+  line_start: 100
+  line_end: 119
+  sequence: 10001
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+  spine_id: original-problem-statement
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Current Main Result and Proof Roadmap
+  line_start: 120
+  line_end: 159
+  sequence: 10002
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+  spine_id: current-main-result-and-proof-roadmap
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Direct Estimate Route
+  line_start: 160
+  line_end: 208
+  sequence: 10003
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:160
+  spine_id: the-direct-estimate-route
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Where the Direct Route Reaches an Obstruction
+  line_start: 209
+  line_end: 405
+  sequence: 10004
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:209
+  spine_id: where-the-direct-route-reaches-an-obstruction
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Same Terminal Record
+  line_start: 406
+  line_end: 425
+  sequence: 10005
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+  spine_id: the-same-terminal-record
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: What a Terminal Failure Can Be
+  line_start: 426
+  line_end: 476
+  sequence: 10006
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:426
+  spine_id: what-a-terminal-failure-can-be
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Sorting Failures by the First Lost Face
+  line_start: 477
+  line_end: 499
+  sequence: 10007
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:477
+  spine_id: sorting-failures-by-the-first-lost-face
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The CM Contrapositive Route
+  line_start: 500
+  line_end: 526
+  sequence: 10008
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:500
+  spine_id: the-cm-contrapositive-route
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: What Class Membership Means Here
+  line_start: 527
+  line_end: 611
+  sequence: 10009
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:527
+  spine_id: what-class-membership-means-here
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Same-Law Participation and One-Field Coherence
+  line_start: 612
+  line_end: 655
+  sequence: 10010
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+  spine_id: same-law-participation-and-one-field-coherence
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Packet Witness
+  line_start: 656
+  line_end: 690
+  sequence: 10011
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:656
+  spine_id: the-packet-witness
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Packet Failure
+  line_start: 691
+  line_end: 711
+  sequence: 10012
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:691
+  spine_id: packet-failure
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Velocity Failure Mechanisms
+  line_start: 712
+  line_end: 736
+  sequence: 10013
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:712
+  spine_id: velocity-failure-mechanisms
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Contrapositive Test
+  line_start: 737
+  line_end: 778
+  sequence: 10014
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:737
+  spine_id: the-contrapositive-test
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Reading the Witness Table
+  line_start: 779
+  line_end: 801
+  sequence: 10015
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:779
+  spine_id: reading-the-witness-table
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: From Witness Faces to Class Exit
+  line_start: 802
+  line_end: 970
+  sequence: 10016
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:802
+  spine_id: from-witness-faces-to-class-exit
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Clay-Facing Completion Claim
+  line_start: 971
+  line_end: 1110
+  sequence: 10017
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:971
+  spine_id: the-clay-facing-completion-claim
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How Forward Branches Enter the Proof
+  line_start: 1111
+  line_end: 1249
+  sequence: 10018
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1111
+  spine_id: how-forward-branches-enter-the-proof
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Which Branches Still Matter
+  line_start: 1250
+  line_end: 1298
+  sequence: 10019
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1250
+  spine_id: which-branches-still-matter
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Support Boundary
+  line_start: 1299
+  line_end: 1333
+  sequence: 10020
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1299
+  spine_id: the-support-boundary
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Comparison and Transfer Boundary
+  line_start: 1334
+  line_end: 1374
+  sequence: 10021
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1334
+  spine_id: comparison-and-transfer-boundary
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} Exterior-Source
+    Branch
+  line_start: 1375
+  line_end: 1465
+  sequence: 10022
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1375
+  spine_id: the-whole-space-mathbb-r-3-r3-exterior-source-branch
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Branch Coverage in the Main Proof
+  line_start: 1466
+  line_end: 1490
+  sequence: 10023
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  spine_id: branch-coverage-in-the-main-proof
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Closing Hinges
+  line_start: 1491
+  line_end: 1514
+  sequence: 10024
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1491
+  spine_id: closing-hinges
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Same-Solution CM Proof
+  line_start: 1515
+  line_end: 1622
+  sequence: 10025
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1515
+  spine_id: the-same-solution-cm-proof
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How Auxiliary Estimates Enter
+  line_start: 1623
+  line_end: 1641
+  sequence: 10026
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1623
+  spine_id: how-auxiliary-estimates-enter
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How to Read the Appendices
+  line_start: 1642
+  line_end: 1651
+  sequence: 10027
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
+  spine_id: how-to-read-the-appendices
+- source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Branch-to-Face Derivation Patterns
+  line_start: 1652
+  line_end: 1710
+  sequence: 10028
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1652
+  spine_id: branch-to-face-derivation-patterns
+- source_path: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
+  section_title: Direct Routes That Did Not Close
+  line_start: 1
+  line_end: 4098
+  sequence: 20001
+  source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+  spine_id: direct-routes-that-did-not-close
+- source_path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+  section_title: Main Result
+  line_start: 1
+  line_end: 33
+  sequence: 30001
+  source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  spine_id: main-result
+- source_path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+  section_title: Notation and Internal Dependency Labels
+  line_start: 1
+  line_end: 21
+  sequence: 40001
+  source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  spine_id: notation-and-internal-dependency-labels
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex
+  section_title: How Branch Families Pay the CM Proof
+  line_start: 1
+  line_end: 41
+  sequence: 50001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
+  spine_id: how-branch-families-pay-the-cm-proof
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex
+  section_title: The Class-Membership Exit Method
+  line_start: 1
+  line_end: 148
+  sequence: 60001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+  spine_id: the-class-membership-exit-method
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+  section_title: Compactness and Exact-Object Capture
+  line_start: 1
+  line_end: 142
+  sequence: 70001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+  spine_id: compactness-and-exact-object-capture
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
+  section_title: Energy, Enstrophy, and Source Reserves
+  line_start: 1
+  line_end: 273
+  sequence: 80001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
+  spine_id: energy-enstrophy-and-source-reserves
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+  section_title: Scope And Proof Polarity
+  line_start: 39
+  line_end: 48
+  sequence: 90001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+  spine_id: scope-and-proof-polarity
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex
+  section_title: Kernelized Lifted-Band Branch
+  line_start: 1
+  line_end: 58
+  sequence: 100001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
+  spine_id: kernelized-lifted-band-branch
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex
+  section_title: Lower-Prefix and Upper-Tail Survivors
+  line_start: 1
+  line_end: 383
+  sequence: 110001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
+  spine_id: lower-prefix-and-upper-tail-survivors
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
+  section_title: Direct Closure and the Four-Body Diagnostic
+  line_start: 1
+  line_end: 107
+  sequence: 120001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
+  spine_id: direct-closure-and-the-four-body-diagnostic
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex
+  section_title: Derivative Recovery on the Same Surface
+  line_start: 1
+  line_end: 73
+  sequence: 130001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
+  spine_id: derivative-recovery-on-the-same-surface
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+  section_title: Scale Barriers and High-Frequency Tails
+  line_start: 1
+  line_end: 293
+  sequence: 140001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
+  spine_id: scale-barriers-and-high-frequency-tails
+- source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex
+  section_title: Shell Gain and Half-Derivative Branch
+  line_start: 1
+  line_end: 62
+  sequence: 150001
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
+  spine_id: shell-gain-and-half-derivative-branch
+- source_path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+  section_title: Proof Roadmap
+  line_start: 1
+  line_end: 29
+  sequence: 160001
+  source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  spine_id: proof-roadmap
+- source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  section_title: Source-Field Record and Reader Guide
+  line_start: 1
+  line_end: 68779
+  sequence: 170001
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
+  spine_id: source-field-record-and-reader-guide
+- source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  section_title: How Branch Inventories Reduce to CM Obligations
+  line_start: 6
+  line_end: 84
+  sequence: 180001
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+  spine_id: how-branch-inventories-reduce-to-cm-obligations
+- source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  section_title: How Forward Support Enters the Proof
+  line_start: 85
+  line_end: 137
+  sequence: 180002
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
+  spine_id: how-forward-support-enters-the-proof
+- source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  section_title: How Branch Families Pay the Proof
+  line_start: 138
+  line_end: 190
+  sequence: 180003
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
+  spine_id: how-branch-families-pay-the-proof
+changed_section_refs: []
+build_check_scope:
+  mode: changed-source-spans-only
+  source_files_touched: []
+  changed_section_refs: []
+  compile_policy: compile after source batch; extract/reread changed_section_refs
+    and local cross-reference spillover only
+  full_pdf_reread: skip unless finality is being claimed or the pack requests a milestone
+token_savings_rule: Use this ledger to hand the model exact source spans; compile/reread
+  only the changed_section_refs unless finality is being claimed.

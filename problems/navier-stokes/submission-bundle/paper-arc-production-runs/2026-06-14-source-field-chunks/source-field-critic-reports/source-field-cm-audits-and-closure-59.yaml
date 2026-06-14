@@ -1,0 +1,127 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T15:32:07Z'
+chunk_id: source-field-cm-audits-and-closure-59
+group_id: cm-audits-and-closure
+title: CM audits and closure 59
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+source_freshness:
+  algorithm: sha256
+  section_count: 8
+  checked_at: '2026-06-14T15:32:07Z'
+issues: []
+source_units:
+- subsection_title: Clay problem Contrapositive-Only Completion Audit
+  section_title: Clay problem Contrapositive-Only Completion Audit
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66167
+  line_start: 66167
+  line_end: 66177
+  source_sha256: 593311bdfd85b1c5f18bda719801aaf1649f8f313159eb0896acfe0a1d7202b7
+  source_byte_count: 959
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem Nightly Terminal CM Witness Red-Team
+  section_title: Clay problem Nightly Terminal CM Witness Red-Team
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66178
+  line_start: 66178
+  line_end: 66200
+  source_sha256: 8977e7a4aa518d5d1b9381d84ccdcf21a6f4e4ae41e7bfe504e2b036cb5090f3
+  source_byte_count: 1996
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem No-Third-Branch Clay Closure Audit
+  section_title: Clay problem No-Third-Branch Clay Closure Audit
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66201
+  line_start: 66201
+  line_end: 66225
+  source_sha256: 7d305fd7f34940937cb2de29fd4113d8421da80ebdc9a4012719978e4de0b0fc
+  source_byte_count: 2306
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem CM Completion Claim Adversarial Audit
+  section_title: Clay problem CM Completion Claim Adversarial Audit
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66226
+  line_start: 66226
+  line_end: 66252
+  source_sha256: 10e7dac856e5bb8517190e1af56213495ad4bde4847aca037ae908a71bce75bf
+  source_byte_count: 3132
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem Positive Obstruction Pass/Exit CM Engine
+  section_title: Clay problem Positive Obstruction Pass/Exit CM Engine
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66253
+  line_start: 66253
+  line_end: 66271
+  source_sha256: 04e7d701b59133790ca038a3efea8fdbd3d19897f7e5fb1b83b6b60322ff8d0d
+  source_byte_count: 1106
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem Genuine CM Exit Equivalence
+  section_title: Clay problem Genuine CM Exit Equivalence
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66272
+  line_start: 66272
+  line_end: 66326
+  source_sha256: 1eac7425fab95cbe2431151c704f3a543d89e9feef9e427badf46b263b176a61
+  source_byte_count: 4274
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem Completed Proof Surface Challenge
+  section_title: Clay problem Completed Proof Surface Challenge
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66327
+  line_start: 66327
+  line_end: 66343
+  source_sha256: a23116b54c1857e85065cb54a86930ce02e4894df8f6a7527727723ae21f99cb
+  source_byte_count: 1372
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Clay problem CM Pass/Exit Positive-Existence Veto
+  section_title: Clay problem CM Pass/Exit Positive-Existence Veto
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66355
+  line_start: 66355
+  line_end: 66367
+  source_sha256: f88ff4d9c8191b165e3bc01e40b61065e000c069dd41bd9d09ca0fc487de4d25
+  source_byte_count: 1016
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-cm-audits-and-closure-59
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

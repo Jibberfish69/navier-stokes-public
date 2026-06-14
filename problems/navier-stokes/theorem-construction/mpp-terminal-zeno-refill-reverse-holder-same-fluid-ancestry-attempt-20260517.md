@@ -122,7 +122,8 @@ For a terminal layer of thickness `1/m`, Duhamel has the form
 On normalized heat times with `|s|\ll1`, the semigroup is close to the identity at the source scale:
 
 ```math
-e^{(0-s)\nu\Delta}=I+O(|s|\nu\Delta).
+e^{(0-s)\nu\Delta}=I+\mathcal E_s,
+\qquad \mathcal E_s:=e^{(0-s)\nu\Delta}-I.
 ```
 
 Viscosity smooths spatially after positive heat time is available. It does not create a uniform temporal Morrey or reverse-Holder gain for a native source marginal whose support thickness tends to zero.

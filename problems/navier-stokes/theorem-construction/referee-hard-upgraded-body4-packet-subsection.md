@@ -212,7 +212,7 @@ Its theorem-facing coefficient remains a separate admissible tail-energy
 coefficient `\Gamma_N\in L^1(0,T)` together with the coercive damping
 
 ```math
-Q_N(t)\gtrsim 2^{2N}T_N(t).
+Q_N(t)\ge c_Q\,2^{2N}T_N(t)
 ```
 
 So the clean theorem interface is:

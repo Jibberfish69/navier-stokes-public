@@ -1,0 +1,19 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d75-d77-defect-dlp-drs-current
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix defect-reduction/DLP/DRS group
+    spine_id: source-field-reader-appendix-d75-d77-defect-dlp-drs-current
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4063
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4063-4311
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Polished the current D75-D77 support-note group so D.75 reads as a common
+      defect-reduction/survivor synthesis with its contraction and two-family
+      boundary visible, D.76 reads as source-side Bony localization plus open
+      elliptic-response debt, and D.77 reads as diagonal restriction stability
+      reduced to sectorwise oscillation and Holder sufficient routes.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d75-d77-defect-dlp-drs-current-ledger.yaml

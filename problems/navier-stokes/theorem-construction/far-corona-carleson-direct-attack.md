@@ -3,7 +3,7 @@
 ## Purpose
 
 This note attacks the exact far-corona Carleson theorem directly, without
-passing first through shellwise carriers, heuristic factorization, or a
+passing first through shellwise carriers, an unproved factorization ansatz, or a
 one-scale replacement theorem.
 
 The target is

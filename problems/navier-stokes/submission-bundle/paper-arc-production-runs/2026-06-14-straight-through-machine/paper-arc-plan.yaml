@@ -1,0 +1,620 @@
+---
+version: 1
+kind: ns-paper-arc-plan
+batch_id: 2026-06-14-straight-through-machine
+generated_at: '2026-06-14T15:45:19Z'
+objective: prepare hard, write fast, verify mechanically, repair only failures
+progress_unit: finished proof arc in TeX, not local D-number/page-span cleanup
+production_machine_contract:
+  core_move: prepare hard -> write fast -> verify mechanically -> repair only failures
+  paper_product_rule: the manuscript source is the product; packets, ledgers, builds,
+    and reports exist only to feed or verify the page
+  machine_layers:
+  - name: Paper Arc Planner
+    job: divide the current proof manuscript into 8-12 proof arcs that a human reader
+      can follow as one argument
+  - name: Context Packer
+    job: gather the assigned TeX, theorem notes, route locks, brain/app/node material,
+      proof status, symbols, dependencies, and writing rules for one arc
+  - name: Author Packet
+    job: write final TeX prose for the whole arc, including plain explanation, derivation/proof
+      payment, and endpoint status
+  - name: Math Supplier
+    job: serve the selected arc only by supplying TeX-ready derivations, exact obstructions,
+      endpoint classifications, or CM counterparts
+  - name: Verifier
+    job: reject placeholder prose, machinery voice, missing source coverage, unpaid
+      claims, unresolved critic findings, and route-identity drift before integration
+  - name: Integrator
+    job: apply verified TeX source rewrites and return changed-section build scope
+      for targeted verification
+  math_containment_rule: before first-draft approval, theorem work is section-bound
+    manuscript supply; free-running gold proof search is out of scope
+  economy_rule: ordinary progress uses source diffs, changed-section builds, and targeted
+    rereads; full PDF finality checks happen only at milestones or finality claims
+  first_draft_boundary: the first draft exists only when every current repo proof
+    thread has a home on the page as proof, support, obstruction, obsolete material,
+    contradiction, or open continuation
+arc_count: 12
+arcs:
+- arc_id: opening-theorem-route
+  title: Opening theorem route
+  priority: 1
+  status: ready_for_author_packet
+  production_role: open the paper as a theorem proof with the proof route visible
+    from the first mathematical promise
+  author_job: write the theorem target, gold route, obstruction, and CM turn as finished
+    opening proof exposition
+  support_keywords:
+  - Navier
+  - gold
+  - obstruction
+  - reframing
+  - theorem
+  - route
+  required_patterns:
+  - Navier
+  - proof
+  - gold
+  - "(CM|contrapositive)"
+  spine_refs:
+  - spine_id: original-problem-statement
+    section_title: Original Problem Statement
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 100
+    line_end: 119
+  - spine_id: current-main-result-and-proof-roadmap
+    section_title: Current Main Result and Proof Roadmap
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 120
+    line_end: 159
+  - spine_id: the-same-terminal-record
+    section_title: The Same Terminal Record
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 406
+    line_end: 425
+  - spine_id: main-result
+    section_title: Main Result
+    source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+    line_start: 1
+    line_end: 33
+  - spine_id: notation-and-internal-dependency-labels
+    section_title: Notation and Internal Dependency Labels
+    source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+    line_start: 1
+    line_end: 21
+  - spine_id: scope-and-proof-polarity
+    section_title: Scope And Proof Polarity
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+    line_start: 39
+    line_end: 48
+  - spine_id: proof-roadmap
+    section_title: Proof Roadmap
+    source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+    line_start: 1
+    line_end: 29
+  context_cost: 173
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: gold-obstruction
+  title: Gold obstruction
+  priority: 2
+  status: ready_for_author_packet
+  production_role: write the forward-positive route as the stronger gold route and
+    identify its exact current obstruction without packaging it as closure
+  author_job: 'write the live gold route honestly: what it tries to prove, what exact
+    obstruction remains, and what the manuscript does with that obstruction'
+  support_keywords:
+  - gold
+  - annular
+  - refill
+  - obstruction
+  - cone
+  - scale-uniform
+  - source-refill
+  required_patterns:
+  - gold
+  - "(annular|obstruction|refill)"
+  - "(open|missing|unproved|CM|contrapositive)"
+  spine_refs:
+  - spine_id: the-direct-estimate-route
+    section_title: The Direct Estimate Route
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:160
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 160
+    line_end: 208
+  - spine_id: where-the-direct-route-reaches-an-obstruction
+    section_title: Where the Direct Route Reaches an Obstruction
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:209
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 209
+    line_end: 405
+  context_cost: 246
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: failure-taxonomy
+  title: Failure taxonomy and endpoint roles
+  priority: 3
+  status: ready_for_author_packet
+  production_role: turn endpoint names into proof roles that a reader can follow without
+    learning the automation vocabulary
+  author_job: turn endpoint names into readable mathematical cases with their proof
+    roles stated
+  support_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  - obstruction
+  required_patterns:
+  - failure
+  - "(Pack|Part|Field)"
+  - "(endpoint|obstruction)"
+  spine_refs:
+  - spine_id: what-a-terminal-failure-can-be
+    section_title: What a Terminal Failure Can Be
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:426
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 426
+    line_end: 476
+  - spine_id: sorting-failures-by-the-first-lost-face
+    section_title: Sorting Failures by the First Lost Face
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:477
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 477
+    line_end: 499
+  context_cost: 74
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: cm-class-membership
+  title: CM class membership
+  priority: 4
+  status: ready_for_author_packet
+  production_role: define the class-membership test before any witness face is used
+    as evidence for class exit
+  author_job: define the CM test as the reader-facing class-membership object, with
+    every witness role separated
+  support_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  required_patterns:
+  - "(Member|class membership)"
+  - participation
+  - "(CM|contrapositive)"
+  spine_refs:
+  - spine_id: the-cm-contrapositive-route
+    section_title: The CM Contrapositive Route
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:500
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 500
+    line_end: 526
+  - spine_id: what-class-membership-means-here
+    section_title: What Class Membership Means Here
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:527
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 527
+    line_end: 611
+  - spine_id: same-law-participation-and-one-field-coherence
+    section_title: Same-Law Participation and One-Field Coherence
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 612
+    line_end: 655
+  - spine_id: the-class-membership-exit-method
+    section_title: The Class-Membership Exit Method
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex
+    line_start: 1
+    line_end: 148
+  - spine_id: how-branch-inventories-reduce-to-cm-obligations
+    section_title: How Branch Inventories Reduce to CM Obligations
+    source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+    source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+    line_start: 6
+    line_end: 84
+  context_cost: 383
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: pack-part-field-grammar
+  title: Pack/Part/Field witness grammar
+  priority: 5
+  status: ready_for_author_packet
+  production_role: write the three witness faces as distinct mathematical objects
+    before the paper uses them in a pass-or-exit argument
+  author_job: write the witness-face grammar and the contrapositive class-exit proof
+    without role conflation
+  support_keywords:
+  - Pack
+  - Part
+  - Field
+  - witness
+  - face
+  - contrapositive
+  - Exit
+  - Member
+  required_patterns:
+  - Pack
+  - Part
+  - Field
+  - "(Exit|Member)"
+  spine_refs:
+  - spine_id: the-packet-witness
+    section_title: The Packet Witness
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:656
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 656
+    line_end: 690
+  - spine_id: packet-failure
+    section_title: Packet Failure
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:691
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 691
+    line_end: 711
+  - spine_id: velocity-failure-mechanisms
+    section_title: Velocity Failure Mechanisms
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:712
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 712
+    line_end: 736
+  - spine_id: reading-the-witness-table
+    section_title: Reading the Witness Table
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:779
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 779
+    line_end: 801
+  context_cost: 104
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: contrapositive-proof
+  title: Contrapositive proof
+  priority: 6
+  status: ready_for_author_packet
+  production_role: write the CM exit argument as an actual proof arc rather than a
+    route label
+  author_job: write the pass-or-exit proof with the assumption, test object, witness
+    face failure, and Exit(Q) conclusion kept separate
+  support_keywords:
+  - contrapositive
+  - Exit
+  - Member
+  - Pack
+  - Part
+  - Field
+  - class-law
+  - admitted
+  - witness
+  required_patterns:
+  - "(contrapositive|class.law|Exit)"
+  - "(Pack|Part|Field)"
+  - "(Member|class)"
+  spine_refs:
+  - spine_id: the-contrapositive-test
+    section_title: The Contrapositive Test
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:737
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 737
+    line_end: 778
+  - spine_id: from-witness-faces-to-class-exit
+    section_title: From Witness Faces to Class Exit
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:802
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 802
+    line_end: 970
+  context_cost: 211
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: same-solution-close
+  title: Same-solution close
+  priority: 7
+  status: ready_for_author_packet
+  production_role: show how the terminal object under discussion remains the same
+    solution when the paper passes from gold obstruction to CM classification
+  author_job: write the same-solution bridge so the reader sees that the CM pass/exit
+    test is applied to the terminal object already produced by the proof route
+  support_keywords:
+  - same-solution
+  - exact-object
+  - terminal
+  - compactness
+  - Member
+  - Exit
+  required_patterns:
+  - same.solution
+  - "(terminal|exact.object)"
+  - "(Member|Exit|CM)"
+  spine_refs:
+  - spine_id: the-same-solution-cm-proof
+    section_title: The Same-Solution CM Proof
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1515
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1515
+    line_end: 1622
+  - spine_id: compactness-and-exact-object-capture
+    section_title: Compactness and Exact-Object Capture
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+    line_start: 1
+    line_end: 142
+  context_cost: 250
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: clay-facing-cm-completion
+  title: Clay-facing CM completion
+  priority: 8
+  status: ready_for_author_packet
+  production_role: state the silver certification and Clay-facing conclusion only
+    after the proof payments are on the page
+  author_job: write the final CM closure as a theorem proof, including exactly what
+    it certifies
+  support_keywords:
+  - Clay
+  - same-solution
+  - completion
+  - Exit
+  - Member
+  required_patterns:
+  - same.solution
+  - "(Exit|Member)"
+  - proof
+  spine_refs:
+  - spine_id: the-clay-facing-completion-claim
+    section_title: The Clay-Facing Completion Claim
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:971
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 971
+    line_end: 1110
+  - spine_id: closing-hinges
+    section_title: Closing Hinges
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1491
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1491
+    line_end: 1514
+  context_cost: 164
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: forward-branch-treatment
+  title: Forward-positive branch treatment
+  priority: 9
+  status: ready_for_author_packet
+  production_role: integrate forward-positive branch work only as written proof payment,
+    obstruction record, support, obsolete material, contradiction, or explicit open
+    continuation
+  author_job: write the forward-positive branches as paid proof, obstruction, support,
+    obsolete, or open continuation
+  support_keywords:
+  - forward
+  - branch
+  - support
+  - obstruction
+  - gold
+  - open
+  required_patterns:
+  - forward
+  - branch
+  - "(support|obstruction|open)"
+  spine_refs:
+  - spine_id: how-forward-branches-enter-the-proof
+    section_title: How Forward Branches Enter the Proof
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1111
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1111
+    line_end: 1249
+  - spine_id: which-branches-still-matter
+    section_title: Which Branches Still Matter
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1250
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1250
+    line_end: 1298
+  - spine_id: the-support-boundary
+    section_title: The Support Boundary
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1299
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1299
+    line_end: 1333
+  - spine_id: branch-coverage-in-the-main-proof
+    section_title: Branch Coverage in the Main Proof
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1466
+    line_end: 1490
+  - spine_id: how-auxiliary-estimates-enter
+    section_title: How Auxiliary Estimates Enter
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1623
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1623
+    line_end: 1641
+  - spine_id: how-to-read-the-appendices
+    section_title: How to Read the Appendices
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1642
+    line_end: 1651
+  - spine_id: branch-to-face-derivation-patterns
+    section_title: Branch-to-Face Derivation Patterns
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1652
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1652
+    line_end: 1710
+  - spine_id: how-branch-families-pay-the-cm-proof
+    section_title: How Branch Families Pay the CM Proof
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex
+    line_start: 1
+    line_end: 41
+  - spine_id: energy-enstrophy-and-source-reserves
+    section_title: Energy, Enstrophy, and Source Reserves
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
+    line_start: 1
+    line_end: 273
+  - spine_id: kernelized-lifted-band-branch
+    section_title: Kernelized Lifted-Band Branch
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex
+    line_start: 1
+    line_end: 58
+  - spine_id: lower-prefix-and-upper-tail-survivors
+    section_title: Lower-Prefix and Upper-Tail Survivors
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex
+    line_start: 1
+    line_end: 383
+  - spine_id: direct-closure-and-the-four-body-diagnostic
+    section_title: Direct Closure and the Four-Body Diagnostic
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
+    line_start: 1
+    line_end: 107
+  - spine_id: derivative-recovery-on-the-same-surface
+    section_title: Derivative Recovery on the Same Surface
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex
+    line_start: 1
+    line_end: 73
+  - spine_id: scale-barriers-and-high-frequency-tails
+    section_title: Scale Barriers and High-Frequency Tails
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+    line_start: 1
+    line_end: 293
+  - spine_id: shell-gain-and-half-derivative-branch
+    section_title: Shell Gain and Half-Derivative Branch
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex
+    line_start: 1
+    line_end: 62
+  - spine_id: how-forward-support-enters-the-proof
+    section_title: How Forward Support Enters the Proof
+    source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
+    source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+    line_start: 85
+    line_end: 137
+  - spine_id: how-branch-families-pay-the-proof
+    section_title: How Branch Families Pay the Proof
+    source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
+    source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+    line_start: 138
+    line_end: 190
+  context_cost: 1732
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: comparison-transfer-boundary
+  title: Comparison and transfer boundary
+  priority: 10
+  status: ready_for_author_packet
+  production_role: keep comparison material inside an explicit NS proof role or smoothness-boundary
+    role
+  author_job: include comparison material only where it pays an NS proof role or a
+    smoothness-boundary role
+  support_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  required_patterns:
+  - "(Euler|comparison|transfer)"
+  - "(boundary|support)"
+  spine_refs:
+  - spine_id: selected-packet-euler-boundary-theorem
+    section_title: Selected-Packet Euler Boundary Theorem
+    source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex
+    line_start: 1
+    line_end: 125
+  - spine_id: comparison-and-transfer-boundary
+    section_title: Comparison and Transfer Boundary
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1334
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1334
+    line_end: 1374
+  - spine_id: the-whole-space-mathbb-r-3-r3-exterior-source-branch
+    section_title: The Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} Exterior-Source
+      Branch
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1375
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1375
+    line_end: 1465
+  context_cost: 257
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: source-field-reader-integration
+  title: Source-field reader integration
+  priority: 11
+  status: ready_for_author_packet
+  production_role: convert source-field reader material into proof-scene prose, exact
+    support, obsolete status, contradiction, or open continuation
+  author_job: write source-field material as a reader-facing proof scene or a precise
+    endpoint status instead of leaving it as raw appendix bulk
+  support_keywords:
+  - source-field
+  - source
+  - field
+  - derivation
+  - reader
+  - support
+  - open
+  - obsolete
+  required_patterns:
+  - "(source.field|derivation)"
+  - "(proof|support|open|obsolete)"
+  spine_refs:
+  - spine_id: source-field-record-and-reader-guide
+    section_title: Source-Field Record and Reader Guide
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    line_start: 1
+    line_end: 68779
+  context_cost: 68779
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: appendix-source-field-integration
+  title: Appendix proof-attempt integration
+  priority: 12
+  status: ready_for_author_packet
+  production_role: turn raw appendix/source-field material into readable main-paper
+    support, proof payment, obsolete status, contradiction, or open continuation
+  author_job: convert raw proof-attempt appendix material into readable paper text
+    or explicit support/open status
+  support_keywords:
+  - appendix
+  - attempt
+  - derivation
+  - support
+  - failure
+  - obsolete
+  - open
+  required_patterns:
+  - "(appendix|attempt|derivation)"
+  - "(proof|support|open|obsolete)"
+  spine_refs:
+  - spine_id: direct-routes-that-did-not-close
+    section_title: Direct Routes That Did Not Close
+    source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
+    line_start: 1
+    line_end: 4098
+  context_cost: 4098
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+source_spine_count: 48
+scheduler_rule: prefer proof-central arcs with assigned source, high reader value,
+  and low context cost
+authoring_rule: each selected arc must become final manuscript prose before integration
+verification_rule: verified author packs may be integrated into TeX source; failed
+  packs are rejected before touching source

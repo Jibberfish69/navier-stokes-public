@@ -22,7 +22,7 @@ so the residual closure collapses to
 
 ```math
 \boxed{
-\mathcal E_J^{dir}(I)\lesssim \mathcal E_J^{obs}(I).
+\mathcal E_J^{dir}(I)\le C_{\mathrm{CN2}}\mathcal E_J^{obs}(I).
 }
 \tag{CN.2}
 ```
@@ -251,7 +251,7 @@ write
 ```
 
 On a shadow-window time for the pair `(a,b)`, meaning
-`|X_{\le J}(a,t)-X_{\le J}(b,t)|\lesssim \varsigma_J(t)` as in
+`|X_{\le J}(a,t)-X_{\le J}(b,t)|\le C_{\mathrm{sh}}\varsigma_J(t)` as in
 [tps-shadow-time-budget-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-time-budget-packet.md),
 define the pair-local selector-normal moment of the defect field
 
@@ -269,12 +269,12 @@ W_J(x,y,t)\,dx\,dy
 \tag{CN.9b}
 ```
 
-Because the cutoff restricts to `|x-y|\lesssim \varsigma_J(t)` on the
+Because the cutoff restricts to `|x-y|\le C_\zeta\varsigma_J(t)` on the
 shadow window, one has the pointwise majorization
 
 ```math
 \mathcal M_J^{\perp}(a,b,t)
-\lesssim
+\le C_{\mathcal M}
 \iint
 \zeta_{\varsigma_J(t),X_{\le J}(a,t)}(x)\,
 \zeta_{\varsigma_J(t),X_{\le J}(b,t)}(y)\,
@@ -341,7 +341,7 @@ Then
 \int_I\int_{G_J^{pair,tr}}
 M_J(t)^4\big(\Xi_J^{\perp}(a,b,t)\big)^4\,
 d\mu_J^{pair}(a,b)\,dt
-\lesssim
+\le C_{\mathrm{CN13}}
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I).
 \tag{CN.13}
 ```
@@ -363,7 +363,7 @@ then
 \int_I\int_{G_J^{pair,tr}}
 \big(\Xi_J^{\perp}(a,b,t)\big)^4\,
 d\mu_J^{pair}(a,b)\,dt
-\lesssim
+\le C_{\mathrm{CN13b}}
 m_I^{-4}\Big(\mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)\Big).
 \tag{CN.13b}
 ```
@@ -378,7 +378,7 @@ to the cycle-exact branch by setting the loop observable to zero and replacing
 
 ```math
 M_J^4(\Xi_J^{\perp})^4
-\lesssim
+\le C_{\mathrm{CN13c}}
 (\mathcal M_J^{\perp})^2+(\varepsilon_J^{\perp})^2.
 \tag{CN.13c}
 ```
@@ -422,7 +422,7 @@ Then on every shadow-window time one has
 
 ```math
 \big\|\Phi_{J;a,b}^{\perp}(\cdot,\cdot,t)\big\|_{L^2_{x,y}}^2
-\lesssim
+\le C_{\Phi}
 \varsigma_J(t)^6.
 \tag{CN.13g}
 ```
@@ -444,11 +444,12 @@ holds, then `(CN.11)` follows.
 
 **Proof.**
 On the support of `\Phi_{J;a,b}^{\perp}`, one has
-`|x-X_{\le J}(a,t)|\lesssim \varsigma_J(t)` and
-`|y-X_{\le J}(b,t)|\lesssim \varsigma_J(t)`. On a shadow window,
-`|X_{\le J}(a,t)-X_{\le J}(b,t)|\lesssim \varsigma_J(t)`, hence also
-`|x-y|\lesssim \varsigma_J(t)`. Since `|n_J(a)|=1`, the amplitude of
-`\Phi_{J;a,b}^{\perp}` is `O(1)` and its support volume is `O(\varsigma_J(t)^6)`,
+`|x-X_{\le J}(a,t)|\le C_\zeta\varsigma_J(t)` and
+`|y-X_{\le J}(b,t)|\le C_\zeta\varsigma_J(t)`. On a shadow window,
+`|X_{\le J}(a,t)-X_{\le J}(b,t)|\le C_{\mathrm{sh}}\varsigma_J(t)`, hence also
+`|x-y|\le C_{xy}\varsigma_J(t)`. Since `|n_J(a)|=1`, the amplitude of
+`\Phi_{J;a,b}^{\perp}` is bounded by `C_\Phi` and its support volume is at most
+`C_{\mathrm{supp}}\varsigma_J(t)^6`,
 which gives `(CN.13g)`. Cauchy-Schwarz in `(x,y)` therefore yields
 
 ```math
@@ -456,7 +457,7 @@ which gives `(CN.13g)`. Cauchy-Schwarz in `(x,y)` therefore yields
 \le
 \big\|\Phi_{J;a,b}^{\perp}(\cdot,\cdot,t)\big\|_{L^2_{x,y}}^2
 \big\|W_J(t)\big\|_{L^2(K_J^{\perp}(a,b,t))}^2
-\lesssim
+\le C_{\mathrm{CN13i}}
 \varsigma_J(t)^6
 \big\|W_J(t)\big\|_{L^2(K_J^{\perp}(a,b,t))}^2.
 \tag{CN.13i}
@@ -489,7 +490,7 @@ C_{\mathrm{loc},0}\,
 then `(CN.11)` follows with
 
 ```math
-C_{\mathrm{obs},\perp}\lesssim \overline\varsigma_I^6 C_{\mathrm{loc},0}.
+C_{\mathrm{obs},\perp}\le C_{\mathrm{CN13h3}}\overline\varsigma_I^6 C_{\mathrm{loc},0}.
 \tag{CN.13h3}
 ```
 
@@ -642,7 +643,7 @@ and pair-measure domination by the active graph measure:
 d\mu_J^{pair}(a,b)
 \le
 C_{\mathrm{pair}}\,
-\mathbf 1_{\{b\sim a\}}\,
+\mathbf 1_{\{(a,b)\in\mathcal A_J^{adj}\}}\,
 d\mu_j(a)\,d\#_{N(a)}(b).
 \tag{CN.13h12}
 ```
@@ -696,7 +697,7 @@ d\mu_J^{pair}(a,b) \\
 \overline\varsigma_I^6 C_{\mathrm{pair}}
 \int_{G_{J,1}^{tr}}
 \mathbf 1_{\widetilde Q_{J,a}(t)}(x)\,
-\mathbf 1_{\{b\sim a\}}\,
+\mathbf 1_{\{(a,b)\in\mathcal A_J^{adj}\}}\,
 d\mu_j(a)\,d\#_{N(a)}(b) \\
 &=
 \overline\varsigma_I^6 C_{\mathrm{pair}}
@@ -788,7 +789,7 @@ Then
 
 ```math
 \mathcal E_J^{dir,\perp}(I)
-\lesssim
+\le C_{\mathrm{CN13l}}
 \mathcal E_J^{obs}(I)+\widetilde{\mathcal E}_{J,\perp}^{err}(I),
 \tag{CN.13l}
 ```
@@ -842,7 +843,7 @@ explicit upgrade.
 **Proof.**
 Write
 `f(a,b,t):=M_J(t)\Xi_J^{\perp}(a,b,t)`. Then `(CN.13)` is
-`\int_{I\times G_J^{pair,tr}} f^4 \lesssim
+`\int_{I\times G_J^{pair,tr}} f^4 \le C_4
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)`, while
 `\mathcal E_J^{dir,\perp}(I)=\int f^2`. Hölder on the finite-measure space
 `I\times G_J^{pair,tr}` gives
@@ -887,7 +888,7 @@ bound:
 
 ```math
 \mathcal E_J^{dir,\perp}(I)
-\lesssim
+\le C_{\mathrm{CN13m}}
 C_{\mathrm{supp}}^{1/2}
 \Big(
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)
@@ -1091,11 +1092,11 @@ C_{\mathrm{time}}
 ```
 
 then `(CN.13q)` follows with
-`C_{\mathrm{supp}}\lesssim \overline\mu_J C_{\mathrm{time}}`, and therefore
+`C_{\mathrm{supp}}\le C_{\mu}\overline\mu_J C_{\mathrm{time}}`, and therefore
 
 ```math
 \mathcal E_J^{dir,\perp}(I)
-\lesssim
+\le C_{\mathrm{CN13x}}
 (\overline\mu_J C_{\mathrm{time}})^{1/2}
 \Big(
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)
@@ -1124,7 +1125,7 @@ By definition of `\mathfrak T_J^{\perp}(I)`, the pair-time active set
 ```
 
 This is exactly `(CN.13q)` with
-`C_{\mathrm{supp}}\lesssim \overline\mu_J C_{\mathrm{time}}`. Apply
+`C_{\mathrm{supp}}\le C_{\mu}\overline\mu_J C_{\mathrm{time}}`. Apply
 `(CN.13r)`. ∎
 
 ### Corollary TPS-PD70z-from-aggregated-time-profile-support
@@ -1167,7 +1168,7 @@ Then
 
 ```math
 \mathcal E_J^{dir,\perp}(I)
-\lesssim
+\le C_{\mathrm{CN13A}}
 (\overline\mu_J C_{\mathrm{time},A})^{1/2}
 \Big(
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)
@@ -1198,7 +1199,7 @@ Integrating `(CN.13zae)` over `I` and applying `(CN.13)` gives
 
 ```math
 \int_I \mathfrak A_J^{\perp}(t)^4\,dt
-\lesssim
+\le C_{\mathrm{CN13zae}}
 \overline\mu_J
 \Big(
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)
@@ -1244,7 +1245,7 @@ not the linear integral `\int f`. Therefore a theorem of the form
 
 ```math
 \int_{I\times G_J^{pair,tr}} f
-\lesssim
+\le C_{\mathrm{CN13u}}
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I)
 \tag{CN.13u}
 ```
@@ -1437,7 +1438,7 @@ splice through shadow occupancy:
 
 ```math
 M_J^2(\Xi_J^{\perp})^2
-\lesssim
+\le C_{\mathrm{CN14b}}
 \mathcal M_J^{\perp}+\varepsilon_J^{\perp};
 \tag{CN.14b}
 ```
@@ -1445,7 +1446,7 @@ M_J^2(\Xi_J^{\perp})^2
 ```math
 \int
 \varsigma_J^6\|W_J\|_{L^2(K_J^\perp)}^2
-\lesssim
+\le C_{\mathrm{CN14c}}
 \mathcal E_J^{obs}.
 \tag{CN.14c}
 ```

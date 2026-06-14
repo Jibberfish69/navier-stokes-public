@@ -1,0 +1,918 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-carrier-and-pack-15
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-15
+  sequence: 17
+  group_id: carrier-and-pack
+  title: Carrier and Pack 15
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 58669
+  line_end: 60748
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58669
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58707
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58744
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59257
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59775
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60639
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60680
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60730
+  subsection_titles:
+  - Positive Carrier To Flux-Source Carleson Result
+  - 'Mediating Object: post monotone cascade carrier'
+  - Proper Carrier-Core Geometric Localization Result
+  - Readout-Compatible Carrier Commutator Estimate Result
+  - Same-Scale Coefficient Kill Into Weighted Carrier Note
+  - Selector Balanced Frame Lemma
+  - Selector-Good Cocycle Operator Norm Bound
+  - Selector-Persistent Coherent Amplitude Speed Gate Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Positive Carrier To Flux-Source Carleson Result
+    line_start: 58669
+    line_end: 58695
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58669
+    start_anchor: "\\subsection{Positive Carrier To Flux-Source Carleson Result}\n"
+    end_anchor: "\\subsection{Post-Collar proof burden Reconciliation Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Positive Carrier To Flux-Source Carleson Result}
+
+      \[
+      U_k(t)=\sum_{\ell>k+4}D_\ell(t).
+      \]
+
+      \[
+      \int_I\sum_{k>N}2^kU_k(t)^2dt
+      \le
+      \varepsilon\nu\int_I D_N(t)dt+C2^{-2\delta N}.
+      \]
+
+      Integrate the positive replacement over I. Insert the upper-tail- estimate for the first term and use
+
+      \[
+      \sum_{k>N}D_k(t)\le D_N(t)
+      \]
+
+      for the second term. Choose the dissipation fractions inside the available budget.
+
+      \[
+      \int_I\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt
+      \le
+      \varepsilon\nu\int_I D_N(t)dt+C2^{-2\delta N}.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Mediating Object: post monotone cascade carrier'
+    line_start: 58707
+    line_end: 58719
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58707
+    start_anchor: "\\subsection{Mediating Object: post monotone cascade carrier}\n"
+    end_anchor: "\\subsection{Projected Generator And Sector Invariance}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Mediating Object: post monotone cascade carrier}
+
+      This file formalizes the exact object that remains after the monotone bridge has been installed and marked insufficient by itself.
+
+      Its job is not to prove the scale barrier again. Its job is to make the unresolved post-Q(t) singularity pressure exact enough that the next discharge pass can test it locally instead of reopening generic theorem search.
+
+      The critical-scale quantity is the high-frequency tail energy together with its nonlinear transport packet.
+
+      If that estimate holds for all large cutoffs, the post-Q(t) cascade burden is absorbed and the route passes from the monotone layer into the scale-barrier discharge family.
+
+      This object does not itself prove the fourth bridge. It records the exact cascade channel whose suppression is later consumed by compactness and then by the curvature-first gradient route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Proper Carrier-Core Geometric Localization Result
+    line_start: 58744
+    line_end: 58770
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58744
+    start_anchor: "\\subsection{Proper Carrier-Core Geometric Localization Result}\n"
+    end_anchor: "\\subsection{PSJ+.1 Overlap Live Frontier Branch Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Proper Carrier-Core Geometric Localization Result}
+
+      A global selector has geometric localization exactly when this minimal core is controlled and proper.
+
+      \[
+      \mathfrak C_j(t)^{+M+L2^{-j}}
+      \subsetneq
+      \Omega
+      \]
+
+      \[
+      \mathcal K_{j,i}^{min}(t)
+      \subseteq
+      \mathfrak C_j(t)^{+M},
+      \]
+
+      \[
+      \mathcal P_j(t):=\mathfrak C_j(t)^{+M+L2^{-j}}
+      \]
+
+      \[
+      \mathcal K_{j,i}^{min}(t)=\Omega,
+      \]
+
+      then every global core containing all active collar supports equals the full ambient region up to closure. The selector w j 1 still gives algebraic weighted closure, while geometric localization disappears.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Readout-Compatible Carrier Commutator Estimate Result
+    line_start: 59257
+    line_end: 59291
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59257
+    start_anchor: "\\subsection{Readout-Compatible Carrier Commutator Estimate Result}\n"
+    end_anchor: "\\subsection{Readout-Preserving Normalization Obstruction}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Readout-Compatible Carrier Commutator Estimate Result}
+
+      \[
+      \mathcal E_D^{(s)}(X):=\|X\|_{H_D^{s+1}}^2+\|\Omega_D(X)\|_{H_D^s}^2.
+      \]
+
+      \[
+      \|[\Delta_D,Q_i]Z\|_{H_D^s}
+      \le C_{i,s}(\|Z\|_{H_D^{s+1}}+\|Z\|_{H_D^s}).
+      \]
+
+      Take Z= P DN D(X)e . Since e is fixed and smooth through order s+2, the carrier product/tame estimate gives
+
+      \[
+      \|Z\|_{H_D^{s+1}}+\|Z\|_{H_D^s}
+      \le C_{i,\beta,s}\big(\|X\|_{H_D^{s+2}}+\|\Omega_D(X)\|_{H_D^{s+1}}+\Phi_s(\mathcal E_D^{(s)})\big).
+      \]
+
+      \[
+      \|X\|_{H_D^{s+2}}+\|\Omega_D(X)\|_{H_D^{s+1}}
+      \le
+      \varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+      \]
+
+      \[
+      [\Delta_D,N_D(X)]e_\beta
+      =[\Delta_D,\nabla_X]e_\beta+[
+      \Delta_D,\iota_{(\cdot)}\Omega_D(X)]e_\beta.
+      \]
+
+      The first term is a finite sum of contractions involving DX, DX, D 2X, and fixed derivatives of e . The second is a finite sum of contractions involving D D(X), D D(X), D(X), and fixed derivatives of e . Applying H D s and using tame estimates gives
+
+      The base D.2 estimate from H.1 controls the L 2 commutator. The readout-compatible leakage bound requires the lifted H D s surface above. A base-energy estimate of the displayed H D s norm would need an additional smoothing or finite-dimensional uniformity theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Same-Scale Coefficient Kill Into Weighted Carrier Note
+    line_start: 59775
+    line_end: 59817
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59775
+    start_anchor: "\\subsection{Same-Scale Coefficient Kill Into Weighted Carrier
+      Note}\n"
+    end_anchor: "\\subsection{Same-Scale Model Edge Estimate and Weak Lift Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Same-Scale Coefficient Kill Into Weighted Carrier Note}
+
+      It does not prove the stronger coefficient-free same-scale theorem (SS). What it does prove is that the coefficient term appearing in the model theorem (SS ) is already absorbed by the installed weighted carrier N E N on the derivative-weighted spectral route.
+
+      The weighted carrier absorbs (1) as a separate barrier-scale burden, even though (1) remains present in the algebra.
+
+      \[
+      \Theta_N^\sharp(t)
+      :=
+      2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L_x^2}^2
+      \]
+
+      \[
+      \widetilde\Lambda_N^\sharp(t)
+      :=
+      \Lambda_N(t)+\Theta_N^\sharp(t)
+      \]
+
+      \[
+      E_N(t):=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      This is harmless: if necessary, enlarge the fixed collar width once and for all to M':= M,C ss .
+
+      \[
+      \Theta_N^{ss,\sharp}(t)\le \Theta_N^\sharp(t)\le \widetilde\Lambda_N^\sharp(t).
+      \]
+
+      So the same-scale coefficient term in (SS ) is already on the installed weighted carrier surface.
+
+      \[
+      \Theta_N^{ss,\sharp}(t)\le \Theta_N^\sharp(t).
+      \]
+
+      Multiplying (7) by E N(t) 0 and integrating in time yields (8). Using Littlewood--Paley equivalence on the weighted spectral surface gives (9).
+
+      Hence, on the weighted spectral carrier-floor-leakage surface, the same-scale side is no longer a distinct analytic burden. It has been reabsorbed into the already-installed carrier term.
+
+      It proves only that the coefficient-bearing term in (SS ) is already absorbed by the live weighted carrier.
+
+      So the strong coefficient-free theorem (SS) remains open if one insists on a standalone same-scale packet theorem independent of N E N.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector Balanced Frame Lemma
+    line_start: 60639
+    line_end: 60679
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60639
+    start_anchor: "\\subsection{Selector Balanced Frame Lemma}\n"
+    end_anchor: "\\subsection{Selector-Good Cocycle Operator Norm Bound}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector Balanced Frame Lemma}
+
+      Role: replace the vague selector-shape normalization burden by one exact finite-frame theorem on the selector-good directional support.
+
+      For the exact-potential branch, the operative version must be uniform on the active selector-good family, not merely pointwise for one pair (a,t).
+
+      \[
+      \sup_{\omega\in\Omega_J(a,t)} |\omega^\top A\omega|
+      \ge c_{\mathrm{shape}}|A|
+      \qquad
+      \text{for every traceless }A\neq 0
+      \]
+
+      \[
+      A=\operatorname{diag}(1,-1,0,\dots,0),
+      \]
+
+      The correct condition is a genuine interiority condition for the convex hull of the rank-one tensors .
+
+      \[
+      \Omega_J(a,t)\subset S(N_a)
+      \]
+
+      \[
+      \mathcal Q_J(a,t)
+      :=
+      \{\omega\otimes\omega:\omega\in \Omega_J(a,t)\}
+      \subset \operatorname{Sym}(N_a).
+      \]
+
+      \[
+      \frac1d\Pi_{N_a},
+      \qquad
+      d:=\dim N_a.
+      \]
+
+      Let J shape (a,t) be a selector-good directional measure supported on J(a,t). Assume there exist , >0 such that for every nonzero traceless symmetric operator A on N a,
+
+      Once that is done, the selector-good support supplies a finite balanced frame rather than only an asymptotic isotropy slogan.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Good Cocycle Operator Norm Bound
+    line_start: 60680
+    line_end: 60729
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60680
+    start_anchor: "\\subsection{Selector-Good Cocycle Operator Norm Bound}\n"
+    end_anchor: "\\subsection{Selector-Persistent Coherent Amplitude Speed Gate Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Good Cocycle Operator Norm Bound}
+
+      Role: make the forward and inverse cocycle-norm conversion requirements on the exact-potential Cauchy--Green branch explicit.
+
+      \[
+      \boxed{
+      \partial_t W_J^N=A_J^N W_J^N
+      \Longrightarrow
+      \bigl|W_J^N(t,a)\bigr|_{\mathrm{op}}
+      \le
+      \exp\!\Bigl(\int_{t_0}^t |A_J^N(s,a)|_{\mathrm{op}}\,ds\Bigr).
+      }
+      \]
+
+      PTC-Shape.A is not closed by this bound alone. The bound turns the factor | W J coc | op 2 in D.7mn3, and the inverse-cocycle factor appearing in the exact reference-amplitude packet, into explicit Gronwall-controlled quantities on the selector-good strip.
+
+      Keep one exact-potential selector-good atom-free strip I 0=[t 0,t 1] and one transported good base point a. Assume
+
+      \[
+      \partial_t W_J^N(t,a)=A_J^N(t,a)W_J^N(t,a)
+      \qquad\text{for a.e. }t\in I_0,
+      \]
+
+      \[
+      W_J^N(t_0,a)=I_{N_a}.
+      \]
+
+      \[
+      \bigl|W_J^N(t,a)\bigr|_{\mathrm{op}}
+      \le
+      \exp\!\Bigl(
+      \int_{t_0}^t |A_J^N(s,a)|_{\mathrm{op}}\,ds
+      \Bigr).
+      \]
+
+      \[
+      \int_{t_0}^{t_1}|A_J^N(s,a)|_{\mathrm{op}}\,ds
+      \le
+      K_J^{coc}(a),
+      \]
+
+      So the cocycle-norm conversion requirement in PTC-Shape.A is discharged once the strip carries an integrable operator-norm packet for A J N.
+
+      Assume in addition that W J N(t,a) is invertible on N a for every t I 0. Then for every t I 0,
+
+      So the exact inverse-cocycle packet needed by the reference-amplitude route is discharged once the same integrable operator-norm packet for A J N is present.
+
+      for almost every t with W J N(t,a)v 0, and by continuity elsewhere. Gronwall so gives
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Persistent Coherent Amplitude Speed Gate Result
+    line_start: 60730
+    line_end: 60748
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60730
+    start_anchor: "\\subsection{Selector-Persistent Coherent Amplitude Speed Gate
+      Result}\n"
+    end_anchor: "\\subsection{Selector-Persistent Transport Export And Probe Realization
+      Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Persistent Coherent Amplitude Speed Gate Result}
+
+      The collar coefficient estimates are routed through a direct selector-persistent amplitude gate.
+
+      \[
+      C_B(A)\kappa_U\le c_0,
+      \]
+
+      \[
+      R_{j,A,M}:=P_{>j-M}P_{\le j+A}
+      \]
+
+      \[
+      C_{A,M}\kappa_U\le c_1,
+      \]
+
+      This file proves the equivalence between coherent amplitude and coherent flow speed on persistent support, and proves that either form supplies both coherent coefficient inputs for the collar closure.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Positive Carrier To Flux-Source Carleson Result}
+
+    \[
+    U_k(t)=\sum_{\ell>k+4}D_\ell(t).
+    \]
+
+    \[
+    \int_I\sum_{k>N}2^kU_k(t)^2dt
+    \le
+    \varepsilon\nu\int_I D_N(t)dt+C2^{-2\delta N}.
+    \]
+
+    Integrate the positive replacement over I. Insert the upper-tail- estimate for the first term and use
+
+    \[
+    \sum_{k>N}D_k(t)\le D_N(t)
+    \]
+
+    for the second term. Choose the dissipation fractions inside the available budget.
+
+    \[
+    \int_I\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt
+    \le
+    \varepsilon\nu\int_I D_N(t)dt+C2^{-2\delta N}.
+    \]
+
+
+
+    \subsection{Mediating Object: post monotone cascade carrier}
+
+    This file formalizes the exact object that remains after the monotone bridge has been installed and marked insufficient by itself.
+
+    Its job is not to prove the scale barrier again. Its job is to make the unresolved post-Q(t) singularity pressure exact enough that the next discharge pass can test it locally instead of reopening generic theorem search.
+
+    The critical-scale quantity is the high-frequency tail energy together with its nonlinear transport packet.
+
+    If that estimate holds for all large cutoffs, the post-Q(t) cascade burden is absorbed and the route passes from the monotone layer into the scale-barrier discharge family.
+
+    This object does not itself prove the fourth bridge. It records the exact cascade channel whose suppression is later consumed by compactness and then by the curvature-first gradient route.
+
+
+
+    \subsection{Proper Carrier-Core Geometric Localization Result}
+
+    A global selector has geometric localization exactly when this minimal core is controlled and proper.
+
+    \[
+    \mathfrak C_j(t)^{+M+L2^{-j}}
+    \subsetneq
+    \Omega
+    \]
+
+    \[
+    \mathcal K_{j,i}^{min}(t)
+    \subseteq
+    \mathfrak C_j(t)^{+M},
+    \]
+
+    \[
+    \mathcal P_j(t):=\mathfrak C_j(t)^{+M+L2^{-j}}
+    \]
+
+    \[
+    \mathcal K_{j,i}^{min}(t)=\Omega,
+    \]
+
+    then every global core containing all active collar supports equals the full ambient region up to closure. The selector w j 1 still gives algebraic weighted closure, while geometric localization disappears.
+
+
+
+    \subsection{Readout-Compatible Carrier Commutator Estimate Result}
+
+    \[
+    \mathcal E_D^{(s)}(X):=\|X\|_{H_D^{s+1}}^2+\|\Omega_D(X)\|_{H_D^s}^2.
+    \]
+
+    \[
+    \|[\Delta_D,Q_i]Z\|_{H_D^s}
+    \le C_{i,s}(\|Z\|_{H_D^{s+1}}+\|Z\|_{H_D^s}).
+    \]
+
+    Take Z= P DN D(X)e . Since e is fixed and smooth through order s+2, the carrier product/tame estimate gives
+
+    \[
+    \|Z\|_{H_D^{s+1}}+\|Z\|_{H_D^s}
+    \le C_{i,\beta,s}\big(\|X\|_{H_D^{s+2}}+\|\Omega_D(X)\|_{H_D^{s+1}}+\Phi_s(\mathcal E_D^{(s)})\big).
+    \]
+
+    \[
+    \|X\|_{H_D^{s+2}}+\|\Omega_D(X)\|_{H_D^{s+1}}
+    \le
+    \varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+    \]
+
+    \[
+    [\Delta_D,N_D(X)]e_\beta
+    =[\Delta_D,\nabla_X]e_\beta+[
+    \Delta_D,\iota_{(\cdot)}\Omega_D(X)]e_\beta.
+    \]
+
+    The first term is a finite sum of contractions involving DX, DX, D 2X, and fixed derivatives of e . The second is a finite sum of contractions involving D D(X), D D(X), D(X), and fixed derivatives of e . Applying H D s and using tame estimates gives
+
+    The base D.2 estimate from H.1 controls the L 2 commutator. The readout-compatible leakage bound requires the lifted H D s surface above. A base-energy estimate of the displayed H D s norm would need an additional smoothing or finite-dimensional uniformity theorem.
+
+
+
+    \subsection{Same-Scale Coefficient Kill Into Weighted Carrier Note}
+
+    It does not prove the stronger coefficient-free same-scale theorem (SS). What it does prove is that the coefficient term appearing in the model theorem (SS ) is already absorbed by the installed weighted carrier N E N on the derivative-weighted spectral route.
+
+    The weighted carrier absorbs (1) as a separate barrier-scale burden, even though (1) remains present in the algebra.
+
+    \[
+    \Theta_N^\sharp(t)
+    :=
+    2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L_x^2}^2
+    \]
+
+    \[
+    \widetilde\Lambda_N^\sharp(t)
+    :=
+    \Lambda_N(t)+\Theta_N^\sharp(t)
+    \]
+
+    \[
+    E_N(t):=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    This is harmless: if necessary, enlarge the fixed collar width once and for all to M':= M,C ss .
+
+    \[
+    \Theta_N^{ss,\sharp}(t)\le \Theta_N^\sharp(t)\le \widetilde\Lambda_N^\sharp(t).
+    \]
+
+    So the same-scale coefficient term in (SS ) is already on the installed weighted carrier surface.
+
+    \[
+    \Theta_N^{ss,\sharp}(t)\le \Theta_N^\sharp(t).
+    \]
+
+    Multiplying (7) by E N(t) 0 and integrating in time yields (8). Using Littlewood--Paley equivalence on the weighted spectral surface gives (9).
+
+    Hence, on the weighted spectral carrier-floor-leakage surface, the same-scale side is no longer a distinct analytic burden. It has been reabsorbed into the already-installed carrier term.
+
+    It proves only that the coefficient-bearing term in (SS ) is already absorbed by the live weighted carrier.
+
+    So the strong coefficient-free theorem (SS) remains open if one insists on a standalone same-scale packet theorem independent of N E N.
+
+
+
+    \subsection{Selector Balanced Frame Lemma}
+
+    Role: replace the vague selector-shape normalization burden by one exact finite-frame theorem on the selector-good directional support.
+
+    For the exact-potential branch, the operative version must be uniform on the active selector-good family, not merely pointwise for one pair (a,t).
+
+    \[
+    \sup_{\omega\in\Omega_J(a,t)} |\omega^\top A\omega|
+    \ge c_{\mathrm{shape}}|A|
+    \qquad
+    \text{for every traceless }A\neq 0
+    \]
+
+    \[
+    A=\operatorname{diag}(1,-1,0,\dots,0),
+    \]
+
+    The correct condition is a genuine interiority condition for the convex hull of the rank-one tensors .
+
+    \[
+    \Omega_J(a,t)\subset S(N_a)
+    \]
+
+    \[
+    \mathcal Q_J(a,t)
+    :=
+    \{\omega\otimes\omega:\omega\in \Omega_J(a,t)\}
+    \subset \operatorname{Sym}(N_a).
+    \]
+
+    \[
+    \frac1d\Pi_{N_a},
+    \qquad
+    d:=\dim N_a.
+    \]
+
+    Let J shape (a,t) be a selector-good directional measure supported on J(a,t). Assume there exist , >0 such that for every nonzero traceless symmetric operator A on N a,
+
+    Once that is done, the selector-good support supplies a finite balanced frame rather than only an asymptotic isotropy slogan.
+
+
+
+    \subsection{Selector-Good Cocycle Operator Norm Bound}
+
+    Role: make the forward and inverse cocycle-norm conversion requirements on the exact-potential Cauchy--Green branch explicit.
+
+    \[
+    \boxed{
+    \partial_t W_J^N=A_J^N W_J^N
+    \Longrightarrow
+    \bigl|W_J^N(t,a)\bigr|_{\mathrm{op}}
+    \le
+    \exp\!\Bigl(\int_{t_0}^t |A_J^N(s,a)|_{\mathrm{op}}\,ds\Bigr).
+    }
+    \]
+
+    PTC-Shape.A is not closed by this bound alone. The bound turns the factor | W J coc | op 2 in D.7mn3, and the inverse-cocycle factor appearing in the exact reference-amplitude packet, into explicit Gronwall-controlled quantities on the selector-good strip.
+
+    Keep one exact-potential selector-good atom-free strip I 0=[t 0,t 1] and one transported good base point a. Assume
+
+    \[
+    \partial_t W_J^N(t,a)=A_J^N(t,a)W_J^N(t,a)
+    \qquad\text{for a.e. }t\in I_0,
+    \]
+
+    \[
+    W_J^N(t_0,a)=I_{N_a}.
+    \]
+
+    \[
+    \bigl|W_J^N(t,a)\bigr|_{\mathrm{op}}
+    \le
+    \exp\!\Bigl(
+    \int_{t_0}^t |A_J^N(s,a)|_{\mathrm{op}}\,ds
+    \Bigr).
+    \]
+
+    \[
+    \int_{t_0}^{t_1}|A_J^N(s,a)|_{\mathrm{op}}\,ds
+    \le
+    K_J^{coc}(a),
+    \]
+
+    So the cocycle-norm conversion requirement in PTC-Shape.A is discharged once the strip carries an integrable operator-norm packet for A J N.
+
+    Assume in addition that W J N(t,a) is invertible on N a for every t I 0. Then for every t I 0,
+
+    So the exact inverse-cocycle packet needed by the reference-amplitude route is discharged once the same integrable operator-norm packet for A J N is present.
+
+    for almost every t with W J N(t,a)v 0, and by continuity elsewhere. Gronwall so gives
+
+
+
+    \subsection{Selector-Persistent Coherent Amplitude Speed Gate Result}
+
+    The collar coefficient estimates are routed through a direct selector-persistent amplitude gate.
+
+    \[
+    C_B(A)\kappa_U\le c_0,
+    \]
+
+    \[
+    R_{j,A,M}:=P_{>j-M}P_{\le j+A}
+    \]
+
+    \[
+    C_{A,M}\kappa_U\le c_1,
+    \]
+
+    This file proves the equivalence between coherent amplitude and coherent flow speed on persistent support, and proves that either form supplies both coherent coefficient inputs for the collar closure.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Positive Carrier To Flux-Source Carleson Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58669
+  line_start: 58669
+  line_end: 58695
+  start_anchor: "\\subsection{Positive Carrier To Flux-Source Carleson Result}\n"
+  end_anchor: "\\subsection{Post-Collar proof burden Reconciliation Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Positive Carrier To Flux-Source
+    Carleson Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58669
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Mediating Object: post monotone cascade carrier'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58707
+  line_start: 58707
+  line_end: 58719
+  start_anchor: "\\subsection{Mediating Object: post monotone cascade carrier}\n"
+  end_anchor: "\\subsection{Projected Generator And Sector Invariance}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mediating Object: post monotone
+    cascade carrier as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58707
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Proper Carrier-Core Geometric Localization Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58744
+  line_start: 58744
+  line_end: 58770
+  start_anchor: "\\subsection{Proper Carrier-Core Geometric Localization Result}\n"
+  end_anchor: "\\subsection{PSJ+.1 Overlap Live Frontier Branch Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Proper Carrier-Core Geometric
+    Localization Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58744
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Readout-Compatible Carrier Commutator Estimate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59257
+  line_start: 59257
+  line_end: 59291
+  start_anchor: "\\subsection{Readout-Compatible Carrier Commutator Estimate Result}\n"
+  end_anchor: "\\subsection{Readout-Preserving Normalization Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Readout-Compatible Carrier Commutator
+    Estimate Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59257
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Same-Scale Coefficient Kill Into Weighted Carrier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59775
+  line_start: 59775
+  line_end: 59817
+  start_anchor: "\\subsection{Same-Scale Coefficient Kill Into Weighted Carrier Note}\n"
+  end_anchor: "\\subsection{Same-Scale Model Edge Estimate and Weak Lift Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Same-Scale Coefficient Kill Into
+    Weighted Carrier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59775
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector Balanced Frame Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60639
+  line_start: 60639
+  line_end: 60679
+  start_anchor: "\\subsection{Selector Balanced Frame Lemma}\n"
+  end_anchor: "\\subsection{Selector-Good Cocycle Operator Norm Bound}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector Balanced Frame Lemma
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60639
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Good Cocycle Operator Norm Bound
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60680
+  line_start: 60680
+  line_end: 60729
+  start_anchor: "\\subsection{Selector-Good Cocycle Operator Norm Bound}\n"
+  end_anchor: "\\subsection{Selector-Persistent Coherent Amplitude Speed Gate Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Good Cocycle Operator
+    Norm Bound as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60680
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Persistent Coherent Amplitude Speed Gate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60730
+  line_start: 60730
+  line_end: 60748
+  start_anchor: "\\subsection{Selector-Persistent Coherent Amplitude Speed Gate Result}\n"
+  end_anchor: "\\subsection{Selector-Persistent Transport Export And Probe Realization
+    Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Persistent Coherent
+    Amplitude Speed Gate Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60730
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-15
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-carrier-and-pack-15.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -76,18 +76,11 @@ PROMPT_RESIDUE = re.compile(
     re.I,
 )
 MATH_ASCII_RESIDUE = re.compile(
-    r"<=|>=|\bint_\d|\b[A-Za-z]+_(?:[A-Za-z]{2,}|\{[A-Za-z]{2,}\})|/[a-z]{4,}"
+    r"<=|>="
 )
 MATH_LABEL_RESIDUE = re.compile(
     r"\b[A-Z][A-Za-z0-9]*(?:\.[A-Za-z0-9_{}\\]+)+\b|"
-    r"\b[A-Z][a-z]+(?:[A-Z][A-Za-z0-9]+){1,}\b|"
-    r"\b(?:Pack|Part|Field|Member|Exit|OriginalSmoothData|SourcePulseExclusion|"
-    r"LocalPositiveSourceCarleson|PositiveSourceDepletion|TerminalSourceCoherence|"
-    r"ActiveVorticityCoherence|ScaleInvariantParent|PositiveActiveCarlesonReserve|"
-    r"ScaleCriticalTreeCarleson|SquareSourceEstimate|DiffuseParentEntropyCharge|"
-    r"EntropyCarleson|Jumpavg|JumpAvg|EndNS|NOHOP|HFG|PCTP|READ|COVER|"
-    r"DTC|SCF|TTU|FPC|FFPB|FFSRC|FCI|LCI|CSP|OFP|CFI|CJ|ORIGIN|AVG|"
-    r"ATD|SGC|BASAC|ASAC|FIRP|SSE)\b"
+    r"\b[A-Z][a-z]+(?:[A-Z][A-Za-z0-9]+){1,}\b"
 )
 NOT_BUT = re.compile(r"\bnot\b[^.\n]{0,160}\bbut\b", re.I)
 DANGLING_REFERENCE = re.compile(

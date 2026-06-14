@@ -1,0 +1,54 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T09:00:23Z'
+arc_id: gold-obstruction
+title: Gold obstruction
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 2
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+source_freshness:
+  algorithm: sha256
+  section_count: 2
+  checked_at: '2026-06-14T09:00:23Z'
+issues: []
+source_sections:
+- spine_id: the-direct-estimate-route
+  section_title: The Direct Estimate Route
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:159
+  line_start: 159
+  line_end: 207
+  source_sha256: 2f48318fbfd7d7288a9989c9f6d8826ef9b0df6b9f4e0de33510046d28a1723d
+  source_byte_count: 2310
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: where-the-direct-route-reaches-an-obstruction
+  section_title: Where the Direct Route Reaches an Obstruction
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:208
+  line_start: 208
+  line_end: 404
+  source_sha256: 24ff5bd94c399eabc0619bced16edde204dd3ad0f9f8b56e28e00d1a09b95688
+  source_byte_count: 8427
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: gold-obstruction
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

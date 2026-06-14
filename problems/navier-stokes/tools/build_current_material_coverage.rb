@@ -209,7 +209,7 @@ FAMILIES = [
       submission-bundle/pdf-rebuild-branch-inventory-20260530.md
       submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
       submission-bundle/rebuilt-main-staging.tex
-      submission-bundle/sections/rebuilt-branch-status-ledger.tex
+      submission-bundle/sections/rebuilt-branch-proof-roles.tex
       submission-bundle/sections/rebuilt-cm-exit-method.tex
       submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
       submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex

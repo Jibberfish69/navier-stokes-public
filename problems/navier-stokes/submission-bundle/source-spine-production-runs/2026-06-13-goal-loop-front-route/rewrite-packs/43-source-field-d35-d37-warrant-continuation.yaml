@@ -1,0 +1,21 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d35-d37-warrant-continuation
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix scale-barrier/warrant/continuation support slice
+    spine_id: source-field-reader-appendix-d35-d37-warrant-continuation-support
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1827
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1827-1953
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Rewrote the D35-D37 source-field appendix support slice so the
+      scale-barrier bridge, Euclidean same-surface warrant, and classical
+      H^1 continuation lemma read as one coherent support unit.  The rewritten
+      slice states the open high-shell transport estimate, explains what the
+      warrant carrier demands on one theorem surface, and gives the continuation
+      argument with correctly rendered \(H^1(\mathbb R^3)\), \(T_*\), and
+      \(\tau(M)\) notation.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d35-d37-warrant-continuation-ledger.yaml

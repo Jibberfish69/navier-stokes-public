@@ -1,0 +1,1054 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-15
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-15
+  sequence: 40
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 15
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 31920
+  line_end: 38116
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31920
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33671
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34469
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34528
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35399
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36877
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37975
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38068
+  subsection_titles:
+  - Averaged Act Kx Scale Critical Forcing Packet Note
+  - Clay problem Class-Internal Scale-Critical Source-Control Tree Exclusion
+  - Clay problem Collar-Sobolev Packet Interval-Propagation Theorem Program
+  - Clay problem Collar-To-Jump Pivot Note
+  - Clay problem Direct Active-Window Carleson Attempt Note
+  - Clay problem Fixed-Family And Collar Interval Propagation
+  - Gate 3 - Stable Channel Tail Control.A + Pressure Tail Hardy Transported Shells.A
+  - Good Scale Non Collapse Replacement Target Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Averaged Act Kx Scale Critical Forcing Packet Note
+    line_start: 31920
+    line_end: 31973
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31920
+    start_anchor: "\\subsection{Averaged Act Kx Scale Critical Forcing Packet Note}\n"
+    end_anchor: "\\subsection{Clay problem Avg Route Dependency And Jump avg Boundary
+      Audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: "\\subsection{Averaged Act Kx Scale Critical Forcing Packet Note}\n\nIt
+      is valid only when retained local smooth center-ball norms are assumed or proved
+      upstream. It is not a proof of point pressure-center forcing from finite energy,
+      bounded pack gauge, same-fluid geometry, and the pressure Poisson structure
+      alone.\n\n\\[\nc_j(t)=\\Phi(a^j,t)\n\\]\n\n\\[\n\\Gamma_\\sharp\\in L^\\infty(I).\n\\]\n\n\\[\nQ_{j,R}=B(c_j(t),R)\\times
+      I_R,\n\\qquad\n|I_R|\\sfcomp{30454} R^2.\n\\]\n\n\\[\n\\bar U_{q,j}^R(t)\n=\n\\int
+      U_q(x,t)\\varphi_{j,R}(x,t)\\,dx,\n\\]\n\nwhere j,R is transported with c j(t).
+      Let R q,j R denote the affine-normalized residual after subtracting the local
+      affine model.\n\n\\[\nX_R(t)\n=\n\\sum_{j,q\\le m+2,|\\beta|\\le 2}\n\\|\\zeta_R\\nabla_R^\\beta
+      R_{q,j}^R(t)\\|_{\\bar L^2}^2,\n\\]\n\nand F R is the averaged viscous, top-rung,
+      and moving-cutoff source packet obtained by testing the equations against the
+      transported mollifiers.\n\nThis subtotal is not the finite-energy supply theorem.
+      The supplied full packet for the averaged branch is the sharpened object SCF
+      avg m=SCF base+ATD m defined below.\n\nThis bridge is averaged only. It does
+      not recover point-center values, pointwise pressure derivatives, or the old
+      endpoint tower readout.\n\nFinite subcovers are available only after restricting
+      to compact subsets of the good complement; a full cover of the approach window
+      would be the regularity-equivalent strong cover and is not an energy-level theorem.\n\nMore
+      explicitly, let (u,p) be a suitable Navier-Stokes solution on a CKN-admissible
+      same-fluid moving cylinder Q R (a 0,t 0) with bounded geometric distortion M
+      . Use the CKN-compatible normalization\n\nwhere p R norm is the pressure normalization
+      allowed by the local CKN frame; affine pressure modes are absorbed into the
+      moving/accelerated frame. If SCF base(Q R ) m, then there are constants m (0,1/2)
+      and C m< , depending only on m, ,M , such that on Q m R\n\nProof. Rescale to
+      R=1. Bounded pack gauge and CKN-admissibility transfer Q R to a standard parabolic
+      cylinder with constants \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Internal Scale-Critical Source-Control Tree
+      Exclusion
+    line_start: 33671
+    line_end: 33718
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33671
+    start_anchor: "\\subsection{Clay problem Class-Internal Scale-Critical Source-Control
+      Tree Exclusion}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Constitutive Import Map}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Class-Internal Scale-Critical Source-Control Tree Exclusion}
+
+      The exclusion statement is simple: \(CM_{N,r,Q}\) rules out an infinite dyadic
+      tree of terminal positive source reserve inside \(Q\).  Conversely, such a tree
+      forces \(\neg Field_{N,r,Q}\), and hence \(\neg CM_{N,r,Q}\).
+
+      Fix a retained terminal packet \(Q\) and a CM witness scale row
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      A terminal positive source-reserve tree is a nested dyadic family T of same-fluid terminal packets with scales k(P) along every infinite branch and with nonnegative source densities D (t) on each packet. Its active tail at level k is
+
+      \[
+      T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+      \]
+
+      \[
+      \int_{I_m}2^{k_m}T_{k_m}(t)^2\,dt\ge\eta
+      \]
+
+      for all m, after legal losses and bounded-overlap descendants are removed. This is the branch-local negation of the vanishing tail required by Scale Critical Tree Carleson.A.
+
+      In particular no terminal positive source reserve can concentrate along an infinite dyadic tree inside a CM-witnessed NS-class packet Q.
+
+      Assume CM N,r,Q and suppose that an infinite concentrating tree exists. By Pack Q, retained dyadic packets have a finite deformation gauge and bounded overlap after passing to the retained subpack. Thus the branch subsequence in (T.1) may be chosen with pairwise essentially disjoint heat windows or with a uniformly bounded overlap constant. This changes only by a fixed class constant.
+
+      Hence the source density cannot be removed by changing equations, deleting the pressure-viscosity participation row, or moving the packet outside the same-fluid terminal law. It must appear as a genuine retained source-response term in the finite-difference readout used by Field N,r,Q .
+
+      For a node at scale k, let h k 2 -2k be the heat time and let k be the neighboring spatial increment in the retained field readout. The Duhamel response of (T.2) on the heat window gives the lower bound
+
+      \[
+      |\delta_k U|^2
+      \ge c_{\mathrm{sf},32220}
+
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Collar-Sobolev Packet Interval-Propagation Theorem
+      Program
+    line_start: 34469
+    line_end: 34527
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34469
+    start_anchor: "\\subsection{Clay problem Collar-Sobolev Packet Interval-Propagation
+      Theorem Program}\n"
+    end_anchor: "\\subsection{Clay problem Collar-To-Jump Pivot Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Collar-Sobolev Packet Interval-Propagation Theorem Program}
+
+      \[
+      \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty
+      \]
+
+      \[
+      \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
+      :=
+      \sum_{j=0}^{m}\sum_{k=0}^{N}\lambda_k
+      \int \chi_{\rho,\psi,t}^{\delta}(x)^2
+      \big|\nabla^jU_{k+1}(x,t)\big|^2\,dx.
+      \]
+
+      \[
+      \sup_{t\in I}
+      \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
+      <
+      \infty.
+      \]
+
+      \[
+      \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
+      \le C_{\mathrm{sf},33008}
+      \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t),
+      \]
+
+      \[
+      \sup_{t\in I}
+      \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
+      <
+      \infty.
+      \]
+
+      and the same common collar envelope also feeds the finite-net discharge on the reference side.
+
+      Because the collar cutoff , ,t is built from the same transported packet geometry, its time dependence is not arbitrary.
+
+      So the packet factor is transported exactly, and every nontrivial time variation of the cutoff is concentrated in one explicit collar-transport mismatch term T , ,t .
+
+      This prevents the collar packet from being treated as if it lived on a fixed Euclidean box unrelated to the same-fluid carrier.
+
+      So W j,k =U j+k+1 as a raw differential object, but the (j,k) indexing is still intentional: the collar packet keeps track of how much regularity is being paid through the Sobolev index j versus the tower index k, even when the total derivative order coincides.
+
+      where B j,k hi collects the higher-rung transport/cascade commutators generated by differentiating D t through j.
+
+      This is the place where the one-rung-higher strain/cascade terms and the moving collar commutators must be kept explicit instead of flattened into a generic continuation norm.
+
+      So the collar packet is driven only by same-fluid quantities already on the route, not by imported external structure.
+
+      So the collar-specific commutators are supported only on the annulus and are lower-order relative to the collar packet itself.
+
+      Fix b A , lab . By definition, either b=a for some a supp , or b=a+r with a supp and 0<|r| .
+
+      This is the
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Collar-To-Jump Pivot Note
+    line_start: 34528
+    line_end: 34582
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34528
+    start_anchor: "\\subsection{Clay problem Collar-To-Jump Pivot Note}\n"
+    end_anchor: "\\subsection{Clay problem Common-Hinge PRD Execution Audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Collar-To-Jump Pivot Note}
+
+      Role: record the exact one-field pivot if the direct collar propagation theorem does not close on the installed class-membership / forward-invariance route.
+
+      \[
+      \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty.
+      \]
+
+      If the answer is yes, then the contrapositive turns collar failure into a visible one-field jump channel.
+
+      So the correct pivot is to connect the collar receiver to this exact notion of coherence survival/failure.
+
+      Assume the source-side one-field package stays in one finite regime along an approaching still-live family, and assume the bridge/comparison surfaces remain available there.
+
+      The narrowest honest target is the lower-carrier receiver, not the full collar packet at first. The pivot should so be recorded as the following theorem-facing subtarget.
+
+      \[
+      \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t),
+      \]
+
+      and one finite transported cover of that collar. The cover labels, radii, multiplicity, and chain length must be fixed from pre-output data. No endpoint-dependent recentering and no refreshed cover chosen after the near-exit limit are allowed.
+
+      Use retained Part only to discard the finite-difference tower-law half of Field. The usable content is the bounded neighboring-coherence estimate
+
+      \[
+      |\delta_h U_k(x,t)|+|\delta_h K_k(x,t)|
+      \le C|h|
+      \qquad
+      (0\le k\le N,\ 0<|h|\le \rho).
+      \]
+
+      Assume also a pre-output source/bridge anchor on the same fixed transported cover, such as finite center values, seed values, or an initial lower-carrier packet strong enough to control the constant mode on every collar component. This anchor is indispensable: increment control alone does not control constant modes.
+
+      \[
+      \Gamma^{low}_{N,m,\rho,\psi}(t)
+      :=
+      1+
+      \sum_{q=0}^{m}
+      \|U_q(\cdot,t)\|_{L^\infty(
+      \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+      )}
+      \in L^1(I).
+      \]
+
+      \[
+      \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+      \subset
+      \bigcup_{j=1}^{J} Q_j(t),
+      \]
+
+      The anchor-chain lemma is not a new receiver architecture. It is t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Direct Active-Window Carleson Attempt Note
+    line_start: 35399
+    line_end: 35407
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35399
+    start_anchor: "\\subsection{Clay problem Direct Active-Window Carleson Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Euler-Smooth To Navier-Stokes-Smooth Support Bridge}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Direct Active-Window Carleson Attempt Note}
+
+      for separated terminal same-fluid active windows. The theorem is not discharged.
+
+      Raw finite measure does not imply this. A finite measure can concentrate on shrinking windows with finite total mass while the normalized weighted sum diverges.
+
+      The only way to gain the missing scale factor is to use active-window dynamics: terminal active windows must either decay, pay dissipation/pressure charge faster than scale-critical rate, or be forbidden by a source/monotonicity law. Those are exactly the active-shell amplitude gain, heat-scale -source, or monotone source-normalization theorems.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Fixed-Family And Collar Interval Propagation
+    line_start: 36877
+    line_end: 36917
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36877
+    start_anchor: "\\subsection{Clay problem Fixed-Family And Collar Interval Propagation}\n"
+    end_anchor: "\\subsection{Clay problem Flow-Map And Tower Continuation Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Fixed-Family And Collar Interval Propagation}
+
+      The route has already been reduced far enough that these are the two immediate successor burdens. Once they are available, the common-object discharge is formal and the branch can move on to closure packaging and first-exit work.
+
+      \[
+      \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+      :=
+      \sum_{\ell=1}^{M_\varepsilon} E_N(\eta^\ell,t;\psi).
+      \]
+
+      \[
+      \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t).
+      \]
+
+      \[
+      \mathfrak C_{N+1,\rho,\psi}^{\delta}(t),
+      \qquad
+      \mathfrak N^{seg}_{N+1,\rho,\psi}(t),
+      \]
+
+      \[
+      \mathcal M^{wseg}_{N+1,\rho,\psi}(t)
+      :=
+      \sup_{0<|r|\le \rho}
+      \mathcal M^{wseg}_{N+1,r,\psi}(t).
+      \]
+
+      \[
+      \sup_{t\in I}
+      \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+      <
+      \infty.
+      \]
+
+      At this point the fixed-family source side is no longer blocked by the finite summation step itself. The exact remaining source-side burden is the source-only interval-integrability statement
+
+      Reason: that one common collar envelope feeds the next-rung segment side, the weighted-segment packet, and the finite-net discharge on the reference side.
+
+      It isolates only the exact two-note interval-propagation queue that now sits between the common-object geometry and the packet closure layer.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Gate 3 - Stable Channel Tail Control.A + Pressure Tail Hardy
+      Transported Shells.A
+    line_start: 37975
+    line_end: 37997
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37975
+    start_anchor: "\\subsection{Gate 3 - Stable Channel Tail Control.A + Pressure
+      Tail Hardy Transported Shells.A}\n"
+    end_anchor: "\\subsection{Gate 4 - Pressure SourceAC.A / Pure Pressure Sustain
+      Residue Liouville.A}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Gate 3 - Stable Channel Tail Control.A + Pressure Tail Hardy Transported Shells.A}
+
+      A successful package would give transported-boundary tightness, which still requires terminal time-face anti-atom control to close Zeno Residue Liouville B ASAC .A.
+
+      Frozen-strain transported geometry splits boundary flux into unstable outgoing, stable incoming, and mixed sectors. The unstable sector has favorable outward behavior. The stable sector is the obstruction: contracting transported directions can bring ancient far-field mass into the terminal region.
+
+      Fixed-cylinder compactness controls compact subsets only. Original finite global energy rescales as
+
+      \[
+      \|u^{(m)}(s)\|_{L^2_y}^2=r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2,
+      \]
+
+      so it does not produce a uniform ancient tail bound in tangent variables. Selected no-parent ancestry controls the selected source graph, while boundary flux includes kinetic energy, pressure work, and nonselected packet flow.
+
+      Spherical Hardy cancellation does not transfer directly to anisotropic transported shells. The transported normals, measures, and weights introduce strain-geometry errors. Mean subtraction removes scalar pressure averages while leaving pressure oscillation coupled to velocity flux.
+
+      \[
+      \rho(y)m1_{(-1/m,0]}(s)dy ds
+      \]
+
+      Proceed to Gate 4: Pressure SourceAC.A / Pure Pressure Sustain Residue Liouville.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Good Scale Non Collapse Replacement Target Audit
+    line_start: 38068
+    line_end: 38116
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38068
+    start_anchor: "\\subsection{Good Scale Non Collapse Replacement Target Audit}\n"
+    end_anchor: "\\subsection{Clay problem Good Transported Shell Exhaustion.A direct
+      attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Good Scale Non Collapse Replacement Target Audit}
+
+      It proves exactly the positive-scale cover object consumed by the terminal readout layer. Proving it from Original Smooth Data still requires the same upstream source-wall closure currently isolated as
+
+      \[
+      \mathcal T:=Q^\Phi(I,A_\sharp)
+      \]
+
+      then after a same-fluid center perturbation and a shrink of r, the cylinder remains m-good.
+
+      \[
+      \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}(a,t)\ge R_*>0.
+      \]
+
+      \[
+      Q_{r_i}^{\Phi}(a_i,t_i)_{i=1}^{M}
+      \]
+
+      \[
+      \mathcal T
+      \subset
+      \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+      \qquad
+      r_i\ge R_*/4,
+      \]
+
+      \[
+      \rho(a,t):=s(a,t)/2\ge R_*/4.
+      \]
+
+      The same-fluid cylinders Q (a,t) (a,t) form an open cover of T. Compactness gives a finite subcover. The lower radius bound is preserved because every selected radius is at least R */4.
+
+      The neighborhoods U(a,t) cover the compact set T; choose a finite subcover U(a i,t i). Then
+
+      This is the installed Strict Margin.Jump direction. so any installed branch theorem proving
+
+      Conversely, Good Scale Non Collapse.A directly rules out terminal scale collapse and supplies the finite readout cover, so it is the cleaner replacement interface for all downstream uses of the no-Jump avg cover branch.
+
+      Thus Good Scale Non Collapse.A is the correct broad readout-facing target, but its proof from Original Smooth Data is not independent of the reopened source-wall root.
+
+      It is valid only after the averaged endpoint package removes the bad material or Jump avg branch; it cannot be spent upstream to prove that removal.
+
+      where Original Smooth Data supplies the retained same-fluid setup and all installed legal records, while the displayed reserve supplies the only missing source-wall ingredient.
+
+      so they cannot be imported to prove Scale Critical Tree Carleson.A without circularity.
+
+      This theorem is not supplied by local Radon mass compactness; terminal time atoms are compatible with the current Zeno extraction.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Averaged Act Kx Scale Critical Forcing Packet Note}
+
+    It is valid only when retained local smooth center-ball norms are assumed or proved upstream. It is not a proof of point pressure-center forcing from finite energy, bounded pack gauge, same-fluid geometry, and the pressure Poisson structure alone.
+
+    \[
+    c_j(t)=\Phi(a^j,t)
+    \]
+
+    \[
+    \Gamma_\sharp\in L^\infty(I).
+    \]
+
+    \[
+    Q_{j,R}=B(c_j(t),R)\times I_R,
+    \qquad
+    |I_R|\sfcomp{30454} R^2.
+    \]
+
+    \[
+    \bar U_{q,j}^R(t)
+    =
+    \int U_q(x,t)\varphi_{j,R}(x,t)\,dx,
+    \]
+
+    where j,R is transported with c j(t). Let R q,j R denote the affine-normalized residual after subtracting the local affine model.
+
+    \[
+    X_R(t)
+    =
+    \sum_{j,q\le m+2,|\beta|\le 2}
+    \|\zeta_R\nabla_R^\beta R_{q,j}^R(t)\|_{\bar L^2}^2,
+    \]
+
+    and F R is the averaged viscous, top-rung, and moving-cutoff source packet obtained by testing the equations against the transported mollifiers.
+
+    This subtotal is not the finite-energy supply theorem. The supplied full packet for the averaged branch is the sharpened object SCF avg m=SCF base+ATD m defined below.
+
+    This bridge is averaged only. It does not recover point-center values, pointwise pressure derivatives, or the old endpoint tower readout.
+
+    Finite subcovers are available only after restricting to compact subsets of the good complement; a full cover of the approach window would be the regularity-equivalent strong cover and is not an energy-level theorem.
+
+    More explicitly, let (u,p) be a suitable Navier-Stokes solution on a CKN-admissible same-fluid moving cylinder Q R (a 0,t 0) with bounded geometric distortion M . Use the CKN-compatible normalization
+
+    where p R norm is the pressure normalization allowed by the local CKN frame; affine pressure modes are absorbed into the moving/accelerated frame. If SCF base(Q R ) m, then there are constants m (0,1/2) and C m< , depending only on m, ,M , such that on Q m R
+
+    Proof. Rescale to R=1. Bounded pack gauge and CKN-admissibility transfer Q R to a standard parabolic cylinder with constants depending only on M . The hypothesis becomes the normalized CKN smallness condition
+
+    Choose m below the CKN epsilon-regularity threshold for this normalized frame. Interior regularity gives smoothness on Q 1/2 and parabolic bootstrapping gives, for every k m+2,
+
+    Let U q be the q-th tower rung, q m+2. The derivative bounds imply for every normalized affine residual R q,j R and every slot in X R ,
+
+    Choose m so that C m m 2 X. The same derivative bounds give X R L (I R ) and, since |I R | 2R 2, give N R L 1(I R ).
+
+
+
+    \subsection{Clay problem Class-Internal Scale-Critical Source-Control Tree Exclusion}
+
+    The exclusion statement is simple: \(CM_{N,r,Q}\) rules out an infinite dyadic
+    tree of terminal positive source reserve inside \(Q\).  Conversely, such a tree
+    forces \(\neg Field_{N,r,Q}\), and hence \(\neg CM_{N,r,Q}\).
+
+    Fix a retained terminal packet \(Q\) and a CM witness scale row
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    A terminal positive source-reserve tree is a nested dyadic family T of same-fluid terminal packets with scales k(P) along every infinite branch and with nonnegative source densities D (t) on each packet. Its active tail at level k is
+
+    \[
+    T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+    \]
+
+    \[
+    \int_{I_m}2^{k_m}T_{k_m}(t)^2\,dt\ge\eta
+    \]
+
+    for all m, after legal losses and bounded-overlap descendants are removed. This is the branch-local negation of the vanishing tail required by Scale Critical Tree Carleson.A.
+
+    In particular no terminal positive source reserve can concentrate along an infinite dyadic tree inside a CM-witnessed NS-class packet Q.
+
+    Assume CM N,r,Q and suppose that an infinite concentrating tree exists. By Pack Q, retained dyadic packets have a finite deformation gauge and bounded overlap after passing to the retained subpack. Thus the branch subsequence in (T.1) may be chosen with pairwise essentially disjoint heat windows or with a uniformly bounded overlap constant. This changes only by a fixed class constant.
+
+    Hence the source density cannot be removed by changing equations, deleting the pressure-viscosity participation row, or moving the packet outside the same-fluid terminal law. It must appear as a genuine retained source-response term in the finite-difference readout used by Field N,r,Q .
+
+    For a node at scale k, let h k 2 -2k be the heat time and let k be the neighboring spatial increment in the retained field readout. The Duhamel response of (T.2) on the heat window gives the lower bound
+
+    \[
+    |\delta_k U|^2
+    \ge c_{\mathrm{sf},32220}
+    h_k^2 T_k(t)^2
+    -
+    Loss_{legal,k}(t)
+    \]
+
+    The exponent is the parabolic one: two powers of heat time convert source to field response, and the retained one-field normalization restores exactly the scale-critical reserve 2 kT k 2. No Carleson theorem is used here; (T.3) is the local Duhamel lower response of a positive same-fluid carrier inside the already-retained class packet.
+
+    The infinitely many lower bounds (T.4) contradict (T.5). Hence the assumed infinite concentrating positive source-reserve tree cannot coexist with Field N,r,Q . Since CM N,r,Q includes Field N,r,Q , it cannot coexist with CM N,r,Q . Under the implication CM=>Member, it cannot be present inside a CM-witnessed NS-class member packet.
+
+    Pack Q: bounded retained packet geometry and finite overlap; Part N,Q : the source is a same-fluid differentiated NS carrier; Field N,r,Q : normalized retained neighboring-field defects vanish; local Duhamel positivity for a retained positive source carrier.
+
+    The remaining source-wall root is so sharpened, not erased: any future direct proof must either construct the CM witness rows first, or prove the open supplier theorem that original smooth data forces the same source-tree Carleson vanishing before class membership has been granted.
+
+
+
+    \subsection{Clay problem Collar-Sobolev Packet Interval-Propagation Theorem Program}
+
+    \[
+    \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty
+    \]
+
+    \[
+    \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
+    :=
+    \sum_{j=0}^{m}\sum_{k=0}^{N}\lambda_k
+    \int \chi_{\rho,\psi,t}^{\delta}(x)^2
+    \big|\nabla^jU_{k+1}(x,t)\big|^2\,dx.
+    \]
+
+    \[
+    \sup_{t\in I}
+    \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
+    <
+    \infty.
+    \]
+
+    \[
+    \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
+    \le C_{\mathrm{sf},33008}
+    \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t),
+    \]
+
+    \[
+    \sup_{t\in I}
+    \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
+    <
+    \infty.
+    \]
+
+    and the same common collar envelope also feeds the finite-net discharge on the reference side.
+
+    Because the collar cutoff , ,t is built from the same transported packet geometry, its time dependence is not arbitrary.
+
+    So the packet factor is transported exactly, and every nontrivial time variation of the cutoff is concentrated in one explicit collar-transport mismatch term T , ,t .
+
+    This prevents the collar packet from being treated as if it lived on a fixed Euclidean box unrelated to the same-fluid carrier.
+
+    So W j,k =U j+k+1 as a raw differential object, but the (j,k) indexing is still intentional: the collar packet keeps track of how much regularity is being paid through the Sobolev index j versus the tower index k, even when the total derivative order coincides.
+
+    where B j,k hi collects the higher-rung transport/cascade commutators generated by differentiating D t through j.
+
+    This is the place where the one-rung-higher strain/cascade terms and the moving collar commutators must be kept explicit instead of flattened into a generic continuation norm.
+
+    So the collar packet is driven only by same-fluid quantities already on the route, not by imported external structure.
+
+    So the collar-specific commutators are supported only on the annulus and are lower-order relative to the collar packet itself.
+
+    Fix b A , lab . By definition, either b=a for some a supp , or b=a+r with a supp and 0<|r| .
+
+    This is the finite lower-carrier packet sitting strictly below the top next-rung object K N+1,m, , . Its role is exactly to pay the coefficient-side readout of the carriers U 0, ,U m without recycling the unknown top packet back into L N,m, , sf .
+
+    Fix t I, y C , (t), and 0 q m. Translation invariance of the local Sobolev constant gives
+
+
+
+    \subsection{Clay problem Collar-To-Jump Pivot Note}
+
+    Role: record the exact one-field pivot if the direct collar propagation theorem does not close on the installed class-membership / forward-invariance route.
+
+    \[
+    \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty.
+    \]
+
+    If the answer is yes, then the contrapositive turns collar failure into a visible one-field jump channel.
+
+    So the correct pivot is to connect the collar receiver to this exact notion of coherence survival/failure.
+
+    Assume the source-side one-field package stays in one finite regime along an approaching still-live family, and assume the bridge/comparison surfaces remain available there.
+
+    The narrowest honest target is the lower-carrier receiver, not the full collar packet at first. The pivot should so be recorded as the following theorem-facing subtarget.
+
+    \[
+    \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t),
+    \]
+
+    and one finite transported cover of that collar. The cover labels, radii, multiplicity, and chain length must be fixed from pre-output data. No endpoint-dependent recentering and no refreshed cover chosen after the near-exit limit are allowed.
+
+    Use retained Part only to discard the finite-difference tower-law half of Field. The usable content is the bounded neighboring-coherence estimate
+
+    \[
+    |\delta_h U_k(x,t)|+|\delta_h K_k(x,t)|
+    \le C|h|
+    \qquad
+    (0\le k\le N,\ 0<|h|\le \rho).
+    \]
+
+    Assume also a pre-output source/bridge anchor on the same fixed transported cover, such as finite center values, seed values, or an initial lower-carrier packet strong enough to control the constant mode on every collar component. This anchor is indispensable: increment control alone does not control constant modes.
+
+    \[
+    \Gamma^{low}_{N,m,\rho,\psi}(t)
+    :=
+    1+
+    \sum_{q=0}^{m}
+    \|U_q(\cdot,t)\|_{L^\infty(
+    \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+    )}
+    \in L^1(I).
+    \]
+
+    \[
+    \mathcal C_{\rho,\psi}^{\delta,\vartheta}(t)
+    \subset
+    \bigcup_{j=1}^{J} Q_j(t),
+    \]
+
+    The anchor-chain lemma is not a new receiver architecture. It is the CJ-side readout of the finite transported cover already present in LCI.
+
+    So A low m, anc should be read as the minimal component-anchor projection of A ctr . If the proof uses all LCI cover centers, then the anchor burden is simply
+
+
+
+    \subsection{Clay problem Direct Active-Window Carleson Attempt Note}
+
+    for separated terminal same-fluid active windows. The theorem is not discharged.
+
+    Raw finite measure does not imply this. A finite measure can concentrate on shrinking windows with finite total mass while the normalized weighted sum diverges.
+
+    The only way to gain the missing scale factor is to use active-window dynamics: terminal active windows must either decay, pay dissipation/pressure charge faster than scale-critical rate, or be forbidden by a source/monotonicity law. Those are exactly the active-shell amplitude gain, heat-scale -source, or monotone source-normalization theorems.
+
+
+
+    \subsection{Clay problem Fixed-Family And Collar Interval Propagation}
+
+    The route has already been reduced far enough that these are the two immediate successor burdens. Once they are available, the common-object discharge is formal and the branch can move on to closure packaging and first-exit work.
+
+    \[
+    \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+    :=
+    \sum_{\ell=1}^{M_\varepsilon} E_N(\eta^\ell,t;\psi).
+    \]
+
+    \[
+    \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t).
+    \]
+
+    \[
+    \mathfrak C_{N+1,\rho,\psi}^{\delta}(t),
+    \qquad
+    \mathfrak N^{seg}_{N+1,\rho,\psi}(t),
+    \]
+
+    \[
+    \mathcal M^{wseg}_{N+1,\rho,\psi}(t)
+    :=
+    \sup_{0<|r|\le \rho}
+    \mathcal M^{wseg}_{N+1,r,\psi}(t).
+    \]
+
+    \[
+    \sup_{t\in I}
+    \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+    <
+    \infty.
+    \]
+
+    At this point the fixed-family source side is no longer blocked by the finite summation step itself. The exact remaining source-side burden is the source-only interval-integrability statement
+
+    Reason: that one common collar envelope feeds the next-rung segment side, the weighted-segment packet, and the finite-net discharge on the reference side.
+
+    It isolates only the exact two-note interval-propagation queue that now sits between the common-object geometry and the packet closure layer.
+
+
+
+    \subsection{Gate 3 - Stable Channel Tail Control.A + Pressure Tail Hardy Transported Shells.A}
+
+    A successful package would give transported-boundary tightness, which still requires terminal time-face anti-atom control to close Zeno Residue Liouville B ASAC .A.
+
+    Frozen-strain transported geometry splits boundary flux into unstable outgoing, stable incoming, and mixed sectors. The unstable sector has favorable outward behavior. The stable sector is the obstruction: contracting transported directions can bring ancient far-field mass into the terminal region.
+
+    Fixed-cylinder compactness controls compact subsets only. Original finite global energy rescales as
+
+    \[
+    \|u^{(m)}(s)\|_{L^2_y}^2=r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2,
+    \]
+
+    so it does not produce a uniform ancient tail bound in tangent variables. Selected no-parent ancestry controls the selected source graph, while boundary flux includes kinetic energy, pressure work, and nonselected packet flow.
+
+    Spherical Hardy cancellation does not transfer directly to anisotropic transported shells. The transported normals, measures, and weights introduce strain-geometry errors. Mean subtraction removes scalar pressure averages while leaving pressure oscillation coupled to velocity flux.
+
+    \[
+    \rho(y)m1_{(-1/m,0]}(s)dy ds
+    \]
+
+    Proceed to Gate 4: Pressure SourceAC.A / Pure Pressure Sustain Residue Liouville.A.
+
+
+
+    \subsection{Good Scale Non Collapse Replacement Target Audit}
+
+    It proves exactly the positive-scale cover object consumed by the terminal readout layer. Proving it from Original Smooth Data still requires the same upstream source-wall closure currently isolated as
+
+    \[
+    \mathcal T:=Q^\Phi(I,A_\sharp)
+    \]
+
+    then after a same-fluid center perturbation and a shrink of r, the cylinder remains m-good.
+
+    \[
+    \inf_{(a,t)\in\mathcal T}r_{\mathrm{good}}(a,t)\ge R_*>0.
+    \]
+
+    \[
+    Q_{r_i}^{\Phi}(a_i,t_i)_{i=1}^{M}
+    \]
+
+    \[
+    \mathcal T
+    \subset
+    \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+    \qquad
+    r_i\ge R_*/4,
+    \]
+
+    \[
+    \rho(a,t):=s(a,t)/2\ge R_*/4.
+    \]
+
+    The same-fluid cylinders Q (a,t) (a,t) form an open cover of T. Compactness gives a finite subcover. The lower radius bound is preserved because every selected radius is at least R */4.
+
+    The neighborhoods U(a,t) cover the compact set T; choose a finite subcover U(a i,t i). Then
+
+    This is the installed Strict Margin.Jump direction. so any installed branch theorem proving
+
+    Conversely, Good Scale Non Collapse.A directly rules out terminal scale collapse and supplies the finite readout cover, so it is the cleaner replacement interface for all downstream uses of the no-Jump avg cover branch.
+
+    Thus Good Scale Non Collapse.A is the correct broad readout-facing target, but its proof from Original Smooth Data is not independent of the reopened source-wall root.
+
+    It is valid only after the averaged endpoint package removes the bad material or Jump avg branch; it cannot be spent upstream to prove that removal.
+
+    where Original Smooth Data supplies the retained same-fluid setup and all installed legal records, while the displayed reserve supplies the only missing source-wall ingredient.
+
+    so they cannot be imported to prove Scale Critical Tree Carleson.A without circularity.
+
+    This theorem is not supplied by local Radon mass compactness; terminal time atoms are compatible with the current Zeno extraction.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Averaged Act Kx Scale Critical Forcing Packet Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31920
+  line_start: 31920
+  line_end: 31973
+  start_anchor: "\\subsection{Averaged Act Kx Scale Critical Forcing Packet Note}\n"
+  end_anchor: "\\subsection{Clay problem Avg Route Dependency And Jump avg Boundary
+    Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Averaged Act Kx Scale Critical
+    Forcing Packet Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31920
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Internal Scale-Critical Source-Control Tree
+    Exclusion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33671
+  line_start: 33671
+  line_end: 33718
+  start_anchor: "\\subsection{Clay problem Class-Internal Scale-Critical Source-Control
+    Tree Exclusion}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Constitutive Import Map}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Internal Scale-Critical
+    Source-Control Tree Exclusion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33671
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Collar-Sobolev Packet Interval-Propagation Theorem
+    Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34469
+  line_start: 34469
+  line_end: 34527
+  start_anchor: "\\subsection{Clay problem Collar-Sobolev Packet Interval-Propagation
+    Theorem Program}\n"
+  end_anchor: "\\subsection{Clay problem Collar-To-Jump Pivot Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Collar-Sobolev Packet
+    Interval-Propagation Theorem Program as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34469
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Collar-To-Jump Pivot Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34528
+  line_start: 34528
+  line_end: 34582
+  start_anchor: "\\subsection{Clay problem Collar-To-Jump Pivot Note}\n"
+  end_anchor: "\\subsection{Clay problem Common-Hinge PRD Execution Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Collar-To-Jump Pivot
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34528
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Direct Active-Window Carleson Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35399
+  line_start: 35399
+  line_end: 35407
+  start_anchor: "\\subsection{Clay problem Direct Active-Window Carleson Attempt Note}\n"
+  end_anchor: "\\subsection{Euler-Smooth To Navier-Stokes-Smooth Support Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Direct Active-Window
+    Carleson Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35399
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Fixed-Family And Collar Interval Propagation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36877
+  line_start: 36877
+  line_end: 36917
+  start_anchor: "\\subsection{Clay problem Fixed-Family And Collar Interval Propagation}\n"
+  end_anchor: "\\subsection{Clay problem Flow-Map And Tower Continuation Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Fixed-Family And
+    Collar Interval Propagation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36877
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Gate 3 - Stable Channel Tail Control.A + Pressure Tail Hardy Transported
+    Shells.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37975
+  line_start: 37975
+  line_end: 37997
+  start_anchor: "\\subsection{Gate 3 - Stable Channel Tail Control.A + Pressure Tail
+    Hardy Transported Shells.A}\n"
+  end_anchor: "\\subsection{Gate 4 - Pressure SourceAC.A / Pure Pressure Sustain Residue
+    Liouville.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Gate 3 - Stable Channel Tail
+    Control.A + Pressure Tail Hardy Transported Shells.A as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37975
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Good Scale Non Collapse Replacement Target Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38068
+  line_start: 38068
+  line_end: 38116
+  start_anchor: "\\subsection{Good Scale Non Collapse Replacement Target Audit}\n"
+  end_anchor: "\\subsection{Clay problem Good Transported Shell Exhaustion.A direct
+    attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Good Scale Non Collapse Replacement
+    Target Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38068
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-15
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-15.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

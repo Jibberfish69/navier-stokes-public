@@ -94,7 +94,7 @@ By Sobolev embedding with `s>\frac52`,
 
 ```math
 \|\nabla \rho(L_{i,\beta}(X))\|_{L^\infty_x}
-\lesssim_s
+\le C_s
 \|\rho(L_{i,\beta}(X))\|_{H^s_x}.
 ```
 

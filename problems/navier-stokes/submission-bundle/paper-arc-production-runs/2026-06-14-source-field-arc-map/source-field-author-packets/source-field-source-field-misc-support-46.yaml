@@ -1,0 +1,830 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-46
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-46
+  sequence: 198
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 46
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 27328
+  line_end: 27667
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27328
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27342
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27380
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27422
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27544
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27571
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27623
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27651
+  subsection_titles:
+  - Terminal Readout Equivalence Audit
+  - 'Terminal Readout Invocation: Recovering End NS From End NS avg'
+  - Terminal Route Compression - Retained Conditional Theorem
+  - Terminal Source Backward Propagation.A attempt
+  - Terminal Angular Mixing.A / Alignment Decorrel.A conditional proof note
+  - Terminal Angular Mixing.OnwardASACReconciliation
+  - Terminal Source Anti Concentration.ToUTI
+  - Terminal Source Coherence.A concrete supplier split
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Readout Equivalence Audit
+    line_start: 27328
+    line_end: 27341
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27328
+    start_anchor: "\\subsection{Terminal Readout Equivalence Audit}\n"
+    end_anchor: "\\subsection{Terminal Readout Invocation: Recovering End NS From
+      End NS avg}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Readout Equivalence Audit}
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+      \qquad q\le N.
+      \]
+
+      Pack and participation are shared primitive rows. Hence the pointwise endpoint package End NS is recovered.
+
+      On the same cover, pointwise field and tower bounds average to the averaged package. The shared Pack and Part rows carry unchanged. Thus the readout bridge is exact at the endpoint-package level.
+
+      The terminal readout is exactly the averaged-to-pointwise endpoint equivalence used by the manuscript. It appears only after End NS avg.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Terminal Readout Invocation: Recovering End NS From End NS
+      avg'
+    line_start: 27342
+    line_end: 27379
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27342
+    start_anchor: "\\subsection{Terminal Readout Invocation: Recovering End NS From
+      End NS avg}\n"
+    end_anchor: "\\subsection{Terminal Route Compression - Retained Conditional Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Readout Invocation: Recovering End NS From End NS avg}
+
+      \[
+      End_{NS,avg}.
+      \]
+
+      On the shrunken cover elements, ATD m supplies the finite-depth local tower packets needed for readout.
+
+      The finite positive-scale cover converts averaged field coherence into pointwise field coherence. Each cover element has a uniform positive lower scale and the ATD m local tower gain. Finite overlap transfers the averaged field bounds to the old pointwise field row on the same-fluid approach window.
+
+      The velocity tower part is read on the fixed-scale finite cover. Each shrunken element carries the local averaged tower packet, local Sobolev/Morrey converts that packet into pointwise control there, and the finite maximum over the cover gives one endpoint velocity-tower bound.
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      The viscous part is read from the U q+2 tower rung, so the readout depth must reach at least N+2 for endpoint tower depth N.
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b),
+      \]
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+      \le
+      C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      ATD m supplies the product-source carrier on the finite cover. The harmonic tail satisfies the energy far-tail estimate
+
+      \[
+      \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+      \le C_{q,i}\|u_0\|_{L^2}^2.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Route Compression - Retained Conditional Theorem
+    line_start: 27380
+    line_end: 27408
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27380
+    start_anchor: "\\subsection{Terminal Route Compression - Retained Conditional
+      Theorem}\n"
+    end_anchor: "\\subsection{Terminal Skew Localization record.A attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Route Compression - Retained Conditional Theorem}
+
+      Conditional terminal theorem surface for the retained Navier-Stokes class-membership route.
+
+      The theorem compresses the currently installed retained-route dependencies into one terminal chain and records the boundary against the averaged finite-energy route and terminal readout route.
+
+      The exact same-depth pressure branch remains separate from this strengthened source route.
+
+      \[
+      \neg CM_{N,r,Q}\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+      \]
+
+      \[
+      I=[a,b]\Subset[0,T_*),
+      \]
+
+      \[
+      \sum_j\|u\|_{L^1_t C^{m+2,\alpha}(B(c_j(t),2\rho_I))}
+      +
+      \sum_j\|p\|_{L^1_t C^{m+1,\alpha}(B(c_j(t),2\rho_I))}<\infty.
+      \]
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty(I).
+      \]
+
+      No averaged object is used as its pointwise counterpart upstream of these readout theorems.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Backward Propagation.A attempt
+    line_start: 27422
+    line_end: 27460
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27422
+    start_anchor: "\\subsection{Terminal Source Backward Propagation.A attempt}\n"
+    end_anchor: "\\subsection{Terminal Zeno source-refill closure playbook}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Backward Propagation.A attempt}
+
+      Failed as an unconditional theorem under the current compactness hypotheses. The correct replacement target is a temporal non-atomicity or backward lower-density theorem for the native positive source-residue measure.
+
+      \[
+      \mu_*^{src}(Q_1(0,0))>0
+      \Longrightarrow
+      \exists a>0:\ \mu_*^{src}(\{s<-a\})>0.
+      \]
+
+      \[
+      \mu_*^{src}(\{s<-a\})=0\qquad\forall a>0,
+      \]
+
+      \[
+      \mu_*^{src}=0,
+      \]
+
+      The available Zeno compactness gives only weak-* compactness of locally finite positive source-residue measures. Under this topology, positive source mass may concentrate on the terminal time slice.
+
+      \[
+      d\mu_n(y,s)=\rho(y)\,n\mathbf 1_{(-1/n,0]}(s)\,dy\,ds,
+      \]
+
+      \[
+      \mu_n\rightharpoonup \rho(y)\,dy\otimes\delta_{s=0}.
+      \]
+
+      Thus the desired backward propagation implication is false for the measure class supplied by current compactness.
+
+      Testing the local energy inequality against a backward heat kernel does not remove this obstruction. A positive terminal measure appears as a terminal boundary contribution. The inequality allows such a contribution unless there is a separate no-terminal-atom estimate, temporal absolute continuity estimate, or source-parent lower-density theorem.
+
+      It does not supply the stronger global statement that the source-residue measure has no terminal atom or that terminal mass must be generated on a fixed earlier parabolic collar.
+
+      then weak limits cannot charge the time slice s=0. This implies Temporal Non Atomic Source.A.
+
+      The proposed no-inflow Zeno class route remains viable only after adding temporal non-atomicity. Without it, terminal source residue may be born as a terminal atom in the weak-* limit, and first-pulse no-parent minimality does not contradict that configuration.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Angular Mixing.A / Alignment Decorrel.A conditional
+      proof note
+    line_start: 27544
+    line_end: 27570
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27544
+    start_anchor: "\\subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional
+      proof note}\n"
+    end_anchor: "\\subsection{Terminal Angular Mixing.OnwardASACReconciliation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional proof note}
+
+      Conditional theorem note. The angular component has an installed ASAC payment. The same selected terminal-window estimate closes once the terminal source-current branch is supplied by Zeno Source Residue Rigidity.A.
+
+      \[
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}
+      |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+\,dxdt
+      \le
+      C\rho_{inst,N}(\mathcal F_N)+o_N(1),
+      \]
+
+      where inst,N consists of allowed drain, parent-drain, legal loss, and already-installed CM witness charges.
+
+      Thus, with Zeno Source Residue Rigidity.A installed, every selected positive terminal source-current edge has a signed partner, legal exit, donor depletion payment, or terminal residue evacuation.
+
+      \[
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}
+      |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+\,dxdt
+      \le
+      C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+      \]
+
+      The angular item closes conditionally through ASAC plus Zeno Source Residue Rigidity.A. The live atom after this reduction is
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Angular Mixing.OnwardASACReconciliation
+    line_start: 27571
+    line_end: 27585
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27571
+    start_anchor: "\\subsection{Terminal Angular Mixing.OnwardASACReconciliation}\n"
+    end_anchor: "\\subsection{Terminal Weight Coherence.A + Active Strain Alignment
+      Cost.A Signed-Saturation Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Angular Mixing.OnwardASACReconciliation}
+
+      The angular route has a real installed sub-result through the ASAC parent-drain assembly. This closes the active-alignment component inside the signed/near-band source presentation. The forward native positive source supplier remains open because the remaining one-sided source-current / donor-sink term still requires Zeno source-residue rigidity.
+
+      So the active-alignment part of the angular obstruction is discharged in the signed/near-band route.
+
+      Meaning: every selected positive terminal source-current edge has a usable signed partner, a legal exit, a donor depletion payment, or a Zeno residue exclusion.
+
+      ASAC supplies a signed/near-band active-alignment estimate. The native positive supplier also needs the one-sided terminal source-current / donor-sink piece. That piece is exactly the no-free-sink branch above.
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Anti Concentration.ToUTI
+    line_start: 27623
+    line_end: 27650
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27623
+    start_anchor: "\\subsection{Terminal Source Anti Concentration.ToUTI}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A concrete supplier split}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Anti Concentration.ToUTI}
+
+      \[
+      UniformTemporalSourceIntegrability_p.A:
+      \quad
+      \|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\|_{L_s^p((-1,0))}\le C_R,
+      \qquad p>1.
+      \]
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])\le C_R\varepsilon^{1-1/p}.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      The installed compactness and source records give finite L1 temporal mass on fixed cylinders. L1 mass permits terminal-layer concentration. Fixed positive viscosity supplies no additional temporal reverse Holder gain at the normalized heat scale. Same-fluid ancestry supplies packet lineage and legal routing, while temporal residence still requires a separate native source theorem.
+
+      \[
+      \boxed{UniformTemporalSourceIntegrability_p.A.}
+      \]
+
+      A proof of either gives the post-ASAC Zeno closure and hence feeds Source Pulse Exclusion.A through the already installed ASAC/no-free-sink reductions.
+
+      The branch remains open. The next theorem must prove super-L1 temporal control for the native positive source measure without importing the scale-critical Carleson reserve.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A concrete supplier split
+    line_start: 27651
+    line_end: 27667
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27651
+    start_anchor: "\\subsection{Terminal Source Coherence.A concrete supplier split}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A from Original Smooth Data}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Coherence.A concrete supplier split}
+
+      Each supplier must control the native positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, and positive-part extraction.
+
+      Eigen Decorrel.A remains open. Incompressibility gives trace-free strain, while active packets can still align with expanding eigendirections.
+
+      Signed Positive Balance.A remains open. Signed shell identities before weights and active-window selection do not yield positive/negative balance for the selected native source carrier.
+
+      Local Pressure Strain Deplete.A remains open. Pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+      Active Vorticity Coherence.A remains open. Direction coherence depletes stretching if assumed, while the original-data route has no terminal active-window direction modulus for the exact weighted source carrier.
+
+      Anti Beltrami Carleson.A remains open. Beltrami/helical structure can be a cancellation geometry, while the current route has no theorem forcing terminal active packets into a depleted anti-coherent class.
+
+      The loop should continue to the positive-source Carleson / reverse-Holder parent concentration branch.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Terminal Readout Equivalence Audit}
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+    \qquad q\le N.
+    \]
+
+    Pack and participation are shared primitive rows. Hence the pointwise endpoint package End NS is recovered.
+
+    On the same cover, pointwise field and tower bounds average to the averaged package. The shared Pack and Part rows carry unchanged. Thus the readout bridge is exact at the endpoint-package level.
+
+    The terminal readout is exactly the averaged-to-pointwise endpoint equivalence used by the manuscript. It appears only after End NS avg.
+
+
+
+    \subsection{Terminal Readout Invocation: Recovering End NS From End NS avg}
+
+    \[
+    End_{NS,avg}.
+    \]
+
+    On the shrunken cover elements, ATD m supplies the finite-depth local tower packets needed for readout.
+
+    The finite positive-scale cover converts averaged field coherence into pointwise field coherence. Each cover element has a uniform positive lower scale and the ATD m local tower gain. Finite overlap transfers the averaged field bounds to the old pointwise field row on the same-fluid approach window.
+
+    The velocity tower part is read on the fixed-scale finite cover. Each shrunken element carries the local averaged tower packet, local Sobolev/Morrey converts that packet into pointwise control there, and the finite maximum over the cover gives one endpoint velocity-tower bound.
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    The viscous part is read from the U q+2 tower rung, so the readout depth must reach at least N+2 for endpoint tower depth N.
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b),
+    \]
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+    \le
+    C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    ATD m supplies the product-source carrier on the finite cover. The harmonic tail satisfies the energy far-tail estimate
+
+    \[
+    \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+    \le C_{q,i}\|u_0\|_{L^2}^2.
+    \]
+
+
+
+    \subsection{Terminal Route Compression - Retained Conditional Theorem}
+
+    Conditional terminal theorem surface for the retained Navier-Stokes class-membership route.
+
+    The theorem compresses the currently installed retained-route dependencies into one terminal chain and records the boundary against the averaged finite-energy route and terminal readout route.
+
+    The exact same-depth pressure branch remains separate from this strengthened source route.
+
+    \[
+    \neg CM_{N,r,Q}\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+    \]
+
+    \[
+    I=[a,b]\Subset[0,T_*),
+    \]
+
+    \[
+    \sum_j\|u\|_{L^1_t C^{m+2,\alpha}(B(c_j(t),2\rho_I))}
+    +
+    \sum_j\|p\|_{L^1_t C^{m+1,\alpha}(B(c_j(t),2\rho_I))}<\infty.
+    \]
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty(I).
+    \]
+
+    No averaged object is used as its pointwise counterpart upstream of these readout theorems.
+
+
+
+    \subsection{Terminal Source Backward Propagation.A attempt}
+
+    Failed as an unconditional theorem under the current compactness hypotheses. The correct replacement target is a temporal non-atomicity or backward lower-density theorem for the native positive source-residue measure.
+
+    \[
+    \mu_*^{src}(Q_1(0,0))>0
+    \Longrightarrow
+    \exists a>0:\ \mu_*^{src}(\{s<-a\})>0.
+    \]
+
+    \[
+    \mu_*^{src}(\{s<-a\})=0\qquad\forall a>0,
+    \]
+
+    \[
+    \mu_*^{src}=0,
+    \]
+
+    The available Zeno compactness gives only weak-* compactness of locally finite positive source-residue measures. Under this topology, positive source mass may concentrate on the terminal time slice.
+
+    \[
+    d\mu_n(y,s)=\rho(y)\,n\mathbf 1_{(-1/n,0]}(s)\,dy\,ds,
+    \]
+
+    \[
+    \mu_n\rightharpoonup \rho(y)\,dy\otimes\delta_{s=0}.
+    \]
+
+    Thus the desired backward propagation implication is false for the measure class supplied by current compactness.
+
+    Testing the local energy inequality against a backward heat kernel does not remove this obstruction. A positive terminal measure appears as a terminal boundary contribution. The inequality allows such a contribution unless there is a separate no-terminal-atom estimate, temporal absolute continuity estimate, or source-parent lower-density theorem.
+
+    It does not supply the stronger global statement that the source-residue measure has no terminal atom or that terminal mass must be generated on a fixed earlier parabolic collar.
+
+    then weak limits cannot charge the time slice s=0. This implies Temporal Non Atomic Source.A.
+
+    The proposed no-inflow Zeno class route remains viable only after adding temporal non-atomicity. Without it, terminal source residue may be born as a terminal atom in the weak-* limit, and first-pulse no-parent minimality does not contradict that configuration.
+
+
+
+    \subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional proof note}
+
+    Conditional theorem note. The angular component has an installed ASAC payment. The same selected terminal-window estimate closes once the terminal source-current branch is supplied by Zeno Source Residue Rigidity.A.
+
+    \[
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}
+    |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+\,dxdt
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1),
+    \]
+
+    where inst,N consists of allowed drain, parent-drain, legal loss, and already-installed CM witness charges.
+
+    Thus, with Zeno Source Residue Rigidity.A installed, every selected positive terminal source-current edge has a signed partner, legal exit, donor depletion payment, or terminal residue evacuation.
+
+    \[
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}
+    |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+\,dxdt
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+    \]
+
+    The angular item closes conditionally through ASAC plus Zeno Source Residue Rigidity.A. The live atom after this reduction is
+
+
+
+    \subsection{Terminal Angular Mixing.OnwardASACReconciliation}
+
+    The angular route has a real installed sub-result through the ASAC parent-drain assembly. This closes the active-alignment component inside the signed/near-band source presentation. The forward native positive source supplier remains open because the remaining one-sided source-current / donor-sink term still requires Zeno source-residue rigidity.
+
+    So the active-alignment part of the angular obstruction is discharged in the signed/near-band route.
+
+    Meaning: every selected positive terminal source-current edge has a usable signed partner, a legal exit, a donor depletion payment, or a Zeno residue exclusion.
+
+    ASAC supplies a signed/near-band active-alignment estimate. The native positive supplier also needs the one-sided terminal source-current / donor-sink piece. That piece is exactly the no-free-sink branch above.
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+
+
+    \subsection{Terminal Source Anti Concentration.ToUTI}
+
+    \[
+    UniformTemporalSourceIntegrability_p.A:
+    \quad
+    \|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\|_{L_s^p((-1,0))}\le C_R,
+    \qquad p>1.
+    \]
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])\le C_R\varepsilon^{1-1/p}.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    The installed compactness and source records give finite L1 temporal mass on fixed cylinders. L1 mass permits terminal-layer concentration. Fixed positive viscosity supplies no additional temporal reverse Holder gain at the normalized heat scale. Same-fluid ancestry supplies packet lineage and legal routing, while temporal residence still requires a separate native source theorem.
+
+    \[
+    \boxed{UniformTemporalSourceIntegrability_p.A.}
+    \]
+
+    A proof of either gives the post-ASAC Zeno closure and hence feeds Source Pulse Exclusion.A through the already installed ASAC/no-free-sink reductions.
+
+    The branch remains open. The next theorem must prove super-L1 temporal control for the native positive source measure without importing the scale-critical Carleson reserve.
+
+
+
+    \subsection{Terminal Source Coherence.A concrete supplier split}
+
+    Each supplier must control the native positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, and positive-part extraction.
+
+    Eigen Decorrel.A remains open. Incompressibility gives trace-free strain, while active packets can still align with expanding eigendirections.
+
+    Signed Positive Balance.A remains open. Signed shell identities before weights and active-window selection do not yield positive/negative balance for the selected native source carrier.
+
+    Local Pressure Strain Deplete.A remains open. Pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+    Active Vorticity Coherence.A remains open. Direction coherence depletes stretching if assumed, while the original-data route has no terminal active-window direction modulus for the exact weighted source carrier.
+
+    Anti Beltrami Carleson.A remains open. Beltrami/helical structure can be a cancellation geometry, while the current route has no theorem forcing terminal active packets into a depleted anti-coherent class.
+
+    The loop should continue to the positive-source Carleson / reverse-Holder parent concentration branch.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Readout Equivalence Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27328
+  line_start: 27328
+  line_end: 27341
+  start_anchor: "\\subsection{Terminal Readout Equivalence Audit}\n"
+  end_anchor: "\\subsection{Terminal Readout Invocation: Recovering End NS From End
+    NS avg}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Readout Equivalence
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27328
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Terminal Readout Invocation: Recovering End NS From End NS avg'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27342
+  line_start: 27342
+  line_end: 27379
+  start_anchor: "\\subsection{Terminal Readout Invocation: Recovering End NS From
+    End NS avg}\n"
+  end_anchor: "\\subsection{Terminal Route Compression - Retained Conditional Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Readout Invocation:
+    Recovering End NS From End NS avg as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27342
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Route Compression - Retained Conditional Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27380
+  line_start: 27380
+  line_end: 27408
+  start_anchor: "\\subsection{Terminal Route Compression - Retained Conditional Theorem}\n"
+  end_anchor: "\\subsection{Terminal Skew Localization record.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Route Compression -
+    Retained Conditional Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27380
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Backward Propagation.A attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27422
+  line_start: 27422
+  line_end: 27460
+  start_anchor: "\\subsection{Terminal Source Backward Propagation.A attempt}\n"
+  end_anchor: "\\subsection{Terminal Zeno source-refill closure playbook}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Backward Propagation.A
+    attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27422
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Angular Mixing.A / Alignment Decorrel.A conditional proof
+    note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27544
+  line_start: 27544
+  line_end: 27570
+  start_anchor: "\\subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional
+    proof note}\n"
+  end_anchor: "\\subsection{Terminal Angular Mixing.OnwardASACReconciliation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Angular Mixing.A / Alignment
+    Decorrel.A conditional proof note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27544
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Angular Mixing.OnwardASACReconciliation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27571
+  line_start: 27571
+  line_end: 27585
+  start_anchor: "\\subsection{Terminal Angular Mixing.OnwardASACReconciliation}\n"
+  end_anchor: "\\subsection{Terminal Weight Coherence.A + Active Strain Alignment
+    Cost.A Signed-Saturation Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Angular Mixing.OnwardASACReconciliation
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27571
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Anti Concentration.ToUTI
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27623
+  line_start: 27623
+  line_end: 27650
+  start_anchor: "\\subsection{Terminal Source Anti Concentration.ToUTI}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A concrete supplier split}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Anti Concentration.ToUTI
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27623
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A concrete supplier split
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27651
+  line_start: 27651
+  line_end: 27667
+  start_anchor: "\\subsection{Terminal Source Coherence.A concrete supplier split}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A from Original Smooth Data}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A concrete
+    supplier split as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27651
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-46
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-46.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

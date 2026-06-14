@@ -1,0 +1,1042 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-critical-norm-and-field-08
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-08
+  sequence: 76
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 8
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 34242
+  line_end: 36974
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34242
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34762
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34890
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35595
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35757
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36387
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36470
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36918
+  subsection_titles:
+  - Clay problem CM Field-Face Two-Root Run-Through
+  - Clay problem Continuation-Packet-Generated CM Contrapositive
+  - Clay problem Critical L3 Concentration To Native Source Residue Direct Attempt
+  - Clay problem Duhamel Critical Mass To Native Source Direct Attempt
+  - Clay problem ECQ Classical Continuation Equivalence Note
+  - Clay problem Field Coherence Remainder Note
+  - Clay problem Field Source-Residue Jump Classification Note
+  - Clay problem Flow-Map And Tower Continuation Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Field-Face Two-Root Run-Through
+    line_start: 34242
+    line_end: 34293
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34242
+    start_anchor: "\\subsection{Clay problem CM Field-Face Two-Root Run-Through}\n"
+    end_anchor: "\\subsection{Clay problem CM Shared-Participation Residence Bound}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem CM Field-Face Two-Root Run-Through}
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      The CM witness-face framing is correct and should be kept. It does not by itself solve the Field-face residual wall.
+
+      \[
+      T_*=\infty.
+      \]
+
+      \[
+      T_*<\infty.
+      \]
+
+      \[
+      CM_{N,r,Q}
+      :=
+      Pack_Q(u,\Phi)
+      \wedge
+      Part_{N,Q}(u,p)
+      \wedge
+      Field_{N,r,Q}(u,p).
+      \]
+
+      \[
+      \boxed{
+      \neg Smooth(Q)
+      \Longrightarrow
+      \exists N\ \forall r>0:
+      \left(
+      \neg Pack_Q
+      \vee
+      \neg Part_{N,Q}
+      \vee
+      \neg Field_{N,r,Q}
+      \right).
+      }
+      \]
+
+      This uses only the installed direction CM=>Member; it does not require the false converse CM=> Member.
+
+      There is no installed derivative, dissipative sign, residual charge, or contractive parent edge for this donor reserve itself.
+
+      This is not lower than Square Reserve Evolution.A; it is the dynamic content of Square Reserve Evolution.A.
+
+      The no-incoming property excludes earlier fixed-slice threshold pulses, but it does not exclude a terminal-time atom or a terminal Zeno concentration.
+
+      and it is too weak because it permits terminal-time source-residue atoms. The sharpened class
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Continuation-Packet-Generated CM Contrapositive
+    line_start: 34762
+    line_end: 34810
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34762
+    start_anchor: "\\subsection{Clay problem Continuation-Packet-Generated CM Contrapositive}\n"
+    end_anchor: "\\subsection{Clay problem Contrapositive Leading-Edge Source Pulse
+      Solve Pass}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Continuation-Packet-Generated CM Contrapositive}
+
+      The CM contrapositive program should generate its failure surfaces from the continuation packet.
+
+      \[
+      \text{continuation packet persists near }T_*
+      \Longrightarrow
+      \text{classical continuation past }T_*.
+      \]
+
+      \[
+      \text{finite terminal non-continuation at }T_*
+      \Longrightarrow
+      \text{failure of at least one continuation-packet slot}.
+      \]
+
+      That is the disciplined source of failure types. A candidate obstruction is a live CM-exit surface only when it is one of those slot failures, or when a checked bridge lands it in one of those slot failures.
+
+      The clean continuation index is the classical H s(T 3) index with s>5/2. The older H 1 row remains a route-local continuation/reduction row. The installed H s continuation readout is used here because it is the safer classical continuation packet.
+
+      Fix a finite terminal time T * for a maximal classical Navier--Stokes solution. On a retained terminal cover, choose depth N dominating some s>5/2.
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
+      \]
+
+      If Cont N(T *) persists on a retained terminal cover for some N dominating s>5/2, then T * is not a finite terminal non-continuation time.
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      The readout slot is the bridge from that local witness package to a global H s continuation norm. Finite overlap and shared one-field coherence allow the local tower bounds to sum to
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
+      \]
+
+      The H s, s>5/2, local Navier--Stokes theory gives a uniform lifespan from times approaching T *. Relaunching from t j T * extends the classical solution beyond T *, contradicting maximality.
+
+      Finite terminal non-continuation forces failure of Cont N(T *) for every admissible retained terminal cover and every depth high enough for the classical continuation readout.
+
+      If the answer is Pack, Part, or Field, the surface can be used as CM-exit work. If the answer is only the H s readout bridge, the surfa
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Critical L3 Concentration To Native Source Residue
+      Direct Attempt
+    line_start: 34890
+    line_end: 34925
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34890
+    start_anchor: "\\subsection{Clay problem Critical L3 Concentration To Native Source
+      Residue Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Critical L3 Concentration To Native Source Residue Direct Attempt}
+
+      \[
+      Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+      \]
+
+      \[
+      \ell_m^{-2}\int_{Q_m}|u_m|^3 \ge c_0>0.
+      \]
+
+      Because Pack Q is retained, these cylinders remain on the same controlled carrier/volume record. Because Part N,Q is retained, the equation on these cylinders is still the fixed-viscosity Navier-Stokes participation law.
+
+      \[
+      u_m = e^{(t-t_0)\nu\Delta}u_m(t_0)
+            + \int_{t_0}^t e^{(t-s)\nu\Delta} P\nabla\cdot(u_m\otimes u_m)(s)\,ds.
+      \]
+
+      The linear heat part cannot create a new terminal critical concentration on a shrinking same-witness packet unless the concentration was already present on an earlier selected slice. That earlier selected slice is excluded by the retained terminal construction.
+
+      \[
+      |w_j|^2[e_j\cdot S^{loc}_{<j}e_j]_+
+      \]
+
+      This is plausible from heat smoothing plus same-witness extraction, but it is not written as an installed theorem. The May 19 heat-remainder attempt reduces it to same witness Heat Ancestor Localization.A: terminal local L 3 mass of a heat evolution must either have a same-witness earlier critical slice or select the Pack face.
+
+      This is the serious step. It must prove that the critical Duhamel mass cannot hide as a harmless oscillatory cancellation once Pack and Part are retained.
+
+      \[
+      Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W)
+      \Longrightarrow
+      \neg Field_{N,r,Q}.
+      \]
+
+      The live mathematical burden is so no longer "use public L 3 regularity." It is the native extraction of a same-witness critical Duhamel source carrier from public critical concentration.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Duhamel Critical Mass To Native Source Direct Attempt
+    line_start: 35595
+    line_end: 35644
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35595
+    start_anchor: "\\subsection{Clay problem Duhamel Critical Mass To Native Source
+      Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Duhamel Inverse Native Source Localization
+      Proof Split}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Duhamel Critical Mass To Native Source Direct Attempt}
+
+      The retained branch already assumes Pack Q, Part N,Q , no earlier selected critical slice for the heat remainder, and no legal/non-selected/readout exit.
+
+      \[
+      w_m(t)=
+      \int_{t_{m,0}}^t e^{(t-s)\nu\Delta}
+      P\nabla\cdot(u_m\otimes u_m)(s)\,ds
+      \]
+
+      \[
+      \ell_m^{-2}
+      \int_{t_m-\ell_m^2}^{t_m}
+      \int_{B_{\ell_m}(x_m)}
+      |w_m|^3\,dxdt
+      \ge c_0>0.
+      \]
+
+      \[
+      \nu_m(E_m)
+      =
+      \int_{E_m}
+      \left[
+      \langle S^{loc}_{<j_P}w_{j_P},w_{j_P}\rangle
+      \right]_+
+      dxdt
+      \ge c_1>0.
+      \]
+
+      Then the installed Radon-Nikodym decision criterion applies. If the installed record measure m(E m) vanishes, the terminal extraction has * sing >0. If the source mass is carried by the donor reserve instead, failure to charge it is exactly selected Scale Critical Tree Carleson.A; if it is charged by the installed legal record, it is not a retained counterexample.
+
+      The inversion step is not installed. The Duhamel response is a signed, Leray-projected, pressure-coupled object. A lower bound for |w m| 3 does not by itself identify a positive packet for
+
+      \[
+      \left[
+      \langle S^{loc}_{<j}w_j,w_j\rangle
+      \right]_+.
+      \]
+
+      The existing source-pulse Duhamel audit already records the same boundary: heat damping separates old energy from nonlinear refill, but the refill is the native source-control problem.
+
+      The first lemma is adjoint heat/Leray localization. The second is the true nonlinear source-geometry burden after one-sided terminal selection.
+
+      Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Pack and Part.
+
+      So the gap is upstream of those consumers. It is the inverse localization from critical Duhamel response mass to the native positive source packet, with projection/pressure/cancellation accounted for on the same witness record.
+
+      The first term is heat-kernel/Pack ancestor bookkeeping. The second term is the real nonlinear theore
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem ECQ Classical Continuation Equivalence Note
+    line_start: 35757
+    line_end: 35771
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35757
+    start_anchor: "\\subsection{Clay problem ECQ Classical Continuation Equivalence
+      Note}\n"
+    end_anchor: "\\subsection{Effective Viscous Packet Boundary Role}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem ECQ Classical Continuation Equivalence Note}
+
+      Theorem-facing final interface between the endpoint/class-exit grammar and the official classical Navier-Stokes continuation problem.
+
+      then finite cover summation and Sobolev/Morrey readout produce the base Sobolev continuation norm. The weighted mixed-jet continuation surface gives the same conclusion whenever the route is expressed through the weighted tower norm, since the base rung obeys
+
+      \$\$ If CM N,r,Q persists on every retained same-fluid approach window up to T *, then the classical solution extends past T *. \$\$
+
+      The classical local well-posedness and continuation theorem in H s gives a lifespan depending only on the size of this bound. Choose a sequence
+
+      The retained windows are ordered by time and the class witness is closed under the installed same-fluid overlap/transport convention. Define
+
+      \$\$ t c:= t<T *: some retained same-fluid approach window has lost CM N,r,Q by time t . \$\$
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Field Coherence Remainder Note
+    line_start: 36387
+    line_end: 36438
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36387
+    start_anchor: "\\subsection{Clay problem Field Coherence Remainder Note}\n"
+    end_anchor: "\\subsection{Clay problem Field Failure To Part Collapse}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Field Coherence Remainder Note}
+
+      Once Part N,Q is granted, the exact leftover in the installed predicate Field N,r,Q is the neighboring-coherence bound.
+
+      \[
+      \sup_{t\text{ meeting }Q}\mathfrak C_{N,\rho,Q}(t)\le C.
+      \]
+
+      Assume Part N,Q (u,p). Then for every 0 k N and every increment h with x,x+h Q t, the finite-difference tower law
+
+      \[
+      \big(\partial_t+u(x+h,t)\cdot\nabla\big)\delta_h U_k
+      +(\delta_h u)\cdot\nabla U_k(x,t)
+      +\delta_h\nabla^{k+1}p
+      -\nu\Delta\delta_h U_k
+      =
+      \delta_h B_k
+      \]
+
+      So on the installed object surface the actual extra burden carried by Field beyond Part is not the neighboring law itself. It is the bounded neighboring-coherence regime.
+
+      Its failure cannot be reversed without naming which part of participation has failed. There are three different cases.
+
+      does not break Field by the finite-difference law alone, because neighboring subtractions cancel the same wrong residual. It is still a Part failure: the comparison component is coherently obeying the wrong carrier law.
+
+      A merely local bad block is not enough for this separation. If neighboring blocks carry a different residual, then a positive-scale comparison across the interface sees
+
+      then raw Field still need not fail as neighboring decoupling only if the loss is common-mode across the whole comparison component. If the amplitude or readout loss changes from one block to its neighbors, Field sees the boundary contrast. The non-Field alternative is so a global/common-mode calibration failure on the retained comparison component, not a single isolated local block.
+
+      Only the first alternative is literally Field by the law clause. The second and third alternatives can coexist with retained Field as a neighboring-coherence predicate only when they are common-mode across the whole retained comparison component. They are still class-exit candidates through Part, because Field compares nearby towers to each other while Part asks whether those towers participate in the correct pres
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Field Source-Residue Jump Classification Note
+    line_start: 36470
+    line_end: 36498
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36470
+    start_anchor: "\\subsection{Clay problem Field Source-Residue Jump Classification
+      Note}\n"
+    end_anchor: "\\subsection{Final Assembly Promotion Audit And Route Map Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Field Source-Residue Jump Classification Note}
+
+      \[
+      \neg CM_{N,r,Q}
+      \Longrightarrow
+      \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      Pack_Q,\qquad Part_{N,Q},\qquad \neg Field_{N,r,Q}.
+      \]
+
+      \[
+      \mu^{src,+}_{field}\neq0,
+      \]
+
+      \[
+      \neg Field_{N,r,Q}
+      \Longrightarrow
+      Jump.
+      \]
+
+      The source residue is not a new endpoint predicate. It is the analytic witness showing why the finite-difference / one-field coherence modulus failed to stay controlled on the retained Field row. Since Pack and Part remain attached to the same carrier, the failed row is Field, and the endpoint shell is Jump. Thus the native endpoint cell is (Field,Jump).
+
+      The first is the CM-oriented branch reduction. The second is endpoint classification. The third is endpoint exclusion. The source wall is not closed until the exclusion row is supplied without circularly assuming the Field predicate whose failure selected the branch.
+
+      It prevents one false shortcut: treating a source residue as an immediate contradiction merely because it is endpoint-visible.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Flow-Map And Tower Continuation Note
+    line_start: 36918
+    line_end: 36974
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36918
+    start_anchor: "\\subsection{Clay problem Flow-Map And Tower Continuation Note}\n"
+    end_anchor: "\\subsection{Clay problem Formal Ontic Object Package}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: "\\subsection{Clay problem Flow-Map And Tower Continuation Note}\n\nThe
+      result below is a closed conditional continuation theorem for the class-membership
+      / tower idea. Unconditional 3D Navier--Stokes global regularity still requires
+      the missing global a priori estimate that forces the witness to remain finite
+      for all finite times.\n\n\\[\nu\\in C^\\infty(\\Omega\\times[0,T)),\n\\qquad\n\\partial_t
+      u+(u\\cdot\\nabla)u+\\nabla p=\\nu\\Delta u,\n\\qquad\n\\nabla\\cdot u=0.\n\\]\n\n\\[\n\\partial_t
+      \\Phi(a,t)=u(\\Phi(a,t),t),\n\\qquad\n\\Phi(a,0)=a.\n\\]\n\n\\[\nF(a,t):=D_a\\Phi(a,t).\n\\]\n\n\\[\n\\Gamma(t):=\n\\max\\Big\\{\n\\|F(t)\\|_{L^\\infty_a},\n\\|F(t)^{-1}\\|_{L^\\infty_a}\n\\Big\\}.\n\\]\n\nA
+      transported region here is simply the image under the Navier--Stokes flow map
+      of a set of labels. It adds no new physical ingredient to the Clay problem.\n\n\\[\nM_s(t):=\\|u(t)\\|_{H^s_x}.\n\\]\n\nFirst,
+      P is nonlocal. A spatially localized force is turned into a globally divergence-free
+      field by an elliptic projection.\n\nSecond, for >0, the heat semigroup e (t-s)
+      has infinite propagation speed. On R 3, its kernel is the Gaussian\n\nso under
+      the NS model the entire incompressible geometry is coupled immediately, but
+      not symmetrically and not by discontinuous jump.\n\nEven a local forcing term
+      enters a global elliptic solve. So the class definition being used here is indeed
+      one of instantaneous global geometric readjustment, not finite-speed local isolation.\n\nThis
+      is the precise deformation-theoretic version of the class-membership picture:
+      no packing collapse and no packing blowout occur while A(t) remains finite.\n\nApply
+      s=(1- ) s/2 to Navier--Stokes and use the standard commutator estimate for s>5/2.
+      Then\n\nso the Eulerian velocity tower remains finite at the classical level
+      on [0,T). Pressure is recovered elliptically from\n\nThis is the strongest closed
+      theorem package presently obtainable from the class-membership idea alone.\n\nThe
+      Millennium step is now explicit in two different senses, and they must not be
+      conflated.\n\nSo, for the classical continuation \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem CM Field-Face Two-Root Run-Through}
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    The CM witness-face framing is correct and should be kept. It does not by itself solve the Field-face residual wall.
+
+    \[
+    T_*=\infty.
+    \]
+
+    \[
+    T_*<\infty.
+    \]
+
+    \[
+    CM_{N,r,Q}
+    :=
+    Pack_Q(u,\Phi)
+    \wedge
+    Part_{N,Q}(u,p)
+    \wedge
+    Field_{N,r,Q}(u,p).
+    \]
+
+    \[
+    \boxed{
+    \neg Smooth(Q)
+    \Longrightarrow
+    \exists N\ \forall r>0:
+    \left(
+    \neg Pack_Q
+    \vee
+    \neg Part_{N,Q}
+    \vee
+    \neg Field_{N,r,Q}
+    \right).
+    }
+    \]
+
+    This uses only the installed direction CM=>Member; it does not require the false converse CM=> Member.
+
+    There is no installed derivative, dissipative sign, residual charge, or contractive parent edge for this donor reserve itself.
+
+    This is not lower than Square Reserve Evolution.A; it is the dynamic content of Square Reserve Evolution.A.
+
+    The no-incoming property excludes earlier fixed-slice threshold pulses, but it does not exclude a terminal-time atom or a terminal Zeno concentration.
+
+    and it is too weak because it permits terminal-time source-residue atoms. The sharpened class
+
+
+
+    \subsection{Clay problem Continuation-Packet-Generated CM Contrapositive}
+
+    The CM contrapositive program should generate its failure surfaces from the continuation packet.
+
+    \[
+    \text{continuation packet persists near }T_*
+    \Longrightarrow
+    \text{classical continuation past }T_*.
+    \]
+
+    \[
+    \text{finite terminal non-continuation at }T_*
+    \Longrightarrow
+    \text{failure of at least one continuation-packet slot}.
+    \]
+
+    That is the disciplined source of failure types. A candidate obstruction is a live CM-exit surface only when it is one of those slot failures, or when a checked bridge lands it in one of those slot failures.
+
+    The clean continuation index is the classical H s(T 3) index with s>5/2. The older H 1 row remains a route-local continuation/reduction row. The installed H s continuation readout is used here because it is the safer classical continuation packet.
+
+    Fix a finite terminal time T * for a maximal classical Navier--Stokes solution. On a retained terminal cover, choose depth N dominating some s>5/2.
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
+    \]
+
+    If Cont N(T *) persists on a retained terminal cover for some N dominating s>5/2, then T * is not a finite terminal non-continuation time.
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    The readout slot is the bridge from that local witness package to a global H s continuation norm. Finite overlap and shared one-field coherence allow the local tower bounds to sum to
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
+    \]
+
+    The H s, s>5/2, local Navier--Stokes theory gives a uniform lifespan from times approaching T *. Relaunching from t j T * extends the classical solution beyond T *, contradicting maximality.
+
+    Finite terminal non-continuation forces failure of Cont N(T *) for every admissible retained terminal cover and every depth high enough for the classical continuation readout.
+
+    If the answer is Pack, Part, or Field, the surface can be used as CM-exit work. If the answer is only the H s readout bridge, the surface is bridge-licensing work from CM to continuation, not a CM-exit failure surface.
+
+    If the answer is only that the surface suppresses a possible bad analytic scenario, the surface is supplier or diagnostic work. It may help later, but it does not define the CM failure calculus.
+
+    Source-pileup and scale-critical Carleson surfaces become live CM-exit targets only when their failure is proved to be the exact obstruction to a continuation slot.
+
+
+
+    \subsection{Clay problem Critical L3 Concentration To Native Source Residue Direct Attempt}
+
+    \[
+    Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
+    \]
+
+    \[
+    \ell_m^{-2}\int_{Q_m}|u_m|^3 \ge c_0>0.
+    \]
+
+    Because Pack Q is retained, these cylinders remain on the same controlled carrier/volume record. Because Part N,Q is retained, the equation on these cylinders is still the fixed-viscosity Navier-Stokes participation law.
+
+    \[
+    u_m = e^{(t-t_0)\nu\Delta}u_m(t_0)
+          + \int_{t_0}^t e^{(t-s)\nu\Delta} P\nabla\cdot(u_m\otimes u_m)(s)\,ds.
+    \]
+
+    The linear heat part cannot create a new terminal critical concentration on a shrinking same-witness packet unless the concentration was already present on an earlier selected slice. That earlier selected slice is excluded by the retained terminal construction.
+
+    \[
+    |w_j|^2[e_j\cdot S^{loc}_{<j}e_j]_+
+    \]
+
+    This is plausible from heat smoothing plus same-witness extraction, but it is not written as an installed theorem. The May 19 heat-remainder attempt reduces it to same witness Heat Ancestor Localization.A: terminal local L 3 mass of a heat evolution must either have a same-witness earlier critical slice or select the Pack face.
+
+    This is the serious step. It must prove that the critical Duhamel mass cannot hide as a harmless oscillatory cancellation once Pack and Part are retained.
+
+    \[
+    Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W)
+    \Longrightarrow
+    \neg Field_{N,r,Q}.
+    \]
+
+    The live mathematical burden is so no longer "use public L 3 regularity." It is the native extraction of a same-witness critical Duhamel source carrier from public critical concentration.
+
+
+
+    \subsection{Clay problem Duhamel Critical Mass To Native Source Direct Attempt}
+
+    The retained branch already assumes Pack Q, Part N,Q , no earlier selected critical slice for the heat remainder, and no legal/non-selected/readout exit.
+
+    \[
+    w_m(t)=
+    \int_{t_{m,0}}^t e^{(t-s)\nu\Delta}
+    P\nabla\cdot(u_m\otimes u_m)(s)\,ds
+    \]
+
+    \[
+    \ell_m^{-2}
+    \int_{t_m-\ell_m^2}^{t_m}
+    \int_{B_{\ell_m}(x_m)}
+    |w_m|^3\,dxdt
+    \ge c_0>0.
+    \]
+
+    \[
+    \nu_m(E_m)
+    =
+    \int_{E_m}
+    \left[
+    \langle S^{loc}_{<j_P}w_{j_P},w_{j_P}\rangle
+    \right]_+
+    dxdt
+    \ge c_1>0.
+    \]
+
+    Then the installed Radon-Nikodym decision criterion applies. If the installed record measure m(E m) vanishes, the terminal extraction has * sing >0. If the source mass is carried by the donor reserve instead, failure to charge it is exactly selected Scale Critical Tree Carleson.A; if it is charged by the installed legal record, it is not a retained counterexample.
+
+    The inversion step is not installed. The Duhamel response is a signed, Leray-projected, pressure-coupled object. A lower bound for |w m| 3 does not by itself identify a positive packet for
+
+    \[
+    \left[
+    \langle S^{loc}_{<j}w_j,w_j\rangle
+    \right]_+.
+    \]
+
+    The existing source-pulse Duhamel audit already records the same boundary: heat damping separates old energy from nonlinear refill, but the refill is the native source-control problem.
+
+    The first lemma is adjoint heat/Leray localization. The second is the true nonlinear source-geometry burden after one-sided terminal selection.
+
+    Native Singular Residue ToSCTCFailure.A and the retained Field diagnostics already spend either * sing >0 or selected Scale Critical Tree Carleson.A as a Field exit under retained Pack and Part.
+
+    So the gap is upstream of those consumers. It is the inverse localization from critical Duhamel response mass to the native positive source packet, with projection/pressure/cancellation accounted for on the same witness record.
+
+    The first term is heat-kernel/Pack ancestor bookkeeping. The second term is the real nonlinear theorem burden.
+
+
+
+    \subsection{Clay problem ECQ Classical Continuation Equivalence Note}
+
+    Theorem-facing final interface between the endpoint/class-exit grammar and the official classical Navier-Stokes continuation problem.
+
+    then finite cover summation and Sobolev/Morrey readout produce the base Sobolev continuation norm. The weighted mixed-jet continuation surface gives the same conclusion whenever the route is expressed through the weighted tower norm, since the base rung obeys
+
+    \$\$ If CM N,r,Q persists on every retained same-fluid approach window up to T *, then the classical solution extends past T *. \$\$
+
+    The classical local well-posedness and continuation theorem in H s gives a lifespan depending only on the size of this bound. Choose a sequence
+
+    The retained windows are ordered by time and the class witness is closed under the installed same-fluid overlap/transport convention. Define
+
+    \$\$ t c:= t<T *: some retained same-fluid approach window has lost CM N,r,Q by time t . \$\$
+
+
+
+    \subsection{Clay problem Field Coherence Remainder Note}
+
+    Once Part N,Q is granted, the exact leftover in the installed predicate Field N,r,Q is the neighboring-coherence bound.
+
+    \[
+    \sup_{t\text{ meeting }Q}\mathfrak C_{N,\rho,Q}(t)\le C.
+    \]
+
+    Assume Part N,Q (u,p). Then for every 0 k N and every increment h with x,x+h Q t, the finite-difference tower law
+
+    \[
+    \big(\partial_t+u(x+h,t)\cdot\nabla\big)\delta_h U_k
+    +(\delta_h u)\cdot\nabla U_k(x,t)
+    +\delta_h\nabla^{k+1}p
+    -\nu\Delta\delta_h U_k
+    =
+    \delta_h B_k
+    \]
+
+    So on the installed object surface the actual extra burden carried by Field beyond Part is not the neighboring law itself. It is the bounded neighboring-coherence regime.
+
+    Its failure cannot be reversed without naming which part of participation has failed. There are three different cases.
+
+    does not break Field by the finite-difference law alone, because neighboring subtractions cancel the same wrong residual. It is still a Part failure: the comparison component is coherently obeying the wrong carrier law.
+
+    A merely local bad block is not enough for this separation. If neighboring blocks carry a different residual, then a positive-scale comparison across the interface sees
+
+    then raw Field still need not fail as neighboring decoupling only if the loss is common-mode across the whole comparison component. If the amplitude or readout loss changes from one block to its neighbors, Field sees the boundary contrast. The non-Field alternative is so a global/common-mode calibration failure on the retained comparison component, not a single isolated local block.
+
+    Only the first alternative is literally Field by the law clause. The second and third alternatives can coexist with retained Field as a neighboring-coherence predicate only when they are common-mode across the whole retained comparison component. They are still class-exit candidates through Part, because Field compares nearby towers to each other while Part asks whether those towers participate in the correct pressure-viscosity carrier law with the needed absolute readout.
+
+    \[
+    \mathfrak C_{N,r,Q}(t)=\infty.
+    \]
+
+    Equivalently, once packing and one-point tower law are retained, the installed jump channel is exactly neighboring-coherence fracture.
+
+    \[
+    \mathfrak C_{N,\rho_n,Q_n}(t_n)>C_n.
+    \]
+
+    \[
+    \mathfrak C_{N,1/n,Q_n}(t_n)>n,
+    \]
+
+    So the tower-jump branch is exactly a shrinking-overlap same-rung compatibility failure.
+
+    So the tower branch does not just contain some bad rung. It contains a first bad neighboring-jet order.
+
+    Equivalently, q is the first neighboring-jet order of u whose same-rung compatibility quotient fails along the shrinking-overlap sequence.
+
+
+
+    \subsection{Clay problem Field Source-Residue Jump Classification Note}
+
+    \[
+    \neg CM_{N,r,Q}
+    \Longrightarrow
+    \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    Pack_Q,\qquad Part_{N,Q},\qquad \neg Field_{N,r,Q}.
+    \]
+
+    \[
+    \mu^{src,+}_{field}\neq0,
+    \]
+
+    \[
+    \neg Field_{N,r,Q}
+    \Longrightarrow
+    Jump.
+    \]
+
+    The source residue is not a new endpoint predicate. It is the analytic witness showing why the finite-difference / one-field coherence modulus failed to stay controlled on the retained Field row. Since Pack and Part remain attached to the same carrier, the failed row is Field, and the endpoint shell is Jump. Thus the native endpoint cell is (Field,Jump).
+
+    The first is the CM-oriented branch reduction. The second is endpoint classification. The third is endpoint exclusion. The source wall is not closed until the exclusion row is supplied without circularly assuming the Field predicate whose failure selected the branch.
+
+    It prevents one false shortcut: treating a source residue as an immediate contradiction merely because it is endpoint-visible.
+
+
+
+    \subsection{Clay problem Flow-Map And Tower Continuation Note}
+
+    The result below is a closed conditional continuation theorem for the class-membership / tower idea. Unconditional 3D Navier--Stokes global regularity still requires the missing global a priori estimate that forces the witness to remain finite for all finite times.
+
+    \[
+    u\in C^\infty(\Omega\times[0,T)),
+    \qquad
+    \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0.
+    \]
+
+    \[
+    \partial_t \Phi(a,t)=u(\Phi(a,t),t),
+    \qquad
+    \Phi(a,0)=a.
+    \]
+
+    \[
+    F(a,t):=D_a\Phi(a,t).
+    \]
+
+    \[
+    \Gamma(t):=
+    \max\Big\{
+    \|F(t)\|_{L^\infty_a},
+    \|F(t)^{-1}\|_{L^\infty_a}
+    \Big\}.
+    \]
+
+    A transported region here is simply the image under the Navier--Stokes flow map of a set of labels. It adds no new physical ingredient to the Clay problem.
+
+    \[
+    M_s(t):=\|u(t)\|_{H^s_x}.
+    \]
+
+    First, P is nonlocal. A spatially localized force is turned into a globally divergence-free field by an elliptic projection.
+
+    Second, for >0, the heat semigroup e (t-s) has infinite propagation speed. On R 3, its kernel is the Gaussian
+
+    so under the NS model the entire incompressible geometry is coupled immediately, but not symmetrically and not by discontinuous jump.
+
+    Even a local forcing term enters a global elliptic solve. So the class definition being used here is indeed one of instantaneous global geometric readjustment, not finite-speed local isolation.
+
+    This is the precise deformation-theoretic version of the class-membership picture: no packing collapse and no packing blowout occur while A(t) remains finite.
+
+    Apply s=(1- ) s/2 to Navier--Stokes and use the standard commutator estimate for s>5/2. Then
+
+    so the Eulerian velocity tower remains finite at the classical level on [0,T). Pressure is recovered elliptically from
+
+    This is the strongest closed theorem package presently obtainable from the class-membership idea alone.
+
+    The Millennium step is now explicit in two different senses, and they must not be conflated.
+
+    So, for the classical continuation package written here, the unresolved burden is the missing global a priori estimate that forces the flow-map/tower witness to stay finite for all finite times.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Field-Face Two-Root Run-Through
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34242
+  line_start: 34242
+  line_end: 34293
+  start_anchor: "\\subsection{Clay problem CM Field-Face Two-Root Run-Through}\n"
+  end_anchor: "\\subsection{Clay problem CM Shared-Participation Residence Bound}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Field-Face Two-Root
+    Run-Through as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34242
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Continuation-Packet-Generated CM Contrapositive
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34762
+  line_start: 34762
+  line_end: 34810
+  start_anchor: "\\subsection{Clay problem Continuation-Packet-Generated CM Contrapositive}\n"
+  end_anchor: "\\subsection{Clay problem Contrapositive Leading-Edge Source Pulse
+    Solve Pass}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Continuation-Packet-Generated
+    CM Contrapositive as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34762
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Critical L3 Concentration To Native Source Residue
+    Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34890
+  line_start: 34890
+  line_end: 34925
+  start_anchor: "\\subsection{Clay problem Critical L3 Concentration To Native Source
+    Residue Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Critical-Pulse Compactness No-Pulse Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Critical L3 Concentration
+    To Native Source Residue Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34890
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Duhamel Critical Mass To Native Source Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35595
+  line_start: 35595
+  line_end: 35644
+  start_anchor: "\\subsection{Clay problem Duhamel Critical Mass To Native Source
+    Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Duhamel Inverse Native Source Localization
+    Proof Split}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Duhamel Critical
+    Mass To Native Source Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35595
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem ECQ Classical Continuation Equivalence Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35757
+  line_start: 35757
+  line_end: 35771
+  start_anchor: "\\subsection{Clay problem ECQ Classical Continuation Equivalence
+    Note}\n"
+  end_anchor: "\\subsection{Effective Viscous Packet Boundary Role}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem ECQ Classical Continuation
+    Equivalence Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:35757
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Field Coherence Remainder Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36387
+  line_start: 36387
+  line_end: 36438
+  start_anchor: "\\subsection{Clay problem Field Coherence Remainder Note}\n"
+  end_anchor: "\\subsection{Clay problem Field Failure To Part Collapse}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Field Coherence
+    Remainder Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36387
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Field Source-Residue Jump Classification Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36470
+  line_start: 36470
+  line_end: 36498
+  start_anchor: "\\subsection{Clay problem Field Source-Residue Jump Classification
+    Note}\n"
+  end_anchor: "\\subsection{Final Assembly Promotion Audit And Route Map Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Field Source-Residue
+    Jump Classification Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36470
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Flow-Map And Tower Continuation Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36918
+  line_start: 36918
+  line_end: 36974
+  start_anchor: "\\subsection{Clay problem Flow-Map And Tower Continuation Note}\n"
+  end_anchor: "\\subsection{Clay problem Formal Ontic Object Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Flow-Map And Tower
+    Continuation Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36918
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-08
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-critical-norm-and-field-08.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

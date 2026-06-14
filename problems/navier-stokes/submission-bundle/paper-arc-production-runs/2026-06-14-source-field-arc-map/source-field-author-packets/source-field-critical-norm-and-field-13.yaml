@@ -1,0 +1,1033 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-critical-norm-and-field-13
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-13
+  sequence: 81
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 13
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 55409
+  line_end: 58462
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55409
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56492
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56718
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57442
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57733
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57772
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58362
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58448
+  subsection_titles:
+  - Clay problem Terminal Source Reverse Holder To Active-Shell Source Normalization
+    Frontier
+  - Clay problem Vanishing-record Bad Packet Field-Exit Reduction
+  - Weighted Lifted Skew Defect Legal.A current-gate continuation
+  - Clay problem Zeno Terminal Atom Field-Face Diagnostic
+  - Noncoherent Low-Mode Product Estimate Result
+  - Normalized Localized Projector Kernels Absorb Overlap Into Retained Cover Geometry
+  - Pd70Z Cycle Exact Normal Covector Route
+  - Persistent-Support Transport Coefficient Threshold Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal Source Reverse Holder To Active-Shell
+      Source Normalization Frontier
+    line_start: 55409
+    line_end: 55447
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55409
+    start_anchor: "\\subsection{Clay problem Terminal Source Reverse Holder To Active-Shell
+      Source Normalization Frontier}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom.A All-Mechanism
+      record}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Terminal Source Reverse Holder To Active-Shell Source Normalization Frontier}
+
+      The next source-normalization supplier is the heat-scale control of the nonlinear shell source on selected terminal active windows. The current frontier is whether that control can be made scale-normalized, rather than merely data-dependent along a smooth preterminal interval.
+
+      This route is circular here because Heat Scale Square Source.A is source-wall / Carleson strength.
+
+      It asks for scale-normalized control of the nonlinear shell source on selected terminal active heat-scale windows, strong enough to yield the -source estimate and hence super-L 1 temporal residence.
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t).
+      \]
+
+      \[
+      F_j(Au)=A^3F_j(u).
+      \]
+
+      Thus |F j| 2 scales like A 6. Smooth original data and preterminal smoothness give data-dependent amplitude bounds, while the terminal theorem needs scale-normalized control along moving high shells. So smoothness alone does not give Active Shell Source Normalize.A.
+
+      \[
+      J(P\to P')+J(P'\to P)=0.
+      \]
+
+      After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live object is the true weighted lifted remainder. A useful theorem would be
+
+      The current installed algebra does not produce a sign law for the true weighted lifted object. Its principal component can align with expanding strain directions. Estimating it by absolute value produces the active- residual-tail burden.
+
+      The residual-tail theorem at the required strength is active- / Carleson strength.
+
+      \[
+      |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+.
+      \]
+
+      So Positive Remainder Depletion.A is equivalent to a selected-window sign-depletion or angular-mixing theorem for the native positive source carrier.
+
+      The smallest current forward-facing formulation is Positive Remainder Depletion.A, because it attacks the native localized positive remainder directly and would imply same-fluid source residence, temporal non-atomicity, Zeno source-residue rigidity, and the post-ASAC no-free
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Vanishing-record Bad Packet Field-Exit Reduction
+    line_start: 56492
+    line_end: 56547
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56492
+    start_anchor: "\\subsection{Clay problem Vanishing-record Bad Packet Field-Exit
+      Reduction}\n"
+    end_anchor: "\\subsection{Viscosity-Class Boundary: Current Reader Use}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Vanishing-record Bad Packet Field-Exit Reduction}
+
+      Uniform LedgerAC.A remains unproved. The CM-facing consequence of its failure is still useful: a vanishing-record positive-source packet is not a new fourth face. Once legal, readout, non-selected, Pack, and Part alternatives are removed, it is a retained Field/source-residue exit.
+
+      \[
+      \rho_N(E_N)\to0,
+      \qquad
+      \nu_N(E_N)\ge c>0,
+      \]
+
+      \[
+      d\nu_N
+      =
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+dxdt
+      \]
+
+      and \(\rho_N\) is the installed nonnegative record measure on the same selected
+      same-fluid terminal packet family.
+
+      \[
+      \neg Pack_Q
+      \vee
+      \neg Part_{N,Q}
+      \vee
+      \forall r>0\,\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      Pack_Q+Part_{N,Q}
+      +\text{vanishing-ledger positive-source packet}
+      \Longrightarrow
+      \forall r>0\,\neg Field_{N,r,Q}.
+      \]
+
+      First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is not Pack Q.
+
+      If the packet can be kept on one carrier but the positive source is not a source/readout term of the same differentiated pressure-viscosity Navier-Stokes tower, the participation row has failed; this is not Part N,Q .
+
+      Now assume Pack Q and Part N,Q survive. Then the bad packet is an internal positive source carrier on one retained same-fluid terminal family. Since rho N(E N)->0 while nu N(E N)>=c, the packet is not paid by legal losses, ordinary route records, or non-selected exits. Passing to the terminal subsequence gives a nonzero native source residue singular to the installed record.
+
+      If the residue persists along an infinite retained source-reserve tree, Class
+      Internal Source Tree Exclusion.A applies.  With \(Pack_Q\) and \(Part_{N,Q}\)
+      still retained, the local Duhamel response of the positive source reserve
+      forces an order-one neighboring-field defect at arbitr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Lifted Skew Defect Legal.A current-gate continuation
+    line_start: 56718
+    line_end: 56755
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56718
+    start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}\n"
+    end_anchor: "\\subsection{Clay problem Weighted Lifted Skew Defect Legal.A Audit}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}
+
+      The live gate is Weighted Lifted Skew Defect Legal.A, with adjacent boundary pricing through Off Saturation Boundary Pricing.A.
+
+      On legal separated shell edges, the one-sided terminal source weights have order-size mismatch. Terminal heat-scale rescaling can flatten smooth geometric coefficients inside a packet, while the dyadic source-wall weights still differ across paired endpoints.
+
+      Thus absolute Pair Weight Flattening.A reduces to a new terminal weight-coherence theorem plus active strain alignment cost. Estimating the mismatch by absolute value returns to the scalar source wall.
+
+      \[
+      \sum_e\int (W_P-W_{P'})_+[J_e]_+\,dt.
+      \]
+
+      So the live post-ASAC weight branch is not Pair Weight Flattening.A; it is terminal signed-partner saturation after the one-sided weight defect is paid.
+
+      \[
+      2^{2j}\sum_P
+      \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+      \]
+
+      Trace-free incompressibility allows cancellation over all directions. Terminal packet selection may concentrate on expanding eigendirections, producing positive local strain alignment. The lifted object needs an active-strain alignment theorem or terminal signed saturation before it becomes an antisymmetric localized edge current.
+
+      A missing signed partner can be a legal same-fluid donor inside the packet system. Such a donor is an internal negative sink feeding a terminal positive receiver. Boundary/collar/pressure/cutoff/off-family records price genuine exits and localization errors; they do not price an interior donor sink.
+
+      Thus Off Saturation Boundary Pricing.A reduces to Terminal Signed Saturation.A or Parabolic NoFree Sink.A.
+
+      \[
+      J(A\to B)=F>0,
+      \qquad
+      \operatorname{div}J(B)=F,
+      \qquad
+      \operatorname{div}J(A)=-F.
+      \]
+
+      The receiver B has positive terminal divergence. The donor A is an internal sink. First-current pruning removes earlier positive arrivals, while this donor is a negative source sink. Heat action acts after a cycle or heat edge appears
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Terminal Atom Field-Face Diagnostic
+    line_start: 57442
+    line_end: 57493
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57442
+    start_anchor: "\\subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Residue Liouville B ASAC Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: "\\subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}\n\nThe
+      useful object is the selected failure shape. On the post-ASAC selected Zeno
+      branch, failure of the rigid-class route means a terminal source-residue atom
+      survives after no-earlier selected source has been imposed.\n\nThis is a diagnostic
+      theorem. It does not prove the positive temporal anti-atom theorem, and it does
+      not install the broad direct supplier Zeno Bounded Class B.A + Zeno Residue
+      Liouville B.A. It says which CM face the selected Zeno failure breaks.\n\n\\[\nPack_Q+Part_{N,Q}\n+\\forall
+      r>0\\,\\neg Field_{N,r,Q}\n\\Longrightarrow\ntower\\text{-}blown,\n\\]\n\nThat
+      is the Zeno analogue of the retained Carleson failure tree: a selected source-wall
+      defect has survived all non-selected, legal-loss, and earlier-source alternatives.\n\nOn
+      the selected post-ASAC Zeno branch, Zeno Compactness Extraction.A gives an ancient
+      local suitable source-residue limit\n\n\\[\n(u_\\ast,p_\\ast,\\mu_\\ast^{src})\n\\]\n\n\\[\n\\mu_\\ast^{src}(Q_1^-)\\ge
+      c_0>0.\n\\]\n\n\\[\n\\mu_\\ast^{src}(B_R\\times[-R^2,-a])=0\n\\quad\n\\forall
+      R<\\infty,\\ \\forall a>0.\n\\]\n\n\\[\n\\mu_\\ast^{src}(B_R\\times\\{0\\})>0\n\\]\n\nThen
+      the terminal atom is not on one retained bounded same-fluid carrier. The Zeno
+      failure is a Pack exit.\n\nThen the terminal atom is not a source residue of
+      the same differentiated pressure-viscosity Navier-Stokes law. The Zeno failure
+      is a Part exit.\n\nThen the terminal source atom is a retained same-fluid source-residue
+      event. It cannot be treated as a new fourth face. It is a witness that the one-field
+      coherence row has failed on the terminal family.\n\nUnder Pack Q, the extracted
+      Zeno residue remains attached to one bounded same-fluid carrier after restriction.
+      Under Part N,Q , the residue remains a source/readout term of the same differentiated
+      Navier-Stokes tower. So the surviving terminal atom is not external noise and
+      not a detached packet. It is an internal source-residue readout on the retained
+      carrier.\n\nField N,r,Q is the one-field coherence row. It says \n% ... source
+      excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Noncoherent Low-Mode Product Estimate Result
+    line_start: 57733
+    line_end: 57751
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57733
+    start_anchor: "\\subsection{Noncoherent Low-Mode Product Estimate Result}\n"
+    end_anchor: "\\subsection{Nonlinear Compactness Upgrade Operator}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Noncoherent Low-Mode Product Estimate Result}
+
+      \[
+      \|\nabla N_{i,j}\|_\infty
+      \le
+      \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+      \]
+
+      where j is the active noncoherent leakage size after readout. The coherent coefficient bound gives
+
+      \[
+      \|\nabla N_{i,j}\|_\infty
+      \le
+      \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+      \]
+
+      The product estimate is formal once noncoherent leakage is lower order at the readout-compatible scale. The remaining nonformal input is the smallness of j, which is exactly the noncoherent leakage export theorem already reduced to the carrier commutator estimate.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Normalized Localized Projector Kernels Absorb Overlap Into Retained
+      Cover Geometry
+    line_start: 57772
+    line_end: 57821
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57772
+    start_anchor: "\\subsection{Normalized Localized Projector Kernels Absorb Overlap
+      Into Retained Cover Geometry}\n"
+    end_anchor: "\\subsection{NS Closure Surfaces}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Normalized Localized Projector Kernels Absorb Overlap Into Retained Cover Geometry}
+
+      Active theorem-facing coarse globalization note for the localized-projector exact-potential branch.
+
+      That is an honest fine route. But there is also a coarser theorem-safe route: normalize each local kernel to a probability density. Then any overlap kernel mismatch is automatically at most 2, so the overlap price is absorbed into the same retained cover geometry packet used elsewhere on the exact-potential branch.
+
+      \[
+      \widetilde S_{J,\ell}(z)
+      =
+      \int w_\ell(z;p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+      \qquad
+      m_\ell(z):=\int w_\ell(z;p)\,d\bar\nu_{J,z}(p)>0.
+      \]
+
+      \[
+      \vartheta_\ell(z;p):=\frac{w_\ell(z;p)}{m_\ell(z)},
+      \qquad
+      \overline S_{J,\ell}(z):=\frac{\widetilde S_{J,\ell}(z)}{m_\ell(z)}.
+      \]
+
+      \[
+      \vartheta_\ell(z;p)\ge 0,
+      \qquad
+      \int \vartheta_\ell(z;p)\,d\bar\nu_{J,z}(p)=1,
+      \]
+
+      \[
+      \Pi_{\max}(\overline S_{J,\ell}(z))
+      =
+      \Pi_{\max}(\widetilde S_{J,\ell}(z)).
+      \]
+
+      Assume that on every active overlap ' the normalized local surrogates S J, and S J, ' have simple top gaps bounded below by >0.
+
+      \[
+      \int
+      \bigl|
+      \vartheta_\ell(z;p)-\vartheta_{\ell'}(z;p)
+      \bigr|
+      d\bar\nu_{J,z}(p)
+      \le 2,
+      \]
+
+      Assume further that each local synchronization window lies over one retained exact-potential box J k( ) I k( ) , and at most M sub local synchronization windows lie over any one such retained box. Then
+
+      The fine route keeps track of actual kernel closeness and reduces overlap to a localizer-modulus / center-spacing theorem.
+
+      The retained-cover / bounded-overlap packet remains conditional on the current localized-projector branch. Once that packet is admitted, overlap is no longer a separate theorem debt.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pd70Z Cycle Exact Normal Covector Route
+    line_start: 58362
+    line_end: 58424
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58362
+    start_anchor: "\\subsection{Pd70Z Cycle Exact Normal Covector Route}\n"
+    end_anchor: "\\subsection{Persistent-Support Coherent Bound: Threshold Result}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Pd70Z Cycle Exact Normal Covector Route}
+
+      \[
+      D_J=\nabla_{\!graph}\alpha_J
+      \Longrightarrow
+      \mathcal E_J^{loop}(I)=0,
+      \]
+
+      \[
+      \boxed{
+      \mathcal E_J^{dir}(I)\le C_{\mathrm{sf},56759} \mathcal E_J^{obs}(I).
+      }
+      \]
+
+      The remaining ambiguity is not the loop term. It is the concrete realization of the directional defect J. The cleanest cocycle-side continuation is to realize that directional defect on the same carrier.
+
+      This route should be read as a branch consumer of the same Clay problem carrier, not as an autonomous normal-covector semantics engine.
+
+      \[
+      \mathcal E_J^{cm}
+      +
+      \mathfrak R_J^{\perp}
+      \Longrightarrow
+      \mathfrak e_{J,\perp}^{cm}
+      \Longrightarrow
+      \Theta_J^\perp.
+      \]
+
+      So the present note should also be read as a consumer packet downstream of that splice, not as the earliest constitutive start of the normal-covector branch.
+
+      \[
+      |\eta_J(a)\cdot v|\ge c_\eta |v|
+      \qquad
+      \text{for all }v\in N_a.
+      \]
+
+      That is enough to witness nonshadowing once pair gaps are already known, but it does not identify the distance of a unit pair direction e ab to the expanding plane N a: one covector that is merely nondegenerate on N a need not annihilate N a .
+
+      So the cycle-exact cocycle route should not keep chasing another scalar label. On the present 3D rank-two bundle branch, the correct cocycle refinement is a single bundle-normal covector; any finite normal coframe alternative collapses to the same one-dimensional normal row space.
+
+      The transported bundle a N a is already part of the installed deformation/spectral packet. So on the current 3D branch, existence of a normal covector is not a new theorem burden; it is a measurable linear-algebra consequence of the bundle itself.
+
+      Let a N a be a measurable rank-two bundle with orthogonal projectors P N a . Then there exists a measurable unit normal covector n J(a) such that
+
+      \[
+      n_J(a)\in (\mathbb R^3)^*,
+      \qquad
+      |n_J(a)|=1,
+      \qquad
+      \ker n_J(a)=N_a.
+      \]
+
+      Proof. Write R a:=I-P N a . Since N a has rank two, R a is a measurable rank-one or
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Persistent-Support Transport Coefficient Threshold Result
+    line_start: 58448
+    line_end: 58462
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58448
+    start_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold
+      Result}\n"
+    end_anchor: "\\subsection{Persistent-Support Transport Export Theorem}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Persistent-Support Transport Coefficient Threshold Result}
+
+      \[
+      X_A=Ae.
+      \]
+
+      The right side c 2 2j is fixed once j and nu are fixed. Choosing A large violates the target. Thus the fixed-shell theorem cannot follow from persistent support and projection geometry alone.
+
+      \[
+      2^{2j}\ge C(c\nu)^{-1}\|X\|_{H_D^s}.
+      \]
+
+      The next theorem target is the normalization theorem, because the direct persistent-support coefficient theorem is false at fixed shell and arbitrary amplitude.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Terminal Source Reverse Holder To Active-Shell Source Normalization Frontier}
+
+    The next source-normalization supplier is the heat-scale control of the nonlinear shell source on selected terminal active windows. The current frontier is whether that control can be made scale-normalized, rather than merely data-dependent along a smooth preterminal interval.
+
+    This route is circular here because Heat Scale Square Source.A is source-wall / Carleson strength.
+
+    It asks for scale-normalized control of the nonlinear shell source on selected terminal active heat-scale windows, strong enough to yield the -source estimate and hence super-L 1 temporal residence.
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t).
+    \]
+
+    \[
+    F_j(Au)=A^3F_j(u).
+    \]
+
+    Thus |F j| 2 scales like A 6. Smooth original data and preterminal smoothness give data-dependent amplitude bounds, while the terminal theorem needs scale-normalized control along moving high shells. So smoothness alone does not give Active Shell Source Normalize.A.
+
+    \[
+    J(P\to P')+J(P'\to P)=0.
+    \]
+
+    After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live object is the true weighted lifted remainder. A useful theorem would be
+
+    The current installed algebra does not produce a sign law for the true weighted lifted object. Its principal component can align with expanding strain directions. Estimating it by absolute value produces the active- residual-tail burden.
+
+    The residual-tail theorem at the required strength is active- / Carleson strength.
+
+    \[
+    |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+.
+    \]
+
+    So Positive Remainder Depletion.A is equivalent to a selected-window sign-depletion or angular-mixing theorem for the native positive source carrier.
+
+    The smallest current forward-facing formulation is Positive Remainder Depletion.A, because it attacks the native localized positive remainder directly and would imply same-fluid source residence, temporal non-atomicity, Zeno source-residue rigidity, and the post-ASAC no-free-sink closure.
+
+    No new non-Carleson proof is installed at this layer. Active-shell source normalization loops to the same source-wall primitive through weighted commutator defect plus residual-tail control. The next concrete target is Positive Remainder Depletion.A or an equivalent selected-window sign-depletion theorem.
+
+
+
+    \subsection{Clay problem Vanishing-record Bad Packet Field-Exit Reduction}
+
+    Uniform LedgerAC.A remains unproved. The CM-facing consequence of its failure is still useful: a vanishing-record positive-source packet is not a new fourth face. Once legal, readout, non-selected, Pack, and Part alternatives are removed, it is a retained Field/source-residue exit.
+
+    \[
+    \rho_N(E_N)\to0,
+    \qquad
+    \nu_N(E_N)\ge c>0,
+    \]
+
+    \[
+    d\nu_N
+    =
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+dxdt
+    \]
+
+    and \(\rho_N\) is the installed nonnegative record measure on the same selected
+    same-fluid terminal packet family.
+
+    \[
+    \neg Pack_Q
+    \vee
+    \neg Part_{N,Q}
+    \vee
+    \forall r>0\,\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    Pack_Q+Part_{N,Q}
+    +\text{vanishing-ledger positive-source packet}
+    \Longrightarrow
+    \forall r>0\,\neg Field_{N,r,Q}.
+    \]
+
+    First remove the alternatives that are not part of the retained CM branch: declared legal losses, endpoint/readout escapes, and non-selected source-wall branches. If the remaining positive source packet cannot be kept on one bounded same-fluid carrier, the bounded carrier row has failed; this is not Pack Q.
+
+    If the packet can be kept on one carrier but the positive source is not a source/readout term of the same differentiated pressure-viscosity Navier-Stokes tower, the participation row has failed; this is not Part N,Q .
+
+    Now assume Pack Q and Part N,Q survive. Then the bad packet is an internal positive source carrier on one retained same-fluid terminal family. Since rho N(E N)->0 while nu N(E N)>=c, the packet is not paid by legal losses, ordinary route records, or non-selected exits. Passing to the terminal subsequence gives a nonzero native source residue singular to the installed record.
+
+    If the residue persists along an infinite retained source-reserve tree, Class
+    Internal Source Tree Exclusion.A applies.  With \(Pack_Q\) and \(Part_{N,Q}\)
+    still retained, the local Duhamel response of the positive source reserve
+    forces an order-one neighboring-field defect at arbitrarily small scales.  That
+    defect contradicts the tail vanishing required by \(Field_{N,r,Q}\).
+
+    If the residue is terminal Zeno or atomic, Retained Zeno Atom Field Exit.A
+    applies.  Under retained Pack and Part, a nonzero zero-heat-time source residue
+    is an internal source/readout term on the same carrier, so it lands as a
+    Field/source-residue exit rather than as a new face.
+
+    This proves only the contrapositive sorting use. It does not prove the positive supplier theorem
+
+
+
+    \subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}
+
+    The live gate is Weighted Lifted Skew Defect Legal.A, with adjacent boundary pricing through Off Saturation Boundary Pricing.A.
+
+    On legal separated shell edges, the one-sided terminal source weights have order-size mismatch. Terminal heat-scale rescaling can flatten smooth geometric coefficients inside a packet, while the dyadic source-wall weights still differ across paired endpoints.
+
+    Thus absolute Pair Weight Flattening.A reduces to a new terminal weight-coherence theorem plus active strain alignment cost. Estimating the mismatch by absolute value returns to the scalar source wall.
+
+    \[
+    \sum_e\int (W_P-W_{P'})_+[J_e]_+\,dt.
+    \]
+
+    So the live post-ASAC weight branch is not Pair Weight Flattening.A; it is terminal signed-partner saturation after the one-sided weight defect is paid.
+
+    \[
+    2^{2j}\sum_P
+    \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+    \]
+
+    Trace-free incompressibility allows cancellation over all directions. Terminal packet selection may concentrate on expanding eigendirections, producing positive local strain alignment. The lifted object needs an active-strain alignment theorem or terminal signed saturation before it becomes an antisymmetric localized edge current.
+
+    A missing signed partner can be a legal same-fluid donor inside the packet system. Such a donor is an internal negative sink feeding a terminal positive receiver. Boundary/collar/pressure/cutoff/off-family records price genuine exits and localization errors; they do not price an interior donor sink.
+
+    Thus Off Saturation Boundary Pricing.A reduces to Terminal Signed Saturation.A or Parabolic NoFree Sink.A.
+
+    \[
+    J(A\to B)=F>0,
+    \qquad
+    \operatorname{div}J(B)=F,
+    \qquad
+    \operatorname{div}J(A)=-F.
+    \]
+
+    The receiver B has positive terminal divergence. The donor A is an internal sink. First-current pruning removes earlier positive arrivals, while this donor is a negative source sink. Heat action acts after a cycle or heat edge appears; the transfer can be inviscid and internal at the source-current level.
+
+    So Parabolic NoFree Sink.A requires signed saturation or donor-depletion reserve.
+
+
+
+    \subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}
+
+    The useful object is the selected failure shape. On the post-ASAC selected Zeno branch, failure of the rigid-class route means a terminal source-residue atom survives after no-earlier selected source has been imposed.
+
+    This is a diagnostic theorem. It does not prove the positive temporal anti-atom theorem, and it does not install the broad direct supplier Zeno Bounded Class B.A + Zeno Residue Liouville B.A. It says which CM face the selected Zeno failure breaks.
+
+    \[
+    Pack_Q+Part_{N,Q}
+    +\forall r>0\,\neg Field_{N,r,Q}
+    \Longrightarrow
+    tower\text{-}blown,
+    \]
+
+    That is the Zeno analogue of the retained Carleson failure tree: a selected source-wall defect has survived all non-selected, legal-loss, and earlier-source alternatives.
+
+    On the selected post-ASAC Zeno branch, Zeno Compactness Extraction.A gives an ancient local suitable source-residue limit
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src})
+    \]
+
+    \[
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    \[
+    \mu_\ast^{src}(B_R\times[-R^2,-a])=0
+    \quad
+    \forall R<\infty,\ \forall a>0.
+    \]
+
+    \[
+    \mu_\ast^{src}(B_R\times\{0\})>0
+    \]
+
+    Then the terminal atom is not on one retained bounded same-fluid carrier. The Zeno failure is a Pack exit.
+
+    Then the terminal atom is not a source residue of the same differentiated pressure-viscosity Navier-Stokes law. The Zeno failure is a Part exit.
+
+    Then the terminal source atom is a retained same-fluid source-residue event. It cannot be treated as a new fourth face. It is a witness that the one-field coherence row has failed on the terminal family.
+
+    Under Pack Q, the extracted Zeno residue remains attached to one bounded same-fluid carrier after restriction. Under Part N,Q , the residue remains a source/readout term of the same differentiated Navier-Stokes tower. So the surviving terminal atom is not external noise and not a detached packet. It is an internal source-residue readout on the retained carrier.
+
+    Field N,r,Q is the one-field coherence row. It says that inside a positive coherence radius the retained velocity-pressure tower has a single coherent local field, with terminal neighboring-field defects vanishing on retained tails after declared legal losses.
+
+    A nonzero terminal source-residue atom with zero heat-time participation is exactly the opposite behavior. The source mass persists while its positive viscous participation interval collapses to the terminal slice. In the finite-difference/readout language of Field, that is a terminal jump/source residue on the same carrier, not a coherent one-field tail.
+
+    For the CM witness-face split, that endpoint cell is the analytic witness for not Field, not an additional face. So the retained Zeno atom forces
+
+    If the terminal residue cannot be kept on one retained same-fluid carrier, the bounded carrier row has failed, so the branch is not Pack Q.
+
+
+
+    \subsection{Noncoherent Low-Mode Product Estimate Result}
+
+    \[
+    \|\nabla N_{i,j}\|_\infty
+    \le
+    \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+    \]
+
+    where j is the active noncoherent leakage size after readout. The coherent coefficient bound gives
+
+    \[
+    \|\nabla N_{i,j}\|_\infty
+    \le
+    \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+    \]
+
+    The product estimate is formal once noncoherent leakage is lower order at the readout-compatible scale. The remaining nonformal input is the smallness of j, which is exactly the noncoherent leakage export theorem already reduced to the carrier commutator estimate.
+
+
+
+    \subsection{Normalized Localized Projector Kernels Absorb Overlap Into Retained Cover Geometry}
+
+    Active theorem-facing coarse globalization note for the localized-projector exact-potential branch.
+
+    That is an honest fine route. But there is also a coarser theorem-safe route: normalize each local kernel to a probability density. Then any overlap kernel mismatch is automatically at most 2, so the overlap price is absorbed into the same retained cover geometry packet used elsewhere on the exact-potential branch.
+
+    \[
+    \widetilde S_{J,\ell}(z)
+    =
+    \int w_\ell(z;p)\,P_J(z,p)\,d\bar\nu_{J,z}(p),
+    \qquad
+    m_\ell(z):=\int w_\ell(z;p)\,d\bar\nu_{J,z}(p)>0.
+    \]
+
+    \[
+    \vartheta_\ell(z;p):=\frac{w_\ell(z;p)}{m_\ell(z)},
+    \qquad
+    \overline S_{J,\ell}(z):=\frac{\widetilde S_{J,\ell}(z)}{m_\ell(z)}.
+    \]
+
+    \[
+    \vartheta_\ell(z;p)\ge 0,
+    \qquad
+    \int \vartheta_\ell(z;p)\,d\bar\nu_{J,z}(p)=1,
+    \]
+
+    \[
+    \Pi_{\max}(\overline S_{J,\ell}(z))
+    =
+    \Pi_{\max}(\widetilde S_{J,\ell}(z)).
+    \]
+
+    Assume that on every active overlap ' the normalized local surrogates S J, and S J, ' have simple top gaps bounded below by >0.
+
+    \[
+    \int
+    \bigl|
+    \vartheta_\ell(z;p)-\vartheta_{\ell'}(z;p)
+    \bigr|
+    d\bar\nu_{J,z}(p)
+    \le 2,
+    \]
+
+    Assume further that each local synchronization window lies over one retained exact-potential box J k( ) I k( ) , and at most M sub local synchronization windows lie over any one such retained box. Then
+
+    The fine route keeps track of actual kernel closeness and reduces overlap to a localizer-modulus / center-spacing theorem.
+
+    The retained-cover / bounded-overlap packet remains conditional on the current localized-projector branch. Once that packet is admitted, overlap is no longer a separate theorem debt.
+
+
+
+    \subsection{Pd70Z Cycle Exact Normal Covector Route}
+
+    \[
+    D_J=\nabla_{\!graph}\alpha_J
+    \Longrightarrow
+    \mathcal E_J^{loop}(I)=0,
+    \]
+
+    \[
+    \boxed{
+    \mathcal E_J^{dir}(I)\le C_{\mathrm{sf},56759} \mathcal E_J^{obs}(I).
+    }
+    \]
+
+    The remaining ambiguity is not the loop term. It is the concrete realization of the directional defect J. The cleanest cocycle-side continuation is to realize that directional defect on the same carrier.
+
+    This route should be read as a branch consumer of the same Clay problem carrier, not as an autonomous normal-covector semantics engine.
+
+    \[
+    \mathcal E_J^{cm}
+    +
+    \mathfrak R_J^{\perp}
+    \Longrightarrow
+    \mathfrak e_{J,\perp}^{cm}
+    \Longrightarrow
+    \Theta_J^\perp.
+    \]
+
+    So the present note should also be read as a consumer packet downstream of that splice, not as the earliest constitutive start of the normal-covector branch.
+
+    \[
+    |\eta_J(a)\cdot v|\ge c_\eta |v|
+    \qquad
+    \text{for all }v\in N_a.
+    \]
+
+    That is enough to witness nonshadowing once pair gaps are already known, but it does not identify the distance of a unit pair direction e ab to the expanding plane N a: one covector that is merely nondegenerate on N a need not annihilate N a .
+
+    So the cycle-exact cocycle route should not keep chasing another scalar label. On the present 3D rank-two bundle branch, the correct cocycle refinement is a single bundle-normal covector; any finite normal coframe alternative collapses to the same one-dimensional normal row space.
+
+    The transported bundle a N a is already part of the installed deformation/spectral packet. So on the current 3D branch, existence of a normal covector is not a new theorem burden; it is a measurable linear-algebra consequence of the bundle itself.
+
+    Let a N a be a measurable rank-two bundle with orthogonal projectors P N a . Then there exists a measurable unit normal covector n J(a) such that
+
+    \[
+    n_J(a)\in (\mathbb R^3)^*,
+    \qquad
+    |n_J(a)|=1,
+    \qquad
+    \ker n_J(a)=N_a.
+    \]
+
+    Proof. Write R a:=I-P N a . Since N a has rank two, R a is a measurable rank-one orthogonal projector. For the standard basis e 1,e 2,e 3,
+
+    Hence for each a there exists k 1,2,3 with |R a e k| 3 -1/2 . Define k(a) to be the least such index and set
+
+    Because R a is measurable, so are k(a) and n J(a). Since R a is the orthogonal projector onto N a , the vector n J(a) spans N a , hence n J(a)=N a. .
+
+    On the present 3D rank-two bundle branch, any measurable finite normal coframe whose common kernel is N a collapses to the one-dimensional row space spanned by n J(a). So the "finite normal coframe" alternative does not widen the theorem route: one measurable unit normal covector already captures the full normal information.
+
+    So if one sharpens Hypothesis PG-C by taking the pairwise bundle-angle defect in (3.2) of
+
+
+
+    \subsection{Persistent-Support Transport Coefficient Threshold Result}
+
+    \[
+    X_A=Ae.
+    \]
+
+    The right side c 2 2j is fixed once j and nu are fixed. Choosing A large violates the target. Thus the fixed-shell theorem cannot follow from persistent support and projection geometry alone.
+
+    \[
+    2^{2j}\ge C(c\nu)^{-1}\|X\|_{H_D^s}.
+    \]
+
+    The next theorem target is the normalization theorem, because the direct persistent-support coefficient theorem is false at fixed shell and arbitrary amplitude.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal Source Reverse Holder To Active-Shell Source
+    Normalization Frontier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55409
+  line_start: 55409
+  line_end: 55447
+  start_anchor: "\\subsection{Clay problem Terminal Source Reverse Holder To Active-Shell
+    Source Normalization Frontier}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom.A All-Mechanism
+    record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal Source
+    Reverse Holder To Active-Shell Source Normalization Frontier as paper-ready TeX
+    with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55409
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Vanishing-record Bad Packet Field-Exit Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56492
+  line_start: 56492
+  line_end: 56547
+  start_anchor: "\\subsection{Clay problem Vanishing-record Bad Packet Field-Exit
+    Reduction}\n"
+  end_anchor: "\\subsection{Viscosity-Class Boundary: Current Reader Use}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Vanishing-record
+    Bad Packet Field-Exit Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56492
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Lifted Skew Defect Legal.A current-gate continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56718
+  line_start: 56718
+  line_end: 56755
+  start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}\n"
+  end_anchor: "\\subsection{Clay problem Weighted Lifted Skew Defect Legal.A Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Lifted Skew Defect Legal.A
+    current-gate continuation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56718
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Terminal Atom Field-Face Diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57442
+  line_start: 57442
+  line_end: 57493
+  start_anchor: "\\subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Residue Liouville B ASAC Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Terminal Atom
+    Field-Face Diagnostic as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57442
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Noncoherent Low-Mode Product Estimate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57733
+  line_start: 57733
+  line_end: 57751
+  start_anchor: "\\subsection{Noncoherent Low-Mode Product Estimate Result}\n"
+  end_anchor: "\\subsection{Nonlinear Compactness Upgrade Operator}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Noncoherent Low-Mode Product
+    Estimate Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57733
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Normalized Localized Projector Kernels Absorb Overlap Into Retained
+    Cover Geometry
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57772
+  line_start: 57772
+  line_end: 57821
+  start_anchor: "\\subsection{Normalized Localized Projector Kernels Absorb Overlap
+    Into Retained Cover Geometry}\n"
+  end_anchor: "\\subsection{NS Closure Surfaces}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Normalized Localized Projector
+    Kernels Absorb Overlap Into Retained Cover Geometry as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57772
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pd70Z Cycle Exact Normal Covector Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58362
+  line_start: 58362
+  line_end: 58424
+  start_anchor: "\\subsection{Pd70Z Cycle Exact Normal Covector Route}\n"
+  end_anchor: "\\subsection{Persistent-Support Coherent Bound: Threshold Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pd70Z Cycle Exact Normal Covector
+    Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58362
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Persistent-Support Transport Coefficient Threshold Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58448
+  line_start: 58448
+  line_end: 58462
+  start_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold Result}\n"
+  end_anchor: "\\subsection{Persistent-Support Transport Export Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Persistent-Support Transport
+    Coefficient Threshold Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58448
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-13
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-13.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

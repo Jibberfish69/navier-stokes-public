@@ -1,0 +1,13 @@
+---
+version: 1
+kind: ns-paper-arc-current-source-certification
+generated_at: '2026-06-14T07:10:58Z'
+arc_id: same-solution-close
+status: passed
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/same-solution-close.yaml
+critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/same-solution-close.yaml
+critic_status: passed
+source_section_count: 2
+verifier_status: passed
+integration_allowed: true
+failures: []

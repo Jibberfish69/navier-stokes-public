@@ -42,12 +42,12 @@ The Fourier countermodel in
 models this as:
 
 ```math
-\pi_P\simeq {1\over M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+\pi_P:= {1\over M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
 \qquad
 M\to\infty.
 ```
 
-Then every bounded subfamily carries only `O(B/M)` of the mass.  Thus finite
+Then every subfamily of at most `B` parents carries at most `B/M` of the mass.  Thus finite
 dyadic banding does not prove reverse-Holder concentration.
 
 ## Direct Orthogonality Test
@@ -56,7 +56,7 @@ One may hope orthogonality of the parent pieces forces a square sum that prices
 diffusion.  But the raw quadratic donor cost can scale like:
 
 ```math
-\sum_{\alpha=1}^M\|a_\alpha\|_2^2\simeq M^{-1},
+\sum_{\alpha=1}^M\|a_\alpha\|_2^2= M^{-1},
 ```
 
 while the normalized positive child-feeding source remains order one after
@@ -67,7 +67,7 @@ To make orthogonality useful one needs a scale-normalized square reserve:
 ```math
 \sum_{\alpha}
 \|\text{normalized donor edge}_\alpha\|^2
-\lesssim
+\le C_{\mathrm{RH}}
 \mathcal R_{\mathrm{sc}},
 ```
 
@@ -129,4 +129,3 @@ TerminalSourceCoherence.A
 ScaleCriticalTreeCarleson.A.
 }
 ```
-

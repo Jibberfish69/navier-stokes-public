@@ -38,7 +38,12 @@ D_N^{(n)}(t) := \sum_{j \ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
 \mathcal L_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
 ```
 
-On the dyadic surface, `T_N^{(n)}(t) \sim E_N^{(n)}(t)`.
+On the dyadic surface, the fixed Littlewood--Paley constants
+`c_{LP},C_{LP}>0` satisfy
+
+```math
+c_{LP}E_N^{(n)}(t)\le T_N^{(n)}(t)\le C_{LP}E_N^{(n)}(t).
+```
 
 ## Lemma Statement
 
@@ -109,7 +114,8 @@ recorded in
 
 ```math
 \mathfrak P_N^{scale,lift}[u^{(n)}]
-\lesssim
+\le
+C_{lift}
 \int_0^T \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t)\,dt
 \le
 \frac{\eta\nu}{4}\int_0^T D_N^{(n)}(t)\,dt
@@ -130,8 +136,9 @@ and then absorbed for all large cutoffs by
 \tag{5}
 ```
 
-Substituting `(2)`, `(3)`, `(4)`, and `(5)` into `(1)` and using `E_N^{(n)} \sim
-T_N^{(n)}` gives, after enlarging `N_*` if needed,
+Substituting `(2)`, `(3)`, `(4)`, and `(5)` into `(1)` and using the displayed
+Littlewood--Paley bound `E_N^{(n)}(t)\le c_{LP}^{-1}T_N^{(n)}(t)` gives, after
+enlarging `N_*` if needed,
 
 ```math
 \frac12 \frac{d}{dt}T_N^{(n)}(t)

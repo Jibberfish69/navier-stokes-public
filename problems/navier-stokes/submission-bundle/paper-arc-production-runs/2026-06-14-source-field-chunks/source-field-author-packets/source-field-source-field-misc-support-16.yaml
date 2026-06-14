@@ -1,0 +1,843 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-16
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-16
+  sequence: 168
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 16
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 13491
+  line_end: 14132
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13491
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13542
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13710
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13791
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13823
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13959
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13985
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14087
+  subsection_titles:
+  - Active-shell amplitude gain from Original Smooth Data - frontier-loop failure
+    note
+  - Active-Shell Amplitude Gain Loop Audit
+  - Active-window amplitude gain - hard obstruction
+  - 'Active Direction Equipartition: selected angular mixing attempt'
+  - 'Active shell amplitude gain: zero-thickness pulse attempt'
+  - Active Vorticity Coherence.A from Original Smooth Data
+  - Active Vorticity Coherence.A direct loop note
+  - Affine Gainstop Parentkernel Discharge
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-shell amplitude gain from Original Smooth Data - frontier-loop
+      failure note
+    line_start: 13491
+    line_end: 13509
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13491
+    start_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+      - frontier-loop failure note}\n"
+    end_anchor: "\\subsection{Active-shell amplitude gain for nu SCF Carleson - hard
+      obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active-shell amplitude gain from Original Smooth Data - frontier-loop failure note}
+
+      The desired gain would imply scale-normalized \(\nu\)-SCF Carleson control and
+      would feed the \(\mathrm{Jump}_{avg}\) branch-elimination route.
+
+      The fixed-shell version also fails as a universal consequence of smooth data:
+      large smooth divergence-free data can have a large component in any fixed
+      shell, so no data-independent amplitude bound of the desired size follows.
+
+      The energy layer supplies first-moment control. The active route needs a
+      scale-normalized second-moment control. Short active-shell pulses remain
+      compatible with the shell identity whenever the nonlinear flux source supplies
+      matching input. The missing theorem is a heat-scale source theorem, a signed
+      weighted commutator-defect theorem, a direct active-Carleson theorem, or a
+      monotone-dominance functional preventing short terminal active-shell pulses.
+
+      Those inputs are not installed here.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-Shell Amplitude Gain Loop Audit
+    line_start: 13542
+    line_end: 13562
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13542
+    start_anchor: "\\subsection{Active-Shell Amplitude Gain Loop Audit}\n"
+    end_anchor: "\\subsection{Active-shell amplitude gain - equivalence to source
+      normalization}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active-Shell Amplitude Gain Loop Audit}
+
+      \[
+      2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+      \]
+
+      Original Smooth Data gives finite energy, finite dissipation, and smoothness on
+      every compact preterminal interval. These facts control fixed shells before the
+      endpoint.
+
+      The desired gain controls moving active shells whose frequencies can drift
+      upward as the terminal time is approached. For the scalar shell model
+
+      \[
+      E_j'+c\nu D_j\le F_j,
+      \qquad D_j=2^{2j}E_j,
+      \]
+      the missing point is source normalization: \(F_j\) may maintain a pulse unless
+      some signed, monotone, or source-size theorem prevents it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-window amplitude gain - hard obstruction
+    line_start: 13710
+    line_end: 13726
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13710
+    start_anchor: "\\subsection{Active-window amplitude gain - hard obstruction}\n"
+    end_anchor: "\\subsection{Active-window amplitude gain / heat-scale source control
+      - loop continuation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active-window amplitude gain - hard obstruction}
+
+      This is the window version of the same obstruction. The route needs
+      active-window amplitude gain, or an equivalent heat-scale source estimate,
+      strong enough to give scale-normalized upper control for the final charge in
+      the \(\mathrm{Jump}_{avg}\) branch.
+
+      Under shell-to-window comparison, heat-scale dissipation tail control, and
+      summable reserves, the gain converts the active term into the scale-normalized
+      Carleson estimate needed for terminal windows.
+
+      Current surfaces supply finite raw mass, finite dissipation, local pressure
+      integrability, and source/flux control. These controls allow short active-shell
+      pulses or persistent active amplitudes at shrinking scales. Such pulses can
+      preserve raw finite mass while breaking the scale-normalized Carleson sum.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Active Direction Equipartition: selected angular mixing attempt'
+    line_start: 13791
+    line_end: 13822
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13791
+    start_anchor: "\\subsection{Active Direction Equipartition: selected angular mixing
+      attempt}\n"
+    end_anchor: "\\subsection{Active shell amplitude gain: zero-thickness pulse attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active Direction Equipartition: selected angular mixing attempt}
+
+      The angular-mixing attempt follows the selected-window sign comparison.  The
+      question is whether a one-sided positive source carrier can be forced to lose
+      alignment by sampling contracting strain directions along the same terminal
+      packet family.
+
+      The first mechanism is eigenframe motion.  If the expanding eigenspace rotates
+      fast relative to the active packet direction, persistent positive alignment
+      should lose coherence.  The installed inputs do not supply source-weighted BV
+      or comparable variation control for the eigenframe on the selected terminal
+      family.  Preterminal smoothness controls fixed compact intervals; it does not
+      give a uniform terminal angular record on the shrinking active windows.
+
+      The second mechanism is coherent-vorticity depletion.  Beltrami-style or
+      Constantin-Fefferman-style structure can deplete nonlinear stretching when the
+      selected packet enters the required direction-coherent class.  No installed
+      theorem produces that class from original smooth data, ASAC, or B ASAC on the
+      terminal layer.
+
+      ASAC pays active alignment in the signed/current presentation, and B ASAC gives
+      terminal equality and tangent organization.  Those payments do not give
+      source-weighted angular equipartition for the one-sided positive carrier.
+
+      The angular route is useful as support because it identifies what a positive
+      source pulse would have to evade: rotation of the expanding frame, loss of
+      coherence, and Beltrami or vorticity-direction depletion.  It is not a discharge
+      of the source wall.  At this resolution, the same live object returns as the
+      need for measurable active-shell amplitude gain, temporal thickness, or a
+      source-normalized depletion theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Active shell amplitude gain: zero-thickness pulse attempt'
+    line_start: 13823
+    line_end: 13854
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13823
+    start_anchor: "\\subsection{Active shell amplitude gain: zero-thickness pulse
+      attempt}\n"
+    end_anchor: "\\subsection{Active shell source normalization: onward commutator
+      tail split}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active shell amplitude gain: zero-thickness pulse attempt}
+
+      Active-shell amplitude gain is tested against the terminal source layer
+      selected by the source-pulse branch.  On shell \(j\), the useful one-sided
+      inequality has the model form
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t).
+      \]
+
+      If the terminal layer has positive heat-time thickness, persistent stretching
+      has to show up as amplitude gain, reserve spend, or drain expenditure.  That is
+      the good case for this route: the carrier remains visible long enough for the
+      shell ledger to measure what the source did.
+
+      The hard case is a source-balanced pulse on a shrinking terminal layer.  The
+      nonlinear source \(F_j\) may balance viscous damping over windows whose
+      heat-time length tends to zero.  The pulse can then leave terminal mass while
+      the shellwise reserve stays unavailable at the scale needed by the argument.
+      This is a thickness problem, not merely a missing name for the source.
+
+      B ASAC supplies equality and tangent organization.  Same-fluid packet
+      accounting supplies lineage and legal routing.  Neither input normalizes the
+      trilinear source amplitude or creates a positive shellwise reserve on the
+      zero-thickness sequence.
+
+      Active-shell amplitude gain remains open.  The blocking model is the
+      zero-thickness source-balanced terminal pulse: source and damping can balance on
+      thinner and thinner heat-time windows, leaving a terminal residue without a
+      measured amplitude-gain payment.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active Vorticity Coherence.A from Original Smooth Data
+    line_start: 13959
+    line_end: 13984
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13959
+    start_anchor: "\\subsection{Active Vorticity Coherence.A from Original Smooth
+      Data}\n"
+    end_anchor: "\\subsection{Active Vorticity Coherence.A direct loop note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active Vorticity Coherence.A from Original Smooth Data}
+
+      The desired theorem says that terminal bad active windows carry enough
+      vorticity-direction coherence to deplete their positive active source.  The
+      stretching term is
+
+      \[
+      \omega\cdot S\omega.
+      \]
+
+      A Constantin-Fefferman style mechanism can deplete stretching when a suitable
+      vorticity-direction modulus is available.  Current original-data inputs give
+      smoothness on compact preterminal intervals.  They do not supply a uniform
+      terminal direction modulus on the shrinking active windows selected by the
+      source-pulse branch.
+
+      Even with a direction-coherence hypothesis, the bridge must control the exact
+      route carrier.  The active source packet also includes transverse strain
+      eigenvalues, low-vorticity/high-strain portions, shellwise mixed bilinear
+      dissipation, and weighted lifted remainders after cutoffs and one-sided weights.
+      Direction coherence of \(\omega/|\omega|\) alone does not cover all of those
+      carriers.
+
+      Active Vorticity Coherence.A remains open and route-equivalent to the source-pulse wall at current resolution.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active Vorticity Coherence.A direct loop note
+    line_start: 13985
+    line_end: 14001
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13985
+    start_anchor: "\\subsection{Active Vorticity Coherence.A direct loop note}\n"
+    end_anchor: "\\subsection{Adjoint strain-gauge parent-kernel conditional discharge
+      packet}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active Vorticity Coherence.A direct loop note}
+
+      The direct loop restates the same target in proof-search form: prove from
+      original smooth data that selected terminal bad active windows carry enough
+      vorticity-direction coherence to deplete positive active source production.
+
+      \[
+      \omega\cdot S\omega.
+      \]
+
+      The attempted loop does not add a new payment beyond the previous paragraph.
+      It names the next proof-search surfaces: Reverse Holder Parent Concentration.A,
+      Anti Beltrami Carleson.A, and Native SourceAC.A.  Those surfaces remain support
+      routes for the same source-pulse wall until one of them supplies the missing
+      terminal direction modulus or a replacement source-control theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Affine Gainstop Parentkernel Discharge
+    line_start: 14087
+    line_end: 14132
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14087
+    start_anchor: "\\subsection{Affine Gainstop Parentkernel Discharge}\n"
+    end_anchor: "\\subsection{Affine Heat Packet Bound Ahp A 20260504 001}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Affine Gainstop Parentkernel Discharge}
+
+      This subsection is the affine-metric version of the gain-stop packet.  It gives
+      the local dichotomy used by the parent-kernel route once the affine packet
+      metric and selection hypotheses are in force.
+
+      \[
+      \Gamma_T(t)=\int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))ds,
+      \qquad
+      h_T(t)=\nu r_T^{-2}(t_+-t),
+      \qquad
+      g_T(t)=e^{\Gamma_T(t)}.
+      \]
+
+      \[
+      a_T(t)=g_T(t)^{-1}|\langle w_j(t),\psi_T(t)\rangle|.
+      \]
+
+      \[
+      2\Gamma_T>2h_T-\eta_0,
+      \]
+
+      \[
+      2\Gamma_T\le2h_T-\eta_0.
+      \]
+
+      \[
+      \sum_{T:P\prec T}g_T^2S(P\to T)
+      \le(1-\delta)S(P).
+      \]
+
+      The affine heat cylinder centered at \(X_T(t_+)\) with scale \(r_T\) is the
+      earlier active source-pulse ancestor.  Under the selection and measurability
+      hypotheses from D.266, this is the affine form of Gain Stop.A.
+
+      The same representation gives the coefficient-stop dichotomy: coefficient-stopped
+      tiles enter the residual charge record or the earlier ancestor record.
+
+      The quiet parent-kernel contraction is the contraction alternative
+      \[
+      \sum_{T:P\prec T}g_T^2S(P\to T)\le(1-\delta)S(P).
+      \]
+      The remaining payment is the choice of packet thresholds and atlas constants
+      that make this contraction uniform on the retained family.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Active-shell amplitude gain from Original Smooth Data - frontier-loop failure note}
+
+    The desired gain would imply scale-normalized \(\nu\)-SCF Carleson control and
+    would feed the \(\mathrm{Jump}_{avg}\) branch-elimination route.
+
+    The fixed-shell version also fails as a universal consequence of smooth data:
+    large smooth divergence-free data can have a large component in any fixed
+    shell, so no data-independent amplitude bound of the desired size follows.
+
+    The energy layer supplies first-moment control. The active route needs a
+    scale-normalized second-moment control. Short active-shell pulses remain
+    compatible with the shell identity whenever the nonlinear flux source supplies
+    matching input. The missing theorem is a heat-scale source theorem, a signed
+    weighted commutator-defect theorem, a direct active-Carleson theorem, or a
+    monotone-dominance functional preventing short terminal active-shell pulses.
+
+    Those inputs are not installed here.
+
+
+
+    \subsection{Active-Shell Amplitude Gain Loop Audit}
+
+    \[
+    2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+    \]
+
+    Original Smooth Data gives finite energy, finite dissipation, and smoothness on
+    every compact preterminal interval. These facts control fixed shells before the
+    endpoint.
+
+    The desired gain controls moving active shells whose frequencies can drift
+    upward as the terminal time is approached. For the scalar shell model
+
+    \[
+    E_j'+c\nu D_j\le F_j,
+    \qquad D_j=2^{2j}E_j,
+    \]
+    the missing point is source normalization: \(F_j\) may maintain a pulse unless
+    some signed, monotone, or source-size theorem prevents it.
+
+
+
+    \subsection{Active-window amplitude gain - hard obstruction}
+
+    This is the window version of the same obstruction. The route needs
+    active-window amplitude gain, or an equivalent heat-scale source estimate,
+    strong enough to give scale-normalized upper control for the final charge in
+    the \(\mathrm{Jump}_{avg}\) branch.
+
+    Under shell-to-window comparison, heat-scale dissipation tail control, and
+    summable reserves, the gain converts the active term into the scale-normalized
+    Carleson estimate needed for terminal windows.
+
+    Current surfaces supply finite raw mass, finite dissipation, local pressure
+    integrability, and source/flux control. These controls allow short active-shell
+    pulses or persistent active amplitudes at shrinking scales. Such pulses can
+    preserve raw finite mass while breaking the scale-normalized Carleson sum.
+
+
+
+    \subsection{Active Direction Equipartition: selected angular mixing attempt}
+
+    The angular-mixing attempt follows the selected-window sign comparison.  The
+    question is whether a one-sided positive source carrier can be forced to lose
+    alignment by sampling contracting strain directions along the same terminal
+    packet family.
+
+    The first mechanism is eigenframe motion.  If the expanding eigenspace rotates
+    fast relative to the active packet direction, persistent positive alignment
+    should lose coherence.  The installed inputs do not supply source-weighted BV
+    or comparable variation control for the eigenframe on the selected terminal
+    family.  Preterminal smoothness controls fixed compact intervals; it does not
+    give a uniform terminal angular record on the shrinking active windows.
+
+    The second mechanism is coherent-vorticity depletion.  Beltrami-style or
+    Constantin-Fefferman-style structure can deplete nonlinear stretching when the
+    selected packet enters the required direction-coherent class.  No installed
+    theorem produces that class from original smooth data, ASAC, or B ASAC on the
+    terminal layer.
+
+    ASAC pays active alignment in the signed/current presentation, and B ASAC gives
+    terminal equality and tangent organization.  Those payments do not give
+    source-weighted angular equipartition for the one-sided positive carrier.
+
+    The angular route is useful as support because it identifies what a positive
+    source pulse would have to evade: rotation of the expanding frame, loss of
+    coherence, and Beltrami or vorticity-direction depletion.  It is not a discharge
+    of the source wall.  At this resolution, the same live object returns as the
+    need for measurable active-shell amplitude gain, temporal thickness, or a
+    source-normalized depletion theorem.
+
+
+
+    \subsection{Active shell amplitude gain: zero-thickness pulse attempt}
+
+    Active-shell amplitude gain is tested against the terminal source layer
+    selected by the source-pulse branch.  On shell \(j\), the useful one-sided
+    inequality has the model form
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t).
+    \]
+
+    If the terminal layer has positive heat-time thickness, persistent stretching
+    has to show up as amplitude gain, reserve spend, or drain expenditure.  That is
+    the good case for this route: the carrier remains visible long enough for the
+    shell ledger to measure what the source did.
+
+    The hard case is a source-balanced pulse on a shrinking terminal layer.  The
+    nonlinear source \(F_j\) may balance viscous damping over windows whose
+    heat-time length tends to zero.  The pulse can then leave terminal mass while
+    the shellwise reserve stays unavailable at the scale needed by the argument.
+    This is a thickness problem, not merely a missing name for the source.
+
+    B ASAC supplies equality and tangent organization.  Same-fluid packet
+    accounting supplies lineage and legal routing.  Neither input normalizes the
+    trilinear source amplitude or creates a positive shellwise reserve on the
+    zero-thickness sequence.
+
+    Active-shell amplitude gain remains open.  The blocking model is the
+    zero-thickness source-balanced terminal pulse: source and damping can balance on
+    thinner and thinner heat-time windows, leaving a terminal residue without a
+    measured amplitude-gain payment.
+
+
+
+    \subsection{Active Vorticity Coherence.A from Original Smooth Data}
+
+    The desired theorem says that terminal bad active windows carry enough
+    vorticity-direction coherence to deplete their positive active source.  The
+    stretching term is
+
+    \[
+    \omega\cdot S\omega.
+    \]
+
+    A Constantin-Fefferman style mechanism can deplete stretching when a suitable
+    vorticity-direction modulus is available.  Current original-data inputs give
+    smoothness on compact preterminal intervals.  They do not supply a uniform
+    terminal direction modulus on the shrinking active windows selected by the
+    source-pulse branch.
+
+    Even with a direction-coherence hypothesis, the bridge must control the exact
+    route carrier.  The active source packet also includes transverse strain
+    eigenvalues, low-vorticity/high-strain portions, shellwise mixed bilinear
+    dissipation, and weighted lifted remainders after cutoffs and one-sided weights.
+    Direction coherence of \(\omega/|\omega|\) alone does not cover all of those
+    carriers.
+
+    Active Vorticity Coherence.A remains open and route-equivalent to the source-pulse wall at current resolution.
+
+
+
+    \subsection{Active Vorticity Coherence.A direct loop note}
+
+    The direct loop restates the same target in proof-search form: prove from
+    original smooth data that selected terminal bad active windows carry enough
+    vorticity-direction coherence to deplete positive active source production.
+
+    \[
+    \omega\cdot S\omega.
+    \]
+
+    The attempted loop does not add a new payment beyond the previous paragraph.
+    It names the next proof-search surfaces: Reverse Holder Parent Concentration.A,
+    Anti Beltrami Carleson.A, and Native SourceAC.A.  Those surfaces remain support
+    routes for the same source-pulse wall until one of them supplies the missing
+    terminal direction modulus or a replacement source-control theorem.
+
+
+
+    \subsection{Affine Gainstop Parentkernel Discharge}
+
+    This subsection is the affine-metric version of the gain-stop packet.  It gives
+    the local dichotomy used by the parent-kernel route once the affine packet
+    metric and selection hypotheses are in force.
+
+    \[
+    \Gamma_T(t)=\int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))ds,
+    \qquad
+    h_T(t)=\nu r_T^{-2}(t_+-t),
+    \qquad
+    g_T(t)=e^{\Gamma_T(t)}.
+    \]
+
+    \[
+    a_T(t)=g_T(t)^{-1}|\langle w_j(t),\psi_T(t)\rangle|.
+    \]
+
+    \[
+    2\Gamma_T>2h_T-\eta_0,
+    \]
+
+    \[
+    2\Gamma_T\le2h_T-\eta_0.
+    \]
+
+    \[
+    \sum_{T:P\prec T}g_T^2S(P\to T)
+    \le(1-\delta)S(P).
+    \]
+
+    The affine heat cylinder centered at \(X_T(t_+)\) with scale \(r_T\) is the
+    earlier active source-pulse ancestor.  Under the selection and measurability
+    hypotheses from D.266, this is the affine form of Gain Stop.A.
+
+    The same representation gives the coefficient-stop dichotomy: coefficient-stopped
+    tiles enter the residual charge record or the earlier ancestor record.
+
+    The quiet parent-kernel contraction is the contraction alternative
+    \[
+    \sum_{T:P\prec T}g_T^2S(P\to T)\le(1-\delta)S(P).
+    \]
+    The remaining payment is the choice of packet thresholds and atlas constants
+    that make this contraction uniform on the retained family.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-shell amplitude gain from Original Smooth Data - frontier-loop
+    failure note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13491
+  line_start: 13491
+  line_end: 13509
+  start_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+    - frontier-loop failure note}\n"
+  end_anchor: "\\subsection{Active-shell amplitude gain for nu SCF Carleson - hard
+    obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-shell amplitude gain from
+    Original Smooth Data - frontier-loop failure note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13491
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-Shell Amplitude Gain Loop Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13542
+  line_start: 13542
+  line_end: 13562
+  start_anchor: "\\subsection{Active-Shell Amplitude Gain Loop Audit}\n"
+  end_anchor: "\\subsection{Active-shell amplitude gain - equivalence to source normalization}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-Shell Amplitude Gain Loop
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13542
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-window amplitude gain - hard obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13710
+  line_start: 13710
+  line_end: 13726
+  start_anchor: "\\subsection{Active-window amplitude gain - hard obstruction}\n"
+  end_anchor: "\\subsection{Active-window amplitude gain / heat-scale source control
+    - loop continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-window amplitude gain
+    - hard obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13710
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Active Direction Equipartition: selected angular mixing attempt'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13791
+  line_start: 13791
+  line_end: 13822
+  start_anchor: "\\subsection{Active Direction Equipartition: selected angular mixing
+    attempt}\n"
+  end_anchor: "\\subsection{Active shell amplitude gain: zero-thickness pulse attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active Direction Equipartition:
+    selected angular mixing attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13791
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Active shell amplitude gain: zero-thickness pulse attempt'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13823
+  line_start: 13823
+  line_end: 13854
+  start_anchor: "\\subsection{Active shell amplitude gain: zero-thickness pulse attempt}\n"
+  end_anchor: "\\subsection{Active shell source normalization: onward commutator tail
+    split}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active shell amplitude gain:
+    zero-thickness pulse attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13823
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active Vorticity Coherence.A from Original Smooth Data
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13959
+  line_start: 13959
+  line_end: 13984
+  start_anchor: "\\subsection{Active Vorticity Coherence.A from Original Smooth Data}\n"
+  end_anchor: "\\subsection{Active Vorticity Coherence.A direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active Vorticity Coherence.A
+    from Original Smooth Data as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13959
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active Vorticity Coherence.A direct loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13985
+  line_start: 13985
+  line_end: 14001
+  start_anchor: "\\subsection{Active Vorticity Coherence.A direct loop note}\n"
+  end_anchor: "\\subsection{Adjoint strain-gauge parent-kernel conditional discharge
+    packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active Vorticity Coherence.A
+    direct loop note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13985
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Affine Gainstop Parentkernel Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14087
+  line_start: 14087
+  line_end: 14132
+  start_anchor: "\\subsection{Affine Gainstop Parentkernel Discharge}\n"
+  end_anchor: "\\subsection{Affine Heat Packet Bound Ahp A 20260504 001}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Affine Gainstop Parentkernel
+    Discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14087
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-16
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-16.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

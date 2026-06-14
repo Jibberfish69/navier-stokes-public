@@ -96,7 +96,8 @@ The terminal layer contribution has Duhamel form:
 For `|s|\ll1` in normalized heat units,
 
 ```math
-e^{(0-s)\nu\Delta}=I+O(|s|\nu\Delta).
+e^{(0-s)\nu\Delta}=I+\mathcal E_s,
+\qquad \mathcal E_s:=e^{(0-s)\nu\Delta}-I.
 ```
 
 The heat kernel gives no smallness on a layer whose normalized thickness tends

@@ -13,7 +13,7 @@ Discharge the shape packet:
 
 ```math
 \boxed{
-M_{J,\varepsilon}^{shape}\approx I_{N_a}
+\|M_{J,\varepsilon}^{shape}-I_{N_a}\|_{\mathrm{op}}\le \epsilon_{J,\varepsilon}^{shape}
 \quad\text{in the selector-weighted second-moment sense.}
 }
 \tag{PTCS.0}
@@ -72,7 +72,7 @@ for the renormalized shape tensor
 ```
 
 That is the exact tensor-level form of
-`M_{J,\varepsilon}^{shape}\approx I_{N_a}` on this branch.
+`\|M_{J,\varepsilon}^{shape}-I_{N_a}\|_{\mathrm{op}}\le \epsilon_{J,\varepsilon}^{shape}` on this branch.
 
 The primitive theorem statement is tensor-level. The projector comparison to
 the Cauchy--Green reference object is a downstream corollary of the `D.7mn`
@@ -215,7 +215,8 @@ sufficient route:
 ```math
 \nu_{J,\varepsilon}^{shape}(C)
 =
-\sigma_{N_a}(C)+O(\epsilon_{J,\varepsilon}^{shape})
+\sigma_{N_a}(C)+E_C,
+\qquad |E_C|\le C_C\epsilon_{J,\varepsilon}^{shape}
 \tag{PTCS.3g}
 ```
 

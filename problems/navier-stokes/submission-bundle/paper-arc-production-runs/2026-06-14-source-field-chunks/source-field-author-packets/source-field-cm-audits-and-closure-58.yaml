@@ -1,0 +1,869 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-58
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-58
+  sequence: 143
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 58
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 65865
+  line_end: 66166
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65865
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65936
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66006
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66027
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66054
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66081
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66119
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66146
+  subsection_titles:
+  - Clay problem Uniform LedgerAC.A Direct Attempt
+  - Clay problem PRD Completion Attempt
+  - Clay problem Five Supplier Parallel Completion record
+  - Clay problem Non-Euler CM Surface Face Sweep
+  - Clay problem Clay Breakdown Preterminal Reflection Proof Attempt
+  - Clay problem Clay-Admissible Breakdown CM Test-Admissibility Check
+  - Clay problem Clay Terminal CM Completeness Hardening
+  - Clay problem Clay Breakdown Class-Exit Inadmissibility Proof Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Uniform LedgerAC.A Direct Attempt
+    line_start: 65865
+    line_end: 65903
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65865
+    start_anchor: "\\subsection{Clay problem Uniform LedgerAC.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Positive Source Supplier Cycle.Second Pass Stability}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Uniform LedgerAC.A Direct Attempt}
+
+      \[
+      \nu_N(E_N)
+      :=
+      \int_{E_N}
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+\,dxdt,
+      \]
+
+      and let rho N(E N) be the installed route-record mass on the same selected packet set.
+
+      \[
+      \nu_N(E_N)\le C\rho_N(E_N)+\epsilon_N
+      \]
+
+      and records that none is installed for the same source-weighted terminal packet carrier.
+
+      \[
+      \left[
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \right]_+
+      =
+      |w_j|^2
+      \left[
+      e_j\cdot S_{<j}^{loc}e_j
+      \right]_+.
+      \]
+
+      Energy and first-moment dissipation price quadratic mass and gradients, but not the positive low-strain coefficient on the same terminal active windows. Calderon-Zygmund pressure/strain bounds give finite-p recovery, not the Carleson or L 1 tL x coefficient modulus needed to multiply |w j| 2 on E N.
+
+      Signed exchange and commutator cancellation occur before localization, weights, terminal selection, and positive-part extraction. They do not control the positive measure nu N.
+
+      Same-fluid transport licenses the carrier. It does not make a singular positive source measure absolutely continuous with respect to the installed record.
+
+      Compactness can extract a nonzero singular source residue from a failed modulus, but it does not exclude that residue without a produced rigid class and a source-residue Liouville theorem for that same class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem PRD Completion Attempt
+    line_start: 65936
+    line_end: 66005
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65936
+    start_anchor: "\\subsection{Clay problem PRD Completion Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Five Supplier Parallel Completion record}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem PRD Completion Attempt}
+
+      Positive Remainder Depletion.A is proved conditionally from a source-weighted terminal angular depletion estimate, but that estimate is not supplied by the installed Navier-Stokes inputs. The attempt collapses exactly at the native positive active carrier
+
+      \[
+      \nu_N(\mathcal F_N)
+      :=
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}
+      \chi_P |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+
+      \,dxdt.
+      \]
+
+      This is supplier-side source-wall work. It does not change the CM boundary: Pack, Part, and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
+
+      The direct live surfaces say the separate positive-supplier support atom, quarantined outside CM, is Positive Remainder Depletion.A, with Local Positive Source Carleson.A, Square Source Estimate.A, Active Shell Amplitude Gain.A, or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
+
+      \[
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}[\mathcal R_P]_+
+      \le
+      \theta\sum_{P\in\mathcal F_N}\int_{Q(P)}\mathcal D_P
+      + \operatorname{Drain}_{parent}(\mathcal F_N)
+      + \operatorname{Loss}_{legal}(\mathcal F_N)
+      + o_N(1),
+      \qquad 0<\theta<1.
+      \]
+
+      \[
+      [\mathcal R_P^{main}]_+
+      =
+      \chi_P |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+.
+      \]
+
+      This is the source-weighted packet form of Terminal Angular Mixing.A / Alignment Decorrel.A / Positive Strain Decorrelation.A.
+
+      \[
+      \mathcal R_P
+      =
+      \mathcal R_P^{main}
+      +\mathcal R_P^{legal}
+      +\mathcal R_P^{low}.
+      \]
+
+      \[
+      \sum_P\int_{Q(P)}[\mathcal R_P^{legal}+\mathcal R_P^{low}]_+
+      \le
+      \varepsilon\sum_P\int_{Q(P)}\mathcal D_P
+      + C\operatorname{Drain}_{parent}(\mathcal F_N)
+      + C\operatorname{Loss}_{legal}(\mathcal F_N)
+      + o_N(1).
+      \]
+
+      The assumed source-weighted angular depletion gives the same form for R P main with coefficient 0 0 with 0+ <1. Then
+
+      Installed incompressibility only gives tr S=0. A trace-free strain may still have an expanding eigendirection. The local model
+
+      Thus the positive carrier can be full-si
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Five Supplier Parallel Completion record
+    line_start: 66006
+    line_end: 66026
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66006
+    start_anchor: "\\subsection{Clay problem Five Supplier Parallel Completion record}\n"
+    end_anchor: "\\subsection{Clay problem Non-Euler CM Surface Face Sweep}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Five Supplier Parallel Completion record}\n\nThe
+      completion standard for each branch is strict: either prove the theorem unconditionally
+      from installed Navier-Stokes inputs, without using downstream CM exit or endpoint
+      closure upstream, or record the exact primitive that remains missing.\n\nThat
+      estimate is the source-weighted form of terminal angular mixing / alignment
+      decorrelation on the same native positive active carrier. It is not installed
+      from current inputs.\n\nTested burden: promote local positive source control
+      to the Carleson supplier without importing the unproved scale-critical active-
+      reserve or the terminal Zeno atom exclusion.\n\nTested burden: prove a -density
+      source estimate from installed first-moment, Bellman, heat-scale, donor, and
+      reserve controls without assuming the density that the estimate must pay.\n\nThe
+      exact surviving primitive is Active Shell Source Normalize.A, equivalently a
+      signed weighted lifted-remainder / residual-tail theorem forbidding source-balanced
+      terminal active pulses.\n\nTested burden: extract a genuine active-shell amplitude
+      gain from original smooth data, active-shell source normalization, ASAC, and
+      source-reserve controls without returning to weighted commutator defect or residual-tail
+      control.\n\nTested burden: exclude a terminal Zeno source atom by temporal anti-concentration,
+      terminal source reverse Holder, or super-L1 temporal source integrability without
+      using a Carleson reserve.\n\nIf one branch closes unconditionally, the source-wall
+      route is updated through that branch. If all five branches fail from installed
+      inputs, this record records the common surviving primitive rather than rephrasing
+      the same missing estimate under a new label.\n\nLocal Positive Source Carleson.A
+      is not an independent lower route under current inputs; it collapses to Positive
+      Remainder Depletion.A. Square Source Estimate.A and Active Shell Amplitude Gain.A
+      are active-/source-normalization routes. The non-Carleson Zeno branch is \n%
+      ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Non-Euler CM Surface Face Sweep
+    line_start: 66027
+    line_end: 66053
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66027
+    start_anchor: "\\subsection{Clay problem Non-Euler CM Surface Face Sweep}\n"
+    end_anchor: "\\subsection{Clay problem Clay Breakdown Preterminal Reflection Proof
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Non-Euler CM Surface Face Sweep}
+
+      Euler mirror and fixed-positive-viscosity Euler-to-NS transfer surfaces are outside this pass.
+
+      No indexed non-Euler surface has independent CM steering authority outside Pack Q, Part N,Q , Field N,r,Q , or one of the typed support categories above. Member(Q) is reached only after the triadic CM witness is installed.
+
+      The May 17 narrow refresh adds the eight non-Euler supplier/diagnostic notes from the PRD, LPSC, -source, ASAG, non-Carleson Zeno, eigenframe, and pressure-Hessian attempts. The two same-date Euler-mirror notes stay excluded. Those rows record conditional supplier state and retained failure-face sorting; they do not prove a new positive source-wall theorem.
+
+      These counts are not proof burdens. They are routing diagnostics. A row that breaks Field does not mean Pack and Part are globally assumed. It means that for that row, after its local Pack/Part alternatives are removed or inherited from the selected branch, the remaining retained failure is a Field exit.
+
+      Thus there is no non-Euler surface left in the installed inventory that can be used as an unproved extra CM failure face. A surface either proves its face exit inside the contrapositive packet, or it is barred from theorem use until a named bridge upgrades it.
+
+      The inventory includes the index and this theorem note. The word non-euler inside those two filenames is the scope marker for this pass, not an Euler surface marker.
+
+      The exclusion pass is content-level, not filename-only. The index excludes the Euler mirror folder, explicit fixed-nu Euler-to-NS transfer notes, and zero-viscosity / Euler-class comparison surfaces even when their filenames do not contain Euler.
+
+      Ordinary Navier-Stokes viscous estimates and Eulerian-coordinate estimates stay included. Only Euler/fixed-nu transfer or Euler-class comparison surfaces are excluded.
+
+      The May 14 exhaustive check compares the filesystem text-surface universe against the index, diagnostic map
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Clay Breakdown Preterminal Reflection Proof Attempt
+    line_start: 66054
+    line_end: 66080
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66054
+    start_anchor: "\\subsection{Clay problem Clay Breakdown Preterminal Reflection
+      Proof Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+      Check}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Clay Breakdown Preterminal Reflection Proof Attempt}
+
+      The proposed reflection step from terminal class-exit diagnosis to still-live preterminal class-exit is now recorded as an invalid bridge attempt.
+
+      Clay Admissible Finite Breakdown.A places the finite same-surface Clay breakdown object inside the CM test grammar.
+
+      Clay Finite Failure TypeCMExhaustion.A and ClayCMContrapositive Embedding.A derive a terminal face failure and read that face failure as Exit(Q *):=not Member(Q *).
+
+      Existing Part closedness notes prove only a conditional row: retained positive Field scale, tower-amplitude control, and preterminal Part imply terminal Part. They do not supply the missing retained positive Field scale.
+
+      Existing terminal packet notes record the same pressure points: Pack needs a terminal strain/carrier record, Part needs terminal tower and readout closedness, and Field is the positive-scale coherence/readout problem after participation has been licensed.
+
+      This reasoning is the invalid step. It treats terminal class-exit as something that must be reflected backward before it can serve the CM contrapositive. That changes the proof program. In the CM contrapositive, the terminal face failure is the witness of Exit(Q *):=not Member(Q *); it is not automatically a defect that must occur on an earlier still-live member window.
+
+      That theorem is not installed by preterminal smoothness alone. The obstruction is a zero-radius or terminal-carrier collapse: the Pack predicate may hold on each fixed preterminal window while the available Pack radius or deformation record degenerates along the terminal approach.
+
+      This is not promoted. It requires an additional same-packet persistence theorem that is not supplied by the terminal CM classification.
+
+      The existing Part closedness row proves persistence under retained positive Field scale and tower-amplitude control. That is a real partial bridge, but it is conditional on inputs that are not automatic in the termina
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+      Check
+    line_start: 66081
+    line_end: 66101
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66081
+    start_anchor: "\\subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+      Check}\n"
+    end_anchor: "\\subsection{Clay problem Clay Breakdown Canonical Terminal Obstruction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+      Check}\n\nDoes a Clay-admissible finite breakdown witness automatically supply
+      the same-solution terminal object needed for the CM test used by Clay Terminal
+      WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive
+      Embedding.A?\n\nA finite Clay breakdown witness is not a class-member. It is
+      the alleged bad object under test: the maximal classical Navier-Stokes solution
+      from the original smooth datum, stopped at a finite terminal time where classical
+      continuation is alleged to fail. so it satisfies the five same-solution CM test-admissibility
+      checks from\n\nA Clay finite breakdown witness is attached to the original smooth
+      datum. This is exactly the first CM test-admissibility clause: the terminal
+      object is attached to the maximal classical solution generated by that datum.\n\nOn
+      every preterminal interval, the object is the original incompressible Navier-Stokes
+      solution with the same velocity and pressure. An altered equation, regularized
+      flow, geometric surrogate, or external object is not a Clay breakdown witness
+      for the current theorem surface.\n\nCanonical Terminal Packet Capture.A starts
+      from a maximal classical solution on [0,T *) and strips legal boundary/cutoff/collar
+      losses, non-selected branches, readout-only artifacts, and paid finite record
+      terms. The remaining terminal obstruction is exactly the object still claiming
+      to be the finite terminal obstruction.\n\nCanonical Terminal Packet Capture.A
+      and Any Finite Failure WitnessCMExit.A prove that every same-solution terminal
+      obstruction has only the Pack-first Pack/Part/Field path available once it enters
+      the terminal test.\n\nThis test does not add a donor-reserve, source-wall, no-pulse,
+      or positive packet-survival proof.\n\nClay SolutionCMExit Inadmissibility.A
+      proves class-exit inadmissible for a Clay smooth solution, and the older note
+      explicitly marked the breakdown-counterexample version as a separate bridge.
+      The current \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Clay Terminal CM Completeness Hardening
+    line_start: 66119
+    line_end: 66145
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66119
+    start_anchor: "\\subsection{Clay problem Clay Terminal CM Completeness Hardening}\n"
+    end_anchor: "\\subsection{Clay problem Clay Breakdown Class-Exit Inadmissibility
+      Proof Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Clay Terminal CM Completeness Hardening}
+
+      The proof target is not that the exit happened earlier. The proof target is that the terminal obstruction has no fourth primitive way to fail once it has been made canonical.
+
+      Let W * be a finite same-surface Clay breakdown object from original smooth data. Assume W * passes the CM test-admissibility clauses from
+
+      Use the five CM test-admissibility clauses: same datum, same equation, same fluid, same terminal role, and same witness grammar. This turns the Clay breakdown object into a same-solution terminal obstruction after legal losses, non-selected branches, readout artifacts, and paid finite record terms are stripped.
+
+      If the canonical object has no positive same-fluid carrier, it is not Pack Q. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,Q .
+
+      Suppose Pack and Part survive, and suppose some positive Field scale survives. Then
+
+      \[
+      Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}
+      \]
+
+      so the canonical terminal obstruction extracted from W * must break one of Pack, Part, or Field. That face failure is the CM contrapositive witness.
+
+      The existing admissibility note supplies the five-clause test. The next proof pass should verify that each clause is definition-level for a finite same-surface Clay breakdown object, not an extra analytic estimate.
+
+      Once that extraction is certified, Any Finite Failure WitnessCMExit.A supplies the
+
+      No positive no-exit theorem from original smooth data is proved here. No shrinking-window argument is used, and terminal exit is not required to reflect to a still-live preterminal packet.
+
+      Its job is narrower: make the alleged terminal Clay breakdown object canonical enough that its failure is forced to appear as a typed CM face failure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Clay Breakdown Class-Exit Inadmissibility Proof
+      Attempt
+    line_start: 66146
+    line_end: 66166
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66146
+    start_anchor: "\\subsection{Clay problem Clay Breakdown Class-Exit Inadmissibility
+      Proof Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Contrapositive-Only Completion Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Clay Breakdown Class-Exit Inadmissibility Proof Attempt}
+
+      The intended proof mode was target fidelity only. No donor-reserve theorem, source-wall theorem, no-pulse theorem, or positive packet-survival theorem was to be imported.
+
+      Assume W * is a finite same-surface Clay breakdown witness from original smooth data.
+
+      By Clay Admissible Finite Breakdown.A, W * is CM-test-admissible in the note's narrow CM-lawful sense. By the installed Pack-first exhaustion and embedding, the CM test applied to W * forces
+
+      That rule is not supplied by the Clay target. The Clay target requires a positive solution witness to be globally smooth. A breakdown counterexample witness is used to deny that such a global smooth solution exists. so terminal class-exit contradicts Clay smooth-solution admissibility, but it does not contradict Clay breakdown-counterexample admissibility by definition.
+
+      Promoting the stronger conclusion would redefine a counterexample witness as a surviving in-class terminal object. That would beg the question, because the breakdown alternative is precisely that the original smooth solution cannot be continued as such an object.
+
+      Clay Breakdown Class Exit Inadmissibility.A is not proved as a pure target-fidelity theorem.
+
+      does not have to reflect backward to a still-live packet in order to serve the CM contrapositive classification.
+
+      The estimate is only the stuck point that creates the fail/pass split. CM supplies the class decision: failure capable of non-smoothness is outside CM, and the smooth/pass branch is inside CM.
+
+      This proof attempt does not revive TerminalCMNo Exit.A / No GenuineCMExit.A as the terminal classification theorem. It records why the proposed target-fidelity shortcut should be replaced by the obstruction split: failure/non-smooth branch outside CM, smooth branch inside CM.
+
+
+    truncated: false
+  context_excerpt: |
+    \subsection{Clay problem Uniform LedgerAC.A Direct Attempt}
+
+    \[
+    \nu_N(E_N)
+    :=
+    \int_{E_N}
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+\,dxdt,
+    \]
+
+    and let rho N(E N) be the installed route-record mass on the same selected packet set.
+
+    \[
+    \nu_N(E_N)\le C\rho_N(E_N)+\epsilon_N
+    \]
+
+    and records that none is installed for the same source-weighted terminal packet carrier.
+
+    \[
+    \left[
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \right]_+
+    =
+    |w_j|^2
+    \left[
+    e_j\cdot S_{<j}^{loc}e_j
+    \right]_+.
+    \]
+
+    Energy and first-moment dissipation price quadratic mass and gradients, but not the positive low-strain coefficient on the same terminal active windows. Calderon-Zygmund pressure/strain bounds give finite-p recovery, not the Carleson or L 1 tL x coefficient modulus needed to multiply |w j| 2 on E N.
+
+    Signed exchange and commutator cancellation occur before localization, weights, terminal selection, and positive-part extraction. They do not control the positive measure nu N.
+
+    Same-fluid transport licenses the carrier. It does not make a singular positive source measure absolutely continuous with respect to the installed record.
+
+    Compactness can extract a nonzero singular source residue from a failed modulus, but it does not exclude that residue without a produced rigid class and a source-residue Liouville theorem for that same class.
+
+
+
+    \subsection{Clay problem PRD Completion Attempt}
+
+    Positive Remainder Depletion.A is proved conditionally from a source-weighted terminal angular depletion estimate, but that estimate is not supplied by the installed Navier-Stokes inputs. The attempt collapses exactly at the native positive active carrier
+
+    \[
+    \nu_N(\mathcal F_N)
+    :=
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}
+    \chi_P |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+
+    \,dxdt.
+    \]
+
+    This is supplier-side source-wall work. It does not change the CM boundary: Pack, Part, and Field are the witness faces, and Member is the forward membership predicate, not a witness face.
+
+    The direct live surfaces say the separate positive-supplier support atom, quarantined outside CM, is Positive Remainder Depletion.A, with Local Positive Source Carleson.A, Square Source Estimate.A, Active Shell Amplitude Gain.A, or non-Carleson Zeno temporal anti-concentration as genuine supplier entrances.
+
+    \[
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}[\mathcal R_P]_+
+    \le
+    \theta\sum_{P\in\mathcal F_N}\int_{Q(P)}\mathcal D_P
+    + \operatorname{Drain}_{parent}(\mathcal F_N)
+    + \operatorname{Loss}_{legal}(\mathcal F_N)
+    + o_N(1),
+    \qquad 0<\theta<1.
+    \]
+
+    \[
+    [\mathcal R_P^{main}]_+
+    =
+    \chi_P |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+.
+    \]
+
+    This is the source-weighted packet form of Terminal Angular Mixing.A / Alignment Decorrel.A / Positive Strain Decorrelation.A.
+
+    \[
+    \mathcal R_P
+    =
+    \mathcal R_P^{main}
+    +\mathcal R_P^{legal}
+    +\mathcal R_P^{low}.
+    \]
+
+    \[
+    \sum_P\int_{Q(P)}[\mathcal R_P^{legal}+\mathcal R_P^{low}]_+
+    \le
+    \varepsilon\sum_P\int_{Q(P)}\mathcal D_P
+    + C\operatorname{Drain}_{parent}(\mathcal F_N)
+    + C\operatorname{Loss}_{legal}(\mathcal F_N)
+    + o_N(1).
+    \]
+
+    The assumed source-weighted angular depletion gives the same form for R P main with coefficient 0 0 with 0+ <1. Then
+
+    Installed incompressibility only gives tr S=0. A trace-free strain may still have an expanding eigendirection. The local model
+
+    Thus the positive carrier can be full-size on the selected packet while incompressibility, pressure recovery, finite-band localization, and same-fluid transport remain legal. Those inputs preserve the carrier and route side terms; they do not deplete the selected positive part.
+
+    The signed exchange route also stops here. Dyadic skew cancellation occurs before terminal weights, projectors, cutoffs, same-fluid selection, and positive-part extraction. ASAC pays the one-sided pair-weight defect, but the post-ASAC comparison still needs the terminal no-free-sink/Zeno residue branch. That branch is exactly Zeno Source Residue Rigidity.A, currently unproved from installed inputs.
+
+    Summing this requires Scale Critical Tree Carleson.A, Square Source Estimate.A, or Active Shell Amplitude Gain.A. The installed first-moment source/dissipation controls do not imply -density control. The scalar terminal pulse model
+
+    The temporal Zeno route also stops here. Current source compactness supplies only
+
+    The rigid-class Zeno route extracts an ancient local suitable source-residue object, but the installed compactness class is too broad for residue Liouville. No current surface produces Type I control, finite global ancient energy, critical smallness, bounded ancient vorticity, symmetry, two-dimensionality, or strong source cancellation for the extracted residue.
+
+    for selected terminal packet sets E N. This would eliminate the singular native source residue for the positive supplier route, but PRD itself needs the stronger depletion form with a strict drain coefficient <1.
+
+
+
+    \subsection{Clay problem Five Supplier Parallel Completion record}
+
+    The completion standard for each branch is strict: either prove the theorem unconditionally from installed Navier-Stokes inputs, without using downstream CM exit or endpoint closure upstream, or record the exact primitive that remains missing.
+
+    That estimate is the source-weighted form of terminal angular mixing / alignment decorrelation on the same native positive active carrier. It is not installed from current inputs.
+
+    Tested burden: promote local positive source control to the Carleson supplier without importing the unproved scale-critical active- reserve or the terminal Zeno atom exclusion.
+
+    Tested burden: prove a -density source estimate from installed first-moment, Bellman, heat-scale, donor, and reserve controls without assuming the density that the estimate must pay.
+
+    The exact surviving primitive is Active Shell Source Normalize.A, equivalently a signed weighted lifted-remainder / residual-tail theorem forbidding source-balanced terminal active pulses.
+
+    Tested burden: extract a genuine active-shell amplitude gain from original smooth data, active-shell source normalization, ASAC, and source-reserve controls without returning to weighted commutator defect or residual-tail control.
+
+    Tested burden: exclude a terminal Zeno source atom by temporal anti-concentration, terminal source reverse Holder, or super-L1 temporal source integrability without using a Carleson reserve.
+
+    If one branch closes unconditionally, the source-wall route is updated through that branch. If all five branches fail from installed inputs, this record records the common surviving primitive rather than rephrasing the same missing estimate under a new label.
+
+    Local Positive Source Carleson.A is not an independent lower route under current inputs; it collapses to Positive Remainder Depletion.A. Square Source Estimate.A and Active Shell Amplitude Gain.A are active-/source-normalization routes. The non-Carleson Zeno branch is the temporal-residence or rigid-class route.
+
+
+
+    \subsection{Clay problem Non-Euler CM Surface Face Sweep}
+
+    Euler mirror and fixed-positive-viscosity Euler-to-NS transfer surfaces are outside this pass.
+
+    No indexed non-Euler surface has independent CM steering authority outside Pack Q, Part N,Q , Field N,r,Q , or one of the typed support categories above. Member(Q) is reached only after the triadic CM witness is installed.
+
+    The May 17 narrow refresh adds the eight non-Euler supplier/diagnostic notes from the PRD, LPSC, -source, ASAG, non-Carleson Zeno, eigenframe, and pressure-Hessian attempts. The two same-date Euler-mirror notes stay excluded. Those rows record conditional supplier state and retained failure-face sorting; they do not prove a new positive source-wall theorem.
+
+    These counts are not proof burdens. They are routing diagnostics. A row that breaks Field does not mean Pack and Part are globally assumed. It means that for that row, after its local Pack/Part alternatives are removed or inherited from the selected branch, the remaining retained failure is a Field exit.
+
+    Thus there is no non-Euler surface left in the installed inventory that can be used as an unproved extra CM failure face. A surface either proves its face exit inside the contrapositive packet, or it is barred from theorem use until a named bridge upgrades it.
+
+    The inventory includes the index and this theorem note. The word non-euler inside those two filenames is the scope marker for this pass, not an Euler surface marker.
+
+    The exclusion pass is content-level, not filename-only. The index excludes the Euler mirror folder, explicit fixed-nu Euler-to-NS transfer notes, and zero-viscosity / Euler-class comparison surfaces even when their filenames do not contain Euler.
+
+    Ordinary Navier-Stokes viscous estimates and Eulerian-coordinate estimates stay included. Only Euler/fixed-nu transfer or Euler-class comparison surfaces are excluded.
+
+    The May 14 exhaustive check compares the filesystem text-surface universe against the index, diagnostic map, and certificate record.
+
+    The only included surface that still mentions Euler/fixed-nu language in the strong-pattern scan is this sweep note itself, because it records the exclusion rule and the moved paths. It is an authority carrier, not an Euler theorem surface.
+
+    The machine index proves exhaustion of the current non-Euler text surface set. The face label is theorem-role data, not a raw keyword hit. When a surface mentions Pack or Part only as a hypothesis for a Field, support, export, or endpoint role, the role controls.
+
+    Generated authority YAML, review/release state, reader-facing paper manifests, and derived copies are carriers. Their theorem content inherits the Pack/Part/Field witness-face gate from the theorem notes they cite; they do not create independent faces, and Member is reached only after the triadic CM witness.
+
+
+
+    \subsection{Clay problem Clay Breakdown Preterminal Reflection Proof Attempt}
+
+    The proposed reflection step from terminal class-exit diagnosis to still-live preterminal class-exit is now recorded as an invalid bridge attempt.
+
+    Clay Admissible Finite Breakdown.A places the finite same-surface Clay breakdown object inside the CM test grammar.
+
+    Clay Finite Failure TypeCMExhaustion.A and ClayCMContrapositive Embedding.A derive a terminal face failure and read that face failure as Exit(Q *):=not Member(Q *).
+
+    Existing Part closedness notes prove only a conditional row: retained positive Field scale, tower-amplitude control, and preterminal Part imply terminal Part. They do not supply the missing retained positive Field scale.
+
+    Existing terminal packet notes record the same pressure points: Pack needs a terminal strain/carrier record, Part needs terminal tower and readout closedness, and Field is the positive-scale coherence/readout problem after participation has been licensed.
+
+    This reasoning is the invalid step. It treats terminal class-exit as something that must be reflected backward before it can serve the CM contrapositive. That changes the proof program. In the CM contrapositive, the terminal face failure is the witness of Exit(Q *):=not Member(Q *); it is not automatically a defect that must occur on an earlier still-live member window.
+
+    That theorem is not installed by preterminal smoothness alone. The obstruction is a zero-radius or terminal-carrier collapse: the Pack predicate may hold on each fixed preterminal window while the available Pack radius or deformation record degenerates along the terminal approach.
+
+    This is not promoted. It requires an additional same-packet persistence theorem that is not supplied by the terminal CM classification.
+
+    The existing Part closedness row proves persistence under retained positive Field scale and tower-amplitude control. That is a real partial bridge, but it is conditional on inputs that are not automatic in the terminal Part-failure branch.
+
+    This is not promoted. The current Part-terminal-closedness notes cover the retained-positive-scale subcase only.
+
+    That is not licensed. A shrinking-scale terminal extraction would have to be proved as canonical before it could guide the proof. It cannot be chosen by the argument and then used as the remaining theorem burden.
+
+    This is not promoted. Existing cover-degeneration notes classify terminal positive-scale loss as a Field/Jump face; they do not force that face failure to occur on a still-live preterminal member window.
+
+
+
+    \subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility Check}
+
+    Does a Clay-admissible finite breakdown witness automatically supply the same-solution terminal object needed for the CM test used by Clay Terminal WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive Embedding.A?
+
+    A finite Clay breakdown witness is not a class-member. It is the alleged bad object under test: the maximal classical Navier-Stokes solution from the original smooth datum, stopped at a finite terminal time where classical continuation is alleged to fail. so it satisfies the five same-solution CM test-admissibility checks from
+
+    A Clay finite breakdown witness is attached to the original smooth datum. This is exactly the first CM test-admissibility clause: the terminal object is attached to the maximal classical solution generated by that datum.
+
+    On every preterminal interval, the object is the original incompressible Navier-Stokes solution with the same velocity and pressure. An altered equation, regularized flow, geometric surrogate, or external object is not a Clay breakdown witness for the current theorem surface.
+
+    Canonical Terminal Packet Capture.A starts from a maximal classical solution on [0,T *) and strips legal boundary/cutoff/collar losses, non-selected branches, readout-only artifacts, and paid finite record terms. The remaining terminal obstruction is exactly the object still claiming to be the finite terminal obstruction.
+
+    Canonical Terminal Packet Capture.A and Any Finite Failure WitnessCMExit.A prove that every same-solution terminal obstruction has only the Pack-first Pack/Part/Field path available once it enters the terminal test.
+
+    This test does not add a donor-reserve, source-wall, no-pulse, or positive packet-survival proof.
+
+    Clay SolutionCMExit Inadmissibility.A proves class-exit inadmissible for a Clay smooth solution, and the older note explicitly marked the breakdown-counterexample version as a separate bridge. The current manuscript authority is the terminal CM completeness route: terminal entry, Pack/Part/Field exhaustion, and class-exit reading for the derived face failure.
+
+    The target-fidelity-only proof fails: terminal class-exit contradicts a Clay smooth-solution witness, but a breakdown counterexample witness is allowed to be the allegation that no global smooth solution exists. The corrected burden is terminal CM completeness for the same Pack/Part/Field face classification: make the canonical terminal object precise enough, prove CM test-admissibility, prove Pack/Part/Field exhaustion, and read the derived face failure as class exit rather than a surviving in-class counterexample object.
+
+
+
+    \subsection{Clay problem Clay Terminal CM Completeness Hardening}
+
+    The proof target is not that the exit happened earlier. The proof target is that the terminal obstruction has no fourth primitive way to fail once it has been made canonical.
+
+    Let W * be a finite same-surface Clay breakdown object from original smooth data. Assume W * passes the CM test-admissibility clauses from
+
+    Use the five CM test-admissibility clauses: same datum, same equation, same fluid, same terminal role, and same witness grammar. This turns the Clay breakdown object into a same-solution terminal obstruction after legal losses, non-selected branches, readout artifacts, and paid finite record terms are stripped.
+
+    If the canonical object has no positive same-fluid carrier, it is not Pack Q. If the carrier survives but the pressure-viscosity participation tower does not, it is not Part N s,Q . If both survive and no positive one-field scale survives, it is forall r>0 not Field N s,r,
+    % ... source excerpt truncated for packet size ...
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Uniform LedgerAC.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65865
+  line_start: 65865
+  line_end: 65903
+  start_anchor: "\\subsection{Clay problem Uniform LedgerAC.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Positive Source Supplier Cycle.Second Pass Stability}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Uniform LedgerAC.A
+    Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65865
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem PRD Completion Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65936
+  line_start: 65936
+  line_end: 66005
+  start_anchor: "\\subsection{Clay problem PRD Completion Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Five Supplier Parallel Completion record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem PRD Completion Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65936
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Five Supplier Parallel Completion record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66006
+  line_start: 66006
+  line_end: 66026
+  start_anchor: "\\subsection{Clay problem Five Supplier Parallel Completion record}\n"
+  end_anchor: "\\subsection{Clay problem Non-Euler CM Surface Face Sweep}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Five Supplier Parallel
+    Completion record as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66006
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Non-Euler CM Surface Face Sweep
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66027
+  line_start: 66027
+  line_end: 66053
+  start_anchor: "\\subsection{Clay problem Non-Euler CM Surface Face Sweep}\n"
+  end_anchor: "\\subsection{Clay problem Clay Breakdown Preterminal Reflection Proof
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Non-Euler CM Surface
+    Face Sweep as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66027
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Clay Breakdown Preterminal Reflection Proof Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66054
+  line_start: 66054
+  line_end: 66080
+  start_anchor: "\\subsection{Clay problem Clay Breakdown Preterminal Reflection Proof
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+    Check}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Clay Breakdown Preterminal
+    Reflection Proof Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66054
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Clay-Admissible Breakdown CM Test-Admissibility Check
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66081
+  line_start: 66081
+  line_end: 66101
+  start_anchor: "\\subsection{Clay problem Clay-Admissible Breakdown CM Test-Admissibility
+    Check}\n"
+  end_anchor: "\\subsection{Clay problem Clay Breakdown Canonical Terminal Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Clay-Admissible
+    Breakdown CM Test-Admissibility Check as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66081
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Clay Terminal CM Completeness Hardening
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66119
+  line_start: 66119
+  line_end: 66145
+  start_anchor: "\\subsection{Clay problem Clay Terminal CM Completeness Hardening}\n"
+  end_anchor: "\\subsection{Clay problem Clay Breakdown Class-Exit Inadmissibility
+    Proof Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Clay Terminal CM
+    Completeness Hardening as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66119
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Clay Breakdown Class-Exit Inadmissibility Proof Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66146
+  line_start: 66146
+  line_end: 66166
+  start_anchor: "\\subsection{Clay problem Clay Breakdown Class-Exit Inadmissibility
+    Proof Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Contrapositive-Only Completion Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Clay Breakdown Class-Exit
+    Inadmissibility Proof Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66146
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-58
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-58.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

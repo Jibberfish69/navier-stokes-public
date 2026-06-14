@@ -1,0 +1,1192 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-52
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-52
+  sequence: 204
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 52
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 29998
+  line_end: 30450
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29998
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30041
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30074
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30121
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30209
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30269
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30322
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30379
+  subsection_titles:
+  - Minimum Drain-Rate Threshold Note
+  - Mixed Enstrophy-Gradient Channel Result
+  - Mixed-Jet Across-Rung Feed Picture
+  - Mixed-Jet Cross-Rung Pairing Matrix
+  - Mixed-Jet H s Quadratic Convolution Reduction
+  - Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization
+  - Mixed-Shell Bilinear Dissipation Identity
+  - Modernized Four-Body Schema Under Torus / Tower / Deformation Geometry
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Minimum Drain-Rate Threshold Note
+    line_start: 29998
+    line_end: 30040
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29998
+    start_anchor: "\\subsection{Minimum Drain-Rate Threshold Note}\n"
+    end_anchor: "\\subsection{Mixed Enstrophy-Gradient Channel Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Minimum Drain-Rate Threshold Note}
+
+      What is required is a one-sided drain law that is coercive on the blowup-driving roughness quantity.
+
+      \[
+      \mathcal K_r[u]\sfcomp{28523} \Psi_r[u]^\beta
+      \qquad\text{for some }\beta>0,
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal K_r[u(t)]
+      +
+      c\,\Psi_r[u(t)]^p
+      \le 0
+      \qquad\text{for some }p>0.
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal K_r[u(t)]
+      \le
+      -c'\,\mathcal K_r[u(t)]^{p/\beta}.
+      \]
+
+      So K r is nonincreasing. If blowup would force r[u(t)] , then (2) already rules it out, because the same quantity that would have to blow up is being driven monotonically downward.
+
+      \[
+      \mathcal K_r' \le C_{\mathrm{sf},28533} -\mathcal K_r;
+      \]
+
+      \[
+      \mathcal K_r' \le C_{\mathrm{sf},28537} -\mathcal K_r^\alpha,
+        \qquad \alpha>1;
+      \]
+
+      Even (7) is enough for nonincrease of the blowup quantity once the law is already coercive on that quantity.
+
+      The more realistic case is that one does not yet have a pure monotone law. Instead suppose
+
+      Then the real threshold is no longer " or not ." The real question is whether the negative drain dominates the surviving positive production for large roughness.
+
+      If p<m, the positive production wins at large scale, so the drain is not strong enough to force closure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed Enstrophy-Gradient Channel Result
+    line_start: 30041
+    line_end: 30073
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30041
+    start_anchor: "\\subsection{Mixed Enstrophy-Gradient Channel Result}\n"
+    end_anchor: "\\subsection{Mixed-Jet Across-Rung Feed Picture}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Mixed Enstrophy-Gradient Channel Result}
+
+      \[
+      \omega\in L^2_tL^2_x,
+      \qquad
+      \nabla\omega\in L^2_tL^2_x.
+      \]
+
+      The first is supplied by the baseline energy layer. The second is the enstrophy dissipation layer and is equivalent to a higher regularity continuation input.
+
+      \[
+      y(t)=\|\omega(t)\|_2^2,
+      \qquad
+      z(t)=\|\nabla\omega(t)\|_2^2.
+      \]
+
+      \[
+      y'(t)+\nu z(t)\le C y(t)^3.
+      \]
+
+      \[
+      y(t)=(T-t)^{-1/2},
+      qquad
+      z(t)=(T-t)^{-3/2}
+      \]
+
+      so the scalar enstrophy inequality and baseline energy layer do not close MEG.
+
+      This weak distribution bound cannot control either y 2 or yz . The same borderline profile realizes the failure.
+
+      The mixed enstrophy-gradient channel is equivalent, for this route, to an enstrophy barrier or another critical continuation estimate. It does not follow from the baseline energy layer.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed-Jet Across-Rung Feed Picture
+    line_start: 30074
+    line_end: 30120
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30074
+    start_anchor: "\\subsection{Mixed-Jet Across-Rung Feed Picture}\n"
+    end_anchor: "\\subsection{Mixed-Jet Cross-Rung Pairing Matrix}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Mixed-Jet Across-Rung Feed Picture}
+
+      The point is to separate what is already exact from what is still only hoped for.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \]
+
+      \[
+      \partial_t J_{m,\alpha}
+      +
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma\binom{\alpha}{\beta}
+      \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+      +
+      \nabla\Pi_{m,\alpha}
+      =
+      \nu\Delta J_{m,\alpha}.
+      \]
+
+      So what grows with depth is not just size. It is the number of interaction routes feeding the top rung.
+
+      \[
+      \langle (J_{m,\alpha}\cdot\nabla)u, J_{m,\alpha}\rangle,
+      \]
+
+      \[
+      (a,\beta),\qquad (m-a,\alpha-\beta)
+      \]
+
+      \[
+      J_{a,\beta}\otimes J_{m-a,\alpha-\beta}
+      +
+      J_{m-a,\alpha-\beta}\otimes J_{a,\beta}
+      \]
+
+      So unresolved lower defects are literally transported upward into higher defects.
+
+      There is not yet any proved nonlinear downward telescoping across different rungs.
+
+      But at present there is no theorem showing that when one sums over different rungs (m, ), these symmetric tensors telescope away.
+
+      So the tower behaves like an infinite lower-triangular feed network with one downward damping channel.
+
+      The weighted route was then an attempt to package the remaining coefficient remainder across the whole infinite feed network.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed-Jet Cross-Rung Pairing Matrix
+    line_start: 30121
+    line_end: 30155
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30121
+    start_anchor: "\\subsection{Mixed-Jet Cross-Rung Pairing Matrix}\n"
+    end_anchor: "\\subsection{Mixed-Jet Generating Field H s Energy}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Mixed-Jet Cross-Rung Pairing Matrix}
+
+      The point is that the familiar same-rung cancellations are only the diagonal shadow of a stronger matrix-level structure.
+
+      \[
+      A=(m,\alpha),
+      \qquad
+      B=(n,\gamma),
+      \]
+
+      \[
+      J_A:=J_{m,\alpha},
+      \qquad
+      J_B:=J_{n,\gamma}.
+      \]
+
+      \[
+      \partial_t J_A + (u\cdot\nabla)J_A + \widetilde T_A + \nabla \Pi_A = \nu\Delta J_A,
+      \]
+
+      \[
+      \partial_t J_B + (u\cdot\nabla)J_B + \widetilde T_B + \nabla \Pi_B = \nu\Delta J_B,
+      \]
+
+      \[
+      K_{A,B}(t):=\langle J_A(t),J_B(t)\rangle_{L^2_x}.
+      \]
+
+      So pressure does not only cancel on the diagonal. It cancels in every jet-vs-jet pairing.
+
+      So viscosity acts on the full cross-rung correlation matrix, not only on the diagonal energies.
+
+      So parity can help organize where the mixed source R A,B lands, but it does not by itself force those blocks to cancel.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed-Jet H s Quadratic Convolution Reduction
+    line_start: 30209
+    line_end: 30268
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30209
+    start_anchor: "\\subsection{Mixed-Jet H s Quadratic Convolution Reduction}\n"
+    end_anchor: "\\subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Mixed-Jet H s Quadratic Convolution Reduction}
+
+      The next exact step beyond the existing mixed-jet and exponential closure notes is the quadratic convolution reduction.
+
+      It does not prove global regularity. It proves that, once the full mixed-jet tower is measured in factorially weighted H s norms, the two nonlinear burdens
+
+      So the combinatorics do not create a new obstruction by themselves. The remaining burden is propagation of the weighted jet norm.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+      \]
+
+      \[
+      \partial_t J_{m,\alpha}
+      +
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma\binom{\alpha}{\beta}
+      \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+      +
+      \nabla\Pi_{m,\alpha}
+      =
+      \nu\Delta J_{m,\alpha},
+      \]
+
+      \[
+      -\Delta \Pi_{m,\alpha}
+      =
+      \partial_i\partial_j
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma\binom{\alpha}{\beta}
+      \big(J_{a,\beta}\big)_i\big(J_{m-a,\alpha-\beta}\big)_j.
+      \]
+
+      \[
+      \|fg\|_{H^s}\le C_s\|f\|_{H^s}\|g\|_{H^s}.
+      \]
+
+      \[
+      \|(f\cdot\nabla)g\|_{H^{s-1}}
+      \le
+      C_s\|f\|_{H^s}\|g\|_{H^s},
+      \]
+
+      So the full transport spread is bounded by the same binomial convolution that defines the tower.
+
+      So the pressure gradient satisfies the same quadratic convolution law as the transport spread.
+
+      Once the mixed-jet tower is measured with factorial weights, the binomial coefficients disappear algebraically.
+
+      At this level of description, the pressure gradient is not a second, independent nonlinear burden. It is controlled by the same quadratic convolution envelope as the transport spread.
+
+      For \(s>5/2\), this is exactly the Sobolev norm used in the classical continuation criterion, so boundedness of this norm extends the classical solution past \(T\).
+
+      Finiteness, invariance, and global propagation of A s( ,r) are not proved here.
+
+      This is a classical continuation norm for smooth three-dimensional Navier--Stokes. so any theorem that propagates a weighted mixed-jet norm A s( ,r) on [0,T) automatically yields contin
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization
+    line_start: 30269
+    line_end: 30321
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30269
+    start_anchor: "\\subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}\n"
+    end_anchor: "\\subsection{Mixed-Shell Bilinear Dissipation Identity}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}
+
+      The exact tower facts visible before factorial weights, generating fields, and weighted closure are the raw viscous extraction and pair symmetrization below.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+      \]
+
+      \[
+      \partial_t J_{m,\alpha}
+      +
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma \binom{\alpha}{\beta}
+      \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+      +
+      \nabla \Pi_{m,\alpha}
+      =
+      \nu\Delta J_{m,\alpha}.
+      \]
+
+      \[
+      \nabla\cdot J_{m,\alpha}=0.
+      \]
+
+      \[
+      \langle \nabla\Pi_{m,\alpha},J_{m,\alpha}\rangle=0,
+      \]
+
+      \[
+      \langle (u\cdot\nabla)J_{m,\alpha},J_{m,\alpha}\rangle=0,
+      \]
+
+      Fix one surviving mixed term I a, m, . Because J a, =0, integration by parts gives
+
+      So every individual mixed term surrenders one same-rung gradient to the viscous slot.
+
+      So the endpoint term is not a viscosity term at all. It is a same-rung energy term with coefficient given by the base strain.
+
+      These are the terms for which (12) is the natural raw estimate: one derivative goes to viscosity, and the rest becomes a coefficient product built from lower or split jets.
+
+      Now ask whether complementary split pairs cancel before any weights are introduced.
+
+      So the pair does not cancel in general. What it does is collapse to a symmetric strain-type coupling against the gradient of the top rung.
+
+      So there is real pre-weight structure, but it is symmetrization, not automatic annihilation.
+
+      The weighted/factorial route was introduced after this point, not instead of it. The reason for the weighted route was to organize the unresolved coefficient remainder across the entire infinite tower once the raw cancellations and raw viscous extraction had already been identified.
+
+      The remaining interior coefficient sum m, int is not proved to cancel across the full tower.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Mixed-Shell Bilinear Dissipation Identity
+    line_start: 30322
+    line_end: 30378
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30322
+    start_anchor: "\\subsection{Mixed-Shell Bilinear Dissipation Identity}\n"
+    end_anchor: "\\subsection{Modernized Four-Body Schema Under Torus / Tower / Deformation
+      Geometry}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Mixed-Shell Bilinear Dissipation Identity}
+
+      \[
+      E_m(t):=2^{2m}\|\Delta_m u(t)\|_{L_x^2}^2,
+      \qquad
+      D_m(t):=2^{4m}\|\Delta_m u(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      \partial_t E_m(t)+\nu D_m(t)=\mathcal N_m(t).
+      \]
+
+      The choice of M j, is forced by the desire to place the bilinear target K j, D jD directly on the dissipative side.
+
+      Multiply (1) for shell j by 2 2j K j, E , and (1) for shell by 2 2j K j, E j, then add. This yields
+
+      So the bilinear target no longer has to be guessed or reconstructed from positive tail convolutions: it sits directly on the left-hand side of an exact identity.
+
+      \[
+      \mathfrak M_N^\sigma(t)
+      :=
+      \sum_{N<j\le \ell}M_{j,\ell}^\sigma(t),
+      \]
+
+      \[
+      \mathfrak B_N^\sigma(t)
+      :=
+      \sum_{N<j\le \ell}
+      \bigl(1+2^{-2(\ell-j)}\bigr)K_{j,\ell}^\sigma D_j(t)D_\ell(t),
+      \]
+
+      \[
+      \mathfrak X_N^\sigma(t)
+      :=
+      \sum_{N<j\le \ell}
+      2^{(3+\sigma)j-\sigma\ell}\bigl(\mathcal N_j(t)E_\ell(t)+E_j(t)\mathcal N_\ell(t)\bigr).
+      \]
+
+      So strict and spill are no longer theorem-primary on the mixed-shell route: they feed only the mixed boundary functional M N and an absorbable fraction of B N .
+
+      The mixed boundary term is not a live theorem burden once the classical target class is fixed.
+
+      Because the theorem target uses smooth compactly supported divergence-free initial data, u 0 belongs to H s(R 3) for every s>0. Hence for each fixed s,
+
+      So the mixed boundary term is already barrier-sized on the classical target class.
+
+      The decisive new term is the lifted exchange block. For j< and j+M<k< -4, define the pairwise interaction
+
+      This is the first place where a new mixed-shell cancellation law could still live. If one passes to absolute values here, the factor E -E j is lost and the route collapses back to the positive carriers already known not to close.
+
+      The sign question for (17) has a sharper answer than expected: in the declared geometry the bare pairwise interaction vanishes before sign can matter.
+
+      So there is no remaining sign determination to perform for the bare I j;k, block on this rout
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Modernized Four-Body Schema Under Torus / Tower / Deformation
+      Geometry
+    line_start: 30379
+    line_end: 30450
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30379
+    start_anchor: "\\subsection{Modernized Four-Body Schema Under Torus / Tower /
+      Deformation Geometry}\n"
+    end_anchor: "\\subsection{Monotone Flux Law Active-Shell Pulse Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Modernized Four-Body Schema Under Torus / Tower / Deformation Geometry}
+
+      This schema is run on the torus branch in the current argument, so the torus is not merely a diagnostic lab. It is the chosen classical surface for the internal proving branch.
+
+      \[
+      \mathcal P_{\mathrm{cl}}(T)=
+      \bigl(
+      S_{\mathrm{cl}}(T),
+      Q_{\mathrm{cl}}(T),
+      C_{\mathrm{cl}}(T),
+      G_{\mathrm{cl}}(T)
+      \bigr)
+      \]
+
+      \[
+      S_{\mathrm{cl}}\to Q_{\mathrm{cl}},\qquad
+      (S_{\mathrm{cl}},Q_{\mathrm{cl}})\to C_{\mathrm{cl}},\qquad
+      C_{\mathrm{cl}}\to G_{\mathrm{cl}},\qquad
+      G_{\mathrm{cl}}\to S_{\mathrm{cl}}.
+      \]
+
+      \[
+      \mathcal P_{\mathrm{mod}}(T)
+      :=
+      \bigl(
+      S_{\mathrm{tail}}(T),
+      Q_{\mathrm{drain}}(T),
+      C_{\mathrm{exact}}(T),
+      G_{\mathrm{geo}}(T);
+      \mathcal E_{\mathrm{live}}^{(n)}(T)
+      \bigr),
+      \]
+
+      S tail (T) is the Body I scale-and-derivative-depth barrier, seen through dyadic tails E N,D N and tower tails T R, S r; Q drain (T) is the Body II drain record, either in Eulerian shadow form ( K r Eul , D r Eul , F r Eul ) or in primary deformation form ( K r Lag , D r Lag , C r Lag ); C exact (T) is the Body III exact-object-production packet, classically u (n) u and u (n) u (n) u u; G geo (T) is the Body IV geometry-evolving heat packet on (v,G); E live (n) (T) is the currently exposed survivor / defect carrier being passed around the loop.
+
+      \[
+      \boxed{
+      \bigl(\mathcal P_{\mathrm{mod}}(T),\mathcal E_{\mathrm{live}}^{(n)}(T)\bigr)
+      \Longrightarrow
+      \bigl(\mathcal P_{\mathrm{mod}}(T^+),\mathcal E_{\mathrm{live}}^{(n+1)}(T^+)\bigr),
+      }
+      \]
+
+      \[
+      \mathcal E_{\mathrm{live}}^{(n)}
+         \rightsquigarrow
+         \mathcal F_r^{\mathrm{Eul}}
+         \quad\text{or deeper}\quad
+         \mathcal C_r^{\mathrm{Lag}}.
+      \]
+
+      That literal relay was present in the old packet, and it remains mandatory in the upgraded one.
+
+      At the present route state, that replacement has not yet been proved. So the tails still survive, but in a much narrower role than before.
+
+      This is still the monotonicity / coercive-energy body. The update is about language, not body reassignment
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Minimum Drain-Rate Threshold Note}
+
+    What is required is a one-sided drain law that is coercive on the blowup-driving roughness quantity.
+
+    \[
+    \mathcal K_r[u]\sfcomp{28523} \Psi_r[u]^\beta
+    \qquad\text{for some }\beta>0,
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal K_r[u(t)]
+    +
+    c\,\Psi_r[u(t)]^p
+    \le 0
+    \qquad\text{for some }p>0.
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal K_r[u(t)]
+    \le
+    -c'\,\mathcal K_r[u(t)]^{p/\beta}.
+    \]
+
+    So K r is nonincreasing. If blowup would force r[u(t)] , then (2) already rules it out, because the same quantity that would have to blow up is being driven monotonically downward.
+
+    \[
+    \mathcal K_r' \le C_{\mathrm{sf},28533} -\mathcal K_r;
+    \]
+
+    \[
+    \mathcal K_r' \le C_{\mathrm{sf},28537} -\mathcal K_r^\alpha,
+      \qquad \alpha>1;
+    \]
+
+    Even (7) is enough for nonincrease of the blowup quantity once the law is already coercive on that quantity.
+
+    The more realistic case is that one does not yet have a pure monotone law. Instead suppose
+
+    Then the real threshold is no longer " or not ." The real question is whether the negative drain dominates the surviving positive production for large roughness.
+
+    If p<m, the positive production wins at large scale, so the drain is not strong enough to force closure.
+
+
+
+    \subsection{Mixed Enstrophy-Gradient Channel Result}
+
+    \[
+    \omega\in L^2_tL^2_x,
+    \qquad
+    \nabla\omega\in L^2_tL^2_x.
+    \]
+
+    The first is supplied by the baseline energy layer. The second is the enstrophy dissipation layer and is equivalent to a higher regularity continuation input.
+
+    \[
+    y(t)=\|\omega(t)\|_2^2,
+    \qquad
+    z(t)=\|\nabla\omega(t)\|_2^2.
+    \]
+
+    \[
+    y'(t)+\nu z(t)\le C y(t)^3.
+    \]
+
+    \[
+    y(t)=(T-t)^{-1/2},
+    qquad
+    z(t)=(T-t)^{-3/2}
+    \]
+
+    so the scalar enstrophy inequality and baseline energy layer do not close MEG.
+
+    This weak distribution bound cannot control either y 2 or yz . The same borderline profile realizes the failure.
+
+    The mixed enstrophy-gradient channel is equivalent, for this route, to an enstrophy barrier or another critical continuation estimate. It does not follow from the baseline energy layer.
+
+
+
+    \subsection{Mixed-Jet Across-Rung Feed Picture}
+
+    The point is to separate what is already exact from what is still only hoped for.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \]
+
+    \[
+    \partial_t J_{m,\alpha}
+    +
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma\binom{\alpha}{\beta}
+    \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+    +
+    \nabla\Pi_{m,\alpha}
+    =
+    \nu\Delta J_{m,\alpha}.
+    \]
+
+    So what grows with depth is not just size. It is the number of interaction routes feeding the top rung.
+
+    \[
+    \langle (J_{m,\alpha}\cdot\nabla)u, J_{m,\alpha}\rangle,
+    \]
+
+    \[
+    (a,\beta),\qquad (m-a,\alpha-\beta)
+    \]
+
+    \[
+    J_{a,\beta}\otimes J_{m-a,\alpha-\beta}
+    +
+    J_{m-a,\alpha-\beta}\otimes J_{a,\beta}
+    \]
+
+    So unresolved lower defects are literally transported upward into higher defects.
+
+    There is not yet any proved nonlinear downward telescoping across different rungs.
+
+    But at present there is no theorem showing that when one sums over different rungs (m, ), these symmetric tensors telescope away.
+
+    So the tower behaves like an infinite lower-triangular feed network with one downward damping channel.
+
+    The weighted route was then an attempt to package the remaining coefficient remainder across the whole infinite feed network.
+
+
+
+    \subsection{Mixed-Jet Cross-Rung Pairing Matrix}
+
+    The point is that the familiar same-rung cancellations are only the diagonal shadow of a stronger matrix-level structure.
+
+    \[
+    A=(m,\alpha),
+    \qquad
+    B=(n,\gamma),
+    \]
+
+    \[
+    J_A:=J_{m,\alpha},
+    \qquad
+    J_B:=J_{n,\gamma}.
+    \]
+
+    \[
+    \partial_t J_A + (u\cdot\nabla)J_A + \widetilde T_A + \nabla \Pi_A = \nu\Delta J_A,
+    \]
+
+    \[
+    \partial_t J_B + (u\cdot\nabla)J_B + \widetilde T_B + \nabla \Pi_B = \nu\Delta J_B,
+    \]
+
+    \[
+    K_{A,B}(t):=\langle J_A(t),J_B(t)\rangle_{L^2_x}.
+    \]
+
+    So pressure does not only cancel on the diagonal. It cancels in every jet-vs-jet pairing.
+
+    So viscosity acts on the full cross-rung correlation matrix, not only on the diagonal energies.
+
+    So parity can help organize where the mixed source R A,B lands, but it does not by itself force those blocks to cancel.
+
+
+
+    \subsection{Mixed-Jet H s Quadratic Convolution Reduction}
+
+    The next exact step beyond the existing mixed-jet and exponential closure notes is the quadratic convolution reduction.
+
+    It does not prove global regularity. It proves that, once the full mixed-jet tower is measured in factorially weighted H s norms, the two nonlinear burdens
+
+    So the combinatorics do not create a new obstruction by themselves. The remaining burden is propagation of the weighted jet norm.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+    \]
+
+    \[
+    \partial_t J_{m,\alpha}
+    +
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma\binom{\alpha}{\beta}
+    \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+    +
+    \nabla\Pi_{m,\alpha}
+    =
+    \nu\Delta J_{m,\alpha},
+    \]
+
+    \[
+    -\Delta \Pi_{m,\alpha}
+    =
+    \partial_i\partial_j
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma\binom{\alpha}{\beta}
+    \big(J_{a,\beta}\big)_i\big(J_{m-a,\alpha-\beta}\big)_j.
+    \]
+
+    \[
+    \|fg\|_{H^s}\le C_s\|f\|_{H^s}\|g\|_{H^s}.
+    \]
+
+    \[
+    \|(f\cdot\nabla)g\|_{H^{s-1}}
+    \le
+    C_s\|f\|_{H^s}\|g\|_{H^s},
+    \]
+
+    So the full transport spread is bounded by the same binomial convolution that defines the tower.
+
+    So the pressure gradient satisfies the same quadratic convolution law as the transport spread.
+
+    Once the mixed-jet tower is measured with factorial weights, the binomial coefficients disappear algebraically.
+
+    At this level of description, the pressure gradient is not a second, independent nonlinear burden. It is controlled by the same quadratic convolution envelope as the transport spread.
+
+    For \(s>5/2\), this is exactly the Sobolev norm used in the classical continuation criterion, so boundedness of this norm extends the classical solution past \(T\).
+
+    Finiteness, invariance, and global propagation of A s( ,r) are not proved here.
+
+    This is a classical continuation norm for smooth three-dimensional Navier--Stokes. so any theorem that propagates a weighted mixed-jet norm A s( ,r) on [0,T) automatically yields continuation of the classical solution past T.
+
+
+
+    \subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}
+
+    The exact tower facts visible before factorial weights, generating fields, and weighted closure are the raw viscous extraction and pair symmetrization below.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+    \]
+
+    \[
+    \partial_t J_{m,\alpha}
+    +
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma \binom{\alpha}{\beta}
+    \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}
+    +
+    \nabla \Pi_{m,\alpha}
+    =
+    \nu\Delta J_{m,\alpha}.
+    \]
+
+    \[
+    \nabla\cdot J_{m,\alpha}=0.
+    \]
+
+    \[
+    \langle \nabla\Pi_{m,\alpha},J_{m,\alpha}\rangle=0,
+    \]
+
+    \[
+    \langle (u\cdot\nabla)J_{m,\alpha},J_{m,\alpha}\rangle=0,
+    \]
+
+    Fix one surviving mixed term I a, m, . Because J a, =0, integration by parts gives
+
+    So every individual mixed term surrenders one same-rung gradient to the viscous slot.
+
+    So the endpoint term is not a viscosity term at all. It is a same-rung energy term with coefficient given by the base strain.
+
+    These are the terms for which (12) is the natural raw estimate: one derivative goes to viscosity, and the rest becomes a coefficient product built from lower or split jets.
+
+    Now ask whether complementary split pairs cancel before any weights are introduced.
+
+    So the pair does not cancel in general. What it does is collapse to a symmetric strain-type coupling against the gradient of the top rung.
+
+    So there is real pre-weight structure, but it is symmetrization, not automatic annihilation.
+
+    The weighted/factorial route was introduced after this point, not instead of it. The reason for the weighted route was to organize the unresolved coefficient remainder across the entire infinite tower once the raw cancellations and raw viscous extraction had already been identified.
+
+    The remaining interior coefficient sum m, int is not proved to cancel across the full tower.
+
+
+
+    \subsection{Mixed-Shell Bilinear Dissipation Identity}
+
+    \[
+    E_m(t):=2^{2m}\|\Delta_m u(t)\|_{L_x^2}^2,
+    \qquad
+    D_m(t):=2^{4m}\|\Delta_m u(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    \partial_t E_m(t)+\nu D_m(t)=\mathcal N_m(t).
+    \]
+
+    The choice of M j, is forced by the desire to place the bilinear target K j, D jD directly on the dissipative side.
+
+    Multiply (1) for shell j by 2 2j K j, E , and (1) for shell by 2 2j K j, E j, then add. This yields
+
+    So the bilinear target no longer has to be guessed or reconstructed from positive tail convolutions: it sits directly on the left-hand side of an exact identity.
+
+    \[
+    \mathfrak M_N^\sigma(t)
+    :=
+    \sum_{N<j\le \ell}M_{j,\ell}^\sigma(t),
+    \]
+
+    \[
+    \mathfrak B_N^\sigma(t)
+    :=
+    \sum_{N<j\le \ell}
+    \bigl(1+2^{-2(\ell-j)}\bigr)K_{j,\ell}^\sigma D_j(t)D_\ell(t),
+    \]
+
+    \[
+    \mathfrak X_N^\sigma(t)
+    :=
+    \sum_{N<j\le \ell}
+    2^{(3+\sigma)j-\sigma\ell}\bigl(\mathcal N_j(t)E_\ell(t)+E_j(t)\mathcal N_\ell(t)\bigr).
+    \]
+
+    So strict and spill are no longer theorem-primary on the mixed-shell route: they feed only the mixed boundary functional M N and an absorbable fraction of B N .
+
+    The mixed boundary term is not a live theorem burden once the classical target class is fixed.
+
+    Because the theorem target uses smooth compactly supported divergence-free initial data, u 0 belongs to H s(R 3) for every s>0. Hence for each fixed s,
+
+    So the mixed boundary term is already barrier-sized on the classical target class.
+
+    The decisive new term is the lifted exchange block. For j< and j+M<k< -4, define the pairwise interaction
+
+    This is the first place where a new mixed-shell cancellation law could still live. If one passes to absolute values here, the factor E -E j is lost and the route collapses back to the positive carriers already known not to close.
+
+    The sign question for (17) has a sharper answer than expected: in the declared geometry the bare pairwise interaction vanishes before sign can matter.
+
+    So there is no remaining sign determination to perform for the bare I j;k, block on this route. Any genuinely nontrivial signed theorem would have to live on a commutatorized lifted remainder, not on the bare off-diagonal shell exchange itself.
+
+    The residual high-high packet is also no longer theorem-primary on the mixed-shell route.
+
+
+
+    \subsection{Modernized Four-Body Schema Under Torus / Tower / Deformation Geometry}
+
+    This schema is run on the torus branch in the current argument, so the torus is not merely a diagnostic lab. It is the chosen classical surface for the internal proving branch.
+
+    \[
+    \mathcal P_{\mathrm{cl}}(T)=
+    \bigl(
+    S_{\mathrm{cl}}(T),
+    Q_{\mathrm{cl}}(T),
+    C_{\mathrm{cl}}(T),
+    G_{\mathrm{cl}}(T)
+    \bigr)
+    \]
+
+    \[
+    S_{\mathrm{cl}}\to Q_{\mathrm{cl}},\qquad
+    (S_{\mathrm{cl}},Q_{\mathrm{cl}})\to C_{\mathrm{cl}},\qquad
+    C_{\mathrm{cl}}\to G_{\mathrm{cl}},\qquad
+    G_{\mathrm{cl}}\to S_{\mathrm{cl}}.
+    \]
+
+    \[
+    \mathcal P_{\mathrm{mod}}(T)
+    :=
+    \bigl(
+    S_{\mathrm{tail}}(T),
+    Q_{\mathrm{drain}}(T),
+    C_{\mathrm{exact}}(T),
+    G_{\mathrm{geo}}(T);
+    \mathcal E_{\mathrm{live}}^{(n)}(T)
+    \bigr),
+    \]
+
+    S tail (T) is the Body I scale-and-derivative-depth barrier, seen through dyadic tails E N,D N and tower tails T R, S r; Q drain (T) is the Body II drain record, either in Eulerian shadow form ( K r Eul , D r Eul , F r Eul ) or in primary deformation form ( K r Lag , D r Lag , C r Lag ); C exact (T) is the Body III exact-object-production packet, classically u (n) u and u (n) u (n) u u; G geo (T) is the Body IV geometry-evolving heat packet on (v,G); E live (n) (T) is the currently exposed survivor / defect carrier being passed around the loop.
+
+    \[
+    \boxed{
+    \bigl(\mathcal P_{\mathrm{mod}}(T),\mathcal E_{\mathrm{live}}^{(n)}(T)\bigr)
+    \Longrightarrow
+    \bigl(\mathcal P_{\mathrm{mod}}(T^+),\mathcal E_{\mathrm{live}}^{(n+1)}(T^+)\bigr),
+    }
+    \]
+
+    \[
+    \mathcal E_{\mathrm{live}}^{(n)}
+       \rightsquigarrow
+       \mathcal F_r^{\mathrm{Eul}}
+       \quad\text{or deeper}\quad
+       \mathcal C_r^{\mathrm{Lag}}.
+    \]
+
+    That literal relay was present in the old packet, and it remains mandatory in the upgraded one.
+
+    At the present route state, that replacement has not yet been proved. So the tails still survive, but in a much narrower role than before.
+
+    This is still the monotonicity / coercive-energy body. The update is about language, not body reassignment.
+
+    Equivalently, Body II is the place where one asks whether the full NS dynamics behave like a gradient flow after choosing the correct functional and variables.
+
+    Compactness so remains theorem-primary for the source-faithful four-body packet. The shadow theorem is a modern parallel surface, not a body swap.
+
+    Body IV was the curvature-based regularity bridge, historically using positive Ricci geometry.
+
+    The torus/carrier tail barrier gives the setting in which a coercive drain law can even be formulated without runaway nonpersistent leakage.
+
+    Once the primary coercive law is in place, Body III must still produce the exact classical object on the same chosen classical surface.
+
+    On the classical route this is compactness / exact nonlinear closure. On the projected-flow route this is the parallel D.3 shadow/descent theorem.
+
+    The exact classical field is then fed into the modernized fourth bridge: ideally the deformation-geometry regularity bridge, rather than the old Ricci-only mechanism.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Minimum Drain-Rate Threshold Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29998
+  line_start: 29998
+  line_end: 30040
+  start_anchor: "\\subsection{Minimum Drain-Rate Threshold Note}\n"
+  end_anchor: "\\subsection{Mixed Enstrophy-Gradient Channel Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Minimum Drain-Rate Threshold
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29998
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed Enstrophy-Gradient Channel Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30041
+  line_start: 30041
+  line_end: 30073
+  start_anchor: "\\subsection{Mixed Enstrophy-Gradient Channel Result}\n"
+  end_anchor: "\\subsection{Mixed-Jet Across-Rung Feed Picture}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed Enstrophy-Gradient Channel
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30041
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed-Jet Across-Rung Feed Picture
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30074
+  line_start: 30074
+  line_end: 30120
+  start_anchor: "\\subsection{Mixed-Jet Across-Rung Feed Picture}\n"
+  end_anchor: "\\subsection{Mixed-Jet Cross-Rung Pairing Matrix}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed-Jet Across-Rung Feed Picture
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30074
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed-Jet Cross-Rung Pairing Matrix
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30121
+  line_start: 30121
+  line_end: 30155
+  start_anchor: "\\subsection{Mixed-Jet Cross-Rung Pairing Matrix}\n"
+  end_anchor: "\\subsection{Mixed-Jet Generating Field H s Energy}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed-Jet Cross-Rung Pairing
+    Matrix as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30121
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed-Jet H s Quadratic Convolution Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30209
+  line_start: 30209
+  line_end: 30268
+  start_anchor: "\\subsection{Mixed-Jet H s Quadratic Convolution Reduction}\n"
+  end_anchor: "\\subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed-Jet H s Quadratic Convolution
+    Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30209
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30269
+  line_start: 30269
+  line_end: 30321
+  start_anchor: "\\subsection{Mixed-Jet Preweight Viscous Extraction And Pair Symmetrization}\n"
+  end_anchor: "\\subsection{Mixed-Shell Bilinear Dissipation Identity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed-Jet Preweight Viscous Extraction
+    And Pair Symmetrization as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30269
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Mixed-Shell Bilinear Dissipation Identity
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30322
+  line_start: 30322
+  line_end: 30378
+  start_anchor: "\\subsection{Mixed-Shell Bilinear Dissipation Identity}\n"
+  end_anchor: "\\subsection{Modernized Four-Body Schema Under Torus / Tower / Deformation
+    Geometry}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Mixed-Shell Bilinear Dissipation
+    Identity as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30322
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Modernized Four-Body Schema Under Torus / Tower / Deformation
+    Geometry
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30379
+  line_start: 30379
+  line_end: 30450
+  start_anchor: "\\subsection{Modernized Four-Body Schema Under Torus / Tower / Deformation
+    Geometry}\n"
+  end_anchor: "\\subsection{Monotone Flux Law Active-Shell Pulse Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Modernized Four-Body Schema Under
+    Torus / Tower / Deformation Geometry as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30379
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-52
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-52.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

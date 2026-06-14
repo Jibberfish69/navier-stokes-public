@@ -85,15 +85,23 @@ up to the accepted legal losses.
 
 ## Attempted Hardy Reduction
 
-For nonnegative shell densities `D_\ell(t)`, the dyadic Hardy expansion gives a
-pointwise equivalence, up to harmless index shifts:
+For nonnegative shell densities `D_\ell(t)`, the dyadic Hardy expansion gives
+the following fixed-shift pointwise comparison for an integer `L_0` determined
+by the dyadic overlap:
 
 ```math
+c_H
+\sum_{\ell>N+L_0}2^\ell D_\ell(t)
+\left(
+\sum_{m>\ell+L_0}D_m(t)
+\right)
+\le
 \sum_{k>N}2^kT_k(t)^2
-\simeq
+\le
+C_H
 \sum_{\ell>N}2^\ell D_\ell(t)
 \left(
-\sum_{m>\ell+O(1)}D_m(t)
+\sum_{m>\ell+L_0}D_m(t)
 \right).
 \tag{H1}
 ```
@@ -123,7 +131,7 @@ scale-critical active-window height bound
 H_N(t):=
 \sup_{\ell>N}
 2^\ell
-\sum_{m>\ell+O(1)}D_m(t)
+\sum_{m>\ell+L_0}D_m(t)
 \le C_{legal}
 \tag{H2}
 ```
@@ -132,7 +140,7 @@ on the terminal active forest, because then
 
 ```math
 \sum_{k>N}2^kT_k(t)^2
-\lesssim
+\le C_H
 H_N(t)\sum_{\ell>N}D_\ell(t)
 \le
 C_{legal}\sum_{\ell>N}D_\ell(t).
@@ -168,7 +176,7 @@ They give `(E1)` and packet-local boundedness on fixed preterminal windows.
 They do not give a uniform terminal bound for
 
 ```math
-2^\ell\sum_{m>\ell+O(1)}D_m(t)
+2^\ell\sum_{m>\ell+L_0}D_m(t)
 ```
 
 as `\ell\to\infty` and `t\uparrow T_*`.
@@ -242,7 +250,7 @@ But the `k=m` contribution to `(STC)` is
 Choosing terminal heat windows with
 
 ```math
-h_m\lesssim 2^mA_m^2
+h_m:=2^mA_m^2
 ```
 
 keeps this contribution order one while `A_m\to0`.  This does not assert an
@@ -253,7 +261,7 @@ active pulses.
 Equivalently, for this pulse
 
 ```math
-H_N(t)\sim 2^mA_mh_m^{-1}
+H_{N,\mathrm{model}}(t):=2^mA_mh_m^{-1}
 ```
 
 on `I_m`, so the exact missing input is the active-window height / amplitude
@@ -279,13 +287,22 @@ The strongest valid theorem-facing reduction is:
 
 ```math
 \boxed{
+c_H
+\int_I
+\sum_{\ell>N+L_0}D_\ell(t)
+\left[
+2^\ell
+\sum_{m>\ell+L_0}D_m(t)
+\right]dt
+\le
 \int_I\sum_{k>N}2^kT_k(t)^2dt
-\simeq
+\le
+C_H
 \int_I
 \sum_{\ell>N}D_\ell(t)
 \left[
 2^\ell
-\sum_{m>\ell+O(1)}D_m(t)
+\sum_{m>\ell+L_0}D_m(t)
 \right]dt.
 }
 ```
@@ -302,7 +319,7 @@ So the exact remaining obstruction is:
 \boxed{
 \text{control the scale-critical active-window donor-tail height}
 \quad
-2^\ell\sum_{m>\ell+O(1)}D_m(t)
+2^\ell\sum_{m>\ell+L_0}D_m(t)
 \quad
 \text{on terminal high-shell windows.}
 }

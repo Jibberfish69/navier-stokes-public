@@ -41,7 +41,7 @@ On a short smooth interval,
 
 ```math
 \int_I |F_j(t;Au_0)|^2\,dt
-\gtrsim |I|A^6|F_j(0;u_0)|^2.
+\ge c_F |I|A^6|F_j(0;u_0)|^2.
 ```
 
 The proposed right-hand side is independent of `A` at fixed shell.  Therefore
@@ -80,4 +80,3 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 The square-source branch cannot eliminate `Jump_avg` unless the source-pulse
 normalization theorem is proved first.
-

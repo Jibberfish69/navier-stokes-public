@@ -37,7 +37,8 @@ Thus
 \le C_M2^{-N}D_{N-M}(t),
 ```
 
-with the harmless shifted tail. On the common tail surface this yields the schematic bound
+with the harmless shifted tail. On the common tail surface this yields the
+constant-bound form
 
 ```math
 \Theta_N^\sharp(t)E_N(t)

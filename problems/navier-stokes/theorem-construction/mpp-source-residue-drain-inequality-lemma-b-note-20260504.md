@@ -143,7 +143,7 @@ positive part is
 
 ```math
 F^{strain}
-\sim
+:=
 \langle S_ku_j,u_j\rangle_+.
 ```
 

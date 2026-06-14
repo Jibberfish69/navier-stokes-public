@@ -1,0 +1,1117 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-02
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-02
+  sequence: 27
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 2
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 1910
+  line_end: 4707
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1910
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2491
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2644
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2662
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3132
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3227
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3349
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4623
+  subsection_titles:
+  - Cascade-To-Scale-Barrier Bridge Lemma
+  - Coherent High-Collar Coefficient Tail Result
+  - Collar Product Closure Conditional On LPAS/FC Tail Reserve
+  - Collar Remainder Lower-Order Estimate Result
+  - Coupled Lifted-Band Gain Target
+  - Cross-Scale Decorrelation Theorem
+  - Curvature-To-Scale Feedback Bridge
+  - 'Theorem HFG: Dyadic High-Frequency Gain Frontier'
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Cascade-To-Scale-Barrier Bridge Lemma
+    line_start: 1910
+    line_end: 1949
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1910
+    start_anchor: "\\subsection{Cascade-To-Scale-Barrier Bridge Lemma}\n"
+    end_anchor: "\\subsection{Euclidean Same-Surface Warrant Carrier}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Cascade-To-Scale-Barrier Bridge Lemma}
+
+      This lemma names the first Euclidean supplier estimate after the manuscript
+      diagnoses a high-shell cascade obstruction.  The estimate is open.  Its role is
+      to say exactly what the unmodified classical equation still needs to give the
+      forward-positive route usable high-frequency control.
+
+      Suppose the remaining singularity mechanism is transfer of energy or enstrophy
+      into arbitrarily high dyadic shells.  Write \(P_j\) for the Littlewood--Paley
+      shell and let \(N\) be a high-frequency cutoff.  The needed same-surface
+      estimate has the form
+      \[
+      \int_0^T
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      P_j((u\cdot\nabla)u),-\Delta P_j u
+      \right\rangle
+      \right|\,dt
+      \le
+      \eta
+      \int_0^T D_{\ge N}(t)\,dt
+        + R_N(T),
+      \]
+      where \(D_{\ge N}\) is the high-frequency dissipation tail,
+      \(\eta<1\), and \(R_N(T)\to0\) as \(N\to\infty\) on the same classical
+      approximation surface.
+
+      The left side is the high-shell transport contribution.  The first term on the
+      right is small enough to be absorbed by the dissipation tail.  The remainder
+      vanishes as the cutoff moves upward.  This is the precise bridge from cascade
+      diagnosis to scale-barrier control.
+
+      Energy and enstrophy supply the background budgets.  The displayed
+      absorbable-plus-summable high-shell estimate is the missing forward-positive
+      payment.  In the silver layer, a failure of this estimate becomes proof material
+      only after the manuscript selects the same terminal record and lands the
+      resulting residue at Pack, Part, Field, or readout.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Coherent High-Collar Coefficient Tail Result
+    line_start: 2491
+    line_end: 2545
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2491
+    start_anchor: "\\subsection{Coherent High-Collar Coefficient Tail Result}\n"
+    end_anchor: "\\subsection{Coherent-Laplacian Zero-Mode Obstruction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Coherent High-Collar Coefficient Tail Result}
+
+      Fix the active dyadic scale \(j\), the collar width \(M\), and the coherent
+      projector fattening \(A\).  The coefficient-tail estimate uses
+
+      \[
+      \alpha_T=C_A(C_s\kappa_T+
+      \kappa_R),
+      \qquad
+      \beta_T=C_A.
+      \]
+
+      The constants depend on the fixed selector geometry, readout Sobolev comparison,
+      and probe-collar constants.
+
+      \[
+      R_{j,A,M}:=P_{>j-M}P_{\le j+A}.
+      \]
+
+      \[
+      \|R_{j,A,M}f\|_{L_x^\infty}
+      \le C_{A,M}\|f\|_{L_x^\infty}.
+      \]
+
+      With smooth Littlewood--Paley cutoffs, the symbol of \(R_{j,A,M}\) is supported
+      in the finite annulus
+
+      \[
+      2^{j-M}\le C_{\mathrm{sf},2443} |\xi|\le C_{\mathrm{sf},2443} 2^{j+A}.
+      \]
+
+      \[
+      K_{j,A,M}(x)=2^{3j}K_{A,M}(2^jx).
+      \]
+
+      This scaling gives the displayed \(L^\infty\) bound for the fixed-fattened
+      projector \(P_{\le j+A}\).  The finite-collar multiplier proof is the active
+      support branch.
+
+      Fixed-fattened leakage means that the frequencies between \(j-M\) and \(j+A\)
+      are included in the finite annulus multiplier \(R_{j,A,M}\).
+
+      The collar multiplier costs one explicit factor \(2^j\), matching the amplitude
+      scale \(2^j\) from the selector strain proof.
+
+      The lower-order readout term \(E_D(X)\) stays explicit and enters the collar
+      estimate as the permitted lower-order contribution.
+
+      This result completes the coefficient side of the low-pass commutator collar
+      chain under the already stated selector-persistent transport hypotheses.  It
+      carries the amplitude estimate exported by the selector-localized coherent
+      strain result and leaves any independent smallness source to the surrounding
+      closure route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Collar Product Closure Conditional On LPAS/FC Tail Reserve
+    line_start: 2644
+    line_end: 2661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2644
+    start_anchor: "\\subsection{Collar Product Closure Conditional On LPAS/FC Tail
+      Reserve}\n"
+    end_anchor: "\\subsection{Collar Remainder Lower-Order Estimate Result}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Collar Product Closure Conditional On LPAS/FC Tail Reserve}
+
+      \[
+      \Theta_N^\sharp E_N
+      \le
+      \varepsilon\nu D_N+C_\varepsilon2^{-2N}E_N^2.
+      \]
+
+      This estimate is the reserve needed by the low-mode product route.  Its proof
+      duty is narrow: LPAS/FC, or an equivalent theorem on the same declared surface,
+      must supply the active far-corona tail reserve \(2^{-2N}E_N^2\).
+
+      Before that payment is available, this subsection is a dependency record.  It
+      marks exactly where the collar product argument will draw its reserve, and it
+      keeps the proof status short of gold certification, silver closure, or any
+      Clay-facing finality claim.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Collar Remainder Lower-Order Estimate Result
+    line_start: 2662
+    line_end: 2710
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2662
+    start_anchor: "\\subsection{Collar Remainder Lower-Order Estimate Result}\n"
+    end_anchor: "\\subsection{Theorem C3 (Euclidean Combined Closure Sufficiency Packet)}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Collar Remainder Lower-Order Estimate Result}
+
+      The lower-order collar remainder estimate lives on the readout-compatible
+      carrier surface.  Two inputs feed the estimate: the
+      noncoherent low-mode readout estimate, and the coherent transport bound on
+      \(u_{\mathrm{coh}}\).
+
+      The estimate is a smooth-multiplier commutator bound.  The coherent strain
+      coefficient is controlled at the active shell scale.  The proof can use spectral
+      alignment plus \(H_D^s\) tail decay, or the special case in which the coherent
+      selector carries only subthreshold readout.
+
+      The preliminary four-term bound is
+
+      \[
+      \|\nabla R^{collar}_{i,j}[X;Y]\|_\infty
+      \le
+      4\varepsilon\nu2^{2j}\|Y\|_{H_D^s}+4C_\varepsilon\Phi(\mathcal E_D(X)).
+      \]
+
+      After renormalizing constants, the usable form is
+
+      \[
+      \|\nabla R^{collar}_{i,j}[X;Y]\|_\infty
+      \le
+      \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+      \]
+
+      The proof takes one spatial derivative of the four-term expression for
+      \(R^{\mathrm{collar}}_{i,j}\) and then uses the triangle inequality.  The four
+      terms are charged separately, so the reader can see which payment carries which
+      piece of the remainder:
+
+      \[
+      \begin{array}{ll}
+      \mathrm{C1} & \text{local readout residue},\\[2pt]
+      \mathrm{C2} & \text{noncoherent low-mode contribution},\\[2pt]
+      \mathrm{C3} & \text{low-pass collar commutator},\\[2pt]
+      \mathrm{C4} & \text{coherent high-tail contribution}.
+      \end{array}
+      \]
+
+      When all four payments are present, the collar assembly has a complete
+      lower-order reserve.  In the current proof state, C3 is the shortest named payment
+      needing theorem-grade expansion.  Its job is to control the low-pass commutator
+      collar at the active coherent low-mode strain scale and make the commutator
+      payment visible on the page.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Coupled Lifted-Band Gain Target
+    line_start: 3132
+    line_end: 3175
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3132
+    start_anchor: "\\subsection{Coupled Lifted-Band Gain Target}\n"
+    end_anchor: "\\subsection{Cross-Rung Matrix Under YM Heat Shadow Bridge}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Coupled Lifted-Band Gain Target}
+
+      After swapping the kernelized lifted-band sums, the lower shell \(k\) is paired
+      with an upper-tail dissipation convolution.  The object to control is the paired
+      lower-shell/upper-tail carrier
+
+      \[
+      \sum_{k>N+M}
+      2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\,
+      \mathcal D_k^\uparrow(t),
+      \]
+
+      \[
+      \mathcal D_k^\uparrow(t)
+      :=
+      \sum_{j>k+4}
+      2^{-\sigma(j-k)}D_j(t).
+      \]
+
+      Here
+      \[
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2
+      \]
+      is the high-shell dissipation weight, and \(2^{-\sigma(j-k)}\) is the
+      spectral-gap kernel already present in the packet algebra.
+
+      The missing theorem is a coupled theorem.  It controls the lower-shell gain when
+      that gain is tested against the upper-tail dissipation carrier:
+
+      \[
+      2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\le a_k(t),
+      \]
+
+      with \(a_k(t)\) usable only through the paired sum
+      \[
+      \sum_{k>N+M} a_k(t)\,\mathcal D_k^\uparrow(t).
+      \]
+
+      This target is an intermediate reduction upstream of MSI.  Its job is to control
+      the lower-shell coefficient inside the exact pairing generated by the
+      lifted-band packet.  A standalone shellwise high-gain estimate would be stronger
+      than the packet asks for.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Cross-Scale Decorrelation Theorem
+    line_start: 3227
+    line_end: 3277
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3227
+    start_anchor: "\\subsection{Cross-Scale Decorrelation Theorem}\n"
+    end_anchor: "\\subsection{Mediating Object: Curvature-Based Gradient Bridge Discharge}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Cross-Scale Decorrelation Theorem}
+
+      This is an active branch candidate for the upper-tail reductions.  Its purpose
+      is to attack the cross-scale bilinear interaction directly, at the point where
+      the one-sided SDS queue leaves a summed shell-exchange burden.
+
+      The intended claim allows shell transfer and shell alignment.  It asks for a
+      quantitative dissonant part as well: enough misalignment across separated
+      scales to rule out fully coherent worst-case cross-scale growth.
+
+      \[
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \mathfrak B_N^\sigma(t)
+      :=
+      \sum_{\substack{j\le \ell\\ j>N+M+4}}
+      2^{(1+\sigma)j-\sigma\ell}\,D_j(t)\,D_\ell(t).
+      \]
+
+      The quantity \(\mathfrak B_N^\sigma(t)\) is the cross-scale reinforcement
+      object produced by the current upper-tail reductions.  A successful
+      decorrelation theorem would dominate this reinforcement by same-scale activity
+      plus a controlled gap defect.
+
+      The branch map is
+
+      \[
+      (SDS^\sharp)\Longrightarrow(NE^\sharp)\Longrightarrow(UTKD^\sharp)\Longrightarrow(PCI^\sharp)\Longrightarrow(MSI^\sharp).
+      \]
+
+      \[
+      1-2^{-\sigma(\ell-j)}\sfcomp{3195} 1
+      \]
+
+      The current audit sharpens the boundary.  A gap-damped defect theorem improves
+      the one-sided carrier to
+
+      \[
+      \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^{\uparrow,\beta}(t)
+      \]
+
+      The branch is useful because it upgrades the gap structure.  It remains open
+      because the weighted \(j\)-summation still asks for a genuinely new
+      commutator-tail theorem beyond the inherited Euclidean inputs.  At the present
+      boundary, the proof has extracted the available termwise estimates.  The
+      remaining question is whether the summed signed shell exchange collapses to the
+      barrier scale before it is turned into a positive carrier.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Curvature-To-Scale Feedback Bridge
+    line_start: 3349
+    line_end: 3372
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3349
+    start_anchor: "\\subsection{Curvature-To-Scale Feedback Bridge}\n"
+    end_anchor: "\\subsection{Cycle-Exact Angular Observability Packet}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Curvature-To-Scale Feedback Bridge}
+
+      The curvature branch had a feedback role in the original source family.
+
+      \[
+      \partial_t |\nabla u|^2
+      =
+      - \mathrm{Ric}(g)(\nabla u,\nabla u)
+      + \nu \Delta_g |\nabla u|^2
+      + C |\nabla u|^3.
+      \]
+
+      Under the positive-curvature hypothesis
+      \[
+      \mathrm{Ric}(g)\ge\kappa>0,
+      \]
+      the source family uses this evolution law to bound the gradient quantity and
+      feed that bound back into the scale-control loop.
+
+      The source-grounded feedback role of the curvature branch belongs to the
+      original four-way loop.  Its Euclidean use is governed by the pullback target
+      above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Theorem HFG: Dyadic High-Frequency Gain Frontier'
+    line_start: 4623
+    line_end: 4707
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4623
+    start_anchor: "\\subsection{Theorem HFG: Dyadic High-Frequency Gain Frontier}\n"
+    end_anchor: "\\subsection{Dyadic Shell-Tail Suppression Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Theorem HFG: Dyadic High-Frequency Gain Frontier}
+
+      HFG is the endpoint high-frequency gain for the classical vorticity route.  Its
+      job is concrete: a summable dyadic vorticity tail gives the critical
+      Besov-vorticity input used by the standard continuation criterion.  The
+      installed part is the implication from HFG to continuation.  The production of
+      HFG from the Navier--Stokes dynamics remains a frontier theorem.
+
+      \[
+      \omega := \nabla \times u.
+      \]
+
+      The packet asks for
+
+      \[
+      \sum_{j\ge 0} 2^{\frac32 j}\,\|\Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty.
+      \]
+
+      Equivalently,
+
+      \[
+      \sum_{j\ge 0} 2^{\frac12 j}\,\|\nabla \Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty.
+      \]
+
+      By Bernstein, this would give
+
+      \[
+      \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty,
+      \]
+
+      because Bernstein turns an \(L^2_x\) vorticity shell into an \(L^\infty_x\)
+      shell at cost \(2^{3j/2}\).  This is the same-surface continuation readout:
+      HFG supplies the critical vorticity norm, and the classical continuation
+      criterion then prevents a finite endpoint on that retained classical solution
+      surface.
+
+      \[
+      \partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega,
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|\Delta_j\omega\|_{L^2_x}^2
+      + \nu 2^{2j}\|\Delta_j\omega\|_{L^2_x}^2
+      \le
+      \langle \Delta_j((\omega\cdot\nabla)u), \Delta_j\omega\rangle
+      + \mathrm{Comm}_j.
+      \]
+
+      After the low-mode and finite-band spill pieces are separated, the theorem
+      critical burden is a cascade estimate of the form
+
+      \[
+      \mathrm{cascade}_j(t)
+      \le
+      \varepsilon\nu2^{2j}\|\Delta_j\omega(t)\|_{L^2_x}^2
+      +C_\varepsilon2^{-2j}\|\nabla\omega(t)\|_{L^2_x}^2.
+      \]
+
+      There are several legitimate ways to attack this burden.  A dyadic Duhamel
+      argument would need a summable forcing estimate for
+      \(\Delta_j((\omega\cdot\nabla)u-(u\cdot\nabla)\omega)\).  A Bony
+      decomposition route would need the strict low-mode pieces absorbed by the
+      admissible coefficient \(\mathcal L_N(t)E_N(t)\), leaving the high-high packet
+      inside viscosity.  A heat-kernel route would ne
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Cascade-To-Scale-Barrier Bridge Lemma}
+
+    This lemma names the first Euclidean supplier estimate after the manuscript
+    diagnoses a high-shell cascade obstruction.  The estimate is open.  Its role is
+    to say exactly what the unmodified classical equation still needs to give the
+    forward-positive route usable high-frequency control.
+
+    Suppose the remaining singularity mechanism is transfer of energy or enstrophy
+    into arbitrarily high dyadic shells.  Write \(P_j\) for the Littlewood--Paley
+    shell and let \(N\) be a high-frequency cutoff.  The needed same-surface
+    estimate has the form
+    \[
+    \int_0^T
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    P_j((u\cdot\nabla)u),-\Delta P_j u
+    \right\rangle
+    \right|\,dt
+    \le
+    \eta
+    \int_0^T D_{\ge N}(t)\,dt
+      + R_N(T),
+    \]
+    where \(D_{\ge N}\) is the high-frequency dissipation tail,
+    \(\eta<1\), and \(R_N(T)\to0\) as \(N\to\infty\) on the same classical
+    approximation surface.
+
+    The left side is the high-shell transport contribution.  The first term on the
+    right is small enough to be absorbed by the dissipation tail.  The remainder
+    vanishes as the cutoff moves upward.  This is the precise bridge from cascade
+    diagnosis to scale-barrier control.
+
+    Energy and enstrophy supply the background budgets.  The displayed
+    absorbable-plus-summable high-shell estimate is the missing forward-positive
+    payment.  In the silver layer, a failure of this estimate becomes proof material
+    only after the manuscript selects the same terminal record and lands the
+    resulting residue at Pack, Part, Field, or readout.
+
+
+
+    \subsection{Coherent High-Collar Coefficient Tail Result}
+
+    Fix the active dyadic scale \(j\), the collar width \(M\), and the coherent
+    projector fattening \(A\).  The coefficient-tail estimate uses
+
+    \[
+    \alpha_T=C_A(C_s\kappa_T+
+    \kappa_R),
+    \qquad
+    \beta_T=C_A.
+    \]
+
+    The constants depend on the fixed selector geometry, readout Sobolev comparison,
+    and probe-collar constants.
+
+    \[
+    R_{j,A,M}:=P_{>j-M}P_{\le j+A}.
+    \]
+
+    \[
+    \|R_{j,A,M}f\|_{L_x^\infty}
+    \le C_{A,M}\|f\|_{L_x^\infty}.
+    \]
+
+    With smooth Littlewood--Paley cutoffs, the symbol of \(R_{j,A,M}\) is supported
+    in the finite annulus
+
+    \[
+    2^{j-M}\le C_{\mathrm{sf},2443} |\xi|\le C_{\mathrm{sf},2443} 2^{j+A}.
+    \]
+
+    \[
+    K_{j,A,M}(x)=2^{3j}K_{A,M}(2^jx).
+    \]
+
+    This scaling gives the displayed \(L^\infty\) bound for the fixed-fattened
+    projector \(P_{\le j+A}\).  The finite-collar multiplier proof is the active
+    support branch.
+
+    Fixed-fattened leakage means that the frequencies between \(j-M\) and \(j+A\)
+    are included in the finite annulus multiplier \(R_{j,A,M}\).
+
+    The collar multiplier costs one explicit factor \(2^j\), matching the amplitude
+    scale \(2^j\) from the selector strain proof.
+
+    The lower-order readout term \(E_D(X)\) stays explicit and enters the collar
+    estimate as the permitted lower-order contribution.
+
+    This result completes the coefficient side of the low-pass commutator collar
+    chain under the already stated selector-persistent transport hypotheses.  It
+    carries the amplitude estimate exported by the selector-localized coherent
+    strain result and leaves any independent smallness source to the surrounding
+    closure route.
+
+
+
+    \subsection{Collar Product Closure Conditional On LPAS/FC Tail Reserve}
+
+    \[
+    \Theta_N^\sharp E_N
+    \le
+    \varepsilon\nu D_N+C_\varepsilon2^{-2N}E_N^2.
+    \]
+
+    This estimate is the reserve needed by the low-mode product route.  Its proof
+    duty is narrow: LPAS/FC, or an equivalent theorem on the same declared surface,
+    must supply the active far-corona tail reserve \(2^{-2N}E_N^2\).
+
+    Before that payment is available, this subsection is a dependency record.  It
+    marks exactly where the collar product argument will draw its reserve, and it
+    keeps the proof status short of gold certification, silver closure, or any
+    Clay-facing finality claim.
+
+
+
+    \subsection{Collar Remainder Lower-Order Estimate Result}
+
+    The lower-order collar remainder estimate lives on the readout-compatible
+    carrier surface.  Two inputs feed the estimate: the
+    noncoherent low-mode readout estimate, and the coherent transport bound on
+    \(u_{\mathrm{coh}}\).
+
+    The estimate is a smooth-multiplier commutator bound.  The coherent strain
+    coefficient is controlled at the active shell scale.  The proof can use spectral
+    alignment plus \(H_D^s\) tail decay, or the special case in which the coherent
+    selector carries only subthreshold readout.
+
+    The preliminary four-term bound is
+
+    \[
+    \|\nabla R^{collar}_{i,j}[X;Y]\|_\infty
+    \le
+    4\varepsilon\nu2^{2j}\|Y\|_{H_D^s}+4C_\varepsilon\Phi(\mathcal E_D(X)).
+    \]
+
+    After renormalizing constants, the usable form is
+
+    \[
+    \|\nabla R^{collar}_{i,j}[X;Y]\|_\infty
+    \le
+    \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
+    \]
+
+    The proof takes one spatial derivative of the four-term expression for
+    \(R^{\mathrm{collar}}_{i,j}\) and then uses the triangle inequality.  The four
+    terms are charged separately, so the reader can see which payment carries which
+    piece of the remainder:
+
+    \[
+    \begin{array}{ll}
+    \mathrm{C1} & \text{local readout residue},\\[2pt]
+    \mathrm{C2} & \text{noncoherent low-mode contribution},\\[2pt]
+    \mathrm{C3} & \text{low-pass collar commutator},\\[2pt]
+    \mathrm{C4} & \text{coherent high-tail contribution}.
+    \end{array}
+    \]
+
+    When all four payments are present, the collar assembly has a complete
+    lower-order reserve.  In the current proof state, C3 is the shortest named payment
+    needing theorem-grade expansion.  Its job is to control the low-pass commutator
+    collar at the active coherent low-mode strain scale and make the commutator
+    payment visible on the page.
+
+
+
+    \subsection{Coupled Lifted-Band Gain Target}
+
+    After swapping the kernelized lifted-band sums, the lower shell \(k\) is paired
+    with an upper-tail dissipation convolution.  The object to control is the paired
+    lower-shell/upper-tail carrier
+
+    \[
+    \sum_{k>N+M}
+    2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\,
+    \mathcal D_k^\uparrow(t),
+    \]
+
+    \[
+    \mathcal D_k^\uparrow(t)
+    :=
+    \sum_{j>k+4}
+    2^{-\sigma(j-k)}D_j(t).
+    \]
+
+    Here
+    \[
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2
+    \]
+    is the high-shell dissipation weight, and \(2^{-\sigma(j-k)}\) is the
+    spectral-gap kernel already present in the packet algebra.
+
+    The missing theorem is a coupled theorem.  It controls the lower-shell gain when
+    that gain is tested against the upper-tail dissipation carrier:
+
+    \[
+    2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\le a_k(t),
+    \]
+
+    with \(a_k(t)\) usable only through the paired sum
+    \[
+    \sum_{k>N+M} a_k(t)\,\mathcal D_k^\uparrow(t).
+    \]
+
+    This target is an intermediate reduction upstream of MSI.  Its job is to control
+    the lower-shell coefficient inside the exact pairing generated by the
+    lifted-band packet.  A standalone shellwise high-gain estimate would be stronger
+    than the packet asks for.
+
+
+
+    \subsection{Cross-Scale Decorrelation Theorem}
+
+    This is an active branch candidate for the upper-tail reductions.  Its purpose
+    is to attack the cross-scale bilinear interaction directly, at the point where
+    the one-sided SDS queue leaves a summed shell-exchange burden.
+
+    The intended claim allows shell transfer and shell alignment.  It asks for a
+    quantitative dissonant part as well: enough misalignment across separated
+    scales to rule out fully coherent worst-case cross-scale growth.
+
+    \[
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \mathfrak B_N^\sigma(t)
+    :=
+    \sum_{\substack{j\le \ell\\ j>N+M+4}}
+    2^{(1+\sigma)j-\sigma\ell}\,D_j(t)\,D_\ell(t).
+    \]
+
+    The quantity \(\mathfrak B_N^\sigma(t)\) is the cross-scale reinforcement
+    object produced by the current upper-tail reductions.  A successful
+    decorrelation theorem would dominate this reinforcement by same-scale activity
+    plus a controlled gap defect.
+
+    The branch map is
+
+    \[
+    (SDS^\sharp)\Longrightarrow(NE^\sharp)\Longrightarrow(UTKD^\sharp)\Longrightarrow(PCI^\sharp)\Longrightarrow(MSI^\sharp).
+    \]
+
+    \[
+    1-2^{-\sigma(\ell-j)}\sfcomp{3195} 1
+    \]
+
+    The current audit sharpens the boundary.  A gap-damped defect theorem improves
+    the one-sided carrier to
+
+    \[
+    \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^{\uparrow,\beta}(t)
+    \]
+
+    The branch is useful because it upgrades the gap structure.  It remains open
+    because the weighted \(j\)-summation still asks for a genuinely new
+    commutator-tail theorem beyond the inherited Euclidean inputs.  At the present
+    boundary, the proof has extracted the available termwise estimates.  The
+    remaining question is whether the summed signed shell exchange collapses to the
+    barrier scale before it is turned into a positive carrier.
+
+
+
+    \subsection{Curvature-To-Scale Feedback Bridge}
+
+    The curvature branch had a feedback role in the original source family.
+
+    \[
+    \partial_t |\nabla u|^2
+    =
+    - \mathrm{Ric}(g)(\nabla u,\nabla u)
+    + \nu \Delta_g |\nabla u|^2
+    + C |\nabla u|^3.
+    \]
+
+    Under the positive-curvature hypothesis
+    \[
+    \mathrm{Ric}(g)\ge\kappa>0,
+    \]
+    the source family uses this evolution law to bound the gradient quantity and
+    feed that bound back into the scale-control loop.
+
+    The source-grounded feedback role of the curvature branch belongs to the
+    original four-way loop.  Its Euclidean use is governed by the pullback target
+    above.
+
+
+
+    \subsection{Theorem HFG: Dyadic High-Frequency Gain Frontier}
+
+    HFG is the endpoint high-frequency gain for the classical vorticity route.  Its
+    job is concrete: a summable dyadic vorticity tail gives the critical
+    Besov-vorticity input used by the standard continuation criterion.  The
+    installed part is the implication from HFG to continuation.  The production of
+    HFG from the Navier--Stokes dynamics remains a frontier theorem.
+
+    \[
+    \omega := \nabla \times u.
+    \]
+
+    The packet asks for
+
+    \[
+    \sum_{j\ge 0} 2^{\frac32 j}\,\|\Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty.
+    \]
+
+    Equivalently,
+
+    \[
+    \sum_{j\ge 0} 2^{\frac12 j}\,\|\nabla \Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty.
+    \]
+
+    By Bernstein, this would give
+
+    \[
+    \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty,
+    \]
+
+    because Bernstein turns an \(L^2_x\) vorticity shell into an \(L^\infty_x\)
+    shell at cost \(2^{3j/2}\).  This is the same-surface continuation readout:
+    HFG supplies the critical vorticity norm, and the classical continuation
+    criterion then prevents a finite endpoint on that retained classical solution
+    surface.
+
+    \[
+    \partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega,
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|\Delta_j\omega\|_{L^2_x}^2
+    + \nu 2^{2j}\|\Delta_j\omega\|_{L^2_x}^2
+    \le
+    \langle \Delta_j((\omega\cdot\nabla)u), \Delta_j\omega\rangle
+    + \mathrm{Comm}_j.
+    \]
+
+    After the low-mode and finite-band spill pieces are separated, the theorem
+    critical burden is a cascade estimate of the form
+
+    \[
+    \mathrm{cascade}_j(t)
+    \le
+    \varepsilon\nu2^{2j}\|\Delta_j\omega(t)\|_{L^2_x}^2
+    +C_\varepsilon2^{-2j}\|\nabla\omega(t)\|_{L^2_x}^2.
+    \]
+
+    There are several legitimate ways to attack this burden.  A dyadic Duhamel
+    argument would need a summable forcing estimate for
+    \(\Delta_j((\omega\cdot\nabla)u-(u\cdot\nabla)\omega)\).  A Bony
+    decomposition route would need the strict low-mode pieces absorbed by the
+    admissible coefficient \(\mathcal L_N(t)E_N(t)\), leaving the high-high packet
+    inside viscosity.  A heat-kernel route would need the cascade estimate first
+    and would then extract dyadic time decay.  An all-scale transfer route would
+    need more than separated-frequency loss: it would also have to control the
+    near-diagonal low-mode amplitude channel.
+
+    That last point is the live obstruction.  A spectral-gap kernel pays for
+    off-diagonal transfer, while the low-high channel at shell \(j\) sits near the
+    diagonal and lacks a large gap to spend.  The strict low-mode strain coefficient must
+    be absorbed at shell \(j\), or an equivalent mixed enstrophy-gradient primitive
+    must replace that absorption.  The current all-scale notes broaden the route and
+    pay real off-diagonal gain, while the diagonal/amplitude part of HFG remains
+    unpaid.
+
+    The baseline energy and enstrophy bounds are also too coarse to supply HFG by
+    interpolation.  The model shell example in the theorem file has finite
+    dissipation-level mass and divergent HFG-weighted sum.  That example is a scale
+    counterexample to interpolation, rather than a Navier--Stokes blow-up
+    construction.  D.80 records the frontier accurately: HFG would close
+    the classical continuation side once proved, and the missing proof is the
+    same-surface cascade gain described above.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Cascade-To-Scale-Barrier Bridge Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1910
+  line_start: 1910
+  line_end: 1949
+  start_anchor: "\\subsection{Cascade-To-Scale-Barrier Bridge Lemma}\n"
+  end_anchor: "\\subsection{Euclidean Same-Surface Warrant Carrier}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Cascade-To-Scale-Barrier Bridge
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1910
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Coherent High-Collar Coefficient Tail Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2491
+  line_start: 2491
+  line_end: 2545
+  start_anchor: "\\subsection{Coherent High-Collar Coefficient Tail Result}\n"
+  end_anchor: "\\subsection{Coherent-Laplacian Zero-Mode Obstruction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Coherent High-Collar Coefficient
+    Tail Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2491
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Collar Product Closure Conditional On LPAS/FC Tail Reserve
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2644
+  line_start: 2644
+  line_end: 2661
+  start_anchor: "\\subsection{Collar Product Closure Conditional On LPAS/FC Tail Reserve}\n"
+  end_anchor: "\\subsection{Collar Remainder Lower-Order Estimate Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Collar Product Closure Conditional
+    On LPAS/FC Tail Reserve as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2644
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Collar Remainder Lower-Order Estimate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2662
+  line_start: 2662
+  line_end: 2710
+  start_anchor: "\\subsection{Collar Remainder Lower-Order Estimate Result}\n"
+  end_anchor: "\\subsection{Theorem C3 (Euclidean Combined Closure Sufficiency Packet)}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Collar Remainder Lower-Order
+    Estimate Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2662
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Coupled Lifted-Band Gain Target
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3132
+  line_start: 3132
+  line_end: 3175
+  start_anchor: "\\subsection{Coupled Lifted-Band Gain Target}\n"
+  end_anchor: "\\subsection{Cross-Rung Matrix Under YM Heat Shadow Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Coupled Lifted-Band Gain Target
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3132
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Cross-Scale Decorrelation Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3227
+  line_start: 3227
+  line_end: 3277
+  start_anchor: "\\subsection{Cross-Scale Decorrelation Theorem}\n"
+  end_anchor: "\\subsection{Mediating Object: Curvature-Based Gradient Bridge Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Cross-Scale Decorrelation Theorem
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3227
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Curvature-To-Scale Feedback Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3349
+  line_start: 3349
+  line_end: 3372
+  start_anchor: "\\subsection{Curvature-To-Scale Feedback Bridge}\n"
+  end_anchor: "\\subsection{Cycle-Exact Angular Observability Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Curvature-To-Scale Feedback Bridge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3349
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Theorem HFG: Dyadic High-Frequency Gain Frontier'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4623
+  line_start: 4623
+  line_end: 4707
+  start_anchor: "\\subsection{Theorem HFG: Dyadic High-Frequency Gain Frontier}\n"
+  end_anchor: "\\subsection{Dyadic Shell-Tail Suppression Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Theorem HFG: Dyadic High-Frequency
+    Gain Frontier as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4623
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-02
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-02.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

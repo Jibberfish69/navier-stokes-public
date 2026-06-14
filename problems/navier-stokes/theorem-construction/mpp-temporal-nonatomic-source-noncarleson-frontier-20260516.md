@@ -103,11 +103,15 @@ The Duhamel response on a terminal layer is
 \int_{-1/m}^{0}e^{(0-s)\nu\Delta}F_m(s)ds.
 ```
 
-For `|s|\ll1` in normalized heat units,
+For `\tau=-s>0`, the exact semigroup remainder identity is
 
 ```math
-e^{(0-s)\nu\Delta}=I+O(|s|\nu\Delta).
+e^{\tau\nu\Delta}\phi-\phi
+=
+\int_0^\tau \nu\Delta e^{a\nu\Delta}\phi\,da
 ```
+
+for every smooth test function `\phi`.
 
 The heat semigroup produces no uniform smallness on a zero-thickness terminal layer.  Fixed positive viscosity therefore supplies compactness and local energy, while temporal anti-concentration still requires an additional source residence theorem.
 

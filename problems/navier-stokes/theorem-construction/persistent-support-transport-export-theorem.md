@@ -127,7 +127,7 @@ Since `s>\frac52`, Sobolev embedding gives
 
 ```math
 \|\nabla f\|_{L^\infty_x}
-\lesssim_s
+\le C_s
 \|f\|_{H^s_x}.
 ```
 
@@ -136,7 +136,7 @@ readout Sobolev comparison:
 
 ```math
 \|\nabla \rho(\mathcal T^{\mathrm{coh}}_{i,j_0}[X]Y)\|_{L^\infty_x}
-\lesssim_s
+\le C_s
 \|\rho(\mathcal T^{\mathrm{coh}}_{i,j_0}[X]Y)\|_{H^s_x}
 \le
 C_s\|\mathcal T^{\mathrm{coh}}_{i,j_0}[X]Y\|_{H_D^s}.

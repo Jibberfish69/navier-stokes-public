@@ -1,0 +1,1126 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-scale-tail-and-lifted-band-23
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-23
+  sequence: 48
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 23
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 59932
+  line_end: 60320
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59932
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59979
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60006
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60055
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60105
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60151
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60176
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60243
+  subsection_titles:
+  - Same-Scale Multiplier Stability Program
+  - Scale-Barrier Package
+  - Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)
+  - Scale-Barrier Transport Defect Lemma
+  - Scale Cubic-Tail Absorption Lemma
+  - Scale Genuine High-High Packet
+  - Scale High-High Near-Diagonal Reduction Lemma
+  - Scale High-Side Remainder Packet
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Same-Scale Multiplier Stability Program
+    line_start: 59932
+    line_end: 59978
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59932
+    start_anchor: "\\subsection{Same-Scale Multiplier Stability Program}\n"
+    end_anchor: "\\subsection{Scale-Barrier Package}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Same-Scale Multiplier Stability Program}
+
+      The point is that both objects are now same-scale finite-width packets. They should be attacked by one common stability theorem for bounded families of annular order-zero multipliers, not by two unrelated large-gap arguments.
+
+      \[
+      \Pi_N^{mov\text{-}spill,L}
+      =
+      \sum_{|m|\le M_L}\Pi_{N,m}^{edge}
+      +
+      \mathcal E_N^{collar}.
+      \]
+
+      \[
+      M(\ell D)u,
+      \]
+
+      where M is a smooth order-zero multiplier supported in an annulus whose width and relative offset are bounded independently of N.
+
+      \[
+      b_{\ell,m}=T_m(\ell D)u.
+      \]
+
+      For the upper boundary, once the global signed balance identity is written explicitly, the factor ( s mid )(s) freezes the scale to a collar of width \(C_{\mathrm{col},58350}\) near N, so the remaining multiplier structure is again a finite-width annular family at the active scale.
+
+      Let M a( D) a A be a finite family of annular order-zero multiplier operators, uniformly bounded in symbol seminorms and with bounded relative offsets from the active scale. Assume each induced transport field is divergence-free.
+
+      Define the associated scalarized same-scale edge packet by the corresponding commutator / stress-strain pairing against the active H 1 stress.
+
+      What is already honest on the current theorem surface is weaker than (SS) but stronger than "program only." The model packet note
+
+      Together with the upper-boundary family reduction and the finite-family lift, this already yields weak same-scale bounds (UB ) and (MS ). The coefficient term itself is then killed as a separate barrier-scale burden by
+
+      for the honest scalarized same-scale packet, incompressibility alone rewrites the transport factor but does not annihilate the principal same-scale amplitude. So the coefficient-free route must start from the commutator difference factor and a later flux/time normal form, not from bare same-scale antisymmetry.
+
+      The upper-boundary packet is not a moving lower-scale accumulation. It lives in the top collar where the scale has alre
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale-Barrier Package
+    line_start: 59979
+    line_end: 60005
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59979
+    start_anchor: "\\subsection{Scale-Barrier Package}\n"
+    end_anchor: "\\subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Scale-Barrier Package}
+
+      The scale-barrier burden is the high-frequency theorem used downstream by compactness and the Euclidean fourth bridge. It is stated on one explicit classical approximation surface, with the local proof stack that must discharge it once the packet reductions are expanded at theorem grade.
+
+      Let u (n) be a classical approximation family on (0,T) x R 3 with smooth divergence-free initial data u 0 (n) converging to the target data. Let P j denote homogeneous dyadic Littlewood-Paley projectors and P (>= N) := sum (j >= N) P j.
+
+      This is necessary but not sufficient; the point of the present package is to isolate the additional dangerous-scale input.
+
+      This is the cleanest tail formulation of the scale barrier. It says that the energy residing in the dangerous high-frequency block is summably small uniformly on the same classical approximation family.
+
+      The point of the flux formulation is that the second term can then be absorbed into the viscous dissipation, leaving a summable high-frequency remainder.
+
+      So this is not an ornamental estimate. It is the upstream theorem input that keeps the cascade from remaining an unformalized slogan.
+
+      The small-scale cascade is controlled exactly at the step where the nonlinear transport contribution into the block j >= N is shown to be weaker than the viscous dissipation at those same scales, up to a summable remainder. In dyadic form, the decisive control point is the cumulative tail balance
+
+      The route only becomes theorem-bearing if the right-hand side is bounded by an absorbable dissipation fraction plus a summable remainder uniform in n.
+
+      Apply P j to the classical Euclidean Navier-Stokes equation. Pair the jth dyadic block with P j u (n) and sum over j >= N to obtain the high-frequency energy identity. Decompose P j((u (n) . grad)u (n)) into low-high, high-low, and high-high paraproduct interactions.
+
+      Keep the lifted high-side remainder explicit as a separate open packet until it is controlled at t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)
+    line_start: 60006
+    line_end: 60054
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60006
+    start_anchor: "\\subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}\n"
+    end_anchor: "\\subsection{Scale-Barrier Transport Defect Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}
+
+      This lemma is the exact upstream scale-barrier theorem on the fixed classical approximation surface. Its job is to convert the already localized dyadic transport-defect reductions into the uniform high-frequency tail bound needed by compactness and the Euclidean fourth bridge.
+
+      \[
+      \partial_t u^(n) + (u^(n)\cdot\nabla)u^(n) + \nabla p^(n) = \nu \Delta u^(n),
+      \qquad \nabla \cdot u^(n) = 0,
+      \]
+
+      \[
+      T_N^{(n)}(t) := \|P_{\ge N}u^{(n)}(t)\|_{L_x^2}^2,
+      \qquad
+      E_N^{(n)}(t) := \sum_{j \ge N}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      D_N^{(n)}(t) := \sum_{j \ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+      \qquad
+      \mathcal L_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+      \]
+
+      Equivalently, the dangerous high-frequency tail is summably small on the fixed classical approximation family.
+
+      Apply P N to the classical equation and pair in L x 2 with P N u (n). This yields
+
+      \[
+      \frac12 \frac{d}{dt}T_N^{(n)}(t) + \nu D_N^{(n)}(t)
+      =
+      -\left\langle P_{\ge N}\big((u^{(n)}\cdot\nabla)u^{(n)}\big),\,P_{\ge N}u^{(n)}\right\rangle.
+      \]
+
+      \[
+      \sum_{j\ge N}
+      \left(
+      \left|\left\langle \mathcal T^{SLH}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
+      +
+      \left|\left\langle \mathcal T^{SHL}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
+      \right)
+      \le
+      C\,\mathcal L_N^{(n)}(t)\,E_N^{(n)}(t)
+      +
+      \frac{\eta\nu}{4}D_N^{(n)}(t).
+      \]
+
+      for some >0 uniform in the approximation family. Integrating (7) in time and absorbing the harmless time-integral factor into the constant gives
+
+      Euclidean surface. Under the stricter audit standard, the remaining live burden is proposition-level packet alignment together with the coupled lifted-band flux theorem (L-Flux) from
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale-Barrier Transport Defect Lemma
+    line_start: 60055
+    line_end: 60104
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60055
+    start_anchor: "\\subsection{Scale-Barrier Transport Defect Lemma}\n"
+    end_anchor: "\\subsection{Scale Cubic-Tail Absorption Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Scale-Barrier Transport Defect Lemma}
+
+      The exact remaining local debt inside the scale-barrier bridge is the classical dyadic transport-defect estimate for the unmodified three-dimensional Navier-Stokes equation. The full bridge is not reproved here; the purpose is to fix the Bony split, the quantities that must be controlled, and the one estimate still missing on the same classical approximation surface.
+
+      Let u (n) ,p (n) be the same smooth divergence-free classical approximation family used throughout the Navier-Stokes argument, on (0,T) R 3, with the standard Euclidean Leray projection and the admissible energy/enstrophy budget already recorded elsewhere in the route.
+
+      Let j := P j and S m := k<m k. Define the high-frequency tail and dissipation tail by
+
+      \[
+      E_N^{(n)}(t) := \sum_{j\ge N}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2,
+      \qquad
+      D_N^{(n)}(t) := \sum_{j\ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+      \]
+
+      \[
+      \mathcal{L}_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+      \]
+
+      \[
+      \mathcal{F}_N^{(n)}(t)
+      :=
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      \Delta_j\big((u^{(n)}\cdot\nabla)u^{(n)}\big),
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|.
+      \]
+
+      \[
+      \Delta_j\big((u^{(n)}\cdot\nabla)u^{(n)}\big)
+      = \mathcal{T}^{LH}_{j,n}
+      + \mathcal{T}^{HL}_{j,n}
+      + \mathcal{T}^{HH}_{j,n},
+      \]
+
+      \[
+      \mathcal{T}^{LH}_{j,n} := \Delta_j\big((S_{j-4}u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\big),
+      \]
+
+      This is the exact low-high / high-low / high-high split the residual debt must use.
+
+      After summing in j and integrating in time, the strict low, spill, genuine high-high, and lifted flux bounds are absorbed into the viscous term and the remaining remainder becomes C 0 2 -2 N .
+
+      Once the transport-defect bound above is established, the scale-barrier bridge itself is already packaged: viscous absorption yields the tail bound, and the compactness and gradient packages consume that tail bound downstream. So this lemma is the exact residual local burden, not a restatement of the entire bridge.
+
+      Thi
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Cubic-Tail Absorption Lemma
+    line_start: 60105
+    line_end: 60150
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60105
+    start_anchor: "\\subsection{Scale Cubic-Tail Absorption Lemma}\n"
+    end_anchor: "\\subsection{Scale Genuine High-High Packet}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Cubic-Tail Absorption Lemma}
+
+      The remaining scale-side burden closes after the genuine high-high packet is reduced to a near-diagonal cubic dyadic tail. The uniform energy bound supplies an extra factor 2 -N, making the packet absorbable into dissipation for all large cutoffs.
+
+      In particular, the scale-side genuine high-high packet is absorbed with no extra theorem burden beyond choosing N large enough.
+
+      \[
+      \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+      \le
+      C\sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}(t)\|_{L^2_x}^3.
+      \]
+
+      \[
+      2^j \|\Delta_j u^{(n)}\|_{L^2_x}^3
+      =
+      \big(2^{2j}\|\Delta_j u^{(n)}\|_{L^2_x}^2\big)\,
+      \big(2^{-j}\|\Delta_j u^{(n)}\|_{L^2_x}\big).
+      \]
+
+      \[
+      \|\Delta_j u^{(n)}(t)\|_{L^2_x}
+      \le
+      \|u^{(n)}(t)\|_{L^2_x}
+      \le
+      C_E^{1/2},
+      \]
+
+      \[
+      2^{-j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}
+      \le
+      2^{-(N-M)} C_E^{1/2}.
+      \]
+
+      \[
+      \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+      \le
+      C\,2^{-(N-M)} C_E^{1/2}\sum_{j\ge N-M}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+      \]
+
+      Choose N * so that C' 2 -N C E 1/2 /2 for all N N *. Integrating in time yields the claim.
+
+      This lemma supplies the intended cubic-tail absorption mechanism on the classical equation. Under the stricter audit standard, however, the scale-side bridge does not yet count as fully discharged until the packet reductions are expanded line by line and audited inside the live theorem surface.
+
+      This lemma closes the scale-side packet on the current theorem surface. It does not solve the whole Navier-Stokes problem by itself, because the gradient bridge and theorem warrant remain open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Genuine High-High Packet
+    line_start: 60151
+    line_end: 60175
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60151
+    start_anchor: "\\subsection{Scale Genuine High-High Packet}\n"
+    end_anchor: "\\subsection{Scale High-High Near-Diagonal Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Genuine High-High Packet}
+
+      Let u (n) ,p (n) be the fixed classical approximation family and N a dyadic cutoff. After the strict low-mode reduction and the threshold-local spill collar have both been isolated, define the genuine scale-side high-high packet by
+
+      \[
+      \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+      :=
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      \mathcal{T}^{HH}_{j,n},
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|,
+      \]
+
+      for all large N, with constants uniform on the same classical approximation surface.
+
+      What remains is the genuine high-high packet defined above, equivalently the cubic tail packet from that reduction.
+
+      Once the displayed bound holds, the scale-barrier transport defect closes on the classical equation and Proposition S.1 of the scale package follows after viscous absorption. That tail estimate then feeds the compactness and gradient packages on the same theorem surface.
+
+      This object remains part of the proof-critical packet stack on the classical theorem surface. Under the stricter audit standard it does not yet count as fully discharged merely because the downstream cubic-tail absorption lemma has been isolated. The separate lifted high-side remainder left over after the threshold-local spill collar is separated is not part of this packet.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale High-High Near-Diagonal Reduction Lemma
+    line_start: 60176
+    line_end: 60242
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60176
+    start_anchor: "\\subsection{Scale High-High Near-Diagonal Reduction Lemma}\n"
+    end_anchor: "\\subsection{Scale High-Side Remainder Packet}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale High-High Near-Diagonal Reduction Lemma}
+
+      After the strict low-mode and threshold-local spill collar are separated, the genuine scale-side high-high packet remains. The dyadic support reduction below concerns only that genuine high-high term; the lifted high-side paraproduct remainder is a separate packet and is not collapsed here.
+
+      Let u (n) ,p (n) be the fixed classical approximation family and let N be a dyadic cutoff. Write
+
+      \[
+      \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+      :=
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      \mathcal{T}^{HH}_{j,n},
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|,
+      \]
+
+      \[
+      \left|
+      \left\langle
+      \mathcal{T}^{HH}_{j,n},
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|
+      \le
+      C
+      \sum_{|k-j|\le M}
+      2^j
+      \|\Delta_k u^{(n)}\|_{L^2_x}\,
+      \|\widetilde{\Delta}_k u^{(n)}\|_{L^2_x}\,
+      \|\Delta_j u^{(n)}\|_{L^2_x}.
+      \]
+
+      \[
+      \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+      \le
+      C \sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}\|_{L^2_x}^3.
+      \]
+
+      \[
+      \mathcal{T}^{HH}_{j,n}
+      =
+      \Delta_j\left(
+      \sum_{k\ge j-3}
+      \Delta_k u^{(n)}\cdot\nabla \widetilde{\Delta}_k u^{(n)}
+      \right),
+      \qquad
+      \widetilde\Delta_k:=\Delta_{k-1}+\Delta_k+\Delta_{k+1}.
+      \]
+
+      \[
+      \mathcal{T}^{HH}_{j,n}
+      =
+      \Delta_j\left(
+      \sum_{|k-j|\le M}
+      \Delta_k u^{(n)}\cdot\nabla \widetilde{\Delta}_k u^{(n)}
+      \right).
+      \]
+
+      Summing the finitely many indices |k-j| M proves the first displayed estimate. For the cubic form, use that k contains only O M(1) shells and |k-j| M, so the collar sum collapses into
+
+      The genuine scale-side high-high packet has been reduced to one concrete cubic dyadic tail. The remaining work is the downstream absorption estimate for that tail together with separate theorem-grade control of the lifted high-side remainder.
+
+      This lemma is fully discharged as a reduction lemma for the genuine high-high packet on the classical dyadic surface. It does not by itself prove the cubic tail absorption bound
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale High-Side Remainder Packet
+    line_start: 60243
+    line_end: 60320
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60243
+    start_anchor: "\\subsection{Scale High-Side Remainder Packet}\n"
+    end_anchor: "\\subsection{Scale Kernelized Lifted-Band Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Scale High-Side Remainder Packet}
+
+      Let u (n) ,p (n) be the fixed classical approximation family and N a dyadic cutoff. After extracting the strict low-mode low-high and high-low pieces using S N-4 u (n) , define the scale-side high packet by
+
+      \[
+      \mathfrak{H}^{scale}_{N}[u^{(n)}](t)
+      :=
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      \mathcal{T}^{spill}_{j,n} + \mathcal{T}^{HH}_{j,n},
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|,
+      \]
+
+      where T spill j,n is the threshold-local spill collar created by freezing the low-mode cutoff near N, and T HH j,n is the genuine high-high term from the Bony decomposition.
+
+      \[
+      \mathcal{T}^{lift}_{j,n}
+      :=
+      \Delta_j\big((((S_{j-4}-S_{N+M})u^{(n)})\cdot\nabla)\Delta_j u^{(n)}\big)
+      +
+      \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)((S_{j-4}-S_{N+M})u^{(n)})\big).
+      \]
+
+      for all large N, with constants uniform on the same classical approximation surface.
+
+      \[
+      \mathfrak{H}^{scale}_{N}[u^{(n)}](t)
+      =
+      \sum_{j\ge N}
+      \left|
+      \left\langle
+      \mathcal{T}^{lift}_{j,n} + \mathcal{T}^{HH}_{j,n},
+      \Delta_j u^{(n)}
+      \right\rangle
+      \right|.
+      \]
+
+      This combined packet is no longer the smallest live burden, but it still has two distinct components after the threshold-local spill collar is removed.
+
+      So the exact unresolved scale-side packet is no longer the genuine high-high object alone. After the threshold-local spill collar is isolated, the live high-side remainder still contains
+
+      The genuine high-high component is already reduced to a cubic tail. The lifted high-side remainder remains a separate open packet.
+
+      \[
+      N+M < k < j-4,
+      \]
+
+      That is why the repaired packet cannot honestly be collapsed to a single near-diagonal cubic tail by support geometry alone.
+
+      The cleanest unresolved theorem question is whether T lift j,n can still be reduced to the admissible coefficient surface L N (n) E N (n) plus a harmless dissipation fraction, or whether it forces a refined intermediate high-side coefficient.
+
+      \[
+      \begin{aligned}
+      \left|
+      \left\langle
+      \Delta_j\big((((S_{j-4}-S_{N+M})u^{(n)})\cdot\nabl
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |
+    \subsection{Same-Scale Multiplier Stability Program}
+
+    The point is that both objects are now same-scale finite-width packets. They should be attacked by one common stability theorem for bounded families of annular order-zero multipliers, not by two unrelated large-gap arguments.
+
+    \[
+    \Pi_N^{mov\text{-}spill,L}
+    =
+    \sum_{|m|\le M_L}\Pi_{N,m}^{edge}
+    +
+    \mathcal E_N^{collar}.
+    \]
+
+    \[
+    M(\ell D)u,
+    \]
+
+    where M is a smooth order-zero multiplier supported in an annulus whose width and relative offset are bounded independently of N.
+
+    \[
+    b_{\ell,m}=T_m(\ell D)u.
+    \]
+
+    For the upper boundary, once the global signed balance identity is written explicitly, the factor ( s mid )(s) freezes the scale to a collar of width \(C_{\mathrm{col},58350}\) near N, so the remaining multiplier structure is again a finite-width annular family at the active scale.
+
+    Let M a( D) a A be a finite family of annular order-zero multiplier operators, uniformly bounded in symbol seminorms and with bounded relative offsets from the active scale. Assume each induced transport field is divergence-free.
+
+    Define the associated scalarized same-scale edge packet by the corresponding commutator / stress-strain pairing against the active H 1 stress.
+
+    What is already honest on the current theorem surface is weaker than (SS) but stronger than "program only." The model packet note
+
+    Together with the upper-boundary family reduction and the finite-family lift, this already yields weak same-scale bounds (UB ) and (MS ). The coefficient term itself is then killed as a separate barrier-scale burden by
+
+    for the honest scalarized same-scale packet, incompressibility alone rewrites the transport factor but does not annihilate the principal same-scale amplitude. So the coefficient-free route must start from the commutator difference factor and a later flux/time normal form, not from bare same-scale antisymmetry.
+
+    The upper-boundary packet is not a moving lower-scale accumulation. It lives in the top collar where the scale has already frozen.
+
+    The upper-boundary reduction note records the honest stopping point: the route already identifies the upper boundary as a bounded-offset same-scale collar family, but not yet as an explicit finite edge-family decomposition.
+
+    This side is already explicit. The near-corona packet has been reduced to the finite family N,m edge in (2).
+
+    \[
+    \text{same-scale spill technology is stable under the finite family }T_m(\ell D).
+    \]
+
+    What it does settle is that the upper-boundary and near-corona debts should not be treated as separate theorem worlds anymore. They are the same kind of local analytic problem: finite-width same-scale multiplier stability, already reduced to a model packet estimate, a finite lift, and an exact carrier kill; the only remaining stronger target is a standalone coefficient-free same-scale theorem.
+
+
+
+    \subsection{Scale-Barrier Package}
+
+    The scale-barrier burden is the high-frequency theorem used downstream by compactness and the Euclidean fourth bridge. It is stated on one explicit classical approximation surface, with the local proof stack that must discharge it once the packet reductions are expanded at theorem grade.
+
+    Let u (n) be a classical approximation family on (0,T) x R 3 with smooth divergence-free initial data u 0 (n) converging to the target data. Let P j denote homogeneous dyadic Littlewood-Paley projectors and P (>= N) := sum (j >= N) P j.
+
+    This is necessary but not sufficient; the point of the present package is to isolate the additional dangerous-scale input.
+
+    This is the cleanest tail formulation of the scale barrier. It says that the energy residing in the dangerous high-frequency block is summably small uniformly on the same classical approximation family.
+
+    The point of the flux formulation is that the second term can then be absorbed into the viscous dissipation, leaving a summable high-frequency remainder.
+
+    So this is not an ornamental estimate. It is the upstream theorem input that keeps the cascade from remaining an unformalized slogan.
+
+    The small-scale cascade is controlled exactly at the step where the nonlinear transport contribution into the block j >= N is shown to be weaker than the viscous dissipation at those same scales, up to a summable remainder. In dyadic form, the decisive control point is the cumulative tail balance
+
+    The route only becomes theorem-bearing if the right-hand side is bounded by an absorbable dissipation fraction plus a summable remainder uniform in n.
+
+    Apply P j to the classical Euclidean Navier-Stokes equation. Pair the jth dyadic block with P j u (n) and sum over j >= N to obtain the high-frequency energy identity. Decompose P j((u (n) . grad)u (n)) into low-high, high-low, and high-high paraproduct interactions.
+
+    Keep the lifted high-side remainder explicit as a separate open packet until it is controlled at theorem grade. Apply the final closure argument only after the threshold-local spill collar and the lifted high-side remainder have both been aligned at theorem grade.
+
+    This is the correct classical skeleton. It is also the same skeleton the gradient package needs when it upgrades from L 2 tail control to enstrophy-tail control.
+
+    In particular, the older TeX sources describe the barrier only in heuristic spectral terms through quantities such as E(k,t), T(k,t), and Pi(k,t), with a hypothesized decay law for T(k,t). The present package replaces that heuristic posture with a classical proof on the approximation family stated above.
+
+
+
+    \subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}
+
+    This lemma is the exact upstream scale-barrier theorem on the fixed classical approximation surface. Its job is to convert the already localized dyadic transport-defect reductions into the uniform high-frequency tail bound needed by compactness and the Euclidean fourth bridge.
+
+    \[
+    \partial_t u^(n) + (u^(n)\cdot\nabla)u^(n) + \nabla p^(n) = \nu \Delta u^(n),
+    \qquad \nabla \cdot u^(n) = 0,
+    \]
+
+    \[
+    T_N^{(n)}(t) := \|P_{\ge N}u^{(n)}(t)\|_{L_x^2}^2,
+    \qquad
+    E_N^{(n)}(t) := \sum_{j \ge N}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    D_N^{(n)}(t) := \sum_{j \ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+    \qquad
+    \mathcal L_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+    \]
+
+    Equivalently, the dangerous high-frequency tail is summably small on the fixed classical approximation family.
+
+    Apply P N to the classical equation and pair in L x 2 with P N u (n). This yields
+
+    \[
+    \frac12 \frac{d}{dt}T_N^{(n)}(t) + \nu D_N^{(n)}(t)
+    =
+    -\left\langle P_{\ge N}\big((u^{(n)}\cdot\nabla)u^{(n)}\big),\,P_{\ge N}u^{(n)}\right\rangle.
+    \]
+
+    \[
+    \sum_{j\ge N}
+    \left(
+    \left|\left\langle \mathcal T^{SLH}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
+    +
+    \left|\left\langle \mathcal T^{SHL}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
+    \right)
+    \le
+    C\,\mathcal L_N^{(n)}(t)\,E_N^{(n)}(t)
+    +
+    \frac{\eta\nu}{4}D_N^{(n)}(t).
+    \]
+
+    for some >0 uniform in the approximation family. Integrating (7) in time and absorbing the harmless time-integral factor into the constant gives
+
+    Euclidean surface. Under the stricter audit standard, the remaining live burden is proposition-level packet alignment together with the coupled lifted-band flux theorem (L-Flux) from
+
+
+
+    \subsection{Scale-Barrier Transport Defect Lemma}
+
+    The exact remaining local debt inside the scale-barrier bridge is the classical dyadic transport-defect estimate for the unmodified three-dimensional Navier-Stokes equation. The full bridge is not reproved here; the purpose is to fix the Bony split, the quantities that must be controlled, and the one estimate still missing on the same classical approximation surface.
+
+    Let u (n) ,p (n) be the same smooth divergence-free classical approximation family used throughout the Navier-Stokes argument, on (0,T) R 3, with the standard Euclidean Leray projection and the admissible energy/enstrophy budget already recorded elsewhere in the route.
+
+    Let j := P j and S m := k<m k. Define the high-frequency tail and dissipation tail by
+
+    \[
+    E_N^{(n)}(t) := \sum_{j\ge N}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2,
+    \qquad
+    D_N^{(n)}(t) := \sum_{j\ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+    \]
+
+    \[
+    \mathcal{L}_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+    \]
+
+    \[
+    \mathcal{F}_N^{(n)}(t)
+    :=
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    \Delta_j\big((u^{(n)}\cdot\nabla)u^{(n)}\big),
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|.
+    \]
+
+    \[
+    \Delta_j\big((u^{(n)}\cdot\nabla)u^{(n)}\big)
+    = \mathcal{T}^{LH}_{j,n}
+    + \mathcal{T}^{HL}_{j,n}
+    + \mathcal{T}^{HH}_{j,n},
+    \]
+
+    \[
+    \mathcal{T}^{LH}_{j,n} := \Delta_j\big((S_{j-4}u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\big),
+    \]
+
+    This is the exact low-high / high-low / high-high split the residual debt must use.
+
+    After summing in j and integrating in time, the strict low, spill, genuine high-high, and lifted flux bounds are absorbed into the viscous term and the remaining remainder becomes C 0 2 -2 N .
+
+    Once the transport-defect bound above is established, the scale-barrier bridge itself is already packaged: viscous absorption yields the tail bound, and the compactness and gradient packages consume that tail bound downstream. So this lemma is the exact residual local burden, not a restatement of the entire bridge.
+
+    This lemma no longer hides a route-selection ambiguity, but under the stricter audit standard its pure high-high remainder still belongs to the open proof-critical packet stack on the classical surface.
+
+
+
+    \subsection{Scale Cubic-Tail Absorption Lemma}
+
+    The remaining scale-side burden closes after the genuine high-high packet is reduced to a near-diagonal cubic dyadic tail. The uniform energy bound supplies an extra factor 2 -N, making the packet absorbable into dissipation for all large cutoffs.
+
+    In particular, the scale-side genuine high-high packet is absorbed with no extra theorem burden beyond choosing N large enough.
+
+    \[
+    \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+    \le
+    C\sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}(t)\|_{L^2_x}^3.
+    \]
+
+    \[
+    2^j \|\Delta_j u^{(n)}\|_{L^2_x}^3
+    =
+    \big(2^{2j}\|\Delta_j u^{(n)}\|_{L^2_x}^2\big)\,
+    \big(2^{-j}\|\Delta_j u^{(n)}\|_{L^2_x}\big).
+    \]
+
+    \[
+    \|\Delta_j u^{(n)}(t)\|_{L^2_x}
+    \le
+    \|u^{(n)}(t)\|_{L^2_x}
+    \le
+    C_E^{1/2},
+    \]
+
+    \[
+    2^{-j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}
+    \le
+    2^{-(N-M)} C_E^{1/2}.
+    \]
+
+    \[
+    \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+    \le
+    C\,2^{-(N-M)} C_E^{1/2}\sum_{j\ge N-M}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+    \]
+
+    Choose N * so that C' 2 -N C E 1/2 /2 for all N N *. Integrating in time yields the claim.
+
+    This lemma supplies the intended cubic-tail absorption mechanism on the classical equation. Under the stricter audit standard, however, the scale-side bridge does not yet count as fully discharged until the packet reductions are expanded line by line and audited inside the live theorem surface.
+
+    This lemma closes the scale-side packet on the current theorem surface. It does not solve the whole Navier-Stokes problem by itself, because the gradient bridge and theorem warrant remain open.
+
+
+
+    \subsection{Scale Genuine High-High Packet}
+
+    Let u (n) ,p (n) be the fixed classical approximation family and N a dyadic cutoff. After the strict low-mode reduction and the threshold-local spill collar have both been isolated, define the genuine scale-side high-high packet by
+
+    \[
+    \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+    :=
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    \mathcal{T}^{HH}_{j,n},
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|,
+    \]
+
+    for all large N, with constants uniform on the same classical approximation surface.
+
+    What remains is the genuine high-high packet defined above, equivalently the cubic tail packet from that reduction.
+
+    Once the displayed bound holds, the scale-barrier transport defect closes on the classical equation and Proposition S.1 of the scale package follows after viscous absorption. That tail estimate then feeds the compactness and gradient packages on the same theorem surface.
+
+    This object remains part of the proof-critical packet stack on the classical theorem surface. Under the stricter audit standard it does not yet count as fully discharged merely because the downstream cubic-tail absorption lemma has been isolated. The separate lifted high-side remainder left over after the threshold-local spill collar is separated is not part of this packet.
+
+
+
+    \subsection{Scale High-High Near-Diagonal Reduction Lemma}
+
+    After the strict low-mode and threshold-local spill collar are separated, the genuine scale-side high-high packet remains. The dyadic support reduction below concerns only that genuine high-high term; the lifted high-side paraproduct remainder is a separate packet and is not collapsed here.
+
+    Let u (n) ,p (n) be the fixed classical approximation family and let N be a dyadic cutoff. Write
+
+    \[
+    \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+    :=
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    \mathcal{T}^{HH}_{j,n},
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|,
+    \]
+
+    \[
+    \left|
+    \left\langle
+    \mathcal{T}^{HH}_{j,n},
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|
+    \le
+    C
+    \sum_{|k-j|\le M}
+    2^j
+    \|\Delta_k u^{(n)}\|_{L^2_x}\,
+    \|\widetilde{\Delta}_k u^{(n)}\|_{L^2_x}\,
+    \|\Delta_j u^{(n)}\|_{L^2_x}.
+    \]
+
+    \[
+    \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)
+    \le
+    C \sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}\|_{L^2_x}^3.
+    \]
+
+    \[
+    \mathcal{T}^{HH}_{j,n}
+    =
+    \Delta_j\left(
+    \sum_{k\ge j-3}
+    \Delta_k u^{(n)}\cdot\nabla \widetilde{\Delta}_k u^{(n)}
+    \right),
+    \qquad
+    \widetilde\Delta_k:=\Delta_{k-1}+\Delta_k+\Delta_{k+1}.
+    \]
+
+    \[
+    \mathcal{T}^{HH}_{j,n}
+    =
+    \Delta_j\left(
+    \sum_{|k-j|\le M}
+    \Delta_k u^{(n)}\cdot\nabla \widetilde{\Delta}_k u^{(n)}
+    \right).
+    \]
+
+    Summing the finitely many indices |k-j| M proves the first displayed estimate. For the cubic form, use that k contains only O M(1) shells and |k-j| M, so the collar sum collapses into
+
+    The genuine scale-side high-high packet has been reduced to one concrete cubic dyadic tail. The remaining work is the downstream absorption estimate for that tail together with separate theorem-grade control of the lifted high-side remainder.
+
+    This lemma is fully discharged as a reduction lemma for the genuine high-high packet on the classical dyadic surface. It does not by itself prove the cubic tail absorption bound
+
+
+
+    \subsection{Scale High-Side Remainder Packet}
+
+    Let u (n) ,p (n) be the fixed classical approximation family and N a dyadic cutoff. After extracting the strict low-mode low-high and high-low pieces using S N-4 u (n) , define the scale-side high packet by
+
+    \[
+    \mathfrak{H}^{scale}_{N}[u^{(n)}](t)
+    :=
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    \mathcal{T}^{spill}_{j,n} + \mathcal{T}^{HH}_{j,n},
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|,
+    \]
+
+    where T spill j,n is the threshold-local spill collar created by freezing the low-mode cutoff near N, and T HH j,n is the genuine high-high term from the Bony decomposition.
+
+    \[
+    \mathcal{T}^{lift}_{j,n}
+    :=
+    \Delta_j\big((((S_{j-4}-S_{N+M})u^{(n)})\cdot\nabla)\Delta_j u^{(n)}\big)
+    +
+    \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)((S_{j-4}-S_{N+M})u^{(n)})\big).
+    \]
+
+    for all large N, with constants uniform on the same classical approximation surface.
+
+    \[
+    \mathfrak{H}^{scale}_{N}[u^{(n)}](t)
+    =
+    \sum_{j\ge N}
+    \left|
+    \left\langle
+    \mathcal{T}^{lift}_{j,n} + \mathcal{T}^{HH}_{j,n},
+    \Delta_j u^{(n)}
+    \right\rangle
+    \right|.
+    \]
+
+    This combined packet is no longer the smallest live burden, but it still has two distinct components after the threshold-local spill collar is removed.
+
+    So the exact unresolved scale-side packet is no longer the genuine high-high object alone. After the threshold-local spill collar is isolated, the live high-side remainder still contains
+
+    The genuine high-high component is already reduced to a cubic tail. The lifted high-side remainder remains a separate open packet.
+
+    \[
+    N+M < k < j-4,
+    \]
+
+    That is why the repaired packet cannot honestly be collapsed to a single near-diagonal cubic tail by support geometry alone.
+
+    The cleanest unresolved theorem question is whether T lift j,n can still be reduced to the admissible coefficient surface L N (n) E N (n) plus a harmless dissipation fraction, or whether it forces a refined intermediate high-side coefficient.
+
+    \[
+    \begin{al
+    % ... source excerpt truncated for packet size ...
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Same-Scale Multiplier Stability Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59932
+  line_start: 59932
+  line_end: 59978
+  start_anchor: "\\subsection{Same-Scale Multiplier Stability Program}\n"
+  end_anchor: "\\subsection{Scale-Barrier Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Same-Scale Multiplier Stability
+    Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59932
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale-Barrier Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59979
+  line_start: 59979
+  line_end: 60005
+  start_anchor: "\\subsection{Scale-Barrier Package}\n"
+  end_anchor: "\\subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale-Barrier Package as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59979
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60006
+  line_start: 60006
+  line_end: 60054
+  start_anchor: "\\subsection{Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)}\n"
+  end_anchor: "\\subsection{Scale-Barrier Transport Defect Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lemma S.T (Classical Dyadic Tail-Flux
+    Scale Barrier) as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60006
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale-Barrier Transport Defect Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60055
+  line_start: 60055
+  line_end: 60104
+  start_anchor: "\\subsection{Scale-Barrier Transport Defect Lemma}\n"
+  end_anchor: "\\subsection{Scale Cubic-Tail Absorption Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale-Barrier Transport Defect
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60055
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Cubic-Tail Absorption Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60105
+  line_start: 60105
+  line_end: 60150
+  start_anchor: "\\subsection{Scale Cubic-Tail Absorption Lemma}\n"
+  end_anchor: "\\subsection{Scale Genuine High-High Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Cubic-Tail Absorption Lemma
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60105
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Genuine High-High Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60151
+  line_start: 60151
+  line_end: 60175
+  start_anchor: "\\subsection{Scale Genuine High-High Packet}\n"
+  end_anchor: "\\subsection{Scale High-High Near-Diagonal Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Genuine High-High Packet
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60151
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale High-High Near-Diagonal Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60176
+  line_start: 60176
+  line_end: 60242
+  start_anchor: "\\subsection{Scale High-High Near-Diagonal Reduction Lemma}\n"
+  end_anchor: "\\subsection{Scale High-Side Remainder Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale High-High Near-Diagonal
+    Reduction Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60176
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale High-Side Remainder Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60243
+  line_start: 60243
+  line_end: 60320
+  start_anchor: "\\subsection{Scale High-Side Remainder Packet}\n"
+  end_anchor: "\\subsection{Scale Kernelized Lifted-Band Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale High-Side Remainder Packet
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60243
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-23
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-scale-tail-and-lifted-band-23.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,573 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: forward-branch-treatment
+batch_id: forward-branch-treatment-current-source-certification-20260614T160747Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How Forward Branches Enter the Proof
+  spine_id: how-forward-branches-enter-the-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1111
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1111
+  repo_sources_excluded:
+  - source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.cfi-forward-invariance-route.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/auto-audit.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/campaign-status.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/current-route-dependency-graph.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/dependency-graph.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-executor.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-proof-program-route-table.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/paper-quality-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/proof-assembly.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/route-lock.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/runtime/meta/cycle-report.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/runtime/meta/delta-card.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/runtime/meta/quality-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/source-forensics/ns-historical-biography.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/source-frontier.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-strain-aligned-terminal-obstruction-cm-split-20260614.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  endpoint_status: support for a named later proof step
+  reader_payments: &1
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How Forward Branches Enter
+      the Proof without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Which Branches Still Matter
+  spine_id: which-branches-still-matter
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1250
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1250
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Which Branches Still Matter
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Support Boundary
+  spine_id: the-support-boundary
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1299
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1299
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside The Support Boundary without
+      requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Branch Coverage in the Main Proof
+  spine_id: branch-coverage-in-the-main-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Branch Coverage in the
+      Main Proof without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How Auxiliary Estimates Enter
+  spine_id: how-auxiliary-estimates-enter
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1623
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1623
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How Auxiliary Estimates
+      Enter without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: How to Read the Appendices
+  spine_id: how-to-read-the-appendices
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How to Read the Appendices
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Branch-to-Face Derivation Patterns
+  spine_id: branch-to-face-derivation-patterns
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1652
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1652
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Branch-to-Face Derivation
+      Patterns without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex
+  section_title: How Branch Families Pay the CM Proof
+  spine_id: how-branch-families-pay-the-cm-proof
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How Branch Families Pay
+      the CM Proof without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex
+  section_title: Energy, Enstrophy, and Source Reserves
+  spine_id: energy-enstrophy-and-source-reserves
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Energy, Enstrophy, and
+      Source Reserves without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex
+  section_title: Kernelized Lifted-Band Branch
+  spine_id: kernelized-lifted-band-branch
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Kernelized Lifted-Band
+      Branch without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex
+  section_title: Lower-Prefix and Upper-Tail Survivors
+  spine_id: lower-prefix-and-upper-tail-survivors
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Lower-Prefix and Upper-Tail
+      Survivors without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex
+  section_title: Direct Closure and the Four-Body Diagnostic
+  spine_id: direct-closure-and-the-four-body-diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Direct Closure and the
+      Four-Body Diagnostic without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex
+  section_title: Derivative Recovery on the Same Surface
+  spine_id: derivative-recovery-on-the-same-surface
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Derivative Recovery on
+      the Same Surface without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex
+  section_title: Scale Barriers and High-Frequency Tails
+  spine_id: scale-barriers-and-high-frequency-tails
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Scale Barriers and High-Frequency
+      Tails without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex
+  section_title: Shell Gain and Half-Derivative Branch
+  spine_id: shell-gain-and-half-derivative-branch
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Shell Gain and Half-Derivative
+      Branch without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  section_title: How Forward Support Enters the Proof
+  spine_id: how-forward-support-enters-the-proof
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How Forward Support Enters
+      the Proof without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  section_title: How Branch Families Pay the Proof
+  spine_id: how-branch-families-pay-the-proof
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
+  repo_sources_excluded: []
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to forward-branch-treatment.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside How Branch Families Pay
+      the Proof without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+author_contract:
+  arc_id: forward-branch-treatment
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - forward
+  - branch
+  - "(support|obstruction|open)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+context_disposition_note: Current TeX source passed the Math/Reader critic. Packed
+  context refs not cited by this arc are recorded in repo_sources_excluded so context
+  ledgers do not become phantom rewrite demands.
+certification_note: Current TeX source for this whole proof arc passed the Math/Reader
+  critic; this pack certifies existing page prose instead of forcing a gratuitous
+  rewrite.

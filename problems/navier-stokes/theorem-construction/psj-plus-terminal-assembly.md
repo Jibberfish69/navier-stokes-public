@@ -118,7 +118,7 @@ The exact-potential angular ledger now applies directly:
 
 ```math
 \int_{\mathcal G_J}M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
+\le C_{\mathrm{PSJT9}}
 \mathcal E_{J,M}^{obs}+o_J(1).
 \tag{PSJT.9}
 ```

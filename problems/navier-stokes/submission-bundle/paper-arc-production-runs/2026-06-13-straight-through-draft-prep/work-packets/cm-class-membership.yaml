@@ -1,0 +1,870 @@
+---
+version: 1
+kind: ns-paper-arc-author-work-packet
+generated_at: '2026-06-14T00:23:21Z'
+arc_id: cm-class-membership
+work_unit: write finished TeX prose for this proof arc
+paper_goal: make the manuscript read as one human mathematical proof, with repo status
+  visible only through the argument on the page
+arc:
+  arc_id: cm-class-membership
+  title: CM class membership
+  priority: 3
+  status: ready_for_author_packet
+  author_job: define the CM test as the reader-facing class-membership object, with
+    every witness role separated
+  support_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  required_patterns: &2
+  - "(Member|class membership)"
+  - participation
+  - "(CM|contrapositive)"
+  spine_refs:
+  - spine_id: silver-standard-approach
+    section_title: Silver Standard Approach
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:442
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 442
+    line_end: 468
+  - spine_id: defining-class-membership
+    section_title: Defining Class Membership
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:469
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 469
+    line_end: 551
+  - spine_id: participation-and-one-field-coherence-witness-laws
+    section_title: Participation and One-Field Coherence Witness Laws
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:552
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 552
+    line_end: 595
+  - spine_id: the-class-membership-exit-method
+    section_title: The Class-Membership Exit Method
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex
+    line_start: 1
+    line_end: 144
+  - spine_id: expanded-cm-branch-obligations
+    section_title: Expanded CM Branch Obligations
+    source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+    source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+    line_start: 6
+    line_end: 84
+  context_cost: 377
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+source_payment_table:
+- spine_id: silver-standard-approach
+  section_title: Silver Standard Approach
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:442
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: &1
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+- spine_id: defining-class-membership
+  section_title: Defining Class Membership
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:469
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: participation-and-one-field-coherence-witness-laws
+  section_title: Participation and One-Field Coherence Witness Laws
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:552
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: the-class-membership-exit-method
+  section_title: The Class-Membership Exit Method
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: expanded-cm-branch-obligations
+  section_title: Expanded CM Branch Obligations
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+source_sections:
+- spine_id: silver-standard-approach
+  section_title: Silver Standard Approach
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:442
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 442
+  line_end: 468
+  text: |
+    \section{Silver Standard Approach}
+
+    The silver route is the class-membership route.  It starts with a terminal record \(Q\) selected from the original Navier--Stokes solution and asks whether that record still belongs to the same solution branch.  The route is contrapositive: the record that keeps the required class data is read on the continuation side, and the record that loses a required class datum supplies the exit witness.
+
+    The split is
+    \[
+      \begin{array}{rcl}
+      \text{pass} &:& \Member(Q;\Owork),\\[2mm]
+      \text{fail} &:& \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+      \end{array}
+    \]
+    The pass line means that the selected record keeps the original datum, the fixed viscosity, the Navier--Stokes pressure law, incompressibility, the transported carrier, the participation tower, and a positive-scale field readout strong enough for the continuation criterion in force.  The fail line means that the same selected record loses one of those requirements.  The proof names the first lost requirement.
+
+    The first lost requirement is read in Pack-first order:
+    \[
+      \begin{aligned}
+      \text{lost same-fluid carrier} &\longmapsto \neg\Pack_Q,\\
+      \text{lost pressure-viscosity-incompressibility participation} &\longmapsto \Pack_Q\wedge\neg\Part_{N,Q},\\
+      \text{lost positive-scale coherent field readout} &\longmapsto
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+      \end{aligned}
+    \]
+    The three lines are witness-face readings of one membership question.  Pack asks whether the selected record is carried by the same fluid body.  Part asks whether the same Navier--Stokes law acts on that body through the finite derivative tower being tested.  Field asks whether the resulting readings still live on one positive scale.
+
+    The forward-positive work determines what \(Q\) is.  It may select the transported torus atlas, an exterior-source survivor in \(\mathbb R^3\), a high-frequency tail, a source reserve, or an annular residual branch.  After selection, the silver route holds to that exact record.  The page has to show the record, name the class data it carries, and derive the first Pack, Part, or Field loss on that record.
+
+    This gives the closure test used below.  A branch closes on the silver side after the page makes the same-solution record readable and then shows the face failure.  A branch closes on the gold side when the direct forward estimate supplies the continuation readout.  Material that has only explained, motivated, or diagnosed a candidate obstruction remains support until it selects a same-solution terminal record.
+  truncated: false
+- spine_id: defining-class-membership
+  section_title: Defining Class Membership
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:469
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 469
+  line_end: 551
+  text: |
+    \section{Defining Class Membership}
+
+    Class membership is the statement that the terminal record is still a record of the same Navier--Stokes solution.  Write
+    \[
+      \Owork=\mathfrak O_{\NS}^{\mathrm{work}}(u_0,\nu,u,p)
+    \]
+    as a reader-facing name for that fixed object.  Here \(u_0\) is the initial datum, \(\nu>0\) is the fixed viscosity, and \((u,p)\) is the velocity-pressure pair solving the original incompressible Navier--Stokes system up to the alleged terminal time.  The same object also carries the pressure law, incompressibility, and the material carrier transported by \(u\).
+
+    A terminal record \(Q\) is tested against this fixed object:
+    \[
+      \Member(Q;\Owork).
+    \]
+    This sentence has a concrete meaning.  The record \(Q\) remains attached to the same initial datum, the same preterminal velocity-pressure solution, the same viscosity, the same pressure law, the same divergence-free condition, the same transported material carrier, and the same terminal role in the alleged breakdown.  A related flow, an Euler boundary picture, a diagnostic trace, or an exported source record may help the argument, but membership is reserved for the selected record of the original branch.
+
+    The exit predicate records the loss of that membership statement:
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    The proof derives this negation by finding the first class datum that the selected terminal record cannot carry.  That is why the witness tree has faces.  The faces make the failure inspectable.
+
+    \subsection{The fixed class data}
+
+    The class data are fixed by the equation
+    \[
+      \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0,
+      \qquad
+      u(\cdot,0)=u_0 .
+    \]
+    The pressure is the pressure generated by incompressibility.  The carrier is moved by the same velocity field.  The viscosity remains the same positive number.  The terminal role is fixed by the contradiction setup: \(Q\) is offered as the finite-time terminal record of the original solution.
+
+    A proposed record that changes one of these data has left the class being tested.  A regularized equation, inviscid comparison branch, detached source model, private packet, or generated geometry can still be useful.  It becomes part of the membership proof only when the page reattaches it to \(\Owork\) and identifies it with the selected record \(Q\).  Before that reattachment, it is support material or a boundary picture.
+
+    \subsection{Participation as one law}
+
+    Participation is the pressure-viscosity-incompressibility law acting on the same carrier.  The equation reads transport, pressure, viscosity, and incompressibility together:
+    \[
+      D_tu+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0,
+      \qquad
+      D_t=\partial_t+u\cdot\nabla .
+    \]
+    At finite derivative depth write
+    \[
+      U_k:=\nabla^k u,\qquad
+      K_k:=-\nabla^{k+1}p+\nu\Delta U_k .
+    \]
+    Differentiating the original equation gives
+    \[
+      D_tU_k=K_k+B_k(u,\nabla u,\ldots,\nabla^k u),
+      \qquad 0\le k\le N,
+    \]
+    where \(B_k\) is the commutator expression created by differentiating the transport term.  This tower is not a new equation.  It is the original Navier--Stokes law read at the derivative depths needed by the terminal test.
+
+    \subsection{The witness certificate}
+
+    At finite depth \(N\) and positive scale \(r\), the manuscript uses the analytic witness
+    \[
+      \CM_{N,r,Q}
+      :=
+      \Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+    \]
+    This witness is the local certificate for membership.  Pack supplies the same-fluid carrier.  Part supplies the same pressure-viscosity-incompressibility tower on that carrier.  Field supplies one positive scale on which neighboring velocity, pressure, and tower readings remain readings of one field.
+
+    The installed certificate direction is
+    \[
+      \forall N\ \exists r_N>0:\ \CM_{N,r_N,Q}
+      \quad\Longrightarrow\quad
+      \Member(Q;\Owork),
+    \]
+    with the branch readout attached at the continuation depth selected later in the proof.  The fail side is read by the Pack-first loss of this same certificate.  A loss of carrier is \(\neg\Pack_Q\).  A retained carrier with lost participation is \(\Pack_Q\wedge\neg\Part_{N,Q}\).  A retained carrier and retained participation with no positive coherent field scale is
+    \[
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    The witness certificate is the bridge between the readable class statement \(\Member(Q;\Owork)\) and the three concrete tests the proof can inspect.
+
+    \subsection{Euler as a boundary reading}
+
+    Euler material has a narrow role in this paper.  It helps name a boundary of the fixed-viscosity Navier--Stokes class.  A terminal picture may retain incompressible transport and pressure balance while losing the fixed positive-viscosity law.  Such a picture may be understandable as an inviscid boundary object, while the Navier--Stokes class test records the lost participation or lost field readout.
+
+    Slip and jump pictures belong in the manuscript only in this limited sense.  Matching normal flux with incompatible tangential readings can still describe an inviscid weak balance.  For the fixed-viscosity Navier--Stokes class, the same picture is tested by the same three faces: carrier, participation, and field.  The comparison helps the reader see the boundary; the class-membership conclusion is charged to the Navier--Stokes record itself.
+  truncated: false
+- spine_id: participation-and-one-field-coherence-witness-laws
+  section_title: Participation and One-Field Coherence Witness Laws
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:552
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 552
+  line_end: 595
+  text: |
+    \section{Participation and One-Field Coherence Witness Laws}
+
+    The CM test is read on one witness record:
+    \[
+      \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*).
+    \]
+    The entries say what the proof is allowed to hold fixed.  The datum \(u_0\), viscosity \(\nu\), and velocity-pressure pair \((u,p)\) identify the original branch.  The object \(Q\) is the selected terminal record.  The integer \(N\) is the derivative depth used by the test.  The scale \(r>0\) is the positive field scale.  The carrier \(\Phi\) is transported by the same velocity field, and \(T_*\) is the alleged finite terminal time.  Pack, Part, and Field are all read on this record.
+
+    \begin{definition}[Witness record]
+    A witness record is one terminal data record
+    \[
+      \WitnessRecord=(u_0,\nu,u,p,Q,N,r,\Phi,T_*),
+    \]
+    where \((u,p)\) is the preterminal solution generated by \(u_0\), \(\nu\) is the fixed viscosity, \(Q\) is the selected terminal object, and \(\Phi\) is the transported carrier attached to the same branch.
+    \end{definition}
+
+    \begin{definition}[Participation witness law]
+    The statement \(\Part_{N,Q}\) means that \(Q\) carries the same pressure-viscosity-incompressibility participation law through tower depth \(N\).  On the packet and time window under test,
+    \[
+      D_tU_k=K_k+B_k,
+      \qquad
+      K_k=-\nabla^{k+1}p+\nu\Delta U_k,
+      \qquad
+      0\le k\le N,
+    \]
+    and every term is read from the same branch \((u,p)\) and the same transported carrier \(\Phi\).
+    \end{definition}
+
+    \begin{definition}[One-field witness law]
+    The statement \(\Field_{N,r,Q}\) means that, after the carrier and participation law have been fixed, one positive scale \(r>0\) carries coherent field data through depth \(N\).  One concrete model is the finite-difference bound
+    \[
+      \sup_{\substack{x,x+h\in Q_t\\0<|h|\le r}}
+      \sum_{k=0}^{N}
+      \frac{
+        |U_k(x+h,t)-U_k(x,t)|
+        +
+        |K_k(x+h,t)-K_k(x,t)|
+      }{|h|}
+      <\infty
+    \]
+    on the time slices being tested.
+    \end{definition}
+
+    The order of the three faces is part of the proof.  Pack asks whether the same-fluid body is present.  Part asks whether the same Navier--Stokes law acts on that body.  Field asks whether the readings produced by that law fit into one positive-scale field.  A terminal branch is charged to the first face it loses.  This keeps the paper from calling a raw endpoint, a diagnostic trace, or a singular-looking quantity an exit before it has been tested as a same-solution record.
+  truncated: false
+- spine_id: the-class-membership-exit-method
+  section_title: The Class-Membership Exit Method
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+  source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex
+  line_start: 1
+  line_end: 144
+  text: |
+    \section{The Class-Membership Exit Method}
+    \label{sec:cm-exit-method}
+
+    The class-membership method begins where a direct positive estimate leaves a terminal object behind.  A forward branch may produce a source reserve, a high-frequency tail, a compactness artifact, a surface-fidelity defect, an endpoint remnant, or an export boundary.  The CM question is always the same: once that survivor is selected as the terminal record \(Q\), does it still belong to the same Navier--Stokes branch?
+
+    The working class object is \(\Owork\).  It is fixed by the original datum, the fixed viscosity, the preterminal velocity-pressure branch, the pressure law, incompressibility, and the transported material carrier.  Membership means that the selected terminal record remains a record of that same object.  Class exit is the derived statement
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    The derivation of this negation is the work of the witness faces:
+    \[
+      \neg\Pack_Q,\qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+
+    At depth \(N\) and scale \(r\), the certificate being tested is
+    \[
+      \CM_{N,r,Q}:=\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+    \]
+    The certificate direction used in the paper is
+    \[
+      \forall N\ \exists r_N>0:\ \CM_{N,r_N,Q}
+      \Longrightarrow
+      \Member(Q;\Owork),
+    \]
+    with the branch readout attached at the continuation depth in force.  The fail side is the Pack-first loss of that certificate on the same selected record.
+
+    \paragraph{Pack.}
+    Pack is the carrier face.  The selected terminal record has to be carried by a positive same-fluid packet or material body.  A bare point, a detached donor ancestry, or a source atom with no transported body fails before the proof can ask whether the same equation participates on it.
+
+    \paragraph{Part.}
+    Part is the same-law face.  After a carrier is present, the record still has to carry the pressure-viscosity-incompressibility law of the original branch through the finite tower depth \(N\).  A survivor that lives only after changing the pressure law, losing the viscous tether, leaving the divergence-free class, or detaching from the preterminal carrier fails at this face.
+
+    \paragraph{Field.}
+    Field is the positive-scale readout face.  After carrier and participation survive, the record still has to admit one coherent positive-scale field reading.  A terminal branch with no such scale fails by
+    \[
+      \forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    Field is the final face because it asks for readable continuation data after the object and law have already been fixed.
+
+    \subsection{The endpoint point and the annular witness}
+    \label{subsec:annular-limit-witness}
+
+    The endpoint point \((x_*,T_*)\) is only one part of the singularity witness.  A radius-zero point lacks the positive packet needed for continuation.  Finite-time blowup is observed through the fields on neighborhoods shrinking to that point.  Those neighborhoods have positive radius before the limit, so the proof follows them.
+
+    Choose radii \(\rho_m\downarrow0\) and times \(t_m\uparrow T_*\).  A typical annular window is
+    \[
+      \mathcal A_m
+      =
+      \{(x,t):\rho_{m+1}<|x-x_*|<\rho_m,\quad
+      T_*-\rho_m^2<t<T_*\}.
+    \]
+    Each \(\mathcal A_m\) is still part of the preterminal Navier--Stokes solution.  The statement that the limiting point has radius zero only classifies the point-object.  The singularity claim is carried by the positive-radius fields on the annuli.
+
+    The current forward branch measures the unpaid annular load by the residual quantity \(D_m^{\mathrm{res}}\).  At dyadic scale \(2^{-j_m}\simeq\rho_m\), write
+    \[
+      u_j=\Delta_j u,\qquad
+      E_j(t)=2^{2j}\|u_j(t)\|_2^2,\qquad
+      D_j(t)=2^{4j}\|u_j(t)\|_2^2 .
+    \]
+    If \(\Phi_j^+(t)\) is the positive nonlinear source into the shell, then
+    \[
+      \frac12\frac{d}{dt}E_j(t)+c_0\nu D_j(t)\le \Phi_j^+(t).
+    \]
+    Solving from an entrance time \(t_0\) gives the unpaid refill contribution
+    \[
+      D_j^{\mathrm{res}}(t;t_0)
+      :=
+      2^{2j}\int_{t_0}^{t}e^{-c_0\nu2^{2j}(t-s)}\Phi_j^+(s)\,ds .
+    \]
+    The annular \(D_m^{\mathrm{res}}\) is this residual contribution localized to shells and time windows meeting \(\mathcal A_m\), after heat descendants, through-flow, legal losses, finite payments, and paid dissipation have already been removed.
+
+    The gold annular supplier would prove that this residual refill cannot persist on every shrinking same-solution schedule.  One concrete form is
+    \[
+      \forall\varepsilon>0\ \exists\rho_\varepsilon>0
+      \quad\text{such that}\quad
+      \rho_m<\rho_\varepsilon \Longrightarrow D_m^{\mathrm{res}}\le\varepsilon,
+    \]
+    and a stronger tail form is
+    \[
+      \sup_{\mathcal A}\ \sum_{m\ge M}D_m^{\mathrm{res}}\longrightarrow0
+      \qquad(M\to\infty).
+    \]
+    These are forward-positive estimates.  They are the gold route because they would control the annular refill directly and recover the continuation readout.
+
+    The obstruction is visible on heat-scale windows.  Put \(\lambda_m=2^{j_m}\), \(\tau_m=\lambda_m^{-2}\), and
+    \[
+      \Phi_{j_m}^+(s)=a_m\,1_{[t_m-\tau_m,t_m]}(s),
+      \qquad 0<a_0\le a_m\le A .
+    \]
+    Then
+    \[
+      \sum_m\int_{t_m-\tau_m}^{t_m}\Phi_{j_m}^+(s)\,ds
+      \le A\sum_m2^{-2j_m}<\infty,
+    \]
+    while
+    \[
+      D_{j_m}^{\mathrm{res}}(t_m;t_m-\tau_m)
+      =
+      a_m\frac{1-e^{-c_0\nu}}{c_0\nu}
+      \ge a_0\frac{1-e^{-c_0\nu}}{c_0\nu}.
+    \]
+    Finite source mass and heat-window localization do not force the residual annular refill to vanish.  This calculation is the current gold obstruction in the annular branch.
+
+    The silver route receives that obstruction only after the annular residue has been admitted as the same-solution terminal witness.  Once the annular witness is admitted, the carrier side has already been paid for this test.  A surviving nonsmooth annular branch then closes by Part or by Field.  It closes by Part when the branch no longer carries the same pressure-viscosity-incompressibility tower.  It closes by Field when participation survives and every positive field scale fails.
+
+    The Field alternative has a concrete analytic reading.  If Part survives and a positive-scale Field readout gives an \(H^s\), \(s>5/2\), bound \(M\), then
+    \[
+      \|\Delta_j\mathbb P\nabla\cdot(u\otimes u)\|_2
+      \le C_sM^2\,2^{-j(s-1)},
+      \qquad
+      \|u_j\|_2\le M\,2^{-js}.
+    \]
+    Hence
+    \[
+      \Phi_j^+(t)\le C_sM^3\,2^{(3-2s)j}
+      \quad\text{and}\quad
+      D_j^{\mathrm{res}}(t;t_0)\le C_s'M^3\,2^{(3-2s)j}\to0 .
+    \]
+    A selected residual pulse with \(D_{j_m}^{\mathrm{res}}\ge\eta>0\) cannot keep that positive-scale Field readout.  After Part has survived, the nonzero residual pulse is a Field failure.
+
+    \subsection{Periodic and whole-space payments}
+
+    The periodic branch pays selection by using the whole transported material atlas.  The terminal object is \(Q_{\mathrm{atlas}}\).  The atlas fixes the packet before local branch examples are read, so the proof cannot switch to a private diagnostic packet after seeing the obstruction.  Loss of atlas selection or material comparability is Pack failure for \(Q_{\mathrm{atlas}}\).  Once an annular residue has already been admitted through the atlas, carrier and selection have been paid for that residue; the remaining nonsmooth branch is decided by Part or Field.
+
+    The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM packet test: Pack when no same-fluid material address remains, Part when the source has detached from the same equation and participation law, and Field when retained Pack plus Part still has no fixed positive field scale.
+
+    These two payments show how support work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Pack, Part, and Field.
+
+    \subsection{The pass-or-exit conclusion}
+
+    The terminal split is
+    \[
+      \text{terminal witness candidate}
+      \quad\longrightarrow\quad
+      \begin{cases}
+      \text{membership side: continuation readout},\\
+      \text{exit side: first failed requirement}.
+      \end{cases}
+    \]
+    The pass side belongs to classical continuation logic.  The fail side gives class exit.  After a record has entered the same-solution test, a lawful member-continuation record and a nonsmooth witness with a first failed membership requirement are distinct outcomes of the same test.
+
+    This is the proof role of the CM method.  It consumes the terminal survivor produced by the branch analysis, states what the selected record has to carry in order to remain a member, and records the first requirement it loses.
+  truncated: false
+- spine_id: expanded-cm-branch-obligations
+  section_title: Expanded CM Branch Obligations
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+  source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  line_start: 6
+  line_end: 84
+  text: |
+    \section{Expanded CM Branch Obligations}
+
+    This appendix explains how the large branch inventory collapses to a small number of CM obligations.  The reader should be able to see the proof role without inspecting every source row.  Each family below states the same mathematical question in a different terminal setting: what is the selected record \(Q\), which class datum is being tested, and which face closes the fail branch?
+
+    \subsection{Field-face terminal obligations}
+
+    The largest family consists of terminal source walls, source reserves, source pulses, square-source windows, receiver defects, finite-difference defects, endpoint readout defects, and Zeno source residues.  In these cases carrier and participation have survived far enough for the proof to ask the final question: does one positive scale carry the field coherently?
+
+    The retained-Pack-and-Part Field statement is
+    \[
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+      \quad\Longrightarrow\quad
+      \Exit(Q;\Owork).
+    \]
+    The proof is short because the work is in the face order.  Pack supplies the same-fluid carrier.  Part supplies the same Navier--Stokes participation tower.  The remaining continuation requirement is the positive-scale field readout.  When every \(r>0\) fails, the branch exits through Field.
+
+    This is the family used by retained pulses and annular source residues after selection.  The page should read these branches as failed positive-scale readability.  The proof force comes from the lost coherent field scale, not from the mere presence of a large quantity.
+
+    \subsection{Finite Pack/Part/Field disjunction obligations}
+
+    Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Pack-first test on each alternative.  Every alternative lands in one of the three displayed losses:
+    \[
+      \neg\Pack_Q,\qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    A finite disjunction of these losses is still exhausted by the same witness tree.  Once the alternatives are exhausted, no extra terminal branch remains outside the pass-or-exit law.
+
+    This family turns case lists into a finite proof obligation.  The list is finite, and each item has the same closing obligation: select the record and show the first failed face.
+
+    \subsection{Inherited-authority obligations}
+
+    Some entries carry already established CM content.  They copy an installed terminal packet, an authority surface, a generated carrier, or a face-exhaustion result.  They do not introduce a fresh terminal object for the paper to test.
+
+    Their mathematical role is restraint.  An inherited-authority entry contributes through the theorem or face sweep it inherits from.  It supplies no fourth membership requirement and no new continuation branch.  The manuscript keeps these entries visible so the reader can see why already-paid material is not being counted again as an independent terminal alternative.
+
+    \subsection{Pack-face terminal obligations}
+
+    Pack-face obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
+    \[
+      \neg\Pack_Q\quad\Longrightarrow\quad\Exit(Q;\Owork).
+    \]
+    A member record has to be carried by a positive same-fluid packet before participation and field readout can even be asked.  When that carrier is absent, the branch exits at Pack.
+
+    This family handles bare terminal atoms, detached source objects, failed packet admissions, and no-carrier endpoint readings.  The conclusion is not that the branch is visually singular.  The conclusion is that the selected record cannot enter the same-solution membership test.
+
+    \subsection{Part-face terminal obligations}
+
+    Part-face obligations keep enough carrier structure to pass Pack for the case split, then lose the same Navier--Stokes participation law.  The mechanisms include loss of the pressure-viscosity tether, failure of the participation envelope, dropped same-PDE law, and no-drop defects.  The closing statement is
+    \[
+      \Pack_Q\wedge\neg\Part_{N,Q}
+      \quad\Longrightarrow\quad
+      \Exit(Q;\Owork).
+    \]
+    The selected record is still a carried object.  It no longer participates in the original pressure-viscosity-incompressibility tower through the derivative depth being tested.  The first lost membership datum is participation.
+
+    This family is where ``dead'' mechanisms belong when dead means loss of same-object dynamics.  The word is not a synonym for small velocity or no visible motion.  It names a Part-side failure of the original law on the selected carrier.
+
+    \subsection{Support-boundary obligations}
+
+    Support-boundary entries have no CM conclusion until they select a same-fluid terminal record or pay a named hinge.  They include history surfaces, audits, context material, downstream exports, readout consumers, source recovery, manuscript presentation surfaces, supplier notes, and comparison material.  Their role is
+    \[
+      \text{support}\quad\longrightarrow\quad
+      \text{later Pack, Part, Field, membership-readout, or no-third-branch hinge}.
+    \]
+    They can strengthen the pass branch, sharpen the obstruction, explain why a witness matters, or prepare a later selection.  They remain support until the page identifies the selected same-solution record and proves either \(\Member(Q;\Owork)\) or \(\Exit(Q;\Owork)\).
+
+    This boundary keeps the appendix honest.  Useful material becomes proof only when the page shows the exact same-solution record it selects and the exact face or readout it pays.  Until then, it remains support.
+
+    \subsection{How the appendix is used}
+
+    The main paper uses these six families as a reader guide for the branch material.  A branch is closed only after it has one of the following forms:
+    \[
+      \Member(Q;\Owork),\qquad
+      \neg\Pack_Q,\qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    Every other entry is support, inherited authority, obsolete material, or an open endpoint.  The appendix keeps the many branch names from overwhelming the proof spine by making every live branch pay the same class-membership question.
+  truncated: false
+support_refs:
+- path: problems/navier-stokes/route-lock.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    same-fluid CM terminal packet test, its finite failure type is exhausted as not
+      Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that derived witness-face
+      failure supports `Exit(Q):=not Member(Q)`. The two current reopeners are only a
+      legal in-class nonsmooth third branch, or failure of Clay terminal CM entry / finite-failure
+      exhaustion / CM contrapositive embedding. Older direct-live endpoint, TerminalCMNoExit,
+- path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    and the uniform two-sided obstruction lemma. The Clay-facing proof uses the
+          pass-or-exit obstruction engine: the pass side supplies local non-vacuity by
+          the simplest lawful smooth/Member(Q) witness, while the fail side closes only
+          after CM-test entry and a concrete Pack/Part/Field face failure. The 2026-05-28
+          critical H^{1/2} route notes are represented here as conditional CM class-exit/Field
+- path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    - failure-type-classification
+        - silver-standard-approach
+        - defining-class-membership
+        - participation-one-field-coherence
+        - packet-witness-law
+- path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+    - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+    - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+- path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    routing engine, but the terminal-radius closure is reopened for the annular-limit
+            witness: lawful pressure/flux payment, donor delivery, return, or singulet
+            compatibility is pass and gives Member(Q), while failed payment, donor delivery,
+            return, or singulet compatibility enters the installed Clay CM tree only after
+            the surrounding positive-radius annular fields have been paid by forward control
+- path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+    - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
+    - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+    - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
+- path: problems/navier-stokes/theorem-construction/chatgpt-terminal-zeno-vortex-ontology-verbatim-note-20260528.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ### Assistant
+
+    The digest shows Navier–Stokes is the active ready lane, with the current edge centered on class-membership/law-endpoint closure. I’m now reading the actual surfaces around that route.
+
+    ### Assistant
+- path: problems/navier-stokes/theorem-construction/heat-governed-carrier-synthesis-for-tower-and-shadow-route.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    1. class-membership fact about the MPP fluid;
+    2. auxiliary geometric construction from that fluid;
+    3. auxiliary evolution on the derived geometry;
+- path: problems/navier-stokes/theorem-construction/mcp-averaged-consumer-chain-avg-end-a-6ee93788bd.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ```
+
+    Combining averaged pack/participation structure with averaged one-field preservation yields averaged class-membership forward invariance:
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mcp-compact-endpoint-matrix-formalization-read-end-1a51c290af.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ## Status
+
+    Compact theorem-facing endpoint matrix for the pointwise class-membership route.
+
+    ## Endpoint Package
+- path: problems/navier-stokes/theorem-construction/mcp-endpoint-matrix-minimality-theorem.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ```
+
+    They are exhaustive and irredundant for the averaged class-membership route.
+
+    ## Exhaustiveness
+- path: problems/navier-stokes/theorem-construction/mcp-m_q-class-witness-finalization-d0c2f3ea60.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ## Statement
+
+    On a retained still-live window `Q`, the pointwise class-membership object
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mcp-pctp-hard-terminal-tail-uniformization-read-cover-a6c643da31.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ```math
+    OriginalSmoothData \Longrightarrow \text{uniform terminal-tail retained class-membership readout}.
+    ```
+- path: problems/navier-stokes/theorem-construction/mcp-pointwise-class-readout-to-h-s-continuation-norm-ecq-a-08ac0ba729.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ## Statement
+
+    If the pointwise class-membership witness
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    ```
+
+    The old pointwise class-membership conclusion remains quarantined behind
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    The repo has converged around a CM/class-exit proof grammar.
+
+    Smoothness is read as preservation of class membership:
+
+    ```text
+- path: problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    This note uses the installed CM grammar and readout surfaces:
+
+    - `mpp-exact-class-membership-witness-theorem.md`;
+    - `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`;
+    - `mpp-continuation-packet-generated-cm-contrapositive-20260514.md`;
+- path: problems/navier-stokes/theorem-construction/mpp-basac-terminal-atom-cm-face-labeling-20260519.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    Here `J_in` is incoming participation flux, `M_CM` is the finite shared-participation/source-current envelope, and `Exit` denotes paid legal/projected/cutoff/boundary exits.
+
+    The class-membership witness is
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mpp-class-internal-scalecritical-source-control-tree-exclusion-20260507.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    with `Field_{N,r,Q}`. Since `CM_{N,r,Q}` includes `Field_{N,r,Q}`, it cannot
+    coexist with `CM_{N,r,Q}`; and along the installed certificate direction
+    `CM=>Member`, it cannot be present inside a CM-witnessed NS-class member packet.
+
+    This proves `ClassInternalSourceTreeExclusion.A`.
+- path: problems/navier-stokes/theorem-construction/mpp-class-membership-constitutive-import-map.md
+  matched_keywords:
+  - Member
+  - class
+  - membership
+  - participation
+  - coherence
+  - CM
+  excerpt: |-
+    # MPP Class-Membership Constitutive Import Map
+
+    ## Status
+
+    Theorem-facing integration note.
+author_contract:
+  arc_id: cm-class-membership
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns: *2
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+math_dependency_policy:
+  containment_rule: theorem work may start only from a named manuscript gap in this
+    arc, and the result must return as TeX-ready derivation, exact obstruction, or
+    CM counterpart
+  forbidden_work:
+  - free-running proof search
+  - new theorem attempts without a section_ref
+  - positive-forward estimate churn that does not change the manuscript
+  - route summaries that do not pay a line on the page
+  required_handoff_fields:
+  - section_ref
+  - gap_sentence
+  - repo_sources_used
+  - gold_status
+  - silver_or_cm_counterpart
+  - tex_ready_replacement
+  arc_author_job: define the CM test as the reader-facing class-membership object,
+    with every witness role separated
+math_reader_critic_contract:
+  arc_id: cm-class-membership
+  critic_scope: criticize only this authored arc and return repairable failures tied
+    to the replacement text
+  must_answer:
+  - claim_truth_attack
+  - reader_thread_attack
+  - unpaid_derivation_attack
+  - repair_decision
+  acceptable_repair_decisions:
+  - passes after repair
+  - open endpoint written explicitly
+  - blocked with exact manuscript gap
+  integration_rule: the author pack cannot pass until each replacement records a resolved
+    math/reader criticism decision
+verification_plan:
+  ordinary_batch_checks:
+  - verify author pack replacements
+  - integrate pack through TeX source
+  - scan changed source for unfilled text and machinery voice
+  - run paper-arc and source-batch tests
+  - compile changed manuscript once
+  - extract and reread changed section pages
+  full_pdf_finality_check: only after a full draft milestone or an actual finality
+    claim
+  arc_completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/cm-class-membership.yaml
+output_rule: fill the referenced author pack with final TeX replacements, verify it,
+  integrate it, then build and reread only the changed sections

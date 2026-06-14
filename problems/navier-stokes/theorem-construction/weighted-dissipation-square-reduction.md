@@ -86,7 +86,8 @@ By the `\ell^1 * \ell^2 \to \ell^2` Young inequality, for each fixed `t`,
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
 =
 \|y(t)\|_{\ell^2_k}^2
-\lesssim_\sigma
+\le
+\|\mu\|_{\ell^1(\mathbb Z)}^2
 \|x(t)\|_{\ell^2_j}^2
 =
 \sum_{j>N+M+4}2^j D_j(t)^2.

@@ -17,7 +17,7 @@ measure.
 
 ## Starting Local Balance
 
-On a localized bad pulse `P`, the local shell balance has schematic form
+On a localized bad pulse `P`, the local shell balance has the form
 
 ```math
 \partial_tE_P+\nu D_P
@@ -49,7 +49,7 @@ such that:
 
 ```math
 \int d\pi(\cdot\to P)
-\gtrsim
+\ge c_{\pi}
 (\mathcal S_P^{nl})_+;
 ```
 
@@ -75,7 +75,7 @@ The signed lifted-remainder object has principal form
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
@@ -131,9 +131,9 @@ A scalar model captures the obstruction:
 ```math
 F_P=\sum_{\alpha=1}^{M} f_\alpha,
 \qquad
-F_P\simeq 1,
+F_P:=1,
 \qquad
-f_\alpha\simeq M^{-1}.
+f_\alpha:=M^{-1}.
 ```
 
 For arbitrarily large `M`, no single parent has comparable strength.  A

@@ -15,7 +15,7 @@ already forbids terminal source-balanced active pulses.
 
 ## Candidate Mechanism
 
-At dyadic shell `j`, a schematic shell energy satisfies
+At dyadic shell `j`, the shell energy inequality under test is
 
 ```math
 \frac{d}{dt}E_j(t)+c\nu 2^{2j}E_j(t)\le F_j(t),
@@ -98,4 +98,3 @@ SourcePulseExclusion.A.
 ```
 
 No promotion is licensed from heat semigroup damping alone.
-

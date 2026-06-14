@@ -1,0 +1,1027 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-68
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-68
+  sequence: 220
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 68
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 59183
+  line_end: 59661
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59183
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59312
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59355
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59467
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59554
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59600
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59633
+  subsection_titles:
+  - Ext Cascade s R3 Theorem Attempt
+  - R3 Read Cover
+  - Referee-Hard Upgraded Body 4 Packet Subsection
+  - Navier-Stokes Regularity Upgrade Schemas
+  - source record-Wide NS Idea Consolidation And Proof Convergence
+  - Restricted CG Reference-Gap Persistence
+  - Retained-Cover Counting Theorem Does Not Reduce to Active-Strip Mass Pricing
+  - Retained-Cover Counting Theorem Does Not Reduce to the F.11c Tubular Packet
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Ext Cascade s R3 Theorem Attempt
+    line_start: 59183
+    line_end: 59209
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59183
+    start_anchor: "\\subsection{Ext Cascade s R3 Theorem Attempt}\n"
+    end_anchor: "\\subsection{R3 Read Cover}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Ext Cascade s R3 Theorem Attempt}
+
+      where E s tail controls exterior commutator, cutoff, pressure, and high-frequency flux terms in the localized H s identity.
+
+      \[
+      eta_R=0\quad |x|\le R,
+      \qquad
+      eta_R=1\quad |x|\ge 2R,
+      \qquad
+      |\nabla^k eta_R|\le C_{k,57577} R^{-k},
+      \]
+
+      \[
+      \frac d{dt}\|\eta_R\Lambda^s u\|_2^2
+      +\nu\|\eta_R\nabla\Lambda^s u\|_2^2
+      \le
+      C_s\|\nabla u\|_{L^\infty}\|\eta_R\Lambda^s u\|_2^2
+      +C_{s,\nu}\mathcal E_s^{tail}(R,t).
+      \]
+
+      The first term is the transport/stretching coefficient. The tail record contains annular commutators, cutoff losses, and pressure commutators from the Riesz pressure localization.
+
+      The coefficient int 0 T * ||nabla u|| L infty is continuation-grade. Spending it here would assume the high-order control that the R3 branch aims to prove. Exterior L 2 tightness and compact-core tower bounds leave high-frequency derivative packets at spatial infinity uncontrolled.
+
+      Ext Cascade s R3 is conditionally valid as a Gronwall mechanism, while its derivation from Original Smooth Data R3 remains open. The next theorem can only use Ext Cascade s R3 as an explicit hypothesis.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Read Cover
+    line_start: 59210
+    line_end: 59227
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+    start_anchor: "\\subsection{R3 Read Cover}\n"
+    end_anchor: "\\subsection{Tail.Hs R3 From Ext Cascade s R3}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{R3 Read Cover}
+
+      where A core is contained in a compact spatial ball B R and A tail lies in the exterior region.
+
+      On A core, strict SCF-goodness is open in same-fluid coordinates. Compactness of A core gives a finite subcover by moving cylinders
+
+      \[
+      \{Q_{r_i}^{\Phi}(a_i,t_i)\}_{i=1}^M,
+      \qquad r_*:=\min_i r_i>0.
+      \]
+
+      On each selected cylinder, the local R3 scale-critical packet gives the same finite-depth local readout inputs as the periodic branch.
+
+      for s>5/2. Hence the exterior tail contributes no terminal endpoint face and no active readout cell is needed outside a sufficiently large compact core.
+
+      This theorem is conditional on Tail.Hs R3. It supplies the noncompact readout cover only after high-order spatial-infinity control is available.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Referee-Hard Upgraded Body 4 Packet Subsection
+    line_start: 59312
+    line_end: 59354
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59312
+    start_anchor: "\\subsection{Referee-Hard Upgraded Body 4 Packet Subsection}\n"
+    end_anchor: "\\subsection{Navier-Stokes Regularity Upgrade Schemas}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Referee-Hard Upgraded Body 4 Packet Subsection}
+
+      The upgraded Body 4 packet stack is placed in the lemma order a serious referee will inspect: define the active records, prove the gradient-transfer inequality, and then show which remaining packet still blocks the theorem-primary route.
+
+      \[
+      \widetilde\Lambda_N^\sharp(t)
+      :=
+      1
+      +
+      \sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x}
+      +
+      2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2.
+      \]
+
+      \[
+      \Lambda_N(t):=
+      1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x},
+      \]
+
+      \[
+      \Theta_N^\sharp(t):=
+      2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2.
+      \]
+
+      \[
+      2^N\Big(\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2\Big)^{1/2}
+      \]
+
+      The upgraded gradient-transfer inequality is intended to be assembled from four packet lemmas.
+
+      \[
+      |\mathcal N_{N,\mathrm{grad}}^{\mathrm{strict}}(t)|
+      \le
+      C\,\Lambda_N(t)\,E_N(t)+\varepsilon \nu D_N(t).
+      \]
+
+      and Young then forces N 2 E N; so the theorem-grade collar term is N , not a -root amplitude coefficient.
+
+      The lifted obstruction is no longer being treated as a replacement theorem stack inside the live packet. On the theorem-primary route it remains the exact open gradient packet on the shell geometry N+M<k<j-4. The strongest auxiliary upstream repair candidate is still the Body 1 kernelized lifted-band leakage route: the scale-side packet carries a real gap factor 2 -(j-k) , but the current integration audit still leaves a residual 2 k weight, and the coupled lower-shell gain needed to defeat that residual is not yet proved.
+
+      The 4 -> 1 return arrow does not need to inherit the upgraded gradient coefficient literally.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Navier-Stokes Regularity Upgrade Schemas
+    line_start: 59355
+    line_end: 59411
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59355
+    start_anchor: "\\subsection{Navier-Stokes Regularity Upgrade Schemas}\n"
+    end_anchor: "\\subsection{Relative-Band Quotient Compactness Formalization Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Navier-Stokes Regularity Upgrade Schemas}
+
+      Frontier schema inventory for the remaining Euclidean regularity upgrade on the classical three-dimensional incompressible Navier-Stokes equation.
+
+      The Clay gap is not discharged here. On one fixed classical surface, the admissible theorem shapes are the estimates that would close the final vorticity/gradient continuation burden if any one of them were proved from the Navier-Stokes dynamics itself.
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu \Delta u,
+      \qquad
+      \nabla\cdot u = 0,
+      \qquad
+      u|_{t=0} = u_0 \in H^s(\mathbb R^3),
+      \qquad
+      s > \tfrac52,
+      \]
+
+      \[
+      \omega := \nabla \times u.
+      \]
+
+      \[
+      \partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega,
+      \]
+
+      \[
+      \frac{d}{dt}\|\omega(t)\|_{L^2_x}^2
+      \le
+      2\|\nabla u(t)\|_{L^\infty_x}\|\omega(t)\|_{L^2_x}^2,
+      \]
+
+      The point is not to restate BKM or Serrin as a closure. The point is to record the exact kind of new theorem that would have to be proved in order to convert those continuation criteria into a genuine global regularity proof.
+
+      \[
+      \frac{d}{dt}\mathcal E(t) + c\,\mathcal D(t)
+         \le
+         C\,\mathcal E(t),
+      \]
+
+      The dissipation term dominates the logarithmic growth channel that drives the continuation criterion, forcing time-integrability of the critical Lipschitz control.
+
+      Geometric misalignment weakens the effective stretching channel enough to make the growth subcritical rather than scale-critical.
+
+      The transport creates small scales in a way that feeds dissipation strongly enough to produce time-integrable critical control.
+
+      This is a direct same-surface upgrade from subcritical control to an integrable critical norm, with no modified equation and no geometric surrogate.
+
+      Let be a smooth vorticity field on [0,T] for the classical three-dimensional Navier-Stokes system.
+
+      The proof is conditional and non-circular: the half-derivative bound in (2) is taken as an independent input, not derived from the endpoint BMO/log estimate.
+
+      Summing the dyadic b
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: source record-Wide NS Idea Consolidation And Proof Convergence
+    line_start: 59467
+    line_end: 59522
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59467
+    start_anchor: "\\subsection{source record-Wide NS Idea Consolidation And Proof
+      Convergence}\n"
+    end_anchor: "\\subsection{Residual Pairwise Closure From Directional record}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{source record-Wide NS Idea Consolidation And Proof Convergence}
+
+      \[
+      M^3 \in \{\mathbb R^3,\mathbb T^3\};
+      \]
+
+      So any note, builder surface, or sidecar claim that sounds more finished than that stack is downstream noise, not current theorem truth.
+
+      Most serious work keeps re-expressing a small number of burdens in different coordinates.
+
+      Body I: scale barrier, Body II: monotone bridge Q(t), Body III: non-Sobolev compactness, Body IV: regularity bridge, then closed-loop recertification.
+
+      This family does not tell us the final deep mechanism. It fixes the jobs that any final mechanism must perform on the same classical surface.
+
+      \[
+      N+M<k<j-4.
+      \]
+
+      This family likely supersedes dyadic language as the main analytic engine, even if dyadic tails still survive as the current theorem-grade interface.
+
+      \[
+      \partial_t v + A^\top \nabla_a q
+      =
+      \nu \operatorname{div}_a(G\nabla_a v),
+      \qquad
+      G=AA^\top.
+      \]
+
+      So this family should be treated only as a possible survivor dictionary classifier, not as a replacement proof route.
+
+      This is not a separate authority route. It is the branch map that prevents the jet/bicomplex family from flattening into one vague "forms/cohomology" slogan.
+
+      So this family should be treated as the branch-preserving organizer for several older failed or half-formed arguments, not as another replacement route.
+
+      This is the first clean integrated program note generated from the wiki-driven branch pressure.
+
+      So this family is the cleanest current endgame architecture, but not yet an accepted theorem route.
+
+      This family is valuable as derivation lab, bridge vocabulary, and operator microscope. It does not count as closure unless it descends back to the same classical surface with no hidden stronger help.
+
+      These notes suggest that the right bridge object may be neither raw u nor full carrier X, but an intermediate observable or physical-sector object, often denoted implicitly as a middle geometry Y.
+
+      \[
+      N+M<k<j-4;
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal K_r^{\mathrm{Lag
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Restricted CG Reference-Gap Persistence
+    line_start: 59554
+    line_end: 59599
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59554
+    start_anchor: "\\subsection{Restricted CG Reference-Gap Persistence}\n"
+    end_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to Active-Strip
+      Mass Pricing}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Restricted CG Reference-Gap Persistence}
+
+      The first selector-strain discharge surface on the exact-potential Cauchy--Green branch is the Cauchy--Green reference-gap theorem. Its interaction with the three residual budgets from D.7mb is made explicit below.
+
+      Keep one exact-potential selector-good atom-free window I 0=[t 0,t 1], one transported good base point a, and one active pair (a,b). Let
+
+      \[
+      \mathcal C_J^N(t,a):=(W_J^N(t,a))^*W_J^N(t,a)
+      \]
+
+      \[
+      g_0
+      :=
+      \lambda_1\!\bigl(\mathcal C_J^N(t_0,a)\bigr)
+      -
+      \lambda_2\!\bigl(\mathcal C_J^N(t_0,a)\bigr)
+      >0.
+      \]
+
+      Write P J CG (t,a) for the top spectral projector of C J N(t,a) and P J,t 0 CG (a):=P J CG (t 0,a).
+
+      \[
+      E_{J,t_0}^{CG}(t,a)
+      :=
+      2\int_{t_0}^t
+      \bigl|W_J^N(s,a)\bigr|_{\mathrm{op}}^2\,|S_J^N(s,a)|\,ds,
+      \]
+
+      \[
+      \eta_{J,0}^{mb}(a,b)
+      :=
+      |m_J(t_0,a,b)|,
+      \]
+
+      \[
+      \eta_{J,\mathrm{off}}^{mb}(t,a,b)
+      :=
+      2\int_{t_0}^t
+      \Bigl|
+      Q_J^{top}(s)\,(W_J^N(s,a))^*S_J^N(s,a)W_J^N(s,a)\,n_J(a,b,s)
+      \Bigr|\,ds,
+      \]
+
+      That is stricter than the informal slogan "small D.7mb budgets preserve the CG gap," but it is the mathematically justified theorem supported by the current on-disk reductions.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained-Cover Counting Theorem Does Not Reduce to Active-Strip
+      Mass Pricing
+    line_start: 59600
+    line_end: 59632
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59600
+    start_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to
+      Active-Strip Mass Pricing}\n"
+    end_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to the
+      F.11c Tubular Packet}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Retained-Cover Counting Theorem Does Not Reduce to Active-Strip Mass Pricing}
+
+      Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+      Role: prevent a false collapse between the current scalar retained-cover counting endpoint and the distinct active-strip mass-pricing packet F.11l.
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      \[
+      \sum_S a_J(S)\,|S|=o_J(1),
+      \]
+
+      \[
+      \sum_{S\in\mathcal I_J^{act}} |S|=o_J(1),
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k),
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \quad\text{with}\quad
+      \sum_{S\in\mathcal I_J^{act}}|S|,
+      \]
+
+      So the current scalar retained-cover counting endpoint is not discharged by F.11l.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained-Cover Counting Theorem Does Not Reduce to the F.11c
+      Tubular Packet
+    line_start: 59633
+    line_end: 59661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59633
+    start_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to
+      the F.11c Tubular Packet}\n"
+    end_anchor: "\\subsection{Retained-Cover Counting Theorem Further Reduction Needs
+      Extra Packing Schedule}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Retained-Cover Counting Theorem Does Not Reduce to the F.11c Tubular Packet}
+
+      Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+      Role: record the bounded self-attempt to reduce the scalar retained-cover counting endpoint through the installed retained-window codimension-two tubular packet F.11c.
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      Proposition F.11c controls, for each retained block P k= J k I k, the bad-gap subregion
+
+      \[
+      \mathcal B_k(\gamma):=\{(J,t)\in\mathfrak P_k:g_J(t)\le \gamma\}
+      \]
+
+      \[
+      (\mu_J^{pair}\otimes dt)\bigl(\mathcal B_k(\gamma)\bigr)
+      \le
+      C_k\gamma^2.
+      \]
+
+      \[
+      |I_k|\,\mu_J^{pair}(\mathcal J_k),
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Ext Cascade s R3 Theorem Attempt}
+
+    where E s tail controls exterior commutator, cutoff, pressure, and high-frequency flux terms in the localized H s identity.
+
+    \[
+    eta_R=0\quad |x|\le R,
+    \qquad
+    eta_R=1\quad |x|\ge 2R,
+    \qquad
+    |\nabla^k eta_R|\le C_{k,57577} R^{-k},
+    \]
+
+    \[
+    \frac d{dt}\|\eta_R\Lambda^s u\|_2^2
+    +\nu\|\eta_R\nabla\Lambda^s u\|_2^2
+    \le
+    C_s\|\nabla u\|_{L^\infty}\|\eta_R\Lambda^s u\|_2^2
+    +C_{s,\nu}\mathcal E_s^{tail}(R,t).
+    \]
+
+    The first term is the transport/stretching coefficient. The tail record contains annular commutators, cutoff losses, and pressure commutators from the Riesz pressure localization.
+
+    The coefficient int 0 T * ||nabla u|| L infty is continuation-grade. Spending it here would assume the high-order control that the R3 branch aims to prove. Exterior L 2 tightness and compact-core tower bounds leave high-frequency derivative packets at spatial infinity uncontrolled.
+
+    Ext Cascade s R3 is conditionally valid as a Gronwall mechanism, while its derivation from Original Smooth Data R3 remains open. The next theorem can only use Ext Cascade s R3 as an explicit hypothesis.
+
+
+
+    \subsection{R3 Read Cover}
+
+    where A core is contained in a compact spatial ball B R and A tail lies in the exterior region.
+
+    On A core, strict SCF-goodness is open in same-fluid coordinates. Compactness of A core gives a finite subcover by moving cylinders
+
+    \[
+    \{Q_{r_i}^{\Phi}(a_i,t_i)\}_{i=1}^M,
+    \qquad r_*:=\min_i r_i>0.
+    \]
+
+    On each selected cylinder, the local R3 scale-critical packet gives the same finite-depth local readout inputs as the periodic branch.
+
+    for s>5/2. Hence the exterior tail contributes no terminal endpoint face and no active readout cell is needed outside a sufficiently large compact core.
+
+    This theorem is conditional on Tail.Hs R3. It supplies the noncompact readout cover only after high-order spatial-infinity control is available.
+
+
+
+    \subsection{Referee-Hard Upgraded Body 4 Packet Subsection}
+
+    The upgraded Body 4 packet stack is placed in the lemma order a serious referee will inspect: define the active records, prove the gradient-transfer inequality, and then show which remaining packet still blocks the theorem-primary route.
+
+    \[
+    \widetilde\Lambda_N^\sharp(t)
+    :=
+    1
+    +
+    \sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x}
+    +
+    2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2.
+    \]
+
+    \[
+    \Lambda_N(t):=
+    1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x},
+    \]
+
+    \[
+    \Theta_N^\sharp(t):=
+    2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2.
+    \]
+
+    \[
+    2^N\Big(\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2\Big)^{1/2}
+    \]
+
+    The upgraded gradient-transfer inequality is intended to be assembled from four packet lemmas.
+
+    \[
+    |\mathcal N_{N,\mathrm{grad}}^{\mathrm{strict}}(t)|
+    \le
+    C\,\Lambda_N(t)\,E_N(t)+\varepsilon \nu D_N(t).
+    \]
+
+    and Young then forces N 2 E N; so the theorem-grade collar term is N , not a -root amplitude coefficient.
+
+    The lifted obstruction is no longer being treated as a replacement theorem stack inside the live packet. On the theorem-primary route it remains the exact open gradient packet on the shell geometry N+M<k<j-4. The strongest auxiliary upstream repair candidate is still the Body 1 kernelized lifted-band leakage route: the scale-side packet carries a real gap factor 2 -(j-k) , but the current integration audit still leaves a residual 2 k weight, and the coupled lower-shell gain needed to defeat that residual is not yet proved.
+
+    The 4 -> 1 return arrow does not need to inherit the upgraded gradient coefficient literally.
+
+
+
+    \subsection{Navier-Stokes Regularity Upgrade Schemas}
+
+    Frontier schema inventory for the remaining Euclidean regularity upgrade on the classical three-dimensional incompressible Navier-Stokes equation.
+
+    The Clay gap is not discharged here. On one fixed classical surface, the admissible theorem shapes are the estimates that would close the final vorticity/gradient continuation burden if any one of them were proved from the Navier-Stokes dynamics itself.
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu \Delta u,
+    \qquad
+    \nabla\cdot u = 0,
+    \qquad
+    u|_{t=0} = u_0 \in H^s(\mathbb R^3),
+    \qquad
+    s > \tfrac52,
+    \]
+
+    \[
+    \omega := \nabla \times u.
+    \]
+
+    \[
+    \partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega,
+    \]
+
+    \[
+    \frac{d}{dt}\|\omega(t)\|_{L^2_x}^2
+    \le
+    2\|\nabla u(t)\|_{L^\infty_x}\|\omega(t)\|_{L^2_x}^2,
+    \]
+
+    The point is not to restate BKM or Serrin as a closure. The point is to record the exact kind of new theorem that would have to be proved in order to convert those continuation criteria into a genuine global regularity proof.
+
+    \[
+    \frac{d}{dt}\mathcal E(t) + c\,\mathcal D(t)
+       \le
+       C\,\mathcal E(t),
+    \]
+
+    The dissipation term dominates the logarithmic growth channel that drives the continuation criterion, forcing time-integrability of the critical Lipschitz control.
+
+    Geometric misalignment weakens the effective stretching channel enough to make the growth subcritical rather than scale-critical.
+
+    The transport creates small scales in a way that feeds dissipation strongly enough to produce time-integrable critical control.
+
+    This is a direct same-surface upgrade from subcritical control to an integrable critical norm, with no modified equation and no geometric surrogate.
+
+    Let be a smooth vorticity field on [0,T] for the classical three-dimensional Navier-Stokes system.
+
+    The proof is conditional and non-circular: the half-derivative bound in (2) is taken as an independent input, not derived from the endpoint BMO/log estimate.
+
+    Summing the dyadic blocks yields 0 T (t) B 0 ,1 dt < . The embedding B 0 ,1 L and the standard BKM continuation criterion then force smooth continuation beyond T.
+
+    H1 is the shell-level gain target; H2 is the independent critical input; H3 is the classical energy surface; C1-C3 follow without circular use of endpoint BMO/log control.
+
+    So summing over j>J does not produce a decaying factor 2 -J/2 from H 1 control alone. Instead, the exponent still grows like 2 j/2 . In particular, the attempted bound
+
+
+
+    \subsection{source record-Wide NS Idea Consolidation And Proof Convergence}
+
+    \[
+    M^3 \in \{\mathbb R^3,\mathbb T^3\};
+    \]
+
+    So any note, builder surface, or sidecar claim that sounds more finished than that stack is downstream noise, not current theorem truth.
+
+    Most serious work keeps re-expressing a small number of burdens in different coordinates.
+
+    Body I: scale barrier, Body II: monotone bridge Q(t), Body III: non-Sobolev compactness, Body IV: regularity bridge, then closed-loop recertification.
+
+    This family does not tell us the final deep mechanism. It fixes the jobs that any final mechanism must perform on the same classical surface.
+
+    \[
+    N+M<k<j-4.
+    \]
+
+    This family likely supersedes dyadic language as the main analytic engine, even if dyadic tails still survive as the current theorem-grade interface.
+
+    \[
+    \partial_t v + A^\top \nabla_a q
+    =
+    \nu \operatorname{div}_a(G\nabla_a v),
+    \qquad
+    G=AA^\top.
+    \]
+
+    So this family should be treated only as a possible survivor dictionary classifier, not as a replacement proof route.
+
+    This is not a separate authority route. It is the branch map that prevents the jet/bicomplex family from flattening into one vague "forms/cohomology" slogan.
+
+    So this family should be treated as the branch-preserving organizer for several older failed or half-formed arguments, not as another replacement route.
+
+    This is the first clean integrated program note generated from the wiki-driven branch pressure.
+
+    So this family is the cleanest current endgame architecture, but not yet an accepted theorem route.
+
+    This family is valuable as derivation lab, bridge vocabulary, and operator microscope. It does not count as closure unless it descends back to the same classical surface with no hidden stronger help.
+
+    These notes suggest that the right bridge object may be neither raw u nor full carrier X, but an intermediate observable or physical-sector object, often denoted implicitly as a middle geometry Y.
+
+    \[
+    N+M<k<j-4;
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal K_r^{\mathrm{Lag}}
+    +
+    \mathcal D_r^{\mathrm{Lag}}
+    +
+    \mathcal C_r^{\mathrm{Lag}}
+    \le 0,
+    \]
+
+
+
+    \subsection{Restricted CG Reference-Gap Persistence}
+
+    The first selector-strain discharge surface on the exact-potential Cauchy--Green branch is the Cauchy--Green reference-gap theorem. Its interaction with the three residual budgets from D.7mb is made explicit below.
+
+    Keep one exact-potential selector-good atom-free window I 0=[t 0,t 1], one transported good base point a, and one active pair (a,b). Let
+
+    \[
+    \mathcal C_J^N(t,a):=(W_J^N(t,a))^*W_J^N(t,a)
+    \]
+
+    \[
+    g_0
+    :=
+    \lambda_1\!\bigl(\mathcal C_J^N(t_0,a)\bigr)
+    -
+    \lambda_2\!\bigl(\mathcal C_J^N(t_0,a)\bigr)
+    >0.
+    \]
+
+    Write P J CG (t,a) for the top spectral projector of C J N(t,a) and P J,t 0 CG (a):=P J CG (t 0,a).
+
+    \[
+    E_{J,t_0}^{CG}(t,a)
+    :=
+    2\int_{t_0}^t
+    \bigl|W_J^N(s,a)\bigr|_{\mathrm{op}}^2\,|S_J^N(s,a)|\,ds,
+    \]
+
+    \[
+    \eta_{J,0}^{mb}(a,b)
+    :=
+    |m_J(t_0,a,b)|,
+    \]
+
+    \[
+    \eta_{J,\mathrm{off}}^{mb}(t,a,b)
+    :=
+    2\int_{t_0}^t
+    \Bigl|
+    Q_J^{top}(s)\,(W_J^N(s,a))^*S_J^N(s,a)W_J^N(s,a)\,n_J(a,b,s)
+    \Bigr|\,ds,
+    \]
+
+    That is stricter than the informal slogan "small D.7mb budgets preserve the CG gap," but it is the mathematically justified theorem supported by the current on-disk reductions.
+
+
+
+    \subsection{Retained-Cover Counting Theorem Does Not Reduce to Active-Strip Mass Pricing}
+
+    Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+    Role: prevent a false collapse between the current scalar retained-cover counting endpoint and the distinct active-strip mass-pricing packet F.11l.
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    \[
+    \sum_S a_J(S)\,|S|=o_J(1),
+    \]
+
+    \[
+    \sum_{S\in\mathcal I_J^{act}} |S|=o_J(1),
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k),
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \quad\text{with}\quad
+    \sum_{S\in\mathcal I_J^{act}}|S|,
+    \]
+
+    So the current scalar retained-cover counting endpoint is not discharged by F.11l.
+
+
+
+    \subsection{Retained-Cover Counting Theorem Does Not Reduce to the F.11c Tubular Packet}
+
+    Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+    Role: record the bounded self-attempt to reduce the scalar retained-cover counting endpoint through the installed retained-window codimension-two tubular packet F.11c.
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    Proposition F.11c controls, for each retained block P k= J k I k, the bad-gap subregion
+
+    \[
+    \mathcal B_k(\gamma):=\{(J,t)\in\mathfrak P_k:g_J(t)\le \gamma\}
+    \]
+
+    \[
+    (\mu_J^{pair}\otimes dt)\bigl(\mathcal B_k(\gamma)\bigr)
+    \le
+    C_k\gamma^2.
+    \]
+
+    \[
+    |I_k|\,\mu_J^{pair}(\mathcal J_k),
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Ext Cascade s R3 Theorem Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59183
+  line_start: 59183
+  line_end: 59209
+  start_anchor: "\\subsection{Ext Cascade s R3 Theorem Attempt}\n"
+  end_anchor: "\\subsection{R3 Read Cover}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Ext Cascade s R3 Theorem Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59183
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Read Cover
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  line_start: 59210
+  line_end: 59227
+  start_anchor: "\\subsection{R3 Read Cover}\n"
+  end_anchor: "\\subsection{Tail.Hs R3 From Ext Cascade s R3}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Read Cover as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Referee-Hard Upgraded Body 4 Packet Subsection
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59312
+  line_start: 59312
+  line_end: 59354
+  start_anchor: "\\subsection{Referee-Hard Upgraded Body 4 Packet Subsection}\n"
+  end_anchor: "\\subsection{Navier-Stokes Regularity Upgrade Schemas}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Referee-Hard Upgraded Body 4
+    Packet Subsection as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59312
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Navier-Stokes Regularity Upgrade Schemas
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59355
+  line_start: 59355
+  line_end: 59411
+  start_anchor: "\\subsection{Navier-Stokes Regularity Upgrade Schemas}\n"
+  end_anchor: "\\subsection{Relative-Band Quotient Compactness Formalization Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Navier-Stokes Regularity Upgrade
+    Schemas as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59355
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: source record-Wide NS Idea Consolidation And Proof Convergence
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59467
+  line_start: 59467
+  line_end: 59522
+  start_anchor: "\\subsection{source record-Wide NS Idea Consolidation And Proof Convergence}\n"
+  end_anchor: "\\subsection{Residual Pairwise Closure From Directional record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite source record-Wide NS Idea Consolidation
+    And Proof Convergence as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59467
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Restricted CG Reference-Gap Persistence
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59554
+  line_start: 59554
+  line_end: 59599
+  start_anchor: "\\subsection{Restricted CG Reference-Gap Persistence}\n"
+  end_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to Active-Strip
+    Mass Pricing}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Restricted CG Reference-Gap Persistence
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59554
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained-Cover Counting Theorem Does Not Reduce to Active-Strip
+    Mass Pricing
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59600
+  line_start: 59600
+  line_end: 59632
+  start_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to Active-Strip
+    Mass Pricing}\n"
+  end_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to the
+    F.11c Tubular Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained-Cover Counting Theorem
+    Does Not Reduce to Active-Strip Mass Pricing as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59600
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained-Cover Counting Theorem Does Not Reduce to the F.11c Tubular
+    Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59633
+  line_start: 59633
+  line_end: 59661
+  start_anchor: "\\subsection{Retained-Cover Counting Theorem Does Not Reduce to the
+    F.11c Tubular Packet}\n"
+  end_anchor: "\\subsection{Retained-Cover Counting Theorem Further Reduction Needs
+    Extra Packing Schedule}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained-Cover Counting Theorem
+    Does Not Reduce to the F.11c Tubular Packet as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59633
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-68
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-68.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

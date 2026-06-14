@@ -1,0 +1,1317 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-compactness-and-exact-object-01
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-compactness-and-exact-object-01
+  sequence: 22
+  group_id: compactness-and-exact-object
+  title: Compactness and exact object 1
+  author_job: write compactness material around the exact terminal object and same-solution
+    burden
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 600
+  line_end: 16453
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:600
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2765
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2828
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2953
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2992
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14506
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15769
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16424
+  subsection_titles:
+  - Affine-Survivor Quotient Compactness Interface Note
+  - Compact-Support Localizer With Shrinking Radius Implies Center Spacing
+  - Compactness Limit-Order Cleanup Lemma
+  - Navier-Stokes Compactness Package
+  - Compactness Upgrade Lemma (Classical Euclidean Surface)
+  - Ancestry Compact Bound.A + Source Residue Liouville.A - direct loop note
+  - B ASAC Source Ancestry Compactness
+  - Compact Endpoint Matrix Formalization
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Affine-Survivor Quotient Compactness Interface Note
+    line_start: 600
+    line_end: 656
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:600
+    start_anchor: "\\subsection{Affine-Survivor Quotient Compactness Interface Note}\n"
+    end_anchor: "\\subsection{Affine Survivor Stripped-Down Note}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Affine-Survivor Quotient Compactness Interface Note}
+
+      The quotient-compactness argument is tested one step deeper on the actual
+      scale-memory route.
+
+      It identifies the first exact point where the current Navier-Stokes input stack
+      runs out.
+
+      \[
+      F^{(n)}(s,t):=(\mathcal V_\kappa \widetilde Z^{(n)})(s,t),
+      \qquad
+      w^{(n)}(s,t):=a^{(n)}(e^s,t).
+      \]
+
+      \[
+      H_{w^{(n)}}(t):=\frac{|I|^2}{\int_I (w^{(n)}(s,t))^{-1}\,ds},
+      \qquad
+      c_{F^{(n)}}(t):=\frac1{|I|}\int_I F^{(n)}(s,t)\,ds.
+      \]
+
+      \[
+      c_{F^{(n)}}(t)
+      =
+      \int_J \theta_\kappa(\sigma)\,\widetilde Z^{(n)}(\sigma,t)\,d\sigma,
+      \]
+
+      \[
+      \Pi_{\mathrm{aff}}\widetilde Z^{(n)}
+      :=
+      \big(M_0^{(n)},M_1^{(n)}\big),
+      \]
+
+      \[
+      M_0^{(n)}(t):=\int_J \widetilde Z^{(n)}(\sigma,t)\,d\sigma,
+      \qquad
+      M_1^{(n)}(t):=\int_J \sigma\,\widetilde Z^{(n)}(\sigma,t)\,d\sigma.
+      \]
+
+      On each fixed time slice, \(Q_{\mathrm{aff}}\) is two-dimensional over the
+      ambient \(L_x^2\) coefficient space.
+
+      This route has reduced the moving scale-memory obstruction to a
+      finite-codimension quotient.
+
+      The full scale source \(\widetilde Z^{(n)}\) only has to be controlled through
+      its image in the finite-dimensional quotient \(Q_{\mathrm{aff}}\).
+
+      That is a real reduction, and it is still support rather than closure.  Pairing
+      with the active weight sends the problem back to the lower-prefix active-square
+      geometry.
+
+      The current route runs out at the first place where the proof needs an
+      autonomous theorem on the affine survivor class.  That survivor is the object a
+      later CM branch may test; this subsection records the object and the missing
+      theorem while keeping the quotient reduction outside the class-exit claim.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Compact-Support Localizer With Shrinking Radius Implies Center
+      Spacing
+    line_start: 2765
+    line_end: 2827
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2765
+    start_anchor: "\\subsection{Compact-Support Localizer With Shrinking Radius Implies
+      Center Spacing}\n"
+    end_anchor: "\\subsection{Compactness Limit-Order Cleanup Lemma}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Compact-Support Localizer With Shrinking Radius Implies Center Spacing}
+
+      This is a support reduction for the exact PSJ+.1 localized-projector route.  The
+      claim has a geometric job: when the localizers all come from one compactly
+      supported prototype, overlap already forces the packet centers to be close.  The
+      weighted center-spacing burden can then be reduced to a support-radius estimate
+      plus a small-radius budget.
+
+      Assume the exact PSJ+.1 localizer profile is generated from one bounded
+      Lipschitz prototype by
+
+      \[
+      \phi_{r_J}(y):=\phi(y/r_J),
+      \]
+
+      \[
+      \operatorname{supp}\phi\subset B(0,1),
+      \qquad
+      \operatorname{Lip}(\phi)\le L_\phi.
+      \]
+
+      \[
+      \operatorname{supp}\phi_{r_J}\subset B(0,r_J),
+      \qquad
+      \operatorname{Lip}(\phi_{r_J})\le \frac{L_\phi}{r_J}.
+      \]
+
+      \[
+      \phi_\ell(z,p)=\phi_{r_J}\!\bigl(c_{J,\ell}(z)-m_p(t)\bigr).
+      \]
+
+      If
+      \[
+      \phi_\ell(z,p)\neq 0,
+      \qquad
+      \phi_{\ell'}(z,p)\neq 0,
+      \]
+      then both centers lie in the same support ball around \(m_p(t)\):
+      \[
+      c_{J,\ell}(z),\,c_{J,\ell'}(z)\in B(m_p(t),r_J).
+      \]
+      Hence
+      \[
+      |c_{J,\ell}(z)-c_{J,\ell'}(z)|\le 2r_J.
+      \]
+
+      Consequently, any weighted overlap ledger supported on simultaneous nonzero
+      localizers satisfies the model bound
+      \[
+      \sum_{\ell,\ell'}w_{\ell,\ell'}(z,p)
+       |c_{J,\ell}(z)-c_{J,\ell'}(z)|
+      \le
+      2r_J\sum_{\ell,\ell'}w_{\ell,\ell'}(z,p).
+      \]
+
+      The remaining hypothesis is the one the reader should see.  The overlap weights
+      must be summable on the same localized-projector surface, and the chosen radius
+      \(r_J\) must make the right side harmless.  The geometric part of the localizer
+      argument is paid by the support-ball calculation above.  The weighted
+      small-radius budget remains the
+      support input still owed by the PSJ+.1 route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Compactness Limit-Order Cleanup Lemma
+    line_start: 2828
+    line_end: 2952
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2828
+    start_anchor: "\\subsection{Compactness Limit-Order Cleanup Lemma}\n"
+    end_anchor: "\\subsection{Navier-Stokes Compactness Package}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |
+      \subsection{Compactness Limit-Order Cleanup Lemma}
+
+      The nonlinear compactness bridge depends on the order of limits.  The reader
+      needs to see three moves in order: first freeze the frequency cutoff, then take
+      the compactness subsequence, then remove the high-frequency tail using the
+      scale-barrier estimate.  Written this way, tensor closure comes from
+      low-mode compactness plus high-mode smallness, with the \(N\to\infty\) step
+      visible.
+
+      \[
+      \sup_n \|u^{(n)}\|_{L_t^\infty L_x^2}<\infty,
+      \qquad
+      \sup_n \|u^{(n)}\|_{L_t^2 H_x^1}<\infty,
+      \qquad
+      \sup_n \|\partial_t u^{(n)}\|_{L_t^2 H_x^{-1}}<\infty,
+      \]
+
+      \[
+      u^{(n)}\to u
+      \quad\text{strongly in }L^2([0,T];L^2(B_R)),
+      \]
+
+      \[
+      u^{(n)}\otimes u^{(n)}\to u\otimes u
+      \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3).
+      \]
+
+      \[
+      u^{(n)}=P_{<N}u^{(n)}+P_{\ge N}u^{(n)}.
+      \]
+
+      Assume the high-mode tail estimate has been supplied on this same approximation
+      surface: for every \(R>0\) and every \(\varepsilon>0\), there exists
+      \(N\ge N_*\) such that
+      \[
+      \sup_n
+      \|P_{\ge N}u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+      \le \varepsilon.
+      \]
+
+      For fixed \(N\), Aubin--Lions applies to \(P_{<N}u^{(n)}\) on \(B_R\).  The
+      fixed low-frequency projector preserves the uniform
+      \[
+      L_t^2H_x^1(B_R)
+      \qquad\text{and}\qquad
+      L_t^2H_x^{-1}(B_R)
+      \]
+      bounds, so after passing to a subsequence,
+
+      \[
+      P_{<N}u^{(n)}\to v_N
+      \quad\text{strongly in }L^2([0,T];L^2(B_R)).
+      \]
+
+      Diagonalizing over \(N=N_*,N_*+1,\ldots\), one subsequence works for every
+      fixed \(N\ge N_*\).
+
+      Now fix \(R\) and \(\varepsilon>0\).  Choose \(N\ge N_*\) so that the two
+      high-mode tails are each at most \(\varepsilon/4\) in
+      \[
+      L^2(0,T;L^2(B_R)).
+      \]
+      For this fixed \(N\), low-mode strong convergence gives \(n_0\) such that for
+      all \(m,n\ge n_0\),
+      \[
+      \|P_{<N}(u^{(n)}-u^{(m)})\|_{L^2(0,T;L^2(B_R))}
+      \le \varepsilon/2.
+      \]
+      Combining the high-tail estimate with low-mode strong convergence gives
+      \[
+      \|u^{(n)}-u^{(m)}\|_{L^2(0,T;L^2(B_R))}
+      \le \varepsilon.
+      \]
+
+      The sequence is Cauchy in \(L^2(0,T;L^2(B_R))\).  Since that space is complete,
+      t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Navier-Stokes Compactness Package
+    line_start: 2953
+    line_end: 2991
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2953
+    start_anchor: "\\subsection{Navier-Stokes Compactness Package}\n"
+    end_anchor: "\\subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Navier-Stokes Compactness Package}
+
+      This package states what the compactness side contributes after the classical
+      scale-barrier tail estimate is available on the same approximation family.  It
+      is a downstream proof package on the classical equation.  The scale-barrier
+      theorem remains the upstream input.
+
+      The theorem surface is fixed as follows.  Use one smooth-data
+      Leray-projected approximation scheme, one pressure normalization, and the same
+      Euclidean Navier--Stokes equation throughout the compactness and nonlinear
+      closure steps.  On that fixed surface, the compactness work has three jobs:
+      \[
+      \begin{array}{ll}
+      \mathrm{K1}: & \text{low-frequency compactness on each }B_R,\\
+      \mathrm{K2}: & \text{high-frequency suppression from the scale-barrier tail
+      input},\\
+      \mathrm{K3}: & \text{recombination into strong local spacetime }L^2
+      \text{ convergence.}
+      \end{array}
+      \]
+
+      With K1--K3 in place, the tensor products satisfy
+      \[
+      u^{(n)}\otimes u^{(n)}
+      \to
+      u\otimes u
+      \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3),
+      \]
+      so the quadratic nonlinear term passes to the limit in the classical weak
+      formulation.
+
+      Once the scale-barrier tail estimate is supplied on the same approximation
+      scheme, the compactness bridge has a precise downstream role.  It turns K1--K3
+      into passage of the nonlinear term.  The open upstream burden remains the
+      classical scale-barrier tail estimate itself.  Pressure recovery and
+      divergence-free limit bookkeeping still have to be written in the final
+      manuscript, and they sit downstream of the same fixed scheme.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Compactness Upgrade Lemma (Classical Euclidean Surface)
+    line_start: 2992
+    line_end: 3061
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2992
+    start_anchor: "\\subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}\n"
+    end_anchor: "\\subsection{Compressible Heat Parent To Incompressible Tower Shadow}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |
+      \subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}
+
+      This lemma is the formal compactness statement behind the preceding package.
+      It stays on the classical 3D incompressible Navier--Stokes equation on
+      \((0,T)\times\mathbb R^3\).  The equation, data surface, pressure law, and
+      viscosity regime stay fixed throughout the upgrade.
+
+      Let \((u^{(n)},p^{(n)})\) be smooth classical Navier--Stokes solutions on a
+      common interval \((0,T)\times\mathbb R^3\), all coming from the same fixed
+      approximation scheme.  Assume the uniform energy bounds
+      \[
+      \sup_n\|u^{(n)}\|_{L_t^\infty L_x^2}<\infty,
+      \qquad
+      \sup_n\|u^{(n)}\|_{L_t^2 H_x^1}<\infty,
+      \]
+      and assume the scale-barrier tail input on that same scheme:
+      \[
+      \forall R>0,\ \forall\varepsilon>0,\ \exists N\ge N_*
+      \quad\text{such that}\quad
+      \sup_n
+      \|P_{\ge N}u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+      \le\varepsilon.
+      \]
+
+      Then for every \(R>0\), after passing to a subsequence,
+      \[
+      u^{(n)}\to u
+      \quad\text{strongly in }L^2(0,T;L^2(B_R)),
+      \]
+      and the usual weak limits also hold:
+      \[
+      u^{(n)}\rightharpoonup^\ast u
+      \quad\text{in }L_t^\infty L_x^2,
+      \qquad
+      u^{(n)}\rightharpoonup u
+      \quad\text{in }L_t^2 H_x^1.
+      \]
+
+      The proof is the low/high recombination from D.53.  At fixed \(N\), the
+      low-frequency sequence \(P_{<N}u^{(n)}\) is compact by Aubin--Lions.  The
+      tail input makes \(P_{\ge N}u^{(n)}\) uniformly small in local \(L^2\) after
+      \(N\) is chosen large.  Passing \(n\to\infty\) first at fixed \(N\), and only
+      then sending \(N\to\infty\), gives the strong local convergence.
+
+      This convergence is strong enough to pass the quadratic term.  For every
+      \[
+      \Phi\in C_c^\infty((0,T)\times\mathbb R^3;\mathbb R^{3\times3}),
+      \]
+      \[
+      \int_0^T\!\!\int_{\mathbb R^3}
+      (u^{(n)}\otimes u^{(n)}):\Phi\,dx\,dt
+      \to
+      \int_0^T\!\!\int_{\mathbb R^3}
+      (u\otimes u):\Phi\,dx\,dt.
+      \]
+      Equivalently,
+      \[
+      u^{(n)}\otimes u^{(n)}
+      \to
+      u\otimes u
+      \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3).
+      \]
+
+      C-U1 and C-U2 are downstream consequences of the same classical scale-barrier
+      tail input.  B
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Ancestry Compact Bound.A + Source Residue Liouville.A - direct
+      loop note
+    line_start: 14506
+    line_end: 14559
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14506
+    start_anchor: "\\subsection{Ancestry Compact Bound.A + Source Residue Liouville.A
+      - direct loop note}\n"
+    end_anchor: "\\subsection{Ancestry Drain.A - direct loop note}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |
+      \subsection{Ancestry Compact Bound.A + Source Residue Liouville.A - direct loop note}
+
+      This direct route tries to close the source-pulse branch through compactness and
+      Liouville rigidity.  The ancestry chain is
+
+      \[
+      \cdots\to P^{-2}\to P^{-1}\to P^0
+      \]
+
+      and the failure scenario carries nonzero inherited source residue along that
+      chain.  The hoped-for pair is:
+
+      \[
+      \text{compact ancestry limit}
+      \qquad\text{and}\qquad
+      \text{Liouville vanishing of the inherited source residue}.
+      \]
+
+      Together those two statements would contradict the nonzero residue required by a
+      failure of Source Pulse Exclusion.A.
+
+      The installed compactness machinery supplies local suitable ancient limits after
+      localized packets and uniform local energy bounds are available.  That produces
+      an ancient source-residue object.  Same-fluid ancestry preserves carrier/fibre
+      coherence, but it gives no global boundedness, no Type I scale control, no
+      critical-norm smallness, and no symmetry reduction for that ancient limit.
+
+      A broad Liouville theorem for arbitrary local suitable ancient source-residue
+      limits is not installed.  Smooth coherent ancient packets and cancellation
+      profiles may carry local energy and source structure.  The current compactness
+      output has no theorem forcing
+
+      \[
+      \gamma_*\,d\mu_*^\sigma=0.
+      \]
+
+      Classical consumers such as BKM, Prodi-Serrin, Type I, and critical smallness
+      would be valid after their hypotheses are supplied.  Those hypotheses are absent
+      on the terminal ancestry limit produced by the current route.
+
+      The precise obstruction is this: local suitable compactness gives an ancient
+      source-residue object without a rigid ancient class, and the route has no
+      Liouville theorem for source residue outside such a class.
+
+      The remaining theorem package is
+      \[
+      \text{ancestry compact bound}
+      \quad+\quad
+      \text{source-residue Liouville theorem on a rigid ancient class}.
+      \]
+      Together with the donor-depletion and drain attempts that remain open, this
+      leaves Source Pulse Exclusion.A open at the source-puls
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Source Ancestry Compactness
+    line_start: 15769
+    line_end: 15808
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15769
+    start_anchor: "\\subsection{B ASAC Source Ancestry Compactness}\n"
+    end_anchor: "\\subsection{B ASAC Branch Entropy Test}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{B ASAC Source Ancestry Compactness}
+
+      This is the compactness form of the missing bridge between first-pulse
+      no-parent and global no-incoming source flux for B ASAC. The target is that a
+      nonzero terminal native source charge in the produced B ASAC class cannot be
+      represented by a diffuse legal same-fluid parent cloud invisible to every
+      bounded earlier selected source family. The desired conclusion is a fixed
+      negative-time selected source parent, or a legal/donor/ASAC escape.
+
+      Order-one terminal source charge gives order-one mass in shrinking terminal
+      layers. Pigeonholing can select a high-density layer, but the layer may lie in
+      \((-1/m,0]\) with \(m\to\infty\). This gives no fixed preterminal gap.
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      A selected-parent compactness theorem would require a bounded selected family
+      capturing fixed mass. A diffuse cloud can have many legal near-terminal parents
+      with total charge order one while every bounded subfamily captures vanishing
+      mass.
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}
+      \]
+
+      A natural entropy \(H(P;M)\) would price this diffusion, but installed energy,
+      local energy, pressure/cutoff, donor-balance, residual-, and ASAC records carry
+      no positive entropy coefficient.
+
+      \[
+      \sum_{\alpha=1}^{M}M^{-2}=M^{-1},
+      \]
+
+      Bounded overlap controls selected child coverage, not the incoming legal parent
+      count for one child. Source-ancestry compactness remains open. The hard
+      obstruction is legal diffuse parent-cloud concentration at zero terminal heat
+      time.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Compact Endpoint Matrix Formalization
+    line_start: 16424
+    line_end: 16453
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16424
+    start_anchor: "\\subsection{Compact Endpoint Matrix Formalization}\n"
+    end_anchor: "\\subsection{Component Selection For Jump Avg}\n"
+    include_end_anchor: false
+    group_id: compactness-and-exact-object
+    text: |+
+      \subsection{Compact Endpoint Matrix Formalization}
+
+      This is the compact endpoint matrix for the pointwise class-membership route.
+      It records how endpoint failures are typed after the analytic suppliers have
+      been provided.
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      \[
+      Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+      \]
+
+      The Part row removes the Dead face: an active participation witness cannot
+      terminate as Dead while the retained class witness is still propagated.
+
+      \[
+      \Gamma_{pack,Q}(t)\le C_Q,
+      \]
+
+      \[
+      \mathfrak A_{N,Q}\in L^\infty(I),
+      \]
+
+      The Pack row uses the bounded packing gauge. The Field row uses the retained
+      tower bound. The matrix formalizes endpoint algebra; it consumes its analytic
+      suppliers and does not prove them.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Affine-Survivor Quotient Compactness Interface Note}
+
+    The quotient-compactness argument is tested one step deeper on the actual
+    scale-memory route.
+
+    It identifies the first exact point where the current Navier-Stokes input stack
+    runs out.
+
+    \[
+    F^{(n)}(s,t):=(\mathcal V_\kappa \widetilde Z^{(n)})(s,t),
+    \qquad
+    w^{(n)}(s,t):=a^{(n)}(e^s,t).
+    \]
+
+    \[
+    H_{w^{(n)}}(t):=\frac{|I|^2}{\int_I (w^{(n)}(s,t))^{-1}\,ds},
+    \qquad
+    c_{F^{(n)}}(t):=\frac1{|I|}\int_I F^{(n)}(s,t)\,ds.
+    \]
+
+    \[
+    c_{F^{(n)}}(t)
+    =
+    \int_J \theta_\kappa(\sigma)\,\widetilde Z^{(n)}(\sigma,t)\,d\sigma,
+    \]
+
+    \[
+    \Pi_{\mathrm{aff}}\widetilde Z^{(n)}
+    :=
+    \big(M_0^{(n)},M_1^{(n)}\big),
+    \]
+
+    \[
+    M_0^{(n)}(t):=\int_J \widetilde Z^{(n)}(\sigma,t)\,d\sigma,
+    \qquad
+    M_1^{(n)}(t):=\int_J \sigma\,\widetilde Z^{(n)}(\sigma,t)\,d\sigma.
+    \]
+
+    On each fixed time slice, \(Q_{\mathrm{aff}}\) is two-dimensional over the
+    ambient \(L_x^2\) coefficient space.
+
+    This route has reduced the moving scale-memory obstruction to a
+    finite-codimension quotient.
+
+    The full scale source \(\widetilde Z^{(n)}\) only has to be controlled through
+    its image in the finite-dimensional quotient \(Q_{\mathrm{aff}}\).
+
+    That is a real reduction, and it is still support rather than closure.  Pairing
+    with the active weight sends the problem back to the lower-prefix active-square
+    geometry.
+
+    The current route runs out at the first place where the proof needs an
+    autonomous theorem on the affine survivor class.  That survivor is the object a
+    later CM branch may test; this subsection records the object and the missing
+    theorem while keeping the quotient reduction outside the class-exit claim.
+
+
+
+    \subsection{Compact-Support Localizer With Shrinking Radius Implies Center Spacing}
+
+    This is a support reduction for the exact PSJ+.1 localized-projector route.  The
+    claim has a geometric job: when the localizers all come from one compactly
+    supported prototype, overlap already forces the packet centers to be close.  The
+    weighted center-spacing burden can then be reduced to a support-radius estimate
+    plus a small-radius budget.
+
+    Assume the exact PSJ+.1 localizer profile is generated from one bounded
+    Lipschitz prototype by
+
+    \[
+    \phi_{r_J}(y):=\phi(y/r_J),
+    \]
+
+    \[
+    \operatorname{supp}\phi\subset B(0,1),
+    \qquad
+    \operatorname{Lip}(\phi)\le L_\phi.
+    \]
+
+    \[
+    \operatorname{supp}\phi_{r_J}\subset B(0,r_J),
+    \qquad
+    \operatorname{Lip}(\phi_{r_J})\le \frac{L_\phi}{r_J}.
+    \]
+
+    \[
+    \phi_\ell(z,p)=\phi_{r_J}\!\bigl(c_{J,\ell}(z)-m_p(t)\bigr).
+    \]
+
+    If
+    \[
+    \phi_\ell(z,p)\neq 0,
+    \qquad
+    \phi_{\ell'}(z,p)\neq 0,
+    \]
+    then both centers lie in the same support ball around \(m_p(t)\):
+    \[
+    c_{J,\ell}(z),\,c_{J,\ell'}(z)\in B(m_p(t),r_J).
+    \]
+    Hence
+    \[
+    |c_{J,\ell}(z)-c_{J,\ell'}(z)|\le 2r_J.
+    \]
+
+    Consequently, any weighted overlap ledger supported on simultaneous nonzero
+    localizers satisfies the model bound
+    \[
+    \sum_{\ell,\ell'}w_{\ell,\ell'}(z,p)
+     |c_{J,\ell}(z)-c_{J,\ell'}(z)|
+    \le
+    2r_J\sum_{\ell,\ell'}w_{\ell,\ell'}(z,p).
+    \]
+
+    The remaining hypothesis is the one the reader should see.  The overlap weights
+    must be summable on the same localized-projector surface, and the chosen radius
+    \(r_J\) must make the right side harmless.  The geometric part of the localizer
+    argument is paid by the support-ball calculation above.  The weighted
+    small-radius budget remains the
+    support input still owed by the PSJ+.1 route.
+
+
+
+    \subsection{Compactness Limit-Order Cleanup Lemma}
+
+    The nonlinear compactness bridge depends on the order of limits.  The reader
+    needs to see three moves in order: first freeze the frequency cutoff, then take
+    the compactness subsequence, then remove the high-frequency tail using the
+    scale-barrier estimate.  Written this way, tensor closure comes from
+    low-mode compactness plus high-mode smallness, with the \(N\to\infty\) step
+    visible.
+
+    \[
+    \sup_n \|u^{(n)}\|_{L_t^\infty L_x^2}<\infty,
+    \qquad
+    \sup_n \|u^{(n)}\|_{L_t^2 H_x^1}<\infty,
+    \qquad
+    \sup_n \|\partial_t u^{(n)}\|_{L_t^2 H_x^{-1}}<\infty,
+    \]
+
+    \[
+    u^{(n)}\to u
+    \quad\text{strongly in }L^2([0,T];L^2(B_R)),
+    \]
+
+    \[
+    u^{(n)}\otimes u^{(n)}\to u\otimes u
+    \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3).
+    \]
+
+    \[
+    u^{(n)}=P_{<N}u^{(n)}+P_{\ge N}u^{(n)}.
+    \]
+
+    Assume the high-mode tail estimate has been supplied on this same approximation
+    surface: for every \(R>0\) and every \(\varepsilon>0\), there exists
+    \(N\ge N_*\) such that
+    \[
+    \sup_n
+    \|P_{\ge N}u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+    \le \varepsilon.
+    \]
+
+    For fixed \(N\), Aubin--Lions applies to \(P_{<N}u^{(n)}\) on \(B_R\).  The
+    fixed low-frequency projector preserves the uniform
+    \[
+    L_t^2H_x^1(B_R)
+    \qquad\text{and}\qquad
+    L_t^2H_x^{-1}(B_R)
+    \]
+    bounds, so after passing to a subsequence,
+
+    \[
+    P_{<N}u^{(n)}\to v_N
+    \quad\text{strongly in }L^2([0,T];L^2(B_R)).
+    \]
+
+    Diagonalizing over \(N=N_*,N_*+1,\ldots\), one subsequence works for every
+    fixed \(N\ge N_*\).
+
+    Now fix \(R\) and \(\varepsilon>0\).  Choose \(N\ge N_*\) so that the two
+    high-mode tails are each at most \(\varepsilon/4\) in
+    \[
+    L^2(0,T;L^2(B_R)).
+    \]
+    For this fixed \(N\), low-mode strong convergence gives \(n_0\) such that for
+    all \(m,n\ge n_0\),
+    \[
+    \|P_{<N}(u^{(n)}-u^{(m)})\|_{L^2(0,T;L^2(B_R))}
+    \le \varepsilon/2.
+    \]
+    Combining the high-tail estimate with low-mode strong convergence gives
+    \[
+    \|u^{(n)}-u^{(m)}\|_{L^2(0,T;L^2(B_R))}
+    \le \varepsilon.
+    \]
+
+    The sequence is Cauchy in \(L^2(0,T;L^2(B_R))\).  Since that space is complete,
+    there exists \(u_R\) such that
+    \[
+    u^{(n)}\to u_R
+    \quad\text{strongly in }L^2(0,T;L^2(B_R)).
+    \]
+
+    Compatibility for nested balls gives one field \(u\) on
+    \((0,T)\times\mathbb R^3\) satisfying the same strong local \(L^2\)
+    convergence.
+
+    To pass to the tensor limit, let
+    \[
+    \Phi\in C_c^\infty((0,T)\times\mathbb R^3;\mathbb R^{3\times3})
+    \]
+    and choose \(R\) so that
+    \(\operatorname{supp}\Phi\subset(0,T)\times B_R\).  Then
+    \[
+    \begin{aligned}
+    &\left|
+    \int_0^T\!\!\int_{\mathbb R^3}
+    \bigl(u^{(n)}\otimes u^{(n)}-u\otimes u\bigr):\Phi\,dx\,dt
+    \right|\\
+    &\qquad\le
+    \|\Phi\|_\infty
+    \|u^{(n)}-u\|_{L^2(0,T;L^2(B_R))}
+    \left(
+    \|u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+    +\|u\|_{L^2(0,T;L^2(B_R))}
+    \right),
+    \end{aligned}
+    \]
+    which tends to zero.  Hence
+    \[
+    u^{(n)}\otimes u^{(n)}
+    \to
+    u\otimes u
+    \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3).
+    \]
+
+    This is the compactness architecture used in Proposition 5.1, now written as a
+    reader-facing proof order:
+    \[
+    \hbox{fix }N
+    \quad\longrightarrow\quad
+    n\to\infty
+    \quad\longrightarrow\quad
+    N\to\infty \hbox{ using the high-mode tail estimate.}
+    \]
+
+
+
+    \subsection{Navier-Stokes Compactness Package}
+
+    This package states what the compactness side contributes after the classical
+    scale-barrier tail estimate is available on the same approximation family.  It
+    is a downstream proof package on the classical equation.  The scale-barrier
+    theorem remains the upstream input.
+
+    The theorem surface is fixed as follows.  Use one smooth-data
+    Leray-projected approximation scheme, one pressure normalization, and the same
+    Euclidean Navier--Stokes equation throughout the compactness and nonlinear
+    closure steps.  On that fixed surface, the compactness work has three jobs:
+    \[
+    \begin{array}{ll}
+    \mathrm{K1}: & \text{low-frequency compactness on each }B_R,\\
+    \mathrm{K2}: & \text{high-frequency suppression from the scale-barrier tail
+    input},\\
+    \mathrm{K3}: & \text{recombination into strong local spacetime }L^2
+    \text{ convergence.}
+    \end{array}
+    \]
+
+    With K1--K3 in place, the tensor products satisfy
+    \[
+    u^{(n)}\otimes u^{(n)}
+    \to
+    u\otimes u
+    \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3),
+    \]
+    so the quadratic nonlinear term passes to the limit in the classical weak
+    formulation.
+
+    Once the scale-barrier tail estimate is supplied on the same approximation
+    scheme, the compactness bridge has a precise downstream role.  It turns K1--K3
+    into passage of the nonlinear term.  The open upstream burden remains the
+    classical scale-barrier tail estimate itself.  Pressure recovery and
+    divergence-free limit bookkeeping still have to be written in the final
+    manuscript, and they sit downstream of the same fixed scheme.
+
+
+
+    \subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}
+
+    This lemma is the formal compactness statement behind the preceding package.
+    It stays on the classical 3D incompressible Navier--Stokes equation on
+    \((0,T)\times\mathbb R^3\).  The equation, data surface, pressure law, and
+    viscosity regime stay fixed throughout the upgrade.
+
+    Let \((u^{(n)},p^{(n)})\) be smooth classical Navier--Stokes solutions on a
+    common interval \((0,T)\times\mathbb R^3\), all coming from the same fixed
+    approximation scheme.  Assume the uniform energy bounds
+    \[
+    \sup_n\|u^{(n)}\|_{L_t^\infty L_x^2}<\infty,
+    \qquad
+    \sup_n\|u^{(n)}\|_{L_t^2 H_x^1}<\infty,
+    \]
+    and assume the scale-barrier tail input on that same scheme:
+    \[
+    \forall R>0,\ \forall\varepsilon>0,\ \exists N\ge N_*
+    \quad\text{such that}\quad
+    \sup_n
+    \|P_{\ge N}u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+    \le\varepsilon.
+    \]
+
+    Then for every \(R>0\), after passing to a subsequence,
+    \[
+    u^{(n)}\to u
+    \quad\text{strongly in }L^2(0,T;L^2(B_R)),
+    \]
+    and the usual weak limits also hold:
+    \[
+    u^{(n)}\rightharpoonup^\ast u
+    \quad\text{in }L_t^\infty L_x^2,
+    \qquad
+    u^{(n)}\rightharpoonup u
+    \quad\text{in }L_t^2 H_x^1.
+    \]
+
+    The proof is the low/high recombination from D.53.  At fixed \(N\), the
+    low-frequency sequence \(P_{<N}u^{(n)}\) is compact by Aubin--Lions.  The
+    tail input makes \(P_{\ge N}u^{(n)}\) uniformly small in local \(L^2\) after
+    \(N\) is chosen large.  Passing \(n\to\infty\) first at fixed \(N\), and only
+    then sending \(N\to\infty\), gives the strong local convergence.
+
+    This convergence is strong enough to pass the quadratic term.  For every
+    \[
+    \Phi\in C_c^\infty((0,T)\times\mathbb R^3;\mathbb R^{3\times3}),
+    \]
+    \[
+    \int_0^T\!\!\int_{\mathbb R^3}
+    (u^{(n)}\otimes u^{(n)}):\Phi\,dx\,dt
+    \to
+    \int_0^T\!\!\int_{\mathbb R^3}
+    (u\otimes u):\Phi\,dx\,dt.
+    \]
+    Equivalently,
+    \[
+    u^{(n)}\otimes u^{(n)}
+    \to
+    u\otimes u
+    \quad\text{in }\mathcal D'((0,T)\times\mathbb R^3).
+    \]
+
+    C-U1 and C-U2 are downstream consequences of the same classical scale-barrier
+    tail input.  Before that tail input is supplied, this compactness upgrade
+    remains conditional support.  After that input is installed, the remaining
+    bookkeeping is pressure recovery and the divergence-free limit on the same
+    classical scheme.
+
+
+
+    \subsection{Ancestry Compact Bound.A + Source Residue Liouville.A - direct loop note}
+
+    This direct route tries to close the source-pulse branch through compactness and
+    Liouville rigidity.  The ancestry chain is
+
+    \[
+    \cdots\to P^{-2}\to P^{-1}\to P^0
+    \]
+
+    and the failure scenario carries nonzero inherited source residue along that
+    chain.  The hoped-for pair is:
+
+    \[
+    \text{compact ancestry limit}
+    \qquad\text{and}\qquad
+    \text{Liouville vanishing of the inherited source residue}.
+    \]
+
+    Together those two statements would contradict the nonzero residue required by a
+    failure of Source Pulse Exclusion.A.
+
+    The installed compactness machinery supplies local suitable ancient limits after
+    localized packets and uniform local energy bounds are available.  That produces
+    an ancient source-residue object.  Same-fluid ancestry preserves carrier/fibre
+    coherence, but it gives no global boundedness, no Type I scale control, no
+    critical-norm smallness, and no symmetry reduction for that ancient limit.
+
+    A broad Liouville theorem for arbitrary local suitable ancient source-residue
+    limits is not installed.  Smooth coherent ancient packets and cancellation
+    profiles may carry local energy and source structure.  The current compactness
+    output has no theorem forcing
+
+    \[
+    \gamma_*\,d\mu_*^\sigma=0.
+    \]
+
+    Classical consumers such as BKM, Prodi-Serrin, Type I, and critical smallness
+    would be valid after their hypotheses are supplied.  Those hypotheses are absent
+    on the terminal ancestry limit produced by the current route.
+
+    The precise obstruction is this: local suitable compactness gives an ancient
+    source-residue object without a rigid ancient class, and the route has no
+    Liouville theorem for source residue outside such a class.
+
+    The remaining theorem package is
+    \[
+    \text{ancestry compact bound}
+    \quad+\quad
+    \text{source-residue Liouville theorem on a rigid ancient class}.
+    \]
+    Together with the donor-depletion and drain attempts that remain open, this
+    leaves Source Pulse Exclusion.A open at the source-pulse wall.
+
+
+
+    \subsection{B ASAC Source Ancestry Compactness}
+
+    This is the compactness form of the missing bridge between first-pulse
+    no-parent and global no-incoming source flux for B ASAC. The target is that a
+    nonzero terminal native source charge in the produced B ASAC class cannot be
+    represented by a diffuse legal same-fluid parent cloud invisible to every
+    bounded earlier selected source family. The desired conclusion is a fixed
+    negative-time selected source parent, or a legal/donor/ASAC escape.
+
+    Order-one terminal source charge gives order-one mass in shrinking terminal
+    layers. Pigeonholing can select a high-density layer, but the layer may lie in
+    \((-1/m,0]\) with \(m\to\infty\). This gives no fixed preterminal gap.
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    A selected-parent compactness theorem would require a bounded selected family
+    capturing fixed mass. A diffuse cloud can have many legal near-terminal parents
+    with total charge order one while every bounded subfamily captures vanishing
+    mass.
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}
+    \]
+
+    A natural entropy \(H(P;M)\) would price this diffusion, but installed energy,
+    local energy, pressure/cutoff, donor-balance, residual-, and ASAC records carry
+    no positive entropy coefficient.
+
+    \[
+    \sum_{\alpha=1}^{M}M^{-2}=M^{-1},
+    \]
+
+    Bounded overlap controls selected child coverage, not the incoming legal parent
+    count for one child. Source-ancestry compactness remains open. The hard
+    obstruction is legal diffuse parent-cloud concentration at zero terminal heat
+    time.
+
+
+
+    \subsection{Compact Endpoint Matrix Formalization}
+
+    This is the compact endpoint matrix for the pointwise class-membership route.
+    It records how endpoint failures are typed after the analytic suppliers have
+    been provided.
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    \[
+    Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+    \]
+
+    The Part row removes the Dead face: an active participation witness cannot
+    terminate as Dead while the retained class witness is still propagated.
+
+    \[
+    \Gamma_{pack,Q}(t)\le C_Q,
+    \]
+
+    \[
+    \mathfrak A_{N,Q}\in L^\infty(I),
+    \]
+
+    The Pack row uses the bounded packing gauge. The Field row uses the retained
+    tower bound. The matrix formalizes endpoint algebra; it consumes its analytic
+    suppliers and does not prove them.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Affine-Survivor Quotient Compactness Interface Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:600
+  line_start: 600
+  line_end: 656
+  start_anchor: "\\subsection{Affine-Survivor Quotient Compactness Interface Note}\n"
+  end_anchor: "\\subsection{Affine Survivor Stripped-Down Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Affine-Survivor Quotient Compactness
+    Interface Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:600
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Compact-Support Localizer With Shrinking Radius Implies Center
+    Spacing
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2765
+  line_start: 2765
+  line_end: 2827
+  start_anchor: "\\subsection{Compact-Support Localizer With Shrinking Radius Implies
+    Center Spacing}\n"
+  end_anchor: "\\subsection{Compactness Limit-Order Cleanup Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Compact-Support Localizer With
+    Shrinking Radius Implies Center Spacing as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2765
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Compactness Limit-Order Cleanup Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2828
+  line_start: 2828
+  line_end: 2952
+  start_anchor: "\\subsection{Compactness Limit-Order Cleanup Lemma}\n"
+  end_anchor: "\\subsection{Navier-Stokes Compactness Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Compactness Limit-Order Cleanup
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2828
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Navier-Stokes Compactness Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2953
+  line_start: 2953
+  line_end: 2991
+  start_anchor: "\\subsection{Navier-Stokes Compactness Package}\n"
+  end_anchor: "\\subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Navier-Stokes Compactness Package
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2953
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Compactness Upgrade Lemma (Classical Euclidean Surface)
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2992
+  line_start: 2992
+  line_end: 3061
+  start_anchor: "\\subsection{Compactness Upgrade Lemma (Classical Euclidean Surface)}\n"
+  end_anchor: "\\subsection{Compressible Heat Parent To Incompressible Tower Shadow}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Compactness Upgrade Lemma (Classical
+    Euclidean Surface) as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2992
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Ancestry Compact Bound.A + Source Residue Liouville.A - direct
+    loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14506
+  line_start: 14506
+  line_end: 14559
+  start_anchor: "\\subsection{Ancestry Compact Bound.A + Source Residue Liouville.A
+    - direct loop note}\n"
+  end_anchor: "\\subsection{Ancestry Drain.A - direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Ancestry Compact Bound.A + Source
+    Residue Liouville.A - direct loop note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14506
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Source Ancestry Compactness
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15769
+  line_start: 15769
+  line_end: 15808
+  start_anchor: "\\subsection{B ASAC Source Ancestry Compactness}\n"
+  end_anchor: "\\subsection{B ASAC Branch Entropy Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Source Ancestry Compactness
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15769
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Compact Endpoint Matrix Formalization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16424
+  line_start: 16424
+  line_end: 16453
+  start_anchor: "\\subsection{Compact Endpoint Matrix Formalization}\n"
+  end_anchor: "\\subsection{Component Selection For Jump Avg}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Compact Endpoint Matrix Formalization
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16424
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-compactness-and-exact-object-01
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-compactness-and-exact-object-01.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

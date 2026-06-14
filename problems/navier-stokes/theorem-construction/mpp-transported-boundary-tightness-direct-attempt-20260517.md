@@ -30,7 +30,7 @@ Transported shells are natural for same-fluid ancestry.  They control material e
 The terminal obstruction can still arise from concentration of the source-current measure inside the transported shell during a shrinking terminal interval:
 
 ```math
-F_N^{src,+}\sim \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}\mathbf 1_{\mathcal C_R(t)}.
+F_N^{src,+}:= \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}\mathbf 1_{\mathcal C_R(t)}.
 ```
 
 This creates a terminal time-face atom with small or controlled boundary flux.

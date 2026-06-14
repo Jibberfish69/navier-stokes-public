@@ -13,7 +13,7 @@ This branch would promote finite lifted carrier energy and a uniform active-shel
 The Osgood condition is not available on the current lifted carrier surface. The controlling test gives
 
 ```math
-\Phi_s(r)\simeq 1+r+r^{3/2}
+\Phi_s(r):=1+r+r^{3/2}
 ```
 
 or stronger polynomial growth from the standard lifted tame products.

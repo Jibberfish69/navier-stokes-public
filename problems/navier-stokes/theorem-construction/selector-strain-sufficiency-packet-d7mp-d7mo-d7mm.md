@@ -18,7 +18,8 @@ Discharge the selector-strain slot in the form
 
 ```math
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{B1}
 \mathrm{Err}_{J,\mathrm{ssc}}.
 \tag{B1}
 ```
@@ -97,7 +98,7 @@ So the selector-strain sufficiency ledger is
 
 ```math
 \mathrm{Err}_{J,\mathrm{ssc}}
-\sim
+:=
 |m_J(t_0)|
 +
 \mathrm{Err}_{J,\mathrm{off}}
@@ -134,7 +135,8 @@ On the current exact-potential branch, this note should be read exactly as
 D.7mp + D.7mo + D.7mm
 \Longrightarrow
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{B1}
 \mathrm{Err}_{J,\mathrm{ssc}}.
 ```
 

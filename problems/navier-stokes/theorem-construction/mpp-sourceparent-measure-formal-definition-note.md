@@ -25,8 +25,8 @@ P=(Q_P^\Phi,j_P,I_P,\mu_P^{src},\mu_P^{mix},\gamma_P,\mathfrak F_P),
 where:
 
 - `Q_P^\Phi` is a same-fluid heat-scale cylinder;
-- `j_P` is the active shell, with `r_P\simeq2^{-j_P}`;
-- `I_P` is a time interval with `|I_P|\simeq r_P^2`;
+- `j_P` is the active shell, with `c_r2^{-j_P}\le r_P\le C_r2^{-j_P}`;
+- `I_P` is a time interval with `c_Ir_P^2\le |I_P|\le C_Ir_P^2`;
 - `\mu_P^{src}` is the localized active nonlinear source-residue measure;
 - `\mu_P^{mix}` is the localized mixed bilinear / active-square measure;
 - `\gamma_P\ge\eta` is the inherited bad active coefficient;
@@ -121,7 +121,7 @@ o(1).
 Thus if `P` is genuinely uncharged and source-balanced, then
 
 ```math
-\pi_P(\mathsf{Pred}(P))\gtrsim \mu_P^{src,+}(P)>0.
+\pi_P(\mathsf{Pred}(P))\ge c_P\mu_P^{src,+}(P)>0.
 ```
 
 ### SP.2 Parent lower density

@@ -1,0 +1,942 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-51
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-51
+  sequence: 203
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 51
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 29061
+  line_end: 29942
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29061
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29360
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29381
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29572
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29600
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29632
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29707
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29886
+  subsection_titles:
+  - Whole Proof Skeleton Without Route Jargon
+  - Zeno Source Residue Rigidity.A - direct loop note
+  - Zeno Ancestry Quantization.Terminal Layer Attempt
+  - Zeno Source Residue Rigidity.A conditional proof note
+  - Zeno Source Residue Rigidity.A from Original Smooth Data
+  - Zeno Source Residue Rigidity.Onward Terminal Atom Audit
+  - Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A Conditional Reduction
+  - Middle-Band Flux Gap-Kernel Theorem
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Whole Proof Skeleton Without Route Jargon
+    line_start: 29061
+    line_end: 29093
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29061
+    start_anchor: "\\subsection{Whole Proof Skeleton Without Route Jargon}\n"
+    end_anchor: "\\subsection{Whole-Space Export Decision}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Whole Proof Skeleton Without Route Jargon}
+
+      Let u 0 be smooth, divergence-free, and zero-mean on T 3, with zero external force and viscosity nu>0. Let (u,p) be the maximal classical periodic Navier-Stokes solution on [0,T *). Under the averaged terminal-tail route lemmas, one has
+
+      \[
+      T_* = \infty.
+      \]
+
+      The solution has the standard finite-energy bounds up to the terminal time. At almost every material spacetime point, the scale-critical local velocity, pressure, and gradient quantities become small on sufficiently small parabolic cylinders. Local epsilon-regularity then gives smooth finite-depth control on every cylinder where this smallness holds.
+
+      The terminal tail is split into two possibilities. Either it has a finite positive-scale family of such good cylinders, or the available good scales degenerate. The degeneration case is recorded as an averaged endpoint face. On the good-cylinder branch, the local regularity estimates can be summed over a finite same-fluid cover, giving averaged control of the transported derivative and pressure packets.
+
+      This averaged control propagates through the receiver, source, collar, one-field, and class-invariance estimates. Thus the averaged class witness persists up to the terminal time. The averaged endpoint matrix excludes each possible averaged endpoint face: loss of participation, loss of packing, averaged tower blow-up, and averaged field jump.
+
+      Once the averaged endpoint package is obtained, a fixed finite good cover is recovered. On that fixed cover, averaged field coherence is read as pointwise field coherence, and averaged transported-center control is read as pointwise tower and pressure control. In particular, the pressure part of
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q
+      \]
+
+      The pointwise endpoint package says that no first finite class exit can occur: every possible endpoint face is excluded. Hence finite maximal time would imply a finite class exit, and the endpoint matrix would force an endpoint face, contr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Source Residue Rigidity.A - direct loop note
+    line_start: 29360
+    line_end: 29380
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29360
+    start_anchor: "\\subsection{Zeno Source Residue Rigidity.A - direct loop note}\n"
+    end_anchor: "\\subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Zeno Source Residue Rigidity.A - direct loop note}
+
+      For an uncharged terminal Zeno source-refill branch, prove that rescaling extracts a rigid ancient source-residue limit and that the inherited source residue vanishes there.
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty.
+      \]
+
+      After localization, local energy and pressure compactness can extract a local suitable ancient source-residue object. The ancestry construction preserves nonzero active source residue in the limit.
+
+      Same-fluid ancestry and terminal source localization supply carrier fidelity and residue inheritance. They give no installed rigid class.
+
+      \[
+      \gamma_*\,d\mu_*^\sigma=0.
+      \]
+
+      Since this package and Scale Critical Tree Carleson.A both remain open, the current route leaves Source Pulse Exclusion.A as the irreducible source-pulse wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Ancestry Quantization.Terminal Layer Attempt
+    line_start: 29381
+    line_end: 29393
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29381
+    start_anchor: "\\subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}\n"
+    end_anchor: "\\subsection{Zeno Bounded Class B.A + Zeno Residue Liouville B.A
+      direct rigid-class attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}
+
+      The same-fluid Zeno ancestry test asks whether legal ancestry forces terminal-layer time thickness. The test fails with the current inputs.
+
+      Same-fluid ancestry gives legal packet lineage. It does not give a scale-independent lower bound on heat-time duration. A Zeno sequence can pass through windows whose heat-times form a convergent series.
+
+      A quantized donor reserve per refill would close the branch, but current donor balance pays finite and non-Zeno refill. The terminal Zeno branch can keep first-moment donor cost finite.
+
+      A branch entropy reserve would charge diffuse parent clouds. That again requires a scale-normalized reserve, equivalent in strength to the active-/tree reserve already isolated.
+
+      Zeno ancestry quantization is not generated by current inputs. The zero-thickness terminal layer remains the blocking model.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Source Residue Rigidity.A conditional proof note
+    line_start: 29572
+    line_end: 29599
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29572
+    start_anchor: "\\subsection{Zeno Source Residue Rigidity.A conditional proof note}\n"
+    end_anchor: "\\subsection{Zeno Source Residue Rigidity.A from Original Smooth
+      Data}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Zeno Source Residue Rigidity.A conditional proof note}
+
+      Conditional theorem note. Zeno compactness and the residue-vanishing implication are usable. The missing supplier is temporal spread of the terminal source measure, or production of a rigid ancient class with residue Liouville.
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}=0.
+      \]
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p},
+      \]
+
+      where B src is a class in which every licensed pre-Cauchy source test vanishes. Assume also
+
+      Finite positive Radon mass and L 1 t source control permit terminal concentration. Model time densities
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      Local suitable compactness gives ancient limits. It supplies local energy and pressure bounds, while the installed surfaces supply no Type I bound, global finite ancient energy, critical smallness, symmetry, two-dimensionality, or source-cancellation class production for every surviving Zeno branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Source Residue Rigidity.A from Original Smooth Data
+    line_start: 29600
+    line_end: 29631
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29600
+    start_anchor: "\\subsection{Zeno Source Residue Rigidity.A from Original Smooth
+      Data}\n"
+    end_anchor: "\\subsection{Zeno Source Residue Rigidity.Onward Terminal Atom Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Zeno Source Residue Rigidity.A from Original Smooth Data}
+
+      That is, every uncharged legal Zeno source-refill branch extracts a rigid ancient source-residue limit, and the inherited source residue vanishes there.
+
+      For a legal Zeno branch with radii r m 0 and m r m 2< , parabolic rescaling gives local energy and pressure bounds on every fixed backward cylinder. Standard local suitable compactness produces an ancient local suitable limit
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}(Q_1^-)
+      \ge c_0>0.
+      \]
+
+      \[
+      \text{every ancient local suitable source-residue limit has }\mu_*^{src}=0
+      \]
+
+      \[
+      \mu_*^{src}=0.
+      \]
+
+      Same-fluid ancestry preserves carrier/fibre coherence. It does not impose global boundedness, critical smallness, symmetry, or source cancellation in the rescaled ancient limit.
+
+      Local energy and pressure bounds provide compactness. They do not produce a rigid ancient class.
+
+      Weak signed cancellation is insufficient for the native positive residue measure. Strong native cancellation is equivalent to the residue vanishing and cannot be assumed on the surviving source-pulse branch.
+
+      Zeno Compactness Extraction.A and the cancellation-class residue-vanishing implication are installed. The open atom is
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Source Residue Rigidity.Onward Terminal Atom Audit
+    line_start: 29632
+    line_end: 29675
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29632
+    start_anchor: "\\subsection{Zeno Source Residue Rigidity.Onward Terminal Atom
+      Audit}\n"
+    end_anchor: "\\subsection{Zeno Square Cancellation Class Production.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Zeno Source Residue Rigidity.Onward Terminal Atom Audit}
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      \[
+      \mu_*^{src}(\{s<-a\}\text{ selected source-pulse class})=0
+      \qquad\forall a>0.
+      \]
+
+      Thus the only remaining possible support is terminal-layer support accumulating at s=0.
+
+      \[
+      \boxed{
+      \left\|
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+      \right\|_{L_s^p((-1,0))}
+      \le C_R,
+      \qquad p>1.
+      }
+      \]
+
+      Current compactness gives only locally finite positive Radon mass. That topology allows terminal atoms. so the temporal anti-atom route reduces to the unproved input (UTI) or an equivalent terminal source anti-concentration theorem.
+
+      The source-cancellation class kills the residue only if it already includes the desired cancellation. Thus it is not a generated rigid class from current Zeno ancestry.
+
+      It has positive terminal residue and zero mass on every fixed earlier slab. so backward propagation requires temporal non-atomicity or lower-density input as a premise.
+
+      A monotone ancestry rank would need every Zeno source-refill edge to lower a finite rank or spend quantized finite reserve. Scale rank fails, time-depth rank fails because
+
+      Thus rank closure also requires a scale-critical reserve or terminal anti-concentration theorem.
+
+      The branch remains open. The smallest current Zeno atom is terminal source anti-concentration for the native positive source-residue measure. Current compactness, first-pulse no-earlier-slice, and fixed positive viscosity do not supply it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A
+      Conditional Reduction
+    line_start: 29707
+    line_end: 29751
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29707
+    start_anchor: "\\subsection{Zeno Square Pulse Rigidity.A + Zeno Square Residue
+      Liouville.A Conditional Reduction}\n"
+    end_anchor: "\\subsection{Zero Thickness Source Residue Field Diagnostic Closure.A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A Conditional Reduction}
+
+      \[
+      \mathcal R_{N_m}(I_m)
+      =
+      \int_{I_m}\sum_{k>N_m}2^kT_k(t)^2dt
+      \ge\eta>0,
+      \]
+
+      \[
+      \int_{I_m}\sum_{\ell>N_m}D_\ell(t)dt\to0.
+      \]
+
+      The extracted atoms also carry active source balance and persistent weighted lifted skew residue.
+
+      Assume the terminal -pulse forest has same-fluid packet coherence, legal terminal localization, and parabolic scale normalization. Choose active atoms (x m,t m,k m) carrying positive -reserve density and set
+
+      \[
+      \sup_{s\in[-R^2,0]}\int_{B_R}|\nu_m(y,s)|^2dy
+      +
+      \int_{-R^2}^0\int_{B_R}|\nabla\nu_m|^2dy ds
+      \le C_R.
+      \]
+
+      The pressure bounds follow from the local pressure decomposition. so a subsequence converges to an ancient local suitable source-residue object
+
+      \[
+      (u_*,p_*,\mu_*^{sq} ,\mu_*^{skew} ).
+      \]
+
+      \[
+      \mu_*^{sq}(Q_1^-)+\mu_*^{skew}(Q_1^-)\\ge c_0>0.
+      \]
+
+      For objects in B sq , the residue measure vanishes. Indeed, the admissible terminal source tests separate positive packet measures on the same-fluid carrier. If every pairing is zero, the Riesz representation theorem and packet-test density imply
+
+      Current compactness supplies ancient local suitability, same-fluid ancestry, and nonzero residue inheritance. These inputs supply carrier fidelity. They do not supply Type I bounds, finite global ancient energy, critical smallness, symmetry, bounded ancient vorticity, or source-test cancellation.
+
+      The first and third pieces are proved above under the standard terminal-packet compactness and test-density hypotheses. The live atom is Zeno Square Cancellation Class Production.A.
+
+      If Zeno Square Cancellation Class Production.A is proved, the extracted Zeno limit has nonzero inherited residue by compactness and zero residue by rigid-class Liouville, a contradiction. Thus failure of Scale Critical Tree Carleson.A becomes impossible, and the reserve becomes legal.
+
+      Without the class-production theorem, the Zeno branch halts at compact ancient local suitable li
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Middle-Band Flux Gap-Kernel Theorem
+    line_start: 29886
+    line_end: 29942
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29886
+    start_anchor: "\\subsection{Middle-Band Flux Gap-Kernel Theorem}\n"
+    end_anchor: "\\subsection{Minimal Stronger Gradient Coefficient Interface Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Middle-Band Flux Gap-Kernel Theorem}
+
+      \[
+      b_\ell^{meso}
+      =
+      P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+      \]
+
+      \[
+      b_\ell^{meso}
+      =
+      b_\ell^{near,L} + b_\ell^{far,L},
+      \]
+
+      \[
+      b_\ell^{near,L}
+      :=
+      P_{\le c/\ell}u - P_{\le c e^{-L}/\ell}u,
+      \]
+
+      \[
+      b_\ell^{far,L}
+      :=
+      P_{\le c e^{-L}/\ell}u - P_{\le 2^{N+M}}u.
+      \]
+
+      Thus b near,L occupies only a bounded logarithmic collar below the active scale -1 , while b far,L lies a definite spectral gap below it.
+
+      \[
+      \Sigma_\ell^{near,L} := \rho_\ell * |\nabla b_\ell^{near,L}|,
+      \qquad
+      \Sigma_\ell^{far,L} := \rho_\ell * |\nabla b_\ell^{far,L}|.
+      \]
+
+      For each fixed L, the near-corona term is a bounded-width same-scale packet. More precisely,
+
+      where N mov - spill,L is the continuum moving-window analogue of the same-scale spill packet.
+
+      So b near,L is supported in a bounded-width corona adjacent to the active scale -1 . In the scalarized commutator/stress pairing, this is exactly the same geometric situation as the threshold-local spill packet, except with a moving lower edge. The companion note
+
+      When this lower-frequency field is inserted into the commutator kernel at active scale , the mean-value expansion produces the increment factor |h| with |h| . For a field varying on scale r, this yields the ratio |h|/r /r. Convolving with the radius- averaging kernel gives (2).
+
+      So the far-corona transport loses efficiency with spectral gap in the continuous variable by the explicit kernel /r.
+
+      So the middle-band flux theorem is reduced to a continuum Hardy/Schur estimate for the scale-ratio kernel /r, together with the moving spill control for the near-corona term.
+
+      The previous lemma shows that once the kernel /r is exposed, the Hardy/Schur summation itself is no longer the real obstruction. The remaining open theorem is the far-scale /Carleson input (4c) (or any equivalent one-sided theorem strong enough to supply it).
+
+      Equivalently, the open theorem may be phrased directly on the two-scale density A ,r . What is not enough by itself is a bound only on
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Whole Proof Skeleton Without Route Jargon}
+
+    Let u 0 be smooth, divergence-free, and zero-mean on T 3, with zero external force and viscosity nu>0. Let (u,p) be the maximal classical periodic Navier-Stokes solution on [0,T *). Under the averaged terminal-tail route lemmas, one has
+
+    \[
+    T_* = \infty.
+    \]
+
+    The solution has the standard finite-energy bounds up to the terminal time. At almost every material spacetime point, the scale-critical local velocity, pressure, and gradient quantities become small on sufficiently small parabolic cylinders. Local epsilon-regularity then gives smooth finite-depth control on every cylinder where this smallness holds.
+
+    The terminal tail is split into two possibilities. Either it has a finite positive-scale family of such good cylinders, or the available good scales degenerate. The degeneration case is recorded as an averaged endpoint face. On the good-cylinder branch, the local regularity estimates can be summed over a finite same-fluid cover, giving averaged control of the transported derivative and pressure packets.
+
+    This averaged control propagates through the receiver, source, collar, one-field, and class-invariance estimates. Thus the averaged class witness persists up to the terminal time. The averaged endpoint matrix excludes each possible averaged endpoint face: loss of participation, loss of packing, averaged tower blow-up, and averaged field jump.
+
+    Once the averaged endpoint package is obtained, a fixed finite good cover is recovered. On that fixed cover, averaged field coherence is read as pointwise field coherence, and averaged transported-center control is read as pointwise tower and pressure control. In particular, the pressure part of
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q
+    \]
+
+    The pointwise endpoint package says that no first finite class exit can occur: every possible endpoint face is excluded. Hence finite maximal time would imply a finite class exit, and the endpoint matrix would force an endpoint face, contradicting the pointwise endpoint package.
+
+    so no finite maximal time exists. Equivalently, the retained class witness supplies a uniform terminal bound
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty
+    \]
+
+    \[
+    T_* = \infty.
+    \]
+
+
+
+    \subsection{Zeno Source Residue Rigidity.A - direct loop note}
+
+    For an uncharged terminal Zeno source-refill branch, prove that rescaling extracts a rigid ancient source-residue limit and that the inherited source residue vanishes there.
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    After localization, local energy and pressure compactness can extract a local suitable ancient source-residue object. The ancestry construction preserves nonzero active source residue in the limit.
+
+    Same-fluid ancestry and terminal source localization supply carrier fidelity and residue inheritance. They give no installed rigid class.
+
+    \[
+    \gamma_*\,d\mu_*^\sigma=0.
+    \]
+
+    Since this package and Scale Critical Tree Carleson.A both remain open, the current route leaves Source Pulse Exclusion.A as the irreducible source-pulse wall.
+
+
+
+    \subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}
+
+    The same-fluid Zeno ancestry test asks whether legal ancestry forces terminal-layer time thickness. The test fails with the current inputs.
+
+    Same-fluid ancestry gives legal packet lineage. It does not give a scale-independent lower bound on heat-time duration. A Zeno sequence can pass through windows whose heat-times form a convergent series.
+
+    A quantized donor reserve per refill would close the branch, but current donor balance pays finite and non-Zeno refill. The terminal Zeno branch can keep first-moment donor cost finite.
+
+    A branch entropy reserve would charge diffuse parent clouds. That again requires a scale-normalized reserve, equivalent in strength to the active-/tree reserve already isolated.
+
+    Zeno ancestry quantization is not generated by current inputs. The zero-thickness terminal layer remains the blocking model.
+
+
+
+    \subsection{Zeno Source Residue Rigidity.A conditional proof note}
+
+    Conditional theorem note. Zeno compactness and the residue-vanishing implication are usable. The missing supplier is temporal spread of the terminal source measure, or production of a rigid ancient class with residue Liouville.
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}=0.
+    \]
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p},
+    \]
+
+    where B src is a class in which every licensed pre-Cauchy source test vanishes. Assume also
+
+    Finite positive Radon mass and L 1 t source control permit terminal concentration. Model time densities
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    Local suitable compactness gives ancient limits. It supplies local energy and pressure bounds, while the installed surfaces supply no Type I bound, global finite ancient energy, critical smallness, symmetry, two-dimensionality, or source-cancellation class production for every surviving Zeno branch.
+
+
+
+    \subsection{Zeno Source Residue Rigidity.A from Original Smooth Data}
+
+    That is, every uncharged legal Zeno source-refill branch extracts a rigid ancient source-residue limit, and the inherited source residue vanishes there.
+
+    For a legal Zeno branch with radii r m 0 and m r m 2< , parabolic rescaling gives local energy and pressure bounds on every fixed backward cylinder. Standard local suitable compactness produces an ancient local suitable limit
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}(Q_1^-)
+    \ge c_0>0.
+    \]
+
+    \[
+    \text{every ancient local suitable source-residue limit has }\mu_*^{src}=0
+    \]
+
+    \[
+    \mu_*^{src}=0.
+    \]
+
+    Same-fluid ancestry preserves carrier/fibre coherence. It does not impose global boundedness, critical smallness, symmetry, or source cancellation in the rescaled ancient limit.
+
+    Local energy and pressure bounds provide compactness. They do not produce a rigid ancient class.
+
+    Weak signed cancellation is insufficient for the native positive residue measure. Strong native cancellation is equivalent to the residue vanishing and cannot be assumed on the surviving source-pulse branch.
+
+    Zeno Compactness Extraction.A and the cancellation-class residue-vanishing implication are installed. The open atom is
+
+
+
+    \subsection{Zeno Source Residue Rigidity.Onward Terminal Atom Audit}
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    \[
+    \mu_*^{src}(\{s<-a\}\text{ selected source-pulse class})=0
+    \qquad\forall a>0.
+    \]
+
+    Thus the only remaining possible support is terminal-layer support accumulating at s=0.
+
+    \[
+    \boxed{
+    \left\|
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+    \right\|_{L_s^p((-1,0))}
+    \le C_R,
+    \qquad p>1.
+    }
+    \]
+
+    Current compactness gives only locally finite positive Radon mass. That topology allows terminal atoms. so the temporal anti-atom route reduces to the unproved input (UTI) or an equivalent terminal source anti-concentration theorem.
+
+    The source-cancellation class kills the residue only if it already includes the desired cancellation. Thus it is not a generated rigid class from current Zeno ancestry.
+
+    It has positive terminal residue and zero mass on every fixed earlier slab. so backward propagation requires temporal non-atomicity or lower-density input as a premise.
+
+    A monotone ancestry rank would need every Zeno source-refill edge to lower a finite rank or spend quantized finite reserve. Scale rank fails, time-depth rank fails because
+
+    Thus rank closure also requires a scale-critical reserve or terminal anti-concentration theorem.
+
+    The branch remains open. The smallest current Zeno atom is terminal source anti-concentration for the native positive source-residue measure. Current compactness, first-pulse no-earlier-slice, and fixed positive viscosity do not supply it.
+
+
+
+    \subsection{Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A Conditional Reduction}
+
+    \[
+    \mathcal R_{N_m}(I_m)
+    =
+    \int_{I_m}\sum_{k>N_m}2^kT_k(t)^2dt
+    \ge\eta>0,
+    \]
+
+    \[
+    \int_{I_m}\sum_{\ell>N_m}D_\ell(t)dt\to0.
+    \]
+
+    The extracted atoms also carry active source balance and persistent weighted lifted skew residue.
+
+    Assume the terminal -pulse forest has same-fluid packet coherence, legal terminal localization, and parabolic scale normalization. Choose active atoms (x m,t m,k m) carrying positive -reserve density and set
+
+    \[
+    \sup_{s\in[-R^2,0]}\int_{B_R}|\nu_m(y,s)|^2dy
+    +
+    \int_{-R^2}^0\int_{B_R}|\nabla\nu_m|^2dy ds
+    \le C_R.
+    \]
+
+    The pressure bounds follow from the local pressure decomposition. so a subsequence converges to an ancient local suitable source-residue object
+
+    \[
+    (u_*,p_*,\mu_*^{sq} ,\mu_*^{skew} ).
+    \]
+
+    \[
+    \mu_*^{sq}(Q_1^-)+\mu_*^{skew}(Q_1^-)\\ge c_0>0.
+    \]
+
+    For objects in B sq , the residue measure vanishes. Indeed, the admissible terminal source tests separate positive packet measures on the same-fluid carrier. If every pairing is zero, the Riesz representation theorem and packet-test density imply
+
+    Current compactness supplies ancient local suitability, same-fluid ancestry, and nonzero residue inheritance. These inputs supply carrier fidelity. They do not supply Type I bounds, finite global ancient energy, critical smallness, symmetry, bounded ancient vorticity, or source-test cancellation.
+
+    The first and third pieces are proved above under the standard terminal-packet compactness and test-density hypotheses. The live atom is Zeno Square Cancellation Class Production.A.
+
+    If Zeno Square Cancellation Class Production.A is proved, the extracted Zeno limit has nonzero inherited residue by compactness and zero residue by rigid-class Liouville, a contradiction. Thus failure of Scale Critical Tree Carleson.A becomes impossible, and the reserve becomes legal.
+
+    Without the class-production theorem, the Zeno branch halts at compact ancient local suitable limits carrying possible positive source residue.
+
+
+
+    \subsection{Middle-Band Flux Gap-Kernel Theorem}
+
+    \[
+    b_\ell^{meso}
+    =
+    P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+    \]
+
+    \[
+    b_\ell^{meso}
+    =
+    b_\ell^{near,L} + b_\ell^{far,L},
+    \]
+
+    \[
+    b_\ell^{near,L}
+    :=
+    P_{\le c/\ell}u - P_{\le c e^{-L}/\ell}u,
+    \]
+
+    \[
+    b_\ell^{far,L}
+    :=
+    P_{\le c e^{-L}/\ell}u - P_{\le 2^{N+M}}u.
+    \]
+
+    Thus b near,L occupies only a bounded logarithmic collar below the active scale -1 , while b far,L lies a definite spectral gap below it.
+
+    \[
+    \Sigma_\ell^{near,L} := \rho_\ell * |\nabla b_\ell^{near,L}|,
+    \qquad
+    \Sigma_\ell^{far,L} := \rho_\ell * |\nabla b_\ell^{far,L}|.
+    \]
+
+    For each fixed L, the near-corona term is a bounded-width same-scale packet. More precisely,
+
+    where N mov - spill,L is the continuum moving-window analogue of the same-scale spill packet.
+
+    So b near,L is supported in a bounded-width corona adjacent to the active scale -1 . In the scalarized commutator/stress pairing, this is exactly the same geometric situation as the threshold-local spill packet, except with a moving lower edge. The companion note
+
+    When this lower-frequency field is inserted into the commutator kernel at active scale , the mean-value expansion produces the increment factor |h| with |h| . For a field varying on scale r, this yields the ratio |h|/r /r. Convolving with the radius- averaging kernel gives (2).
+
+    So the far-corona transport loses efficiency with spectral gap in the continuous variable by the explicit kernel /r.
+
+    So the middle-band flux theorem is reduced to a continuum Hardy/Schur estimate for the scale-ratio kernel /r, together with the moving spill control for the near-corona term.
+
+    The previous lemma shows that once the kernel /r is exposed, the Hardy/Schur summation itself is no longer the real obstruction. The remaining open theorem is the far-scale /Carleson input (4c) (or any equivalent one-sided theorem strong enough to supply it).
+
+    Equivalently, the open theorem may be phrased directly on the two-scale density A ,r . What is not enough by itself is a bound only on the strain factor r: the Schur step needs either a genuine factorization A ,r U( )V(r) with V independent of , or a direct one-sided / Carleson estimate on the two-scale transport-stress density itself.
+
+    The reduction above leaves exactly four explicit links between the structural decomposition and the final middle-band barrier estimate.
+
+    Any direct one-sided Carleson theorem on A ,r that implies (5h) may replace the factorized input (5e)-(5g). But the open theorem must live on the coupled two-scale density A ,r , not on a one-scale shadow such as r alone.
+
+    First, the near-corona theorem is not proved merely by observing that N mov - spill,L is a same-scale trilinear family. A naive Bernstein bound on a same-scale packet loses the active scale and does not by itself yield the barrier estimate (5b). So the moving-spill theorem remains an open theorem, not an already-discharged corollary of the reduction.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Whole Proof Skeleton Without Route Jargon
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29061
+  line_start: 29061
+  line_end: 29093
+  start_anchor: "\\subsection{Whole Proof Skeleton Without Route Jargon}\n"
+  end_anchor: "\\subsection{Whole-Space Export Decision}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Whole Proof Skeleton Without
+    Route Jargon as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29061
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Source Residue Rigidity.A - direct loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29360
+  line_start: 29360
+  line_end: 29380
+  start_anchor: "\\subsection{Zeno Source Residue Rigidity.A - direct loop note}\n"
+  end_anchor: "\\subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Source Residue Rigidity.A
+    - direct loop note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29360
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Ancestry Quantization.Terminal Layer Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29381
+  line_start: 29381
+  line_end: 29393
+  start_anchor: "\\subsection{Zeno Ancestry Quantization.Terminal Layer Attempt}\n"
+  end_anchor: "\\subsection{Zeno Bounded Class B.A + Zeno Residue Liouville B.A direct
+    rigid-class attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Ancestry Quantization.Terminal
+    Layer Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29381
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Source Residue Rigidity.A conditional proof note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29572
+  line_start: 29572
+  line_end: 29599
+  start_anchor: "\\subsection{Zeno Source Residue Rigidity.A conditional proof note}\n"
+  end_anchor: "\\subsection{Zeno Source Residue Rigidity.A from Original Smooth Data}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Source Residue Rigidity.A
+    conditional proof note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29572
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Source Residue Rigidity.A from Original Smooth Data
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29600
+  line_start: 29600
+  line_end: 29631
+  start_anchor: "\\subsection{Zeno Source Residue Rigidity.A from Original Smooth
+    Data}\n"
+  end_anchor: "\\subsection{Zeno Source Residue Rigidity.Onward Terminal Atom Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Source Residue Rigidity.A
+    from Original Smooth Data as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29600
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Source Residue Rigidity.Onward Terminal Atom Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29632
+  line_start: 29632
+  line_end: 29675
+  start_anchor: "\\subsection{Zeno Source Residue Rigidity.Onward Terminal Atom Audit}\n"
+  end_anchor: "\\subsection{Zeno Square Cancellation Class Production.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Source Residue Rigidity.Onward
+    Terminal Atom Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29632
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A
+    Conditional Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29707
+  line_start: 29707
+  line_end: 29751
+  start_anchor: "\\subsection{Zeno Square Pulse Rigidity.A + Zeno Square Residue Liouville.A
+    Conditional Reduction}\n"
+  end_anchor: "\\subsection{Zero Thickness Source Residue Field Diagnostic Closure.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Zeno Square Pulse Rigidity.A
+    + Zeno Square Residue Liouville.A Conditional Reduction as paper-ready TeX with
+    proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29707
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Middle-Band Flux Gap-Kernel Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29886
+  line_start: 29886
+  line_end: 29942
+  start_anchor: "\\subsection{Middle-Band Flux Gap-Kernel Theorem}\n"
+  end_anchor: "\\subsection{Minimal Stronger Gradient Coefficient Interface Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Middle-Band Flux Gap-Kernel Theorem
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29886
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-51
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-51.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

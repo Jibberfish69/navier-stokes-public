@@ -1,0 +1,1125 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-16
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-16
+  sequence: 101
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 16
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 33831
+  line_end: 34198
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33831
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33888
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33937
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33996
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34058
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34067
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34104
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34149
+  subsection_titles:
+  - Clay problem Class-Membership Endpoint Exclusion Note
+  - Clay problem Class-Membership Endpoint Matrix Closure Theorem
+  - Clay problem Class-Membership Forward-Invariance Theorem Program
+  - Clay problem Class-Membership Full Bridge record
+  - CM Contrapositive Course-Correction Plan
+  - Clay problem CM Contrapositive Primitive Seat Repair
+  - Clay problem CM Cross-Face record Synchronization Creative Step
+  - Clay problem CM Cross-Face Synthesis Bridge-License Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Endpoint Exclusion Note
+    line_start: 33831
+    line_end: 33887
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33831
+    start_anchor: "\\subsection{Clay problem Class-Membership Endpoint Exclusion Note}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Endpoint Matrix Closure
+      Theorem}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Class-Membership Endpoint Exclusion Note}
+
+      The note does not replace the current live selector/defect route. Its job is narrower: isolate the distinct class-membership argument that has been developed in the current chat, without mixing it with donor-financing language or with the current pair-defect observability wall.
+
+      The point is not that blowup must be financed by donor collapse, and not that the proof must run through a defect-record route. The point is that the Clay problem specifies one particular kind of fluid object, and the dangerous endpoints do not occur inside that object. They are exit events from that object.
+
+      \[
+      \nabla\cdot u_0=0,
+      \]
+
+      and viscosity >0. On = R 3 or T 3, define an Clay problem evolution on [0,T) to mean a pair (u,p) such that
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+      \qquad
+      \nabla\cdot u = 0,
+      \]
+
+      \[
+      \mathcal T_{x,t}(u,p)
+      :=
+      \left\{
+      \partial_t^m\partial_x^\alpha u(x,t),
+      \partial_t^m\partial_x^\alpha p(x,t)
+      :\ m\ge 0,\ \alpha\in\mathbf N^3
+      \right\}.
+      \]
+
+      \[
+      (u,p)\in \mathcal MPP([0,T))
+      \]
+
+      The fifth clause is the part that matters for the present chat: tower membership is built into class membership itself.
+
+      So Clay problem([0,T)) is the class of smooth Navier--Stokes evolutions whose local mixed-jet tower remains pointwise internal to the same shared incompressible viscous field at every finite time.
+
+      So the present route does not treat viscosity alone as the keeper of the class. The keeper doctrine is the joint triple
+
+      This is why the present route treats transport-dead / tower-dead as a class-exit notion rather than a mere low-velocity event.
+
+      \[
+      \partial_t \Phi(a,t)=u(\Phi(a,t),t),
+      \qquad
+      \Phi(a,0)=a,
+      \]
+
+      In particular, the present route does not allow a transported region to pick up an extra friction, interface, or boundary-mechanics law not already present in the original Navier--Stokes system.
+
+      In the present route, - p and u are the two class-internal carriers of participation: pressure
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Endpoint Matrix Closure Theorem
+    line_start: 33888
+    line_end: 33936
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33888
+    start_anchor: "\\subsection{Clay problem Class-Membership Endpoint Matrix Closure
+      Theorem}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Forward-Invariance Theorem
+      Program}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Class-Membership Endpoint Matrix Closure Theorem}
+
+      \[
+      Dead,\qquad Blown,\qquad Jump.
+      \]
+
+      \[
+      End\_NS\equiv\mathsf{End}_{NS}.
+      \]
+
+      The matrix rows are not mutually exclusive physical doors. They are certificate rows. A single terminal behavior may have a native row and a cross-entry row. In particular, finite material-packet distortion is native to the Pack row as packing-detached, while the strain/tower mechanism producing it may also activate tower-blown or Field-side coherence pressure. The matrix keeps those readouts typed rather than pretending that one visible endpoint has only one cause.
+
+      \[
+      \neg CM_{N,r,Q}(u,p,\Phi)
+      \]
+
+      \[
+      Dead
+      \vee
+      packing\text{-}detached
+      \vee
+      tower\text{-}blown
+      \vee
+      Jump.
+      \]
+
+      \[
+      Pack_Q(u,\Phi)
+      +
+      \Gamma_{\mathrm{pack},Q}\in L^\infty(I)
+      \Longrightarrow
+      \text{no packing-detached endpoint on }I.
+      \]
+
+      This is the mixed tower-amplitude blown face. It remains separate from the pack-native packing-detached face.
+
+      The proof is formal once the tower-amplitude bound is supplied: tower-blown asserts that for every finite M there is t I with A N,Q (t)>M; an L (I) bound contradicts this by choosing M larger than that bound. The amplitude input is
+
+      The tower-amplitude input is supplied by a finite transported-center cover plus the pressure/viscous K k readout.
+
+      This bridge does not add a new receiver loop: its analytic content is exactly the same local pressure/viscous readout already tracked in the DTC package.
+
+      For jump cross-entries, the installed field-coherence reduction routes Pack+Part+Jump to a coherence fracture, hence to the Field row once Pack and Part are retained. For dead cross-entries, the route-native dead entry is the installed (Part,Dead) row.
+
+      Thus the assumed first class exit has no endpoint shell left in the matrix. Contradiction.
+
+      Together with the direct transported-center block, this is one of the terminal proof blocks of the Navier-Stokes argument.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Forward-Invariance Theorem Program
+    line_start: 33937
+    line_end: 33995
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33937
+    start_anchor: "\\subsection{Clay problem Class-Membership Forward-Invariance Theorem
+      Program}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Full Bridge record}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Class-Membership Forward-Invariance Theorem Program}
+
+      Role: state the preferred compression route for the live class-membership program.
+
+      So the live question is no longer merely how to reconstitute a classical field from non-degeneration data. It is whether the Clay problem class law itself already contains the missing coercive content in seed form.
+
+      Fix a finite depth N, an initial still-live window Q 0, and an evolved still-live family Q s 0 s carried by the same NS solution and the same material transport .
+
+      CM N,r 0,Q 0 (u,p, ) holds for some r 0>0; the evolved family Q s remains still-live and belongs to the same transported fluid carrier; no blown manifestation occurs on the family; no jump manifestation occurs on the family.
+
+      \[
+      \mathrm{CM}_{N,r_{N,\sigma},Q_s}(u,p,\Phi)
+      \qquad
+      \text{for every }0\le s\le \sigma.
+      \]
+
+      \[
+      Q_t:=\{x\in\Omega:(x,t)\in Q\},
+      \qquad
+      A_Q(t):=\{a\in\Omega:\Phi(a,t)\in Q_t\}.
+      \]
+
+      \[
+      A_{Q_s}(t)\subset A_\sharp
+      \qquad
+      \text{for every }s\in[0,\sigma]
+      \text{ and every time-slice meeting }Q_s;
+      \]
+
+      Equivalently: every Q s is read on one common transported label collar under the same , and the family moves through overlap rather than by replacing the carrier.
+
+      So Q s is not an arbitrary family of windows. It is one same-fluid window-family inside one transported evolution.
+
+      Plainly: if one common carrier starts lawful and the blown side never becomes visible, then the common deformation / packing law stays installed.
+
+      Part N,Q 0 (u,p) holds; Q s is a same-fluid evolved still-live family from Q 0; the shared participation law and the CM tethering theorem remain the active Law 2 engine on that family; no dead or blown manifestation occurs on Q s .
+
+      This is the route-native statement that the participation side is self-propagating inside one still-live same-fluid family.
+
+      Plainly: if neighboring towers start as one field and no coherence fracture becomes visible, then one positive coherence regime survives along the famil
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Full Bridge record
+    line_start: 33996
+    line_end: 34057
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33996
+    start_anchor: "\\subsection{Clay problem Class-Membership Full Bridge record}\n"
+    end_anchor: "\\subsection{CM Contrapositive Course-Correction Plan}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Class-Membership Full Bridge record}
+
+      Role: record the complete ordered bridge stack from the direct transported-center block to the no-class-exit conclusion.
+
+      \[
+      \mathfrak p=(n,\mu,\Delta)\in\mathcal P_{\rm req},
+      \qquad
+      c_j(t)=\Phi(a^j,t).
+      \]
+
+      \[
+      x=c_j(t)+G_j(t)y,
+      \]
+
+      \[
+      R_{q,j}(y,t)
+      :=
+      \mathcal C_{G_j(t)}^{-1}
+      \left(
+      U_q(c_j(t)+G_j(t)y,t)-U_q(c_j(t),t)
+      \right).
+      \]
+
+      \[
+      \mathcal E_{\mathfrak p}^{aff}(t)
+      :=
+      \sum_{j,q\le\mu+2}
+      \left|U_q(c_j(t),t)\right|^2
+      +
+      \sum_{j,q\le\mu+2}
+      \sum_{|\beta|\le2}
+      \int_{B(0,R_{\mathfrak p}^{aff})}
+      \left|\nabla_y^\beta R_{q,j}(y,t)\right|^2\,dy.
+      \]
+
+      The radius R p aff is chosen large enough, using L (I), so that every raw center ball B(c j(t),R p TC ) pulls back inside B(0,R p aff ).
+
+      \[
+      B_{\mathfrak p}^{aff},\ F_{\mathfrak p}^{aff}\in L^1(I),
+      \]
+
+      This bridge is formal and closed once the three channel theorems are available. Indeed, by definition the source account splits pointwise as
+
+      This bridge is closed as a witness-certificate completeness theorem once the three displayed certificate maps are installed. It is a theorem about the
+
+      The propagated positive coherence scale and finite field bound exclude loss of every positive one-field coherence scale.
+
+      The K k readout is part of this bridge; it must not be silently replaced by raw U q control unless the tower identities and local pressure/viscous response have been included.
+
+      so the moving-cutoff commutator is controlled by the affine defect of the first rung.
+
+      Here X is the scale-normalized affine excess packet, not the full affine packet with arbitrary center zero modes. Center amplitudes are either gauged/renormalized away from the small quantity or carried separately in the L,F budget. This distinction is necessary because the raw q=0 center term R -1 | U 0,j | 2 is not made small by taking R small.
+
+      Only X exc is used in the small factor ( X exc ) 1/2 N. The full readout packet Y read keeps the center zero modes for raw tower readout. The separate center r
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: CM Contrapositive Course-Correction Plan
+    line_start: 34058
+    line_end: 34066
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34058
+    start_anchor: "\\subsection{CM Contrapositive Course-Correction Plan}\n"
+    end_anchor: "\\subsection{Clay problem CM Contrapositive Primitive Seat Repair}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{CM Contrapositive Course-Correction Plan}
+
+      Date: 2026-05-03 route: Navier-Stokes Purpose: make the corrected proof polarity operational.
+
+      Smoothness is then read by contraposition. A positive estimate may help, but it is only a supplier/readout theorem until it explicitly bridges into failure or persistence of Pack, Part, or Field.
+
+      Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Pack, Part, and Field all remain valid.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Contrapositive Primitive Seat Repair
+    line_start: 34067
+    line_end: 34103
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34067
+    start_anchor: "\\subsection{Clay problem CM Contrapositive Primitive Seat Repair}\n"
+    end_anchor: "\\subsection{Clay problem CM Cross-Face record Synchronization Creative
+      Step}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem CM Contrapositive Primitive Seat Repair}
+
+      No new PDE theorem is proved here. The authority seat for the class-membership contrapositive primitive is repaired, and source-pulse language that had been promoted above its lawful branch role is quarantined.
+
+      \[
+      \neg CM_{N,r,Q}(u,p,\Phi),
+      \]
+
+      \[
+      CM_{N,r,Q}
+      =
+      Pack_Q
+      \wedge
+      Part_{N,Q}
+      \wedge
+      Field_{N,r,Q}.
+      \]
+
+      \[
+      \neg CM_{N,r,Q}
+      \Longrightarrow
+      \neg Pack_Q
+      \vee
+      \neg Part_{N,Q}
+      \vee
+      \neg Field_{N,r,Q}.
+      \]
+
+      Source PulseCMExit.A is not the single CM contrapositive primitive. It is a source-pulse manifestation / branch theorem seated under the primitive CM-exit grammar.
+
+      \[
+      \neg CM_{N,r,Q}
+      =
+      \neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Cross-Face record Synchronization Creative Step
+    line_start: 34104
+    line_end: 34148
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34104
+    start_anchor: "\\subsection{Clay problem CM Cross-Face record Synchronization
+      Creative Step}\n"
+    end_anchor: "\\subsection{Clay problem CM Cross-Face Synthesis Bridge-License
+      Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem CM Cross-Face record Synchronization Creative Step}
+
+      \[
+      Pack_Q(\mathcal W)
+      \wedge
+      Part_{N,Q}(\mathcal W)
+      \wedge
+      Field_{N,r,Q}(\mathcal W)
+      \Longrightarrow
+      CM_{N,r,Q}(\mathcal W).
+      \]
+
+      \[
+      \mathfrak L_N(Q)
+      \]
+
+      \[
+      \mathfrak L_F(Q,N)
+      \]
+
+      Pack Q, Part N,Q , and Field N,r,Q are all localized on the same carrier O NS work and same-fluid family class. Each localized face certificate is hereditary under passage to a smaller still-live terminal subwindow. The Field certificate is hereditary under reducing the positive field scale from r to any 0<r'<=r on the same subwindow. The three terminal windows have a common still-live subwindow. The Field face supplies a positive lower scale before synchronization, so the common choice r * is still positive.
+
+      \[
+      Pack_Q(\mathcal W_*)
+      \wedge
+      Part_{N,Q}(\mathcal W_*)
+      \wedge
+      Field_{N,r_*,Q}(\mathcal W_*).
+      \]
+
+      \[
+      CM_{N,r_*,Q}(\mathcal W_*).
+      \]
+
+      for the Pack, Part, and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
+
+      where r F is a positive scale from the Field certificate and r 0>0 is any scale allowed by the synchronized window convention. Assumption 5 ensures r *>0. By Field scale heredity, the Field certificate remains valid at r * on T *.
+
+      This is a useful bridge-side refinement only if the five hypotheses are lower than the source-wall root.
+
+      Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Pack, Part, and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
+
+      The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Pack/Part/Field triple gives CM N,r,Q .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Cross-Face Synthesis Bridge-License Audit
+    line_start: 34149
+    line_end: 34198
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34149
+    start_anchor: "\\subsection{Clay problem CM Cross-Face Synthesis Bridge-License
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem CM Field-Face Source-Wall Reorientation
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem CM Cross-Face Synthesis Bridge-License Audit}
+
+      Theorem-facing bridge-license note for the aggregate class-membership witness after Pack, Part, and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
+
+      \[
+      Pack_Q
+      \wedge
+      Part_{N,Q}
+      \wedge
+      Field_{N,r,Q}
+      \Longrightarrow
+      CM_{N,r,Q}.
+      \]
+
+      Here Q is the same retained class region, N is the same tower depth, r is the same positive field scale, is the same same-fluid family, and T is the same still-live terminal window.
+
+      \[
+      Pack_Q(\mathcal W),
+      \qquad
+      Part_{N,Q}(\mathcal W),
+      \qquad
+      Field_{N,r,Q}(\mathcal W).
+      \]
+
+      No supplier-only theorem is allowed to occupy one of these faces unless a separate readout theorem lands it on that exact face.
+
+      \[
+      \forall N\ \exists r_N>0:\
+      CM_{N,r_N,Q}(\mathcal W_N),
+      \]
+
+      \[
+      CM_{N,r,Q}
+      =
+      Pack_Q
+      \wedge
+      Part_{N,Q}
+      \wedge
+      Field_{N,r,Q}.
+      \]
+
+      If all three predicates are certified on the same witness record W, then the conjunction is exactly CM N,r,Q ( W). There is no additional analytic estimate in this step; the content of the bridge-license theorem is the synchronization rule that forbids mixing faces from different carriers, windows, scales, or branches.
+
+      Thus the cross-face synthesis bridge is licensed exactly at the CM witness object and nowhere else.
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Class-Membership Endpoint Exclusion Note}
+
+    The note does not replace the current live selector/defect route. Its job is narrower: isolate the distinct class-membership argument that has been developed in the current chat, without mixing it with donor-financing language or with the current pair-defect observability wall.
+
+    The point is not that blowup must be financed by donor collapse, and not that the proof must run through a defect-record route. The point is that the Clay problem specifies one particular kind of fluid object, and the dangerous endpoints do not occur inside that object. They are exit events from that object.
+
+    \[
+    \nabla\cdot u_0=0,
+    \]
+
+    and viscosity >0. On = R 3 or T 3, define an Clay problem evolution on [0,T) to mean a pair (u,p) such that
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+    \qquad
+    \nabla\cdot u = 0,
+    \]
+
+    \[
+    \mathcal T_{x,t}(u,p)
+    :=
+    \left\{
+    \partial_t^m\partial_x^\alpha u(x,t),
+    \partial_t^m\partial_x^\alpha p(x,t)
+    :\ m\ge 0,\ \alpha\in\mathbf N^3
+    \right\}.
+    \]
+
+    \[
+    (u,p)\in \mathcal MPP([0,T))
+    \]
+
+    The fifth clause is the part that matters for the present chat: tower membership is built into class membership itself.
+
+    So Clay problem([0,T)) is the class of smooth Navier--Stokes evolutions whose local mixed-jet tower remains pointwise internal to the same shared incompressible viscous field at every finite time.
+
+    So the present route does not treat viscosity alone as the keeper of the class. The keeper doctrine is the joint triple
+
+    This is why the present route treats transport-dead / tower-dead as a class-exit notion rather than a mere low-velocity event.
+
+    \[
+    \partial_t \Phi(a,t)=u(\Phi(a,t),t),
+    \qquad
+    \Phi(a,0)=a,
+    \]
+
+    In particular, the present route does not allow a transported region to pick up an extra friction, interface, or boundary-mechanics law not already present in the original Navier--Stokes system.
+
+    In the present route, - p and u are the two class-internal carriers of participation: pressure enforces the common incompressible packing constraint, while viscosity carries the local dragging/coupling across the field.
+
+    These are the formal consequences behind the verbal slogan that the incompressibility-pressure-viscosity triple keeps the field in motion as one shared object.
+
+    A point or region is called dead in the present note when it has ceased to participate in the common viscous-pressure-coupled smooth motion while the surrounding evolution remains live.
+
+    In the intended viscosity reading, this means more than "small" or "flattened" motion. A point may slow, flatten, or pass through zero velocity and still remain inside the class. What is excluded is exact local deadness in the strong sense that the point no longer remains dynamically dragged by a still-live viscous neighborhood.
+
+
+
+    \subsection{Clay problem Class-Membership Endpoint Matrix Closure Theorem}
+
+    \[
+    Dead,\qquad Blown,\qquad Jump.
+    \]
+
+    \[
+    End\_NS\equiv\mathsf{End}_{NS}.
+    \]
+
+    The matrix rows are not mutually exclusive physical doors. They are certificate rows. A single terminal behavior may have a native row and a cross-entry row. In particular, finite material-packet distortion is native to the Pack row as packing-detached, while the strain/tower mechanism producing it may also activate tower-blown or Field-side coherence pressure. The matrix keeps those readouts typed rather than pretending that one visible endpoint has only one cause.
+
+    \[
+    \neg CM_{N,r,Q}(u,p,\Phi)
+    \]
+
+    \[
+    Dead
+    \vee
+    packing\text{-}detached
+    \vee
+    tower\text{-}blown
+    \vee
+    Jump.
+    \]
+
+    \[
+    Pack_Q(u,\Phi)
+    +
+    \Gamma_{\mathrm{pack},Q}\in L^\infty(I)
+    \Longrightarrow
+    \text{no packing-detached endpoint on }I.
+    \]
+
+    This is the mixed tower-amplitude blown face. It remains separate from the pack-native packing-detached face.
+
+    The proof is formal once the tower-amplitude bound is supplied: tower-blown asserts that for every finite M there is t I with A N,Q (t)>M; an L (I) bound contradicts this by choosing M larger than that bound. The amplitude input is
+
+    The tower-amplitude input is supplied by a finite transported-center cover plus the pressure/viscous K k readout.
+
+    This bridge does not add a new receiver loop: its analytic content is exactly the same local pressure/viscous readout already tracked in the DTC package.
+
+    For jump cross-entries, the installed field-coherence reduction routes Pack+Part+Jump to a coherence fracture, hence to the Field row once Pack and Part are retained. For dead cross-entries, the route-native dead entry is the installed (Part,Dead) row.
+
+    Thus the assumed first class exit has no endpoint shell left in the matrix. Contradiction.
+
+    Together with the direct transported-center block, this is one of the terminal proof blocks of the Navier-Stokes argument.
+
+
+
+    \subsection{Clay problem Class-Membership Forward-Invariance Theorem Program}
+
+    Role: state the preferred compression route for the live class-membership program.
+
+    So the live question is no longer merely how to reconstitute a classical field from non-degeneration data. It is whether the Clay problem class law itself already contains the missing coercive content in seed form.
+
+    Fix a finite depth N, an initial still-live window Q 0, and an evolved still-live family Q s 0 s carried by the same NS solution and the same material transport .
+
+    CM N,r 0,Q 0 (u,p, ) holds for some r 0>0; the evolved family Q s remains still-live and belongs to the same transported fluid carrier; no blown manifestation occurs on the family; no jump manifestation occurs on the family.
+
+    \[
+    \mathrm{CM}_{N,r_{N,\sigma},Q_s}(u,p,\Phi)
+    \qquad
+    \text{for every }0\le s\le \sigma.
+    \]
+
+    \[
+    Q_t:=\{x\in\Omega:(x,t)\in Q\},
+    \qquad
+    A_Q(t):=\{a\in\Omega:\Phi(a,t)\in Q_t\}.
+    \]
+
+    \[
+    A_{Q_s}(t)\subset A_\sharp
+    \qquad
+    \text{for every }s\in[0,\sigma]
+    \text{ and every time-slice meeting }Q_s;
+    \]
+
+    Equivalently: every Q s is read on one common transported label collar under the same , and the family moves through overlap rather than by replacing the carrier.
+
+    So Q s is not an arbitrary family of windows. It is one same-fluid window-family inside one transported evolution.
+
+    Plainly: if one common carrier starts lawful and the blown side never becomes visible, then the common deformation / packing law stays installed.
+
+    Part N,Q 0 (u,p) holds; Q s is a same-fluid evolved still-live family from Q 0; the shared participation law and the CM tethering theorem remain the active Law 2 engine on that family; no dead or blown manifestation occurs on Q s .
+
+    This is the route-native statement that the participation side is self-propagating inside one still-live same-fluid family.
+
+    Plainly: if neighboring towers start as one field and no coherence fracture becomes visible, then one positive coherence regime survives along the family.
+
+    \[
+    \mathrm{CM}_{N,r_{N,\sigma},Q_s}(u,p,\Phi)
+    \qquad
+    \text{for every }0\le s\le \sigma,
+    \]
+
+    \[
+    \Gamma_\sharp(t)
+    :=
+    \sup_{a\in A_\sharp}
+    \max\{|F(a,t)|,\ |F(a,t)^{-1}|\}.
+    \]
+
+    so the pack-side burden is not a vague extra theorem family. It is exactly the interval-integrability of the deformation-driving gradient on the common label collar.
+
+    Fix a compactly supported packet and a scale window |r| . Define the packet label halo
+
+
+
+    \subsection{Clay problem Class-Membership Full Bridge record}
+
+    Role: record the complete ordered bridge stack from the direct transported-center block to the no-class-exit conclusion.
+
+    \[
+    \mathfrak p=(n,\mu,\Delta)\in\mathcal P_{\rm req},
+    \qquad
+    c_j(t)=\Phi(a^j,t).
+    \]
+
+    \[
+    x=c_j(t)+G_j(t)y,
+    \]
+
+    \[
+    R_{q,j}(y,t)
+    :=
+    \mathcal C_{G_j(t)}^{-1}
+    \left(
+    U_q(c_j(t)+G_j(t)y,t)-U_q(c_j(t),t)
+    \right).
+    \]
+
+    \[
+    \mathcal E_{\mathfrak p}^{aff}(t)
+    :=
+    \sum_{j,q\le\mu+2}
+    \left|U_q(c_j(t),t)\right|^2
+    +
+    \sum_{j,q\le\mu+2}
+    \sum_{|\beta|\le2}
+    \int_{B(0,R_{\mathfrak p}^{aff})}
+    \left|\nabla_y^\beta R_{q,j}(y,t)\right|^2\,dy.
+    \]
+
+    The radius R p aff is chosen large enough, using L (I), so that every raw center ball B(c j(t),R p TC ) pulls back inside B(0,R p aff ).
+
+    \[
+    B_{\mathfrak p}^{aff},\ F_{\mathfrak p}^{aff}\in L^1(I),
+    \]
+
+    This bridge is formal and closed once the three channel theorems are available. Indeed, by definition the source account splits pointwise as
+
+    This bridge is closed as a witness-certificate completeness theorem once the three displayed certificate maps are installed. It is a theorem about the
+
+    The propagated positive coherence scale and finite field bound exclude loss of every positive one-field coherence scale.
+
+    The K k readout is part of this bridge; it must not be silently replaced by raw U q control unless the tower identities and local pressure/viscous response have been included.
+
+    so the moving-cutoff commutator is controlled by the affine defect of the first rung.
+
+    Here X is the scale-normalized affine excess packet, not the full affine packet with arbitrary center zero modes. Center amplitudes are either gauged/renormalized away from the small quantity or carried separately in the L,F budget. This distinction is necessary because the raw q=0 center term R -1 | U 0,j | 2 is not made small by taking R small.
+
+    Only X exc is used in the small factor ( X exc ) 1/2 N. The full readout packet Y read keeps the center zero modes for raw tower readout. The separate center record is
+
+    Thus the center record is controlled by its own Gronwall rule or carried in L,F; it is not absorbed by scale smallness. The noncircular pre-pressure piece is the lower core record, not the top buffer modes.
+
+    Here K0.Core supplies the residual pressure-gradient/harmonic split j| j loc (c j)|+ j| h j(c j)| + j|U 2(c j)|, where j loc =p j loc -p j aff and p j aff is the native affine normal-form pressure: its center-cell functionals match the affine and affine-linear pressure modes. E1.Aff supplies the corresponding residual/harmonic pressure Hessian and U 3 terms in E j (1) , and Kmid.Core supplies the residual pressure center forcing plus the viscous forcing split. The lower viscous part is core-controlled; the top-viscous line j(|U m+1 (c j)|+|U m+2 (c j)|) is carried as forcing/readout, not as a pre-pressure A buf amplitude record.
+
+    where B r,F r may depend on direct external records and on already-proved E r-1 aff L (I), but not on the desired E r aff L (I).
+
+
+
+    \subsection{CM Contrapositive Course-Correction Plan}
+
+    Date: 2026-05-03 route: Navier-Stokes Purpose: make the corrected proof polarity operational.
+
+    Smoothness is then read by contraposition. A positive estimate may help, but it is only a supplier/readout theorem until it explicitly bridges into failure or persistence of Pack, Part, or Field.
+
+    Quarantine stale generated surfaces that still name Original Smooth Data=>Source Pulse Exclusion.A as the primary blocker. Rewrite the active source-pulse burden as a three-exit proof search: Pack-exit, Part-exit, Field-exit. Re-audit each existing source-pulse attempt as evidence for one of those three exits, not as an absolute no-pulse proof by default. Resume theorem work on the narrowest surviving branch: prove the terminal nonlinear refill/source-pulse cannot be a genuine non-smooth occurrence while Pack, Part, and Field all remain valid.
+
+
+
+    \subsection{Clay problem CM Contrapositive Primitive Seat Repair}
+
+    No new PDE theorem is proved here. The authority seat for the class-membership contrapositive primitive is repaired, and source-pulse language that had been promoted above its lawful branch role is quarantined.
+
+    \[
+    \neg CM_{N,r,Q}(u,p,\Phi),
+    \]
+
+    \[
+    CM_{N,r,Q}
+    =
+    Pack_Q
+    \wedge
+    Part_{N,Q}
+    \wedge
+    Field_{N,r,Q}.
+    \]
+
+    \[
+    \neg CM_{N,r,Q}
+    \Longrightarrow
+    \neg Pack_Q
+    \vee
+    \neg Part_{N,Q}
+    \vee
+    \neg Field_{N,r,Q}.
+    \]
+
+    Source PulseCMExit.A is not the single CM contrapositive primitive. It is a source-pulse manifestation / branch theorem seated under the primitive CM-exit grammar.
+
+    \[
+    \neg CM_{N,r,Q}
+    =
+    \neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+    \]
+
+
+
+    \subsection{Clay problem CM Cross-Face record Synchronization Creative Step}
+
+    \[
+    Pack_Q(\mathcal W)
+    \wedge
+    Part_{N,Q}(\mathcal W)
+    \wedge
+    Field_{N,r,Q}(\mathcal W)
+    \Longrightarrow
+    CM_{N,r,Q}(\mathcal W).
+    \]
+
+    \[
+    \mathfrak L_N(Q)
+    \]
+
+    \[
+    \mathfrak L_F(Q,N)
+    \]
+
+    Pack Q, Part N,Q , and Field N,r,Q are all localized on the same carrier O NS work and same-fluid family class. Each localized face certificate is hereditary under passage to a smaller still-live terminal subwindow. The Field certificate is hereditary under reducing the positive field scale from r to any 0<r'<=r on the same subwindow. The three terminal windows have a common still-live subwindow. The Field face supplies a positive lower scale before synchronization, so the common choice r * is still positive.
+
+    \[
+    Pack_Q(\mathcal W_*)
+    \wedge
+    Part_{N,Q}(\mathcal W_*)
+    \wedge
+    Field_{N,r_*,Q}(\mathcal W_*).
+    \]
+
+    \[
+    CM_{N,r_*,Q}(\mathcal W_*).
+    \]
+
+    for the Pack, Part, and Field faces. By hypothesis they live over the same carrier O NS work , the same Q, the same depth N, and compatible same-fluid families.
+
+    where r F is a positive scale from the Field certificate and r 0>0 is any scale allowed by the synchronized window convention. Assumption 5 ensures r *>0. By Field scale heredity, the Field certificate remains valid at r * on T *.
+
+    This is a useful bridge-side refinement only if the five hypotheses are lower than the source-wall root.
+
+    Hypotheses 1 and 4 are bookkeeping or finite-window compatibility claims. Hypotheses 2 and 3 are definition-audit claims about Pack, Part, and Field heredity under same-fluid restriction. Hypothesis 5 is the dangerous analytic point. If positive Field scale collapses during synchronization, the burden falls back to the Field-face source wall, not to a new CM bridge theorem.
+
+    The creative theorem-search step should not keep targeting a generic "aggregate CM bridge." The installed bridge already says that a same-witness Pack/Part/Field triple gives CM N,r,Q .
+
+
+
+    \subsection{Clay problem CM Cross-Face Synthesis Bridge-License Audit}
+
+    Theorem-facing bridge-license note for the aggregate class-membership witness after Pack, Part, and Field supports have been localized on the same witness record. Member is reached only by the installed membership implication after that triadic witness exists.
+
+    \[
+    Pack_Q
+    \wedge
+    Part_{N,Q}
+    \wedge
+    Field_{N,r,Q}
+    \Longrightarrow
+    CM_{N,r,Q}.
+    \]
+
+    Here Q is the same retained class region, N is the same tower depth, r is the same positive field scale, is the same same-fluid family, and T is the same still-live terminal window.
+
+    \[
+    Pack_Q(\mathcal W),
+    \qquad
+    Part_{N,Q}(\mathcal W),
+    \qquad
+    Field_{N,r,Q}(\mathcal W).
+    \]
+
+    No supplier-only theorem is allowed to occupy one of these faces unless a separate readout theorem lands it on that exact face.
+
+    \[
+    \forall N\ \exists r_N>0:\
+    CM_{N,r_N,Q}(\mathcal W_N),
+    \]
+
+    \[
+    CM_{N,r,Q}
+    =
+    Pack_Q
+    \wedge
+    Part_{N,Q}
+    \wedge
+    Field_{N,r,Q}.
+    \]
+
+    If all three predicates are certified on the same witness record W, then the conjunction is exactly CM N,r,Q ( W). There is no additional analytic estimate in this step; the content of the bridge-license theorem is the synchronization rule that forbids mixing faces from different carriers, windows, scales, or branches.
+
+    Thus the cross-face synthesis bridge is licensed exactly at the CM witness object and nowhere else.
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Endpoint Exclusion Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33831
+  line_start: 33831
+  line_end: 33887
+  start_anchor: "\\subsection{Clay problem Class-Membership Endpoint Exclusion Note}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Endpoint Matrix Closure
+    Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Endpoint Exclusion Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33831
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Endpoint Matrix Closure Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33888
+  line_start: 33888
+  line_end: 33936
+  start_anchor: "\\subsection{Clay problem Class-Membership Endpoint Matrix Closure
+    Theorem}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Forward-Invariance Theorem
+    Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Endpoint Matrix Closure Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33888
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Forward-Invariance Theorem Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33937
+  line_start: 33937
+  line_end: 33995
+  start_anchor: "\\subsection{Clay problem Class-Membership Forward-Invariance Theorem
+    Program}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Full Bridge record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Forward-Invariance Theorem Program as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33937
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Full Bridge record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33996
+  line_start: 33996
+  line_end: 34057
+  start_anchor: "\\subsection{Clay problem Class-Membership Full Bridge record}\n"
+  end_anchor: "\\subsection{CM Contrapositive Course-Correction Plan}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Full Bridge record as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33996
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: CM Contrapositive Course-Correction Plan
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34058
+  line_start: 34058
+  line_end: 34066
+  start_anchor: "\\subsection{CM Contrapositive Course-Correction Plan}\n"
+  end_anchor: "\\subsection{Clay problem CM Contrapositive Primitive Seat Repair}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite CM Contrapositive Course-Correction
+    Plan as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34058
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Contrapositive Primitive Seat Repair
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34067
+  line_start: 34067
+  line_end: 34103
+  start_anchor: "\\subsection{Clay problem CM Contrapositive Primitive Seat Repair}\n"
+  end_anchor: "\\subsection{Clay problem CM Cross-Face record Synchronization Creative
+    Step}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Contrapositive
+    Primitive Seat Repair as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34067
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Cross-Face record Synchronization Creative Step
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34104
+  line_start: 34104
+  line_end: 34148
+  start_anchor: "\\subsection{Clay problem CM Cross-Face record Synchronization Creative
+    Step}\n"
+  end_anchor: "\\subsection{Clay problem CM Cross-Face Synthesis Bridge-License Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Cross-Face record
+    Synchronization Creative Step as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34104
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Cross-Face Synthesis Bridge-License Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34149
+  line_start: 34149
+  line_end: 34198
+  start_anchor: "\\subsection{Clay problem CM Cross-Face Synthesis Bridge-License
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem CM Field-Face Source-Wall Reorientation Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Cross-Face Synthesis
+    Bridge-License Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34149
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-16
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-16.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

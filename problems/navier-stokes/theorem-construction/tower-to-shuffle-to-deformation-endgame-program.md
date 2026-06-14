@@ -580,11 +580,11 @@ the live burden:
 
 ```math
 \text{tail leakage}
-\sim
+\equiv_{\mathrm{dict}}
 \text{tower flux/debt}
-\sim
+\equiv_{\mathrm{dict}}
 \text{lifted high-side remainder}
-\sim
+\equiv_{\mathrm{dict}}
 \text{deformation-geometry commutator}.
 \tag{36}
 ```
@@ -709,9 +709,11 @@ The route requires a domination chain of the form
 
 ```math
 \mathcal C_r^{Lag}
-\gtrsim
+\ge
+c_{CE}
 \mathcal F_r^{Eul}
-\gtrsim
+\ge
+c_{EN}
 \big|\mathcal N_{N,\mathrm{grad}}^{lift}\big|,
 \tag{44}
 ```

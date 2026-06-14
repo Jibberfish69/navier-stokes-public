@@ -1,0 +1,898 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-scale-tail-and-lifted-band-16
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-16
+  sequence: 41
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 16
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 38181
+  line_end: 40897
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38181
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38334
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39078
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40477
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40524
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40857
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40872
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40885
+  subsection_titles:
+  - Good Scale Rehydrated Source-Wall Execution
+  - Clay problem Heat-Scale Square-Source Terminal Attempt Note
+  - Javg2 Active Shell Gain To Carleson Note
+  - Lci A Fixed Scale Eulerian Increment Note
+  - Lci A Pressure Tail Energy Supplier Note
+  - Clay problem Local Positive Pre-Cauchy Source Carleson Direct Attempt Note
+  - Clay problem Local Positive Source Carleson.A Final Collapse Note
+  - Clay problem Local Active Carleson.A Audit Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Good Scale Rehydrated Source-Wall Execution
+    line_start: 38181
+    line_end: 38233
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38181
+    start_anchor: "\\subsection{Good Scale Rehydrated Source-Wall Execution}\n"
+    end_anchor: "\\subsection{H1 H2 H6 Origin Retain Source Attack Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Good Scale Rehydrated Source-Wall Execution}
+
+      \[
+      \mathcal R_N(W)
+      :=
+      \int_W\sum_{P^-}|A_{P^-}(t)|^2dt
+      \sfcomp{36680}
+      \int_W
+      \sum_{k>N}2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell(t)
+      \right)^2dt.
+      \]
+
+      \[
+      M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2,
+      \]
+
+      \[
+      |A_{P^-}(t)|^2.
+      \]
+
+      \[
+      A_k(t)\sum_{\ell>k+4}Source_\ell(t),
+      \]
+
+      The first moment can be small while the scale-critical reserve is non-small on short terminal heat windows.
+
+      \[
+      UniformTemporalSourceIntegrability_p.A:
+      \quad
+      \left\|
+      \|F_n^{src,+}(s,\cdot)\|_{\mathcal M_y}
+      \right\|_{L_s^p((-1,0))}
+      \le C_R,
+      \qquad p>1.
+      \]
+
+      So the Zeno temporal branch does not close independently. It is a precise alternate interface for the same source-control obstruction.
+
+      Coeff Bound.A is not produced by fixed-cutoff low-mode admissibility, energy/enstrophy plus Bernstein, Calderon-Zygmund pressure/strain recovery, pack-strain criteria, or continuation criteria.
+
+      Active Amplitude Carleson.A is not produced by raw energy, first-moment dissipation, active- residual tails, -source/amplitude-gain notes, or downstream frozen-family source integrability.
+
+      Alignment Decorrel.A is not produced by incompressibility, signed exchange, pressure/vortex structure, vorticity-direction/Beltrami/helical coherence, or same-fluid transport.
+
+      There is no fourth local face of the native positive trilinear carrier. The zero-loss profile route so returns to the same active positive source wall.
+
+      The current unsolved theorem content is not the cover compactness and not the definition of r good. It is the native positive source-control theorem on selected terminal active windows.
+
+      From the current installed corpus, all three are open and route-equivalent to the source-wall root. A genuine solution must introduce a new nonlinear source-control mechanism: a dynamic law for the donor reserve, temporal anti-concentration for the native positive source measure, or terminal decorrelation/charge of the native positive trilinear defect.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Heat-Scale Square-Source Terminal Attempt Note
+    line_start: 38334
+    line_end: 38354
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38334
+    start_anchor: "\\subsection{Clay problem Heat-Scale Square-Source Terminal Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Heat Dwell Sampling.A Direct Attempt And
+      BV Correction}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Heat-Scale Square-Source Terminal Attempt Note}
+
+      \[
+      |F_j(t)|^2
+      \le
+      c\varepsilon\nu^3 2^{3j}
+      +C\nu^2 2^j2^{-2\delta j}|I|^{-1},
+      \]
+
+      \[
+      \int_I2^{-j}D_j(t)^2\,dt
+      \le
+      \varepsilon\nu2^{2j}|I|
+      +C2^{-2\delta j}.
+      \]
+
+      The nonlinear shell flux F j is trilinear in the Littlewood-Paley components of u. A universal estimate from Original Smooth Data alone would have to rule out source-balanced active pulses at terminal active shells.
+
+      The fixed-shell amplitude test blocks this. Scaling a smooth finite-mode divergence-free profile by amplitude A makes F j scale cubically and |F j| 2 scale like A 6. Smoothness and finite energy give data-dependent raw bounds, not the active heat-scale normalization needed on moving terminal shells.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Javg2 Active Shell Gain To Carleson Note
+    line_start: 39078
+    line_end: 39117
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39078
+    start_anchor: "\\subsection{Javg2 Active Shell Gain To Carleson Note}\n"
+    end_anchor: "\\subsection{Clay problem Jet-To-Finite-Difference Bridge Theorem}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Javg2 Active Shell Gain To Carleson Note}
+
+      Theorem-facing conditional discharge of the upper side of the Jump avg no-escape route.
+
+      Let Q have radius r 2 -k . Assume the terminal atlas has the shell-to-window comparison
+
+      \[
+      \sum_\ell R_\ell\le C_R.
+      \]
+
+      \[
+      2^{-j}D_j(t)^2
+      \le
+      \varepsilon\nu D_j(t)+r_j(t),
+      \]
+
+      \[
+      \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j(t)\,dt
+      \le
+      C2^{-2\delta k_\ell}.
+      \]
+
+      \[
+      \int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j(t)\,dt
+      \le
+      C2^{2k_\ell}|I_\ell|.
+      \]
+
+      \[
+      \int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j^2
+      \le
+      \varepsilon\nu
+      \int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j
+      +
+      \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j.
+      \]
+
+      These supply raw mass and fixed-shell preterminal control. They do not supply decay on terminal active shells whose frequencies drift to infinity as t T .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Fixed Scale Eulerian Increment Note
+    line_start: 40477
+    line_end: 40523
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40477
+    start_anchor: "\\subsection{Lci A Fixed Scale Eulerian Increment Note}\n"
+    end_anchor: "\\subsection{Lci A Pressure Tail Energy Supplier Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lci A Fixed Scale Eulerian Increment Note}
+
+      \[
+      R_{\delta,\rho}^{halo}
+      :=
+      r_\delta+2\delta+R_{\rho}^{halo,\ast},
+      \qquad
+      \Lambda_{\delta,\rho}^{halo}
+      :=
+      2R_{\delta,\rho}^{halo}.
+      \]
+
+      \[
+      \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sup_{|\eta|\le \Lambda_{\delta,\rho}^{halo}}
+      \sum_{k=0}^{N}\lambda_k
+      \big|
+      \delta_\eta U_k(c_j(t),t)
+      \big|^2.
+      \]
+
+      \[
+      \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}\in L^1(I).
+      \]
+
+      \[
+      \Omega_{N,m,\rho,\psi}^{halo,sh}(t)^2
+      \le
+      C_{N,m,\lambda}\,
+      \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}(t),
+      \]
+
+      \[
+      \Omega_{N,m,\rho,\psi}^{halo,sh}\in L^1(I)
+      \]
+
+      Each transported center satisfies d , raw (c j(t),t)< . So if |x-c j(t)| , halo , then
+
+      Fix j, k, and a time-independent increment . Then along the transported center c j(t),
+
+      This is exactly the missing one-rung-higher viscous readout on the shifted center balls. If the present collar package is insufficient, the precise missing object is the fixed-increment top-rung difference U N+2 (c j(t),t). The dedicated theorem-facing surface for this viscous half is now
+
+      The closest on-disk comparison object is not the transported packet E N,r, itself. It is the integrated comparison packet
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Pressure Tail Energy Supplier Note
+    line_start: 40524
+    line_end: 40560
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40524
+    start_anchor: "\\subsection{Lci A Pressure Tail Energy Supplier Note}\n"
+    end_anchor: "\\subsection{Lci A Retained Window Small Budget Scheduler Audit Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lci A Pressure Tail Energy Supplier Note}
+
+      Role: isolate the exact conditional reduction of the first-rung far-field pressure-tail record to the ordinary velocity energy record.
+
+      \[
+      \mathfrak E_I^{vel}
+      :=
+      \sup_{t\in I}\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2.
+      \]
+
+      So on any still-live interval where that classical energy surface is imported, E I vel < is already a lawful route-native datum.
+
+      \[
+      \mathfrak E_I^{vel}<\infty.
+      \]
+
+      \[
+      \mathfrak T_{1,\rho,\psi}^{press,far}\in L^\infty(I)\subset L^1(I).
+      \]
+
+      \[
+      \mathfrak T_{1,\rho,\psi}^{press,far}(t)
+      \le
+      C_{\rho,\psi,\delta,I}\,
+      \|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2.
+      \]
+
+      \[
+      \sup_{t\in I}\mathfrak T_{1,\rho,\psi}^{press,far}(t)
+      \le
+      C_{\rho,\psi,\delta,I}\,
+      \mathfrak E_I^{vel}
+      <
+      \infty.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Local Positive Pre-Cauchy Source Carleson Direct
+      Attempt Note
+    line_start: 40857
+    line_end: 40871
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40857
+    start_anchor: "\\subsection{Clay problem Local Positive Pre-Cauchy Source Carleson
+      Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Local Positive Source Carleson.A Final
+      Collapse Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Local Positive Pre-Cauchy Source Carleson Direct Attempt Note}
+
+      The source is kept pre-Cauchy so that parent co-location and same-fluid edge structure are not erased before the estimate is applied.
+
+      \[
+      \int_{\mathbb T^3}(u\cdot\nabla u)\cdot u\,dx=0.
+      \]
+
+      The positive part can align with the active strain direction on the selected bad windows. Global cancellation does not prevent positive localized production unless one proves a sign-depletion or cancellation-recovery theorem for those same selected packets.
+
+      Pressure, cutoff, commutator, and localization terms can be placed into the legal-loss record once separated. That is already used by the source-supplier and receiver packets.
+
+      Pressure Poisson recovery supplies elliptic bounds, not a sign for this positive part. Cutoff estimates price boundary leakage, not legal interior source-parent production.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Local Positive Source Carleson.A Final Collapse
+      Note
+    line_start: 40872
+    line_end: 40884
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40872
+    start_anchor: "\\subsection{Clay problem Local Positive Source Carleson.A Final
+      Collapse Note}\n"
+    end_anchor: "\\subsection{Clay problem Local Active Carleson.A Audit Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Local Positive Source Carleson.A Final Collapse Note}
+
+      This theorem is the positive pre-Cauchy source estimate needed after the explicit class-B Zeno rigidity candidates fail to produce a rigid ancient limit from current ancestry inputs.
+
+      Terminal Source Coherence.A is not installed by current energy, pressure, vorticity-direction, Beltrami/helical, signed-commutator, or same-fluid inputs. The supplier split
+
+      Finite dyadic banding, raw orthogonality, local energy, pressure/cutoff routing, and same-fluid transport do not force bounded parent concentration. The diffuse-parent Fourier model shows why: positive parent mass can spread across arbitrarily many legal predecessors without raw quadratic donor charge at the needed scale.
+
+      In words: to prove the local positive source Carleson estimate from Original Smooth Data, one must prove nonlinear shell-flux/source control ruling out source-balanced active pulses.
+
+      No pressure/source supplier, Cauchy/Young envelope, raw energy estimate, local-energy balance, finite-band Littlewood-Paley restriction, same-fluid transport law, terminal coherence bridge, reverse-Holder parent route, active- bridge, or named Zeno rigid-class candidate currently proves this atom.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Local Active Carleson.A Audit Note
+    line_start: 40885
+    line_end: 40897
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40885
+    start_anchor: "\\subsection{Clay problem Local Active Carleson.A Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Localized Skew Current.A Concrete Packet
+      Current Statement}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Local Active Carleson.A Audit Note}
+
+      The windows Q are the same heat-scale same-fluid active windows used to define the terminal bad set. This theorem would imply Local Source.No Pulse.A by covering Bad N( ) with bounded-overlap active windows.
+
+      The target is not installed by the existing Carleson, SCF, source, or averaged cover notes.
+
+      The -source route controls active packets only if the active- Carleson or direct local-packet source theorem is already proved. After absolute values, it reaches an upper envelope of the form
+
+      The residual tail is exactly the no-pulse object, not a theorem-grade supplier for it.
+
+      for every bounded-overlap same-fluid heat-scale bad-window family. No current surface proves this packing-smallness statement.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Good Scale Rehydrated Source-Wall Execution}
+
+    \[
+    \mathcal R_N(W)
+    :=
+    \int_W\sum_{P^-}|A_{P^-}(t)|^2dt
+    \sfcomp{36680}
+    \int_W
+    \sum_{k>N}2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2dt.
+    \]
+
+    \[
+    M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2,
+    \]
+
+    \[
+    |A_{P^-}(t)|^2.
+    \]
+
+    \[
+    A_k(t)\sum_{\ell>k+4}Source_\ell(t),
+    \]
+
+    The first moment can be small while the scale-critical reserve is non-small on short terminal heat windows.
+
+    \[
+    UniformTemporalSourceIntegrability_p.A:
+    \quad
+    \left\|
+    \|F_n^{src,+}(s,\cdot)\|_{\mathcal M_y}
+    \right\|_{L_s^p((-1,0))}
+    \le C_R,
+    \qquad p>1.
+    \]
+
+    So the Zeno temporal branch does not close independently. It is a precise alternate interface for the same source-control obstruction.
+
+    Coeff Bound.A is not produced by fixed-cutoff low-mode admissibility, energy/enstrophy plus Bernstein, Calderon-Zygmund pressure/strain recovery, pack-strain criteria, or continuation criteria.
+
+    Active Amplitude Carleson.A is not produced by raw energy, first-moment dissipation, active- residual tails, -source/amplitude-gain notes, or downstream frozen-family source integrability.
+
+    Alignment Decorrel.A is not produced by incompressibility, signed exchange, pressure/vortex structure, vorticity-direction/Beltrami/helical coherence, or same-fluid transport.
+
+    There is no fourth local face of the native positive trilinear carrier. The zero-loss profile route so returns to the same active positive source wall.
+
+    The current unsolved theorem content is not the cover compactness and not the definition of r good. It is the native positive source-control theorem on selected terminal active windows.
+
+    From the current installed corpus, all three are open and route-equivalent to the source-wall root. A genuine solution must introduce a new nonlinear source-control mechanism: a dynamic law for the donor reserve, temporal anti-concentration for the native positive source measure, or terminal decorrelation/charge of the native positive trilinear defect.
+
+
+
+    \subsection{Clay problem Heat-Scale Square-Source Terminal Attempt Note}
+
+    \[
+    |F_j(t)|^2
+    \le
+    c\varepsilon\nu^3 2^{3j}
+    +C\nu^2 2^j2^{-2\delta j}|I|^{-1},
+    \]
+
+    \[
+    \int_I2^{-j}D_j(t)^2\,dt
+    \le
+    \varepsilon\nu2^{2j}|I|
+    +C2^{-2\delta j}.
+    \]
+
+    The nonlinear shell flux F j is trilinear in the Littlewood-Paley components of u. A universal estimate from Original Smooth Data alone would have to rule out source-balanced active pulses at terminal active shells.
+
+    The fixed-shell amplitude test blocks this. Scaling a smooth finite-mode divergence-free profile by amplitude A makes F j scale cubically and |F j| 2 scale like A 6. Smoothness and finite energy give data-dependent raw bounds, not the active heat-scale normalization needed on moving terminal shells.
+
+
+
+    \subsection{Javg2 Active Shell Gain To Carleson Note}
+
+    Theorem-facing conditional discharge of the upper side of the Jump avg no-escape route.
+
+    Let Q have radius r 2 -k . Assume the terminal atlas has the shell-to-window comparison
+
+    \[
+    \sum_\ell R_\ell\le C_R.
+    \]
+
+    \[
+    2^{-j}D_j(t)^2
+    \le
+    \varepsilon\nu D_j(t)+r_j(t),
+    \]
+
+    \[
+    \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j(t)\,dt
+    \le
+    C2^{-2\delta k_\ell}.
+    \]
+
+    \[
+    \int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j(t)\,dt
+    \le
+    C2^{2k_\ell}|I_\ell|.
+    \]
+
+    \[
+    \int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j^2
+    \le
+    \varepsilon\nu
+    \int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j
+    +
+    \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j.
+    \]
+
+    These supply raw mass and fixed-shell preterminal control. They do not supply decay on terminal active shells whose frequencies drift to infinity as t T .
+
+
+
+    \subsection{Lci A Fixed Scale Eulerian Increment Note}
+
+    \[
+    R_{\delta,\rho}^{halo}
+    :=
+    r_\delta+2\delta+R_{\rho}^{halo,\ast},
+    \qquad
+    \Lambda_{\delta,\rho}^{halo}
+    :=
+    2R_{\delta,\rho}^{halo}.
+    \]
+
+    \[
+    \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sup_{|\eta|\le \Lambda_{\delta,\rho}^{halo}}
+    \sum_{k=0}^{N}\lambda_k
+    \big|
+    \delta_\eta U_k(c_j(t),t)
+    \big|^2.
+    \]
+
+    \[
+    \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}\in L^1(I).
+    \]
+
+    \[
+    \Omega_{N,m,\rho,\psi}^{halo,sh}(t)^2
+    \le
+    C_{N,m,\lambda}\,
+    \mathfrak e_{N,\Lambda_{\delta,\rho}^{halo}}^{Eul,ctr}(t),
+    \]
+
+    \[
+    \Omega_{N,m,\rho,\psi}^{halo,sh}\in L^1(I)
+    \]
+
+    Each transported center satisfies d , raw (c j(t),t)< . So if |x-c j(t)| , halo , then
+
+    Fix j, k, and a time-independent increment . Then along the transported center c j(t),
+
+    This is exactly the missing one-rung-higher viscous readout on the shifted center balls. If the present collar package is insufficient, the precise missing object is the fixed-increment top-rung difference U N+2 (c j(t),t). The dedicated theorem-facing surface for this viscous half is now
+
+    The closest on-disk comparison object is not the transported packet E N,r, itself. It is the integrated comparison packet
+
+
+
+    \subsection{Lci A Pressure Tail Energy Supplier Note}
+
+    Role: isolate the exact conditional reduction of the first-rung far-field pressure-tail record to the ordinary velocity energy record.
+
+    \[
+    \mathfrak E_I^{vel}
+    :=
+    \sup_{t\in I}\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2.
+    \]
+
+    So on any still-live interval where that classical energy surface is imported, E I vel < is already a lawful route-native datum.
+
+    \[
+    \mathfrak E_I^{vel}<\infty.
+    \]
+
+    \[
+    \mathfrak T_{1,\rho,\psi}^{press,far}\in L^\infty(I)\subset L^1(I).
+    \]
+
+    \[
+    \mathfrak T_{1,\rho,\psi}^{press,far}(t)
+    \le
+    C_{\rho,\psi,\delta,I}\,
+    \|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2.
+    \]
+
+    \[
+    \sup_{t\in I}\mathfrak T_{1,\rho,\psi}^{press,far}(t)
+    \le
+    C_{\rho,\psi,\delta,I}\,
+    \mathfrak E_I^{vel}
+    <
+    \infty.
+    \]
+
+
+
+    \subsection{Clay problem Local Positive Pre-Cauchy Source Carleson Direct Attempt Note}
+
+    The source is kept pre-Cauchy so that parent co-location and same-fluid edge structure are not erased before the estimate is applied.
+
+    \[
+    \int_{\mathbb T^3}(u\cdot\nabla u)\cdot u\,dx=0.
+    \]
+
+    The positive part can align with the active strain direction on the selected bad windows. Global cancellation does not prevent positive localized production unless one proves a sign-depletion or cancellation-recovery theorem for those same selected packets.
+
+    Pressure, cutoff, commutator, and localization terms can be placed into the legal-loss record once separated. That is already used by the source-supplier and receiver packets.
+
+    Pressure Poisson recovery supplies elliptic bounds, not a sign for this positive part. Cutoff estimates price boundary leakage, not legal interior source-parent production.
+
+
+
+    \subsection{Clay problem Local Positive Source Carleson.A Final Collapse Note}
+
+    This theorem is the positive pre-Cauchy source estimate needed after the explicit class-B Zeno rigidity candidates fail to produce a rigid ancient limit from current ancestry inputs.
+
+    Terminal Source Coherence.A is not installed by current energy, pressure, vorticity-direction, Beltrami/helical, signed-commutator, or same-fluid inputs. The supplier split
+
+    Finite dyadic banding, raw orthogonality, local energy, pressure/cutoff routing, and same-fluid transport do not force bounded parent concentration. The diffuse-parent Fourier model shows why: positive parent mass can spread across arbitrarily many legal predecessors without raw quadratic donor charge at the needed scale.
+
+    In words: to prove the local positive source Carleson estimate from Original Smooth Data, one must prove nonlinear shell-flux/source control ruling out source-balanced active pulses.
+
+    No pressure/source supplier, Cauchy/Young envelope, raw energy estimate, local-energy balance, finite-band Littlewood-Paley restriction, same-fluid transport law, terminal coherence bridge, reverse-Holder parent route, active- bridge, or named Zeno rigid-class candidate currently proves this atom.
+
+
+
+    \subsection{Clay problem Local Active Carleson.A Audit Note}
+
+    The windows Q are the same heat-scale same-fluid active windows used to define the terminal bad set. This theorem would imply Local Source.No Pulse.A by covering Bad N( ) with bounded-overlap active windows.
+
+    The target is not installed by the existing Carleson, SCF, source, or averaged cover notes.
+
+    The -source route controls active packets only if the active- Carleson or direct local-packet source theorem is already proved. After absolute values, it reaches an upper envelope of the form
+
+    The residual tail is exactly the no-pulse object, not a theorem-grade supplier for it.
+
+    for every bounded-overlap same-fluid heat-scale bad-window family. No current surface proves this packing-smallness statement.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Good Scale Rehydrated Source-Wall Execution
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38181
+  line_start: 38181
+  line_end: 38233
+  start_anchor: "\\subsection{Good Scale Rehydrated Source-Wall Execution}\n"
+  end_anchor: "\\subsection{H1 H2 H6 Origin Retain Source Attack Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Good Scale Rehydrated Source-Wall
+    Execution as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38181
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Heat-Scale Square-Source Terminal Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38334
+  line_start: 38334
+  line_end: 38354
+  start_anchor: "\\subsection{Clay problem Heat-Scale Square-Source Terminal Attempt
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Heat Dwell Sampling.A Direct Attempt And
+    BV Correction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Heat-Scale Square-Source
+    Terminal Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:38334
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Javg2 Active Shell Gain To Carleson Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39078
+  line_start: 39078
+  line_end: 39117
+  start_anchor: "\\subsection{Javg2 Active Shell Gain To Carleson Note}\n"
+  end_anchor: "\\subsection{Clay problem Jet-To-Finite-Difference Bridge Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Javg2 Active Shell Gain To Carleson
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39078
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Fixed Scale Eulerian Increment Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40477
+  line_start: 40477
+  line_end: 40523
+  start_anchor: "\\subsection{Lci A Fixed Scale Eulerian Increment Note}\n"
+  end_anchor: "\\subsection{Lci A Pressure Tail Energy Supplier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Fixed Scale Eulerian Increment
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40477
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Pressure Tail Energy Supplier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40524
+  line_start: 40524
+  line_end: 40560
+  start_anchor: "\\subsection{Lci A Pressure Tail Energy Supplier Note}\n"
+  end_anchor: "\\subsection{Lci A Retained Window Small Budget Scheduler Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Pressure Tail Energy Supplier
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40524
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Local Positive Pre-Cauchy Source Carleson Direct
+    Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40857
+  line_start: 40857
+  line_end: 40871
+  start_anchor: "\\subsection{Clay problem Local Positive Pre-Cauchy Source Carleson
+    Direct Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Local Positive Source Carleson.A Final Collapse
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Local Positive Pre-Cauchy
+    Source Carleson Direct Attempt Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40857
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Local Positive Source Carleson.A Final Collapse Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40872
+  line_start: 40872
+  line_end: 40884
+  start_anchor: "\\subsection{Clay problem Local Positive Source Carleson.A Final
+    Collapse Note}\n"
+  end_anchor: "\\subsection{Clay problem Local Active Carleson.A Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Local Positive Source
+    Carleson.A Final Collapse Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40872
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Local Active Carleson.A Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40885
+  line_start: 40885
+  line_end: 40897
+  start_anchor: "\\subsection{Clay problem Local Active Carleson.A Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Localized Skew Current.A Concrete Packet
+    Current Statement}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Local Active Carleson.A
+    Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40885
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-16
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-scale-tail-and-lifted-band-16.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

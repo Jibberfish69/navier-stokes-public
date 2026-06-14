@@ -1,0 +1,23 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-mechanical-candidates
+runner_id: mechanical-source-cleanup
+ready_to_apply: false
+source_rewrites:
+- op: exact_replace
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  find: status ledger
+  replace: proof ledger
+  expected_count: 2
+  spine_id: the-class-law-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:762
+  review_required: true
+- op: exact_replace
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  find: support only
+  replace: support
+  expected_count: 5
+  spine_id: source-field-reader-appendix
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
+  review_required: true
+fill_rule: 'Review replacements, split unsafe global candidates, then set ready_to_apply:
+  true.'

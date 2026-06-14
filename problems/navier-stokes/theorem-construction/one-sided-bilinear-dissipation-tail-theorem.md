@@ -75,7 +75,7 @@ Swapping the order of summation and evaluating the geometric `k`-sum yields
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}\sum_{\ell\ge j}
 2^{j-\sigma(\ell-j)}D_j(t)D_\ell(t)
 =

@@ -17,7 +17,7 @@ The purpose here is narrower:
 1. define the transported defect energy on one label-indexed packet;
 2. prove the exact bridge identities that fuse the label-space packing side and
    the physical-space tower-coherence side;
-3. derive the schematic packet inequality that exposes rung-1 strain defect as
+3. derive the packet inequality that exposes rung-1 strain defect as
    the driver of relative packing mismatch.
 
 The note does **not** claim a closed proof of packet propagation.
@@ -251,7 +251,7 @@ Therefore:
 \boxed{
 P_F^\ast(r,t;\psi)\text{ small}
 \Longrightarrow
-h(a,r,t)\approx F(a,t)r
+c_F|F(a,t)||r|\le |h(a,r,t)|\le C_F|F(a,t)||r|
 \text{ on the packet in }L_a^2(\psi^2 da).
 }
 \tag{TB.19}
@@ -374,11 +374,11 @@ A_F^\sharp(t;\psi,r)
 ```
 
 Differentiating `(TB.8)`, using `(TB.21)`--`(TB.24)`, and applying Cauchy and
-Young at the schematic level gives
+Young gives
 
 ```math
 \frac{d}{dt}P_F(r,t;\psi)
-\lesssim
+\le C_{\mathrm{TB28}}
 \Lambda_{\psi,r}(t)\,P_F(r,t;\psi)
 +
 A_F^\sharp(t;\psi,r)\,\mathcal Q_{1,r,\psi}^{str}(t),
@@ -393,11 +393,11 @@ strain defect `\mathcal Q_{1,r,\psi}^{str}(t)`. The larger transported packet
 `\widetilde E_{1,r,\psi}(t)` is a valid controlling upper bound by `(TB.26b)`,
 but it is not literally the source term in `(TB.28)`.
 
-## Schematic Packet Inequality
+## Packet Inequality
 
 Together with the transported tower-defect evolution from
 `mpp-shared-participation-and-tower-coherence-law.md`, the fused packet should
-satisfy a schematic inequality of the form
+satisfy an inequality of the form
 
 ```math
 \frac{d}{dt}\mathcal J_{N,r,\psi}(t)
@@ -414,7 +414,7 @@ where `\mathcal C_{N,r,\psi}(t)` is built from:
 3. the packet transport mismatch coming from the moving cutoff;
 4. the harmless packet enlargement needed in `(TB.28)`.
 
-This is still schematic. The exact content of the bridge note is that the only
+This remains a conditional bridge. The exact content of the bridge note is that the only
 new geometric source term introduced by the packing side is the rung-1
 transported defect.
 

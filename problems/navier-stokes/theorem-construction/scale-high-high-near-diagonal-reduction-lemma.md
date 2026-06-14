@@ -69,12 +69,13 @@ For each `j \ge N`, the genuine high-high term has the form
 \widetilde\Delta_k:=\Delta_{k-1}+\Delta_k+\Delta_{k+1}.
 ```
 
-Only near-diagonal shells can survive the projection `\Delta_j`. Indeed, the
-Fourier support of
-`\Delta_k u^{(n)}\cdot\nabla \widetilde\Delta_k u^{(n)}` lies in an annulus of
-size comparable to `2^k`, so after applying `\Delta_j` the term vanishes unless
-`|k-j|\le M` for a universal collar width `M` depending only on the dyadic
-partition. Therefore
+Only near-diagonal shells can survive the projection `\Delta_j`. Indeed, there
+are fixed dyadic support constants `0<c_A\le C_A<\infty`, depending only on the
+chosen partition, such that the Fourier support of
+`\Delta_k u^{(n)}\cdot\nabla \widetilde\Delta_k u^{(n)}` lies in
+`{c_A2^k\le |\xi|\le C_A2^k}`. Hence after applying `\Delta_j` the term
+vanishes unless `|k-j|\le M` for a universal collar width `M` depending only on
+the dyadic partition. Therefore
 
 ```math
 \mathcal{T}^{HH}_{j,n}
@@ -104,9 +105,11 @@ By Bernstein and `|k-j|\le M`,
 
 ```math
 \|\nabla \widetilde{\Delta}_k u^{(n)}\|_{L^2_x}
-\lesssim
+\le
+C_B
 2^k\|\widetilde{\Delta}_k u^{(n)}\|_{L^2_x}
-\lesssim
+\le
+C_{B,M}
 2^j\|\widetilde{\Delta}_k u^{(n)}\|_{L^2_x},
 ```
 
@@ -128,8 +131,9 @@ C\,
 ```
 
 Summing the finitely many indices `|k-j|\le M` proves the first displayed
-estimate. For the cubic form, use that `\widetilde{\Delta}_k` contains only
-`O_M(1)` shells and `|k-j|\le M`, so the collar sum collapses into
+estimate. For the cubic form, use that `\widetilde{\Delta}_k` contains at most
+`C_{\widetilde\Delta,M}` shells and `|k-j|\le M`, so the collar sum collapses
+into
 
 ```math
 \mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)

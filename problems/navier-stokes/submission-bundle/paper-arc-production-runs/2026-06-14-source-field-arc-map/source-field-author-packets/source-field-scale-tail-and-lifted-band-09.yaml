@@ -1,0 +1,719 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-scale-tail-and-lifted-band-09
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-09
+  sequence: 34
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 9
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 19038
+  line_end: 20068
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19038
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19143
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19155
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19238
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19266
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19936
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20036
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20051
+  subsection_titles:
+  - Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude Gain Pctp Hard Terminal
+    Tail Production
+  - Good Scale Downstream Endpoint Contradiction After Bad-Set Typing
+  - Good Scale.TTU - SCF-Bad Point Typing Refinement
+  - Heat Scale Square Source.A direct attempt
+  - Heat-Scale Square-Source Loop Audit
+  - Local Positive Source Carleson.A Loop Audit
+  - Local Positive Source Carleson.A final source theorem
+  - Local Positive Source Carleson.A first reduction and obstruction audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude Gain
+      Pctp Hard Terminal Tail Production
+    line_start: 19038
+    line_end: 19044
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19038
+    start_anchor: "\\subsection{Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude
+      Gain Pctp Hard Terminal Tail Production}\n"
+    end_anchor: "\\subsection{Full PFlux Supplier Closure From Near And Far Pressure
+      Summability}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude Gain Pctp Hard Terminal Tail Production}
+
+      The current route cannot derive this from finite energy, compact-preterminal smoothness, or raw source-mass estimates. Those inputs permit high-frequency active-shell concentration near a terminal time unless a -source, amplitude-decay, monotone-dominance, or direct active- theorem is supplied.
+
+      The rerun closes conditionally after active-shell amplitude gain. The unconditional chain remains open at the source theorem
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Good Scale Downstream Endpoint Contradiction After Bad-Set Typing
+    line_start: 19143
+    line_end: 19154
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19143
+    start_anchor: "\\subsection{Good Scale Downstream Endpoint Contradiction After
+      Bad-Set Typing}\n"
+    end_anchor: "\\subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Good Scale Downstream Endpoint Contradiction After Bad-Set Typing}
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}
+      \cap Q^\Phi([t_0,T_*),A_\sharp)\ne\varnothing.
+      \]
+
+      A successful bad-set typing theorem supplies one endpoint face. The two available typing routes are
+
+      If the typed face is already excluded by an upstream endpoint package, the bad set is impossible.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Good Scale.TTU - SCF-Bad Point Typing Refinement
+    line_start: 19155
+    line_end: 19176
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19155
+    start_anchor: "\\subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}\n"
+    end_anchor: "\\subsection{Good Scale.TTU Under Selector / Finite-Complexity}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}
+
+      \[
+      (a,t)\in\mathcal B_{\varepsilon_m}^{\Phi}
+      \]
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}
+      \cap Q^\Phi([t_0,T_*),A_\sharp)\ne\varnothing
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      The implication to tower-blown would require extracting unbounded finite-depth tower amplitude from persistent scale-critical badness. That is a separate concentration-to-tower theorem.
+
+      The implication to packing-detached would require extracting pack-gauge escape from persistent scale-critical badness. That is a separate concentration-to-pack theorem.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Heat Scale Square Source.A direct attempt
+    line_start: 19238
+    line_end: 19265
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19238
+    start_anchor: "\\subsection{Heat Scale Square Source.A direct attempt}\n"
+    end_anchor: "\\subsection{Heat-Scale Square-Source Loop Audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Heat Scale Square Source.A direct attempt}
+
+      Failed from current inputs. The estimate is equivalent to active-shell source normalization on selected terminal windows.
+
+      \[
+      \int_I |F_j(t)|^2dt
+      \le c\varepsilon\nu^3 2^{3j}|I|+C\nu^2 2^j2^{-2\delta j}.
+      \]
+
+      This estimate would give L s 2 temporal source control after parabolic normalization and so Uniform Temporal Source Integrability.A.
+
+      \[
+      |F_j(t)|^2
+      \le c\varepsilon\nu^3 2^{3j}+C\nu^2 2^j2^{-2\delta j}|I|^{-1},
+      \]
+
+      The source F j is trilinear in Littlewood-Paley pieces. On a fixed smooth finite-mode shell profile, amplitude scaling by A makes
+
+      \[
+      F_j\sfcomp{18986} A^3,
+      \qquad |F_j|^2\sfcomp{18987} A^6.
+      \]
+
+      Original smooth data controls the solution through data-dependent energy and preterminal smoothness. The selected terminal active shells require a scale-normalized bound uniform along moving high-frequency windows. The current records lack that normalization.
+
+      Cauchy/Young estimates bound the source by active- envelopes. Those envelopes are exactly the quantities controlled by Scale Critical Tree Carleson.A / Local Positive Source Carleson.A, the active source wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Heat-Scale Square-Source Loop Audit
+    line_start: 19266
+    line_end: 19292
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19266
+    start_anchor: "\\subsection{Heat-Scale Square-Source Loop Audit}\n"
+    end_anchor: "\\subsection{hF survivor charge to SCFBase analytic charge bridge
+      - obstruction}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Heat-Scale Square-Source Loop Audit}
+
+      \[
+      \int_I2^{-j}D_j(t)^2dt
+      \le
+      \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}.
+      \]
+
+      Summing this over active terminal shells would give the scale-normalized upper control needed for the final Jump avg charge.
+
+      \[
+      E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t),
+      \qquad
+      D_j(t)=2^{2j}E_j(t).
+      \]
+
+      \[
+      2^{-j}D_j(t)^2=2^{3j}E_j(t)^2.
+      \]
+
+      Original Smooth Data supplies smoothness on compact preterminal intervals plus finite raw energy and finite dissipation. These facts control fixed shells before the endpoint. The theorem target controls moving active shells whose frequency can drift upward as the terminal time is approached.
+
+      A nonlinear source may balance damping on short active windows. Such source-balanced pulses can keep raw energy and raw dissipation finite while defeating the scale-normalized estimate.
+
+      Equivalent live atoms are direct active- Carleson control, terminal amplitude decay, nonlinear shell-flux/source control ruling out source-balanced active pulses, or a monotone-dominance law whose dissipation controls normalized nu SCF density.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Local Positive Source Carleson.A Loop Audit
+    line_start: 19936
+    line_end: 19952
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19936
+    start_anchor: "\\subsection{Local Positive Source Carleson.A Loop Audit}\n"
+    end_anchor: "\\subsection{Localized Euclidean Cascade Scheduler With Cutoff Error
+      Budgets}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Local Positive Source Carleson.A Loop Audit}
+
+      The packet family is the bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+      The source theorem Original Smooth Data -> Terminal Source Coherence.A remains open.
+
+      The parent route asks for reverse-Holder parent concentration or scale-normalized parent inverse. That route is equivalent to Scale Critical Tree Carleson.A, which remains open.
+
+      The positive remainder route requires positive strain decorrelation or a positive active Carleson reserve. Current surfaces identify this as another presentation of the same native positive-source estimate.
+
+      The active- and amplitude-gain routes give valid conditional bridges, while their source-normalization input remains the same source-pulse atom.
+
+      A proof from Original Smooth Data still requires a new nonlinear source-control mechanism on selected terminal heat-scale windows.
+
+      The live successors are heat-scale -source control, active-shell amplitude gain, scale-normalized parent inverse, or production of a rigid Zeno class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Local Positive Source Carleson.A final source theorem
+    line_start: 20036
+    line_end: 20050
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20036
+    start_anchor: "\\subsection{Local Positive Source Carleson.A final source theorem}\n"
+    end_anchor: "\\subsection{Local Positive Source Carleson.A first reduction and
+      obstruction audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Local Positive Source Carleson.A final source theorem}
+
+      This is the positive pre-Cauchy source estimate for every bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+      The source theorem Original Smooth Data=>Terminal Source Coherence.A remains open.
+
+      The parent concentration supplier asks for a reverse-Holder/inverse parent theorem. Its direct audit reduces it to a scale-normalized donor reserve, route-equivalent to Scale Critical Tree Carleson.A.
+
+      The positive remainder supplier reduces to positive strain decorrelation or positive active Carleson reserve. Each is a presentation of the same native positive source estimate.
+
+      The active- and amplitude-gain suppliers give valid conditional bridges, while their source normalization input remains the same source-pulse atom.
+
+      Local Positive Source Carleson.A remains the positive-source form of the active source-pulse theorem. No current supplier branch discharges it from Original Smooth Data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Local Positive Source Carleson.A first reduction and obstruction
+      audit
+    line_start: 20051
+    line_end: 20068
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20051
+    start_anchor: "\\subsection{Local Positive Source Carleson.A first reduction and
+      obstruction audit}\n"
+    end_anchor: "\\subsection{Local Pressure Strain Deplete.A from Original Smooth
+      Data}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Local Positive Source Carleson.A first reduction and obstruction audit}
+
+      Direct theorem attempt. Result: failed as an unconditional proof from Original Smooth Data.
+
+      Here F N is the bounded-overlap same-fluid terminal packet family selected by the source-pulse branch.
+
+      \[
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}[\mathcal N_{cut/off}^{loc}]_+
+      \le o_N(1)+\text{summable legal losses}.
+      \]
+
+      The term N ps loc contains the selected positive stretching / pressure-strain source on terminal heat-scale windows. Calderon-Zygmund pressure recovery controls size, while it supplies no sign depletion for the localized positive part. Global skew cancellation applies to signed unlocalized exchange. The target has localization, terminal selection, weights, and positive-part extraction, so the global signed cancellation cannot discharge this term.
+
+      Local Positive Source Carleson.A is not discharged by this direct route. The
+      remaining obstruction is the localized, terminally selected, positively
+      weighted source carrier after signed cancellation has been lost.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude Gain Pctp Hard Terminal Tail Production}
+
+    The current route cannot derive this from finite energy, compact-preterminal smoothness, or raw source-mass estimates. Those inputs permit high-frequency active-shell concentration near a terminal time unless a -source, amplitude-decay, monotone-dominance, or direct active- theorem is supplied.
+
+    The rerun closes conditionally after active-shell amplitude gain. The unconditional chain remains open at the source theorem
+
+
+
+    \subsection{Good Scale Downstream Endpoint Contradiction After Bad-Set Typing}
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}
+    \cap Q^\Phi([t_0,T_*),A_\sharp)\ne\varnothing.
+    \]
+
+    A successful bad-set typing theorem supplies one endpoint face. The two available typing routes are
+
+    If the typed face is already excluded by an upstream endpoint package, the bad set is impossible.
+
+
+
+    \subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}
+
+    \[
+    (a,t)\in\mathcal B_{\varepsilon_m}^{\Phi}
+    \]
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}
+    \cap Q^\Phi([t_0,T_*),A_\sharp)\ne\varnothing
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    The implication to tower-blown would require extracting unbounded finite-depth tower amplitude from persistent scale-critical badness. That is a separate concentration-to-tower theorem.
+
+    The implication to packing-detached would require extracting pack-gauge escape from persistent scale-critical badness. That is a separate concentration-to-pack theorem.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+
+
+    \subsection{Heat Scale Square Source.A direct attempt}
+
+    Failed from current inputs. The estimate is equivalent to active-shell source normalization on selected terminal windows.
+
+    \[
+    \int_I |F_j(t)|^2dt
+    \le c\varepsilon\nu^3 2^{3j}|I|+C\nu^2 2^j2^{-2\delta j}.
+    \]
+
+    This estimate would give L s 2 temporal source control after parabolic normalization and so Uniform Temporal Source Integrability.A.
+
+    \[
+    |F_j(t)|^2
+    \le c\varepsilon\nu^3 2^{3j}+C\nu^2 2^j2^{-2\delta j}|I|^{-1},
+    \]
+
+    The source F j is trilinear in Littlewood-Paley pieces. On a fixed smooth finite-mode shell profile, amplitude scaling by A makes
+
+    \[
+    F_j\sfcomp{18986} A^3,
+    \qquad |F_j|^2\sfcomp{18987} A^6.
+    \]
+
+    Original smooth data controls the solution through data-dependent energy and preterminal smoothness. The selected terminal active shells require a scale-normalized bound uniform along moving high-frequency windows. The current records lack that normalization.
+
+    Cauchy/Young estimates bound the source by active- envelopes. Those envelopes are exactly the quantities controlled by Scale Critical Tree Carleson.A / Local Positive Source Carleson.A, the active source wall.
+
+
+
+    \subsection{Heat-Scale Square-Source Loop Audit}
+
+    \[
+    \int_I2^{-j}D_j(t)^2dt
+    \le
+    \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}.
+    \]
+
+    Summing this over active terminal shells would give the scale-normalized upper control needed for the final Jump avg charge.
+
+    \[
+    E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t),
+    \qquad
+    D_j(t)=2^{2j}E_j(t).
+    \]
+
+    \[
+    2^{-j}D_j(t)^2=2^{3j}E_j(t)^2.
+    \]
+
+    Original Smooth Data supplies smoothness on compact preterminal intervals plus finite raw energy and finite dissipation. These facts control fixed shells before the endpoint. The theorem target controls moving active shells whose frequency can drift upward as the terminal time is approached.
+
+    A nonlinear source may balance damping on short active windows. Such source-balanced pulses can keep raw energy and raw dissipation finite while defeating the scale-normalized estimate.
+
+    Equivalent live atoms are direct active- Carleson control, terminal amplitude decay, nonlinear shell-flux/source control ruling out source-balanced active pulses, or a monotone-dominance law whose dissipation controls normalized nu SCF density.
+
+
+
+    \subsection{Local Positive Source Carleson.A Loop Audit}
+
+    The packet family is the bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+    The source theorem Original Smooth Data -> Terminal Source Coherence.A remains open.
+
+    The parent route asks for reverse-Holder parent concentration or scale-normalized parent inverse. That route is equivalent to Scale Critical Tree Carleson.A, which remains open.
+
+    The positive remainder route requires positive strain decorrelation or a positive active Carleson reserve. Current surfaces identify this as another presentation of the same native positive-source estimate.
+
+    The active- and amplitude-gain routes give valid conditional bridges, while their source-normalization input remains the same source-pulse atom.
+
+    A proof from Original Smooth Data still requires a new nonlinear source-control mechanism on selected terminal heat-scale windows.
+
+    The live successors are heat-scale -source control, active-shell amplitude gain, scale-normalized parent inverse, or production of a rigid Zeno class.
+
+
+
+    \subsection{Local Positive Source Carleson.A final source theorem}
+
+    This is the positive pre-Cauchy source estimate for every bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+    The source theorem Original Smooth Data=>Terminal Source Coherence.A remains open.
+
+    The parent concentration supplier asks for a reverse-Holder/inverse parent theorem. Its direct audit reduces it to a scale-normalized donor reserve, route-equivalent to Scale Critical Tree Carleson.A.
+
+    The positive remainder supplier reduces to positive strain decorrelation or positive active Carleson reserve. Each is a presentation of the same native positive source estimate.
+
+    The active- and amplitude-gain suppliers give valid conditional bridges, while their source normalization input remains the same source-pulse atom.
+
+    Local Positive Source Carleson.A remains the positive-source form of the active source-pulse theorem. No current supplier branch discharges it from Original Smooth Data.
+
+
+
+    \subsection{Local Positive Source Carleson.A first reduction and obstruction audit}
+
+    Direct theorem attempt. Result: failed as an unconditional proof from Original Smooth Data.
+
+    Here F N is the bounded-overlap same-fluid terminal packet family selected by the source-pulse branch.
+
+    \[
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}[\mathcal N_{cut/off}^{loc}]_+
+    \le o_N(1)+\text{summable legal losses}.
+    \]
+
+    The term N ps loc contains the selected positive stretching / pressure-strain source on terminal heat-scale windows. Calderon-Zygmund pressure recovery controls size, while it supplies no sign depletion for the localized positive part. Global skew cancellation applies to signed unlocalized exchange. The target has localization, terminal selection, weights, and positive-part extraction, so the global signed cancellation cannot discharge this term.
+
+    Local Positive Source Carleson.A is not discharged by this direct route. The
+    remaining obstruction is the localized, terminally selected, positively
+    weighted source carrier after signed cancellation has been lost.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude Gain
+    Pctp Hard Terminal Tail Production
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19038
+  line_start: 19038
+  line_end: 19044
+  start_anchor: "\\subsection{Full Pctp Hard Chain Rerun Modulo Active Shell Amplitude
+    Gain Pctp Hard Terminal Tail Production}\n"
+  end_anchor: "\\subsection{Full PFlux Supplier Closure From Near And Far Pressure
+    Summability}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Full Pctp Hard Chain Rerun Modulo
+    Active Shell Amplitude Gain Pctp Hard Terminal Tail Production as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19038
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Good Scale Downstream Endpoint Contradiction After Bad-Set Typing
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19143
+  line_start: 19143
+  line_end: 19154
+  start_anchor: "\\subsection{Good Scale Downstream Endpoint Contradiction After Bad-Set
+    Typing}\n"
+  end_anchor: "\\subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Good Scale Downstream Endpoint
+    Contradiction After Bad-Set Typing as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19143
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Good Scale.TTU - SCF-Bad Point Typing Refinement
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19155
+  line_start: 19155
+  line_end: 19176
+  start_anchor: "\\subsection{Good Scale.TTU - SCF-Bad Point Typing Refinement}\n"
+  end_anchor: "\\subsection{Good Scale.TTU Under Selector / Finite-Complexity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Good Scale.TTU - SCF-Bad Point
+    Typing Refinement as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19155
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Heat Scale Square Source.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19238
+  line_start: 19238
+  line_end: 19265
+  start_anchor: "\\subsection{Heat Scale Square Source.A direct attempt}\n"
+  end_anchor: "\\subsection{Heat-Scale Square-Source Loop Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Heat Scale Square Source.A direct
+    attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19238
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Heat-Scale Square-Source Loop Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19266
+  line_start: 19266
+  line_end: 19292
+  start_anchor: "\\subsection{Heat-Scale Square-Source Loop Audit}\n"
+  end_anchor: "\\subsection{hF survivor charge to SCFBase analytic charge bridge -
+    obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Heat-Scale Square-Source Loop
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19266
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Local Positive Source Carleson.A Loop Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19936
+  line_start: 19936
+  line_end: 19952
+  start_anchor: "\\subsection{Local Positive Source Carleson.A Loop Audit}\n"
+  end_anchor: "\\subsection{Localized Euclidean Cascade Scheduler With Cutoff Error
+    Budgets}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Local Positive Source Carleson.A
+    Loop Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19936
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Local Positive Source Carleson.A final source theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20036
+  line_start: 20036
+  line_end: 20050
+  start_anchor: "\\subsection{Local Positive Source Carleson.A final source theorem}\n"
+  end_anchor: "\\subsection{Local Positive Source Carleson.A first reduction and obstruction
+    audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Local Positive Source Carleson.A
+    final source theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20036
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Local Positive Source Carleson.A first reduction and obstruction
+    audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20051
+  line_start: 20051
+  line_end: 20068
+  start_anchor: "\\subsection{Local Positive Source Carleson.A first reduction and
+    obstruction audit}\n"
+  end_anchor: "\\subsection{Local Pressure Strain Deplete.A from Original Smooth Data}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Local Positive Source Carleson.A
+    first reduction and obstruction audit as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20051
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-09
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-scale-tail-and-lifted-band-09.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

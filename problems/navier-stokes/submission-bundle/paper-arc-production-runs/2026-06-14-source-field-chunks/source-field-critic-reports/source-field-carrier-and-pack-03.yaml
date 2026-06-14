@@ -1,0 +1,91 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T06:34:09Z'
+chunk_id: source-field-carrier-and-pack-03
+group_id: carrier-and-pack
+title: Carrier and Pack 3
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_units:
+- subsection_title: Final Global Selector Plateau Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7377
+  line_start: 7377
+  line_end: 7435
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Finite-Frame Linearization On Selector-Good Strips
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7466
+  line_start: 7466
+  line_end: 7529
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Four-Body Survivor to Selector Readout Dictionary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:7915
+  line_start: 7915
+  line_end: 7973
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Frozen Exceptional-Set Measure Localization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8229
+  line_start: 8229
+  line_end: 8295
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Frozen Tolerance Localization Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8344
+  line_start: 8344
+  line_end: 8404
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: H.1 Carrier-Leakage Direct Completion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9361
+  line_start: 9361
+  line_end: 9392
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Heat-Governed Carrier Synthesis For Tower And Shadow Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9449
+  line_start: 9449
+  line_end: 9526
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: HFG Continuation, All-Scale, And Carrier Export Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9567
+  line_start: 9567
+  line_end: 9632
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-carrier-and-pack-03
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

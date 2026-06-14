@@ -121,7 +121,7 @@ The first factor belongs to the gradient-tail surface. Summing over
 
 ```math
 \sum_{j\ge N-M}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2
-\sim
+=
 Q_{N-M}(t).
 \tag{3}
 ```

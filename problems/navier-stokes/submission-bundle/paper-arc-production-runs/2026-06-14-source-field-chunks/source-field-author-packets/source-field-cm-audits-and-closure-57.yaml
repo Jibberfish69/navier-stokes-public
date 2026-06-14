@@ -1,0 +1,774 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-57
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-57
+  sequence: 142
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 57
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 65588
+  line_end: 65864
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65588
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65611
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65653
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65668
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65685
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65788
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65820
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65852
+  subsection_titles:
+  - Clay problem Terminal Time Face Anti Atom Component.A
+  - Clay problem same witness Concordance Terminal CM Insertion
+  - Clay problem Charge record Injection.A Proof-Method Audit
+  - Clay problem Terminal L3 Duhamel Mass CM Face Correction
+  - Terminal Cm No Exit L3 Reserve Promotion Audit
+  - Clay problem B ASAC New Alternative Mechanism Exhaustion
+  - Clay problem Forward Source Supplier Stabilization And CM Turnover
+  - Clay problem Positive Remainder Source-Supplier Handoff
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal Time Face Anti Atom Component.A
+    line_start: 65588
+    line_end: 65610
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65588
+    start_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom Component.A}\n"
+    end_anchor: "\\subsection{Clay problem same witness Concordance Terminal CM Insertion}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Terminal Time Face Anti Atom Component.A}
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      \[
+      d\mu_*^{src}(y,s)=\rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      Spatial transported no-flux controls lateral and ancient boundary flux. A measure supported on the terminal time face survives that control. A complete Transported Cylinder NoFlux.A so needs an explicit terminal time-face clause.
+
+      The terminal face is a parabolic boundary face. It carries trace data. A Radon measure on s=0 pairs with terminal traces and survives local compactness.
+
+      Backward adjoint tests with zero terminal trace hide the atom. Tests with nonzero terminal trace detect it. This duality gives no vanishing theorem.
+
+      The local energy trace route removes the atom conditionally once incoming flux and positive trace jumps are excluded. Without those premises, the local energy identity remains signed and allows terminal trace balance.
+
+      Each route either returns to this terminal time-face atom or requires a missing production theorem.
+
+      Terminal Time Face Anti Atom Component.A is exactly the remaining atom in B ASAC closed,min.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem same witness Concordance Terminal CM Insertion
+    line_start: 65611
+    line_end: 65629
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65611
+    start_anchor: "\\subsection{Clay problem same witness Concordance Terminal CM
+      Insertion}\n"
+    end_anchor: "\\subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem same witness Concordance Terminal CM Insertion}
+
+      \[
+      Pack_Q(\mathcal W)\wedge Part_{N,Q}(\mathcal W)\wedge Field_{N,r,Q}(\mathcal W).
+      \]
+
+      The missing upstream step is not another supplier theorem. It is the compactness and restriction step that puts localized Pack, Part, and Field support onto the same retained packet, same carrier, same terminal subwindow, and same positive scale lineage.
+
+      \[
+      Pack_Q(\mathcal W_*)\wedge
+      Part_{N,Q}(\mathcal W_*)\wedge
+      Field_{N,r_*,Q}(\mathcal W_*).
+      \]
+
+      By Face Restriction Heredity.A, Pack and Part restrict to T *. The Field row also restricts to T * and to any smaller positive scale. Positive Field Scale Under Synchronization.A supplies a scale r *>0 surviving the synchronization. Restrict the same-fluid family to T *, giving *.
+
+      It keeps supplier and readout objects quarantined until a named theorem lands them in Pack, Part, or Field. Member(Q) remains downstream of the CM witness certificate.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Charge record Injection.A Proof-Method Audit
+    line_start: 65653
+    line_end: 65667
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65653
+    start_anchor: "\\subsection{Clay problem Charge record Injection.A Proof-Method
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Charge record Injection.A Proof-Method Audit}
+
+      Proof program: CM contrapositive class exit, Pack branch. Object role: supplier bridge for Scale Critical Tree Carleson.A, not the final CM target. Logical skeleton: contradiction by minimal first reserve birth. Mechanism tested: first-birth descent, adjoint duality, reserve double counting, and positive-source sign/depletion. Attractive wrong substitution: treating "uncharged birth creates a zero-cost packet contradiction" as a proof rather than the theorem to be proved.
+
+      Steps 1 and 2 are legitimate descent bookkeeping. They reduce the problem to a same-window first-created reserve contribution.
+
+      Step 3 is legitimate only for residual already visible to the weighted adjoint record. It prices record-visible residual mass. It does not prove that every retained positive first-created reserve contribution is record-visible.
+
+      This creates positive reserve on the terminal strip without contradicting the installed energy, local energy, parent-, or weighted-adjoint inputs. Those inputs bound represented or paid pieces. They do not by themselves force the selected positive aligned contribution to inject into Charge N.
+
+      Charge record Injection.A is not promoted as closed from Weighted Adj Res.A plus minimality. It remains conditional on a real sign/depletion/anti-concentration mechanism for the selected positive first birth.
+
+      Terminal zero-radius residue remains a Pack/Part witness in the CM contrapositive route. The retained positive-scale branch is the only branch that still asks for a forward supplier theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal L3 Duhamel Mass CM Face Correction
+    line_start: 65668
+    line_end: 65684
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65668
+    start_anchor: "\\subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}\n"
+    end_anchor: "\\subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}
+
+      Under retained Pack Q + Part N,Q , this also yields the retained public translator readout: the terminal L 3 critical branch cannot coexist with a continuation-complete CM packet, hence it feeds Retained Pack Part CriticalL3Field Exit.A through the installed local L 3 translator package.
+
+      This is a CM contrapositive witness theorem. It uses the bad terminal L 3 Duhamel mass as a class-exit witness. It does not try to delete the mass first.
+
+      \[
+      \boxed{none.}
+      \]
+
+      What remains outside this branch is the root TerminalCMNo Exit.A / No GenuineCMExit.A burden: every alleged terminal witness must either be routed into an installed Pack/Part/Field face like this one, or an independent admissibility/no-exit theorem must rule out genuine CM class-exit for original smooth data.
+
+      First Reserve Pulse ToCriticalL3.A is not required for the terminal L 3 Duhamel-mass branch.
+
+      That route tries to price or remove reserve birth. The CM-facing branch above extracts a witness once terminal L 3 Duhamel mass is already present.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Cm No Exit L3 Reserve Promotion Audit
+    line_start: 65685
+    line_end: 65725
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65685
+    start_anchor: "\\subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Zeno Pack Failure Correction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}\n\nSupersession
+      note: this audit is correct only for the reserve-pricing supplier question.
+      It should not be read as saying the local L 3 translator is unusable inside
+      the CM-facing terminal proof. The terminal L 3 Duhamel-mass branch is now separately
+      seated by\n\nWith Paraproduct Native Source Capture.A, that source work becomes
+      native positive source measure or an allowed CM exit. This identifies the CM
+      face once a terminal L 3 response is already present. It does not prove that
+      original smooth data cannot create a terminal source pulse, and it does not
+      give a dynamic inequality for the donor reserve.\n\n\\[\n\\mathcal R_N(W)\n\\sfcomp{64169}\n\\int_W\\sum_{k>N}2^k\n\\left(\\sum_{\\ell>k+4}D_\\ell(t)\\right)^2dt
+      .\n\\]\n\nThe May 23 L 3 theorem has no premise of this form. It begins from
+      a critical response lower bound and localizes that response to same-witness
+      nonlinear source work. so it cannot price a reserve birth unless a separate
+      theorem first converts first-created donor reserve into terminal critical L
+      3 response mass.\n\nThe existing short-pulse record obstruction shows why this
+      conversion is not available from the installed first-moment inputs. On a terminal
+      window let\n\n\\[\n\\int_{I_m}D_{m+5}(t)dt=A_m\\to0,\n\\qquad\n\\int_{I_m}2^mD_{m+5}(t)^2dt\n=2^mA_m^2h_m^{-1}\\sfcomp{64182}1.\n\\]\n\nThus
+      first-moment charge can vanish while the scale-critical reserve stays order
+      one. This is not a Navier-Stokes counterexample; it is a record countermodel
+      to the proposed implication from installed first-moment, source capture, or
+      response-localization inputs to Reserve Creation Charge.A.\n\nEven that theorem
+      would be a face-routing theorem. On retained Pack+Part, the installed local
+      L 3 translator would send the resulting critical response to the local Field
+      face. That classifies a failure; it does not by itself prove No GenuineCMExit.A,
+      because the no-exit theorem still has to rule out loss of all lawful continuation
+      packets.\n\nso the Pack-side \n% ... source excerpt truncated for packet size
+      ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC New Alternative Mechanism Exhaustion
+    line_start: 65788
+    line_end: 65819
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65788
+    start_anchor: "\\subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}\n"
+    end_anchor: "\\subsection{Clay problem Forward Source Supplier Stabilization And
+      CM Turnover}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}
+
+      Bounded alternative search after the B ASAC closed branch was corrected to zero-radius not Pack Q source-residue support and after the pressure/Leray tether route stayed open.
+
+      Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \rightharpoonup \delta_{s=0}.
+      \]
+
+      The branch has already been routed through temporal anti-concentration, branch-complexity reserve, transported no-flux, rigid subclass production, and pressure/Leray tether.
+
+      Desired effect: local energy traces would forbid a positive terminal source jump at s=0.
+
+      Collapse: the local energy inequality allows terminal trace measures under finite L 1 s source input. A positive source measure concentrated in [-1/m,0] can converge to a terminal trace contribution. A no-positive-jump theorem would require the same missing terminal anti-atom or a super-L 1 s source residence estimate.
+
+      Desired effect: elliptic pressure recovery might spread the terminal source residue away from the time face.
+
+      Collapse: pressure is elliptic in space at each time slice. Calderon-Zygmund recovery spreads spatially and supplies no time smoothing across s=0. Any time-spread conclusion still requires an independent residence estimate, pressure time-face spread theorem, or terminal anti-atom clause.
+
+      Desired effect: classify the all-doors-closed residue as a pure pressure/source singular class with its own Liouville theorem.
+
+      Collapse: classifying a residue as pressure/source singular gives a new label, while the Liouville step requires an estimate excluding terminal concentration. Without temporal thickness, source-current tether, or a rigid generated class, the classification route rephrases the same time-face atom.
+
+      Desired effect: combine adjoint drainage, pressure partner structure, and source-current pairing into a new production me
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Forward Source Supplier Stabilization And CM Turnover
+    line_start: 65820
+    line_end: 65851
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65820
+    start_anchor: "\\subsection{Clay problem Forward Source Supplier Stabilization
+      And CM Turnover}\n"
+    end_anchor: "\\subsection{Clay problem Positive Remainder Source-Supplier Handoff}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Forward Source Supplier Stabilization And CM Turnover}
+
+      The positive forward supplier loop has now stabilized. The CM contrapositive use has also been separated cleanly from the positive supplier theorem.
+
+      This atom would prove temporal non-atomicity and force the Zeno branch to vanish. It would also close the retained source-wall -reserve branch by contradiction with inherited source residue.
+
+      The CM task is different. It does not require proving the positive supplier. It requires typing selected retained failures into Pack/Part/Field.
+
+      Thus selected retained source-wall failure is already a typed Field witness for the CM program.
+
+      \[
+      UniformTemporalSourceIntegrability_p.A,
+      \qquad p>1.
+      \]
+
+      \[
+      g_m(s)=m1_{(-1/m,0]}(s)
+      \]
+
+      \[
+      F_j(Au)=A^3F_j(u),
+      \]
+
+      so a scale-normalized shell theorem needs new structure beyond smooth data, energy, and preterminal compactness.
+
+      The rigid-class route also fails to produce a lower theorem. The minimal Zeno compactness class is too broad for residue Liouville; stronger known classes are not produced.
+
+      so the forward supplier has no further installed lower target beneath the stabilized fork.
+
+      Without one of those, the forward supplier cannot be advanced by the current installed route. The CM contrapositive branch should use the installed Field-face diagnostics instead of replaying the positive supplier loop.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Positive Remainder Source-Supplier Handoff
+    line_start: 65852
+    line_end: 65864
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65852
+    start_anchor: "\\subsection{Clay problem Positive Remainder Source-Supplier Handoff}\n"
+    end_anchor: "\\subsection{Clay problem Uniform LedgerAC.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Positive Remainder Source-Supplier Handoff}
+
+      The May 16 MCP theorem-attempt packet is absorbed into the Navier-Stokes source-wall live surfaces. This is not a discharge; it sharpens the positive supplier boundary after the ASAC, one-sided comparison, active-, and Zeno residue attempts.
+
+      The older RN and native-trilinear formulations remain equivalent or weaker measure presentations of the same positive source-control burden. The active carrier is still
+
+      The installed route pays legal terms, ASAC alignment, projected-cutoff and boundary records, and finite/non-Zeno donor refill. It does not supply any of the genuinely new source-reserve mechanisms needed to remove the terminal positive carrier.
+
+      This is supplier-side work for source-pulse/no-Jump avg production and for source-wall support. It does not replace the governing CM primitive
+
+      If the native positive residue survives in the CM contrapositive program, it is carried as a typed retained Field/source-residue witness after legal-loss, readout-loss, non-selected, Pack, and Part alternatives are removed. The positive theorem Positive Remainder Depletion.A is a way to eliminate that carrier for the downstream positive supplier route; it is not itself the Pack/Part/Field witness primitive.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Terminal Time Face Anti Atom Component.A}
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    \[
+    d\mu_*^{src}(y,s)=\rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    Spatial transported no-flux controls lateral and ancient boundary flux. A measure supported on the terminal time face survives that control. A complete Transported Cylinder NoFlux.A so needs an explicit terminal time-face clause.
+
+    The terminal face is a parabolic boundary face. It carries trace data. A Radon measure on s=0 pairs with terminal traces and survives local compactness.
+
+    Backward adjoint tests with zero terminal trace hide the atom. Tests with nonzero terminal trace detect it. This duality gives no vanishing theorem.
+
+    The local energy trace route removes the atom conditionally once incoming flux and positive trace jumps are excluded. Without those premises, the local energy identity remains signed and allows terminal trace balance.
+
+    Each route either returns to this terminal time-face atom or requires a missing production theorem.
+
+    Terminal Time Face Anti Atom Component.A is exactly the remaining atom in B ASAC closed,min.
+
+
+
+    \subsection{Clay problem same witness Concordance Terminal CM Insertion}
+
+    \[
+    Pack_Q(\mathcal W)\wedge Part_{N,Q}(\mathcal W)\wedge Field_{N,r,Q}(\mathcal W).
+    \]
+
+    The missing upstream step is not another supplier theorem. It is the compactness and restriction step that puts localized Pack, Part, and Field support onto the same retained packet, same carrier, same terminal subwindow, and same positive scale lineage.
+
+    \[
+    Pack_Q(\mathcal W_*)\wedge
+    Part_{N,Q}(\mathcal W_*)\wedge
+    Field_{N,r_*,Q}(\mathcal W_*).
+    \]
+
+    By Face Restriction Heredity.A, Pack and Part restrict to T *. The Field row also restricts to T * and to any smaller positive scale. Positive Field Scale Under Synchronization.A supplies a scale r *>0 surviving the synchronization. Restrict the same-fluid family to T *, giving *.
+
+    It keeps supplier and readout objects quarantined until a named theorem lands them in Pack, Part, or Field. Member(Q) remains downstream of the CM witness certificate.
+
+
+
+    \subsection{Clay problem Charge record Injection.A Proof-Method Audit}
+
+    Proof program: CM contrapositive class exit, Pack branch. Object role: supplier bridge for Scale Critical Tree Carleson.A, not the final CM target. Logical skeleton: contradiction by minimal first reserve birth. Mechanism tested: first-birth descent, adjoint duality, reserve double counting, and positive-source sign/depletion. Attractive wrong substitution: treating "uncharged birth creates a zero-cost packet contradiction" as a proof rather than the theorem to be proved.
+
+    Steps 1 and 2 are legitimate descent bookkeeping. They reduce the problem to a same-window first-created reserve contribution.
+
+    Step 3 is legitimate only for residual already visible to the weighted adjoint record. It prices record-visible residual mass. It does not prove that every retained positive first-created reserve contribution is record-visible.
+
+    This creates positive reserve on the terminal strip without contradicting the installed energy, local energy, parent-, or weighted-adjoint inputs. Those inputs bound represented or paid pieces. They do not by themselves force the selected positive aligned contribution to inject into Charge N.
+
+    Charge record Injection.A is not promoted as closed from Weighted Adj Res.A plus minimality. It remains conditional on a real sign/depletion/anti-concentration mechanism for the selected positive first birth.
+
+    Terminal zero-radius residue remains a Pack/Part witness in the CM contrapositive route. The retained positive-scale branch is the only branch that still asks for a forward supplier theorem.
+
+
+
+    \subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}
+
+    Under retained Pack Q + Part N,Q , this also yields the retained public translator readout: the terminal L 3 critical branch cannot coexist with a continuation-complete CM packet, hence it feeds Retained Pack Part CriticalL3Field Exit.A through the installed local L 3 translator package.
+
+    This is a CM contrapositive witness theorem. It uses the bad terminal L 3 Duhamel mass as a class-exit witness. It does not try to delete the mass first.
+
+    \[
+    \boxed{none.}
+    \]
+
+    What remains outside this branch is the root TerminalCMNo Exit.A / No GenuineCMExit.A burden: every alleged terminal witness must either be routed into an installed Pack/Part/Field face like this one, or an independent admissibility/no-exit theorem must rule out genuine CM class-exit for original smooth data.
+
+    First Reserve Pulse ToCriticalL3.A is not required for the terminal L 3 Duhamel-mass branch.
+
+    That route tries to price or remove reserve birth. The CM-facing branch above extracts a witness once terminal L 3 Duhamel mass is already present.
+
+
+
+    \subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}
+
+    Supersession note: this audit is correct only for the reserve-pricing supplier question. It should not be read as saying the local L 3 translator is unusable inside the CM-facing terminal proof. The terminal L 3 Duhamel-mass branch is now separately seated by
+
+    With Paraproduct Native Source Capture.A, that source work becomes native positive source measure or an allowed CM exit. This identifies the CM face once a terminal L 3 response is already present. It does not prove that original smooth data cannot create a terminal source pulse, and it does not give a dynamic inequality for the donor reserve.
+
+    \[
+    \mathcal R_N(W)
+    \sfcomp{64169}
+    \int_W\sum_{k>N}2^k
+    \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt .
+    \]
+
+    The May 23 L 3 theorem has no premise of this form. It begins from a critical response lower bound and localizes that response to same-witness nonlinear source work. so it cannot price a reserve birth unless a separate theorem first converts first-created donor reserve into terminal critical L 3 response mass.
+
+    The existing short-pulse record obstruction shows why this conversion is not available from the installed first-moment inputs. On a terminal window let
+
+    \[
+    \int_{I_m}D_{m+5}(t)dt=A_m\to0,
+    \qquad
+    \int_{I_m}2^mD_{m+5}(t)^2dt
+    =2^mA_m^2h_m^{-1}\sfcomp{64182}1.
+    \]
+
+    Thus first-moment charge can vanish while the scale-critical reserve stays order one. This is not a Navier-Stokes counterexample; it is a record countermodel to the proposed implication from installed first-moment, source capture, or response-localization inputs to Reserve Creation Charge.A.
+
+    Even that theorem would be a face-routing theorem. On retained Pack+Part, the installed local L 3 translator would send the resulting critical response to the local Field face. That classifies a failure; it does not by itself prove No GenuineCMExit.A, because the no-exit theorem still has to rule out loss of all lawful continuation packets.
+
+    so the Pack-side positive no-exit route still needs a theorem that prevents, charges, or rigidifies the short-pulse reserve birth itself.
+
+    At the narrowest current supplier level, the installed Original Smooth Data Scale Critical Tree Carleson.A theorem-creation packet reduces this Pack-side realization to
+
+    The installed-input nonderivability witness blocks a proof from the current record alone: a selected high packet can align with a positive lower-strain eigendirection, so the positive source term survives terminal positive selection while signed cancellation and first-moment records remain compatible.
+
+    for the selected native positive source measure, or producing an explicit rigid Zeno class with a matching residue Liouville theorem, or proving Positive Active Carleson Reserve.A on the same selected source-current packets.
+
+    This is not a separate CM landing. It is the deepest executed proof obstruction inside the Pack no-exit supplier branch.
+
+    The generated reserve-support packets Past Window Reserve Separation.A, Past Window Shadow Completeness.A, Windowwise Reserve Carleson.A, Terminal Reserve First Appearance Charge.A, Charge record Injection.A, and Adjoint Reserve NoFree Creation.A remain conditional support until this structural source-control theorem is supplied.
+
+
+
+    \subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}
+
+    Bounded alternative search after the B ASAC closed branch was corrected to zero-radius not Pack Q source-residue support and after the pressure/Leray tether route stayed open.
+
+    Outcome: no additional installed production mechanism found. The search surfaces candidate mechanisms, each returning to an already isolated atom.
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \rightharpoonup \delta_{s=0}.
+    \]
+
+    The branch has already been routed through temporal anti-concentration, branch-complexity reserve, transported no-flux, rigid subclass production, and pressure/Leray tether.
+
+    Desired effect: local energy traces would forbid a positive terminal source jump at s=0.
+
+    Collapse: the local energy inequality allows terminal trace measures under finite L 1 s source input. A positive source measure concentrated in [-1/m,0] can converge to a terminal trace contribution. A no-positive-jump theorem would require the same missing terminal anti-atom or a super-L 1 s source residence estimate.
+
+    Desired effect: elliptic pressure recovery might spread the terminal source residue away from the time face.
+
+    Collapse: pressure is elliptic in space at each time slice. Calderon-Zygmund recovery spreads spatially and supplies no time smoothing across s=0. Any time-spread conclusion still requires an independent residence estimate, pressure time-face spread theorem, or terminal anti-atom clause.
+
+    Desired effect: classify the all-doors-closed residue as a pure pressure/source singular class with its own Liouville theorem.
+
+    Collapse: classifying a residue as pressure/source singular gives a new label, while the Liouville step requires an estimate excluding terminal concentration. Without temporal thickness, source-current tether, or a rigid generated class, the classification route rephrases the same time-face atom.
+
+    Desired effect: combine adjoint drainage, pressure partner structure, and source-current pairing into a new production mechanism.
+
+    Collapse: the adjoint identity contains the terminal source pairing as the live term. Pressure partner cancellation survives only at signed graph level; one-sided terminal positive selection requires partner retention, legal/collar exit, donor depletion, or time-face spread. The fork so returns to the signed no-free-sink/source-current wall.
+
+    The current loop is closed/completed in the only theorem-grade sense available from installed surfaces: canonical obstruction placement in the CM Field face plus bounded triage of further production mechanisms.
+
+
+
+    \subsection{Clay problem Forward Source Supplier Stabilization And CM Turnover}
+
+    The positive forward supplier loop has now stabilized. The CM contrapositive use has also been separated cleanly from the positive supplier theorem.
+
+    This atom would prove temporal non-atomicity and force the Zeno branch to vanish. It would also close the retained source-wall -reserve branch by contradiction with inherited source residue.
+
+    The CM task is different. It does not require proving the positive supplier. It requires typing selected retained failures into Pack/Part/Field.
+
+    Thus selected retained source-wall failure is already a typed Field witness for the CM program.
+
+    \[
+    UniformTemporalSourceIntegrability_p.A,
+    \qquad p>1.
+    \]
+
+    \[
+    g_m(s)=m1_{(-1/m,0]}(s)
+    \]
+
+    \[
+    F_j(Au)=A^3F_j(u),
+    \]
+
+    so a scale-normalized shell theorem needs new structure beyond smooth data, energy, and preterminal compactness.
+
+    The rigid-class route also fails to produce a lower theorem. The minimal Zeno compactness class is too broad for residue Liouville; stronger known classes are not produced.
+
+    so the forward supplier has no further installed lower target beneath the stabilized fork.
+
+    Without one of those, the forward supplier cannot be advanced by the current installed route. The CM contrapositive branch should use the installed Field-face diagnostics instead of replaying the positive supplier loop.
+
+
+
+    \subsection{Clay problem Positive Remainder Source-Supplier Handoff}
+
+    The May 16 MCP theorem-attempt packet is absorbed into the Navier-Stokes source-wall live surfaces. This is not a discharge; it sharpens the positive supplier boundary after the ASAC, one-sided comparison, active-, and Zeno residue attempts.
+
+    The older RN and native-trilinear formulations remain equivalent or weaker measure presentations of the same positive source-control burden. The active carrier is still
+
+    The installed route pays legal terms, ASAC alignment, projected-cutoff and boundary records, and finite/non-Zeno donor refill. It does not supply any of the genuinely new source-reserve mechanisms needed to remove the terminal positive carrier.
+
+    This is supplier-side work for source-pulse/no-Jump avg production and for source-wall support. It does not replace the governing CM primitive
+
+    If the native positive residue survives in the CM contrapositive program, it is carried as a typed retained Field/source-residue witness after legal-loss, readout-loss, non-selected, Pack, and Part alternatives are removed. The positive theorem Positive Remainder Depletion.A is a way to eliminate that carrier for the downstream positive supplier route; it is not itself the Pack/Part/Field witness primitive.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal Time Face Anti Atom Component.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65588
+  line_start: 65588
+  line_end: 65610
+  start_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom Component.A}\n"
+  end_anchor: "\\subsection{Clay problem same witness Concordance Terminal CM Insertion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal Time Face
+    Anti Atom Component.A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65588
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem same witness Concordance Terminal CM Insertion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65611
+  line_start: 65611
+  line_end: 65629
+  start_anchor: "\\subsection{Clay problem same witness Concordance Terminal CM Insertion}\n"
+  end_anchor: "\\subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem same witness Concordance
+    Terminal CM Insertion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65611
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Charge record Injection.A Proof-Method Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65653
+  line_start: 65653
+  line_end: 65667
+  start_anchor: "\\subsection{Clay problem Charge record Injection.A Proof-Method
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Charge record Injection.A
+    Proof-Method Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65653
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal L3 Duhamel Mass CM Face Correction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65668
+  line_start: 65668
+  line_end: 65684
+  start_anchor: "\\subsection{Clay problem Terminal L3 Duhamel Mass CM Face Correction}\n"
+  end_anchor: "\\subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal L3 Duhamel
+    Mass CM Face Correction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65668
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Cm No Exit L3 Reserve Promotion Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65685
+  line_start: 65685
+  line_end: 65725
+  start_anchor: "\\subsection{Terminal Cm No Exit L3 Reserve Promotion Audit}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Zeno Pack Failure Correction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Cm No Exit L3 Reserve
+    Promotion Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65685
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC New Alternative Mechanism Exhaustion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65788
+  line_start: 65788
+  line_end: 65819
+  start_anchor: "\\subsection{Clay problem B ASAC New Alternative Mechanism Exhaustion}\n"
+  end_anchor: "\\subsection{Clay problem Forward Source Supplier Stabilization And
+    CM Turnover}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC New Alternative
+    Mechanism Exhaustion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65788
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Forward Source Supplier Stabilization And CM Turnover
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65820
+  line_start: 65820
+  line_end: 65851
+  start_anchor: "\\subsection{Clay problem Forward Source Supplier Stabilization And
+    CM Turnover}\n"
+  end_anchor: "\\subsection{Clay problem Positive Remainder Source-Supplier Handoff}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Forward Source Supplier
+    Stabilization And CM Turnover as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65820
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Positive Remainder Source-Supplier Handoff
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65852
+  line_start: 65852
+  line_end: 65864
+  start_anchor: "\\subsection{Clay problem Positive Remainder Source-Supplier Handoff}\n"
+  end_anchor: "\\subsection{Clay problem Uniform LedgerAC.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Positive Remainder
+    Source-Supplier Handoff as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65852
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-57
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-57.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

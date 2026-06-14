@@ -1,0 +1,345 @@
+---
+version: 1
+kind: ns-paper-straight-through-draft-status
+generated_at: '2026-06-14T14:52:04Z'
+manifest_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/straight-through-draft-manifest.yaml
+arc_count: 12
+integrated_arc_count: 12
+source_integrated_arc_count: 12
+ready_to_integrate_arc_count: 0
+critic_failed_arc_count: 0
+critic_missing_arc_count: 0
+critic_stale_arc_count: 0
+context_coverage_failed_arc_count: 0
+failed_arc_count: 0
+next_arc_to_author:
+first_draft_ready: true
+completion_rule: first draft is ready only when every arc author pack passes the verifier,
+  has been integrated into TeX source, has a passing fresh Math/Reader critic report,
+  and shows that packed repo/context refs have a home on the page or an explicit sourced
+  exclusion
+arc_statuses:
+- arc_id: opening-theorem-route
+  title: Opening theorem route
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/opening-theorem-route.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/opening-theorem-route.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/opening-theorem-route-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/opening-theorem-route.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 32
+  context_covered_ref_count: 32
+  pack_repo_ref_count: 20
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 7
+  failure_count: 0
+  next_failure:
+- arc_id: gold-obstruction
+  title: Gold obstruction
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/gold-obstruction.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/gold-obstruction.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/gold-obstruction-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/gold-obstruction.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 35
+  context_covered_ref_count: 35
+  pack_repo_ref_count: 18
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 2
+  failure_count: 0
+  next_failure:
+- arc_id: failure-taxonomy
+  title: Failure taxonomy and endpoint roles
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/failure-taxonomy.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/failure-taxonomy.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/failure-taxonomy-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/failure-taxonomy.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 39
+  context_covered_ref_count: 39
+  pack_repo_ref_count: 14
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 2
+  failure_count: 0
+  next_failure:
+- arc_id: cm-class-membership
+  title: CM class membership
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/cm-class-membership.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/cm-class-membership.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/cm-class-membership-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/cm-class-membership.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 41
+  context_covered_ref_count: 41
+  pack_repo_ref_count: 18
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 5
+  failure_count: 0
+  next_failure:
+- arc_id: pack-part-field-grammar
+  title: Pack/Part/Field witness grammar
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/pack-part-field-grammar.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/pack-part-field-grammar.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/pack-part-field-grammar-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/pack-part-field-grammar.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 40
+  context_covered_ref_count: 40
+  pack_repo_ref_count: 16
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 4
+  failure_count: 0
+  next_failure:
+- arc_id: contrapositive-proof
+  title: Contrapositive proof
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/contrapositive-proof.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/contrapositive-proof.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/contrapositive-proof-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/contrapositive-proof.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 41
+  context_covered_ref_count: 41
+  pack_repo_ref_count: 19
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 2
+  failure_count: 0
+  next_failure:
+- arc_id: same-solution-close
+  title: Same-solution close
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/same-solution-close.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/same-solution-close.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/same-solution-close-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/same-solution-close.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 35
+  context_covered_ref_count: 35
+  pack_repo_ref_count: 10
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 2
+  failure_count: 0
+  next_failure:
+- arc_id: clay-facing-cm-completion
+  title: Clay-facing CM completion
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/clay-facing-cm-completion.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/clay-facing-cm-completion.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/clay-facing-cm-completion-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/clay-facing-cm-completion.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 36
+  context_covered_ref_count: 36
+  pack_repo_ref_count: 11
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 2
+  failure_count: 0
+  next_failure:
+- arc_id: forward-branch-treatment
+  title: Forward-positive branch treatment
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/forward-branch-treatment.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/forward-branch-treatment.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/forward-branch-treatment-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/forward-branch-treatment.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 35
+  context_covered_ref_count: 35
+  pack_repo_ref_count: 25
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 17
+  failure_count: 0
+  next_failure:
+- arc_id: comparison-transfer-boundary
+  title: Comparison and transfer boundary
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/comparison-transfer-boundary.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/comparison-transfer-boundary.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/comparison-transfer-boundary-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/comparison-transfer-boundary.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 39
+  context_covered_ref_count: 39
+  pack_repo_ref_count: 13
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 3
+  failure_count: 0
+  next_failure:
+- arc_id: source-field-reader-integration
+  title: Source-field reader integration
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/source-field-reader-integration.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/source-field-reader-integration.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/source-field-reader-integration-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/source-field-reader-integration.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 39
+  context_covered_ref_count: 39
+  pack_repo_ref_count: 21
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 1
+  failure_count: 0
+  next_failure:
+- arc_id: appendix-source-field-integration
+  title: Appendix proof-attempt integration
+  pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/appendix-source-field-integration.yaml
+  work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/work-packets/appendix-source-field-integration.yaml
+  ready_to_apply: true
+  status: integrated
+  verifier_status: passed
+  integration_allowed: true
+  integrated: true
+  integration_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/appendix-source-field-integration-integrated.yaml
+  integration_status: applied
+  critic_status: passed
+  critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/appendix-source-field-integration.yaml
+  critic_issue_count: 0
+  critic_detected_issue_count: 0
+  critic_issue_limit_reached: false
+  critic_source_fresh: true
+  critic_source_freshness_failure_count: 0
+  context_coverage_status: passed
+  context_required_ref_count: 36
+  context_covered_ref_count: 36
+  pack_repo_ref_count: 21
+  context_missing_ref_count: 0
+  context_missing_refs: []
+  rewrite_count: 1
+  failure_count: 0
+  next_failure:

@@ -239,9 +239,11 @@ Here:
 The theorem should also prove coercive comparisons
 
 ```math
+c_K\Psi_r^{\mathrm{Lag}}[v,G]
+\le
 \mathcal K_r^{\mathrm{Lag}}[v,G]
-\asymp
-\Psi_r^{\mathrm{Lag}}[v,G],
+\le
+C_K\Psi_r^{\mathrm{Lag}}[v,G],
 \tag{15}
 ```
 
@@ -251,7 +253,8 @@ and
 \mathcal D_r^{\mathrm{Lag}}[v,G]
 +
 \mathcal C_r^{\mathrm{Lag}}[v,G]
-\gtrsim
+\ge
+c_D
 \Psi_r^{\mathrm{Lag}}[v,G].
 \tag{16}
 ```
@@ -278,8 +281,8 @@ The viscous part should look like the natural variable-coefficient Dirichlet
 energy:
 
 ```math
-\mathcal D_r^{\mathrm{Lag}}[v,G]
-\sim
+\mathcal D_{r,\mathrm{model}}^{\mathrm{Lag}}[v,G]
+:=
 \sum_{1\le |\alpha|\le r}
 \int_{\mathbb T^3}
 G\,\nabla_a \partial_a^\alpha v : \nabla_a \partial_a^\alpha v\,da
@@ -289,11 +292,11 @@ G\,\nabla_a \partial_a^\alpha v : \nabla_a \partial_a^\alpha v\,da
 ```
 
 The deformation defect should measure the price of the geometry not remaining
-tame under strain, schematically
+tame under strain through an exact square packet of the form
 
 ```math
-\mathcal C_r^{\mathrm{Lag}}[v,G]
-\sim
+\mathcal C_{r,\mathrm{model}}^{\mathrm{Lag}}[v,G]
+:=
 \sum_{1\le |\alpha|\le r}
 \|\mathcal C_\alpha(A,G;v,q)\|_{L_a^2}^2
 +

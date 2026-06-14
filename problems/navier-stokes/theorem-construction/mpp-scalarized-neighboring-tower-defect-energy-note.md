@@ -322,7 +322,7 @@ Therefore
 
 ```math
 \frac{d}{dt}A_F(t;\psi)
-\lesssim
+\le C_{\mathrm{MP25}}
 \int \psi(a)^2\,|(\nabla u)(X(a,t),t)|
 \Big(
 |F(a,t)|^2+|A(a,t)|^2
@@ -365,11 +365,11 @@ So the relative packing mismatch is driven by two things:
 1. ordinary packet strain;
 2. the first-rung strain defect across nearby labels.
 
-Schematically,
+The formal packet estimate is
 
 ```math
 \frac{d}{dt}P_F(r,t;\psi)
-\lesssim
+\le C_{\mathrm{MP29}}
 \text{packet strain}\cdot P_F(r,t;\psi)
 +
 \int \psi(a)^2\,|\Delta_r^X \nabla u(a,t)|^2
@@ -386,7 +386,7 @@ This is the exact bridge from tower coherence to packing coherence.
 The finite-difference tower law from
 `mpp-shared-participation-and-tower-coherence-law.md` gives the defect-side
 evolution. After localization to the material packet, the defect energy should
-satisfy a schematic triangular closure inequality of the form
+satisfy a triangular closure inequality of the form
 
 ```math
 \frac{d}{dt}E_N(h,t;\psi)
@@ -466,8 +466,8 @@ The live packet-program surface itself is now
 This note does **not** yet prove:
 
 1. a closed differential inequality for `\mathcal H_N`;
-2. the exact quantitative bridge from `P_F` small to `h(a,r,t)\sim F(a,t)r`
-   on every packet;
+2. the exact quantitative bridge from `P_F` small to two-sided packet control
+   `c_F|F(a,t)||r|\le |h(a,r,t)|\le C_F|F(a,t)||r|` on every packet;
 3. a closure theorem excluding coherence fracture;
 4. that the packet-level first-exit theorem upgrades directly to full global
    regularity.

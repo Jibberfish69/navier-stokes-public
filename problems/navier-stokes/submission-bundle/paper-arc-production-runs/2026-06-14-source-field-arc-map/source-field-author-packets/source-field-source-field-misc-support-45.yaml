@@ -1,0 +1,862 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-45
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-45
+  sequence: 197
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 45
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 26954
+  line_end: 27312
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26954
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26994
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27028
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27197
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27218
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27231
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27265
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27287
+  subsection_titles:
+  - Square Reserve Evolution.A direct dynamic-reserve attempt
+  - Standalone Aact Kx Local Proof
+  - Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem
+  - Strict-Margin SCF Stability Constants Lemma
+  - Surface Audit Of Act Kx Conditional Route Completion Items 1 12 Ofp A
+  - Temporal Integrability Square Source Chain Solver
+  - Temporal Non Atomic Source.A direct attempt
+  - Terminal Cover Dichotomy In Standard PDE Language
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Square Reserve Evolution.A direct dynamic-reserve attempt
+    line_start: 26954
+    line_end: 26993
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26954
+    start_anchor: "\\subsection{Square Reserve Evolution.A direct dynamic-reserve
+      attempt}\n"
+    end_anchor: "\\subsection{Standalone Aact Kx Local Proof}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Square Reserve Evolution.A direct dynamic-reserve attempt}
+
+      Failed direct discharge. The donor reserve is a correct static price for diffuse parentage, but it does not have a closed dissipative evolution law under the currently installed Navier-Stokes packet equations. Differentiating the reserve produces the same positive local source terms that define the source wall. So Square Reserve Evolution.A is not proved independently from Original Smooth Data.
+
+      \[
+      \mathcal R_N(W):=\int_W\sum_{P^-}|A_{P^-}(t)|^2\,dt
+      \]
+
+      \[
+      \sum_P\left|\sum_{P^-\prec P}K(P,P^-)A_{P^-}\right|^2
+      \le C\sum_{P^-}|A_{P^-}|^2+o_N(1).
+      \]
+
+      This prices diffuse parent clouds into the full donor reserve R N. It removes the bounded-parent selector obstruction, but it supplies no time evolution for R N itself.
+
+      \[
+      \frac{d}{dt}|A_{P^-}(t)|^2+c\,D_{P^-}^{sq}(t)
+      \le
+      Source_{P^-}^{sq}(t)+Loss_{P^-}(t).
+      \]
+
+      But A P - is not itself a primary shell energy; it is a source/donor functional extracted from parent packets. In the dyadic model it is in model form a weighted tail or low-high donor factor, for example
+
+      \[
+      A_k(t)\sfcomp{25463} 2^{k/2}\sum_{\ell>k+4}D_\ell(t)
+      \]
+
+      \[
+      A_k(t)\sum_{\ell>k+4}Source_\ell(t).
+      \]
+
+      After localization and positive/ extraction, these are exactly the local positive source terms of Local Positive Source Carleson.A.
+
+      The underlying shell energy has viscous damping. However, the donor factor has the scale-critical form
+
+      The first moment can remain small while the scale-critical reserve remains positive on a short terminal interval.
+
+      Thus Square Reserve Evolution.A is a valid sufficient theorem but not an independent consequence of current inputs.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Standalone Aact Kx Local Proof
+    line_start: 26994
+    line_end: 27027
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26994
+    start_anchor: "\\subsection{Standalone Aact Kx Local Proof}\n"
+    end_anchor: "\\subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Standalone Aact Kx Local Proof}
+
+      Let Q R Phi be one bounded-distortion same-fluid moving cylinder. Assume SCF avg m and ATD m epsilon on the shrunken cylinder, with m at least the route depth required by endpoint readout. Let X R be the averaged affine-subtracted excess, N R the averaged dissipation packet, and A R the averaged affine core. Set
+
+      \[
+      B_R:=1+A_R+V_R+P_R,
+      \]
+
+      where V R contains moving-frame, cutoff, and viscous-commutator coefficients, and P R contains pressure-response coefficients. Let F R contain source, cutoff, pressure-tail, harmonic, frame, and finite-rung forcing remainders.
+
+      \[
+      X_R(t_0)\le\eta_X
+      \]
+
+      \[
+      \left(\eta_X+\int_I F_R\right)
+      \exp\left(\int_I B_R\right)\le 2\eta_X,
+      \]
+
+      \[
+      C_*\left((2\eta_X)^{1/2}+\|V_R\|_{L^1(I)}^{1/3}+\|P_R\|_{L^1(I)}^{2/3}\right)\le c_\nu/2,
+      \]
+
+      \[
+      X_R\in L^\infty(I),\qquad N_R\in L^1(I),\qquad \mathcal K_{\le m}^{avg,R}\in L^1(I).
+      \]
+
+      The moving-frame calculation writes transport through the affine-relative velocity. The frame is chosen to match the center motion and affine part of the selected packet, so those two modes cancel. The remainder satisfies
+
+      Run a first-exit argument on the interval where X R<=2 eta X. The scheduler smallness absorbs the nonlinear dissipation coefficient and gives
+
+      The first-exit threshold is preserved. Integrating the absorbed inequality gives N R in L 1(I). The tower record estimate then gives K <=m avg,R in L 1(I).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem
+    line_start: 27028
+    line_end: 27062
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27028
+    start_anchor: "\\subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}\n"
+    end_anchor: "\\subsection{Strain-sign cancellation for the weighted lifted remainder
+      - failed discharge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}
+
+      \[
+      \Gamma_\sharp\le M_\sharp.
+      \]
+
+      where SCF base uses the affine-relative velocity and the CKN-compatible pressure gauge. If epsilon m is chosen below the bounded-frame epsilon-regularity threshold, then there are constants
+
+      \[
+      \theta_m\in(0,1/2),\qquad C_m<\infty,
+      \]
+
+      \[
+      x=c(t)+rA(t)y,
+      \qquad s=(t-t_0)/r^2.
+      \]
+
+      Bounded distortion gives uniformly elliptic metric coefficients and uniformly bounded Jacobian factors. The pulled-back local energy inequality has the standard CKN form plus lower-order frame terms controlled by the same affine-relative residual measured in SCF base.
+
+      The constant gauge has zero spatial derivative, and the affine frame potential cancels the inertial affine force. Thus the pressure term in SCF base is the CKN pressure fluctuation for the normalized equation.
+
+      \[
+      \sup_{Q_{1/2}}|\nabla^k u|+\sup_{Q_{1/2}}|\nabla^{k+1}p|\le C_{m,M_\sharp,\nu}.
+      \]
+
+      \[
+      \sup_{Q_{r/2}^\Phi} r^{k+1}|\nabla^k u|
+      +
+      \sup_{Q_{r/2}^\Phi} r^{k+3}|\nabla^{k+1}p|
+      \le C_{m,M_\sharp,\nu}.
+      \]
+
+      These estimates control every velocity rung U q, every pressure derivative entering K q, and the viscous rungs through depth m+2. The affine moments and residual slots defining ATD m epsilon are finite sums of these normalized derivative bounds. Choosing theta m so that the finite sum of residual slots is at most eta X gives the seed
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Strict-Margin SCF Stability Constants Lemma
+    line_start: 27197
+    line_end: 27217
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27197
+    start_anchor: "\\subsection{Strict-Margin SCF Stability Constants Lemma}\n"
+    end_anchor: "\\subsection{Surface Audit Of Act Kx Conditional Route Completion
+      Items 1 12 Ofp A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Strict-Margin SCF Stability Constants Lemma}
+
+      \[
+      r'=\theta r
+      \]
+
+      Choose theta so that the shrunken cylinder has positive separation from the boundary of Q r Phi(a,t). Bounded chart distortion gives delta ctr small enough that
+
+      \[
+      Q_{\theta r}^\Phi(a',t')\subset Q_r^\Phi(a,t)
+      \]
+
+      \[
+      S_u+S_p+S_\nabla.
+      \]
+
+      The original cylinder has total margin epsilon m/2. Allocate epsilon m/6 to each component. Since the component densities are locally integrable, absolute continuity of the integral gives a smaller delta ctr such that each component changes by at most its allocated margin under the domain perturbation.
+
+      The velocity and pressure normalizers are defined by the fixed CKN-compatible convention. Under radius shrink and small center perturbation, the normalized averages/minimizers vary continuously in the corresponding local L 3 and L 3/2 topologies. This contributes another allocated margin controlled by the same local integrability moduli.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Surface Audit Of Act Kx Conditional Route Completion Items 1
+      12 Ofp A
+    line_start: 27218
+    line_end: 27230
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27218
+    start_anchor: "\\subsection{Surface Audit Of Act Kx Conditional Route Completion
+      Items 1 12 Ofp A}\n"
+    end_anchor: "\\subsection{Temporal Integrability Square Source Chain Solver}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Surface Audit Of Act Kx Conditional Route Completion Items 1 12 Ofp A}
+
+      Middle block: conditional installed. Same-rung break and lower-rung triangularity carry the proof load.
+
+      Pressure/forcing: conditional installed. Native affine annihilation, annular/quadratic cells, and energy far tail carry the route.
+
+      Moving cutoff/frame: conditional installed. The cutoff sees the affine defect u(x)-u(c j)-A j(x-c j).
+
+      A dedicated audit theorem attempt endpoint was absent from the exposed MCP tool list in this session. Formal mathematical verification is still absent. The separate route-context burden named continuum coherent-sector replacement remains open for the related shared-control-object route.
+
+      The note is suitable as a conditional MCP audit surface. It is unsuitable as a public Clay-solution claim.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Temporal Integrability Square Source Chain Solver
+    line_start: 27231
+    line_end: 27264
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27231
+    start_anchor: "\\subsection{Temporal Integrability Square Source Chain Solver}\n"
+    end_anchor: "\\subsection{Temporal Non Atomic Source.A direct attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Temporal Integrability Square Source Chain Solver}
+
+      Uniform Temporal Source Integrability.A. Heat Scale Square Source.A. Active Shell Source Normalize.A. Local Positive Source Carleson.A. Backward Source Lower Density.A. Temporal Non Atomic Source.A assembly. no-inflow Zeno assembly.
+
+      \[
+      \int_{-1}^{0}\left(\int F_n^{src,+}(y,s)dy\right)^2ds\le C,
+      \]
+
+      \[
+      \mu_n^{src}(\mathbb R^3\times I)\le C|I|^{1/2}.
+      \]
+
+      Passing to weak limits gives the same bound for * src , so the limiting source measure has no time atoms. Positive terminal-cylinder mass must then occur in s<0; inner regularity gives a fixed earlier slab with positive mass. This is Terminal Source Backward Propagation.A.
+
+      Combining with first-pulse no-incoming support gives the no-inflow Zeno contradiction.
+
+      Current compactness gives finite source mass, an L 1 s level estimate. Finite mass allows terminal time concentration. So temporal integrability with p>1 does not follow directly.
+
+      This target would supply the missing p=2 temporal control. The direct route needs active-shell source normalization on selected terminal windows.
+
+      \[
+      F_j\sfcomp{25737} A^3,
+      \qquad |F_j|^2\sfcomp{25738} A^6.
+      \]
+
+      Original smooth data and preterminal smoothness give data-dependent bounds, while the active terminal estimate needs a scale-normalized bound along moving high-frequency windows. Current records do not supply that normalization.
+
+      Cauchy/Young estimates give active- envelopes. These are exactly the quantities controlled by Scale Critical Tree Carleson.A. Global signed cancellations occur before localization, weights, terminal selection, and positive-part extraction. Pressure/cutoff estimates route legal losses and leave legal interior positive source production.
+
+      Without one of these, Uniform Temporal Source Integrability.A, Temporal Non Atomic Source.A, Terminal Source Backward Propagation.A, and the no-inflow Zeno assembly remain blocked.
+
+      A successful next step must prove a genuinely new nonlinear source-control
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Temporal Non Atomic Source.A direct attempt
+    line_start: 27265
+    line_end: 27286
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27265
+    start_anchor: "\\subsection{Temporal Non Atomic Source.A direct attempt}\n"
+    end_anchor: "\\subsection{Terminal Cover Dichotomy In Standard PDE Language}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Temporal Non Atomic Source.A direct attempt}
+
+      \[
+      \mu_*^{src}(\{s=0\})=0.
+      \]
+
+      This would turn positive terminal mass into positive mass on an earlier time slab and would close Terminal Source Backward Propagation.A.
+
+      The compactness input gives locally finite positive Radon measures. Finite mass is insufficient for temporal non-atomicity. A sequence of time densities concentrating on (-1/n,0] has bounded total mass and can converge weakly to a measure supported at s=0.
+
+      \[
+      \|F_n^{src,+}\|_{L_s^p((-1,0);\mathcal M_y)}\le C,
+      \qquad p>1.
+      \]
+
+      \[
+      \mu_n^{src}(\mathbb R^3\times I)\le C|I|^{1-1/p},
+      \]
+
+      Current records supply finite mass / L1 control. They do not supply the displayed p>1 estimate on selected terminal packets. A -source or Carleson estimate would supply it, but that is exactly the open source-control reserve.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Cover Dichotomy In Standard PDE Language
+    line_start: 27287
+    line_end: 27312
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27287
+    start_anchor: "\\subsection{Terminal Cover Dichotomy In Standard PDE Language}\n"
+    end_anchor: "\\subsection{Terminal Good-Cover Compactness Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Cover Dichotomy In Standard PDE Language}
+
+      Let T be a bounded-distortion same-fluid terminal approach tail for a periodic Navier-Stokes solution. For each (a,t) in T, define the good-cylinder radius
+
+      \[
+      r_{\mathrm{good}}(a,t)\ge r_*
+      \qquad ((a,t)\in T').
+      \]
+
+      Equivalently, T' admits a finite positive-scale family of same-fluid parabolic cylinders with controlled overlap and SCF-smallness.
+
+      \[
+      \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      Equivalently, the same-fluid tail loses every uniform positive SCF-good scale approaching the endpoint.
+
+      The alternatives are complementary for the nonnegative function r good on terminal subtails. If a terminal subtail has a positive lower bound, Alternative A holds. If every terminal subtail has infimum zero, Alternative B holds.
+
+      In Alternative A, choose cylinders with radii in [r *,2r *] at every point of T'. The parabolic Vitali-Besicovitch selection theorem in same-fluid coordinates gives a finite subcover on the retained compact tail, with overlap controlled by dimension and the distortion bound. This is the quantitative terminal cover theorem.
+
+      In Alternative B, there is no terminal subtail carrying a uniform positive SCF-good radius. This is the terminal coherence-loss endpoint face.
+
+      This dichotomy is a compactness/coherence statement for moving parabolic cylinders. It uses no endpoint readout and no pointwise tower recovery.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Square Reserve Evolution.A direct dynamic-reserve attempt}
+
+    Failed direct discharge. The donor reserve is a correct static price for diffuse parentage, but it does not have a closed dissipative evolution law under the currently installed Navier-Stokes packet equations. Differentiating the reserve produces the same positive local source terms that define the source wall. So Square Reserve Evolution.A is not proved independently from Original Smooth Data.
+
+    \[
+    \mathcal R_N(W):=\int_W\sum_{P^-}|A_{P^-}(t)|^2\,dt
+    \]
+
+    \[
+    \sum_P\left|\sum_{P^-\prec P}K(P,P^-)A_{P^-}\right|^2
+    \le C\sum_{P^-}|A_{P^-}|^2+o_N(1).
+    \]
+
+    This prices diffuse parent clouds into the full donor reserve R N. It removes the bounded-parent selector obstruction, but it supplies no time evolution for R N itself.
+
+    \[
+    \frac{d}{dt}|A_{P^-}(t)|^2+c\,D_{P^-}^{sq}(t)
+    \le
+    Source_{P^-}^{sq}(t)+Loss_{P^-}(t).
+    \]
+
+    But A P - is not itself a primary shell energy; it is a source/donor functional extracted from parent packets. In the dyadic model it is in model form a weighted tail or low-high donor factor, for example
+
+    \[
+    A_k(t)\sfcomp{25463} 2^{k/2}\sum_{\ell>k+4}D_\ell(t)
+    \]
+
+    \[
+    A_k(t)\sum_{\ell>k+4}Source_\ell(t).
+    \]
+
+    After localization and positive/ extraction, these are exactly the local positive source terms of Local Positive Source Carleson.A.
+
+    The underlying shell energy has viscous damping. However, the donor factor has the scale-critical form
+
+    The first moment can remain small while the scale-critical reserve remains positive on a short terminal interval.
+
+    Thus Square Reserve Evolution.A is a valid sufficient theorem but not an independent consequence of current inputs.
+
+
+
+    \subsection{Standalone Aact Kx Local Proof}
+
+    Let Q R Phi be one bounded-distortion same-fluid moving cylinder. Assume SCF avg m and ATD m epsilon on the shrunken cylinder, with m at least the route depth required by endpoint readout. Let X R be the averaged affine-subtracted excess, N R the averaged dissipation packet, and A R the averaged affine core. Set
+
+    \[
+    B_R:=1+A_R+V_R+P_R,
+    \]
+
+    where V R contains moving-frame, cutoff, and viscous-commutator coefficients, and P R contains pressure-response coefficients. Let F R contain source, cutoff, pressure-tail, harmonic, frame, and finite-rung forcing remainders.
+
+    \[
+    X_R(t_0)\le\eta_X
+    \]
+
+    \[
+    \left(\eta_X+\int_I F_R\right)
+    \exp\left(\int_I B_R\right)\le 2\eta_X,
+    \]
+
+    \[
+    C_*\left((2\eta_X)^{1/2}+\|V_R\|_{L^1(I)}^{1/3}+\|P_R\|_{L^1(I)}^{2/3}\right)\le c_\nu/2,
+    \]
+
+    \[
+    X_R\in L^\infty(I),\qquad N_R\in L^1(I),\qquad \mathcal K_{\le m}^{avg,R}\in L^1(I).
+    \]
+
+    The moving-frame calculation writes transport through the affine-relative velocity. The frame is chosen to match the center motion and affine part of the selected packet, so those two modes cancel. The remainder satisfies
+
+    Run a first-exit argument on the interval where X R<=2 eta X. The scheduler smallness absorbs the nonlinear dissipation coefficient and gives
+
+    The first-exit threshold is preserved. Integrating the absorbed inequality gives N R in L 1(I). The tower record estimate then gives K <=m avg,R in L 1(I).
+
+
+
+    \subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}
+
+    \[
+    \Gamma_\sharp\le M_\sharp.
+    \]
+
+    where SCF base uses the affine-relative velocity and the CKN-compatible pressure gauge. If epsilon m is chosen below the bounded-frame epsilon-regularity threshold, then there are constants
+
+    \[
+    \theta_m\in(0,1/2),\qquad C_m<\infty,
+    \]
+
+    \[
+    x=c(t)+rA(t)y,
+    \qquad s=(t-t_0)/r^2.
+    \]
+
+    Bounded distortion gives uniformly elliptic metric coefficients and uniformly bounded Jacobian factors. The pulled-back local energy inequality has the standard CKN form plus lower-order frame terms controlled by the same affine-relative residual measured in SCF base.
+
+    The constant gauge has zero spatial derivative, and the affine frame potential cancels the inertial affine force. Thus the pressure term in SCF base is the CKN pressure fluctuation for the normalized equation.
+
+    \[
+    \sup_{Q_{1/2}}|\nabla^k u|+\sup_{Q_{1/2}}|\nabla^{k+1}p|\le C_{m,M_\sharp,\nu}.
+    \]
+
+    \[
+    \sup_{Q_{r/2}^\Phi} r^{k+1}|\nabla^k u|
+    +
+    \sup_{Q_{r/2}^\Phi} r^{k+3}|\nabla^{k+1}p|
+    \le C_{m,M_\sharp,\nu}.
+    \]
+
+    These estimates control every velocity rung U q, every pressure derivative entering K q, and the viscous rungs through depth m+2. The affine moments and residual slots defining ATD m epsilon are finite sums of these normalized derivative bounds. Choosing theta m so that the finite sum of residual slots is at most eta X gives the seed
+
+
+
+    \subsection{Strict-Margin SCF Stability Constants Lemma}
+
+    \[
+    r'=\theta r
+    \]
+
+    Choose theta so that the shrunken cylinder has positive separation from the boundary of Q r Phi(a,t). Bounded chart distortion gives delta ctr small enough that
+
+    \[
+    Q_{\theta r}^\Phi(a',t')\subset Q_r^\Phi(a,t)
+    \]
+
+    \[
+    S_u+S_p+S_\nabla.
+    \]
+
+    The original cylinder has total margin epsilon m/2. Allocate epsilon m/6 to each component. Since the component densities are locally integrable, absolute continuity of the integral gives a smaller delta ctr such that each component changes by at most its allocated margin under the domain perturbation.
+
+    The velocity and pressure normalizers are defined by the fixed CKN-compatible convention. Under radius shrink and small center perturbation, the normalized averages/minimizers vary continuously in the corresponding local L 3 and L 3/2 topologies. This contributes another allocated margin controlled by the same local integrability moduli.
+
+
+
+    \subsection{Surface Audit Of Act Kx Conditional Route Completion Items 1 12 Ofp A}
+
+    Middle block: conditional installed. Same-rung break and lower-rung triangularity carry the proof load.
+
+    Pressure/forcing: conditional installed. Native affine annihilation, annular/quadratic cells, and energy far tail carry the route.
+
+    Moving cutoff/frame: conditional installed. The cutoff sees the affine defect u(x)-u(c j)-A j(x-c j).
+
+    A dedicated audit theorem attempt endpoint was absent from the exposed MCP tool list in this session. Formal mathematical verification is still absent. The separate route-context burden named continuum coherent-sector replacement remains open for the related shared-control-object route.
+
+    The note is suitable as a conditional MCP audit surface. It is unsuitable as a public Clay-solution claim.
+
+
+
+    \subsection{Temporal Integrability Square Source Chain Solver}
+
+    Uniform Temporal Source Integrability.A. Heat Scale Square Source.A. Active Shell Source Normalize.A. Local Positive Source Carleson.A. Backward Source Lower Density.A. Temporal Non Atomic Source.A assembly. no-inflow Zeno assembly.
+
+    \[
+    \int_{-1}^{0}\left(\int F_n^{src,+}(y,s)dy\right)^2ds\le C,
+    \]
+
+    \[
+    \mu_n^{src}(\mathbb R^3\times I)\le C|I|^{1/2}.
+    \]
+
+    Passing to weak limits gives the same bound for * src , so the limiting source measure has no time atoms. Positive terminal-cylinder mass must then occur in s<0; inner regularity gives a fixed earlier slab with positive mass. This is Terminal Source Backward Propagation.A.
+
+    Combining with first-pulse no-incoming support gives the no-inflow Zeno contradiction.
+
+    Current compactness gives finite source mass, an L 1 s level estimate. Finite mass allows terminal time concentration. So temporal integrability with p>1 does not follow directly.
+
+    This target would supply the missing p=2 temporal control. The direct route needs active-shell source normalization on selected terminal windows.
+
+    \[
+    F_j\sfcomp{25737} A^3,
+    \qquad |F_j|^2\sfcomp{25738} A^6.
+    \]
+
+    Original smooth data and preterminal smoothness give data-dependent bounds, while the active terminal estimate needs a scale-normalized bound along moving high-frequency windows. Current records do not supply that normalization.
+
+    Cauchy/Young estimates give active- envelopes. These are exactly the quantities controlled by Scale Critical Tree Carleson.A. Global signed cancellations occur before localization, weights, terminal selection, and positive-part extraction. Pressure/cutoff estimates route legal losses and leave legal interior positive source production.
+
+    Without one of these, Uniform Temporal Source Integrability.A, Temporal Non Atomic Source.A, Terminal Source Backward Propagation.A, and the no-inflow Zeno assembly remain blocked.
+
+    A successful next step must prove a genuinely new nonlinear source-control mechanism on selected terminal active windows, such as signed weighted lifted-remainder cancellation before positive-part extraction, monotone shell-flux dominance, or direct active- Carleson control.
+
+
+
+    \subsection{Temporal Non Atomic Source.A direct attempt}
+
+    \[
+    \mu_*^{src}(\{s=0\})=0.
+    \]
+
+    This would turn positive terminal mass into positive mass on an earlier time slab and would close Terminal Source Backward Propagation.A.
+
+    The compactness input gives locally finite positive Radon measures. Finite mass is insufficient for temporal non-atomicity. A sequence of time densities concentrating on (-1/n,0] has bounded total mass and can converge weakly to a measure supported at s=0.
+
+    \[
+    \|F_n^{src,+}\|_{L_s^p((-1,0);\mathcal M_y)}\le C,
+    \qquad p>1.
+    \]
+
+    \[
+    \mu_n^{src}(\mathbb R^3\times I)\le C|I|^{1-1/p},
+    \]
+
+    Current records supply finite mass / L1 control. They do not supply the displayed p>1 estimate on selected terminal packets. A -source or Carleson estimate would supply it, but that is exactly the open source-control reserve.
+
+
+
+    \subsection{Terminal Cover Dichotomy In Standard PDE Language}
+
+    Let T be a bounded-distortion same-fluid terminal approach tail for a periodic Navier-Stokes solution. For each (a,t) in T, define the good-cylinder radius
+
+    \[
+    r_{\mathrm{good}}(a,t)\ge r_*
+    \qquad ((a,t)\in T').
+    \]
+
+    Equivalently, T' admits a finite positive-scale family of same-fluid parabolic cylinders with controlled overlap and SCF-smallness.
+
+    \[
+    \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    Equivalently, the same-fluid tail loses every uniform positive SCF-good scale approaching the endpoint.
+
+    The alternatives are complementary for the nonnegative function r good on terminal subtails. If a terminal subtail has a positive lower bound, Alternative A holds. If every terminal subtail has infimum zero, Alternative B holds.
+
+    In Alternative A, choose cylinders with radii in [r *,2r *] at every point of T'. The parabolic Vitali-Besicovitch selection theorem in same-fluid coordinates gives a finite subcover on the retained compact tail, with overlap controlled by dimension and the distortion bound. This is the quantitative terminal cover theorem.
+
+    In Alternative B, there is no terminal subtail carrying a uniform positive SCF-good radius. This is the terminal coherence-loss endpoint face.
+
+    This dichotomy is a compactness/coherence statement for moving parabolic cylinders. It uses no endpoint readout and no pointwise tower recovery.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Square Reserve Evolution.A direct dynamic-reserve attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26954
+  line_start: 26954
+  line_end: 26993
+  start_anchor: "\\subsection{Square Reserve Evolution.A direct dynamic-reserve attempt}\n"
+  end_anchor: "\\subsection{Standalone Aact Kx Local Proof}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Square Reserve Evolution.A direct
+    dynamic-reserve attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26954
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Standalone Aact Kx Local Proof
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26994
+  line_start: 26994
+  line_end: 27027
+  start_anchor: "\\subsection{Standalone Aact Kx Local Proof}\n"
+  end_anchor: "\\subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Standalone Aact Kx Local Proof
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26994
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27028
+  line_start: 27028
+  line_end: 27062
+  start_anchor: "\\subsection{Standalone CKN-to-ATD m epsilon Moving-Cylinder Theorem}\n"
+  end_anchor: "\\subsection{Strain-sign cancellation for the weighted lifted remainder
+    - failed discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Standalone CKN-to-ATD m epsilon
+    Moving-Cylinder Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27028
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Strict-Margin SCF Stability Constants Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27197
+  line_start: 27197
+  line_end: 27217
+  start_anchor: "\\subsection{Strict-Margin SCF Stability Constants Lemma}\n"
+  end_anchor: "\\subsection{Surface Audit Of Act Kx Conditional Route Completion Items
+    1 12 Ofp A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Strict-Margin SCF Stability Constants
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27197
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Surface Audit Of Act Kx Conditional Route Completion Items 1 12
+    Ofp A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27218
+  line_start: 27218
+  line_end: 27230
+  start_anchor: "\\subsection{Surface Audit Of Act Kx Conditional Route Completion
+    Items 1 12 Ofp A}\n"
+  end_anchor: "\\subsection{Temporal Integrability Square Source Chain Solver}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Surface Audit Of Act Kx Conditional
+    Route Completion Items 1 12 Ofp A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27218
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Temporal Integrability Square Source Chain Solver
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27231
+  line_start: 27231
+  line_end: 27264
+  start_anchor: "\\subsection{Temporal Integrability Square Source Chain Solver}\n"
+  end_anchor: "\\subsection{Temporal Non Atomic Source.A direct attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Temporal Integrability Square
+    Source Chain Solver as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27231
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Temporal Non Atomic Source.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27265
+  line_start: 27265
+  line_end: 27286
+  start_anchor: "\\subsection{Temporal Non Atomic Source.A direct attempt}\n"
+  end_anchor: "\\subsection{Terminal Cover Dichotomy In Standard PDE Language}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Temporal Non Atomic Source.A
+    direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27265
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Cover Dichotomy In Standard PDE Language
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27287
+  line_start: 27287
+  line_end: 27312
+  start_anchor: "\\subsection{Terminal Cover Dichotomy In Standard PDE Language}\n"
+  end_anchor: "\\subsection{Terminal Good-Cover Compactness Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Cover Dichotomy In Standard
+    PDE Language as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27287
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-45
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-45.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

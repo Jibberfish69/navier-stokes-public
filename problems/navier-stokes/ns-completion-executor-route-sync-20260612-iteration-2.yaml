@@ -1,0 +1,31 @@
+---
+version: 1
+artifact_id: ns-completion-executor-route-sync-2026-06-12
+status: terminal-blocked-sync
+date: '2026-06-12'
+iteration_index: 2
+consumed_work_node_ids:
+- ns-route-graph-app-sync
+input_refs:
+- problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260612.md
+- problems/navier-stokes/theorem-construction/ns-completion-executor-proof-frontier-20260612.md
+- problems/navier-stokes/ns-completion-executor-route-sync-20260612.yaml
+- problems/navier-stokes/ns-completion-route-sync-payload-20260612.yaml
+- system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-executor-proof-scaffold-20260612.md
+- problems/navier-stokes/submission-bundle/ns-completion-executor-submission-boundary-20260612.yaml
+- problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612.yaml
+- problems/navier-stokes/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-verdict.yaml
+- problems/navier-stokes/submission-bundle/submission-export-status.yaml
+route_sync:
+  proof_frontier_ref: problems/navier-stokes/theorem-construction/ns-completion-executor-proof-blocker-20260612-iteration-2.md
+  graph_target: clay-cm-contrapositive-witness-consumption
+  viewer_mcp_target: Expose the CM contrapositive proof frontier and the next Pack/Part/Field
+    face decision.
+  state_delta: re-entered proof blocker into route/app/MCP sync; route remains open
+    until the named CM face changes
+reentry_refs:
+- problems/navier-stokes/current-route-dependency-graph.yaml
+- system/gui/navier-stokes-repo-viewer/src/nsAnalysis.ts
+- system/runner/lib/research_os_live_state_support.rb

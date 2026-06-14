@@ -177,11 +177,11 @@ Find a theorem-level comparison of the form
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim
+\le C_{B2}
 \mathcal C_N^\sigma(t)
 \quad\text{or}\quad
 \Pi_N^{mid,far,L}(t)
-\lesssim
+\le C_{B2}'
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2,
 ```
 

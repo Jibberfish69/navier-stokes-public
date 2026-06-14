@@ -61,7 +61,7 @@ The dangerous paraproduct component of the shell flux has the form:
 
 ```math
 N_j^{lh}
-\sim
+:=
 \int \langle S_{<j}^{loc}u_j,u_j\rangle\,dx,
 \tag{RFC.2}
 ```
@@ -76,11 +76,11 @@ S_{<j}^{loc}
 
 is the low/intermediate strain acting on the active high shell.
 
-Differentiating in viscosity gives:
+Differentiating in viscosity gives the principal differentiated term:
 
 ```math
-\partial_\nu N_j^{lh}
-\sim
+(\partial_\nu N_j^{lh})^{prin}
+:=
 \int \langle ZS_{<j}^{loc}u_j,u_j\rangle\,dx
 +2\int \langle S_{<j}^{loc}u_j,z_j\rangle\,dx,
 \tag{RFC.3}

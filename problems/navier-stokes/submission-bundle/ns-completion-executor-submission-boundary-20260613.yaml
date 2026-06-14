@@ -1,0 +1,39 @@
+---
+version: 1
+artifact_id: ns-completion-executor-submission-boundary-2026-06-13
+status: blocked
+date: '2026-06-13'
+iteration_index: 1
+consumed_work_node_ids:
+- ns-submission-readiness
+input_refs: []
+submission_ready: false
+pdf_tracks_rendered: true
+pdf_render_status:
+  status: rendered
+  rendered: true
+  tracks:
+    human_app_aligned:
+      path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      present: true
+      sha1: 9d3abe34705e184cec50c4d89a7b8891e3ca36aa
+      bytes: 4093564
+      manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+      required_for_clay_submission: true
+    codex_machine_paper:
+      path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+      present: true
+      sha1: 605679714cf2060c0621de73ba3c1c64b1465934
+      bytes: 532063
+      manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
+      required_for_clay_submission: true
+  preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+boundary_reason: changed executor outputs exist, but proof closure and reader-facing
+  manuscript proof are still open
+may_advance_when:
+- the proof lane lands the CM obstruction in Pack, Part, or Field or closes it by
+  legitimate scope rejection
+- the manuscript lane converts earned proof movement into human-facing proof prose
+- the route graph, app, and MCP readout agree with the proof and manuscript state
+state_delta: changed submission boundary by tying readiness to executor proof/manuscript
+  evidence

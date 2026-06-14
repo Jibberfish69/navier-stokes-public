@@ -34,7 +34,7 @@ shared_alignment:
       - problems/navier-stokes/theorem-packet.yaml
       - problems/navier-stokes/theorem-repair.yaml
       - problems/navier-stokes/dependency-discharge.yaml
-      installed_root_group_id: clay-cm-contrapositive-witness-consumption
+      installed_root_group_id: terminal-time-face-new-production-gold-obstruction
       proof_mode_must_be_selected: true
     target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
     target_preflight: &2
@@ -261,43 +261,48 @@ shared_alignment:
       current_role: infrastructure repair; not mathematical progress unless it materializes
         theorem work
     open_root_group: &5
-      group_id: clay-cm-contrapositive-witness-consumption
-      group_label: Installed Clay CM terminal-witness consumption authority; older
-        source-wall-root-after-reconcile material is historical/support topology.
+      group_id: terminal-time-face-new-production-gold-obstruction
+      group_label: Terminal time-face new-production frontier after the annular residual
+        specific case exhaustion.
       live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-      top_level_release_blocker: false
+      top_level_release_blocker: true
       not_single_path: true
       not_single_proof_mode: true
-      dashboard_boundary: This group is retained as historical/support topology only
-        under the current direct-live clearance. It must not be counted or narrated
-        as one current release blocker, one path, one method, one wall, or the whole
-        NS target topology.
+      dashboard_boundary: The installed Clay terminal-witness CM chain remains the
+        proof grammar, but release is blocked at the current gold-side child. The
+        specific pulling-teeth annular residual case is exhausted in proof-program
+        order; the stronger terminal time-face anti-atom / BASAC new-production theorem
+        is still open. This must be narrated as the current theorem-work frontier,
+        not as full-MPP closure and not as a vague annular or Pack-survival slogan.
       exact_live_theorem_grade_burden: &1
-        status: contrapositive-witness-consumption-installed
-        burden_id: clay-cm-contrapositive-witness-consumption
-        proof_mode: cm_contrapositive_class_exit
-        target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-          / ClayCMContrapositiveEmbedding.A
-        theorem_grade_statement: Start with the alleged finite-time Clay terminal
-          witness from the same original smooth Navier-Stokes datum. Force that witness
-          into the same-fluid canonical CM terminal packet tree, exhaust its finite
-          failure type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
-          and read that first failed service as Exit(Q):=not Member(Q) inside the
-          CM contrapositive program.
-        active_container: clay-cm-contrapositive-witness-consumption
-        respawn_cell:
-        respawn_stage:
-        allowed_input_boundary: The proof may use installed genuine-exit capture,
-          canonical terminal packet capture, terminal source-residue CM-exit sorting,
-          and finite failure witness capture. Older positive packet-survival/no-exit
-          labels, bare positive-supplier deletion theorems, B_ASAC reverse-Holder
-          production, PCTP/no-pulse supplier targets, and endpoint readout consequences,
-          plus every surface indexed in the forward-positive quarantine ledger, stay
-          separate or quarantined as support unless the user explicitly switches to
-          a positive packet-survival proof.
-        nearest_wrong_substitution: Recasting the CM contrapositive target as a positive
-          packet-survival/no-exit theorem, a bare positive-supplier deletion theorem,
-          or a demand to prove that the Pack/Part/Field packet never exits.
+        status: branch-paid-annular-silver-gold-new-production-open
+        burden_id: terminal-time-face-new-production-gold-obstruction
+        proof_mode: source_wall_supplier
+        target_object: TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
+        theorem_grade_statement: Gold has been tried first and audited to the exact
+          terminal time-face pulse obstruction. A closure proof must produce terminal
+          time-thickness, super-L1 source integrability, a scale-critical source charge,
+          transported no-incoming-flux control strong enough for terminal strips,
+          or production of a rigid no-atom BASAC subclass. The silver CM split applies
+          only after the surviving terminal residual object is admitted as a same-solution
+          CM witness; for the admitted annular residual witness, carrier/selection
+          is already paid and a finite nonsmooth branch exits through Part or Field.
+        active_container: terminal-time-face-new-production-gold-obstruction
+        respawn_cell: theorem-work
+        respawn_stage: terminal-time-face-new-production-gold-obstruction
+        allowed_input_boundary: The proof may use the installed residual refill ledger,
+          exact annular pulse obstruction, terminal source first-appearance countertest,
+          native source anti-atom audit, transported no-incoming/no-flux audit, and
+          rigid BASAC Liouville/production split. The installed CM terminal-witness
+          grammar stays available for admitted witnesses, but support diagnostics
+          may not be promoted unless they supply the gold anti-atom/new-production
+          theorem or a same-solution CM admission plus a concrete Pack/Part/Field
+          face failure.
+        nearest_wrong_substitution: Recasting the accounted specific annular case
+          as full Navier-Stokes closure; treating first-exit Pack-survival as a vague
+          slogan instead of the terminal time-face/new-production child; or spending
+          a private annular diagnostic as silver without same-solution admission,
+          positive-radius carrier, and continuation readout.
       cm_exit_discipline: A theorem surface is live for the CM program only when it
         is generated by negating the installed continuation packet, or when a checked
         bridge lands it in a typed Pack, Part, or Field obligation. The H^s readout
@@ -529,11 +534,13 @@ shared_alignment:
           target
     exact_live_theorem_grade_burden: *1
     release_or_respawn_consequence: &6
-      disposition: submission-candidate
-      next_cell_type: submission
-      next_stage: full-mpp-closure-submission-candidate
-      next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-        wrappers aligned with the full CM contrapositive closure state.
+      disposition: blocked
+      next_cell_type: theorem-work
+      next_stage: terminal-time-face-new-production-gold-obstruction
+      next_action: Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
+        or replace it with a noncircular finite-breakdown exclusion that lands every
+        admitted surviving terminal residual object through Member(Q) or a concrete
+        Pack/Part/Field face failure.
     forward_positive_surface_quarantine: &7
       status: active-global-demotion
       index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -631,35 +638,35 @@ shared_alignment:
         has already failed, or verification cannot be repaired internally.
   live_theorem_edge:
     route_id: live-authority-edge-navier-stokes
-    route_label: clay-cm-contrapositive-witness-consumption
-    current_route_name: clay-cm-contrapositive-witness-consumption
-    exact_cut_summary: 'The active CM route is the pass-or-exit proof engine: follow
-      the ordinary positive proof program until a real obstruction is reached, read
-      the pass branch as the in-class Member(Q) continuation branch, and read the
-      fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete
-      Pack/Part/Field face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
-      and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older
-      positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink,
-      source-wall, and positive-supplier presentations are support or historical diagnostics
-      until they pass the same CM-necessity test.'
+    route_label: terminal-time-face-new-production-gold-obstruction
+    current_route_name: terminal-time-face-new-production-gold-obstruction
+    exact_cut_summary: 'The active frontier is the gold terminal time-face/new-production
+      child after the specific annular residual case has been accounted. The silver
+      CM route remains the pass-or-exit proof engine: after a surviving residual object
+      is admitted as a same-solution CM witness, retained Member(Q) readout is the
+      pass branch and a finite nonsmooth admitted branch must land in Pack, Part,
+      or Field. Older positive packet-survival/no-exit, source-reserve, signed-pair,
+      no-free-sink, source-wall, and positive-supplier presentations are support or
+      historical diagnostics unless they prove the terminal anti-atom/new-production
+      child or pass the same CM admission and face-landing test.'
     paper_treatment: '["problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md",
       "problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
       "problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md"]'
-    safe_claim_boundary: 'The active CM route is the pass-or-exit proof engine: follow
-      the ordinary positive proof program until a real obstruction is reached, read
-      the pass branch as the in-class Member(Q) continuation branch, and read the
-      fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete
-      Pack/Part/Field face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
-      and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older
-      positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink,
-      source-wall, and positive-supplier presentations are support or historical diagnostics
-      until they pass the same CM-necessity test.'
+    safe_claim_boundary: 'The active frontier is the gold terminal time-face/new-production
+      child after the specific annular residual case has been accounted. The silver
+      CM route remains the pass-or-exit proof engine: after a surviving residual object
+      is admitted as a same-solution CM witness, retained Member(Q) readout is the
+      pass branch and a finite nonsmooth admitted branch must land in Pack, Part,
+      or Field. Older positive packet-survival/no-exit, source-reserve, signed-pair,
+      no-free-sink, source-wall, and positive-supplier presentations are support or
+      historical diagnostics unless they prove the terminal anti-atom/new-production
+      child or pass the same CM admission and face-landing test.'
     source_excerpt: |-
-      The active CM route is the pass-or-exit proof engine: follow the ordinary positive proof program until a real obstruction is reached, read the pass branch as the in-class Member(Q) continuation branch, and read the fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics until they pass the same CM-necessity test.
-      clay-cm-contrapositive-witness-consumption
+      The active frontier is the gold terminal time-face/new-production child after the specific annular residual case has been accounted. The silver CM route remains the pass-or-exit proof engine: after a surviving residual object is admitted as a same-solution CM witness, retained Member(Q) readout is the pass branch and a finite nonsmooth admitted branch must land in Pack, Part, or Field. Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics unless they prove the terminal anti-atom/new-production child or pass the same CM admission and face-landing test.
+      terminal-time-face-new-production-gold-obstruction
   promoted_obligation_count: 8
   missing_promoted_obligation_count: 8
   missing_promoted_obligations:
@@ -739,12 +746,12 @@ shared_alignment:
     route_slot_labels: []
   alignment_reroute: route-synthesis
 local_derivation:
-  status: contrapositive-witness-consumption-installed
+  status: branch-paid-annular-silver-gold-new-production-open
   required_packet_count: 0
   required_packets: []
   leadership_status: aligned
   net_new_local_theorem_count: 8
-  recommended_next_cell_type: submission
+  recommended_next_cell_type: theorem-work
 cross_lane_broadcast:
   status: no-broadcast-needed
   local_consequence_count: 0
@@ -756,10 +763,10 @@ cross_lane_broadcast:
   - problems/navier-stokes/dependency-discharge.yaml
   - problems/navier-stokes/object-formalization.yaml
 auditor:
-  status: ready
-  audit_status: direct-live-cm-authority-cleared
-  branch_terminal_status: contrapositive-witness-consumption-installed
-  open_issue_count: 0
+  status: blocked-theorem-open
+  audit_status: branch-paid-annular-silver-gold-new-production-open
+  branch_terminal_status: branch-paid-annular-silver-gold-new-production-open
+  open_issue_count: 1
   autofixable_issue_count: 0
   fix_plan_count: 0
   branch_count: 0
@@ -768,12 +775,12 @@ auditor:
   death_certificate_count: 0
   unresolved_branch_terminal_count: 0
 frontier_projection:
-  status: cleared
+  status: frontier-open
   primary_target:
-    obligation_id: clay-cm-contrapositive-witness-consumption
+    obligation_id: terminal-time-face-new-production-gold-obstruction
     kind: direct-live-authority
-    label: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-    status: contrapositive-witness-consumption-installed
+    label: TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
+    status: branch-paid-annular-silver-gold-new-production-open
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
     exact_live_theorem_grade_burden: *1
   one_step_beyond: []
@@ -786,7 +793,7 @@ frontier_projection:
       the exact Route A'
   - headline: Research OS Theorem Packet
     requested_frontier: 'NC Route A: theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md'
-  recommended_next_cell_type: submission
+  recommended_next_cell_type: theorem-work
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: *2
   target_lock_schema: *3
@@ -799,31 +806,31 @@ frontier_projection:
   authority_hierarchy: *9
   mode_selection_protocol: *10
 summary:
-  phase: submission-candidate
-  execution_state: submission-candidate
+  phase: theorem-work
+  execution_state: blocked-theorem-open
   leadership_status: aligned
-  alignment_complete: true
+  alignment_complete: false
   theorem_authority_gate_all_discharged: true
   authority_gate_mode: direct-live-surfaces
-  authority_gate_blocking_count: 0
-  proof_assembly_open_obligation_count: 0
+  authority_gate_blocking_count: 1
+  proof_assembly_open_obligation_count: 1
   authoritative_source_gap_count: 0
   export_readiness_hold_state: none
   exact_local_packet_count: 0
   net_new_local_theorem_count: 8
   projected_frontier_count: 0
-  current_open_obligation_count: 0
-  open_obligations_state: cleared
-  theorem_work_blocked: false
+  current_open_obligation_count: 1
+  open_obligations_state: frontier-open
+  theorem_work_blocked: true
   blocked_queue_interpretation: none
   on_recommended_track: true
-  recommended_next_cell_type: submission
-  audit_status: direct-live-cm-authority-cleared
-  branch_terminal_status: contrapositive-witness-consumption-installed
-  unresolved_branch_terminal_count: 0
-  current_next_cell_type: submission
-  current_next_cell_is_theorem_work: false
-  direct_live_authority_all_discharged: true
+  recommended_next_cell_type: theorem-work
+  audit_status: branch-paid-annular-silver-gold-new-production-open
+  branch_terminal_status: branch-paid-annular-silver-gold-new-production-open
+  unresolved_branch_terminal_count: 1
+  current_next_cell_type: theorem-work
+  current_next_cell_is_theorem_work: true
+  direct_live_authority_all_discharged: false
   one_frontier_count_is_not_one_path: true
   open_root_diagnostic_presentation_count: 10
   target_operating_contract_id: ns-target-operating-contract-v1

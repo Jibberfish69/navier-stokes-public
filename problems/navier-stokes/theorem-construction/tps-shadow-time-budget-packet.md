@@ -125,7 +125,8 @@ Then
 
 ```math
 \int_{\mathcal C_j}\Theta_J(a)\,d\mu_j(a)
-\lesssim
+\le
+C_\Theta
 \mathfrak O_J(\sigma_J)\,\mu_j(\mathcal C_j).
 \tag{ST.4b}
 ```
@@ -212,7 +213,7 @@ and
 \big|
 \langle U_j(t)\phi_a,U_j(t)\phi_b\rangle
 \big|
-\lesssim_N R_J^{-N}
+\le C_N R_J^{-N}
 \qquad
 \text{whenever }d_g(z_a(t),z_b(t))\ge R_J.
 \tag{ST.10}
@@ -400,7 +401,8 @@ Then outside the shadow tube `|X(a,t)-X(b,t)|\le \sigma_J`,
 \big|
 \langle U_J(t)\phi_a,U_J(t)\phi_b\rangle
 \big|
-\lesssim_N
+\le
+C_N
 \big(1+2^{J/2}\sigma_J\big)^{-N}
 +
 \mathrm{collar}_J.
@@ -411,7 +413,8 @@ Consequently,
 
 ```math
 \overline{\Gamma}_J
-\lesssim
+\le
+C_\Gamma
 \mathfrak O_J(\sigma_J)
 +
 \big(1+2^{J/2}\sigma_J\big)^{-N}
@@ -426,7 +429,7 @@ In particular, if `\mathfrak O_J(\sigma_J)\to 0`, then `(ST.17c)` implies
 ### Proof
 
 If `|X(a,t)-X(b,t)|>\sigma_J`, then `(ST.17a)` and `(ST.17c)` give
-`d_g(z_a(t),z_b(t))\gtrsim 2^{J/2}\sigma_J`, so `(ST.17b)` yields `(ST.17d)`.
+`d_g(z_a(t),z_b(t))\ge c_g2^{J/2}\sigma_J`, so `(ST.17b)` yields `(ST.17d)`.
 Inside the shadow tube use the trivial bound by `1`. Averaging over pair-time
 gives `(ST.17e)`.
 
@@ -599,7 +602,7 @@ t\in[0,T_J]:
 \le
 \tau_J,
 \qquad
-\tau_J\lesssim \frac{N_J}{\lambda_J},
+\tau_J\le C_\tau \frac{N_J}{\lambda_J},
 \tag{CS.8}
 ```
 
@@ -646,7 +649,8 @@ Hence the time needed to cross the interval
 |I|
 \le
 \frac{2\widetilde\sigma_J-\widetilde\sigma_J}{\tfrac12 c_0\lambda_J\sigma_J}
-\lesssim
+\le
+C_I
 \frac{1}{\lambda_J},
 \tag{CS.13}
 ```
@@ -661,7 +665,8 @@ There are at most `N_J` such components by `(CS.5)`, so
 t:\Phi_J(t;a,b)\le \widetilde\sigma_J
 \big\}
 \Big|
-\lesssim
+\le
+C_T
 \frac{N_J}{\lambda_J}.
 \tag{CS.14}
 ```
@@ -1154,7 +1159,8 @@ Assume also packet overlap decay away from the shadow tube:
 \big|
 \langle U_J(t)\phi_a,U_J(t)\phi_b\rangle
 \big|
-\lesssim_N
+\le
+C_N
 \big(1+2^{J/2}\sigma_J\big)^{-N}
 +\mathrm{collar}_J.
 \tag{CA.11}
@@ -1164,7 +1170,8 @@ Then
 
 ```math
 \overline{\Gamma}_J
-\lesssim
+\le
+C_\Gamma
 \mathfrak O_J(\sigma_J)
 +
 \big(1+2^{J/2}\sigma_J\big)^{-N}
@@ -1202,7 +1209,8 @@ Then
 
 ```math
 \int \Theta_J(a)\,d\mu_j(a)
-\lesssim
+\le
+C_\Theta
 \mathfrak O_J(\sigma_J)\,\mu_j(\mathcal C_j).
 \tag{CA.15}
 ```

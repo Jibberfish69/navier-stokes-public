@@ -1,0 +1,872 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-25
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-25
+  sequence: 177
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 25
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 17413
+  line_end: 18133
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17413
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17693
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17771
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17896
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17937
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17976
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18062
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18100
+  subsection_titles:
+  - Endpoint, Origin-Retain, And route-Boundary Completion Note
+  - Enlarged SCF charge with E u - upper-bound obstruction
+  - 'E u conversion: conditional route and obstruction'
+  - Exact Attempts On Terminal SG4 TPS Premises
+  - Exact Branch Boundary
+  - Exact Same-Depth Source Branch Attempt
+  - Exterior Decay Propagation Via Weighted Energy Inequality
+  - Exterior Energy Tightness From Weighted Moment Propagation
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint, Origin-Retain, And route-Boundary Completion Note
+    line_start: 17413
+    line_end: 17445
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17413
+    start_anchor: "\\subsection{Endpoint, Origin-Retain, And route-Boundary Completion
+      Note}\n"
+    end_anchor: "\\subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Endpoint, Origin-Retain, And route-Boundary Completion Note}
+
+      \[
+      Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2),
+      \]
+
+      \[
+      \sup_{t\in I}\sup_{B(c_i(t),R_i/2)}\sum_{k=0}^{N}|U_k|<\infty.
+      \]
+
+      \[
+      K_k=-\nabla^{k+1}p+\nu\Delta U_k.
+      \]
+
+      \[
+      \sup_{B(c_i(t),R_i/2)}|\nabla^{k+1}p|
+      \le
+      C_i\left(1+\mathcal Z_{\mathfrak p_i}^{TC}(t)+\|u_0\|_{L^2}^2\right).
+      \]
+
+      \[
+      \mathfrak A_{N,Q}(t)
+      :=\sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|)
+      \in L^\infty(I).
+      \]
+
+      The same compact classical flow supplies bounded pack gauge. The deformation gradient satisfies
+
+      Endpoint failure at a finite class time is typed through the endpoint grammar. The endpoint package excludes all typed failures, so the retained route upgrades to the original maximal-solution setup at the conditional level.
+
+      This boundary preserves branch typing and prevents averaged data from being used as pointwise data upstream of the readout theorems.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Enlarged SCF charge with E u - upper-bound obstruction
+    line_start: 17693
+    line_end: 17711
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17693
+    start_anchor: "\\subsection{Enlarged SCF charge with E u - upper-bound obstruction}\n"
+    end_anchor: "\\subsection{Entropy Carleson.A test after diffuse-parent failure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Enlarged SCF charge with E u - upper-bound obstruction}
+
+      Repair component selection by enlarging the final branch charge to include the velocity-energy component E u.
+
+      Pack control handles G Phi, and nu SCF handles D u plus local pressure. A threshold SCF packet can still be carried by E u. Adding E u would formally close that component gap.
+
+      The scale-critical velocity-energy packet E u is different. It is a local energy size/readout tied to time slices or local cylinder energy, controlled globally by the energy record and locally by the local energy inequality. The current surfaces do not install an additive terminal Radon measure whose values equal the scale-critical E u packet and whose bounded-overlap sum is finite.
+
+      Global energy gives size control per time. It does not give summability of repeated terminal E u threshold packets over a separated terminal schedule. The local energy inequality supplies balances, yet it does not convert repeated E u thresholds into a finite upper sum without an additional decay, recurrence, or dissipation/pressure conversion theorem.
+
+      The enlarged-charge route is open. Adding E u fixes component selection only at the level of notation. It loses the installed finite upper-carrier theorem.
+
+      for the same separated or bounded-overlap terminal windows used by the lower accumulation route.
+
+      Prematurely enlarging the final charge loses the installed upper-carrier theorem.
+      The current route remains: prove an \(E_u\) to \(D_u/P\) conversion, or install
+      a genuine additive finite upper carrier for \(E_u\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'E u conversion: conditional route and obstruction'
+    line_start: 17771
+    line_end: 17783
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17771
+    start_anchor: "\\subsection{E u conversion: conditional route and obstruction}\n"
+    end_anchor: "\\subsection{\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\)
+      Carrier Obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{E u conversion: conditional route and obstruction}
+
+      The moving-frame local energy inequality is available on pack-stabilized same-fluid cylinders. Its frame terms are controlled by affine-relative velocity, pressure components, and scale-normalized frame records.
+
+      Under BKM or an equivalent high-regularity terminal record, the needed velocity-gradient and local-pressure moduli are available. In that conditional setting, terminal E u threshold packets cannot persist as uncontrolled moving packets.
+
+      A Poincare conversion would need a zero-mode-free or affine-relative E u normalization strong enough to remove local mean or affine energy. That theorem is not installed as an unconditional component-selection rule.
+
+      Adding E u to the charge also remains unavailable, because no additive finite carrier for repeated scale-critical E u terminal packets is installed.
+
+      The E u channel is conditionally controlled under BKM/high regularity and remains open on the original-data route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact Attempts On Terminal SG4 TPS Premises
+    line_start: 17896
+    line_end: 17936
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17896
+    start_anchor: "\\subsection{Exact Attempts On Terminal SG4 TPS Premises}\n"
+    end_anchor: "\\subsection{Exact Branch Boundary}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact Attempts On Terminal SG4 TPS Premises}
+
+      and let gamma J be a shared top-gap floor for both tensors on the retained family. For the corresponding top projectors, Davis-Kahan gives
+
+      \[
+      \delta_J/\gamma_J\to0
+      \Longrightarrow
+      BridgeA.
+      \]
+
+      \[
+      \delta_J/\gamma_J\to0.
+      \]
+
+      Let H J be the reduced cocycle on the transported two-plane. Assume on a positive-mass subfamily
+
+      \[
+      \sigma_2(H_J)/\sigma_1(H_J)\le q<1.
+      \]
+
+      \[
+      \sigma_1(H_J)^2-\sigma_2(H_J)^2
+      \ge
+      (1-q^2)\sigma_1(H_J)^2.
+      \]
+
+      With a positive lower singular-value floor on that subfamily, this gives a positive aligned entrance gap. Hence DG-Line sharp follows.
+
+      The remaining DG-Line proof obligation is positive-mass dominated splitting of H J, including the lower singular-value floor needed to extract a quantitative gap.
+
+      \[
+      \beta_J:=\Lambda_J^{boot}\eta_J^{boot},
+      qquad
+      d\nu_J:=M_J^2d\mu_J.
+      \]
+
+      A second sufficient route is weighted reverse Holder: reverse Holder on the active doubling window gives L 2+epsilon control by Gehring; with weighted bad-set support, the previous argument gives Boot Square.
+
+      The remaining Boot Square proof obligation is one of these sufficient routes, or another proof of the weighted packet.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact Branch Boundary
+    line_start: 17937
+    line_end: 17975
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17937
+    start_anchor: "\\subsection{Exact Branch Boundary}\n"
+    end_anchor: "\\subsection{Exact Same-Depth Source Branch Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact Branch Boundary}
+
+      \[
+      T^3,
+      \qquad
+      f=0,
+      \qquad
+      u>0.
+      \]
+
+      \[
+      u_0^{vel}=u_0\in C^\infty(T^3),
+      \qquad
+      \nabla\cdot u_0=0,
+      \qquad
+      \int_{T^3}u_0\,dx=0.
+      \]
+
+      \[
+      T_* = \infty
+      \]
+
+      This historical periodic theorem branch does not state a whole-space result on R 3. It records the older periodic-only boundary and is not the governing whole-space authority for the present submission. The current R3 CM-facing authority is the June 8 endpoint-consumption chain: after fixed-band exterior-source removal, any surviving exterior high-order object is tested as the same alleged terminal object and lands in Pack, Part, or Field.
+
+      This theorem branch does not state a nonzero-forcing result. A forced branch needs forcing-source estimates and a matching continuation criterion.
+
+      \[
+      u_0^{vel}\in C^\infty(T^3),
+      \quad
+      \nabla\cdot u_0=0,
+      \quad
+      \int_{T^3}u_0=0,
+      \quad
+      f=0
+      \Longrightarrow
+      T_* = \infty.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact Same-Depth Source Branch Attempt
+    line_start: 17976
+    line_end: 17990
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17976
+    start_anchor: "\\subsection{Exact Same-Depth Source Branch Attempt}\n"
+    end_anchor: "\\subsection{Exact SCF Pressure Normalization Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact Same-Depth Source Branch Attempt}
+
+      \[
+      \mathcal N^{src}
+      =
+      \mathcal N^{press}
+      +\mathcal N^{sc}
+      +\mathcal N^{cut}.
+      \]
+
+      The exact pressure channel is not solved by the split itself. The installed pressure reduction identifies the surviving same-depth pressure object as the frozen-net resonant pressure packet. This reduces the exact branch to
+
+      for the single-increment resonant pressure packet, and then to its frozen-net sum over the finite family.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exterior Decay Propagation Via Weighted Energy Inequality
+    line_start: 18062
+    line_end: 18099
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18062
+    start_anchor: "\\subsection{Exterior Decay Propagation Via Weighted Energy Inequality}\n"
+    end_anchor: "\\subsection{Exterior Energy Tightness From Weighted Moment Propagation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exterior Decay Propagation Via Weighted Energy Inequality}
+
+      Show that rapidly decaying initial data preserve enough weighted control to support exhaustion and pressure-tail limits.
+
+      \[
+      w_a(x)=(1+|x|^2)^a,
+      \qquad a>0.
+      \]
+
+      \[
+      \int w_a(x)|u_0(x)|^2dx<\infty.
+      \]
+
+      \[
+      \sup_{t\le T}\int w_a|u(t)|^2dx<\infty.
+      \]
+
+      \[
+      \int_{|x|>R}|u(t)|^2dx\le R^{-2a}\int w_a|u(t)|^2dx,
+      \]
+
+      Multiply Navier-Stokes by w a u and integrate. The divergence-free condition gives
+
+      \[
+      \frac12\frac d{dt}\int w_a|u|^2+
+      u\int w_a|\nabla u|^2
+      \le C\int |\nabla^2 w_a||u|^2
+      +\int |u|^2u\cdot\nabla w_a
+      +2\int p u\cdot\nabla w_a.
+      \]
+
+      The pressure-flux term is integrable by hypothesis. Gronwall yields the weighted moment bound.
+
+      Weighted moment propagation supplies the exterior energy tightness needed by the exhaustion and pressure-tail theorems.
+
+      The active analytic subproblem is the pressure-flux estimate in weighted form. Once that estimate is supplied, exterior decay propagation follows by this weighted energy inequality.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exterior Energy Tightness From Weighted Moment Propagation
+    line_start: 18100
+    line_end: 18133
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18100
+    start_anchor: "\\subsection{Exterior Energy Tightness From Weighted Moment Propagation}\n"
+    end_anchor: "\\subsection{Externalized Proof Vocabulary As Standard PDE Lemmas}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exterior Energy Tightness From Weighted Moment Propagation}
+
+      \[
+      \lim_{R\to\infty}\sup_n\sup_{t\le T}\int_{|x|>R}|u_n(x,t)|^2dx=0.
+      \]
+
+      \[
+      \sup_n\int (1+|x|^2)^a |u_n^0(x)|^2dx <\infty
+      \qquad(a>0),
+      \]
+
+      Let R vanish on B R and equal one outside B 2R . The localized energy identity gives
+
+      \[
+      \frac12\frac d{dt}\int \chi_R |u_n|^2
+      +\nu\int \chi_R |\nabla u_n|^2
+      \le
+      C R^{-2}\int_{R<|x|<2R}|u_n|^2
+      +\int (|u_n|^2+2p_n)u_n\cdot\nabla\chi_R.
+      \]
+
+      The viscous cutoff term is bounded by CR -2 u n 2 2. The convective flux term has size
+
+      \[
+      R^{-1}\int_{R<|x|<2R}|u_n|^3,
+      \]
+
+      \[
+      \int_{|x|>R}|u_n^0|^2dx\le C R^{-2a}.
+      \]
+
+      The result is conditional on weighted/tail propagation. It records the route for converting decay of the approximating data into uniform exterior energy tightness.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Endpoint, Origin-Retain, And route-Boundary Completion Note}
+
+    \[
+    Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2),
+    \]
+
+    \[
+    \sup_{t\in I}\sup_{B(c_i(t),R_i/2)}\sum_{k=0}^{N}|U_k|<\infty.
+    \]
+
+    \[
+    K_k=-\nabla^{k+1}p+\nu\Delta U_k.
+    \]
+
+    \[
+    \sup_{B(c_i(t),R_i/2)}|\nabla^{k+1}p|
+    \le
+    C_i\left(1+\mathcal Z_{\mathfrak p_i}^{TC}(t)+\|u_0\|_{L^2}^2\right).
+    \]
+
+    \[
+    \mathfrak A_{N,Q}(t)
+    :=\sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|)
+    \in L^\infty(I).
+    \]
+
+    The same compact classical flow supplies bounded pack gauge. The deformation gradient satisfies
+
+    Endpoint failure at a finite class time is typed through the endpoint grammar. The endpoint package excludes all typed failures, so the retained route upgrades to the original maximal-solution setup at the conditional level.
+
+    This boundary preserves branch typing and prevents averaged data from being used as pointwise data upstream of the readout theorems.
+
+
+
+    \subsection{Enlarged SCF charge with E u - upper-bound obstruction}
+
+    Repair component selection by enlarging the final branch charge to include the velocity-energy component E u.
+
+    Pack control handles G Phi, and nu SCF handles D u plus local pressure. A threshold SCF packet can still be carried by E u. Adding E u would formally close that component gap.
+
+    The scale-critical velocity-energy packet E u is different. It is a local energy size/readout tied to time slices or local cylinder energy, controlled globally by the energy record and locally by the local energy inequality. The current surfaces do not install an additive terminal Radon measure whose values equal the scale-critical E u packet and whose bounded-overlap sum is finite.
+
+    Global energy gives size control per time. It does not give summability of repeated terminal E u threshold packets over a separated terminal schedule. The local energy inequality supplies balances, yet it does not convert repeated E u thresholds into a finite upper sum without an additional decay, recurrence, or dissipation/pressure conversion theorem.
+
+    The enlarged-charge route is open. Adding E u fixes component selection only at the level of notation. It loses the installed finite upper-carrier theorem.
+
+    for the same separated or bounded-overlap terminal windows used by the lower accumulation route.
+
+    Prematurely enlarging the final charge loses the installed upper-carrier theorem.
+    The current route remains: prove an \(E_u\) to \(D_u/P\) conversion, or install
+    a genuine additive finite upper carrier for \(E_u\).
+
+
+
+    \subsection{E u conversion: conditional route and obstruction}
+
+    The moving-frame local energy inequality is available on pack-stabilized same-fluid cylinders. Its frame terms are controlled by affine-relative velocity, pressure components, and scale-normalized frame records.
+
+    Under BKM or an equivalent high-regularity terminal record, the needed velocity-gradient and local-pressure moduli are available. In that conditional setting, terminal E u threshold packets cannot persist as uncontrolled moving packets.
+
+    A Poincare conversion would need a zero-mode-free or affine-relative E u normalization strong enough to remove local mean or affine energy. That theorem is not installed as an unconditional component-selection rule.
+
+    Adding E u to the charge also remains unavailable, because no additive finite carrier for repeated scale-critical E u terminal packets is installed.
+
+    The E u channel is conditionally controlled under BKM/high regularity and remains open on the original-data route.
+
+
+
+    \subsection{Exact Attempts On Terminal SG4 TPS Premises}
+
+    and let gamma J be a shared top-gap floor for both tensors on the retained family. For the corresponding top projectors, Davis-Kahan gives
+
+    \[
+    \delta_J/\gamma_J\to0
+    \Longrightarrow
+    BridgeA.
+    \]
+
+    \[
+    \delta_J/\gamma_J\to0.
+    \]
+
+    Let H J be the reduced cocycle on the transported two-plane. Assume on a positive-mass subfamily
+
+    \[
+    \sigma_2(H_J)/\sigma_1(H_J)\le q<1.
+    \]
+
+    \[
+    \sigma_1(H_J)^2-\sigma_2(H_J)^2
+    \ge
+    (1-q^2)\sigma_1(H_J)^2.
+    \]
+
+    With a positive lower singular-value floor on that subfamily, this gives a positive aligned entrance gap. Hence DG-Line sharp follows.
+
+    The remaining DG-Line proof obligation is positive-mass dominated splitting of H J, including the lower singular-value floor needed to extract a quantitative gap.
+
+    \[
+    \beta_J:=\Lambda_J^{boot}\eta_J^{boot},
+    qquad
+    d\nu_J:=M_J^2d\mu_J.
+    \]
+
+    A second sufficient route is weighted reverse Holder: reverse Holder on the active doubling window gives L 2+epsilon control by Gehring; with weighted bad-set support, the previous argument gives Boot Square.
+
+    The remaining Boot Square proof obligation is one of these sufficient routes, or another proof of the weighted packet.
+
+
+
+    \subsection{Exact Branch Boundary}
+
+    \[
+    T^3,
+    \qquad
+    f=0,
+    \qquad
+    u>0.
+    \]
+
+    \[
+    u_0^{vel}=u_0\in C^\infty(T^3),
+    \qquad
+    \nabla\cdot u_0=0,
+    \qquad
+    \int_{T^3}u_0\,dx=0.
+    \]
+
+    \[
+    T_* = \infty
+    \]
+
+    This historical periodic theorem branch does not state a whole-space result on R 3. It records the older periodic-only boundary and is not the governing whole-space authority for the present submission. The current R3 CM-facing authority is the June 8 endpoint-consumption chain: after fixed-band exterior-source removal, any surviving exterior high-order object is tested as the same alleged terminal object and lands in Pack, Part, or Field.
+
+    This theorem branch does not state a nonzero-forcing result. A forced branch needs forcing-source estimates and a matching continuation criterion.
+
+    \[
+    u_0^{vel}\in C^\infty(T^3),
+    \quad
+    \nabla\cdot u_0=0,
+    \quad
+    \int_{T^3}u_0=0,
+    \quad
+    f=0
+    \Longrightarrow
+    T_* = \infty.
+    \]
+
+
+
+    \subsection{Exact Same-Depth Source Branch Attempt}
+
+    \[
+    \mathcal N^{src}
+    =
+    \mathcal N^{press}
+    +\mathcal N^{sc}
+    +\mathcal N^{cut}.
+    \]
+
+    The exact pressure channel is not solved by the split itself. The installed pressure reduction identifies the surviving same-depth pressure object as the frozen-net resonant pressure packet. This reduces the exact branch to
+
+    for the single-increment resonant pressure packet, and then to its frozen-net sum over the finite family.
+
+
+
+    \subsection{Exterior Decay Propagation Via Weighted Energy Inequality}
+
+    Show that rapidly decaying initial data preserve enough weighted control to support exhaustion and pressure-tail limits.
+
+    \[
+    w_a(x)=(1+|x|^2)^a,
+    \qquad a>0.
+    \]
+
+    \[
+    \int w_a(x)|u_0(x)|^2dx<\infty.
+    \]
+
+    \[
+    \sup_{t\le T}\int w_a|u(t)|^2dx<\infty.
+    \]
+
+    \[
+    \int_{|x|>R}|u(t)|^2dx\le R^{-2a}\int w_a|u(t)|^2dx,
+    \]
+
+    Multiply Navier-Stokes by w a u and integrate. The divergence-free condition gives
+
+    \[
+    \frac12\frac d{dt}\int w_a|u|^2+
+    u\int w_a|\nabla u|^2
+    \le C\int |\nabla^2 w_a||u|^2
+    +\int |u|^2u\cdot\nabla w_a
+    +2\int p u\cdot\nabla w_a.
+    \]
+
+    The pressure-flux term is integrable by hypothesis. Gronwall yields the weighted moment bound.
+
+    Weighted moment propagation supplies the exterior energy tightness needed by the exhaustion and pressure-tail theorems.
+
+    The active analytic subproblem is the pressure-flux estimate in weighted form. Once that estimate is supplied, exterior decay propagation follows by this weighted energy inequality.
+
+
+
+    \subsection{Exterior Energy Tightness From Weighted Moment Propagation}
+
+    \[
+    \lim_{R\to\infty}\sup_n\sup_{t\le T}\int_{|x|>R}|u_n(x,t)|^2dx=0.
+    \]
+
+    \[
+    \sup_n\int (1+|x|^2)^a |u_n^0(x)|^2dx <\infty
+    \qquad(a>0),
+    \]
+
+    Let R vanish on B R and equal one outside B 2R . The localized energy identity gives
+
+    \[
+    \frac12\frac d{dt}\int \chi_R |u_n|^2
+    +\nu\int \chi_R |\nabla u_n|^2
+    \le
+    C R^{-2}\int_{R<|x|<2R}|u_n|^2
+    +\int (|u_n|^2+2p_n)u_n\cdot\nabla\chi_R.
+    \]
+
+    The viscous cutoff term is bounded by CR -2 u n 2 2. The convective flux term has size
+
+    \[
+    R^{-1}\int_{R<|x|<2R}|u_n|^3,
+    \]
+
+    \[
+    \int_{|x|>R}|u_n^0|^2dx\le C R^{-2a}.
+    \]
+
+    The result is conditional on weighted/tail propagation. It records the route for converting decay of the approximating data into uniform exterior energy tightness.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint, Origin-Retain, And route-Boundary Completion Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17413
+  line_start: 17413
+  line_end: 17445
+  start_anchor: "\\subsection{Endpoint, Origin-Retain, And route-Boundary Completion
+    Note}\n"
+  end_anchor: "\\subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint, Origin-Retain, And
+    route-Boundary Completion Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17413
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Enlarged SCF charge with E u - upper-bound obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17693
+  line_start: 17693
+  line_end: 17711
+  start_anchor: "\\subsection{Enlarged SCF charge with E u - upper-bound obstruction}\n"
+  end_anchor: "\\subsection{Entropy Carleson.A test after diffuse-parent failure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Enlarged SCF charge with E u
+    - upper-bound obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17693
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'E u conversion: conditional route and obstruction'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17771
+  line_start: 17771
+  line_end: 17783
+  start_anchor: "\\subsection{E u conversion: conditional route and obstruction}\n"
+  end_anchor: "\\subsection{\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\)
+    Carrier Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite E u conversion: conditional route
+    and obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17771
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact Attempts On Terminal SG4 TPS Premises
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17896
+  line_start: 17896
+  line_end: 17936
+  start_anchor: "\\subsection{Exact Attempts On Terminal SG4 TPS Premises}\n"
+  end_anchor: "\\subsection{Exact Branch Boundary}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact Attempts On Terminal SG4
+    TPS Premises as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17896
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact Branch Boundary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17937
+  line_start: 17937
+  line_end: 17975
+  start_anchor: "\\subsection{Exact Branch Boundary}\n"
+  end_anchor: "\\subsection{Exact Same-Depth Source Branch Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact Branch Boundary as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17937
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact Same-Depth Source Branch Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17976
+  line_start: 17976
+  line_end: 17990
+  start_anchor: "\\subsection{Exact Same-Depth Source Branch Attempt}\n"
+  end_anchor: "\\subsection{Exact SCF Pressure Normalization Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact Same-Depth Source Branch
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17976
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exterior Decay Propagation Via Weighted Energy Inequality
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18062
+  line_start: 18062
+  line_end: 18099
+  start_anchor: "\\subsection{Exterior Decay Propagation Via Weighted Energy Inequality}\n"
+  end_anchor: "\\subsection{Exterior Energy Tightness From Weighted Moment Propagation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exterior Decay Propagation Via
+    Weighted Energy Inequality as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18062
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exterior Energy Tightness From Weighted Moment Propagation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18100
+  line_start: 18100
+  line_end: 18133
+  start_anchor: "\\subsection{Exterior Energy Tightness From Weighted Moment Propagation}\n"
+  end_anchor: "\\subsection{Externalized Proof Vocabulary As Standard PDE Lemmas}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exterior Energy Tightness From
+    Weighted Moment Propagation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18100
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-25
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-25.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

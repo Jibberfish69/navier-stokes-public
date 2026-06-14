@@ -104,7 +104,8 @@ Assume `k\in[N-M,N+M]`, `j\ge N`, and `|j-\ell|\le C_0`. Then
 
 ```math
 \big|\langle \Delta_j(\Delta_k u\cdot\nabla \Delta_\ell u),\Delta_j u\rangle\big|
-\lesssim
+\le
+C_{prod}
 \|\Delta_k u\|_{L^\infty}\,\|\nabla \Delta_\ell u\|_{L^2}\,\|\Delta_j u\|_{L^2}.
 ```
 
@@ -112,7 +113,8 @@ Summing the finitely many threshold-strip shells and using Bernstein gives
 
 ```math
 \sum_{k=N-M}^{N+M}\|\Delta_k u\|_{L^\infty}
-\lesssim
+\le
+C_B
 \sum_{k=N-M}^{N+M}2^{3k/2}\|\Delta_k u\|_{L^2}
 \le
 C_M\,2^{N/2}K_T
@@ -120,7 +122,7 @@ C_M\,2^{N/2}K_T
 ```
 
 by `(1)`. Since `|j-\ell|\le C_0`,
-`\|\nabla \Delta_\ell u\|_{L^2}\lesssim\|\nabla \Delta_j u\|_{L^2}`, so
+`\|\nabla \Delta_\ell u\|_{L^2}\le C_{coll}\|\nabla \Delta_j u\|_{L^2}`, so
 
 ```math
 \text{Case 1}
@@ -164,7 +166,8 @@ Then
 
 ```math
 \big|\langle \Delta_j(\Delta_\ell u\cdot\nabla \Delta_k u),\Delta_j u\rangle\big|
-\lesssim
+\le
+C_{prod}
 \|\Delta_\ell u\|_{L^2}\,\|\nabla \Delta_k u\|_{L^\infty}\,\|\Delta_j u\|_{L^2}.
 ```
 
@@ -172,7 +175,8 @@ Bernstein gives
 
 ```math
 \|\nabla \Delta_k u\|_{L^\infty}
-\lesssim
+\le
+C_B
 2^{5k/2}\|\Delta_k u\|_{L^2}
 \le
 C_M\,2^{3N/2}K_T
@@ -183,7 +187,8 @@ by `(1)`. Since `j` and `\ell` lie in a fixed collar,
 
 ```math
 \|\Delta_\ell u\|_{L^2}\,\|\Delta_j u\|_{L^2}
-\lesssim
+\le
+C_{coll}
 2^{-2N}
 \big(2^\ell\|\Delta_\ell u\|_{L^2}\big)
 \big(2^j\|\Delta_j u\|_{L^2}\big).
@@ -206,11 +211,12 @@ Now both nonlinear inputs lie in the threshold strip:
 N-M\le k,\ell\le N+M.
 ```
 
-Then only `O_M(1)` output shells `j` occur. Estimate
+Then at most `C_M` output shells `j` occur. Estimate
 
 ```math
 \big|\langle \Delta_j(\Delta_k u\cdot\nabla \Delta_\ell u),\Delta_j u\rangle\big|
-\lesssim
+\le
+C_{prod}
 \|\Delta_k u\|_{L^\infty}\,\|\nabla \Delta_\ell u\|_{L^2}\,\|\Delta_j u\|_{L^2}.
 ```
 
@@ -218,10 +224,11 @@ Bernstein and `(1)` give
 
 ```math
 \|\Delta_k u\|_{L^\infty}\,\|\nabla \Delta_\ell u\|_{L^2}
-\lesssim
+\le
+C_B
 2^{3N/2}\|\Delta_k u\|_{L^2}\cdot 2^N\|\Delta_\ell u\|_{L^2}
 \le
-2^{-N/2}K_T\big(2^\ell\|\Delta_\ell u\|_{L^2}\big).
+C_M\,2^{-N/2}K_T\big(2^\ell\|\Delta_\ell u\|_{L^2}\big).
 ```
 
 Since `j,\ell` are confined to a fixed collar around `N`, another

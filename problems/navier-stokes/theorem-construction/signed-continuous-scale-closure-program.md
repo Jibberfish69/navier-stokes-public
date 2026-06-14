@@ -160,8 +160,9 @@ upper-boundary packet
 \tag{10}
 ```
 
-This packet is supported only in an `O(1)` logarithmic collar near the top
-scale `\ell_N\sim 2^{-N}`. So the correct strategy is:
+This packet is supported only in a fixed logarithmic collar
+`c_{col}\ell_N\le \ell\le C_{col}\ell_N` near the top scale
+`\ell_N:=2^{-N}`. So the correct strategy is:
 
 1. rewrite `\Psi` on that collar using the explicit global formula from Step 1;
 2. identify the contributing operators as a finite family of annular order-zero
@@ -248,7 +249,8 @@ and the far-corona flux carries the explicit kernel
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le
+C_L
 \int_0^{\ell_N}\int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,
 \frac{dr}{r}\,\frac{d\ell}{\ell}.

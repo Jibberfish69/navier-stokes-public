@@ -1,0 +1,1146 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-pressure-and-participation-08
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-08
+  sequence: 61
+  group_id: pressure-and-participation
+  title: Pressure and participation 8
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 40008
+  line_end: 42930
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40008
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40204
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40252
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40301
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41073
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41116
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41225
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42900
+  subsection_titles:
+  - Lci A Fixed Increment Pressure Response Note
+  - Lci A Fixed Radius Pressure Center Ball Note
+  - Lci A Fixed Radius Pressure L2 Supplier Note
+  - Lci A Fixed Radius Pressure Sobolev Supplier Note
+  - Clay problem Local Strain Depletion.A Audit Note
+  - Clay problem Low Response Strain Charge.A Proof Run
+  - Clay problem Low StrainBVCharge.A Direct Attempt
+  - Clay problem Non-Pressure Supplier Entrance Scan After Pressure Exhaustion
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Fixed Increment Pressure Response Note
+    line_start: 40008
+    line_end: 40054
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40008
+    start_anchor: "\\subsection{Lci A Fixed Increment Pressure Response Note}\n"
+    end_anchor: "\\subsection{Lci A Fixed Increment Top Viscous Readout Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Lci A Fixed Increment Pressure Response Note}
+
+      \[
+      \Lambda_{\delta,\rho}^{halo}:=2R_{\delta,\rho}^{halo}.
+      \]
+
+      Fix one increment with | | , halo . Choose a smooth cutoff j pr ( ,t) satisfying
+
+      \[
+      \chi_j^{pr}(\cdot,t)\equiv 1
+      \text{ on }B(c_j(t),2\Lambda_{\delta,\rho}^{halo}),
+      \qquad
+      \operatorname{supp}\chi_j^{pr}(\cdot,t)\subset
+      B(c_j(t),4\Lambda_{\delta,\rho}^{halo}),
+      \]
+
+      \[
+      p_{j,\eta}^{loc}(x,t)
+      :=
+      \mathcal N*
+      \partial_a\partial_b\big(\chi_j^{pr}(\cdot,t)\,u_a u_b(\cdot,t)\big)(x),
+      \]
+
+      \[
+      h_{j,\eta}(x,t):=p(x,t)-p_{j,\eta}^{loc}(x,t).
+      \]
+
+      \[
+      \mathcal S_{N,\eta}^{press,loc,ctr}(t)
+      :=
+      \sup_{1\le j\le J}
+      \left|
+      2\sum_{k=0}^{N}\lambda_k\,
+      \delta_\eta U_k(c_j(t),t)\cdot
+      \delta_\eta\nabla^{k+1}p_{j,\eta}^{loc}(c_j(t),t)
+      \right|,
+      \]
+
+      The derivative-LP bridge note supplies the exact shellwise source localization: strict low-high, strict high-low, and finite-collar resonant packets. So the remaining local pressure debt is not another source-classification problem. It is the fixed-radius elliptic response that turns those localized packets into the pointwise increment at the transported centers.
+
+      So the local FEI pressure wall is no longer an opaque elliptic-response theorem. It is one exact localized increment-source account on the widened transported-center balls.
+
+      So, once the ordinary energy record is imported, the harmonic-tail half of the FEI pressure wall is no longer independent.
+
+      So the genuine new pressure-side object is no longer an increment carrier at all. It is an absolute fixed-radius center-ball oscillation/Holder theorem at radius 5 , halo .
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Fixed Radius Pressure Center Ball Note
+    line_start: 40204
+    line_end: 40251
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40204
+    start_anchor: "\\subsection{Lci A Fixed Radius Pressure Center Ball Note}\n"
+    end_anchor: "\\subsection{Lci A Fixed Radius Pressure L2 Supplier Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Lci A Fixed Radius Pressure Center Ball Note}
+
+      \[
+      \Lambda_{\delta,\rho}^{halo}
+      :=
+      2R_{\delta,\rho}^{halo}.
+      \]
+
+      \[
+      R_{\rho,\delta}^{press}
+      :=
+      5\Lambda_{\delta,\rho}^{halo}.
+      \]
+
+      \[
+      \mathfrak O_{N,\rho,\psi}^{press,5\Lambda}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=0}^{N}
+      \left\|
+      U_q(\cdot,t)-U_q(c_j(t),t)
+      \right\|_{L^\infty(B(c_j(t),R_{\rho,\delta}^{press}))},
+      \]
+
+      \[
+      \mathfrak H_{N,\rho,\psi}^{press,5\Lambda,\alpha}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=0}^{N}
+      \big[
+      U_q(\cdot,t)
+      \big]_{C^{0,\alpha}(B(c_j(t),R_{\rho,\delta}^{press}))}.
+      \]
+
+      \[
+      \mathfrak e_{N,5\Lambda}^{Eul,ctr}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sup_{|\eta|\le 5\Lambda_{\delta,\rho}^{halo}}
+      \sum_{q=0}^{N}\lambda_q
+      \big|\delta_\eta U_q(c_j(t),t)\big|^2.
+      \]
+
+      So the oscillation half is already an adjacent FEI-export problem. The genuine fixed-ball pressure theorem left on the direct route is the Holder side.
+
+      Fix j, q, and t. Because c j(t) P , (t) and the ball radius is 5 , halo , one has
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Fixed Radius Pressure L2 Supplier Note
+    line_start: 40252
+    line_end: 40300
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40252
+    start_anchor: "\\subsection{Lci A Fixed Radius Pressure L2 Supplier Note}\n"
+    end_anchor: "\\subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Lci A Fixed Radius Pressure L2 Supplier Note}
+
+      \[
+      R_{\rho,\delta}^{press}
+      :=
+      5\Lambda_{\delta,\rho}^{halo}.
+      \]
+
+      \[
+      \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=1}^{N+1}
+      \sum_{\beta=0}^{1}
+      \left\|
+      \nabla^\beta U_q(\cdot,t)
+      \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+      \]
+
+      \[
+      \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=1}^{N+2}
+      \left\|
+      U_q(\cdot,t)
+      \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+      \]
+
+      This packet is still localized to the same fixed 5 balls. It trades one derivative for one rung, rather than widening to the collar theorem.
+
+      \[
+      \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+      \le
+      C_N\,
+      \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}(t).
+      \]
+
+      \[
+      \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}\in L^1(I),
+      \]
+
+      for a fixed finite family of universal contraction operators C ,q ; for =0 this is the identity. so on every fixed ball B(c j(t),R , press ),
+
+      So the fixed-ball pressure sufficient route already admits a still-local zero-derivative packet one rung higher.
+
+      This is only a comparison fact. It explains why the widened collar route is sufficient, but it does not make that wider route the sharp theorem-facing object.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Fixed Radius Pressure Sobolev Supplier Note
+    line_start: 40301
+    line_end: 40346
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40301
+    start_anchor: "\\subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}\n"
+    end_anchor: "\\subsection{Lci A Fixed Radius Top Rung L2 Supplier Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}
+
+      \[
+      R_{\rho,\delta}^{press}
+      :=
+      5\Lambda_{\delta,\rho}^{halo}.
+      \]
+
+      \[
+      \mathcal B_{N,\rho,\psi}^{press,5\Lambda,sob}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=0}^{N}
+      \sum_{\beta=1}^{2}
+      \left\|
+      \nabla^\beta U_q(\cdot,t)
+      \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+      \]
+
+      \[
+      \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+      :=
+      \sup_{1\le j\le J}
+      \sum_{q=1}^{N+1}
+      \sum_{\beta=0}^{1}
+      \left\|
+      \nabla^\beta U_q(\cdot,t)
+      \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+      \]
+
+      This packet is still localized to the same fixed 5 balls. It uses the next-rung family U 1, ,U N+1 with one derivative less, rather than the older wider collar packet.
+
+      \[
+      \mathcal B_{N,\rho,\psi}^{press,5\Lambda,sob}(t)
+      \le
+      C_N\,
+      \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t).
+      \]
+
+      \[
+      \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}\in L^1(I),
+      \]
+
+      This is only a comparison fact. It explains why the widened collar route is sufficient, but it does not make that wider route the sharp theorem-facing object.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Local Strain Depletion.A Audit Note
+    line_start: 41073
+    line_end: 41115
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41073
+    start_anchor: "\\subsection{Clay problem Local Strain Depletion.A Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Low Response Strain Charge.A Proof Run}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Local Strain Depletion.A Audit Note}
+
+      This would prove Local Source.No Pulse.A by showing that the positive part of the same-fluid active local source vanishes on terminal bad windows.
+
+      \[
+      \mathfrak G_N^{lift,\sigma}
+      =
+      \sum W_{j,k,\ell}^{\sigma}\mathcal R_{j,k,\ell}^{lift},
+      \]
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      \sfcomp{39614}
+      2^{2j}
+      \left\langle
+      \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u
+      \right\rangle.
+      \]
+
+      The signed route asks for cancellation of the full signed sum. The local depletion target is harder in the relevant direction: it asks for smallness of the positive part on the same bad active windows that define the no-pulse branch.
+
+      \[
+      \int G\ \text{small}
+      \quad\not\Longrightarrow\quad
+      \int G_+\ \text{small}.
+      \]
+
+      The principal strain form is sign-indefinite. If an active shell packet is aligned with an expanding eigendirection of the symmetric low/intermediate strain, then
+
+      \[
+      \left\langle
+      \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u
+      \right\rangle
+      >0
+      \]
+
+      so the local positive part can concentrate exactly on Bad N( ). This is not ruled out by energy inequality, incompressibility, pressure projection, or the unweighted shell-exchange antisymmetry.
+
+      The pressure Poisson law enforces incompressibility and redistributes the trace part of the nonlinearity. It does not make the local strain-production term nonpositive. The pressure-strain attempt already isolates the missing theorem: one would need a structural depletion law tied to the active packet, not merely the pressure equation.
+
+      Local Strain Depletion.A is not solved by the existing signed weighted commutator material. It is a genuine positive-part depletion theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Low Response Strain Charge.A Proof Run
+    line_start: 41116
+    line_end: 41166
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41116
+    start_anchor: "\\subsection{Clay problem Low Response Strain Charge.A Proof Run}\n"
+    end_anchor: "\\subsection{Clay problem Lower-Carrier Interval-Integrability Theorem
+      Program}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Low Response Strain Charge.A Proof Run}
+
+      \[
+      \int\langle ZS_{<j}^{loc}u_j,u_j\rangle,
+      \]
+
+      \[
+      ZS_{<j}^{loc}
+      =
+      \frac12(\nabla z_{<j}^{loc}+(\nabla z_{<j}^{loc})^T),
+      \qquad
+      z=\partial_\nu u.
+      \]
+
+      \[
+      \int_W\sup_{k>N}
+      2^k\sum_{\ell>k+4}
+      1_{\{R_\ell>0\}}
+      \left[
+      \int\langle ZS_{<\ell}^{loc}u_\ell,u_\ell\rangle
+      \right]_+dt
+      \le
+      LegalResponseCharge_N(W)+o_N(1).
+      \]
+
+      \[
+      \int_W\|\nabla z(t)\|_{L^\infty}\,dt
+      \le
+      M_z(W)<\infty.
+      \]
+
+      \[
+      \boxed{
+      \int_W\sup_{k>N}
+      2^k\sum_{\ell>k+4}
+      \left|
+      \int\langle ZS_{<\ell}^{loc}u_\ell,u_\ell\rangle
+      \right|dt
+      \le
+      M_z(W)
+      \int_W\sum_{\ell>N}2^{-\ell}D_\ell(t)\,dt.
+      }
+      \]
+
+      But those are exactly high-regularity NS bounds near the candidate boundary. Using them unconditionally would import what the no-fold theorem must prove.
+
+      The useful reduction is that the low-response-strain term is not a new native source wall. It vanishes under any finite response low-norm control because the height weight hits E l, not D l, and gains the factor 2 -l .
+
+      That should be merged with the signed response-height packet, not tracked as a separate source-wall primitive.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Low StrainBVCharge.A Direct Attempt
+    line_start: 41225
+    line_end: 41279
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41225
+    start_anchor: "\\subsection{Clay problem Low StrainBVCharge.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Local Positive Source Carleson / PRD selected
+      same-fluid terminal-family attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Low StrainBVCharge.A Direct Attempt}
+
+      \[
+      \tau_P\sfcomp{39757}(\nu2^{2j_P})^{-1},
+      \]
+
+      \[
+      \sigma_P(t)
+      :=
+      n_P(t)\cdot S^{loc}_{<j_P}(X_P(t),t)n_P(t),
+      \]
+
+      \[
+      \boxed{
+      \sum_{P\in F_N(W)}
+      \omega_P E_P\tau_P\,\mathrm{Var}_{I_P}(\sigma_P)
+      \le
+      C\mathcal P_{N,Q}^{part}(W)
+      +C\mathcal L_{N,Q}^{field}(W)
+      +C\mathcal Z_{N,Q}^{atom}(W)
+      +o_N(1).
+      }
+      \]
+
+      The point of this target is to price the only loophole left by net Pack control: fast alternation of the sampled expanding low-strain direction.
+
+      Along the same-fluid packet path, write D t=partial t+u . Ignoring cutoff commutators for one line,
+
+      \[
+      S^{loc}_{<j}
+      =
+      S^{far}_{j,L}+S^{near}_{j,L},
+      \]
+
+      \[
+      S^{far}_{j,L}:=\sum_{m\le j-L}S_m^{loc},
+      \qquad
+      S^{near}_{j,L}:=\sum_{j-L<m<j}S_m^{loc}.
+      \]
+
+      The far-low term has a genuine parabolic scale-separation gain. The near band does not; it must be routed to parabolic burst/source structure.
+
+      This is a real gain: very low modes cannot oscillate at the high-shell heat rate without paying an explicit material-derivative source term.
+
+      This is not the false accumulated-positive Pack claim. It is an unsigned far-low variation tail with a small scale-separation coefficient.
+
+      Case 1 is the existing parabolic-rate strain burst branch. By Inverse Parabolic Burst.A, it forces lower/neighbor donor height. On a first-height run this is inherited, legally charged, or sent to the Zeno residue branch.
+
+      Cases 2 and 3 are the real pressure/source and frame-transport legalizers. They are not supplied by scalar shell balance.
+
+      This is consistent with the signed-current surfaces: rotating a retained high packet into the expanding low-strain eigendirection cannot be free.
+
+      If these fail, the countermodel is very specific: a retained high packet samples a near-neighbor low-strain band whose direction/value oscillates at the high heat rate, while Pack remains bounded, Part remains active, Field legal loss is absent, and no Zeno atom forms.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Non-Pressure Supplier Entrance Scan After Pressure
+      Exhaustion
+    line_start: 42900
+    line_end: 42930
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42900
+    start_anchor: "\\subsection{Clay problem Non-Pressure Supplier Entrance Scan After
+      Pressure Exhaustion}\n"
+    end_anchor: "\\subsection{Clay problem Non-Carleson Zeno Temporal Anti-Concentration
+      Completion Attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Non-Pressure Supplier Entrance Scan After Pressure Exhaustion}
+
+      Purpose: after the pressure/eigenframe branch exhausted its direct endpoints and produced only a Field-face diagnostic, search for a new supplier entrance outside the pressure endpoints and outside the already known source-current wall.
+
+      It also avoids importing Terminal Skew Localization record.A or equivalent terminal source-current saturation.
+
+      Idea: an infinite or rapidly splitting Zeno ancestry should carry a scale-normalized entropy cost that cannot be paid by finite energy or finite dissipation.
+
+      Failure: no installed theorem gives a positive minimum entropy cost per terminal branch after scale collapse. The terminal tree may split into many branches whose per-branch charge decays with the scale. Bounded overlap and finite energy control total visible charge, while entropy without a charge lower bound supplies no contradiction.
+
+      Idea: every terminal refill step should require a minimum parent charge, forcing total parent charge divergence along a Zeno chain.
+
+      Failure: Navier-Stokes scaling supplies no fixed quantum of local source or pressure charge. A Zeno sequence can shrink spatial and temporal scale while keeping normalized terminal residue. Parent charges can also be diffuse across multiple packets. The proof needs a scale-invariant minimum charge theorem.
+
+      Idea: choose a minimal bad terminal ancestry under scale/order and extract a rigid ancient object.
+
+      Failure: compactness produces an ancient local suitable residue class. The previous Zeno and pressure Liouville attempts show that local ancient compactness alone lacks a rigid class. Minimality may remove some side branches, while the terminal atom and zero-thickness source/time marginal can survive.
+
+      Idea: the local energy inequality across the terminal face should prevent a positive terminal source atom or pressure-sustain atom.
+
+      Failure: the local energy inequality allows defect measures at terminal times. Remov
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Lci A Fixed Increment Pressure Response Note}
+
+    \[
+    \Lambda_{\delta,\rho}^{halo}:=2R_{\delta,\rho}^{halo}.
+    \]
+
+    Fix one increment with | | , halo . Choose a smooth cutoff j pr ( ,t) satisfying
+
+    \[
+    \chi_j^{pr}(\cdot,t)\equiv 1
+    \text{ on }B(c_j(t),2\Lambda_{\delta,\rho}^{halo}),
+    \qquad
+    \operatorname{supp}\chi_j^{pr}(\cdot,t)\subset
+    B(c_j(t),4\Lambda_{\delta,\rho}^{halo}),
+    \]
+
+    \[
+    p_{j,\eta}^{loc}(x,t)
+    :=
+    \mathcal N*
+    \partial_a\partial_b\big(\chi_j^{pr}(\cdot,t)\,u_a u_b(\cdot,t)\big)(x),
+    \]
+
+    \[
+    h_{j,\eta}(x,t):=p(x,t)-p_{j,\eta}^{loc}(x,t).
+    \]
+
+    \[
+    \mathcal S_{N,\eta}^{press,loc,ctr}(t)
+    :=
+    \sup_{1\le j\le J}
+    \left|
+    2\sum_{k=0}^{N}\lambda_k\,
+    \delta_\eta U_k(c_j(t),t)\cdot
+    \delta_\eta\nabla^{k+1}p_{j,\eta}^{loc}(c_j(t),t)
+    \right|,
+    \]
+
+    The derivative-LP bridge note supplies the exact shellwise source localization: strict low-high, strict high-low, and finite-collar resonant packets. So the remaining local pressure debt is not another source-classification problem. It is the fixed-radius elliptic response that turns those localized packets into the pointwise increment at the transported centers.
+
+    So the local FEI pressure wall is no longer an opaque elliptic-response theorem. It is one exact localized increment-source account on the widened transported-center balls.
+
+    So, once the ordinary energy record is imported, the harmonic-tail half of the FEI pressure wall is no longer independent.
+
+    So the genuine new pressure-side object is no longer an increment carrier at all. It is an absolute fixed-radius center-ball oscillation/Holder theorem at radius 5 , halo .
+
+
+
+    \subsection{Lci A Fixed Radius Pressure Center Ball Note}
+
+    \[
+    \Lambda_{\delta,\rho}^{halo}
+    :=
+    2R_{\delta,\rho}^{halo}.
+    \]
+
+    \[
+    R_{\rho,\delta}^{press}
+    :=
+    5\Lambda_{\delta,\rho}^{halo}.
+    \]
+
+    \[
+    \mathfrak O_{N,\rho,\psi}^{press,5\Lambda}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=0}^{N}
+    \left\|
+    U_q(\cdot,t)-U_q(c_j(t),t)
+    \right\|_{L^\infty(B(c_j(t),R_{\rho,\delta}^{press}))},
+    \]
+
+    \[
+    \mathfrak H_{N,\rho,\psi}^{press,5\Lambda,\alpha}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=0}^{N}
+    \big[
+    U_q(\cdot,t)
+    \big]_{C^{0,\alpha}(B(c_j(t),R_{\rho,\delta}^{press}))}.
+    \]
+
+    \[
+    \mathfrak e_{N,5\Lambda}^{Eul,ctr}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sup_{|\eta|\le 5\Lambda_{\delta,\rho}^{halo}}
+    \sum_{q=0}^{N}\lambda_q
+    \big|\delta_\eta U_q(c_j(t),t)\big|^2.
+    \]
+
+    So the oscillation half is already an adjacent FEI-export problem. The genuine fixed-ball pressure theorem left on the direct route is the Holder side.
+
+    Fix j, q, and t. Because c j(t) P , (t) and the ball radius is 5 , halo , one has
+
+
+
+    \subsection{Lci A Fixed Radius Pressure L2 Supplier Note}
+
+    \[
+    R_{\rho,\delta}^{press}
+    :=
+    5\Lambda_{\delta,\rho}^{halo}.
+    \]
+
+    \[
+    \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=1}^{N+1}
+    \sum_{\beta=0}^{1}
+    \left\|
+    \nabla^\beta U_q(\cdot,t)
+    \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+    \]
+
+    \[
+    \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=1}^{N+2}
+    \left\|
+    U_q(\cdot,t)
+    \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+    \]
+
+    This packet is still localized to the same fixed 5 balls. It trades one derivative for one rung, rather than widening to the collar theorem.
+
+    \[
+    \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+    \le
+    C_N\,
+    \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}(t).
+    \]
+
+    \[
+    \mathcal B_{N+2,\rho,\psi}^{press,5\Lambda,L2}\in L^1(I),
+    \]
+
+    for a fixed finite family of universal contraction operators C ,q ; for =0 this is the identity. so on every fixed ball B(c j(t),R , press ),
+
+    So the fixed-ball pressure sufficient route already admits a still-local zero-derivative packet one rung higher.
+
+    This is only a comparison fact. It explains why the widened collar route is sufficient, but it does not make that wider route the sharp theorem-facing object.
+
+
+
+    \subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}
+
+    \[
+    R_{\rho,\delta}^{press}
+    :=
+    5\Lambda_{\delta,\rho}^{halo}.
+    \]
+
+    \[
+    \mathcal B_{N,\rho,\psi}^{press,5\Lambda,sob}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=0}^{N}
+    \sum_{\beta=1}^{2}
+    \left\|
+    \nabla^\beta U_q(\cdot,t)
+    \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+    \]
+
+    \[
+    \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t)
+    :=
+    \sup_{1\le j\le J}
+    \sum_{q=1}^{N+1}
+    \sum_{\beta=0}^{1}
+    \left\|
+    \nabla^\beta U_q(\cdot,t)
+    \right\|_{L^2(B(c_j(t),R_{\rho,\delta}^{press}))}^2.
+    \]
+
+    This packet is still localized to the same fixed 5 balls. It uses the next-rung family U 1, ,U N+1 with one derivative less, rather than the older wider collar packet.
+
+    \[
+    \mathcal B_{N,\rho,\psi}^{press,5\Lambda,sob}(t)
+    \le
+    C_N\,
+    \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}(t).
+    \]
+
+    \[
+    \mathcal B_{N+1,\rho,\psi}^{press,5\Lambda,H1}\in L^1(I),
+    \]
+
+    This is only a comparison fact. It explains why the widened collar route is sufficient, but it does not make that wider route the sharp theorem-facing object.
+
+
+
+    \subsection{Clay problem Local Strain Depletion.A Audit Note}
+
+    This would prove Local Source.No Pulse.A by showing that the positive part of the same-fluid active local source vanishes on terminal bad windows.
+
+    \[
+    \mathfrak G_N^{lift,\sigma}
+    =
+    \sum W_{j,k,\ell}^{\sigma}\mathcal R_{j,k,\ell}^{lift},
+    \]
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    \sfcomp{39614}
+    2^{2j}
+    \left\langle
+    \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u
+    \right\rangle.
+    \]
+
+    The signed route asks for cancellation of the full signed sum. The local depletion target is harder in the relevant direction: it asks for smallness of the positive part on the same bad active windows that define the no-pulse branch.
+
+    \[
+    \int G\ \text{small}
+    \quad\not\Longrightarrow\quad
+    \int G_+\ \text{small}.
+    \]
+
+    The principal strain form is sign-indefinite. If an active shell packet is aligned with an expanding eigendirection of the symmetric low/intermediate strain, then
+
+    \[
+    \left\langle
+    \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u
+    \right\rangle
+    >0
+    \]
+
+    so the local positive part can concentrate exactly on Bad N( ). This is not ruled out by energy inequality, incompressibility, pressure projection, or the unweighted shell-exchange antisymmetry.
+
+    The pressure Poisson law enforces incompressibility and redistributes the trace part of the nonlinearity. It does not make the local strain-production term nonpositive. The pressure-strain attempt already isolates the missing theorem: one would need a structural depletion law tied to the active packet, not merely the pressure equation.
+
+    Local Strain Depletion.A is not solved by the existing signed weighted commutator material. It is a genuine positive-part depletion theorem.
+
+
+
+    \subsection{Clay problem Low Response Strain Charge.A Proof Run}
+
+    \[
+    \int\langle ZS_{<j}^{loc}u_j,u_j\rangle,
+    \]
+
+    \[
+    ZS_{<j}^{loc}
+    =
+    \frac12(\nabla z_{<j}^{loc}+(\nabla z_{<j}^{loc})^T),
+    \qquad
+    z=\partial_\nu u.
+    \]
+
+    \[
+    \int_W\sup_{k>N}
+    2^k\sum_{\ell>k+4}
+    1_{\{R_\ell>0\}}
+    \left[
+    \int\langle ZS_{<\ell}^{loc}u_\ell,u_\ell\rangle
+    \right]_+dt
+    \le
+    LegalResponseCharge_N(W)+o_N(1).
+    \]
+
+    \[
+    \int_W\|\nabla z(t)\|_{L^\infty}\,dt
+    \le
+    M_z(W)<\infty.
+    \]
+
+    \[
+    \boxed{
+    \int_W\sup_{k>N}
+    2^k\sum_{\ell>k+4}
+    \left|
+    \int\langle ZS_{<\ell}^{loc}u_\ell,u_\ell\rangle
+    \right|dt
+    \le
+    M_z(W)
+    \int_W\sum_{\ell>N}2^{-\ell}D_\ell(t)\,dt.
+    }
+    \]
+
+    But those are exactly high-regularity NS bounds near the candidate boundary. Using them unconditionally would import what the no-fold theorem must prove.
+
+    The useful reduction is that the low-response-strain term is not a new native source wall. It vanishes under any finite response low-norm control because the height weight hits E l, not D l, and gains the factor 2 -l .
+
+    That should be merged with the signed response-height packet, not tracked as a separate source-wall primitive.
+
+
+
+    \subsection{Clay problem Low StrainBVCharge.A Direct Attempt}
+
+    \[
+    \tau_P\sfcomp{39757}(\nu2^{2j_P})^{-1},
+    \]
+
+    \[
+    \sigma_P(t)
+    :=
+    n_P(t)\cdot S^{loc}_{<j_P}(X_P(t),t)n_P(t),
+    \]
+
+    \[
+    \boxed{
+    \sum_{P\in F_N(W)}
+    \omega_P E_P\tau_P\,\mathrm{Var}_{I_P}(\sigma_P)
+    \le
+    C\mathcal P_{N,Q}^{part}(W)
+    +C\mathcal L_{N,Q}^{field}(W)
+    +C\mathcal Z_{N,Q}^{atom}(W)
+    +o_N(1).
+    }
+    \]
+
+    The point of this target is to price the only loophole left by net Pack control: fast alternation of the sampled expanding low-strain direction.
+
+    Along the same-fluid packet path, write D t=partial t+u . Ignoring cutoff commutators for one line,
+
+    \[
+    S^{loc}_{<j}
+    =
+    S^{far}_{j,L}+S^{near}_{j,L},
+    \]
+
+    \[
+    S^{far}_{j,L}:=\sum_{m\le j-L}S_m^{loc},
+    \qquad
+    S^{near}_{j,L}:=\sum_{j-L<m<j}S_m^{loc}.
+    \]
+
+    The far-low term has a genuine parabolic scale-separation gain. The near band does not; it must be routed to parabolic burst/source structure.
+
+    This is a real gain: very low modes cannot oscillate at the high-shell heat rate without paying an explicit material-derivative source term.
+
+    This is not the false accumulated-positive Pack claim. It is an unsigned far-low variation tail with a small scale-separation coefficient.
+
+    Case 1 is the existing parabolic-rate strain burst branch. By Inverse Parabolic Burst.A, it forces lower/neighbor donor height. On a first-height run this is inherited, legally charged, or sent to the Zeno residue branch.
+
+    Cases 2 and 3 are the real pressure/source and frame-transport legalizers. They are not supplied by scalar shell balance.
+
+    This is consistent with the signed-current surfaces: rotating a retained high packet into the expanding low-strain eigendirection cannot be free.
+
+    If these fail, the countermodel is very specific: a retained high packet samples a near-neighbor low-strain band whose direction/value oscillates at the high heat rate, while Pack remains bounded, Part remains active, Field legal loss is absent, and no Zeno atom forms.
+
+
+
+    \subsection{Clay problem Non-Pressure Supplier Entrance Scan After Pressure Exhaustion}
+
+    Purpose: after the pressure/eigenframe branch exhausted its direct endpoints and produced only a Field-face diagnostic, search for a new supplier entrance outside the pressure endpoints and outside the already known source-current wall.
+
+    It also avoids importing Terminal Skew Localization record.A or equivalent terminal source-current saturation.
+
+    Idea: an infinite or rapidly splitting Zeno ancestry should carry a scale-normalized entropy cost that cannot be paid by finite energy or finite dissipation.
+
+    Failure: no installed theorem gives a positive minimum entropy cost per terminal branch after scale collapse. The terminal tree may split into many branches whose per-branch charge decays with the scale. Bounded overlap and finite energy control total visible charge, while entropy without a charge lower bound supplies no contradiction.
+
+    Idea: every terminal refill step should require a minimum parent charge, forcing total parent charge divergence along a Zeno chain.
+
+    Failure: Navier-Stokes scaling supplies no fixed quantum of local source or pressure charge. A Zeno sequence can shrink spatial and temporal scale while keeping normalized terminal residue. Parent charges can also be diffuse across multiple packets. The proof needs a scale-invariant minimum charge theorem.
+
+    Idea: choose a minimal bad terminal ancestry under scale/order and extract a rigid ancient object.
+
+    Failure: compactness produces an ancient local suitable residue class. The previous Zeno and pressure Liouville attempts show that local ancient compactness alone lacks a rigid class. Minimality may remove some side branches, while the terminal atom and zero-thickness source/time marginal can survive.
+
+    Idea: the local energy inequality across the terminal face should prevent a positive terminal source atom or pressure-sustain atom.
+
+    Failure: the local energy inequality allows defect measures at terminal times. Removing a terminal atom requires temporal anti-concentration, reverse Holder source control, or a rigid residue Liouville theorem. This returns to
+
+    The installed attempts route them back to active-shell normalization, heat-scale gain, or the same source-weighted angular depletion burden. They are so known endpoints rather than new lower suppliers in this scan.
+
+    \[
+    ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A,
+    \]
+
+    The current source-wall root remains open. The completed result of this pass is a hard routing certificate: pressure contributes only Field diagnostics from installed inputs, and the tested non-pressure alternatives require new endpoint theorems rather than existing records.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Fixed Increment Pressure Response Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40008
+  line_start: 40008
+  line_end: 40054
+  start_anchor: "\\subsection{Lci A Fixed Increment Pressure Response Note}\n"
+  end_anchor: "\\subsection{Lci A Fixed Increment Top Viscous Readout Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Fixed Increment Pressure
+    Response Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40008
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Fixed Radius Pressure Center Ball Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40204
+  line_start: 40204
+  line_end: 40251
+  start_anchor: "\\subsection{Lci A Fixed Radius Pressure Center Ball Note}\n"
+  end_anchor: "\\subsection{Lci A Fixed Radius Pressure L2 Supplier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Fixed Radius Pressure Center
+    Ball Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40204
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Fixed Radius Pressure L2 Supplier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40252
+  line_start: 40252
+  line_end: 40300
+  start_anchor: "\\subsection{Lci A Fixed Radius Pressure L2 Supplier Note}\n"
+  end_anchor: "\\subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Fixed Radius Pressure L2
+    Supplier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40252
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Fixed Radius Pressure Sobolev Supplier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40301
+  line_start: 40301
+  line_end: 40346
+  start_anchor: "\\subsection{Lci A Fixed Radius Pressure Sobolev Supplier Note}\n"
+  end_anchor: "\\subsection{Lci A Fixed Radius Top Rung L2 Supplier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Fixed Radius Pressure Sobolev
+    Supplier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40301
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Local Strain Depletion.A Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41073
+  line_start: 41073
+  line_end: 41115
+  start_anchor: "\\subsection{Clay problem Local Strain Depletion.A Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Low Response Strain Charge.A Proof Run}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Local Strain Depletion.A
+    Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41073
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Low Response Strain Charge.A Proof Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41116
+  line_start: 41116
+  line_end: 41166
+  start_anchor: "\\subsection{Clay problem Low Response Strain Charge.A Proof Run}\n"
+  end_anchor: "\\subsection{Clay problem Lower-Carrier Interval-Integrability Theorem
+    Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Low Response Strain
+    Charge.A Proof Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41116
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Low StrainBVCharge.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41225
+  line_start: 41225
+  line_end: 41279
+  start_anchor: "\\subsection{Clay problem Low StrainBVCharge.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Local Positive Source Carleson / PRD selected
+    same-fluid terminal-family attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Low StrainBVCharge.A
+    Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41225
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Non-Pressure Supplier Entrance Scan After Pressure
+    Exhaustion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42900
+  line_start: 42900
+  line_end: 42930
+  start_anchor: "\\subsection{Clay problem Non-Pressure Supplier Entrance Scan After
+    Pressure Exhaustion}\n"
+  end_anchor: "\\subsection{Clay problem Non-Carleson Zeno Temporal Anti-Concentration
+    Completion Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Non-Pressure Supplier
+    Entrance Scan After Pressure Exhaustion as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42900
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-08
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-pressure-and-participation-08.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

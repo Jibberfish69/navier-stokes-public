@@ -185,7 +185,7 @@ E_{J,t_0}^{CG}\le g_0/4
 \bigl\|
 P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le C_{\mathrm{PBR6g}}
 \eta_J^{mb}(t,a,b)^2/g_0^2.
 \tag{PBR.6g}
 ```
@@ -225,7 +225,7 @@ D.7mq,
 D.7mp + D.7mo + D.7mm
 \Longrightarrow
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le C_{\mathrm{PBR9}}
 \mathrm{Err}_{J,\mathrm{ssc}},
 \tag{PBR.9}
 ```
@@ -329,7 +329,7 @@ g_J^{str}(s,a)
 ```
 
 is the motion-of-top-projector term coming from `\partial_t n_J` and
-`|\partial_t P_{J,\top}^{seg}|\lesssim |\partial_t S_J^N|/g_J^{str}`.
+`|\partial_t P_{J,\top}^{seg}|\le C_{\mathrm{top}}|\partial_t S_J^N|/g_J^{str}`.
 
 Once these three ledgers are controlled, `D.7mb9` converts the residual into
 projector comparison:
@@ -396,7 +396,7 @@ G^\star
 :=
 \Bigl\{
 (a,b)\in G:
-E_J^\sharp(a,b)\le g_0(a)/4,\ 
+E_J^\sharp(a,b)\le g_0(a)/4,\
 \eta_J^\sharp(a,b)\le c_\star g_0(a)
 \Bigr\}.
 \tag{PBR.10l}
@@ -586,7 +586,7 @@ common `A_J` supplier via a pointwise theorem of the form
 }{
 g_J^{str}(s,a)
 }
-\lesssim
+\le C_{\mathrm{PBR10q2}}
 |W_J^N(s,a)|_{\mathrm{op}}^2\,|S_J^N(s,a)|.
 \tag{PBR.10q2}
 ```
@@ -1441,7 +1441,7 @@ Indeed, the integrated commutator source in `(PBR.10u11a)` is built from
 
 ```math
 \Theta_J^{comm}
-\sim
+:=
 \frac{\mu_2^{CG}}{\operatorname{gap}_J^{CG}}
 \bigl\|[\mathcal C_J^N,B_J^N]\bigr\|_{\mathrm{op}}
 +

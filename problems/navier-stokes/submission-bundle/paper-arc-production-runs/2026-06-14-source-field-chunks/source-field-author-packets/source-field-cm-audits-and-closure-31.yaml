@@ -1,0 +1,1116 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-31
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-31
+  sequence: 116
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 31
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 43410
+  line_end: 44361
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43410
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43527
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43567
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43614
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43662
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43824
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44258
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44305
+  subsection_titles:
+  - Old Main Clay Bridge Final Audit Note
+  - Clay problem One-Sided Pair-Weight Defect After ASAC
+  - Clay problem Ontic Incompatibility Of Autonomous Singular Geometry Theorem
+  - Clay problem Ontological Terminal Survivor Exhaustiveness
+  - Clay problem Open Dead-Patch Rigidity Theorem
+  - Clay problem Orthogonal Response Decorrel.A Proof Run
+  - Clay problem Packet-Local Propagation Lemma
+  - Clay problem Parabolic Cycle Coercivity.A Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Old Main Clay Bridge Final Audit Note
+    line_start: 43410
+    line_end: 43422
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43410
+    start_anchor: "\\subsection{Old Main Clay Bridge Final Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Reduction
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Old Main Clay Bridge Final Audit Note}
+
+      Theorem-facing final bridge note for the averaged-to-pointwise Navier-Stokes route.
+
+      Role: assemble the original endpoint matrix into no finite-time class exit, then connect class-exit exclusion to global classical regularity for the official Clay setting on R 3 or T 3.
+
+      Equivalently, persistence of the installed class witness on every retained same-fluid approach window is a complete classical continuation certificate.
+
+      Let (u,p) be the maximal classical solution launched from smooth divergence-free data. Classical local well-posedness provides a maximal lifespan
+
+      The solution is classical on each compact interval [0,T]; so it is global and smooth.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem One-Sided Pair-Weight Defect After ASAC
+    line_start: 43527
+    line_end: 43566
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43527
+    start_anchor: "\\subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}\n"
+    end_anchor: "\\subsection{Clay problem Ontic Incompatibility Of Autonomous Singular
+      Geometry Theorem}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}
+
+      Purpose: avoid proving an unnecessary absolute pair-weight flattening theorem. The terminal source wall consumes the positive selected source. For that one-sided consumer, the positive pair-weight mismatch is an ASAC-typed active alignment cost, while the negative mismatch helps the signed counter-edge.
+
+      \[
+      \sum_{P\in \mathcal F_N}
+      \int [W_P\,\operatorname{div}J(P)]_+\,dt.
+      \]
+
+      \[
+      J_{e^*}=-J_e
+      \]
+
+      \[
+      \big[(W_P-W_{P'})J_e\big]_+
+      \le
+      (W_P-W_{P'})_+[J_e]_+
+      +(W_{P'}-W_P)_+[-J_e]_+.
+      \]
+
+      The second term is not a loss for the selected receiver. It means the signed partner carries the larger weight. Once terminal signed saturation keeps that partner in the usable record, it cancels or dominates the receiver-side positive contribution.
+
+      \[
+      \mathfrak D_+^{pair}
+      :=
+      \sum_e
+      \int
+      (W_P-W_{P'})_+[J_e]_+\,dt.
+      \]
+
+      \[
+      J_e^{prin}
+      \sfcomp{42086}
+      2^{2j}
+      \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2,
+      \]
+
+      Projected/cutoff/lifted residuals are handled by the existing Projected Cutoff record.A and legal collar records.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Ontic Incompatibility Of Autonomous Singular Geometry
+      Theorem
+    line_start: 43567
+    line_end: 43613
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43567
+    start_anchor: "\\subsection{Clay problem Ontic Incompatibility Of Autonomous Singular
+      Geometry Theorem}\n"
+    end_anchor: "\\subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Ontic Incompatibility Of Autonomous Singular Geometry Theorem}
+
+      Role: formalize the local ontic incompatibility claim that a candidate terminal geometry cannot be realized as an autonomous local sharpening while primitive local membership remains installed on the approaching still-live windows, with the current CM family acting only as witness.
+
+      This is a local incompatibility theorem, not a continuation theorem or a lifespan-extension note. It is stated and proved in the exact language of the working Clay problem fluid object and the exact class-membership witness.
+
+      \[
+      \mathfrak O_{\mathrm{NS}}^{\mathrm{work}}
+      :=
+      (\Omega,[0,T),\nu,u_0,u,p,\Phi;\ F,h,\mathcal T;\ \mathcal L_{\mathrm{NS}}).
+      \]
+
+      Fix one lawful working Clay problem Navier--Stokes fluid object O NS work on [0,T).
+
+      \[
+      (x_\ast,T_\ast),
+      \qquad
+      T_\ast\le T.
+      \]
+
+      Write the primitive witness failures directly. The older endpoint words are only legacy participation-side / packing-side / one-field-side labels here.
+
+      Define the route-native autonomous-sharpening clause families on a still-live window Q by the following concrete local failure clauses.
+
+      \[
+      \mathrm{ASG}^{\mathrm{pack}}_Q
+      \]
+
+      \[
+      \mathrm{ASG}^{\mathrm{part}}_{N,Q}
+      \]
+
+      \[
+      \mathrm{ASG}^{\mathrm{field}}_{N,r,Q}
+      \]
+
+      ASG pack Q is the material detachment / packing-separation clause; ASG part N,Q is the loss-of-shared-participation clause through depth N; ASG field N,r,Q is the one-field-fracture clause through depth N at scale r.
+
+      for every Q Q , every finite depth N, and every local tower rung, transported collar, segment family, material packet, and finite-difference packet built on Q through depth N, that object is induced from the same restricted fluid object O NS work | Q; no dead endpoint geometry is realized on any Q Q ; no blown endpoint geometry is realized on any Q Q ; no jump endpoint geometry is realized on any Q Q .
+
+      Hence no terminal geometry at (x ,T ) can be realized as an autonomous local sharpening of the fluid.
+
+
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Ontological Terminal Survivor Exhaustiveness
+    line_start: 43614
+    line_end: 43661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43614
+    start_anchor: "\\subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}\n"
+    end_anchor: "\\subsection{Clay problem Open Dead-Patch Rigidity Theorem}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}
+
+      Role: state the strongest exhaustiveness theorem currently supportable on the class-membership object-law surface, and isolate the exact remaining theorem needed to upgrade that reduction to one common terminal survivor class.
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+      \qquad
+      \nabla\cdot u = 0,
+      \qquad
+      \nu>0.
+      \]
+
+      \[
+      (u,p,\Phi,F),
+      \qquad
+      F:=D_a\Phi.
+      \]
+
+      Per the object-law refoundation, first class exit is tracked by first failure of one primitive witness side. The older endpoint words are only side-labels here, not exact primitive identities.
+
+      \[
+      (u,p,\Phi,F)
+      \rightsquigarrow
+      \bigl(
+      \Gamma,\ \widetilde{\mathcal H}_{N,r,\psi_J},\ \mathfrak P_N,\ \mathfrak Q_N
+      \bigr).
+      \]
+
+      The object-law refoundation fixes the earliest admissible primitive start at shared packing / participation / one-field law, not at any branch-local projector, covector, carrier selector, or shadow quantity. The fused supplier schema states that the Clay problem-side class-membership record E J cm is upstream, while every branch-sensitive readout requires an additional branch packet R J branch . The exact-potential and normal-covector witness-to-readout theorems both state explicitly that the class-membership witness alone does not manufacture the branch geometry. They consume it and pay its packing / transport / coherence losses through an exported class-membership record.
+
+      so a branch-local defect is downstream of the class-exit event. It cannot count as a fifth primitive failure family.
+
+      \[
+      S \to Q,\qquad
+      (S,Q)\to C,\qquad
+      C\to G,\qquad
+      G\to S.
+      \]
+
+      So pre-terminally, the branch stack sees one common structural disease rather than unrelated physical mechanisms.
+
+      so every first class-exit blowup picture, after lawful export through the Clay problem witness and the four-body descendant reductions, lands in A B. No additional downstream terminal family is currently visible.
+
+      \[
+      \text{all physical blowup pictures re
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Open Dead-Patch Rigidity Theorem
+    line_start: 43662
+    line_end: 43712
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43662
+    start_anchor: "\\subsection{Clay problem Open Dead-Patch Rigidity Theorem}\n"
+    end_anchor: "\\subsection{Opr Completion Route Options Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Open Dead-Patch Rigidity Theorem}
+
+      It does not yet prove the full dead-tower rigidity theorem. It proves only the open-set vanishing form.
+
+      \[
+      u(\cdot,t_0)\equiv 0
+      \quad\text{on a nonempty open region.}
+      \]
+
+      That subcase is already too rigid to occur locally inside a connected positive-time classical field.
+
+      The proof uses only standard classical imports already legitimate on the declared theorem surface.
+
+      For every t 0>0, a classical Navier--Stokes solution on T 3 and on the standard whole-space classical surface is spatially analytic in x.
+
+      If a real-analytic scalar function on a connected domain vanishes on a nonempty open set, then it vanishes identically on that connected component.
+
+      If a classical Navier--Stokes solution satisfies u( ,t 0) 0, then on the periodic or standard decaying whole-space surface the continuation from t 0 is the zero solution.
+
+      These imports are part of the classical validation layer, not new local inventions of the class-membership route.
+
+      Let = T 3 or R 3, and let (u,p) be a classical incompressible Navier--Stokes solution on [0,T). Fix t 0 (0,T). Assume is connected on the chosen theorem surface.
+
+      \[
+      u(x,t_0)=0
+      \qquad
+      \text{for every }x\in U,
+      \]
+
+      \[
+      u(\cdot,t_0)\equiv 0
+      \qquad
+      \text{on all of }\Omega.
+      \]
+
+      By positive-time spatial analyticity, each component u i( ,t 0) is a real-analytic function on the connected domain .
+
+      \[
+      u_i(\cdot,t_0)\equiv 0
+      \qquad
+      \text{on }\Omega
+      \]
+
+      \[
+      \partial_x^\alpha u(x,t_0)=0
+      \qquad
+      \text{for every multiindex }\alpha
+      \text{ and every }x\in U,
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Orthogonal Response Decorrel.A Proof Run
+    line_start: 43824
+    line_end: 43877
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43824
+    start_anchor: "\\subsection{Clay problem Orthogonal Response Decorrel.A Proof
+      Run}\n"
+    end_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Orthogonal Response Decorrel.A Proof Run}
+
+      \[
+      2\int\langle S_{<j}^{loc}u_j,z_j^\perp\rangle,
+      \]
+
+      \[
+      z_j=a_j u_j+z_j^\perp,
+      \qquad
+      \langle u_j,z_j^\perp\rangle=0.
+      \]
+
+      \[
+      \int_W\sup_{k>N}
+      2^k\sum_{\ell>k+4}
+      1_{\{R_\ell>0\}}
+      \left[
+      2\int\langle S_{<\ell}^{loc}u_\ell,z_\ell^\perp\rangle
+      \right]_+dt
+      \le
+      LegalResponseCharge_N(W)+o_N(1).
+      \]
+
+      \[
+      \partial_t u=\nu\Delta u,
+      \qquad
+      z=\partial_\nu u.
+      \]
+
+      \[
+      \widehat z_\xi(t)
+      =
+      -t|\xi|^2 e^{-\nu t|\xi|^2}\widehat u_{0,\xi}
+      =
+      -t|\xi|^2\widehat u_\xi(t).
+      \]
+
+      The orthogonal response is not generated by viscosity itself. It is generated by the nonlinear and pressure/cutoff response terms.
+
+      and returns to response-height/source control unless the orthogonal projection creates a cancellation.
+
+      The heat part gives cancellation; the nonlinear part does not by energy alone. Thus absolute values are again too expensive.
+
+      This is the response analogue of active strain decorrelation, but narrower: it only concerns the orthogonal part of the viscosity derivative, after the heat-aligned part has already been absorbed.
+
+      This should be recorded as a new theorem atom, not silently imported from the old ASAC packet.
+
+      This is a genuine narrowing. Positive viscosity itself does not create the bad orthogonal rotation. Only nonlinear response rotation can do it.
+
+      The first branch is the old native source wall; the second and third are the new viscosity-response walls.
+
+      Thus Orthogonal Response Decorrel.A is no longer a live response-side primitive once the full-coefficient response drain is accepted.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Packet-Local Propagation Lemma
+    line_start: 44258
+    line_end: 44304
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44258
+    start_anchor: "\\subsection{Clay problem Packet-Local Propagation Lemma}\n"
+    end_anchor: "\\subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Packet-Local Propagation Lemma}
+
+      Role: first packet-local closure-packaging theorem shape for the residual reference-increment and weighted-segment packet quantities on the standalone class-membership branch.
+
+      The propagation of the input quantities E ref N,r, and M wseg N+1,r, remains a downstream burden.
+
+      Full closure of the class-membership route is not claimed here. The first exact packet-local closure-packaging theorem shape is stated using the live packet-facing reduction surface E ref N,r, and M wseg N+1,r, ; M tube N+1,r, remains auxiliary geometric context.
+
+      \[
+      \widetilde E_{N,r,\psi}(t)
+      \le
+      2\,\widehat{\mathcal E}^{ref}_{N,r,\psi}(t)
+      +
+      2\,\mathcal M^{wseg}_{N+1,r,\psi}(t).
+      \]
+
+      The displayed estimate is the packet-local closure consequence once those packet-side quantities have already been propagated on a fixed material packet.
+
+      \[
+      \widehat{\mathcal E}^{ref}_{N,r,\psi}
+      \quad\text{= control envelope,}
+      \]
+
+      \[
+      \mathcal M^{wseg}_{N+1,r,\psi}
+      \quad\text{= exact packet quantity,}
+      \]
+
+      \[
+      P_F^\ast
+      \quad\text{= control envelope,}
+      \]
+
+      \[
+      P_F,\ A_F,\ \widetilde E_{N,r,\psi}
+      \quad\text{= packet closure quantities.}
+      \]
+
+      Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+      This is a candidate theorem shape. The input hypotheses are live packet-side objects, but their propagation is not yet discharged here.
+
+      Theorem content: if the live reduction quantities are already propagated on I, then the transported closure packet is propagated on I.
+
+      So the packet-local closure burden is no longer hidden in bridge-tube geometry. It is stated directly in terms of the live reduction quantities.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Parabolic Cycle Coercivity.A Direct Attempt
+    line_start: 44305
+    line_end: 44361
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44305
+    start_anchor: "\\subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Parabolic Edge Resistance.A Cauchy-Young
+      Test}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}
+
+      Direct theorem-grade attempt on the missing heat-action coercivity behind Cycle Heat Action.A.
+
+      The obstruction is sharper than the previous abstract-flow obstruction. The finite spacetime flow decomposition can be made, but the selected positive terminal current can still be fed by an internal signed sink before the flow crosses any heat edge. Proving heat-action coercivity so requires a new PDE statement tying the signed donor sink and the receiver source to the same usable parabolic record, or else charging the separated partner by heat, boundary flux, residual charge, or earlier-source arrival.
+
+      \[
+      \partial_t E_P+D_P
+      =
+      \operatorname{div}_{\mathcal G}J(P)+L_P,
+      \qquad
+      J(P\to P')=-J(P'\to P),
+      \]
+
+      Work on a finite same-fluid packet/time truncation. Discretize at the packet heat scale and write vertices as
+
+      \[
+      v=(P,n).
+      \]
+
+      Spatial edges carry the signed localized source current. Time edges carry stored packet energy. Boundary edges carry admitted exterior, stopped, or legal residual flux.
+
+      \[
+      \int[\operatorname{div}_{\mathcal G}J(P)]_+dt
+      \le
+      \operatorname{Var}^+(E_P)
+      +\int D_P\,dt
+      +\int |L_P|\,dt.
+      \]
+
+      This is the first exact wall. The installed energy inequality controls net energy and heat, not the positive temporal variation created by repeated internal signed transfers.
+
+      \[
+      e:P^-\to P^+,
+      \qquad
+      J_e>0,
+      \]
+
+      \[
+      \operatorname{div}_{\mathcal G}J(P^-)\le -J_e+\text{other edges}.
+      \]
+
+      Without it, skewness only says that the full unlocalized exchange is balanced. It does not say that the selected positive terminal current is balanced inside the selected parabolic record.
+
+      This is not a Navier-Stokes counterexample. It is a counterexample to the claim that antisymmetric current plus finite graph decomposition alone proves Parabolic Cycle Coercivity.A.
+
+      In PDE language, A is a donor packet and B is a receiver packet. The receiver obtains positive terminal source by inviscid transfer from the donor. Unless
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Old Main Clay Bridge Final Audit Note}
+
+    Theorem-facing final bridge note for the averaged-to-pointwise Navier-Stokes route.
+
+    Role: assemble the original endpoint matrix into no finite-time class exit, then connect class-exit exclusion to global classical regularity for the official Clay setting on R 3 or T 3.
+
+    Equivalently, persistence of the installed class witness on every retained same-fluid approach window is a complete classical continuation certificate.
+
+    Let (u,p) be the maximal classical solution launched from smooth divergence-free data. Classical local well-posedness provides a maximal lifespan
+
+    The solution is classical on each compact interval [0,T]; so it is global and smooth.
+
+
+
+    \subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}
+
+    Purpose: avoid proving an unnecessary absolute pair-weight flattening theorem. The terminal source wall consumes the positive selected source. For that one-sided consumer, the positive pair-weight mismatch is an ASAC-typed active alignment cost, while the negative mismatch helps the signed counter-edge.
+
+    \[
+    \sum_{P\in \mathcal F_N}
+    \int [W_P\,\operatorname{div}J(P)]_+\,dt.
+    \]
+
+    \[
+    J_{e^*}=-J_e
+    \]
+
+    \[
+    \big[(W_P-W_{P'})J_e\big]_+
+    \le
+    (W_P-W_{P'})_+[J_e]_+
+    +(W_{P'}-W_P)_+[-J_e]_+.
+    \]
+
+    The second term is not a loss for the selected receiver. It means the signed partner carries the larger weight. Once terminal signed saturation keeps that partner in the usable record, it cancels or dominates the receiver-side positive contribution.
+
+    \[
+    \mathfrak D_+^{pair}
+    :=
+    \sum_e
+    \int
+    (W_P-W_{P'})_+[J_e]_+\,dt.
+    \]
+
+    \[
+    J_e^{prin}
+    \sfcomp{42086}
+    2^{2j}
+    \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2,
+    \]
+
+    Projected/cutoff/lifted residuals are handled by the existing Projected Cutoff record.A and legal collar records.
+
+
+
+    \subsection{Clay problem Ontic Incompatibility Of Autonomous Singular Geometry Theorem}
+
+    Role: formalize the local ontic incompatibility claim that a candidate terminal geometry cannot be realized as an autonomous local sharpening while primitive local membership remains installed on the approaching still-live windows, with the current CM family acting only as witness.
+
+    This is a local incompatibility theorem, not a continuation theorem or a lifespan-extension note. It is stated and proved in the exact language of the working Clay problem fluid object and the exact class-membership witness.
+
+    \[
+    \mathfrak O_{\mathrm{NS}}^{\mathrm{work}}
+    :=
+    (\Omega,[0,T),\nu,u_0,u,p,\Phi;\ F,h,\mathcal T;\ \mathcal L_{\mathrm{NS}}).
+    \]
+
+    Fix one lawful working Clay problem Navier--Stokes fluid object O NS work on [0,T).
+
+    \[
+    (x_\ast,T_\ast),
+    \qquad
+    T_\ast\le T.
+    \]
+
+    Write the primitive witness failures directly. The older endpoint words are only legacy participation-side / packing-side / one-field-side labels here.
+
+    Define the route-native autonomous-sharpening clause families on a still-live window Q by the following concrete local failure clauses.
+
+    \[
+    \mathrm{ASG}^{\mathrm{pack}}_Q
+    \]
+
+    \[
+    \mathrm{ASG}^{\mathrm{part}}_{N,Q}
+    \]
+
+    \[
+    \mathrm{ASG}^{\mathrm{field}}_{N,r,Q}
+    \]
+
+    ASG pack Q is the material detachment / packing-separation clause; ASG part N,Q is the loss-of-shared-participation clause through depth N; ASG field N,r,Q is the one-field-fracture clause through depth N at scale r.
+
+    for every Q Q , every finite depth N, and every local tower rung, transported collar, segment family, material packet, and finite-difference packet built on Q through depth N, that object is induced from the same restricted fluid object O NS work | Q; no dead endpoint geometry is realized on any Q Q ; no blown endpoint geometry is realized on any Q Q ; no jump endpoint geometry is realized on any Q Q .
+
+    Hence no terminal geometry at (x ,T ) can be realized as an autonomous local sharpening of the fluid.
+
+    Now suppose toward contradiction that a terminal geometry at (x ,T ) is realized as an autonomous local sharpening of the fluid. Then by the definition above, on every sufficiently small still-live window approaching (x ,T ), at least one of the clause families ASG pack Q, ASG part N,Q , or ASG field N,r,Q is realized.
+
+    The theorem above is local and incompatibility-only. It is not a continuation claim.
+
+
+
+    \subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}
+
+    Role: state the strongest exhaustiveness theorem currently supportable on the class-membership object-law surface, and isolate the exact remaining theorem needed to upgrade that reduction to one common terminal survivor class.
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+    \qquad
+    \nabla\cdot u = 0,
+    \qquad
+    \nu>0.
+    \]
+
+    \[
+    (u,p,\Phi,F),
+    \qquad
+    F:=D_a\Phi.
+    \]
+
+    Per the object-law refoundation, first class exit is tracked by first failure of one primitive witness side. The older endpoint words are only side-labels here, not exact primitive identities.
+
+    \[
+    (u,p,\Phi,F)
+    \rightsquigarrow
+    \bigl(
+    \Gamma,\ \widetilde{\mathcal H}_{N,r,\psi_J},\ \mathfrak P_N,\ \mathfrak Q_N
+    \bigr).
+    \]
+
+    The object-law refoundation fixes the earliest admissible primitive start at shared packing / participation / one-field law, not at any branch-local projector, covector, carrier selector, or shadow quantity. The fused supplier schema states that the Clay problem-side class-membership record E J cm is upstream, while every branch-sensitive readout requires an additional branch packet R J branch . The exact-potential and normal-covector witness-to-readout theorems both state explicitly that the class-membership witness alone does not manufacture the branch geometry. They consume it and pay its packing / transport / coherence losses through an exported class-membership record.
+
+    so a branch-local defect is downstream of the class-exit event. It cannot count as a fifth primitive failure family.
+
+    \[
+    S \to Q,\qquad
+    (S,Q)\to C,\qquad
+    C\to G,\qquad
+    G\to S.
+    \]
+
+    So pre-terminally, the branch stack sees one common structural disease rather than unrelated physical mechanisms.
+
+    so every first class-exit blowup picture, after lawful export through the Clay problem witness and the four-body descendant reductions, lands in A B. No additional downstream terminal family is currently visible.
+
+    \[
+    \text{all physical blowup pictures reduce to }A\cup B
+    \]
+
+
+
+    \subsection{Clay problem Open Dead-Patch Rigidity Theorem}
+
+    It does not yet prove the full dead-tower rigidity theorem. It proves only the open-set vanishing form.
+
+    \[
+    u(\cdot,t_0)\equiv 0
+    \quad\text{on a nonempty open region.}
+    \]
+
+    That subcase is already too rigid to occur locally inside a connected positive-time classical field.
+
+    The proof uses only standard classical imports already legitimate on the declared theorem surface.
+
+    For every t 0>0, a classical Navier--Stokes solution on T 3 and on the standard whole-space classical surface is spatially analytic in x.
+
+    If a real-analytic scalar function on a connected domain vanishes on a nonempty open set, then it vanishes identically on that connected component.
+
+    If a classical Navier--Stokes solution satisfies u( ,t 0) 0, then on the periodic or standard decaying whole-space surface the continuation from t 0 is the zero solution.
+
+    These imports are part of the classical validation layer, not new local inventions of the class-membership route.
+
+    Let = T 3 or R 3, and let (u,p) be a classical incompressible Navier--Stokes solution on [0,T). Fix t 0 (0,T). Assume is connected on the chosen theorem surface.
+
+    \[
+    u(x,t_0)=0
+    \qquad
+    \text{for every }x\in U,
+    \]
+
+    \[
+    u(\cdot,t_0)\equiv 0
+    \qquad
+    \text{on all of }\Omega.
+    \]
+
+    By positive-time spatial analyticity, each component u i( ,t 0) is a real-analytic function on the connected domain .
+
+    \[
+    u_i(\cdot,t_0)\equiv 0
+    \qquad
+    \text{on }\Omega
+    \]
+
+    \[
+    \partial_x^\alpha u(x,t_0)=0
+    \qquad
+    \text{for every multiindex }\alpha
+    \text{ and every }x\in U,
+    \]
+
+
+
+    \subsection{Clay problem Orthogonal Response Decorrel.A Proof Run}
+
+    \[
+    2\int\langle S_{<j}^{loc}u_j,z_j^\perp\rangle,
+    \]
+
+    \[
+    z_j=a_j u_j+z_j^\perp,
+    \qquad
+    \langle u_j,z_j^\perp\rangle=0.
+    \]
+
+    \[
+    \int_W\sup_{k>N}
+    2^k\sum_{\ell>k+4}
+    1_{\{R_\ell>0\}}
+    \left[
+    2\int\langle S_{<\ell}^{loc}u_\ell,z_\ell^\perp\rangle
+    \right]_+dt
+    \le
+    LegalResponseCharge_N(W)+o_N(1).
+    \]
+
+    \[
+    \partial_t u=\nu\Delta u,
+    \qquad
+    z=\partial_\nu u.
+    \]
+
+    \[
+    \widehat z_\xi(t)
+    =
+    -t|\xi|^2 e^{-\nu t|\xi|^2}\widehat u_{0,\xi}
+    =
+    -t|\xi|^2\widehat u_\xi(t).
+    \]
+
+    The orthogonal response is not generated by viscosity itself. It is generated by the nonlinear and pressure/cutoff response terms.
+
+    and returns to response-height/source control unless the orthogonal projection creates a cancellation.
+
+    The heat part gives cancellation; the nonlinear part does not by energy alone. Thus absolute values are again too expensive.
+
+    This is the response analogue of active strain decorrelation, but narrower: it only concerns the orthogonal part of the viscosity derivative, after the heat-aligned part has already been absorbed.
+
+    This should be recorded as a new theorem atom, not silently imported from the old ASAC packet.
+
+    This is a genuine narrowing. Positive viscosity itself does not create the bad orthogonal rotation. Only nonlinear response rotation can do it.
+
+    The first branch is the old native source wall; the second and third are the new viscosity-response walls.
+
+    Thus Orthogonal Response Decorrel.A is no longer a live response-side primitive once the full-coefficient response drain is accepted.
+
+
+
+    \subsection{Clay problem Packet-Local Propagation Lemma}
+
+    Role: first packet-local closure-packaging theorem shape for the residual reference-increment and weighted-segment packet quantities on the standalone class-membership branch.
+
+    The propagation of the input quantities E ref N,r, and M wseg N+1,r, remains a downstream burden.
+
+    Full closure of the class-membership route is not claimed here. The first exact packet-local closure-packaging theorem shape is stated using the live packet-facing reduction surface E ref N,r, and M wseg N+1,r, ; M tube N+1,r, remains auxiliary geometric context.
+
+    \[
+    \widetilde E_{N,r,\psi}(t)
+    \le
+    2\,\widehat{\mathcal E}^{ref}_{N,r,\psi}(t)
+    +
+    2\,\mathcal M^{wseg}_{N+1,r,\psi}(t).
+    \]
+
+    The displayed estimate is the packet-local closure consequence once those packet-side quantities have already been propagated on a fixed material packet.
+
+    \[
+    \widehat{\mathcal E}^{ref}_{N,r,\psi}
+    \quad\text{= control envelope,}
+    \]
+
+    \[
+    \mathcal M^{wseg}_{N+1,r,\psi}
+    \quad\text{= exact packet quantity,}
+    \]
+
+    \[
+    P_F^\ast
+    \quad\text{= control envelope,}
+    \]
+
+    \[
+    P_F,\ A_F,\ \widetilde E_{N,r,\psi}
+    \quad\text{= packet closure quantities.}
+    \]
+
+    Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+    This is a candidate theorem shape. The input hypotheses are live packet-side objects, but their propagation is not yet discharged here.
+
+    Theorem content: if the live reduction quantities are already propagated on I, then the transported closure packet is propagated on I.
+
+    So the packet-local closure burden is no longer hidden in bridge-tube geometry. It is stated directly in terms of the live reduction quantities.
+
+
+
+    \subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}
+
+    Direct theorem-grade attempt on the missing heat-action coercivity behind Cycle Heat Action.A.
+
+    The obstruction is sharper than the previous abstract-flow obstruction. The finite spacetime flow decomposition can be made, but the selected positive terminal current can still be fed by an internal signed sink before the flow crosses any heat edge. Proving heat-action coercivity so requires a new PDE statement tying the signed donor sink and the receiver source to the same usable parabolic record, or else charging the separated partner by heat, boundary flux, residual charge, or earlier-source arrival.
+
+    \[
+    \partial_t E_P+D_P
+    =
+    \operatorname{div}_{\mathcal G}J(P)+L_P,
+    \qquad
+    J(P\to P')=-J(P'\to P),
+    \]
+
+    Work on a finite same-fluid packet/time truncation. Discretize at the packet heat scale and write vertices as
+
+    \[
+    v=(P,n).
+    \]
+
+    Spatial edges carry the signed localized source current. Time edges carry stored packet energy. Boundary edges carry admitted exterior, stopped, or legal residual flux.
+
+    \[
+    \int[\operatorname{div}_{\mathcal G}J(P)]_+dt
+    \le
+    \operatorname{Var}^+(E_P)
+    +\int D_P\,dt
+    +\int |L_P|\,dt.
+    \]
+
+    This is the first exact wall. The installed energy inequality controls net energy and heat, not the positive temporal variation created by repeated internal signed transfers.
+
+    \[
+    e:P^-\to P^+,
+    \qquad
+    J_e>0,
+    \]
+
+    \[
+    \operatorname{div}_{\mathcal G}J(P^-)\le -J_e+\text{other edges}.
+    \]
+
+    Without it, skewness only says that the full unlocalized exchange is balanced. It does not say that the selected positive terminal current is balanced inside the selected parabolic record.
+
+    This is not a Navier-Stokes counterexample. It is a counterexample to the claim that antisymmetric current plus finite graph decomposition alone proves Parabolic Cycle Coercivity.A.
+
+    In PDE language, A is a donor packet and B is a receiver packet. The receiver obtains positive terminal source by inviscid transfer from the donor. Unless the donor sink is retained in the same terminal signed record or charged to an installed loss, the receiver source has not crossed any heat edge. Heat coercivity cannot be inferred from graph closure.
+
+    One might try to repair (8) by requiring every terminal cycle to use temporal storage. That proves only a conditional statement about already-identified closed spacetime cycles.
+
+    The positive divergence in (9) is not a closed cycle; it is a path from an internal sink to an internal source. To convert it into a closed cycle, one must add a return path. The return path is not supplied by the signed record. It is a choice in the rectified flow decomposition. A nonminimal decomposition can insert artificial circulation, while a minimal decomposition can leave the sink-to-source path open. Neither choice proves that the actual positive terminal source pays heat.
+
+    Dwell controls internal cycle flow once cycle flow is already the correct object. The missing theorem is the prior assertion that selected terminal positive source has no free internal sink outside the payable record.
+
+    First-current selection removes earlier positive source-current arrivals. It does not remove a same-window donor sink.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Old Main Clay Bridge Final Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43410
+  line_start: 43410
+  line_end: 43422
+  start_anchor: "\\subsection{Old Main Clay Bridge Final Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Reduction
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Old Main Clay Bridge Final Audit
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43410
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem One-Sided Pair-Weight Defect After ASAC
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43527
+  line_start: 43527
+  line_end: 43566
+  start_anchor: "\\subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}\n"
+  end_anchor: "\\subsection{Clay problem Ontic Incompatibility Of Autonomous Singular
+    Geometry Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem One-Sided Pair-Weight
+    Defect After ASAC as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43527
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Ontic Incompatibility Of Autonomous Singular Geometry
+    Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43567
+  line_start: 43567
+  line_end: 43613
+  start_anchor: "\\subsection{Clay problem Ontic Incompatibility Of Autonomous Singular
+    Geometry Theorem}\n"
+  end_anchor: "\\subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Ontic Incompatibility
+    Of Autonomous Singular Geometry Theorem as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43567
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Ontological Terminal Survivor Exhaustiveness
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43614
+  line_start: 43614
+  line_end: 43661
+  start_anchor: "\\subsection{Clay problem Ontological Terminal Survivor Exhaustiveness}\n"
+  end_anchor: "\\subsection{Clay problem Open Dead-Patch Rigidity Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Ontological Terminal
+    Survivor Exhaustiveness as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43614
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Open Dead-Patch Rigidity Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43662
+  line_start: 43662
+  line_end: 43712
+  start_anchor: "\\subsection{Clay problem Open Dead-Patch Rigidity Theorem}\n"
+  end_anchor: "\\subsection{Opr Completion Route Options Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Open Dead-Patch
+    Rigidity Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43662
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Orthogonal Response Decorrel.A Proof Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43824
+  line_start: 43824
+  line_end: 43877
+  start_anchor: "\\subsection{Clay problem Orthogonal Response Decorrel.A Proof Run}\n"
+  end_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Orthogonal Response
+    Decorrel.A Proof Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43824
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Packet-Local Propagation Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44258
+  line_start: 44258
+  line_end: 44304
+  start_anchor: "\\subsection{Clay problem Packet-Local Propagation Lemma}\n"
+  end_anchor: "\\subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Packet-Local Propagation
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44258
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Parabolic Cycle Coercivity.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44305
+  line_start: 44305
+  line_end: 44361
+  start_anchor: "\\subsection{Clay problem Parabolic Cycle Coercivity.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Parabolic Edge Resistance.A Cauchy-Young
+    Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Parabolic Cycle
+    Coercivity.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:44305
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-31
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-31.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

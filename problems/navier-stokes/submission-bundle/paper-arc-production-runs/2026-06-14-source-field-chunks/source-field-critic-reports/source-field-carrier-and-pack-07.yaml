@@ -1,0 +1,91 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T06:49:37Z'
+chunk_id: source-field-carrier-and-pack-07
+group_id: carrier-and-pack
+title: Carrier and Pack 7
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_units:
+- subsection_title: Pack.TTU Continuum-Label Obstruction Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21283
+  line_start: 21283
+  line_end: 21323
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Energy/Enstrophy Strain Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21324
+  line_start: 21324
+  line_end: 21383
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Final Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21384
+  line_start: 21384
+  line_end: 21429
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU First Upstream Blocker Record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21430
+  line_start: 21430
+  line_end: 21451
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Material-Line Strain Cancellation Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21452
+  line_start: 21452
+  line_end: 21495
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Non-BKM Strain Mechanism Search
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21496
+  line_start: 21496
+  line_end: 21565
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Original-Data Supply Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21566
+  line_start: 21566
+  line_end: 21613
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Retry Via Finite-Selector Strain Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21614
+  line_start: 21614
+  line_end: 21665
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-carrier-and-pack-07
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

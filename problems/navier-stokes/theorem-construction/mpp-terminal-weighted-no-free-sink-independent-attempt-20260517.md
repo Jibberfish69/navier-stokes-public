@@ -113,7 +113,7 @@ packet.  `LocalDonorBalance.A` gives the finite-tree identity:
 
 ```math
 \sum_{e\in\mathcal T_L^{int}}\pi(e)
-\lesssim
+\le C_{\mathrm{TWNFS}}
 \sum_{v\in\partial\mathcal T_L}E(v;t_v^-)
 +\sum_{v\in\mathcal T_L}\ell(v)
 +\operatorname{Boundary}_{overlap}(\mathcal T_L).

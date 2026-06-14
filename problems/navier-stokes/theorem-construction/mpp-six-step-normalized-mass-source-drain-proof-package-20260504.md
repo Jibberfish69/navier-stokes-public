@@ -99,7 +99,7 @@ If the residual term is large, then
 
 ```math
 M(T)
-\lesssim
+\le C_{\mathrm{WR}}
 \left|
 \int_{\sigma_T}^{t_+}g_T(t)^{-1}\langle R,\psi_T\rangle\,dt
 \right|^2.
@@ -111,7 +111,7 @@ If the residual term is small, then
 
 ```math
 |\langle w_j(\sigma_T),\chi_T(\sigma_T)\rangle|^2
-\gtrsim
+\ge c_{\mathrm{face}}
 M(T).
 ```
 
@@ -221,19 +221,19 @@ The termwise estimates are:
 
 ```math
 \|R^{comm}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le C_{\mathrm{comm}}
 \int\sum_{q>N}D_q,
 ```
 
 ```math
 \|R^{press}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le C_{\mathrm{press}}
 \int\sum_{q>N}D_q,
 ```
 
 ```math
 \|R^{cut}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le C_{\mathrm{cut}}
 \int\sum_{q>N}D_q,
 ```
 
@@ -327,7 +327,7 @@ If the residual is large, then
 
 ```math
 A_*
-\lesssim
+\le C_{\mathrm{Ares}}
 \left|
 \int_{\tau_T}^{t_+}g_T(s)^{-1}\langle R,\psi_T\rangle\,ds
 \right|^2,

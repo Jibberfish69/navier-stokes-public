@@ -1,0 +1,932 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-13
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-13
+  sequence: 98
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 13
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 32658
+  line_end: 33117
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32658
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32690
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32731
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32814
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32845
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32861
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32901
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33076
+  subsection_titles:
+  - Clay problem No Incoming Flux B ASAC .A Direct Attempt
+  - Clay problem B ASAC No Incoming Flux / Transported Cylinder NoFlux attempt
+  - Clay problem B ASAC Post-Diagnostic Forward Supplier Stop
+  - Clay problem B ASAC Preterminal Parent-Cloud Concentration Direct Attempt
+  - Clay problem B ASAC Quantized Parent / Minimal Ancestry Reduced-List Audit
+  - Clay problem B ASAC Reverse-Holder Production Direct Attempt
+  - Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville
+  - Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No Incoming Flux B ASAC .A Direct Attempt
+    line_start: 32658
+    line_end: 32689
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32658
+    start_anchor: "\\subsection{Clay problem No Incoming Flux B ASAC .A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC No Incoming Flux / Transported Cylinder
+      NoFlux attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem No Incoming Flux B ASAC .A Direct Attempt}
+
+      Direct attempt after Uniform Temporal Source Integrability p,B ASAC .A stayed open.
+
+      Outcome: open in the useful lateral/global-incoming sense. The attempt separates spatial no-incoming flux from terminal time-face source concentration.
+
+      If combined with an explicit time-face anti-atom theorem, this would feed Zeno Residue Liouville B ASAC .A.
+
+      The B ASAC class gives no earlier selected source slice, zero ASAC defect, removed legal/projected/cutoff/boundary exits, removed finite and non-Zeno donor exits, and terminal Zeno source support. The source account gives local finite L 1 s mass.
+
+      The older No Incoming Flux global.A attempt shows that First Pulse.No Parent controls selected source ancestry and supplies no full-field incoming flux bound through transported backward boundaries.
+
+      First Pulse.No Parent excludes earlier selected same-fluid source parents. The no-incoming flux target asks for a quantitative vanishing of all incoming source or field flux through a global transported boundary.
+
+      A nonselected packet family, a diffuse legal source cloud, or incoming far-field energy can cross the transported boundary without producing a bounded earlier selected source parent. Thus first-pulse no-parent gives a graph selection exclusion and no global flux estimate.
+
+      The B ASAC clauses remove paid exits and ASAC-paid defect. They leave the retained native source residue as the live object. The clauses classify a terminal Zeno survivor; they supply no transported-boundary tightness or weighted ancient decay.
+
+      \[
+      F_m^{src,+}(s,x)=m\mathbf 1_{(-1/m,0]}(s)\rho(x),
+      \qquad \rho\in C_c(B_1),\quad \rho\ge0,
+      \]
+
+      Thus a useful lateral/global no-incoming theorem controls spatial or backward-boundary inflow and leaves terminal time-face concentration as a separate obstruction.
+
+      A full parabolic-boundary definition that counts the terminal time face can detect the source atom. Under that definition, nonzero terminal
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC No Incoming Flux / Transported Cylinder
+      NoFlux attempt
+    line_start: 32690
+    line_end: 32730
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32690
+    start_anchor: "\\subsection{Clay problem B ASAC No Incoming Flux / Transported
+      Cylinder NoFlux attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier
+      Stop}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC No Incoming Flux / Transported Cylinder NoFlux attempt}
+
+      for the B ASAC tangent class produced by ASACDefect Measure.A and Terminal NoFree Sink Equality Class Production.A.
+
+      The desired statement is: for every transported same-fluid cylinder exhaustion in the B ASAC tangent object, the incoming boundary contribution vanishes, so the positive terminal source residue cannot be replenished by external flux.
+
+      This is a strong tangent bookkeeping class. It records the surviving terminal source-residue branch after ASAC and legal routing.
+
+      \[
+      \Delta E(Q_R^\Phi)
+      +
+      D(Q_R^\Phi)
+      =
+      Source(Q_R^\Phi)
+      +Flux_{\partial Q_R^\Phi}
+      +Pressure/Cutoff(Q_R^\Phi).
+      \]
+
+      Legal pressure/cutoff terms are routed by the installed records. The same-fluid transport removes artificial carrier mismatch. The remaining physical boundary flux through the transported cylinder requires a trace/exhaustion control.
+
+      A local identity identifies the flux term. It does not force that term to vanish uniformly over an exhaustion. The target needs a global no-incoming theorem, not just the local balance formula.
+
+      Same-fluid transport keeps the cylinder attached to the selected carrier and preserves route identity. This eliminates off-family bookkeeping errors.
+
+      Physical flux can still cross the moving boundary through velocity/pressure tails, local strain transport, or unselected components of the tangent object. Same-fluid fidelity says the bookkeeping carrier is coherent; it does not impose impermeability of every transported boundary.
+
+      ASAC pays the active signed pair-weight defect channel. Zero ASAC defect in the tangent class says that retained ASAC-paid angular leakage has vanished.
+
+      The transported-cylinder flux target is broader. It includes boundary traces, pressure-coupled inflow, and spatial exhaustion tails. These channels are outside the ASAC pair-defect measure unless an additional theorem identifies them with ASAC leakage.
+
+      So zero ASAC defect supplies one paid chann
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Post-Diagnostic Forward Supplier Stop
+    line_start: 32731
+    line_end: 32747
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32731
+    start_anchor: "\\subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier
+      Stop}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Pressure Fork Closure Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier Stop}
+
+      On a retained Pack+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)
+      \]
+
+      Order-one terminal source charge can live in a diffuse near-terminal legal cloud whose individual selected weights vanish while the total mass survives.
+
+      Selected no-parent ancestry controls selected source parents. The transported theorem requires global tightness for kinetic, pressure, and nonselected incoming flux, plus terminal time-face anti-atom control.
+
+      B ASAC UI ( ) gives residue Liouville through uniform integrability of the temporal source marginals. Production of B ASAC UI ( ) from raw B ASAC failed by the same terminal concentration witness.
+
+      Further attempts that reuse only zero ASAC defect, selected no-parent, local L 1 t source mass, finite/non-Zeno donor removal, and paid legal exits will reproduce the same terminal atom obstruction.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Preterminal Parent-Cloud Concentration Direct
+      Attempt
+    line_start: 32814
+    line_end: 32844
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32814
+    start_anchor: "\\subsection{Clay problem B ASAC Preterminal Parent-Cloud Concentration
+      Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry
+      Reduced-List Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC Preterminal Parent-Cloud Concentration Direct Attempt}
+
+      Direct attempt on the parent-cloud concentration theorem below the B ASAC equality route.
+
+      Statement: if a produced B ASAC terminal source-residue object has nonzero terminal source charge, then for some a>0, R 0, a bounded selected same-fluid source-parent family in B R [-1,-a] carries mass at least , unless a legal/projected/cutoff/boundary exit, finite or non-Zeno donor-refill exit, or nonzero ASAC-paid defect occurs.
+
+      B ASAC excludes fixed earlier selected source slices, paid legal exits, finite donor-refill, non-Zeno refill, and ASAC-paid defect. It retains terminal Zeno source support and a nonzero native positive source residue.
+
+      Order-one terminal source charge gives order-one total source mass in shrinking terminal layers. A pigeonhole argument can select a time layer where the density is large. The selected layer may still lie in (- m,0] with m 0.
+
+      The desired conclusion needs a fixed preterminal gap a>0. Total mass alone gives no such gap. The terminal model
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)
+      \]
+
+      A selected-parent compactness proof would need a threshold forcing one bounded selected family from the diffuse cloud. The obstruction is a cloud of many near-terminal legal pieces whose individual selected weights vanish while the total source charge remains order one.
+
+      First Pulse.No Parent states that no earlier selected same-fluid source parent exists. This is an exclusion, rather than a concentration mechanism. Combined with finite and non-Zeno donor removal, it identifies terminal Zeno source ancestry as the remaining case.
+
+      It gives the conclusion only if a separate concentration theorem first turns nonzero terminal charge into a fixed earlier selected parent.
+
+      Zero ASAC defect removes paid angular and pair-weight leakage. Parent-cloud concentration needs a compactness estimate on source ancestry and time scales. These are distinct records.
+
+      A diffuse terminal Zeno cloud can
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Quantized Parent / Minimal Ancestry Reduced-List
+      Audit
+    line_start: 32845
+    line_end: 32860
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32845
+    start_anchor: "\\subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry
+      Reduced-List Audit}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Production Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry Reduced-List Audit}
+
+      A successful theorem would generate a finite or quantized obstruction to the infinite same-fluid terminal refill ancestry in B ASAC closed,min.
+
+      \[
+      Charge(P^-\to P)\ge \eta Charge(P),
+      \qquad \eta>0.
+      \]
+
+      Current same-fluid ancestry, bounded overlap, finite donor identities, and zero ASAC defect allow diffuse legal parent clouds. Total child charge remains positive while every legal parent share tends to zero.
+
+      The extracted object keeps the same terminal zero-thickness source atom. Scale minimization fails along r k 0; source normalization gives a unit atom; entropy minimization returns diffuse parent clouds; compactness adds no self-similarity, Type-I control, finite ancient energy, temporal spread, or Liouville class.
+
+      Forward discharge through this family requires a genuinely new parent-cloud concentration, finite branching alphabet, quantized resource, or minimal-object rigidity theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Reverse-Holder Production Direct Attempt
+    line_start: 32861
+    line_end: 32900
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32861
+    start_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Production Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC Reverse-Holder Production Direct Attempt}
+
+      Direct attempt to produce the temporal reverse-Holder rigid subclass from installed B ASAC inputs.
+
+      \[
+      \left\|\,\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,\right\|_{L^p_s((-1,0))}\le C_R.
+      \]
+
+      By BASACReverse Holder Rigid Subclass Liouville.A, this would imply the desired residue Liouville statement for the produced class.
+
+      Zero ASAC defect removes paid active-alignment / pair-weight leakage. It gives no convexity, oscillation, or self-improving estimate for the remaining native source time marginal.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)
+      \]
+
+      \[
+      \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty
+      \qquad(p>1).
+      \]
+
+      This witness is compatible with zero ASAC defect once the ASAC-paid angular leakage is absent from the retained branch.
+
+      \[
+      \int_{-1/m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds.
+      \]
+
+      On a vanishing heat-time layer, the semigroup is close to the identity at the terminal scale. Local smoothing supplies compactness away from the terminal face and supplies no uniform lower thickness for the source time support.
+
+      First Pulse.No Parent rules out a fixed earlier selected same-fluid source parent. Together with Local Donor Balance.A + Entrance Leaf Decay.A, it removes finite and non-Zeno refill trees.
+
+      A diffuse terminal Zeno parent cloud remains compatible with these clauses: order-one total mass may be carried by increasingly many near-terminal legal pieces, with every fixed negative-time selected subfamily disappearing in the limit.
+
+      A class-specific transported no-flux theorem would close the production route by preventing source mass from entering through the frozen-strain transported boundary.
+
+      The existing direct attempts on No Incoming Flux global.A and Transported Cylinder NoFlux.A identify the missing estimate: first-pulse ancestry controls selected positive source parents, while full transported no-flux must control kinetic energy, pressure energy, and nonselected packet flux through incoming far-field channels
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville
+    line_start: 32901
+    line_end: 32942
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32901
+    start_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass
+      Liouville}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Shared Participation Flux Balance.A
+      Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville}
+
+      The residue Liouville statement follows once a genuine temporal reverse-Holder source residence bound is added to the produced equality class. The remaining production burden is recorded below.
+
+      \[
+      \left\|\,\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,\right\|_{L^p_s((-1,0))}\le C_R
+      \]
+
+      Let K B R be compact, and let C c(B R) satisfy 0 1. For 0< <1, choose C c((-2 , )) with 0 1 and (0)=1.
+
+      \[
+      \int \psi(x)\chi_\delta(s)\,d\mu_*^{src}(x,s)
+      =
+      \lim_{m\to\infty}
+      \int \psi(x)\chi_\delta(s)\,dF_m^{src,+}(x,s).
+      \]
+
+      \[
+      \int \psi\chi_\delta\,dF_m^{src,+}
+      \le
+      \int_{-2\delta}^{0}
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds.
+      \]
+
+      \[
+      \int_{-2\delta}^{0}
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds
+      \le
+      (2\delta)^{1-1/p} C_R.
+      \]
+
+      \[
+      \int \psi(x)\chi_\delta(s)\,d\mu_*^{src}(x,s)
+      \le
+      (2\delta)^{1-1/p} C_R.
+      \]
+
+      The prior Terminal Source Reverse Holder B ASAC .A direct attempt shows that the current B ASAC clauses do not produce this upgrade from installed ASAC, legal, donor, first-pulse, or local L 1 t source records. The scalar terminal model
+
+      Thus the residue Liouville theorem closes for a concrete stronger subclass, while the production theorem B ASAC => B ASAC RH(p) remains the next genuine route burden.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder
+      Direct Attempt
+    line_start: 33076
+    line_end: 33117
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33076
+    start_anchor: "\\subsection{Clay problem B ASAC Temporal Anti-Concentration /
+      Reverse-Holder Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Terminal Atom CM Face Labeling}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder Direct Attempt}
+
+      Direct attempt on the temporal analytic theorem below the B ASAC equality route.
+
+      Prove one of the equivalent temporal anti-atom estimates for the native positive source marginal in B ASAC.
+
+      Either estimate implies Zeno Residue Liouville B ASAC .A by the terminal-layer cutoff argument already recorded for the reverse-Holder rigid subclass.
+
+      B ASAC gives same-fluid terminal carrier, no earlier selected source slice, zero ASAC defect, removed paid legal exits, removed finite and non-Zeno donor exits, terminal Zeno source support, and a nonzero inherited native positive source residue.
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+      \]
+
+      Finite source mass controls total mass on [-1,0]. It gives no uniform exponent for the last units of heat time. A sequence can place order-one mass in a terminal layer whose thickness tends to zero while preserving the same total mass bound.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)
+      \]
+
+      Zero ASAC defect removes the active-alignment / one-sided pair-weight leakage paid by ASAC. This is an angular and pair-weight bookkeeping equality. The desired estimate is a time-density statement for the remaining native positive source measure.
+
+      \[
+      s\mapsto \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}.
+      \]
+
+      The same terminal concentration profile can carry zero ASAC defect after the paid angular leakage is removed.
+
+      \[
+      \int_{-\epsilon_m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds,
+      \qquad \epsilon_m\downarrow0.
+      \]
+
+      At normalized terminal heat time, the semigroup supplies compactness away from the terminal face. On a layer whose thickness tends to zero, the semigroup gives no quantitative lower residence time. Hence positive viscosity alone supplies no terminal anti-concentration exponent.
+
+      The B ASAC clauses remove finite donor trees and non-Zeno refill. They allow an infinite terminal Zeno refill stack. Counting selected parents gives ancestry exclusion for fi
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem No Incoming Flux B ASAC .A Direct Attempt}
+
+    Direct attempt after Uniform Temporal Source Integrability p,B ASAC .A stayed open.
+
+    Outcome: open in the useful lateral/global-incoming sense. The attempt separates spatial no-incoming flux from terminal time-face source concentration.
+
+    If combined with an explicit time-face anti-atom theorem, this would feed Zeno Residue Liouville B ASAC .A.
+
+    The B ASAC class gives no earlier selected source slice, zero ASAC defect, removed legal/projected/cutoff/boundary exits, removed finite and non-Zeno donor exits, and terminal Zeno source support. The source account gives local finite L 1 s mass.
+
+    The older No Incoming Flux global.A attempt shows that First Pulse.No Parent controls selected source ancestry and supplies no full-field incoming flux bound through transported backward boundaries.
+
+    First Pulse.No Parent excludes earlier selected same-fluid source parents. The no-incoming flux target asks for a quantitative vanishing of all incoming source or field flux through a global transported boundary.
+
+    A nonselected packet family, a diffuse legal source cloud, or incoming far-field energy can cross the transported boundary without producing a bounded earlier selected source parent. Thus first-pulse no-parent gives a graph selection exclusion and no global flux estimate.
+
+    The B ASAC clauses remove paid exits and ASAC-paid defect. They leave the retained native source residue as the live object. The clauses classify a terminal Zeno survivor; they supply no transported-boundary tightness or weighted ancient decay.
+
+    \[
+    F_m^{src,+}(s,x)=m\mathbf 1_{(-1/m,0]}(s)\rho(x),
+    \qquad \rho\in C_c(B_1),\quad \rho\ge0,
+    \]
+
+    Thus a useful lateral/global no-incoming theorem controls spatial or backward-boundary inflow and leaves terminal time-face concentration as a separate obstruction.
+
+    A full parabolic-boundary definition that counts the terminal time face can detect the source atom. Under that definition, nonzero terminal source charge appears as the boundary flux itself.
+
+    That reformulation is diagnostic rather than a Liouville theorem. It restates the live terminal atom and gives no mechanism forcing its vanishing.
+
+    No Incoming Flux B ASAC .A remains open as a useful analytic supplier. The available class data do not produce global transported-boundary no-incoming, and lateral no-incoming leaves compact terminal time-face atoms admissible.
+
+
+
+    \subsection{Clay problem B ASAC No Incoming Flux / Transported Cylinder NoFlux attempt}
+
+    for the B ASAC tangent class produced by ASACDefect Measure.A and Terminal NoFree Sink Equality Class Production.A.
+
+    The desired statement is: for every transported same-fluid cylinder exhaustion in the B ASAC tangent object, the incoming boundary contribution vanishes, so the positive terminal source residue cannot be replenished by external flux.
+
+    This is a strong tangent bookkeeping class. It records the surviving terminal source-residue branch after ASAC and legal routing.
+
+    \[
+    \Delta E(Q_R^\Phi)
+    +
+    D(Q_R^\Phi)
+    =
+    Source(Q_R^\Phi)
+    +Flux_{\partial Q_R^\Phi}
+    +Pressure/Cutoff(Q_R^\Phi).
+    \]
+
+    Legal pressure/cutoff terms are routed by the installed records. The same-fluid transport removes artificial carrier mismatch. The remaining physical boundary flux through the transported cylinder requires a trace/exhaustion control.
+
+    A local identity identifies the flux term. It does not force that term to vanish uniformly over an exhaustion. The target needs a global no-incoming theorem, not just the local balance formula.
+
+    Same-fluid transport keeps the cylinder attached to the selected carrier and preserves route identity. This eliminates off-family bookkeeping errors.
+
+    Physical flux can still cross the moving boundary through velocity/pressure tails, local strain transport, or unselected components of the tangent object. Same-fluid fidelity says the bookkeeping carrier is coherent; it does not impose impermeability of every transported boundary.
+
+    ASAC pays the active signed pair-weight defect channel. Zero ASAC defect in the tangent class says that retained ASAC-paid angular leakage has vanished.
+
+    The transported-cylinder flux target is broader. It includes boundary traces, pressure-coupled inflow, and spatial exhaustion tails. These channels are outside the ASAC pair-defect measure unless an additional theorem identifies them with ASAC leakage.
+
+    So zero ASAC defect supplies one paid channel, not the global no-incoming flux theorem.
+
+    The equality class removes named legal exits from the selected record. This means the surviving source residue is not paid by projected/cutoff/boundary legal-loss accounting.
+
+    That condition is a classification of the branch. It is compatible with a physical incoming flux term that is invisible to the selected legal-exit record or survives in the tangent exhaustion. Turning record absence into physical no-incoming flux requires a separate trace theorem.
+
+    \[
+    \lim_{R\to\infty}Flux_{\partial Q_R^\Phi}=0.
+    \]
+
+
+
+    \subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier Stop}
+
+    On a retained Pack+Part branch it lands in Field by Retained Zeno Atom Field Exit.A.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)
+    \]
+
+    Order-one terminal source charge can live in a diffuse near-terminal legal cloud whose individual selected weights vanish while the total mass survives.
+
+    Selected no-parent ancestry controls selected source parents. The transported theorem requires global tightness for kinetic, pressure, and nonselected incoming flux, plus terminal time-face anti-atom control.
+
+    B ASAC UI ( ) gives residue Liouville through uniform integrability of the temporal source marginals. Production of B ASAC UI ( ) from raw B ASAC failed by the same terminal concentration witness.
+
+    Further attempts that reuse only zero ASAC defect, selected no-parent, local L 1 t source mass, finite/non-Zeno donor removal, and paid legal exits will reproduce the same terminal atom obstruction.
+
+
+
+    \subsection{Clay problem B ASAC Preterminal Parent-Cloud Concentration Direct Attempt}
+
+    Direct attempt on the parent-cloud concentration theorem below the B ASAC equality route.
+
+    Statement: if a produced B ASAC terminal source-residue object has nonzero terminal source charge, then for some a>0, R 0, a bounded selected same-fluid source-parent family in B R [-1,-a] carries mass at least , unless a legal/projected/cutoff/boundary exit, finite or non-Zeno donor-refill exit, or nonzero ASAC-paid defect occurs.
+
+    B ASAC excludes fixed earlier selected source slices, paid legal exits, finite donor-refill, non-Zeno refill, and ASAC-paid defect. It retains terminal Zeno source support and a nonzero native positive source residue.
+
+    Order-one terminal source charge gives order-one total source mass in shrinking terminal layers. A pigeonhole argument can select a time layer where the density is large. The selected layer may still lie in (- m,0] with m 0.
+
+    The desired conclusion needs a fixed preterminal gap a>0. Total mass alone gives no such gap. The terminal model
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)
+    \]
+
+    A selected-parent compactness proof would need a threshold forcing one bounded selected family from the diffuse cloud. The obstruction is a cloud of many near-terminal legal pieces whose individual selected weights vanish while the total source charge remains order one.
+
+    First Pulse.No Parent states that no earlier selected same-fluid source parent exists. This is an exclusion, rather than a concentration mechanism. Combined with finite and non-Zeno donor removal, it identifies terminal Zeno source ancestry as the remaining case.
+
+    It gives the conclusion only if a separate concentration theorem first turns nonzero terminal charge into a fixed earlier selected parent.
+
+    Zero ASAC defect removes paid angular and pair-weight leakage. Parent-cloud concentration needs a compactness estimate on source ancestry and time scales. These are distinct records.
+
+    A diffuse terminal Zeno cloud can carry zero ASAC defect after the ASAC-paid leakage has vanished.
+
+    BASACPreterminal Parent Cloud Concentration.A remains open from installed inputs.
+
+    Current B ASAC data classify the diffuse terminal Zeno parent cloud; they do not compact it into a fixed earlier selected parent.
+
+
+
+    \subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry Reduced-List Audit}
+
+    A successful theorem would generate a finite or quantized obstruction to the infinite same-fluid terminal refill ancestry in B ASAC closed,min.
+
+    \[
+    Charge(P^-\to P)\ge \eta Charge(P),
+    \qquad \eta>0.
+    \]
+
+    Current same-fluid ancestry, bounded overlap, finite donor identities, and zero ASAC defect allow diffuse legal parent clouds. Total child charge remains positive while every legal parent share tends to zero.
+
+    The extracted object keeps the same terminal zero-thickness source atom. Scale minimization fails along r k 0; source normalization gives a unit atom; entropy minimization returns diffuse parent clouds; compactness adds no self-similarity, Type-I control, finite ancient energy, temporal spread, or Liouville class.
+
+    Forward discharge through this family requires a genuinely new parent-cloud concentration, finite branching alphabet, quantized resource, or minimal-object rigidity theorem.
+
+
+
+    \subsection{Clay problem B ASAC Reverse-Holder Production Direct Attempt}
+
+    Direct attempt to produce the temporal reverse-Holder rigid subclass from installed B ASAC inputs.
+
+    \[
+    \left\|\,\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,\right\|_{L^p_s((-1,0))}\le C_R.
+    \]
+
+    By BASACReverse Holder Rigid Subclass Liouville.A, this would imply the desired residue Liouville statement for the produced class.
+
+    Zero ASAC defect removes paid active-alignment / pair-weight leakage. It gives no convexity, oscillation, or self-improving estimate for the remaining native source time marginal.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)
+    \]
+
+    \[
+    \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty
+    \qquad(p>1).
+    \]
+
+    This witness is compatible with zero ASAC defect once the ASAC-paid angular leakage is absent from the retained branch.
+
+    \[
+    \int_{-1/m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds.
+    \]
+
+    On a vanishing heat-time layer, the semigroup is close to the identity at the terminal scale. Local smoothing supplies compactness away from the terminal face and supplies no uniform lower thickness for the source time support.
+
+    First Pulse.No Parent rules out a fixed earlier selected same-fluid source parent. Together with Local Donor Balance.A + Entrance Leaf Decay.A, it removes finite and non-Zeno refill trees.
+
+    A diffuse terminal Zeno parent cloud remains compatible with these clauses: order-one total mass may be carried by increasingly many near-terminal legal pieces, with every fixed negative-time selected subfamily disappearing in the limit.
+
+    A class-specific transported no-flux theorem would close the production route by preventing source mass from entering through the frozen-strain transported boundary.
+
+    The existing direct attempts on No Incoming Flux global.A and Transported Cylinder NoFlux.A identify the missing estimate: first-pulse ancestry controls selected positive source parents, while full transported no-flux must control kinetic energy, pressure energy, and nonselected packet flux through incoming far-field channels.
+
+    The produced equality class has a valid rigid subclass Liouville theorem after adding the p>1 source residence bound, but current B ASAC data do not produce that bound.
+
+
+
+    \subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville}
+
+    The residue Liouville statement follows once a genuine temporal reverse-Holder source residence bound is added to the produced equality class. The remaining production burden is recorded below.
+
+    \[
+    \left\|\,\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,\right\|_{L^p_s((-1,0))}\le C_R
+    \]
+
+    Let K B R be compact, and let C c(B R) satisfy 0 1. For 0< <1, choose C c((-2 , )) with 0 1 and (0)=1.
+
+    \[
+    \int \psi(x)\chi_\delta(s)\,d\mu_*^{src}(x,s)
+    =
+    \lim_{m\to\infty}
+    \int \psi(x)\chi_\delta(s)\,dF_m^{src,+}(x,s).
+    \]
+
+    \[
+    \int \psi\chi_\delta\,dF_m^{src,+}
+    \le
+    \int_{-2\delta}^{0}
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds.
+    \]
+
+    \[
+    \int_{-2\delta}^{0}
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds
+    \le
+    (2\delta)^{1-1/p} C_R.
+    \]
+
+    \[
+    \int \psi(x)\chi_\delta(s)\,d\mu_*^{src}(x,s)
+    \le
+    (2\delta)^{1-1/p} C_R.
+    \]
+
+    The prior Terminal Source Reverse Holder B ASAC .A direct attempt shows that the current B ASAC clauses do not produce this upgrade from installed ASAC, legal, donor, first-pulse, or local L 1 t source records. The scalar terminal model
+
+    Thus the residue Liouville theorem closes for a concrete stronger subclass, while the production theorem B ASAC => B ASAC RH(p) remains the next genuine route burden.
+
+
+
+    \subsection{Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder Direct Attempt}
+
+    Direct attempt on the temporal analytic theorem below the B ASAC equality route.
+
+    Prove one of the equivalent temporal anti-atom estimates for the native positive source marginal in B ASAC.
+
+    Either estimate implies Zeno Residue Liouville B ASAC .A by the terminal-layer cutoff argument already recorded for the reverse-Holder rigid subclass.
+
+    B ASAC gives same-fluid terminal carrier, no earlier selected source slice, zero ASAC defect, removed paid legal exits, removed finite and non-Zeno donor exits, terminal Zeno source support, and a nonzero inherited native positive source residue.
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+    \]
+
+    Finite source mass controls total mass on [-1,0]. It gives no uniform exponent for the last units of heat time. A sequence can place order-one mass in a terminal layer whose thickness tends to zero while preserving the same total mass bound.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)
+    \]
+
+    Zero ASAC defect removes the active-alignment / one-sided pair-weight leakage paid by ASAC. This is an angular and pair-weight bookkeeping equality. The desired estimate is a time-density statement for the remaining native positive source measure.
+
+    \[
+    s\mapsto \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}.
+    \]
+
+    The same terminal concentration profile can carry zero ASAC defect after the paid angular leakage is removed.
+
+    \[
+    \int_{-\epsilon_m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds,
+    \qquad \epsilon_m\downarrow0.
+    \]
+
+    At normalized terminal heat time, the semigroup supplies compactness away from the terminal face. On a layer whose thickness tends to zero, the semigroup gives no quantitative lower residence time. Hence positive viscosity alone supplies no terminal anti-concentration exponent.
+
+    The B ASAC clauses remove finite donor trees and non-Zeno refill. They allow an infinite terminal Zeno refill stack. Counting selected parents gives ancestry exclusion for fixed earlier slices, while temporal anti-concentration requires a quantitative lower thickness for the entire native source marginal.
+
+    The attempted counting route so returns to preterminal parent-cloud concentration.
+
+    The current B ASAC clauses classify the terminal source atom. They do not supply the temporal exponent needed to eliminate it.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No Incoming Flux B ASAC .A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32658
+  line_start: 32658
+  line_end: 32689
+  start_anchor: "\\subsection{Clay problem No Incoming Flux B ASAC .A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC No Incoming Flux / Transported Cylinder
+    NoFlux attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No Incoming Flux
+    B ASAC .A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32658
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC No Incoming Flux / Transported Cylinder NoFlux
+    attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32690
+  line_start: 32690
+  line_end: 32730
+  start_anchor: "\\subsection{Clay problem B ASAC No Incoming Flux / Transported Cylinder
+    NoFlux attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier Stop}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC No Incoming
+    Flux / Transported Cylinder NoFlux attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32690
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Post-Diagnostic Forward Supplier Stop
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32731
+  line_start: 32731
+  line_end: 32747
+  start_anchor: "\\subsection{Clay problem B ASAC Post-Diagnostic Forward Supplier
+    Stop}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Pressure Fork Closure Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Post-Diagnostic
+    Forward Supplier Stop as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32731
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Preterminal Parent-Cloud Concentration Direct
+    Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32814
+  line_start: 32814
+  line_end: 32844
+  start_anchor: "\\subsection{Clay problem B ASAC Preterminal Parent-Cloud Concentration
+    Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry
+    Reduced-List Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Preterminal
+    Parent-Cloud Concentration Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32814
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Quantized Parent / Minimal Ancestry Reduced-List
+    Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32845
+  line_start: 32845
+  line_end: 32860
+  start_anchor: "\\subsection{Clay problem B ASAC Quantized Parent / Minimal Ancestry
+    Reduced-List Audit}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Production Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Quantized
+    Parent / Minimal Ancestry Reduced-List Audit as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32845
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Reverse-Holder Production Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32861
+  line_start: 32861
+  line_end: 32900
+  start_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Production Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Reverse-Holder
+    Production Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32861
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32901
+  line_start: 32901
+  line_end: 32942
+  start_anchor: "\\subsection{Clay problem B ASAC Reverse-Holder Rigid Subclass Liouville}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Shared Participation Flux Balance.A
+    Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Reverse-Holder
+    Rigid Subclass Liouville as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32901
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder
+    Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33076
+  line_start: 33076
+  line_end: 33117
+  start_anchor: "\\subsection{Clay problem B ASAC Temporal Anti-Concentration / Reverse-Holder
+    Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Terminal Atom CM Face Labeling}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Temporal
+    Anti-Concentration / Reverse-Holder Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33076
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-13
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-13.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

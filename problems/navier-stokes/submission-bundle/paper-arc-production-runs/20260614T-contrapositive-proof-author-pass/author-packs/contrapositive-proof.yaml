@@ -1,0 +1,78 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: contrapositive-proof
+batch_id: contrapositive-proof-author-pack-20260614T052035Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Contrapositive Logic
+  spine_id: the-contrapositive-logic
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:718
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:718
+  endpoint_status: silver CM face payment
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  reader_payment_notes:
+    plain_explanation: "The section now explains that the contrapositive starts only after the same-solution terminal record Q has been selected, and that no datum, equation, viscosity, pressure law, or terminal time is changed."
+    derivation_or_proof_payment: "It spells out the continuation-complete packet and the local H^s restart argument: a uniform H^s bound gives a lifespan delta(M,nu), and restarting from t0<T* extends the same branch past T*."
+    endpoint_status: silver CM face payment
+  math_reader_critic:
+    claim_truth_attack: "The strongest claim is that an admitted finite obstruction must lose a Pack/Part/Field face. The text now pays that by showing that a retained packet plus H^s readout contradicts finite terminal obstruction through local restart."
+    reader_thread_attack: "A reader could previously lose the thread at 'installed certificate' or 'standard continuation criterion.' Those status phrases were removed and replaced with the same-record question and the explicit H^s continuation mechanism."
+    unpaid_derivation_attack: "No derivation jump remains for the local continuation step in this arc; the restart mechanism is written on the page."
+    repair_decision: passes after repair
+    unresolved_failures: []
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Class-Law Proof
+  spine_id: the-class-law-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:785
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:785
+  endpoint_status: silver CM face payment
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  reader_payment_notes:
+    plain_explanation: "The section now reads one selected record in one fixed order: Pack, then Part, then Field, with Member(Q) and Exit(Q) stated as conclusions about that same Q."
+    derivation_or_proof_payment: "The proof defines a continuation-complete packet, proves the witness certificate, and gives the Pack-first case split. In the Field case it repeats the H^s restart calculation with M=sup_{t<T*}||u(t)||_{H^s} and delta(M,nu)."
+    endpoint_status: silver CM face payment
+  math_reader_critic:
+    claim_truth_attack: "The strongest claim is the finite witness face classification. The section now derives it as a first-failure case split and shows why retained Pack, Part, Field, and readout contradict the finite obstruction assumption."
+    reader_thread_attack: "The section avoids route-label prose and keeps the reader on the same object Q, the witness faces, the membership predicate, and the exit conclusion."
+    unpaid_derivation_attack: "The H^s continuation contradiction is written in the proof, and the annular residual calculation remains displayed in the same section."
+    repair_decision: passes after repair
+    unresolved_failures: []
+author_contract:
+  arc_id: contrapositive-proof
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction, or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - "(contrapositive|class.law|Exit)"
+  - "(Pack|Part|Field)"
+  - "(Member|class)"
+  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof payment, endpoint status, or a sourced exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section build

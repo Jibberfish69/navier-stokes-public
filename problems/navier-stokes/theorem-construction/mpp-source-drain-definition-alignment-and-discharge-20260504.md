@@ -97,9 +97,9 @@ R^{off}_{j,k}.
 
 | residual term | operator source | exact formula / description | norm and estimate | status | downstream consumer |
 |---|---|---|---|---|---|
-| `R^{comm}_{j,k}` | commutator after principal-strain extraction | `[\Delta_j,b_k\cdot\nabla]w_j-\text{principal strain part}` | `\|R^{comm}\|_{L_t^2H^{-1}}^2\lesssim\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
-| `R^{press}_{j,k}` | pressure / Leray projection | `\nabla\Delta_jp-\text{localized Leray projection}` with local pressure normalization | `\|R^{press}\|_{L_t^2H^{-1}}^2\lesssim\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
-| `R^{cut}_{j,k}` | heat-cylinder cutoff commutator | `[\partial_t+b_k\cdot\nabla-\nu\Delta,\eta_T]w_j` | `\|R^{cut}\|_{L_t^2H^{-1}}^2\lesssim\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
+| `R^{comm}_{j,k}` | commutator after principal-strain extraction | `[\Delta_j,b_k\cdot\nabla]w_j-\text{principal strain part}` | `\|R^{comm}\|_{L_t^2H^{-1}}^2\le C_{\mathrm{comm}}\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
+| `R^{press}_{j,k}` | pressure / Leray projection | `\nabla\Delta_jp-\text{localized Leray projection}` with local pressure normalization | `\|R^{press}\|_{L_t^2H^{-1}}^2\le C_{\mathrm{press}}\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
+| `R^{cut}_{j,k}` | heat-cylinder cutoff commutator | `[\partial_t+b_k\cdot\nabla-\nu\Delta,\eta_T]w_j` | `\|R^{cut}\|_{L_t^2H^{-1}}^2\le C_{\mathrm{cut}}\int\sum_{q>N}D_q` | locked | `WeightedAdjRes.A` |
 | `R^{off}_{j,k}` | off-packet shell interaction | Shell-separated remainder outside the same-fluid bounded-overlap packet family | `\|R^{off}\|_{L_t^2H^{-1}}^2=o_N(1)` | locked | `WeightedAdjRes.A` |
 
 Therefore
@@ -160,7 +160,7 @@ the same residue object consumed by `SOURCE.NO-PULSE.A`.
 
 The following replacements are now the lane-typed language for this route:
 
-| schematic phrase | lane-typed phrase | reason |
+| old phrase | lane-typed phrase | reason |
 |---|---|---|
 | packet / tile | same-fluid bounded-overlap terminal tile | separates physical heat cylinders from global Fourier-shell products |
 | source residue | localized positive pre-Cauchy source residue | pins the object to `F^{src}_{>1/r}` and weak measure convergence |

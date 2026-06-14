@@ -1,0 +1,843 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-pressure-and-participation-02
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-02
+  sequence: 55
+  group_id: pressure-and-participation
+  title: Pressure and participation 2
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 16846
+  line_end: 19564
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16846
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17105
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17179
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17216
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17968
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19022
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19311
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19552
+  subsection_titles:
+  - DG-Line Anisotropy Drain From Reduced Strain Spectral Alignment
+  - Direct Strain Side Route Via Vorticity Alignment Depletion
+  - Dtc Read Completion With Pressure Poisson Component Dtc A
+  - Dtc Read Kq Pressure Poisson Cover Depth
+  - Exact SCF Pressure Normalization Lemma
+  - Full PFlux Supplier Closure From Near And Far Pressure Summability
+  - Integrable Label-Modulus Strain Test
+  - Matching pressure/source upper bound for the Jump avg defect charge - failed attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: DG-Line Anisotropy Drain From Reduced Strain Spectral Alignment
+    line_start: 16846
+    line_end: 16862
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16846
+    start_anchor: "\\subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral
+      Alignment}\n"
+    end_anchor: "\\subsection{DG-Line In-Plane Anisotropy Drain Reduction}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral Alignment}
+
+      Let S parallel be the symmetric reduced strain on the two-plane. Let e + , e - be an orthonormal eigenbasis with eigenvalues
+
+      Let u 1,u 2 be the principal directions of the reduced Gramian A J. Define alignment defects
+
+      \[
+      a_1 = ||(I-e_+e_+^T)u_1||^2,
+      qquad
+      a_2 = ||(I-e_-e_-^T)u_2||^2.
+      \]
+
+      \[
+      r_J := (s_+-s_-)(a_1+a_2) + r_J^{comm},
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Direct Strain Side Route Via Vorticity Alignment Depletion
+    line_start: 17105
+    line_end: 17126
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17105
+    start_anchor: "\\subsection{Direct Strain Side Route Via Vorticity Alignment Depletion}\n"
+    end_anchor: "\\subsection{DissipationACTo Source Residence.External Candidate}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Direct Strain Side Route Via Vorticity Alignment Depletion}
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty(0,T_*).
+      \]
+
+      Let e(a,t) be a unit stretching direction for the largest singular value of the deformation gradient. The sharp packet coefficient is
+
+      \[
+      S_{align,Q}(t)=\sup_{a\in A_Q(t)}(e(a,t)\cdot S(u)(X(a,t),t)e(a,t))_+.
+      \]
+
+      \[
+      S_{align,Q}(t)
+      \le C\,\mathcal A_Q(t)\,\Omega_Q(t)+R_Q(t),
+      \]
+
+      where mathcal A Q measures vorticity-direction coherence or alignment on the packet, Omega Q is a packet vorticity amplitude, and R Q is an integrable far/local remainder.
+
+      The direct strain route is reduced to an alignment-depletion estimate for the positive directional strain. This side route bypasses the averaged terminal-tail machinery and would give an independent pack-gauge proof if completed.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Dtc Read Completion With Pressure Poisson Component Dtc A
+    line_start: 17179
+    line_end: 17215
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17179
+    start_anchor: "\\subsection{Dtc Read Completion With Pressure Poisson Component
+      Dtc A}\n"
+    end_anchor: "\\subsection{Dtc Read Kq Pressure Poisson Cover Depth}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Dtc Read Completion With Pressure Poisson Component Dtc A}
+
+      \[
+      \sup |U_q|<\infty
+      \qquad (q\le N).
+      \]
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      The viscous component is controlled by the U q+2 readout, so the local depth includes the required q+2 slots.
+
+      For the pressure component, use the fixed-cover pressure split. On one nested cover element (B i',B i,2B i), choose chi i=1 on B i and supported in 2B i, and write
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+      \le
+      C_{q,\alpha,i}
+      \|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      ATD m epsilon supplies the fixed-cover product-source carrier by local derivative bounds and Leibniz. The harmonic tail obeys
+
+      \[
+      \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+      \le
+      C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Dtc Read Kq Pressure Poisson Cover Depth
+    line_start: 17216
+    line_end: 17247
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17216
+    start_anchor: "\\subsection{Dtc Read Kq Pressure Poisson Cover Depth}\n"
+    end_anchor: "\\subsection{Dtc Read Pointwise Transported Center Recovery Dtc A}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Dtc Read Kq Pressure Poisson Cover Depth}
+
+      \[
+      B_i'\Subset B_i\Subset 2B_i
+      \]
+
+      \[
+      \chi_i\equiv 1\text{ on }B_i,
+      \qquad
+      \operatorname{supp}\chi_i\subset 2B_i.
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      \[
+      \mathcal P_{q,\alpha,i}(t)
+      :=\|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      \[
+      \nabla^{q+1}p_i^{loc}=T_q(\nabla^q(\chi_i u\otimes u)),
+      \]
+
+      The pressure term is supplied by the preceding estimate. The viscous term is a contraction of U q+2 and is supplied by the same fixed-cover tower readout when the depth reaches at least N+2.
+
+      and the right side is controlled by ATD m plus energy on the finite readout cover.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact SCF Pressure Normalization Lemma
+    line_start: 17968
+    line_end: 18004
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17968
+    start_anchor: "\\subsection{Exact SCF Pressure Normalization Lemma}\n"
+    end_anchor: "\\subsection{Explicit CM witness-face bridge after the source-pulse
+      supplier route}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Exact SCF Pressure Normalization Lemma}
+
+      \[
+      p^{norm}=p-c(t)-p^{frame}_{aff}(x,t),
+      \]
+
+      where c(t) is a spatially constant pressure gauge and p frame aff is the affine potential whose gradient equals the inertial affine force produced by the moving frame.
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q
+      \]
+
+      The spatially constant term c(t) has zero spatial gradient. It changes neither the Navier-Stokes equation nor any pressure derivative used by K q.
+
+      The moving frame contributes an inertial affine force. Its potential p frame aff is chosen so that
+
+      \[
+      \nabla p^{frame}_{aff}=F^{frame}_{aff}.
+      \]
+
+      After subtracting this potential, the transformed local energy inequality has the CKN pressure fluctuation p norm . Thus the pressure component of SCF base is
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi}|p^{norm}-(p^{norm})_{Q_r}|^{3/2},
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      The local Poisson estimate controls derivatives of p i loc , and the harmonic tail is controlled by the energy bound. The gauge term c(t) contributes zero spatial derivatives. The affine frame potential contributes only known finite-depth frame terms, already carried in the moving-frame record.
+
+      The route uses gauge/frame normalization. It carries no amplitude-rescaling readout normalization.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Full PFlux Supplier Closure From Near And Far Pressure Summability
+    line_start: 19022
+    line_end: 19044
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19022
+    start_anchor: "\\subsection{Full PFlux Supplier Closure From Near And Far Pressure
+      Summability}\n"
+    end_anchor: "\\subsection{Full-SCF upper side - E u active-window gain reduction}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Full PFlux Supplier Closure From Near And Far Pressure Summability}
+
+      \[
+      \|p-c_k\|_{L^2(A_k)}
+      \le C\|u\otimes u\|_{L^2(A_k^*)}+F_k.
+      \]
+
+      \[
+      \sum_k2^{(2a-1)k}\int\|p-c_k\|_{L^2(A_k)}\|u\|_{L^2(A_k)}
+      \]
+
+      \[
+      \le
+      C\sum_k2^{(2a-1)k}\int\|u\otimes u\|_{L^2(A_k^*)}\|u\|_{L^2(A_k)}
+      +
+      C\sum_k2^{(2a-1)k}\int F_k\|u\|_{L^2(A_k)}.
+      \]
+
+      The first term is finite by near summability. The second is finite by far summability. The annular mean c k(t) contributes no gradient pressure flux after the pressure is represented by the normalized Riesz pressure, or is absorbed into the harmless time normalization on each annulus.
+
+      This theorem closes the pressure-flux supplier conditionally on AnnL4.W and weighted moment control. The sharp remaining source estimate is the weighted annular L4 smoothing theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Integrable Label-Modulus Strain Test
+    line_start: 19311
+    line_end: 19341
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19311
+    start_anchor: "\\subsection{Integrable Label-Modulus Strain Test}\n"
+    end_anchor: "\\subsection{Javg1 Lower Accumulation From Awg A Bridge}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Integrable Label-Modulus Strain Test}
+
+      \[
+      s(a,t):=
+      \|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)\,dt<\infty.
+      \]
+
+      \[
+      \{a_1,\dots,a_J\}\subset A_Q,
+      \]
+
+      \[
+      |s(a,t)-s(b,t)|\le \omega_t(\delta)
+      \qquad\text{whenever }d(a,b)\le\delta,
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\omega_t(\delta)\,dt<\infty.
+      \]
+
+      Compact-time smoothness gives continuity of s( ,t) for each t<T *. It does not give the terminal integrable modulus
+
+      A moving-spike pattern can keep every label integral finite while forcing the supremal integral to diverge. The integrable modulus is precisely the condition that rules out such moving spikes.
+
+      The unresolved theorem is original-data supply of the integrable terminal label modulus.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Matching pressure/source upper bound for the Jump avg defect
+      charge - failed attempt
+    line_start: 19552
+    line_end: 19564
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19552
+    start_anchor: "\\subsection{Matching pressure/source upper bound for the Jump
+      avg defect charge - failed attempt}\n"
+    end_anchor: "\\subsection{Jump avg to separated positive defect charge lower bound
+      - failed attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Matching pressure/source upper bound for the Jump avg defect charge - failed attempt}
+
+      Verify an upper bound for the same charge used in the proposed Jump avg contradiction.
+
+      The intended lower-bound charge is a scale-window defect charge based on the finite--infinitesimal separation defect D h/F . A matching upper bound must control the same charge by finite energy plus verified pressure/source suppliers.
+
+      The accessible surfaces state that flux-source Carleson alone is insufficient for active- Carleson. The missing theorem is an active-shell amplitude gain, an L2 t source theorem with heat-scale gain, or direct active- Carleson control. Another surface records active- upper-tail Carleson as blocked by the missing -source theorem.
+
+      so the pressure/source upper bound for the proposed defect charge is not verified from current surfaces.
+
+      Prove direct active- Carleson control for the charge used by the h/F survivor, or prove a heat-scale -source estimate strong enough to imply it.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral Alignment}
+
+    Let S parallel be the symmetric reduced strain on the two-plane. Let e + , e - be an orthonormal eigenbasis with eigenvalues
+
+    Let u 1,u 2 be the principal directions of the reduced Gramian A J. Define alignment defects
+
+    \[
+    a_1 = ||(I-e_+e_+^T)u_1||^2,
+    qquad
+    a_2 = ||(I-e_-e_-^T)u_2||^2.
+    \]
+
+    \[
+    r_J := (s_+-s_-)(a_1+a_2) + r_J^{comm},
+    \]
+
+
+
+    \subsection{Direct Strain Side Route Via Vorticity Alignment Depletion}
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty(0,T_*).
+    \]
+
+    Let e(a,t) be a unit stretching direction for the largest singular value of the deformation gradient. The sharp packet coefficient is
+
+    \[
+    S_{align,Q}(t)=\sup_{a\in A_Q(t)}(e(a,t)\cdot S(u)(X(a,t),t)e(a,t))_+.
+    \]
+
+    \[
+    S_{align,Q}(t)
+    \le C\,\mathcal A_Q(t)\,\Omega_Q(t)+R_Q(t),
+    \]
+
+    where mathcal A Q measures vorticity-direction coherence or alignment on the packet, Omega Q is a packet vorticity amplitude, and R Q is an integrable far/local remainder.
+
+    The direct strain route is reduced to an alignment-depletion estimate for the positive directional strain. This side route bypasses the averaged terminal-tail machinery and would give an independent pack-gauge proof if completed.
+
+
+
+    \subsection{Dtc Read Completion With Pressure Poisson Component Dtc A}
+
+    \[
+    \sup |U_q|<\infty
+    \qquad (q\le N).
+    \]
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    The viscous component is controlled by the U q+2 readout, so the local depth includes the required q+2 slots.
+
+    For the pressure component, use the fixed-cover pressure split. On one nested cover element (B i',B i,2B i), choose chi i=1 on B i and supported in 2B i, and write
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+    \le
+    C_{q,\alpha,i}
+    \|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    ATD m epsilon supplies the fixed-cover product-source carrier by local derivative bounds and Leibniz. The harmonic tail obeys
+
+    \[
+    \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+    \le
+    C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+    \]
+
+
+
+    \subsection{Dtc Read Kq Pressure Poisson Cover Depth}
+
+    \[
+    B_i'\Subset B_i\Subset 2B_i
+    \]
+
+    \[
+    \chi_i\equiv 1\text{ on }B_i,
+    \qquad
+    \operatorname{supp}\chi_i\subset 2B_i.
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    \[
+    \mathcal P_{q,\alpha,i}(t)
+    :=\|\nabla^q(\chi_i u\otimes u)(t)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    \[
+    \nabla^{q+1}p_i^{loc}=T_q(\nabla^q(\chi_i u\otimes u)),
+    \]
+
+    The pressure term is supplied by the preceding estimate. The viscous term is a contraction of U q+2 and is supplied by the same fixed-cover tower readout when the depth reaches at least N+2.
+
+    and the right side is controlled by ATD m plus energy on the finite readout cover.
+
+
+
+    \subsection{Exact SCF Pressure Normalization Lemma}
+
+    \[
+    p^{norm}=p-c(t)-p^{frame}_{aff}(x,t),
+    \]
+
+    where c(t) is a spatially constant pressure gauge and p frame aff is the affine potential whose gradient equals the inertial affine force produced by the moving frame.
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q
+    \]
+
+    The spatially constant term c(t) has zero spatial gradient. It changes neither the Navier-Stokes equation nor any pressure derivative used by K q.
+
+    The moving frame contributes an inertial affine force. Its potential p frame aff is chosen so that
+
+    \[
+    \nabla p^{frame}_{aff}=F^{frame}_{aff}.
+    \]
+
+    After subtracting this potential, the transformed local energy inequality has the CKN pressure fluctuation p norm . Thus the pressure component of SCF base is
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi}|p^{norm}-(p^{norm})_{Q_r}|^{3/2},
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    The local Poisson estimate controls derivatives of p i loc , and the harmonic tail is controlled by the energy bound. The gauge term c(t) contributes zero spatial derivatives. The affine frame potential contributes only known finite-depth frame terms, already carried in the moving-frame record.
+
+    The route uses gauge/frame normalization. It carries no amplitude-rescaling readout normalization.
+
+
+
+    \subsection{Full PFlux Supplier Closure From Near And Far Pressure Summability}
+
+    \[
+    \|p-c_k\|_{L^2(A_k)}
+    \le C\|u\otimes u\|_{L^2(A_k^*)}+F_k.
+    \]
+
+    \[
+    \sum_k2^{(2a-1)k}\int\|p-c_k\|_{L^2(A_k)}\|u\|_{L^2(A_k)}
+    \]
+
+    \[
+    \le
+    C\sum_k2^{(2a-1)k}\int\|u\otimes u\|_{L^2(A_k^*)}\|u\|_{L^2(A_k)}
+    +
+    C\sum_k2^{(2a-1)k}\int F_k\|u\|_{L^2(A_k)}.
+    \]
+
+    The first term is finite by near summability. The second is finite by far summability. The annular mean c k(t) contributes no gradient pressure flux after the pressure is represented by the normalized Riesz pressure, or is absorbed into the harmless time normalization on each annulus.
+
+    This theorem closes the pressure-flux supplier conditionally on AnnL4.W and weighted moment control. The sharp remaining source estimate is the weighted annular L4 smoothing theorem.
+
+
+
+    \subsection{Integrable Label-Modulus Strain Test}
+
+    \[
+    s(a,t):=
+    \|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)\,dt<\infty.
+    \]
+
+    \[
+    \{a_1,\dots,a_J\}\subset A_Q,
+    \]
+
+    \[
+    |s(a,t)-s(b,t)|\le \omega_t(\delta)
+    \qquad\text{whenever }d(a,b)\le\delta,
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\omega_t(\delta)\,dt<\infty.
+    \]
+
+    Compact-time smoothness gives continuity of s( ,t) for each t<T *. It does not give the terminal integrable modulus
+
+    A moving-spike pattern can keep every label integral finite while forcing the supremal integral to diverge. The integrable modulus is precisely the condition that rules out such moving spikes.
+
+    The unresolved theorem is original-data supply of the integrable terminal label modulus.
+
+
+
+    \subsection{Matching pressure/source upper bound for the Jump avg defect charge - failed attempt}
+
+    Verify an upper bound for the same charge used in the proposed Jump avg contradiction.
+
+    The intended lower-bound charge is a scale-window defect charge based on the finite--infinitesimal separation defect D h/F . A matching upper bound must control the same charge by finite energy plus verified pressure/source suppliers.
+
+    The accessible surfaces state that flux-source Carleson alone is insufficient for active- Carleson. The missing theorem is an active-shell amplitude gain, an L2 t source theorem with heat-scale gain, or direct active- Carleson control. Another surface records active- upper-tail Carleson as blocked by the missing -source theorem.
+
+    so the pressure/source upper bound for the proposed defect charge is not verified from current surfaces.
+
+    Prove direct active- Carleson control for the charge used by the h/F survivor, or prove a heat-scale -source estimate strong enough to imply it.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: DG-Line Anisotropy Drain From Reduced Strain Spectral Alignment
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16846
+  line_start: 16846
+  line_end: 16862
+  start_anchor: "\\subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral
+    Alignment}\n"
+  end_anchor: "\\subsection{DG-Line In-Plane Anisotropy Drain Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite DG-Line Anisotropy Drain From
+    Reduced Strain Spectral Alignment as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16846
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Direct Strain Side Route Via Vorticity Alignment Depletion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17105
+  line_start: 17105
+  line_end: 17126
+  start_anchor: "\\subsection{Direct Strain Side Route Via Vorticity Alignment Depletion}\n"
+  end_anchor: "\\subsection{DissipationACTo Source Residence.External Candidate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Direct Strain Side Route Via
+    Vorticity Alignment Depletion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17105
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Dtc Read Completion With Pressure Poisson Component Dtc A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17179
+  line_start: 17179
+  line_end: 17215
+  start_anchor: "\\subsection{Dtc Read Completion With Pressure Poisson Component
+    Dtc A}\n"
+  end_anchor: "\\subsection{Dtc Read Kq Pressure Poisson Cover Depth}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Dtc Read Completion With Pressure
+    Poisson Component Dtc A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17179
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Dtc Read Kq Pressure Poisson Cover Depth
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17216
+  line_start: 17216
+  line_end: 17247
+  start_anchor: "\\subsection{Dtc Read Kq Pressure Poisson Cover Depth}\n"
+  end_anchor: "\\subsection{Dtc Read Pointwise Transported Center Recovery Dtc A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Dtc Read Kq Pressure Poisson
+    Cover Depth as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17216
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact SCF Pressure Normalization Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17968
+  line_start: 17968
+  line_end: 18004
+  start_anchor: "\\subsection{Exact SCF Pressure Normalization Lemma}\n"
+  end_anchor: "\\subsection{Explicit CM witness-face bridge after the source-pulse
+    supplier route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact SCF Pressure Normalization
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17968
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Full PFlux Supplier Closure From Near And Far Pressure Summability
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19022
+  line_start: 19022
+  line_end: 19044
+  start_anchor: "\\subsection{Full PFlux Supplier Closure From Near And Far Pressure
+    Summability}\n"
+  end_anchor: "\\subsection{Full-SCF upper side - E u active-window gain reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Full PFlux Supplier Closure From
+    Near And Far Pressure Summability as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19022
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Integrable Label-Modulus Strain Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19311
+  line_start: 19311
+  line_end: 19341
+  start_anchor: "\\subsection{Integrable Label-Modulus Strain Test}\n"
+  end_anchor: "\\subsection{Javg1 Lower Accumulation From Awg A Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Integrable Label-Modulus Strain
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19311
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Matching pressure/source upper bound for the Jump avg defect charge
+    - failed attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19552
+  line_start: 19552
+  line_end: 19564
+  start_anchor: "\\subsection{Matching pressure/source upper bound for the Jump avg
+    defect charge - failed attempt}\n"
+  end_anchor: "\\subsection{Jump avg to separated positive defect charge lower bound
+    - failed attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Matching pressure/source upper
+    bound for the Jump avg defect charge - failed attempt as paper-ready TeX with
+    proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19552
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-02
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-pressure-and-participation-02.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

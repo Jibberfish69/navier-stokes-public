@@ -92,9 +92,9 @@ so using `(1)` one obtains the exact signed formula
 This already shows the first negative fact:
 
 ```math
-1-2^{-\sigma(\ell-j)}\asymp 1
+1-2^{-\sigma L}\le 1-2^{-\sigma(\ell-j)}\le 1
 \qquad
-(\ell-j\gg 1),
+(\ell-j\ge L),
 ```
 
 so the one-sided tail weight breaks the exact antisymmetry but does not
@@ -283,7 +283,8 @@ The branch now has four nested levels:
 2. unsigned weight-mismatch audit:
 
 ```math
-1-2^{-\sigma(\ell-j)}\asymp 1;
+1-2^{-\sigma L}\le 1-2^{-\sigma(\ell-j)}\le 1
+\qquad(\ell-j\ge L);
 ```
 
 3. exact SDS-weighted signed exchange:
@@ -333,7 +334,7 @@ Assume, conditionally, a shellwise commutator bound of the form
 
 ```math
 |\mathcal I_{j;k,\ell}(t)|
-\lesssim
+C_I
 2^{-(\ell-j)}\,a_k(t)\,D_\ell(t)
 ```
 
@@ -346,8 +347,10 @@ a_k(t):=2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}.
 Since
 
 ```math
+\bigl(1-2^{-(1+\sigma)}\bigr)2^\ell
+\le
 \big|2^j2^{-\sigma(\ell-j)}-2^\ell\big|
-\sim
+\le
 2^\ell
 ```
 
@@ -355,7 +358,7 @@ for `j<\ell`, one gets from `(6)` that
 
 ```math
 \big|\mathfrak G_{k,N}^\sigma(t)\big|
-\lesssim
+\le C_I
 \sum_{j<\ell,\ j+M<k<\ell-4}
 2^\ell\,2^{-(\ell-j)}\,a_k(t)\,D_\ell(t)
 =
@@ -374,15 +377,15 @@ not merely `j<\ell`. Therefore
 
 ```math
 \sum_{N<j<k-M}2^j
-\sim
-2^k,
+\le
+2^{k-M+1},
 ```
 
 and the absolute-value route collapses to
 
 ```math
 \sum_k\big|\mathfrak G_{k,N}^\sigma(t)\big|
-\lesssim
+\le C_{abs}
 \sum_{k>N+M}
 2^k\,a_k(t)\,
 \sum_{\ell>k+4}D_\ell(t).
@@ -411,7 +414,7 @@ so the whole reduction lands on
 
 ```math
 \sum_k\big|\mathfrak G_{k,N}^\sigma(t)\big|
-\lesssim
+\le C_{abs}
 \varepsilon\sum_{k>N+M}2^k\Big(\sum_{\ell>k+4}D_\ell(t)\Big)^2
 +
 C_\varepsilon\sum_{k>N+M}D_k(t).

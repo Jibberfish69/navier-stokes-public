@@ -60,14 +60,14 @@ A nonzero terminal source atom can be modeled by a source-balanced heat-scale
 packet:
 
 ```math
-F_j(t)\simeq c\nu D_j(t)
+F_{j,\mathrm{model}}(t):= c\nu D_j(t)
 ```
 
 on a shrinking terminal interval. Then the shell balance becomes, at leading
 order,
 
 ```math
-E_j'(t)\lesssim L_j(t).
+E_j'(t)\le C_L L_j(t).
 ```
 
 The positive source can replenish exactly the amount viscosity dissipates. The

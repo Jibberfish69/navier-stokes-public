@@ -98,7 +98,7 @@ Examples:
 1. **Body `1` lifted-band transport**
 
 ```math
-\mathcal B(a,b)\sim a\,\nabla b.
+\mathcal B_1(a,b):= a\,\nabla b.
 ```
 
 Then `\rho` records the shell gap `j-k`.
@@ -106,7 +106,7 @@ Then `\rho` records the shell gap `j-k`.
 2. **Far-corona / cumulative-tail route**
 
 ```math
-\mathcal B(a,b)\sim \tau_{e^{-(s-\rho)}}^{H^1}[u]
+\mathcal B_2(a,b):= \tau_{e^{-(s-\rho)}}^{H^1}[u]
 ```
 
 paired later against the active weight at scale `e^{-s}`.
@@ -114,7 +114,7 @@ paired later against the active weight at scale `e^{-s}`.
 3. **Signed lifted commutator route**
 
 ```math
-\mathcal B(a,b)\sim
+\mathcal B_3(a,b):=
 \ell^{-2} b [Q_\ell,a\cdot\nabla]u.
 ```
 

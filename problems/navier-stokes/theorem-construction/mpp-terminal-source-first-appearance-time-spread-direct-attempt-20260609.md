@@ -67,7 +67,7 @@ tool, not a spreading theorem.
 Suppose the packet injects into a finite charge ledger:
 
 ```math
-\mu_m^{src,+}(W_m)\lesssim Charge_m(W_m).
+\mu_m^{src,+}(W_m)\le C_{\mathrm{TSF}}Charge_m(W_m).
 ```
 
 This is useful only if the charge ledger has a terminal time modulus at the

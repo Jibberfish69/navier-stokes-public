@@ -87,7 +87,8 @@ For every `n` and almost every `t`,
 \mathcal T^{lift}_{j,n}(t),u^{(n)}_j(t)
 \right\rangle
 \right|
-\lesssim
+\le
+C_{flux}
 \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t).
 ```
 
@@ -95,7 +96,8 @@ Hence
 
 ```math
 \mathfrak P^{scale,lift}_{N}[u^{(n)}]
-\lesssim
+\le
+C_{flux}
 \int_0^T \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t)\,dt.
 ```
 
@@ -112,7 +114,8 @@ shell-by-shell to the classical solution `u^{(n)}`. Its dyadic bound gives
 u^{(n)}_j(t)
 \right\rangle
 \right|
-\lesssim
+\le
+C_{meso}
 2^{-2j}
 \int_{\mathbb R^3}
 \Sigma^{meso}_{j,n}(x,t)\,

@@ -1,0 +1,676 @@
+---
+version: 1
+kind: ns-paper-arc-author-work-packet
+generated_at: '2026-06-14T00:23:21Z'
+arc_id: comparison-transfer-boundary
+work_unit: write finished TeX prose for this proof arc
+paper_goal: make the manuscript read as one human mathematical proof, with repo status
+  visible only through the argument on the page
+arc:
+  arc_id: comparison-transfer-boundary
+  title: Comparison and transfer boundary
+  priority: 7
+  status: ready_for_author_packet
+  author_job: include comparison material only where it pays an NS proof role or a
+    smoothness-boundary role
+  support_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  required_patterns: &2
+  - "(Euler|comparison|transfer)"
+  - "(boundary|support)"
+  spine_refs:
+  - spine_id: selected-packet-euler-boundary-theorem
+    section_title: Selected-Packet Euler Boundary Theorem
+    source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex
+    line_start: 1
+    line_end: 125
+  - spine_id: comparison-and-transfer-boundary
+    section_title: Comparison And Transfer Boundary
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1245
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1245
+    line_end: 1268
+  - spine_id: whole-space-mathbb-r-3-r3-cm-exterior-source-branch
+    section_title: Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source
+      Branch
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1269
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 1269
+    line_end: 1359
+  context_cost: 240
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+source_payment_table:
+- spine_id: selected-packet-euler-boundary-theorem
+  section_title: Selected-Packet Euler Boundary Theorem
+  source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: &1
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+- spine_id: comparison-and-transfer-boundary
+  section_title: Comparison And Transfer Boundary
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1245
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: whole-space-mathbb-r-3-r3-cm-exterior-source-branch
+  section_title: Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source
+    Branch
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1269
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+source_sections:
+- spine_id: selected-packet-euler-boundary-theorem
+  section_title: Selected-Packet Euler Boundary Theorem
+  source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+  source_path: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex
+  line_start: 1
+  line_end: 125
+  text: |
+    \section{Selected-Packet Euler Boundary Theorem}
+
+    This appendix records the only Euler material used by the Navier--Stokes
+    submission.  Euler enters as a boundary reading of the same selected terminal
+    packet after the Navier--Stokes class test has already named the packet and its
+    first Pack, Part, or Field face.  Its proof role is comparison after the
+    selected packet has already been typed.
+
+    \begin{definition}[Base Euler boundary reading]
+    For a selected terminal packet \(Q\), write
+    \[
+      \Member_E(Q):=\mathrm{EVol}_Q(u)\wedge \mathrm{EMom}_Q(u,p).
+    \]
+    Here \(\mathrm{EVol}_Q\) means incompressible flux-volume readability on
+    \(Q\), and \(\mathrm{EMom}_Q\) means weak inviscid momentum-pressure
+    readability on the same packet.  This base Euler reading consists of that
+    volume-momentum pair; fixed-viscosity Navier--Stokes participation and
+    positive-scale Navier--Stokes Field coherence are stronger predicates.
+    \end{definition}
+
+    \begin{definition}[Clean selected-packet Euler boundary]
+    A selected Navier--Stokes terminal packet \(Q\) is in the clean Euler boundary
+    case at depth \(N\) when:
+    \begin{enumerate}
+    \item \(Q\) is the exact packet already selected by the Navier--Stokes terminal
+          claim.
+    \item \(Q\) retains enough carrier information to support the flux-volume
+          reading \(\mathrm{EVol}_Q\).
+    \item \(\mathrm{EVol}_Q(u)\wedge\mathrm{EMom}_Q(u,p)\) holds on \(Q\).
+    \item The Navier--Stokes failure under discussion is exactly loss of
+          fixed-viscosity participation or loss of positive-scale one-field
+          coherence.  Reynolds stress, source measure, pressure-source residue,
+          concentration residue, oscillation defect, and compactness gap payments
+          have all been settled on the same packet.
+    \end{enumerate}
+    \end{definition}
+
+    \begin{theorem}[Clean Part face has an Euler boundary reading]
+    Assume \(Q\) is in the clean Euler boundary case and the first
+    Navier--Stokes face lost after Pack is
+    \[
+      \Pack_Q\wedge\neg\Part_{N,Q}.
+    \]
+    Then the selected packet supports the Navier--Stokes class-exit conclusion
+    \[
+      \Exit(Q;\Owork)
+    \]
+    through the Part face, and the same packet has the base Euler reading
+    \[
+      \Member_E(Q).
+    \]
+    \end{theorem}
+
+    \begin{proof}
+    The Navier--Stokes conclusion is the Pack-first CM conclusion on the selected
+    record.  Pack has survived, and \(\neg\Part_{N,Q}\) says that the packet no
+    longer carries the same differentiated pressure-viscosity-incompressibility
+    participation law through depth \(N\).  Since that participation law is one
+    requirement in \(\Member(Q;\Owork)\), the first failed face supports
+    \(\Exit(Q;\Owork)\).
+
+    The Euler conclusion is separate and weaker.  The clean boundary hypotheses
+    state that the same selected packet still has the incompressible volume reading
+    and weak inviscid momentum-pressure reading.  That conjunction is exactly
+    \(\Member_E(Q)\).  This records the clean Part-side case where a
+    Navier--Stokes exit also has a base Euler boundary reading.
+    \end{proof}
+
+    \begin{theorem}[Clean Field face has an Euler boundary reading]
+    Assume \(Q\) is in the clean Euler boundary case, \(\Pack_Q\) and
+    \(\Part_{N,Q}\) survive for the branch split, and the first remaining
+    Navier--Stokes face lost is
+    \[
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    Then the selected packet supports \(\Exit(Q;\Owork)\) through the Field face,
+    and the same packet has the base Euler reading \(\Member_E(Q)\).
+    \end{theorem}
+
+    \begin{proof}
+    After Pack and Part survive, the remaining Navier--Stokes membership
+    requirement is a positive-scale coherent Field record.  The hypothesis
+    \(\forall r>0\,\neg\Field_{N,r,Q}\) removes every positive-scale
+    Navier--Stokes Field record on \(Q\).  That is the first failed face of
+    \(\Member(Q;\Owork)\), so it supports \(\Exit(Q;\Owork)\).
+
+    The base Euler reading requires the flux-volume and inviscid momentum-pressure
+    readings already included in the clean boundary hypotheses.  Hence the same
+    packet may leave the fixed-viscosity Navier--Stokes class through Field while
+    still having the base Euler boundary reading.
+    \end{proof}
+
+    \begin{center}
+    \small
+    \setlength{\tabcolsep}{2.5pt}
+    \renewcommand{\arraystretch}{1.16}
+    \begin{tabular}{L{0.30\linewidth}L{0.30\linewidth}L{0.30\linewidth}}
+    \textbf{Terminal surface} & \textbf{Navier--Stokes role} & \textbf{Euler role}\\
+    \hline
+    Clean Part face after Pack survives & \(\Pack_Q\wedge\neg\Part_{N,Q}\) &
+    base boundary reading \(\Member_E(Q)\)\\
+    Clean Field face after Pack and Part survive &
+    \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
+    base boundary reading \(\Member_E(Q)\)\\
+    Pack failure, detached ancestry, raw source residue, pressure-source residue,
+    Reynolds-stress limit, or oscillation defect & first repair is still native
+    Pack/Part/Field payment & native CM role until the same packet is cleanly typed\\
+    Smooth-side comparison & support for intuition or boundary comparison &
+    smooth-side support for comparison\\
+    \end{tabular}
+    \end{center}
+
+    The table keeps endpoint names tied to their selected-packet proof role.  An
+    Euler boundary branch has three payments: the same packet has already been
+    selected inside the Navier--Stokes terminal test, the Navier--Stokes face is
+    Part or Field in the clean sense above, and the base Euler volume-momentum
+    reading is still present.
+
+    \begin{corollary}[Euler retention rule]
+    The manuscript may keep Euler material in two roles.  The first role is the
+    selected-packet boundary reading proved above.  The second role is smooth-side
+    comparison, used only as support for explaining why the fixed-viscosity
+    Navier--Stokes class is stricter than the base inviscid boundary reading.  All
+    Euler material in this manuscript serves one of those two support roles.
+    \end{corollary}
+  truncated: false
+- spine_id: comparison-and-transfer-boundary
+  section_title: Comparison And Transfer Boundary
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1245
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1245
+  line_end: 1268
+  text: |
+    \section{Comparison And Transfer Boundary}
+
+    The Navier--Stokes class proof is a same-solution Navier--Stokes proof.  Euler comparison enters through a typed boundary use.  For the same selected packet, Pack remains readable in the shared flux-volume sense, the fixed-viscosity Part or Field requirement fails through loss of viscous participation or one-field coherence, and the inviscid momentum-pressure law remains readable.  Then the fail branch has a concrete Euler boundary reading as well as its Navier--Stokes face decision.
+
+    \begin{proposition}[Euler boundary comparison role]
+    Let \(C\) be a comparison branch.  It enters the present Navier--Stokes class proof only through a theorem of the form
+    \[
+    \begin{aligned}
+    C &\Longrightarrow
+    \text{a selected packet }Q\\
+      &\Longrightarrow
+    \text{a Pack, Part, or Field decision for }Q .
+    \end{aligned}
+    \]
+    In the clean loss-of-viscosity case, the same theorem also reads the escaped packet as
+    \[
+      \mathrm{EVol}_Q+\mathrm{EMom}_Q .
+    \]
+    That theorem is the point where comparison pressure becomes Navier--Stokes proof material.  Smooth Euler to smooth Navier--Stokes remains a separate support bridge.  It can reassure the smooth side of the boundary while the class-exit mechanism stays with the selected Navier--Stokes packet and its typed face.
+    \end{proposition}
+
+    \begin{proof}
+    The working class object \(\Owork\) is built from the original Navier--Stokes datum, pressure, viscosity, and same-fluid participation.  Comparison branches may share shapes with Navier--Stokes branches.  The class proof first needs the exact same-solution packet and its first failed face.  The Euler reading is added only after that packet has kept the shared inviscid flux-momentum law while losing the fixed-viscosity participation or one-field requirement.  The selected packet and typed face are what let comparison enter \(\Owork\); comparison outside them remains support.
+    \end{proof}
+  truncated: false
+- spine_id: whole-space-mathbb-r-3-r3-cm-exterior-source-branch
+  section_title: Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source
+    Branch
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1269
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 1269
+  line_end: 1359
+  text: |
+    \section{Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source Branch}
+
+    The periodic branch and the whole-space branch use the same class test.  Their entry costs differ.  On \(\mathbb T^3\), the transported atlas lives on a compact spatial domain.  On \(\mathbb R^3\), a terminal claim can try to hide high derivatives in the far field.  The paper handles that risk before it imports the Pack, Part, and Field decision.
+
+    Fix \(s>5/2\).  Let \(u\) be the smooth Navier--Stokes branch on \([0,T_*)\times\mathbb R^3\) from smooth rapidly decaying divergence-free data, and let \(\eta_R\) be an exterior cutoff.  The strong positive export theorem would prove
+    \[
+      \lim_{R\to\infty}\sup_{t<T_*}\|\eta_R u(t)\|_{H^s(\mathbb R^3)}=0.
+    \]
+    That theorem is useful, and it is stronger than the CM branch needs.  The CM branch starts from the Duhamel split and asks what remains after the harmless exterior pieces are removed:
+    \[
+      u(t)=e^{\nu t\Delta}u_0
+      -\int_0^t e^{\nu(t-\tau)\Delta}\mathbb P\nabla\cdot(u\otimes u)(\tau)\,d\tau .
+    \]
+
+    The initial heat tail vanishes at spatial infinity because the datum is rapidly decaying.  A fixed compact-core nonlinear source has vanishing far-field effect because the heat kernel is off the diagonal at distance comparable to \(R\).  The remaining source is genuinely exterior:
+    \[
+      W_R(t):=
+      \eta_R\int_0^t e^{\nu(t-\tau)\Delta}
+      \mathbb P\nabla\cdot\bigl(\chi_{\ge R/4}u\otimes u\bigr)(\tau)\,d\tau .
+    \]
+    If \(W_R\) vanishes in exterior \(H^s\), the whole-space branch has the ordinary continuation tail.  If \(W_R\) survives, the survivor is the terminal object that must enter the CM matrix.
+
+    \begin{proposition}[Whole-space exterior source split]
+    The whole-space exterior \(H^s\) burden reduces to the genuinely exterior nonlinear source \(W_R\).  The initial heat tail and the fixed compact-core far-field source vanish at spatial infinity.  Hence the whole-space branch has the following two outcomes:
+    \[
+    \begin{array}{ll}
+    \displaystyle \lim_{R\to\infty}\sup_{t<T_*}\|W_R(t)\|_{H^s}=0,
+      & \text{member-side exterior readout},\\[0.8em]
+    \displaystyle \limsup_{R\to\infty}\sup_{t<T_*}\|W_R(t)\|_{H^s}>0,
+      & \text{terminal exterior survivor to classify.}
+    \end{array}
+    \]
+    \end{proposition}
+
+    \begin{proof}
+    Rapid decay of \(u_0\) controls \(\eta_R e^{\nu t\Delta}u_0\) in \(H^s\) on every finite preterminal interval.  For a fixed compact source, the kernel of \(\Lambda^s e^{\nu(t-\tau)\Delta}\mathbb P\nabla\cdot\) is smooth away from the diagonal, while the cutoff \(\eta_R\) keeps the readout far from that source.  Off-diagonal heat-kernel decay gives a negative power of \(R\).  After those two terms are removed, the displayed exterior nonlinear source is the only term that can carry a terminal exterior \(H^s\) tail.
+    \end{proof}
+
+    \begin{lemma}[Bounded exterior frequencies vanish]
+    For every fixed dyadic cutoff \(N_0\),
+    \[
+      \lim_{R\to\infty}\sup_{t<T_*}
+      \|P_{\le N_0}W_R(t)\|_{H^s}=0 .
+    \]
+    \end{lemma}
+
+    \begin{proof}
+    On bounded frequency,
+    \[
+      \|P_{\le N_0}f\|_{H^s}\le C_sN_0^s\|f\|_{L^2}.
+    \]
+    The heat/Leray operator maps the exterior source from \(L^1_tL^{3/2}_x\) into the fixed-band \(L^\infty_tL^2_x\) response.  With \(F_R=\chi_{\ge R/4}(u\otimes u)\),
+    \[
+      \|F_R(t)\|_{L^{3/2}}
+      \le
+      \|\chi_{\ge R/4}u(t)\|_{L^3}\|u(t)\|_{L^3}.
+    \]
+    The energy class gives \(u\in L^4_tL^3_x\) on \([0,T_*)\).  The exterior factor tends to zero as \(R\to\infty\), and the second factor is square integrable in time on the same finite interval.  Thus \(F_R\to0\) in \(L^1_tL^{3/2}_x\), and the fixed-band \(H^s\) response vanishes.
+    \end{proof}
+
+    \begin{proposition}[Exterior survivor lands in the CM faces]
+    Assume the exterior nonlinear source survives in \(H^s\).  Then the selected terminal exterior survivor lands in the CM matrix:
+    \[
+      \neg\Pack_Q\;\vee\;\neg\Part_{M,Q}\;\vee\;
+      \forall \rho>0\,\neg\Field_{M,\rho,Q}.
+    \]
+    \end{proposition}
+
+    \begin{proof}
+    The bounded-frequency lemma removes every fixed dyadic window.  A surviving exterior source then selects radii \(R_j\to\infty\), times \(t_j<T_*\), and dyadic frequencies \(N_j\to\infty\) such that
+    \[
+      N_j^s\|P_{N_j}W_{R_j}(t_j)\|_{L^2}\ge c>0 .
+    \]
+    Let \(Q\) be the same-solution terminal record selected by that survivor.  A survivor lacking a retained material address in the original branch fails Pack.  A survivor detached from the same Navier--Stokes equation, pressure law, viscosity, or source ancestry fails Part.
+
+    It remains to read the retained Pack+Part branch.  A fixed positive Field scale \(\rho>0\) through depth \(M>s\) gives a finite derivative tower on the selected record.  Littlewood--Paley decay on that fixed record gives
+    \[
+      N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0 .
+    \]
+    That decay contradicts the surviving sequence above.  Every fixed positive Field scale fails on the retained Pack+Part branch.
+    \end{proof}
+
+    \begin{theorem}[Whole-space CM classification state]
+    For smooth rapidly decaying divergence-free data on \(\mathbb R^3\), the whole-space exterior branch has the same pass-or-exit form as the periodic branch, with its own noncompact payment.  The exterior Duhamel split selects the relevant terminal object.  A vanishing exterior nonlinear source gives the member-side exterior \(H^s\) readout.  A surviving exterior nonlinear source lands in Pack, Part, or Field failure and supports \(\Exit(Q;\Owork)\).
+    \end{theorem}
+
+    \begin{proof}
+    The Duhamel split removes the initial heat tail and the fixed compact-core far-field source.  The remaining exterior nonlinear source either vanishes in \(H^s\) or survives.  In the vanishing case, the whole-space branch has the continuation tail needed by the member-side readout.  In the surviving case, bounded exterior frequencies vanish, so the survivor is a dyadic high-frequency escape.  The preceding proposition reads that escape as Pack failure, Part failure, or Field failure on the same terminal record.  The CM embedding consumes the first failed face as \(\Exit(Q;\Owork)\).  The direct positive exterior \(H^s\) theorem remains a stronger gold/export theorem.
+    \end{proof}
+
+    This is the whole-space payment used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
+  truncated: false
+support_refs:
+- path: problems/navier-stokes/route-lock.yaml
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    - positive smoothness proof
+      - CM contrapositive class-exit proof
+      - same-datum same-interval fixed-nu Euler-to-NS transfer
+      - Euler mirror comparison
+      - source-wall supplier work
+- path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
+    - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
+    - problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md
+    - problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
+    grounded_core:
+- path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
+    - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
+    - problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md
+    - problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
+    projection:
+- path: problems/navier-stokes/theorem-construction/mpp-non-euler-cm-surface-face-sweep-20260514.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    # MPP Non-Euler CM Surface Face Sweep
+
+    ## Status
+
+    Installed as the current all-non-Euler Navier-Stokes surface sorting theorem.
+- path: problems/navier-stokes/theorem-construction/mpp-viscous-euler-class-membership-separation-edge-audit-20260506.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    # MPP Viscous-Euler Class-Membership Separation Edge Audit
+
+    ## Authority Cap - Historical Route Audit
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+- path: problems/navier-stokes/submission-bundle/current-material-coverage.yaml
+  matched_keywords:
+  - Euler
+  - boundary
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    - problems/navier-stokes/target-operating-contract.yaml
+        - problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+      non_euler_surface_face_sweep:
+        role: row-level representation for current non-Euler proof surfaces
+        included_rows: 1944
+- path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  excerpt: |-
+    The batch rewrote the branch-support gate in `navier-stokes-submission.tex`: `Forward Families As Support Examples`, `Branch-Family Support Exhaustion`, `The Support Boundary`, and `Comparison And Transfer Boundary`.  The new source tells the reader how current repo branch material is allowed into the manuscript.  A branch must select the same-solution terminal record, supply member-side readout, prove a first Pack/Part/Field face, or remain support awaiting a named face theorem.  The Zeno subsection now keeps the point-object Pack failure separate from the surrounding positive-radius annular witness, and the comparison section keeps Euler material as a typed boundary reading after the Navier-Stokes packet and face are selected.
+
+    Targeted verification:
+- path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    - positive smoothness proof
+      - CM contrapositive class-exit proof
+      - same-datum same-interval fixed-nu Euler-to-NS transfer
+      - Euler mirror comparison
+      - source-wall supplier work
+- path: problems/navier-stokes/theorem-construction/heat-governed-carrier-synthesis-for-tower-and-shadow-route.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    ## 4. Lagrangian geometry makes the heat structure explicit
+
+    In Eulerian form, the heat-governed reading is partially hidden by transport
+    syntax.
+- path: problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    ```math
+    \boxed{
+    \text{and feed that control back into the Eulerian lifted tail.}
+    }
+    ```
+- path: problems/navier-stokes/theorem-construction/mpp-euler-excess-pdf-purge-handoff-prompt-20260612.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    # MPP Euler Excess PDF Purge Handoff Prompt
+
+
+    ```text
+- path: problems/navier-stokes/theorem-construction/mpp-euler-ns-boundary-line-source-inventory-20260612.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    # MPP Euler/NS Boundary-Line Source Inventory
+
+    ## Status
+
+    Read-only source inventory from the June 12 Euler/NS boundary audit.  The
+- path: problems/navier-stokes/theorem-construction/mpp-euler-ns-boundary-line-theorem-program-20260612.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    # MPP Euler/NS Smoothness-Boundary Line Theorem Program
+
+    ## Status
+
+    Active theorem-work packet.
+- path: problems/navier-stokes/theorem-construction/mpp-marvin-upstream-object-formalization-closure-note.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  excerpt: |-
+    4. coefficient-commutator absorption;
+    5. no-loss pressure recovery;
+    6. Lagrangian-to-Eulerian transfer back into the lifted tail.
+
+    In formulas, with `U_\alpha:=\partial_a^\alpha v` and
+- path: problems/navier-stokes/theorem-construction/mpp-nonsmooth-class-exit-to-euler-class-entrance-audit-20260612.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    # MPP Nonsmooth Class-Exit To Euler Class-Entrance Audit
+
+    Date: 2026-06-12
+
+    ## Status
+- path: problems/navier-stokes/theorem-construction/mpp-selected-packet-euler-boundary-theorem-packet-20260612.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    # MPP Selected-Packet Euler Boundary Theorem Packet
+
+    Date: 2026-06-12
+
+    ## Status
+- path: problems/navier-stokes/theorem-construction/mpp-viscosity-class-separation-edge-theorem-program.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - smoothness
+  excerpt: |-
+    Role: isolate the proposed route where terminal regularity failure may remain
+    Euler-compatible, while positive-viscosity Navier--Stokes terminal nonsmoothness
+    is forced to appear as class exit from the Navier--Stokes object.
+- path: problems/navier-stokes/theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  excerpt: |-
+    ```
+
+    This is the exact bridge between the Eulerian tower and the Lagrangian
+    geometry route.
+- path: problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
+  matched_keywords:
+  - boundary
+  - comparison
+  - transfer
+  - whole-space
+  - smoothness
+  excerpt: |-
+    Branch-diagnosis note for the TPS / selector route.
+
+    CM-exit boundary: `SG.4`, selector, and transverse-lower-bound targets are
+    support work unless they prove a first-exit `Pack`, `Part`, or `Field` failure.
+    This note must not be read as a lane-wide CM frontier.
+- path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
+  matched_keywords:
+  - Euler
+  - boundary
+  - comparison
+  - whole-space
+  excerpt: |-
+    - Whole-space `R^3`: full Clay-facing export boundary; either prove tightness/localization export or state the paper is periodic-scope.
+    - `H^s, s>5/2`: classical continuation readout from the member packet, not the proof program and not the only analytic scenario.
+    - Local `L^3`, endpoint, no-pulse, source-wall, receiver/readout, Euler comparison: support, translator, or downstream readout unless a named bridge lands the exact object in Pack, Part, or Field.
+
+    ## Lived-History Teaching Spine
+author_contract:
+  arc_id: comparison-transfer-boundary
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns: *2
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+math_dependency_policy:
+  containment_rule: theorem work may start only from a named manuscript gap in this
+    arc, and the result must return as TeX-ready derivation, exact obstruction, or
+    CM counterpart
+  forbidden_work:
+  - free-running proof search
+  - new theorem attempts without a section_ref
+  - positive-forward estimate churn that does not change the manuscript
+  - route summaries that do not pay a line on the page
+  required_handoff_fields:
+  - section_ref
+  - gap_sentence
+  - repo_sources_used
+  - gold_status
+  - silver_or_cm_counterpart
+  - tex_ready_replacement
+  arc_author_job: include comparison material only where it pays an NS proof role
+    or a smoothness-boundary role
+math_reader_critic_contract:
+  arc_id: comparison-transfer-boundary
+  critic_scope: criticize only this authored arc and return repairable failures tied
+    to the replacement text
+  must_answer:
+  - claim_truth_attack
+  - reader_thread_attack
+  - unpaid_derivation_attack
+  - repair_decision
+  acceptable_repair_decisions:
+  - passes after repair
+  - open endpoint written explicitly
+  - blocked with exact manuscript gap
+  integration_rule: the author pack cannot pass until each replacement records a resolved
+    math/reader criticism decision
+verification_plan:
+  ordinary_batch_checks:
+  - verify author pack replacements
+  - integrate pack through TeX source
+  - scan changed source for unfilled text and machinery voice
+  - run paper-arc and source-batch tests
+  - compile changed manuscript once
+  - extract and reread changed section pages
+  full_pdf_finality_check: only after a full draft milestone or an actual finality
+    claim
+  arc_completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-13-straight-through-draft-prep/author-packs/comparison-transfer-boundary.yaml
+output_rule: fill the referenced author pack with final TeX replacements, verify it,
+  integrate it, then build and reread only the changed sections

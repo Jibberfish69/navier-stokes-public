@@ -149,7 +149,7 @@ Only then can the remaining residue belong to the one-field coherence row.
 
 ## Field Response Mechanism
 
-The finite-difference tower law gives a local defect-energy identity of the schematic form
+The finite-difference tower law gives the local defect-energy identity used here
 
 ```math
 \frac12(\partial_t+u(x+h,t)\cdot\nabla-\nu\Delta)|\delta_h U_k|^2

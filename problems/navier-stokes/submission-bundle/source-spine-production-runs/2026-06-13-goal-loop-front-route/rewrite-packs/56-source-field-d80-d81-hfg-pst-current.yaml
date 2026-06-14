@@ -1,0 +1,19 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d80-d81-hfg-pst-current
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix HFG/PST group
+    spine_id: source-field-reader-appendix-d80-d81-hfg-pst-current
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4531
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4531-4678
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Polished the current D80-D81 support group so D.80 reads as the HFG
+      endpoint frontier with the installed HFG-to-continuation implication and
+      open diagonal/amplitude production wall visible, and D.81 reads as the
+      PST.A fixed-threshold periodic shell-tail support theorem, separate from
+      all-threshold endpoint HFG and whole-space export.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d80-d81-hfg-pst-current-ledger.yaml

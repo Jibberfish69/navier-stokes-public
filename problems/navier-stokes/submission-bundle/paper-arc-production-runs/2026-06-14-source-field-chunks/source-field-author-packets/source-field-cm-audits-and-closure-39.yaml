@@ -1,0 +1,1038 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-39
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-39
+  sequence: 124
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 39
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 49773
+  line_end: 50742
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49807
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49848
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49944
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50038
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50648
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50703
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50732
+  subsection_titles:
+  - Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass Liouville
+  - Clay problem RN Three-Exit Exhaustiveness Proof
+  - Clay problem Route-Native Witness Bundle Note
+  - Clay problem Rung1-To-Weighted-Segment Control Lemma
+  - Clay problem Scalarized Material-Packet Tower And Packing Note
+  - Seven-Item Paper-Grade Closure Package
+  - Clay problem Shahmurov 2605.09797 audit against B ASAC closed,min
+  - Clay problem Shahmurov 2605.09797 quarantine audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass Liouville
+    line_start: 49773
+    line_end: 49806
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+    start_anchor: "\\subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass
+      Liouville}\n"
+    end_anchor: "\\subsection{Clay problem RN Three-Exit Exhaustiveness Proof}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass Liouville}
+
+      Conditional theorem proved. Production into the rigid subclass remains open from installed inputs.
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0
+      \qquad\forall R<\infty.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times[-R^2,-a])=0
+      \qquad\forall a>0.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      \[
+      [-R^2,0]
+      =
+      \left(\bigcup_{n\ge1}[-R^2,-1/n]\right)
+      \cup\{0\}.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times[-R^2,0])=0.
+      \]
+
+      The installed equality-class production theorem gives B ASAC. It supplies zero ASAC defect, same-fluid retention, no earlier selected source slice, no named paid exit, and terminal Zeno support.
+
+      The rigid subclass is valid and its residue Liouville theorem is proved. It does not discharge the original Zeno Residue Liouville B ASAC .A burden until a production theorem forces every produced survivor into B ASAC TA or supplies an equivalent time-face anti-atom clause.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem RN Three-Exit Exhaustiveness Proof
+    line_start: 49807
+    line_end: 49847
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49807
+    start_anchor: "\\subsection{Clay problem RN Three-Exit Exhaustiveness Proof}\n"
+    end_anchor: "\\subsection{Clay problem Route-Native Witness Bundle Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem RN Three-Exit Exhaustiveness Proof}
+
+      Purpose: make explicit the limited proof that the source-wall forward supplier has exactly three Radon-Nikodym bookkeeping exits once the survivor has been reduced to the native positive source measure against the installed record.
+
+      \[
+      d\nu_N
+      :=
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+\,dxdt
+      \]
+
+      \[
+      d\rho_N:=d\rho_{inst,N}
+      \]
+
+      \[
+      \nu_N\rightharpoonup\nu_*,
+      \qquad
+      \rho_N\rightharpoonup\rho_*,
+      \]
+
+      \[
+      \boxed{
+      \nu_*=f\rho_*+\mu_*^{sing},
+      \qquad
+      \mu_*^{sing}\perp\rho_*.
+      }
+      \]
+
+      \[
+      \nu_N(E_N)\ge c,
+      \qquad
+      \rho_N(E_N)\to0.
+      \]
+
+      The first inequality is the surviving positive source mass. The second says the selected mass is not paid by the installed record.
+
+      This proof is only the bookkeeping exhaustiveness proof inside the already fixed native positive source measure / installed record setup.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Route-Native Witness Bundle Note
+    line_start: 49848
+    line_end: 49896
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49848
+    start_anchor: "\\subsection{Clay problem Route-Native Witness Bundle Note}\n"
+    end_anchor: "\\subsection{Clay problem Row 5 Lifted-Band L-Flux Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Route-Native Witness Bundle Note}
+
+      The route-native witness bundle below is a bounded detour. It records one concrete generic amplitude/coherence package, states what that package achieves, and marks the risk that this package is already too far from the primitive class laws of the live route.
+
+      \[
+      \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0
+      \]
+
+      \[
+      \partial_t\Phi(a,t)=u(\Phi(a,t),t),
+      \qquad
+      \Phi(a,0)=a.
+      \]
+
+      \[
+      \Gamma(t):=
+      \max\Big\{
+      \|D_a\Phi(t)\|_{L^\infty_a},
+      \|D_a\Phi(t)^{-1}\|_{L^\infty_a}
+      \Big\}.
+      \]
+
+      This is the deformation-side class witness. If (t)< , then the flow map remains bi-Lipschitz. Together with incompressibility,
+
+      \[
+      \det D_a\Phi(a,t)=1,
+      \]
+
+      \[
+      \mathcal J^N_{x,t}(u,p)
+      :=
+      \left\{
+      \partial_t^m\partial_x^\alpha u(x,t),
+      \partial_t^m\partial_x^\alpha p(x,t)
+      :\ 2m+|\alpha|\le N
+      \right\}.
+      \]
+
+      This is the one-field coherence witness. It is designed to detect jump-endpoint behavior in its local tower form and loss of local tower compatibility across neighboring points.
+
+      This is not yet claimed to be the final best witness. It is the first concrete bundle that matches the route's own language.
+
+      Third, the carrier witness is formally controlled by higher tower data. At the rough symbolic level,
+
+      So the participation witness is not independent of the tower witness. It is a distinguished re-reading of part of the same classical field.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Rung1-To-Weighted-Segment Control Lemma
+    line_start: 49944
+    line_end: 49997
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49944
+    start_anchor: "\\subsection{Clay problem Rung1-To-Weighted-Segment Control Lemma}\n"
+    end_anchor: "\\subsection{Clay problem same witness Heat Ancestor Localization.A
+      Proof}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Rung1-To-Weighted-Segment Control Lemma}
+
+      and isolates the direct packet-side route from the exact rung-1 material source to the weighted-segment packet.
+
+      \[
+      \mathcal Q_{1,r,\psi}^{str}(t),
+      \qquad
+      P_F^\ast(r,t;\psi),
+      \qquad
+      A_F(t;\psi).
+      \]
+
+      \[
+      \mathfrak N^{seg}_{N+1,\rho,\psi}(t)
+      :=
+      \sup_{0<|r|\le \rho}
+      \mathfrak N^{seg}_{N+1,r,\psi}(t).
+      \]
+
+      This is the exact packet-side next-rung segment-control object that sits one level above M wseg without passing through the stronger bridge-tube envelope.
+
+      \[
+      \mathcal M^{wseg}_{N+1,r,\psi}(t)
+      \le
+      \mathfrak N^{seg}_{N+1,r,\psi}(t)
+      \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da.
+      \]
+
+      \[
+      \mathcal M^{wseg}_{N+1,r,\psi}(t)
+      \le
+      |r|^2\,P_F^\ast(r,t;\psi)\,
+      \mathfrak N^{seg}_{N+1,r,\psi}(t).
+      \]
+
+      \[
+      \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da
+      \le
+      |r|^2\,P_F^\ast(r,t;\psi)
+      \]
+
+      Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+      Take the supremum of (R1.6) over 0<|r| and t I. Since |r| , the bounds (R1.8) and (R1.10) imply (R1.11). .
+
+      Fix a compactly supported material packet , a finite depth N, a time interval I=[t 0,t 1], a scale window 0 0.
+
+      Taking the supremum over \(0<|r|\) gives (R1.11h). For (R1.11i), combine (R1.11e) with the finite quantity recorded in (R1.11f); the remaining term is the finite packet-source contribution already named there.
+
+      so (R1.11d) may be verified using the explicitly enlarged but unshifted packet record A F(t; ) rather than by silently dropping the shift.
+
+      So the hidden bridge behind (R1.10) is no longer a black box: the exact transport source is Q 1,r, str , the exact packing bridge is P F , the exact shifted distortion record is A F , and the exact next-rung receiver is the common collar envelope.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scalarized Material-Packet Tower And Packing Note
+    line_start: 50038
+    line_end: 50084
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50038
+    start_anchor: "\\subsection{Clay problem Scalarized Material-Packet Tower And
+      Packing Note}\n"
+    end_anchor: "\\subsection{Clay problem Scale Invariant Parent Charge Quantum.A
+      Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Scalarized Material-Packet Tower And Packing Note}
+
+      The present note replaces that weaker surface by a material-packet closure program.
+
+      \[
+      \partial_t X(a,t)=u(X(a,t),t),
+      \qquad
+      X(a,0)=a.
+      \]
+
+      \[
+      F(a,t):=D_a X(a,t),
+      \qquad
+      A(a,t):=F(a,t)^{-1}.
+      \]
+
+      \[
+      \det F(a,t)=1.
+      \]
+
+      \[
+      \phi_t(x):=\psi(Y_t(x)).
+      \]
+
+      \[
+      U_k(x,t):=\nabla_x^k u(x,t),
+      \qquad
+      k=0,1,\dots,N,
+      \]
+
+      That mismatch is not an objection to the packet. It is one of the exact lower- rung coupling terms the packet must carry honestly.
+
+      This tracks whether each parcel in the packet still lives inside one finite incompressible deformation class.
+
+      The quantity Q F is the direct shared-packing observable. Algebraically, P F is easier to propagate.
+
+      So on packets where F and A are controlled in a stronger pointwise or mixed distortion sense, Q F is dominated by the same absolute/relative packing record carried by A F and P F.
+
+      E N says the packet still behaves like one shared field at tower depth N; A F says each parcel still sits in one finite incompressible deformation regime; P F says neighboring parcels still share that deformation regime; Q F says the induced local parcel geometry remains coherent.
+
+      The packet does not become one proof surface until the label increment r is connected to the physical-space increment seen by the tower defects.
+
+      So the label-space tower defect and the Eulerian finite-difference defect are the same object once the increment is chosen to be the transported separation.
+
+      This is the exact place where relative packing mismatch enters the coherence story: if P F is small, then transported parcel separation is well approximated by the local deformation.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Seven-Item Paper-Grade Closure Package
+    line_start: 50648
+    line_end: 50702
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50648
+    start_anchor: "\\subsection{Seven-Item Paper-Grade Closure Package}\n"
+    end_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 audit against B ASAC
+      closed,min}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Seven-Item Paper-Grade Closure Package}
+
+      Paper-grade theorem-program closure package for the periodic Navier--Stokes branch. Internal route labels are converted into ordinary lemma names in the main proof.
+
+      \[
+      u_0\in C^\infty(\mathbb T^3;\mathbb R^3),
+      \qquad
+      \nabla\cdot u_0=0,
+      \qquad
+      \int_{\mathbb T^3}u_0\,dx=0.
+      \]
+
+      Let (u,p) be the maximal smooth solution of the unforced incompressible Navier--Stokes system on [0,T *), with zero-mean pressure.
+
+      Fix a terminal same-fluid approach tail. The scale-critical good-cylinder dichotomy gives two cases.
+
+      In the strict averaged-good case, the tail has a finite same-fluid cover by cylinders with positive lower radius and bounded overlap. On each cylinder, local epsilon regularity gives a finite-depth averaged affine tower packet. The common scheduler lemma runs the averaged ACT budget on all cover elements and all finitely many route parameters, giving averaged transported-center control.
+
+      In the averaged-jump case, loss of every positive same-fluid good-cylinder scale is an averaged endpoint face. The averaged endpoint theorem removes that face.
+
+      Let endpoint tower depth be N, and choose readout depth m>=N+2. Assume averaged endpoint closure, a finite readout cover, averaged field control, averaged transported-center control, and ATD m epsilon on the shrunken cover. Then pointwise endpoint closure follows.
+
+      \[
+      B_i'\Subset B_i\Subset 2B_i
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+      \le C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      \[
+      \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+      \le C_{q,i}^{tail}\|u_0\|_{L^2(\mathbb T^3)}^2.
+      \]
+
+      Rescale the moving cylinder to unit size. The bounded same-fluid distortion sends it to a CKN-admissible parabolic cylinder with controlled constants. Choose epsilon m below the corresponding epsilon regularity threshold. Interior regularity and parabolic bootstrapping yield, for 0
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Shahmurov 2605.09797 audit against B ASAC closed,min
+    line_start: 50703
+    line_end: 50731
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50703
+    start_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 audit against B
+      ASAC closed,min}\n"
+    end_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 quarantine audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Shahmurov 2605.09797 audit against B ASAC closed,min}
+
+      Rishad Shahmurov, ar Xiv:2605.09797, *A Classical Two-Part First-Threshold Proof of Global Smoothness for Navier--Stokes: Axisymmetric Swirl Closure and Full-System Reduction*.
+
+      The paper's temporal descendant mechanism detects a transfer-active burst on an interior subinterval and produces a smaller positive-score descendant.
+
+      In the full-system part, the relevant channel is Dtemp, defined by transfer-active stretching on subintervals of (-1,0]. Proposition 16.2 then says that a transfer-active temporal burst on shrinking intervals creates a positive corrected-score descendant.
+
+      Finite-overlap descendant exclusion removes channels that already generate a smaller admissible packet with positive corrected score. This is a powerful minimality device.
+
+      The B ASAC closed,min obstruction was deliberately built after descendant/minimality arguments have failed to create such a packet. A terminal boundary atom can survive descendant exclusion unless the atom is first converted into a named descendant-producing channel.
+
+      The paper's full-system dictionary includes leakage, shell, pressure/tail, fragmentation, passive, angular/phase, and temporal-transfer channels.
+
+      Our transported no-flux reduction shows that pressure/tail control would help the spatial boundary part, but the terminal time-face atom is independent of lateral pressure/tail removal. Spatial tail removal does not remove dy tensor delta s=0 .
+
+      Compactness must add temporal spread, source cancellation, or a rigidity identity to become a discharge. The audited text does not show such an identity for an arbitrary native source measure on s=0.
+
+      The paper's Part II claims that zero final defect forces the active frame measure into a locally two-dimensional or axisymmetric-with-swirl class.
+
+      This is downstream of proving that every positive final defect either gives strict loss or a descendant. For our route, the unresolved question is wh
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Shahmurov 2605.09797 quarantine audit
+    line_start: 50732
+    line_end: 50742
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50732
+    start_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 quarantine audit}\n"
+    end_anchor: "\\subsection{Clay problem Shared Packing Exact Predicate Draft}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Shahmurov 2605.09797 quarantine audit}
+
+      Rishad Shahmurov, ar Xiv:2605.09797, *A Classical Two-Part First-Threshold Proof of Global Smoothness for Navier--Stokes: Axisymmetric Swirl Closure and Full-System Reduction*.
+
+      Finite-overlap descendant exclusion removes channels that generate smaller admissible descendants. The terminal atom must first enter a descendant-producing channel. Without Native Time Face Atom ToTransfer Active Burst.A, descendant exclusion does not touch the atom.
+
+      Pressure/tail removal can support Transported Boundary Tightness.A only after it proves same-fluid transported shell tightness for kinetic, pressure, and nonselected flux. It does not remove a source measure supported on s=0.
+
+      No audited bridge shows that endpoint compactness excludes the Radon time-face atom.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass Liouville}
+
+    Conditional theorem proved. Production into the rigid subclass remains open from installed inputs.
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0
+    \qquad\forall R<\infty.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times[-R^2,-a])=0
+    \qquad\forall a>0.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    \[
+    [-R^2,0]
+    =
+    \left(\bigcup_{n\ge1}[-R^2,-1/n]\right)
+    \cup\{0\}.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times[-R^2,0])=0.
+    \]
+
+    The installed equality-class production theorem gives B ASAC. It supplies zero ASAC defect, same-fluid retention, no earlier selected source slice, no named paid exit, and terminal Zeno support.
+
+    The rigid subclass is valid and its residue Liouville theorem is proved. It does not discharge the original Zeno Residue Liouville B ASAC .A burden until a production theorem forces every produced survivor into B ASAC TA or supplies an equivalent time-face anti-atom clause.
+
+
+
+    \subsection{Clay problem RN Three-Exit Exhaustiveness Proof}
+
+    Purpose: make explicit the limited proof that the source-wall forward supplier has exactly three Radon-Nikodym bookkeeping exits once the survivor has been reduced to the native positive source measure against the installed record.
+
+    \[
+    d\nu_N
+    :=
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+\,dxdt
+    \]
+
+    \[
+    d\rho_N:=d\rho_{inst,N}
+    \]
+
+    \[
+    \nu_N\rightharpoonup\nu_*,
+    \qquad
+    \rho_N\rightharpoonup\rho_*,
+    \]
+
+    \[
+    \boxed{
+    \nu_*=f\rho_*+\mu_*^{sing},
+    \qquad
+    \mu_*^{sing}\perp\rho_*.
+    }
+    \]
+
+    \[
+    \nu_N(E_N)\ge c,
+    \qquad
+    \rho_N(E_N)\to0.
+    \]
+
+    The first inequality is the surviving positive source mass. The second says the selected mass is not paid by the installed record.
+
+    This proof is only the bookkeeping exhaustiveness proof inside the already fixed native positive source measure / installed record setup.
+
+
+
+    \subsection{Clay problem Route-Native Witness Bundle Note}
+
+    The route-native witness bundle below is a bounded detour. It records one concrete generic amplitude/coherence package, states what that package achieves, and marks the risk that this package is already too far from the primitive class laws of the live route.
+
+    \[
+    \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0
+    \]
+
+    \[
+    \partial_t\Phi(a,t)=u(\Phi(a,t),t),
+    \qquad
+    \Phi(a,0)=a.
+    \]
+
+    \[
+    \Gamma(t):=
+    \max\Big\{
+    \|D_a\Phi(t)\|_{L^\infty_a},
+    \|D_a\Phi(t)^{-1}\|_{L^\infty_a}
+    \Big\}.
+    \]
+
+    This is the deformation-side class witness. If (t)< , then the flow map remains bi-Lipschitz. Together with incompressibility,
+
+    \[
+    \det D_a\Phi(a,t)=1,
+    \]
+
+    \[
+    \mathcal J^N_{x,t}(u,p)
+    :=
+    \left\{
+    \partial_t^m\partial_x^\alpha u(x,t),
+    \partial_t^m\partial_x^\alpha p(x,t)
+    :\ 2m+|\alpha|\le N
+    \right\}.
+    \]
+
+    This is the one-field coherence witness. It is designed to detect jump-endpoint behavior in its local tower form and loss of local tower compatibility across neighboring points.
+
+    This is not yet claimed to be the final best witness. It is the first concrete bundle that matches the route's own language.
+
+    Third, the carrier witness is formally controlled by higher tower data. At the rough symbolic level,
+
+    So the participation witness is not independent of the tower witness. It is a distinguished re-reading of part of the same classical field.
+
+
+
+    \subsection{Clay problem Rung1-To-Weighted-Segment Control Lemma}
+
+    and isolates the direct packet-side route from the exact rung-1 material source to the weighted-segment packet.
+
+    \[
+    \mathcal Q_{1,r,\psi}^{str}(t),
+    \qquad
+    P_F^\ast(r,t;\psi),
+    \qquad
+    A_F(t;\psi).
+    \]
+
+    \[
+    \mathfrak N^{seg}_{N+1,\rho,\psi}(t)
+    :=
+    \sup_{0<|r|\le \rho}
+    \mathfrak N^{seg}_{N+1,r,\psi}(t).
+    \]
+
+    This is the exact packet-side next-rung segment-control object that sits one level above M wseg without passing through the stronger bridge-tube envelope.
+
+    \[
+    \mathcal M^{wseg}_{N+1,r,\psi}(t)
+    \le
+    \mathfrak N^{seg}_{N+1,r,\psi}(t)
+    \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da.
+    \]
+
+    \[
+    \mathcal M^{wseg}_{N+1,r,\psi}(t)
+    \le
+    |r|^2\,P_F^\ast(r,t;\psi)\,
+    \mathfrak N^{seg}_{N+1,r,\psi}(t).
+    \]
+
+    \[
+    \int \psi(a)^2\,|\varepsilon_h(a,r,t)|^2\,da
+    \le
+    |r|^2\,P_F^\ast(r,t;\psi)
+    \]
+
+    Fix a compactly supported material packet , a finite depth N, a time interval I, and a scale window 0<|r| .
+
+    Take the supremum of (R1.6) over 0<|r| and t I. Since |r| , the bounds (R1.8) and (R1.10) imply (R1.11). .
+
+    Fix a compactly supported material packet , a finite depth N, a time interval I=[t 0,t 1], a scale window 0 0.
+
+    Taking the supremum over \(0<|r|\) gives (R1.11h). For (R1.11i), combine (R1.11e) with the finite quantity recorded in (R1.11f); the remaining term is the finite packet-source contribution already named there.
+
+    so (R1.11d) may be verified using the explicitly enlarged but unshifted packet record A F(t; ) rather than by silently dropping the shift.
+
+    So the hidden bridge behind (R1.10) is no longer a black box: the exact transport source is Q 1,r, str , the exact packing bridge is P F , the exact shifted distortion record is A F , and the exact next-rung receiver is the common collar envelope.
+
+
+
+    \subsection{Clay problem Scalarized Material-Packet Tower And Packing Note}
+
+    The present note replaces that weaker surface by a material-packet closure program.
+
+    \[
+    \partial_t X(a,t)=u(X(a,t),t),
+    \qquad
+    X(a,0)=a.
+    \]
+
+    \[
+    F(a,t):=D_a X(a,t),
+    \qquad
+    A(a,t):=F(a,t)^{-1}.
+    \]
+
+    \[
+    \det F(a,t)=1.
+    \]
+
+    \[
+    \phi_t(x):=\psi(Y_t(x)).
+    \]
+
+    \[
+    U_k(x,t):=\nabla_x^k u(x,t),
+    \qquad
+    k=0,1,\dots,N,
+    \]
+
+    That mismatch is not an objection to the packet. It is one of the exact lower- rung coupling terms the packet must carry honestly.
+
+    This tracks whether each parcel in the packet still lives inside one finite incompressible deformation class.
+
+    The quantity Q F is the direct shared-packing observable. Algebraically, P F is easier to propagate.
+
+    So on packets where F and A are controlled in a stronger pointwise or mixed distortion sense, Q F is dominated by the same absolute/relative packing record carried by A F and P F.
+
+    E N says the packet still behaves like one shared field at tower depth N; A F says each parcel still sits in one finite incompressible deformation regime; P F says neighboring parcels still share that deformation regime; Q F says the induced local parcel geometry remains coherent.
+
+    The packet does not become one proof surface until the label increment r is connected to the physical-space increment seen by the tower defects.
+
+    So the label-space tower defect and the Eulerian finite-difference defect are the same object once the increment is chosen to be the transported separation.
+
+    This is the exact place where relative packing mismatch enters the coherence story: if P F is small, then transported parcel separation is well approximated by the local deformation.
+
+
+
+    \subsection{Seven-Item Paper-Grade Closure Package}
+
+    Paper-grade theorem-program closure package for the periodic Navier--Stokes branch. Internal route labels are converted into ordinary lemma names in the main proof.
+
+    \[
+    u_0\in C^\infty(\mathbb T^3;\mathbb R^3),
+    \qquad
+    \nabla\cdot u_0=0,
+    \qquad
+    \int_{\mathbb T^3}u_0\,dx=0.
+    \]
+
+    Let (u,p) be the maximal smooth solution of the unforced incompressible Navier--Stokes system on [0,T *), with zero-mean pressure.
+
+    Fix a terminal same-fluid approach tail. The scale-critical good-cylinder dichotomy gives two cases.
+
+    In the strict averaged-good case, the tail has a finite same-fluid cover by cylinders with positive lower radius and bounded overlap. On each cylinder, local epsilon regularity gives a finite-depth averaged affine tower packet. The common scheduler lemma runs the averaged ACT budget on all cover elements and all finitely many route parameters, giving averaged transported-center control.
+
+    In the averaged-jump case, loss of every positive same-fluid good-cylinder scale is an averaged endpoint face. The averaged endpoint theorem removes that face.
+
+    Let endpoint tower depth be N, and choose readout depth m>=N+2. Assume averaged endpoint closure, a finite readout cover, averaged field control, averaged transported-center control, and ATD m epsilon on the shrunken cover. Then pointwise endpoint closure follows.
+
+    \[
+    B_i'\Subset B_i\Subset 2B_i
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+    \le C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    \[
+    \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+    \le C_{q,i}^{tail}\|u_0\|_{L^2(\mathbb T^3)}^2.
+    \]
+
+    Rescale the moving cylinder to unit size. The bounded same-fluid distortion sends it to a CKN-admissible parabolic cylinder with controlled constants. Choose epsilon m below the corresponding epsilon regularity threshold. Interior regularity and parabolic bootstrapping yield, for 0<=k<=m+2,
+
+    The pressure is normalized by subtracting the admissible local pressure mode and preserving zero mean on the torus. The averaged affine residual satisfies
+
+    Choose theta m with C m theta m 2<=eta X. The same derivative estimates give the averaged dissipation, forcing, and center records required by ATD m epsilon.
+
+    Participation failure gives the dead face. Pack failure gives the packing-detached or tower-blown face. Tower escape gives the tower-blown face. Field failure gives the jump face. Cross-entry reductions place mixed failures into the same four rows.
+
+    Endpoint closure supplies the four row eliminations: participation row, pack row, tower-bound row, and field row. Hence a first finite endpoint has a face and that face is eliminated, contradiction.
+
+    For smooth divergence-free zero-mean data on T 3, the periodic Navier--Stokes solution is global and smooth.
+
+
+
+    \subsection{Clay problem Shahmurov 2605.09797 audit against B ASAC closed,min}
+
+    Rishad Shahmurov, ar Xiv:2605.09797, *A Classical Two-Part First-Threshold Proof of Global Smoothness for Navier--Stokes: Axisymmetric Swirl Closure and Full-System Reduction*.
+
+    The paper's temporal descendant mechanism detects a transfer-active burst on an interior subinterval and produces a smaller positive-score descendant.
+
+    In the full-system part, the relevant channel is Dtemp, defined by transfer-active stretching on subintervals of (-1,0]. Proposition 16.2 then says that a transfer-active temporal burst on shrinking intervals creates a positive corrected-score descendant.
+
+    Finite-overlap descendant exclusion removes channels that already generate a smaller admissible packet with positive corrected score. This is a powerful minimality device.
+
+    The B ASAC closed,min obstruction was deliberately built after descendant/minimality arguments have failed to create such a packet. A terminal boundary atom can survive descendant exclusion unless the atom is first converted into a named descendant-producing channel.
+
+    The paper's full-system dictionary includes leakage, shell, pressure/tail, fragmentation, passive, angular/phase, and temporal-transfer channels.
+
+    Our transported no-flux reduction shows that pressure/tail control would help the spatial boundary part, but the terminal time-face atom is independent of lateral pressure/tail removal. Spatial tail removal does not remove dy tensor delta s=0 .
+
+    Compactness must add temporal spread, source cancellation, or a rigidity identity to become a discharge. The audited text does not show such an identity for an arbitrary native source measure on s=0.
+
+    The paper's Part II claims that zero final defect forces the active frame measure into a locally two-dimensional or axisymmetric-with-swirl class.
+
+    This is downstream of proving that every positive final defect either gives strict loss or a descendant. For our route, the unresolved question is whether the native terminal source atom is included in the final defect dictionary or forces one of those channels. Without that bridge, zero-final-defect rigidity does not apply to B ASAC closed,min.
+
+    \[
+    \rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    Until one of these is proved, B ASAC closed,min remains live in the local theorem record.
+
+
+
+    \subsection{Clay problem Shahmurov 2605.09797 quarantine audit}
+
+    Rishad Shahmurov, ar Xiv:2605.09797, *A Classical Two-Part First-Threshold Proof of Global Smoothness for Navier--Stokes: Axisymmetric Swirl Closure and Full-System Reduction*.
+
+    Finite-overlap descendant exclusion removes channels that generate smaller admissible descendants. The terminal atom must first enter a descendant-producing channel. Without Native Time Face Atom ToTransfer Active Burst.A, descendant exclusion does not touch the atom.
+
+    Pressure/tail removal can support Transported Boundary Tightness.A only after it proves same-fluid transported shell tightness for kinetic, pressure, and nonselected flux. It does not remove a source measure supported on s=0.
+
+    No audited bridge shows that endpoint compactness excludes the Radon time-face atom.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass Liouville
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  line_start: 49773
+  line_end: 49806
+  start_anchor: "\\subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass
+    Liouville}\n"
+  end_anchor: "\\subsection{Clay problem RN Three-Exit Exhaustiveness Proof}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Rigid B ASAC Time-Face
+    Anti-Atom Subclass Liouville as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem RN Three-Exit Exhaustiveness Proof
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49807
+  line_start: 49807
+  line_end: 49847
+  start_anchor: "\\subsection{Clay problem RN Three-Exit Exhaustiveness Proof}\n"
+  end_anchor: "\\subsection{Clay problem Route-Native Witness Bundle Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem RN Three-Exit Exhaustiveness
+    Proof as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49807
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Route-Native Witness Bundle Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49848
+  line_start: 49848
+  line_end: 49896
+  start_anchor: "\\subsection{Clay problem Route-Native Witness Bundle Note}\n"
+  end_anchor: "\\subsection{Clay problem Row 5 Lifted-Band L-Flux Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Route-Native Witness
+    Bundle Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49848
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Rung1-To-Weighted-Segment Control Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49944
+  line_start: 49944
+  line_end: 49997
+  start_anchor: "\\subsection{Clay problem Rung1-To-Weighted-Segment Control Lemma}\n"
+  end_anchor: "\\subsection{Clay problem same witness Heat Ancestor Localization.A
+    Proof}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Rung1-To-Weighted-Segment
+    Control Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49944
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scalarized Material-Packet Tower And Packing Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50038
+  line_start: 50038
+  line_end: 50084
+  start_anchor: "\\subsection{Clay problem Scalarized Material-Packet Tower And Packing
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Scale Invariant Parent Charge Quantum.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scalarized Material-Packet
+    Tower And Packing Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50038
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Seven-Item Paper-Grade Closure Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50648
+  line_start: 50648
+  line_end: 50702
+  start_anchor: "\\subsection{Seven-Item Paper-Grade Closure Package}\n"
+  end_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 audit against B ASAC
+    closed,min}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Seven-Item Paper-Grade Closure
+    Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50648
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Shahmurov 2605.09797 audit against B ASAC closed,min
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50703
+  line_start: 50703
+  line_end: 50731
+  start_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 audit against B ASAC
+    closed,min}\n"
+  end_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 quarantine audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Shahmurov 2605.09797
+    audit against B ASAC closed,min as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50703
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Shahmurov 2605.09797 quarantine audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50732
+  line_start: 50732
+  line_end: 50742
+  start_anchor: "\\subsection{Clay problem Shahmurov 2605.09797 quarantine audit}\n"
+  end_anchor: "\\subsection{Clay problem Shared Packing Exact Predicate Draft}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Shahmurov 2605.09797
+    quarantine audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50732
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-39
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-39.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

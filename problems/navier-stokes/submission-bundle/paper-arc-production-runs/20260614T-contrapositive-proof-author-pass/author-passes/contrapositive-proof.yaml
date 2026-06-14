@@ -1,0 +1,71 @@
+---
+version: 1
+kind: ns-paper-arc-straight-through-author-pass
+generated_at: '2026-06-14T05:20:35Z'
+arc_id: contrapositive-proof
+mode: whole-arc-source-authoring
+author_pass_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-passes/contrapositive-proof.yaml
+author_prompt_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-prompts/contrapositive-proof.md
+work_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/work-packets/contrapositive-proof.yaml
+context_packet_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/context-packets/contrapositive-proof.yaml
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml
+source_scope: whole proof arc, not a page span or local D-number fragment
+paper_goal: make the manuscript read as one human mathematical proof, with repo status
+  visible only through the argument on the page
+writing_objective: write the full assigned proof arc as finished TeX prose in one
+  serious pass
+author_sequence:
+- read the work packet and context packet
+- write every source rewrite in the author pack as complete TeX, not notes
+- turn each source item into proof, derivation, support, obstruction, obsolete status,
+  contradiction, or open continuation
+- fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  for every rewrite
+- set ready_to_apply true only after the arc text is complete enough for verifier
+  attack
+output_contract:
+  must_edit: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml
+  must_return_kind: ns-paper-arc-author-pack
+  must_set:
+  - 'ready_to_apply: true'
+  - 'author_replacement_required: false for every completed rewrite'
+  - repo_sources_used for every rewrite
+  - endpoint_status for every rewrite
+  - reader_payments with plain_explanation, derivation_or_proof_payment, endpoint_status
+  - math_reader_critic with a resolved repair_decision
+  must_not_return:
+  - a report instead of TeX
+  - a partial local span while other arc sections remain untouched
+  - new free-running theorem work
+  - progress language that does not change the author pack
+verification_sequence:
+- ruby system/runner/bin/ns_paper_arc_pipeline.rb --verify-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml
+- ruby system/runner/bin/ns_paper_arc_pipeline.rb --integrate-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml
+  --output-dir problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass
+  --output problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/contrapositive-proof-integrated.yaml
+- ruby system/runner/bin/ns_paper_arc_pipeline.rb --critic contrapositive-proof --output-dir
+  problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass
+repair_rule: repair only verifier or critic failures for this arc, then rerun the
+  same checks
+prompt_text: |
+  Write the Navier-Stokes paper itself for one whole proof arc.
+
+  Arc: contrapositive-proof - Contrapositive proof
+  Production role: write the CM exit argument as an actual proof arc rather than a route label
+  Author job: write the pass-or-exit proof with the assumption, test object, witness face failure, and Exit(Q) conclusion kept separate
+
+  Inputs:
+  - Work packet: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/work-packets/contrapositive-proof.yaml
+  - Context packet: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/context-packets/contrapositive-proof.yaml
+  - Author pack to fill: problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml
+
+  Read the work packet and context packet first. Then fill the author pack with finished TeX replacements for every source rewrite in this arc.
+
+  Write like a mathematical author speaking to a graduate reader. Explain the object before using it. Show the calculation or cite the exact repo source when a claim needs proof. State gold status honestly. State the CM/silver counterpart wherever this arc touches class exit. Every endpoint must be one of the allowed statuses in the work packet.
+
+  Return a complete ns-paper-arc-author-pack YAML in problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml. The pack must set ready_to_apply true only after every rewrite has final TeX, repo_sources_used, endpoint_status, reader_payments, and math_reader_critic.
+
+  Keep theorem work inside this arc. A math note may enter only as TeX-ready derivation, exact obstruction, endpoint classification, or CM counterpart for a named sentence in this arc.
+
+  After filling the pack, run:
+  ruby system/runner/bin/ns_paper_arc_pipeline.rb --verify-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-contrapositive-proof-author-pass/author-packs/contrapositive-proof.yaml

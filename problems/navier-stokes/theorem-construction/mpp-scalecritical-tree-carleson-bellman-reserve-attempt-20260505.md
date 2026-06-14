@@ -44,7 +44,7 @@ In the direct Carleson route it is the exact donor factor left after
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\sim
+:=
 \sum_{k>N}2^k
 \left(
 \sum_{\ell>k+4}D_\ell

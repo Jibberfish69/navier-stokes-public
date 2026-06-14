@@ -21,7 +21,7 @@ Let
 ```math
 E_j'(t)+\lambda_jE_j(t)\le F_j(t),
 \qquad
-\lambda_j\simeq \nu2^{2j}.
+c_\lambda\nu2^{2j}\le\lambda_j\le C_\lambda\nu2^{2j}.
 ```
 
 For `I=[t_0,t_1]`, the damped Duhamel estimate gives

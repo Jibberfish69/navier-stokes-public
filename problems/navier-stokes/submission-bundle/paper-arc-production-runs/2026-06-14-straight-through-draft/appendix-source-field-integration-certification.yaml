@@ -1,0 +1,13 @@
+---
+version: 1
+kind: ns-paper-arc-current-source-certification
+generated_at: '2026-06-14T08:40:25Z'
+arc_id: appendix-source-field-integration
+status: passed
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/author-packs/appendix-source-field-integration.yaml
+critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-draft/critic-reports/appendix-source-field-integration.yaml
+critic_status: passed
+source_section_count: 1
+verifier_status: passed
+integration_allowed: true
+failures: []

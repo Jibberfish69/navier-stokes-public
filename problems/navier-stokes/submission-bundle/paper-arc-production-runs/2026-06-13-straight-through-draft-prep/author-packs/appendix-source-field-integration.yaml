@@ -1,0 +1,88 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: appendix-source-field-integration
+batch_id: appendix-source-field-integration-author-pack-20260613T231942Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
+  section_title: Proof Attempts And Failures To Prove Smoothness
+  spine_id: proof-attempts-and-failures-to-prove-smoothness
+  source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+  endpoint_status: support for a named later proof step
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: 'The appendix is certified only as the support record behind
+      the class-membership proof: it records positive attempts by attempted payment,
+      calculation, stopping point, surviving residue, and CM role.'
+    reader_thread_attack: The opening contract gives the reader the route through
+      a large failure record before the enumerated attempts begin, so the appendix
+      is not presented as a second proof spine.
+    unpaid_derivation_attack: The appendix does not prove smoothness; it pays the
+      manuscript by making failed direct routes legible as source, residue, support,
+      open theorem, or Pack/Part/Field handoff material.
+    repair_decision: passes after repair
+    unresolved_failures: []
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  section_title: Source-Field Reader Appendix
+  spine_id: source-field-reader-appendix
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
+  endpoint_status: support for a named later proof step
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The source-field appendix is certified as reader-facing source
+      support controlled by the same-solution terminal test, not as an independent
+      proof of the Clay conclusion.
+    reader_thread_attack: 'The status map tells the reader how to use the huge source
+      record: proof-bearing only when a same terminal record and Pack/Part/Field face
+      are named, support-only for definitions and routes, historical for older blockers.'
+    unpaid_derivation_attack: The derivation burden remains in the main proof or in
+      cited face payments; the appendix is accepted here as organized support and
+      historical/source-field integration rather than as final theorem closure.
+    repair_decision: passes after repair
+    unresolved_failures: []
+author_contract:
+  arc_id: appendix-source-field-integration
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - "(appendix|source.field|derivation)"
+  - "(proof|support|open|obsolete)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build

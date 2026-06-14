@@ -68,12 +68,12 @@ H_w(t)\le \int_I w(s,t)\,ds.
 \tag{5}
 ```
 
-Also, since `\theta_\kappa` is nonnegative and supported on a fixed interval of
-length `O(1)`,
+Also, since `\theta_\kappa` is nonnegative and supported on an interval of
+length at most `L_\kappa`,
 
 ```math
 \|c_F(t)\|_{L_x^2}^2
-\lesssim
+\le C_{\theta}
 \int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,
 \|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma.
 \tag{6}
@@ -83,7 +83,7 @@ Substituting `(5)` and `(6)` into `(1)` gives
 
 ```math
 \mathfrak P
-\lesssim
+\le C_{\mathfrak P}
 \int_0^T
 \Big(\int_I w(s,t)\,ds\Big)
 \Big(
@@ -214,7 +214,7 @@ On the fixed interval,
 
 ```math
 \|M_0(t)\|_{L_x^2}^2+\|M_1(t)\|_{L_x^2}^2
-\lesssim
+\le C_M
 \int_{s_0}^{s_1-\kappa}\|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma.
 \tag{14}
 ```
@@ -223,7 +223,7 @@ So the inherited Euclidean surface gives only the coarse bound
 
 ```math
 \|c_F(t)\|_{L_x^2}^2
-\lesssim
+\le C_c
 \int_{s_0}^{s_1-\kappa}\|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma,
 \tag{15}
 ```

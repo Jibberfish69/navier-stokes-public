@@ -1,0 +1,156 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-cm-core-source-author
+runner_id: cm-core-source-author
+ready_to_apply: false
+source_rewrites:
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex
+  section_title: Selected-Packet Euler Boundary Theorem
+  spine_id: selected-packet-euler-boundary-theorem
+  source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node selected-packet-euler-boundary-theorem (Selected-Packet Euler Boundary Theorem)
+    in final TeX prose. Preserve the section heading, proof truth, source refs, and
+    reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Exhaustive Failure List
+  spine_id: exhaustive-failure-list
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:273
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node exhaustive-failure-list (Exhaustive Failure List) in final TeX prose. Preserve
+    the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Generally Classifying Failure Types From the List
+  spine_id: generally-classifying-failure-types-from-the-list
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:375
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node generally-classifying-failure-types-from-the-list (Generally Classifying
+    Failure Types From the List) in final TeX prose. Preserve the section heading,
+    proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Silver Standard Approach
+  spine_id: silver-standard-approach
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:424
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node silver-standard-approach (Silver Standard Approach) in final TeX prose. Preserve
+    the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Defining Class Membership
+  spine_id: defining-class-membership
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:462
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node defining-class-membership (Defining Class Membership) in final TeX prose.
+    Preserve the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Participation and One-Field Coherence Witness Laws
+  spine_id: participation-and-one-field-coherence-witness-laws
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:546
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node participation-and-one-field-coherence-witness-laws (Participation and One-Field
+    Coherence Witness Laws) in final TeX prose. Preserve the section heading, proof
+    truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Packet Witness Law
+  spine_id: packet-witness-law
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:595
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node packet-witness-law (Packet Witness Law) in final TeX prose. Preserve the
+    section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Packet Failure Types
+  spine_id: packet-failure-types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node packet-failure-types (Packet Failure Types) in final TeX prose. Preserve
+    the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Velocity Failure Types
+  spine_id: velocity-failure-types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:633
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node velocity-failure-types (Velocity Failure Types) in final TeX prose. Preserve
+    the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Contrapositive Logic
+  spine_id: the-contrapositive-logic
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:672
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node the-contrapositive-logic (The Contrapositive Logic) in final TeX prose. Preserve
+    the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Simplifying The Witness Logic Table
+  spine_id: simplifying-the-witness-logic-table
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:718
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node simplifying-the-witness-logic-table (Simplifying The Witness Logic Table)
+    in final TeX prose. Preserve the section heading, proof truth, source refs, and
+    reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Class-Law Proof
+  spine_id: the-class-law-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:762
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node the-class-law-proof (The Class-Law Proof) in final TeX prose. Preserve the
+    section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Clay-Facing CM Completion
+  spine_id: the-clay-facing-cm-completion
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1067
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node the-clay-facing-cm-completion (The Clay-Facing CM Completion) in final TeX
+    prose. Preserve the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Closing Hinges
+  spine_id: the-closing-hinges
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1629
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node the-closing-hinges (The Closing Hinges) in final TeX prose. Preserve the
+    section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Same-Solution CM Proof
+  spine_id: the-same-solution-cm-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node the-same-solution-cm-proof (The Same-Solution CM Proof) in final TeX prose.
+    Preserve the section heading, proof truth, source refs, and reader route.>>\n"
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex
+  section_title: Proof Attempts And Failures To Prove Smoothness
+  spine_id: proof-attempts-and-failures-to-prove-smoothness
+  source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
+  author_replacement_required: true
+  replacement: "<<FILL BEFORE APPLYING: cm-core-source-author must rewrite source-spine
+    node proof-attempts-and-failures-to-prove-smoothness (Proof Attempts And Failures
+    To Prove Smoothness) in final TeX prose. Preserve the section heading, proof truth,
+    source refs, and reader route.>>\n"
+fill_rule: 'Replace every placeholder with final TeX prose and set ready_to_apply:
+  true before applying.'

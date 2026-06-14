@@ -1,0 +1,796 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-33
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-33
+  sequence: 185
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 33
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 20654
+  line_end: 21014
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20654
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20681
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20690
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20711
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20817
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20936
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20968
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21003
+  subsection_titles:
+  - Nonlinear shell-flux source control theorem - bounded solve attempt
+  - Nonlinear shell-flux source theorem for active pulses - reduction and obstruction
+  - Manuscript Boundary for Extension Routes
+  - Claim Boundary for the Formalized Package
+  - Missing Signed Partners and Boundary Pricing
+  - Direct Attack on the SG4 TPS Source Estimates
+  - Local Completion Attempt for the QSP-11R to SG-4B Branch
+  - Audit Endpoint Availability and Proof Text
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Nonlinear shell-flux source control theorem - bounded solve
+      attempt
+    line_start: 20654
+    line_end: 20680
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20654
+    start_anchor: "\\subsection{Nonlinear shell-flux source control theorem - bounded
+      solve attempt}\n"
+    end_anchor: "\\subsection{Nonlinear shell-flux source theorem for active pulses
+      - reduction and obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Nonlinear shell-flux source control theorem - bounded solve attempt}
+
+      Prove a source theorem strong enough to yield active-shell amplitude gain, hence scale-normalized nu SCF Carleson control.
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t),
+      \]
+
+      \[
+      \langle \Delta_j(a_k\cdot\nabla\Delta_\ell u),\Delta_j u\rangle
+      +
+      \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle=0.
+      \]
+
+      After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+
+      The available algebra gives the reduction, while it supplies no sign law for the true weighted object. The principal lifted remainder can align with expanding strain directions. One-sided shell weights preserve a positive active- burden after absolute values are taken.
+
+      \[
+      F_j(0;Au_0)=A^3F_j(0;u_0).
+      \]
+
+      The proposed fixed-shell -source right side is amplitude independent. Large-amplitude smooth data violate that estimate unless an additional amplitude normalization or structural cancellation theorem is supplied.
+
+      Equivalently, a direct monotone/source-dominance law for the nonlinear shell source would close this target.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Nonlinear shell-flux source theorem for active pulses - reduction
+      and obstruction
+    line_start: 20681
+    line_end: 20689
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20681
+    start_anchor: "\\subsection{Nonlinear shell-flux source theorem for active pulses
+      - reduction and obstruction}\n"
+    end_anchor: "\\subsection{Manuscript Boundary for Extension Routes}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Nonlinear shell-flux source theorem for active pulses - reduction and obstruction}
+
+      Prove a nonlinear shell-flux source theorem ruling out source-balanced active-shell pulses.
+
+      After shell weights enter, the surviving source is a weighted exchange defect. Thus the source theorem reduces to a signed weighted commutator-defect theorem.
+
+      The residual tail int sum k>N D k dt remains stronger than available first-moment controls.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Manuscript Boundary for Extension Routes
+    line_start: 20690
+    line_end: 20710
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20690
+    start_anchor: "\\subsection{Manuscript Boundary for Extension Routes}\n"
+    end_anchor: "\\subsection{Claim Boundary for the Formalized Package}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Manuscript Boundary for Extension Routes}
+
+      The theorem-facing spine is the current class-membership and endpoint-exclusion
+      route.  Downstream readouts, comparison material, recovery notes, and runtime
+      or source-recovery records may be useful to the reader, but adjacency does not
+      make them part of the theorem spine.
+
+      An extension-side route can enter the spine only after it pays one of the
+      three standard entrances.  It has to supply a named bridge into
+      \(Member(Q;\mathcal O_{\mathrm{NS}})\), land on the same witness through a
+      Pack, Part, or Field face, or provide an endpoint certificate map that the
+      spine can actually spend.  Until one of those entrances is present, the route
+      remains support material.
+
+      The unresolved source-wall group is still the mathematical blocker at this
+      point of the record.  Its presentations are allowed to explain what the proof
+      search has reduced to; they are not allowed to certify theorem-spine closure
+      unless they first land in a witness face or prove the positive supplier theorem
+      they require.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Claim Boundary for the Formalized Package
+    line_start: 20711
+    line_end: 20730
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20711
+    start_anchor: "\\subsection{Claim Boundary for the Formalized Package}\n"
+    end_anchor: "\\subsection{Scale-normalized Carleson Upper Estimate for the SCF
+      Charge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Claim Boundary for the Formalized Package}
+
+      The formalized package can safely present the route-aligned local theorem
+      packet: class membership is tracked by the current witness grammar, and
+      endpoint exclusion is stated only at the strength that the installed package
+      supports.  A stand-alone global smoothness claim sits beyond that boundary
+      until the source-wall root is proved or explicitly parked below the theorem
+      surface with a review verdict.
+
+      The formalization record adds no independent analytic proof burden.  Its job
+      is claim control.  It marks the lowest statement the package can
+      honestly make, marks the first statement that would overclaim, and keeps
+      speculative recovered support from being presented as an installed bridge.
+
+      At the present level, the live mathematical burden remains the source-wall
+      root after reconciliation.  The manuscript should keep the route-aligned
+      packet visible, name that unresolved burden plainly, and keep terminal
+      stand-alone export in revision posture until the blocker is actually paid.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Missing Signed Partners and Boundary Pricing
+    line_start: 20817
+    line_end: 20849
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20817
+    start_anchor: "\\subsection{Missing Signed Partners and Boundary Pricing}\n"
+    end_anchor: "\\subsection{Periodic Target Statement and Whole-space Export Boundary}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Missing Signed Partners and Boundary Pricing}
+
+      The boundary-pricing replacement is only conditional from the installed
+      inputs.
+
+      Same-fluid edge fidelity says that selected legal parents are meaningful.  It
+      does not say that every unselected signed partner is illegal, small, or already
+      paid as a boundary loss.
+
+      \[
+      A\to B,
+      \qquad
+      \operatorname{div}J(B)>0,
+      \qquad
+      \operatorname{div}J(A)<0.
+      \]
+
+      If \(B\) is selected terminal-positive and \(A\) is a legal interior donor
+      omitted from the record, then \(A\) is not boundary flux and is not
+      automatically a legal loss.  It is an internal negative source sink.  Pricing it
+      requires a donor-depletion or signed-saturation theorem, not a bookkeeping
+      classification.
+
+      Diffuse legal parentage gives many such omitted donor partners. Each omitted
+      partner can be fully legal, same-fluid, and physically interior. The fact that
+      it was not selected into \(F_N\) does not make it small. Charging all omitted
+      partners by absolute value again reopens the internal sink/donor-depletion
+      problem.
+
+      Without Terminal Signed Saturation.A or Parabolic NoFree Sink.A, missing signed
+      partners cannot be priced as legal boundary losses.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Direct Attack on the SG4 TPS Source Estimates
+    line_start: 20936
+    line_end: 20967
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20936
+    start_anchor: "\\subsection{Direct Attack on the SG4 TPS Source Estimates}\n"
+    end_anchor: "\\subsection{Local Completion Attempt for the QSP-11R to SG-4B Branch}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Direct Attack on the SG4 TPS Source Estimates}
+
+      Let \(A_J=H_J^*H_J\), and let \(\lambda_1\ge\lambda_2\) be its eigenvalues.
+      The reduced Gramian equation gives
+
+      \[
+      \frac{d}{dt}\log(\lambda_2/\lambda_1)
+      =
+      2(\langle u_2,S_{\parallel,J}u_2\rangle-\langle u_1,S_{\parallel,J}u_1\rangle)+error.
+      \]
+
+      \[
+      \langle u_1,S_{\parallel,J}u_1\rangle-\langle u_2,S_{\parallel,J}u_2\rangle
+      \ge \delta_*-r_J
+      \]
+
+      \[
+      \|E_A\|_{op}\le \varepsilon_A\lambda_2
+      \]
+
+      \[
+      \frac{d}{dt}\log(\lambda_2/\lambda_1)
+      \le -2\delta_*+2r_J+C\varepsilon_A.
+      \]
+
+      If the integrated defect is smaller than the drain on a positive-mass retained family, the ratio contracts.
+
+      \[
+      \sigma_2(H_J)/\sigma_1(H_J)\le q<1.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Local Completion Attempt for the QSP-11R to SG-4B Branch
+    line_start: 20968
+    line_end: 21002
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20968
+    start_anchor: "\\subsection{Local Completion Attempt for the QSP-11R to SG-4B
+      Branch}\n"
+    end_anchor: "\\subsection{Audit Endpoint Availability and Proof Text}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Local Completion Attempt for the QSP-11R to SG-4B Branch}
+
+      The ordered chain closes from explicit source packets. The source packets remain the active mathematical inputs.
+
+      \[
+      \int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|\,d\mu_j(a)
+      \le \varepsilon_J^{shell},
+      \]
+
+      \[
+      \max_{r,\pm}s_{\pm,r}^{shell}\le\varsigma_J,
+      \qquad \varepsilon_J^{shell}\to0,
+      \qquad \varsigma_J\to0.
+      \]
+
+      \[
+      \int_{G_J}\delta_{J,r}^{\pm}(a)\,d\mu_j(a)
+      \le \varepsilon_J^{shell}+\varsigma_J\mu_j(G_J).
+      \]
+
+      Thus finite shell comparability supplies shell leakage on the same core-cap family.
+
+      \[
+      \sup_{I_0}\|\nabla v_J\|_{L^\infty}\le M_* ,
+      \qquad
+      \sup_{I_0}\|\nabla^2 v_J\|_{L^\infty}\le H_* .
+      \]
+
+      \[
+      \|D_a^2X_t\|_{op}\le H_*\tau_0 e^{2M_*\tau_0}.
+      \]
+
+      If this tends to zero uniformly, segment-collar derivative continuity holds and finite-frame PTC-Lin follows.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Audit Endpoint Availability and Proof Text
+    line_start: 21003
+    line_end: 21014
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21003
+    start_anchor: "\\subsection{Audit Endpoint Availability and Proof Text}\n"
+    end_anchor: "\\subsection{Original-data \\(E_u\\) Conversion and Additive-carrier
+      Obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Audit Endpoint Availability and Proof Text}
+
+      Dedicated MCP audit endpoint availability is not a mathematical blocker for
+      this manuscript note.  The ordinary evidence path is visible proof text,
+      visible audit text, and direct or staged persistence through the exposed
+      theorem-write tools.
+
+      The continuum coherent-sector replacement has only a conditional
+      theorem-facing completion note.  It should be read as a recorded route
+      condition, not as an installed analytic theorem.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Nonlinear shell-flux source control theorem - bounded solve attempt}
+
+    Prove a source theorem strong enough to yield active-shell amplitude gain, hence scale-normalized nu SCF Carleson control.
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t),
+    \]
+
+    \[
+    \langle \Delta_j(a_k\cdot\nabla\Delta_\ell u),\Delta_j u\rangle
+    +
+    \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle=0.
+    \]
+
+    After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+
+    The available algebra gives the reduction, while it supplies no sign law for the true weighted object. The principal lifted remainder can align with expanding strain directions. One-sided shell weights preserve a positive active- burden after absolute values are taken.
+
+    \[
+    F_j(0;Au_0)=A^3F_j(0;u_0).
+    \]
+
+    The proposed fixed-shell -source right side is amplitude independent. Large-amplitude smooth data violate that estimate unless an additional amplitude normalization or structural cancellation theorem is supplied.
+
+    Equivalently, a direct monotone/source-dominance law for the nonlinear shell source would close this target.
+
+
+
+    \subsection{Nonlinear shell-flux source theorem for active pulses - reduction and obstruction}
+
+    Prove a nonlinear shell-flux source theorem ruling out source-balanced active-shell pulses.
+
+    After shell weights enter, the surviving source is a weighted exchange defect. Thus the source theorem reduces to a signed weighted commutator-defect theorem.
+
+    The residual tail int sum k>N D k dt remains stronger than available first-moment controls.
+
+
+
+    \subsection{Manuscript Boundary for Extension Routes}
+
+    The theorem-facing spine is the current class-membership and endpoint-exclusion
+    route.  Downstream readouts, comparison material, recovery notes, and runtime
+    or source-recovery records may be useful to the reader, but adjacency does not
+    make them part of the theorem spine.
+
+    An extension-side route can enter the spine only after it pays one of the
+    three standard entrances.  It has to supply a named bridge into
+    \(Member(Q;\mathcal O_{\mathrm{NS}})\), land on the same witness through a
+    Pack, Part, or Field face, or provide an endpoint certificate map that the
+    spine can actually spend.  Until one of those entrances is present, the route
+    remains support material.
+
+    The unresolved source-wall group is still the mathematical blocker at this
+    point of the record.  Its presentations are allowed to explain what the proof
+    search has reduced to; they are not allowed to certify theorem-spine closure
+    unless they first land in a witness face or prove the positive supplier theorem
+    they require.
+
+
+
+    \subsection{Claim Boundary for the Formalized Package}
+
+    The formalized package can safely present the route-aligned local theorem
+    packet: class membership is tracked by the current witness grammar, and
+    endpoint exclusion is stated only at the strength that the installed package
+    supports.  A stand-alone global smoothness claim sits beyond that boundary
+    until the source-wall root is proved or explicitly parked below the theorem
+    surface with a review verdict.
+
+    The formalization record adds no independent analytic proof burden.  Its job
+    is claim control.  It marks the lowest statement the package can
+    honestly make, marks the first statement that would overclaim, and keeps
+    speculative recovered support from being presented as an installed bridge.
+
+    At the present level, the live mathematical burden remains the source-wall
+    root after reconciliation.  The manuscript should keep the route-aligned
+    packet visible, name that unresolved burden plainly, and keep terminal
+    stand-alone export in revision posture until the blocker is actually paid.
+
+
+
+    \subsection{Missing Signed Partners and Boundary Pricing}
+
+    The boundary-pricing replacement is only conditional from the installed
+    inputs.
+
+    Same-fluid edge fidelity says that selected legal parents are meaningful.  It
+    does not say that every unselected signed partner is illegal, small, or already
+    paid as a boundary loss.
+
+    \[
+    A\to B,
+    \qquad
+    \operatorname{div}J(B)>0,
+    \qquad
+    \operatorname{div}J(A)<0.
+    \]
+
+    If \(B\) is selected terminal-positive and \(A\) is a legal interior donor
+    omitted from the record, then \(A\) is not boundary flux and is not
+    automatically a legal loss.  It is an internal negative source sink.  Pricing it
+    requires a donor-depletion or signed-saturation theorem, not a bookkeeping
+    classification.
+
+    Diffuse legal parentage gives many such omitted donor partners. Each omitted
+    partner can be fully legal, same-fluid, and physically interior. The fact that
+    it was not selected into \(F_N\) does not make it small. Charging all omitted
+    partners by absolute value again reopens the internal sink/donor-depletion
+    problem.
+
+    Without Terminal Signed Saturation.A or Parabolic NoFree Sink.A, missing signed
+    partners cannot be priced as legal boundary losses.
+
+
+
+    \subsection{Direct Attack on the SG4 TPS Source Estimates}
+
+    Let \(A_J=H_J^*H_J\), and let \(\lambda_1\ge\lambda_2\) be its eigenvalues.
+    The reduced Gramian equation gives
+
+    \[
+    \frac{d}{dt}\log(\lambda_2/\lambda_1)
+    =
+    2(\langle u_2,S_{\parallel,J}u_2\rangle-\langle u_1,S_{\parallel,J}u_1\rangle)+error.
+    \]
+
+    \[
+    \langle u_1,S_{\parallel,J}u_1\rangle-\langle u_2,S_{\parallel,J}u_2\rangle
+    \ge \delta_*-r_J
+    \]
+
+    \[
+    \|E_A\|_{op}\le \varepsilon_A\lambda_2
+    \]
+
+    \[
+    \frac{d}{dt}\log(\lambda_2/\lambda_1)
+    \le -2\delta_*+2r_J+C\varepsilon_A.
+    \]
+
+    If the integrated defect is smaller than the drain on a positive-mass retained family, the ratio contracts.
+
+    \[
+    \sigma_2(H_J)/\sigma_1(H_J)\le q<1.
+    \]
+
+
+
+    \subsection{Local Completion Attempt for the QSP-11R to SG-4B Branch}
+
+    The ordered chain closes from explicit source packets. The source packets remain the active mathematical inputs.
+
+    \[
+    \int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}|\,d\mu_j(a)
+    \le \varepsilon_J^{shell},
+    \]
+
+    \[
+    \max_{r,\pm}s_{\pm,r}^{shell}\le\varsigma_J,
+    \qquad \varepsilon_J^{shell}\to0,
+    \qquad \varsigma_J\to0.
+    \]
+
+    \[
+    \int_{G_J}\delta_{J,r}^{\pm}(a)\,d\mu_j(a)
+    \le \varepsilon_J^{shell}+\varsigma_J\mu_j(G_J).
+    \]
+
+    Thus finite shell comparability supplies shell leakage on the same core-cap family.
+
+    \[
+    \sup_{I_0}\|\nabla v_J\|_{L^\infty}\le M_* ,
+    \qquad
+    \sup_{I_0}\|\nabla^2 v_J\|_{L^\infty}\le H_* .
+    \]
+
+    \[
+    \|D_a^2X_t\|_{op}\le H_*\tau_0 e^{2M_*\tau_0}.
+    \]
+
+    If this tends to zero uniformly, segment-collar derivative continuity holds and finite-frame PTC-Lin follows.
+
+
+
+    \subsection{Audit Endpoint Availability and Proof Text}
+
+    Dedicated MCP audit endpoint availability is not a mathematical blocker for
+    this manuscript note.  The ordinary evidence path is visible proof text,
+    visible audit text, and direct or staged persistence through the exposed
+    theorem-write tools.
+
+    The continuum coherent-sector replacement has only a conditional
+    theorem-facing completion note.  It should be read as a recorded route
+    condition, not as an installed analytic theorem.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Nonlinear shell-flux source control theorem - bounded solve attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20654
+  line_start: 20654
+  line_end: 20680
+  start_anchor: "\\subsection{Nonlinear shell-flux source control theorem - bounded
+    solve attempt}\n"
+  end_anchor: "\\subsection{Nonlinear shell-flux source theorem for active pulses
+    - reduction and obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Nonlinear shell-flux source control
+    theorem - bounded solve attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20654
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Nonlinear shell-flux source theorem for active pulses - reduction
+    and obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20681
+  line_start: 20681
+  line_end: 20689
+  start_anchor: "\\subsection{Nonlinear shell-flux source theorem for active pulses
+    - reduction and obstruction}\n"
+  end_anchor: "\\subsection{Manuscript Boundary for Extension Routes}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Nonlinear shell-flux source theorem
+    for active pulses - reduction and obstruction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20681
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Manuscript Boundary for Extension Routes
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20690
+  line_start: 20690
+  line_end: 20710
+  start_anchor: "\\subsection{Manuscript Boundary for Extension Routes}\n"
+  end_anchor: "\\subsection{Claim Boundary for the Formalized Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Manuscript Boundary for Extension
+    Routes as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20690
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Claim Boundary for the Formalized Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20711
+  line_start: 20711
+  line_end: 20730
+  start_anchor: "\\subsection{Claim Boundary for the Formalized Package}\n"
+  end_anchor: "\\subsection{Scale-normalized Carleson Upper Estimate for the SCF Charge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Claim Boundary for the Formalized
+    Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20711
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Missing Signed Partners and Boundary Pricing
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20817
+  line_start: 20817
+  line_end: 20849
+  start_anchor: "\\subsection{Missing Signed Partners and Boundary Pricing}\n"
+  end_anchor: "\\subsection{Periodic Target Statement and Whole-space Export Boundary}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Missing Signed Partners and Boundary
+    Pricing as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20817
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Direct Attack on the SG4 TPS Source Estimates
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20936
+  line_start: 20936
+  line_end: 20967
+  start_anchor: "\\subsection{Direct Attack on the SG4 TPS Source Estimates}\n"
+  end_anchor: "\\subsection{Local Completion Attempt for the QSP-11R to SG-4B Branch}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Direct Attack on the SG4 TPS
+    Source Estimates as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20936
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Local Completion Attempt for the QSP-11R to SG-4B Branch
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20968
+  line_start: 20968
+  line_end: 21002
+  start_anchor: "\\subsection{Local Completion Attempt for the QSP-11R to SG-4B Branch}\n"
+  end_anchor: "\\subsection{Audit Endpoint Availability and Proof Text}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Local Completion Attempt for
+    the QSP-11R to SG-4B Branch as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20968
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Audit Endpoint Availability and Proof Text
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21003
+  line_start: 21003
+  line_end: 21014
+  start_anchor: "\\subsection{Audit Endpoint Availability and Proof Text}\n"
+  end_anchor: "\\subsection{Original-data \\(E_u\\) Conversion and Additive-carrier
+    Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Audit Endpoint Availability and
+    Proof Text as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21003
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-33
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-33.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

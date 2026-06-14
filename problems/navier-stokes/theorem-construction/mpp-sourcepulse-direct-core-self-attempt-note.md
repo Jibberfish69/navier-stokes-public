@@ -106,10 +106,10 @@ and already-separated tail or signed reserves.  They do not price the
 scale-normalized active packet.
 
 The heat-scale model is the obstruction.  A shell pulse on an interval
-`|I_j|\simeq2^{-2j}` can keep raw dissipation compatible with the finite energy
-ledger while carrying order-one normalized active-square/source mass.  This is
-the same obstruction recorded in the mixed-shell bad-set and active-square
-countermodel notes.
+`c_I2^{-2j}\le |I_j|\le C_I2^{-2j}` can keep raw dissipation compatible with the finite energy
+ledger while carrying normalized active-square/source mass bounded below by a
+fixed positive constant.  This is the same obstruction recorded in the
+mixed-shell bad-set and active-square countermodel notes.
 
 Therefore the charge route needs a new active-window Carleson, square-source,
 or source-parent reserve theorem.  It is not supplied by `OriginalSmoothData`.

@@ -1,0 +1,291 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: opening-theorem-route
+batch_id: opening-theorem-route-current-source-certification-20260614T075727Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Original Problem Statement
+  spine_id: original-problem-statement
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:91
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:91
+  - problems/navier-stokes/route-lock.yaml
+  endpoint_status: support for a named later proof step
+  reader_payments: &1
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Original Problem Statement
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+  repo_sources_excluded:
+  - source_ref: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    reason: publish manifest, not theorem authority for the opening prose
+  - source_ref: problems/navier-stokes/campaign-status.yaml
+    reason: campaign status surface; proof content is taken from route lock and theorem
+      notes
+  - source_ref: problems/navier-stokes/chat27-status.yaml
+    reason: lane status surface, not a manuscript proof source
+  - source_ref: problems/navier-stokes/paper-quality-verdict.yaml
+    reason: quality/status verdict, not independent mathematical input for the opening
+      theorem
+  - source_ref: problems/navier-stokes/pipeline-state.yaml
+    reason: pipeline status surface; current theorem content is represented by direct
+      route and theorem sources
+  - source_ref: problems/navier-stokes/runtime/meta/cycle-report.yaml
+    reason: runtime cycle report, not reader-facing proof material
+  - source_ref: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    reason: export/finality status surface, not theorem evidence for the opening
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    reason: route-sync packet superseded by current route lock, route graph, and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    reason: route-sync packet superseded by current route lock, route graph, and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+    reason: route-sync packet superseded by current route lock, route graph, and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+    reason: route-sync packet superseded by current route lock, route graph, and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260609-iteration-2.yaml
+    reason: route-sync packet superseded by current route lock, route graph, and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/exploration-graph.yaml
+    reason: exploratory topology surface; opening uses the current route graph and
+      direct theorem notes instead
+  - source_ref: problems/navier-stokes/layered-route-graph.yaml
+    reason: historical topology surface; opening uses the current route graph and
+      direct theorem notes instead
+  - source_ref: problems/navier-stokes/ns-completion-executor.yaml
+    reason: execution dispatch surface, not page-level proof evidence
+  - source_ref: problems/navier-stokes/source-forensics/ns-historical-biography.md
+    reason: source-forensic history, not theorem certification for the opening
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    reason: source-writing batch receipt; its mathematical content is now represented
+      directly in the TeX source
+  - source_ref: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+    reason: production strategy surface, not theorem evidence for the opening page
+  - source_ref: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+    reason: rebuild workplan; branch-section method is represented later rather than
+      cited in the opening
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Current Main Result and Proof Roadmap
+  spine_id: current-main-result-and-proof-roadmap
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:111
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:111
+  - problems/navier-stokes/current-route-dependency-graph.yaml
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/submission-bundle/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Current Main Result and
+      Proof Roadmap without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Same Terminal Record
+  spine_id: the-same-terminal-record
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:395
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:395
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside The Same Terminal Record
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+  section_title: Main Result
+  spine_id: main-result
+  source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  - problems/navier-stokes/current-route-dependency-graph.yaml
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/submission-bundle/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Main Result without requiring
+      an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+  section_title: Notation and Internal Dependency Labels
+  spine_id: notation-and-internal-dependency-labels
+  source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  - problems/navier-stokes/route-lock.yaml
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Notation and Internal Dependency
+      Labels without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+  section_title: Scope And Proof Polarity
+  spine_id: scope-and-proof-polarity
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:35
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:35
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/current-route-dependency-graph.yaml
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Scope And Proof Polarity
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+  section_title: Proof Roadmap
+  spine_id: proof-roadmap
+  source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  - brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+  - brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.tps-strong-defect-bridge-route.yaml
+  - problems/navier-stokes/current-route-dependency-graph.yaml
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  endpoint_status: support for a named later proof step
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to opening-theorem-route.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Proof Roadmap without requiring
+      an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T07:57:27Z'
+author_contract:
+  arc_id: opening-theorem-route
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - Navier
+  - proof
+  - gold
+  - "(CM|contrapositive)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+certification_note: Current TeX source for this whole proof arc passed the Math/Reader
+  critic; this pack certifies existing page prose instead of forcing a gratuitous
+  rewrite.

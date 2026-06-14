@@ -240,7 +240,7 @@ Assume `DG-SF` and `PG-C`. Then for a.e. `t` and every refined good active pair
 ```
 
 where `\Xi_J` is any admissible quadratic pair-direction defect satisfying
-`\Xi_J\gtrsim \xi_J^2`, and `\operatorname{Err}_J^{loop}` is the pairwise
+`\Xi_J\ge c_\Xi \xi_J^2`, and `\operatorname{Err}_J^{loop}` is the pairwise
 observable error induced by the cocycle harmonic part `h_J` or any equivalent
 chart-transport defect.
 
@@ -285,11 +285,17 @@ Start from the exact short-segment identity
 When `e_{ab}(t)` lies exactly in `N_a`, Proposition A gives the lower bound
 `\Lambda_J-\varepsilon_J^{bundle}`.
 
-When `e_{ab}(t)` only approximately lies in `N_a`, write
+When `e_{ab}(t)` has a nonzero component outside `N_a`, write
 
 ```math
 e_{ab}=P_{N_a}e_{ab}+\big(I-P_{N_a}\big)e_{ab}.
 \tag{4.6}
+```
+
+The error size is the explicit orthogonal residual
+
+```math
+\delta_{ab}(t):=\|(I-P_{N_a})e_{ab}(t)\|.
 ```
 
 Using the operator bound `\|S_J\|_{\mathrm{op}}\le M_J(t)` and the pair-angle
@@ -347,7 +353,8 @@ with
 
 ```math
 \mathfrak F_J^{spec\to pair}(I)
-\lesssim
+\le
+C_{spec\to pair}
 \int_I\!\!\int_{G_J^{pair}}
 \Big(
 (\varepsilon_J^{spec})^2
@@ -524,18 +531,19 @@ C_{\mathrm{sync}}|W_J(a,b,t)|^2
 \int_I\!\!\int_{G_J^{pair,\angle}}
 \Bigl(
 \mathcal B_J^{ent}
-+ 
++
 \varepsilon_J^{line}
-+ 
++
 \varepsilon_J^{gap}
-+ 
++
 \varepsilon_J^{drift}
-+ 
++
 \operatorname{Err}_{J,\mathrm{sync}}
-+ 
++
 \operatorname{Err}_{J,\mathrm{DG}}
 \Bigr)^2
-\lesssim
+\le
+C_{obs}
 \mathcal E_J^{obs}(I).
 \tag{7.8}
 ```
@@ -544,7 +552,8 @@ Then
 
 ```math
 \Xi_J^{ang}(a,b,t)
-\lesssim
+\le
+C_{ang}
 |W_J(a,b,t)|^2
 +
 \mathcal B_J^{ent}(a,b;I)
@@ -565,7 +574,8 @@ hence
 
 ```math
 \mathcal E_J^{dir}(I)
-\lesssim
+\le
+C_{dir}
 \mathcal E_J^{obs}(I).
 \tag{7.10}
 ```
@@ -999,7 +1009,8 @@ so
 
 ```math
 \|N_J\mathcal S_JQ_J+Q_J\mathcal S_JN_J\|_{\mathrm{op}}
-\lesssim
+\le
+C_{co}
 \frac{\|[A_J,P\mathcal S_JP]\|_{\mathrm{op}}}{\lambda_1-\lambda_2}.
 \tag{7.19}
 ```
@@ -1058,7 +1069,9 @@ near the aligned state `P=N_J`. Parameterize a neighborhood of `N_J` inside the
 rank-one projector manifold by
 
 ```math
-P(H)=N_J+H+O(\|H\|_F^2),
+P(H)=N_J+H+R_J(H),
+\qquad
+\|R_J(H)\|_F\le C_{chart}\|H\|_F^2,
 \qquad
 H\in T_{N_J}\mathbf{RP}^2.
 \tag{7.24}
@@ -1123,7 +1136,8 @@ needs a local lifted recovery theorem producing nodewise projectors
 e_i,
 \qquad
 e_i^2
-\lesssim
+\le
+C_e
 |W_i|^2+\operatorname{Err}_{i,\mathrm{sync}}.
 \tag{7.29}
 ```
@@ -1141,7 +1155,8 @@ satisfies the bilinear comparison
 
 ```math
 |C_{ij}^{obs}-C_{ij}|
-\lesssim
+\le
+C_{bil}
 \omega_{ij}
 \bigl(
 e_i+e_j+e_ie_j
@@ -1216,7 +1231,8 @@ on the same strip. Consequently,
 
 ```math
 \Xi_J^{ang}(a,b,s)
-\lesssim
+\le
+C_{sh}
 \bigl|W_J(a,b,s)\bigr|^2
 +
 \frac{\varepsilon_J^{sh}(a,b,s)^2}{\gamma_J^{sh}(a,b,s)^2},
@@ -1236,7 +1252,8 @@ and after integration,
 
 ```math
 \mathcal E_J^{dir}(I)
-\lesssim
+\le
+C_{sh}'
 \mathcal E_J^{obs}(I)
 +
 \mathcal E_J^{sh}(I).
@@ -1315,7 +1332,8 @@ obeys the weighted overlap bound
 \sum_{i\sim j}
 \int_{U_i\cap U_j}
 \omega_{ij}(a,b,t)\,\delta_{ij}(a,b,t)
-\lesssim
+\le
+C_{ov}
 \mathcal E_J^{overlap}(I);
 \tag{7.41}
 ```
@@ -1336,7 +1354,8 @@ active family such that
 \bigl\|
 \widehat P_{J,i}-\widehat P_J
 \bigr\|_F^2
-\lesssim
+\le
+C_{glue}
 \lambda_{\mathrm{glue}}(I)^{-1}
 \mathcal E_J^{overlap}(I),
 \tag{7.42}
@@ -1360,7 +1379,8 @@ Then the global field obeys the integrated comparison
 \bigl\|
 P_{ab}(t)-\widehat P_J(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le
+C_{loc}
 \int_I\!\!\int_{G_J^{pair,\angle}}
 \bigl|W_J(a,b,t)\bigr|^2
 +
@@ -1386,7 +1406,8 @@ and the full general-branch closure follows:
 
 ```math
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}(I)
 +
 \mathcal E_J^{loc}(I)
@@ -1546,8 +1567,7 @@ formal by Taylor's theorem.
 ##### `(D')` `DG-Glue^{\mathrm{conn}}`: the gluing wall is a connection-Laplacian problem
 
 On each local window `U_i`, choose a measurable local lift `v_i` with
-`\widehat P_{J,i}=v_iv_i^\ast`. On overlaps, choose the best `O(1)` transition
-by
+`\widehat P_{J,i}=v_iv_i^\ast`. On overlaps, choose the best sign transition by
 
 ```math
 \rho_{ij}(a,b,t)
@@ -1568,9 +1588,9 @@ d_{\mathrm{proj}}(\widehat P_{J,i},\widehat P_{J,j})^2
 \tag{7.54}
 ```
 
-Thus the non-exact branch gluing problem is the `O(1)` synchronization problem
-for the local lifts on the active overlap graph. The remaining work splits into
-exactly two pieces:
+Thus the non-exact branch gluing problem is the finite-sign synchronization
+problem for the local lifts on the active overlap graph. The remaining work
+splits into exactly two pieces:
 
 1. prove the local lifted recovery theorem `(7.29)` on each `U_i`;
 2. prove the overlap graph has the symmetry, nondegeneracy, and spectral-gap

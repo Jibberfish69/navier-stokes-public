@@ -24,7 +24,7 @@ A successful package would turn the pure pressure-source singular residue into a
 
 ## Localized Leray identity
 
-The finite-packet identity has the schematic form
+The finite-packet identity is
 
 ```math
 \chi\nabla P_{Leray}(u\cdot\nabla u)

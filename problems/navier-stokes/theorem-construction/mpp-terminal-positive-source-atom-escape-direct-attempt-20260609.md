@@ -154,7 +154,7 @@ to the native positive source carrier:
 
 ```math
 PressureEigenframeSustain_{term}
-\lesssim
+\le C_{\mathrm{PE}}
 \sum_{P\in\mathcal F_N}
 \int_{Q(P)}
 |w_{j_P}|^2

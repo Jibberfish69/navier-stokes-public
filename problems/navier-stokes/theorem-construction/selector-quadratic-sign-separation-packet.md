@@ -2316,9 +2316,10 @@ Since the overlap packet is already part of the source-side material-gap input,
 the genuinely new geometric burden on the TPS realization is just the
 selected-cell entrance-direction cap-aperture theorem `(QSP.10zzca1)`.
 
-In particular, if the selected parent caps have angular width
-`O(\lambda_J^{-1/2})` and every carried entrance direction lies in its parent
-cap, then one may take `\vartheta_J^{cap}\lesssim \lambda_J^{-1/2}`.
+In particular, if the selected parent caps have angular width at most
+`C_{cap}\lambda_J^{-1/2}` and every carried entrance direction lies in its
+parent cap, then one may take
+`\vartheta_J^{cap}\le C_{cap}\lambda_J^{-1/2}`.
 
 **Proof.**
 Take the supremum in `(QSP.10zzca1)` over active pairs on the selected TPS

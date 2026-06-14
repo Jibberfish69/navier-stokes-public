@@ -1,0 +1,575 @@
+---
+version: 1
+kind: ns-paper-arc-context-packet
+generated_at: '2026-06-13T22:14:18Z'
+arc:
+  arc_id: failure-taxonomy
+  title: Failure taxonomy and endpoint roles
+  priority: 2
+  status: ready_for_author_packet
+  author_job: turn endpoint names into readable mathematical cases with their proof
+    roles stated
+  support_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  - obstruction
+  required_patterns: &1
+  - failure
+  - "(Pack|Part|Field)"
+  - "(endpoint|obstruction)"
+  spine_refs:
+  - spine_id: exhaustive-failure-list
+    section_title: Exhaustive Failure List
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:325
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 325
+    line_end: 426
+  - spine_id: generally-classifying-failure-types-from-the-list
+    section_title: Generally Classifying Failure Types From the List
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:427
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 427
+    line_end: 449
+  - spine_id: packet-failure-types
+    section_title: Packet Failure Types
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:588
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 588
+    line_end: 601
+  - spine_id: velocity-failure-types
+    section_title: Velocity Failure Types
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:602
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 602
+    line_end: 622
+  context_cost: 160
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated through source-spine backend
+source_sections:
+- spine_id: exhaustive-failure-list
+  section_title: Exhaustive Failure List
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:325
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 325
+  line_end: 426
+  text: |+
+    \section{Exhaustive Failure List}
+
+    The support stack behind this paper is large.  The terminal possibilities it
+    leaves for the CM test are few.  This section is the reader's map from the
+    forward-positive work to the class-membership proof.  Each item records three
+    things: the estimate or branch that was tried, the terminal picture left behind
+    when that branch stalls, and the first membership face naturally put under
+    pressure by that picture.
+
+    The list is exhaustive in this precise sense.  It covers the failure surfaces
+    used by the present manuscript and by the current proof notes.  The rule is
+    strict: a surface becomes CM proof material only after the same-solution
+    terminal object has been selected.
+
+    \begin{enumerate}[leftmargin=2em]
+    \item \textbf{Energy/enstrophy insufficiency.}
+    Energy controls the \(L^2\) size of the velocity and gives time-integrated dissipation.
+    The enstrophy step exposes the nonlinear source term.
+    The failure picture is derivative growth left uncontrolled by energy.  The CM
+    threat is a retained terminal record whose derivative tower is being used as a
+    same-solution readout while the equation has left the corresponding same-law
+    control unpaid.
+
+    \item \textbf{Monotone functional \(Q(t)\).}
+    The recovered positive route names \(Q(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2\) as a global energy/enstrophy budget.
+    The failure picture is that a global budget can remain too coarse to stop dangerous transfer into smaller scales.
+    The CM threat is retained budget information without the positive packet and
+    positive-scale field control needed to make that information a member-side
+    terminal record.
+
+    \item \textbf{Scale barrier and dyadic tail.}
+    The route asks for a same-surface estimate suppressing high-frequency transfer.
+    The failed surface is the one-sided scale-memory or genuine high-high packet: activity keeps moving into the dangerous tail while the available budget sees too little of the transfer.
+    The CM threat is a positive dyadic readout that cannot be assembled into one
+    coherent field on any positive terminal scale.
+
+    \item \textbf{Post-\(Q(t)\) cascade carrier.}
+    After the monotone budget is named, the remaining burden is the exact carrier of the cascade.
+    The failed picture is a localized remainder that keeps asking for a more precise parent.
+    The CM threat is detached ancestry: the number has a donor story, while the
+    donor fails to remain the same transported fluid object.
+
+    \item \textbf{Pressure-source, BASAC, Zeno, and residue attempts.}
+    This is the longest pressure-source branch.
+    It contains pressure-sustain, pure-pressure residue, source-residue, no-incoming-source-drain, time-face anti-atom, angular-saturation, transported-boundary, quantized-parent, and Zeno-ancestry attempts.
+    The failure picture is a terminal reserve whose payment is always pushed to another ancestor, another boundary, another time face, or another residue.
+    The CM threat is not Pack after annular admission.  A no-carrier outcome means
+    the annular witness was not admitted.  Once the surrounding positive-radius
+    fields are the admitted witness, the threat is detached Part ancestry or
+    retained annular field pressure that still has to be tested at Field.
+
+    \item \textbf{Compactness and nonlinear tensor closure.}
+    The positive route needs one classical approximation family to converge strongly enough that \(u^{(n)}\otimes u^{(n)}\) becomes \(u\otimes u\).
+    The failure picture is a weak limit or endpoint trace that records information while failing to produce the same classical field.
+    The CM threat is Field loss: the local pieces remain readable as fragments but
+    do not assemble into one velocity field at a positive scale.
+
+    \item \textbf{Gradient transfer and coercivity.}
+    The route needs the high-frequency enstrophy tail to obey a coercive inequality with the nonlinear remainder absorbed into viscosity plus a summable tail.
+    The failed surface is the spill collar, lifted high-side remainder, or genuine high-high gradient packet.
+    The CM threat is a retained packet whose velocity, pressure, or viscous tower no
+    longer has the finite readout required by membership.
+
+    \item \textbf{Curvature, regularity, and export support.}
+    Older positive surfaces used geometric or curvature language to control gradient growth.
+    The failure picture is a useful coercive story whose carrier may be a nearby problem, a stronger structure, or an export support surface.
+    The CM threat is target loss.  A proof for a filtered, geometric, regularized,
+    or exported object does not prove membership for the fixed Navier--Stokes object
+    unless the bridge back to the same solution is paid.
+
+    \item \textbf{Interdependencies and closed-loop support.}
+    The recovered source framework links scale barrier, monotone functional, compactness, and gradient control in a feedback cycle.
+    The failure picture is a loop whose arrows remain descriptive while one bridge still lacks a same-surface estimate.
+    The CM threat is unsupported participation: the packet is named inside the loop, while the pressure-viscosity participation law is still unpaid.
+
+    \item \textbf{Target-fidelity and closure audit.}
+    Regularized equations, filtered dynamics, stronger hidden data classes, and heuristic decay laws can make a nearby proof look smooth.
+    The failure picture is a successful argument for the wrong object.
+    The CM threat is direct class exit because the object has changed the problem definition.
+
+    \item \textbf{Local critical translator and heat-ancestor records.}
+    The late \(L^3\), Duhamel, heat-ancestor, and same-record surfaces try to attach endpoint information to the same terminal record.
+    The failure picture is a readout or ancestor that survives as information while failing to attach to the same Navier--Stokes object.
+    The CM threat is detached terminal ancestry when the ancestor is no longer the
+    same transported branch, or Field readout loss when the readings survive but do
+    not form one positive-scale field.
+
+    \item \textbf{Euler class-entrance boundary.}
+    Euler appears here only at the boundary where the same selected terminal picture has left the fixed-viscosity Navier--Stokes class while the inviscid transport-pressure law is still readable.
+    In the clean Part/Field cases, the event is no longer the Navier--Stokes fluid object; it is a base Euler object, \(\mathrm{EVol}+\mathrm{EMom}\), possibly with failed one-field regularity.
+    Slip sheets and weak shear examples give a concrete model of that boundary.
+
+    \item \textbf{Current theorem-creation support surfaces.}
+    Reserve-creation, active-height, height-flux, terminal angular depletion, and source-weighted variants add candidate ways a terminal reserve could appear or be seen.
+    The failure picture is a live candidate branch that supplies pressure on the failure field before a final witness face has been selected.
+    The CM threat is whichever first face the candidate actually violates: Pack, Part, or Field.
+    \end{enumerate}
+
+    The important point is that the list is a triage map.  The later proof must select the terminal record, show which of
+    these pictures it realizes, and then prove the first Pack, Part, or Field face
+    that fails on that record.
+
+  truncated: false
+- spine_id: generally-classifying-failure-types-from-the-list
+  section_title: Generally Classifying Failure Types From the List
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:427
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 427
+  line_end: 449
+  text: |
+    \section{Generally Classifying Failure Types From the List}
+
+    The inventory above is useful only after it is compressed into proof behavior.  The reader should not have to remember every branch name.  What matters is what kind of terminal record the branch leaves behind and which membership face that record pressures first.
+
+    \textbf{Loss of selected body.}
+    The terminal story points at a trace, pulse, residue, limiting record, or endpoint, while the positive same-fluid carrier has disappeared.  Once the paper has selected that record as the object under test, this is Pack pressure.  A point with no positive carrier is a Pack-side object.
+
+    \textbf{Detached ancestry.}
+    The terminal reserve is assigned to a donor, parent window, pressure channel, previous shell, or source history.  The ancestry has to remain the ancestry of the same transported Navier--Stokes branch.  Missing donor body is Pack pressure.  Retained carrier with a broken pressure-viscosity-incompressibility ancestry law is Part pressure.
+
+    \textbf{Lost participation.}
+    The packet remains visible, while the original Navier--Stokes law no longer acts on it as one pressure-viscosity-incompressibility law.  This is the clean Part case.  The proof has a body, and the body has lost the same equation.
+
+    \textbf{Broken neighboring-field coherence.}
+    Several readings can be finite and locally meaningful while failing to join into one velocity field on a positive scale.  After Pack and Part have survived far enough for the neighboring readings to be compared, this is Field pressure.  The Euler boundary material is used only to recognize an escaped inviscid reading; the Navier--Stokes target remains the fixed-viscosity class.
+
+    \textbf{Tower blowup.}
+    The packet stays positive, while the derivative tower, pressure readings, or viscous readings lose the finite control needed by the continuation criterion.  The first face depends on where the loss occurs.  The paper must locate that first failure rather than calling every large quantity an exit.
+
+    \textbf{Wrong object.}
+    A regularized equation, filtered dynamics, geometric model, exported estimate, or comparison branch can solve a nearby problem.  The Clay object stays the original Navier--Stokes branch.  Material of this kind can support the proof only after it is reattached to the original solution or recorded as a scope boundary.
+
+    These shapes do not finish the proof by naming a defect.  They tell the reader what each branch has to pay.  A branch must select its terminal record, show why that record belongs in the same-solution test, and then prove the first Pack, Part, or Field face that fails on that record.
+  truncated: false
+- spine_id: packet-failure-types
+  section_title: Packet Failure Types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:588
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 588
+  line_end: 601
+  text: |
+    \section{Packet Failure Types}
+
+    Packet failure is carrier failure.  It happens before the proof asks whether a derivative tower is unbounded or whether neighboring readings fit together.  Typical Pack failures are:
+    \[
+    \begin{array}{l}
+    \text{no positive terminal carrier scale,}\\
+    \text{a source atom with no transported body,}\\
+    \text{a donor history detached from the same flow,}\\
+    \text{a Zeno ancestry with no positive terminal packet,}\\
+    \text{or degeneration of the material atlas needed for readout.}
+    \end{array}
+    \]
+
+    The annular endpoint issue is the main reason Pack must be handled carefully.  The radius-zero point is a point-object reading, not the supplier payment.  A finite-time singularity is witnessed by the surrounding positive-radius annular fields as they shrink toward the endpoint.  Those annuli remain live until the gold route controls their residual load or the silver route admits the selected residual obstruction and lands it at Part or Field.  Pack belongs only to no-carrier or pre-admission failure here, not to the admitted annular witness.
+  truncated: false
+- spine_id: velocity-failure-types
+  section_title: Velocity Failure Types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:602
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 602
+  line_end: 622
+  text: |
+    \section{Velocity Failure Types}
+
+    The words dead, jump, and blown are mechanism labels.  They are not extra classes beyond Pack, Part, and Field.  The proof first places the selected terminal record in the witness tree, then names the mechanism.
+
+    \subsection{Dead}
+
+    Dead is a Part-side mechanism.  The carrier is still being named, but the same pressure-viscosity-incompressibility law no longer acts on it through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.
+
+    Once Part fails, Field usually fails as a consequence because neighboring readings cannot form one same-law field without the law that relates them.  The first face is Part when the carrier is retained and participation is the first lost requirement.
+
+    \subsection{Jump}
+
+    Jump is a Field-side mechanism.  The carrier and local law may still be readable at the level under inspection, while finite neighboring readings fail to assemble into one positive-scale field.  The incompatibility may occur inside one derivative tower or between nearby packet towers.
+
+    A jump is not an infinite value.  It is a claim that finite readings cannot be the readings of one smooth field on any positive scale allowed by the record.  After the neighboring towers are put on the same witness record, the same event may expose a Part defect as well.  The first visible face is Field when one-field coherence is the first requirement the terminal object loses.
+
+    \subsection{Blown}
+
+    Blown is the unbounded-tower mechanism.  A positive carrier remains visible, and a velocity derivative, pressure term, viscous term, or continuation readout becomes unbounded at the finite depth under test.  The usual blowup picture belongs here only after the selected same-solution record has been fixed.
+
+    The first face still has to be located.  If the deformation or atlas degenerates so severely that no positive same-fluid carrier remains, the first face is Pack.  If the carrier remains but the pressure-viscosity tower cannot be read as the same finite tower, the first face is Part.  If Pack and Part are retained while no positive-scale coherent field can include the unbounded reading, the first face is Field.  The same physical episode can be seen from neighboring packets in different ways, but the proof records the first failed face on the selected record.
+  truncated: false
+support_refs:
+- path: problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  - obstruction
+  excerpt: |-
+    status: governed-mechanism-reentry-not-proof-closure
+      proof_role: active_completion_parent_mechanism
+      logical_landing_node: participation_debt_mechanism_for_first_terminal_pack_source_failure
+      edge_effect: "Replaces isolated forward no-free-sink child chasing with Thomas's participation-debt mechanism: concentration clock, payment clock, dissipation/return clock, donor attenuation, limit-of-class test, and singulet smooth-exterior compatibility."
+      upstream_origin:
+- path: problems/navier-stokes/theorem-construction/mpp-viscous-euler-class-membership-separation-edge-audit-20260506.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  - obstruction
+  excerpt: |-
+    ## Authority Cap - Historical Route Audit
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof status uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse `not CM => not Member` is not an active blocker for the current CM proof.
+
+    ## Status
+- path: problems/navier-stokes/route-lock.yaml
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    endpoint_reading:
+        dead: legacy participation-side class-exit label only; not a proved primitive
+          biconditional with failure of shared participation law
+        blown: legacy packing-side class-exit label only; not a proved primitive biconditional
+          with failure of shared packing law
+- path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    theorem_statement: 'Navier-Stokes global regularity is proved by CM contrapositive
+        class exit: an alleged finite-time Clay terminal witness from the same original
+        smooth datum enters the same-fluid CM terminal packet tree, its finite failure
+        type is exhausted as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q},
+        and the derived face failure embeds as `Exit(Q):=not Member(Q)` while the pass
+- path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    pay the bridge: ParaproductNativeSourceCapture.A gives CM witness-grammar
+            face support for the low-high source work, but it does not exclude the first
+            Pack failure from original smooth data. LowHighPackSourceCarlesonReserve.A
+            has now been tested and does not pay the bridge: the high-packet square measure
+            gives only a conditional Carleson decomposition, while the selected positive
+- path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    the pass branch as the in-class Member(Q) continuation branch, and read the fail
+        branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field
+        face failure. ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A,
+        and ClayCMContrapositiveEmbedding.A are the governing theorem family. Older positive
+        packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall,
+- path: problems/navier-stokes/theorem-construction/mcp-pctp-hard-terminal-tail-uniformization-read-cover-a6c643da31.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    This proves persistence after finite terminal-tail data are supplied. It leaves the production of those finite ledgers from `OriginalSmoothData` as the analytic burden.
+
+    `RawData.Production` attempts the production step by saying that failure of a ledger enters an endpoint face, and then `End_NS` removes the endpoint faces. This consumes the endpoint contradiction engine while producing the analytic inputs required by that same engine. The dependency therefore loops:
+
+    ```math
+- path: problems/navier-stokes/theorem-construction/mcp-scfbase-local-energy-modulus-test.md
+  matched_keywords:
+  - failure
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  - obstruction
+  excerpt: |-
+    ```math
+    SCFBase.ConcentrationCompactness:
+    \text{failure of }SCFBase.Modulus
+    \Longrightarrow
+    \text{a finite concentration defect typing into }tower\text{-}blown\vee Jump_{avg}.
+- path: problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  excerpt: |-
+    ```
+
+    Moreover, a first finite failure of retained-window hypotheses is endpoint
+    captured only after it is reduced to one of the retained class faces:
+- path: problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    # MPP Any Finite Failure Witness CM Exit
+
+    Date: 2026-05-21
+
+    Status: master CM landing theorem note.
+- path: problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    Every terminal defect measure, pressure pulse, source residue, tower drop,
+    critical-norm concentration, Zeno endpoint, or packet-ancestry failure has to
+    answer the same question:
+- path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    The intended meanings are:
+
+    1. `dead endpoint`: failure of shared participation inside a still-live
+       neighborhood;
+    2. `blown endpoint`: failure of the shared packing law / common deformation
+- path: problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  excerpt: |-
+    ```math
+    \boxed{
+    \text{fixed-viscosity failure implies class exit, but smooth-data exclusion of
+    such a failure remains a separate theorem burden.}
+    }
+- path: problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  excerpt: |-
+    The native entries are `(Part,Dead)`, `(Pack,packing-detached)`,
+    `(Field,Jump)`, and the row-independent mixed `tower-blown` slot. The remaining
+    cells are cross entries, not new primitive law failures. The endpoint theorem
+    packet is:
+- path: problems/navier-stokes/theorem-construction/mpp-constitutive-first-survivor-ledger.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    the `Field / Jump` endpoint cell, conditional on the source-side and
+       receiver-side inputs named in the one-field program.
+    3. `CSP.A / LCI.A` is a bridge edge from receiver/collar failure to the
+       one-field survivor packet, not a separate primitive endpoint row.
+    4. The four-body / selector dictionary supplies readout edges from the older
+- path: problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  excerpt: |-
+    ```math
+    Dead := \text{participation failure},
+    ```
+- path: problems/navier-stokes/theorem-construction/mpp-euler-boundary-clean-applicability-to-cm-exits-20260612.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    | repo case | CM face | why clean Euler comparison applies | anchors |
+    |---|---|---|---|
+    | `pressure_viscosity_or_dwell_part_exit` | `Pack_Q + not Part_{N,Q}` | This is the selected-carrier case where Pack survives and the same differentiated NS pressure-viscosity tower, dwell law, or same-law participation fails. Euler keeps pressure/incompressibility but lacks the fixed-viscosity participation law. | `cm-branch-family-certificate-ledger-20260526.yaml:196-217`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:154-190`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:49-55` |
+    | `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | Pack and Part survive; every positive scale loses coherent N-level field/readout. This is exactly the viscous one-field tether loss. | `cm-branch-family-certificate-ledger-20260526.yaml:218-238`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:192-230`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:60-117` |
+    | `Jump_base` / tangential slip sheet | `Field / Jump`, possible `Dead_x` cross-entry | Normal flux and pressure compatibility survive, while tangential slip kills one-field coherence. This is the installed Euler model for the clean Field case; it becomes `Dead_x` only when the same slip is used as participation-failure evidence. | `mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md:63-121`; `mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md:95-128`; `mpp-euler-control-case-to-ns-attack-map-20260517.md:45-121` |
+- path: problems/navier-stokes/theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - velocity
+  - endpoint
+  excerpt: |-
+    ## What Euler Controls
+
+    | Euler control failure | What it proves | NS attack point |
+    | --- | --- | --- |
+    | tangential slip / vortex sheet | Pack and pressure can survive while one-field coherence fails | Field / Jump, especially `OFP.A` |
+- path: problems/navier-stokes/theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    ```text
+    first finite class exit / NonSmooth(Q)
+    => first witness-face failure
+    => not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
+    ```
+- path: problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
+  matched_keywords:
+  - failure
+  - dead
+  - blown
+  - jump
+  - packet
+  - endpoint
+  - obstruction
+  excerpt: |-
+    3. Averaged endpoint face rows: an endpoint certificate package that excludes
+       scale-collapse and jump-type faces without spending `Field_avg` on the branch
+       where `Jump_avg` is exactly failure of `Field_avg`.
+
+    Under `aact-kx-local-absorption`, the proof still needs a replacement for the
+author_contract:
+  arc_id: failure-taxonomy
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_not_write:
+  - current-state paper boilerplate
+  - worker/runner/source-spine/bookkeeping voice
+  - placeholder prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns: *1
+  integration_path: verify_author_pack -> integrate_author_pack -> ns_source_spine_batch
+mechanical_verifier:
+  forbidden_prose_patterns:
+  - This paper is a current-state
+  - CMI-facing account
+  - live gold boundary
+  - source-spine
+  - rewrite pack
+  - status ledger
+  - worker
+  - runner
+  - "<<FILL"
+  - "\\bTODO\\b"
+  - "\\bTBD\\b"
+  - placeholder
+  minimum_replacement_chars: 600
+  must_emit: ready author pack with replace_section rewrites, not notes or reports

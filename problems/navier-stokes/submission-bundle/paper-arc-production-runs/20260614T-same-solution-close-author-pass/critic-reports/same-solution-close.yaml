@@ -1,0 +1,44 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T05:36:10Z'
+arc_id: same-solution-close
+title: Same-solution close
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 2
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_sections:
+- spine_id: the-same-solution-cm-proof
+  section_title: The Same-Solution CM Proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  line_start: 1466
+  line_end: 1571
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: compactness-and-exact-object-capture
+  section_title: Compactness And Exact-Object Capture
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+  line_start: 1
+  line_end: 142
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: same-solution-close
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

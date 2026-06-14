@@ -39,7 +39,7 @@ So the remaining upper-boundary question is local-in-scale.
 ## Collar freezing
 
 Let `s=-\log \ell` and let `s_N=-\log \ell_N`. Since `\partial_s\chi_{mid}` is
-supported in a fixed `O(1)` collar near the top edge,
+supported in a collar of fixed width `C_\chi` near the top edge,
 
 ```math
 \operatorname{supp}(\partial_s\chi_{mid})
@@ -48,12 +48,12 @@ supported in a fixed `O(1)` collar near the top edge,
 \tag{2}
 ```
 
-Therefore throughout the integration in `(1)` one has
+Throughout the integration in `(1)` one has
 
 ```math
-\ell\sim \ell_N,
+e^{-C_\chi}\ell_N\le \ell\le e^{C_\chi}\ell_N,
 \qquad
-\ell^{-1}\sim \ell_N^{-1},
+e^{-C_\chi}\ell_N^{-1}\le \ell^{-1}\le e^{C_\chi}\ell_N^{-1},
 \tag{3}
 ```
 
@@ -123,8 +123,8 @@ The ingredients of `(4)` come directly from the existing notes:
 1. the raw upper-boundary potential is already global and explicit;
 2. the transpose/weight channel is already reclassified as flux/time plus
    admissible residual;
-3. on the top collar, every surviving multiplier is same-scale because
-   `\ell\sim\ell_N`;
+3. on the top collar, every surviving multiplier is same-scale because `(3)`
+   fixes the relative scale ratio between `e^{-C_\chi}` and `e^{C_\chi}`;
 4. the only large-gap survivor of Step 1 is the middle-band packet, which is
    not created anew on the upper collar.
 

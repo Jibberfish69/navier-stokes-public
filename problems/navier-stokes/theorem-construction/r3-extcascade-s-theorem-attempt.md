@@ -27,7 +27,7 @@ eta_R=0\quad |x|\le R,
 \qquad
 eta_R=1\quad |x|\ge 2R,
 \qquad
-|\nabla^k eta_R|\lesssim_k R^{-k},
+|\nabla^k eta_R|\le C_k R^{-k},
 ```
 
 the localized high-order energy identity gives

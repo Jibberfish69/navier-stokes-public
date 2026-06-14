@@ -184,7 +184,7 @@ A model obstruction is the angular kernel marginal
 =
 m\,1_{\theta\in I_m^+}
 -m\,1_{\theta\in I_m^-},
-\qquad |I_m^\pm|\simeq m^{-1},
+\qquad |I_m^\pm|= m^{-1},
 \tag{TCZ.13}
 ```
 

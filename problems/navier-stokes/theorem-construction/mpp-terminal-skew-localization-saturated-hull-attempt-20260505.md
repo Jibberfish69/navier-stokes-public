@@ -113,7 +113,7 @@ repair the two defects that survive on the live object.
 ### 1. Weighted/Lifted Exchange Is Not Antisymmetric On The Hull
 
 Even if both endpoints of a formal counter-edge are included, the live weighted
-source contribution has the schematic form
+source contribution has the form
 
 ```math
 W(P,P')I(P\to P')+W(P',P)I(P'\to P),

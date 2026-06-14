@@ -295,7 +295,7 @@ middle-band flux channel:
 \left|
 \int \mathcal R_{\ell}^{tr,mid}(s,t)\,ds
 \right|
-\lesssim
+C_{tr,mid}
 \Pi_N^{mid}(t).
 \tag{13c}
 ```

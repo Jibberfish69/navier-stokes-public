@@ -127,7 +127,7 @@ A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}.
 Equivalently, on a fixed low shell `j_0`, the live object is
 
 ```math
-A_{j_0-1}(t)\lesssim \nu 2^{2j_0}.
+A_{j_0-1}(t)\le C_A\nu 2^{2j_0}.
 ```
 
 So the shell route belongs in Family A: it is another cumulative lower-side

@@ -39,7 +39,11 @@ and the corresponding quadratic same-scale coefficient
 Because the band width is finite,
 
 ```math
-(\Gamma_N^{ss}(t))^2\lesssim_{C_{ss}}\Theta_N^{ss,\sharp}(t).
+(\Gamma_N^{ss}(t))^2
+\le
+C_{\Gamma,ss}\Theta_N^{ss,\sharp}(t),
+\qquad
+C_{\Gamma,ss}:=(2C_{ss}+1)2^{3C_{ss}}.
 \tag{3}
 ```
 
@@ -72,7 +76,8 @@ Then for almost every `t`,
 
 ```math
 |\Pi_{N,a}^{edge}(t)|
-\lesssim_a
+\le
+C_{\Pi,a}
 \Gamma_N^{ss}(t)\,E_N(t)^{1/2}D_N(t)^{1/2},
 \tag{6}
 ```
@@ -99,19 +104,22 @@ scale, the scalarized edge pairing reduces to shell interactions with
 \big|
 \langle \Delta_j((b_{\ell,a}\cdot\nabla)\Delta_j u),\Delta_j u\rangle
 \big|
-\lesssim
+\le
+C_{edge,a}
 \|b_{\ell,a}(t)\|_{L_x^\infty}\,E_j(t)^{1/2}D_j(t)^{1/2}.
 \tag{7}
 ```
 
-Since `b_{\ell,a}` is supported in an annulus of width `O_a(1)` around the
-active scale, Bernstein gives
+Since `b_{\ell,a}` is supported in an annulus whose shell indices obey
+`|m-N|\le C_a^{ann}` for a fixed constant `C_a^{ann}`, Bernstein gives
 
 ```math
 \|b_{\ell,a}(t)\|_{L_x^\infty}
-\lesssim_a
-\sum_{|m-N|\le C_a}2^{3m/2}\|\Delta_m u(t)\|_{L_x^2}
-\lesssim_a
+\le
+C_{B,a}
+\sum_{|m-N|\le C_a^{ann}}2^{3m/2}\|\Delta_m u(t)\|_{L_x^2}
+\le
+C_{\Gamma,a}
 \Gamma_N^{ss}(t).
 \tag{8}
 ```
@@ -121,9 +129,11 @@ Cauchy-Schwarz,
 
 ```math
 |\Pi_{N,a}^{edge}(t)|
-\lesssim_a
+\le
+C_{sum,a}
 \Gamma_N^{ss}(t)\sum_{|j-N|\le C_a}E_j(t)^{1/2}D_j(t)^{1/2}
-\lesssim_a
+\le
+C_{\Pi,a}
 \Gamma_N^{ss}(t)\,E_N(t)^{1/2}D_N(t)^{1/2},
 \tag{9}
 ```
@@ -141,7 +151,8 @@ C_{\varepsilon,\nu}(\Gamma_N^{ss})^2E_N.
 \tag{10}
 ```
 
-Using `(3)` gives `(SS^\sharp\text{-}model)`.
+Using `(3)` and absorbing `C_{\Gamma,ss}` and `C_{\Pi,a}` into
+`C_{\varepsilon,a,\nu}` gives `(SS^\sharp\text{-}model)`.
 
 ## Corollary B: weak lift to upper boundary and moving spill
 
@@ -196,7 +207,7 @@ Then the model estimate `(SS^\sharp\text{-}model)` lifts to
 \le
 \Big(\varepsilon_{ub}^{res}+\varepsilon\Big)\nu\int_0^T D_N(t)\,dt
 +
-C_{\varepsilon,\nu}\int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt
+C_{\varepsilon,\nu,ub}\int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt
 +
 C_{ub,*}^{res}2^{-2\delta N},
 \tag{UB^\sharp}
@@ -209,7 +220,7 @@ and
 \le
 \Big(\varepsilon_{sp}^{res}+\varepsilon\Big)\nu\int_0^T D_N(t)\,dt
 +
-C_{\varepsilon,\nu}\int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt
+C_{\varepsilon,\nu,sp}\int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt
 +
 C_{sp,*}^{res}2^{-2\delta N}.
 \tag{MS^\sharp}
@@ -218,13 +229,15 @@ C_{sp,*}^{res}2^{-2\delta N}.
 ### Proof
 
 Integrate `(11)` in time and apply `(SS^\sharp\text{-}model)` termwise over the
-finite set `\mathcal A_{ub}`. Since the family is `O(1)` in size, all packet
-constants are absorbed into a single coefficient `C_{\varepsilon,\nu}`. Then use
-`(13)` to obtain `(UB^\sharp)`.
+finite set `\mathcal A_{ub}`. With
+`A_{ub}:=|\mathcal A_{ub}|`, all packet constants are absorbed into the displayed
+coefficient `C_{\varepsilon,\nu,ub}`. Then use `(13)` to obtain
+`(UB^\sharp)`.
 
 The moving-spill estimate is identical: integrate `(12)`, apply
-`(SS^\sharp\text{-}model)` over the finite set `\mathcal A_{sp}`, and then use
-`(14)` to obtain `(MS^\sharp)`.
+`(SS^\sharp\text{-}model)` over the finite set `\mathcal A_{sp}`, absorb
+`A_{sp}:=|\mathcal A_{sp}|` and the packet constants into
+`C_{\varepsilon,\nu,sp}`, and then use `(14)` to obtain `(MS^\sharp)`.
 
 ## What this does and does not prove
 

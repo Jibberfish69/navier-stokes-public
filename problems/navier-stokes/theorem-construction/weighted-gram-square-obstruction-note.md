@@ -207,13 +207,16 @@ The desired YM-style conclusion would be something like
 \tag{13}
 ```
 
-with `\mathcal F_W[u]` a nontrivial square-type defect such as
+with `\mathcal F_W[u]` a nontrivial square-type defect, for instance one of the
+following exact forms:
 
 ```math
 \mathcal F_W[u]
-\sim
+:=
 \sum_\alpha \|\widetilde T_\alpha\|_{L^2}^2
 \quad\text{or}\quad
+\mathcal F_W[u]
+:=
 \sum_{\alpha,\beta} c_{\alpha,\beta}
 \langle \widetilde T_\alpha,\widetilde T_\beta\rangle.
 \tag{14}

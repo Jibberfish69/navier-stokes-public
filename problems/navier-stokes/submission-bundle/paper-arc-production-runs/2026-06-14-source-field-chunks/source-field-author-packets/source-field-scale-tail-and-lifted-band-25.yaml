@@ -1,0 +1,778 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-25
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-25
+  sequence: 50
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 25
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 62333
+  line_end: 63062
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62333
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62374
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62413
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62424
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62439
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62446
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62587
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63022
+  subsection_titles:
+  - Tail-Energy Spill Reduction Lemma
+  - Tail-Energy Strict Low-Mode Reduction Lemma
+  - Tail-Square Reserve Completion From Bridge And Diagonal
+  - Tail Square Reserve Promotion Blocked By Lpas
+  - Tail Square Reserve Promotion Blocked By Shell Amplitude
+  - Tail Square Reserve Promotion Blocked By Square Source
+  - Threshold-Collar Product Channel Result
+  - TPS High-Frequency Tail To Coarse-Flow Deviation Bridge
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail-Energy Spill Reduction Lemma
+    line_start: 62333
+    line_end: 62373
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62333
+    start_anchor: "\\subsection{Tail-Energy Spill Reduction Lemma}\n"
+    end_anchor: "\\subsection{Tail-Energy Strict Low-Mode Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail-Energy Spill Reduction Lemma}
+
+      The spill packet is isolated on the exact Euclidean tail-energy surface used by the 4 -> 1 recertification argument.
+
+      \[
+      K_T:=\sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty,
+      \]
+
+      \[
+      T_N(t):=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+      \qquad
+      Q_N(t):=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2.
+      \]
+
+      The spill packet S N[u] is the portion of P N (u u) in which at least one dyadic index lies in the fixed threshold strip [N-M,N+M], after the strict low-mode packet and the genuine high-high packet have been removed.
+
+      \[
+      K_T:=\sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty.
+      \]
+
+      \[
+      \big|\langle \mathcal S_N[u],\,P_{\ge N}u\rangle\big|
+      \le
+      C_M K_T\,2^{-N/2}\,Q_N(t)
+      \le
+      \frac{\eta\nu}{4}\,Q_N(t).
+      \]
+
+      In particular, the tail-energy spill packet is explicit on the local 4 -> 1 surface and is absorbed directly into the tail-energy dissipation for all sufficiently large cutoffs.
+
+      \[
+      P_{\ge N}u=\sum_{j\ge N}\Delta_j u,
+      \]
+
+      Because spill is a finite-band threshold packet, only finitely many index configurations occur. Up to symmetry, each spill contribution has the form
+
+      On the local 4 -> 1 surface, the spill packet is no longer an unresolved threshold-strip coefficient problem. It is absorbed directly into the tail-energy dissipation once the exact-solution gradient bound is available.
+
+      It does not by itself discharge the proposition-level spill reductions in Proposition 4.1. Those still need theorem-grade alignment on the scale-side bridge. The present note is narrower: it closes the spill packet only inside the exact-solution tail-energy recertification argument.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail-Energy Strict Low-Mode Reduction Lemma
+    line_start: 62374
+    line_end: 62412
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62374
+    start_anchor: "\\subsection{Tail-Energy Strict Low-Mode Reduction Lemma}\n"
+    end_anchor: "\\subsection{Tail-Square Reserve Completion From Bridge And Diagonal}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail-Energy Strict Low-Mode Reduction Lemma}
+
+      \[
+      T_N(t)=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+      \qquad
+      Q_N(t)=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2,
+      \]
+
+      and keeps the packet on the declared T N/Q N/ L N surface without introducing any L x continuation norm.
+
+      \[
+      T_N(t)=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+      \qquad
+      Q_N(t)=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      \mathcal L_N(t)
+      :=
+      1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}.
+      \]
+
+      \[
+      \big|\langle P_{\ge N}(T_u\nabla u + T_{\nabla u}u),\,P_{\ge N}u\rangle\big|
+      \le
+      C\,\mathcal L_N(t)\,T_N(t)
+      +
+      \frac{\eta\nu}{4}Q_N(t).
+      \]
+
+      \[
+      P_{\ge N}=\sum_{j\ge N}\Delta_j,
+      \]
+
+      So the commutator does not close by a derivative-free shell bound. It closes on the same L N surface because the fixed dyadic gap converts the low coefficient derivative into an admissible factor, and the remaining high-shell derivative is absorbed into Q N by Young.
+
+      A naive Young step can then upgrade the declared linear coefficient surface L N to L N 2 or to a derivative-weighted coefficient. So the commutator line still needs a coefficient-preserving absorption argument before this strict low-mode note can count as fully discharged on the local tail-energy surface.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail-Square Reserve Completion From Bridge And Diagonal
+    line_start: 62413
+    line_end: 62423
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62413
+    start_anchor: "\\subsection{Tail-Square Reserve Completion From Bridge And Diagonal}\n"
+    end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Lpas}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail-Square Reserve Completion From Bridge And Diagonal}
+
+      \[
+      2^{-2N}E_N^2=Diag_N+Far_N.
+      \]
+
+      The term 2 -7N is dominated by 2 -2 N for the barrier exponents used here. Choose 1, , and 2 so the total dissipation fraction is . This proves the claim.
+
+      This completes the tail- reserve conditionally on the active- far-corona closure LPAS, equivalently an installed CTS/FCTS/Car/FC theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail Square Reserve Promotion Blocked By Lpas
+    line_start: 62424
+    line_end: 62438
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62424
+    start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Lpas}\n"
+    end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail Square Reserve Promotion Blocked By Lpas}
+
+      \[
+      Diag_N\le \varepsilon\nu D_N
+      \]
+
+      \[
+      Far_N\le \eta LPAS_N+C2^{-7N}E_N.
+      \]
+
+      The diagonal piece is installed. The far-separated piece still needs the active- far-corona estimate
+
+      The tail- reserve cannot be promoted at this stage. Its state remains conditional on LPAS/FC or an equivalent active- far-corona closure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail Square Reserve Promotion Blocked By Shell Amplitude
+    line_start: 62439
+    line_end: 62445
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62439
+    start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}\n"
+    end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Square Source}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}
+
+      The reserve has been reduced to near-diagonal absorption plus the far-separated bridge. The far-separated bridge requires LPAS or an equivalent active- closure.
+
+      Direct LPAS remains blocked by the missing active- theorem, equivalently by the missing shell-amplitude gain on active intervals.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail Square Reserve Promotion Blocked By Square Source
+    line_start: 62446
+    line_end: 62452
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62446
+    start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Square Source}\n"
+    end_anchor: "\\subsection{Target-Fidelity Bridge Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail Square Reserve Promotion Blocked By Square Source}
+
+      The reserve is reduced to near-diagonal absorption plus the far-separated bridge. The far-separated bridge requires LPAS or an equivalent active- closure.
+
+      LPAS remains blocked by the missing -source estimate for F j, or an equivalent active-shell amplitude theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Threshold-Collar Product Channel Result
+    line_start: 62587
+    line_end: 62612
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62587
+    start_anchor: "\\subsection{Threshold-Collar Product Channel Result}\n"
+    end_anchor: "\\subsection{Time-Order Cross-Balance Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Threshold-Collar Product Channel Result}
+
+      \[
+      \Theta_N^\sharp(t)
+      \le C_M2^{-N}D_{N-M}(t),
+      \]
+
+      \[
+      \Theta_N^\sharp(t)E_N(t)
+      \le C_M2^{-N}D_N(t)E_N(t)
+      \]
+
+      \[
+      C_M2^{-N}D_N E_N
+      \le \varepsilon\nu D_N+C_{\varepsilon,M,\nu}2^{-2N}E_N^2.
+      \]
+
+      \[
+      R_N^{collar}(t):=2^{-2N}E_N(t)^2.
+      \]
+
+      This is the same obstruction as the L 4 tL 2 x enstrophy endpoint, localized to the tail.
+
+      The threshold-collar product does not close from finite-collar structure and baseline energy alone. It closes under the additional reserve condition
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: TPS High-Frequency Tail To Coarse-Flow Deviation Bridge
+    line_start: 63022
+    line_end: 63062
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63022
+    start_anchor: "\\subsection{TPS High-Frequency Tail To Coarse-Flow Deviation Bridge}\n"
+    end_anchor: "\\subsection{TPS Pair-Defect PDE Packet}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{TPS High-Frequency Tail To Coarse-Flow Deviation Bridge}
+
+      The point is that the selector-local TPS route does not need a separate ad hoc control mechanism for J. It already receives one from any route that supplies a time-integrable high-frequency tail for the velocity.
+
+      For the current live route, this bridge is internal to the torus-first branch. Any whole-space analogue belongs to a later export theorem, not to the primary TPS chain.
+
+      Fix a smooth periodic solution u of three-dimensional incompressible Navier--Stokes on [0,T J] T 3, and use the same symbol for its periodic lift to R 3. For one fixed frequency cutoff J, split
+
+      \[
+      u=u_{\le J}+u_{>J}.
+      \]
+
+      \[
+      \partial_t X(a,t)=u(X(a,t),t),
+      \qquad
+      \partial_t X_{\le J}(a,t)=u_{\le J}(X_{\le J}(a,t),t),
+      \qquad
+      X(a,0)=X_{\le J}(a,0)=a.
+      \]
+
+      \[
+      Y_J(a,t):=X(a,t)-X_{\le J}(a,t),
+      \qquad
+      \delta_J(t):=\operatorname*{ess\,sup}_{a\in G_J}|Y_J(a,t)|.
+      \]
+
+      \[
+      L_{\le J}(t):=\|\nabla u_{\le J}(t)\|_{L_x^\infty},
+      \qquad
+      U_{>J}(t):=\|u_{>J}(t)\|_{L_x^\infty}.
+      \]
+
+      \[
+      \frac{d}{dt}|Y_J(a,t)|
+      \le
+      L_{\le J}(t)\,|Y_J(a,t)|+U_{>J}(t).
+      \]
+
+      This is the first clean interface between the selector-local TPS route and the existing dyadic high-frequency route.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Tail-Energy Spill Reduction Lemma}
+
+    The spill packet is isolated on the exact Euclidean tail-energy surface used by the 4 -> 1 recertification argument.
+
+    \[
+    K_T:=\sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty,
+    \]
+
+    \[
+    T_N(t):=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+    \qquad
+    Q_N(t):=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2.
+    \]
+
+    The spill packet S N[u] is the portion of P N (u u) in which at least one dyadic index lies in the fixed threshold strip [N-M,N+M], after the strict low-mode packet and the genuine high-high packet have been removed.
+
+    \[
+    K_T:=\sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty.
+    \]
+
+    \[
+    \big|\langle \mathcal S_N[u],\,P_{\ge N}u\rangle\big|
+    \le
+    C_M K_T\,2^{-N/2}\,Q_N(t)
+    \le
+    \frac{\eta\nu}{4}\,Q_N(t).
+    \]
+
+    In particular, the tail-energy spill packet is explicit on the local 4 -> 1 surface and is absorbed directly into the tail-energy dissipation for all sufficiently large cutoffs.
+
+    \[
+    P_{\ge N}u=\sum_{j\ge N}\Delta_j u,
+    \]
+
+    Because spill is a finite-band threshold packet, only finitely many index configurations occur. Up to symmetry, each spill contribution has the form
+
+    On the local 4 -> 1 surface, the spill packet is no longer an unresolved threshold-strip coefficient problem. It is absorbed directly into the tail-energy dissipation once the exact-solution gradient bound is available.
+
+    It does not by itself discharge the proposition-level spill reductions in Proposition 4.1. Those still need theorem-grade alignment on the scale-side bridge. The present note is narrower: it closes the spill packet only inside the exact-solution tail-energy recertification argument.
+
+
+
+    \subsection{Tail-Energy Strict Low-Mode Reduction Lemma}
+
+    \[
+    T_N(t)=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+    \qquad
+    Q_N(t)=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2,
+    \]
+
+    and keeps the packet on the declared T N/Q N/ L N surface without introducing any L x continuation norm.
+
+    \[
+    T_N(t)=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+    \qquad
+    Q_N(t)=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    \mathcal L_N(t)
+    :=
+    1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}.
+    \]
+
+    \[
+    \big|\langle P_{\ge N}(T_u\nabla u + T_{\nabla u}u),\,P_{\ge N}u\rangle\big|
+    \le
+    C\,\mathcal L_N(t)\,T_N(t)
+    +
+    \frac{\eta\nu}{4}Q_N(t).
+    \]
+
+    \[
+    P_{\ge N}=\sum_{j\ge N}\Delta_j,
+    \]
+
+    So the commutator does not close by a derivative-free shell bound. It closes on the same L N surface because the fixed dyadic gap converts the low coefficient derivative into an admissible factor, and the remaining high-shell derivative is absorbed into Q N by Young.
+
+    A naive Young step can then upgrade the declared linear coefficient surface L N to L N 2 or to a derivative-weighted coefficient. So the commutator line still needs a coefficient-preserving absorption argument before this strict low-mode note can count as fully discharged on the local tail-energy surface.
+
+
+
+    \subsection{Tail-Square Reserve Completion From Bridge And Diagonal}
+
+    \[
+    2^{-2N}E_N^2=Diag_N+Far_N.
+    \]
+
+    The term 2 -7N is dominated by 2 -2 N for the barrier exponents used here. Choose 1, , and 2 so the total dissipation fraction is . This proves the claim.
+
+    This completes the tail- reserve conditionally on the active- far-corona closure LPAS, equivalently an installed CTS/FCTS/Car/FC theorem.
+
+
+
+    \subsection{Tail Square Reserve Promotion Blocked By Lpas}
+
+    \[
+    Diag_N\le \varepsilon\nu D_N
+    \]
+
+    \[
+    Far_N\le \eta LPAS_N+C2^{-7N}E_N.
+    \]
+
+    The diagonal piece is installed. The far-separated piece still needs the active- far-corona estimate
+
+    The tail- reserve cannot be promoted at this stage. Its state remains conditional on LPAS/FC or an equivalent active- far-corona closure.
+
+
+
+    \subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}
+
+    The reserve has been reduced to near-diagonal absorption plus the far-separated bridge. The far-separated bridge requires LPAS or an equivalent active- closure.
+
+    Direct LPAS remains blocked by the missing active- theorem, equivalently by the missing shell-amplitude gain on active intervals.
+
+
+
+    \subsection{Tail Square Reserve Promotion Blocked By Square Source}
+
+    The reserve is reduced to near-diagonal absorption plus the far-separated bridge. The far-separated bridge requires LPAS or an equivalent active- closure.
+
+    LPAS remains blocked by the missing -source estimate for F j, or an equivalent active-shell amplitude theorem.
+
+
+
+    \subsection{Threshold-Collar Product Channel Result}
+
+    \[
+    \Theta_N^\sharp(t)
+    \le C_M2^{-N}D_{N-M}(t),
+    \]
+
+    \[
+    \Theta_N^\sharp(t)E_N(t)
+    \le C_M2^{-N}D_N(t)E_N(t)
+    \]
+
+    \[
+    C_M2^{-N}D_N E_N
+    \le \varepsilon\nu D_N+C_{\varepsilon,M,\nu}2^{-2N}E_N^2.
+    \]
+
+    \[
+    R_N^{collar}(t):=2^{-2N}E_N(t)^2.
+    \]
+
+    This is the same obstruction as the L 4 tL 2 x enstrophy endpoint, localized to the tail.
+
+    The threshold-collar product does not close from finite-collar structure and baseline energy alone. It closes under the additional reserve condition
+
+
+
+    \subsection{TPS High-Frequency Tail To Coarse-Flow Deviation Bridge}
+
+    The point is that the selector-local TPS route does not need a separate ad hoc control mechanism for J. It already receives one from any route that supplies a time-integrable high-frequency tail for the velocity.
+
+    For the current live route, this bridge is internal to the torus-first branch. Any whole-space analogue belongs to a later export theorem, not to the primary TPS chain.
+
+    Fix a smooth periodic solution u of three-dimensional incompressible Navier--Stokes on [0,T J] T 3, and use the same symbol for its periodic lift to R 3. For one fixed frequency cutoff J, split
+
+    \[
+    u=u_{\le J}+u_{>J}.
+    \]
+
+    \[
+    \partial_t X(a,t)=u(X(a,t),t),
+    \qquad
+    \partial_t X_{\le J}(a,t)=u_{\le J}(X_{\le J}(a,t),t),
+    \qquad
+    X(a,0)=X_{\le J}(a,0)=a.
+    \]
+
+    \[
+    Y_J(a,t):=X(a,t)-X_{\le J}(a,t),
+    \qquad
+    \delta_J(t):=\operatorname*{ess\,sup}_{a\in G_J}|Y_J(a,t)|.
+    \]
+
+    \[
+    L_{\le J}(t):=\|\nabla u_{\le J}(t)\|_{L_x^\infty},
+    \qquad
+    U_{>J}(t):=\|u_{>J}(t)\|_{L_x^\infty}.
+    \]
+
+    \[
+    \frac{d}{dt}|Y_J(a,t)|
+    \le
+    L_{\le J}(t)\,|Y_J(a,t)|+U_{>J}(t).
+    \]
+
+    This is the first clean interface between the selector-local TPS route and the existing dyadic high-frequency route.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail-Energy Spill Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62333
+  line_start: 62333
+  line_end: 62373
+  start_anchor: "\\subsection{Tail-Energy Spill Reduction Lemma}\n"
+  end_anchor: "\\subsection{Tail-Energy Strict Low-Mode Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail-Energy Spill Reduction Lemma
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62333
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail-Energy Strict Low-Mode Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62374
+  line_start: 62374
+  line_end: 62412
+  start_anchor: "\\subsection{Tail-Energy Strict Low-Mode Reduction Lemma}\n"
+  end_anchor: "\\subsection{Tail-Square Reserve Completion From Bridge And Diagonal}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail-Energy Strict Low-Mode Reduction
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62374
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail-Square Reserve Completion From Bridge And Diagonal
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62413
+  line_start: 62413
+  line_end: 62423
+  start_anchor: "\\subsection{Tail-Square Reserve Completion From Bridge And Diagonal}\n"
+  end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Lpas}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail-Square Reserve Completion
+    From Bridge And Diagonal as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62413
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail Square Reserve Promotion Blocked By Lpas
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62424
+  line_start: 62424
+  line_end: 62438
+  start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Lpas}\n"
+  end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail Square Reserve Promotion
+    Blocked By Lpas as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62424
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail Square Reserve Promotion Blocked By Shell Amplitude
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62439
+  line_start: 62439
+  line_end: 62445
+  start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Shell Amplitude}\n"
+  end_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Square Source}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail Square Reserve Promotion
+    Blocked By Shell Amplitude as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62439
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail Square Reserve Promotion Blocked By Square Source
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62446
+  line_start: 62446
+  line_end: 62452
+  start_anchor: "\\subsection{Tail Square Reserve Promotion Blocked By Square Source}\n"
+  end_anchor: "\\subsection{Target-Fidelity Bridge Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail Square Reserve Promotion
+    Blocked By Square Source as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62446
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Threshold-Collar Product Channel Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62587
+  line_start: 62587
+  line_end: 62612
+  start_anchor: "\\subsection{Threshold-Collar Product Channel Result}\n"
+  end_anchor: "\\subsection{Time-Order Cross-Balance Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Threshold-Collar Product Channel
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62587
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: TPS High-Frequency Tail To Coarse-Flow Deviation Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63022
+  line_start: 63022
+  line_end: 63062
+  start_anchor: "\\subsection{TPS High-Frequency Tail To Coarse-Flow Deviation Bridge}\n"
+  end_anchor: "\\subsection{TPS Pair-Defect PDE Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite TPS High-Frequency Tail To Coarse-Flow
+    Deviation Bridge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63022
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-25
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-25.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

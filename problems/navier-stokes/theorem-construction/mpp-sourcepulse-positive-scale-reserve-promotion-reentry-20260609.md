@@ -108,7 +108,7 @@ The scalar short-pulse obstruction remains:
 ```math
 Past(W_m)=0,\qquad
 Charge_N(W_m)\to0,\qquad
-R_N(W_m)\sim1.
+R_N(W_m):=1.
 ```
 
 This does not produce a Navier-Stokes counterexample.  It shows that

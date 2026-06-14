@@ -1,0 +1,1148 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-critical-norm-and-field-02
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-02
+  sequence: 70
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 2
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 8405
+  line_end: 13405
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8405
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9217
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11715
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11732
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12269
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12308
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13190
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13365
+  subsection_titles:
+  - Frozen Transported Localized Projector Packet Eliminates Coefficient Drift
+  - Gradient Stronger-Coefficient Interface Audit
+  - Localized Projector Coarse Route Stronger Adiabatic Continuation
+  - Localized Projector Coefficient Drift Chain-Rule Reduction
+  - Low-Mode Duhamel Product Reduction
+  - Low-Mode Product Channel Result
+  - Aact Kx Local Absorption Discharge Via Coefficient Demotion
+  - Act Kx Affine Normalized Conditional Discharge Rscb Nkf
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Frozen Transported Localized Projector Packet Eliminates Coefficient
+      Drift
+    line_start: 8405
+    line_end: 8458
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8405
+    start_anchor: "\\subsection{Frozen Transported Localized Projector Packet Eliminates
+      Coefficient Drift}\n"
+    end_anchor: "\\subsection{Global Signed LP Balance Identity Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Frozen Transported Localized Projector Packet Eliminates Coefficient Drift}
+
+      This note is a local redesign result for the exact-potential localized
+      projector subbranch.  The coefficient-drift term appeared because the
+      localized projector moment was written with a time-dependent density.  On the
+      frozen transported realization, all selector and localization weights are
+      absorbed into a time-independent packet weight.
+
+      Fix the transported strip \(\Omega_J\times I\), a fixed local packet space
+      \(\mathcal P_J(x)\), and a fixed reference measure \(d\bar\nu_{J,x}\).  Choose
+
+      \[
+      \lambda_J(x,p)\ge 0,
+      \qquad
+      \lambda_J\in L^\infty(\Omega_J\times\mathcal P_J),
+      \]
+
+      \[
+      \widetilde S_J^{fr}(x,t)
+      :=
+      \int_{\mathcal P_J(x)}
+      \lambda_J(x,p)\,P_J(x,p,t)\,d\bar\nu_{J,x}(p).
+      \]
+
+      \[
+      m_J^{fr}(x)
+      :=
+      \int_{\mathcal P_J(x)}\lambda_J(x,p)\,d\bar\nu_{J,x}(p).
+      \]
+
+      \[
+      \partial_t\widetilde S_J^{fr}(x,t)
+      =
+      \int_{\mathcal P_J(x)}
+      \lambda_J(x,p)\,\partial_t P_J(x,p,t)\,d\bar\nu_{J,x}(p),
+      \]
+
+      \[
+      R_{J,\mathrm{coeff}}^{fr}\equiv 0.
+      \]
+
+      The coefficient-drift slot vanishes identically because the packet weight and
+      packet measure are time independent.  The remaining local error is the
+      moment-closure term controlled by localized projector concentration.  Under the
+      exact-segment and tail-free realizations, the sharp forcing side becomes the
+      installed pair-family record \(D.7ie1\), or the adiabatic record \(D.7ie3\),
+      plus the usual weighted coverage/globalization packet.
+
+      This result is narrower than a new projector theorem.  It gives a route
+      choice: pay coefficient drift on the moving-weight realization, or adopt the
+      frozen transported packet realization and remove coefficient drift from the
+      local wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Gradient Stronger-Coefficient Interface Audit
+    line_start: 9217
+    line_end: 9264
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9217
+    start_anchor: "\\subsection{Gradient Stronger-Coefficient Interface Audit}\n"
+    end_anchor: "\\subsection{Mediating Object: gradient transfer coercivity lemma}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Gradient Stronger-Coefficient Interface Audit}
+
+      \[
+      \mathcal L_N(t)
+      :=
+      1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}
+      \]
+
+      \[
+      \Lambda_N(t)
+      :=
+      1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x},
+      \]
+
+      \[
+      \Theta_N^\sharp(t)
+      :=
+      2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2,
+      \]
+
+      \[
+      \mathcal K_N(t)
+      :=
+      \sum_{m=N-M}^{N+M}2^{3m}\|\Delta_m u(t)\|_{L^2_x}^2,
+      \]
+
+      \[
+      \widetilde\Lambda_N^\sharp(t):=\Lambda_N(t)+\Theta_N^\sharp(t).
+      \]
+
+      The upgraded interface changes only the gradient bridge:
+
+      \[
+      \frac{d}{dt}E_N(t)+(1-\eta)\nu D_N(t)
+      \le
+      C\,\widetilde\Lambda_N^\sharp(t)E_N(t)+C_*2^{-2\delta N}.
+      \]
+
+      The scale-barrier proposition, compactness proposition, and continuation
+      endpoint stay the same.  The local \(4\to1\) tail-energy recertification also
+      keeps its packet structure after \(E_N\) has been bounded.
+
+      The manuscript cost is local and visible.  Any place that still says the
+      gradient bridge closes with only \(\mathcal L_N\) is too strong.  The current
+      honest surface is \(\widetilde\Lambda_N^\sharp\) unless a new low-mode strain
+      theorem returns the bridge to \(\mathcal L_N\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Route Stronger Adiabatic Continuation
+    line_start: 11715
+    line_end: 11731
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11715
+    start_anchor: "\\subsection{Localized Projector Coarse Route Stronger Adiabatic
+      Continuation}\n"
+    end_anchor: "\\subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Localized Projector Coarse Route Stronger Adiabatic Continuation}
+
+      Once the minimal coarse localized-projector route has been reduced to the
+      retained-cover counting endpoint, there is a stronger continuation that switches
+      back to the older exact-potential adiabatic packet.
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      The extra hypotheses place the proof back on the older exact-potential
+      retained-window chain. This route switch leaves the scalar endpoint for the
+      installed minimal coarse packet unpaid.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coefficient Drift Chain-Rule Reduction
+    line_start: 11732
+    line_end: 11810
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11732
+    start_anchor: "\\subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}\n"
+    end_anchor: "\\subsection{Localized Projector Kernel Mismatch Implies Overlap
+      Surrogate}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}
+
+      The coefficient-drift slot is the honest local blocker on the localized
+      projector route.
+
+      \[
+      \int_I\!\!\int_{\Omega_J}
+      w_J
+      \int_{\mathcal P_J(x)}
+      |\partial_t a_J(x,p,t)|^2\,d\bar\nu_{J,x}(p)\,dx\,dt
+      =
+      o_J(1)
+      \]
+
+      This estimate is not supplied by the static localized-projector packet. It
+      requires time-regularity for the coefficients in the packet selector.
+
+      \[
+      a_J(x,p,t)
+      =
+      \chi_J(x,p,t)\,
+      \phi_r\!\bigl(x-m_J(x,p,t)\bigr)\,
+      \psi_\rho\!\bigl(\ell_J(x,p,t)\bigr)\,
+      \alpha\!\bigl(W_J(x,p,t)\bigr),
+      \]
+
+      Assume \(\chi_J\) is absolutely continuous in time for
+      \(\bar\nu_{J,x}\)-almost every packet point, \(\phi_r\), \(\psi_\rho\), and
+      \(\alpha\) are Lipschitz on their active ranges, and the pair midpoint
+      \(m_J\), pair length \(\ell_J\), and confidence observable \(W_J\) have time
+      derivatives on the active packet.
+
+      \[
+      \partial_t a_J
+      =
+      T_J^{sel}+T_J^{mid}+T_J^{len}+T_J^{conf},
+      \]
+
+      \[
+      T_J^{sel}
+      :=
+      (\partial_t\chi_J)\,
+      \phi_r(x-m_J)\,
+      \psi_\rho(\ell_J)\,
+      \alpha(W_J),
+      \]
+
+      \[
+      T_J^{mid}
+      :=
+      -\chi_J\,
+      \nabla\phi_r(x-m_J)\!\cdot\!\partial_t m_J\,
+      \psi_\rho(\ell_J)\,
+      \alpha(W_J),
+      \]
+
+      \[
+      T_J^{len}
+      :=
+      \chi_J\,
+      \phi_r(x-m_J)\,
+      \psi_\rho'(\ell_J)\,\partial_t\ell_J\,
+      \alpha(W_J),
+      \]
+
+      \[
+      T_J^{conf}
+      :=
+      \chi_J\,
+      \phi_r(x-m_J)\,
+      \psi_\rho(\ell_J)\,
+      \alpha'(W_J)\,\partial_t W_J.
+      \]
+
+      The status is exact reduction. The coefficient-drift theorem is now the
+      weighted \(L^2\) control of these four chain-rule terms. Without that
+      time-regularity packet, the localized-projector route remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Low-Mode Duhamel Product Reduction
+    line_start: 12269
+    line_end: 12307
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12269
+    start_anchor: "\\subsection{Low-Mode Duhamel Product Reduction}\n"
+    end_anchor: "\\subsection{Low-Mode Product Channel Result}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Low-Mode Duhamel Product Reduction}
+
+      The next group leaves the localized-projector branch and records the low-mode
+      product side of the same tail/feedback problem. Set
+
+      \[
+      \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty}.
+      \]
+
+      \[
+      S_{N-4}u(t)=e^{\nu(t-t_0)\Delta}S_{N-4}u(t_0)
+      -
+      \int_{t_0}^t e^{\nu(t-s)\Delta}S_{N-4}\mathbb P\nabla\cdot(u\otimes u)(s)ds.
+      \]
+
+      \[
+      \Lambda_N(t)\le \Lambda_N^{lin}(t)+\Lambda_N^{nl}(t).
+      \]
+
+      The high-high and low-high feedback pieces contain at least one tail factor.
+      After Bernstein and the heat-kernel bound, their product with \(E_N\) is
+      controlled by
+
+      \[
+      \varepsilon\nu D_N+C_\varepsilon 2^{-2N}E_N^2.
+      \]
+
+      The linear piece and the low-low nonlinear piece depend only on finitely many modes below N. They produce a coefficient measure
+
+      \[
+      d\nu_N^{low}(t):=\left(\Lambda_N^{lin}(t)+\Lambda_N^{low-low}(t)\right)dt.
+      \]
+
+      The conversion is conditional on a terminal-window coefficient-measure theorem
+      for this low-mode measure. The tail terms can be absorbed by the high-frequency
+      reserve; the finite low-mode coefficient still needs its own terminal-window
+      control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Low-Mode Product Channel Result
+    line_start: 12308
+    line_end: 12345
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12308
+    start_anchor: "\\subsection{Low-Mode Product Channel Result}\n"
+    end_anchor: "\\subsection{Low-Mode Product Closure From Duhamel And Installed
+      Tail-Square}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Low-Mode Product Channel Result}
+
+      The naive product channel fails for a precise endpoint integrability reason.
+
+      \[
+      \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty},
+      \]
+
+      \[
+      \Lambda_N(t)
+      \le C_N\|\nabla u(t)\|_2.
+      \]
+
+      \[
+      \Lambda_N\in L^2_t
+      \]
+
+      \[
+      E_N\in L^1_t
+      \]
+
+      These two facts do not imply \(\Lambda_N E_N\in L^1_t\). The model pair
+
+      \[
+      a(t)=(T-t)^{-1/3},
+      \qquad
+      b(t)=(T-t)^{-2/3}.
+      \]
+
+      has \(a\in L^2\) and \(b\in L^1\), while \(ab=(T-t)^{-1}\) is not integrable at
+      the endpoint. The missing ingredient is exactly the low-mode strain suppression
+      theorem already isolated.
+
+      Product channel A does not close from the fixed low-mode coefficient time
+      estimate plus baseline energy. It reduces to \(E_N^2\)-integrability,
+      endpoint boundedness of \(E_N\), or low-mode strain suppression.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Local Absorption Discharge Via Coefficient Demotion
+    line_start: 13190
+    line_end: 13242
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13190
+    start_anchor: "\\subsection{Aact Kx Local Absorption Discharge Via Coefficient
+      Demotion}\n"
+    end_anchor: "\\subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma Aact
+      Kx}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Aact Kx Local Absorption Discharge Via Coefficient Demotion}
+
+      The local absorption obligation is discharged by demoting the dangerous terms
+      into the coefficient record. The audit defect was specific: the previous local
+      proof tried to absorb
+      \((V_R^{1/3}+P_R^{2/3})N_R\) using only \(L_t^1\) smallness of \(V_R\) and
+      \(P_R\). The repaired proof removes those terms from the dissipation
+      coefficient.
+
+      Work on one shrunken same-fluid moving cylinder \(Q_R^\Phi\) where
+      \(SCF^{avg}_m\) holds after the \(ATD_m\) shrink. Let \(X_R(t)\) be the
+      averaged affine-subtracted excess and \(N_R(t)\) the corresponding dissipative
+      packet. The repaired local inequality has the form
+      \[
+      D^+X_R+c_1N_R
+      \le
+      \bar B_RX_R+C_0X_R^{1/2}N_R+\bar F_R,
+      \]
+      with \(c_1>0\), \(C_0<\infty\), and \(\bar B_R,\bar F_R\in L^1(I)\) on the
+      scheduler cell \(I\). Here \(\bar B_R\) contains the lower-order affine, frame,
+      cutoff, pressure-response, viscous-commutator, and finite-rung coefficient
+      records, while \(\bar F_R\) contains source, residual, harmonic/far-pressure,
+      cutoff, and finite-frame remainder records.
+
+      Let \(J\subset I\) be the maximal first-exit interval from \(s\) on which
+      \(X_R(t)\le4\eta_X\). On \(J\), choose \(\eta_X\) so that
+      \[
+      C_0X_R^{1/2}N_R\le \frac{c_1}{2}N_R.
+      \]
+
+      The scheduler condition gives \(\sup_JX_R\le2\eta_X\), improving the
+      first-exit bound \(4\eta_X\). Continuity extends the estimate through the whole
+      scheduler cell. Integrating the absorbed inequality gives \(N_R\in L^1(I)\);
+      the averaged tower record then gives
+      \(\mathcal K_{\le m}^{avg,R}\in L^1(I)\).
+
+      The direct-variable local calculation is the authority for this repaired
+      inequality. Frame, cutoff, pressure-response, affine-core,
+      viscous-commutator, harmonic/far-pressure, source, and finite-frame packets are
+      estimated before first-exit absorption and placed into
+      \(\bar B_RX_R+\bar F_R\), with fixed small fractions of \(N_R\) already spent in
+      the term audit.
+
+      The genuine affine-excess nonlinear term is the only coeff
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Act Kx Affine Normalized Conditional Discharge Rscb Nkf
+    line_start: 13365
+    line_end: 13405
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13365
+    start_anchor: "\\subsection{Act Kx Affine Normalized Conditional Discharge Rscb
+      Nkf}\n"
+    end_anchor: "\\subsection{Conditional completion packet: items 1-12}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Act Kx Affine Normalized Conditional Discharge Rscb Nkf}
+
+      \[
+      \mathcal K_{\le m}^{ctr}
+      \le
+      C((\mathcal X^{exc})^{1/2}\mathcal N^{1/2}+\mathcal X^{exc})+F_K.
+      \]
+
+      The native affine pressure cell removes the affine and affine-linear center
+      modes. The remaining quadratic pressure cell is controlled by affine excess and
+      dissipation, while the harmonic far tail is controlled by the energy record.
+
+      The top-viscous and pressure records are readout/buffer data. Only
+      \(\mathcal X^{exc}\) is the small absorption variable.
+
+      \[
+      \eta_X=\left(\frac{c_\nu}{4C_X}\right)^2.
+      \]
+
+      \[
+      \mathcal X^{exc}(s_a;R_a)\le\eta_X.
+      \]
+
+      \[
+      C_X(\mathcal X^{exc})^{1/2}\mathcal N
+      \le
+      \frac{c_\nu}{2}\mathcal N.
+      \]
+
+      \[
+      (\mathcal X^{exc})^{1/2}\mathcal N^{1/2}
+      \le
+      \delta\mathcal N+C_\delta\mathcal X^{exc}.
+      \]
+
+      The scheduler budget keeps the Gronwall factor and forcing integrals below the
+      fixed absorption threshold. The first-exit argument then gives the conditional
+      centered affine tower bound. This packet is conditional on the restart seed and
+      the scheduler smallness already named above.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Frozen Transported Localized Projector Packet Eliminates Coefficient Drift}
+
+    This note is a local redesign result for the exact-potential localized
+    projector subbranch.  The coefficient-drift term appeared because the
+    localized projector moment was written with a time-dependent density.  On the
+    frozen transported realization, all selector and localization weights are
+    absorbed into a time-independent packet weight.
+
+    Fix the transported strip \(\Omega_J\times I\), a fixed local packet space
+    \(\mathcal P_J(x)\), and a fixed reference measure \(d\bar\nu_{J,x}\).  Choose
+
+    \[
+    \lambda_J(x,p)\ge 0,
+    \qquad
+    \lambda_J\in L^\infty(\Omega_J\times\mathcal P_J),
+    \]
+
+    \[
+    \widetilde S_J^{fr}(x,t)
+    :=
+    \int_{\mathcal P_J(x)}
+    \lambda_J(x,p)\,P_J(x,p,t)\,d\bar\nu_{J,x}(p).
+    \]
+
+    \[
+    m_J^{fr}(x)
+    :=
+    \int_{\mathcal P_J(x)}\lambda_J(x,p)\,d\bar\nu_{J,x}(p).
+    \]
+
+    \[
+    \partial_t\widetilde S_J^{fr}(x,t)
+    =
+    \int_{\mathcal P_J(x)}
+    \lambda_J(x,p)\,\partial_t P_J(x,p,t)\,d\bar\nu_{J,x}(p),
+    \]
+
+    \[
+    R_{J,\mathrm{coeff}}^{fr}\equiv 0.
+    \]
+
+    The coefficient-drift slot vanishes identically because the packet weight and
+    packet measure are time independent.  The remaining local error is the
+    moment-closure term controlled by localized projector concentration.  Under the
+    exact-segment and tail-free realizations, the sharp forcing side becomes the
+    installed pair-family record \(D.7ie1\), or the adiabatic record \(D.7ie3\),
+    plus the usual weighted coverage/globalization packet.
+
+    This result is narrower than a new projector theorem.  It gives a route
+    choice: pay coefficient drift on the moving-weight realization, or adopt the
+    frozen transported packet realization and remove coefficient drift from the
+    local wall.
+
+
+
+    \subsection{Gradient Stronger-Coefficient Interface Audit}
+
+    \[
+    \mathcal L_N(t)
+    :=
+    1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}
+    \]
+
+    \[
+    \Lambda_N(t)
+    :=
+    1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x},
+    \]
+
+    \[
+    \Theta_N^\sharp(t)
+    :=
+    2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2,
+    \]
+
+    \[
+    \mathcal K_N(t)
+    :=
+    \sum_{m=N-M}^{N+M}2^{3m}\|\Delta_m u(t)\|_{L^2_x}^2,
+    \]
+
+    \[
+    \widetilde\Lambda_N^\sharp(t):=\Lambda_N(t)+\Theta_N^\sharp(t).
+    \]
+
+    The upgraded interface changes only the gradient bridge:
+
+    \[
+    \frac{d}{dt}E_N(t)+(1-\eta)\nu D_N(t)
+    \le
+    C\,\widetilde\Lambda_N^\sharp(t)E_N(t)+C_*2^{-2\delta N}.
+    \]
+
+    The scale-barrier proposition, compactness proposition, and continuation
+    endpoint stay the same.  The local \(4\to1\) tail-energy recertification also
+    keeps its packet structure after \(E_N\) has been bounded.
+
+    The manuscript cost is local and visible.  Any place that still says the
+    gradient bridge closes with only \(\mathcal L_N\) is too strong.  The current
+    honest surface is \(\widetilde\Lambda_N^\sharp\) unless a new low-mode strain
+    theorem returns the bridge to \(\mathcal L_N\).
+
+
+
+    \subsection{Localized Projector Coarse Route Stronger Adiabatic Continuation}
+
+    Once the minimal coarse localized-projector route has been reduced to the
+    retained-cover counting endpoint, there is a stronger continuation that switches
+    back to the older exact-potential adiabatic packet.
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    The extra hypotheses place the proof back on the older exact-potential
+    retained-window chain. This route switch leaves the scalar endpoint for the
+    installed minimal coarse packet unpaid.
+
+
+
+    \subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}
+
+    The coefficient-drift slot is the honest local blocker on the localized
+    projector route.
+
+    \[
+    \int_I\!\!\int_{\Omega_J}
+    w_J
+    \int_{\mathcal P_J(x)}
+    |\partial_t a_J(x,p,t)|^2\,d\bar\nu_{J,x}(p)\,dx\,dt
+    =
+    o_J(1)
+    \]
+
+    This estimate is not supplied by the static localized-projector packet. It
+    requires time-regularity for the coefficients in the packet selector.
+
+    \[
+    a_J(x,p,t)
+    =
+    \chi_J(x,p,t)\,
+    \phi_r\!\bigl(x-m_J(x,p,t)\bigr)\,
+    \psi_\rho\!\bigl(\ell_J(x,p,t)\bigr)\,
+    \alpha\!\bigl(W_J(x,p,t)\bigr),
+    \]
+
+    Assume \(\chi_J\) is absolutely continuous in time for
+    \(\bar\nu_{J,x}\)-almost every packet point, \(\phi_r\), \(\psi_\rho\), and
+    \(\alpha\) are Lipschitz on their active ranges, and the pair midpoint
+    \(m_J\), pair length \(\ell_J\), and confidence observable \(W_J\) have time
+    derivatives on the active packet.
+
+    \[
+    \partial_t a_J
+    =
+    T_J^{sel}+T_J^{mid}+T_J^{len}+T_J^{conf},
+    \]
+
+    \[
+    T_J^{sel}
+    :=
+    (\partial_t\chi_J)\,
+    \phi_r(x-m_J)\,
+    \psi_\rho(\ell_J)\,
+    \alpha(W_J),
+    \]
+
+    \[
+    T_J^{mid}
+    :=
+    -\chi_J\,
+    \nabla\phi_r(x-m_J)\!\cdot\!\partial_t m_J\,
+    \psi_\rho(\ell_J)\,
+    \alpha(W_J),
+    \]
+
+    \[
+    T_J^{len}
+    :=
+    \chi_J\,
+    \phi_r(x-m_J)\,
+    \psi_\rho'(\ell_J)\,\partial_t\ell_J\,
+    \alpha(W_J),
+    \]
+
+    \[
+    T_J^{conf}
+    :=
+    \chi_J\,
+    \phi_r(x-m_J)\,
+    \psi_\rho(\ell_J)\,
+    \alpha'(W_J)\,\partial_t W_J.
+    \]
+
+    The status is exact reduction. The coefficient-drift theorem is now the
+    weighted \(L^2\) control of these four chain-rule terms. Without that
+    time-regularity packet, the localized-projector route remains open.
+
+
+
+    \subsection{Low-Mode Duhamel Product Reduction}
+
+    The next group leaves the localized-projector branch and records the low-mode
+    product side of the same tail/feedback problem. Set
+
+    \[
+    \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty}.
+    \]
+
+    \[
+    S_{N-4}u(t)=e^{\nu(t-t_0)\Delta}S_{N-4}u(t_0)
+    -
+    \int_{t_0}^t e^{\nu(t-s)\Delta}S_{N-4}\mathbb P\nabla\cdot(u\otimes u)(s)ds.
+    \]
+
+    \[
+    \Lambda_N(t)\le \Lambda_N^{lin}(t)+\Lambda_N^{nl}(t).
+    \]
+
+    The high-high and low-high feedback pieces contain at least one tail factor.
+    After Bernstein and the heat-kernel bound, their product with \(E_N\) is
+    controlled by
+
+    \[
+    \varepsilon\nu D_N+C_\varepsilon 2^{-2N}E_N^2.
+    \]
+
+    The linear piece and the low-low nonlinear piece depend only on finitely many modes below N. They produce a coefficient measure
+
+    \[
+    d\nu_N^{low}(t):=\left(\Lambda_N^{lin}(t)+\Lambda_N^{low-low}(t)\right)dt.
+    \]
+
+    The conversion is conditional on a terminal-window coefficient-measure theorem
+    for this low-mode measure. The tail terms can be absorbed by the high-frequency
+    reserve; the finite low-mode coefficient still needs its own terminal-window
+    control.
+
+
+
+    \subsection{Low-Mode Product Channel Result}
+
+    The naive product channel fails for a precise endpoint integrability reason.
+
+    \[
+    \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty},
+    \]
+
+    \[
+    \Lambda_N(t)
+    \le C_N\|\nabla u(t)\|_2.
+    \]
+
+    \[
+    \Lambda_N\in L^2_t
+    \]
+
+    \[
+    E_N\in L^1_t
+    \]
+
+    These two facts do not imply \(\Lambda_N E_N\in L^1_t\). The model pair
+
+    \[
+    a(t)=(T-t)^{-1/3},
+    \qquad
+    b(t)=(T-t)^{-2/3}.
+    \]
+
+    has \(a\in L^2\) and \(b\in L^1\), while \(ab=(T-t)^{-1}\) is not integrable at
+    the endpoint. The missing ingredient is exactly the low-mode strain suppression
+    theorem already isolated.
+
+    Product channel A does not close from the fixed low-mode coefficient time
+    estimate plus baseline energy. It reduces to \(E_N^2\)-integrability,
+    endpoint boundedness of \(E_N\), or low-mode strain suppression.
+
+
+
+    \subsection{Aact Kx Local Absorption Discharge Via Coefficient Demotion}
+
+    The local absorption obligation is discharged by demoting the dangerous terms
+    into the coefficient record. The audit defect was specific: the previous local
+    proof tried to absorb
+    \((V_R^{1/3}+P_R^{2/3})N_R\) using only \(L_t^1\) smallness of \(V_R\) and
+    \(P_R\). The repaired proof removes those terms from the dissipation
+    coefficient.
+
+    Work on one shrunken same-fluid moving cylinder \(Q_R^\Phi\) where
+    \(SCF^{avg}_m\) holds after the \(ATD_m\) shrink. Let \(X_R(t)\) be the
+    averaged affine-subtracted excess and \(N_R(t)\) the corresponding dissipative
+    packet. The repaired local inequality has the form
+    \[
+    D^+X_R+c_1N_R
+    \le
+    \bar B_RX_R+C_0X_R^{1/2}N_R+\bar F_R,
+    \]
+    with \(c_1>0\), \(C_0<\infty\), and \(\bar B_R,\bar F_R\in L^1(I)\) on the
+    scheduler cell \(I\). Here \(\bar B_R\) contains the lower-order affine, frame,
+    cutoff, pressure-response, viscous-commutator, and finite-rung coefficient
+    records, while \(\bar F_R\) contains source, residual, harmonic/far-pressure,
+    cutoff, and finite-frame remainder records.
+
+    Let \(J\subset I\) be the maximal first-exit interval from \(s\) on which
+    \(X_R(t)\le4\eta_X\). On \(J\), choose \(\eta_X\) so that
+    \[
+    C_0X_R^{1/2}N_R\le \frac{c_1}{2}N_R.
+    \]
+
+    The scheduler condition gives \(\sup_JX_R\le2\eta_X\), improving the
+    first-exit bound \(4\eta_X\). Continuity extends the estimate through the whole
+    scheduler cell. Integrating the absorbed inequality gives \(N_R\in L^1(I)\);
+    the averaged tower record then gives
+    \(\mathcal K_{\le m}^{avg,R}\in L^1(I)\).
+
+    The direct-variable local calculation is the authority for this repaired
+    inequality. Frame, cutoff, pressure-response, affine-core,
+    viscous-commutator, harmonic/far-pressure, source, and finite-frame packets are
+    estimated before first-exit absorption and placed into
+    \(\bar B_RX_R+\bar F_R\), with fixed small fractions of \(N_R\) already spent in
+    the term audit.
+
+    The genuine affine-excess nonlinear term is the only coefficient still
+    multiplying \(N_R\). It has the form \(C_0X_R^{1/2}N_R\), and it is absorbed by
+    pointwise bootstrap smallness of \(X_R\).
+
+    The local proof spends no \(L_t^1\) smallness of \(V_R\) or \(P_R\) to absorb a
+    pointwise coefficient multiplying \(N_R\).
+
+    These boundaries belong to the other live Navier-Stokes frontier items. They do not reopen the local absorption mechanism proved here.
+
+
+
+    \subsection{Act Kx Affine Normalized Conditional Discharge Rscb Nkf}
+
+    \[
+    \mathcal K_{\le m}^{ctr}
+    \le
+    C((\mathcal X^{exc})^{1/2}\mathcal N^{1/2}+\mathcal X^{exc})+F_K.
+    \]
+
+    The native affine pressure cell removes the affine and affine-linear center
+    modes. The remaining quadratic pressure cell is controlled by affine excess and
+    dissipation, while the harmonic far tail is controlled by the energy record.
+
+    The top-viscous and pressure records are readout/buffer data. Only
+    \(\mathcal X^{exc}\) is the small absorption variable.
+
+    \[
+    \eta_X=\left(\frac{c_\nu}{4C_X}\right)^2.
+    \]
+
+    \[
+    \mathcal X^{exc}(s_a;R_a)\le\eta_X.
+    \]
+
+    \[
+    C_X(\mathcal X^{exc})^{1/2}\mathcal N
+    \le
+    \frac{c_\nu}{2}\mathcal N.
+    \]
+
+    \[
+    (\mathcal X^{exc})^{1/2}\mathcal N^{1/2}
+    \le
+    \delta\mathcal N+C_\delta\mathcal X^{exc}.
+    \]
+
+    The scheduler budget keeps the Gronwall factor and forcing integrals below the
+    fixed absorption threshold. The first-exit argument then gives the conditional
+    centered affine tower bound. This packet is conditional on the restart seed and
+    the scheduler smallness already named above.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Frozen Transported Localized Projector Packet Eliminates Coefficient
+    Drift
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8405
+  line_start: 8405
+  line_end: 8458
+  start_anchor: "\\subsection{Frozen Transported Localized Projector Packet Eliminates
+    Coefficient Drift}\n"
+  end_anchor: "\\subsection{Global Signed LP Balance Identity Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Frozen Transported Localized
+    Projector Packet Eliminates Coefficient Drift as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:8405
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Gradient Stronger-Coefficient Interface Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9217
+  line_start: 9217
+  line_end: 9264
+  start_anchor: "\\subsection{Gradient Stronger-Coefficient Interface Audit}\n"
+  end_anchor: "\\subsection{Mediating Object: gradient transfer coercivity lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Gradient Stronger-Coefficient
+    Interface Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9217
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Route Stronger Adiabatic Continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11715
+  line_start: 11715
+  line_end: 11731
+  start_anchor: "\\subsection{Localized Projector Coarse Route Stronger Adiabatic
+    Continuation}\n"
+  end_anchor: "\\subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Route
+    Stronger Adiabatic Continuation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11715
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coefficient Drift Chain-Rule Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11732
+  line_start: 11732
+  line_end: 11810
+  start_anchor: "\\subsection{Localized Projector Coefficient Drift Chain-Rule Reduction}\n"
+  end_anchor: "\\subsection{Localized Projector Kernel Mismatch Implies Overlap Surrogate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coefficient
+    Drift Chain-Rule Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11732
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Low-Mode Duhamel Product Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12269
+  line_start: 12269
+  line_end: 12307
+  start_anchor: "\\subsection{Low-Mode Duhamel Product Reduction}\n"
+  end_anchor: "\\subsection{Low-Mode Product Channel Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Low-Mode Duhamel Product Reduction
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12269
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Low-Mode Product Channel Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12308
+  line_start: 12308
+  line_end: 12345
+  start_anchor: "\\subsection{Low-Mode Product Channel Result}\n"
+  end_anchor: "\\subsection{Low-Mode Product Closure From Duhamel And Installed Tail-Square}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Low-Mode Product Channel Result
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12308
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Local Absorption Discharge Via Coefficient Demotion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13190
+  line_start: 13190
+  line_end: 13242
+  start_anchor: "\\subsection{Aact Kx Local Absorption Discharge Via Coefficient Demotion}\n"
+  end_anchor: "\\subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma Aact
+    Kx}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Local Absorption Discharge
+    Via Coefficient Demotion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13190
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Act Kx Affine Normalized Conditional Discharge Rscb Nkf
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13365
+  line_start: 13365
+  line_end: 13405
+  start_anchor: "\\subsection{Act Kx Affine Normalized Conditional Discharge Rscb
+    Nkf}\n"
+  end_anchor: "\\subsection{Conditional completion packet: items 1-12}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Act Kx Affine Normalized Conditional
+    Discharge Rscb Nkf as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13365
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-02
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-critical-norm-and-field-02.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

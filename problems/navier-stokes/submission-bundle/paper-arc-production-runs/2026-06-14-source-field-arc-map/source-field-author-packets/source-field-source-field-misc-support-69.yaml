@@ -1,0 +1,1097 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-69
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-69
+  sequence: 221
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 69
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 59662
+  line_end: 61470
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59662
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60490
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60544
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61117
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61158
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61219
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61270
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61434
+  subsection_titles:
+  - Retained-Cover Counting Theorem Further Reduction Needs Extra Packing Schedule
+  - SDS Parent Route Triage
+  - Sectorwise Relative Oscillation Of Diagonal Density
+  - Shadow-Error H s Energy Bridge
+  - Shadow Remainder Forced H 1 Bridge
+  - Shadow Remainder H s Forcing Estimate
+  - Shell-Amplitude Gain Active-Interval Result
+  - Signed Weighted Commutator-Defect Theorem Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained-Cover Counting Theorem Further Reduction Needs Extra
+      Packing Schedule
+    line_start: 59662
+    line_end: 59678
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59662
+    start_anchor: "\\subsection{Retained-Cover Counting Theorem Further Reduction
+      Needs Extra Packing Schedule}\n"
+    end_anchor: "\\subsection{Route B B1 Integrable Shadow Error Plus Continuation
+      Coupling}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Retained-Cover Counting Theorem Further Reduction Needs Extra Packing Schedule}
+
+      Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+      Role: record the result of one bounded self-attempt to reduce the scalar retained-cover counting theorem further on the installed route. That further reduction is not available on current hypotheses alone; it needs extra quantitative window-envelope / packing hypotheses.
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      Those are extra quantitative hypotheses, not consequences of the present scalar route.
+
+      The active-strip mass-pricing packet F.11l is about strip occupancy S I J act |S|, not about the retained-cover pair-family counting term k |I k| J pair ( J k). No direct on-disk identification of those quantities exists.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: SDS Parent Route Triage
+    line_start: 60490
+    line_end: 60543
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60490
+    start_anchor: "\\subsection{SDS Parent Route Triage}\n"
+    end_anchor: "\\subsection{Sectorwise Relative Oscillation Of Diagonal Density}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{SDS Parent Route Triage}
+
+      They are three formulations of the same missing coercive control on the paired carrier exposed by the weighted lifted packet.
+
+      \[
+      a_k(t):=2^{3k/2}\|\Delta_k u(t)\|_{L_x^2},
+      \qquad
+      \mathcal D_k^\uparrow(t):=\sum_{\ell\ge k+4}2^{-\sigma(\ell-k)}D_\ell(t),
+      \]
+
+      \[
+      D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \mathfrak P_N(t):=
+      \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^\uparrow(t).
+      \]
+
+      So any parent theorem that closes the route must control P N at the same barrier scale C *2 -2 N .
+
+      \[
+      \partial_t \Phi_j^\sigma(t)+c\,2^j\big(\mathcal T_j^\sigma(t)\big)^2
+      \le
+      \partial_t \Psi_j^\sigma(t)+\mathrm{Err}_j^\sigma(t).
+      \]
+
+      \[
+      \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+      \qquad
+      \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+      \]
+
+      The packet decomposition says that strict low, spill, and high-high are already lower-order on the weighted tail surface; the only genuinely new term is the lifted remainder.
+
+      So the monotonicity parent is sufficient only if it is genuinely one-sided and coercive on the weighted tail queue.
+
+      This is the cleanest local statement of the missing structure: the lifted forcing must be coercive against the of the weighted upper tail, not merely bounded by a first-moment tail norm.
+
+      then restricting to the lifted geometry N+M<k<j-4 recovers the kernelized carrier, and the same estimate on T j follows.
+
+      So the all-scale route is not a different obstruction. It is the global transport-language version of the same coercive tail estimate.
+
+      So the three parent routes are now tested, not merely conjectured, and they do not split the local frontier into different closure mechanisms.
+
+      The newer decorrelation branch adds one more exact negative conclusion. On the actual one-sided tail weight
+
+      So the weight records one-sided direction but does not produce additional gap decay. So the decorrelation branch cannot extract the missing smallness from the tail weight itself; it must come fr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sectorwise Relative Oscillation Of Diagonal Density
+    line_start: 60544
+    line_end: 60593
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60544
+    start_anchor: "\\subsection{Sectorwise Relative Oscillation Of Diagonal Density}\n"
+    end_anchor: "\\subsection{Segment-Collar Derivative Continuity On Balanced Frame}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Sectorwise Relative Oscillation Of Diagonal Density}
+
+      Role: isolate the strongest selector-side source theorem currently visible on the constructive exact-potential shape branch, namely sectorwise relative oscillation control of the diagonal density around the parent-cell average.
+
+      \[
+      d_j^{diag}(A)=\int_A \delta_{j,Q}\,d\mu_j
+      \qquad\text{for every measurable }A\subseteq Q.
+      \]
+
+      \[
+      \bar\delta_j(Q)
+      :=
+      \frac{d_j^{diag}(Q)}{\mu_j(Q)}
+      =
+      \int_Q \delta_{j,Q}\,d\mu_j.
+      \]
+
+      \[
+      \operatorname*{ess\,sup}_{a\in Q_s^{ent}}
+      \bigl|\delta_{j,Q}(a)-\bar\delta_j(Q)\bigr|
+      \le
+      \sigma_{\mathrm{diag}}\,\bar\delta_j(Q).
+      \]
+
+      \[
+      d_j^{diag}(Q_s^{ent})
+      \ge
+      (1-\sigma_{\mathrm{diag}})
+      d_j^{diag}(Q)\,
+      \frac{\mu_j(Q_s^{ent})}{\mu_j(Q)}.
+      \]
+
+      \[
+      d_j^{diag}(Q_s^{ent})
+      =
+      \int_{Q_s^{ent}}\delta_{j,Q}\,d\mu_j
+      \ge
+      (1-\sigma_{\mathrm{diag}})
+      \bar\delta_j(Q)\,\mu_j(Q_s^{ent})
+      =
+      (1-\sigma_{\mathrm{diag}})
+      d_j^{diag}(Q)\,
+      \frac{\mu_j(Q_s^{ent})}{\mu_j(Q)},
+      \]
+
+      Keep the setup above. Assume each terminal entrance-sector cell Q s ent carries one label center a Q,s Q s ent . Assume there exist constants c diag ctr >0, diag 0, and (0,1] with c diag ctr > diag such that for every parent stopped cell Q and every terminal entrance-sector cell Q s ent Q,
+
+      So, once the inherited bounded-multiplicity sector graph and the parent sign packet are accepted, the remaining selector-side source wall is no longer the full entrance-sector refinement theorem. It is the oscillation control of the diagonal density on terminal sectors.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Shadow-Error H s Energy Bridge
+    line_start: 61117
+    line_end: 61157
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61117
+    start_anchor: "\\subsection{Shadow-Error H s Energy Bridge}\n"
+    end_anchor: "\\subsection{Shadow Remainder Forced H 1 Bridge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Shadow-Error H s Energy Bridge}
+
+      \[
+      E_{\mathrm{sh}}(X)
+      \]
+
+      \[
+      \partial_t u+\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u)
+      =
+      \nu\Delta u+F,
+      \qquad
+      \nabla\cdot u=0.
+      \]
+
+      \[
+      F=E_{\mathrm{sh}}(X).
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|u\|_{H^{s-1}}^2
+      +
+      \nu\|\nabla u\|_{H^{s-1}}^2
+      \le
+      \|\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u)\|_{H^{s-1}}\|u\|_{H^{s-1}}
+      +
+      \|F\|_{H^{s-1}}\|u\|_{H^{s-1}}.
+      \]
+
+      \[
+      \|(u\cdot\nabla)u\|_{H^{s-1}}
+      \le
+      C_s\|u\|_{H^{s-1}}\|u\|_{H^s}.
+      \]
+
+      This is the exact classical energy bridge at the natural regularity of the shadow remainder.
+
+      This proves that the weaker projection route does have a clean classical energy interface.
+
+      It does not yet prove that (10) is strong enough for global continuation. It proves that the shadow remainder enters the classical equation exactly as a forced H s-1 source term, with no additional hidden structure needed on the classical side.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Shadow Remainder Forced H 1 Bridge
+    line_start: 61158
+    line_end: 61218
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61158
+    start_anchor: "\\subsection{Shadow Remainder Forced H 1 Bridge}\n"
+    end_anchor: "\\subsection{Shadow Remainder H s Forcing Estimate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Shadow Remainder Forced H 1 Bridge}
+
+      It does not prove that the shadow remainder is small. It proves what estimate is needed if the shadowed equation has a remainder term.
+
+      \[
+      \partial_t u
+      +
+      \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+      =
+      \nu\Delta u
+      +
+      E_{\mathrm{sh}},
+      \qquad
+      \nabla\cdot u=0.
+      \]
+
+      \[
+      E_{\mathrm{sh}}\in H^1(\mathbb R^3).
+      \]
+
+      Take the L 2 inner product of (1) with - u. Using incompressibility and Leray orthogonality,
+
+      \[
+      \frac12\frac{d}{dt}\|\nabla u\|_{L^2}^2
+      +
+      \nu\|\Delta u\|_{L^2}^2
+      =
+      \left\langle
+      \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+      \Delta u
+      \right\rangle
+      -
+      \langle E_{\mathrm{sh}},\Delta u\rangle.
+      \]
+
+      \[
+      \left|
+      \left\langle
+      \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+      \Delta u
+      \right\rangle
+      \right|
+      \le
+      \|(u\cdot\nabla)u\|_{L^2}\,\|\Delta u\|_{L^2}.
+      \]
+
+      \[
+      \|(u\cdot\nabla)u\|_{L^2}
+      \le
+      \|u\|_{L^6}\,\|\nabla u\|_{L^3}
+      \le
+      C\|\nabla u\|_{L^2}^{3/2}\|\Delta u\|_{L^2}^{1/2},
+      \]
+
+      if the shadow remainder vanishes, (10) reduces to the ordinary classical continuation channel; if the shadow remainder does not vanish, the price paid by Route B is exactly an H 1 forcing term.
+
+      Since the current shadow notes place E sh in H s-1 with s> 52, this is the correct classical norm level for turning the robustness branch into a genuine continuation estimate.
+
+      It proves only that the Route B shadow remainder enters the classical continuation problem through the forced H 1 inequality (10).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Shadow Remainder H s Forcing Estimate
+    line_start: 61219
+    line_end: 61269
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61219
+    start_anchor: "\\subsection{Shadow Remainder H s Forcing Estimate}\n"
+    end_anchor: "\\subsection{Shell-Amplitude Gain Active-Interval Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Shadow Remainder H s Forcing Estimate}
+
+      The weaker shadow-remainder branch becomes an exact classical forcing estimate.
+
+      It does not prove the weaker branch closes. It proves that if the projected equation carries a remainder term, then the classical question becomes a standard forced H s continuation problem.
+
+      \[
+      \partial_t u + \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+      =
+      \nu\Delta u + E,
+      \]
+
+      where E is a divergence-free forcing term or, more generally, where any gradient part of the forcing has already been absorbed into pressure.
+
+      \[
+      E = \mathbb P_{\mathrm{Leray}}E_{\mathrm{sh}}(X).
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|u\|_{H^s}^2
+      +
+      \nu\|\nabla u\|_{H^s}^2
+      \le
+      C_s\|u\|_{H^s}^3
+      +
+      \|E\|_{H^{s-1}}\|u\|_{H^{s+1}}.
+      \]
+
+      \[
+      \frac{d}{dt}\|u\|_{H^s}^2
+      +
+      \nu\|\nabla u\|_{H^s}^2
+      \le
+      C_s\|u\|_{H^s}^3
+      +
+      C_{\nu,s}\|E\|_{H^{s-1}}^2.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|u\|_{H^s}^2
+      +
+      \nu\|\nabla u\|_{H^s}^2
+      =
+      -\big\langle \Lambda^s\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u),\Lambda^s u\big\rangle
+      +
+      \big\langle \Lambda^s E,\Lambda^s u\big\rangle.
+      \]
+
+      So the weaker branch is no longer only narrative. It has a concrete classical energy inequality attached to it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Shell-Amplitude Gain Active-Interval Result
+    line_start: 61270
+    line_end: 61304
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61270
+    start_anchor: "\\subsection{Shell-Amplitude Gain Active-Interval Result}\n"
+    end_anchor: "\\subsection{Signed Continuous-Scale Closure Program}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Shell-Amplitude Gain Active-Interval Result}
+
+      \[
+      E_j(t)\le C_{\mathrm{sf},59655} \nu^{1/2}2^{-j/2}
+      \]
+
+      \[
+      2^{-j}D_j(t)^2=2^{3j}E_j(t)^2.
+      \]
+
+      For any fixed shell j, choose smooth divergence-free initial data with a nonzero component in that shell and amplitude A. Then
+
+      \[
+      E_j(0)=A^2E_j(e)
+      \]
+
+      \[
+      E_j(0)\le C_{\mathrm{sf},59669} \nu^{1/2}2^{-j/2}.
+      \]
+
+      Thus the fixed-shell amplitude theorem cannot follow from smoothness, divergence-free structure, or shell localization alone.
+
+      \[
+      E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t).
+      \]
+
+      then the steady state E j(t)=A is compatible with the scalar inequality. Hence damping does not impose the desired amplitude bound without a source-amplitude theorem.
+
+      This is much weaker than the desired decay. A useful statement must so be a dynamic threshold theorem: shells above a data-dependent smoothness tail may have small E j, while arbitrary fixed shells do not.
+
+      Propagating that smallness to an active interval requires the active-/source control already under discussion.
+
+      The shell-amplitude gain is not available from current inputs. It is equivalent to a new active-shell amplitude theorem or to the active- Carleson theorem itself.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed Weighted Commutator-Defect Theorem Attempt
+    line_start: 61434
+    line_end: 61470
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61434
+    start_anchor: "\\subsection{Signed Weighted Commutator-Defect Theorem Attempt}\n"
+    end_anchor: "\\subsection{Signed Weighted Lifted-Remainder Theorem Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Signed Weighted Commutator-Defect Theorem Attempt}
+
+      \[
+      |\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle|
+      \le C_{\mathrm{sf},59820}
+      2^{-c(\ell-j)}2^{3k/2}\|\Delta_k u\|_2D_\ell
+      \]
+
+      For fixed compact Littlewood-Paley projectors, choose the separation collar M larger than the projector support width. In the geometry
+
+      \[
+      j+M<k<\ell-4,
+      \]
+
+      \[
+      a_k\cdot\nabla\Delta_\ell u
+      \]
+
+      \[
+      \Delta_j(a_k\cdot\nabla\Delta_\ell u)=0.
+      \]
+
+      \[
+      \Delta_j\Delta_\ell u=0,
+      \]
+
+      This proves that the bare separated commutator is the wrong live object. The support audit in the weighted signed shell-exchange surface already identifies this: the bare pairwise exchange vanishes once the shell geometry is truly separated.
+
+      The live theorem must instead concern the true commutatorized lifted remainder created after the weighted tail summation and projector/cutoff reductions.
+
+      where R j,k, lift is the surviving commutatorized lifted remainder, rather than the vacuous bare pairwise flux.
+
+      The exact unweighted exchange antisymmetry remains useful, yet the outer one-sided weights create an order-size mismatch. The tail weight gives direction, while the gap decay must come from a signed remainder theorem.
+
+      This is the positive active-/tail burden already known to exceed the inherited Euclidean inputs.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Retained-Cover Counting Theorem Further Reduction Needs Extra Packing Schedule}
+
+    Active theorem-facing boundary note for the localized-projector exact-potential branch.
+
+    Role: record the result of one bounded self-attempt to reduce the scalar retained-cover counting theorem further on the installed route. That further reduction is not available on current hypotheses alone; it needs extra quantitative window-envelope / packing hypotheses.
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    Those are extra quantitative hypotheses, not consequences of the present scalar route.
+
+    The active-strip mass-pricing packet F.11l is about strip occupancy S I J act |S|, not about the retained-cover pair-family counting term k |I k| J pair ( J k). No direct on-disk identification of those quantities exists.
+
+
+
+    \subsection{SDS Parent Route Triage}
+
+    They are three formulations of the same missing coercive control on the paired carrier exposed by the weighted lifted packet.
+
+    \[
+    a_k(t):=2^{3k/2}\|\Delta_k u(t)\|_{L_x^2},
+    \qquad
+    \mathcal D_k^\uparrow(t):=\sum_{\ell\ge k+4}2^{-\sigma(\ell-k)}D_\ell(t),
+    \]
+
+    \[
+    D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \mathfrak P_N(t):=
+    \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^\uparrow(t).
+    \]
+
+    So any parent theorem that closes the route must control P N at the same barrier scale C *2 -2 N .
+
+    \[
+    \partial_t \Phi_j^\sigma(t)+c\,2^j\big(\mathcal T_j^\sigma(t)\big)^2
+    \le
+    \partial_t \Psi_j^\sigma(t)+\mathrm{Err}_j^\sigma(t).
+    \]
+
+    \[
+    \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+    \qquad
+    \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+    \]
+
+    The packet decomposition says that strict low, spill, and high-high are already lower-order on the weighted tail surface; the only genuinely new term is the lifted remainder.
+
+    So the monotonicity parent is sufficient only if it is genuinely one-sided and coercive on the weighted tail queue.
+
+    This is the cleanest local statement of the missing structure: the lifted forcing must be coercive against the of the weighted upper tail, not merely bounded by a first-moment tail norm.
+
+    then restricting to the lifted geometry N+M<k<j-4 recovers the kernelized carrier, and the same estimate on T j follows.
+
+    So the all-scale route is not a different obstruction. It is the global transport-language version of the same coercive tail estimate.
+
+    So the three parent routes are now tested, not merely conjectured, and they do not split the local frontier into different closure mechanisms.
+
+    The newer decorrelation branch adds one more exact negative conclusion. On the actual one-sided tail weight
+
+    So the weight records one-sided direction but does not produce additional gap decay. So the decorrelation branch cannot extract the missing smallness from the tail weight itself; it must come from a stronger signed commutator defect theorem or from a genuinely new tail theorem.
+
+    So none of the three parent routes follows directly from the current Euclidean surface. They all require the same new coercive structure.
+
+    If such a coercive inequality holds, then summing in j>N+M+4 and integrating in time gives (SDS ) after the endpoint terms are absorbed by the already-available tail bounds on j and the auxiliary correction j .
+
+
+
+    \subsection{Sectorwise Relative Oscillation Of Diagonal Density}
+
+    Role: isolate the strongest selector-side source theorem currently visible on the constructive exact-potential shape branch, namely sectorwise relative oscillation control of the diagonal density around the parent-cell average.
+
+    \[
+    d_j^{diag}(A)=\int_A \delta_{j,Q}\,d\mu_j
+    \qquad\text{for every measurable }A\subseteq Q.
+    \]
+
+    \[
+    \bar\delta_j(Q)
+    :=
+    \frac{d_j^{diag}(Q)}{\mu_j(Q)}
+    =
+    \int_Q \delta_{j,Q}\,d\mu_j.
+    \]
+
+    \[
+    \operatorname*{ess\,sup}_{a\in Q_s^{ent}}
+    \bigl|\delta_{j,Q}(a)-\bar\delta_j(Q)\bigr|
+    \le
+    \sigma_{\mathrm{diag}}\,\bar\delta_j(Q).
+    \]
+
+    \[
+    d_j^{diag}(Q_s^{ent})
+    \ge
+    (1-\sigma_{\mathrm{diag}})
+    d_j^{diag}(Q)\,
+    \frac{\mu_j(Q_s^{ent})}{\mu_j(Q)}.
+    \]
+
+    \[
+    d_j^{diag}(Q_s^{ent})
+    =
+    \int_{Q_s^{ent}}\delta_{j,Q}\,d\mu_j
+    \ge
+    (1-\sigma_{\mathrm{diag}})
+    \bar\delta_j(Q)\,\mu_j(Q_s^{ent})
+    =
+    (1-\sigma_{\mathrm{diag}})
+    d_j^{diag}(Q)\,
+    \frac{\mu_j(Q_s^{ent})}{\mu_j(Q)},
+    \]
+
+    Keep the setup above. Assume each terminal entrance-sector cell Q s ent carries one label center a Q,s Q s ent . Assume there exist constants c diag ctr >0, diag 0, and (0,1] with c diag ctr > diag such that for every parent stopped cell Q and every terminal entrance-sector cell Q s ent Q,
+
+    So, once the inherited bounded-multiplicity sector graph and the parent sign packet are accepted, the remaining selector-side source wall is no longer the full entrance-sector refinement theorem. It is the oscillation control of the diagonal density on terminal sectors.
+
+
+
+    \subsection{Shadow-Error H s Energy Bridge}
+
+    \[
+    E_{\mathrm{sh}}(X)
+    \]
+
+    \[
+    \partial_t u+\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u)
+    =
+    \nu\Delta u+F,
+    \qquad
+    \nabla\cdot u=0.
+    \]
+
+    \[
+    F=E_{\mathrm{sh}}(X).
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|u\|_{H^{s-1}}^2
+    +
+    \nu\|\nabla u\|_{H^{s-1}}^2
+    \le
+    \|\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u)\|_{H^{s-1}}\|u\|_{H^{s-1}}
+    +
+    \|F\|_{H^{s-1}}\|u\|_{H^{s-1}}.
+    \]
+
+    \[
+    \|(u\cdot\nabla)u\|_{H^{s-1}}
+    \le
+    C_s\|u\|_{H^{s-1}}\|u\|_{H^s}.
+    \]
+
+    This is the exact classical energy bridge at the natural regularity of the shadow remainder.
+
+    This proves that the weaker projection route does have a clean classical energy interface.
+
+    It does not yet prove that (10) is strong enough for global continuation. It proves that the shadow remainder enters the classical equation exactly as a forced H s-1 source term, with no additional hidden structure needed on the classical side.
+
+
+
+    \subsection{Shadow Remainder Forced H 1 Bridge}
+
+    It does not prove that the shadow remainder is small. It proves what estimate is needed if the shadowed equation has a remainder term.
+
+    \[
+    \partial_t u
+    +
+    \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+    =
+    \nu\Delta u
+    +
+    E_{\mathrm{sh}},
+    \qquad
+    \nabla\cdot u=0.
+    \]
+
+    \[
+    E_{\mathrm{sh}}\in H^1(\mathbb R^3).
+    \]
+
+    Take the L 2 inner product of (1) with - u. Using incompressibility and Leray orthogonality,
+
+    \[
+    \frac12\frac{d}{dt}\|\nabla u\|_{L^2}^2
+    +
+    \nu\|\Delta u\|_{L^2}^2
+    =
+    \left\langle
+    \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+    \Delta u
+    \right\rangle
+    -
+    \langle E_{\mathrm{sh}},\Delta u\rangle.
+    \]
+
+    \[
+    \left|
+    \left\langle
+    \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big),
+    \Delta u
+    \right\rangle
+    \right|
+    \le
+    \|(u\cdot\nabla)u\|_{L^2}\,\|\Delta u\|_{L^2}.
+    \]
+
+    \[
+    \|(u\cdot\nabla)u\|_{L^2}
+    \le
+    \|u\|_{L^6}\,\|\nabla u\|_{L^3}
+    \le
+    C\|\nabla u\|_{L^2}^{3/2}\|\Delta u\|_{L^2}^{1/2},
+    \]
+
+    if the shadow remainder vanishes, (10) reduces to the ordinary classical continuation channel; if the shadow remainder does not vanish, the price paid by Route B is exactly an H 1 forcing term.
+
+    Since the current shadow notes place E sh in H s-1 with s> 52, this is the correct classical norm level for turning the robustness branch into a genuine continuation estimate.
+
+    It proves only that the Route B shadow remainder enters the classical continuation problem through the forced H 1 inequality (10).
+
+
+
+    \subsection{Shadow Remainder H s Forcing Estimate}
+
+    The weaker shadow-remainder branch becomes an exact classical forcing estimate.
+
+    It does not prove the weaker branch closes. It proves that if the projected equation carries a remainder term, then the classical question becomes a standard forced H s continuation problem.
+
+    \[
+    \partial_t u + \mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+    =
+    \nu\Delta u + E,
+    \]
+
+    where E is a divergence-free forcing term or, more generally, where any gradient part of the forcing has already been absorbed into pressure.
+
+    \[
+    E = \mathbb P_{\mathrm{Leray}}E_{\mathrm{sh}}(X).
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|u\|_{H^s}^2
+    +
+    \nu\|\nabla u\|_{H^s}^2
+    \le
+    C_s\|u\|_{H^s}^3
+    +
+    \|E\|_{H^{s-1}}\|u\|_{H^{s+1}}.
+    \]
+
+    \[
+    \frac{d}{dt}\|u\|_{H^s}^2
+    +
+    \nu\|\nabla u\|_{H^s}^2
+    \le
+    C_s\|u\|_{H^s}^3
+    +
+    C_{\nu,s}\|E\|_{H^{s-1}}^2.
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|u\|_{H^s}^2
+    +
+    \nu\|\nabla u\|_{H^s}^2
+    =
+    -\big\langle \Lambda^s\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u),\Lambda^s u\big\rangle
+    +
+    \big\langle \Lambda^s E,\Lambda^s u\big\rangle.
+    \]
+
+    So the weaker branch is no longer only narrative. It has a concrete classical energy inequality attached to it.
+
+
+
+    \subsection{Shell-Amplitude Gain Active-Interval Result}
+
+    \[
+    E_j(t)\le C_{\mathrm{sf},59655} \nu^{1/2}2^{-j/2}
+    \]
+
+    \[
+    2^{-j}D_j(t)^2=2^{3j}E_j(t)^2.
+    \]
+
+    For any fixed shell j, choose smooth divergence-free initial data with a nonzero component in that shell and amplitude A. Then
+
+    \[
+    E_j(0)=A^2E_j(e)
+    \]
+
+    \[
+    E_j(0)\le C_{\mathrm{sf},59669} \nu^{1/2}2^{-j/2}.
+    \]
+
+    Thus the fixed-shell amplitude theorem cannot follow from smoothness, divergence-free structure, or shell localization alone.
+
+    \[
+    E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t).
+    \]
+
+    then the steady state E j(t)=A is compatible with the scalar inequality. Hence damping does not impose the desired amplitude bound without a source-amplitude theorem.
+
+    This is much weaker than the desired decay. A useful statement must so be a dynamic threshold theorem: shells above a data-dependent smoothness tail may have small E j, while arbitrary fixed shells do not.
+
+    Propagating that smallness to an active interval requires the active-/source control already under discussion.
+
+    The shell-amplitude gain is not available from current inputs. It is equivalent to a new active-shell amplitude theorem or to the active- Carleson theorem itself.
+
+
+
+    \subsection{Signed Weighted Commutator-Defect Theorem Attempt}
+
+    \[
+    |\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle|
+    \le C_{\mathrm{sf},59820}
+    2^{-c(\ell-j)}2^{3k/2}\|\Delta_k u\|_2D_\ell
+    \]
+
+    For fixed compact Littlewood-Paley projectors, choose the separation collar M larger than the projector support width. In the geometry
+
+    \[
+    j+M<k<\ell-4,
+    \]
+
+    \[
+    a_k\cdot\nabla\Delta_\ell u
+    \]
+
+    \[
+    \Delta_j(a_k\cdot\nabla\Delta_\ell u)=0.
+    \]
+
+    \[
+    \Delta_j\Delta_\ell u=0,
+    \]
+
+    This proves that the bare separated commutator is the wrong live object. The support audit in the weighted signed shell-exchange surface already identifies this: the bare pairwise exchange vanishes once the shell geometry is truly separated.
+
+    The live theorem must instead concern the true commutatorized lifted remainder created after the weighted tail summation and projector/cutoff reductions.
+
+    where R j,k, lift is the surviving commutatorized lifted remainder, rather than the vacuous bare pairwise flux.
+
+    The exact unweighted exchange antisymmetry remains useful, yet the outer one-sided weights create an order-size mismatch. The tail weight gives direction, while the gap decay must come from a signed remainder theorem.
+
+    This is the positive active-/tail burden already known to exceed the inherited Euclidean inputs.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained-Cover Counting Theorem Further Reduction Needs Extra
+    Packing Schedule
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59662
+  line_start: 59662
+  line_end: 59678
+  start_anchor: "\\subsection{Retained-Cover Counting Theorem Further Reduction Needs
+    Extra Packing Schedule}\n"
+  end_anchor: "\\subsection{Route B B1 Integrable Shadow Error Plus Continuation Coupling}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained-Cover Counting Theorem
+    Further Reduction Needs Extra Packing Schedule as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59662
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: SDS Parent Route Triage
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60490
+  line_start: 60490
+  line_end: 60543
+  start_anchor: "\\subsection{SDS Parent Route Triage}\n"
+  end_anchor: "\\subsection{Sectorwise Relative Oscillation Of Diagonal Density}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite SDS Parent Route Triage as paper-ready
+    TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60490
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sectorwise Relative Oscillation Of Diagonal Density
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60544
+  line_start: 60544
+  line_end: 60593
+  start_anchor: "\\subsection{Sectorwise Relative Oscillation Of Diagonal Density}\n"
+  end_anchor: "\\subsection{Segment-Collar Derivative Continuity On Balanced Frame}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sectorwise Relative Oscillation
+    Of Diagonal Density as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60544
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Shadow-Error H s Energy Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61117
+  line_start: 61117
+  line_end: 61157
+  start_anchor: "\\subsection{Shadow-Error H s Energy Bridge}\n"
+  end_anchor: "\\subsection{Shadow Remainder Forced H 1 Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Shadow-Error H s Energy Bridge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61117
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Shadow Remainder Forced H 1 Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61158
+  line_start: 61158
+  line_end: 61218
+  start_anchor: "\\subsection{Shadow Remainder Forced H 1 Bridge}\n"
+  end_anchor: "\\subsection{Shadow Remainder H s Forcing Estimate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Shadow Remainder Forced H 1 Bridge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61158
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Shadow Remainder H s Forcing Estimate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61219
+  line_start: 61219
+  line_end: 61269
+  start_anchor: "\\subsection{Shadow Remainder H s Forcing Estimate}\n"
+  end_anchor: "\\subsection{Shell-Amplitude Gain Active-Interval Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Shadow Remainder H s Forcing
+    Estimate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61219
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Shell-Amplitude Gain Active-Interval Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61270
+  line_start: 61270
+  line_end: 61304
+  start_anchor: "\\subsection{Shell-Amplitude Gain Active-Interval Result}\n"
+  end_anchor: "\\subsection{Signed Continuous-Scale Closure Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Shell-Amplitude Gain Active-Interval
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61270
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed Weighted Commutator-Defect Theorem Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61434
+  line_start: 61434
+  line_end: 61470
+  start_anchor: "\\subsection{Signed Weighted Commutator-Defect Theorem Attempt}\n"
+  end_anchor: "\\subsection{Signed Weighted Lifted-Remainder Theorem Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed Weighted Commutator-Defect
+    Theorem Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61434
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-69
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-69.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

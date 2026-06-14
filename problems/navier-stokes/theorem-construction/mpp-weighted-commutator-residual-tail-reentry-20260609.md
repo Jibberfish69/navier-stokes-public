@@ -72,7 +72,7 @@ Its principal term is a strain interaction,
 
 ```math
 R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}\langle C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle .
 ```
 

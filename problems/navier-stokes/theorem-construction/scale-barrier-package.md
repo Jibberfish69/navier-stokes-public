@@ -100,10 +100,10 @@ the near-diagonal high-high reduction, the cubic-tail absorption step, and the
 final Gronwall closure of the scale tail in
 [scale-barrier-tail-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-tail-lemma.md).
 
-In particular, the older TeX sources describe the barrier only in heuristic
+In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
 with a hypothesized decay law for `T(k,t)`. The present package replaces that
-heuristic posture with a classical proof on the approximation family stated
+informal posture with a classical proof on the approximation family stated
 above.
 
 ## Closing Lemma

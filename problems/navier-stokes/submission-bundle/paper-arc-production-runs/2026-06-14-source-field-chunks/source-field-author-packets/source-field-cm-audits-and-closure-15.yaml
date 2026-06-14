@@ -1,0 +1,968 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-15
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-15
+  sequence: 100
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 15
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 33367
+  line_end: 33830
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33367
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33394
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33431
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33467
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33515
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33719
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33765
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33794
+  subsection_titles:
+  - Clay problem B ASAC Transported-Cylinder No-Flux Four-Route Attempt
+  - Clay problem BASAC Transported No-Flux Time-Face Anti-Atom Reduction
+  - Clay problem B ASAC Uniform-Integrability Rigid Subclass Attempt
+  - Clay problem Uniform Temporal Source Integrability p,B ASAC .A Direct Attempt
+  - Clay problem Bounded Ancestry Class.A / Source Residue Liouville.A Direct Audit
+    Note
+  - Clay problem Class-Membership Constitutive Import Map
+  - Clay problem Class-Membership Contradiction Frontier Packet
+  - Clay problem Class-Membership Contradiction Source-Locked Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Transported-Cylinder No-Flux Four-Route
+      Attempt
+    line_start: 33367
+    line_end: 33393
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33367
+    start_anchor: "\\subsection{Clay problem B ASAC Transported-Cylinder No-Flux Four-Route
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom
+      Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC Transported-Cylinder No-Flux Four-Route Attempt}
+
+      Direct attempt on the transported-cylinder no-incoming theorem for the produced B ASAC tangent class.
+
+      B ASAC supplies same-fluid terminal carrier, zero ASAC defect, removed paid exits, removed finite and non-Zeno donor refill, no earlier selected source slice, and terminal Zeno source support.
+
+      First Pulse.No Parent supplies selected source-parent no-incoming information. It applies to the selected positive source-residue ancestry graph.
+
+      The transported-cylinder theorem controls full flux through a global parabolic boundary. The boundary receives kinetic energy, pressure energy, and nonselected packet flux. Selected no-parent controls one ancestry graph for selected source parents.
+
+      A full transported no-flux statement needs estimates for all incoming channels, including far-field mass transported into the observation region by frozen strain. The selected ancestry license does not include these quantities.
+
+      Local energy compactness gives control on fixed compact cylinders. Transported no-flux requires uniform tightness as the transported radius tends to infinity and as the backward initial time tends to minus infinity.
+
+      In mixed-sign trace-free strain, some directions carry far-field mass inward under the transported flow. Energy outside every fixed compact set at large negative time can later enter the terminal observation region.
+
+      Thus fixed-cylinder compactness does not imply global transported-boundary vanishing.
+
+      Zero ASAC defect removes active-alignment and pair-weight leakage already paid by ASAC. A lateral transported boundary flux is a global field/pressure quantity. The ASAC equality gives no decay weight along incoming spatial channels.
+
+      Even a pure lateral no-flux theorem would still need a terminal time-face clause for the native source measure. A terminal source atom can sit on s=0 after all fixed negative-time source slices vanish. Spatial no-flux alone does not supply
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem BASAC Transported No-Flux Time-Face Anti-Atom Reduction
+    line_start: 33394
+    line_end: 33430
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33394
+    start_anchor: "\\subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom
+      Reduction}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom Reduction}
+
+      The conditional reduction is proved. The terminal anti-atom theorem is not discharged from installed inputs.
+
+      The lateral flux-localization attempt showed that a compact terminal Zeno layer can create a terminal source atom with zero lateral transported-cylinder flux. so any usable no-flux theorem for the B ASAC residue class must include an explicit terminal time-face anti-atom clause.
+
+      \[
+      \mu_*^{src}(B_R\times[-R^2,-a])=0
+      \qquad
+      \forall R<\infty,\ a>0.
+      \]
+
+      It is not needed for the final measure-theoretic collapse once BASACTime Face Anti Atom.A is assumed.
+
+      \[
+      [-R^2,0]
+      =
+      \left(\bigcup_{n\ge1}[-R^2,-1/n]\right)
+      \cup
+      \{0\}.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times[-R^2,-1/n])=0.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times[-R^2,0])=0.
+      \]
+
+      Thus lateral no-flux plus B ASAC clauses do not produce BASACTime Face Anti Atom.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Uniform-Integrability Rigid Subclass Attempt
+    line_start: 33431
+    line_end: 33466
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33431
+    start_anchor: "\\subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Uniform Temporal Source Integrability p,B
+      ASAC .A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass Attempt}
+
+      Attempt on the fourth analytic route: produce a rigid subclass of B ASAC with intrinsic terminal anti-atom control.
+
+      Outcome: conditional subclass Liouville proved; production from current B ASAC inputs remains open.
+
+      \[
+      \lim_{z\to\infty}\frac{\Phi(z)}{z}=\infty.
+      \]
+
+      \[
+      g_m^R(s):=\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+      \]
+
+      \[
+      \sup_m\int_{-1}^{0}\Phi(g_m^R(s))\,ds<\infty
+      \qquad\text{for every }R<\infty.
+      \]
+
+      This subclass has intrinsic terminal anti-atom control through uniform integrability.
+
+      The de la Vallee-Poussin criterion gives uniform integrability of g m R m on (-1,0). Hence for every >0, there exists >0 such that every measurable E (-1,0) with |E|< satisfies
+
+      \[
+      \sup_m\int_E g_m^R(s)\,ds<\epsilon.
+      \]
+
+      \[
+      \sup_m\int_{-\delta}^{0}\int\psi(x)\,dF_m^{src,+}(s,x)<\epsilon.
+      \]
+
+      Since is arbitrary, the terminal source atom vanishes on B R. The B ASAC Zeno support clauses already remove fixed negative-time source slices and paid finite/non-Zeno alternatives. Thus the whole source residue vanishes in this subclass.
+
+      Zero ASAC defect supplies no superlinear penalty on g m R. First-pulse no-parent supplies no Orlicz control. Finite and non-Zeno donor removal leaves the terminal Zeno cloud.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Uniform Temporal Source Integrability p,B ASAC
+      .A Direct Attempt
+    line_start: 33467
+    line_end: 33514
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33467
+    start_anchor: "\\subsection{Clay problem Uniform Temporal Source Integrability
+      p,B ASAC .A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Bounded Ancestry Class.A / Source Residue
+      Liouville.A Direct Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Uniform Temporal Source Integrability p,B ASAC .A Direct Attempt}
+
+      \[
+      \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L^p_s((-R^2,0))}
+      \le C_R.
+      \]
+
+      \[
+      \int_{-R^2}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+      \]
+
+      The B ASAC clauses add zero ASAC defect, no earlier selected source slice, no legal/projected/cutoff/boundary exit, no finite or non-Zeno donor-refill exit, and terminal Zeno source support.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s).
+      \]
+
+      \[
+      \|g_m\|_{L^1(-1,0)}=1,
+      \]
+
+      \[
+      \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty.
+      \]
+
+      The ASAC defect is an active-alignment / one-sided pair-weight leakage measure. Its vanishing removes the paid angular defect channel. The native positive source time marginal can still concentrate as g m.
+
+      Same-fluid fidelity controls carrier identity and legal ancestry typing. It supplies no lower bound on terminal time thickness. A same-fluid Zeno stack can have total time thickness tending to zero.
+
+      Heat smoothing acts across positive time separation. In the terminal layer (-1/m,0], the available heat time tends to zero. The Duhamel factor
+
+      This clause removes finite ancestry trees and fixed-thickness refill entrances. It classifies the survivor as terminal Zeno support. Terminal Zeno support is exactly compatible with g m.
+
+      Uniform Temporal Source Integrability p,B ASAC .A is open from installed inputs.
+
+      This run rechecked Uniform Temporal Source Integrability p,B ASAC .A after BASACTerminal Source Anti Concentration.A stayed open.
+
+      The installed inputs still supply only local L 1 s control of the native positive source marginal. The terminal-layer density
+
+      This all-routes pass rechecked Uniform Temporal Source Integrability p,B ASAC .A first.
+
+      The proof is Holder on terminal strips. A uniform L p s, p>1, source residence bound gives a vanishing terminal-strip modulus.
+
+      The direct theorem remains open from current inputs. The standing terminal layer
+
+      Conclusion for this item: temporal residence stays open an
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Bounded Ancestry Class.A / Source Residue Liouville.A
+      Direct Audit Note
+    line_start: 33515
+    line_end: 33525
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33515
+    start_anchor: "\\subsection{Clay problem Bounded Ancestry Class.A / Source Residue
+      Liouville.A Direct Audit Note}\n"
+    end_anchor: "\\subsection{Budget Descendants Expanded Proof Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Bounded Ancestry Class.A / Source Residue Liouville.A Direct Audit Note}
+
+      This is the compactness-side closure needed after Parent Concentration OrDiffuse Charge.A supplies an infinite legal same-fluid ancestry chain.
+
+      Same-fluid ancestry preserves the legal carrier and endpoint fibre, but it does not produce global boundedness, Type I scaling, critical smallness, or symmetry of the rescaled ancient limit.
+
+      Thus Source Residue Liouville.A is not installed without an additional rigid class B.
+
+      BKM, Prodi-Serrin, critical regularity, Type I, and smallness criteria are valid consumers. They would exclude the source-pulse branch if they were proved on the terminal ancestry limit. The installed original-data package does not supply those bounds on the selected active bad windows or on the rescaled ancient limit.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Constitutive Import Map
+    line_start: 33719
+    line_end: 33764
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33719
+    start_anchor: "\\subsection{Clay problem Class-Membership Constitutive Import
+      Map}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Contradiction Frontier
+      Packet}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Class-Membership Constitutive Import Map}
+
+      Role: re-root the active Navier--Stokes branch notes in the class-membership doctrine so that branch-local hypotheses stop floating free of the governing Clay problem object.
+
+      \[
+      (u,p,\Phi,F),
+      \qquad
+      F:=D_a\Phi.
+      \]
+
+      \[
+      \Gamma,\qquad
+      \widetilde{\mathcal H}_{N,r,\psi},\qquad
+      \mathfrak P_N,\qquad
+      \mathfrak Q_N.
+      \]
+
+      \[
+      \Gamma<\infty,\qquad
+         \widetilde{\mathcal H}_{N,r,\psi}<\infty,\qquad
+         \mathfrak P_N+\mathfrak Q_N<\infty.
+      \]
+
+      \[
+      \mathcal E_J^{cm}
+      \;+\;
+      \mathfrak R_J^{branch}
+      \Longrightarrow
+      \mathfrak e_J^{cm}.
+      \]
+
+      So the old TCJ opening line is not an honest constitutive start. It is at best a consumer-side hypothesis pending the earlier CM precipitation theorem.
+
+      The abstract observability note still writes a generic Err J, id . Under the constitutive import discipline, that record must be read as
+
+      \[
+      \mathrm{Err}_{J,\mathrm{id}}
+      =
+      \mathrm{Err}_{J,\mathrm{pack}}^{cm}
+      \;+\;
+      \mathrm{Err}_{J,\mathrm{tc}}^{cm}
+      \;+\;
+      \mathrm{Err}_{J,\mathrm{cal}}^{branch}.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Contradiction Frontier Packet
+    line_start: 33765
+    line_end: 33793
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33765
+    start_anchor: "\\subsection{Clay problem Class-Membership Contradiction Frontier
+      Packet}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Contradiction Source-Locked
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Class-Membership Contradiction Frontier Packet}\n\nThis
+      frontier packet remains available only as archived downstream packaging and
+      should not be allowed to redefine the restart frame.\n\n\\[\n\\partial_t u+(u\\cdot\\nabla)u+\\nabla
+      p=\\nu\\Delta u,\n\\qquad\n\\nabla\\cdot u=0,\n\\qquad\n\\nu>0.\n\\]\n\nThe
+      NS object is being read here as one shared incompressible-pressure-viscosity
+      field, not as a collection of locally unrelated laws.\n\nThis insertion is definitional.
+      It closes the class-exit direction for a viscosity-side break inside the shared
+      pressure-viscosity carrier. It does not claim that smooth initial data cannot
+      produce or approach such a break; that remains part of the surrounding exclusion
+      burden.\n\nThis semantic order is primary. The first-time shell and the forward-invariance
+      program are only admissible if they preserve that same reading rather than replacing
+      it.\n\nAfter the installed no-drop theorem, the compactness-route bridge closes
+      the manifestation step on still-live windows. The current theorem-facing authority
+      for terminal synchronization is the conditional completion packet\n\nMeaning:
+      the first-time class-exit shell is now the explicit chronological wrapper on
+      top of the formal compactness-route bridge. It indexes the contradiction at
+      the earliest route-visible exit without claiming that only one primitive failure
+      mode occurs there, and it is not the governing restart surface.\n\nMeaning:
+      the live theorem pressure should first test whether lawful class membership
+      is itself forward-invariant under the same-fluid evolution, with the compactness-and-reconstitution
+      bridge kept only as fallback if that extraction fails. But this compression
+      remains a test of the same source semantic route; it does not replace the direct
+      reading that singularity is class exit from the Clay problem object.\n\nThe
+      current LCI/CSP branch is a live no-jump proof route, not yet the definition
+      of the one-field burden itself.\n\nThose may appear as comparison layers or
+      downstream \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Class-Membership Contradiction Source-Locked Note
+    line_start: 33794
+    line_end: 33830
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33794
+    start_anchor: "\\subsection{Clay problem Class-Membership Contradiction Source-Locked
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Class-Membership Endpoint Exclusion Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Class-Membership Contradiction Source-Locked Note}
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+      \qquad
+      \nabla\cdot u = 0,
+      \qquad
+      \nu>0.
+      \]
+
+      The object under discussion is the fixed-viscosity incompressible Navier--Stokes evolution above. The claim is not about a different PDE and not about a different fluid class.
+
+      These ingredients are not separate add-ons. The point is not "velocity plus one pressure story plus one viscosity story." The point is one incompressible pressure-viscosity-coupled velocity evolution. Nothing at this restart surface identifies later primitive laws with each other, and nothing here assigns any endpoint shell to any one law by default.
+
+      The class-membership contradiction program says that alleged singular scenarios should be treated as scenarios that have already left that object. The point is not merely that they become non-smooth. The point is that they stop qualifying as this specific fluid object.
+
+      \[
+      \operatorname{Visc}^{fix}_{\nu}(u,p;I)
+      \]
+
+      Yes, I see why that methodological split matters. The whole route depends on keeping that split intact.
+
+      Any smoothness-breaking event is read here as class-exit from the jointly defined object above.
+
+      So a genuinely dead endpoint is not merely small motion and not merely low velocity. It is exit from the common coupled dynamics.
+
+      Once that happens, the point or region would pack differently from the common incompressible evolution. So the shared packing law has already failed there.
+
+      Here dead tower is intentionally stronger than raw stagnation. Ordinary zero velocity at one point-time is not by itself a class-exit event.
+
+      This is the imported physical reading of the route: once the point or region is no longer participating in that one coupled viscosity-pressure-incompressible object, the class has already been exited there.
+
+      This is the source-locked meaning of the tower claim in the present note. The tower language is being kept only as part of this obj
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem B ASAC Transported-Cylinder No-Flux Four-Route Attempt}
+
+    Direct attempt on the transported-cylinder no-incoming theorem for the produced B ASAC tangent class.
+
+    B ASAC supplies same-fluid terminal carrier, zero ASAC defect, removed paid exits, removed finite and non-Zeno donor refill, no earlier selected source slice, and terminal Zeno source support.
+
+    First Pulse.No Parent supplies selected source-parent no-incoming information. It applies to the selected positive source-residue ancestry graph.
+
+    The transported-cylinder theorem controls full flux through a global parabolic boundary. The boundary receives kinetic energy, pressure energy, and nonselected packet flux. Selected no-parent controls one ancestry graph for selected source parents.
+
+    A full transported no-flux statement needs estimates for all incoming channels, including far-field mass transported into the observation region by frozen strain. The selected ancestry license does not include these quantities.
+
+    Local energy compactness gives control on fixed compact cylinders. Transported no-flux requires uniform tightness as the transported radius tends to infinity and as the backward initial time tends to minus infinity.
+
+    In mixed-sign trace-free strain, some directions carry far-field mass inward under the transported flow. Energy outside every fixed compact set at large negative time can later enter the terminal observation region.
+
+    Thus fixed-cylinder compactness does not imply global transported-boundary vanishing.
+
+    Zero ASAC defect removes active-alignment and pair-weight leakage already paid by ASAC. A lateral transported boundary flux is a global field/pressure quantity. The ASAC equality gives no decay weight along incoming spatial channels.
+
+    Even a pure lateral no-flux theorem would still need a terminal time-face clause for the native source measure. A terminal source atom can sit on s=0 after all fixed negative-time source slices vanish. Spatial no-flux alone does not supply temporal anti-concentration.
+
+    The second component is exactly the reverse-Holder / layer-Morrey estimate tested separately.
+
+    Current B ASAC data give selected source-parent ancestry and ASAC defect equality. They do not give global transported-boundary control.
+
+
+
+    \subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom Reduction}
+
+    The conditional reduction is proved. The terminal anti-atom theorem is not discharged from installed inputs.
+
+    The lateral flux-localization attempt showed that a compact terminal Zeno layer can create a terminal source atom with zero lateral transported-cylinder flux. so any usable no-flux theorem for the B ASAC residue class must include an explicit terminal time-face anti-atom clause.
+
+    \[
+    \mu_*^{src}(B_R\times[-R^2,-a])=0
+    \qquad
+    \forall R<\infty,\ a>0.
+    \]
+
+    It is not needed for the final measure-theoretic collapse once BASACTime Face Anti Atom.A is assumed.
+
+    \[
+    [-R^2,0]
+    =
+    \left(\bigcup_{n\ge1}[-R^2,-1/n]\right)
+    \cup
+    \{0\}.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times[-R^2,-1/n])=0.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times[-R^2,0])=0.
+    \]
+
+    Thus lateral no-flux plus B ASAC clauses do not produce BASACTime Face Anti Atom.A.
+
+
+
+    \subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass Attempt}
+
+    Attempt on the fourth analytic route: produce a rigid subclass of B ASAC with intrinsic terminal anti-atom control.
+
+    Outcome: conditional subclass Liouville proved; production from current B ASAC inputs remains open.
+
+    \[
+    \lim_{z\to\infty}\frac{\Phi(z)}{z}=\infty.
+    \]
+
+    \[
+    g_m^R(s):=\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+    \]
+
+    \[
+    \sup_m\int_{-1}^{0}\Phi(g_m^R(s))\,ds<\infty
+    \qquad\text{for every }R<\infty.
+    \]
+
+    This subclass has intrinsic terminal anti-atom control through uniform integrability.
+
+    The de la Vallee-Poussin criterion gives uniform integrability of g m R m on (-1,0). Hence for every >0, there exists >0 such that every measurable E (-1,0) with |E|< satisfies
+
+    \[
+    \sup_m\int_E g_m^R(s)\,ds<\epsilon.
+    \]
+
+    \[
+    \sup_m\int_{-\delta}^{0}\int\psi(x)\,dF_m^{src,+}(s,x)<\epsilon.
+    \]
+
+    Since is arbitrary, the terminal source atom vanishes on B R. The B ASAC Zeno support clauses already remove fixed negative-time source slices and paid finite/non-Zeno alternatives. Thus the whole source residue vanishes in this subclass.
+
+    Zero ASAC defect supplies no superlinear penalty on g m R. First-pulse no-parent supplies no Orlicz control. Finite and non-Zeno donor removal leaves the terminal Zeno cloud.
+
+
+
+    \subsection{Clay problem Uniform Temporal Source Integrability p,B ASAC .A Direct Attempt}
+
+    \[
+    \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L^p_s((-R^2,0))}
+    \le C_R.
+    \]
+
+    \[
+    \int_{-R^2}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+    \]
+
+    The B ASAC clauses add zero ASAC defect, no earlier selected source slice, no legal/projected/cutoff/boundary exit, no finite or non-Zeno donor-refill exit, and terminal Zeno source support.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s).
+    \]
+
+    \[
+    \|g_m\|_{L^1(-1,0)}=1,
+    \]
+
+    \[
+    \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty.
+    \]
+
+    The ASAC defect is an active-alignment / one-sided pair-weight leakage measure. Its vanishing removes the paid angular defect channel. The native positive source time marginal can still concentrate as g m.
+
+    Same-fluid fidelity controls carrier identity and legal ancestry typing. It supplies no lower bound on terminal time thickness. A same-fluid Zeno stack can have total time thickness tending to zero.
+
+    Heat smoothing acts across positive time separation. In the terminal layer (-1/m,0], the available heat time tends to zero. The Duhamel factor
+
+    This clause removes finite ancestry trees and fixed-thickness refill entrances. It classifies the survivor as terminal Zeno support. Terminal Zeno support is exactly compatible with g m.
+
+    Uniform Temporal Source Integrability p,B ASAC .A is open from installed inputs.
+
+    This run rechecked Uniform Temporal Source Integrability p,B ASAC .A after BASACTerminal Source Anti Concentration.A stayed open.
+
+    The installed inputs still supply only local L 1 s control of the native positive source marginal. The terminal-layer density
+
+    This all-routes pass rechecked Uniform Temporal Source Integrability p,B ASAC .A first.
+
+    The proof is Holder on terminal strips. A uniform L p s, p>1, source residence bound gives a vanishing terminal-strip modulus.
+
+    The direct theorem remains open from current inputs. The standing terminal layer
+
+    Conclusion for this item: temporal residence stays open and returns to the same terminal zero-thickness source atom. Continue the exhaustive pass to Local Positive Source Carleson.A / Positive Remainder Depletion.A.
+
+
+
+    \subsection{Clay problem Bounded Ancestry Class.A / Source Residue Liouville.A Direct Audit Note}
+
+    This is the compactness-side closure needed after Parent Concentration OrDiffuse Charge.A supplies an infinite legal same-fluid ancestry chain.
+
+    Same-fluid ancestry preserves the legal carrier and endpoint fibre, but it does not produce global boundedness, Type I scaling, critical smallness, or symmetry of the rescaled ancient limit.
+
+    Thus Source Residue Liouville.A is not installed without an additional rigid class B.
+
+    BKM, Prodi-Serrin, critical regularity, Type I, and smallness criteria are valid consumers. They would exclude the source-pulse branch if they were proved on the terminal ancestry limit. The installed original-data package does not supply those bounds on the selected active bad windows or on the rescaled ancient limit.
+
+
+
+    \subsection{Clay problem Class-Membership Constitutive Import Map}
+
+    Role: re-root the active Navier--Stokes branch notes in the class-membership doctrine so that branch-local hypotheses stop floating free of the governing Clay problem object.
+
+    \[
+    (u,p,\Phi,F),
+    \qquad
+    F:=D_a\Phi.
+    \]
+
+    \[
+    \Gamma,\qquad
+    \widetilde{\mathcal H}_{N,r,\psi},\qquad
+    \mathfrak P_N,\qquad
+    \mathfrak Q_N.
+    \]
+
+    \[
+    \Gamma<\infty,\qquad
+       \widetilde{\mathcal H}_{N,r,\psi}<\infty,\qquad
+       \mathfrak P_N+\mathfrak Q_N<\infty.
+    \]
+
+    \[
+    \mathcal E_J^{cm}
+    \;+\;
+    \mathfrak R_J^{branch}
+    \Longrightarrow
+    \mathfrak e_J^{cm}.
+    \]
+
+    So the old TCJ opening line is not an honest constitutive start. It is at best a consumer-side hypothesis pending the earlier CM precipitation theorem.
+
+    The abstract observability note still writes a generic Err J, id . Under the constitutive import discipline, that record must be read as
+
+    \[
+    \mathrm{Err}_{J,\mathrm{id}}
+    =
+    \mathrm{Err}_{J,\mathrm{pack}}^{cm}
+    \;+\;
+    \mathrm{Err}_{J,\mathrm{tc}}^{cm}
+    \;+\;
+    \mathrm{Err}_{J,\mathrm{cal}}^{branch}.
+    \]
+
+
+
+    \subsection{Clay problem Class-Membership Contradiction Frontier Packet}
+
+    This frontier packet remains available only as archived downstream packaging and should not be allowed to redefine the restart frame.
+
+    \[
+    \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0,
+    \qquad
+    \nu>0.
+    \]
+
+    The NS object is being read here as one shared incompressible-pressure-viscosity field, not as a collection of locally unrelated laws.
+
+    This insertion is definitional. It closes the class-exit direction for a viscosity-side break inside the shared pressure-viscosity carrier. It does not claim that smooth initial data cannot produce or approach such a break; that remains part of the surrounding exclusion burden.
+
+    This semantic order is primary. The first-time shell and the forward-invariance program are only admissible if they preserve that same reading rather than replacing it.
+
+    After the installed no-drop theorem, the compactness-route bridge closes the manifestation step on still-live windows. The current theorem-facing authority for terminal synchronization is the conditional completion packet
+
+    Meaning: the first-time class-exit shell is now the explicit chronological wrapper on top of the formal compactness-route bridge. It indexes the contradiction at the earliest route-visible exit without claiming that only one primitive failure mode occurs there, and it is not the governing restart surface.
+
+    Meaning: the live theorem pressure should first test whether lawful class membership is itself forward-invariant under the same-fluid evolution, with the compactness-and-reconstitution bridge kept only as fallback if that extraction fails. But this compression remains a test of the same source semantic route; it does not replace the direct reading that singularity is class exit from the Clay problem object.
+
+    The current LCI/CSP branch is a live no-jump proof route, not yet the definition of the one-field burden itself.
+
+    Those may appear as comparison layers or downstream packaging later, but they are not the present frontier.
+
+
+
+    \subsection{Clay problem Class-Membership Contradiction Source-Locked Note}
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+    \qquad
+    \nabla\cdot u = 0,
+    \qquad
+    \nu>0.
+    \]
+
+    The object under discussion is the fixed-viscosity incompressible Navier--Stokes evolution above. The claim is not about a different PDE and not about a different fluid class.
+
+    These ingredients are not separate add-ons. The point is not "velocity plus one pressure story plus one viscosity story." The point is one incompressible pressure-viscosity-coupled velocity evolution. Nothing at this restart surface identifies later primitive laws with each other, and nothing here assigns any endpoint shell to any one law by default.
+
+    The class-membership contradiction program says that alleged singular scenarios should be treated as scenarios that have already left that object. The point is not merely that they become non-smooth. The point is that they stop qualifying as this specific fluid object.
+
+    \[
+    \operatorname{Visc}^{fix}_{\nu}(u,p;I)
+    \]
+
+    Yes, I see why that methodological split matters. The whole route depends on keeping that split intact.
+
+    Any smoothness-breaking event is read here as class-exit from the jointly defined object above.
+
+    So a genuinely dead endpoint is not merely small motion and not merely low velocity. It is exit from the common coupled dynamics.
+
+    Once that happens, the point or region would pack differently from the common incompressible evolution. So the shared packing law has already failed there.
+
+    Here dead tower is intentionally stronger than raw stagnation. Ordinary zero velocity at one point-time is not by itself a class-exit event.
+
+    This is the imported physical reading of the route: once the point or region is no longer participating in that one coupled viscosity-pressure-incompressible object, the class has already been exited there.
+
+    This is the source-locked meaning of the tower claim in the present note. The tower language is being kept only as part of this object-picture: live finite participation belongs to the class; dead collapse, blowup, or jump do not.
+
+    Inside the installed notes, that exact queue is presently realized by the surfaces for the exact class-membership witness, still-live admission, shared-participation no-drop, and the explicit law / endpoint proof matrix. Any later first-exit shell or forward-invariance compression is allowed only as downstream packaging of this same semantic contradiction.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Transported-Cylinder No-Flux Four-Route Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33367
+  line_start: 33367
+  line_end: 33393
+  start_anchor: "\\subsection{Clay problem B ASAC Transported-Cylinder No-Flux Four-Route
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom
+    Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Transported-Cylinder
+    No-Flux Four-Route Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33367
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem BASAC Transported No-Flux Time-Face Anti-Atom Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33394
+  line_start: 33394
+  line_end: 33430
+  start_anchor: "\\subsection{Clay problem BASAC Transported No-Flux Time-Face Anti-Atom
+    Reduction}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem BASAC Transported
+    No-Flux Time-Face Anti-Atom Reduction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33394
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Uniform-Integrability Rigid Subclass Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33431
+  line_start: 33431
+  line_end: 33466
+  start_anchor: "\\subsection{Clay problem B ASAC Uniform-Integrability Rigid Subclass
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Uniform Temporal Source Integrability p,B
+    ASAC .A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Uniform-Integrability
+    Rigid Subclass Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33431
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Uniform Temporal Source Integrability p,B ASAC .A
+    Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33467
+  line_start: 33467
+  line_end: 33514
+  start_anchor: "\\subsection{Clay problem Uniform Temporal Source Integrability p,B
+    ASAC .A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Bounded Ancestry Class.A / Source Residue
+    Liouville.A Direct Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Uniform Temporal
+    Source Integrability p,B ASAC .A Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33467
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Bounded Ancestry Class.A / Source Residue Liouville.A
+    Direct Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33515
+  line_start: 33515
+  line_end: 33525
+  start_anchor: "\\subsection{Clay problem Bounded Ancestry Class.A / Source Residue
+    Liouville.A Direct Audit Note}\n"
+  end_anchor: "\\subsection{Budget Descendants Expanded Proof Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Bounded Ancestry
+    Class.A / Source Residue Liouville.A Direct Audit Note as paper-ready TeX with
+    proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33515
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Constitutive Import Map
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33719
+  line_start: 33719
+  line_end: 33764
+  start_anchor: "\\subsection{Clay problem Class-Membership Constitutive Import Map}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Contradiction Frontier Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Constitutive Import Map as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33719
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Contradiction Frontier Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33765
+  line_start: 33765
+  line_end: 33793
+  start_anchor: "\\subsection{Clay problem Class-Membership Contradiction Frontier
+    Packet}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Contradiction Source-Locked
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Contradiction Frontier Packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33765
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Class-Membership Contradiction Source-Locked Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33794
+  line_start: 33794
+  line_end: 33830
+  start_anchor: "\\subsection{Clay problem Class-Membership Contradiction Source-Locked
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Class-Membership Endpoint Exclusion Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Class-Membership
+    Contradiction Source-Locked Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:33794
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-15
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-15.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,79 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T201912Z
+status: applied
+generated_at: '2026-06-13T20:19:12Z'
+batch_id: ns-goal-loop-source-field-d75-d77-defect-dlp-drs-current-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/54-source-field-d75-d77-defect-dlp-drs-current.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:4063-4311
+    sections:
+      - Defect-Reduction Tower And Four-Body Recurrence Note
+      - Derivative-LP Compatibility Bridge Note
+      - Diagonal Restriction Stability On Entrance-Sector Refinement
+source_authoring_summary: >-
+  The batch polished D75-D77 of the source-field appendix as the current
+  defect-reduction, derivative-LP, and diagonal-restriction support group. D.75
+  now presents the Euclidean repair routes as one common accumulated-scale
+  survivor moving through several normal forms, with the norm-contraction and
+  two-terminal-family bridge question stated as the boundary. D.76 now states
+  the corrected Bony source split and identifies the variable-coefficient
+  elliptic response as the live 4B debt. D.77 now explains the inherited
+  row-sum side, the diagonal restriction law, and the sector/parent Holder
+  sufficient routes as the source-level selector reduction.
+proof_role:
+  gold_layer: >-
+    The edited slice supports the forward-positive route by making three
+    support surfaces readable and by preserving the open contraction,
+    elliptic-response, and selector-density debts. It makes no gold
+    certification claim for the paper.
+  silver_layer: >-
+    The edited slice is support material and current-state exposition. It makes
+    no CM Pack, Part, or Field face landing and makes no silver closure claim.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d75-d77-current
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d75-d77-current/navier-stokes-human-submission.pdf
+  pages: 1105
+  output_bytes: 4096626
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/pages-145-151.txt
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/pages-148-151.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/source-field-d75-d77-current-0148.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/source-field-d75-d77-current-0149.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/source-field-d75-d77-current-0150.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d75-d77-current-render/source-field-d75-d77-current-0151.png
+  rendered_page_map:
+    - page: 148
+      content: D75 begins
+    - page: 149
+      content: D75 closes and D76 begins
+    - page: 150
+      content: D76 closes and D77 begins
+    - page: 151
+      content: D77 closes and D78 begins
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-4063-4311
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-only-ledger-note-still-should-show-hits-in-source-field-lines-4065-4311-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix source-writing batch. It stops short of first-draft
+    approval, gold certification, silver certification, full CMI finality, and a
+    full-PDF finality gate.
+  - >-
+    D75-D77 now read as a support group for common defect reduction, source-side
+    Bony localization, and diagonal restriction stability, with the live debts
+    visible in the prose.
+  - >-
+    D78-D79 remain the next source-field unit for current pass alignment; the
+    rendered boundary shows D78 starting as the next downstream directional and
+    flux-support group.

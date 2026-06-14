@@ -1,0 +1,1049 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-54
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-54
+  sequence: 139
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 54
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 56991
+  line_end: 57359
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56991
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57030
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57071
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57108
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57138
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57185
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57226
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57314
+  subsection_titles:
+  - Clay problem Zeno Refill Branch Alternatives Direct Attempt Note
+  - Clay problem Zeno Residue Liouville.A Direct Attempt Note
+  - Clay problem Zeno Residue Liouville.A Target Attack Note
+  - Clay problem Zeno Rigid-Class Alternative Frontier
+  - Clay problem Zeno Bounded Class B.A Candidate Audit Note
+  - Clay problem Zeno Rigid Class Next Attempt
+  - Clay problem Zeno Rigid-Class Option B Full Run
+  - Clay problem Zeno Source-Residue Frontier After ASAC
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Refill Branch Alternatives Direct Attempt
+      Note
+    line_start: 56991
+    line_end: 57029
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56991
+    start_anchor: "\\subsection{Clay problem Zeno Refill Branch Alternatives Direct
+      Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Direct Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Zeno Refill Branch Alternatives Direct Attempt Note}
+
+      Original smooth tail decay controls the non-Zeno entrance branch. The Zeno source-refill ancestry branch has two possible closures: a scale-critical tree Carleson reserve, or a rigid ancient class with a residue Liouville theorem.
+
+      \[
+      \cdots\to P^{-2}\to P^{-1}\to P^0
+      \]
+
+      \[
+      \sum_m r_m^2<\infty,
+      \]
+
+      so the backward parabolic time steps accumulate at the same terminal endpoint instead of reaching a fixed preterminal entrance surface.
+
+      \[
+      \pi(P^{-m-1}\to P^{-m})\ge c_{\mathrm{sf},55475} c_0
+      \]
+
+      where R sc is a finite scale-normalized donor reserve under Original Smooth Data.
+
+      This would immediately rule out an infinite normalized Zeno branch, because the left side contains infinitely many edge masses bounded below.
+
+      These are not scale-normalized tree-Carleson bounds. The Fourier diffuse-parent model in
+
+      The active- notes record the same obstruction in shell language. A scale-critical tree Carleson estimate would dominate the active-window -source / positive parent edge measure. That is exactly the donor reserve missing from Two Tower Donor Depletion.A.
+
+      Without one of these rigid classes, no installed Liouville theorem kills the inherited active source residue. Broad ancient Liouville is false at this level, because nonzero smooth ancient packets and coherent modes can carry local energy and local source structure.
+
+      The remaining rigidity theorem is Zeno Residue Liouville.A, or an installed rigid ancient class on which that Liouville statement holds.
+
+      \[
+      \boxed{
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      }
+      \]
+
+      No weaker bookkeeping consequence of finite energy, local energy, finite-band Littlewood-Paley structure, pressure Poisson recovery, or same-fluid transport currently proves either option.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Residue Liouville.A Direct Attempt Note
+    line_start: 57030
+    line_end: 57070
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57030
+    start_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Direct Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Target Attack
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Zeno Residue Liouville.A Direct Attempt Note}
+
+      The broad statement is not installed. The attempt separates the conditional cancellation-class Liouville theorem from the still-open theorem producing that class from Zeno ancestry.
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src}),
+      \qquad
+      \mu_\ast^{src}\ne0
+      \]
+
+      \[
+      \boxed{
+      \mu_\ast^{src}=0.
+      }
+      \]
+
+      This would contradict the inherited source residue and close the Zeno rigidity branch.
+
+      \[
+      \text{every ancient local suitable source-residue limit has }\mu_\ast^{src}=0
+      \]
+
+      Without one of those extra classes, there is no available theorem forcing the localized active source residue to vanish.
+
+      This includes the exact cancellation examples already used to refute broad ancient packet Liouville, such as Stokes/Beltrami single-mode packets whose projected self-interaction is a pressure gradient or zero in the active source readout.
+
+      \[
+      \int \varphi\,d\mu_\ast^{src}=0
+      \qquad
+      \forall\varphi\in C_c.
+      \]
+
+      \[
+      \mu_\ast^{src}=0.
+      \]
+
+      Current installed inputs do not prove this. A Zeno source-refill branch is defined by persistence of active source residue; compactness preserves that residue. Same-fluid legality and local energy bounds do not force Beltrami, helical, two-dimensional, self-similar, Type I, or critical-small structure in the limit.
+
+      Zeno Residue Liouville.A is not installed in broad form. It is reduced to the production of a rigid/cancellation class from uncharged Zeno source-refill ancestry. No current energy, local-energy, compactness, pressure, finite-band, or same-fluid transport surface proves that production theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Residue Liouville.A Target Attack Note
+    line_start: 57071
+    line_end: 57107
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57071
+    start_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Target Attack
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Rigid-Class Alternative Frontier}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Zeno Residue Liouville.A Target Attack Note}
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src})
+      \]
+
+      \[
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      If proved, it contradicts the inherited lower bound and closes the Zeno Source Residue Rigidity.A alternative.
+
+      \[
+      \sup_{t<T_\ast}\|u(t)\|_{L^2(\mathbb T^3)}^2<\infty.
+      \]
+
+      \[
+      \|u^{(m)}(s)\|_{L^2_y}^2
+      =
+      r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2.
+      \]
+
+      This may blow up as r m 0. The Zeno compactness extraction supplies local energy bounds on fixed cylinders, not finite global ancient energy.
+
+      \[
+      |u_\ast(y,s)|\le C_{\mathrm{sf},55565} |s|^{-1/2},
+      \qquad
+      \|u_\ast\|_{L^\infty_s L^3_y}<\infty,
+      \]
+
+      The source-pulse / Zeno branch supplies a lower bound on normalized active source residue. It does not provide an upper Type I envelope, critical smallness, or a global critical norm bound on the rescaled sequence. Local energy compactness is subcritical relative to the desired Liouville class.
+
+      This is the opposite of the smallness input needed by epsilon regularity. Local suitable compactness alone does not convert nonzero residue into zero residue.
+
+      But the current installed estimates supply only local suitable ancient compactness, not the rigid class required to kill the inherited source residue.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Rigid-Class Alternative Frontier
+    line_start: 57108
+    line_end: 57137
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57108
+    start_anchor: "\\subsection{Clay problem Zeno Rigid-Class Alternative Frontier}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Bounded Class B.A Candidate Audit
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Zeno Rigid-Class Alternative Frontier}
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}(Q_1^-)>0.
+      \]
+
+      The first-pulse information gives fixed-backward-slice source absence. Terminal-layer concentration remains allowed.
+
+      The local energy inequality is compatible with a positive measure concentrated in a terminal layer. The fixed-backward-slice absence condition controls source residue away from s=0, while the inherited source measure can remain supported at the terminal slice.
+
+      The rescaling produces local energy control rather than finite global ancient energy. The branch normalizes source residue rather than pointwise amplitude, so Type I and bounded-vorticity envelopes are unavailable. Critical smallness conflicts with the inherited positive unit-scale residue as an independent produced class. The same-fluid terminal selection imposes no symmetry or scale-invariance equation.
+
+      \[
+      \int \varphi\,d\mu_*^{src}=0
+      \quad\forall \varphi\ge0.
+      \]
+
+      That class is circular as a production target because it is the desired source depletion in class form.
+
+      The next viable work must add a new produced class, prove terminal temporal anti-concentration, or prove the direct scale-critical source reserve.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Bounded Class B.A Candidate Audit Note
+    line_start: 57138
+    line_end: 57184
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57138
+    start_anchor: "\\subsection{Clay problem Zeno Bounded Class B.A Candidate Audit
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Rigid Class Next Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Zeno Bounded Class B.A Candidate Audit Note}\n\n\\[\n\\boxed{\nZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.\n}\n\\]\n\nIt
+      gives an ancient local suitable source-residue limit with nonzero inherited
+      source residue. The remaining question is whether current original-data and
+      same-fluid ancestry inputs force that ancient limit into any known rigid class
+      B.\n\n\\[\n\\|u^{(m)}(s)\\|_{L^2_y}^2\n=\nr_m^{-1}\\|u(t_m+r_m^2s)\\|_{L^2_x}^2.\n\\]\n\nSince
+      r m 0, the original global energy bound does not produce finite global ancient
+      energy for the limit. The compactness theorem gives only local energy bounds
+      on fixed cylinders.\n\n\\[\n|u_\\ast(y,s)|\\le C_{\\mathrm{sf},55626} |s|^{-1/2}.\n\\]\n\nThe
+      source-pulse branch supplies a lower bound on active source residue, not an
+      upper pointwise Type I envelope. Local energy and pressure compactness do not
+      upgrade to pointwise Type I control on the Zeno-extracted ancient object.\n\nThe
+      terminal Zeno branch is selected precisely because the scale-critical source
+      residue is nonzero on those cylinders. CKN-type epsilon regularity is a consumer
+      of smallness, not a producer of smallness from nonzero source residue.\n\n\\[\n\\|\\omega_\\ast\\|_{L^\\infty(Q_R^-)}<\\infty\n\\]\n\nThe
+      compactness extraction supplies weak local energy and pressure bounds. It does
+      not provide a uniform vorticity bound. Same-fluid ancestry preserves the legal
+      packet carrier; it does not regularize vorticity in the rescaled limit.\n\n\\[\nr_m\\downarrow0,\n\\qquad\n\\sum_m
+      r_m^2<\\infty.\n\\]\n\nTwo-dimensionality or axisymmetry would require a geometric
+      symmetry or dimensional reduction of the Zeno limit.\n\nThe same-fluid packet
+      construction gives transported label fidelity and localized parent-child geometry.
+      It does not force an invariant axis, axisymmetric no-swirl structure, or two-dimensional
+      dependence. Coherent three-dimensional strain/source alignment remains compatible
+      with the current branch hypotheses.\n\nCurrent compactness, energy, pressure,
+      finite-band, and same-fluid inputs do not force \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Rigid Class Next Attempt
+    line_start: 57185
+    line_end: 57225
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57185
+    start_anchor: "\\subsection{Clay problem Zeno Rigid Class Next Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Rigid-Class Option B Full Run}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Zeno Rigid Class Next Attempt}
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      The strongest valid reduction found here is a conditional temporal-support rigid class. Its Liouville theorem is elementary, but production of the class requires a new temporal anti-atom theorem for the native positive source-residue measure.
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      It does not by itself produce Type I, finite global ancient energy, critical smallness, bounded ancient vorticity, self-similarity, discrete self-similarity, two-dimensionality, axisymmetry, or native source cancellation.
+
+      \[
+      u^{(m)}(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s),
+      \]
+
+      Since r m -> 0, original finite energy does not give finite global ancient energy for the limit.
+
+      Local suitable compactness gives local energy, local dissipation, pressure control, and Radon compactness of the source residue. It does not give a pointwise Type I envelope, critical smallness, a bounded critical norm, or bounded ancient vorticity. CKN, Serrin, BKM, and Type I criteria remain consumers of such bounds, not suppliers from the source-pulse normalization.
+
+      Weak signed cancellation of the pre-Cauchy source distribution is not enough, because the extracted object carries the native positive active source-residue measure. Strong native cancellation would imply * src =0, but that is already the desired contradiction and cannot be used as an independently produced class on the surviving Zeno branch.
+
+      The first-pulse construction supports only the no-earlier-selected-source piece. It does not supply the terminal anti-atom piece.
+
+      This model has bounded total mass on fixed cylinders and positive terminal residue, while it has no mass on any fixed earlier slice s<-a.
+
+      Thus first-pulse minimality plus local suitable compactness does not rule out the terminal atom. The missing input is not another naming of Liouville; it is an anti-co
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Rigid-Class Option B Full Run
+    line_start: 57226
+    line_end: 57274
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57226
+    start_anchor: "\\subsection{Clay problem Zeno Rigid-Class Option B Full Run}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Source-Residue Compactness Extraction
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Zeno Rigid-Class Option B Full Run}
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src})
+      \]
+
+      \[
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      \[
+      Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      ZenoResidueLiouville_B.A:
+      \qquad
+      B\Longrightarrow \mu_\ast^{src}=0.
+      \]
+
+      \[
+      \cdots\to P^{-2}\to P^{-1}\to P^0,
+      \]
+
+      But it is not rigid enough for a Liouville theorem. It explicitly allows a positive terminal-slice measure.
+
+      Thus B time gives the sharpest conditional Option B, but it is not produced from installed inputs.
+
+      Type I control is not produced. The source-pulse branch supplies a positive normalized source-residue lower bound, not a pointwise envelope such as |u (y,s)| |s| -1/2 .
+
+      Critical smallness is not produced. CKN/Serrin-style smallness is a consumer of a bound, not a consequence of a selected nonzero source-residue pulse.
+
+      Bounded ancient vorticity or strain is not produced. The compactness record gives local energy, local dissipation, and pressure bounds, but no uniform L vorticity or strain control survives the terminal rescaling.
+
+      Self-similar or discretely self-similar structure is not produced. Zeno accumulation gives r m 0 and finite parabolic time accumulation, but no fixed scale ratio or invariance identity.
+
+      Two-dimensional or axisymmetric structure is not produced. Same-fluid packet legality preserves transported carrier fidelity; it does not impose an invariant axis, no-swirl structure, or dimensional reduction.
+
+      Entropy-type classes are not produced. Diffuse legal parentage can carry large branch entropy with no installed scale-normalized reserve controlling it.
+
+      The only produced class is B min; the only class with an immediate residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
+
+      For every fixed a>0, the limiting measure has no mass in s<-a, but it has positive terminal mass. This satisfies the no-earlier-selected-source shape while preserving terminal residue. so B min is too weak.
+
+      Th
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Zeno Source-Residue Frontier After ASAC
+    line_start: 57314
+    line_end: 57359
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57314
+    start_anchor: "\\subsection{Clay problem Zeno Source-Residue Frontier After ASAC}\n"
+    end_anchor: "\\subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Zeno Source-Residue Frontier After ASAC}
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src})
+      \]
+
+      \[
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      Thus the remaining rigidity theorem cannot be merely compactness. It must force the limiting residue to vanish.
+
+      \[
+      \mu_\ast^{src}(B_R\times[-R^2,-a])=0
+      \quad
+      \forall R<\infty,\ \forall a>0,
+      \]
+
+      \[
+      \mu_\ast^{src}(B_R\times\{0\})=0
+      \quad
+      \forall R<\infty.
+      \]
+
+      for every same-fluid terminal Zeno source-refill rescaling produced by Zeno Compactness Extraction.A.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p},
+      \]
+
+      Using that route here would import the same source-wall theorem the height-flux branch is trying to close. Thus Temporal Non Atomic Source.A is a clean interface, but not a non-circular discharge unless it is proved by a different mechanism.
+
+      PVST would imply Temporal Non Atomic Source.A without first proving the -source Carleson estimate.
+
+      However, the direct Duhamel test shows why this is not installed. A forcing profile with time marginal
+
+      For |s| 1 in rescaled heat units, the heat kernel has not had time to produce a smallness factor. Thus fixed positive viscosity alone does not supply (PVST) unless one proves an additional temporal spread, reverse Holder, or -source estimate for the native positive source carrier.
+
+      This is the exact obstruction: a terminal atom is a zero-thickness source readout. Ruling it out is precisely the missing temporal anti-concentration theorem.
+
+      No independent narrower non-circular theorem below Temporal Non Atomic Source.A is currently installed.
+
+      It is a class-exit signature, not an Euler membership discharge and not a contradiction inside fixed positive-viscosity Navier-Stokes until a separate No Zero Heat Time Residue InsideNSClass.A / temporal anti-concentration theorem is proved.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Zeno Refill Branch Alternatives Direct Attempt Note}
+
+    Original smooth tail decay controls the non-Zeno entrance branch. The Zeno source-refill ancestry branch has two possible closures: a scale-critical tree Carleson reserve, or a rigid ancient class with a residue Liouville theorem.
+
+    \[
+    \cdots\to P^{-2}\to P^{-1}\to P^0
+    \]
+
+    \[
+    \sum_m r_m^2<\infty,
+    \]
+
+    so the backward parabolic time steps accumulate at the same terminal endpoint instead of reaching a fixed preterminal entrance surface.
+
+    \[
+    \pi(P^{-m-1}\to P^{-m})\ge c_{\mathrm{sf},55475} c_0
+    \]
+
+    where R sc is a finite scale-normalized donor reserve under Original Smooth Data.
+
+    This would immediately rule out an infinite normalized Zeno branch, because the left side contains infinitely many edge masses bounded below.
+
+    These are not scale-normalized tree-Carleson bounds. The Fourier diffuse-parent model in
+
+    The active- notes record the same obstruction in shell language. A scale-critical tree Carleson estimate would dominate the active-window -source / positive parent edge measure. That is exactly the donor reserve missing from Two Tower Donor Depletion.A.
+
+    Without one of these rigid classes, no installed Liouville theorem kills the inherited active source residue. Broad ancient Liouville is false at this level, because nonzero smooth ancient packets and coherent modes can carry local energy and local source structure.
+
+    The remaining rigidity theorem is Zeno Residue Liouville.A, or an installed rigid ancient class on which that Liouville statement holds.
+
+    \[
+    \boxed{
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    }
+    \]
+
+    No weaker bookkeeping consequence of finite energy, local energy, finite-band Littlewood-Paley structure, pressure Poisson recovery, or same-fluid transport currently proves either option.
+
+
+
+    \subsection{Clay problem Zeno Residue Liouville.A Direct Attempt Note}
+
+    The broad statement is not installed. The attempt separates the conditional cancellation-class Liouville theorem from the still-open theorem producing that class from Zeno ancestry.
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src}),
+    \qquad
+    \mu_\ast^{src}\ne0
+    \]
+
+    \[
+    \boxed{
+    \mu_\ast^{src}=0.
+    }
+    \]
+
+    This would contradict the inherited source residue and close the Zeno rigidity branch.
+
+    \[
+    \text{every ancient local suitable source-residue limit has }\mu_\ast^{src}=0
+    \]
+
+    Without one of those extra classes, there is no available theorem forcing the localized active source residue to vanish.
+
+    This includes the exact cancellation examples already used to refute broad ancient packet Liouville, such as Stokes/Beltrami single-mode packets whose projected self-interaction is a pressure gradient or zero in the active source readout.
+
+    \[
+    \int \varphi\,d\mu_\ast^{src}=0
+    \qquad
+    \forall\varphi\in C_c.
+    \]
+
+    \[
+    \mu_\ast^{src}=0.
+    \]
+
+    Current installed inputs do not prove this. A Zeno source-refill branch is defined by persistence of active source residue; compactness preserves that residue. Same-fluid legality and local energy bounds do not force Beltrami, helical, two-dimensional, self-similar, Type I, or critical-small structure in the limit.
+
+    Zeno Residue Liouville.A is not installed in broad form. It is reduced to the production of a rigid/cancellation class from uncharged Zeno source-refill ancestry. No current energy, local-energy, compactness, pressure, finite-band, or same-fluid transport surface proves that production theorem.
+
+
+
+    \subsection{Clay problem Zeno Residue Liouville.A Target Attack Note}
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src})
+    \]
+
+    \[
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    If proved, it contradicts the inherited lower bound and closes the Zeno Source Residue Rigidity.A alternative.
+
+    \[
+    \sup_{t<T_\ast}\|u(t)\|_{L^2(\mathbb T^3)}^2<\infty.
+    \]
+
+    \[
+    \|u^{(m)}(s)\|_{L^2_y}^2
+    =
+    r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2.
+    \]
+
+    This may blow up as r m 0. The Zeno compactness extraction supplies local energy bounds on fixed cylinders, not finite global ancient energy.
+
+    \[
+    |u_\ast(y,s)|\le C_{\mathrm{sf},55565} |s|^{-1/2},
+    \qquad
+    \|u_\ast\|_{L^\infty_s L^3_y}<\infty,
+    \]
+
+    The source-pulse / Zeno branch supplies a lower bound on normalized active source residue. It does not provide an upper Type I envelope, critical smallness, or a global critical norm bound on the rescaled sequence. Local energy compactness is subcritical relative to the desired Liouville class.
+
+    This is the opposite of the smallness input needed by epsilon regularity. Local suitable compactness alone does not convert nonzero residue into zero residue.
+
+    But the current installed estimates supply only local suitable ancient compactness, not the rigid class required to kill the inherited source residue.
+
+
+
+    \subsection{Clay problem Zeno Rigid-Class Alternative Frontier}
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}(Q_1^-)>0.
+    \]
+
+    The first-pulse information gives fixed-backward-slice source absence. Terminal-layer concentration remains allowed.
+
+    The local energy inequality is compatible with a positive measure concentrated in a terminal layer. The fixed-backward-slice absence condition controls source residue away from s=0, while the inherited source measure can remain supported at the terminal slice.
+
+    The rescaling produces local energy control rather than finite global ancient energy. The branch normalizes source residue rather than pointwise amplitude, so Type I and bounded-vorticity envelopes are unavailable. Critical smallness conflicts with the inherited positive unit-scale residue as an independent produced class. The same-fluid terminal selection imposes no symmetry or scale-invariance equation.
+
+    \[
+    \int \varphi\,d\mu_*^{src}=0
+    \quad\forall \varphi\ge0.
+    \]
+
+    That class is circular as a production target because it is the desired source depletion in class form.
+
+    The next viable work must add a new produced class, prove terminal temporal anti-concentration, or prove the direct scale-critical source reserve.
+
+
+
+    \subsection{Clay problem Zeno Bounded Class B.A Candidate Audit Note}
+
+    \[
+    \boxed{
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    }
+    \]
+
+    It gives an ancient local suitable source-residue limit with nonzero inherited source residue. The remaining question is whether current original-data and same-fluid ancestry inputs force that ancient limit into any known rigid class B.
+
+    \[
+    \|u^{(m)}(s)\|_{L^2_y}^2
+    =
+    r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2.
+    \]
+
+    Since r m 0, the original global energy bound does not produce finite global ancient energy for the limit. The compactness theorem gives only local energy bounds on fixed cylinders.
+
+    \[
+    |u_\ast(y,s)|\le C_{\mathrm{sf},55626} |s|^{-1/2}.
+    \]
+
+    The source-pulse branch supplies a lower bound on active source residue, not an upper pointwise Type I envelope. Local energy and pressure compactness do not upgrade to pointwise Type I control on the Zeno-extracted ancient object.
+
+    The terminal Zeno branch is selected precisely because the scale-critical source residue is nonzero on those cylinders. CKN-type epsilon regularity is a consumer of smallness, not a producer of smallness from nonzero source residue.
+
+    \[
+    \|\omega_\ast\|_{L^\infty(Q_R^-)}<\infty
+    \]
+
+    The compactness extraction supplies weak local energy and pressure bounds. It does not provide a uniform vorticity bound. Same-fluid ancestry preserves the legal packet carrier; it does not regularize vorticity in the rescaled limit.
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    Two-dimensionality or axisymmetry would require a geometric symmetry or dimensional reduction of the Zeno limit.
+
+    The same-fluid packet construction gives transported label fidelity and localized parent-child geometry. It does not force an invariant axis, axisymmetric no-swirl structure, or two-dimensional dependence. Coherent three-dimensional strain/source alignment remains compatible with the current branch hypotheses.
+
+    Current compactness, energy, pressure, finite-band, and same-fluid inputs do not force that residue to cancel in the limit.
+
+    The class-specific Liouville half may be available for some choices of B, but the production half is the live obstruction. In the source-cancellation class the Liouville implication is tautological, and the production theorem is exactly positive source depletion in compactness language.
+
+
+
+    \subsection{Clay problem Zeno Rigid Class Next Attempt}
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    The strongest valid reduction found here is a conditional temporal-support rigid class. Its Liouville theorem is elementary, but production of the class requires a new temporal anti-atom theorem for the native positive source-residue measure.
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    It does not by itself produce Type I, finite global ancient energy, critical smallness, bounded ancient vorticity, self-similarity, discrete self-similarity, two-dimensionality, axisymmetry, or native source cancellation.
+
+    \[
+    u^{(m)}(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s),
+    \]
+
+    Since r m -> 0, original finite energy does not give finite global ancient energy for the limit.
+
+    Local suitable compactness gives local energy, local dissipation, pressure control, and Radon compactness of the source residue. It does not give a pointwise Type I envelope, critical smallness, a bounded critical norm, or bounded ancient vorticity. CKN, Serrin, BKM, and Type I criteria remain consumers of such bounds, not suppliers from the source-pulse normalization.
+
+    Weak signed cancellation of the pre-Cauchy source distribution is not enough, because the extracted object carries the native positive active source-residue measure. Strong native cancellation would imply * src =0, but that is already the desired contradiction and cannot be used as an independently produced class on the surviving Zeno branch.
+
+    The first-pulse construction supports only the no-earlier-selected-source piece. It does not supply the terminal anti-atom piece.
+
+    This model has bounded total mass on fixed cylinders and positive terminal residue, while it has no mass on any fixed earlier slice s<-a.
+
+    Thus first-pulse minimality plus local suitable compactness does not rule out the terminal atom. The missing input is not another naming of Liouville; it is an anti-concentration theorem for the native positive source-residue family.
+
+    The installed part is the extraction and the no-earlier selected-source information. The Liouville implication for B time is proved above. The uninstalled theorem is exactly
+
+
+
+    \subsection{Clay problem Zeno Rigid-Class Option B Full Run}
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src})
+    \]
+
+    \[
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    \[
+    Pack_Q\wedge Part_{N,Q}\wedge\forall r>0\,\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    ZenoResidueLiouville_B.A:
+    \qquad
+    B\Longrightarrow \mu_\ast^{src}=0.
+    \]
+
+    \[
+    \cdots\to P^{-2}\to P^{-1}\to P^0,
+    \]
+
+    But it is not rigid enough for a Liouville theorem. It explicitly allows a positive terminal-slice measure.
+
+    Thus B time gives the sharpest conditional Option B, but it is not produced from installed inputs.
+
+    Type I control is not produced. The source-pulse branch supplies a positive normalized source-residue lower bound, not a pointwise envelope such as |u (y,s)| |s| -1/2 .
+
+    Critical smallness is not produced. CKN/Serrin-style smallness is a consumer of a bound, not a consequence of a selected nonzero source-residue pulse.
+
+    Bounded ancient vorticity or strain is not produced. The compactness record gives local energy, local dissipation, and pressure bounds, but no uniform L vorticity or strain control survives the terminal rescaling.
+
+    Self-similar or discretely self-similar structure is not produced. Zeno accumulation gives r m 0 and finite parabolic time accumulation, but no fixed scale ratio or invariance identity.
+
+    Two-dimensional or axisymmetric structure is not produced. Same-fluid packet legality preserves transported carrier fidelity; it does not impose an invariant axis, no-swirl structure, or dimensional reduction.
+
+    Entropy-type classes are not produced. Diffuse legal parentage can carry large branch entropy with no installed scale-normalized reserve controlling it.
+
+    The only produced class is B min; the only class with an immediate residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
+
+    For every fixed a>0, the limiting measure has no mass in s<-a, but it has positive terminal mass. This satisfies the no-earlier-selected-source shape while preserving terminal residue. so B min is too weak.
+
+    Thus the Liouville half is solved conditionally for B time; the production half is not.
+
+    for the same native positive source-residue measure extracted by Zeno Compactness Extraction.A.
+
+
+
+    \subsection{Clay problem Zeno Source-Residue Frontier After ASAC}
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src})
+    \]
+
+    \[
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    Thus the remaining rigidity theorem cannot be merely compactness. It must force the limiting residue to vanish.
+
+    \[
+    \mu_\ast^{src}(B_R\times[-R^2,-a])=0
+    \quad
+    \forall R<\infty,\ \forall a>0,
+    \]
+
+    \[
+    \mu_\ast^{src}(B_R\times\{0\})=0
+    \quad
+    \forall R<\infty.
+    \]
+
+    for every same-fluid terminal Zeno source-refill rescaling produced by Zeno Compactness Extraction.A.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p},
+    \]
+
+    Using that route here would import the same source-wall theorem the height-flux branch is trying to close. Thus Temporal Non Atomic Source.A is a clean interface, but not a non-circular discharge unless it is proved by a different mechanism.
+
+    PVST would imply Temporal Non Atomic Source.A without first proving the -source Carleson estimate.
+
+    However, the direct Duhamel test shows why this is not installed. A forcing profile with time marginal
+
+    For |s| 1 in rescaled heat units, the heat kernel has not had time to produce a smallness factor. Thus fixed positive viscosity alone does not supply (PVST) unless one proves an additional temporal spread, reverse Holder, or -source estimate for the native positive source carrier.
+
+    This is the exact obstruction: a terminal atom is a zero-thickness source readout. Ruling it out is precisely the missing temporal anti-concentration theorem.
+
+    No independent narrower non-circular theorem below Temporal Non Atomic Source.A is currently installed.
+
+    It is a class-exit signature, not an Euler membership discharge and not a contradiction inside fixed positive-viscosity Navier-Stokes until a separate No Zero Heat Time Residue InsideNSClass.A / temporal anti-concentration theorem is proved.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Refill Branch Alternatives Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56991
+  line_start: 56991
+  line_end: 57029
+  start_anchor: "\\subsection{Clay problem Zeno Refill Branch Alternatives Direct
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Refill Branch
+    Alternatives Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56991
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Residue Liouville.A Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57030
+  line_start: 57030
+  line_end: 57070
+  start_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Direct Attempt
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Target Attack Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Residue Liouville.A
+    Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57030
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Residue Liouville.A Target Attack Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57071
+  line_start: 57071
+  line_end: 57107
+  start_anchor: "\\subsection{Clay problem Zeno Residue Liouville.A Target Attack
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Rigid-Class Alternative Frontier}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Residue Liouville.A
+    Target Attack Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57071
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Rigid-Class Alternative Frontier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57108
+  line_start: 57108
+  line_end: 57137
+  start_anchor: "\\subsection{Clay problem Zeno Rigid-Class Alternative Frontier}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Bounded Class B.A Candidate Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Rigid-Class
+    Alternative Frontier as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57108
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Bounded Class B.A Candidate Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57138
+  line_start: 57138
+  line_end: 57184
+  start_anchor: "\\subsection{Clay problem Zeno Bounded Class B.A Candidate Audit
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Rigid Class Next Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Bounded Class
+    B.A Candidate Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57138
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Rigid Class Next Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57185
+  line_start: 57185
+  line_end: 57225
+  start_anchor: "\\subsection{Clay problem Zeno Rigid Class Next Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Rigid-Class Option B Full Run}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Rigid Class
+    Next Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57185
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Rigid-Class Option B Full Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57226
+  line_start: 57226
+  line_end: 57274
+  start_anchor: "\\subsection{Clay problem Zeno Rigid-Class Option B Full Run}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Source-Residue Compactness Extraction
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Rigid-Class
+    Option B Full Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57226
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Zeno Source-Residue Frontier After ASAC
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57314
+  line_start: 57314
+  line_end: 57359
+  start_anchor: "\\subsection{Clay problem Zeno Source-Residue Frontier After ASAC}\n"
+  end_anchor: "\\subsection{Clay problem Zeno Terminal Atom Field-Face Diagnostic}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Zeno Source-Residue
+    Frontier After ASAC as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57314
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-54
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-54.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

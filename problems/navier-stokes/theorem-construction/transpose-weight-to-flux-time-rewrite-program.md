@@ -220,29 +220,30 @@ pieces of `\partial_t u_{\le \ell}`.
 
 ## What `R_\ell`, `J_\ell`, and `\mathcal E_\ell` should be
 
-The exact formulas are not yet written, but their roles are clear.
+The exact formulas are not yet written, so only the candidate core can be named
+here.
 
 ### Time potential `R_\ell`
 
 `R_\ell` should come from a renormalized commutator-energy pairing between the
 global commutator output and the low-pass state `u_{\le \ell}`.
 
-So the first candidate is:
+The first candidate core is:
 
 ```math
-R_\ell
-\sim
+R_\ell^{core}
+:=
 \ell^{-2}
 \langle
 [P_{\le \ell},b_\ell^{meso}\!\cdot\nabla]u,\,
 u_{\le \ell}
-\rangle
-\quad\text{plus the Stage A correction terms.}
+\rangle.
 \tag{10}
 ```
 
-The point is that once `\partial_t` hits this pairing, the low-pass NS equation
-can be inserted directly.
+The Stage A correction terms still have to be written before this becomes an
+exact formula for `R_\ell`. Once `\partial_t` hits the completed pairing, the
+low-pass NS equation can be inserted directly.
 
 The time derivative is the place where the transpose channel stops being a
 scale derivative and becomes a genuine evolution term.

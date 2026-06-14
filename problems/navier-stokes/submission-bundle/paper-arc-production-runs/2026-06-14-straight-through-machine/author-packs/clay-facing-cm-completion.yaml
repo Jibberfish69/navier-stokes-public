@@ -1,0 +1,210 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: clay-facing-cm-completion
+batch_id: clay-facing-cm-completion-current-source-certification-20260614T160747Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Clay-Facing Completion Claim
+  spine_id: the-clay-facing-completion-claim
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:971
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:971
+  repo_sources_excluded:
+  - source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/auto-audit.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/campaign-status.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/current-route-dependency-graph.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/dependency-graph.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/layered-route-graph.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-executor.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260614-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260614.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-proof-program-route-table.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/ns-visual-branch-depth-audit-20260531.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/paper-quality-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/pipeline-state.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/proof-assembly.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/route-lock.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/runtime/meta/latest-lease.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/runtime/meta/quality-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/source-forensics/ns-historical-biography.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260613-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260613.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260614-iteration-2.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260614.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/source-frontier.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-clay-cm-counterexample-exclusion-direct-bridge-attempt-20260609.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-cm-completion-claim-adversarial-audit-20260525.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  - source_ref: problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
+    reason: packed as context for author orientation; current certified TeX does not
+      need this source as a page-level proof payment for this arc
+  endpoint_status: silver CM face payment
+  reader_payments: &1
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to clay-facing-cm-completion.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside The Clay-Facing Completion
+      Claim without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Closing Hinges
+  spine_id: closing-hinges
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1491
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1491
+  repo_sources_excluded: []
+  endpoint_status: silver CM face payment
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to clay-facing-cm-completion.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Closing Hinges without
+      requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T16:07:47Z'
+author_contract:
+  arc_id: clay-facing-cm-completion
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - same.solution
+  - "(Exit|Member)"
+  - proof
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+context_disposition_note: Current TeX source passed the Math/Reader critic. Packed
+  context refs not cited by this arc are recorded in repo_sources_excluded so context
+  ledgers do not become phantom rewrite demands.
+certification_note: Current TeX source for this whole proof arc passed the Math/Reader
+  critic; this pack certifies existing page prose instead of forcing a gratuitous
+  rewrite.

@@ -124,7 +124,7 @@ remainder:
 
 ```math
 R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 \tag{EP.5}
@@ -161,7 +161,7 @@ the edge lives on the right material carrier.  It does not prove:
 
 ```math
 \int_{\mathcal F_N}(\mathfrak S_{loc}^{active})_+
-\lesssim
+\le C_{\mathrm{EP}}
 \int_{\mathcal F_N}(\mathfrak S_{loc}^{active})_-
 +o_N(1).
 \tag{EP.6}
@@ -277,7 +277,7 @@ SignedPositiveBalance.A:
 \quad
 \int_{Bad_N(\eta)}
 (\mathfrak S_{N,loc}^{active})_+
-\lesssim
+\le C_{\mathrm{SPB}}
 \int_{Bad_N(\eta)}
 (\mathfrak S_{N,loc}^{active})_-
 +o_N(1).

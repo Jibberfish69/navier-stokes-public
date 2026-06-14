@@ -152,7 +152,7 @@ support:
 ```
 
 This is harder than the shell-diagonal projected packet, because `L_u^\ast`
-contains coefficient coupling across shells.  The theorem is plausible only
+contains coefficient coupling across shells.  The theorem can only be pursued
 after coefficient stopping or truncation:
 
 ```math

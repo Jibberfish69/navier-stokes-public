@@ -281,7 +281,7 @@ Therefore
 ```math
 \int_{\mathcal G_J}
 M_J^2\frac{\|\mathcal B_J^{off}\|_F^2}{(g_J^{str})^2}\,d\mu_J
-\lesssim
+\le C_{T\text{-}OA}
 \int_{\mathcal G_J}
 M_J^2\frac{\|\mathcal B_J^{pair}\|_F^2}{(g_J^{str})^2}\,d\mu_J
 +
@@ -338,7 +338,7 @@ and hence
 ```math
 \int_{\mathcal G_J}
 M_J^2(\delta_J^{ray})^2\,d\mu_J
-\lesssim
+\le C_{T\text{-}Ray}
 \int_{\mathcal G_J}
 M_J^2(\delta_{J,\mathrm{pair}}^{ray})^2\,d\mu_J
 +

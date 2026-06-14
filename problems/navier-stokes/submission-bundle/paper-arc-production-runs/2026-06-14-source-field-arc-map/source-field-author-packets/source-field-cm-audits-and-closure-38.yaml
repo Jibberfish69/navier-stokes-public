@@ -1,0 +1,970 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-38
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-38
+  sequence: 123
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 38
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 49200
+  line_end: 49841
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49200
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49264
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49299
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49344
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49384
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49428
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49808
+  subsection_titles:
+  - Clay problem Response Parent OrCharge Direct Attempt
+  - Clay problem Response Residual Pair.A Direct Attempt
+  - Clay problem Response Source Tether Terminal Slice Discharge
+  - Clay problem Response Square-Mass Subatoms Proof
+  - Clay problem ResponseTPNI Coupled Transform Package
+  - Clay problem ResponseTPNI To Orthogonal Decorrel Assembly
+  - Clay problem Reverse Four-Body Class-Membership Audit
+  - Clay problem Reverse Holder Parent Concentration.A Direct Attempt Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Parent OrCharge Direct Attempt
+    line_start: 49200
+    line_end: 49229
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49200
+    start_anchor: "\\subsection{Clay problem Response Parent OrCharge Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Response Principal-Strain Gauge Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Parent OrCharge Direct Attempt}
+
+      At a first response pulse, the parent sum vanishes, giving response source drain.
+
+      \[
+      \mathcal R_j^{rot}(t)
+      =
+      -\int_{-\infty}^t e^{\nu(t-s)\Delta}P_j\mathbb P
+      (u\cdot\nabla z+z\cdot\nabla u)(s)\,ds.
+      \]
+
+      \[
+      \Psi_T(s)
+      =
+      e^{\nu(t_T-s)\Delta}P_{j_T}\mathbb P^\ast \psi_T.
+      \]
+
+      provided the adjoint kernel is positive/flattened enough that bad sign changes and off-tree pieces are legal.
+
+      \[
+      \int |u\cdot\nabla z+z\cdot\nabla u|\,|\Psi_T|.
+      \]
+
+      So the parent-or-charge theorem is not closed by heat-kernel positivity alone. It needs a signed/positive adjoint tree structure for the response source.
+
+      After normalizing S resp(T 0)=1, choosing theta below the response absorption margin, and sending legal errors to zero, this contradicts a nonzero terminal response pulse.
+
+      This is the response analogue of the principal-flow adjoint drain route. The remaining primitive is not global backward uniqueness; it is signed response adjoint parent-or-charge.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Residual Pair.A Direct Attempt
+    line_start: 49264
+    line_end: 49298
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49264
+    start_anchor: "\\subsection{Clay problem Response Residual Pair.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Response Source Tether Terminal Slice Discharge}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Residual Pair.A Direct Attempt}
+
+      The pressure/cutoff/off-packet components are charged here. The initial claim that Response Strain Decorrel.A is unavoidable is superseded: the newer principal-strain gauge route moves S <j (u)z j into the response principal operator.
+
+      Reason: Leray projection, cutoff commutators, off-packet shell leakage, and frame perturbations are linear in the active packet field. The same H -1 residual estimates used for the installed source-drain route apply with the active field z j , as long as the response packet frame is fixed by Same Fluid Response Frame.A.
+
+      \[
+      u_{<j-M}\cdot\nabla z_j,
+      \qquad
+      z_{<j-M}\cdot\nabla u_j
+      \]
+
+      \[
+      S_{<j}(u)z_j,
+      \qquad
+      S_{<j}(z)u_j.
+      \]
+
+      \[
+      S_{<j}(z)u_j
+      \]
+
+      \[
+      S_{<j}(u)z_j
+      \]
+
+      \[
+      \left[
+      \langle S_{<j}(u)Z_j,Z_j\rangle
+      \right]_+.
+      \]
+
+      So Response Strain Decorrel.A is unavoidable for an unconditional response residual pair.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Source Tether Terminal Slice Discharge
+    line_start: 49299
+    line_end: 49343
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49299
+    start_anchor: "\\subsection{Clay problem Response Source Tether Terminal Slice
+      Discharge}\n"
+    end_anchor: "\\subsection{Clay problem Response Square-Mass Subatoms Proof}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Source Tether Terminal Slice Discharge}
+
+      The terminal face is chosen at a positive density slice, so the slice retains the positive response-source mass.
+
+      \[
+      \Lambda_T(Z)
+      :=
+      2\int_{I_T}\int_{Q_T}
+      \langle S_{<j}^{loc}u_j,Z_j^\perp\rangle
+      \omega_T(x,t)\,dxdt.
+      \]
+
+      \[
+      [\Lambda_T(Z)]_+\ge \eta.
+      \]
+
+      \[
+      \lambda_T(t)
+      :=
+      2\int_{Q_T(t)}
+      \langle S_{<j}^{loc}u_j(x,t),Z_j^\perp(x,t)\rangle
+      \omega_T(x,t)\,dx.
+      \]
+
+      \[
+      \Lambda_T(Z)=\int_{I_T}\lambda_T(t)dt.
+      \]
+
+      \[
+      \left[
+      \lambda_{T_+}(t_+)
+      \right]_+
+      \ge
+      c\eta/|I_T|.
+      \]
+
+      Smooth preterminality gives enough time-continuity to choose a Lebesgue/density time as the terminal face of a refined packet. The refinement costs only the fixed finite-overlap constant.
+
+      The error is the same projection/cutoff error used in the terminal lower-frame packet record.
+
+      All detection inputs are now installed as response-packet geometry and terminal-slice selection.
+
+      This does not prove any global ancient no-incoming theorem. It only handles the local tether required to detect a positive response-rotation tile by terminal full-adjoint mass. That is exactly the tether needed by the full-coefficient response drain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Square-Mass Subatoms Proof
+    line_start: 49344
+    line_end: 49383
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49344
+    start_anchor: "\\subsection{Clay problem Response Square-Mass Subatoms Proof}\n"
+    end_anchor: "\\subsection{Clay problem ResponseTPNI Coupled Transform Package}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Square-Mass Subatoms Proof}
+
+      \[
+      \chi_T^{resp}=g_T^{-1}\psi_T^{resp},
+      \]
+
+      \[
+      \boxed{
+      \left\|\sum_T c_T\chi_T^{resp}\right\|_{L_t^2H_x^1}^2
+      \le
+      C\sum_T|c_T|^2.
+      }
+      \]
+
+      \[
+      L_{j,k}^{P,*}\psi_T^{resp}=0,
+      \]
+
+      \[
+      |\partial_x^\alpha\chi_T(t,x)|
+      \le
+      C_\alpha r_T^{-3/2-|\alpha|}
+      \exp(-c|x-X_T(t)|^2/r_T^2).
+      \]
+
+      Backward propagate the normalized response adjoint packet to the stopped earlier face T. The endpoint packet
+
+      \[
+      \chi_T^{resp}(\sigma_T)
+      \]
+
+      The needed new object is only Same Fluid Response Frame.A, which says the orthogonal response packet uses the same bounded-overlap terminal frame as the already installed adjoint packet calculus.
+
+      The proof is conditional because the local lower frame must be pinned to the actual response-orthogonal packet subspace. That is a packet-definition task, not a new PDE estimate.
+
+      This is not an unconditional proof. It identifies exactly where the response residual estimate spends the still-open response PDE content.
+
+      The raw Response Kernel Sign Control.A primitive should be retired in favor of this -mass route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem ResponseTPNI Coupled Transform Package
+    line_start: 49384
+    line_end: 49427
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49384
+    start_anchor: "\\subsection{Clay problem ResponseTPNI Coupled Transform Package}\n"
+    end_anchor: "\\subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem ResponseTPNI Coupled Transform Package}
+
+      \[
+      \partial_s v+(Sy)\cdot\nabla v+Sv+\nabla\pi_v
+      =
+      \nu\Delta v,
+      \qquad \nabla\cdot v=0,
+      \]
+
+      \[
+      \partial_s w+(Sy)\cdot\nabla w+Sw
+      +(\Sigma y)\cdot\nabla v+\Sigma v+\nabla\pi_w
+      =
+      \nu\Delta w+\Delta v,
+      \qquad \nabla\cdot w=0.
+      \]
+
+      Here S=S T, tr S=0, is the frozen original strain, and Sigma is the frozen response strain.
+
+      \[
+      E(s)=e^{sS},
+      \qquad
+      x=E(s)^{-1}y.
+      \]
+
+      \[
+      V(x,s):=E(s)v(E(s)x,s),
+      \qquad
+      W(x,s):=E(s)w(E(s)x,s).
+      \]
+
+      \[
+      \partial_s V+\nabla_x q_v
+      =
+      \nu\nabla_x\cdot(A(s)\nabla_x V),
+      \qquad
+      \nabla_x\cdot(A(s)V)=0,
+      \]
+
+      Without this tether, a Carleman theorem may kill a transformed solution that is not the actual response-rotation residue.
+
+      This package is the precise response-side analogue of the existing TPNI reserve route. It is not a generic source-wall alias: it only targets nonlinear orthogonal viscosity-response rotation after the heat-aligned response has been removed.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem ResponseTPNI To Orthogonal Decorrel Assembly
+    line_start: 49428
+    line_end: 49446
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49428
+    start_anchor: "\\subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}\n"
+    end_anchor: "\\subsection{Clay problem Retained Face Amplitude Gain.A Target And
+      Pack-Gain Gap}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}
+
+      \[
+      \left[
+      2\int_{Q_T}
+      \langle S_{<j}^{loc}u_j,Z_j^\perp\rangle
+      \right]_+
+      \ge \eta_0
+      \]
+
+      The selected tile is a first positive response-rotation pulse in the expanded full response ancestry relation. But ResponseTPNI.A, proved by the full-coefficient response drain, rules out exactly such a first terminal pulse under retained positive-viscosity response dynamics. Contradiction.
+
+      So the nonlinear response rotation cannot produce positive orthogonal strain alignment except through the legal charges already removed.
+
+      The only non-legal source of Response Rotation Charge.A is the nonlinear response-rotation pulse. By ResponseTPNIKills Orthogonal Rotation.A, such a pulse is impossible. Hence the remaining terms are legal heat-width, pressure/cutoff, response-height, and frame errors. This proves Orthogonal Response Decorrel.A.
+
+      This is legitimate because the full-coefficient response drain already proves the no-free-create/parent-or-charge theorem directly; it does not need the older global no-incoming compactness detour.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reverse Four-Body Class-Membership Audit
+    line_start: 49773
+    line_end: 49807
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+    start_anchor: "\\subsection{Clay problem Reverse Four-Body Class-Membership Audit}\n"
+    end_anchor: "\\subsection{Clay problem Reverse Holder Parent Concentration.A Direct
+      Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Reverse Four-Body Class-Membership Audit}\n\nRole:
+      reread the four-body circuit from the Clay problem object law in reverse-dependency
+      order, and test at each body whether the problem surface is even lawful inside
+      the admissible one-fluid class before trying to control it.\n\nThe audit is
+      the class-membership check that has to run before survivor control is trusted.\n\nBody
+      I names the feared scale / tail escape. Body IV tells what exact deformation
+      geometry that fear would have to look like on one actual flow. Body III tells
+      whether that geometry survives exact same-surface passage. Body II tells whether
+      the packet being passed around is still one tethered same-fluid packet at all.
+      Body I object law judges whether the whole picture belongs to the admissible
+      class in the first place.\n\nThe audit now works directly with primitive witness
+      failure. The older words dead / blown / jump may still appear as participation-side
+      / packing-side / one-field-side readout labels, but they are not used here as
+      exact biconditionals.\n\nIf not, that surface is not a lawful survivor family
+      of the Clay problem fluid. It is already a class-exit picture.\n\nLet I, IV
+      , III , and II be the problem-surfaces currently exposed on Bodies I, IV, III,
+      and II respectively, with reverse dependency chain (R4A.1).\n\n\\[\n\\mathrm{CM}_{N,r_N,Q}(u,p,\\Phi).\n\\]\n\nthen
+      that body-surface is not a lawful survivor surface to be controlled. It is already
+      an Clay problem class-exit witness.\n\nBody I exposes the feared scale-concentration
+      picture: activity tries to squeeze into thinner and thinner active regions while
+      remaining the same dangerous survivor.\n\nSo Body I only survives as a real
+      theorem burden when the feared scale picture admits realizations with Pack,
+      Part, and Field still installed. Otherwise the picture is cut at admissibility
+      before any no-escape estimate is attempted.\n\nBody IV exposes the exact-fluid
+      sharpening picture on one real solution. This is the most concrete body because
+      it \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reverse Holder Parent Concentration.A Direct Attempt
+      Note
+    line_start: 49808
+    line_end: 49841
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49808
+    start_anchor: "\\subsection{Clay problem Reverse Holder Parent Concentration.A
+      Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass
+      Liouville}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Reverse Holder Parent Concentration.A Direct Attempt Note}
+
+      The result is negative under current installed inputs. The attempt identifies the exact strengthening needed.
+
+      \[
+      \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+      \qquad
+      |\mathcal C(P)|\le B,
+      \qquad
+      \pi_P(\mathcal C(P))\ge c\,\pi_P(\mathsf{Pred}(P)),
+      \]
+
+      \[
+      \pi_P\sfcomp{48254} \frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad
+      M\to\infty.
+      \]
+
+      Then every bounded subfamily carries mass at most \(C_{\mathrm{sf},48259}B/M\). Thus finite dyadic banding does not prove reverse-Holder concentration.
+
+      \[
+      \sum_{\alpha=1}^M\|a_\alpha\|_2^2\sfcomp{48262} M^{-1},
+      \]
+
+      \[
+      \sum_{\alpha}
+      \|\text{normalized donor edge}_\alpha\|^2
+      \le C_{\mathrm{sf},48257}
+      \mathcal R_{\mathrm{sc}},
+      \]
+
+      Same-fluid transport preserves labels after a parent is chosen. It does not reduce the number of legal parents, force a lower bound on one predecessor, or price entropy of the positive parent measure. Carrier fidelity is not an inverse theorem.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Response Parent OrCharge Direct Attempt}
+
+    At a first response pulse, the parent sum vanishes, giving response source drain.
+
+    \[
+    \mathcal R_j^{rot}(t)
+    =
+    -\int_{-\infty}^t e^{\nu(t-s)\Delta}P_j\mathbb P
+    (u\cdot\nabla z+z\cdot\nabla u)(s)\,ds.
+    \]
+
+    \[
+    \Psi_T(s)
+    =
+    e^{\nu(t_T-s)\Delta}P_{j_T}\mathbb P^\ast \psi_T.
+    \]
+
+    provided the adjoint kernel is positive/flattened enough that bad sign changes and off-tree pieces are legal.
+
+    \[
+    \int |u\cdot\nabla z+z\cdot\nabla u|\,|\Psi_T|.
+    \]
+
+    So the parent-or-charge theorem is not closed by heat-kernel positivity alone. It needs a signed/positive adjoint tree structure for the response source.
+
+    After normalizing S resp(T 0)=1, choosing theta below the response absorption margin, and sending legal errors to zero, this contradicts a nonzero terminal response pulse.
+
+    This is the response analogue of the principal-flow adjoint drain route. The remaining primitive is not global backward uniqueness; it is signed response adjoint parent-or-charge.
+
+
+
+    \subsection{Clay problem Response Residual Pair.A Direct Attempt}
+
+    The pressure/cutoff/off-packet components are charged here. The initial claim that Response Strain Decorrel.A is unavoidable is superseded: the newer principal-strain gauge route moves S <j (u)z j into the response principal operator.
+
+    Reason: Leray projection, cutoff commutators, off-packet shell leakage, and frame perturbations are linear in the active packet field. The same H -1 residual estimates used for the installed source-drain route apply with the active field z j , as long as the response packet frame is fixed by Same Fluid Response Frame.A.
+
+    \[
+    u_{<j-M}\cdot\nabla z_j,
+    \qquad
+    z_{<j-M}\cdot\nabla u_j
+    \]
+
+    \[
+    S_{<j}(u)z_j,
+    \qquad
+    S_{<j}(z)u_j.
+    \]
+
+    \[
+    S_{<j}(z)u_j
+    \]
+
+    \[
+    S_{<j}(u)z_j
+    \]
+
+    \[
+    \left[
+    \langle S_{<j}(u)Z_j,Z_j\rangle
+    \right]_+.
+    \]
+
+    So Response Strain Decorrel.A is unavoidable for an unconditional response residual pair.
+
+
+
+    \subsection{Clay problem Response Source Tether Terminal Slice Discharge}
+
+    The terminal face is chosen at a positive density slice, so the slice retains the positive response-source mass.
+
+    \[
+    \Lambda_T(Z)
+    :=
+    2\int_{I_T}\int_{Q_T}
+    \langle S_{<j}^{loc}u_j,Z_j^\perp\rangle
+    \omega_T(x,t)\,dxdt.
+    \]
+
+    \[
+    [\Lambda_T(Z)]_+\ge \eta.
+    \]
+
+    \[
+    \lambda_T(t)
+    :=
+    2\int_{Q_T(t)}
+    \langle S_{<j}^{loc}u_j(x,t),Z_j^\perp(x,t)\rangle
+    \omega_T(x,t)\,dx.
+    \]
+
+    \[
+    \Lambda_T(Z)=\int_{I_T}\lambda_T(t)dt.
+    \]
+
+    \[
+    \left[
+    \lambda_{T_+}(t_+)
+    \right]_+
+    \ge
+    c\eta/|I_T|.
+    \]
+
+    Smooth preterminality gives enough time-continuity to choose a Lebesgue/density time as the terminal face of a refined packet. The refinement costs only the fixed finite-overlap constant.
+
+    The error is the same projection/cutoff error used in the terminal lower-frame packet record.
+
+    All detection inputs are now installed as response-packet geometry and terminal-slice selection.
+
+    This does not prove any global ancient no-incoming theorem. It only handles the local tether required to detect a positive response-rotation tile by terminal full-adjoint mass. That is exactly the tether needed by the full-coefficient response drain.
+
+
+
+    \subsection{Clay problem Response Square-Mass Subatoms Proof}
+
+    \[
+    \chi_T^{resp}=g_T^{-1}\psi_T^{resp},
+    \]
+
+    \[
+    \boxed{
+    \left\|\sum_T c_T\chi_T^{resp}\right\|_{L_t^2H_x^1}^2
+    \le
+    C\sum_T|c_T|^2.
+    }
+    \]
+
+    \[
+    L_{j,k}^{P,*}\psi_T^{resp}=0,
+    \]
+
+    \[
+    |\partial_x^\alpha\chi_T(t,x)|
+    \le
+    C_\alpha r_T^{-3/2-|\alpha|}
+    \exp(-c|x-X_T(t)|^2/r_T^2).
+    \]
+
+    Backward propagate the normalized response adjoint packet to the stopped earlier face T. The endpoint packet
+
+    \[
+    \chi_T^{resp}(\sigma_T)
+    \]
+
+    The needed new object is only Same Fluid Response Frame.A, which says the orthogonal response packet uses the same bounded-overlap terminal frame as the already installed adjoint packet calculus.
+
+    The proof is conditional because the local lower frame must be pinned to the actual response-orthogonal packet subspace. That is a packet-definition task, not a new PDE estimate.
+
+    This is not an unconditional proof. It identifies exactly where the response residual estimate spends the still-open response PDE content.
+
+    The raw Response Kernel Sign Control.A primitive should be retired in favor of this -mass route.
+
+
+
+    \subsection{Clay problem ResponseTPNI Coupled Transform Package}
+
+    \[
+    \partial_s v+(Sy)\cdot\nabla v+Sv+\nabla\pi_v
+    =
+    \nu\Delta v,
+    \qquad \nabla\cdot v=0,
+    \]
+
+    \[
+    \partial_s w+(Sy)\cdot\nabla w+Sw
+    +(\Sigma y)\cdot\nabla v+\Sigma v+\nabla\pi_w
+    =
+    \nu\Delta w+\Delta v,
+    \qquad \nabla\cdot w=0.
+    \]
+
+    Here S=S T, tr S=0, is the frozen original strain, and Sigma is the frozen response strain.
+
+    \[
+    E(s)=e^{sS},
+    \qquad
+    x=E(s)^{-1}y.
+    \]
+
+    \[
+    V(x,s):=E(s)v(E(s)x,s),
+    \qquad
+    W(x,s):=E(s)w(E(s)x,s).
+    \]
+
+    \[
+    \partial_s V+\nabla_x q_v
+    =
+    \nu\nabla_x\cdot(A(s)\nabla_x V),
+    \qquad
+    \nabla_x\cdot(A(s)V)=0,
+    \]
+
+    Without this tether, a Carleman theorem may kill a transformed solution that is not the actual response-rotation residue.
+
+    This package is the precise response-side analogue of the existing TPNI reserve route. It is not a generic source-wall alias: it only targets nonlinear orthogonal viscosity-response rotation after the heat-aligned response has been removed.
+
+
+
+    \subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}
+
+    \[
+    \left[
+    2\int_{Q_T}
+    \langle S_{<j}^{loc}u_j,Z_j^\perp\rangle
+    \right]_+
+    \ge \eta_0
+    \]
+
+    The selected tile is a first positive response-rotation pulse in the expanded full response ancestry relation. But ResponseTPNI.A, proved by the full-coefficient response drain, rules out exactly such a first terminal pulse under retained positive-viscosity response dynamics. Contradiction.
+
+    So the nonlinear response rotation cannot produce positive orthogonal strain alignment except through the legal charges already removed.
+
+    The only non-legal source of Response Rotation Charge.A is the nonlinear response-rotation pulse. By ResponseTPNIKills Orthogonal Rotation.A, such a pulse is impossible. Hence the remaining terms are legal heat-width, pressure/cutoff, response-height, and frame errors. This proves Orthogonal Response Decorrel.A.
+
+    This is legitimate because the full-coefficient response drain already proves the no-free-create/parent-or-charge theorem directly; it does not need the older global no-incoming compactness detour.
+
+
+
+    \subsection{Clay problem Reverse Four-Body Class-Membership Audit}
+
+    Role: reread the four-body circuit from the Clay problem object law in reverse-dependency order, and test at each body whether the problem surface is even lawful inside the admissible one-fluid class before trying to control it.
+
+    The audit is the class-membership check that has to run before survivor control is trusted.
+
+    Body I names the feared scale / tail escape. Body IV tells what exact deformation geometry that fear would have to look like on one actual flow. Body III tells whether that geometry survives exact same-surface passage. Body II tells whether the packet being passed around is still one tethered same-fluid packet at all. Body I object law judges whether the whole picture belongs to the admissible class in the first place.
+
+    The audit now works directly with primitive witness failure. The older words dead / blown / jump may still appear as participation-side / packing-side / one-field-side readout labels, but they are not used here as exact biconditionals.
+
+    If not, that surface is not a lawful survivor family of the Clay problem fluid. It is already a class-exit picture.
+
+    Let I, IV , III , and II be the problem-surfaces currently exposed on Bodies I, IV, III, and II respectively, with reverse dependency chain (R4A.1).
+
+    \[
+    \mathrm{CM}_{N,r_N,Q}(u,p,\Phi).
+    \]
+
+    then that body-surface is not a lawful survivor surface to be controlled. It is already an Clay problem class-exit witness.
+
+    Body I exposes the feared scale-concentration picture: activity tries to squeeze into thinner and thinner active regions while remaining the same dangerous survivor.
+
+    So Body I only survives as a real theorem burden when the feared scale picture admits realizations with Pack, Part, and Field still installed. Otherwise the picture is cut at admissibility before any no-escape estimate is attempted.
+
+    Body IV exposes the exact-fluid sharpening picture on one real solution. This is the most concrete body because it speaks directly about what the exact fluid is trying to become.
+
+    So Body IV is the main diagnostic lens for the other bodies: it turns feared classical escape pictures into exact one-fluid geometry and then asks whether that geometry is legal inside the Clay problem class.
+
+    Body III is exact same-surface object production. Its feared failure picture is hidden defect closure: a sequence of approximate flows converges to a fake limit or a bookkeeping ghost that the true fluid never lawfully owns.
+
+    \[
+    \Sigma_I^{thin}=\text{Body I scale-concentration picture,}
+    \]
+
+
+
+    \subsection{Clay problem Reverse Holder Parent Concentration.A Direct Attempt Note}
+
+    The result is negative under current installed inputs. The attempt identifies the exact strengthening needed.
+
+    \[
+    \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+    \qquad
+    |\mathcal C(P)|\le B,
+    \qquad
+    \pi_P(\mathcal C(P))\ge c\,\pi_P(\mathsf{Pred}(P)),
+    \]
+
+    \[
+    \pi_P\sfcomp{48254} \frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad
+    M\to\infty.
+    \]
+
+    Then every bounded subfamily carries mass at most \(C_{\mathrm{sf},48259}B/M\). Thus finite dyadic banding does not prove reverse-Holder concentration.
+
+    \[
+    \sum_{\alpha=1}^M\|a_\alpha\|_2^2\sfcomp{48262} M^{-1},
+    \]
+
+    \[
+    \sum_{\alpha}
+    \|\text{normalized donor edge}_\alpha\|^2
+    \le C_{\mathrm{sf},48257}
+    \mathcal R_{\mathrm{sc}},
+    \]
+
+    Same-fluid transport preserves labels after a parent is chosen. It does not reduce the number of legal parents, force a lower bound on one predecessor, or price entropy of the positive parent measure. Carrier fidelity is not an inverse theorem.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Parent OrCharge Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49200
+  line_start: 49200
+  line_end: 49229
+  start_anchor: "\\subsection{Clay problem Response Parent OrCharge Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Response Principal-Strain Gauge Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Parent
+    OrCharge Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49200
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Residual Pair.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49264
+  line_start: 49264
+  line_end: 49298
+  start_anchor: "\\subsection{Clay problem Response Residual Pair.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Response Source Tether Terminal Slice Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Residual
+    Pair.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49264
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Source Tether Terminal Slice Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49299
+  line_start: 49299
+  line_end: 49343
+  start_anchor: "\\subsection{Clay problem Response Source Tether Terminal Slice Discharge}\n"
+  end_anchor: "\\subsection{Clay problem Response Square-Mass Subatoms Proof}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Source
+    Tether Terminal Slice Discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49299
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Square-Mass Subatoms Proof
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49344
+  line_start: 49344
+  line_end: 49383
+  start_anchor: "\\subsection{Clay problem Response Square-Mass Subatoms Proof}\n"
+  end_anchor: "\\subsection{Clay problem ResponseTPNI Coupled Transform Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Square-Mass
+    Subatoms Proof as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49344
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem ResponseTPNI Coupled Transform Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49384
+  line_start: 49384
+  line_end: 49427
+  start_anchor: "\\subsection{Clay problem ResponseTPNI Coupled Transform Package}\n"
+  end_anchor: "\\subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem ResponseTPNI Coupled
+    Transform Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49384
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem ResponseTPNI To Orthogonal Decorrel Assembly
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49428
+  line_start: 49428
+  line_end: 49446
+  start_anchor: "\\subsection{Clay problem ResponseTPNI To Orthogonal Decorrel Assembly}\n"
+  end_anchor: "\\subsection{Clay problem Retained Face Amplitude Gain.A Target And
+    Pack-Gain Gap}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem ResponseTPNI To
+    Orthogonal Decorrel Assembly as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49428
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reverse Four-Body Class-Membership Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  line_start: 49773
+  line_end: 49807
+  start_anchor: "\\subsection{Clay problem Reverse Four-Body Class-Membership Audit}\n"
+  end_anchor: "\\subsection{Clay problem Reverse Holder Parent Concentration.A Direct
+    Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reverse Four-Body
+    Class-Membership Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49773
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reverse Holder Parent Concentration.A Direct Attempt
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49808
+  line_start: 49808
+  line_end: 49841
+  start_anchor: "\\subsection{Clay problem Reverse Holder Parent Concentration.A Direct
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Rigid B ASAC Time-Face Anti-Atom Subclass
+    Liouville}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reverse Holder Parent
+    Concentration.A Direct Attempt Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49808
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-38
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-38.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

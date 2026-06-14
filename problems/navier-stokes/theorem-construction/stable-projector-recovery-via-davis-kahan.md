@@ -44,7 +44,8 @@ simple-top region and
 
 ```math
 \|\widehat P_J-\Pi_J^{ref}\|_F
-\lesssim
+\le
+C_{DK}
 \frac{\|\Sigma_J-\Sigma_J^{ref}\|_{\mathrm{op}}}{g_J^{str}}.
 \tag{DK.2}
 ```
@@ -53,7 +54,8 @@ Using the observable-construction ledger `(OPS.3)`,
 
 ```math
 \|\widehat P_J-\Pi_J^{ref}\|_F
-\lesssim
+\le
+C_{DK}
 \frac{\mathrm{Err}_{J,\mathrm{obs}}}{g_J^{str}}.
 \tag{DK.3}
 ```

@@ -1,0 +1,1304 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-05
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-05
+  sequence: 157
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 5
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 5490
+  line_end: 6085
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5490
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5554
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5625
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5745
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5832
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5903
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5958
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:6046
+  subsection_titles:
+  - Exact-Potential Bounded-Chart Stokes V2 Route Audit
+  - Exact-Potential Convex Product-Set Parabolic V2 Route Audit
+  - Exact-Potential Convex V2 Common Conformal-Structure Wall
+  - Exact-Potential Convex V2 Simultaneous Isotropization Wall
+  - Exact-Potential F.11d Static-Diffusion Audit
+  - Exact-Potential Fixed Adiabatic Forcing Packet EP.11d
+  - Exact-Potential V2 Bounded Lower-Order Absorption From Fixed-Metric Carleman
+  - Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation Remaining
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential Bounded-Chart Stokes V2 Route Audit
+    line_start: 5490
+    line_end: 5553
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5490
+    start_anchor: "\\subsection{Exact-Potential Bounded-Chart Stokes V2 Route Audit}\n"
+    end_anchor: "\\subsection{Exact-Potential Convex Product-Set Parabolic V2 Route
+      Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Exact-Potential Bounded-Chart Stokes V2 Route Audit}
+
+      The first older \(V2\) import option after the forcing side is frozen by
+      \(EP.11d\) is the bounded-chart Stokes route: put the localized defect into a
+      non-stationary Stokes system, then import the measurable-set Stokes
+      observability packet.
+
+      The installed localization starts with
+      \[
+      \begin{gathered}
+      \text{angular ledger estimate}+\text{forcing packet}+V1+V2\\
+      \Longrightarrow \text{exact-potential readout}\\
+      \Longrightarrow \text{pressure-defect conclusion}.
+      \end{gathered}
+      \]
+      So, at this layer, the branch-specific local debt is \(V2\).  The Stokes
+      option would supply \(V2\) by producing a chart-localized variable satisfying a
+      Stokes equation with pressure, divergence-free constraint, and boundary
+      condition.
+
+      The installed \(F.11d\) packet gives a different object.  After cutoff
+      localization,
+
+      \[
+      q_k:=\chi_k W_J,
+      \]
+
+      the localized pair defect satisfies
+      \[
+      \partial_t q_k+V_J\cdot \nabla_{x,y}q_k-\nu\Delta_{x,y}q_k
+      =
+      f_k^{hi}+f_k^{cut},
+      \]
+
+      and the chart equation is
+      \[
+      \partial_t \widetilde q_k
+      -\nabla_\zeta\cdot(a_k\nabla_\zeta \widetilde q_k)
+      +b_k\cdot \nabla_\zeta \widetilde q_k
+      +c_k\widetilde q_k
+      =
+      \widetilde f_k^{hi}+\widetilde f_k^{cut}+\widetilde f_k^{chart},
+      \]
+
+      with uniformly elliptic variable diffusion and explicit cutoff/chart source
+      terms.  The Stokes import would require the stronger packet
+      \[
+      \partial_t q_k-\nu\Delta q_k+\nabla \pi_k = F_k,
+      \qquad
+      \nabla\!\cdot q_k=0,
+      \qquad
+      q_k|_{\partial\Omega_k}=0.
+      \]
+
+      D.91 records the gap between those two objects.  The current installed
+      localization does not supply a divergence-free repaired localized defect, a
+      pressure decomposition in the exact Stokes form, or a theorem converting the
+      chart equation above into the bounded-chart Stokes packet.  The Stokes option
+      thereby remains conditional on one new Stokes-preserving localization theorem.
+
+      This audit is retained as route hygiene.  It explains why the older Stokes
+      option is not the active repaired \(V2
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential Convex Product-Set Parabolic V2 Route Audit
+    line_start: 5554
+    line_end: 5624
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5554
+    start_anchor: "\\subsection{Exact-Potential Convex Product-Set Parabolic V2 Route
+      Audit}\n"
+    end_anchor: "\\subsection{Exact-Potential Convex V2 Common Conformal-Structure
+      Wall}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Exact-Potential Convex Product-Set Parabolic V2 Route Audit}
+
+      D.92 audits the second older \(V2\) import option after \(EP.11d\): reduce the
+      localized defect to a lower-order parabolic equation on a convex chart domain,
+      then import Phung--Wang measurable-time observability.
+
+      The repaired \(F.11d\) readout is sharper than the older variable-diffusion
+      story.  Because the chart is time independent, the principal diffusion is a
+      fixed chart metric.  The honest localized equation is
+
+      \[
+      \partial_t \widetilde q_k
+      -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+      +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+      +\widetilde c_k\widetilde q_k
+      =
+      \widetilde f_k^{hi}+\widetilde f_k^{cut},
+      \]
+
+      where \(G_k\) is fixed by the chart and the lower-order coefficients carry the
+      pair drift and chart terms.  The Phung--Wang route asks for one more
+      normalization: on a convex chart domain, rewrite the same localized defect as
+
+      \[
+      \partial_t \widehat q_k
+      -\nu\Delta \widehat q_k
+      +\widehat b_k\cdot \nabla \widehat q_k
+      +\widehat c_k\widehat q_k
+      =
+      \widehat f_k,
+      \]
+
+      \[
+      \widehat b_k\in L^\infty(\Omega_k\times I_k),
+      \qquad
+      \widehat c_k\in L^\infty(I_k;L^q(\Omega_k)),
+      \qquad
+      q>\dim\Omega_k.
+      \]
+
+      That is the exact lower-order packet to which the Phung--Wang theorem applies.
+      The installed \(F.11d\) packet does not itself perform the static flattening of
+      the metric \(G_k\), and it does not prove that the lower-order coefficients and
+      source terms remain in the required class after such a flattening.
+
+      So this older convex product-set route remains conditional on two theorem
+      packets:
+      \[
+      \text{static chart-metric flattening of }G_k
+      \quad+\quad
+      \text{lower-order admissibility after flattening}.
+      \]
+
+      The active repaired direct branch no longer stops at that older convex
+      normalization wall.  It keeps the fixed-metric operator and uses the
+      Laurent--Leautaud fixed-metric Lipschitz Carleman / heat-observability import
+      together with Wang--Zhang measurable-time observability.  In that repaired
+      dire
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential Convex V2 Common Conformal-Structure Wall
+    line_start: 5625
+    line_end: 5686
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5625
+    start_anchor: "\\subsection{Exact-Potential Convex V2 Common Conformal-Structure
+      Wall}\n"
+    end_anchor: "\\subsection{Exact-Potential Convex V2 Normalized Chart-Defect Rigidity}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact-Potential Convex V2 Common Conformal-Structure Wall}
+
+      D.93 keeps the older convex product-set \(V2\) route honest.  The previous
+      audit reduced that route to a geometric question about the diffusion family in
+      the \(F.11d\) chart equation.  A single time-independent chart can put every
+      time slice into scalar diffusion only when the whole family already has one
+      fixed anisotropy shape.
+
+      Suppose one chart \(\Phi_k\) sends every slice of the diffusion matrix to a
+      scalar matrix:
+
+      \[
+      (\Phi_k)_* a_k(\cdot,t)=\gamma_k(\cdot,t)\,I
+      \qquad\text{for every }t\in I_k
+      \]
+
+      The conductivity pushforward identity is
+
+      \[
+      (\Phi_k)_* a_k(y,t)
+      =
+      \frac{D\Phi_k(x)\,a_k(x,t)\,D\Phi_k(x)^\top}
+      {|\det D\Phi_k(x)|}
+      \Big|_{x=\Phi_k^{-1}(y)}.
+      \]
+
+      Solving this identity for \(a_k\) forces
+
+      \[
+      a_k(\cdot,t)=\vartheta_k(\cdot,t)\,a_k^{base}
+      \qquad\text{for every }t\in I_k.
+      \]
+
+      \[
+      a_k^{base}(x)
+      :=
+      |\det D\Phi_k(x)|\,
+      D\Phi_k(x)^{-1}D\Phi_k(x)^{-T},
+      \]
+
+      \[
+      \vartheta_k(x,t):=\gamma_k(\Phi_k(x),t).
+      \]
+
+      After determinant normalization, the scalar factor \(\vartheta_k\) cancels.
+      The normalized anisotropy tensor
+      \[
+      \mathfrak A_{k,t}:=(\det a_k(\cdot,t))^{-1/6}a_k(\cdot,t)
+      \]
+      is independent of \(t\).  Equivalently, the associated metrics
+      \[
+      g_{k,t}:=(\det a_k(\cdot,t))^{1/4}a_k(\cdot,t)^{-1}
+      \]
+      all share one common conformal structure.
+
+      The current \(F.11d\) packet supplies uniform ellipticity and bounded first
+      derivatives of the coefficients.  It does not supply this time-rigid
+      conformal-structure law.  The exact missing payment in the older convex route
+      is now visible: before a fixed chart can put the family into scalar form, the
+      family must already have one determinant-normalized anisotropy shape.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential Convex V2 Simultaneous Isotropization Wall
+    line_start: 5745
+    line_end: 5831
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5745
+    start_anchor: "\\subsection{Exact-Potential Convex V2 Simultaneous Isotropization
+      Wall}\n"
+    end_anchor: "\\subsection{Exact-Potential F.11d Static-Diffusion Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: "\\subsection{Exact-Potential Convex V2 Simultaneous Isotropization Wall}\n\nD.95
+      states the remaining geometric wall in the language of the target\nparabolic
+      packet.  The \\(F.11d\\) chart equation has principal part\n\n\\[\n\\partial_t
+      \\widetilde q_k\n-\\nabla_\\zeta\\cdot(a_k\\nabla_\\zeta \\widetilde q_k)\n+b_k\\cdot
+      \\nabla_\\zeta \\widetilde q_k\n+c_k\\widetilde q_k\n=\n\\widetilde f_k\n\\]\n\nand
+      this equation does not by itself yield the lower-order convex-domain packet\n\\((F.11g2)\\)-\\((F.11g3)\\).\n\n\\[\nm:=\\dim
+      \\Omega_k=6.\n\\]\n\n\\[\n\\widehat q_k(y,t)\n:=\ne^{\\psi_k(y,t)}\\,\n\\widetilde
+      q_k(\\Phi_k^{-1}(y),t)\n\\]\n\n\\[\n\\partial_t \\widehat q_k\n-\\nu\\Delta_y
+      \\widehat q_k\n+\\widehat b_k\\cdot \\nabla_y \\widehat q_k\n+\\widehat c_k\\widehat
+      q_k\n=\n\\widehat f_k\n\\]\n\nThe exact Phung--Wang target has the constant
+      principal matrix \\(\\nu I\\).\nScalar multiplication by \\(e^{\\psi_k}\\) changes
+      lower-order terms; it does not\nchange the principal matrix.  A fixed spatial
+      chart changes the principal matrix\nby conductivity pushforward.  Thus the fixed-chart
+      route to the target packet\nrequires\n\n\\[\n(\\Phi_k)_* a_k(\\cdot,t)=\\nu
+      I\n\\qquad\\text{for every }t\\in I_k,\n\\]\n\nor, in metric language,\n\\[\ng_{k,t}:=(\\det
+      a_k(\\cdot,t))^{1/4}a_k(\\cdot,t)^{-1}\n\\]\nmust be conformally flat in the
+      same coordinates for every \\(t\\).\n\nMere scalar isotropization is still short
+      of the target.  If the chart only\ngives\n\n\\[\n(\\Phi_k)_*a_k(\\cdot,t)=\\gamma_k(\\cdot,t)I,\n\\]\n\nthen
+      the equation has scalar variable diffusion\n\\[\n\\partial_t u_k\n-\\nabla_y\\cdot(\\gamma_k\\nabla_y
+      u_k)\n+\\widetilde b_k\\cdot\\nabla_y u_k\n+\\widetilde c_k u_k\n=\n\\widetilde
+      f_k,\n\\]\nnot the constant-diffusion packet \\((F.11g2)\\).  Reaching \\((F.11g2)\\)
+      still\nrequires \\(\\gamma_k\\equiv\\nu\\), or a separate space-time normalization
+      theorem\nthat preserves the fixed product-domain observability setup.\n\nAllowing
+      a time-dependent chart \\(\\Phi_{k,t}\\) changes the problem rather than\nclosing
+      this one.  The time derivative of\n\\(\\widetilde q_k\\circ\\Phi_{k,t}^{-1}\\)
+      introduces an extra transport term and a\nmoving \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential F.11d Static-Diffusion Audit
+    line_start: 5832
+    line_end: 5902
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5832
+    start_anchor: "\\subsection{Exact-Potential F.11d Static-Diffusion Audit}\n"
+    end_anchor: "\\subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Exact-Potential F.11d Static-Diffusion Audit}
+
+      D.96 corrects the readout of the \(F.11d\) localization packet.  Some older
+      exact-potential \(V2\) notes treated the chart equation as though the second
+      order coefficient were a time-dependent variable-diffusion family.  The proof
+      line of \(F.11d\) gives a smaller and sharper object: a fixed chart-metric
+      diffusion with lower-order chart and drift terms.
+
+      \[
+      \partial_t \widetilde q_k
+      -\nabla_\zeta\cdot(a_k\nabla_\zeta \widetilde q_k)
+      +b_k\cdot \nabla_\zeta \widetilde q_k
+      +c_k\widetilde q_k
+      =
+      \widetilde f_k,
+      \]
+
+      The source of the distinction is that the chart is time independent.  Write
+
+      \[
+      \widetilde q_k(\zeta,t):=q_k(\Theta_k^{-1}(\zeta),t).
+      \]
+
+      \[
+      \partial_t q_k+V_J\cdot\nabla_{x,y}q_k-\nu\Delta_{x,y}q_k
+      =
+      f_k^{hi}+f_k^{cut},
+      \]
+
+      Then the pushforward has the form
+
+      \[
+      \partial_t \widetilde q_k
+      -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+      +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+      +\widetilde c_k\widetilde q_k
+      =
+      \widetilde f_k^{hi}+\widetilde f_k^{cut},
+      \]
+
+      Here \(G_k\) depends only on the chart \(\Theta_k\).  The lower-order
+      coefficients \(\widetilde b_k,\widetilde c_k\) depend algebraically on
+      \(D\Theta_k\), \(D^2\Theta_k\), and the drift \(V_J\).  No \(V_J\)-dependent
+      term enters the second-order diffusion matrix.
+
+      The reason is elementary but important for the route.  The time derivative is
+      unchanged because \(\Theta_k\) is time independent.  The drift term
+      \(V_J\cdot\nabla q_k\) remains first order after composition with
+      \(\Theta_k^{-1}\).  The Laplacian is the only second-order part, and its
+      pushforward under a fixed \(C^2\) diffeomorphism is the usual divergence-form
+      operator with coefficient matrix determined by the chart metric.
+
+      \[
+      \boxed{
+      \partial_t \widetilde q_k
+      -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+      +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+      +\widetilde c_k\widetilde q_k
+      =
+      \widetilde f_k^{hi}+\widetilde f_k^{cut}
+      }
+      \]
+
+      This makes the live convex wall small
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential Fixed Adiabatic Forcing Packet EP.11d
+    line_start: 5903
+    line_end: 5931
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5903
+    start_anchor: "\\subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}\n"
+    end_anchor: "\\subsection{Exact-Potential Residual Pairwise Closure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}
+
+      D.97 records what the exact-potential branch has to assume before the \(V2\)
+      operator discussion even matters.  The stronger adiabatic continuation does not
+      leave the forcing side as an abstract split schedule.  With the fixed selector
+
+      \[
+      \gamma_k=e^{2CK_k}r_k^{1/4};
+      \]
+
+      and the dyadic Carleson-growth packet \(EP.11d\), the forcing side is reduced to
+      one explicit sufficient packet:
+
+      \[
+      \begin{gathered}
+      \text{angular ledger estimate}+\text{forcing packet}+V1+V2\\
+      \Longrightarrow \text{exact-potential readout}\\
+      \Longrightarrow \text{pressure-defect conclusion}.
+      \end{gathered}
+      \]
+
+      This is a descendant sufficient route beneath the simple-top entry
+      \(D.7mr2\).  It starts only after \(D.7mr2\) has already been supplied, for
+      example by \(D.7mq+\text{SSC-D7mb-collapse}\).  The open upstream work remains
+      Init Collapse, Mix Collapse-Honest, Drift Collapse-Honest, and the
+      \(PTC\)-Lin plus \(PTC\)-Shape route into \(D.7mq\).  The reader should see this
+      as a forcing-side handoff downstream of the angular ledger.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential V2 Bounded Lower-Order Absorption From Fixed-Metric
+      Carleman
+    line_start: 5958
+    line_end: 6045
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5958
+    start_anchor: "\\subsection{Exact-Potential V2 Bounded Lower-Order Absorption
+      From Fixed-Metric Carleman}\n"
+    end_anchor: "\\subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation
+      Remaining}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: "\\subsection{Exact-Potential V2 Bounded Lower-Order Absorption From Fixed-Metric
+      Carleman}\n\nThe repaired direct \\(V2\\) route has reached a narrow local question.
+      \ The\noperator on each retained chart has a fixed Lipschitz metric \\(G_k\\),
+      plus\nbounded first-order and zeroth-order terms.  Once the fixed-metric heat
+      estimate\nis available in Carleman form, those bounded lower-order terms do
+      not create a\nsecond independent observability wall.  They are absorbed into
+      the same\nCarleman bulk.\n\n\\[\nP_k z\n:=\nP_{k,0} z\n+\\widehat b_k\\cdot
+      \\nabla_\\zeta z\n+\\widehat c_k z,\n\\qquad\nP_{k,0}z:=\n-\\partial_t z-\\nu\\,\\nabla_\\zeta\\cdot(G_k\\nabla_\\zeta
+      z),\n\\]\n\nHere \\(G_k\\) is the fixed chart metric from the repaired F.11d
+      readout, and\n\\(\\widehat b_k,\\widehat c_k\\in L^\\infty(\\Omega_k\\times
+      I_k)\\).  The retained\nchart family supplies one uniform bound:\n\n\\[\n\\|\\widehat
+      b_k\\|_{L^\\infty(\\Omega_k\\times I_k)}\n+\n\\|\\widehat c_k\\|_{L^\\infty(\\Omega_k\\times
+      I_k)}\n\\le M_\\ast\n\\]\n\n\\[\n\\mathcal I_{k,s}[z]\n\\le\nC_0\\Big(\n\\|e^{s\\phi_k}P_{k,0}z\\|_{L^2(\\Omega_k\\times
+      I_k)}^2\n+\n\\operatorname{Obs}_{k,s}[z]\n\\Big)\n\\qquad\n\\text{for all }s\\ge
+      s_0,\n\\]\n\nwhere\n\n\\[\n\\mathcal I_{k,s}[z]\n:=\ns^3\\!\\!\\int_{\\Omega_k\\times
+      I_k}\\!\\!\\theta_k^3 e^{2s\\phi_k}|z|^2\n+\ns\\!\\!\\int_{\\Omega_k\\times
+      I_k}\\!\\!\\theta_k e^{2s\\phi_k}|\\nabla_\\zeta z|^2.\n\\]\n\nThe lower-order
+      terms are small against this bulk when \\(s\\) is large.  Indeed,\n\n\\[\n\\|e^{s\\phi_k}P_{k,0}z\\|_{L^2}^2\n\\le\n2\\|e^{s\\phi_k}P_kz\\|_{L^2}^2\n+\n2M_\\ast^2\n\\int_{\\Omega_k\\times
+      I_k}e^{2s\\phi_k}\n\\bigl(|\\nabla_\\zeta z|^2+|z|^2\\bigr).\n\\]\n\nThe last
+      integral is lower order relative to \\(\\mathcal I_{k,s}[z]\\): the\ngradient
+      term is dominated by the \\(s\\theta_k\\)-weighted part, and the\nzeroth-order
+      term is dominated by the \\(s^3\\theta_k^3\\)-weighted part after the\nusual
+      interior time cutoff.  Taking \\(s\\) large enough absorbs that contribution\ninto
+      the left side and gives\n\n\\[\n\\mathcal I_{k,s}[z]\n\\le\n2C_0\\Big(\n\\|e^{s\\phi_k}P_k
+      z\\|_{L^2(\\Omega_k\\times I_k)}^2\n+\n\\operatorname{Obs}_{k,s}[z]\n\\Big).\n\\]\n\nThus
+      \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation
+      Remaining
+    line_start: 6046
+    line_end: 6085
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:6046
+    start_anchor: "\\subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation
+      Remaining}\n"
+    end_anchor: "\\subsection{Exact Potential V2 Import Menu After Ep11D}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation Remaining}
+
+      This subsection records the earlier intermediate split on the repaired direct
+      \(V2\) route.  At that point the route had two local pieces: fixed-metric heat
+      observability for the static chart metric, and a bounded lower-order
+      perturb-transfer step.  The preceding subsection now pays the second piece, so
+      this split is no longer the current stopping point.
+
+      \[
+      \partial_t u-\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta u)=0
+      \]
+
+      Laurent--Leautaud 2018 supply the relevant fixed-metric support: a uniform
+      Carleman estimate for bounded families of Lipschitz metrics, with the associated
+      uniform spectral inequalities and heat observability estimates.  When the
+      repaired F.11d packet is read with fixed diffusion \(\nu G_k\), this external
+      support covers the base heat equation above.
+
+      The intermediate route was
+
+      \[
+      \begin{aligned}
+      &\text{fixed-metric heat observability}
+      \Longrightarrow
+      \text{bounded lower-order transfer},\\
+      &\text{bounded lower-order transfer}
+      \Longrightarrow
+      \text{PDO-Carleman}
+      \Longrightarrow
+      \text{windowwise }V2.
+      \end{aligned}
+      \]
+
+      D.99 tightens that route: the bounded lower-order packet is absorbed directly
+      once the fixed-metric Carleman estimate is imported.  The live local status is
+      now simpler.  The repaired direct branch needs the fixed-metric Lipschitz import
+      and the already-recorded Wang--Zhang measurable-time step; the lower-order
+      perturb-transfer wall is no longer a separate branch-local debt.
+
+
+    truncated: false
+  context_excerpt: |
+    \subsection{Exact-Potential Bounded-Chart Stokes V2 Route Audit}
+
+    The first older \(V2\) import option after the forcing side is frozen by
+    \(EP.11d\) is the bounded-chart Stokes route: put the localized defect into a
+    non-stationary Stokes system, then import the measurable-set Stokes
+    observability packet.
+
+    The installed localization starts with
+    \[
+    \begin{gathered}
+    \text{angular ledger estimate}+\text{forcing packet}+V1+V2\\
+    \Longrightarrow \text{exact-potential readout}\\
+    \Longrightarrow \text{pressure-defect conclusion}.
+    \end{gathered}
+    \]
+    So, at this layer, the branch-specific local debt is \(V2\).  The Stokes
+    option would supply \(V2\) by producing a chart-localized variable satisfying a
+    Stokes equation with pressure, divergence-free constraint, and boundary
+    condition.
+
+    The installed \(F.11d\) packet gives a different object.  After cutoff
+    localization,
+
+    \[
+    q_k:=\chi_k W_J,
+    \]
+
+    the localized pair defect satisfies
+    \[
+    \partial_t q_k+V_J\cdot \nabla_{x,y}q_k-\nu\Delta_{x,y}q_k
+    =
+    f_k^{hi}+f_k^{cut},
+    \]
+
+    and the chart equation is
+    \[
+    \partial_t \widetilde q_k
+    -\nabla_\zeta\cdot(a_k\nabla_\zeta \widetilde q_k)
+    +b_k\cdot \nabla_\zeta \widetilde q_k
+    +c_k\widetilde q_k
+    =
+    \widetilde f_k^{hi}+\widetilde f_k^{cut}+\widetilde f_k^{chart},
+    \]
+
+    with uniformly elliptic variable diffusion and explicit cutoff/chart source
+    terms.  The Stokes import would require the stronger packet
+    \[
+    \partial_t q_k-\nu\Delta q_k+\nabla \pi_k = F_k,
+    \qquad
+    \nabla\!\cdot q_k=0,
+    \qquad
+    q_k|_{\partial\Omega_k}=0.
+    \]
+
+    D.91 records the gap between those two objects.  The current installed
+    localization does not supply a divergence-free repaired localized defect, a
+    pressure decomposition in the exact Stokes form, or a theorem converting the
+    chart equation above into the bounded-chart Stokes packet.  The Stokes option
+    thereby remains conditional on one new Stokes-preserving localization theorem.
+
+    This audit is retained as route hygiene.  It explains why the older Stokes
+    option is not the active repaired \(V2\) branch.
+
+
+
+    \subsection{Exact-Potential Convex Product-Set Parabolic V2 Route Audit}
+
+    D.92 audits the second older \(V2\) import option after \(EP.11d\): reduce the
+    localized defect to a lower-order parabolic equation on a convex chart domain,
+    then import Phung--Wang measurable-time observability.
+
+    The repaired \(F.11d\) readout is sharper than the older variable-diffusion
+    story.  Because the chart is time independent, the principal diffusion is a
+    fixed chart metric.  The honest localized equation is
+
+    \[
+    \partial_t \widetilde q_k
+    -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+    +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+    +\widetilde c_k\widetilde q_k
+    =
+    \widetilde f_k^{hi}+\widetilde f_k^{cut},
+    \]
+
+    where \(G_k\) is fixed by the chart and the lower-order coefficients carry the
+    pair drift and chart terms.  The Phung--Wang route asks for one more
+    normalization: on a convex chart domain, rewrite the same localized defect as
+
+    \[
+    \partial_t \widehat q_k
+    -\nu\Delta \widehat q_k
+    +\widehat b_k\cdot \nabla \widehat q_k
+    +\widehat c_k\widehat q_k
+    =
+    \widehat f_k,
+    \]
+
+    \[
+    \widehat b_k\in L^\infty(\Omega_k\times I_k),
+    \qquad
+    \widehat c_k\in L^\infty(I_k;L^q(\Omega_k)),
+    \qquad
+    q>\dim\Omega_k.
+    \]
+
+    That is the exact lower-order packet to which the Phung--Wang theorem applies.
+    The installed \(F.11d\) packet does not itself perform the static flattening of
+    the metric \(G_k\), and it does not prove that the lower-order coefficients and
+    source terms remain in the required class after such a flattening.
+
+    So this older convex product-set route remains conditional on two theorem
+    packets:
+    \[
+    \text{static chart-metric flattening of }G_k
+    \quad+\quad
+    \text{lower-order admissibility after flattening}.
+    \]
+
+    The active repaired direct branch no longer stops at that older convex
+    normalization wall.  It keeps the fixed-metric operator and uses the
+    Laurent--Leautaud fixed-metric Lipschitz Carleman / heat-observability import
+    together with Wang--Zhang measurable-time observability.  In that repaired
+    direct route, the bounded lower-order packet is absorbed by the fixed-metric
+    Carleman estimate, and the resulting \(V2\) packet feeds
+    \[
+    \begin{gathered}
+    \text{exact-potential readout}\Longrightarrow \text{pressure-defect conclusion},\\
+    \text{and under the selector condition},\quad \text{strain gain}.
+    \end{gathered}
+    \]
+
+    D.92 stays in the appendix to explain the older convex route, the smaller
+    static-diffusion wall, and why the current \(V2\) continuation uses the repaired
+    direct \(LL+WZ\) packet instead.
+
+
+
+    \subsection{Exact-Potential Convex V2 Common Conformal-Structure Wall}
+
+    D.93 keeps the older convex product-set \(V2\) route honest.  The previous
+    audit reduced that route to a geometric question about the diffusion family in
+    the \(F.11d\) chart equation.  A single time-independent chart can put every
+    time slice into scalar diffusion only when the whole family already has one
+    fixed anisotropy shape.
+
+    Suppose one chart \(\Phi_k\) sends every slice of the diffusion matrix to a
+    scalar matrix:
+
+    \[
+    (\Phi_k)_* a_k(\cdot,t)=\gamma_k(\cdot,t)\,I
+    \qquad\text{for every }t\in I_k
+    \]
+
+    The conductivity pushforward identity is
+
+    \[
+    (\Phi_k)_* a_k(y,t)
+    =
+    \frac{D\Phi_k(x)\,a_k(x,t)\,D\Phi_k(x)^\top}
+    {|\det D\Phi_k(x)|}
+    \Big|_{x=\Phi_k^{-1}(y)}.
+    \]
+
+    Solving this identity for \(a_k\) forces
+
+    \[
+    a_k(\cdot,t)=\vartheta_k(\cdot,t)\,a_k^{base}
+    \qquad\text{for every }t\in I_k.
+    \]
+
+    \[
+    a_k^{base}(x)
+    :=
+    |\det D\Phi_k(x)|\,
+    D\Phi_k(x)^{-1}D\Phi_k(x)^{-T},
+    \]
+
+    \[
+    \vartheta_k(x,t):=\gamma_k(\Phi_k(x),t).
+    \]
+
+    After determinant normalization, the scalar factor \(\vartheta_k\) cancels.
+    The normalized anisotropy tensor
+    \[
+    \mathfrak A_{k,t}:=(\det a_k(\cdot,t))^{-1/6}a_k(\cdot,t)
+    \]
+    is independent of \(t\).  Equivalently, the associated metrics
+    \[
+    g_{k,t}:=(\det a_k(\cdot,t))^{1/4}a_k(\cdot,t)^{-1}
+    \]
+    all share one common conformal structure.
+
+    The current \(F.11d\) packet supplies uniform ellipticity and bounded first
+    derivatives of the coefficients.  It does not supply this time-rigid
+    conformal-structure law.  The exact missing payment in the older convex route
+    is now visible: before a fixed chart can put the family into scalar form, the
+    family must already have one determinant-normalized anisotropy shape.
+
+
+
+    \subsection{Exact-Potential Convex V2 Simultaneous Isotropization Wall}
+
+    D.95 states the remaining geometric wall in the language of the target
+    parabolic packet.  The \(F.11d\) chart equation has principal part
+
+    \[
+    \partial_t \widetilde q_k
+    -\nabla_\zeta\cdot(a_k\nabla_\zeta \widetilde q_k)
+    +b_k\cdot \nabla_\zeta \widetilde q_k
+    +c_k\widetilde q_k
+    =
+    \widetilde f_k
+    \]
+
+    and this equation does not by itself yield the lower-order convex-domain packet
+    \((F.11g2)\)-\((F.11g3)\).
+
+    \[
+    m:=\dim \Omega_k=6.
+    \]
+
+    \[
+    \widehat q_k(y,t)
+    :=
+    e^{\psi_k(y,t)}\,
+    \widetilde q_k(\Phi_k^{-1}(y),t)
+    \]
+
+    \[
+    \partial_t \widehat q_k
+    -\nu\Delta_y \widehat q_k
+    +\widehat b_k\cdot \nabla_y \widehat q_k
+    +\widehat c_k\widehat q_k
+    =
+    \widehat f_k
+    \]
+
+    The exact Phung--Wang target has the constant principal matrix \(\nu I\).
+    Scalar multiplication by \(e^{\psi_k}\) changes lower-order terms; it does not
+    change the principal matrix.  A fixed spatial chart changes the principal matrix
+    by conductivity pushforward.  Thus the fixed-chart route to the target packet
+    requires
+
+    \[
+    (\Phi_k)_* a_k(\cdot,t)=\nu I
+    \qquad\text{for every }t\in I_k,
+    \]
+
+    or, in metric language,
+    \[
+    g_{k,t}:=(\det a_k(\cdot,t))^{1/4}a_k(\cdot,t)^{-1}
+    \]
+    must be conformally flat in the same coordinates for every \(t\).
+
+    Mere scalar isotropization is still short of the target.  If the chart only
+    gives
+
+    \[
+    (\Phi_k)_*a_k(\cdot,t)=\gamma_k(\cdot,t)I,
+    \]
+
+    then the equation has scalar variable diffusion
+    \[
+    \partial_t u_k
+    -\nabla_y\cdot(\gamma_k\nabla_y u_k)
+    +\widetilde b_k\cdot\nabla_y u_k
+    +\widetilde c_k u_k
+    =
+    \widetilde f_k,
+    \]
+    not the constant-diffusion packet \((F.11g2)\).  Reaching \((F.11g2)\) still
+    requires \(\gamma_k\equiv\nu\), or a separate space-time normalization theorem
+    that preserves the fixed product-domain observability setup.
+
+    Allowing a time-dependent chart \(\Phi_{k,t}\) changes the problem rather than
+    closing this one.  The time derivative of
+    \(\widetilde q_k\circ\Phi_{k,t}^{-1}\) introduces an extra transport term and a
+    moving observation chart, so that route is not the installed fixed-domain
+    packet \((F.11g2)\)-\((F.11g3)\).
+
+    The conductivity/metric references behind this audit are used only to identify
+    the missing geometric object.  They do not discharge it.  The reader should take
+    D.93-D.95 as the route-readable explanation of why the older fixed-chart convex
+    \(V2\) option remains a historical audit branch, while the repaired direct
+    \(LL+WZ\) route recorded above remains the active exact-potential continuation.
+
+
+
+    \subsection{Exact-Potential F.11d Static-Diffusion Audit}
+
+    D.96 corrects the readout of the \(F.11d\) localization packet.  Some older
+    exact-potential \(V2\) notes treated the chart equation as though the second
+    order coefficient were a time-dependent variable-diffusion family.  The proof
+    line of \(F.11d\) gives a smaller and sharper object: a fixed chart-metric
+    diffusion with lower-order chart and drift terms.
+
+    \[
+    \partial_t \widetilde q_k
+    -\nabla_\zeta\cdot(a_k\nabla_\zeta \widetilde q_k)
+    +b_k\cdot \nabla_\zeta \widetilde q_k
+    +c_k\widetilde q_k
+    =
+    \widetilde f_k,
+    \]
+
+    The source of the distinction is that the chart is time independent.  Write
+
+    \[
+    \widetilde q_k(\zeta,t):=q_k(\Theta_k^{-1}(\zeta),t).
+    \]
+
+    \[
+    \partial_t q_k+V_J\cdot\nabla_{x,y}q_k-\nu\Delta_{x,y}q_k
+    =
+    f_k^{hi}+f_k^{cut},
+    \]
+
+    Then the pushforward has the form
+
+    \[
+    \partial_t \widetilde q_k
+    -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+    +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+    +\widetilde c_k\widetilde q_k
+    =
+    \widetilde f_k^{hi}+\widetilde f_k^{cut},
+    \]
+
+    Here \(G_k\) depends only on the chart \(\Theta_k\).  The lower-order
+    coefficients \(\widetilde b_k,\widetilde c_k\) depend algebraically on
+    \(D\Theta_k\), \(D^2\Theta_k\), and the drift \(V_J\).  No \(V_J\)-dependent
+    term enters the second-order diffusion matrix.
+
+    The reason is elementary but important for the route.  The time derivative is
+    unchanged because \(\Theta_k\) is time independent.  The drift term
+    \(V_J\cdot\nabla q_k\) remains first order after composition with
+    \(\Theta_k^{-1}\).  The Laplacian is the only second-order part, and its
+    pushforward under a fixed \(C^2\) diffeomorphism is the usual divergence-form
+    operator with coefficient matrix determined by the chart metric.
+
+    \[
+    \boxed{
+    \partial_t \widetilde q_k
+    -\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+    +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
+    +\widetilde c_k\widetilde q_k
+    =
+    \widetilde f_k^{hi}+\widetilde f_k^{cut}
+    }
+    \]
+
+    This makes the live convex wall smaller than the older variable-diffusion
+    reading.  The active \(F.11d\) readout needs static chart-metric flattening of
+    \(G_k\), followed by lower-order admissibility on the flattened convex chart.
+    The common-conformal-structure material in D.93-D.95 is retained as the audit of
+    the older stronger packaging.  The live repaired \(V2\) wall is the static
+    chart-metric flattening and lower-order admissibility packet.
+
+
+
+    \subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}
+
+    D.97 records what the exact-potential branch has to assume before the \(V2\)
+    operator discussion even matters.  The stronger adiabatic continuation does not
+    leave the forcing side as an abstract split schedule.  With the fixed selector
+
+    \[
+    \gamma_k=e^{2CK_k}r_k^{1/4};
+    \]
+
+    and the dyadic Carleson-growth packet \(EP.11d\), the forcing side is reduced to
+    one explicit sufficient packet:
+
+    \[
+    \begin{gathered}
+    \text{angular ledger estimate}+\text{forcing packet}+V1+V2\\
+    \Longrightarrow \text{exact-potential readout}\\
+    \Longrightarrow \text{pressure-defect conclusion}.
+    \end{gathered}
+    \]
+
+    This is a descendant sufficient route beneath the simple-top entry
+    \(D.7mr2\).  It starts only after \(D.7mr2\) has already been supplied, for
+    example by \(D.7mq+\text{SSC-D7mb-collapse}\).  The open upstream work remains
+    Init Collapse, Mix Collapse-Honest, Drift Collapse-Honest, and the
+    \(PTC\)-Lin plus \(PTC\)-Shape route into \(D.7mq\).  The reader should see this
+    as a forcing-side handoff downstream of the angular ledger.
+
+
+
+    \subsection{Exact-Potential V2 Bounded Lower-Order Absorption From Fixed-Metric Carleman}
+
+    The repaired direct \(V2\) route has reached a narrow local question.  The
+    operator on each retained chart has a fixed Lipschitz metric \(G_k\), plus
+    bounded first-order and zeroth-order terms.  Once the fixed-metric heat estimate
+    is available in Carleman form, those bounded lower-order terms do not create a
+    second independent observability wall.  They are absorbed into the same
+    Carleman bulk.
+
+    \[
+    P_k z
+    :=
+    P_{k,0} z
+    +\widehat b_k\cdot \nabla_\zeta z
+    +\widehat c_k z,
+    \qquad
+    P_{k,0}z:=
+    -\partial_t z-\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta z),
+    \]
+
+    Here \(G_k\) is the fixed chart metric from the repaired F.11d readout, and
+    \(\widehat b_k,\widehat c_k\in L^\infty(\Omega_k\times I_k)\).  The retained
+    chart family supplies one uniform bound:
+
+    \[
+    \|\widehat b_k\|_{L^\infty(\Omega_k\times I_k)}
+    +
+    \|\widehat c_k\|_{L^\infty(\Omega_k\times I_k)}
+    \le M_\ast
+    \]
+
+    \[
+    \mathcal I_{k,s}[z]
+    \le
+    C_0\Big(
+    \|e^{s\phi_k}P_{k,0}z\|_{L^2(\Omega_k\times I_k)}^2
+    +
+    \operatorname{Obs}_{k,s}[z]
+    \Big)
+    \qquad
+    \text{for all }s\ge s_0,
+    \]
+
+    where
+
+    \[
+    \mathcal I_{k,s}[z]
+    :=
+    s^3\!\!\int_{\Omega_k\times I_k}\!\!\theta_k^3 e^{2s\phi_k}|z|^2
+    +
+    s\!\!\int_{\Omega_k\times I_k}\!\!\theta_k e^{2s\phi_k}|\nabla_\zeta z|^2.
+    \]
+
+    The lower-order terms are small against this bulk when \(s\) is large.  Indeed,
+
+    \[
+    \|e^{s\phi_k}P_{k,0}z\|_{L^2}^2
+    \le
+    2\|e^{s\phi_k}P_kz\|_{L^2}^2
+    +
+    2M_\ast^2
+    \int_{\Omega_k\times I_k}e^{2s\phi_k}
+    \bigl(|\nabla_\zeta z|^2+|z|^2\bigr).
+    \]
+
+    The last integral is lower order relative to \(\mathcal I_{k,s}[z]\): the
+    gradient term is dominated by the \(s\theta_k\)-weighted part, and the
+    zeroth-order term is dominated by the \(s^3\theta_k^3\)-weighted part after the
+    usual interior time cutoff.  Taking \(s\) large enough absorbs that contribution
+    into the left side and gives
+
+    \[
+    \mathcal I_{k,s}[z]
+    \le
+    2C_0\Big(
+    \|e^{s\phi_k}P_k z\|_{L^2(\Omega_k\times I_k)}^2
+    +
+    \operatorname{Obs}_{k,s}[z]
+    \Big).
+    \]
+
+    Thus the full repaired chart operator belongs to the same chart-uniform
+    Carleman class as the fixed-metric base operator.  The lower-order
+    perturb-transfer entry in the older split is paid by this absorption argument.
+    The exact remaining local import is the fixed-metric Lipschitz Carleman / heat
+    observability packet itself.
+
+
+
+    \subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation Remaining}
+
+    This subsection records the earlier intermediate split on the repaired direct
+    \(V2\) route.  At that point the route had two local pieces: fixed-metric heat
+    observability for the static chart metric, and a bounded lower-order
+    perturb-transfer step.  The preceding subsection now pays the second piece, so
+    this split is no longer the current stopping point.
+
+    \[
+    \partial_t u-\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta u)=0
+    \]
+
+    Laurent--Leautaud 2018 supply the relevant fixed-metric support: a uniform
+    Carleman estimate for bounded families of Lipschitz metrics, with the associated
+    uniform spectral inequalities and heat observability estimates.  When the
+    repaired F.11d packet is read with fixed diffusion \(\nu G_k\), this external
+    support covers the base heat equation above.
+
+    The intermediate route was
+
+    \[
+    \begin{aligned}
+    &\text{fixed-metric heat observability}
+    \Longrightarrow
+    \text{bounded lower-order transfer},\\
+    &\text{bounded lower-order transfer}
+    \Longrightarrow
+    \text{PDO-Carleman}
+    \Longrightarrow
+    \text{windowwise }V2.
+    \end{aligned}
+    \]
+
+    D.99 tightens that route: the bounded lower-order packet is absorbed directly
+    once the fixed-metric Carleman estimate is imported.  The live local status is
+    now simpler.  The repaired direct branch needs the fixed-metric Lipschitz import
+    and the already-recorded Wang--Zhang measurable-time step; the lower-order
+
+    % ... source excerpt truncated for packet size ...
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential Bounded-Chart Stokes V2 Route Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5490
+  line_start: 5490
+  line_end: 5553
+  start_anchor: "\\subsection{Exact-Potential Bounded-Chart Stokes V2 Route Audit}\n"
+  end_anchor: "\\subsection{Exact-Potential Convex Product-Set Parabolic V2 Route
+    Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential Bounded-Chart
+    Stokes V2 Route Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5490
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential Convex Product-Set Parabolic V2 Route Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5554
+  line_start: 5554
+  line_end: 5624
+  start_anchor: "\\subsection{Exact-Potential Convex Product-Set Parabolic V2 Route
+    Audit}\n"
+  end_anchor: "\\subsection{Exact-Potential Convex V2 Common Conformal-Structure Wall}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential Convex Product-Set
+    Parabolic V2 Route Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5554
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential Convex V2 Common Conformal-Structure Wall
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5625
+  line_start: 5625
+  line_end: 5686
+  start_anchor: "\\subsection{Exact-Potential Convex V2 Common Conformal-Structure
+    Wall}\n"
+  end_anchor: "\\subsection{Exact-Potential Convex V2 Normalized Chart-Defect Rigidity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential Convex V2 Common
+    Conformal-Structure Wall as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5625
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential Convex V2 Simultaneous Isotropization Wall
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5745
+  line_start: 5745
+  line_end: 5831
+  start_anchor: "\\subsection{Exact-Potential Convex V2 Simultaneous Isotropization
+    Wall}\n"
+  end_anchor: "\\subsection{Exact-Potential F.11d Static-Diffusion Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential Convex V2 Simultaneous
+    Isotropization Wall as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5745
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential F.11d Static-Diffusion Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5832
+  line_start: 5832
+  line_end: 5902
+  start_anchor: "\\subsection{Exact-Potential F.11d Static-Diffusion Audit}\n"
+  end_anchor: "\\subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential F.11d Static-Diffusion
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5832
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential Fixed Adiabatic Forcing Packet EP.11d
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5903
+  line_start: 5903
+  line_end: 5931
+  start_anchor: "\\subsection{Exact-Potential Fixed Adiabatic Forcing Packet EP.11d}\n"
+  end_anchor: "\\subsection{Exact-Potential Residual Pairwise Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential Fixed Adiabatic
+    Forcing Packet EP.11d as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5903
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential V2 Bounded Lower-Order Absorption From Fixed-Metric
+    Carleman
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5958
+  line_start: 5958
+  line_end: 6045
+  start_anchor: "\\subsection{Exact-Potential V2 Bounded Lower-Order Absorption From
+    Fixed-Metric Carleman}\n"
+  end_anchor: "\\subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation
+    Remaining}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential V2 Bounded Lower-Order
+    Absorption From Fixed-Metric Carleman as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:5958
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation Remaining
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:6046
+  line_start: 6046
+  line_end: 6085
+  start_anchor: "\\subsection{Exact-Potential V2 Fixed-Metric Heat Supported, Perturbation
+    Remaining}\n"
+  end_anchor: "\\subsection{Exact Potential V2 Import Menu After Ep11D}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Exact-Potential V2 Fixed-Metric
+    Heat Supported, Perturbation Remaining as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:6046
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-05
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-05.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

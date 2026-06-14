@@ -450,7 +450,7 @@ For the selector readout, the inequality
 
 ```math
 1-(e_h\cdot e_F)^2
-\lesssim
+\le C_{\mathrm{P8}}
 \frac{|D_{h/F}|^2}{|Fr|^2}
 \tag{USCP.P8}
 ```
@@ -751,7 +751,7 @@ Then
 
 ```math
 |P_h-P_F|_F^2
-\lesssim
+\le C_{\mathrm{Q16}}
 \frac{|D_{h/F}|^2}{|r|^2}.
 \tag{USCP.Q16}
 ```
@@ -799,7 +799,7 @@ The shell stress bridge is:
 \qquad
 \mathsf{Shell}_\rho
 =
-\int_{|r|\simeq\rho}\omega\otimes\omega:dM_\ast.
+\int_{\rho/c_\rho\le |r|\le c_\rho\rho}\omega\otimes\omega:dM_\ast.
 \tag{USCP.Q20}
 ```
 
@@ -907,7 +907,7 @@ Assume the native pack gauge has the form
 
 ```math
 \Gamma_{\mathrm{pack}}(Q)
-\lesssim
+\le C_{\mathrm{pack}}
 \|F\|_{L^\infty(Q)}
 +
 \|F^{-1}\|_{L^\infty(Q)}
@@ -1289,7 +1289,7 @@ The homogeneity check is
 
 ```math
 K_\rho
-\sim
+:=
 \frac{1}{|r|^2}\frac{dr}{|r|^3}
 \tag{USCP.R41}
 ```
@@ -1316,7 +1316,7 @@ Let the historical shell strain barrier be `\mathsf B_\rho^{hist}`. Define
 ```math
 \mathsf{Str}_\rho(M_\ast)
 :=
-\int_{|r|\simeq\rho}
+\int_{\rho/c_\rho\le |r|\le c_\rho\rho}
 \omega\otimes\omega:dM_\ast.
 \tag{USCP.R43}
 ```

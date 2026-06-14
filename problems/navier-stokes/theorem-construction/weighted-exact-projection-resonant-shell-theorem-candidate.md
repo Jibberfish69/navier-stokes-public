@@ -69,7 +69,7 @@ Only this packet is genuinely same-depth and same-scale on the reserve route.
 
 Let `f_j,g_j` be torus shell-localized fields with Fourier support on lattice
 modes `\xi,\eta\in\mathbb Z^3\setminus\{0\}` satisfying
-`|\xi|\sim|\eta|\sim|\xi+\eta|\sim 2^j`. Denote by
+`2^{j-1}\le|\xi|,|\eta|,|\xi+\eta|\le2^{j+1}`. Denote by
 `b_G(a,\xi,\eta)` the bilinear symbol seen by the shellwise resonant pressure
 interaction after the exact projector carrier has been inserted into
 `\mathcal B_G`.
@@ -81,7 +81,7 @@ Equivalently, `b_G` is the symbol governing the shellwise form
 :=
 \mathcal B_G(f_j,g_j)
 \qquad
-\text{with both inputs restricted to the torus lattice shell }|\xi|\sim 2^j.
+\text{with both inputs restricted to }2^{j-1}\le|\xi|\le2^{j+1}.
 \tag{WERS.1}
 ```
 
@@ -171,8 +171,8 @@ and
 ```math
 \boxed{
 |\mathcal B_{G,rem}^{res,j}(f_j,g_j)|
-\lesssim
-C_G\,2^{-j}\,
+\le
+C_{rem,G}\,2^{-j}\,
 \|f_j\|_{\mathsf{SameDepth}_j}\,
 \|g_j\|_{\mathsf{SameDepth}_j},
 }
@@ -229,7 +229,7 @@ C_{\alpha,\beta}\,C_G\,\rho_j\,2^{j(1-|\alpha|-|\beta|)}
 \tag{WERS.3R}
 ```
 
-on the resonant shell `|\xi|\sim|\eta|\sim|\xi+\eta|\sim 2^j`, where `\rho_j`
+on the resonant shell `2^{j-1}\le|\xi|,|\eta|,|\xi+\eta|\le2^{j+1}`, where `\rho_j`
 is the exact resonant gain carried by the same-scale geometry. Once
 `(WERS.3R)` is proved, the pure resonant theorem follows formally.
 
@@ -253,7 +253,7 @@ Since `p_G(a,\xi)` has kernel `\{w:\xi\cdot w=0\}`, one has
 ```
 
 Suppose the frozen principal resonant transport tensor can be written on the
-shell in the schematic form
+shell in the factorized form
 
 ```math
 b_{G,j}^{main}(a,\xi,\eta)
@@ -413,7 +413,7 @@ C_G\,2^j\,\sin\angle(\xi,\eta),
 \tag{WERS.3N6}
 ```
 
-on `|\xi|\sim|\eta|\sim|\zeta|\sim 2^j`. Defining the resonant thinness
+on `2^{j-1}\le|\xi|,|\eta|,|\zeta|\le2^{j+1}`. Defining the resonant thinness
 parameter
 
 ```math
@@ -464,7 +464,7 @@ and write the projected resonant main symbol as the smooth cap-pair sum
 ```math
 b_{G,j}^{main}(a,\xi,\eta)
 :=
-\sum_{\angle(\omega,\omega')\lesssim \rho_j}
+\sum_{\angle(\omega,\omega')\le C_{\angle}\rho_j}
 \chi_j(\xi)\chi_j(\eta)\chi_j(\zeta)\,
 \psi_{j,\omega}(\xi)\psi_{j,\omega'}(\eta)\,
 \widetilde b_G(a,\xi,\eta),
@@ -494,14 +494,14 @@ microlocal theorem packet:
 \boxed{
 \begin{gathered}
 \text{Choose a shell partition }1=\sum_\omega \psi_{j,\omega}(\xi)
-\text{ on }|\xi|\sim 2^j
+\text{ on }2^{j-1}\le|\xi|\le2^{j+1}
 \text{ with cap width }\rho_j,\\
 |\partial_\xi^\alpha \psi_{j,\omega}(\xi)|
 \le
 C_\alpha\,2^{-j|\alpha|}\rho_j^{-|\alpha|},\\
 b_{G,j}^{main}(a,\xi,\eta)
 =
-\sum_{\angle(\omega,\omega')\lesssim \rho_j}
+\sum_{\angle(\omega,\omega')\le C_{\angle}\rho_j}
 \chi_j(\xi)\chi_j(\eta)\chi_j(\zeta)\,
 \psi_{j,\omega}(\xi)\psi_{j,\omega'}(\eta)\,
 \widetilde b_G(a,\xi,\eta),\\
@@ -523,12 +523,12 @@ finite derivative order `N`.
 
 This compatibility is the real obstruction. A single first-order angular
 vanishing does **not** by itself prove `(WERS.3R)` for all derivatives up to
-order `N`. If the main symbol only has the schematic form
+order `N`. If the only installed information is the model upper bound
 
 ```math
-b_{G,j}^{main}\sim 2^j\,\Theta_j\,q_G,
+\big|b_{G,j}^{main}\big|\le C_G\,2^j\,|\Theta_j|\,|q_G|,
 \qquad
-|\Theta_j|\lesssim \rho_j,
+|\Theta_j|\le C_\Theta\rho_j,
 \tag{WERS.3Cap.a}
 ```
 
@@ -537,7 +537,7 @@ naive size
 
 ```math
 |\partial^k b_{G,j}^{main}|
-\lesssim
+\le
 C_{k,G}\,\rho_j^{1-k}\,2^{j(1-k)},
 \tag{WERS.3Cap.b}
 ```
@@ -660,7 +660,7 @@ C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
 ```
 
 Here `\mathcal R_j` denotes the active cap pairs with
-`\angle(\omega,\omega')\lesssim \rho_j`, and the right-hand side is exactly the
+`\angle(\omega,\omega')\le C_{\angle}\rho_j`, and the right-hand side is exactly the
 `C_G\,\rho_j\,2^j` gain already visible pointwise from the projected null
 factor. The additional theorem content is capwise almost-orthogonality or a
 `TT^*`-style bilinear argument strong enough to sum the active packet family

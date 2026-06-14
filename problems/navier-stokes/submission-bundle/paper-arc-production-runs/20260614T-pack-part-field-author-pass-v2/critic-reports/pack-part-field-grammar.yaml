@@ -1,0 +1,44 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T05:14:28Z'
+arc_id: pack-part-field-grammar
+title: Pack/Part/Field witness grammar
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 2
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_sections:
+- spine_id: packet-witness-law
+  section_title: Packet Witness Law
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:637
+  line_start: 637
+  line_end: 671
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: simplifying-the-witness-logic-table
+  section_title: Simplifying The Witness Logic Table
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:758
+  line_start: 758
+  line_end: 778
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: pack-part-field-grammar
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

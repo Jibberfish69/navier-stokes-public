@@ -1,0 +1,1106 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-critical-norm-and-field-10
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-10
+  sequence: 78
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 10
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 39254
+  line_end: 43576
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39254
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39328
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41622
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43128
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43181
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43473
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43510
+  subsection_titles:
+  - Clay problem Jump avg Branch-Native Post-Reconcile No-Field Elimination Note
+  - Jump avg no-Field branch elimination audit
+  - Clay problem Mixed-Shell Spill Coefficient Scheduler Attempt Note
+  - Clay problem Normal-Covector Witness-To-Readout Theorem
+  - Clay problem Normalized Adjoint Amplitude Four-Certificate Discharge
+  - Clay problem Normalized Child Mass Source-Drain Assembly Note
+  - Clay problem One-Field Forward-Preservation Reduction Note
+  - Clay problem One-Field Forward-Preservation Theorem Program
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Jump avg Branch-Native Post-Reconcile No-Field
+      Elimination Note
+    line_start: 39254
+    line_end: 39296
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39254
+    start_anchor: "\\subsection{Clay problem Jump avg Branch-Native Post-Reconcile
+      No-Field Elimination Note}\n"
+    end_anchor: "\\subsection{Clay problem Jump avg Final Active-Window Source Wall
+      Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Jump avg Branch-Native Post-Reconcile No-Field Elimination Note}
+
+      It does not claim that Jump avg is unconditionally eliminated from Original Smooth Data. It proves the legal no-Field avg branch theorem and identifies the exact remaining root source-wall input.
+
+      With Source PulseCMExit.A installed, the stronger no-field/no-pulse supplier route is available. The retained CM branch split can use Source PulseCMExit.A directly; the source-wall roots below are needed only for the route that wants a literal no-Jump avg contradiction without consuming the class-exit witness.
+
+      This implication never assumes Field avg; it contradicts Jump avg through the source-pulse/no-pulse channel.
+
+      \[
+      ZenoBoundedClass_B.A
+      +ZenoResidueLiouville_B.A.
+      \]
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src}),
+      \qquad
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      Zeno Bounded Class B.A places this limit in the rigid class B, while Zeno Residue Liouville B.A gives
+
+      \[
+      B\Longrightarrow \mu_\ast^{src}=0.
+      \]
+
+      \[
+      \boxed{
+      ZenoBoundedClass_B.A
+      +ZenoResidueLiouville_B.A
+      \Longrightarrow
+      (\mathrm{Jump}_{\mathrm{avg}}\Rightarrow\bot).
+      }
+      \]
+
+      Again the contradiction is branch-native; it uses source-residue rigidity, not Field avg or endpoint readout.
+
+      Raw energy first moments do not prove this reserve; that failure is the scalar heat-window pulse obstruction recorded in the post-reconcile direct attempt.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}\Rightarrow\bot
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Jump avg no-Field branch elimination audit
+    line_start: 39328
+    line_end: 39342
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39328
+    start_anchor: "\\subsection{Jump avg no-Field branch elimination audit}\n"
+    end_anchor: "\\subsection{Clay problem L3Adjoint Native Orthogonal NoCarry.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Jump avg no-Field branch elimination audit}
+
+      The MCP-visible route surfaces do not currently prove a branch-native contradiction from Jump avg and original-data inputs alone. The only non-circular route for that stronger no-field/no-pulse task is a shared-charge contradiction for one object, and the required lower/upper pair for that same object is not installed.
+
+      This audit does not block the CM-retained branch split: that later split is handled by Source PulseCMExit.A.
+
+      where mu D is the dissipation carrier and mu P,chi are the packet-local pressure carriers.
+
+      Proof: Jump avg gives terminal windows with no positive SCF-good scale, hence an epsilon-threshold SCF base concentration sequence. Component selection converts each selected bad window into a fixed lower unit of scale-normalized nu SCF density. A separated terminal extraction gives
+
+      The scale-normalized Carleson estimate gives the same sum finite. Contradiction.
+
+      Second, even if positive mass is obtained, raw finite mass controls only unweighted sums. The Jump avg lower side is scale-normalized, so the upper estimate must control the same normalized density. A finite Radon measure can concentrate on shrinking terminal windows with finite raw mass while the scale-normalized weighted sum diverges.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Mixed-Shell Spill Coefficient Scheduler Attempt
+      Note
+    line_start: 41622
+    line_end: 41662
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41622
+    start_anchor: "\\subsection{Clay problem Mixed-Shell Spill Coefficient Scheduler
+      Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Monotone Source-Dominance No-Pulse Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Mixed-Shell Spill Coefficient Scheduler Attempt Note}
+
+      \[
+      \partial_t\mathfrak M_N^\sigma+\nu\mathfrak B_N^\sigma
+      =\mathfrak X_N^\sigma .
+      \]
+
+      The previous note already removes the mixed boundary term, the residual high-high packet, the bare off-diagonal exchange block, and the strict-low packet. The only remaining packet has the form
+
+      \[
+      |\mathfrak X_{N,\mathrm{spill}}^\sigma(t)|
+      \le
+      C\sum_{N<j\le \ell}B_j(t)M_{j,\ell}^\sigma(t)
+      +\varepsilon\nu\mathfrak B_N^\sigma(t),
+      \]
+
+      \[
+      B_j(t):=2^{3j}\sum_{m=j-M}^{j+M}\|\Delta_m u(t)\|_2^2.
+      \]
+
+      \[
+      E_m(t):=2^{2m}\|\Delta_m u(t)\|_2^2,
+      \]
+
+      \[
+      B_j(t)M_{j,\ell}^\sigma(t)
+      \le C_{M,40120}
+      \gamma_j(t)\,\mathfrak B_{j,\ell}^\sigma(t),
+      \qquad
+      \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+      \]
+
+      Thus the spill coefficient is small in aggregate time mass. However (2) is not enough to absorb the spill term, because the term needing control is not
+
+      Energy dissipation permits large values of j on small time sets, and the current inputs contain no theorem excluding concentration of B j, dt on exactly those large-coefficient sets.
+
+      This theorem is exactly the missing statement that spill-coefficient pulses do not carry the mixed-shell bilinear dissipation mass.
+
+      The mixed-shell identity has genuinely improved the branch: it removed the boundary, high-high, bare exchange, and strict-low burdens, and it made the spill coefficient the only remaining coefficient surface.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Normal-Covector Witness-To-Readout Theorem
+    line_start: 43128
+    line_end: 43180
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43128
+    start_anchor: "\\subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}\n"
+    end_anchor: "\\subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate
+      Discharge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: "\\subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}\n\nThe
+      honest master interface between the class-membership packet and the normal-covector
+      selector readout is isolated here. The class-membership witness alone is not
+      claimed to manufacture the normal covector or the selector-normal observable,
+      and W J alone is not claimed to already contain the needed branch geometry.\n\n\\[\n\\boxed{\n\\mathcal
+      E_J^{cm}\n+\n\\mathfrak R_J^{\\perp}\n\\Longrightarrow\n\\mathfrak e_{J,\\perp}^{cm},\n}\n\\]\n\nThe
+      missing integration theorem is the upstream semantic splice that tells the normal-covector
+      branch how the class-membership packet pays for packing/transport/coherence
+      losses on the same transported family before the normal observable is read,
+      once the branch has already survived the separate Law 2 reduction.\n\n\\[\n(F,A,h,\\Delta_r^XU_1,\\mathcal
+      Q_{1,r,\\psi_J}^{str})\n\\rightsquigarrow\n(N_a,P_{N_a},n_J,\\Xi_J^\\perp).\n\\]\n\nA
+      F and P F measure amplitude and relative coherence of the deformation pair (F,A);
+      E 1,r, J and Q 1,r, J str measure the same transported rung-1 strain geometry
+      on the tower side; the normal-covector branch reads that same geometry through
+      the transported bundle N a, its orthogonal projector P N a , and the measurable
+      unit normal covector n J(a).\n\n\\[\n\\widetilde{\\mathcal H}_{N,r,\\psi_J}\n\\quad\\text{is
+      branch-blind,}\n\\]\n\n\\[\n\\mathfrak R_J^\\perp\n\\quad\\text{is branch-sensitive
+      and must choose the normal-covector observable.}\n\\]\n\nFix one selector scale
+      J, one transported good family G J on a time window I J, one material packet
+      J, and one signless pair-defect packet W J.\n\n\\[\n\\mathcal E_J^{cm}\n:=\n\\sup_{t\\in
+      I_J}\\sup_{0<|r|\\le \\rho_J}\n\\widetilde{\\mathcal H}_{N,r,\\psi_J}(t)\n+\n\\int_{I_J}\\sup_{0<|r|\\le
+      \\rho_J}\n\\mathcal Q_{1,r,\\psi_J}^{str}(t)\\,dt.\n\\]\n\nInvoke the selector-normal
+      moment observable M J and its branch-local observability record to control the
+      normal readout by W J.\n\nAbsorb the remaining transport/geometry losses into
+      the CM-exported packing/transport records and the \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Normalized Adjoint Amplitude Four-Certificate Discharge
+    line_start: 43181
+    line_end: 43228
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43181
+    start_anchor: "\\subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate
+      Discharge}\n"
+    end_anchor: "\\subsection{Clay problem Normalized Child Mass Source-Drain Assembly
+      Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate Discharge}
+
+      \[
+      \Gamma_T(t)
+      =
+      \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+      \qquad
+      g_T(t)=e^{\Gamma_T(t)},
+      \qquad
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+      \]
+
+      \[
+      \chi_T(t_+)=\psi_T(t_+),
+      \]
+
+      \[
+      M(T)
+      :=
+      |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+      \]
+
+      The point of the normalization is that central positive strain is not treated as a free source. It is absorbed into the adjoint amplitude; residual creation is then measured by the weighted pairing
+
+      \[
+      \int_{I_T} g_T(t)^{-1}\langle R,\psi_T\rangle\,dt.
+      \]
+
+      \[
+      \mathcal C_T(a,b)
+      :=
+      \int_a^b
+      \left(
+      r_T^2\|\nabla^2b_k(t)\|_\infty
+      +
+      r_T\|\nabla A_k(t)\|_\infty
+      \right)\,dt.
+      \]
+
+      The term E is produced by differentiating g T(t) -1 . Its coefficient is controlled by the same central-strain gauge budget used to define g T; the remaining oscillatory part is included in the coefficient error absorbed by C T( T,t +)= M.
+
+      So the same packet mass already exists at the earlier stopped face. The cylinder
+
+      Indeed, if an earlier threshold source-pulse survived in the limit, regularity of Radon measures and dyadic density selection would produce earlier threshold-crossing tiles for n large, contradicting earliest selection.
+
+      Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Pack, Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Normalized Child Mass Source-Drain Assembly Note
+    line_start: 43229
+    line_end: 43278
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+    start_anchor: "\\subsection{Clay problem Normalized Child Mass Source-Drain Assembly
+      Note}\n"
+    end_anchor: "\\subsection{Selected-Packet Shared Pack Boundary Audit}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Normalized Child Mass Source-Drain Assembly Note}
+
+      \[
+      \Gamma_T(t)
+      =
+      \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+      \qquad
+      g_T(t)=e^{\Gamma_T(t)},
+      \qquad
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+      \]
+
+      \[
+      M(T)
+      :=
+      |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+      \]
+
+      The normalization removes central strain gain from the child amplitude and sends that gain into the parent kernel, where quiet-edge contraction can see it.
+
+      \[
+      \mathcal C(T)
+      =
+      \int_{I_T}
+      \left(
+      r_T^2\|\nabla^2b_k\|_\infty
+      +
+      r_T\|\nabla A_k\|_\infty
+      \right)\,dt
+      \le
+      \varepsilon_M.
+      \]
+
+      \[
+      \psi_T=G_T\varphi_T,
+      \qquad
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t),
+      \]
+
+      \[
+      \|\mathcal E_T\|_{L_t^1(H_x^1\to H_x^{-1})}
+      \le
+      C\varepsilon_M.
+      \]
+
+      Stopped tiles do not enter the Bessel family. They are routed to weighted residual charge or earlier ancestry by the stopped-segment adjoint identity.
+
+      So (X T( T), T,r T) is an earlier active ancestor. Thus high-gain edges become charge or ancestry.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem One-Field Forward-Preservation Reduction Note
+    line_start: 43473
+    line_end: 43509
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43473
+    start_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Reduction
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Theorem
+      Program}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem One-Field Forward-Preservation Reduction Note}
+
+      Role: compress the one-field part of the forward-invariance route to its exact live successor burdens and record the honest execution order.
+
+      The route is not widened here. The argument works only inside the installed same-fluid class-membership / collar-packet program.
+
+      Retain a same-fluid evolved still-live family Q s 0 s and seed one-field membership Field N,r 0,Q 0 (u,p).
+
+      \[
+      E_N\text{-control}
+      \;+\;
+      \text{next-rung segment control}
+      \Longrightarrow
+      \mathfrak C_{N,r_{N,\sigma},Q_s}(t)\le C_{N,\sigma}.
+      \]
+
+      So the one-field route does not reduce to a slogan like "just keep the field coherent." It reduces to proving enough propagated packet control to make the coherence modulus stay finite at one positive surviving scale.
+
+      The frozen-family side is no longer vague. Its exact live theorem burden is the source-only interval-integrability statement
+
+      \[
+      \boxed{
+      \mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I),
+      }
+      \]
+
+      \[
+      \boxed{
+      \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty,
+      }
+      \]
+
+      So once the transported-center package inputs are granted, the one-field receiver wall is exactly the residual center-forcing problem, not a looser architecture narrative.
+
+      So the one-field route is no longer an opaque theorem wall. Its exact live burden is the paired source/receiver propagation problem. On the transported-center receiver branch, that problem is already sharpened to the supplier subqueue
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem One-Field Forward-Preservation Theorem Program
+    line_start: 43510
+    line_end: 43576
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43510
+    start_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Theorem
+      Program}\n"
+    end_anchor: "\\subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem One-Field Forward-Preservation Theorem Program}
+
+      On the forward-invariance route, the packing side already has a transport law and the participation side already has the Law 2 tethering/no-drop spine.
+
+      The target is not to re-prove that seed statement. The target is to propagate a positive coherence regime along one same-fluid evolved still-live family.
+
+      Field N,r 0,Q 0 (u,p) on the seed window; the finite-difference defect-energy packet laws remain available on the transported collars issued from the seed carrier; no visible jump manifestation occurs on the family.
+
+      It does not yet prove that the collar / lower-carrier supplier chain is equivalent to the full one-field predicate on a still-live family.
+
+      So if the collar receiver branch stalls, the honest conclusion is that this installed no-jump proof route is blocked there. It is not yet licensed to read that blockage as jump manifestation unless the hypotheses of the conditional converse above are actually installed and then contradicted. The exact converse-pivot theorem surface is the collar-to-jump note.
+
+      \[
+      \Delta_r^\Phi U_k(a,t)
+      =
+      \delta_{h(a,r,t)}U_k(\Phi(a,t),t)
+      \]
+
+      \[
+      \big|
+      \delta_{h(a,r,t)}U_k
+      -
+      \delta_{F(a,t)r}U_k
+      \big|
+      \le C_{\mathrm{sf},42000}
+      |\varepsilon_h(a,r,t)|\times
+      \text{next-rung segment amplitude}.
+      \]
+
+      So packing mismatch feeds into one-field defect only through a controlled geometric error record.
+
+      \[
+      E_N(h,t_2;\psi)
+      \le
+      E_N(h,t_1;\psi)
+      +
+      \mathfrak N_{N,h,\psi}[t_1,t_2].
+      \]
+
+      So packet escalation is impossible without cumulative neighboring response on the same transported packet.
+
+      \[
+      E_N\text{-control}
+      \;+\;
+      \text{next-rung segment control}
+      \Longrightarrow
+      \mathfrak C_{N,r_{N,\sigma},Q_s}(t)\le C_{N,\sigma}.
+      \]
+
+      Retain a scale window 0<|r| , a packet , and an interval I. If the fixed finite Eulerian packet family satisfies
+
+      \[
+      \sup_{t\in I}
+      \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+      <
+      \infty,
+      \]
+
+      So the reference-increment side of one-field coherence is supplied by t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Jump avg Branch-Native Post-Reconcile No-Field Elimination Note}
+
+    It does not claim that Jump avg is unconditionally eliminated from Original Smooth Data. It proves the legal no-Field avg branch theorem and identifies the exact remaining root source-wall input.
+
+    With Source PulseCMExit.A installed, the stronger no-field/no-pulse supplier route is available. The retained CM branch split can use Source PulseCMExit.A directly; the source-wall roots below are needed only for the route that wants a literal no-Jump avg contradiction without consuming the class-exit witness.
+
+    This implication never assumes Field avg; it contradicts Jump avg through the source-pulse/no-pulse channel.
+
+    \[
+    ZenoBoundedClass_B.A
+    +ZenoResidueLiouville_B.A.
+    \]
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src}),
+    \qquad
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    Zeno Bounded Class B.A places this limit in the rigid class B, while Zeno Residue Liouville B.A gives
+
+    \[
+    B\Longrightarrow \mu_\ast^{src}=0.
+    \]
+
+    \[
+    \boxed{
+    ZenoBoundedClass_B.A
+    +ZenoResidueLiouville_B.A
+    \Longrightarrow
+    (\mathrm{Jump}_{\mathrm{avg}}\Rightarrow\bot).
+    }
+    \]
+
+    Again the contradiction is branch-native; it uses source-residue rigidity, not Field avg or endpoint readout.
+
+    Raw energy first moments do not prove this reserve; that failure is the scalar heat-window pulse obstruction recorded in the post-reconcile direct attempt.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}\Rightarrow\bot
+    \]
+
+
+
+    \subsection{Jump avg no-Field branch elimination audit}
+
+    The MCP-visible route surfaces do not currently prove a branch-native contradiction from Jump avg and original-data inputs alone. The only non-circular route for that stronger no-field/no-pulse task is a shared-charge contradiction for one object, and the required lower/upper pair for that same object is not installed.
+
+    This audit does not block the CM-retained branch split: that later split is handled by Source PulseCMExit.A.
+
+    where mu D is the dissipation carrier and mu P,chi are the packet-local pressure carriers.
+
+    Proof: Jump avg gives terminal windows with no positive SCF-good scale, hence an epsilon-threshold SCF base concentration sequence. Component selection converts each selected bad window into a fixed lower unit of scale-normalized nu SCF density. A separated terminal extraction gives
+
+    The scale-normalized Carleson estimate gives the same sum finite. Contradiction.
+
+    Second, even if positive mass is obtained, raw finite mass controls only unweighted sums. The Jump avg lower side is scale-normalized, so the upper estimate must control the same normalized density. A finite Radon measure can concentrate on shrinking terminal windows with finite raw mass while the scale-normalized weighted sum diverges.
+
+
+
+    \subsection{Clay problem Mixed-Shell Spill Coefficient Scheduler Attempt Note}
+
+    \[
+    \partial_t\mathfrak M_N^\sigma+\nu\mathfrak B_N^\sigma
+    =\mathfrak X_N^\sigma .
+    \]
+
+    The previous note already removes the mixed boundary term, the residual high-high packet, the bare off-diagonal exchange block, and the strict-low packet. The only remaining packet has the form
+
+    \[
+    |\mathfrak X_{N,\mathrm{spill}}^\sigma(t)|
+    \le
+    C\sum_{N<j\le \ell}B_j(t)M_{j,\ell}^\sigma(t)
+    +\varepsilon\nu\mathfrak B_N^\sigma(t),
+    \]
+
+    \[
+    B_j(t):=2^{3j}\sum_{m=j-M}^{j+M}\|\Delta_m u(t)\|_2^2.
+    \]
+
+    \[
+    E_m(t):=2^{2m}\|\Delta_m u(t)\|_2^2,
+    \]
+
+    \[
+    B_j(t)M_{j,\ell}^\sigma(t)
+    \le C_{M,40120}
+    \gamma_j(t)\,\mathfrak B_{j,\ell}^\sigma(t),
+    \qquad
+    \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+    \]
+
+    Thus the spill coefficient is small in aggregate time mass. However (2) is not enough to absorb the spill term, because the term needing control is not
+
+    Energy dissipation permits large values of j on small time sets, and the current inputs contain no theorem excluding concentration of B j, dt on exactly those large-coefficient sets.
+
+    This theorem is exactly the missing statement that spill-coefficient pulses do not carry the mixed-shell bilinear dissipation mass.
+
+    The mixed-shell identity has genuinely improved the branch: it removed the boundary, high-high, bare exchange, and strict-low burdens, and it made the spill coefficient the only remaining coefficient surface.
+
+
+
+    \subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}
+
+    The honest master interface between the class-membership packet and the normal-covector selector readout is isolated here. The class-membership witness alone is not claimed to manufacture the normal covector or the selector-normal observable, and W J alone is not claimed to already contain the needed branch geometry.
+
+    \[
+    \boxed{
+    \mathcal E_J^{cm}
+    +
+    \mathfrak R_J^{\perp}
+    \Longrightarrow
+    \mathfrak e_{J,\perp}^{cm},
+    }
+    \]
+
+    The missing integration theorem is the upstream semantic splice that tells the normal-covector branch how the class-membership packet pays for packing/transport/coherence losses on the same transported family before the normal observable is read, once the branch has already survived the separate Law 2 reduction.
+
+    \[
+    (F,A,h,\Delta_r^XU_1,\mathcal Q_{1,r,\psi_J}^{str})
+    \rightsquigarrow
+    (N_a,P_{N_a},n_J,\Xi_J^\perp).
+    \]
+
+    A F and P F measure amplitude and relative coherence of the deformation pair (F,A); E 1,r, J and Q 1,r, J str measure the same transported rung-1 strain geometry on the tower side; the normal-covector branch reads that same geometry through the transported bundle N a, its orthogonal projector P N a , and the measurable unit normal covector n J(a).
+
+    \[
+    \widetilde{\mathcal H}_{N,r,\psi_J}
+    \quad\text{is branch-blind,}
+    \]
+
+    \[
+    \mathfrak R_J^\perp
+    \quad\text{is branch-sensitive and must choose the normal-covector observable.}
+    \]
+
+    Fix one selector scale J, one transported good family G J on a time window I J, one material packet J, and one signless pair-defect packet W J.
+
+    \[
+    \mathcal E_J^{cm}
+    :=
+    \sup_{t\in I_J}\sup_{0<|r|\le \rho_J}
+    \widetilde{\mathcal H}_{N,r,\psi_J}(t)
+    +
+    \int_{I_J}\sup_{0<|r|\le \rho_J}
+    \mathcal Q_{1,r,\psi_J}^{str}(t)\,dt.
+    \]
+
+    Invoke the selector-normal moment observable M J and its branch-local observability record to control the normal readout by W J.
+
+    Absorb the remaining transport/geometry losses into the CM-exported packing/transport records and the residual normal-covector calibration term.
+
+    The honest on-disk conclusion is narrower and stronger in the right sense: class membership is the semantic carrier, while the normal-covector packet remains the branch consumer that turns that carrier into a concrete directional record.
+
+
+
+    \subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate Discharge}
+
+    \[
+    \Gamma_T(t)
+    =
+    \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+    \qquad
+    g_T(t)=e^{\Gamma_T(t)},
+    \qquad
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+    \]
+
+    \[
+    \chi_T(t_+)=\psi_T(t_+),
+    \]
+
+    \[
+    M(T)
+    :=
+    |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+    \]
+
+    The point of the normalization is that central positive strain is not treated as a free source. It is absorbed into the adjoint amplitude; residual creation is then measured by the weighted pairing
+
+    \[
+    \int_{I_T} g_T(t)^{-1}\langle R,\psi_T\rangle\,dt.
+    \]
+
+    \[
+    \mathcal C_T(a,b)
+    :=
+    \int_a^b
+    \left(
+    r_T^2\|\nabla^2b_k(t)\|_\infty
+    +
+    r_T\|\nabla A_k(t)\|_\infty
+    \right)\,dt.
+    \]
+
+    The term E is produced by differentiating g T(t) -1 . Its coefficient is controlled by the same central-strain gauge budget used to define g T; the remaining oscillatory part is included in the coefficient error absorbed by C T( T,t +)= M.
+
+    So the same packet mass already exists at the earlier stopped face. The cylinder
+
+    Indeed, if an earlier threshold source-pulse survived in the limit, regularity of Radon measures and dyadic density selection would produce earlier threshold-crossing tiles for n large, contradicting earliest selection.
+
+    Boundary: this discharges the source-drain supplier route. It does not by itself install the CM certificate direction into Pack, Part, Field, or Member, and it does not install the blunt converse not CM=>not Member.
+
+
+
+    \subsection{Clay problem Normalized Child Mass Source-Drain Assembly Note}
+
+    \[
+    \Gamma_T(t)
+    =
+    \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+    \qquad
+    g_T(t)=e^{\Gamma_T(t)},
+    \qquad
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+    \]
+
+    \[
+    M(T)
+    :=
+    |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+    \]
+
+    The normalization removes central strain gain from the child amplitude and sends that gain into the parent kernel, where quiet-edge contraction can see it.
+
+    \[
+    \mathcal C(T)
+    =
+    \int_{I_T}
+    \left(
+    r_T^2\|\nabla^2b_k\|_\infty
+    +
+    r_T\|\nabla A_k\|_\infty
+    \right)\,dt
+    \le
+    \varepsilon_M.
+    \]
+
+    \[
+    \psi_T=G_T\varphi_T,
+    \qquad
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t),
+    \]
+
+    \[
+    \|\mathcal E_T\|_{L_t^1(H_x^1\to H_x^{-1})}
+    \le
+    C\varepsilon_M.
+    \]
+
+    Stopped tiles do not enter the Bessel family. They are routed to weighted residual charge or earlier ancestry by the stopped-segment adjoint identity.
+
+    So (X T( T), T,r T) is an earlier active ancestor. Thus high-gain edges become charge or ancestry.
+
+
+
+    \subsection{Clay problem One-Field Forward-Preservation Reduction Note}
+
+    Role: compress the one-field part of the forward-invariance route to its exact live successor burdens and record the honest execution order.
+
+    The route is not widened here. The argument works only inside the installed same-fluid class-membership / collar-packet program.
+
+    Retain a same-fluid evolved still-live family Q s 0 s and seed one-field membership Field N,r 0,Q 0 (u,p).
+
+    \[
+    E_N\text{-control}
+    \;+\;
+    \text{next-rung segment control}
+    \Longrightarrow
+    \mathfrak C_{N,r_{N,\sigma},Q_s}(t)\le C_{N,\sigma}.
+    \]
+
+    So the one-field route does not reduce to a slogan like "just keep the field coherent." It reduces to proving enough propagated packet control to make the coherence modulus stay finite at one positive surviving scale.
+
+    The frozen-family side is no longer vague. Its exact live theorem burden is the source-only interval-integrability statement
+
+    \[
+    \boxed{
+    \mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I),
+    }
+    \]
+
+    \[
+    \boxed{
+    \sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty,
+    }
+    \]
+
+    So once the transported-center package inputs are granted, the one-field receiver wall is exactly the residual center-forcing problem, not a looser architecture narrative.
+
+    So the one-field route is no longer an opaque theorem wall. Its exact live burden is the paired source/receiver propagation problem. On the transported-center receiver branch, that problem is already sharpened to the supplier subqueue
+
+
+
+    \subsection{Clay problem One-Field Forward-Preservation Theorem Program}
+
+    On the forward-invariance route, the packing side already has a transport law and the participation side already has the Law 2 tethering/no-drop spine.
+
+    The target is not to re-prove that seed statement. The target is to propagate a positive coherence regime along one same-fluid evolved still-live family.
+
+    Field N,r 0,Q 0 (u,p) on the seed window; the finite-difference defect-energy packet laws remain available on the transported collars issued from the seed carrier; no visible jump manifestation occurs on the family.
+
+    It does not yet prove that the collar / lower-carrier supplier chain is equivalent to the full one-field predicate on a still-live family.
+
+    So if the collar receiver branch stalls, the honest conclusion is that this installed no-jump proof route is blocked there. It is not yet licensed to read that blockage as jump manifestation unless the hypotheses of the conditional converse above are actually installed and then contradicted. The exact converse-pivot theorem surface is the collar-to-jump note.
+
+    \[
+    \Delta_r^\Phi U_k(a,t)
+    =
+    \delta_{h(a,r,t)}U_k(\Phi(a,t),t)
+    \]
+
+    \[
+    \big|
+    \delta_{h(a,r,t)}U_k
+    -
+    \delta_{F(a,t)r}U_k
+    \big|
+    \le C_{\mathrm{sf},42000}
+    |\varepsilon_h(a,r,t)|\times
+    \text{next-rung segment amplitude}.
+    \]
+
+    So packing mismatch feeds into one-field defect only through a controlled geometric error record.
+
+    \[
+    E_N(h,t_2;\psi)
+    \le
+    E_N(h,t_1;\psi)
+    +
+    \mathfrak N_{N,h,\psi}[t_1,t_2].
+    \]
+
+    So packet escalation is impossible without cumulative neighboring response on the same transported packet.
+
+    \[
+    E_N\text{-control}
+    \;+\;
+    \text{next-rung segment control}
+    \Longrightarrow
+    \mathfrak C_{N,r_{N,\sigma},Q_s}(t)\le C_{N,\sigma}.
+    \]
+
+    Retain a scale window 0<|r| , a packet , and an interval I. If the fixed finite Eulerian packet family satisfies
+
+    \[
+    \sup_{t\in I}
+    \mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)
+    <
+    \infty,
+    \]
+
+    So the reference-increment side of one-field coherence is supplied by the fixed finite family plus the common collar envelope.
+
+    So the next-rung/coherence-conversion side is supplied by the collar Sobolev packet.
+
+    So the enlarged-ball oscillation supplier is already downstream of one exact pointwise transported-defect object.
+
+    This bypasses the circular route through the propagated pack-oscillation modulus O F, ctr under the stated supplier hypotheses. It conditionally controls the transported segment thickness directly from label-halo deformation regularity.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Jump avg Branch-Native Post-Reconcile No-Field Elimination
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39254
+  line_start: 39254
+  line_end: 39296
+  start_anchor: "\\subsection{Clay problem Jump avg Branch-Native Post-Reconcile No-Field
+    Elimination Note}\n"
+  end_anchor: "\\subsection{Clay problem Jump avg Final Active-Window Source Wall
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Jump avg Branch-Native
+    Post-Reconcile No-Field Elimination Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39254
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Jump avg no-Field branch elimination audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39328
+  line_start: 39328
+  line_end: 39342
+  start_anchor: "\\subsection{Jump avg no-Field branch elimination audit}\n"
+  end_anchor: "\\subsection{Clay problem L3Adjoint Native Orthogonal NoCarry.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Jump avg no-Field branch elimination
+    audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39328
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Mixed-Shell Spill Coefficient Scheduler Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41622
+  line_start: 41622
+  line_end: 41662
+  start_anchor: "\\subsection{Clay problem Mixed-Shell Spill Coefficient Scheduler
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Monotone Source-Dominance No-Pulse Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Mixed-Shell Spill
+    Coefficient Scheduler Attempt Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41622
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Normal-Covector Witness-To-Readout Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43128
+  line_start: 43128
+  line_end: 43180
+  start_anchor: "\\subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}\n"
+  end_anchor: "\\subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate
+    Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Normal-Covector
+    Witness-To-Readout Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43128
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Normalized Adjoint Amplitude Four-Certificate Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43181
+  line_start: 43181
+  line_end: 43228
+  start_anchor: "\\subsection{Clay problem Normalized Adjoint Amplitude Four-Certificate
+    Discharge}\n"
+  end_anchor: "\\subsection{Clay problem Normalized Child Mass Source-Drain Assembly
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Normalized Adjoint
+    Amplitude Four-Certificate Discharge as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43181
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Normalized Child Mass Source-Drain Assembly Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  line_start: 43229
+  line_end: 43278
+  start_anchor: "\\subsection{Clay problem Normalized Child Mass Source-Drain Assembly
+    Note}\n"
+  end_anchor: "\\subsection{Selected-Packet Shared Pack Boundary Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Normalized Child
+    Mass Source-Drain Assembly Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem One-Field Forward-Preservation Reduction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43473
+  line_start: 43473
+  line_end: 43509
+  start_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Reduction
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Theorem Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem One-Field Forward-Preservation
+    Reduction Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43473
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem One-Field Forward-Preservation Theorem Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43510
+  line_start: 43510
+  line_end: 43576
+  start_anchor: "\\subsection{Clay problem One-Field Forward-Preservation Theorem
+    Program}\n"
+  end_anchor: "\\subsection{Clay problem One-Sided Pair-Weight Defect After ASAC}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem One-Field Forward-Preservation
+    Theorem Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43510
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-10
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-10.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

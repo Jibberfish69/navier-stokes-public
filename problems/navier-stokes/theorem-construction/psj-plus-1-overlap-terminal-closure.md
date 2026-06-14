@@ -48,7 +48,7 @@ In symbols:
 +\texttt{retained subordination}
 \Longrightarrow
 \mathrm{Overlap}_{J,\mathrm{coarse}}
-\lesssim
+\le C_{\mathrm{P1T1}}
 \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k),
 \tag{P1T.1}
 ```
@@ -57,7 +57,7 @@ and the admitted retained-family supplier gives
 
 ```math
 \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
-\lesssim
+\le C_{\mathrm{P1T2}}
 \mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I).
 \tag{P1T.2}
 ```
@@ -66,7 +66,7 @@ Therefore
 
 ```math
 \mathrm{Overlap}_{J,\mathrm{coarse}}
-\lesssim
+\le C_{\mathrm{P1T3}}
 \mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I),
 \tag{P1T.3}
 ```

@@ -1,0 +1,897 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-44
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-44
+  sequence: 129
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 44
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 52456
+  line_end: 52786
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52456
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52514
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52528
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52571
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52613
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52640
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52695
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52767
+  subsection_titles:
+  - Clay problem Source Pulse Exclusion.A Active Target Note
+  - Clay problem Source Pulse First Unpaid Self-Attempt
+  - Clay problem Source Pulse Irreducible Core and Route-Equivalence Note
+  - Clay problem Source Pulse Known Criterion Placement.A Boundary Audit
+  - Clay problem Source Pulse Monotone-Dominance Final Collapse Note
+  - Clay problem Source Pulse Native Source Measure Decomposition Note
+  - Clay problem Source Pulse NOHOP / Transport-Chain Audit Note
+  - Clay problem Source Pulse Parabolic Local-Energy / CKN Audit Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Exclusion.A Active Target Note
+    line_start: 52456
+    line_end: 52486
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52456
+    start_anchor: "\\subsection{Clay problem Source Pulse Exclusion.A Active Target
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Field Exit.A Tower-Placement
+      Reduction Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Source Pulse Exclusion.A Active Target Note}
+
+      \[
+      \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+      \]
+
+      Thus Original Smooth Data=>Source Pulse Exclusion.A remains a possible sufficient supplier for the source-pulse branch, but it is not the route-wide CM primitive.
+
+      This is a narrower route-faithful target than the stronger absolute theorem Original Smooth Data=>Source Pulse Exclusion.A: it only asks that a genuine source-pulse witness retaining Pack+Part already activate the same-family transported-center/tower package, which removes the mixed tower-blown alternative and forces the Jump / not Field exit.
+
+      Thus the remaining live work here is stronger than the governing CM primitive. It is the source-control supplier theorem Original Smooth Data=>Source Pulse Exclusion.A, equivalently the open native source-pulse exclusion problem.
+
+      They all express the same missing structural PDE coupling: terminal source-balanced active pulses must be excluded from original smooth data.
+
+      The signed route cannot use bare exchange antisymmetry alone, because the post-weight lifted remainder has a positive part aligned with expanding strain.
+
+      The direct original-data route splits into Signed Remainder Reserve.A, Active Square Carleson.A, Square Source.A, and Active Shell Amplitude Gain.A, but
+
+      Beltrami packets are cancellation examples, not a theorem forcing arbitrary terminal bad active windows to become Beltrami/helical. A discharge would require Helical Coherence Deplete.A or Anti Beltrami Carleson.A, again a source-pulse depletion theorem.
+
+      ATD m supply good-scale regularity and endpoint typing, while the local energy inequality supplies controlled local balances. They do not exclude heat-scale source-balanced pulses on the bad active windows without a new theorem Parabolic NoPulse.A, another spelling of the same source-pulse wall.
+
+      Prodi-Serrin, and critical regularity criteria are valid endpoint consumers, but the terminal vorticity/str
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse First Unpaid Self-Attempt
+    line_start: 52514
+    line_end: 52527
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52514
+    start_anchor: "\\subsection{Clay problem Source Pulse First Unpaid Self-Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse First Unpaid Self-Attempt}
+
+      The installed audits do not supply this implication. Local energy, pressure Poisson structure, and finite spacetime integrability give raw finite carriers, but they do not control the normalized terminal active- density on a shrinking family of selected heat-scale windows.
+
+      Those audits identify useful faces of the obstruction, but they do not derive a
+      lower theorem from the original data.  A proof on this side would need one of
+      four payments: positive-part strain depletion, a heat-scale source estimate,
+      active-shell amplitude gain, or a direct active-window Carleson theorem.
+
+      This is sharper than the local-source presentation because Two Tower Donor Depletion.A has a theorem-shaped statement: every legal same-fluid source-parent edge must spend a finite donor reserve, up to already licensed summable losses.
+
+      The installed material does not yet prove it. Local Donor Balance.A separates the algebraic possibilities into drain, legal loss, or refill from source parents, but it does not install the global donor-reserve telescoping needed to forbid an infinite terminal source-parent chain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Irreducible Core and Route-Equivalence
+      Note
+    line_start: 52528
+    line_end: 52570
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52528
+    start_anchor: "\\subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Known Criterion Placement.A
+      Boundary Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence Note}
+
+      Source Pulse Exclusion.A remains unproved here. The bookkeeping result is that all currently audited target names are presentations of one irreducible source-pulse core.
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n)
+      \]
+
+      \[
+      j_n\to\infty,
+      \qquad
+      |I_n|\sfcomp{50967} 2^{-2j_n},
+      \qquad
+      t_n\uparrow T_\ast,
+      \]
+
+      \[
+      \sup_{t\in I_n}\gamma_{j_n}(t)\ge \eta>0,
+      \]
+
+      \[
+      \liminf_{n\to\infty}
+      \int_{I_n}
+      \mathfrak S_{j_n,loc}^{active}(t)\,dt
+      >0,
+      \]
+
+      and the already-installed signed reserve, cumulative tail reserve, local energy charge, pressure/cutoff supplier, and active-window Carleson records do not pay for that mass on the same selected windows.
+
+      then reduces Source Parent.Measure to Edge Disintegrate.A+Anti Diffuse Parent.A, with the second factor as the live theorem.
+
+      Parent Concentration OrDiffuse Charge.A+Backward Drain Functional.A or Parent Concentration OrDiffuse Charge.A+Bounded Ancestry Class.A+Source Residue Liouville.A would imply Source Pulse Exclusion.A. The two-tower donor heuristic is formalized in
+
+      The audited notes show that none of the installed estimates already performs any of these three jobs. Instead, each presentation asks for a new theorem that rules out, charges, or rigidifies the same packet P n.
+
+      Those attempts confirm that the installed energy, pressure, dyadic exchange, reserve, scheduler, compactness, and source-supplier surfaces do not discharge any slot without a new terminal source-control theorem.
+
+      \[
+      \mathfrak S_{j,loc}^{active,+}
+      \text{ is depleted on } Bad_N(\eta),
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Known Criterion Placement.A Boundary
+      Audit
+    line_start: 52571
+    line_end: 52587
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52571
+    start_anchor: "\\subsection{Clay problem Source Pulse Known Criterion Placement.A
+      Boundary Audit}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Localized-Drain / Pack-Strain
+      Final Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Known Criterion Placement.A Boundary Audit}
+
+      That is a valid conditional consumer on a retained positive-scale field branch. It is not the missing branch-native theorem, because the open branch is
+
+      \[
+      u\in L_t^\infty L_x^2,\qquad \nabla u\in L^2_{t,x},
+      \]
+
+      and interpolation gives the usual subcritical spacetime control u L 10/3 t,x . It does not give a uniform terminal L t L x 3 bound on the normalized source-pulse cylinders.
+
+      The compactness route can extract a local suitable source-residue object after localization and carrier tethering. It does not place that object in any rigid ancient class such as bounded ancient mild, Type I, self-similar, axisymmetric, critical-small, or two-dimensional.
+
+      CKN smallness on a fixed positive terminal subcover is exactly what the Jump avg branch denies. The retained-field proof yields CKN smallness only after a positive field/coherence scale is already present. On the raw jump branch, the available statement is threshold failure of the base packet along arbitrarily small terminal windows, not a small CKN subcover.
+
+      The Constantin--Fefferman criterion consumes vorticity-direction coherence. The current inputs give energy, pressure Poisson structure, same-fluid geometry, and endpoint/receiver records; they do not force direction coherence or signed decorrelation of the vortex-stretching source on terminal active windows.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Monotone-Dominance Final Collapse
+      Note
+    line_start: 52613
+    line_end: 52639
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52613
+    start_anchor: "\\subsection{Clay problem Source Pulse Monotone-Dominance Final
+      Collapse Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Native Source Measure Decomposition
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Monotone-Dominance Final Collapse Note}
+
+      The target is not installed. It collapses to the same Active Shell Source Normalize.A / Signed Local Source.A primitive.
+
+      where Charge active,N dominates the normalized active-window source / active- measure used by the Jump avg branch.
+
+      Integrating would forbid a terminal family of source-balanced heat-scale pulses.
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t)
+      \]
+
+      does not by itself imply any such monotone law. For a chosen short active pulse, the scalar source can simply satisfy
+
+      \[
+      F_j(t)=E_j'(t)+c\nu D_j(t).
+      \]
+
+      Thus any monotone dominance theorem must use Navier-Stokes structure inside F j, not just dissipation or energy positivity.
+
+      \[
+      G_N^{lift,\sigma}.
+      \]
+
+      That object has no installed sign and no installed positive-part depletion on the selected bad windows. If absolute values are taken, the proof returns to the active- residual-tail theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Native Source Measure Decomposition
+      Note
+    line_start: 52640
+    line_end: 52694
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52640
+    start_anchor: "\\subsection{Clay problem Source Pulse Native Source Measure Decomposition
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse NOHOP / Transport-Chain Audit
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Source Pulse Native Source Measure Decomposition Note}
+
+      It turns the remaining source-pulse atom into a precise measure decomposition: the chargeable absolutely-continuous part is already handled by installed finite records; the only surviving obstruction is a singular native positive source component on terminal active windows.
+
+      This is not a proof of Source Pulse Exclusion.A. It identifies the exact measure-theoretic theorem still missing for the positive supplier route.
+
+      \[
+      \mu_*^{sing}\ne0
+      \Longrightarrow
+      \neg Pack_Q
+      \vee
+      \neg Part_{N,Q}.
+      \]
+
+      That CM-facing theorem is now installed as Terminal Source ResidueCMExit.A. The positive statements Native SourceAC.A, * sing =0, and Source Pulse Exclusion.A remain separate supplier targets only when the proof program explicitly asks to delete the source residue.
+
+      This is the branch-native carrier used by Local Positive Source Carleson.A and by the normal-form lower bound in Source Pulse Exclusion.A.
+
+      Here legal includes the already licensed pressure, cutoff, collar, finite-depth, and localization losses. This record is finite or summable on bounded-overlap legal families by the installed route hypotheses.
+
+      \[
+      \sum_{P\in\mathcal F_N}\mu_{src,N}^+(P)
+      \le
+      C\,\rho_{inst,N}(\mathcal F_N)+o_N(1),
+      \]
+
+      This is the exact "charge" theorem in measure form. It says the native positive source cannot form a part singular to all installed route records.
+
+      \[
+      \mu_{\ast}^{src,+}
+      =
+      f\,\rho_{\ast}^{inst}
+      +
+      \mu_{\ast}^{sing},
+      \qquad
+      \mu_{\ast}^{sing}\perp\rho_{\ast}^{inst},
+      \]
+
+      \[
+      \boxed{
+      \mu_{\ast}^{sing}\ne0.
+      }
+      \]
+
+      So no fourth slot appears. The singular component is the same object viewed through the no-hidden frontier.
+
+      Energy and first-moment dissipation do not dominate the heat-scale native positive source measure. Scheduler bad-time smallness is Lebesgue-time smallness, not absolute continuity for src,N +. Signed dyadic exchange does not dominate the positive part after weights, cutoffs, and terminal active se
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse NOHOP / Transport-Chain Audit Note
+    line_start: 52695
+    line_end: 52721
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52695
+    start_anchor: "\\subsection{Clay problem Source Pulse NOHOP / Transport-Chain
+      Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Normal Form and Unspent Reserve
+      Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse NOHOP / Transport-Chain Audit Note}
+
+      The no-hop / transport-chain audit asks whether same-fluid transport and backward active-window chains already forbid terminal source-balanced active pulses.
+
+      If every terminal active window either spends a finite reserve or traces back to a fixed entrance scale/time, then infinite terminal hopping is impossible and Jump avg is eliminated.
+
+      \[
+      A_\ell
+      \le
+      A_{\ell-1}
+      +
+      Charge_\ell
+      +
+      Reserve_\ell.
+      \]
+
+      This telescopes only if the chain reaches a fixed entrance scale/time or if the charge/reserve terms are already summable on the selected terminal schedule. In the Jump avg branch the radii can shrink, the windows can move along the same-fluid transport, and the active source can recreate the packet on adjacent heat-scale windows.
+
+      \[
+      E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t).
+      \]
+
+      A no-hop theorem must prove that the nonlinear source F j cannot keep producing predecessor pulses without spending a finite reserve. That is the same source-normalization theorem isolated by the -source, active-window Carleson, monotone-dominance, and viscous-Duhamel audits.
+
+      Those atoms are not installed. Without them, a source-balanced pulse can be recreated through a diffuse or sign-cancelled nonlinear source aggregate, and no single predecessor pulse is forced.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Parabolic Local-Energy / CKN Audit
+      Note
+    line_start: 52767
+    line_end: 52786
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52767
+    start_anchor: "\\subsection{Clay problem Source Pulse Parabolic Local-Energy /
+      CKN Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Pressure-Vortex Depletion
+      Final Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Parabolic Local-Energy / CKN Audit Note}
+
+      The parabolic local-energy / CKN audit asks whether the local energy inequality, CKN epsilon-regularity, or the installed ATD m machinery already excludes terminal source-balanced active pulses.
+
+      If installed, this would give a terminal good-scale cover and would eliminate the Jump avg branch without a separate source-pulse theorem.
+
+      \[
+      \frac{d}{dt}\int |u|^2\varphi
+      +2\nu\int |\nabla u|^2\varphi
+      \le
+      \int |u|^2(\partial_t\varphi+\nu\Delta\varphi)
+      +
+      \int (|u|^2+2p)u\cdot\nabla\varphi.
+      \]
+
+      Those balances do not give a terminal label-time-scale modulus for the moving E u+D u+P packet. A gradient/pressure concentration can move through fresh labels and shrinking scales while preserving the global energy record.
+
+      Parabolic local energy and CKN regularity are already used correctly as the good-scale supplier and endpoint-typing mechanism. They do not install source-pulse exclusion.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Source Pulse Exclusion.A Active Target Note}
+
+    \[
+    \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+    \]
+
+    Thus Original Smooth Data=>Source Pulse Exclusion.A remains a possible sufficient supplier for the source-pulse branch, but it is not the route-wide CM primitive.
+
+    This is a narrower route-faithful target than the stronger absolute theorem Original Smooth Data=>Source Pulse Exclusion.A: it only asks that a genuine source-pulse witness retaining Pack+Part already activate the same-family transported-center/tower package, which removes the mixed tower-blown alternative and forces the Jump / not Field exit.
+
+    Thus the remaining live work here is stronger than the governing CM primitive. It is the source-control supplier theorem Original Smooth Data=>Source Pulse Exclusion.A, equivalently the open native source-pulse exclusion problem.
+
+    They all express the same missing structural PDE coupling: terminal source-balanced active pulses must be excluded from original smooth data.
+
+    The signed route cannot use bare exchange antisymmetry alone, because the post-weight lifted remainder has a positive part aligned with expanding strain.
+
+    The direct original-data route splits into Signed Remainder Reserve.A, Active Square Carleson.A, Square Source.A, and Active Shell Amplitude Gain.A, but
+
+    Beltrami packets are cancellation examples, not a theorem forcing arbitrary terminal bad active windows to become Beltrami/helical. A discharge would require Helical Coherence Deplete.A or Anti Beltrami Carleson.A, again a source-pulse depletion theorem.
+
+    ATD m supply good-scale regularity and endpoint typing, while the local energy inequality supplies controlled local balances. They do not exclude heat-scale source-balanced pulses on the bad active windows without a new theorem Parabolic NoPulse.A, another spelling of the same source-pulse wall.
+
+    Prodi-Serrin, and critical regularity criteria are valid endpoint consumers, but the terminal vorticity/strain/critical-space integrability needed to apply them on the source-pulse branch is not supplied by original smooth data or finite energy; proving it is another presentation of Source Pulse Exclusion.A.
+
+    for a positive same-fluid source-parent measure are not installed from current signed, positive-carrier, local-energy, or finite-reserve surfaces. The ancestry presentation is further normalized by
+
+    Original Smooth Data package supplies energy, local energy, pressure Poisson, preterminal smoothness, and dyadic exchange structure, but it does not remove, charge, or rigidify the terminal source-pulse packet. The normal-form refinement
+
+    The additional pressure-vortex, helical/Beltrami, vorticity-direction, localized-drain, parabolic local-energy / CKN, and compactness / Liouville mechanisms, plus the viscous-Duhamel no-refill mechanism, have also been audited as route-equivalent to the first two, not as installed theorems. The same is true for the no-hop / transport-chain mechanism.
+
+
+
+    \subsection{Clay problem Source Pulse First Unpaid Self-Attempt}
+
+    The installed audits do not supply this implication. Local energy, pressure Poisson structure, and finite spacetime integrability give raw finite carriers, but they do not control the normalized terminal active- density on a shrinking family of selected heat-scale windows.
+
+    Those audits identify useful faces of the obstruction, but they do not derive a
+    lower theorem from the original data.  A proof on this side would need one of
+    four payments: positive-part strain depletion, a heat-scale source estimate,
+    active-shell amplitude gain, or a direct active-window Carleson theorem.
+
+    This is sharper than the local-source presentation because Two Tower Donor Depletion.A has a theorem-shaped statement: every legal same-fluid source-parent edge must spend a finite donor reserve, up to already licensed summable losses.
+
+    The installed material does not yet prove it. Local Donor Balance.A separates the algebraic possibilities into drain, legal loss, or refill from source parents, but it does not install the global donor-reserve telescoping needed to forbid an infinite terminal source-parent chain.
+
+
+
+    \subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence Note}
+
+    Source Pulse Exclusion.A remains unproved here. The bookkeeping result is that all currently audited target names are presentations of one irreducible source-pulse core.
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n)
+    \]
+
+    \[
+    j_n\to\infty,
+    \qquad
+    |I_n|\sfcomp{50967} 2^{-2j_n},
+    \qquad
+    t_n\uparrow T_\ast,
+    \]
+
+    \[
+    \sup_{t\in I_n}\gamma_{j_n}(t)\ge \eta>0,
+    \]
+
+    \[
+    \liminf_{n\to\infty}
+    \int_{I_n}
+    \mathfrak S_{j_n,loc}^{active}(t)\,dt
+    >0,
+    \]
+
+    and the already-installed signed reserve, cumulative tail reserve, local energy charge, pressure/cutoff supplier, and active-window Carleson records do not pay for that mass on the same selected windows.
+
+    then reduces Source Parent.Measure to Edge Disintegrate.A+Anti Diffuse Parent.A, with the second factor as the live theorem.
+
+    Parent Concentration OrDiffuse Charge.A+Backward Drain Functional.A or Parent Concentration OrDiffuse Charge.A+Bounded Ancestry Class.A+Source Residue Liouville.A would imply Source Pulse Exclusion.A. The two-tower donor heuristic is formalized in
+
+    The audited notes show that none of the installed estimates already performs any of these three jobs. Instead, each presentation asks for a new theorem that rules out, charges, or rigidifies the same packet P n.
+
+    Those attempts confirm that the installed energy, pressure, dyadic exchange, reserve, scheduler, compactness, and source-supplier surfaces do not discharge any slot without a new terminal source-control theorem.
+
+    \[
+    \mathfrak S_{j,loc}^{active,+}
+    \text{ is depleted on } Bad_N(\eta),
+    \]
+
+
+
+    \subsection{Clay problem Source Pulse Known Criterion Placement.A Boundary Audit}
+
+    That is a valid conditional consumer on a retained positive-scale field branch. It is not the missing branch-native theorem, because the open branch is
+
+    \[
+    u\in L_t^\infty L_x^2,\qquad \nabla u\in L^2_{t,x},
+    \]
+
+    and interpolation gives the usual subcritical spacetime control u L 10/3 t,x . It does not give a uniform terminal L t L x 3 bound on the normalized source-pulse cylinders.
+
+    The compactness route can extract a local suitable source-residue object after localization and carrier tethering. It does not place that object in any rigid ancient class such as bounded ancient mild, Type I, self-similar, axisymmetric, critical-small, or two-dimensional.
+
+    CKN smallness on a fixed positive terminal subcover is exactly what the Jump avg branch denies. The retained-field proof yields CKN smallness only after a positive field/coherence scale is already present. On the raw jump branch, the available statement is threshold failure of the base packet along arbitrarily small terminal windows, not a small CKN subcover.
+
+    The Constantin--Fefferman criterion consumes vorticity-direction coherence. The current inputs give energy, pressure Poisson structure, same-fluid geometry, and endpoint/receiver records; they do not force direction coherence or signed decorrelation of the vortex-stretching source on terminal active windows.
+
+
+
+    \subsection{Clay problem Source Pulse Monotone-Dominance Final Collapse Note}
+
+    The target is not installed. It collapses to the same Active Shell Source Normalize.A / Signed Local Source.A primitive.
+
+    where Charge active,N dominates the normalized active-window source / active- measure used by the Jump avg branch.
+
+    Integrating would forbid a terminal family of source-balanced heat-scale pulses.
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t)
+    \]
+
+    does not by itself imply any such monotone law. For a chosen short active pulse, the scalar source can simply satisfy
+
+    \[
+    F_j(t)=E_j'(t)+c\nu D_j(t).
+    \]
+
+    Thus any monotone dominance theorem must use Navier-Stokes structure inside F j, not just dissipation or energy positivity.
+
+    \[
+    G_N^{lift,\sigma}.
+    \]
+
+    That object has no installed sign and no installed positive-part depletion on the selected bad windows. If absolute values are taken, the proof returns to the active- residual-tail theorem.
+
+
+
+    \subsection{Clay problem Source Pulse Native Source Measure Decomposition Note}
+
+    It turns the remaining source-pulse atom into a precise measure decomposition: the chargeable absolutely-continuous part is already handled by installed finite records; the only surviving obstruction is a singular native positive source component on terminal active windows.
+
+    This is not a proof of Source Pulse Exclusion.A. It identifies the exact measure-theoretic theorem still missing for the positive supplier route.
+
+    \[
+    \mu_*^{sing}\ne0
+    \Longrightarrow
+    \neg Pack_Q
+    \vee
+    \neg Part_{N,Q}.
+    \]
+
+    That CM-facing theorem is now installed as Terminal Source ResidueCMExit.A. The positive statements Native SourceAC.A, * sing =0, and Source Pulse Exclusion.A remain separate supplier targets only when the proof program explicitly asks to delete the source residue.
+
+    This is the branch-native carrier used by Local Positive Source Carleson.A and by the normal-form lower bound in Source Pulse Exclusion.A.
+
+    Here legal includes the already licensed pressure, cutoff, collar, finite-depth, and localization losses. This record is finite or summable on bounded-overlap legal families by the installed route hypotheses.
+
+    \[
+    \sum_{P\in\mathcal F_N}\mu_{src,N}^+(P)
+    \le
+    C\,\rho_{inst,N}(\mathcal F_N)+o_N(1),
+    \]
+
+    This is the exact "charge" theorem in measure form. It says the native positive source cannot form a part singular to all installed route records.
+
+    \[
+    \mu_{\ast}^{src,+}
+    =
+    f\,\rho_{\ast}^{inst}
+    +
+    \mu_{\ast}^{sing},
+    \qquad
+    \mu_{\ast}^{sing}\perp\rho_{\ast}^{inst},
+    \]
+
+    \[
+    \boxed{
+    \mu_{\ast}^{sing}\ne0.
+    }
+    \]
+
+    So no fourth slot appears. The singular component is the same object viewed through the no-hidden frontier.
+
+    Energy and first-moment dissipation do not dominate the heat-scale native positive source measure. Scheduler bad-time smallness is Lebesgue-time smallness, not absolute continuity for src,N +. Signed dyadic exchange does not dominate the positive part after weights, cutoffs, and terminal active selection. Pressure/cutoff records route legal losses but do not dominate the interior native positive source carrier. Local energy and compactness can consume a localized source-residue pulse only after localization and a residue Liouville theorem are supplied. Same-fluid transport licenses the packet; it does not provide domination or vanishing of the singular component.
+
+    \[
+    \boxed{
+    \mu_{\ast}^{sing}=0
+    }
+    \]
+
+
+
+    \subsection{Clay problem Source Pulse NOHOP / Transport-Chain Audit Note}
+
+    The no-hop / transport-chain audit asks whether same-fluid transport and backward active-window chains already forbid terminal source-balanced active pulses.
+
+    If every terminal active window either spends a finite reserve or traces back to a fixed entrance scale/time, then infinite terminal hopping is impossible and Jump avg is eliminated.
+
+    \[
+    A_\ell
+    \le
+    A_{\ell-1}
+    +
+    Charge_\ell
+    +
+    Reserve_\ell.
+    \]
+
+    This telescopes only if the chain reaches a fixed entrance scale/time or if the charge/reserve terms are already summable on the selected terminal schedule. In the Jump avg branch the radii can shrink, the windows can move along the same-fluid transport, and the active source can recreate the packet on adjacent heat-scale windows.
+
+    \[
+    E_j'(t)+c\nu2^{2j}E_j(t)\le F_j(t).
+    \]
+
+    A no-hop theorem must prove that the nonlinear source F j cannot keep producing predecessor pulses without spending a finite reserve. That is the same source-normalization theorem isolated by the -source, active-window Carleson, monotone-dominance, and viscous-Duhamel audits.
+
+    Those atoms are not installed. Without them, a source-balanced pulse can be recreated through a diffuse or sign-cancelled nonlinear source aggregate, and no single predecessor pulse is forced.
+
+
+
+    \subsection{Clay problem Source Pulse Parabolic Local-Energy / CKN Audit Note}
+
+    The parabolic local-energy / CKN audit asks whether the local energy inequality, CKN epsilon-regularity, or the installed ATD m machinery already excludes terminal source-balanced active pulses.
+
+    If installed, this would give a terminal good-scale cover and would eliminate the Jump avg branch without a separate source-pulse theorem.
+
+    \[
+    \frac{d}{dt}\int |u|^2\varphi
+    +2\nu\int |\nabla u|^2\varphi
+    \le
+    \int |u|^2(\partial_t\varphi+\nu\Delta\varphi)
+    +
+    \int (|u|^2+2p)u\cdot\nabla\varphi.
+    \]
+
+    Those balances do not give a terminal label-time-scale modulus for the moving E u+D u+P packet. A gradient/pressure concentration can move through fresh labels and shrinking scales while preserving the global energy record.
+
+    Parabolic local energy and CKN regularity are already used correctly as the good-scale supplier and endpoint-typing mechanism. They do not install source-pulse exclusion.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Exclusion.A Active Target Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52456
+  line_start: 52456
+  line_end: 52486
+  start_anchor: "\\subsection{Clay problem Source Pulse Exclusion.A Active Target
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Field Exit.A Tower-Placement
+    Reduction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Exclusion.A
+    Active Target Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52456
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse First Unpaid Self-Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52514
+  line_start: 52514
+  line_end: 52527
+  start_anchor: "\\subsection{Clay problem Source Pulse First Unpaid Self-Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse First
+    Unpaid Self-Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52514
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Irreducible Core and Route-Equivalence
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52528
+  line_start: 52528
+  line_end: 52570
+  start_anchor: "\\subsection{Clay problem Source Pulse Irreducible Core and Route-Equivalence
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Known Criterion Placement.A
+    Boundary Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Irreducible
+    Core and Route-Equivalence Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52528
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Known Criterion Placement.A Boundary
+    Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52571
+  line_start: 52571
+  line_end: 52587
+  start_anchor: "\\subsection{Clay problem Source Pulse Known Criterion Placement.A
+    Boundary Audit}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Localized-Drain / Pack-Strain
+    Final Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Known
+    Criterion Placement.A Boundary Audit as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52571
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Monotone-Dominance Final Collapse Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52613
+  line_start: 52613
+  line_end: 52639
+  start_anchor: "\\subsection{Clay problem Source Pulse Monotone-Dominance Final Collapse
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Native Source Measure Decomposition
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Monotone-Dominance
+    Final Collapse Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52613
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Native Source Measure Decomposition
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52640
+  line_start: 52640
+  line_end: 52694
+  start_anchor: "\\subsection{Clay problem Source Pulse Native Source Measure Decomposition
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse NOHOP / Transport-Chain Audit
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Native
+    Source Measure Decomposition Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52640
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse NOHOP / Transport-Chain Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52695
+  line_start: 52695
+  line_end: 52721
+  start_anchor: "\\subsection{Clay problem Source Pulse NOHOP / Transport-Chain Audit
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Normal Form and Unspent Reserve
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse NOHOP
+    / Transport-Chain Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52695
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Parabolic Local-Energy / CKN Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52767
+  line_start: 52767
+  line_end: 52786
+  start_anchor: "\\subsection{Clay problem Source Pulse Parabolic Local-Energy / CKN
+    Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Pressure-Vortex Depletion Final
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Parabolic
+    Local-Energy / CKN Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52767
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-44
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-44.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

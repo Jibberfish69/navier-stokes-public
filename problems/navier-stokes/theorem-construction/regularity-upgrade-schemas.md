@@ -292,7 +292,7 @@ For low frequencies, Bernstein and Cauchy-Schwarz give
 
 ```math
 \sum_{j\le J}\|\Delta_j \omega\|_{L^\infty_x}
-\lesssim
+\le C_{\mathrm{low}}
 2^{\frac32 J}\|\omega\|_{L^2_x}.
 ```
 
@@ -302,9 +302,9 @@ The high-frequency block is the real obstruction. Bernstein only yields
 
 ```math
 \|\Delta_j \omega\|_{L^\infty_x}
-\lesssim
+\le C_B
 2^{\frac32 j}\|\Delta_j \omega\|_{L^2_x}
-\lesssim
+\le C_B'
 2^{\frac12 j}\|\nabla \Delta_j \omega\|_{L^2_x},
 ```
 
@@ -314,7 +314,7 @@ particular, the attempted bound
 
 ```math
 \sum_{j>J}\|\Delta_j \omega\|_{L^\infty_x}
-\lesssim
+\le C_{\mathrm{false}}
 2^{-\frac12 J}\|\nabla\omega\|_{L^2_x}
 ```
 
@@ -329,11 +329,11 @@ energy form. The transport commutator
 [\Lambda^{1/2},u\cdot\nabla]\omega
 ```
 
-cannot be controlled at the `L^2` level by a bound of the schematic form
+cannot be controlled at the `L^2` level by a bound of the form
 
 ```math
 \|[\Lambda^{1/2},u\cdot\nabla]\omega\|_{L^2_x}
-\lesssim
+\le C_{\mathrm{comm}}
 \|\nabla u\|_{L^2_x}\,\|\omega\|_{\dot H^{1/2}_x}.
 ```
 

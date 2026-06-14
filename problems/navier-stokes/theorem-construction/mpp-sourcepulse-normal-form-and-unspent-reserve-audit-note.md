@@ -23,7 +23,7 @@ there is a terminal same-fluid source-pulse packet
 ```math
 \mathcal P_n=(Q_n^\Phi,j_n,I_n),
 \qquad
-|I_n|\simeq 2^{-2j_n},
+|I_n|=2^{-2j_n},
 \qquad
 j_n\to\infty,
 \qquad

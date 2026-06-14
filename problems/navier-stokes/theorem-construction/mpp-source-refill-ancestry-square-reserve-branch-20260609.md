@@ -130,7 +130,7 @@ The donor square reserve is:
 
 ```math
 \mathcal R_N(W)
-\simeq
+:=
 \int_W\sum_{P^-}|A_{P^-}(t)|^2dt.
 ```
 

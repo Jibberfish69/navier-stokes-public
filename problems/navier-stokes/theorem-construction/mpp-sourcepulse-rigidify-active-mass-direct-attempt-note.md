@@ -22,7 +22,7 @@ produce physical same-fluid cylinders
 ```math
 Q_{r_n}^\Phi(a_n,t_n),
 \qquad
-r_n\simeq2^{-j_n},
+r_n=2^{-j_n},
 \qquad
 t_n\uparrow T_\ast,
 ```

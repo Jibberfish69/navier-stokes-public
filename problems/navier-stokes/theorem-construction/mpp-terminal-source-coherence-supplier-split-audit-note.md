@@ -85,7 +85,7 @@ This would compare the positive and negative parts of the native active source:
 
 ```math
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_+
-\lesssim
+\le C_{\mathrm{TSC}}
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_-+o_N(1).
 ```
 

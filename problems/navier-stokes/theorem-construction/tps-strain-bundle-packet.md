@@ -69,7 +69,7 @@ Assume:
 ```math
 a-b\in N_a,
 \qquad
-|a-b|\simeq \ell_J
+c_{pair}\ell_J\le |a-b|\le C_{pair}\ell_J
 \qquad
 \text{for every active pair }a\sim b\text{ in }G_J,
 \tag{SB.4}
@@ -242,7 +242,8 @@ Then on good active pairs,
 
 ```math
 |\alpha_j(a,t)-\alpha_j(b,t)|
-\gtrsim
+\ge
+c_\alpha
 |X(a,t)-X(b,t)|.
 \tag{SB.20}
 ```

@@ -1,0 +1,1711 @@
+---
+version: 1
+kind: ns-paper-arc-author-work-packet
+generated_at: '2026-06-14T16:07:47Z'
+arc_id: opening-theorem-route
+work_unit: write finished TeX prose for this proof arc
+batch_scope: whole proof arc, not a page span or local D-number fragment
+paper_goal: make the manuscript read as one human mathematical proof, with repo status
+  visible only through the argument on the page
+arc:
+  arc_id: opening-theorem-route
+  title: Opening theorem route
+  priority: 1
+  status: ready_for_author_packet
+  production_role: open the paper as a theorem proof with the proof route visible
+    from the first mathematical promise
+  author_job: write the theorem target, gold route, obstruction, and CM turn as finished
+    opening proof exposition
+  support_keywords:
+  - Navier
+  - gold
+  - obstruction
+  - reframing
+  - theorem
+  - route
+  required_patterns: &2
+  - Navier
+  - proof
+  - gold
+  - "(CM|contrapositive)"
+  spine_refs:
+  - spine_id: original-problem-statement
+    section_title: Original Problem Statement
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 100
+    line_end: 119
+  - spine_id: current-main-result-and-proof-roadmap
+    section_title: Current Main Result and Proof Roadmap
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 120
+    line_end: 159
+  - spine_id: the-same-terminal-record
+    section_title: The Same Terminal Record
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+    source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    line_start: 406
+    line_end: 425
+  - spine_id: main-result
+    section_title: Main Result
+    source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+    line_start: 1
+    line_end: 33
+  - spine_id: notation-and-internal-dependency-labels
+    section_title: Notation and Internal Dependency Labels
+    source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+    line_start: 1
+    line_end: 21
+  - spine_id: scope-and-proof-polarity
+    section_title: Scope And Proof Polarity
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+    source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+    line_start: 39
+    line_end: 48
+  - spine_id: proof-roadmap
+    section_title: Proof Roadmap
+    source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+    source_path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+    line_start: 1
+    line_end: 29
+  context_cost: 173
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+production_machine_contract:
+  core_move: prepare hard -> write fast -> verify mechanically -> repair only failures
+  paper_product_rule: the manuscript source is the product; packets, ledgers, builds,
+    and reports exist only to feed or verify the page
+  machine_layers:
+  - name: Paper Arc Planner
+    job: divide the current proof manuscript into 8-12 proof arcs that a human reader
+      can follow as one argument
+  - name: Context Packer
+    job: gather the assigned TeX, theorem notes, route locks, brain/app/node material,
+      proof status, symbols, dependencies, and writing rules for one arc
+  - name: Author Packet
+    job: write final TeX prose for the whole arc, including plain explanation, derivation/proof
+      payment, and endpoint status
+  - name: Math Supplier
+    job: serve the selected arc only by supplying TeX-ready derivations, exact obstructions,
+      endpoint classifications, or CM counterparts
+  - name: Verifier
+    job: reject placeholder prose, machinery voice, missing source coverage, unpaid
+      claims, unresolved critic findings, and route-identity drift before integration
+  - name: Integrator
+    job: apply verified TeX source rewrites and return changed-section build scope
+      for targeted verification
+  math_containment_rule: before first-draft approval, theorem work is section-bound
+    manuscript supply; free-running gold proof search is out of scope
+  economy_rule: ordinary progress uses source diffs, changed-section builds, and targeted
+    rereads; full PDF finality checks happen only at milestones or finality claims
+  first_draft_boundary: the first draft exists only when every current repo proof
+    thread has a home on the page as proof, support, obstruction, obsolete material,
+    contradiction, or open continuation
+source_payment_table:
+- spine_id: original-problem-statement
+  section_title: Original Problem Statement
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: &1
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+- spine_id: current-main-result-and-proof-roadmap
+  section_title: Current Main Result and Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: the-same-terminal-record
+  section_title: The Same Terminal Record
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: main-result
+  section_title: Main Result
+  source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: notation-and-internal-dependency-labels
+  section_title: Notation and Internal Dependency Labels
+  source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: scope-and-proof-polarity
+  section_title: Scope And Proof Polarity
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+- spine_id: proof-roadmap
+  section_title: Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  payment_required: reader-facing explanation, displayed derivation or proof payment
+    where the section claims one, and explicit endpoint status
+  acceptable_endpoint_statuses: *1
+context_home_table:
+- domain_id: brain_app_node_material
+  domain_name: brain/app/node and graph material
+  source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.debt_pool.yaml
+  path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.debt_pool.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: brain_app_node_material
+  domain_name: brain/app/node and graph material
+  source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+  path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: brain_app_node_material
+  domain_name: brain/app/node and graph material
+  source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.tps-strong-defect-bridge-route.yaml
+  path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.tps-strong-defect-bridge-route.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: brain_app_node_material
+  domain_name: brain/app/node and graph material
+  source_ref: problems/navier-stokes/current-route-dependency-graph.yaml
+  path: problems/navier-stokes/current-route-dependency-graph.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: brain_app_node_material
+  domain_name: brain/app/node and graph material
+  source_ref: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+  path: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: current_proof_status
+  domain_name: current proof status surfaces
+  source_ref: problems/navier-stokes/campaign-status.yaml
+  path: problems/navier-stokes/campaign-status.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: current_proof_status
+  domain_name: current proof status surfaces
+  source_ref: problems/navier-stokes/paper-quality-verdict.yaml
+  path: problems/navier-stokes/paper-quality-verdict.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: current_proof_status
+  domain_name: current proof status surfaces
+  source_ref: problems/navier-stokes/runtime/meta/shared-runner-incidents.yaml
+  path: problems/navier-stokes/runtime/meta/shared-runner-incidents.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: route_lock
+  domain_name: route lock and completion executors
+  source_ref: problems/navier-stokes/ns-completion-executor.yaml
+  path: problems/navier-stokes/ns-completion-executor.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: route_lock
+  domain_name: route lock and completion executors
+  source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  path: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: route_lock
+  domain_name: route lock and completion executors
+  source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: route_lock
+  domain_name: route lock and completion executors
+  source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+  path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: route_lock
+  domain_name: route lock and completion executors
+  source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+  path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+  matched_keywords:
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/dependency-graph.yaml
+  path: problems/navier-stokes/dependency-graph.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/route-lock.yaml
+  path: problems/navier-stokes/route-lock.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
+  path: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+  path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+  path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+  path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
+  path: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  path: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  path: problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  path: problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
+  path: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  path: problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+  path: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  path: problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  path: problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: support_refs
+  domain_name: matched support source
+  source_ref: problems/navier-stokes/theorem-construction/mpp-strain-aligned-terminal-obstruction-cm-split-20260614.md
+  path: problems/navier-stokes/theorem-construction/mpp-strain-aligned-terminal-obstruction-cm-split-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: theorem_notes
+  domain_name: theorem notes and construction records
+  source_ref: problems/navier-stokes/auto-audit.yaml
+  path: problems/navier-stokes/auto-audit.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: theorem_notes
+  domain_name: theorem notes and construction records
+  source_ref: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: theorem_notes
+  domain_name: theorem notes and construction records
+  source_ref: problems/navier-stokes/ns-proof-program-route-table.yaml
+  path: problems/navier-stokes/ns-proof-program-route-table.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+- domain_id: theorem_notes
+  domain_name: theorem notes and construction records
+  source_ref: problems/navier-stokes/proof-assembly.yaml
+  path: problems/navier-stokes/proof-assembly.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  home_required: write this source into the arc as proof, support, obstruction, obsolete
+    material, contradiction, open continuation, or list it in repo_sources_excluded
+    with a reason
+  allowed_home_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+  - sourced exclusion with reason
+source_sections:
+- spine_id: original-problem-statement
+  section_title: Original Problem Statement
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 100
+  line_end: 119
+  text: |+
+    \section{Original Problem Statement}
+
+    The Clay Navier--Stokes problem asks whether a smooth divergence-free velocity field can lose smoothness in finite time under the three-dimensional incompressible Navier--Stokes evolution.  The unknowns are the velocity \(u(x,t)\) and pressure \(p(x,t)\).  In the periodic case, and in the whole-space case with smooth rapidly decaying data, they solve
+    \[
+      \partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0,
+      \qquad
+      u(\cdot,0)=u_0,
+    \]
+    with fixed viscosity \(\nu>0\) and no forcing.  The datum \(u_0\) is smooth and divergence-free.  The pressure is tied to \(u\) by incompressibility.  Equivalently, it is recovered by the elliptic pressure law that removes the gradient part of the nonlinear term.
+
+    A proposed finite-time counterexample is a claim about one branch of this equation.  It starts from \(u_0\), follows the classical Navier--Stokes solution on a maximal interval \([0,T_*)\), and asserts that the usual continuation readout fails at \(T_*<\infty\).  This paper keeps that branch fixed.  The velocity, pressure, viscosity, pressure law, incompressibility constraint, and preterminal smooth solution all remain attached to the terminal object being tested.
+
+    The proof has two certification layers.  Gold means the direct route: control the original solution strongly enough to continue it.  A completed gold proof is the strongest certificate because the same solution never leaves the continuation argument.
+
+    Silver means the class-membership contrapositive route.  It begins after the forward work has left a precise terminal obstruction.  The question then changes from ``can the estimate be strengthened?'' to ``is the selected terminal record still a same-solution Navier--Stokes object?''  The class-membership test asks for three pieces of data.  Pack is the positive same-fluid carrier or packet.  Part is participation in the same pressure-viscosity-incompressibility law.  Field is one coherent positive-scale velocity-field readout.
+
+    A terminal singularity claim includes more than the point \((x_*,T_*)\).  The claim is carried by positive-radius fields that shrink toward that point.  Those surrounding fields form the annular witness.  Gold would close the annular witness by controlling the remaining nonlinear source on every same-solution terminal annular schedule.  Silver can classify that same boundary only after a surviving annular residue has been selected as the same-solution terminal record with the continuation-readout bridge paid.  After that readout-complete admission, carrier is already established for the annular test, so a finite nonsmooth readout-complete admitted residue must leave the class through Part or Field.
+
+  truncated: false
+- spine_id: current-main-result-and-proof-roadmap
+  section_title: Current Main Result and Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 120
+  line_end: 159
+  text: |+
+    \section{Current Main Result and Proof Roadmap}
+
+    The result proved in this manuscript is a same-solution terminal classification theorem after admission.  It states what the proof can certify once a proposed finite Clay terminal claim has selected a terminal record \(Q\) for the original Navier--Stokes branch and once that record has entered the CM terminal test.  At that point the selected record is on one of two sides:
+    \[
+      \Member(Q;\Owork)
+      \qquad\hbox{or}\qquad
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    The member side is the continuation side.  The exit side is witnessed by the first failed face in the Pack/Part/Field tree.
+
+    \begin{theorem}[Same-solution terminal classification with annular boundary]
+    Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the maximal classical Navier--Stokes solution generated by \(u_0\).  Suppose a finite terminal claim selects a terminal record \(Q\) for that same branch, and suppose \(Q\) is admitted as a same-solution terminal witness.  Then the CM terminal test has the following alternatives.  Either \(Q\) retains the class-membership data needed for the continuation side, written
+    \[
+      \Member(Q;\Owork),
+    \]
+    or the first failed witness face gives
+    \[
+      \neg\Pack_Q,
+      \qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},
+      \qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    In the second case \(Q\) supports
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    Hence one admitted same-solution terminal record cannot be both the member-continuation record and the same finite nonsmooth terminal witness.
+    \end{theorem}
+
+    The admission clause is essential.  The CM test classifies the terminal object of the original equation.  The selected record must carry the same datum, same velocity-pressure branch, same fixed viscosity, same pressure law, same incompressibility constraint, and same terminal role.  A comparison packet, branch diagram, support estimate, or limiting profile helps after it is tied back to that same branch.
+
+    The proof route has four tasks.  It fixes the exact Navier--Stokes object under test.  It derives what the direct estimates control and where the present forward accounting stops.  It checks whether a surviving obstruction is still a same-solution terminal record.  It identifies the first failed witness face when an admitted survivor cannot remain on the continuation side.
+
+    The annular endpoint witness is the first place where these tasks meet.  A radius-zero point is too small to carry the Clay breakdown claim by itself.  The claim is carried by surrounding positive-radius fields as their radii shrink toward \(0\).  The direct annular theorem still needed is scale-uniform control of the remaining source on every same-solution terminal annular schedule.  The specific residual annular case is sorted in proof-program order: direct pass, exact terminal time-face pulse obstruction, no-admission support or Pack boundary on the governing record, readout-complete admitted Member branch, or readout-complete admitted Part/Field exit.
+
+    The proof state used in this opening is deliberately narrow.  The forward cone, funnel, derivative-tower, and active-square calculations reduce the live direct question to source-balanced annular control.  They do not prove a raw volume-drain, cone-surface, or energy-only closure.  The theorem still missing on the direct side is the terminal time-face source obstruction: the proof still needs a theorem excluding a finite-mass heat-window source pulse, or an equivalent new-production theorem for the same terminal source atom.  The contrapositive counterpart begins only after a surviving positive-radius annular residue has been admitted as the same-solution terminal record with the continuation-readout bridge paid.  At that point the Pack question has already been answered by selection and carrier admission, so a finite nonsmooth readout-complete admitted residue must leave through Part or Field, while a record retaining Part and continuation-readout Field is on the member-continuation side.
+
+    The rest of the paper follows this order.  The opening sections derive the forward obstruction from the energy and enstrophy identities and then refine it into the annular residual refill problem.  The CM sections define membership, Pack, Part, and Field.  The branch sections explain which support objects contribute to the proof, which are obsolete, and which remain open.  The appendices are used where they help the reader see a proof contribution, obstruction, support role, or explicit continuation question.
+
+  truncated: false
+- spine_id: the-same-terminal-record
+  section_title: The Same Terminal Record
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  line_start: 406
+  line_end: 425
+  text: |
+    \section{The Same Terminal Record}
+
+    The direct route and the CM route ask different questions about the same branch.  The direct route asks whether the equation supplies estimates strong enough to continue the original solution.  The CM route begins with the exact obstruction left after that accounting and asks whether the selected terminal record is still a same-solution Navier--Stokes object.
+
+    The reframing keeps the original datum, velocity-pressure branch, viscosity, pressure law, incompressibility constraint, and terminal role fixed.  A failed estimate becomes useful only after it produces a record \(Q\) that can be tested as the alleged terminal record of that same branch.  The CM test then asks three concrete questions.  Does \(Q\) still have a positive same-fluid carrier or packet?  That is Pack.  Does the same pressure-viscosity-incompressibility law still participate on the derivative tower being used?  That is Part.  Does the retained data still form a coherent positive-scale velocity field?  That is Field.
+
+    The pass side is conservative.  If Pack, Part, and Field survive on one selected record, that record remains on the member-continuation side and must be paired with the continuation readout named by the proof.  The fail side is equally concrete.  The argument marks the first failed face:
+    \[
+      \neg\Pack_Q,
+      \qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},
+      \qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    That first face failure supports
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+
+    The annular endpoint is the example that keeps the distinction honest.  The singularity claim is carried by positive-radius annular fields shrinking toward the endpoint.  The proof follows those fields.  Gold tries to control the residual annular refill directly.  Silver receives a surviving annular residue only after it has been selected as the same-solution terminal record with the continuation-readout bridge paid.  At that moment carrier is already part of admission.  The readout-complete admitted nonsmooth annular branch must fail through Part or Field, while a branch retaining Part and continuation-readout Field belongs to the member-continuation side.
+  truncated: false
+- spine_id: main-result
+  section_title: Main Result
+  source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  source_path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+  line_start: 1
+  line_end: 33
+  text: |
+    \section{Main Result}
+
+    The main theorem is a same-solution terminal classification theorem after admission.  It keeps the annular boundary visible because the stronger gold annular supplier remains unpaid.  The specific residual annular case is sorted as follows: gold pass, exact terminal time-face pulse obstruction, no-admission support or Pack boundary on the governing record, readout-complete admitted Member branch, or readout-complete admitted Part/Field exit.
+
+    \begin{theorem}[Same-solution terminal classification with annular boundary]
+    Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the maximal classical Navier--Stokes solution generated by \(u_0\).  Suppose a finite terminal claim selects a terminal record \(Q\) for that same branch.  If \(Q\) is admitted as a same-solution terminal witness, then either
+    \[
+      \Member(Q;\Owork)
+    \]
+    or the first failed CM witness face gives
+    \[
+      \neg\Pack_Q,
+      \qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},
+      \qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    In the failed-face cases,
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    Thus one admitted same-solution terminal record cannot be both a member-continuation record and the same finite nonsmooth terminal witness.
+    \end{theorem}
+
+    The theorem is a classification theorem after admission.  Admission is the step that ties the object to the original Navier--Stokes branch.  It requires the same datum, same velocity-pressure solution, same fixed viscosity, same pressure law, same incompressibility constraint, and same terminal role.  Without that tie, the paper has only a comparison object or a diagnostic pattern, not the terminal record being classified.
+
+    The annular boundary explains the present Clay-facing status.  A proposed terminal point \((x_*,T_*)\) is only the tip.  The singularity claim is carried by positive-radius fields shrinking toward that tip.  Gold would close this boundary directly by proving scale-uniform control of the residual annular refill.  The narrowed obstruction is terminal Zeno source-refill: same-solution source mass may concentrate along shrinking heat-time windows even while the physical energy remains finite.  In the residual currency, a source pulse on a heat window of length \(2^{-2j}\) has summable physical mass while \(D_j^{\mathrm{res}}\) stays bounded below.
+
+    The exact gold child left by that pulse is \(\mathrm{TerminalTimeFaceAntiAtom.A}\), or the same-content new-production theorem \(\mathrm{TerminalNewProductionTheorem}_{B_{\mathrm{ASAC}}}\mathrm{.A}\).  The audited entrances are temporal thickness or super-\(L^1_s\) source integrability; selected-source domination by a finite same-window reserve plus a terminal strip modulus; transported no-incoming flux together with terminal-face source-production exclusion; first-appearance upgraded into a time-priced ledger, source integrability, or a rigid no-atom subclass; and production of \(B_{\mathrm{ASAC}}\) into \(B_{\mathrm{ASAC}}^{TA}\).  Without one of those exact inputs, the terminal layer \(g_m(s)=(a/\tau_m)1_{(-\tau_m,0]}(s)\) remains compatible with finite \(L^1_s\) source mass.
+
+    Silver pays the same boundary after the surviving annular residue has been selected as the same-solution terminal record and the continuation-readout bridge has been paid.  Once it is admitted in that way, Pack is not the remaining landing for the annular test; carrier and selection have already been paid.  A nonsmooth readout-complete admitted annular witness must then fail by Part or by Field.  If Part and the continuation-readout Field survive with the \(H^s\), \(s>5/2\), bound, the dyadic source production forces \(D_j^{\mathrm{res}}\to0\), so the record is on the member side and cannot be the selected nonzero pulse.
+
+    The proof skeleton is short.  First, a finite terminal claim supplies either the usual \(H^s\), \(s>5/2\), restart readout or a selected terminal record \(Q\) for the same branch.  Second, the selected record enters the CM packet tree only when the same-solution admission data are present.  Third, retained Pack, Part, and Field feed the member-continuation side only through the selected continuation consumer.  Fourth, a finite nonsmooth terminal branch loses its first required face and supports \(\Exit(Q;\Owork)\).  The annular section applies that skeleton conditionally to the residual heat-scale pulse: finite physical source mass leaves the named terminal time-face child unpaid, while a readout-complete admitted nonzero pulse cannot retain both Part and continuation-readout Field.
+  truncated: false
+- spine_id: notation-and-internal-dependency-labels
+  section_title: Notation and Internal Dependency Labels
+  source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  source_path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+  line_start: 1
+  line_end: 21
+  text: |
+    \section{Notation and Internal Dependency Labels}
+
+    The paper uses a small number of project names.  Each name is tied to a proof role.
+
+    \begin{description}
+    \item[\(\Owork\).] The working same-solution Navier--Stokes class object.  It keeps the datum, equation, pressure law, viscosity, incompressibility constraint, and preterminal branch together.
+    \item[\(\Member(Q;\Owork)\).] The class-membership predicate for a selected terminal record \(Q\).  A member record is on the continuation side and must be paired with the relevant readout.
+    \item[\(\Exit(Q;\Owork)\).] The class-exit conclusion.  It means
+    \[
+      \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+    \]
+    \item[\(\Pack_Q\).] The Pack witness face.  It asks whether the selected record still has a positive same-fluid carrier or packet.
+    \item[\(\Part_{N,Q}\).] The Part witness face.  It asks whether the same pressure-viscosity-incompressibility law still participates on the derivative tower being tested.
+    \item[\(\Field_{N,r,Q}\).] The Field witness face.  It asks whether a positive-scale coherent velocity-field readout survives at scale \(r\).
+    \item[\(Q_{\mathrm{ann}}\).] A selected annular residual terminal witness.  It is admitted to the CM test only after the positive-radius annular residue has been tied to the same original Navier--Stokes branch.
+    \item[Gold route.] The forward-positive proof route.  It tries to control the original solution directly.
+    \item[Silver route.] The CM contrapositive route.  It classifies a selected same-solution terminal record after a forward obstruction has survived.
+    \item[Annular witness.] The positive-radius terminal residue surrounding a proposed endpoint.  It is the live boundary because a radius-zero point alone does not carry the full singularity claim.
+    \end{description}
+
+    These names are proof objects.  A branch, comparison packet, Euler boundary, source-reserve estimate, or positive-forward support note enters the paper only when it pays one of these roles: same-solution admission, Pack, Part, Field, member readout, exit conclusion, gold obstruction, silver landing, support, obsolete route, or open continuation.
+  truncated: false
+- spine_id: scope-and-proof-polarity
+  section_title: Scope And Proof Polarity
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+  source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+  line_start: 39
+  line_end: 48
+  text: |
+    \section{Scope And Proof Polarity}
+    \label{sec:scope-proof-polarity}
+
+    The Navier--Stokes global regularity problem is usually approached in the direct direction.  That route tries to estimate the original solution strongly enough that finite-time loss of smoothness has no room to occur.  That is the gold route in this paper.  It is the most direct certification layer because it keeps the solution itself inside the continuation argument.
+
+    The present proof also uses a contrapositive layer.  It keeps the same equation and the same branch.  It begins with the direct attempts because those attempts identify the actual terminal objects that threaten continuation.  When the forward accounting leaves a precise obstruction, the proof asks whether that obstruction is still a same-solution Navier--Stokes terminal record.  If it is admitted to the CM test and cannot remain on the member-continuation side, the first failed Pack, Part, or Field face supports class exit.
+
+    This polarity matters for reading the branch material.  A failed gold estimate becomes useful when it leaves a selected terminal record tied to the original branch.  A CM face failure has a different job: it is the reason the alleged finite nonsmooth terminal record cannot also be the same in-class Navier--Stokes member record.
+
+    The first concrete domain is the periodic zero-force problem on \(\mathbb T^3\).  Whole-space \(\mathbb R^3\) material is tracked as its own export and exterior-source boundary.  Comparison material and Euler boundary material are included only where they supply a same-solution proof role or a smoothness-boundary role.  A branch-local result reaches the full Clay conclusion only through the export argument that carries it there.
+  truncated: false
+- spine_id: proof-roadmap
+  section_title: Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  source_path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+  line_start: 1
+  line_end: 29
+  text: |
+    \section{Proof Roadmap}
+
+    The proof begins by fixing the object under test.  A finite terminal claim must select the terminal record of the same Navier--Stokes branch: same datum, same equation, same pressure law, same viscosity, same incompressibility constraint, and same preterminal smooth solution.  After that admission, the paper asks whether the selected record is a member record or an exit record.
+
+    The first route is gold.  The energy identity controls kinetic energy and integrated enstrophy.  The enstrophy identity exposes the nonlinear source term
+    \[
+      \int (u\cdot\nabla)u\cdot\Delta u\,dx.
+    \]
+    The calculation in the opening section gives the local inequality \(Y'(t)\le C_\nu Y(t)^3\).  That inequality gives local control and leaves finite-time growth possible.  The annular and funnel work sharpens this into the residual source-refill question on shrinking positive-radius windows near a proposed endpoint.
+
+    The second route is silver.  If a residual terminal obstruction survives the forward accounting, the paper tests the selected record \(Q\).  A retained record must carry
+    \[
+      \Pack_Q,\qquad
+      \Part_{N,Q},\qquad
+      \Field_{N,r,Q}
+    \]
+    to the continuation readout.  A failed record is exhausted in Pack-first order:
+    \[
+      \neg\Pack_Q,\qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    The first failed face supports \(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
+
+    The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is too small to carry the singularity claim by itself; the claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those payments is written, the paper keeps the boundary visible.
+
+    Two downstream support families are kept out of the opening claim.  The lower-carrier interval-integrability work belongs to the later receiver/source analysis, where a moving collar has to be shown to carry enough integrability for the retained window.  The strong-defect bridge work belongs to the later geometric-defect analysis, where a surviving defect has to be connected to a lawful Pack, Part, or Field role.  In the opening these families serve only as reminders that the annular boundary is not the whole proof topology.  They do not change the theorem stated above, and they do not convert the open gold annular supplier into a completed positive proof.
+
+    The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof payment, support, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.
+  truncated: false
+support_refs:
+- path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  excerpt: |-
+    The batch replaced the active `Original Problem Statement` source span in `navier-stokes-submission.tex` and inserted a compiled `Current Main Result and Proof Roadmap` section before the gold-standard estimate section.  The new front section gives the reader the current theorem-level claim, the live gold annular boundary, the written silver payments for the periodic atlas and whole-space exterior-source branches, and the rule for reading branch-family/support material as PDF payment rather than independent theorem churn.
+
+    Targeted verification:
+- path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  excerpt: |-
+    governing_goal: >-
+        Make the problems/** Navier-Stokes human PDF a continuously readable,
+        forward-positive work as supplier/certification support and silver CM
+        Pack/Part/Field contrapositive as an acceptable closure route when fully
+- path: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  - reframing
+  excerpt: |-
+    ```text
+    gold standard first:
+      prove ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A, i.e.
+      prove late-slab scale-critical smallness or a finite undiscounted cone tail;
+- path: problems/navier-stokes/dependency-graph.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    generated_at: '2026-06-14T15:00:18Z'
+    status: branch-paid-annular-silver-gold-new-production-open
+    pass: false
+    release_eligible: false
+- path: problems/navier-stokes/route-lock.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    - problems/navier-stokes/theorem-repair.yaml
+      - problems/navier-stokes/dependency-discharge.yaml
+      installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+      object_law_remains_governing: true
+    authority_split_resolution:
+- path: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    It is the intent and aim that `navier-stokes-submission.tex` must preserve.
+
+    > the overall argument is simple: "the gold standard here is the forward-positive proof methods. however, those become exceptionally challening to solve and are not needed for a full proof. here we propose the silver-standard. a class-membership exclusion and contrapositive proof. we take the properties of the NS equations and intial data, convert it into a class-object, define witnesses and failure types, and show exhaustively that all failure types both land in those witnesses, and exit the class object. simply put, all smooth solutions to the MPP navier stokes problem are witnessed as class members. All non-smooth solutions of the same equations are witnessed outside of that class, making them irrelevant to the problem. This paper will first demonstrate the forward-proof mehcanisms and theorems which bring us to seemingly impassable or unsovlable obstructions naturally, then once an obstruction is reached, the proof will switch to the contrapositive method. rather than persisting on a begruginly long and arduous task of brute forcing and boostrapping estimates and controls on every problem, we can more easily show that IF any problem were to cause any non-smooth scenario, it must also lie outside the problem defintion."
+
+    ## Class-Law Closure Correction
+- path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    ### Work item 2: Replace the current first body sequence
+
+    The current body sequence begins with original problem statement, gold-standard route, and enstrophy obstruction. The next major draft should open with a short scope/problem section, then move directly into the positive-forward proof standard and the four-body diagnostic exercise.
+
+    ### Work item 3: Promote curated branch content from the compressed appendix
+- path: problems/navier-stokes/submission-bundle/source-frontier.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    quantitative_audit_status: fixed-scale-rate-formula-proved-scale-uniform-positive-supplier-open
+      parabolic_funnel_control_note: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+      parabolic_funnel_control_status: exact-moving-radius-funnel-identity-installed-gold-scale-critical-cone-budget-open-silver-only-after-surviving-residual-obstruction
+      density_point_closure_note: problems/navier-stokes/theorem-construction/mpp-density-point-closure-direct-attempt-20260611.md
+      density_point_closure_status: exact-density-countermodel-installed-finite-energy-not-pointwise-control
+- path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    required_for_clay_submission: true
+      preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+    source_wall_root_cm_status: Gold has been tried first and audited to the exact terminal
+      time-face pulse obstruction. A closure proof must produce terminal time-thickness,
+      super-L1 source integrability, a scale-critical source charge, transported no-incoming-flux
+- path: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    review_verdict: blocked
+      release_posture: blocked
+      completion_tier_achieved: branch-paid-annular-silver-gold-new-production-open
+      standalone_status: blocked
+      current_package_status: branch-paid-annular-silver-gold-new-production-open
+- path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    live_theorem_edge: &1
+      status: active
+      current_route_name: terminal-time-face-new-production-gold-obstruction
+      exact_cut_summary: 'The active frontier is the gold terminal time-face/new-production
+        child after the specific annular residual case has been accounted. The silver
+- path: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    ---
+    ns_viewer:
+      theorem_id: annular-gold-continuation-frontier-20260614
+      status: gold-frontier-open-silver-strain-aligned-cm-split-installed
+      proof_role: continued_work_after_annular_gold_silver_correction
+- path: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    - problems/navier-stokes/theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md
+        - problems/navier-stokes/theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md
+      downstream_consequence: "The PDF may say the silver counterpart exists for the surviving annular obstruction: under CM-test admission with same-solution positive-radius carrier and readout completeness, the smooth branch is Member(Q) and the finite nonsmooth branch is exhausted by Part or Field. The PDF must still say this does not prove the gold scale-uniform supplier, and it must not call final CMI closure until annular selection/carrier/readout completeness and all criticism descendants are resolved."
+    ---
+- path: problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    theorem_id: annular-limit-witness-gap-goal-run-primer-20260611
+      status: corrected-live-goal-run-primer-open
+      proof_role: gold-forward-positive-and-silver-cm-annular-limit-reopen
+      logical_landing_node: terminal_cone_annular_limit_witness
+- path: problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    ns_viewer:
+      theorem_id: annular-residual-specific-case-exhaustion-20260614
+      status: specific-case-exhaustion-installed-gold-obstruction-silver-admission-part-field
+      proof_role: case_exhaustion_for_pulling_teeth_annular_residual_case
+      logical_landing_node: terminal_cone_annular_limit_witness
+- path: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    ns_viewer:
+      theorem_id: basac-target-local-exhaustion-pack-first-exit-support-20260517
+      status: target-local-exhaustion-pack-first-support-gold-new-production-open
+      proof_role: exact_basac_obstruction_and_cm_pack_support
+      logical_landing_node: terminal_zero_thickness_native_source_atom
+- path: problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    density.
+
+    ## 8. Ratified Gold / Obstruction / Silver Flow
+
+    For this specific cone/tower case, the exact problem-solving flow is:
+- path: problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    This is the exact reason first-moment drain does not pay the active square.
+
+    ## 3. Gold Standard
+
+    The gold forward-positive target is not raw `DirectLPAS.A`.  The live gold
+- path: problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    ns_viewer:
+      theorem_id: scale-uniform-annular-supplier-goal-resolution-20260613
+      status: gold-hard-obstruction-branch-paid-annular-silver-readout
+      proof_role: goal_run_resolution_for_annular_supplier_boundary
+      logical_landing_node: terminal_cone_annular_limit_witness
+- path: problems/navier-stokes/theorem-construction/mpp-strain-aligned-terminal-obstruction-cm-split-20260614.md
+  matched_keywords:
+  - gold
+  - obstruction
+  excerpt: |-
+    theorem_id: strain-aligned-terminal-obstruction-cm-split-20260614
+      status: installed-silver-cm-split-for-strain-aligned-terminal-obstruction
+      proof_role: silver_cm_exit_consumption_after_dynamic_no_freeze_gold_obstruction
+      logical_landing_node: terminal_time_face_source_atom
+      source_authority:
+context_packer_contract:
+  arc_id: opening-theorem-route
+  context_unit: one whole proof arc
+  required_domains:
+  - domain_id: tex_source
+    name: assigned TeX source sections
+    role: the words already on the page that must become finished proof prose
+  - domain_id: route_lock
+    name: route lock and completion executors
+    role: current route authority, gold/silver status, and proof-state constraints
+  - domain_id: theorem_notes
+    name: theorem notes and construction records
+    role: derivations, failed routes, proof payments, obstructions, and exact source
+      references
+  - domain_id: brain_app_node_material
+    name: brain/app/node and graph material
+    role: node graphs, app-facing state, crosswalks, and reader-map material that
+      must be represented on the page or explicitly excluded
+  - domain_id: current_proof_status
+    name: current proof status surfaces
+    role: what the repo currently says is proved, open, obsolete, blocked, or only
+      support
+  - domain_id: writing_rules
+    name: reader and manuscript writing rules
+    role: Thomas-specific manuscript constraints, forbidden voice, and reader-facing
+      quality rules
+  selection_rule: include source material that can change this arc's TeX; exclude
+    or quarantine anything that cannot pay a line on the page
+  missing_material_rule: when a domain has no matching source, the author must say
+    whether the arc is already paid, obsolete, or still missing a cited source
+  handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
+    endpoint status, or CM counterpart for this arc
+context_domain_refs:
+- domain_id: tex_source
+  name: assigned TeX source sections
+  role: the words already on the page that must become finished proof prose
+  refs:
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:100
+    section_title: Original Problem Statement
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:120
+    section_title: Current Main Result and Proof Roadmap
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:406
+    section_title: The Same Terminal Record
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/sections/main-result.tex
+    source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+    section_title: Main Result
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex
+    source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+    section_title: Notation and Internal Dependency Labels
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex
+    source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:39
+    section_title: Scope And Proof Polarity
+    matched_keywords: []
+  - path: problems/navier-stokes/submission-bundle/sections/roadmap.tex
+    source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+    section_title: Proof Roadmap
+    matched_keywords: []
+  ref_count: 7
+- domain_id: route_lock
+  name: route lock and completion executors
+  role: current route authority, gold/silver status, and proof-state constraints
+  refs:
+  - path: problems/navier-stokes/route-lock.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      - problems/navier-stokes/theorem-repair.yaml
+        - problems/navier-stokes/dependency-discharge.yaml
+        installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+        object_law_remains_governing: true
+      authority_split_resolution:
+  - path: problems/navier-stokes/ns-completion-executor.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      - Pack/Part/Field face landing
+          done_condition: complete when the theorem node changes proof state or is exactly
+            blocked by a named mathematical obstruction
+          handoff_back: Handoff back with a changed-state ref, exact blocker, and next work-node
+            recommendation for parent-thread reentry.
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607-iteration-2.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+          checks finite-obstruction inventory coverage rather than generic no-face exclusion.
+          The promoted proof-bearing rows have CM entry and first-face landing, while generic
+          support rows remain demoted.'
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260607.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+          checks finite-obstruction inventory coverage rather than generic no-face exclusion.
+          The promoted proof-bearing rows have CM entry and first-face landing, while generic
+          support rows remain demoted.'
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608-iteration-2.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+          checks finite-obstruction inventory coverage rather than generic no-face exclusion.
+          The promoted proof-bearing rows have CM entry and first-face landing, while generic
+          support rows remain demoted.'
+  - path: problems/navier-stokes/ns-completion-route-sync-payload-20260608.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is recorded,
+          and that face failure supports Exit(Q):=not Member(Q). The current referee audit
+          checks finite-obstruction inventory coverage rather than generic no-face exclusion.
+          The promoted proof-bearing rows have CM entry and first-face landing, while generic
+          support rows remain demoted.'
+  ref_count: 6
+- domain_id: theorem_notes
+  name: theorem notes and construction records
+  role: derivations, failed routes, proof payments, obstructions, and exact source
+    references
+  refs:
+  - path: problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
+    matched_keywords:
+    - gold
+    - obstruction
+    - reframing
+    excerpt: |-
+      ```text
+      gold standard first:
+        prove ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A, i.e.
+        prove late-slab scale-critical smallness or a finite undiscounted cone tail;
+  - path: problems/navier-stokes/auto-audit.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      certification:
+        current_package_status: branch-paid-annular-silver-gold-new-production-open
+        standalone_status: blocked
+        completion_tier_achieved: branch-paid-annular-silver-gold-new-production-open
+  - path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
+      status:
+        audit_status: branch-paid-annular-silver-gold-new-production-open
+        pass: false
+        release_eligible: false
+  - path: problems/navier-stokes/ns-proof-program-route-table.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      theorem work
+      open_root_group:
+        group_id: terminal-time-face-new-production-gold-obstruction
+        group_label: Terminal time-face new-production frontier after the annular residual
+          specific case exhaustion.
+  - path: problems/navier-stokes/proof-assembly.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      theorem work
+        open_root_group: &5
+          group_id: terminal-time-face-new-production-gold-obstruction
+          group_label: Terminal time-face new-production frontier after the annular residual
+            specific case exhaustion.
+  - path: problems/navier-stokes/theorem-construction/mpp-annular-gold-continuation-frontier-20260614.md
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      ---
+      ns_viewer:
+        theorem_id: annular-gold-continuation-frontier-20260614
+        status: gold-frontier-open-silver-strain-aligned-cm-split-installed
+        proof_role: continued_work_after_annular_gold_silver_correction
+  ref_count: 6
+- domain_id: brain_app_node_material
+  name: brain/app/node and graph material
+  role: node graphs, app-facing state, crosswalks, and reader-map material that must
+    be represented on the page or explicitly excluded
+  refs:
+  - path: problems/navier-stokes/dependency-graph.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      generated_at: '2026-06-14T15:00:18Z'
+      status: branch-paid-annular-silver-gold-new-production-open
+      pass: false
+      release_eligible: false
+  - path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.debt_pool.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      source_refs:
+      - problems/navier-stokes/debt-map.yaml
+      - problems/navier-stokes/obstruction-capture.md
+      frontier: false
+      context:
+  - path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      is supplied only by `RSCB.NKF`, the retained smooth center-ball certificate for
+        pointwise center pressure/viscous forcing; finite energy plus pressure Poisson response
+        alone does not supply those center derivatives, as shown by `mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md`.
+        The retained condition is local `L^1_t C^{m+2,\alpha}` velocity plus local `L^1_t
+        C^{m+1,\alpha}` pressure near the retained centers. The installed route to `NKF.Native`
+  - path: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.tps-strong-defect-bridge-route.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      state: context-only
+      kind: TPS strong/defect bridge route
+      summary: SG.4 exact geometric obstruction
+      source_refs:
+      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
+  - path: problems/navier-stokes/current-route-dependency-graph.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      the same-fluid CM packet tree, the first failing Pack/Part/Field face is
+            recorded, and that face failure supports Exit(Q):=not Member(Q). The
+            current referee audit checks finite-obstruction inventory coverage rather
+            than generic no-face exclusion. The promoted proof-bearing rows have CM
+            entry and first-face landing, while generic support rows remain demoted.
+  - path: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      - euler-mirror/theorem-construction/curvature-provenance-euler-support-note.md
+      - euler-mirror/theorem-construction/euler-mirror-frontier-packet.md
+      - euler-mirror/theorem-construction/exact-potential-euler-entry-obstruction-note.md
+      - euler-mirror/theorem-construction/export-whole-space-euler-walkdown-program.md
+      - euler-mirror/theorem-construction/integrated-euler-closure-program.md
+  ref_count: 6
+- domain_id: current_proof_status
+  name: current proof status surfaces
+  role: what the repo currently says is proved, open, obsolete, blocked, or only support
+  refs:
+  - path: problems/navier-stokes/campaign-status.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      child or a replacement noncircular finite-breakdown exclusion.
+      top_blockers:
+      - terminal-time-face-new-production-gold-obstruction
+      current_manuscript_surface:
+        authoring_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      required_for_clay_submission: true
+        preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
+      source_wall_root_cm_status: Gold has been tried first and audited to the exact terminal
+        time-face pulse obstruction. A closure proof must produce terminal time-thickness,
+        super-L1 source integrability, a scale-critical source charge, transported no-incoming-flux
+  - path: problems/navier-stokes/paper-quality-verdict.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      completion_candidate_count: 5
+        completion_candidates:
+        - FiniteTerminalObstructionInventoryFinality.A / ClayCounterexampleExclusionBridge.A
+        - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A as a child no-genuine-exit route only after the finality bridge requires a positive first-exit theorem
+        - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
+  - path: problems/navier-stokes/runtime/meta/shared-runner-incidents.yaml
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      source: stage_runtime_helpers.fail_run
+        summary: 'Automatic governance escalation from navier-stokes: KeyError: key not
+          found: "obstruction_capture"'
+        first_seen_at: '2026-04-29T19:33:55Z'
+  ref_count: 4
+- domain_id: writing_rules
+  name: reader and manuscript writing rules
+  role: Thomas-specific manuscript constraints, forbidden voice, and reader-facing
+    quality rules
+  refs:
+  - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    matched_keywords:
+    - gold
+    - obstruction
+    - reframing
+    excerpt: |-
+      The batch replaced the active `Original Problem Statement` source span in `navier-stokes-submission.tex` and inserted a compiled `Current Main Result and Proof Roadmap` section before the gold-standard estimate section.  The new front section gives the reader the current theorem-level claim, the live gold annular boundary, the written silver payments for the periodic atlas and whole-space exterior-source branches, and the rule for reading branch-family/support material as PDF payment rather than independent theorem churn.
+
+      Targeted verification:
+  - path: AGENTS.md
+    matched_keywords:
+    - obstruction
+    - reframing
+    excerpt: |-
+      - In theorem conversation, type every loaded phrase before chaining it into a sentence. For Navier-Stokes CM work, keep these roles separate: finite breakdown or counterexample assumption, grammar-admissible test object, class-member predicate, witness face, face failure, support/readout, and class-exit conclusion. `CM-lawful` may only mean admissible for the CM test, never `Member(Q)`; a face failure lands in Pack/Part/Field, not the whole witness; `Exit(Q):=not Member(Q)` is the class-exit conclusion supported by the face failure, not a synonym for Pack/Part/Field.
+      - In theorem work, failure labels such as `dead`, `blown`, and `jump` are outputs of a mechanism test, not a starting taxonomy. Before naming one, derive it from the proof program: `Dead` means Part-side participation failure or same-object dynamic carrier failure; raw no-positive-radius carrier is Pack-side unless participation failure is also derived; retained positive-window unbounded field means blown; incompatible surviving traces mean jump. A fluent label list without that derivation is a conduct failure.
+      - Capability-growth rule: when Thomas asks for solved-MPP-level progress or criticizes proof progress as machinery-only, do not answer only by narrowing the next task or tightening success language. Identify the missing capability and build or route a concrete upgrade in tools, proof methods, source recovery, formal checking, research intake, subagent orchestration, local compute, repo surfaces, lane runtime, or cognition skills, then apply it to a named theorem obstruction.
+      - Introspection rule: when Thomas asks why a day, thread, or interaction went badly, do not answer from a plausible behavioral story. Treat the task as introspection: evidence-backed self-observation that inspects the relevant conversation evidence, finds missed common sense, insight, and awareness, and replay-tests whether the repair would have prevented the original bad reply. If evidence has not been checked, explicitly mark the answer as unchecked inference.
+      - Relationship-damage forensic rule: when Thomas says behavior analysis is too local, not global, not truthful, or lacks self-awareness, do not answer with examples, buckets, labels, or a polished diagnosis. Reconstruct the play-by-play: the original idea, original intended target, Codex drift point, breakdown sequence, escalation point, what Codex was doing internally, how that damaged the working relationship, what burden moved onto Thomas, the global solution, and the next-send veto. Patch the durable surface when the missing forensic layer is machine-actionable.
+  - path: problems/navier-stokes/submission-bundle/ground-up-target-reference.md
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      It is the intent and aim that `navier-stokes-submission.tex` must preserve.
+
+      > the overall argument is simple: "the gold standard here is the forward-positive proof methods. however, those become exceptionally challening to solve and are not needed for a full proof. here we propose the silver-standard. a class-membership exclusion and contrapositive proof. we take the properties of the NS equations and intial data, convert it into a class-object, define witnesses and failure types, and show exhaustively that all failure types both land in those witnesses, and exit the class object. simply put, all smooth solutions to the MPP navier stokes problem are witnessed as class members. All non-smooth solutions of the same equations are witnessed outside of that class, making them irrelevant to the problem. This paper will first demonstrate the forward-proof mehcanisms and theorems which bring us to seemingly impassable or unsovlable obstructions naturally, then once an obstruction is reached, the proof will switch to the contrapositive method. rather than persisting on a begruginly long and arduous task of brute forcing and boostrapping estimates and controls on every problem, we can more easily show that IF any problem were to cause any non-smooth scenario, it must also lie outside the problem defintion."
+
+      ## Class-Law Closure Correction
+  - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
+    matched_keywords:
+    - gold
+    - obstruction
+    excerpt: |-
+      ### Work item 2: Replace the current first body sequence
+
+      The current body sequence begins with original problem statement, gold-standard route, and enstrophy obstruction. The next major draft should open with a short scope/problem section, then move directly into the positive-forward proof standard and the four-body diagnostic exercise.
+
+      ### Work item 3: Promote curated branch content from the compressed appendix
+  - path: problems/navier-stokes/submission-bundle/authorial-structure-pass-20260526.md
+    matched_keywords:
+    - gold
+    excerpt: |-
+      Reader takeaway:
+
+      - The gold standard is a direct positive proof: produce estimates that continue the smooth solution.
+      - The silver standard is the CM contrapositive: start from an alleged finite terminal witness and prove it loses a same-solution continuation service.
+      - This silver standard is not weaker writing. It is a contrapositive proof with a different burden.
+  - path: problems/navier-stokes/submission-bundle/chatgpt-ontological-part-field-vpi-coherence-proof-20260614.md
+    matched_keywords:
+    - obstruction
+    excerpt: |-
+      \]
+
+      The first disjunct is a pressure--viscosity--incompressibility participation failure: the selected annular window can carry the residual obstruction only by dropping the same equation tower, pressure response, incompressibility relation, source ancestry, derivative tower, or legal annular exchange relation required for participation.
+
+      The second disjunct is a coherent-field failure: the selected annular window keeps same-equation participation as a proof license, yet no positive scale supports one coherent same-law field and continuation readout. It is a realized terminal jump/receiver-escape endpoint rather than a smooth one-field continuation branch.
+  ref_count: 6
+author_contract:
+  arc_id: opening-theorem-route
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns: *2
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+math_dependency_policy:
+  containment_rule: theorem work may start only from a named manuscript gap in this
+    arc, and the result must return as TeX-ready derivation, exact obstruction, or
+    CM counterpart
+  forbidden_work:
+  - free-running proof search
+  - new theorem attempts without a section_ref
+  - positive-forward estimate churn that does not change the manuscript
+  - route summaries that do not pay a line on the page
+  required_handoff_fields:
+  - section_ref
+  - gap_sentence
+  - repo_sources_used
+  - gold_status
+  - silver_or_cm_counterpart
+  - tex_ready_replacement
+  arc_author_job: write the theorem target, gold route, obstruction, and CM turn as
+    finished opening proof exposition
+math_reader_critic_contract:
+  arc_id: opening-theorem-route
+  critic_scope: criticize only this authored arc and return repairable failures tied
+    to the replacement text
+  must_answer:
+  - claim_truth_attack
+  - reader_thread_attack
+  - unpaid_derivation_attack
+  - repair_decision
+  acceptable_repair_decisions:
+  - passes after repair
+  - open endpoint written explicitly
+  - blocked with exact manuscript gap
+  integration_rule: the author pack cannot pass until each replacement records a resolved
+    math/reader criticism decision
+verification_plan:
+  ordinary_batch_checks:
+  - verify author pack replacements
+  - integrate pack through TeX source
+  - scan changed source for unfilled text and machinery voice
+  - run paper-arc and source-batch tests
+  - compile changed manuscript once
+  - extract and reread changed section pages
+  full_pdf_finality_check: only after a full draft milestone or an actual finality
+    claim
+  arc_completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/opening-theorem-route.yaml
+output_rule: fill the referenced author pack with final TeX replacements, verify it,
+  integrate it, then build and reread only the changed sections

@@ -41,7 +41,8 @@ Q_\ell := -\,\ell\partial_\ell P_{\le \ell},
 ```
 
 where `\varphi` is a smooth low-pass symbol and `Q_\ell` is the corresponding
-band-pass operator localized at frequency `\sim \ell^{-1}`.
+band-pass operator supported where
+`c_Q\ell^{-1}\le |\xi|\le C_Q\ell^{-1}`.
 
 Write
 
@@ -70,7 +71,7 @@ lifted functional:
 
 ```math
 \mathcal J_N^{lift}(t)
-\sim
+:=
 \int_0^{c2^{-N}}\int_{\mathbb R^3}\mathfrak c_\ell(x,t)\,dx\,\frac{d\ell}{\ell}.
 ```
 

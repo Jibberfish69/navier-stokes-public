@@ -1,0 +1,195 @@
+---
+version: 1
+kind: ns-paper-straight-through-draft-manifest
+batch_id: 2026-06-14-straight-through-machine
+generated_at: '2026-06-14T15:45:19Z'
+first_job: make a full straight-through draft exist quickly as finished TeX proof
+  scenes
+production_move: prepare hard -> write fast -> verify mechanically -> repair only
+  failures
+paper_product_rule: the paper is the only product; plans, packets, ledgers, builds,
+  and reports are support evidence only
+production_machine_contract:
+  core_move: prepare hard -> write fast -> verify mechanically -> repair only failures
+  paper_product_rule: the manuscript source is the product; packets, ledgers, builds,
+    and reports exist only to feed or verify the page
+  machine_layers:
+  - name: Paper Arc Planner
+    job: divide the current proof manuscript into 8-12 proof arcs that a human reader
+      can follow as one argument
+  - name: Context Packer
+    job: gather the assigned TeX, theorem notes, route locks, brain/app/node material,
+      proof status, symbols, dependencies, and writing rules for one arc
+  - name: Author Packet
+    job: write final TeX prose for the whole arc, including plain explanation, derivation/proof
+      payment, and endpoint status
+  - name: Math Supplier
+    job: serve the selected arc only by supplying TeX-ready derivations, exact obstructions,
+      endpoint classifications, or CM counterparts
+  - name: Verifier
+    job: reject placeholder prose, machinery voice, missing source coverage, unpaid
+      claims, unresolved critic findings, and route-identity drift before integration
+  - name: Integrator
+    job: apply verified TeX source rewrites and return changed-section build scope
+      for targeted verification
+  math_containment_rule: before first-draft approval, theorem work is section-bound
+    manuscript supply; free-running gold proof search is out of scope
+  economy_rule: ordinary progress uses source diffs, changed-section builds, and targeted
+    rereads; full PDF finality checks happen only at milestones or finality claims
+  first_draft_boundary: the first draft exists only when every current repo proof
+    thread has a home on the page as proof, support, obstruction, obsolete material,
+    contradiction, or open continuation
+arc_count: 12
+arc_sequence:
+- arc_id: opening-theorem-route
+  title: Opening theorem route
+  priority: 1
+  author_job: write the theorem target, gold route, obstruction, and CM turn as finished
+    opening proof exposition
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: gold-obstruction
+  title: Gold obstruction
+  priority: 2
+  author_job: 'write the live gold route honestly: what it tries to prove, what exact
+    obstruction remains, and what the manuscript does with that obstruction'
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: failure-taxonomy
+  title: Failure taxonomy and endpoint roles
+  priority: 3
+  author_job: turn endpoint names into readable mathematical cases with their proof
+    roles stated
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: cm-class-membership
+  title: CM class membership
+  priority: 4
+  author_job: define the CM test as the reader-facing class-membership object, with
+    every witness role separated
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: pack-part-field-grammar
+  title: Pack/Part/Field witness grammar
+  priority: 5
+  author_job: write the witness-face grammar and the contrapositive class-exit proof
+    without role conflation
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: contrapositive-proof
+  title: Contrapositive proof
+  priority: 6
+  author_job: write the pass-or-exit proof with the assumption, test object, witness
+    face failure, and Exit(Q) conclusion kept separate
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: same-solution-close
+  title: Same-solution close
+  priority: 7
+  author_job: write the same-solution bridge so the reader sees that the CM pass/exit
+    test is applied to the terminal object already produced by the proof route
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: clay-facing-cm-completion
+  title: Clay-facing CM completion
+  priority: 8
+  author_job: write the final CM closure as a theorem proof, including exactly what
+    it certifies
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: forward-branch-treatment
+  title: Forward-positive branch treatment
+  priority: 9
+  author_job: write the forward-positive branches as paid proof, obstruction, support,
+    obsolete, or open continuation
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: comparison-transfer-boundary
+  title: Comparison and transfer boundary
+  priority: 10
+  author_job: include comparison material only where it pays an NS proof role or a
+    smoothness-boundary role
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: source-field-reader-integration
+  title: Source-field reader integration
+  priority: 11
+  author_job: write source-field material as a reader-facing proof scene or a precise
+    endpoint status instead of leaving it as raw appendix bulk
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+- arc_id: appendix-source-field-integration
+  title: Appendix proof-attempt integration
+  priority: 12
+  author_job: convert raw proof-attempt appendix material into readable paper text
+    or explicit support/open status
+  completion_test: finished TeX prose for every spine_ref, verified mechanically,
+    then integrated into TeX source
+context_packet_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/gold-obstruction.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/contrapositive-proof.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/same-solution-close.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/source-field-reader-integration.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/context-packets/appendix-source-field-integration.yaml
+work_packet_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/gold-obstruction.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/contrapositive-proof.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/same-solution-close.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/source-field-reader-integration.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/work-packets/appendix-source-field-integration.yaml
+author_pass_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/gold-obstruction.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/contrapositive-proof.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/same-solution-close.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/source-field-reader-integration.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-passes/appendix-source-field-integration.yaml
+author_pack_refs:
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/opening-theorem-route.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/gold-obstruction.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/failure-taxonomy.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/cm-class-membership.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/pack-part-field-grammar.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/contrapositive-proof.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/same-solution-close.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/clay-facing-cm-completion.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/forward-branch-treatment.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/comparison-transfer-boundary.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/source-field-reader-integration.yaml
+- problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/appendix-source-field-integration.yaml
+verification_gate:
+  mechanical: verify every author pack before integration
+  math_reader: attack only the written arc for claim truth, reader loss, and unpaid
+    derivation jumps, and record the repair decision inside the author pack before
+    integration
+  repair: repair only failed points in the arc source; do not restart the whole manuscript
+  rendering: compile and reread changed sections and spillover pages only
+first_draft_gate:
+  scope: all ready arcs must have authored replacements integrated into TeX source
+  critic_requirement: every replacement must carry claim-truth, reader-thread, and
+    unpaid-derivation criticism with a resolved repair decision
+  completion_language: first draft approval means the paper itself is readable and
+    current; packet generation, green verifiers, and builds are support evidence only
+math_containment_rule: no independent theorem pursuit before first-draft approval;
+  theorem effort may only supply TeX-ready derivation, exact obstruction, endpoint
+  classification, or CM counterpart for the selected arc

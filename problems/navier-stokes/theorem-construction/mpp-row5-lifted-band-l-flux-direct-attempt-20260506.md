@@ -37,7 +37,8 @@ The coarse-grained stress-strain reduction gives
 
 ```math
 |\mathcal J_N^{lift}(t)|
-\lesssim
+\le
+C_{\mathrm{lift}}
 \Pi_N^{lift}(t),
 ```
 
@@ -78,7 +79,9 @@ The coefficient shell may lie far below the output shell `j`, so finite near-dia
 
 ### Pointwise tail-smallness shortcut
 
-A schematic bound using `\|u_{\ge N+M}(t)\|_2` would require pointwise high-tail smallness. The available scale barrier is integrated in time, not pointwise. Thus this shortcut cannot produce
+A bound of the form `|\mathcal J_N^{lift}(t)|\le C\|u_{\ge N+M}(t)\|_2(\cdots)`
+would require pointwise high-tail smallness. The available scale barrier is
+integrated in time, not pointwise. Thus this shortcut cannot produce
 
 ```math
 \varepsilon\nu D_N(t)+C_*2^{-2\delta N}

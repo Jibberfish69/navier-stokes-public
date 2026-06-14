@@ -1,0 +1,1011 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-52
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-52
+  sequence: 137
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 52
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 56003
+  line_end: 56520
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56003
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56082
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56123
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56234
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56341
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56402
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56466
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56473
+  subsection_titles:
+  - 'Clay problem Try both: transported tightness and terminal time-face anti-atom'
+  - Clay problem Two-Tower Donor Balance Modulo Refill Note
+  - Clay problem Two-Tower Donor-Depletion Formalization Note
+  - Clay problem Unified Survivor Finite-Infinitesimal Separation Defect Note
+  - Clay problem Uniform Temporal Integrability Next Attempt
+  - Source Pulse CM-Exit Ordering Audit
+  - 'Viscosity-Class Boundary: Current Reader Use'
+  - Clay problem Viscosity-Homotopy Response Height Proof Run
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Clay problem Try both: transported tightness and terminal time-face
+      anti-atom'
+    line_start: 56003
+    line_end: 56035
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56003
+    start_anchor: "\\subsection{Clay problem Try both: transported tightness and terminal
+      time-face anti-atom}\n"
+    end_anchor: "\\subsection{Independent Verification And Paper Proof Package}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Try both: transported tightness and terminal time-face anti-atom}
+
+      \[
+      \int_{1}^{\infty} Flux_{\partial \mathcal C_R^{tr}}\,dR<\infty
+      \]
+
+      Current inputs supply compactness on fixed cylinders. They do not supply a finite global ancient shell budget. Original global energy rescales as
+
+      \[
+      \|u^{(m)}(s)\|_{L_y^2}^2
+      =r_m^{-1}\|u(t_m+r_m^2s)\|_{L_x^2}^2,
+      \]
+
+      so finite original energy does not become finite ancient global energy in tangent variables. Good-shell coarea so has no finite measure to average.
+
+      Same-fluidity aligns the cylinders. ASAC equality removes a selected alignment defect. Neither gives a transported shell tail estimate for kinetic, pressure, and nonselected flux.
+
+      \[
+      d\mu_*^{src}(y,s)=\rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      This atom is a local Radon boundary measure on the terminal time face. Backward adjoint tests detect it through terminal trace. Parabolic capacity treats the terminal face as trace-bearing boundary data. Local energy trace can remove it only after incoming flux and positive terminal jump channels are excluded.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])\le\omega_R(\varepsilon)+o_m(1),
+      \qquad \omega_R(\varepsilon)\downarrow0.
+      \]
+
+      Trying both components does not discharge the obstruction from installed inputs.
+
+      Either one would move the conditional bridge closer to discharge. The second is equivalent to terminal temporal anti-concentration. The first requires a new global or anisotropic shell-tail budget for the tangent object.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Two-Tower Donor Balance Modulo Refill Note
+    line_start: 56082
+    line_end: 56122
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56082
+    start_anchor: "\\subsection{Clay problem Two-Tower Donor Balance Modulo Refill
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Two-Tower Donor-Depletion Formalization
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Two-Tower Donor Balance Modulo Refill Note}
+
+      The local algebraic part of the two-tower idea is the donor balance. A donor tower cannot feed a child tower for free: the feed is paid either by donor energy drop, by licensed error, or by a refill source feeding the donor. The remaining open theorem is the exclusion of an infinite source-refill ancestry tree, not the local balance identity itself.
+
+      Let P - be a legal same-fluid donor packet feeding a child pulse P. On the localized donor shell/window write the shell energy balance in the form
+
+      \[
+      \frac{d}{dt}E(P^-;t)+\nu D(P^-;t)
+      =
+      \mathsf{In}(P^-;t)-\mathsf{Out}(P^-;t)+\mathsf{Err}(P^-;t),
+      \]
+
+      \[
+      \mathsf{Out}^+(P^-;t)
+      \]
+
+      \[
+      \mathsf{In}^+(P^-;t)
+      \]
+
+      \[
+      \mathsf{Out}^+(P^-;t)
+      \le
+      -\frac{d}{dt}E(P^-;t)
+      +\mathsf{In}^+(P^-;t)
+      +|\mathsf{Err}(P^-;t)|.
+      \]
+
+      \[
+      \int_{I(P^-)}\mathsf{Out}^+(P^-;t)\,dt
+      \le
+      E(P^-;t_-)-E(P^-;t_+)
+      +\int_{I(P^-)}\mathsf{In}^+(P^-;t)\,dt
+      +\int_{I(P^-)}|\mathsf{Err}(P^-;t)|\,dt .
+      \]
+
+      The interior refill terms cancel by parent-child matching. Bounded overlap of the localized packets absorbs Boundary overlap into the same legal-loss record whenever the tree is finite and scheduler-compatible.
+
+      Refill Tree Well Founded.A, the drain package, or the compact-Liouville package is proved from Original Smooth Data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Two-Tower Donor-Depletion Formalization Note
+    line_start: 56123
+    line_end: 56175
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56123
+    start_anchor: "\\subsection{Clay problem Two-Tower Donor-Depletion Formalization
+      Note}\n"
+    end_anchor: "\\subsection{Unified Survivor Conditional Theorem Packet Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Two-Tower Donor-Depletion Formalization Note}
+
+      The heuristic is meaningful, but it is not automatically a proof of Source Pulse Exclusion.A. In theorem-facing form it becomes a precise donor depletion theorem. That theorem would close the current ancestry route, but it is not supplied by raw energy, local energy, finite dyadic band structure, or same-fluid transport alone.
+
+      Work on the localized Source Pulse Exclusion.A presentation. Failure gives a same-fluid active child pulse P with normalized source/mix mass bounded below. Let
+
+      \[
+      d\pi_P(P^-)
+      \]
+
+      Edge Disintegrate.A layer has kept the co-located source decomposition before global Cauchy/Young estimates erase parent structure.
+
+      \[
+      \frac{d}{dt}E_j^Q(t)
+      +\nu D_j^Q(t)
+      =
+      \sum_i \mathsf T_{i\to j}^Q(t)
+      +\mathsf{Err}_j^Q(t),
+      \]
+
+      where E j Q is the localized shell/tower energy, D j Q is viscous dissipation, and T i j Q is the nonlinear transfer from a donor tower/window to the child tower/window. The positive part of the localized transfer is one source of d P.
+
+      \[
+      d\pi(P^-\to P)
+      \le
+      C\,d\mathfrak d(P^-\to P)+d\ell(P^-\to P),
+      \]
+
+      \[
+      \sum_{e\in\mathcal T}d\mathfrak d(e)
+      \le
+      C\,\mathcal R_{\mathrm{don}}(root(\mathcal T))
+      +C\sum_{e\in\mathcal T}d\ell(e),
+      \]
+
+      In words: every positive source-parent edge must spend a genuinely finite donor reserve, up to already-licensed summable losses.
+
+      \[
+      \pi_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+      \le
+      C\,\mathfrak d_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+      +\ell_P(\mathsf{Pred}(P)\setminus\mathcal C(P)).
+      \]
+
+      Refill Tree Well Founded.A to the Zeno branch alternatives Scale Critical Tree Carleson.A or Zeno Source Residue Rigidity.A, after the non-Zeno entrance branch is handled by original smooth tail decay.
+
+      The obstruction is scale-critical. A terminal active pulse may have fixed normalized source/mix mass while its raw physical L 2 energy cost shrinks with the heat-scale volume. Thus the global energy reserve
+
+      This telescopes only if Charge is already a scale-
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Unified Survivor Finite-Infinitesimal Separation
+      Defect Note
+    line_start: 56234
+    line_end: 56287
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56234
+    start_anchor: "\\subsection{Clay problem Unified Survivor Finite-Infinitesimal
+      Separation Defect Note}\n"
+    end_anchor: "\\subsection{Uniform Temporal Dissipation Integrability p.A attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Unified Survivor Finite-Infinitesimal Separation Defect Note}
+
+      Role: identify the proposed common survivor object S beneath the survivor atlas as terminal finite--infinitesimal separation incoherence of the same material flow.
+
+      The candidate core is defined here. Existence of S as a nonzero terminal measure, and factorization of all branch readouts through S, remain theorem burdens that must be proved before the survivor atlas can be promoted.
+
+      \[
+      h(a,r,t):=\Phi(a+r,t)-\Phi(a,t)
+      \]
+
+      \[
+      F(a,t):=D_a\Phi(a,t).
+      \]
+
+      \[
+      \mathfrak D_{h/F}(a,r,t)
+      :=
+      h(a,r,t)-F(a,t)r.
+      \]
+
+      So D h/F is the first geometric place where finite scale, infinitesimal deformation, scale memory, packing, selector direction, affine quotient, and transported finite differences all meet.
+
+      \[
+      \frac{|\mathfrak D_{h/F}(a,r,t)|^2}{|r|^2}\,da\,\frac{dr}{|r|^3}
+      \]
+
+      \[
+      d\mu_{t}^{h/F;\psi,\eta,\rho}(a,r)
+      :=
+      \mathbf 1_{\eta\le |r|\le\rho}\,
+      \psi(a)^2
+      \frac{|\mathfrak D_{h/F}(a,r,t)|^2}{|r|^2}
+      \,da\,\frac{dr}{|r|^3}.
+      \]
+
+      The truncation is part of the object. It prevents the atlas from hiding a scale change in the notation. A passage 0, , or t T must be licensed by a scale-window theorem.
+
+      The scalar measure S h/F is not enough to carry all terminal readouts. It remembers positive defect mass, but it forgets signed and tensorial data. The theorem-facing survivor should so be the enhanced packet
+
+      The finite L 2 defect budget gives bounded total variation for M n, and on the finite base packet also for J n by Cauchy--Schwarz. so, after subsequence extraction,
+
+      This refinement is the correct common source object for signed gap-kernel, quadratic gap-flux, affine-moment, shell-stress, and selector readouts. Signed or cancellation-sensitive readouts factor through J ; positive quadratic and stressified readouts factor through M .
+
+      This is the geometric content already used by the relative packing records and the increment-stability bridge.
+
+      Increment stability turns this into a product of the geo
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Uniform Temporal Integrability Next Attempt
+    line_start: 56341
+    line_end: 56401
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56341
+    start_anchor: "\\subsection{Clay problem Uniform Temporal Integrability Next Attempt}\n"
+    end_anchor: "\\subsection{Source Pulse CM-Exit Ordering Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Uniform Temporal Integrability Next Attempt}
+
+      Direct attack on Uniform Temporal Source Integrability p.A for the native positive source-residue family failed from the installed inputs.
+
+      The temporal anti-atom route is a correct alternate interface for the same
+      native positive source-control wall. It leaves the same source-control wall as
+      the unpaid input.
+
+      \[
+      g_{n,R}(s)
+      :=
+      \|F_n^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}.
+      \]
+
+      \[
+      \mu_n^{src,+}(B_R\times I)
+      \le
+      C_R |I|^{1-1/p},
+      \]
+
+      \[
+      \mu_*^{src,+}(B_R\times\{0\})=0.
+      \]
+
+      That is exactly Temporal Non Atomic Source.A, hence the B time Zeno Liouville closure once the installed no-earlier-selected-source half is used.
+
+      \[
+      \sup_n \mu_n^{src,+}(B_R\times(-1,0))<\infty,
+      \]
+
+      \[
+      \sup_n \|g_{n,R}\|_{L_s^1((-1,0))}<\infty.
+      \]
+
+      Neither statement controls the thickness of the terminal layer
+      \((-\varepsilon,0]\).  In particular, neither gives a Morrey estimate.
+
+      Finite mass and first-pulse support are compatible with terminal atomic
+      concentration. For example, the model time marginal \(d_{n,R}\) above has
+      bounded total mass while concentrating at \(s=0\). Uniform Temporal Source
+      Integrability p.A cannot be proved from those inputs alone.
+
+      That is the same active-window source controlled by Local Positive Source
+      Carleson.A / Scale Critical Tree Carleson.A.
+
+      The normalized-adjoint and residual-charge package does not change this
+      conclusion. It charges terminal child packet mass and residual terms; it does
+      not install a dissipative or reverse-Holder law for the time marginal
+      \(g_{n,R}\), nor a dynamic parent-or-charge evolution for the donor reserve left
+      after Parent Square Embed.A.
+
+      No installed input proves the first arrow without proving the live source-wall root itself.
+
+      The exact obstruction is terminal-layer concentration of the native positive
+      source time marginal. The strongest valid reduction is to Heat Scale Square
+      Source.A, equivalently Local Positive Source Carleson.A / Scale Critical Tree
+      Carleson.A.  T
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source Pulse CM-Exit Ordering Audit
+    line_start: 56402
+    line_end: 56416
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56402
+    start_anchor: "\\subsection{Source Pulse CM-Exit Ordering Audit}\n"
+    end_anchor: "\\subsection{Clay problem Vanishing-record Bad Packet Field-Exit
+      Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Source Pulse CM-Exit Ordering Audit}
+
+      The governing CM contrapositive primitive is fixed separately from this branch-local audit:
+
+      \[
+      \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+      \]
+
+      There are now two different orderings in the route, and they must not be blended.
+
+      For the present note, all such language is branch-local to the Source Pulse
+      CM-exit ordering.  A route note that does not say which order it means is
+      ambiguous and needs repair.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Viscosity-Class Boundary: Current Reader Use'
+    line_start: 56466
+    line_end: 56472
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56466
+    start_anchor: "\\subsection{Viscosity-Class Boundary: Current Reader Use}\n"
+    end_anchor: "\\subsection{Clay problem Viscosity-Homotopy Response Height Proof
+      Run}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Viscosity-Class Boundary: Current Reader Use}
+
+      The old viscosity-class program is not a proof branch in this manuscript. The reader-facing use is the clean special case: a selected terminal packet keeps the inviscid flux-volume and weak momentum-pressure readings, while the fixed-positive-viscosity participation or one-field requirement fails.
+
+      That case gives a concrete class-exit/class-entrance object. The branch is no longer the Navier--Stokes fluid object, and it is read at the base Euler level \(\mathrm{EVol}+\mathrm{EMom}\). Broader zero-budget compactness programs, receiver-budget closures, and retained-budget transfer attempts are not used as authority for the Navier--Stokes proof body.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Viscosity-Homotopy Response Height Proof Run
+    line_start: 56473
+    line_end: 56520
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56473
+    start_anchor: "\\subsection{Clay problem Viscosity-Homotopy Response Height Proof
+      Run}\n"
+    end_anchor: "\\subsection{Clay problem Viscosity No-Fold Current Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Viscosity-Homotopy Response Height Proof Run}\n\nClean
+      selected-packet Part or Field loss plus retained inviscid reading gives the
+      base Euler boundary readout.\nIt is not broad zero-viscosity closure.\n\n\\[\n\\mathcal
+      G_T\n:=\n\\{\\nu>0:\\ u^\\nu\\text{ is a smooth NS-class member on }[0,T]\\}.\n\\]\n\n\\[\n(0,\\nu_0]\\subset
+      \\mathcal G_T\n\\]\n\n\\[\n\\mathcal G_T=(0,\\infty).\n\\]\n\nSo the real mathematical
+      burden is not the topology. The burden is the positive-viscosity no-fold estimate.\n\nThe
+      first three are proved below on compact viscosity intervals where a smooth solution
+      family already exists. The fourth is reduced to one exact source-wall derivative
+      theorem. The last two remain conditional.\n\n\\[\nz^\\nu:=\\partial_\\nu u^\\nu.\n\\]\n\nWork
+      on the torus T 3 with smooth zero-mean divergence-free data. Fix s>5/2 and a
+      compact viscosity interval\n\nThe uniform bound (2.1) and standard parabolic
+      energy estimates give a Cauchy bound for r h in C([0,T];H s) as h 0. Passing
+      to the limit removes the quadratic remainder h r h r h and gives (2.2). Uniqueness
+      for the linear parabolic equation gives the full derivative.\n\nThis proves
+      Local Viscosity Smooth Dependence.A and Viscosity Response Equation.A under
+      the classical smooth-family hypothesis.\n\nThis is rigorous but insufficient
+      for no-fold. It controls the size of the response field. It does not show that
+      increasing viscosity decreases the high-frequency donor height.\n\nfor almost
+      every t. Multiply (4.2) by 1 R k>0 . On this set, use (4.3) and keep the favorable
+      D k term. Bound the right side by its positive part plus the legal shell-width
+      error. This gives (4.4).\n\nand Boundary Resp N(W) is the positive response
+      height at the time endpoints of W.\n\nThis is honestly lower only if the derivative
+      in nu exposes heat depletion or signed response cancellation before absolute
+      values are taken.\n\nThe right side remains finite and legal by assumption 5.
+      so no positive first-height creation occurs before nu *. This contradicts the
+      Field-face boundary \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Try both: transported tightness and terminal time-face anti-atom}
+
+    \[
+    \int_{1}^{\infty} Flux_{\partial \mathcal C_R^{tr}}\,dR<\infty
+    \]
+
+    Current inputs supply compactness on fixed cylinders. They do not supply a finite global ancient shell budget. Original global energy rescales as
+
+    \[
+    \|u^{(m)}(s)\|_{L_y^2}^2
+    =r_m^{-1}\|u(t_m+r_m^2s)\|_{L_x^2}^2,
+    \]
+
+    so finite original energy does not become finite ancient global energy in tangent variables. Good-shell coarea so has no finite measure to average.
+
+    Same-fluidity aligns the cylinders. ASAC equality removes a selected alignment defect. Neither gives a transported shell tail estimate for kinetic, pressure, and nonselected flux.
+
+    \[
+    d\mu_*^{src}(y,s)=\rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    This atom is a local Radon boundary measure on the terminal time face. Backward adjoint tests detect it through terminal trace. Parabolic capacity treats the terminal face as trace-bearing boundary data. Local energy trace can remove it only after incoming flux and positive terminal jump channels are excluded.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])\le\omega_R(\varepsilon)+o_m(1),
+    \qquad \omega_R(\varepsilon)\downarrow0.
+    \]
+
+    Trying both components does not discharge the obstruction from installed inputs.
+
+    Either one would move the conditional bridge closer to discharge. The second is equivalent to terminal temporal anti-concentration. The first requires a new global or anisotropic shell-tail budget for the tangent object.
+
+
+
+    \subsection{Clay problem Two-Tower Donor Balance Modulo Refill Note}
+
+    The local algebraic part of the two-tower idea is the donor balance. A donor tower cannot feed a child tower for free: the feed is paid either by donor energy drop, by licensed error, or by a refill source feeding the donor. The remaining open theorem is the exclusion of an infinite source-refill ancestry tree, not the local balance identity itself.
+
+    Let P - be a legal same-fluid donor packet feeding a child pulse P. On the localized donor shell/window write the shell energy balance in the form
+
+    \[
+    \frac{d}{dt}E(P^-;t)+\nu D(P^-;t)
+    =
+    \mathsf{In}(P^-;t)-\mathsf{Out}(P^-;t)+\mathsf{Err}(P^-;t),
+    \]
+
+    \[
+    \mathsf{Out}^+(P^-;t)
+    \]
+
+    \[
+    \mathsf{In}^+(P^-;t)
+    \]
+
+    \[
+    \mathsf{Out}^+(P^-;t)
+    \le
+    -\frac{d}{dt}E(P^-;t)
+    +\mathsf{In}^+(P^-;t)
+    +|\mathsf{Err}(P^-;t)|.
+    \]
+
+    \[
+    \int_{I(P^-)}\mathsf{Out}^+(P^-;t)\,dt
+    \le
+    E(P^-;t_-)-E(P^-;t_+)
+    +\int_{I(P^-)}\mathsf{In}^+(P^-;t)\,dt
+    +\int_{I(P^-)}|\mathsf{Err}(P^-;t)|\,dt .
+    \]
+
+    The interior refill terms cancel by parent-child matching. Bounded overlap of the localized packets absorbs Boundary overlap into the same legal-loss record whenever the tree is finite and scheduler-compatible.
+
+    Refill Tree Well Founded.A, the drain package, or the compact-Liouville package is proved from Original Smooth Data.
+
+
+
+    \subsection{Clay problem Two-Tower Donor-Depletion Formalization Note}
+
+    The heuristic is meaningful, but it is not automatically a proof of Source Pulse Exclusion.A. In theorem-facing form it becomes a precise donor depletion theorem. That theorem would close the current ancestry route, but it is not supplied by raw energy, local energy, finite dyadic band structure, or same-fluid transport alone.
+
+    Work on the localized Source Pulse Exclusion.A presentation. Failure gives a same-fluid active child pulse P with normalized source/mix mass bounded below. Let
+
+    \[
+    d\pi_P(P^-)
+    \]
+
+    Edge Disintegrate.A layer has kept the co-located source decomposition before global Cauchy/Young estimates erase parent structure.
+
+    \[
+    \frac{d}{dt}E_j^Q(t)
+    +\nu D_j^Q(t)
+    =
+    \sum_i \mathsf T_{i\to j}^Q(t)
+    +\mathsf{Err}_j^Q(t),
+    \]
+
+    where E j Q is the localized shell/tower energy, D j Q is viscous dissipation, and T i j Q is the nonlinear transfer from a donor tower/window to the child tower/window. The positive part of the localized transfer is one source of d P.
+
+    \[
+    d\pi(P^-\to P)
+    \le
+    C\,d\mathfrak d(P^-\to P)+d\ell(P^-\to P),
+    \]
+
+    \[
+    \sum_{e\in\mathcal T}d\mathfrak d(e)
+    \le
+    C\,\mathcal R_{\mathrm{don}}(root(\mathcal T))
+    +C\sum_{e\in\mathcal T}d\ell(e),
+    \]
+
+    In words: every positive source-parent edge must spend a genuinely finite donor reserve, up to already-licensed summable losses.
+
+    \[
+    \pi_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+    \le
+    C\,\mathfrak d_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+    +\ell_P(\mathsf{Pred}(P)\setminus\mathcal C(P)).
+    \]
+
+    Refill Tree Well Founded.A to the Zeno branch alternatives Scale Critical Tree Carleson.A or Zeno Source Residue Rigidity.A, after the non-Zeno entrance branch is handled by original smooth tail decay.
+
+    The obstruction is scale-critical. A terminal active pulse may have fixed normalized source/mix mass while its raw physical L 2 energy cost shrinks with the heat-scale volume. Thus the global energy reserve
+
+    This telescopes only if Charge is already a scale-normalized Carleson / donor-depletion charge, or if the ancestry chain reaches a fixed entrance scale. The terminal source-pulse branch allows shrinking scales and moving same-fluid labels, so neither conclusion is automatic.
+
+    But it is not installed by the current route inputs. Proving it would require a scale-normalized donor-depletion / Carleson reserve, or a well-founded refill-tree theorem, for the positive nonlinear source-parent edges. That is exactly the active source-pulse wall in two-tower language, not a softer consequence of ordinary energy conservation.
+
+
+
+    \subsection{Clay problem Unified Survivor Finite-Infinitesimal Separation Defect Note}
+
+    Role: identify the proposed common survivor object S beneath the survivor atlas as terminal finite--infinitesimal separation incoherence of the same material flow.
+
+    The candidate core is defined here. Existence of S as a nonzero terminal measure, and factorization of all branch readouts through S, remain theorem burdens that must be proved before the survivor atlas can be promoted.
+
+    \[
+    h(a,r,t):=\Phi(a+r,t)-\Phi(a,t)
+    \]
+
+    \[
+    F(a,t):=D_a\Phi(a,t).
+    \]
+
+    \[
+    \mathfrak D_{h/F}(a,r,t)
+    :=
+    h(a,r,t)-F(a,t)r.
+    \]
+
+    So D h/F is the first geometric place where finite scale, infinitesimal deformation, scale memory, packing, selector direction, affine quotient, and transported finite differences all meet.
+
+    \[
+    \frac{|\mathfrak D_{h/F}(a,r,t)|^2}{|r|^2}\,da\,\frac{dr}{|r|^3}
+    \]
+
+    \[
+    d\mu_{t}^{h/F;\psi,\eta,\rho}(a,r)
+    :=
+    \mathbf 1_{\eta\le |r|\le\rho}\,
+    \psi(a)^2
+    \frac{|\mathfrak D_{h/F}(a,r,t)|^2}{|r|^2}
+    \,da\,\frac{dr}{|r|^3}.
+    \]
+
+    The truncation is part of the object. It prevents the atlas from hiding a scale change in the notation. A passage 0, , or t T must be licensed by a scale-window theorem.
+
+    The scalar measure S h/F is not enough to carry all terminal readouts. It remembers positive defect mass, but it forgets signed and tensorial data. The theorem-facing survivor should so be the enhanced packet
+
+    The finite L 2 defect budget gives bounded total variation for M n, and on the finite base packet also for J n by Cauchy--Schwarz. so, after subsequence extraction,
+
+    This refinement is the correct common source object for signed gap-kernel, quadratic gap-flux, affine-moment, shell-stress, and selector readouts. Signed or cancellation-sensitive readouts factor through J ; positive quadratic and stressified readouts factor through M .
+
+    This is the geometric content already used by the relative packing records and the increment-stability bridge.
+
+    Increment stability turns this into a product of the geometric defect D h/F and a next-rung segment carrier. Thus terminal scale memory in D h/F is one direct source of cross-rung finite-difference residue.
+
+    The affine survivor quotient and affine-excess packets are affine-coordinate readouts of the same finite-to-infinitesimal mismatch, provided their carrier and scale windows are preserved.
+
+    Thus selector/projector defects can be read as direction-only shadows of D h/F . This is only a readout unless a theorem proves the necessary nondegeneracy and scale transfer.
+
+    The endpoint cell is not chosen here. The same defect is recorded as a candidate common source for the surviving pack-side and field-side readouts.
+
+
+
+    \subsection{Clay problem Uniform Temporal Integrability Next Attempt}
+
+    Direct attack on Uniform Temporal Source Integrability p.A for the native positive source-residue family failed from the installed inputs.
+
+    The temporal anti-atom route is a correct alternate interface for the same
+    native positive source-control wall. It leaves the same source-control wall as
+    the unpaid input.
+
+    \[
+    g_{n,R}(s)
+    :=
+    \|F_n^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}.
+    \]
+
+    \[
+    \mu_n^{src,+}(B_R\times I)
+    \le
+    C_R |I|^{1-1/p},
+    \]
+
+    \[
+    \mu_*^{src,+}(B_R\times\{0\})=0.
+    \]
+
+    That is exactly Temporal Non Atomic Source.A, hence the B time Zeno Liouville closure once the installed no-earlier-selected-source half is used.
+
+    \[
+    \sup_n \mu_n^{src,+}(B_R\times(-1,0))<\infty,
+    \]
+
+    \[
+    \sup_n \|g_{n,R}\|_{L_s^1((-1,0))}<\infty.
+    \]
+
+    Neither statement controls the thickness of the terminal layer
+    \((-\varepsilon,0]\).  In particular, neither gives a Morrey estimate.
+
+    Finite mass and first-pulse support are compatible with terminal atomic
+    concentration. For example, the model time marginal \(d_{n,R}\) above has
+    bounded total mass while concentrating at \(s=0\). Uniform Temporal Source
+    Integrability p.A cannot be proved from those inputs alone.
+
+    That is the same active-window source controlled by Local Positive Source
+    Carleson.A / Scale Critical Tree Carleson.A.
+
+    The normalized-adjoint and residual-charge package does not change this
+    conclusion. It charges terminal child packet mass and residual terms; it does
+    not install a dissipative or reverse-Holder law for the time marginal
+    \(g_{n,R}\), nor a dynamic parent-or-charge evolution for the donor reserve left
+    after Parent Square Embed.A.
+
+    No installed input proves the first arrow without proving the live source-wall root itself.
+
+    The exact obstruction is terminal-layer concentration of the native positive
+    source time marginal. The strongest valid reduction is to Heat Scale Square
+    Source.A, equivalently Local Positive Source Carleson.A / Scale Critical Tree
+    Carleson.A.  The Zeno temporal route remains conditional and does not close
+    Temporal Non Atomic Source.A unless the same native positive source-control wall
+    is supplied.
+
+
+
+    \subsection{Source Pulse CM-Exit Ordering Audit}
+
+    The governing CM contrapositive primitive is fixed separately from this branch-local audit:
+
+    \[
+    \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+    \]
+
+    There are now two different orderings in the route, and they must not be blended.
+
+    For the present note, all such language is branch-local to the Source Pulse
+    CM-exit ordering.  A route note that does not say which order it means is
+    ambiguous and needs repair.
+
+
+
+    \subsection{Viscosity-Class Boundary: Current Reader Use}
+
+    The old viscosity-class program is not a proof branch in this manuscript. The reader-facing use is the clean special case: a selected terminal packet keeps the inviscid flux-volume and weak momentum-pressure readings, while the fixed-positive-viscosity participation or one-field requirement fails.
+
+    That case gives a concrete class-exit/class-entrance object. The branch is no longer the Navier--Stokes fluid object, and it is read at the base Euler level \(\mathrm{EVol}+\mathrm{EMom}\). Broader zero-budget compactness programs, receiver-budget closures, and retained-budget transfer attempts are not used as authority for the Navier--Stokes proof body.
+
+
+
+    \subsection{Clay problem Viscosity-Homotopy Response Height Proof Run}
+
+    Clean selected-packet Part or Field loss plus retained inviscid reading gives the base Euler boundary readout.
+    It is not broad zero-viscosity closure.
+
+    \[
+    \mathcal G_T
+    :=
+    \{\nu>0:\ u^\nu\text{ is a smooth NS-class member on }[0,T]\}.
+    \]
+
+    \[
+    (0,\nu_0]\subset \mathcal G_T
+    \]
+
+    \[
+    \mathcal G_T=(0,\infty).
+    \]
+
+    So the real mathematical burden is not the topology. The burden is the positive-viscosity no-fold estimate.
+
+    The first three are proved below on compact viscosity intervals where a smooth solution family already exists. The fourth is reduced to one exact source-wall derivative theorem. The last two remain conditional.
+
+    \[
+    z^\nu:=\partial_\nu u^\nu.
+    \]
+
+    Work on the torus T 3 with smooth zero-mean divergence-free data. Fix s>5/2 and a compact viscosity interval
+
+    The uniform bound (2.1) and standard parabolic energy estimates give a Cauchy bound for r h in C([0,T];H s) as h 0. Passing to the limit removes the quadratic remainder h r h r h and gives (2.2). Uniqueness for the linear parabolic equation gives the full derivative.
+
+    This proves Local Viscosity Smooth Dependence.A and Viscosity Response Equation.A under the classical smooth-family hypothesis.
+
+    This is rigorous but insufficient for no-fold. It controls the size of the response field. It does not show that increasing viscosity decreases the high-frequency donor height.
+
+    for almost every t. Multiply (4.2) by 1 R k>0 . On this set, use (4.3) and keep the favorable D k term. Bound the right side by its positive part plus the legal shell-width error. This gives (4.4).
+
+    and Boundary Resp N(W) is the positive response height at the time endpoints of W.
+
+    This is honestly lower only if the derivative in nu exposes heat depletion or signed response cancellation before absolute values are taken.
+
+    The right side remains finite and legal by assumption 5. so no positive first-height creation occurs before nu *. This contradicts the Field-face boundary alternative.
+
+    This is a genuine sharpening of the old source wall only if partial nu N can be controlled by signed heat-response depletion before absolute values erase the sign. If the proof of Response Flux Derivative Control.A falls back to Cauchy-Young on z, it collapses back to the old Scale Critical Tree Carleson.A obstruction.
+
+    The admissible proof must keep the signed correlation between z and the heat depletion direction. An absolute-value estimate is not enough.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Clay problem Try both: transported tightness and terminal time-face
+    anti-atom'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56003
+  line_start: 56003
+  line_end: 56035
+  start_anchor: "\\subsection{Clay problem Try both: transported tightness and terminal
+    time-face anti-atom}\n"
+  end_anchor: "\\subsection{Independent Verification And Paper Proof Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Try both: transported
+    tightness and terminal time-face anti-atom as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56003
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Two-Tower Donor Balance Modulo Refill Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56082
+  line_start: 56082
+  line_end: 56122
+  start_anchor: "\\subsection{Clay problem Two-Tower Donor Balance Modulo Refill Note}\n"
+  end_anchor: "\\subsection{Clay problem Two-Tower Donor-Depletion Formalization Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Two-Tower Donor
+    Balance Modulo Refill Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56082
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Two-Tower Donor-Depletion Formalization Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56123
+  line_start: 56123
+  line_end: 56175
+  start_anchor: "\\subsection{Clay problem Two-Tower Donor-Depletion Formalization
+    Note}\n"
+  end_anchor: "\\subsection{Unified Survivor Conditional Theorem Packet Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Two-Tower Donor-Depletion
+    Formalization Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56123
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Unified Survivor Finite-Infinitesimal Separation
+    Defect Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56234
+  line_start: 56234
+  line_end: 56287
+  start_anchor: "\\subsection{Clay problem Unified Survivor Finite-Infinitesimal Separation
+    Defect Note}\n"
+  end_anchor: "\\subsection{Uniform Temporal Dissipation Integrability p.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Unified Survivor
+    Finite-Infinitesimal Separation Defect Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56234
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Uniform Temporal Integrability Next Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56341
+  line_start: 56341
+  line_end: 56401
+  start_anchor: "\\subsection{Clay problem Uniform Temporal Integrability Next Attempt}\n"
+  end_anchor: "\\subsection{Source Pulse CM-Exit Ordering Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Uniform Temporal
+    Integrability Next Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56341
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source Pulse CM-Exit Ordering Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56402
+  line_start: 56402
+  line_end: 56416
+  start_anchor: "\\subsection{Source Pulse CM-Exit Ordering Audit}\n"
+  end_anchor: "\\subsection{Clay problem Vanishing-record Bad Packet Field-Exit Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source Pulse CM-Exit Ordering
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56402
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Viscosity-Class Boundary: Current Reader Use'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56466
+  line_start: 56466
+  line_end: 56472
+  start_anchor: "\\subsection{Viscosity-Class Boundary: Current Reader Use}\n"
+  end_anchor: "\\subsection{Clay problem Viscosity-Homotopy Response Height Proof
+    Run}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Viscosity-Class Boundary: Current
+    Reader Use as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56466
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Viscosity-Homotopy Response Height Proof Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56473
+  line_start: 56473
+  line_end: 56520
+  start_anchor: "\\subsection{Clay problem Viscosity-Homotopy Response Height Proof
+    Run}\n"
+  end_anchor: "\\subsection{Clay problem Viscosity No-Fold Current Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Viscosity-Homotopy
+    Response Height Proof Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56473
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-52
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-52.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

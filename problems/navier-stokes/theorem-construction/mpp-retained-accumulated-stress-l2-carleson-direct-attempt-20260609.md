@@ -20,7 +20,7 @@ The direct `L_x^2` far-corona sufficient theorem is
 r^{-2}\|Q_r u(t)\|_{L_x^2}^2
 \|T_r(t)\|_{L_x^2}^2
 \frac{dr}{r}\,dt
-\lesssim
+\le C_{\mathrm{FCTS}}
 \nu\int_0^T D_N(t)\,dt+C_*2^{-2\delta N},
 \tag{FCTS}
 ```
@@ -58,7 +58,7 @@ Dyadically, the theorem has the form
 \sum_{j\ge k+C_1}\tau_j^{H^1}[u](t)
 \right\|_{L_x^2}^2
 dt
-\lesssim
+\le C_{\mathrm{V}}
 \nu\int_0^T D_N(t)\,dt+C_*2^{-2\delta N},
 \tag{V}
 ```
@@ -75,7 +75,7 @@ The inherited Cauchy-Schwarz collapse gives
 \left\|
 \sum_{j\ge k+C_1}\tau_j
 \right\|_{L_x^2}^2
-\lesssim
+\le C_{\mathrm{ov}}
 \sum_{j\ge k+C_1}\|\tau_j\|_{L_x^2}^2
 ```
 

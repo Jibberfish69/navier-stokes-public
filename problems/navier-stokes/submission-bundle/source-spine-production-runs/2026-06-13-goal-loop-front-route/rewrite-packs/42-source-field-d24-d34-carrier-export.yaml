@@ -1,0 +1,22 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d24-d34-carrier-export
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix carrier/export support slice
+    spine_id: source-field-reader-appendix-d24-d34-carrier-export-support
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1363
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1363-1825
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Rewrote the D24-D34 source-field appendix support slice so the carrier
+      axiom sheet, low-mode export target, frequency-aligned readout,
+      amplitude obstruction, selector/carrier hierarchy, classical realization,
+      structural audit, and carrier-to-classical export theorem read as one
+      coherent proof-support unit.  The rewritten slice separates the installed
+      carrier facts from the three open export debts and states the CM entry
+      rule only after a selected same-solution terminal record is tested at
+      Pack, Part, Field, or readout.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d24-d34-carrier-export-ledger.yaml

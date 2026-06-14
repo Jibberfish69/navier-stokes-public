@@ -1,0 +1,1021 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-66
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-66
+  sequence: 218
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 66
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 58105
+  line_end: 58614
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58105
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58128
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58173
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58192
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58285
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58425
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58508
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58558
+  subsection_titles:
+  - Osgood Branch Promotion Blocked Note
+  - Overlap-Defect Observability Placement Note
+  - Pair-To-Cocycle Synchronization Braid Harvest
+  - Pair Topslot And Offaxis Suppliers Imply SSC
+  - Parabolic-Order Recursion Note
+  - 'Persistent-Support Coherent Bound: Threshold Result'
+  - Persistent Weighted Quotient Kill Note
+  - Persistent Weighted Quotient Kill Routes Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Osgood Branch Promotion Blocked Note
+    line_start: 58105
+    line_end: 58127
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58105
+    start_anchor: "\\subsection{Osgood Branch Promotion Blocked Note}\n"
+    end_anchor: "\\subsection{Overlap-Defect Observability Placement Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Osgood Branch Promotion Blocked Note}
+
+      \[
+      \int_{E_0}^{\infty}\frac{dr}{C\Phi_s(r)}=\infty.
+      \]
+
+      The Osgood condition is not available on the current lifted carrier surface. The controlling test gives
+
+      \[
+      \Phi_s(r)\sfcomp{56512} 1+r+r^{3/2}
+      \]
+
+      \[
+      \int_R^\infty \frac{dr}{r^{3/2}}<\infty,
+      \]
+
+      \[
+      \sup_{t<T}\mathcal E_D^{(s)}(X(t))<\infty
+      \]
+
+      The loop must proceed through the superlinear branch: isolate and repair the exact lifted high-derivative commutator or normalization that generates the r 3/2 growth.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Overlap-Defect Observability Placement Note
+    line_start: 58128
+    line_end: 58172
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58128
+    start_anchor: "\\subsection{Overlap-Defect Observability Placement Note}\n"
+    end_anchor: "\\subsection{Pair-To-Cocycle Synchronization Braid Harvest}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Overlap-Defect Observability Placement Note}
+
+      They should enter only after one has built a derived defect equation for a packet-overlap or separation-density quantity. That derived-defect packet is now available concretely in
+
+      \[
+      \text{good-set linearization}
+      \Longrightarrow
+      \text{transverse lower bound}
+      \Longrightarrow
+      \text{nonshadowing}
+      \Longrightarrow
+      \Gamma_J\to 0.
+      \]
+
+      \[
+      w_J(t,x)
+      \sfmodel{56542}
+      \sum_{Q\sfcomp{56543} Q'}
+      c_{Q,Q'}\,
+      U_j(t)\phi_Q(x)\,\overline{U_j(t)\phi_{Q'}(x)},
+      \]
+
+      The two-point defect is the sharper object for shadow-tube and pair-gap work, because diagonal concentration is intrinsically a two-point phenomenon.
+
+      \[
+      \partial_t w_J+v_J\cdot\nabla w_J-\nu\Delta w_J
+      =
+      -\nabla\cdot(r_J\rho_J),
+      \]
+
+      \[
+      \partial_t W_J
+      +
+      v_J(x,t)\cdot\nabla_x W_J
+      +
+      v_J(y,t)\cdot\nabla_y W_J
+      -\nu(\Delta_x+\Delta_y)W_J
+      =
+      -\nabla_x\cdot\big(r_J(x,t)K_J\big)
+      -\nabla_y\cdot\big(r_J(y,t)K_J\big).
+      \]
+
+      This still does not solve the live selector-local lower-bound burden. What it does close is the derived-defect side of the route: once the selector packet has produced nonshadowing or a shadow-time budget, the downstream parabolic tools can be attached to explicit equations rather than to a model stand-in.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pair-To-Cocycle Synchronization Braid Harvest
+    line_start: 58173
+    line_end: 58191
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58173
+    start_anchor: "\\subsection{Pair-To-Cocycle Synchronization Braid Harvest}\n"
+    end_anchor: "\\subsection{Pair Topslot And Offaxis Suppliers Imply SSC}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pair-To-Cocycle Synchronization Braid Harvest}
+
+      So the live slot is no longer an orientation theorem in the first instance. It is a projective synchronization theorem.
+
+      The shared ontology fixes one carrier and one physical-sector selector before any downstream localization.
+
+      For the current NS branch, an oriented lift is not the primary target because the angle record is already signless.
+
+      W J must be treated as information-bearing; W J alone cannot determine the projective field.
+
+      \[
+      \widehat P_{J,i}(x,t):=\Pi_{\max}(\widetilde S_{J,i}(x,t)).
+      \]
+
+      This is the projective analogue of the overlap cocycle defect. If one insists on oriented local lifts v i, then the associated sign transition ij 1 becomes a secondary lift problem. For the present NS branch, the projective field is primary and the 1 lift is optional.
+
+      It is less useful on the second slot because that slot is already reduced to explicit commutator / gap / source budgets.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pair Topslot And Offaxis Suppliers Imply SSC
+    line_start: 58192
+    line_end: 58246
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58192
+    start_anchor: "\\subsection{Pair Topslot And Offaxis Suppliers Imply SSC}\n"
+    end_anchor: "\\subsection{Paired Carrier Inequality}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pair Topslot And Offaxis Suppliers Imply SSC}
+
+      Candidate theorem-facing reduction note for the exact-potential simple-top branch.
+
+      Role: reduce the selector-strain packet to two pair-level suppliers once the pair-to-reference synchronization packet is available.
+
+      It is a downstream supplier-reduction packet on the already imported exact-potential branch.
+
+      \[
+      \Pi_J^{pair}:=\widehat P_{J,\varepsilon}^{pair},
+      \qquad
+      \Pi_J^{ref}:=P_J^{CG},
+      \qquad
+      \Pi_J^{top}:=P_{J,\top}^{seg},
+      \]
+
+      \[
+      \mathcal B_J^{pair}
+      :=
+      (I-\Pi_J^{pair})S_J^N\Pi_J^{pair},
+      \qquad
+      \mathcal B_J^{off}
+      :=
+      (I-\Pi_J^{ref})S_J^N\Pi_J^{ref},
+      \]
+
+      \[
+      \rho_J^{pair}
+      :=
+      \operatorname{tr}(\Pi_J^{pair}S_J^N),
+      \qquad
+      \rho_J^{ref}
+      :=
+      \operatorname{tr}(\Pi_J^{ref}S_J^N),
+      \]
+
+      \[
+      g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+      \]
+
+      \[
+      \delta_J^{off}
+      :=
+      \frac{\|\mathcal B_J^{off}\|_F}{g_J^{str}},
+      \qquad
+      \delta_J^{ray}
+      :=
+      \frac{
+      \bigl[\kappa_0 g_J^{str}-(\rho_J^{ref}-\lambda_{J,2}^{top})\bigr]_+
+      }{
+      g_J^{str}
+      }.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Parabolic-Order Recursion Note
+    line_start: 58285
+    line_end: 58322
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58285
+    start_anchor: "\\subsection{Parabolic-Order Recursion Note}\n"
+    end_anchor: "\\subsection{Pd70Z Cycle Exact Closure Obstruction Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Parabolic-Order Recursion Note}
+
+      \[
+      \partial_t^{\,n+1}u
+      +
+      \sum_{k=0}^{n}\binom{n}{k}
+      \big((\partial_t^k u)\cdot\nabla\big)\partial_t^{\,n-k}u
+      +
+      \nabla \partial_t^n p
+      =
+      \nu\Delta(\partial_t^n u).
+      \]
+
+      \[
+      \operatorname{ord}(\partial_t)=2,
+      \qquad
+      \operatorname{ord}(\partial_{x_j})=1.
+      \]
+
+      \[
+      \partial_t u \sfcomp{56703} \nu\Delta u,
+      \]
+
+      \[
+      D^{m,\alpha}u:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \alpha\in \mathbb N^3,
+      \]
+
+      \[
+      N:=2m+|\alpha|.
+      \]
+
+      The right-hand side is the exact Leibniz expansion of the differentiated transport term.
+
+      N N is the quadratic nonlinear contribution from the transport splits in (5), P N is the pressure contribution, which is of the same quadratic order after elliptic recovery.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Persistent-Support Coherent Bound: Threshold Result'
+    line_start: 58425
+    line_end: 58447
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58425
+    start_anchor: "\\subsection{Persistent-Support Coherent Bound: Threshold Result}\n"
+    end_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Persistent-Support Coherent Bound: Threshold Result}
+
+      For any fixed cutoff j, choose a nonzero coherent mode e in the range of S D(j) H D. Set
+
+      \[
+      X_A:=Ae.
+      \]
+
+      The right side c D 2 2j is fixed once j and nu are fixed. Taking A large violates the estimate. Thus the raw all-amplitude, fixed-shell theorem is false.
+
+      \[
+      2^{2j}\ge C(c_D\nu)^{-1}\|X\|_{H_D^s}.
+      \]
+
+      \[
+      j\ge J_D(X):=\frac{1}{2}\log_2\left(C(c_D\nu)^{-1}\|X\|_{H_D^s}\right),
+      \]
+
+      \[
+      \sup_t\|X(t)\|_{H_D^s}<\infty
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Persistent Weighted Quotient Kill Note
+    line_start: 58508
+    line_end: 58557
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58508
+    start_anchor: "\\subsection{Persistent Weighted Quotient Kill Note}\n"
+    end_anchor: "\\subsection{Persistent Weighted Quotient Kill Routes Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Persistent Weighted Quotient Kill Note}
+
+      It does not prove closure. It isolates the exact surviving coefficient and identifies the most promising kill mechanism.
+
+      \[
+      F(s,t):=(\mathcal V_\kappa \widetilde Z)(s,t),
+      \qquad
+      w(s,t):=a(e^s,t).
+      \]
+
+      \[
+      \int_I w\|F\|_{L_x^2}^2\,ds
+      =
+      \int_I w\|\partial_s S_w\|_{L_x^2}^2\,ds
+      +
+      H_w(t)\,\|c_F(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      H_w(t):=\frac{|I|^2}{\int_I w(s,t)^{-1}\,ds}
+      \]
+
+      \[
+      c_F(t):=\frac1{|I|}\int_I F(s,t)\,ds.
+      \]
+
+      \[
+      c_F(t)
+      =
+      \frac1{|I|}
+      \int_{s_0}^{s_1}\int_{s_0}^{s-\kappa}\widetilde Z(\sigma,t)\,d\sigma\,ds
+      =
+      \int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,\widetilde Z(\sigma,t)\,d\sigma,
+      \]
+
+      So the persistent mode does not see the whole lower-prefix source Z. It sees only the affine moment selected by .
+
+      Hence the coefficient functional annihilates exact second derivatives modulo boundary terms.
+
+      So the persistent weighted quotient mode is blind to the exact second-scale derivative part of the source.
+
+      This is the most literal route, but it asks for nontrivial control on w -1 and is not presently the most promising.
+
+      This is the most promising route because it attacks the exact surviving coefficient and uses the fact that the persistent mode only sees the affine scale quotient.
+
+      Bypass the separate H w and c F analyses and prove (11) directly as a weighted readout theorem.
+
+      Hardy/Volterra identified the obstruction as a one-sided primitive. Lower-triangular operator language isolated the rank-one weighted quotient mode. The exact surviving coefficient only sees the affine quotient of the scale source. Tent-space / Carleson language enters only after that coefficient/readout has to be measured against spacetime dissipation.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Persistent Weighted Quotient Kill Routes Audit
+    line_start: 58558
+    line_end: 58614
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58558
+    start_anchor: "\\subsection{Persistent Weighted Quotient Kill Routes Audit}\n"
+    end_anchor: "\\subsection{Phi Final Theorem Statement Convention Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Persistent Weighted Quotient Kill Routes Audit}
+
+      The goal is not to close the route outright. It is to determine which kill route is structurally real and which ones merely repackage the old burden.
+
+      \[
+      H_w(t):=\frac{|I|^2}{\int_I w(s,t)^{-1}\,ds},
+      \qquad
+      c_F(t):=\int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,\widetilde Z(\sigma,t)\,d\sigma,
+      \]
+
+      \[
+      \theta_\kappa(\sigma)
+      :=
+      \frac{(s_1-\kappa)-\sigma}{|I|}
+      \mathbf 1_{[s_0,s_1-\kappa]}(\sigma).
+      \]
+
+      The question is whether any of the three candidate kill routes actually improves on the inherited Euclidean collapse.
+
+      The most literal route is to dominate the persistent factor purely through the harmonic-mean weight H w.
+
+      \[
+      |I|^2
+      \le
+      \Big(\int_I w\,ds\Big)\Big(\int_I w^{-1}\,ds\Big),
+      \]
+
+      \[
+      H_w(t)\le \int_I w(s,t)\,ds.
+      \]
+
+      \[
+      \|c_F(t)\|_{L_x^2}^2
+      \le C_{\mathrm{sf},56978}
+      \int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,
+      \|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma.
+      \]
+
+      Route A does not produce a new theorem surface. It collapses back to the same cumulative-tail structure.
+
+      Try to prove the persistent bound (1) directly from the weighted readout without splitting H w and c F.
+
+      Route C is formally true but useless as a repair mechanism by itself. It only says that the persistent readout is controlled by the full object we were already trying to close.
+
+      Because is affine on its support, the surviving coefficient depends only on the affine quotient of Z.
+
+      for explicit geometry constants A ,B depending only on the fixed interval I and the offset .
+
+      Route B does not close from inherited Euclidean inputs alone. But unlike A and C, it produces a genuinely smaller exact burden: the two affine scale moments M 0,M 1, or equivalently the affine quotient aff Z.
+
+      It identifies the exact missing theorem as an affine-moment kill theorem for the scale source.
+
+      Route A collapses back to the old cumulative-tail geometry. Route C is a tautological bound by the full FCTS object. Route B isolates a genuinely smaller surviving object
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Osgood Branch Promotion Blocked Note}
+
+    \[
+    \int_{E_0}^{\infty}\frac{dr}{C\Phi_s(r)}=\infty.
+    \]
+
+    The Osgood condition is not available on the current lifted carrier surface. The controlling test gives
+
+    \[
+    \Phi_s(r)\sfcomp{56512} 1+r+r^{3/2}
+    \]
+
+    \[
+    \int_R^\infty \frac{dr}{r^{3/2}}<\infty,
+    \]
+
+    \[
+    \sup_{t<T}\mathcal E_D^{(s)}(X(t))<\infty
+    \]
+
+    The loop must proceed through the superlinear branch: isolate and repair the exact lifted high-derivative commutator or normalization that generates the r 3/2 growth.
+
+
+
+    \subsection{Overlap-Defect Observability Placement Note}
+
+    They should enter only after one has built a derived defect equation for a packet-overlap or separation-density quantity. That derived-defect packet is now available concretely in
+
+    \[
+    \text{good-set linearization}
+    \Longrightarrow
+    \text{transverse lower bound}
+    \Longrightarrow
+    \text{nonshadowing}
+    \Longrightarrow
+    \Gamma_J\to 0.
+    \]
+
+    \[
+    w_J(t,x)
+    \sfmodel{56542}
+    \sum_{Q\sfcomp{56543} Q'}
+    c_{Q,Q'}\,
+    U_j(t)\phi_Q(x)\,\overline{U_j(t)\phi_{Q'}(x)},
+    \]
+
+    The two-point defect is the sharper object for shadow-tube and pair-gap work, because diagonal concentration is intrinsically a two-point phenomenon.
+
+    \[
+    \partial_t w_J+v_J\cdot\nabla w_J-\nu\Delta w_J
+    =
+    -\nabla\cdot(r_J\rho_J),
+    \]
+
+    \[
+    \partial_t W_J
+    +
+    v_J(x,t)\cdot\nabla_x W_J
+    +
+    v_J(y,t)\cdot\nabla_y W_J
+    -\nu(\Delta_x+\Delta_y)W_J
+    =
+    -\nabla_x\cdot\big(r_J(x,t)K_J\big)
+    -\nabla_y\cdot\big(r_J(y,t)K_J\big).
+    \]
+
+    This still does not solve the live selector-local lower-bound burden. What it does close is the derived-defect side of the route: once the selector packet has produced nonshadowing or a shadow-time budget, the downstream parabolic tools can be attached to explicit equations rather than to a model stand-in.
+
+
+
+    \subsection{Pair-To-Cocycle Synchronization Braid Harvest}
+
+    So the live slot is no longer an orientation theorem in the first instance. It is a projective synchronization theorem.
+
+    The shared ontology fixes one carrier and one physical-sector selector before any downstream localization.
+
+    For the current NS branch, an oriented lift is not the primary target because the angle record is already signless.
+
+    W J must be treated as information-bearing; W J alone cannot determine the projective field.
+
+    \[
+    \widehat P_{J,i}(x,t):=\Pi_{\max}(\widetilde S_{J,i}(x,t)).
+    \]
+
+    This is the projective analogue of the overlap cocycle defect. If one insists on oriented local lifts v i, then the associated sign transition ij 1 becomes a secondary lift problem. For the present NS branch, the projective field is primary and the 1 lift is optional.
+
+    It is less useful on the second slot because that slot is already reduced to explicit commutator / gap / source budgets.
+
+
+
+    \subsection{Pair Topslot And Offaxis Suppliers Imply SSC}
+
+    Candidate theorem-facing reduction note for the exact-potential simple-top branch.
+
+    Role: reduce the selector-strain packet to two pair-level suppliers once the pair-to-reference synchronization packet is available.
+
+    It is a downstream supplier-reduction packet on the already imported exact-potential branch.
+
+    \[
+    \Pi_J^{pair}:=\widehat P_{J,\varepsilon}^{pair},
+    \qquad
+    \Pi_J^{ref}:=P_J^{CG},
+    \qquad
+    \Pi_J^{top}:=P_{J,\top}^{seg},
+    \]
+
+    \[
+    \mathcal B_J^{pair}
+    :=
+    (I-\Pi_J^{pair})S_J^N\Pi_J^{pair},
+    \qquad
+    \mathcal B_J^{off}
+    :=
+    (I-\Pi_J^{ref})S_J^N\Pi_J^{ref},
+    \]
+
+    \[
+    \rho_J^{pair}
+    :=
+    \operatorname{tr}(\Pi_J^{pair}S_J^N),
+    \qquad
+    \rho_J^{ref}
+    :=
+    \operatorname{tr}(\Pi_J^{ref}S_J^N),
+    \]
+
+    \[
+    g_J^{str}:=\lambda_{J,1}^{top}-\lambda_{J,2}^{top}.
+    \]
+
+    \[
+    \delta_J^{off}
+    :=
+    \frac{\|\mathcal B_J^{off}\|_F}{g_J^{str}},
+    \qquad
+    \delta_J^{ray}
+    :=
+    \frac{
+    \bigl[\kappa_0 g_J^{str}-(\rho_J^{ref}-\lambda_{J,2}^{top})\bigr]_+
+    }{
+    g_J^{str}
+    }.
+    \]
+
+
+
+    \subsection{Parabolic-Order Recursion Note}
+
+    \[
+    \partial_t^{\,n+1}u
+    +
+    \sum_{k=0}^{n}\binom{n}{k}
+    \big((\partial_t^k u)\cdot\nabla\big)\partial_t^{\,n-k}u
+    +
+    \nabla \partial_t^n p
+    =
+    \nu\Delta(\partial_t^n u).
+    \]
+
+    \[
+    \operatorname{ord}(\partial_t)=2,
+    \qquad
+    \operatorname{ord}(\partial_{x_j})=1.
+    \]
+
+    \[
+    \partial_t u \sfcomp{56703} \nu\Delta u,
+    \]
+
+    \[
+    D^{m,\alpha}u:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \alpha\in \mathbb N^3,
+    \]
+
+    \[
+    N:=2m+|\alpha|.
+    \]
+
+    The right-hand side is the exact Leibniz expansion of the differentiated transport term.
+
+    N N is the quadratic nonlinear contribution from the transport splits in (5), P N is the pressure contribution, which is of the same quadratic order after elliptic recovery.
+
+
+
+    \subsection{Persistent-Support Coherent Bound: Threshold Result}
+
+    For any fixed cutoff j, choose a nonzero coherent mode e in the range of S D(j) H D. Set
+
+    \[
+    X_A:=Ae.
+    \]
+
+    The right side c D 2 2j is fixed once j and nu are fixed. Taking A large violates the estimate. Thus the raw all-amplitude, fixed-shell theorem is false.
+
+    \[
+    2^{2j}\ge C(c_D\nu)^{-1}\|X\|_{H_D^s}.
+    \]
+
+    \[
+    j\ge J_D(X):=\frac{1}{2}\log_2\left(C(c_D\nu)^{-1}\|X\|_{H_D^s}\right),
+    \]
+
+    \[
+    \sup_t\|X(t)\|_{H_D^s}<\infty
+    \]
+
+
+
+    \subsection{Persistent Weighted Quotient Kill Note}
+
+    It does not prove closure. It isolates the exact surviving coefficient and identifies the most promising kill mechanism.
+
+    \[
+    F(s,t):=(\mathcal V_\kappa \widetilde Z)(s,t),
+    \qquad
+    w(s,t):=a(e^s,t).
+    \]
+
+    \[
+    \int_I w\|F\|_{L_x^2}^2\,ds
+    =
+    \int_I w\|\partial_s S_w\|_{L_x^2}^2\,ds
+    +
+    H_w(t)\,\|c_F(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    H_w(t):=\frac{|I|^2}{\int_I w(s,t)^{-1}\,ds}
+    \]
+
+    \[
+    c_F(t):=\frac1{|I|}\int_I F(s,t)\,ds.
+    \]
+
+    \[
+    c_F(t)
+    =
+    \frac1{|I|}
+    \int_{s_0}^{s_1}\int_{s_0}^{s-\kappa}\widetilde Z(\sigma,t)\,d\sigma\,ds
+    =
+    \int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,\widetilde Z(\sigma,t)\,d\sigma,
+    \]
+
+    So the persistent mode does not see the whole lower-prefix source Z. It sees only the affine moment selected by .
+
+    Hence the coefficient functional annihilates exact second derivatives modulo boundary terms.
+
+    So the persistent weighted quotient mode is blind to the exact second-scale derivative part of the source.
+
+    This is the most literal route, but it asks for nontrivial control on w -1 and is not presently the most promising.
+
+    This is the most promising route because it attacks the exact surviving coefficient and uses the fact that the persistent mode only sees the affine scale quotient.
+
+    Bypass the separate H w and c F analyses and prove (11) directly as a weighted readout theorem.
+
+    Hardy/Volterra identified the obstruction as a one-sided primitive. Lower-triangular operator language isolated the rank-one weighted quotient mode. The exact surviving coefficient only sees the affine quotient of the scale source. Tent-space / Carleson language enters only after that coefficient/readout has to be measured against spacetime dissipation.
+
+
+
+    \subsection{Persistent Weighted Quotient Kill Routes Audit}
+
+    The goal is not to close the route outright. It is to determine which kill route is structurally real and which ones merely repackage the old burden.
+
+    \[
+    H_w(t):=\frac{|I|^2}{\int_I w(s,t)^{-1}\,ds},
+    \qquad
+    c_F(t):=\int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,\widetilde Z(\sigma,t)\,d\sigma,
+    \]
+
+    \[
+    \theta_\kappa(\sigma)
+    :=
+    \frac{(s_1-\kappa)-\sigma}{|I|}
+    \mathbf 1_{[s_0,s_1-\kappa]}(\sigma).
+    \]
+
+    The question is whether any of the three candidate kill routes actually improves on the inherited Euclidean collapse.
+
+    The most literal route is to dominate the persistent factor purely through the harmonic-mean weight H w.
+
+    \[
+    |I|^2
+    \le
+    \Big(\int_I w\,ds\Big)\Big(\int_I w^{-1}\,ds\Big),
+    \]
+
+    \[
+    H_w(t)\le \int_I w(s,t)\,ds.
+    \]
+
+    \[
+    \|c_F(t)\|_{L_x^2}^2
+    \le C_{\mathrm{sf},56978}
+    \int_{s_0}^{s_1-\kappa}\theta_\kappa(\sigma)\,
+    \|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma.
+    \]
+
+    Route A does not produce a new theorem surface. It collapses back to the same cumulative-tail structure.
+
+    Try to prove the persistent bound (1) directly from the weighted readout without splitting H w and c F.
+
+    Route C is formally true but useless as a repair mechanism by itself. It only says that the persistent readout is controlled by the full object we were already trying to close.
+
+    Because is affine on its support, the surviving coefficient depends only on the affine quotient of Z.
+
+    for explicit geometry constants A ,B depending only on the fixed interval I and the offset .
+
+    Route B does not close from inherited Euclidean inputs alone. But unlike A and C, it produces a genuinely smaller exact burden: the two affine scale moments M 0,M 1, or equivalently the affine quotient aff Z.
+
+    It identifies the exact missing theorem as an affine-moment kill theorem for the scale source.
+
+    Route A collapses back to the old cumulative-tail geometry. Route C is a tautological bound by the full FCTS object. Route B isolates a genuinely smaller surviving object, but that smaller object is still open on the inherited Euclidean surface.
+
+    Hardy/Volterra shows the object is a one-sided scale primitive. Lower-triangular language isolates the rank-one weighted quotient mode. This audit shows that only the affine-quotient kill route produces a genuine smaller theorem burden.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Osgood Branch Promotion Blocked Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58105
+  line_start: 58105
+  line_end: 58127
+  start_anchor: "\\subsection{Osgood Branch Promotion Blocked Note}\n"
+  end_anchor: "\\subsection{Overlap-Defect Observability Placement Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Osgood Branch Promotion Blocked
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58105
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Overlap-Defect Observability Placement Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58128
+  line_start: 58128
+  line_end: 58172
+  start_anchor: "\\subsection{Overlap-Defect Observability Placement Note}\n"
+  end_anchor: "\\subsection{Pair-To-Cocycle Synchronization Braid Harvest}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Overlap-Defect Observability
+    Placement Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58128
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pair-To-Cocycle Synchronization Braid Harvest
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58173
+  line_start: 58173
+  line_end: 58191
+  start_anchor: "\\subsection{Pair-To-Cocycle Synchronization Braid Harvest}\n"
+  end_anchor: "\\subsection{Pair Topslot And Offaxis Suppliers Imply SSC}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pair-To-Cocycle Synchronization
+    Braid Harvest as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58173
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pair Topslot And Offaxis Suppliers Imply SSC
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58192
+  line_start: 58192
+  line_end: 58246
+  start_anchor: "\\subsection{Pair Topslot And Offaxis Suppliers Imply SSC}\n"
+  end_anchor: "\\subsection{Paired Carrier Inequality}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pair Topslot And Offaxis Suppliers
+    Imply SSC as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58192
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Parabolic-Order Recursion Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58285
+  line_start: 58285
+  line_end: 58322
+  start_anchor: "\\subsection{Parabolic-Order Recursion Note}\n"
+  end_anchor: "\\subsection{Pd70Z Cycle Exact Closure Obstruction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Parabolic-Order Recursion Note
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58285
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Persistent-Support Coherent Bound: Threshold Result'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58425
+  line_start: 58425
+  line_end: 58447
+  start_anchor: "\\subsection{Persistent-Support Coherent Bound: Threshold Result}\n"
+  end_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Persistent-Support Coherent Bound:
+    Threshold Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58425
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Persistent Weighted Quotient Kill Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58508
+  line_start: 58508
+  line_end: 58557
+  start_anchor: "\\subsection{Persistent Weighted Quotient Kill Note}\n"
+  end_anchor: "\\subsection{Persistent Weighted Quotient Kill Routes Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Persistent Weighted Quotient
+    Kill Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58508
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Persistent Weighted Quotient Kill Routes Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58558
+  line_start: 58558
+  line_end: 58614
+  start_anchor: "\\subsection{Persistent Weighted Quotient Kill Routes Audit}\n"
+  end_anchor: "\\subsection{Phi Final Theorem Statement Convention Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Persistent Weighted Quotient
+    Kill Routes Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58558
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-66
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-66.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

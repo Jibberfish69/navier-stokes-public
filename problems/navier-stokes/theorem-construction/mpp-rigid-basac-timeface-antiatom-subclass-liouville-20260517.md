@@ -100,7 +100,7 @@ B_{ASAC}\Longrightarrow B_{ASAC}^{TA}.
 
 ## Consequence
 
-The rigid subclass is valid and its residue Liouville theorem is proved. It does not discharge the original `ZenoResidueLiouville_{B_ASAC}.A` burden until a production theorem forces every produced survivor into `B_ASAC}^{TA}` or supplies an equivalent time-face anti-atom clause.
+The rigid subclass is valid and its residue Liouville theorem is proved. It does not discharge the original `ZenoResidueLiouville_{B_ASAC}.A` burden until a production theorem forces every produced survivor into `B_ASAC^{TA}` or supplies an equivalent time-face anti-atom clause.
 
 ## Remaining exact theorem
 

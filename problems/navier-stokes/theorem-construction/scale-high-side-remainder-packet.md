@@ -180,15 +180,16 @@ For the lifted low-high term, one immediately gets
 \Delta_j u^{(n)}
 \right\rangle
 \right|
-\lesssim
+\le
+C_{naive}
 \Big(\sum_{N+M<k<j-4}2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\Big)
 2^j\|\Delta_j u^{(n)}\|_{L^2_x}^2.
 ```
 
 The obstruction is immediate: the coefficient sum now ranges with `j`, so it is
 not controlled by the fixed-cutoff low-mode quantity `\mathcal{L}_N^{(n)}`.
-Moreover, a naive Cauchy-Schwarz bound only yields a supercritical estimate of
-schematic form
+Moreover, a naive Cauchy-Schwarz bound only yields a supercritical nonclosing
+estimate
 
 ```math
 \sum_{j\ge N}
@@ -198,7 +199,8 @@ schematic form
 \Delta_j u^{(n)}
 \right\rangle
 \right|
-\lesssim
+\le
+C_{naive}'
 2^{-N/2} D_N^{(n)}(t)^{3/2},
 ```
 
@@ -218,7 +220,8 @@ The exact commutator/high-low shell algebra also yields
 \left|
 \left\langle \mathcal{T}^{lift}_{j,n},\Delta_j u^{(n)}\right\rangle
 \right|
-\lesssim_M
+\le
+C_M^{lift}
 \sum_{j\ge N}\sum_{N+M<k<j-4}
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
 \|\nabla \Delta_j u^{(n)}\|_{L^2_x}\,

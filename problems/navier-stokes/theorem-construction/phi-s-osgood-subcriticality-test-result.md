@@ -17,11 +17,11 @@ with the Osgood condition
 
 ## Tame-product growth on the current lifted surface
 
-The lifted commutator and product estimates place one high derivative on one factor and a Sobolev multiplier norm on the other. For `s>5/2`, the algebra estimate gives the schematic bound
+The lifted commutator and product estimates place one high derivative on one factor and a Sobolev multiplier norm on the other. For `s>5/2`, the algebra estimate gives the bound
 
 ```math
 |\mathcal N_s(X)|
-\lesssim
+\le C_s
 \|X\|_{H_D^s}\,\Xi_D^{(s)}(X)
 +
 \text{lower-order terms}.
@@ -38,10 +38,10 @@ After Young absorption,
 Since
 
 ```math
-\|X\|_{H_D^s}^2\lesssim E(t)+1,
+\|X\|_{H_D^s}^2\le C_E(E(t)+1),
 ```
 
-one obtains at best the linear form when every nonlinear coefficient is carried by the dissipative factor. The current readout-compatible commutator package includes product terms where the coefficient is controlled only by the lifted energy itself. In the standard high-Sobolev Navier-Stokes closure this yields the schematic growth
+one obtains at best the linear form when every nonlinear coefficient is carried by the dissipative factor. The current readout-compatible commutator package includes product terms where the coefficient is controlled only by the lifted energy itself. In the standard high-Sobolev Navier-Stokes closure this yields the growth bound
 
 ```math
 E'(t)\\le C E(t)^{3/2}+C E(t)+C.
@@ -50,7 +50,7 @@ E'(t)\\le C E(t)^{3/2}+C E(t)+C.
 Thus the current available `Phi_s` is
 
 ```math
-\Phi_s(r)\simeq 1+r+r^{3/2}
+\Phi_s(r):= 1+r+r^{3/2}
 ```
 
 or stronger polynomial growth depending on the precise carrier product norm.
@@ -60,7 +60,7 @@ or stronger polynomial growth depending on the precise carrier product norm.
 For
 
 ```math
-\Phi_s(r)\simeq r^{3/2},
+\Phi_s(r):= r^{3/2},
 ```
 
 one has

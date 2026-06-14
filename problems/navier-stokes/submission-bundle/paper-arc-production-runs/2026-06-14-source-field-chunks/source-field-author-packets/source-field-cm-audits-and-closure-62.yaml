@@ -1,0 +1,879 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-62
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-62
+  sequence: 147
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 62
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 66996
+  line_end: 67459
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66996
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67069
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67137
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67232
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67280
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67320
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67362
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67423
+  subsection_titles:
+  - Clay problem Same-Witness Atlas Selection For H 1/2
+  - R3 Sobolev / H s Energy Wall To CM Face
+  - R3 Prodi-Serrin Wall To CM Face
+  - R3 CKN / Epsilon-Regularity Wall To CM Face
+  - R3 Type-I / Self-Similar Wall To CM Face
+  - R3 Fourier / Dyadic Wall To CM Face
+  - R3 Lagrangian / Deformation Wall To CM Face
+  - Clay problem same-witness H 1/2 Extraction
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Same-Witness Atlas Selection For H 1/2
+    line_start: 66996
+    line_end: 67033
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66996
+    start_anchor: "\\subsection{Clay problem Same-Witness Atlas Selection For H 1/2}\n"
+    end_anchor: "\\subsection{Clay problem H 1/2 Oscillation Field Exit Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Same-Witness Atlas Selection For H 1/2}
+
+      Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Pack atlas belongs to the witness record.
+
+      \[
+      \mathcal A(\mathcal W)=\{a_1,\dots,a_M\},
+      \qquad
+      \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}.
+      \]
+
+      \[
+      E_a(m)
+      :=
+      2^{J_m}\|P_{J_m}(\chi_a^{\mathcal W}(t_m)u(t_m))\|_{L^2(\mathbb T^3)}^2.
+      \]
+
+      Let a m be the least-index maximizer of E a(m) over the fixed finite set A( W). Then the selected chart a m is a chart of the same witness record W.
+
+      Moreover, if the atlas has bounded overlap and Transported PartitionLPCommutator.A is available at the selected shell scale, then
+
+      The atlas A( W) is part of the retained Pack data of the same witness. The functions a W (t) are so fixed before the terminal dyadic shell is selected.
+
+      \[
+      E_{a_m}(m)
+      \ge
+      M^{-1}
+      \sum_{a\in\mathcal A(\mathcal W)}E_a(m).
+      \]
+
+      The selected index a m belongs to A( W) by definition. The tie-break rule is fixed before selection, so the chart choice uses the witness record itself and does not add an external cover.
+
+      This lemma prevents a public critical shell from floating outside the CM witness. The chart is selected from the material atlas already carried by Pack Q. Once the commutator supplier controls localization, the shell has a material address inside W.
+
+      The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Pack+Part moves to the Field analysis.
+
+      This lemma supplies the same-witness selection step only. It does not prove the downstream HHalf Oscillation Field Exit.A theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Sobolev / H s Energy Wall To CM Face
+    line_start: 67069
+    line_end: 67107
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67069
+    start_anchor: "\\subsection{R3 Sobolev / H s Energy Wall To CM Face}\n"
+    end_anchor: "\\subsection{R3 Vorticity / BKM / Strain Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Sobolev / H s Energy Wall To CM Face}
+
+      Let (u,p) be a maximal smooth finite-energy Navier-Stokes solution on R 3 x [0,T *) with T * finite. Let
+
+      \[
+      SobWall_{H^s}(\mathcal W)
+      \Longrightarrow
+      \neg Pack_Q(\mathcal W)
+      \vee
+      \neg Part_{N,Q}(\mathcal W)
+      \vee
+      \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      A terminal Sobolev wall means that the forward H s energy hierarchy reaches T * without producing the bounded H s continuation readout.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      Assume Pack Q and Part N,Q survive. If there exists rho>0 with Field N,rho,Q , then the terminal record contains a positive-scale coherent derivative tower through depth N on a readout-compatible localized R 3 packet. By the Sobolev readout for N above s+2, the local tower gives
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
+      \]
+
+      Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. so retained Pack and retained Part force
+
+      \[
+      \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      The three alternatives exhaust the Sobolev route: the wall is either loss of the same-fluid carrier, loss of the differentiated same-law tower, or loss of positive-scale coherent field readout. Hence the Sobolev/H s terminal wall lands in Pack, Part, or Field.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Prodi-Serrin Wall To CM Face
+    line_start: 67137
+    line_end: 67169
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67137
+    start_anchor: "\\subsection{R3 Prodi-Serrin Wall To CM Face}\n"
+    end_anchor: "\\subsection{Clay problem Field Coherence Controls Critical H 1/2
+      Shell}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Prodi-Serrin Wall To CM Face}
+
+      \[
+      PSWall_{p,q}(\mathcal W)
+      \Longrightarrow
+      \neg Pack_Q(\mathcal W)
+      \vee
+      \neg Part_{N,Q}(\mathcal W)
+      \vee
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      Here PSWall means that the forward Prodi-Serrin route reaches T * without a finite continuation norm in a permitted spacetime class.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      Assume Pack Q survives. The Prodi-Serrin quantity must remain attached to the same Navier-Stokes solution, same pressure, same viscosity, and same transported ancestry. If this same-law participation breaks on Q, then
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      Assume Pack Q and Part N,Q survive. If some positive Field N,rho,Q survives, the terminal packet supplies positive-scale local velocity coherence through the readout depth. The finite-overlap carrier and Field readout give the Prodi-Serrin spacetime bound on the terminal interval.
+
+      The classical Prodi-Serrin continuation criterion extends the same smooth solution beyond T *. This contradicts the assumed Prodi-Serrin terminal wall.
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 CKN / Epsilon-Regularity Wall To CM Face
+    line_start: 67232
+    line_end: 67260
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67232
+    start_anchor: "\\subsection{R3 CKN / Epsilon-Regularity Wall To CM Face}\n"
+    end_anchor: "\\subsection{R3 Compactness-Rigidity Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 CKN / Epsilon-Regularity Wall To CM Face}
+
+      \[
+      CKNWall(\mathcal W)
+      \Longrightarrow
+      \neg Pack_Q(\mathcal W)
+      \vee
+      \neg Part_{N,Q}(\mathcal W)
+      \vee
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      Assume Pack Q survives. The local energy inequality, pressure decomposition, velocity field, viscosity, and nonlinear source terms must belong to the same Navier-Stokes participation record. If this local PDE participation fails, then
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      If some Field N,rho,Q survives, it supplies a positive-scale coherent local cylinder with the required epsilon smallness/readout. The epsilon-regularity theorem gives local smoothness on the terminal cylinder, contradicting the bad-cylinder wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Type-I / Self-Similar Wall To CM Face
+    line_start: 67280
+    line_end: 67298
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67280
+    start_anchor: "\\subsection{R3 Type-I / Self-Similar Wall To CM Face}\n"
+    end_anchor: "\\subsection{R3 Pressure Route Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Type-I / Self-Similar Wall To CM Face}
+
+      A Type-I or self-similar route attempts to extract a terminal rescaled profile, an ancient solution profile, or a self-similar limiting object.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      Assume Pack Q and Part N,Q survive. If some Field N,rho,Q survives, the profile has positive-scale coherent readout through the required depth on the same witness. The Type-I/self-similar route then obtains the profile rigidity, backward uniqueness, or continuation mechanism consumed by the route. The terminal Type-I wall is eliminated.
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Fourier / Dyadic Wall To CM Face
+    line_start: 67320
+    line_end: 67338
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67320
+    start_anchor: "\\subsection{R3 Fourier / Dyadic Wall To CM Face}\n"
+    end_anchor: "\\subsection{Clay problem Good Scale Failure To Field Exit For The
+      H 1/2 Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Fourier / Dyadic Wall To CM Face}
+
+      A Fourier/dyadic route tracks shell energy, paraproduct transfer, pressure response, viscous damping, and neighboring-scale coherence.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      If some Field N,rho,Q survives, the dyadic route has coherent neighboring-scale control and the terminal packet supplies the route readout. The alleged dyadic terminal wall disappears.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Lagrangian / Deformation Wall To CM Face
+    line_start: 67362
+    line_end: 67382
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67362
+    start_anchor: "\\subsection{R3 Lagrangian / Deformation Wall To CM Face}\n"
+    end_anchor: "\\subsection{Clay problem Good Scale.TTU state Audit For The H 1/2
+      Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{R3 Lagrangian / Deformation Wall To CM Face}
+
+      A Lagrangian/deformation route propagates the flow map, transported carrier, deformation tensor, collar geometry, and pulled-back velocity-pressure system.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      Assume Pack Q survives. The pulled-back system must remain the same Navier-Stokes equation with the same pressure, viscosity, nonlinear source, and original-data ancestry. If this pulled-back pressure-viscosity participation fails, then
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      If some Field N,rho,Q survives, the route has coherent deformation/readout control on the retained carrier under the same PDE law. The Lagrangian/deformation continuation mechanism so survives past the terminal wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem same-witness H 1/2 Extraction
+    line_start: 67423
+    line_end: 67459
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67423
+    start_anchor: "\\subsection{Clay problem same-witness H 1/2 Extraction}\n"
+    end_anchor: "\\subsection{R3 Critical H 1/2 Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem same-witness H 1/2 Extraction}
+
+      \[
+      2^{J_m}\|P_{J_m}u(t_m)\|_{L^2}^2.
+      \]
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      Assume Pack Q survives. The retained Pack atlas supplies finitely many transported cutoffs
+
+      \[
+      \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}
+      \]
+
+      \[
+      \|[P_J,\chi_a^{\mathcal W}(t)]u(t)\|_2
+      \le
+      C2^{-J}\|\nabla\chi_a^{\mathcal W}(t)\|_\infty\|u(t)\|_2.
+      \]
+
+      At the selected shell scale this is Pack-controlled lower-order leakage. Hence finite overlap gives
+
+      The chart selection uses only A( W) and a fixed tie-break rule, so it adds no external cover and no external witness object.
+
+      Now test Part. If the localized shell packet cannot be evolved through the same fixed-viscosity pressure-participation law attached to Q, then
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      Assume Part survives. The selected localized dyadic shell belongs to the same material carrier and to the same pressure-viscosity law. This is exactly
+
+      The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Pack+Part, persistent terminal H 1/2 shell energy lands in the Field face.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Same-Witness Atlas Selection For H 1/2}
+
+    Conditional supplier lemma for Same LedgerHHalf Extraction.A. The selection step is internal once the retained Pack atlas belongs to the witness record.
+
+    \[
+    \mathcal A(\mathcal W)=\{a_1,\dots,a_M\},
+    \qquad
+    \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}.
+    \]
+
+    \[
+    E_a(m)
+    :=
+    2^{J_m}\|P_{J_m}(\chi_a^{\mathcal W}(t_m)u(t_m))\|_{L^2(\mathbb T^3)}^2.
+    \]
+
+    Let a m be the least-index maximizer of E a(m) over the fixed finite set A( W). Then the selected chart a m is a chart of the same witness record W.
+
+    Moreover, if the atlas has bounded overlap and Transported PartitionLPCommutator.A is available at the selected shell scale, then
+
+    The atlas A( W) is part of the retained Pack data of the same witness. The functions a W (t) are so fixed before the terminal dyadic shell is selected.
+
+    \[
+    E_{a_m}(m)
+    \ge
+    M^{-1}
+    \sum_{a\in\mathcal A(\mathcal W)}E_a(m).
+    \]
+
+    The selected index a m belongs to A( W) by definition. The tie-break rule is fixed before selection, so the chart choice uses the witness record itself and does not add an external cover.
+
+    This lemma prevents a public critical shell from floating outside the CM witness. The chart is selected from the material atlas already carried by Pack Q. Once the commutator supplier controls localization, the shell has a material address inside W.
+
+    The next question is participation and tower coherence. Participation is handled by Part; persistent high-frequency loss on retained Pack+Part moves to the Field analysis.
+
+    This lemma supplies the same-witness selection step only. It does not prove the downstream HHalf Oscillation Field Exit.A theorem.
+
+
+
+    \subsection{R3 Sobolev / H s Energy Wall To CM Face}
+
+    Let (u,p) be a maximal smooth finite-energy Navier-Stokes solution on R 3 x [0,T *) with T * finite. Let
+
+    \[
+    SobWall_{H^s}(\mathcal W)
+    \Longrightarrow
+    \neg Pack_Q(\mathcal W)
+    \vee
+    \neg Part_{N,Q}(\mathcal W)
+    \vee
+    \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    A terminal Sobolev wall means that the forward H s energy hierarchy reaches T * without producing the bounded H s continuation readout.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    Assume Pack Q and Part N,Q survive. If there exists rho>0 with Field N,rho,Q , then the terminal record contains a positive-scale coherent derivative tower through depth N on a readout-compatible localized R 3 packet. By the Sobolev readout for N above s+2, the local tower gives
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
+    \]
+
+    Classical H s local theory for s>5/2 extends the same smooth solution beyond T *. This contradicts the assumed terminal Sobolev wall. so retained Pack and retained Part force
+
+    \[
+    \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    The three alternatives exhaust the Sobolev route: the wall is either loss of the same-fluid carrier, loss of the differentiated same-law tower, or loss of positive-scale coherent field readout. Hence the Sobolev/H s terminal wall lands in Pack, Part, or Field.
+
+
+
+    \subsection{R3 Prodi-Serrin Wall To CM Face}
+
+    \[
+    PSWall_{p,q}(\mathcal W)
+    \Longrightarrow
+    \neg Pack_Q(\mathcal W)
+    \vee
+    \neg Part_{N,Q}(\mathcal W)
+    \vee
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    Here PSWall means that the forward Prodi-Serrin route reaches T * without a finite continuation norm in a permitted spacetime class.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    Assume Pack Q survives. The Prodi-Serrin quantity must remain attached to the same Navier-Stokes solution, same pressure, same viscosity, and same transported ancestry. If this same-law participation breaks on Q, then
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    Assume Pack Q and Part N,Q survive. If some positive Field N,rho,Q survives, the terminal packet supplies positive-scale local velocity coherence through the readout depth. The finite-overlap carrier and Field readout give the Prodi-Serrin spacetime bound on the terminal interval.
+
+    The classical Prodi-Serrin continuation criterion extends the same smooth solution beyond T *. This contradicts the assumed Prodi-Serrin terminal wall.
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+
+
+    \subsection{R3 CKN / Epsilon-Regularity Wall To CM Face}
+
+    \[
+    CKNWall(\mathcal W)
+    \Longrightarrow
+    \neg Pack_Q(\mathcal W)
+    \vee
+    \neg Part_{N,Q}(\mathcal W)
+    \vee
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    Assume Pack Q survives. The local energy inequality, pressure decomposition, velocity field, viscosity, and nonlinear source terms must belong to the same Navier-Stokes participation record. If this local PDE participation fails, then
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    If some Field N,rho,Q survives, it supplies a positive-scale coherent local cylinder with the required epsilon smallness/readout. The epsilon-regularity theorem gives local smoothness on the terminal cylinder, contradicting the bad-cylinder wall.
+
+
+
+    \subsection{R3 Type-I / Self-Similar Wall To CM Face}
+
+    A Type-I or self-similar route attempts to extract a terminal rescaled profile, an ancient solution profile, or a self-similar limiting object.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    Assume Pack Q and Part N,Q survive. If some Field N,rho,Q survives, the profile has positive-scale coherent readout through the required depth on the same witness. The Type-I/self-similar route then obtains the profile rigidity, backward uniqueness, or continuation mechanism consumed by the route. The terminal Type-I wall is eliminated.
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+
+
+    \subsection{R3 Fourier / Dyadic Wall To CM Face}
+
+    A Fourier/dyadic route tracks shell energy, paraproduct transfer, pressure response, viscous damping, and neighboring-scale coherence.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    If some Field N,rho,Q survives, the dyadic route has coherent neighboring-scale control and the terminal packet supplies the route readout. The alleged dyadic terminal wall disappears.
+
+
+
+    \subsection{R3 Lagrangian / Deformation Wall To CM Face}
+
+    A Lagrangian/deformation route propagates the flow map, transported carrier, deformation tensor, collar geometry, and pulled-back velocity-pressure system.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    Assume Pack Q survives. The pulled-back system must remain the same Navier-Stokes equation with the same pressure, viscosity, nonlinear source, and original-data ancestry. If this pulled-back pressure-viscosity participation fails, then
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    If some Field N,rho,Q survives, the route has coherent deformation/readout control on the retained carrier under the same PDE law. The Lagrangian/deformation continuation mechanism so survives past the terminal wall.
+
+
+
+    \subsection{Clay problem same-witness H 1/2 Extraction}
+
+    \[
+    2^{J_m}\|P_{J_m}u(t_m)\|_{L^2}^2.
+    \]
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    Assume Pack Q survives. The retained Pack atlas supplies finitely many transported cutoffs
+
+    \[
+    \{\chi_a^{\mathcal W}(t)\}_{a\in\mathcal A(\mathcal W)}
+    \]
+
+    \[
+    \|[P_J,\chi_a^{\mathcal W}(t)]u(t)\|_2
+    \le
+    C2^{-J}\|\nabla\chi_a^{\mathcal W}(t)\|_\infty\|u(t)\|_2.
+    \]
+
+    At the selected shell scale this is Pack-controlled lower-order leakage. Hence finite overlap gives
+
+    The chart selection uses only A( W) and a fixed tie-break rule, so it adds no external cover and no external witness object.
+
+    Now test Part. If the localized shell packet cannot be evolved through the same fixed-viscosity pressure-participation law attached to Q, then
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    Assume Part survives. The selected localized dyadic shell belongs to the same material carrier and to the same pressure-viscosity law. This is exactly
+
+    The extracted packet feeds Field Finite Difference ReadoutHHalf.A and Field Coherence Controls Critical Shell.A. On retained Pack+Part, persistent terminal H 1/2 shell energy lands in the Field face.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Same-Witness Atlas Selection For H 1/2
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66996
+  line_start: 66996
+  line_end: 67033
+  start_anchor: "\\subsection{Clay problem Same-Witness Atlas Selection For H 1/2}\n"
+  end_anchor: "\\subsection{Clay problem H 1/2 Oscillation Field Exit Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Same-Witness Atlas
+    Selection For H 1/2 as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66996
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Sobolev / H s Energy Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67069
+  line_start: 67069
+  line_end: 67107
+  start_anchor: "\\subsection{R3 Sobolev / H s Energy Wall To CM Face}\n"
+  end_anchor: "\\subsection{R3 Vorticity / BKM / Strain Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Sobolev / H s Energy Wall
+    To CM Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67069
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Prodi-Serrin Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67137
+  line_start: 67137
+  line_end: 67169
+  start_anchor: "\\subsection{R3 Prodi-Serrin Wall To CM Face}\n"
+  end_anchor: "\\subsection{Clay problem Field Coherence Controls Critical H 1/2 Shell}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Prodi-Serrin Wall To CM Face
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67137
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 CKN / Epsilon-Regularity Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67232
+  line_start: 67232
+  line_end: 67260
+  start_anchor: "\\subsection{R3 CKN / Epsilon-Regularity Wall To CM Face}\n"
+  end_anchor: "\\subsection{R3 Compactness-Rigidity Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 CKN / Epsilon-Regularity Wall
+    To CM Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67232
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Type-I / Self-Similar Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67280
+  line_start: 67280
+  line_end: 67298
+  start_anchor: "\\subsection{R3 Type-I / Self-Similar Wall To CM Face}\n"
+  end_anchor: "\\subsection{R3 Pressure Route Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Type-I / Self-Similar Wall
+    To CM Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67280
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Fourier / Dyadic Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67320
+  line_start: 67320
+  line_end: 67338
+  start_anchor: "\\subsection{R3 Fourier / Dyadic Wall To CM Face}\n"
+  end_anchor: "\\subsection{Clay problem Good Scale Failure To Field Exit For The
+    H 1/2 Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Fourier / Dyadic Wall To CM
+    Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67320
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Lagrangian / Deformation Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67362
+  line_start: 67362
+  line_end: 67382
+  start_anchor: "\\subsection{R3 Lagrangian / Deformation Wall To CM Face}\n"
+  end_anchor: "\\subsection{Clay problem Good Scale.TTU state Audit For The H 1/2
+    Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Lagrangian / Deformation Wall
+    To CM Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67362
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem same-witness H 1/2 Extraction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67423
+  line_start: 67423
+  line_end: 67459
+  start_anchor: "\\subsection{Clay problem same-witness H 1/2 Extraction}\n"
+  end_anchor: "\\subsection{R3 Critical H 1/2 Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem same-witness H 1/2
+    Extraction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67423
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-62
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-62.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

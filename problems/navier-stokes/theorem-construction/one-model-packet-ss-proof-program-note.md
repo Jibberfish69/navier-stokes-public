@@ -36,7 +36,7 @@ proof would need.
 ## One model packet
 
 Fix one annular order-zero multiplier family `M_a(\ell D)` and set, at the
-active scale `\ell_N\sim 2^{-N}`,
+active scale `\ell_N:=2^{-N}`,
 
 ```math
 b_{\ell,a}:=M_a(\ell D)u.
@@ -63,7 +63,7 @@ Q_{\ell,a}^{edge}u
 ```
 
 and `\Pi_{N,a}^{edge}` is its frozen bounded-width aggregate on the collar
-`\ell\sim \ell_N`.
+`c_\ell\ell_N\le \ell\le C_\ell\ell_N`.
 
 The exact trilinear Fourier symbol and the principal-part test are now written
 out in
@@ -89,7 +89,7 @@ majorant. On each active shell it uses the estimate
 
 ```math
 \|[\Delta_j,b_{\ell,a}\cdot\nabla]\Delta_j u\|_{L_x^2}
-\lesssim
+\le C_{\mathrm{comm}}
 \|\nabla b_{\ell,a}\|_{L_x^\infty}\,\|\Delta_j u\|_{L_x^2},
 \tag{7}
 ```
@@ -98,9 +98,9 @@ and then Bernstein at the same scale:
 
 ```math
 \|\nabla b_{\ell,a}\|_{L_x^\infty}
-\lesssim_a
+\le C_a
 \Gamma_N^{ss}(t)
-\sim_a
+\le C'_a
 \Theta_N^{ss,\sharp}(t)^{1/2}.
 \tag{8}
 ```
@@ -109,7 +109,7 @@ This yields
 
 ```math
 |\Pi_{N,a}^{edge}(t)|
-\lesssim_a
+\le C_a
 \Gamma_N^{ss}(t)\,E_N(t)^{1/2}D_N(t)^{1/2},
 \tag{9}
 ```
@@ -179,7 +179,8 @@ trilinear symbol built from:
 The exact formula is now written in
 [same-scale-edge-fourier-symbol-and-principal-part-test.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-fourier-symbol-and-principal-part-test.md).
 The packet is supported on a finite same-scale cluster
-`|\xi|\sim|\eta|\sim|\zeta|\sim \ell_N^{-1}` modulo bounded offsets.
+`c_\xi\ell_N^{-1}\le|\xi|,|\eta|,|\zeta|\le C_\xi\ell_N^{-1}` modulo
+bounded offsets.
 
 ### Step 2. Symmetrize and use incompressibility
 

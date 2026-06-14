@@ -1,0 +1,1059 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-19
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-19
+  sequence: 171
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 19
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 15088
+  line_end: 15575
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15088
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15133
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15180
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15216
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15279
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15392
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15452
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15543
+  subsection_titles:
+  - Averaged Finite-Energy Route And Terminal Readout Completion
+  - Averaged Route Solve Path Mainline
+  - Averaged-to-Pointwise Typed Transition record
+  - Avg Rcv A Completion Lci A
+  - B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt
+  - B ASAC Remaining Production Gates
+  - B ASAC Atom Escape Dichotomy Direct Proof Test
+  - B ASAC Atom Forces Escape
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Averaged Finite-Energy Route And Terminal Readout Completion
+    line_start: 15088
+    line_end: 15132
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15088
+    start_anchor: "\\subsection{Averaged Finite-Energy Route And Terminal Readout
+      Completion}\n"
+    end_anchor: "\\subsection{Averaged Route Solve Path Mainline}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Averaged Finite-Energy Route And Terminal Readout Completion}
+
+      The finite-energy route stays averaged until the terminal readout layer is
+      available.  The attempted repair by finite frozen increments fails to control
+      the fixed-radius Holder carrier: a finite increment family cannot control
+
+      \[
+      [U_q]_{C^{0,\alpha}(B(c_j,5\Lambda))}.
+      \]
+
+      The averaged route keeps the endpoint data in averaged packets:
+
+      \[
+      ATD_m^\varepsilon.
+      \]
+
+      \[
+      X_R\in L^\infty(I_R),
+      \qquad
+      N_R\in L^1(I_R),
+      \qquad
+      \mathcal K_{\le m}^{avg,R}\in L^1(I_R).
+      \]
+
+      The pressure/source supplier is also kept in averaged form.  The local
+      source-pressure records imply the retained averaged pressure record:
+
+      \[
+      \left[\mathfrak Q_{N,\eta^\ell}^{press,loc,src,RR,\alpha}\in L^1(I)\ \text{for every }\ell\right]
+      \Longrightarrow
+      \mathfrak Q_{N,\rho,\psi}^{press,RR,\varepsilon,\alpha}\in L^1(I).
+      \]
+
+      Terminal readout enters only after the averaged package has selected a finite
+      same-fluid cover
+
+      \[
+      Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2).
+      \]
+
+      At that point the reader is allowed to pass from averaged records to the local
+      pointwise endpoint package on the cover elements.  Before that readout step,
+      the paper should not cite the averaged route as a pointwise endpoint theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Averaged Route Solve Path Mainline
+    line_start: 15133
+    line_end: 15179
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15133
+    start_anchor: "\\subsection{Averaged Route Solve Path Mainline}\n"
+    end_anchor: "\\subsection{Averaged-to-Pointwise Typed Transition record}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Averaged Route Solve Path Mainline}
+
+      The local input is a CKN-admissible same-fluid cylinder.  On the shrunken
+      cylinder, local epsilon regularity and parabolic bootstrapping give the finite
+      averaged tower packet:
+
+      \[
+      Q_{\theta_m r}^\Phi(a_0,t_0)
+      \]
+
+      \[
+      ATD_m(Q_{\theta_m r}^\Phi).
+      \]
+
+      Interior parabolic bootstrapping supplies every finite tower rung required by
+      the route, including the averaged seed, excess packet, dissipation packet,
+      pressure readout, and mollified center-forcing records.  The global averaged
+      quantity \(X_R\) then satisfies the retained differential inequality
+
+      \[
+      D^+X_R+c_\nu N_R
+      \le
+      (1+A_R+V_R+P_R)X_R
+      +C_\ast(X_R^{1/2}+V_R^{1/3}+P_R^{2/3})N_R
+      +F_R.
+      \]
+
+      On scheduler subintervals where the nonlinear coefficient is small,
+
+      \[
+      C_\ast(X_R^{1/2}+V_R^{1/3}+P_R^{2/3})\le c_\nu/2.
+      \]
+
+      The \(N_R\) term is absorbed:
+
+      \[
+      D^+X_R+(c_\nu/2)N_R
+      \le
+      (1+A_R+V_R+P_R)X_R+F_R.
+      \]
+
+      Gronwall gives the averaged \(L^\infty\)-in-time control for \(X_R\) and the
+      \(L^1\)-in-time control for \(N_R\) on each scheduled interval, with forcing
+      paid by \(F_R\).  This is the main finite-energy solve path for this branch.
+      Pointwise endpoint objects enter only after the terminal readout bridge.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Averaged-to-Pointwise Typed Transition record
+    line_start: 15180
+    line_end: 15197
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15180
+    start_anchor: "\\subsection{Averaged-to-Pointwise Typed Transition record}\n"
+    end_anchor: "\\subsection{Avg Main Read End Pointwise Endpoint Closure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Averaged-to-Pointwise Typed Transition record}
+
+      Averaged objects do not enter the old pointwise endpoint matrix until the named
+      readout bridge has been applied.  The averaged Field object is a coherence
+      record before the bridge; it is not yet the pointwise \(Field_{N,r,Q}\) face.
+
+      The bridge is the place where the pressure-viscosity forcing slots become
+      pointwise readouts on the selected cover:
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      After the bridge, the same finite cover supplies the \(U_{q+2}\) and
+      \(\nabla^{q+1}p\) slots needed by \(K_q\).  Before the bridge, those slots remain
+      averaged support data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Avg Rcv A Completion Lci A
+    line_start: 15216
+    line_end: 15278
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15216
+    start_anchor: "\\subsection{Avg Rcv A Completion Lci A}\n"
+    end_anchor: "\\subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Avg Rcv A Completion Lci A}
+
+      This is the averaged lower-carrier completion estimate.  The inputs are the
+      averaged analogues of the EOC and RCF quantities:
+
+      \[
+      \Omega_{\mathfrak p}^{avg}\in L^2(I),
+      \]
+
+      \[
+      \mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I).
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal G_{\mathfrak p}^{avg}
+      +c\mathcal D_{\mathfrak p}^{avg}
+      \le
+      \mathfrak B_{\mathfrak p}^{avg}(t)\mathcal G_{\mathfrak p}^{avg},
+      \]
+
+      with coefficient
+
+      \[
+      \mathfrak B_{\mathfrak p}^{avg}
+      =
+      C_{\mathfrak p}
+      \left[
+      (1+\Gamma_\sharp)(1+
+      \mathfrak A_{\mathfrak p}^{ctr,avg}
+      +
+      \Omega_{\mathfrak p}^{avg})
+      +1+(
+      \mathfrak A_{\mathfrak p}^{ctr,avg})^2
+      +(
+      \Omega_{\mathfrak p}^{avg})^2
+      \right].
+      \]
+
+      The coefficient is integrable because
+
+      \[
+      \Gamma_\sharp\in L^\infty(I),
+      \qquad
+      \mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I),
+      \qquad
+      \Omega_{\mathfrak p}^{avg}\in L^2(I),
+      \]
+
+      and the required parameter set is finite.  The sum of all coefficient functions
+      gives a single \(L^1\) majorant.  Gronwall yields
+
+      \[
+      \sup_{t\in I}\mathcal G_{\mathfrak p}^{avg}(t)
+      +c\int_I\mathcal D_{\mathfrak p}^{avg}(t)\,dt
+      \le
+      C_I\mathcal G_{\mathfrak p}^{avg}(t_0),
+      \]
+
+      Here \(C_I\) depends on the \(L^1\) coefficient budget.  The conclusion is
+      typed to averaged objects.  Pointwise lower-carrier data enters only through the
+      later readout layer where it is required.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt
+    line_start: 15279
+    line_end: 15296
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15279
+    start_anchor: "\\subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux
+      Attempt}\n"
+    end_anchor: "\\subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt}
+
+      This attempt tests whether the B ASAC tangent class already gives a
+      no-incoming or no-flux theorem for the terminal source residue.  It does not.
+      The available first-pulse information says that no earlier selected threshold
+      source pulse appears on fixed earlier slices.  That is weaker than zero flux
+      through every transported cylinder boundary, and weaker than zero global
+      incoming source flux for the equality tangent class.
+
+      A zero-thickness terminal source atom can satisfy the no-fixed-earlier-selected
+      pulse condition while still appearing as a terminal weak-limit layer.  This is
+      compatible with B ASAC because B ASAC supplies terminal tangent/equality
+      organization, not temporal thickness.
+
+      The no-flux route remains open.  The next internal test is whether B ASAC gives
+      a terminal source reverse Holder or temporal-thickness statement.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Remaining Production Gates
+    line_start: 15392
+    line_end: 15451
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15392
+    start_anchor: "\\subsection{B ASAC Remaining Production Gates}\n"
+    end_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{B ASAC Remaining Production Gates}
+
+      The remaining B ASAC gates form an obstruction inventory, not a final proof
+      claim.  At this resolution, the all-doors survivor is a zero-radius terminal
+      source-residue obstruction. It is Pack-facing unless a positive-scale
+      retained-carrier bridge later licenses Field readout.
+
+      Temporal anti-concentration would follow from a Holder gain in time.  The
+      installed inputs supply finite local \(L_s^1\) source mass only, and the
+      terminal-layer profile
+
+      \[
+      g_m(s)=m\,\chi_{(-1/m,0]}(s)
+      \]
+
+      shows why finite \(L_s^1\) mass does not rule out a terminal atom.
+
+      A branch-entropy gate is also open.  A diffuse legal parent cloud can split
+      unit source mass among \(M\) parents.  Every bounded selected parent subfamily
+      captures at most \(B/M\), while the linear source remains order one.  Available
+      quadratic costs scale like \(M^{-1}\), and no installed record carries a
+      positive \(M\)-branch entropy charge.
+
+      The transported no-flux gate is open because lateral transported no-flux can
+      coexist with a compact terminal time-face atom.  The missing component is the
+      time-face anti-atom theorem.
+
+      The rigid-subclass gate is open because the current equality-class production
+      gives finite local \(L_s^1\) mass, zero ASAC defect, paid-exit removal, and
+      terminal Zeno support, all compatible with the terminal-layer model.  A
+      subclass Liouville theorem can be used only after a rigid subclass has actually
+      been produced.
+
+      The pressure/Leray tether gate is open.  Pressure recovery and Leray projection
+      act spatially at each time slice.  They can bind or redistribute spatial
+      carriers while preserving support inside a shrinking terminal time layer.  A
+      spread estimate for terminal strips still needs temporal residence or
+      pressure-source absolute continuity.
+
+      The pure pressure-sustain residue is also not yet legal.  Existing pressure
+      legal records cover collar/boundary work, harmonic tails, cutoff/projector
+      commutators, off-family pressure tails, and packets outs
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Atom Escape Dichotomy Direct Proof Test
+    line_start: 15452
+    line_end: 15502
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15452
+    start_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}\n"
+    end_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Closure Route}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}
+
+      The proposed atom-escape dichotomy is tested against the installed inputs by
+      starting with a terminal source atom:
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})>0,
+      \qquad
+      \langle \mu_m^{src},\psi_m\rangle\to c_0>0.
+      \]
+
+      The desired adjoint escape identity would decompose the positive terminal
+      source pairing as
+
+      \[
+      \begin{aligned}
+      \langle \mu_m^{src},\psi_m\rangle
+      &=
+      \mathrm{Flux}_{tr,cyl,m}
+      +\mathrm{Residence}_m\\
+      &\quad
+      +\mathrm{Pressure}_{\mathrm{eig},m}\\
+      &\quad
+      +L_{\mathrm{legal},m}
+      +A_{\mathrm{def},m}
+      +o_m(1).
+      \end{aligned}
+      \]
+
+      The paid exits would satisfy
+
+      \[
+      L_{\mathrm{legal},m}+A_{\mathrm{def},m}=o_m(1).
+      \]
+
+      The needed identity is not installed in the right topology. Current
+      adjoint/pressure/eigenframe tools control signed-current or near-band
+      presentations. The forward source supplier needs the positive source-weighted
+      carrier
+
+      \[
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+      \]
+
+      After positive-part extraction, signed cancellation and near-band
+      pressure/eigenframe support no longer pay the full carrier. Boundary source
+      flux can also concentrate on terminal transported-cylinder faces, so
+      \(Flux_{tr,cyl}\) needs its own no-incoming/source-drain theorem before it can
+      be treated as legal.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Atom Forces Escape
+    line_start: 15543
+    line_end: 15575
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15543
+    start_anchor: "\\subsection{B ASAC Atom Forces Escape}\n"
+    end_anchor: "\\subsection{B ASAC Local Energy Trace No-Positive-Jump Route}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Atom Forces Escape}
+
+      This is the class-specific Liouville target for a nonzero terminal source atom.
+      The desired statement is: a nonzero B ASAC terminal source charge forces an
+      earlier selected source parent, a legal/donor escape, or an ASAC-paid escape.
+      Those alternatives are exactly the exits removed in the closed B ASAC class, so
+      the statement would make the terminal source residue vanish.
+
+      The installed inputs do not force that escape. First-pulse source-parent
+      minimality removes fixed earlier selected source parents and finite/non-Zeno
+      ancestry. It does not remove a sequence of source layers whose heat scales
+      shrink to zero at the terminal time.
+
+      Local energy and raw source compactness provide finite source mass on compact
+      cylinders. They do not separate diffuse near-terminal source from a terminal
+      atom. The model marginal is
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+      \]
+
+      Zero ASAC defect removes the active-alignment / one-sided pair-weight charge
+      already paid by ASAC. It does not imply that the native positive source-residue
+      measure
+
+      \[
+      \int \Phi_T\,d\mu_*^{src}
+      \]
+
+      vanishes. The escape theorem remains open; the next non-circular closure target
+      is the no-incoming source-drain theorem.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Averaged Finite-Energy Route And Terminal Readout Completion}
+
+    The finite-energy route stays averaged until the terminal readout layer is
+    available.  The attempted repair by finite frozen increments fails to control
+    the fixed-radius Holder carrier: a finite increment family cannot control
+
+    \[
+    [U_q]_{C^{0,\alpha}(B(c_j,5\Lambda))}.
+    \]
+
+    The averaged route keeps the endpoint data in averaged packets:
+
+    \[
+    ATD_m^\varepsilon.
+    \]
+
+    \[
+    X_R\in L^\infty(I_R),
+    \qquad
+    N_R\in L^1(I_R),
+    \qquad
+    \mathcal K_{\le m}^{avg,R}\in L^1(I_R).
+    \]
+
+    The pressure/source supplier is also kept in averaged form.  The local
+    source-pressure records imply the retained averaged pressure record:
+
+    \[
+    \left[\mathfrak Q_{N,\eta^\ell}^{press,loc,src,RR,\alpha}\in L^1(I)\ \text{for every }\ell\right]
+    \Longrightarrow
+    \mathfrak Q_{N,\rho,\psi}^{press,RR,\varepsilon,\alpha}\in L^1(I).
+    \]
+
+    Terminal readout enters only after the averaged package has selected a finite
+    same-fluid cover
+
+    \[
+    Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2).
+    \]
+
+    At that point the reader is allowed to pass from averaged records to the local
+    pointwise endpoint package on the cover elements.  Before that readout step,
+    the paper should not cite the averaged route as a pointwise endpoint theorem.
+
+
+
+    \subsection{Averaged Route Solve Path Mainline}
+
+    The local input is a CKN-admissible same-fluid cylinder.  On the shrunken
+    cylinder, local epsilon regularity and parabolic bootstrapping give the finite
+    averaged tower packet:
+
+    \[
+    Q_{\theta_m r}^\Phi(a_0,t_0)
+    \]
+
+    \[
+    ATD_m(Q_{\theta_m r}^\Phi).
+    \]
+
+    Interior parabolic bootstrapping supplies every finite tower rung required by
+    the route, including the averaged seed, excess packet, dissipation packet,
+    pressure readout, and mollified center-forcing records.  The global averaged
+    quantity \(X_R\) then satisfies the retained differential inequality
+
+    \[
+    D^+X_R+c_\nu N_R
+    \le
+    (1+A_R+V_R+P_R)X_R
+    +C_\ast(X_R^{1/2}+V_R^{1/3}+P_R^{2/3})N_R
+    +F_R.
+    \]
+
+    On scheduler subintervals where the nonlinear coefficient is small,
+
+    \[
+    C_\ast(X_R^{1/2}+V_R^{1/3}+P_R^{2/3})\le c_\nu/2.
+    \]
+
+    The \(N_R\) term is absorbed:
+
+    \[
+    D^+X_R+(c_\nu/2)N_R
+    \le
+    (1+A_R+V_R+P_R)X_R+F_R.
+    \]
+
+    Gronwall gives the averaged \(L^\infty\)-in-time control for \(X_R\) and the
+    \(L^1\)-in-time control for \(N_R\) on each scheduled interval, with forcing
+    paid by \(F_R\).  This is the main finite-energy solve path for this branch.
+    Pointwise endpoint objects enter only after the terminal readout bridge.
+
+
+
+    \subsection{Averaged-to-Pointwise Typed Transition record}
+
+    Averaged objects do not enter the old pointwise endpoint matrix until the named
+    readout bridge has been applied.  The averaged Field object is a coherence
+    record before the bridge; it is not yet the pointwise \(Field_{N,r,Q}\) face.
+
+    The bridge is the place where the pressure-viscosity forcing slots become
+    pointwise readouts on the selected cover:
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    After the bridge, the same finite cover supplies the \(U_{q+2}\) and
+    \(\nabla^{q+1}p\) slots needed by \(K_q\).  Before the bridge, those slots remain
+    averaged support data.
+
+
+
+    \subsection{Avg Rcv A Completion Lci A}
+
+    This is the averaged lower-carrier completion estimate.  The inputs are the
+    averaged analogues of the EOC and RCF quantities:
+
+    \[
+    \Omega_{\mathfrak p}^{avg}\in L^2(I),
+    \]
+
+    \[
+    \mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I).
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal G_{\mathfrak p}^{avg}
+    +c\mathcal D_{\mathfrak p}^{avg}
+    \le
+    \mathfrak B_{\mathfrak p}^{avg}(t)\mathcal G_{\mathfrak p}^{avg},
+    \]
+
+    with coefficient
+
+    \[
+    \mathfrak B_{\mathfrak p}^{avg}
+    =
+    C_{\mathfrak p}
+    \left[
+    (1+\Gamma_\sharp)(1+
+    \mathfrak A_{\mathfrak p}^{ctr,avg}
+    +
+    \Omega_{\mathfrak p}^{avg})
+    +1+(
+    \mathfrak A_{\mathfrak p}^{ctr,avg})^2
+    +(
+    \Omega_{\mathfrak p}^{avg})^2
+    \right].
+    \]
+
+    The coefficient is integrable because
+
+    \[
+    \Gamma_\sharp\in L^\infty(I),
+    \qquad
+    \mathfrak A_{\mathfrak p}^{ctr,avg}\in L^2(I),
+    \qquad
+    \Omega_{\mathfrak p}^{avg}\in L^2(I),
+    \]
+
+    and the required parameter set is finite.  The sum of all coefficient functions
+    gives a single \(L^1\) majorant.  Gronwall yields
+
+    \[
+    \sup_{t\in I}\mathcal G_{\mathfrak p}^{avg}(t)
+    +c\int_I\mathcal D_{\mathfrak p}^{avg}(t)\,dt
+    \le
+    C_I\mathcal G_{\mathfrak p}^{avg}(t_0),
+    \]
+
+    Here \(C_I\) depends on the \(L^1\) coefficient budget.  The conclusion is
+    typed to averaged objects.  Pointwise lower-carrier data enters only through the
+    later readout layer where it is required.
+
+
+
+    \subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt}
+
+    This attempt tests whether the B ASAC tangent class already gives a
+    no-incoming or no-flux theorem for the terminal source residue.  It does not.
+    The available first-pulse information says that no earlier selected threshold
+    source pulse appears on fixed earlier slices.  That is weaker than zero flux
+    through every transported cylinder boundary, and weaker than zero global
+    incoming source flux for the equality tangent class.
+
+    A zero-thickness terminal source atom can satisfy the no-fixed-earlier-selected
+    pulse condition while still appearing as a terminal weak-limit layer.  This is
+    compatible with B ASAC because B ASAC supplies terminal tangent/equality
+    organization, not temporal thickness.
+
+    The no-flux route remains open.  The next internal test is whether B ASAC gives
+    a terminal source reverse Holder or temporal-thickness statement.
+
+
+
+    \subsection{B ASAC Remaining Production Gates}
+
+    The remaining B ASAC gates form an obstruction inventory, not a final proof
+    claim.  At this resolution, the all-doors survivor is a zero-radius terminal
+    source-residue obstruction. It is Pack-facing unless a positive-scale
+    retained-carrier bridge later licenses Field readout.
+
+    Temporal anti-concentration would follow from a Holder gain in time.  The
+    installed inputs supply finite local \(L_s^1\) source mass only, and the
+    terminal-layer profile
+
+    \[
+    g_m(s)=m\,\chi_{(-1/m,0]}(s)
+    \]
+
+    shows why finite \(L_s^1\) mass does not rule out a terminal atom.
+
+    A branch-entropy gate is also open.  A diffuse legal parent cloud can split
+    unit source mass among \(M\) parents.  Every bounded selected parent subfamily
+    captures at most \(B/M\), while the linear source remains order one.  Available
+    quadratic costs scale like \(M^{-1}\), and no installed record carries a
+    positive \(M\)-branch entropy charge.
+
+    The transported no-flux gate is open because lateral transported no-flux can
+    coexist with a compact terminal time-face atom.  The missing component is the
+    time-face anti-atom theorem.
+
+    The rigid-subclass gate is open because the current equality-class production
+    gives finite local \(L_s^1\) mass, zero ASAC defect, paid-exit removal, and
+    terminal Zeno support, all compatible with the terminal-layer model.  A
+    subclass Liouville theorem can be used only after a rigid subclass has actually
+    been produced.
+
+    The pressure/Leray tether gate is open.  Pressure recovery and Leray projection
+    act spatially at each time slice.  They can bind or redistribute spatial
+    carriers while preserving support inside a shrinking terminal time layer.  A
+    spread estimate for terminal strips still needs temporal residence or
+    pressure-source absolute continuity.
+
+    The pure pressure-sustain residue is also not yet legal.  Existing pressure
+    legal records cover collar/boundary work, harmonic tails, cutoff/projector
+    commutators, off-family pressure tails, and packets outside the retained
+    family.  The retained interior pressure residue would need a new legal class
+    and terminal-weight summability theorem:
+
+    \[
+    \mu_*^{press\perp src}\perp(\mu_*^{src}+\mu_*^{legal,src}).
+    \]
+
+    Finally, the one-sided Leray recombination gate is open.  The localized Leray
+    identity recombines convection and pressure before terminal positive selection.
+    After one-sided selection, an independent proof needs orientation, commutator
+    pricing, and saturation gates.  Importing the existing terminal
+    skew/source-current record would make the proof circular.
+
+    The branch now has a precise obstruction placement: progress requires one
+    genuinely new production theorem from the gates above, or a later bridge that
+    moves the survivor into a positive-scale retained-carrier readout.
+
+
+
+    \subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}
+
+    The proposed atom-escape dichotomy is tested against the installed inputs by
+    starting with a terminal source atom:
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})>0,
+    \qquad
+    \langle \mu_m^{src},\psi_m\rangle\to c_0>0.
+    \]
+
+    The desired adjoint escape identity would decompose the positive terminal
+    source pairing as
+
+    \[
+    \begin{aligned}
+    \langle \mu_m^{src},\psi_m\rangle
+    &=
+    \mathrm{Flux}_{tr,cyl,m}
+    +\mathrm{Residence}_m\\
+    &\quad
+    +\mathrm{Pressure}_{\mathrm{eig},m}\\
+    &\quad
+    +L_{\mathrm{legal},m}
+    +A_{\mathrm{def},m}
+    +o_m(1).
+    \end{aligned}
+    \]
+
+    The paid exits would satisfy
+
+    \[
+    L_{\mathrm{legal},m}+A_{\mathrm{def},m}=o_m(1).
+    \]
+
+    The needed identity is not installed in the right topology. Current
+    adjoint/pressure/eigenframe tools control signed-current or near-band
+    presentations. The forward source supplier needs the positive source-weighted
+    carrier
+
+    \[
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+    \]
+
+    After positive-part extraction, signed cancellation and near-band
+    pressure/eigenframe support no longer pay the full carrier. Boundary source
+    flux can also concentrate on terminal transported-cylinder faces, so
+    \(Flux_{tr,cyl}\) needs its own no-incoming/source-drain theorem before it can
+    be treated as legal.
+
+
+
+    \subsection{B ASAC Atom Forces Escape}
+
+    This is the class-specific Liouville target for a nonzero terminal source atom.
+    The desired statement is: a nonzero B ASAC terminal source charge forces an
+    earlier selected source parent, a legal/donor escape, or an ASAC-paid escape.
+    Those alternatives are exactly the exits removed in the closed B ASAC class, so
+    the statement would make the terminal source residue vanish.
+
+    The installed inputs do not force that escape. First-pulse source-parent
+    minimality removes fixed earlier selected source parents and finite/non-Zeno
+    ancestry. It does not remove a sequence of source layers whose heat scales
+    shrink to zero at the terminal time.
+
+    Local energy and raw source compactness provide finite source mass on compact
+    cylinders. They do not separate diffuse near-terminal source from a terminal
+    atom. The model marginal is
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+    \]
+
+    Zero ASAC defect removes the active-alignment / one-sided pair-weight charge
+    already paid by ASAC. It does not imply that the native positive source-residue
+    measure
+
+    \[
+    \int \Phi_T\,d\mu_*^{src}
+    \]
+
+    vanishes. The escape theorem remains open; the next non-circular closure target
+    is the no-incoming source-drain theorem.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Averaged Finite-Energy Route And Terminal Readout Completion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15088
+  line_start: 15088
+  line_end: 15132
+  start_anchor: "\\subsection{Averaged Finite-Energy Route And Terminal Readout Completion}\n"
+  end_anchor: "\\subsection{Averaged Route Solve Path Mainline}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Averaged Finite-Energy Route
+    And Terminal Readout Completion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15088
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Averaged Route Solve Path Mainline
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15133
+  line_start: 15133
+  line_end: 15179
+  start_anchor: "\\subsection{Averaged Route Solve Path Mainline}\n"
+  end_anchor: "\\subsection{Averaged-to-Pointwise Typed Transition record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Averaged Route Solve Path Mainline
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15133
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Averaged-to-Pointwise Typed Transition record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15180
+  line_start: 15180
+  line_end: 15197
+  start_anchor: "\\subsection{Averaged-to-Pointwise Typed Transition record}\n"
+  end_anchor: "\\subsection{Avg Main Read End Pointwise Endpoint Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Averaged-to-Pointwise Typed Transition
+    record as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15180
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Avg Rcv A Completion Lci A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15216
+  line_start: 15216
+  line_end: 15278
+  start_anchor: "\\subsection{Avg Rcv A Completion Lci A}\n"
+  end_anchor: "\\subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Avg Rcv A Completion Lci A as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15216
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15279
+  line_start: 15279
+  line_end: 15296
+  start_anchor: "\\subsection{B ASAC No-Incoming Or Transported-Cylinder No-Flux Attempt}\n"
+  end_anchor: "\\subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC No-Incoming Or Transported-Cylinder
+    No-Flux Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15279
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Remaining Production Gates
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15392
+  line_start: 15392
+  line_end: 15451
+  start_anchor: "\\subsection{B ASAC Remaining Production Gates}\n"
+  end_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Remaining Production Gates
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15392
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Atom Escape Dichotomy Direct Proof Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15452
+  line_start: 15452
+  line_end: 15502
+  start_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Direct Proof Test}\n"
+  end_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Closure Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Atom Escape Dichotomy
+    Direct Proof Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15452
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Atom Forces Escape
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15543
+  line_start: 15543
+  line_end: 15575
+  start_anchor: "\\subsection{B ASAC Atom Forces Escape}\n"
+  end_anchor: "\\subsection{B ASAC Local Energy Trace No-Positive-Jump Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Atom Forces Escape as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15543
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-19
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-19.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

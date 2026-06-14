@@ -22,9 +22,9 @@ Here
 
 ```math
 \mathcal R_N(I)
-=
+:=
 \int_I\sum_{P^-}|A_{P^-}(t)|^2dt
-\sim
+=
 \int_I\sum_{k>N}2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
 ```
 

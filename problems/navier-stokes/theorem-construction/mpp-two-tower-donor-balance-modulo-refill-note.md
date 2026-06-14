@@ -66,7 +66,7 @@ packet definition:
 
 ```math
 \pi(P^-\to \mathrm{child}(P^-))
-\lesssim
+\le C_{\mathrm{DB4}}
 \int_{I(P^-)}\mathsf{Out}^+(P^-;t)\,dt.
 \tag{DB.4}
 ```
@@ -76,7 +76,7 @@ Thus:
 ```math
 \boxed{
 \pi(P^-\to \mathrm{child}(P^-))
-\lesssim
+\le C_{\mathrm{DB5}}
 \Delta E(P^-)
 +\pi(\mathrm{parent}(P^-)\to P^-)
 +\ell(P^-).
@@ -105,7 +105,7 @@ the child pulse `P^0`.  Iterating `(DB.5)` over all interior vertices yields
 
 ```math
 \sum_{e\in \mathcal T_L^{int}}\pi(e)
-\lesssim
+\le C_{\mathrm{DB6}}
 \sum_{v\in \partial\mathcal T_L}E(v;t_v^-)
 +\sum_{v\in \mathcal T_L}\ell(v)
 +\operatorname{Boundary}_{overlap}(\mathcal T_L).

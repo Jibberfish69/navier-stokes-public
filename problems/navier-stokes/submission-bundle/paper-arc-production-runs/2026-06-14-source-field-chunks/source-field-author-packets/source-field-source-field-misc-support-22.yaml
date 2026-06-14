@@ -1,0 +1,899 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-22
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-22
+  sequence: 174
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 22
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 16212
+  line_end: 16668
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16212
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16253
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16454
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16489
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16512
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16568
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16617
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16638
+  subsection_titles:
+  - Cavg J Sequencing Audit For AACT Global
+  - Circularity Audit For The Repaired Cascade Chain
+  - Component Selection For Jump Avg
+  - Component Selection For Nu SCF
+  - Compressed Periodic Navier-Stokes Theorem Chain
+  - Conditional final charge upper control from active-window gain
+  - Continuum coherent-sector replacement theorem note
+  - Convective Weighted-Flux Bound For Moment.W
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Cavg J Sequencing Audit For AACT Global
+    line_start: 16212
+    line_end: 16252
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16212
+    start_anchor: "\\subsection{Cavg J Sequencing Audit For AACT Global}\n"
+    end_anchor: "\\subsection{Circularity Audit For The Repaired Cascade Chain}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Cavg J Sequencing Audit For AACT Global}
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+      \Longleftrightarrow
+      \mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+      \]
+
+      \[
+      \mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+      \]
+
+      Pick \((a,t)\) in the intersection. By definition of the bad set, every
+      positive same-fluid cylinder centered at \((a,t)\) violates the SCF base
+      threshold \(\le\varepsilon_m\). The terminal tail contains a point with zero
+      positive SCF-good scale, so the tail enters the averaged jump endpoint face.
+
+      \[
+      \mathcal G_{\varepsilon_m}^{\Phi}
+      :=Q^\Phi\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+      \]
+
+      The set \(\mathcal G_{\varepsilon_m}^{\Phi}\) supplies coverage of the good
+      region. Its complement is routed to \(\mathrm{Jump}_{\mathrm{avg}}\) by the
+      endpoint lemma.
+
+      \[
+      \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T),
+      \]
+
+      is then the hypothesis under which the endpoint theorem removes the averaged
+      faces on the produced averaged endpoint package.
+
+      The averaged route avoids the previous pointwise-readout circularity. It does
+      not by itself discharge \(\mathrm{Jump}_{\mathrm{avg}}\). That branch remains
+      for a separate no-pulse/no-jump supplier or for the CM exit side after the
+      forward supplier has stopped.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Circularity Audit For The Repaired Cascade Chain
+    line_start: 16253
+    line_end: 16291
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16253
+    start_anchor: "\\subsection{Circularity Audit For The Repaired Cascade Chain}\n"
+    end_anchor: "\\subsection{CKN Threshold Transfer Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Circularity Audit For The Repaired Cascade Chain}
+
+      \[
+      \|u(t)\|_2,
+      \qquad
+      \|\nabla u(t)\|_2,
+      \qquad
+      \Lambda_N(t),
+      \qquad
+      \Theta_N^\sharp(t),
+      \qquad
+      E_N(t),
+      \qquad
+      D_N(t).
+      \]
+
+      The estimates spend classical finite-interval smoothness only to justify dyadic testing, finite low-mode coefficient bounds, and scheduler partitions.
+
+      The endpoint matrix receives the cascade estimate as an input. The endpoint
+      exclusion is absent from the proof of that input.
+
+      The strict low-mode coefficient is finite-dimensional for fixed \(N\). The route uses
+
+      \[
+      \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_\infty,
+      \]
+
+      \(\Lambda_N\) is a finite threshold-collar coefficient. Coeff.A proves
+      fixed-threshold \(L^1\) admissibility. The scheduler chooses a threshold and
+      then partitions the interval; it does not require a uniform-in-threshold
+      coefficient bound.
+
+      The repaired cascade chain is acyclic: finite-interval estimates feed the
+      cascade estimate, the cascade estimate feeds the endpoint matrix, and endpoint
+      exclusion remains downstream. Full critical gradient control is absent from the
+      upstream estimates. Uniform all-threshold Besov gain is absent from the
+      scheduler argument.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Component Selection For Jump Avg
+    line_start: 16454
+    line_end: 16488
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16454
+    start_anchor: "\\subsection{Component Selection For Jump Avg}\n"
+    end_anchor: "\\subsection{Component Selection For Nu SCF}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Component Selection For Jump Avg}
+
+      The selected \(\nu\mathrm{SCF}\) charge sees dissipation and local pressure. It
+      does not see the velocity-energy component \(E_u\).
+
+      Current surfaces do not exclude an \(E_u\)-only threshold channel. A terminal
+      SCF threshold packet may be carried by the velocity-energy component. In that
+      case \(\mathrm{SCF}_{\mathrm{base}}(Q_n)>\varepsilon_m\) can hold while
+      \(\nu\mathrm{SCF}(Q_n)\) does not carry positive terminal mass.
+
+      The local energy inequality gives local balances and finite global size. It
+      does not prove the one-way component-selection theorem
+
+      \[
+      E_u\text{ terminal threshold}
+      \Longrightarrow
+      D_u\text{ or }P\text{ terminal mass on the same-fluid terminal schedule}.
+      \]
+
+      Adding \(E_u\) to the final charge also fails under current surfaces. Global
+      energy controls a time-slice energy budget, but repeated shrinking terminal
+      windows can reuse the same moving energy packet. No summable
+      separated-window upper estimate for an additive \(E_u\) carrier is installed.
+
+      The active-shell bypass also remains open. The existing theorem notes do not
+      install active-shell amplitude gain from Original Smooth Data, direct
+      active-Carleson control, or the signed weighted commutator-defect theorem. Those
+      missing inputs block the visible route for forcing the \(E_u\) threshold into
+      the selected analytic charge.
+
+      \(\mathrm{Jump}_{\mathrm{avg}}\) branch elimination remains unresolved. The
+      current proof surfaces sharpen the commutator, positive-carrier, active-shell,
+      and component-selection obstructions. They do not discharge the branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Component Selection For Nu SCF
+    line_start: 16489
+    line_end: 16511
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16489
+    start_anchor: "\\subsection{Component Selection For Nu SCF}\n"
+    end_anchor: "\\subsection{Compressed Periodic Navier-Stokes Theorem Chain}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Component Selection For Nu SCF}
+
+      Pack control governs the geometry component \(G_\Phi\). The chosen charge
+      \(\nu\mathrm{SCF}\) carries \(D_u\) and the local-pressure part of \(P\).
+
+      \[
+      E_u(Q_n).
+      \]
+
+      The local energy inequality controls balances and global size, yet it does not
+      install a terminal component-selection theorem converting an \(E_u\) threshold
+      packet into \(D_u\) or local-pressure mass on the same terminal schedule.
+
+      The threshold SCF sequence may still be carried by the velocity-energy
+      component under the current theorem surfaces. Since \(\nu\mathrm{SCF}\) omits
+      \(E_u\), positive terminal SCF-base mass does not yet imply positive terminal
+      \(\nu\mathrm{SCF}\) mass.
+
+      This blocks premature discharge. The selected upper charge \(\nu\mathrm{SCF}\)
+      is controlled, but it has not yet been forced by every possible threshold SCF
+      defect.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Compressed Periodic Navier-Stokes Theorem Chain
+    line_start: 16512
+    line_end: 16544
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16512
+    start_anchor: "\\subsection{Compressed Periodic Navier-Stokes Theorem Chain}\n"
+    end_anchor: "\\subsection{Compressed Whole-Space R3 Conditional Theorem And Analytic
+      Gap}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Compressed Periodic Navier-Stokes Theorem Chain}
+
+      Let \(u_0\) be smooth, divergence-free, and zero-mean on \(\mathbb T^3\). Let
+      \((u,p)\) be the maximal classical solution of the unforced three-dimensional
+      incompressible Navier-Stokes equations on \([0,T_*)\).
+
+      The compressed periodic chain is conditional on the cascade estimate and its
+      integrable coefficient:
+
+      \[
+      \frac{d}{dt}E_N+(1-\eta)\nu D_N
+      \le C\widetilde\Lambda_N^\sharp E_N+C_*2^{-2\delta N},
+      \qquad
+      \widetilde\Lambda_N^\sharp\in L^1(I).
+      \]
+
+      This gives
+
+      \[
+      \sup_I E_N+
+      \int_I D_N\le\rho.
+      \]
+
+      Assume for contradiction that \(T_*<+\infty\). Classical maximality gives a
+      first finite terminal obstruction. Once the cascade estimate supplies the
+      uniform bound needed by the classical closure warrant, relaunching at
+      \(t_j\uparrow T_*\) extends past \(T_*\), contradicting maximality.
+
+      The periodic branch closes only after those analytic suppliers are in place.
+      Whole-space \(\mathbb R^3\) export requires the separate export theorem and its
+      remaining Euclidean burdens.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Conditional final charge upper control from active-window gain
+    line_start: 16568
+    line_end: 16586
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16568
+    start_anchor: "\\subsection{Conditional final charge upper control from active-window
+      gain}\n"
+    end_anchor: "\\subsection{Conditional Jump avg no-escape from scale-normalized
+      nu SCF Carleson control}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Conditional final charge upper control from active-window gain}
+
+      Use active-window amplitude gain to construct the final charge upper control needed by the Jumpavg no-escape route.
+
+      Assume an active-window, equivalently active-shell, amplitude gain strong enough
+      to give the active-window estimate on terminal windows.
+
+      The proof uses shell-to-window comparison, heat-scale dissipation tail control, and summable reserves.
+
+      This supplies the scale-normalized upper side needed to pair with any future separated lower recurrence theorem.
+
+      The conclusion is conditional. The active-window amplitude gain itself is not
+      installed from Original Smooth Data. Raw finite mass gives only unweighted
+      bounded-overlap control, and the current surfaces identify short active-shell
+      pulses as the obstruction.
+
+      Final charge upper control is available modulo active-window amplitude gain. The original-data route remains open until that gain, or an equivalent heat-scale -source estimate, is proved.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Continuum coherent-sector replacement theorem note
+    line_start: 16617
+    line_end: 16637
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16617
+    start_anchor: "\\subsection{Continuum coherent-sector replacement theorem note}\n"
+    end_anchor: "\\subsection{Convective Weighted-Flux Bound For Moment.W}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: "\\subsection{Continuum coherent-sector replacement theorem note}\n\nOrdinary
+      theorem-note completion for the NS coherent-sector replacement burden. Claim
+      level: conditional, route-local, theorem-facing.\n\nReplace the legacy torus
+      carrier template by a continuum coherent sector for a curved or charted domain
+      D, so the shared physical-sector decomposition has an NS-local readout through
+      the Helmholtz-Leray pressure/flow pair.\n\nLet D be the continuum spatial domain
+      used by the route-local packet, with either interior compact support or a finite
+      smooth chart cover near the relevant region Q t. Let u be divergence-free and
+      let p be the pressure determined by the NS pressure response on D, with the
+      route's boundary or normalization convention.\n\nLet P D be the Helmholtz-Leray
+      projection on D and let Q D=I-P D. The NS continuum coherent sector on I x Q
+      t is the finite-cover object\n\nThe physical carrier is the coherent pair consisting
+      of the divergence-free flow component together with its pressure response and
+      finite same-fluid readout cover. The exact sector functions as a residue or
+      compatibility detector inside this carrier.\n\nAssume the route-local Helmholtz-Leray
+      projection on D, the continuum pressure response, the finite same-fluid cover,
+      the bounded pack gauge, and the existing retained/averaged route hypotheses
+      H1-H6. Then CCS NS(I,Q) is a theorem-facing replacement for the torus carrier
+      template on the Navier-Stokes argument. It realizes the shared physical-sector
+      decomposition as the NS continuum coherent sector and supplies the carrier object
+      needed by the class-membership route.\n\nFirst, Helmholtz-Leray decomposition
+      on D gives the canonical split of any admissible vector field into the divergence-free
+      flow part and the gradient pressure/constraint part. For the NS equation, the
+      constraint part is fixed by the pressure response. Thus the NS carrier over
+      D is determined by the pair (P D u, p D) together with the local pressure readouts
+      used in the route.\n\nFourth, the \n% ... source excerpt truncated for packet
+      size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Convective Weighted-Flux Bound For Moment.W
+    line_start: 16638
+    line_end: 16668
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16638
+    start_anchor: "\\subsection{Convective Weighted-Flux Bound For Moment.W}\n"
+    end_anchor: "\\subsection{Corrected High-High Absorption Via Enstrophy Half-Tail}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Convective Weighted-Flux Bound For Moment.W}
+
+      \[
+      w_a(x)=(1+|x|^2)^a,
+      \qquad
+      M_a(t)=\int w_a|u(t,x)|^2dx.
+      \]
+
+      \[
+      \left|\int |u|^2u\cdot\nabla w_a dx\right|
+      \le C_{a,T}M_a(t).
+      \]
+
+      Thus Moment.W holds with G a=0 for the convective term on a classical finite window.
+
+      \[
+      |\nabla w_a(x)|\le C_a w_a(x).
+      \]
+
+      \[
+      \left|\int |u|^2u\cdot\nabla w_a dx\right|
+      \le C_a\|u(t)\|_{L^\infty}\int w_a|u|^2dx.
+      \]
+
+      \[
+      \sup_{t\le T}\|u(t)\|_{L^\infty}\le C_T.
+      \]
+
+      The proof uses finite classical-window boundedness. A weak-solution version needs an alternate integrability supplier for the factor ||u|| infty.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Cavg J Sequencing Audit For AACT Global}
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+    \Longleftrightarrow
+    \mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+    \]
+
+    \[
+    \mathcal T\cap\mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+    \]
+
+    Pick \((a,t)\) in the intersection. By definition of the bad set, every
+    positive same-fluid cylinder centered at \((a,t)\) violates the SCF base
+    threshold \(\le\varepsilon_m\). The terminal tail contains a point with zero
+    positive SCF-good scale, so the tail enters the averaged jump endpoint face.
+
+    \[
+    \mathcal G_{\varepsilon_m}^{\Phi}
+    :=Q^\Phi\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+    \]
+
+    The set \(\mathcal G_{\varepsilon_m}^{\Phi}\) supplies coverage of the good
+    region. Its complement is routed to \(\mathrm{Jump}_{\mathrm{avg}}\) by the
+    endpoint lemma.
+
+    \[
+    \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T),
+    \]
+
+    is then the hypothesis under which the endpoint theorem removes the averaged
+    faces on the produced averaged endpoint package.
+
+    The averaged route avoids the previous pointwise-readout circularity. It does
+    not by itself discharge \(\mathrm{Jump}_{\mathrm{avg}}\). That branch remains
+    for a separate no-pulse/no-jump supplier or for the CM exit side after the
+    forward supplier has stopped.
+
+
+
+    \subsection{Circularity Audit For The Repaired Cascade Chain}
+
+    \[
+    \|u(t)\|_2,
+    \qquad
+    \|\nabla u(t)\|_2,
+    \qquad
+    \Lambda_N(t),
+    \qquad
+    \Theta_N^\sharp(t),
+    \qquad
+    E_N(t),
+    \qquad
+    D_N(t).
+    \]
+
+    The estimates spend classical finite-interval smoothness only to justify dyadic testing, finite low-mode coefficient bounds, and scheduler partitions.
+
+    The endpoint matrix receives the cascade estimate as an input. The endpoint
+    exclusion is absent from the proof of that input.
+
+    The strict low-mode coefficient is finite-dimensional for fixed \(N\). The route uses
+
+    \[
+    \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_\infty,
+    \]
+
+    \(\Lambda_N\) is a finite threshold-collar coefficient. Coeff.A proves
+    fixed-threshold \(L^1\) admissibility. The scheduler chooses a threshold and
+    then partitions the interval; it does not require a uniform-in-threshold
+    coefficient bound.
+
+    The repaired cascade chain is acyclic: finite-interval estimates feed the
+    cascade estimate, the cascade estimate feeds the endpoint matrix, and endpoint
+    exclusion remains downstream. Full critical gradient control is absent from the
+    upstream estimates. Uniform all-threshold Besov gain is absent from the
+    scheduler argument.
+
+
+
+    \subsection{Component Selection For Jump Avg}
+
+    The selected \(\nu\mathrm{SCF}\) charge sees dissipation and local pressure. It
+    does not see the velocity-energy component \(E_u\).
+
+    Current surfaces do not exclude an \(E_u\)-only threshold channel. A terminal
+    SCF threshold packet may be carried by the velocity-energy component. In that
+    case \(\mathrm{SCF}_{\mathrm{base}}(Q_n)>\varepsilon_m\) can hold while
+    \(\nu\mathrm{SCF}(Q_n)\) does not carry positive terminal mass.
+
+    The local energy inequality gives local balances and finite global size. It
+    does not prove the one-way component-selection theorem
+
+    \[
+    E_u\text{ terminal threshold}
+    \Longrightarrow
+    D_u\text{ or }P\text{ terminal mass on the same-fluid terminal schedule}.
+    \]
+
+    Adding \(E_u\) to the final charge also fails under current surfaces. Global
+    energy controls a time-slice energy budget, but repeated shrinking terminal
+    windows can reuse the same moving energy packet. No summable
+    separated-window upper estimate for an additive \(E_u\) carrier is installed.
+
+    The active-shell bypass also remains open. The existing theorem notes do not
+    install active-shell amplitude gain from Original Smooth Data, direct
+    active-Carleson control, or the signed weighted commutator-defect theorem. Those
+    missing inputs block the visible route for forcing the \(E_u\) threshold into
+    the selected analytic charge.
+
+    \(\mathrm{Jump}_{\mathrm{avg}}\) branch elimination remains unresolved. The
+    current proof surfaces sharpen the commutator, positive-carrier, active-shell,
+    and component-selection obstructions. They do not discharge the branch.
+
+
+
+    \subsection{Component Selection For Nu SCF}
+
+    Pack control governs the geometry component \(G_\Phi\). The chosen charge
+    \(\nu\mathrm{SCF}\) carries \(D_u\) and the local-pressure part of \(P\).
+
+    \[
+    E_u(Q_n).
+    \]
+
+    The local energy inequality controls balances and global size, yet it does not
+    install a terminal component-selection theorem converting an \(E_u\) threshold
+    packet into \(D_u\) or local-pressure mass on the same terminal schedule.
+
+    The threshold SCF sequence may still be carried by the velocity-energy
+    component under the current theorem surfaces. Since \(\nu\mathrm{SCF}\) omits
+    \(E_u\), positive terminal SCF-base mass does not yet imply positive terminal
+    \(\nu\mathrm{SCF}\) mass.
+
+    This blocks premature discharge. The selected upper charge \(\nu\mathrm{SCF}\)
+    is controlled, but it has not yet been forced by every possible threshold SCF
+    defect.
+
+
+
+    \subsection{Compressed Periodic Navier-Stokes Theorem Chain}
+
+    Let \(u_0\) be smooth, divergence-free, and zero-mean on \(\mathbb T^3\). Let
+    \((u,p)\) be the maximal classical solution of the unforced three-dimensional
+    incompressible Navier-Stokes equations on \([0,T_*)\).
+
+    The compressed periodic chain is conditional on the cascade estimate and its
+    integrable coefficient:
+
+    \[
+    \frac{d}{dt}E_N+(1-\eta)\nu D_N
+    \le C\widetilde\Lambda_N^\sharp E_N+C_*2^{-2\delta N},
+    \qquad
+    \widetilde\Lambda_N^\sharp\in L^1(I).
+    \]
+
+    This gives
+
+    \[
+    \sup_I E_N+
+    \int_I D_N\le\rho.
+    \]
+
+    Assume for contradiction that \(T_*<+\infty\). Classical maximality gives a
+    first finite terminal obstruction. Once the cascade estimate supplies the
+    uniform bound needed by the classical closure warrant, relaunching at
+    \(t_j\uparrow T_*\) extends past \(T_*\), contradicting maximality.
+
+    The periodic branch closes only after those analytic suppliers are in place.
+    Whole-space \(\mathbb R^3\) export requires the separate export theorem and its
+    remaining Euclidean burdens.
+
+
+
+    \subsection{Conditional final charge upper control from active-window gain}
+
+    Use active-window amplitude gain to construct the final charge upper control needed by the Jumpavg no-escape route.
+
+    Assume an active-window, equivalently active-shell, amplitude gain strong enough
+    to give the active-window estimate on terminal windows.
+
+    The proof uses shell-to-window comparison, heat-scale dissipation tail control, and summable reserves.
+
+    This supplies the scale-normalized upper side needed to pair with any future separated lower recurrence theorem.
+
+    The conclusion is conditional. The active-window amplitude gain itself is not
+    installed from Original Smooth Data. Raw finite mass gives only unweighted
+    bounded-overlap control, and the current surfaces identify short active-shell
+    pulses as the obstruction.
+
+    Final charge upper control is available modulo active-window amplitude gain. The original-data route remains open until that gain, or an equivalent heat-scale -source estimate, is proved.
+
+
+
+    \subsection{Continuum coherent-sector replacement theorem note}
+
+    Ordinary theorem-note completion for the NS coherent-sector replacement burden. Claim level: conditional, route-local, theorem-facing.
+
+    Replace the legacy torus carrier template by a continuum coherent sector for a curved or charted domain D, so the shared physical-sector decomposition has an NS-local readout through the Helmholtz-Leray pressure/flow pair.
+
+    Let D be the continuum spatial domain used by the route-local packet, with either interior compact support or a finite smooth chart cover near the relevant region Q t. Let u be divergence-free and let p be the pressure determined by the NS pressure response on D, with the route's boundary or normalization convention.
+
+    Let P D be the Helmholtz-Leray projection on D and let Q D=I-P D. The NS continuum coherent sector on I x Q t is the finite-cover object
+
+    The physical carrier is the coherent pair consisting of the divergence-free flow component together with its pressure response and finite same-fluid readout cover. The exact sector functions as a residue or compatibility detector inside this carrier.
+
+    Assume the route-local Helmholtz-Leray projection on D, the continuum pressure response, the finite same-fluid cover, the bounded pack gauge, and the existing retained/averaged route hypotheses H1-H6. Then CCS NS(I,Q) is a theorem-facing replacement for the torus carrier template on the Navier-Stokes argument. It realizes the shared physical-sector decomposition as the NS continuum coherent sector and supplies the carrier object needed by the class-membership route.
+
+    First, Helmholtz-Leray decomposition on D gives the canonical split of any admissible vector field into the divergence-free flow part and the gradient pressure/constraint part. For the NS equation, the constraint part is fixed by the pressure response. Thus the NS carrier over D is determined by the pair (P D u, p D) together with the local pressure readouts used in the route.
+
+    Fourth, the exact-sector objection is resolved by assigning the exact sector its route-native role: it detects residue or compatibility inside the coherent carrier. The theorem-facing physical carrier is the continuum pressure/flow pair with readout maps. This role assignment matches the promoted objection surface and the superseded torus-template surface.
+
+    Thus the continuum coherent sector replaces the torus carrier block for theorem-facing NS work on curved or charted D under the stated route hypotheses. Square.
+
+
+
+    \subsection{Convective Weighted-Flux Bound For Moment.W}
+
+    \[
+    w_a(x)=(1+|x|^2)^a,
+    \qquad
+    M_a(t)=\int w_a|u(t,x)|^2dx.
+    \]
+
+    \[
+    \left|\int |u|^2u\cdot\nabla w_a dx\right|
+    \le C_{a,T}M_a(t).
+    \]
+
+    Thus Moment.W holds with G a=0 for the convective term on a classical finite window.
+
+    \[
+    |\nabla w_a(x)|\le C_a w_a(x).
+    \]
+
+    \[
+    \left|\int |u|^2u\cdot\nabla w_a dx\right|
+    \le C_a\|u(t)\|_{L^\infty}\int w_a|u|^2dx.
+    \]
+
+    \[
+    \sup_{t\le T}\|u(t)\|_{L^\infty}\le C_T.
+    \]
+
+    The proof uses finite classical-window boundedness. A weak-solution version needs an alternate integrability supplier for the factor ||u|| infty.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Cavg J Sequencing Audit For AACT Global
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16212
+  line_start: 16212
+  line_end: 16252
+  start_anchor: "\\subsection{Cavg J Sequencing Audit For AACT Global}\n"
+  end_anchor: "\\subsection{Circularity Audit For The Repaired Cascade Chain}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Cavg J Sequencing Audit For AACT
+    Global as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16212
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Circularity Audit For The Repaired Cascade Chain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16253
+  line_start: 16253
+  line_end: 16291
+  start_anchor: "\\subsection{Circularity Audit For The Repaired Cascade Chain}\n"
+  end_anchor: "\\subsection{CKN Threshold Transfer Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Circularity Audit For The Repaired
+    Cascade Chain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16253
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Component Selection For Jump Avg
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16454
+  line_start: 16454
+  line_end: 16488
+  start_anchor: "\\subsection{Component Selection For Jump Avg}\n"
+  end_anchor: "\\subsection{Component Selection For Nu SCF}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Component Selection For Jump
+    Avg as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16454
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Component Selection For Nu SCF
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16489
+  line_start: 16489
+  line_end: 16511
+  start_anchor: "\\subsection{Component Selection For Nu SCF}\n"
+  end_anchor: "\\subsection{Compressed Periodic Navier-Stokes Theorem Chain}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Component Selection For Nu SCF
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16489
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Compressed Periodic Navier-Stokes Theorem Chain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16512
+  line_start: 16512
+  line_end: 16544
+  start_anchor: "\\subsection{Compressed Periodic Navier-Stokes Theorem Chain}\n"
+  end_anchor: "\\subsection{Compressed Whole-Space R3 Conditional Theorem And Analytic
+    Gap}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Compressed Periodic Navier-Stokes
+    Theorem Chain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16512
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Conditional final charge upper control from active-window gain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16568
+  line_start: 16568
+  line_end: 16586
+  start_anchor: "\\subsection{Conditional final charge upper control from active-window
+    gain}\n"
+  end_anchor: "\\subsection{Conditional Jump avg no-escape from scale-normalized nu
+    SCF Carleson control}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Conditional final charge upper
+    control from active-window gain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16568
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Continuum coherent-sector replacement theorem note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16617
+  line_start: 16617
+  line_end: 16637
+  start_anchor: "\\subsection{Continuum coherent-sector replacement theorem note}\n"
+  end_anchor: "\\subsection{Convective Weighted-Flux Bound For Moment.W}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Continuum coherent-sector replacement
+    theorem note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16617
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Convective Weighted-Flux Bound For Moment.W
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16638
+  line_start: 16638
+  line_end: 16668
+  start_anchor: "\\subsection{Convective Weighted-Flux Bound For Moment.W}\n"
+  end_anchor: "\\subsection{Corrected High-High Absorption Via Enstrophy Half-Tail}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Convective Weighted-Flux Bound
+    For Moment.W as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16638
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-22
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-22.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

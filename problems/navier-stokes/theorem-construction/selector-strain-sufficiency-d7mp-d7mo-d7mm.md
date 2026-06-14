@@ -40,7 +40,8 @@ Then
 \bigl\|
 P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le
+C_{SSD}
 \operatorname{Err}_{J,\mathrm{ssc}}^{CG}(a,b,t),
 \tag{SSD.1}
 ```
@@ -98,7 +99,8 @@ Together these imply the branch-local selector-strain estimate
 \bigl\|
 P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le
+C_{SSD}'
 \eta_J^{mb}(t,a,b)^2/g_0^2,
 \tag{SSD.4}
 ```

@@ -104,7 +104,8 @@ Bernstein gives
 
 ```math
 \|\Delta_k u\|_{L^\infty}
-\lesssim
+\le
+C_B
 2^{3k/2}\|\Delta_k u\|_{L^2}.
 ```
 
@@ -194,14 +195,15 @@ with `f=\Delta_k u` and `g=\nabla\widetilde\Delta_j u`. Since
 and
 
 ```math
-\int_{\mathbb R^3}|K_j(z)|\,|z|\,dz \sim 2^{-j},
+\int_{\mathbb R^3}|K_j(z)|\,|z|\,dz \le C_K2^{-j},
 ```
 
 we obtain the standard fixed-gap commutator estimate
 
 ```math
 \|[\Delta_j,\Delta_k u]\nabla \widetilde\Delta_j u\|_{L^2}
-\lesssim
+\le
+C_{comm}
 2^{-j}\|\nabla \Delta_k u\|_{L^\infty}\,
 \|\nabla \widetilde\Delta_j u\|_{L^2}.
 ```
@@ -210,7 +212,8 @@ Bernstein on the strict low shell gives
 
 ```math
 \|\nabla \Delta_k u\|_{L^\infty}
-\lesssim
+\le
+C_B'
 2^{5k/2}\|\Delta_k u\|_{L^2}.
 ```
 
@@ -226,12 +229,14 @@ Therefore
 
 ```math
 \|[\Delta_j,\Delta_k u]\nabla \widetilde\Delta_j u\|_{L^2}
-\lesssim
+\le
+C_{gap}
 2^{3k/2}\|\Delta_k u\|_{L^2}\,
 \|\nabla \widetilde\Delta_j u\|_{L^2}.
 ```
 
-Pairing with `\Delta_j u` and using `\|\nabla \widetilde\Delta_j u\|_{L^2}\sim
+Pairing with `\Delta_j u` and using the fixed-collar bound
+`\|\nabla \widetilde\Delta_j u\|_{L^2}\le C_{\widetilde\Delta}
 \|\nabla \Delta_j u\|_{L^2}` gives
 
 ```math
@@ -324,7 +329,8 @@ commutator term:
 
 ```math
 \|[\Delta_j,\Delta_k u]\nabla \widetilde\Delta_j u\|_{L^2}
-\lesssim
+\le
+C_{gap}
 2^{3k/2}\|\Delta_k u\|_{L^2}\,
 \|\nabla \widetilde\Delta_j u\|_{L^2},
 ```

@@ -44,7 +44,7 @@ legal parent:
 
 ```math
 \pi(P^-\to child(P^-))
-\lesssim
+\le C_{\mathrm{refill}}
 \Delta E(P^-)
 +\pi(parent(P^-)\to P^-)
 +\ell(P^-).

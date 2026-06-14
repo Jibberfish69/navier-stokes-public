@@ -1,0 +1,75 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T191446Z
+status: applied
+generated_at: '2026-06-13T19:14:46Z'
+batch_id: ns-goal-loop-source-field-d42-d46-route-package-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/45-source-field-d42-d46-route-package.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2195-2459
+    sections:
+      - Clay Target Route Reduction Note
+      - Navier-Stokes Closure Execution Contract
+      - Navier-Stokes Closure Package
+      - Coefficient-Bearing HFG Variant Conditional
+      - Coherent High-Collar Coefficient Tail Result
+source_authoring_summary: >-
+  The batch rewrote D42-D46 of the source-field appendix as reader-facing proof
+  support. It explains the differentiated tower as a binomial transport
+  convolution burden, lists four forward-positive proof payments, states the
+  freeze and signed-defect margin gates, keeps the closure package tied to one
+  classical theorem surface, records the unpaid HFG product-control estimate,
+  and explains the finite-collar multiplier support used by the coefficient
+  tail.
+proof_role:
+  gold_layer: >-
+    The edited slice packages the route-reduction and closure-package material
+    as forward-positive support and open proof payments. It does not certify the
+    gold route.
+  silver_layer: >-
+    The edited slice states that a tower obstruction can enter the silver CM
+    layer after same-solution terminal selection and a Pack, Part, Field, or
+    readout test. It does not claim a silver first-face landing for the annular
+    endpoint witness.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d42-d46
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d42-d46/navier-stokes-human-submission.pdf
+  pages: 1105
+  output_bytes: 4097226
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d42-d46/pages-127-132.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0127.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0128.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0129.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0130.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0131.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d42-d46-render/source-field-d42-d46-0132.png
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-2195-2459
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-hits-in-source-field-lines-2195-2459-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix distillation/source-support batch. It does not claim
+    first-draft approval, gold certification, silver certification, full CMI
+    finality, or a full-PDF finality gate.
+  - >-
+    D42-D46 now tell the reader which tower, margin, closure, HFG, and
+    high-collar coefficient facts are support, which proof payments remain
+    open, and where a tower obstruction can enter the CM layer.
+  - >-
+    D47-D48 remain the next current source-field unit for carrier choice and
+    coherent readout comparison.
+  - >-
+    The annular endpoint witness remains open until gold residual-load control
+    is proved or the silver branch lands the selected same-solution Pack, Part,
+    or Field first face on the page.

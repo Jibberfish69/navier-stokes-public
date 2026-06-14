@@ -191,7 +191,7 @@ The core facts are now much sharper:
 - the derivative family itself is the right visible object,
 - viscosity gains one derivative over each mixed source term,
 - the real issue is lower-rung coefficient growth, not a guessed law
-  `u_\ell \sim \ell^\alpha`,
+  `u_\ell := \ell^\alpha`,
 - the off-diagonal matrix law matters as much as the diagonal rung energies,
 - the tower is the main visible engine for Bodies I and II.
 
@@ -555,11 +555,11 @@ At minimum, the theorem should relate:
 \text{lower-prefix scale-memory packet}
 \rightsquigarrow
 \text{stronger Body I lifted-band burden}
-\sim
+\equiv_{\mathrm{route}}
 \text{lifted high-side remainder}
-\sim
+\equiv_{\mathrm{route}}
 \text{tower flux/debt packet}
-\sim
+\equiv_{\mathrm{route}}
 \text{geometry commutator packet}.
 ```
 

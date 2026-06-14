@@ -18,7 +18,7 @@ The spatial part can be isolated as
 \boxed{TransportedBoundaryTightness.A}
 ```
 
-with a schematic target
+with the target
 
 ```math
 \lim_{R\to\infty}\limsup_{S\to\infty}

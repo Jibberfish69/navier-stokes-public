@@ -2,8 +2,9 @@
 
 ## Status
 
-`VolterraSelectorAmplitudeNormalization.A` is not proved by the current theorem
-stack.
+Raw `VolterraSelectorAmplitudeNormalization.A` is not proved by the current
+theorem stack.  After the residual refill correction, any live version must be
+`ResidualVolterraSelectorAmplitudeNormalization.A`.
 
 This pass tests whether the Volterra selection rule itself forces active-shell
 amplitude normalization on selected terminal heat-scale windows.  It does not.
@@ -12,10 +13,10 @@ does not supply an upper bound on the active amplitude.
 
 ## Target
 
-The desired theorem is:
+The residualized desired theorem is:
 
 ```text
-VolterraSelectorAmplitudeNormalization.A
+ResidualVolterraSelectorAmplitudeNormalization.A
 ```
 
 meaning:
@@ -52,14 +53,15 @@ No installed theorem turns this detection condition into an amplitude cap.
 ## Scaling test
 
 In a local packet model, increasing the active shell amplitude increases both
-the stress readout and the active-square cost.  Schematically,
+the stress readout and the active-square cost.  Under the amplitude rescaling
+`u_A=A u_1` on a fixed packet template, the model quantities obey:
 
 ```math
-D_j\sim A^2,
+D_j[u_A]=A^2D_j[u_1],
 \qquad
-\tau_j^{H^1}\sim A^2,
+\tau_j^{H^1}[u_A]=A^2\tau_j^{H^1}[u_1],
 \qquad
-B_r=\langle\widetilde\Sigma_r,T_r\rangle\sim A^3
+B_r[u_A]=A^3B_r[u_1].
 ```
 
 on a coherent strain/stress packet.  The selector becomes easier to satisfy as
@@ -81,23 +83,25 @@ mechanism.  Selection alone has the wrong monotonicity.
 Use the source-balanced heat-scale model:
 
 ```math
-|I_j|\simeq2^{-2j},
+c_h2^{-2j}\le |I_j|\le C_h2^{-2j},
 \qquad
-D_j(t)\simeq A_j2^{2j}1_{I_j}(t),
+D_j(t)={M_j\over |I_j|}\mathbf 1_{I_j}(t),
 \qquad
-F_j(t)\simeq c\nu D_j(t).
+F_j(t)=c_s\nu D_j(t).
 ```
 
 Then
 
 ```math
-\int_{I_j}D_j(t)\,dt\simeq A_j,
+\int_{I_j}D_j(t)\,dt=M_j,
 ```
 
 but
 
 ```math
-\int_{I_j}2^{-j}D_j(t)^2\,dt\simeq A_j^2\,2^j.
+\int_{I_j}2^{-j}D_j(t)^2\,dt
+=2^{-j}{M_j^2\over |I_j|}
+\ge C_h^{-1}2^jM_j^2.
 ```
 
 Choosing a coherent lower-prefix packet makes this pulse visible to the
@@ -124,19 +128,19 @@ of smoothness, first-moment dissipation, or the selector.
 
 ## Verdict
 
-`VolterraSelectorAmplitudeNormalization.A` is not proved.
+Raw `VolterraSelectorAmplitudeNormalization.A` is not proved.
 
 More sharply, the current Volterra selector has the wrong direction for this
 job.  It detects the retained stress packet; it does not cap the packet.  The
-Volterra-specific active-square branch therefore returns to direct `(LPAS)` or
-the already-open source-balanced pulse wall unless a genuinely new amplitude
-normalization theorem is added.
+Volterra-specific active-square branch therefore returns to residual/source-
+balanced `(LPAS)`, residual `(CTS/FCTS)`, or the already-open source-balanced
+pulse wall unless a genuinely new amplitude normalization theorem is added.
 
-The exact next target is no longer another Volterra selector label.  The loop
-must move to the non-Volterra terminal source-time branch:
+The exact next target is no longer another raw Volterra selector label.  The
+loop must move to the residual terminal source-time branch:
 
 ```math
-\textbf{ExternalTerminalTimeThicknessMechanism.A}.
+\textbf{ResidualExternalTerminalTimeThicknessMechanism.A}.
 ```
 
 This is the mechanism needed to forbid zero-thickness native positive source
@@ -149,9 +153,9 @@ is actually paid.
 The current chain becomes:
 
 ```math
-\text{VolterraSelectorAmplitudeNormalization.A}
+\text{ResidualVolterraSelectorAmplitudeNormalization.A}
 \Longleftarrow
-\text{ExternalTerminalTimeThicknessMechanism.A}
+\text{ResidualExternalTerminalTimeThicknessMechanism.A}
 ```
 
 in the sense that the Volterra-specific selector route is exhausted at current

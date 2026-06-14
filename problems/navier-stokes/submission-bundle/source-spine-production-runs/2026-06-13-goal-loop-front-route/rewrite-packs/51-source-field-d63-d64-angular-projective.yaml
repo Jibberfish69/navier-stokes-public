@@ -1,0 +1,19 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d63-d64-angular-projective
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix angular/projective support slice
+    spine_id: source-field-reader-appendix-d63-d64-angular-projective-support
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3289
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3289-3568
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Refined the D63-D64 source-field appendix support slice so the angular
+      observability packet reads as a consumer target and the projective
+      synchronization packet cleanly splits transport coherence support, open
+      PSJ projector recovery, and PPCJ/Davis-Kahan comparison before the
+      downstream PD.70z chain.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d63-d64-angular-projective-ledger.yaml

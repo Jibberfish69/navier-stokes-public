@@ -14,7 +14,7 @@ Assume a uniform carrier bound on the active interval:
 The target is the implication
 
 ```math
-2^j\gtrsim \nu^{-1}C_X
+j\ge J_{high}(C_X,\nu,\kappa_U)
 \quad\Longrightarrow\quad
 \|u_{coh}\|_{L_x^\infty(\Gamma_j(r))}
 \le

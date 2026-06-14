@@ -12,10 +12,11 @@ that coherence into a paid dissipation event or a Pack/Part/Field face failure.
 
 ## Target
 
-The bad model left by the Volterra pass is a coherent positive stress packet:
+The bad model left by the Volterra pass is the coherent positive stress packet
+model:
 
 ```math
-\tau_j^{H^1}[u](x,t)\approx b_j(t)\Phi(x,t),
+\tau_{j,\mathrm{model}}^{H^1}(x,t):= b_j(t)\Phi(x,t),
 \qquad b_j(t)\ge 0,
 ```
 

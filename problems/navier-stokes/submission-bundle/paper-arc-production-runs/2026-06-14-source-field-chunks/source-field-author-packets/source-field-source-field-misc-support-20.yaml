@@ -1,0 +1,858 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-20
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-20
+  sequence: 172
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 20
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 15553
+  line_end: 15935
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15553
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15590
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15604
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15641
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15673
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15809
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15833
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15920
+  subsection_titles:
+  - B ASAC Local Energy Trace No-Positive-Jump Route
+  - B ASAC Local Energy Trace Recheck
+  - B ASAC New Alternative Mechanism Exhaustion
+  - B ASAC No-Incoming Source Drain
+  - B ASAC Terminal-Layer Source-Drain Test
+  - B ASAC Branch Entropy Test
+  - B ASAC Time-Face All-Doors Rollup
+  - Boot Square Weight Uniform Integrability Criterion
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Local Energy Trace No-Positive-Jump Route
+    line_start: 15553
+    line_end: 15589
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15553
+    start_anchor: "\\subsection{B ASAC Local Energy Trace No-Positive-Jump Route}\n"
+    end_anchor: "\\subsection{B ASAC Local Energy Trace Recheck}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Local Energy Trace No-Positive-Jump Route}
+
+      This route converts the terminal atom problem into a localized trace problem.
+      For every transported compact cutoff \(R\), the target is that the localized
+      native source-balance primitive has no positive terminal jump after ASAC, legal,
+      projected, cutoff, boundary, finite donor, and non-Zeno refill payments are
+      removed.
+
+      A terminal source atom gives positive mass in \(B_R\times\{0\}\). After the
+      paid channels are removed, that mass appears as a positive terminal jump in the
+      remaining localized balance trace. A no-positive-jump theorem would rule it
+      out.
+
+      The installed source bound is only
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+      \]
+
+      This gives bounded variation in time for the source primitive, and bounded
+      variation allows jumps. The same terminal-layer profile
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      has finite \(L_s^1\) mass and converges to a terminal atom.
+
+      Weak \(L^2\)-time continuity supplies continuity for linear velocity pairings.
+      The localized balance trace is quadratic and one-sided after source selection,
+      so concentration can create a measure-valued terminal jump while weak linear
+      traces remain controlled. The local energy inequality supplies compactness and
+      a one-sided balance, but it also permits defect measures and bounded-variation
+      terminal jumps. The local-energy trace route remains open unless a stronger
+      time regularity, temporal residence, or source Carleson theorem is added.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Local Energy Trace Recheck
+    line_start: 15590
+    line_end: 15603
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15590
+    start_anchor: "\\subsection{B ASAC Local Energy Trace Recheck}\n"
+    end_anchor: "\\subsection{B ASAC New Alternative Mechanism Exhaustion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Local Energy Trace Recheck}
+
+      The recheck reaches the same obstruction from the energy/enstrophy side. The
+      local energy/enstrophy relation passes to terminal limits as an inequality with
+      possible defect measure. A positive terminal source residue can appear inside
+      that defect measure. B ASAC organizes the terminal equality/tangent geometry,
+      but it does not supply strong trace continuity of the local energy/enstrophy
+      density across the terminal time face.
+
+      The terminal atom can still be represented as a source/trace defect without
+      contradicting the available inequality. This route returns to temporal
+      thickness or strong trace continuity inside B ASAC.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC New Alternative Mechanism Exhaustion
+    line_start: 15604
+    line_end: 15640
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15604
+    start_anchor: "\\subsection{B ASAC New Alternative Mechanism Exhaustion}\n"
+    end_anchor: "\\subsection{B ASAC No-Incoming Source Drain}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC New Alternative Mechanism Exhaustion}
+
+      The preceding tests show that no additional installed production mechanism
+      closes the source-wall supplier. At current resolution, B ASAC closed is a
+      selected zero-radius terminal Zeno residue. It is Pack-facing support; Field
+      and Jump language are post-exit readout unless a positive-scale retained
+      carrier is separately proved.
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \rightharpoonup\delta_{s=0}.
+      \]
+
+      The audited doors are temporal anti-concentration, branch entropy, transported
+      no-flux, rigid subclass production, pressure/Leray tether, localized trace-jump
+      exclusion, and the positive-source adjoint escape identity. Each door returns
+      to the same terminal time-face atom:
+
+      finite \(L_s^1\) source mass gives a bounded-variation primitive, and bounded
+      variation allows terminal jumps;
+
+      pressure recovery is elliptic in space at each time slice, giving spatial
+      partner structure but no time smoothing across the terminal face;
+
+      classification alone names the residue class, while closure still needs a
+      production theorem into that class and a Liouville theorem excluding terminal
+      time-face concentration;
+
+      the adjoint identity contains the terminal source pairing as the live term, and
+      one-sided terminal positive selection still needs partner retention,
+      legal/collar exit, donor depletion, temporal residence, or time-face spread.
+
+      The current obstruction is precise: the route needs a new production theorem
+      for the terminal source atom, or a later positive-scale bridge that changes the
+      survivor from zero-radius Pack-facing support into retained-carrier readout.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC No-Incoming Source Drain
+    line_start: 15641
+    line_end: 15672
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15641
+    start_anchor: "\\subsection{B ASAC No-Incoming Source Drain}\n"
+    end_anchor: "\\subsection{B ASAC Terminal-Layer Source-Drain Test}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC No-Incoming Source Drain}
+
+      This is the source-drain form of the class-specific B ASAC Liouville problem.
+      The desired statement is that a nonzero terminal native source charge in the
+      produced B ASAC class cannot be represented by a diffuse legal same-fluid parent
+      cloud invisible to every bounded earlier selected source family. Such a theorem
+      would force either a fixed negative-time selected source parent or a
+      legal/donor/ASAC escape.
+
+      The May 4 source-drain package is conditional. The May 5 correction identifies
+      the break: first-pulse no-parent does not control diffuse legal source-parent
+      ancestry. A parent cloud can carry order-one source charge while every bounded
+      selected parent subfamily has vanishing mass.
+
+      No Incoming License src.A supplies first-pulse no-parent information. It removes
+      fixed earlier selected parents and, with donor/entrance records, finite and
+      non-Zeno parent trees. It does not rule out a zero-thickness terminal source
+      marginal.
+
+      ASACDefect Measure.A removes the ASAC-paid active-alignment / pair-weight
+      defect. Legal, projected, cutoff, boundary, finite-donor, and non-Zeno exits are
+      also removed by B ASAC production. These exclusions classify the survivor; they
+      do not compact the remaining source ancestry.
+
+      \[
+      \int \Phi_T\,d\mu_*^{src}
+      \]
+
+      is still the live terminal source residue. The no-incoming source-drain theorem
+      remains open, and the next exact closure target is source-ancestry compactness.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Terminal-Layer Source-Drain Test
+    line_start: 15673
+    line_end: 15689
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15673
+    start_anchor: "\\subsection{B ASAC Terminal-Layer Source-Drain Test}\n"
+    end_anchor: "\\subsection{B ASAC Pressure Elliptic Continuation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Terminal-Layer Source-Drain Test}
+
+      This test asks whether a zero-thickness terminal B ASAC source atom already
+      creates chargeable incoming source-drain. Local donor balance and entrance leaf
+      decay pay finite and non-Zeno refill trees. The remaining case is terminal Zeno
+      refill.
+
+      A terminal source atom can live on the final time face of every transported
+      cylinder. It can have no fixed earlier incoming source pulse and no chargeable
+      spatial boundary flux. The incoming mechanism is a terminal time-face
+      concentration, not a transported side-boundary inflow.
+
+      Transported-cylinder source-drain does not eliminate the atom without a
+      time-face anti-atom theorem. The no-incoming source-drain route remains open
+      exactly at zero-thickness terminal time-face concentration.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Branch Entropy Test
+    line_start: 15809
+    line_end: 15832
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15809
+    start_anchor: "\\subsection{B ASAC Branch Entropy Test}\n"
+    end_anchor: "\\subsection{B ASAC Time-Face All-Doors Rollup}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Branch Entropy Test}
+
+      Same-fluid ancestry and branch-complexity routes test the terminal B ASAC atom.
+      These routes could force the terminal source atom to pay parent drain, legal
+      loss, temporal residence, or source-weighted angular depletion.
+
+      Same-fluid ancestry preserves legal packet lineage. It does not select a
+      bounded parent subcloud carrying a fixed fraction of source mass. A diffuse
+      legal parent cloud can distribute mass over arbitrarily many legal parents.
+
+      Branch entropy would charge this diffuse ancestry only with a scale-normalized
+      entropy reserve. The available first-moment donor and dissipation records do
+      not control the required shellwise or entropy density.
+
+      Two-tower donor depletion handles finite and non-Zeno refill through local donor
+      balance and entrance leaf decay. The remaining terminal Zeno refill branch can
+      pass through infinitely many shrinking heat windows with finite first-moment
+      cost.
+
+      Same-fluid ancestry is useful for legality and lineage. It does not close the
+      terminal atom without a new scale-normalized branch entropy or donor-reserve
+      theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Time-Face All-Doors Rollup
+    line_start: 15833
+    line_end: 15882
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15833
+    start_anchor: "\\subsection{B ASAC Time-Face All-Doors Rollup}\n"
+    end_anchor: "\\subsection{BKM Conditional Comparison and SCF-Base Tower Bound}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{B ASAC Time-Face All-Doors Rollup}
+
+      The remaining doors consolidate around the diffuse terminal parent-cloud
+      obstruction reached by source-ancestry compactness. Installed inputs supply
+      finite local \(L_s^1\) source mass only. The terminal-layer profile
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      shows the remaining terminal-time concentration model.
+
+      A branch-entropy theorem would price diffuse legal same-fluid parent clouds. For
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+      \]
+
+      \[
+      \sum_{\alpha=1}^{M}M^{-2}=M^{-1}.
+      \]
+
+      No installed record carries \(H(P;M)\) with a positive coefficient, so the
+      entropy door remains open.
+
+      This historical no-incoming route shows that lateral no-flux alone did not
+      remove a source atom on the terminal time face; the present paper keeps that
+      route as source-wall pressure below the Pack/Part/Field terminal classification.
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0
+      \qquad\forall R<\infty.
+      \]
+
+      With this time-face anti-atom clause, the Liouville theorem for B ASAC TA would
+      combine it with the no-earlier-selected-source-slice clause.
+
+      The formal complement is the class B ASAC closed: same-fluid terminal carrier,
+      zero ASAC defect, legal exits routed away, finite donor trees telescoped, no
+      fixed preterminal entrance leaf, positive inherited terminal native source
+      residue, and no production of temporal thickness, source Carleson, active
+      reserve, transported no-incoming, or rigid anti-atom subclass.
+
+      At current route resolution, this class is consistent with the installed
+      source-wall bookkeeping. It is an obstruction class, not a contradiction
+      theorem. Source-wall progress now needs one of the missing production theorems,
+      or a later positive-scale bridge that moves the residue into retained-carrier
+      readout.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Boot Square Weight Uniform Integrability Criterion
+    line_start: 15920
+    line_end: 15935
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15920
+    start_anchor: "\\subsection{Boot Square Weight Uniform Integrability Criterion}\n"
+    end_anchor: "\\subsection{Branch-Native Averaged No-Escape Defect-Charge Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Boot Square Weight Uniform Integrability Criterion}
+
+      Let \(M_J^2\) be the Boot Square weight relative to \(\mu_J\). A
+      standard sufficient condition for uniform integrability is a uniform higher
+      moment: for some \(\delta>0\),
+
+      \[
+      \sup_J\int (M_J^2)^{1+\delta}\,d\mu_J<\infty.
+      \]
+
+      A simpler sufficient condition is a uniform \(L^\infty\) bound on \(M_J^2\)
+      on the retained family together with controlled total \(\mu_J\)-mass. The
+      current branch records this as a criterion only. The needed higher moment or
+      uniform retained-family bound is not installed here.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{B ASAC Local Energy Trace No-Positive-Jump Route}
+
+    This route converts the terminal atom problem into a localized trace problem.
+    For every transported compact cutoff \(R\), the target is that the localized
+    native source-balance primitive has no positive terminal jump after ASAC, legal,
+    projected, cutoff, boundary, finite donor, and non-Zeno refill payments are
+    removed.
+
+    A terminal source atom gives positive mass in \(B_R\times\{0\}\). After the
+    paid channels are removed, that mass appears as a positive terminal jump in the
+    remaining localized balance trace. A no-positive-jump theorem would rule it
+    out.
+
+    The installed source bound is only
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+    \]
+
+    This gives bounded variation in time for the source primitive, and bounded
+    variation allows jumps. The same terminal-layer profile
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    has finite \(L_s^1\) mass and converges to a terminal atom.
+
+    Weak \(L^2\)-time continuity supplies continuity for linear velocity pairings.
+    The localized balance trace is quadratic and one-sided after source selection,
+    so concentration can create a measure-valued terminal jump while weak linear
+    traces remain controlled. The local energy inequality supplies compactness and
+    a one-sided balance, but it also permits defect measures and bounded-variation
+    terminal jumps. The local-energy trace route remains open unless a stronger
+    time regularity, temporal residence, or source Carleson theorem is added.
+
+
+
+    \subsection{B ASAC Local Energy Trace Recheck}
+
+    The recheck reaches the same obstruction from the energy/enstrophy side. The
+    local energy/enstrophy relation passes to terminal limits as an inequality with
+    possible defect measure. A positive terminal source residue can appear inside
+    that defect measure. B ASAC organizes the terminal equality/tangent geometry,
+    but it does not supply strong trace continuity of the local energy/enstrophy
+    density across the terminal time face.
+
+    The terminal atom can still be represented as a source/trace defect without
+    contradicting the available inequality. This route returns to temporal
+    thickness or strong trace continuity inside B ASAC.
+
+
+
+    \subsection{B ASAC New Alternative Mechanism Exhaustion}
+
+    The preceding tests show that no additional installed production mechanism
+    closes the source-wall supplier. At current resolution, B ASAC closed is a
+    selected zero-radius terminal Zeno residue. It is Pack-facing support; Field
+    and Jump language are post-exit readout unless a positive-scale retained
+    carrier is separately proved.
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \rightharpoonup\delta_{s=0}.
+    \]
+
+    The audited doors are temporal anti-concentration, branch entropy, transported
+    no-flux, rigid subclass production, pressure/Leray tether, localized trace-jump
+    exclusion, and the positive-source adjoint escape identity. Each door returns
+    to the same terminal time-face atom:
+
+    finite \(L_s^1\) source mass gives a bounded-variation primitive, and bounded
+    variation allows terminal jumps;
+
+    pressure recovery is elliptic in space at each time slice, giving spatial
+    partner structure but no time smoothing across the terminal face;
+
+    classification alone names the residue class, while closure still needs a
+    production theorem into that class and a Liouville theorem excluding terminal
+    time-face concentration;
+
+    the adjoint identity contains the terminal source pairing as the live term, and
+    one-sided terminal positive selection still needs partner retention,
+    legal/collar exit, donor depletion, temporal residence, or time-face spread.
+
+    The current obstruction is precise: the route needs a new production theorem
+    for the terminal source atom, or a later positive-scale bridge that changes the
+    survivor from zero-radius Pack-facing support into retained-carrier readout.
+
+
+
+    \subsection{B ASAC No-Incoming Source Drain}
+
+    This is the source-drain form of the class-specific B ASAC Liouville problem.
+    The desired statement is that a nonzero terminal native source charge in the
+    produced B ASAC class cannot be represented by a diffuse legal same-fluid parent
+    cloud invisible to every bounded earlier selected source family. Such a theorem
+    would force either a fixed negative-time selected source parent or a
+    legal/donor/ASAC escape.
+
+    The May 4 source-drain package is conditional. The May 5 correction identifies
+    the break: first-pulse no-parent does not control diffuse legal source-parent
+    ancestry. A parent cloud can carry order-one source charge while every bounded
+    selected parent subfamily has vanishing mass.
+
+    No Incoming License src.A supplies first-pulse no-parent information. It removes
+    fixed earlier selected parents and, with donor/entrance records, finite and
+    non-Zeno parent trees. It does not rule out a zero-thickness terminal source
+    marginal.
+
+    ASACDefect Measure.A removes the ASAC-paid active-alignment / pair-weight
+    defect. Legal, projected, cutoff, boundary, finite-donor, and non-Zeno exits are
+    also removed by B ASAC production. These exclusions classify the survivor; they
+    do not compact the remaining source ancestry.
+
+    \[
+    \int \Phi_T\,d\mu_*^{src}
+    \]
+
+    is still the live terminal source residue. The no-incoming source-drain theorem
+    remains open, and the next exact closure target is source-ancestry compactness.
+
+
+
+    \subsection{B ASAC Terminal-Layer Source-Drain Test}
+
+    This test asks whether a zero-thickness terminal B ASAC source atom already
+    creates chargeable incoming source-drain. Local donor balance and entrance leaf
+    decay pay finite and non-Zeno refill trees. The remaining case is terminal Zeno
+    refill.
+
+    A terminal source atom can live on the final time face of every transported
+    cylinder. It can have no fixed earlier incoming source pulse and no chargeable
+    spatial boundary flux. The incoming mechanism is a terminal time-face
+    concentration, not a transported side-boundary inflow.
+
+    Transported-cylinder source-drain does not eliminate the atom without a
+    time-face anti-atom theorem. The no-incoming source-drain route remains open
+    exactly at zero-thickness terminal time-face concentration.
+
+
+
+    \subsection{B ASAC Branch Entropy Test}
+
+    Same-fluid ancestry and branch-complexity routes test the terminal B ASAC atom.
+    These routes could force the terminal source atom to pay parent drain, legal
+    loss, temporal residence, or source-weighted angular depletion.
+
+    Same-fluid ancestry preserves legal packet lineage. It does not select a
+    bounded parent subcloud carrying a fixed fraction of source mass. A diffuse
+    legal parent cloud can distribute mass over arbitrarily many legal parents.
+
+    Branch entropy would charge this diffuse ancestry only with a scale-normalized
+    entropy reserve. The available first-moment donor and dissipation records do
+    not control the required shellwise or entropy density.
+
+    Two-tower donor depletion handles finite and non-Zeno refill through local donor
+    balance and entrance leaf decay. The remaining terminal Zeno refill branch can
+    pass through infinitely many shrinking heat windows with finite first-moment
+    cost.
+
+    Same-fluid ancestry is useful for legality and lineage. It does not close the
+    terminal atom without a new scale-normalized branch entropy or donor-reserve
+    theorem.
+
+
+
+    \subsection{B ASAC Time-Face All-Doors Rollup}
+
+    The remaining doors consolidate around the diffuse terminal parent-cloud
+    obstruction reached by source-ancestry compactness. Installed inputs supply
+    finite local \(L_s^1\) source mass only. The terminal-layer profile
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    shows the remaining terminal-time concentration model.
+
+    A branch-entropy theorem would price diffuse legal same-fluid parent clouds. For
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+    \]
+
+    \[
+    \sum_{\alpha=1}^{M}M^{-2}=M^{-1}.
+    \]
+
+    No installed record carries \(H(P;M)\) with a positive coefficient, so the
+    entropy door remains open.
+
+    This historical no-incoming route shows that lateral no-flux alone did not
+    remove a source atom on the terminal time face; the present paper keeps that
+    route as source-wall pressure below the Pack/Part/Field terminal classification.
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0
+    \qquad\forall R<\infty.
+    \]
+
+    With this time-face anti-atom clause, the Liouville theorem for B ASAC TA would
+    combine it with the no-earlier-selected-source-slice clause.
+
+    The formal complement is the class B ASAC closed: same-fluid terminal carrier,
+    zero ASAC defect, legal exits routed away, finite donor trees telescoped, no
+    fixed preterminal entrance leaf, positive inherited terminal native source
+    residue, and no production of temporal thickness, source Carleson, active
+    reserve, transported no-incoming, or rigid anti-atom subclass.
+
+    At current route resolution, this class is consistent with the installed
+    source-wall bookkeeping. It is an obstruction class, not a contradiction
+    theorem. Source-wall progress now needs one of the missing production theorems,
+    or a later positive-scale bridge that moves the residue into retained-carrier
+    readout.
+
+
+
+    \subsection{Boot Square Weight Uniform Integrability Criterion}
+
+    Let \(M_J^2\) be the Boot Square weight relative to \(\mu_J\). A
+    standard sufficient condition for uniform integrability is a uniform higher
+    moment: for some \(\delta>0\),
+
+    \[
+    \sup_J\int (M_J^2)^{1+\delta}\,d\mu_J<\infty.
+    \]
+
+    A simpler sufficient condition is a uniform \(L^\infty\) bound on \(M_J^2\)
+    on the retained family together with controlled total \(\mu_J\)-mass. The
+    current branch records this as a criterion only. The needed higher moment or
+    uniform retained-family bound is not installed here.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Local Energy Trace No-Positive-Jump Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15553
+  line_start: 15553
+  line_end: 15589
+  start_anchor: "\\subsection{B ASAC Local Energy Trace No-Positive-Jump Route}\n"
+  end_anchor: "\\subsection{B ASAC Local Energy Trace Recheck}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Local Energy Trace No-Positive-Jump
+    Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15553
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Local Energy Trace Recheck
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15590
+  line_start: 15590
+  line_end: 15603
+  start_anchor: "\\subsection{B ASAC Local Energy Trace Recheck}\n"
+  end_anchor: "\\subsection{B ASAC New Alternative Mechanism Exhaustion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Local Energy Trace Recheck
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15590
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC New Alternative Mechanism Exhaustion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15604
+  line_start: 15604
+  line_end: 15640
+  start_anchor: "\\subsection{B ASAC New Alternative Mechanism Exhaustion}\n"
+  end_anchor: "\\subsection{B ASAC No-Incoming Source Drain}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC New Alternative Mechanism
+    Exhaustion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15604
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC No-Incoming Source Drain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15641
+  line_start: 15641
+  line_end: 15672
+  start_anchor: "\\subsection{B ASAC No-Incoming Source Drain}\n"
+  end_anchor: "\\subsection{B ASAC Terminal-Layer Source-Drain Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC No-Incoming Source Drain
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15641
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Terminal-Layer Source-Drain Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15673
+  line_start: 15673
+  line_end: 15689
+  start_anchor: "\\subsection{B ASAC Terminal-Layer Source-Drain Test}\n"
+  end_anchor: "\\subsection{B ASAC Pressure Elliptic Continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Terminal-Layer Source-Drain
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15673
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Branch Entropy Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15809
+  line_start: 15809
+  line_end: 15832
+  start_anchor: "\\subsection{B ASAC Branch Entropy Test}\n"
+  end_anchor: "\\subsection{B ASAC Time-Face All-Doors Rollup}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Branch Entropy Test as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15809
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Time-Face All-Doors Rollup
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15833
+  line_start: 15833
+  line_end: 15882
+  start_anchor: "\\subsection{B ASAC Time-Face All-Doors Rollup}\n"
+  end_anchor: "\\subsection{BKM Conditional Comparison and SCF-Base Tower Bound}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Time-Face All-Doors Rollup
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15833
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Boot Square Weight Uniform Integrability Criterion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15920
+  line_start: 15920
+  line_end: 15935
+  start_anchor: "\\subsection{Boot Square Weight Uniform Integrability Criterion}\n"
+  end_anchor: "\\subsection{Branch-Native Averaged No-Escape Defect-Charge Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Boot Square Weight Uniform Integrability
+    Criterion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15920
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-20
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-20.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

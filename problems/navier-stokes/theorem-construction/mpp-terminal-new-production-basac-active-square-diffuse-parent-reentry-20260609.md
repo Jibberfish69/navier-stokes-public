@@ -88,7 +88,7 @@ inside the current target. A legal source-parent cloud can have the form:
 
 ```math
 \pi_P
-\simeq
+:=
 {1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
 \qquad M\to\infty.
 ```
@@ -106,7 +106,7 @@ quadratic donor and residual-square charges scale like:
 
 ```math
 \sum_{\alpha=1}^{M}\|a_\alpha\|_2^2
-\simeq
+=
 M^{-1},
 ```
 
@@ -114,7 +114,7 @@ and
 
 ```math
 \sum_{\alpha=1}^{M}|\mathrm{residual}_\alpha|^2
-\simeq
+=
 M^{-1}.
 ```
 

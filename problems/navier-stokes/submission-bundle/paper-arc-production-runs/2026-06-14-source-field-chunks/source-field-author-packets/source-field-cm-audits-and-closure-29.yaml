@@ -1,0 +1,1145 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-29
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-29
+  sequence: 114
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 29
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 42343
+  line_end: 42716
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42343
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42397
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42455
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42488
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42551
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42589
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42627
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42673
+  subsection_titles:
+  - Clay problem Native Trilinear Defect Domination.A Direct Attempt Note
+  - Clay problem Native Trilinear Defect Domination.A Next Direct Attempt
+  - Clay problem Native Trilinear Defect Domination.A Local No-Hidden Frontier Note
+  - Clay problem Native Trilinear Face Logic And Alias Audit Note
+  - Clay problem Native Trilinear Rigidify Exit Closure Note
+  - Clay problem Native Trilinear Three-Exit Execution Note
+  - Clay problem Native SourceAC.A Direct Attempt Note
+  - Clay problem Near BandBVTo Burst OrSource.A Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Defect Domination.A Direct Attempt
+      Note
+    line_start: 42343
+    line_end: 42396
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42343
+    start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A
+      Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Next
+      Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Native Trilinear Defect Domination.A Direct Attempt
+      Note}\n\nThis theorem would dominate the native positive active trilinear/source
+      defect by installed quadratic route records on terminal same-fluid active packets.
+      It would prove Native SourceAC.A and hence Source Pulse Exclusion.A.\n\n\\[\n\\sum_{P\\in\\mathcal
+      F_N}\n\\int_{Q(P)}\n\\left[\n\\langle S_{<j_P}^{loc} w_{j_P},w_{j_P}\\rangle\n\\right]_+\n\\,dxdt\n\\le\nC\\rho_{inst,N}(\\mathcal
+      F_N)+o_N(1).\n\\]\n\n\\[\n\\mu_{\\ast}^{sing}=0.\n\\]\n\n\\[\n\\operatorname{tr}S=0.\n\\]\n\n\\[\n\\langle
+      S w,w\\rangle\\le0.\n\\]\n\nA trace-free symmetric matrix in three dimensions
+      can have positive eigenvalues, and the terminal active packet can align with
+      the expanding eigendirection. so trace-free strain does not dominate the positive
+      trilinear defect.\n\n\\[\n\\left[\n\\langle S_{<j}w_j,w_j\\rangle\n\\right]_+\n\\le
+      C_{\\mathrm{sf},40894}\n|S_{<j}|\\,|w_j|^2\n\\]\n\nand then charge the right
+      side by dissipation. This requires a terminal integrability bound for |S <j
+      | in the native packet topology, for example an L 1 tL x or Carleson coefficient
+      bound on selected bad windows.\n\nThe current energy/enstrophy layer gives finite
+      L 2-type control, and Calderon-Zygmund maps vorticity/strain in finite-p spaces.
+      It does not give the packet coefficient bound needed to absorb the positive
+      trilinear defect.\n\nThe installed commutator identities cancel only before
+      these operations. After them, the principal strain term is sign-indefinite and
+      can carry a positive defect measure. No installed compensated-compactness theorem
+      eliminates that defect measure.\n\nFinite Littlewood-Paley banding and orthogonality
+      help separate interactions by frequency. The active packet already lives at
+      a legal finite band. The surviving source term is a legal low/high or comparable-band
+      interaction in that finite band.\n\nOrthogonality does not prevent spatial/temporal
+      concentration of the positive trilinear defect on selected heat-scale windows.\n\nSmoothness
+      on compact preterminal intervals does not give a \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Defect Domination.A Next Direct
+      Attempt
+    line_start: 42397
+    line_end: 42454
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42397
+    start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A
+      Next Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Local
+      No-Hidden Frontier Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Native Trilinear Defect Domination.A Next Direct Attempt}
+
+      The direct attempt uses the installed Navier--Stokes route structure. The theorem does not close; the attempt records the exact obstruction and the strongest valid reduction left by the direct pass.
+
+      \[
+      \boxed{
+      \sum_{P\in\mathcal F_N}
+      \int_{Q(P)}
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+
+      \,dxdt
+      \le
+      C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+      }
+      \]
+
+      \[
+      \boxed{
+      \mu_\ast^{sing}=0.
+      }
+      \]
+
+      \[
+      w_j=|w_j|e_j,
+      \qquad |e_j|=1,
+      \]
+
+      \[
+      \left[
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \right]_+
+      =
+      |w_j|^2
+      \left[
+      e_j\cdot S_{<j}^{loc}e_j
+      \right]_+.
+      \]
+
+      \[
+      \operatorname{div}u=0,
+      \qquad
+      \operatorname{tr}S=0,
+      \]
+
+      The live surfaces also record that Parent Square Embed.A is installed, but that the direct -reserve route still lacks Square Reserve Evolution.A. Thus diffuse parentage is statically priced, while the donor reserve has no installed dynamic parent-or-charge evolution.
+
+      Signed cancellation does not bound a positive part unless the negative part is known to remain present on the same packet, or unless a quantitative oscillation/decorrelation theorem is installed. No installed route input gives that comparison after terminal active selection and positive-part extraction.
+
+      Thus normalized-adjoint support does not directly dominate the singular native positive trilinear defect.
+
+      Thus compactness converts the obstruction into a residue problem; it does not vanish the residue from installed inputs.
+
+      where route means that the same failed terminal active family can be chosen so the installed legal losses vanish while the positive native source product retains nonzero singular mass.
+
+      No closure of Source Pulse Exclusion.A, Native SourceAC.A, or the periodic Navier-Stokes target should be promoted from this attempt.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Defect Domination.A Local No-Hidden
+      Frontier Note
+    line_start: 42455
+    line_end: 42487
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42455
+    start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A
+      Local No-Hidden Frontier Note}\n"
+    end_anchor: "\\subsection{Clay problem Native Trilinear Face Logic And Alias Audit
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Native Trilinear Defect Domination.A Local No-Hidden Frontier Note}
+
+      The theorem is not proved here. The exact local proof exits after the direct native-defect attempt and the positive-remainder/source coherence audits are recorded.
+
+      \[
+      \mathcal T_P^+
+      :=
+      \int_{Q(P)}
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+
+      \,dxdt.
+      \]
+
+      \[
+      \boxed{
+      \sum_{P\in\mathcal F_N}\mathcal T_P^+
+      \le
+      C\rho_{inst,N}(\mathcal F_N)+o_N(1),
+      }
+      \]
+
+      This includes the named coherence/depletion languages Eigen Decorrel.A, Signed Positive Balance.A, Local Pressure Strain Deplete.A, Active Vorticity Coherence.A, and Anti Beltrami Carleson.A. The installed route has audited those languages and does not currently prove any of them.
+
+      Equivalently, prove Active Window Carleson Small.A or the localized Scale Critical Tree Carleson.A reserve on the same terminal active windows. The installed route has audited raw energy, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, downstream source suppliers, and same-fluid transport; none supplies this reserve.
+
+      The installed compactness material extracts a candidate ancient/source-residue limit only after localization. It does not produce the explicit rigid class B, nor a class-specific Liouville theorem, from the current original data route.
+
+      Thus that older branch cannot be imported as terminal active strain decorrelation for the native positive trilinear/source carrier.
+
+      All softer labels already audited in the route are consumers or presentations of these three exits. None is currently installed by original smooth data, finite energy, local energy, pressure Poisson recovery, dyadic skew symmetry, finite-band orthogonality, same-fluid transport, terminal coherence suppliers, or downstream frozen-family source integrability.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Face Logic And Alias Audit Note
+    line_start: 42488
+    line_end: 42550
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42488
+    start_anchor: "\\subsection{Clay problem Native Trilinear Face Logic And Alias
+      Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Native Trilinear Rigidify Exit Closure
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Native Trilinear Face Logic And Alias Audit Note}
+
+      \[
+      \mathcal T_P^+
+      :=
+      \int_{Q(P)}
+      \left[
+      \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+      \right]_+
+      \,dxdt.
+      \]
+
+      \[
+      \left[
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \right]_+
+      =
+      |w_j|^2
+      \left[
+      e_j\cdot S_{<j}^{loc}e_j
+      \right]_+.
+      \]
+
+      The split has one narrow reading. The three faces are not three independent already-usable discharges; they are three native locations where a new theorem could enter the same positive product.
+
+      \[
+      \boxed{
+      \sum_{P\in\mathcal F_N}\mathcal T_P^+
+      \le
+      C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+      }
+      \]
+
+      \[
+      \begin{aligned}
+      &\text{coefficient control for }
+      [e_j\cdot S_{<j}^{loc}e_j]_+
+      \\
+      &\quad+
+      \text{active square amplitude charge for }|w_j|^2
+      \\
+      &\Longrightarrow
+      \text{source domination.}
+      \end{aligned}
+      \]
+
+      Likewise, a bare directional statement that does not include the |w j| 2 weight and the selected terminal packet measure is not enough. It becomes a proof only after it is lifted to (Face.2) or combined with factor bounds that make the product integrable.
+
+      \[
+      \sum_P\int_{Q(P)}|w_{j_P}|^2
+      \]
+
+      does not by itself control T P + unless the positive strain coefficient is also chargeable. The only useful amplitude theorem is the source-weighted reserve Positive Active Carleson Reserve.A. The existing audit shows that energy, local energy, Cauchy/Young envelopes, finite banding, pressure/cutoff records, and downstream source suppliers do not install that reserve on the branch-native terminal packets.
+
+      A qualitative statement that active directions "usually" decorrelate from expanding eigendirections does not control T P +. The theorem must survive positive-part extraction, terminal packet selection, weights, cutoffs, and same-fluid localization. That is exactly Positive Strain Decorrelation.A.
+
+      The existing audit shows that incompressibility, signed full-space skew symmetry, pressure Poisson recovery, vorticity-direction/helical heuristics, finite-band orthogonality, and same-fluid transport do no
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Rigidify Exit Closure Note
+    line_start: 42551
+    line_end: 42588
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42551
+    start_anchor: "\\subsection{Clay problem Native Trilinear Rigidify Exit Closure
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Native Trilinear Three-Exit Execution Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Native Trilinear Rigidify Exit Closure Note}
+
+      The rigidify package is not proved here. The deterministic supplier loop around it is closed, and the supplied, conditional, and open parts are recorded explicitly.
+
+      The localization audits show that the installed global mixed-shell badness does not itself produce a physical same-fluid source-residue cylinder.
+
+      \[
+      D_j(t)D_\ell(t)
+      =
+      \iint d_j(x,t)d_\ell(y,t)\,dx\,dy.
+      \]
+
+      \[
+      \iint_{|x-y|\le C_{\mathrm{sf},41082} 2^{-j}}
+      d_j(x,t)d_\ell(y,t)\,dx\,dy.
+      \]
+
+      Frequency near-diagonal lemmas do not imply this spatial co-location. The direct diagonal tether and diagonal domination attempts show that global all-pairs mass can be diffuse or off-diagonal after absolute-value estimates.
+
+      \[
+      (u_\ast,p_\ast,\mu_\ast^{src}),
+      \qquad
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      None is produced by the installed Zeno ancestry inputs. Local suitable compactness gives local energy and pressure bounds, not a global ancient energy class, Type I envelope, critical smallness, symmetry, bounded vorticity, or source-cancellation class.
+
+      \[
+      \mu_\ast^{src}=0
+      \]
+
+      \[
+      \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+      \]
+
+      Together with the already closed decorrelation and charge supplier loops, the native trilinear three-exit loop is now fully executed: none of the three exits is an installed discharge from the current allowed inputs.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native Trilinear Three-Exit Execution Note
+    line_start: 42589
+    line_end: 42626
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42589
+    start_anchor: "\\subsection{Clay problem Native Trilinear Three-Exit Execution
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Native SourceAC.A Direct Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Native Trilinear Three-Exit Execution Note}
+
+      Execution note for the current native-trilinear supplier loop on the contrapositive Field face.
+
+      The native-trilinear split below should so be read as the current field-face supplier loop, not as a replacement for the CM-contrapositive root.
+
+      where sing is the singular native positive active source component from the terminal same-fluid active windows.
+
+      \[
+      \sum_{P\in\mathcal F_N}
+      \int_{Q(P)}
+      \left[
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \right]_+
+      \,dxdt
+      \le
+      o_N(1)+\operatorname{Loss}_{legal}(\mathcal F_N).
+      \]
+
+      so this exit remains open and is not a hidden consequence of the installed route.
+
+      The audit rules out raw energy, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, same-fluid transport, and downstream frozen-family source integrability as suppliers.
+
+      \[
+      \boxed{
+      ZenoBoundedClass_{\mathcal B}.A
+      +
+      ZenoResidueLiouville_{\mathcal B}.A
+      }
+      \]
+
+      for an explicit class B whose Liouville theorem vanishes the same positive native source-residue measure extracted by the branch.
+
+      For the route-governing class-membership program, this supplier is no longer a blocking root because Source PulseCMExit.A is discharged by
+
+      Any such supplier upgrade must install a genuinely new native positive source theorem, such as positive-part strain depletion, active-window Carleson reserve, pre-Cauchy local source no-pulse, or an explicit rigid Zeno ancient class with source-residue Liouville. Those are proof languages for the same source-pulse atom, not independent route-governing bookkeeping exits.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Native SourceAC.A Direct Attempt Note
+    line_start: 42627
+    line_end: 42672
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42627
+    start_anchor: "\\subsection{Clay problem Native SourceAC.A Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Near BandBVTo Burst OrSource.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Native SourceAC.A Direct Attempt Note}
+
+      This would eliminate the singular native positive active source measure and close Source Pulse Exclusion.A. The theorem is not installed by the current route inputs.
+
+      The desired domination must hold for the same terminal active packet family, after the same weights, cutoffs, same-fluid localization, and positive-part selection.
+
+      \[
+      \int\sum_{j>N}\gamma_j(t)\,dt=o_N(1).
+      \]
+
+      The unweighted dyadic nonlinearity has exchange cancellations. After one-sided weights, cutoffs, lifted packet reductions, and positive-part extraction, the native carrier is no longer the signed exchange form. The principal term is sign-indefinite and can align with expanding strain directions.
+
+      Compensated compactness or div-curl cancellation would need an exact theorem showing the positive trilinear defect is controlled by a quadratic defect measure already in inst,N . No such theorem is installed. Without it, the positive part may carry a singular defect measure even when the signed distribution cancels.
+
+      Thus signed exchange and current compensated-cancellation inputs do not prove Native SourceAC.A.
+
+      \[
+      \rho_{press/cut}<\infty.
+      \]
+
+      They do not dominate the interior active strain/source production after positive-part selection. A pressure-strain depletion theorem would prove a piece of Native SourceAC.A, but that theorem is exactly one of the already audited source-pulse presentations and is not installed.
+
+      \[
+      \mu_{src,N}^+
+      \le
+      C\,\mu_{LE,N}
+      +o_N(1)
+      \]
+
+      The first statement is a positive source-defect domination theorem; it is not present in the local energy inequality. The second is the rigidify route, and the existing audits leave source-residue localization plus ancient/ancestral Liouville open.
+
+      \[
+      \mu_{src,N}^+\le C\rho_{inst,N}.
+      \]
+
+      Transport can preserve a singular source measure just as well as an absolutely continuous one. Thus it is a license layer, not a source of Native SourceAC.A.
+
+      \[
+      \boxed{
+      \mu_{\ast}^{sing}=0
+      }
+      \]
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Near BandBVTo Burst OrSource.A Direct Attempt
+    line_start: 42673
+    line_end: 42716
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42673
+    start_anchor: "\\subsection{Clay problem Near BandBVTo Burst OrSource.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A After
+      ASAC Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Near BandBVTo Burst OrSource.A Direct Attempt}
+
+      Purpose: continue the direct attack under Low StrainBVCharge.A and decide whether the near-band BV wall is a new theorem or only another presentation of the native source wall.
+
+      \[
+      S^{near}_{j,L}:=\sum_{j-L<m<j}S_m^{loc},
+      \]
+
+      \[
+      \sigma_P^{near}(t)
+      :=
+      n_P(t)\cdot S^{near}_{j_P,L}(X_P(t),t)n_P(t).
+      \]
+
+      \[
+      \tau_P\mathrm{Var}_{I_P}(\sigma_P^{near})
+      \le C_{\mathrm{sf},41207}
+      V_P^{heat}
+      +V_P^{src}
+      +V_P^{frame},
+      \]
+
+      \[
+      V_P^{heat}
+      :=
+      \tau_P\int_{I_P}\|\nu\Delta S^{near}_{j_P,L}\|_\infty\,dt,
+      \]
+
+      \[
+      V_P^{src}
+      :=
+      \tau_P\int_{I_P}
+      \|\mathcal N^{near}_{j_P,L}
+      +\mathcal P^{near}_{j_P,L}
+      +\mathcal C^{near}_{j_P,L}\|_\infty\,dt,
+      \]
+
+      In the height-flux application this term is absorbable by choosing theta small before the terminal limit, because it is proportional to the same active packet height being tested and carries no positive source sign.
+
+      Near BandBVTo Burst OrSource.A is partially discharged. The near-band heat part is not a live obstruction; it is either subparabolic and absorbable, or it is a parabolic-rate burst that forces lower/neighbor donor height.
+
+      This is the smallest current source-wall face in the height-flux route: a retained high packet must either pay for near-band pressure/material-source variation, or pay for rotating into the expanding near-band strain frame.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Native Trilinear Defect Domination.A Direct Attempt Note}
+
+    This theorem would dominate the native positive active trilinear/source defect by installed quadratic route records on terminal same-fluid active packets. It would prove Native SourceAC.A and hence Source Pulse Exclusion.A.
+
+    \[
+    \sum_{P\in\mathcal F_N}
+    \int_{Q(P)}
+    \left[
+    \langle S_{<j_P}^{loc} w_{j_P},w_{j_P}\rangle
+    \right]_+
+    \,dxdt
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+    \]
+
+    \[
+    \mu_{\ast}^{sing}=0.
+    \]
+
+    \[
+    \operatorname{tr}S=0.
+    \]
+
+    \[
+    \langle S w,w\rangle\le0.
+    \]
+
+    A trace-free symmetric matrix in three dimensions can have positive eigenvalues, and the terminal active packet can align with the expanding eigendirection. so trace-free strain does not dominate the positive trilinear defect.
+
+    \[
+    \left[
+    \langle S_{<j}w_j,w_j\rangle
+    \right]_+
+    \le C_{\mathrm{sf},40894}
+    |S_{<j}|\,|w_j|^2
+    \]
+
+    and then charge the right side by dissipation. This requires a terminal integrability bound for |S <j | in the native packet topology, for example an L 1 tL x or Carleson coefficient bound on selected bad windows.
+
+    The current energy/enstrophy layer gives finite L 2-type control, and Calderon-Zygmund maps vorticity/strain in finite-p spaces. It does not give the packet coefficient bound needed to absorb the positive trilinear defect.
+
+    The installed commutator identities cancel only before these operations. After them, the principal strain term is sign-indefinite and can carry a positive defect measure. No installed compensated-compactness theorem eliminates that defect measure.
+
+    Finite Littlewood-Paley banding and orthogonality help separate interactions by frequency. The active packet already lives at a legal finite band. The surviving source term is a legal low/high or comparable-band interaction in that finite band.
+
+    Orthogonality does not prevent spatial/temporal concentration of the positive trilinear defect on selected heat-scale windows.
+
+    Smoothness on compact preterminal intervals does not give a uniform terminal coefficient bound at these moving shells. A proof here would be a continuation criterion in disguise, and would already eliminate the endpoint.
+
+    Native Trilinear Defect Domination.A is not installed by incompressibility, energy/enstrophy, Calderon-Zygmund pressure/strain bounds, signed commutator compensation, pressure projection, finite-band orthogonality, same-fluid transport, or compact preterminal smoothness.
+
+    It is the current narrowest analytic form of the source-pulse obstruction, not a solved theorem.
+
+
+
+    \subsection{Clay problem Native Trilinear Defect Domination.A Next Direct Attempt}
+
+    The direct attempt uses the installed Navier--Stokes route structure. The theorem does not close; the attempt records the exact obstruction and the strongest valid reduction left by the direct pass.
+
+    \[
+    \boxed{
+    \sum_{P\in\mathcal F_N}
+    \int_{Q(P)}
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+
+    \,dxdt
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+    }
+    \]
+
+    \[
+    \boxed{
+    \mu_\ast^{sing}=0.
+    }
+    \]
+
+    \[
+    w_j=|w_j|e_j,
+    \qquad |e_j|=1,
+    \]
+
+    \[
+    \left[
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \right]_+
+    =
+    |w_j|^2
+    \left[
+    e_j\cdot S_{<j}^{loc}e_j
+    \right]_+.
+    \]
+
+    \[
+    \operatorname{div}u=0,
+    \qquad
+    \operatorname{tr}S=0,
+    \]
+
+    The live surfaces also record that Parent Square Embed.A is installed, but that the direct -reserve route still lacks Square Reserve Evolution.A. Thus diffuse parentage is statically priced, while the donor reserve has no installed dynamic parent-or-charge evolution.
+
+    Signed cancellation does not bound a positive part unless the negative part is known to remain present on the same packet, or unless a quantitative oscillation/decorrelation theorem is installed. No installed route input gives that comparison after terminal active selection and positive-part extraction.
+
+    Thus normalized-adjoint support does not directly dominate the singular native positive trilinear defect.
+
+    Thus compactness converts the obstruction into a residue problem; it does not vanish the residue from installed inputs.
+
+    where route means that the same failed terminal active family can be chosen so the installed legal losses vanish while the positive native source product retains nonzero singular mass.
+
+    No closure of Source Pulse Exclusion.A, Native SourceAC.A, or the periodic Navier-Stokes target should be promoted from this attempt.
+
+
+
+    \subsection{Clay problem Native Trilinear Defect Domination.A Local No-Hidden Frontier Note}
+
+    The theorem is not proved here. The exact local proof exits after the direct native-defect attempt and the positive-remainder/source coherence audits are recorded.
+
+    \[
+    \mathcal T_P^+
+    :=
+    \int_{Q(P)}
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+
+    \,dxdt.
+    \]
+
+    \[
+    \boxed{
+    \sum_{P\in\mathcal F_N}\mathcal T_P^+
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1),
+    }
+    \]
+
+    This includes the named coherence/depletion languages Eigen Decorrel.A, Signed Positive Balance.A, Local Pressure Strain Deplete.A, Active Vorticity Coherence.A, and Anti Beltrami Carleson.A. The installed route has audited those languages and does not currently prove any of them.
+
+    Equivalently, prove Active Window Carleson Small.A or the localized Scale Critical Tree Carleson.A reserve on the same terminal active windows. The installed route has audited raw energy, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, downstream source suppliers, and same-fluid transport; none supplies this reserve.
+
+    The installed compactness material extracts a candidate ancient/source-residue limit only after localization. It does not produce the explicit rigid class B, nor a class-specific Liouville theorem, from the current original data route.
+
+    Thus that older branch cannot be imported as terminal active strain decorrelation for the native positive trilinear/source carrier.
+
+    All softer labels already audited in the route are consumers or presentations of these three exits. None is currently installed by original smooth data, finite energy, local energy, pressure Poisson recovery, dyadic skew symmetry, finite-band orthogonality, same-fluid transport, terminal coherence suppliers, or downstream frozen-family source integrability.
+
+
+
+    \subsection{Clay problem Native Trilinear Face Logic And Alias Audit Note}
+
+    \[
+    \mathcal T_P^+
+    :=
+    \int_{Q(P)}
+    \left[
+    \langle S_{<j_P}^{loc}w_{j_P},w_{j_P}\rangle
+    \right]_+
+    \,dxdt.
+    \]
+
+    \[
+    \left[
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \right]_+
+    =
+    |w_j|^2
+    \left[
+    e_j\cdot S_{<j}^{loc}e_j
+    \right]_+.
+    \]
+
+    The split has one narrow reading. The three faces are not three independent already-usable discharges; they are three native locations where a new theorem could enter the same positive product.
+
+    \[
+    \boxed{
+    \sum_{P\in\mathcal F_N}\mathcal T_P^+
+    \le
+    C\rho_{inst,N}(\mathcal F_N)+o_N(1).
+    }
+    \]
+
+    \[
+    \begin{aligned}
+    &\text{coefficient control for }
+    [e_j\cdot S_{<j}^{loc}e_j]_+
+    \\
+    &\quad+
+    \text{active square amplitude charge for }|w_j|^2
+    \\
+    &\Longrightarrow
+    \text{source domination.}
+    \end{aligned}
+    \]
+
+    Likewise, a bare directional statement that does not include the |w j| 2 weight and the selected terminal packet measure is not enough. It becomes a proof only after it is lifted to (Face.2) or combined with factor bounds that make the product integrable.
+
+    \[
+    \sum_P\int_{Q(P)}|w_{j_P}|^2
+    \]
+
+    does not by itself control T P + unless the positive strain coefficient is also chargeable. The only useful amplitude theorem is the source-weighted reserve Positive Active Carleson Reserve.A. The existing audit shows that energy, local energy, Cauchy/Young envelopes, finite banding, pressure/cutoff records, and downstream source suppliers do not install that reserve on the branch-native terminal packets.
+
+    A qualitative statement that active directions "usually" decorrelate from expanding eigendirections does not control T P +. The theorem must survive positive-part extraction, terminal packet selection, weights, cutoffs, and same-fluid localization. That is exactly Positive Strain Decorrelation.A.
+
+    The existing audit shows that incompressibility, signed full-space skew symmetry, pressure Poisson recovery, vorticity-direction/helical heuristics, finite-band orthogonality, and same-fluid transport do not install this source-weighted decorrelation.
+
+    where the latter two are source-weighted aliases of the amplitude and alignment faces. None is installed.
+
+    Thus the route remains blocked at the same singular native positive trilinear defect, but the face logic is now clean: no bare amplitude or bare alignment claim may be counted as a proof unless it is lifted to the source-weighted native packet estimate.
+
+
+
+    \subsection{Clay problem Native Trilinear Rigidify Exit Closure Note}
+
+    The rigidify package is not proved here. The deterministic supplier loop around it is closed, and the supplied, conditional, and open parts are recorded explicitly.
+
+    The localization audits show that the installed global mixed-shell badness does not itself produce a physical same-fluid source-residue cylinder.
+
+    \[
+    D_j(t)D_\ell(t)
+    =
+    \iint d_j(x,t)d_\ell(y,t)\,dx\,dy.
+    \]
+
+    \[
+    \iint_{|x-y|\le C_{\mathrm{sf},41082} 2^{-j}}
+    d_j(x,t)d_\ell(y,t)\,dx\,dy.
+    \]
+
+    Frequency near-diagonal lemmas do not imply this spatial co-location. The direct diagonal tether and diagonal domination attempts show that global all-pairs mass can be diffuse or off-diagonal after absolute-value estimates.
+
+    \[
+    (u_\ast,p_\ast,\mu_\ast^{src}),
+    \qquad
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    None is produced by the installed Zeno ancestry inputs. Local suitable compactness gives local energy and pressure bounds, not a global ancient energy class, Type I envelope, critical smallness, symmetry, bounded vorticity, or source-cancellation class.
+
+    \[
+    \mu_\ast^{src}=0
+    \]
+
+    \[
+    \mu_\ast^{src}(Q_1^-)\ge c_0>0.
+    \]
+
+    Together with the already closed decorrelation and charge supplier loops, the native trilinear three-exit loop is now fully executed: none of the three exits is an installed discharge from the current allowed inputs.
+
+
+
+    \subsection{Clay problem Native Trilinear Three-Exit Execution Note}
+
+    Execution note for the current native-trilinear supplier loop on the contrapositive Field face.
+
+    The native-trilinear split below should so be read as the current field-face supplier loop, not as a replacement for the CM-contrapositive root.
+
+    where sing is the singular native positive active source component from the terminal same-fluid active windows.
+
+    \[
+    \sum_{P\in\mathcal F_N}
+    \int_{Q(P)}
+    \left[
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \right]_+
+    \,dxdt
+    \le
+    o_N(1)+\operatorname{Loss}_{legal}(\mathcal F_N).
+    \]
+
+    so this exit remains open and is not a hidden consequence of the installed route.
+
+    The audit rules out raw energy, local energy, Cauchy/Young envelopes, finite-band orthogonality, pressure/cutoff records, same-fluid transport, and downstream frozen-family source integrability as suppliers.
+
+    \[
+    \boxed{
+    ZenoBoundedClass_{\mathcal B}.A
+    +
+    ZenoResidueLiouville_{\mathcal B}.A
+    }
+    \]
+
+    for an explicit class B whose Liouville theorem vanishes the same positive native source-residue measure extracted by the branch.
+
+    For the route-governing class-membership program, this supplier is no longer a blocking root because Source PulseCMExit.A is discharged by
+
+    Any such supplier upgrade must install a genuinely new native positive source theorem, such as positive-part strain depletion, active-window Carleson reserve, pre-Cauchy local source no-pulse, or an explicit rigid Zeno ancient class with source-residue Liouville. Those are proof languages for the same source-pulse atom, not independent route-governing bookkeeping exits.
+
+
+
+    \subsection{Clay problem Native SourceAC.A Direct Attempt Note}
+
+    This would eliminate the singular native positive active source measure and close Source Pulse Exclusion.A. The theorem is not installed by the current route inputs.
+
+    The desired domination must hold for the same terminal active packet family, after the same weights, cutoffs, same-fluid localization, and positive-part selection.
+
+    \[
+    \int\sum_{j>N}\gamma_j(t)\,dt=o_N(1).
+    \]
+
+    The unweighted dyadic nonlinearity has exchange cancellations. After one-sided weights, cutoffs, lifted packet reductions, and positive-part extraction, the native carrier is no longer the signed exchange form. The principal term is sign-indefinite and can align with expanding strain directions.
+
+    Compensated compactness or div-curl cancellation would need an exact theorem showing the positive trilinear defect is controlled by a quadratic defect measure already in inst,N . No such theorem is installed. Without it, the positive part may carry a singular defect measure even when the signed distribution cancels.
+
+    Thus signed exchange and current compensated-cancellation inputs do not prove Native SourceAC.A.
+
+    \[
+    \rho_{press/cut}<\infty.
+    \]
+
+    They do not dominate the interior active strain/source production after positive-part selection. A pressure-strain depletion theorem would prove a piece of Native SourceAC.A, but that theorem is exactly one of the already audited source-pulse presentations and is not installed.
+
+    \[
+    \mu_{src,N}^+
+    \le
+    C\,\mu_{LE,N}
+    +o_N(1)
+    \]
+
+    The first statement is a positive source-defect domination theorem; it is not present in the local energy inequality. The second is the rigidify route, and the existing audits leave source-residue localization plus ancient/ancestral Liouville open.
+
+    \[
+    \mu_{src,N}^+\le C\rho_{inst,N}.
+    \]
+
+    Transport can preserve a singular source measure just as well as an absolutely continuous one. Thus it is a license layer, not a source of Native SourceAC.A.
+
+    \[
+    \boxed{
+    \mu_{\ast}^{sing}=0
+    }
+    \]
+
+    Native SourceAC.A is not installed by current energy, scheduler, signed exchange, pressure/cutoff, local-energy compactness, or same-fluid transport inputs. It is a precise theorem-facing restatement of the remaining Source Pulse Exclusion.A atom, not a discharged supplier.
+
+
+
+    \subsection{Clay problem Near BandBVTo Burst OrSource.A Direct Attempt}
+
+    Purpose: continue the direct attack under Low StrainBVCharge.A and decide whether the near-band BV wall is a new theorem or only another presentation of the native source wall.
+
+    \[
+    S^{near}_{j,L}:=\sum_{j-L<m<j}S_m^{loc},
+    \]
+
+    \[
+    \sigma_P^{near}(t)
+    :=
+    n_P(t)\cdot S^{near}_{j_P,L}(X_P(t),t)n_P(t).
+    \]
+
+    \[
+    \tau_P\mathrm{Var}_{I_P}(\sigma_P^{near})
+    \le C_{\mathrm{sf},41207}
+    V_P^{heat}
+    +V_P^{src}
+    +V_P^{frame},
+    \]
+
+    \[
+    V_P^{heat}
+    :=
+    \tau_P\int_{I_P}\|\nu\Delta S^{near}_{j_P,L}\|_\infty\,dt,
+    \]
+
+    \[
+    V_P^{src}
+    :=
+    \tau_P\int_{I_P}
+    \|\mathcal N^{near}_{j_P,L}
+    +\mathcal P^{near}_{j_P,L}
+    +\mathcal C^{near}_{j_P,L}\|_\infty\,dt,
+    \]
+
+    In the height-flux application this term is absorbable by choosing theta small before the terminal limit, because it is proportional to the same active packet height being tested and carries no positive source sign.
+
+    Near BandBVTo Burst OrSource.A is partially discharged. The near-band heat part is not a live obstruction; it is either subparabolic and absorbable, or it is a parabolic-rate burst that forces lower/neighbor donor height.
+
+    This is the smallest current source-wall face in the height-flux route: a retained high packet must either pay for near-band pressure/material-source variation, or pay for rotating into the expanding near-band strain frame.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Defect Domination.A Direct Attempt
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42343
+  line_start: 42343
+  line_end: 42396
+  start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Direct
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Next
+    Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Defect Domination.A Direct Attempt Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42343
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Defect Domination.A Next Direct
+    Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42397
+  line_start: 42397
+  line_end: 42454
+  start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Next
+    Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Local
+    No-Hidden Frontier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Defect Domination.A Next Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42397
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Defect Domination.A Local No-Hidden
+    Frontier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42455
+  line_start: 42455
+  line_end: 42487
+  start_anchor: "\\subsection{Clay problem Native Trilinear Defect Domination.A Local
+    No-Hidden Frontier Note}\n"
+  end_anchor: "\\subsection{Clay problem Native Trilinear Face Logic And Alias Audit
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Defect Domination.A Local No-Hidden Frontier Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42455
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Face Logic And Alias Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42488
+  line_start: 42488
+  line_end: 42550
+  start_anchor: "\\subsection{Clay problem Native Trilinear Face Logic And Alias Audit
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Native Trilinear Rigidify Exit Closure Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Face Logic And Alias Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42488
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Rigidify Exit Closure Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42551
+  line_start: 42551
+  line_end: 42588
+  start_anchor: "\\subsection{Clay problem Native Trilinear Rigidify Exit Closure
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Native Trilinear Three-Exit Execution Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Rigidify Exit Closure Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42551
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native Trilinear Three-Exit Execution Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42589
+  line_start: 42589
+  line_end: 42626
+  start_anchor: "\\subsection{Clay problem Native Trilinear Three-Exit Execution Note}\n"
+  end_anchor: "\\subsection{Clay problem Native SourceAC.A Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native Trilinear
+    Three-Exit Execution Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42589
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Native SourceAC.A Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42627
+  line_start: 42627
+  line_end: 42672
+  start_anchor: "\\subsection{Clay problem Native SourceAC.A Direct Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Near BandBVTo Burst OrSource.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Native SourceAC.A
+    Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42627
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Near BandBVTo Burst OrSource.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42673
+  line_start: 42673
+  line_end: 42716
+  start_anchor: "\\subsection{Clay problem Near BandBVTo Burst OrSource.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A After
+    ASAC Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Near BandBVTo Burst
+    OrSource.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42673
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-29
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-29.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

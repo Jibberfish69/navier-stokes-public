@@ -269,7 +269,7 @@ which may diverge as `r_m\downarrow0`.  The extraction is local, not global.
 
 Type I control is not produced.  The source-pulse branch supplies a positive
 normalized source-residue lower bound, not a pointwise envelope such as
-`|u_\ast(y,s)|\lesssim |s|^{-1/2}`.
+`|u_\ast(y,s)|\le C_I |s|^{-1/2}`.
 
 Critical smallness is not produced.  CKN/Serrin-style smallness is a consumer
 of a bound, not a consequence of a selected nonzero source-residue pulse.

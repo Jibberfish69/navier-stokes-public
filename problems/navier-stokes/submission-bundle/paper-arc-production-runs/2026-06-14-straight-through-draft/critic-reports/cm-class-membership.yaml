@@ -1,0 +1,90 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T15:04:29Z'
+arc_id: cm-class-membership
+title: CM class membership
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 5
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+source_freshness:
+  algorithm: sha256
+  section_count: 5
+  checked_at: '2026-06-14T15:04:29Z'
+issues: []
+source_sections:
+- spine_id: the-cm-contrapositive-route
+  section_title: The CM Contrapositive Route
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:500
+  line_start: 500
+  line_end: 526
+  source_sha256: 1641243b9da4779c5429953361a512f5d373835bd7092d7cd799564f812b39a4
+  source_byte_count: 2604
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: what-class-membership-means-here
+  section_title: What Class Membership Means Here
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:527
+  line_start: 527
+  line_end: 611
+  source_sha256: 9807e5eb539a859bd53c04c91e025ce5c6ab36ba46248ff85d6d690642262b64
+  source_byte_count: 5963
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: same-law-participation-and-one-field-coherence
+  section_title: Same-Law Participation and One-Field Coherence
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:612
+  line_start: 612
+  line_end: 655
+  source_sha256: 46860f0cee7e3ff65cc091b413ea5ad4c049a3abf404f2b94865b3da56ef5552
+  source_byte_count: 2398
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: the-class-membership-exit-method
+  section_title: The Class-Membership Exit Method
+  source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
+  line_start: 1
+  line_end: 148
+  source_sha256: 2508dc8a0f7e4d3353bc822b065afbf2f4bb290a6ccf018e7e4e936e78c03542
+  source_byte_count: 9100
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: how-branch-inventories-reduce-to-cm-obligations
+  section_title: How Branch Inventories Reduce to CM Obligations
+  source_path: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex
+  source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
+  line_start: 6
+  line_end: 84
+  source_sha256: ac3ba10e0fa9089db709c2b3877fd5e61e6fd67b0f86835e0e9a8c2fb7c88b66
+  source_byte_count: 6306
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: cm-class-membership
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

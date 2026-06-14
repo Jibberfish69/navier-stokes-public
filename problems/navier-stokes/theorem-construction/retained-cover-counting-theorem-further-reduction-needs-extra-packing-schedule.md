@@ -28,7 +28,7 @@ The only nearby further reduction on disk is a stronger sufficient realization
 on the adiabatic branch:
 
 1. windowwise envelopes `(F.11h1)`-`(F.11h2)`;
-2. a packing bound `\mu_J^{pair}(\mathcal J_k)\lesssim r_k^5`;
+2. a packing bound `\mu_J^{pair}(\mathcal J_k)\le C_{\mathrm{pack}} r_k^5`;
 3. heuristic scale envelopes `(F.11h6)` and the split schedules `(F.11h4)`-
    `(F.11h5)`, equivalently `(EP.7e)`-`(EP.7f)`.
 

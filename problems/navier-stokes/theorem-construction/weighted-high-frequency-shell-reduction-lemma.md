@@ -10,7 +10,7 @@ The exact local question is whether the transport-form strict low estimate
 
 ```math
 \sum_{j\ge N}\bigl(|LH_j^{strict}|+|HL_j^{strict}|\bigr)
-\lesssim
+\le C_{strict}
 \mathcal L_N(t)\sum_{j\ge N}\sqrt{E_j(t)D_j(t)}
 ```
 
@@ -189,7 +189,7 @@ D_N`. The current fixed-cutoff admissibility of `\mathcal L_N` does not give
 that. On the contrary, the live fixed-cutoff bound grows like
 
 ```math
-\mathcal L_N(t)\lesssim 1 + C_0\,2^{3N/2}M,
+\mathcal L_N(t)\le C_L\bigl(1 + C_0\,2^{3N/2}M\bigr),
 ```
 
 so the coefficient in front of `D_N` is not uniformly small.

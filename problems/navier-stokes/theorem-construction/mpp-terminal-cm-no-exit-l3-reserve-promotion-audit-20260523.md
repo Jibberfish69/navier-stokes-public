@@ -81,11 +81,11 @@ The reserve target has different input data. It asks for a first-creation law:
 \le Charge_N(W)+o_N(1),
 ```
 
-where schematically
+where
 
 ```math
 \mathcal R_N(W)
-\sim
+:=
 \int_W\sum_{k>N}2^k
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt .
 ```
@@ -110,7 +110,7 @@ with `A_m=2^{-2m}` and `h_m=2^{-3m}`. Then
 \int_{I_m}D_{m+5}(t)dt=A_m\to0,
 \qquad
 \int_{I_m}2^mD_{m+5}(t)^2dt
-=2^mA_m^2h_m^{-1}\simeq1.
+=2^mA_m^2h_m^{-1}=1.
 ```
 
 Thus first-moment charge can vanish while the scale-critical square reserve

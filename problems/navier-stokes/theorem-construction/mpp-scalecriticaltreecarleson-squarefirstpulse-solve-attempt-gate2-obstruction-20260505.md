@@ -123,7 +123,7 @@ The parabolic cubic normal-form route exposes the same issue.  It creates the ac
 
 ```math
 |R_{4,N}|
-\lesssim
+\le C_{R4}
 \mathfrak S_N(t)
 \mathcal A_N(t)+Loss_{legal},
 \qquad

@@ -37,14 +37,19 @@ With
 E_m(t)=2^{2m}\|\Delta_m u(t)\|_{L_x^2}^2
 ```
 
-and `m\sim j\sim N`, the coefficient is
+and fixed collar restrictions `|m-j|\le C_0` and `|j-N|\le C_0`, the coefficient is
 
 ```math
 2^{-j}E_m(t)
-\sim
-2^N\|\Delta_m u(t)\|_{L_x^2}^2.
+=
+2^{2m-j}\|\Delta_m u(t)\|_{L_x^2}^2.
 \tag{A}
 ```
+
+Hence
+`c_{C_0}2^N\|\Delta_m u(t)\|_{L_x^2}^2
+\le 2^{-j}E_m(t)
+\le C_{C_0}2^N\|\Delta_m u(t)\|_{L_x^2}^2`.
 
 So `RetainedFiniteBandAmplitudeSmallness.A` asks for a retained terminal
 `H^{1/2}`-scale collar amplitude gain, not merely for energy boundedness.
@@ -61,7 +66,7 @@ The energy inequality gives control of
 
 It does not force the weighted single-collar quantity in `(A)` to be small on
 a retained terminal interval. A high shell can have
-`\|\Delta_m u\|_2^2\sim c2^{-N}` while the total `L^2` contribution is tiny and
+`\|\Delta_m u\|_2^2:=c2^{-N}` while the total `L^2` contribution is tiny and
 the coefficient `2^N\|\Delta_m u\|_2^2` stays order one.
 
 This blocks a theorem derived from raw energy alone.
@@ -143,7 +148,8 @@ TerminalNuNWindowSeedSynchronization.A.
 
 `NS-LIVE-20260609-188`: `RetainedFiniteBandAmplitudeSmallness.A` is not
 proved. The needed coefficient smallness is the finite-collar `H^{1/2}` scale
-quantity `2^{-j}E_m\sim2^N\|\Delta_m u\|_2^2`; raw energy, retained Pack,
+quantity `2^{-j}E_m=2^{2m-j}\|\Delta_m u\|_2^2`, with fixed-collar comparison
+to `2^N\|\Delta_m u\|_2^2`; raw energy, retained Pack,
 CKN/source finiteness, and the coefficient-bearing shell-pair packet do not
 force it small on the retained terminal interval. The next pass must prove
 `TerminalFiniteCollarSeedToIntervalControl.A`, an independent retained collar

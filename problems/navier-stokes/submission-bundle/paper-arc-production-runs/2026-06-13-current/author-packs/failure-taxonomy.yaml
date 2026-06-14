@@ -1,0 +1,165 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: failure-taxonomy
+batch_id: failure-taxonomy-author-pack-20260613T221418Z
+ready_to_apply: true
+source_rewrites:
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Exhaustive Failure List
+  new_section_title: Endpoint Failure Map
+  spine_id: exhaustive-failure-list
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:325
+  author_replacement_required: false
+  replacement: |
+    \section{Endpoint Failure Map}
+
+    The forward work produces many named surfaces, but the terminal proof does not ask the reader to carry all of those names.  At the point where a finite-time breakdown is alleged, the paper asks a smaller question.  What object is being offered as the terminal record for the original Navier--Stokes branch, what has already been paid for that object, and which first requirement can fail?
+
+    This section is the map from the forward attempts into that terminal question.  Each entry below has the same form.  The first sentence names what the direct route tried to prove.  The second sentence names the survivor left behind when the route does not close.  The last sentence says how that survivor can enter the Pack/Part/Field test.  A branch that has not selected a same-solution terminal object remains support; it is not yet a CM proof step.
+
+    \begin{enumerate}[leftmargin=2em]
+    \item \textbf{Energy and enstrophy.}
+    The energy identity controls \(\|u(t)\|_{L^2}\) and the time integral of \(\|\nabla u(t)\|_{L^2}^2\).  The enstrophy identity exposes the source
+    \[
+      \int (u\cdot\nabla)u\cdot\Delta u\,dx.
+    \]
+    The survivor is derivative growth that energy alone does not see.  If the same branch still carries the derivative tower, the pressure is Part or Field; if the tower has no positive same-fluid carrier, the failure is Pack before any tower question begins.
+
+    \item \textbf{Global energy--enstrophy budget.}
+    The quantity
+    \[
+      Q(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2
+    \]
+    is useful as a visible budget, but it is too coarse to stop all transfer to small scales.  The survivor is a concentration or source reserve hidden below the scale read by \(Q(t)\).  It becomes CM material only when the paper names the terminal record carrying that reserve.
+
+    \item \textbf{Scale barrier and dyadic tail.}
+    The direct route tries to make high-frequency transfer summable.  The survivor is a lower-prefix memory, high-high packet, or upper-tail leakage that keeps moving activity into dangerous shells.  If the selected survivor has no coherent positive-scale field after Pack and Part survive, the first unpaid face is Field.
+
+    \item \textbf{Cascade ancestry.}
+    Some branches try to identify the parent of a dangerous packet: donor window, previous shell, pressure channel, or source history.  The survivor is an ancestry claim.  Missing donor body is Pack pressure; a retained donor whose ancestry is no longer governed by the same pressure-viscosity-incompressibility law is Part pressure.
+
+    \item \textbf{Pressure-source and Zeno residue.}
+    The longest positive branch follows pressure sustain, source residue, no-incoming-source drain, time-face anti-atom, angular saturation, and Zeno ancestry.  The survivor is a terminal reserve whose payment is pushed to a smaller time face or a previous source parent.  After the annular witness has been admitted, this is not a Pack shortcut.  The surrounding positive-radius fields have paid carrier for that annular test, so the remaining failure must be Part or Field.
+
+    \item \textbf{Compactness and tensor closure.}
+    The direct route needs a classical approximation family whose nonlinear tensors converge strongly enough that \(u^{(n)}\otimes u^{(n)}\) becomes \(u\otimes u\).  The survivor is a weak limit or terminal trace that keeps information without giving one classical field.  This is Field pressure when the pieces cannot assemble into one positive-scale velocity field.
+
+    \item \textbf{Gradient transfer and coercivity.}
+    The route tries to absorb high-frequency production into viscosity plus a summable tail.  The survivor is a spill collar, lifted high-side remainder, or high-high gradient packet.  The first face depends on what survives: no carrier gives Pack, broken pressure-viscosity action gives Part, and retained but non-coherent readings give Field.
+
+    \item \textbf{Comparison, export, and wrong-object support.}
+    A nearby equation, filtered model, geometric estimate, or comparison branch can explain a mechanism without proving the Clay claim.  The survivor is a useful object that may no longer be the fixed-viscosity Navier--Stokes branch.  It supports the paper only after it is reattached to the original solution, or else it is recorded as a scope boundary.
+    \end{enumerate}
+
+    The map is exhaustive for the manuscript in the following narrow sense: every branch used later must enter through one of these terminal roles.  It either supplies a continuation readout, selects a same-solution terminal object, proves a Pack failure, proves a Part failure, proves a Field failure, or remains support.
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Generally Classifying Failure Types From the List
+  new_section_title: Compressing The Map To Pack, Part, And Field
+  spine_id: generally-classifying-failure-types-from-the-list
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:427
+  author_replacement_required: false
+  replacement: |
+    \section{Compressing The Map To Pack, Part, And Field}
+
+    The reader can now forget most branch names.  The classification proof uses the branch map only through three tests on the selected terminal record \(Q\).  First, does \(Q\) still have a positive same-fluid carrier?  Second, does the same Navier--Stokes pressure-viscosity-incompressibility law still act on that carrier through the tower being tested?  Third, after the first two answers survive, do the retained readings form one velocity field on a positive scale?
+
+    These tests are written as
+    \[
+      \Pack_Q,\qquad
+      \Part_{N,Q},\qquad
+      \Field_{N,r,Q}.
+    \]
+    They are ordered because the proof is looking for the first lost requirement.  A missing body is not a broken field; the field question has not yet begun.  A retained body with broken same-law participation is not merely a large derivative; the selected object has lost the equation that would make the derivative tower a Navier--Stokes tower.  A retained body with retained participation can still fail to be a member-side record if no positive scale carries one coherent field.
+
+    Thus the terminal alternatives have the form
+    \[
+      \neg\Pack_Q,
+      \qquad
+      \Pack_Q\wedge\neg\Part_{N,Q},
+      \qquad
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    This is not a naming convention.  It is the proof discipline for the rest of the paper.  A branch may describe a pulse, reserve, jump, weak limit, shear sheet, or Zeno source.  Before it can prove class exit, the paper must say which same-solution terminal record is under test and which one of the three displayed alternatives is the first failure.
+
+    The annular endpoint shows why the order matters.  The point \(r=0\) can look like no carrier, but the alleged singularity is witnessed by positive-radius fields shrinking toward that point.  Once those annular fields are selected as the terminal record, carrier has been paid for that test.  The remaining nonsmooth annular exit is then Part or Field.  Pack remains available only for no-carrier or pre-admission failure.
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Packet Failure Types
+  new_section_title: "Pack Failure: Losing The Carrier"
+  spine_id: packet-failure-types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:588
+  author_replacement_required: false
+  replacement: |
+    \section{Pack Failure: Losing The Carrier}
+
+    Pack is the carrier test.  It asks whether the terminal record \(Q\) still contains a positive same-fluid packet on which the rest of the proof can act.  The proof has not yet asked whether the packet solves the same equation, and it has not yet asked whether nearby readings form one field.  It asks only whether there is a positive carrier for the selected terminal object.
+
+    The typical Pack failures are:
+    \[
+    \begin{array}{l}
+    \text{no positive terminal carrier scale,}\\
+    \text{a source atom with no transported body,}\\
+    \text{a donor history detached from the same flow,}\\
+    \text{a Zeno ancestry with no positive terminal packet,}\\
+    \text{or degeneration of the material atlas needed for readout.}
+    \end{array}
+    \]
+    In these cases the terminal story points at information without a same-fluid body carrying it.  A number, trace, source label, or endpoint location is not yet a terminal Navier--Stokes object.
+
+    The annular case is the main exception to a lazy Pack reading.  A radius-zero point is too small to carry the Clay breakdown by itself.  The surrounding fields on shrinking positive-radius annuli are the actual witness.  If the paper has not admitted those fields as the same-solution terminal record, the proof is still at the selection boundary.  If it has admitted them, Pack has already survived for that annular test.  The remaining question is whether the admitted annular record keeps same-law participation and positive-scale field coherence.
+- op: replace_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Velocity Failure Types
+  new_section_title: Part And Field Failure Mechanisms
+  spine_id: velocity-failure-types
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:602
+  author_replacement_required: false
+  replacement: |
+    \section{Part And Field Failure Mechanisms}
+
+    The old words dead, jump, and blown are useful only after the first failed face has been located.  They are mechanism descriptions, not extra terminal classes.  The proof first fixes the selected record \(Q\), checks Pack, checks Part, and then checks Field.  Only after that order is clear may the mechanism be named.
+
+    \subsection{Dead}
+
+    Dead is the clean Part mechanism.  A carrier is still being named, but the same pressure-viscosity-incompressibility law no longer acts on it through the tower being tested.  The word does not mean zero velocity.  It means loss of same-object dynamics.  In symbols, the first face is
+    \[
+      \Pack_Q\wedge\neg\Part_{N,Q}.
+    \]
+    Once Part fails, neighboring field readings usually fail as a consequence, but the proof records Part as the first lost requirement.
+
+    \subsection{Jump}
+
+    Jump is the clean Field mechanism.  The carrier survives and the local law remains readable far enough to compare neighboring readings, but those readings do not assemble into one velocity field on any positive scale allowed by the record.  The first face is
+    \[
+      \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+    \]
+    A jump is not an infinite value.  It is a coherence failure: finite local readings cannot be the readings of one smooth field.
+
+    \subsection{Blown}
+
+    Blown is the unbounded-tower mechanism.  A positive carrier remains visible, and a derivative, pressure term, viscous term, or continuation readout becomes unbounded at the finite depth under test.  This mechanism does not decide the face by itself.  If the unbounded reading destroys the carrier, the first face is Pack.  If the carrier survives while the pressure-viscosity tower is no longer the same Navier--Stokes tower, the first face is Part.  If Pack and Part survive but no positive-scale coherent field can include the unbounded reading, the first face is Field.
+
+    This is the point of the taxonomy.  Large quantities, terminal pulses, weak limits, and endpoint traces do not prove exit merely by sounding singular.  They prove exit only after the paper identifies the selected same-solution record and derives the first Pack, Part, or Field face failure on that record.
+author_contract:
+  arc_id: failure-taxonomy
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_not_write:
+  - current-state paper boilerplate
+  - worker/runner/source-spine/bookkeeping voice
+  - placeholder prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - failure
+  - "(Pack|Part|Field)"
+  - "(endpoint|obstruction)"
+  integration_path: verify_author_pack -> integrate_author_pack -> ns_source_spine_batch

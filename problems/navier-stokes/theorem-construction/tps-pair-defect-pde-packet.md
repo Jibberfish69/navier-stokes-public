@@ -174,7 +174,7 @@ Consequently, for any admissible `p`,
 
 ```math
 \|w_J(t)\|_{L^p}
-\lesssim
+\le C_{p}
 \int_0^t \|r_J(s)\|_{L^\infty}\,\|\nabla\rho_J(s)\|_{L^p}\,ds,
 \tag{PD.16}
 ```
@@ -185,7 +185,7 @@ and in particular
 \|w_J(t)\|_{L^2}^2
 +
 2\nu\int_0^t\|\nabla w_J(s)\|_{L^2}^2\,ds
-\lesssim
+\le C_{PD}
 \int_0^t \|r_J(s)\|_{L^\infty}^2\,\|\nabla\rho_J(s)\|_{L^2}^2\,ds.
 \tag{PD.17}
 ```
@@ -499,12 +499,12 @@ C_\eta\,\ell_J^{-4}
 ```
 
 uniformly in `a`, because the initial packet profile satisfies
-`\|\eta_J\|_{C^1_x}\lesssim \ell_J^{-4}`. Integrating against the nonnegative
+`\|\eta_J\|_{C^1_x}\le C_\eta \ell_J^{-4}`. Integrating against the nonnegative
 selector weights gives `(PD.37)`.
 
 For the pair kernels, each factor `\psi_{J,a}` or `\phi_{J,a}` has
-`\|\cdot\|_{L^\infty_x}\lesssim C_\eta \ell_J^{-3}` and
-`\|\nabla\cdot\|_{L^\infty_x}\lesssim C_\eta \ell_J^{-4}
+`\|\cdot\|_{L^\infty_x}\le C_\eta \ell_J^{-3}` and
+`\|\nabla\cdot\|_{L^\infty_x}\le C_\eta \ell_J^{-4}
 \exp(C\,L_J^{pkt}(t))`. Applying Leibniz to the products
 `\psi_{J,a}(x,t)\psi_{J,b}(y,t)` and
 `\phi_{J,a}(x,t)\phi_{J,b}(y,t)` yields the `\ell_J^{-7}` scale in `(PD.38)`,
@@ -558,7 +558,8 @@ such that the seminorm `\mathcal X_J` satisfies the parabolic smoothing bound
 
 ```math
 \big\|U_J^{(2)}(t,s)\nabla_{x,y}\cdot F\big\|_{\mathcal X_J}
-\lesssim
+\le
+C_{\mathcal X}
 \ell_J^{-1}(t-s)^{-1/2}\|F\|_{\mathcal S_J},
 \tag{PD.44}
 ```
@@ -567,7 +568,8 @@ and the source product estimate
 
 ```math
 \big\|\big(r_J(x,s)K_J(s),r_J(y,s)K_J(s)\big)\big\|_{\mathcal S_J}
-\lesssim
+\le
+C_{\mathcal S}
 \|u_{>J}(s)\|_{L^\infty_x}\,
 \|K_J(s)\|_{C^1_{x,y}},
 \tag{PD.44a}
@@ -577,7 +579,7 @@ then
 
 ```math
 \Delta_J
-\lesssim
+\le
 C_{\mathrm{bridge}}\,
 \ell_J^{-1}
 \sup_{0\le t\le T_J}
@@ -592,7 +594,7 @@ Combining `(PD.45)` with `(PD.40)` gives the explicit sufficient bound
 
 ```math
 \Delta_J
-\lesssim
+\le
 C_{\mathrm{bridge}}\,
 \mathcal C_J^{pkt}\,\ell_J^{-1}
 \exp\!\big(C\,L_J^{pkt}(T_J)\big)
@@ -619,7 +621,8 @@ gives
 
 ```math
 \mathfrak D_J
-\lesssim
+\le
+C_D
 \ell_J^{-1}
 \sup_{0\le t\le T_J}
 \int_0^t (t-s)^{-1/2}
@@ -675,7 +678,7 @@ Then
 
 ```math
 \Delta_J
-\lesssim
+\le
 C_{\mathrm{bridge}}\,
 \ell_J^{-1}
 \sup_{0\le t\le T_J}
@@ -693,7 +696,8 @@ to obtain
 
 ```math
 \|\nabla_{x,y}W_J(t)\|_{L^1(D_{J,\eta})}
-\lesssim
+\le
+C_D'
 \int_0^t
 (t-s)^{-1/2}
 \big\|
@@ -703,13 +707,14 @@ to obtain
 ```
 
 Since `r_J=u_{>J}` depends on one slot only and `D_{J,\eta}` has packet-scale
-width `O(\ell_J)`, the local product bound
+width at most `C_D\ell_J`, the local product bound
 
 ```math
 \big\|
 \big(r_J(x,s)K_J(s),r_J(y,s)K_J(s)\big)
 \big\|_{L^1(D_{J,\eta})}
-\lesssim
+\le
+C_{prod}
 \|u_{>J}(s)\|_{L^\infty_x}\,
 \|K_J(s)\|_{L^1(D_{J,\eta})}
 ```
@@ -841,7 +846,8 @@ The pair-defect energy identity closes as
 ```math
 \|W_J(t)\|_{L^2_{x,y}}^2
 +\nu\int_0^t\|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
-\lesssim
+\le
+C_E
 \int_0^t
 \|r_J(s)\|_{L^\infty_x}^2
 \|K_J(s)\|_{L^2_{x,y}}^2\,ds.
@@ -867,7 +873,8 @@ energy obeys
 \sup_{t\in I}\|W_J(t)\|_{L^2_{x,y}}^2
 +
 \nu\int_I\|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
-\lesssim
+\le
+C_I
 \|W_J(t_0)\|_{L^2_{x,y}}^2
 +
 \int_I
@@ -948,7 +955,8 @@ Then `(PD.34)` and `(PD.50)` imply
 
 ```math
 \|W_J(t)\|_{L^2_{x,y}}
-\lesssim
+\le
+C_W
 \int_0^t
 (t-s)^{-1/2}\,
 \exp\!\Big(C\int_s^t\|\nabla v_J(\tau)\|_{L^\infty_x}\,d\tau\Big)
@@ -996,7 +1004,8 @@ and every `\rho>0`,
 
 ```math
 \|W_J(t)\|_{L^2((E\times\mathbb R^3)\cap D_\rho)}
-\lesssim
+\le
+C_\rho
 |E|^{1/2}\rho^{3/2}
 \int_0^t
 (t-s)^{-1/2}\,
@@ -1016,7 +1025,7 @@ yield an `L^\infty_{x,y}` estimate for `W_J`. Restricting to
 `(E\times\mathbb R^3)\cap D_\rho`, one has
 `\|W_J\|_{L^2}\le |(E\times\mathbb R^3)\cap D_\rho|^{1/2}\|W_J\|_{L^\infty}`.
 Since the tube has thickness `\rho` in the relative variable, its localized
-volume is `\lesssim |E|\rho^3`, which gives `(PD.56)`. ∎
+volume is at most `C_{tube}|E|\rho^3`, which gives `(PD.56)`. ∎
 
 ### Definition TPS-normalized-diagonal-mass
 
@@ -1045,7 +1054,8 @@ So the commutator bound rewrites as
 
 ```math
 |\mathcal C_J(t)|
-\lesssim
+\le
+C_C
 \Big(
 \|\nabla v_J(t)\|_{L^\infty_x}
 +|\partial_t\log\varsigma_J(t)|
@@ -1058,7 +1068,8 @@ while the forcing term obeys
 
 ```math
 |\mathcal F_J(t)|
-\lesssim
+\le
+C_F
 \varsigma_J(t)^{-1}
 \|r_J(t)\|_{L^\infty_x}
 \iint_{|x-y|\le c\,\varsigma_J(t)}
@@ -1077,7 +1088,8 @@ then
 
 ```math
 |\mathcal F_J(t)|
-\lesssim
+\le
+C_F'
 \varsigma_J(t)^2
 \|r_J(t)\|_{L^\infty_x}
 M_J(t)\cdot \operatorname{Vol}_x(\text{active window}),
@@ -1113,7 +1125,8 @@ for some fixed `c_0>0`, then
 
 ```math
 \mathcal D_J(t)
-\gtrsim
+\ge
+c_D
 \frac{
 \varsigma_J(t)^{-1}
 \|r_J(t)\|_{L^\infty_x}
@@ -1176,7 +1189,7 @@ Apply the fundamental theorem of calculus to `v_J` along the segment
 Write the active diagonal region at the normalized shadow scale as
 
 ```math
-\mathcal D_J(t):=\{(x,y):|x-y|\lesssim \varsigma_J(t)\}.
+\mathcal D_J(t):=\{(x,y):|x-y|\le C_D\varsigma_J(t)\}.
 \tag{PD.65}
 ```
 
@@ -1186,7 +1199,8 @@ localized directional lower envelope `m_J(x,y,t)` on `\mathcal D_J(t)` such that
 ```math
 \int_{t_0}^{t_1}
 \inf_{(x,y)\in\mathcal D_J(t)}m_J(x,y,t)\,dt
-\gtrsim
+\ge
+c_m
 \log\frac{\varsigma_J(t_0)}{\varsigma_J(t_1)},
 \tag{PD.66}
 ```
@@ -1381,7 +1395,8 @@ The sharp observability-to-envelope version is:
 
 ```math
 \int_I\mathfrak d_J^-(a,b,t)\,dt
-\lesssim
+\le
+C_{obs}
 \int_I\Gamma_J^{obs}(t)\,dt
 \tag{PD.70b}
 ```
@@ -1390,7 +1405,8 @@ for each selector-good active pair, followed by
 
 ```math
 \int_I\Gamma_J^{obs}(t)\,dt
-\lesssim
+\le
+C_\Gamma
 \sup_{s\in I}\|W_J(s)\|_{L^2_{x,y}}^2
 +
 \int_I
@@ -1406,7 +1422,8 @@ pairwise closure
 
 ```math
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}(I).
 ```
 
@@ -1490,7 +1507,8 @@ and consequently
 
 ```math
 \mathfrak E_{J,2}^{SG}(I)
-\lesssim
+\le
+C_{SG}
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -1505,7 +1523,8 @@ In particular, `(PD.70)` holds with
 
 ```math
 \mathfrak F_J^{def}(I)
-\lesssim
+\le
+C_F
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -1561,7 +1580,8 @@ Then `(PD.70)` follows with the sharper budget
 
 ```math
 \mathfrak F_J^{def}(I)
-\lesssim
+\le
+C_F'
 \mathcal E_J^{spec}(I)
 +
 \mathcal E_J^{bundle}(I)
@@ -1683,7 +1703,8 @@ while the genuinely unresolved pair-defect-side input is only
 ```math
 \boxed{
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}(I),
 }
 \tag{PD.70s}
@@ -1815,7 +1836,8 @@ directional theorem
 ```math
 \boxed{
 \mathcal E_J^{dir}(I)
-\lesssim
+\le
+C_{PD}
 \mathcal E_J^{obs}(I),
 }
 \tag{PD.70z}
@@ -1905,7 +1927,7 @@ hence `(PD.70z)` holds.
 Square `(PD.70za)`, use `2(x+y)^2\le 2x^2+2y^2`, integrate over
 `I\times G_J^{pair}`, and apply `(PD.70zb)`-`(PD.70zc)`. This gives
 `(PD.70zd)`, which is exactly `(PD.70z)` after absorbing the displayed
-constant into the implicit `\lesssim`. ∎
+constant into `C_{PD}`. ∎
 
 ### Corollary TPS-Hodge-harmonic-reduction-of-PD70s
 
@@ -2208,7 +2230,7 @@ exactly the closure `(PD.70q)` required by
 On the general Hodge branch, `TPS-Hodge-core-reduction-of-PD70s` yields
 `(PD.70z15)`. Since `\mathcal L_J^{sel}(I)\ge 0`, dropping that nonnegative
 term gives
-`\mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)\lesssim \mathcal E_J^{obs}(I)+o_J(1)`.
+`\mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)\le C_{PD}\mathcal E_J^{obs}(I)+o_J(1)`.
 Again, for sufficiently large `J`, the route-local constants and vanishing
 ledger are absorbed into the normalized observability budget, yielding
 `(PD.70q)`. Applying `TPS-residual-pairwise-closure-for-PD70` then gives

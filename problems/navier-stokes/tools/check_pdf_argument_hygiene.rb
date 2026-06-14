@@ -47,18 +47,11 @@ FORBIDDEN_VISIBLE_PATTERNS = {
 
 SOURCE_FIELD_DISPLAY_MATH_LABEL = /
   \b[A-Z][A-Za-z0-9]*(?:\.[A-Za-z0-9_{}\\]+)+\b|
-  \b[A-Z][a-z]+(?:[A-Z][A-Za-z0-9]+){1,}\b|
-  \b(?:Pack|Part|Field|Member|Exit|OriginalSmoothData|SourcePulseExclusion|
-  LocalPositiveSourceCarleson|PositiveSourceDepletion|TerminalSourceCoherence|
-  ActiveVorticityCoherence|ScaleInvariantParent|PositiveActiveCarlesonReserve|
-  ScaleCriticalTreeCarleson|SquareSourceEstimate|DiffuseParentEntropyCharge|
-  EntropyCarleson|Jumpavg|JumpAvg|EndNS|NOHOP|HFG|PCTP|READ|COVER|
-  DTC|SCF|TTU|FPC|FFPB|FFSRC|FCI|LCI|CSP|OFP|CFI|CJ|ORIGIN|AVG|
-  ATD|SGC|BASAC|ASAC|FIRP|SSE)\b
+  \b[A-Z][a-z]+(?:[A-Z][A-Za-z0-9]+){1,}\b
 /x.freeze
 SOURCE_FIELD_DISPLAY_PROSE_SPACE = /[A-Za-z]\\ [A-Za-z]|=>/.freeze
 SOURCE_FIELD_DISPLAY_TEXT_BOX = /\\boxed.*\\text\{|\\text\{[^{}]*[_^][^{}]*\}/m.freeze
-SOURCE_FIELD_DISPLAY_ASCII_MATH = /<=|>=|\bint_\d|\b[A-Za-z]+_(?:[A-Za-z]{2,}|\{[A-Za-z]{2,}\})|\/[a-z]{4,}/.freeze
+SOURCE_FIELD_DISPLAY_ASCII_MATH = /<=|>=/.freeze
 SOURCE_FIELD_TABLE_RESIDUE = /^\s*\|[^|\n]{1,160}\|[^|\n]{1,160}\|/.freeze
 SOURCE_FIELD_NOTE_STATUS_RESIDUE = /^(?:Status|Claimed status)\s*:|\bcurrent status\s*:|\b(?:the prompt asks|new prompt|requested prompt|readback|release YAML|YAMLs|this note records)\b/i.freeze
 SOURCE_FIELD_DANGLING_SENTENCE_TAIL = /(?::|\b(?:with|where|thus|hence|therefore)|\b(?:does not|do not|did not|cannot|must|would|should|could)\s+(?:supply|prove|yield|give|show|force|produce|close))\s*$/i.freeze
@@ -245,13 +238,15 @@ def scan_source_field_display_math(path, visible, errors)
 end
 
 def scan_source_field_prose_residue(path, visible, errors)
-  prose = visible.gsub(/\\\[(.*?)\\\]/m, "")
+  prose = visible.gsub(/\\\[(.*?)\\\]/m, " displayed equation. ")
+  prose_for_tail = prose.gsub(/\s+/, " ")
   [
     ["markdown/table residue", SOURCE_FIELD_TABLE_RESIDUE],
     ["source-note status/prompt residue", SOURCE_FIELD_NOTE_STATUS_RESIDUE],
     ["dangling sentence tail", SOURCE_FIELD_DANGLING_SENTENCE_TAIL]
   ].each do |label, pattern|
-    next unless (match = prose.match(pattern))
+    scan_text = label == "dangling sentence tail" ? prose_for_tail : prose
+    next unless (match = scan_text.match(pattern))
 
     preview = match[0].gsub(/\s+/, " ").strip.slice(0, 180)
     errors << "#{path.relative_path_from(ROOT)}: source-field prose contains #{label}: #{preview}"

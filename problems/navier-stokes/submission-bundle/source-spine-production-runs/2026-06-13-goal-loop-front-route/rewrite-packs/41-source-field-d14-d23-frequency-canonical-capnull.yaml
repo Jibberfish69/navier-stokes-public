@@ -1,0 +1,21 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d14-d23-frequency-canonical-capnull
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-Field Reader Appendix frequency/canonical/cap-null support slice
+    spine_id: source-field-reader-appendix-d14-d23-frequency-canonical-capnull-support
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:684
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:684-1362
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Rewrote the D14-D23 source-field appendix support slice so the
+      frequency-transfer, amplitude-speed, lifted-band, defect-law,
+      canonical-center, cap-null, and capwise positivity material reads as
+      proof-support prose.  The rewritten slice separates installed reductions
+      from open supplier payments and states how each residue may enter the CM
+      route only after a same-solution terminal record is selected and tested at
+      Pack, Part, Field, or readout.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d14-d23-frequency-canonical-capnull-ledger.yaml

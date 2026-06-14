@@ -33,7 +33,7 @@ family, and let `\operatorname{Sat}(\mathcal F_N)` denote a finite same-fluid
 formal signed hull when a truncation is needed.  For each formal paired edge
 `e=(P,Q)` touching the usable terminal ledger, subtract the bare unweighted
 antisymmetric dyadic current.  The remaining live weighted/lifted defect has
-the schematic form
+the form
 
 ```math
 \Delta_e
@@ -136,7 +136,7 @@ The principal paracommutator form is
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \left\langle
 \mathcal C_j(\nabla a_k,\Delta_j u),

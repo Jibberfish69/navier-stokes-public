@@ -1,0 +1,1027 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-34
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-34
+  sequence: 186
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 34
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 21051
+  line_end: 22498
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21051
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21070
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21910
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21961
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22121
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22173
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22396
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22470
+  subsection_titles:
+  - Original Smooth Data and Active-shell Amplitude Gain
+  - Original Smooth Data and Source Pulse Exclusion
+  - Pair Weight Flattening.A Attempt
+  - Parabolic No-Free Sink.A Attempt
+  - Parent Concentration or Diffuse Charge.A Direct Obstruction
+  - Parent Concentration or Diffuse Charge.A via Inverse LP or Diffuse Source Charge
+  - 'Averaged-route Obstruction: the Jump-avg Complement'
+  - Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\) Charge
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Original Smooth Data and Active-shell Amplitude Gain
+    line_start: 21051
+    line_end: 21069
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21051
+    start_anchor: "\\subsection{Original Smooth Data and Active-shell Amplitude Gain}\n"
+    end_anchor: "\\subsection{Original Smooth Data and Source Pulse Exclusion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Original Smooth Data and Active-shell Amplitude Gain}
+
+      The direct active-Carleson theorem is exactly the Carleson-level output needed
+      downstream.  Existing active-Carleson surfaces reduce it to heat-scale
+      \(\rho\)-source control or active-shell amplitude gain.  This route returns to
+      the same source theorem rather than proving a lower input beneath it.
+
+      Preterminal smoothness gives decay of high shells at each fixed time before
+      \(T_*\).  It gives no uniform terminal active-scale decay when active shells
+      may drift to infinity while \(t\uparrow T_*\).  The needed theorem must control
+      the moving active shell, not a fixed shell at a fixed preterminal time.
+
+      The shell energy identity allows active pulses whenever nonlinear flux supplies
+      the pulse.  The monotone/no-pulse surface shows that a monotone law requires a
+      new flux-source domination theorem or direct active-Carleson control.
+
+      No available sufficient mechanism proves active-shell amplitude gain from Original Smooth Data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Original Smooth Data and Source Pulse Exclusion
+    line_start: 21070
+    line_end: 21096
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21070
+    start_anchor: "\\subsection{Original Smooth Data and Source Pulse Exclusion}\n"
+    end_anchor: "\\subsection{Pack from finite physical same-fluid cover}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Original Smooth Data and Source Pulse Exclusion}
+
+      This is the stronger active supplier target adjacent to the route-governing
+      primitive Source PulseCMExit.A.  It is not the governing CM primitive itself.
+      It is a sufficient forward theorem that would eliminate the source-pulse
+      survivor absolutely.
+
+      The installed original-data package supplies smooth preterminal evolution,
+      finite raw energy, finite dissipation, pressure/source routing, legal-loss
+      records, same-fluid localization, and the already-recorded terminal normal
+      forms.
+
+      Those inputs do not remove, charge, or rigidify the singular native positive
+      active source measure.
+
+      Each presentation must eliminate the same terminal native positive active source-pulse survivor.
+
+      The current surfaces have already audited the common candidate mechanisms:
+      pressure-vortex, helical/Beltrami, vorticity-direction coherence, localized
+      drain, local-energy / CKN, compactness / Liouville, viscous-Duhamel, no-hop,
+      active-Carleson, \(\rho\)-source, residual-tail, active-shell amplitude gain,
+      terminal source coherence, reverse-Holder parent concentration, and Zeno
+      rigid-class production.
+
+      Each route reduces to the same native positive source-pulse primitive or one of the five exposed exits above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pair Weight Flattening.A Attempt
+    line_start: 21910
+    line_end: 21960
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21910
+    start_anchor: "\\subsection{Pair Weight Flattening.A Attempt}\n"
+    end_anchor: "\\subsection{Parabolic No-Free Sink.A Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Pair Weight Flattening.A Attempt}
+
+      Pair Weight Flattening.A fails as an unconditional theorem on the current
+      terminal source-current surface.  The attempted cancellation uses antisymmetry
+      of each legal signed source-current edge in the saturated terminal packet graph:
+
+      \[
+      J^0(P\to P')=-J^0(P'\to P),
+      \]
+
+      That cancellation is stable only when the two endpoints carry the same
+      effective terminal weight.  For separated shell endpoints, the weight defect is
+
+      \[
+      2^j2^{-\sigma(\ell-j)}-2^\ell
+      =-2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+      \]
+
+      For legal separated shell edges with \(d=\ell-j\ge d_0>0\) in the active
+      collar, this defect obeys the exact lower bound
+      \[
+      \left|2^j2^{-\sigma(\ell-j)}-2^\ell\right|
+      \ge
+      \left(1-2^{-(1+\sigma)d_0}\right)2^\ell.
+      \]
+      Thus the larger shell weight survives unless an additional flattening mechanism
+      is supplied.
+
+      Terminal heat-scale rescaling can flatten smooth geometric coefficients on one
+      packet.  It does not flatten dyadic one-sided tail weights across
+      source-current edges whose endpoints live at different effective shell weights.
+      The mismatch is built into the source-wall weighting.
+
+      \[
+      \sum_e\int |J_e|dt,
+      \]
+
+      The current inputs give a signed-current record, not a theorem that makes the
+      weighted pair defect summable.  Pair Weight Flattening.A cannot be used as an
+      independent supplier for Weighted Lifted Skew Defect Legal.A under current
+      inputs.
+
+      The route can continue in one of two ways.  Terminal Weight Coherence.A can
+      align the source-current endpoints at the same effective terminal weight, or
+      Active Strain Alignment Cost.A can pay the residual aligned positive strain
+      term.
+
+      Until one of those payments is installed, the pair defect returns to Scale
+      Critical Tree Carleson.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Parabolic No-Free Sink.A Attempt
+    line_start: 21961
+    line_end: 21999
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21961
+    start_anchor: "\\subsection{Parabolic No-Free Sink.A Attempt}\n"
+    end_anchor: "\\subsection{Parabolic Cubic Normal Form.A Attempt for Scale Critical
+      Tree Carleson.A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Parabolic No-Free Sink.A Attempt}
+
+      Parabolic No-Free Sink.A tries to rule out a free inviscid donor sink feeding a
+      terminal positive receiver.
+
+      \[
+      J(A\to B)=F>0,
+      \]
+
+      \[
+      \operatorname{div}J(B)=F,
+      \qquad
+      \operatorname{div}J(A)=-F.
+      \]
+
+      There is positive terminal divergence at \(B\), but the donor \(A\) is an
+      internal negative source sink.  This transfer need not cross boundary flux or a
+      viscous heat edge.
+
+      In the Navier-Stokes packet interpretation, this is legal inviscid transfer
+      from donor packet to receiver packet.  It conserves signed energy at the
+      current level and is exactly the mechanism the source wall must price.
+
+      First-pulse selection excludes earlier positive source-current arrivals.  It
+      does not exclude an internal negative donor sink.  A donor sink may have
+      negative divergence throughout the relevant interval while feeding the selected
+      positive receiver.  Since it is not a positive arrival, first-current pruning
+      does not remove it.
+
+      Terminal Signed Saturation.A keeps the donor counter-edge inside the usable
+      signed record or sends it to a named legal record.  Two Tower Donor Depletion.A
+      supplies a finite reserve for donor drain when repeated donor-to-receiver
+      transfers occur.
+
+      The obstruction is a legal internal donor sink.  The theorem needs a
+      donor-depletion reserve or a signed-saturation theorem beyond the currently
+      installed source-current algebra.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Parent Concentration or Diffuse Charge.A Direct Obstruction
+    line_start: 22121
+    line_end: 22172
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22121
+    start_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A Direct Obstruction}\n"
+    end_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A via Inverse
+      LP or Diffuse Source Charge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Parent Concentration or Diffuse Charge.A Direct Obstruction}
+
+      \[
+      d\pi_P(P^-),
+      \]
+
+      \[
+      \mathcal C(P)\subset\mathsf{Pred}(P),\qquad
+      |\mathcal C(P)|\le B,\qquad
+      \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+      \]
+
+      The desired theorem says that every positive source-parent measure either has
+      bounded parent concentration or pays a diffuse reserve.  The concentration
+      branch asks for a bounded set \(\mathcal C(P)\) carrying a fixed fraction of
+      the predecessor mass.
+
+      The remaining work is anti-diffuse: either force bounded parent concentration
+      or charge broad legal parent diffusion to a summable reserve.
+
+      \[
+      j_{P^-}\in[j_P-M,j_P+M]
+      \]
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+      \qquad
+      P^-_\alpha\in\mathsf{Pred}(P),
+      \qquad
+      M\to\infty.
+      \]
+
+      \[
+      \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0.
+      \]
+
+      Finite banding and same-fluid edge fidelity do not prove Parent
+      Concentration.A.  The displayed measure stays inside the legal frequency band
+      and still defeats every fixed bounded parent set.
+
+      For the diffuse-charge branch, the installed finite records price raw energy,
+      local-energy balance, pressure/cutoff losses, and illegal source-localization
+      loss.  They do not price legal parent branching entropy inside
+      \(\mathsf{Pred}(P)\).  The active-window reserve would price this only after a
+      source or active-window Carleson theorem is installed, and that theorem is the
+      same source-pulse wall in another form.
+
+      This item is a hard local obstruction for the direct anti-diffuse parent step.
+      The next lawful payment is Two Tower Donor Depletion.A or an equivalent
+      active-window Carleson reserve.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Parent Concentration or Diffuse Charge.A via Inverse LP or Diffuse
+      Source Charge
+    line_start: 22173
+    line_end: 22247
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22173
+    start_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A via Inverse
+      LP or Diffuse Source Charge}\n"
+    end_anchor: "\\subsection{Part Row Closedness from Field Scale and Tower Control}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Parent Concentration or Diffuse Charge.A via Inverse LP or Diffuse Source Charge}
+
+      \[
+      d\pi_P(P^-),
+      \]
+
+      \[
+      \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+      \qquad
+      |\mathcal C(P)|\le B,
+      \qquad
+      \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+      \]
+
+      \[
+      \pi_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+      \le Charge_P+Reserve_P+o(1)
+      \]
+
+      \[
+      j_{P^-}\in[j_P-M,j_P+M]
+      \]
+
+      This controls frequency type. It leaves physical parent multiplicity and triadic packet multiplicity open. A legal positive parent measure can have the diffuse form
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad
+      M\to\infty,
+      \]
+
+      An inverse LP concentration theorem would need an additional hypothesis forcing
+      positive localized source edges to concentrate in boundedly many parents.
+      Finite banding, same-fluid transport, pressure/cutoff records, and
+      source-supplier records do not provide that hypothesis.
+
+      The diffuse-charge route asks the diffuse measure to pay a finite reserve.  Raw
+      donor energy gives a quadratic cost.  In the diffuse Fourier-parent model,
+      choose \(M\) donors with amplitudes
+      \[
+      a_\alpha=M^{-1}b,\qquad 1\le \alpha\le M.
+      \]
+      The normalized positive source-parent mass can remain order one, while the raw
+      quadratic donor cost is
+      \[
+      \sum_{\alpha=1}^M |a_\alpha|^2
+      =M\cdot M^{-2}|b|^2
+      =M^{-1}|b|^2.
+      \]
+      Raw energy and local energy do not price legal diffuse source-parent branching
+      at source-pulse normalization.
+
+      A source or active-window Carleson reserve would price that diffusion.  The
+      current surfaces identify exactly that reserve as Scale Critical Tree
+      Carleson.A, Active Square Carleson.A, or an equivalent donor-depletion theorem.
+      That reserve is not installed by current inputs.
+
+      The local two-tower donor balance is valid.  For a legal donor packet \(P^-\)
+      feeding a child, the localized shell balance has the form
+      \[
+      \int_I \mathrm{Drain}_{P^-}(t)\,dt
+      \le
+      E_{P^-}(t_0)-E_{P^-}(t_1)
+      +\int_I \mathrm{Source}_{P^-}(t)\,dt
+      +L_{\mathrm{legal}}.
+      \]
+      This is a local donor accounting identity.  I
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Averaged-route Obstruction: the Jump-avg Complement'
+    line_start: 22396
+    line_end: 22412
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22396
+    start_anchor: "\\subsection{Averaged-route Obstruction: the Jump-avg Complement}\n"
+    end_anchor: "\\subsection{Averaged Terminal-tail Uniformization as Downstream
+      Readout}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Averaged-route Obstruction: the Jump-avg Complement}
+
+      \[
+      \hbox{Original Smooth Data}
+      \Longrightarrow
+      \hbox{uniform terminal-tail retained Pack/Part/Field/tower readout}.
+      \]
+
+      The candidate route covers the strict averaged-good branch.  The complementary
+      branch is \(\mathrm{Jump}_{\mathrm{avg}}\).
+
+      This row is valid only after \(\mathrm{Field}_{\mathrm{avg}}\) is available.
+      On the \(\mathrm{Jump}_{\mathrm{avg}}\) branch,
+      \(\mathrm{Field}_{\mathrm{avg}}\) is exactly the failed property.  The current
+      endpoint matrix does not eliminate that complementary branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\) Charge
+    line_start: 22470
+    line_end: 22498
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22470
+    start_anchor: "\\subsection{Jump-avg Lower Mass and the \\(\\nu_{\\mathrm{SCF}}\\)
+      Charge}\n"
+    end_anchor: "\\subsection{Maximal Reduction of the Averaged Frontier}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\) Charge}
+
+      The existing upper-carrier note gives finite total
+      \(\nu_{\mathrm{SCF}}\) on bounded-overlap terminal window families.  This
+      makes \(\nu_{\mathrm{SCF}}\) the correct charge for the no-escape route.
+
+      \[
+      \mathrm{SCF}_{\mathrm{base}}(Q^\Phi_r)>\varepsilon_m
+      \]
+      forces either geometric Pack failure or
+      \(\nu_{\mathrm{SCF}}(Q^\Phi_r)\) carries the analytic part of the threshold at
+      the same scale.
+
+      Once Pack stabilization controls the geometric part, persistent
+      \(\mathrm{Jump}_{\mathrm{avg}}\) forces persistent analytic threshold failure.
+      Every terminal subtail then contains a same-fluid window with positive analytic
+      \(\nu_{\mathrm{SCF}}\) contribution at the SCF threshold scale.
+
+      This gives a scale-normalized lower contribution, while the existing upper
+      carrier controls raw \(\nu_{\mathrm{SCF}}\) mass.  A discharge needs the same
+      normalization on both sides.  Finite raw mass permits shrinking terminal
+      windows with positive scale-normalized density.  The contradiction requires a
+      Carleson or active upper estimate for the scale-normalized
+      \(\nu_{\mathrm{SCF}}\) density.
+
+      The current raw upper carrier supplies finite raw mass.  The scale-normalized
+      Carleson upper theorem remains the missing analytic estimate.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Original Smooth Data and Active-shell Amplitude Gain}
+
+    The direct active-Carleson theorem is exactly the Carleson-level output needed
+    downstream.  Existing active-Carleson surfaces reduce it to heat-scale
+    \(\rho\)-source control or active-shell amplitude gain.  This route returns to
+    the same source theorem rather than proving a lower input beneath it.
+
+    Preterminal smoothness gives decay of high shells at each fixed time before
+    \(T_*\).  It gives no uniform terminal active-scale decay when active shells
+    may drift to infinity while \(t\uparrow T_*\).  The needed theorem must control
+    the moving active shell, not a fixed shell at a fixed preterminal time.
+
+    The shell energy identity allows active pulses whenever nonlinear flux supplies
+    the pulse.  The monotone/no-pulse surface shows that a monotone law requires a
+    new flux-source domination theorem or direct active-Carleson control.
+
+    No available sufficient mechanism proves active-shell amplitude gain from Original Smooth Data.
+
+
+
+    \subsection{Original Smooth Data and Source Pulse Exclusion}
+
+    This is the stronger active supplier target adjacent to the route-governing
+    primitive Source PulseCMExit.A.  It is not the governing CM primitive itself.
+    It is a sufficient forward theorem that would eliminate the source-pulse
+    survivor absolutely.
+
+    The installed original-data package supplies smooth preterminal evolution,
+    finite raw energy, finite dissipation, pressure/source routing, legal-loss
+    records, same-fluid localization, and the already-recorded terminal normal
+    forms.
+
+    Those inputs do not remove, charge, or rigidify the singular native positive
+    active source measure.
+
+    Each presentation must eliminate the same terminal native positive active source-pulse survivor.
+
+    The current surfaces have already audited the common candidate mechanisms:
+    pressure-vortex, helical/Beltrami, vorticity-direction coherence, localized
+    drain, local-energy / CKN, compactness / Liouville, viscous-Duhamel, no-hop,
+    active-Carleson, \(\rho\)-source, residual-tail, active-shell amplitude gain,
+    terminal source coherence, reverse-Holder parent concentration, and Zeno
+    rigid-class production.
+
+    Each route reduces to the same native positive source-pulse primitive or one of the five exposed exits above.
+
+
+
+    \subsection{Pair Weight Flattening.A Attempt}
+
+    Pair Weight Flattening.A fails as an unconditional theorem on the current
+    terminal source-current surface.  The attempted cancellation uses antisymmetry
+    of each legal signed source-current edge in the saturated terminal packet graph:
+
+    \[
+    J^0(P\to P')=-J^0(P'\to P),
+    \]
+
+    That cancellation is stable only when the two endpoints carry the same
+    effective terminal weight.  For separated shell endpoints, the weight defect is
+
+    \[
+    2^j2^{-\sigma(\ell-j)}-2^\ell
+    =-2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+    \]
+
+    For legal separated shell edges with \(d=\ell-j\ge d_0>0\) in the active
+    collar, this defect obeys the exact lower bound
+    \[
+    \left|2^j2^{-\sigma(\ell-j)}-2^\ell\right|
+    \ge
+    \left(1-2^{-(1+\sigma)d_0}\right)2^\ell.
+    \]
+    Thus the larger shell weight survives unless an additional flattening mechanism
+    is supplied.
+
+    Terminal heat-scale rescaling can flatten smooth geometric coefficients on one
+    packet.  It does not flatten dyadic one-sided tail weights across
+    source-current edges whose endpoints live at different effective shell weights.
+    The mismatch is built into the source-wall weighting.
+
+    \[
+    \sum_e\int |J_e|dt,
+    \]
+
+    The current inputs give a signed-current record, not a theorem that makes the
+    weighted pair defect summable.  Pair Weight Flattening.A cannot be used as an
+    independent supplier for Weighted Lifted Skew Defect Legal.A under current
+    inputs.
+
+    The route can continue in one of two ways.  Terminal Weight Coherence.A can
+    align the source-current endpoints at the same effective terminal weight, or
+    Active Strain Alignment Cost.A can pay the residual aligned positive strain
+    term.
+
+    Until one of those payments is installed, the pair defect returns to Scale
+    Critical Tree Carleson.A.
+
+
+
+    \subsection{Parabolic No-Free Sink.A Attempt}
+
+    Parabolic No-Free Sink.A tries to rule out a free inviscid donor sink feeding a
+    terminal positive receiver.
+
+    \[
+    J(A\to B)=F>0,
+    \]
+
+    \[
+    \operatorname{div}J(B)=F,
+    \qquad
+    \operatorname{div}J(A)=-F.
+    \]
+
+    There is positive terminal divergence at \(B\), but the donor \(A\) is an
+    internal negative source sink.  This transfer need not cross boundary flux or a
+    viscous heat edge.
+
+    In the Navier-Stokes packet interpretation, this is legal inviscid transfer
+    from donor packet to receiver packet.  It conserves signed energy at the
+    current level and is exactly the mechanism the source wall must price.
+
+    First-pulse selection excludes earlier positive source-current arrivals.  It
+    does not exclude an internal negative donor sink.  A donor sink may have
+    negative divergence throughout the relevant interval while feeding the selected
+    positive receiver.  Since it is not a positive arrival, first-current pruning
+    does not remove it.
+
+    Terminal Signed Saturation.A keeps the donor counter-edge inside the usable
+    signed record or sends it to a named legal record.  Two Tower Donor Depletion.A
+    supplies a finite reserve for donor drain when repeated donor-to-receiver
+    transfers occur.
+
+    The obstruction is a legal internal donor sink.  The theorem needs a
+    donor-depletion reserve or a signed-saturation theorem beyond the currently
+    installed source-current algebra.
+
+
+
+    \subsection{Parent Concentration or Diffuse Charge.A Direct Obstruction}
+
+    \[
+    d\pi_P(P^-),
+    \]
+
+    \[
+    \mathcal C(P)\subset\mathsf{Pred}(P),\qquad
+    |\mathcal C(P)|\le B,\qquad
+    \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+    \]
+
+    The desired theorem says that every positive source-parent measure either has
+    bounded parent concentration or pays a diffuse reserve.  The concentration
+    branch asks for a bounded set \(\mathcal C(P)\) carrying a fixed fraction of
+    the predecessor mass.
+
+    The remaining work is anti-diffuse: either force bounded parent concentration
+    or charge broad legal parent diffusion to a summable reserve.
+
+    \[
+    j_{P^-}\in[j_P-M,j_P+M]
+    \]
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+    \qquad
+    P^-_\alpha\in\mathsf{Pred}(P),
+    \qquad
+    M\to\infty.
+    \]
+
+    \[
+    \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le \frac{B}{M}\to0.
+    \]
+
+    Finite banding and same-fluid edge fidelity do not prove Parent
+    Concentration.A.  The displayed measure stays inside the legal frequency band
+    and still defeats every fixed bounded parent set.
+
+    For the diffuse-charge branch, the installed finite records price raw energy,
+    local-energy balance, pressure/cutoff losses, and illegal source-localization
+    loss.  They do not price legal parent branching entropy inside
+    \(\mathsf{Pred}(P)\).  The active-window reserve would price this only after a
+    source or active-window Carleson theorem is installed, and that theorem is the
+    same source-pulse wall in another form.
+
+    This item is a hard local obstruction for the direct anti-diffuse parent step.
+    The next lawful payment is Two Tower Donor Depletion.A or an equivalent
+    active-window Carleson reserve.
+
+
+
+    \subsection{Parent Concentration or Diffuse Charge.A via Inverse LP or Diffuse Source Charge}
+
+    \[
+    d\pi_P(P^-),
+    \]
+
+    \[
+    \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+    \qquad
+    |\mathcal C(P)|\le B,
+    \qquad
+    \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+    \]
+
+    \[
+    \pi_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
+    \le Charge_P+Reserve_P+o(1)
+    \]
+
+    \[
+    j_{P^-}\in[j_P-M,j_P+M]
+    \]
+
+    This controls frequency type. It leaves physical parent multiplicity and triadic packet multiplicity open. A legal positive parent measure can have the diffuse form
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad
+    M\to\infty,
+    \]
+
+    An inverse LP concentration theorem would need an additional hypothesis forcing
+    positive localized source edges to concentrate in boundedly many parents.
+    Finite banding, same-fluid transport, pressure/cutoff records, and
+    source-supplier records do not provide that hypothesis.
+
+    The diffuse-charge route asks the diffuse measure to pay a finite reserve.  Raw
+    donor energy gives a quadratic cost.  In the diffuse Fourier-parent model,
+    choose \(M\) donors with amplitudes
+    \[
+    a_\alpha=M^{-1}b,\qquad 1\le \alpha\le M.
+    \]
+    The normalized positive source-parent mass can remain order one, while the raw
+    quadratic donor cost is
+    \[
+    \sum_{\alpha=1}^M |a_\alpha|^2
+    =M\cdot M^{-2}|b|^2
+    =M^{-1}|b|^2.
+    \]
+    Raw energy and local energy do not price legal diffuse source-parent branching
+    at source-pulse normalization.
+
+    A source or active-window Carleson reserve would price that diffusion.  The
+    current surfaces identify exactly that reserve as Scale Critical Tree
+    Carleson.A, Active Square Carleson.A, or an equivalent donor-depletion theorem.
+    That reserve is not installed by current inputs.
+
+    The local two-tower donor balance is valid.  For a legal donor packet \(P^-\)
+    feeding a child, the localized shell balance has the form
+    \[
+    \int_I \mathrm{Drain}_{P^-}(t)\,dt
+    \le
+    E_{P^-}(t_0)-E_{P^-}(t_1)
+    +\int_I \mathrm{Source}_{P^-}(t)\,dt
+    +L_{\mathrm{legal}}.
+    \]
+    This is a local donor accounting identity.  It does not sum over an unbounded
+    diffuse parent family without the missing Carleson reserve.
+
+    At the current route resolution, the source or active-window Carleson reserve
+    is precisely Scale Critical Tree Carleson.A, and the inverse LP concentration
+    branch needs a new reverse-Holder parent-concentration principle beyond finite
+    Littlewood-Paley banding.
+
+
+
+    \subsection{Averaged-route Obstruction: the Jump-avg Complement}
+
+    \[
+    \hbox{Original Smooth Data}
+    \Longrightarrow
+    \hbox{uniform terminal-tail retained Pack/Part/Field/tower readout}.
+    \]
+
+    The candidate route covers the strict averaged-good branch.  The complementary
+    branch is \(\mathrm{Jump}_{\mathrm{avg}}\).
+
+    This row is valid only after \(\mathrm{Field}_{\mathrm{avg}}\) is available.
+    On the \(\mathrm{Jump}_{\mathrm{avg}}\) branch,
+    \(\mathrm{Field}_{\mathrm{avg}}\) is exactly the failed property.  The current
+    endpoint matrix does not eliminate that complementary branch.
+
+
+
+    \subsection{Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\) Charge}
+
+    The existing upper-carrier note gives finite total
+    \(\nu_{\mathrm{SCF}}\) on bounded-overlap terminal window families.  This
+    makes \(\nu_{\mathrm{SCF}}\) the correct charge for the no-escape route.
+
+    \[
+    \mathrm{SCF}_{\mathrm{base}}(Q^\Phi_r)>\varepsilon_m
+    \]
+    forces either geometric Pack failure or
+    \(\nu_{\mathrm{SCF}}(Q^\Phi_r)\) carries the analytic part of the threshold at
+    the same scale.
+
+    Once Pack stabilization controls the geometric part, persistent
+    \(\mathrm{Jump}_{\mathrm{avg}}\) forces persistent analytic threshold failure.
+    Every terminal subtail then contains a same-fluid window with positive analytic
+    \(\nu_{\mathrm{SCF}}\) contribution at the SCF threshold scale.
+
+    This gives a scale-normalized lower contribution, while the existing upper
+    carrier controls raw \(\nu_{\mathrm{SCF}}\) mass.  A discharge needs the same
+    normalization on both sides.  Finite raw mass permits shrinking terminal
+    windows with positive scale-normalized density.  The contradiction requires a
+    Carleson or active upper estimate for the scale-normalized
+    \(\nu_{\mathrm{SCF}}\) density.
+
+    The current raw upper carrier supplies finite raw mass.  The scale-normalized
+    Carleson upper theorem remains the missing analytic estimate.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Original Smooth Data and Active-shell Amplitude Gain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21051
+  line_start: 21051
+  line_end: 21069
+  start_anchor: "\\subsection{Original Smooth Data and Active-shell Amplitude Gain}\n"
+  end_anchor: "\\subsection{Original Smooth Data and Source Pulse Exclusion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Original Smooth Data and Active-shell
+    Amplitude Gain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21051
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Original Smooth Data and Source Pulse Exclusion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21070
+  line_start: 21070
+  line_end: 21096
+  start_anchor: "\\subsection{Original Smooth Data and Source Pulse Exclusion}\n"
+  end_anchor: "\\subsection{Pack from finite physical same-fluid cover}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Original Smooth Data and Source
+    Pulse Exclusion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21070
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pair Weight Flattening.A Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21910
+  line_start: 21910
+  line_end: 21960
+  start_anchor: "\\subsection{Pair Weight Flattening.A Attempt}\n"
+  end_anchor: "\\subsection{Parabolic No-Free Sink.A Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pair Weight Flattening.A Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21910
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Parabolic No-Free Sink.A Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21961
+  line_start: 21961
+  line_end: 21999
+  start_anchor: "\\subsection{Parabolic No-Free Sink.A Attempt}\n"
+  end_anchor: "\\subsection{Parabolic Cubic Normal Form.A Attempt for Scale Critical
+    Tree Carleson.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Parabolic No-Free Sink.A Attempt
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21961
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Parent Concentration or Diffuse Charge.A Direct Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22121
+  line_start: 22121
+  line_end: 22172
+  start_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A Direct Obstruction}\n"
+  end_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A via Inverse LP
+    or Diffuse Source Charge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Parent Concentration or Diffuse
+    Charge.A Direct Obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22121
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Parent Concentration or Diffuse Charge.A via Inverse LP or Diffuse
+    Source Charge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22173
+  line_start: 22173
+  line_end: 22247
+  start_anchor: "\\subsection{Parent Concentration or Diffuse Charge.A via Inverse
+    LP or Diffuse Source Charge}\n"
+  end_anchor: "\\subsection{Part Row Closedness from Field Scale and Tower Control}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Parent Concentration or Diffuse
+    Charge.A via Inverse LP or Diffuse Source Charge as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22173
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Averaged-route Obstruction: the Jump-avg Complement'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22396
+  line_start: 22396
+  line_end: 22412
+  start_anchor: "\\subsection{Averaged-route Obstruction: the Jump-avg Complement}\n"
+  end_anchor: "\\subsection{Averaged Terminal-tail Uniformization as Downstream Readout}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Averaged-route Obstruction: the
+    Jump-avg Complement as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22396
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\) Charge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22470
+  line_start: 22470
+  line_end: 22498
+  start_anchor: "\\subsection{Jump-avg Lower Mass and the \\(\\nu_{\\mathrm{SCF}}\\)
+    Charge}\n"
+  end_anchor: "\\subsection{Maximal Reduction of the Averaged Frontier}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Jump-avg Lower Mass and the \(\nu_{\mathrm{SCF}}\)
+    Charge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22470
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-34
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-34.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

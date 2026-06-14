@@ -25,11 +25,11 @@ B_N
 \sum_{j\ge N}2^{2j}\Delta_j^\ast\Delta_j,
 ```
 
-the positive self-adjoint high-frequency enstrophy multiplier. Up to harmless
-Littlewood-Paley equivalence constants,
+the positive self-adjoint high-frequency enstrophy multiplier. With fixed
+Littlewood--Paley constants `c_B,C_B>0`,
 
 ```math
-\langle B_N u,u\rangle \sim E_N.
+c_BE_N\le \langle B_N u,u\rangle\le C_BE_N.
 ```
 
 Freeze the strict low transport coefficient at
@@ -38,8 +38,7 @@ Freeze the strict low transport coefficient at
 a:=S_{N-4}u.
 ```
 
-Then the summed strict-low transport contribution may be written schematically
-as
+Then the summed strict-low transport contribution is represented by
 
 ```math
 \mathcal T_N^{strict}
@@ -82,9 +81,11 @@ gives
 
 ```math
 \big|\langle [B_N,a\cdot\nabla]u_{\ge N},u_{\ge N}\rangle\big|
-\lesssim
+\le
+C_{comm}
 \|\nabla a\|_{L^\infty_x}\,\langle B_Nu_{\ge N},u_{\ge N}\rangle
-\sim
+\le
+C_{comm}C_B
 \|\nabla a\|_{L^\infty_x}\,E_N.
 \tag{2}
 ```
@@ -93,7 +94,8 @@ Likewise, the high-low partner satisfies
 
 ```math
 \big|\langle B_N((u_{\ge N}\cdot\nabla)a),u_{\ge N}\rangle\big|
-\lesssim
+\le
+C_{HL}
 \|\nabla a\|_{L^\infty_x}\,E_N.
 \tag{3}
 ```
@@ -112,7 +114,8 @@ the summed operator route yields only
 
 ```math
 |\mathcal T_N^{strict}|
-\lesssim
+\le
+C_{strict}
 \Lambda_N(t)\,E_N(t).
 \tag{4}
 ```
@@ -141,7 +144,7 @@ It shows:
 1. the only automatic sum-level cancellation is the transport cancellation
    already built into the commutator form;
 2. the resulting summed commutator is still controlled by
-   `\|\nabla S_{N-4}u\|_{L^\infty_x}E_N \sim \Lambda_N E_N`;
+   `\|\nabla S_{N-4}u\|_{L^\infty_x}E_N\le C_\Lambda \Lambda_NE_N`;
 3. no new telescoping identity appears that would convert the strict-low packet
    to `C\,\mathcal L_NE_N+\varepsilon \nu D_N`.
 

@@ -1,0 +1,990 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-64
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-64
+  sequence: 216
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 64
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 54410
+  line_end: 56340
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54410
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54947
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55265
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55802
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55843
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56036
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56176
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56288
+  subsection_titles:
+  - Terminal Defect Persistence.A measure split
+  - Terminal Signed Saturation.A or donor-depletion hard stop
+  - Terminal Source Reverse Holder Basac Direct Attempt
+  - Tgc A Noescape Jumpavg Hardening Note
+  - Tgc A Upstream Spending Audit Note
+  - Independent Verification And Paper Proof Package
+  - Unified Survivor Conditional Theorem Packet Audit Note
+  - Uniform Temporal Dissipation Integrability p.A attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Defect Persistence.A measure split
+    line_start: 54410
+    line_end: 54450
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54410
+    start_anchor: "\\subsection{Terminal Defect Persistence.A measure split}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Eigenframe Turnover Charge.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Defect Persistence.A measure split}
+
+      The stronger statement that the limiting velocity-pressure pair itself has large SCF base remains open unless the route supplies strong convergence of all SCF components or a Liouville theorem that accepts the residual defect measure.
+
+      \[
+      \nu_n
+      :=
+      \nu_{E,n}+\nu_{D,n}+\nu_{P,n}+\nu_{\Phi,n}.
+      \]
+
+      Here $\nu_{D,n}$ is the rescaled $|u^{(n)}|^2$ carrier and $\nu_{P,n}$ is
+      the rescaled local-pressure $|p_{\mathrm{loc}}^{(n)}|^{3/2}$ carrier in the
+      compatible pressure gauge. The energy and geometric terms are included with
+      the same normalization used by the SCF base.
+
+      \[
+      \sup_n \nu_n(Q_R^-)<\infty
+      \qquad\text{for every fixed }R.
+      \]
+
+      \[
+      \int \psi\,d\nu_n\ge c_0
+      \qquad\text{for all large }n.
+      \]
+
+      \[
+      \nu_n\stackrel{*}{\rightharpoonup}\nu_*
+      \]
+
+      \[
+      \nu_*(Q_1^-)>0.
+      \]
+
+      Thus the extracted terminal tangent carries a nonzero terminal SCF defect measure.
+
+      This proves the measure-valued persistence statement. It is weaker than strong
+      persistence of the velocity-pressure pair itself: weak suitable compactness can
+      place part of the dissipation or local-pressure mass in the defect measure
+      instead of in a strong limiting field.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Signed Saturation.A or donor-depletion hard stop
+    line_start: 54947
+    line_end: 54969
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54947
+    start_anchor: "\\subsection{Terminal Signed Saturation.A or donor-depletion hard
+      stop}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Skew Localization record Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Signed Saturation.A or donor-depletion hard stop}
+
+      Terminal Signed Saturation.A asks that every selected terminal positive source edge has its signed counter-edge either inside the usable same-fluid record or paid by a named legal record.
+
+      Current inputs supply the bare dyadic skew current before one-sided weights, lifted commutators, and terminal selection. After those operations, the selected positive edge can lose its counter-edge outside the usable terminal record. The residue is a real active strain-alignment source.
+
+      Parabolic NoFree Sink.A asks that every source-current path feeding terminal positive divergence is boundary-fed, heat-action charged, legal-loss charged, or earlier-forbidden.
+
+      \[
+      J(A\to B)=F>0,
+      \qquad
+      \operatorname{div}J(B)=F,
+      \qquad
+      \operatorname{div}J(A)=-F.
+      \]
+
+      The receiver has terminal positive divergence. The donor is an internal negative sink. First-current pruning acts on earlier positive arrivals, while the donor is negative. Boundary and cutoff records price genuine exits and localization losses. A legal same-fluid donor inside the packet system needs a donor reserve.
+
+      Raw energy, local energy, finite shell banding, and same-fluid transport do not produce the scale-normalized donor reserve.
+
+      Current installed inputs reduce every branch to this same source-wall object. A new theorem must either establish signed positive-source balance on selected terminal windows or supply a scale-normalized donor reserve for legal internal same-fluid donor sinks.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Reverse Holder Basac Direct Attempt
+    line_start: 55265
+    line_end: 55289
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55265
+    start_anchor: "\\subsection{Terminal Source Reverse Holder Basac Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Source Reverse Holder.A Direct
+      Closure Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Reverse Holder Basac Direct Attempt}
+
+      \[
+      \boxed{TerminalSourceReverseHolder_{B\_ASAC}.A.}
+      \]
+
+      \[
+      \left\|\|F_N^{src,+}(t)\|_{\mathcal M(B_R)}\right\|_{L_t^p(T-\delta,T)}\le C_{R,\delta},
+      \qquad p>1,
+      \]
+
+      These inputs organize equality and carrier balance. They give source mass bookkeeping at the terminal class.
+
+      The target asks for a super-L 1 estimate in time. B ASAC equality geometry constrains the algebraic equality class and carrier balance. It supplies no direct convexity or smoothing in the time marginal.
+
+      \[
+      F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
+      \qquad \tau_N\downarrow0.
+      \]
+
+      It would say that B ASAC equality geometry forces positive time thickness of native source mass.
+
+      Terminal Source Reverse Holder B ASAC .A fails from installed B ASAC inputs. The equality class supplies geometry and balance. It lacks the temporal spreading estimate needed for a reverse Holder upgrade.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tgc A Noescape Jumpavg Hardening Note
+    line_start: 55802
+    line_end: 55842
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55802
+    start_anchor: "\\subsection{Tgc A Noescape Jumpavg Hardening Note}\n"
+    end_anchor: "\\subsection{Tgc A Upstream Spending Audit Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Tgc A Noescape Jumpavg Hardening Note}
+
+      Before the finite-cover scheduler and pointwise readout can be used, the terminal-tail bridge needs one classification step: persistent failure of a positive SCF-good averaged coherence scale on every terminal subtail is the averaged jump face.
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}
+      :=
+      \{(a,t)\in\mathcal T:r_{\mathrm{good}}(a,t)=0\}.
+      \]
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+      \Longleftrightarrow
+      \forall\text{ terminal subtails }\mathcal T'\subset\mathcal T,
+      \quad
+      \inf_{(a,t)\in\mathcal T'}r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      Equivalently, Jump avg is persistent failure of a positive scale-critical SCF-good averaged one-field coherence packet on every terminal subtail.
+
+      \[
+      \boxed{
+      \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+      }
+      \]
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing.
+      \]
+
+      \[
+      r_{\mathrm{good}}(a_0,t_0)=0.
+      \]
+
+      Every terminal subtail containing the terminal endpoint of (a 0,t 0) has infimum good radius equal to zero. Hence the terminal tail has persistent failure of positive SCF-good averaged one-field coherence. By the definition of the averaged jump face,
+
+      Taking n 0 yields a sequence of material points with good radii tending to zero. Compactness of the retained terminal label-time tail gives a convergent subsequence. If the limit point had a stable positive SCF-good radius, local stability of the SCF packet in bounded-distortion same-fluid charts would give a uniform positive lower radius for all sufficiently large sequence elements. This contradicts r good 0. Thus the limit is a terminal coherence fracture point in the averaged SCF-good sense, giving Jump avg.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tgc A Upstream Spending Audit Note
+    line_start: 55843
+    line_end: 55849
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55843
+    start_anchor: "\\subsection{Tgc A Upstream Spending Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Tower-Face To CM-Row Projection Closure
+      Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Tgc A Upstream Spending Audit Note}
+
+      Jump avg to obtain a terminal subtail with positive lower r good; compactness of the retained terminal subtail to extract a finite cover; bounded pack geometry to obtain finite overlap; SCF-good monotonicity under cylinder restriction; finite route parameter set for scheduler-ready majorants.
+
+      This is the first endpoint package in the route, and it is averaged. It removes averaged faces such as Jump avg and tower-blown avg. Pointwise endpoint rows are still absent at this stage.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Independent Verification And Paper Proof Package
+    line_start: 56036
+    line_end: 56081
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56036
+    start_anchor: "\\subsection{Independent Verification And Paper Proof Package}\n"
+    end_anchor: "\\subsection{Clay problem Two-Tower Donor Balance Modulo Refill Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Independent Verification And Paper Proof Package}
+
+      Let T * be finite and let T be a same-fluid terminal approach tail. The averaged cover dichotomy gives
+
+      \[
+      T\subset\text{strict averaged-good branch}\quad\vee\quad \mathrm{Jump}_{\mathrm{avg}}(T).
+      \]
+
+      On the Jump avg branch, the averaged endpoint theorem cannot be spent unless the branch has already been brought into the averaged class-membership object. Thus Jump avg requires a branch-native elimination theorem. Only after that the strict averaged-good branch remains, and the conditional route reaches
+
+      \[
+      End_{NS,avg}.
+      \]
+
+      \[
+      \inf_{(a,t)\in T}r_g(a,t)=0\Longrightarrow \mathrm{Jump}_{\mathrm{avg}}(T).
+      \]
+
+      If r g is bounded below by R *>0 on a compact terminal piece, the SCF-good cylinders of radius at least R */2 form an open cover in same-fluid coordinates. Compactness gives a finite subcover with positive minimum radius. If the infimum of available radii along the terminal tail equals zero, there is a sequence (a n,t n) in the terminal tail with r g(a n,t n) tending to zero. This is loss of every positive same-fluid SCF-good coherence scale on the tail, exactly Jump avg.
+
+      \[
+      \varepsilon_m>0,
+      \qquad
+      \theta_m\in(0,1/2),
+      \qquad
+      C_m<\infty,
+      \]
+
+      Rescale the moving cylinder to unit size. Bounded same-fluid distortion transfers the cylinder to a CKN-admissible cylinder with controlled constants. Choose epsilon m below the corresponding CKN epsilon threshold. Interior CKN regularity and parabolic bootstrapping give, for 0<=k<=m+2,
+
+      \[
+      \sup_{Q_{\theta_m R}^\Phi}R^{k+1}|\nabla^k u|
+      +
+      \sup_{Q_{\theta_m R}^\Phi}R^{k+3}|\nabla^{k+1}p|
+      \le C_m.
+      \]
+
+      The strict branch supplies a finite positive-scale SCF-good cover with bounded overlap. For each cover element and route parameter, ATD m epsilon supplies the local averaged packet. The local averaged ACT inequality is
+
+      Absolute continuity of L 1 integrals gives a finite partition on which both int B and int G are below the local thresholds. Since each local integral is b
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Unified Survivor Conditional Theorem Packet Audit Note
+    line_start: 56176
+    line_end: 56233
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56176
+    start_anchor: "\\subsection{Unified Survivor Conditional Theorem Packet Audit
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Unified Survivor Finite-Infinitesimal Separation
+      Defect Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Unified Survivor Conditional Theorem Packet Audit Note}
+
+      The packet becomes misleading only if these inputs are silently treated as already proved by their names.
+
+      \[
+      t_n\uparrow T_\ast,
+      \qquad
+      0<\varepsilon_n<R_n<\rho,
+      \]
+
+      \[
+      d\mu_n(a,\omega,\theta)
+      :=
+      \frac{
+      |\mathfrak D(a,r_n(\theta)\omega,t_n)|^2
+      }{
+      r_n(\theta)^2
+      }
+      \,da\,d\omega\,d\theta,
+      \]
+
+      \[
+      r_n(\theta)=\varepsilon_n^{1-\theta}R_n^\theta,
+      \qquad
+      0\le\theta\le1.
+      \]
+
+      \[
+      \liminf_{n\to\infty}\mu_n(A\times S^2\times[0,1])\ge\eta>0,
+      \]
+
+      \[
+      \sup_n\mu_n(A\times S^2\times[0,1])\le C,
+      \]
+
+      The branch projections are legitimate only with their native regularity and carrier hypotheses visible.
+
+      But that is a definition-level collapse only after the bridge obligations show that the historical terminal families really are those cuts.
+
+      (B1) signed gap-kernel to affine quotient: Cauchy--Schwarz is only a stressification inequality unless it also proves that the signed first-order gap kernel factors through the affine quotient despite the operator-order mismatch. (B2) positive gap-flux carrier as shadow: the equality Flux =B( ) is valid only if the installed positive carrier is exactly this quadratic h/F cut, with the active-shell homogeneity matched. (B3) shell strain barrier to affine moments: the stressification map must be installed as a lawful atlas bridge from the linear shell barrier to the quadratic affine moment carrier.
+
+      Without (B1)--(B3), the strongest statement remains: one proposed common source object, two terminal families, and three exact bridge obligations.
+
+      Readout edges may prove component identity. They do not by themselves transport estimates backward.
+
+      It does not by itself prove that the budget is available from the pre-endpoint same-fluid data.
+
+      The nonzero survival argument is currently circular. It says: if every licensed h/F survivor vanished, then pack compatibility and the tower/field finite-separation residue would both disappear, leaving no class-exit carrier. But that inference alr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Uniform Temporal Dissipation Integrability p.A attempt
+    line_start: 56288
+    line_end: 56340
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56288
+    start_anchor: "\\subsection{Uniform Temporal Dissipation Integrability p.A attempt}\n"
+    end_anchor: "\\subsection{Clay problem Uniform Temporal Integrability Next Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Uniform Temporal Dissipation Integrability p.A attempt}
+
+      Direct attack on the bypass-local temporal anti-atom supplier for the SCF carrier.
+
+      \[
+      d_{n,R}(s)
+      :=
+      \int_{B_R}|\nabla u^{(n)}(y,s)|^2\,dy.
+      \]
+
+      \[
+      \begin{gathered}
+      \text{Uniform Temporal Dissipation Integrability p.A asks for} \\
+      \|d_{n,R}\|_{L_s^p((-1,0))}\le C_R
+      \qquad
+      \text{for some }p>1.
+      \end{gathered}
+      \]
+
+      \[
+      \mu_{D,*}(B_R\times\{0\})=0
+      \]
+
+      \[
+      \|d_{n,R}\|_{L_s^1((-1,0))}\le C_R.
+      \]
+
+      The local energy inequality gives a balance law. The flux and pressure terms on
+      the boundary of the localized cylinder are exactly the source/carrier terms
+      already isolated in the source-wall route. That balance supplies the
+      \(L_s^1\) control above. It leaves unpaid a uniform \(L_s^p\), \(p>1\),
+      estimate for \(d_{n,R}\) on selected terminal windows.
+
+      \[
+      d_{n,R}(s)
+      =
+      c_0 n\,\mathbf 1_{(-1/n,0]}(s).
+      \]
+
+      The measures \(d_{n,R}(s)\,ds\) converge weak-* to \(c_0\delta_0\).
+      This is exactly the terminal atom that Temporal Non Atomic SCF.A must rule out.
+
+      No installed surface proves this for the bad-scale extracted class. External
+      reverse-Holder results for Navier-Stokes apply to special classes or under
+      additional scale-invariant majorants. Producing such a majorant here is a
+      rigid-class theorem or a reserve theorem, not a free consequence of local
+      suitability.
+
+      A superlinear temporal bound for \(d_{n,R}\) is a scale-normalized bound on
+      the dissipation carrier. In the dyadic packet language this is the reserve or
+      active-source Carleson control already named by the source-wall primitive.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Terminal Defect Persistence.A measure split}
+
+    The stronger statement that the limiting velocity-pressure pair itself has large SCF base remains open unless the route supplies strong convergence of all SCF components or a Liouville theorem that accepts the residual defect measure.
+
+    \[
+    \nu_n
+    :=
+    \nu_{E,n}+\nu_{D,n}+\nu_{P,n}+\nu_{\Phi,n}.
+    \]
+
+    Here $\nu_{D,n}$ is the rescaled $|u^{(n)}|^2$ carrier and $\nu_{P,n}$ is
+    the rescaled local-pressure $|p_{\mathrm{loc}}^{(n)}|^{3/2}$ carrier in the
+    compatible pressure gauge. The energy and geometric terms are included with
+    the same normalization used by the SCF base.
+
+    \[
+    \sup_n \nu_n(Q_R^-)<\infty
+    \qquad\text{for every fixed }R.
+    \]
+
+    \[
+    \int \psi\,d\nu_n\ge c_0
+    \qquad\text{for all large }n.
+    \]
+
+    \[
+    \nu_n\stackrel{*}{\rightharpoonup}\nu_*
+    \]
+
+    \[
+    \nu_*(Q_1^-)>0.
+    \]
+
+    Thus the extracted terminal tangent carries a nonzero terminal SCF defect measure.
+
+    This proves the measure-valued persistence statement. It is weaker than strong
+    persistence of the velocity-pressure pair itself: weak suitable compactness can
+    place part of the dissipation or local-pressure mass in the defect measure
+    instead of in a strong limiting field.
+
+
+
+    \subsection{Terminal Signed Saturation.A or donor-depletion hard stop}
+
+    Terminal Signed Saturation.A asks that every selected terminal positive source edge has its signed counter-edge either inside the usable same-fluid record or paid by a named legal record.
+
+    Current inputs supply the bare dyadic skew current before one-sided weights, lifted commutators, and terminal selection. After those operations, the selected positive edge can lose its counter-edge outside the usable terminal record. The residue is a real active strain-alignment source.
+
+    Parabolic NoFree Sink.A asks that every source-current path feeding terminal positive divergence is boundary-fed, heat-action charged, legal-loss charged, or earlier-forbidden.
+
+    \[
+    J(A\to B)=F>0,
+    \qquad
+    \operatorname{div}J(B)=F,
+    \qquad
+    \operatorname{div}J(A)=-F.
+    \]
+
+    The receiver has terminal positive divergence. The donor is an internal negative sink. First-current pruning acts on earlier positive arrivals, while the donor is negative. Boundary and cutoff records price genuine exits and localization losses. A legal same-fluid donor inside the packet system needs a donor reserve.
+
+    Raw energy, local energy, finite shell banding, and same-fluid transport do not produce the scale-normalized donor reserve.
+
+    Current installed inputs reduce every branch to this same source-wall object. A new theorem must either establish signed positive-source balance on selected terminal windows or supply a scale-normalized donor reserve for legal internal same-fluid donor sinks.
+
+
+
+    \subsection{Terminal Source Reverse Holder Basac Direct Attempt}
+
+    \[
+    \boxed{TerminalSourceReverseHolder_{B\_ASAC}.A.}
+    \]
+
+    \[
+    \left\|\|F_N^{src,+}(t)\|_{\mathcal M(B_R)}\right\|_{L_t^p(T-\delta,T)}\le C_{R,\delta},
+    \qquad p>1,
+    \]
+
+    These inputs organize equality and carrier balance. They give source mass bookkeeping at the terminal class.
+
+    The target asks for a super-L 1 estimate in time. B ASAC equality geometry constrains the algebraic equality class and carrier balance. It supplies no direct convexity or smoothing in the time marginal.
+
+    \[
+    F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
+    \qquad \tau_N\downarrow0.
+    \]
+
+    It would say that B ASAC equality geometry forces positive time thickness of native source mass.
+
+    Terminal Source Reverse Holder B ASAC .A fails from installed B ASAC inputs. The equality class supplies geometry and balance. It lacks the temporal spreading estimate needed for a reverse Holder upgrade.
+
+
+
+    \subsection{Tgc A Noescape Jumpavg Hardening Note}
+
+    Before the finite-cover scheduler and pointwise readout can be used, the terminal-tail bridge needs one classification step: persistent failure of a positive SCF-good averaged coherence scale on every terminal subtail is the averaged jump face.
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}
+    :=
+    \{(a,t)\in\mathcal T:r_{\mathrm{good}}(a,t)=0\}.
+    \]
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+    \Longleftrightarrow
+    \forall\text{ terminal subtails }\mathcal T'\subset\mathcal T,
+    \quad
+    \inf_{(a,t)\in\mathcal T'}r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    Equivalently, Jump avg is persistent failure of a positive scale-critical SCF-good averaged one-field coherence packet on every terminal subtail.
+
+    \[
+    \boxed{
+    \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+    }
+    \]
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}\ne\varnothing.
+    \]
+
+    \[
+    r_{\mathrm{good}}(a_0,t_0)=0.
+    \]
+
+    Every terminal subtail containing the terminal endpoint of (a 0,t 0) has infimum good radius equal to zero. Hence the terminal tail has persistent failure of positive SCF-good averaged one-field coherence. By the definition of the averaged jump face,
+
+    Taking n 0 yields a sequence of material points with good radii tending to zero. Compactness of the retained terminal label-time tail gives a convergent subsequence. If the limit point had a stable positive SCF-good radius, local stability of the SCF packet in bounded-distortion same-fluid charts would give a uniform positive lower radius for all sufficiently large sequence elements. This contradicts r good 0. Thus the limit is a terminal coherence fracture point in the averaged SCF-good sense, giving Jump avg.
+
+
+
+    \subsection{Tgc A Upstream Spending Audit Note}
+
+    Jump avg to obtain a terminal subtail with positive lower r good; compactness of the retained terminal subtail to extract a finite cover; bounded pack geometry to obtain finite overlap; SCF-good monotonicity under cylinder restriction; finite route parameter set for scheduler-ready majorants.
+
+    This is the first endpoint package in the route, and it is averaged. It removes averaged faces such as Jump avg and tower-blown avg. Pointwise endpoint rows are still absent at this stage.
+
+
+
+    \subsection{Independent Verification And Paper Proof Package}
+
+    Let T * be finite and let T be a same-fluid terminal approach tail. The averaged cover dichotomy gives
+
+    \[
+    T\subset\text{strict averaged-good branch}\quad\vee\quad \mathrm{Jump}_{\mathrm{avg}}(T).
+    \]
+
+    On the Jump avg branch, the averaged endpoint theorem cannot be spent unless the branch has already been brought into the averaged class-membership object. Thus Jump avg requires a branch-native elimination theorem. Only after that the strict averaged-good branch remains, and the conditional route reaches
+
+    \[
+    End_{NS,avg}.
+    \]
+
+    \[
+    \inf_{(a,t)\in T}r_g(a,t)=0\Longrightarrow \mathrm{Jump}_{\mathrm{avg}}(T).
+    \]
+
+    If r g is bounded below by R *>0 on a compact terminal piece, the SCF-good cylinders of radius at least R */2 form an open cover in same-fluid coordinates. Compactness gives a finite subcover with positive minimum radius. If the infimum of available radii along the terminal tail equals zero, there is a sequence (a n,t n) in the terminal tail with r g(a n,t n) tending to zero. This is loss of every positive same-fluid SCF-good coherence scale on the tail, exactly Jump avg.
+
+    \[
+    \varepsilon_m>0,
+    \qquad
+    \theta_m\in(0,1/2),
+    \qquad
+    C_m<\infty,
+    \]
+
+    Rescale the moving cylinder to unit size. Bounded same-fluid distortion transfers the cylinder to a CKN-admissible cylinder with controlled constants. Choose epsilon m below the corresponding CKN epsilon threshold. Interior CKN regularity and parabolic bootstrapping give, for 0<=k<=m+2,
+
+    \[
+    \sup_{Q_{\theta_m R}^\Phi}R^{k+1}|\nabla^k u|
+    +
+    \sup_{Q_{\theta_m R}^\Phi}R^{k+3}|\nabla^{k+1}p|
+    \le C_m.
+    \]
+
+    The strict branch supplies a finite positive-scale SCF-good cover with bounded overlap. For each cover element and route parameter, ATD m epsilon supplies the local averaged packet. The local averaged ACT inequality is
+
+    Absolute continuity of L 1 integrals gives a finite partition on which both int B and int G are below the local thresholds. Since each local integral is bounded by the corresponding sum, every local scheduler inequality holds simultaneously.
+
+    ATD m epsilon supplies the product-source carrier because m>=N+2. The viscous part of
+
+    The standard periodic H s local theory continues the solution beyond T *, contradiction. Hence T *=infty and
+
+
+
+    \subsection{Unified Survivor Conditional Theorem Packet Audit Note}
+
+    The packet becomes misleading only if these inputs are silently treated as already proved by their names.
+
+    \[
+    t_n\uparrow T_\ast,
+    \qquad
+    0<\varepsilon_n<R_n<\rho,
+    \]
+
+    \[
+    d\mu_n(a,\omega,\theta)
+    :=
+    \frac{
+    |\mathfrak D(a,r_n(\theta)\omega,t_n)|^2
+    }{
+    r_n(\theta)^2
+    }
+    \,da\,d\omega\,d\theta,
+    \]
+
+    \[
+    r_n(\theta)=\varepsilon_n^{1-\theta}R_n^\theta,
+    \qquad
+    0\le\theta\le1.
+    \]
+
+    \[
+    \liminf_{n\to\infty}\mu_n(A\times S^2\times[0,1])\ge\eta>0,
+    \]
+
+    \[
+    \sup_n\mu_n(A\times S^2\times[0,1])\le C,
+    \]
+
+    The branch projections are legitimate only with their native regularity and carrier hypotheses visible.
+
+    But that is a definition-level collapse only after the bridge obligations show that the historical terminal families really are those cuts.
+
+    (B1) signed gap-kernel to affine quotient: Cauchy--Schwarz is only a stressification inequality unless it also proves that the signed first-order gap kernel factors through the affine quotient despite the operator-order mismatch. (B2) positive gap-flux carrier as shadow: the equality Flux =B( ) is valid only if the installed positive carrier is exactly this quadratic h/F cut, with the active-shell homogeneity matched. (B3) shell strain barrier to affine moments: the stressification map must be installed as a lawful atlas bridge from the linear shell barrier to the quadratic affine moment carrier.
+
+    Without (B1)--(B3), the strongest statement remains: one proposed common source object, two terminal families, and three exact bridge obligations.
+
+    Readout edges may prove component identity. They do not by themselves transport estimates backward.
+
+    It does not by itself prove that the budget is available from the pre-endpoint same-fluid data.
+
+    The nonzero survival argument is currently circular. It says: if every licensed h/F survivor vanished, then pack compatibility and the tower/field finite-separation residue would both disappear, leaving no class-exit carrier. But that inference already requires the representation theorem that all terminal class-exit carriers factor through h/F.
+
+    This proves domination, not identification. It does not recover sign, cancellation, or the first-order log-scale operator data from the positive quadratic survivor.
+
+    The proposed (B3) step defines an affine moment pushforward, but it does not prove that the shell strain barrier already equals that pushforward. The historical obstruction remains: the shell barrier is linear-in-amplitude on the vorticity/strain side, while the affine moment carrier is a quadratic stressified readout.
+
+    In plain route language: the completion packet is a good assembly plan, but it has not yet solved the unified survivor representation theorem or the two-family collapse theorem. Those are the live mathematical atoms.
+
+    so a first class exit forces nonzero h/F survivor mass, provided the two restoration lemmas below are installed.
+
+
+
+    \subsection{Uniform Temporal Dissipation Integrability p.A attempt}
+
+    Direct attack on the bypass-local temporal anti-atom supplier for the SCF carrier.
+
+    \[
+    d_{n,R}(s)
+    :=
+    \int_{B_R}|\nabla u^{(n)}(y,s)|^2\,dy.
+    \]
+
+    \[
+    \begin{gathered}
+    \text{Uniform Temporal Dissipation Integrability p.A asks for} \\
+    \|d_{n,R}\|_{L_s^p((-1,0))}\le C_R
+    \qquad
+    \text{for some }p>1.
+    \end{gathered}
+    \]
+
+    \[
+    \mu_{D,*}(B_R\times\{0\})=0
+    \]
+
+    \[
+    \|d_{n,R}\|_{L_s^1((-1,0))}\le C_R.
+    \]
+
+    The local energy inequality gives a balance law. The flux and pressure terms on
+    the boundary of the localized cylinder are exactly the source/carrier terms
+    already isolated in the source-wall route. That balance supplies the
+    \(L_s^1\) control above. It leaves unpaid a uniform \(L_s^p\), \(p>1\),
+    estimate for \(d_{n,R}\) on selected terminal windows.
+
+    \[
+    d_{n,R}(s)
+    =
+    c_0 n\,\mathbf 1_{(-1/n,0]}(s).
+    \]
+
+    The measures \(d_{n,R}(s)\,ds\) converge weak-* to \(c_0\delta_0\).
+    This is exactly the terminal atom that Temporal Non Atomic SCF.A must rule out.
+
+    No installed surface proves this for the bad-scale extracted class. External
+    reverse-Holder results for Navier-Stokes apply to special classes or under
+    additional scale-invariant majorants. Producing such a majorant here is a
+    rigid-class theorem or a reserve theorem, not a free consequence of local
+    suitability.
+
+    A superlinear temporal bound for \(d_{n,R}\) is a scale-normalized bound on
+    the dissipation carrier. In the dyadic packet language this is the reserve or
+    active-source Carleson control already named by the source-wall primitive.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Defect Persistence.A measure split
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54410
+  line_start: 54410
+  line_end: 54450
+  start_anchor: "\\subsection{Terminal Defect Persistence.A measure split}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Eigenframe Turnover Charge.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Defect Persistence.A
+    measure split as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54410
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Signed Saturation.A or donor-depletion hard stop
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54947
+  line_start: 54947
+  line_end: 54969
+  start_anchor: "\\subsection{Terminal Signed Saturation.A or donor-depletion hard
+    stop}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Skew Localization record Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Signed Saturation.A
+    or donor-depletion hard stop as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54947
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Reverse Holder Basac Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55265
+  line_start: 55265
+  line_end: 55289
+  start_anchor: "\\subsection{Terminal Source Reverse Holder Basac Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Source Reverse Holder.A Direct Closure
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Reverse Holder
+    Basac Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55265
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tgc A Noescape Jumpavg Hardening Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55802
+  line_start: 55802
+  line_end: 55842
+  start_anchor: "\\subsection{Tgc A Noescape Jumpavg Hardening Note}\n"
+  end_anchor: "\\subsection{Tgc A Upstream Spending Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tgc A Noescape Jumpavg Hardening
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55802
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tgc A Upstream Spending Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55843
+  line_start: 55843
+  line_end: 55849
+  start_anchor: "\\subsection{Tgc A Upstream Spending Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Tower-Face To CM-Row Projection Closure Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tgc A Upstream Spending Audit
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55843
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Independent Verification And Paper Proof Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56036
+  line_start: 56036
+  line_end: 56081
+  start_anchor: "\\subsection{Independent Verification And Paper Proof Package}\n"
+  end_anchor: "\\subsection{Clay problem Two-Tower Donor Balance Modulo Refill Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Independent Verification And
+    Paper Proof Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56036
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Unified Survivor Conditional Theorem Packet Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56176
+  line_start: 56176
+  line_end: 56233
+  start_anchor: "\\subsection{Unified Survivor Conditional Theorem Packet Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Unified Survivor Finite-Infinitesimal Separation
+    Defect Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Unified Survivor Conditional
+    Theorem Packet Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56176
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Uniform Temporal Dissipation Integrability p.A attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56288
+  line_start: 56288
+  line_end: 56340
+  start_anchor: "\\subsection{Uniform Temporal Dissipation Integrability p.A attempt}\n"
+  end_anchor: "\\subsection{Clay problem Uniform Temporal Integrability Next Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Uniform Temporal Dissipation
+    Integrability p.A attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56288
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-64
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-64.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

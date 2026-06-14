@@ -40,8 +40,8 @@ quantity such as:
 
 ```math
 w_J(t,x)
-\approx
-\sum_{Q\sim Q'}
+:=
+\sum_{(Q,Q')\in\mathcal A_J^{adj}}
 c_{Q,Q'}\,
 U_j(t)\phi_Q(x)\,\overline{U_j(t)\phi_{Q'}(x)},
 \tag{OD.2}
@@ -125,4 +125,4 @@ This still does **not** solve the live selector-local lower-bound burden.
 What it does close is the derived-defect side of the route: once the selector
 packet has produced nonshadowing or a shadow-time budget, the downstream
 parabolic tools can be attached to explicit equations rather than to a
-schematic placeholder.
+formal placeholder.

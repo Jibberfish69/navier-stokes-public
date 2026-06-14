@@ -164,7 +164,8 @@ Then:
 
 ```math
 \int_0^{T_J}\|\nabla u_{\le J}(t)\|_{L_x^\infty}\,dt
-\lesssim
+\le
+C_{\nabla}
 \sum_{k\le J}
 2^{\frac32 k}\|\Delta_k\omega\|_{L_t^1L_x^2(0,T_J)}
 \le
@@ -176,7 +177,8 @@ and
 
 ```math
 \int_0^{T_J}\|u_{>J}(t)\|_{L_x^\infty}\,dt
-\lesssim
+\le
+C_u
 \sum_{k>J}
 2^{\frac12 k}\|\Delta_k\omega\|_{L_t^1L_x^2(0,T_J)}
 \le
@@ -189,7 +191,8 @@ Hence
 ```math
 \boxed{
 \sup_{0\le t\le T_J}\delta_J(t)
-\lesssim
+\le
+C_\delta
 \exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J).
 }
 \tag{HF.15}
@@ -201,9 +204,11 @@ By Biot--Savart and Bernstein, for each dyadic shell `k`,
 
 ```math
 \|\Delta_k u\|_{L_x^\infty}
-\lesssim
+\le
+C_B
 2^{\frac32 k}\|\Delta_k u\|_{L_x^2}
-\lesssim
+\le
+C_{BS}
 2^{\frac12 k}\|\Delta_k\omega\|_{L_x^2},
 \tag{HF.16}
 ```
@@ -212,9 +217,11 @@ and
 
 ```math
 \|\nabla\Delta_k u\|_{L_x^\infty}
-\lesssim
+\le
+C_B'
 2^k\|\Delta_k u\|_{L_x^\infty}
-\lesssim
+\le
+C_{\nabla BS}
 2^{\frac32 k}\|\Delta_k\omega\|_{L_x^2}.
 \tag{HF.17}
 ```

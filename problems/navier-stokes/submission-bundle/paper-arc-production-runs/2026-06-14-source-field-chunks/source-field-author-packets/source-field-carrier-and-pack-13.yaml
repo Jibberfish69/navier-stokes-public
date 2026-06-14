@@ -1,0 +1,1017 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-13
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-13
+  sequence: 15
+  group_id: carrier-and-pack
+  title: Carrier and Pack 13
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 45349
+  line_end: 50037
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45349
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46532
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46693
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49378
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49621
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49685
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49998
+  subsection_titles:
+  - Pctp Hard Pack Detachment Absorption
+  - Clay problem Pressure Carrier Trace.A direct attempt
+  - Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+  - Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy
+  - Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain Gap
+  - Retained Pack/Part Critical Concentration To Field Bridge
+  - Clay problem Retained Pack/Field No-Incoming Participation Flux
+  - Clay problem same witness Heat Ancestor Localization.A Proof
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pctp Hard Pack Detachment Absorption
+    line_start: 45349
+    line_end: 45389
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45349
+    start_anchor: "\\subsection{Pctp Hard Pack Detachment Absorption}\n"
+    end_anchor: "\\subsection{Pctp Hard Participation Persistence}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Pctp Hard Pack Detachment Absorption}
+
+      \[
+      Part_{N,Q}+Field_{N,r,Q}+\mathfrak A_{N,Q}\in L^\infty(0,T_*)
+      \Longrightarrow
+      \Gamma_{pack,Q}\in L^\infty(0,T_*).
+      \]
+
+      \[
+      packing\text{-}detached
+      \Longrightarrow
+      Dead\vee Jump\vee tower\text{-}blown
+      \]
+
+      \[
+      \Gamma_{pack,Q}(t)
+      :=\sup_{a\in A_Q(t)}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}.
+      \]
+
+      \[
+      \mathfrak A_{N,Q}(t)\le M_A,
+      \qquad 0<t<T_*.
+      \]
+
+      Take N>=1, so the tower readout includes first spatial derivatives of velocity on the coherent cover.
+
+      By Field N,r,Q , the retained terminal material packet is covered by coherent cylinders with radius bounded below by r *. By compactness of the retained packet on each terminal tail and persistence of Part N,Q , finitely many such coherent cylinders cover the packet with no label loss.
+
+      By the bounded tower assumption with N>=1, the velocity-gradient readout is uniformly bounded on this finite coherent cover. Hence there is a finite constant M such that for every retained material label a and every t<T *,
+
+      \[
+      \|\nabla u(X(a,t),t)\|\le M.
+      \]
+
+      where the inequalities are read in the upper Dini sense at points where the norms are nonzero. Gronwall gives
+
+      Thus pack detachment cannot occur while Part, Field, and the tower amplitude remain controlled.
+
+      The result here is a conditional absorption lemma. Part, Field, and bounded tower amplitude still have to be produced from Original Smooth Data on the terminal tail.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Carrier Trace.A direct attempt
+    line_start: 46532
+    line_end: 46564
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46532
+    start_anchor: "\\subsection{Clay problem Pressure Carrier Trace.A direct attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+      Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pressure Carrier Trace.A direct attempt}
+
+      Pressure Carrier Trace.A asks for pressure-side residue to remain tied to the selected native source-current carrier on the B ASAC closed branch.
+
+      \[
+      \mu_*^{press}\ll \mu_*^{src}
+      \]
+
+      Pressure is recovered by an elliptic operator from quadratic gradient data. The associated kernel is spatially nonlocal at each time. This can move pressure residue across spatial packet boundaries.
+
+      Thus pressure residue can be coupled to the source-wall branch without being supported on the exact selected native source-current carrier.
+
+      A carrier trace theorem needs additional localization/tether estimates beyond the pressure equation itself.
+
+      Same-fluidity licenses the source carrier and parent-child ancestry. It does not make the elliptic pressure kernel local to that carrier. The pressure term sees the whole instantaneous gradient field, including lower/near-band interactions outside the selected positive source packet.
+
+      so same-fluidity gives carrier admissibility, while pressure carrier trace remains a separate theorem.
+
+      \[
+      \mu_*^{press}\ll\mu_*^{src}
+      \]
+
+      \[
+      \rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      Carrier trace alone is compatible with the terminal atom. It binds pressure to the source carrier, and it supplies no temporal epsilon-modulus.
+
+      Pressure identities are signed. The terminal obstruction uses localization, one-sided terminal weights, and positive-part selection. Signed carrier cancellation can disappear at that stage. A trace theorem surviving this selection becomes a finite-packet Leray/source tether theorem, which remains a separate subtarget.
+
+      It would support Pressure Source Time Face Spread.A only as the carrier-tether component. It does not provide the time-face spread component.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+    line_start: 46565
+    line_end: 46593
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
+    start_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+      Test}\n"
+    end_anchor: "\\subsection{Clay problem Pressure-Hessian Partner Graph Normal Form}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness Test}
+
+      Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Pack/Part/Field witness face for the current CM discipline.
+
+      \[
+      Pack_Q,
+      \qquad
+      Part_{N,Q},
+      \qquad
+      Field_{N,r,Q}.
+      \]
+
+      A diagnostic landing is weaker. It classifies the obstruction. A witness theorem must produce usable face data or discharge the failure surface on the relevant carrier.
+
+      If proved, this endpoint would convert pressure-sustain residue into native source residue or a finite packet source tether. That would feed the source-current branch and could support Field-side source data.
+
+      The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Pack/Part/Field witness.
+
+      If proved, this endpoint would remove the pure pressure-sustain residue. The direct Liouville, rigid-class production, trace/angular saturation, legal classification, and time-spread tests all failed from installed inputs.
+
+      Thus this endpoint supplies no present witness face. It remains a future pressure-specific theorem.
+
+      If proved, this endpoint would create a legal pressure class for retained pure-strain pressure sustain. The legal-classification attempt showed that the existing legal pressure records cover collar, harmonic, cutoff/projector, and off-family exits only. The retained interior pure pressure residue needs a new legal class and terminal summability proof.
+
+      It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Pack/Part/Field witness theorem.
+
+      The source-wall root so requires a non-pressure supplier entrance or an independent proof of one of the named pressure endpoints.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy
+    line_start: 46693
+    line_end: 46727
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46693
+    start_anchor: "\\subsection{Clay problem Pressure Quadratic-Defect Native-Carrier
+      Dichotomy}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Rigid Class Production.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy}
+
+      Purpose: continue the pressure/eigenframe branch after Pressure SourceAC.A failed from installed identities. The requested item was an independent theorem forcing pressure quadratic-gradient defect to live on the native source-current carrier. The source-only theorem fails algebraically; the independent theorem available at this level is a carrier dichotomy.
+
+      \[
+      \mu_*^{press-sus}
+      \]
+
+      \[
+      \nu_*^{src}
+      \]
+
+      \[
+      \nu_*^{legal,src}
+      \]
+
+      \[
+      \Lambda_*^{src}:=\nu_*^{src}+\nu_*^{legal,src}.
+      \]
+
+      This theorem would imply Pressure SourceAC.A and hence Pressure Sustain Residue ToSource Residue.A on the interior pressure region.
+
+      \[
+      (S+\Omega)\otimes(S+\Omega),
+      \]
+
+      so pressure quadratic-gradient defect has a component outside the native vorticity source carrier at the level of local identities. Any theorem forcing source-only support needs a new PDE exclusion of this pure-strain pressure component.
+
+      The first branch is the desired source-wall branch. The second branch is a pure pressure-source singular residue relative to the native source-current carrier.
+
+      The independent source-only theorem was not found. The strongest noncircular theorem at this level is the carrier dichotomy above.
+
+      This sets the next item precisely: decide whether * press src is a legal pressure residue class, or whether it requires a new Liouville theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain
+      Gap
+    line_start: 49378
+    line_end: 49412
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49378
+    start_anchor: "\\subsection{Clay problem Retained Face Amplitude Gain.A Target
+      And Pack-Gain Gap}\n"
+    end_anchor: "\\subsection{Retained Field Actkx License And Conditional Closure}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain Gap}
+
+      \[
+      \|U_P\|_2
+      \le
+      \varepsilon_N\nu r_P^{1/2},
+      \qquad
+      \varepsilon_N\to0.
+      \]
+
+      The retained-face idea is correct in shape: amplitude gain should not be proved as a raw finite-energy theorem. It should be proved relative to retained CM faces.
+
+      Without this gain record, current Pack Q as finite deformation gauge does not by itself control the positive low-strain gain used in the first-crossing argument.
+
+      \[
+      r_P=2^{-j_P},
+      \]
+
+      \[
+      a_P(t)
+      :=
+      \frac{\|U_P(t)\|_2}{\nu r_P^{1/2}}.
+      \]
+
+      \[
+      \neg Pack_Q\vee\neg Part_{N,Q}.
+      \]
+
+      \[
+      \dot X_P=u_{\le j_P-C}(X_P,t).
+      \]
+
+      Here P is legal loss, and Part N,Q is responsible for routing pressure, viscous-participation, cutoff, and off-packet pieces into legal loss plus the quadratic high-tail term.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained Pack/Part Critical Concentration To Field Bridge
+    line_start: 49621
+    line_end: 49684
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49621
+    start_anchor: "\\subsection{Retained Pack/Part Critical Concentration To Field
+      Bridge}\n"
+    end_anchor: "\\subsection{Clay problem Retained Pack/Field No-Incoming Participation
+      Flux}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Retained Pack/Part Critical Concentration To Field Bridge}
+
+      Optional public-analogue import target. This is the narrow bridge worth keeping; it is not the live source-pulse supplier theorem and it is not proved here.
+
+      Object boundary: this bridge classifies a retained concentration or residue after the supplier problem has failed to remove it. It does not classify Positive Remainder Depletion.A itself.
+
+      In the route notes, this is the retained Pack/Part critical-concentration
+      bridge for \(X\).  Its job is to say that once Pack and Part are retained, a
+      remaining critical concentration is a Field failure rather than a new fourth
+      face.
+
+      \[
+      \boxed{
+      \begin{aligned}
+      Pack_Q(\mathcal W)
+      \wedge Part_{N,Q}(\mathcal W)
+      \wedge CritConc_X(\mathcal W)
+      &\Longrightarrow
+      \neg Field_{N,r,Q}(\mathcal W).
+      \end{aligned}
+      }
+      \]
+
+      \[
+      \boxed{
+      Pack_Q(\mathcal W)
+      \wedge
+      Part_{N,Q}(\mathcal W)
+      \wedge
+      Field_{N,r,Q}(\mathcal W)
+      \Longrightarrow
+      \neg CritConc_X(\mathcal W).
+      }
+      \]
+
+      Part keeps the terminal object inside the same Navier-Stokes participation law, with pressure and viscosity still tied to the same PDE object.
+
+      So after Pack and Part are retained, a remaining public critical concentration is no longer a carrier failure or a participation failure. It has to be read as failure of one-field coherence, pressure/source readout, or neighboring tower compatibility. That is exactly the Field face.
+
+      \[
+      CritConc_X
+      \leadsto
+      CritConc_X(\mathcal W).
+      \]
+
+      \[
+      Pack_Q(\mathcal W),
+      \quad
+      Part_{N,Q}(\mathcal W)
+      \quad
+      \text{remain retained}.
+      \]
+
+      \[
+      Field_{N,r,Q}(\mathcal W)
+      \Longrightarrow
+      \text{no }X\text{-critical concentration on }\mathcal W.
+      \]
+
+      This is the place where public machinery could matter: localized smoothing, critical-element compactness, Lorentz/Besov quantitative regularity, or dynamically restricted endpoint concentration estimates.
+
+      The public bridge is a translator. The native source-pulse problem is still the active supplier problem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Pack/Field No-Incoming Participation Flux
+    line_start: 49685
+    line_end: 49703
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49685
+    start_anchor: "\\subsection{Clay problem Retained Pack/Field No-Incoming Participation
+      Flux}\n"
+    end_anchor: "\\subsection{Clay problem Reverse Four-Body Class-Membership Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Retained Pack/Field No-Incoming Participation Flux}
+
+      Installed CM-relative theorem. This is not a bare forward supplier theorem from B ASAC; it is the contrapositive use of the May 19 face labeling theorem.
+
+      \[
+      \mu_*^{src}(Q_R\times\{0\})>0
+      \Longrightarrow
+      \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}
+      \]
+
+      \[
+      \mu_*^{src}(Q_R\times\{0\})=0.
+      \]
+
+      Thus a positive terminal atom cannot coexist with retained finite CM. If the atom is positive, the branch has already exited through Pack, Part, or Field.
+
+      This proves the CM-relative no-incoming step. It does not prove the stronger forward supplier statement
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem same witness Heat Ancestor Localization.A Proof
+    line_start: 49998
+    line_end: 50037
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49998
+    start_anchor: "\\subsection{Clay problem same witness Heat Ancestor Localization.A
+      Proof}\n"
+    end_anchor: "\\subsection{Clay problem Scalarized Material-Packet Tower And Packing
+      Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem same witness Heat Ancestor Localization.A Proof}
+
+      \[
+      \text{terminal local }L^3\text{ mass of a heat evolution}
+      \Longrightarrow
+      \text{same-ledger earlier critical slice}
+      \vee
+      \neg Pack_Q.
+      \]
+
+      \[
+      v_m(t)=e^{(t-s_m)\nu\Delta}f_m
+      \]
+
+      \[
+      \ell_m^{-2}\int_{Q_m}|v_m|^3\,dxdt\ge c_0>0 .
+      \]
+
+      \[
+      \psi_m
+      =
+      \ell_m^{-2/3}
+      \frac{|\eta_m v_m|\eta_m v_m}{\|\eta_m v_m\|_{L^3(Q_m)}^2},
+      \]
+
+      where eta m is supported on the selected terminal cylinder and equals one on the inner terminal cylinder. Then
+
+      \[
+      \int_{Q_m}v_m\cdot\psi_m\,dxdt\ge c_1>0.
+      \]
+
+      Now split m(s m) into the same-witness parent ball of radius C ell m and its complement.
+
+      If the complement carries a fixed fraction of the pairing, the backward heat mass that produced the terminal atom came from outside the selected parent record. That is exactly loss of retained carrier localization, hence Pack Q.
+
+      This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Pack face.
+
+      This is only the CM-facing local L 3 translator. It is not a public regularity discharge, not a generic all-critical-class theorem, and not a replacement for TerminalCMNo Exit.A / No GenuineCMExit.A.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Pctp Hard Pack Detachment Absorption}
+
+    \[
+    Part_{N,Q}+Field_{N,r,Q}+\mathfrak A_{N,Q}\in L^\infty(0,T_*)
+    \Longrightarrow
+    \Gamma_{pack,Q}\in L^\infty(0,T_*).
+    \]
+
+    \[
+    packing\text{-}detached
+    \Longrightarrow
+    Dead\vee Jump\vee tower\text{-}blown
+    \]
+
+    \[
+    \Gamma_{pack,Q}(t)
+    :=\sup_{a\in A_Q(t)}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}.
+    \]
+
+    \[
+    \mathfrak A_{N,Q}(t)\le M_A,
+    \qquad 0<t<T_*.
+    \]
+
+    Take N>=1, so the tower readout includes first spatial derivatives of velocity on the coherent cover.
+
+    By Field N,r,Q , the retained terminal material packet is covered by coherent cylinders with radius bounded below by r *. By compactness of the retained packet on each terminal tail and persistence of Part N,Q , finitely many such coherent cylinders cover the packet with no label loss.
+
+    By the bounded tower assumption with N>=1, the velocity-gradient readout is uniformly bounded on this finite coherent cover. Hence there is a finite constant M such that for every retained material label a and every t<T *,
+
+    \[
+    \|\nabla u(X(a,t),t)\|\le M.
+    \]
+
+    where the inequalities are read in the upper Dini sense at points where the norms are nonzero. Gronwall gives
+
+    Thus pack detachment cannot occur while Part, Field, and the tower amplitude remain controlled.
+
+    The result here is a conditional absorption lemma. Part, Field, and bounded tower amplitude still have to be produced from Original Smooth Data on the terminal tail.
+
+
+
+    \subsection{Clay problem Pressure Carrier Trace.A direct attempt}
+
+    Pressure Carrier Trace.A asks for pressure-side residue to remain tied to the selected native source-current carrier on the B ASAC closed branch.
+
+    \[
+    \mu_*^{press}\ll \mu_*^{src}
+    \]
+
+    Pressure is recovered by an elliptic operator from quadratic gradient data. The associated kernel is spatially nonlocal at each time. This can move pressure residue across spatial packet boundaries.
+
+    Thus pressure residue can be coupled to the source-wall branch without being supported on the exact selected native source-current carrier.
+
+    A carrier trace theorem needs additional localization/tether estimates beyond the pressure equation itself.
+
+    Same-fluidity licenses the source carrier and parent-child ancestry. It does not make the elliptic pressure kernel local to that carrier. The pressure term sees the whole instantaneous gradient field, including lower/near-band interactions outside the selected positive source packet.
+
+    so same-fluidity gives carrier admissibility, while pressure carrier trace remains a separate theorem.
+
+    \[
+    \mu_*^{press}\ll\mu_*^{src}
+    \]
+
+    \[
+    \rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    Carrier trace alone is compatible with the terminal atom. It binds pressure to the source carrier, and it supplies no temporal epsilon-modulus.
+
+    Pressure identities are signed. The terminal obstruction uses localization, one-sided terminal weights, and positive-part selection. Signed carrier cancellation can disappear at that stage. A trace theorem surviving this selection becomes a finite-packet Leray/source tether theorem, which remains a separate subtarget.
+
+    It would support Pressure Source Time Face Spread.A only as the carrier-tether component. It does not provide the time-face spread component.
+
+
+
+    \subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness Test}
+
+    Purpose: after the exhausted pressure branch was admitted as a Field-face diagnostic, test whether any pressure endpoint supplies a genuine noncircular Pack/Part/Field witness face for the current CM discipline.
+
+    \[
+    Pack_Q,
+    \qquad
+    Part_{N,Q},
+    \qquad
+    Field_{N,r,Q}.
+    \]
+
+    A diagnostic landing is weaker. It classifies the obstruction. A witness theorem must produce usable face data or discharge the failure surface on the relevant carrier.
+
+    If proved, this endpoint would convert pressure-sustain residue into native source residue or a finite packet source tether. That would feed the source-current branch and could support Field-side source data.
+
+    The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. so it supplies no present Pack/Part/Field witness.
+
+    If proved, this endpoint would remove the pure pressure-sustain residue. The direct Liouville, rigid-class production, trace/angular saturation, legal classification, and time-spread tests all failed from installed inputs.
+
+    Thus this endpoint supplies no present witness face. It remains a future pressure-specific theorem.
+
+    If proved, this endpoint would create a legal pressure class for retained pure-strain pressure sustain. The legal-classification attempt showed that the existing legal pressure records cover collar, harmonic, cutoff/projector, and off-family exits only. The retained interior pure pressure residue needs a new legal class and terminal summability proof.
+
+    It records that an uncharged retained pure pressure-sustain residue belongs on the Field/readout side of the CM record. This is useful bookkeeping. It cannot substitute for a Pack/Part/Field witness theorem.
+
+    The source-wall root so requires a non-pressure supplier entrance or an independent proof of one of the named pressure endpoints.
+
+
+
+    \subsection{Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy}
+
+    Purpose: continue the pressure/eigenframe branch after Pressure SourceAC.A failed from installed identities. The requested item was an independent theorem forcing pressure quadratic-gradient defect to live on the native source-current carrier. The source-only theorem fails algebraically; the independent theorem available at this level is a carrier dichotomy.
+
+    \[
+    \mu_*^{press-sus}
+    \]
+
+    \[
+    \nu_*^{src}
+    \]
+
+    \[
+    \nu_*^{legal,src}
+    \]
+
+    \[
+    \Lambda_*^{src}:=\nu_*^{src}+\nu_*^{legal,src}.
+    \]
+
+    This theorem would imply Pressure SourceAC.A and hence Pressure Sustain Residue ToSource Residue.A on the interior pressure region.
+
+    \[
+    (S+\Omega)\otimes(S+\Omega),
+    \]
+
+    so pressure quadratic-gradient defect has a component outside the native vorticity source carrier at the level of local identities. Any theorem forcing source-only support needs a new PDE exclusion of this pure-strain pressure component.
+
+    The first branch is the desired source-wall branch. The second branch is a pure pressure-source singular residue relative to the native source-current carrier.
+
+    The independent source-only theorem was not found. The strongest noncircular theorem at this level is the carrier dichotomy above.
+
+    This sets the next item precisely: decide whether * press src is a legal pressure residue class, or whether it requires a new Liouville theorem.
+
+
+
+    \subsection{Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain Gap}
+
+    \[
+    \|U_P\|_2
+    \le
+    \varepsilon_N\nu r_P^{1/2},
+    \qquad
+    \varepsilon_N\to0.
+    \]
+
+    The retained-face idea is correct in shape: amplitude gain should not be proved as a raw finite-energy theorem. It should be proved relative to retained CM faces.
+
+    Without this gain record, current Pack Q as finite deformation gauge does not by itself control the positive low-strain gain used in the first-crossing argument.
+
+    \[
+    r_P=2^{-j_P},
+    \]
+
+    \[
+    a_P(t)
+    :=
+    \frac{\|U_P(t)\|_2}{\nu r_P^{1/2}}.
+    \]
+
+    \[
+    \neg Pack_Q\vee\neg Part_{N,Q}.
+    \]
+
+    \[
+    \dot X_P=u_{\le j_P-C}(X_P,t).
+    \]
+
+    Here P is legal loss, and Part N,Q is responsible for routing pressure, viscous-participation, cutoff, and off-packet pieces into legal loss plus the quadratic high-tail term.
+
+
+
+    \subsection{Retained Pack/Part Critical Concentration To Field Bridge}
+
+    Optional public-analogue import target. This is the narrow bridge worth keeping; it is not the live source-pulse supplier theorem and it is not proved here.
+
+    Object boundary: this bridge classifies a retained concentration or residue after the supplier problem has failed to remove it. It does not classify Positive Remainder Depletion.A itself.
+
+    In the route notes, this is the retained Pack/Part critical-concentration
+    bridge for \(X\).  Its job is to say that once Pack and Part are retained, a
+    remaining critical concentration is a Field failure rather than a new fourth
+    face.
+
+    \[
+    \boxed{
+    \begin{aligned}
+    Pack_Q(\mathcal W)
+    \wedge Part_{N,Q}(\mathcal W)
+    \wedge CritConc_X(\mathcal W)
+    &\Longrightarrow
+    \neg Field_{N,r,Q}(\mathcal W).
+    \end{aligned}
+    }
+    \]
+
+    \[
+    \boxed{
+    Pack_Q(\mathcal W)
+    \wedge
+    Part_{N,Q}(\mathcal W)
+    \wedge
+    Field_{N,r,Q}(\mathcal W)
+    \Longrightarrow
+    \neg CritConc_X(\mathcal W).
+    }
+    \]
+
+    Part keeps the terminal object inside the same Navier-Stokes participation law, with pressure and viscosity still tied to the same PDE object.
+
+    So after Pack and Part are retained, a remaining public critical concentration is no longer a carrier failure or a participation failure. It has to be read as failure of one-field coherence, pressure/source readout, or neighboring tower compatibility. That is exactly the Field face.
+
+    \[
+    CritConc_X
+    \leadsto
+    CritConc_X(\mathcal W).
+    \]
+
+    \[
+    Pack_Q(\mathcal W),
+    \quad
+    Part_{N,Q}(\mathcal W)
+    \quad
+    \text{remain retained}.
+    \]
+
+    \[
+    Field_{N,r,Q}(\mathcal W)
+    \Longrightarrow
+    \text{no }X\text{-critical concentration on }\mathcal W.
+    \]
+
+    This is the place where public machinery could matter: localized smoothing, critical-element compactness, Lorentz/Besov quantitative regularity, or dynamically restricted endpoint concentration estimates.
+
+    The public bridge is a translator. The native source-pulse problem is still the active supplier problem.
+
+
+
+    \subsection{Clay problem Retained Pack/Field No-Incoming Participation Flux}
+
+    Installed CM-relative theorem. This is not a bare forward supplier theorem from B ASAC; it is the contrapositive use of the May 19 face labeling theorem.
+
+    \[
+    \mu_*^{src}(Q_R\times\{0\})>0
+    \Longrightarrow
+    \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}
+    \]
+
+    \[
+    \mu_*^{src}(Q_R\times\{0\})=0.
+    \]
+
+    Thus a positive terminal atom cannot coexist with retained finite CM. If the atom is positive, the branch has already exited through Pack, Part, or Field.
+
+    This proves the CM-relative no-incoming step. It does not prove the stronger forward supplier statement
+
+
+
+    \subsection{Clay problem same witness Heat Ancestor Localization.A Proof}
+
+    \[
+    \text{terminal local }L^3\text{ mass of a heat evolution}
+    \Longrightarrow
+    \text{same-ledger earlier critical slice}
+    \vee
+    \neg Pack_Q.
+    \]
+
+    \[
+    v_m(t)=e^{(t-s_m)\nu\Delta}f_m
+    \]
+
+    \[
+    \ell_m^{-2}\int_{Q_m}|v_m|^3\,dxdt\ge c_0>0 .
+    \]
+
+    \[
+    \psi_m
+    =
+    \ell_m^{-2/3}
+    \frac{|\eta_m v_m|\eta_m v_m}{\|\eta_m v_m\|_{L^3(Q_m)}^2},
+    \]
+
+    where eta m is supported on the selected terminal cylinder and equals one on the inner terminal cylinder. Then
+
+    \[
+    \int_{Q_m}v_m\cdot\psi_m\,dxdt\ge c_1>0.
+    \]
+
+    Now split m(s m) into the same-witness parent ball of radius C ell m and its complement.
+
+    If the complement carries a fixed fraction of the pairing, the backward heat mass that produced the terminal atom came from outside the selected parent record. That is exactly loss of retained carrier localization, hence Pack Q.
+
+    This is the same-witness earlier critical slice. Thus terminal heat mass either has an earlier same-witness critical ancestor or has already selected the Pack face.
+
+    This is only the CM-facing local L 3 translator. It is not a public regularity discharge, not a generic all-critical-class theorem, and not a replacement for TerminalCMNo Exit.A / No GenuineCMExit.A.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pctp Hard Pack Detachment Absorption
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45349
+  line_start: 45349
+  line_end: 45389
+  start_anchor: "\\subsection{Pctp Hard Pack Detachment Absorption}\n"
+  end_anchor: "\\subsection{Pctp Hard Participation Persistence}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pctp Hard Pack Detachment Absorption
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:45349
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Carrier Trace.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46532
+  line_start: 46532
+  line_end: 46564
+  start_anchor: "\\subsection{Clay problem Pressure Carrier Trace.A direct attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+    Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Carrier
+    Trace.A direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46532
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Endpoint Pack/Part/Field Witness Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
+  line_start: 46565
+  line_end: 46593
+  start_anchor: "\\subsection{Clay problem Pressure Endpoint Pack/Part/Field Witness
+    Test}\n"
+  end_anchor: "\\subsection{Clay problem Pressure-Hessian Partner Graph Normal Form}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Endpoint
+    Pack/Part/Field Witness Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46565
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Quadratic-Defect Native-Carrier Dichotomy
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46693
+  line_start: 46693
+  line_end: 46727
+  start_anchor: "\\subsection{Clay problem Pressure Quadratic-Defect Native-Carrier
+    Dichotomy}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Rigid Class Production.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Quadratic-Defect
+    Native-Carrier Dichotomy as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46693
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain
+    Gap
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49378
+  line_start: 49378
+  line_end: 49412
+  start_anchor: "\\subsection{Clay problem Retained Face Amplitude Gain.A Target And
+    Pack-Gain Gap}\n"
+  end_anchor: "\\subsection{Retained Field Actkx License And Conditional Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Face Amplitude
+    Gain.A Target And Pack-Gain Gap as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49378
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained Pack/Part Critical Concentration To Field Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49621
+  line_start: 49621
+  line_end: 49684
+  start_anchor: "\\subsection{Retained Pack/Part Critical Concentration To Field Bridge}\n"
+  end_anchor: "\\subsection{Clay problem Retained Pack/Field No-Incoming Participation
+    Flux}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained Pack/Part Critical Concentration
+    To Field Bridge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49621
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Pack/Field No-Incoming Participation Flux
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49685
+  line_start: 49685
+  line_end: 49703
+  start_anchor: "\\subsection{Clay problem Retained Pack/Field No-Incoming Participation
+    Flux}\n"
+  end_anchor: "\\subsection{Clay problem Reverse Four-Body Class-Membership Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Pack/Field
+    No-Incoming Participation Flux as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49685
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem same witness Heat Ancestor Localization.A Proof
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49998
+  line_start: 49998
+  line_end: 50037
+  start_anchor: "\\subsection{Clay problem same witness Heat Ancestor Localization.A
+    Proof}\n"
+  end_anchor: "\\subsection{Clay problem Scalarized Material-Packet Tower And Packing
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem same witness Heat
+    Ancestor Localization.A Proof as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49998
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-13
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-13.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

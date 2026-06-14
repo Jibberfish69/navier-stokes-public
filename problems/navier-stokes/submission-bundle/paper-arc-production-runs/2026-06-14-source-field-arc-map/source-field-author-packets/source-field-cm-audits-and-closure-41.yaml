@@ -1,0 +1,1046 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-41
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-41
+  sequence: 126
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 41
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 51271
+  line_end: 51830
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51271
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51319
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51433
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51596
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51717
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51748
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51813
+  subsection_titles:
+  - Clay problem Six Chunks Rows 1--4 Unconditional Implication Criteria
+  - Clay problem Six-Item Decoupled Semantic Quarantine Note
+  - Clay problem Six Positive/Contrapositive Chunks Completion
+  - Clay problem Source-Drain Definition Alignment And Discharge
+  - Clay problem Source No-Pulse Pulse-Ancestry Reduction Note
+  - Clay problem Source No-Pulse Terminal Target Stack Note
+  - Clay problem Source-Residue Drain Inequality Lemma B Note
+  - Clay problem Source-Wall External New-Theorem Requirement Terminal State
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Six Chunks Rows 1--4 Unconditional Implication
+      Criteria
+    line_start: 51271
+    line_end: 51309
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51271
+    start_anchor: "\\subsection{Clay problem Six Chunks Rows 1--4 Unconditional Implication
+      Criteria}\n"
+    end_anchor: "\\subsection{Clay problem Six-Item Decoupled Semantic Quarantine
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Six Chunks Rows 1--4 Unconditional Implication Criteria}
+
+      Rows 1--4 are not unconditional regularity proofs. They are unconditional implication criteria: each implication is valid without assuming the source-wall theorem, but none of them proves that the needed boundedness or propagation hypothesis holds for arbitrary smooth data up to a putative terminal endpoint.
+
+      \[
+      \sup_{t<T}\|u(t)\|_{H^1}<\infty.
+      \]
+
+      The \(H^1\) local existence theorem gives a restart lifespan depending only on the displayed uniform bound. Choose \(t_n\uparrow T\) so close to \(T\) that this lifespan extends beyond \(T\); uniqueness then glues the restarted solution to the original one and continues it past \(T\).
+
+      \[
+      \sup_{t<T}\|u(t)\|_{H^1}<\infty
+      \Longrightarrow
+      \text{continuation past }T.
+      \]
+
+      \[
+      \text{finite terminal non-continuation}
+      \Longrightarrow
+      \limsup_{t\uparrow T}\|u(t)\|_{H^1}=+\infty.
+      \]
+
+      \[
+      \mathfrak A_s(\tau,r,t)
+      :=
+      \sum_{m,\alpha}
+      \frac{\tau^m r^{|\alpha|}}{m!\alpha!}
+      \|\partial_t^m\partial_x^\alpha u(t)\|_{H^s}.
+      \]
+
+      \[
+      \sup_{t<T}\mathfrak A_s(\tau,r,t)<\infty,
+      \]
+
+      So the fixed low-mode coefficient is admissible on finite-energy intervals. Consequently, a bad fixed-low-mode packet forces the high tail E N to carry the remaining size after the fixed coefficient is paid.
+
+      This excludes a purely fixed-low-mode terminal obstruction. It does not exclude moving-threshold, high-frequency, scheduler, or source-wall obstructions.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Six-Item Decoupled Semantic Quarantine Note
+    line_start: 51310
+    line_end: 51318
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+    start_anchor: "\\subsection{Clay problem Six-Item Decoupled Semantic Quarantine
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Six Positive/Contrapositive Chunks Completion}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Six-Item Decoupled Semantic Quarantine Note}
+
+      Each local event remains dynamically live inside one common pressure-viscosity actuation.
+
+      Local velocity content and local derivative content collapse toward total deadness.
+
+      Nearby values remain finite, but the connecting presentation between them is not smooth and appears as a sharp incompatibility or discrete jump.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Six Positive/Contrapositive Chunks Completion
+    line_start: 51319
+    line_end: 51378
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51319
+    start_anchor: "\\subsection{Clay problem Six Positive/Contrapositive Chunks Completion}\n"
+    end_anchor: "\\subsection{Clay problem Six-Step Normalized-Mass Source-Drain Proof
+      Package}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Six Positive/Contrapositive Chunks Completion}
+
+      It does not promote the route to a proof of global smoothness. Rows 1--4 are unconditional implication criteria; see
+
+      Let u be a smooth incompressible Navier--Stokes solution on a finite classical interval below a putative terminal time T *, on the active periodic or Euclidean theorem surface used by the route. Then the six requested positive chunks have the following exact contrapositive forms.
+
+      \[
+      \text{terminal non-continuation at }T_*
+      \Longrightarrow
+      \limsup_{t\uparrow T_*}\|u(t)\|_{H^1}=+\infty.
+      \]
+
+      \[
+      \text{terminal non-continuation}
+      \Longrightarrow
+      \text{no admissible weighted mixed-jet tower remains closed at }T_*.
+      \]
+
+      \[
+      \mathfrak U_s
+      \le
+      \nu\tau\mathfrak D_s^{(2)}
+      +C_s\tau\mathfrak A_s^2
+      \]
+
+      \[
+      \mathfrak U_s\text{ blows up}
+      \Longrightarrow
+      \mathfrak D_s^{(2)}\text{ blows up}
+      \quad\text{or}\quad
+      \mathfrak A_s^2\text{ blows up}.
+      \]
+
+      \[
+      LowMode_N(t)
+      \le
+      C\Lambda_N(t)E_N(t)
+      \]
+
+      For fixed N, N is admissible on the classical energy surface; hence a terminal obstruction cannot be a purely fixed low-mode packet.
+
+      Since Parent Square Embed.A is installed under the transported Bessel packet hypotheses, the legal contrapositive is
+
+      The theorem needed to make source-wall failure impossible is still exactly Scale Critical Tree Carleson.A, or the alternate Zeno rigid-class pair.
+
+      Choose t n T. Local well-posedness from H 1 data gives a lifespan = (M)>0 for every datum u(t n), independent of n. For n large, t n+ >T. Uniqueness in the strong/classical class identifies the local solution launched at t n with the old solution on [t n,T), and so extends it past T.
+
+      The fixed low part is controlled by energy with an N-dependent constant. So terminal H 1 blow-up cannot be a purely fixed-low-mode obstruction; it must force high-frequency tail failure for every sufficiently useful threshold choice. In the CM route this is a Field-face/source-wall manifestation only after Pack/Part alternatives and readout/l
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source-Drain Definition Alignment And Discharge
+    line_start: 51433
+    line_end: 51480
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51433
+    start_anchor: "\\subsection{Clay problem Source-Drain Definition Alignment And
+      Discharge}\n"
+    end_anchor: "\\subsection{Clay problem Source Measure Participation Density Bridge.A
+      Verification}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source-Drain Definition Alignment And Discharge}
+
+      All crosswalk rows have exact final symbol, exact source path, exact formula, and exact downstream consumer.
+
+      \[
+      L_{j,k}w_j=R_{j,k},
+      \qquad
+      L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k.
+      \]
+
+      \[
+      R_{j,k}
+      =
+      R^{comm}_{j,k}
+      +
+      R^{press}_{j,k}
+      +
+      R^{cut}_{j,k}
+      +
+      R^{off}_{j,k}.
+      \]
+
+      \[
+      \|R\|_{L_t^2H^{-1}}^2
+      \le
+      C\int\sum_{q>N}D_q+o_N(1),
+      \]
+
+      \[
+      \sum_T
+      \left|
+      \int_{I_T}g_T(t)^{-1}\langle R,\psi_T\rangle\,dt
+      \right|^2
+      \le
+      C\int\sum_{q>N}D_q+o_N(1).
+      \]
+
+      \[
+      \mathcal P(Q_r(x,t))
+      :=
+      r^{-1}
+      \int_{Q_r(x,t)}
+      [F^{src}_{>1/r}]_+.
+      \]
+
+      The measurable first-pulse rule is dyadic-grid earliest crossing with lexicographic tie-breaking. Its no-leakage conclusion is
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source No-Pulse Pulse-Ancestry Reduction Note
+    line_start: 51596
+    line_end: 51643
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51596
+    start_anchor: "\\subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction
+      Note}\n"
+    end_anchor: "\\subsection{Source No Pulse Read Cover Bypass Discharge}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction Note}
+
+      For the localized Source Pulse Exclusion.A presentation, the child pulse is already part of the irreducible core. The refinement
+
+      \[
+      P_n=(Q_{r_n}(x_n,t_n),j_n),
+      \qquad
+      r_n\sfcomp{50036} 2^{-j_n},
+      \qquad
+      j_n\to\infty,
+      \]
+
+      The pulse-charge note shows that ordinary reserves do not by themselves pay for such pulses. The remaining possibility is source balance: nonlinear source keeps the pulse alive on its heat-scale window.
+
+      \[
+      P \text{ spends a fixed positive amount of a finite route reserve;}
+      \]
+
+      \[
+      \text{there is a predecessor pulse }P^{-}
+      \text{ in the backward parabolic source region of }P
+      \]
+
+      The parent may be at a comparable or lower dyadic scale, but it must be tied to the actual nonlinear source feeding P, not merely to a large global shell norm.
+
+      If the charge alternative occurs on infinitely many selected disjoint pulses, finite reserves are exhausted. The finite reserves are the same ones tested in
+
+      \[
+      \cdots \to P^{-2}\to P^{-1}\to P^0,
+      \]
+
+      \[
+      \partial_t E_P+\nu D_P
+      \le
+      \mathcal S_P^{nl}+\mathcal S_P^{press}+\mathcal S_P^{cut}.
+      \]
+
+      On a source-balanced bad pulse, D P is not paid by a drop of E P or by an already separated barrier. So the positive part of the source must be large in aggregate.
+
+      What is missing is a theorem converting that large aggregate source into a specific predecessor pulse. The current estimates bound source terms after absolute values or by packet aggregates. They do not provide a positive source-parent measure
+
+      P, predecessor region Pred (P), positive edge measure d P(P -), source recovery, parent lower-density, same-fluid edge fidelity, summable-loss, and charge alternative are stated explicitly. The direct axiom audit
+
+      This is strictly sharper than broad Ancient.No Pulse: the ancient object to exclude is not arbitrary; it is an ancestry-generated source-balanced source-residue critical pulse.
+
+      Ancestral.No Pulse src is also not automatic from local compactness.
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source No-Pulse Terminal Target Stack Note
+    line_start: 51717
+    line_end: 51747
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51717
+    start_anchor: "\\subsection{Clay problem Source No-Pulse Terminal Target Stack
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Source-Residue Drain Inequality Lemma B
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source No-Pulse Terminal Target Stack Note}
+
+      The target stack records what was closed before returning to the only remaining theorem atom.
+
+      The source-control stack should so be read as possible ways to prove or exhaust that class-exit classification. It should not be read as replacing the original proof program with an absolute "no terminal source pulse from original data" program.
+
+      \[
+      Bad_N(\eta)
+      \]
+
+      Radon source-residue measure on same-fluid heat cylinders and the first-pulse drain inequality * D * with below the normalized source-production threshold. The selected no-free-creation mechanism for that drain is the principal-flow adjoint parent-or-charge theorem in
+
+      Pressure recovery supplies elliptic and local response records. It does not give a sign for
+
+      \[
+      \omega\cdot S\omega.
+      \]
+
+      The compactness route tries to convert failure of no-pulse into a nontrivial local suitable ancient critical pulse object. The broad missing theorem was
+
+      No installed Liouville theorem excludes that object without extra hypotheses such as boundedness, Type I control, axisymmetry, self-similarity, critical smallness, or a terminal-generation law.
+
+      If this parent theorem is installed, the remaining rigidity is not broad Ancient.No Pulse, but the narrower source-residue statement
+
+      Ancestral.No Pulse src into its actual theorem load. Local compactness extracts a local suitable ancient source-residue object; it does not exclude that object. The ancestry branch needs either
+
+      The signed commutator theorem remains a possible new theorem only if it proves the true lifted signed estimate before absolute values. In the installed route, it is not an independent closed supplier.
+
+      Prodi-Serrin, and critical regularity are endpoint consumers, not original-data source-pulse suppliers.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source-Residue Drain Inequality Lemma B Note
+    line_start: 51748
+    line_end: 51812
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51748
+    start_anchor: "\\subsection{Clay problem Source-Residue Drain Inequality Lemma
+      B Note}\n"
+    end_anchor: "\\subsection{Clay problem Source-Wall External New-Theorem Requirement
+      Terminal State}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Source-Residue Drain Inequality Lemma B Note}
+
+      The drain mechanism isolated here is the intended proof engine for the corrected terminal positive-alignment rigidity used by the signed lifted remainder route.
+
+      It replaces the false universal statement that every frozen-strain ancient packet has zero positive strain production. Positive strain alignment can occur; the claim here is narrower: in a first-pulse terminal ancient limit, any surviving source residue must be paid by local dissipation, and the payment rate beats the source-production rate.
+
+      \[
+      \mathcal D(s)
+      \]
+
+      \[
+      \boxed{
+      \nu_*((-\infty,0])
+      \le
+      \theta
+      \int_{-\infty}^{0}\mathcal D(s)\,ds,
+      \qquad
+      \theta<c.
+      }
+      \]
+
+      Here c>0 is the normalized lower source-production threshold selected by the bad terminal pulse. Thus (LemmaB) says every surviving source-residue pulse pays more dissipation than it produces. Combined with the finite-source lower bound, this contradicts persistence of the first bad pulse.
+
+      \[
+      d\nu_*
+      =
+      \mathrm{w}\!-\!\lim_{n\to\infty}
+      \bigl[F_n^{src}\bigr]_+\,dx\,dt.
+      \]
+
+      The source density F n src is the localized nonlinear shell source after same-fluid transport, pressure cancellation, and legal lower-order commutator/cutoff reductions. It is not the raw global shell product and not the post-Cauchy mixed product D jD .
+
+      The definition must be made on physical heat cylinders so that * is a spatial-temporal Radon object rather than only a shell-time scalar.
+
+      This is essential. If the source mass remains only as a global Fourier-shell product, Lemma B cannot be applied on a first-pulse cylinder and no ancient source-residue limit has been constructed.
+
+      \[
+      \nu_*(Q)>0
+      \]
+
+      for a terminal same-fluid heat cylinder Q, with the cylinder, source density, and dissipation density attached to the same carrier.
+
+      \[
+      F^{src}
+      =
+      F^{transport}
+      +
+      F^{pressure}
+      +
+      F^{comm}
+      +
+      F^{strain}.
+      \]
+
+      The theorem must prove that persistent positive strain alignment forces high-frequency dissipation at a strictly
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source-Wall External New-Theorem Requirement Terminal
+      State
+    line_start: 51813
+    line_end: 51830
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51813
+    start_anchor: "\\subsection{Clay problem Source-Wall External New-Theorem Requirement
+      Terminal State}\n"
+    end_anchor: "\\subsection{Clay problem Source-Wall Post-Pressure Outside-Family
+      Exhaustion}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source-Wall External New-Theorem Requirement Terminal State}
+
+      The outside-family search is completed as a bounded exhaustion of local-energy trace, pressure trace, elliptic time-smearing, terminal pressure angular saturation, branch entropy, transported no-flux, rigid subclass production, and pressure/Leray recombination mechanisms.
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \rightharpoonup\delta_{0}
+      \]
+
+      \[
+      \mu_*^{press\perp src}>0,
+      \qquad
+      \mu_*^{press\perp src}\perp(\nu_*^{src}+\nu_*^{legal,src}),
+      \]
+
+      Any next continuation must introduce a genuinely new theorem, assumption, or source surface in one of the named classes above. Recombining the current records will reproduce the same obstruction certificate.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Six Chunks Rows 1--4 Unconditional Implication Criteria}
+
+    Rows 1--4 are not unconditional regularity proofs. They are unconditional implication criteria: each implication is valid without assuming the source-wall theorem, but none of them proves that the needed boundedness or propagation hypothesis holds for arbitrary smooth data up to a putative terminal endpoint.
+
+    \[
+    \sup_{t<T}\|u(t)\|_{H^1}<\infty.
+    \]
+
+    The \(H^1\) local existence theorem gives a restart lifespan depending only on the displayed uniform bound. Choose \(t_n\uparrow T\) so close to \(T\) that this lifespan extends beyond \(T\); uniqueness then glues the restarted solution to the original one and continues it past \(T\).
+
+    \[
+    \sup_{t<T}\|u(t)\|_{H^1}<\infty
+    \Longrightarrow
+    \text{continuation past }T.
+    \]
+
+    \[
+    \text{finite terminal non-continuation}
+    \Longrightarrow
+    \limsup_{t\uparrow T}\|u(t)\|_{H^1}=+\infty.
+    \]
+
+    \[
+    \mathfrak A_s(\tau,r,t)
+    :=
+    \sum_{m,\alpha}
+    \frac{\tau^m r^{|\alpha|}}{m!\alpha!}
+    \|\partial_t^m\partial_x^\alpha u(t)\|_{H^s}.
+    \]
+
+    \[
+    \sup_{t<T}\mathfrak A_s(\tau,r,t)<\infty,
+    \]
+
+    So the fixed low-mode coefficient is admissible on finite-energy intervals. Consequently, a bad fixed-low-mode packet forces the high tail E N to carry the remaining size after the fixed coefficient is paid.
+
+    This excludes a purely fixed-low-mode terminal obstruction. It does not exclude moving-threshold, high-frequency, scheduler, or source-wall obstructions.
+
+
+
+    \subsection{Clay problem Six-Item Decoupled Semantic Quarantine Note}
+
+    Each local event remains dynamically live inside one common pressure-viscosity actuation.
+
+    Local velocity content and local derivative content collapse toward total deadness.
+
+    Nearby values remain finite, but the connecting presentation between them is not smooth and appears as a sharp incompatibility or discrete jump.
+
+
+
+    \subsection{Clay problem Six Positive/Contrapositive Chunks Completion}
+
+    It does not promote the route to a proof of global smoothness. Rows 1--4 are unconditional implication criteria; see
+
+    Let u be a smooth incompressible Navier--Stokes solution on a finite classical interval below a putative terminal time T *, on the active periodic or Euclidean theorem surface used by the route. Then the six requested positive chunks have the following exact contrapositive forms.
+
+    \[
+    \text{terminal non-continuation at }T_*
+    \Longrightarrow
+    \limsup_{t\uparrow T_*}\|u(t)\|_{H^1}=+\infty.
+    \]
+
+    \[
+    \text{terminal non-continuation}
+    \Longrightarrow
+    \text{no admissible weighted mixed-jet tower remains closed at }T_*.
+    \]
+
+    \[
+    \mathfrak U_s
+    \le
+    \nu\tau\mathfrak D_s^{(2)}
+    +C_s\tau\mathfrak A_s^2
+    \]
+
+    \[
+    \mathfrak U_s\text{ blows up}
+    \Longrightarrow
+    \mathfrak D_s^{(2)}\text{ blows up}
+    \quad\text{or}\quad
+    \mathfrak A_s^2\text{ blows up}.
+    \]
+
+    \[
+    LowMode_N(t)
+    \le
+    C\Lambda_N(t)E_N(t)
+    \]
+
+    For fixed N, N is admissible on the classical energy surface; hence a terminal obstruction cannot be a purely fixed low-mode packet.
+
+    Since Parent Square Embed.A is installed under the transported Bessel packet hypotheses, the legal contrapositive is
+
+    The theorem needed to make source-wall failure impossible is still exactly Scale Critical Tree Carleson.A, or the alternate Zeno rigid-class pair.
+
+    Choose t n T. Local well-posedness from H 1 data gives a lifespan = (M)>0 for every datum u(t n), independent of n. For n large, t n+ >T. Uniqueness in the strong/classical class identifies the local solution launched at t n with the old solution on [t n,T), and so extends it past T.
+
+    The fixed low part is controlled by energy with an N-dependent constant. So terminal H 1 blow-up cannot be a purely fixed-low-mode obstruction; it must force high-frequency tail failure for every sufficiently useful threshold choice. In the CM route this is a Field-face/source-wall manifestation only after Pack/Part alternatives and readout/legal-loss alternatives have been routed.
+
+    Thus Row 1 is closed as a continuation theorem and as a contrapositive high-frequency reduction. It is not, by itself, a contradiction theorem.
+
+    Hence tower failure is not a binomial-counting failure. The unresolved burden is a genuine propagation/damping theorem for A s.
+
+    Proof: if both right-hand inputs remain bounded, the displayed inequality bounds U s, contradicting next-time blow-up.
+
+    This row so does not create a third blow-up channel. It reduces next-time failure to the dissipative envelope or the already named quadratic tower quantity. Closing both channels globally is the mixed-jet propagation problem, not a consequence of Row 3 alone.
+
+    So the N channel is fixed-threshold admissible on finite energy intervals. Thus a terminal obstruction cannot be "the low modes" alone. It must either be pushed into the high tail E N, into a moving-threshold scheduler issue, or into a higher source-wall packet.
+
+
+
+    \subsection{Clay problem Source-Drain Definition Alignment And Discharge}
+
+    All crosswalk rows have exact final symbol, exact source path, exact formula, and exact downstream consumer.
+
+    \[
+    L_{j,k}w_j=R_{j,k},
+    \qquad
+    L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k.
+    \]
+
+    \[
+    R_{j,k}
+    =
+    R^{comm}_{j,k}
+    +
+    R^{press}_{j,k}
+    +
+    R^{cut}_{j,k}
+    +
+    R^{off}_{j,k}.
+    \]
+
+    \[
+    \|R\|_{L_t^2H^{-1}}^2
+    \le
+    C\int\sum_{q>N}D_q+o_N(1),
+    \]
+
+    \[
+    \sum_T
+    \left|
+    \int_{I_T}g_T(t)^{-1}\langle R,\psi_T\rangle\,dt
+    \right|^2
+    \le
+    C\int\sum_{q>N}D_q+o_N(1).
+    \]
+
+    \[
+    \mathcal P(Q_r(x,t))
+    :=
+    r^{-1}
+    \int_{Q_r(x,t)}
+    [F^{src}_{>1/r}]_+.
+    \]
+
+    The measurable first-pulse rule is dyadic-grid earliest crossing with lexicographic tie-breaking. Its no-leakage conclusion is
+
+
+
+    \subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction Note}
+
+    For the localized Source Pulse Exclusion.A presentation, the child pulse is already part of the irreducible core. The refinement
+
+    \[
+    P_n=(Q_{r_n}(x_n,t_n),j_n),
+    \qquad
+    r_n\sfcomp{50036} 2^{-j_n},
+    \qquad
+    j_n\to\infty,
+    \]
+
+    The pulse-charge note shows that ordinary reserves do not by themselves pay for such pulses. The remaining possibility is source balance: nonlinear source keeps the pulse alive on its heat-scale window.
+
+    \[
+    P \text{ spends a fixed positive amount of a finite route reserve;}
+    \]
+
+    \[
+    \text{there is a predecessor pulse }P^{-}
+    \text{ in the backward parabolic source region of }P
+    \]
+
+    The parent may be at a comparable or lower dyadic scale, but it must be tied to the actual nonlinear source feeding P, not merely to a large global shell norm.
+
+    If the charge alternative occurs on infinitely many selected disjoint pulses, finite reserves are exhausted. The finite reserves are the same ones tested in
+
+    \[
+    \cdots \to P^{-2}\to P^{-1}\to P^0,
+    \]
+
+    \[
+    \partial_t E_P+\nu D_P
+    \le
+    \mathcal S_P^{nl}+\mathcal S_P^{press}+\mathcal S_P^{cut}.
+    \]
+
+    On a source-balanced bad pulse, D P is not paid by a drop of E P or by an already separated barrier. So the positive part of the source must be large in aggregate.
+
+    What is missing is a theorem converting that large aggregate source into a specific predecessor pulse. The current estimates bound source terms after absolute values or by packet aggregates. They do not provide a positive source-parent measure
+
+    P, predecessor region Pred (P), positive edge measure d P(P -), source recovery, parent lower-density, same-fluid edge fidelity, summable-loss, and charge alternative are stated explicitly. The direct axiom audit
+
+    This is strictly sharper than broad Ancient.No Pulse: the ancient object to exclude is not arbitrary; it is an ancestry-generated source-balanced source-residue critical pulse.
+
+    Ancestral.No Pulse src is also not automatic from local compactness. It requires either a strict backward-drain theorem or a bounded-ancient plus source-residue Liouville package. The alternatives are audited directly in
+
+
+
+    \subsection{Clay problem Source No-Pulse Terminal Target Stack Note}
+
+    The target stack records what was closed before returning to the only remaining theorem atom.
+
+    The source-control stack should so be read as possible ways to prove or exhaust that class-exit classification. It should not be read as replacing the original proof program with an absolute "no terminal source pulse from original data" program.
+
+    \[
+    Bad_N(\eta)
+    \]
+
+    Radon source-residue measure on same-fluid heat cylinders and the first-pulse drain inequality * D * with below the normalized source-production threshold. The selected no-free-creation mechanism for that drain is the principal-flow adjoint parent-or-charge theorem in
+
+    Pressure recovery supplies elliptic and local response records. It does not give a sign for
+
+    \[
+    \omega\cdot S\omega.
+    \]
+
+    The compactness route tries to convert failure of no-pulse into a nontrivial local suitable ancient critical pulse object. The broad missing theorem was
+
+    No installed Liouville theorem excludes that object without extra hypotheses such as boundedness, Type I control, axisymmetry, self-similarity, critical smallness, or a terminal-generation law.
+
+    If this parent theorem is installed, the remaining rigidity is not broad Ancient.No Pulse, but the narrower source-residue statement
+
+    Ancestral.No Pulse src into its actual theorem load. Local compactness extracts a local suitable ancient source-residue object; it does not exclude that object. The ancestry branch needs either
+
+    The signed commutator theorem remains a possible new theorem only if it proves the true lifted signed estimate before absolute values. In the installed route, it is not an independent closed supplier.
+
+    Prodi-Serrin, and critical regularity are endpoint consumers, not original-data source-pulse suppliers.
+
+
+
+    \subsection{Clay problem Source-Residue Drain Inequality Lemma B Note}
+
+    The drain mechanism isolated here is the intended proof engine for the corrected terminal positive-alignment rigidity used by the signed lifted remainder route.
+
+    It replaces the false universal statement that every frozen-strain ancient packet has zero positive strain production. Positive strain alignment can occur; the claim here is narrower: in a first-pulse terminal ancient limit, any surviving source residue must be paid by local dissipation, and the payment rate beats the source-production rate.
+
+    \[
+    \mathcal D(s)
+    \]
+
+    \[
+    \boxed{
+    \nu_*((-\infty,0])
+    \le
+    \theta
+    \int_{-\infty}^{0}\mathcal D(s)\,ds,
+    \qquad
+    \theta<c.
+    }
+    \]
+
+    Here c>0 is the normalized lower source-production threshold selected by the bad terminal pulse. Thus (LemmaB) says every surviving source-residue pulse pays more dissipation than it produces. Combined with the finite-source lower bound, this contradicts persistence of the first bad pulse.
+
+    \[
+    d\nu_*
+    =
+    \mathrm{w}\!-\!\lim_{n\to\infty}
+    \bigl[F_n^{src}\bigr]_+\,dx\,dt.
+    \]
+
+    The source density F n src is the localized nonlinear shell source after same-fluid transport, pressure cancellation, and legal lower-order commutator/cutoff reductions. It is not the raw global shell product and not the post-Cauchy mixed product D jD .
+
+    The definition must be made on physical heat cylinders so that * is a spatial-temporal Radon object rather than only a shell-time scalar.
+
+    This is essential. If the source mass remains only as a global Fourier-shell product, Lemma B cannot be applied on a first-pulse cylinder and no ancient source-residue limit has been constructed.
+
+    \[
+    \nu_*(Q)>0
+    \]
+
+    for a terminal same-fluid heat cylinder Q, with the cylinder, source density, and dissipation density attached to the same carrier.
+
+    \[
+    F^{src}
+    =
+    F^{transport}
+    +
+    F^{pressure}
+    +
+    F^{comm}
+    +
+    F^{strain}.
+    \]
+
+    The theorem must prove that persistent positive strain alignment forces high-frequency dissipation at a strictly larger normalized rate than source production. A pointwise sign argument is false; the proof must use first-pulse ancestry, same-fluid localization, and the absence of incoming parent source mass.
+
+    Select the bad packet as a first pulse. Then there is no earlier same-fluid parent source pulse available to pay for its positive source event.
+
+    The first option is excluded by the first-pulse construction. So the second option yields (Drain).
+
+    Then each positive-alignment tile has only two legal origins: backward parent mass or paid residual creation. The first-pulse hypothesis removes the parent chain, leaving the dissipation charge used in Lemma B.
+
+    The limit theorem must preserve the first-pulse/no-parent condition; otherwise incoming ancestral mass can reappear as an uncharged source at s=- .
+
+
+
+    \subsection{Clay problem Source-Wall External New-Theorem Requirement Terminal State}
+
+    The outside-family search is completed as a bounded exhaustion of local-energy trace, pressure trace, elliptic time-smearing, terminal pressure angular saturation, branch entropy, transported no-flux, rigid subclass production, and pressure/Leray recombination mechanisms.
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \rightharpoonup\delta_{0}
+    \]
+
+    \[
+    \mu_*^{press\perp src}>0,
+    \qquad
+    \mu_*^{press\perp src}\perp(\nu_*^{src}+\nu_*^{legal,src}),
+    \]
+
+    Any next continuation must introduce a genuinely new theorem, assumption, or source surface in one of the named classes above. Recombining the current records will reproduce the same obstruction certificate.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Six Chunks Rows 1--4 Unconditional Implication Criteria
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51271
+  line_start: 51271
+  line_end: 51309
+  start_anchor: "\\subsection{Clay problem Six Chunks Rows 1--4 Unconditional Implication
+    Criteria}\n"
+  end_anchor: "\\subsection{Clay problem Six-Item Decoupled Semantic Quarantine Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Six Chunks Rows
+    1--4 Unconditional Implication Criteria as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51271
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Six-Item Decoupled Semantic Quarantine Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  line_start: 51310
+  line_end: 51318
+  start_anchor: "\\subsection{Clay problem Six-Item Decoupled Semantic Quarantine
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Six Positive/Contrapositive Chunks Completion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Six-Item Decoupled
+    Semantic Quarantine Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Six Positive/Contrapositive Chunks Completion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51319
+  line_start: 51319
+  line_end: 51378
+  start_anchor: "\\subsection{Clay problem Six Positive/Contrapositive Chunks Completion}\n"
+  end_anchor: "\\subsection{Clay problem Six-Step Normalized-Mass Source-Drain Proof
+    Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Six Positive/Contrapositive
+    Chunks Completion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51319
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source-Drain Definition Alignment And Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51433
+  line_start: 51433
+  line_end: 51480
+  start_anchor: "\\subsection{Clay problem Source-Drain Definition Alignment And Discharge}\n"
+  end_anchor: "\\subsection{Clay problem Source Measure Participation Density Bridge.A
+    Verification}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source-Drain Definition
+    Alignment And Discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51433
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source No-Pulse Pulse-Ancestry Reduction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51596
+  line_start: 51596
+  line_end: 51643
+  start_anchor: "\\subsection{Clay problem Source No-Pulse Pulse-Ancestry Reduction
+    Note}\n"
+  end_anchor: "\\subsection{Source No Pulse Read Cover Bypass Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source No-Pulse
+    Pulse-Ancestry Reduction Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51596
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source No-Pulse Terminal Target Stack Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51717
+  line_start: 51717
+  line_end: 51747
+  start_anchor: "\\subsection{Clay problem Source No-Pulse Terminal Target Stack Note}\n"
+  end_anchor: "\\subsection{Clay problem Source-Residue Drain Inequality Lemma B Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source No-Pulse
+    Terminal Target Stack Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51717
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source-Residue Drain Inequality Lemma B Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51748
+  line_start: 51748
+  line_end: 51812
+  start_anchor: "\\subsection{Clay problem Source-Residue Drain Inequality Lemma B
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source-Wall External New-Theorem Requirement
+    Terminal State}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source-Residue Drain
+    Inequality Lemma B Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51748
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source-Wall External New-Theorem Requirement Terminal
+    State
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51813
+  line_start: 51813
+  line_end: 51830
+  start_anchor: "\\subsection{Clay problem Source-Wall External New-Theorem Requirement
+    Terminal State}\n"
+  end_anchor: "\\subsection{Clay problem Source-Wall Post-Pressure Outside-Family
+    Exhaustion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source-Wall External
+    New-Theorem Requirement Terminal State as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51813
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-41
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-41.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

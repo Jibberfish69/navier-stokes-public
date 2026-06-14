@@ -33,10 +33,11 @@ Let `W` be the first terminal window selected by the
 `SourceReserveBirthCharge.A` reduction, after inherited past reserve, child
 residual, and legal loss have been removed.
 
-The remaining reserve has the schematic form:
+Normalize the first retained reserve threshold by a fixed constant
+`\eta_0>0`:
 
 ```text
-R_first(W) >= eta
+R_first(W) >= eta_0.
 ```
 
 while the first signed/source moment may vanish:
@@ -53,7 +54,7 @@ J = J_+ - J_-,
 \qquad
 int_W J_+ = int_W J_-,
 \qquad
-int_W (J_+ + J_-) is order one.
+\int_W (J_+ + J_-)\ge \eta_0.
 ```
 
 The zero-moment obstruction is therefore not absence of mass.  It is hidden

@@ -72,7 +72,7 @@ The present route inserts the crude Hardy/Cauchy bound
 
 ```math
 \|(\mathcal V Z)_r(t)\|_{L_x^2}^2
-\lesssim
+\le C_H
 \int_{\ell_{top}}^{r/c_1}\|Z_\ell(t)\|_{L_x^2}^2\,\frac{d\ell}{\ell},
 \tag{4}
 ```
@@ -167,8 +167,9 @@ Then `FCTS` follows from `(5)`-`(8)` by the elementary square bound
 
 ```math
 \|\mathcal E+\mathcal P+\mathcal R\|_2^2
-\lesssim
-\|\mathcal E\|_2^2+\|\mathcal P\|_2^2+\|\mathcal R\|_2^2.
+\le 3\Big(
+\|\mathcal E\|_2^2+\|\mathcal P\|_2^2+\|\mathcal R\|_2^2
+\Big).
 ```
 
 ## What would count as progress

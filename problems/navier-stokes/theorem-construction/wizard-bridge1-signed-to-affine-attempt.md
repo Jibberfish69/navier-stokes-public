@@ -141,7 +141,7 @@ and `(3)` sharpen its interpretation:
 
 ```math
 \boxed{
-\text{the signed/gap-kernel route is naturally first-order because its native operator is }\mathcal K_L\sim (\partial_s-1)^{-1}.
+\text{the signed/gap-kernel route is naturally first-order because its native operator obeys }(\partial_s-1)\mathcal K_L=I.
 }
 \tag{7}
 ```

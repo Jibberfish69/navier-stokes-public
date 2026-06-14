@@ -69,7 +69,7 @@ The installed signed input is the unweighted dyadic skew algebra, recorded as `B
 The square reserve is the positive object
 
 ```math
-S_N(t)\simeq
+S_N(t):=
 \sum_{\ell,m>N}2^{\min(\ell,m)}D_\ell(t)D_m(t),
 ```
 

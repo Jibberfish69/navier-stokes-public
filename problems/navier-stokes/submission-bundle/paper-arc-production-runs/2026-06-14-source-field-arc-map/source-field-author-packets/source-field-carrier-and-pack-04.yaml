@@ -1,0 +1,1090 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-carrier-and-pack-04
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-04
+  sequence: 6
+  group_id: carrier-and-pack
+  title: Carrier and Pack 4
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 11082
+  line_end: 17564
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11082
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11127
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12870
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16358
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17057
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17446
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17493
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17520
+  subsection_titles:
+  - Lifted Carrier Energy Absorption Result
+  - Lifted Carrier Energy Threshold Uniformization And HFG Replay
+  - A1c R Via Strain-Control Criterion And Pack-Local Substitute
+  - Classical Closure Warrant Carrier
+  - 'Direct Pack-Native Strain Estimate: Sharpened Target'
+  - Endpoint Selector.TTU - Finite-Complexity Rule Test
+  - Endpoint Selector.TTU - Jump Finite Selector Test
+  - Endpoint Selector Or Uniform Strain Tail Theorem Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted Carrier Energy Absorption Result
+    line_start: 11082
+    line_end: 11126
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11082
+    start_anchor: "\\subsection{Lifted Carrier Energy Absorption Result}\n"
+    end_anchor: "\\subsection{Lifted Carrier Energy Threshold Uniformization And HFG
+      Replay}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Lifted Carrier Energy Absorption Result}
+
+      The weighted route can absorb carrier energy only after its nonlinear part is
+      split into a small dissipative piece and a controlled energy function.
+
+      \[
+      \frac{d}{dt}\mathcal E_D^{(s)}(X)+c_D\Xi_D^{(s)}(X)
+      \le C\Phi_s(\mathcal E_D^{(s)}(X)).
+      \]
+
+      \[
+      \mathcal E_D^{(s)}(X):=\|X\|_{H_D^{s+1}}^2+\|\Omega_D(X)\|_{H_D^s}^2
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal E_D^{(s)}(X)+2\nu\Xi_D^{(s)}(X)
+      \le \mathcal N_s(X),
+      \]
+
+      \[
+      |\mathcal N_s(X)|
+      \le \varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal E_D^{(s)}(X)+(2\nu-\varepsilon)\Xi_D^{(s)}(X)
+      \le C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+      \]
+
+      The absorption mechanism is the familiar one.  The nonlinear term
+      \(\mathcal N_s(X)\) may use a small part of the dissipative quantity
+      \(\Xi_D^{(s)}(X)\), and the remaining part is charged to a function of the
+      lifted carrier energy.  After this split, the left side still contains a
+      positive amount of dissipation.
+
+      If \(\Phi_s\) is linear or subcritical on the active interval, Gronwall gives a
+      finite lifted carrier-energy bound. The bound supplies the dynamic threshold
+      for persistent-support coherent estimates and controls exported remainders.
+
+      The conditional input is the lifted commutator package.  The base \(D.2\)
+      energy estimate controls the lower carrier energy.  A bound for
+      \(\mathcal E_D^{(s)}\) requires the higher-order commutator terms to obey the
+      displayed small-plus-controlled split.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted Carrier Energy Threshold Uniformization And HFG Replay
+    line_start: 11127
+    line_end: 11163
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11127
+    start_anchor: "\\subsection{Lifted Carrier Energy Threshold Uniformization And
+      HFG Replay}\n"
+    end_anchor: "\\subsection{Lifted Packet Closure Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Lifted Carrier Energy Threshold Uniformization And HFG Replay}
+
+      The uniformization step is the Osgood version of the previous energy argument.
+
+      \[
+      \frac{d}{dt}E(t)+c_D\Xi(t)\le C\Phi_s(E(t)),
+      \qquad E(t):=\mathcal E_D^{(s)}(X(t)).
+      \]
+
+      \[
+      \int_{E_0}^{\infty}\frac{dr}{C\Phi_s(r)}=\infty.
+      \]
+
+      \[
+      \sup_{0\le t<T}E(t)<\infty
+      \]
+
+      \[
+      Z'(t)=C\Phi_s(Z(t)),\qquad Z(0)=E(0).
+      \]
+
+      \[
+      \int_{E(0)}^{E(t)}\frac{dr}{C\Phi_s(r)}\le t.
+      \]
+
+      The divergent Osgood integral keeps \(E(t)\) finite for each finite
+      \(t<T\). If \(\Phi_s(r)\) grows superlinearly like \(r^p\) with \(p>1\), this
+      argument permits finite-time scalar escape and does not close the carrier route.
+      The remaining burden is then a sharper structure theorem for \(\Phi_s\).
+
+      This is the threshold-uniform version of lifted carrier control.  Gronwall is
+      enough when the right side is linear or subcritical.  Osgood is the correct
+      replacement when the route only knows the growth function \(\Phi_s\).  The
+      HFG replay may use this result only after the same lifted energy threshold is
+      uniform on the active terminal approach.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: A1c R Via Strain-Control Criterion And Pack-Local Substitute
+    line_start: 12870
+    line_end: 12921
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12870
+    start_anchor: "\\subsection{A1c R Via Strain-Control Criterion And Pack-Local
+      Substitute}\n"
+    end_anchor: "\\subsection{Aact Global Finite Cover Scheduler Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{A1c R Via Strain-Control Criterion And Pack-Local Substitute}
+
+      The whole-space continuation criterion can be reached through a strain
+      integral.  The target \(A1c_R\) is a uniform \(H^s\) bound up to the alleged
+      terminal time:
+
+      \[
+      A1c_R:\quad \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+      \qquad s>5/2.
+      \]
+
+      \[
+      \frac12\frac d{dt}\|u\|_{H^s}^2+
+      \nu\|\nabla u\|_{H^s}^2
+      \le
+      C_s\|\nabla u\|_{L^\infty}\|u\|_{H^s}^2.
+      \]
+
+      If the strain integral is finite on \([0,T_*)\), Gronwall gives a finite
+      \(H^s\) bound. Since \(s>5/2\), Sobolev embedding gives uniform \(C^1_x\)
+      control, and local \(H^s\) well-posedness can be restarted from
+      \(t_j\uparrow T_*\) with a lifespan depending only on that bound. For \(j\)
+      large, the restarted interval crosses \(T_*\).
+
+      The pack-local substitute asks for less than a global strain integral.  It
+      tracks the strain seen by the active packet labels and uses that strain to
+      control the deformation gauge along those labels.
+
+      \[
+      \sup_{a\in A_Q(t)}\|S(u)(X(a,t),t)\|\le S_{pack,Q}(t),
+      \qquad
+      S(u)=\frac12(\nabla u+\nabla u^T).
+      \]
+
+      \[
+      \frac d{dt}F=\nabla u(X,t)F.
+      \]
+
+      \[
+      \frac d{dt}\log\max\{\|F\|,\|F^{-1}\|\}\le S_{pack,Q}(t).
+      \]
+
+      The bound controls the packet deformation gauge
+      \(\Gamma_{pack,Q}\). With the endpoint tower and field readout, that packet
+      control prevents pack detachment, tower blowup, field jump, and dead
+      participation on the selected branch.
+
+      Only the continuation implications are proved here. The open analytic work is
+      to derive either the full strain integral or the packet strain integrals from
+      original whole-space data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Classical Closure Warrant Carrier
+    line_start: 16358
+    line_end: 16404
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16358
+    start_anchor: "\\subsection{Classical Closure Warrant Carrier}\n"
+    end_anchor: "\\subsection{Classical Closure Warrant Final Pass}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Classical Closure Warrant Carrier}
+
+      \[
+      \nu>0,
+      \qquad
+      u_0^{\mathrm{vel}}=u_0\in C^\infty(\mathbb T^3),
+      \qquad
+      \nabla\cdot u_0=0,
+      \qquad
+      \int_{\mathbb T^3}u_0\,dx=0,
+      \qquad
+      f=0.
+      \]
+
+      \[
+      [0,T_*).
+      \]
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+      \]
+
+      The warrant is the final classical-theory step for the periodic zero-force
+      branch.  It begins with a uniform \(H^s(\mathbb T^3)\) bound, with \(s>5/2\),
+      up to the alleged terminal time.  Standard local classical Navier--Stokes
+      theory then gives a lifespan depending only on that bound.  For any sequence
+      \(t_j\uparrow T_*\), the solution relaunched from \(u(t_j)\) exists on a
+      common interval of length \(\tau>0\). For large \(j\),
+
+      \[
+      t_j+\tau>T_*.
+      \]
+
+      Uniqueness identifies the relaunched solution with the original solution on
+      their overlap, extending the original solution past \(T_*\). A finite terminal
+      time is impossible once the uniform \(H^s\) bound is available.
+
+      The warrant converts an already supplied \(H^s\) bound into continuation.  The
+      analytic route still has to supply that bound from the Pack/Part/Field or
+      classical dyadic packages.  The branch remains the periodic zero-force branch:
+      whole-space data and nonzero forcing require their own export warrants.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Direct Pack-Native Strain Estimate: Sharpened Target'
+    line_start: 17057
+    line_end: 17096
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17057
+    start_anchor: "\\subsection{Direct Pack-Native Strain Estimate: Sharpened Target}\n"
+    end_anchor: "\\subsection{Direct Proof Attempt For Seven SG4 TPS Source Estimates}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Direct Pack-Native Strain Estimate: Sharpened Target}
+
+      The direct pack-route attempt sharpens the strain estimate needed to control
+      terminal pack gauge without passing through the averaged route.
+
+      \[
+      \frac{d}{dt}F(a,t)=\nabla u(X(a,t),t)F(a,t),
+      \]
+
+      \[
+      \frac{d}{dt}F(a,t)^{-1}=-F(a,t)^{-1}\nabla u(X(a,t),t).
+      \]
+
+      \[
+      \sup_{a\in A_Q(t)}\|\nabla u(X(a,t),t)\|\le S_{pack,Q}(t)
+      \]
+
+      \[
+      S_{pack,Q}(t)=\|\nabla u(t)\|_{L^\infty}.
+      \]
+
+      \[
+      S_{pack,Q}(t)
+      \le C_{\mathrm{sf},16936}
+      1+\|\omega(t)\|_{L^\infty}\log\left(e+\|u(t)\|_{H^s}\right).
+      \]
+
+      That estimate is again continuation-grade unless the logarithmic factor is controlled by a separate tower route.
+
+      The sufficient pack-native target is
+      \[
+      S_{pack,Q}\in L^1_{\mathrm{loc}}([t_0,T_*)).
+      \]
+      This is the sharpest pack-native coefficient because only the symmetric strain
+      changes singular values of the deformation gradient.  Pure rotation changes
+      orientation but does not enlarge the pack gauge.
+
+      This coefficient controls the largest singular value along the actual stretching direction. A proof would require a closed equation for the direction field and an integrable bound for the positive part of the aligned strain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector.TTU - Finite-Complexity Rule Test
+    line_start: 17446
+    line_end: 17492
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17446
+    start_anchor: "\\subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}\n"
+    end_anchor: "\\subsection{Endpoint Selector.TTU - Jump Finite Selector Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}
+
+      The finite-complexity test asks whether endpoint witnesses can be held by one
+      fixed finite family of labels or cells.  The current endpoint definitions give
+      finite witnesses at each threshold.  They do not, by themselves, keep the same
+      finite witnesses through all terminal thresholds.
+
+      \[
+      A_Q \leadsto \{a_1,\dots,a_J\}
+      \]
+
+      \[
+      \mathfrak A_{N,Q}(t)=\sup_{x\in Q_t}\sum_{k=0}^N(|U_k|+|K_k|),
+      \]
+
+      \[
+      \Gamma_{pack,Q}(t)=\sup_{a\in A_Q(t)}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}.
+      \]
+
+      These definitions provide threshold witnesses: for each threshold, some active
+      point or label realizes the escape.  The missing step is a finite-complexity
+      rule forcing one finite set of labels or cells to realize the terminal escape
+      uniformly.
+
+      \[
+      s(a,t)=\sum_n A_n\phi_n(a)\psi_n(t),
+      \]
+
+      where the label supports move through disjoint regions. Each fixed finite selector can miss all but finitely many spikes, while the supremum still sees every spike.
+
+      This pattern is compatible with threshold selectors and incompatible with a fixed finite selector conclusion.
+
+      \[
+      \sup_{a\in C_j}s(a,t)
+      \le C\,s(a_j,t)+e_j(t),
+      \qquad
+      \sum_j\int e_j(t)dt<\infty.
+      \]
+
+      Together with absence of bad strain tails on the representatives, this gives
+      Pack.TTU.
+
+      The current endpoint framework supplies finite threshold selectors.  A
+      finite-complexity rule preventing moving spikes remains the extra theorem needed
+      for full Pack.TTU through this route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector.TTU - Jump Finite Selector Test
+    line_start: 17493
+    line_end: 17519
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17493
+    start_anchor: "\\subsection{Endpoint Selector.TTU - Jump Finite Selector Test}\n"
+    end_anchor: "\\subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector.TTU - Jump Finite Selector Test}
+
+      The pointwise jump face is loss of every positive one-field coherence scale on the active terminal tail.
+
+      \[
+      Jump
+      \Longrightarrow
+      \forall r>0\ \exists\text{ finite threshold selector witnessing scale failure.}
+      \]
+
+      \[
+      \{a_1,\dots,a_J\}
+      \]
+
+      \[
+      Jump
+      \Longrightarrow
+      \text{finite threshold selectors exist for every positive scale threshold.}
+      \]
+
+      A fixed selector requires one of three extra inputs: a finite-complexity rule, a
+      compact-uniform scale modulus, or a theorem excluding moving bad-set labels.  The
+      Jump definition gives threshold selectors at each positive scale.  The fixed
+      selector theorem is the stronger statement that one finite label set follows the
+      same jump face through the terminal scales.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector Or Uniform Strain Tail Theorem Audit
+    line_start: 17520
+    line_end: 17564
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17520
+    start_anchor: "\\subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}\n"
+    end_anchor: "\\subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector
+      Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}
+
+      The audit isolates the continuum-label obstruction behind the full direct
+      Pack.TTU route.  One route is to prove an integrable supremal strain tail:
+
+      \[
+      s(a,t)=\|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)dt<\infty.
+      \]
+
+      Current endpoint definitions supply threshold selectors: for each threshold
+      there may be a label witnessing large strain or pack distortion.  The open
+      selector theorem must turn those threshold witnesses into one finite family, or
+      replace them by a uniform strain-tail estimate.
+
+      \[
+      \exists C_1, \dots,C_J,
+      \quad
+      \sup_{a\in C_j}s(a,t)
+      \le C s(a_j,t)+e_j(t),
+      \qquad
+      \sum_j\int e_j(t)dt<\infty.
+      \]
+
+      Then a fixed finite selector controls the supremal strain integral.  This
+      theorem is not supplied by the current endpoint definitions.
+
+      An integrable label modulus is also sufficient.  If for some finite
+      \(\delta\)-net \(\{a_j\}\),
+
+      \[
+      |s(a,t)-s(b,t)|\le\omega_t(\delta)
+      \qquad d(a,b)\le\delta,
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\omega_t(\delta)dt<\infty,
+      \]
+
+      Equivalently, full direct Pack.TTU remains open for continuum active label families.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Lifted Carrier Energy Absorption Result}
+
+    The weighted route can absorb carrier energy only after its nonlinear part is
+    split into a small dissipative piece and a controlled energy function.
+
+    \[
+    \frac{d}{dt}\mathcal E_D^{(s)}(X)+c_D\Xi_D^{(s)}(X)
+    \le C\Phi_s(\mathcal E_D^{(s)}(X)).
+    \]
+
+    \[
+    \mathcal E_D^{(s)}(X):=\|X\|_{H_D^{s+1}}^2+\|\Omega_D(X)\|_{H_D^s}^2
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal E_D^{(s)}(X)+2\nu\Xi_D^{(s)}(X)
+    \le \mathcal N_s(X),
+    \]
+
+    \[
+    |\mathcal N_s(X)|
+    \le \varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal E_D^{(s)}(X)+(2\nu-\varepsilon)\Xi_D^{(s)}(X)
+    \le C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X)).
+    \]
+
+    The absorption mechanism is the familiar one.  The nonlinear term
+    \(\mathcal N_s(X)\) may use a small part of the dissipative quantity
+    \(\Xi_D^{(s)}(X)\), and the remaining part is charged to a function of the
+    lifted carrier energy.  After this split, the left side still contains a
+    positive amount of dissipation.
+
+    If \(\Phi_s\) is linear or subcritical on the active interval, Gronwall gives a
+    finite lifted carrier-energy bound. The bound supplies the dynamic threshold
+    for persistent-support coherent estimates and controls exported remainders.
+
+    The conditional input is the lifted commutator package.  The base \(D.2\)
+    energy estimate controls the lower carrier energy.  A bound for
+    \(\mathcal E_D^{(s)}\) requires the higher-order commutator terms to obey the
+    displayed small-plus-controlled split.
+
+
+
+    \subsection{Lifted Carrier Energy Threshold Uniformization And HFG Replay}
+
+    The uniformization step is the Osgood version of the previous energy argument.
+
+    \[
+    \frac{d}{dt}E(t)+c_D\Xi(t)\le C\Phi_s(E(t)),
+    \qquad E(t):=\mathcal E_D^{(s)}(X(t)).
+    \]
+
+    \[
+    \int_{E_0}^{\infty}\frac{dr}{C\Phi_s(r)}=\infty.
+    \]
+
+    \[
+    \sup_{0\le t<T}E(t)<\infty
+    \]
+
+    \[
+    Z'(t)=C\Phi_s(Z(t)),\qquad Z(0)=E(0).
+    \]
+
+    \[
+    \int_{E(0)}^{E(t)}\frac{dr}{C\Phi_s(r)}\le t.
+    \]
+
+    The divergent Osgood integral keeps \(E(t)\) finite for each finite
+    \(t<T\). If \(\Phi_s(r)\) grows superlinearly like \(r^p\) with \(p>1\), this
+    argument permits finite-time scalar escape and does not close the carrier route.
+    The remaining burden is then a sharper structure theorem for \(\Phi_s\).
+
+    This is the threshold-uniform version of lifted carrier control.  Gronwall is
+    enough when the right side is linear or subcritical.  Osgood is the correct
+    replacement when the route only knows the growth function \(\Phi_s\).  The
+    HFG replay may use this result only after the same lifted energy threshold is
+    uniform on the active terminal approach.
+
+
+
+    \subsection{A1c R Via Strain-Control Criterion And Pack-Local Substitute}
+
+    The whole-space continuation criterion can be reached through a strain
+    integral.  The target \(A1c_R\) is a uniform \(H^s\) bound up to the alleged
+    terminal time:
+
+    \[
+    A1c_R:\quad \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+    \qquad s>5/2.
+    \]
+
+    \[
+    \frac12\frac d{dt}\|u\|_{H^s}^2+
+    \nu\|\nabla u\|_{H^s}^2
+    \le
+    C_s\|\nabla u\|_{L^\infty}\|u\|_{H^s}^2.
+    \]
+
+    If the strain integral is finite on \([0,T_*)\), Gronwall gives a finite
+    \(H^s\) bound. Since \(s>5/2\), Sobolev embedding gives uniform \(C^1_x\)
+    control, and local \(H^s\) well-posedness can be restarted from
+    \(t_j\uparrow T_*\) with a lifespan depending only on that bound. For \(j\)
+    large, the restarted interval crosses \(T_*\).
+
+    The pack-local substitute asks for less than a global strain integral.  It
+    tracks the strain seen by the active packet labels and uses that strain to
+    control the deformation gauge along those labels.
+
+    \[
+    \sup_{a\in A_Q(t)}\|S(u)(X(a,t),t)\|\le S_{pack,Q}(t),
+    \qquad
+    S(u)=\frac12(\nabla u+\nabla u^T).
+    \]
+
+    \[
+    \frac d{dt}F=\nabla u(X,t)F.
+    \]
+
+    \[
+    \frac d{dt}\log\max\{\|F\|,\|F^{-1}\|\}\le S_{pack,Q}(t).
+    \]
+
+    The bound controls the packet deformation gauge
+    \(\Gamma_{pack,Q}\). With the endpoint tower and field readout, that packet
+    control prevents pack detachment, tower blowup, field jump, and dead
+    participation on the selected branch.
+
+    Only the continuation implications are proved here. The open analytic work is
+    to derive either the full strain integral or the packet strain integrals from
+    original whole-space data.
+
+
+
+    \subsection{Classical Closure Warrant Carrier}
+
+    \[
+    \nu>0,
+    \qquad
+    u_0^{\mathrm{vel}}=u_0\in C^\infty(\mathbb T^3),
+    \qquad
+    \nabla\cdot u_0=0,
+    \qquad
+    \int_{\mathbb T^3}u_0\,dx=0,
+    \qquad
+    f=0.
+    \]
+
+    \[
+    [0,T_*).
+    \]
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+    \]
+
+    The warrant is the final classical-theory step for the periodic zero-force
+    branch.  It begins with a uniform \(H^s(\mathbb T^3)\) bound, with \(s>5/2\),
+    up to the alleged terminal time.  Standard local classical Navier--Stokes
+    theory then gives a lifespan depending only on that bound.  For any sequence
+    \(t_j\uparrow T_*\), the solution relaunched from \(u(t_j)\) exists on a
+    common interval of length \(\tau>0\). For large \(j\),
+
+    \[
+    t_j+\tau>T_*.
+    \]
+
+    Uniqueness identifies the relaunched solution with the original solution on
+    their overlap, extending the original solution past \(T_*\). A finite terminal
+    time is impossible once the uniform \(H^s\) bound is available.
+
+    The warrant converts an already supplied \(H^s\) bound into continuation.  The
+    analytic route still has to supply that bound from the Pack/Part/Field or
+    classical dyadic packages.  The branch remains the periodic zero-force branch:
+    whole-space data and nonzero forcing require their own export warrants.
+
+
+
+    \subsection{Direct Pack-Native Strain Estimate: Sharpened Target}
+
+    The direct pack-route attempt sharpens the strain estimate needed to control
+    terminal pack gauge without passing through the averaged route.
+
+    \[
+    \frac{d}{dt}F(a,t)=\nabla u(X(a,t),t)F(a,t),
+    \]
+
+    \[
+    \frac{d}{dt}F(a,t)^{-1}=-F(a,t)^{-1}\nabla u(X(a,t),t).
+    \]
+
+    \[
+    \sup_{a\in A_Q(t)}\|\nabla u(X(a,t),t)\|\le S_{pack,Q}(t)
+    \]
+
+    \[
+    S_{pack,Q}(t)=\|\nabla u(t)\|_{L^\infty}.
+    \]
+
+    \[
+    S_{pack,Q}(t)
+    \le C_{\mathrm{sf},16936}
+    1+\|\omega(t)\|_{L^\infty}\log\left(e+\|u(t)\|_{H^s}\right).
+    \]
+
+    That estimate is again continuation-grade unless the logarithmic factor is controlled by a separate tower route.
+
+    The sufficient pack-native target is
+    \[
+    S_{pack,Q}\in L^1_{\mathrm{loc}}([t_0,T_*)).
+    \]
+    This is the sharpest pack-native coefficient because only the symmetric strain
+    changes singular values of the deformation gradient.  Pure rotation changes
+    orientation but does not enlarge the pack gauge.
+
+    This coefficient controls the largest singular value along the actual stretching direction. A proof would require a closed equation for the direction field and an integrable bound for the positive part of the aligned strain.
+
+
+
+    \subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}
+
+    The finite-complexity test asks whether endpoint witnesses can be held by one
+    fixed finite family of labels or cells.  The current endpoint definitions give
+    finite witnesses at each threshold.  They do not, by themselves, keep the same
+    finite witnesses through all terminal thresholds.
+
+    \[
+    A_Q \leadsto \{a_1,\dots,a_J\}
+    \]
+
+    \[
+    \mathfrak A_{N,Q}(t)=\sup_{x\in Q_t}\sum_{k=0}^N(|U_k|+|K_k|),
+    \]
+
+    \[
+    \Gamma_{pack,Q}(t)=\sup_{a\in A_Q(t)}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}.
+    \]
+
+    These definitions provide threshold witnesses: for each threshold, some active
+    point or label realizes the escape.  The missing step is a finite-complexity
+    rule forcing one finite set of labels or cells to realize the terminal escape
+    uniformly.
+
+    \[
+    s(a,t)=\sum_n A_n\phi_n(a)\psi_n(t),
+    \]
+
+    where the label supports move through disjoint regions. Each fixed finite selector can miss all but finitely many spikes, while the supremum still sees every spike.
+
+    This pattern is compatible with threshold selectors and incompatible with a fixed finite selector conclusion.
+
+    \[
+    \sup_{a\in C_j}s(a,t)
+    \le C\,s(a_j,t)+e_j(t),
+    \qquad
+    \sum_j\int e_j(t)dt<\infty.
+    \]
+
+    Together with absence of bad strain tails on the representatives, this gives
+    Pack.TTU.
+
+    The current endpoint framework supplies finite threshold selectors.  A
+    finite-complexity rule preventing moving spikes remains the extra theorem needed
+    for full Pack.TTU through this route.
+
+
+
+    \subsection{Endpoint Selector.TTU - Jump Finite Selector Test}
+
+    The pointwise jump face is loss of every positive one-field coherence scale on the active terminal tail.
+
+    \[
+    Jump
+    \Longrightarrow
+    \forall r>0\ \exists\text{ finite threshold selector witnessing scale failure.}
+    \]
+
+    \[
+    \{a_1,\dots,a_J\}
+    \]
+
+    \[
+    Jump
+    \Longrightarrow
+    \text{finite threshold selectors exist for every positive scale threshold.}
+    \]
+
+    A fixed selector requires one of three extra inputs: a finite-complexity rule, a
+    compact-uniform scale modulus, or a theorem excluding moving bad-set labels.  The
+    Jump definition gives threshold selectors at each positive scale.  The fixed
+    selector theorem is the stronger statement that one finite label set follows the
+    same jump face through the terminal scales.
+
+
+
+    \subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}
+
+    The audit isolates the continuum-label obstruction behind the full direct
+    Pack.TTU route.  One route is to prove an integrable supremal strain tail:
+
+    \[
+    s(a,t)=\|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)dt<\infty.
+    \]
+
+    Current endpoint definitions supply threshold selectors: for each threshold
+    there may be a label witnessing large strain or pack distortion.  The open
+    selector theorem must turn those threshold witnesses into one finite family, or
+    replace them by a uniform strain-tail estimate.
+
+    \[
+    \exists C_1, \dots,C_J,
+    \quad
+    \sup_{a\in C_j}s(a,t)
+    \le C s(a_j,t)+e_j(t),
+    \qquad
+    \sum_j\int e_j(t)dt<\infty.
+    \]
+
+    Then a fixed finite selector controls the supremal strain integral.  This
+    theorem is not supplied by the current endpoint definitions.
+
+    An integrable label modulus is also sufficient.  If for some finite
+    \(\delta\)-net \(\{a_j\}\),
+
+    \[
+    |s(a,t)-s(b,t)|\le\omega_t(\delta)
+    \qquad d(a,b)\le\delta,
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\omega_t(\delta)dt<\infty,
+    \]
+
+    Equivalently, full direct Pack.TTU remains open for continuum active label families.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted Carrier Energy Absorption Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11082
+  line_start: 11082
+  line_end: 11126
+  start_anchor: "\\subsection{Lifted Carrier Energy Absorption Result}\n"
+  end_anchor: "\\subsection{Lifted Carrier Energy Threshold Uniformization And HFG
+    Replay}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted Carrier Energy Absorption
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11082
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted Carrier Energy Threshold Uniformization And HFG Replay
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11127
+  line_start: 11127
+  line_end: 11163
+  start_anchor: "\\subsection{Lifted Carrier Energy Threshold Uniformization And HFG
+    Replay}\n"
+  end_anchor: "\\subsection{Lifted Packet Closure Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted Carrier Energy Threshold
+    Uniformization And HFG Replay as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11127
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: A1c R Via Strain-Control Criterion And Pack-Local Substitute
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12870
+  line_start: 12870
+  line_end: 12921
+  start_anchor: "\\subsection{A1c R Via Strain-Control Criterion And Pack-Local Substitute}\n"
+  end_anchor: "\\subsection{Aact Global Finite Cover Scheduler Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite A1c R Via Strain-Control Criterion
+    And Pack-Local Substitute as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12870
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Classical Closure Warrant Carrier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16358
+  line_start: 16358
+  line_end: 16404
+  start_anchor: "\\subsection{Classical Closure Warrant Carrier}\n"
+  end_anchor: "\\subsection{Classical Closure Warrant Final Pass}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Classical Closure Warrant Carrier
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16358
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Direct Pack-Native Strain Estimate: Sharpened Target'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17057
+  line_start: 17057
+  line_end: 17096
+  start_anchor: "\\subsection{Direct Pack-Native Strain Estimate: Sharpened Target}\n"
+  end_anchor: "\\subsection{Direct Proof Attempt For Seven SG4 TPS Source Estimates}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Direct Pack-Native Strain Estimate:
+    Sharpened Target as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17057
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector.TTU - Finite-Complexity Rule Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17446
+  line_start: 17446
+  line_end: 17492
+  start_anchor: "\\subsection{Endpoint Selector.TTU - Finite-Complexity Rule Test}\n"
+  end_anchor: "\\subsection{Endpoint Selector.TTU - Jump Finite Selector Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector.TTU - Finite-Complexity
+    Rule Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17446
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector.TTU - Jump Finite Selector Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17493
+  line_start: 17493
+  line_end: 17519
+  start_anchor: "\\subsection{Endpoint Selector.TTU - Jump Finite Selector Test}\n"
+  end_anchor: "\\subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector.TTU - Jump
+    Finite Selector Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17493
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector Or Uniform Strain Tail Theorem Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17520
+  line_start: 17520
+  line_end: 17564
+  start_anchor: "\\subsection{Endpoint Selector Or Uniform Strain Tail Theorem Audit}\n"
+  end_anchor: "\\subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector Or Uniform
+    Strain Tail Theorem Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17520
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-04
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-carrier-and-pack-04.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

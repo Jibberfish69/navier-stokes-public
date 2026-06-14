@@ -33,7 +33,7 @@ precise form. If the reserve-spend theorem fails, there is a terminal same-fluid
 active packet
 
 ```text
-P_n=(Q_n^Phi,j_n,I_n), |I_n| ~ 2^{-2j_n}, j_n -> infinity, t_n -> T_*
+P_n=(Q_n^Phi,j_n,I_n), |I_n| = 2^{-2j_n}, j_n -> infinity, t_n -> T_*
 ```
 
 with nonzero normalized native positive source mass after legal losses and

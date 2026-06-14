@@ -187,7 +187,7 @@ work, or viscous boundary exchange, while interior viscosity is charged in
 
 The rate above is not a number determined only by total kinetic energy.
 
-A local interpolation estimate gives, schematically,
+A local interpolation estimate gives
 
 ```text
 integral_{B_{2r}} |u|^3
@@ -217,26 +217,26 @@ Take a smooth packet with characteristic velocity size `U_r` on a ball of
 radius `r`. Its local energy has size:
 
 ```text
-E_r ~ U_r^2 r^3.
+E_{r,\mathrm{model}}:= U_r^2 r^3.
 ```
 
 The transport/near-pressure flux size is:
 
 ```text
-Flux_r ~ U_r^3 r^2.
+Flux_{r,\mathrm{model}}:= U_r^3 r^2.
 ```
 
 The viscous boundary exchange size is:
 
 ```text
-Visc_r ~ nu U_r^2 r.
+Visc_{r,\mathrm{model}}:= \nu U_r^2 r.
 ```
 
-Writing `U_r ~ E_r^{1/2} r^{-3/2}` gives:
+Writing `U_r:=E_r^{1/2} r^{-3/2}` gives:
 
 ```text
-Flux_r ~ E_r^{3/2} r^{-5/2},
-Visc_r  ~ nu E_r r^{-2}.
+Flux_{r,\mathrm{model}}:= E_r^{3/2} r^{-5/2},
+Visc_{r,\mathrm{model}}:= \nu E_r r^{-2}.
 ```
 
 So a bound on raw energy alone cannot give a uniform maximum rate as
@@ -264,21 +264,21 @@ the readout.
 If the velocity jump across scale `r` is `U_r`, the gradient scale is:
 
 ```text
-A_r ~ U_r/r.
+A_r:= U_r/r.
 ```
 
 The local kinetic energy needed to support that velocity size is:
 
 ```text
-E_r ~ U_r^2 r^3 ~ A_r^2 r^5.
+E_{r,\mathrm{model}}:= U_r^2 r^3 = A_r^2 r^5.
 ```
 
 So an infinite gradient does not automatically require large raw energy in a
-shrinking ball. For example, under Navier-Stokes scaling `U_r ~ r^{-1}`,
+shrinking ball. For example, under Navier-Stokes scaling `U_r:=r^{-1}`,
 
 ```text
-A_r ~ r^{-2},
-E_r ~ r.
+A_r:= r^{-2},
+E_{r,\mathrm{model}}:= r.
 ```
 
 The gradient blows up while local raw energy tends to zero.
@@ -288,7 +288,7 @@ The gradient blows up while local raw energy tends to zero.
 If the vorticity scale is `Omega_r`, the local enstrophy cost is:
 
 ```text
-Enstrophy_r ~ Omega_r^2 r^3.
+Enstrophy_{r,\mathrm{model}}:= \Omega_r^2 r^3.
 ```
 
 Again, absolute enstrophy can concentrate in scale-dependent ways. A useful
@@ -299,7 +299,7 @@ total-energy statement.
 
 The classical local regularity currency is scale-critical. A singular point
 cannot have arbitrarily small normalized critical packet mass on all small
-parabolic cylinders. In schematic form, for a singular point:
+parabolic cylinders. For a singular point the critical quantity is:
 
 ```text
 r^{-2} integral_{Q_r} (|u|^3 + |p|^{3/2}) dx dt

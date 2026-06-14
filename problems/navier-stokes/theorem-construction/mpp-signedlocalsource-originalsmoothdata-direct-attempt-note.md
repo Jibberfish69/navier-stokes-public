@@ -54,7 +54,7 @@ compact preterminal interval.  These give finite first-moment dissipation:
 ```
 
 The active-square branch needs shellwise square-strength control on terminal
-active windows, schematically
+active windows in the following target form:
 
 ```math
 \int_I\sum_{j\ge N}2^{-j}D_j(t)^2\,dt=o_N(1)

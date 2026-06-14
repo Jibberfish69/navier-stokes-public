@@ -1262,7 +1262,7 @@ or as the corresponding shrinking terminal-window criterion from
 So the external tent-space / Carleson and terminal-window ideas now attach to
 an exact in-repo object: they must control `\mu_N` (or equivalently the local
 Gronwall window for `\widetilde\Lambda_N^\sharp`) rather than a free-floating
-heuristic coefficient packet.
+informal coefficient packet.
 
 So even on the alternate route the live burden is no longer the raw quartic
 fixed-band square by itself, and no longer the coefficient-identification
@@ -1479,15 +1479,15 @@ To promote the current lane from a closed bridge package to a theorem-grade
 global smoothness result, the six-lemma stack now has to be certified in this
 exact order:
 
-1. **Lemma 4A is discharged through `(15i)`.**  
+1. **Lemma 4A is discharged through `(15i)`.**
    The only true top slot is `(14c)`, and the bootstrap `L^\infty_a` window
    already collapses it into `\mathcal K_r^{Lag}`.
 
-2. **Lemma 4B is invoked only through the bridge contract `(13b)`.**  
+2. **Lemma 4B is invoked only through the bridge contract `(13b)`.**
    No frame/coefficient internals should remain exposed at mainline level after
    `(17a)`.
 
-3. **Lemma 5 closes the return arrow to the lifted classical packet.**  
+3. **Lemma 5 closes the return arrow to the lifted classical packet.**
    The coefficient side is already exported by `(19d)`-`(19h)`.
    The only genuinely new analytic theorem still visible is the far-corona
    theorem `(19n8)`, i.e. `(CTS)` or equivalently its local engine `(LPAS)`.
@@ -1499,12 +1499,12 @@ exact order:
    classical `H^1` continuation norm through `(19a)`, with no derivative
    mismatch or restart-loss in constants.
 
-4. **Lemma 6 consumes Lemma 5 through the explicit restart handoff `(21a)`.**  
+4. **Lemma 6 consumes Lemma 5 through the explicit restart handoff `(21a)`.**
    The continuation step must use the bridge capsule, the Euclidean
    fourth-bridge packet, and the classical `H^1` continuation lemma as one
    integrated implication, not as parallel stories.
 
-5. **First-singular-time contradiction is written as one theorem.**  
+5. **First-singular-time contradiction is written as one theorem.**
    The final theorem has to read:
 
    ```math

@@ -27,7 +27,7 @@ For every `\sigma>0` and almost every `t`,
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}2^j D_j(t)\,\mathcal T_j^\sigma(t).
 ```
 
@@ -75,7 +75,7 @@ If `m:=\min\{j,\ell\}`, then
 =
 2^{-\sigma(j+\ell)}
 \sum_{N+M<k<m-4}2^{(1+2\sigma)k}
-\lesssim_\sigma
+\le C_{\sigma,0}
 2^{-\sigma(j+\ell)}2^{(1+2\sigma)m}.
 ```
 
@@ -93,7 +93,7 @@ Hence
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}\sum_{\ell\ge j}
 2^{j-\sigma(\ell-j)}D_j(t)D_\ell(t)
 =
@@ -101,6 +101,9 @@ Hence
 ```
 
 This is the claimed reduction.
+
+Here `C_{\sigma,0}:=(1-2^{-(1+2\sigma)})^{-1}` is the geometric-sum constant,
+and `C_\sigma` also absorbs the final symmetric exchange of `j` and `\ell`.
 
 ## Route Position
 

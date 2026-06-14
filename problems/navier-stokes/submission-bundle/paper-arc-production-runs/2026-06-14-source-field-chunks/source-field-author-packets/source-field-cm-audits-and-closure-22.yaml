@@ -1,0 +1,1130 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-22
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-22
+  sequence: 107
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 22
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 37036
+  line_end: 37803
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37036
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37081
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37113
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37156
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37420
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37673
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37719
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37762
+  subsection_titles:
+  - Clay problem Four-Layer Analytic Verification Certificates
+  - Clay problem FrameBVCharge.A Audit
+  - Clay problem Frozen-Family Cutoff-Channel Reduction Note
+  - Clay problem Frozen-Family Packet Cutoff-Commutator Note
+  - Clay problem Source-Wall Positive-Supplier Audit After CM Closure
+  - Clay problem Full Linearized Response Adjoint Packet.A Attempt
+  - Clay problem Full Linearized Response Adjoint Route
+  - Clay problem Full Linearized Response Principal Operator Route
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Four-Layer Analytic Verification Certificates
+    line_start: 37036
+    line_end: 37080
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37036
+    start_anchor: "\\subsection{Clay problem Four-Layer Analytic Verification Certificates}\n"
+    end_anchor: "\\subsection{Clay problem FrameBVCharge.A Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Four-Layer Analytic Verification Certificates}
+
+      Each certificate must have constants independent of terminal scale and remainders satisfying o N(1) 0.
+
+      \[
+      \Gamma_T(t)
+      =
+      \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+      \qquad
+      g_T(t)=e^{\Gamma_T(t)},
+      \qquad
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+      \]
+
+      Thus g T(t +)=1, T(t +)= T(t +), and residual creation is charged by g T(t) -1 R, T dt.
+
+      \[
+      y=J_T(t)^{-1}(x-X_T(t)),
+      \]
+
+      \[
+      -\partial_t-\nu\nabla_y\cdot(B_T(t)\nabla_y),
+      \]
+
+      \[
+      B_T(t)=J_T(t)^{-1}J_T(t)^{-T}
+      \]
+
+      \[
+      \lambda |\xi|^2
+      \le
+      \xi\cdot B_T(t)\xi
+      \le
+      \Lambda |\xi|^2.
+      \]
+
+      The model estimate controls the first term. The second term is bounded in the same packet norm by C M T packet . Choose M so C M<1/2. Absorb to obtain
+
+      The constant is independent of N, tile depth, and terminal scale. This verifies Weighted Adj Bessel.A.
+
+      Use dyadic tiles and lexicographic tie-breaking to make the first-pulse choice measurable.
+
+      This is the key no-leakage statement: earlier ancestry cannot reappear as diffuse source residue in the ancient limit.  Any positive limiting earlier source-pulse mass would be detected by a dyadic tile after weak convergence and would contradict the finite-scale earliest crossing.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem FrameBVCharge.A Audit
+    line_start: 37081
+    line_end: 37112
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37081
+    start_anchor: "\\subsection{Clay problem FrameBVCharge.A Audit}\n"
+    end_anchor: "\\subsection{Clay problem Frozen-Family Cutoff-Channel Reduction
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem FrameBVCharge.A Audit}
+
+      Purpose: test the remaining frame-rotation term under Low StrainBVCharge.A and determine whether it is independent of the active-alignment / terminal no-incoming gate already isolated elsewhere.
+
+      \[
+      Q_{n}:=I-n\otimes n.
+      \]
+
+      The commutator term records pressure/projection/cutoff/localization and off-packet defects. Those are legal only if the corresponding Part/Field records are already available.
+
+      \[
+      \|S^{near}_{j_P,L}\|_\infty
+      \le
+      \theta\nu2^{2j_P}
+      =
+      \theta\tau_P^{-1},
+      \]
+
+      \[
+      \tau_P
+      |Q_{n_P}S^{near}_{j_P,L}n_P|
+      \|S^{near}_{j_P,L}\|_\infty
+      \le
+      C\theta
+      |Q_{n_P}S^{near}_{j_P,L}n_P|.
+      \]
+
+      The earlier direct ASAC attempt already showed that incompressibility and bare skew exchange do not remove this positive aligned carrier. Absolute estimates return to Scale Critical Tree Carleson.A.
+
+      The first form is a direct finite-window record. The second form is the terminal tangent rigidity route: a nonzero terminal tangent packet with no incoming source cannot keep rotating into an expanding strain direction.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Frozen-Family Cutoff-Channel Reduction Note
+    line_start: 37113
+    line_end: 37155
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37113
+    start_anchor: "\\subsection{Clay problem Frozen-Family Cutoff-Channel Reduction
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Frozen-Family Packet Cutoff-Commutator
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Frozen-Family Cutoff-Channel Reduction Note}
+
+      The exact cutoff absorption beneath the frozen-net source account is now proved. The only conditional input left is interval-integrability of the packet-factor coefficient b cut .
+
+      \[
+      \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}(t;I)
+      :=
+      \sum_{\ell=1}^{M_\varepsilon}
+      |\mathcal C_N^{cut}(\eta^\ell,t;\psi)|.
+      \]
+
+      \[
+      \Phi_{\psi}^{glob,(j)}(t)
+      :=
+      \|\nabla^j\phi_t(\cdot,t)\|_{L^\infty(\mathbf R^3)}
+      \qquad
+      (j=0,1,2).
+      \]
+
+      \[
+      D_t\phi_t=0,
+      \]
+
+      \[
+      D_t\nabla\phi_t
+      =
+      -(\nabla u)^\top\nabla\phi_t,
+      \]
+
+      \[
+      D_t\nabla^2\phi_t
+      =
+      -(\nabla u)^\top\nabla^2\phi_t
+      -\nabla^2\phi_t\,\nabla u
+      -\sum_{\ell=1}^{3}
+      (\nabla^2 u_\ell)\,\partial_\ell\phi_t,
+      \]
+
+      where N N, , press := | P N red ( ,t; )|+ | F N press ( ,t; )| and N N, , sc := | S N( ,t; )|+ | R N( ,t; )|.
+
+      The coefficient-side interval closure b cut L 1(I) is not proved here as a standalone source theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Frozen-Family Packet Cutoff-Commutator Note
+    line_start: 37156
+    line_end: 37214
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37156
+    start_anchor: "\\subsection{Clay problem Frozen-Family Packet Cutoff-Commutator
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Frozen-Family Pressure-Channel Reduction
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Frozen-Family Packet Cutoff-Commutator Note}
+
+      Role: write the explicit packet-side viscous cutoff-commutator identity and its first exact sufficient bound beneath the frozen-net cutoff channel.
+
+      The frozen-net cutoff channel is not proved to lie in L 1(I). The packet-local viscous commutator is made explicit, so the source-side wall is no longer a missing formula.
+
+      \[
+      E_N(h,t;\psi)
+      :=
+      \sum_{k=0}^{N}
+      \lambda_k
+      \int
+      \phi_t(x)^2\,|\delta_h U_k(x,t)|^2\,dx,
+      \]
+
+      \[
+      D_N(h,t;\psi)
+      :=
+      \sum_{k=0}^{N}
+      \lambda_k
+      \int
+      \phi_t(x)^2\,|\nabla\delta_h U_k(x,t)|^2\,dx.
+      \]
+
+      \[
+      \mathcal C_N^{cut}(h,t;\psi)
+      =
+      -4\nu
+      \sum_{k=0}^{N}\lambda_k
+      \int
+      \phi_t\,f_k\,\nabla\phi_t\cdot\nabla f_k\,dx.
+      \]
+
+      \[
+      \mathcal C_N^{cut}(h,t;\psi)
+      =
+      2\nu
+      \sum_{k=0}^{N}\lambda_k
+      \int
+      f_k^2\,\operatorname{div}(\phi_t\nabla\phi_t)\,dx,
+      \]
+
+      \[
+      \mathcal C_N^{cut}(h,t;\psi)
+      =
+      2\nu
+      \sum_{k=0}^{N}\lambda_k
+      \int
+      f_k^2
+      \Big(
+      |\nabla\phi_t|^2+\phi_t\Delta\phi_t
+      \Big)\,dx.
+      \]
+
+      The exact local wall isolated in the cutoff-channel reduction is closed: the packet-side commutator is no longer missing as a formula.
+
+      A frozen-net summation theorem over the interval-fixed net , (I) is also not proved here.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source-Wall Positive-Supplier Audit After CM Closure
+    line_start: 37420
+    line_end: 37463
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37420
+    start_anchor: "\\subsection{Clay problem Source-Wall Positive-Supplier Audit After
+      CM Closure}\n"
+    end_anchor: "\\subsection{Clay problem Full Coefficient Stop Parent-Gap Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source-Wall Positive-Supplier Audit After CM Closure}
+
+      This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+
+      The new paraproduct closure tells us what a terminal source contribution is once it appears. In the CM route that is enough because the contribution lands as Pack/Part exit. It does not by itself prove the stronger positive statement that a zero-thickness terminal native source concentration cannot be produced.
+
+      \[
+      [\mathcal R_N(W)-(1-\delta)\mathcal R_N(Past(W))-Loss(W)]_+
+      \le Charge_N(W)+o_N(1).
+      \]
+
+      \[
+      T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+      \qquad
+      \mathcal R_N(W)=\int_W\sum_{k>N}2^kT_k(t)^2dt.
+      \]
+
+      \[
+      \int_{I_m}D_{m+5}(t)dt=A_m\to0
+      \]
+
+      \[
+      \int_{I_m}2^mD_{m+5}(t)^2dt
+      =2^mA_m^2h_m^{-1}\sfcomp{35972}1.
+      \]
+
+      For example, A m=2 -2m and h m=2 -3m . This is a record countermodel to promoting first-moment charge into scale-critical -reserve charge. It is not a Navier-Stokes counterexample; it shows that the currently installed inputs do not imply Reserve Creation Charge.A.
+
+      \[
+      [H_N(W)-H_N(Past(W))-Loss^{height}(W)]_+
+      \le C_{\mathrm{sf},35968}
+      \int_W\sup_{k>N}
+      \left[
+      2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+      \right]_+dt.
+      \]
+
+      Installed source records give only finite local L 1 t mass. The terminal layer profile
+
+      Both are the same underlying demand for the positive route: prove that original smooth Navier-Stokes data cannot create a zero-thickness terminal native source pulse after all ASAC, legal, donor, non-Zeno, Pack/Part, and paraproduct-capture alternatives are removed.
+
+      The CM contrapositive machinery is the governing route for this terminal residue. Any surviving terminal zero-radius residue is a Pack/Part CM exit, not a retained Field/jump object, and the residue is used as the witness rather than deleted.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Full Linearized Response Adjoint Packet.A Attempt
+    line_start: 37673
+    line_end: 37718
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37673
+    start_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Packet.A
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Full Linearized Response Adjoint Packet.A Attempt}
+
+      This should give Bessel, parent-kernel, and lower-frame detection for adjoint packets solving the full localized linearized response adjoint.
+
+      \[
+      u^{lo}:=u_{\le j-M}.
+      \]
+
+      \[
+      R^{hi-coeff}
+      =
+      \mathbb P((u-u^{lo})\cdot\nabla Z+Z\cdot\nabla(u-u^{lo})).
+      \]
+
+      \[
+      \mathcal C_T^{lin}(a,b)
+      :=
+      \int_a^b
+      \left(
+      r_T^2\|\nabla^2u^{lo}\|_\infty
+      +r_T\|\nabla^2u^{lo}\|_\infty
+      +r_T\|\nabla B^{lo}\|_\infty
+      \right)dt,
+      \]
+
+      \[
+      B^{lo}:=\nabla u^{lo}.
+      \]
+
+      \[
+      \mathcal C_T^{lin}(t_-,t_+)\le\varepsilon_M.
+      \]
+
+      and admit the same parent-kernel decomposition and terminal lower-frame detection as the installed projected affine adjoint packets.
+
+      In the pulled-back frame, the adjoint equation becomes anisotropic heat plus a perturbation E T whose L t 1(H 1->H -1 ) norm is bounded by C C T lin . On coefficient-good tiles this is bounded by \(C_{\mathrm{sf},36237}\varepsilon_M\). Choose epsilon M so small that the perturbation is absorbed by Duhamel.
+
+      The stopping argument is formal once the response mass and stopped response parent relation are pinned. It does not require a new PDE estimate.
+
+      If the high coefficient is estimated by absolute values, this can return to a mixed high-high response source wall. But the scale gap M and ordinary dissipation tail should make the high-coefficient part legal after finite-band decomposition, provided no terminal same-scale response concentration is hidden in the discarded coefficient.
+
+      The finite-collar move is proved. Far High Beat NoReturn.A remains open unless the route upgrades all the way to a full-coefficient linearized adjoint kernel, in which case no coefficient residual remains.
+
+      This moves the route from PDE source-wall estimates into packet calculus and finite-band high-coefficient residual control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Full Linearized Response Adjoint Route
+    line_start: 37719
+    line_end: 37761
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37719
+    start_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Route}\n"
+    end_anchor: "\\subsection{Clay problem Full Linearized Response Principal Operator
+      Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Full Linearized Response Adjoint Route}
+
+      \[
+      z_{<j}\cdot\nabla u_j
+      \quad\text{and}\quad
+      u_j\cdot\nabla z_{<j}
+      \]
+
+      \[
+      \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+      =
+      \nu\Delta z+\Delta u.
+      \]
+
+      so the cleanest adjoint should be built for the full localized linearized operator, not a shell-diagonal approximation.
+
+      \[
+      \boxed{
+      L_u z
+      :=
+      \partial_t z
+      +\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+      -\nu\Delta z.
+      }
+      \]
+
+      \[
+      L_u z=\Delta u.
+      \]
+
+      \[
+      L_u^\ast\Psi_T=0
+      \]
+
+      If those packet-calculus theorems close, the response-rotation branch closes without Height Flux Control.A, Original Height Dissipation Charge.A, Response Strain Decorrel.A, or Low Response Strain Charge.A.
+
+      and isolates the remaining burden as the vector parabolic packet-frame theorem Full Coefficient Linearized Adjoint Kernel.A.
+
+      The other listed hard item, Positive Rotation Detects Full Adjoint Mass.A, is handled in
+
+      Thus the response route's live burden is concentrated in the full-coefficient vector packet kernel theorem and its frame-pinning subitems.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Full Linearized Response Principal Operator Route
+    line_start: 37762
+    line_end: 37803
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37762
+    start_anchor: "\\subsection{Clay problem Full Linearized Response Principal Operator
+      Route}\n"
+    end_anchor: "\\subsection{Clay problem Full Transported NoIncoming Flux.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Full Linearized Response Principal Operator Route}
+
+      \[
+      \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+      =
+      \nu\Delta z+\Delta u.
+      \]
+
+      so the principal response packet should not treat nonlinear response rotation as an external residual. It should put the localized linearized NS operator into the principal flow.
+
+      \[
+      b_j:=u_{<j-M},
+      \qquad
+      B_j:=\nabla u_{<j-M}.
+      \]
+
+      Here B jZ is the localized form of Z u <j-M and P j denotes the shell-projected Leray frame. The skew/rotational and symmetric strain pieces of B j are both part of the principal response propagator.
+
+      \[
+      L_j^{lin}z_j
+      =
+      P_j\Delta u
+      +R_j^{lin-resp},
+      \]
+
+      \[
+      (L_j^{lin})^\ast\psi_T^{lin}=0
+      \]
+
+      \[
+      \mu(B_j)
+      :=
+      \lambda_{\max}\left(\frac{B_j+B_j^T}{2}\right).
+      \]
+
+      This absorbs every energy-increasing direction of the linearized response propagator, including orthogonal response rotation induced by B j.
+
+      No Nonlinear Response Rotation NoGain.A is needed as an external residual theorem. It is internal to the principal linearized response propagator.
+
+      This is the strongest route mutation from the viscosity-homotopy idea so far. It uses the fact that the viscosity derivative equation is linear in z. Once the full linearized response operator is treated as principal, response rotation is inherited dynamics, not source creation.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Four-Layer Analytic Verification Certificates}
+
+    Each certificate must have constants independent of terminal scale and remainders satisfying o N(1) 0.
+
+    \[
+    \Gamma_T(t)
+    =
+    \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+    \qquad
+    g_T(t)=e^{\Gamma_T(t)},
+    \qquad
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+    \]
+
+    Thus g T(t +)=1, T(t +)= T(t +), and residual creation is charged by g T(t) -1 R, T dt.
+
+    \[
+    y=J_T(t)^{-1}(x-X_T(t)),
+    \]
+
+    \[
+    -\partial_t-\nu\nabla_y\cdot(B_T(t)\nabla_y),
+    \]
+
+    \[
+    B_T(t)=J_T(t)^{-1}J_T(t)^{-T}
+    \]
+
+    \[
+    \lambda |\xi|^2
+    \le
+    \xi\cdot B_T(t)\xi
+    \le
+    \Lambda |\xi|^2.
+    \]
+
+    The model estimate controls the first term. The second term is bounded in the same packet norm by C M T packet . Choose M so C M<1/2. Absorb to obtain
+
+    The constant is independent of N, tile depth, and terminal scale. This verifies Weighted Adj Bessel.A.
+
+    Use dyadic tiles and lexicographic tie-breaking to make the first-pulse choice measurable.
+
+    This is the key no-leakage statement: earlier ancestry cannot reappear as diffuse source residue in the ancient limit.  Any positive limiting earlier source-pulse mass would be detected by a dyadic tile after weak convergence and would contradict the finite-scale earliest crossing.
+
+
+
+    \subsection{Clay problem FrameBVCharge.A Audit}
+
+    Purpose: test the remaining frame-rotation term under Low StrainBVCharge.A and determine whether it is independent of the active-alignment / terminal no-incoming gate already isolated elsewhere.
+
+    \[
+    Q_{n}:=I-n\otimes n.
+    \]
+
+    The commutator term records pressure/projection/cutoff/localization and off-packet defects. Those are legal only if the corresponding Part/Field records are already available.
+
+    \[
+    \|S^{near}_{j_P,L}\|_\infty
+    \le
+    \theta\nu2^{2j_P}
+    =
+    \theta\tau_P^{-1},
+    \]
+
+    \[
+    \tau_P
+    |Q_{n_P}S^{near}_{j_P,L}n_P|
+    \|S^{near}_{j_P,L}\|_\infty
+    \le
+    C\theta
+    |Q_{n_P}S^{near}_{j_P,L}n_P|.
+    \]
+
+    The earlier direct ASAC attempt already showed that incompressibility and bare skew exchange do not remove this positive aligned carrier. Absolute estimates return to Scale Critical Tree Carleson.A.
+
+    The first form is a direct finite-window record. The second form is the terminal tangent rigidity route: a nonzero terminal tangent packet with no incoming source cannot keep rotating into an expanding strain direction.
+
+
+
+    \subsection{Clay problem Frozen-Family Cutoff-Channel Reduction Note}
+
+    The exact cutoff absorption beneath the frozen-net source account is now proved. The only conditional input left is interval-integrability of the packet-factor coefficient b cut .
+
+    \[
+    \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}(t;I)
+    :=
+    \sum_{\ell=1}^{M_\varepsilon}
+    |\mathcal C_N^{cut}(\eta^\ell,t;\psi)|.
+    \]
+
+    \[
+    \Phi_{\psi}^{glob,(j)}(t)
+    :=
+    \|\nabla^j\phi_t(\cdot,t)\|_{L^\infty(\mathbf R^3)}
+    \qquad
+    (j=0,1,2).
+    \]
+
+    \[
+    D_t\phi_t=0,
+    \]
+
+    \[
+    D_t\nabla\phi_t
+    =
+    -(\nabla u)^\top\nabla\phi_t,
+    \]
+
+    \[
+    D_t\nabla^2\phi_t
+    =
+    -(\nabla u)^\top\nabla^2\phi_t
+    -\nabla^2\phi_t\,\nabla u
+    -\sum_{\ell=1}^{3}
+    (\nabla^2 u_\ell)\,\partial_\ell\phi_t,
+    \]
+
+    where N N, , press := | P N red ( ,t; )|+ | F N press ( ,t; )| and N N, , sc := | S N( ,t; )|+ | R N( ,t; )|.
+
+    The coefficient-side interval closure b cut L 1(I) is not proved here as a standalone source theorem.
+
+
+
+    \subsection{Clay problem Frozen-Family Packet Cutoff-Commutator Note}
+
+    Role: write the explicit packet-side viscous cutoff-commutator identity and its first exact sufficient bound beneath the frozen-net cutoff channel.
+
+    The frozen-net cutoff channel is not proved to lie in L 1(I). The packet-local viscous commutator is made explicit, so the source-side wall is no longer a missing formula.
+
+    \[
+    E_N(h,t;\psi)
+    :=
+    \sum_{k=0}^{N}
+    \lambda_k
+    \int
+    \phi_t(x)^2\,|\delta_h U_k(x,t)|^2\,dx,
+    \]
+
+    \[
+    D_N(h,t;\psi)
+    :=
+    \sum_{k=0}^{N}
+    \lambda_k
+    \int
+    \phi_t(x)^2\,|\nabla\delta_h U_k(x,t)|^2\,dx.
+    \]
+
+    \[
+    \mathcal C_N^{cut}(h,t;\psi)
+    =
+    -4\nu
+    \sum_{k=0}^{N}\lambda_k
+    \int
+    \phi_t\,f_k\,\nabla\phi_t\cdot\nabla f_k\,dx.
+    \]
+
+    \[
+    \mathcal C_N^{cut}(h,t;\psi)
+    =
+    2\nu
+    \sum_{k=0}^{N}\lambda_k
+    \int
+    f_k^2\,\operatorname{div}(\phi_t\nabla\phi_t)\,dx,
+    \]
+
+    \[
+    \mathcal C_N^{cut}(h,t;\psi)
+    =
+    2\nu
+    \sum_{k=0}^{N}\lambda_k
+    \int
+    f_k^2
+    \Big(
+    |\nabla\phi_t|^2+\phi_t\Delta\phi_t
+    \Big)\,dx.
+    \]
+
+    The exact local wall isolated in the cutoff-channel reduction is closed: the packet-side commutator is no longer missing as a formula.
+
+    A frozen-net summation theorem over the interval-fixed net , (I) is also not proved here.
+
+
+
+    \subsection{Clay problem Source-Wall Positive-Supplier Audit After CM Closure}
+
+    This identifies same-witness nonlinear Duhamel work as native positive source work, or routes it to selected Pack-side/source-wall failure or paid Pack/Part/legal exit.
+
+    The new paraproduct closure tells us what a terminal source contribution is once it appears. In the CM route that is enough because the contribution lands as Pack/Part exit. It does not by itself prove the stronger positive statement that a zero-thickness terminal native source concentration cannot be produced.
+
+    \[
+    [\mathcal R_N(W)-(1-\delta)\mathcal R_N(Past(W))-Loss(W)]_+
+    \le Charge_N(W)+o_N(1).
+    \]
+
+    \[
+    T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+    \qquad
+    \mathcal R_N(W)=\int_W\sum_{k>N}2^kT_k(t)^2dt.
+    \]
+
+    \[
+    \int_{I_m}D_{m+5}(t)dt=A_m\to0
+    \]
+
+    \[
+    \int_{I_m}2^mD_{m+5}(t)^2dt
+    =2^mA_m^2h_m^{-1}\sfcomp{35972}1.
+    \]
+
+    For example, A m=2 -2m and h m=2 -3m . This is a record countermodel to promoting first-moment charge into scale-critical -reserve charge. It is not a Navier-Stokes counterexample; it shows that the currently installed inputs do not imply Reserve Creation Charge.A.
+
+    \[
+    [H_N(W)-H_N(Past(W))-Loss^{height}(W)]_+
+    \le C_{\mathrm{sf},35968}
+    \int_W\sup_{k>N}
+    \left[
+    2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+    \right]_+dt.
+    \]
+
+    Installed source records give only finite local L 1 t mass. The terminal layer profile
+
+    Both are the same underlying demand for the positive route: prove that original smooth Navier-Stokes data cannot create a zero-thickness terminal native source pulse after all ASAC, legal, donor, non-Zeno, Pack/Part, and paraproduct-capture alternatives are removed.
+
+    The CM contrapositive machinery is the governing route for this terminal residue. Any surviving terminal zero-radius residue is a Pack/Part CM exit, not a retained Field/jump object, and the residue is used as the witness rather than deleted.
+
+
+
+    \subsection{Clay problem Full Linearized Response Adjoint Packet.A Attempt}
+
+    This should give Bessel, parent-kernel, and lower-frame detection for adjoint packets solving the full localized linearized response adjoint.
+
+    \[
+    u^{lo}:=u_{\le j-M}.
+    \]
+
+    \[
+    R^{hi-coeff}
+    =
+    \mathbb P((u-u^{lo})\cdot\nabla Z+Z\cdot\nabla(u-u^{lo})).
+    \]
+
+    \[
+    \mathcal C_T^{lin}(a,b)
+    :=
+    \int_a^b
+    \left(
+    r_T^2\|\nabla^2u^{lo}\|_\infty
+    +r_T\|\nabla^2u^{lo}\|_\infty
+    +r_T\|\nabla B^{lo}\|_\infty
+    \right)dt,
+    \]
+
+    \[
+    B^{lo}:=\nabla u^{lo}.
+    \]
+
+    \[
+    \mathcal C_T^{lin}(t_-,t_+)\le\varepsilon_M.
+    \]
+
+    and admit the same parent-kernel decomposition and terminal lower-frame detection as the installed projected affine adjoint packets.
+
+    In the pulled-back frame, the adjoint equation becomes anisotropic heat plus a perturbation E T whose L t 1(H 1->H -1 ) norm is bounded by C C T lin . On coefficient-good tiles this is bounded by \(C_{\mathrm{sf},36237}\varepsilon_M\). Choose epsilon M so small that the perturbation is absorbed by Duhamel.
+
+    The stopping argument is formal once the response mass and stopped response parent relation are pinned. It does not require a new PDE estimate.
+
+    If the high coefficient is estimated by absolute values, this can return to a mixed high-high response source wall. But the scale gap M and ordinary dissipation tail should make the high-coefficient part legal after finite-band decomposition, provided no terminal same-scale response concentration is hidden in the discarded coefficient.
+
+    The finite-collar move is proved. Far High Beat NoReturn.A remains open unless the route upgrades all the way to a full-coefficient linearized adjoint kernel, in which case no coefficient residual remains.
+
+    This moves the route from PDE source-wall estimates into packet calculus and finite-band high-coefficient residual control.
+
+
+
+    \subsection{Clay problem Full Linearized Response Adjoint Route}
+
+    \[
+    z_{<j}\cdot\nabla u_j
+    \quad\text{and}\quad
+    u_j\cdot\nabla z_{<j}
+    \]
+
+    \[
+    \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+    =
+    \nu\Delta z+\Delta u.
+    \]
+
+    so the cleanest adjoint should be built for the full localized linearized operator, not a shell-diagonal approximation.
+
+    \[
+    \boxed{
+    L_u z
+    :=
+    \partial_t z
+    +\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+    -\nu\Delta z.
+    }
+    \]
+
+    \[
+    L_u z=\Delta u.
+    \]
+
+    \[
+    L_u^\ast\Psi_T=0
+    \]
+
+    If those packet-calculus theorems close, the response-rotation branch closes without Height Flux Control.A, Original Height Dissipation Charge.A, Response Strain Decorrel.A, or Low Response Strain Charge.A.
+
+    and isolates the remaining burden as the vector parabolic packet-frame theorem Full Coefficient Linearized Adjoint Kernel.A.
+
+    The other listed hard item, Positive Rotation Detects Full Adjoint Mass.A, is handled in
+
+    Thus the response route's live burden is concentrated in the full-coefficient vector packet kernel theorem and its frame-pinning subitems.
+
+
+
+    \subsection{Clay problem Full Linearized Response Principal Operator Route}
+
+    \[
+    \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+    =
+    \nu\Delta z+\Delta u.
+    \]
+
+    so the principal response packet should not treat nonlinear response rotation as an external residual. It should put the localized linearized NS operator into the principal flow.
+
+    \[
+    b_j:=u_{<j-M},
+    \qquad
+    B_j:=\nabla u_{<j-M}.
+    \]
+
+    Here B jZ is the localized form of Z u <j-M and P j denotes the shell-projected Leray frame. The skew/rotational and symmetric strain pieces of B j are both part of the principal response propagator.
+
+    \[
+    L_j^{lin}z_j
+    =
+    P_j\Delta u
+    +R_j^{lin-resp},
+    \]
+
+    \[
+    (L_j^{lin})^\ast\psi_T^{lin}=0
+    \]
+
+    \[
+    \mu(B_j)
+    :=
+    \lambda_{\max}\left(\frac{B_j+B_j^T}{2}\right).
+    \]
+
+    This absorbs every energy-increasing direction of the linearized response propagator, including orthogonal response rotation induced by B j.
+
+    No Nonlinear Response Rotation NoGain.A is needed as an external residual theorem. It is internal to the principal linearized response propagator.
+
+    This is the strongest route mutation from the viscosity-homotopy idea so far. It uses the fact that the viscosity derivative equation is linear in z. Once the full linearized response operator is treated as principal, response rotation is inherited dynamics, not source creation.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Four-Layer Analytic Verification Certificates
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37036
+  line_start: 37036
+  line_end: 37080
+  start_anchor: "\\subsection{Clay problem Four-Layer Analytic Verification Certificates}\n"
+  end_anchor: "\\subsection{Clay problem FrameBVCharge.A Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Four-Layer Analytic
+    Verification Certificates as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37036
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem FrameBVCharge.A Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37081
+  line_start: 37081
+  line_end: 37112
+  start_anchor: "\\subsection{Clay problem FrameBVCharge.A Audit}\n"
+  end_anchor: "\\subsection{Clay problem Frozen-Family Cutoff-Channel Reduction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem FrameBVCharge.A
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37081
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Frozen-Family Cutoff-Channel Reduction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37113
+  line_start: 37113
+  line_end: 37155
+  start_anchor: "\\subsection{Clay problem Frozen-Family Cutoff-Channel Reduction
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Frozen-Family Packet Cutoff-Commutator Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Frozen-Family Cutoff-Channel
+    Reduction Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37113
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Frozen-Family Packet Cutoff-Commutator Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37156
+  line_start: 37156
+  line_end: 37214
+  start_anchor: "\\subsection{Clay problem Frozen-Family Packet Cutoff-Commutator
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Frozen-Family Pressure-Channel Reduction
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Frozen-Family Packet
+    Cutoff-Commutator Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37156
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source-Wall Positive-Supplier Audit After CM Closure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37420
+  line_start: 37420
+  line_end: 37463
+  start_anchor: "\\subsection{Clay problem Source-Wall Positive-Supplier Audit After
+    CM Closure}\n"
+  end_anchor: "\\subsection{Clay problem Full Coefficient Stop Parent-Gap Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source-Wall Positive-Supplier
+    Audit After CM Closure as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37420
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Full Linearized Response Adjoint Packet.A Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37673
+  line_start: 37673
+  line_end: 37718
+  start_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Packet.A
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Full Linearized
+    Response Adjoint Packet.A Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37673
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Full Linearized Response Adjoint Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37719
+  line_start: 37719
+  line_end: 37761
+  start_anchor: "\\subsection{Clay problem Full Linearized Response Adjoint Route}\n"
+  end_anchor: "\\subsection{Clay problem Full Linearized Response Principal Operator
+    Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Full Linearized
+    Response Adjoint Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37719
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Full Linearized Response Principal Operator Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37762
+  line_start: 37762
+  line_end: 37803
+  start_anchor: "\\subsection{Clay problem Full Linearized Response Principal Operator
+    Route}\n"
+  end_anchor: "\\subsection{Clay problem Full Transported NoIncoming Flux.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Full Linearized
+    Response Principal Operator Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:37762
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-22
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-22.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

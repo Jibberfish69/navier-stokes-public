@@ -27,7 +27,7 @@ CritExit_{H^{1/2}}(\mathcal W)
 ## Installed cells used
 
 1. `SameLedgerHHalfExtraction.A`: a terminal critical `H^{1/2}` shell either lands at `\neg Pack_Q`, lands at `\neg Part_{N,Q}`, or becomes a same-ledger localized dyadic packet.
-2. `FieldFiniteDifferenceReadoutHHalf.A`: the actual `Field_{N,r,Q}` service supplies the matched finite-difference/tower-coherence modulus at `r_J\simeq 2^{-J}`.
+2. `FieldFiniteDifferenceReadoutHHalf.A`: the actual `Field_{N,r,Q}` service supplies the matched finite-difference/tower-coherence modulus at `r_J=2^{-J}`.
 3. `FieldCoherenceControlsCriticalShell.A`: that matched modulus controls the critical shell quantity `2^J\|P_Jv\|_2^2`.
 4. `R3CriticalL3WallToCMFace.A`: the amplitude branch of critical concentration lands in the Field face through the local `L^3` translator.
 
@@ -52,7 +52,7 @@ It remains to treat the retained Pack+Part branch. In that branch the selected s
 ```math
 v_m=\chi_{a_m}^{\mathcal W}(t_m)u(t_m),
 \qquad J_m,
-\qquad r_m\simeq 2^{-J_m}.
+\qquad r_m:=2^{-J_m}.
 ```
 
 Split the critical `H^{1/2}` signal into amplitude and pure oscillatory alternatives.
@@ -62,7 +62,7 @@ In the amplitude alternative, the critical shell carries local critical size vis
 In the pure oscillatory alternative, coarse amplitude remains controlled while the selected half-derivative shell persists. Suppose some positive Field service survives at the matched scale. By `FieldFiniteDifferenceReadoutHHalf.A`, `Field_{N(J_m),r_m,Q}` supplies
 
 ```math
-r_m^{-1}\fint_{|h|\simeq r_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
+r_m^{-1}\fint_{c_hr_m\le |h|\le C_hr_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
 \le
 C\mathfrak C_{N(J_m),r_m,Q}(\mathcal W).
 ```

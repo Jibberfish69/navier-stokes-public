@@ -23,7 +23,7 @@ not. The atom remains the exact new theorem required for unconditional
 
 ## Target Inequality
 
-At an active shell `j`, write the shell energy inequality schematically as
+At an active shell `j`, write the shell energy inequality as
 
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t),
@@ -90,7 +90,7 @@ variable sign:
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```

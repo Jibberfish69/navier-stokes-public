@@ -50,7 +50,7 @@ First meaning: actual dissipative expenditure,
 
 ```math
 \mathcal V^{\nu}_{\mathcal W}
-\sim
+:=
 \nu\int_I\mathcal D^{low}(t)\,dt
 +\text{top-viscous readout terms}.
 ```
@@ -61,7 +61,7 @@ Second meaning: available coefficient budget,
 
 ```math
 \mathcal V^{\nu}_{\mathcal W}
-\sim
+:=
 \nu,
 \quad c_{\nu}>0.
 ```

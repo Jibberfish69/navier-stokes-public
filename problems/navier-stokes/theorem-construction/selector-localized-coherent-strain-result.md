@@ -21,7 +21,7 @@ The live coefficient route is:
 \Longrightarrow
 \text{Bernstein strain conversion}
 \Longrightarrow
-\|\nabla u_{coh}\|_\infty\lesssim \nu2^{2j}+\Phi.
+\|\nabla u_{coh}\|_\infty\le c_0\nu2^{2j}+C\Phi.
 \tag{SCS.0}
 ```
 

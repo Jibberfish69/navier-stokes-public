@@ -1,0 +1,89 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T05:09:13Z'
+arc_id: opening-theorem-route
+title: Opening theorem route
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 7
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_sections:
+- spine_id: original-problem-statement
+  section_title: Original Problem Statement
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:89
+  line_start: 89
+  line_end: 108
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: current-main-result-and-proof-roadmap
+  section_title: Current Main Result and Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:109
+  line_start: 109
+  line_end: 146
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: reframing-the-problem
+  section_title: Reframing the Problem
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:391
+  line_start: 391
+  line_end: 410
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: main-result
+  section_title: Main Result
+  source_ref: problems/navier-stokes/submission-bundle/sections/main-result.tex:1
+  line_start: 1
+  line_end: 33
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: notation-and-internal-dependency-labels
+  section_title: Notation and Internal Dependency Labels
+  source_ref: problems/navier-stokes/submission-bundle/sections/notation-appendix.tex:1
+  line_start: 1
+  line_end: 21
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: scope-and-proof-polarity
+  section_title: Scope And Proof Polarity
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-front-matter-and-scope.tex:35
+  line_start: 35
+  line_end: 44
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: proof-roadmap
+  section_title: Proof Roadmap
+  source_ref: problems/navier-stokes/submission-bundle/sections/roadmap.tex:1
+  line_start: 1
+  line_end: 27
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: opening-theorem-route
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

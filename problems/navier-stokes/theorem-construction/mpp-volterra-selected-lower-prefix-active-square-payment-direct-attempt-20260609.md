@@ -3,7 +3,9 @@
 ## Status
 
 `VolterraSelectedLowerPrefixActiveSquarePayment.A` is not proved by the current
-theorem stack.
+theorem stack.  After the residual refill correction, this note is a failed
+raw-selector test; any live use must pass through residual/source-balanced
+LPAS, residual CTS/FCTS, or stronger source-depletion.
 
 This pass tests the only Volterra-specific reserve branch left by the retained
 stress route: whether a source-balanced active pulse selected by the Volterra
@@ -62,10 +64,11 @@ The shell law and source-balanced refill give first-moment control:
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t)+L_j(t),
 \qquad
-F_j(t)\simeq c\nu D_j(t)
+F_j(t)=c_s\nu D_j(t)+R_j(t)
 ```
 
-on the retained source-balanced branch.  This controls the scale of
+on the retained source-balanced branch, with `R_j` reserved for the residual
+source error that the live theorem must remove or charge.  This controls:
 
 ```math
 \int_I D_j(t)\,dt
@@ -88,29 +91,31 @@ The scalar heat-scale pulse model survives the selected shell law.  Take a
 terminal interval
 
 ```math
-|I_j|\simeq 2^{-2j}
+c_h2^{-2j}\le |I_j|\le C_h2^{-2j}
 ```
 
-and a source-balanced profile with
+and a source-balanced profile with first moment `M_j`:
 
 ```math
-D_j(t)\simeq A_j2^{2j}\mathbf 1_{I_j}(t),
+D_j(t)={M_j\over |I_j|}\mathbf 1_{I_j}(t),
 \qquad
-F_j(t)\simeq c\nu D_j(t).
+F_j(t)=c_s\nu D_j(t).
 ```
 
 Then
 
 ```math
-\int_{I_j}D_j(t)\,dt\simeq A_j,
+\int_{I_j}D_j(t)\,dt=M_j,
 ```
 
 while
 
 ```math
 \int_{I_j}2^{-j}D_j(t)^2\,dt
-\simeq
-A_j^2\,2^j.
+=
+2^{-j}{M_j^2\over |I_j|}
+\ge
+C_h^{-1}2^jM_j^2.
 ```
 
 The lower-prefix multiplier `\mathcal P_j^\downarrow` records how strongly the
@@ -155,17 +160,19 @@ The Volterra selector identifies the terminal source-balanced packet as part
 of the retained far-corona lower-prefix stress obstruction.  It does not supply
 the missing upper control on active-shell amplitude or square-source density.
 
-The exact next target is:
+The exact residual next target is:
 
 ```math
-\textbf{VolterraSelectorAmplitudeNormalization.A}.
+\textbf{ResidualVolterraSelectorAmplitudeNormalization.A}.
 ```
 
 It must prove that the Volterra selection rule itself forces active-shell
 amplitude normalization on selected heat-scale windows, or prove a selected
 square-source estimate strong enough to control
-`\int_I2^{-j}D_j(t)^2\,dt`.  Without that new mechanism, this branch reduces
-back to direct `(LPAS)` or the already-open source-balanced pulse wall.
+`\int_I2^{-j}D_j(t)^2\,dt` after heat descendants, legal losses, and paid
+dissipation are removed.  Without that new mechanism, this branch reduces back
+to residual/source-balanced `(LPAS)`, residual `(CTS/FCTS)`, or the already-open
+source-balanced pulse wall.
 
 ## Closure impact
 
@@ -174,7 +181,7 @@ The current chain becomes:
 ```math
 \text{VolterraSelectedLowerPrefixActiveSquarePayment.A}
 \Longleftarrow
-\text{VolterraSelectorAmplitudeNormalization.A}.
+\text{ResidualVolterraSelectorAmplitudeNormalization.A}.
 ```
 
 This does not close `(LPAS)`, `(FCTS)`, `(EP)`, positive affine endpoint mass,

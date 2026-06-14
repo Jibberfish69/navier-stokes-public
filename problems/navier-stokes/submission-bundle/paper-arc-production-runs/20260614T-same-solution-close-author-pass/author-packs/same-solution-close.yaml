@@ -1,0 +1,84 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: same-solution-close
+batch_id: same-solution-close-author-pack-20260614T053057Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Same-Solution CM Proof
+  spine_id: the-same-solution-cm-proof
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  author_replacement_required: false
+  replacement: ''
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
+  - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
+  - problems/navier-stokes/theorem-construction/mpp-clay-cm-counterexample-exclusion-direct-bridge-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-pdf-cmi-proof-core-reentry-20260609.md
+  endpoint_status: silver CM face payment
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The strongest claim is the two-reading same-solution CM dichotomy. The source now limits that claim to an admitted same-solution terminal record and names the separate no-genuine-exit bridge as the public Clay payment.
+    reader_thread_attack: A reader could lose the thread at the jump from a finite terminal claim to a CM record. The proof now spells out the bounded H^s restart alternative, the same-branch terminal record Q, and the Pack/Part/Field reading order.
+    unpaid_derivation_attack: The local H^s restart is paid by the bounded H^s display, local lifespan dependence, and uniqueness gluing; the no-genuine-exit theorem remains explicitly outside this section's proved payment.
+    repair_decision: passes after repair
+    unresolved_failures: []
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+  section_title: Compactness And Exact-Object Capture
+  spine_id: compactness-and-exact-object-capture
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+  author_replacement_required: false
+  replacement: ''
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+  - problems/navier-stokes/theorem-construction/mpp-terminal-pack-compactness-modulus-direct-attempt-20260610.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md
+  endpoint_status: support for a named later proof step
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The strongest claim is that compactness can produce a proof-bearing terminal record. The source now makes this conditional on already-paid tail, source, participation, and exact-object controls.
+    reader_thread_attack: A reader could mistake a weak profile or terminal atom for the original solution. The section now explains exact-object capture before the low/high split and routes detached limits to support or Pack/Part/Field failure.
+    unpaid_derivation_attack: The uniform H^s tail condition is displayed, and the terminal atom example shows why compactness alone leaves Pack survival unpaid; the later proof step is the relevant uniform tightness/no-zero-thickness payment.
+    repair_decision: passes after repair
+    unresolved_failures: []
+author_contract:
+  arc_id: same-solution-close
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - same.solution
+  - "(terminal|exact.object)"
+  - "(Member|Exit|CM)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build

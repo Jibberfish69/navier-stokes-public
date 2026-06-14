@@ -1,0 +1,1123 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-21
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-21
+  sequence: 46
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 21
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 50437
+  line_end: 57547
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50437
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50529
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50935
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53650
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54120
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55759
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56578
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57515
+  subsection_titles:
+  - Clay problem Scale Critical Tree Carleson.A Next Attempt
+  - 'Scale Critical Tree Carleson.A -first-pulse solve attempt: Gate 2 obstruction'
+  - Clay problem Signed Lifted-Remainder Plus Residual-Tail Attempt Note
+  - Clay problem Square-Reserve First-Pulse Route For Scale Critical Tree Carleson.A
+  - Clay problem Temporal Non Atomic Source.A Non-Carleson Frontier
+  - Tgc A Cover Positive Scale Terminal Cover Note
+  - Clay problem Weighted Lifted Defect Carleson.A Direct Attempt
+  - Near-Diagonal Tail-Square Reserve Absorption
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson.A Next Attempt
+    line_start: 50437
+    line_end: 50486
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50437
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Pack-Side
+      CM Exit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}
+
+      The strongest valid output is an exact reduction of the reserve to a scale-critical active-window height / donor-tail pairing. That pairing is not controlled by the installed first-moment, local-energy, donor-balance, normalized-adjoint source-drain, active-shell, -source, branch-reserve, or Zeno compactness inputs without adding a new theorem.
+
+      \[
+      T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+      \]
+
+      \[
+      \int_I\sum_{\ell>N}D_\ell(t)\,dt=o_N(1),
+      \]
+
+      \[
+      \sum_{k>N}2^kT_k(t)^2
+      \sfcomp{48953}
+      \sum_{\ell>N}2^\ell D_\ell(t)
+      \left(
+      \sum_{m>\ell+C_{\mathrm{col}}}D_m(t)
+      \right).
+      \]
+
+      \[
+      \sum_{k>N}2^kT_k^2
+      =
+      \sum_{\ell,m>N+4}
+      D_\ell D_m
+      \sum_{N<k<\min(\ell,m)-4}2^k,
+      \]
+
+      \[
+      2^{\min(\ell,m)}.
+      \]
+
+      The new factor (H2) is not installed. It is a pointwise or active-window form of the missing scale-critical reserve.
+
+      They give (E1) and packet-local boundedness on fixed preterminal windows. They do not give a uniform terminal bound for
+
+      Local Donor Balance.A telescopes finite refill trees. Its terminal boundary is exactly the uncontrolled high-shell active-window height above, unless a well-founded branch reserve or Zeno rigidity theorem is added.
+
+      Active Shell Amplitude Gain.A would imply a bound of the form (H2), and Square Source norm .A would also pay the active- reserve. The current audits do not install either theorem from Original Smooth Data; both reduce back to the same source-pulse / scale-critical reserve.
+
+      A branch-reserve theorem would control the terminal donor-tail pairing in (H1). The current Zeno compactness extraction supplies an ancient local suitable source-residue limit, but no produced rigid class B and no applicable residue Liouville theorem are installed.
+
+      so the implication (R) is valid but conditional on exactly the missing kind of theorem.
+
+      The obstruction is already present at the scalar record level. Let the only nonzero shell on I m be
+
+      Until that control, or the alternate rigid Zeno package, is proved
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Scale Critical Tree Carleson.A -first-pulse solve attempt:
+      Gate 2 obstruction'
+    line_start: 50529
+    line_end: 50573
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50529
+    start_anchor: "\\subsection{Scale Critical Tree Carleson.A -first-pulse solve
+      attempt: Gate 2 obstruction}\n"
+    end_anchor: "\\subsection{SCF, AACT, Elliptic Readout, Source, Endpoint, And Branch
+      Package}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Critical Tree Carleson.A -first-pulse solve attempt: Gate 2 obstruction}
+
+      Direct solve attempt for Scale Critical Tree Carleson.A after the post-reconcile source-wall split.
+
+      \[
+      \sum_P
+      \left|\sum_{P^-\prec P}K(P,P^-)A_{P^-}\right|^2
+      \le
+      C\sum_{P^-}|A_{P^-}|^2+o_N(1).
+      \]
+
+      This successfully removes the bounded-parent selector obstruction. Diffuse parent clouds are priced into the full reserve R N.
+
+      \[
+      \mathcal R_{N_m}(W_m)\ge\eta>0.
+      \]
+
+      then use firstness to remove the past term and use tail dissipation to control the charge.
+
+      The missing theorem is the displayed -reserve parent-or-charge inequality itself.
+
+      \[
+      M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2
+      \]
+
+      \[
+      \sum_T Charge(T)
+      \le C\int\sum_{q>N}D_q+o_N(1).
+      \]
+
+      \[
+      |A_{P^-}|^2
+      \]
+
+      so selecting the first R N pulse removes only earlier reserve pulses. It does not rule out first-time creation of reserve on a short terminal heat window.
+
+      One can make the first moment small while keeping the scale-critical reserve positive by taking h k sufficiently small.
+
+      Absorbing this term requires active-tree coefficient Carleson control, which is another presentation of the source wall.
+
+      Consequently the direct solve attempt does not prove Scale Critical Tree Carleson.A.
+
+      Without Square Reserve Evolution.A or a rigid Zeno route, Scale Critical Tree Carleson.A remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Signed Lifted-Remainder Plus Residual-Tail Attempt
+      Note
+    line_start: 50935
+    line_end: 50955
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50935
+    start_anchor: "\\subsection{Clay problem Signed Lifted-Remainder Plus Residual-Tail
+      Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Signed Positive Balance Post-ASAC Frontier
+      Update}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Signed Lifted-Remainder Plus Residual-Tail Attempt Note}
+
+      The conditional structure is valid, but the unconditional theorem is not discharged.
+
+      The unweighted dyadic exchange is antisymmetric. After shell weights, lifted packet reductions, and cutoffs are inserted, the remaining source is the true weighted lifted remainder
+
+      \[
+      G_N^{lift,\sigma}
+      =
+      \sum W_{j,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
+      \]
+
+      The current exchange algebra does not force the needed sign. The lifted remainder can align with expanding strain directions, and one-sided shell weights do not create cancellation by themselves.
+
+      \[
+      \int_I\sum_{j\ge N}2^{-j}D_j(t)^2\,dt.
+      \]
+
+      The installed full tail- reserve controls cumulative tail energy squared by first-moment dissipation. It does not control shellwise active- density on terminal active intervals.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Square-Reserve First-Pulse Route For Scale Critical
+      Tree Carleson.A
+    line_start: 53650
+    line_end: 53706
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53650
+    start_anchor: "\\subsection{Clay problem Square-Reserve First-Pulse Route For
+      Scale Critical Tree Carleson.A}\n"
+    end_anchor: "\\subsection{Clay problem Square Source.A From Original Smooth Data
+      Final Collapse Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Square-Reserve First-Pulse Route For Scale Critical Tree Carleson.A}
+
+      Update after direct gate test: this route is not discharged from the installed inputs. The failed gate is Gate 2. Parent Square Embed.A is a static Bessel embedding for the donor cloud, while the normalized adjoint parent-or-charge identity controls child mass M(T). No installed estimate gives a dynamic parent-or-charge inequality for the donor reserve R N itself.
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+      \]
+
+      That was meant to fix the exact failure found in First Pulse Kill.A: diffuse legal parent clouds can evade bounded parent selectors, but they cannot evade an 2 -reserve measure if that is the selected first object.
+
+      The subsequent gate audit records the selection mismatch as fixed and leaves the dynamic-reserve issue as historical source-wall pressure below the present same-solution pass-or-exit readout.
+
+      Parent Square Embed.A is already installed. The remaining live object is the scale-critical donor .
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad M\to\infty.
+      \]
+
+      Every bounded selector captures at most B/M, while the total legal parent mass can stay order one.
+
+      \[
+      d\mathcal R_N
+      :=
+      \sum_{P^-}
+      |A_{P^-}|^2\,d\tau,
+      \]
+
+      where A P - is the scale-normalized donor factor left after the localized source decomposition. Under the shell identification,
+
+      \[
+      \sum_{P^-}|A_{P^-}|^2
+      \sfcomp{52184}
+      \sum_{k>N}
+      2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell(t)
+      \right)^2.
+      \]
+
+      \[
+      \mathcal R_{N_m}(W_m)\ge\eta>0.
+      \]
+
+      Choose W m earliest among dyadic same-fluid windows with this property, after discarding already-legal loss windows. This is a first-pulse construction for the -reserve measure, not for a pointwise positive source threshold.
+
+      The crucial difference is that the parent term is now summed in the same mass M(P) that defines R N. so diffuse parentage is not lost through bounded parent selection.
+
+      The first-pulse choice for R N removes the earlier parent- branch: if th
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Temporal Non Atomic Source.A Non-Carleson Frontier
+    line_start: 54120
+    line_end: 54164
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54120
+    start_anchor: "\\subsection{Clay problem Temporal Non Atomic Source.A Non-Carleson
+      Frontier}\n"
+    end_anchor: "\\subsection{Clay problem Temporal Non Atomic Source.A Theorem Test}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Temporal Non Atomic Source.A Non-Carleson Frontier}
+
+      Failed non-Carleson discharge attempt after the post-ASAC signed-record reduction.
+
+      The temporal anti-concentration route is tested without importing Heat Scale Square Source.A, Local Positive Source Carleson.A, or Scale Critical Tree Carleson.A.
+
+      \[
+      \boxed{
+      UniformTemporalSourceIntegrability_p.A:
+      \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L_s^p((-1,0))}
+      \le C_R,
+      \quad p>1.
+      }
+      \]
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p}.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}ds\le C_R.
+      \]
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      The heat semigroup produces no uniform smallness on a zero-thickness terminal layer. Fixed positive viscosity so supplies compactness and local energy, while temporal anti-concentration still requires an additional source residence theorem.
+
+      Same-fluid ancestry gives packet lineage, legal routing, source-residue inheritance, and no-earlier selected source support. These are carrier statements. They supply no temporal reverse Holder estimate for the positive source density.
+
+      Failure of Temporal Non Atomic Source.A together with no-earlier selected source support gives
+
+      This classifies the failure as a source residue with zero heat-time participation moment. It gives a class-exit signature, but it does not contradict fixed positive-viscosity Navier-Stokes without a separate theorem excluding zero-heat-time residue inside the retained NS class.
+
+      A successful proof must derive super-L 1 temporal residence for the native positive source measure from a mechanism other than Heat Scale Square Source.A, Local Positive Source Carleson.A, or Scale Critical Tree Carleson.A.
+
+      No non-Carleson discharge is installed here. The post-ASAC Zeno branch remains open at
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tgc A Cover Positive Scale Terminal Cover Note
+    line_start: 55759
+    line_end: 55801
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55759
+    start_anchor: "\\subsection{Tgc A Cover Positive Scale Terminal Cover Note}\n"
+    end_anchor: "\\subsection{Tgc A Noescape Jumpavg Hardening Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tgc A Cover Positive Scale Terminal Cover Note}
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+      \Longleftrightarrow
+      \forall\text{ terminal subtails }\mathcal T'\subset\mathcal T,
+      \quad
+      \inf_{(a,t)\in\mathcal T'} r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      \[
+      \boxed{
+      \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+      \Longrightarrow
+      \exists\mathcal T'\subset\mathcal T,
+      \exists r_*>0,
+      \forall(a,t)\in\mathcal T',
+      \quad
+      r_{\mathrm{good}}(a,t)\ge r_*.
+      }
+      \]
+
+      \[
+      Q_{r_j}^{\Phi}(a_j,t_j),
+      \qquad
+      1\le j\le J,
+      \]
+
+      \[
+      \mathcal T'
+      \subset
+      \bigcup_{j=1}^J Q_{r_j}^{\Phi}(a_j,t_j),
+      \]
+
+      \[
+      \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+      \]
+
+      The same-fluid charts are bounded-distortion on the retained terminal tail, so each cylinder Q (a,t) (a,t) contains an open label-time neighborhood of (a,t). These neighborhoods cover the compact terminal subtail T'. Compactness gives a finite subcover
+
+      The retained pack gauge gives bounded chart distortion. A finite cover has finite multiplicity after standard shrinking and color selection. Hence there is a finite overlap bound
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Weighted Lifted Defect Carleson.A Direct Attempt
+    line_start: 56578
+    line_end: 56635
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56578
+    start_anchor: "\\subsection{Clay problem Weighted Lifted Defect Carleson.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Weighted Lifted Defect Carleson.A Direct Attempt}
+
+      The attempt proves only a conditional reduction. The live defect is not a bookkeeping error left by an unsaturated packet graph. After one-sided weights, terminal localization, cutoff/projector replacement, and lifted commutatorization, its principal part is the same positive active strain-production carrier already isolated in the native source-wall notes.
+
+      Let F N be a bounded-overlap same-fluid terminal active packet family, and let Sat ( F N) denote a finite same-fluid formal signed hull when a truncation is needed. For each formal paired edge e=(P,Q) touching the usable terminal record, subtract the bare unweighted antisymmetric dyadic current. The remaining live weighted/lifted defect has the model form
+
+      This is the Weighted Lifted Defect Carleson.A input used in the conditional saturated-hull and terminal-signed-saturation reductions.
+
+      \[
+      \mathcal I_{j;k,\ell}+\mathcal I_{\ell;k,j}=0.
+      \]
+
+      Insert the source-wall one-sided weights and the outer -theorem weight. The symmetrized coefficient mismatch is
+
+      \[
+      2^j2^{-\sigma(\ell-j)}-2^\ell
+      =
+      -2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+      \]
+
+      Thus the defect is order size in the upper shell. It is not a small commutator created by a harmless weight perturbation.
+
+      Worse, in the separated live geometry the bare exchange term itself is not the object that survives. After the lifted/collar replacement the live term is
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      =
+      2^{2j}
+      \left\langle
+      [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,
+      \Delta_j u
+      \right\rangle,
+      \qquad
+      a_k=\Delta_k u,
+      \]
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      \sfcomp{55091}
+      2^{2j}
+      \left\langle
+      \mathcal C_j(\nabla a_k,\Delta_j u),
+      \Delta_j u
+      \right\rangle.
+      \]
+
+      \[
+      |w_j|^2
+      \left[
+      e_j\cdot S_{<j}^{loc}e_j
+      \right],
+      \]
+
+      The global LP signed balance removes a gluing/cocycle ambiguity. It writes the signed lifted density in one global multiplier family. It does not prove that the weighted/lifted residual has small total
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Near-Diagonal Tail-Square Reserve Absorption
+    line_start: 57515
+    line_end: 57547
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57515
+    start_anchor: "\\subsection{Near-Diagonal Tail-Square Reserve Absorption}\n"
+    end_anchor: "\\subsection{Non-Diagonal Tower Functional Preliminary Verdict}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Near-Diagonal Tail-Square Reserve Absorption}
+
+      \[
+      E_j(t):=2^{2j}\|\Delta_j u(t)\|_2^2,
+      \qquad
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_2^2,
+      \]
+
+      \[
+      E_N(t):=\sum_{j\ge N}E_j(t),
+      \qquad
+      D_N(t):=\sum_{j\ge N}D_j(t).
+      \]
+
+      \[
+      Diag_N(t):=2^{-2N}\sum_{\substack{j,k\ge N\\ |j-k|\le C_0}}E_j(t)E_k(t).
+      \]
+
+      \[
+      \sup_{t<T}\|u(t)\|_2^2\le C_E.
+      \]
+
+      \[
+      Diag_N(t)\le C_{C_0}C_E2^{-2N}D_N(t).
+      \]
+
+      For |j-k| C 0, the dyadic factors are comparable. Using the energy bound on the k shell,
+
+      For each fixed j, there are at most 2C 0+1 indices k with |j-k| C 0. Summing over the finite diagonal band gives
+
+      The near-diagonal part of the tail- reserve closes by the global energy bound. The remaining tail- burden is the far-separated block
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}
+
+    The strongest valid output is an exact reduction of the reserve to a scale-critical active-window height / donor-tail pairing. That pairing is not controlled by the installed first-moment, local-energy, donor-balance, normalized-adjoint source-drain, active-shell, -source, branch-reserve, or Zeno compactness inputs without adding a new theorem.
+
+    \[
+    T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+    \]
+
+    \[
+    \int_I\sum_{\ell>N}D_\ell(t)\,dt=o_N(1),
+    \]
+
+    \[
+    \sum_{k>N}2^kT_k(t)^2
+    \sfcomp{48953}
+    \sum_{\ell>N}2^\ell D_\ell(t)
+    \left(
+    \sum_{m>\ell+C_{\mathrm{col}}}D_m(t)
+    \right).
+    \]
+
+    \[
+    \sum_{k>N}2^kT_k^2
+    =
+    \sum_{\ell,m>N+4}
+    D_\ell D_m
+    \sum_{N<k<\min(\ell,m)-4}2^k,
+    \]
+
+    \[
+    2^{\min(\ell,m)}.
+    \]
+
+    The new factor (H2) is not installed. It is a pointwise or active-window form of the missing scale-critical reserve.
+
+    They give (E1) and packet-local boundedness on fixed preterminal windows. They do not give a uniform terminal bound for
+
+    Local Donor Balance.A telescopes finite refill trees. Its terminal boundary is exactly the uncontrolled high-shell active-window height above, unless a well-founded branch reserve or Zeno rigidity theorem is added.
+
+    Active Shell Amplitude Gain.A would imply a bound of the form (H2), and Square Source norm .A would also pay the active- reserve. The current audits do not install either theorem from Original Smooth Data; both reduce back to the same source-pulse / scale-critical reserve.
+
+    A branch-reserve theorem would control the terminal donor-tail pairing in (H1). The current Zeno compactness extraction supplies an ancient local suitable source-residue limit, but no produced rigid class B and no applicable residue Liouville theorem are installed.
+
+    so the implication (R) is valid but conditional on exactly the missing kind of theorem.
+
+    The obstruction is already present at the scalar record level. Let the only nonzero shell on I m be
+
+    Until that control, or the alternate rigid Zeno package, is proved, the direct root theorem Scale Critical Tree Carleson.A remains open.
+
+
+
+    \subsection{Scale Critical Tree Carleson.A -first-pulse solve attempt: Gate 2 obstruction}
+
+    Direct solve attempt for Scale Critical Tree Carleson.A after the post-reconcile source-wall split.
+
+    \[
+    \sum_P
+    \left|\sum_{P^-\prec P}K(P,P^-)A_{P^-}\right|^2
+    \le
+    C\sum_{P^-}|A_{P^-}|^2+o_N(1).
+    \]
+
+    This successfully removes the bounded-parent selector obstruction. Diffuse parent clouds are priced into the full reserve R N.
+
+    \[
+    \mathcal R_{N_m}(W_m)\ge\eta>0.
+    \]
+
+    then use firstness to remove the past term and use tail dissipation to control the charge.
+
+    The missing theorem is the displayed -reserve parent-or-charge inequality itself.
+
+    \[
+    M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2
+    \]
+
+    \[
+    \sum_T Charge(T)
+    \le C\int\sum_{q>N}D_q+o_N(1).
+    \]
+
+    \[
+    |A_{P^-}|^2
+    \]
+
+    so selecting the first R N pulse removes only earlier reserve pulses. It does not rule out first-time creation of reserve on a short terminal heat window.
+
+    One can make the first moment small while keeping the scale-critical reserve positive by taking h k sufficiently small.
+
+    Absorbing this term requires active-tree coefficient Carleson control, which is another presentation of the source wall.
+
+    Consequently the direct solve attempt does not prove Scale Critical Tree Carleson.A.
+
+    Without Square Reserve Evolution.A or a rigid Zeno route, Scale Critical Tree Carleson.A remains open.
+
+
+
+    \subsection{Clay problem Signed Lifted-Remainder Plus Residual-Tail Attempt Note}
+
+    The conditional structure is valid, but the unconditional theorem is not discharged.
+
+    The unweighted dyadic exchange is antisymmetric. After shell weights, lifted packet reductions, and cutoffs are inserted, the remaining source is the true weighted lifted remainder
+
+    \[
+    G_N^{lift,\sigma}
+    =
+    \sum W_{j,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
+    \]
+
+    The current exchange algebra does not force the needed sign. The lifted remainder can align with expanding strain directions, and one-sided shell weights do not create cancellation by themselves.
+
+    \[
+    \int_I\sum_{j\ge N}2^{-j}D_j(t)^2\,dt.
+    \]
+
+    The installed full tail- reserve controls cumulative tail energy squared by first-moment dissipation. It does not control shellwise active- density on terminal active intervals.
+
+
+
+    \subsection{Clay problem Square-Reserve First-Pulse Route For Scale Critical Tree Carleson.A}
+
+    Update after direct gate test: this route is not discharged from the installed inputs. The failed gate is Gate 2. Parent Square Embed.A is a static Bessel embedding for the donor cloud, while the normalized adjoint parent-or-charge identity controls child mass M(T). No installed estimate gives a dynamic parent-or-charge inequality for the donor reserve R N itself.
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
+    \]
+
+    That was meant to fix the exact failure found in First Pulse Kill.A: diffuse legal parent clouds can evade bounded parent selectors, but they cannot evade an 2 -reserve measure if that is the selected first object.
+
+    The subsequent gate audit records the selection mismatch as fixed and leaves the dynamic-reserve issue as historical source-wall pressure below the present same-solution pass-or-exit readout.
+
+    Parent Square Embed.A is already installed. The remaining live object is the scale-critical donor .
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad M\to\infty.
+    \]
+
+    Every bounded selector captures at most B/M, while the total legal parent mass can stay order one.
+
+    \[
+    d\mathcal R_N
+    :=
+    \sum_{P^-}
+    |A_{P^-}|^2\,d\tau,
+    \]
+
+    where A P - is the scale-normalized donor factor left after the localized source decomposition. Under the shell identification,
+
+    \[
+    \sum_{P^-}|A_{P^-}|^2
+    \sfcomp{52184}
+    \sum_{k>N}
+    2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2.
+    \]
+
+    \[
+    \mathcal R_{N_m}(W_m)\ge\eta>0.
+    \]
+
+    Choose W m earliest among dyadic same-fluid windows with this property, after discarding already-legal loss windows. This is a first-pulse construction for the -reserve measure, not for a pointwise positive source threshold.
+
+    The crucial difference is that the parent term is now summed in the same mass M(P) that defines R N. so diffuse parentage is not lost through bounded parent selection.
+
+    The first-pulse choice for R N removes the earlier parent- branch: if the parent mass were order one on a finite backward slice, it would itself be an earlier -reserve pulse. If it is spread diffusely over many parents, it is still counted by R N, because the selected measure is already the full 2 parent cloud.
+
+    This uses the already-installed Weighted Adj Bessel.A, Weighted Adj Res.A, Gain Stop.A, and quiet-edge contraction package.
+
+    Prove measurability by dyadic grid plus lexicographic tie-breaking, exactly as in the first-pulse construction, but with R N as the measure.
+
+    Because the selected measure is mass over the full parent cloud, diffuse parentage is included rather than missed.
+
+
+
+    \subsection{Clay problem Temporal Non Atomic Source.A Non-Carleson Frontier}
+
+    Failed non-Carleson discharge attempt after the post-ASAC signed-record reduction.
+
+    The temporal anti-concentration route is tested without importing Heat Scale Square Source.A, Local Positive Source Carleson.A, or Scale Critical Tree Carleson.A.
+
+    \[
+    \boxed{
+    UniformTemporalSourceIntegrability_p.A:
+    \left\|\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\right\|_{L_s^p((-1,0))}
+    \le C_R,
+    \quad p>1.
+    }
+    \]
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p}.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}ds\le C_R.
+    \]
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    The heat semigroup produces no uniform smallness on a zero-thickness terminal layer. Fixed positive viscosity so supplies compactness and local energy, while temporal anti-concentration still requires an additional source residence theorem.
+
+    Same-fluid ancestry gives packet lineage, legal routing, source-residue inheritance, and no-earlier selected source support. These are carrier statements. They supply no temporal reverse Holder estimate for the positive source density.
+
+    Failure of Temporal Non Atomic Source.A together with no-earlier selected source support gives
+
+    This classifies the failure as a source residue with zero heat-time participation moment. It gives a class-exit signature, but it does not contradict fixed positive-viscosity Navier-Stokes without a separate theorem excluding zero-heat-time residue inside the retained NS class.
+
+    A successful proof must derive super-L 1 temporal residence for the native positive source measure from a mechanism other than Heat Scale Square Source.A, Local Positive Source Carleson.A, or Scale Critical Tree Carleson.A.
+
+    No non-Carleson discharge is installed here. The post-ASAC Zeno branch remains open at
+
+
+
+    \subsection{Tgc A Cover Positive Scale Terminal Cover Note}
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+    \Longleftrightarrow
+    \forall\text{ terminal subtails }\mathcal T'\subset\mathcal T,
+    \quad
+    \inf_{(a,t)\in\mathcal T'} r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    \[
+    \boxed{
+    \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+    \Longrightarrow
+    \exists\mathcal T'\subset\mathcal T,
+    \exists r_*>0,
+    \forall(a,t)\in\mathcal T',
+    \quad
+    r_{\mathrm{good}}(a,t)\ge r_*.
+    }
+    \]
+
+    \[
+    Q_{r_j}^{\Phi}(a_j,t_j),
+    \qquad
+    1\le j\le J,
+    \]
+
+    \[
+    \mathcal T'
+    \subset
+    \bigcup_{j=1}^J Q_{r_j}^{\Phi}(a_j,t_j),
+    \]
+
+    \[
+    \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+    \]
+
+    The same-fluid charts are bounded-distortion on the retained terminal tail, so each cylinder Q (a,t) (a,t) contains an open label-time neighborhood of (a,t). These neighborhoods cover the compact terminal subtail T'. Compactness gives a finite subcover
+
+    The retained pack gauge gives bounded chart distortion. A finite cover has finite multiplicity after standard shrinking and color selection. Hence there is a finite overlap bound
+
+
+
+    \subsection{Clay problem Weighted Lifted Defect Carleson.A Direct Attempt}
+
+    The attempt proves only a conditional reduction. The live defect is not a bookkeeping error left by an unsaturated packet graph. After one-sided weights, terminal localization, cutoff/projector replacement, and lifted commutatorization, its principal part is the same positive active strain-production carrier already isolated in the native source-wall notes.
+
+    Let F N be a bounded-overlap same-fluid terminal active packet family, and let Sat ( F N) denote a finite same-fluid formal signed hull when a truncation is needed. For each formal paired edge e=(P,Q) touching the usable terminal record, subtract the bare unweighted antisymmetric dyadic current. The remaining live weighted/lifted defect has the model form
+
+    This is the Weighted Lifted Defect Carleson.A input used in the conditional saturated-hull and terminal-signed-saturation reductions.
+
+    \[
+    \mathcal I_{j;k,\ell}+\mathcal I_{\ell;k,j}=0.
+    \]
+
+    Insert the source-wall one-sided weights and the outer -theorem weight. The symmetrized coefficient mismatch is
+
+    \[
+    2^j2^{-\sigma(\ell-j)}-2^\ell
+    =
+    -2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+    \]
+
+    Thus the defect is order size in the upper shell. It is not a small commutator created by a harmless weight perturbation.
+
+    Worse, in the separated live geometry the bare exchange term itself is not the object that survives. After the lifted/collar replacement the live term is
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    =
+    2^{2j}
+    \left\langle
+    [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,
+    \Delta_j u
+    \right\rangle,
+    \qquad
+    a_k=\Delta_k u,
+    \]
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    \sfcomp{55091}
+    2^{2j}
+    \left\langle
+    \mathcal C_j(\nabla a_k,\Delta_j u),
+    \Delta_j u
+    \right\rangle.
+    \]
+
+    \[
+    |w_j|^2
+    \left[
+    e_j\cdot S_{<j}^{loc}e_j
+    \right],
+    \]
+
+    The global LP signed balance removes a gluing/cocycle ambiguity. It writes the signed lifted density in one global multiplier family. It does not prove that the weighted/lifted residual has small total variation on selected terminal same-fluid windows.
+
+    The present source material supplies no proof of Terminal Skew Localization record.A, Localized Skew Current.A, or Scale Critical Tree Carleson.A.
+
+
+
+    \subsection{Near-Diagonal Tail-Square Reserve Absorption}
+
+    \[
+    E_j(t):=2^{2j}\|\Delta_j u(t)\|_2^2,
+    \qquad
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_2^2,
+    \]
+
+    \[
+    E_N(t):=\sum_{j\ge N}E_j(t),
+    \qquad
+    D_N(t):=\sum_{j\ge N}D_j(t).
+    \]
+
+    \[
+    Diag_N(t):=2^{-2N}\sum_{\substack{j,k\ge N\\ |j-k|\le C_0}}E_j(t)E_k(t).
+    \]
+
+    \[
+    \sup_{t<T}\|u(t)\|_2^2\le C_E.
+    \]
+
+    \[
+    Diag_N(t)\le C_{C_0}C_E2^{-2N}D_N(t).
+    \]
+
+    For |j-k| C 0, the dyadic factors are comparable. Using the energy bound on the k shell,
+
+    For each fixed j, there are at most 2C 0+1 indices k with |j-k| C 0. Summing over the finite diagonal band gives
+
+    The near-diagonal part of the tail- reserve closes by the global energy bound. The remaining tail- burden is the far-separated block
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson.A Next Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50437
+  line_start: 50437
+  line_end: 50486
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Pack-Side CM
+    Exit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson.A Next Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50437
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Scale Critical Tree Carleson.A -first-pulse solve attempt: Gate
+    2 obstruction'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50529
+  line_start: 50529
+  line_end: 50573
+  start_anchor: "\\subsection{Scale Critical Tree Carleson.A -first-pulse solve attempt:
+    Gate 2 obstruction}\n"
+  end_anchor: "\\subsection{SCF, AACT, Elliptic Readout, Source, Endpoint, And Branch
+    Package}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Critical Tree Carleson.A
+    -first-pulse solve attempt: Gate 2 obstruction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50529
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Signed Lifted-Remainder Plus Residual-Tail Attempt
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50935
+  line_start: 50935
+  line_end: 50955
+  start_anchor: "\\subsection{Clay problem Signed Lifted-Remainder Plus Residual-Tail
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Signed Positive Balance Post-ASAC Frontier
+    Update}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Signed Lifted-Remainder
+    Plus Residual-Tail Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50935
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Square-Reserve First-Pulse Route For Scale Critical
+    Tree Carleson.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53650
+  line_start: 53650
+  line_end: 53706
+  start_anchor: "\\subsection{Clay problem Square-Reserve First-Pulse Route For Scale
+    Critical Tree Carleson.A}\n"
+  end_anchor: "\\subsection{Clay problem Square Source.A From Original Smooth Data
+    Final Collapse Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Square-Reserve First-Pulse
+    Route For Scale Critical Tree Carleson.A as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53650
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Temporal Non Atomic Source.A Non-Carleson Frontier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54120
+  line_start: 54120
+  line_end: 54164
+  start_anchor: "\\subsection{Clay problem Temporal Non Atomic Source.A Non-Carleson
+    Frontier}\n"
+  end_anchor: "\\subsection{Clay problem Temporal Non Atomic Source.A Theorem Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Temporal Non Atomic
+    Source.A Non-Carleson Frontier as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:54120
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tgc A Cover Positive Scale Terminal Cover Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55759
+  line_start: 55759
+  line_end: 55801
+  start_anchor: "\\subsection{Tgc A Cover Positive Scale Terminal Cover Note}\n"
+  end_anchor: "\\subsection{Tgc A Noescape Jumpavg Hardening Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tgc A Cover Positive Scale Terminal
+    Cover Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55759
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Weighted Lifted Defect Carleson.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56578
+  line_start: 56578
+  line_end: 56635
+  start_anchor: "\\subsection{Clay problem Weighted Lifted Defect Carleson.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A current-gate continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Weighted Lifted
+    Defect Carleson.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56578
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Near-Diagonal Tail-Square Reserve Absorption
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57515
+  line_start: 57515
+  line_end: 57547
+  start_anchor: "\\subsection{Near-Diagonal Tail-Square Reserve Absorption}\n"
+  end_anchor: "\\subsection{Non-Diagonal Tower Functional Preliminary Verdict}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Near-Diagonal Tail-Square Reserve
+    Absorption as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57515
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-21
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-21.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

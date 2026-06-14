@@ -1,0 +1,70 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T185702Z
+status: applied
+generated_at: '2026-06-13T18:57:02Z'
+batch_id: ns-goal-loop-source-field-d35-d37-warrant-continuation-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/43-source-field-d35-d37-warrant-continuation.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1827-1953
+    sections:
+      - Cascade-To-Scale-Barrier Bridge Lemma
+      - Euclidean Same-Surface Warrant Carrier
+      - Classical H^1 Continuation Lemma
+source_authoring_summary: >-
+  The batch rewrote D35-D37 of the source-field appendix as reader-facing proof
+  support.  It names the high-shell transport estimate as the open
+  forward-positive scale-barrier payment, explains the Euclidean warrant as a
+  same-surface provenance package, and gives the continuation lemma as the
+  final classical step from bounded \(H^1\) continuation norm to extension of
+  the same solution.
+proof_role:
+  gold_layer: >-
+    The edited slice packages the scale-barrier bridge as open forward-positive
+    supplier work.  It does not certify the gold route.
+  silver_layer: >-
+    The edited slice states the silver entry boundary for scale-barrier failure:
+    same-solution terminal selection first, then Pack, Part, Field, or readout.
+    It does not claim a silver first-face landing for the annular endpoint
+    witness.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d35-d37
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d35-d37/navier-stokes-human-submission.pdf
+  pages: 1106
+  output_bytes: 4099196
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d35-d37/pages-122-126.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d35-d37-render/source-field-d35-d37-0122.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d35-d37-render/source-field-d35-d37-0123.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d35-d37-render/source-field-d35-d37-0124.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d35-d37-render/source-field-d35-d37-0125.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d35-d37-render/source-field-d35-d37-0126.png
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-1827-1953
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-hits-in-source-field-lines-1827-1953-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix distillation/source-support batch.  It does not claim
+    first-draft approval, gold certification, silver certification, full CMI
+    finality, or a full-PDF finality gate.
+  - >-
+    D35-D37 now tell the reader which scale-barrier estimate remains open, what
+    same-surface Euclidean warrant would require, and how bounded \(H^1\)
+    control extends the same classical solution.
+  - >-
+    The next source-field unit begins at D38, the low-mode coefficient and
+    spectral leakage support family, with D40 visible at the rendered boundary.
+  - >-
+    The annular endpoint witness remains open until gold residual-load control
+    is proved or the silver branch lands the selected same-solution Pack, Part,
+    or Field first face on the page.

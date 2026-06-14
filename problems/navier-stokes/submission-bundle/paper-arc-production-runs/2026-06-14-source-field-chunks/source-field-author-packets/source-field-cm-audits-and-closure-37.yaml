@@ -1,0 +1,1133 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-37
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-37
+  sequence: 122
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 37
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 48757
+  line_end: 49130
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48757
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48801
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48861
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48899
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48941
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48997
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49046
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49090
+  subsection_titles:
+  - Clay problem Refill Tree Well Founded.A Direct Attempt Note
+  - Clay problem Reserve Creation Charge.A Height-Variation Reduction
+  - Clay problem Residence Lower Bound.A Direct Attempt
+  - Clay problem Response Adjoint Square-Mass Route
+  - Clay problem Response Flux Derivative Control.A Direct Attempt
+  - Clay problem Response Height Creation Control.A Proof Run
+  - Clay problem Response Height record Supports Discharge
+  - Clay problem Response No Incoming Flux Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Refill Tree Well Founded.A Direct Attempt Note
+    line_start: 48757
+    line_end: 48800
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48757
+    start_anchor: "\\subsection{Clay problem Refill Tree Well Founded.A Direct Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Reserve Creation Charge.A Height-Variation
+      Reduction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Refill Tree Well Founded.A Direct Attempt Note}
+
+      The local donor-balance identity is installed. The remaining question is whether the refill tree can be forced to terminate, charge, or compactify from the current original-data inputs.
+
+      \[
+      \mathcal T(P^0)
+      \]
+
+      \[
+      \sum_{e\in\mathcal T}\pi(e)
+      \le C_{\mathrm{sf},47261}
+      \sum_{v\in \partial\mathcal T}E(v;t_v^-)
+      +\sum_{v\in\mathcal T}\ell(v).
+      \]
+
+      For fixed preterminal entrance data, original smoothness makes the high-shell leaf tail small as the terminal shell threshold tends to infinity. This would contradict the source-pulse lower bound.
+
+      \[
+      \sum_m r_m^2<\infty,
+      \qquad
+      r_m\downarrow0,
+      \]
+
+      \[
+      \sum_m r_m^2=\infty,
+      \]
+
+      \[
+      \sum_m r_m^2<\infty.
+      \]
+
+      Finite dyadic banding permits this geometric scale cascade. The shell index can drift upward while the parabolic time increments remain summable.
+
+      so scale-time summation proves only the non-Zeno branch. It does not close terminal source-pulse refill.
+
+      But the source-pulse normalization is scale-critical. A leaf packet at radius r can have order-one normalized source residue while its raw L 2 energy cost is compatible with a shrinking physical volume. Summing raw leaf energy so does not give a depth-independent contradiction unless one already has a scale-normalized tree Carleson bound.
+
+      Finite frequency-band interaction restricts the range of shell indices in one edge. It does not restrict the number of legal physical or triadic predecessor pieces. The Fourier countermodel
+
+      A Zeno branch can be rescaled around its terminal packets. The installed local energy and pressure structure can produce a local suitable ancient limit after the usual compactness extraction. However, the current route does not force that limit into a rigid class such as Type I, finite global ancient energy, critical smallness, self-similarity, or symmetry.
+
+      Refill Tree Well Founded.A is not installed by original smooth data, raw energy, local energy, finite frequency banding, or same-fl
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Reserve Creation Charge.A Height-Variation Reduction
+    line_start: 48801
+    line_end: 48860
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48801
+    start_anchor: "\\subsection{Clay problem Reserve Creation Charge.A Height-Variation
+      Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Residence Lower Bound.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Reserve Creation Charge.A Height-Variation Reduction}
+
+      Post-audit correction: the proposed First Height Creation Dichotomy.A repair was pursued in
+
+      and collapsed as an independent theorem atom. Replace first-height-dichotomy language below by the stronger requirement: prove Height Flux Control.A through a genuine structural mechanism.
+
+      Purpose: sharpen the direct Scale Critical Tree Carleson.A attack by replacing the blunt -reserve target with a smaller first-creation target for the scale-normalized donor height.
+
+      \[
+      R_N(W)
+      \sfcomp{47316}
+      \int_W
+      \sum_{k>N}
+      2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell(t)
+      \right)^2
+      dt.
+      \]
+
+      \[
+      T_k(t):=\sum_{\ell>k+4}D_\ell(t),
+      \qquad
+      H_k(t):=2^kT_k(t).
+      \]
+
+      \[
+      2^kT_k(t)^2 = H_k(t)T_k(t),
+      \]
+
+      \[
+      R_N(W)
+      \sfcomp{47338}
+      \int_W
+      \sum_{k>N}H_k(t)T_k(t)dt.
+      \]
+
+      \[
+      M_N(W):=
+      \int_W
+      \sum_{k>N}T_k(t)dt
+      \]
+
+      So the first-moment tail can be arbitrarily small while the reserve is order one. This is exactly the spike-sensitive gap.
+
+      so no argument using only donor area / energy tail can prove Reserve Creation Charge.A.
+
+      Thus any first-time -reserve pulse requires very large normalized donor height on the active window. This does not by itself prove that the donor height is newly created on that same window.
+
+      On the terminal Field-face source-wall branch, legal charge is already part of the source/legal-loss record. If this charge remains summable, the large height creation is impossible. Contradiction.
+
+      Thus a nonzero first -reserve pulse requires failure of Donor Height Creation.A, failure of structural Height Flux Control.A, or non-summable native height charge.
+
+      Donor Height Creation.A is weaker and more natural: it allows large donor height if the height was already present or if the PDE pays native charge for creating it.
+
+      Donor Reserve Adjoint Trace.A is another realization: it would prove that every large donor height event is visible to the normalized-adjoint source trace and so charged by the existing parent-or-charge mechanism.
+
+      Th
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Residence Lower Bound.A Direct Attempt
+    line_start: 48861
+    line_end: 48898
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48861
+    start_anchor: "\\subsection{Clay problem Residence Lower Bound.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Response Adjoint Square-Mass Route}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Residence Lower Bound.A Direct Attempt}
+
+      Purpose: test whether same-fluid ancestry and terminal packet geometry supply the time-thickness modulus required by Terminal Time Face Anti Atom.A.
+
+      \[
+      |I_P\cap [T-\varepsilon,T]|\ge c_R>0
+      \]
+
+      for every active retained terminal source packet carrying a fixed amount of normalized source mass in B R.
+
+      \[
+      \nu_N^{src,+}(B_R\times[T-\varepsilon,T])
+      \le \omega_R(\varepsilon)+o_N(1),
+      \qquad \omega_R(\varepsilon)\to0.
+      \]
+
+      It gives a route for the source packet. It does not assign a macroscopic time length to the route.
+
+      \[
+      \tau_N\sfcomp{47385} r_N^2.
+      \]
+
+      \[
+      r_N\downarrow0,
+      \qquad \tau_N\downarrow0.
+      \]
+
+      \[
+      F_N^{src,+}(t)\sfcomp{47394} \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t).
+      \]
+
+      This model preserves the L 1 t budget and violates every macroscopic residence lower bound.
+
+      To imply Terminal Time Face Anti Atom.A, the estimate would need a lower bound independent of the terminal scale, or a compensating decay of source mass with scale. The latter is exactly a parent-charge quantum or active- reserve theorem.
+
+      Residence Lower Bound.A fails from the installed packet and ancestry data. Same-fluid ancestry gives lineage and scale-local residence. It supplies no terminal time-slab modulus.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Adjoint Square-Mass Route
+    line_start: 48899
+    line_end: 48940
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48899
+    start_anchor: "\\subsection{Clay problem Response Adjoint Square-Mass Route}\n"
+    end_anchor: "\\subsection{Clay problem Response Flux Derivative Control.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Adjoint Square-Mass Route}
+
+      \[
+      \left[
+      \int\langle u\cdot\nabla z+z\cdot\nabla u,\Psi_T\rangle
+      \right]_+.
+      \]
+
+      \[
+      M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+      \]
+
+      \[
+      \chi_T^{resp}:=g_T^{-1}\psi_T^{resp},
+      \]
+
+      where g T is the same strain/response gain normalization used by the source-drain packet calculus.
+
+      The response parent-or-charge theorem should be stated for M resp(T), not for a raw positive signed source integral.
+
+      \[
+      \left[
+      2\int\langle S_{<j}^{loc}u_j,z_j^\perp\rangle
+      \right]_+
+      \ge \eta,
+      \]
+
+      This is a packet testing/detection theorem. It is lower than raw sign control: it only asks the terminal positive rotation functional to have nonzero projection onto the packet frame.
+
+      \[
+      L_T^{resp} z_j^\perp = R_T^{resp},
+      \]
+
+      where L T resp is the projected affine heat/transport operator on the same-fluid response tile and R T resp contains nonlinear response source, pressure, cutoff, and off-tile residuals.
+
+      If Positive Rotation Detects Adjoint Mass.A supplies M resp(T 0) c 0>0 and the response charge is absorbable, the first response pulse is impossible.
+
+      That is better. It asks for packet-frame detection of a positive terminal functional, not sign preservation through a vector heat/Leray kernel.
+
+      But Response Kernel Sign Control.A is no longer the right primitive. The response drain should proceed through squared adjoint mass.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Flux Derivative Control.A Direct Attempt
+    line_start: 48941
+    line_end: 48996
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48941
+    start_anchor: "\\subsection{Clay problem Response Flux Derivative Control.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Response Height Creation Control.A Proof
+      Run}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Response Flux Derivative Control.A Direct Attempt}\n\n\\[\n\\int_W\\sup_{k>N}\n2^k\\sum_{\\ell>k+4}\n1_{\\{R_\\ell(t)>0\\}}[\\partial_\\nu
+      N_\\ell(t)]_+\\,dt\n\\le\nLegalResponseCharge_N(W)+o_N(1).\n\\]\n\n\\[\nR_\\ell(t):=\\partial_\\nu
+      E_\\ell(t)\n=2\\langle u_\\ell(t),z_\\ell(t)\\rangle,\n\\qquad\nz=\\partial_\\nu
+      u,\n\\]\n\n\\[\nN_\\ell(u)\n=\n-\\langle P_\\ell\\mathbb P(u\\cdot\\nabla u),u_\\ell\\rangle\n\\]\n\nThe
+      response-positive restriction is essential. The signed shell response identity
+      only asks for partial nu N l where viscosity is trying to increase the shell
+      energy.\n\n\\[\nN_j^{lh}\n\\sfcomp{47473}\n\\int \\langle S_{<j}^{loc}u_j,u_j\\rangle\\,dx,\n\\]\n\n\\[\nS_{<j}^{loc}\n:=\n\\frac12(\\nabla
+      u_{<j}+\\nabla u_{<j}^{T})\n\\]\n\nThis is the first actual gain of the viscosity-homotopy
+      route: the component of z j that tries to increase shell energy is damped at
+      parabolic rate and cannot feed the source unless the low strain reaches the
+      same parabolic rate.\n\nInterpretation: if the low/intermediate strain is strong
+      enough to beat the viscous response damping at shell ell, then the event itself
+      must be charged as an active strain burst. Otherwise the aligned response part
+      is absorbed.\n\nThis asks for the viscosity response of the low strain to be
+      legal when tested against the active high-shell density.\n\nThat estimate is
+      not enough unless ZS <j loc has a response Carleson or finite-dimensional low-mode
+      control on the same active windows. Otherwise it is just the old coefficient-multiplier
+      problem with z replacing u.\n\nThe response damping controls the component of
+      z parallel to u . It does not control rotation of the active shell direction.
+      A positive orthogonal response can rotate the shell toward an expanding strain
+      eigendirection while leaving the shell energy derivative positive but not large
+      enough to absorb the strain term by scalar damping alone.\n\nThis is still progress
+      over the old source wall because the aligned energy-increasing response component
+      is no longer part of the obstruction. It is paid by positive \n% ... source
+      excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Height Creation Control.A Proof Run
+    line_start: 48997
+    line_end: 49045
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48997
+    start_anchor: "\\subsection{Clay problem Response Height Creation Control.A Proof
+      Run}\n"
+    end_anchor: "\\subsection{Clay problem Response Height record Supports Discharge}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Height Creation Control.A Proof Run}
+
+      \[
+      H_k^z(t):=2^k\sum_{j>k+4}D_j^z(t).
+      \]
+
+      \[
+      \left[
+      H_N^z(W)-H_N^z(Past(W))-Loss_N^z(W)
+      \right]_+
+      \le
+      ResponseCharge_N(W)+o_N(1).
+      \]
+
+      \[
+      \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+      =
+      \nu\Delta z+\Delta u.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}E_j^z
+      +c\nu2^{2j}E_j^z
+      \le
+      M_j^{uz}
+      +M_j^{zu}
+      +|\langle P_j\Delta u,Z_j\rangle|
+      +L_j^z,
+      \]
+
+      \[
+      M_j^{uz}
+      :=
+      |\langle P_j\mathbb P(u\cdot\nabla z),Z_j\rangle|,
+      \qquad
+      M_j^{zu}
+      :=
+      |\langle P_j\mathbb P(z\cdot\nabla u),Z_j\rangle|.
+      \]
+
+      Low Response Strain Charge.A is reduced to finite response-norm / response height control. Response Strain Decorrel.A is the response analogue of ASAC: active z j packets cannot stay positively aligned with low strain unless they pay response-height charge or terminal no-incoming rigidity.
+
+      This shows that response-height creation is not a free new wall. Its linear forcing comes directly from original high-shell dissipation, and its nonlinear part is a response-copy of the active strain/decorrelation problem.
+
+      The new idea has narrowed the problem, but unconditional closure still requires a structural decorrelation/rigidity theorem.
+
+      Thus Original Height Dissipation Charge.A is superseded for this response-side branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response Height record Supports Discharge
+    line_start: 49046
+    line_end: 49089
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49046
+    start_anchor: "\\subsection{Clay problem Response Height record Supports Discharge}\n"
+    end_anchor: "\\subsection{Clay problem Response No Incoming Flux Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response Height record Supports Discharge}
+
+      \[
+      \partial_\nu D_j
+      =
+      2\langle\nabla u_j,\nabla z_j\rangle
+      \ge
+      c2^{2j}R_j-Err_j^{width}
+      \]
+
+      \[
+      R_j=2\langle u_j,z_j\rangle>0.
+      \]
+
+      \[
+      \langle\nabla u_j,\nabla z_j\rangle
+      =
+      2^{2j}\langle u_j,z_j\rangle
+      =
+      2^{2j}R_j/2.
+      \]
+
+      \[
+      2\langle\nabla u_j,\nabla z_j\rangle
+      =
+      2^{2j}R_j
+      +2\langle \rho_j(D)u_j,z_j\rangle.
+      \]
+
+      On R j>0, choose the heat-matched packet width so width 0 and legal width error.
+
+      \[
+      \boxed{
+      BoundaryResp_N(W)\le LegalBoundary_N(W)+o_N(1).
+      }
+      \]
+
+      At the upper endpoint b, the positive boundary term is the selected first height itself. Moving it to the left side is exactly the first-height selection identity used in First Height Selection.A. Any discrepancy caused by smooth maximum regularization, finite-depth truncation, or packet refinement is o N(1) plus the already declared legal boundary loss.
+
+      so the boundary response term is not an independent theorem burden. It is a bookkeeping consequence of first-height window selection.
+
+      The no-fold route now has no response-specific support atoms left. Its live mathematical wall is the native first-height/height-flux or terminal rigidity-residue branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Response No Incoming Flux Direct Attempt
+    line_start: 49090
+    line_end: 49130
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49090
+    start_anchor: "\\subsection{Clay problem Response No Incoming Flux Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Response Parent OrCharge Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Response No Incoming Flux Direct Attempt}
+
+      \[
+      \boxed{
+      NoIncomingFlux_{global,resp}.A.
+      }
+      \]
+
+      It should rule out incoming original and orthogonal-response mass through the ancient parabolic boundary of the transformed coupled anisotropic system.
+
+      \[
+      P_j\mathbb P(u\cdot\nabla z+z\cdot\nabla u).
+      \]
+
+      Choose T 0 minimal in the same-fluid response ancestry order among tiles carrying nonzero normalized terminal orthogonal response-rotation mass. If an earlier parent P with positive response source mass existed, T 0 would not be minimal. Thus every normalized parent contribution vanishes in the first-pulse limit. This is the same minimality proof as the installed No Incoming License src.A, with the source relation replaced by the response Duhamel ancestry relation.
+
+      \[
+      \partial_s V+\nabla q_v
+      =
+      \nu\nabla\cdot(A\nabla V),
+      \]
+
+      \[
+      \partial_s W+\nabla q_w
+      =
+      \nu\nabla\cdot(A\nabla W)
+      +\nabla\cdot(A\nabla V)
+      -\mathcal B_\Sigma[V].
+      \]
+
+      The same obstruction as the single-field route remains: under mixed-sign trace-free strain, transported cylinders can receive mass from spatial infinity along contracting channels. First-pulse minimality blocks selected same-fluid response parents, not arbitrary incoming kinetic or response energy.
+
+      \[
+      \lim_{s\to-\infty}
+      \int_{\mathbb R^3}
+      \bigl(|V(z,s)|^2+|W^\perp(z,s)|^2\bigr)
+      \Omega_S(z,s)\,dz
+      =0.
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Refill Tree Well Founded.A Direct Attempt Note}
+
+    The local donor-balance identity is installed. The remaining question is whether the refill tree can be forced to terminate, charge, or compactify from the current original-data inputs.
+
+    \[
+    \mathcal T(P^0)
+    \]
+
+    \[
+    \sum_{e\in\mathcal T}\pi(e)
+    \le C_{\mathrm{sf},47261}
+    \sum_{v\in \partial\mathcal T}E(v;t_v^-)
+    +\sum_{v\in\mathcal T}\ell(v).
+    \]
+
+    For fixed preterminal entrance data, original smoothness makes the high-shell leaf tail small as the terminal shell threshold tends to infinity. This would contradict the source-pulse lower bound.
+
+    \[
+    \sum_m r_m^2<\infty,
+    \qquad
+    r_m\downarrow0,
+    \]
+
+    \[
+    \sum_m r_m^2=\infty,
+    \]
+
+    \[
+    \sum_m r_m^2<\infty.
+    \]
+
+    Finite dyadic banding permits this geometric scale cascade. The shell index can drift upward while the parabolic time increments remain summable.
+
+    so scale-time summation proves only the non-Zeno branch. It does not close terminal source-pulse refill.
+
+    But the source-pulse normalization is scale-critical. A leaf packet at radius r can have order-one normalized source residue while its raw L 2 energy cost is compatible with a shrinking physical volume. Summing raw leaf energy so does not give a depth-independent contradiction unless one already has a scale-normalized tree Carleson bound.
+
+    Finite frequency-band interaction restricts the range of shell indices in one edge. It does not restrict the number of legal physical or triadic predecessor pieces. The Fourier countermodel
+
+    A Zeno branch can be rescaled around its terminal packets. The installed local energy and pressure structure can produce a local suitable ancient limit after the usual compactness extraction. However, the current route does not force that limit into a rigid class such as Type I, finite global ancient energy, critical smallness, self-similarity, or symmetry.
+
+    Refill Tree Well Founded.A is not installed by original smooth data, raw energy, local energy, finite frequency banding, or same-fluid transport.
+
+
+
+    \subsection{Clay problem Reserve Creation Charge.A Height-Variation Reduction}
+
+    Post-audit correction: the proposed First Height Creation Dichotomy.A repair was pursued in
+
+    and collapsed as an independent theorem atom. Replace first-height-dichotomy language below by the stronger requirement: prove Height Flux Control.A through a genuine structural mechanism.
+
+    Purpose: sharpen the direct Scale Critical Tree Carleson.A attack by replacing the blunt -reserve target with a smaller first-creation target for the scale-normalized donor height.
+
+    \[
+    R_N(W)
+    \sfcomp{47316}
+    \int_W
+    \sum_{k>N}
+    2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2
+    dt.
+    \]
+
+    \[
+    T_k(t):=\sum_{\ell>k+4}D_\ell(t),
+    \qquad
+    H_k(t):=2^kT_k(t).
+    \]
+
+    \[
+    2^kT_k(t)^2 = H_k(t)T_k(t),
+    \]
+
+    \[
+    R_N(W)
+    \sfcomp{47338}
+    \int_W
+    \sum_{k>N}H_k(t)T_k(t)dt.
+    \]
+
+    \[
+    M_N(W):=
+    \int_W
+    \sum_{k>N}T_k(t)dt
+    \]
+
+    So the first-moment tail can be arbitrarily small while the reserve is order one. This is exactly the spike-sensitive gap.
+
+    so no argument using only donor area / energy tail can prove Reserve Creation Charge.A.
+
+    Thus any first-time -reserve pulse requires very large normalized donor height on the active window. This does not by itself prove that the donor height is newly created on that same window.
+
+    On the terminal Field-face source-wall branch, legal charge is already part of the source/legal-loss record. If this charge remains summable, the large height creation is impossible. Contradiction.
+
+    Thus a nonzero first -reserve pulse requires failure of Donor Height Creation.A, failure of structural Height Flux Control.A, or non-summable native height charge.
+
+    Donor Height Creation.A is weaker and more natural: it allows large donor height if the height was already present or if the PDE pays native charge for creating it.
+
+    Donor Reserve Adjoint Trace.A is another realization: it would prove that every large donor height event is visible to the normalized-adjoint source trace and so charged by the existing parent-or-charge mechanism.
+
+    The next theorem-crank attempt should so target the native shell-balance derivative of H k(t) and identify the legal height charge.
+
+
+
+    \subsection{Clay problem Residence Lower Bound.A Direct Attempt}
+
+    Purpose: test whether same-fluid ancestry and terminal packet geometry supply the time-thickness modulus required by Terminal Time Face Anti Atom.A.
+
+    \[
+    |I_P\cap [T-\varepsilon,T]|\ge c_R>0
+    \]
+
+    for every active retained terminal source packet carrying a fixed amount of normalized source mass in B R.
+
+    \[
+    \nu_N^{src,+}(B_R\times[T-\varepsilon,T])
+    \le \omega_R(\varepsilon)+o_N(1),
+    \qquad \omega_R(\varepsilon)\to0.
+    \]
+
+    It gives a route for the source packet. It does not assign a macroscopic time length to the route.
+
+    \[
+    \tau_N\sfcomp{47385} r_N^2.
+    \]
+
+    \[
+    r_N\downarrow0,
+    \qquad \tau_N\downarrow0.
+    \]
+
+    \[
+    F_N^{src,+}(t)\sfcomp{47394} \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t).
+    \]
+
+    This model preserves the L 1 t budget and violates every macroscopic residence lower bound.
+
+    To imply Terminal Time Face Anti Atom.A, the estimate would need a lower bound independent of the terminal scale, or a compensating decay of source mass with scale. The latter is exactly a parent-charge quantum or active- reserve theorem.
+
+    Residence Lower Bound.A fails from the installed packet and ancestry data. Same-fluid ancestry gives lineage and scale-local residence. It supplies no terminal time-slab modulus.
+
+
+
+    \subsection{Clay problem Response Adjoint Square-Mass Route}
+
+    \[
+    \left[
+    \int\langle u\cdot\nabla z+z\cdot\nabla u,\Psi_T\rangle
+    \right]_+.
+    \]
+
+    \[
+    M(T)=|\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+    \]
+
+    \[
+    \chi_T^{resp}:=g_T^{-1}\psi_T^{resp},
+    \]
+
+    where g T is the same strain/response gain normalization used by the source-drain packet calculus.
+
+    The response parent-or-charge theorem should be stated for M resp(T), not for a raw positive signed source integral.
+
+    \[
+    \left[
+    2\int\langle S_{<j}^{loc}u_j,z_j^\perp\rangle
+    \right]_+
+    \ge \eta,
+    \]
+
+    This is a packet testing/detection theorem. It is lower than raw sign control: it only asks the terminal positive rotation functional to have nonzero projection onto the packet frame.
+
+    \[
+    L_T^{resp} z_j^\perp = R_T^{resp},
+    \]
+
+    where L T resp is the projected affine heat/transport operator on the same-fluid response tile and R T resp contains nonlinear response source, pressure, cutoff, and off-tile residuals.
+
+    If Positive Rotation Detects Adjoint Mass.A supplies M resp(T 0) c 0>0 and the response charge is absorbable, the first response pulse is impossible.
+
+    That is better. It asks for packet-frame detection of a positive terminal functional, not sign preservation through a vector heat/Leray kernel.
+
+    But Response Kernel Sign Control.A is no longer the right primitive. The response drain should proceed through squared adjoint mass.
+
+
+
+    \subsection{Clay problem Response Flux Derivative Control.A Direct Attempt}
+
+    \[
+    \int_W\sup_{k>N}
+    2^k\sum_{\ell>k+4}
+    1_{\{R_\ell(t)>0\}}[\partial_\nu N_\ell(t)]_+\,dt
+    \le
+    LegalResponseCharge_N(W)+o_N(1).
+    \]
+
+    \[
+    R_\ell(t):=\partial_\nu E_\ell(t)
+    =2\langle u_\ell(t),z_\ell(t)\rangle,
+    \qquad
+    z=\partial_\nu u,
+    \]
+
+    \[
+    N_\ell(u)
+    =
+    -\langle P_\ell\mathbb P(u\cdot\nabla u),u_\ell\rangle
+    \]
+
+    The response-positive restriction is essential. The signed shell response identity only asks for partial nu N l where viscosity is trying to increase the shell energy.
+
+    \[
+    N_j^{lh}
+    \sfcomp{47473}
+    \int \langle S_{<j}^{loc}u_j,u_j\rangle\,dx,
+    \]
+
+    \[
+    S_{<j}^{loc}
+    :=
+    \frac12(\nabla u_{<j}+\nabla u_{<j}^{T})
+    \]
+
+    This is the first actual gain of the viscosity-homotopy route: the component of z j that tries to increase shell energy is damped at parabolic rate and cannot feed the source unless the low strain reaches the same parabolic rate.
+
+    Interpretation: if the low/intermediate strain is strong enough to beat the viscous response damping at shell ell, then the event itself must be charged as an active strain burst. Otherwise the aligned response part is absorbed.
+
+    This asks for the viscosity response of the low strain to be legal when tested against the active high-shell density.
+
+    That estimate is not enough unless ZS <j loc has a response Carleson or finite-dimensional low-mode control on the same active windows. Otherwise it is just the old coefficient-multiplier problem with z replacing u.
+
+    The response damping controls the component of z parallel to u . It does not control rotation of the active shell direction. A positive orthogonal response can rotate the shell toward an expanding strain eigendirection while leaving the shell energy derivative positive but not large enough to absorb the strain term by scalar damping alone.
+
+    This is still progress over the old source wall because the aligned energy-increasing response component is no longer part of the obstruction. It is paid by positive viscosity itself whenever the low strain is below parabolic rate.
+
+    Reason: it attacks the only place where the aligned response absorption fails. If parabolic-rate strain bursts are legal or impossible on the terminal Field-face packet, then the new viscosity-homotopy route removes the largest piece of the old native positive source wall.
+
+    So the parabolic-burst branch is no longer an independent primitive; it is folded into First Height Creation Dichotomy.A.
+
+    So the live response-flux burden is no longer low-response strain or orthogonal response rotation. It is the native first-height/height-flux dichotomy reached through the parabolic-rate strain burst branch.
+
+
+
+    \subsection{Clay problem Response Height Creation Control.A Proof Run}
+
+    \[
+    H_k^z(t):=2^k\sum_{j>k+4}D_j^z(t).
+    \]
+
+    \[
+    \left[
+    H_N^z(W)-H_N^z(Past(W))-Loss_N^z(W)
+    \right]_+
+    \le
+    ResponseCharge_N(W)+o_N(1).
+    \]
+
+    \[
+    \partial_t z+\mathbb P(u\cdot\nabla z+z\cdot\nabla u)
+    =
+    \nu\Delta z+\Delta u.
+    \]
+
+    \[
+    \frac12\frac{d}{dt}E_j^z
+    +c\nu2^{2j}E_j^z
+    \le
+    M_j^{uz}
+    +M_j^{zu}
+    +|\langle P_j\Delta u,Z_j\rangle|
+    +L_j^z,
+    \]
+
+    \[
+    M_j^{uz}
+    :=
+    |\langle P_j\mathbb P(u\cdot\nabla z),Z_j\rangle|,
+    \qquad
+    M_j^{zu}
+    :=
+    |\langle P_j\mathbb P(z\cdot\nabla u),Z_j\rangle|.
+    \]
+
+    Low Response Strain Charge.A is reduced to finite response-norm / response height control. Response Strain Decorrel.A is the response analogue of ASAC: active z j packets cannot stay positively aligned with low strain unless they pay response-height charge or terminal no-incoming rigidity.
+
+    This shows that response-height creation is not a free new wall. Its linear forcing comes directly from original high-shell dissipation, and its nonlinear part is a response-copy of the active strain/decorrelation problem.
+
+    The new idea has narrowed the problem, but unconditional closure still requires a structural decorrelation/rigidity theorem.
+
+    Thus Original Height Dissipation Charge.A is superseded for this response-side branch.
+
+
+
+    \subsection{Clay problem Response Height record Supports Discharge}
+
+    \[
+    \partial_\nu D_j
+    =
+    2\langle\nabla u_j,\nabla z_j\rangle
+    \ge
+    c2^{2j}R_j-Err_j^{width}
+    \]
+
+    \[
+    R_j=2\langle u_j,z_j\rangle>0.
+    \]
+
+    \[
+    \langle\nabla u_j,\nabla z_j\rangle
+    =
+    2^{2j}\langle u_j,z_j\rangle
+    =
+    2^{2j}R_j/2.
+    \]
+
+    \[
+    2\langle\nabla u_j,\nabla z_j\rangle
+    =
+    2^{2j}R_j
+    +2\langle \rho_j(D)u_j,z_j\rangle.
+    \]
+
+    On R j>0, choose the heat-matched packet width so width 0 and legal width error.
+
+    \[
+    \boxed{
+    BoundaryResp_N(W)\le LegalBoundary_N(W)+o_N(1).
+    }
+    \]
+
+    At the upper endpoint b, the positive boundary term is the selected first height itself. Moving it to the left side is exactly the first-height selection identity used in First Height Selection.A. Any discrepancy caused by smooth maximum regularization, finite-depth truncation, or packet refinement is o N(1) plus the already declared legal boundary loss.
+
+    so the boundary response term is not an independent theorem burden. It is a bookkeeping consequence of first-height window selection.
+
+    The no-fold route now has no response-specific support atoms left. Its live mathematical wall is the native first-height/height-flux or terminal rigidity-residue branch.
+
+
+
+    \subsection{Clay problem Response No Incoming Flux Direct Attempt}
+
+    \[
+    \boxed{
+    NoIncomingFlux_{global,resp}.A.
+    }
+    \]
+
+    It should rule out incoming original and orthogonal-response mass through the ancient parabolic boundary of the transformed coupled anisotropic system.
+
+    \[
+    P_j\mathbb P(u\cdot\nabla z+z\cdot\nabla u).
+    \]
+
+    Choose T 0 minimal in the same-fluid response ancestry order among tiles carrying nonzero normalized terminal orthogonal response-rotation mass. If an earlier parent P with positive response source mass existed, T 0 would not be minimal. Thus every normalized parent contribution vanishes in the first-pulse limit. This is the same minimality proof as the installed No Incoming License src.A, with the source relation replaced by the response Duhamel ancestry relation.
+
+    \[
+    \partial_s V+\nabla q_v
+    =
+    \nu\nabla\cdot(A\nabla V),
+    \]
+
+    \[
+    \partial_s W+\nabla q_w
+    =
+    \nu\nabla\cdot(A\nabla W)
+    +\nabla\cdot(A\nabla V)
+    -\mathcal B_\Sigma[V].
+    \]
+
+    The same obstruction as the single-field route remains: under mixed-sign trace-free strain, transported cylinders can receive mass from spatial infinity along contracting channels. First-pulse minimality blocks selected same-fluid response parents, not arbitrary incoming kinetic or response energy.
+
+    \[
+    \lim_{s\to-\infty}
+    \int_{\mathbb R^3}
+    \bigl(|V(z,s)|^2+|W^\perp(z,s)|^2\bigr)
+    \Omega_S(z,s)\,dz
+    =0.
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Refill Tree Well Founded.A Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48757
+  line_start: 48757
+  line_end: 48800
+  start_anchor: "\\subsection{Clay problem Refill Tree Well Founded.A Direct Attempt
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Reserve Creation Charge.A Height-Variation
+    Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Refill Tree Well
+    Founded.A Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48757
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Reserve Creation Charge.A Height-Variation Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48801
+  line_start: 48801
+  line_end: 48860
+  start_anchor: "\\subsection{Clay problem Reserve Creation Charge.A Height-Variation
+    Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Residence Lower Bound.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Reserve Creation
+    Charge.A Height-Variation Reduction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48801
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Residence Lower Bound.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48861
+  line_start: 48861
+  line_end: 48898
+  start_anchor: "\\subsection{Clay problem Residence Lower Bound.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Response Adjoint Square-Mass Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Residence Lower
+    Bound.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48861
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Adjoint Square-Mass Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48899
+  line_start: 48899
+  line_end: 48940
+  start_anchor: "\\subsection{Clay problem Response Adjoint Square-Mass Route}\n"
+  end_anchor: "\\subsection{Clay problem Response Flux Derivative Control.A Direct
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Adjoint
+    Square-Mass Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48899
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Flux Derivative Control.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48941
+  line_start: 48941
+  line_end: 48996
+  start_anchor: "\\subsection{Clay problem Response Flux Derivative Control.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Response Height Creation Control.A Proof
+    Run}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Flux Derivative
+    Control.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48941
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Height Creation Control.A Proof Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48997
+  line_start: 48997
+  line_end: 49045
+  start_anchor: "\\subsection{Clay problem Response Height Creation Control.A Proof
+    Run}\n"
+  end_anchor: "\\subsection{Clay problem Response Height record Supports Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Height
+    Creation Control.A Proof Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:48997
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response Height record Supports Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49046
+  line_start: 49046
+  line_end: 49089
+  start_anchor: "\\subsection{Clay problem Response Height record Supports Discharge}\n"
+  end_anchor: "\\subsection{Clay problem Response No Incoming Flux Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response Height
+    record Supports Discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49046
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Response No Incoming Flux Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49090
+  line_start: 49090
+  line_end: 49130
+  start_anchor: "\\subsection{Clay problem Response No Incoming Flux Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Response Parent OrCharge Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Response No Incoming
+    Flux Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49090
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-37
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-37.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

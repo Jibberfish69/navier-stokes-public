@@ -1,0 +1,836 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-critical-norm-and-field-06
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-06
+  sequence: 74
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 6
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 26195
+  line_end: 29020
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26195
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26572
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26825
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26858
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27156
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27505
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27796
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28989
+  subsection_titles:
+  - Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation
+  - Sourcewall Reconcile Normalized Adjoint Drain
+  - Source Weighted Terminal Angular Depletion.A continuation
+  - Square-source estimate with amplitude normalization - conditional discharge
+  - Strict Low-Mode Gradient Packet Estimate
+  - Terminal Amplitude Gain.A no-Field hard obstruction
+  - Terminal Source Reverse Holder.Onward Source Normalize
+  - Weighted Shell Coefficient Domination Test
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation
+    line_start: 26195
+    line_end: 26209
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26195
+    start_anchor: "\\subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop
+      continuation}\n"
+    end_anchor: "\\subsection{Source-pulse supplier route final assembly}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation}
+
+      Parallel suppliers are Signed Positive Balance.A, Local Pressure Strain Deplete.A, Active Vorticity Coherence.A, and Anti Beltrami Carleson.A.
+
+      The native source object is the localized positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, shell weights, and positive-part extraction.
+
+      Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live object is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
+
+      Reverse-Holder parent concentration also remains open. A diffuse legal parent measure can distribute mass over unboundedly many legal predecessors so that every bounded parent subfamily carries vanishing mass. Same-fluid ancestry preserves legal parentage once chosen; it does not select a concentrated parent or price parent entropy.
+
+      Scale-critical tree Carleson is equivalent at route resolution to the desired active- / positive pre-Cauchy source control. Raw energy and first-moment dissipation do not price scale-critical positive source mass on shrinking heat-scale active windows.
+
+      A successful closure must prove a native one-sided weighted positive-source depletion theorem after localization and active-window selection.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sourcewall Reconcile Normalized Adjoint Drain
+    line_start: 26572
+    line_end: 26587
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26572
+    start_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Drain}\n"
+    end_anchor: "\\subsection{Source Wall root route test: Local Carleson versus Zeno
+      rigidity}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Sourcewall Reconcile Normalized Adjoint Drain}
+
+      The later audit is more specific about unconditional state. It identifies the missing bridge as source-parent compactness / drain closure, not packet-calculus bookkeeping.
+
+      \[
+      \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+      \qquad M\to\infty,
+      \]
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
+      \]
+
+      The unconditional source-drain discharge is demoted. The row bridge and CM assembly must treat the Field row as conditional on source-wall closure until one root source-wall theorem is proved.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source Weighted Terminal Angular Depletion.A continuation
+    line_start: 26825
+    line_end: 26857
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26825
+    start_anchor: "\\subsection{Source Weighted Terminal Angular Depletion.A continuation}\n"
+    end_anchor: "\\subsection{Square-source estimate with amplitude normalization
+      - conditional discharge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Source Weighted Terminal Angular Depletion.A continuation}
+
+      Failed unconditional discharge from installed inputs. The source-weighted angular route advances to a precise signed no-free-sink subtheorem, and then to the terminal Zeno refill atom.
+
+      \[
+      \sum_{P\in\mathcal F_N}\int_{Q(P)}
+      \chi_P |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+dxdt
+      \le
+      \theta\sum_P\int_{Q(P)}\mathcal D_P
+      +Legal_N(\mathcal F_N)+o_N(1),
+      \quad 0<\theta<1.
+      \]
+
+      The material eigenframe split decomposes the coefficient into threshold-small, far-low turnover, near-band turnover, and source-residence components.
+
+      The threshold-small term is drain-absorbable. Far-low turnover has parabolic scale separation and routes into legal records. The installed ASAC assembly pays the active-alignment and one-sided pair-weight defect component.
+
+      ASAC pays retained partner pair-weight mismatch. Legal records pay legal exits. Local Donor Balance.A and Entrance Leaf Decay.A pay finite donor trees.
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty.
+      \]
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
+      \]
+
+      The direct reverse-Holder attempt failed because current same-fluid ancestry supplies L 1 t source mass and route fidelity, while the terminal atom model keeps the source marginal within that information.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Square-source estimate with amplitude normalization - conditional
+      discharge
+    line_start: 26858
+    line_end: 26868
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26858
+    start_anchor: "\\subsection{Square-source estimate with amplitude normalization
+      - conditional discharge}\n"
+    end_anchor: "\\subsection{Square Charge Evolution.A Conditional Pass And Zeno
+      Trigger Extraction}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Square-source estimate with amplitude normalization - conditional discharge}
+
+      Prove the -source estimate with amplitude normalization needed for the single-shell active- estimate.
+
+      Equivalently, assume a source-normalized active interval on which the nonlinear shell flux cannot exceed the heat-scale -source threshold plus the reserve density.
+
+      The -source estimate is discharged conditionally under active-shell amplitude/source normalization.
+
+      The normalization is not proved from Original Smooth Data. It is equivalent to active-shell amplitude gain or to a nonlinear flux-source theorem forbidding source-balanced pulses.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Strict Low-Mode Gradient Packet Estimate
+    line_start: 27156
+    line_end: 27196
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27156
+    start_anchor: "\\subsection{Strict Low-Mode Gradient Packet Estimate}\n"
+    end_anchor: "\\subsection{Strict-Margin SCF Stability Constants Lemma}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Strict Low-Mode Gradient Packet Estimate}
+
+      Theorem-facing discharge for the strict low-high and strict high-low packets in the gradient cascade split.
+
+      \[
+      a_N(t):=S_{N-4}u(t),
+      \qquad
+      \Lambda_N(t):=\|\nabla a_N(t)\|_{L^\infty}.
+      \]
+
+      \[
+      u_j:=\Delta_j u,
+      \qquad
+      E_N(t):=\sum_{j\ge N}2^{2j}\|u_j(t)\|_2^2,
+      \qquad
+      D_N(t):=\sum_{j\ge N}2^{4j}\|u_j(t)\|_2^2.
+      \]
+
+      \[
+      LH_j:=\left\langle [\Delta_j,a_N\cdot\nabla]u_{\sfcomp{25660} j},-\Delta u_j\right\rangle,
+      \]
+
+      where u j denotes the finite shell collar around j. Define the strict high-low packet by
+
+      \[
+      HL_j:=\left\langle \Delta_j(u_{\sfcomp{25666} j}\cdot\nabla a_N),-\Delta u_j\right\rangle.
+      \]
+
+      \[
+      \sum_{j\ge N}|LH_j|+\sum_{j\ge N}|HL_j|
+      \le
+      C\Lambda_N(t)E_N(t).
+      \]
+
+      The strict low-high contribution is the commutator term. The dyadic commutator bound used here is
+
+      The strict low-mode portion of the gradient cascade is controlled entirely by N(t)E N(t). The dissipative fractions displayed in the target estimates are available as reserve terms.
+
+      The strict low-mode packets LH j and HL j are discharged. The threshold-spill collar and genuine high-high packet remain separate slots in the reassembled commutator theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Amplitude Gain.A no-Field hard obstruction
+    line_start: 27505
+    line_end: 27543
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27505
+    start_anchor: "\\subsection{Terminal Amplitude Gain.A no-Field hard obstruction}\n"
+    end_anchor: "\\subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional
+      proof note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Terminal Amplitude Gain.A no-Field hard obstruction}
+
+      \[
+      a_P(t):=\frac{\|U_P(t)\|_2}{\nu r_P^{1/2}}.
+      \]
+
+      \[
+      \boxed{
+      \sup_{P:j_P\ge N}a_P(t)\to0.
+      }
+      \]
+
+      This would imply the conditional cycle-current estimate and hence local positive source control.
+
+      \[
+      \|U_P\|_2\sfcomp{26005} K r_P^{1/2}
+      \]
+
+      \[
+      \|U_P\|_2^2\sfcomp{26009} K^2r_P\to0
+      \]
+
+      On one heat-time interval, nonlinear transfer scales cubically while heat dissipation scales quadratically. A short terminal pulse can keep first-moment dissipation small while keeping scale-critical density or packet amplitude non-small.
+
+      \[
+      D_s^+A_N
+      \le
+      -cA_N+C A_N^2+o_N(1),
+      \qquad
+      A_N:=\sup_{P:j_P\ge N}a_P.
+      \]
+
+      This estimate is exactly the local positive source control on terminal packets. It is not produced by finite energy, first-moment dissipation, Pack deformation control, or finite-depth Part participation.
+
+      But Field Tail N is the Field/readout side of CM membership. Using it as input makes the source-wall proof dependent on the very high-frequency field coherence that the wall is meant to supply.
+
+      The same blocker has now reappeared across the direct Carleson, reserve, cubic normal form, coefficient, retained-face amplitude, and Zeno routes. Continuing this loop without a new mechanism is expected to repeat the same obstruction. The next productive step is invention of a genuinely new source-control principle, not another reformulation of the current reserve.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Reverse Holder.Onward Source Normalize
+    line_start: 27796
+    line_end: 27816
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27796
+    start_anchor: "\\subsection{Terminal Source Reverse Holder.Onward Source Normalize}\n"
+    end_anchor: "\\subsection{Terminal Support Exclusion.A and Monotone Ancestry Rank.A
+      Zeno attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Terminal Source Reverse Holder.Onward Source Normalize}
+
+      Continuation from Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A.
+
+      The branch first reduces to active-shell source normalization.  That
+      normalization then becomes the weighted commutator and residual-tail
+      source-control frontier.  This branch remains open.
+
+      Here Heat Scale Square Source.A gives the super-L1 time control needed to remove terminal source atoms.
+
+      The direct test fails from current inputs. Shell flux is trilinear, so scaling a smooth finite-mode profile by amplitude A gives source size like A 3 and -source size like A 6. Original smoothness and preterminal smoothness give data-dependent bounds, while the terminal branch needs a scale-normalized estimate along moving high shells.
+
+      A scalar source-balanced pulse can persist when F j matches damping. The proof must use Navier-Stokes structure inside the shell flux.
+
+      The residual tail is stronger than available first-moment dissipation. Taking absolute values returns to active- / Carleson reserve language.
+
+      Each is a source-control theorem at the same strength as the scale-critical source wall.
+
+      The branch remains open. The next smallest visible source-side atom is active-shell source normalization, equivalently weighted commutator defect plus residual-tail control.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Shell Coefficient Domination Test
+    line_start: 28989
+    line_end: 29020
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28989
+    start_anchor: "\\subsection{Weighted Shell Coefficient Domination Test}\n"
+    end_anchor: "\\subsection{Weighted Shell Direct Reserve Summability}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Weighted Shell Coefficient Domination Test}
+
+      \[
+      \Lambda_N+ \Theta_N^\sharp\le c\nu2^{2N}.
+      \]
+
+      \[
+      \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty}
+      \le
+      C\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_2.
+      \]
+
+      \[
+      \|\Delta_k u(t)\|_2\le\|u(t)\|_2\le Q_0^{1/2},
+      \]
+
+      \[
+      \Lambda_N(t)
+      \le C Q_0^{1/2}2^{5N/2}.
+      \]
+
+      \[
+      \|\Delta_k u\|_2\le 2^{-k}\|\nabla u\|_2,
+      \]
+
+      Thus large-threshold domination holds on times where the enstrophy amplitude is below the threshold-dependent ceiling.
+
+      A terminal-uniform fixed N domination requires a terminal enstrophy ceiling. The current theorem program supplies fixed-threshold reserve summability without needing this stronger pointwise domination.
+
+      This theorem is a conditional coefficient criterion. It is stronger than the reserve-summability route and is not required once direct reserve summability has been established.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation}
+
+    Parallel suppliers are Signed Positive Balance.A, Local Pressure Strain Deplete.A, Active Vorticity Coherence.A, and Anti Beltrami Carleson.A.
+
+    The native source object is the localized positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, shell weights, and positive-part extraction.
+
+    Global unweighted dyadic exchange cancels before these operations. After localization and positive-part extraction, the live object is a one-sided weighted lifted remainder. The remaining positive source can align with expanding strain directions, so incompressibility and trace-free strain do not give Eigen Decorrel.A.
+
+    Reverse-Holder parent concentration also remains open. A diffuse legal parent measure can distribute mass over unboundedly many legal predecessors so that every bounded parent subfamily carries vanishing mass. Same-fluid ancestry preserves legal parentage once chosen; it does not select a concentrated parent or price parent entropy.
+
+    Scale-critical tree Carleson is equivalent at route resolution to the desired active- / positive pre-Cauchy source control. Raw energy and first-moment dissipation do not price scale-critical positive source mass on shrinking heat-scale active windows.
+
+    A successful closure must prove a native one-sided weighted positive-source depletion theorem after localization and active-window selection.
+
+
+
+    \subsection{Sourcewall Reconcile Normalized Adjoint Drain}
+
+    The later audit is more specific about unconditional state. It identifies the missing bridge as source-parent compactness / drain closure, not packet-calculus bookkeeping.
+
+    \[
+    \pi_P=\frac{1}{M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
+    \qquad M\to\infty,
+    \]
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
+    \]
+
+    The unconditional source-drain discharge is demoted. The row bridge and CM assembly must treat the Field row as conditional on source-wall closure until one root source-wall theorem is proved.
+
+
+
+    \subsection{Source Weighted Terminal Angular Depletion.A continuation}
+
+    Failed unconditional discharge from installed inputs. The source-weighted angular route advances to a precise signed no-free-sink subtheorem, and then to the terminal Zeno refill atom.
+
+    \[
+    \sum_{P\in\mathcal F_N}\int_{Q(P)}
+    \chi_P |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+dxdt
+    \le
+    \theta\sum_P\int_{Q(P)}\mathcal D_P
+    +Legal_N(\mathcal F_N)+o_N(1),
+    \quad 0<\theta<1.
+    \]
+
+    The material eigenframe split decomposes the coefficient into threshold-small, far-low turnover, near-band turnover, and source-residence components.
+
+    The threshold-small term is drain-absorbable. Far-low turnover has parabolic scale separation and routes into legal records. The installed ASAC assembly pays the active-alignment and one-sided pair-weight defect component.
+
+    ASAC pays retained partner pair-weight mismatch. Legal records pay legal exits. Local Donor Balance.A and Entrance Leaf Decay.A pay finite donor trees.
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
+    \]
+
+    The direct reverse-Holder attempt failed because current same-fluid ancestry supplies L 1 t source mass and route fidelity, while the terminal atom model keeps the source marginal within that information.
+
+
+
+    \subsection{Square-source estimate with amplitude normalization - conditional discharge}
+
+    Prove the -source estimate with amplitude normalization needed for the single-shell active- estimate.
+
+    Equivalently, assume a source-normalized active interval on which the nonlinear shell flux cannot exceed the heat-scale -source threshold plus the reserve density.
+
+    The -source estimate is discharged conditionally under active-shell amplitude/source normalization.
+
+    The normalization is not proved from Original Smooth Data. It is equivalent to active-shell amplitude gain or to a nonlinear flux-source theorem forbidding source-balanced pulses.
+
+
+
+    \subsection{Strict Low-Mode Gradient Packet Estimate}
+
+    Theorem-facing discharge for the strict low-high and strict high-low packets in the gradient cascade split.
+
+    \[
+    a_N(t):=S_{N-4}u(t),
+    \qquad
+    \Lambda_N(t):=\|\nabla a_N(t)\|_{L^\infty}.
+    \]
+
+    \[
+    u_j:=\Delta_j u,
+    \qquad
+    E_N(t):=\sum_{j\ge N}2^{2j}\|u_j(t)\|_2^2,
+    \qquad
+    D_N(t):=\sum_{j\ge N}2^{4j}\|u_j(t)\|_2^2.
+    \]
+
+    \[
+    LH_j:=\left\langle [\Delta_j,a_N\cdot\nabla]u_{\sfcomp{25660} j},-\Delta u_j\right\rangle,
+    \]
+
+    where u j denotes the finite shell collar around j. Define the strict high-low packet by
+
+    \[
+    HL_j:=\left\langle \Delta_j(u_{\sfcomp{25666} j}\cdot\nabla a_N),-\Delta u_j\right\rangle.
+    \]
+
+    \[
+    \sum_{j\ge N}|LH_j|+\sum_{j\ge N}|HL_j|
+    \le
+    C\Lambda_N(t)E_N(t).
+    \]
+
+    The strict low-high contribution is the commutator term. The dyadic commutator bound used here is
+
+    The strict low-mode portion of the gradient cascade is controlled entirely by N(t)E N(t). The dissipative fractions displayed in the target estimates are available as reserve terms.
+
+    The strict low-mode packets LH j and HL j are discharged. The threshold-spill collar and genuine high-high packet remain separate slots in the reassembled commutator theorem.
+
+
+
+    \subsection{Terminal Amplitude Gain.A no-Field hard obstruction}
+
+    \[
+    a_P(t):=\frac{\|U_P(t)\|_2}{\nu r_P^{1/2}}.
+    \]
+
+    \[
+    \boxed{
+    \sup_{P:j_P\ge N}a_P(t)\to0.
+    }
+    \]
+
+    This would imply the conditional cycle-current estimate and hence local positive source control.
+
+    \[
+    \|U_P\|_2\sfcomp{26005} K r_P^{1/2}
+    \]
+
+    \[
+    \|U_P\|_2^2\sfcomp{26009} K^2r_P\to0
+    \]
+
+    On one heat-time interval, nonlinear transfer scales cubically while heat dissipation scales quadratically. A short terminal pulse can keep first-moment dissipation small while keeping scale-critical density or packet amplitude non-small.
+
+    \[
+    D_s^+A_N
+    \le
+    -cA_N+C A_N^2+o_N(1),
+    \qquad
+    A_N:=\sup_{P:j_P\ge N}a_P.
+    \]
+
+    This estimate is exactly the local positive source control on terminal packets. It is not produced by finite energy, first-moment dissipation, Pack deformation control, or finite-depth Part participation.
+
+    But Field Tail N is the Field/readout side of CM membership. Using it as input makes the source-wall proof dependent on the very high-frequency field coherence that the wall is meant to supply.
+
+    The same blocker has now reappeared across the direct Carleson, reserve, cubic normal form, coefficient, retained-face amplitude, and Zeno routes. Continuing this loop without a new mechanism is expected to repeat the same obstruction. The next productive step is invention of a genuinely new source-control principle, not another reformulation of the current reserve.
+
+
+
+    \subsection{Terminal Source Reverse Holder.Onward Source Normalize}
+
+    Continuation from Terminal Source Reverse Holder.A / Uniform Temporal Source Integrability p.A.
+
+    The branch first reduces to active-shell source normalization.  That
+    normalization then becomes the weighted commutator and residual-tail
+    source-control frontier.  This branch remains open.
+
+    Here Heat Scale Square Source.A gives the super-L1 time control needed to remove terminal source atoms.
+
+    The direct test fails from current inputs. Shell flux is trilinear, so scaling a smooth finite-mode profile by amplitude A gives source size like A 3 and -source size like A 6. Original smoothness and preterminal smoothness give data-dependent bounds, while the terminal branch needs a scale-normalized estimate along moving high shells.
+
+    A scalar source-balanced pulse can persist when F j matches damping. The proof must use Navier-Stokes structure inside the shell flux.
+
+    The residual tail is stronger than available first-moment dissipation. Taking absolute values returns to active- / Carleson reserve language.
+
+    Each is a source-control theorem at the same strength as the scale-critical source wall.
+
+    The branch remains open. The next smallest visible source-side atom is active-shell source normalization, equivalently weighted commutator defect plus residual-tail control.
+
+
+
+    \subsection{Weighted Shell Coefficient Domination Test}
+
+    \[
+    \Lambda_N+ \Theta_N^\sharp\le c\nu2^{2N}.
+    \]
+
+    \[
+    \Lambda_N(t)=\|\nabla S_{N-4}u(t)\|_{L^\infty}
+    \le
+    C\sum_{k\le N-4}2^{5k/2}\|\Delta_k u(t)\|_2.
+    \]
+
+    \[
+    \|\Delta_k u(t)\|_2\le\|u(t)\|_2\le Q_0^{1/2},
+    \]
+
+    \[
+    \Lambda_N(t)
+    \le C Q_0^{1/2}2^{5N/2}.
+    \]
+
+    \[
+    \|\Delta_k u\|_2\le 2^{-k}\|\nabla u\|_2,
+    \]
+
+    Thus large-threshold domination holds on times where the enstrophy amplitude is below the threshold-dependent ceiling.
+
+    A terminal-uniform fixed N domination requires a terminal enstrophy ceiling. The current theorem program supplies fixed-threshold reserve summability without needing this stronger pointwise domination.
+
+    This theorem is a conditional coefficient criterion. It is stronger than the reserve-summability route and is not required once direct reserve summability has been established.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26195
+  line_start: 26195
+  line_end: 26209
+  start_anchor: "\\subsection{Source Pulse Exclusion.A / Eigen Decorrel.A - loop continuation}\n"
+  end_anchor: "\\subsection{Source-pulse supplier route final assembly}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source Pulse Exclusion.A / Eigen
+    Decorrel.A - loop continuation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26195
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sourcewall Reconcile Normalized Adjoint Drain
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26572
+  line_start: 26572
+  line_end: 26587
+  start_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Drain}\n"
+  end_anchor: "\\subsection{Source Wall root route test: Local Carleson versus Zeno
+    rigidity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sourcewall Reconcile Normalized
+    Adjoint Drain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26572
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source Weighted Terminal Angular Depletion.A continuation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26825
+  line_start: 26825
+  line_end: 26857
+  start_anchor: "\\subsection{Source Weighted Terminal Angular Depletion.A continuation}\n"
+  end_anchor: "\\subsection{Square-source estimate with amplitude normalization -
+    conditional discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source Weighted Terminal Angular
+    Depletion.A continuation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26825
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Square-source estimate with amplitude normalization - conditional
+    discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26858
+  line_start: 26858
+  line_end: 26868
+  start_anchor: "\\subsection{Square-source estimate with amplitude normalization
+    - conditional discharge}\n"
+  end_anchor: "\\subsection{Square Charge Evolution.A Conditional Pass And Zeno Trigger
+    Extraction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Square-source estimate with amplitude
+    normalization - conditional discharge as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:26858
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Strict Low-Mode Gradient Packet Estimate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27156
+  line_start: 27156
+  line_end: 27196
+  start_anchor: "\\subsection{Strict Low-Mode Gradient Packet Estimate}\n"
+  end_anchor: "\\subsection{Strict-Margin SCF Stability Constants Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Strict Low-Mode Gradient Packet
+    Estimate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27156
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Amplitude Gain.A no-Field hard obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27505
+  line_start: 27505
+  line_end: 27543
+  start_anchor: "\\subsection{Terminal Amplitude Gain.A no-Field hard obstruction}\n"
+  end_anchor: "\\subsection{Terminal Angular Mixing.A / Alignment Decorrel.A conditional
+    proof note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Amplitude Gain.A no-Field
+    hard obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27505
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Reverse Holder.Onward Source Normalize
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27796
+  line_start: 27796
+  line_end: 27816
+  start_anchor: "\\subsection{Terminal Source Reverse Holder.Onward Source Normalize}\n"
+  end_anchor: "\\subsection{Terminal Support Exclusion.A and Monotone Ancestry Rank.A
+    Zeno attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Reverse Holder.Onward
+    Source Normalize as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27796
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Shell Coefficient Domination Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28989
+  line_start: 28989
+  line_end: 29020
+  start_anchor: "\\subsection{Weighted Shell Coefficient Domination Test}\n"
+  end_anchor: "\\subsection{Weighted Shell Direct Reserve Summability}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Shell Coefficient Domination
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28989
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-06
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-06.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

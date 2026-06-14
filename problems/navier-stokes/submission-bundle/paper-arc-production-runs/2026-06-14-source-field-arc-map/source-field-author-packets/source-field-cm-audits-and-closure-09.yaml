@@ -1,0 +1,1107 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-09
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-09
+  sequence: 94
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 9
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 30928
+  line_end: 31558
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30928
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31159
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31194
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31323
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31436
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31463
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31517
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31538
+  subsection_titles:
+  - Clay problem Active Height Flux Trichotomy.A Route
+  - Clay problem Active Shell Amplitude Gain.A Final Collapse Note
+  - Clay problem Active Shell Amplitude Gain.A Completion Attempt
+  - 'Actual Synthesis: Height Flux Control and Class-Exit Architecture'
+  - Clay problem After-ASAC Signed record Reduction
+  - Clay problem Alignment Decorrel.A Direct Attempt Note
+  - Clay problem Ancestral.No Pulse Source-Rigidity Audit Note
+  - Clay problem Ancestry Drain / Liouville Alternatives Direct Audit Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Active Height Flux Trichotomy.A Route
+    line_start: 30928
+    line_end: 30994
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30928
+    start_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Route}\n"
+    end_anchor: "\\subsection{Active Shell Amplitude Gain FromNS.A Expansion}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Active Height Flux Trichotomy.A Route}
+
+      Purpose: refine the current Height Flux Control.A wall into a theorem that uses the whole CM witness architecture instead of trying to prove a scalar positive source estimate in isolation.
+
+      \[
+      \int_W
+      \sup_{k>N}
+      \left[
+      2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+      \right]_+dt.
+      \]
+
+      \[
+      |w_\ell|^2
+      \left[
+      e_\ell\cdot S^{loc}_{<\ell}e_\ell
+      \right]_+.
+      \]
+
+      \[
+      \begin{aligned}
+      \int_W
+      \sup_{k>N}
+      \left[
+      2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+      \right]_+dt
+      &\le
+      C\,\mathcal P_Q^{gain}(W)
+      +C\,\mathcal P_{N,Q}^{part}(W)\\
+      &\quad
+      +C\,\mathcal L_{N,Q}^{field}(W)
+      +C\,\mathcal Z_{N,Q}^{atom}(W)
+      +o_N(1).
+      \end{aligned}
+      \]
+
+      \[
+      A(t)=a(t)\operatorname{diag}(1,-1),
+      \qquad
+      a(t)=K\omega\cos(\omega t).
+      \]
+
+      \[
+      \int a(t)\,dt,
+      \]
+
+      The affine counterexample counts positive strain without a retained high packet that must survive parabolic heat dwell and same-fluid participation. The actual NS packet cannot teleport between positive phases for free.
+
+      It must route the weighted |W| Var W(sigma) term into Part, Field, Zeno, or parabolic-burst inheritance.
+
+      The material-source audit identifies this as the same signed positive-source balance obstruction carried by Weighted Lifted Skew Defect Legal.A: generic pressure/material-source estimates are circular, and time integration by parts feeds the term back into the localized strain-production source unless signed saturation, active-alignment depletion, tangent-weight rigidity, or donor depletion is installed.
+
+      This is the exact replacement for the false implication Pack Q=>Pack Gain record.A.
+
+      This is not the false accumulated-positive-strain claim. It is only a net-strain claim on a heat-dwell window. It should follow from the transported deformation equation plus frame/packet errors.
+
+      then Inverse Parabolic Burst.A forces a lower shell concentration. On a first-height run, this lower concentration is either inherited from the past, newly created by a height flux event, or belongs to the Zeno/participat
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Active Shell Amplitude Gain.A Final Collapse Note
+    line_start: 31159
+    line_end: 31193
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31159
+    start_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Final Collapse
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Completion
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Active Shell Amplitude Gain.A Final Collapse Note}
+
+      The target is not installed from the current energy, smoothness, pressure, or source-supplier surfaces. It is another spelling of active-shell source normalization.
+
+      \[
+      2^{-j}D_j(t)^2
+      \le
+      \varepsilon\nu D_j(t)+r_j(t),
+      \]
+
+      \[
+      \int_I\sum_{j\in active}r_j(t)\,dt
+      \le
+      C2^{-2\delta N}.
+      \]
+
+      Equivalently, using D j=2 2j E j, it is an active-window amplitude normalization strong enough to make the dissipation absorbable by the linear viscous term plus a summable reserve.
+
+      Original smooth data gives smoothness on every compact preterminal interval. It does not give a uniform bound on moving active shells along
+
+      \[
+      j\to\infty,
+      \qquad
+      t\uparrow T_\ast.
+      \]
+
+      Finite energy gives tail smallness in a global first-moment sense, not the pointwise heat-scale amplitude gain required on selected terminal active windows.
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t).
+      \]
+
+      Viscous damping gives the desired amplitude gain only if the nonlinear source cannot keep the shell active at the heat scale. So the proof must control the source term, prove a signed cancellation theorem, or supply a monotone drain that forbids source-balanced pulses.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Active Shell Amplitude Gain.A Completion Attempt
+    line_start: 31194
+    line_end: 31257
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31194
+    start_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Completion
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Active Square Carleson.A Direct Collapse
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Active Shell Amplitude Gain.A Completion Attempt}
+
+      Scope: Active Shell Amplitude Gain.A as one of the May 16 positive source-supplier entrances.
+
+      Active Shell Amplitude Gain.A is not proved unconditionally from the installed inputs.
+
+      The noncircular direct proof from Original Smooth Data fails at the same-carrier active-/source reserve. The exact surviving primitive for this local route is
+
+      At the May 16 global source-supplier boundary this is one presentation of the same source-pulse/positive-source wall whose smallest current forward-facing atom is Positive Remainder Depletion.A; the immediate ASAG collapse is the active- reserve, not the Zeno temporal anti-concentration branch.
+
+      \[
+      2^{-j}D_j(t)^2
+      \le
+      \varepsilon\nu D_j(t)+r_j(t)
+      \]
+
+      \[
+      \int_I\sum_{j\in active} r_j(t)\,dt
+      \le
+      C2^{-2\delta N}.
+      \]
+
+      Here \(D_j(t)=2^{2j}E_j(t)\) under the dyadic normalization used in this
+      appendix. The estimate is strong enough to pay the active upper tail and hence
+      to feed the source-normalization/no-pulse route.
+
+      \[
+      E_j'(t)+c\nu D_j(t)
+      \le
+      F_j(t)+L_j(t),
+      \]
+
+      \[
+      F_j(t)
+      \le
+      \theta\nu D_j(t)+R_j(t),
+      \qquad 0<\theta<c,
+      \]
+
+      \[
+      \int_I\sum_{j\in active} R_j(t)\,dt
+      +
+      \int_I\sum_{j\in active}2^{-j}R_j(t)^2\,dt
+      \le
+      C2^{-2\delta N}.
+      \]
+
+      Since \(D_j(t)=2^{2j}E_j(t)\), Duhamel on a heat-scale window gives damping of
+      inherited amplitude, while R j+L j is the only source of renewed active mass.
+      After multiplying by \(2^{2j}\) and applying
+
+      This is a real conditional proof. It is exactly the source-normalized route already recorded in the -source and active- notes.
+
+      The constants can be damped in a sequence to keep the global first-moment record finite while preserving failure along selected terminal windows. Thus the energy record cannot be upgraded into ASAG without a new source-reserve or temporal anti-concentration theorem.
+
+      Data-dependent fixed-shell bounds do not provide o N(1) scale-normalized control on the selected moving high shells.
+
+      The source-flux obstruction i
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Actual Synthesis: Height Flux Control and Class-Exit Architecture'
+    line_start: 31323
+    line_end: 31383
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31323
+    start_anchor: "\\subsection{Actual Synthesis: Height Flux Control and Class-Exit
+      Architecture}\n"
+    end_anchor: "\\subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Actual Synthesis: Height Flux Control and Class-Exit Architecture}
+
+      and collapsed as an independent target. Read every occurrence below as historical target selection unless explicitly restated by the live edge. The direct route now needs Height Flux Control.A with a real structural mechanism.
+
+      Purpose: compress the Navier-Stokes argument into the current shortest proof architecture and identify the theorem atoms that would actually move the project.
+
+      \[
+      R_N(W)
+      \sfcomp{29820}
+      \int_W
+      \sum_{k>N}
+      2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell(t)
+      \right)^2
+      dt.
+      \]
+
+      \[
+      T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+      \qquad
+      H_k(t)=2^kT_k(t),
+      \qquad
+      H_N(W)=\sup_{t\in W}\sup_{k>N}H_k(t).
+      \]
+
+      \[
+      R_N(W)\le H_N(W)\,M_N(W),
+      \]
+
+      Energy can make M N(W) small. A pulse can still survive if H N(W) becomes huge. So first-time reserve creation requires large donor height. It is not automatically first-time donor-height creation; the attempted first-height dichotomy is not independent and collapses back to the structural Height Flux Control.A problem.
+
+      \[
+      \int_W
+      \sup_{k>N}
+      \left[
+      2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+      \right]_+
+      dt.
+      \]
+
+      Scalar damping cannot prove it. Energy area cannot prove it. Absolute commutator bounds loop back to the source wall.
+
+      \[
+      |w_\ell|^2
+      \left[
+      e_\ell\cdot S_{<\ell}e_\ell
+      \right]_+.
+      \]
+
+      The terminal attempt shows this does not sit independently between Height Flux Control.A and Donor Height Creation.A; it is either tautological positive shell-flux accounting or it spends the same active-alignment / TPNI / retained-pack-gain / Zeno machinery. Move on from it as a headline target.
+
+      The signed-current route is tertiary until it proves a real cancellation principle.
+
+      This branch should receive fewer cycles than Height Flux Control.A until it produces a cancellation theorem that survives localization, saturation, lifted commutators, one-sided weights, and positive-part extraction.
+
+      Temporal non-atomicity must avoid hidden dependence on Scale Critical Tree Carleson.A.
+
+      Every cancell
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem After-ASAC Signed record Reduction
+    line_start: 31436
+    line_end: 31462
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31436
+    start_anchor: "\\subsection{Clay problem After-ASAC Signed record Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem After-ASAC Signed record Reduction}
+
+      The vague frontier item "After ASAC" is resolved into the exact post-ASAC signed-record theorem and the remaining atom.
+
+      After ASAC, prove that every selected positive terminal source-current edge is either paid or routed to the Zeno residue branch.
+
+      \[
+      e:P^-\to P,
+      \]
+
+      \[
+      J_{e^*}=-J_e.
+      \]
+
+      \[
+      [(W_P-W_{P^-})J_e]_+.
+      \]
+
+      If the partner is an internal same-fluid donor sink, attach its legal source-refill tree.
+
+      Assuming Zeno Source Residue Rigidity.A, the inherited Zeno source residue vanishes, contradicting the normalized positive source lower bound on the selected branch. So the Zeno internal donor sink is also paid.
+
+      Apply the edge trichotomy to every selected positive terminal source-current edge. Case 1 is paid by ASAC. Case 2 is paid by legal records. Case 3 is paid by donor-balance plus entrance decay unless it is Zeno, and the Zeno case is paid by Zeno Source Residue Rigidity.A. Bounded overlap lets the estimates sum over the retained terminal record.
+
+      This proves Terminal Positive Skew record.A, hence the post-ASAC form of Terminal Weighted NoFree Sink.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Alignment Decorrel.A Direct Attempt Note
+    line_start: 31463
+    line_end: 31516
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31463
+    start_anchor: "\\subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}
+
+      It would prevent the active shell direction from retaining terminal positive alignment with expanding eigendirections of the localized low/intermediate strain.
+
+      \[
+      \left[
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \right]_+
+      =
+      |w_j|^2
+      \left[
+      e_j\cdot S_{<j}^{loc}e_j
+      \right]_+
+      \]
+
+      \[
+      \boxed{
+      \sum_{P\in\mathcal F_N}
+      \int_{Q(P)}
+      |w_{j_P}|^2
+      \left[
+      e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}
+      \right]_+
+      \,dxdt
+      \le
+      o_N(1)+C\rho_{inst,N}(\mathcal F_N).
+      }
+      \]
+
+      Incompressibility gives tr S=0. This removes isotropic expansion but does not remove expanding eigendirections. A trace-free symmetric matrix in three dimensions can have positive eigenvalues, and the active shell direction may align with them on selected terminal packets.
+
+      Dyadic transport has signed exchange cancellation before terminal weights, cutoffs, same-fluid packet selection, and positive-part extraction. The alignment target asks for the positive part on the selected bad windows. A small signed integral does not imply a small positive part without a negative-part comparison or oscillation theorem, and no such theorem is installed.
+
+      Pressure Poisson recovery enforces incompressibility and controls elliptic response/cutoff records. It does not make the interior stretching carrier
+
+      \[
+      \omega\cdot S\omega
+      \qquad\text{or}\qquad
+      \langle S_{<j}^{loc}w_j,w_j\rangle
+      \]
+
+      Direction-field coherence, anti-Beltrami defects, and mixed-helicity defects can serve as sufficient depletion mechanisms if supplied. Current original-data inputs do not force arbitrary terminal same-fluid active packets into those coherence classes, nor do they give a terminal active-window direction modulus for the exact weighted positive source carrier.
+
+      Thus vorticity-direction, Beltrami/helical, and anti-coherence routes do not install Alignment Decorrel.A.
+
+      Same-fluid transport preserves the packet labels and carrier legality. It does not provide a mixing, angular dispersion, or eigendirection dec
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Ancestral.No Pulse Source-Rigidity Audit Note
+    line_start: 31517
+    line_end: 31537
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31517
+    start_anchor: "\\subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Ancestry Drain / Liouville Alternatives
+      Direct Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit Note}
+
+      Assume the missing parent-measure theorem has been installed. A surviving source-balanced bad pulse then generates a backward chain
+
+      \[
+      \cdots \to P^{-2}\to P^{-1}\to P^0
+      \]
+
+      \[
+      \gamma_\ast\,d\mu_\ast^\sigma\ne 0.
+      \]
+
+      That compactness statement is not a contradiction. It is exactly the object that Ancestral.No Pulse src must exclude.
+
+      The local energy inequality is one-sided and forward-dissipative. It controls the cost of a packet over a finite backward cylinder after rescaling, but it does not supply a monotone quantity that must strictly decrease at every parent step. So an infinite ancestry chain can, in principle, move through shrinking or translating packets while spending only summable local cost.
+
+      Nor does the current same-fluid label law imply that the nonlinear source residue vanishes in the ancient limit. The residue is not an external force to be discarded; it is the inherited active part of the Navier-Stokes nonlinearity seen by the source readout.
+
+      Then infinite ancestry is impossible by finite reserve. This would replace the need for a separate ancient Liouville theorem, but it is stronger than the installed energy, mixed-boundary, and pulse-charge records. Those records were
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Ancestry Drain / Liouville Alternatives Direct
+      Audit Note
+    line_start: 31538
+    line_end: 31558
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31538
+    start_anchor: "\\subsection{Clay problem Ancestry Drain / Liouville Alternatives
+      Direct Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Ancestry Compact Bound / Source Residue
+      Liouville Direct Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Ancestry Drain / Liouville Alternatives Direct Audit Note}
+
+      The drain theorem would say that every legal source-parent step either spends a fixed positive amount of a finite route reserve or strictly improves a bounded terminal charge. Then an infinite same-fluid ancestry chain is impossible.
+
+      The installed reserves do not prove this. Energy dissipation is first-moment control, not a price for every scale-normalized source-balanced step. The mixed-boundary and active- reserves were already tested in the pulse-charge and active- audits and do not price a terminal pulse whose nonlinear source refills the active shell. The source-parent axioms themselves also leave loss/charge as a theorem requirement, not an installed fact.
+
+      Here $\mathcal B$ denotes one of the rigid classes available to the Liouville
+      alternative: bounded ancient, Type I, critical-small, self-similar,
+      two-dimensional, axisymmetric, or an equivalent rigidity class.
+
+      \[
+      \mathcal B
+      \Longrightarrow
+      \gamma_\ast\,d\mu_\ast^\sigma=0.
+      \]
+
+      The installed compactness machinery gives local suitable limits after the source-residue packet is localized. It does not provide a global bounded ancient hypothesis, Type I control, critical smallness, self-similarity, axisymmetry, or a theorem that the inherited source residue vanishes. The ancient limit is precisely allowed to carry the active source residue unless a new rigidity theorem excludes it.
+
+      The drain and Liouville alternatives are not consequences of the installed energy, local-energy, compactness, same-fluid geometry, or source-supplier surfaces.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Active Height Flux Trichotomy.A Route}
+
+    Purpose: refine the current Height Flux Control.A wall into a theorem that uses the whole CM witness architecture instead of trying to prove a scalar positive source estimate in isolation.
+
+    \[
+    \int_W
+    \sup_{k>N}
+    \left[
+    2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+    \right]_+dt.
+    \]
+
+    \[
+    |w_\ell|^2
+    \left[
+    e_\ell\cdot S^{loc}_{<\ell}e_\ell
+    \right]_+.
+    \]
+
+    \[
+    \begin{aligned}
+    \int_W
+    \sup_{k>N}
+    \left[
+    2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+    \right]_+dt
+    &\le
+    C\,\mathcal P_Q^{gain}(W)
+    +C\,\mathcal P_{N,Q}^{part}(W)\\
+    &\quad
+    +C\,\mathcal L_{N,Q}^{field}(W)
+    +C\,\mathcal Z_{N,Q}^{atom}(W)
+    +o_N(1).
+    \end{aligned}
+    \]
+
+    \[
+    A(t)=a(t)\operatorname{diag}(1,-1),
+    \qquad
+    a(t)=K\omega\cos(\omega t).
+    \]
+
+    \[
+    \int a(t)\,dt,
+    \]
+
+    The affine counterexample counts positive strain without a retained high packet that must survive parabolic heat dwell and same-fluid participation. The actual NS packet cannot teleport between positive phases for free.
+
+    It must route the weighted |W| Var W(sigma) term into Part, Field, Zeno, or parabolic-burst inheritance.
+
+    The material-source audit identifies this as the same signed positive-source balance obstruction carried by Weighted Lifted Skew Defect Legal.A: generic pressure/material-source estimates are circular, and time integration by parts feeds the term back into the localized strain-production source unless signed saturation, active-alignment depletion, tangent-weight rigidity, or donor depletion is installed.
+
+    This is the exact replacement for the false implication Pack Q=>Pack Gain record.A.
+
+    This is not the false accumulated-positive-strain claim. It is only a net-strain claim on a heat-dwell window. It should follow from the transported deformation equation plus frame/packet errors.
+
+    then Inverse Parabolic Burst.A forces a lower shell concentration. On a first-height run, this lower concentration is either inherited from the past, newly created by a height flux event, or belongs to the Zeno/participation failure side. Hence the bad coefficient set is not a scalar obstruction; it is another input to the same trichotomy.
+
+    It must prove terminal atom exclusion without importing Heat Scale Square Source.A, because that route is equivalent to the direct source wall.
+
+    This is consistent with the geometric depletion literature. Constantin and Fefferman's vorticity-direction criterion, Deng--Hou--Yu's vortex-filament geometry, and later anisotropic-diffusion scenarios all point to the same broad principle: violent stretching must either carry coherent geometry or pay a
+
+    Constantin--Fefferman, *Direction of Vorticity and the Problem of Global Regularity for the Navier-Stokes Equations*, Indiana Univ. Math. J. 42 (1993), 775--789. Grujic, *Vortex stretching and anisotropic diffusion in the 3D Navier-Stokes equations*, ar Xiv:1405.3498.
+
+    Active Height Flux Trichotomy.A is the strongest next architecture because it is the first target that can lawfully spend all three CM faces plus the Zeno alternate. It does not pretend to prove a positive source estimate from scalar energy. It says positive source creation has to show up somewhere in the class-exit grammar.
+
+
+
+    \subsection{Clay problem Active Shell Amplitude Gain.A Final Collapse Note}
+
+    The target is not installed from the current energy, smoothness, pressure, or source-supplier surfaces. It is another spelling of active-shell source normalization.
+
+    \[
+    2^{-j}D_j(t)^2
+    \le
+    \varepsilon\nu D_j(t)+r_j(t),
+    \]
+
+    \[
+    \int_I\sum_{j\in active}r_j(t)\,dt
+    \le
+    C2^{-2\delta N}.
+    \]
+
+    Equivalently, using D j=2 2j E j, it is an active-window amplitude normalization strong enough to make the dissipation absorbable by the linear viscous term plus a summable reserve.
+
+    Original smooth data gives smoothness on every compact preterminal interval. It does not give a uniform bound on moving active shells along
+
+    \[
+    j\to\infty,
+    \qquad
+    t\uparrow T_\ast.
+    \]
+
+    Finite energy gives tail smallness in a global first-moment sense, not the pointwise heat-scale amplitude gain required on selected terminal active windows.
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t).
+    \]
+
+    Viscous damping gives the desired amplitude gain only if the nonlinear source cannot keep the shell active at the heat scale. So the proof must control the source term, prove a signed cancellation theorem, or supply a monotone drain that forbids source-balanced pulses.
+
+
+
+    \subsection{Clay problem Active Shell Amplitude Gain.A Completion Attempt}
+
+    Scope: Active Shell Amplitude Gain.A as one of the May 16 positive source-supplier entrances.
+
+    Active Shell Amplitude Gain.A is not proved unconditionally from the installed inputs.
+
+    The noncircular direct proof from Original Smooth Data fails at the same-carrier active-/source reserve. The exact surviving primitive for this local route is
+
+    At the May 16 global source-supplier boundary this is one presentation of the same source-pulse/positive-source wall whose smallest current forward-facing atom is Positive Remainder Depletion.A; the immediate ASAG collapse is the active- reserve, not the Zeno temporal anti-concentration branch.
+
+    \[
+    2^{-j}D_j(t)^2
+    \le
+    \varepsilon\nu D_j(t)+r_j(t)
+    \]
+
+    \[
+    \int_I\sum_{j\in active} r_j(t)\,dt
+    \le
+    C2^{-2\delta N}.
+    \]
+
+    Here \(D_j(t)=2^{2j}E_j(t)\) under the dyadic normalization used in this
+    appendix. The estimate is strong enough to pay the active upper tail and hence
+    to feed the source-normalization/no-pulse route.
+
+    \[
+    E_j'(t)+c\nu D_j(t)
+    \le
+    F_j(t)+L_j(t),
+    \]
+
+    \[
+    F_j(t)
+    \le
+    \theta\nu D_j(t)+R_j(t),
+    \qquad 0<\theta<c,
+    \]
+
+    \[
+    \int_I\sum_{j\in active} R_j(t)\,dt
+    +
+    \int_I\sum_{j\in active}2^{-j}R_j(t)^2\,dt
+    \le
+    C2^{-2\delta N}.
+    \]
+
+    Since \(D_j(t)=2^{2j}E_j(t)\), Duhamel on a heat-scale window gives damping of
+    inherited amplitude, while R j+L j is the only source of renewed active mass.
+    After multiplying by \(2^{2j}\) and applying
+
+    This is a real conditional proof. It is exactly the source-normalized route already recorded in the -source and active- notes.
+
+    The constants can be damped in a sequence to keep the global first-moment record finite while preserving failure along selected terminal windows. Thus the energy record cannot be upgraded into ASAG without a new source-reserve or temporal anti-concentration theorem.
+
+    Data-dependent fixed-shell bounds do not provide o N(1) scale-normalized control on the selected moving high shells.
+
+    The source-flux obstruction is sharper. For a smooth finite-mode divergence-free profile with nonzero shell flux, amplitude scaling gives
+
+    So a universal -source estimate cannot be obtained from smoothness alone. For the fixed-data terminal theorem, the same obstruction appears as absence of a scale-normalized active-window source theorem.
+
+    does not force amplitude decay. Excluding that balance is precisely Active Shell Source Normalize.A or Square Source Estimate.A; using it here would be circular.
+
+
+
+    \subsection{Actual Synthesis: Height Flux Control and Class-Exit Architecture}
+
+    and collapsed as an independent target. Read every occurrence below as historical target selection unless explicitly restated by the live edge. The direct route now needs Height Flux Control.A with a real structural mechanism.
+
+    Purpose: compress the Navier-Stokes argument into the current shortest proof architecture and identify the theorem atoms that would actually move the project.
+
+    \[
+    R_N(W)
+    \sfcomp{29820}
+    \int_W
+    \sum_{k>N}
+    2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2
+    dt.
+    \]
+
+    \[
+    T_k(t)=\sum_{\ell>k+4}D_\ell(t),
+    \qquad
+    H_k(t)=2^kT_k(t),
+    \qquad
+    H_N(W)=\sup_{t\in W}\sup_{k>N}H_k(t).
+    \]
+
+    \[
+    R_N(W)\le H_N(W)\,M_N(W),
+    \]
+
+    Energy can make M N(W) small. A pulse can still survive if H N(W) becomes huge. So first-time reserve creation requires large donor height. It is not automatically first-time donor-height creation; the attempted first-height dichotomy is not independent and collapses back to the structural Height Flux Control.A problem.
+
+    \[
+    \int_W
+    \sup_{k>N}
+    \left[
+    2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
+    \right]_+
+    dt.
+    \]
+
+    Scalar damping cannot prove it. Energy area cannot prove it. Absolute commutator bounds loop back to the source wall.
+
+    \[
+    |w_\ell|^2
+    \left[
+    e_\ell\cdot S_{<\ell}e_\ell
+    \right]_+.
+    \]
+
+    The terminal attempt shows this does not sit independently between Height Flux Control.A and Donor Height Creation.A; it is either tautological positive shell-flux accounting or it spends the same active-alignment / TPNI / retained-pack-gain / Zeno machinery. Move on from it as a headline target.
+
+    The signed-current route is tertiary until it proves a real cancellation principle.
+
+    This branch should receive fewer cycles than Height Flux Control.A until it produces a cancellation theorem that survives localization, saturation, lifted commutators, one-sided weights, and positive-part extraction.
+
+    Temporal non-atomicity must avoid hidden dependence on Scale Critical Tree Carleson.A.
+
+    Every cancellation theorem must survive localization, saturation, and one-sided weights.
+
+
+
+    \subsection{Clay problem After-ASAC Signed record Reduction}
+
+    The vague frontier item "After ASAC" is resolved into the exact post-ASAC signed-record theorem and the remaining atom.
+
+    After ASAC, prove that every selected positive terminal source-current edge is either paid or routed to the Zeno residue branch.
+
+    \[
+    e:P^-\to P,
+    \]
+
+    \[
+    J_{e^*}=-J_e.
+    \]
+
+    \[
+    [(W_P-W_{P^-})J_e]_+.
+    \]
+
+    If the partner is an internal same-fluid donor sink, attach its legal source-refill tree.
+
+    Assuming Zeno Source Residue Rigidity.A, the inherited Zeno source residue vanishes, contradicting the normalized positive source lower bound on the selected branch. So the Zeno internal donor sink is also paid.
+
+    Apply the edge trichotomy to every selected positive terminal source-current edge. Case 1 is paid by ASAC. Case 2 is paid by legal records. Case 3 is paid by donor-balance plus entrance decay unless it is Zeno, and the Zeno case is paid by Zeno Source Residue Rigidity.A. Bounded overlap lets the estimates sum over the retained terminal record.
+
+    This proves Terminal Positive Skew record.A, hence the post-ASAC form of Terminal Weighted NoFree Sink.A.
+
+
+
+    \subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}
+
+    It would prevent the active shell direction from retaining terminal positive alignment with expanding eigendirections of the localized low/intermediate strain.
+
+    \[
+    \left[
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \right]_+
+    =
+    |w_j|^2
+    \left[
+    e_j\cdot S_{<j}^{loc}e_j
+    \right]_+
+    \]
+
+    \[
+    \boxed{
+    \sum_{P\in\mathcal F_N}
+    \int_{Q(P)}
+    |w_{j_P}|^2
+    \left[
+    e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}
+    \right]_+
+    \,dxdt
+    \le
+    o_N(1)+C\rho_{inst,N}(\mathcal F_N).
+    }
+    \]
+
+    Incompressibility gives tr S=0. This removes isotropic expansion but does not remove expanding eigendirections. A trace-free symmetric matrix in three dimensions can have positive eigenvalues, and the active shell direction may align with them on selected terminal packets.
+
+    Dyadic transport has signed exchange cancellation before terminal weights, cutoffs, same-fluid packet selection, and positive-part extraction. The alignment target asks for the positive part on the selected bad windows. A small signed integral does not imply a small positive part without a negative-part comparison or oscillation theorem, and no such theorem is installed.
+
+    Pressure Poisson recovery enforces incompressibility and controls elliptic response/cutoff records. It does not make the interior stretching carrier
+
+    \[
+    \omega\cdot S\omega
+    \qquad\text{or}\qquad
+    \langle S_{<j}^{loc}w_j,w_j\rangle
+    \]
+
+    Direction-field coherence, anti-Beltrami defects, and mixed-helicity defects can serve as sufficient depletion mechanisms if supplied. Current original-data inputs do not force arbitrary terminal same-fluid active packets into those coherence classes, nor do they give a terminal active-window direction modulus for the exact weighted positive source carrier.
+
+    Thus vorticity-direction, Beltrami/helical, and anti-coherence routes do not install Alignment Decorrel.A.
+
+    Same-fluid transport preserves the packet labels and carrier legality. It does not provide a mixing, angular dispersion, or eigendirection decorrelation rate for e j relative to S <j loc on the selected packet.
+
+    Thus same-fluid transport is a license layer, not a supplier of Alignment Decorrel.A.
+
+    At current route resolution this face is the same analytic wall as Positive Strain Decorrelation.A, Terminal Source Coherence.A, Eigen Decorrel.A, Signed Positive Balance.A, Local Pressure Strain Deplete.A, Active Vorticity Coherence.A, and Anti Beltrami Carleson.A.
+
+    Alignment Decorrel.A is not an independent discharge of Native Trilinear Defect Domination.A. It closes only if a genuine terminal coherence/decorrelation theorem is proved in the native positive active source topology.
+
+
+
+    \subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit Note}
+
+    Assume the missing parent-measure theorem has been installed. A surviving source-balanced bad pulse then generates a backward chain
+
+    \[
+    \cdots \to P^{-2}\to P^{-1}\to P^0
+    \]
+
+    \[
+    \gamma_\ast\,d\mu_\ast^\sigma\ne 0.
+    \]
+
+    That compactness statement is not a contradiction. It is exactly the object that Ancestral.No Pulse src must exclude.
+
+    The local energy inequality is one-sided and forward-dissipative. It controls the cost of a packet over a finite backward cylinder after rescaling, but it does not supply a monotone quantity that must strictly decrease at every parent step. So an infinite ancestry chain can, in principle, move through shrinking or translating packets while spending only summable local cost.
+
+    Nor does the current same-fluid label law imply that the nonlinear source residue vanishes in the ancient limit. The residue is not an external force to be discarded; it is the inherited active part of the Navier-Stokes nonlinearity seen by the source readout.
+
+    Then infinite ancestry is impossible by finite reserve. This would replace the need for a separate ancient Liouville theorem, but it is stronger than the installed energy, mixed-boundary, and pulse-charge records. Those records were
+
+
+
+    \subsection{Clay problem Ancestry Drain / Liouville Alternatives Direct Audit Note}
+
+    The drain theorem would say that every legal source-parent step either spends a fixed positive amount of a finite route reserve or strictly improves a bounded terminal charge. Then an infinite same-fluid ancestry chain is impossible.
+
+    The installed reserves do not prove this. Energy dissipation is first-moment control, not a price for every scale-normalized source-balanced step. The mixed-boundary and active- reserves were already tested in the pulse-charge and active- audits and do not price a terminal pulse whose nonlinear source refills the active shell. The source-parent axioms themselves also leave loss/charge as a theorem requirement, not an installed fact.
+
+    Here $\mathcal B$ denotes one of the rigid classes available to the Liouville
+    alternative: bounded ancient, Type I, critical-small, self-similar,
+    two-dimensional, axisymmetric, or an equivalent rigidity class.
+
+    \[
+    \mathcal B
+    \Longrightarrow
+    \gamma_\ast\,d\mu_\ast^\sigma=0.
+    \]
+
+    The installed compactness machinery gives local suitable limits after the source-residue packet is localized. It does not provide a global bounded ancient hypothesis, Type I control, critical smallness, self-similarity, axisymmetry, or a theorem that the inherited source residue vanishes. The ancient limit is precisely allowed to carry the active source residue unless a new rigidity theorem excludes it.
+
+    The drain and Liouville alternatives are not consequences of the installed energy, local-energy, compactness, same-fluid geometry, or source-supplier surfaces.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Active Height Flux Trichotomy.A Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30928
+  line_start: 30928
+  line_end: 30994
+  start_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Route}\n"
+  end_anchor: "\\subsection{Active Shell Amplitude Gain FromNS.A Expansion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Active Height Flux
+    Trichotomy.A Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30928
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Active Shell Amplitude Gain.A Final Collapse Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31159
+  line_start: 31159
+  line_end: 31193
+  start_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Final Collapse
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Completion
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Active Shell Amplitude
+    Gain.A Final Collapse Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31159
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Active Shell Amplitude Gain.A Completion Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31194
+  line_start: 31194
+  line_end: 31257
+  start_anchor: "\\subsection{Clay problem Active Shell Amplitude Gain.A Completion
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Active Square Carleson.A Direct Collapse
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Active Shell Amplitude
+    Gain.A Completion Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31194
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Actual Synthesis: Height Flux Control and Class-Exit Architecture'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31323
+  line_start: 31323
+  line_end: 31383
+  start_anchor: "\\subsection{Actual Synthesis: Height Flux Control and Class-Exit
+    Architecture}\n"
+  end_anchor: "\\subsection{Clay problem Adj Bessel Strain-Gauge Packet Calculus Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Actual Synthesis: Height Flux
+    Control and Class-Exit Architecture as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31323
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem After-ASAC Signed record Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31436
+  line_start: 31436
+  line_end: 31462
+  start_anchor: "\\subsection{Clay problem After-ASAC Signed record Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem After-ASAC Signed
+    record Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31436
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Alignment Decorrel.A Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31463
+  line_start: 31463
+  line_end: 31516
+  start_anchor: "\\subsection{Clay problem Alignment Decorrel.A Direct Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Alignment Decorrel.A
+    Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31463
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Ancestral.No Pulse Source-Rigidity Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31517
+  line_start: 31517
+  line_end: 31537
+  start_anchor: "\\subsection{Clay problem Ancestral.No Pulse Source-Rigidity Audit
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Ancestry Drain / Liouville Alternatives Direct
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Ancestral.No Pulse
+    Source-Rigidity Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31517
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Ancestry Drain / Liouville Alternatives Direct Audit
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31538
+  line_start: 31538
+  line_end: 31558
+  start_anchor: "\\subsection{Clay problem Ancestry Drain / Liouville Alternatives
+    Direct Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Ancestry Compact Bound / Source Residue Liouville
+    Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Ancestry Drain /
+    Liouville Alternatives Direct Audit Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31538
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-09
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-09.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,1088 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-scale-tail-and-lifted-band-05
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-05
+  sequence: 30
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 5
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 9705
+  line_end: 11253
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9705
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10826
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10883
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10936
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10969
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11011
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11057
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11202
+  subsection_titles:
+  - High-Frequency Enstrophy Implies H 1 Lemma
+  - Lifted-Band Coarse-Grained Stress-Strain Flux Inequality
+  - Lifted-Band Collar-Class Reduction Lemma
+  - Lifted-Band Descent-Coboundary To L-Flux Theorem
+  - Lifted-Band Gain to MSI Bridge
+  - Lifted-Band Mesoscopic Residual Reduction Lemma
+  - Lifted-Band Upper-Boundary Packet
+  - Lifted Packet Signed Continuous-Scale Translation
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: High-Frequency Enstrophy Implies H 1 Lemma
+    line_start: 9705
+    line_end: 9738
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9705
+    start_anchor: "\\subsection{High-Frequency Enstrophy Implies H 1 Lemma}\n"
+    end_anchor: "\\subsection{Holonomy-Refinement Projector Spectral Realization Theorem}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{High-Frequency Enstrophy Implies H 1 Lemma}
+
+      This final step is elementary and closed.  It turns bounded high-frequency
+      enstrophy into the full \(H^1\) continuation norm.
+
+      \[
+      E_N(t):=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \sup_{0\le t<T}\|u(t)\|_{L_x^2}\le M.
+      \]
+
+      \[
+      \sup_{0\le t<T}E_N(t)<\infty,
+      \]
+
+      \[
+      \sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty.
+      \]
+
+      \[
+      \|\nabla u(t)\|_{L_x^2}^2
+      \le
+      C_N\|u(t)\|_{L_x^2}^2 + E_N(t)
+      \]
+
+      because the low-frequency part has only finitely many shells below the fixed
+      threshold \(N\).  Thus once the gradient-transfer bridge gives
+      \(\sup_{t<T}E_N(t)<\infty\), the full \(H^1\) continuation norm is bounded.
+      This lemma removes the soft frequency-completion gap; it does not pay the
+      lifted remainder or HFG production gap upstream.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Coarse-Grained Stress-Strain Flux Inequality
+    line_start: 10826
+    line_end: 10882
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10826
+    start_anchor: "\\subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}\n"
+    end_anchor: "\\subsection{Lifted-Band Collar-Class Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}
+
+      The return from bridge internals to the live Euclidean obstruction starts with
+      the lifted high-side remainder. Its useful form is one mesoscopic
+      stress-strain flux object, rather than many independent shell estimates.
+
+      \[
+      \mathcal J_N^{lift}(t)
+      :=
+      \sum_{j\ge N}
+      2^{2j}
+      \left\langle
+      [\Delta_j,(S_{j-4}-S_{N+M})u(t)\cdot\nabla]\Delta_j u(t),
+      \Delta_j u(t)
+      \right\rangle.
+      \]
+
+      \[
+      u_j := \Delta_j u,
+      \qquad
+      b_j := (S_{j-4}-S_{N+M})u.
+      \]
+
+      \[
+      u_j = \eta_j * u_j
+      =
+      \int_{\mathbb R^3}\eta_j(a)\,\delta_a u_j\,da,
+      \qquad
+      \delta_a f(x):=f(x-a)-f(x).
+      \]
+
+      \[
+      \tau_j^{H^1}[u](x,t)
+      :=
+      2^{2j}
+      \int_{\mathbb R^3}|\eta_j(a)|\,|\delta_a u_j(x,t)|^2\,da.
+      \]
+
+      \[
+      2^{2j}|u_j(x,t)|^2 \le C_{\mathrm{sf},10744} \tau_j^{H^1}[u](x,t).
+      \]
+
+      Unfolding the commutator kernels turns the shell expression into a localized
+      stress-strain flux, in model form
+
+      \[
+      |\mathcal J_N^{lift}(t)|
+      \le C_{\mathrm{sf},10752}
+      \Pi_N^{lift}(t),
+      \]
+
+      where \(\Pi_N^{lift}\) is built from the mesoscopic transport band and
+      \(\tau_j^{H^1}[u]\). This is a proved reduction of the proof object, not the
+      final barrier bound. The remaining analytic theorem is to control the resulting
+      mesoscopic flux at the barrier scale.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Collar-Class Reduction Lemma
+    line_start: 10883
+    line_end: 10935
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10883
+    start_anchor: "\\subsection{Lifted-Band Collar-Class Reduction Lemma}\n"
+    end_anchor: "\\subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Collar-Class Reduction Lemma}
+
+      The signed continuous-scale version of the lifted packet separates collar
+      bookkeeping from the genuine large-gap problem.
+
+      \[
+      P_{\le \ell} := \varphi(\ell D),
+      \qquad
+      Q_\ell := -\,\ell\partial_\ell P_{\le \ell},
+      \qquad
+      s:=\log \ell.
+      \]
+
+      \[
+      b_\ell^{meso} := P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+      \]
+
+      \[
+      \mathfrak c_\ell(t)
+      :=
+      \ell^{-2}
+      \left\langle
+      [Q_\ell,b_\ell^{meso}\!\cdot\nabla]u,\,
+      Q_\ell u
+      \right\rangle.
+      \]
+
+      \[
+      \mathfrak c
+      =
+      -\partial_s\Psi
+      + \mathcal S^{spill}
+      + \mathcal W,
+      \]
+
+      The lower transition collar is finite-width:
+
+      \[
+      \mathcal T^{lower\text{-}collar}_{N+M}
+      :=
+      \sum_{|m-(N+M)|\le C}\mathcal T_m
+      \]
+
+      Inside that collar, smooth multipliers may be replaced by a bounded family of
+      reference cutoffs. The difference is a bounded-gap perturbation and belongs to
+      the accepted collar class. The same-scale spill term is also supported at the
+      edge scale and reduces to a fixed same-scale packet plus a collar error.
+
+      The status is closed as a reduction. The lower collar and same-scale spill no
+      longer carry independent theorem debt on this route. The signed route is
+      narrowed to one upper boundary term and one interior residual class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Descent-Coboundary To L-Flux Theorem
+    line_start: 10936
+    line_end: 10968
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10936
+    start_anchor: "\\subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}\n"
+    end_anchor: "\\subsection{Lifted-Band Gain to MSI Bridge}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}
+
+      The mismatch/cocycle language has proof value only at the signed flux level.
+      Once absolute values and shellwise positive majorants are introduced, the
+      exactness information has already been discarded.
+
+      \[
+      \ell_N := c\,2^{-N},
+      \qquad
+      Z_N := (0,\ell_N]_\ell \times \mathbb R^3_x \times [0,T]_t.
+      \]
+
+      \[
+      \text{refinement-transport mismatch}
+      \quad\leadsto\quad
+      \Sigma_\ell^{meso}.
+      \]
+
+      \[
+      \Sigma_\ell^{meso}\,\tau_\ell^{H^1}[u]
+      =
+      d_{s,x,t}\Psi + E.
+      \]
+
+      Here \(E\) is the nonexact remainder, and the application requires \(E\) to be
+      barrier-sized. Under that hypothesis, integration by parts telescopes the flux
+      into boundary, divergence, time-derivative, and controlled tail terms.
+
+      The status is conditional support. This note gives the mechanism by which
+      descent-coboundary exactness can imply the lifted-band flux estimate; it does
+      not prove that the already positivized flux measure retains that exactness.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Gain to MSI Bridge
+    line_start: 10969
+    line_end: 11010
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10969
+    start_anchor: "\\subsection{Lifted-Band Gain to MSI Bridge}\n"
+    end_anchor: "\\subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Gain to MSI Bridge}
+
+      The lifted-band frontier has been narrowed to one gap above the intermediate
+      transport band
+
+      \[
+      N+M<k<j-4.
+      \]
+
+      \[
+      \sum_{j\ge N}\sum_{N+M<k<j-4}
+      2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
+      \|\nabla \Delta_j u^{(n)}\|_{L^2_x}\,
+      \|\Delta_j u^{(n)}\|_{L^2_x}.
+      \]
+
+      Here \((\mathrm{SDS}^\sharp)\) is the installed frontier theorem,
+      \((\mathrm{NE}^\sharp)\) is the first direct bilinear endpoint,
+      \((\mathrm{UTKD}^\sharp)\) is the upper-tail weighted estimate,
+      \((\mathrm{PCI}^\sharp)\) is the paired carrier bound obtained from
+      \((\mathrm{UTKD}^\sharp)\) and \(L_t^2H_x^1\), and
+      \((\mathrm{MSI}^\sharp)\) is the swapped lifted-band remainder theorem.
+
+      \[
+      \begin{aligned}
+      &\text{(SDS}^\sharp\text{)}
+      \Longrightarrow \text{(NE}^\sharp\text{)}
+      \Longrightarrow \text{(UTKD}^\sharp\text{)}\\
+      &\quad\Longrightarrow \text{(PCI}^\sharp\text{)}
+      \Longrightarrow \text{(MSI}^\sharp\text{)}\\
+      &\quad\Longrightarrow \text{lifted high-side remainder closure}
+      \Longrightarrow \text{Proposition }6.1^\sharp .
+      \end{aligned}
+      \]
+
+      The gap kernel and the direct bilinear endpoint are explicit. The missing
+      frontier theorem is \((\mathrm{SDS}^\sharp)\), with the weighted one-sided
+      enstrophy-tail flux identity as the sharpest current mechanism candidate.
+      This is not a new family of open estimates; it is one named bridge between the
+      support-level kernel and the desired \((\mathrm{MSI}^\sharp)\) remainder.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Mesoscopic Residual Reduction Lemma
+    line_start: 11011
+    line_end: 11056
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11011
+    start_anchor: "\\subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}\n"
+    end_anchor: "\\subsection{Lifted-Band Upper-Boundary Packet}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}
+
+      After the collar reduction, the interior term is no longer an undefined
+      remainder. It is one localized middle-band flux object.
+
+      \[
+      \mathfrak c_\ell
+      =
+      (\ell\partial_\ell)\Psi_\ell
+      + \mathcal S_\ell^{spill}
+      + \mathcal W_\ell.
+      \]
+
+      \[
+      \mathcal W
+      =
+      \mathcal W^{trans}
+      + \mathcal W^{prof},
+      \]
+
+      \(\mathcal W^{prof}\) comes only from differentiating scalar weights and smooth
+      multiplier profiles. These pieces are folded into a modified primitive
+
+      \[
+      \widetilde\Psi := \Psi + \Psi^{prof},
+      \]
+
+      up to admissible collar errors. The transpose term has the same scalarized
+      commutator geometry as the original signed density: an edge-scale commutator
+      output paired with a band-pass test factor. Its target bound is
+
+      \[
+      \left|
+      \int \mathcal R^{flux}_{mid}(s,t)\,ds
+      \right|
+      \le C_{\mathrm{sf},10925}
+      \Pi_N^{mid}(t),
+      \qquad
+      \Pi_N^{mid}\sfcomp{10939}
+      \int \Sigma_\ell^{meso}\tau_\ell^{H^1}[u]\,d\ell .
+      \]
+
+      The reduction to that middle-band flux object is proved here. The barrier
+      estimate for \(\Pi_N^{mid}\) remains the separate analytic burden.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted-Band Upper-Boundary Packet
+    line_start: 11057
+    line_end: 11081
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11057
+    start_anchor: "\\subsection{Lifted-Band Upper-Boundary Packet}\n"
+    end_anchor: "\\subsection{Lifted Carrier Energy Absorption Result}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted-Band Upper-Boundary Packet}
+
+      The upper boundary is the remaining boundary term after lower-collar and
+      same-scale spill have been reabsorbed into accepted packet classes.
+
+      \[
+      \mathfrak B_N^{upper}
+      \quad\text{is supported where}\quad
+      \ell\sfcomp{10955} 2^{-N}.
+      \]
+
+      The needed estimate is a finite same-scale edge estimate:
+
+      \[
+      |\mathfrak B_N^{upper}(t)|
+      \le C_{\mathrm{sf},10951}
+      \widetilde\Lambda_N^\sharp(t)E_N(t)
+      \quad
+      \text{up to accepted collar errors.}
+      \]
+
+      This is an exact localization of the boundary burden. It does not identify the
+      far-corona estimate, which is a separate large-gap packet.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lifted Packet Signed Continuous-Scale Translation
+    line_start: 11202
+    line_end: 11253
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11202
+    start_anchor: "\\subsection{Lifted Packet Signed Continuous-Scale Translation}\n"
+    end_anchor: "\\subsection{Lifted Packet Three-Piece Closure Program}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Lifted Packet Signed Continuous-Scale Translation}
+
+      \[
+      \mathfrak H_N^{\mathrm{grad,lift}}[u](t)
+      :=
+      \sum_{j\ge N}2^{2j}\big|\mathcal C_j^{lift}(t)\big|
+      \]
+
+      The dyadic shell sum records the right support geometry, but it is the wrong
+      proof language for cancellation. The signed commutator channel has to be formed
+      before absolute values and shellwise positive majorants erase the refinement
+      structure.
+
+      \[
+      b_j^{lift}
+      :=
+      (S_{j-4}-S_{N+M})u,
+      \]
+
+      \[
+      N+M < k < j-4.
+      \]
+
+      \[
+      P_{\le \ell}:=\varphi(\ell D),
+      \qquad
+      Q_\ell:=-\,\ell\partial_\ell P_{\le \ell},
+      \qquad
+      u_\ell:=Q_\ell u.
+      \]
+
+      At active shell \(j\), the relevant physical scale is \(2^{-j}\). The
+      transport shells \(k\) are lower frequencies, hence larger scales. The same
+      geometry becomes the mesoscopic band
+
+      \[
+      b_\ell^{meso}
+      :=
+      P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+      \]
+
+      The translation preserves the lifted-packet geometry and moves the live theorem
+      from a one-scale shell carrier to the coupled two-scale density. The remaining
+      object is the pair
+
+      \[
+      \mathfrak B_N^{upper},
+      \qquad
+      \Pi_N^{mid,far,L}.
+      \]
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{High-Frequency Enstrophy Implies H 1 Lemma}
+
+    This final step is elementary and closed.  It turns bounded high-frequency
+    enstrophy into the full \(H^1\) continuation norm.
+
+    \[
+    E_N(t):=\sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \sup_{0\le t<T}\|u(t)\|_{L_x^2}\le M.
+    \]
+
+    \[
+    \sup_{0\le t<T}E_N(t)<\infty,
+    \]
+
+    \[
+    \sup_{0\le t<T}\|\nabla u(t)\|_{L_x^2}<\infty.
+    \]
+
+    \[
+    \|\nabla u(t)\|_{L_x^2}^2
+    \le
+    C_N\|u(t)\|_{L_x^2}^2 + E_N(t)
+    \]
+
+    because the low-frequency part has only finitely many shells below the fixed
+    threshold \(N\).  Thus once the gradient-transfer bridge gives
+    \(\sup_{t<T}E_N(t)<\infty\), the full \(H^1\) continuation norm is bounded.
+    This lemma removes the soft frequency-completion gap; it does not pay the
+    lifted remainder or HFG production gap upstream.
+
+
+
+    \subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}
+
+    The return from bridge internals to the live Euclidean obstruction starts with
+    the lifted high-side remainder. Its useful form is one mesoscopic
+    stress-strain flux object, rather than many independent shell estimates.
+
+    \[
+    \mathcal J_N^{lift}(t)
+    :=
+    \sum_{j\ge N}
+    2^{2j}
+    \left\langle
+    [\Delta_j,(S_{j-4}-S_{N+M})u(t)\cdot\nabla]\Delta_j u(t),
+    \Delta_j u(t)
+    \right\rangle.
+    \]
+
+    \[
+    u_j := \Delta_j u,
+    \qquad
+    b_j := (S_{j-4}-S_{N+M})u.
+    \]
+
+    \[
+    u_j = \eta_j * u_j
+    =
+    \int_{\mathbb R^3}\eta_j(a)\,\delta_a u_j\,da,
+    \qquad
+    \delta_a f(x):=f(x-a)-f(x).
+    \]
+
+    \[
+    \tau_j^{H^1}[u](x,t)
+    :=
+    2^{2j}
+    \int_{\mathbb R^3}|\eta_j(a)|\,|\delta_a u_j(x,t)|^2\,da.
+    \]
+
+    \[
+    2^{2j}|u_j(x,t)|^2 \le C_{\mathrm{sf},10744} \tau_j^{H^1}[u](x,t).
+    \]
+
+    Unfolding the commutator kernels turns the shell expression into a localized
+    stress-strain flux, in model form
+
+    \[
+    |\mathcal J_N^{lift}(t)|
+    \le C_{\mathrm{sf},10752}
+    \Pi_N^{lift}(t),
+    \]
+
+    where \(\Pi_N^{lift}\) is built from the mesoscopic transport band and
+    \(\tau_j^{H^1}[u]\). This is a proved reduction of the proof object, not the
+    final barrier bound. The remaining analytic theorem is to control the resulting
+    mesoscopic flux at the barrier scale.
+
+
+
+    \subsection{Lifted-Band Collar-Class Reduction Lemma}
+
+    The signed continuous-scale version of the lifted packet separates collar
+    bookkeeping from the genuine large-gap problem.
+
+    \[
+    P_{\le \ell} := \varphi(\ell D),
+    \qquad
+    Q_\ell := -\,\ell\partial_\ell P_{\le \ell},
+    \qquad
+    s:=\log \ell.
+    \]
+
+    \[
+    b_\ell^{meso} := P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+    \]
+
+    \[
+    \mathfrak c_\ell(t)
+    :=
+    \ell^{-2}
+    \left\langle
+    [Q_\ell,b_\ell^{meso}\!\cdot\nabla]u,\,
+    Q_\ell u
+    \right\rangle.
+    \]
+
+    \[
+    \mathfrak c
+    =
+    -\partial_s\Psi
+    + \mathcal S^{spill}
+    + \mathcal W,
+    \]
+
+    The lower transition collar is finite-width:
+
+    \[
+    \mathcal T^{lower\text{-}collar}_{N+M}
+    :=
+    \sum_{|m-(N+M)|\le C}\mathcal T_m
+    \]
+
+    Inside that collar, smooth multipliers may be replaced by a bounded family of
+    reference cutoffs. The difference is a bounded-gap perturbation and belongs to
+    the accepted collar class. The same-scale spill term is also supported at the
+    edge scale and reduces to a fixed same-scale packet plus a collar error.
+
+    The status is closed as a reduction. The lower collar and same-scale spill no
+    longer carry independent theorem debt on this route. The signed route is
+    narrowed to one upper boundary term and one interior residual class.
+
+
+
+    \subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}
+
+    The mismatch/cocycle language has proof value only at the signed flux level.
+    Once absolute values and shellwise positive majorants are introduced, the
+    exactness information has already been discarded.
+
+    \[
+    \ell_N := c\,2^{-N},
+    \qquad
+    Z_N := (0,\ell_N]_\ell \times \mathbb R^3_x \times [0,T]_t.
+    \]
+
+    \[
+    \text{refinement-transport mismatch}
+    \quad\leadsto\quad
+    \Sigma_\ell^{meso}.
+    \]
+
+    \[
+    \Sigma_\ell^{meso}\,\tau_\ell^{H^1}[u]
+    =
+    d_{s,x,t}\Psi + E.
+    \]
+
+    Here \(E\) is the nonexact remainder, and the application requires \(E\) to be
+    barrier-sized. Under that hypothesis, integration by parts telescopes the flux
+    into boundary, divergence, time-derivative, and controlled tail terms.
+
+    The status is conditional support. This note gives the mechanism by which
+    descent-coboundary exactness can imply the lifted-band flux estimate; it does
+    not prove that the already positivized flux measure retains that exactness.
+
+
+
+    \subsection{Lifted-Band Gain to MSI Bridge}
+
+    The lifted-band frontier has been narrowed to one gap above the intermediate
+    transport band
+
+    \[
+    N+M<k<j-4.
+    \]
+
+    \[
+    \sum_{j\ge N}\sum_{N+M<k<j-4}
+    2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
+    \|\nabla \Delta_j u^{(n)}\|_{L^2_x}\,
+    \|\Delta_j u^{(n)}\|_{L^2_x}.
+    \]
+
+    Here \((\mathrm{SDS}^\sharp)\) is the installed frontier theorem,
+    \((\mathrm{NE}^\sharp)\) is the first direct bilinear endpoint,
+    \((\mathrm{UTKD}^\sharp)\) is the upper-tail weighted estimate,
+    \((\mathrm{PCI}^\sharp)\) is the paired carrier bound obtained from
+    \((\mathrm{UTKD}^\sharp)\) and \(L_t^2H_x^1\), and
+    \((\mathrm{MSI}^\sharp)\) is the swapped lifted-band remainder theorem.
+
+    \[
+    \begin{aligned}
+    &\text{(SDS}^\sharp\text{)}
+    \Longrightarrow \text{(NE}^\sharp\text{)}
+    \Longrightarrow \text{(UTKD}^\sharp\text{)}\\
+    &\quad\Longrightarrow \text{(PCI}^\sharp\text{)}
+    \Longrightarrow \text{(MSI}^\sharp\text{)}\\
+    &\quad\Longrightarrow \text{lifted high-side remainder closure}
+    \Longrightarrow \text{Proposition }6.1^\sharp .
+    \end{aligned}
+    \]
+
+    The gap kernel and the direct bilinear endpoint are explicit. The missing
+    frontier theorem is \((\mathrm{SDS}^\sharp)\), with the weighted one-sided
+    enstrophy-tail flux identity as the sharpest current mechanism candidate.
+    This is not a new family of open estimates; it is one named bridge between the
+    support-level kernel and the desired \((\mathrm{MSI}^\sharp)\) remainder.
+
+
+
+    \subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}
+
+    After the collar reduction, the interior term is no longer an undefined
+    remainder. It is one localized middle-band flux object.
+
+    \[
+    \mathfrak c_\ell
+    =
+    (\ell\partial_\ell)\Psi_\ell
+    + \mathcal S_\ell^{spill}
+    + \mathcal W_\ell.
+    \]
+
+    \[
+    \mathcal W
+    =
+    \mathcal W^{trans}
+    + \mathcal W^{prof},
+    \]
+
+    \(\mathcal W^{prof}\) comes only from differentiating scalar weights and smooth
+    multiplier profiles. These pieces are folded into a modified primitive
+
+    \[
+    \widetilde\Psi := \Psi + \Psi^{prof},
+    \]
+
+    up to admissible collar errors. The transpose term has the same scalarized
+    commutator geometry as the original signed density: an edge-scale commutator
+    output paired with a band-pass test factor. Its target bound is
+
+    \[
+    \left|
+    \int \mathcal R^{flux}_{mid}(s,t)\,ds
+    \right|
+    \le C_{\mathrm{sf},10925}
+    \Pi_N^{mid}(t),
+    \qquad
+    \Pi_N^{mid}\sfcomp{10939}
+    \int \Sigma_\ell^{meso}\tau_\ell^{H^1}[u]\,d\ell .
+    \]
+
+    The reduction to that middle-band flux object is proved here. The barrier
+    estimate for \(\Pi_N^{mid}\) remains the separate analytic burden.
+
+
+
+    \subsection{Lifted-Band Upper-Boundary Packet}
+
+    The upper boundary is the remaining boundary term after lower-collar and
+    same-scale spill have been reabsorbed into accepted packet classes.
+
+    \[
+    \mathfrak B_N^{upper}
+    \quad\text{is supported where}\quad
+    \ell\sfcomp{10955} 2^{-N}.
+    \]
+
+    The needed estimate is a finite same-scale edge estimate:
+
+    \[
+    |\mathfrak B_N^{upper}(t)|
+    \le C_{\mathrm{sf},10951}
+    \widetilde\Lambda_N^\sharp(t)E_N(t)
+    \quad
+    \text{up to accepted collar errors.}
+    \]
+
+    This is an exact localization of the boundary burden. It does not identify the
+    far-corona estimate, which is a separate large-gap packet.
+
+
+
+    \subsection{Lifted Packet Signed Continuous-Scale Translation}
+
+    \[
+    \mathfrak H_N^{\mathrm{grad,lift}}[u](t)
+    :=
+    \sum_{j\ge N}2^{2j}\big|\mathcal C_j^{lift}(t)\big|
+    \]
+
+    The dyadic shell sum records the right support geometry, but it is the wrong
+    proof language for cancellation. The signed commutator channel has to be formed
+    before absolute values and shellwise positive majorants erase the refinement
+    structure.
+
+    \[
+    b_j^{lift}
+    :=
+    (S_{j-4}-S_{N+M})u,
+    \]
+
+    \[
+    N+M < k < j-4.
+    \]
+
+    \[
+    P_{\le \ell}:=\varphi(\ell D),
+    \qquad
+    Q_\ell:=-\,\ell\partial_\ell P_{\le \ell},
+    \qquad
+    u_\ell:=Q_\ell u.
+    \]
+
+    At active shell \(j\), the relevant physical scale is \(2^{-j}\). The
+    transport shells \(k\) are lower frequencies, hence larger scales. The same
+    geometry becomes the mesoscopic band
+
+    \[
+    b_\ell^{meso}
+    :=
+    P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+    \]
+
+    The translation preserves the lifted-packet geometry and moves the live theorem
+    from a one-scale shell carrier to the coupled two-scale density. The remaining
+    object is the pair
+
+    \[
+    \mathfrak B_N^{upper},
+    \qquad
+    \Pi_N^{mid,far,L}.
+    \]
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: High-Frequency Enstrophy Implies H 1 Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9705
+  line_start: 9705
+  line_end: 9738
+  start_anchor: "\\subsection{High-Frequency Enstrophy Implies H 1 Lemma}\n"
+  end_anchor: "\\subsection{Holonomy-Refinement Projector Spectral Realization Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite High-Frequency Enstrophy Implies
+    H 1 Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9705
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Coarse-Grained Stress-Strain Flux Inequality
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10826
+  line_start: 10826
+  line_end: 10882
+  start_anchor: "\\subsection{Lifted-Band Coarse-Grained Stress-Strain Flux Inequality}\n"
+  end_anchor: "\\subsection{Lifted-Band Collar-Class Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Coarse-Grained Stress-Strain
+    Flux Inequality as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10826
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Collar-Class Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10883
+  line_start: 10883
+  line_end: 10935
+  start_anchor: "\\subsection{Lifted-Band Collar-Class Reduction Lemma}\n"
+  end_anchor: "\\subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Collar-Class Reduction
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10883
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Descent-Coboundary To L-Flux Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10936
+  line_start: 10936
+  line_end: 10968
+  start_anchor: "\\subsection{Lifted-Band Descent-Coboundary To L-Flux Theorem}\n"
+  end_anchor: "\\subsection{Lifted-Band Gain to MSI Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Descent-Coboundary
+    To L-Flux Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10936
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Gain to MSI Bridge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10969
+  line_start: 10969
+  line_end: 11010
+  start_anchor: "\\subsection{Lifted-Band Gain to MSI Bridge}\n"
+  end_anchor: "\\subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Gain to MSI Bridge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:10969
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Mesoscopic Residual Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11011
+  line_start: 11011
+  line_end: 11056
+  start_anchor: "\\subsection{Lifted-Band Mesoscopic Residual Reduction Lemma}\n"
+  end_anchor: "\\subsection{Lifted-Band Upper-Boundary Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Mesoscopic Residual
+    Reduction Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11011
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted-Band Upper-Boundary Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11057
+  line_start: 11057
+  line_end: 11081
+  start_anchor: "\\subsection{Lifted-Band Upper-Boundary Packet}\n"
+  end_anchor: "\\subsection{Lifted Carrier Energy Absorption Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted-Band Upper-Boundary Packet
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11057
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lifted Packet Signed Continuous-Scale Translation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11202
+  line_start: 11202
+  line_end: 11253
+  start_anchor: "\\subsection{Lifted Packet Signed Continuous-Scale Translation}\n"
+  end_anchor: "\\subsection{Lifted Packet Three-Piece Closure Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lifted Packet Signed Continuous-Scale
+    Translation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11202
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-05
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-scale-tail-and-lifted-band-05.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

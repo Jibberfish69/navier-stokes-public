@@ -1,0 +1,894 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-45
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-45
+  sequence: 130
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 45
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 52819
+  line_end: 53047
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52819
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52852
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52892
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52911
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52940
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52975
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53006
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53035
+  subsection_titles:
+  - Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery Audit Note
+  - Clay problem Source Pulse Remove-Active-Mass Direct Attempt Note
+  - Clay problem Source Pulse Rigidify-Active-Mass Direct Attempt Note
+  - Clay problem Source Pulse Terminal Slot No-Hidden Frontier Note
+  - Clay problem Source Pulse Three-Slot Measure Obstruction Audit Note
+  - Clay problem Source Pulse Two-Tower Zeno Refinement
+  - Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit Note
+  - Clay problem Source Pulse Vorticity-Direction Coherence Audit Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery
+      Audit Note
+    line_start: 52819
+    line_end: 52851
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52819
+    start_anchor: "\\subsection{Clay problem Source Pulse Q-Dissipation Dominance
+      Source-Recovery Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Remove-Active-Mass Direct
+      Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery Audit Note}
+
+      The recovered Q(t) / scale-barrier language is tested as a possible source for the missing terminal nonlinear source-control estimate.
+
+      \[
+      Q(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2.
+      \]
+
+      \[
+      \frac{dQ}{dt}
+      \le
+      -2\nu\|\nabla u\|_{L^2}^2
+      +C\|\nabla u\|_{L^2}^3
+      +2\int f\cdot u,
+      \]
+
+      \[
+      E_j'(t)+c\nu D_j(t)\le F_j(t),
+      \]
+
+      \[
+      \int \omega\cdot S\omega.
+      \]
+
+      \[
+      \sup_{t\in I_n}\gamma_{j_n}(t)\ge\eta
+      \]
+
+      The scale-barrier language has the same state. A uniform spectral decay estimate strong enough to prevent terminal active pulses would remove active mass, but deriving that decay from the energy/enstrophy layer is precisely the source-control problem.
+
+      The recovered corpus is useful as provenance for the desired proof shape, but it does not install the missing terminal nonlinear source-control estimate.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Remove-Active-Mass Direct Attempt
+      Note
+    line_start: 52852
+    line_end: 52891
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52852
+    start_anchor: "\\subsection{Clay problem Source Pulse Remove-Active-Mass Direct
+      Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct
+      Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Remove-Active-Mass Direct Attempt Note}
+
+      The attempt does not install the slot from the current original-data surfaces. It reduces to the same source-pulse theorem.
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+      \qquad
+      |I_n|\sfcomp{51287} 2^{-2j_n},
+      \qquad
+      t_n\uparrow T_\ast,
+      \]
+
+      \[
+      \int_{I_n}
+      \mathfrak S_{j_n,loc}^{active}(t)\,dt
+      \longrightarrow0,
+      \]
+
+      \[
+      \liminf_{n\to\infty}
+      \int_{I_n}
+      \mathfrak S_{j_n,loc}^{active}(t)\,dt
+      >0.
+      \]
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x}.
+      \]
+
+      It does not impose a sign on the active nonlinear source, nor does it control the positive part of the shellwise source on heat-scale bad windows.
+
+      Pressure Poisson recovery gives elliptic estimates and local pressure packets, but it does not change the sign of vortex stretching or of the weighted lifted source remainder.
+
+      Unweighted dyadic exchange cancels only before the active weights, cutoffs, and same-fluid localization are inserted. The live active source is the weighted one-sided packet, and the installed commutator material does not prove its positive part is depleted.
+
+      Vorticity-direction, Beltrami/helical, and pressure-vortex depletion are possible languages for this slot, but the corresponding audits show that none is derived from Original Smooth Data on the terminal bad windows.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Rigidify-Active-Mass Direct Attempt
+      Note
+    line_start: 52892
+    line_end: 52910
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52892
+    start_anchor: "\\subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct
+      Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Terminal Slot No-Hidden Frontier
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct Attempt Note}
+
+      The attempt does not install the slot from the current compactness and Liouville surfaces. It reduces to the same source-pulse theorem.
+
+      \[
+      Q_{r_n}^\Phi(a_n,t_n),
+      \qquad
+      r_n\sfcomp{51327}2^{-j_n},
+      \qquad
+      t_n\uparrow T_\ast,
+      \]
+
+      \[
+      D_j(t)D_\ell(t)
+      \]
+
+      Here the older parent-measure label has already been sharpened by Edge Disintegrate.A+Anti Diffuse Parent.A=>Source Parent.Measure and then by the direct anti-diffuse split Anti Diffuse Parent.A route Parent Concentration OrDiffuse Charge.A. None of these source-residue rigidity/drain inputs is installed from the current original-data estimates.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Terminal Slot No-Hidden Frontier Note
+    line_start: 52911
+    line_end: 52939
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52911
+    start_anchor: "\\subsection{Clay problem Source Pulse Terminal Slot No-Hidden
+      Frontier Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Three-Slot Measure Obstruction
+      Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Terminal Slot No-Hidden Frontier Note}
+
+      Source Pulse Exclusion.A remains unproved. The target bookkeeping after the direct core self-attempt leaves the exact proof slots recorded below.
+
+      If the packet cannot keep CM, the proof closes by class-exit classification. If it can keep CM, then remove / charge / rigidify are ordinary survivor control methods rather than the root contradiction.
+
+      Failure of Source Pulse Exclusion.A means there is a terminal same-fluid active packet family
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+      \qquad
+      j_n\to\infty,
+      \qquad
+      |I_n|\sfcomp{51352} 2^{-2j_n},
+      \qquad
+      t_n\uparrow T_\ast,
+      \]
+
+      \[
+      \sup_{t\in I_n}\gamma_{j_n}(t)\ge\eta>0,
+      \]
+
+      \[
+      \liminf_{n\to\infty}
+      \int_{I_n}\mathfrak S_{j_n,loc}^{active,+}(t)\,dt
+      >0.
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Three-Slot Measure Obstruction Audit
+      Note
+    line_start: 52940
+    line_end: 52974
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52940
+    start_anchor: "\\subsection{Clay problem Source Pulse Three-Slot Measure Obstruction
+      Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Source Pulse Three-Slot Measure Obstruction Audit Note}
+
+      Source Pulse Exclusion.A remains unproved. The exact single survivor after the three terminal slots is recorded here.
+
+      The normal-form audit proves that if Source Pulse Exclusion.A fails, the failed sequence may be selected as a terminal same-fluid active packet whose native positive active source mass is not paid by any installed energy, scheduler, pressure/cutoff, signed-reserve, local-energy, compactness, or same-fluid transport record.
+
+      \[
+      \mu_{\ast}^{src,+}
+      =
+      f\,\rho_{\ast}^{inst}
+      +
+      \mu_{\ast}^{sing},
+      \qquad
+      \mu_{\ast}^{sing}\perp\rho_{\ast}^{inst}.
+      \]
+
+      Here inst is the terminal limit of the sum of installed nonnegative route records, and sing is the native positive active source component singular to those records.
+
+      The installed route does not supply this. Energy and local energy do not impose a sign on the active nonlinear source; pressure recovery does not deplete the positive part; dyadic cancellation occurs before active weights, cutoffs, and positive-part selection; and coherence/alignment variants remain uninstalled.
+
+      Equivalently this is Native SourceAC.A. The installed route does not supply it: the normal-form packet may be selected precisely after every currently installed finite reserve has been spent, absorbed as legal loss, or shown irrelevant to the native positive active source carrier.
+
+      \[
+      \boxed{
+      \mu_{\ast}^{sing}.
+      }
+      \]
+
+      Remove kills the whole native positive source measure. Charge proves that no component singular to installed records exists. Rigidify allows a singular component to exist long enough to localize it, then forbids the corresponding source-residue limit.
+
+      That direct attempt finds no installed discharge from incompressibility, energy/enstrophy, Calderon-Zygmund pressure/strain bounds, signed commutator compensation, pressure projection, finite-band orthogonality, same-fluid transport, or compact preterminal smoothness.
+
+      All other spellings are curre
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Two-Tower Zeno Refinement
+    line_start: 52975
+    line_end: 53005
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52975
+    start_anchor: "\\subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}\n\nSource
+      Pulse Exclusion.A remains open. The result here removes the remaining coarse
+      donor-depletion wording from the live attack and leaves one real terminal branch
+      for the two-tower route: Zeno source-refill.\n\nThe first says that a donor
+      tower feeds a child only by donor drain, legal loss, or refill from its own
+      parents. The second says that any refill branch reaching a fixed preterminal
+      entrance surface has vanishing high-frequency leaf energy as the terminal threshold
+      goes to infinity.\n\nLet T N(P 0) be a legal source-refill tree rooted at a
+      terminal source-pulse child packet. If every infinite branch of T N(P 0) has
+      parabolic time length\n\n\\[\n\\sum_m r_m^2=\\infty,\n\\]\n\nApply Local Donor
+      Balance.A to a finite truncation. Interior refill terms telescope, leaving boundary
+      leaf energy plus legal losses. On a non-Zeno branch the backward heat-time sum
+      reaches a fixed preterminal entrance surface. Entrance Leaf Decay.A makes the
+      boundary leaf energy o N(1). The legal losses are already summable in the source-parent
+      packet. The right side is o N(1) plus legal loss, while the source-pulse child
+      requires a fixed normalized lower mass. For terminal threshold N large enough,
+      this is a contradiction.\n\n\\[\n\\cdots -> P^{-2} -> P^{-1} -> P^0\n\\]\n\n\\[\n\\sum_m
+      r_m^2<\\infty,\n\\]\n\nIf Local Positive Source Carleson.A holds, the selected
+      Zeno branch is a bounded-overlap same-fluid terminal family, and its inherited
+      positive pre-Cauchy source mass is bounded by o N(1) plus legal losses. This
+      contradicts the source-pulse lower bound.\n\nIf Zeno Bounded Class B.A+Zeno
+      Residue Liouville B.A holds, compactness places the same Zeno branch in the
+      named rigid class B, and the Liouville theorem forces the inherited source residue
+      to vanish. This also contradicts the source-pulse lower bound.\n\nThus either
+      package rules out the only branch left by donor-balance telescoping, proving
+      Source Pulse Exclusion.A.\n\nBoth remain supplier-side work \n% ... source excerpt
+      truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit Note
+    line_start: 53006
+    line_end: 53034
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53006
+    start_anchor: "\\subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse
+      Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Vorticity-Direction Coherence
+      Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit Note}
+
+      The viscous-Duhamel audit asks whether heat-scale damping or the Stokes semigroup already forbids terminal source-balanced active pulses.
+
+      \[
+      \frac{d}{dt}E_j(t)+c\nu 2^{2j}E_j(t)\le F_j(t),
+      \]
+
+      \[
+      E_j(t)
+      \le
+      e^{-c\nu2^{2j}(t-s)}E_j(s)
+      +
+      \int_s^t e^{-c\nu2^{2j}(t-\tau)}F_j(\tau)\,d\tau.
+      \]
+
+      Thus viscosity kills inherited shell energy on heat-scale intervals unless the nonlinear source refills the shell.
+
+      \[
+      \text{old shell energy damped by }e^{-c\nu2^{2j}(t-s)}
+      \]
+
+      \[
+      \text{new shell energy supplied by }F_j.
+      \]
+
+      For Navier-Stokes, F j is not an arbitrary external force; it is the nonlinear cascade/readout source. But the current route has not installed a theorem showing that this nonlinear source obeys a Carleson, -source, sign, or monotone-dominance bound on the terminal bad windows.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Vorticity-Direction Coherence Audit
+      Note
+    line_start: 53035
+    line_end: 53047
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53035
+    start_anchor: "\\subsection{Clay problem Source Pulse Vorticity-Direction Coherence
+      Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source-Wall Active Problem: Rehydrated
+      Think-Again Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Source Pulse Vorticity-Direction Coherence Audit Note}
+
+      The vorticity-direction audit asks whether Constantin--Fefferman style coherence already excludes terminal source-balanced active pulses.
+
+      \[
+      \omega\cdot S\omega.
+      \]
+
+      If true, this could imply the positive-part source bound needed by Source Pulse Exclusion.A.
+
+      The current route does not derive terminal vorticity-direction coherence from Original Smooth Data. Smoothness on compact preterminal intervals gives classical coherence before the endpoint, but not a uniform terminal coherence modulus on the shrinking active windows selected by Jump avg.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery Audit Note}
+
+    The recovered Q(t) / scale-barrier language is tested as a possible source for the missing terminal nonlinear source-control estimate.
+
+    \[
+    Q(t)=\|u(t)\|_{L^2}^2+\|\nabla u(t)\|_{L^2}^2.
+    \]
+
+    \[
+    \frac{dQ}{dt}
+    \le
+    -2\nu\|\nabla u\|_{L^2}^2
+    +C\|\nabla u\|_{L^2}^3
+    +2\int f\cdot u,
+    \]
+
+    \[
+    E_j'(t)+c\nu D_j(t)\le F_j(t),
+    \]
+
+    \[
+    \int \omega\cdot S\omega.
+    \]
+
+    \[
+    \sup_{t\in I_n}\gamma_{j_n}(t)\ge\eta
+    \]
+
+    The scale-barrier language has the same state. A uniform spectral decay estimate strong enough to prevent terminal active pulses would remove active mass, but deriving that decay from the energy/enstrophy layer is precisely the source-control problem.
+
+    The recovered corpus is useful as provenance for the desired proof shape, but it does not install the missing terminal nonlinear source-control estimate.
+
+
+
+    \subsection{Clay problem Source Pulse Remove-Active-Mass Direct Attempt Note}
+
+    The attempt does not install the slot from the current original-data surfaces. It reduces to the same source-pulse theorem.
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+    \qquad
+    |I_n|\sfcomp{51287} 2^{-2j_n},
+    \qquad
+    t_n\uparrow T_\ast,
+    \]
+
+    \[
+    \int_{I_n}
+    \mathfrak S_{j_n,loc}^{active}(t)\,dt
+    \longrightarrow0,
+    \]
+
+    \[
+    \liminf_{n\to\infty}
+    \int_{I_n}
+    \mathfrak S_{j_n,loc}^{active}(t)\,dt
+    >0.
+    \]
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x}.
+    \]
+
+    It does not impose a sign on the active nonlinear source, nor does it control the positive part of the shellwise source on heat-scale bad windows.
+
+    Pressure Poisson recovery gives elliptic estimates and local pressure packets, but it does not change the sign of vortex stretching or of the weighted lifted source remainder.
+
+    Unweighted dyadic exchange cancels only before the active weights, cutoffs, and same-fluid localization are inserted. The live active source is the weighted one-sided packet, and the installed commutator material does not prove its positive part is depleted.
+
+    Vorticity-direction, Beltrami/helical, and pressure-vortex depletion are possible languages for this slot, but the corresponding audits show that none is derived from Original Smooth Data on the terminal bad windows.
+
+
+
+    \subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct Attempt Note}
+
+    The attempt does not install the slot from the current compactness and Liouville surfaces. It reduces to the same source-pulse theorem.
+
+    \[
+    Q_{r_n}^\Phi(a_n,t_n),
+    \qquad
+    r_n\sfcomp{51327}2^{-j_n},
+    \qquad
+    t_n\uparrow T_\ast,
+    \]
+
+    \[
+    D_j(t)D_\ell(t)
+    \]
+
+    Here the older parent-measure label has already been sharpened by Edge Disintegrate.A+Anti Diffuse Parent.A=>Source Parent.Measure and then by the direct anti-diffuse split Anti Diffuse Parent.A route Parent Concentration OrDiffuse Charge.A. None of these source-residue rigidity/drain inputs is installed from the current original-data estimates.
+
+
+
+    \subsection{Clay problem Source Pulse Terminal Slot No-Hidden Frontier Note}
+
+    Source Pulse Exclusion.A remains unproved. The target bookkeeping after the direct core self-attempt leaves the exact proof slots recorded below.
+
+    If the packet cannot keep CM, the proof closes by class-exit classification. If it can keep CM, then remove / charge / rigidify are ordinary survivor control methods rather than the root contradiction.
+
+    Failure of Source Pulse Exclusion.A means there is a terminal same-fluid active packet family
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+    \qquad
+    j_n\to\infty,
+    \qquad
+    |I_n|\sfcomp{51352} 2^{-2j_n},
+    \qquad
+    t_n\uparrow T_\ast,
+    \]
+
+    \[
+    \sup_{t\in I_n}\gamma_{j_n}(t)\ge\eta>0,
+    \]
+
+    \[
+    \liminf_{n\to\infty}
+    \int_{I_n}\mathfrak S_{j_n,loc}^{active,+}(t)\,dt
+    >0.
+    \]
+
+
+
+    \subsection{Clay problem Source Pulse Three-Slot Measure Obstruction Audit Note}
+
+    Source Pulse Exclusion.A remains unproved. The exact single survivor after the three terminal slots is recorded here.
+
+    The normal-form audit proves that if Source Pulse Exclusion.A fails, the failed sequence may be selected as a terminal same-fluid active packet whose native positive active source mass is not paid by any installed energy, scheduler, pressure/cutoff, signed-reserve, local-energy, compactness, or same-fluid transport record.
+
+    \[
+    \mu_{\ast}^{src,+}
+    =
+    f\,\rho_{\ast}^{inst}
+    +
+    \mu_{\ast}^{sing},
+    \qquad
+    \mu_{\ast}^{sing}\perp\rho_{\ast}^{inst}.
+    \]
+
+    Here inst is the terminal limit of the sum of installed nonnegative route records, and sing is the native positive active source component singular to those records.
+
+    The installed route does not supply this. Energy and local energy do not impose a sign on the active nonlinear source; pressure recovery does not deplete the positive part; dyadic cancellation occurs before active weights, cutoffs, and positive-part selection; and coherence/alignment variants remain uninstalled.
+
+    Equivalently this is Native SourceAC.A. The installed route does not supply it: the normal-form packet may be selected precisely after every currently installed finite reserve has been spent, absorbed as legal loss, or shown irrelevant to the native positive active source carrier.
+
+    \[
+    \boxed{
+    \mu_{\ast}^{sing}.
+    }
+    \]
+
+    Remove kills the whole native positive source measure. Charge proves that no component singular to installed records exists. Rigidify allows a singular component to exist long enough to localize it, then forbids the corresponding source-residue limit.
+
+    That direct attempt finds no installed discharge from incompressibility, energy/enstrophy, Calderon-Zygmund pressure/strain bounds, signed commutator compensation, pressure projection, finite-band orthogonality, same-fluid transport, or compact preterminal smoothness.
+
+    All other spellings are currently consumers, conditional wrappers, or route-equivalent presentations of the same terminal singular-measure obstruction.
+
+
+
+    \subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}
+
+    Source Pulse Exclusion.A remains open. The result here removes the remaining coarse donor-depletion wording from the live attack and leaves one real terminal branch for the two-tower route: Zeno source-refill.
+
+    The first says that a donor tower feeds a child only by donor drain, legal loss, or refill from its own parents. The second says that any refill branch reaching a fixed preterminal entrance surface has vanishing high-frequency leaf energy as the terminal threshold goes to infinity.
+
+    Let T N(P 0) be a legal source-refill tree rooted at a terminal source-pulse child packet. If every infinite branch of T N(P 0) has parabolic time length
+
+    \[
+    \sum_m r_m^2=\infty,
+    \]
+
+    Apply Local Donor Balance.A to a finite truncation. Interior refill terms telescope, leaving boundary leaf energy plus legal losses. On a non-Zeno branch the backward heat-time sum reaches a fixed preterminal entrance surface. Entrance Leaf Decay.A makes the boundary leaf energy o N(1). The legal losses are already summable in the source-parent packet. The right side is o N(1) plus legal loss, while the source-pulse child requires a fixed normalized lower mass. For terminal threshold N large enough, this is a contradiction.
+
+    \[
+    \cdots -> P^{-2} -> P^{-1} -> P^0
+    \]
+
+    \[
+    \sum_m r_m^2<\infty,
+    \]
+
+    If Local Positive Source Carleson.A holds, the selected Zeno branch is a bounded-overlap same-fluid terminal family, and its inherited positive pre-Cauchy source mass is bounded by o N(1) plus legal losses. This contradicts the source-pulse lower bound.
+
+    If Zeno Bounded Class B.A+Zeno Residue Liouville B.A holds, compactness places the same Zeno branch in the named rigid class B, and the Liouville theorem forces the inherited source residue to vanish. This also contradicts the source-pulse lower bound.
+
+    Thus either package rules out the only branch left by donor-balance telescoping, proving Source Pulse Exclusion.A.
+
+    Both remain supplier-side work for Source Pulse Exclusion.A; neither is a new Pack, Part, or Field face unless its failure is separately sorted by the installed CM diagnostics.
+
+
+
+    \subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit Note}
+
+    The viscous-Duhamel audit asks whether heat-scale damping or the Stokes semigroup already forbids terminal source-balanced active pulses.
+
+    \[
+    \frac{d}{dt}E_j(t)+c\nu 2^{2j}E_j(t)\le F_j(t),
+    \]
+
+    \[
+    E_j(t)
+    \le
+    e^{-c\nu2^{2j}(t-s)}E_j(s)
+    +
+    \int_s^t e^{-c\nu2^{2j}(t-\tau)}F_j(\tau)\,d\tau.
+    \]
+
+    Thus viscosity kills inherited shell energy on heat-scale intervals unless the nonlinear source refills the shell.
+
+    \[
+    \text{old shell energy damped by }e^{-c\nu2^{2j}(t-s)}
+    \]
+
+    \[
+    \text{new shell energy supplied by }F_j.
+    \]
+
+    For Navier-Stokes, F j is not an arbitrary external force; it is the nonlinear cascade/readout source. But the current route has not installed a theorem showing that this nonlinear source obeys a Carleson, -source, sign, or monotone-dominance bound on the terminal bad windows.
+
+
+
+    \subsection{Clay problem Source Pulse Vorticity-Direction Coherence Audit Note}
+
+    The vorticity-direction audit asks whether Constantin--Fefferman style coherence already excludes terminal source-balanced active pulses.
+
+    \[
+    \omega\cdot S\omega.
+    \]
+
+    If true, this could imply the positive-part source bound needed by Source Pulse Exclusion.A.
+
+    The current route does not derive terminal vorticity-direction coherence from Original Smooth Data. Smoothness on compact preterminal intervals gives classical coherence before the endpoint, but not a uniform terminal coherence modulus on the shrinking active windows selected by Jump avg.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery
+    Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52819
+  line_start: 52819
+  line_end: 52851
+  start_anchor: "\\subsection{Clay problem Source Pulse Q-Dissipation Dominance Source-Recovery
+    Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Remove-Active-Mass Direct Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Q-Dissipation
+    Dominance Source-Recovery Audit Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52819
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Remove-Active-Mass Direct Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52852
+  line_start: 52852
+  line_end: 52891
+  start_anchor: "\\subsection{Clay problem Source Pulse Remove-Active-Mass Direct
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct
+    Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Remove-Active-Mass
+    Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52852
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Rigidify-Active-Mass Direct Attempt
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52892
+  line_start: 52892
+  line_end: 52910
+  start_anchor: "\\subsection{Clay problem Source Pulse Rigidify-Active-Mass Direct
+    Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Terminal Slot No-Hidden Frontier
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Rigidify-Active-Mass
+    Direct Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52892
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Terminal Slot No-Hidden Frontier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52911
+  line_start: 52911
+  line_end: 52939
+  start_anchor: "\\subsection{Clay problem Source Pulse Terminal Slot No-Hidden Frontier
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Three-Slot Measure Obstruction
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Terminal
+    Slot No-Hidden Frontier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52911
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Three-Slot Measure Obstruction Audit
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52940
+  line_start: 52940
+  line_end: 52974
+  start_anchor: "\\subsection{Clay problem Source Pulse Three-Slot Measure Obstruction
+    Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Three-Slot
+    Measure Obstruction Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52940
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Two-Tower Zeno Refinement
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52975
+  line_start: 52975
+  line_end: 53005
+  start_anchor: "\\subsection{Clay problem Source Pulse Two-Tower Zeno Refinement}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Two-Tower
+    Zeno Refinement as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52975
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53006
+  line_start: 53006
+  line_end: 53034
+  start_anchor: "\\subsection{Clay problem Source Pulse Viscous-Duhamel No-Pulse Audit
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Vorticity-Direction Coherence
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Viscous-Duhamel
+    No-Pulse Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53006
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Vorticity-Direction Coherence Audit
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53035
+  line_start: 53035
+  line_end: 53047
+  start_anchor: "\\subsection{Clay problem Source Pulse Vorticity-Direction Coherence
+    Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Source-Wall Active Problem: Rehydrated Think-Again
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Vorticity-Direction
+    Coherence Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53035
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-45
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-45.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

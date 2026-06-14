@@ -22,10 +22,12 @@ Let `Z=Ae`, where `e` is a fixed coherent selected mode. If `\mathcal N_j` prese
 \rho(\mathcal N_jAe)=\rho(Ae).
 ```
 
-On a faithful readout surface this forces the readout amplitude to remain order `A`. Hence the classical coefficient still scales like
+On a faithful linear readout surface this preserves the exact amplitude:
 
 ```math
-\|\nabla\rho(\mathcal N_jAe)\|_\infty\simeq A\|\nabla\rho(e)\|_\infty.
+\|\nabla\rho(\mathcal N_jAe)\|_\infty
+=
+A\|\nabla\rho(e)\|_\infty.
 ```
 
 For fixed `j`, choosing `A` large violates the viscous-scale bound. Thus exact readout preservation cannot coexist with amplitude normalization at fixed shell.
@@ -34,7 +36,8 @@ If instead `\mathcal N_j` rescales amplitude, say
 
 ```math
 \mathcal N_j(Ae)=\lambda(A,j)Ae,
-qquad \lambda(A,j)A\lesssim \nu2^{2j},
+\qquad
+\lambda(A,j)A\le c_0\nu2^{2j},
 ```
 
 then the readout defect is
@@ -43,7 +46,9 @@ then the readout defect is
 \rho(Ae)-\rho(\mathcal N_jAe)=(1-\lambda(A,j))A\rho(e).
 ```
 
-For large `A`, this defect has order `A`, so it is not lower order relative to the original selected coherent contribution.
+For large `A` with `\lambda(A,j)A\le c_0\nu2^{2j}`, the defect equals
+`(A-\lambda(A,j)A)\rho(e)`, so its size grows linearly in `A` relative to the
+fixed selected coherent mode.
 
 ## Consequence
 

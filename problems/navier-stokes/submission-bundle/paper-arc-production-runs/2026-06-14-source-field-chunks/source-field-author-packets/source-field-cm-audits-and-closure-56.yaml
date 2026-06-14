@@ -1,0 +1,987 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-56
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-56
+  sequence: 141
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 56
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 58966
+  line_end: 65499
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58966
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59441
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59638
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65300
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65338
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65357
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65390
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65468
+  subsection_titles:
+  - PTC Linearization Closure
+  - Residual Pairwise Closure From Directional record
+  - Route B Euclidean Closure Packet
+  - Clay problem BASACAll Doors Closed Atom Obstruction.A
+  - Clay problem B ASAC All Reduced Routes Exhaustion Certificate
+  - Clay problem B ASAC closed live burden sharpening
+  - Clay problem B ASAC Outside-Audited-Families Search
+  - Clay problem Finite Packet Leray Source Anchoring.A direct attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PTC Linearization Closure
+    line_start: 58966
+    line_end: 59035
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58966
+    start_anchor: "\\subsection{PTC Linearization Closure}\n"
+    end_anchor: "\\subsection{PTC Shape Normalization Closure}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{PTC Linearization Closure}
+
+      Role: isolate the exact PTC-Lin theorem needed to close the linearization side of the D.7mn -> D.7mq reduction on the exact-potential branch.
+
+      \[
+      \boxed{
+      \mathcal P_{J,\varepsilon}^{pair}
+      =
+      \mathcal P_{J,\mathrm{lin}}^{pair}
+      +
+      \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon},
+      \qquad
+      \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon}\to 0.
+      }
+      \]
+
+      This is the first genuinely new upstream theorem in the exact-potential closure route.
+
+      \[
+      \left\|
+      c_{J,\varepsilon}(t,a)^{-1}\mathcal K_{J,\varepsilon}^{pair}(t,a)
+      -
+      \bigl(\mathbf W_J^{coc}(t,a)\bigr)^*
+      M_{J,\varepsilon}^{shape}(t,a)
+      \mathbf W_J^{coc}(t,a)
+      \right\|_{\mathrm{op}}
+      \le
+      \operatorname{Err}_{J,\varepsilon}^{lin}(t,a),
+      \]
+
+      \[
+      \operatorname{Err}_{J,\varepsilon}^{lin}(t,a)\to 0
+      \quad\text{on the selector-good family.}
+      \]
+
+      \[
+      \mathcal P_{J,\varepsilon}^{pair}
+      =
+      \mathcal P_{J,\mathrm{lin}}^{pair}
+      +
+      \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon}.
+      \]
+
+      \[
+      \mathcal K_{J,\varepsilon}^{pair}(t,a)
+      =
+      W\,M_{J,\varepsilon}^{shape}(t,a)\,W^{*}
+      +
+      W\,B_{J,\varepsilon}(t,a)^{*}
+      +
+      B_{J,\varepsilon}(t,a)\,W^{*}
+      +
+      R_{J,\varepsilon}(t,a).
+      \]
+
+      So the real content of PTC-Lin.A is an averaged differentiability theorem for the transported pair vector.
+
+      So PTC-Lin.A is reduced further to one selector-good exceptional-set upgrading theorem: pointwise linearization away from a selector-small bad set, plus a controlled second moment for the reference coordinates, implies the averaged differentiability packet.
+
+      Everything else in PTC-Lin.A is now downstream algebra or a consequence of the already installed active-pair scale packet.
+
+      So the linearization side of the projective exact-potential branch admits one source-backed imported descendant: the good-set differentiability-in-measure packet already isolated in the selector transport note.
+
+      That frozen packet is stronger than bare Diff Exc, because it asks for localization and L p/2 control of the thresholded exceptional-set measure at th
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Residual Pairwise Closure From Directional record
+    line_start: 59441
+    line_end: 59471
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59441
+    start_anchor: "\\subsection{Residual Pairwise Closure From Directional record}\n"
+    end_anchor: "\\subsection{Restricted CG Reference-Gap Persistence}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Residual Pairwise Closure From Directional record}
+
+      The directional observability record feeds the live residual pairwise-closure slot. This is downstream assembly, not hard projector debt.
+
+      \[
+      \boxed{
+      \Xi_J\le C_{\mathrm{sf},57914} |W_J|^2+\mathrm{Err}_J
+      \Longrightarrow
+      \mathcal E_J^{dir}+\mathcal E_J^{loop}
+      \le C_{\mathrm{sf},57917}
+      \mathcal E_J^{obs}+\mathrm{Err}_J.
+      }
+      \]
+
+      \[
+      \mathcal E_J^{dir}+\mathcal E_J^{loop}
+      \le C_{\mathrm{sf},57924}
+      \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
+      \]
+
+      \[
+      \mathcal E_J^{dir,\perp}+\mathcal E_J^{loop}
+      \le C_{\mathrm{sf},57930}
+      \mathcal E_J^{obs}+\mathrm{Err}_{J,\perp}.
+      \]
+
+      Insert the directional record into the residual pairwise-closure formulas already isolated on the live branch. Integrate over the active strip family. Absorb branch-specific residuals into one explicit error record.
+
+      On the exact-potential branch, once the angular record is available in the D.7mr2 form from
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Route B Euclidean Closure Packet
+    line_start: 59638
+    line_end: 59692
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59638
+    start_anchor: "\\subsection{Route B Euclidean Closure Packet}\n"
+    end_anchor: "\\subsection{Same-Scale Coefficient Kill Into Weighted Carrier Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Route B Euclidean Closure Packet}\n\nRecord the downstream
+      Euclidean discharge/export route for the classical Navier-Stokes theorem without
+      importing the old geometric carrier.\n\nThis is no longer the primary internal
+      branch lock. It is the whole-space R 3 export packet that would have to be proved
+      after the torus-first internal route closes.\n\n\\[\n\\sup_n \\|u^{(n)}\\|_{L_t^\\infty
+      L_x^2 \\cap L_t^2 H_x^1} < \\infty,\n\\qquad\n\\sup_n \\|\\partial_t u^{(n)}\\|_{L_t^2
+      H_x^{-1}} < \\infty.\n\\]\n\n\\[\nu^{(n)} \\to u\n\\quad\\text{in } L^2_{\\mathrm{loc}}((0,T)\\times
+      R^3),\n\\]\n\n\\[\nu^{(n)} \\otimes u^{(n)} \\to u \\otimes u\n\\quad\\text{in
+      distributions}.\n\\]\n\nso u is an exact Euclidean Navier-Stokes solution on
+      the same theorem surface.\n\nThat inherited barrier is not the same thing as
+      the 4 -> 1 return theorem. It is a one-way passage from the approximation family
+      to the exact limit; the same-shape recertification problem is the stronger exact-solution
+      statement tracked separately in\n\n\\[\nE_N(t) := \\sum_{j\\ge N} 2^{2j}\\|\\Delta_j
+      u(t)\\|_{L_x^2}^2,\n\\qquad\nD_N(t) := \\sum_{j\\ge N} 2^{4j}\\|\\Delta_j u(t)\\|_{L_x^2}^2.\n\\]\n\nThese
+      are the high-frequency enstrophy and dissipation functionals used by the live
+      Euclidean bridge.\n\n\\[\n\\mathcal L_N(t)\n:=\n1 + \\sum_{k\\le N-4} 2^{3k/2}\\|\\Delta_k
+      u(t)\\|_{L_x^2}.\n\\]\n\nThis is the exact coefficient used by the live Euclidean
+      route. No L t 1 L x control of u is imported.\n\nUnder the stricter audit standard,
+      this is the fixed-cutoff coefficient input. On the local 4 -> 1 surface, the
+      same coefficient is sufficient because the tail-energy recertification keeps
+      the coercive damping Q N 2 2N T N, and that 2 2N term dominates the 2 3N/2 growth
+      from L N for large cutoffs.\n\nThe remaining high-side packet is no longer treated
+      as a single finite-band spill. The current packet split isolates a threshold-local
+      spill collar, separates the lifted high-side remainder, and treats the genuine
+      high-high packet independently. The full proposition-level discharge of that
+      repaired split \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem BASACAll Doors Closed Atom Obstruction.A
+    line_start: 65300
+    line_end: 65337
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65300
+    start_anchor: "\\subsection{Clay problem BASACAll Doors Closed Atom Obstruction.A}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC All Reduced Routes Exhaustion Certificate}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem BASACAll Doors Closed Atom Obstruction.A}
+
+      Each path remains conditional. The combined branch tests what remains when every named exit is assumed closed.
+
+      \[
+      (u_*,p_*,\mu_*^{src})
+      \]
+
+      \[
+      \mu_*^{src}(Q_1^-)
+      \ge c_0>0.
+      \]
+
+      \[
+      d\mu_m^{src}(y,s)
+      =
+      \rho(y)m\mathbf 1_{(-1/m,0]}(s)\,dy\,ds
+      \rightharpoonup
+      \rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      Zero ASAC defect removes the ASAC-paid angular pair-weight channel. The terminal atom lives in the native positive source-residue marginal after that channel is removed. These two facts are compatible in the current bookkeeping.
+
+      Legal-exit closure says the selected branch is no longer paid by projected, cutoff, boundary, or off-family records. Same-fluid ancestry keeps the branch licensed and allows finite donor telescoping.
+
+      These facts classify the branch. They do not force a quantitative terminal depletion estimate. A source atom can remain on the licensed branch after finite truncations.
+
+      The Zeno extraction gives local suitable compactness on fixed cylinders. A local Radon source measure can have a temporal atom at the terminal face. The model above has bounded local mass and a nonzero time-face limit.
+
+      Closing the temporal door means the class lacks L t p, p>1, control of the native source marginal. Closing the spatial door means the class lacks global transported-cylinder exhaustion. Closing the active-reserve door means the class lacks a scale-critical active- reserve. Closing the rigidity door means the class lacks a generated Liouville class.
+
+      These are absences of production theorems. Taken together, they do not create a new positive estimate. They describe the surviving obstruction class.
+
+      The installed records do not prove this dichotomy. The class B ASAC closed is exactly the formal complement of the right-hand side inside the extracted terminal atom branch.
+
+      BASACAll Doors Closed Atom Obstruction.A is recorded as a canonical obstruction class rather than a contradiction theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC All Reduced Routes Exhaustion Certificate
+    line_start: 65338
+    line_end: 65356
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65338
+    start_anchor: "\\subsection{Clay problem B ASAC All Reduced Routes Exhaustion
+      Certificate}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC closed live burden sharpening}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC All Reduced Routes Exhaustion Certificate}
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+      \]
+
+      The Holder bridge to BASACTime Face Anti Atom.A is valid. The direct route remains open because the terminal layer above has bounded L 1 s mass and divergent L p s norm for every p>1.
+
+      This route restates the scale-critical source depletion burden. The current branch has routed legal exits, ASAC defect, finite donor trees, temporal residence, rigidity, transported flux, ancestry quantization, and pressure endpoints. A fresh scale-critical reserve estimate remains required.
+
+      Quantized parent charge is blocked by diffuse legal same-fluid parent clouds. Minimal bad compactness sharpens the survivor to B ASAC closed,min and supplies diagnostic placement rather than contradiction.
+
+      Pressure/source carrier binding and Leray recombination remain conditional. Spatial elliptic pressure recovery and spatial Leray projection preserve shrinking heat-time support. A time-face spread theorem or independent terminal Leray gate package remains required.
+
+      The pure pressure-sustain residue has pressure quadratic-gradient carrier structure. Current inputs supply no pressure rigid class, directional trace saturation, or legal classification. The route remains a separate pressure endpoint.
+
+      Existing pressure legal records cover collar/boundary work, harmonic tails, cutoff/projector commutators, off-family tails, and packets outside the retained family. The retained pure pressure-sustain residue is an interior principal-local lobe after those exits. A fresh pure-strain legal class and terminal-weight summability estimate remain required.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC closed live burden sharpening
+    line_start: 65357
+    line_end: 65389
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65357
+    start_anchor: "\\subsection{Clay problem B ASAC closed live burden sharpening}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Outside-Audited-Families Search}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem B ASAC closed live burden sharpening}
+
+      It is a selected terminal Zeno native source atom after the six audited doors have all failed to produce an unconditional discharge.
+
+      \[
+      d\mu_m^{src}(y,s)
+      =
+      \rho(y)m\mathbf 1_{(-1/m,0]}(s)\,dy\,ds
+      \rightharpoonup
+      \rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le
+      \omega_R(\varepsilon)+o_m(1),
+      \qquad
+      \omega_R(\varepsilon)\downarrow0,
+      \]
+
+      This is sharper than broad pressure-source absolute continuity. It asks for terminal time-face spread of the native source marginal, using pressure/Leray structure as the production mechanism.
+
+      The first two items prevent pressure/Leray mass from drifting to an unrelated signed channel. The third item kills the terminal atom.
+
+      Pack-first zero-radius diagnostic placement is already done. It gives not Pack Q support, while it leaves the production problem open.
+
+      Broad Pressure SourceAC.A is too coarse. A proof of mere absolute continuity between pressure residue and source residue can still allow both residues to sit on the same terminal time face. The new burden needs a spread estimate.
+
+      General Localized Leray Source Tether.A ind is also too coarse. If the tether ends at signed no-free-sink or PRD, it returns to an audited conditional door. It must instead create terminal time-face spread.
+
+      Each subtarget counts only if it produces the displayed epsilon-modulus for the native source marginal on B ASAC closed.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Outside-Audited-Families Search
+    line_start: 65390
+    line_end: 65428
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65390
+    start_anchor: "\\subsection{Clay problem B ASAC Outside-Audited-Families Search}\n"
+    end_anchor: "\\subsection{Clay problem B ASAC Post-Ancestry/Pressure Alternative
+      Search}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem B ASAC Outside-Audited-Families Search}
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.
+      \]
+
+      A possible theorem would say that the native positive source measure cannot charge a terminal time slice because the time face has zero admissible parabolic capacity for the produced class.
+
+      The available data are finite local source mass and local suitable compactness. A finite Radon measure can charge a time slice. Current B ASAC production gives no capacity estimate with density vanishing on s=0.
+
+      Thus capacity exclusion requires a new theorem equivalent to a terminal anti-atom estimate.
+
+      Leray-type solutions have weak time continuity for velocity in linear energy spaces. The terminal source atom is a nonlinear one-sided source measure. Weak continuity of linear pairings leaves room for measure-valued jumps in selected quadratic source balances.
+
+      Heat smoothing acts across positive heat time. The obstruction lives on a shrinking terminal interval of length 1/m. The heat kernel has no uniform positive time interval available for smoothing before s=0.
+
+      so heat smoothing supplies no time-face anti-atom estimate under current scaling.
+
+      A backward uniqueness theorem would need a rigid PDE class, decay, or vanishing on an open time interval. B ASAC closed carries a terminal measure residue with no produced super-L 1 s residence and no generated rigid ancient class.
+
+      A frequency or Almgren-type monotonicity route would need a monotone quantity controlling the native positive source carrier. The installed route has energy, pressure, ASAC, and local source records, while the one-sided positive source carrier lacks a monotone frequency functional.
+
+      \[
+      |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+.
+      \]
+
+      Positive selection removes the cancellation needed for the standard compensated compactness route. A theorem strong enough to restore it is exactly positive source carrier depletion.
+
+      This pass rechecked BASACOutside Audited Families Search.A after transported-
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Finite Packet Leray Source Anchoring.A direct attempt
+    line_start: 65468
+    line_end: 65499
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65468
+    start_anchor: "\\subsection{Clay problem Finite Packet Leray Source Anchoring.A
+      direct attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+      Tether.A ind Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Finite Packet Leray Source Anchoring.A direct attempt}
+
+      Finite Packet Leray Source Anchoring.A asks for the Leray-projected pressure/source channel to remain anchored to the selected native source-current packet family strongly enough to contribute to Pressure Source Time Face Spread.A.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le \omega_R(\varepsilon)+o_m(1).
+      \]
+
+      Before terminal one-sided selection, Leray projection and pressure-source identities can be organized as signed packet relations. These identities can trace how source-current and pressure channels exchange mass across neighboring packet bands.
+
+      The obstruction occurs after localization, terminal weights, and positive-part extraction. A signed identity does not bound the selected positive part unless its signed partner remains usable, exits legally, or is paid by a donor/reserve theorem.
+
+      Same-fluidity keeps the branch licensed and preserves parent-child packet ancestry. It does not force the Leray-projected signed partner to remain in the selected positive terminal record.
+
+      After terminal weights, an anchored signed partner can become retained, legal, donor, or terminal Zeno. The first three channels are paid by existing records; the terminal Zeno case is the surviving atom.
+
+      Thus same-fluid packet anchoring returns to Terminal Weighted NoFree Sink.A ind.
+
+      The Leray projector is spatially nonlocal. Localization creates commutators and off-packet terms. Existing records route the legal commutator/cutoff pieces, while the principal selected positive source-current remains.
+
+      A theorem that bounds the remaining positive localized source-current is precisely Positive Remainder Depletion.A or Local Positive Source Carleson.A.
+
+      Anchoring is a carrier statement. It says where a finite-packet contribution belongs. It gives no lower residence time or L t p gain for the native source marginal.
+
+      A source atom can stay anchored to the same packet family and still concentrate in (-1/m,0].
+
+      Fi
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |
+    \subsection{PTC Linearization Closure}
+
+    Role: isolate the exact PTC-Lin theorem needed to close the linearization side of the D.7mn -> D.7mq reduction on the exact-potential branch.
+
+    \[
+    \boxed{
+    \mathcal P_{J,\varepsilon}^{pair}
+    =
+    \mathcal P_{J,\mathrm{lin}}^{pair}
+    +
+    \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon},
+    \qquad
+    \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon}\to 0.
+    }
+    \]
+
+    This is the first genuinely new upstream theorem in the exact-potential closure route.
+
+    \[
+    \left\|
+    c_{J,\varepsilon}(t,a)^{-1}\mathcal K_{J,\varepsilon}^{pair}(t,a)
+    -
+    \bigl(\mathbf W_J^{coc}(t,a)\bigr)^*
+    M_{J,\varepsilon}^{shape}(t,a)
+    \mathbf W_J^{coc}(t,a)
+    \right\|_{\mathrm{op}}
+    \le
+    \operatorname{Err}_{J,\varepsilon}^{lin}(t,a),
+    \]
+
+    \[
+    \operatorname{Err}_{J,\varepsilon}^{lin}(t,a)\to 0
+    \quad\text{on the selector-good family.}
+    \]
+
+    \[
+    \mathcal P_{J,\varepsilon}^{pair}
+    =
+    \mathcal P_{J,\mathrm{lin}}^{pair}
+    +
+    \operatorname{Err}_{J,\mathrm{lin}}^{pair,\varepsilon}.
+    \]
+
+    \[
+    \mathcal K_{J,\varepsilon}^{pair}(t,a)
+    =
+    W\,M_{J,\varepsilon}^{shape}(t,a)\,W^{*}
+    +
+    W\,B_{J,\varepsilon}(t,a)^{*}
+    +
+    B_{J,\varepsilon}(t,a)\,W^{*}
+    +
+    R_{J,\varepsilon}(t,a).
+    \]
+
+    So the real content of PTC-Lin.A is an averaged differentiability theorem for the transported pair vector.
+
+    So PTC-Lin.A is reduced further to one selector-good exceptional-set upgrading theorem: pointwise linearization away from a selector-small bad set, plus a controlled second moment for the reference coordinates, implies the averaged differentiability packet.
+
+    Everything else in PTC-Lin.A is now downstream algebra or a consequence of the already installed active-pair scale packet.
+
+    So the linearization side of the projective exact-potential branch admits one source-backed imported descendant: the good-set differentiability-in-measure packet already isolated in the selector transport note.
+
+    That frozen packet is stronger than bare Diff Exc, because it asks for localization and L p/2 control of the thresholded exceptional-set measure at the J-dependent schedule J, lin (a), not only vanishing for each fixed tolerance .
+
+    So if one tracks the frozen measurable-derivative splice rather than only the qualitative averaged differentiability packet, the honest remaining linearization debt is not just Diff Exc; it is the synchronized threshold modulus behind Sync Diff Quad together with the auxiliary scalar tolerance packet.
+
+    There is also a sharper finite-frame variant: instead of proving averaged differentiability over the whole selector-good pair family, one may prove uniform linearization on a finitely many selected balanced-frame directions. That alternate route is written in
+
+
+
+    \subsection{Residual Pairwise Closure From Directional record}
+
+    The directional observability record feeds the live residual pairwise-closure slot. This is downstream assembly, not hard projector debt.
+
+    \[
+    \boxed{
+    \Xi_J\le C_{\mathrm{sf},57914} |W_J|^2+\mathrm{Err}_J
+    \Longrightarrow
+    \mathcal E_J^{dir}+\mathcal E_J^{loop}
+    \le C_{\mathrm{sf},57917}
+    \mathcal E_J^{obs}+\mathrm{Err}_J.
+    }
+    \]
+
+    \[
+    \mathcal E_J^{dir}+\mathcal E_J^{loop}
+    \le C_{\mathrm{sf},57924}
+    \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
+    \]
+
+    \[
+    \mathcal E_J^{dir,\perp}+\mathcal E_J^{loop}
+    \le C_{\mathrm{sf},57930}
+    \mathcal E_J^{obs}+\mathrm{Err}_{J,\perp}.
+    \]
+
+    Insert the directional record into the residual pairwise-closure formulas already isolated on the live branch. Integrate over the active strip family. Absorb branch-specific residuals into one explicit error record.
+
+    On the exact-potential branch, once the angular record is available in the D.7mr2 form from
+
+
+
+    \subsection{Route B Euclidean Closure Packet}
+
+    Record the downstream Euclidean discharge/export route for the classical Navier-Stokes theorem without importing the old geometric carrier.
+
+    This is no longer the primary internal branch lock. It is the whole-space R 3 export packet that would have to be proved after the torus-first internal route closes.
+
+    \[
+    \sup_n \|u^{(n)}\|_{L_t^\infty L_x^2 \cap L_t^2 H_x^1} < \infty,
+    \qquad
+    \sup_n \|\partial_t u^{(n)}\|_{L_t^2 H_x^{-1}} < \infty.
+    \]
+
+    \[
+    u^{(n)} \to u
+    \quad\text{in } L^2_{\mathrm{loc}}((0,T)\times R^3),
+    \]
+
+    \[
+    u^{(n)} \otimes u^{(n)} \to u \otimes u
+    \quad\text{in distributions}.
+    \]
+
+    so u is an exact Euclidean Navier-Stokes solution on the same theorem surface.
+
+    That inherited barrier is not the same thing as the 4 -> 1 return theorem. It is a one-way passage from the approximation family to the exact limit; the same-shape recertification problem is the stronger exact-solution statement tracked separately in
+
+    \[
+    E_N(t) := \sum_{j\ge N} 2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2,
+    \qquad
+    D_N(t) := \sum_{j\ge N} 2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    These are the high-frequency enstrophy and dissipation functionals used by the live Euclidean bridge.
+
+    \[
+    \mathcal L_N(t)
+    :=
+    1 + \sum_{k\le N-4} 2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}.
+    \]
+
+    This is the exact coefficient used by the live Euclidean route. No L t 1 L x control of u is imported.
+
+    Under the stricter audit standard, this is the fixed-cutoff coefficient input. On the local 4 -> 1 surface, the same coefficient is sufficient because the tail-energy recertification keeps the coercive damping Q N 2 2N T N, and that 2 2N term dominates the 2 3N/2 growth from L N for large cutoffs.
+
+    The remaining high-side packet is no longer treated as a single finite-band spill. The current packet split isolates a threshold-local spill collar, separates the lifted high-side remainder, and treats the genuine high-high packet independently. The full proposition-level discharge of that repaired split remains part of the live theorem burden.
+
+    Here the strict low-mode packet lands on NE N, while the threshold-local spill collar lands on N E N.
+
+    The older L N version remains the originally declared theorem surface, but it is no longer the default supported candidate. The default live candidate is now N , not pure N, because the threshold-local spill collar adds the finite coefficient N .
+
+    The strongest auxiliary upstream repair candidate remains the Body 1 kernelized lifted-band leakage route on the exact shell geometry N+M<k<j-4. That auxiliary line is real but not theorem-primary: the scale-side lifted packet carries a genuine off-diagonal factor 2 -(j-k) , yet the current Body 1 integration audit still leaves a residual 2 k weight, and the coupled lower-shell gain needed to remove that weight is not discharged.
+
+    The continuation half of Body 4 survives the coefficient upgrade at fixed threshold, provided the remaining proposition-level packets are reclosed on the same upgraded interface.
+
+
+
+    \subsection{Clay problem BASACAll Doors Closed Atom Obstruction.A}
+
+    Each path remains conditional. The combined branch tests what remains when every named exit is assumed closed.
+
+    \[
+    (u_*,p_*,\mu_*^{src})
+    \]
+
+    \[
+    \mu_*^{src}(Q_1^-)
+    \ge c_0>0.
+    \]
+
+    \[
+    d\mu_m^{src}(y,s)
+    =
+    \rho(y)m\mathbf 1_{(-1/m,0]}(s)\,dy\,ds
+    \rightharpoonup
+    \rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    Zero ASAC defect removes the ASAC-paid angular pair-weight channel. The terminal atom lives in the native positive source-residue marginal after that channel is removed. These two facts are compatible in the current bookkeeping.
+
+    Legal-exit closure says the selected branch is no longer paid by projected, cutoff, boundary, or off-family records. Same-fluid ancestry keeps the branch licensed and allows finite donor telescoping.
+
+    These facts classify the branch. They do not force a quantitative terminal depletion estimate. A source atom can remain on the licensed branch after finite truncations.
+
+    The Zeno extraction gives local suitable compactness on fixed cylinders. A local Radon source measure can have a temporal atom at the terminal face. The model above has bounded local mass and a nonzero time-face limit.
+
+    Closing the temporal door means the class lacks L t p, p>1, control of the native source marginal. Closing the spatial door means the class lacks global transported-cylinder exhaustion. Closing the active-reserve door means the class lacks a scale-critical active- reserve. Closing the rigidity door means the class lacks a generated Liouville class.
+
+    These are absences of production theorems. Taken together, they do not create a new positive estimate. They describe the surviving obstruction class.
+
+    The installed records do not prove this dichotomy. The class B ASAC closed is exactly the formal complement of the right-hand side inside the extracted terminal atom branch.
+
+    BASACAll Doors Closed Atom Obstruction.A is recorded as a canonical obstruction class rather than a contradiction theorem.
+
+
+
+    \subsection{Clay problem B ASAC All Reduced Routes Exhaustion Certificate}
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+    \]
+
+    The Holder bridge to BASACTime Face Anti Atom.A is valid. The direct route remains open because the terminal layer above has bounded L 1 s mass and divergent L p s norm for every p>1.
+
+    This route restates the scale-critical source depletion burden. The current branch has routed legal exits, ASAC defect, finite donor trees, temporal residence, rigidity, transported flux, ancestry quantization, and pressure endpoints. A fresh scale-critical reserve estimate remains required.
+
+    Quantized parent charge is blocked by diffuse legal same-fluid parent clouds. Minimal bad compactness sharpens the survivor to B ASAC closed,min and supplies diagnostic placement rather than contradiction.
+
+    Pressure/source carrier binding and Leray recombination remain conditional. Spatial elliptic pressure recovery and spatial Leray projection preserve shrinking heat-time support. A time-face spread theorem or independent terminal Leray gate package remains required.
+
+    The pure pressure-sustain residue has pressure quadratic-gradient carrier structure. Current inputs supply no pressure rigid class, directional trace saturation, or legal classification. The route remains a separate pressure endpoint.
+
+    Existing pressure legal records cover collar/boundary work, harmonic tails, cutoff/projector commutators, off-family tails, and packets outside the retained family. The retained pure pressure-sustain residue is an interior principal-local lobe after those exits. A fresh pure-strain legal class and terminal-weight summability estimate remain required.
+
+
+
+    \subsection{Clay problem B ASAC closed live burden sharpening}
+
+    It is a selected terminal Zeno native source atom after the six audited doors have all failed to produce an unconditional discharge.
+
+    \[
+    d\mu_m^{src}(y,s)
+    =
+    \rho(y)m\mathbf 1_{(-1/m,0]}(s)\,dy\,ds
+    \rightharpoonup
+    \rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le
+    \omega_R(\varepsilon)+o_m(1),
+    \qquad
+    \omega_R(\varepsilon)\downarrow0,
+    \]
+
+    This is sharper than broad pressure-source absolute continuity. It asks for terminal time-face spread of the native source marginal, using pressure/Leray structure as the production mechanism.
+
+    The first two items prevent pressure/Leray mass from drifting to an unrelated signed channel. The third item kills the terminal atom.
+
+    Pack-first zero-radius diagnostic placement is already done. It gives not Pack Q support, while it leaves the production problem open.
+
+    Broad Pressure SourceAC.A is too coarse. A proof of mere absolute continuity between pressure residue and source residue can still allow both residues to sit on the same terminal time face. The new burden needs a spread estimate.
+
+    General Localized Leray Source Tether.A ind is also too coarse. If the tether ends at signed no-free-sink or PRD, it returns to an audited conditional door. It must instead create terminal time-face spread.
+
+    Each subtarget counts only if it produces the displayed epsilon-modulus for the native source marginal on B ASAC closed.
+
+
+
+    \subsection{Clay problem B ASAC Outside-Audited-Families Search}
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.
+    \]
+
+    A possible theorem would say that the native positive source measure cannot charge a terminal time slice because the time face has zero admissible parabolic capacity for the produced class.
+
+    The available data are finite local source mass and local suitable compactness. A finite Radon measure can charge a time slice. Current B ASAC production gives no capacity estimate with density vanishing on s=0.
+
+    Thus capacity exclusion requires a new theorem equivalent to a terminal anti-atom estimate.
+
+    Leray-type solutions have weak time continuity for velocity in linear energy spaces. The terminal source atom is a nonlinear one-sided source measure. Weak continuity of linear pairings leaves room for measure-valued jumps in selected quadratic source balances.
+
+    Heat smoothing acts across positive heat time. The obstruction lives on a shrinking terminal interval of length 1/m. The heat kernel has no uniform positive time interval available for smoothing before s=0.
+
+    so heat smoothing supplies no time-face anti-atom estimate under current scaling.
+
+    A backward uniqueness theorem would need a rigid PDE class, decay, or vanishing on an open time interval. B ASAC closed carries a terminal measure residue with no produced super-L 1 s residence and no generated rigid ancient class.
+
+    A frequency or Almgren-type monotonicity route would need a monotone quantity controlling the native positive source carrier. The installed route has energy, pressure, ASAC, and local source records, while the one-sided positive source carrier lacks a monotone frequency functional.
+
+    \[
+    |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+.
+    \]
+
+    Positive selection removes the cancellation needed for the standard compensated compactness route. A theorem strong enough to restore it is exactly positive source carrier depletion.
+
+    This pass rechecked BASACOutside Audited Families Search.A after transported-boundary and time-face components stayed open.
+
+    The outside-family search remains exhausted at current installed-surface resolution. Parabolic capacity, weak trace continuity, heat-kernel smoothing, backward uniqueness, frequency monotonicity, and compensated compactness all require an additional theorem that excludes the terminal time-face atom or restores signed cancellation after positive selection.
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.
+    \]
+
+    A finite Radon source measure can charge a time slice; weak velocity trace continuity leaves nonlinear selected source jumps; heat smoothing has no uniform positive time interval in the terminal layer; backward uniqueness needs a rigid class; frequency monotonicity lacks a native positive-source functional; compensated compactness loses cancellation after positive-part extraction.
+
+
+
+    \subsection{Clay problem Finite Packet Leray Source Anchoring.A direct attempt}
+
+    Finite Packet Leray Source Anchoring.A asks for the Leray-projected pressure/source channel to remain anchored to the selected native source-current packet family strongly enough to contribute to Pressure Source Time Face Spread.A.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le \omega_R(\varepsilon)+o_m(1).
+    \]
+
+    Before terminal one-sided selection, Leray projection and pressure-source identities can be organized as signed packet relations. These identities can trace how source-current and pressure channels exchange mass across neighboring packet bands.
+
+    The obstruction occurs after localization, terminal weights, and positive-part extraction. A signed identity does not bound the selected positive part unless its signed partner remains usable, exits legally, or is paid by a donor/reserve theorem.
+
+    Same-fluidity keeps the branch licensed and preserves parent-child packet ancestry. It does not force the Leray-projected signed partner to remain in the selected positive terminal record.
+
+    After terminal weights, an anchored signed partner can become retained, legal, donor, or terminal Zeno. The first three channels are paid by existing records; the terminal Zeno case is the surviving atom.
+
+    Thus same-fluid packet anchoring returns to Terminal Weighted NoFree Sink.A ind.
+
+    The Leray projector is spatially nonlocal. Localization creates
+    % ... source excerpt truncated for packet size ...
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PTC Linearization Closure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58966
+  line_start: 58966
+  line_end: 59035
+  start_anchor: "\\subsection{PTC Linearization Closure}\n"
+  end_anchor: "\\subsection{PTC Shape Normalization Closure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PTC Linearization Closure as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58966
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Residual Pairwise Closure From Directional record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59441
+  line_start: 59441
+  line_end: 59471
+  start_anchor: "\\subsection{Residual Pairwise Closure From Directional record}\n"
+  end_anchor: "\\subsection{Restricted CG Reference-Gap Persistence}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Residual Pairwise Closure From
+    Directional record as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59441
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Route B Euclidean Closure Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59638
+  line_start: 59638
+  line_end: 59692
+  start_anchor: "\\subsection{Route B Euclidean Closure Packet}\n"
+  end_anchor: "\\subsection{Same-Scale Coefficient Kill Into Weighted Carrier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Route B Euclidean Closure Packet
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59638
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem BASACAll Doors Closed Atom Obstruction.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65300
+  line_start: 65300
+  line_end: 65337
+  start_anchor: "\\subsection{Clay problem BASACAll Doors Closed Atom Obstruction.A}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC All Reduced Routes Exhaustion Certificate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem BASACAll Doors Closed
+    Atom Obstruction.A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65300
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC All Reduced Routes Exhaustion Certificate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65338
+  line_start: 65338
+  line_end: 65356
+  start_anchor: "\\subsection{Clay problem B ASAC All Reduced Routes Exhaustion Certificate}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC closed live burden sharpening}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC All Reduced
+    Routes Exhaustion Certificate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65338
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC closed live burden sharpening
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65357
+  line_start: 65357
+  line_end: 65389
+  start_anchor: "\\subsection{Clay problem B ASAC closed live burden sharpening}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Outside-Audited-Families Search}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC closed live
+    burden sharpening as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65357
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Outside-Audited-Families Search
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65390
+  line_start: 65390
+  line_end: 65428
+  start_anchor: "\\subsection{Clay problem B ASAC Outside-Audited-Families Search}\n"
+  end_anchor: "\\subsection{Clay problem B ASAC Post-Ancestry/Pressure Alternative
+    Search}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Outside-Audited-Families
+    Search as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65390
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Finite Packet Leray Source Anchoring.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65468
+  line_start: 65468
+  line_end: 65499
+  start_anchor: "\\subsection{Clay problem Finite Packet Leray Source Anchoring.A
+    direct attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+    Tether.A ind Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Finite Packet Leray
+    Source Anchoring.A direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65468
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-56
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-56.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

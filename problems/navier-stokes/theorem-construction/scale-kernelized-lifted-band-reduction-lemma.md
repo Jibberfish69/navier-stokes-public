@@ -45,15 +45,35 @@ Define the scale-side kernelized lifted-band carrier
 \|\Delta_j u^{(n)}(t)\|_{L^2_x}.
 ```
 
-Equivalently, since `\|\nabla \Delta_j u^{(n)}\|_{L^2_x}\sim
-2^j\|\Delta_j u^{(n)}\|_{L^2_x}`, this may be written schematically as
+The dyadic Bernstein constants `c_{\nabla},C_{\nabla}>0` satisfy
 
 ```math
-\mathfrak K_N^{scale}[u^{(n)}](t)
-\sim
+c_{\nabla}2^j\|\Delta_j u^{(n)}\|_{L^2_x}
+\le
+\|\nabla \Delta_j u^{(n)}\|_{L^2_x}
+\le
+C_{\nabla}2^j\|\Delta_j u^{(n)}\|_{L^2_x}.
+```
+
+Thus the following shell sum is an explicitly constant-equivalent version of
+`\mathfrak K_N^{scale}`:
+
+```math
+K_{N,dy}^{scale}[u^{(n)}](t)
+:=
 \sum_{j\ge N}\sum_{N+M<k<j-4}
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
 2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+```
+
+It obeys
+
+```math
+c_{\nabla}K_{N,dy}^{scale}[u^{(n)}](t)
+\le
+\mathfrak K_N^{scale}[u^{(n)}](t)
+\le
+C_{\nabla}K_{N,dy}^{scale}[u^{(n)}](t).
 ```
 
 ## Lemma Statement
@@ -65,7 +85,8 @@ For every fixed collar width `M\ge 4`,
 \left|
 \left\langle \mathcal{T}^{lift}_{j,n},\Delta_j u^{(n)}\right\rangle
 \right|
-\lesssim_M
+\le
+C_{K,M}
 \mathfrak K_N^{scale}[u^{(n)}](t)
 ```
 
@@ -112,7 +133,8 @@ The standard kernel commutator estimate gives
 
 ```math
 \|[\Delta_j,\Delta_k u^{(n)}\cdot\nabla]\widetilde\Delta_j u^{(n)}\|_{L^2_x}
-\lesssim
+\le
+C_{comm}
 2^{-j}\|\nabla \Delta_k u^{(n)}\|_{L^\infty_x}\,
 \|\nabla \widetilde\Delta_j u^{(n)}\|_{L^2_x}.
 ```
@@ -121,17 +143,19 @@ Bernstein yields
 
 ```math
 \|\nabla \Delta_k u^{(n)}\|_{L^\infty_x}
-\lesssim
+\le
+C_B
 2^{5k/2}\|\Delta_k u^{(n)}\|_{L^2_x}
 =
-2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,2^j.
+C_B\,2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,2^j.
 ```
 
 Hence
 
 ```math
 \|[\Delta_j,\Delta_k u^{(n)}\cdot\nabla]\widetilde\Delta_j u^{(n)}\|_{L^2_x}
-\lesssim
+\le
+C_{lh}
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
 \|\nabla \Delta_j u^{(n)}\|_{L^2_x}.
 ```
@@ -145,7 +169,8 @@ Pairing with `\Delta_j u^{(n)}` gives
 \Delta_j u^{(n)}
 \right\rangle
 \right|
-\lesssim
+\le
+C_{lh}'
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
 \|\nabla \Delta_j u^{(n)}\|_{L^2_x}\,
 \|\Delta_j u^{(n)}\|_{L^2_x}.
@@ -162,14 +187,16 @@ For the symmetric term,
 \Delta_j u^{(n)}
 \right\rangle
 \right|
-\lesssim
+\le
+C_{hl}
 \|\nabla\Delta_k u^{(n)}\|_{L^\infty_x}\,
 \|\widetilde\Delta_j u^{(n)}\|_{L^2_x}\,
 \|\Delta_j u^{(n)}\|_{L^2_x}.
 ```
 
 Using the same Bernstein bound on the `k` shell and
-`\|\nabla \Delta_j u^{(n)}\|_{L^2_x}\sim 2^j\|\Delta_j u^{(n)}\|_{L^2_x}`,
+`c_{\nabla}2^j\|\Delta_j u^{(n)}\|_{L^2_x}
+\le\|\nabla \Delta_j u^{(n)}\|_{L^2_x}`,
 
 ```math
 \left|
@@ -178,7 +205,8 @@ Using the same Bernstein bound on the `k` shell and
 \Delta_j u^{(n)}
 \right\rangle
 \right|
-\lesssim
+\le
+C_{hl}'
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,
 \|\nabla \Delta_j u^{(n)}\|_{L^2_x}\,
 \|\Delta_j u^{(n)}\|_{L^2_x}.
@@ -193,7 +221,8 @@ Summing over `N+M<k<j-4` and then over `j\ge N` proves
 \left|
 \left\langle \mathcal{T}^{lift}_{j,n},\Delta_j u^{(n)}\right\rangle
 \right|
-\lesssim_M
+\le
+C_{K,M}
 \mathfrak K_N^{scale}[u^{(n)}](t).
 ```
 

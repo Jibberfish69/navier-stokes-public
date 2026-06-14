@@ -32,7 +32,7 @@ B_{ASAC}\Longrightarrow B_{ASAC}^{TA}
 
 ### Quantitative CKN / dissipation absolute continuity
 
-A plausible input is
+A candidate input is
 
 ```math
 QuantitativeSourceDissipationAbsoluteContinuity.A.

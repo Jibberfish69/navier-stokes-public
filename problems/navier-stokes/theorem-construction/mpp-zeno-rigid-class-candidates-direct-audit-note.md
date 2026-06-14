@@ -55,7 +55,7 @@ is not installed.
 Type I would require a scale-invariant pointwise envelope such as:
 
 ```math
-|u_\ast(y,s)|\lesssim |s|^{-1/2}.
+|u_\ast(y,s)|\le C_I |s|^{-1/2}.
 ```
 
 The source-pulse branch supplies a lower bound on active source residue, not an

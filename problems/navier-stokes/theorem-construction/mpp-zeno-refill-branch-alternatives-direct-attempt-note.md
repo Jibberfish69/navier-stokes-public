@@ -36,7 +36,7 @@ instead of reaching a fixed preterminal entrance surface.
 Each edge inherits a source-pulse lower bound:
 
 ```math
-\pi(P^{-m-1}\to P^{-m})\gtrsim c_0
+\pi(P^{-m-1}\to P^{-m})\ge c_{\mathrm{ZR}}c_0
 ```
 
 after passing to the normalized active source branch.

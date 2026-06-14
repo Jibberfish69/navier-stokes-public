@@ -83,8 +83,8 @@ The affine quotient is linear in the scale source `\widetilde Z`, but
 `\widetilde Z` itself is already a stress-level object:
 
 ```math
-\widetilde Z
-\sim
+\widetilde Z_{\ell}^{stress}
+:=
 \tau_\ell^{H^1}[u].
 \tag{6}
 ```

@@ -139,7 +139,7 @@ The deformation gauge obeys the usual strain ledger:
 
 ```math
 \frac{d}{dt}\log\Gamma_Q(t)
-\lesssim
+\le C_\Gamma
 \|\nabla u(\cdot,t)\|_{L^\infty(Q_t)}.
 ```
 

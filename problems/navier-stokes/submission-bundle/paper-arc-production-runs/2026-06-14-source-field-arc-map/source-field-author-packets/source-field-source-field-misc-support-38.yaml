@@ -1,0 +1,937 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-38
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-38
+  sequence: 190
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 38
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 24506
+  line_end: 24802
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24506
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24536
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24589
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24629
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24686
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24705
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24732
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24777
+  subsection_titles:
+  - Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno residue
+  - Refill Tree Well Founded.A - direct loop note
+  - Residual split and Weighted Adj Res.A
+  - Residual Pair.A conditional decomposition
+  - Retained Common Good Family Mass Lemma For Sg 4 Tps Ep A
+  - RetainedCMSource Residue NoInternal Escape.A
+  - Retained Face Amplitude Gain.A direct retained-face attempt
+  - Reverse Holder Parent Concentration.A from Original Smooth Data
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno
+      residue
+    line_start: 24506
+    line_end: 24535
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24506
+    start_anchor: "\\subsection{Refill Tree Well Founded.A non-Zeno discharge and
+      terminal-Zeno residue}\n"
+    end_anchor: "\\subsection{Refill Tree Well Founded.A - direct loop note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno residue}
+
+      Partial discharge. The non-Zeno refill-tree branches close. The terminal Zeno branch remains open and is exactly the remaining target.
+
+      \[
+      \sum_m r_m^2=\infty
+      \]
+
+      A refill edge moves backward by a parabolic amount comparable to r m 2 at scale r m. If
+
+      \[
+      \sum_m r_m^2=\infty,
+      \]
+
+      then the branch reaches a fixed preterminal time after finitely or countably many steps. At a fixed preterminal time, original smoothness gives high-shell decay. Hence every preterminal entrance leaf has vanishing normalized high-frequency source residue as N .
+
+      Insert these entrance leaves into the finite-tree identity. The boundary terms and legal losses are summable by the packet record. Persistent order-one normalized source mass at the root contradicts the vanishing entrance leaves plus legal losses. Thus all non-Zeno branches are controlled.
+
+      \[
+      \sum_m r_m^2<\infty,
+      \qquad r_m\downarrow0.
+      \]
+
+      This branch never reaches a fixed preterminal entrance time. Original smooth high-shell decay is unavailable at the limiting endpoint. Raw energy also fails at source-pulse normalization, since a shrinking leaf can carry order-one normalized residue while raw energy remains finite.
+
+      Compactness extracts a local suitable ancient source-residue object. Current inputs do not place that object in Type I, finite global energy, critical-smallness, bounded-vorticity, self-similar, two-dimensional, axisymmetric, or source-cancellation class.
+
+      Non-Zeno refill trees are discharged. Terminal Zeno remains the unique obstruction.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Refill Tree Well Founded.A - direct loop note
+    line_start: 24536
+    line_end: 24564
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24536
+    start_anchor: "\\subsection{Refill Tree Well Founded.A - direct loop note}\n"
+    end_anchor: "\\subsection{Remaining Source Packet Closure Audit For Qsp 11R To
+      Sg 4B}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Refill Tree Well Founded.A - direct loop note}
+
+      With Local Donor Balance.A installed, prove that every legal terminal source-refill tree rooted at a source-balanced child pulse has controlled terminal leaves or spends a finite scale-normalized reserve.
+
+      Entrance leaves are controlled when a branch reaches a fixed preterminal time or fixed positive entrance scale. Original smoothness supplies high-shell decay there, and the finite-tree identity then contradicts persistent normalized source-pulse mass.
+
+      \[
+      \sum_m r_m^2=\infty.
+      \]
+
+      \[
+      \sum_m r_m^2<\infty,
+      \qquad
+      r_m\downarrow0.
+      \]
+
+      Finite dyadic banding permits this geometric scale cascade. Same-fluid transport preserves the legal chain. Original smoothness on compact preterminal intervals gives no terminal endpoint leaf bound for Zeno leaves.
+
+      Raw leaf energy also fails at source-pulse normalization. A leaf can carry order-one normalized residue on shrinking physical volume while raw L 2 energy remains finite.
+
+      Finite banding restricts shell ranges and leaves physical/triadic branching unrestricted. It cannot produce bounded-depth or bounded-branching refill trees.
+
+      Compact Zeno extraction gives a local suitable ancient source-residue object. The current route supplies no rigid class and no source-residue Liouville theorem for that object.
+
+      The first would charge terminal Zeno refill trees by a scale-normalized donor reserve. The second would extract a rigid ancient source-residue limit from any uncharged Zeno branch and force the inherited residue to vanish.
+
+      Since both Zeno alternatives are open under current installed inputs, Two Tower Donor Depletion.A remains unpromoted.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Residual split and Weighted Adj Res.A
+    line_start: 24589
+    line_end: 24628
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24589
+    start_anchor: "\\subsection{Residual split and Weighted Adj Res.A}\n"
+    end_anchor: "\\subsection{Residual Pair.A conditional decomposition}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Residual split and Weighted Adj Res.A}
+
+      \[
+      L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+      \qquad b_k=u_{\le k},
+      \]
+
+      \[
+      L_{j,k}w_j=R.
+      \]
+
+      \[
+      R=R^{comm}+R^{press}+R^{cut}+R^{off}.
+      \]
+
+      \[
+      \|R^{comm}\|_{L_t^2H_x^{-1}}^2
+      \le C c_M^2\int_I\sum_{q>N}D_q(t)\,dt,
+      \]
+
+      \[
+      \|R^{press}\|_{L_t^2H_x^{-1}}^2
+      \le C\int_I\sum_{q>N}D_q(t)\,dt+o_N(1),
+      \]
+
+      Projection commutators are Calderon-Zygmund operators applied to the same low-high products already assigned to R comm and R coeff . The H -1 shell gain yields
+
+      In the pressure-normalized form, solve the local pressure Poisson equation on the heat-scale carrier and subtract the local harmonic or lower-order pressure part. Calderon-Zygmund boundedness controls the localized double divergence source in L 2, while high-frequency localization supplies the H -1 gain. The same tail bound follows once the pressure carrier is the same carrier used by the adjoint packet family.
+
+      This is the only component whose proof is a genuine license rather than pure bookkeeping.
+
+      The off-packet term is supported outside the terminal heat-tube collar or in shell-separated interactions. Terminal localization and the Littlewood-Paley tail imply
+
+      The bounded overlap of the tile atlas prevents the off-packet leakage from being counted with unbounded multiplicity.
+
+      Choose M so c M is absorbed and choose below the available dissipation margin. This proves Residual Pair.A.
+
+      The residual-to-adjoint-pairing implication is proved under the exact packet-frame licenses, and the component estimates are recorded above. The pressure term remains the decisive live license if the principal packet equation is not built in the projected solenoidal class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Residual Pair.A conditional decomposition
+    line_start: 24629
+    line_end: 24685
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24629
+    start_anchor: "\\subsection{Residual Pair.A conditional decomposition}\n"
+    end_anchor: "\\subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps
+      Ep A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Residual Pair.A conditional decomposition}
+
+      Conditional theorem-facing decomposition. The residual estimate is reduced to explicit packet-frame licenses. Under the coefficient-good same-fluid packet hypotheses, coercive dissipation estimates control the commutator, cutoff, coefficient-remainder, and off-packet terms. The pressure term requires a projected / solenoidal packet-frame license or an equivalent pressure-normalized residual theorem.
+
+      \[
+      L_{j,k}w_j=R_{j,k},
+      \qquad
+      L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+      \qquad b_k=u_{\le k},
+      \]
+
+      This is the dissipation side of Weighted Adj Res.A in the parent-or-charge drain route.
+
+      \[
+      R=R^{coeff}+R^{comm}+R^{press}+R^{cut}+R^{off}.
+      \]
+
+      R coeff is the affine-frame low-flow and oscillatory strain remainder after extracting the central transport and central strain gauge; R comm is the low-high / strict shell commutator remainder; R press is the pressure or Leray-projection residual; R cut is the packet cutoff commutator; R off contains shell-separated and off-packet interactions.
+
+      \[
+      \mathcal C(T)
+      :=\int_{I_T}
+      \left[r_T^2\|\nabla^2b_k\|_{L^\infty(Q_T^*)}
+      +r_T\|\nabla A_k\|_{L^\infty(Q_T^*)}\right]dt
+      \le \varepsilon_M.
+      \]
+
+      After extracting the affine low-flow frame and central strain matrix, each remaining coefficient error carries this M factor. In heat-scale units this gives
+
+      \[
+      \|R^{coeff}\|_{L_t^2H_x^{-1}}^2
+      \le C\varepsilon_M^2\int_I\sum_{q>N}D_q(t)dt.
+      \]
+
+      Thus R coeff is absorbable after choosing the shell gap / coefficient stopping parameter so that M is small.
+
+      \[
+      \|R^{comm}_{j,k}\|_{H^{-1}}
+      \le C_{\mathrm{sf},23159} 2^{-j}\|R^{comm}_{j,k}\|_2
+      \le C_{\mathrm{sf},23160} c_M\,\nu^{1/2}2^j\|w_j\|_2,
+      \]
+
+      This imports the repaired gradient commutator and low-pass collar estimates only at the residual H -1 level, where the high-frequency derivative loss is cheaper than in the previous active- routes.
+
+      The cutoff term is controlled once the packet-factor derivative record is admitted into the same residua
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained Common Good Family Mass Lemma For Sg 4 Tps Ep A
+    line_start: 24686
+    line_end: 24704
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24686
+    start_anchor: "\\subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps
+      Ep A}\n"
+    end_anchor: "\\subsection{RetainedCMSource Residue NoInternal Escape.A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps Ep A}
+
+      Conditional theorem. This closes the common-family bookkeeping once each selection packet supplies an explicit loss budget.
+
+      \[
+      \mu(G)=m_0>0.
+      \]
+
+      \[
+      \mu(B_i)\le \varepsilon_i.
+      \]
+
+      \[
+      G^{com}:=G\setminus\bigcup_i B_i.
+      \]
+
+      The next source work is to prove those loss budgets for the corresponding selections.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: RetainedCMSource Residue NoInternal Escape.A
+    line_start: 24705
+    line_end: 24731
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24705
+    start_anchor: "\\subsection{RetainedCMSource Residue NoInternal Escape.A}\n"
+    end_anchor: "\\subsection{Retained Face Amplitude Gain.A direct retained-face
+      attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{RetainedCMSource Residue NoInternal Escape.A}
+
+      The first fact is installed by CM-exit discipline. The second fact is the stronger supplier theorem and remains pending.
+
+      \[
+      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      \]
+
+      \[
+      \mu_*^{sing}>0.
+      \]
+
+      If that residue is used as the genuine terminal nonsmooth occurrence, then it cannot remain as an internal retained CM counterexample.
+
+      \[
+      \text{source-pulse terminal occurrence}
+      \Longrightarrow
+      \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      That stronger route is still equivalent, at the current source-wall resolution, to proving a source-payment theorem such as Scale Critical Tree Carleson.A or a non-Carleson temporal anti-atom theorem such as Temporal Non Atomic Source.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Retained Face Amplitude Gain.A direct retained-face attempt
+    line_start: 24732
+    line_end: 24776
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24732
+    start_anchor: "\\subsection{Retained Face Amplitude Gain.A direct retained-face
+      attempt}\n"
+    end_anchor: "\\subsection{Reverse Holder Parent Concentration.A from Original
+      Smooth Data}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: "\\subsection{Retained Face Amplitude Gain.A direct retained-face attempt}\n\nFailed
+      direct discharge. The retained-face amplitude strategy isolates a useful structure:
+      Pack Q controls accumulated linear strain along same-fluid paths, and Part N,Q
+      organizes the pressure/viscous participation record. However, these two faces
+      do not supply the high-frequency tail modulus needed to propagate scale-critical
+      packet amplitude smallness to terminal windows. The missing estimate is exactly
+      the Field/high-tail side of the source wall.\n\n\\[\nr_P=2^{-j_P},\n\\]\n\n\\[\na_P(t):=\\frac{\\|U_P(t)\\|_2}{\\nu
+      r_P^{1/2}}.\n\\]\n\nThis would imply the conditional cycle estimate and then
+      the local positive source Carleson bound.\n\n\\[\n(\\partial_t+u_{\\le j-C}\\cdot\\nabla-\\nu\\Delta)U_P\n=\n-S_{\\le
+      j-C}U_P+R_P.\n\\]\n\nThe dangerous linear term is the low/intermediate strain
+      S j-C . Define the gain\n\n\\[\nG_P(t)=\\exp\\left(\\int_{t_0}^{t}\\lambda_{\\max}^+(S_{\\le
+      j-C}(X_P(s),s))\\,ds\\right),\n\\]\n\n\\[\n\\widetilde a_P(t)=G_P(t)^{-1}a_P(t).\n\\]\n\nSince
+      the deformation solves F=( u)(X(a,t),t)F, this gives a finite bound on accumulated
+      positive strain along retained same-fluid paths. Thus the linear gain is controlled
+      by the Pack face.\n\nThis is enough to keep pressure/viscous participation terms
+      in the legal record at that finite depth. It does not by itself impose a high-frequency
+      modulus on u or on all dyadic packet amplitudes beyond the threshold.\n\nThe
+      damping term comes from heat. The finite linear gain is controlled by Pack Q.
+      The remaining issue is the nonlinear remainder R P. The needed estimate is\n\nThis
+      estimate is not a consequence of Pack Q+Part N,Q . It is a high-high tail/source
+      estimate. In source-wall language it is a form of\n\nFor any fixed t 0<T *,
+      classical smoothness gives high-frequency decay at t 0. A first-crossing argument
+      would propagate that decay if the envelope inequality above were already known.
+      The proof of that envelope inequality requires control of terminal high-high
+      transfer on shrinking windows. That \n% ... source excerpt truncated for packet
+      size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Reverse Holder Parent Concentration.A from Original Smooth Data
+    line_start: 24777
+    line_end: 24802
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24777
+    start_anchor: "\\subsection{Reverse Holder Parent Concentration.A from Original
+      Smooth Data}\n"
+    end_anchor: "\\subsection{Same Fluid Source Residence.Direct Continuation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Reverse Holder Parent Concentration.A from Original Smooth Data}
+
+      \[
+      \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+      \qquad
+      |\mathcal C(P)|\le B,
+      \qquad
+      \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+      \]
+
+      Finite frequency-band complexity bounds shell type. It does not bound physical packet multiplicity or triadic phase multiplicity. A diffuse parent measure can take the form
+
+      \[
+      \pi_P\sfcomp{23293} M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+      \qquad M\to\infty,
+      \]
+
+      Raw orthogonality prices donor energy at the wrong normalization. A diffuse donor family can have small raw quadratic cost while maintaining order-one normalized child-feeding source mass.
+
+      Same-fluid transport preserves legal ancestry after a parent is chosen. It does not select a concentrated parent or price parent entropy.
+
+      Pressure/cutoff routing removes legal losses. It does not charge legal diffuse parentage.
+
+      Reverse Holder Parent Concentration.A remains open as an independent supplier and reduces to the scale-critical tree-Carleson reserve.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno residue}
+
+    Partial discharge. The non-Zeno refill-tree branches close. The terminal Zeno branch remains open and is exactly the remaining target.
+
+    \[
+    \sum_m r_m^2=\infty
+    \]
+
+    A refill edge moves backward by a parabolic amount comparable to r m 2 at scale r m. If
+
+    \[
+    \sum_m r_m^2=\infty,
+    \]
+
+    then the branch reaches a fixed preterminal time after finitely or countably many steps. At a fixed preterminal time, original smoothness gives high-shell decay. Hence every preterminal entrance leaf has vanishing normalized high-frequency source residue as N .
+
+    Insert these entrance leaves into the finite-tree identity. The boundary terms and legal losses are summable by the packet record. Persistent order-one normalized source mass at the root contradicts the vanishing entrance leaves plus legal losses. Thus all non-Zeno branches are controlled.
+
+    \[
+    \sum_m r_m^2<\infty,
+    \qquad r_m\downarrow0.
+    \]
+
+    This branch never reaches a fixed preterminal entrance time. Original smooth high-shell decay is unavailable at the limiting endpoint. Raw energy also fails at source-pulse normalization, since a shrinking leaf can carry order-one normalized residue while raw energy remains finite.
+
+    Compactness extracts a local suitable ancient source-residue object. Current inputs do not place that object in Type I, finite global energy, critical-smallness, bounded-vorticity, self-similar, two-dimensional, axisymmetric, or source-cancellation class.
+
+    Non-Zeno refill trees are discharged. Terminal Zeno remains the unique obstruction.
+
+
+
+    \subsection{Refill Tree Well Founded.A - direct loop note}
+
+    With Local Donor Balance.A installed, prove that every legal terminal source-refill tree rooted at a source-balanced child pulse has controlled terminal leaves or spends a finite scale-normalized reserve.
+
+    Entrance leaves are controlled when a branch reaches a fixed preterminal time or fixed positive entrance scale. Original smoothness supplies high-shell decay there, and the finite-tree identity then contradicts persistent normalized source-pulse mass.
+
+    \[
+    \sum_m r_m^2=\infty.
+    \]
+
+    \[
+    \sum_m r_m^2<\infty,
+    \qquad
+    r_m\downarrow0.
+    \]
+
+    Finite dyadic banding permits this geometric scale cascade. Same-fluid transport preserves the legal chain. Original smoothness on compact preterminal intervals gives no terminal endpoint leaf bound for Zeno leaves.
+
+    Raw leaf energy also fails at source-pulse normalization. A leaf can carry order-one normalized residue on shrinking physical volume while raw L 2 energy remains finite.
+
+    Finite banding restricts shell ranges and leaves physical/triadic branching unrestricted. It cannot produce bounded-depth or bounded-branching refill trees.
+
+    Compact Zeno extraction gives a local suitable ancient source-residue object. The current route supplies no rigid class and no source-residue Liouville theorem for that object.
+
+    The first would charge terminal Zeno refill trees by a scale-normalized donor reserve. The second would extract a rigid ancient source-residue limit from any uncharged Zeno branch and force the inherited residue to vanish.
+
+    Since both Zeno alternatives are open under current installed inputs, Two Tower Donor Depletion.A remains unpromoted.
+
+
+
+    \subsection{Residual split and Weighted Adj Res.A}
+
+    \[
+    L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+    \qquad b_k=u_{\le k},
+    \]
+
+    \[
+    L_{j,k}w_j=R.
+    \]
+
+    \[
+    R=R^{comm}+R^{press}+R^{cut}+R^{off}.
+    \]
+
+    \[
+    \|R^{comm}\|_{L_t^2H_x^{-1}}^2
+    \le C c_M^2\int_I\sum_{q>N}D_q(t)\,dt,
+    \]
+
+    \[
+    \|R^{press}\|_{L_t^2H_x^{-1}}^2
+    \le C\int_I\sum_{q>N}D_q(t)\,dt+o_N(1),
+    \]
+
+    Projection commutators are Calderon-Zygmund operators applied to the same low-high products already assigned to R comm and R coeff . The H -1 shell gain yields
+
+    In the pressure-normalized form, solve the local pressure Poisson equation on the heat-scale carrier and subtract the local harmonic or lower-order pressure part. Calderon-Zygmund boundedness controls the localized double divergence source in L 2, while high-frequency localization supplies the H -1 gain. The same tail bound follows once the pressure carrier is the same carrier used by the adjoint packet family.
+
+    This is the only component whose proof is a genuine license rather than pure bookkeeping.
+
+    The off-packet term is supported outside the terminal heat-tube collar or in shell-separated interactions. Terminal localization and the Littlewood-Paley tail imply
+
+    The bounded overlap of the tile atlas prevents the off-packet leakage from being counted with unbounded multiplicity.
+
+    Choose M so c M is absorbed and choose below the available dissipation margin. This proves Residual Pair.A.
+
+    The residual-to-adjoint-pairing implication is proved under the exact packet-frame licenses, and the component estimates are recorded above. The pressure term remains the decisive live license if the principal packet equation is not built in the projected solenoidal class.
+
+
+
+    \subsection{Residual Pair.A conditional decomposition}
+
+    Conditional theorem-facing decomposition. The residual estimate is reduced to explicit packet-frame licenses. Under the coefficient-good same-fluid packet hypotheses, coercive dissipation estimates control the commutator, cutoff, coefficient-remainder, and off-packet terms. The pressure term requires a projected / solenoidal packet-frame license or an equivalent pressure-normalized residual theorem.
+
+    \[
+    L_{j,k}w_j=R_{j,k},
+    \qquad
+    L_{j,k}=\partial_t+b_k\cdot\nabla-\nu\Delta-A_k,
+    \qquad b_k=u_{\le k},
+    \]
+
+    This is the dissipation side of Weighted Adj Res.A in the parent-or-charge drain route.
+
+    \[
+    R=R^{coeff}+R^{comm}+R^{press}+R^{cut}+R^{off}.
+    \]
+
+    R coeff is the affine-frame low-flow and oscillatory strain remainder after extracting the central transport and central strain gauge; R comm is the low-high / strict shell commutator remainder; R press is the pressure or Leray-projection residual; R cut is the packet cutoff commutator; R off contains shell-separated and off-packet interactions.
+
+    \[
+    \mathcal C(T)
+    :=\int_{I_T}
+    \left[r_T^2\|\nabla^2b_k\|_{L^\infty(Q_T^*)}
+    +r_T\|\nabla A_k\|_{L^\infty(Q_T^*)}\right]dt
+    \le \varepsilon_M.
+    \]
+
+    After extracting the affine low-flow frame and central strain matrix, each remaining coefficient error carries this M factor. In heat-scale units this gives
+
+    \[
+    \|R^{coeff}\|_{L_t^2H_x^{-1}}^2
+    \le C\varepsilon_M^2\int_I\sum_{q>N}D_q(t)dt.
+    \]
+
+    Thus R coeff is absorbable after choosing the shell gap / coefficient stopping parameter so that M is small.
+
+    \[
+    \|R^{comm}_{j,k}\|_{H^{-1}}
+    \le C_{\mathrm{sf},23159} 2^{-j}\|R^{comm}_{j,k}\|_2
+    \le C_{\mathrm{sf},23160} c_M\,\nu^{1/2}2^j\|w_j\|_2,
+    \]
+
+    This imports the repaired gradient commutator and low-pass collar estimates only at the residual H -1 level, where the high-frequency derivative loss is cheaper than in the previous active- routes.
+
+    The cutoff term is controlled once the packet-factor derivative record is admitted into the same residual pairing budget.
+
+    provided the tile atlas has bounded overlap and the off-packet shell leakage is measured after the same terminal localization used by the adjoint packets.
+
+    The remaining projection commutators are Calderon-Zygmund operators and are absorbed into R comm or R coeff .
+
+    This is a separate license because pressure recovery can import product-source carriers that are stronger than the residual-pairing budget. It must be proved on the same localized packet frame used by T.
+
+    Equivalently, if Projected Packet Pressure.A is replaced by Pressure Normalized Residual.A, the same conclusion follows.
+
+    Sum the five component estimates. Choose M large so M+c M is absorbable, choose cutoff absorption parameter below the available dissipation margin, and send N in the off-packet tail. This gives
+
+
+
+    \subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps Ep A}
+
+    Conditional theorem. This closes the common-family bookkeeping once each selection packet supplies an explicit loss budget.
+
+    \[
+    \mu(G)=m_0>0.
+    \]
+
+    \[
+    \mu(B_i)\le \varepsilon_i.
+    \]
+
+    \[
+    G^{com}:=G\setminus\bigcup_i B_i.
+    \]
+
+    The next source work is to prove those loss budgets for the corresponding selections.
+
+
+
+    \subsection{RetainedCMSource Residue NoInternal Escape.A}
+
+    The first fact is installed by CM-exit discipline. The second fact is the stronger supplier theorem and remains pending.
+
+    \[
+    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    \]
+
+    \[
+    \mu_*^{sing}>0.
+    \]
+
+    If that residue is used as the genuine terminal nonsmooth occurrence, then it cannot remain as an internal retained CM counterexample.
+
+    \[
+    \text{source-pulse terminal occurrence}
+    \Longrightarrow
+    \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    That stronger route is still equivalent, at the current source-wall resolution, to proving a source-payment theorem such as Scale Critical Tree Carleson.A or a non-Carleson temporal anti-atom theorem such as Temporal Non Atomic Source.A.
+
+
+
+    \subsection{Retained Face Amplitude Gain.A direct retained-face attempt}
+
+    Failed direct discharge. The retained-face amplitude strategy isolates a useful structure: Pack Q controls accumulated linear strain along same-fluid paths, and Part N,Q organizes the pressure/viscous participation record. However, these two faces do not supply the high-frequency tail modulus needed to propagate scale-critical packet amplitude smallness to terminal windows. The missing estimate is exactly the Field/high-tail side of the source wall.
+
+    \[
+    r_P=2^{-j_P},
+    \]
+
+    \[
+    a_P(t):=\frac{\|U_P(t)\|_2}{\nu r_P^{1/2}}.
+    \]
+
+    This would imply the conditional cycle estimate and then the local positive source Carleson bound.
+
+    \[
+    (\partial_t+u_{\le j-C}\cdot\nabla-\nu\Delta)U_P
+    =
+    -S_{\le j-C}U_P+R_P.
+    \]
+
+    The dangerous linear term is the low/intermediate strain S j-C . Define the gain
+
+    \[
+    G_P(t)=\exp\left(\int_{t_0}^{t}\lambda_{\max}^+(S_{\le j-C}(X_P(s),s))\,ds\right),
+    \]
+
+    \[
+    \widetilde a_P(t)=G_P(t)^{-1}a_P(t).
+    \]
+
+    Since the deformation solves F=( u)(X(a,t),t)F, this gives a finite bound on accumulated positive strain along retained same-fluid paths. Thus the linear gain is controlled by the Pack face.
+
+    This is enough to keep pressure/viscous participation terms in the legal record at that finite depth. It does not by itself impose a high-frequency modulus on u or on all dyadic packet amplitudes beyond the threshold.
+
+    The damping term comes from heat. The finite linear gain is controlled by Pack Q. The remaining issue is the nonlinear remainder R P. The needed estimate is
+
+    This estimate is not a consequence of Pack Q+Part N,Q . It is a high-high tail/source estimate. In source-wall language it is a form of
+
+    For any fixed t 0<T *, classical smoothness gives high-frequency decay at t 0. A first-crossing argument would propagate that decay if the envelope inequality above were already known. The proof of that envelope inequality requires control of terminal high-high transfer on shrinking windows. That is exactly the source wall.
+
+    Thus preterminal smoothness supplies the starting value, while the missing source-wall estimate is needed to prevent first terminal crossing.
+
+    But Field Tail N(Q) is exactly the Field/readout side needed for CM membership and smoothness. Using it to prove source-wall closure does not create an independent route.
+
+
+
+    \subsection{Reverse Holder Parent Concentration.A from Original Smooth Data}
+
+    \[
+    \exists\mathcal C(P)\subset\mathsf{Pred}(P),
+    \qquad
+    |\mathcal C(P)|\le B,
+    \qquad
+    \pi_P(\mathcal C(P))\ge c\pi_P(\mathsf{Pred}(P)).
+    \]
+
+    Finite frequency-band complexity bounds shell type. It does not bound physical packet multiplicity or triadic phase multiplicity. A diffuse parent measure can take the form
+
+    \[
+    \pi_P\sfcomp{23293} M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+    \qquad M\to\infty,
+    \]
+
+    Raw orthogonality prices donor energy at the wrong normalization. A diffuse donor family can have small raw quadratic cost while maintaining order-one normalized child-feeding source mass.
+
+    Same-fluid transport preserves legal ancestry after a parent is chosen. It does not select a concentrated parent or price parent entropy.
+
+    Pressure/cutoff routing removes legal losses. It does not charge legal diffuse parentage.
+
+    Reverse Holder Parent Concentration.A remains open as an independent supplier and reduces to the scale-critical tree-Carleson reserve.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno
+    residue
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24506
+  line_start: 24506
+  line_end: 24535
+  start_anchor: "\\subsection{Refill Tree Well Founded.A non-Zeno discharge and terminal-Zeno
+    residue}\n"
+  end_anchor: "\\subsection{Refill Tree Well Founded.A - direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Refill Tree Well Founded.A non-Zeno
+    discharge and terminal-Zeno residue as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24506
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Refill Tree Well Founded.A - direct loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24536
+  line_start: 24536
+  line_end: 24564
+  start_anchor: "\\subsection{Refill Tree Well Founded.A - direct loop note}\n"
+  end_anchor: "\\subsection{Remaining Source Packet Closure Audit For Qsp 11R To Sg
+    4B}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Refill Tree Well Founded.A -
+    direct loop note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24536
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Residual split and Weighted Adj Res.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24589
+  line_start: 24589
+  line_end: 24628
+  start_anchor: "\\subsection{Residual split and Weighted Adj Res.A}\n"
+  end_anchor: "\\subsection{Residual Pair.A conditional decomposition}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Residual split and Weighted Adj
+    Res.A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24589
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Residual Pair.A conditional decomposition
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24629
+  line_start: 24629
+  line_end: 24685
+  start_anchor: "\\subsection{Residual Pair.A conditional decomposition}\n"
+  end_anchor: "\\subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps Ep
+    A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Residual Pair.A conditional decomposition
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24629
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained Common Good Family Mass Lemma For Sg 4 Tps Ep A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24686
+  line_start: 24686
+  line_end: 24704
+  start_anchor: "\\subsection{Retained Common Good Family Mass Lemma For Sg 4 Tps
+    Ep A}\n"
+  end_anchor: "\\subsection{RetainedCMSource Residue NoInternal Escape.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained Common Good Family Mass
+    Lemma For Sg 4 Tps Ep A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24686
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: RetainedCMSource Residue NoInternal Escape.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24705
+  line_start: 24705
+  line_end: 24731
+  start_anchor: "\\subsection{RetainedCMSource Residue NoInternal Escape.A}\n"
+  end_anchor: "\\subsection{Retained Face Amplitude Gain.A direct retained-face attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite RetainedCMSource Residue NoInternal
+    Escape.A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24705
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Retained Face Amplitude Gain.A direct retained-face attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24732
+  line_start: 24732
+  line_end: 24776
+  start_anchor: "\\subsection{Retained Face Amplitude Gain.A direct retained-face
+    attempt}\n"
+  end_anchor: "\\subsection{Reverse Holder Parent Concentration.A from Original Smooth
+    Data}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Retained Face Amplitude Gain.A
+    direct retained-face attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24732
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Reverse Holder Parent Concentration.A from Original Smooth Data
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24777
+  line_start: 24777
+  line_end: 24802
+  start_anchor: "\\subsection{Reverse Holder Parent Concentration.A from Original
+    Smooth Data}\n"
+  end_anchor: "\\subsection{Same Fluid Source Residence.Direct Continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Reverse Holder Parent Concentration.A
+    from Original Smooth Data as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:24777
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-38
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-38.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

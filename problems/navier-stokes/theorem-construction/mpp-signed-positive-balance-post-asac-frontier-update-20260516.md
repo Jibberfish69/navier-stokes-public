@@ -157,9 +157,9 @@ which is equivalent here to the source-wall estimate:
 
 ```math
 HeatScaleSquareSource.A
-\simeq
+\equiv_{\mathrm{route}}
 LocalPositiveSourceCarleson.A
-\simeq
+\equiv_{\mathrm{route}}
 ScaleCriticalTreeCarleson.A.
 ```
 

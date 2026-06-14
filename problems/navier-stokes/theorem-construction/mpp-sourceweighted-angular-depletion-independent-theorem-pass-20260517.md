@@ -9,7 +9,7 @@ no-free-sink source-current statement.
 Purpose: continue from
 `mpp-prd-installed-input-nonderivability-witness-20260516.md`.  The aligned
 terminal packet witness proves that installed inputs do not imply independent
-PRD.  This note tests the most plausible new theorem that could kill that
+PRD.  This note tests the next candidate theorem that could kill that
 witness without importing `ScaleCriticalTreeCarleson.A` or
 `ZenoSourceResidueRigidity.A`.
 
@@ -92,7 +92,7 @@ Write the source coefficient along a terminal packet as
 =
 n_P(t)\cdot S_{<j_P}^{loc}(X_P(t),t)n_P(t),
 \qquad
-\tau_P\simeq(\nu2^{2j_P})^{-1}.
+\tau_P:=(\nu2^{2j_P})^{-1}.
 \tag{SWAD.3}
 ```
 
@@ -142,7 +142,7 @@ packet rate without a parabolic penalty:
 
 ```math
 \tau_P\int_{I_P}|D_tS^{far}_{j_P,L}|\,dt
-\lesssim
+\le C_{\mathrm{SWAD}}
 2^{-2L}\int_{I_P}\|S^{far}_{j_P,L}\|_\infty\,dt
 +\mathrm{Legal}_{cut/proj}.
 \tag{SWAD.7}

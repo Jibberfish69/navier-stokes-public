@@ -127,7 +127,7 @@ The fixed-cutoff admissibility proof is isolated explicitly in
 Under the stricter audit standard, this is the fixed-cutoff coefficient input.
 On the local `4 -> 1` surface, the same coefficient is sufficient because the
 tail-energy recertification keeps the coercive damping
-`Q_N \gtrsim 2^{2N}T_N`, and that `2^{2N}` term dominates the `2^{3N/2}`
+`Q_N \ge c_Q2^{2N}T_N`, and that `2^{2N}` term dominates the `2^{3N/2}`
 growth from `\mathcal L_N` for large cutoffs.
 
 ## Step B.5: Nonlinear Transfer Inequality
@@ -310,7 +310,7 @@ in the following qualified sense: once Proposition `6.1^\sharp` is fully
 threaded on the repaired packet split, the tail-energy differential inequality
 is clear, but the exact same-shape barrier recovery is stronger than that
 inequality and still depends on the coercive damping step
-`Q_N \gtrsim 2^{2N}T_N`. After that point the remaining Route B work is
+`Q_N \ge c_Q2^{2N}T_N`. After that point the remaining Route B work is
 proposition threading, explicit `4 -> 1` recertification, and `C3` assembly.
 
 ## Step B.9: Continuation

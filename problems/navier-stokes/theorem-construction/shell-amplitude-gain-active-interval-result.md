@@ -5,7 +5,7 @@
 The proposed sufficient gain was
 
 ```math
-E_j(t)\lesssim \nu^{1/2}2^{-j/2}
+E_j(t)\le C_A\nu^{1/2}2^{-j/2}
 ```
 
 on active intervals, strong enough to control
@@ -25,7 +25,7 @@ E_j(0)=A^2E_j(e)
 for the normalized shell profile `e`. Choosing `A` large violates
 
 ```math
-E_j(0)\lesssim \nu^{1/2}2^{-j/2}.
+E_j(0)\le C_A\nu^{1/2}2^{-j/2}.
 ```
 
 Thus the fixed-shell amplitude theorem cannot follow from smoothness, divergence-free structure, or shell localization alone.
@@ -73,7 +73,7 @@ The shell-amplitude gain is not available from current inputs. It is equivalent 
 The route would close if one proved either
 
 ```math
-E_j(t)\lesssim \nu^{1/2}2^{-j/2}
+E_j(t)\le C_A\nu^{1/2}2^{-j/2}
 ```
 
 on active intervals from a noncircular source theorem, or directly

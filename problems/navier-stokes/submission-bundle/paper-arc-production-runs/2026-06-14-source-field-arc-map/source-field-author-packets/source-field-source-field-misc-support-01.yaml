@@ -1,0 +1,1346 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-01
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-01
+  sequence: 153
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 1
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 108
+  line_end: 1435
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:108
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:184
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:233
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:391
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:678
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:799
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1236
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1324
+  subsection_titles:
+  - A1a Full-Data Euclidean Lift Coverage
+  - Absorbable Weighted Form Reserve Result
+  - Active Coherent Projector Spectral Identification Theorem
+  - Active-Square Control Blocked By Square-Source Estimate
+  - Affine Survivor Stripped-Down Note
+  - Amplitude-Speed Gate Supplier Rollup Result
+  - Cap-Null Coercivity-Rigidity Globalization Program
+  - Capwise Signed Defect Positivity Theorem Candidate
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: A1a Full-Data Euclidean Lift Coverage
+    line_start: 108
+    line_end: 183
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:108
+    start_anchor: "\\subsection{A1a Full-Data Euclidean Lift Coverage}\n"
+    end_anchor: "\\subsection{Absorbable Weighted Form Reserve Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{A1a Full-Data Euclidean Lift Coverage}
+
+      The full-data Euclidean lift is a downstream export check. Before this check is
+      meaningful, a separate CM-to-Euclidean splice has already fixed the Euclidean
+      carrier/readout surface, the admissible exported datum class
+      \(\mathcal K_{\mathrm{Euc}}\), and the readout map \(\mathcal C\). The following
+      check does not prove that splice. It only records what the downstream lift must do
+      once the splice is already available.
+
+      \[
+      \mathcal D_{\mathrm{Clay}}
+      :=
+      \Big\{
+      u^0\in C^\infty(\mathbb R^3;\mathbb R^3):
+      \nabla\cdot u^0=0,\;
+      u^0\text{ rapidly decaying}
+      \Big\}.
+      \]
+
+      Let \(\mathcal C\) denote the Euclidean readout already supplied by the earlier
+      CM-to-Euclidean export splice, and let \(\mathcal K_{\mathrm{Euc}}\) denote the
+      admissible projected datum class on that already-exported Euclidean surface.
+
+      (A1a) is the surjectivity of the already-exported Euclidean readout onto the
+      full Clay datum class, with admissibility on the carrier side built in.
+
+      The burden is downstream of the CM-to-Euclidean export splice and independent of
+      the later exact strict-shadow theorem (A1b) and global carrier bound (A1c).
+
+      Proof. Statement (A1a.5) quantifies only over the Euclidean readout
+      \(\mathcal C\) and the admissible datum class \(\mathcal K_{\mathrm{Euc}}\)
+      fixed by the earlier splice. It does not assert that the Euclidean surface is
+      the correct export of the CM packet. It also does not assert evolution, an exact
+      projected nonlinear identity, or a global carrier norm bound. Those burdens
+      belong to the earlier splice and to (A1b)--(A1c).
+
+      The clean sufficient mechanism for (A1a) is a right inverse for that
+      already-exported Euclidean readout.  Its exact form is
+
+      \[
+      \mathcal L:\mathcal D_{\mathrm{Clay}}\to \mathcal K_{\mathrm{Euc}}
+      \]
+
+      \[
+      \mathcal C(\mathcal L(u^0))=u^0
+      \qquad
+      \forall u^0\in\mathcal D_{\mathrm{Clay}}.
+      \]
+
+      Proof. Given \(u^0\in\mathcal D_{\mathrm{Clay}}\), take
+      \(X^0:=\mathcal L(u^0)\). The definition of \(\mathcal L\) puts
+
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Absorbable Weighted Form Reserve Result
+    line_start: 184
+    line_end: 232
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:184
+    start_anchor: "\\subsection{Absorbable Weighted Form Reserve Result}\n"
+    end_anchor: "\\subsection{Active Coherent Projector Spectral Identification Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Absorbable Weighted Form Reserve Result}
+
+      This subsection records a support calculation for the lifted-band route.  The
+      candidate reserve has the form
+
+      \[
+      A_N(t):=\Lambda_N(t)+\Theta_N^\sharp(t).
+      \]
+
+      The desired absorption would spend this reserve against the shell dissipation in the next displayed inequality.
+
+      \[
+      A_N(t)E_N(t)\le \varepsilon\nu D_N(t)+C_\varepsilon R_N(t)
+      \]
+
+      The Bernstein-scale lower bound is
+
+      \[
+      D_N(t)\ge 2^{2N}E_N(t),
+      \]
+
+      It gives the remainder inequality
+
+      \[
+      \frac{A_N^2E_N^2}{D_N}\le 2^{-2N}A_N^2E_N.
+      \]
+
+      The unpaid remainder is
+
+      \[
+      R_N(t):=2^{-2N}A_N(t)^2E_N(t).
+      \]
+
+      The proof value of the calculation is the shape of this remainder.  The route
+      has separate control on the reserve factor and the energy factor: the low-mode
+      estimate gives an \(L^2_t\)-type bound for \(A_N\) at fixed \(N\), and the
+      energy layer controls \(E_N\) on its own energy surface.  Those separate
+      controls leave the product \(A_N^2E_N\) unpaid.
+
+      The same issue appears after finite-collar reduction.  The precise obstruction is
+      that a collar or tail theorem must control the product \(A_N^2E_N\) after the
+      collar structure turns \(A_N\) into a finite-band expression.
+
+      Thus this subsection is support for the high-frequency-gain route rather than
+      HFG itself.  It identifies the exact reserve product that a later theorem must
+      pay before the lifted-band material can become a member-side estimate or a
+      Field-side obstruction.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active Coherent Projector Spectral Identification Theorem
+    line_start: 233
+    line_end: 287
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:233
+    start_anchor: "\\subsection{Active Coherent Projector Spectral Identification
+      Theorem}\n"
+    end_anchor: "\\subsection{Active Coherent Readout Carrier Localization Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Active Coherent Projector Spectral Identification Theorem}
+
+      The exact gap is between the route's abstract selector package on the persistent
+      coherent support and the spectral low-pass selector needed by the readout
+      theorem.  The sharper question is whether the abstract selector package on the
+      persistent carrier is the same package as the coherent-Laplacian spectral
+      selector.
+
+      \[
+      K_D(j_0)
+      =
+      K_D\cap \operatorname{Ran}\chi_{\le j_0}(D_{\mathrm{coh}}),
+      \]
+
+      \[
+      \mathbb H_D(j_0)=\chi_{\le j_0}(D_{\mathrm{coh}})\mathbb H_D.
+      \]
+
+      \[
+      \text{active }NC\text{-coherence at threshold }j_0
+      \iff
+      \text{low spectral support of }D_{\mathrm{coh}}\text{ on }K_D.
+      \]
+
+      \[
+      K_D(j_0)=K_D\cap \operatorname{Ran}\chi_{\le j_0}(D_{\mathrm{coh}})
+      \]
+
+      \[
+      \mathbb H_D(j_0)=\chi_{\le j_0}(D_{\mathrm{coh}})\mathbb H_D,
+      \]
+
+      The current carrier note gives an intrinsic coherence regime.  The
+      coherent-Laplacian selector theorem remains an additional layer.  More sharply,
+      the spectral-floor route identifies \(K_D\) with the co-closed zero eigenspace
+      of \(D\). On that package the coherent Laplacian vanishes on \(K_D\), so its
+      spectral family collapses to the zero spectral slice.  A nontrivial thresholded selector family needs an
+      additional coherent-Laplacian realization on the same persistent carrier.
+
+      Under that strengthened realization, an active \(NC\)-coherent readout \(Y\) at
+      threshold \(j_0\) lies in \(K_D(j_0)\). Transport compatibility preserves
+      \(K_D\) and each low spectral slice, so admissible transport keeps \(Y\) in the
+      same thresholded selector sector. The abstract active projector
+      \(\mathbb H_D(j_0)\) and the spectral projector \(\mathbb H_D^{\mathrm{spec}}(j_0)\)
+      are then orthogonal projections onto the same closed subspace \(K_D(j_0)\).
+      Uniqueness of orthogonal projection gives their equality.
+
+      This proves the identification for the spectrally defined selector sector.  The
+      abstract holonomy/refinement-defined sector remains the open identification
+      layer.  The spectral layer proves t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-Square Control Blocked By Square-Source Estimate
+    line_start: 391
+    line_end: 426
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:391
+    start_anchor: "\\subsection{Active-Square Control Blocked By Square-Source Estimate}\n"
+    end_anchor: "\\subsection{Active-Square Upper-Tail Carleson Attempt And Tail-Square
+      Bypass}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active-Square Control Blocked By Square-Source Estimate}
+
+      This subsection records the active-square upgrade that the current source stack
+      would need in order to turn shell dissipation into a Carleson-type payment.  The
+      desired estimate controls the square-time size of a shell dissipation density
+      from a corresponding square-source theorem for the shell source \(F_j\).
+
+      \[
+      \int_I2^{-j}D_j(t)^2dt
+      \le
+      \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}.
+      \]
+
+      \[
+      E_j(t_0)^2
+      \le
+      c\varepsilon\nu^2 2^j|I|+C\nu2^{-j}2^{-2\delta j}.
+      \]
+
+      \[
+      \int_I |F_j(t)|^2dt
+      \le
+      c\varepsilon\nu^3 2^{3j}|I|+C\nu^2 2^j2^{-2\delta j}.
+      \]
+
+      The attempted universal square-source estimate runs into fixed-shell cubic
+      amplitude scaling.  That scaling is the stopping point of this source route.
+
+      The surviving support role is clear.  Active-square control becomes proof
+      material after one replacement is supplied: a valid square-source theorem for
+      \(F_j\), a signed cancellation theorem for the shell flux, or a direct
+      active-square Carleson theorem.  Until one of those replacements is written,
+      this subsection marks the missing supplier theorem for the active-window
+      branch.  The Pack, Part, or Field landing remains a later step.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Affine Survivor Stripped-Down Note
+    line_start: 678
+    line_end: 750
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:678
+    start_anchor: "\\subsection{Affine Survivor Stripped-Down Note}\n"
+    end_anchor: "\\subsection{All-Scale Frequency-Transfer Inefficiency Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Affine Survivor Stripped-Down Note}
+
+      The live Family A survivor route has the following smallest useful
+      mathematical form.
+
+      Let \(J=[s_0,s_1-\kappa]\) be the one-sided logarithmic scale interval and let
+      \(\widetilde Z(\sigma,t)\) be the live scale source on that interval.
+
+      \[
+      M_0(t):=\int_J \widetilde Z(\sigma,t)\,d\sigma,
+      \qquad
+      M_1(t):=\int_J \sigma\,\widetilde Z(\sigma,t)\,d\sigma.
+      \]
+
+      These are the two coordinates currently seen by the persistent weighted quotient
+      coefficient.
+
+      \[
+      c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t),
+      \]
+
+      The live obstruction has been reduced from the whole source \(\widetilde Z\) to
+      the affine moment pair \((M_0,M_1)\).
+
+      \[
+      c_F(t)
+      =
+      \int_J \frac{\beta-\sigma}{|I|}\,\widetilde Z(\sigma,t)\,d\sigma.
+      \]
+
+      \[
+      0\le c_F(t)\le \frac{|J|}{|I|}\,M_0(t).
+      \]
+
+      \[
+      \|c_F(t)\|_{L_x^2}
+      \le
+      \frac{|J|}{|I|}\,\|M_0(t)\|_{L_x^2}.
+      \]
+
+      This is a genuine reduction: on the positive carrier, the weighted affine
+      survivor is controlled by the endpoint mass alone.
+
+      The affine moments are the live survivors because second-order scale exactness
+      would remove everything else from this coefficient.
+
+      The displayed identity isolates the scalar defect that still has to be
+      controlled.  The theorems already written in this manuscript supply the
+      first-order descent below; the remaining payment is the second-order descent on
+      that scalar.
+
+      The current signed scale-descent theorem supplies a real first-order descent.
+      The affine survivor still needs one more exact descent on the signed potential.
+
+      First-order signed exactness reduces the affine quotient to the extra scalar
+      defect \(J[\Psi]\).  That scalar is the surviving one-derivative-short
+      obstruction.
+
+      \(L_0,L_1\) are dissipative or triangular operators, while \(R_0,R_1\) are
+      spill/error terms already known to vanish or be absorbable.
+
+      There is one exact positive-carrier evolution law already available.  The local
+      \(H^1\)-stress density satisfies the pointwise parabolic identity.
+
+      This identity is exact.  It still lives
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Amplitude-Speed Gate Supplier Rollup Result
+    line_start: 799
+    line_end: 842
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:799
+    start_anchor: "\\subsection{Amplitude-Speed Gate Supplier Rollup Result}\n"
+    end_anchor: "\\subsection{Body 1 Half-Derivative Lifted-Band Gain Target}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Amplitude-Speed Gate Supplier Rollup Result}
+
+      Write \(\mathcal R_\star\) for the active lower-order record.  In the original
+      branch \(\star=\mathrm{orig}\); in the extended low-shell branch
+      \(\star=\mathrm{low}\).  This result is supplier bookkeeping for the
+      amplitude-speed gate.  It tells the reader which lower-order record the gate
+      spends before the route tries to use that record in a proof.
+
+      \[
+      \sup_{r\in I_j}\|X(r)\|_{H_D^s}\le C_X
+      \]
+
+      When this bound is inherited, the finite low-shell residual is lower order.  The
+      amplitude gate spends \(\mathcal R_{\mathrm{orig}}\) on the original branch and
+      \(\mathcal R_{\mathrm{low}}\) on the extended low-shell branch.
+
+      \[
+      K_{i,j}(t)\subseteq\mathcal P_j(t),
+      \qquad
+      w_j=1\text{ on }\mathcal P_j(t).
+      \]
+
+      \[
+      C^{res}_{i,j}=0.
+      \]
+
+      The weighted branch is the cleanest supplier branch.  One geometric containment
+      gives the lower envelope and the zero residual at the same time.
+
+      \[
+      \|\nabla a^{res}\|_\infty
+      +2^j\|P_{>j-M}a^{res}\|_\infty
+      \le
+      C\Phi_*(\mathcal E_D(X)).
+      \]
+
+      The rollup remains branch bookkeeping.  The preferred weighted route is plateau
+      containment on the fixed collar support.  The finite low-shell route uses either
+      domination by the original record, with constant \(M_{\mathrm{low}}C\), or the
+      explicitly extended record \(\mathcal R_{\mathrm{low}}\).  This pays readout
+      support for the original or extended branch; it becomes CM proof material only
+      when the same selected terminal record is carried into Pack, Part, or Field.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Cap-Null Coercivity-Rigidity Globalization Program
+    line_start: 1236
+    line_end: 1323
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1236
+    start_anchor: "\\subsection{Cap-Null Coercivity-Rigidity Globalization Program}\n"
+    end_anchor: "\\subsection{Capwise Signed Defect Positivity Theorem Candidate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Cap-Null Coercivity-Rigidity Globalization Program}
+
+      \[
+      \sum_{(\omega,\omega')\in\mathcal R_j}
+      \big|
+      \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+      \big|
+      \le C_{\mathrm{sf},1177}
+      C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+      \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+      \]
+
+      \[
+      \left|
+      \sum_{(\omega,\omega')\in\mathcal R_j}
+      \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+      \right|
+      \le C_{\mathrm{sf},1187}
+      C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+      \Big(\sum_\omega \|u_{j,\omega}\|_{L^2_a}^2\Big)^{1/2}
+      \Big(\sum_{\omega'} \|u_{j,\omega'}\|_{L^2_a}^2\Big)^{1/2},
+      \]
+
+      \[
+      \mathfrak D_j(t)
+      \ge
+      \kappa_j
+      \sum_\omega \|u_{j,\omega}(t)\|_{L^2_a}^2
+      -
+      \mathrm{Err}_j(t),
+      \]
+
+      \[
+      \mathcal E_j(t)
+      :=
+      \|u_j(t)\|_{L^2}^2
+      +
+      \alpha_j\,\mathfrak D_j(t),
+      \qquad
+      \mathcal E_{\mathrm{ren}}(t):=\sum_j \mathcal E_j(t),
+      \]
+
+      \[
+      \partial_t \mathcal E_j(t)
+      +
+      c\,\kappa_j\,\mathcal E_j(t)
+      \le
+      \mathcal T^{bdry}_j(t)
+      +
+      \mathrm{lot}_j(t).
+      \]
+
+      Here \(\mathcal T^{bdry}_j\) is the shell-local boundary-transfer packet: the
+      portion of the exact dyadic nonlinear energy identity that still couples shell
+      \(j\) to neighboring low or resonant packets across the current tail cutoff.
+      This is the step that would convert angular null gain into a dynamically useful
+      coercive shell quantity.
+
+      At shell \(j\), let \(A_j\) denote the low-carrier coefficient norm seen by
+      that shell, and let \(B_j,C_{j+1}\) denote the neighboring shell-energy
+      amplitudes on the renormalized carrier.
+
+      The remaining dynamic burden can be packaged into a scalar boundary-transfer
+      coefficient by requiring a bound of the form
+      \[
+      |\mathcal T^{bdry}_j(t)|
+      \le
+      \Gamma_j(t)\,\mathcal E_j(t)+\mathrm{lot}_j(t).
+      \]
+      The cap-null coercivity program needs the strict dominance estimate
+      \[
+      \Gamma_j(t)\le c_0\kappa_j
+      \qquad\text{with}\qquad 0<c_0<c.
+      \]
+
+      Once those two statements hold, the weighted boundary-transfer packet is absorbable into the coercive tail. This is the strong pointwise route.
+
+      This is the compactness side of the reserve progra
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Capwise Signed Defect Positivity Theorem Candidate
+    line_start: 1324
+    line_end: 1435
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1324
+    start_anchor: "\\subsection{Capwise Signed Defect Positivity Theorem Candidate}\n"
+    end_anchor: "\\subsection{NS Carrier Axiom Sheet}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Capwise Signed Defect Positivity Theorem Candidate}
+
+      This is the first reserve globalization theorem downstream of the live local
+      operator route.  It records the new theorem required to turn local capwise
+      operator control into a coercivity-rigidity program.
+
+      \[
+      \sum_{(\omega,\omega')\in\mathcal R_j}
+      \big|
+      \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+      \big|
+      \le C_{\mathrm{sf},1269}
+      C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+      \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+      \]
+
+      \[
+      \left|
+      \sum_{(\omega,\omega')\in\mathcal R_j}
+      \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+      \right|
+      \le C_{\mathrm{sf},1279}
+      C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+      \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+      \]
+
+      \[
+      \Lambda^{frozen}_{j,\omega,\omega'}(f,g)
+      :=
+      \langle K^{(j)}_{\omega,\omega'}f,g\rangle_{L^2_a},
+      \qquad
+      K^{(j)}_{\omega,\omega'}=0
+      \quad\text{for }(\omega,\omega')\notin\mathcal R_j.
+      \]
+
+      \[
+      \Lambda^{sym}_{j,\omega,\omega'}(f,g)
+      :=
+      \frac12\Big(
+      \Lambda^{frozen}_{j,\omega,\omega'}(f,g)
+      +
+      \overline{\Lambda^{frozen}_{j,\omega',\omega}(g,f)}
+      \Big).
+      \]
+
+      \[
+      K^{sym,(j)}_{\omega,\omega'}
+      :=
+      \frac12\Big(
+      K^{(j)}_{\omega,\omega'}
+      +
+      (K^{(j)}_{\omega',\omega})^*
+      \Big).
+      \]
+
+      \(\mathrm{Err}^{sign}_j\) collects the skew or non-coercive part of the
+      symmetrized cap-pair interaction left outside the positive defect.
+
+      Only after the carrier normalization is fixed should one identify the precise
+      coercive scale \(\kappa_j\), for instance a bridge-normalized variant of
+      \(2^j\rho_j\), through the upgraded-carrier bridge measures tracked elsewhere
+      on the route.
+
+      This theorem is the exact missing bridge from unsigned capwise control to a coercive quantity.
+
+      There are three natural routes: Gershgorin diagonal dominance on the
+      finite-valence cap graph, positivity of the Fourier symbol of the cap adjacency
+      operator, or a symmetrized completion on the frozen carrier.
+
+      The first algebraic checkpoint on the Gershgorin route is already explicit. Define the diagonal coercive scale and the off-d
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |
+    \subsection{A1a Full-Data Euclidean Lift Coverage}
+
+    The full-data Euclidean lift is a downstream export check. Before this check is
+    meaningful, a separate CM-to-Euclidean splice has already fixed the Euclidean
+    carrier/readout surface, the admissible exported datum class
+    \(\mathcal K_{\mathrm{Euc}}\), and the readout map \(\mathcal C\). The following
+    check does not prove that splice. It only records what the downstream lift must do
+    once the splice is already available.
+
+    \[
+    \mathcal D_{\mathrm{Clay}}
+    :=
+    \Big\{
+    u^0\in C^\infty(\mathbb R^3;\mathbb R^3):
+    \nabla\cdot u^0=0,\;
+    u^0\text{ rapidly decaying}
+    \Big\}.
+    \]
+
+    Let \(\mathcal C\) denote the Euclidean readout already supplied by the earlier
+    CM-to-Euclidean export splice, and let \(\mathcal K_{\mathrm{Euc}}\) denote the
+    admissible projected datum class on that already-exported Euclidean surface.
+
+    (A1a) is the surjectivity of the already-exported Euclidean readout onto the
+    full Clay datum class, with admissibility on the carrier side built in.
+
+    The burden is downstream of the CM-to-Euclidean export splice and independent of
+    the later exact strict-shadow theorem (A1b) and global carrier bound (A1c).
+
+    Proof. Statement (A1a.5) quantifies only over the Euclidean readout
+    \(\mathcal C\) and the admissible datum class \(\mathcal K_{\mathrm{Euc}}\)
+    fixed by the earlier splice. It does not assert that the Euclidean surface is
+    the correct export of the CM packet. It also does not assert evolution, an exact
+    projected nonlinear identity, or a global carrier norm bound. Those burdens
+    belong to the earlier splice and to (A1b)--(A1c).
+
+    The clean sufficient mechanism for (A1a) is a right inverse for that
+    already-exported Euclidean readout.  Its exact form is
+
+    \[
+    \mathcal L:\mathcal D_{\mathrm{Clay}}\to \mathcal K_{\mathrm{Euc}}
+    \]
+
+    \[
+    \mathcal C(\mathcal L(u^0))=u^0
+    \qquad
+    \forall u^0\in\mathcal D_{\mathrm{Clay}}.
+    \]
+
+    Proof. Given \(u^0\in\mathcal D_{\mathrm{Clay}}\), take
+    \(X^0:=\mathcal L(u^0)\). The definition of \(\mathcal L\) puts
+    \(X^0\in\mathcal K_{\mathrm{Euc}}\), and (A1a.7) gives
+    \(\mathcal C(X^0)=u^0\). This is exactly (A1a.5).
+
+    \[
+    \rho=\mathrm{Id}.
+    \]
+
+    \[
+    \mathcal L(u^0):=u^0.
+    \]
+
+    Proof. By the realized-carrier equivalence, every smooth divergence-free rapidly
+    decaying classical datum is already an admissible carrier datum on that
+    Euclidean surface. Because the readout is the identity,
+    \(\mathcal C(\mathcal L(u^0))=u^0\), so (A1a) holds.
+
+    The only genuinely new content in (A1a) is the existence of a full-data
+    Euclidean right inverse, or an equivalent realized-carrier identification, on a
+    Euclidean surface that has already been supplied by the earlier
+    CM-to-Euclidean export splice.
+
+    The downstream export/discharge check consumes the Euclidean branch after that
+    branch has acquired route authority elsewhere.
+
+
+
+    \subsection{Absorbable Weighted Form Reserve Result}
+
+    This subsection records a support calculation for the lifted-band route.  The
+    candidate reserve has the form
+
+    \[
+    A_N(t):=\Lambda_N(t)+\Theta_N^\sharp(t).
+    \]
+
+    The desired absorption would spend this reserve against the shell dissipation in the next displayed inequality.
+
+    \[
+    A_N(t)E_N(t)\le \varepsilon\nu D_N(t)+C_\varepsilon R_N(t)
+    \]
+
+    The Bernstein-scale lower bound is
+
+    \[
+    D_N(t)\ge 2^{2N}E_N(t),
+    \]
+
+    It gives the remainder inequality
+
+    \[
+    \frac{A_N^2E_N^2}{D_N}\le 2^{-2N}A_N^2E_N.
+    \]
+
+    The unpaid remainder is
+
+    \[
+    R_N(t):=2^{-2N}A_N(t)^2E_N(t).
+    \]
+
+    The proof value of the calculation is the shape of this remainder.  The route
+    has separate control on the reserve factor and the energy factor: the low-mode
+    estimate gives an \(L^2_t\)-type bound for \(A_N\) at fixed \(N\), and the
+    energy layer controls \(E_N\) on its own energy surface.  Those separate
+    controls leave the product \(A_N^2E_N\) unpaid.
+
+    The same issue appears after finite-collar reduction.  The precise obstruction is
+    that a collar or tail theorem must control the product \(A_N^2E_N\) after the
+    collar structure turns \(A_N\) into a finite-band expression.
+
+    Thus this subsection is support for the high-frequency-gain route rather than
+    HFG itself.  It identifies the exact reserve product that a later theorem must
+    pay before the lifted-band material can become a member-side estimate or a
+    Field-side obstruction.
+
+
+
+    \subsection{Active Coherent Projector Spectral Identification Theorem}
+
+    The exact gap is between the route's abstract selector package on the persistent
+    coherent support and the spectral low-pass selector needed by the readout
+    theorem.  The sharper question is whether the abstract selector package on the
+    persistent carrier is the same package as the coherent-Laplacian spectral
+    selector.
+
+    \[
+    K_D(j_0)
+    =
+    K_D\cap \operatorname{Ran}\chi_{\le j_0}(D_{\mathrm{coh}}),
+    \]
+
+    \[
+    \mathbb H_D(j_0)=\chi_{\le j_0}(D_{\mathrm{coh}})\mathbb H_D.
+    \]
+
+    \[
+    \text{active }NC\text{-coherence at threshold }j_0
+    \iff
+    \text{low spectral support of }D_{\mathrm{coh}}\text{ on }K_D.
+    \]
+
+    \[
+    K_D(j_0)=K_D\cap \operatorname{Ran}\chi_{\le j_0}(D_{\mathrm{coh}})
+    \]
+
+    \[
+    \mathbb H_D(j_0)=\chi_{\le j_0}(D_{\mathrm{coh}})\mathbb H_D,
+    \]
+
+    The current carrier note gives an intrinsic coherence regime.  The
+    coherent-Laplacian selector theorem remains an additional layer.  More sharply,
+    the spectral-floor route identifies \(K_D\) with the co-closed zero eigenspace
+    of \(D\). On that package the coherent Laplacian vanishes on \(K_D\), so its
+    spectral family collapses to the zero spectral slice.  A nontrivial thresholded selector family needs an
+    additional coherent-Laplacian realization on the same persistent carrier.
+
+    Under that strengthened realization, an active \(NC\)-coherent readout \(Y\) at
+    threshold \(j_0\) lies in \(K_D(j_0)\). Transport compatibility preserves
+    \(K_D\) and each low spectral slice, so admissible transport keeps \(Y\) in the
+    same thresholded selector sector. The abstract active projector
+    \(\mathbb H_D(j_0)\) and the spectral projector \(\mathbb H_D^{\mathrm{spec}}(j_0)\)
+    are then orthogonal projections onto the same closed subspace \(K_D(j_0)\).
+    Uniqueness of orthogonal projection gives their equality.
+
+    This proves the identification for the spectrally defined selector sector.  The
+    abstract holonomy/refinement-defined sector remains the open identification
+    layer.  The spectral layer proves the functional-calculus statement after the
+    spectral selector is present.  The remaining theorem is the identification of
+    the active abstract coherent regime with the spectral low-pass regime of the
+    coherent carrier generator on \(K_D\).
+
+
+
+    \subsection{Active-Square Control Blocked By Square-Source Estimate}
+
+    This subsection records the active-square upgrade that the current source stack
+    would need in order to turn shell dissipation into a Carleson-type payment.  The
+    desired estimate controls the square-time size of a shell dissipation density
+    from a corresponding square-source theorem for the shell source \(F_j\).
+
+    \[
+    \int_I2^{-j}D_j(t)^2dt
+    \le
+    \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}.
+    \]
+
+    \[
+    E_j(t_0)^2
+    \le
+    c\varepsilon\nu^2 2^j|I|+C\nu2^{-j}2^{-2\delta j}.
+    \]
+
+    \[
+    \int_I |F_j(t)|^2dt
+    \le
+    c\varepsilon\nu^3 2^{3j}|I|+C\nu^2 2^j2^{-2\delta j}.
+    \]
+
+    The attempted universal square-source estimate runs into fixed-shell cubic
+    amplitude scaling.  That scaling is the stopping point of this source route.
+
+    The surviving support role is clear.  Active-square control becomes proof
+    material after one replacement is supplied: a valid square-source theorem for
+    \(F_j\), a signed cancellation theorem for the shell flux, or a direct
+    active-square Carleson theorem.  Until one of those replacements is written,
+    this subsection marks the missing supplier theorem for the active-window
+    branch.  The Pack, Part, or Field landing remains a later step.
+
+
+
+    \subsection{Affine Survivor Stripped-Down Note}
+
+    The live Family A survivor route has the following smallest useful
+    mathematical form.
+
+    Let \(J=[s_0,s_1-\kappa]\) be the one-sided logarithmic scale interval and let
+    \(\widetilde Z(\sigma,t)\) be the live scale source on that interval.
+
+    \[
+    M_0(t):=\int_J \widetilde Z(\sigma,t)\,d\sigma,
+    \qquad
+    M_1(t):=\int_J \sigma\,\widetilde Z(\sigma,t)\,d\sigma.
+    \]
+
+    These are the two coordinates currently seen by the persistent weighted quotient
+    coefficient.
+
+    \[
+    c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t),
+    \]
+
+    The live obstruction has been reduced from the whole source \(\widetilde Z\) to
+    the affine moment pair \((M_0,M_1)\).
+
+    \[
+    c_F(t)
+    =
+    \int_J \frac{\beta-\sigma}{|I|}\,\widetilde Z(\sigma,t)\,d\sigma.
+    \]
+
+    \[
+    0\le c_F(t)\le \frac{|J|}{|I|}\,M_0(t).
+    \]
+
+    \[
+    \|c_F(t)\|_{L_x^2}
+    \le
+    \frac{|J|}{|I|}\,\|M_0(t)\|_{L_x^2}.
+    \]
+
+    This is a genuine reduction: on the positive carrier, the weighted affine
+    survivor is controlled by the endpoint mass alone.
+
+    The affine moments are the live survivors because second-order scale exactness
+    would remove everything else from this coefficient.
+
+    The displayed identity isolates the scalar defect that still has to be
+    controlled.  The theorems already written in this manuscript supply the
+    first-order descent below; the remaining payment is the second-order descent on
+    that scalar.
+
+    The current signed scale-descent theorem supplies a real first-order descent.
+    The affine survivor still needs one more exact descent on the signed potential.
+
+    First-order signed exactness reduces the affine quotient to the extra scalar
+    defect \(J[\Psi]\).  That scalar is the surviving one-derivative-short
+    obstruction.
+
+    \(L_0,L_1\) are dissipative or triangular operators, while \(R_0,R_1\) are
+    spill/error terms already known to vanish or be absorbable.
+
+    There is one exact positive-carrier evolution law already available.  The local
+    \(H^1\)-stress density satisfies the pointwise parabolic identity.
+
+    This identity is exact.  It still lives above the two affine moments: the
+    coercive term is the full scale-moment dissipation \(D_q\), and the nonlinear
+    part \(N_q\) depends on more than \((M_0,M_1)\).  A moment-closed
+    affine-quotient theorem still requires a theorem converting \(D_q\) and \(N_q\)
+    into an endpoint/coercive estimate on \(M_0\) or into second-order scale
+    exactness.  Until that theorem exists on the page, this material is a precise
+    open-forward continuation note for the affine-survivor branch.
+
+
+
+    \subsection{Amplitude-Speed Gate Supplier Rollup Result}
+
+    Write \(\mathcal R_\star\) for the active lower-order record.  In the original
+    branch \(\star=\mathrm{orig}\); in the extended low-shell branch
+    \(\star=\mathrm{low}\).  This result is supplier bookkeeping for the
+    amplitude-speed gate.  It tells the reader which lower-order record the gate
+    spends before the route tries to use that record in a proof.
+
+    \[
+    \sup_{r\in I_j}\|X(r)\|_{H_D^s}\le C_X
+    \]
+
+    When this bound is inherited, the finite low-shell residual is lower order.  The
+    amplitude gate spends \(\mathcal R_{\mathrm{orig}}\) on the original branch and
+    \(\mathcal R_{\mathrm{low}}\) on the extended low-shell branch.
+
+    \[
+    K_{i,j}(t)\subseteq\mathcal P_j(t),
+    \qquad
+    w_j=1\text{ on }\mathcal P_j(t).
+    \]
+
+    \[
+    C^{res}_{i,j}=0.
+    \]
+
+    The weighted branch is the cleanest supplier branch.  One geometric containment
+    gives the lower envelope and the zero residual at the same time.
+
+    \[
+    \|\nabla a^{res}\|_\infty
+    +2^j\|P_{>j-M}a^{res}\|_\infty
+    \le
+    C\Phi_*(\mathcal E_D(X)).
+    \]
+
+    The rollup remains branch bookkeeping.  The preferred weighted route is plateau
+    containment on the fixed collar support.  The finite low-shell route uses either
+    domination by the original record, with constant \(M_{\mathrm{low}}C\), or the
+    explicitly extended record \(\mathcal R_{\mathrm{low}}\).  This pays readout
+    support for the original or extended branch; it becomes CM proof material only
+    when the same selected terminal record is carried into Pack, Part, or Field.
+
+
+
+    \subsection{Cap-Null Coercivity-Rigidity Globalization Program}
+
+    \[
+    \sum_{(\omega,\omega')\in\mathcal R_j}
+    \big|
+    \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+    \big|
+    \le C_{\mathrm{sf},1177}
+    C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+    \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+    \]
+
+    \[
+    \left|
+    \sum_{(\omega,\omega')\in\mathcal R_j}
+    \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+    \right|
+    \le C_{\mathrm{sf},1187}
+    C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+    \Big(\sum_\omega \|u_{j,\omega}\|_{L^2_a}^2\Big)^{1/2}
+    \Big(\sum_{\omega'} \|u_{j,\omega'}\|_{L^2_a}^2\Big)^{1/2},
+    \]
+
+    \[
+    \mathfrak D_j(t)
+    \ge
+    \kappa_j
+    \sum_\omega \|u_{j,\omega}(t)\|_{L^2_a}^2
+    -
+    \mathrm{Err}_j(t),
+    \]
+
+    \[
+    \mathcal E_j(t)
+    :=
+    \|u_j(t)\|_{L^2}^2
+    +
+    \alpha_j\,\mathfrak D_j(t),
+    \qquad
+    \mathcal E_{\mathrm{ren}}(t):=\sum_j \mathcal E_j(t),
+    \]
+
+    \[
+    \partial_t \mathcal E_j(t)
+    +
+    c\,\kappa_j\,\mathcal E_j(t)
+    \le
+    \mathcal T^{bdry}_j(t)
+    +
+    \mathrm{lot}_j(t).
+    \]
+
+    Here \(\mathcal T^{bdry}_j\) is the shell-local boundary-transfer packet: the
+    portion of the exact dyadic nonlinear energy identity that still couples shell
+    \(j\) to neighboring low or resonant packets across the current tail cutoff.
+    This is the step that would convert angular null gain into a dynamically useful
+    coercive shell quantity.
+
+    At shell \(j\), let \(A_j\) denote the low-carrier coefficient norm seen by
+    that shell, and let \(B_j,C_{j+1}\) denote the neighboring shell-energy
+    amplitudes on the renormalized carrier.
+
+    The remaining dynamic burden can be packaged into a scalar boundary-transfer
+    coefficient by requiring a bound of the form
+    \[
+    |\mathcal T^{bdry}_j(t)|
+    \le
+    \Gamma_j(t)\,\mathcal E_j(t)+\mathrm{lot}_j(t).
+    \]
+    The cap-null coercivity program needs the strict dominance estimate
+    \[
+    \Gamma_j(t)\le c_0\kappa_j
+    \qquad\text{with}\qquad 0<c_0<c.
+    \]
+
+    Once those two statements hold, the weighted boundary-transfer packet is absorbable into the coercive tail. This is the strong pointwise route.
+
+    This is the compactness side of the reserve program and sits downstream of the
+    coercive barrier.
+
+    The material here should be cited only as a reserve endgame program for
+    cap-null coercivity. It is reserve structure; installed proof of the main source
+    route still requires the stated coercive barrier.
+    Its PDF role is to name the exact barrier that would turn angular null gain into
+    proof material.  The CM role begins only after a surviving cap-null residue is
+    attached to the original branch and tested at Pack, Part, Field, or readout.
+
+
+
+    \subsection{Capwise Signed Defect Positivity Theorem Candidate}
+
+    This is the first reserve globalization theorem downstream of the live local
+    operator route.  It records the new theorem required to turn local capwise
+    operator control into a coercivity-rigidity program.
+
+    \[
+    \sum_{(\omega,\omega')\in\mathcal R_j}
+    \big|
+    \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+    \big|
+    \le C_{\mathrm{sf},1269}
+    C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+    \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+    \]
+
+    \[
+    \left|
+    \sum_{(\omega,\omega')\in\mathcal R_j}
+    \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
+    \right|
+    \le C_{\mathrm{sf},1279}
+    C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
+    \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
+    \]
+
+    \[
+    \Lambda^{frozen}_{j,\omega,\omega'}(f,g)
+    :=
+    \langle K^{(j)}_{\omega,\omega'}f,g\rangle_{L^2_a},
+    \qquad
+    K^{(j)}_{\omega,\omega'}=0
+    \quad\text{for }(\omega,\omega')\notin\mathcal R_j.
+    \]
+
+    \[
+    \Lambda^{sym}_{j,\omega,\omega'}(f,g)
+    :=
+    \frac12\Big(
+    \Lambda^{frozen}_{j,\omega,\omega'}(f,g)
+    +
+    \overline{\Lambda^{frozen}_{j,\omega',\omega}(g,f)}
+    \Big).
+    \]
+
+    \[
+    K^{sym,(j)}_{\omega,\omega'}
+    :=
+    \frac12\Big(
+    K^{(j)}_{\omega,\omega'}
+    +
+    (K^{(j)}_{\omega',\omega})^*
+    \Big).
+    \]
+
+    \(\mathrm{Err}^{sign}_j\) collects the skew or non-coercive part of the
+    symmetrized cap-pair interaction left outside the positive defect.
+
+    Only after the carrier normalization is fixed should one identify the precise
+    coercive scale \(\kappa_j\), for instance a bridge-normalized variant of
+    \(2^j\rho_j\), through the upgraded-carrier bridge measures tracked elsewhere
+    on the route.
+
+    This theorem is the exact missing bridge from unsigned capwise control to a coercive quantity.
+
+    There are three natural routes: Gershgorin diagonal dominance on the
+    finite-valence cap graph, positivity of the Fourier symbol of the cap adjacency
+    operator, or a symmetri
+    % ... source excerpt truncated for packet size ...
+  context_truncated: true
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: A1a Full-Data Euclidean Lift Coverage
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:108
+  line_start: 108
+  line_end: 183
+  start_anchor: "\\subsection{A1a Full-Data Euclidean Lift Coverage}\n"
+  end_anchor: "\\subsection{Absorbable Weighted Form Reserve Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite A1a Full-Data Euclidean Lift
+    Coverage as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:108
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Absorbable Weighted Form Reserve Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:184
+  line_start: 184
+  line_end: 232
+  start_anchor: "\\subsection{Absorbable Weighted Form Reserve Result}\n"
+  end_anchor: "\\subsection{Active Coherent Projector Spectral Identification Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Absorbable Weighted Form Reserve
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:184
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active Coherent Projector Spectral Identification Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:233
+  line_start: 233
+  line_end: 287
+  start_anchor: "\\subsection{Active Coherent Projector Spectral Identification Theorem}\n"
+  end_anchor: "\\subsection{Active Coherent Readout Carrier Localization Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active Coherent Projector Spectral
+    Identification Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:233
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-Square Control Blocked By Square-Source Estimate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:391
+  line_start: 391
+  line_end: 426
+  start_anchor: "\\subsection{Active-Square Control Blocked By Square-Source Estimate}\n"
+  end_anchor: "\\subsection{Active-Square Upper-Tail Carleson Attempt And Tail-Square
+    Bypass}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-Square Control Blocked
+    By Square-Source Estimate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:391
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Affine Survivor Stripped-Down Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:678
+  line_start: 678
+  line_end: 750
+  start_anchor: "\\subsection{Affine Survivor Stripped-Down Note}\n"
+  end_anchor: "\\subsection{All-Scale Frequency-Transfer Inefficiency Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Affine Survivor Stripped-Down
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:678
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Amplitude-Speed Gate Supplier Rollup Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:799
+  line_start: 799
+  line_end: 842
+  start_anchor: "\\subsection{Amplitude-Speed Gate Supplier Rollup Result}\n"
+  end_anchor: "\\subsection{Body 1 Half-Derivative Lifted-Band Gain Target}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Amplitude-Speed Gate Supplier
+    Rollup Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:799
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Cap-Null Coercivity-Rigidity Globalization Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1236
+  line_start: 1236
+  line_end: 1323
+  start_anchor: "\\subsection{Cap-Null Coercivity-Rigidity Globalization Program}\n"
+  end_anchor: "\\subsection{Capwise Signed Defect Positivity Theorem Candidate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Cap-Null Coercivity-Rigidity
+    Globalization Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1236
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Capwise Signed Defect Positivity Theorem Candidate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1324
+  line_start: 1324
+  line_end: 1435
+  start_anchor: "\\subsection{Capwise Signed Defect Positivity Theorem Candidate}\n"
+  end_anchor: "\\subsection{NS Carrier Axiom Sheet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Capwise Signed Defect Positivity
+    Theorem Candidate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1324
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-01
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-01.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

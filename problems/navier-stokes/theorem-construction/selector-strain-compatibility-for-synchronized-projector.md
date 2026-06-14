@@ -22,7 +22,8 @@ Discharge the actual wall:
 (\Pi_J^{ref},\ W_J,\ g_J^{str})
 \Longrightarrow
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{ssc}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
 }
 \tag{SSC.0}
@@ -57,7 +58,8 @@ discharges the second.
 
 ```math
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{ssc}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
 \tag{SSC.1}
 ```
@@ -115,7 +117,8 @@ E_{J,t_0}^{CG}\le g_0/4
 \bigl\|
 P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le
+C_{mb}
 \eta_J^{mb}(t,a,b)^2/g_0^2.
 \tag{SSC.2e}
 ```
@@ -160,7 +163,7 @@ So on the exact-potential branch the live selector-strain discharge is not
 +
 \text{commutator / bootstrap control}
 \Longrightarrow
-\Pi_J^{ref}\approx P_{J,\top}^{seg}.
+\|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2\le C_{ssc}\mathrm{Err}_{J,\mathrm{ssc}}.
 \tag{SSC.5}
 ```
 
@@ -173,7 +176,8 @@ So the exact writing read is:
 D.7mp + D.7mo + D.7mm
 \Longrightarrow
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{ssc}
 \mathrm{Err}_{J,\mathrm{ssc}},
 \tag{SSC.6}
 ```
@@ -184,7 +188,8 @@ or on the alternate packet,
 D.7mf + D.7mk
 \Longrightarrow
 \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le
+C_{ssc}'
 \mathrm{Err}_{J,\mathrm{ssc}}.
 \tag{SSC.7}
 ```

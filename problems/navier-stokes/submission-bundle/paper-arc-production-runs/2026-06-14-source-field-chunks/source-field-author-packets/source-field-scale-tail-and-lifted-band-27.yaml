@@ -1,0 +1,243 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-27
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-27
+  sequence: 52
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 27
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 68301
+  line_end: 68497
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68301
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68479
+  subsection_titles:
+  - Clay problem Terminal Collar Strain Integrability Proof-Method Audit
+  - R3 Exterior Tail CM Endpoint Consumption
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal Collar Strain Integrability Proof-Method
+      Audit
+    line_start: 68301
+    line_end: 68323
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68301
+    start_anchor: "\\subsection{Clay problem Terminal Collar Strain Integrability
+      Proof-Method Audit}\n"
+    end_anchor: "\\subsection{Clay problem Clay Pack-Face Exclusion Historical Working
+      Pass}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Terminal Collar Strain Integrability Proof-Method Audit}
+
+      By the existing Pack-side Gronwall reduction, this would make the material deformation gauge finite and retain Pack for the terminal atlas.
+
+      Historical failure mode: the target was not a local bookkeeping lemma. It asked for the same kind of terminal strain integrability that standard continuation criteria require.
+
+      Terminal Collar Strain Integrability.A remains a sufficient condition for Pack retention, and the historical problem was proving the hypothesis.
+
+      A Beale-Kato-Majda style route replaces ||Du|| L by vorticity control at continuation scale. That is a continuation criterion, not a Pack-only bookkeeping input. Sobolev embedding would control ||Du|| L from H s, s>5/2. That is exactly the continuation norm the Clay proof is trying to force. Restricting to the transported collar does not remove the difficulty. The collar is chosen because it contains the terminal atlas carrier, so a blowup localized on that carrier is precisely the Pack failure under test. Incompressibility only gives det F=1. It allows determinant-one distortion with unbounded singular values, so it cannot supply the missing L 1 strain control.
+
+      Terminal Collar Strain Integrability.A is not a smaller proof atom for Clay closure in its present form.
+
+      It is a valid sufficient condition for retaining Pack, but proving it from original smooth data would already prove continuation-strength control on the canonical terminal carrier.
+
+      The historical Pack route could not honestly close by naming Terminal Collar Strain Integrability.A as the next lemma unless a new mechanism was supplied that was strictly weaker than continuation.
+
+      The current installed sources support the classification route: zero-radius or unbounded terminal atlas collapse lands as not Pack Q.
+
+      The useful lesson is sharper than the earlier phrase Same Solution Terminal Pack Retention.A.
+
+      This historical check prevents the proof from hiding the whole continuation theorem inside the words "terminal collar strain integrability." Its role here is support-only unless a named promoted row calls for this exact Pack-retention theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Exterior Tail CM Endpoint Consumption
+    line_start: 68479
+    line_end: 68497
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68479
+    start_anchor: "\\subsection{R3 Exterior Tail CM Endpoint Consumption}\n"
+    end_anchor: "\\subsection{Items 1 8 Completion Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{R3 Exterior Tail CM Endpoint Consumption}
+
+      The CM route does not need to prove this stronger positive theorem when the only surviving alternative is already forced into Pack, Part, or Field failure on the same terminal object. The object to consume is the surviving exterior high-order Duhamel source after the initial tail and compact-core source have already been removed.
+
+      H s tail into initial ancestry, compact-core far-kernel source, and the genuinely exterior nonlinear source. The first two parts vanish at infinity.
+
+      Thus the R3 exterior high-order tail face is consumed by the CM endpoint matrix. It is not a live fourth branch and not a separate class-member continuation candidate.
+
+      The initial-data tail and compact-core far-kernel source are already removed by the Duhamel reduction. If the genuinely exterior nonlinear source also vanishes in exterior H s , then the positive tail input Tail.Hs R3 is supplied.
+
+      Let Q be the terminal CM test object selected by this survivor. If the packet has no retained material address in the same terminal object, then the Pack face fails: not Pack Q. If the packet is detached from the same Navier-Stokes equation, pressure, viscosity, and source ancestry, then the Part face fails: not Part M,Q .
+
+      It remains to consider the retained Pack+Part branch. On that branch the survivor is attached to the same terminal object and must be visible inside the retained Field windows. If a fixed positive Field scale >0 held through depth M>s , each localized Field-window piece would have a uniform finite-depth derivative bound. Littlewood-Paley cancellation above the retained Field depth then gives the high-frequency tail bound needed for the exterior source test.
+
+      The surviving exterior high-order source is so a Pack, Part, or Field face failure. The direct positive theorem Tail.Hs R3 remains useful as a stronger export theorem, but it is not required for the CM-facing whole-space R3 branch.
+
+      No active generic Clay-closing bridge remains after the finite-obstruction inventory reconciliation. A future R3 reopening has to name a concrete whole-space terminal obstruction row that lacks same-solution CM entry or a derived Pack, Part, or Field face.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Terminal Collar Strain Integrability Proof-Method Audit}
+
+    By the existing Pack-side Gronwall reduction, this would make the material deformation gauge finite and retain Pack for the terminal atlas.
+
+    Historical failure mode: the target was not a local bookkeeping lemma. It asked for the same kind of terminal strain integrability that standard continuation criteria require.
+
+    Terminal Collar Strain Integrability.A remains a sufficient condition for Pack retention, and the historical problem was proving the hypothesis.
+
+    A Beale-Kato-Majda style route replaces ||Du|| L by vorticity control at continuation scale. That is a continuation criterion, not a Pack-only bookkeeping input. Sobolev embedding would control ||Du|| L from H s, s>5/2. That is exactly the continuation norm the Clay proof is trying to force. Restricting to the transported collar does not remove the difficulty. The collar is chosen because it contains the terminal atlas carrier, so a blowup localized on that carrier is precisely the Pack failure under test. Incompressibility only gives det F=1. It allows determinant-one distortion with unbounded singular values, so it cannot supply the missing L 1 strain control.
+
+    Terminal Collar Strain Integrability.A is not a smaller proof atom for Clay closure in its present form.
+
+    It is a valid sufficient condition for retaining Pack, but proving it from original smooth data would already prove continuation-strength control on the canonical terminal carrier.
+
+    The historical Pack route could not honestly close by naming Terminal Collar Strain Integrability.A as the next lemma unless a new mechanism was supplied that was strictly weaker than continuation.
+
+    The current installed sources support the classification route: zero-radius or unbounded terminal atlas collapse lands as not Pack Q.
+
+    The useful lesson is sharper than the earlier phrase Same Solution Terminal Pack Retention.A.
+
+    This historical check prevents the proof from hiding the whole continuation theorem inside the words "terminal collar strain integrability." Its role here is support-only unless a named promoted row calls for this exact Pack-retention theorem.
+
+
+
+    \subsection{R3 Exterior Tail CM Endpoint Consumption}
+
+    The CM route does not need to prove this stronger positive theorem when the only surviving alternative is already forced into Pack, Part, or Field failure on the same terminal object. The object to consume is the surviving exterior high-order Duhamel source after the initial tail and compact-core source have already been removed.
+
+    H s tail into initial ancestry, compact-core far-kernel source, and the genuinely exterior nonlinear source. The first two parts vanish at infinity.
+
+    Thus the R3 exterior high-order tail face is consumed by the CM endpoint matrix. It is not a live fourth branch and not a separate class-member continuation candidate.
+
+    The initial-data tail and compact-core far-kernel source are already removed by the Duhamel reduction. If the genuinely exterior nonlinear source also vanishes in exterior H s , then the positive tail input Tail.Hs R3 is supplied.
+
+    Let Q be the terminal CM test object selected by this survivor. If the packet has no retained material address in the same terminal object, then the Pack face fails: not Pack Q. If the packet is detached from the same Navier-Stokes equation, pressure, viscosity, and source ancestry, then the Part face fails: not Part M,Q .
+
+    It remains to consider the retained Pack+Part branch. On that branch the survivor is attached to the same terminal object and must be visible inside the retained Field windows. If a fixed positive Field scale >0 held through depth M>s , each localized Field-window piece would have a uniform finite-depth derivative bound. Littlewood-Paley cancellation above the retained Field depth then gives the high-frequency tail bound needed for the exterior source test.
+
+    The surviving exterior high-order source is so a Pack, Part, or Field face failure. The direct positive theorem Tail.Hs R3 remains useful as a stronger export theorem, but it is not required for the CM-facing whole-space R3 branch.
+
+    No active generic Clay-closing bridge remains after the finite-obstruction inventory reconciliation. A future R3 reopening has to name a concrete whole-space terminal obstruction row that lacks same-solution CM entry or a derived Pack, Part, or Field face.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal Collar Strain Integrability Proof-Method
+    Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68301
+  line_start: 68301
+  line_end: 68323
+  start_anchor: "\\subsection{Clay problem Terminal Collar Strain Integrability Proof-Method
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem Clay Pack-Face Exclusion Historical Working
+    Pass}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal Collar
+    Strain Integrability Proof-Method Audit as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68301
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Exterior Tail CM Endpoint Consumption
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68479
+  line_start: 68479
+  line_end: 68497
+  start_anchor: "\\subsection{R3 Exterior Tail CM Endpoint Consumption}\n"
+  end_anchor: "\\subsection{Items 1 8 Completion Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Exterior Tail CM Endpoint
+    Consumption as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68479
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-27
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-27.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

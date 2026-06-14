@@ -1,0 +1,54 @@
+---
+version: 1
+kind: ns-paper-arc-math-reader-critic-report
+generated_at: '2026-06-14T08:22:53Z'
+arc_id: same-solution-close
+title: Same-solution close
+status: passed
+critic_scope: attack current TeX source for this proof arc; do not invent a new theorem
+  target
+source_section_count: 2
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+source_freshness:
+  algorithm: sha256
+  section_count: 2
+  checked_at: '2026-06-14T08:22:53Z'
+issues: []
+source_sections:
+- spine_id: the-same-solution-cm-proof
+  section_title: The Same-Solution CM Proof
+  source_path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1464
+  line_start: 1464
+  line_end: 1571
+  source_sha256: 33f8cf8abb9098dc5c9f3ec2f4795b89acfbd3929bdbb21df4b52a02c3099596
+  source_byte_count: 7388
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- spine_id: compactness-and-exact-object-capture
+  section_title: Compactness and Exact-Object Capture
+  source_path: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex
+  source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
+  line_start: 1
+  line_end: 142
+  source_sha256: a3a352be0b572c3746965f1645085ba0a4ecbfafacfb8446e5f298fb856bd521
+  source_byte_count: 6998
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  arc_id: same-solution-close
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX source spans directly; do not answer with
+    a report-only fix
+  author_pack_rule: after source repair, refresh the arc author pack critic fields
+    from this report and rerun verify_author_pack
+  completion_test: critic found no deterministic proof/reader failures

@@ -1,0 +1,1019 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-scale-tail-and-lifted-band-26
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-26
+  sequence: 51
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 26
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 64107
+  line_end: 68260
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64107
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64246
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64690
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64875
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65051
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67538
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67582
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68238
+  subsection_titles:
+  - Upper-Tail Kernelized Dissipation Theorem
+  - Volterra Scale-Memory Formalization Note
+  - Weighted High-Frequency Shell Reduction Lemma
+  - Weighted One-Sided Enstrophy-Tail Flux Identity
+  - Weighted Tail-Flux Lifted J-Sum Audit
+  - Clay problem Good Scale Failure To Field Exit For The H 1/2 Route
+  - Clay problem Good Scale.TTU state Audit For The H 1/2 Route
+  - R3 Tail Hs Duhamel Source Reduction
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Upper-Tail Kernelized Dissipation Theorem
+    line_start: 64107
+    line_end: 64141
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64107
+    start_anchor: "\\subsection{Upper-Tail Kernelized Dissipation Theorem}\n"
+    end_anchor: "\\subsection{UTKD Proof Attempt Audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Upper-Tail Kernelized Dissipation Theorem}
+
+      \[
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \mathcal D_k^\sigma(t):=
+      \sum_{j>k+4}2^{-\sigma(j-k)}D_j(t),
+      \qquad
+      k\in\mathbb Z.
+      \]
+
+      \[
+      \mathcal C_N^\sigma(t):=
+      \sum_{k>N+M}
+      2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}\,\mathcal D_k^\sigma(t).
+      \]
+
+      This remains the minimal theorem on the upper-tail dissipation convolution, but it is no longer the installed frontier theorem.
+
+      \[
+      \mathcal T_j^\sigma(t):=
+      \sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t).
+      \]
+
+      \[
+      \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
+      \le C_{\mathrm{sf},62526,\sigma}
+      \sum_{j>N+M+4}2^jD_j(t)\,\mathcal T_j^\sigma(t).
+      \]
+
+      What it isolates is the exact remaining theorem on the minimal route, with the N-decay entirely carried by (UTKD ) once (SDS ) is installed above it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Volterra Scale-Memory Formalization Note
+    line_start: 64246
+    line_end: 64306
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64246
+    start_anchor: "\\subsection{Volterra Scale-Memory Formalization Note}\n"
+    end_anchor: "\\subsection{Weighted Branch Decision Result}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Volterra Scale-Memory Formalization Note}
+
+      Its role is to formalize the scale-memory route as an exact PDE problem rather than leave it as a slogan about "memory objects."
+
+      The goal is to identify a theorem surface that is genuinely different from the crude Hardy/Cauchy collapse leading to (CTS) and then (LPAS).
+
+      Work on the exact classical NS solution u and the far-corona scale range. Define the L x 2-valued stress source
+
+      \[
+      a(r,t)
+      :=
+      r^{-2}\|Q_r u(t)\|_{L_x^2}^2.
+      \]
+
+      Substituting (4) into (3) gives the cumulative-tail theorem (CTS), and the inherited Euclidean reduction of (CTS) gives the dyadic shadow (LPAS).
+
+      \[
+      \mathcal V Z
+      \rightsquigarrow
+      |\mathcal V Z|^2
+      \rightsquigarrow
+      \text{crude Hardy collapse}
+      \rightsquigarrow
+      \text{lower-prefix active-square}.
+      \]
+
+      The new theorem should not estimate the whole Volterra primitive head-on. It should separate the one-sided primitive into parts with different PDE roles.
+
+      \[
+      (\mathcal V Z)_r
+      =
+      \mathcal E_r[Z]
+      + \mathcal P_r[Z]
+      + \mathcal R_r[Z],
+      \]
+
+      This is not imported ontology machinery. It is the PDE translation of the idea that the accumulated object should first be classified before it is treated as a live driver.
+
+      \[
+      \mathcal E_r[Z] = \partial_{\log r} S_r[Z],
+      \]
+
+      and after inserting into (3) the contribution of E r[Z] can be reduced, by scale integration by parts, to boundary terms or lower-order remainders on the fixed middle band.
+
+      \[
+      \|\mathcal E+\mathcal P+\mathcal R\|_2^2
+      \le C_{\mathrm{sf},62679}
+      \|\mathcal E\|_2^2+\|\mathcal P\|_2^2+\|\mathcal R\|_2^2.
+      \]
+
+      This route does not require the full decomposition (5) to be discovered at once.
+
+      Any nontrivial theorem that improves on the crude Hardy collapse (4) by using the assembly history of ( V Z) r would already count as real progress.
+
+      If the answer is no on the exact NS stress class, the route fails early. If the answer is yes, then the obstruction is genuinely not an ordinary source, and the Hardy/Volterra broadening is real.
+
+      So the exact part wou
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted High-Frequency Shell Reduction Lemma
+    line_start: 64690
+    line_end: 64730
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64690
+    start_anchor: "\\subsection{Weighted High-Frequency Shell Reduction Lemma}\n"
+    end_anchor: "\\subsection{Weighted Mixed-Jet Closure Implies Classical Continuation}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Weighted High-Frequency Shell Reduction Lemma}
+
+      The reduced weighted-shell problem behind the strict low-mode packet sits on the Euclidean gradient-transfer surface. It is a theorem target plus a bounded self-attempt, not a discharged lemma.
+
+      \[
+      \sum_{j\ge N}\bigl(|LH_j^{strict}|+|HL_j^{strict}|\bigr)
+      \le C_{\mathrm{sf},63077}
+      \mathcal L_N(t)\sum_{j\ge N}\sqrt{E_j(t)D_j(t)}
+      \]
+
+      \[
+      C\,\mathcal L_N(t)\,E_N(t)+\varepsilon \nu D_N(t).
+      \]
+
+      \[
+      E_j(t):=2^{2j}\|\Delta_j u(t)\|_{L^2_x}^2,
+      \qquad
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2,
+      \]
+
+      \[
+      E_N(t):=\sum_{j\ge N}E_j(t),
+      \qquad
+      D_N(t):=\sum_{j\ge N}D_j(t),
+      \]
+
+      \[
+      F_N(t)
+      :=
+      \sum_{j\ge N}2^jE_j(t)
+      =
+      \sum_{j\ge N}2^{3j}\|\Delta_j u(t)\|_{L^2_x}^2.
+      \]
+
+      This is the sharpest same-surface decomposition currently on record for the transport-form strict low packet.
+
+      The collar term in (5) still carries an extra factor 2 N, so the split does not reduce it to C L NE N by itself. The far-tail term is closer to dissipation, but even there one would need
+
+      This bounded self-attempt sharpens the strict-low obstruction rather than closing it.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted One-Sided Enstrophy-Tail Flux Identity
+    line_start: 64875
+    line_end: 64931
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64875
+    start_anchor: "\\subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}\n"
+    end_anchor: "\\subsection{Weighted Signed Shell-Exchange Sum Theorem}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}
+
+      \[
+      \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+      \qquad
+      E_\ell(t):=2^{2\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+      \qquad
+      D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \partial_t E_\ell(t)+\nu D_\ell(t)=\mathcal N_\ell(t),
+      \]
+
+      \[
+      \mathcal N_\ell
+      =
+      \mathcal N_{\ell,\mathrm{strict}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{spill}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{lift}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{HH}(j)}.
+      \]
+
+      \[
+      \partial_t \Phi_j^\sigma(t)+\nu \mathcal T_j^\sigma(t)
+      =
+      \mathcal R_j^\sigma(t),
+      \qquad
+      \mathcal R_j^\sigma
+      =
+      \mathcal R_{j,\mathrm{strict}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{spill}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{lift}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{HH}}^\sigma.
+      \]
+
+      So the weighted tail summation already creates a genuine lower-to-upper kernel 2 - (k-j) .
+
+      So the weighted one-sided flux route does expose a real one-sided cancellation structure, but the residual theorem content is the control of the paired carrier with weight 2 k.
+
+      All three are equivalent on the current route because L j [u] R j, lift , and each version says the same thing: the lifted packet is coercive against the of the one-sided dissipation queue after a tail correction is added.
+
+      The entropy statement is the preferred master formulation because it is the closest to the PDE identity and yields (SDS ) directly after summing in j and integrating in time.
+
+      What it fixes is the exact structural place where new theorem content must enter: after weighted tail summation, the lifted packet becomes a kernelized lower-to-upper carrier, and after the 2 j summation that carrier picks up the residual weight 2 k.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Tail-Flux Lifted J-Sum Audit
+    line_start: 65051
+    line_end: 65105
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65051
+    start_anchor: "\\subsection{Weighted Tail-Flux Lifted J-Sum Audit}\n"
+    end_anchor: "\\subsection{WIZARD Bridge I: Signed-To-Affine Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Weighted Tail-Flux Lifted J-Sum Audit}
+
+      The exact packet-by-packet weighted decomposition above (SDS) isolates the one place where new theorem content must enter.
+
+      \[
+      \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+      \qquad
+      E_\ell(t):=2^{2\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+      \qquad
+      D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \partial_t E_\ell(t)+\nu D_\ell(t)=\mathcal N_\ell(t),
+      \]
+
+      \[
+      \mathcal N_\ell
+      =
+      \mathcal N_{\ell,\mathrm{strict}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{spill}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{lift}(j)}
+      +
+      \mathcal N_{\ell,\mathrm{HH}(j)}.
+      \]
+
+      \[
+      \partial_t \Phi_j^\sigma(t)+\nu \mathcal T_j^\sigma(t)
+      =
+      \mathcal R_j^\sigma(t),
+      \qquad
+      \mathcal R_j^\sigma
+      =
+      \mathcal R_{j,\mathrm{strict}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{spill}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{lift}}^\sigma
+      +
+      \mathcal R_{j,\mathrm{HH}}^\sigma,
+      \]
+
+      This is the exact extra one-sided cancellation gained from the weighted tail-summation: the lifted term is no longer a raw band sum, but a genuine kernelized lower-to-upper carrier.
+
+      This self-attempt does not prove the weighted one-sided enstrophy-tail flux theorem.
+
+      So the remaining theorem content is now precisely the control of that paired carrier.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Good Scale Failure To Field Exit For The H 1/2
+      Route
+    line_start: 67538
+    line_end: 67560
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67538
+    start_anchor: "\\subsection{Clay problem Good Scale Failure To Field Exit For
+      The H 1/2 Route}\n"
+    end_anchor: "\\subsection{R3 Lagrangian / Deformation Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Good Scale Failure To Field Exit For The H 1/2 Route}
+
+      Conditional CM failure-classification theorem. The proof is direct under the Field row used by the Good Scale / Field.TTU surfaces.
+
+      Let Good Scale.TTU( W *) mean that there exists an active terminal material point
+
+      \[
+      (a_*,t_*)\in Q^\Phi([t_0,T_*),A_\sharp)
+      \]
+
+      Pack Q keeps the active terminal point inside the same material packet and supplies the retained material address. The point is still being tested inside the CM witness record.
+
+      Part N,Q keeps the same pressure-viscosity participation law attached to that retained material point. The active terminal point remains inside the same Navier--Stokes participation row.
+
+      The Good Scale failure gives an active terminal material point with no positive SCF-good cylinder at any radius. Hence no positive local Field scale exists at that point. With Pack and Part retained, the remaining failed CM face is Field coherence.
+
+      Thus the branch lands in the Field face. In the averaged endpoint grammar, the same obstruction appears as Jump avg.
+
+      The material point still has an address. The same pressure-viscosity law still participates. Yet no positive neighborhood around that material point supports coherent same-fluid field readout. The flow has retained a material carrier and a governing law while losing local tower coherence. That is the Field exit.
+
+      So the route no longer needs a positive proof of Good Scale.TTU on every branch. The Good Scale failure branch is a CM Field exit.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Good Scale.TTU state Audit For The H 1/2 Route
+    line_start: 67582
+    line_end: 67594
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67582
+    start_anchor: "\\subsection{Clay problem Good Scale.TTU state Audit For The H
+      1/2 Route}\n"
+    end_anchor: "\\subsection{Field Finite-Difference Readout For Critical H 1/2}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Good Scale.TTU state Audit For The H 1/2 Route}
+
+      Audit note. Good Scale.TTU is open as a positive production theorem. Its failure is usable as a CM Field/Jump exit branch.
+
+      This means every active terminal material point has a positive SCF-good cylinder.
+
+      So positive Good Scale.TTU supplies the retained Field readout needed for matched finite-difference control.
+
+      On the failure branch, there is an active terminal material point with no positive SCF-good cylinder. The Good Scale test surface identifies this as the bad material set and records it in the averaged endpoint grammar as Jump avg. Pointwise, this is loss of every positive local coherence scale, hence a Field-side exit.
+
+      This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Tail Hs Duhamel Source Reduction
+    line_start: 68238
+    line_end: 68260
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68238
+    start_anchor: "\\subsection{R3 Tail Hs Duhamel Source Reduction}\n"
+    end_anchor: "\\subsection{R3 Exterior Source Dyadic Escape To CM Face}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{R3 Tail Hs Duhamel Source Reduction}
+
+      Duhamel splitting reduces the remaining obstruction by separating the part already forced small by rapid decay and kernel distance from the part that still needs a genuine exterior nonlinear-source theorem.
+
+      Let u be a smooth finite-energy Navier-Stokes solution on [0,T *) R 3 , with smooth rapidly decaying divergence-free initial data. Fix s>5/2 . For a large radius R , let R be an exterior cutoff supported outside R and equal to one outside 2R .
+
+      Since u 0 is smooth and rapidly decaying, u 0 H m for every finite derivative order m and polynomial weight . The heat kernel commutes with derivatives and only improves decay on finite time intervals. For |x|>R , the usual weighted heat estimate gives
+
+      The kernel of s e nu(t- ) P is smooth away from the diagonal and has standard heat/Leray off-diagonal decay. On the support of the compact-core source and the exterior cutoff, the distance is at least R/2 . Thus the kernel contribution is bounded by a negative power of R , with constants depending on s, ,T and on fixed-core local norms.
+
+      The L 1 size of u u is controlled by finite energy, while the finite number of derivative commutators needed for the H s norm is supplied by the compact-core readout. Hence the compact-core contribution is
+
+      for some >0 on each finite interval where the compact-core readout is available. This tends to zero.
+
+      If this theorem is proved, then Tail.Hs R3 follows, and the stronger direct-positive whole-space export branch can use the existing conditional continuation bridge.
+
+      The live mathematical work is now the exterior nonlinear source account. In plain terms: the only way a whole-space high-order tail obstruction survives is for the nonlinearity already living far out in space to keep generating high-order exterior mass up to the terminal time.
+
+      This reduction does not spend a global H s bound, a BKM integral, or continuation-grade 0 T * || u|| L dt . Those would close the whole problem befor
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Upper-Tail Kernelized Dissipation Theorem}
+
+    \[
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \mathcal D_k^\sigma(t):=
+    \sum_{j>k+4}2^{-\sigma(j-k)}D_j(t),
+    \qquad
+    k\in\mathbb Z.
+    \]
+
+    \[
+    \mathcal C_N^\sigma(t):=
+    \sum_{k>N+M}
+    2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}\,\mathcal D_k^\sigma(t).
+    \]
+
+    This remains the minimal theorem on the upper-tail dissipation convolution, but it is no longer the installed frontier theorem.
+
+    \[
+    \mathcal T_j^\sigma(t):=
+    \sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t).
+    \]
+
+    \[
+    \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
+    \le C_{\mathrm{sf},62526,\sigma}
+    \sum_{j>N+M+4}2^jD_j(t)\,\mathcal T_j^\sigma(t).
+    \]
+
+    What it isolates is the exact remaining theorem on the minimal route, with the N-decay entirely carried by (UTKD ) once (SDS ) is installed above it.
+
+
+
+    \subsection{Volterra Scale-Memory Formalization Note}
+
+    Its role is to formalize the scale-memory route as an exact PDE problem rather than leave it as a slogan about "memory objects."
+
+    The goal is to identify a theorem surface that is genuinely different from the crude Hardy/Cauchy collapse leading to (CTS) and then (LPAS).
+
+    Work on the exact classical NS solution u and the far-corona scale range. Define the L x 2-valued stress source
+
+    \[
+    a(r,t)
+    :=
+    r^{-2}\|Q_r u(t)\|_{L_x^2}^2.
+    \]
+
+    Substituting (4) into (3) gives the cumulative-tail theorem (CTS), and the inherited Euclidean reduction of (CTS) gives the dyadic shadow (LPAS).
+
+    \[
+    \mathcal V Z
+    \rightsquigarrow
+    |\mathcal V Z|^2
+    \rightsquigarrow
+    \text{crude Hardy collapse}
+    \rightsquigarrow
+    \text{lower-prefix active-square}.
+    \]
+
+    The new theorem should not estimate the whole Volterra primitive head-on. It should separate the one-sided primitive into parts with different PDE roles.
+
+    \[
+    (\mathcal V Z)_r
+    =
+    \mathcal E_r[Z]
+    + \mathcal P_r[Z]
+    + \mathcal R_r[Z],
+    \]
+
+    This is not imported ontology machinery. It is the PDE translation of the idea that the accumulated object should first be classified before it is treated as a live driver.
+
+    \[
+    \mathcal E_r[Z] = \partial_{\log r} S_r[Z],
+    \]
+
+    and after inserting into (3) the contribution of E r[Z] can be reduced, by scale integration by parts, to boundary terms or lower-order remainders on the fixed middle band.
+
+    \[
+    \|\mathcal E+\mathcal P+\mathcal R\|_2^2
+    \le C_{\mathrm{sf},62679}
+    \|\mathcal E\|_2^2+\|\mathcal P\|_2^2+\|\mathcal R\|_2^2.
+    \]
+
+    This route does not require the full decomposition (5) to be discovered at once.
+
+    Any nontrivial theorem that improves on the crude Hardy collapse (4) by using the assembly history of ( V Z) r would already count as real progress.
+
+    If the answer is no on the exact NS stress class, the route fails early. If the answer is yes, then the obstruction is genuinely not an ordinary source, and the Hardy/Volterra broadening is real.
+
+    So the exact part would decouple if the active weight were scale-flat or had a usable scale-derivative bound. On the inherited Euclidean surface, no such control on s w is available.
+
+    So Attempt A is nontrivial and exact, but it does not yet improve the theorem because it converts the problem into controlling scale variation of the active dissipation weight.
+
+
+
+    \subsection{Weighted High-Frequency Shell Reduction Lemma}
+
+    The reduced weighted-shell problem behind the strict low-mode packet sits on the Euclidean gradient-transfer surface. It is a theorem target plus a bounded self-attempt, not a discharged lemma.
+
+    \[
+    \sum_{j\ge N}\bigl(|LH_j^{strict}|+|HL_j^{strict}|\bigr)
+    \le C_{\mathrm{sf},63077}
+    \mathcal L_N(t)\sum_{j\ge N}\sqrt{E_j(t)D_j(t)}
+    \]
+
+    \[
+    C\,\mathcal L_N(t)\,E_N(t)+\varepsilon \nu D_N(t).
+    \]
+
+    \[
+    E_j(t):=2^{2j}\|\Delta_j u(t)\|_{L^2_x}^2,
+    \qquad
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2,
+    \]
+
+    \[
+    E_N(t):=\sum_{j\ge N}E_j(t),
+    \qquad
+    D_N(t):=\sum_{j\ge N}D_j(t),
+    \]
+
+    \[
+    F_N(t)
+    :=
+    \sum_{j\ge N}2^jE_j(t)
+    =
+    \sum_{j\ge N}2^{3j}\|\Delta_j u(t)\|_{L^2_x}^2.
+    \]
+
+    This is the sharpest same-surface decomposition currently on record for the transport-form strict low packet.
+
+    The collar term in (5) still carries an extra factor 2 N, so the split does not reduce it to C L NE N by itself. The far-tail term is closer to dissipation, but even there one would need
+
+    This bounded self-attempt sharpens the strict-low obstruction rather than closing it.
+
+
+
+    \subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}
+
+    \[
+    \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+    \qquad
+    E_\ell(t):=2^{2\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+    \qquad
+    D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \partial_t E_\ell(t)+\nu D_\ell(t)=\mathcal N_\ell(t),
+    \]
+
+    \[
+    \mathcal N_\ell
+    =
+    \mathcal N_{\ell,\mathrm{strict}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{spill}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{lift}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{HH}(j)}.
+    \]
+
+    \[
+    \partial_t \Phi_j^\sigma(t)+\nu \mathcal T_j^\sigma(t)
+    =
+    \mathcal R_j^\sigma(t),
+    \qquad
+    \mathcal R_j^\sigma
+    =
+    \mathcal R_{j,\mathrm{strict}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{spill}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{lift}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{HH}}^\sigma.
+    \]
+
+    So the weighted tail summation already creates a genuine lower-to-upper kernel 2 - (k-j) .
+
+    So the weighted one-sided flux route does expose a real one-sided cancellation structure, but the residual theorem content is the control of the paired carrier with weight 2 k.
+
+    All three are equivalent on the current route because L j [u] R j, lift , and each version says the same thing: the lifted packet is coercive against the of the one-sided dissipation queue after a tail correction is added.
+
+    The entropy statement is the preferred master formulation because it is the closest to the PDE identity and yields (SDS ) directly after summing in j and integrating in time.
+
+    What it fixes is the exact structural place where new theorem content must enter: after weighted tail summation, the lifted packet becomes a kernelized lower-to-upper carrier, and after the 2 j summation that carrier picks up the residual weight 2 k.
+
+
+
+    \subsection{Weighted Tail-Flux Lifted J-Sum Audit}
+
+    The exact packet-by-packet weighted decomposition above (SDS) isolates the one place where new theorem content must enter.
+
+    \[
+    \Phi_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}E_\ell(t),
+    \qquad
+    E_\ell(t):=2^{2\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    \mathcal T_j^\sigma(t):=\sum_{\ell\ge j}2^{-\sigma(\ell-j)}D_\ell(t),
+    \qquad
+    D_\ell(t):=2^{4\ell}\|\Delta_\ell u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \partial_t E_\ell(t)+\nu D_\ell(t)=\mathcal N_\ell(t),
+    \]
+
+    \[
+    \mathcal N_\ell
+    =
+    \mathcal N_{\ell,\mathrm{strict}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{spill}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{lift}(j)}
+    +
+    \mathcal N_{\ell,\mathrm{HH}(j)}.
+    \]
+
+    \[
+    \partial_t \Phi_j^\sigma(t)+\nu \mathcal T_j^\sigma(t)
+    =
+    \mathcal R_j^\sigma(t),
+    \qquad
+    \mathcal R_j^\sigma
+    =
+    \mathcal R_{j,\mathrm{strict}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{spill}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{lift}}^\sigma
+    +
+    \mathcal R_{j,\mathrm{HH}}^\sigma,
+    \]
+
+    This is the exact extra one-sided cancellation gained from the weighted tail-summation: the lifted term is no longer a raw band sum, but a genuine kernelized lower-to-upper carrier.
+
+    This self-attempt does not prove the weighted one-sided enstrophy-tail flux theorem.
+
+    So the remaining theorem content is now precisely the control of that paired carrier.
+
+
+
+    \subsection{Clay problem Good Scale Failure To Field Exit For The H 1/2 Route}
+
+    Conditional CM failure-classification theorem. The proof is direct under the Field row used by the Good Scale / Field.TTU surfaces.
+
+    Let Good Scale.TTU( W *) mean that there exists an active terminal material point
+
+    \[
+    (a_*,t_*)\in Q^\Phi([t_0,T_*),A_\sharp)
+    \]
+
+    Pack Q keeps the active terminal point inside the same material packet and supplies the retained material address. The point is still being tested inside the CM witness record.
+
+    Part N,Q keeps the same pressure-viscosity participation law attached to that retained material point. The active terminal point remains inside the same Navier--Stokes participation row.
+
+    The Good Scale failure gives an active terminal material point with no positive SCF-good cylinder at any radius. Hence no positive local Field scale exists at that point. With Pack and Part retained, the remaining failed CM face is Field coherence.
+
+    Thus the branch lands in the Field face. In the averaged endpoint grammar, the same obstruction appears as Jump avg.
+
+    The material point still has an address. The same pressure-viscosity law still participates. Yet no positive neighborhood around that material point supports coherent same-fluid field readout. The flow has retained a material carrier and a governing law while losing local tower coherence. That is the Field exit.
+
+    So the route no longer needs a positive proof of Good Scale.TTU on every branch. The Good Scale failure branch is a CM Field exit.
+
+
+
+    \subsection{Clay problem Good Scale.TTU state Audit For The H 1/2 Route}
+
+    Audit note. Good Scale.TTU is open as a positive production theorem. Its failure is usable as a CM Field/Jump exit branch.
+
+    This means every active terminal material point has a positive SCF-good cylinder.
+
+    So positive Good Scale.TTU supplies the retained Field readout needed for matched finite-difference control.
+
+    On the failure branch, there is an active terminal material point with no positive SCF-good cylinder. The Good Scale test surface identifies this as the bad material set and records it in the averaged endpoint grammar as Jump avg. Pointwise, this is loss of every positive local coherence scale, hence a Field-side exit.
+
+    This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.
+
+
+
+    \subsection{R3 Tail Hs Duhamel Source Reduction}
+
+    Duhamel splitting reduces the remaining obstruction by separating the part already forced small by rapid decay and kernel distance from the part that still needs a genuine exterior nonlinear-source theorem.
+
+    Let u be a smooth finite-energy Navier-Stokes solution on [0,T *) R 3 , with smooth rapidly decaying divergence-free initial data. Fix s>5/2 . For a large radius R , let R be an exterior cutoff supported outside R and equal to one outside 2R .
+
+    Since u 0 is smooth and rapidly decaying, u 0 H m for every finite derivative order m and polynomial weight . The heat kernel commutes with derivatives and only improves decay on finite time intervals. For |x|>R , the usual weighted heat estimate gives
+
+    The kernel of s e nu(t- ) P is smooth away from the diagonal and has standard heat/Leray off-diagonal decay. On the support of the compact-core source and the exterior cutoff, the distance is at least R/2 . Thus the kernel contribution is bounded by a negative power of R , with constants depending on s, ,T and on fixed-core local norms.
+
+    The L 1 size of u u is controlled by finite energy, while the finite number of derivative commutators needed for the H s norm is supplied by the compact-core readout. Hence the compact-core contribution is
+
+    for some >0 on each finite interval where the compact-core readout is available. This tends to zero.
+
+    If this theorem is proved, then Tail.Hs R3 follows, and the stronger direct-positive whole-space export branch can use the existing conditional continuation bridge.
+
+    The live mathematical work is now the exterior nonlinear source account. In plain terms: the only way a whole-space high-order tail obstruction survives is for the nonlinearity already living far out in space to keep generating high-order exterior mass up to the terminal time.
+
+    This reduction does not spend a global H s bound, a BKM integral, or continuation-grade 0 T * || u|| L dt . Those would close the whole problem before the tail theorem.
+
+    The next noncircular proof target for the stronger direct-positive route is an exterior nonlinear-source estimate from original data, exterior energy tightness, pressure-tail control, and whatever localized compact-core readout the CM route has already earned. If that estimate requires global H s or BKM control, it fails as a proof of the direct-positive whole-space export branch and must be replaced by a sharper exterior source mechanism.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Upper-Tail Kernelized Dissipation Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64107
+  line_start: 64107
+  line_end: 64141
+  start_anchor: "\\subsection{Upper-Tail Kernelized Dissipation Theorem}\n"
+  end_anchor: "\\subsection{UTKD Proof Attempt Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Upper-Tail Kernelized Dissipation
+    Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64107
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Volterra Scale-Memory Formalization Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64246
+  line_start: 64246
+  line_end: 64306
+  start_anchor: "\\subsection{Volterra Scale-Memory Formalization Note}\n"
+  end_anchor: "\\subsection{Weighted Branch Decision Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Volterra Scale-Memory Formalization
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64246
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted High-Frequency Shell Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64690
+  line_start: 64690
+  line_end: 64730
+  start_anchor: "\\subsection{Weighted High-Frequency Shell Reduction Lemma}\n"
+  end_anchor: "\\subsection{Weighted Mixed-Jet Closure Implies Classical Continuation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted High-Frequency Shell
+    Reduction Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64690
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted One-Sided Enstrophy-Tail Flux Identity
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64875
+  line_start: 64875
+  line_end: 64931
+  start_anchor: "\\subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}\n"
+  end_anchor: "\\subsection{Weighted Signed Shell-Exchange Sum Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted One-Sided Enstrophy-Tail
+    Flux Identity as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64875
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Tail-Flux Lifted J-Sum Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65051
+  line_start: 65051
+  line_end: 65105
+  start_anchor: "\\subsection{Weighted Tail-Flux Lifted J-Sum Audit}\n"
+  end_anchor: "\\subsection{WIZARD Bridge I: Signed-To-Affine Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Tail-Flux Lifted J-Sum
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65051
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Good Scale Failure To Field Exit For The H 1/2 Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67538
+  line_start: 67538
+  line_end: 67560
+  start_anchor: "\\subsection{Clay problem Good Scale Failure To Field Exit For The
+    H 1/2 Route}\n"
+  end_anchor: "\\subsection{R3 Lagrangian / Deformation Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Good Scale Failure
+    To Field Exit For The H 1/2 Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67538
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Good Scale.TTU state Audit For The H 1/2 Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67582
+  line_start: 67582
+  line_end: 67594
+  start_anchor: "\\subsection{Clay problem Good Scale.TTU state Audit For The H 1/2
+    Route}\n"
+  end_anchor: "\\subsection{Field Finite-Difference Readout For Critical H 1/2}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Good Scale.TTU state
+    Audit For The H 1/2 Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67582
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Tail Hs Duhamel Source Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68238
+  line_start: 68238
+  line_end: 68260
+  start_anchor: "\\subsection{R3 Tail Hs Duhamel Source Reduction}\n"
+  end_anchor: "\\subsection{R3 Exterior Source Dyadic Escape To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Tail Hs Duhamel Source Reduction
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68238
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-26
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-scale-tail-and-lifted-band-26.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

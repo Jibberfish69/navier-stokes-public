@@ -1,0 +1,800 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-09
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-09
+  sequence: 11
+  group_id: carrier-and-pack
+  title: Carrier and Pack 9
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 25435
+  line_end: 29142
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25435
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27382
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28072
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28297
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28389
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28673
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29108
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29125
+  subsection_titles:
+  - Scfbase Modulus Original Pack Test
+  - Terminal Skew Localization record.A attempt
+  - Tower.TTU Under Pack.TTU Test
+  - A Direct Test Pack Control Failure
+  - 'TTU Sharp Obstruction: Pack.TTU Target'
+  - 'Uniform Strain Tail Retry: Selector And Moving-Spike Test'
+  - Whole-Space Export/Localization Retry
+  - Whole-Space Export / Localization Theorem Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scfbase Modulus Original Pack Test
+    line_start: 25435
+    line_end: 25449
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25435
+    start_anchor: "\\subsection{Scfbase Modulus Original Pack Test}\n"
+    end_anchor: "\\subsection{SCFBase Pressure Defect Compatibility}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Scfbase Modulus Original Pack Test}
+
+      Original Smooth Data gives smoothness on every compact interval below T * and the terminal energy inequality.
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+      \]
+
+      Geometric comparability does not control the local velocity-pressure scale-critical packet. Compact-time smoothness gives local continuity for each T 0<T *; it does not produce a terminal integrable label-time-scale modulus as t T *.
+
+      Energy gives a.e. good-scale information. It does not give uniform variation control over all active labels and scales.
+
+      A sequence of bad scale-critical packets can move through fresh labels and decreasing scales near T *. Pack control can keep the coordinate geometry stable while the SCF packet itself still moves.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Skew Localization record.A attempt
+    line_start: 27382
+    line_end: 27394
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27382
+    start_anchor: "\\subsection{Terminal Skew Localization record.A attempt}\n"
+    end_anchor: "\\subsection{Terminal Source Backward Propagation.A attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Terminal Skew Localization record.A attempt}
+
+      Failed as an unconditional theorem. The exact conditional factorization is preserved.
+
+      Weighted Lifted Skew Defect Legal.A fails unconditionally because one-sided weights and lifted commutator defects are not legally summable without pairwise weight flattening or a signed lifted-commutator theorem.
+
+      Skew Saturation Admissibility.A fails unconditionally because saturating a selected terminal family by all signed partners may create an unbounded incoming donor hull.
+
+      Off Saturation Boundary Pricing.A fails unconditionally because a missing signed partner can be a legal interior donor, not boundary flux or a legal loss.
+
+      The signed-current source-wall route cannot yet proceed to heat-action estimates as a theorem-grade route, because the localized terminal current has not been constructed.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tower.TTU Under Pack.TTU Test
+    line_start: 28072
+    line_end: 28104
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28072
+    start_anchor: "\\subsection{Tower.TTU Under Pack.TTU Test}\n"
+    end_anchor: "\\subsection{Tower Bound.Upstream Direct Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Tower.TTU Under Pack.TTU Test}
+
+      \[
+      \mathfrak A_{N,Q}(t)
+      :=
+      \sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|).
+      \]
+
+      \[
+      Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2),
+      \qquad
+      r_*:=\min_i R_i>0.
+      \]
+
+      \[
+      m\ge N+2.
+      \]
+
+      \[
+      \sup_{t<T_*}\sup_i\|U_k(t)\|_{L^\infty(B_i')}<\infty.
+      \]
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+      \]
+
+      ATD m supplies the product-source carrier on the fixed cover. The harmonic tail satisfies
+
+      This stabilizes deformation geometry and prevents packing detachment. It supplies bounded same-fluid distortion and makes finite-cover transport plausible once a positive-scale cover is already present.
+
+      Pack gauge controls geometry of material deformation. Tower control requires finite-depth local regularity and pressure/viscous readout on a positive-scale terminal cover. These are separate theorem burdens.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: A Direct Test Pack Control Failure
+    line_start: 28297
+    line_end: 28336
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28297
+    start_anchor: "\\subsection{A Direct Test Pack Control Failure}\n"
+    end_anchor: "\\subsection{TTU Branch Selection And Averaged Terminal-Tail Target}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{A Direct Test Pack Control Failure}
+
+      Original smooth data produces a maximal classical solution on [0,T *). On every compact interval
+
+      \[
+      [0,T_0]\Subset[0,T_*),
+      \]
+
+      \[
+      \Gamma_{pack,Q}(t)
+      \le
+      \Gamma_{pack,Q}(t_0)
+      \exp\left(
+      \int_{t_0}^{t}\|\nabla u(s)\|_{L^\infty(Q_s)}\,ds
+      \right).
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\|\nabla u(s)\|_{L^\infty}\,ds<\infty
+      \]
+
+      Original smooth data alone gives energy-class controls and compact-window smoothness. The terminal Lipschitz integral is continuation-grade information.
+
+      \[
+      \det \nabla_a\Phi=1.
+      \]
+
+      This controls volume, while the pack gauge controls singular values and inverse singular values.
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x}.
+      \]
+
+      The endpoint matrix removes endpoint faces after terminal inputs are available. It cannot produce the pack gauge needed as an input to the same endpoint matrix.
+
+      where S pack,Q controls the logarithmic growth of both a and a -1 on the terminal same-fluid tail.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'TTU Sharp Obstruction: Pack.TTU Target'
+    line_start: 28389
+    line_end: 28413
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28389
+    start_anchor: "\\subsection{TTU Sharp Obstruction: Pack.TTU Target}\n"
+    end_anchor: "\\subsection{TTU Terminal-Tail Production Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{TTU Sharp Obstruction: Pack.TTU Target}
+
+      \[
+      \partial_t F=(\nabla u)(\Phi,t)F,
+      \]
+
+      \[
+      \int_{t_0}^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt<\infty.
+      \]
+
+      where S pack,Q dominates the logarithmic growth of both F and F -1 on the terminal same-fluid tail.
+
+      \[
+      \det F=1.
+      \]
+
+      \[
+      u\in L_t^\infty L_x^2,
+      \qquad
+      \nabla u\in L^2_{t,x}.
+      \]
+
+      It does not supply the terminal Lipschitz integral or pack-native strain budget.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Uniform Strain Tail Retry: Selector And Moving-Spike Test'
+    line_start: 28673
+    line_end: 28708
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28673
+    start_anchor: "\\subsection{Uniform Strain Tail Retry: Selector And Moving-Spike
+      Test}\n"
+    end_anchor: "\\subsection{Uniform Temporal Source Integrability.A attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Uniform Strain Tail Retry: Selector And Moving-Spike Test}
+
+      Anchored retry result. The finite selector route remains valid. The continuum selector route fails without an extra finite-complexity or integrable-modulus theorem.
+
+      \[
+      s(a,t):=
+      \|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+      \]
+
+      \[
+      A_Q=\{a_1, \dots,a_J\},
+      \]
+
+      \[
+      \int\sup_{a\in A_Q}s(a,t)dt
+      \le
+      \sum_{j=1}^{J}\int s(a_j,t)dt.
+      \]
+
+      Take a compact label set A Q=[0,1] and a terminal sequence t n T *. Choose disjoint label neighborhoods U n A Q and disjoint time intervals I n [t 0,T *) with I n T *. Let
+
+      \[
+      s(a,t)=\sum_{n}A_n\phi_n(a)\psi_n(t),
+      \]
+
+      \[
+      A_n|I_n|=1/n.
+      \]
+
+      Thus Uniform Strain Tail.TTU fails under compactness and pointwise finite strain alone.
+
+      Thus threshold-dependent labels can witness arbitrarily large supremal strain, while no fixed finite selector captures the whole terminal strain record.
+
+      Finite active packets close. Continuum active packets require additional structure beyond compactness and labelwise finite strain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Whole-Space Export/Localization Retry
+    line_start: 29108
+    line_end: 29124
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29108
+    start_anchor: "\\subsection{Whole-Space Export/Localization Retry}\n"
+    end_anchor: "\\subsection{Whole-Space Export / Localization Theorem Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Whole-Space Export/Localization Retry}
+
+      \[
+      \text{periodic averaged terminal-tail route}
+      \Longrightarrow
+      \text{localized }\mathbb R^3\text{ terminal-tail route}.
+      \]
+
+      The periodic route uses compactness of T 3, a finite terminal cover with no spatial infinity, a periodic zero-mean pressure gauge, and periodic energy bounds. A direct positive periodic-to-R3 export route requires replacement of each of those ingredients.
+
+      \[
+      p=p_i^{loc}+h_i,
+      \]
+
+      For this historical export route, the closed theorem remains the periodic zero-force branch and Euclidean localization/export is a separate direct-positive package. This does not govern the present R3 CM-facing submission branch, which uses the June 8 endpoint-consumption route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Whole-Space Export / Localization Theorem Attempt
+    line_start: 29125
+    line_end: 29142
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29125
+    start_anchor: "\\subsection{Whole-Space Export / Localization Theorem Attempt}\n"
+    end_anchor: "\\subsection{Whole-Space Pressure-Tail Theorem}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Whole-Space Export / Localization Theorem Attempt}
+
+      \[
+      \text{periodic averaged terminal-tail route}
+      \Longrightarrow
+      \text{localized }\mathbb R^3\text{ terminal-tail route}.
+      \]
+
+      The periodic route uses \(T^3\), a finite cover with no spatial infinity, a
+      periodic pressure gauge, and the energy tail \(\|u(t)\|_{L^2(T^3)}\).
+
+      The periodic fixed-cover pressure readout uses a finite compact cover and controls the harmonic tail by periodic energy. On R 3, the pressure split has a far-field term from spatial infinity. A uniform endpoint-rung readout requires estimates of the form
+
+      This historical export note recorded that the periodic route alone did not supply a direct positive whole-space theorem. The present manuscript keeps periodic and whole-space tracks separated and routes whole-space terminal survivors through the CM pass-or-exit analysis.
+
+      Whole-space localization/export remains a separate direct-positive analytic program. The CM-facing R3 branch is governed by the June 8 endpoint-consumption route rather than by this older export decision.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Scfbase Modulus Original Pack Test}
+
+    Original Smooth Data gives smoothness on every compact interval below T * and the terminal energy inequality.
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+    \]
+
+    Geometric comparability does not control the local velocity-pressure scale-critical packet. Compact-time smoothness gives local continuity for each T 0<T *; it does not produce a terminal integrable label-time-scale modulus as t T *.
+
+    Energy gives a.e. good-scale information. It does not give uniform variation control over all active labels and scales.
+
+    A sequence of bad scale-critical packets can move through fresh labels and decreasing scales near T *. Pack control can keep the coordinate geometry stable while the SCF packet itself still moves.
+
+
+
+    \subsection{Terminal Skew Localization record.A attempt}
+
+    Failed as an unconditional theorem. The exact conditional factorization is preserved.
+
+    Weighted Lifted Skew Defect Legal.A fails unconditionally because one-sided weights and lifted commutator defects are not legally summable without pairwise weight flattening or a signed lifted-commutator theorem.
+
+    Skew Saturation Admissibility.A fails unconditionally because saturating a selected terminal family by all signed partners may create an unbounded incoming donor hull.
+
+    Off Saturation Boundary Pricing.A fails unconditionally because a missing signed partner can be a legal interior donor, not boundary flux or a legal loss.
+
+    The signed-current source-wall route cannot yet proceed to heat-action estimates as a theorem-grade route, because the localized terminal current has not been constructed.
+
+
+
+    \subsection{Tower.TTU Under Pack.TTU Test}
+
+    \[
+    \mathfrak A_{N,Q}(t)
+    :=
+    \sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|).
+    \]
+
+    \[
+    Q_t\subset\bigcup_{i=1}^{J_Q}B(c_i(t),R_i/2),
+    \qquad
+    r_*:=\min_i R_i>0.
+    \]
+
+    \[
+    m\ge N+2.
+    \]
+
+    \[
+    \sup_{t<T_*}\sup_i\|U_k(t)\|_{L^\infty(B_i')}<\infty.
+    \]
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q.
+    \]
+
+    ATD m supplies the product-source carrier on the fixed cover. The harmonic tail satisfies
+
+    This stabilizes deformation geometry and prevents packing detachment. It supplies bounded same-fluid distortion and makes finite-cover transport plausible once a positive-scale cover is already present.
+
+    Pack gauge controls geometry of material deformation. Tower control requires finite-depth local regularity and pressure/viscous readout on a positive-scale terminal cover. These are separate theorem burdens.
+
+
+
+    \subsection{A Direct Test Pack Control Failure}
+
+    Original smooth data produces a maximal classical solution on [0,T *). On every compact interval
+
+    \[
+    [0,T_0]\Subset[0,T_*),
+    \]
+
+    \[
+    \Gamma_{pack,Q}(t)
+    \le
+    \Gamma_{pack,Q}(t_0)
+    \exp\left(
+    \int_{t_0}^{t}\|\nabla u(s)\|_{L^\infty(Q_s)}\,ds
+    \right).
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\|\nabla u(s)\|_{L^\infty}\,ds<\infty
+    \]
+
+    Original smooth data alone gives energy-class controls and compact-window smoothness. The terminal Lipschitz integral is continuation-grade information.
+
+    \[
+    \det \nabla_a\Phi=1.
+    \]
+
+    This controls volume, while the pack gauge controls singular values and inverse singular values.
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x}.
+    \]
+
+    The endpoint matrix removes endpoint faces after terminal inputs are available. It cannot produce the pack gauge needed as an input to the same endpoint matrix.
+
+    where S pack,Q controls the logarithmic growth of both a and a -1 on the terminal same-fluid tail.
+
+
+
+    \subsection{TTU Sharp Obstruction: Pack.TTU Target}
+
+    \[
+    \partial_t F=(\nabla u)(\Phi,t)F,
+    \]
+
+    \[
+    \int_{t_0}^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt<\infty.
+    \]
+
+    where S pack,Q dominates the logarithmic growth of both F and F -1 on the terminal same-fluid tail.
+
+    \[
+    \det F=1.
+    \]
+
+    \[
+    u\in L_t^\infty L_x^2,
+    \qquad
+    \nabla u\in L^2_{t,x}.
+    \]
+
+    It does not supply the terminal Lipschitz integral or pack-native strain budget.
+
+
+
+    \subsection{Uniform Strain Tail Retry: Selector And Moving-Spike Test}
+
+    Anchored retry result. The finite selector route remains valid. The continuum selector route fails without an extra finite-complexity or integrable-modulus theorem.
+
+    \[
+    s(a,t):=
+    \|\operatorname{sym}\nabla u(\Phi(a,t),t)\|_{op}.
+    \]
+
+    \[
+    A_Q=\{a_1, \dots,a_J\},
+    \]
+
+    \[
+    \int\sup_{a\in A_Q}s(a,t)dt
+    \le
+    \sum_{j=1}^{J}\int s(a_j,t)dt.
+    \]
+
+    Take a compact label set A Q=[0,1] and a terminal sequence t n T *. Choose disjoint label neighborhoods U n A Q and disjoint time intervals I n [t 0,T *) with I n T *. Let
+
+    \[
+    s(a,t)=\sum_{n}A_n\phi_n(a)\psi_n(t),
+    \]
+
+    \[
+    A_n|I_n|=1/n.
+    \]
+
+    Thus Uniform Strain Tail.TTU fails under compactness and pointwise finite strain alone.
+
+    Thus threshold-dependent labels can witness arbitrarily large supremal strain, while no fixed finite selector captures the whole terminal strain record.
+
+    Finite active packets close. Continuum active packets require additional structure beyond compactness and labelwise finite strain.
+
+
+
+    \subsection{Whole-Space Export/Localization Retry}
+
+    \[
+    \text{periodic averaged terminal-tail route}
+    \Longrightarrow
+    \text{localized }\mathbb R^3\text{ terminal-tail route}.
+    \]
+
+    The periodic route uses compactness of T 3, a finite terminal cover with no spatial infinity, a periodic zero-mean pressure gauge, and periodic energy bounds. A direct positive periodic-to-R3 export route requires replacement of each of those ingredients.
+
+    \[
+    p=p_i^{loc}+h_i,
+    \]
+
+    For this historical export route, the closed theorem remains the periodic zero-force branch and Euclidean localization/export is a separate direct-positive package. This does not govern the present R3 CM-facing submission branch, which uses the June 8 endpoint-consumption route.
+
+
+
+    \subsection{Whole-Space Export / Localization Theorem Attempt}
+
+    \[
+    \text{periodic averaged terminal-tail route}
+    \Longrightarrow
+    \text{localized }\mathbb R^3\text{ terminal-tail route}.
+    \]
+
+    The periodic route uses \(T^3\), a finite cover with no spatial infinity, a
+    periodic pressure gauge, and the energy tail \(\|u(t)\|_{L^2(T^3)}\).
+
+    The periodic fixed-cover pressure readout uses a finite compact cover and controls the harmonic tail by periodic energy. On R 3, the pressure split has a far-field term from spatial infinity. A uniform endpoint-rung readout requires estimates of the form
+
+    This historical export note recorded that the periodic route alone did not supply a direct positive whole-space theorem. The present manuscript keeps periodic and whole-space tracks separated and routes whole-space terminal survivors through the CM pass-or-exit analysis.
+
+    Whole-space localization/export remains a separate direct-positive analytic program. The CM-facing R3 branch is governed by the June 8 endpoint-consumption route rather than by this older export decision.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scfbase Modulus Original Pack Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25435
+  line_start: 25435
+  line_end: 25449
+  start_anchor: "\\subsection{Scfbase Modulus Original Pack Test}\n"
+  end_anchor: "\\subsection{SCFBase Pressure Defect Compatibility}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scfbase Modulus Original Pack
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25435
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Skew Localization record.A attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27382
+  line_start: 27382
+  line_end: 27394
+  start_anchor: "\\subsection{Terminal Skew Localization record.A attempt}\n"
+  end_anchor: "\\subsection{Terminal Source Backward Propagation.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Skew Localization record.A
+    attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27382
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tower.TTU Under Pack.TTU Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28072
+  line_start: 28072
+  line_end: 28104
+  start_anchor: "\\subsection{Tower.TTU Under Pack.TTU Test}\n"
+  end_anchor: "\\subsection{Tower Bound.Upstream Direct Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tower.TTU Under Pack.TTU Test
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28072
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: A Direct Test Pack Control Failure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28297
+  line_start: 28297
+  line_end: 28336
+  start_anchor: "\\subsection{A Direct Test Pack Control Failure}\n"
+  end_anchor: "\\subsection{TTU Branch Selection And Averaged Terminal-Tail Target}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite A Direct Test Pack Control Failure
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28297
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'TTU Sharp Obstruction: Pack.TTU Target'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28389
+  line_start: 28389
+  line_end: 28413
+  start_anchor: "\\subsection{TTU Sharp Obstruction: Pack.TTU Target}\n"
+  end_anchor: "\\subsection{TTU Terminal-Tail Production Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite TTU Sharp Obstruction: Pack.TTU
+    Target as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28389
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Uniform Strain Tail Retry: Selector And Moving-Spike Test'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28673
+  line_start: 28673
+  line_end: 28708
+  start_anchor: "\\subsection{Uniform Strain Tail Retry: Selector And Moving-Spike
+    Test}\n"
+  end_anchor: "\\subsection{Uniform Temporal Source Integrability.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Uniform Strain Tail Retry: Selector
+    And Moving-Spike Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28673
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Whole-Space Export/Localization Retry
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29108
+  line_start: 29108
+  line_end: 29124
+  start_anchor: "\\subsection{Whole-Space Export/Localization Retry}\n"
+  end_anchor: "\\subsection{Whole-Space Export / Localization Theorem Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Whole-Space Export/Localization
+    Retry as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29108
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Whole-Space Export / Localization Theorem Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29125
+  line_start: 29125
+  line_end: 29142
+  start_anchor: "\\subsection{Whole-Space Export / Localization Theorem Attempt}\n"
+  end_anchor: "\\subsection{Whole-Space Pressure-Tail Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Whole-Space Export / Localization
+    Theorem Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29125
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-09
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-09.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

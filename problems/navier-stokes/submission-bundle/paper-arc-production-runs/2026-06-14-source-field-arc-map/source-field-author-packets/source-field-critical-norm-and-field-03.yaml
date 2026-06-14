@@ -1,0 +1,844 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-critical-norm-and-field-03
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-03
+  sequence: 71
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 3
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 13586
+  line_end: 18284
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13586
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13608
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14086
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15038
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16793
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18190
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18224
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18246
+  subsection_titles:
+  - Active-shell amplitude gain - equivalence to source normalization
+  - Active-shell source normalization - failed discharge
+  - Affine-Excess Coefficient-Dependence Audit
+  - Augmented Coefficient Admissibility For N
+  - Current-CG Normalized Comparison Boundary
+  - Field avg Terminal Good-Cover Equivalence
+  - Field avg / Jump avg Definition Integrity
+  - Field Read And Dtc Read Invocation Read End
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-shell amplitude gain - equivalence to source normalization
+    line_start: 13586
+    line_end: 13607
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13586
+    start_anchor: "\\subsection{Active-shell amplitude gain - equivalence to source
+      normalization}\n"
+    end_anchor: "\\subsection{Active-shell source normalization - failed discharge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Active-shell amplitude gain - equivalence to source normalization}
+
+      Since \(D_j=2^{2j}E_j\), the gain
+      \[
+      2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+      \]
+      is equivalent to an active-shell amplitude restriction on \(E_j\), or
+      equivalently to a source normalization strong enough to prevent nonlinear shell
+      flux from maintaining high active amplitude.
+
+      The active-shell amplitude gain is a source-normalization theorem in another
+      form.
+
+      Original Smooth Data gives finite energy, finite dissipation, and smoothness on
+      every compact preterminal interval. It does not give uniform decay on moving
+      active shells approaching \(T_*\). A terminal active shell can drift to higher
+      frequencies while preserving finite raw energy/dissipation.
+
+      The active upper-tail Carleson route remains conditional on this gain or one of
+      its equivalent source-control replacements.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-shell source normalization - failed discharge
+    line_start: 13608
+    line_end: 13627
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13608
+    start_anchor: "\\subsection{Active-shell source normalization - failed discharge}\n"
+    end_anchor: "\\subsection{Active residual-tail / Scale Critical Tree Carleson
+      reserve}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Active-shell source normalization - failed discharge}
+
+      This failed discharge tests active-shell source normalization strong enough to
+      prevent nonlinear shell flux from maintaining source-balanced active pulses.
+
+      The shell flux \(F_j\) is a trilinear expression in the Littlewood-Paley
+      components of \(u\). A universal normalization derived only from smooth
+      divergence-free original data fails the fixed-shell amplitude test: scaling a
+      smooth finite-mode divergence-free profile by amplitude \(A\) makes \(F_j\)
+      scale like \(A^3\), so \(|F_j|^2\) scales like \(A^6\) on short intervals.
+
+      Finite energy and preterminal smoothness bound the amplitude only by
+      data-dependent quantities. They do not produce the scale-normalized smallness
+      required by the active interval theorem. The active interval itself may occur
+      near the terminal time and drift to higher shells.
+
+      The heat-scale source and amplitude-gain routes remain conditional on this
+      source normalization or an equivalent source-control replacement.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Affine-Excess Coefficient-Dependence Audit
+    line_start: 14086
+    line_end: 14109
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14086
+    start_anchor: "\\subsection{Affine-Excess Coefficient-Dependence Audit}\n"
+    end_anchor: "\\subsection{Affine Gainstop Parentkernel Discharge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Affine-Excess Coefficient-Dependence Audit}
+
+      This audit explains why the local affine-excess absorption constants are
+      scale-normalized rather than radius-dependent.  The coefficient bundle is
+
+      \[
+      B_R=1+A_R+V_R+P_R.
+      \]
+
+      The physical radius \(R\) enters through the normalized quantities
+      \(A_R,V_R,P_R\).  After parabolic scaling, the local inequality has
+      radius-free constants:
+
+      \[
+      \left(\eta_X+\int_I F_R\right)
+      \exp\left(\int_I B_R\right)\le2\eta_X,
+      \]
+
+      along with the nonlinear absorption condition for the \(X_R^{1/2}N_R\) term.
+      The support supplied here is local: \(L^1_t\) control and absolute continuity
+      on a finite cover make the coefficient-demotion step lawful.  This does not
+      create the global restart seed by itself.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Augmented Coefficient Admissibility For N
+    line_start: 15038
+    line_end: 15087
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15038
+    start_anchor: "\\subsection{Augmented Coefficient Admissibility For N}\n"
+    end_anchor: "\\subsection{Averaged Finite-Energy Route And Terminal Readout Completion}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Augmented Coefficient Admissibility For N}
+
+      This is a scheduler-local admissibility result for the coefficient in the
+      repaired gradient cascade estimate.  The point is modest: after the scheduler
+      chooses a fixed threshold \(N_a\), the coefficient that drives the cascade is
+      integrable on that scheduler interval.  The statement does not give a
+      uniform-in-threshold bound.
+
+      \[
+      \Lambda_{N_a}(t):=\|\nabla S_{N_a-4}u(t)\|_{L^\infty},
+      \]
+
+      \[
+      \Theta_{N_a}^\sharp(t):=
+      \sum_{m=N_a-M}^{N_a+M}2^{3m}\|\Delta_m u(t)\|_2^2,
+      \]
+
+      \[
+      \widetilde\Lambda_{N_a}^\sharp(t):=\Lambda_{N_a}(t)+\Theta_{N_a}^\sharp(t).
+      \]
+
+      \[
+      \widetilde\Lambda_{N_a}^\sharp\in L^1(I_a).
+      \]
+
+      The integral is finite with an explicit bound depending only on the fixed
+      threshold, the collar width, the length of the scheduler interval, and the route
+      energy/enstrophy budget.  The low-frequency part is estimated by Bernstein:
+
+      \[
+      \|\nabla S_{N_a-4}u(t)\|_\infty
+      \le
+      C\sum_{k\le N_a-4}2^{\frac52k}\|\Delta_k u(t)\|_2.
+      \]
+
+      The near-threshold part is the finite shell sum
+      \(\Theta_{N_a}^\sharp\), so it is controlled on \(I_a\) by the same
+      energy/enstrophy budget used by the scheduler.  Since \(N_a\) is fixed on the
+      interval, the scheduler can subdivide \(I_a\) into pieces on which
+
+      \[
+      \int_J\widetilde\Lambda_{N_a}^\sharp(t)\,dt
+      \]
+
+      has any prescribed finite budget.  This supplies fixed-threshold admissibility
+      on each scheduler interval.  It makes no uniform-in-threshold claim and spends
+      no scale-critical velocity control.
+
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Current-CG Normalized Comparison Boundary
+    line_start: 16793
+    line_end: 16799
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16793
+    start_anchor: "\\subsection{Current-CG Normalized Comparison Boundary}\n"
+    end_anchor: "\\subsection{Cycle Heat Action.A attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Current-CG Normalized Comparison Boundary}
+
+      The aligned-reference convention gives zero tensor defect. The current-CG convention requires the reference-identification source theorem
+
+      Current canonical surfaces name this source theorem and supply the downstream projector conversion. They leave the normalized current-CG comparison estimate as live source work.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Field avg Terminal Good-Cover Equivalence
+    line_start: 18190
+    line_end: 18223
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18190
+    start_anchor: "\\subsection{Field avg Terminal Good-Cover Equivalence}\n"
+    end_anchor: "\\subsection{Field avg / Jump avg Definition Integrity}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Field avg Terminal Good-Cover Equivalence}
+
+      Let T be a bounded-distortion same-fluid terminal approach tail. For (a,t) T, define the local SCF-good radius
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}:=\{(a,t):r_{\mathrm{good}}(a,t)=0\}.
+      \]
+
+      Equivalently, after passing to a terminal subtail, every point admits an SCF base good same-fluid cylinder at a common positive scale.
+
+      This definition includes both pointwise bad-set contact and terminal radius degeneration.
+
+      \[
+      \exists T'\subset T,\ \exists\{Q_{r_j}^{\Phi}(a_j,t_j)\}_{j=1}^{J},\ \exists r_*>0
+      \]
+
+      Suppose Field avg(T) holds. Then there is a terminal subtail T' and r *>0 such that r good(a,t) r * on T'. For each (a,t) T', choose a same-fluid SCF-good cylinder with radius at least r */2. These cylinders form an open cover of the route-relevant material tail. The material cross-section is compact after passing to the retained terminal subtail, and bounded same-fluid distortion preserves finite overlap after shrinking if necessary. Hence finitely many selected cylinders cover T', all with radius at least r */2 and all satisfying SCF base m.
+
+      Conversely, suppose such a finite positive-scale cover exists. For every point of the covered terminal tail, the containing cover cylinder supplies a positive SCF-good scale bounded below by a geometric fraction of the cover radius. Since the finite cover has minimum radius at least r *, there is a common positive lower bound for r good on a terminal subtail. Hence Field avg(T) holds.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}(T)
+      \Longleftrightarrow
+      \forall T'\subset T\text{ terminal},\quad
+      \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      \[
+      \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      Thus terminal radius collapse is a genuine Field avg failure, not a fifth endpoint face.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Field avg / Jump avg Definition Integrity
+    line_start: 18224
+    line_end: 18245
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18224
+    start_anchor: "\\subsection{Field avg / Jump avg Definition Integrity}\n"
+    end_anchor: "\\subsection{Field Read And Dtc Read Invocation Read End}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Field avg / Jump avg Definition Integrity}
+
+      Equivalently, Field avg means a terminal positive-scale SCF-good same-fluid cover exists.
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}(T)
+      \Longleftrightarrow
+      \forall T'\subset T\text{ terminal},\quad
+      \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+      \]
+
+      If Field avg holds, a terminal subtail has a positive lower SCF-good radius. Compactness and bounded same-fluid distortion extract a finite positive-scale SCF-good cover on that subtail. Thus terminal radius loss fails.
+
+      If Field avg fails, every terminal subtail has arbitrarily small SCF-good radius somewhere. This includes both direct bad-set contact and sequence collapse toward T *. By definition this is Jump avg.
+
+      The two alternatives are complementary because the radius characterization splits
+      the terminal subtail into positive lower radius and arbitrarily small lower
+      radius.
+
+      This prevents both endpoint-face definition drift and averaged/pointwise type leakage.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Field Read And Dtc Read Invocation Read End
+    line_start: 18246
+    line_end: 18284
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18246
+    start_anchor: "\\subsection{Field Read And Dtc Read Invocation Read End}\n"
+    end_anchor: "\\subsection{Field.Read Completion}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Field Read And Dtc Read Invocation Read End}
+
+      \[
+      Q^\Phi(I,A_\sharp)
+      \subset
+      \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+      \qquad
+      r_*:=\min_i r_i>0,
+      \]
+
+      The positive lower scale and finite cover convert averaged field coherence into old pointwise field coherence. Finite chain connectivity and local ATD m supply the fixed-scale control needed to read Field avg as the old Field row.
+
+      The velocity tower readout is a finite-cover calculation. On each shrunken cover element, the local averaged tower packet supplies the required finite-order Sobolev control. Local Sobolev/Morrey then turns that bound into a pointwise velocity-tower bound on the smaller element. Since the cover has finitely many elements and \(r_*=\min_i r_i>0\), the maximum over the cover gives one old Field-row velocity tower at the same positive scale.
+
+      \[
+      K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+      \]
+
+      \[
+      p=p_i^{loc}+h_i,
+      \qquad
+      -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+      \]
+
+      \[
+      \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+      \le
+      C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+      \]
+
+      \[
+      \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+      \le
+      C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+      \]
+
+      ATD m supplies the product-source carrier on the finite cover, and the periodic energy bound supplies the harmonic tail. So the pressure part of K q is available.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Active-shell amplitude gain - equivalence to source normalization}
+
+    Since \(D_j=2^{2j}E_j\), the gain
+    \[
+    2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+    \]
+    is equivalent to an active-shell amplitude restriction on \(E_j\), or
+    equivalently to a source normalization strong enough to prevent nonlinear shell
+    flux from maintaining high active amplitude.
+
+    The active-shell amplitude gain is a source-normalization theorem in another
+    form.
+
+    Original Smooth Data gives finite energy, finite dissipation, and smoothness on
+    every compact preterminal interval. It does not give uniform decay on moving
+    active shells approaching \(T_*\). A terminal active shell can drift to higher
+    frequencies while preserving finite raw energy/dissipation.
+
+    The active upper-tail Carleson route remains conditional on this gain or one of
+    its equivalent source-control replacements.
+
+
+
+    \subsection{Active-shell source normalization - failed discharge}
+
+    This failed discharge tests active-shell source normalization strong enough to
+    prevent nonlinear shell flux from maintaining source-balanced active pulses.
+
+    The shell flux \(F_j\) is a trilinear expression in the Littlewood-Paley
+    components of \(u\). A universal normalization derived only from smooth
+    divergence-free original data fails the fixed-shell amplitude test: scaling a
+    smooth finite-mode divergence-free profile by amplitude \(A\) makes \(F_j\)
+    scale like \(A^3\), so \(|F_j|^2\) scales like \(A^6\) on short intervals.
+
+    Finite energy and preterminal smoothness bound the amplitude only by
+    data-dependent quantities. They do not produce the scale-normalized smallness
+    required by the active interval theorem. The active interval itself may occur
+    near the terminal time and drift to higher shells.
+
+    The heat-scale source and amplitude-gain routes remain conditional on this
+    source normalization or an equivalent source-control replacement.
+
+
+
+    \subsection{Affine-Excess Coefficient-Dependence Audit}
+
+    This audit explains why the local affine-excess absorption constants are
+    scale-normalized rather than radius-dependent.  The coefficient bundle is
+
+    \[
+    B_R=1+A_R+V_R+P_R.
+    \]
+
+    The physical radius \(R\) enters through the normalized quantities
+    \(A_R,V_R,P_R\).  After parabolic scaling, the local inequality has
+    radius-free constants:
+
+    \[
+    \left(\eta_X+\int_I F_R\right)
+    \exp\left(\int_I B_R\right)\le2\eta_X,
+    \]
+
+    along with the nonlinear absorption condition for the \(X_R^{1/2}N_R\) term.
+    The support supplied here is local: \(L^1_t\) control and absolute continuity
+    on a finite cover make the coefficient-demotion step lawful.  This does not
+    create the global restart seed by itself.
+
+
+
+    \subsection{Augmented Coefficient Admissibility For N}
+
+    This is a scheduler-local admissibility result for the coefficient in the
+    repaired gradient cascade estimate.  The point is modest: after the scheduler
+    chooses a fixed threshold \(N_a\), the coefficient that drives the cascade is
+    integrable on that scheduler interval.  The statement does not give a
+    uniform-in-threshold bound.
+
+    \[
+    \Lambda_{N_a}(t):=\|\nabla S_{N_a-4}u(t)\|_{L^\infty},
+    \]
+
+    \[
+    \Theta_{N_a}^\sharp(t):=
+    \sum_{m=N_a-M}^{N_a+M}2^{3m}\|\Delta_m u(t)\|_2^2,
+    \]
+
+    \[
+    \widetilde\Lambda_{N_a}^\sharp(t):=\Lambda_{N_a}(t)+\Theta_{N_a}^\sharp(t).
+    \]
+
+    \[
+    \widetilde\Lambda_{N_a}^\sharp\in L^1(I_a).
+    \]
+
+    The integral is finite with an explicit bound depending only on the fixed
+    threshold, the collar width, the length of the scheduler interval, and the route
+    energy/enstrophy budget.  The low-frequency part is estimated by Bernstein:
+
+    \[
+    \|\nabla S_{N_a-4}u(t)\|_\infty
+    \le
+    C\sum_{k\le N_a-4}2^{\frac52k}\|\Delta_k u(t)\|_2.
+    \]
+
+    The near-threshold part is the finite shell sum
+    \(\Theta_{N_a}^\sharp\), so it is controlled on \(I_a\) by the same
+    energy/enstrophy budget used by the scheduler.  Since \(N_a\) is fixed on the
+    interval, the scheduler can subdivide \(I_a\) into pieces on which
+
+    \[
+    \int_J\widetilde\Lambda_{N_a}^\sharp(t)\,dt
+    \]
+
+    has any prescribed finite budget.  This supplies fixed-threshold admissibility
+    on each scheduler interval.  It makes no uniform-in-threshold claim and spends
+    no scale-critical velocity control.
+
+
+
+
+    \subsection{Current-CG Normalized Comparison Boundary}
+
+    The aligned-reference convention gives zero tensor defect. The current-CG convention requires the reference-identification source theorem
+
+    Current canonical surfaces name this source theorem and supply the downstream projector conversion. They leave the normalized current-CG comparison estimate as live source work.
+
+
+
+    \subsection{Field avg Terminal Good-Cover Equivalence}
+
+    Let T be a bounded-distortion same-fluid terminal approach tail. For (a,t) T, define the local SCF-good radius
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}:=\{(a,t):r_{\mathrm{good}}(a,t)=0\}.
+    \]
+
+    Equivalently, after passing to a terminal subtail, every point admits an SCF base good same-fluid cylinder at a common positive scale.
+
+    This definition includes both pointwise bad-set contact and terminal radius degeneration.
+
+    \[
+    \exists T'\subset T,\ \exists\{Q_{r_j}^{\Phi}(a_j,t_j)\}_{j=1}^{J},\ \exists r_*>0
+    \]
+
+    Suppose Field avg(T) holds. Then there is a terminal subtail T' and r *>0 such that r good(a,t) r * on T'. For each (a,t) T', choose a same-fluid SCF-good cylinder with radius at least r */2. These cylinders form an open cover of the route-relevant material tail. The material cross-section is compact after passing to the retained terminal subtail, and bounded same-fluid distortion preserves finite overlap after shrinking if necessary. Hence finitely many selected cylinders cover T', all with radius at least r */2 and all satisfying SCF base m.
+
+    Conversely, suppose such a finite positive-scale cover exists. For every point of the covered terminal tail, the containing cover cylinder supplies a positive SCF-good scale bounded below by a geometric fraction of the cover radius. Since the finite cover has minimum radius at least r *, there is a common positive lower bound for r good on a terminal subtail. Hence Field avg(T) holds.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}(T)
+    \Longleftrightarrow
+    \forall T'\subset T\text{ terminal},\quad
+    \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    \[
+    \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    Thus terminal radius collapse is a genuine Field avg failure, not a fifth endpoint face.
+
+
+
+    \subsection{Field avg / Jump avg Definition Integrity}
+
+    Equivalently, Field avg means a terminal positive-scale SCF-good same-fluid cover exists.
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}(T)
+    \Longleftrightarrow
+    \forall T'\subset T\text{ terminal},\quad
+    \inf_{(a,t)\in T'}r_{\mathrm{good}}(a,t)=0.
+    \]
+
+    If Field avg holds, a terminal subtail has a positive lower SCF-good radius. Compactness and bounded same-fluid distortion extract a finite positive-scale SCF-good cover on that subtail. Thus terminal radius loss fails.
+
+    If Field avg fails, every terminal subtail has arbitrarily small SCF-good radius somewhere. This includes both direct bad-set contact and sequence collapse toward T *. By definition this is Jump avg.
+
+    The two alternatives are complementary because the radius characterization splits
+    the terminal subtail into positive lower radius and arbitrarily small lower
+    radius.
+
+    This prevents both endpoint-face definition drift and averaged/pointwise type leakage.
+
+
+
+    \subsection{Field Read And Dtc Read Invocation Read End}
+
+    \[
+    Q^\Phi(I,A_\sharp)
+    \subset
+    \bigcup_{i=1}^{M}Q_{r_i}^{\Phi}(a_i,t_i),
+    \qquad
+    r_*:=\min_i r_i>0,
+    \]
+
+    The positive lower scale and finite cover convert averaged field coherence into old pointwise field coherence. Finite chain connectivity and local ATD m supply the fixed-scale control needed to read Field avg as the old Field row.
+
+    The velocity tower readout is a finite-cover calculation. On each shrunken cover element, the local averaged tower packet supplies the required finite-order Sobolev control. Local Sobolev/Morrey then turns that bound into a pointwise velocity-tower bound on the smaller element. Since the cover has finitely many elements and \(r_*=\min_i r_i>0\), the maximum over the cover gives one old Field-row velocity tower at the same positive scale.
+
+    \[
+    K_q=-\nabla^{q+1}p+\nu\Delta U_q,
+    \]
+
+    \[
+    p=p_i^{loc}+h_i,
+    \qquad
+    -\Delta p_i^{loc}=\partial_a\partial_b(\chi_i u_a u_b).
+    \]
+
+    \[
+    \|\nabla^{q+1}p_i^{loc}\|_{L^\infty(B_i')}
+    \le
+    C_{q,\alpha,i}\|\nabla^q(\chi_i u\otimes u)\|_{C^{0,\alpha}(2B_i)}.
+    \]
+
+    \[
+    \|\nabla^{q+1}h_i\|_{L^\infty(B_i')}
+    \le
+    C_{q,i}\|u_0\|_{L^2(T^3)}^2.
+    \]
+
+    ATD m supplies the product-source carrier on the finite cover, and the periodic energy bound supplies the harmonic tail. So the pressure part of K q is available.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-shell amplitude gain - equivalence to source normalization
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13586
+  line_start: 13586
+  line_end: 13607
+  start_anchor: "\\subsection{Active-shell amplitude gain - equivalence to source
+    normalization}\n"
+  end_anchor: "\\subsection{Active-shell source normalization - failed discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-shell amplitude gain -
+    equivalence to source normalization as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13586
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-shell source normalization - failed discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13608
+  line_start: 13608
+  line_end: 13627
+  start_anchor: "\\subsection{Active-shell source normalization - failed discharge}\n"
+  end_anchor: "\\subsection{Active residual-tail / Scale Critical Tree Carleson reserve}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-shell source normalization
+    - failed discharge as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13608
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Affine-Excess Coefficient-Dependence Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14086
+  line_start: 14086
+  line_end: 14109
+  start_anchor: "\\subsection{Affine-Excess Coefficient-Dependence Audit}\n"
+  end_anchor: "\\subsection{Affine Gainstop Parentkernel Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Affine-Excess Coefficient-Dependence
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14086
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Augmented Coefficient Admissibility For N
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15038
+  line_start: 15038
+  line_end: 15087
+  start_anchor: "\\subsection{Augmented Coefficient Admissibility For N}\n"
+  end_anchor: "\\subsection{Averaged Finite-Energy Route And Terminal Readout Completion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Augmented Coefficient Admissibility
+    For N as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15038
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Current-CG Normalized Comparison Boundary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16793
+  line_start: 16793
+  line_end: 16799
+  start_anchor: "\\subsection{Current-CG Normalized Comparison Boundary}\n"
+  end_anchor: "\\subsection{Cycle Heat Action.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Current-CG Normalized Comparison
+    Boundary as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16793
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Field avg Terminal Good-Cover Equivalence
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18190
+  line_start: 18190
+  line_end: 18223
+  start_anchor: "\\subsection{Field avg Terminal Good-Cover Equivalence}\n"
+  end_anchor: "\\subsection{Field avg / Jump avg Definition Integrity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Field avg Terminal Good-Cover
+    Equivalence as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18190
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Field avg / Jump avg Definition Integrity
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18224
+  line_start: 18224
+  line_end: 18245
+  start_anchor: "\\subsection{Field avg / Jump avg Definition Integrity}\n"
+  end_anchor: "\\subsection{Field Read And Dtc Read Invocation Read End}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Field avg / Jump avg Definition
+    Integrity as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18224
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Field Read And Dtc Read Invocation Read End
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18246
+  line_start: 18246
+  line_end: 18284
+  start_anchor: "\\subsection{Field Read And Dtc Read Invocation Read End}\n"
+  end_anchor: "\\subsection{Field.Read Completion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Field Read And Dtc Read Invocation
+    Read End as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18246
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-03
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-03.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

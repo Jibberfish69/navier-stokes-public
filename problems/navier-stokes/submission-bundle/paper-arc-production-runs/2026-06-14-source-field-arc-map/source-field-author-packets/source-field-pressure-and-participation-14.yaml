@@ -1,0 +1,852 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-pressure-and-participation-14
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-14
+  sequence: 67
+  group_id: pressure-and-participation
+  title: Pressure and participation 14
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 65585
+  line_end: 68237
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65585
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65622
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67307
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67498
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67917
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68131
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68187
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68223
+  subsection_titles:
+  - Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Attempt
+  - Clay problem Pressure Source Time Face Spread.A direct attempt
+  - R3 Vorticity / BKM / Strain Wall To CM Face
+  - R3 Pressure Route Wall To CM Face
+  - Clay problem Nightly Clay Counterexample Exclusion Pressure Note
+  - Clay problem Retained Pressure Package CM Face Placement
+  - Finite Energy Point-Pressure Derivative Obstruction
+  - Pressure-Derivative Obstruction Trajectory Integration
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A
+      ind Attempt
+    line_start: 65585
+    line_end: 65621
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65585
+    start_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray
+      Source Tether.A ind Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Source Time Face Spread.A direct
+      attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Attempt}
+
+      Route tested after B ASAC closed was corrected to zero-radius not Pack Q selected terminal source-residue support.
+
+      Outcome: open. Pressure/Leray coupling gives conditional near-band signed-current support. Current installed surfaces supply no theorem converting that support into terminal source time-face anti-atom.
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j),
+      \qquad
+      \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+      \]
+
+      After localization and near-band projection, the principal pressure term has Calderon-Zygmund partner structure plus harmonic/cutoff/collar terms.
+
+      Calderon-Zygmund control yields active-/source-reserve scale bounds. At the selected terminal weights, that strength is equivalent to an active reserve theorem. It returns to the already audited active- / PRD door.
+
+      Thus absolute pressure domination gives a sufficient condition and no independent time-face anti-atom production.
+
+      \[
+      \mu_*^{press}(E)=0\quad\text{whenever}\quad\mu_*^{src}(E)=0,
+      \]
+
+      The installed pressure surfaces provide partner and collar decompositions. They do not provide this residue-level absolute continuity after localization, one-sided positive selection, near-band projection, and terminal extraction.
+
+      A finite-packet Leray tether would keep pressure/source-current partners attached before the terminal positive-part selection.
+
+      The obstruction is the signed selection gap. Leray projection and pressure localization move mass across packets and signs. After one-sided terminal selection, signed cancellation can leave a positive residue unless a terminal partner theorem, donor depletion theorem, legal-exit theorem, or temporal anti-atom theorem is supplied.
+
+      So the tether route reduces to the signed no-free-sink/source-current wall already recorded in the pressure-Hessian attempt.
+
+      Pressure SourceAC.A / Localized Leray Source Tether.A ind remains open from installed inputs.
+
+      The pressure/Le
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Source Time Face Spread.A direct attempt
+    line_start: 65622
+    line_end: 65672
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65622
+    start_anchor: "\\subsection{Clay problem Pressure Source Time Face Spread.A direct
+      attempt}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom Component.A}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Pressure Source Time Face Spread.A direct attempt}
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le
+      \omega_R(\varepsilon)+o_m(1),
+      \qquad
+      \omega_R(\varepsilon)\downarrow0.
+      \]
+
+      Pressure is recovered at each time through an elliptic operator applied to quadratic velocity-gradient data. This gives spatial nonlocal coupling at the same time slice.
+
+      The target asks for temporal spread away from s=0. Elliptic spatial smoothing at fixed s leaves a measure concentrated at the terminal time face compatible with the equation.
+
+      \[
+      d\mu_m^{src}(y,s)=\rho(y)m\mathbf 1_{(-1/m,0]}(s)dy ds
+      \]
+
+      Assume pressure residue is absolutely continuous with respect to native source residue. This can bind pressure and source to the same carrier.
+
+      \[
+      \mu_*^{press}\ll\mu_*^{src},
+      \qquad
+      \mu_*^{src}=\rho(y)dy\otimes\delta_{s=0}.
+      \]
+
+      Thus Pressure SourceAC.A needs a spread estimate in addition to carrier absolute continuity.
+
+      The Leray projector is spatial. Packet localization and pressure projection can redistribute spatial carriers and signs. They do not create temporal residence.
+
+      After terminal positive selection, a Leray tether that reaches only signed source-current control returns to Terminal Weighted NoFree Sink.A ind or PRD. A tether that kills the atom must add terminal time-face spread. Current inputs supply no such addition.
+
+      Pressure sustain may indicate a persistent quadratic-gradient channel. To kill B ASAC closed, persistence must force native source mass on earlier time slabs or a super-L 1 t source marginal.
+
+      The existing pressure/Hessian route records conditional near-band source-current support. It does not supply the needed native marginal modulus.
+
+      This run rechecked Pressure Time Face Spread.A after Pressure SourceAC.A / Localized Leray Source Tether.A ind stayed open.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le \omega_R(\varepsilon)+o_m(1),
+      \qquad \omega_R(\varepsilon)\downarrow0.
+      \]
+
+      \[
+      \rho(y)m\mathbf 1_{(-1/m,0]}(s)dy ds
+      \]
+
+      So Pressure Time Face
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Vorticity / BKM / Strain Wall To CM Face
+    line_start: 67307
+    line_end: 67335
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67307
+    start_anchor: "\\subsection{R3 Vorticity / BKM / Strain Wall To CM Face}\n"
+    end_anchor: "\\subsection{R3 Prodi-Serrin Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{R3 Vorticity / BKM / Strain Wall To CM Face}
+
+      \[
+      BKMStrainWall(\mathcal W)
+      \Longrightarrow
+      \neg Pack_Q(\mathcal W)
+      \vee
+      \neg Part_{N,Q}(\mathcal W)
+      \vee
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      Thus retained Pack, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      The wall is exhausted by carrier loss, same-law participation loss, or coherent field loss. Hence the vorticity/BKM/strain terminal wall lands in a CM face.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: R3 Pressure Route Wall To CM Face
+    line_start: 67498
+    line_end: 67518
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67498
+    start_anchor: "\\subsection{R3 Pressure Route Wall To CM Face}\n"
+    end_anchor: "\\subsection{R3 Fourier / Dyadic Wall To CM Face}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{R3 Pressure Route Wall To CM Face}
+
+      A pressure-route terminal wall occurs when the local Poisson pressure, harmonic/far-field pressure tail, or pressure-source readout prevents the forward route from producing the continuation packet.
+
+      \[
+      \neg Pack_Q(\mathcal W).
+      \]
+
+      Assume Pack Q survives. The pressure must remain the pressure of the same Navier-Stokes solution. The local Poisson equation, harmonic tail, velocity source, viscosity, and time ancestry must all remain in the same participation record. If this pressure law detaches from the selected packet, then
+
+      \[
+      \neg Part_{N,Q}(\mathcal W).
+      \]
+
+      \[
+      \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+      \]
+
+      If some Field N,rho,Q survives, the local Poisson pressure and admissible far-field harmonic tail are controlled in the same terminal packet. The continuation readout survives, contradicting the pressure terminal wall.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Nightly Clay Counterexample Exclusion Pressure
+      Note
+    line_start: 67917
+    line_end: 67937
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67917
+    start_anchor: "\\subsection{Clay problem Nightly Clay Counterexample Exclusion
+      Pressure Note}\n"
+    end_anchor: "\\subsection{Clay problem Finite Terminal Obstruction Inventory Row
+      Audit}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Nightly Clay Counterexample Exclusion Pressure Note}
+
+      It does not replace the boundary with Original Smooth Data => no genuine finite-time CM exit, and it does not reopen source-pulse deletion, Source Pulse Exclusion.A, Native SourceAC.A, or any positive no-pulse supplier.
+
+      Clay Terminal WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive Embedding.A.
+
+      CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Pack/Part/Field face failure.
+
+      Let W * be offered as the finite-time Clay breakdown witness for the same original smooth Navier-Stokes datum on the active periodic surface.
+
+      That sentence is too strong. A Clay breakdown witness is not supposed to be a smooth continuation witness. The useful theorem cannot be a bare definitional ban on class exit.
+
+      The remaining question is not a positive proof that no terminal exit exists. The remaining question is whether the Clay problem statement allows a finite breakdown counterexample whose entire mechanism has been reclassified as
+
+      This is not a proof of Clay Counterexample Exclusion Bridge.A. It is the exact noncircular local burden left by the installed CM surfaces.
+
+      Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Pack/Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
+
+      Any proof attempt that replaces clause 3 with a theorem-sized positive no-exit statement repeats the drift this rule blocks.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Pressure Package CM Face Placement
+    line_start: 68131
+    line_end: 68139
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68131
+    start_anchor: "\\subsection{Clay problem Retained Pressure Package CM Face Placement}\n"
+    end_anchor: "\\subsection{Clay problem Retained-Window Native Forcing Theorem}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Retained Pressure Package CM Face Placement}
+
+      Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Pack-first terminal CM tree. By the torus global material atlas note,
+
+      This is not a terminal failure. It is pass-side receiver support for a retained Field/readout branch.
+
+      The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Pack+Part.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Finite Energy Point-Pressure Derivative Obstruction
+    line_start: 68187
+    line_end: 68222
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68187
+    start_anchor: "\\subsection{Finite Energy Point-Pressure Derivative Obstruction}\n"
+    end_anchor: "\\subsection{Pressure-Derivative Obstruction Trajectory Integration}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Finite Energy Point-Pressure Derivative Obstruction}
+
+      \[
+      \text{finite energy}
+      +
+      -\Delta p=\partial_i\partial_j(u_i u_j)
+      \quad\not\Longrightarrow\quad
+      \text{point-center pressure derivative bounds.}
+      \]
+
+      It is not a statement about every possible Navier-Stokes upgrade. It only rules out the estimate whose only inputs are finite kinetic energy and the pressure Poisson equation.
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j),
+      \]
+
+      \[
+      |\nabla p(0)|\le F(\|u\|_{L^2(T^3)}).
+      \]
+
+      \[
+      u_N(x_1,x_2,x_3)
+      =
+      (\cos(Nx_2),\ \sin(Nx_1),\ 0).
+      \]
+
+      \[
+      \nabla\cdot u_N
+      =
+      \partial_{x_1}\cos(Nx_2)+\partial_{x_2}\sin(Nx_1)
+      =0.
+      \]
+
+      Thus \(\|u_N\|_{L^2}\) stays fixed while \(|\nabla p_N(0)|\) tends to infinity. No estimate of point pressure derivatives can follow from finite energy and the pressure Poisson equation alone.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Pressure-Derivative Obstruction Trajectory Integration
+    line_start: 68223
+    line_end: 68237
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68223
+    start_anchor: "\\subsection{Pressure-Derivative Obstruction Trajectory Integration}\n"
+    end_anchor: "\\subsection{R3 Tail Hs Duhamel Source Reduction}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Pressure-Derivative Obstruction Trajectory Integration}
+
+      The retained branch may use point-center forcing only after the retained smooth center-ball certificate supplies the needed local regularity. The finite-energy branch must use the averaged packet route, not pointwise center recovery.
+
+      \[
+      \|u\|_{L^2}<\infty
+      \quad\text{and}\quad
+      -\Delta p=\partial_i\partial_j(u_i u_j)
+      \Longrightarrow
+      \text{point-center pressure derivative bounds}
+      \]
+
+      This shrinks a false supplier burden. It prevents the trajectory from spending work on an unavailable pointwise pressure recovery from energy and Poisson data alone.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Attempt}
+
+    Route tested after B ASAC closed was corrected to zero-radius not Pack Q selected terminal source-residue support.
+
+    Outcome: open. Pressure/Leray coupling gives conditional near-band signed-current support. Current installed surfaces supply no theorem converting that support into terminal source time-face anti-atom.
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j),
+    \qquad
+    \nabla^2p=\mathcal R\mathcal R(\nabla u\otimes\nabla u).
+    \]
+
+    After localization and near-band projection, the principal pressure term has Calderon-Zygmund partner structure plus harmonic/cutoff/collar terms.
+
+    Calderon-Zygmund control yields active-/source-reserve scale bounds. At the selected terminal weights, that strength is equivalent to an active reserve theorem. It returns to the already audited active- / PRD door.
+
+    Thus absolute pressure domination gives a sufficient condition and no independent time-face anti-atom production.
+
+    \[
+    \mu_*^{press}(E)=0\quad\text{whenever}\quad\mu_*^{src}(E)=0,
+    \]
+
+    The installed pressure surfaces provide partner and collar decompositions. They do not provide this residue-level absolute continuity after localization, one-sided positive selection, near-band projection, and terminal extraction.
+
+    A finite-packet Leray tether would keep pressure/source-current partners attached before the terminal positive-part selection.
+
+    The obstruction is the signed selection gap. Leray projection and pressure localization move mass across packets and signs. After one-sided terminal selection, signed cancellation can leave a positive residue unless a terminal partner theorem, donor depletion theorem, legal-exit theorem, or temporal anti-atom theorem is supplied.
+
+    So the tether route reduces to the signed no-free-sink/source-current wall already recorded in the pressure-Hessian attempt.
+
+    Pressure SourceAC.A / Localized Leray Source Tether.A ind remains open from installed inputs.
+
+    The pressure/Leray mechanism is a credible future production route. At current resolution it is conditional near-band source-current support rather than a terminal anti-atom production theorem.
+
+    This all-routes pass rechecked Pressure SourceAC.A / Localized Leray Source Tether ind.A.
+
+
+
+    \subsection{Clay problem Pressure Source Time Face Spread.A direct attempt}
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le
+    \omega_R(\varepsilon)+o_m(1),
+    \qquad
+    \omega_R(\varepsilon)\downarrow0.
+    \]
+
+    Pressure is recovered at each time through an elliptic operator applied to quadratic velocity-gradient data. This gives spatial nonlocal coupling at the same time slice.
+
+    The target asks for temporal spread away from s=0. Elliptic spatial smoothing at fixed s leaves a measure concentrated at the terminal time face compatible with the equation.
+
+    \[
+    d\mu_m^{src}(y,s)=\rho(y)m\mathbf 1_{(-1/m,0]}(s)dy ds
+    \]
+
+    Assume pressure residue is absolutely continuous with respect to native source residue. This can bind pressure and source to the same carrier.
+
+    \[
+    \mu_*^{press}\ll\mu_*^{src},
+    \qquad
+    \mu_*^{src}=\rho(y)dy\otimes\delta_{s=0}.
+    \]
+
+    Thus Pressure SourceAC.A needs a spread estimate in addition to carrier absolute continuity.
+
+    The Leray projector is spatial. Packet localization and pressure projection can redistribute spatial carriers and signs. They do not create temporal residence.
+
+    After terminal positive selection, a Leray tether that reaches only signed source-current control returns to Terminal Weighted NoFree Sink.A ind or PRD. A tether that kills the atom must add terminal time-face spread. Current inputs supply no such addition.
+
+    Pressure sustain may indicate a persistent quadratic-gradient channel. To kill B ASAC closed, persistence must force native source mass on earlier time slabs or a super-L 1 t source marginal.
+
+    The existing pressure/Hessian route records conditional near-band source-current support. It does not supply the needed native marginal modulus.
+
+    This run rechecked Pressure Time Face Spread.A after Pressure SourceAC.A / Localized Leray Source Tether.A ind stayed open.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le \omega_R(\varepsilon)+o_m(1),
+    \qquad \omega_R(\varepsilon)\downarrow0.
+    \]
+
+    \[
+    \rho(y)m\mathbf 1_{(-1/m,0]}(s)dy ds
+    \]
+
+    So Pressure Time Face Spread.A remains open. The next item in this continuation is BASACLocal Energy Trace NoPositive Jump.A.
+
+
+
+    \subsection{R3 Vorticity / BKM / Strain Wall To CM Face}
+
+    \[
+    BKMStrainWall(\mathcal W)
+    \Longrightarrow
+    \neg Pack_Q(\mathcal W)
+    \vee
+    \neg Part_{N,Q}(\mathcal W)
+    \vee
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    Thus retained Pack, retained Part, and retained Field imply the standard BKM continuation condition. The same smooth solution extends beyond T *. This contradicts the assumed vorticity/strain terminal wall.
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    The wall is exhausted by carrier loss, same-law participation loss, or coherent field loss. Hence the vorticity/BKM/strain terminal wall lands in a CM face.
+
+
+
+    \subsection{R3 Pressure Route Wall To CM Face}
+
+    A pressure-route terminal wall occurs when the local Poisson pressure, harmonic/far-field pressure tail, or pressure-source readout prevents the forward route from producing the continuation packet.
+
+    \[
+    \neg Pack_Q(\mathcal W).
+    \]
+
+    Assume Pack Q survives. The pressure must remain the pressure of the same Navier-Stokes solution. The local Poisson equation, harmonic tail, velocity source, viscosity, and time ancestry must all remain in the same participation record. If this pressure law detaches from the selected packet, then
+
+    \[
+    \neg Part_{N,Q}(\mathcal W).
+    \]
+
+    \[
+    \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+    \]
+
+    If some Field N,rho,Q survives, the local Poisson pressure and admissible far-field harmonic tail are controlled in the same terminal packet. The continuation readout survives, contradicting the pressure terminal wall.
+
+
+
+    \subsection{Clay problem Nightly Clay Counterexample Exclusion Pressure Note}
+
+    It does not replace the boundary with Original Smooth Data => no genuine finite-time CM exit, and it does not reopen source-pulse deletion, Source Pulse Exclusion.A, Native SourceAC.A, or any positive no-pulse supplier.
+
+    Clay Terminal WitnessCMEntry.A / Clay Finite Failure TypeCMExhaustion.A / ClayCMContrapositive Embedding.A.
+
+    CM-test-admissible Clay terminal object enters the same-fluid CM terminal packet tree and is exhausted by a first Pack/Part/Field face failure.
+
+    Let W * be offered as the finite-time Clay breakdown witness for the same original smooth Navier-Stokes datum on the active periodic surface.
+
+    That sentence is too strong. A Clay breakdown witness is not supposed to be a smooth continuation witness. The useful theorem cannot be a bare definitional ban on class exit.
+
+    The remaining question is not a positive proof that no terminal exit exists. The remaining question is whether the Clay problem statement allows a finite breakdown counterexample whose entire mechanism has been reclassified as
+
+    This is not a proof of Clay Counterexample Exclusion Bridge.A. It is the exact noncircular local burden left by the installed CM surfaces.
+
+    Clay target-fidelity clause: the witness is a same-solution finite terminal obstruction, not an external bad object. CM exhaustion clause: the witness enters the same-fluid terminal tree and declares its first Pack/Part/Field face failure. Alternative-exhaustion clause: after face failure, the object is not a legal Member(Q) continuation branch; the pass branch is the only in-class continuation branch.
+
+    Any proof attempt that replaces clause 3 with a theorem-sized positive no-exit statement repeats the drift this rule blocks.
+
+
+
+    \subsection{Clay problem Retained Pressure Package CM Face Placement}
+
+    Let W * be a CM-test-admissible finite terminal object on the active same-fluid terminal packet Q. By Clay Terminal WitnessCMEntry.A, the object enters the Pack-first terminal CM tree. By the torus global material atlas note,
+
+    This is not a terminal failure. It is pass-side receiver support for a retained Field/readout branch.
+
+    The proof consequence is this: a terminal pressure-package problem is no longer allowed to float as an unresolved graph sibling. It must be typed as Part failure, retained receiver support, or Field failure after retained Pack+Part.
+
+
+
+    \subsection{Finite Energy Point-Pressure Derivative Obstruction}
+
+    \[
+    \text{finite energy}
+    +
+    -\Delta p=\partial_i\partial_j(u_i u_j)
+    \quad\not\Longrightarrow\quad
+    \text{point-center pressure derivative bounds.}
+    \]
+
+    It is not a statement about every possible Navier-Stokes upgrade. It only rules out the estimate whose only inputs are finite kinetic energy and the pressure Poisson equation.
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j),
+    \]
+
+    \[
+    |\nabla p(0)|\le F(\|u\|_{L^2(T^3)}).
+    \]
+
+    \[
+    u_N(x_1,x_2,x_3)
+    =
+    (\cos(Nx_2),\ \sin(Nx_1),\ 0).
+    \]
+
+    \[
+    \nabla\cdot u_N
+    =
+    \partial_{x_1}\cos(Nx_2)+\partial_{x_2}\sin(Nx_1)
+    =0.
+    \]
+
+    Thus \(\|u_N\|_{L^2}\) stays fixed while \(|\nabla p_N(0)|\) tends to infinity. No estimate of point pressure derivatives can follow from finite energy and the pressure Poisson equation alone.
+
+
+
+    \subsection{Pressure-Derivative Obstruction Trajectory Integration}
+
+    The retained branch may use point-center forcing only after the retained smooth center-ball certificate supplies the needed local regularity. The finite-energy branch must use the averaged packet route, not pointwise center recovery.
+
+    \[
+    \|u\|_{L^2}<\infty
+    \quad\text{and}\quad
+    -\Delta p=\partial_i\partial_j(u_i u_j)
+    \Longrightarrow
+    \text{point-center pressure derivative bounds}
+    \]
+
+    This shrinks a false supplier burden. It prevents the trajectory from spending work on an unavailable pointwise pressure recovery from energy and Poisson data alone.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A
+    ind Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65585
+  line_start: 65585
+  line_end: 65621
+  start_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+    Tether.A ind Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Source Time Face Spread.A direct
+    attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure SourceAC.A
+    / Localized Leray Source Tether.A ind Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65585
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Source Time Face Spread.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65622
+  line_start: 65622
+  line_end: 65672
+  start_anchor: "\\subsection{Clay problem Pressure Source Time Face Spread.A direct
+    attempt}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Time Face Anti Atom Component.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Source
+    Time Face Spread.A direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65622
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Vorticity / BKM / Strain Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67307
+  line_start: 67307
+  line_end: 67335
+  start_anchor: "\\subsection{R3 Vorticity / BKM / Strain Wall To CM Face}\n"
+  end_anchor: "\\subsection{R3 Prodi-Serrin Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Vorticity / BKM / Strain Wall
+    To CM Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67307
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: R3 Pressure Route Wall To CM Face
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67498
+  line_start: 67498
+  line_end: 67518
+  start_anchor: "\\subsection{R3 Pressure Route Wall To CM Face}\n"
+  end_anchor: "\\subsection{R3 Fourier / Dyadic Wall To CM Face}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite R3 Pressure Route Wall To CM
+    Face as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67498
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Nightly Clay Counterexample Exclusion Pressure Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67917
+  line_start: 67917
+  line_end: 67937
+  start_anchor: "\\subsection{Clay problem Nightly Clay Counterexample Exclusion Pressure
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Finite Terminal Obstruction Inventory Row
+    Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Nightly Clay Counterexample
+    Exclusion Pressure Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67917
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Pressure Package CM Face Placement
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68131
+  line_start: 68131
+  line_end: 68139
+  start_anchor: "\\subsection{Clay problem Retained Pressure Package CM Face Placement}\n"
+  end_anchor: "\\subsection{Clay problem Retained-Window Native Forcing Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Pressure
+    Package CM Face Placement as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68131
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Finite Energy Point-Pressure Derivative Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68187
+  line_start: 68187
+  line_end: 68222
+  start_anchor: "\\subsection{Finite Energy Point-Pressure Derivative Obstruction}\n"
+  end_anchor: "\\subsection{Pressure-Derivative Obstruction Trajectory Integration}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Finite Energy Point-Pressure
+    Derivative Obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68187
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Pressure-Derivative Obstruction Trajectory Integration
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68223
+  line_start: 68223
+  line_end: 68237
+  start_anchor: "\\subsection{Pressure-Derivative Obstruction Trajectory Integration}\n"
+  end_anchor: "\\subsection{R3 Tail Hs Duhamel Source Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Pressure-Derivative Obstruction
+    Trajectory Integration as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68223
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-14
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-pressure-and-participation-14.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,1071 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-30
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-30
+  sequence: 115
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 30
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 42763
+  line_end: 43412
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42763
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42792
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42823
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42860
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43035
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43091
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43320
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43361
+  subsection_titles:
+  - Clay problem Near Band Material Source Charge.A After ASAC Reduction
+  - Clay problem Near Band Material Source Charge.A Audit
+  - Clay problem No Persistent Unpaid Positive Radius Ancestry.A
+  - Clay problem No Zero Heat Time Residue InsideNSClass.A Attempt
+  - Clay problem Nonlinear Response Rotation NoGain.A Proof Run
+  - Clay problem Nonlinear Shell-Flux Source Theorem Attempt Note
+  - Clay problem Object-Law Corpus Refoundation
+  - Clay problem Off Family Counteredge Charge.A Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Near Band Material Source Charge.A After ASAC Reduction
+    line_start: 42763
+    line_end: 42791
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42763
+    start_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A After
+      ASAC Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Near Band Material Source Charge.A After ASAC Reduction}
+
+      \[
+      B_P^{near}
+      =
+      \mathcal N_{j_P,L}^{near}
+      +\mathcal P_{j_P,L}^{near}
+      +\mathcal C_{j_P,L}^{near}.
+      \]
+
+      \[
+      \boxed{
+      \sum_{P\in F_N(W)}
+      \omega_P E_P\tau_P
+      \int_{I_P}\|B_P^{near}(t)\|_\infty\,dt
+      \le
+      \mathrm{Legal}_{N,Q}(W)+o_N(1).
+      }
+      \]
+
+      where b P is a scalar packet readout of B P near against the active frame and Com P near is the cutoff/projector/material-commutator record.
+
+      This is the concrete improvement over the earlier audit. The near-band source wall no longer has an active-alignment open branch once the parent-drain ASAC assembly is accepted.
+
+      This is non-circular only if Two Tower Donor Depletion.A is proved through its own refill-tree well-foundedness or Zeno-rigidity branch, not by importing Scale Critical Tree Carleson.A.
+
+      The remaining analytic atom is Zeno Source Residue Rigidity.A, not active alignment and not pair-weight flattening.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Near Band Material Source Charge.A Audit
+    line_start: 42792
+    line_end: 42822
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42792
+    start_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A Audit}\n"
+    end_anchor: "\\subsection{Clay problem No Persistent Unpaid Positive Radius Ancestry.A}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Near Band Material Source Charge.A Audit}
+
+      Purpose: test whether the material-source remainder left by Near BandBVTo Burst OrSource.A is an independent lower theorem or the same active source wall already isolated by the signed-current / weighted-lifted commutator route.
+
+      \[
+      \|\mathcal N^{near}_{j,L}+\mathcal P^{near}_{j,L}\|_\infty
+      \le C_{\mathrm{sf},41270}
+      \|\nabla u\|_\infty\,\|\nabla u\|_\infty
+      \]
+
+      \[
+      E_P\tau_P\,|\nabla u|^2.
+      \]
+
+      On terminal high packets this is not lower than the source wall. It is a positive active coefficient estimate. Spending it by absolute value returns to Scale Critical Tree Carleson.A / active- reserve control.
+
+      The first term is active strain alignment; the second is the localized source/commutator term. Thus time integration does not remove the source wall unless the source term has a signed-current or no-incoming cancellation theorem.
+
+      This is the same obstruction as the weighted-lifted route: positive terminal selection strands the active source term after weights, cutoffs, and packet localization.
+
+      \[
+      2^{2j}
+      \sum_P
+      \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+      \]
+
+      Conversely, a theorem-grade proof of Near Band Material Source Charge.A strong enough to survive terminal positive selection would supply the missing signed positive-source balance needed by Weighted Lifted Skew Defect Legal.A, modulo the standard packetization and coefficient-freezing records.
+
+      This is progress because the height-flux route and signed-current route now meet at the same exact obstruction instead of producing two unrelated frontiers.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No Persistent Unpaid Positive Radius Ancestry.A
+    line_start: 42823
+    line_end: 42859
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42823
+    start_anchor: "\\subsection{Clay problem No Persistent Unpaid Positive Radius
+      Ancestry.A}\n"
+    end_anchor: "\\subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem No Persistent Unpaid Positive Radius Ancestry.A}
+
+      In the current post-ASAC / B ASAC closed source-pulse branch, a selected same-fluid finite ancestry cannot keep a positive terminal carrier radius while remaining unpaid and retained.
+
+      \[
+      \liminf_m r_m \ge r_0>0
+      \]
+
+      \[
+      \mu_*^{src}(Q_R\times\{0\})=c_0>0.
+      \]
+
+      Equivalently, an all-internal unpaid retained ancestry has no positive-radius terminal tail.
+
+      Pass to a subsequence with r m>=r 0. The transported packet geometry has a positive terminal carrier, so the branch is no longer a zero-radius Zeno endpoint. If Pack Q, Part N,Q , or Field N,r,Q fails on this finite carrier, the desired finite CM face exit has already occurred.
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      On this same retained branch, Source Measure Participation Density Bridge.A reads the selected terminal source residue as the source-current trace of the shared participation/tower field. The B ASAC closed shared-participation balance gives the terminal strip inequality
+
+      \[
+      Exit_m=0.
+      \]
+
+      If the incoming participation/source flux is nonzero, that is one of the listed accounting events. On the no-incoming subcase, Retained Pack Field NoIncoming Participation Flux.A gives
+
+      \[
+      J_{in,m}=o_m(1)
+      \]
+
+      Thus a positive-radius terminal tail cannot be simultaneously selected, unpaid, no-incoming, and retained in finite CM. It must pay, receive flux, leave through a legal record, or hit a finite CM witness face.
+
+      This is a retained-CM ancestry lemma. It does not prove the bare forward source supplier theorem
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No Zero Heat Time Residue InsideNSClass.A Attempt
+    line_start: 42860
+    line_end: 42906
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42860
+    start_anchor: "\\subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A
+      Attempt}\n"
+    end_anchor: "\\subsection{Nohop Active Window Chain Attempt Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A Attempt}
+
+      \[
+      \mu_\ast^{src}(B_R\times\{0\})>0,
+      \qquad
+      \lim_{m\to\infty}
+      \int_{B_R\times[-R^2,0]}(-s)\,d\mu_m^{src}=0.
+      \]
+
+      Equivalently, every nonzero terminal source residue internal to the fixed positive-viscosity NS class must have positive heat-time thickness.
+
+      \[
+      \sup_{s\in[-R^2,0]}\int_{B_R}|u_m(s)|^2
+      +\nu\int_{Q_R^-}|\nabla u_m|^2
+      \le C_R.
+      \]
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^\theta.
+      \]
+
+      \[
+      \left\|
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+      \right\|_{L_s^p(-1,0)}
+      \le C_R
+      \quad(p>1).
+      \]
+
+      Those are exactly the temporal anti-concentration estimates previously named Temporal Non Atomic Source.A / Uniform Temporal Source Integrability p.A.
+
+      The strongest naive fixed-viscosity argument says that a source needs heat-time to affect the terminal packet. But this is false at the level of L 1 t forcing.
+
+      \[
+      g_m(s)=m\,1_{(-1/m,0]}(s).
+      \]
+
+      So the heat-time participation moment vanishes while total terminal source mass persists.
+
+      If Temporal Non Atomic Source.A holds, then no terminal atom exists, hence no zero-heat-time terminal source residue with positive atom mass exists.
+
+      Conversely, under No Earlier Selected Source Slice.A, failure of Temporal Non Atomic Source.A implies Zero Heat Time Source Residue.A by
+
+      No Zero Heat Time Residue InsideNSClass.A excludes that branch. Hence Temporal Non Atomic Source.A holds on the selected Zeno source-residue family.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Nonlinear Response Rotation NoGain.A Proof Run
+    line_start: 43035
+    line_end: 43090
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43035
+    start_anchor: "\\subsection{Clay problem Nonlinear Response Rotation NoGain.A
+      Proof Run}\n"
+    end_anchor: "\\subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt
+      Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Nonlinear Response Rotation NoGain.A Proof Run}
+
+      \[
+      \begin{aligned}
+      &\int_W\sup_{k>N}
+      2^k\sum_{\ell>k+4}
+      1_{\{R_\ell>0\}}
+      \left[
+      2\int\langle S_{<\ell}^{loc}u_\ell,z_\ell^\perp\rangle
+      \right]_+dt\\
+      &\quad\le
+      R_{\mathrm{height},N}(W)\\
+      &\qquad
+      +P_{\mathrm{cut},N}(W)\\
+      &\qquad
+      +Z_{\mathrm{res},N}(W)
+      +o_N(1).
+      \end{aligned}
+      \]
+
+      \[
+      (z_\ell^{heat})^\perp=Err_\ell^{width}.
+      \]
+
+      \[
+      (\mathcal R_\ell^{rot})^\perp,
+      \]
+
+      This deletes the largest fake obstruction: viscosity itself does not rotate the packet direction.
+
+      \[
+      u_\ell=\sum_P c_P e_P\phi_P,
+      \qquad
+      z_\ell^\perp=\sum_P d_P f_P\phi_P
+      \]
+
+      \[
+      2^{2\ell}
+      \int\langle S_k u_\ell,z_\ell^\perp\rangle
+      =
+      A_{\ell,k}^{resp,+}
+      -A_{\ell,k}^{resp,-}
+      +Err_{\ell,k}^{resp}.
+      \]
+
+      This is the exact response analogue of the ASAC packet normal form, but the active coefficient is mixed c P d P, not |c P| 2.
+
+      Here S is the frozen original strain and Sigma is the frozen response strain from the low-mode response.
+
+      The heat forcing Delta v is parallel to the active heat shell and does not create the orthogonal response mass. Thus a nonzero limiting orthogonal response-rotation measure requires nonlinear/frozen-strain generation with no incoming response mass.
+
+      ResponseTPNI.A directly by adjoint parent-or-charge, expanded no-parent, and ordinary dissipation. So the older coupled frozen-response backward-uniqueness/global-no-incoming detour is no longer the shortest route for this branch.
+
+      Under that route, Coupled Frozen Response Backward Uniqueness.A and No Incoming License resp.A are superseded for the response-rotation branch by the full-coefficient -mass drain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Nonlinear Shell-Flux Source Theorem Attempt Note
+    line_start: 43091
+    line_end: 43127
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43091
+    start_anchor: "\\subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt Note}
+
+      It does not prove the theorem. It reduces it to the signed weighted commutator-defect plus active- residual-tail wall.
+
+      \[
+      dE_j(t)+c\nu D_j(t)\,dt\le F_j(t)\,dt,
+      \]
+
+      \[
+      \int_I |F_j(t)|^2\,dt
+      \le
+      c\varepsilon\nu^3 2^{3j}|I|
+      +C\nu^2 2^j2^{-2\delta j},
+      \]
+
+      \[
+      \langle \Delta_j(a_k\cdot\nabla\Delta_\ell u),\Delta_j u\rangle
+      +
+      \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle
+      =0.
+      \]
+
+      Thus the native source route is not a blind positive estimate. It must exploit signed cancellation before shell weights and lifted packet reductions destroy the exact antisymmetry.
+
+      After the shell weights, lifted reductions, and finite-packet cutoffs enter, the surviving object is a weighted commutator/lifted-remainder defect. The desired source theorem would follow from a signed estimate of the form
+
+      The existing algebra does not force this sign. The principal lifted remainder can align with expanding strain directions, and one-sided shell weights do not produce cancellation by themselves.
+
+      \[
+      \int_I\sum_{j\ge N}2^{-j}D_j(t)^2\,dt.
+      \]
+
+      The installed full tail- reserve controls a different object: cumulative tail energy squared by first-moment dissipation. It does not control shellwise active- density on terminal active intervals.
+
+      The nonlinear shell-flux source theorem is not proved from the current Original Smooth Data inputs.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Object-Law Corpus Refoundation
+    line_start: 43320
+    line_end: 43360
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43320
+    start_anchor: "\\subsection{Clay problem Object-Law Corpus Refoundation}\n"
+    end_anchor: "\\subsection{Clay problem Off Family Counteredge Charge.A Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Object-Law Corpus Refoundation}
+
+      Role: central refoundation surface for rereading the full Navier--Stokes corpus under the class-membership object law.
+
+      This is a corpus refoundation, not a local patch list. It states in one place what the corpus becomes when the governing object is read as one shared incompressible-pressure-viscosity field and singularity is read as prior class exit from that object.
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+      \qquad
+      \nabla\cdot u = 0,
+      \qquad
+      \nu>0.
+      \]
+
+      \[
+      (u,p,\Phi,F),
+      \qquad
+      F:=D_a\Phi,
+      \]
+
+      Any G-type metric remains packet-local unless a file proves stronger route-wide canonical priority.
+
+      The primitive object-side failures are failure of shared participation, shared packing, and shared one-field coherence. The older words dead, blown, and jump are retained only as legacy participation-side / packing-side / one-field-side labels.
+
+      The corpus does not become one flat stack. It splits by which primitive class law a branch actually serves.
+
+      They serve the whole object law directly: packing, participation, and one-field coherence.
+
+      They serve the primitive laws by exact witness installation, jet/difference bridge closure, Law 2 tethering, reverse four-body admissibility audit, and rigidity reduction.
+
+      These notes do not define the fluid object. They consume lawful exports from the object law and turn them into directional records.
+
+      These are useful only after lawful object-law or readout inputs have already been installed.
+
+      Current branch primitive: local dead/blown/jump events at a point or region. First illegal permission: treating an isolated local event as primitive without first naming which class law fails. Last lawful primitive: shared packing / shared participation / shared one-field law. Lawful replacement path: object law branch-specific witness ( P N+ Q N, packing witness, tower compatibility) dead/blown/jump reduction exclusion theorem.
+
+      Current branch primitive: strict shadow and
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Off Family Counteredge Charge.A Direct Attempt
+    line_start: 43361
+    line_end: 43412
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43361
+    start_anchor: "\\subsection{Clay problem Off Family Counteredge Charge.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Ofp Dtc Compactness Scaling Circularity Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem Off Family Counteredge Charge.A Direct Attempt}
+
+      The installed off-packet, cutoff, collar, boundary, pressure, residual, heat, and earlier-arrival records charge declared geometric or temporal errors. They do not charge the full mass of a formal negative signed partner merely because terminal positive selection placed that partner outside the selected usable same-fluid record.
+
+      Fix a bounded-overlap selected terminal same-fluid packet family F N and an active terminal window collection. For each selected positive localized source edge
+
+      \[
+      e:Q\to P,
+      \qquad
+      P\in\mathcal F_N,
+      \qquad
+      d\mathcal S^{active}_{N,loc}(e;P)>0,
+      \]
+
+      Here e record( F N) includes the cases where the signed partner lies outside the selected terminal family, outside the active terminal time window, in an unselected same-fluid donor packet, or in a cutoff/collar / off-packet spill region. The spill cases are already legal. The theorem asks for the remaining same-fluid unselected-partner mass to be legal as well.
+
+      \[
+      \mathcal I_{j;k,\ell}+\mathcal I_{\ell;k,j}=0.
+      \]
+
+      Thus, on a full finite unweighted closed interaction graph, every positive edge has a formal negative partner.
+
+      This is already part of the localized packet bookkeeping and is not the missing theorem.
+
+      \[
+      e^\ast \text{ is a legitimate same-fluid signed partner,}
+      \]
+
+      \[
+      e^\ast
+      \notin Ledger(\mathcal F_N)
+      \]
+
+      The bare cancellation says only that the full graph contains a contribution -A. It does not say that -A lies in the selected consumer record or that discarding it is small. Same-fluid transport preserves admissible material labels; it does not force terminal bad selection, synchronized active windows, or legal smallness of the unselected signed partner.
+
+      Let P F N be selected and let Q record( F N) be the formal same-fluid signed partner. After subtracting any antisymmetric current value J PQ , the endpoint residuals are
+
+      \[
+      |L_P|+|L_Q|
+      \ge
+      |A_P+A_Q|.
+      \]
+
+      On the bare closed unweighted graph, A P+A Q=0. On the t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Near Band Material Source Charge.A After ASAC Reduction}
+
+    \[
+    B_P^{near}
+    =
+    \mathcal N_{j_P,L}^{near}
+    +\mathcal P_{j_P,L}^{near}
+    +\mathcal C_{j_P,L}^{near}.
+    \]
+
+    \[
+    \boxed{
+    \sum_{P\in F_N(W)}
+    \omega_P E_P\tau_P
+    \int_{I_P}\|B_P^{near}(t)\|_\infty\,dt
+    \le
+    \mathrm{Legal}_{N,Q}(W)+o_N(1).
+    }
+    \]
+
+    where b P is a scalar packet readout of B P near against the active frame and Com P near is the cutoff/projector/material-commutator record.
+
+    This is the concrete improvement over the earlier audit. The near-band source wall no longer has an active-alignment open branch once the parent-drain ASAC assembly is accepted.
+
+    This is non-circular only if Two Tower Donor Depletion.A is proved through its own refill-tree well-foundedness or Zeno-rigidity branch, not by importing Scale Critical Tree Carleson.A.
+
+    The remaining analytic atom is Zeno Source Residue Rigidity.A, not active alignment and not pair-weight flattening.
+
+
+
+    \subsection{Clay problem Near Band Material Source Charge.A Audit}
+
+    Purpose: test whether the material-source remainder left by Near BandBVTo Burst OrSource.A is an independent lower theorem or the same active source wall already isolated by the signed-current / weighted-lifted commutator route.
+
+    \[
+    \|\mathcal N^{near}_{j,L}+\mathcal P^{near}_{j,L}\|_\infty
+    \le C_{\mathrm{sf},41270}
+    \|\nabla u\|_\infty\,\|\nabla u\|_\infty
+    \]
+
+    \[
+    E_P\tau_P\,|\nabla u|^2.
+    \]
+
+    On terminal high packets this is not lower than the source wall. It is a positive active coefficient estimate. Spending it by absolute value returns to Scale Critical Tree Carleson.A / active- reserve control.
+
+    The first term is active strain alignment; the second is the localized source/commutator term. Thus time integration does not remove the source wall unless the source term has a signed-current or no-incoming cancellation theorem.
+
+    This is the same obstruction as the weighted-lifted route: positive terminal selection strands the active source term after weights, cutoffs, and packet localization.
+
+    \[
+    2^{2j}
+    \sum_P
+    \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+    \]
+
+    Conversely, a theorem-grade proof of Near Band Material Source Charge.A strong enough to survive terminal positive selection would supply the missing signed positive-source balance needed by Weighted Lifted Skew Defect Legal.A, modulo the standard packetization and coefficient-freezing records.
+
+    This is progress because the height-flux route and signed-current route now meet at the same exact obstruction instead of producing two unrelated frontiers.
+
+
+
+    \subsection{Clay problem No Persistent Unpaid Positive Radius Ancestry.A}
+
+    In the current post-ASAC / B ASAC closed source-pulse branch, a selected same-fluid finite ancestry cannot keep a positive terminal carrier radius while remaining unpaid and retained.
+
+    \[
+    \liminf_m r_m \ge r_0>0
+    \]
+
+    \[
+    \mu_*^{src}(Q_R\times\{0\})=c_0>0.
+    \]
+
+    Equivalently, an all-internal unpaid retained ancestry has no positive-radius terminal tail.
+
+    Pass to a subsequence with r m>=r 0. The transported packet geometry has a positive terminal carrier, so the branch is no longer a zero-radius Zeno endpoint. If Pack Q, Part N,Q , or Field N,r,Q fails on this finite carrier, the desired finite CM face exit has already occurred.
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    On this same retained branch, Source Measure Participation Density Bridge.A reads the selected terminal source residue as the source-current trace of the shared participation/tower field. The B ASAC closed shared-participation balance gives the terminal strip inequality
+
+    \[
+    Exit_m=0.
+    \]
+
+    If the incoming participation/source flux is nonzero, that is one of the listed accounting events. On the no-incoming subcase, Retained Pack Field NoIncoming Participation Flux.A gives
+
+    \[
+    J_{in,m}=o_m(1)
+    \]
+
+    Thus a positive-radius terminal tail cannot be simultaneously selected, unpaid, no-incoming, and retained in finite CM. It must pay, receive flux, leave through a legal record, or hit a finite CM witness face.
+
+    This is a retained-CM ancestry lemma. It does not prove the bare forward source supplier theorem
+
+
+
+    \subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A Attempt}
+
+    \[
+    \mu_\ast^{src}(B_R\times\{0\})>0,
+    \qquad
+    \lim_{m\to\infty}
+    \int_{B_R\times[-R^2,0]}(-s)\,d\mu_m^{src}=0.
+    \]
+
+    Equivalently, every nonzero terminal source residue internal to the fixed positive-viscosity NS class must have positive heat-time thickness.
+
+    \[
+    \sup_{s\in[-R^2,0]}\int_{B_R}|u_m(s)|^2
+    +\nu\int_{Q_R^-}|\nabla u_m|^2
+    \le C_R.
+    \]
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^\theta.
+    \]
+
+    \[
+    \left\|
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+    \right\|_{L_s^p(-1,0)}
+    \le C_R
+    \quad(p>1).
+    \]
+
+    Those are exactly the temporal anti-concentration estimates previously named Temporal Non Atomic Source.A / Uniform Temporal Source Integrability p.A.
+
+    The strongest naive fixed-viscosity argument says that a source needs heat-time to affect the terminal packet. But this is false at the level of L 1 t forcing.
+
+    \[
+    g_m(s)=m\,1_{(-1/m,0]}(s).
+    \]
+
+    So the heat-time participation moment vanishes while total terminal source mass persists.
+
+    If Temporal Non Atomic Source.A holds, then no terminal atom exists, hence no zero-heat-time terminal source residue with positive atom mass exists.
+
+    Conversely, under No Earlier Selected Source Slice.A, failure of Temporal Non Atomic Source.A implies Zero Heat Time Source Residue.A by
+
+    No Zero Heat Time Residue InsideNSClass.A excludes that branch. Hence Temporal Non Atomic Source.A holds on the selected Zeno source-residue family.
+
+
+
+    \subsection{Clay problem Nonlinear Response Rotation NoGain.A Proof Run}
+
+    \[
+    \begin{aligned}
+    &\int_W\sup_{k>N}
+    2^k\sum_{\ell>k+4}
+    1_{\{R_\ell>0\}}
+    \left[
+    2\int\langle S_{<\ell}^{loc}u_\ell,z_\ell^\perp\rangle
+    \right]_+dt\\
+    &\quad\le
+    R_{\mathrm{height},N}(W)\\
+    &\qquad
+    +P_{\mathrm{cut},N}(W)\\
+    &\qquad
+    +Z_{\mathrm{res},N}(W)
+    +o_N(1).
+    \end{aligned}
+    \]
+
+    \[
+    (z_\ell^{heat})^\perp=Err_\ell^{width}.
+    \]
+
+    \[
+    (\mathcal R_\ell^{rot})^\perp,
+    \]
+
+    This deletes the largest fake obstruction: viscosity itself does not rotate the packet direction.
+
+    \[
+    u_\ell=\sum_P c_P e_P\phi_P,
+    \qquad
+    z_\ell^\perp=\sum_P d_P f_P\phi_P
+    \]
+
+    \[
+    2^{2\ell}
+    \int\langle S_k u_\ell,z_\ell^\perp\rangle
+    =
+    A_{\ell,k}^{resp,+}
+    -A_{\ell,k}^{resp,-}
+    +Err_{\ell,k}^{resp}.
+    \]
+
+    This is the exact response analogue of the ASAC packet normal form, but the active coefficient is mixed c P d P, not |c P| 2.
+
+    Here S is the frozen original strain and Sigma is the frozen response strain from the low-mode response.
+
+    The heat forcing Delta v is parallel to the active heat shell and does not create the orthogonal response mass. Thus a nonzero limiting orthogonal response-rotation measure requires nonlinear/frozen-strain generation with no incoming response mass.
+
+    ResponseTPNI.A directly by adjoint parent-or-charge, expanded no-parent, and ordinary dissipation. So the older coupled frozen-response backward-uniqueness/global-no-incoming detour is no longer the shortest route for this branch.
+
+    Under that route, Coupled Frozen Response Backward Uniqueness.A and No Incoming License resp.A are superseded for the response-rotation branch by the full-coefficient -mass drain.
+
+
+
+    \subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt Note}
+
+    It does not prove the theorem. It reduces it to the signed weighted commutator-defect plus active- residual-tail wall.
+
+    \[
+    dE_j(t)+c\nu D_j(t)\,dt\le F_j(t)\,dt,
+    \]
+
+    \[
+    \int_I |F_j(t)|^2\,dt
+    \le
+    c\varepsilon\nu^3 2^{3j}|I|
+    +C\nu^2 2^j2^{-2\delta j},
+    \]
+
+    \[
+    \langle \Delta_j(a_k\cdot\nabla\Delta_\ell u),\Delta_j u\rangle
+    +
+    \langle \Delta_\ell(a_k\cdot\nabla\Delta_j u),\Delta_\ell u\rangle
+    =0.
+    \]
+
+    Thus the native source route is not a blind positive estimate. It must exploit signed cancellation before shell weights and lifted packet reductions destroy the exact antisymmetry.
+
+    After the shell weights, lifted reductions, and finite-packet cutoffs enter, the surviving object is a weighted commutator/lifted-remainder defect. The desired source theorem would follow from a signed estimate of the form
+
+    The existing algebra does not force this sign. The principal lifted remainder can align with expanding strain directions, and one-sided shell weights do not produce cancellation by themselves.
+
+    \[
+    \int_I\sum_{j\ge N}2^{-j}D_j(t)^2\,dt.
+    \]
+
+    The installed full tail- reserve controls a different object: cumulative tail energy squared by first-moment dissipation. It does not control shellwise active- density on terminal active intervals.
+
+    The nonlinear shell-flux source theorem is not proved from the current Original Smooth Data inputs.
+
+
+
+    \subsection{Clay problem Object-Law Corpus Refoundation}
+
+    Role: central refoundation surface for rereading the full Navier--Stokes corpus under the class-membership object law.
+
+    This is a corpus refoundation, not a local patch list. It states in one place what the corpus becomes when the governing object is read as one shared incompressible-pressure-viscosity field and singularity is read as prior class exit from that object.
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+    \qquad
+    \nabla\cdot u = 0,
+    \qquad
+    \nu>0.
+    \]
+
+    \[
+    (u,p,\Phi,F),
+    \qquad
+    F:=D_a\Phi,
+    \]
+
+    Any G-type metric remains packet-local unless a file proves stronger route-wide canonical priority.
+
+    The primitive object-side failures are failure of shared participation, shared packing, and shared one-field coherence. The older words dead, blown, and jump are retained only as legacy participation-side / packing-side / one-field-side labels.
+
+    The corpus does not become one flat stack. It splits by which primitive class law a branch actually serves.
+
+    They serve the whole object law directly: packing, participation, and one-field coherence.
+
+    They serve the primitive laws by exact witness installation, jet/difference bridge closure, Law 2 tethering, reverse four-body admissibility audit, and rigidity reduction.
+
+    These notes do not define the fluid object. They consume lawful exports from the object law and turn them into directional records.
+
+    These are useful only after lawful object-law or readout inputs have already been installed.
+
+    Current branch primitive: local dead/blown/jump events at a point or region. First illegal permission: treating an isolated local event as primitive without first naming which class law fails. Last lawful primitive: shared packing / shared participation / shared one-field law. Lawful replacement path: object law branch-specific witness ( P N+ Q N, packing witness, tower compatibility) dead/blown/jump reduction exclusion theorem.
+
+    Current branch primitive: strict shadow and lift/export hypotheses read as a branch root. First illegal permission: treating downstream export conditions as though they defined the primary theorem route. Last lawful primitive: torus-first internal branch plus explicit downstream export hypotheses. Lawful replacement path: object law internal torus-first closure explicit lift + strict shadow + Euclidean carrier control whole-space export.
+
+    W J as a branch root; TCJ / TEA as free opening hypotheses; generic Err J, id as a primitive error term; projector, normal-covector, or harmonic observable as a theorem root; carrier heat law or any G-metric as the governing fluid object.
+
+
+
+    \subsection{Clay problem Off Family Counteredge Charge.A Direct Attempt}
+
+    The installed off-packet, cutoff, collar, boundary, pressure, residual, heat, and earlier-arrival records charge declared geometric or temporal errors. They do not charge the full mass of a formal negative signed partner merely because terminal positive selection placed that partner outside the selected usable same-fluid record.
+
+    Fix a bounded-overlap selected terminal same-fluid packet family F N and an active terminal window collection. For each selected positive localized source edge
+
+    \[
+    e:Q\to P,
+    \qquad
+    P\in\mathcal F_N,
+    \qquad
+    d\mathcal S^{active}_{N,loc}(e;P)>0,
+    \]
+
+    Here e record( F N) includes the cases where the signed partner lies outside the selected terminal family, outside the active terminal time window, in an unselected same-fluid donor packet, or in a cutoff/collar / off-packet spill region. The spill cases are already legal. The theorem asks for the remaining same-fluid unselected-partner mass to be legal as well.
+
+    \[
+    \mathcal I_{j;k,\ell}+\mathcal I_{\ell;k,j}=0.
+    \]
+
+    Thus, on a full finite unweighted closed interaction graph, every positive edge has a formal negative partner.
+
+    This is already part of the localized packet bookkeeping and is not the missing theorem.
+
+    \[
+    e^\ast \text{ is a legitimate same-fluid signed partner,}
+    \]
+
+    \[
+    e^\ast
+    \notin Ledger(\mathcal F_N)
+    \]
+
+    The bare cancellation says only that the full graph contains a contribution -A. It does not say that -A lies in the selected consumer record or that discarding it is small. Same-fluid transport preserves admissible material labels; it does not force terminal bad selection, synchronized active windows, or legal smallness of the unselected signed partner.
+
+    Let P F N be selected and let Q record( F N) be the formal same-fluid signed partner. After subtracting any antisymmetric current value J PQ , the endpoint residuals are
+
+    \[
+    |L_P|+|L_Q|
+    \ge
+    |A_P+A_Q|.
+    \]
+
+    On the bare closed unweighted graph, A P+A Q=0. On the terminal localized surface, however,
+
+    This is not a Navier--Stokes counterexample. It is the exact bookkeeping obstruction: the currently installed identities distinguish bare global signed cancellation from terminal selected same-fluid legal charge.
+
+    Proof. Use Bare Dyadic Skew Current.0 to assign the full unweighted antisymmetric current. Move the weighted coefficient mismatch and lifted / cutoff commutator residual into the record and pay it by Weighted Lifted Skew Defect Charge.A. For every selected positive edge whose formal counter-edge exits the usable selected terminal record, apply Off Family Counteredge Charge.A. The remaining paired terms lie inside the same saturated same-fluid terminal record and define the desired antisymmetric current. Bounded overlap gives the terminal record estimate.
+
+    This reduction is only conditional. Neither Weighted Lifted Skew Defect Charge.A nor Off Family Counteredge Charge.A is currently installed below the source wall.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Near Band Material Source Charge.A After ASAC Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42763
+  line_start: 42763
+  line_end: 42791
+  start_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A After
+    ASAC Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Near Band Material
+    Source Charge.A After ASAC Reduction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42763
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Near Band Material Source Charge.A Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42792
+  line_start: 42792
+  line_end: 42822
+  start_anchor: "\\subsection{Clay problem Near Band Material Source Charge.A Audit}\n"
+  end_anchor: "\\subsection{Clay problem No Persistent Unpaid Positive Radius Ancestry.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Near Band Material
+    Source Charge.A Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42792
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No Persistent Unpaid Positive Radius Ancestry.A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42823
+  line_start: 42823
+  line_end: 42859
+  start_anchor: "\\subsection{Clay problem No Persistent Unpaid Positive Radius Ancestry.A}\n"
+  end_anchor: "\\subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No Persistent Unpaid
+    Positive Radius Ancestry.A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42823
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No Zero Heat Time Residue InsideNSClass.A Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42860
+  line_start: 42860
+  line_end: 42906
+  start_anchor: "\\subsection{Clay problem No Zero Heat Time Residue InsideNSClass.A
+    Attempt}\n"
+  end_anchor: "\\subsection{Nohop Active Window Chain Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No Zero Heat Time
+    Residue InsideNSClass.A Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:42860
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Nonlinear Response Rotation NoGain.A Proof Run
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43035
+  line_start: 43035
+  line_end: 43090
+  start_anchor: "\\subsection{Clay problem Nonlinear Response Rotation NoGain.A Proof
+    Run}\n"
+  end_anchor: "\\subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Nonlinear Response
+    Rotation NoGain.A Proof Run as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43035
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Nonlinear Shell-Flux Source Theorem Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43091
+  line_start: 43091
+  line_end: 43127
+  start_anchor: "\\subsection{Clay problem Nonlinear Shell-Flux Source Theorem Attempt
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Normal-Covector Witness-To-Readout Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Nonlinear Shell-Flux
+    Source Theorem Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43091
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Object-Law Corpus Refoundation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43320
+  line_start: 43320
+  line_end: 43360
+  start_anchor: "\\subsection{Clay problem Object-Law Corpus Refoundation}\n"
+  end_anchor: "\\subsection{Clay problem Off Family Counteredge Charge.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Object-Law Corpus
+    Refoundation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43320
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Off Family Counteredge Charge.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43361
+  line_start: 43361
+  line_end: 43412
+  start_anchor: "\\subsection{Clay problem Off Family Counteredge Charge.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Ofp Dtc Compactness Scaling Circularity Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Off Family Counteredge
+    Charge.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43361
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-30
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-30.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

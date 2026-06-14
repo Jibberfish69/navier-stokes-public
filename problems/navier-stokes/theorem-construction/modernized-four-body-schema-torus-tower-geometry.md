@@ -796,7 +796,7 @@ More concretely, the live burdens are:
    still demanded downstream.
 
 So yes, the obstruction is still there.
-But it is now much more focused and much more plausible.
+But it is now much more focused and much more sharply delimited.
 
 ### 7A. Exact current survivor after modernization
 

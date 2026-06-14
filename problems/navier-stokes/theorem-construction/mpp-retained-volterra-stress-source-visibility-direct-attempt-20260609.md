@@ -12,10 +12,10 @@ direct strain-stress exclusion, or to `(LPAS)`.
 
 ## Target
 
-The input object is the coherent positive stress case
+The input object is the coherent positive stress model
 
 ```math
-\tau_j^{H^1}[u](x,t)\approx b_j(t)\Phi(x,t),
+\tau_{j,\mathrm{model}}^{H^1}(x,t):= b_j(t)\Phi(x,t),
 \qquad b_j(t)\ge 0,
 ```
 

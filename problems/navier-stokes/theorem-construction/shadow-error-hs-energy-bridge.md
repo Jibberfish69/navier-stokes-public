@@ -70,7 +70,8 @@ C_s\|u\|_{H^{s-1}}^2\|u\|_{H^s}.
 \tag{5}
 ```
 
-Use Young's inequality and `\|u\|_{H^s}\sim \|\nabla u\|_{H^{s-1}}+\|u\|_{H^{s-1}}`
+Use Young's inequality and the fixed Sobolev comparison
+`\|u\|_{H^s}\le C_{H,s}(\|\nabla u\|_{H^{s-1}}+\|u\|_{H^{s-1}})`
 to get
 
 ```math

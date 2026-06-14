@@ -69,7 +69,7 @@ The direct LP/Cauchy--Young estimate gives only:
 
 ```math
 |J_e(t)|
-\lesssim
+\le C_{\mathrm{PER}}
 \mathfrak a_e(t)D_e(t)+Loss_e(t),
 ```
 

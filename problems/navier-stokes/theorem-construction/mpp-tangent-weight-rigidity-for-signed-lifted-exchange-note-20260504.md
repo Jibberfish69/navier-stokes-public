@@ -42,7 +42,8 @@ u_j=\Delta_j u,
 E_j(t)=\frac12\|u_j(t)\|_2^2,
 \qquad
 D_j(t)=\nu\|\nabla u_j(t)\|_2^2
-\sim \nu 2^{2j}\|u_j(t)\|_2^2.
+\quad\text{and}\quad
+c_D\nu2^{2j}\|u_j(t)\|_2^2\le D_j(t)\le C_D\nu2^{2j}\|u_j(t)\|_2^2.
 ```
 
 Applying `\Delta_j` to Navier--Stokes and pairing with `u_j` gives
@@ -240,7 +241,8 @@ transported-window coefficient:
 \mathcal W_{m;j,k,\ell}^{\sigma}
 =
 \mathcal W_{\infty;j,k,\ell}^{\sigma}
-+O(\varepsilon_m).
++E_{m;j,k,\ell}^{\sigma},
+\qquad |E_{m;j,k,\ell}^{\sigma}|\le C_W\varepsilon_m.
 ```
 
 This is only the geometry gate.  It does not assert that the raw SDS shell
@@ -643,7 +645,7 @@ The Euclidean lifted remainder has leading form
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \left\langle
 \mathcal C_j(\nabla a_k,\Delta_j u),

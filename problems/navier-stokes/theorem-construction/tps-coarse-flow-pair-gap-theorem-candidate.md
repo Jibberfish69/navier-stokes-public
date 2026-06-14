@@ -39,7 +39,8 @@ G_J^{pair}:=\{(a,b)\in G_J\times G_J:\ b\sim a\},
 
 with selector-neighbor scale `\ell_J>0` and measurable transverse bundle
 `a\mapsto N_a` as in `TPS-ns-good-set`. The scale `\ell_J` is frozen in time and
-all good active pairs satisfy `|a-b|\simeq \ell_J` at the initial time.
+all good active pairs satisfy
+`c_{pair}\ell_J\le |a-b|\le C_{pair}\ell_J` at the initial time.
 
 Define the normalized coarse pair-gap functional
 
@@ -1171,7 +1172,8 @@ then
 
 ```math
 D_J
-\lesssim
+\le
+C_D
 \ell_J^{-1}\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J),
 ```
 
@@ -1228,7 +1230,8 @@ gives
 
 ```math
 D_J^{max}
-\lesssim
+\le
+C_D
 \ell_J^{-1}\exp\!\big(C\mathcal H(T_J)\big)\,2^{-J}\mathcal H(T_J).
 \tag{CF.11c}
 ```
@@ -1263,7 +1266,8 @@ The live bridge target is
 
 ```math
 B_J(I)
-\lesssim
+\le
+C_B
 \mathcal E_I^{coarse}
 +
 \mathcal E_I^{tail}
@@ -1279,7 +1283,8 @@ followed by
 \big\|
 \lambda_2^+(\cdot,t)
 \big\|_{\dot B^{-1}_{\infty,\infty}}^2\,dt
-\lesssim
+\le
+C_{\lambda2}
 B_J(I).
 \tag{CF.12a}
 ```

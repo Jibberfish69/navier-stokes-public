@@ -20,7 +20,7 @@ For a retained terminal packet `P`, write
 :=
 n_P(t)\cdot S^{loc}_{<j_P}(X_P(t),t)n_P(t),
 \qquad
-\tau_P\simeq(\nu2^{2j_P})^{-1}.
+\tau_P:=(\nu2^{2j_P})^{-1}.
 \tag{TET.1}
 ```
 
@@ -92,7 +92,7 @@ the heat contribution is bounded by
 
 ```math
 \tau_P\int_{I_P}\|\nu\Delta S^{near}_{j_P,L}\|_\infty\,dt
-\lesssim_L
+\le C_L
 \theta
 \tag{TET.6}
 ```

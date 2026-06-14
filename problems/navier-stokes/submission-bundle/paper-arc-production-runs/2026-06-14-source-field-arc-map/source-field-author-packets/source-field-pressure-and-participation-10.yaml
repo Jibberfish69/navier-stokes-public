@@ -1,0 +1,1079 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-pressure-and-participation-10
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-pressure-and-participation-10
+  sequence: 63
+  group_id: pressure-and-participation
+  title: Pressure and participation 10
+  author_job: write participation material as Part-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 46722
+  line_end: 47448
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46722
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46797
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46837
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46860
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46902
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46951
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47033
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47404
+  subsection_titles:
+  - Clay problem Pressure Lobe Source Tether.A Direct Attempt
+  - Clay problem Pressure Rigid Class Production.A Direct Attempt
+  - Clay problem Pressure Singular Residue Hard Stop Certificate
+  - Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Direct
+    Attempt
+  - Clay problem Pressure-Strain No-Pulse Attempt Note
+  - Clay problem Pressure Sustain Residue ToSource Residue.A Direct Limit Attempt
+  - Clay problem Pressure Time Spread.A / Elliptic Time Smearing.A Direct Attempt
+  - Clay problem Pure Pressure-Source Singular Residue Classification Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Lobe Source Tether.A Direct Attempt
+    line_start: 46722
+    line_end: 46761
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46722
+    start_anchor: "\\subsection{Clay problem Pressure Lobe Source Tether.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Quadratic-Defect Native-Carrier
+      Dichotomy}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Pressure Lobe Source Tether.A Direct Attempt}
+
+      The goal is to decide whether an interior missing pressure cancellation lobe can be converted into a native same-fluid source/donor edge without already using the source-wall theorem.
+
+      \[
+      \mathsf J^{press}(A^-\to P)<0,
+      \]
+
+      where A - is physically interior, same-fluid-admissible at the geometric level, and not a cutoff/collar/off-family pressure exit.
+
+      If this holds, the pressure partner saturation route can use the usual no-free-sink/donor machinery.
+
+      \[
+      \mathsf J^{press}(A^-\to P)
+      =
+      E_P^\#\tau_P
+      \int K_{n_P}(X_P-y):Q_{A^-}(y,t)\,dy\,dt,
+      \]
+
+      The Poisson equation says Q A - contributes to 2p at P. It does not say that energy, enstrophy, or same-fluid source has traveled from A - to P. It is an elliptic influence, not a material edge.
+
+      \[
+      P_{\mathrm{Leray}}(u\cdot\nabla u)
+      =
+      u\cdot\nabla u+\nabla p.
+      \]
+
+      \[
+      \nabla(u\cdot\nabla u)+\nabla^2p
+      =
+      \nabla P_{\mathrm{Leray}}(u\cdot\nabla u).
+      \]
+
+      \[
+      E_P^\#\tau_P\int |D_t(n_P\cdot S^{near}n_P)|\,dt.
+      \]
+
+      The compactness route does not prove this automatically. It is the limit version of the same tether problem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Rigid Class Production.A Direct Attempt
+    line_start: 46797
+    line_end: 46836
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46797
+    start_anchor: "\\subsection{Clay problem Pressure Rigid Class Production.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Pressure Rigid Class Production.A Direct Attempt}
+
+      Purpose: search for a rigid class that every pure pressure-sustain residue tangent must enter, so that a pressure Liouville theorem can kill the residue.
+
+      \[
+      \omega_*=0.
+      \]
+
+      The available hypothesis is zero native source-legal carrier on the singular pressure part. This controls the source-current measure, not the vorticity or the full strain. The trace-free symmetric tangent test separates positive pressure-Hessian sustain from native vorticity source. Thus the vorticity-free class is not produced.
+
+      \[
+      \operatorname{tr}\nabla^2p_*=0
+      \quad\text{or angular pressure cancellation saturation.}
+      \]
+
+      Pressure trace/angular cancellation controls the full signed pressure object. The residue is selected after one-sided weights, directional testing, and positive sustain extraction. A positive selected directional lobe may coexist with full angular cancellation. So trace balance does not produce a rigid selected-sign class.
+
+      \[
+      |u_*(x,t)|\le C_{\mathrm{sf},45251} |t|^{-1/2},
+      \qquad
+      u_*\in L_t^\infty L_x^3,
+      \]
+
+      \[
+      u_*(x,t)=\lambda u_*(\lambda x,\lambda^2t)
+      \]
+
+      \[
+      \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^\alpha,
+      \qquad \alpha>0.
+      \]
+
+      Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous in time, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
+
+      Pressure Rigid Class Production.A fails from the installed tangent data. The rigid class candidates requiring vorticity-free, trace-balanced, critical, Type-I, global-energy, or self-similar structure are unavailable.
+
+      This becomes the next pressure-specific alternative to test alongside terminal pressure trace/angular saturation and legal classification.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Singular Residue Hard Stop Certificate
+    line_start: 46837
+    line_end: 46859
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46837
+    start_anchor: "\\subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}\n"
+    end_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+      Tether.A ind Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}
+
+      Hard-stop certificate for the pressure/eigenframe alternative after B ASAC exhaustion.
+
+      \[
+      \mu_*^{press\perp src}>0,
+      \qquad
+      \mu_*^{press\perp src}\perp(\nu_*^{src}+\nu_*^{legal,src}).
+      \]
+
+      This branch carries selected pressure-Hessian sustain while avoiding the native source-current carrier.
+
+      The pure-strain tangent test produces pressure-Hessian sustain without native vorticity source-current support. This blocks source-carrier forcing from algebraic pressure identities alone.
+
+      The legal route needs a theorem pricing the retained interior pure-strain pressure lobe as legal pressure residue after ordinary pressure exits have already been removed.
+
+      The Liouville route needs retained-class pressure rigidity beyond local compactness and Calderon-Zygmund pressure-quadratic support.
+
+      The Leray route needs terminal one-sided orientation, commutator pricing, and saturation independent of the existing terminal skew/source-current record.
+
+      Further progress in this branch requires one of the three named gates. Reusing Calderon-Zygmund pressure control, local pressure Poisson structure, Leray recombination, local energy, or the strain equation returns to the same hard branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A
+      ind Direct Attempt
+    line_start: 46860
+    line_end: 46901
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46860
+    start_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray
+      Source Tether.A ind Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Direct Attempt}
+
+      where ind means independence from Terminal Skew Localization record.A and equivalent terminal source-current records.
+
+      The finite statement must remain independent of Terminal Skew Localization record.A.
+
+      \[
+      T_N Q_N = \nabla^2p_N^{loc},
+      \]
+
+      \[
+      \nu_N^{src}
+      \sfcomp{45319}
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+ dxd t
+      \]
+
+      \[
+      \mu_*^{press-sus}\ll |T\sigma_*^{quad}|,
+      \]
+
+      \[
+      \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
+      \]
+
+      A pointwise domination of the pressure quadratic carrier by the native source carrier is unavailable. Take the trace-free symmetric tangent gradient
+
+      \[
+      S=\operatorname{diag}(2,-1,-1),
+      \qquad \Omega=0.
+      \]
+
+      This tangent test separates pressure-Hessian sustain from the native vorticity source carrier inside the installed local identities. A finite-energy terminal realization or a legal exclusion theorem would add new PDE content; it is exactly the carrier theorem missing above.
+
+      Thus the finite packet Leray tether reaches the same source-current wall in different notation. The identity supplies recombination; it does not supply terminal orientation, saturation, or legal one-sided lifted-defect summability.
+
+      The local energy route controls pressure work through ordinary pressure integrability and cutoff terms. On terminal positive selection it returns to active- or source-Carleson strength.
+
+      Proof sketch. The quadratic-defect domination places the pressure-Hessian carrier on the native source-current carrier plus legal losses. The independent Leray orientation and saturation gates convert the localized convective-pressure pair into same-fluid donor/source edges after terminal selection. The commutator gate pays the lifted one-sided projection defects. The resulting measure domination gives Pressure SourceAC.A, and the finite packet edge statement gives Localized Leray Source Tether.A ind.
+
+      This confirms that the pressure/eigenframe route has no
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure-Strain No-Pulse Attempt Note
+    line_start: 46902
+    line_end: 46950
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46902
+    start_anchor: "\\subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Sustain Residue ToSource Residue.A
+      Direct Limit Attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}
+
+      The pressure-law test asks whether the missing no-pulse theorem is already supplied by incompressibility and elliptic pressure recovery.
+
+      The answer is no. Pressure gives elliptic recovery and local response bounds, but the active source pulse is a vorticity/strain production channel with no installed pressure-sign cancellation.
+
+      The pressure route would need a theorem saying that the nonlocal pressure response prevents heat-scale source-balanced active pulses.
+
+      \[
+      \omega=\nabla\times u,
+      \qquad
+      S=\frac12(\nabla u+\nabla u^T).
+      \]
+
+      \[
+      \partial_t\omega+u\cdot\nabla\omega-\nu\Delta\omega
+      =
+      S\omega.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|\omega\|_2^2
+      +\nu\|\nabla\omega\|_2^2
+      =
+      \int \omega\cdot S\omega\,dx.
+      \]
+
+      The pressure gradient is absent from (1) after curl. Thus pressure cannot produce a direct sign in the enstrophy production identity.
+
+      \[
+      -\Delta p=\partial_i\partial_j(u_i u_j)
+      =\mathrm{tr}(\nabla u\,\nabla u).
+      \]
+
+      Equivalently, 2p is a matrix of singular integrals of quadratic velocity-gradient expressions. This supplies Calderon-Zygmund bounds such as
+
+      \[
+      \|\nabla^2p\|_{L^q}\le C_{\mathrm{sf},45375}\|\nabla u\|_{L^{2q}}^2,
+      \]
+
+      and the pressure source estimates used in the local receiver/source packets. It does not impose a pointwise sign on
+
+      So the vortex-stretching density can be strictly positive in an incompressible local configuration. The pressure Hessian may be chosen by the elliptic constraint to enforce incompressibility of the local jet, but the vorticity production sign is not thereby reversed.
+
+      After localization into a shell packet, this is exactly the active pulse geometry: vorticity aligned with an expanding strain direction produces positive source at the active scale.
+
+      Those are integrability and recovery statements. They control pressure as a supplier to already-defined packets. They are not depletion-of-stretching theorems.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Sustain Residue ToSource Residue.A Direct
+      Limit Attempt
+    line_start: 46951
+    line_end: 47005
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46951
+    start_anchor: "\\subsection{Clay problem Pressure Sustain Residue ToSource Residue.A
+      Direct Limit Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pressure Tail Hardy Transported Shells.A}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Pressure Sustain Residue ToSource Residue.A Direct Limit Attempt}
+
+      and after that tether was identified with the terminal skew/source-current record. The goal is to test the genuinely new limit bridge
+
+      \[
+      \Pi_N^{press,+}\ge c_0>0,
+      \qquad
+      Legal_N^{press}\to 0,
+      \]
+
+      \[
+      \mu_*^{press-sus}(Q_1^-)\ge c_0.
+      \]
+
+      Here * src is the native same-fluid source-current residue used by the source-wall / Zeno branch, not merely a pressure quadratic-gradient defect measure.
+
+      \[
+      d\pi_N^{press,+}
+      =
+      \left[
+      W_N\,T_N(Q_N)
+      \right]_+d\eta_N
+      +
+      Legal_N^{press},
+      \]
+
+      where T N is the localized Calderon--Zygmund pressure-Hessian operator and Q N is the localized quadratic gradient block. Compactness gives a pressure carrier
+
+      \[
+      Q_N d\eta_N \rightharpoonup \sigma_*^{quad}
+      \]
+
+      The native source residue has a different carrier. In the source-weighted angular branch it is represented by terminal packets of the form
+
+      \[
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+
+      \]
+
+      for terminal packet unions E, with N 0 and without consuming Terminal Skew Localization record.A.
+
+      This identifies the pressure residue as an elliptic image of a quadratic-gradient defect. The image has angular cancellation and singular-integral structure. It lacks the material ancestry, packet refill structure, and one-sided source-current sign record carried by the native source residue.
+
+      Calderon--Zygmund mean-zero gives a signed full-pressure cancellation identity before one-sided terminal selection. Positive selection can keep an order-one positive pressure lobe while the cancelling negative angular mass is diffuse across many packets or below terminal selection. Compactness then preserves a pressure-sustain residue, while the native source-current residue remains absent from the argument.
+
+      The carrier mismatch already appears in the local pressure law. Take a trace-free symmetric tangent gradient
+
+      Scope of the model: algebraic tangent test for the pressure-source carrier relation. It shows that positive pr
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pressure Time Spread.A / Elliptic Time Smearing.A
+      Direct Attempt
+    line_start: 47033
+    line_end: 47065
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47033
+    start_anchor: "\\subsection{Clay problem Pressure Time Spread.A / Elliptic Time
+      Smearing.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Primitive Class Laws Note}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |+
+      \subsection{Clay problem Pressure Time Spread.A / Elliptic Time Smearing.A Direct Attempt}
+
+      Purpose: test the final pressure-specific alternative from the pure pressure-sustain residue branch: temporal spread of pressure residue strong enough to produce a rigid class or remove a terminal pressure atom.
+
+      \[
+      \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^\alpha,
+      \qquad \alpha>0.
+      \]
+
+      \[
+      \nabla^2p(t)=T\bigl((S+\Omega)\otimes(S+\Omega)\bigr)(t).
+      \]
+
+      This relation is time-slice elliptic. It provides spatial angular cancellation and spatial nonlocality. It supplies no temporal averaging. A pressure-sustain atom concentrated on shrinking terminal time windows remains compatible with the elliptic identity whenever the quadratic-gradient carrier concentrates on the same windows.
+
+      Local energy inequalities integrate pressure work in time. For the selected pressure-sustain residue, the needed bound is super-L 1 t or positive time thickness on the terminal pressure measure. Local energy gives only the standard pressure-work integrability paired with cutoffs and velocity. After positive directional selection and terminal weights, it returns to active-/source-strength estimates or pressure-source carrier control.
+
+      A material residence theorem would say a pressure lobe that sustains a terminal packet must remain tied to a same-fluid material ancestry over a positive time interval. This would produce temporal thickness.
+
+      But pressure influence is elliptic rather than transported. To turn pressure influence into material residence, one must recombine it with convection through the localized Leray pair. That is exactly
+
+      \[
+      \Pi_N^{press,+}\ge c_0
+      \]
+
+      \[
+      \tau_N\downarrow0,
+      \]
+
+      All tested routes either return to the terminal source-current wall or require a genuinely new pressure-specific endpoint.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pure Pressure-Source Singular Residue Classification
+      Attempt
+    line_start: 47404
+    line_end: 47448
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47404
+    start_anchor: "\\subsection{Clay problem Pure Pressure-Source Singular Residue
+      Classification Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Pure Pressure-Source Singular Residue Three-Gate
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: pressure-and-participation
+    text: |
+      \subsection{Clay problem Pure Pressure-Source Singular Residue Classification Attempt}
+
+      Attempted pressure/eigenframe alternative after the B ASAC branch was exhausted as a forward supplier.
+
+      Outcome: open. The pressure route splits cleanly into a source-carried branch and a pure pressure-source singular branch. The singular branch has no installed legal or Liouville discharge.
+
+      \[
+      \Lambda_*^{src}:=\nu_*^{src}+\nu_*^{legal,src}.
+      \]
+
+      \[
+      \mu_*^{press-sus}=f\Lambda_*^{src}+\mu_*^{press\perp src},
+      \qquad
+      \mu_*^{press\perp src}\perp\Lambda_*^{src}.
+      \]
+
+      The absolutely continuous part returns to source-wall machinery. The new branch is
+
+      \[
+      \boxed{\mu_*^{press\perp src}>0.}
+      \]
+
+      With No Pure Pressure Source Singular Residue.A, the dichotomy implies Pressure SourceAC.A, then Pressure Sustain Residue ToSource Residue.A on the retained interior pressure branch.
+
+      The pressure residue is controlled by an elliptic image of the quadratic-gradient carrier. Calderon-Zygmund estimates yield pressure control by quadratic-gradient data. The desired conclusion places the residue on the native source-current carrier.
+
+      \[
+      \mu_*^{press-sus}\ll |T\sigma_*^{quad}|
+      \]
+
+      \[
+      \mu_*^{press-sus}\ll\Lambda_*^{src}.
+      \]
+
+      A legal classification would need a terminal pressure collar, harmonic, cutoff, or projection-loss theorem pricing this pure-strain pressure lobe. The residue is interior and selected after pressure legal exits have already been removed. Hence the available legal records give no price for it.
+
+      A Liouville theorem would need to show that a retained local suitable pressure tangent carrying pressure-Hessian sustain and zero native source-current carrier vanishes.
+
+      The local pure-strain pressure model blocks a proof from algebraic identities alone. It shows that pressure sustain can be produced by symmetric strain without vorticity-source current at the tangent level. A finite-energy or retained-carrier exclusion would add new PDE content. The current package supplies no such exclusion.
+
+      T
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Pressure Lobe Source Tether.A Direct Attempt}
+
+    The goal is to decide whether an interior missing pressure cancellation lobe can be converted into a native same-fluid source/donor edge without already using the source-wall theorem.
+
+    \[
+    \mathsf J^{press}(A^-\to P)<0,
+    \]
+
+    where A - is physically interior, same-fluid-admissible at the geometric level, and not a cutoff/collar/off-family pressure exit.
+
+    If this holds, the pressure partner saturation route can use the usual no-free-sink/donor machinery.
+
+    \[
+    \mathsf J^{press}(A^-\to P)
+    =
+    E_P^\#\tau_P
+    \int K_{n_P}(X_P-y):Q_{A^-}(y,t)\,dy\,dt,
+    \]
+
+    The Poisson equation says Q A - contributes to 2p at P. It does not say that energy, enstrophy, or same-fluid source has traveled from A - to P. It is an elliptic influence, not a material edge.
+
+    \[
+    P_{\mathrm{Leray}}(u\cdot\nabla u)
+    =
+    u\cdot\nabla u+\nabla p.
+    \]
+
+    \[
+    \nabla(u\cdot\nabla u)+\nabla^2p
+    =
+    \nabla P_{\mathrm{Leray}}(u\cdot\nabla u).
+    \]
+
+    \[
+    E_P^\#\tau_P\int |D_t(n_P\cdot S^{near}n_P)|\,dt.
+    \]
+
+    The compactness route does not prove this automatically. It is the limit version of the same tether problem.
+
+
+
+    \subsection{Clay problem Pressure Rigid Class Production.A Direct Attempt}
+
+    Purpose: search for a rigid class that every pure pressure-sustain residue tangent must enter, so that a pressure Liouville theorem can kill the residue.
+
+    \[
+    \omega_*=0.
+    \]
+
+    The available hypothesis is zero native source-legal carrier on the singular pressure part. This controls the source-current measure, not the vorticity or the full strain. The trace-free symmetric tangent test separates positive pressure-Hessian sustain from native vorticity source. Thus the vorticity-free class is not produced.
+
+    \[
+    \operatorname{tr}\nabla^2p_*=0
+    \quad\text{or angular pressure cancellation saturation.}
+    \]
+
+    Pressure trace/angular cancellation controls the full signed pressure object. The residue is selected after one-sided weights, directional testing, and positive sustain extraction. A positive selected directional lobe may coexist with full angular cancellation. So trace balance does not produce a rigid selected-sign class.
+
+    \[
+    |u_*(x,t)|\le C_{\mathrm{sf},45251} |t|^{-1/2},
+    \qquad
+    u_*\in L_t^\infty L_x^3,
+    \]
+
+    \[
+    u_*(x,t)=\lambda u_*(\lambda x,\lambda^2t)
+    \]
+
+    \[
+    \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^\alpha,
+    \qquad \alpha>0.
+    \]
+
+    Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous in time, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
+
+    Pressure Rigid Class Production.A fails from the installed tangent data. The rigid class candidates requiring vorticity-free, trace-balanced, critical, Type-I, global-energy, or self-similar structure are unavailable.
+
+    This becomes the next pressure-specific alternative to test alongside terminal pressure trace/angular saturation and legal classification.
+
+
+
+    \subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}
+
+    Hard-stop certificate for the pressure/eigenframe alternative after B ASAC exhaustion.
+
+    \[
+    \mu_*^{press\perp src}>0,
+    \qquad
+    \mu_*^{press\perp src}\perp(\nu_*^{src}+\nu_*^{legal,src}).
+    \]
+
+    This branch carries selected pressure-Hessian sustain while avoiding the native source-current carrier.
+
+    The pure-strain tangent test produces pressure-Hessian sustain without native vorticity source-current support. This blocks source-carrier forcing from algebraic pressure identities alone.
+
+    The legal route needs a theorem pricing the retained interior pure-strain pressure lobe as legal pressure residue after ordinary pressure exits have already been removed.
+
+    The Liouville route needs retained-class pressure rigidity beyond local compactness and Calderon-Zygmund pressure-quadratic support.
+
+    The Leray route needs terminal one-sided orientation, commutator pricing, and saturation independent of the existing terminal skew/source-current record.
+
+    Further progress in this branch requires one of the three named gates. Reusing Calderon-Zygmund pressure control, local pressure Poisson structure, Leray recombination, local energy, or the strain equation returns to the same hard branch.
+
+
+
+    \subsection{Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A ind Direct Attempt}
+
+    where ind means independence from Terminal Skew Localization record.A and equivalent terminal source-current records.
+
+    The finite statement must remain independent of Terminal Skew Localization record.A.
+
+    \[
+    T_N Q_N = \nabla^2p_N^{loc},
+    \]
+
+    \[
+    \nu_N^{src}
+    \sfcomp{45319}
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+ dxd t
+    \]
+
+    \[
+    \mu_*^{press-sus}\ll |T\sigma_*^{quad}|,
+    \]
+
+    \[
+    \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
+    \]
+
+    A pointwise domination of the pressure quadratic carrier by the native source carrier is unavailable. Take the trace-free symmetric tangent gradient
+
+    \[
+    S=\operatorname{diag}(2,-1,-1),
+    \qquad \Omega=0.
+    \]
+
+    This tangent test separates pressure-Hessian sustain from the native vorticity source carrier inside the installed local identities. A finite-energy terminal realization or a legal exclusion theorem would add new PDE content; it is exactly the carrier theorem missing above.
+
+    Thus the finite packet Leray tether reaches the same source-current wall in different notation. The identity supplies recombination; it does not supply terminal orientation, saturation, or legal one-sided lifted-defect summability.
+
+    The local energy route controls pressure work through ordinary pressure integrability and cutoff terms. On terminal positive selection it returns to active- or source-Carleson strength.
+
+    Proof sketch. The quadratic-defect domination places the pressure-Hessian carrier on the native source-current carrier plus legal losses. The independent Leray orientation and saturation gates convert the localized convective-pressure pair into same-fluid donor/source edges after terminal selection. The commutator gate pays the lifted one-sided projection defects. The resulting measure domination gives Pressure SourceAC.A, and the finite packet edge statement gives Localized Leray Source Tether.A ind.
+
+    This confirms that the pressure/eigenframe route has no lower noncircular bridge through the installed pressure, CZ, Leray, local-energy, or strain identities.
+
+
+
+    \subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}
+
+    The pressure-law test asks whether the missing no-pulse theorem is already supplied by incompressibility and elliptic pressure recovery.
+
+    The answer is no. Pressure gives elliptic recovery and local response bounds, but the active source pulse is a vorticity/strain production channel with no installed pressure-sign cancellation.
+
+    The pressure route would need a theorem saying that the nonlocal pressure response prevents heat-scale source-balanced active pulses.
+
+    \[
+    \omega=\nabla\times u,
+    \qquad
+    S=\frac12(\nabla u+\nabla u^T).
+    \]
+
+    \[
+    \partial_t\omega+u\cdot\nabla\omega-\nu\Delta\omega
+    =
+    S\omega.
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|\omega\|_2^2
+    +\nu\|\nabla\omega\|_2^2
+    =
+    \int \omega\cdot S\omega\,dx.
+    \]
+
+    The pressure gradient is absent from (1) after curl. Thus pressure cannot produce a direct sign in the enstrophy production identity.
+
+    \[
+    -\Delta p=\partial_i\partial_j(u_i u_j)
+    =\mathrm{tr}(\nabla u\,\nabla u).
+    \]
+
+    Equivalently, 2p is a matrix of singular integrals of quadratic velocity-gradient expressions. This supplies Calderon-Zygmund bounds such as
+
+    \[
+    \|\nabla^2p\|_{L^q}\le C_{\mathrm{sf},45375}\|\nabla u\|_{L^{2q}}^2,
+    \]
+
+    and the pressure source estimates used in the local receiver/source packets. It does not impose a pointwise sign on
+
+    So the vortex-stretching density can be strictly positive in an incompressible local configuration. The pressure Hessian may be chosen by the elliptic constraint to enforce incompressibility of the local jet, but the vorticity production sign is not thereby reversed.
+
+    After localization into a shell packet, this is exactly the active pulse geometry: vorticity aligned with an expanding strain direction produces positive source at the active scale.
+
+    Those are integrability and recovery statements. They control pressure as a supplier to already-defined packets. They are not depletion-of-stretching theorems.
+
+
+
+    \subsection{Clay problem Pressure Sustain Residue ToSource Residue.A Direct Limit Attempt}
+
+    and after that tether was identified with the terminal skew/source-current record. The goal is to test the genuinely new limit bridge
+
+    \[
+    \Pi_N^{press,+}\ge c_0>0,
+    \qquad
+    Legal_N^{press}\to 0,
+    \]
+
+    \[
+    \mu_*^{press-sus}(Q_1^-)\ge c_0.
+    \]
+
+    Here * src is the native same-fluid source-current residue used by the source-wall / Zeno branch, not merely a pressure quadratic-gradient defect measure.
+
+    \[
+    d\pi_N^{press,+}
+    =
+    \left[
+    W_N\,T_N(Q_N)
+    \right]_+d\eta_N
+    +
+    Legal_N^{press},
+    \]
+
+    where T N is the localized Calderon--Zygmund pressure-Hessian operator and Q N is the localized quadratic gradient block. Compactness gives a pressure carrier
+
+    \[
+    Q_N d\eta_N \rightharpoonup \sigma_*^{quad}
+    \]
+
+    The native source residue has a different carrier. In the source-weighted angular branch it is represented by terminal packets of the form
+
+    \[
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+
+    \]
+
+    for terminal packet unions E, with N 0 and without consuming Terminal Skew Localization record.A.
+
+    This identifies the pressure residue as an elliptic image of a quadratic-gradient defect. The image has angular cancellation and singular-integral structure. It lacks the material ancestry, packet refill structure, and one-sided source-current sign record carried by the native source residue.
+
+    Calderon--Zygmund mean-zero gives a signed full-pressure cancellation identity before one-sided terminal selection. Positive selection can keep an order-one positive pressure lobe while the cancelling negative angular mass is diffuse across many packets or below terminal selection. Compactness then preserves a pressure-sustain residue, while the native source-current residue remains absent from the argument.
+
+    The carrier mismatch already appears in the local pressure law. Take a trace-free symmetric tangent gradient
+
+    Scope of the model: algebraic tangent test for the pressure-source carrier relation. It shows that positive pressure-Hessian sustain and native vorticity source are distinct carriers at the level of the installed local identities. Turning this mismatch into a legal finite-energy terminal packet statement is exactly the missing Pressure SourceAC.A / legal pressure-residue theorem.
+
+    Proof. Remove collar, cutoff, harmonic, projector, and off-family pressure exits using Terminal Pressure Collar Legal.A. On the remaining interior terminal region, Pressure SourceAC.A gives
+
+    A positive pressure-sustain residue then forces positive native source residue or positive legal source-current residue. This is the desired source-wall input.
+
+    where the subscript means independence from Terminal Skew Localization record.A and equivalent terminal source-current records.
+
+
+
+    \subsection{Clay problem Pressure Time Spread.A / Elliptic Time Smearing.A Direct Attempt}
+
+    Purpose: test the final pressure-specific alternative from the pure pressure-sustain residue branch: temporal spread of pressure residue strong enough to produce a rigid class or remove a terminal pressure atom.
+
+    \[
+    \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^\alpha,
+    \qquad \alpha>0.
+    \]
+
+    \[
+    \nabla^2p(t)=T\bigl((S+\Omega)\otimes(S+\Omega)\bigr)(t).
+    \]
+
+    This relation is time-slice elliptic. It provides spatial angular cancellation and spatial nonlocality. It supplies no temporal averaging. A pressure-sustain atom concentrated on shrinking terminal time windows remains compatible with the elliptic identity whenever the quadratic-gradient carrier concentrates on the same windows.
+
+    Local energy inequalities integrate pressure work in time. For the selected pressure-sustain residue, the needed bound is super-L 1 t or positive time thickness on the terminal pressure measure. Local energy gives only the standard pressure-work integrability paired with cutoffs and velocity. After positive directional selection and terminal weights, it returns to active-/source-strength estimates or pressure-source carrier control.
+
+    A material residence theorem would say a pressure lobe that sustains a terminal packet must remain tied to a same-fluid material ancestry over a positive time interval. This would produce temporal thickness.
+
+    But pressure influence is elliptic rather than transported. To turn pressure influence into material residence, one must recombine it with convection through the localized Leray pair. That is exactly
+
+    \[
+    \Pi_N^{press,+}\ge c_0
+    \]
+
+    \[
+    \tau_N\downarrow0,
+    \]
+
+    All tested routes either return to the terminal source-current wall or require a genuinely new pressure-specific endpoint.
+
+
+
+    \subsection{Clay problem Pure Pressure-Source Singular Residue Classification Attempt}
+
+    Attempted pressure/eigenframe alternative after the B ASAC branch was exhausted as a forward supplier.
+
+    Outcome: open. The pressure route splits cleanly into a source-carried branch and a pure pressure-source singular branch. The singular branch has no installed legal or Liouville discharge.
+
+    \[
+    \Lambda_*^{src}:=\nu_*^{src}+\nu_*^{legal,src}.
+    \]
+
+    \[
+    \mu_*^{press-sus}=f\Lambda_*^{src}+\mu_*^{press\perp src},
+    \qquad
+    \mu_*^{press\perp src}\perp\Lambda_*^{src}.
+    \]
+
+    The absolutely continuous part returns to source-wall machinery. The new branch is
+
+    \[
+    \boxed{\mu_*^{press\perp src}>0.}
+    \]
+
+    With No Pure Pressure Source Singular Residue.A, the dichotomy implies Pressure SourceAC.A, then Pressure Sustain Residue ToSource Residue.A on the retained interior pressure branch.
+
+    The pressure residue is controlled by an elliptic image of the quadratic-gradient carrier. Calderon-Zygmund estimates yield pressure control by quadratic-gradient data. The desired conclusion places the residue on the native source-current carrier.
+
+    \[
+    \mu_*^{press-sus}\ll |T\sigma_*^{quad}|
+    \]
+
+    \[
+    \mu_*^{press-sus}\ll\Lambda_*^{src}.
+    \]
+
+    A legal classification would need a terminal pressure collar, harmonic, cutoff, or projection-loss theorem pricing this pure-strain pressure lobe. The residue is interior and selected after pressure legal exits have already been removed. Hence the available legal records give no price for it.
+
+    A Liouville theorem would need to show that a retained local suitable pressure tangent carrying pressure-Hessian sustain and zero native source-current carrier vanishes.
+
+    The local pure-strain pressure model blocks a proof from algebraic identities alone. It shows that pressure sustain can be produced by symmetric strain without vorticity-source current at the tangent level. A finite-energy or retained-carrier exclusion would add new PDE content. The current package supplies no such exclusion.
+
+    These gates are currently open. Thus Leray recombination supplies the right algebraic split and lacks the terminal one-sided orientation/saturation authority.
+
+    Current inputs classify it as a pure pressure-source singular residue relative to the native source-current carrier. It has no installed legal pricing and no installed Liouville theorem.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Lobe Source Tether.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46722
+  line_start: 46722
+  line_end: 46761
+  start_anchor: "\\subsection{Clay problem Pressure Lobe Source Tether.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Quadratic-Defect Native-Carrier
+    Dichotomy}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Lobe Source
+    Tether.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46722
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Rigid Class Production.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46797
+  line_start: 46797
+  line_end: 46836
+  start_anchor: "\\subsection{Clay problem Pressure Rigid Class Production.A Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Rigid Class
+    Production.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46797
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Singular Residue Hard Stop Certificate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46837
+  line_start: 46837
+  line_end: 46859
+  start_anchor: "\\subsection{Clay problem Pressure Singular Residue Hard Stop Certificate}\n"
+  end_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+    Tether.A ind Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Singular
+    Residue Hard Stop Certificate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46837
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure SourceAC.A / Localized Leray Source Tether.A
+    ind Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46860
+  line_start: 46860
+  line_end: 46901
+  start_anchor: "\\subsection{Clay problem Pressure SourceAC.A / Localized Leray Source
+    Tether.A ind Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure SourceAC.A
+    / Localized Leray Source Tether.A ind Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46860
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure-Strain No-Pulse Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46902
+  line_start: 46902
+  line_end: 46950
+  start_anchor: "\\subsection{Clay problem Pressure-Strain No-Pulse Attempt Note}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Sustain Residue ToSource Residue.A
+    Direct Limit Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure-Strain
+    No-Pulse Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46902
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Sustain Residue ToSource Residue.A Direct
+    Limit Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46951
+  line_start: 46951
+  line_end: 47005
+  start_anchor: "\\subsection{Clay problem Pressure Sustain Residue ToSource Residue.A
+    Direct Limit Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pressure Tail Hardy Transported Shells.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Sustain
+    Residue ToSource Residue.A Direct Limit Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:46951
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pressure Time Spread.A / Elliptic Time Smearing.A
+    Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47033
+  line_start: 47033
+  line_end: 47065
+  start_anchor: "\\subsection{Clay problem Pressure Time Spread.A / Elliptic Time
+    Smearing.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Primitive Class Laws Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pressure Time Spread.A
+    / Elliptic Time Smearing.A Direct Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47033
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pure Pressure-Source Singular Residue Classification
+    Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47404
+  line_start: 47404
+  line_end: 47448
+  start_anchor: "\\subsection{Clay problem Pure Pressure-Source Singular Residue Classification
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Pure Pressure-Source Singular Residue Three-Gate
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pure Pressure-Source
+    Singular Residue Classification Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:47404
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-pressure-and-participation-10
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-pressure-and-participation-10.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

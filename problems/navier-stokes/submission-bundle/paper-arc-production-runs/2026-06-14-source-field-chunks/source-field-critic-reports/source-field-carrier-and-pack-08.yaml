@@ -1,0 +1,91 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T06:55:30Z'
+chunk_id: source-field-carrier-and-pack-08
+group_id: carrier-and-pack
+title: Carrier and Pack 8
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_units:
+- subsection_title: Pack.TTU Strain record Conditional Control
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21666
+  line_start: 21666
+  line_end: 21731
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Vorticity-Direction Depletion Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21732
+  line_start: 21732
+  line_end: 21780
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Weaker Pack-Native Substitute Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21781
+  line_start: 21781
+  line_end: 21834
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: SCF Charge Upper Carrier and Remaining Jump-avg Burden
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:22532
+  line_start: 22532
+  line_end: 22564
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Positive-carrier Active Carleson Frontier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:23160
+  line_start: 23160
+  line_end: 23213
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Positive Carrier Absolute-value Step
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:23245
+  line_start: 23245
+  line_end: 23291
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pressure Quadratic Defect Native Carrier Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:23871
+  line_start: 23871
+  line_end: 23912
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: SCFBase defect measure upper carrier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:25139
+  line_start: 25139
+  line_end: 25197
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-carrier-and-pack-08
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

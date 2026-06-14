@@ -1,0 +1,802 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-47
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-47
+  sequence: 199
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 47
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 27668
+  line_end: 27888
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27668
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27683
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27708
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27723
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27738
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27755
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27817
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27862
+  subsection_titles:
+  - Terminal Source Coherence.A from Original Smooth Data
+  - Terminal Source Coherence.A supplier-route direct attempt
+  - Terminal Source Coherence.A Child-Loop Audit
+  - Terminal Source Coherence.A direct loop note
+  - Terminal Source Coherence.A - direct loop note
+  - Terminal Source Reverse Holder.A failed attempt
+  - Terminal Support Exclusion.A and Monotone Ancestry Rank.A Zeno attempt
+  - Terminal Time Face NoSource Atom.Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A from Original Smooth Data
+    line_start: 27668
+    line_end: 27682
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27668
+    start_anchor: "\\subsection{Terminal Source Coherence.A from Original Smooth Data}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A supplier-route direct attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Coherence.A from Original Smooth Data}
+
+      Concrete coherence defects include vorticity-direction incoherence, anti-Beltrami or mixed-helicity defect, positive strain-alignment defect, and exact lifted signed-remainder positive-part defect.
+
+      Pressure Poisson recovery supplies elliptic control of pressure and strain response. It gives no sign or coherence decay for the positive active source on selected terminal packets.
+
+      Energy-class vorticity supplies global finite enstrophy-level information. It gives no DFD/CKN-style direction modulus on arbitrary terminal active packets.
+
+      Beltrami/helical coherent packets are compatible cancellation geometries. The installed package has no theorem forcing arbitrary terminal bad active windows into anti-Beltrami or mixed-helicity defect decay.
+
+      Same-fluid transport preserves the selected carrier. It does not make coherence defects small.
+
+      The signed lifted-remainder route would need cancellation of the true weighted lifted remainder before absolute values and active-window selection. That supplier remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A supplier-route direct attempt
+    line_start: 27683
+    line_end: 27707
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27683
+    start_anchor: "\\subsection{Terminal Source Coherence.A supplier-route direct
+      attempt}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A Child-Loop Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Terminal Source Coherence.A supplier-route direct attempt}
+
+      Failed direct discharge. Terminal Source Coherence.A remains a valid sufficient supplier for Local Positive Source Carleson.A, while the concrete child routes are still open from Original Smooth Data with the currently installed inputs. Each child route hits the same legal interior positive-source obstruction: terminal active packets may align with positive strain/source production on shrinking selected windows.
+
+      Calderon--Zygmund pressure recovery gives elliptic boundedness of pressure terms in the same scale of spaces used by the local energy estimates. It does not give a sign law for
+
+      \[
+      (e_P\cdot S(u)e_P)_+.
+      \]
+
+      Since tr S(u)=0 only forces the sum of eigenvalues to vanish, it permits positive expanding eigendirections. A high packet may align with such a direction on a selected terminal window. So the desired depletion
+
+      A vorticity-direction route would require a terminal modulus controlling the direction of active vorticity on shrinking endpoint windows, strong enough to deplete vortex stretching and to match the exact weighted source packet.
+
+      Original smooth data supplies smoothness on every compact preterminal interval. It does not supply a uniform terminal vorticity-direction modulus on the shrinking active windows selected by the source-pulse branch. The needed statement is exactly a terminal coherence theorem, not a consequence of the baseline data.
+
+      An eigendecorrelation route would prove that terminal high-frequency packets cannot remain aligned with expanding eigendirections of the low/intermediate strain. In symbols it would force a bound of the type
+
+      Incompressibility only gives trace-free strain. It does not prevent expanding eigendirection alignment. The selected terminal packet family may concentrate on those directions unless a new decorrelation or source-control theorem is supplied.
+
+      The signed dyadic exchange identities cancel unlocalized exchange before the source is locali
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A Child-Loop Audit
+    line_start: 27708
+    line_end: 27722
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27708
+    start_anchor: "\\subsection{Terminal Source Coherence.A Child-Loop Audit}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A direct loop note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Coherence.A Child-Loop Audit}
+
+      Each supplier must control the native positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, weights, and positive-part extraction.
+
+      Eigen Decorrel.A remains open: incompressibility gives trace-free strain, while selected active packets may align with expanding eigendirections.
+
+      Signed Positive Balance.A remains open: signed shell identities before terminal selection do not control the selected positive carrier after weights and positive-part extraction.
+
+      Local Pressure Strain Deplete.A remains open: pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+      Active Vorticity Coherence.A remains open: direction coherence would deplete stretching if supplied, while Original Smooth Data gives no terminal active-window direction modulus for the exact weighted carrier.
+
+      Anti Beltrami Carleson.A remains open: Beltrami/helical cancellation is a possible geometry, while the current route has no theorem forcing terminal active packets into that depleted class.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A direct loop note
+    line_start: 27723
+    line_end: 27737
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27723
+    start_anchor: "\\subsection{Terminal Source Coherence.A direct loop note}\n"
+    end_anchor: "\\subsection{Terminal Source Coherence.A - direct loop note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Coherence.A direct loop note}
+
+      Pressure Poisson recovery controls elliptic response. It produces no sign law or coherence decay for the positive active source on selected terminal packets.
+
+      Energy-class vorticity gives global finite quantities. It does not impose a DFD/CKN-type direction modulus on arbitrary terminal active windows.
+
+      Beltrami/helical coherent packets are cancellation geometries. Current original-data inputs do not force terminal bad active windows into anti-Beltrami or mixed-helicity defect decay.
+
+      Same-fluid transport preserves selected carrier labels and packet legality. It gives no decay of coherence defects.
+
+      The signed lifted-remainder route would supply a coherence component only after proving cancellation of the true weighted lifted remainder before absolute values and active-window selection. That theorem remains open.
+
+      The supplier bridge is conditional; the missing input is a concrete terminal coherence theorem such as vorticity-direction coherence, anti-Beltrami defect decay, positive strain-alignment depletion, or signed lifted-remainder cancellation.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Coherence.A - direct loop note
+    line_start: 27738
+    line_end: 27754
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27738
+    start_anchor: "\\subsection{Terminal Source Coherence.A - direct loop note}\n"
+    end_anchor: "\\subsection{Terminal Source Reverse Holder.A failed attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Coherence.A - direct loop note}
+
+      Each must control the native positive active source packet after same-fluid localization, active-window selection, cutoffs, weights, and positive-part extraction.
+
+      Eigen Decorrel.A remains open. Incompressibility supplies trace-free strain, while selected active packets can still align with expanding eigendirections.
+
+      Signed Positive Balance.A remains open. Signed shell identities before terminal selection do not give positive/negative balance for the selected active source carrier after weights and positive-part extraction.
+
+      Local Pressure Strain Deplete.A remains open. Pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+      Active Vorticity Coherence.A remains open. Direction coherence would deplete stretching if supplied, while Original Smooth Data gives no terminal active-window direction modulus for the exact weighted source carrier.
+
+      Anti Beltrami Carleson.A remains open. Beltrami/helical cancellation is a possible geometry, while the current route has no theorem forcing terminal active packets into a depleted anti-coherent class.
+
+      The remove/depletion branch so continues to the positive-source Carleson / reverse-Holder parent concentration branch. The live source-pulse atom remains
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Source Reverse Holder.A failed attempt
+    line_start: 27755
+    line_end: 27795
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27755
+    start_anchor: "\\subsection{Terminal Source Reverse Holder.A failed attempt}\n"
+    end_anchor: "\\subsection{Terminal Source Reverse Holder.Onward Source Normalize}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Source Reverse Holder.A failed attempt}
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p},
+      \]
+
+      The branch supplies same-fluid terminal carrier fidelity, ASAC-paid pair-weight defects, legal cutoff and boundary exits, finite donor-tree telescoping through Local Donor Balance.A, and preterminal entrance-leaf decay.
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}ds\le C_R.
+      \]
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      \[
+      \|g_m\|_{L^1(-1,0)}=1,
+      \qquad
+      \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty
+      \quad(p>1),
+      \]
+
+      and converges weakly to a terminal time atom. This model matches the current measure-level information: bounded native source mass, terminal support, and positive residue at the terminal slice.
+
+      Same-fluid ancestry records the chain carrying the mass and licenses finite-tree telescoping. It gives lineage, legal matching, and routing fidelity. It supplies no reverse-Holder exponent.
+
+      First-pulse selection localizes the mass to the terminal layer. The reverse-Holder target requires quantitative temporal spread away from that layer.
+
+      Fixed viscosity gives spatial smoothing after positive heat time. On a layer of thickness 1/m, the Duhamel response
+
+      \[
+      \int_{-1/m}^{0}e^{(0-s)\nu\Delta}F_m(s)ds
+      \]
+
+      Finite donor balance telescopes finite truncations. The infinite Zeno tail still requires a uniform estimate on the terminal leaves, which is exactly a local positive source Carleson / PRD packet.
+
+      Operationally, the next shortest target is the PRD / source-weighted angular depletion path.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Support Exclusion.A and Monotone Ancestry Rank.A Zeno
+      attempt
+    line_start: 27817
+    line_end: 27861
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27817
+    start_anchor: "\\subsection{Terminal Support Exclusion.A and Monotone Ancestry
+      Rank.A Zeno attempt}\n"
+    end_anchor: "\\subsection{Terminal Time Face NoSource Atom.Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Terminal Support Exclusion.A and Monotone Ancestry Rank.A Zeno attempt}
+
+      Direct discharge fails. The terminal Zeno compactness package supplies a no-fixed-earlier-pulse property, yet it permits source-residue concentration at the terminal time s=0. The available ancestry quantities also fail to produce a bounded monotone rank or a quantized reserve cost along every Zeno refill edge. The live source-wall branch returns to the direct Carleson / local positive source reserve.
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty.
+      \]
+
+      \[
+      (v,q,\nu_*)\quad\text{on }(-\infty,0]\times\mathbb R^3\text{ locally},
+      \]
+
+      \[
+      \nu_*(Q_1(0,0))\ge \eta>0.
+      \]
+
+      \[
+      \nu_*(\text{threshold source-pulse class in }s<-a)=0.
+      \]
+
+      \[
+      \lim_{\varepsilon\downarrow0}\nu_*((-\varepsilon,0]\times B_R)=0
+      \]
+
+      for the source-residue class, or an equivalent exclusion of terminal-time residue.
+
+      The fixed-time no-incoming property does not imply this. A sequence of positive source pulses with time supports contained in (- m,0], m 0, has zero residue on every fixed slice s<-a, while retaining positive mass in every terminal layer. This is precisely the terminal Zeno geometry.
+
+      The measure * enters as a positive source term. The inequality supplies no sign contradiction at the terminal support. So terminal support exclusion is not derived from the current compactness package.
+
+      The dyadic scale rank fails. Along terminal Zeno, r m 0, so the frequency level can increase without a bounded descending rank. Comparable-shell parentage also permits oscillation inside finite bands.
+
+      Energy and first-moment dissipation are finite, but source-balanced refill can preserve normalized active mass with arbitrarily small raw first-moment cost on shrinking heat windows. This is exactly the distinction between
+
+      Source mass itself is not monotone. Refill edges are defined by restoring threshold source mass from legal parents.
+
+      So bounded parent selectors and entropy-style finite branching ranks do not force a descending ch
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Time Face NoSource Atom.Direct Attempt
+    line_start: 27862
+    line_end: 27888
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27862
+    start_anchor: "\\subsection{Terminal Time Face NoSource Atom.Direct Attempt}\n"
+    end_anchor: "\\subsection{Terminal Zeno Refill NoFree Sink.A ind direct attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Time Face NoSource Atom.Direct Attempt}
+
+      The terminal time-face anti-atom theorem is tested directly and fails under the current compactness hypotheses.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^\theta+o_m(1),
+      \qquad \theta>0.
+      \]
+
+      Fixed viscosity spreads source only when the source has positive heat-time residence. It does not prevent source profiles of the form
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+      \]
+
+      Local energy/enstrophy trace passes to the limit as an inequality and permits terminal defect measures. B ASAC supplies equality/tangent structure, while it does not impose temporal thickness. Same-fluid ancestry supplies legal lineage, while a Zeno chain may have heat-time windows with summable total length.
+
+      First-pulse selection removes fixed earlier selected pulses, while it leaves a final time-face atom possible.
+
+      \[
+      \boxed{UniformTemporalSourceIntegrability_p.A}
+      \]
+
+      The terminal time-face atom remains compatible with installed inputs. The next route should test active-shell amplitude gain directly.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Terminal Source Coherence.A from Original Smooth Data}
+
+    Concrete coherence defects include vorticity-direction incoherence, anti-Beltrami or mixed-helicity defect, positive strain-alignment defect, and exact lifted signed-remainder positive-part defect.
+
+    Pressure Poisson recovery supplies elliptic control of pressure and strain response. It gives no sign or coherence decay for the positive active source on selected terminal packets.
+
+    Energy-class vorticity supplies global finite enstrophy-level information. It gives no DFD/CKN-style direction modulus on arbitrary terminal active packets.
+
+    Beltrami/helical coherent packets are compatible cancellation geometries. The installed package has no theorem forcing arbitrary terminal bad active windows into anti-Beltrami or mixed-helicity defect decay.
+
+    Same-fluid transport preserves the selected carrier. It does not make coherence defects small.
+
+    The signed lifted-remainder route would need cancellation of the true weighted lifted remainder before absolute values and active-window selection. That supplier remains open.
+
+
+
+    \subsection{Terminal Source Coherence.A supplier-route direct attempt}
+
+    Failed direct discharge. Terminal Source Coherence.A remains a valid sufficient supplier for Local Positive Source Carleson.A, while the concrete child routes are still open from Original Smooth Data with the currently installed inputs. Each child route hits the same legal interior positive-source obstruction: terminal active packets may align with positive strain/source production on shrinking selected windows.
+
+    Calderon--Zygmund pressure recovery gives elliptic boundedness of pressure terms in the same scale of spaces used by the local energy estimates. It does not give a sign law for
+
+    \[
+    (e_P\cdot S(u)e_P)_+.
+    \]
+
+    Since tr S(u)=0 only forces the sum of eigenvalues to vanish, it permits positive expanding eigendirections. A high packet may align with such a direction on a selected terminal window. So the desired depletion
+
+    A vorticity-direction route would require a terminal modulus controlling the direction of active vorticity on shrinking endpoint windows, strong enough to deplete vortex stretching and to match the exact weighted source packet.
+
+    Original smooth data supplies smoothness on every compact preterminal interval. It does not supply a uniform terminal vorticity-direction modulus on the shrinking active windows selected by the source-pulse branch. The needed statement is exactly a terminal coherence theorem, not a consequence of the baseline data.
+
+    An eigendecorrelation route would prove that terminal high-frequency packets cannot remain aligned with expanding eigendirections of the low/intermediate strain. In symbols it would force a bound of the type
+
+    Incompressibility only gives trace-free strain. It does not prevent expanding eigendirection alignment. The selected terminal packet family may concentrate on those directions unless a new decorrelation or source-control theorem is supplied.
+
+    The signed dyadic exchange identities cancel unlocalized exchange before the source is localized, one-sidedly weighted, terminally selected, and positive-parted. The target source is
+
+    No such balance theorem is installed. Thus signed cancellation does not prove Terminal Source Coherence.A.
+
+
+
+    \subsection{Terminal Source Coherence.A Child-Loop Audit}
+
+    Each supplier must control the native positive active source packet after same-fluid localization, terminal active-window selection, cutoffs, weights, and positive-part extraction.
+
+    Eigen Decorrel.A remains open: incompressibility gives trace-free strain, while selected active packets may align with expanding eigendirections.
+
+    Signed Positive Balance.A remains open: signed shell identities before terminal selection do not control the selected positive carrier after weights and positive-part extraction.
+
+    Local Pressure Strain Deplete.A remains open: pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+    Active Vorticity Coherence.A remains open: direction coherence would deplete stretching if supplied, while Original Smooth Data gives no terminal active-window direction modulus for the exact weighted carrier.
+
+    Anti Beltrami Carleson.A remains open: Beltrami/helical cancellation is a possible geometry, while the current route has no theorem forcing terminal active packets into that depleted class.
+
+
+
+    \subsection{Terminal Source Coherence.A direct loop note}
+
+    Pressure Poisson recovery controls elliptic response. It produces no sign law or coherence decay for the positive active source on selected terminal packets.
+
+    Energy-class vorticity gives global finite quantities. It does not impose a DFD/CKN-type direction modulus on arbitrary terminal active windows.
+
+    Beltrami/helical coherent packets are cancellation geometries. Current original-data inputs do not force terminal bad active windows into anti-Beltrami or mixed-helicity defect decay.
+
+    Same-fluid transport preserves selected carrier labels and packet legality. It gives no decay of coherence defects.
+
+    The signed lifted-remainder route would supply a coherence component only after proving cancellation of the true weighted lifted remainder before absolute values and active-window selection. That theorem remains open.
+
+    The supplier bridge is conditional; the missing input is a concrete terminal coherence theorem such as vorticity-direction coherence, anti-Beltrami defect decay, positive strain-alignment depletion, or signed lifted-remainder cancellation.
+
+
+
+    \subsection{Terminal Source Coherence.A - direct loop note}
+
+    Each must control the native positive active source packet after same-fluid localization, active-window selection, cutoffs, weights, and positive-part extraction.
+
+    Eigen Decorrel.A remains open. Incompressibility supplies trace-free strain, while selected active packets can still align with expanding eigendirections.
+
+    Signed Positive Balance.A remains open. Signed shell identities before terminal selection do not give positive/negative balance for the selected active source carrier after weights and positive-part extraction.
+
+    Local Pressure Strain Deplete.A remains open. Pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
+
+    Active Vorticity Coherence.A remains open. Direction coherence would deplete stretching if supplied, while Original Smooth Data gives no terminal active-window direction modulus for the exact weighted source carrier.
+
+    Anti Beltrami Carleson.A remains open. Beltrami/helical cancellation is a possible geometry, while the current route has no theorem forcing terminal active packets into a depleted anti-coherent class.
+
+    The remove/depletion branch so continues to the positive-source Carleson / reverse-Holder parent concentration branch. The live source-pulse atom remains
+
+
+
+    \subsection{Terminal Source Reverse Holder.A failed attempt}
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p},
+    \]
+
+    The branch supplies same-fluid terminal carrier fidelity, ASAC-paid pair-weight defects, legal cutoff and boundary exits, finite donor-tree telescoping through Local Donor Balance.A, and preterminal entrance-leaf decay.
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}ds\le C_R.
+    \]
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    \[
+    \|g_m\|_{L^1(-1,0)}=1,
+    \qquad
+    \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty
+    \quad(p>1),
+    \]
+
+    and converges weakly to a terminal time atom. This model matches the current measure-level information: bounded native source mass, terminal support, and positive residue at the terminal slice.
+
+    Same-fluid ancestry records the chain carrying the mass and licenses finite-tree telescoping. It gives lineage, legal matching, and routing fidelity. It supplies no reverse-Holder exponent.
+
+    First-pulse selection localizes the mass to the terminal layer. The reverse-Holder target requires quantitative temporal spread away from that layer.
+
+    Fixed viscosity gives spatial smoothing after positive heat time. On a layer of thickness 1/m, the Duhamel response
+
+    \[
+    \int_{-1/m}^{0}e^{(0-s)\nu\Delta}F_m(s)ds
+    \]
+
+    Finite donor balance telescopes finite truncations. The infinite Zeno tail still requires a uniform estimate on the terminal leaves, which is exactly a local positive source Carleson / PRD packet.
+
+    Operationally, the next shortest target is the PRD / source-weighted angular depletion path.
+
+
+
+    \subsection{Terminal Support Exclusion.A and Monotone Ancestry Rank.A Zeno attempt}
+
+    Direct discharge fails. The terminal Zeno compactness package supplies a no-fixed-earlier-pulse property, yet it permits source-residue concentration at the terminal time s=0. The available ancestry quantities also fail to produce a bounded monotone rank or a quantized reserve cost along every Zeno refill edge. The live source-wall branch returns to the direct Carleson / local positive source reserve.
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    \[
+    (v,q,\nu_*)\quad\text{on }(-\infty,0]\times\mathbb R^3\text{ locally},
+    \]
+
+    \[
+    \nu_*(Q_1(0,0))\ge \eta>0.
+    \]
+
+    \[
+    \nu_*(\text{threshold source-pulse class in }s<-a)=0.
+    \]
+
+    \[
+    \lim_{\varepsilon\downarrow0}\nu_*((-\varepsilon,0]\times B_R)=0
+    \]
+
+    for the source-residue class, or an equivalent exclusion of terminal-time residue.
+
+    The fixed-time no-incoming property does not imply this. A sequence of positive source pulses with time supports contained in (- m,0], m 0, has zero residue on every fixed slice s<-a, while retaining positive mass in every terminal layer. This is precisely the terminal Zeno geometry.
+
+    The measure * enters as a positive source term. The inequality supplies no sign contradiction at the terminal support. So terminal support exclusion is not derived from the current compactness package.
+
+    The dyadic scale rank fails. Along terminal Zeno, r m 0, so the frequency level can increase without a bounded descending rank. Comparable-shell parentage also permits oscillation inside finite bands.
+
+    Energy and first-moment dissipation are finite, but source-balanced refill can preserve normalized active mass with arbitrarily small raw first-moment cost on shrinking heat windows. This is exactly the distinction between
+
+    Source mass itself is not monotone. Refill edges are defined by restoring threshold source mass from legal parents.
+
+    So bounded parent selectors and entropy-style finite branching ranks do not force a descending chain or a quantized reserve payment.
+
+    The Zeno branch remains open. Terminal-support exclusion requires a new theorem forbidding terminal concentration of source-residue measures, and monotone ancestry rank requires a new well-founded rank or reserve absent from the current route.
+
+    Equivalently, progress now requires a new mechanism proving active-/source-Carleson control rather than another compactness-only Zeno argument.
+
+
+
+    \subsection{Terminal Time Face NoSource Atom.Direct Attempt}
+
+    The terminal time-face anti-atom theorem is tested directly and fails under the current compactness hypotheses.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^\theta+o_m(1),
+    \qquad \theta>0.
+    \]
+
+    Fixed viscosity spreads source only when the source has positive heat-time residence. It does not prevent source profiles of the form
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
+    \]
+
+    Local energy/enstrophy trace passes to the limit as an inequality and permits terminal defect measures. B ASAC supplies equality/tangent structure, while it does not impose temporal thickness. Same-fluid ancestry supplies legal lineage, while a Zeno chain may have heat-time windows with summable total length.
+
+    First-pulse selection removes fixed earlier selected pulses, while it leaves a final time-face atom possible.
+
+    \[
+    \boxed{UniformTemporalSourceIntegrability_p.A}
+    \]
+
+    The terminal time-face atom remains compatible with installed inputs. The next route should test active-shell amplitude gain directly.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A from Original Smooth Data
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27668
+  line_start: 27668
+  line_end: 27682
+  start_anchor: "\\subsection{Terminal Source Coherence.A from Original Smooth Data}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A supplier-route direct attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A from
+    Original Smooth Data as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27668
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A supplier-route direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27683
+  line_start: 27683
+  line_end: 27707
+  start_anchor: "\\subsection{Terminal Source Coherence.A supplier-route direct attempt}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A Child-Loop Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A supplier-route
+    direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27683
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A Child-Loop Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27708
+  line_start: 27708
+  line_end: 27722
+  start_anchor: "\\subsection{Terminal Source Coherence.A Child-Loop Audit}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A Child-Loop
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27708
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A direct loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27723
+  line_start: 27723
+  line_end: 27737
+  start_anchor: "\\subsection{Terminal Source Coherence.A direct loop note}\n"
+  end_anchor: "\\subsection{Terminal Source Coherence.A - direct loop note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A direct
+    loop note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27723
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Coherence.A - direct loop note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27738
+  line_start: 27738
+  line_end: 27754
+  start_anchor: "\\subsection{Terminal Source Coherence.A - direct loop note}\n"
+  end_anchor: "\\subsection{Terminal Source Reverse Holder.A failed attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Coherence.A -
+    direct loop note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27738
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Source Reverse Holder.A failed attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27755
+  line_start: 27755
+  line_end: 27795
+  start_anchor: "\\subsection{Terminal Source Reverse Holder.A failed attempt}\n"
+  end_anchor: "\\subsection{Terminal Source Reverse Holder.Onward Source Normalize}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Source Reverse Holder.A
+    failed attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27755
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Support Exclusion.A and Monotone Ancestry Rank.A Zeno
+    attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27817
+  line_start: 27817
+  line_end: 27861
+  start_anchor: "\\subsection{Terminal Support Exclusion.A and Monotone Ancestry Rank.A
+    Zeno attempt}\n"
+  end_anchor: "\\subsection{Terminal Time Face NoSource Atom.Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Support Exclusion.A
+    and Monotone Ancestry Rank.A Zeno attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27817
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Time Face NoSource Atom.Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27862
+  line_start: 27862
+  line_end: 27888
+  start_anchor: "\\subsection{Terminal Time Face NoSource Atom.Direct Attempt}\n"
+  end_anchor: "\\subsection{Terminal Zeno Refill NoFree Sink.A ind direct attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Time Face NoSource Atom.Direct
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27862
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-47
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-47.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

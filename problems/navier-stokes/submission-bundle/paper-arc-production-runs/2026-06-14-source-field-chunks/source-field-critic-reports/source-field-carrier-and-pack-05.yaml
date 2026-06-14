@@ -1,0 +1,93 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T06:41:47Z'
+chunk_id: source-field-carrier-and-pack-05
+group_id: carrier-and-pack
+title: Carrier and Pack 5
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_units:
+- subsection_title: Endpoint Selector.TTU - Tower-Blown Finite Selector Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17542
+  line_start: 17542
+  line_end: 17594
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Endpoint Selector.TTU Facewise Selector Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17595
+  line_start: 17595
+  line_end: 17628
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Endpoint Selector.TTU General Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17629
+  line_start: 17629
+  line_end: 17669
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: "\\(E_u\\) Additive Carrier Reduces To Active-Window Amplitude
+    Gain"
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17710
+  line_start: 17710
+  line_end: 17747
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: "\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\) Carrier
+    Obstruction"
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17761
+  line_start: 17761
+  line_end: 17799
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Euclidean Cascade Analogue With Localization And Exterior Tails
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17800
+  line_start: 17800
+  line_end: 17851
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Frame-record Production From Pack.TTU
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18825
+  line_start: 18825
+  line_end: 18863
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Frame-record Production From Pack.TTU Retry
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18864
+  line_start: 18864
+  line_end: 18898
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-carrier-and-pack-05
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

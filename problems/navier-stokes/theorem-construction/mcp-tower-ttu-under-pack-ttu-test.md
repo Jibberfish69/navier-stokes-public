@@ -100,7 +100,7 @@ READ.COVER+ATD_m^\varepsilon+DTC.Read\Longrightarrow Tower.TTU.
 \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
 ```
 
-This stabilizes deformation geometry and prevents packing detachment. It supplies bounded same-fluid distortion and makes finite-cover transport plausible once a positive-scale cover is already present.
+This stabilizes deformation geometry and prevents packing detachment. It supplies bounded same-fluid distortion and leaves finite-cover transport as the next conditional step once a positive-scale cover is already present.
 
 It does not supply the derivative tower packet
 

@@ -1,0 +1,741 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-critical-norm-and-field-14
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-14
+  sequence: 82
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 14
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 58366
+  line_end: 62533
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58366
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58553
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59036
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59597
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60965
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60990
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62504
+  subsection_titles:
+  - Persistent-Support Transport Coefficient Threshold Result
+  - Phi s Osgood Subcriticality Test Result
+  - PTC Shape Normalization Closure
+  - Readout-Preserving Normalization Obstruction
+  - Route B B1 Integrable Shadow Error Plus Continuation Coupling
+  - SG4 Lower-Envelope And Continuation Handoff
+  - Shadow-Error Gronwall Continuation Criterion
+  - Terminal-Window Finite-Mode Coefficient Measure
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Persistent-Support Transport Coefficient Threshold Result
+    line_start: 58366
+    line_end: 58380
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58366
+    start_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold
+      Result}\n"
+    end_anchor: "\\subsection{Persistent-Support Transport Export Theorem}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Persistent-Support Transport Coefficient Threshold Result}
+
+      \[
+      X_A=Ae.
+      \]
+
+      The right side c 2 2j is fixed once j and nu are fixed. Choosing A large violates the target. Thus the fixed-shell theorem cannot follow from persistent support and projection geometry alone.
+
+      \[
+      2^{2j}\ge C(c\nu)^{-1}\|X\|_{H_D^s}.
+      \]
+
+      The next theorem target is the normalization theorem, because the direct persistent-support coefficient theorem is false at fixed shell and arbitrary amplitude.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Phi s Osgood Subcriticality Test Result
+    line_start: 58553
+    line_end: 58586
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58553
+    start_anchor: "\\subsection{Phi s Osgood Subcriticality Test Result}\n"
+    end_anchor: "\\subsection{Positive Carrier To Flux-Source Carleson Result}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: "\\subsection{Phi s Osgood Subcriticality Test Result}\n\n\\[\n\\frac{d}{dt}E(t)+c_D\\Xi(t)\\le
+      C\\Phi_s(E(t)),\n\\qquad E(t)=\\mathcal E_D^{(s)}(X(t)),\n\\]\n\n\\[\n\\int_{E_0}^{\\infty}\\frac{dr}{C\\Phi_s(r)}=\\infty.\n\\]\n\nThe
+      lifted commutator and product estimates place one high derivative on one factor
+      and a Sobolev multiplier norm on the other. For s>5/2, the algebra estimate
+      gives the model bound\n\n\\[\n|\\mathcal N_s(X)|\n\\le C_{\\mathrm{sf},57037}\n\\|X\\|_{H_D^s}\\,\\Xi_D^{(s)}(X)\n+\n\\text{lower-order
+      terms}.\n\\]\n\n\\[\n|\\mathcal N_s(X)|\n\\le\n\\varepsilon\\Xi_D^{(s)}(X)+C_\\varepsilon\\|X\\|_{H_D^s}^2+\text{lower-order
+      terms}.\n\\]\n\n\\[\n\\|X\\|_{H_D^s}^2\\le C_{\\mathrm{sf},57050} E(t)+1,\n\\]\n\nThe
+      obstruction is the lifted high-derivative product coefficient. It must be converted
+      from an energy-size coefficient into an integrable or dissipative coefficient.
+      This is the higher-order analogue of the low-mode strain problem on the Euclidean
+      side.\n\n\n"
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: PTC Shape Normalization Closure
+    line_start: 59036
+    line_end: 59100
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59036
+    start_anchor: "\\subsection{PTC Shape Normalization Closure}\n"
+    end_anchor: "\\subsection{Ext Cascade s R3 Theorem Attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{PTC Shape Normalization Closure}
+
+      Role: isolate the exact PTC-Shape theorem needed to close the shape side of the D.7mn -> D.7mq reduction on the exact-potential branch.
+
+      This is the second genuinely new upstream theorem in the exact-potential closure route.
+
+      \[
+      d:=\dim N_a,
+      \qquad
+      m_{J,\varepsilon}(t,a):=\operatorname{tr}\bigl(M_{J,\varepsilon}^{shape}(t,a)\bigr).
+      \]
+
+      \[
+      \left\|
+      \frac{1}{m_{J,\varepsilon}(t,a)}\,M_{J,\varepsilon}^{shape}(t,a)
+      -
+      \frac{1}{d}\Pi_{N_a}
+      \right\|_{\mathrm{op}}
+      \le
+      \epsilon_{J,\varepsilon}^{shape}(t,a),
+      \]
+
+      \[
+      \bigl\|
+      \widetilde M_{J,\varepsilon}^{shape}(t,a)-I_{N_a}
+      \bigr\|_{\mathrm{op}}
+      \le
+      C_d\,\epsilon_{J,\varepsilon}^{shape}(t,a),
+      \]
+
+      \[
+      \widetilde M_{J,\varepsilon}^{shape}(t,a)
+      :=
+      \frac{d}{m_{J,\varepsilon}(t,a)}\,M_{J,\varepsilon}^{shape}(t,a).
+      \]
+
+      The primitive theorem statement is tensor-level. The projector comparison to the Cauchy--Green reference object is a downstream corollary of the D.7mn reduction, not the primitive shape axiom itself.
+
+      \[
+      \bigl\|
+      (\mathbf W_J^{coc})^*
+      \left(
+      \frac{1}{m_{J,\varepsilon}}M_{J,\varepsilon}^{shape}
+      -\frac1d\Pi_{N_a}
+      \right)
+      \mathbf W_J^{coc}
+      \bigr\|_{\mathrm{op}}
+      \le
+      \bigl|\mathbf W_J^{coc}\bigr|_{\mathrm{op}}^2\,
+      \epsilon_{J,\varepsilon}^{shape}.
+      \]
+
+      So tensor-level shape control becomes useful for projector comparison only on selector-good families where | W J coc | op is bounded or otherwise quantitatively controlled.
+
+      Let J, shape (a,t) be the selector-good directional measure on the unit sphere S(N a). Then
+
+      for caps C in a fixed aperture range implies the degree-2 control above, but is not the minimal exact criterion.
+
+      Then the selector-good support admits a finite balanced frame, hence the constructive finite-frame branch supplies an exact replacement for the asymptotic shape packet on that family.
+
+      then the shape side of the D.7mn -> D.7mq reduction is quantitatively discharged.
+
+      and does not claim that the stronger constructive balanced-frame descendants are already forced
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Readout-Preserving Normalization Obstruction
+    line_start: 59210
+    line_end: 59229
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+    start_anchor: "\\subsection{Readout-Preserving Normalization Obstruction}\n"
+    end_anchor: "\\subsection{Referee-Hard Upgraded Body 4 Packet Subsection}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Readout-Preserving Normalization Obstruction}
+
+      Let Z=Ae, where e is a fixed coherent selected mode. If N j preserves readout exactly on the selected coherent range, then
+
+      On a faithful readout surface this forces the readout amplitude to remain order A. Hence the classical coefficient still scales like
+
+      For fixed j, choosing A large violates the viscous-scale bound. Thus exact readout preservation cannot coexist with amplitude normalization at fixed shell.
+
+      \[
+      \mathcal N_j(Ae)=\lambda(A,j)Ae,
+      qquad \lambda(A,j)A\le C_{\mathrm{sf},57687} \nu2^{2j},
+      \]
+
+      For large A, this defect has order A, so it is not lower order relative to the original selected coherent contribution.
+
+      A readout-preserving normalization cannot be the missing theorem unless the route first proves an amplitude bound placing the selected coherent block already inside the active viscous scale.
+
+      The existing weighted-carrier surface absorbs same-scale coefficient terms into N E N, but it does not produce a coefficient-free all-shell normalization.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Route B B1 Integrable Shadow Error Plus Continuation Coupling
+    line_start: 59597
+    line_end: 59637
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59597
+    start_anchor: "\\subsection{Route B B1 Integrable Shadow Error Plus Continuation
+      Coupling}\n"
+    end_anchor: "\\subsection{Route B Euclidean Closure Packet}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Route B B1 Integrable Shadow Error Plus Continuation Coupling}
+
+      The weaker Euclidean Route B burden (B1) is separated from the Clay discharge ladder.
+
+      \[
+      \partial_t u+\mathbb P_{\mathrm{Leray}}\big((u\cdot\nabla)u\big)
+      =
+      \nu\Delta u+E_{\mathrm{sh}}(X),
+      \qquad
+      \nabla\cdot u=0
+      \]
+
+      The first integral is the shadow-error input. The second is the classical continuation coupling.
+
+      \[
+      \sup_{0\le t<T}\|u(t)\|_{H^{s-1}}<\infty.
+      \]
+
+      Consequently, the classical shadow does not blow up on [0,T), and the route reduces to whatever standard continuation theorem is being used on the classical side.
+
+      The two finiteness assumptions in (B1.3) make the right-hand side finite on every t<T, proving (B1.4). so no classical H s-1 blowup occurs on the window, and continuation reduces to the chosen classical continuation package. .
+
+      \[
+      \text{(B1a) prove }E_{\mathrm{sh}}(X)\in L_t^1H_x^{s-1}\text{ on the window,}
+      \]
+
+      This is the precise meaning of "integrable shadow error plus classical continuation coupling."
+
+      \[
+      \frac{d}{dt}\|\nabla u\|_{L^2}^2
+      +
+      \nu\|\Delta u\|_{L^2}^2
+      \le
+      C_\nu\|\nabla u\|_{L^2}^6
+      +
+      C_\nu\|E_{\mathrm{sh}}\|_{H^1}^2.
+      \]
+
+      So (B1) is not vague robustness language. It is the exact forcing-plus- continuation theorem needed to make Route B a real closure path.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: SG4 Lower-Envelope And Continuation Handoff
+    line_start: 60965
+    line_end: 60989
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60965
+    start_anchor: "\\subsection{SG4 Lower-Envelope And Continuation Handoff}\n"
+    end_anchor: "\\subsection{Shadow-Error Gronwall Continuation Criterion}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{SG4 Lower-Envelope And Continuation Handoff}
+
+      \[
+      \mathcal E_J^{dir}+\mathcal E_J^{loop}
+      \le C_{\mathrm{sf},59433}
+      \mathcal E_J^{obs}+\mathrm{Err}_J,
+      \]
+
+      \[
+      [\lambda_J-\mathfrak s_J]_+
+      \le C_{\mathrm{sf},59439}
+      \mathcal E_J^{obs}+\mathrm{Err}_J.
+      \]
+
+      The unresolved burden at this final handoff is the lower-envelope continuation estimate. Projector recovery and selector-strain compatibility sit strictly upstream, so the handoff begins only after the directional record and residual pairwise closure have already been packaged.
+
+      \[
+      [\lambda_J-\mathfrak s_J]_+
+      \le C_{\mathrm{sf},59447}
+      \mathcal E_J^{obs}+\mathrm{Err}_J,
+      \]
+
+      No upstream projector theorem is proved here. This is the downstream handoff used after the projector branch has already produced the directional record.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Shadow-Error Gronwall Continuation Criterion
+    line_start: 60990
+    line_end: 61034
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60990
+    start_anchor: "\\subsection{Shadow-Error Gronwall Continuation Criterion}\n"
+    end_anchor: "\\subsection{Shadow-Error H s Energy Bridge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Shadow-Error Gronwall Continuation Criterion}
+
+      Instead of a quartic energy inequality, it uses the standard transport commutator estimate to put the shadow remainder into a direct Gronwall form.
+
+      \[
+      \partial_t u+\mathbb P_{\mathrm{Leray}}((u\cdot\nabla)u)
+      =
+      \nu\Delta u+F,
+      \qquad
+      \nabla\cdot u=0.
+      \]
+
+      \[
+      \sigma:=s-1>\frac32.
+      \]
+
+      \[
+      \big|
+      \langle \Lambda^\sigma((u\cdot\nabla)u),\Lambda^\sigma u\rangle
+      \big|
+      \le
+      C_\sigma \|\nabla u\|_{L^\infty}\|u\|_{H^\sigma}^2.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|u\|_{H^\sigma}^2
+      +
+      \nu\|\nabla u\|_{H^\sigma}^2
+      \le
+      C_\sigma \|\nabla u\|_{L^\infty}\|u\|_{H^\sigma}^2
+      +
+      \|F\|_{H^\sigma}\|u\|_{H^\sigma}.
+      \]
+
+      \[
+      Y(t):=\|u(t)\|_{H^\sigma}.
+      \]
+
+      By continuity, the same inequality holds in upper Dini derivative form at times when Y(t)=0.
+
+      This is the cleanest classical continuation bridge for the weaker projection route.
+
+      It proves only that once those two quantities are controlled, the classical Sobolev norm stays finite by the exact Gronwall bound (10).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal-Window Finite-Mode Coefficient Measure
+    line_start: 62504
+    line_end: 62533
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62504
+    start_anchor: "\\subsection{Terminal-Window Finite-Mode Coefficient Measure}\n"
+    end_anchor: "\\subsection{Three-Gap Honest Attack Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Terminal-Window Finite-Mode Coefficient Measure}
+
+      \[
+      d\nu_N^{low}(t)=\big(\Lambda_N^{lin}(t)+\Lambda_N^{low-low}(t)\big)dt.
+      \]
+
+      \[
+      \Lambda_N^{lin}(t)+\Lambda_N^{low-low}(t)
+      \le B_N(C_E,T),
+      \]
+
+      \[
+      \nu_N^{low}([a,b])\le B_N(C_E,T)(b-a).
+      \]
+
+      \[
+      \nu_N^{low}(I)\le \kappa.
+      \]
+
+      \[
+      dE_N(t)+(1-\eta)\nu D_N(t)dt
+      \le
+      C E_N(t)d\nu_N^{low}(t)+R_N(t)dt,
+      \]
+
+      This is the needed finite-mode coefficient theorem for the low-mode Duhamel product route on shrinking terminal windows.
+
+      The theorem is terminal-window local. A global interval statement would require a partition into finitely many windows with controlled entrance tails or a uniform-in-time coefficient theorem.
+
+
+    truncated: false
+  context_excerpt: "\\subsection{Persistent-Support Transport Coefficient Threshold
+    Result}\n\n\\[\nX_A=Ae.\n\\]\n\nThe right side c 2 2j is fixed once j and nu are
+    fixed. Choosing A large violates the target. Thus the fixed-shell theorem cannot
+    follow from persistent support and projection geometry alone.\n\n\\[\n2^{2j}\\ge
+    C(c\\nu)^{-1}\\|X\\|_{H_D^s}.\n\\]\n\nThe next theorem target is the normalization
+    theorem, because the direct persistent-support coefficient theorem is false at
+    fixed shell and arbitrary amplitude.\n\n\n\n\\subsection{Phi s Osgood Subcriticality
+    Test Result}\n\n\\[\n\\frac{d}{dt}E(t)+c_D\\Xi(t)\\le C\\Phi_s(E(t)),\n\\qquad
+    E(t)=\\mathcal E_D^{(s)}(X(t)),\n\\]\n\n\\[\n\\int_{E_0}^{\\infty}\\frac{dr}{C\\Phi_s(r)}=\\infty.\n\\]\n\nThe
+    lifted commutator and product estimates place one high derivative on one factor
+    and a Sobolev multiplier norm on the other. For s>5/2, the algebra estimate gives
+    the model bound\n\n\\[\n|\\mathcal N_s(X)|\n\\le C_{\\mathrm{sf},57037}\n\\|X\\|_{H_D^s}\\,\\Xi_D^{(s)}(X)\n+\n\\text{lower-order
+    terms}.\n\\]\n\n\\[\n|\\mathcal N_s(X)|\n\\le\n\\varepsilon\\Xi_D^{(s)}(X)+C_\\varepsilon\\|X\\|_{H_D^s}^2+\text{lower-order
+    terms}.\n\\]\n\n\\[\n\\|X\\|_{H_D^s}^2\\le C_{\\mathrm{sf},57050} E(t)+1,\n\\]\n\nThe
+    obstruction is the lifted high-derivative product coefficient. It must be converted
+    from an energy-size coefficient into an integrable or dissipative coefficient.
+    This is the higher-order analogue of the low-mode strain problem on the Euclidean
+    side.\n\n\n\n\\subsection{PTC Shape Normalization Closure}\n\nRole: isolate the
+    exact PTC-Shape theorem needed to close the shape side of the D.7mn -> D.7mq reduction
+    on the exact-potential branch.\n\nThis is the second genuinely new upstream theorem
+    in the exact-potential closure route.\n\n\\[\nd:=\\dim N_a,\n\\qquad\nm_{J,\\varepsilon}(t,a):=\\operatorname{tr}\\bigl(M_{J,\\varepsilon}^{shape}(t,a)\\bigr).\n\\]\n\n\\[\n\\left\\|\n\\frac{1}{m_{J,\\varepsilon}(t,a)}\\,M_{J,\\varepsilon}^{shape}(t,a)\n-\n\\frac{1}{d}\\Pi_{N_a}\n\\right\\|_{\\mathrm{op}}\n\\le\n\\epsilon_{J,\\varepsilon}^{shape}(t,a),\n\\]\n\n\\[\n\\bigl\\|\n\\widetilde
+    M_{J,\\varepsilon}^{shape}(t,a)-I_{N_a}\n\\bigr\\|_{\\mathrm{op}}\n\\le\nC_d\\,\\epsilon_{J,\\varepsilon}^{shape}(t,a),\n\\]\n\n\\[\n\\widetilde
+    M_{J,\\varepsilon}^{shape}(t,a)\n:=\n\\frac{d}{m_{J,\\varepsilon}(t,a)}\\,M_{J,\\varepsilon}^{shape}(t,a).\n\\]\n\nThe
+    primitive theorem statement is tensor-level. The projector comparison to the Cauchy--Green
+    reference object is a downstream corollary of the D.7mn reduction, not the primitive
+    shape axiom itself.\n\n\\[\n\\bigl\\|\n(\\mathbf W_J^{coc})^*\n\\left(\n\\frac{1}{m_{J,\\varepsilon}}M_{J,\\varepsilon}^{shape}\n-\\frac1d\\Pi_{N_a}\n\\right)\n\\mathbf
+    W_J^{coc}\n\\bigr\\|_{\\mathrm{op}}\n\\le\n\\bigl|\\mathbf W_J^{coc}\\bigr|_{\\mathrm{op}}^2\\,\n\\epsilon_{J,\\varepsilon}^{shape}.\n\\]\n\nSo
+    tensor-level shape control becomes useful for projector comparison only on selector-good
+    families where | W J coc | op is bounded or otherwise quantitatively controlled.\n\nLet
+    J, shape (a,t) be the selector-good directional measure on the unit sphere S(N
+    a). Then\n\nfor caps C in a fixed aperture range implies the degree-2 control
+    above, but is not the minimal exact criterion.\n\nThen the selector-good support
+    admits a finite balanced frame, hence the constructive finite-frame branch supplies
+    an exact replacement for the asymptotic shape packet on that family.\n\nthen the
+    shape side of the D.7mn -> D.7mq reduction is quantitatively discharged.\n\nand
+    does not claim that the stronger constructive balanced-frame descendants are already
+    forced by that transport packet alone.\n\n\n\n\\subsection{Readout-Preserving
+    Normalization Obstruction}\n\nLet Z=Ae, where e is a fixed coherent selected mode.
+    If N j preserves readout exactly on the selected coherent range, then\n\nOn a
+    faithful readout surface this forces the readout amplitude to remain order A.
+    Hence the classical coefficient still scales like\n\nFor fixed j, choosing A large
+    violates the viscous-scale bound. Thus exact readout preservation cannot coexist
+    with amplitude normalization at fixed shell.\n\n\\[\n\\mathcal N_j(Ae)=\\lambda(A,j)Ae,\nqquad
+    \\lambda(A,j)A\\le C_{\\mathrm{sf},57687} \\nu2^{2j},\n\\]\n\nFor large A, this
+    defect has order A, so it is not lower order relative to the original selected
+    coherent contribution.\n\nA readout-preserving normalization cannot be the missing
+    theorem unless the route first proves an amplitude bound placing the selected
+    coherent block already inside the active viscous scale.\n\nThe existing weighted-carrier
+    surface absorbs same-scale coefficient terms into N E N, but it does not produce
+    a coefficient-free all-shell normalization.\n\n\n\n\\subsection{Route B B1 Integrable
+    Shadow Error Plus Continuation Coupling}\n\nThe weaker Euclidean Route B burden
+    (B1) is separated from the Clay discharge ladder.\n\n\\[\n\\partial_t u+\\mathbb
+    P_{\\mathrm{Leray}}\\big((u\\cdot\\nabla)u\\big)\n=\n\\nu\\Delta u+E_{\\mathrm{sh}}(X),\n\\qquad\n\\nabla\\cdot
+    u=0\n\\]\n\nThe first integral is the shadow-error input. The second is the classical
+    continuation coupling.\n\n\\[\n\\sup_{0\\le t<T}\\|u(t)\\|_{H^{s-1}}<\\infty.\n\\]\n\nConsequently,
+    the classical shadow does not blow up on [0,T), and the route reduces to whatever
+    standard continuation theorem is being used on the classical side.\n\nThe two
+    finiteness assumptions in (B1.3) make the right-hand side finite on every t<T,
+    proving (B1.4). so no classical H s-1 blowup occurs on the window, and continuation
+    reduces to the chosen classical continuation package. .\n\n\\[\n\\text{(B1a) prove
+    }E_{\\mathrm{sh}}(X)\\in L_t^1H_x^{s-1}\\text{ on the window,}\n\\]\n\nThis is
+    the precise meaning of \"integrable shadow error plus classical continuation coupling.\"\n\n\\[\n\\frac{d}{dt}\\|\\nabla
+    u\\|_{L^2}^2\n+\n\\nu\\|\\Delta u\\|_{L^2}^2\n\\le\nC_\\nu\\|\\nabla u\\|_{L^2}^6\n+\nC_\\nu\\|E_{\\mathrm{sh}}\\|_{H^1}^2.\n\\]\n\nSo
+    (B1) is not vague robustness language. It is the exact forcing-plus- continuation
+    theorem needed to make Route B a real closure path.\n\n\n\n\\subsection{SG4 Lower-Envelope
+    And Continuation Handoff}\n\n\\[\n\\mathcal E_J^{dir}+\\mathcal E_J^{loop}\n\\le
+    C_{\\mathrm{sf},59433}\n\\mathcal E_J^{obs}+\\mathrm{Err}_J,\n\\]\n\n\\[\n[\\lambda_J-\\mathfrak
+    s_J]_+\n\\le C_{\\mathrm{sf},59439}\n\\mathcal E_J^{obs}+\\mathrm{Err}_J.\n\\]\n\nThe
+    unresolved burden at this final handoff is the lower-envelope continuation estimate.
+    Projector recovery and selector-strain compatibility sit strictly upstream, so
+    the handoff begins only after the directional record and residual pairwise closure
+    have already been packaged.\n\n\\[\n[\\lambda_J-\\mathfrak s_J]_+\n\\le C_{\\mathrm{sf},59447}\n\\mathcal
+    E_J^{obs}+\\mathrm{Err}_J,\n\\]\n\nNo upstream projector theorem is proved here.
+    This is the downstream handoff used after the projector branch has already produced
+    the directional record.\n\n\n\n\\subsection{Shadow-Error Gronwall Continuation
+    Criterion}\n\nInstead of a quartic energy inequality, it uses the standard transport
+    commutator estimate to put the shadow remainder into a direct Gronwall form.\n\n\\[\n\\partial_t
+    u+\\mathbb P_{\\mathrm{Leray}}((u\\cdot\\nabla)u)\n=\n\\nu\\Delta u+F,\n\\qquad\n\\nabla\\cdot
+    u=0.\n\\]\n\n\\[\n\\sigma:=s-1>\\frac32.\n\\]\n\n\\[\n\\big|\n\\langle \\Lambda^\\sigma((u\\cdot\\nabla)u),\\Lambda^\\sigma
+    u\\rangle\n\\big|\n\\le\nC_\\sigma \\|\\nabla u\\|_{L^\\infty}\\|u\\|_{H^\\sigma}^2.\n\\]\n\n\\[\n\\frac12\\frac{d}{dt}\\|u\\|_{H^\\sigma}^2\n+\n\\nu\\|\\nabla
+    u\\|_{H^\\sigma}^2\n\\le\nC_\\sigma \\|\\nabla u\\|_{L^\\infty}\\|u\\|_{H^\\sigma}^2\n+\n\\|F\\|_{H^\\sigma}\\|u\\|_{H^\\sigma}.\n\\]\n\n\\[\nY(t):=\\|u(t)\\|_{H^\\sigma}.\n\\]\n\nBy
+    continuity, the same inequality holds in upper Dini derivative form at times when
+    Y(t)=0.\n\nThis is the cleanest classical continuation bridge for the weaker projection
+    route.\n\nIt proves only that once those two quantities are controlled, the classical
+    Sobolev norm stays finite by the exact Gronwall bound (10).\n\n\n\n\\subsection{Terminal-Window
+    Finite-Mode Coefficient Measure}\n\n\\[\nd\\nu_N^{low}(t)=\\big(\\Lambda_N^{lin}(t)+\\Lambda_N^{low-low}(t)\\big)dt.\n\\]\n\n\\[\n\\Lambda_N^{lin}(t)+\\Lambda_N^{low-low}(t)\n\\le
+    B_N(C_E,T),\n\\]\n\n\\[\n\\nu_N^{low}([a,b])\\le B_N(C_E,T)(b-a).\n\\]\n\n\\[\n\\nu_N^{low}(I)\\le
+    \\kappa.\n\\]\n\n\\[\ndE_N(t)+(1-\\eta)\\nu D_N(t)dt\n\\le\nC E_N(t)d\\nu_N^{low}(t)+R_N(t)dt,\n\\]\n\nThis
+    is the needed finite-mode coefficient theorem for the low-mode Duhamel product
+    route on shrinking terminal windows.\n\nThe theorem is terminal-window local.
+    A global interval statement would require a partition into finitely many windows
+    with controlled entrance tails or a uniform-in-time coefficient theorem.\n\n\n"
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Persistent-Support Transport Coefficient Threshold Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58366
+  line_start: 58366
+  line_end: 58380
+  start_anchor: "\\subsection{Persistent-Support Transport Coefficient Threshold Result}\n"
+  end_anchor: "\\subsection{Persistent-Support Transport Export Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Persistent-Support Transport
+    Coefficient Threshold Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58366
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Phi s Osgood Subcriticality Test Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58553
+  line_start: 58553
+  line_end: 58586
+  start_anchor: "\\subsection{Phi s Osgood Subcriticality Test Result}\n"
+  end_anchor: "\\subsection{Positive Carrier To Flux-Source Carleson Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Phi s Osgood Subcriticality Test
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:58553
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: PTC Shape Normalization Closure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59036
+  line_start: 59036
+  line_end: 59100
+  start_anchor: "\\subsection{PTC Shape Normalization Closure}\n"
+  end_anchor: "\\subsection{Ext Cascade s R3 Theorem Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite PTC Shape Normalization Closure
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59036
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Readout-Preserving Normalization Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  line_start: 59210
+  line_end: 59229
+  start_anchor: "\\subsection{Readout-Preserving Normalization Obstruction}\n"
+  end_anchor: "\\subsection{Referee-Hard Upgraded Body 4 Packet Subsection}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Readout-Preserving Normalization
+    Obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59210
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Route B B1 Integrable Shadow Error Plus Continuation Coupling
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59597
+  line_start: 59597
+  line_end: 59637
+  start_anchor: "\\subsection{Route B B1 Integrable Shadow Error Plus Continuation
+    Coupling}\n"
+  end_anchor: "\\subsection{Route B Euclidean Closure Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Route B B1 Integrable Shadow
+    Error Plus Continuation Coupling as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:59597
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: SG4 Lower-Envelope And Continuation Handoff
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60965
+  line_start: 60965
+  line_end: 60989
+  start_anchor: "\\subsection{SG4 Lower-Envelope And Continuation Handoff}\n"
+  end_anchor: "\\subsection{Shadow-Error Gronwall Continuation Criterion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite SG4 Lower-Envelope And Continuation
+    Handoff as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60965
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Shadow-Error Gronwall Continuation Criterion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60990
+  line_start: 60990
+  line_end: 61034
+  start_anchor: "\\subsection{Shadow-Error Gronwall Continuation Criterion}\n"
+  end_anchor: "\\subsection{Shadow-Error H s Energy Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Shadow-Error Gronwall Continuation
+    Criterion as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60990
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal-Window Finite-Mode Coefficient Measure
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62504
+  line_start: 62504
+  line_end: 62533
+  start_anchor: "\\subsection{Terminal-Window Finite-Mode Coefficient Measure}\n"
+  end_anchor: "\\subsection{Three-Gap Honest Attack Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal-Window Finite-Mode Coefficient
+    Measure as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62504
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-14
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-critical-norm-and-field-14.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

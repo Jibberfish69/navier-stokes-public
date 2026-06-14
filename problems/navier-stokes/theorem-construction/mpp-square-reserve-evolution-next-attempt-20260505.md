@@ -68,7 +68,7 @@ Here:
 \mathcal R_N(W)
 :=
 \int_W\sum_{P^-}|A_{P^-}(t)|^2dt
-\simeq
+=
 \int_W
 \sum_{k>N}2^k
 \left(
@@ -146,7 +146,7 @@ Thus the attempted lift would require an additional theorem:
 DonorReserveAdjointTrace.A:
 \quad
 \sum_{P^-\subset W}|A_{P^-}|^2
-\lesssim
+\le C_{\mathrm{DRAT}}
 \sum_{T\subset W}M(T)+Loss_{legal}+o_N(1),
 ```
 
@@ -288,9 +288,9 @@ For `(SRE)`, this is exactly the bad configuration:
 ```math
 Past(W_m)=0,
 \qquad
-Charge_N(W_m)\sim A_m\to0,
+Charge_N(W_m):= A_m\to0,
 \qquad
-\mathcal R_N(W_m)\sim1.
+\mathcal R_N(W_m):=1.
 ```
 
 Thus an additional theorem must forbid or charge such terminal heat-window
@@ -298,16 +298,26 @@ creation.
 
 ## Strongest Valid Reduction
 
-The Hardy expansion gives the exact scalar shape of the reserve:
+The Hardy expansion gives the exact fixed-shift scalar comparison for an
+integer `L_0` determined by dyadic overlap:
 
 ```math
+c_H
+\sum_{\ell>N+L_0}
+D_\ell(t)
+\left[
+2^\ell
+\sum_{m>\ell+L_0}D_m(t)
+\right]
+\le
 \sum_{k>N}2^kT_k(t)^2
-\simeq
+\le
+C_H
 \sum_{\ell>N}
 D_\ell(t)
 \left[
 2^\ell
-\sum_{m>\ell+O(1)}D_m(t)
+\sum_{m>\ell+L_0}D_m(t)
 \right].
 \tag{H}
 ```
@@ -322,7 +332,7 @@ ActiveWindowHeight.A:
 \sup_{t\in W}
 \sup_{\ell>N}
 2^\ell
-\sum_{m>\ell+O(1)}D_m(t)
+\sum_{m>\ell+L_0}D_m(t)
 \le
 C_{legal}
 }
@@ -334,7 +344,7 @@ installed first-moment tail give:
 
 ```math
 \mathcal R_N(W)
-\lesssim
+\le C_H
 C_{legal}\int_W\sum_{\ell>N}D_\ell(t)dt
 +
 Loss_{legal}(W)

@@ -1,0 +1,78 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: gold-obstruction
+batch_id: gold-obstruction-author-pack-20260614T045951Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Gold Standard Approach (Explained) + Live Example
+  spine_id: gold-standard-approach-explained-live-example
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:143
+  author_replacement_required: false
+  replacement: ''
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:143
+  - problems/navier-stokes/submission-bundle/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  endpoint_status: support for a named later proof step
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: "The section must not pretend the direct estimate route closes the problem; it now states that gold tries to continue the original solution and that a failed forward estimate has value only after it leaves an exact obstruction."
+    reader_thread_attack: "A reader needed the energy and enstrophy calculations to say why this route is natural before the obstruction is named; the section now starts from kinetic energy, climbs to enstrophy, and points to the source term that creates the later burden."
+    unpaid_derivation_attack: "The displayed energy and enstrophy identities pay the local derivation needed in this section.  The higher-rung commutator payment is carried in the following Reaching Obstruction section."
+    repair_decision: passes after repair
+    unresolved_failures: []
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Reaching Obstruction
+  spine_id: reaching-obstruction
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:192
+  author_replacement_required: false
+  replacement: ''
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:192
+  - problems/navier-stokes/submission-bundle/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  endpoint_status: gold obstruction
+  reader_payments:
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: "The section must keep gold as the stronger forward-positive route while admitting that the annular residual refill supplier remains unproved.  The source now writes that obstruction explicitly and does not certify gold closure."
+    reader_thread_attack: "The section now lets the reader follow the climb from enstrophy to higher derivatives, then from terminal scaling to the residual annular refill example, before it names the CM handoff."
+    unpaid_derivation_attack: "The prior commutator jump has been paid on the page by differentiating with D^alpha, cancelling the top-order transport term, displaying the commutator, and writing the product estimate that leads to the higher-derivative inequality."
+    repair_decision: passes after repair
+    unresolved_failures: []
+author_contract:
+  arc_id: gold-obstruction
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction, or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - gold
+  - "(annular|obstruction|refill)"
+  - "(open|missing|unproved|CM|contrapositive)"
+  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof payment, endpoint status, or a sourced exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section build

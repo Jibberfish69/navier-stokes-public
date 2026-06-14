@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note replaces the too-naive shellwise schematic for one model same-scale
+This note replaces the too-naive shellwise proxy for one model same-scale
 packet by the honest scalarized packet coming from the signed continuous-scale
 route, then computes its exact trilinear Fourier symbol and tests the hoped-for
 same-scale principal cancellation.
@@ -19,7 +19,9 @@ flux/time rewrite, not from a bare diagonal antisymmetry claim.
 
 ## Honest scalarized packet
 
-Work at one frozen active scale `\ell\sim \ell_N` and let
+Work at one frozen active scale with fixed collar constants
+`0<c_\ell\le C_\ell<\infty` satisfying
+`c_\ell\ell_N\le \ell\le C_\ell\ell_N`, and let
 
 ```math
 P_{\le \ell}:=\varphi(\ell D)
@@ -56,7 +58,8 @@ Q_{\ell,a}^{edge}u
 ```
 
 The finite-family packets `\Pi_{N,a}^{edge}` are frozen bounded-width
-aggregates of `(2)` on the collar `\ell\sim \ell_N`.
+aggregates of `(2)` on the collar
+`c_\ell\ell_N\le \ell\le C_\ell\ell_N`.
 
 This is the scalarized packet actually produced by:
 

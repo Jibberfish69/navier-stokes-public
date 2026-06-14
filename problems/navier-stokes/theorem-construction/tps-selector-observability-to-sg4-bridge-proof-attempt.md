@@ -62,7 +62,8 @@ the energy closure
 ```math
 \|W_J(t)\|_{L^2_{x,y}}^2
 +\nu\int_{t_0}^t\|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
-\lesssim
+\le
+C_A
 \|W_J(t_0)\|_{L^2_{x,y}}^2
 +\int_{t_0}^t
 \|r_J(s)\|_{L^\infty_x}^2
@@ -303,7 +304,8 @@ Assume the hypotheses of Theorem B. Then `(A.2)` gives
 ```math
 \sup_{t\in I}\|W_J(t)\|_{L^2_{x,y}}^2
 +\nu\int_I\|\nabla_{x,y}W_J(t)\|_{L^2_{x,y}}^2\,dt
-\lesssim
+\le
+C_C
 \|W_J(t_0)\|_{L^2_{x,y}}^2
 +\int_I
 \|r_J(t)\|_{L^\infty_x}^2
@@ -315,7 +317,8 @@ Therefore the one-sided defect budget `(B.6)` is controlled by
 
 ```math
 \mathfrak F_J^{def}(I)
-\lesssim
+\le
+C_F
 C_{\mathrm{cal}}^2C_{\mathrm{obs}}
 \Big(
 \|W_J(t_0)\|_{L^2_{x,y}}^2
@@ -359,7 +362,8 @@ is conditional on one new ingredient:
 ```math
 \boxed{
 \mathfrak d_J^-(a,b,t)
-\lesssim
+\le
+C_D
 \text{selector observation built from }W_J
 +\text{controlled calibration error}.
 }
@@ -417,7 +421,8 @@ So the exact new theorem-search burden is:
 ```math
 \boxed{
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le
+C_{\mathrm{res}}
 \mathcal E_J^{obs}(I)
 }
 \tag{D.6}
@@ -438,7 +443,7 @@ loop term drops out, so the residual theorem collapses further to the
 directional estimate
 
 ```math
-\mathcal E_J^{dir}(I)\lesssim \mathcal E_J^{obs}(I).
+\mathcal E_J^{dir}(I)\le C_{\mathrm{dir}}\mathcal E_J^{obs}(I).
 \tag{D.7}
 ```
 
@@ -5050,18 +5055,18 @@ If, in addition, the regular windows satisfy the heuristic quantitative
 envelopes
 
 ```math
-|I_k|\lesssim r_k^2 e^{-CK_k},
+|I_k|\le C_I r_k^2 e^{-CK_k},
 \qquad
-M_k^{rot}\lesssim r_k^{-1}e^{CK_k},
+M_k^{rot}\le C_M r_k^{-1}e^{CK_k},
 \qquad
-N_k\lesssim r_k^{-3}e^{CK_k},
+N_k\le C_N r_k^{-3}e^{CK_k},
 \tag{F.11h6}
 ```
 
 and the retained family obeys the packing bound
 
 ```math
-\mu_J^{pair}(\mathcal J_k)\lesssim r_k^5,
+\mu_J^{pair}(\mathcal J_k)\le C_\mu r_k^5,
 \tag{F.11h7}
 ```
 
@@ -5069,14 +5074,16 @@ then for the selector choice `\gamma_k=e^{2CK_k}r_k^\alpha` one gets
 
 ```math
 \gamma_k^{-1}(M_k^{rot})^2|I_k|\,\mu_J^{pair}(\mathcal J_k)
-\lesssim
+\le
+C_h
 e^{-CK_k}r_k^{5-\alpha},
 \tag{F.11h8}
 ```
 
 ```math
 \gamma_k^{-3}N_k^2|I_k|\,\mu_J^{pair}(\mathcal J_k)
-\lesssim
+\le
+C_h'
 e^{-5CK_k}r_k^{1-3\alpha}.
 \tag{F.11h9}
 ```
@@ -5140,8 +5147,8 @@ C\,\mathcal E_J^{obs}(I)
 
 In particular:
 
-1. if `\eta_J^{sh}(I)=o_J(1)` while the quartic budget in `(F.11i2)` stays
-   `O(1)`, then
+1. if `\eta_J^{sh}(I)=o_J(1)` while the quartic budget in `(F.11i2)` is bounded
+   by a fixed constant `C_4`, then
 
 ```math
 \mathcal E_J^{dir,\perp}(I)=o_J(1),
@@ -5188,7 +5195,8 @@ Now insert the weighted quartic closure `(CN.13)`:
 
 ```math
 \int f^4
-\lesssim
+\le
+C_4
 \mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I),
 \tag{F.11i7}
 ```
@@ -5319,7 +5327,8 @@ The point is route-exact: `(PD.51b)`-`(PD.51c)` by themselves only give
 
 ```math
 \int_I \|W_J(t)\|_{L^2_{x,y}}^2\,dt
-\lesssim
+\le
+C_W
 \mathcal E_J^{obs}(I),
 \tag{F.11k5}
 ```
@@ -5451,7 +5460,8 @@ Then the same-ledger transfer estimate `(F.11k1)` follows:
 
 ```math
 \Sigma_J^\perp(I)
-\lesssim
+\le
+C_\Sigma
 \int_I |W_J|^2\,d\mu
 +
 o_J(1).
@@ -5473,7 +5483,8 @@ By `(F.11m1)` and `(F.11m2)`,
 2|a_J|^2|\mathcal N_J(W_J)|^2
 +
 2|r_J|^2
-\lesssim
+\le
+C_N
 |W_J|^2+|r_J|^2.
 ```
 

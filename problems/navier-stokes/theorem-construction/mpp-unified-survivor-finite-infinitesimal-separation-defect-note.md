@@ -213,7 +213,7 @@ Packing reads `\mathfrak D_{h/F}` as failure of the finite separation to remain
 coherent with the infinitesimal deformation model:
 
 ```math
-h(a,r,t)\sim F(a,t)r.
+c_F|F(a,t)||r|\le |h(a,r,t)|\le C_F|F(a,t)||r|.
 \tag{USS.13}
 ```
 

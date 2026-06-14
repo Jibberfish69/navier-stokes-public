@@ -37,7 +37,7 @@ Thus a violating sequence supplies same-fluid heat-scale cylinders
 ```math
 P_n=(Q_{r_n}(x_n,t_n),j_n),
 \qquad
-r_n\simeq 2^{-j_n},
+c_r2^{-j_n}\le r_n\le C_r2^{-j_n},
 \qquad
 j_n\to\infty,
 \tag{PA.2}
@@ -133,7 +133,7 @@ MSC.BadAC.
 
 ## Attempt To Prove `PulseAncestry.A` From Installed Inputs
 
-The local energy identity gives only the schematic balance
+The local energy identity gives only the balance
 
 ```math
 \partial_t E_P+\nu D_P

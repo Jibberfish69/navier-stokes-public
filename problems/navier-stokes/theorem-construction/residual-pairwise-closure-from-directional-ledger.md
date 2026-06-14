@@ -14,10 +14,10 @@ Discharge the pairwise-closure step:
 
 ```math
 \boxed{
-\Xi_J\lesssim |W_J|^2+\mathrm{Err}_J
+\Xi_J\le C_\Xi |W_J|^2+\mathrm{Err}_J
 \Longrightarrow
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{\mathrm{RPC0}}
 \mathcal E_J^{obs}+\mathrm{Err}_J.
 }
 \tag{RPC.0}
@@ -39,7 +39,7 @@ On the exact-potential branch,
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{\mathrm{RPC1}}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
 \tag{RPC.1}
 ```
@@ -48,7 +48,7 @@ On the normal-covector branch,
 
 ```math
 \mathcal E_J^{dir,\perp}+\mathcal E_J^{loop}
-\lesssim
+\le C_{\mathrm{RPC2}}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\perp}.
 \tag{RPC.2}
 ```
@@ -75,7 +75,7 @@ exact-potential route it is the formal integration step:
 D.7mr2
 \Longrightarrow
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{\mathrm{RPC3}}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
 \tag{RPC.3}
 ```

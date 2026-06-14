@@ -81,19 +81,19 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "full-mpp-closure-ready"
-CURRENT_LOWEST_SAFE_CLAIM = "Release the Navier-Stokes CM contrapositive proof package as a full-MPP closure candidate certified by Exit(Q):=not Member(Q) through Pack/Part/Field witness faces and the finite-obstruction inventory."
+CURRENT_PACKAGE_STATUS = "branch-paid-annular-silver-gold-new-production-open"
+CURRENT_LOWEST_SAFE_CLAIM = "The specific pulling-teeth annular residual case is exhausted in proof-program order, while the stronger terminal time-face anti-atom / BASAC new-production theorem remains open. No full-MPP submission claim is licensed until that gold-side child is proved or replaced by a noncircular finite-breakdown exclusion."
 CURRENT_ROUTE_SUMMARY = [
-  "The active CM route is the pass-or-exit proof engine: follow the ordinary positive proof program until a real obstruction is reached, read the pass branch as the in-class Member(Q) continuation branch, and read the fail branch as Exit(Q):=not Member(Q) only after CM-test entry plus a concrete Pack/Part/Field face failure.",
-  "ClayTerminalWitnessCMEntry.A, ClayFiniteFailureTypeCMExhaustion.A, and ClayCMContrapositiveEmbedding.A are the governing theorem family.",
-  "Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics until they pass the same CM-necessity test."
+  "The active frontier is the gold terminal time-face/new-production child after the specific annular residual case has been accounted.",
+  "The silver CM route remains the pass-or-exit proof engine: after a surviving residual object is admitted as a same-solution CM witness, retained Member(Q) readout is the pass branch and a finite nonsmooth admitted branch must land in Pack, Part, or Field.",
+  "Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics unless they prove the terminal anti-atom/new-production child or pass the same CM admission and face-landing test."
 ].join(" ").freeze
 CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
-  "disposition" => "submission-candidate",
-  "next_cell_type" => "submission",
-  "next_stage" => "full-mpp-closure-submission-candidate",
-  "next_action" => "Keep proof, graph, viewer, manuscript, both PDF tracks, and submission wrappers aligned with the full CM contrapositive closure state."
+  "disposition" => "blocked",
+  "next_cell_type" => "theorem-work",
+  "next_stage" => "terminal-time-face-new-production-gold-obstruction",
+  "next_action" => "Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure."
 }.freeze
 OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
@@ -119,21 +119,27 @@ def write_yaml(path, object)
   path.write(YAML.dump(object).lines.map { |line| "#{line.rstrip}\n" }.join)
 end
 
-def clay_closing_gap_blockers
-  @clay_closing_gap_blockers ||= begin
+def current_terminal_blocker_message
+  "#{CURRENT_SOURCE_WALL_ROOT_ID}: #{CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE.fetch("next_action")}"
+end
+
+def clay_closing_gap_raw_candidates
+  @clay_closing_gap_raw_candidates ||= begin
     readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
       ROOT,
       require_current_submission_ready_flags: false,
       ignore_child_paper_repo_dirty: true
     )
-    Array(readiness["candidates"]).select { |entry| entry["kind"].to_s == "clay_closing_gap" }.map do |entry|
-      "#{entry['candidate_id']}: #{entry['required_action']}"
-    end
+    Array(readiness["candidates"]).select { |entry| entry["kind"].to_s == "clay_closing_gap" }
   end
 end
 
+def clay_closing_gap_blockers
+  @clay_closing_gap_blockers ||= clay_closing_gap_raw_candidates.empty? ? [] : [current_terminal_blocker_message]
+end
+
 def clay_closing_gap_open?
-  !clay_closing_gap_blockers.empty?
+  !clay_closing_gap_raw_candidates.empty?
 end
 
 def relative(path)
@@ -200,12 +206,7 @@ def cm_referee_gate_payload
 end
 
 def cm_referee_blocked_consequence
-  {
-    "disposition" => "blocked",
-    "next_cell_type" => "proof-frontier",
-    "next_stage" => "cm-referee-blocked",
-    "next_action" => "Resolve the named CM referee blockers before submission promotion."
-  }
+  CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
 end
 
 def sanitize_cm_referee_audit(audit)
@@ -213,7 +214,7 @@ def sanitize_cm_referee_audit(audit)
   return audit unless clay_closing_gap_open?
 
   audit["status"] = audit["status"].is_a?(Hash) ? audit["status"] : {}
-  audit["status"]["audit_status"] = "cm-referee-blocked"
+  audit["status"]["audit_status"] = CURRENT_PACKAGE_STATUS
   audit["status"]["pass"] = false
   audit["status"]["release_eligible"] = false
   audit["status"]["clay_ready"] = false
@@ -229,24 +230,25 @@ def sanitize_cm_referee_audit(audit)
   audit["release_eligible"] = false
   audit["clay_ready"] = false
   audit["blockers"] = clay_closing_gap_blockers
+  audit["legacy_readiness_candidates"] = clay_closing_gap_raw_candidates
   audit["blocking_findings"] = clay_closing_gap_blockers.map.with_index do |entry, index|
     {
-      "id" => "clay-closing-gap-#{index + 1}",
+      "id" => CURRENT_SOURCE_WALL_ROOT_ID,
       "summary" => entry
     }
   end
   audit["open_logical_burdens"] = clay_closing_gap_blockers.map.with_index do |entry, index|
     {
-      "burden_id" => "clay-closing-gap-#{index + 1}",
+      "burden_id" => CURRENT_SOURCE_WALL_ROOT_ID,
       "statement" => entry,
-      "required_resolution" => "Close the Clay counterexample-exclusion bridge before any Clay-ready submission claim."
+      "required_resolution" => current_release_or_respawn_consequence.fetch("next_action")
     }
   end
   audit
 end
 
 def current_release_or_respawn_consequence
-  cm_referee_gate_clear? ? CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE : cm_referee_blocked_consequence
+  CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE
 end
 
 def cm_referee_readiness_overclaim?(text)
@@ -258,6 +260,10 @@ def stale_cm_referee_blocker?(text)
   value = text.to_s
   value.match?(/CM contrapositive referee audit blocks/i) ||
     value.match?(/Discharge the CM contrapositive referee audit/i) ||
+    value.match?(/clay-counterexample-gap-audit:finite-breakdown-exclusion-open/i) ||
+    value.match?(/finite-breakdown-exclusion-open/i) ||
+    value.match?(/original-smooth-data-pack-survival/i) ||
+    value.match?(/blocked-public-clay-finality-open/i) ||
     value.match?(/whole-space R\^?3 claim still needs.*export theorem/i) ||
     value.match?(/full R\^?3 Clay statement.*export theorem/i) ||
     value.match?(/The theorem packet localizes definitions, lemma surfaces, theorem statement, and proof dependencies strongly enough to support export-facing review/i) ||
@@ -290,14 +296,14 @@ def apply_cm_referee_gate_to_packet!(packet)
   return packet if cm_referee_gate_clear?
 
   packet["posture"] ||= {}
-  packet["posture"]["current_package_status"] = "cm-referee-blocked"
+  packet["posture"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   packet["posture"]["standalone_status"] = "blocked"
   packet["posture"]["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   packet["release_or_respawn_consequence"] = cm_referee_blocked_consequence if packet.key?("release_or_respawn_consequence")
   packet["readiness"] ||= {}
   packet["readiness"]["packet_complete"] = false
   packet["readiness"]["export_ready"] = false
-  blockers = dedupe_cm_referee_blockers(packet["readiness"]["blockers"])
+  blockers = dedupe_cm_referee_blockers(prune_stale_cm_referee_blockers(packet["readiness"]["blockers"]))
   cm_referee_blockers.each do |entry|
     next if blockers.any? { |blocker| normalize_cm_referee_blocker(blocker) == entry }
 
@@ -325,10 +331,10 @@ def apply_cm_referee_gate_to_submission!(verdict)
   verdict["review_alignment"] ||= {}
   verdict["review_alignment"]["release_posture"] = "blocked"
   verdict["review_alignment"]["standalone_status"] = "blocked"
-  verdict["review_alignment"]["completion_tier_achieved"] = "cm-referee-blocked"
-  verdict["review_alignment"]["current_package_status"] = "cm-referee-blocked"
+  verdict["review_alignment"]["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+  verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["blockers"] = (Array(verdict["blockers"]) + cm_referee_blockers.map { |entry| "CM contrapositive referee audit blocks submission: #{entry}" }).uniq
-  verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + ["Discharge the CM contrapositive referee audit before treating the package as Clay-ready."]).uniq
+  verdict["required_before_submission"] = (Array(verdict["required_before_submission"]) + [CURRENT_SOURCE_WALL_ROOT_ID]).uniq
   target_fidelity = verdict["target_fidelity"]
   if target_fidelity.is_a?(Hash)
     target_fidelity["terminal_safe"] = false
@@ -348,11 +354,11 @@ def apply_cm_referee_gate_to_review!(review)
     return review
   end
 
-  review["verdict"] = "block"
+  review["verdict"] = "blocked"
   review["release_posture"] = "blocked"
-  review["completion_tier_achieved"] = "cm-referee-blocked"
+  review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
   review["standalone_status"] = "blocked"
-  review["theorem_packet_status"] = "blocked"
+  review["theorem_packet_status"] = "theorem-open"
   review["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   review["findings"] = Array(review["findings"]).reject { |finding| cm_referee_readiness_overclaim?(finding) }
   review["findings"] = (Array(review["findings"]) + cm_referee_blockers).uniq
@@ -378,11 +384,11 @@ def apply_cm_referee_gate_to_release!(decision)
   if body.is_a?(Hash)
     body["disposition"] = "blocked"
     body["release_posture"] = "blocked"
-    body["completion_tier_achieved"] = "cm-referee-blocked"
+    body["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
     body["next_cell_type"] = cm_referee_blocked_consequence.fetch("next_cell_type")
     body["next_stage"] = cm_referee_blocked_consequence.fetch("next_stage")
     body["next_action"] = cm_referee_blocked_consequence.fetch("next_action")
-    body["rationale"] = "Active Clay-closing proof blockers prevent submission promotion."
+    body["rationale"] = "The specific annular residual case is accounted, but terminal time-face anti-atom / BASAC new-production remains open."
   end
   decision["release_or_respawn_consequence"] = cm_referee_blocked_consequence
   decision["blockers"] = (Array(decision["blockers"]).reject { |blocker| cm_referee_readiness_overclaim?(blocker) } + cm_referee_blockers).uniq
@@ -542,8 +548,11 @@ def refresh_submission_verdict_review_observations!(verdict, observations)
   verdict["blockers"] = Array(verdict["blockers"]).reject { |entry| stale_review_blocker?(entry) || stale_mpp_pdf_contract_blocker?(entry) || stale_submission_verdict_conflict_entry?(entry) }
   return verdict if clay_closing_gap_open?
 
-  verdict["submission_posture"] = "submission-candidate" if Array(verdict["blockers"]).empty?
-  verdict["submission_ready"] = true if Array(verdict["blockers"]).empty?
+  if Array(verdict["blockers"]).empty?
+    verdict["submission_posture"] = "not-ready"
+    verdict["submission_ready"] = false
+    verdict["blockers"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+  end
   verdict
 end
 
@@ -845,9 +854,9 @@ def sanitize_theorem_packet(packet)
   return packet unless packet.is_a?(Hash)
 
   packet["posture"] ||= {}
-  packet["posture"]["theorem_target"] = "full-mpp-closure"
+  packet["posture"]["theorem_target"] = CURRENT_SOURCE_WALL_ROOT_ID
   packet["posture"]["current_package_status"] = CURRENT_PACKAGE_STATUS
-  packet["posture"]["standalone_status"] = "accept"
+  packet["posture"]["standalone_status"] = "blocked"
   packet["posture"].delete("open_sourcewall_root")
   packet["posture"]["sourcewall_root_cm_status"] = CURRENT_SOURCE_WALL_ROOT_SUMMARY
   packet["posture"]["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
@@ -872,12 +881,12 @@ def sanitize_auto_audit(audit)
 
   audit["certification"] ||= {}
   audit["certification"]["current_package_status"] = CURRENT_PACKAGE_STATUS
-  audit["certification"]["standalone_status"] = "accept"
-  audit["certification"]["theorem_packet_status"] = "export-ready"
+  audit["certification"]["standalone_status"] = "blocked"
+  audit["certification"]["theorem_packet_status"] = "theorem-open"
   audit["audit_certification"] ||= {}
-  audit["audit_certification"]["audit_status"] = "direct-live-cm-authority-cleared"
-  audit["audit_certification"]["audit_completion_tier"] = "full-mpp-closure"
-  audit["audit_certification"]["audit_review_verdict"] = "accept"
+  audit["audit_certification"]["audit_status"] = "terminal-time-face-new-production-open"
+  audit["audit_certification"]["audit_completion_tier"] = CURRENT_PACKAGE_STATUS
+  audit["audit_certification"]["audit_review_verdict"] = "blocked"
 
   branch_audit = audit["branch_audit"]
   if branch_audit.is_a?(Hash)
@@ -911,14 +920,14 @@ def sanitize_auto_audit(audit)
   sanitize_theorem_surface!(audit.dig("surface_snapshot", "theorem_surface"))
   attach_target_topology!(audit)
   unless cm_referee_gate_clear?
-    audit["certification"]["current_package_status"] = "referee-blocked-cm-contrapositive"
-    audit["certification"]["standalone_status"] = "referee-blocked"
-    audit["certification"]["completion_tier_achieved"] = "theorem-open"
-    audit["certification"]["review_verdict"] = "block"
-    audit["certification"]["theorem_packet_status"] = "referee-blocked"
-    audit["audit_certification"]["audit_status"] = "referee-blocked-cm-contrapositive"
-    audit["audit_certification"]["audit_completion_tier"] = "theorem-open"
-    audit["audit_certification"]["audit_review_verdict"] = "block"
+    audit["certification"]["current_package_status"] = CURRENT_PACKAGE_STATUS
+    audit["certification"]["standalone_status"] = "blocked"
+    audit["certification"]["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+    audit["certification"]["review_verdict"] = "blocked"
+    audit["certification"]["theorem_packet_status"] = "theorem-open"
+    audit["audit_certification"]["audit_status"] = CURRENT_PACKAGE_STATUS
+    audit["audit_certification"]["audit_completion_tier"] = CURRENT_PACKAGE_STATUS
+    audit["audit_certification"]["audit_review_verdict"] = "blocked"
     audit["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
   end
 
@@ -949,7 +958,7 @@ def sanitize_dependency_graph(graph)
     "kind" => "direct-live-authority",
     "label" => CURRENT_SOURCE_WALL_ROOT_LABEL,
     "status" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status"),
-    "blocking" => false,
+    "blocking" => !cm_referee_gate_clear?,
     "source_anchor" => "problems/navier-stokes/live-theorem-edge.yaml"
   } unless nodes.any? { |entry| entry.is_a?(Hash) && entry["id"] == CURRENT_SOURCE_WALL_ROOT_ID }
   nodes.each do |entry|
@@ -958,7 +967,7 @@ def sanitize_dependency_graph(graph)
     entry["kind"] = "direct-live-authority"
     entry["label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
     entry["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    entry["blocking"] = false
+    entry["blocking"] = !cm_referee_gate_clear?
     entry["source_anchor"] = "problems/navier-stokes/live-theorem-edge.yaml"
   end
   graph["nodes"] = nodes
@@ -976,10 +985,12 @@ def sanitize_dependency_graph(graph)
     graph["summary"]["referee_blockers"] = []
   end
   unless cm_referee_gate_clear?
-    graph["status"] = "referee-blocked-cm-contrapositive"
+    graph["status"] = CURRENT_PACKAGE_STATUS
     graph["pass"] = false
     graph["summary"]["blocking_count"] = cm_referee_blockers.length
     graph["summary"]["all_discharged"] = false
+    graph["summary"]["unresolved_count"] = cm_referee_blockers.length
+    graph["summary"]["frontier_count"] = cm_referee_blockers.length
     graph["summary"]["referee_blockers"] = cm_referee_blockers
   end
   graph
@@ -1060,34 +1071,30 @@ def sanitize_submission_export_status(status)
   status["readiness_evidence"]["completion_candidate_count"] = readiness["candidate_count"]
   status["readiness_evidence"]["completion_candidates"] = readiness["candidates"]
   status["readiness_evidence"]["completion_readiness"] = readiness
-  if clay_closing_gap_open?
-    status["submission_ready"] = false
-    status["submission_posture"] = "blocked"
-    status["readiness_status"] = "cm-referee-blocked"
-  else
-    status["submission_ready"] = true
-    status["submission_posture"] = "submission-candidate"
-    status["readiness_status"] = "ready"
-  end
+  status["submission_ready"] = false
+  status["submission_posture"] = "not-ready"
+  status["readiness_status"] = "terminal-time-face-new-production-open"
+  status["required_before_submission"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   status
 end
 
 def sanitize_submission_verdict(verdict)
   return verdict unless verdict.is_a?(Hash)
 
-  verdict["submission_posture"] = "submission-candidate"
-  verdict["submission_ready"] = true
+  verdict["status"] = CURRENT_PACKAGE_STATUS
+  verdict["submission_posture"] = "not-ready"
+  verdict["submission_ready"] = false
   verdict["review_alignment"] ||= {}
-  verdict["review_alignment"]["review_verdict"] = "accept"
-  verdict["review_alignment"]["release_posture"] = "export-ready"
-  verdict["review_alignment"]["completion_tier_achieved"] = "full-mpp-closure"
-  verdict["review_alignment"]["standalone_status"] = "accept"
+  verdict["review_alignment"]["review_verdict"] = "blocked"
+  verdict["review_alignment"]["release_posture"] = "not-export-ready"
+  verdict["review_alignment"]["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+  verdict["review_alignment"]["standalone_status"] = "blocked"
   verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
   verdict["theorem_packet"] ||= {}
-  verdict["theorem_packet"]["packet_complete"] = true
-  verdict["theorem_packet"]["export_ready"] = true
-  verdict["theorem_packet"]["blocker_count"] = 0
-  verdict["required_before_submission"] = []
+  verdict["theorem_packet"]["packet_complete"] = false
+  verdict["theorem_packet"]["export_ready"] = false
+  verdict["theorem_packet"]["blocker_count"] = 1
+  verdict["required_before_submission"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   verdict["adversarial_findings"] = []
   verdict["recommended_next_action"] = current_release_or_respawn_consequence.fetch("next_action")
   verdict["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
@@ -1098,9 +1105,9 @@ def sanitize_submission_verdict(verdict)
 
   target_fidelity = verdict["target_fidelity"]
   if target_fidelity.is_a?(Hash)
-    target_fidelity["terminal_safe"] = true
+    target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = false
-    target_fidelity["required_before_terminal_release"] = []
+    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
     target_fidelity["issues"] = []
   end
 
@@ -1111,10 +1118,10 @@ def sanitize_submission_verdict(verdict)
     authority_summary = verdict[key]
     next unless authority_summary.is_a?(Hash)
 
-    authority_summary["unresolved_count"] = 0
-    authority_summary["frontier_count"] = 0
-    authority_summary["blocking_count"] = 0
-    authority_summary["all_discharged"] = true
+    authority_summary["unresolved_count"] = 1
+    authority_summary["frontier_count"] = 1
+    authority_summary["blocking_count"] = 1
+    authority_summary["all_discharged"] = false
     authority_summary["authority_mode"] = "direct-live-surfaces"
     authority_summary["source_authority_mode"] = "direct-live-surfaces" if authority_summary.key?("source_authority_mode")
   end
@@ -1127,10 +1134,11 @@ def sanitize_submission_verdict(verdict)
   end
   blockers.reject! { |entry| entry.to_s.include?("Exact live theorem-grade burden:") }
   blockers.reject! { |entry| entry.to_s.include?("TerminalCMNoExit.A") || entry.to_s.include?("NoGenuineCMExit.A") }
+  blockers.reject! { |entry| stale_cm_referee_blocker?(entry) }
   blockers.reject! { |entry| stale_mpp_pdf_contract_blocker?(entry) }
   blockers.reject! { |entry| stale_submission_verdict_conflict_entry?(entry) }
-  verdict["blockers"] = blockers
-  clear_stale_submission_verdict_status!(verdict) if blockers.empty? && verdict["submission_ready"] == true
+  blockers << CURRENT_SOURCE_WALL_ROOT_ID
+  verdict["blockers"] = blockers.uniq
   apply_cm_referee_gate_to_submission!(verdict)
   attach_target_topology!(verdict)
   verdict
@@ -1147,7 +1155,7 @@ def sanitize_theorem_crank(crank)
   if local_derivation.is_a?(Hash)
     local_derivation["status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
     local_derivation["leadership_status"] = "aligned"
-    local_derivation["recommended_next_cell_type"] = "submission"
+    local_derivation["recommended_next_cell_type"] = "theorem-work"
   end
 
   broadcast = crank["cross_lane_broadcast"]
@@ -1159,10 +1167,10 @@ def sanitize_theorem_crank(crank)
 
   auditor = crank["auditor"]
   if auditor.is_a?(Hash)
-    auditor["status"] = "ready"
-    auditor["audit_status"] = "direct-live-cm-authority-cleared"
+    auditor["status"] = "blocked-theorem-open"
+    auditor["audit_status"] = CURRENT_PACKAGE_STATUS
     auditor["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    auditor["open_issue_count"] = 0
+    auditor["open_issue_count"] = 1
     auditor["autofixable_issue_count"] = 0
     auditor["fix_plan_count"] = 0
     auditor["unresolved_branch_terminal_count"] = 0
@@ -1170,8 +1178,8 @@ def sanitize_theorem_crank(crank)
 
   projection = crank["frontier_projection"]
   if projection.is_a?(Hash)
-    projection["status"] = "cleared"
-    projection["recommended_next_cell_type"] = "submission"
+    projection["status"] = "frontier-open"
+    projection["recommended_next_cell_type"] = "theorem-work"
     projection["primary_target"] ||= {}
     projection["primary_target"]["obligation_id"] = CURRENT_SOURCE_WALL_ROOT_ID
     projection["primary_target"]["kind"] = "direct-live-authority"
@@ -1184,24 +1192,24 @@ def sanitize_theorem_crank(crank)
 
   summary = crank["summary"]
   if summary.is_a?(Hash)
-    summary["phase"] = "submission-candidate"
-    summary["execution_state"] = "submission-candidate"
+    summary["phase"] = "theorem-work"
+    summary["execution_state"] = "blocked-theorem-open"
     summary["leadership_status"] = "aligned"
-    summary["alignment_complete"] = true
-    summary["direct_live_authority_all_discharged"] = true
+    summary["alignment_complete"] = false
+    summary["direct_live_authority_all_discharged"] = false
     summary["authority_gate_mode"] = "direct-live-surfaces"
-    summary["authority_gate_blocking_count"] = 0
-    summary["proof_assembly_open_obligation_count"] = 0
-    summary["current_open_obligation_count"] = 0
-    summary["open_obligations_state"] = "cleared"
-    summary["theorem_work_blocked"] = false
+    summary["authority_gate_blocking_count"] = 1
+    summary["proof_assembly_open_obligation_count"] = 1
+    summary["current_open_obligation_count"] = 1
+    summary["open_obligations_state"] = "frontier-open"
+    summary["theorem_work_blocked"] = true
     summary["on_recommended_track"] = true
-    summary["recommended_next_cell_type"] = "submission"
-    summary["audit_status"] = "direct-live-cm-authority-cleared"
+    summary["recommended_next_cell_type"] = "theorem-work"
+    summary["audit_status"] = CURRENT_PACKAGE_STATUS
     summary["branch_terminal_status"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status")
-    summary["unresolved_branch_terminal_count"] = 0
-    summary["current_next_cell_type"] = "submission"
-    summary["current_next_cell_is_theorem_work"] = false
+    summary["unresolved_branch_terminal_count"] = 1
+    summary["current_next_cell_type"] = "theorem-work"
+    summary["current_next_cell_is_theorem_work"] = true
     summary["one_frontier_count_is_not_one_path"] = true
     summary["open_root_diagnostic_presentation_count"] = OPEN_ROOT_PRESENTATIONS.length
     summary["target_operating_contract_id"] = TARGET_OPERATING_CONTRACT.fetch("contract_id")
@@ -1441,28 +1449,28 @@ def sanitize_review_verdict(review)
   return review unless review.is_a?(Hash)
 
   review["safe_claim_boundary"] = CURRENT_LOWEST_SAFE_CLAIM
-  review["verdict"] = "accept"
-  review["release_posture"] = "export-ready"
-  review["completion_tier_achieved"] = "full-mpp-closure"
-  review["standalone_status"] = "accept"
-  review["theorem_packet_status"] = "export-ready"
+  review["verdict"] = "blocked"
+  review["release_posture"] = "not-export-ready"
+  review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+  review["standalone_status"] = "blocked"
+  review["theorem_packet_status"] = "theorem-open"
 
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
-    target_fidelity["terminal_safe"] = true
+    target_fidelity["terminal_safe"] = false
     target_fidelity["explicit_nonterminal_overlay"] = false
-    target_fidelity["required_before_terminal_release"] = []
+    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
     target_fidelity["issues"] = []
   end
 
-  review["required_before_terminal_release"] = []
+  review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
 
   respawn = review["respawn_target"]
   if respawn.is_a?(Hash)
-    respawn["status"] = "not-needed"
-    respawn["next_cell_type"] = nil
-    respawn["next_stage"] = nil
-    respawn["next_action"] = nil
+    respawn["status"] = "needed"
+    respawn["next_cell_type"] = current_release_or_respawn_consequence.fetch("next_cell_type")
+    respawn["next_stage"] = current_release_or_respawn_consequence.fetch("next_stage")
+    respawn["next_action"] = current_release_or_respawn_consequence.fetch("next_action")
   end
   review["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   review["release_or_respawn_consequence"] = current_release_or_respawn_consequence
@@ -1478,12 +1486,12 @@ def sanitize_release_decision(decision)
   body = decision["decision"]
   if body.is_a?(Hash)
     body["disposition"] = current_release_or_respawn_consequence.fetch("disposition")
-    body["release_posture"] = "export-ready"
-    body["completion_tier_achieved"] = "full-mpp-closure"
+    body["release_posture"] = "not-export-ready"
+    body["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
     body["next_cell_type"] = current_release_or_respawn_consequence.fetch("next_cell_type")
     body["next_stage"] = current_release_or_respawn_consequence.fetch("next_stage")
     body["next_action"] = current_release_or_respawn_consequence.fetch("next_action")
-    body["rationale"] = "Direct live CM authority and the accepted full-MPP review govern release; stale no-exit respawn language is support only."
+    body["rationale"] = "The specific annular residual case is accounted, but terminal time-face anti-atom / BASAC new-production remains open."
     body["exact_live_theorem_grade_burden"] = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN
   end
   decision["release_or_respawn_consequence"] = current_release_or_respawn_consequence
@@ -1494,8 +1502,8 @@ def sanitize_release_decision(decision)
   decision["blockers"] = blockers
   summary = decision["summary"]
   if summary.is_a?(Hash)
-    summary["queue_effect"] = "submission-candidate"
-    summary["registry_note"] = "periodic statement (B) package is release-ready; R^3 export is separate statement (A) scope."
+    summary["queue_effect"] = "theorem-work"
+    summary["registry_note"] = "specific annular case accounted; terminal time-face/new-production theorem remains open."
   end
   apply_cm_referee_gate_to_release!(decision)
   attach_target_topology!(decision)
@@ -1505,48 +1513,48 @@ end
 def sanitize_release_manifest(manifest)
   return manifest unless manifest.is_a?(Hash)
 
-  manifest["status"] = "release-ready"
-  manifest["pass"] = true
-  manifest["release_eligible"] = true
+  manifest["status"] = "blocked-theorem-open"
+  manifest["pass"] = false
+  manifest["release_eligible"] = false
   manifest["bundle_status"] = CURRENT_PACKAGE_STATUS
   manifest["release_gate"] = CURRENT_PACKAGE_STATUS
-  manifest["terminal_safe"] = true
-  manifest["required_before_terminal_release"] = []
+  manifest["terminal_safe"] = false
+  manifest["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
   summary = manifest["summary"]
   if summary.is_a?(Hash)
-    summary["blocking_count"] = 0
-    summary["all_discharged"] = true
+    summary["blocking_count"] = 1
+    summary["all_discharged"] = false
   end
   review = manifest.dig("source_summary", "review_verdict")
   if review.is_a?(Hash)
-    review["verdict"] = "accept"
-    review["terminal_safe"] = true
-    review["release_posture"] = "export-ready"
-    review["completion_tier_achieved"] = "full-mpp-closure"
+    review["verdict"] = "blocked"
+    review["terminal_safe"] = false
+    review["release_posture"] = "not-export-ready"
+    review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
   end
   submission = manifest.dig("source_summary", "submission_verdict")
-  submission["submission_ready"] = true if submission.is_a?(Hash)
+  submission["submission_ready"] = false if submission.is_a?(Hash)
   release = manifest.dig("source_summary", "release_decision")
   if release.is_a?(Hash)
     release["disposition"] = current_release_or_respawn_consequence.fetch("disposition")
-    release["release_posture"] = "export-ready"
-    release["completion_tier_achieved"] = "full-mpp-closure"
+    release["release_posture"] = "not-export-ready"
+    release["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
   end
   ledger = manifest.dig("source_summary", "existing_assumption_ledger_status")
   if ledger.is_a?(Hash)
-    ledger["ledger_status"] = "release-ready"
-    ledger["cm_contrapositive_referee_gate_clear"] = true
-    ledger["release_eligible"] = true
+    ledger["ledger_status"] = "blocked-theorem-open"
+    ledger["cm_contrapositive_referee_gate_clear"] = false
+    ledger["release_eligible"] = false
     ledger["release_gate"] = CURRENT_PACKAGE_STATUS
   end
   auto_audit = manifest.dig("source_summary", "auto_audit_certification")
   if auto_audit.is_a?(Hash)
     auto_audit["current_package_status"] = CURRENT_PACKAGE_STATUS
-    auto_audit["standalone_status"] = "accept"
-    auto_audit["completion_tier_achieved"] = "full-mpp-closure"
-    auto_audit["review_verdict"] = "accept"
-    auto_audit["theorem_packet_status"] = "export-ready"
+    auto_audit["standalone_status"] = "blocked"
+    auto_audit["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+    auto_audit["review_verdict"] = "blocked"
+    auto_audit["theorem_packet_status"] = "theorem-open"
   end
   source_gate = manifest.dig("source_summary", "cm_contrapositive_referee_gate")
   if source_gate.is_a?(Hash)
@@ -1556,10 +1564,10 @@ def sanitize_release_manifest(manifest)
     manifest["status"] = "blocked"
     manifest["pass"] = false
     manifest["release_eligible"] = false
-    manifest["release_gate"] = "cm-referee-blocked"
-    manifest["bundle_status"] = "cm-referee-blocked"
+    manifest["release_gate"] = CURRENT_PACKAGE_STATUS
+    manifest["bundle_status"] = CURRENT_PACKAGE_STATUS
     manifest["terminal_safe"] = false
-    manifest["required_before_terminal_release"] = cm_referee_blockers
+    manifest["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
     manifest["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
     source_summary = manifest["source_summary"]
     if source_summary.is_a?(Hash)
@@ -1570,16 +1578,16 @@ def sanitize_release_manifest(manifest)
       end
       auto_audit = source_summary["auto_audit_certification"]
       if auto_audit.is_a?(Hash)
-        auto_audit["theorem_packet_status"] = "blocked"
-        auto_audit["current_package_status"] = "cm-referee-blocked"
+        auto_audit["theorem_packet_status"] = "theorem-open"
+        auto_audit["current_package_status"] = CURRENT_PACKAGE_STATUS
         auto_audit["standalone_status"] = "blocked"
       end
       source_summary["existing_assumption_ledger_status"] = {
-        "ledger_status" => "cm-referee-blocked",
-        "direct_live_authority_all_discharged" => true,
+        "ledger_status" => "blocked-theorem-open",
+        "direct_live_authority_all_discharged" => false,
         "cm_contrapositive_referee_gate_clear" => false,
         "release_eligible" => false,
-        "release_gate" => "cm-referee-blocked"
+        "release_gate" => CURRENT_PACKAGE_STATUS
       }
     end
   end
@@ -1681,9 +1689,10 @@ def build_route_report(route_lock, slot_doc, warrant, campaign, proof_assembly, 
     "frontier_alignment" => {
       "proof_assembly_open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "proof_assembly_next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "campaign_full_claim_blocked" => false,
+      "campaign_full_claim_blocked" => true,
       "theorem_2_1_proof_status" => CURRENT_THEOREM_STATUS,
-      "source_wall_root_open" => false
+      "source_wall_root_open" => true,
+      "blocking_frontier" => CURRENT_SOURCE_WALL_ROOT_ID
     }
   }.tap { |report| attach_target_topology!(report) }
 end
@@ -1713,15 +1722,16 @@ def build_warrant_compilation(route_lock, warrant, campaign, proof_assembly)
     },
     "bridge_summary" => bridge_obligations_by_surface(warrant),
     "campaign_alignment" => {
-      "full_claim_lane_blocked" => false,
+      "full_claim_lane_blocked" => true,
       "source_track_status" => campaign.dig("parallel_theorem_tracks", 0, "status"),
       "sidecar_track_status" => campaign.dig("parallel_theorem_tracks", 1, "status"),
-      "demotion_note" => "B_ASAC/source-residue sorting is support under the CM pass-or-exit witness program; it does not respawn a no-exit burden."
+      "demotion_note" => "B_ASAC/source-residue sorting is support under the CM pass-or-exit witness program; public finality waits on the terminal time-face anti-atom / BASAC new-production child or a noncircular finite-breakdown exclusion."
     },
     "active_frontier" => {
       "open_obligation_count" => proof_assembly.dig("summary", "open_obligation_count"),
       "next_solver_targets" => Array(proof_assembly["next_solver_targets"]).map { |entry| entry["label"] },
-      "source_wall_root_open" => false
+      "source_wall_root_open" => true,
+      "blocking_frontier" => CURRENT_SOURCE_WALL_ROOT_ID
     },
     "manuscript_contract" => current_manuscript_surface_payload
   }.tap do |compilation|
@@ -1764,11 +1774,11 @@ def sanitize_campaign_status(campaign)
     "Clay-facing submission package with distinct human/app-aligned and Codex-structured PDF tracks"
 
   campaign["full_claim_lane"] ||= {}
-  campaign["full_claim_lane"]["blocked"] = false
-  campaign["full_claim_lane"]["block_level"] = "none-active"
+  campaign["full_claim_lane"]["blocked"] = true
+  campaign["full_claim_lane"]["block_level"] = "terminal-time-face-new-production-open"
   campaign["full_claim_lane"]["block_summary"] =
-    "No current live theorem-construction surface reports an essential unsolved math burden after the CM pass-or-exit package and independent PDF output topology are present."
-  campaign["top_blockers"] = []
+    "The specific annular residual case is accounted, but public Clay finality remains blocked by the terminal time-face anti-atom / BASAC new-production child or a replacement noncircular finite-breakdown exclusion."
+  campaign["top_blockers"] = [CURRENT_SOURCE_WALL_ROOT_ID]
   campaign["current_manuscript_surface"] = current_manuscript_surface_payload.reject { |key, _| key == "note" }.merge(
     "consistency_note" => "The human/app-aligned submission TeX/PDF and the Codex machine-paper TeX/PDF remain distinct rendered outputs. Route-state data is source context for each paper separately; manuscript authority is paper-local."
   )

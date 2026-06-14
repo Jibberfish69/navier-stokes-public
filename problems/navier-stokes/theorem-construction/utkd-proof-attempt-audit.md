@@ -90,7 +90,7 @@ If `m:=\min\{j,\ell\}`, then
 =
 2^{-\sigma(j+\ell)}
 \sum_{N+M<k<m-4}2^{(1+2\sigma)k}
-\lesssim_\sigma
+\le C_\sigma
 2^{-\sigma(j+\ell)}2^{(1+2\sigma)m}.
 ```
 
@@ -108,7 +108,7 @@ Hence
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}\sum_{\ell\ge j}
 2^{j-\sigma(\ell-j)}D_j(t)D_\ell(t).
 ```
@@ -124,7 +124,7 @@ Then the direct reduction becomes
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le C_\sigma
 \sum_{j>N+M+4}2^jD_j(t)\,\mathcal T_j^\sigma(t).
 ```
 
@@ -215,7 +215,7 @@ Hence Young on `\ell^1*\ell^2\to\ell^2` gives, for each fixed `t`,
 
 ```math
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2
-\lesssim_\sigma
+\le \|\mu\|_{\ell^1(\mathbb Z)}^2
 \sum_{j>N+M+4}2^j D_j(t)^2.
 ```
 

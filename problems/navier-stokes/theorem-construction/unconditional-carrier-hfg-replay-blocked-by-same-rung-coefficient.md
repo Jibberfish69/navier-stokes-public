@@ -31,7 +31,8 @@ E'(t)+c\Xi(t)\le C\Phi_s(E(t)).
 The installed test gives
 
 ```math
-\Phi_s(r)\simeq 1+r+r^{3/2},
+c_\Phi(1+r+r^{3/2})\le \Phi_s(r)\le C_\Phi(1+r+r^{3/2})
+\qquad(r\ge 0),
 ```
 
 and
@@ -60,13 +61,13 @@ The current tame estimate gives
 On the present lifted surface,
 
 ```math
-\|\nabla_DX\|_\infty\lesssim E^{1/2},
+\|\nabla_DX\|_\infty\le C_D E^{1/2},
 ```
 
 hence
 
 ```math
-E'(t)\lesssim E(t)^{3/2}+E(t)+1.
+E'(t)\le C_{HFG}\big(E(t)^{3/2}+E(t)+1\big).
 ```
 
 This permits scalar finite-time escape.

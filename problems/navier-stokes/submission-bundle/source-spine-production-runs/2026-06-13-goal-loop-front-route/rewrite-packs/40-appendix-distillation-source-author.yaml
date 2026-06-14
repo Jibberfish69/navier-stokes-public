@@ -1,0 +1,18 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-appendix-distillation-source-author
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+- op: rewrite_source_span
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  section_title: Source-Field Reader Appendix reserve/active-square/affine support slice
+  spine_id: source-field-reader-appendix-reserve-active-square-affine-support
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:124
+  source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:124-640
+  status: applied-manual-source-first
+  replacement_summary: >-
+    Rewrote the reserve, active-square, upper-tail Carleson, affine-quotient,
+    and affine-survivor support slice so the appendix states what each
+    calculation buys, where the current theorem stack runs out, and how the
+    surviving object can enter CM only through Pack, Part, Field, or readout.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/appendix-distillation-ledger.yaml

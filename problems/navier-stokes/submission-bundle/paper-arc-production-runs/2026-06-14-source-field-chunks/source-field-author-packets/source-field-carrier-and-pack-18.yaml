@@ -1,0 +1,871 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-18
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-18
+  sequence: 20
+  group_id: carrier-and-pack
+  title: Carrier and Pack 18
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 64908
+  line_end: 66750
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64908
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65077
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65166
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65271
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65630
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65726
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66541
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66744
+  subsection_titles:
+  - Weighted Spectral Carrier-Floor-Leakage Reduction
+  - 'WIZARD Bridge II: Gap-Flux-To-Carrier Attempt'
+  - 'WIZARD Request: Carrier Refactor Packet'
+  - Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic
+  - Clay problem Pack First-Unpaid Donor Reserve Dichotomy
+  - Clay problem Terminal Zeno Pack Failure Correction
+  - Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge Audit
+  - Clay problem Pack-First Source-Reserve Face Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Spectral Carrier-Floor-Leakage Reduction
+    line_start: 64908
+    line_end: 64966
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64908
+    start_anchor: "\\subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}\n"
+    end_anchor: "\\subsection{Weighted Tail-Flux Lifted J-Sum Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}
+
+      Fix a dyadic threshold K=2 N and let u (n) be the fixed classical approximation family on the Euclidean theorem surface.
+
+      \[
+      T_1^{(n)}(K,t)
+      :=
+      \||\nabla|P_{\ge K}u^{(n)}(t)\|_{L_x^2}^2,
+      \qquad
+      Q_1^{(n)}(K,t)
+      :=
+      \||\nabla|^2P_{\ge K}u^{(n)}(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      E_N^{(n)}(t)
+      :=
+      \sum_{j\ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+      \qquad
+      D_N^{(n)}(t)
+      :=
+      \sum_{j\ge N}2^{4j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+      \]
+
+      \[
+      T_1^{(n)}(K,t)\sfcomp{63409} E_N^{(n)}(t),
+      \qquad
+      Q_1^{(n)}(K,t)\sfcomp{63411} D_N^{(n)}(t).
+      \]
+
+      The current packet algebra does not support the old L N carrier on the derivative-weighted surface.
+
+      \[
+      \Lambda_N^{(n)}(t)
+      :=
+      1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u^{(n)}(t)\|_{L_x^2},
+      \]
+
+      \[
+      \Theta_N^{\sharp,(n)}(t)
+      :=
+      2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u^{(n)}(t)\|_{L_x^2}^2,
+      \]
+
+      where the lifted packet is the exact open remainder created by (S j-4 -S N+M )u (n) .
+
+      The derivative-weighted spectral carrier-floor-leakage theorem so reduces exactly to the lifted high-side packet.
+
+      So the current theorem-primary s=1 burden is not the strict low packet, not the spill collar, and not the genuine high-high packet. It is the lifted packet alone, in exactly that three-piece form.
+
+      The weighted lifted packet is not supposed to be closed by pretending the old L N surface still survives.
+
+      Those are the recorded sufficient ways to turn (19) into a theorem, without overclaiming a return to the old L N carrier.
+
+      The full derivative-weighted carrier-floor-leakage theorem is not proved here.
+
+      Returning from N to the old L N surface would require a new low-mode strain suppression theorem, not just further repackaging of the existing shell algebra.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'WIZARD Bridge II: Gap-Flux-To-Carrier Attempt'
+    line_start: 65077
+    line_end: 65124
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65077
+    start_anchor: "\\subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}\n"
+    end_anchor: "\\subsection{WIZARD Bridge III: Shell-To-Affine Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}
+
+      \[
+      \ell\sfcomp{63556} 2^{-j},
+      \qquad
+      r\sfcomp{63558} 2^{-k},
+      \qquad
+      k<j-L_0.
+      \]
+
+      \[
+      \Pi_N^{mid,far,L}(t)
+      \rightsquigarrow
+      \sum_{j\ge N}\sum_{k<j-L_0}
+      2^{-(j-k)}\,\mathfrak S_k(t)\,\mathfrak T_j(t),
+      \]
+
+      S k is the low-shell strain readout coming from r, T j is the active-shell stress readout coming from H 1 [u].
+
+      \[
+      \mathcal C_N^\sigma(t)
+      =
+      \sum_{k>N+M}
+      2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}\,
+      \mathcal D_k^\sigma(t),
+      \]
+
+      \[
+      \mathcal D_k^\sigma(t)
+      :=
+      \sum_{j>k+4}2^{-\sigma(j-k)}D_j(t),
+      \qquad
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      By contrast, the continuum flux route pairs the low-shell strain with the H 1-band stress H 1 . Its natural active-shell mass is
+
+      \[
+      \int \tau_j^{H^1}[u](x,t)\,dx
+      \sfcomp{63592}
+      2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      This is better than saying only "they look related." It identifies the exact part of the bridge that is already proved and the exact part that still fails.
+
+      So the missing bridge theorem is not another orientation theorem. It is a high-shell derivative upgrade theorem on the far-gap flux side.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'WIZARD Request: Carrier Refactor Packet'
+    line_start: 65166
+    line_end: 65174
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65166
+    start_anchor: "\\subsection{WIZARD Request: Carrier Refactor Packet}\n"
+    end_anchor: "\\subsection{WIZARD Terminal Impasse Comparison Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{WIZARD Request: Carrier Refactor Packet}
+
+      This is a theorem-authority request packet for the Navier-Stokes argument after the carrier ontology correction.
+
+      What is the canonical theorem-facing support object on the ontology-correct NS bridge?
+
+      Which note classes should now be treated as structurally misframed because they collapse support, readout, and selector into one overloaded carrier object?
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic
+    line_start: 65271
+    line_end: 65279
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65271
+    start_anchor: "\\subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit
+      Diagnostic}\n"
+    end_anchor: "\\subsection{BASACNew Inputs After All Gates.A}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic}
+
+      Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-first CM exit support: a zero-radius source residue is not Pack Q unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
+
+      The terminal source atom with no fixed earlier selected source slice is exactly Zero Heat Time Source Residue.A. so every retained B ASAC terminal atom is Pack-first exit support until a positive-scale retained-carrier bridge is supplied.
+
+      Thus the terminal atom is no longer an untyped residue for the CM contrapositive record. It remains an obstruction for the forward positive supplier route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pack First-Unpaid Donor Reserve Dichotomy
+    line_start: 65630
+    line_end: 65652
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65630
+    start_anchor: "\\subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}\n"
+    end_anchor: "\\subsection{Clay problem Charge record Injection.A Proof-Method
+      Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: "\\subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}\n\nThe
+      argument works only on the Pack branch of that no-exit target. The current Pack
+      burden is\n\nThe method used here is not another positive source-deletion pass.
+      It is a minimal-counterexample/descent argument on the first unpaid donor-reserve
+      window, combined with reserve double counting.\n\nParent Square Embed.A; Weighted
+      Adj Res.A; Local Donor Balance.A; Entrance Leaf Decay.A; bounded overlap for
+      the selected same-fluid terminal family; declared legal-loss records.\n\nAfter
+      finite donor trees and legal entrances are paid, the retained positive-scale
+      branch of not Terminal Reserve First Appearance Charge.A is the same live supplier
+      atom currently called Positive Remainder Depletion.A on the localized pre-Cauchy
+      source carrier.\n\nChoose such a window W minimal under the terminal past-window
+      order, and inside it choose the first scale/depth at which the surplus is created.
+      This is the proof-method pivot: the object is now the first unpaid creation
+      event, not a global source-control wall.\n\nIf Terminal Reserve First Appearance
+      Charge.A is available, that first-created reserve is charged. A charged first
+      appearance is paid inside the same window record, so it cannot produce the selected
+      surplus.\n\nA finite or non-Zeno donor tree fails to telescope. This is failure
+      of the donor/entrance Pack record, hence a Pack-face defect, not a retained
+      Pack counterexample. The first-created branch collapses to terminal zero-radius
+      Zeno ancestry. The terminal Zeno Pack correction gives not Pack Q. A retained
+      positive-scale first-created contribution remains uncharged. This is precisely
+      not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive
+      Remainder Depletion.A supplier atom.\n\nso a retained Pack counterexample to
+      Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance
+      Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains
+      open at the first \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal Zeno Pack Failure Correction
+    line_start: 65726
+    line_end: 65746
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65726
+    start_anchor: "\\subsection{Clay problem Terminal Zeno Pack Failure Correction}\n"
+    end_anchor: "\\subsection{No Fold Response Route.Returns ToStabilized Fork}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Terminal Zeno Pack Failure Correction}
+
+      Finite Zeno ancestry packets may be legal CM packets. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
+
+      \[
+      r_m\downarrow 0,\qquad t_m\uparrow T_*,
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})>0.
+      \]
+
+      That endpoint is a zero-radius, terminal-time residue. In the CM witness hierarchy the first endpoint failure is Pack collapse: the carrier/cover legality has collapsed before one can spend a retained Field N,r,Q face.
+
+      Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM packet.
+
+      The positive-radius retained tail is handled by No Persistent Unpaid Positive Radius Ancestry.A: a positive terminal carrier must pay, receive flux, leave through a legal record, or hit a finite CM face.
+
+      The terminal zero-radius object is already illegal inside CM packet legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge Audit
+    line_start: 66541
+    line_end: 66593
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66541
+    start_anchor: "\\subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel
+      Merge Audit}\n"
+    end_anchor: "\\subsection{Clay problem No Genuine Exit From Smooth Data Direct
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge Audit}
+
+      The attempted parallel tail- closure does not prove the Pack-side source reserve required by Scale Critical Tree Carleson.A.
+
+      Raw terminal native source residue is already sorted as a Pack/Part witness by Terminal Source ResidueCMExit.A; it is not a Field anti-atom deletion burden.
+
+      \[
+      2^{-2N}E_N(t)^2,
+      \qquad
+      E_N(t)=\sum_{j\ge N}E_j(t),
+      \]
+
+      \[
+      E_j(t)=2^{2j}\|\Delta_j u(t)\|_2^2,
+      \qquad
+      D_j(t)=2^{4j}\|\Delta_j u(t)\|_2^2.
+      \]
+
+      \[
+      R_N(I)
+      =
+      \int_I
+      \sum_{k>N}2^k
+      \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+      \]
+
+      Even a valid estimate for 2 -2N E N 2 cannot be promoted to Scale Critical Tree Carleson.A without a separate bridge.
+
+      Take the standard scalar first-pulse test from the reserve obstruction notes. Let I m have length h m, put one active shell at L=m+5, and set
+
+      \[
+      \int_{I_m}
+      2^m
+      \left(\sum_{\ell>m+4}D_\ell(t)\right)^2dt
+      =
+      2^mA_m^2h_m^{-1}.
+      \]
+
+      \[
+      A_m=2^{-2m},
+      \qquad
+      h_m=2^{-3m}.
+      \]
+
+      Thus the parallel tail- reserve can be small while the Scale Critical Tree Carleson.A source reserve is order one. The quantities live at different scale weights. A tail- discharge is not a Pack-wall discharge unless it is accompanied by a theorem converting terminal source-reserve birth into that tail- reserve.
+
+      The first-pulse/minimal-window proof skeleton is sound after Source Reserve Birth Charge.A: choose the first window where R N(W)>=eta, iterate the contraction backward, and use vanishing high-tail native charge to
+
+      That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Pack, Part, and Field no-exit open from original smooth data. Its
+
+      The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Pack/Part/Field/Zeno class-exit grammar.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pack-First Source-Reserve Face Audit
+    line_start: 66744
+    line_end: 66750
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66744
+    start_anchor: "\\subsection{Clay problem Pack-First Source-Reserve Face Audit}\n"
+    end_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A CM Face Consumption}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pack-First Source-Reserve Face Audit}
+
+      Until that condition is proved, the retained positive-scale source-reserve branch is supplier quarantine. It may guide proof search for Positive Remainder Depletion.A, Source Weighted Terminal Angular Depletion.A, a positive active-Carleson reserve, or a rigid Zeno residue class, but it is not a live CM frontier and it does not replace the Clay-facing terminal witness entry / finite failure type / contrapositive embedding family.
+
+      The source-reserve / donor-refill branch is support-only after this Pack-first audit.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}
+
+    Fix a dyadic threshold K=2 N and let u (n) be the fixed classical approximation family on the Euclidean theorem surface.
+
+    \[
+    T_1^{(n)}(K,t)
+    :=
+    \||\nabla|P_{\ge K}u^{(n)}(t)\|_{L_x^2}^2,
+    \qquad
+    Q_1^{(n)}(K,t)
+    :=
+    \||\nabla|^2P_{\ge K}u^{(n)}(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    E_N^{(n)}(t)
+    :=
+    \sum_{j\ge N}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+    \qquad
+    D_N^{(n)}(t)
+    :=
+    \sum_{j\ge N}2^{4j}\|\Delta_j u^{(n)}(t)\|_{L_x^2}^2,
+    \]
+
+    \[
+    T_1^{(n)}(K,t)\sfcomp{63409} E_N^{(n)}(t),
+    \qquad
+    Q_1^{(n)}(K,t)\sfcomp{63411} D_N^{(n)}(t).
+    \]
+
+    The current packet algebra does not support the old L N carrier on the derivative-weighted surface.
+
+    \[
+    \Lambda_N^{(n)}(t)
+    :=
+    1+\sum_{k\le N-4}2^{5k/2}\|\Delta_k u^{(n)}(t)\|_{L_x^2},
+    \]
+
+    \[
+    \Theta_N^{\sharp,(n)}(t)
+    :=
+    2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u^{(n)}(t)\|_{L_x^2}^2,
+    \]
+
+    where the lifted packet is the exact open remainder created by (S j-4 -S N+M )u (n) .
+
+    The derivative-weighted spectral carrier-floor-leakage theorem so reduces exactly to the lifted high-side packet.
+
+    So the current theorem-primary s=1 burden is not the strict low packet, not the spill collar, and not the genuine high-high packet. It is the lifted packet alone, in exactly that three-piece form.
+
+    The weighted lifted packet is not supposed to be closed by pretending the old L N surface still survives.
+
+    Those are the recorded sufficient ways to turn (19) into a theorem, without overclaiming a return to the old L N carrier.
+
+    The full derivative-weighted carrier-floor-leakage theorem is not proved here.
+
+    Returning from N to the old L N surface would require a new low-mode strain suppression theorem, not just further repackaging of the existing shell algebra.
+
+
+
+    \subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}
+
+    \[
+    \ell\sfcomp{63556} 2^{-j},
+    \qquad
+    r\sfcomp{63558} 2^{-k},
+    \qquad
+    k<j-L_0.
+    \]
+
+    \[
+    \Pi_N^{mid,far,L}(t)
+    \rightsquigarrow
+    \sum_{j\ge N}\sum_{k<j-L_0}
+    2^{-(j-k)}\,\mathfrak S_k(t)\,\mathfrak T_j(t),
+    \]
+
+    S k is the low-shell strain readout coming from r, T j is the active-shell stress readout coming from H 1 [u].
+
+    \[
+    \mathcal C_N^\sigma(t)
+    =
+    \sum_{k>N+M}
+    2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}\,
+    \mathcal D_k^\sigma(t),
+    \]
+
+    \[
+    \mathcal D_k^\sigma(t)
+    :=
+    \sum_{j>k+4}2^{-\sigma(j-k)}D_j(t),
+    \qquad
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    By contrast, the continuum flux route pairs the low-shell strain with the H 1-band stress H 1 . Its natural active-shell mass is
+
+    \[
+    \int \tau_j^{H^1}[u](x,t)\,dx
+    \sfcomp{63592}
+    2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    This is better than saying only "they look related." It identifies the exact part of the bridge that is already proved and the exact part that still fails.
+
+    So the missing bridge theorem is not another orientation theorem. It is a high-shell derivative upgrade theorem on the far-gap flux side.
+
+
+
+    \subsection{WIZARD Request: Carrier Refactor Packet}
+
+    This is a theorem-authority request packet for the Navier-Stokes argument after the carrier ontology correction.
+
+    What is the canonical theorem-facing support object on the ontology-correct NS bridge?
+
+    Which note classes should now be treated as structurally misframed because they collapse support, readout, and selector into one overloaded carrier object?
+
+
+
+    \subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic}
+
+    Outcome: the surviving B ASAC terminal source atom is consumable only as Pack-first CM exit support: a zero-radius source residue is not Pack Q unless a positive-scale retained-carrier bridge licenses later Field readout. This is a diagnostic continuation, not a forward positive-supplier discharge.
+
+    The terminal source atom with no fixed earlier selected source slice is exactly Zero Heat Time Source Residue.A. so every retained B ASAC terminal atom is Pack-first exit support until a positive-scale retained-carrier bridge is supplied.
+
+    Thus the terminal atom is no longer an untyped residue for the CM contrapositive record. It remains an obstruction for the forward positive supplier route.
+
+
+
+    \subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}
+
+    The argument works only on the Pack branch of that no-exit target. The current Pack burden is
+
+    The method used here is not another positive source-deletion pass. It is a minimal-counterexample/descent argument on the first unpaid donor-reserve window, combined with reserve double counting.
+
+    Parent Square Embed.A; Weighted Adj Res.A; Local Donor Balance.A; Entrance Leaf Decay.A; bounded overlap for the selected same-fluid terminal family; declared legal-loss records.
+
+    After finite donor trees and legal entrances are paid, the retained positive-scale branch of not Terminal Reserve First Appearance Charge.A is the same live supplier atom currently called Positive Remainder Depletion.A on the localized pre-Cauchy source carrier.
+
+    Choose such a window W minimal under the terminal past-window order, and inside it choose the first scale/depth at which the surplus is created. This is the proof-method pivot: the object is now the first unpaid creation event, not a global source-control wall.
+
+    If Terminal Reserve First Appearance Charge.A is available, that first-created reserve is charged. A charged first appearance is paid inside the same window record, so it cannot produce the selected surplus.
+
+    A finite or non-Zeno donor tree fails to telescope. This is failure of the donor/entrance Pack record, hence a Pack-face defect, not a retained Pack counterexample. The first-created branch collapses to terminal zero-radius Zeno ancestry. The terminal Zeno Pack correction gives not Pack Q. A retained positive-scale first-created contribution remains uncharged. This is precisely not Terminal Reserve First Appearance Charge.A, equivalently the localized Positive Remainder Depletion.A supplier atom.
+
+    so a retained Pack counterexample to Scale Critical Tree Carleson.A cannot survive once Terminal Reserve First Appearance Charge.A is proved. Without that charge theorem, the Pack no-exit proof remains open at the first unpaid positive-scale donor-reserve birth.
+
+    TerminalCMNo Exit.A, Scale Critical Tree Carleson.A, and global smoothness are not proved here.
+
+    That is the current Pack pressure point after applying the broader proof-method pass: minimal counterexample first, donor-reserve double counting second, and CM witness-face landing throughout.
+
+
+
+    \subsection{Clay problem Terminal Zeno Pack Failure Correction}
+
+    Finite Zeno ancestry packets may be legal CM packets. For every finite stage m, the selected packet P m has positive radius r m>0 and can still sit inside the ordinary retained packet grammar.
+
+    \[
+    r_m\downarrow 0,\qquad t_m\uparrow T_*,
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})>0.
+    \]
+
+    That endpoint is a zero-radius, terminal-time residue. In the CM witness hierarchy the first endpoint failure is Pack collapse: the carrier/cover legality has collapsed before one can spend a retained Field N,r,Q face.
+
+    Endpoint source or jump language is allowed only as downstream readout after CM exit, or under an additional positive-scale retained-carrier theorem. It must not be used to treat the terminal residue itself as a legal retained CM packet.
+
+    The positive-radius retained tail is handled by No Persistent Unpaid Positive Radius Ancestry.A: a positive terminal carrier must pay, receive flux, leave through a legal record, or hit a finite CM face.
+
+    The terminal zero-radius object is already illegal inside CM packet legality. It does not carry a further forward PRD, no-pulse, or source-control deletion burden. Those positive supplier presentations are downstream readout/support for a different program unless a later target explicitly switches away from terminal CM Pack-legality.
+
+
+
+    \subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge Audit}
+
+    The attempted parallel tail- closure does not prove the Pack-side source reserve required by Scale Critical Tree Carleson.A.
+
+    Raw terminal native source residue is already sorted as a Pack/Part witness by Terminal Source ResidueCMExit.A; it is not a Field anti-atom deletion burden.
+
+    \[
+    2^{-2N}E_N(t)^2,
+    \qquad
+    E_N(t)=\sum_{j\ge N}E_j(t),
+    \]
+
+    \[
+    E_j(t)=2^{2j}\|\Delta_j u(t)\|_2^2,
+    \qquad
+    D_j(t)=2^{4j}\|\Delta_j u(t)\|_2^2.
+    \]
+
+    \[
+    R_N(I)
+    =
+    \int_I
+    \sum_{k>N}2^k
+    \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+    \]
+
+    Even a valid estimate for 2 -2N E N 2 cannot be promoted to Scale Critical Tree Carleson.A without a separate bridge.
+
+    Take the standard scalar first-pulse test from the reserve obstruction notes. Let I m have length h m, put one active shell at L=m+5, and set
+
+    \[
+    \int_{I_m}
+    2^m
+    \left(\sum_{\ell>m+4}D_\ell(t)\right)^2dt
+    =
+    2^mA_m^2h_m^{-1}.
+    \]
+
+    \[
+    A_m=2^{-2m},
+    \qquad
+    h_m=2^{-3m}.
+    \]
+
+    Thus the parallel tail- reserve can be small while the Scale Critical Tree Carleson.A source reserve is order one. The quantities live at different scale weights. A tail- discharge is not a Pack-wall discharge unless it is accompanied by a theorem converting terminal source-reserve birth into that tail- reserve.
+
+    The first-pulse/minimal-window proof skeleton is sound after Source Reserve Birth Charge.A: choose the first window where R N(W)>=eta, iterate the contraction backward, and use vanishing high-tail native charge to
+
+    That audit keeps TerminalCMNo Exit.Face Reduction.A as a valid face reduction and keeps Pack, Part, and Field no-exit open from original smooth data. Its
+
+    The coordinated live target is the source-reserve birth theorem above, or a genuinely equivalent structural theorem that prices first creation of the scale-critical donor reserve inside Pack/Part/Field/Zeno class-exit grammar.
+
+
+
+    \subsection{Clay problem Pack-First Source-Reserve Face Audit}
+
+    Until that condition is proved, the retained positive-scale source-reserve branch is supplier quarantine. It may guide proof search for Positive Remainder Depletion.A, Source Weighted Terminal Angular Depletion.A, a positive active-Carleson reserve, or a rigid Zeno residue class, but it is not a live CM frontier and it does not replace the Clay-facing terminal witness entry / finite failure type / contrapositive embedding family.
+
+    The source-reserve / donor-refill branch is support-only after this Pack-first audit.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Spectral Carrier-Floor-Leakage Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64908
+  line_start: 64908
+  line_end: 64966
+  start_anchor: "\\subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}\n"
+  end_anchor: "\\subsection{Weighted Tail-Flux Lifted J-Sum Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Spectral Carrier-Floor-Leakage
+    Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64908
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'WIZARD Bridge II: Gap-Flux-To-Carrier Attempt'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65077
+  line_start: 65077
+  line_end: 65124
+  start_anchor: "\\subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}\n"
+  end_anchor: "\\subsection{WIZARD Bridge III: Shell-To-Affine Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite WIZARD Bridge II: Gap-Flux-To-Carrier
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65077
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'WIZARD Request: Carrier Refactor Packet'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65166
+  line_start: 65166
+  line_end: 65174
+  start_anchor: "\\subsection{WIZARD Request: Carrier Refactor Packet}\n"
+  end_anchor: "\\subsection{WIZARD Terminal Impasse Comparison Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite WIZARD Request: Carrier Refactor
+    Packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65166
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem B ASAC Terminal Atom CM Pack-First Exit Diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65271
+  line_start: 65271
+  line_end: 65279
+  start_anchor: "\\subsection{Clay problem B ASAC Terminal Atom CM Pack-First Exit
+    Diagnostic}\n"
+  end_anchor: "\\subsection{BASACNew Inputs After All Gates.A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem B ASAC Terminal
+    Atom CM Pack-First Exit Diagnostic as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65271
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pack First-Unpaid Donor Reserve Dichotomy
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65630
+  line_start: 65630
+  line_end: 65652
+  start_anchor: "\\subsection{Clay problem Pack First-Unpaid Donor Reserve Dichotomy}\n"
+  end_anchor: "\\subsection{Clay problem Charge record Injection.A Proof-Method Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack First-Unpaid
+    Donor Reserve Dichotomy as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65630
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal Zeno Pack Failure Correction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65726
+  line_start: 65726
+  line_end: 65746
+  start_anchor: "\\subsection{Clay problem Terminal Zeno Pack Failure Correction}\n"
+  end_anchor: "\\subsection{No Fold Response Route.Returns ToStabilized Fork}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal Zeno Pack
+    Failure Correction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65726
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66541
+  line_start: 66541
+  line_end: 66593
+  start_anchor: "\\subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem No Genuine Exit From Smooth Data Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No GenuineCMExit.A
+    Pack-Wall Parallel Merge Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66541
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pack-First Source-Reserve Face Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66744
+  line_start: 66744
+  line_end: 66750
+  start_anchor: "\\subsection{Clay problem Pack-First Source-Reserve Face Audit}\n"
+  end_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A CM Face Consumption}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack-First Source-Reserve
+    Face Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66744
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-18
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-18.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,964 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-72
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-72
+  sequence: 224
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 72
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 62199
+  line_end: 62808
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62199
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62275
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62537
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62550
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62618
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62697
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62749
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62800
+  subsection_titles:
+  - Strict-Shadow No-Shadow Def Consumer Corollary
+  - Superlinear Phi s Structural Repair Target
+  - Target-Fidelity Bridge Lemma
+  - Terminal Sector-Center Density And Local Holder Oscillation
+  - Three-Gap Honest Attack Note
+  - Time-Order Cross-Balance Note
+  - Time-Slab Freezing Bridge Note
+  - Torus Curvature-Insertion Shadow Lemma
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Strict-Shadow No-Shadow Def Consumer Corollary
+    line_start: 62199
+    line_end: 62235
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62199
+    start_anchor: "\\subsection{Strict-Shadow No-Shadow Def Consumer Corollary}\n"
+    end_anchor: "\\subsection{Stronger Fixed-Cutoff Low-Strain Coefficient Admissibility}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Strict-Shadow No-Shadow Def Consumer Corollary}
+
+      It is not a strict-shadow theorem root and it is not the CM-to-Euclidean export splice. It sits downstream of that splice and, more specifically, downstream of the exact strict-shadow input (A1b) on the exported Euclidean surface.
+
+      \[
+      \mathcal C(\nabla_X X)=(u\cdot\nabla)u,
+      \qquad
+      \mathcal C(\iota_X\Omega_D^{\mathrm{nc}}(X))=0.
+      \]
+
+      \[
+      N_D(X)=\nabla_X X+\iota_X\Omega_D^{\mathrm{nc}}(X),
+      \]
+
+      \[
+      \mathcal C(N_D(X))=(u\cdot\nabla)u
+      \]
+
+      \[
+      \partial_t u+\mathbb P_{\mathrm{Leray}}(u\cdot\nabla u)=\nu\Delta u.
+      \]
+
+      \[
+      \partial_t u+u\cdot\nabla u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0.
+      \]
+
+      So on the strict-shadow surface the projected equation is the exact classical Navier--Stokes equation.
+
+      But (8)--(9) show that the projected equation already equals the classical one with no extra remainder. So the total weak-form remainder must vanish, which is exactly (6). .
+
+      Equation (6) does not say that each named term in (11) vanishes separately under every representation.
+
+      Thus the result is a consumer corollary after (A1b). It is not an additional burden beside (A1a)--(A1c), and it is not independent route authority.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Superlinear Phi s Structural Repair Target
+    line_start: 62275
+    line_end: 62301
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62275
+    start_anchor: "\\subsection{Superlinear Phi s Structural Repair Target}\n"
+    end_anchor: "\\subsection{Survivor Compactness / Coercivity Theorem Shape Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Superlinear Phi s Structural Repair Target}
+
+      \[
+      E'(t)+c\Xi(t)\le C\Phi_s(E(t))
+      \]
+
+      \[
+      \langle \Lambda_D^s N_D(X),\Lambda_D^s X\rangle.
+      \]
+
+      \[
+      \langle [\Lambda_D^s, X\cdot\nabla_D]X,\Lambda_D^s X\rangle.
+      \]
+
+      \[
+      E'(t)\le C_{\mathrm{sf},60670} E(t)^{3/2}+E(t)+1.
+      \]
+
+      \[
+      E'(t)+c\Xi(t)\le C a(t)E(t)+C(1+E(t)),
+      \]
+
+      and prove that the normalization commutes with the classical readout up to lower-order leakage.
+
+      The current lifted carrier package identifies the obstruction precisely. It does not remove it. Removing it requires a coefficient theorem or a readout-preserving normalization theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Target-Fidelity Bridge Lemma
+    line_start: 62537
+    line_end: 62549
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62537
+    start_anchor: "\\subsection{Target-Fidelity Bridge Lemma}\n"
+    end_anchor: "\\subsection{Terminal Sector-Center Density And Local Holder Oscillation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Target-Fidelity Bridge Lemma}
+
+      This lemma discharges the first bridge in the Navier-Stokes theorem chain: why success for a regularized or morphic-regularized system is not itself a solution of the classical Clay target.
+
+      Let the theorem target be the classical three-dimensional incompressible Navier-Stokes equation on the admissible data class fixed in the paper. Suppose a separate argument establishes global smoothness for a modified equation obtained by adding extra dissipation, hyper-viscosity, morphic smoothing, or any other non-classical term. Then that result does not prove the classical target unless one also proves, on the same admissibility surface, that the modified solutions converge back to a smooth solution of the original equation with all theorem-critical bounds preserved in the limit.
+
+      Equivalently: theorem-target fidelity forbids counting modified-equation smoothness as closure of the original Navier-Stokes problem.
+
+      The theorem target fixes both the equation and the admissible data surface. Any added dissipation or surrogate term changes the dynamical system being solved. A proof for that altered system so proves regularity for the altered system only. To transfer the result back to the classical equation, one needs a same-surface limit theorem showing that the extra term becomes inessential while the regularity-critical bounds survive. Without that transfer theorem, the modified-equation success remains diagnostic, not theorem-bearing.
+
+      Once target fidelity is imposed, the surviving route has to work directly on the classical equation. That is why the remaining proof must be built from classical energy control, classical cascade suppression, classical compactness, and classical gradient control rather than from regularization success.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Sector-Center Density And Local Holder Oscillation
+    line_start: 62550
+    line_end: 62587
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62550
+    start_anchor: "\\subsection{Terminal Sector-Center Density And Local Holder Oscillation}\n"
+    end_anchor: "\\subsection{Terminal-Window Finite-Mode Coefficient Measure}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Terminal Sector-Center Density And Local Holder Oscillation}
+
+      The stronger selector-native route is packaged separately so the branch keeps the minimal wall and the stronger sufficient realization distinct.
+
+      \[
+      \delta_{j,Q}(a_{Q,s})
+      \ge
+      c_{\mathrm{diag}}^{ctr}\,\bar\delta_j(Q),
+      \]
+
+      \[
+      [\delta_{j,Q}]_{C^\alpha(Q_s^{ent})}
+      \operatorname{diam}(Q_s^{ent})^\alpha
+      \le
+      \gamma_{\mathrm{diag}}\,\bar\delta_j(Q).
+      \]
+
+      \[
+      \delta_{j,Q}(a_Q)\ge c_{\mathrm{diag}}^{par}\,\bar\delta_j(Q),
+      \]
+
+      \[
+      [\delta_{j,Q}]_{C^\alpha(Q)}\operatorname{diam}(Q)^\alpha
+      \le
+      \gamma_{\mathrm{diag}}^{par}\,\bar\delta_j(Q).
+      \]
+
+      The wall has four separate inputs:
+      \begin{enumerate}
+      \item terminal sector-center lower density relative to the parent-cell average;
+      \item local Holder oscillation on the terminal entrance-sector cells;
+      \item finite shell comparability;
+      \item a uniform bound for $\sup|\nabla v_J|$ on the active segments.
+      \end{enumerate}
+
+      The stronger selector-native sufficient realizations live above that wall. The honest selector-side shape
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Three-Gap Honest Attack Note
+    line_start: 62618
+    line_end: 62670
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62618
+    start_anchor: "\\subsection{Three-Gap Honest Attack Note}\n"
+    end_anchor: "\\subsection{Threshold-Collar Product Channel Result}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Three-Gap Honest Attack Note}
+
+      \[
+      \mathcal T_{\mathrm{full}}
+      :=
+      \mathcal T_{\mathrm{jet}}
+      \oplus
+      \mathcal T_{\mathrm{sig}}
+      \oplus
+      \mathcal T_{\mathrm{desc}},
+      \]
+
+      \[
+      \mathcal T_{\mathrm{jet}}
+      :=
+      \bigoplus_{A,B}
+      \mathcal A\cdot
+      \{\mathcal P_{A,B},\mathcal L_{A,B},\mathcal R_{A,B}\},
+      \]
+
+      \[
+      \mathcal P_{A,B}
+      :=
+      \langle \nabla \Pi_A,J_B\rangle
+      +
+      \langle J_A,\nabla \Pi_B\rangle,
+      \]
+
+      \[
+      \mathcal L_{A,B}
+      :=
+      \langle (u\cdot\nabla)J_A,J_B\rangle
+      +
+      \langle J_A,(u\cdot\nabla)J_B\rangle,
+      \]
+
+      \[
+      \mathcal R_{A,B}
+      :=
+      \langle \widetilde T_A,J_B\rangle
+      +
+      \langle J_A,\widetilde T_B\rangle,
+      \]
+
+      The lifted exactness is still only formal. Equation (3) does not yet imply theorem-grade annihilation of
+
+      This matches the intuition that everything which telescopes, sits on the top edge, or lives in a bounded moving collar is composite, while the first genuinely nonlocal survivor is the coupled far two-scale packet.
+
+      The theorem fails at the map from derivative-label Hopf algebra to Littlewood-Paley packet algebra.
+
+      Gap 1 is explicit on the jet side and formal on the lifted side; Gap 2 has the right abstract residual and the right packet-side candidate, but no theorem equating them; Gap 3 has a plausible coefficient-control start, but still fails at top-order pressure recovery.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Time-Order Cross-Balance Note
+    line_start: 62697
+    line_end: 62748
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62697
+    start_anchor: "\\subsection{Time-Order Cross-Balance Note}\n"
+    end_anchor: "\\subsection{Time-Slab Freezing Bridge Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Time-Order Cross-Balance Note}
+
+      The point is to stop treating the differentiated transport terms as generic "nonlinear junk" and instead expose their exact order-convolution structure.
+
+      \[
+      V_n := \partial_t^n u,
+      \qquad
+      P_n := \partial_t^n p.
+      \]
+
+      \[
+      V_{n+1}
+      +
+      \sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k}
+      +
+      \nabla P_n
+      =
+      \nu\Delta V_n.
+      \]
+
+      \[
+      u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u.
+      \]
+
+      \[
+      \text{level }n \to \text{level }n+1
+      \text{ by one isolated forcing law.}
+      \]
+
+      \[
+      \nabla\cdot V_k = \partial_t^k(\nabla\cdot u)=0.
+      \]
+
+      At the base level, transport and pressure cancel completely. Only viscosity remains.
+
+      Again the transport of u t by u cancels exactly. The only live term is the mixed cross-order interaction: u t acting against the base spatial gradient of u.
+
+      The pattern is unmistakable: the live terms are not monotone same-order source terms. They are a binomial spread over all lower splits.
+
+      Pressure is present in the differentiated equation, but in the L 2 energy balance it drops out exactly because of incompressibility.
+
+      So pressure is a constraint carrier, not the live same-order forcing term in the energy recursion.
+
+      This is the exact sense in which the differentiated tower is governed by cross-order interactions, not by a simple upward runaway.
+
+      The sum in (12) is a binomial convolution. Define the exponential generating functions
+
+      So the entire infinite differentiated tower closes back to the same Navier-- Stokes form on the jet generating field.
+
+      This is the sharpest demonstration that the mixed terms are not accidental. They are exactly the terms needed for the infinite tower to close.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Time-Slab Freezing Bridge Note
+    line_start: 62749
+    line_end: 62799
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62749
+    start_anchor: "\\subsection{Time-Slab Freezing Bridge Note}\n"
+    end_anchor: "\\subsection{Torus Curvature-Insertion Shadow Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Time-Slab Freezing Bridge Note}
+
+      \[
+      X_*:=X(\cdot,t_0),
+      \qquad
+      F_*:=\nabla_a X_*,
+      \qquad
+      A_*:=F_*^{-1},
+      \qquad
+      G_*:=A_*A_*^\top.
+      \]
+
+      \[
+      x:=X_*(a),
+      \qquad
+      a=Y_*(x):=X_*^{-1}(x),
+      \]
+
+      \[
+      w(x,t):=v(Y_*(x),t),
+      \qquad
+      \pi(x,t):=q(Y_*(x),t),
+      \qquad
+      \widetilde f(x,t):=f(Y_*(x),t).
+      \]
+
+      \[
+      \partial_t w=(\partial_t v)\circ Y_*.
+      \]
+
+      \[
+      F_*^\sharp(x):=F_*(Y_*(x)),
+      \qquad
+      M(x,t):=F_*^\sharp(x)\,A(Y_*(x),t),
+      \qquad
+      H(x,t):=F_*^\sharp(x)\,G(Y_*(x),t)\,F_*^\sharp(x)^\top.
+      \]
+
+      So the first term remains principal and must be treated as a small coefficient perturbation of - x.
+
+      provided the same-depth velocity record controls a v and a 2v in the required slab norms.
+
+      For the high-regularity slab route, one also needs same-depth smallness of in Sobolev norms, not just in W 1, . In the frozen x coordinates,
+
+      where D s[ ,w] is the extra cost of the nonzero divergence defect div x w=- div x( w).
+
+      If the coefficient drift term is small enough on the slab and D s[ ,w] is controlled on the same witness, then the perturbative term is absorbed to the left, yielding a same-depth estimate with frozen-geometry-dependent constants.
+
+      If yes, then the entire non-autonomous bridge follows by short-time freezing, absorption, and iteration across time slabs.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Torus Curvature-Insertion Shadow Lemma
+    line_start: 62800
+    line_end: 62808
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62800
+    start_anchor: "\\subsection{Torus Curvature-Insertion Shadow Lemma}\n"
+    end_anchor: "\\subsection{Torus Projected-Flow Extraction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Torus Curvature-Insertion Shadow Lemma}
+
+      where C is the strict commutative shadow / abelianization map and D is the NC torus Dirac operator with deformation sector separated from the commutative transport sector.
+
+      This is the model-specific version of the claim that the surviving classical symbol is symmetric while the curvature insertion is antisymmetric in the NC deformation parameter.
+
+      The point of the ab expansion is not that every term is literally zero before shadowing. The point is that the curvature insertion term is strictly deformation-carried, so after the commutative quotient it has no visible content.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Strict-Shadow No-Shadow Def Consumer Corollary}
+
+    It is not a strict-shadow theorem root and it is not the CM-to-Euclidean export splice. It sits downstream of that splice and, more specifically, downstream of the exact strict-shadow input (A1b) on the exported Euclidean surface.
+
+    \[
+    \mathcal C(\nabla_X X)=(u\cdot\nabla)u,
+    \qquad
+    \mathcal C(\iota_X\Omega_D^{\mathrm{nc}}(X))=0.
+    \]
+
+    \[
+    N_D(X)=\nabla_X X+\iota_X\Omega_D^{\mathrm{nc}}(X),
+    \]
+
+    \[
+    \mathcal C(N_D(X))=(u\cdot\nabla)u
+    \]
+
+    \[
+    \partial_t u+\mathbb P_{\mathrm{Leray}}(u\cdot\nabla u)=\nu\Delta u.
+    \]
+
+    \[
+    \partial_t u+u\cdot\nabla u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0.
+    \]
+
+    So on the strict-shadow surface the projected equation is the exact classical Navier--Stokes equation.
+
+    But (8)--(9) show that the projected equation already equals the classical one with no extra remainder. So the total weak-form remainder must vanish, which is exactly (6). .
+
+    Equation (6) does not say that each named term in (11) vanishes separately under every representation.
+
+    Thus the result is a consumer corollary after (A1b). It is not an additional burden beside (A1a)--(A1c), and it is not independent route authority.
+
+
+
+    \subsection{Superlinear Phi s Structural Repair Target}
+
+    \[
+    E'(t)+c\Xi(t)\le C\Phi_s(E(t))
+    \]
+
+    \[
+    \langle \Lambda_D^s N_D(X),\Lambda_D^s X\rangle.
+    \]
+
+    \[
+    \langle [\Lambda_D^s, X\cdot\nabla_D]X,\Lambda_D^s X\rangle.
+    \]
+
+    \[
+    E'(t)\le C_{\mathrm{sf},60670} E(t)^{3/2}+E(t)+1.
+    \]
+
+    \[
+    E'(t)+c\Xi(t)\le C a(t)E(t)+C(1+E(t)),
+    \]
+
+    and prove that the normalization commutes with the classical readout up to lower-order leakage.
+
+    The current lifted carrier package identifies the obstruction precisely. It does not remove it. Removing it requires a coefficient theorem or a readout-preserving normalization theorem.
+
+
+
+    \subsection{Target-Fidelity Bridge Lemma}
+
+    This lemma discharges the first bridge in the Navier-Stokes theorem chain: why success for a regularized or morphic-regularized system is not itself a solution of the classical Clay target.
+
+    Let the theorem target be the classical three-dimensional incompressible Navier-Stokes equation on the admissible data class fixed in the paper. Suppose a separate argument establishes global smoothness for a modified equation obtained by adding extra dissipation, hyper-viscosity, morphic smoothing, or any other non-classical term. Then that result does not prove the classical target unless one also proves, on the same admissibility surface, that the modified solutions converge back to a smooth solution of the original equation with all theorem-critical bounds preserved in the limit.
+
+    Equivalently: theorem-target fidelity forbids counting modified-equation smoothness as closure of the original Navier-Stokes problem.
+
+    The theorem target fixes both the equation and the admissible data surface. Any added dissipation or surrogate term changes the dynamical system being solved. A proof for that altered system so proves regularity for the altered system only. To transfer the result back to the classical equation, one needs a same-surface limit theorem showing that the extra term becomes inessential while the regularity-critical bounds survive. Without that transfer theorem, the modified-equation success remains diagnostic, not theorem-bearing.
+
+    Once target fidelity is imposed, the surviving route has to work directly on the classical equation. That is why the remaining proof must be built from classical energy control, classical cascade suppression, classical compactness, and classical gradient control rather than from regularization success.
+
+
+
+    \subsection{Terminal Sector-Center Density And Local Holder Oscillation}
+
+    The stronger selector-native route is packaged separately so the branch keeps the minimal wall and the stronger sufficient realization distinct.
+
+    \[
+    \delta_{j,Q}(a_{Q,s})
+    \ge
+    c_{\mathrm{diag}}^{ctr}\,\bar\delta_j(Q),
+    \]
+
+    \[
+    [\delta_{j,Q}]_{C^\alpha(Q_s^{ent})}
+    \operatorname{diam}(Q_s^{ent})^\alpha
+    \le
+    \gamma_{\mathrm{diag}}\,\bar\delta_j(Q).
+    \]
+
+    \[
+    \delta_{j,Q}(a_Q)\ge c_{\mathrm{diag}}^{par}\,\bar\delta_j(Q),
+    \]
+
+    \[
+    [\delta_{j,Q}]_{C^\alpha(Q)}\operatorname{diam}(Q)^\alpha
+    \le
+    \gamma_{\mathrm{diag}}^{par}\,\bar\delta_j(Q).
+    \]
+
+    The wall has four separate inputs:
+    \begin{enumerate}
+    \item terminal sector-center lower density relative to the parent-cell average;
+    \item local Holder oscillation on the terminal entrance-sector cells;
+    \item finite shell comparability;
+    \item a uniform bound for $\sup|\nabla v_J|$ on the active segments.
+    \end{enumerate}
+
+    The stronger selector-native sufficient realizations live above that wall. The honest selector-side shape
+
+
+
+    \subsection{Three-Gap Honest Attack Note}
+
+    \[
+    \mathcal T_{\mathrm{full}}
+    :=
+    \mathcal T_{\mathrm{jet}}
+    \oplus
+    \mathcal T_{\mathrm{sig}}
+    \oplus
+    \mathcal T_{\mathrm{desc}},
+    \]
+
+    \[
+    \mathcal T_{\mathrm{jet}}
+    :=
+    \bigoplus_{A,B}
+    \mathcal A\cdot
+    \{\mathcal P_{A,B},\mathcal L_{A,B},\mathcal R_{A,B}\},
+    \]
+
+    \[
+    \mathcal P_{A,B}
+    :=
+    \langle \nabla \Pi_A,J_B\rangle
+    +
+    \langle J_A,\nabla \Pi_B\rangle,
+    \]
+
+    \[
+    \mathcal L_{A,B}
+    :=
+    \langle (u\cdot\nabla)J_A,J_B\rangle
+    +
+    \langle J_A,(u\cdot\nabla)J_B\rangle,
+    \]
+
+    \[
+    \mathcal R_{A,B}
+    :=
+    \langle \widetilde T_A,J_B\rangle
+    +
+    \langle J_A,\widetilde T_B\rangle,
+    \]
+
+    The lifted exactness is still only formal. Equation (3) does not yet imply theorem-grade annihilation of
+
+    This matches the intuition that everything which telescopes, sits on the top edge, or lives in a bounded moving collar is composite, while the first genuinely nonlocal survivor is the coupled far two-scale packet.
+
+    The theorem fails at the map from derivative-label Hopf algebra to Littlewood-Paley packet algebra.
+
+    Gap 1 is explicit on the jet side and formal on the lifted side; Gap 2 has the right abstract residual and the right packet-side candidate, but no theorem equating them; Gap 3 has a plausible coefficient-control start, but still fails at top-order pressure recovery.
+
+
+
+    \subsection{Time-Order Cross-Balance Note}
+
+    The point is to stop treating the differentiated transport terms as generic "nonlinear junk" and instead expose their exact order-convolution structure.
+
+    \[
+    V_n := \partial_t^n u,
+    \qquad
+    P_n := \partial_t^n p.
+    \]
+
+    \[
+    V_{n+1}
+    +
+    \sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k}
+    +
+    \nabla P_n
+    =
+    \nu\Delta V_n.
+    \]
+
+    \[
+    u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u.
+    \]
+
+    \[
+    \text{level }n \to \text{level }n+1
+    \text{ by one isolated forcing law.}
+    \]
+
+    \[
+    \nabla\cdot V_k = \partial_t^k(\nabla\cdot u)=0.
+    \]
+
+    At the base level, transport and pressure cancel completely. Only viscosity remains.
+
+    Again the transport of u t by u cancels exactly. The only live term is the mixed cross-order interaction: u t acting against the base spatial gradient of u.
+
+    The pattern is unmistakable: the live terms are not monotone same-order source terms. They are a binomial spread over all lower splits.
+
+    Pressure is present in the differentiated equation, but in the L 2 energy balance it drops out exactly because of incompressibility.
+
+    So pressure is a constraint carrier, not the live same-order forcing term in the energy recursion.
+
+    This is the exact sense in which the differentiated tower is governed by cross-order interactions, not by a simple upward runaway.
+
+    The sum in (12) is a binomial convolution. Define the exponential generating functions
+
+    So the entire infinite differentiated tower closes back to the same Navier-- Stokes form on the jet generating field.
+
+    This is the sharpest demonstration that the mixed terms are not accidental. They are exactly the terms needed for the infinite tower to close.
+
+
+
+    \subsection{Time-Slab Freezing Bridge Note}
+
+    \[
+    X_*:=X(\cdot,t_0),
+    \qquad
+    F_*:=\nabla_a X_*,
+    \qquad
+    A_*:=F_*^{-1},
+    \qquad
+    G_*:=A_*A_*^\top.
+    \]
+
+    \[
+    x:=X_*(a),
+    \qquad
+    a=Y_*(x):=X_*^{-1}(x),
+    \]
+
+    \[
+    w(x,t):=v(Y_*(x),t),
+    \qquad
+    \pi(x,t):=q(Y_*(x),t),
+    \qquad
+    \widetilde f(x,t):=f(Y_*(x),t).
+    \]
+
+    \[
+    \partial_t w=(\partial_t v)\circ Y_*.
+    \]
+
+    \[
+    F_*^\sharp(x):=F_*(Y_*(x)),
+    \qquad
+    M(x,t):=F_*^\sharp(x)\,A(Y_*(x),t),
+    \qquad
+    H(x,t):=F_*^\sharp(x)\,G(Y_*(x),t)\,F_*^\sharp(x)^\top.
+    \]
+
+    So the first term remains principal and must be treated as a small coefficient perturbation of - x.
+
+    provided the same-depth velocity record controls a v and a 2v in the required slab norms.
+
+    For the high-regularity slab route, one also needs same-depth smallness of in Sobolev norms, not just in W 1, . In the frozen x coordinates,
+
+    where D s[ ,w] is the extra cost of the nonzero divergence defect div x w=- div x( w).
+
+    If the coefficient drift term is small enough on the slab and D s[ ,w] is controlled on the same witness, then the perturbative term is absorbed to the left, yielding a same-depth estimate with frozen-geometry-dependent constants.
+
+    If yes, then the entire non-autonomous bridge follows by short-time freezing, absorption, and iteration across time slabs.
+
+
+
+    \subsection{Torus Curvature-Insertion Shadow Lemma}
+
+    where C is the strict commutative shadow / abelianization map and D is the NC torus Dirac operator with deformation sector separated from the commutative transport sector.
+
+    This is the model-specific version of the claim that the surviving classical symbol is symmetric while the curvature insertion is antisymmetric in the NC deformation parameter.
+
+    The point of the ab expansion is not that every term is literally zero before shadowing. The point is that the curvature insertion term is strictly deformation-carried, so after the commutative quotient it has no visible content.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Strict-Shadow No-Shadow Def Consumer Corollary
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62199
+  line_start: 62199
+  line_end: 62235
+  start_anchor: "\\subsection{Strict-Shadow No-Shadow Def Consumer Corollary}\n"
+  end_anchor: "\\subsection{Stronger Fixed-Cutoff Low-Strain Coefficient Admissibility}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Strict-Shadow No-Shadow Def Consumer
+    Corollary as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62199
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Superlinear Phi s Structural Repair Target
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62275
+  line_start: 62275
+  line_end: 62301
+  start_anchor: "\\subsection{Superlinear Phi s Structural Repair Target}\n"
+  end_anchor: "\\subsection{Survivor Compactness / Coercivity Theorem Shape Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Superlinear Phi s Structural
+    Repair Target as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62275
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Target-Fidelity Bridge Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62537
+  line_start: 62537
+  line_end: 62549
+  start_anchor: "\\subsection{Target-Fidelity Bridge Lemma}\n"
+  end_anchor: "\\subsection{Terminal Sector-Center Density And Local Holder Oscillation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Target-Fidelity Bridge Lemma
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62537
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Sector-Center Density And Local Holder Oscillation
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62550
+  line_start: 62550
+  line_end: 62587
+  start_anchor: "\\subsection{Terminal Sector-Center Density And Local Holder Oscillation}\n"
+  end_anchor: "\\subsection{Terminal-Window Finite-Mode Coefficient Measure}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Sector-Center Density
+    And Local Holder Oscillation as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62550
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Three-Gap Honest Attack Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62618
+  line_start: 62618
+  line_end: 62670
+  start_anchor: "\\subsection{Three-Gap Honest Attack Note}\n"
+  end_anchor: "\\subsection{Threshold-Collar Product Channel Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Three-Gap Honest Attack Note
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62618
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Time-Order Cross-Balance Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62697
+  line_start: 62697
+  line_end: 62748
+  start_anchor: "\\subsection{Time-Order Cross-Balance Note}\n"
+  end_anchor: "\\subsection{Time-Slab Freezing Bridge Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Time-Order Cross-Balance Note
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62697
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Time-Slab Freezing Bridge Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62749
+  line_start: 62749
+  line_end: 62799
+  start_anchor: "\\subsection{Time-Slab Freezing Bridge Note}\n"
+  end_anchor: "\\subsection{Torus Curvature-Insertion Shadow Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Time-Slab Freezing Bridge Note
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62749
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Torus Curvature-Insertion Shadow Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62800
+  line_start: 62800
+  line_end: 62808
+  start_anchor: "\\subsection{Torus Curvature-Insertion Shadow Lemma}\n"
+  end_anchor: "\\subsection{Torus Projected-Flow Extraction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Torus Curvature-Insertion Shadow
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62800
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-72
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-72.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

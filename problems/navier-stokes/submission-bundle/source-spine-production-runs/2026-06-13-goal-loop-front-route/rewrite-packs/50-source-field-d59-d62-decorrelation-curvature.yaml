@@ -1,0 +1,21 @@
+---
+batch_id: ns-goal-loop-front-route-20260613-source-field-d59-d62-decorrelation-curvature
+runner_id: appendix-distillation-source-author
+ready_to_apply: true
+source_rewrites:
+  - op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    section_title: Source-field reader appendix decorrelation/curvature support slice
+    spine_id: source-field-reader-appendix-d59-d62-decorrelation-curvature-support
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3142
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:3142-3288
+    status: applied-manual-source-first
+    replacement_summary: >-
+      Refined the D59-D62 source-field appendix support slice so the
+      cross-scale decorrelation branch, curvature provenance object, Euclidean
+      pullback target, and curvature feedback bridge read as one status-honest
+      support unit. The revised text makes decorrelation an open active branch,
+      separates curvature provenance from Euclidean theorem status, and names
+      the pullback statement needed before the curvature bridge can support the
+      classical Euclidean surface.
+verification_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/source-field-d59-d62-decorrelation-curvature-ledger.yaml

@@ -33,7 +33,7 @@ packet:
 
 ```math
 \pi(P^-\to P)
-\simeq
+:=
 \int_{Q(P)}
 \mathfrak S_{loc}^{active}(u;P^-,P)\,dxdt.
 \tag{STC.1}
@@ -81,7 +81,7 @@ Assume `(STC.2)`.  Combine it with `LocalDonorBalance.A` from
 
 ```math
 \pi(P^-\to child(P^-))
-\lesssim
+\le C_{\mathrm{LDB}}
 \Delta E(P^-)+\pi(parent(P^-)\to P^-)+\ell(P^-).
 ```
 
@@ -118,12 +118,12 @@ source-pulse notes:
 
 ```math
 (\mathrm{child})_\#\nu_{\mathcal T}
-\simeq
-\mathfrak S_{N,loc}^{active}(t)\,dt
+=
+\mathfrak S_{N,loc}^{active}(t)\,dt+\mu_{\mathrm{legal}}
 ```
 
-on the selected terminal packets, up to already-licensed pressure/cutoff and
-localization losses.
+on the selected terminal packets, where `\mu_{\mathrm{legal}}` is the already-licensed
+pressure/cutoff and localization loss measure.
 
 Thus `(STC.3)` is the tree version of:
 

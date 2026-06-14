@@ -896,11 +896,15 @@ Let
   A_m
   =
   \{(x,t):\alpha r_m<|x-x_*|<\beta r_m,\quad
-  |t-t_m|\lesssim r_m^2\},
+  t_m-\theta r_m^2<t<t_m\},
   \qquad
   r_m\downarrow0,\quad t_m\uparrow T_*.
 \]
-Choose \(j_m\) with \(2^{-j_m}\simeq r_m\), and write
+Choose \(j_m\) by the exact dyadic rule
+\[
+  2^{-j_m-1}<r_m\le 2^{-j_m}.
+\]
+At that scale, write
 \[
   u_j=\Delta_j u,\qquad
   E_j(t)=2^{2j}\|u_j(t)\|_2^2,\qquad

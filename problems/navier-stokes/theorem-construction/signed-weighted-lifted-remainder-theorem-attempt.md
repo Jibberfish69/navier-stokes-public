@@ -41,7 +41,7 @@ Since `ell` is comparable to `j`, this yields the leading size
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 

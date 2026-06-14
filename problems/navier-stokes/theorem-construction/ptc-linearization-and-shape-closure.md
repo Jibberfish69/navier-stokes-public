@@ -186,9 +186,11 @@ then
 ```
 
 Under the standard selector-scale realization `\xi_{ab}=b-a` or
-`\xi_{ab}=(b-a)/\ell_J`, the installed active-pair scale packet
-`a-b\in N_a`, `|a-b|\simeq \ell_J` makes the bounded-collar route automatic, so
-the remaining live content of `PTC-Lin.A` is just selector-good
+`\xi_{ab}=(b-a)/\ell_J`, the installed active-pair scale packet is the fixed
+neighbor-collar condition
+`a-b\in N_a` and `c_N\ell_J\le |a-b|\le C_N\ell_J`, with constants `0<c_N<C_N`
+fixed by the selector geometry. This makes the bounded-collar route automatic,
+so the remaining live content of `PTC-Lin.A` is just selector-good
 differentiability-exceptional-set smallness.
 
 ## Packet B: PTC-Shape.A
@@ -371,17 +373,20 @@ gives the projector comparison
 \tag{A24}
 ```
 
-with
+with a constant `C_{PTC}` depending only on the fixed selector overlap,
+dimension, cocycle normalization, and Davis--Kahan gap floor:
 
 ```math
 \operatorname{Err}_{J,CG}^{pair,\varepsilon}
-\lesssim
+\le
+C_{PTC}\left(
 \epsilon_{J,\varepsilon}^{lin}
 +
 \epsilon_{J,\varepsilon}^{lin\,2}
 +
 \bigl|W\bigr|_{\mathrm{op}}^2\,
-\epsilon_{J,\varepsilon}^{shape},
+\epsilon_{J,\varepsilon}^{shape}
+\right),
 \tag{A25}
 ```
 
@@ -511,7 +516,8 @@ So the alternate sharp route is:
 \Longrightarrow
 \text{finite-frame linearization}
 \Longrightarrow
-\mathcal K_J^{frame}\approx W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast.
+\mathcal K_J^{frame}= W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast+\mathcal E_J^{frame},
+\qquad \|\mathcal E_J^{frame}\|_F\le \varepsilon_J^{frame}.
 \tag{A31}
 ```
 
@@ -522,7 +528,7 @@ already explicit in `PTC.Frame.A`:
 \text{exact-potential comparison packet}
 +\text{ reference simple-top gap}
 \Longrightarrow
-\widehat P_J^{frame}\approx P_J^{CG}.
+\|\widehat P_J^{frame}-P_J^{CG}\|_F\le \varepsilon_J^{CG}.
 \tag{A32}
 ```
 
@@ -539,7 +545,8 @@ So the safe branch-facing compression is:
 \text{balanced selector frame}
 +\text{ finite-frame linearization}
 \Longrightarrow
-\mathcal K_J^{frame}\approx W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast,
+\mathcal K_J^{frame}= W_J^{coc}\Pi_{N_a}(W_J^{coc})^\ast+\mathcal E_J^{frame},
+\qquad \|\mathcal E_J^{frame}\|_F\le \varepsilon_J^{frame},
 \tag{A33b}
 ```
 

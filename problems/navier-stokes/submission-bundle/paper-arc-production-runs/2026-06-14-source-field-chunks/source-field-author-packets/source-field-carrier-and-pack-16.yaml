@@ -1,0 +1,1113 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-16
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-16
+  sequence: 18
+  group_id: carrier-and-pack
+  title: Carrier and Pack 16
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 60667
+  line_end: 61570
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60667
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60709
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60751
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60802
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60851
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60894
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60933
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61516
+  subsection_titles:
+  - Selector-Persistent Transport Export And Probe Realization Result
+  - Selector Plateau Fixed-Collar Buffer Construction Result
+  - Selector Quadratic Sign-Separation Packet
+  - Selector-Strain Compatibility For Synchronized Projector
+  - Selector-Strain Sufficiency D7mp D7mo D7mm
+  - Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm
+  - Selector-Weight Lower Envelope Result
+  - Spectral Carrier-Floor-Leakage Direction Note
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Persistent Transport Export And Probe Realization Result
+    line_start: 60667
+    line_end: 60708
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60667
+    start_anchor: "\\subsection{Selector-Persistent Transport Export And Probe Realization
+      Result}\n"
+    end_anchor: "\\subsection{Selector Plateau Fixed-Collar Buffer Construction Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Persistent Transport Export And Probe Realization Result}
+
+      \[
+      \|Y_{i,x,j}\|_{H_D^s}\le1,
+      \qquad
+      \partial_i\rho(Y_{i,x,j})(x)=2^j\operatorname{sgn}(u_{coh,i}(x)).
+      \]
+
+      The transport export input is a conditional bridge already represented by the persistent-support transport and selector-intertwining surfaces. The scale-j normalized probe input has a Sobolev obstruction.
+
+      \[
+      \|\rho(Y)\|_{W^{1,\infty}_x}
+      \le
+      C_s\|Y\|_{H_D^s},
+      \qquad s>7/2.
+      \]
+
+      \[
+      |\partial_i\rho(Y)(x)|
+      \le
+      C_s.
+      \]
+
+      \[
+      2^j
+      =
+      |\partial_i\rho(Y_{i,x,j})(x)|
+      \le
+      C_s.
+      \]
+
+      \[
+      2^j\le C_s.
+      \]
+
+      The normalized scale-j probe realization required by the previous strain proof fails in the high active range under the same readout Sobolev comparison used by the route.
+
+      Equivalently, in flow form, let coh (s;t,x) be the coherent flow on the persistent support. A sufficient selector-persistent speed gate is
+
+      These are exactly the coherent coefficient inputs consumed by the low-pass commutator collar closure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector Plateau Fixed-Collar Buffer Construction Result
+    line_start: 60709
+    line_end: 60750
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60709
+    start_anchor: "\\subsection{Selector Plateau Fixed-Collar Buffer Construction
+      Result}\n"
+    end_anchor: "\\subsection{Selector Quadratic Sign-Separation Packet}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector Plateau Fixed-Collar Buffer Construction Result}
+
+      For smooth Littlewood-Paley cutoffs, support is read in the localized theorem-facing sense: either the exact support after Q i, or a fixed rapid-decay support core with the kernel tail placed in the lower-order record.
+
+      \[
+      \delta_j:=L2^{-j},
+      \qquad L>0,
+      \]
+
+      \[
+      \mathcal P_j(t):=K_{i,j}(t)^{+\delta_j},
+      \qquad
+      \mathcal S_j(t):=K_{i,j}(t)^{+2\delta_j}.
+      \]
+
+      \[
+      \chi(r)=1\text{ for }0\le r\le1,
+      \qquad
+      \chi(r)=0\text{ for }r\ge2.
+      \]
+
+      \[
+      c\operatorname{dist}(x,K_{i,j}(t))
+      \le d_j(x,t)
+      \le
+      C\operatorname{dist}(x,K_{i,j}(t))
+      \]
+
+      \[
+      \|\nabla_x^k d_j(\cdot,t)\|_\infty
+      \le
+      C_k\delta_j^{1-k}
+      \qquad k\ge1
+      \]
+
+      The weighted direct branch and weighted collar residual branch both close on the same plateau construction.
+
+      When P j is implemented by a Schwartz kernel and exact compact support is unavailable, replace K i,j by a core support K i,j core carrying all terms above the lower-order threshold. The remaining kernel tail is required to satisfy
+
+      This construction is local to a fixed active collar. A global selector independent of v coh requires a prior geometric carrier core whose fixed collar contains all active collar supports.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector Quadratic Sign-Separation Packet
+    line_start: 60751
+    line_end: 60801
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60751
+    start_anchor: "\\subsection{Selector Quadratic Sign-Separation Packet}\n"
+    end_anchor: "\\subsection{Selector-Strain Compatibility For Synchronized Projector}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Selector Quadratic Sign-Separation Packet}
+
+      Role: reduce the infinite family of quadratic richness tests to one finite uniform packet on the active selector-good family.
+
+      \[
+      \nu_J^{shape}(a,t)
+      \]
+
+      \[
+      \Omega_J(a,t)\subset S(N_a).
+      \]
+
+      \[
+      \operatorname{Sym}_0(N_a)
+      \]
+
+      \[
+      M:=\dim \operatorname{Sym}_0(N_a)=\frac{d(d+1)}2-1,
+      \qquad
+      d:=\dim N_a.
+      \]
+
+      \[
+      \{A^1,\dots,A^R\}
+      \subset
+      \{A\in \operatorname{Sym}_0(N_a): \|A\|_{\mathrm{op}}=1\},
+      \]
+
+      Hence the active family satisfies the uniform support-level sign-separating quadratic richness packet (Q) with uniform constant /2.
+
+      Fix (a,t) G J and a nonzero traceless symmetric operator A. Normalize to A:=A/ A op . Choose r so that
+
+      So the finite quadratic sign-separation packet is reduced further to one finite geometric support theorem: positive selector-good mass in a fixed family of projective eigen-caps.
+
+      Proof. Fix r and write any S(N a) as = u + r+ with u + r and 2+ 2=1. If C +,r , then 2 1- . Since every eigenvalue of A r lies in [-1,1],
+
+      So one stronger exact sufficient realization of the sign-separation packet is: cap-comparability on the finite eigen-cap list.
+
+      So the finite eigen-cap occupancy packet is reduced further to one finite localized lower-mass theorem on smooth test functions supported inside those caps.
+
+      So on regular selector-good windows the only genuinely new constructive burden left on this route is the entrance-time finite bump packet.
+
+      So one stronger entrance-geometry realization of the remaining shape primitive is finite initial directional comparability only on the core-cap family.
+
+      So if the entrance pair measure is the normalized active-neighbor counting measure, the remaining shape primitive becomes purely combinatorial: one neighbor in each finite core cap.
+
+      So once the shape route uses the normalized active-neighbor fiber of the existing graph measure, the entrance core-cap packet becomes a fiberwise active neighbor counting theorem.
+
+      So on the canonical graph-fiber route, the remaining
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Strain Compatibility For Synchronized Projector
+    line_start: 60802
+    line_end: 60850
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60802
+    start_anchor: "\\subsection{Selector-Strain Compatibility For Synchronized Projector}\n"
+    end_anchor: "\\subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Strain Compatibility For Synchronized Projector}
+
+      The true projector-identification burden on the spectral-gap / projector branch is the compatibility between the synchronized reference projector and the top segment projector. This is the second hard-debt surface on the exact discharge route. On the exact-potential selector-strain side, the first concrete theorem attack now runs through the branch-local notes
+
+      \[
+      \boxed{
+      (\Pi_J^{ref},\ W_J,\ g_J^{str})
+      \Longrightarrow
+      \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+      \le C_{\mathrm{sf},59275}
+      |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
+      }
+      \]
+
+      \[
+      \|\widehat P_J-P_{J,\top}^{seg}\|_F
+      \le
+      \|\widehat P_J-\Pi_J^{ref}\|_F
+      +
+      \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F.
+      \]
+
+      The spectral gap / Davis--Kahan note discharges the first term. The compatibility theorem discharges the second.
+
+      \[
+      \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+      \le C_{\mathrm{sf},59292}
+      |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
+      \]
+
+      \[
+      \Pi_J^{ref}
+      \quad\text{= synchronized reference projector,}
+      \]
+
+      \[
+      P_{J,\top}^{seg}
+      \quad\text{= true instantaneous top-strain projector,}
+      \]
+
+      Use the synchronization packet to keep J ref coherent on the transported good family. Use the selector-good strain packet to define the true top-strain projector with gap protection. Compare the synchronized reference object to the true strain object by the measurable-derivative / normal-covector route. Record all residual mismatch in Err J, ssc .
+
+      In particular, the on-disk sufficiency chain runs through D.7mp, D.7mo, and the bootstrap/commutator packets D.7mm, D.7mf, D.7mk.
+
+      Keep one selector-good atom-free window I 0 and assume the hypotheses of Corollary D.7mp, Corollary D.7mo, and Corollary D.7mm on that window. Set
+
+      Keep the same branch and assume the hypotheses of Corollary D.7mf and Corollary D.7mk. Set
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Strain Sufficiency D7mp D7mo D7mm
+    line_start: 60851
+    line_end: 60893
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60851
+    start_anchor: "\\subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}\n"
+    end_anchor: "\\subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}
+
+      D.7mp supplies the reference-direction packet; D.7mo supplies the Cauchy--Green reference-gap persistence packet; D.7mm supplies the bootstrap / commutator / source smallness packet.
+
+      \[
+      \bigl\|
+      P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
+      \bigr\|_F^2
+      \le C_{\mathrm{sf},59323}
+      \operatorname{Err}_{J,\mathrm{ssc}}^{CG}(a,b,t),
+      \]
+
+      where the branch-local selector-strain record is controlled by the same packets that appear in D.7mp, D.7mo, and D.7mm.
+
+      \[
+      E_{J,t_0}^{CG}(t,a)\le \frac{g_0}{4}
+      \Longrightarrow
+      \operatorname{gap}_J^{CG}(t,a)\ge \frac{g_0}{2}.
+      \]
+
+      This packet controls the transported reference direction and keeps the reference-direction forcing Gronwall-small on the selector-good strip.
+
+      This packet controls the residual source side of the selector-strain argument, in particular the D.7mb strip budgets
+
+      \[
+      |m_J(t_0,a,b)|,
+      \qquad
+      \eta_{J,\mathrm{off}}^{mb}(t,a,b),
+      \qquad
+      \eta_{J,\mathrm{var}}^{mb}(t,a,b).
+      \]
+
+      \[
+      \bigl\|
+      P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
+      \bigr\|_F^2
+      \le C_{\mathrm{sf},59351}
+      \eta_J^{mb}(t,a,b)^2/g_0^2,
+      \]
+
+      That is the exact selector-strain input consumed by the branch-facing angular record note.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm
+    line_start: 60894
+    line_end: 60932
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60894
+    start_anchor: "\\subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}\n"
+    end_anchor: "\\subsection{Selector-Weight Lower Envelope Result}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}
+
+      Active theorem-facing selector-strain note for the exact-potential simple-top branch.
+
+      \[
+      \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+      \le C_{\mathrm{sf},59364}
+      \mathrm{Err}_{J,\mathrm{ssc}}.
+      \]
+
+      \[
+      \Pi_J^{ref}
+      \quad\text{is transported coherently on the strip,}
+      \]
+
+      \[
+      |m_J(t_0)|.
+      \]
+
+      \[
+      g_J^{ref}(t)\ge \frac12 g_J^{ref}(t_0)
+      \qquad
+      (t\in I).
+      \]
+
+      This is the exact role of Corollary D.7mo: the top eigenspace of the restricted Cauchy--Green tensor remains rigid on the entire strip once the reference-gap persistence hypotheses hold.
+
+      \[
+      \int_I
+      \bigl|Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J\bigr|
+      \le
+      \mathrm{Err}_{J,\mathrm{off}},
+      \]
+
+      and the remaining bootstrap / commutator package is the linear-plus-quadratic control already isolated in Corollary D.7mm.
+
+      Here Err J, boot denotes the commutator / quadratic bootstrap remainder already packaged by D.7mm.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selector-Weight Lower Envelope Result
+    line_start: 60933
+    line_end: 60964
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60933
+    start_anchor: "\\subsection{Selector-Weight Lower Envelope Result}\n"
+    end_anchor: "\\subsection{SG4 Lower-Envelope And Continuation Handoff}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Selector-Weight Lower Envelope Result}
+
+      \[
+      w_j(x,t)\ge m_j>0
+      \qquad (x,t)\in\Gamma_j(t)\times I_j.
+      \]
+
+      \[
+      w_j(x,t)=1
+      \qquad (x,t)\in\Gamma_j(t)\times I_j.
+      \]
+
+      \[
+      m_j=1.
+      \]
+
+      \[
+      w_j(x,t)\ge m_*>0
+      \qquad (x,t)\in\Gamma_j(t)\times I_j,
+      \]
+
+      \[
+      m_j^{-1}\kappa_W\le\kappa_U
+      \]
+
+      A general cutoff weight can vanish at the support boundary. If the persistent support includes boundary points where w j=0, then no positive lower envelope exists on the closed support.
+
+      Then weighted speed control implies the amplitude/speed gate consumed by the collar closure.
+
+      This file supplies a conversion theorem. It also identifies the geometric burden: prove the active persistent support lies inside a positive-weight plateau, or move to a weighted collar theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Spectral Carrier-Floor-Leakage Direction Note
+    line_start: 61516
+    line_end: 61570
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61516
+    start_anchor: "\\subsection{Spectral Carrier-Floor-Leakage Direction Note}\n"
+    end_anchor: "\\subsection{Spectral Gap Rigidity And Projector Identification Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Spectral Carrier-Floor-Leakage Direction Note}
+
+      \[
+      \partial_t \hat u(k,t)
+      +
+      \nu |k|^2 \hat u(k,t)
+      =
+      -\mathbb P_k \sum_{\ell+m=k}
+      \big(\hat u(\ell,t)\cdot i m\big)\hat u(m,t).
+      \]
+
+      \[
+      \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+      \qquad
+      \nabla\cdot u = 0.
+      \]
+
+      So the local PDE and the spectral mode law are the same equation in different coordinates.
+
+      Differentiating (2) corresponds in frequency to multiplying (1) by powers of ik or |k|.
+
+      \[
+      \widehat{\partial_x^\alpha \partial_t^m u}(k,t)
+      =
+      (ik)^\alpha \partial_t^m \hat u(k,t).
+      \]
+
+      Thus the ordered tower is not a separate problem. It is the frequency mode equation observed through higher weights.
+
+      So parity is a bookkeeping lens for sorting the tower into even/odd channels and tracking transfer. It is not a separate PDE, and it does not determine the closure argument.
+
+      \[
+      -\nu |k|^2 \hat u(k,t).
+      \]
+
+      \[
+      \sum_{\ell+m=k}
+      \big(\hat u(\ell,t)\cdot i m\big)\hat u(m,t).
+      \]
+
+      T 0 is the tail state; Q 0 is the spectral floor / viscous damping; the right-hand side is the leakage.
+
+      If (9) holds on the classical surface, then the tail cannot refill faster than dissipation plus controlled carrier forcing allow.
+
+      At present the strongest base-order theorem surface in this direction is the s=0 tail-energy closure.
+
+      The higher weighted analogues belong to the gradient/enstrophy-tail side and are not yet rewritten in this exact spectral language here.
+
+      One extra derivative changes the supported carrier surface. The live weighted carrier is
+
+      That is the only genuinely open weighted analytic burden on the current supported surface.
+
+      The correct upgrade of the lifted packet is also not a better shellwise absolute-value estimate.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Selector-Persistent Transport Export And Probe Realization Result}
+
+    \[
+    \|Y_{i,x,j}\|_{H_D^s}\le1,
+    \qquad
+    \partial_i\rho(Y_{i,x,j})(x)=2^j\operatorname{sgn}(u_{coh,i}(x)).
+    \]
+
+    The transport export input is a conditional bridge already represented by the persistent-support transport and selector-intertwining surfaces. The scale-j normalized probe input has a Sobolev obstruction.
+
+    \[
+    \|\rho(Y)\|_{W^{1,\infty}_x}
+    \le
+    C_s\|Y\|_{H_D^s},
+    \qquad s>7/2.
+    \]
+
+    \[
+    |\partial_i\rho(Y)(x)|
+    \le
+    C_s.
+    \]
+
+    \[
+    2^j
+    =
+    |\partial_i\rho(Y_{i,x,j})(x)|
+    \le
+    C_s.
+    \]
+
+    \[
+    2^j\le C_s.
+    \]
+
+    The normalized scale-j probe realization required by the previous strain proof fails in the high active range under the same readout Sobolev comparison used by the route.
+
+    Equivalently, in flow form, let coh (s;t,x) be the coherent flow on the persistent support. A sufficient selector-persistent speed gate is
+
+    These are exactly the coherent coefficient inputs consumed by the low-pass commutator collar closure.
+
+
+
+    \subsection{Selector Plateau Fixed-Collar Buffer Construction Result}
+
+    For smooth Littlewood-Paley cutoffs, support is read in the localized theorem-facing sense: either the exact support after Q i, or a fixed rapid-decay support core with the kernel tail placed in the lower-order record.
+
+    \[
+    \delta_j:=L2^{-j},
+    \qquad L>0,
+    \]
+
+    \[
+    \mathcal P_j(t):=K_{i,j}(t)^{+\delta_j},
+    \qquad
+    \mathcal S_j(t):=K_{i,j}(t)^{+2\delta_j}.
+    \]
+
+    \[
+    \chi(r)=1\text{ for }0\le r\le1,
+    \qquad
+    \chi(r)=0\text{ for }r\ge2.
+    \]
+
+    \[
+    c\operatorname{dist}(x,K_{i,j}(t))
+    \le d_j(x,t)
+    \le
+    C\operatorname{dist}(x,K_{i,j}(t))
+    \]
+
+    \[
+    \|\nabla_x^k d_j(\cdot,t)\|_\infty
+    \le
+    C_k\delta_j^{1-k}
+    \qquad k\ge1
+    \]
+
+    The weighted direct branch and weighted collar residual branch both close on the same plateau construction.
+
+    When P j is implemented by a Schwartz kernel and exact compact support is unavailable, replace K i,j by a core support K i,j core carrying all terms above the lower-order threshold. The remaining kernel tail is required to satisfy
+
+    This construction is local to a fixed active collar. A global selector independent of v coh requires a prior geometric carrier core whose fixed collar contains all active collar supports.
+
+
+
+    \subsection{Selector Quadratic Sign-Separation Packet}
+
+    Role: reduce the infinite family of quadratic richness tests to one finite uniform packet on the active selector-good family.
+
+    \[
+    \nu_J^{shape}(a,t)
+    \]
+
+    \[
+    \Omega_J(a,t)\subset S(N_a).
+    \]
+
+    \[
+    \operatorname{Sym}_0(N_a)
+    \]
+
+    \[
+    M:=\dim \operatorname{Sym}_0(N_a)=\frac{d(d+1)}2-1,
+    \qquad
+    d:=\dim N_a.
+    \]
+
+    \[
+    \{A^1,\dots,A^R\}
+    \subset
+    \{A\in \operatorname{Sym}_0(N_a): \|A\|_{\mathrm{op}}=1\},
+    \]
+
+    Hence the active family satisfies the uniform support-level sign-separating quadratic richness packet (Q) with uniform constant /2.
+
+    Fix (a,t) G J and a nonzero traceless symmetric operator A. Normalize to A:=A/ A op . Choose r so that
+
+    So the finite quadratic sign-separation packet is reduced further to one finite geometric support theorem: positive selector-good mass in a fixed family of projective eigen-caps.
+
+    Proof. Fix r and write any S(N a) as = u + r+ with u + r and 2+ 2=1. If C +,r , then 2 1- . Since every eigenvalue of A r lies in [-1,1],
+
+    So one stronger exact sufficient realization of the sign-separation packet is: cap-comparability on the finite eigen-cap list.
+
+    So the finite eigen-cap occupancy packet is reduced further to one finite localized lower-mass theorem on smooth test functions supported inside those caps.
+
+    So on regular selector-good windows the only genuinely new constructive burden left on this route is the entrance-time finite bump packet.
+
+    So one stronger entrance-geometry realization of the remaining shape primitive is finite initial directional comparability only on the core-cap family.
+
+    So if the entrance pair measure is the normalized active-neighbor counting measure, the remaining shape primitive becomes purely combinatorial: one neighbor in each finite core cap.
+
+    So once the shape route uses the normalized active-neighbor fiber of the existing graph measure, the entrance core-cap packet becomes a fiberwise active neighbor counting theorem.
+
+    So on the canonical graph-fiber route, the remaining shape primitive is equivalently one finite lower-density theorem for the entrance pair directions on each active neighbor fiber.
+
+
+
+    \subsection{Selector-Strain Compatibility For Synchronized Projector}
+
+    The true projector-identification burden on the spectral-gap / projector branch is the compatibility between the synchronized reference projector and the top segment projector. This is the second hard-debt surface on the exact discharge route. On the exact-potential selector-strain side, the first concrete theorem attack now runs through the branch-local notes
+
+    \[
+    \boxed{
+    (\Pi_J^{ref},\ W_J,\ g_J^{str})
+    \Longrightarrow
+    \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+    \le C_{\mathrm{sf},59275}
+    |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
+    }
+    \]
+
+    \[
+    \|\widehat P_J-P_{J,\top}^{seg}\|_F
+    \le
+    \|\widehat P_J-\Pi_J^{ref}\|_F
+    +
+    \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F.
+    \]
+
+    The spectral gap / Davis--Kahan note discharges the first term. The compatibility theorem discharges the second.
+
+    \[
+    \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+    \le C_{\mathrm{sf},59292}
+    |W_J|^2+\mathrm{Err}_{J,\mathrm{ssc}}.
+    \]
+
+    \[
+    \Pi_J^{ref}
+    \quad\text{= synchronized reference projector,}
+    \]
+
+    \[
+    P_{J,\top}^{seg}
+    \quad\text{= true instantaneous top-strain projector,}
+    \]
+
+    Use the synchronization packet to keep J ref coherent on the transported good family. Use the selector-good strain packet to define the true top-strain projector with gap protection. Compare the synchronized reference object to the true strain object by the measurable-derivative / normal-covector route. Record all residual mismatch in Err J, ssc .
+
+    In particular, the on-disk sufficiency chain runs through D.7mp, D.7mo, and the bootstrap/commutator packets D.7mm, D.7mf, D.7mk.
+
+    Keep one selector-good atom-free window I 0 and assume the hypotheses of Corollary D.7mp, Corollary D.7mo, and Corollary D.7mm on that window. Set
+
+    Keep the same branch and assume the hypotheses of Corollary D.7mf and Corollary D.7mk. Set
+
+
+
+    \subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}
+
+    D.7mp supplies the reference-direction packet; D.7mo supplies the Cauchy--Green reference-gap persistence packet; D.7mm supplies the bootstrap / commutator / source smallness packet.
+
+    \[
+    \bigl\|
+    P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
+    \bigr\|_F^2
+    \le C_{\mathrm{sf},59323}
+    \operatorname{Err}_{J,\mathrm{ssc}}^{CG}(a,b,t),
+    \]
+
+    where the branch-local selector-strain record is controlled by the same packets that appear in D.7mp, D.7mo, and D.7mm.
+
+    \[
+    E_{J,t_0}^{CG}(t,a)\le \frac{g_0}{4}
+    \Longrightarrow
+    \operatorname{gap}_J^{CG}(t,a)\ge \frac{g_0}{2}.
+    \]
+
+    This packet controls the transported reference direction and keeps the reference-direction forcing Gronwall-small on the selector-good strip.
+
+    This packet controls the residual source side of the selector-strain argument, in particular the D.7mb strip budgets
+
+    \[
+    |m_J(t_0,a,b)|,
+    \qquad
+    \eta_{J,\mathrm{off}}^{mb}(t,a,b),
+    \qquad
+    \eta_{J,\mathrm{var}}^{mb}(t,a,b).
+    \]
+
+    \[
+    \bigl\|
+    P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
+    \bigr\|_F^2
+    \le C_{\mathrm{sf},59351}
+    \eta_J^{mb}(t,a,b)^2/g_0^2,
+    \]
+
+    That is the exact selector-strain input consumed by the branch-facing angular record note.
+
+
+
+    \subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}
+
+    Active theorem-facing selector-strain note for the exact-potential simple-top branch.
+
+    \[
+    \|\Pi_J^{ref}-P_{J,\top}^{seg}\|_F^2
+    \le C_{\mathrm{sf},59364}
+    \mathrm{Err}_{J,\mathrm{ssc}}.
+    \]
+
+    \[
+    \Pi_J^{ref}
+    \quad\text{is transported coherently on the strip,}
+    \]
+
+    \[
+    |m_J(t_0)|.
+    \]
+
+    \[
+    g_J^{ref}(t)\ge \frac12 g_J^{ref}(t_0)
+    \qquad
+    (t\in I).
+    \]
+
+    This is the exact role of Corollary D.7mo: the top eigenspace of the restricted Cauchy--Green tensor remains rigid on the entire strip once the reference-gap persistence hypotheses hold.
+
+    \[
+    \int_I
+    \bigl|Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J\bigr|
+    \le
+    \mathrm{Err}_{J,\mathrm{off}},
+    \]
+
+    and the remaining bootstrap / commutator package is the linear-plus-quadratic control already isolated in Corollary D.7mm.
+
+    Here Err J, boot denotes the commutator / quadratic bootstrap remainder already packaged by D.7mm.
+
+
+
+    \subsection{Selector-Weight Lower Envelope Result}
+
+    \[
+    w_j(x,t)\ge m_j>0
+    \qquad (x,t)\in\Gamma_j(t)\times I_j.
+    \]
+
+    \[
+    w_j(x,t)=1
+    \qquad (x,t)\in\Gamma_j(t)\times I_j.
+    \]
+
+    \[
+    m_j=1.
+    \]
+
+    \[
+    w_j(x,t)\ge m_*>0
+    \qquad (x,t)\in\Gamma_j(t)\times I_j,
+    \]
+
+    \[
+    m_j^{-1}\kappa_W\le\kappa_U
+    \]
+
+    A general cutoff weight can vanish at the support boundary. If the persistent support includes boundary points where w j=0, then no positive lower envelope exists on the closed support.
+
+    Then weighted speed control implies the amplitude/speed gate consumed by the collar closure.
+
+    This file supplies a conversion theorem. It also identifies the geometric burden: prove the active persistent support lies inside a positive-weight plateau, or move to a weighted collar theorem.
+
+
+
+    \subsection{Spectral Carrier-Floor-Leakage Direction Note}
+
+    \[
+    \partial_t \hat u(k,t)
+    +
+    \nu |k|^2 \hat u(k,t)
+    =
+    -\mathbb P_k \sum_{\ell+m=k}
+    \big(\hat u(\ell,t)\cdot i m\big)\hat u(m,t).
+    \]
+
+    \[
+    \partial_t u + (u\cdot\nabla)u + \nabla p = \nu\Delta u,
+    \qquad
+    \nabla\cdot u = 0.
+    \]
+
+    So the local PDE and the spectral mode law are the same equation in different coordinates.
+
+    Differentiating (2) corresponds in frequency to multiplying (1) by powers of ik or |k|.
+
+    \[
+    \widehat{\partial_x^\alpha \partial_t^m u}(k,t)
+    =
+    (ik)^\alpha \partial_t^m \hat u(k,t).
+    \]
+
+    Thus the ordered tower is not a separate problem. It is the frequency mode equation observed through higher weights.
+
+    So parity is a bookkeeping lens for sorting the tower into even/odd channels and tracking transfer. It is not a separate PDE, and it does not determine the closure argument.
+
+    \[
+    -\nu |k|^2 \hat u(k,t).
+    \]
+
+    \[
+    \sum_{\ell+m=k}
+    \big(\hat u(\ell,t)\cdot i m\big)\hat u(m,t).
+    \]
+
+    T 0 is the tail state; Q 0 is the spectral floor / viscous damping; the right-hand side is the leakage.
+
+    If (9) holds on the classical surface, then the tail cannot refill faster than dissipation plus controlled carrier forcing allow.
+
+    At present the strongest base-order theorem surface in this direction is the s=0 tail-energy closure.
+
+    The higher weighted analogues belong to the gradient/enstrophy-tail side and are not yet rewritten in this exact spectral language here.
+
+    One extra derivative changes the supported carrier surface. The live weighted carrier is
+
+    That is the only genuinely open weighted analytic burden on the current supported surface.
+
+    The correct upgrade of the lifted packet is also not a better shellwise absolute-value estimate.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Persistent Transport Export And Probe Realization Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60667
+  line_start: 60667
+  line_end: 60708
+  start_anchor: "\\subsection{Selector-Persistent Transport Export And Probe Realization
+    Result}\n"
+  end_anchor: "\\subsection{Selector Plateau Fixed-Collar Buffer Construction Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Persistent Transport
+    Export And Probe Realization Result as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60667
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector Plateau Fixed-Collar Buffer Construction Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60709
+  line_start: 60709
+  line_end: 60750
+  start_anchor: "\\subsection{Selector Plateau Fixed-Collar Buffer Construction Result}\n"
+  end_anchor: "\\subsection{Selector Quadratic Sign-Separation Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector Plateau Fixed-Collar
+    Buffer Construction Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60709
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector Quadratic Sign-Separation Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60751
+  line_start: 60751
+  line_end: 60801
+  start_anchor: "\\subsection{Selector Quadratic Sign-Separation Packet}\n"
+  end_anchor: "\\subsection{Selector-Strain Compatibility For Synchronized Projector}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector Quadratic Sign-Separation
+    Packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60751
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Strain Compatibility For Synchronized Projector
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60802
+  line_start: 60802
+  line_end: 60850
+  start_anchor: "\\subsection{Selector-Strain Compatibility For Synchronized Projector}\n"
+  end_anchor: "\\subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Strain Compatibility
+    For Synchronized Projector as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60802
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Strain Sufficiency D7mp D7mo D7mm
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60851
+  line_start: 60851
+  line_end: 60893
+  start_anchor: "\\subsection{Selector-Strain Sufficiency D7mp D7mo D7mm}\n"
+  end_anchor: "\\subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Strain Sufficiency D7mp
+    D7mo D7mm as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60851
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60894
+  line_start: 60894
+  line_end: 60932
+  start_anchor: "\\subsection{Selector-Strain Sufficiency Packet D.7mp D.7mo D.7mm}\n"
+  end_anchor: "\\subsection{Selector-Weight Lower Envelope Result}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Strain Sufficiency Packet
+    D.7mp D.7mo D.7mm as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60894
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selector-Weight Lower Envelope Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60933
+  line_start: 60933
+  line_end: 60964
+  start_anchor: "\\subsection{Selector-Weight Lower Envelope Result}\n"
+  end_anchor: "\\subsection{SG4 Lower-Envelope And Continuation Handoff}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selector-Weight Lower Envelope
+    Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60933
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Spectral Carrier-Floor-Leakage Direction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61516
+  line_start: 61516
+  line_end: 61570
+  start_anchor: "\\subsection{Spectral Carrier-Floor-Leakage Direction Note}\n"
+  end_anchor: "\\subsection{Spectral Gap Rigidity And Projector Identification Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Spectral Carrier-Floor-Leakage
+    Direction Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61516
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-16
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-16.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

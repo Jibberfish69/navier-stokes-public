@@ -192,7 +192,8 @@ Hence on `[t_0,t_0+h]`,
 
 ```math
 \|A(t)-A_*\|_{W^{1,\infty}}
-\lesssim
+\le
+C_A
 \int_{t_0}^t
 \Psi_A\big(\|A(\tau)\|_{W^{1,\infty}},\|\nabla_a v(\tau)\|_{W^{1,\infty}},\|\nabla_a^2 v(\tau)\|_{L^\infty}\big)\,d\tau,
 \tag{15}
@@ -202,7 +203,8 @@ and similarly
 
 ```math
 \|G(t)-G_*\|_{W^{1,\infty}}
-\lesssim
+\le
+C_G
 \int_{t_0}^t
 \Phi\big(\|A(\tau)\|_{W^{1,\infty}},\|\nabla_a v(\tau)\|_{W^{1,\infty}},\|\nabla_a^2 v(\tau)\|_{L^\infty}\big)\,d\tau.
 \tag{16}
@@ -228,7 +230,8 @@ More explicitly,
 \|\mu\|_{L_t^\infty W_x^{1,\infty}}
 +
 \|\eta\|_{L_t^\infty W_x^{1,\infty}}
-\lesssim
+\le
+C_{\mu\eta}
 \int_{t_0}^{t_0+h}
 \Psi\big(\|A(\tau)\|_{W_a^{1,\infty}},\|G(\tau)\|_{W_a^{1,\infty}},
 \|\nabla_a v(\tau)\|_{W_a^{1,\infty}},\|\nabla_a^2 v(\tau)\|_{L^\infty}\big)\,d\tau.
@@ -252,7 +255,8 @@ so for `s>\frac52`,
 
 ```math
 \|\partial_t\mu\|_{H_x^s}
-\lesssim
+\le
+C_s
 P\!\big(\|M\|_{H_x^s\cap W_x^{1,\infty}}\big)\,
 \|w\|_{H_x^{s+1}}.
 \tag{17c}
@@ -262,7 +266,8 @@ Since `\mu(t_0)=0`, this yields the short-slab gain
 
 ```math
 \|\mu\|_{L_t^\infty H_x^s([t_0,t_0+h])}
-\lesssim
+\le
+C_s
 h^{1/2}\,
 P\!\big(\|M\|_{L_t^\infty(H_x^s\cap W_x^{1,\infty})}\big)\,
 \|w\|_{L_t^2H_x^{s+1}([t_0,t_0+h])}.

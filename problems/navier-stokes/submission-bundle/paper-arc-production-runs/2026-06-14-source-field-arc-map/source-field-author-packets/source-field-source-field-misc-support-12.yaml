@@ -1,0 +1,973 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-12
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-12
+  sequence: 164
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 12
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 11440
+  line_end: 11705
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11440
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11462
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11522
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11569
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11604
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11632
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11669
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11686
+  subsection_titles:
+  - Live Frontier Honest-Cut Reduction
+  - Localized Projector Angular-Forcing Record Reduction
+  - Localized Projector Coarse Overlap Is an F.1 Consumer
+  - Localized Projector Coarse Overlap Is a Familywise Summability Consumer
+  - Localized Projector Coarse Overlap Is a Retained-Cover Counting Consumer
+  - Localized Projector Coarse Route Bypasses Force-Ceiling Via Angular-Forcing Record
+  - Localized Projector Coarse Route Collapses to One Familywise Summability Theorem
+  - Localized Projector Coarse Route Collapses to One Retained-Cover Counting Theorem
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Live Frontier Honest-Cut Reduction
+    line_start: 11440
+    line_end: 11461
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11440
+    start_anchor: "\\subsection{Live Frontier Honest-Cut Reduction}\n"
+    end_anchor: "\\subsection{Localized Projector Angular-Forcing Record Reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Live Frontier Honest-Cut Reduction}
+
+      The older TPS / exact-potential honest-cut survives as branch-local
+      downstream/readout context. It is not the current argument-wide frontier.
+
+      On the Euclidean strict-shadow branch, the exact strict-shadow hypotheses make
+      both \(\mathrm{ShadowDef}(X)\) and \(E^{sh}(X)\) vanish. The remaining Route A
+      burdens are full-data lift coverage, exact Euclidean strict shadow, and global
+      Euclidean carrier control. On the realized classical carrier, the first two
+      collapse, leaving the carrier control burden on that realized subbranch.
+
+      The one TPS-local theorem wall is the selector-adapted defect-to-strain
+      theorem. Inside the preserved exact-potential branch, this splits into the
+      cycle-exact polarization/alignment theorem that turns signless \(W_J\) into a
+      one-sided directional deficit, and the normal-covector sufficient upgrades
+      recorded by the PSJ+ and PSJ+.1 refinements.
+
+      The status is historical support. These refinements remain valid theorem
+      material, but under the current class-membership edge they are downstream
+      readout context rather than seven independent live frontier lemmas.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Angular-Forcing Record Reduction
+    line_start: 11462
+    line_end: 11521
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11462
+    start_anchor: "\\subsection{Localized Projector Angular-Forcing Record Reduction}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Angular-Forcing Record Reduction}
+
+      The localized-projector forcing side is sharpened by replacing the coarse
+      time-dependent linear \(J\)-forcing convolution with the exact angular-forcing
+      density
+
+      \[
+      \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)},
+      \]
+
+      \[
+      g_J(a,b,s)\ge \gamma_\ast>0;
+      \]
+
+      \[
+      \varepsilon_{J,\mathrm{sync}}^{loc}(x,t)
+      \le
+      e^{-\frac{\gamma_\ast}{2}\tau_{x,t}}\,q_\ast(x,t)
+      +
+      \frac{1}{m_J(x,t)}
+      \int
+      w_{J,x,t}(a,b)
+      \int_{t-\tau_{x,t}}^{t}
+      e^{-\frac{\gamma_\ast}{2}(t-s)}
+      \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)}
+      \,ds\,
+      d\mu_J^{pair}(a,b).
+      \]
+
+      \[
+      g_J(a,b,s)\ge \gamma_\ast>0
+      \qquad\text{on every }\Lambda_\ell.
+      \]
+
+      \[
+      \varepsilon_{\ell}^{force}
+      :=
+      \frac{1}{m_\ell}
+      \int
+      w_\ell(a,b,t)
+      \int_{t-\tau_\ell}^{t}
+      e^{-\frac{\gamma_\ast}{2}(t-s)}
+      \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)}
+      \,ds\,
+      d\mu_J^{pair}(a,b)\,dt.
+      \]
+
+      The adiabatic localized forcing side is then charged to the installed record
+      D.7ie3. There are two entrance routes. On the material-gap route, the remaining
+      globalization wall is the entrance envelope \(q_J^{mat}\), the pair-family
+      forcing record D.7ie1, and the coverage packet. On the auxiliary-projector
+      route, the same role is played by \(q_J^{aux}\), D.7ie1, and the coverage
+      packet.
+
+      The status is reduction-closed for the local forcing expression. The remaining
+      forcing debt is not a new local theorem; it is the already recognized
+      pair-family forcing budget plus the coverage packet that transports local
+      window estimates into the global synchronization channel.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Overlap Is an F.1 Consumer
+    line_start: 11522
+    line_end: 11568
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11522
+    start_anchor: "\\subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Familywise Summability
+      Consumer}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}
+
+      The coarse normalized-kernel overlap route consumes only the retained-cover /
+      bounded-overlap side governed by (F.1). It does not consume the whole retained
+      family packet V3.
+
+      \[
+      \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      This quantity belongs to the F.1 side of the retained-family packet, not to the
+      observation/error series (F.6)--(F.7).
+
+      \[
+      \sum_k\int_{\mathcal J_k}\mathcal B_{J,\beta}^{force}(a,b;I_k)\,d\mu_J^{pair}
+      \le
+      N_{\mathrm{ov}}
+      \int_{\mathcal J}\int_I
+      \frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+      \,dt\,d\mu_J^{pair}(a,b).
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      \[
+      \mathrm{Overlap}_{J,\mathrm{coarse}}
+      \le
+      \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      N_{\mathrm{ov}}\,|I|\,\mu_J^{pair}(\mathcal J),
+      \]
+
+      Fine mode keeps the kernel geometry and pays one localizer-modulus /
+      center-spacing theorem. Coarse mode normalizes the kernels and hands the
+      overlap price to the retained-cover / bounded-overlap side. The status is a
+      routing reduction only: (F.1) is still an upstream theorem wall, and V3 remains
+      available downstream where the full retained-family packet is needed.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Overlap Is a Familywise Summability
+      Consumer
+    line_start: 11569
+    line_end: 11603
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11569
+    start_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Familywise
+      Summability Consumer}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Retained-Cover
+      Counting Consumer}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Overlap Is a Familywise Summability Consumer}
+
+      The coarse normalized-kernel overlap route consumes the same scalar summability
+      wall that prices the retained drift windows against
+      \(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\).
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      \[
+      \mathrm{Overlap}_{J,\mathrm{coarse}}
+      \le
+      \frac{4N_\Lambda^2M_{\mathrm{sub}}}{\gamma_\ast^2}
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k),
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+      \]
+
+      \[
+      \mathrm{Overlap}_{J,\mathrm{coarse}}
+      \le
+      C'\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr),
+      \]
+
+      The status is a scalar-wall identification. Coarse overlap carries no
+      independent geometric wall after this reduction; the live burden is the same
+      familywise summability theorem already isolated by the older exact-potential
+      synchronization packet after local force-ceiling.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Overlap Is a Retained-Cover Counting
+      Consumer
+    line_start: 11604
+    line_end: 11631
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11604
+    start_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Retained-Cover
+      Counting Consumer}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Route Bypasses Force-Ceiling
+      Via Angular-Forcing Record}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Overlap Is a Retained-Cover Counting Consumer}
+
+      The primitive geometric quantity consumed by coarse normalized-kernel overlap
+      is the retained-cover counting law
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      \[
+      \mathrm{Overlap}_{J,\mathrm{coarse}}
+      \le
+      \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      N_{\mathrm{ov}}\,|I|\,\mu_J^{pair}(\mathcal J),
+      \]
+
+      This is sharper than saying that the route consumes all of (F.1). The status is
+      counting-support: the overlap price has been reduced to the retained-cover
+      count, and the count still has to be supplied by the retained-family or
+      summability packet.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Route Bypasses Force-Ceiling Via
+      Angular-Forcing Record
+    line_start: 11632
+    line_end: 11668
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11632
+    start_anchor: "\\subsection{Localized Projector Coarse Route Bypasses Force-Ceiling
+      Via Angular-Forcing Record}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Familywise
+      Summability Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Route Bypasses Force-Ceiling Via Angular-Forcing Record}
+
+      The older exact-potential synchronization packet used a force-ceiling wall. On
+      the installed localized-projector packet, the drift side has a sharper
+      angular-forcing reduction:
+
+      \[
+      \varepsilon_\ell
+      \le
+      e^{-\frac{\gamma_\ast}{2}\tau_\ell}X_\ell
+      +
+      \varepsilon_\ell^{force},
+      \]
+
+      \[
+      \sum_\ell m_\ell\varepsilon_\ell^{force}
+      \le
+      \frac{2N_{\mathrm{cov}}}{\gamma_\ast}
+      \int_I\int_{\mathcal J}\frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+      \,d\mu_J^{pair}(a,b)\,dt,
+      \]
+
+      \[
+      \int_I\int_{\mathcal J}\mathcal M_\Lambda X\,d\mu_J^{pair}\,dt
+      +
+      \int_I\int_{\mathcal J}\frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+      \,d\mu_J^{pair}(a,b)\,dt
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr)
+      \]
+
+      This bypasses the separate force-ceiling theorem on the coarse localized route.
+      The route still needs the entrance envelope, pair-family angular-forcing
+      record, and coverage/summability packet. Its gain is that the drift side is
+      charged in the sharper \(\beta_J^2/g_J\) currency.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Route Collapses to One Familywise
+      Summability Theorem
+    line_start: 11669
+    line_end: 11685
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11669
+    start_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One
+      Familywise Summability Theorem}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Retained-Cover
+      Counting Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Route Collapses to One Familywise Summability Theorem}
+
+      Combining the coarse overlap reduction with the angular-forcing record leaves
+      one scalar theorem on this route:
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      Fine mode pays a maximal-envelope entrance theorem, D.7ie1/D.7ie3, and a
+      localizer-modulus / center-spacing overlap theorem. Coarse mode pays the same
+      entrance and forcing records, plus this one familywise summability theorem.
+      This is a route endpoint, not a proof that the endpoint theorem has been paid.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Localized Projector Coarse Route Collapses to One Retained-Cover
+      Counting Theorem
+    line_start: 11686
+    line_end: 11705
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11686
+    start_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One
+      Retained-Cover Counting Theorem}\n"
+    end_anchor: "\\subsection{Localized Projector Coarse Route Reduces to Force-Ceiling
+      Plus Familywise Summation}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Localized Projector Coarse Route Collapses to One Retained-Cover Counting Theorem}
+
+      On the installed localized-projector packet, the sharpest coarse-route endpoint
+      is the retained-cover counting theorem
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k);
+      \]
+
+      \[
+      \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+      \le
+      C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+      \]
+
+      This is the scalar theorem whose proof would close the minimal coarse route.
+      The paper keeps it separate from the stronger fine route so the reader can see
+      which theorem is actually being used.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Live Frontier Honest-Cut Reduction}
+
+    The older TPS / exact-potential honest-cut survives as branch-local
+    downstream/readout context. It is not the current argument-wide frontier.
+
+    On the Euclidean strict-shadow branch, the exact strict-shadow hypotheses make
+    both \(\mathrm{ShadowDef}(X)\) and \(E^{sh}(X)\) vanish. The remaining Route A
+    burdens are full-data lift coverage, exact Euclidean strict shadow, and global
+    Euclidean carrier control. On the realized classical carrier, the first two
+    collapse, leaving the carrier control burden on that realized subbranch.
+
+    The one TPS-local theorem wall is the selector-adapted defect-to-strain
+    theorem. Inside the preserved exact-potential branch, this splits into the
+    cycle-exact polarization/alignment theorem that turns signless \(W_J\) into a
+    one-sided directional deficit, and the normal-covector sufficient upgrades
+    recorded by the PSJ+ and PSJ+.1 refinements.
+
+    The status is historical support. These refinements remain valid theorem
+    material, but under the current class-membership edge they are downstream
+    readout context rather than seven independent live frontier lemmas.
+
+
+
+    \subsection{Localized Projector Angular-Forcing Record Reduction}
+
+    The localized-projector forcing side is sharpened by replacing the coarse
+    time-dependent linear \(J\)-forcing convolution with the exact angular-forcing
+    density
+
+    \[
+    \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)},
+    \]
+
+    \[
+    g_J(a,b,s)\ge \gamma_\ast>0;
+    \]
+
+    \[
+    \varepsilon_{J,\mathrm{sync}}^{loc}(x,t)
+    \le
+    e^{-\frac{\gamma_\ast}{2}\tau_{x,t}}\,q_\ast(x,t)
+    +
+    \frac{1}{m_J(x,t)}
+    \int
+    w_{J,x,t}(a,b)
+    \int_{t-\tau_{x,t}}^{t}
+    e^{-\frac{\gamma_\ast}{2}(t-s)}
+    \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)}
+    \,ds\,
+    d\mu_J^{pair}(a,b).
+    \]
+
+    \[
+    g_J(a,b,s)\ge \gamma_\ast>0
+    \qquad\text{on every }\Lambda_\ell.
+    \]
+
+    \[
+    \varepsilon_{\ell}^{force}
+    :=
+    \frac{1}{m_\ell}
+    \int
+    w_\ell(a,b,t)
+    \int_{t-\tau_\ell}^{t}
+    e^{-\frac{\gamma_\ast}{2}(t-s)}
+    \frac{\beta_J(a,b,s)^2}{g_J(a,b,s)}
+    \,ds\,
+    d\mu_J^{pair}(a,b)\,dt.
+    \]
+
+    The adiabatic localized forcing side is then charged to the installed record
+    D.7ie3. There are two entrance routes. On the material-gap route, the remaining
+    globalization wall is the entrance envelope \(q_J^{mat}\), the pair-family
+    forcing record D.7ie1, and the coverage packet. On the auxiliary-projector
+    route, the same role is played by \(q_J^{aux}\), D.7ie1, and the coverage
+    packet.
+
+    The status is reduction-closed for the local forcing expression. The remaining
+    forcing debt is not a new local theorem; it is the already recognized
+    pair-family forcing budget plus the coverage packet that transports local
+    window estimates into the global synchronization channel.
+
+
+
+    \subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}
+
+    The coarse normalized-kernel overlap route consumes only the retained-cover /
+    bounded-overlap side governed by (F.1). It does not consume the whole retained
+    family packet V3.
+
+    \[
+    \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    This quantity belongs to the F.1 side of the retained-family packet, not to the
+    observation/error series (F.6)--(F.7).
+
+    \[
+    \sum_k\int_{\mathcal J_k}\mathcal B_{J,\beta}^{force}(a,b;I_k)\,d\mu_J^{pair}
+    \le
+    N_{\mathrm{ov}}
+    \int_{\mathcal J}\int_I
+    \frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+    \,dt\,d\mu_J^{pair}(a,b).
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    \[
+    \mathrm{Overlap}_{J,\mathrm{coarse}}
+    \le
+    \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    N_{\mathrm{ov}}\,|I|\,\mu_J^{pair}(\mathcal J),
+    \]
+
+    Fine mode keeps the kernel geometry and pays one localizer-modulus /
+    center-spacing theorem. Coarse mode normalizes the kernels and hands the
+    overlap price to the retained-cover / bounded-overlap side. The status is a
+    routing reduction only: (F.1) is still an upstream theorem wall, and V3 remains
+    available downstream where the full retained-family packet is needed.
+
+
+
+    \subsection{Localized Projector Coarse Overlap Is a Familywise Summability Consumer}
+
+    The coarse normalized-kernel overlap route consumes the same scalar summability
+    wall that prices the retained drift windows against
+    \(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\).
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    \[
+    \mathrm{Overlap}_{J,\mathrm{coarse}}
+    \le
+    \frac{4N_\Lambda^2M_{\mathrm{sub}}}{\gamma_\ast^2}
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k),
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
+    \]
+
+    \[
+    \mathrm{Overlap}_{J,\mathrm{coarse}}
+    \le
+    C'\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr),
+    \]
+
+    The status is a scalar-wall identification. Coarse overlap carries no
+    independent geometric wall after this reduction; the live burden is the same
+    familywise summability theorem already isolated by the older exact-potential
+    synchronization packet after local force-ceiling.
+
+
+
+    \subsection{Localized Projector Coarse Overlap Is a Retained-Cover Counting Consumer}
+
+    The primitive geometric quantity consumed by coarse normalized-kernel overlap
+    is the retained-cover counting law
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    \[
+    \mathrm{Overlap}_{J,\mathrm{coarse}}
+    \le
+    \frac{16N_\Lambda^2M_{\mathrm{sub}}}{\overline\gamma_\ast^2}
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k).
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    N_{\mathrm{ov}}\,|I|\,\mu_J^{pair}(\mathcal J),
+    \]
+
+    This is sharper than saying that the route consumes all of (F.1). The status is
+    counting-support: the overlap price has been reduced to the retained-cover
+    count, and the count still has to be supplied by the retained-family or
+    summability packet.
+
+
+
+    \subsection{Localized Projector Coarse Route Bypasses Force-Ceiling Via Angular-Forcing Record}
+
+    The older exact-potential synchronization packet used a force-ceiling wall. On
+    the installed localized-projector packet, the drift side has a sharper
+    angular-forcing reduction:
+
+    \[
+    \varepsilon_\ell
+    \le
+    e^{-\frac{\gamma_\ast}{2}\tau_\ell}X_\ell
+    +
+    \varepsilon_\ell^{force},
+    \]
+
+    \[
+    \sum_\ell m_\ell\varepsilon_\ell^{force}
+    \le
+    \frac{2N_{\mathrm{cov}}}{\gamma_\ast}
+    \int_I\int_{\mathcal J}\frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+    \,d\mu_J^{pair}(a,b)\,dt,
+    \]
+
+    \[
+    \int_I\int_{\mathcal J}\mathcal M_\Lambda X\,d\mu_J^{pair}\,dt
+    +
+    \int_I\int_{\mathcal J}\frac{\beta_J(a,b,t)^2}{g_J(a,b,t)}
+    \,d\mu_J^{pair}(a,b)\,dt
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr)
+    \]
+
+    This bypasses the separate force-ceiling theorem on the coarse localized route.
+    The route still needs the entrance envelope, pair-family angular-forcing
+    record, and coverage/summability packet. Its gain is that the drift side is
+    charged in the sharper \(\beta_J^2/g_J\) currency.
+
+
+
+    \subsection{Localized Projector Coarse Route Collapses to One Familywise Summability Theorem}
+
+    Combining the coarse overlap reduction with the angular-forcing record leaves
+    one scalar theorem on this route:
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    Fine mode pays a maximal-envelope entrance theorem, D.7ie1/D.7ie3, and a
+    localizer-modulus / center-spacing overlap theorem. Coarse mode pays the same
+    entrance and forcing records, plus this one familywise summability theorem.
+    This is a route endpoint, not a proof that the endpoint theorem has been paid.
+
+
+
+    \subsection{Localized Projector Coarse Route Collapses to One Retained-Cover Counting Theorem}
+
+    On the installed localized-projector packet, the sharpest coarse-route endpoint
+    is the retained-cover counting theorem
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k);
+    \]
+
+    \[
+    \sum_k |I_k|\,\mu_J^{pair}(\mathcal J_k)
+    \le
+    C\bigl(\mathcal E_J^{obs}(I)+\mathrm{Err}_{J,\mathrm{pair}}(I)\bigr).
+    \]
+
+    This is the scalar theorem whose proof would close the minimal coarse route.
+    The paper keeps it separate from the stronger fine route so the reader can see
+    which theorem is actually being used.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Live Frontier Honest-Cut Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11440
+  line_start: 11440
+  line_end: 11461
+  start_anchor: "\\subsection{Live Frontier Honest-Cut Reduction}\n"
+  end_anchor: "\\subsection{Localized Projector Angular-Forcing Record Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Live Frontier Honest-Cut Reduction
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11440
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Angular-Forcing Record Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11462
+  line_start: 11462
+  line_end: 11521
+  start_anchor: "\\subsection{Localized Projector Angular-Forcing Record Reduction}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Angular-Forcing
+    Record Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11462
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Overlap Is an F.1 Consumer
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11522
+  line_start: 11522
+  line_end: 11568
+  start_anchor: "\\subsection{Localized Projector Coarse Overlap Is an F.1 Consumer}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Familywise Summability
+    Consumer}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Overlap
+    Is an F.1 Consumer as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11522
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Overlap Is a Familywise Summability
+    Consumer
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11569
+  line_start: 11569
+  line_end: 11603
+  start_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Familywise Summability
+    Consumer}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Retained-Cover
+    Counting Consumer}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Overlap
+    Is a Familywise Summability Consumer as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11569
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Overlap Is a Retained-Cover Counting
+    Consumer
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11604
+  line_start: 11604
+  line_end: 11631
+  start_anchor: "\\subsection{Localized Projector Coarse Overlap Is a Retained-Cover
+    Counting Consumer}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Route Bypasses Force-Ceiling
+    Via Angular-Forcing Record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Overlap
+    Is a Retained-Cover Counting Consumer as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11604
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Route Bypasses Force-Ceiling Via Angular-Forcing
+    Record
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11632
+  line_start: 11632
+  line_end: 11668
+  start_anchor: "\\subsection{Localized Projector Coarse Route Bypasses Force-Ceiling
+    Via Angular-Forcing Record}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Familywise
+    Summability Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Route
+    Bypasses Force-Ceiling Via Angular-Forcing Record as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11632
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Route Collapses to One Familywise Summability
+    Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11669
+  line_start: 11669
+  line_end: 11685
+  start_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Familywise
+    Summability Theorem}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Retained-Cover
+    Counting Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Route
+    Collapses to One Familywise Summability Theorem as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11669
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Localized Projector Coarse Route Collapses to One Retained-Cover
+    Counting Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11686
+  line_start: 11686
+  line_end: 11705
+  start_anchor: "\\subsection{Localized Projector Coarse Route Collapses to One Retained-Cover
+    Counting Theorem}\n"
+  end_anchor: "\\subsection{Localized Projector Coarse Route Reduces to Force-Ceiling
+    Plus Familywise Summation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Localized Projector Coarse Route
+    Collapses to One Retained-Cover Counting Theorem as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:11686
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-12
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-12.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

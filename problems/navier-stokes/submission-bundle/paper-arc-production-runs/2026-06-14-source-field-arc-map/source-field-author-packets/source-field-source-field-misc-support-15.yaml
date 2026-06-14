@@ -1,0 +1,945 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-15
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-15
+  sequence: 167
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 15
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 13157
+  line_end: 13513
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13157
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13266
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13296
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13351
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13367
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13429
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13444
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13499
+  subsection_titles:
+  - Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg Repair
+  - Aact Kx Local Absorption Repaired Bootstrap Lemma Aact Kx
+  - Aact Kx Local Averaged Budget Audit
+  - Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx
+  - Aact Kx Scheduler Seed Obstruction Aact Kx
+  - 'Conditional completion packet: items 1-12'
+  - Active ASAC work plan after No Incoming audit
+  - Active-shell amplitude gain from Original Smooth Data - failed discharge
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg Repair
+    line_start: 13157
+    line_end: 13212
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13157
+    start_anchor: "\\subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A
+      Avg Repair}\n"
+    end_anchor: "\\subsection{Aact Kx Local Absorption Discharge Via Coefficient Demotion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg Repair}
+
+      This repair states exactly where the restart seed comes from inside the
+      no-\(\mathrm{Jump}_{avg}\) scheduler argument.
+
+      \[
+      X_R(s_k)\le\eta_X
+      \]
+
+      \[
+      \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+      \]
+
+      \[
+      D^+X_{j,p}+cN_{j,p}
+      \le
+      B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p},
+      \]
+
+      \[
+      B_{j,p},F_{j,p}\in L^1.
+      \]
+
+      \[
+      \mathcal T'
+      \subset
+      \bigcup_{j=1}^{J}Q_{r_j}^{\Phi}(a_j,t_j),
+      \qquad
+      r_j\ge r_*>0,
+      \qquad
+      \operatorname{ovlp}\le\Omega.
+      \]
+
+      Shrink and color the cover once. The shrunken cover still has a common lower
+      radius \(r_*>0\).
+
+      This interior refinement gives room for scheduler restarts. Each restart
+      material-time point lies inside a shrunken SCF-good cylinder whose radius is at
+      least \(r_*\).
+
+      At a restart time \(\tau_\alpha\), for each active cover element and route
+      parameter, choose the fresh same-fluid SCF-good cylinder centered at the
+      restart material-time point and shrink it by the \(ATD_m\) factor
+      \(\theta_m\).
+
+      This is the restart seed. The seed is produced in the newly chosen restart frame. The previous scheduler cell contributes only completed local packets to the finite-overlap sum.
+
+      The finite scheduler uses the common pair \(B_*,F_*\), so the partition works
+      simultaneously for every active cover element and every route parameter.
+
+      The affine pressure, viscous, cutoff, source, and far-pressure records are
+      already included in the local \(F_{\alpha,j,p}\) and
+      \(\mathcal K^{avg}_{\le m,\alpha,j,p}\) packets. Finite summation preserves
+      their \(L^1\) bounds.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Local Absorption Repaired Bootstrap Lemma Aact Kx
+    line_start: 13266
+    line_end: 13295
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13266
+    start_anchor: "\\subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma
+      Aact Kx}\n"
+    end_anchor: "\\subsection{Aact Kx Local Averaged Budget Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma Aact Kx}
+
+      Let \(X_R(t)\) denote the averaged affine-excess control variable and \(N_R(t)\)
+      its dissipative term on an averaged ACT interval \(I\). Assume the repaired
+      local budget has the form
+      \[
+      D^+X_R+cN_R
+      \le
+      B_RX_R+C_*X_R^{1/2}N_R+F_R,
+      \qquad
+      B_R,F_R\in L^1(I).
+      \]
+
+      If \(X_R(s)\le\eta\), \(2C_*\eta^{1/2}\le c/4\), and the scheduler cell makes
+      the Gronwall factor and forcing contribution small enough, the bootstrap
+      improves from \(\sup_JX_R\le4\eta\) to \(\sup_JX_R\le2\eta\).
+
+      Inside the bootstrap region, \(X_R^{1/2}\le2\eta^{1/2}\). The choice of
+      \(\eta\) controls the \(N_R\)-coefficient pointwise. The remaining inequality
+      has only \(L_t^1\) coefficients multiplying \(X_R\) or entering additively, so
+      Gronwall applies without pointwise bounds on \(B_R\) or \(F_R\). The scheduler
+      condition supplies the bootstrap improvement, and continuity closes the local
+      interval.
+
+      This repairs the specific audit defect: \(L_t^1\) smallness is no longer used
+      to absorb a coefficient multiplying \(N_R\). Absorption is obtained from
+      pointwise smallness of \(X_R\), produced by the restart seed plus continuity
+      bootstrap.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Local Averaged Budget Audit
+    line_start: 13296
+    line_end: 13350
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13296
+    start_anchor: "\\subsection{Aact Kx Local Averaged Budget Audit}\n"
+    end_anchor: "\\subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Kx Local Averaged Budget Audit}
+
+      \[
+      D^+X_R+cN_R
+      \le
+      B_R X_R+C X_R^{1/2}N_R+F_R
+      \]
+
+      \[
+      Q_R^\Phi=Q_R^\Phi(a_0,t_0)
+      \]
+
+      \[
+      \begin{aligned}
+      X_R(t)&=\text{averaged affine-subtracted excess},\\
+      N_R(t)&=\text{averaged dissipative packet},\\
+      A_R(t)&=\text{averaged affine core}.
+      \end{aligned}
+      \]
+
+      \[
+      B_R(t):=1+A_R(t)+V_R(t)+P_R(t),
+      \]
+
+      Here \(V_R\) carries moving-frame, cutoff, and viscous-coefficient records,
+      while \(P_R\) carries pressure-response coefficients. The forcing packet \(F_R\)
+      contains source, residual, harmonic/far-pressure, cutoff, and finite-frame
+      remainder records.
+
+      Because the affine mode is subtracted in \(SCF^{base}\), pure center and pure
+      affine transport cancel. The remaining frame terms are legal only when the
+      scale-normalized frame record is included in \(V_R\) and the residual velocity
+      is measured relative to the same affine frame.
+
+      Spatial and temporal derivatives of the transported cutoff produce only bounded
+      same-fluid distortion factors and the expected powers of \(R\). Those cutoff
+      terms are part of \(F_R\) or lower-order coefficient records.
+
+      The pressure normalization is also bookkeeping, not a new equation. The
+      constant gauge has zero gradient, and the affine frame potential has
+      finite-depth frame derivatives already carried by the moving-frame record.
+      Decompose
+
+      \[
+      p=p_R^{loc}+h_R+p_R^{far}.
+      \]
+
+      Original-pressure derivatives are later recovered by the fixed-cover Poisson
+      readout. The averaged affine core is chosen by the local moment equations and
+      is included in \(B_R\). The middle-block estimate comes from the local averaged
+      tower packet, not from the desired global conclusion. The viscous rung supplies
+      the coercive portion of \(N_R\), and top-viscous data are used as readout/buffer
+      data through the \(m+2\) depth provided by \(ATD_m\).
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx
+    line_start: 13351
+    line_end: 13366
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13351
+    start_anchor: "\\subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact
+      Kx}\n"
+    end_anchor: "\\subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx}
+
+      The remaining restart input is the small seed
+      \[
+      X_R(s_k)\le\eta_X
+      \]
+      at each scheduler restart. The previous scheduler note reduced finite
+      terminal-tail coverage to this seed.
+
+      A valid seed theorem needs a source-backed mechanism: scale selection from
+      \(SCF^{avg}_m\), transported-frame minimization, or a finite-cover
+      small-excess selection lemma. The current surfaces provide bounded averaged
+      control and integrable coefficients, while the absorption repair requires
+      small pointwise-in-time averaged affine excess in the chosen restart frame.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Kx Scheduler Seed Obstruction Aact Kx
+    line_start: 13367
+    line_end: 13387
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13367
+    start_anchor: "\\subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}\n"
+    end_anchor: "\\subsection{Act Kx Affine Normalized Conditional Discharge Rscb
+      Nkf}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}
+
+      Local closure from the prior note needs intervals \(J_k\) with
+      \[
+      X_R(s_k)\le\eta,
+      \qquad
+      \exp\!\left(\int_{J_k}B_R\right)
+      \left(X_R(s_k)+\int_{J_k}F_R\right)\le2\eta.
+      \]
+
+      The finite-coverage portion is formal once the seed exists: integrability of
+      \(B_R\) and \(F_R\) on a finite retained tail gives a finite partition with
+      small Gronwall packets.
+
+      The obstruction is the seed. Carrying forward the previous interval gives only
+      a bounded value of \(X_R\). The absorption lemma needs a fresh small averaged
+      affine-excess value in the restart frame. The current route needs an added
+      seed theorem from \(SCF^{avg}_m\), transported-frame minimization, or a
+      finite-cover small-excess selection principle.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Conditional completion packet: items 1-12'
+    line_start: 13429
+    line_end: 13443
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13429
+    start_anchor: "\\subsection{Conditional completion packet: items 1-12}\n"
+    end_anchor: "\\subsection{Active ASAC work plan after No Incoming audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Conditional completion packet: items 1-12}
+
+      The middle block closes by the triangular same-rung break. Genuine zero-mode
+      linear terms travel through \(A_{core}\), and lower affine rungs provide the
+      external coefficients.
+
+      Moving cutoff/frame estimates close because affine coordinates see
+      \[
+      u(x)-u(c_j)-A_j(x-c_j).
+      \]
+      The cutoff contribution is absorbed by the \(\mathcal X^{exc}\) scheduler
+      budget. This is a conditional completion packet for the centered affine local
+      calculus, not a global branch closure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active ASAC work plan after No Incoming audit
+    line_start: 13444
+    line_end: 13498
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13444
+    start_anchor: "\\subsection{Active ASAC work plan after No Incoming audit}\n"
+    end_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+      - failed discharge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active ASAC work plan after No Incoming audit}
+
+      The No Incoming License global.A input was separated and left open. Terminal
+      selection alone does not provide full no-incoming parabolic boundary control
+      for direct ancient backward uniqueness.
+
+      Anisotropic Backward Uniqueness.A was tested and left as a reserve route requiring
+
+      \[
+      \boxed{
+      \sum_T g_T^{-2}
+      \left|\int_{I_T}\langle R_{j,k},\psi_T\rangle\,dt\right|^2
+      \le
+      C\int\sum_{q>N}D_q+o_N(1).
+      }
+      \]
+
+      \[
+      \|R\|_{L_t^2H_x^{-1}}^2
+      \le C\int\sum_{q>N}D_q+o_N(1)
+      \]
+
+      \[
+      \left\|\sum_T c_T g_T^{-1}\psi_T\right\|_{L_t^2H_x^1}^2
+      \le C\sum_T|c_T|^2.
+      \]
+
+      The cleaner support target is Residual Pair.A, because its terms are pressure,
+      commutator, cutoff, and off-packet bookkeeping. Weighted Adj Bessel.A is deeper
+      packet calculus involving the strain-gauged parametrix.
+
+      \[
+      R_{j,k}=R^{comm}+R^{press}+R^{cut}+R^{off}.
+      \]
+
+      \[
+      \begin{aligned}
+      \|R^{comm}\|_{H^{-1}}^2\le C_{\mathrm{sf},13342} D_j,
+      &\qquad
+      \|R^{press}\|_{H^{-1}}^2\le C_{\mathrm{sf},13344} D_j,
+      \\
+      \|R^{cut}\|_{H^{-1}}^2\le C_{\mathrm{sf},13346} \nu\|\nabla w_j\|_2^2,
+      &\qquad
+      \sum_{j>N}\|R_j^{off}\|_{H^{-1}}^2=o_N(1).
+      \end{aligned}
+      \]
+
+      This support target would supply the dissipation side of Weighted Adj Res.A.
+      A failure identifies the exact residual component preventing the drain proof.
+
+      It does not by itself bridge into a licensed Pack/Part/Field face. The CM
+      contrapositive program still needs the witness-face integration bridge after
+      the source-pulse branch is eliminated.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Active-shell amplitude gain from Original Smooth Data - failed
+      discharge
+    line_start: 13499
+    line_end: 13513
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13499
+    start_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+      - failed discharge}\n"
+    end_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+      - frontier-loop failure note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Active-shell amplitude gain from Original Smooth Data - failed discharge}
+
+      This failed discharge tests whether Original Smooth Data alone gives the
+      active-shell amplitude gain needed upstream of the scale-normalized
+      \(\nu\)-SCF Carleson estimate.
+
+      Original Smooth Data gives smoothness on every compact interval before the
+      terminal time. Each fixed shell amplitude is finite on \([0,T]\) for every
+      \(T<T_*\), and the energy inequality gives finite raw energy and finite
+      dissipation. These facts control fixed shells before the endpoint. The needed
+      gain controls moving active shells whose frequencies may drift to infinity as
+      \(t\uparrow T_*\). Finite raw energy and compact-before-terminal smoothness do
+      not force decay on those moving active shells.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg Repair}
+
+    This repair states exactly where the restart seed comes from inside the
+    no-\(\mathrm{Jump}_{avg}\) scheduler argument.
+
+    \[
+    X_R(s_k)\le\eta_X
+    \]
+
+    \[
+    \neg \mathrm{Jump}_{\mathrm{avg}}(\mathcal T).
+    \]
+
+    \[
+    D^+X_{j,p}+cN_{j,p}
+    \le
+    B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p},
+    \]
+
+    \[
+    B_{j,p},F_{j,p}\in L^1.
+    \]
+
+    \[
+    \mathcal T'
+    \subset
+    \bigcup_{j=1}^{J}Q_{r_j}^{\Phi}(a_j,t_j),
+    \qquad
+    r_j\ge r_*>0,
+    \qquad
+    \operatorname{ovlp}\le\Omega.
+    \]
+
+    Shrink and color the cover once. The shrunken cover still has a common lower
+    radius \(r_*>0\).
+
+    This interior refinement gives room for scheduler restarts. Each restart
+    material-time point lies inside a shrunken SCF-good cylinder whose radius is at
+    least \(r_*\).
+
+    At a restart time \(\tau_\alpha\), for each active cover element and route
+    parameter, choose the fresh same-fluid SCF-good cylinder centered at the
+    restart material-time point and shrink it by the \(ATD_m\) factor
+    \(\theta_m\).
+
+    This is the restart seed. The seed is produced in the newly chosen restart frame. The previous scheduler cell contributes only completed local packets to the finite-overlap sum.
+
+    The finite scheduler uses the common pair \(B_*,F_*\), so the partition works
+    simultaneously for every active cover element and every route parameter.
+
+    The affine pressure, viscous, cutoff, source, and far-pressure records are
+    already included in the local \(F_{\alpha,j,p}\) and
+    \(\mathcal K^{avg}_{\le m,\alpha,j,p}\) packets. Finite summation preserves
+    their \(L^1\) bounds.
+
+
+
+    \subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma Aact Kx}
+
+    Let \(X_R(t)\) denote the averaged affine-excess control variable and \(N_R(t)\)
+    its dissipative term on an averaged ACT interval \(I\). Assume the repaired
+    local budget has the form
+    \[
+    D^+X_R+cN_R
+    \le
+    B_RX_R+C_*X_R^{1/2}N_R+F_R,
+    \qquad
+    B_R,F_R\in L^1(I).
+    \]
+
+    If \(X_R(s)\le\eta\), \(2C_*\eta^{1/2}\le c/4\), and the scheduler cell makes
+    the Gronwall factor and forcing contribution small enough, the bootstrap
+    improves from \(\sup_JX_R\le4\eta\) to \(\sup_JX_R\le2\eta\).
+
+    Inside the bootstrap region, \(X_R^{1/2}\le2\eta^{1/2}\). The choice of
+    \(\eta\) controls the \(N_R\)-coefficient pointwise. The remaining inequality
+    has only \(L_t^1\) coefficients multiplying \(X_R\) or entering additively, so
+    Gronwall applies without pointwise bounds on \(B_R\) or \(F_R\). The scheduler
+    condition supplies the bootstrap improvement, and continuity closes the local
+    interval.
+
+    This repairs the specific audit defect: \(L_t^1\) smallness is no longer used
+    to absorb a coefficient multiplying \(N_R\). Absorption is obtained from
+    pointwise smallness of \(X_R\), produced by the restart seed plus continuity
+    bootstrap.
+
+
+
+    \subsection{Aact Kx Local Averaged Budget Audit}
+
+    \[
+    D^+X_R+cN_R
+    \le
+    B_R X_R+C X_R^{1/2}N_R+F_R
+    \]
+
+    \[
+    Q_R^\Phi=Q_R^\Phi(a_0,t_0)
+    \]
+
+    \[
+    \begin{aligned}
+    X_R(t)&=\text{averaged affine-subtracted excess},\\
+    N_R(t)&=\text{averaged dissipative packet},\\
+    A_R(t)&=\text{averaged affine core}.
+    \end{aligned}
+    \]
+
+    \[
+    B_R(t):=1+A_R(t)+V_R(t)+P_R(t),
+    \]
+
+    Here \(V_R\) carries moving-frame, cutoff, and viscous-coefficient records,
+    while \(P_R\) carries pressure-response coefficients. The forcing packet \(F_R\)
+    contains source, residual, harmonic/far-pressure, cutoff, and finite-frame
+    remainder records.
+
+    Because the affine mode is subtracted in \(SCF^{base}\), pure center and pure
+    affine transport cancel. The remaining frame terms are legal only when the
+    scale-normalized frame record is included in \(V_R\) and the residual velocity
+    is measured relative to the same affine frame.
+
+    Spatial and temporal derivatives of the transported cutoff produce only bounded
+    same-fluid distortion factors and the expected powers of \(R\). Those cutoff
+    terms are part of \(F_R\) or lower-order coefficient records.
+
+    The pressure normalization is also bookkeeping, not a new equation. The
+    constant gauge has zero gradient, and the affine frame potential has
+    finite-depth frame derivatives already carried by the moving-frame record.
+    Decompose
+
+    \[
+    p=p_R^{loc}+h_R+p_R^{far}.
+    \]
+
+    Original-pressure derivatives are later recovered by the fixed-cover Poisson
+    readout. The averaged affine core is chosen by the local moment equations and
+    is included in \(B_R\). The middle-block estimate comes from the local averaged
+    tower packet, not from the desired global conclusion. The viscous rung supplies
+    the coercive portion of \(N_R\), and top-viscous data are used as readout/buffer
+    data through the \(m+2\) depth provided by \(ATD_m\).
+
+
+
+    \subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx}
+
+    The remaining restart input is the small seed
+    \[
+    X_R(s_k)\le\eta_X
+    \]
+    at each scheduler restart. The previous scheduler note reduced finite
+    terminal-tail coverage to this seed.
+
+    A valid seed theorem needs a source-backed mechanism: scale selection from
+    \(SCF^{avg}_m\), transported-frame minimization, or a finite-cover
+    small-excess selection lemma. The current surfaces provide bounded averaged
+    control and integrable coefficients, while the absorption repair requires
+    small pointwise-in-time averaged affine excess in the chosen restart frame.
+
+
+
+    \subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}
+
+    Local closure from the prior note needs intervals \(J_k\) with
+    \[
+    X_R(s_k)\le\eta,
+    \qquad
+    \exp\!\left(\int_{J_k}B_R\right)
+    \left(X_R(s_k)+\int_{J_k}F_R\right)\le2\eta.
+    \]
+
+    The finite-coverage portion is formal once the seed exists: integrability of
+    \(B_R\) and \(F_R\) on a finite retained tail gives a finite partition with
+    small Gronwall packets.
+
+    The obstruction is the seed. Carrying forward the previous interval gives only
+    a bounded value of \(X_R\). The absorption lemma needs a fresh small averaged
+    affine-excess value in the restart frame. The current route needs an added
+    seed theorem from \(SCF^{avg}_m\), transported-frame minimization, or a
+    finite-cover small-excess selection principle.
+
+
+
+    \subsection{Conditional completion packet: items 1-12}
+
+    The middle block closes by the triangular same-rung break. Genuine zero-mode
+    linear terms travel through \(A_{core}\), and lower affine rungs provide the
+    external coefficients.
+
+    Moving cutoff/frame estimates close because affine coordinates see
+    \[
+    u(x)-u(c_j)-A_j(x-c_j).
+    \]
+    The cutoff contribution is absorbed by the \(\mathcal X^{exc}\) scheduler
+    budget. This is a conditional completion packet for the centered affine local
+    calculus, not a global branch closure.
+
+
+
+    \subsection{Active ASAC work plan after No Incoming audit}
+
+    The No Incoming License global.A input was separated and left open. Terminal
+    selection alone does not provide full no-incoming parabolic boundary control
+    for direct ancient backward uniqueness.
+
+    Anisotropic Backward Uniqueness.A was tested and left as a reserve route requiring
+
+    \[
+    \boxed{
+    \sum_T g_T^{-2}
+    \left|\int_{I_T}\langle R_{j,k},\psi_T\rangle\,dt\right|^2
+    \le
+    C\int\sum_{q>N}D_q+o_N(1).
+    }
+    \]
+
+    \[
+    \|R\|_{L_t^2H_x^{-1}}^2
+    \le C\int\sum_{q>N}D_q+o_N(1)
+    \]
+
+    \[
+    \left\|\sum_T c_T g_T^{-1}\psi_T\right\|_{L_t^2H_x^1}^2
+    \le C\sum_T|c_T|^2.
+    \]
+
+    The cleaner support target is Residual Pair.A, because its terms are pressure,
+    commutator, cutoff, and off-packet bookkeeping. Weighted Adj Bessel.A is deeper
+    packet calculus involving the strain-gauged parametrix.
+
+    \[
+    R_{j,k}=R^{comm}+R^{press}+R^{cut}+R^{off}.
+    \]
+
+    \[
+    \begin{aligned}
+    \|R^{comm}\|_{H^{-1}}^2\le C_{\mathrm{sf},13342} D_j,
+    &\qquad
+    \|R^{press}\|_{H^{-1}}^2\le C_{\mathrm{sf},13344} D_j,
+    \\
+    \|R^{cut}\|_{H^{-1}}^2\le C_{\mathrm{sf},13346} \nu\|\nabla w_j\|_2^2,
+    &\qquad
+    \sum_{j>N}\|R_j^{off}\|_{H^{-1}}^2=o_N(1).
+    \end{aligned}
+    \]
+
+    This support target would supply the dissipation side of Weighted Adj Res.A.
+    A failure identifies the exact residual component preventing the drain proof.
+
+    It does not by itself bridge into a licensed Pack/Part/Field face. The CM
+    contrapositive program still needs the witness-face integration bridge after
+    the source-pulse branch is eliminated.
+
+
+
+    \subsection{Active-shell amplitude gain from Original Smooth Data - failed discharge}
+
+    This failed discharge tests whether Original Smooth Data alone gives the
+    active-shell amplitude gain needed upstream of the scale-normalized
+    \(\nu\)-SCF Carleson estimate.
+
+    Original Smooth Data gives smoothness on every compact interval before the
+    terminal time. Each fixed shell amplitude is finite on \([0,T]\) for every
+    \(T<T_*\), and the energy inequality gives finite raw energy and finite
+    dissipation. These facts control fixed shells before the endpoint. The needed
+    gain controls moving active shells whose frequencies may drift to infinity as
+    \(t\uparrow T_*\). Finite raw energy and compact-before-terminal smoothness do
+    not force decay on those moving active shells.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg Repair
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13157
+  line_start: 13157
+  line_end: 13212
+  start_anchor: "\\subsection{Aact Kx Global Nojump Restart Seed Scheduler Dtc A Avg
+    Repair}\n"
+  end_anchor: "\\subsection{Aact Kx Local Absorption Discharge Via Coefficient Demotion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Global Nojump Restart
+    Seed Scheduler Dtc A Avg Repair as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13157
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Local Absorption Repaired Bootstrap Lemma Aact Kx
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13266
+  line_start: 13266
+  line_end: 13295
+  start_anchor: "\\subsection{Aact Kx Local Absorption Repaired Bootstrap Lemma Aact
+    Kx}\n"
+  end_anchor: "\\subsection{Aact Kx Local Averaged Budget Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Local Absorption Repaired
+    Bootstrap Lemma Aact Kx as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13266
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Local Averaged Budget Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13296
+  line_start: 13296
+  line_end: 13350
+  start_anchor: "\\subsection{Aact Kx Local Averaged Budget Audit}\n"
+  end_anchor: "\\subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Local Averaged Budget
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13296
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13351
+  line_start: 13351
+  line_end: 13366
+  start_anchor: "\\subsection{Aact Kx Restart Seed Theorem Hard Obstruction Aact Kx}\n"
+  end_anchor: "\\subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Restart Seed Theorem
+    Hard Obstruction Aact Kx as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13351
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Kx Scheduler Seed Obstruction Aact Kx
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13367
+  line_start: 13367
+  line_end: 13387
+  start_anchor: "\\subsection{Aact Kx Scheduler Seed Obstruction Aact Kx}\n"
+  end_anchor: "\\subsection{Act Kx Affine Normalized Conditional Discharge Rscb Nkf}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Kx Scheduler Seed Obstruction
+    Aact Kx as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13367
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Conditional completion packet: items 1-12'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13429
+  line_start: 13429
+  line_end: 13443
+  start_anchor: "\\subsection{Conditional completion packet: items 1-12}\n"
+  end_anchor: "\\subsection{Active ASAC work plan after No Incoming audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Conditional completion packet:
+    items 1-12 as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13429
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active ASAC work plan after No Incoming audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13444
+  line_start: 13444
+  line_end: 13498
+  start_anchor: "\\subsection{Active ASAC work plan after No Incoming audit}\n"
+  end_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+    - failed discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active ASAC work plan after No
+    Incoming audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13444
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Active-shell amplitude gain from Original Smooth Data - failed
+    discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13499
+  line_start: 13499
+  line_end: 13513
+  start_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+    - failed discharge}\n"
+  end_anchor: "\\subsection{Active-shell amplitude gain from Original Smooth Data
+    - frontier-loop failure note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Active-shell amplitude gain from
+    Original Smooth Data - failed discharge as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13499
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-15
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-15.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

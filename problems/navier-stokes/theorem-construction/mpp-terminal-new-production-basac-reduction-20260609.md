@@ -113,7 +113,7 @@ so:
 
 ```math
 \int_I |F_j(t;Au_0)|^2dt
-\gtrsim |I|A^6|F_j(0;u_0)|^2.
+\ge c_F|I|A^6|F_j(0;u_0)|^2.
 ```
 
 The desired heat-scale square-source right side is independent of `A` at fixed

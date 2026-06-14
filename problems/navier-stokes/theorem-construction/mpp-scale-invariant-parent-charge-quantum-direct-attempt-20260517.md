@@ -31,7 +31,7 @@ At terminal scale `r`, Navier-Stokes parabolic scaling permits normalized quanti
 A model terminal source density on a parabolic cylinder has
 
 ```math
-F_r(t,x)\sim r^{-2}\mathbf 1_{[T-r^2,T]}(t)\mathbf 1_{B_r}(x)
+F_r(t,x):= r^{-2}\mathbf 1_{[T-r^2,T]}(t)\mathbf 1_{B_r}(x)
 ```
 
 after normalization on the packet. The physical charge in the parent region can tend to zero with `r`, while the normalized terminal packet remains active.

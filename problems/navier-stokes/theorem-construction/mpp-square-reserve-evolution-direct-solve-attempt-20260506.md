@@ -78,7 +78,7 @@ which requires a time-square control of `F_N`, or an amplitude cap, or a heat-wi
 The Hardy expansion shows the exact same obstruction:
 
 ```math
-S_N(t)\simeq
+S_N(t):=
 \sum_{\ell,m>N}2^{\min(\ell,m)}D_\ell(t)D_m(t).
 ```
 
@@ -173,13 +173,13 @@ The missing mathematical input is one of the following independent theorems.
 For every terminal donor pulse at active scale `k`, prove a lower bound of the form
 
 ```math
-|I|\gtrsim 2^k\left(\int_I T_k(t)dt\right)^2/Charge(I),
+|I|\ge c_I2^k\left(\int_I T_k(t)dt\right)^2/Charge(I),
 ```
 
 or an equivalent estimate implying
 
 ```math
-\int_I2^kT_k(t)^2dt\lesssim Charge(I)+o_N(1).
+\int_I2^kT_k(t)^2dt\le C_QCharge(I)+o_N(1).
 ```
 
 ### Option B: signed square-reserve evolution theorem

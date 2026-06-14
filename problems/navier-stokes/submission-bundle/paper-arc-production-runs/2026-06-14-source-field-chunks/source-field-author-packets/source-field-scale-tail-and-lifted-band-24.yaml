@@ -1,0 +1,1207 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-24
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-24
+  sequence: 49
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 24
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 60239
+  line_end: 62332
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60239
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60287
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60340
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60385
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60512
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61223
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61292
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62273
+  subsection_titles:
+  - Scale Kernelized Lifted-Band Reduction Lemma
+  - Scale Lifted-Band Stress-Strain Flux Repair
+  - Scale Paraproduct Reduction Lemma
+  - Scale Spill Reduction Lemma
+  - Segment-Collar Derivative Continuity On Balanced Frame
+  - Signed Continuous-Scale Closure Program
+  - Signed Lifted-Band Scale-Descent Identity
+  - Tail-Energy Genuine High-High Packet
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Kernelized Lifted-Band Reduction Lemma
+    line_start: 60239
+    line_end: 60286
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60239
+    start_anchor: "\\subsection{Scale Kernelized Lifted-Band Reduction Lemma}\n"
+    end_anchor: "\\subsection{Scale Lifted-Band Stress-Strain Flux Repair}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Kernelized Lifted-Band Reduction Lemma}
+
+      The proposed upstream repair route for the last open packet works directly on the scale-side lifted high-side remainder. The question is whether the current shell algebra already produces any genuine off-diagonal gain in the lifted band
+
+      \[
+      N+M<k<j-4.
+      \]
+
+      The answer is yes, but only on the natural scale-side carrier with one fewer high derivative than the gradient packet.
+
+      \[
+      \mathcal{T}^{lift}_{j,n}
+      :=
+      \Delta_j\big((((S_{j-4}-S_{N+M})u^{(n)})\cdot\nabla)\Delta_j u^{(n)}\big)
+      +
+      \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)((S_{j-4}-S_{N+M})u^{(n)})\big).
+      \]
+
+      \[
+      b_j^{(n)}:= (S_{j-4}-S_{N+M})u^{(n)}
+      =
+      \sum_{N+M<k<j-4}\Delta_k u^{(n)}.
+      \]
+
+      \[
+      \mathfrak K_N^{scale}[u^{(n)}](t)
+      :=
+      \sum_{j\ge N}\sum_{N+M<k<j-4}
+      2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
+      \|\nabla \Delta_j u^{(n)}(t)\|_{L^2_x}\,
+      \|\Delta_j u^{(n)}(t)\|_{L^2_x}.
+      \]
+
+      \[
+      \mathfrak K_N^{scale}[u^{(n)}](t)
+      \sfcomp{58749}
+      \sum_{j\ge N}\sum_{N+M<k<j-4}
+      2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
+      2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+      \]
+
+      So the current scale-side shell algebra does produce a genuine summable gap kernel 2 -(j-k) on the lifted band.
+
+      The current scale-side packet algebra does contain a real off-diagonal gain for the lifted band. What it gives is the kernelized scale-side carrier
+
+      It does not prove the integrated leakage theorem. It does not show that the scale-side kernelized carrier automatically upgrades to the gradient-side lifted packet. It does show that the proposed upstream repair is not empty: a summable j-k kernel really is present on the scale-side lifted band once the packet is written at exact shell level.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Lifted-Band Stress-Strain Flux Repair
+    line_start: 60287
+    line_end: 60339
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60287
+    start_anchor: "\\subsection{Scale Lifted-Band Stress-Strain Flux Repair}\n"
+    end_anchor: "\\subsection{Scale Paraproduct Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Lifted-Band Stress-Strain Flux Repair}
+
+      The theorem below is not a new route outside the scale barrier. It is the missing packet-level theorem that plugs directly into the open scale-side transport-defect step.
+
+      Let u (n) ,p (n) be the fixed classical approximation family on (0,T) R 3, and fix N.
+
+      \[
+      u^{(n)}_j := \Delta_j u^{(n)},
+      \qquad
+      b^{(n)}_j := (S_{j-4}-S_{N+M})u^{(n)}.
+      \]
+
+      \[
+      \mathcal T^{lift}_{j,n}
+      :=
+      \Delta_j\big((b^{(n)}_j\cdot\nabla)u^{(n)}_j\big)
+      +
+      \Delta_j\big((u^{(n)}_j\cdot\nabla)b^{(n)}_j\big).
+      \]
+
+      \[
+      \Sigma^{meso}_{j,n}(x,t)
+      :=
+      (\rho_j * |\nabla b^{(n)}_j(\cdot,t)|)(x),
+      \]
+
+      \[
+      \tau^{H^1}_{j,n}(x,t)
+      :=
+      2^{2j}
+      \int_{\mathbb R^3} |\eta_j(a)|\,|\delta_a u^{(n)}_j(x,t)|^2\,da.
+      \]
+
+      \[
+      \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t)
+      :=
+      \sum_{j\ge N}
+      \int_{\mathbb R^3}
+      \Sigma^{meso}_{j,n}(x,t)\,
+      \tau^{H^1}_{j,n}(x,t)\,dx.
+      \]
+
+      Since b (n) j = 0, the transported term is skew before localization, so the shell pairing of T lift j,n with u (n) j is exactly the commutatorized lifted defect. Multiplying by the outer 2 2j from the stress note and summing over j N proves the claim.
+
+      This is the exact coupled replacement for the old missing shellwise lifted-band estimate.
+
+      (L-Descent): global descent-coboundary representation of the lifted mesoscopic strain; (L-Dual): barrier control of the scale/time boundary terms and the dual pairings against H 1 .
+
+      Both are honest direct reformulations of the far-corona burden. Neither is presently derivable from the inherited Euclidean inputs alone; the inherited surface reduces (CTS) only to a new lower-prefix-times-active- dyadic object, not to any already-installed one-sided tail theorem.
+
+      The missing lifted-band step is now shaped precisely. The inherited Euclidean inputs alone do not prove (L-Flux). The open scale-barrier packet is reduced to one coupled mesoscopic stress-strain flux theorem rather than a family of shellwise leakage bounds.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Paraproduct Reduction Lemma
+    line_start: 60340
+    line_end: 60384
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60340
+    start_anchor: "\\subsection{Scale Paraproduct Reduction Lemma}\n"
+    end_anchor: "\\subsection{Scale Spill Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Paraproduct Reduction Lemma}
+
+      This lemma extracts the genuinely low-mode part of the scale-barrier transport defect and proves that it is not the frontier. After that extraction, the only remaining scale-side debt is the high-side remainder packet.
+
+      Let u (n) ,p (n) be the fixed classical approximation family on (0,T) R 3. For j N, write j := P j and define
+
+      \[
+      E_N^{(n)}(t) := \sum_{m\ge N}\|\Delta_m u^{(n)}(t)\|_{L^2_x}^2,
+      \qquad
+      D_N^{(n)}(t) := \sum_{m\ge N}2^{2m}\|\Delta_m u^{(n)}(t)\|_{L^2_x}^2,
+      \]
+
+      \[
+      \mathcal{L}_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+      \]
+
+      \[
+      S_{j-4}u^{(n)}
+      =
+      S_{N-4}u^{(n)}
+      +
+      (S_{N+M}-S_{N-4})u^{(n)}
+      +
+      (S_{j-4}-S_{N+M})u^{(n)}.
+      \]
+
+      \[
+      \mathcal{T}^{SLH}_{j,n}
+      :=
+      \Delta_j\big((S_{N-4}u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\big),
+      \]
+
+      \[
+      \mathcal{T}^{SHL}_{j,n}
+      :=
+      \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)S_{N-4}u^{(n)}\big).
+      \]
+
+      Moreover, T spill j,n contains only the fixed threshold collar N-3 k N+M, while T lift j,n contains only modes strictly above that collar and is so handed to the high-side remainder packet together with the genuine high-high interaction. This lemma discharges only the strict low-mode pieces.
+
+      Finally, the frozen-cutoff remainder is not a single finite-band object. The threshold-local collar (S N+M -S N-4 )u (n) is isolated as T spill j,n , while the lifted remainder (S j-4 -S N+M )u (n) is merged into the high-side packet handled together with the genuine high-high interaction.
+
+      The strict low-mode low-high and high-low transport pieces are no longer part of the live scale-barrier mystery. The remaining scale-side debt begins with the threshold-local spill collar and the lifted high-side remainder created when S j-4 is frozen at N.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale Spill Reduction Lemma
+    line_start: 60385
+    line_end: 60407
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60385
+    start_anchor: "\\subsection{Scale Spill Reduction Lemma}\n"
+    end_anchor: "\\subsection{SDS Parent Route Triage}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale Spill Reduction Lemma}
+
+      Freezing the low-mode transport coefficient at the cutoff N creates the threshold-local spill collar. Under the stricter audit standard, this is a packet-definition and target-estimate note rather than a fully discharged proposition-level proof.
+
+      \[
+      \mathcal{T}^{spill}_{j,n}
+      :=
+      \Delta_j\Big(((S_{N+M}-S_{N-4})u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\Big)
+      +
+      \Delta_j\Big((\Delta_j u^{(n)}\cdot\nabla)(S_{N+M}-S_{N-4})u^{(n)}\Big),
+      \]
+
+      for j N, on the fixed classical approximation family u (n) ,p (n) . Then for every > 0 there exists C > 0, independent of n and N, such that
+
+      The lifted remainder created by (S j-4 -S N+M )u (n) is merged into the genuine high-high packet because it no longer contains a threshold-local low factor.
+
+      Expand S N+M -S N-4 = N-3 k N+M k. Use the fixed threshold collar relation together with Bernstein to estimate the collar contribution against the same admissible surface, or else to show exactly where an additional packet split is still needed. Pair the differentiated factor with j u (n) and use Cauchy-Schwarz/Young to split the product into L N (n) (t)E N (n) (t) plus an arbitrarily small fraction of D N (n) (t). Sum in j N and integrate in time.
+
+      The threshold-local spill collar is the smallest scale-side packet that still needs proposition-level alignment after the strict low-mode reduction. The lifted high-side remainder is tracked with the genuine high-high interaction in
+
+      The whole frozen-cutoff remainder is not claimed as reduced here. Only the threshold-local spill collar is isolated, and that collar still belongs to the live proposition-level packet-discharge burden under the current audit standard.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Segment-Collar Derivative Continuity On Balanced Frame
+    line_start: 60512
+    line_end: 60556
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60512
+    start_anchor: "\\subsection{Segment-Collar Derivative Continuity On Balanced Frame}\n"
+    end_anchor: "\\subsection{Selector Balanced Frame Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Segment-Collar Derivative Continuity On Balanced Frame}
+
+      Role: reduce the finite-frame linearization burden to one segment-collar derivative continuity packet on the same entrance-time balanced frame.
+
+      \[
+      \sum_{\ell=1}^m w_\ell\,\omega_{J,0}^\ell(a)\otimes\omega_{J,0}^\ell(a)
+      =
+      \Pi_{N_a},
+      \qquad
+      \sum_{\ell=1}^m w_\ell=d.
+      \]
+
+      \[
+      \Gamma_{J,\ell}(a)
+      :=
+      \{a+s\omega_{J,0}^\ell(a): |s|\le h_J\}.
+      \]
+
+      For each , let T J, (a,t) be a collar containing J, (a) on which D aX t is defined.
+
+      \[
+      \rho_{J,\mathrm{lin}}(a,t;h_J)
+      \]
+
+      \[
+      \rho_{J,\mathrm{lin}}(a,t;h_J)\to 0
+      \quad\text{uniformly on the active family as }h_J\downarrow 0.
+      \]
+
+      \[
+      \max_{1\le \ell\le m}
+      \bigl|
+      z_J^\ell(t,a)-W_J^{coc}(t,a)\omega_{J,0}^\ell(a)
+      \bigr|
+      \le
+      \rho_{J,\mathrm{lin}}(a,t;h_J),
+      \]
+
+      Fix one selector-good strip I 0=[t 0,t 1] and write 0:=|I 0|. Assume that for every active (a,t) and every selected collar T J, (a,t), the coarse flow X t is generated on that collar by a velocity field v J satisfying
+
+      So the alternate finite-frame linearization route is reduced further to one regular-window theorem: uniform C 2 control of the coarse flow on the frame collars.
+
+      Proof. Let U t:=D aX t and V t:=D a 2X t. On each collar, the variational equations are
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed Continuous-Scale Closure Program
+    line_start: 61223
+    line_end: 61291
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61223
+    start_anchor: "\\subsection{Signed Continuous-Scale Closure Program}\n"
+    end_anchor: "\\subsection{Signed Lifted-Band Scale-Descent Identity}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Signed Continuous-Scale Closure Program}
+
+      It is not a proof. It is the theorem program that matches the current argument state without reverting to shellwise absolute-value bookkeeping.
+
+      \[
+      \mathrm{Leakage}_1
+      \le
+      C\,\widetilde\Lambda_N^\sharp\,T_1
+      +
+      \eta\nu Q_1
+      +
+      \mathfrak H_N^{\mathrm{grad,lift}}
+      +
+      C_*2^{-2\delta N},
+      \]
+
+      The route below states exactly how (2) is supposed to be proved on the current surface.
+
+      \[
+      \mathfrak H_N^{\mathrm{grad,lift}}
+      \rightsquigarrow
+      \mathfrak c_\ell
+      \rightsquigarrow
+      \mathfrak B_N^{upper}+\Pi_N^{mid}
+      \rightsquigarrow
+      \mathfrak B_N^{upper}
+      +
+      \Pi_N^{mov\text{-}spill,L}
+      +
+      \Pi_N^{mid,far,L}
+      \rightsquigarrow
+      \text{CTS / LPAS closure}
+      \rightsquigarrow
+      (2).
+      \]
+
+      Each arrow in (3) is already recorded somewhere on the route. The remaining job is to close the exact theorem debts on that chain.
+
+      \[
+      P_{\le \ell}=\varphi(\ell D),
+      \qquad
+      Q_\ell=-\,\ell\partial_\ell P_{\le \ell},
+      \]
+
+      \[
+      \mathcal A_\ell
+      :=
+      \ell^{-2}
+      \big([P_{\le \ell},b_\ell^{meso}\cdot\nabla]u\big)\,
+      \big(P_{\le \ell}u\big),
+      \]
+
+      \[
+      \mathfrak c_\ell
+      :=
+      \ell^{-2}u_\ell[Q_\ell,b_\ell^{meso}\cdot\nabla]u.
+      \]
+
+      If (8) is obtained globally, then the signed route reduces immediately to boundary and residual estimates.
+
+      So the upper-boundary theorem should be attacked as a narrow same-scale packet, not as a new large-gap transport theorem.
+
+      then sum over the finite family. This is a finite-offset stability theorem, not a new transport mechanism.
+
+      If Steps 2 through 4 close, then one gets the integrated lifted estimate (2). Substituting (2) into (1) gives the weighted leakage absorption theorem on the already-honest carrier
+
+      So the route is not trying to improve the carrier anymore. The carrier is frozen. The only remaining task is to make the lifted packet absorbable on that surface.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Signed Lifted-Band Scale-Descent Identity
+    line_start: 61292
+    line_end: 61351
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61292
+    start_anchor: "\\subsection{Signed Lifted-Band Scale-Descent Identity}\n"
+    end_anchor: "\\subsection{Signed Weighted Commutator-Defect Theorem Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Signed Lifted-Band Scale-Descent Identity}
+
+      \[
+      \text{take } |\mathcal J_N^{lift}| \Longrightarrow \Pi_N^{lift}
+      \Longrightarrow \text{look for descent structure}.
+      \]
+
+      The inherited Euclidean inputs alone do not close the route. The coherent signed-layer mechanism is the descent identity by which the cocycle language can feed the scale barrier.
+
+      \[
+      P_{\le \ell} := \varphi(\ell D),
+      \qquad
+      Q_\ell := -\,\ell\partial_\ell P_{\le \ell},
+      \]
+
+      where is a smooth low-pass symbol and Q is the corresponding band-pass operator localized at frequency -1 .
+
+      \[
+      u_\ell := Q_\ell u,
+      \qquad
+      b_\ell^{meso} := P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+      \]
+
+      \[
+      \mathfrak c_\ell(x,t)
+      :=
+      \ell^{-2}\,
+      u_\ell(x,t)\,
+      [Q_\ell,b_\ell^{meso}(t)\cdot\nabla]u(x,t).
+      \]
+
+      \[
+      \mathcal A_\ell(x,t)
+      :=
+      \ell^{-2}\,
+      \big([P_{\le \ell},b_\ell^{meso}(t)\cdot\nabla]u(t)\big)(x)\,
+      \big(P_{\le \ell}u(t)\big)(x).
+      \]
+
+      This is the right signed potential because Q = - P converts scale refinement into a literal derivative of the cumulative quantity A .
+
+      The main point is not the exact constants. It is the structural support of the four terms.
+
+      This is supported only at the top edge of the mesoscopic band. So it is not another long lifted interaction. It is a threshold-local same-scale packet.
+
+      This is the signed-layer theorem shape that the cocycle language was trying to name.
+
+      Local versions of (SD3) may be built on overlapping scale-space-time windows U . Each local representation carries a potential triple
+
+      So the right exactness statement is not about the positive majorant meso H 1 . It is about the signed density c .
+
+      Once (SD3) is globally valid on the signed layer, integrate it over x,t, on the high-scale window 0< c2 -N .
+
+      ( ) telescopes in scale; x J is a space boundary term; t R is a time boundary term; S spill is returned to the existing spill packet; E is the true barrier-scale tail.
+
+      Only after this signed telescoping step should one pass to the positive stress-strain majorant. At that point the majoran
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Tail-Energy Genuine High-High Packet
+    line_start: 62273
+    line_end: 62332
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62273
+    start_anchor: "\\subsection{Tail-Energy Genuine High-High Packet}\n"
+    end_anchor: "\\subsection{Tail-Energy Spill Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Tail-Energy Genuine High-High Packet}
+
+      The genuine high-high packet is isolated on the exact Euclidean tail-energy surface used by the 4 -> 1 recertification argument.
+
+      \[
+      T_N(t):=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+      \qquad
+      Q_N(t):=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2.
+      \]
+
+      \[
+      \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+      :=
+      \left|
+      \left\langle
+      \mathcal H_N[u](t),\,P_{\ge N}u(t)
+      \right\rangle
+      \right|
+      \]
+
+      \[
+      \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+      \le
+      C\sum_{j\ge N-M} 2^j \|\Delta_j u(t)\|_{L_x^2}^3
+      \le
+      \frac{\eta\nu}{4}\,Q_{N-M}(t)
+      \]
+
+      \[
+      \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+      \le
+      \frac{\eta\nu}{4}\,Q_N(t)
+      \]
+
+      Once the strict low-mode packet and the finite-band spill packet have been removed, Littlewood-Paley support forces the remaining high-high packet into a near-diagonal collar. Accordingly,
+
+      \[
+      \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+      \le
+      C\sum_{j\ge N}
+      \sum_{|k-j|\le M}
+      2^j
+      \|\Delta_k u(t)\|_{L_x^2}\,
+      \|\widetilde{\Delta}_k u(t)\|_{L_x^2}\,
+      \|\Delta_j u(t)\|_{L_x^2}.
+      \]
+
+      This is the same near-diagonal cubic packet that appears on the scale side, except that here it is paired against the tail-energy surface rather than the scale dissipation functional.
+
+      The first factor belongs to the gradient-tail surface. Summing over j N-M yields
+
+      Absorb the finite collar M into the threshold regime by enlarging N * inside the same theorem-local budget. This yields
+
+      This is the exact large-cutoff high-high absorption used on the local tail-energy surface.
+
+      On the 4 -> 1 tail-energy surface, the genuine high-high packet is reduced to the same near-diagonal cubic packet already visible in the scale-side theorem stack, and it is absorbed into the gradient-tail dissipation Q N for all sufficiently large cutoffs.
+
+      The genuine high-high component closes on the local 4 -> 1 tail-energy surface.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Scale Kernelized Lifted-Band Reduction Lemma}
+
+    The proposed upstream repair route for the last open packet works directly on the scale-side lifted high-side remainder. The question is whether the current shell algebra already produces any genuine off-diagonal gain in the lifted band
+
+    \[
+    N+M<k<j-4.
+    \]
+
+    The answer is yes, but only on the natural scale-side carrier with one fewer high derivative than the gradient packet.
+
+    \[
+    \mathcal{T}^{lift}_{j,n}
+    :=
+    \Delta_j\big((((S_{j-4}-S_{N+M})u^{(n)})\cdot\nabla)\Delta_j u^{(n)}\big)
+    +
+    \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)((S_{j-4}-S_{N+M})u^{(n)})\big).
+    \]
+
+    \[
+    b_j^{(n)}:= (S_{j-4}-S_{N+M})u^{(n)}
+    =
+    \sum_{N+M<k<j-4}\Delta_k u^{(n)}.
+    \]
+
+    \[
+    \mathfrak K_N^{scale}[u^{(n)}](t)
+    :=
+    \sum_{j\ge N}\sum_{N+M<k<j-4}
+    2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
+    \|\nabla \Delta_j u^{(n)}(t)\|_{L^2_x}\,
+    \|\Delta_j u^{(n)}(t)\|_{L^2_x}.
+    \]
+
+    \[
+    \mathfrak K_N^{scale}[u^{(n)}](t)
+    \sfcomp{58749}
+    \sum_{j\ge N}\sum_{N+M<k<j-4}
+    2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
+    2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
+    \]
+
+    So the current scale-side shell algebra does produce a genuine summable gap kernel 2 -(j-k) on the lifted band.
+
+    The current scale-side packet algebra does contain a real off-diagonal gain for the lifted band. What it gives is the kernelized scale-side carrier
+
+    It does not prove the integrated leakage theorem. It does not show that the scale-side kernelized carrier automatically upgrades to the gradient-side lifted packet. It does show that the proposed upstream repair is not empty: a summable j-k kernel really is present on the scale-side lifted band once the packet is written at exact shell level.
+
+
+
+    \subsection{Scale Lifted-Band Stress-Strain Flux Repair}
+
+    The theorem below is not a new route outside the scale barrier. It is the missing packet-level theorem that plugs directly into the open scale-side transport-defect step.
+
+    Let u (n) ,p (n) be the fixed classical approximation family on (0,T) R 3, and fix N.
+
+    \[
+    u^{(n)}_j := \Delta_j u^{(n)},
+    \qquad
+    b^{(n)}_j := (S_{j-4}-S_{N+M})u^{(n)}.
+    \]
+
+    \[
+    \mathcal T^{lift}_{j,n}
+    :=
+    \Delta_j\big((b^{(n)}_j\cdot\nabla)u^{(n)}_j\big)
+    +
+    \Delta_j\big((u^{(n)}_j\cdot\nabla)b^{(n)}_j\big).
+    \]
+
+    \[
+    \Sigma^{meso}_{j,n}(x,t)
+    :=
+    (\rho_j * |\nabla b^{(n)}_j(\cdot,t)|)(x),
+    \]
+
+    \[
+    \tau^{H^1}_{j,n}(x,t)
+    :=
+    2^{2j}
+    \int_{\mathbb R^3} |\eta_j(a)|\,|\delta_a u^{(n)}_j(x,t)|^2\,da.
+    \]
+
+    \[
+    \Pi^{lift,\mathrm{dy}}_{N}[u^{(n)}](t)
+    :=
+    \sum_{j\ge N}
+    \int_{\mathbb R^3}
+    \Sigma^{meso}_{j,n}(x,t)\,
+    \tau^{H^1}_{j,n}(x,t)\,dx.
+    \]
+
+    Since b (n) j = 0, the transported term is skew before localization, so the shell pairing of T lift j,n with u (n) j is exactly the commutatorized lifted defect. Multiplying by the outer 2 2j from the stress note and summing over j N proves the claim.
+
+    This is the exact coupled replacement for the old missing shellwise lifted-band estimate.
+
+    (L-Descent): global descent-coboundary representation of the lifted mesoscopic strain; (L-Dual): barrier control of the scale/time boundary terms and the dual pairings against H 1 .
+
+    Both are honest direct reformulations of the far-corona burden. Neither is presently derivable from the inherited Euclidean inputs alone; the inherited surface reduces (CTS) only to a new lower-prefix-times-active- dyadic object, not to any already-installed one-sided tail theorem.
+
+    The missing lifted-band step is now shaped precisely. The inherited Euclidean inputs alone do not prove (L-Flux). The open scale-barrier packet is reduced to one coupled mesoscopic stress-strain flux theorem rather than a family of shellwise leakage bounds.
+
+
+
+    \subsection{Scale Paraproduct Reduction Lemma}
+
+    This lemma extracts the genuinely low-mode part of the scale-barrier transport defect and proves that it is not the frontier. After that extraction, the only remaining scale-side debt is the high-side remainder packet.
+
+    Let u (n) ,p (n) be the fixed classical approximation family on (0,T) R 3. For j N, write j := P j and define
+
+    \[
+    E_N^{(n)}(t) := \sum_{m\ge N}\|\Delta_m u^{(n)}(t)\|_{L^2_x}^2,
+    \qquad
+    D_N^{(n)}(t) := \sum_{m\ge N}2^{2m}\|\Delta_m u^{(n)}(t)\|_{L^2_x}^2,
+    \]
+
+    \[
+    \mathcal{L}_N^{(n)}(t) := 1 + \sum_{k\le N-4}2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+    \]
+
+    \[
+    S_{j-4}u^{(n)}
+    =
+    S_{N-4}u^{(n)}
+    +
+    (S_{N+M}-S_{N-4})u^{(n)}
+    +
+    (S_{j-4}-S_{N+M})u^{(n)}.
+    \]
+
+    \[
+    \mathcal{T}^{SLH}_{j,n}
+    :=
+    \Delta_j\big((S_{N-4}u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\big),
+    \]
+
+    \[
+    \mathcal{T}^{SHL}_{j,n}
+    :=
+    \Delta_j\big((\Delta_j u^{(n)}\cdot\nabla)S_{N-4}u^{(n)}\big).
+    \]
+
+    Moreover, T spill j,n contains only the fixed threshold collar N-3 k N+M, while T lift j,n contains only modes strictly above that collar and is so handed to the high-side remainder packet together with the genuine high-high interaction. This lemma discharges only the strict low-mode pieces.
+
+    Finally, the frozen-cutoff remainder is not a single finite-band object. The threshold-local collar (S N+M -S N-4 )u (n) is isolated as T spill j,n , while the lifted remainder (S j-4 -S N+M )u (n) is merged into the high-side packet handled together with the genuine high-high interaction.
+
+    The strict low-mode low-high and high-low transport pieces are no longer part of the live scale-barrier mystery. The remaining scale-side debt begins with the threshold-local spill collar and the lifted high-side remainder created when S j-4 is frozen at N.
+
+
+
+    \subsection{Scale Spill Reduction Lemma}
+
+    Freezing the low-mode transport coefficient at the cutoff N creates the threshold-local spill collar. Under the stricter audit standard, this is a packet-definition and target-estimate note rather than a fully discharged proposition-level proof.
+
+    \[
+    \mathcal{T}^{spill}_{j,n}
+    :=
+    \Delta_j\Big(((S_{N+M}-S_{N-4})u^{(n)}\cdot\nabla)\Delta_j u^{(n)}\Big)
+    +
+    \Delta_j\Big((\Delta_j u^{(n)}\cdot\nabla)(S_{N+M}-S_{N-4})u^{(n)}\Big),
+    \]
+
+    for j N, on the fixed classical approximation family u (n) ,p (n) . Then for every > 0 there exists C > 0, independent of n and N, such that
+
+    The lifted remainder created by (S j-4 -S N+M )u (n) is merged into the genuine high-high packet because it no longer contains a threshold-local low factor.
+
+    Expand S N+M -S N-4 = N-3 k N+M k. Use the fixed threshold collar relation together with Bernstein to estimate the collar contribution against the same admissible surface, or else to show exactly where an additional packet split is still needed. Pair the differentiated factor with j u (n) and use Cauchy-Schwarz/Young to split the product into L N (n) (t)E N (n) (t) plus an arbitrarily small fraction of D N (n) (t). Sum in j N and integrate in time.
+
+    The threshold-local spill collar is the smallest scale-side packet that still needs proposition-level alignment after the strict low-mode reduction. The lifted high-side remainder is tracked with the genuine high-high interaction in
+
+    The whole frozen-cutoff remainder is not claimed as reduced here. Only the threshold-local spill collar is isolated, and that collar still belongs to the live proposition-level packet-discharge burden under the current audit standard.
+
+
+
+    \subsection{Segment-Collar Derivative Continuity On Balanced Frame}
+
+    Role: reduce the finite-frame linearization burden to one segment-collar derivative continuity packet on the same entrance-time balanced frame.
+
+    \[
+    \sum_{\ell=1}^m w_\ell\,\omega_{J,0}^\ell(a)\otimes\omega_{J,0}^\ell(a)
+    =
+    \Pi_{N_a},
+    \qquad
+    \sum_{\ell=1}^m w_\ell=d.
+    \]
+
+    \[
+    \Gamma_{J,\ell}(a)
+    :=
+    \{a+s\omega_{J,0}^\ell(a): |s|\le h_J\}.
+    \]
+
+    For each , let T J, (a,t) be a collar containing J, (a) on which D aX t is defined.
+
+    \[
+    \rho_{J,\mathrm{lin}}(a,t;h_J)
+    \]
+
+    \[
+    \rho_{J,\mathrm{lin}}(a,t;h_J)\to 0
+    \quad\text{uniformly on the active family as }h_J\downarrow 0.
+    \]
+
+    \[
+    \max_{1\le \ell\le m}
+    \bigl|
+    z_J^\ell(t,a)-W_J^{coc}(t,a)\omega_{J,0}^\ell(a)
+    \bigr|
+    \le
+    \rho_{J,\mathrm{lin}}(a,t;h_J),
+    \]
+
+    Fix one selector-good strip I 0=[t 0,t 1] and write 0:=|I 0|. Assume that for every active (a,t) and every selected collar T J, (a,t), the coarse flow X t is generated on that collar by a velocity field v J satisfying
+
+    So the alternate finite-frame linearization route is reduced further to one regular-window theorem: uniform C 2 control of the coarse flow on the frame collars.
+
+    Proof. Let U t:=D aX t and V t:=D a 2X t. On each collar, the variational equations are
+
+
+
+    \subsection{Signed Continuous-Scale Closure Program}
+
+    It is not a proof. It is the theorem program that matches the current argument state without reverting to shellwise absolute-value bookkeeping.
+
+    \[
+    \mathrm{Leakage}_1
+    \le
+    C\,\widetilde\Lambda_N^\sharp\,T_1
+    +
+    \eta\nu Q_1
+    +
+    \mathfrak H_N^{\mathrm{grad,lift}}
+    +
+    C_*2^{-2\delta N},
+    \]
+
+    The route below states exactly how (2) is supposed to be proved on the current surface.
+
+    \[
+    \mathfrak H_N^{\mathrm{grad,lift}}
+    \rightsquigarrow
+    \mathfrak c_\ell
+    \rightsquigarrow
+    \mathfrak B_N^{upper}+\Pi_N^{mid}
+    \rightsquigarrow
+    \mathfrak B_N^{upper}
+    +
+    \Pi_N^{mov\text{-}spill,L}
+    +
+    \Pi_N^{mid,far,L}
+    \rightsquigarrow
+    \text{CTS / LPAS closure}
+    \rightsquigarrow
+    (2).
+    \]
+
+    Each arrow in (3) is already recorded somewhere on the route. The remaining job is to close the exact theorem debts on that chain.
+
+    \[
+    P_{\le \ell}=\varphi(\ell D),
+    \qquad
+    Q_\ell=-\,\ell\partial_\ell P_{\le \ell},
+    \]
+
+    \[
+    \mathcal A_\ell
+    :=
+    \ell^{-2}
+    \big([P_{\le \ell},b_\ell^{meso}\cdot\nabla]u\big)\,
+    \big(P_{\le \ell}u\big),
+    \]
+
+    \[
+    \mathfrak c_\ell
+    :=
+    \ell^{-2}u_\ell[Q_\ell,b_\ell^{meso}\cdot\nabla]u.
+    \]
+
+    If (8) is obtained globally, then the signed route reduces immediately to boundary and residual estimates.
+
+    So the upper-boundary theorem should be attacked as a narrow same-scale packet, not as a new large-gap transport theorem.
+
+    then sum over the finite family. This is a finite-offset stability theorem, not a new transport mechanism.
+
+    If Steps 2 through 4 close, then one gets the integrated lifted estimate (2). Substituting (2) into (1) gives the weighted leakage absorption theorem on the already-honest carrier
+
+    So the route is not trying to improve the carrier anymore. The carrier is frozen. The only remaining task is to make the lifted packet absorbable on that surface.
+
+
+
+    \subsection{Signed Lifted-Band Scale-Descent Identity}
+
+    \[
+    \text{take } |\mathcal J_N^{lift}| \Longrightarrow \Pi_N^{lift}
+    \Longrightarrow \text{look for descent structure}.
+    \]
+
+    The inherited Euclidean inputs alone do not close the route. The coherent signed-layer mechanism is the descent identity by which the cocycle language can feed the scale barrier.
+
+    \[
+    P_{\le \ell} := \varphi(\ell D),
+    \qquad
+    Q_\ell := -\,\ell\partial_\ell P_{\le \ell},
+    \]
+
+    where is a smooth low-pass symbol and Q is the corresponding band-pass operator localized at frequency -1 .
+
+    \[
+    u_\ell := Q_\ell u,
+    \qquad
+    b_\ell^{meso} := P_{\le c/\ell}u - P_{\le 2^{N+M}}u.
+    \]
+
+    \[
+    \mathfrak c_\ell(x,t)
+    :=
+    \ell^{-2}\,
+    u_\ell(x,t)\,
+    [Q_\ell,b_\ell^{meso}(t)\cdot\nabla]u(x,t).
+    \]
+
+    \[
+    \mathcal A_\ell(x,t)
+    :=
+    \ell^{-2}\,
+    \big([P_{\le \ell},b_\ell^{meso}(t)\cdot\nabla]u(t)\big)(x)\,
+    \big(P_{\le \ell}u(t)\big)(x).
+    \]
+
+    This is the right signed potential because Q = - P converts scale refinement into a literal derivative of the cumulative quantity A .
+
+    The main point is not the exact constants. It is the structural support of the four terms.
+
+    This is supported only at the top edge of the mesoscopic band. So it is not another long lifted interaction. It is a threshold-local same-scale packet.
+
+    This is the signed-layer theorem shape that the cocycle language was trying to name.
+
+    Local versions of (SD3) may be built on overlapping scale-space-time windows U . Each local representation carries a potential triple
+
+    So the right exactness statement is not about the positive majorant meso H 1 . It is about the signed density c .
+
+    Once (SD3) is globally valid on the signed layer, integrate it over x,t, on the high-scale window 0< c2 -N .
+
+    ( ) telescopes in scale; x J is a space boundary term; t R is a time boundary term; S spill is returned to the existing spill packet; E is the true barrier-scale tail.
+
+    Only after this signed telescoping step should one pass to the positive stress-strain majorant. At that point the majorant is used to control the residual tail, not to generate the theorem mechanism.
+
+    The positive flux theorem (L-Flux) is not identical to (L-Signed). It is a downstream corollary only if the remaining boundary and residual terms are dominated by the positive majorant N lift or by an equivalent barrier-scale stress-strain estimate.
+
+
+
+    \subsection{Tail-Energy Genuine High-High Packet}
+
+    The genuine high-high packet is isolated on the exact Euclidean tail-energy surface used by the 4 -> 1 recertification argument.
+
+    \[
+    T_N(t):=\|P_{\ge N}u(t)\|_{L_x^2}^2,
+    \qquad
+    Q_N(t):=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2.
+    \]
+
+    \[
+    \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+    :=
+    \left|
+    \left\langle
+    \mathcal H_N[u](t),\,P_{\ge N}u(t)
+    \right\rangle
+    \right|
+    \]
+
+    \[
+    \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+    \le
+    C\sum_{j\ge N-M} 2^j \|\Delta_j u(t)\|_{L_x^2}^3
+    \le
+    \frac{\eta\nu}{4}\,Q_{N-M}(t)
+    \]
+
+    \[
+    \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+    \le
+    \frac{\eta\nu}{4}\,Q_N(t)
+    \]
+
+    Once the strict low-mode packet and the finite-band spill packet have been removed, Littlewood-Paley support forces the remaining high-high packet into a near-diagonal collar. Accordingly,
+
+    \[
+    \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
+    \le
+    C\sum_{j\ge N}
+    \sum_{|k-j|\le M}
+    2^j
+    \|\Delta_k u(t)\|_{L_x^2}\,
+    \|\widetilde{\Delta}_k u(t)\|_{L_x^2}\,
+    \|\Delta_j u(t)\|_{L_x^2}.
+    \]
+
+    This is the same near-diagonal cubic packet that appears on the scale side, except that here it is paired against the tail-energy surface rather than the scale dissipation functional.
+
+    The first factor belongs to the gradient-tail surface. Summing over j N-M yields
+
+    Absorb the finite collar M into the threshold regime by enlarging N * inside the same theorem-local budget. This yields
+
+    This is the exact large-cutoff high-high absorption used on the local tail-energy surface.
+
+    On the 4 -> 1 tail-energy surface, the genuine high-high packet is reduced to the same near-diagonal cubic packet already visible in the scale-side theorem stack, and it is absorbed into the gradient-tail dissipation Q N for all sufficiently large cutoffs.
+
+    The genuine high-high component closes on the local 4 -> 1 tail-energy surface.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Kernelized Lifted-Band Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60239
+  line_start: 60239
+  line_end: 60286
+  start_anchor: "\\subsection{Scale Kernelized Lifted-Band Reduction Lemma}\n"
+  end_anchor: "\\subsection{Scale Lifted-Band Stress-Strain Flux Repair}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Kernelized Lifted-Band
+    Reduction Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60239
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Lifted-Band Stress-Strain Flux Repair
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60287
+  line_start: 60287
+  line_end: 60339
+  start_anchor: "\\subsection{Scale Lifted-Band Stress-Strain Flux Repair}\n"
+  end_anchor: "\\subsection{Scale Paraproduct Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Lifted-Band Stress-Strain
+    Flux Repair as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60287
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Paraproduct Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60340
+  line_start: 60340
+  line_end: 60384
+  start_anchor: "\\subsection{Scale Paraproduct Reduction Lemma}\n"
+  end_anchor: "\\subsection{Scale Spill Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Paraproduct Reduction Lemma
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60340
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale Spill Reduction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60385
+  line_start: 60385
+  line_end: 60407
+  start_anchor: "\\subsection{Scale Spill Reduction Lemma}\n"
+  end_anchor: "\\subsection{SDS Parent Route Triage}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale Spill Reduction Lemma as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60385
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Segment-Collar Derivative Continuity On Balanced Frame
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60512
+  line_start: 60512
+  line_end: 60556
+  start_anchor: "\\subsection{Segment-Collar Derivative Continuity On Balanced Frame}\n"
+  end_anchor: "\\subsection{Selector Balanced Frame Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Segment-Collar Derivative Continuity
+    On Balanced Frame as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:60512
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed Continuous-Scale Closure Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61223
+  line_start: 61223
+  line_end: 61291
+  start_anchor: "\\subsection{Signed Continuous-Scale Closure Program}\n"
+  end_anchor: "\\subsection{Signed Lifted-Band Scale-Descent Identity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed Continuous-Scale Closure
+    Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61223
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Signed Lifted-Band Scale-Descent Identity
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61292
+  line_start: 61292
+  line_end: 61351
+  start_anchor: "\\subsection{Signed Lifted-Band Scale-Descent Identity}\n"
+  end_anchor: "\\subsection{Signed Weighted Commutator-Defect Theorem Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Signed Lifted-Band Scale-Descent
+    Identity as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:61292
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Tail-Energy Genuine High-High Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62273
+  line_start: 62273
+  line_end: 62332
+  start_anchor: "\\subsection{Tail-Energy Genuine High-High Packet}\n"
+  end_anchor: "\\subsection{Tail-Energy Spill Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Tail-Energy Genuine High-High
+    Packet as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:62273
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-24
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-24.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

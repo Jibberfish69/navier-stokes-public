@@ -124,7 +124,7 @@ missing step.
 ## Where The Proof Fails
 
 After terminal localization the actual paired endpoint contributions no longer
-have the form `A` and `-A`.  They have the schematic form
+have the form `A` and `-A`.  They have the form
 
 ```math
 W_P A_P
@@ -162,7 +162,7 @@ There are three independent failures.
 The source-wall tail weights are one-sided.  The paired weighted coefficients
 need not match; the mismatch can be comparable to the selected positive source
 itself, not a small commutator.  The signed same-fluid edge audit records this
-as an order-size coefficient defect, schematically:
+as an order-size coefficient defect:
 
 ```math
 2^j2^{-\sigma(\ell-j)}-2^\ell
@@ -181,7 +181,7 @@ commutator remainder, not the bare global triadic exchange.  Schematically:
 
 ```math
 R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 \tag{TSL.7}
@@ -323,7 +323,7 @@ signed-positive balance:
 \boxed{
 \int_{\mathcal F_N}
 (\mathfrak S_{N,loc}^{active})_+
-\lesssim
+\le C_{\mathrm{TSL}}
 \int_{\mathcal F_N}
 (\mathfrak S_{N,loc}^{active})_-
 +o_N(1)+Loss_{legal}.
@@ -389,4 +389,3 @@ ScaleCriticalTreeCarleson.A
 ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 }
 ```
-

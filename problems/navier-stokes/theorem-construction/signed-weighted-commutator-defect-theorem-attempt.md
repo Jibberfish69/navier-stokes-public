@@ -6,7 +6,7 @@ The proposed local estimate was
 
 ```math
 |\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle|
-\lesssim
+\le C_{comm}
 2^{-c(\ell-j)}2^{3k/2}\|\Delta_k u\|_2D_\ell
 ```
 
@@ -60,7 +60,7 @@ The live theorem must instead concern the true commutatorized lifted remainder c
 
 ## Weighted signed branch
 
-The useful signed object has the schematic form
+The useful signed branch is
 
 ```math
 \mathfrak G_{k,N}^{\sigma}

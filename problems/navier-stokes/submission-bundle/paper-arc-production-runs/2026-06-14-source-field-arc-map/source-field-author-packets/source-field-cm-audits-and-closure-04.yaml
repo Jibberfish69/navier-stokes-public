@@ -1,0 +1,976 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-cm-audits-and-closure-04
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-04
+  sequence: 89
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 4
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 15297
+  line_end: 18189
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15297
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15328
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15503
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16405
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16829
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16942
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18028
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18158
+  subsection_titles:
+  - B ASAC Rigid-Subclass Or Temporal-Thickness Attempt
+  - B ASAC Temporal-Thickness Or Rigid-Subclass Attempt
+  - B ASAC Atom Escape Dichotomy Closure Route
+  - Classical Closure Warrant Final Pass
+  - Density Selected Source Packet Closure Schedule For Sg 4 Tps Ep A
+  - Direct Aact Kx Local Classical Variables
+  - Explicit CM witness-face bridge after the source-pulse supplier route
+  - Fci 5F Avg Source Closure Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Rigid-Subclass Or Temporal-Thickness Attempt
+    line_start: 15297
+    line_end: 15327
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15297
+    start_anchor: "\\subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}\n"
+    end_anchor: "\\subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}
+
+      B ASAC records terminal equality/tangent organization for the ASAC defect
+      measure.  To exclude a terminal source atom from that class, the route needs
+      one extra structure.  One option is a rigid subclass with a residue Liouville
+      theorem.  The other option is temporal thickness for the positive source
+      measure.
+
+      The temporal-thickness target is an \(L_s^p\) bound with \(p>1\):
+
+      \[
+      \left\|
+      \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+      \right\|_{L_s^p((-1,0))}
+      \le C_R,
+      \qquad p>1.
+      \]
+
+      Such a bound gives
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p}+o_m(1),
+      \]
+
+      and rules out a terminal time-face atom in the limit.  The installed B ASAC
+      production does not give this \(L_s^p\) gain.  It gives finite \(L_s^1\) source
+      mass and terminal equality geometry, and finite \(L_s^1\) mass still permits
+      terminal-face concentration.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Temporal-Thickness Or Rigid-Subclass Attempt
+    line_start: 15328
+    line_end: 15354
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15328
+    start_anchor: "\\subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}\n"
+    end_anchor: "\\subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+      Boundary}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}
+
+      This is the same obstruction viewed from the two possible upgrades.  The class
+      B ASAC organizes the terminal equality/tangent survivor for the ASAC defect
+      measure.  The missing temporal upgrade would imply
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le C_R\varepsilon^{1-1/p}+o_m(1),
+      \]
+
+      and hence
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      The installed axioms do not supply that gain.  A zero-thickness source atom may
+      carry finite \(L_s^1\) mass while its \(L_s^p\) norm diverges for every \(p>1\).
+      The pressure/eigenframe supports are near-band signed-current support; they do
+      not create temporal thickness for the full source-weighted positive carrier.
+
+      B ASAC is useful as an equality/tangent class, and it is too broad for terminal
+      atom exclusion.  This branch still needs either temporal thickness inside B
+      ASAC or a genuinely rigid subclass with a source-residue Liouville theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: B ASAC Atom Escape Dichotomy Closure Route
+    line_start: 15503
+    line_end: 15542
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15503
+    start_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Closure Route}\n"
+    end_anchor: "\\subsection{B ASAC Atom Forces Escape}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{B ASAC Atom Escape Dichotomy Closure Route}
+
+      The useful closure route is one coordinated dichotomy theorem. It would keep
+      the positive source-weighted carrier through the adjoint identity and force any
+      nonzero terminal source atom to show itself in one of the live exits:
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})>0,
+      \qquad
+      \langle \mu_m^{src},\psi_m\rangle \to c_0>0,
+      \]
+
+      \[
+      \langle \mu_m^{src},\psi_m\rangle
+      =
+      Flux_{tr,cyl,m}
+      +
+      Residence_{m}
+      +
+      P_{\mathrm{eig},m}
+      +
+      L_{\mathrm{legal},m}+o_m(1).
+      \]
+
+      The three nontrivial exits are
+
+      \[
+      \boxed{Flux_{tr,cyl}>0},
+      \qquad
+      \boxed{Residence>0},
+      \qquad
+      \boxed{P_{\mathrm{eig}}>0}.
+      \]
+
+      This route is sharper than the older split because a single theorem coordinates
+      no-incoming source-drain, temporal residence, and pressure/eigenframe sustain.
+      It is not installed yet. The current theorem target is the positive-source
+      adjoint escape identity in the source-weighted positive topology.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Classical Closure Warrant Final Pass
+    line_start: 16405
+    line_end: 16446
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16405
+    start_anchor: "\\subsection{Classical Closure Warrant Final Pass}\n"
+    end_anchor: "\\subsection{Compact Endpoint Matrix Formalization}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Classical Closure Warrant Final Pass}
+
+      The final pass is the same conditional continuation step, stated in compressed
+      form. For smooth divergence-free zero-mean data on \(\mathbb T^3\), with
+      zero force and \(\nu>0\), the remaining burden is the uniform \(H^s\) bound:
+
+      \[
+      \mathbb T^3,
+      \qquad
+      f=0,
+      \qquad
+      \nu>0,
+      \qquad
+      u_0^{\mathrm{vel}}=u_0\in C^\infty(\mathbb T^3),
+      \qquad
+      \nabla\cdot u_0=0,
+      \qquad
+      \int_{\mathbb T^3}u_0\,dx=0.
+      \]
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      \[
+      \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+      \]
+
+      Periodic Navier-Stokes local theory in \(H^s(\mathbb T^3)\) gives a lifespan
+      depending only on this bound. Relaunching at times
+      \(t_j\uparrow T_*\) extends the solution past any finite \(T_*\), and
+      uniqueness identifies the relaunched solution with the original one on the
+      overlap.
+
+      \[
+      T_* = \infty.
+      \]
+
+      This is a final-use warrant for the uniform bound, not an independent proof of
+      that bound.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Density Selected Source Packet Closure Schedule For Sg 4 Tps
+      Ep A
+    line_start: 16829
+    line_end: 16868
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16829
+    start_anchor: "\\subsection{Density Selected Source Packet Closure Schedule For
+      Sg 4 Tps Ep A}\n"
+    end_anchor: "\\subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral
+      Alignment}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Density Selected Source Packet Closure Schedule For Sg 4 Tps Ep A}
+
+      Conditional closure schedule. Several source packets close after changing the selection rules. The remaining work is to prove that the selected objects retain enough mass and stay synchronized on one strip.
+
+      \[
+      \bar\delta_j(Q)=\frac{1}{\mu_j(Q)}\int_Q\delta_{j,Q}\,d\mu_j.
+      \]
+
+      \[
+      E_Q:=\{a\in Q:\delta_{j,Q}(a)\ge \bar\delta_j(Q)\}
+      \]
+
+      \[
+      \delta_{j,Q}(a_Q)\ge \bar\delta_j(Q).
+      \]
+
+      So the center lower-density packet closes with c=1 under the density-selected center rule.
+
+      \[
+      [\delta_{j,Q}]_{C^\alpha(Q)}\operatorname{diam}(Q)^\alpha
+      \le \gamma\bar\delta_j(Q),
+      \]
+
+      \[
+      \operatorname{diam}(Q)
+      \le
+      \left(\frac{\gamma\bar\delta_j(Q)}{[\delta_{j,Q}]_{C^\alpha(Q)}}\right)^{1/\alpha},
+      \]
+
+      This closes the shell-leakage form used by the downstream finite-shell comparability packet, under regular-shell boundary control.
+
+      Choose the frame scale schedule so this tends to zero. Then segment-collar derivative continuity and finite-frame PTC-Lin follow.
+
+      The restricted CG gap note proves persistence, not creation. If the entrance tensor has gap
+
+      Thus the strip gap closes under an entrance simple-top selection plus the CG persistence budget.
+
+      The final handoff fires when this common intersection retains the required selector-good mass and carries the same core-cap family, entrance-sector refinement, finite frame, and CG reference object.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Direct Aact Kx Local Classical Variables
+    line_start: 16942
+    line_end: 16973
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16942
+    start_anchor: "\\subsection{Direct Aact Kx Local Classical Variables}\n"
+    end_anchor: "\\subsection{Direct active- Carleson via monotone/source-dominance
+      - failed discharge}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Direct Aact Kx Local Classical Variables}
+
+      \[
+      Q_R^\Phi=
+      \{(x,t):x=c(t)+RA(t)y,\\ |y|<1,\\ |t-t_0|<R^2\},
+      \]
+
+      \[
+      w_R(x,t)=u(x,t)-u_R(t)-B_R(t)(x-c(t)),
+      \]
+
+      where u R(t) and B R(t) are chosen by the usual zeroth and first moment conditions against a transported cutoff psi R. Define
+
+      \[
+      X_R(t)=R^{-2}\int |w_R|^2\psi_R(x,t)\,dx
+      \]
+
+      The affine-subtracted Navier-Stokes equation is tested against w R psi R. The transport frame is
+
+      \[
+      V_R^{frame}(x,t)=c'(t)+\dot A(t)A(t)^{-1}(x-c(t)).
+      \]
+
+      \[
+      \partial_t+u\cdot\nabla
+      =
+      \partial_t+V_R^{frame}\cdot\nabla +(u-V_R^{frame})\cdot\nabla.
+      \]
+
+      The first two terms differentiate the moving cutoff and the affine frame; their coefficients are bounded by the frame record. The last term is controlled by the affine residual. This gives the transport/cutoff contribution
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Explicit CM witness-face bridge after the source-pulse supplier
+      route
+    line_start: 18028
+    line_end: 18061
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18028
+    start_anchor: "\\subsection{Explicit CM witness-face bridge after the source-pulse
+      supplier route}\n"
+    end_anchor: "\\subsection{Exterior Decay Propagation Via Weighted Energy Inequality}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Explicit CM witness-face bridge after the source-pulse supplier route}
+
+      The conditional CM witness-face bridge consumes the source-pulse / no-Jump avg
+      supplier route only as a Field-side readout supplier. The three CM faces remain
+      separate.
+
+      \[
+      CM_{N,r,Q}(u,p,\Phi)
+      :=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      \[
+      Pack_Q,
+      \qquad
+      Part_{N,Q},
+      \qquad
+      Field_{N,r,Q}.
+      \]
+
+      This row is independent of the source-pulse proof. It is a same-fluid retained pack-gauge statement on the retained terminal tail. It must be cited separately whenever Member(Q) is claimed.
+
+      This row is also independent of the source-pulse proof. It is the Law-2 / participation row of the CM object and must remain explicit.
+
+      The source-pulse route enters only here, through the no-jump / averaged terminal-tail readout chain.
+
+      Those labels are branch supplier or downstream consumer labels. They become part of the CM bridge only when their exact row contribution is named.
+
+      \[
+      \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+      \]
+
+      This bridge supplies a conditional route to Member(Q) after all three rows are separately present. It does not redefine Exit(Q) and does not turn source-pulse exclusion into the class-membership primitive.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Fci 5F Avg Source Closure Audit
+    line_start: 18158
+    line_end: 18189
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18158
+    start_anchor: "\\subsection{Fci 5F Avg Source Closure Audit}\n"
+    end_anchor: "\\subsection{Field avg Terminal Good-Cover Equivalence}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Fci 5F Avg Source Closure Audit}
+
+      \[
+      \mathcal N^{src}
+      =\mathcal N^{press}+\mathcal N^{sc}+\mathcal N^{cut}.
+      \]
+
+      \[
+      \mathcal N_{N,\rho,\psi}^{src,\varepsilon}\in L^1(I),
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal F_{N,\rho,\psi}^{\varepsilon}
+      +\frac12\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}
+      \le
+      \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
+      +
+      \left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
+      \mathcal F_{N,\rho,\psi}^{\varepsilon}.
+      \]
+
+      The coefficient is integrable by the source package and the averaged lower-carrier/collar inputs. Gronwall gives
+
+      \[
+      \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
+      \qquad
+      \mathcal N_{N,\rho,\psi}^{visc,\varepsilon}\in L^1(I),
+      \]
+
+      The route must explicitly record that it uses the strengthened sufficient source supplier. Any stricter exact same-depth pressure version remains a separate proof contract.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}
+
+    B ASAC records terminal equality/tangent organization for the ASAC defect
+    measure.  To exclude a terminal source atom from that class, the route needs
+    one extra structure.  One option is a rigid subclass with a residue Liouville
+    theorem.  The other option is temporal thickness for the positive source
+    measure.
+
+    The temporal-thickness target is an \(L_s^p\) bound with \(p>1\):
+
+    \[
+    \left\|
+    \|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}
+    \right\|_{L_s^p((-1,0))}
+    \le C_R,
+    \qquad p>1.
+    \]
+
+    Such a bound gives
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p}+o_m(1),
+    \]
+
+    and rules out a terminal time-face atom in the limit.  The installed B ASAC
+    production does not give this \(L_s^p\) gain.  It gives finite \(L_s^1\) source
+    mass and terminal equality geometry, and finite \(L_s^1\) mass still permits
+    terminal-face concentration.
+
+
+
+    \subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}
+
+    This is the same obstruction viewed from the two possible upgrades.  The class
+    B ASAC organizes the terminal equality/tangent survivor for the ASAC defect
+    measure.  The missing temporal upgrade would imply
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le C_R\varepsilon^{1-1/p}+o_m(1),
+    \]
+
+    and hence
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    The installed axioms do not supply that gain.  A zero-thickness source atom may
+    carry finite \(L_s^1\) mass while its \(L_s^p\) norm diverges for every \(p>1\).
+    The pressure/eigenframe supports are near-band signed-current support; they do
+    not create temporal thickness for the full source-weighted positive carrier.
+
+    B ASAC is useful as an equality/tangent class, and it is too broad for terminal
+    atom exclusion.  This branch still needs either temporal thickness inside B
+    ASAC or a genuinely rigid subclass with a source-residue Liouville theorem.
+
+
+
+    \subsection{B ASAC Atom Escape Dichotomy Closure Route}
+
+    The useful closure route is one coordinated dichotomy theorem. It would keep
+    the positive source-weighted carrier through the adjoint identity and force any
+    nonzero terminal source atom to show itself in one of the live exits:
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})>0,
+    \qquad
+    \langle \mu_m^{src},\psi_m\rangle \to c_0>0,
+    \]
+
+    \[
+    \langle \mu_m^{src},\psi_m\rangle
+    =
+    Flux_{tr,cyl,m}
+    +
+    Residence_{m}
+    +
+    P_{\mathrm{eig},m}
+    +
+    L_{\mathrm{legal},m}+o_m(1).
+    \]
+
+    The three nontrivial exits are
+
+    \[
+    \boxed{Flux_{tr,cyl}>0},
+    \qquad
+    \boxed{Residence>0},
+    \qquad
+    \boxed{P_{\mathrm{eig}}>0}.
+    \]
+
+    This route is sharper than the older split because a single theorem coordinates
+    no-incoming source-drain, temporal residence, and pressure/eigenframe sustain.
+    It is not installed yet. The current theorem target is the positive-source
+    adjoint escape identity in the source-weighted positive topology.
+
+
+
+    \subsection{Classical Closure Warrant Final Pass}
+
+    The final pass is the same conditional continuation step, stated in compressed
+    form. For smooth divergence-free zero-mean data on \(\mathbb T^3\), with
+    zero force and \(\nu>0\), the remaining burden is the uniform \(H^s\) bound:
+
+    \[
+    \mathbb T^3,
+    \qquad
+    f=0,
+    \qquad
+    \nu>0,
+    \qquad
+    u_0^{\mathrm{vel}}=u_0\in C^\infty(\mathbb T^3),
+    \qquad
+    \nabla\cdot u_0=0,
+    \qquad
+    \int_{\mathbb T^3}u_0\,dx=0.
+    \]
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    \[
+    \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+    \]
+
+    Periodic Navier-Stokes local theory in \(H^s(\mathbb T^3)\) gives a lifespan
+    depending only on this bound. Relaunching at times
+    \(t_j\uparrow T_*\) extends the solution past any finite \(T_*\), and
+    uniqueness identifies the relaunched solution with the original one on the
+    overlap.
+
+    \[
+    T_* = \infty.
+    \]
+
+    This is a final-use warrant for the uniform bound, not an independent proof of
+    that bound.
+
+
+
+    \subsection{Density Selected Source Packet Closure Schedule For Sg 4 Tps Ep A}
+
+    Conditional closure schedule. Several source packets close after changing the selection rules. The remaining work is to prove that the selected objects retain enough mass and stay synchronized on one strip.
+
+    \[
+    \bar\delta_j(Q)=\frac{1}{\mu_j(Q)}\int_Q\delta_{j,Q}\,d\mu_j.
+    \]
+
+    \[
+    E_Q:=\{a\in Q:\delta_{j,Q}(a)\ge \bar\delta_j(Q)\}
+    \]
+
+    \[
+    \delta_{j,Q}(a_Q)\ge \bar\delta_j(Q).
+    \]
+
+    So the center lower-density packet closes with c=1 under the density-selected center rule.
+
+    \[
+    [\delta_{j,Q}]_{C^\alpha(Q)}\operatorname{diam}(Q)^\alpha
+    \le \gamma\bar\delta_j(Q),
+    \]
+
+    \[
+    \operatorname{diam}(Q)
+    \le
+    \left(\frac{\gamma\bar\delta_j(Q)}{[\delta_{j,Q}]_{C^\alpha(Q)}}\right)^{1/\alpha},
+    \]
+
+    This closes the shell-leakage form used by the downstream finite-shell comparability packet, under regular-shell boundary control.
+
+    Choose the frame scale schedule so this tends to zero. Then segment-collar derivative continuity and finite-frame PTC-Lin follow.
+
+    The restricted CG gap note proves persistence, not creation. If the entrance tensor has gap
+
+    Thus the strip gap closes under an entrance simple-top selection plus the CG persistence budget.
+
+    The final handoff fires when this common intersection retains the required selector-good mass and carries the same core-cap family, entrance-sector refinement, finite frame, and CG reference object.
+
+
+
+    \subsection{Direct Aact Kx Local Classical Variables}
+
+    \[
+    Q_R^\Phi=
+    \{(x,t):x=c(t)+RA(t)y,\\ |y|<1,\\ |t-t_0|<R^2\},
+    \]
+
+    \[
+    w_R(x,t)=u(x,t)-u_R(t)-B_R(t)(x-c(t)),
+    \]
+
+    where u R(t) and B R(t) are chosen by the usual zeroth and first moment conditions against a transported cutoff psi R. Define
+
+    \[
+    X_R(t)=R^{-2}\int |w_R|^2\psi_R(x,t)\,dx
+    \]
+
+    The affine-subtracted Navier-Stokes equation is tested against w R psi R. The transport frame is
+
+    \[
+    V_R^{frame}(x,t)=c'(t)+\dot A(t)A(t)^{-1}(x-c(t)).
+    \]
+
+    \[
+    \partial_t+u\cdot\nabla
+    =
+    \partial_t+V_R^{frame}\cdot\nabla +(u-V_R^{frame})\cdot\nabla.
+    \]
+
+    The first two terms differentiate the moving cutoff and the affine frame; their coefficients are bounded by the frame record. The last term is controlled by the affine residual. This gives the transport/cutoff contribution
+
+
+
+    \subsection{Explicit CM witness-face bridge after the source-pulse supplier route}
+
+    The conditional CM witness-face bridge consumes the source-pulse / no-Jump avg
+    supplier route only as a Field-side readout supplier. The three CM faces remain
+    separate.
+
+    \[
+    CM_{N,r,Q}(u,p,\Phi)
+    :=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    \[
+    Pack_Q,
+    \qquad
+    Part_{N,Q},
+    \qquad
+    Field_{N,r,Q}.
+    \]
+
+    This row is independent of the source-pulse proof. It is a same-fluid retained pack-gauge statement on the retained terminal tail. It must be cited separately whenever Member(Q) is claimed.
+
+    This row is also independent of the source-pulse proof. It is the Law-2 / participation row of the CM object and must remain explicit.
+
+    The source-pulse route enters only here, through the no-jump / averaged terminal-tail readout chain.
+
+    Those labels are branch supplier or downstream consumer labels. They become part of the CM bridge only when their exact row contribution is named.
+
+    \[
+    \neg CM_{N,r,Q}=\neg(Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}).
+    \]
+
+    This bridge supplies a conditional route to Member(Q) after all three rows are separately present. It does not redefine Exit(Q) and does not turn source-pulse exclusion into the class-membership primitive.
+
+
+
+    \subsection{Fci 5F Avg Source Closure Audit}
+
+    \[
+    \mathcal N^{src}
+    =\mathcal N^{press}+\mathcal N^{sc}+\mathcal N^{cut}.
+    \]
+
+    \[
+    \mathcal N_{N,\rho,\psi}^{src,\varepsilon}\in L^1(I),
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal F_{N,\rho,\psi}^{\varepsilon}
+    +\frac12\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}
+    \le
+    \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
+    +
+    \left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
+    \mathcal F_{N,\rho,\psi}^{\varepsilon}.
+    \]
+
+    The coefficient is integrable by the source package and the averaged lower-carrier/collar inputs. Gronwall gives
+
+    \[
+    \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
+    \qquad
+    \mathcal N_{N,\rho,\psi}^{visc,\varepsilon}\in L^1(I),
+    \]
+
+    The route must explicitly record that it uses the strengthened sufficient source supplier. Any stricter exact same-depth pressure version remains a separate proof contract.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Rigid-Subclass Or Temporal-Thickness Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15297
+  line_start: 15297
+  line_end: 15327
+  start_anchor: "\\subsection{B ASAC Rigid-Subclass Or Temporal-Thickness Attempt}\n"
+  end_anchor: "\\subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Rigid-Subclass Or Temporal-Thickness
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15297
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Temporal-Thickness Or Rigid-Subclass Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15328
+  line_start: 15328
+  line_end: 15354
+  start_anchor: "\\subsection{B ASAC Temporal-Thickness Or Rigid-Subclass Attempt}\n"
+  end_anchor: "\\subsection{B ASAC Terminal-Source Reverse Holder And Pressure/Eigenframe
+    Boundary}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Temporal-Thickness Or
+    Rigid-Subclass Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15328
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: B ASAC Atom Escape Dichotomy Closure Route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15503
+  line_start: 15503
+  line_end: 15542
+  start_anchor: "\\subsection{B ASAC Atom Escape Dichotomy Closure Route}\n"
+  end_anchor: "\\subsection{B ASAC Atom Forces Escape}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite B ASAC Atom Escape Dichotomy
+    Closure Route as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:15503
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Classical Closure Warrant Final Pass
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16405
+  line_start: 16405
+  line_end: 16446
+  start_anchor: "\\subsection{Classical Closure Warrant Final Pass}\n"
+  end_anchor: "\\subsection{Compact Endpoint Matrix Formalization}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Classical Closure Warrant Final
+    Pass as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16405
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Density Selected Source Packet Closure Schedule For Sg 4 Tps Ep
+    A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16829
+  line_start: 16829
+  line_end: 16868
+  start_anchor: "\\subsection{Density Selected Source Packet Closure Schedule For
+    Sg 4 Tps Ep A}\n"
+  end_anchor: "\\subsection{DG-Line Anisotropy Drain From Reduced Strain Spectral
+    Alignment}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Density Selected Source Packet
+    Closure Schedule For Sg 4 Tps Ep A as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16829
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Direct Aact Kx Local Classical Variables
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16942
+  line_start: 16942
+  line_end: 16973
+  start_anchor: "\\subsection{Direct Aact Kx Local Classical Variables}\n"
+  end_anchor: "\\subsection{Direct active- Carleson via monotone/source-dominance
+    - failed discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Direct Aact Kx Local Classical
+    Variables as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:16942
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Explicit CM witness-face bridge after the source-pulse supplier
+    route
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18028
+  line_start: 18028
+  line_end: 18061
+  start_anchor: "\\subsection{Explicit CM witness-face bridge after the source-pulse
+    supplier route}\n"
+  end_anchor: "\\subsection{Exterior Decay Propagation Via Weighted Energy Inequality}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Explicit CM witness-face bridge
+    after the source-pulse supplier route as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18028
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Fci 5F Avg Source Closure Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18158
+  line_start: 18158
+  line_end: 18189
+  start_anchor: "\\subsection{Fci 5F Avg Source Closure Audit}\n"
+  end_anchor: "\\subsection{Field avg Terminal Good-Cover Equivalence}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Fci 5F Avg Source Closure Audit
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18158
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-04
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-cm-audits-and-closure-04.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

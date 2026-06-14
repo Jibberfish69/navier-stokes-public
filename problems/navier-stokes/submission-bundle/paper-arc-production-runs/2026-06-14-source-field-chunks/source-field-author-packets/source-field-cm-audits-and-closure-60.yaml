@@ -1,0 +1,800 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-cm-audits-and-closure-60
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-cm-audits-and-closure-60
+  sequence: 145
+  group_id: cm-audits-and-closure
+  title: CM audits and closure 60
+  author_job: write CM audit material as class-exit proof payment, exact support,
+    or explicitly open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 66368
+  line_end: 66612
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66368
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66389
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66406
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66417
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66448
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66475
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66516
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66594
+  subsection_titles:
+  - Clay problem Uniform Two-Sided Obstruction Lemma
+  - Clay problem CM-Exit Classification Versus Exclusion Audit
+  - Clay problem Active Height Flux Trichotomy.A Proof Audit
+  - Clay problem Clay Smooth Solution CM Exit Inadmissibility
+  - CM certificate direction correction
+  - Clay problem CM Contrapositive Route-Faithfulness Audit
+  - Clay problem Leading-Edge Math Targets Audit Note
+  - Clay problem No Genuine Exit From Smooth Data Direct Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Uniform Two-Sided Obstruction Lemma
+    line_start: 66368
+    line_end: 66388
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66368
+    start_anchor: "\\subsection{Clay problem Uniform Two-Sided Obstruction Lemma}\n"
+    end_anchor: "\\subsection{Clay problem CM-Exit Classification Versus Exclusion
+      Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Uniform Two-Sided Obstruction Lemma}
+
+      The pass side supplies non-vacuity. The fail side supplies the CM contrapositive work. The proof does not require solving the full positive forward bootstrap program for the obstruction.
+
+      The pass witness is a non-vacuity witness for the branch split. It is not a demand to prove one chosen positive estimate as the global smoothness mechanism.
+
+      Now take any realization of O that is capable of serving as a finite nonsmooth terminal event. By (H2), it enters the CM terminal test for the
+
+      Field face failure. By ClayCMContrapositive Embedding.A, that face failure supports
+
+      There is no third branch that remains in class while carrying the finite nonsmooth terminal failure.
+
+      The proof uses only the four interface facts (H1)--(H4). It does not depend on whether O is a source-control wall, packet-carrier wall, participation tower wall, coherence/readout wall, donor-reserve wall, signed-current wall, or another same-solution terminal obstruction.
+
+      Once those four rows are present for every terminal witness case in the Clay finite-breakdown exhaustion, the Navier-Stokes CM contrapositive proof has the needed obstruction-by-obstruction assembly.
+
+      First, an obstruction row is incomplete when it classifies every realization as outside CM while supplying no same-obstruction pass witness. That is an empty branch split, not a proof of smoothness.
+
+      Second, an obstruction row is misdirected when it replaces the pass witness by the whole positive forward bootstrap program. The pass-side burden is non-vacuity for the branch split; the fail side carries the CM proof pressure.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM-Exit Classification Versus Exclusion Audit
+    line_start: 66389
+    line_end: 66405
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66389
+    start_anchor: "\\subsection{Clay problem CM-Exit Classification Versus Exclusion
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Proof Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem CM-Exit Classification Versus Exclusion Audit}
+
+      This MCP audit is retained only as a red-team objection against the positive no-exit reading. It is not current CM proof-state authority. It does not exhibit a legal in-class nonsmooth third branch, and it does not show failure of Clay terminal CM entry, finite-failure type exhaustion, or CM contrapositive embedding. Its exclusion-language must not be read as an active CM proof blocker.
+
+      Its corollary then treats the absence of an unclassified CM-route counterexample as exclusion of finite-time Clay counterexamples inside the CM route.
+
+      That inference is invalid. A classified finite failure remains a finite failure. A counterexample does not need to be unclassified. It can be exactly a classified class-exit object.
+
+      Let F mean finite terminal non-continuation. Let E mean genuine continuation-complete CM exit. Let C mean classical continuation through the terminal time.
+
+      The available class-exit theorem supplies E from F. It does not supply contradiction from E.
+
+      Zeno is not a fourth CM witness face. A Zeno mechanism has proof relevance only through carrier failure, participation failure, or one-field coherence failure. The triad remains Pack, Part, Field.
+
+      The missing logical step is exclusion of genuine continuation-complete CM exit from original smooth data. Classification of exit does not provide that exclusion.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Active Height Flux Trichotomy.A Proof Audit
+    line_start: 66406
+    line_end: 66416
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66406
+    start_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Proof
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Active Height Flux Trichotomy.A Proof Audit}
+
+      Active Height Flux Trichotomy.A is allowed to support this program only by showing that a first-created positive -reserve surplus either produces a same-witness active height-flux witness or already forces Pack/Part/Field exit. It is not allowed to become a positive smoothness estimate, a free source budget, or a shortcut to Member(Q).
+
+      The generated proof attempt is not Clay-grade because the decisive visibility step is still asserted rather than proved.
+
+      The current proof attempt uses dyadic layer-cake selection and then names the escape cases, but it does not prove that every zero-first-moment escape is forced into Pack, Part, Field, or Zeno on the same retained terminal record. That missing forcing statement is exactly the theorem, so using it to consume Source Reserve Birth Charge.A would be circular.
+
+      This lemma is the honest missing bridge. It should be attacked directly by normal-form decomposition of the signed terminal pulse, extremal first-window selection, and witness-face routing, not by declaring the trichotomy as already proved.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Clay Smooth Solution CM Exit Inadmissibility
+    line_start: 66417
+    line_end: 66447
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66417
+    start_anchor: "\\subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}\n"
+    end_anchor: "\\subsection{CM certificate direction correction}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}
+
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+      That stronger statement would require an additional bridge, because the Clay breakdown alternative is precisely the nonexistence of a global smooth accepted solution.
+
+      Thus Clay smooth-solution admissibility includes global classical smoothness of the velocity and pressure on every finite spacetime window.
+
+      \[
+      \text{classical still-live }Q
+      \Longrightarrow
+      \exists r_Q>0\ \forall N\ge0:\ CM_{N,r_Q,Q}.
+      \]
+
+      Let (u,p) be a Clay-admissible smooth solution in either the whole-space or periodic formulation. Then no still-live finite window of (u,p) carries a CM class-exit witness.
+
+      so any Pack/Part/Field class-exit witness is inadmissible as a witness of a Clay smooth solution.
+
+      Assume (u,p) is a Clay-admissible smooth solution. By the Clay admissibility condition, u and p are classical smooth functions on every finite spacetime window.
+
+      \[
+      Q\Subset \Omega\times[0,\infty).
+      \]
+
+      \[
+      CM_{N,r_Q,Q}(u,p,\Phi).
+      \]
+
+      Since Q was arbitrary, no still-live finite window of a Clay smooth solution can carry a Pack/Part/Field CM class-exit witness.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: CM certificate direction correction
+    line_start: 66448
+    line_end: 66474
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66448
+    start_anchor: "\\subsection{CM certificate direction correction}\n"
+    end_anchor: "\\subsection{Clay problem CM Contrapositive Route-Faithfulness Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{CM certificate direction correction}
+
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+      \[
+      CM_{N,r,Q}
+      :=
+      Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      Equivalently, a failed route-relative certificate at a selected depth/scale is not by itself a theorem-grade proof that the object has exited the working class.
+
+      This is weaker than the pointwise logical converse CM N,r,Q Member(Q; O NS work ).
+
+      \[
+      CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+      \]
+
+      \[
+      \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}
+      \]
+
+      Installing either displayed implication installs the other, because Exit(Q; O NS work ) := Member(Q; O NS work ) and CM is the conjunction of the three face predicates. So the real logical hinge is not a distinction between "face failure" and "not CM"; it is whether the Pack/Part/Field envelope is merely a sufficient certificate for membership or a necessary characterization of membership on the route.
+
+      NS-Clay problem has installed CM as an exact analytic certificate for membership and has installed Pack/Part/Field as the canonical route-relative witness envelope. It has not installed the blunt converse witness theorem
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem CM Contrapositive Route-Faithfulness Audit
+    line_start: 66475
+    line_end: 66515
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66475
+    start_anchor: "\\subsection{Clay problem CM Contrapositive Route-Faithfulness
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem Leading-Edge Math Targets Audit Note}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |
+      \subsection{Clay problem CM Contrapositive Route-Faithfulness Audit}
+
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+      \[
+      CM_{N,r,Q}
+      =
+      Pack_Q
+      \wedge
+      Part_{N,Q}
+      \wedge
+      Field_{N,r,Q}.
+      \]
+
+      That statement remains a possible sufficient theorem, but it is not the route-faithful primary target.
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+      \qquad
+      j_n\to\infty,
+      \qquad
+      |I_n|\sfcomp{64972} 2^{-2j_n},
+      \qquad
+      t_n\uparrow T_\ast
+      \]
+
+      If none of these fails, then the packet is not a genuine non-smooth occurrence in the class-membership grammar. It is an internal source packet on a lawful same-fluid survivor branch, and any remove / charge / rigidify argument becomes ordinary survivor control rather than the contradiction itself.
+
+      | mu * sing=0 / Native Trilinear Defect Domination.A | Sharp measure/PDE sufficient form for the same source-pulse supplier. Route-faithful use is to show that nonzero mu * sing forces not Field or another CM exit, not merely to demand absolute vanishing. |
+
+      The following open arguments are not necessarily mathematically wrong. They are logically seated in the wrong place unless rewritten through Source PulseCMExit.A.
+
+      Original Smooth Data=>Source Pulse Exclusion.A. Correct seat: sufficient supplier for excluding the source-pulse exit, not the governing proof target.
+
+      Jump avg=>false without Field avg. Correct seat: Jump avg is a field-exit classifier unless the route proves a same-branch no-exit theorem. Do not eliminate it as a free-standing bad event.
+
+      Mechanism-specific source-pulse routes. Correct seat: mechanism languages for the same Source PulseCMExit.A witness. Do not reopen pressure-vortex, Beltrami/helical, vortic
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Leading-Edge Math Targets Audit Note
+    line_start: 66516
+    line_end: 66540
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66516
+    start_anchor: "\\subsection{Clay problem Leading-Edge Math Targets Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge
+      Audit}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: |+
+      \subsection{Clay problem Leading-Edge Math Targets Audit Note}
+
+      This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+      where Localized Skew Current.A is the signed-current record and Cycle Heat Action.A is the heat-action interface. The follow-up audits show that this route remains conditional: its lower targets collapse to Terminal Signed Saturation.A, Parabolic Edge Resistance.A, Scale Critical Tree Carleson.A, or the Zeno pair.
+
+      Parent Square Embed.A is installed and controls diffuse parentage in norm; the direct branch closes only if the scalar reserve Scale Critical Tree Carleson.A is proved; it is one live root route, not a stale alternate.
+
+      \[
+      ZenoBoundedClass_B.A.
+      \]
+
+      \[
+      ZenoResidueLiouville_B.A.
+      \]
+
+      \[
+      ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+      \]
+
+      The user's source-wall inventory is justified, and after the reconciliation demotion it is no longer merely preserved alternate inventory. The exact split
+
+      So item 14 is not the CM bridge. It is the triadicity / stable-carrier canonicality ceiling plus its mixed-clause residual.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem No Genuine Exit From Smooth Data Direct Attempt
+    line_start: 66594
+    line_end: 66612
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66594
+    start_anchor: "\\subsection{Clay problem No Genuine Exit From Smooth Data Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: cm-audits-and-closure
+    text: "\\subsection{Clay problem No Genuine Exit From Smooth Data Direct Attempt}\n\nEquivalently,
+      for the maximal classical Navier-Stokes solution generated by smooth divergence-free
+      data, no finite terminal tail realizes a genuine continuation-complete Pack/Part/Field
+      class exit.\n\nThis is not the local target left by the pass/fail obstruction
+      engine or the no-third-branch class law. It is stronger than branch classification
+      and names the whole no-exit problem in one line. The corrected CM work should
+      not promote this slogan unless the proof program has explicitly switched into
+      a positive no-exit attempt.\n\nAny Finite Failure WitnessCMExit.A: every finite
+      failure witness lands at the first failed Pack/Part/Field face. TerminalCMNo
+      Exit.Face Reduction.A: the no-genuine-exit burden reduces to the Pack-first
+      CM tree, with the Pack branch led by Scale Critical Tree Carleson.A. Positive
+      Obstruction NoThird Branch Class Law.A: no branch is both an in-class continuation
+      branch and a mechanism-derived finite nonsmoothness witness.\n\nAssume original
+      smooth data produce a first finite T * with GenuineCMExit(T *). Since the solution
+      is classical on every preterminal window, every preterminal same-fluid window
+      supplies local Pack/Part/Field\n\nThe no-third-branch theorem makes these exit
+      branches incompatible with an in-class continuation branch. It does not by itself
+      eliminate them as possible terminal behavior of a hypothetical Clay counterexample.\n\nThe
+      current installed material does not prove this implication. The leading edge
+      notes say the post-reconcile Bellman and reserve attempts reduce the problem
+      to a scale-critical active-window height / donor-tail estimate, and that estimate
+      is not installed by the current first-moment, local-energy, donor-balance, normalized-adjoint,
+      active-shell, -source, branch-reserve, or Zeno compactness inputs.\n\nThe current
+      route reduces the retained source-pulse and signed-current obstructions to terminal
+      signed-saturation / source-wall primitives. Those \n% ... source excerpt truncated
+      for packet size ...\n"
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Uniform Two-Sided Obstruction Lemma}
+
+    The pass side supplies non-vacuity. The fail side supplies the CM contrapositive work. The proof does not require solving the full positive forward bootstrap program for the obstruction.
+
+    The pass witness is a non-vacuity witness for the branch split. It is not a demand to prove one chosen positive estimate as the global smoothness mechanism.
+
+    Now take any realization of O that is capable of serving as a finite nonsmooth terminal event. By (H2), it enters the CM terminal test for the
+
+    Field face failure. By ClayCMContrapositive Embedding.A, that face failure supports
+
+    There is no third branch that remains in class while carrying the finite nonsmooth terminal failure.
+
+    The proof uses only the four interface facts (H1)--(H4). It does not depend on whether O is a source-control wall, packet-carrier wall, participation tower wall, coherence/readout wall, donor-reserve wall, signed-current wall, or another same-solution terminal obstruction.
+
+    Once those four rows are present for every terminal witness case in the Clay finite-breakdown exhaustion, the Navier-Stokes CM contrapositive proof has the needed obstruction-by-obstruction assembly.
+
+    First, an obstruction row is incomplete when it classifies every realization as outside CM while supplying no same-obstruction pass witness. That is an empty branch split, not a proof of smoothness.
+
+    Second, an obstruction row is misdirected when it replaces the pass witness by the whole positive forward bootstrap program. The pass-side burden is non-vacuity for the branch split; the fail side carries the CM proof pressure.
+
+
+
+    \subsection{Clay problem CM-Exit Classification Versus Exclusion Audit}
+
+    This MCP audit is retained only as a red-team objection against the positive no-exit reading. It is not current CM proof-state authority. It does not exhibit a legal in-class nonsmooth third branch, and it does not show failure of Clay terminal CM entry, finite-failure type exhaustion, or CM contrapositive embedding. Its exclusion-language must not be read as an active CM proof blocker.
+
+    Its corollary then treats the absence of an unclassified CM-route counterexample as exclusion of finite-time Clay counterexamples inside the CM route.
+
+    That inference is invalid. A classified finite failure remains a finite failure. A counterexample does not need to be unclassified. It can be exactly a classified class-exit object.
+
+    Let F mean finite terminal non-continuation. Let E mean genuine continuation-complete CM exit. Let C mean classical continuation through the terminal time.
+
+    The available class-exit theorem supplies E from F. It does not supply contradiction from E.
+
+    Zeno is not a fourth CM witness face. A Zeno mechanism has proof relevance only through carrier failure, participation failure, or one-field coherence failure. The triad remains Pack, Part, Field.
+
+    The missing logical step is exclusion of genuine continuation-complete CM exit from original smooth data. Classification of exit does not provide that exclusion.
+
+
+
+    \subsection{Clay problem Active Height Flux Trichotomy.A Proof Audit}
+
+    Active Height Flux Trichotomy.A is allowed to support this program only by showing that a first-created positive -reserve surplus either produces a same-witness active height-flux witness or already forces Pack/Part/Field exit. It is not allowed to become a positive smoothness estimate, a free source budget, or a shortcut to Member(Q).
+
+    The generated proof attempt is not Clay-grade because the decisive visibility step is still asserted rather than proved.
+
+    The current proof attempt uses dyadic layer-cake selection and then names the escape cases, but it does not prove that every zero-first-moment escape is forced into Pack, Part, Field, or Zeno on the same retained terminal record. That missing forcing statement is exactly the theorem, so using it to consume Source Reserve Birth Charge.A would be circular.
+
+    This lemma is the honest missing bridge. It should be attacked directly by normal-form decomposition of the signed terminal pulse, extremal first-window selection, and witness-face routing, not by declaring the trichotomy as already proved.
+
+
+
+    \subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+    That stronger statement would require an additional bridge, because the Clay breakdown alternative is precisely the nonexistence of a global smooth accepted solution.
+
+    Thus Clay smooth-solution admissibility includes global classical smoothness of the velocity and pressure on every finite spacetime window.
+
+    \[
+    \text{classical still-live }Q
+    \Longrightarrow
+    \exists r_Q>0\ \forall N\ge0:\ CM_{N,r_Q,Q}.
+    \]
+
+    Let (u,p) be a Clay-admissible smooth solution in either the whole-space or periodic formulation. Then no still-live finite window of (u,p) carries a CM class-exit witness.
+
+    so any Pack/Part/Field class-exit witness is inadmissible as a witness of a Clay smooth solution.
+
+    Assume (u,p) is a Clay-admissible smooth solution. By the Clay admissibility condition, u and p are classical smooth functions on every finite spacetime window.
+
+    \[
+    Q\Subset \Omega\times[0,\infty).
+    \]
+
+    \[
+    CM_{N,r_Q,Q}(u,p,\Phi).
+    \]
+
+    Since Q was arbitrary, no still-live finite window of a Clay smooth solution can carry a Pack/Part/Field CM class-exit witness.
+
+
+
+    \subsection{CM certificate direction correction}
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+    \[
+    CM_{N,r,Q}
+    :=
+    Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    Equivalently, a failed route-relative certificate at a selected depth/scale is not by itself a theorem-grade proof that the object has exited the working class.
+
+    This is weaker than the pointwise logical converse CM N,r,Q Member(Q; O NS work ).
+
+    \[
+    CM_{N,r,Q}:=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
+    \]
+
+    \[
+    \neg Pack_Q\vee\neg Part_{N,Q}\vee\neg Field_{N,r,Q}
+    \]
+
+    Installing either displayed implication installs the other, because Exit(Q; O NS work ) := Member(Q; O NS work ) and CM is the conjunction of the three face predicates. So the real logical hinge is not a distinction between "face failure" and "not CM"; it is whether the Pack/Part/Field envelope is merely a sufficient certificate for membership or a necessary characterization of membership on the route.
+
+    NS-Clay problem has installed CM as an exact analytic certificate for membership and has installed Pack/Part/Field as the canonical route-relative witness envelope. It has not installed the blunt converse witness theorem
+
+
+
+    \subsection{Clay problem CM Contrapositive Route-Faithfulness Audit}
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+    \[
+    CM_{N,r,Q}
+    =
+    Pack_Q
+    \wedge
+    Part_{N,Q}
+    \wedge
+    Field_{N,r,Q}.
+    \]
+
+    That statement remains a possible sufficient theorem, but it is not the route-faithful primary target.
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+    \qquad
+    j_n\to\infty,
+    \qquad
+    |I_n|\sfcomp{64972} 2^{-2j_n},
+    \qquad
+    t_n\uparrow T_\ast
+    \]
+
+    If none of these fails, then the packet is not a genuine non-smooth occurrence in the class-membership grammar. It is an internal source packet on a lawful same-fluid survivor branch, and any remove / charge / rigidify argument becomes ordinary survivor control rather than the contradiction itself.
+
+    | mu * sing=0 / Native Trilinear Defect Domination.A | Sharp measure/PDE sufficient form for the same source-pulse supplier. Route-faithful use is to show that nonzero mu * sing forces not Field or another CM exit, not merely to demand absolute vanishing. |
+
+    The following open arguments are not necessarily mathematically wrong. They are logically seated in the wrong place unless rewritten through Source PulseCMExit.A.
+
+    Original Smooth Data=>Source Pulse Exclusion.A. Correct seat: sufficient supplier for excluding the source-pulse exit, not the governing proof target.
+
+    Jump avg=>false without Field avg. Correct seat: Jump avg is a field-exit classifier unless the route proves a same-branch no-exit theorem. Do not eliminate it as a free-standing bad event.
+
+    Mechanism-specific source-pulse routes. Correct seat: mechanism languages for the same Source PulseCMExit.A witness. Do not reopen pressure-vortex, Beltrami/helical, vorticity-direction, CKN/local-energy, compactness/Liouville, Duhamel, no-hop, or Q-drain as independent exits.
+
+    First ask whether the mechanism can occur while Pack, Part, and Field remain installed on the same shrinking same-fluid windows. If no, record the exact failed component as the class-exit witness. If yes, the mechanism is a lawful survivor packet; only then spend forward estimates such as remove / charge / rigidify. Never let a lawful-survivor control theorem become the proof program root.
+
+
+
+    \subsection{Clay problem Leading-Edge Math Targets Audit Note}
+
+    This older audit predates the May 25 pass/fail CM completion audits. Its open-middle, blunt-converse, or remaining-exclusion language is historical route hygiene. Current CM proof state uses finite Clay witness entry, Pack/Part/Field finite-failure exhaustion, and CM contrapositive embedding. Absence of the raw converse not CM => not Member is not an active blocker for the current CM proof.
+
+    where Localized Skew Current.A is the signed-current record and Cycle Heat Action.A is the heat-action interface. The follow-up audits show that this route remains conditional: its lower targets collapse to Terminal Signed Saturation.A, Parabolic Edge Resistance.A, Scale Critical Tree Carleson.A, or the Zeno pair.
+
+    Parent Square Embed.A is installed and controls diffuse parentage in norm; the direct branch closes only if the scalar reserve Scale Critical Tree Carleson.A is proved; it is one live root route, not a stale alternate.
+
+    \[
+    ZenoBoundedClass_B.A.
+    \]
+
+    \[
+    ZenoResidueLiouville_B.A.
+    \]
+
+    \[
+    ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
+    \]
+
+    The user's source-wall inventory is justified, and after the reconciliation demotion it is no longer merely preserved alternate inventory. The exact split
+
+    So item 14 is not the CM bridge. It is the triadicity / stable-carrier canonicality ceiling plus its mixed-clause residual.
+
+
+
+    \subsection{Clay problem No Genuine Exit From Smooth Data Direct Attempt}
+
+    Equivalently, for the maximal classical Navier-Stokes solution generated by smooth divergence-free data, no finite terminal tail realizes a genuine continuation-complete Pack/Part/Field class exit.
+
+    This is not the local target left by the pass/fail obstruction engine or the no-third-branch class law. It is stronger than branch classification and names the whole no-exit problem in one line. The corrected CM work should not promote this slogan unless the proof program has explicitly switched into a positive no-exit attempt.
+
+    Any Finite Failure WitnessCMExit.A: every finite failure witness lands at the first failed Pack/Part/Field face. TerminalCMNo Exit.Face Reduction.A: the no-genuine-exit burden reduces to the Pack-first CM tree, with the Pack branch led by Scale Critical Tree Carleson.A. Positive Obstruction NoThird Branch Class Law.A: no branch is both an in-class continuation branch and a mechanism-derived finite nonsmoothness witness.
+
+    Assume original smooth data produce a first finite T * with GenuineCMExit(T *). Since the solution is classical on every preterminal window, every preterminal same-fluid window supplies local Pack/Part/Field
+
+    The no-third-branch theorem makes these exit branches incompatible with an in-class continuation branch. It does not by itself eliminate them as possible terminal behavior of a hypothetical Clay counterexample.
+
+    The current installed material does not prove this implication. The leading edge notes say the post-reconcile Bellman and reserve attempts reduce the problem to a scale-critical active-window height / donor-tail estimate, and that estimate is not installed by the current first-moment, local-energy, donor-balance, normalized-adjoint, active-shell, -source, branch-reserve, or Zeno compactness inputs.
+
+    The current route reduces the retained source-pulse and signed-current obstructions to terminal signed-saturation / source-wall primitives. Those are useful because they keep the branch inside Pack/Part/Field, but they do not yet produce the positive Field coherence needed to rule out genuine exit.
+
+    Any claim of Clay-ready closure must either prove Original Smooth Data=>Scale Critical Tree Carleson.A and the surviving Part/Field
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Uniform Two-Sided Obstruction Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66368
+  line_start: 66368
+  line_end: 66388
+  start_anchor: "\\subsection{Clay problem Uniform Two-Sided Obstruction Lemma}\n"
+  end_anchor: "\\subsection{Clay problem CM-Exit Classification Versus Exclusion Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Uniform Two-Sided
+    Obstruction Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66368
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM-Exit Classification Versus Exclusion Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66389
+  line_start: 66389
+  line_end: 66405
+  start_anchor: "\\subsection{Clay problem CM-Exit Classification Versus Exclusion
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Proof Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM-Exit Classification
+    Versus Exclusion Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66389
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Active Height Flux Trichotomy.A Proof Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66406
+  line_start: 66406
+  line_end: 66416
+  start_anchor: "\\subsection{Clay problem Active Height Flux Trichotomy.A Proof Audit}\n"
+  end_anchor: "\\subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Active Height Flux
+    Trichotomy.A Proof Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66406
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Clay Smooth Solution CM Exit Inadmissibility
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66417
+  line_start: 66417
+  line_end: 66447
+  start_anchor: "\\subsection{Clay problem Clay Smooth Solution CM Exit Inadmissibility}\n"
+  end_anchor: "\\subsection{CM certificate direction correction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Clay Smooth Solution
+    CM Exit Inadmissibility as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66417
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: CM certificate direction correction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66448
+  line_start: 66448
+  line_end: 66474
+  start_anchor: "\\subsection{CM certificate direction correction}\n"
+  end_anchor: "\\subsection{Clay problem CM Contrapositive Route-Faithfulness Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite CM certificate direction correction
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66448
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem CM Contrapositive Route-Faithfulness Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66475
+  line_start: 66475
+  line_end: 66515
+  start_anchor: "\\subsection{Clay problem CM Contrapositive Route-Faithfulness Audit}\n"
+  end_anchor: "\\subsection{Clay problem Leading-Edge Math Targets Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem CM Contrapositive
+    Route-Faithfulness Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66475
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Leading-Edge Math Targets Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66516
+  line_start: 66516
+  line_end: 66540
+  start_anchor: "\\subsection{Clay problem Leading-Edge Math Targets Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem No GenuineCMExit.A Pack-Wall Parallel Merge
+    Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Leading-Edge Math
+    Targets Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66516
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem No Genuine Exit From Smooth Data Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66594
+  line_start: 66594
+  line_end: 66612
+  start_anchor: "\\subsection{Clay problem No Genuine Exit From Smooth Data Direct
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem No Genuine Exit
+    From Smooth Data Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66594
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-cm-audits-and-closure-60
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-60.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

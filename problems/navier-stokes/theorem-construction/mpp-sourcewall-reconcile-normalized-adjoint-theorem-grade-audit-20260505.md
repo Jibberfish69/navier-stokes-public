@@ -272,7 +272,7 @@ For the actual scale-normalized donor factor,
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\sim
+:=
 \sum_{k>N}
 2^k
 \left(

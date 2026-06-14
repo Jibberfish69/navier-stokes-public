@@ -198,7 +198,7 @@ A_{F,\rho,\psi}^{\sharp}(t)
 \tag{R1.11c}
 ```
 
-Let `C_{TB}>0` denote the schematic constant implicit in `(TB.28)`.
+Let `C_{TB}>0` denote the constant appearing in `(TB.28)`.
 
 Assume:
 

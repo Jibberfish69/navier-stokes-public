@@ -1,0 +1,1026 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-14
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-14
+  sequence: 166
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 14
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 12451
+  line_end: 13081
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12451
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12469
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12749
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12782
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12922
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12965
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13010
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13050
+  subsection_titles:
+  - Low-Shell Amplitude Domination Assessment Result
+  - Lower-Prefix Active-Square Theorem
+  - Navier-Stokes Main Theorem Draft
+  - Material-Derivative Tower Preliminary Algebra Note
+  - Aact Global Finite Cover Scheduler Attempt
+  - Aact Global From Tgc A Discharge
+  - Aact Global Nojump Finite Cover Scheduler Theorem Avg End A
+  - Aact Global Promotion Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Low-Shell Amplitude Domination Assessment Result
+    line_start: 12451
+    line_end: 12468
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12451
+    start_anchor: "\\subsection{Low-Shell Amplitude Domination Assessment Result}\n"
+    end_anchor: "\\subsection{Lower-Prefix Active-Square Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Low-Shell Amplitude Domination Assessment Result}
+
+      \[
+      X_A:=Ae.
+      \]
+
+      A record that measures only higher-order defects, collar errors, or normalized
+      residuals has no automatic control of \(M_{\mathrm{low}}\).
+
+      The sharper domination theorem \(M_{\mathrm{low}}\le C_{\mathrm{sf},12326} C\) is available
+      exactly when the original lower-order record already controls finite low-shell
+      amplitude. The finite nature of the block reduces the burden to finitely many
+      amplitudes; it does not create amplitude domination on its own.
+
+      If the original record already contains or dominates low-shell amplitude, keep
+      the original record. Otherwise the route uses the extended low-shell record.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lower-Prefix Active-Square Theorem
+    line_start: 12469
+    line_end: 12520
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12469
+    start_anchor: "\\subsection{Lower-Prefix Active-Square Theorem}\n"
+    end_anchor: "\\subsection{Lower-Triangular Scale-Memory Formalization Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Lower-Prefix Active-Square Theorem}
+
+      If CTS is not proved directly in its continuum form, the inherited Euclidean
+      inputs reduce it to one precise dyadic weighted object. LPAS packages that
+      object as its own theorem target.
+
+      \[
+      D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2,
+      \qquad
+      E_j(t):=2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+      \]
+
+      Fix the separation constant \(C_1\) coming from the far-corona lower bound
+      \(r\le C_{\mathrm{sf},12348} 2^{-j-C_1}\). Define the lower-prefix \(H^1\) energy by
+
+      \[
+      \mathcal P_j^{\downarrow}(t)
+      :=
+      \sum_{k\le j-C_1}E_k(t).
+      \]
+
+      This is the exact cumulative lower-frequency \(H^1\) energy seen by the active
+      shell \(j\) in the direct CTS reduction. LPAS asks that
+
+      \[
+      \text{lower-prefix }H^1\text{ energy cannot accumulate against the active-shell square.}
+      \]
+
+      SDS controls upper-tail queues, UTKD controls upper-tail kernelized dissipation
+      queues, and PCI controls paired upper-tail carriers. LPAS has the opposite
+      orientation:
+
+      \[
+      \mathcal P_j^{\downarrow}(t)\cdot 2^{-j}D_j(t)^2.
+      \]
+
+      \[
+      \mathcal P_j^{\downarrow}(t)\,2^{-j}D_j(t)^2
+      =
+      \sum_{k\le j-C_1}
+      2^{-2k-j}D_k(t)D_j(t)^2.
+      \]
+
+      This is a lower-prefix/active-square interaction. The installed SDS queue and
+      the downstream UTKD/PCI packets control upper-tail objects in which the active
+      index is paired with shells above it. They do not change the orientation of the
+      interaction and do not discharge LPAS.
+
+      LPAS is not a vague Carleson stand-in. It is the exact dyadic weighted
+      object left by the direct CTS reduction.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Navier-Stokes Main Theorem Draft
+    line_start: 12749
+    line_end: 12781
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12749
+    start_anchor: "\\subsection{Navier-Stokes Main Theorem Draft}\n"
+    end_anchor: "\\subsection{Material-Derivative Tower Preliminary Algebra Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Navier-Stokes Main Theorem Draft}
+
+      The appendix is aimed at the standard whole-space Clay statement: for smooth
+      divergence-free rapidly decaying initial data \(u_0\) on \(\mathbb R^3\), with
+      no forcing, the classical solution of
+      \[
+      \partial_tu+u\cdot\nabla u+\nabla p=\nu\Delta u,
+      \qquad
+      \nabla\cdot u=0,
+      \qquad
+      u(0)=u_0
+      \]
+      continues smoothly for all positive time. The proof surface is the original
+      Euclidean equation. Filtered flows, geometric reformulations, compactness
+      carriers, and regularized branches count only after they return to this same
+      PDE without adding coercive structure that the original equation does not have.
+
+      The present proof route separates the ingredients. Energy and enstrophy are
+      necessary background controls, but they do not by themselves rule out
+      concentration at shrinking scales. The missing scale input is a dyadic tail or
+      flux estimate on the original equation strong enough to stop a persistent
+      high-frequency cascade. In this route that missing input is the scale-cubic
+      tail absorption lemma. Its reduction is explicit, while the strict low-mode,
+      spill, and genuine high-high packet steps still require theorem-grade payment.
+
+      Once the scale input is supplied, it feeds two consumers. First, it upgrades the
+      classical approximation carrier to the local strong compactness needed to pass
+      the nonlinear tensor \(u^{(n)}\otimes u^{(n)}\to u\otimes u\). Second, it feeds
+      the Euclidean gradient mechanism used by the continuation readout. The
+      compactness package is now a fixed consumer of that upstream scale input, not
+      an independent proof frontier.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Material-Derivative Tower Preliminary Algebra Note
+    line_start: 12782
+    line_end: 12827
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12782
+    start_anchor: "\\subsection{Material-Derivative Tower Preliminary Algebra Note}\n"
+    end_anchor: "\\subsection{A1c R Direct Whole-Space Hs Control: Reduction And Obstruction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Material-Derivative Tower Preliminary Algebra Note}
+
+      \[
+      D_t:=\partial_t+u\cdot\nabla.
+      \]
+
+      The material derivative is useful bookkeeping, but it does not remove the
+      source of the derivative tower. It absorbs the visible transport term at the
+      base level and then returns the same difficulty through commutators.
+
+      \[
+      D_t u + \nabla p = \nu\Delta u.
+      \]
+
+      This is the bottom-level absorption. The price reappears when spatial
+      derivatives are taken:
+
+      \[
+      [D_t,\partial_i]f
+      =
+      -(\partial_i u)\cdot\nabla f.
+      \]
+
+      \[
+      [D_t,\partial^\alpha]f
+      =
+      -\!\!\!\sum_{0<\beta\le\alpha}
+      c_{\alpha,\beta}\,
+      (\partial^\beta u\cdot\nabla)\partial^{\alpha-\beta}f.
+      \]
+
+      \[
+      [D_t,\nabla]f
+      =
+      -(\nabla u)^\top \nabla f,
+      \]
+
+      Spatial differentiation brings it back through this commutator.
+      Iterating \(D_t\) through spatial derivatives, viscosity, and pressure produces
+      strain-weighted commutator terms. This reformulation can clarify that the
+      active source is a strain/commutator interaction rather than bare transport,
+      but it does not simplify the full proof. The binomial derivative tower becomes
+      a commutator tower, and the viscous rung no longer appears as a clean linear
+      input without the extra commutator records.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Global Finite Cover Scheduler Attempt
+    line_start: 12922
+    line_end: 12964
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12922
+    start_anchor: "\\subsection{Aact Global Finite Cover Scheduler Attempt}\n"
+    end_anchor: "\\subsection{Aact Global From Tgc A Discharge}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Global Finite Cover Scheduler Attempt}
+
+      The averaged ACT globalization starts from local data. On each SCF-good moving
+      cylinder \(Q_R^\Phi\), the installed local packet gives
+
+      \[
+      X_R\in L^\infty(I_R),
+      \qquad
+      N_R\in L^1(I_R),
+      \qquad
+      \mathcal K_{\le m}^{avg,R}\in L^1(I_R).
+      \]
+
+      \[
+      \mathcal G_{\varepsilon_m}^{\Phi}
+      :=Q^\Phi\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+      \]
+
+      \[
+      \mathcal B_{\varepsilon_m}^{\Phi}\cap\mathcal T\ne\varnothing
+      \Longrightarrow
+      \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+      \]
+
+      On a no-\(\mathrm{Jump}_{avg}\) branch, this gives a positive SCF-good radius
+      at each terminal-tail point.
+
+      \[
+      [t_0,T_0]\subset [t_0,T_*),
+      \]
+
+      Pointwise good-cylinder existence is weaker than the needed terminal scheduler.
+      The proof must control the whole half-open approach window
+
+      \[
+      [t_0,T_*).
+      \]
+
+      The inputs in this attempt do not give a finite cover of that window, a uniform
+      positive lower radius, or a summable scheduler majorant. That is the failure
+      record for the first finite-cover attempt.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Global From Tgc A Discharge
+    line_start: 12965
+    line_end: 13009
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12965
+    start_anchor: "\\subsection{Aact Global From Tgc A Discharge}\n"
+    end_anchor: "\\subsection{Aact Global Nojump Finite Cover Scheduler Theorem Avg
+      End A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Global From Tgc A Discharge}
+
+      The \(Tgc.A\) input strengthens pointwise good-cylinder existence into the
+      strict terminal cover/scheduler form needed on the no-\(\mathrm{Jump}_{avg}\)
+      branch. It supplies finitely many retained moving cylinders with a uniform
+      lower radius and finite overlap.
+
+      \[
+      X_j(s_j)\le\eta_X,
+      \qquad
+      X_j\in L^\infty(I_j),
+      \qquad
+      N_j\in L^1(I_j),
+      \qquad
+      F_j\in L^1(I_j),
+      \qquad
+      \mathcal K_{\le m,j}^{avg}\in L^1(I_j).
+      \]
+
+      \[
+      D^+X_{j,p}+cN_{j,p}
+      \le
+      B_{j,p}X_{j,p}+C_{j,p}X_{j,p}^{1/2}N_{j,p}+F_{j,p},
+      \]
+
+      \[
+      B_{j,p}=1+A_{j,p}+V_j+P_j\in L^1(I_j),
+      \qquad
+      F_{j,p}\in L^1(I_j).
+      \]
+
+      \[
+      B_*(t):=\sum_{j,p}\mathbf 1_{I_j}(t)B_{j,p}(t),
+      \qquad
+      F_*(t):=\sum_{j,p}\mathbf 1_{I_j}(t)F_{j,p}(t).
+      \]
+
+      \[
+      B_*,F_*\in L^1([t_0,T_*)).
+      \]
+
+      This discharges the scheduler structure on the good branch. It does not remove
+      \(\mathrm{Jump}_{avg}\); that endpoint face remains downstream.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Global Nojump Finite Cover Scheduler Theorem Avg End A
+    line_start: 13010
+    line_end: 13049
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13010
+    start_anchor: "\\subsection{Aact Global Nojump Finite Cover Scheduler Theorem
+      Avg End A}\n"
+    end_anchor: "\\subsection{Aact Global Promotion Audit}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Global Nojump Finite Cover Scheduler Theorem Avg End A}
+
+      This is the theorem-facing hardening of the averaged ACT globalization step on
+      the no-\(\mathrm{Jump}_{avg}\) branch. Assume a finite terminal cover
+
+      \[
+      \mathcal Q_j=Q_{r_j}^{\Phi}(a_j,t_j),
+      \qquad 1\le j\le J,
+      \]
+
+      \[
+      X_{j,p}(s_{j,p})\le\eta_X,
+      \qquad
+      F_{j,p},B_{j,p}\in L^1(I_j),
+      \]
+
+      \[
+      D^+X_{j,p}+cN_{j,p}
+      \le
+      B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p}.
+      \]
+
+      \[
+      X_{j,p}\in L^\infty,
+      \qquad
+      N_{j,p}\in L^1,
+      \qquad
+      \mathcal K_{\le m,j,p}^{avg}\in L^1.
+      \]
+
+      \[
+      B_*,F_*\in L^1([t_0,T_*)).
+      \]
+
+      With the restart seeds in place, the first-exit inequality closes on each cell.
+      Integrating the local inequality gives the averaged receiver bounds on the
+      whole retained terminal window. The theorem is a good-side scheduler theorem,
+      not a proof that the jump branch is absent.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Aact Global Promotion Audit
+    line_start: 13050
+    line_end: 13081
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13050
+    start_anchor: "\\subsection{Aact Global Promotion Audit}\n"
+    end_anchor: "\\subsection{Aact Kx Constants Scale Bookkeeping}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Aact Global Promotion Audit}
+
+      On each selected cylinder, \(ATD_m\) supplies the finite-depth averaged affine
+      tower packet. The local averaged budget audit gives
+
+      \[
+      X_R\in L^\infty,
+      \qquad
+      N_R\in L^1,
+      \qquad
+      \mathcal K_{\le m}^{avg,R}\in L^1.
+      \]
+
+      The promotion uses only the local moving-frame, pressure, cutoff, core,
+      top-viscous, tower, and nonlinear records supplied by \(ATD_m\) and
+      \(SCF^{avg}_m\).
+
+      \[
+      B_*:=\sum_{j,p}\mathbf 1_{I_j}B_{j,p},
+      \qquad
+      F_*:=\sum_{j,p}\mathbf 1_{I_j}F_{j,p}
+      \]
+
+      \[
+      \mathrm{Jump}_{\mathrm{avg}}.
+      \]
+
+      The audit result is narrow: no hidden circular dependency remains inside the
+      cover, scheduler, and globalization chain once the no-\(\mathrm{Jump}_{avg}\)
+      cover and restart seeds are available.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Low-Shell Amplitude Domination Assessment Result}
+
+    \[
+    X_A:=Ae.
+    \]
+
+    A record that measures only higher-order defects, collar errors, or normalized
+    residuals has no automatic control of \(M_{\mathrm{low}}\).
+
+    The sharper domination theorem \(M_{\mathrm{low}}\le C_{\mathrm{sf},12326} C\) is available
+    exactly when the original lower-order record already controls finite low-shell
+    amplitude. The finite nature of the block reduces the burden to finitely many
+    amplitudes; it does not create amplitude domination on its own.
+
+    If the original record already contains or dominates low-shell amplitude, keep
+    the original record. Otherwise the route uses the extended low-shell record.
+
+
+
+    \subsection{Lower-Prefix Active-Square Theorem}
+
+    If CTS is not proved directly in its continuum form, the inherited Euclidean
+    inputs reduce it to one precise dyadic weighted object. LPAS packages that
+    object as its own theorem target.
+
+    \[
+    D_j(t):=2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2,
+    \qquad
+    E_j(t):=2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+    \]
+
+    Fix the separation constant \(C_1\) coming from the far-corona lower bound
+    \(r\le C_{\mathrm{sf},12348} 2^{-j-C_1}\). Define the lower-prefix \(H^1\) energy by
+
+    \[
+    \mathcal P_j^{\downarrow}(t)
+    :=
+    \sum_{k\le j-C_1}E_k(t).
+    \]
+
+    This is the exact cumulative lower-frequency \(H^1\) energy seen by the active
+    shell \(j\) in the direct CTS reduction. LPAS asks that
+
+    \[
+    \text{lower-prefix }H^1\text{ energy cannot accumulate against the active-shell square.}
+    \]
+
+    SDS controls upper-tail queues, UTKD controls upper-tail kernelized dissipation
+    queues, and PCI controls paired upper-tail carriers. LPAS has the opposite
+    orientation:
+
+    \[
+    \mathcal P_j^{\downarrow}(t)\cdot 2^{-j}D_j(t)^2.
+    \]
+
+    \[
+    \mathcal P_j^{\downarrow}(t)\,2^{-j}D_j(t)^2
+    =
+    \sum_{k\le j-C_1}
+    2^{-2k-j}D_k(t)D_j(t)^2.
+    \]
+
+    This is a lower-prefix/active-square interaction. The installed SDS queue and
+    the downstream UTKD/PCI packets control upper-tail objects in which the active
+    index is paired with shells above it. They do not change the orientation of the
+    interaction and do not discharge LPAS.
+
+    LPAS is not a vague Carleson stand-in. It is the exact dyadic weighted
+    object left by the direct CTS reduction.
+
+
+
+    \subsection{Navier-Stokes Main Theorem Draft}
+
+    The appendix is aimed at the standard whole-space Clay statement: for smooth
+    divergence-free rapidly decaying initial data \(u_0\) on \(\mathbb R^3\), with
+    no forcing, the classical solution of
+    \[
+    \partial_tu+u\cdot\nabla u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0,
+    \qquad
+    u(0)=u_0
+    \]
+    continues smoothly for all positive time. The proof surface is the original
+    Euclidean equation. Filtered flows, geometric reformulations, compactness
+    carriers, and regularized branches count only after they return to this same
+    PDE without adding coercive structure that the original equation does not have.
+
+    The present proof route separates the ingredients. Energy and enstrophy are
+    necessary background controls, but they do not by themselves rule out
+    concentration at shrinking scales. The missing scale input is a dyadic tail or
+    flux estimate on the original equation strong enough to stop a persistent
+    high-frequency cascade. In this route that missing input is the scale-cubic
+    tail absorption lemma. Its reduction is explicit, while the strict low-mode,
+    spill, and genuine high-high packet steps still require theorem-grade payment.
+
+    Once the scale input is supplied, it feeds two consumers. First, it upgrades the
+    classical approximation carrier to the local strong compactness needed to pass
+    the nonlinear tensor \(u^{(n)}\otimes u^{(n)}\to u\otimes u\). Second, it feeds
+    the Euclidean gradient mechanism used by the continuation readout. The
+    compactness package is now a fixed consumer of that upstream scale input, not
+    an independent proof frontier.
+
+
+
+    \subsection{Material-Derivative Tower Preliminary Algebra Note}
+
+    \[
+    D_t:=\partial_t+u\cdot\nabla.
+    \]
+
+    The material derivative is useful bookkeeping, but it does not remove the
+    source of the derivative tower. It absorbs the visible transport term at the
+    base level and then returns the same difficulty through commutators.
+
+    \[
+    D_t u + \nabla p = \nu\Delta u.
+    \]
+
+    This is the bottom-level absorption. The price reappears when spatial
+    derivatives are taken:
+
+    \[
+    [D_t,\partial_i]f
+    =
+    -(\partial_i u)\cdot\nabla f.
+    \]
+
+    \[
+    [D_t,\partial^\alpha]f
+    =
+    -\!\!\!\sum_{0<\beta\le\alpha}
+    c_{\alpha,\beta}\,
+    (\partial^\beta u\cdot\nabla)\partial^{\alpha-\beta}f.
+    \]
+
+    \[
+    [D_t,\nabla]f
+    =
+    -(\nabla u)^\top \nabla f,
+    \]
+
+    Spatial differentiation brings it back through this commutator.
+    Iterating \(D_t\) through spatial derivatives, viscosity, and pressure produces
+    strain-weighted commutator terms. This reformulation can clarify that the
+    active source is a strain/commutator interaction rather than bare transport,
+    but it does not simplify the full proof. The binomial derivative tower becomes
+    a commutator tower, and the viscous rung no longer appears as a clean linear
+    input without the extra commutator records.
+
+
+
+    \subsection{Aact Global Finite Cover Scheduler Attempt}
+
+    The averaged ACT globalization starts from local data. On each SCF-good moving
+    cylinder \(Q_R^\Phi\), the installed local packet gives
+
+    \[
+    X_R\in L^\infty(I_R),
+    \qquad
+    N_R\in L^1(I_R),
+    \qquad
+    \mathcal K_{\le m}^{avg,R}\in L^1(I_R).
+    \]
+
+    \[
+    \mathcal G_{\varepsilon_m}^{\Phi}
+    :=Q^\Phi\setminus\mathcal B_{\varepsilon_m}^{\Phi}.
+    \]
+
+    \[
+    \mathcal B_{\varepsilon_m}^{\Phi}\cap\mathcal T\ne\varnothing
+    \Longrightarrow
+    \mathrm{Jump}_{\mathrm{avg}}(\mathcal T)
+    \]
+
+    On a no-\(\mathrm{Jump}_{avg}\) branch, this gives a positive SCF-good radius
+    at each terminal-tail point.
+
+    \[
+    [t_0,T_0]\subset [t_0,T_*),
+    \]
+
+    Pointwise good-cylinder existence is weaker than the needed terminal scheduler.
+    The proof must control the whole half-open approach window
+
+    \[
+    [t_0,T_*).
+    \]
+
+    The inputs in this attempt do not give a finite cover of that window, a uniform
+    positive lower radius, or a summable scheduler majorant. That is the failure
+    record for the first finite-cover attempt.
+
+
+
+    \subsection{Aact Global From Tgc A Discharge}
+
+    The \(Tgc.A\) input strengthens pointwise good-cylinder existence into the
+    strict terminal cover/scheduler form needed on the no-\(\mathrm{Jump}_{avg}\)
+    branch. It supplies finitely many retained moving cylinders with a uniform
+    lower radius and finite overlap.
+
+    \[
+    X_j(s_j)\le\eta_X,
+    \qquad
+    X_j\in L^\infty(I_j),
+    \qquad
+    N_j\in L^1(I_j),
+    \qquad
+    F_j\in L^1(I_j),
+    \qquad
+    \mathcal K_{\le m,j}^{avg}\in L^1(I_j).
+    \]
+
+    \[
+    D^+X_{j,p}+cN_{j,p}
+    \le
+    B_{j,p}X_{j,p}+C_{j,p}X_{j,p}^{1/2}N_{j,p}+F_{j,p},
+    \]
+
+    \[
+    B_{j,p}=1+A_{j,p}+V_j+P_j\in L^1(I_j),
+    \qquad
+    F_{j,p}\in L^1(I_j).
+    \]
+
+    \[
+    B_*(t):=\sum_{j,p}\mathbf 1_{I_j}(t)B_{j,p}(t),
+    \qquad
+    F_*(t):=\sum_{j,p}\mathbf 1_{I_j}(t)F_{j,p}(t).
+    \]
+
+    \[
+    B_*,F_*\in L^1([t_0,T_*)).
+    \]
+
+    This discharges the scheduler structure on the good branch. It does not remove
+    \(\mathrm{Jump}_{avg}\); that endpoint face remains downstream.
+
+
+
+    \subsection{Aact Global Nojump Finite Cover Scheduler Theorem Avg End A}
+
+    This is the theorem-facing hardening of the averaged ACT globalization step on
+    the no-\(\mathrm{Jump}_{avg}\) branch. Assume a finite terminal cover
+
+    \[
+    \mathcal Q_j=Q_{r_j}^{\Phi}(a_j,t_j),
+    \qquad 1\le j\le J,
+    \]
+
+    \[
+    X_{j,p}(s_{j,p})\le\eta_X,
+    \qquad
+    F_{j,p},B_{j,p}\in L^1(I_j),
+    \]
+
+    \[
+    D^+X_{j,p}+cN_{j,p}
+    \le
+    B_{j,p}X_{j,p}+C_X X_{j,p}^{1/2}N_{j,p}+F_{j,p}.
+    \]
+
+    \[
+    X_{j,p}\in L^\infty,
+    \qquad
+    N_{j,p}\in L^1,
+    \qquad
+    \mathcal K_{\le m,j,p}^{avg}\in L^1.
+    \]
+
+    \[
+    B_*,F_*\in L^1([t_0,T_*)).
+    \]
+
+    With the restart seeds in place, the first-exit inequality closes on each cell.
+    Integrating the local inequality gives the averaged receiver bounds on the
+    whole retained terminal window. The theorem is a good-side scheduler theorem,
+    not a proof that the jump branch is absent.
+
+
+
+    \subsection{Aact Global Promotion Audit}
+
+    On each selected cylinder, \(ATD_m\) supplies the finite-depth averaged affine
+    tower packet. The local averaged budget audit gives
+
+    \[
+    X_R\in L^\infty,
+    \qquad
+    N_R\in L^1,
+    \qquad
+    \mathcal K_{\le m}^{avg,R}\in L^1.
+    \]
+
+    The promotion uses only the local moving-frame, pressure, cutoff, core,
+    top-viscous, tower, and nonlinear records supplied by \(ATD_m\) and
+    \(SCF^{avg}_m\).
+
+    \[
+    B_*:=\sum_{j,p}\mathbf 1_{I_j}B_{j,p},
+    \qquad
+    F_*:=\sum_{j,p}\mathbf 1_{I_j}F_{j,p}
+    \]
+
+    \[
+    \mathrm{Jump}_{\mathrm{avg}}.
+    \]
+
+    The audit result is narrow: no hidden circular dependency remains inside the
+    cover, scheduler, and globalization chain once the no-\(\mathrm{Jump}_{avg}\)
+    cover and restart seeds are available.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Low-Shell Amplitude Domination Assessment Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12451
+  line_start: 12451
+  line_end: 12468
+  start_anchor: "\\subsection{Low-Shell Amplitude Domination Assessment Result}\n"
+  end_anchor: "\\subsection{Lower-Prefix Active-Square Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Low-Shell Amplitude Domination
+    Assessment Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12451
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lower-Prefix Active-Square Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12469
+  line_start: 12469
+  line_end: 12520
+  start_anchor: "\\subsection{Lower-Prefix Active-Square Theorem}\n"
+  end_anchor: "\\subsection{Lower-Triangular Scale-Memory Formalization Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lower-Prefix Active-Square Theorem
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12469
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Navier-Stokes Main Theorem Draft
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12749
+  line_start: 12749
+  line_end: 12781
+  start_anchor: "\\subsection{Navier-Stokes Main Theorem Draft}\n"
+  end_anchor: "\\subsection{Material-Derivative Tower Preliminary Algebra Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Navier-Stokes Main Theorem Draft
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12749
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Material-Derivative Tower Preliminary Algebra Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12782
+  line_start: 12782
+  line_end: 12827
+  start_anchor: "\\subsection{Material-Derivative Tower Preliminary Algebra Note}\n"
+  end_anchor: "\\subsection{A1c R Direct Whole-Space Hs Control: Reduction And Obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Material-Derivative Tower Preliminary
+    Algebra Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12782
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Global Finite Cover Scheduler Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12922
+  line_start: 12922
+  line_end: 12964
+  start_anchor: "\\subsection{Aact Global Finite Cover Scheduler Attempt}\n"
+  end_anchor: "\\subsection{Aact Global From Tgc A Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Global Finite Cover Scheduler
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12922
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Global From Tgc A Discharge
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12965
+  line_start: 12965
+  line_end: 13009
+  start_anchor: "\\subsection{Aact Global From Tgc A Discharge}\n"
+  end_anchor: "\\subsection{Aact Global Nojump Finite Cover Scheduler Theorem Avg
+    End A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Global From Tgc A Discharge
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:12965
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Global Nojump Finite Cover Scheduler Theorem Avg End A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13010
+  line_start: 13010
+  line_end: 13049
+  start_anchor: "\\subsection{Aact Global Nojump Finite Cover Scheduler Theorem Avg
+    End A}\n"
+  end_anchor: "\\subsection{Aact Global Promotion Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Global Nojump Finite Cover
+    Scheduler Theorem Avg End A as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13010
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Aact Global Promotion Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13050
+  line_start: 13050
+  line_end: 13081
+  start_anchor: "\\subsection{Aact Global Promotion Audit}\n"
+  end_anchor: "\\subsection{Aact Kx Constants Scale Bookkeeping}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Aact Global Promotion Audit as
+    paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:13050
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-14
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-14.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

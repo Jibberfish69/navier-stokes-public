@@ -1,0 +1,969 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-carrier-and-pack-11
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-11
+  sequence: 13
+  group_id: carrier-and-pack
+  title: Carrier and Pack 11
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 39641
+  line_end: 43913
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39641
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40577
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40622
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41167
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41874
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41913
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43878
+  subsection_titles:
+  - Clay problem Pack / Blown And Field / Jump Shell Program
+  - Lci A Uniform Lower Carrier Finite Parameter Closure Note
+  - Lci A Widened Thickness Lower Carrier Note
+  - Clay problem Lower-Carrier Interval-Integrability Theorem Program
+  - Msc Localize Carrier Tether Audit Note
+  - Msc Localize Diagonal Carrier Attempt Note
+  - Selected-Packet Shared Pack Boundary Audit
+  - Clay problem Pack Gain record.A Direct Test And Obstruction
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pack / Blown And Field / Jump Shell Program
+    line_start: 39641
+    line_end: 39649
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39641
+    start_anchor: "\\subsection{Clay problem Pack / Blown And Field / Jump Shell Program}\n"
+    end_anchor: "\\subsection{Lci A Affine Defect To First Rung Bridge Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pack / Blown And Field / Jump Shell Program}
+
+      The mixed blown face tower-blown remains open too, but not as a clean single-law shell program.
+
+      The separate mixed blown face tower-blown is not what this shell program reduces. It remains unresolved as a tower-amplitude branch rather than a clean pack-side entry.
+
+      So Jump is being used here as the native shell for Field, not as a direct shell for Pack or Part.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Uniform Lower Carrier Finite Parameter Closure Note
+    line_start: 40577
+    line_end: 40621
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40577
+    start_anchor: "\\subsection{Lci A Uniform Lower Carrier Finite Parameter Closure
+      Note}\n"
+    end_anchor: "\\subsection{Lci A Widened Thickness Lower Carrier Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Lci A Uniform Lower Carrier Finite Parameter Closure Note}
+
+      Role: close the lower-carrier Gronwall step uniformly across the finite list of parameter instances now required by the receiver route, while keeping the transported-center package as the remaining analytic supplier.
+
+      \[
+      \mathfrak p=(n,\mu,\Delta)\in\mathcal P_{\rm req},
+      \]
+
+      \[
+      \mathcal G_{\mathfrak p}(t)
+      :=
+      \mathcal G_{n,\mu,\rho,\psi}^{low,\Delta}(t),
+      \qquad
+      \mathcal D_{\mathfrak p}(t)
+      :=
+      \mathcal D_{n,\mu,\rho,\psi}^{low,\Delta}(t),
+      \]
+
+      \[
+      \Gamma_{\mathfrak p}^{low}(t)
+      :=
+      1+
+      \sum_{q=0}^{\mu}
+      \left|U_q(\cdot,t)\right|_{L^\infty(\mathcal C_{\rho,\psi}^{\Delta}(t))}.
+      \]
+
+      Let A p ctr and p osc denote the anchored-center record and oscillation coefficient associated to the same lower-carrier parameter instance p.
+
+      \[
+      \Gamma_\sharp\in L^\infty(I),
+      \]
+
+      \[
+      G_{0,\ast}
+      :=
+      \max_{\mathfrak p\in\mathcal P_{\rm req}}
+      \mathcal G_{\mathfrak p}(t_0)
+      <\infty,
+      \]
+
+      This is the exact lower-carrier closure from the uniform transported-center package.
+
+      Here End NS is still the endpoint-exclusion matrix: the installed entry is (Part,Dead), while (Pack,packing-detached), (Field,Jump), tower-blown, and the cross entries remain open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Lci A Widened Thickness Lower Carrier Note
+    line_start: 40622
+    line_end: 40652
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40622
+    start_anchor: "\\subsection{Lci A Widened Thickness Lower Carrier Note}\n"
+    end_anchor: "\\subsection{Clay problem Linearized Response Residual Pair.A Discharge}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Lci A Widened Thickness Lower Carrier Note}
+
+      \[
+      \Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I).
+      \]
+
+      \[
+      \Gamma_{N,m,\rho,\psi}^{low}(t)
+      :=
+      1+
+      \sum_{q=0}^{m}
+      \|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta}(t))},
+      \]
+
+      \[
+      \Gamma_\sharp\in L^\infty(I)
+      \]
+
+      \[
+      \mathcal G_{N,m,\rho,\psi}^{low,\delta_\ast}(t_0)<\infty.
+      \]
+
+      \[
+      \Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I).
+      \]
+
+      So the next receiver-side burden is not another halo or segment theorem. It is the thickened collar consumer at
+
+      The pack gauge and transport bridge entries are old non-thickness slots. The source-side record
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Lower-Carrier Interval-Integrability Theorem Program
+    line_start: 41167
+    line_end: 41224
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41167
+    start_anchor: "\\subsection{Clay problem Lower-Carrier Interval-Integrability
+      Theorem Program}\n"
+    end_anchor: "\\subsection{Clay problem Low StrainBVCharge.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: "\\subsection{Clay problem Lower-Carrier Interval-Integrability Theorem
+      Program}\n\n\\[\n\\Gamma_{N,m,\\rho,\\psi}^{low}(t)\n:=\n1+\n\\sum_{q=0}^{m}\n\\|U_q(\\cdot,t)\\|_{L^\\infty(\\mathcal
+      C_{\\rho,\\psi}^{\\delta}(t))}.\n\\]\n\n\\[\n\\Gamma_\\sharp\\in L^\\infty(I).\n\\]\n\n\\[\n\\mathcal
+      G_{N,m,\\rho,\\psi}^{low,\\delta}(t_0)<\\infty.\n\\]\n\n\\[\n\\Gamma_{N,m,\\rho,\\psi}^{low}\\in
+      L^1(I).\n\\]\n\n\\[\n\\mathcal G_{N,m,\\rho,\\psi}^{low,\\delta}(t)\n:=\n\\sum_{q=0}^{m}\\sum_{\\alpha=0}^{2}\n\\int\n\\big(\\vartheta_{\\rho,\\psi,t}^{\\delta}(x)\\big)^2\n\\big|\n\\nabla^\\alpha
+      U_q(x,t)\n\\big|^2\\,dx.\n\\]\n\nSince 2 m, the coefficient factor U lies inside
+      the lower-carrier record N,m, , low . The companion factor Z +1- ,q has total
+      derivative order q+ +1- q+ m+2, so it is one of the packet fields already measured
+      by G N,m, , low, . By Cauchy-- Schwarz,\n\nwhere Z and Z' are packet fields
+      already controlled by G N,m, , low, and D N,m, , low, . Cauchy--Young yields\n\nFix
+      t I, j 1, ,J , and x B( (a j,t),2R ). By the definition of the local Holder
+      seminorm,\n\nB( (a j,t),2R ) lie inside a region where one has an unweighted
+      H 2 or C 0, control from G N,m, , low, .\n\nThe clean upward repair is to stop
+      asking the present lower-order cutoff , ,t to do a job it was not designed to
+      do. Keep the same defining function d , , but introduce a companion oscillation
+      cutoff\n\nSo the oscillation-side wall should be solved by a companion widened-shell
+      packet that actually reaches the full transported-center balls, not by trying
+      to overread the smaller plateau packet beyond its geometric range.\n\nSo the
+      transported-center system is triangular: the only genuinely self-quadratic center
+      rung is q=1. Every higher center rung is linear in its own size once A 1, ,
+      ctr and the lower center rungs are already controlled.\n\nSo, under carrier-forcing
+      integrability, the absolute-center branch is reduced to the first nontrivial
+      center rung A 1, , ctr . No higher center rung is an independent nonlinear wall.\n\nK
+      q, , ctr lies in L 1(I) by hypothesis; the coefficient A 1, , ctr lies in L
+      1(I) \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Msc Localize Carrier Tether Audit Note
+    line_start: 41874
+    line_end: 41912
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41874
+    start_anchor: "\\subsection{Msc Localize Carrier Tether Audit Note}\n"
+    end_anchor: "\\subsection{Msc Localize Diagonal Carrier Attempt Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Msc Localize Carrier Tether Audit Note}
+
+      \[
+      Bad_N(\eta)
+      =
+      \{t:\sup_{j>N}\gamma_j(t)>\eta\},
+      \qquad
+      \gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t),
+      \]
+
+      \[
+      \mathfrak B_N^\sigma(t)
+      =
+      \sum_{N<j\le\ell}
+      \bigl(1+2^{-2(\ell-j)}\bigr)
+      K_{j,\ell}^\sigma D_j(t)D_\ell(t).
+      \]
+
+      \[
+      E_m(t)=2^{2m}\|\Delta_m u(t)\|_{L_x^2}^2,
+      \qquad
+      D_m(t)=2^{4m}\|\Delta_m u(t)\|_{L_x^2}^2.
+      \]
+
+      Fix a large shell j. Decompose the torus into at most \(C_{\mathrm{sf},40427}2^{3j}\) cubes of side \(2^{-j}\) and place equal j-frequency packet mass in each cube, with phases chosen so the global shell norm has the desired size. Normalize the total shell size so that
+
+      \[
+      \gamma_j(t)\sfcomp{40430} 1
+      \]
+
+      \[
+      \int_I \mathfrak B_N^\sigma(t)\,dt\sfcomp{40434} 1.
+      \]
+
+      This construction is an abstract shell packet, not a Navier-Stokes solution. Its purpose is narrower: it proves that no theorem can derive a physical localized pulse from the present global shell norms alone. A global dyadic tail may be large because it is spread everywhere rather than because one physical cylinder is large.
+
+      does not follow from the installed global product D jD . That product is a double-space carrier after global Cauchy multiplication and can lose the physical co-location needed by one blow-up cylinder. The compactness repair so needs either Diag Dom.A for a local diagonal mixed-shell carrier, or Local Source.No Pulse.A at the pre-Cauchy same-fluid source-packet level.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Msc Localize Diagonal Carrier Attempt Note
+    line_start: 41913
+    line_end: 41956
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41913
+    start_anchor: "\\subsection{Msc Localize Diagonal Carrier Attempt Note}\n"
+    end_anchor: "\\subsection{Msc Pulsecharge Attempt Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Msc Localize Diagonal Carrier Attempt Note}
+
+      Bounded theorem attempt on the carrier-tether bridge needed before the compactness / Ancient.No Pulse route can run.
+
+      The test here asks whether the global mixed-shell bad measure already contains a physical heat-scale carrier. It does not. The global object naturally localizes first to a double-space product carrier, not to one physical cylinder. The missing theorem is a diagonal/co-location tether. After the rigidity audit, the usable compactness route needs the source-residue version of this tether, not merely a nonzero local energy carrier.
+
+      \[
+      d_j(x,t):=2^{4j}|\Delta_j u(x,t)|^2,
+      \qquad
+      D_j(t)=\int_{\mathbb T^3}d_j(x,t)\,dx.
+      \]
+
+      \[
+      \mathfrak B_N^\sigma(t)
+      =
+      \sum_{N<j\le\ell}
+      \bigl(1+2^{-2(\ell-j)}\bigr)
+      K_{j,\ell}^\sigma D_j(t)D_\ell(t).
+      \]
+
+      \[
+      D_j(t)D_\ell(t)
+      =
+      \iint_{\mathbb T^3\times\mathbb T^3}
+      d_j(x,t)d_\ell(y,t)\,dx\,dy.
+      \]
+
+      \[
+      Q_{r_n}(x_n,t_n),
+      \qquad
+      r_n\sfcomp{40472}2^{-j_n},
+      \]
+
+      \[
+      \mathcal P_{r_n}(u,p;Q_{r_n}(x_n,t_n))\ge c_0>0.
+      \]
+
+      The obstruction is structural. One may distribute shell j and shell energy across many heat-scale cells, or place the dominant portions in separated cell families. Then
+
+      This does not construct a Navier-Stokes solution. It proves the logical gap: global shell-time product mass does not select a local physical pulse without a co-location theorem.
+
+      Even if a diagonal physical cylinder is selected, the route also needs it to belong to the same terminal same-fluid label family used by the endpoint packet. A pure Fourier-shell pigeonhole does not preserve that label/fibre information. The carrier theorem must so be same-fluid tethered, not merely spatial.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Selected-Packet Shared Pack Boundary Audit
+    line_start: 43229
+    line_end: 43269
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+    start_anchor: "\\subsection{Selected-Packet Shared Pack Boundary Audit}\n"
+    end_anchor: "\\subsection{Clay problem Object-Law Corpus Refoundation}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |
+      \subsection{Selected-Packet Shared Pack Boundary Audit}
+
+      This is the allowed shared-boundary argument, restricted to the selected packet. The shared object is flux-volume and incompressibility. The split object is participation and coherence. Navier--Stokes has a pressure-viscosity participation law and a parabolic one-field mechanism; the Euler boundary object has pressure and incompressibility compatibility.
+
+      \[
+      \boxed{
+      \mathrm{EPart}^{press}_Q
+      \subset
+      \mathrm{EVol}_Q\wedge\mathrm{EMom}_Q,
+      \qquad
+      \mathrm{EPart}^{press}_Q\not\Rightarrow \mathrm{EReg}_{N,r,Q}.
+      }
+      \]
+
+      In the clean selected-packet case, the Euler boundary object can obey flux-volume and pressure-momentum balance while the stronger fixed-viscosity participation or one-field coherence layer fails.
+
+      The NS smoothness route says that if the continuation packet persists, the classical solution continues. Contrapositively, a genuine terminal failure must break one of those slots or a checked bridge into one of them.
+
+      The same proof is read in two parts. Wherever it proves Pack in the shared flux-volume sense, a Pack failure is a class exit for both equations. Wherever it spends viscous participation or one-field coherence, it identifies an Euler nonsmoothness-compatible gap: a way for Euler to remain a weak member while failing the stronger Navier--Stokes layer.
+
+      A narrow jet or injection is the clean interior diagnostic. It supplies momentum and forces pressure to adjust, but Euler has no viscous coupling law requiring the neighboring material to join one smooth packet. In weak Euler terms, the live question is whether the flux and momentum balances hold across the chosen control surfaces. Tangential slip or a jump-like shear layer is not removed by pressure alone.
+
+      Supplier, source-wall, readout, export, exact-potential, selector, and manuscript surfaces inherit this rule. They do not get Euler-dual authority from vocabulary alone.
+
+      \[
+      \text{failure of the NS one-field preservation mechanism}
+      \leadsto
+      \tex
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Pack Gain record.A Direct Test And Obstruction
+    line_start: 43878
+    line_end: 43913
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43878
+    start_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
+    end_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction
+      Note}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}
+
+      The implication may still be made true by strengthening the Pack face, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
+
+      \[
+      \Gamma_{\mathrm{pack},Q}(t)
+      =
+      \sup_{a\in A_Q(t)}
+      \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty,
+      \]
+
+      \[
+      \dot F=\nabla u(X(a,t),t)F.
+      \]
+
+      \[
+      A(t)=a(t)
+      \begin{pmatrix}
+      1&0\\
+      0&-1
+      \end{pmatrix},
+      \]
+
+      \[
+      S(t)=A(t).
+      \]
+
+      \[
+      \dot F=A(t)F,
+      \]
+
+      so finite deformation gauge does not control accumulated positive strain action.
+
+      This theorem would need to rule out rapid positive/negative strain oscillation along retained packet paths, or charge it to a CM witness-face exit.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Pack / Blown And Field / Jump Shell Program}
+
+    The mixed blown face tower-blown remains open too, but not as a clean single-law shell program.
+
+    The separate mixed blown face tower-blown is not what this shell program reduces. It remains unresolved as a tower-amplitude branch rather than a clean pack-side entry.
+
+    So Jump is being used here as the native shell for Field, not as a direct shell for Pack or Part.
+
+
+
+    \subsection{Lci A Uniform Lower Carrier Finite Parameter Closure Note}
+
+    Role: close the lower-carrier Gronwall step uniformly across the finite list of parameter instances now required by the receiver route, while keeping the transported-center package as the remaining analytic supplier.
+
+    \[
+    \mathfrak p=(n,\mu,\Delta)\in\mathcal P_{\rm req},
+    \]
+
+    \[
+    \mathcal G_{\mathfrak p}(t)
+    :=
+    \mathcal G_{n,\mu,\rho,\psi}^{low,\Delta}(t),
+    \qquad
+    \mathcal D_{\mathfrak p}(t)
+    :=
+    \mathcal D_{n,\mu,\rho,\psi}^{low,\Delta}(t),
+    \]
+
+    \[
+    \Gamma_{\mathfrak p}^{low}(t)
+    :=
+    1+
+    \sum_{q=0}^{\mu}
+    \left|U_q(\cdot,t)\right|_{L^\infty(\mathcal C_{\rho,\psi}^{\Delta}(t))}.
+    \]
+
+    Let A p ctr and p osc denote the anchored-center record and oscillation coefficient associated to the same lower-carrier parameter instance p.
+
+    \[
+    \Gamma_\sharp\in L^\infty(I),
+    \]
+
+    \[
+    G_{0,\ast}
+    :=
+    \max_{\mathfrak p\in\mathcal P_{\rm req}}
+    \mathcal G_{\mathfrak p}(t_0)
+    <\infty,
+    \]
+
+    This is the exact lower-carrier closure from the uniform transported-center package.
+
+    Here End NS is still the endpoint-exclusion matrix: the installed entry is (Part,Dead), while (Pack,packing-detached), (Field,Jump), tower-blown, and the cross entries remain open.
+
+
+
+    \subsection{Lci A Widened Thickness Lower Carrier Note}
+
+    \[
+    \Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I).
+    \]
+
+    \[
+    \Gamma_{N,m,\rho,\psi}^{low}(t)
+    :=
+    1+
+    \sum_{q=0}^{m}
+    \|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta}(t))},
+    \]
+
+    \[
+    \Gamma_\sharp\in L^\infty(I)
+    \]
+
+    \[
+    \mathcal G_{N,m,\rho,\psi}^{low,\delta_\ast}(t_0)<\infty.
+    \]
+
+    \[
+    \Gamma_{N,m,\rho,\psi}^{low,\delta_\ast}\in L^1(I).
+    \]
+
+    So the next receiver-side burden is not another halo or segment theorem. It is the thickened collar consumer at
+
+    The pack gauge and transport bridge entries are old non-thickness slots. The source-side record
+
+
+
+    \subsection{Clay problem Lower-Carrier Interval-Integrability Theorem Program}
+
+    \[
+    \Gamma_{N,m,\rho,\psi}^{low}(t)
+    :=
+    1+
+    \sum_{q=0}^{m}
+    \|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta}(t))}.
+    \]
+
+    \[
+    \Gamma_\sharp\in L^\infty(I).
+    \]
+
+    \[
+    \mathcal G_{N,m,\rho,\psi}^{low,\delta}(t_0)<\infty.
+    \]
+
+    \[
+    \Gamma_{N,m,\rho,\psi}^{low}\in L^1(I).
+    \]
+
+    \[
+    \mathcal G_{N,m,\rho,\psi}^{low,\delta}(t)
+    :=
+    \sum_{q=0}^{m}\sum_{\alpha=0}^{2}
+    \int
+    \big(\vartheta_{\rho,\psi,t}^{\delta}(x)\big)^2
+    \big|
+    \nabla^\alpha U_q(x,t)
+    \big|^2\,dx.
+    \]
+
+    Since 2 m, the coefficient factor U lies inside the lower-carrier record N,m, , low . The companion factor Z +1- ,q has total derivative order q+ +1- q+ m+2, so it is one of the packet fields already measured by G N,m, , low, . By Cauchy-- Schwarz,
+
+    where Z and Z' are packet fields already controlled by G N,m, , low, and D N,m, , low, . Cauchy--Young yields
+
+    Fix t I, j 1, ,J , and x B( (a j,t),2R ). By the definition of the local Holder seminorm,
+
+    B( (a j,t),2R ) lie inside a region where one has an unweighted H 2 or C 0, control from G N,m, , low, .
+
+    The clean upward repair is to stop asking the present lower-order cutoff , ,t to do a job it was not designed to do. Keep the same defining function d , , but introduce a companion oscillation cutoff
+
+    So the oscillation-side wall should be solved by a companion widened-shell packet that actually reaches the full transported-center balls, not by trying to overread the smaller plateau packet beyond its geometric range.
+
+    So the transported-center system is triangular: the only genuinely self-quadratic center rung is q=1. Every higher center rung is linear in its own size once A 1, , ctr and the lower center rungs are already controlled.
+
+    So, under carrier-forcing integrability, the absolute-center branch is reduced to the first nontrivial center rung A 1, , ctr . No higher center rung is an independent nonlinear wall.
+
+    K q, , ctr lies in L 1(I) by hypothesis; the coefficient A 1, , ctr lies in L 1(I) by hypothesis; every product A , , ctr A q+1- , , ctr with 2 q-1 lies in L 1(I) because both factors are bounded on the finite interval I by the induction hypothesis.
+
+    So the honest remaining first-rung wall is not merely "integrate the Riccati law harder." It is: find a pressure-center response theorem and a sharper first-rung carrier functional before absolute values destroy the exact q=1 structure.
+
+    The real remaining theorem is so no longer "bound pointwise Hessian of pressure somehow." It is: control the local source-response term and the harmonic tail on the transported center balls.
+
+    This also clarifies the relation to the derivative--LP bridge note. The source surface in
+
+
+
+    \subsection{Msc Localize Carrier Tether Audit Note}
+
+    \[
+    Bad_N(\eta)
+    =
+    \{t:\sup_{j>N}\gamma_j(t)>\eta\},
+    \qquad
+    \gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t),
+    \]
+
+    \[
+    \mathfrak B_N^\sigma(t)
+    =
+    \sum_{N<j\le\ell}
+    \bigl(1+2^{-2(\ell-j)}\bigr)
+    K_{j,\ell}^\sigma D_j(t)D_\ell(t).
+    \]
+
+    \[
+    E_m(t)=2^{2m}\|\Delta_m u(t)\|_{L_x^2}^2,
+    \qquad
+    D_m(t)=2^{4m}\|\Delta_m u(t)\|_{L_x^2}^2.
+    \]
+
+    Fix a large shell j. Decompose the torus into at most \(C_{\mathrm{sf},40427}2^{3j}\) cubes of side \(2^{-j}\) and place equal j-frequency packet mass in each cube, with phases chosen so the global shell norm has the desired size. Normalize the total shell size so that
+
+    \[
+    \gamma_j(t)\sfcomp{40430} 1
+    \]
+
+    \[
+    \int_I \mathfrak B_N^\sigma(t)\,dt\sfcomp{40434} 1.
+    \]
+
+    This construction is an abstract shell packet, not a Navier-Stokes solution. Its purpose is narrower: it proves that no theorem can derive a physical localized pulse from the present global shell norms alone. A global dyadic tail may be large because it is spread everywhere rather than because one physical cylinder is large.
+
+    does not follow from the installed global product D jD . That product is a double-space carrier after global Cauchy multiplication and can lose the physical co-location needed by one blow-up cylinder. The compactness repair so needs either Diag Dom.A for a local diagonal mixed-shell carrier, or Local Source.No Pulse.A at the pre-Cauchy same-fluid source-packet level.
+
+
+
+    \subsection{Msc Localize Diagonal Carrier Attempt Note}
+
+    Bounded theorem attempt on the carrier-tether bridge needed before the compactness / Ancient.No Pulse route can run.
+
+    The test here asks whether the global mixed-shell bad measure already contains a physical heat-scale carrier. It does not. The global object naturally localizes first to a double-space product carrier, not to one physical cylinder. The missing theorem is a diagonal/co-location tether. After the rigidity audit, the usable compactness route needs the source-residue version of this tether, not merely a nonzero local energy carrier.
+
+    \[
+    d_j(x,t):=2^{4j}|\Delta_j u(x,t)|^2,
+    \qquad
+    D_j(t)=\int_{\mathbb T^3}d_j(x,t)\,dx.
+    \]
+
+    \[
+    \mathfrak B_N^\sigma(t)
+    =
+    \sum_{N<j\le\ell}
+    \bigl(1+2^{-2(\ell-j)}\bigr)
+    K_{j,\ell}^\sigma D_j(t)D_\ell(t).
+    \]
+
+    \[
+    D_j(t)D_\ell(t)
+    =
+    \iint_{\mathbb T^3\times\mathbb T^3}
+    d_j(x,t)d_\ell(y,t)\,dx\,dy.
+    \]
+
+    \[
+    Q_{r_n}(x_n,t_n),
+    \qquad
+    r_n\sfcomp{40472}2^{-j_n},
+    \]
+
+    \[
+    \mathcal P_{r_n}(u,p;Q_{r_n}(x_n,t_n))\ge c_0>0.
+    \]
+
+    The obstruction is structural. One may distribute shell j and shell energy across many heat-scale cells, or place the dominant portions in separated cell families. Then
+
+    This does not construct a Navier-Stokes solution. It proves the logical gap: global shell-time product mass does not select a local physical pulse without a co-location theorem.
+
+    Even if a diagonal physical cylinder is selected, the route also needs it to belong to the same terminal same-fluid label family used by the endpoint packet. A pure Fourier-shell pigeonhole does not preserve that label/fibre information. The carrier theorem must so be same-fluid tethered, not merely spatial.
+
+
+
+    \subsection{Selected-Packet Shared Pack Boundary Audit}
+
+    This is the allowed shared-boundary argument, restricted to the selected packet. The shared object is flux-volume and incompressibility. The split object is participation and coherence. Navier--Stokes has a pressure-viscosity participation law and a parabolic one-field mechanism; the Euler boundary object has pressure and incompressibility compatibility.
+
+    \[
+    \boxed{
+    \mathrm{EPart}^{press}_Q
+    \subset
+    \mathrm{EVol}_Q\wedge\mathrm{EMom}_Q,
+    \qquad
+    \mathrm{EPart}^{press}_Q\not\Rightarrow \mathrm{EReg}_{N,r,Q}.
+    }
+    \]
+
+    In the clean selected-packet case, the Euler boundary object can obey flux-volume and pressure-momentum balance while the stronger fixed-viscosity participation or one-field coherence layer fails.
+
+    The NS smoothness route says that if the continuation packet persists, the classical solution continues. Contrapositively, a genuine terminal failure must break one of those slots or a checked bridge into one of them.
+
+    The same proof is read in two parts. Wherever it proves Pack in the shared flux-volume sense, a Pack failure is a class exit for both equations. Wherever it spends viscous participation or one-field coherence, it identifies an Euler nonsmoothness-compatible gap: a way for Euler to remain a weak member while failing the stronger Navier--Stokes layer.
+
+    A narrow jet or injection is the clean interior diagnostic. It supplies momentum and forces pressure to adjust, but Euler has no viscous coupling law requiring the neighboring material to join one smooth packet. In weak Euler terms, the live question is whether the flux and momentum balances hold across the chosen control surfaces. Tangential slip or a jump-like shear layer is not removed by pressure alone.
+
+    Supplier, source-wall, readout, export, exact-potential, selector, and manuscript surfaces inherit this rule. They do not get Euler-dual authority from vocabulary alone.
+
+    \[
+    \text{failure of the NS one-field preservation mechanism}
+    \leadsto
+    \text{failure of Euler }EReg\text{ / one-field coherence.}
+    \]
+
+    This is the clean place where the Navier--Stokes and Euler boundary can be drawn side by side: one-field coherence can be absent on Euler even while the equation-level pressure/volume law remains satisfied.
+
+    \[
+    \text{NS receiver closure by viscosity}
+    \leadsto
+    \text{Euler open }EReg\text{ / lower-carrier failure diagnostic.}
+    \]
+
+    The Euler dual is valid on the sorted face, not on the supplier label by itself.
+
+
+
+    \subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}
+
+    The implication may still be made true by strengthening the Pack face, or by proving a separate Navier--Stokes-specific retained pack-gain theorem. It is not currently installed by the existing pack gauge.
+
+    \[
+    \Gamma_{\mathrm{pack},Q}(t)
+    =
+    \sup_{a\in A_Q(t)}
+    \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty,
+    \]
+
+    \[
+    \dot F=\nabla u(X(a,t),t)F.
+    \]
+
+    \[
+    A(t)=a(t)
+    \begin{pmatrix}
+    1&0\\
+    0&-1
+    \end{pmatrix},
+    \]
+
+    \[
+    S(t)=A(t).
+    \]
+
+    \[
+    \dot F=A(t)F,
+    \]
+
+    so finite deformation gauge does not control accumulated positive strain action.
+
+    This theorem would need to rule out rapid positive/negative strain oscillation along retained packet paths, or charge it to a CM witness-face exit.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pack / Blown And Field / Jump Shell Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39641
+  line_start: 39641
+  line_end: 39649
+  start_anchor: "\\subsection{Clay problem Pack / Blown And Field / Jump Shell Program}\n"
+  end_anchor: "\\subsection{Lci A Affine Defect To First Rung Bridge Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack / Blown And
+    Field / Jump Shell Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:39641
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Uniform Lower Carrier Finite Parameter Closure Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40577
+  line_start: 40577
+  line_end: 40621
+  start_anchor: "\\subsection{Lci A Uniform Lower Carrier Finite Parameter Closure
+    Note}\n"
+  end_anchor: "\\subsection{Lci A Widened Thickness Lower Carrier Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Uniform Lower Carrier Finite
+    Parameter Closure Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40577
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Lci A Widened Thickness Lower Carrier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40622
+  line_start: 40622
+  line_end: 40652
+  start_anchor: "\\subsection{Lci A Widened Thickness Lower Carrier Note}\n"
+  end_anchor: "\\subsection{Clay problem Linearized Response Residual Pair.A Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Lci A Widened Thickness Lower
+    Carrier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:40622
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Lower-Carrier Interval-Integrability Theorem Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41167
+  line_start: 41167
+  line_end: 41224
+  start_anchor: "\\subsection{Clay problem Lower-Carrier Interval-Integrability Theorem
+    Program}\n"
+  end_anchor: "\\subsection{Clay problem Low StrainBVCharge.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Lower-Carrier Interval-Integrability
+    Theorem Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41167
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Msc Localize Carrier Tether Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41874
+  line_start: 41874
+  line_end: 41912
+  start_anchor: "\\subsection{Msc Localize Carrier Tether Audit Note}\n"
+  end_anchor: "\\subsection{Msc Localize Diagonal Carrier Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Msc Localize Carrier Tether Audit
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41874
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Msc Localize Diagonal Carrier Attempt Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41913
+  line_start: 41913
+  line_end: 41956
+  start_anchor: "\\subsection{Msc Localize Diagonal Carrier Attempt Note}\n"
+  end_anchor: "\\subsection{Msc Pulsecharge Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Msc Localize Diagonal Carrier
+    Attempt Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:41913
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Selected-Packet Shared Pack Boundary Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  line_start: 43229
+  line_end: 43269
+  start_anchor: "\\subsection{Selected-Packet Shared Pack Boundary Audit}\n"
+  end_anchor: "\\subsection{Clay problem Object-Law Corpus Refoundation}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Selected-Packet Shared Pack Boundary
+    Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43229
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Pack Gain record.A Direct Test And Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43878
+  line_start: 43878
+  line_end: 43913
+  start_anchor: "\\subsection{Clay problem Pack Gain record.A Direct Test And Obstruction}\n"
+  end_anchor: "\\subsection{Clay problem Pack-Part-Field Canonicality Reduction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Pack Gain record.A
+    Direct Test And Obstruction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:43878
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-11
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-carrier-and-pack-11.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

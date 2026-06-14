@@ -79,7 +79,7 @@ Let `X_P(t)` follow the low same-fluid flow:
 \dot X_P=u_{\le j_P-C}(X_P,t).
 ```
 
-The packet equation has schematic form
+The packet equation has the form
 
 ```math
 (\partial_t+u_{\le j_P-C}\cdot\nabla-\nu\Delta)U_P
@@ -353,4 +353,3 @@ route is a CM witness-face route rather than an unconditional energy theorem:
 \Rightarrow
 \text{failure of the retained Pack-gain or Part envelope face.}
 ```
-

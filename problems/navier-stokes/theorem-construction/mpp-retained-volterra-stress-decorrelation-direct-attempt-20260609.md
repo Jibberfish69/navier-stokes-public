@@ -92,18 +92,18 @@ shells, and their products can have strong low-frequency components.
 
 A coherent packet model shows the obstruction. Take active shells `u_j` with
 different carrier frequencies but the same slowly varying spatial envelope.
-Then the positive stress densities have the form
+Define the positive stress model by
 
 ```math
-\tau_j^{H^1}[u](x,t)\approx b_j(t)\Phi(x,t),
+\tau_{j,\mathrm{model}}^{H^1}(x,t):= b_j(t)\Phi(x,t),
 \qquad b_j(t)\ge 0,
 ```
 
 over the common packet region. In that regime
 
 ```math
-\left\|\sum_{j\ge k+C_1}\tau_j^{H^1}\right\|_{L_x^2}^2
-\approx
+\left\|\sum_{j\ge k+C_1}\tau_{j,\mathrm{model}}^{H^1}\right\|_{L_x^2}^2
+=
 \left(\sum_{j\ge k+C_1}b_j\right)^2\|\Phi\|_{L_x^2}^2.
 ```
 

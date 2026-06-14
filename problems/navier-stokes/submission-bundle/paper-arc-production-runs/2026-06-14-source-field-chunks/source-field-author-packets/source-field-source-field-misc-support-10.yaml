@@ -1,0 +1,1254 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-10
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-10
+  sequence: 162
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 10
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 9345
+  line_end: 10036
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9345
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9393
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9633
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9662
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9716
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9773
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9867
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9944
+  subsection_titles:
+  - Graph-First Structural Upgrade Spec
+  - 'H2: Standalone Half-Derivative Bound'
+  - HFG Production Replay Blocked By Square-Source
+  - HFG Rerun Blocked By Shell Amplitude
+  - Holonomy-Refinement Projector Spectral Realization Theorem
+  - Hopf-Shuffle Endgame Program
+  - Hopf / Shuffle -> Survivor -> Drain Program
+  - HWY Instability Attack Packet
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Graph-First Structural Upgrade Spec
+    line_start: 9345
+    line_end: 9360
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9345
+    start_anchor: "\\subsection{Graph-First Structural Upgrade Spec}\n"
+    end_anchor: "\\subsection{H.1 Carrier-Leakage Direct Completion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Graph-First Structural Upgrade Spec}
+
+      This is support infrastructure, not a theorem.  Its mathematical relevance is
+      that the current frontier cannot be represented by whole files.  The proof
+      objects are smaller:
+
+      The relevant proof objects are the scale barrier, \(Q(t)\), compactness, the
+      lifted high-side remainder, low-mode strain, and the LPAS/active-square branch.
+
+      The graph-first note asks the lane to store those objects as typed nodes with
+      typed edges, so generated surfaces stop treating stale route labels as
+      authority.  In this appendix it is included only as support for why the
+      gradient/HFG frontier is being separated into proof objects rather than
+      reported as one closed bridge.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'H2: Standalone Half-Derivative Bound'
+    line_start: 9393
+    line_end: 9448
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9393
+    start_anchor: "\\subsection{H2: Standalone Half-Derivative Bound}\n"
+    end_anchor: "\\subsection{Heat-Governed Carrier Synthesis For Tower And Shadow
+      Route}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{H2: Standalone Half-Derivative Bound}
+
+      This is the critical-energy target attached to the low-mode strain problem.  It
+      does not prove the bound.  It states the same-surface coercive estimate needed
+      to make the critical closure non-circular.
+
+      \[
+      E_{1/2}(t) := \|\omega(t)\|_{\dot H^{1/2}_x}^2
+      = \int_{\mathbb R^3} |\xi|\,|\widehat{\omega}(\xi,t)|^2\,d\xi.
+      \]
+
+      \[
+      \frac12\frac{d}{dt}E_{1/2}(t)
+      + \nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
+      = \mathcal N_{1/2}(t),
+      \]
+
+      \[
+      \mathcal N_{1/2}(t)
+      :=
+      \big\langle \Lambda^{1/2}(\omega\cdot\nabla u),
+      \Lambda^{1/2}\omega\big\rangle.
+      \]
+
+      The transport part cancels by divergence-free structure after the standard commutator rewrite. The remaining term is the stretching channel.
+
+      \[
+      \mathcal N_{1/2}(t)
+      \le
+      (1-\delta)\nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
+      + C_\delta \|\omega(t)\|_{\dot H^{1/2}_x}^2
+      \]
+
+      would give
+
+      \[
+      \sup_{t\in[0,T]} \|\omega(t)\|_{\dot H^{1/2}_x}^2
+      \le
+      C(T)\,\|\omega_0\|_{\dot H^{1/2}_x}^2.
+      \]
+
+      The dyadic reduction identifies the exact open object:
+
+      \[
+      A_{j-1}(t)
+      :=
+      \sum_{k\le j-1}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}
+      \le
+      c\nu2^{2j}.
+      \]
+
+      Finite-shell truncation does not make \((H2.2)\) automatic.  The low shells
+      still need pointwise strain suppression at the viscous scale.  This is the
+      same missing low-mode theorem seen by the gradient strict-low audit.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: HFG Production Replay Blocked By Square-Source
+    line_start: 9633
+    line_end: 9661
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9633
+    start_anchor: "\\subsection{HFG Production Replay Blocked By Square-Source}\n"
+    end_anchor: "\\subsection{HFG Rerun Blocked By Shell Amplitude}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{HFG Production Replay Blocked By Square-Source}
+
+      The attempted replay
+
+      \[
+      \text{HFG}\Rightarrow
+      \text{Pack+Part+Field+\(\mathfrak A_{N,Q}\)}
+      \Rightarrow
+      \text{six-burden production}
+      \]
+
+      requires weighted carrier closure.  That closure is still blocked by
+      LPAS/active-square Carleson.  The square-source branch fails because the
+      universal square-source estimate for \(F_j\) has fixed-shell cubic amplitude
+      scaling.
+
+      The replacement input is one of:
+
+      \[
+      \begin{gathered}
+      \text{square-source estimate under active-interval normalization,}\\
+      \text{active-shell amplitude theorem,}\\
+      \text{direct active-square Carleson,}\\
+      \text{direct LPAS.}
+      \end{gathered}
+      \]
+
+      Until one of these is paid, this branch cannot promote HFG.
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: HFG Rerun Blocked By Shell Amplitude
+    line_start: 9662
+    line_end: 9681
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9662
+    start_anchor: "\\subsection{HFG Rerun Blocked By Shell Amplitude}\n"
+    end_anchor: "\\subsection{High-Frequency Enstrophy Implies H 1 Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{HFG Rerun Blocked By Shell Amplitude}
+
+      \[
+      \sum_{j\ge0}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty.
+      \]
+
+      The repaired cascade needs
+
+      \[
+      \int_0^T(\Lambda_N+\Theta_N^\sharp)(t)E_N(t)\,dt
+      \le
+      \varepsilon\nu\int_0^TD_N(t)\,dt+C2^{-2\delta N}.
+      \]
+
+      The shell-amplitude gain route gives only a conditional implication.  The gain
+      itself is not installed.  So HFG cannot be rerun from this branch until
+      active-square Carleson, shell-amplitude gain, direct LPAS, or an equivalent
+      weighted carrier closure is proved.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Holonomy-Refinement Projector Spectral Realization Theorem
+    line_start: 9716
+    line_end: 9772
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9716
+    start_anchor: "\\subsection{Holonomy-Refinement Projector Spectral Realization
+      Theorem}\n"
+    end_anchor: "\\subsection{Hopf-Shuffle Endgame Program}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Holonomy-Refinement Projector Spectral Realization Theorem}
+
+      This theorem pays one precise structural bill in the readout/export route. It
+      turns the finite-scale holonomy/refinement selectors already present in the
+      direct-limit carrier package into an honest spectral truncation family on the
+      persistent carrier.
+
+      Let \(K_D(j)\) be the closed image in \(K_D\) of the dyadic scale carrier
+      \(K_{2^j}\), and let
+      \[
+      \mathbb H_D(j):K_D\to K_D(j)
+      \]
+      be the orthogonal projector. The finite-scale refinement package gives the
+      nested carrier relation
+
+      \[
+      K_D(j) \subseteq K_D(j+1),
+         \qquad
+         \mathbb H_D(j)\mathbb H_D(j+1)=\mathbb H_D(j);
+      \]
+
+      and carrier completeness gives strong convergence
+
+      \[
+      \mathbb H_D(j)Y \to Y
+         \qquad
+         \forall Y\in K_D;
+      \]
+
+      Define the orthogonal slices
+      \[
+      S_j:=\mathbb H_D(j)-\mathbb H_D(j-1).
+      \]
+      The slices are mutually orthogonal projections and sum strongly to
+      \(I_{K_D}\). The coherent generator is the spectral-series operator
+
+      \[
+      D_{\mathrm{coh}}Y:=\sum_j 2^jS_jY,
+      \qquad
+      \operatorname{Dom}(D_{\mathrm{coh}})
+      :=
+      \Big\{Y\in K_D:\sum_j 2^{2j}\|S_jY\|^2<\infty\Big\}.
+      \]
+
+      Then \(D_{\mathrm{coh}}\) is positive self-adjoint on \(K_D\), and the
+      original threshold projectors are exactly its spectral cutoffs:
+
+      \[
+      \mathbb H_D(j)=\mathbf 1_{[0,2^j]}(D_{\mathrm{coh}}).
+      \]
+
+      This closes the thresholded selector-realization problem used by the export
+      route. The closed claim is deliberately local: it concerns the refinement-indexed
+      family on \(K_D\). It does not identify every unthresholded abstract occurrence
+      of \(\mathbb H_D\) with an ambient whole-space spectral projector.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Hopf-Shuffle Endgame Program
+    line_start: 9773
+    line_end: 9866
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9773
+    start_anchor: "\\subsection{Hopf-Shuffle Endgame Program}\n"
+    end_anchor: "\\subsection{Hopf / Shuffle -> Survivor -> Drain Program}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Hopf-Shuffle Endgame Program}
+
+      The Hopf/shuffle material is useful only as a classifier for the mixed-jet
+      survivor. It is not the proof route by itself. The proof route still begins
+      with the differentiated Navier--Stokes tower and ends only after the true
+      survivor has been exported into a drain theorem.
+
+      \[
+      V_n:=\partial_t^n u,
+      \qquad
+      P_n:=\partial_t^n p,
+      \]
+
+      \[
+      V_{n+1}
+      +
+      \sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k}
+      +
+      \nabla P_n
+      =
+      \nu\Delta V_n.
+      \]
+
+      \[
+      L_n:=\nu\Delta V_n-\nabla P_n,
+      \qquad
+      M_n:=\sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k},
+      \]
+
+      \[
+      V_{n+1}=L_n-M_n.
+      \]
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u.
+      \]
+
+      The pressure part and the base transport part belong to the exact or skew
+      channels already visible in jet pairings. The remaining mixed source matrix is
+
+      \[
+      \mathcal R_{A,B}
+      :=
+      \langle \widetilde T_A,J_B\rangle
+      +
+      \langle J_A,\widetilde T_B\rangle.
+      \]
+
+      Recentring on material transport writes the visible nonlinear defect as
+
+      \[
+      L_uU_\alpha+\widetilde T_\alpha+\nabla P_\alpha=\nu\Delta U_\alpha,
+      \qquad
+      L_u:=\partial_t+u\cdot\nabla,
+      \qquad
+      U_\alpha:=\partial_x^\alpha u,
+      \]
+
+      \[
+      \widetilde T_\alpha
+      :=
+      \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u)
+      =
+      [\partial^\alpha,u\cdot\nabla]u.
+      \]
+
+      The relevant quotient is
+
+      \[
+      0\to
+      \mathcal E_{\mathrm{exact}}
+      \to
+      \mathcal T_{\mathrm{full}}
+      \to
+      \mathcal S_{\mathrm{surv}}
+      \to 0.
+      \]
+
+      Here \(\mathcal T_{\mathrm{full}}\) is the prolonged tower packet,
+      \(\mathcal E_{\mathrm{exact}}\) collects pressure-null, Lie-dragged, and
+      contact-null channels, and \(\mathcal S_{\mathrm{surv}}\) is the genuine
+      survivor. The section's mathematical status is support architecture: it
+      explains why the next algebraic theorem should classify the survivor quotient
+      before any drain theorem is claimed.
+
+      The remaining bills are exact. The route still needs a theorem-grade definition
+      of \(\mathcal E_{\mathrm{exact}}\), a quotient or filtration comparing the old
+      lower-prefix survivor with the lifted upper-tai
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Hopf / Shuffle -> Survivor -> Drain Program
+    line_start: 9867
+    line_end: 9943
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9867
+    start_anchor: "\\subsection{Hopf / Shuffle -> Survivor -> Drain Program}\n"
+    end_anchor: "\\subsection{HWY Instability Attack Packet}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Hopf / Shuffle -> Survivor -> Drain Program}
+
+      This program is the same route written as a usable proof sequence:
+
+      \[
+      \begin{aligned}
+      &\text{tower}\\
+      &\quad\to \text{transport recentering}\\
+      &\quad\to \text{exactness / filtration classifier}\\
+      &\quad\to \text{shuffle-Hopf survivor extraction}\\
+      &\quad\to \text{deformation-geometry export}\\
+      &\quad\to \text{drain inequality}.
+      \end{aligned}
+      \]
+
+      It is currently an endgame program, not a closed proof. Its value is that it
+      keeps the tower algebra, survivor dictionary, and deformation drain in the
+      right order.
+
+      The tower still has the form
+
+      \[
+      V_{n+1}=L_n-M_n.
+      \]
+
+      The exponential generating series
+
+      \[
+      \mathcal V_\rho:=\sum_{n\ge0}\frac{\rho^n}{n!}V_n,
+      \qquad
+      \mathcal P_\rho:=\sum_{n\ge0}\frac{\rho^n}{n!}P_n
+      \]
+
+      collapses the binomial spread exactly:
+
+      \[
+      \partial_t\mathcal V_\rho
+      +
+      (\mathcal V_\rho\cdot\nabla)\mathcal V_\rho
+      +
+      \nabla\mathcal P_\rho
+      =
+      \nu\Delta\mathcal V_\rho.
+      \]
+
+      This is the reason the shuffle/Hopf language belongs in the middle of the
+      route: the binomial tower is a coproduct-like spread, and the real question is
+      which part of that spread is composite and which part survives in the quotient.
+
+      On the signed lifted-band side, the live packet is already concrete. The
+      mesoscopic commutator density has the form
+
+      \[
+      \mathfrak c_\ell(x,t)
+      :=
+      \ell^{-2}u_\ell(x,t)
+      [Q_\ell,b_\ell^{meso}(t)\cdot\nabla]u(x,t),
+      \]
+
+      \[
+      b_\ell^{meso}:=P_{\le c/\ell}u-P_{\le 2^{N+M}}u,
+      \qquad
+      N+M<k<j-4.
+      \]
+
+      The current theorem surface reduces the middle-band far-corona portion to a
+      one-sided square / Carleson problem on a coupled two-scale density. In the
+      notation of the six-lemma mainline, this is the far-corona theorem
+      \((19n8)\), equivalently the cumulative-tail stress theorem \((CTS)\) or its
+      local engine \((LPAS)\). The same-scale and upper-boundary sides are already
+      on the weighted carrier route modulo local frozen-family packaging.
+
+      Thus this program contributes the correct route topology. It does not close the
+      global th
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: HWY Instability Attack Packet
+    line_start: 9944
+    line_end: 10036
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9944
+    start_anchor: "\\subsection{HWY Instability Attack Packet}\n"
+    end_anchor: "\\subsection{HWY Proof Audit Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{HWY Instability Attack Packet}
+
+      This packet is an external stress test against the live TPS strong route. It
+      does not validate or refute the Hou--Wang--Yang construction. It factors the
+      route's possible contradiction against that public claim into local theorem
+      slots that can be checked inside this manuscript's machinery.
+
+      The audit packet records the following public input: the Hou--Wang--Yang
+      preprint claims infinitely many suitable Leray--Hopf solutions with one compactly
+      supported divergence-free datum, produced from a self-similar unstable branch,
+      with positive-time smoothness and a location near the Prodi--Serrin uniqueness
+      boundary. For this manuscript, the useful test route is
+
+      \[
+      \begin{aligned}
+      &\text{positive fresh angular }\lambda_{2,J}^+\text{ feed}\\
+      &\quad\Longrightarrow \text{strain gain}\\
+      &\quad\Longrightarrow \text{branch readout}\\
+      &\quad\Longrightarrow \text{same-datum uniqueness in the entry class}.
+      \end{aligned}
+      \]
+
+      The first downstream implication is theorem-grade on the route: a positive
+      fresh angular \(\lambda_{2,J}^+\) feed enters \(SG.4\), and \(SG.4\) gives the
+      coarse/true shadow exclusion once the required barrier or renewal hypotheses
+      are present.
+
+      One local formulation is:
+
+      Fix one branch \(u\), one dyadic scale \(J\), and one strip
+      \(I=[t_0,t_1]\). Suppose a refined good-pair family carries fresh angular
+      sub-arcs \(I_{ab}^{ang}(t)\), a transported expanding bundle, and a lower
+      envelope \(\underline\lambda_J(t)\) with
+
+      \[
+      |I_{ab}^{ang}(t)|
+      \ge
+      \mu_J^{ang}(t)\chi_{ab}^{fresh}(t),
+      \]
+
+      \[
+      \lambda_{2,J}^+(\gamma_{ab}(\theta,t),t)
+      \ge
+      \underline\lambda_J(t),
+      \]
+
+      and with the angular alignment defect absorbed into the coarse angle-defect
+      ledger. Then
+
+      \[
+      g_J^{fresh,\angle}(t)
+      \ge
+      c_\angle\,\mu_J^{ang}(t)\,\underline\lambda_J(t),
+      \]
+
+      so the branch enters the fresh-angle feed packet. A one-sided defect route can
+      also enter the same bridge when
+
+      \[
+      \int_I\lambda_J(s)\,ds\ge m_J+\eta.
+      \]
+
+      The conditional contradiction theorem then h
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Graph-First Structural Upgrade Spec}
+
+    This is support infrastructure, not a theorem.  Its mathematical relevance is
+    that the current frontier cannot be represented by whole files.  The proof
+    objects are smaller:
+
+    The relevant proof objects are the scale barrier, \(Q(t)\), compactness, the
+    lifted high-side remainder, low-mode strain, and the LPAS/active-square branch.
+
+    The graph-first note asks the lane to store those objects as typed nodes with
+    typed edges, so generated surfaces stop treating stale route labels as
+    authority.  In this appendix it is included only as support for why the
+    gradient/HFG frontier is being separated into proof objects rather than
+    reported as one closed bridge.
+
+
+
+    \subsection{H2: Standalone Half-Derivative Bound}
+
+    This is the critical-energy target attached to the low-mode strain problem.  It
+    does not prove the bound.  It states the same-surface coercive estimate needed
+    to make the critical closure non-circular.
+
+    \[
+    E_{1/2}(t) := \|\omega(t)\|_{\dot H^{1/2}_x}^2
+    = \int_{\mathbb R^3} |\xi|\,|\widehat{\omega}(\xi,t)|^2\,d\xi.
+    \]
+
+    \[
+    \frac12\frac{d}{dt}E_{1/2}(t)
+    + \nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
+    = \mathcal N_{1/2}(t),
+    \]
+
+    \[
+    \mathcal N_{1/2}(t)
+    :=
+    \big\langle \Lambda^{1/2}(\omega\cdot\nabla u),
+    \Lambda^{1/2}\omega\big\rangle.
+    \]
+
+    The transport part cancels by divergence-free structure after the standard commutator rewrite. The remaining term is the stretching channel.
+
+    \[
+    \mathcal N_{1/2}(t)
+    \le
+    (1-\delta)\nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
+    + C_\delta \|\omega(t)\|_{\dot H^{1/2}_x}^2
+    \]
+
+    would give
+
+    \[
+    \sup_{t\in[0,T]} \|\omega(t)\|_{\dot H^{1/2}_x}^2
+    \le
+    C(T)\,\|\omega_0\|_{\dot H^{1/2}_x}^2.
+    \]
+
+    The dyadic reduction identifies the exact open object:
+
+    \[
+    A_{j-1}(t)
+    :=
+    \sum_{k\le j-1}2^{5k/2}\|\Delta_k\omega(t)\|_{L^2_x}
+    \le
+    c\nu2^{2j}.
+    \]
+
+    Finite-shell truncation does not make \((H2.2)\) automatic.  The low shells
+    still need pointwise strain suppression at the viscous scale.  This is the
+    same missing low-mode theorem seen by the gradient strict-low audit.
+
+
+
+    \subsection{HFG Production Replay Blocked By Square-Source}
+
+    The attempted replay
+
+    \[
+    \text{HFG}\Rightarrow
+    \text{Pack+Part+Field+\(\mathfrak A_{N,Q}\)}
+    \Rightarrow
+    \text{six-burden production}
+    \]
+
+    requires weighted carrier closure.  That closure is still blocked by
+    LPAS/active-square Carleson.  The square-source branch fails because the
+    universal square-source estimate for \(F_j\) has fixed-shell cubic amplitude
+    scaling.
+
+    The replacement input is one of:
+
+    \[
+    \begin{gathered}
+    \text{square-source estimate under active-interval normalization,}\\
+    \text{active-shell amplitude theorem,}\\
+    \text{direct active-square Carleson,}\\
+    \text{direct LPAS.}
+    \end{gathered}
+    \]
+
+    Until one of these is paid, this branch cannot promote HFG.
+
+
+    \subsection{HFG Rerun Blocked By Shell Amplitude}
+
+    \[
+    \sum_{j\ge0}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty.
+    \]
+
+    The repaired cascade needs
+
+    \[
+    \int_0^T(\Lambda_N+\Theta_N^\sharp)(t)E_N(t)\,dt
+    \le
+    \varepsilon\nu\int_0^TD_N(t)\,dt+C2^{-2\delta N}.
+    \]
+
+    The shell-amplitude gain route gives only a conditional implication.  The gain
+    itself is not installed.  So HFG cannot be rerun from this branch until
+    active-square Carleson, shell-amplitude gain, direct LPAS, or an equivalent
+    weighted carrier closure is proved.
+
+
+
+    \subsection{Holonomy-Refinement Projector Spectral Realization Theorem}
+
+    This theorem pays one precise structural bill in the readout/export route. It
+    turns the finite-scale holonomy/refinement selectors already present in the
+    direct-limit carrier package into an honest spectral truncation family on the
+    persistent carrier.
+
+    Let \(K_D(j)\) be the closed image in \(K_D\) of the dyadic scale carrier
+    \(K_{2^j}\), and let
+    \[
+    \mathbb H_D(j):K_D\to K_D(j)
+    \]
+    be the orthogonal projector. The finite-scale refinement package gives the
+    nested carrier relation
+
+    \[
+    K_D(j) \subseteq K_D(j+1),
+       \qquad
+       \mathbb H_D(j)\mathbb H_D(j+1)=\mathbb H_D(j);
+    \]
+
+    and carrier completeness gives strong convergence
+
+    \[
+    \mathbb H_D(j)Y \to Y
+       \qquad
+       \forall Y\in K_D;
+    \]
+
+    Define the orthogonal slices
+    \[
+    S_j:=\mathbb H_D(j)-\mathbb H_D(j-1).
+    \]
+    The slices are mutually orthogonal projections and sum strongly to
+    \(I_{K_D}\). The coherent generator is the spectral-series operator
+
+    \[
+    D_{\mathrm{coh}}Y:=\sum_j 2^jS_jY,
+    \qquad
+    \operatorname{Dom}(D_{\mathrm{coh}})
+    :=
+    \Big\{Y\in K_D:\sum_j 2^{2j}\|S_jY\|^2<\infty\Big\}.
+    \]
+
+    Then \(D_{\mathrm{coh}}\) is positive self-adjoint on \(K_D\), and the
+    original threshold projectors are exactly its spectral cutoffs:
+
+    \[
+    \mathbb H_D(j)=\mathbf 1_{[0,2^j]}(D_{\mathrm{coh}}).
+    \]
+
+    This closes the thresholded selector-realization problem used by the export
+    route. The closed claim is deliberately local: it concerns the refinement-indexed
+    family on \(K_D\). It does not identify every unthresholded abstract occurrence
+    of \(\mathbb H_D\) with an ambient whole-space spectral projector.
+
+
+
+    \subsection{Hopf-Shuffle Endgame Program}
+
+    The Hopf/shuffle material is useful only as a classifier for the mixed-jet
+    survivor. It is not the proof route by itself. The proof route still begins
+    with the differentiated Navier--Stokes tower and ends only after the true
+    survivor has been exported into a drain theorem.
+
+    \[
+    V_n:=\partial_t^n u,
+    \qquad
+    P_n:=\partial_t^n p,
+    \]
+
+    \[
+    V_{n+1}
+    +
+    \sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k}
+    +
+    \nabla P_n
+    =
+    \nu\Delta V_n.
+    \]
+
+    \[
+    L_n:=\nu\Delta V_n-\nabla P_n,
+    \qquad
+    M_n:=\sum_{k=0}^{n}\binom{n}{k}\,(V_k\cdot\nabla)V_{n-k},
+    \]
+
+    \[
+    V_{n+1}=L_n-M_n.
+    \]
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u.
+    \]
+
+    The pressure part and the base transport part belong to the exact or skew
+    channels already visible in jet pairings. The remaining mixed source matrix is
+
+    \[
+    \mathcal R_{A,B}
+    :=
+    \langle \widetilde T_A,J_B\rangle
+    +
+    \langle J_A,\widetilde T_B\rangle.
+    \]
+
+    Recentring on material transport writes the visible nonlinear defect as
+
+    \[
+    L_uU_\alpha+\widetilde T_\alpha+\nabla P_\alpha=\nu\Delta U_\alpha,
+    \qquad
+    L_u:=\partial_t+u\cdot\nabla,
+    \qquad
+    U_\alpha:=\partial_x^\alpha u,
+    \]
+
+    \[
+    \widetilde T_\alpha
+    :=
+    \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u)
+    =
+    [\partial^\alpha,u\cdot\nabla]u.
+    \]
+
+    The relevant quotient is
+
+    \[
+    0\to
+    \mathcal E_{\mathrm{exact}}
+    \to
+    \mathcal T_{\mathrm{full}}
+    \to
+    \mathcal S_{\mathrm{surv}}
+    \to 0.
+    \]
+
+    Here \(\mathcal T_{\mathrm{full}}\) is the prolonged tower packet,
+    \(\mathcal E_{\mathrm{exact}}\) collects pressure-null, Lie-dragged, and
+    contact-null channels, and \(\mathcal S_{\mathrm{surv}}\) is the genuine
+    survivor. The section's mathematical status is support architecture: it
+    explains why the next algebraic theorem should classify the survivor quotient
+    before any drain theorem is claimed.
+
+    The remaining bills are exact. The route still needs a theorem-grade definition
+    of \(\mathcal E_{\mathrm{exact}}\), a quotient or filtration comparing the old
+    lower-prefix survivor with the lifted upper-tail survivor, and a coproduct or
+    coaction theorem proving that the surviving packet is primitive, coideal, or
+    otherwise isolated after exactness reduction. Once that survivor is identified,
+    the analytic route is expected to export it to deformation geometry. That
+    export theorem is not installed here.
+
+
+
+    \subsection{Hopf / Shuffle -> Survivor -> Drain Program}
+
+    This program is the same route written as a usable proof sequence:
+
+    \[
+    \begin{aligned}
+    &\text{tower}\\
+    &\quad\to \text{transport recentering}\\
+    &\quad\to \text{exactness / filtration classifier}\\
+    &\quad\to \text{shuffle-Hopf survivor extraction}\\
+    &\quad\to \text{deformation-geometry export}\\
+    &\quad\to \text{drain inequality}.
+    \end{aligned}
+    \]
+
+    It is currently an endgame program, not a closed proof. Its value is that it
+    keeps the tower algebra, survivor dictionary, and deformation drain in the
+    right order.
+
+    The tower still has the form
+
+    \[
+    V_{n+1}=L_n-M_n.
+    \]
+
+    The exponential generating series
+
+    \[
+    \mathcal V_\rho:=\sum_{n\ge0}\frac{\rho^n}{n!}V_n,
+    \qquad
+    \mathcal P_\rho:=\sum_{n\ge0}\frac{\rho^n}{n!}P_n
+    \]
+
+    collapses the binomial spread exactly:
+
+    \[
+    \partial_t\mathcal V_\rho
+    +
+    (\mathcal V_\rho\cdot\nabla)\mathcal V_\rho
+    +
+    \nabla\mathcal P_\rho
+    =
+    \nu\Delta\mathcal V_\rho.
+    \]
+
+    This is the reason the shuffle/Hopf language belongs in the middle of the
+    route: the binomial tower is a coproduct-like spread, and the real question is
+    which part of that spread is composite and which part survives in the quotient.
+
+    On the signed lifted-band side, the live packet is already concrete. The
+    mesoscopic commutator density has the form
+
+    \[
+    \mathfrak c_\ell(x,t)
+    :=
+    \ell^{-2}u_\ell(x,t)
+    [Q_\ell,b_\ell^{meso}(t)\cdot\nabla]u(x,t),
+    \]
+
+    \[
+    b_\ell^{meso}:=P_{\le c/\ell}u-P_{\le 2^{N+M}}u,
+    \qquad
+    N+M<k<j-4.
+    \]
+
+    The current theorem surface reduces the middle-band far-corona portion to a
+    one-sided square / Carleson problem on a coupled two-scale density. In the
+    notation of the six-lemma mainline, this is the far-corona theorem
+    \((19n8)\), equivalently the cumulative-tail stress theorem \((CTS)\) or its
+    local engine \((LPAS)\). The same-scale and upper-boundary sides are already
+    on the weighted carrier route modulo local frozen-family packaging.
+
+    Thus this program contributes the correct route topology. It does not close the
+    global theorem until the survivor quotient is identified, exported into the
+    deformation package, and the far-corona theorem is paid.
+
+
+
+    \subsection{HWY Instability Attack Packet}
+
+    This packet is an external stress test against the live TPS strong route. It
+    does not validate or refute the Hou--Wang--Yang construction. It factors the
+    route's possible contradiction against that public claim into local theorem
+    slots that can be checked inside this manuscript's machinery.
+
+    The audit packet records the following public input: the Hou--Wang--Yang
+    preprint claims infinitely many suitable Leray--Hopf solutions with one compactly
+    supported divergence-free datum, produced from a self-similar unstable branch,
+    with positive-time smoothness and a location near the Prodi--Serrin uniqueness
+    boundary. For this manuscript, the useful test route is
+
+    \[
+    \begin{aligned}
+    &\text{positive fresh angular }\lambda_{2,J}^+\text{ feed}\\
+    &\quad\Longrightarrow \text{strain gain}\\
+    &\quad\Longrightarrow \text{branch readout}\\
+    &\quad\Longrightarrow \text{same-datum uniqueness in the entry class}.
+    \end{aligned}
+    \]
+
+    The first downstream implication is theorem-grade on the route: a positive
+    fresh angular \(\lambda_{2,J}^+\) feed enters \(SG.4\), and \(SG.4\) gives the
+    coarse/true shadow exclusion once the required barrier or renewal hypotheses
+    are present.
+
+    One local formulation is:
+
+    Fix one branch \(u\), one dyadic scale \(J\), and one strip
+    \(I=[t_0,t_1]\). Suppose a refined good-pair family carries fresh angular
+    sub-arcs \(I_{ab}^{ang}(t)\), a transported expanding bundle, and a lower
+    envelope \(\underline\lambda_J(t)\) with
+
+    \[
+    |I_{ab}^{ang}(t)|
+    \ge
+    \mu_J^{ang}(t)\chi_{ab}^{fresh}(t),
+    \]
+
+    \[
+    \lambda_{2,J}^+(\gamma_{ab}(\theta,t),t)
+    \ge
+    \underline\lambda_J(t),
+    \]
+
+    and with the angular alignment defect absorbed into the coarse angle-defect
+    ledger. Then
+
+    \[
+    g_J^{fresh,\angle}(t)
+    \ge
+    c_\angle\,\mu_J^{ang}(t)\,\underline\lambda_J(t),
+    \]
+
+    so the branch enters the fresh-angle feed packet. A one-sided defect route can
+    also enter the same bridge when
+
+    \[
+    \int_I\lambda_J(s)\,ds\ge m_J+\eta.
+    \]
+
+    The conditional contradiction theorem then has a clear shape. Let
+    \(u^{(1)}\) and \(u^{(2)}\) be Leray--Hopf solutions with the same datum
+    \(u_0\), smooth on positive-time compact intervals. If both branches enter the
+    same \(BR.\lambda2\) continuation class on an initial window and the datum has
+    uniqueness inside that entry class, then the two branches agree on the window
+    and classical positive-time uniqueness propagates equality afterward.
+
+    The exact initial-window class recorded by the packet is
+
+    \[
+    \mathcal X_{\lambda_2}^0(u_0,\tau)
+    \]
+
+    consisting of Leray--Hopf solutions on \([0,\tau]\) with datum \(u_0\), smooth
+    on every compact subinterval of \((0,\tau]\), and satisfying
+
+    \[
+    \lambda_2^+(u)\in L_t^2\dot B^{-1}_{\infty,\infty}((0,\tau]).
+    \]
+
+    Two gaps remain on this attack surface. First, the manuscript has not proved
+    that the public self-similar unstable branch supplies positive-measure fresh
+    angular sub-arcs carrying the lower envelope for \(\lambda_{2,J}^+\). Second,
+    outside known Barker-type datum classes, the manuscript still needs a
+    zero-time uniqueness-entry theorem inside
+    \(\mathcal X_{\lambda_2}^0(u_0,\tau)\), or a proved embedding of that class into
+    a known weak-strong uniqueness class. This stress test is useful because it
+    locates those exact theorem slots; it is not a closed contradiction to the
+    external construction.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Graph-First Structural Upgrade Spec
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9345
+  line_start: 9345
+  line_end: 9360
+  start_anchor: "\\subsection{Graph-First Structural Upgrade Spec}\n"
+  end_anchor: "\\subsection{H.1 Carrier-Leakage Direct Completion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Graph-First Structural Upgrade
+    Spec as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9345
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'H2: Standalone Half-Derivative Bound'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9393
+  line_start: 9393
+  line_end: 9448
+  start_anchor: "\\subsection{H2: Standalone Half-Derivative Bound}\n"
+  end_anchor: "\\subsection{Heat-Governed Carrier Synthesis For Tower And Shadow Route}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite H2: Standalone Half-Derivative
+    Bound as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9393
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: HFG Production Replay Blocked By Square-Source
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9633
+  line_start: 9633
+  line_end: 9661
+  start_anchor: "\\subsection{HFG Production Replay Blocked By Square-Source}\n"
+  end_anchor: "\\subsection{HFG Rerun Blocked By Shell Amplitude}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite HFG Production Replay Blocked
+    By Square-Source as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9633
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: HFG Rerun Blocked By Shell Amplitude
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9662
+  line_start: 9662
+  line_end: 9681
+  start_anchor: "\\subsection{HFG Rerun Blocked By Shell Amplitude}\n"
+  end_anchor: "\\subsection{High-Frequency Enstrophy Implies H 1 Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite HFG Rerun Blocked By Shell Amplitude
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9662
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Holonomy-Refinement Projector Spectral Realization Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9716
+  line_start: 9716
+  line_end: 9772
+  start_anchor: "\\subsection{Holonomy-Refinement Projector Spectral Realization Theorem}\n"
+  end_anchor: "\\subsection{Hopf-Shuffle Endgame Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Holonomy-Refinement Projector
+    Spectral Realization Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9716
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Hopf-Shuffle Endgame Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9773
+  line_start: 9773
+  line_end: 9866
+  start_anchor: "\\subsection{Hopf-Shuffle Endgame Program}\n"
+  end_anchor: "\\subsection{Hopf / Shuffle -> Survivor -> Drain Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Hopf-Shuffle Endgame Program
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9773
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Hopf / Shuffle -> Survivor -> Drain Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9867
+  line_start: 9867
+  line_end: 9943
+  start_anchor: "\\subsection{Hopf / Shuffle -> Survivor -> Drain Program}\n"
+  end_anchor: "\\subsection{HWY Instability Attack Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Hopf / Shuffle -> Survivor ->
+    Drain Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9867
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: HWY Instability Attack Packet
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9944
+  line_start: 9944
+  line_end: 10036
+  start_anchor: "\\subsection{HWY Instability Attack Packet}\n"
+  end_anchor: "\\subsection{HWY Proof Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite HWY Instability Attack Packet
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:9944
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-10
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-10.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,1288 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-field-misc-support-76
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-76
+  sequence: 228
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 76
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 64507
+  line_end: 65249
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64507
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64554
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64635
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64764
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64817
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64932
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65106
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65209
+  subsection_titles:
+  - Weighted Exact-Projection Resonant Shell Bilinear Theorem Candidate
+  - Weighted Exact-Projection Resonant Shell Theorem Candidate
+  - Weighted Gram Square Obstruction Note
+  - Weighted Mixed-Jet Next-Time Envelope Reduction
+  - Weighted Mixed-Jet Radius-Loss Energy Reduction
+  - Weighted Signed Shell-Exchange Sum Theorem
+  - 'WIZARD Bridge I: Signed-To-Affine Attempt'
+  - 'WIZARD Bridge III: Shell-To-Affine Attempt'
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Exact-Projection Resonant Shell Bilinear Theorem Candidate
+    line_start: 64507
+    line_end: 64553
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64507
+    start_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Bilinear
+      Theorem Candidate}\n"
+    end_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Exact-Projection Resonant Shell Bilinear Theorem Candidate}
+
+      \[
+      \Delta_j\mathcal Z_\alpha
+      =
+      \mathcal Z_{\alpha,j}^{LH}
+      +
+      \mathcal Z_{\alpha,j}^{HL}
+      +
+      \mathcal Z_{\alpha,j}^{RR},
+      \]
+
+      \[
+      C_G:=P(\lambda^{-1},\Lambda,\|G\|_{C_a^{1,1}}),
+      \]
+
+      \[
+      \mathcal B_G(X,Y)
+      =
+      \langle \Pi_G^{ex}X,\Pi_G^{ex}Y\rangle_{L^2_{G^{-1}}},
+      \qquad
+      |X|_{\mathsf{Press}_j}:=|\Pi_G^{ex}X|_{L^2_{G^{-1}}}.
+      \]
+
+      So the resonant reserve debt is a shellwise bilinear theorem for Z ,j RR inside this exact projected pressure form.
+
+      \[
+      \Pi_G^{ex}\Delta_j
+      =
+      T_{p_G}\Delta_j + R_{G,j},
+      \]
+
+      \[
+      \mathcal B_{G,j}^{RR}(f_j,g_j)
+      :=
+      \mathcal B_G(f_j,g_j)
+      =
+      \mathcal B_{G,j}^{main}(f_j,g_j)
+      +
+      \mathcal B_{G,j}^{rem}(f_j,g_j),
+      \]
+
+      B G,j main is obtained by inserting the paradifferential projector T p G into the exact projected carrier on both inputs; B G,j rem collects every term with at least one shellwise remainder R G,j , one projector commutator defect, or one off-shell frequency defect.
+
+      Here lot j denotes the lower-order / coefficient-record packet already admitted on the reserve branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Exact-Projection Resonant Shell Theorem Candidate
+    line_start: 64554
+    line_end: 64634
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64554
+    start_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}\n"
+    end_anchor: "\\subsection{Weighted Gram Square Obstruction Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}
+
+      For the current live route, this reserve theorem is formulated on the torus-first internal branch. All frequencies below are torus Fourier lattice modes, and every shell statement is a dyadic shell restriction on that periodic spectral surface. Any whole-space analogue is downstream export only.
+
+      \[
+      \lambda |\eta|^2
+      \le
+      \eta\cdot G(a)\eta
+      \le
+      \Lambda |\eta|^2,
+      \qquad
+      \|G\|_{C_a^{1,1}}
+      \le
+      M.
+      \]
+
+      \[
+      |X|_{\mathsf{Press}_j}
+      :=
+      |\Pi_G^{ex}X|_{L^2_{G^{-1}}},
+      \qquad
+      \mathcal B_G(X,Y)
+      :=
+      \langle \Pi_G^{ex}X,\Pi_G^{ex}Y\rangle_{L^2_{G^{-1}}}.
+      \]
+
+      Let \(f_j\) and \(g_j\) be torus shell-localized fields.  Their Fourier support
+      lies on lattice modes \(\xi,\eta\in\mathbb Z^3\setminus\{0\}\) with
+      \(|\xi|\), \(|\eta|\), and \(|\xi+\eta|\) comparable to \(2^j\).  Denote by
+      \(b_G(a,\xi,\eta)\) the bilinear symbol seen by the shellwise resonant pressure
+      interaction after the exact projector carrier has been inserted into
+      \(\mathcal B_G\).
+
+      \[
+      \mathcal B_G^{res,j}(f_j,g_j)
+      :=
+      \mathcal B_G(f_j,g_j).
+      \]
+
+      Here both inputs are restricted to the torus lattice shell
+      \(|\xi|\sfcomp{62985}2^j\).
+
+      \[
+      b_G(a,\xi,\eta)
+      =
+      b_G^{main}(a,\xi,\eta)
+      +
+      b_G^{rem}(a,\xi,\eta),
+      \]
+
+      \[
+      \boxed{
+      |\mathcal B_G^{res,j}(f_j,g_j)|
+      \le
+      \varepsilon D_j
+      +
+      C_\varepsilon\,\mathrm{lot}_j,
+      }
+      \]
+
+      where D j is the shellwise same-depth dissipation record and lot j collects admitted coefficient / lower-order terms.
+
+      The key point is that every projector replacement error should carry one extra metric or shell defect and so belong to b G rem , not to the true resonant main term.
+
+      The same bound holds with ( , ) exchanged. Consequently the principal resonant symbol obeys the pointwise null-form estimate
+
+      The correct microlocal realization of the remaining burden is a cap-localized resonant shell decomposition at angular scale j. Fix a smooth radial shell cutoff j( )= (2 -j ) and cover the unit sphere by finitely overlapping caps of angular diameter comp
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Gram Square Obstruction Note
+    line_start: 64635
+    line_end: 64689
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64635
+    start_anchor: "\\subsection{Weighted Gram Square Obstruction Note}\n"
+    end_anchor: "\\subsection{Weighted High-Frequency Shell Reduction Lemma}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Gram Square Obstruction Note}
+
+      \[
+      U_\alpha := \partial_x^\alpha u,
+      \qquad 1\le |\alpha|\le r,
+      \]
+
+      \[
+      \partial_t U_\alpha
+      +
+      u\cdot\nabla U_\alpha
+      +
+      \widetilde T_\alpha
+      +
+      \nabla P_\alpha
+      =
+      \nu \Delta U_\alpha,
+      \]
+
+      \[
+      \widetilde T_\alpha
+      :=
+      \sum_{\substack{0<\beta\le\alpha}}
+      \binom{\alpha}{\beta}
+      (U_\beta\cdot\nabla)U_{\alpha-\beta}
+      \]
+
+      \[
+      \widetilde T_\alpha
+      =
+      \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u).
+      \]
+
+      \[
+      \mathcal K_W[u]
+      :=
+      \sum_{\alpha,\beta\in I_r}
+      w_{\alpha,\beta}\,\langle U_\alpha,U_\beta\rangle.
+      \]
+
+      That is already useful, because it means the whole nonlinear burden is reduced to the sign and structure of N W[u].
+
+      Each derivative U is linear in u, so (5) and (6) are quadratic. The commutator defect T in (3) is quadratic in u. So each pairing
+
+      So a pure quadratic weighted Gram functional cannot directly yield the desired YM-style law.
+
+      So the weighted Gram functional is the right place to compress the tower, but not yet the right place to produce a nontrivial defect by itself.
+
+      Add higher-order correction terms to the functional. The energy can no longer be purely quadratic. Cubic correction terms could, after differentiation, produce quartic pieces capable of pairing with a commutator defect.
+
+      Change variables. Move to a lifted or renormalized variable in which the dangerous defect is first-order rather than quadratic, so that its has the right effective scaling.
+
+      Prove an inequality instead of an identity. The mixed-source matrix may admit a one-sided estimate
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Mixed-Jet Next-Time Envelope Reduction
+    line_start: 64764
+    line_end: 64816
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64764
+    start_anchor: "\\subsection{Weighted Mixed-Jet Next-Time Envelope Reduction}\n"
+    end_anchor: "\\subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Mixed-Jet Next-Time Envelope Reduction}
+
+      The next time layer of the mixed-jet tower is fed by the current tower through the exact envelope reduction below.
+
+      So the time direction of the tower does not introduce a new combinatorial obstruction beyond the quadratic convolution already isolated earlier.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p,
+      \]
+
+      \[
+      J_{m+1,\alpha}
+      =
+      \nu\Delta J_{m,\alpha}
+      -
+      T_{m,\alpha}
+      -
+      \nabla\Pi_{m,\alpha},
+      \]
+
+      \[
+      T_{m,\alpha}
+      :=
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma\binom{\alpha}{\beta}
+      \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}.
+      \]
+
+      \[
+      \mathfrak A_s(\tau,r)
+      :=
+      \sum_{m\ge0}\sum_{\alpha}
+      \frac{\tau^m r^{|\alpha|}}{m!\,\alpha!}\,
+      \|J_{m,\alpha}\|_{H^s}.
+      \]
+
+      \[
+      \mathfrak U_s(\tau,r)
+      :=
+      \sum_{m\ge0}\sum_{\alpha}
+      \frac{\tau^{m+1}r^{|\alpha|}}{(m+1)!\,\alpha!}\,
+      \|J_{m+1,\alpha}\|_{H^{s-1}}.
+      \]
+
+      Multiply (2) by the weight m+1 r | | /((m+1)! !), take H s-1 norms, and sum. Using the triangle inequality,
+
+      So the time ladder does not create a new independent nonlinear combinatorics problem.
+
+      The remaining unresolved issue is whether one can turn (13) into a true propagation estimate for A s.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Mixed-Jet Radius-Loss Energy Reduction
+    line_start: 64817
+    line_end: 64874
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64817
+    start_anchor: "\\subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}\n"
+    end_anchor: "\\subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}
+
+      The next exact classical theorem extracted from the weighted mixed-jet package is a radius-loss energy reduction.
+
+      So the classical mixed-jet route is not blocked by raw combinatorics anymore. It now has the shape of a weighted scale-of-spaces problem.
+
+      \[
+      J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+      \qquad
+      \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+      \]
+
+      \[
+      a_{m,\alpha}(t):=\|J_{m,\alpha}(t)\|_{H^s},
+      \qquad
+      d_{m,\alpha}(t):=\|\nabla J_{m,\alpha}(t)\|_{H^s}.
+      \]
+
+      \[
+      c_{m,\alpha}(t)
+      :=
+      \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+      \binom ma \binom{\alpha}{\beta}\,
+      \|J_{a,\beta}(t)\|_{H^s}\,
+      \|J_{m-a,\alpha-\beta}(t)\|_{H^s}.
+      \]
+
+      \[
+      \partial_t J_{m,\alpha}
+      +
+      (u\cdot\nabla)J_{m,\alpha}
+      +
+      \widetilde T_{m,\alpha}
+      +
+      \nabla\Pi_{m,\alpha}
+      =
+      \nu\Delta J_{m,\alpha},
+      \]
+
+      \[
+      \|\widetilde T_{m,\alpha}\|_{H^{s-1}}
+      \le
+      C_s\,c_{m,\alpha}.
+      \]
+
+      It is not yet closed, because the coefficient still contains the 1 weighted norm A s. But it is an exact reduction of the tower to a scale-of-spaces energy problem.
+
+      So the weighted 1 tower norm at a smaller radius is controlled by the squared-weight energy at a strictly larger radius.
+
+      Hence bounded control at a slightly larger weight pair propagates the energy at any strictly smaller weight pair.
+
+      Once the factorial weights are squared, the nonlinear tower becomes an ordinary discrete convolution in 2.
+
+      The unresolved issue is no longer raw binomial combinatorics. It is whether the weighted energy scale can be closed without losing all radius.
+
+      No no-loss or globally propagated weighted slice is proved here, so (C1) remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Signed Shell-Exchange Sum Theorem
+    line_start: 64932
+    line_end: 64991
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64932
+    start_anchor: "\\subsection{Weighted Signed Shell-Exchange Sum Theorem}\n"
+    end_anchor: "\\subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Weighted Signed Shell-Exchange Sum Theorem}
+
+      All later positive carriers arise only after that signed object has already been replaced by magnitude bounds or Cauchy-Schwarz.
+
+      \[
+      \mathcal I_{j;k,\ell}(t)
+      :=
+      \big\langle \Delta_j(a_k(t)\cdot\nabla \Delta_\ell u(t)),\,\Delta_j u(t)\big\rangle.
+      \]
+
+      \[
+      \mathcal I_{j;k,\ell}(t)+\mathcal I_{\ell;k,j}(t)=0.
+      \]
+
+      So any nontrivial surviving contribution must come from the weighted one-sided summation, not from the bare dyadic transport exchange.
+
+      \[
+      w_{j,\ell}^{(\sigma)}:=2^{-\sigma(\ell-j)}
+      \qquad (\ell\ge j),
+      \]
+
+      \[
+      \mathfrak F_{k,N}^\sigma(t)
+      :=
+      \sum_{j>N}\sum_{\ell>j+4}
+      w_{j,\ell}^{(\sigma)}\,\mathcal I_{j;k,\ell}(t).
+      \]
+
+      \[
+      \mathfrak F_{k,N}^\sigma(t)
+      =
+      \frac12
+      \sum_{\substack{j,\ell>N\\ j\neq \ell}}
+      \Big(
+      2^{-\sigma(\ell-j)_+}-2^{-\sigma(j-\ell)_+}
+      \Big)\,
+      \mathcal I_{j;k,\ell}(t).
+      \]
+
+      So the one-sided tail weight breaks the exact antisymmetry but does not produce a decaying gap factor.
+
+      The branch does not stop at F k,N . The real object seen by the route after the outer -theorem weight is
+
+      This is the precise point where the current route stops: the signed antisymmetry is exact, but the actual one-sided weights break it by an order-size defect.
+
+      The bare pairwise shell flux itself does not survive in the extreme separated geometry j k .
+
+      So in the actual separated regime there is no remaining sign question for the bare pairwise shell exchange: the interaction vanishes before sign can matter.
+
+      Historically this was phrased as a theorem on the bare shell flux. The support audit (8)-(10) shows that this is vacuous on the declared geometry. What survives as a genuine question is whether an analogous signed theorem holds for the true commutatorized lifted remainder, not for the bare pairwise term I j;k, itself.
+
+      But by (10) this target is identically zero once the shell geometry is truly separated. So it is not the live burden anymore.
+
+      So (SFX) is not just another reformulation. It marks the exact point where t
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'WIZARD Bridge I: Signed-To-Affine Attempt'
+    line_start: 65106
+    line_end: 65160
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65106
+    start_anchor: "\\subsection{WIZARD Bridge I: Signed-To-Affine Attempt}\n"
+    end_anchor: "\\subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{WIZARD Bridge I: Signed-To-Affine Attempt}
+
+      The reduction is stronger and exact, and it exposes an exact terminal obstruction.
+
+      \[
+      \frac{\ell}{r},
+      \qquad r\ge e^L\ell.
+      \]
+
+      \[
+      s:=\log \ell,
+      \qquad
+      \rho:=\log r,
+      \qquad
+      J:=[s_0,s_1].
+      \]
+
+      \[
+      \frac{\ell}{r}=e^{s-\rho},
+      \qquad
+      \rho\ge s+L.
+      \]
+
+      \[
+      (\mathcal K_L f)(s)
+      :=
+      \int_{s+L}^{s_1} e^{s-\rho} f(\rho)\,d\rho.
+      \]
+
+      This is the exact one-sided operator naturally attached to the gap-kernel family.
+
+      \[
+      \partial_s(\mathcal K_L f)(s)
+      =
+      \int_{s+L}^{s_1} e^{s-\rho} f(\rho)\,d\rho
+      - e^{-L}f(s+L).
+      \]
+
+      So the gap-kernel route is not arbitrary transport geometry. It is the one-sided resolvent of a first-order scale operator.
+
+      This is the exact place where the signed route and the far-gap flux route meet: both are naturally first-order in logarithmic scale.
+
+      Because is affine, the affine functional annihilates exact second derivatives, not merely first derivatives.
+
+      The affine quotient route is naturally second-order because its readout kills only exact second derivatives.
+
+      So the bridge failure is not just "one more trick missing." It is an operator order mismatch.
+
+      The correct bridge theorem, if it exists, has to raise the signed route from first-order to effective second-order exactness.
+
+      Since ''=0, every interior contribution from G vanishes, and under the stated boundary conditions only C [R] survives.
+
+      This is stronger than the earlier slogan "one derivative short," because it identifies the exact native operator on the signed/gap-kernel side.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'WIZARD Bridge III: Shell-To-Affine Attempt'
+    line_start: 65209
+    line_end: 65249
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65209
+    start_anchor: "\\subsection{WIZARD Bridge III: Shell-To-Affine Attempt}\n"
+    end_anchor: "\\subsection{WIZARD Request: Carrier Refactor Packet}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{WIZARD Bridge III: Shell-To-Affine Attempt}
+
+      \[
+      A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L_x^2},
+      \qquad
+      B_j(t):=\frac{A_j(t)}{\nu 2^{2j}}.
+      \]
+
+      \[
+      c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t),
+      \]
+
+      \[
+      M_0(t):=\int_{s_0}^{s_1-\kappa}\widetilde Z(\sigma,t)\,d\sigma,
+      \qquad
+      M_1(t):=\int_{s_0}^{s_1-\kappa}\sigma\,\widetilde Z(\sigma,t)\,d\sigma.
+      \]
+
+      A j accumulates low-frequency strain shells k j; (M 0,M 1) accumulates the one-sided scale source over a lower logarithmic prefix interval.
+
+      \[
+      A_j
+      =
+      \sum_{k\le j}2^{5k/2}\|\Delta_k\omega\|_2.
+      \]
+
+      \[
+      \widetilde Z
+      \sfcomp{63629}
+      \tau_\ell^{H^1}[u].
+      \]
+
+      So the affine route sees a quadratic readout of u, while the shell barrier still sees a linear cumulative strain amplitude.
+
+      A j is not a theorem on the Z carrier; (M 0,M 1) is not a theorem on the shell-vorticity carrier.
+
+      Z j is the actual one-sided source seen by the Volterra route; the affine moments of Z j are controlled by the cumulative shell barrier A j; the map preserves the lower-prefix orientation rather than converting it into an upper-tail object.
+
+      To turn it into a theorem, the branch would first need a stressification map carrying the shell barrier onto the one-sided scale-memory source.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Weighted Exact-Projection Resonant Shell Bilinear Theorem Candidate}
+
+    \[
+    \Delta_j\mathcal Z_\alpha
+    =
+    \mathcal Z_{\alpha,j}^{LH}
+    +
+    \mathcal Z_{\alpha,j}^{HL}
+    +
+    \mathcal Z_{\alpha,j}^{RR},
+    \]
+
+    \[
+    C_G:=P(\lambda^{-1},\Lambda,\|G\|_{C_a^{1,1}}),
+    \]
+
+    \[
+    \mathcal B_G(X,Y)
+    =
+    \langle \Pi_G^{ex}X,\Pi_G^{ex}Y\rangle_{L^2_{G^{-1}}},
+    \qquad
+    |X|_{\mathsf{Press}_j}:=|\Pi_G^{ex}X|_{L^2_{G^{-1}}}.
+    \]
+
+    So the resonant reserve debt is a shellwise bilinear theorem for Z ,j RR inside this exact projected pressure form.
+
+    \[
+    \Pi_G^{ex}\Delta_j
+    =
+    T_{p_G}\Delta_j + R_{G,j},
+    \]
+
+    \[
+    \mathcal B_{G,j}^{RR}(f_j,g_j)
+    :=
+    \mathcal B_G(f_j,g_j)
+    =
+    \mathcal B_{G,j}^{main}(f_j,g_j)
+    +
+    \mathcal B_{G,j}^{rem}(f_j,g_j),
+    \]
+
+    B G,j main is obtained by inserting the paradifferential projector T p G into the exact projected carrier on both inputs; B G,j rem collects every term with at least one shellwise remainder R G,j , one projector commutator defect, or one off-shell frequency defect.
+
+    Here lot j denotes the lower-order / coefficient-record packet already admitted on the reserve branch.
+
+
+
+    \subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}
+
+    For the current live route, this reserve theorem is formulated on the torus-first internal branch. All frequencies below are torus Fourier lattice modes, and every shell statement is a dyadic shell restriction on that periodic spectral surface. Any whole-space analogue is downstream export only.
+
+    \[
+    \lambda |\eta|^2
+    \le
+    \eta\cdot G(a)\eta
+    \le
+    \Lambda |\eta|^2,
+    \qquad
+    \|G\|_{C_a^{1,1}}
+    \le
+    M.
+    \]
+
+    \[
+    |X|_{\mathsf{Press}_j}
+    :=
+    |\Pi_G^{ex}X|_{L^2_{G^{-1}}},
+    \qquad
+    \mathcal B_G(X,Y)
+    :=
+    \langle \Pi_G^{ex}X,\Pi_G^{ex}Y\rangle_{L^2_{G^{-1}}}.
+    \]
+
+    Let \(f_j\) and \(g_j\) be torus shell-localized fields.  Their Fourier support
+    lies on lattice modes \(\xi,\eta\in\mathbb Z^3\setminus\{0\}\) with
+    \(|\xi|\), \(|\eta|\), and \(|\xi+\eta|\) comparable to \(2^j\).  Denote by
+    \(b_G(a,\xi,\eta)\) the bilinear symbol seen by the shellwise resonant pressure
+    interaction after the exact projector carrier has been inserted into
+    \(\mathcal B_G\).
+
+    \[
+    \mathcal B_G^{res,j}(f_j,g_j)
+    :=
+    \mathcal B_G(f_j,g_j).
+    \]
+
+    Here both inputs are restricted to the torus lattice shell
+    \(|\xi|\sfcomp{62985}2^j\).
+
+    \[
+    b_G(a,\xi,\eta)
+    =
+    b_G^{main}(a,\xi,\eta)
+    +
+    b_G^{rem}(a,\xi,\eta),
+    \]
+
+    \[
+    \boxed{
+    |\mathcal B_G^{res,j}(f_j,g_j)|
+    \le
+    \varepsilon D_j
+    +
+    C_\varepsilon\,\mathrm{lot}_j,
+    }
+    \]
+
+    where D j is the shellwise same-depth dissipation record and lot j collects admitted coefficient / lower-order terms.
+
+    The key point is that every projector replacement error should carry one extra metric or shell defect and so belong to b G rem , not to the true resonant main term.
+
+    The same bound holds with ( , ) exchanged. Consequently the principal resonant symbol obeys the pointwise null-form estimate
+
+    The correct microlocal realization of the remaining burden is a cap-localized resonant shell decomposition at angular scale j. Fix a smooth radial shell cutoff j( )= (2 -j ) and cover the unit sphere by finitely overlapping caps of angular diameter comparable to j. Choose a smooth partition of unity j, on the shell so that
+
+    where b G is the exact projected principal transport symbol. Because the resonant relation is imposed at the cap level, the angular localization is now C N-stable rather than merely set-theoretic.
+
+    The clean operator-level target should be written first as a frozen capwise operator theorem. Split the same-depth main term as
+
+    where frozen j, , ' is the scalar bilinear form obtained from the frozen projected principal symbol on one active cap pair, and R j freeze is the coefficient-variation remainder from freezing on the packet scale. That freezing remainder belongs to the already-budgeted projector / metric defect carrier and should be absorbed together with b G rem on the same witness.
+
+    One further correction is important: this local operator theorem is still an unsigned same-depth estimate. By itself it does not produce a positive interaction defect, a coercive Lyapunov functional, or a global rigidity mechanism. Any later coercivity/compactness-rigidity globalization must install
+
+    This is the resonant analogue of the commutator theorem: all projector defects must be stripped off before the genuine same-depth theorem is attacked.
+
+    Rewrite the resonant packet directly on the exact carrier and define the projected resonant symbol b G(a, , ) from the start. Do not build the resonant theorem first and insert G ex later, because that mixes the true main term with projector defects.
+
+
+
+    \subsection{Weighted Gram Square Obstruction Note}
+
+    \[
+    U_\alpha := \partial_x^\alpha u,
+    \qquad 1\le |\alpha|\le r,
+    \]
+
+    \[
+    \partial_t U_\alpha
+    +
+    u\cdot\nabla U_\alpha
+    +
+    \widetilde T_\alpha
+    +
+    \nabla P_\alpha
+    =
+    \nu \Delta U_\alpha,
+    \]
+
+    \[
+    \widetilde T_\alpha
+    :=
+    \sum_{\substack{0<\beta\le\alpha}}
+    \binom{\alpha}{\beta}
+    (U_\beta\cdot\nabla)U_{\alpha-\beta}
+    \]
+
+    \[
+    \widetilde T_\alpha
+    =
+    \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u).
+    \]
+
+    \[
+    \mathcal K_W[u]
+    :=
+    \sum_{\alpha,\beta\in I_r}
+    w_{\alpha,\beta}\,\langle U_\alpha,U_\beta\rangle.
+    \]
+
+    That is already useful, because it means the whole nonlinear burden is reduced to the sign and structure of N W[u].
+
+    Each derivative U is linear in u, so (5) and (6) are quadratic. The commutator defect T in (3) is quadratic in u. So each pairing
+
+    So a pure quadratic weighted Gram functional cannot directly yield the desired YM-style law.
+
+    So the weighted Gram functional is the right place to compress the tower, but not yet the right place to produce a nontrivial defect by itself.
+
+    Add higher-order correction terms to the functional. The energy can no longer be purely quadratic. Cubic correction terms could, after differentiation, produce quartic pieces capable of pairing with a commutator defect.
+
+    Change variables. Move to a lifted or renormalized variable in which the dangerous defect is first-order rather than quadratic, so that its has the right effective scaling.
+
+    Prove an inequality instead of an identity. The mixed-source matrix may admit a one-sided estimate
+
+
+
+    \subsection{Weighted Mixed-Jet Next-Time Envelope Reduction}
+
+    The next time layer of the mixed-jet tower is fed by the current tower through the exact envelope reduction below.
+
+    So the time direction of the tower does not introduce a new combinatorial obstruction beyond the quadratic convolution already isolated earlier.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p,
+    \]
+
+    \[
+    J_{m+1,\alpha}
+    =
+    \nu\Delta J_{m,\alpha}
+    -
+    T_{m,\alpha}
+    -
+    \nabla\Pi_{m,\alpha},
+    \]
+
+    \[
+    T_{m,\alpha}
+    :=
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma\binom{\alpha}{\beta}
+    \big(J_{a,\beta}\cdot\nabla\big)J_{m-a,\alpha-\beta}.
+    \]
+
+    \[
+    \mathfrak A_s(\tau,r)
+    :=
+    \sum_{m\ge0}\sum_{\alpha}
+    \frac{\tau^m r^{|\alpha|}}{m!\,\alpha!}\,
+    \|J_{m,\alpha}\|_{H^s}.
+    \]
+
+    \[
+    \mathfrak U_s(\tau,r)
+    :=
+    \sum_{m\ge0}\sum_{\alpha}
+    \frac{\tau^{m+1}r^{|\alpha|}}{(m+1)!\,\alpha!}\,
+    \|J_{m+1,\alpha}\|_{H^{s-1}}.
+    \]
+
+    Multiply (2) by the weight m+1 r | | /((m+1)! !), take H s-1 norms, and sum. Using the triangle inequality,
+
+    So the time ladder does not create a new independent nonlinear combinatorics problem.
+
+    The remaining unresolved issue is whether one can turn (13) into a true propagation estimate for A s.
+
+
+
+    \subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}
+
+    The next exact classical theorem extracted from the weighted mixed-jet package is a radius-loss energy reduction.
+
+    So the classical mixed-jet route is not blocked by raw combinatorics anymore. It now has the shape of a weighted scale-of-spaces problem.
+
+    \[
+    J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u,
+    \qquad
+    \Pi_{m,\alpha}:=\partial_t^m\partial_x^\alpha p.
+    \]
+
+    \[
+    a_{m,\alpha}(t):=\|J_{m,\alpha}(t)\|_{H^s},
+    \qquad
+    d_{m,\alpha}(t):=\|\nabla J_{m,\alpha}(t)\|_{H^s}.
+    \]
+
+    \[
+    c_{m,\alpha}(t)
+    :=
+    \sum_{a=0}^{m}\sum_{\beta\le\alpha}
+    \binom ma \binom{\alpha}{\beta}\,
+    \|J_{a,\beta}(t)\|_{H^s}\,
+    \|J_{m-a,\alpha-\beta}(t)\|_{H^s}.
+    \]
+
+    \[
+    \partial_t J_{m,\alpha}
+    +
+    (u\cdot\nabla)J_{m,\alpha}
+    +
+    \widetilde T_{m,\alpha}
+    +
+    \nabla\Pi_{m,\alpha}
+    =
+    \nu\Delta J_{m,\alpha},
+    \]
+
+    \[
+    \|\widetilde T_{m,\alpha}\|_{H^{s-1}}
+    \le
+    C_s\,c_{m,\alpha}.
+    \]
+
+    It is not yet closed, because the coefficient still contains the 1 weighted norm A s. But it is an exact reduction of the tower to a scale-of-spaces energy problem.
+
+    So the weighted 1 tower norm at a smaller radius is controlled by the squared-weight energy at a strictly larger radius.
+
+    Hence bounded control at a slightly larger weight pair propagates the energy at any strictly smaller weight pair.
+
+    Once the factorial weights are squared, the nonlinear tower becomes an ordinary discrete convolution in 2.
+
+    The unresolved issue is no longer raw binomial combinatorics. It is whether the weighted energy scale can be closed without losing all radius.
+
+    No no-loss or globally propagated weighted slice is proved here, so (C1) remains open.
+
+
+
+    \subsection{Weighted Signed Shell-Exchange Sum Theorem}
+
+    All later positive carriers arise only after that signed object has already been replaced by magnitude bounds or Cauchy-Schwarz.
+
+    \[
+    \mathcal I_{j;k,\ell}(t)
+    :=
+    \big\langle \Delta_j(a_k(t)\cdot\nabla \Delta_\ell u(t)),\,\Delta_j u(t)\big\rangle.
+    \]
+
+    \[
+    \mathcal I_{j;k,\ell}(t)+\mathcal I_{\ell;k,j}(t)=0.
+    \]
+
+    So any nontrivial surviving contribution must come from the weighted one-sided summation, not from the bare dyadic transport exchange.
+
+    \[
+    w_{j,\ell}^{(\sigma)}:=2^{-\sigma(\ell-j)}
+    \qquad (\ell\ge j),
+    \]
+
+    \[
+    \mathfrak F_{k,N}^\sigma(t)
+    :=
+    \sum_{j>N}\sum_{\ell>j+4}
+    w_{j,\ell}^{(\sigma)}\,\mathcal I_{j;k,\ell}(t).
+    \]
+
+    \[
+    \mathfrak F_{k,N}^\sigma(t)
+    =
+    \frac12
+    \sum_{\substack{j,\ell>N\\ j\neq \ell}}
+    \Big(
+    2^{-\sigma(\ell-j)_+}-2^{-\sigma(j-\ell)_+}
+    \Big)\,
+    \mathcal I_{j;k,\ell}(t).
+    \]
+
+    So the one-sided tail weight breaks the exact antisymmetry but does not produce a decaying gap factor.
+
+    The branch does not stop at F k,N . The real object seen by the route after the outer -theorem weight is
+
+    This is the precise point where the current route stops: the signed antisymmetry is exact, but the actual one-sided weights break it by an order-size defect.
+
+    The bare pairwise shell flux itself does not survive in the extreme separated geometry j k .
+
+    So in the actual separated regime there is no remaining sign question for the bare pairwise shell exchange: the interaction vanishes before sign can matter.
+
+    Historically this was phrased as a theorem on the bare shell flux. The support audit (8)-(10) shows that this is vacuous on the declared geometry. What survives as a genuine question is whether an analogous signed theorem holds for the true commutatorized lifted remainder, not for the bare pairwise term I j;k, itself.
+
+    But by (10) this target is identically zero once the shell geometry is truly separated. So it is not the live burden anymore.
+
+    So (SFX) is not just another reformulation. It marks the exact point where the proof either finds a true self-limiting law or stops.
+
+    The previous positive-carrier notes remain useful as upper envelopes, but they are now explicitly downstream failure modes if one loses the sign too early.
+
+    The latest self-attempt on this branch makes the correct symmetrization move after replacing the vacuous bare shell exchange by a commutatorized defect, but it still fails once absolute values are introduced.
+
+
+
+    \subsection{WIZARD Bridge I: Signed-To-Affine Attempt}
+
+    The reduction is stronger and exact, and it exposes an exact terminal obstruction.
+
+    \[
+    \frac{\ell}{r},
+    \qquad r\ge e^L\ell.
+    \]
+
+    \[
+    s:=\log \ell,
+    \qquad
+    \rho:=\log r,
+    \qquad
+    J:=[s_0,s_1].
+    \]
+
+    \[
+    \frac{\ell}{r}=e^{s-\rho},
+    \qquad
+    \rho\ge s+L.
+    \]
+
+    \[
+    (\mathcal K_L f)(s)
+    :=
+    \int_{s+L}^{s_1} e^{s-\rho} f(\rho)\,d\rho.
+    \]
+
+    This is the exact one-sided operator naturally attached to the gap-kernel family.
+
+    \[
+    \partial_s(\mathcal K_L f)(s)
+    =
+    \int_{s+L}^{s_1} e^{s-\rho} f(\rho)\,d\rho
+    - e^{-L}f(s+L).
+    \]
+
+    So the gap-kernel route is not arbitrary transport geometry. It is the one-sided resolvent of a first-order scale operator.
+
+    This is the exact place where the signed route and the far-gap flux route meet: both are naturally first-order in logarithmic scale.
+
+    Because is affine, the affine functional annihilates exact second derivatives, not merely first derivatives.
+
+    The affine quotient route is naturally second-order because its readout kills only exact second derivatives.
+
+    So the bridge failure is not just "one more trick missing." It is an operator order mismatch.
+
+    The correct bridge theorem, if it exists, has to raise the signed route from first-order to effective second-order exactness.
+
+    Since ''=0, every interior contribution from G vanishes, and under the stated boundary conditions only C [R] survives.
+
+    This is stronger than the earlier slogan "one derivative short," because it identifies the exact native operator on the signed/gap-kernel side.
+
+
+
+    \subsection{WIZARD Bridge III: Shell-To-Affine Attempt}
+
+    \[
+    A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L_x^2},
+    \qquad
+    B_j(t):=\frac{A_j(t)}{\nu 2^{2j}}.
+    \]
+
+    \[
+    c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t),
+    \]
+
+    \[
+    M_0(t):=\int_{s_0}^{s_1-\kappa}\widetilde Z(\sigma,t)\,d\sigma,
+    \qquad
+    M_1(t):=\int_{s_0}^{s_1-\kappa}\sigma\,\widetilde Z(\sigma,t)\,d\sigma.
+    \]
+
+    A j accumulates low-frequency strain shells k j; (M 0,M 1) accumulates the one-sided scale source over a lower logarithmic prefix interval.
+
+    \[
+    A_j
+    =
+    \sum_{k\le j}2^{5k/2}\|\Delta_k\omega\|_2.
+    \]
+
+    \[
+    \widetilde Z
+    \sfcomp{63629}
+    \tau_\ell^{H^1}[u].
+    \]
+
+    So the affine route sees a quadratic readout of u, while the shell barrier still sees a linear cumulative strain amplitude.
+
+    A j is not a theorem on the Z carrier; (M 0,M 1) is not a theorem on the shell-vorticity carrier.
+
+    Z j is the actual one-sided source seen by the Volterra route; the affine moments of Z j are controlled by the cumulative shell barrier A j; the map preserves the lower-prefix orientation rather than converting it into an upper-tail object.
+
+    To turn it into a theorem, the branch would first need a stressification map carrying the shell barrier onto the one-sided scale-memory source.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Exact-Projection Resonant Shell Bilinear Theorem Candidate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64507
+  line_start: 64507
+  line_end: 64553
+  start_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Bilinear Theorem
+    Candidate}\n"
+  end_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Exact-Projection Resonant
+    Shell Bilinear Theorem Candidate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64507
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Exact-Projection Resonant Shell Theorem Candidate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64554
+  line_start: 64554
+  line_end: 64634
+  start_anchor: "\\subsection{Weighted Exact-Projection Resonant Shell Theorem Candidate}\n"
+  end_anchor: "\\subsection{Weighted Gram Square Obstruction Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Exact-Projection Resonant
+    Shell Theorem Candidate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64554
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Gram Square Obstruction Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64635
+  line_start: 64635
+  line_end: 64689
+  start_anchor: "\\subsection{Weighted Gram Square Obstruction Note}\n"
+  end_anchor: "\\subsection{Weighted High-Frequency Shell Reduction Lemma}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Gram Square Obstruction
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64635
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Mixed-Jet Next-Time Envelope Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64764
+  line_start: 64764
+  line_end: 64816
+  start_anchor: "\\subsection{Weighted Mixed-Jet Next-Time Envelope Reduction}\n"
+  end_anchor: "\\subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Mixed-Jet Next-Time
+    Envelope Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64764
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Mixed-Jet Radius-Loss Energy Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64817
+  line_start: 64817
+  line_end: 64874
+  start_anchor: "\\subsection{Weighted Mixed-Jet Radius-Loss Energy Reduction}\n"
+  end_anchor: "\\subsection{Weighted One-Sided Enstrophy-Tail Flux Identity}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Mixed-Jet Radius-Loss
+    Energy Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64817
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Signed Shell-Exchange Sum Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64932
+  line_start: 64932
+  line_end: 64991
+  start_anchor: "\\subsection{Weighted Signed Shell-Exchange Sum Theorem}\n"
+  end_anchor: "\\subsection{Weighted Spectral Carrier-Floor-Leakage Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Signed Shell-Exchange
+    Sum Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:64932
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'WIZARD Bridge I: Signed-To-Affine Attempt'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65106
+  line_start: 65106
+  line_end: 65160
+  start_anchor: "\\subsection{WIZARD Bridge I: Signed-To-Affine Attempt}\n"
+  end_anchor: "\\subsection{WIZARD Bridge II: Gap-Flux-To-Carrier Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite WIZARD Bridge I: Signed-To-Affine
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65106
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'WIZARD Bridge III: Shell-To-Affine Attempt'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65209
+  line_start: 65209
+  line_end: 65249
+  start_anchor: "\\subsection{WIZARD Bridge III: Shell-To-Affine Attempt}\n"
+  end_anchor: "\\subsection{WIZARD Request: Carrier Refactor Packet}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite WIZARD Bridge III: Shell-To-Affine
+    Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:65209
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-76
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-field-misc-support-76.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1644,7 +1644,7 @@ By Proposition `AS.7za`,
 Inside the tubular neighborhood `U_k`, the level sets of
 `\Psi_k` are exactly the normal slices to `\Sigma_{\mathrm{top}}`, so the
 sublevel set on the left side of `(AS.7zb4)` is contained in a radius
-`O(\gamma)` neighborhood of the codimension-two zero set of
+`C_k\gamma` neighborhood of the codimension-two zero set of
 `\Psi_k\circ \mathfrak S_k`. The coarea formula in `\mathbb R^2`, together with
 the lower bound `(AS.7zb3)` on the normal Jacobian, yields the quadratic volume
 estimate `C_k\gamma^2`. The lower-gap separation `(AS.7zb2)` keeps the

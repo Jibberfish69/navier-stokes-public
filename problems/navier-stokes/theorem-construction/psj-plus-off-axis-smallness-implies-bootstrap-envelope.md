@@ -39,7 +39,7 @@ There are two separate obstructions.
 ```
 
 via `D.7mm5`; the reverse implication
-`\eta_J^{boot}{}^2\lesssim \|\Pi_J^{ref}-\Pi_J^{top}\|_F^2` is not currently on
+`\eta_J^{boot}{}^2\le C_{\mathrm{OA}}\|\Pi_J^{ref}-\Pi_J^{top}\|_F^2` is not currently on
 disk.
 
 2. The off-axis block alone does not identify the top line. If `\Pi` is any
@@ -273,7 +273,7 @@ separate reverse bootstrap theorem of the form
 
 ```math
 \eta_J^{boot}{}^2
-\lesssim
+\le C_{\mathrm{OA21}}
 \bigl\|\Pi_J^{ref}-\Pi_J^{top}\bigr\|_F^2.
 \tag{OA.21}
 ```

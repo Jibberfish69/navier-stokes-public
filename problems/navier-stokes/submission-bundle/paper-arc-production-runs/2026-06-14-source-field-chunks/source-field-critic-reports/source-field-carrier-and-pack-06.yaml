@@ -1,0 +1,92 @@
+---
+version: 1
+kind: ns-source-field-chunk-math-reader-critic-report
+generated_at: '2026-06-14T06:46:39Z'
+chunk_id: source-field-carrier-and-pack-06
+group_id: carrier-and-pack
+title: Carrier and Pack 6
+status: passed
+critic_scope: attack only this named source-field chunk; do not reread the whole appendix
+  or start theorem work
+source_unit_count: 8
+issue_count: 0
+detected_issue_count: 0
+issue_limit_reached: false
+issues: []
+source_units:
+- subsection_title: Good Scale.TTU Under Selector / Finite-Complexity
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:19154
+  line_start: 19154
+  line_end: 19180
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Native One-Sided Weighted Positive-Source Depletion After Localization
+    And Active-Window Selection
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20456
+  line_start: 20456
+  line_end: 20514
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pressure-source Tether and the One-sided Carrier
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20869
+  line_start: 20869
+  line_end: 20896
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Original-data \(E_u\) Conversion and Additive-carrier Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21015
+  line_start: 21015
+  line_end: 21050
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack from finite physical same-fluid cover
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21097
+  line_start: 21097
+  line_end: 21145
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack-native Strain Bound and the Remaining Obstruction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21146
+  line_start: 21146
+  line_end: 21195
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: Pack.TTU Implies the Pack Witness
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21196
+  line_start: 21196
+  line_end: 21243
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+- subsection_title: BKM Route Check for Pack.TTU
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:21244
+  line_start: 21244
+  line_end: 21282
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues: []
+repair_packet:
+  chunk_id: source-field-carrier-and-pack-06
+  issue_count: 0
+  detected_issue_count: 0
+  issue_limit_reached: false
+  issues_by_category: {}
+  source_edit_rule: repair the cited TeX spans inside this named source-field chunk
+    directly; do not answer with a report-only fix
+  author_packet_rule: after source repair, regenerate the source-field plan so chunk
+    packets reflect the current TeX
+  completion_test: critic found no deterministic proof/reader failures in this chunk

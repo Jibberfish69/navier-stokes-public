@@ -1,0 +1,156 @@
+---
+version: 1
+kind: ns-paper-arc-author-pack
+arc_id: gold-obstruction
+batch_id: gold-obstruction-current-source-certification-20260614T080555Z
+ready_to_apply: true
+source_rewrites:
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: The Direct Estimate Route
+  spine_id: the-direct-estimate-route
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:151
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:151
+  endpoint_status: gold obstruction
+  reader_payments: &1
+  - plain_explanation
+  - derivation_or_proof_payment
+  - endpoint_status
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to gold-obstruction.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside The Direct Estimate Route
+      without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:05:55Z'
+- op: certify_existing_section
+  path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+  section_title: Where the Direct Route Reaches an Obstruction
+  spine_id: where-the-direct-route-reaches-an-obstruction
+  source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:200
+  author_replacement_required: false
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:200
+  - brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.lci-lower-carrier-interval-integrability.yaml
+  - brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.source-reserve-birth-charge-a.yaml
+  - problems/navier-stokes/route-lock.yaml
+  - problems/navier-stokes/submission-bundle/source-frontier.yaml
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-annular-residual-specific-case-exhaustion-20260614.md
+  - problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
+  - problems/navier-stokes/theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md
+  - problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
+  - problems/navier-stokes/theorem-construction/mpp-residual-refill-ledger-and-spine-consolidation-20260611.md
+  - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-time-face-anti-atom-hard-obstruction-certificate-20260517.md
+  - problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md
+  endpoint_status: gold obstruction
+  reader_payments: *1
+  math_reader_critic:
+    claim_truth_attack: The current-source arc critic passed this section with zero
+      deterministic claim-truth issues; the section is certified only for the proof
+      role assigned to gold-obstruction.
+    reader_thread_attack: The current-source arc critic found no reader-thread failure
+      in this section; the section keeps the reader inside Where the Direct Route
+      Reaches an Obstruction without requiring an external status report.
+    unpaid_derivation_attack: The current-source arc critic found no deterministic
+      unpaid-derivation issue in this section; any later mathematical failure must
+      be raised as a named critic issue against this arc.
+    repair_decision: passes after repair
+    unresolved_failures: []
+    critic_generated_at: '2026-06-14T08:05:55Z'
+  repo_sources_excluded:
+  - source_ref: brain/thoughts/graph/lanes/navier-stokes/nodes/navier-stokes.debt_pool.yaml
+    reason: exploration-only debt pool; this arc represents the concrete obstruction
+      through source-frontier and theorem notes instead
+  - source_ref: problems/navier-stokes/docs/current-state-publish-manifest.yaml
+    reason: published-file manifest, not proof authority; mathematical content is
+      represented by source-frontier and theorem notes
+  - source_ref: problems/navier-stokes/source-forensics/ns-historical-biography.md
+    reason: historical source-forensics context, not a theorem payment for this arc
+  - source_ref: problems/navier-stokes/campaign-status.yaml
+    reason: status mirror; current proof content is represented by source-frontier
+      and direct theorem notes
+  - source_ref: problems/navier-stokes/paper-quality-verdict.yaml
+    reason: paper-quality/status surface; the source edit and critic report carry
+      the writing repair
+  - source_ref: problems/navier-stokes/runtime/meta/shared-runner-incidents.yaml
+    reason: runner incident log, not manuscript proof source
+  - source_ref: problems/navier-stokes/ns-completion-executor.yaml
+    reason: execution dispatch surface, not manuscript proof source
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260612-iteration-2.yaml
+    reason: route-sync receipt superseded for this arc by source-frontier and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260612.yaml
+    reason: route-sync receipt superseded for this arc by source-frontier and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260613-iteration-2.yaml
+    reason: route-sync receipt superseded for this arc by source-frontier and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/ns-completion-route-sync-payload-20260613.yaml
+    reason: route-sync receipt superseded for this arc by source-frontier and direct
+      theorem notes
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
+    reason: source-writing receipt; its mathematical result is now represented by
+      TeX source and theorem notes
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609-iteration-2.yaml
+    reason: submission-sync receipt, not direct proof authority for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
+    reason: submission-sync receipt, not direct proof authority for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612.yaml
+    reason: submission-sync receipt, not direct proof authority for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260613-iteration-2.yaml
+    reason: submission-sync receipt, not direct proof authority for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260613.yaml
+    reason: submission-sync receipt, not direct proof authority for this arc
+  - source_ref: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    reason: export status surface; no proof claim is paid by export state
+  - source_ref: problems/navier-stokes/submission-bundle/submission-verdict.yaml
+    reason: generated verdict/status surface; this arc uses source-frontier and direct
+      theorem notes for the proof boundary
+author_contract:
+  arc_id: gold-obstruction
+  must_write:
+  - finished TeX prose, not a report
+  - reader-facing explanation before compressed notation
+  - full derivation/proof steps available in the current repo context
+  - gold status and obstruction stated without redefining gold
+  - CM/silver counterpart written where the arc touches class exit
+  - endpoint status stated as proved, support, obstruction, obsolete, contradiction,
+    or open continuation
+  must_criticize:
+  - attack the replacement's strongest claim and state how the replacement now pays
+    or limits it
+  - name the exact sentence, definition, or proof step where a reader could lose the
+    thread
+  - name any derivation jump that remains unpaid, or state why the derivation is paid
+    on the page
+  - record a repair decision before integration
+  must_not_write:
+  - boilerplate that presents the work as only a status snapshot
+  - internal automation or progress-report voice
+  - unfilled prose
+  - unpaid theorem claim hidden as narrative confidence
+  required_patterns:
+  - gold
+  - "(annular|obstruction|refill)"
+  - "(open|missing|unproved|CM|contrapositive)"
+  source_material_rule: every repo note, section, obstruction, and support item in
+    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    exclusion
+  integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
+    build
+certification_note: Current TeX source for this whole proof arc passed the Math/Reader
+  critic; this pack certifies existing page prose instead of forcing a gratuitous
+  rewrite.

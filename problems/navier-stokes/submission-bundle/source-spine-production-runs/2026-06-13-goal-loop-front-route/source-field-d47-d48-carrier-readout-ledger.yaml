@@ -1,0 +1,67 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T192114Z
+status: applied
+generated_at: '2026-06-13T19:21:14Z'
+batch_id: ns-goal-loop-source-field-d47-d48-carrier-readout-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/46-source-field-d47-d48-carrier-readout.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2462-2558
+    sections:
+      - Coherent-Laplacian Zero-Mode Obstruction Lemma
+      - Coherent Readout Low-Mode Comparison Theorem
+source_authoring_summary: >-
+  The batch rewrote D47-D48 of the source-field appendix as reader-facing
+  carrier/readout support. It separates the persistent pure zero-mode carrier
+  from the localized spectral-window carrier that supplies scale structure,
+  then explains the full/coherent/noncoherent readout split and names the
+  scale-sized \(H_D^s\) comparison for the noncoherent component as the first
+  structural theorem debt.
+proof_role:
+  gold_layer: >-
+    The edited slice packages the carrier-choice obstruction and readout
+    comparison as forward-positive support. It does not certify the gold route.
+  silver_layer: >-
+    The edited slice is readout/support material. It does not claim a Pack,
+    Part, or Field face landing, and it does not certify silver closure.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d47-d48
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d47-d48/navier-stokes-human-submission.pdf
+  pages: 1105
+  output_bytes: 4096999
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d47-d48/pages-130-133.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d47-d48-render/source-field-d47-d48-0130.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d47-d48-render/source-field-d47-d48-0131.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d47-d48-render/source-field-d47-d48-0132.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d47-d48-render/source-field-d47-d48-0133.png
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-2462-2558
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-hits-in-source-field-lines-2462-2558-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix distillation/source-support batch. It does not claim
+    first-draft approval, gold certification, silver certification, full CMI
+    finality, or a full-PDF finality gate.
+  - >-
+    D47-D48 now tell the reader why zero-mode persistence is too weak for
+    selector export, what the localized spectral-window carrier supplies, and
+    which noncoherent comparison has to be paid before coherent readout support
+    becomes full classical low-mode control.
+  - >-
+    D49-D51 remain the next source-field unit for LPAS/FC reserve, collar
+    remainder, and C3 sufficiency packet prose.
+  - >-
+    The annular endpoint witness remains open until gold residual-load control
+    is proved or the silver branch lands the selected same-solution Pack, Part,
+    or Field first face on the page.

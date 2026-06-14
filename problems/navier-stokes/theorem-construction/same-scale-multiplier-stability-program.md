@@ -23,7 +23,9 @@ The upper-boundary packet is
 \tag{1}
 ```
 
-supported in an `O(1)` logarithmic collar near the top scale `\ell_N\sim 2^{-N}`.
+supported in a bounded logarithmic collar near the top scale, with constants
+`0<c_\ell\le C_\ell<\infty` satisfying
+`c_\ell2^{-N}\le \ell_N\le C_\ell2^{-N}`.
 
 The moving-spill packet is already reduced to a finite family of fixed-offset
 same-scale edge packets:
@@ -60,7 +62,7 @@ b_{\ell,m}=T_m(\ell D)u.
 
 For the upper boundary, once the global signed balance identity is written
 explicitly, the factor `(\partial_s\chi_{mid})(s)` freezes the scale to an
-`O(1)` collar near `\ell_N`, so the remaining multiplier structure is again a
+bounded collar near `\ell_N`, so the remaining multiplier structure is again a
 finite-width annular family at the active scale.
 
 So the correct abstraction is:
@@ -162,8 +164,8 @@ the top collar where the scale has already frozen.
 
 So after writing the global signed balance identity explicitly, the remaining
 upper-boundary integrand should be decomposed into a finite family of same-scale
-edge pairings at `\ell\sim\ell_N`. That is a multiplier-stability problem, not
-a new large-gap theorem.
+edge pairings with `c\ell_N\le \ell\le C\ell_N` for fixed constants `c,C`.
+That is a multiplier-stability problem, not a new large-gap theorem.
 
 The exact theorem target is
 

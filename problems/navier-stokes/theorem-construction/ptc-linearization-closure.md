@@ -541,9 +541,9 @@ and the active-pair scale packet from the selector-good transport notes holds:
 ```math
 a-b\in N_a,
 \qquad
-|a-b|\simeq \ell_J
+ c_a\ell_J\le |a-b|\le C_a\ell_J
 \qquad
-\text{for every active pair }a\sim b.
+\text{for every active pair }(a,b)\in\mathcal A_J^{act}.
 \tag{PTCL.3aj}
 ```
 

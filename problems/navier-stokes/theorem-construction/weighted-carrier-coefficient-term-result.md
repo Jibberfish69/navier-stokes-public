@@ -108,10 +108,11 @@ while
 \int_0^T y(t)^{3/2}dt=\infty.
 ```
 
-This matches the schematic low-mode product
+This realizes the low-mode product size in the model
+`\Lambda_N(t):=y(t)^{1/2}` and `E_N(t):=y(t)`:
 
 ```math
-\Lambda_NE_N\sim y^{1/2}y=y^{3/2}.
+\Lambda_N(t)E_N(t)=y(t)^{1/2}y(t)=y(t)^{3/2}.
 ```
 
 For the collar piece, two nonnegative functions can each lie in `L^1_t` while their product fails to lie in `L^1_t`; for example

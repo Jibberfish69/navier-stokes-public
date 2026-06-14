@@ -16,7 +16,7 @@ Discharge the concrete selector-strain step:
 (\Pi_J^{ref},\ \text{CG-RefGap packet},\ \text{strip residual packet})
 \Longrightarrow
 \bigl\|\Pi_J^{ref}-P_{J,\top}^{seg}\bigr\|_F^2
-\lesssim
+\le C_{\mathrm{RPTS0}}
 \mathrm{Err}_{J,\mathrm{ssc}}^{CG}.
 }
 \tag{RPTS.0}
@@ -69,7 +69,7 @@ is controlled. Then
 \bigl\|
 P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le C_{\mathrm{RPTS0d}}
 \frac{\eta_J^{mb}(t,a,b)^2}{g_0^2}.
 \tag{RPTS.0d}
 ```
@@ -92,7 +92,7 @@ E_{J,t_0}^{CG}\le g_0/4
 \quad\text{and}\quad
 \eta_J^{mb}\ \text{controlled}
 \Longrightarrow
-P_J^{CG}(t,a)\approx P_{J,\top}^{seg}(a,b,t).
+\bigl\|P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)\bigr\|_F\le \varepsilon_J^{top}.
 \tag{RPTS.0f}
 ```
 
@@ -166,7 +166,7 @@ one has the selector-strain comparison
 \bigl\|
 \Pi_J^{ref}(a,b,t)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le C_{\mathrm{RPTS4}}
 \operatorname{Err}_{J,\mathrm{ssc}}^{CG}(a,b,t).
 \tag{RPTS.4}
 ```
@@ -180,7 +180,7 @@ the synchronized reference projector obeys `(RPTS.1)`. Then
 \bigl\|
 \Pi_J^{ref}(a,b,t)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le C_{\mathrm{RPTS5}}
 \operatorname{Err}_{J,\mathrm{sync}}^{ref}(a,b,t)
 +
 \operatorname{Err}_{J,CG}^{strain,\mathrm{boot}}(a,b,t).
@@ -196,7 +196,7 @@ synchronized reference projector obeys `(RPTS.1)`. Then
 \bigl\|
 \Pi_J^{ref}(a,b,t)-P_{J,\top}^{seg}(a,b,t)
 \bigr\|_F^2
-\lesssim
+\le C_{\mathrm{RPTS6}}
 \operatorname{Err}_{J,\mathrm{sync}}^{ref}(a,b,t)
 +
 \operatorname{Err}_{J,CG}^{strain}(a,b,t).

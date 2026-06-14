@@ -56,7 +56,7 @@ A one-dimensional scale Poincare estimate gives
 
 ```math
 \|\Omega_J[\Psi](t)\|_{L_x^2}
-\lesssim_J
+\le C_J
 \|\partial_\sigma\Psi(\cdot,t)\|_{L_\sigma^2(J;L_x^2)}.
 ```
 
@@ -64,7 +64,7 @@ Using the signed identity, this becomes
 
 ```math
 \|\Omega_J[\Psi](t)\|_{L_x^2}
-\lesssim_J
+\le C_J
 \|Y(\cdot,t)\|_{L_\sigma^2(J;L_x^2)}
 +
 \|S^{spill}+E\|_{L_\sigma^2(J;L_x^2)}.

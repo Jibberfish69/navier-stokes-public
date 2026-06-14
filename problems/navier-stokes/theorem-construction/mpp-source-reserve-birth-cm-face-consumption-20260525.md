@@ -59,7 +59,7 @@ Then
 
 ```text
 nu_m^+(W_m) = 1,
-int_{W_m} |s| dnu_m^+ = O(tau_m) -> 0.
+int_{W_m} |s| dnu_m^+ <= C tau_m -> 0.
 ```
 
 So the square/source reserve stays order-one while its terminal first moment

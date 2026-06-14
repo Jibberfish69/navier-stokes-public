@@ -31,7 +31,7 @@ heat-scale windows, prove one of:
 
 ## Weak Duhamel split
 
-On each selected shell the energy balance has the schematic form
+On each selected shell the energy balance has the form
 
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t)+L_j(t),
@@ -41,7 +41,7 @@ where `F_j` is the native nonlinear active shell source/current and `L_j` is
 legal loss.  Since
 
 ```math
-D_j(t)\simeq 2^{2j}E_j(t),
+c_D2^{2j}E_j(t)\le D_j(t)\le C_D2^{2j}E_j(t),
 ```
 
 Duhamel on a heat-scale window `I_j` gives
@@ -115,7 +115,7 @@ or proves LPAS.
 The scalar source-balanced model survives the shell law:
 
 ```math
-F_j(t)\simeq c\nu D_j(t)
+F_{j,\mathrm{model}}(t):= c\nu D_j(t)
 ```
 
 on heat-scale terminal windows.  In that case the nonlinear source replenishes

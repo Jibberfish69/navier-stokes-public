@@ -1,0 +1,9 @@
+---
+version: 1
+kind: ns-paper-next-author-target
+generated_at: '2026-06-14T16:08:29Z'
+output_dir: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine
+draft_status_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/draft-status.yaml
+first_draft_ready: true
+work_rule: all draft arcs satisfy the current author-pack, integration, critic, and
+  context-home gates

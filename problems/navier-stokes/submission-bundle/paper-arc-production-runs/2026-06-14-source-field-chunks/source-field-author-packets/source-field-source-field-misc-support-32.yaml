@@ -1,0 +1,931 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-32
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-32
+  sequence: 184
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 32
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 20188
+  line_end: 20653
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20188
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20203
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20218
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20259
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20375
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20421
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20589
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20632
+  subsection_titles:
+  - 'Manuscript-Grade Periodic Theorem Sequence: Final Order'
+  - Smallest Referee-Readable Standard Lemma Sequence
+  - Material Lebesgue Differentiation For SCF base
+  - Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular Depletion
+  - Moving-Cylinder CKN Admissibility Lemma
+  - Msc Badac Bad Set Absolute Continuity For Mixed Bilinear Dissipation Pulse A
+  - No Incoming License.A terminal-pulse audit
+  - No Incoming Flux global.A direct attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Manuscript-Grade Periodic Theorem Sequence: Final Order'
+    line_start: 20188
+    line_end: 20202
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20188
+    start_anchor: "\\subsection{Manuscript-Grade Periodic Theorem Sequence: Final
+      Order}\n"
+    end_anchor: "\\subsection{Smallest Referee-Readable Standard Lemma Sequence}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
+
+      For every smooth divergence-free zero-mean datum on T 3, the unforced three-dimensional incompressible Navier-Stokes equations have a global smooth solution.
+
+      The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
+
+      The averaged terminal-tail route produces the terminal readout cover. The no-jump branch gives a finite positive-scale SCF-good cover and averaged transported-center control. The complementary averaged jump face is removed downstream by the averaged endpoint theorem. After averaged endpoint closure, the readout layer supplies the pointwise transported-center and field inputs.
+
+      The pointwise endpoint matrix removes every first terminal face: dead participation, pack detachment, tower blowup, field jump, and cross entries.
+
+      Let [0,T *) be the maximal classical interval. If T * is finite, Lemma 1 rules out cascade-driven terminal failure. Lemma 2 supplies the terminal readout inputs. Lemma 3 removes every endpoint face. The maximality assumption has no remaining terminal obstruction. Hence T *=infinity.
+
+      This historical theorem is the periodic branch. It is not the current R3 authority; the present submission reads the whole-space branch through the June 8 CM endpoint-consumption chain.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Smallest Referee-Readable Standard Lemma Sequence
+    line_start: 20203
+    line_end: 20217
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20203
+    start_anchor: "\\subsection{Smallest Referee-Readable Standard Lemma Sequence}\n"
+    end_anchor: "\\subsection{Material Lebesgue Differentiation For SCF base}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Smallest Referee-Readable Standard Lemma Sequence}
+
+      This merges moving-cylinder epsilon regularity with the local affine-excess estimate.
+
+      Every terminal same-fluid tail either has a positive-scale finite SCF-good cover or loses every uniform positive good scale. On the positive-scale branch, the local estimates globalize by finite overlap and common scheduler to produce the terminal averaged tower bound.
+
+      A first finite endpoint must enter one of four primitive faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates all four faces, so no first finite endpoint occurs.
+
+      The averaged endpoint package gives a readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise endpoint package gives a uniform H s(T 3) bound for some s>5/2; periodic local theory extends the solution past any finite endpoint.
+
+      Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution.
+
+      Internal labels may appear in parenthetical dependency references only. The main proof should use the four lemma titles above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Material Lebesgue Differentiation For SCF base
+    line_start: 20218
+    line_end: 20258
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20218
+    start_anchor: "\\subsection{Material Lebesgue Differentiation For SCF base}\n"
+    end_anchor: "\\subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted
+      Angular Depletion}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Material Lebesgue Differentiation For SCF base}
+
+      \[
+      u\in L^3_{loc},
+      \qquad
+      p\in L^{3/2}_{loc},
+      \qquad
+      \nabla u\in L^2_{loc}.
+      \]
+
+      Bounded chart distortion gives material/Eulerian measure comparability. Hence parabolic Lebesgue differentiation applies in material coordinates to the pullbacks of
+
+      \[
+      |u|^3,
+      \qquad
+      |p|^{3/2},
+      \qquad
+      |\nabla u|^2.
+      \]
+
+      At material-a.e. point (a,t), local averages of these quantities over same-fluid parabolic cylinders converge to their point values in the normalized density sense.
+
+      For the velocity fluctuation, choose the local velocity normalizer as the average or the minimizing affine/constant mode used in SCF base. The minimizing property gives a value bounded by the average-subtraction value, and Lebesgue differentiation gives
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{r}^{norm}|^3\to0.
+      \]
+
+      For pressure, the pressure normalization lemma fixes the CKN-compatible gauge. Since p in L 3/2 loc , the same differentiation theorem gives
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{r}^{norm}|^{3/2}\to0.
+      \]
+
+      \[
+      r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0
+      \]
+
+      For every threshold epsilon m>0, material-a.e. point admits a positive same-fluid radius satisfying
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular
+      Depletion
+    line_start: 20259
+    line_end: 20295
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20259
+    start_anchor: "\\subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted
+      Angular Depletion}\n"
+    end_anchor: "\\subsection{Minimal Zeno Ancient Residue B class-production and
+      Liouville attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular Depletion}
+
+      Local theorem-note artifact. The proposed minimal-layer contradiction was tested against the current MCP source frontier.
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})>0,
+      \]
+
+      \[
+      2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+      \]
+
+      \[
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+      \]
+
+      A terminal atom can concentrate this carrier at s=0 while preserving finite L 1 s source mass. The failure of active-shell amplitude gain removes the shellwise reserve that would charge the concentration.
+
+      Thus the minimal-layer assumptions produce a sharper local packet target rather than a contradiction.
+
+      The MCP refresh identifies the current packet primitive below Positive Remainder Depletion.A as
+
+      \[
+      \sum_{P\in\mathcal F_N}
+      \int_{Q(P)}
+      |w_{j_P}|^2
+      \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+dxdt
+      \le
+      \operatorname{Drain}_{parent}(\mathcal F_N)
+      +
+      \operatorname{Loss}_{legal}(\\mathcal F_N)
+      +o_N(1).
+      \]
+
+      The joint-failure attempt narrows the live positive-supplier atom. It does not discharge the fork. The next useful theorem target is source-weighted terminal angular depletion.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Moving-Cylinder CKN Admissibility Lemma
+    line_start: 20375
+    line_end: 20420
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20375
+    start_anchor: "\\subsection{Moving-Cylinder CKN Admissibility Lemma}\n"
+    end_anchor: "\\subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear
+      Dissipation Pulse A}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Moving-Cylinder CKN Admissibility Lemma}
+
+      Let Q r Phi(a 0,t 0) be a same-fluid moving cylinder generated by the flow map Phi. Assume the chart satisfies the bounded distortion condition
+
+      \[
+      \Gamma_\sharp(Q_r^\Phi)
+      =
+      \sup_{Q_r^\Phi}\max\{|D_a\Phi|,|D_a\Phi^{-1}|\}
+      \le M_\sharp,
+      \]
+
+      and the moving frame coefficients used in SCF base have the corresponding scale-normalized bounds on the cylinder.
+
+      Then, after rescaling by r and pulling back to material/moving coordinates, Q r Phi is CKN-admissible: it is uniformly comparable to a standard parabolic cylinder, the local energy inequality pulls back with constants depending only on M sharp,nu, and the normalized SCF base packet is comparable to the usual CKN scale-critical packet.
+
+      \[
+      x=\Phi(a_0,t)+rA(t)y,
+      \qquad
+      s=(t-t_0)/r^2,
+      \]
+
+      where A(t) is the bounded same-fluid frame from the packet. The assumptions give uniform bounds for A, A -1 , the Jacobian, and the metric tensor in the pulled-back cylinder. Hence spatial volumes, gradients, and parabolic cylinders are comparable with constants depending only on M sharp.
+
+      \[
+      \varphi(x,t)=\phi(y(x,t),s(t)).
+      \]
+
+      The chain rule writes partial t varphi, nabla varphi, and Delta varphi as finite sums of normalized derivatives of phi multiplied by bounded frame coefficients and the expected powers of r. Inserting varphi into the Eulerian local energy inequality gives the same inequality in the normalized cylinder, with lower-order frame terms controlled by the bounded distortion constants. These terms are exactly the moving-frame contributions included in the normalized SCF base convention.
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi}|u-u^{norm}_{r}|^3
+      \sfcomp{20161}
+      \iint_{Q_1}|\tilde u-\tilde u^{norm}_{1}|^3,
+      \]
+
+      \[
+      r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}_{r}|^{3/2}
+      \sfcomp{20167}
+      \iint_{Q_1}|\tilde p-\tilde p^{norm}_{1}|^{3/2},
+      \]
+
+      so the moving same-fluid cylinder is CKN-admissible, and the local ATD m epsilon theorem may invoke CKN epsilon regularity on the normalized cylinder.
+
+      This is a l
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Msc Badac Bad Set Absolute Continuity For Mixed Bilinear Dissipation
+      Pulse A
+    line_start: 20421
+    line_end: 20455
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20421
+    start_anchor: "\\subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear
+      Dissipation Pulse A}\n"
+    end_anchor: "\\subsection{Native One-Sided Weighted Positive-Source Depletion
+      After Localization And Active-Window Selection}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear Dissipation Pulse A}
+
+      \[
+      Bad_N(\eta)=\{t:\sup_{j>N}\gamma_j(t)>\eta\},
+      \qquad
+      \gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+      \]
+
+      \[
+      \sum_{N<j\le\ell}\gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)
+      \le
+      \eta\mathfrak B_N^\sigma(t),
+      \]
+
+      so choosing eta below the absorption threshold handles the good set. Thus the route reduces exactly to the bad-set measure domination target.
+
+      Chebyshev gives small Lebesgue measure for Bad N(eta). This does not control the target measure
+
+      \[
+      \mathfrak B_N^\sigma(t)dt.
+      \]
+
+      The abstract heat-scale model in the energy-measure countermodel places gamma N+1 =1 on an interval of length delta N -> 0 and places mathfrak B N sigma=delta N -1 on that same interval. The scheduler integral tends to zero, while
+
+      \[
+      \int_{Bad_N(\eta)}\mathfrak B_N^\sigma(t)dt=1.
+      \]
+
+      \[
+      \gamma_j(t)(2^{2\ell}+2^{2j})
+      \]
+
+      The good-coefficient part is closed. The bad-set domination theorem remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: No Incoming License.A terminal-pulse audit
+    line_start: 20589
+    line_end: 20631
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20589
+    start_anchor: "\\subsection{No Incoming License.A terminal-pulse audit}\n"
+    end_anchor: "\\subsection{No Incoming Flux global.A direct attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{No Incoming License.A terminal-pulse audit}
+
+      The terminal active-window / first-pulse construction supplies a no-parent source-residue license. It does not yet supply the stronger global no-incoming boundary condition needed for a direct anisotropic backward-uniqueness proof.
+
+      It is a statement about source-residue ancestry, not about the full tangent field having zero incoming energy from s=- .
+
+      The stronger license needed by the direct backward-uniqueness route would assert a genuine incoming-boundary condition for the frozen-strain tangent field. Local compact decay alone is
+
+      \[
+      \lim_{s\to-\infty}\int_{B_R}|v(y,s)|^2\,dy=0
+      \qquad (R<\infty).
+      \]
+
+      \[
+      \lim_{s\to-\infty}\int_{\mathbb R^3}|w(z,s)|^2\Omega(z,s)\,dz=0,
+      \]
+
+      Proof: choose the bad source-residue tile minimal with respect to the same-fluid backward parent relation. If an earlier parent with positive normalized source-residue mass existed, the selected tile would not be first. Hence the inherited source-residue parent term vanishes in the first-pulse limit.
+
+      \[
+      S(T)
+      \le
+      \theta D(T)+\sum_{P\prec T}\kappa(P,T)S(P)+Err(T).
+      \]
+
+      \[
+      S(T_0)\le \theta D(T_0)+Err(T_0).
+      \]
+
+      \[
+      \lim_{s\to-\infty}\int_{B_R}|v(y,s)|^2dy=0
+      \]
+
+      This decay would have to be paired with enough global boundary control to
+      exclude mass entering from spatial infinity.
+
+      Under the frozen strain flow, contracting directions can transport mass from spatial infinity into fixed compact regions as s increases. Thus local compact decay is not a complete no-incoming condition for the transformed ancient problem.
+
+      The direct backward-uniqueness route remains a reserve route requiring an additional global no-incoming boundary theorem.
+
+      No Incoming License src.A is installed as a logical consequence of first-pulse minimality once the parent relation is fixed. Strong No Incoming License global.A remains open.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: No Incoming Flux global.A direct attempt
+    line_start: 20632
+    line_end: 20653
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20632
+    start_anchor: "\\subsection{No Incoming Flux global.A direct attempt}\n"
+    end_anchor: "\\subsection{Nonlinear shell-flux source control theorem - bounded
+      solve attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{No Incoming Flux global.A direct attempt}
+
+      Upgrade first-pulse no-parent information to a global no-incoming flux condition for the frozen-strain tangent field. A usable form would be a transported-cylinder or weighted condition such as
+
+      \[
+      \lim_{R\to\infty}\limsup_{s_0\to-\infty}
+      \int_{\partial\mathcal C_R(s_0,0)} |w|^2\,d\Phi_{A,S}=0,
+      \]
+
+      \[
+      z=e^{-sS}y,
+      \qquad
+      w(z,s)=e^{sS}v(e^{sS}z,s).
+      \]
+
+      When S has mixed signs, some directions are contracting in the original variables as time advances. Field energy initially located far from the origin at large negative times can enter a fixed compact observation region at later times through those contracting directions.
+
+      Local compact decay on each fixed ball so controls only mass already inside that ball at early times. It gives no boundary-flux control through the transported parabolic boundary from spatial infinity.
+
+      First-pulse no-parent excludes earlier selected same-fluid source-residue parents. It gives no estimate for full-field kinetic energy, pressure energy, or nonselected packets entering through the global transformed boundary. Thus it supplies the correct input for the adjoint parent-or-charge route, while falling short of the global incoming-flux condition needed for direct backward uniqueness.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}
+
+    For every smooth divergence-free zero-mean datum on T 3, the unforced three-dimensional incompressible Navier-Stokes equations have a global smooth solution.
+
+    The high-frequency cascade is controlled on every finite classical interval. The proof splits the nonlinear transfer into low-mode, threshold-spill, and high-high packets; absorbs the high-high packet by the enstrophy half-tail; and applies the fixed-threshold scheduler.
+
+    The averaged terminal-tail route produces the terminal readout cover. The no-jump branch gives a finite positive-scale SCF-good cover and averaged transported-center control. The complementary averaged jump face is removed downstream by the averaged endpoint theorem. After averaged endpoint closure, the readout layer supplies the pointwise transported-center and field inputs.
+
+    The pointwise endpoint matrix removes every first terminal face: dead participation, pack detachment, tower blowup, field jump, and cross entries.
+
+    Let [0,T *) be the maximal classical interval. If T * is finite, Lemma 1 rules out cascade-driven terminal failure. Lemma 2 supplies the terminal readout inputs. Lemma 3 removes every endpoint face. The maximality assumption has no remaining terminal obstruction. Hence T *=infinity.
+
+    This historical theorem is the periodic branch. It is not the current R3 authority; the present submission reads the whole-space branch through the June 8 CM endpoint-consumption chain.
+
+
+
+    \subsection{Smallest Referee-Readable Standard Lemma Sequence}
+
+    This merges moving-cylinder epsilon regularity with the local affine-excess estimate.
+
+    Every terminal same-fluid tail either has a positive-scale finite SCF-good cover or loses every uniform positive good scale. On the positive-scale branch, the local estimates globalize by finite overlap and common scheduler to produce the terminal averaged tower bound.
+
+    A first finite endpoint must enter one of four primitive faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates all four faces, so no first finite endpoint occurs.
+
+    The averaged endpoint package gives a readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise endpoint package gives a uniform H s(T 3) bound for some s>5/2; periodic local theory extends the solution past any finite endpoint.
+
+    Smooth divergence-free zero-mean data on T 3 generate a unique global smooth periodic Navier-Stokes solution.
+
+    Internal labels may appear in parenthetical dependency references only. The main proof should use the four lemma titles above.
+
+
+
+    \subsection{Material Lebesgue Differentiation For SCF base}
+
+    \[
+    u\in L^3_{loc},
+    \qquad
+    p\in L^{3/2}_{loc},
+    \qquad
+    \nabla u\in L^2_{loc}.
+    \]
+
+    Bounded chart distortion gives material/Eulerian measure comparability. Hence parabolic Lebesgue differentiation applies in material coordinates to the pullbacks of
+
+    \[
+    |u|^3,
+    \qquad
+    |p|^{3/2},
+    \qquad
+    |\nabla u|^2.
+    \]
+
+    At material-a.e. point (a,t), local averages of these quantities over same-fluid parabolic cylinders converge to their point values in the normalized density sense.
+
+    For the velocity fluctuation, choose the local velocity normalizer as the average or the minimizing affine/constant mode used in SCF base. The minimizing property gives a value bounded by the average-subtraction value, and Lebesgue differentiation gives
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|u-u_{r}^{norm}|^3\to0.
+    \]
+
+    For pressure, the pressure normalization lemma fixes the CKN-compatible gauge. Since p in L 3/2 loc , the same differentiation theorem gives
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi(a,t)}|p-p_{r}^{norm}|^{3/2}\to0.
+    \]
+
+    \[
+    r^{-1}\iint_{Q_r^\Phi(a,t)}|\nabla u|^2\to0
+    \]
+
+    For every threshold epsilon m>0, material-a.e. point admits a positive same-fluid radius satisfying
+
+
+
+    \subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular Depletion}
+
+    Local theorem-note artifact. The proposed minimal-layer contradiction was tested against the current MCP source frontier.
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})>0,
+    \]
+
+    \[
+    2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t)
+    \]
+
+    \[
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+    \]
+
+    A terminal atom can concentrate this carrier at s=0 while preserving finite L 1 s source mass. The failure of active-shell amplitude gain removes the shellwise reserve that would charge the concentration.
+
+    Thus the minimal-layer assumptions produce a sharper local packet target rather than a contradiction.
+
+    The MCP refresh identifies the current packet primitive below Positive Remainder Depletion.A as
+
+    \[
+    \sum_{P\in\mathcal F_N}
+    \int_{Q(P)}
+    |w_{j_P}|^2
+    \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+dxdt
+    \le
+    \operatorname{Drain}_{parent}(\mathcal F_N)
+    +
+    \operatorname{Loss}_{legal}(\\mathcal F_N)
+    +o_N(1).
+    \]
+
+    The joint-failure attempt narrows the live positive-supplier atom. It does not discharge the fork. The next useful theorem target is source-weighted terminal angular depletion.
+
+
+
+    \subsection{Moving-Cylinder CKN Admissibility Lemma}
+
+    Let Q r Phi(a 0,t 0) be a same-fluid moving cylinder generated by the flow map Phi. Assume the chart satisfies the bounded distortion condition
+
+    \[
+    \Gamma_\sharp(Q_r^\Phi)
+    =
+    \sup_{Q_r^\Phi}\max\{|D_a\Phi|,|D_a\Phi^{-1}|\}
+    \le M_\sharp,
+    \]
+
+    and the moving frame coefficients used in SCF base have the corresponding scale-normalized bounds on the cylinder.
+
+    Then, after rescaling by r and pulling back to material/moving coordinates, Q r Phi is CKN-admissible: it is uniformly comparable to a standard parabolic cylinder, the local energy inequality pulls back with constants depending only on M sharp,nu, and the normalized SCF base packet is comparable to the usual CKN scale-critical packet.
+
+    \[
+    x=\Phi(a_0,t)+rA(t)y,
+    \qquad
+    s=(t-t_0)/r^2,
+    \]
+
+    where A(t) is the bounded same-fluid frame from the packet. The assumptions give uniform bounds for A, A -1 , the Jacobian, and the metric tensor in the pulled-back cylinder. Hence spatial volumes, gradients, and parabolic cylinders are comparable with constants depending only on M sharp.
+
+    \[
+    \varphi(x,t)=\phi(y(x,t),s(t)).
+    \]
+
+    The chain rule writes partial t varphi, nabla varphi, and Delta varphi as finite sums of normalized derivatives of phi multiplied by bounded frame coefficients and the expected powers of r. Inserting varphi into the Eulerian local energy inequality gives the same inequality in the normalized cylinder, with lower-order frame terms controlled by the bounded distortion constants. These terms are exactly the moving-frame contributions included in the normalized SCF base convention.
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi}|u-u^{norm}_{r}|^3
+    \sfcomp{20161}
+    \iint_{Q_1}|\tilde u-\tilde u^{norm}_{1}|^3,
+    \]
+
+    \[
+    r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}_{r}|^{3/2}
+    \sfcomp{20167}
+    \iint_{Q_1}|\tilde p-\tilde p^{norm}_{1}|^{3/2},
+    \]
+
+    so the moving same-fluid cylinder is CKN-admissible, and the local ATD m epsilon theorem may invoke CKN epsilon regularity on the normalized cylinder.
+
+    This is a local chart theorem. Terminal availability of bounded distortion belongs to the global coverage and endpoint route. The exact affine/pressure normalization convention is handled by the next lemma.
+
+
+
+    \subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear Dissipation Pulse A}
+
+    \[
+    Bad_N(\eta)=\{t:\sup_{j>N}\gamma_j(t)>\eta\},
+    \qquad
+    \gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+    \]
+
+    \[
+    \sum_{N<j\le\ell}\gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)
+    \le
+    \eta\mathfrak B_N^\sigma(t),
+    \]
+
+    so choosing eta below the absorption threshold handles the good set. Thus the route reduces exactly to the bad-set measure domination target.
+
+    Chebyshev gives small Lebesgue measure for Bad N(eta). This does not control the target measure
+
+    \[
+    \mathfrak B_N^\sigma(t)dt.
+    \]
+
+    The abstract heat-scale model in the energy-measure countermodel places gamma N+1 =1 on an interval of length delta N -> 0 and places mathfrak B N sigma=delta N -1 on that same interval. The scheduler integral tends to zero, while
+
+    \[
+    \int_{Bad_N(\eta)}\mathfrak B_N^\sigma(t)dt=1.
+    \]
+
+    \[
+    \gamma_j(t)(2^{2\ell}+2^{2j})
+    \]
+
+    The good-coefficient part is closed. The bad-set domination theorem remains open.
+
+
+
+    \subsection{No Incoming License.A terminal-pulse audit}
+
+    The terminal active-window / first-pulse construction supplies a no-parent source-residue license. It does not yet supply the stronger global no-incoming boundary condition needed for a direct anisotropic backward-uniqueness proof.
+
+    It is a statement about source-residue ancestry, not about the full tangent field having zero incoming energy from s=- .
+
+    The stronger license needed by the direct backward-uniqueness route would assert a genuine incoming-boundary condition for the frozen-strain tangent field. Local compact decay alone is
+
+    \[
+    \lim_{s\to-\infty}\int_{B_R}|v(y,s)|^2\,dy=0
+    \qquad (R<\infty).
+    \]
+
+    \[
+    \lim_{s\to-\infty}\int_{\mathbb R^3}|w(z,s)|^2\Omega(z,s)\,dz=0,
+    \]
+
+    Proof: choose the bad source-residue tile minimal with respect to the same-fluid backward parent relation. If an earlier parent with positive normalized source-residue mass existed, the selected tile would not be first. Hence the inherited source-residue parent term vanishes in the first-pulse limit.
+
+    \[
+    S(T)
+    \le
+    \theta D(T)+\sum_{P\prec T}\kappa(P,T)S(P)+Err(T).
+    \]
+
+    \[
+    S(T_0)\le \theta D(T_0)+Err(T_0).
+    \]
+
+    \[
+    \lim_{s\to-\infty}\int_{B_R}|v(y,s)|^2dy=0
+    \]
+
+    This decay would have to be paired with enough global boundary control to
+    exclude mass entering from spatial infinity.
+
+    Under the frozen strain flow, contracting directions can transport mass from spatial infinity into fixed compact regions as s increases. Thus local compact decay is not a complete no-incoming condition for the transformed ancient problem.
+
+    The direct backward-uniqueness route remains a reserve route requiring an additional global no-incoming boundary theorem.
+
+    No Incoming License src.A is installed as a logical consequence of first-pulse minimality once the parent relation is fixed. Strong No Incoming License global.A remains open.
+
+
+
+    \subsection{No Incoming Flux global.A direct attempt}
+
+    Upgrade first-pulse no-parent information to a global no-incoming flux condition for the frozen-strain tangent field. A usable form would be a transported-cylinder or weighted condition such as
+
+    \[
+    \lim_{R\to\infty}\limsup_{s_0\to-\infty}
+    \int_{\partial\mathcal C_R(s_0,0)} |w|^2\,d\Phi_{A,S}=0,
+    \]
+
+    \[
+    z=e^{-sS}y,
+    \qquad
+    w(z,s)=e^{sS}v(e^{sS}z,s).
+    \]
+
+    When S has mixed signs, some directions are contracting in the original variables as time advances. Field energy initially located far from the origin at large negative times can enter a fixed compact observation region at later times through those contracting directions.
+
+    Local compact decay on each fixed ball so controls only mass already inside that ball at early times. It gives no boundary-flux control through the transported parabolic boundary from spatial infinity.
+
+    First-pulse no-parent excludes earlier selected same-fluid source-residue parents. It gives no estimate for full-field kinetic energy, pressure energy, or nonselected packets entering through the global transformed boundary. Thus it supplies the correct input for the adjoint parent-or-charge route, while falling short of the global incoming-flux condition needed for direct backward uniqueness.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Manuscript-Grade Periodic Theorem Sequence: Final Order'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20188
+  line_start: 20188
+  line_end: 20202
+  start_anchor: "\\subsection{Manuscript-Grade Periodic Theorem Sequence: Final Order}\n"
+  end_anchor: "\\subsection{Smallest Referee-Readable Standard Lemma Sequence}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Manuscript-Grade Periodic Theorem
+    Sequence: Final Order as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20188
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Smallest Referee-Readable Standard Lemma Sequence
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20203
+  line_start: 20203
+  line_end: 20217
+  start_anchor: "\\subsection{Smallest Referee-Readable Standard Lemma Sequence}\n"
+  end_anchor: "\\subsection{Material Lebesgue Differentiation For SCF base}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Smallest Referee-Readable Standard
+    Lemma Sequence as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20203
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Material Lebesgue Differentiation For SCF base
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20218
+  line_start: 20218
+  line_end: 20258
+  start_anchor: "\\subsection{Material Lebesgue Differentiation For SCF base}\n"
+  end_anchor: "\\subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular
+    Depletion}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Material Lebesgue Differentiation
+    For SCF base as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20218
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Minimal Bad Terminal Layer.Reduces ToSource Weighted Angular Depletion
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20259
+  line_start: 20259
+  line_end: 20295
+  start_anchor: "\\subsection{Minimal Bad Terminal Layer.Reduces ToSource Weighted
+    Angular Depletion}\n"
+  end_anchor: "\\subsection{Minimal Zeno Ancient Residue B class-production and Liouville
+    attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Minimal Bad Terminal Layer.Reduces
+    ToSource Weighted Angular Depletion as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20259
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Moving-Cylinder CKN Admissibility Lemma
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20375
+  line_start: 20375
+  line_end: 20420
+  start_anchor: "\\subsection{Moving-Cylinder CKN Admissibility Lemma}\n"
+  end_anchor: "\\subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear
+    Dissipation Pulse A}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Moving-Cylinder CKN Admissibility
+    Lemma as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20375
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Msc Badac Bad Set Absolute Continuity For Mixed Bilinear Dissipation
+    Pulse A
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20421
+  line_start: 20421
+  line_end: 20455
+  start_anchor: "\\subsection{Msc Badac Bad Set Absolute Continuity For Mixed Bilinear
+    Dissipation Pulse A}\n"
+  end_anchor: "\\subsection{Native One-Sided Weighted Positive-Source Depletion After
+    Localization And Active-Window Selection}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Msc Badac Bad Set Absolute Continuity
+    For Mixed Bilinear Dissipation Pulse A as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20421
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: No Incoming License.A terminal-pulse audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20589
+  line_start: 20589
+  line_end: 20631
+  start_anchor: "\\subsection{No Incoming License.A terminal-pulse audit}\n"
+  end_anchor: "\\subsection{No Incoming Flux global.A direct attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite No Incoming License.A terminal-pulse
+    audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20589
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: No Incoming Flux global.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20632
+  line_start: 20632
+  line_end: 20653
+  start_anchor: "\\subsection{No Incoming Flux global.A direct attempt}\n"
+  end_anchor: "\\subsection{Nonlinear shell-flux source control theorem - bounded
+    solve attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite No Incoming Flux global.A direct
+    attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20632
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-32
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-32.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

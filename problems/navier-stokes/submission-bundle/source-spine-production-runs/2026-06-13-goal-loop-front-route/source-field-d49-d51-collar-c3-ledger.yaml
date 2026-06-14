@@ -1,0 +1,71 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T192807Z
+status: applied
+generated_at: '2026-06-13T19:28:07Z'
+batch_id: ns-goal-loop-source-field-d49-d51-collar-c3-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/47-source-field-d49-d51-collar-c3.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2560-2678
+    sections:
+      - Collar Product Closure Conditional On LPAS/FC Tail Reserve
+      - Collar Remainder Lower-Order Estimate Result
+      - Theorem C3 (Euclidean Combined Closure Sufficiency Packet)
+source_authoring_summary: >-
+  The batch rewrote D49-D51 of the source-field appendix as reader-facing
+  conditional support. D49 now states the exact LPAS/FC or equivalent
+  same-surface active far-corona tail reserve needed by the collar product
+  route. D50 packages the lower-order collar remainder estimate and turns C1-C4
+  into visible proof payments. D51 presents C3 as a Euclidean sufficiency packet
+  while preserving the same-surface 4->1 return theorem as named mathematical
+  debt.
+proof_role:
+  gold_layer: >-
+    The edited slice supports the forward-positive route by naming the LPAS/FC
+    reserve, the C1-C4 collar payments, and the C3 packet. It stops short of
+    gold certification because the same-surface return theorem and packet
+    discharge remain open.
+  silver_layer: >-
+    The edited slice is support and handoff material. It records mathematical
+    debt in a form the PDF can use later; it makes no Pack, Part, or Field face
+    landing and makes no silver closure claim.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d49-d51
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d49-d51/navier-stokes-human-submission.pdf
+  pages: 1105
+  output_bytes: 4097407
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d49-d51/pages-132-135.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d49-d51-render/source-field-d49-d51-0132.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d49-d51-render/source-field-d49-d51-0133.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d49-d51-render/source-field-d49-d51-0134.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d49-d51-render/source-field-d49-d51-0135.png
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-2560-2678
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-hits-in-source-field-lines-2560-2678-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix source-writing batch. It stops short of first-draft
+    approval, gold certification, silver certification, full CMI finality, and a
+    full-PDF finality gate.
+  - >-
+    D49-D51 now tell the reader which active far-corona reserve is owed, which
+    C1-C4 payments assemble the lower-order collar estimate, and why C3 is
+    sufficiency support rather than the same-surface 4->1 return theorem.
+  - >-
+    D52-D55 remain the next source-field compactness/localizer unit for current
+    pass alignment, with D52 already visible at the rendered boundary.
+  - >-
+    The annular endpoint witness remains open until gold residual-load control is
+    proved or the silver branch lands the selected same-solution Pack, Part, or
+    Field first face on the page.

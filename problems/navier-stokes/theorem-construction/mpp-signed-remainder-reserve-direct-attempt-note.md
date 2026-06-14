@@ -21,7 +21,7 @@ remove the strain-sign obstruction; it transfers the burden to
 
 ## Target Form
 
-The desired signed-reserve theorem has schematic form
+The desired signed-reserve theorem has the form
 
 ```math
 \int_I G_N^{lift,\sigma}(t)\,dt

@@ -12,7 +12,7 @@ The direct route must instead prove a no-escape implication:
 
 `Jump_avg + OriginalSmoothData + SCF_base + SGC.A_a.e + ATD_m^epsilon -> contradiction`.
 
-A plausible direct proof has three steps:
+One candidate direct proof has three steps:
 
 1. `Jump_avg` gives a persistent nonempty averaged bad set `B_epsilon^Phi` along a same-fluid terminal approach tail.
 2. The repaired local `AACT.KX` mechanism converts good averaged excess control off `B_epsilon^Phi` into a quantitative boundary flux or defect-pressure charge on the boundary of the bad set.

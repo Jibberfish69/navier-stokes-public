@@ -1,0 +1,1083 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-carrier-and-pack-05
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-carrier-and-pack-05
+  sequence: 7
+  group_id: carrier-and-pack
+  title: Carrier and Pack 5
+  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 17565
+  line_end: 18921
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17565
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17618
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17652
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17733
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17784
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17823
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18848
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18887
+  subsection_titles:
+  - Endpoint Selector.TTU - Tower-Blown Finite Selector Test
+  - Endpoint Selector.TTU Facewise Selector Test
+  - Endpoint Selector.TTU General Test
+  - "\\(E_u\\) Additive Carrier Reduces To Active-Window Amplitude Gain"
+  - "\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\) Carrier Obstruction"
+  - Euclidean Cascade Analogue With Localization And Exterior Tails
+  - Frame-record Production From Pack.TTU
+  - Frame-record Production From Pack.TTU Retry
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector.TTU - Tower-Blown Finite Selector Test
+    line_start: 17565
+    line_end: 17617
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17565
+    start_anchor: "\\subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector
+      Test}\n"
+    end_anchor: "\\subsection{Endpoint Selector.TTU Facewise Selector Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector Test}
+
+      The tower-blown face says that a finite jet tower becomes unbounded along the
+      terminal approach.  The test here is whether that unboundedness gives one fixed
+      finite selector, or only a different finite witness at each threshold.
+
+      \[
+      \mathfrak A_{N,Q}(t)
+      :=
+      \sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|).
+      \]
+
+      \[
+      tower\text{-}blown
+      \quad\Longleftrightarrow\quad
+      \sup_{t<T_*}\mathfrak A_{N,Q}(t)=\infty.
+      \]
+
+      \[
+      \sum_{k=0}^{N}(|U_k(x_M,t_M)|+|K_k(x_M,t_M)|)>M.
+      \]
+
+      If \(x_M=X(a_M,t_M)\) for an active label \(a_M\), then \(a_M\) is a finite
+      selector witnessing the threshold \(M\).
+
+      \[
+      tower\text{-}blown
+      \Longrightarrow
+      \forall M>0\ \exists\text{ finite threshold selector carrying amplitude }>M.
+      \]
+
+      Endpoint Selector.TTU asks for a fixed finite selector subpacket carrying the
+      same endpoint face through the terminal tail.  The threshold selector above may
+      depend on \(M\).
+
+      A moving-spike pattern can realize larger and larger tower values at fresh
+      active labels or fresh cover cells.  Then every threshold has a finite witness,
+      while no single fixed finite selector captures all thresholds.
+
+      The threshold-selector theorem still does not prove the fixed-selector theorem.
+
+      \[
+      tower\text{-}blown
+      \Longrightarrow
+      \text{finite threshold selectors exist for every threshold.}
+      \]
+
+      The remaining fixed-selector step requires an added compactness input.  A
+      sufficient input would be finite selector complexity, or an integrable modulus
+      in the terminal label variable, strong enough to rule out moving spikes.  Tower
+      blow-up alone only supplies threshold-dependent witnesses.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector.TTU Facewise Selector Test
+    line_start: 17618
+    line_end: 17651
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17618
+    start_anchor: "\\subsection{Endpoint Selector.TTU Facewise Selector Test}\n"
+    end_anchor: "\\subsection{Endpoint Selector.TTU General Test}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector.TTU Facewise Selector Test}
+
+      The facewise test separates cell selectors from label selectors.  A fixed
+      finite cell cover can locate a bad cell by pigeonhole.  A fixed label selector
+      is stronger, because the bad material point can keep moving inside that cell.
+
+      \[
+      \mathfrak A_{N,Q}(t)
+      \]
+
+      If a fixed finite cell cover is already present, pigeonhole gives one cell whose
+      cell-supremum tower amplitude is unbounded.  This yields a finite cell selector.
+
+      It does not give a fixed finite label selector.  The high tower point may move
+      through infinitely many labels inside that cell.
+
+      \[
+      \Gamma_{pack,Q}(t)=\sup_{a\in A_Q}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}
+      \]
+
+      A fixed finite cell decomposition can carry an unbounded cell-supremum pack
+      gauge by pigeonhole.  A fixed finite label selector requires an additional
+      theorem.
+
+      Jump means loss of every positive terminal field or SCF-good scale.  With a
+      fixed finite cell cover, if every cell retained a positive scale, the minimum
+      over finitely many cells would give a positive global scale.  Hence Jump forces
+      at least one bad cell.
+
+      This gives a finite cell selector.  It does not give a fixed finite label
+      selector because the bad material point can move through a continuum of labels
+      inside the bad cell.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Endpoint Selector.TTU General Test
+    line_start: 17652
+    line_end: 17692
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17652
+    start_anchor: "\\subsection{Endpoint Selector.TTU General Test}\n"
+    end_anchor: "\\subsection{Enlarged SCF charge with E u - upper-bound obstruction}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Endpoint Selector.TTU General Test}
+
+      The general test is the model obstruction behind the preceding facewise tests.
+      The endpoint definitions give threshold-dependent witnesses:
+
+      \[
+      \Gamma_{pack,Q}(t)=\sup_{a\in A_Q}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\},
+      \]
+
+      \[
+      \mathfrak A_{N,Q}(t)=\sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|),
+      \]
+
+      \[
+      \forall M\ \exists (a_M,t_M):\quad gauge(a_M,t_M)>M.
+      \]
+
+      The selector may depend on \(M\).  This supplies a threshold-dependent sequence,
+      rather than one fixed finite selector set.
+
+      Let \(A_Q=[0,1]\).  Choose disjoint label neighborhoods \(U_n\) and terminal
+      time intervals \(I_n\uparrow T_*\).  Put smooth strain or tower bumps on
+      \(U_n\times I_n\) with heights tending to infinity.  The endpoint supremum
+      escapes every finite bound, while any fixed finite selector set misses all but
+      finitely many of the \(U_n\) after refinement.
+
+      This example shows that a terminal face can occur through moving labels without
+      a fixed finite active selector carrying the whole face.
+
+      \[
+      A_Q=\{a_1,\dots,a_J\},
+      \]
+
+      then the finite selector route closes as recorded in the finite-packet reduction
+      note.
+
+      Endpoint Selector.TTU remains open in the bare continuum-label setting.  The
+      required replacement is a finite-complexity theorem, a label-modulus theorem, or
+      another compactness input that prevents the moving-label pattern above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: "\\(E_u\\) Additive Carrier Reduces To Active-Window Amplitude
+      Gain"
+    line_start: 17733
+    line_end: 17770
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17733
+    start_anchor: "\\subsection{\\(E_u\\) Additive Carrier Reduces To Active-Window
+      Amplitude Gain}\n"
+    end_anchor: "\\subsection{E u conversion: conditional route and obstruction}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{\(E_u\) Additive Carrier Reduces To Active-Window Amplitude Gain}
+
+      The proposed repair is to add the velocity-energy component \(E_u\) to the
+      branch charge used in the \(\mathrm{Jump}_{avg}\) no-escape route.
+
+      Raw finite carriers can control unweighted sums over bounded-overlap windows.
+      This is the mechanism behind the installed \(\nu\mathrm{SCF}\) upper estimate.
+
+      The branch contradiction requires more: a terminal scale-normalized upper
+      estimate compatible with shrinking active windows.  Schematically, for
+      terminal windows \(Q_k=Q_{r_k}(x_k,t_k)\), one needs an estimate of the form
+      \[
+      \sum_k \mathcal E_u^{sc}(Q_k)\le C,
+      \qquad
+      \mathcal E_u^{sc}(Q_k)
+      :=
+      r_k^{-1}\sup_{t\in I_k}\int_{B_{r_k}(x_k)}|u(x,t)|^2\,dx,
+      \]
+      or an equivalent scale-normalized additive bound on the same separated terminal
+      window family.
+
+      For \(E_u\), no additive carrier with this scale-normalized bounded-overlap
+      estimate is installed.
+
+      The active-window and Carleson surfaces identify the exact missing ingredient.
+      Raw finite mass does not provide the missing scale factor.  To gain it, one
+      needs an active-window amplitude gain or a heat-scale source theorem.  Finite
+      energy permits concentration on shrinking windows, so the desired estimate
+      cannot be obtained from the global energy record alone.
+
+      Adding \(E_u\) to the charge fixes component coverage only formally.  It does
+      not produce the scale-normalized upper estimate needed for a contradiction.
+
+      \[
+      \text{active-window amplitude gain}
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: "\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\) Carrier
+      Obstruction"
+    line_start: 17784
+    line_end: 17822
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17784
+    start_anchor: "\\subsection{\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\)
+      Carrier Obstruction}\n"
+    end_anchor: "\\subsection{Euclidean Cascade Analogue With Localization And Exterior
+      Tails}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{\(E_u\)-to-\(D_u/P\) Conversion Or Additive \(E_u\) Carrier Obstruction}
+
+      The remaining component-selection escape channel for \(\mathrm{Jump}_{avg}\)
+      has two possible exits: convert \(E_u\) into the controlled
+      \(D_u/P\) charge, or build a genuinely additive \(E_u\) carrier.
+
+      The local energy inequality controls local balances on same-fluid cylinders. It
+      relates local velocity energy, dissipation, pressure flux, cutoff errors, and
+      transport geometry.  Pack control keeps the cylinder geometry admissible.
+
+      A local velocity-energy packet can persist as a moving terminal packet while
+      preserving the global energy record unless a recurrence, decay, or local
+      smoothing theorem is added.  The current surfaces record this as the
+      moving-packet obstruction.
+
+      A finite upper bound for \(\nu\mathrm{SCF}\) works because dissipation and
+      local pressure are finite spacetime Radon measures.  The \(E_u\) term is a
+      scale-critical local energy readout tied to time slices and cylinder scales.
+      The current surfaces do not provide an additive measure whose bounded-overlap
+      window sum equals or controls repeated terminal \(E_u\) threshold packets.
+
+      The current surfaces identify the missing theorem rather than proving it.  A
+      successful \(E_u\) theorem would have to give rate-level decay on the same
+      separated terminal windows, for example a budget smaller than the threshold
+      scale:
+      \[
+      \mathcal E_u^{sc}(Q_k)\le \varepsilon_k,
+      \qquad
+      \sum_k\varepsilon_k<\infty.
+      \]
+      Finite weighted mass is insufficient for that conclusion.  No such rate-level
+      theorem is installed for \(E_u\) terminal packets.
+
+      The narrowed route is explicit and still open.  \(\mathrm{Jump}_{avg}\) gives
+      an SCF threshold sequence, and \(\nu\mathrm{SCF}\) has an upper bound.  The
+      proof still lacks an \(E_u\) conversion or additive \(E_u\) carrier on the same
+      terminal window family.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Euclidean Cascade Analogue With Localization And Exterior Tails
+    line_start: 17823
+    line_end: 17874
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17823
+    start_anchor: "\\subsection{Euclidean Cascade Analogue With Localization And Exterior
+      Tails}\n"
+    end_anchor: "\\subsection{Euclidean Export Packet Audit}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Euclidean Cascade Analogue With Localization And Exterior Tails}
+
+      This is the localized \(\mathbb R^3\) analogue of the repaired periodic
+      shell-tail suppression theorem.  The periodic cascade has no spatial infinity;
+      the whole-space version must also control exterior velocity tails and far-field
+      pressure.
+
+      \[
+      E_{N,R}(t):=\sum_{j\ge N}2^{2j}\|\chi_R\Delta_j u(t)\|_2^2,
+      \]
+
+      \[
+      D_{N,R}(t):=\sum_{j\ge N}2^{4j}\|\chi_R\Delta_j u(t)\|_2^2.
+      \]
+
+      \[
+      Tail_R(T):=\sup_{t\le T}\int_{|x|>R}|u(x,t)|^2dx\to0,
+      \]
+
+      and the pressure-tail theorem controls far-field pressure on \(B_R\).  Under
+      those hypotheses, the repaired cascade estimate localizes to
+
+      \[
+      \frac{d}{dt}E_{N,R}+(1-\eta)\nu D_{N,R}
+      \le
+      C\widetilde\Lambda_{N,R}^\sharp E_{N,R}+C_*2^{-2\delta N}+Err_{R,N}(t),
+      \]
+
+      The strict low-mode, threshold-spill, and high-high estimates are local Fourier
+      estimates plus finite-collar summations.  They hold on the interior region where
+      \(\chi_R=1\).
+
+      Commuting the cutoff through the equation introduces boundary terms supported in
+      \(B_{2R}\setminus B_R\).  These have the model form
+
+      \[
+      R^{-1}\int_{B_{2R}\setminus B_R}|u||\nabla u||\Delta_j u|,
+      \qquad
+      R^{-2}\int_{B_{2R}\setminus B_R}|u||\Delta_j u|.
+      \]
+
+      The pressure terms are split into local Poisson and far-field parts.  The local
+      part is controlled by the same Calderon--Zygmund/Schauder estimates as in the
+      periodic branch.  The far-field part is controlled by the whole-space
+      pressure-tail theorem.
+
+      The theorem transfers the repaired cascade mechanism to \(\mathbb R^3\) only
+      under explicit exterior tail and pressure-tail budgets.  It supplies the local
+      component of a whole-space exhaustion export; it does not create those exterior
+      budgets from energy alone.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Frame-record Production From Pack.TTU
+    line_start: 18848
+    line_end: 18886
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18848
+    start_anchor: "\\subsection{Frame-record Production From Pack.TTU}\n"
+    end_anchor: "\\subsection{Frame-record Production From Pack.TTU Retry}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Frame-record Production From Pack.TTU}
+
+      The frame record is the data needed to use moving cylinders without introducing
+      uncontrolled frame terms.  Pack.TTU gives bounded same-fluid deformation; the
+      moving-frame local energy inequality also needs the time coefficient of the
+      chosen affine frame to have finite accumulated scale budget.
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+      \]
+
+      \[
+      \Gamma_\sharp+
+      \|A^{-1}\dot A\|_{scale}.
+      \]
+
+      \[
+      \sup_{t<T_*}\sup_{a\in A_Q(t)}
+      \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty.
+      \]
+
+      \[
+      \Gamma_\sharp
+      \le C(\Gamma_{pack,Q})<\infty.
+      \]
+
+      \[
+      \int_{t_0}^{T_*}S_{pack,Q}(t)\,dt<\infty,
+      \]
+
+      On any finite scheduler cell, the frame coefficient has finite accumulated
+      budget.  This is the frame record required by moving-cylinder CKN admissibility
+      and by the frame-term local energy inequality.
+
+      Pack.TTU controls spatial chart distortion.  The \(A^{-1}\dot A\) control
+      additionally requires the frame to be tied to the transported deformation.  An
+      arbitrary time-dependent affine frame is outside this theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Frame-record Production From Pack.TTU Retry
+    line_start: 18887
+    line_end: 18921
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18887
+    start_anchor: "\\subsection{Frame-record Production From Pack.TTU Retry}\n"
+    end_anchor: "\\subsection{Frame-Term Local Energy Inequality In Same-Fluid Moving
+      Frame}\n"
+    include_end_anchor: false
+    group_id: carrier-and-pack
+    text: |+
+      \subsection{Frame-record Production From Pack.TTU Retry}
+
+      The retry states the usable frame record directly.  It is the form needed by
+      the later moving-cylinder estimates:
+
+      \[
+      \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+      \]
+
+      \[
+      \Gamma_\sharp<\infty,
+      \qquad
+      A^{-1}\dot A\in L^1_{scale}([t_0,T_*)).
+      \]
+
+      \[
+      \sup_{t<T_*}\sup_{a\in A_Q(t)}
+      \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty.
+      \]
+
+      \[
+      \Gamma_\sharp\le C(\Gamma_{pack,Q})<\infty.
+      \]
+
+      \[
+      \int_{t_0}^{T_*}S_{pack,Q}(t)\,dt<\infty.
+      \]
+
+      This gives the finite accumulated frame budget used in the frame-term local
+      energy inequality and moving-cylinder CKN admissibility.
+
+      The theorem applies to frames tied to the transported same-fluid deformation.
+      A freely chosen affine frame requires its own coefficient record.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector Test}
+
+    The tower-blown face says that a finite jet tower becomes unbounded along the
+    terminal approach.  The test here is whether that unboundedness gives one fixed
+    finite selector, or only a different finite witness at each threshold.
+
+    \[
+    \mathfrak A_{N,Q}(t)
+    :=
+    \sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|).
+    \]
+
+    \[
+    tower\text{-}blown
+    \quad\Longleftrightarrow\quad
+    \sup_{t<T_*}\mathfrak A_{N,Q}(t)=\infty.
+    \]
+
+    \[
+    \sum_{k=0}^{N}(|U_k(x_M,t_M)|+|K_k(x_M,t_M)|)>M.
+    \]
+
+    If \(x_M=X(a_M,t_M)\) for an active label \(a_M\), then \(a_M\) is a finite
+    selector witnessing the threshold \(M\).
+
+    \[
+    tower\text{-}blown
+    \Longrightarrow
+    \forall M>0\ \exists\text{ finite threshold selector carrying amplitude }>M.
+    \]
+
+    Endpoint Selector.TTU asks for a fixed finite selector subpacket carrying the
+    same endpoint face through the terminal tail.  The threshold selector above may
+    depend on \(M\).
+
+    A moving-spike pattern can realize larger and larger tower values at fresh
+    active labels or fresh cover cells.  Then every threshold has a finite witness,
+    while no single fixed finite selector captures all thresholds.
+
+    The threshold-selector theorem still does not prove the fixed-selector theorem.
+
+    \[
+    tower\text{-}blown
+    \Longrightarrow
+    \text{finite threshold selectors exist for every threshold.}
+    \]
+
+    The remaining fixed-selector step requires an added compactness input.  A
+    sufficient input would be finite selector complexity, or an integrable modulus
+    in the terminal label variable, strong enough to rule out moving spikes.  Tower
+    blow-up alone only supplies threshold-dependent witnesses.
+
+
+
+    \subsection{Endpoint Selector.TTU Facewise Selector Test}
+
+    The facewise test separates cell selectors from label selectors.  A fixed
+    finite cell cover can locate a bad cell by pigeonhole.  A fixed label selector
+    is stronger, because the bad material point can keep moving inside that cell.
+
+    \[
+    \mathfrak A_{N,Q}(t)
+    \]
+
+    If a fixed finite cell cover is already present, pigeonhole gives one cell whose
+    cell-supremum tower amplitude is unbounded.  This yields a finite cell selector.
+
+    It does not give a fixed finite label selector.  The high tower point may move
+    through infinitely many labels inside that cell.
+
+    \[
+    \Gamma_{pack,Q}(t)=\sup_{a\in A_Q}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}
+    \]
+
+    A fixed finite cell decomposition can carry an unbounded cell-supremum pack
+    gauge by pigeonhole.  A fixed finite label selector requires an additional
+    theorem.
+
+    Jump means loss of every positive terminal field or SCF-good scale.  With a
+    fixed finite cell cover, if every cell retained a positive scale, the minimum
+    over finitely many cells would give a positive global scale.  Hence Jump forces
+    at least one bad cell.
+
+    This gives a finite cell selector.  It does not give a fixed finite label
+    selector because the bad material point can move through a continuum of labels
+    inside the bad cell.
+
+
+
+    \subsection{Endpoint Selector.TTU General Test}
+
+    The general test is the model obstruction behind the preceding facewise tests.
+    The endpoint definitions give threshold-dependent witnesses:
+
+    \[
+    \Gamma_{pack,Q}(t)=\sup_{a\in A_Q}\max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\},
+    \]
+
+    \[
+    \mathfrak A_{N,Q}(t)=\sup_{x\in Q_t}\sum_{k=0}^{N}(|U_k(x,t)|+|K_k(x,t)|),
+    \]
+
+    \[
+    \forall M\ \exists (a_M,t_M):\quad gauge(a_M,t_M)>M.
+    \]
+
+    The selector may depend on \(M\).  This supplies a threshold-dependent sequence,
+    rather than one fixed finite selector set.
+
+    Let \(A_Q=[0,1]\).  Choose disjoint label neighborhoods \(U_n\) and terminal
+    time intervals \(I_n\uparrow T_*\).  Put smooth strain or tower bumps on
+    \(U_n\times I_n\) with heights tending to infinity.  The endpoint supremum
+    escapes every finite bound, while any fixed finite selector set misses all but
+    finitely many of the \(U_n\) after refinement.
+
+    This example shows that a terminal face can occur through moving labels without
+    a fixed finite active selector carrying the whole face.
+
+    \[
+    A_Q=\{a_1,\dots,a_J\},
+    \]
+
+    then the finite selector route closes as recorded in the finite-packet reduction
+    note.
+
+    Endpoint Selector.TTU remains open in the bare continuum-label setting.  The
+    required replacement is a finite-complexity theorem, a label-modulus theorem, or
+    another compactness input that prevents the moving-label pattern above.
+
+
+
+    \subsection{\(E_u\) Additive Carrier Reduces To Active-Window Amplitude Gain}
+
+    The proposed repair is to add the velocity-energy component \(E_u\) to the
+    branch charge used in the \(\mathrm{Jump}_{avg}\) no-escape route.
+
+    Raw finite carriers can control unweighted sums over bounded-overlap windows.
+    This is the mechanism behind the installed \(\nu\mathrm{SCF}\) upper estimate.
+
+    The branch contradiction requires more: a terminal scale-normalized upper
+    estimate compatible with shrinking active windows.  Schematically, for
+    terminal windows \(Q_k=Q_{r_k}(x_k,t_k)\), one needs an estimate of the form
+    \[
+    \sum_k \mathcal E_u^{sc}(Q_k)\le C,
+    \qquad
+    \mathcal E_u^{sc}(Q_k)
+    :=
+    r_k^{-1}\sup_{t\in I_k}\int_{B_{r_k}(x_k)}|u(x,t)|^2\,dx,
+    \]
+    or an equivalent scale-normalized additive bound on the same separated terminal
+    window family.
+
+    For \(E_u\), no additive carrier with this scale-normalized bounded-overlap
+    estimate is installed.
+
+    The active-window and Carleson surfaces identify the exact missing ingredient.
+    Raw finite mass does not provide the missing scale factor.  To gain it, one
+    needs an active-window amplitude gain or a heat-scale source theorem.  Finite
+    energy permits concentration on shrinking windows, so the desired estimate
+    cannot be obtained from the global energy record alone.
+
+    Adding \(E_u\) to the charge fixes component coverage only formally.  It does
+    not produce the scale-normalized upper estimate needed for a contradiction.
+
+    \[
+    \text{active-window amplitude gain}
+    \]
+
+
+
+    \subsection{\(E_u\)-to-\(D_u/P\) Conversion Or Additive \(E_u\) Carrier Obstruction}
+
+    The remaining component-selection escape channel for \(\mathrm{Jump}_{avg}\)
+    has two possible exits: convert \(E_u\) into the controlled
+    \(D_u/P\) charge, or build a genuinely additive \(E_u\) carrier.
+
+    The local energy inequality controls local balances on same-fluid cylinders. It
+    relates local velocity energy, dissipation, pressure flux, cutoff errors, and
+    transport geometry.  Pack control keeps the cylinder geometry admissible.
+
+    A local velocity-energy packet can persist as a moving terminal packet while
+    preserving the global energy record unless a recurrence, decay, or local
+    smoothing theorem is added.  The current surfaces record this as the
+    moving-packet obstruction.
+
+    A finite upper bound for \(\nu\mathrm{SCF}\) works because dissipation and
+    local pressure are finite spacetime Radon measures.  The \(E_u\) term is a
+    scale-critical local energy readout tied to time slices and cylinder scales.
+    The current surfaces do not provide an additive measure whose bounded-overlap
+    window sum equals or controls repeated terminal \(E_u\) threshold packets.
+
+    The current surfaces identify the missing theorem rather than proving it.  A
+    successful \(E_u\) theorem would have to give rate-level decay on the same
+    separated terminal windows, for example a budget smaller than the threshold
+    scale:
+    \[
+    \mathcal E_u^{sc}(Q_k)\le \varepsilon_k,
+    \qquad
+    \sum_k\varepsilon_k<\infty.
+    \]
+    Finite weighted mass is insufficient for that conclusion.  No such rate-level
+    theorem is installed for \(E_u\) terminal packets.
+
+    The narrowed route is explicit and still open.  \(\mathrm{Jump}_{avg}\) gives
+    an SCF threshold sequence, and \(\nu\mathrm{SCF}\) has an upper bound.  The
+    proof still lacks an \(E_u\) conversion or additive \(E_u\) carrier on the same
+    terminal window family.
+
+
+
+    \subsection{Euclidean Cascade Analogue With Localization And Exterior Tails}
+
+    This is the localized \(\mathbb R^3\) analogue of the repaired periodic
+    shell-tail suppression theorem.  The periodic cascade has no spatial infinity;
+    the whole-space version must also control exterior velocity tails and far-field
+    pressure.
+
+    \[
+    E_{N,R}(t):=\sum_{j\ge N}2^{2j}\|\chi_R\Delta_j u(t)\|_2^2,
+    \]
+
+    \[
+    D_{N,R}(t):=\sum_{j\ge N}2^{4j}\|\chi_R\Delta_j u(t)\|_2^2.
+    \]
+
+    \[
+    Tail_R(T):=\sup_{t\le T}\int_{|x|>R}|u(x,t)|^2dx\to0,
+    \]
+
+    and the pressure-tail theorem controls far-field pressure on \(B_R\).  Under
+    those hypotheses, the repaired cascade estimate localizes to
+
+    \[
+    \frac{d}{dt}E_{N,R}+(1-\eta)\nu D_{N,R}
+    \le
+    C\widetilde\Lambda_{N,R}^\sharp E_{N,R}+C_*2^{-2\delta N}+Err_{R,N}(t),
+    \]
+
+    The strict low-mode, threshold-spill, and high-high estimates are local Fourier
+    estimates plus finite-collar summations.  They hold on the interior region where
+    \(\chi_R=1\).
+
+    Commuting the cutoff through the equation introduces boundary terms supported in
+    \(B_{2R}\setminus B_R\).  These have the model form
+
+    \[
+    R^{-1}\int_{B_{2R}\setminus B_R}|u||\nabla u||\Delta_j u|,
+    \qquad
+    R^{-2}\int_{B_{2R}\setminus B_R}|u||\Delta_j u|.
+    \]
+
+    The pressure terms are split into local Poisson and far-field parts.  The local
+    part is controlled by the same Calderon--Zygmund/Schauder estimates as in the
+    periodic branch.  The far-field part is controlled by the whole-space
+    pressure-tail theorem.
+
+    The theorem transfers the repaired cascade mechanism to \(\mathbb R^3\) only
+    under explicit exterior tail and pressure-tail budgets.  It supplies the local
+    component of a whole-space exhaustion export; it does not create those exterior
+    budgets from energy alone.
+
+
+
+    \subsection{Frame-record Production From Pack.TTU}
+
+    The frame record is the data needed to use moving cylinders without introducing
+    uncontrolled frame terms.  Pack.TTU gives bounded same-fluid deformation; the
+    moving-frame local energy inequality also needs the time coefficient of the
+    chosen affine frame to have finite accumulated scale budget.
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+    \]
+
+    \[
+    \Gamma_\sharp+
+    \|A^{-1}\dot A\|_{scale}.
+    \]
+
+    \[
+    \sup_{t<T_*}\sup_{a\in A_Q(t)}
+    \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty.
+    \]
+
+    \[
+    \Gamma_\sharp
+    \le C(\Gamma_{pack,Q})<\infty.
+    \]
+
+    \[
+    \int_{t_0}^{T_*}S_{pack,Q}(t)\,dt<\infty,
+    \]
+
+    On any finite scheduler cell, the frame coefficient has finite accumulated
+    budget.  This is the frame record required by moving-cylinder CKN admissibility
+    and by the frame-term local energy inequality.
+
+    Pack.TTU controls spatial chart distortion.  The \(A^{-1}\dot A\) control
+    additionally requires the frame to be tied to the transported deformation.  An
+    arbitrary time-dependent affine frame is outside this theorem.
+
+
+
+    \subsection{Frame-record Production From Pack.TTU Retry}
+
+    The retry states the usable frame record directly.  It is the form needed by
+    the later moving-cylinder estimates:
+
+    \[
+    \Gamma_{pack,Q}\in L^\infty([t_0,T_*)).
+    \]
+
+    \[
+    \Gamma_\sharp<\infty,
+    \qquad
+    A^{-1}\dot A\in L^1_{scale}([t_0,T_*)).
+    \]
+
+    \[
+    \sup_{t<T_*}\sup_{a\in A_Q(t)}
+    \max\{\|F(a,t)\|,\|F(a,t)^{-1}\|\}<\infty.
+    \]
+
+    \[
+    \Gamma_\sharp\le C(\Gamma_{pack,Q})<\infty.
+    \]
+
+    \[
+    \int_{t_0}^{T_*}S_{pack,Q}(t)\,dt<\infty.
+    \]
+
+    This gives the finite accumulated frame budget used in the frame-term local
+    energy inequality and moving-cylinder CKN admissibility.
+
+    The theorem applies to frames tied to the transported same-fluid deformation.
+    A freely chosen affine frame requires its own coefficient record.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector.TTU - Tower-Blown Finite Selector Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17565
+  line_start: 17565
+  line_end: 17617
+  start_anchor: "\\subsection{Endpoint Selector.TTU - Tower-Blown Finite Selector
+    Test}\n"
+  end_anchor: "\\subsection{Endpoint Selector.TTU Facewise Selector Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector.TTU - Tower-Blown
+    Finite Selector Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17565
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector.TTU Facewise Selector Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17618
+  line_start: 17618
+  line_end: 17651
+  start_anchor: "\\subsection{Endpoint Selector.TTU Facewise Selector Test}\n"
+  end_anchor: "\\subsection{Endpoint Selector.TTU General Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector.TTU Facewise
+    Selector Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17618
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Endpoint Selector.TTU General Test
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17652
+  line_start: 17652
+  line_end: 17692
+  start_anchor: "\\subsection{Endpoint Selector.TTU General Test}\n"
+  end_anchor: "\\subsection{Enlarged SCF charge with E u - upper-bound obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Endpoint Selector.TTU General
+    Test as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17652
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: "\\(E_u\\) Additive Carrier Reduces To Active-Window Amplitude
+    Gain"
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17733
+  line_start: 17733
+  line_end: 17770
+  start_anchor: "\\subsection{\\(E_u\\) Additive Carrier Reduces To Active-Window
+    Amplitude Gain}\n"
+  end_anchor: "\\subsection{E u conversion: conditional route and obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite \(E_u\) Additive Carrier Reduces
+    To Active-Window Amplitude Gain as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17733
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: "\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\) Carrier
+    Obstruction"
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17784
+  line_start: 17784
+  line_end: 17822
+  start_anchor: "\\subsection{\\(E_u\\)-to-\\(D_u/P\\) Conversion Or Additive \\(E_u\\)
+    Carrier Obstruction}\n"
+  end_anchor: "\\subsection{Euclidean Cascade Analogue With Localization And Exterior
+    Tails}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite \(E_u\)-to-\(D_u/P\) Conversion
+    Or Additive \(E_u\) Carrier Obstruction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17784
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Euclidean Cascade Analogue With Localization And Exterior Tails
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17823
+  line_start: 17823
+  line_end: 17874
+  start_anchor: "\\subsection{Euclidean Cascade Analogue With Localization And Exterior
+    Tails}\n"
+  end_anchor: "\\subsection{Euclidean Export Packet Audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Euclidean Cascade Analogue With
+    Localization And Exterior Tails as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:17823
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Frame-record Production From Pack.TTU
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18848
+  line_start: 18848
+  line_end: 18886
+  start_anchor: "\\subsection{Frame-record Production From Pack.TTU}\n"
+  end_anchor: "\\subsection{Frame-record Production From Pack.TTU Retry}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Frame-record Production From
+    Pack.TTU as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18848
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Frame-record Production From Pack.TTU Retry
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18887
+  line_start: 18887
+  line_end: 18921
+  start_anchor: "\\subsection{Frame-record Production From Pack.TTU Retry}\n"
+  end_anchor: "\\subsection{Frame-Term Local Energy Inequality In Same-Fluid Moving
+    Frame}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Frame-record Production From
+    Pack.TTU Retry as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:18887
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-carrier-and-pack-05
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-carrier-and-pack-05.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

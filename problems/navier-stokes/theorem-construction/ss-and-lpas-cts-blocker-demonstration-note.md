@@ -139,7 +139,7 @@ r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,\frac{dr}{r}
 \right)
 \|\tau_\ell^{H^1}[u](t)\|_{L_x^2}^2\,
 \frac{d\ell}{\ell}\,dt
-\lesssim
+\le C_{CTS}
 \nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
 ```
 

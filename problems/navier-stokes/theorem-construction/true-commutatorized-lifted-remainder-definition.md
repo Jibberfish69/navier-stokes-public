@@ -70,11 +70,11 @@ and the output-collar replacement converts the lifted transport contribution int
 
 ## Lifted packet decomposition
 
-The gradient lifted packet is represented, up to fixed collar constants, by
+The gradient lifted packet used by this route is the fixed-collar sum
 
 ```math
 \mathfrak H_N^{grad,lift}(t)
-\simeq
+:=
 \sum_{j\ge N}
 \sum_{N+M<k<j-4}
 \sum_{|\ell-j|\le C_{LP}}

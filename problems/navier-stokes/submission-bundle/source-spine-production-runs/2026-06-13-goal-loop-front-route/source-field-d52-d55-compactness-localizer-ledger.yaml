@@ -1,0 +1,72 @@
+---
+version: 1
+artifact_id: ns-source-spine-batch-20260613T193505Z
+status: applied
+generated_at: '2026-06-13T19:35:05Z'
+batch_id: ns-goal-loop-source-field-d52-d55-compactness-localizer-20260613
+pack_ref: problems/navier-stokes/submission-bundle/source-spine-production-runs/2026-06-13-goal-loop-front-route/rewrite-packs/48-source-field-d52-d55-compactness-localizer.yaml
+source_rewrite_count: 1
+changed_files:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+operations:
+  - index: 1
+    op: rewrite_source_span
+    path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    source_span_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:2681-2974
+    sections:
+      - Compact-Support Localizer With Shrinking Radius Implies Center Spacing
+      - Compactness Limit-Order Cleanup Lemma
+      - Navier-Stokes Compactness Package
+      - Compactness Upgrade Lemma (Classical Euclidean Surface)
+source_authoring_summary: >-
+  The batch refined D52-D55 of the source-field appendix as reader-facing
+  compactness/localizer support. D52 now presents the center-spacing consequence
+  as a geometric reduction with the weighted small-radius budget still owed. D53
+  makes the low/high compactness order explicit: freeze N, pass n->infinity,
+  then send N->infinity using the high-mode tail estimate. D54 states K1-K3 as
+  downstream compactness jobs. D55 states the classical Euclidean compactness
+  upgrade while keeping the equation, data surface, pressure law, and viscosity
+  regime fixed.
+proof_role:
+  gold_layer: >-
+    The edited slice supports the forward-positive route by explaining how
+    compactness and localizer geometry enter after the same-surface
+    scale-barrier tail input. It stops short of gold certification because the
+    scale-barrier tail estimate remains upstream.
+  silver_layer: >-
+    The edited slice is support material. It makes no Pack, Part, or Field face
+    landing and makes no silver closure claim.
+verification:
+  build_command: >-
+    latexmk -pdf -interaction=nonstopmode -halt-on-error
+    -jobname=navier-stokes-human-submission
+    -outdir=tmp/goal-loop-build-20260613-source-field-d52-d55
+    navier-stokes-submission.tex
+  output_pdf: problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d52-d55/navier-stokes-human-submission.pdf
+  pages: 1105
+  output_bytes: 4097465
+  targeted_text_extracts:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-build-20260613-source-field-d52-d55/pages-133-136.txt
+  rendered_pages_checked:
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d52-d55-render/source-field-d52-d55-0133.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d52-d55-render/source-field-d52-d55-0134.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d52-d55-render/source-field-d52-d55-0135.png
+    - problems/navier-stokes/submission-bundle/tmp/goal-loop-source-field-d52-d55-render/source-field-d52-d55-0136.png
+  changed_span_warning_status: no-overfull-or-underfull-warnings-in-source-field-lines-2681-2974
+  prose_rule_scan_status: no-simple-but-without-no-not-has-not-does-not-therefore-hits-in-source-field-lines-2681-2974-after-cleanup
+remaining_open_after_batch:
+  - >-
+    This is an appendix source-writing batch. It stops short of first-draft
+    approval, gold certification, silver certification, full CMI finality, and a
+    full-PDF finality gate.
+  - >-
+    D52-D55 now tell the reader which geometric localizer fact is paid, which
+    low/high compactness order is used, and why compactness remains downstream
+    of the same classical scale-barrier tail estimate.
+  - >-
+    D56-D58 remain the next source-field unit for current pass alignment, with
+    D56 already visible at the rendered boundary.
+  - >-
+    The annular endpoint witness remains open until gold residual-load control is
+    proved or the silver branch lands the selected same-solution Pack, Part, or
+    Field first face on the page.

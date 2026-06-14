@@ -1,0 +1,1211 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-74
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-74
+  sequence: 226
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 74
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 63383
+  line_end: 63904
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63383
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63442
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63494
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63607
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63676
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63759
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63808
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63894
+  subsection_titles:
+  - TPS Strong Bridge SG Lemma Family
+  - Transport-Assisted Dissipation Target Note
+  - Transport-Frame Recentering Use Note
+  - Transpose-Profile Local Balance Identity Note
+  - Transpose-Weight To Flux-Time Rewrite Program
+  - True Commutatorized Lifted Remainder Definition
+  - Two-Family Terminal Impasse Note
+  - Uniform H D s Threshold To Speed Gate Result
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: TPS Strong Bridge SG Lemma Family
+    line_start: 63383
+    line_end: 63441
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63383
+    start_anchor: "\\subsection{TPS Strong Bridge SG Lemma Family}\n"
+    end_anchor: "\\subsection{Transport-Assisted Dissipation Target Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{TPS Strong Bridge SG Lemma Family}
+
+      The strong route is not closed here. The current strong bridge is factored into named lemma slots, the pieces already following from existing packets are discharged, and the one remaining creative theorem-search target is isolated.
+
+      That strong-subroute is currently read on the torus-first internal branch. The transported bundle and selector geometry here belong to the periodic/operator proving surface, while any whole-space Euclidean statement on R 3 remains a separate downstream discharge/export question.
+
+      \[
+      \text{TPS-cg-gap}
+      \;+\;
+      (\mathrm{GN}.1)-(\mathrm{GN}.5)
+      \Longrightarrow
+      (\mathrm{GS}.21).
+      \]
+
+      \[
+      \mathcal A_J(t,a,\theta)
+      :=
+      \log s_{\min}\!\big(W_J(t,b)D_\theta\Theta_{J,a}(\theta)\big),
+      \]
+
+      \[
+      \widetilde{\mathcal A}_J(t,a,\theta)
+      :=
+      \mathcal A_J(t,a,\theta)-\log(c_\Theta \ell_J)
+      =
+      \log\frac{s_{\min}\!\big(W_J(t,b)D_\theta\Theta_{J,a}(\theta)\big)}{c_\Theta \ell_J}.
+      \]
+
+      \[
+      \widetilde\sigma_J
+      :=
+      \sigma_J+2\|\delta_J\|_{L_t^\infty},
+      \]
+
+      \[
+      D_\theta\Theta_{J,a}(\theta)\big(\mathbb R^{d_\perp}\big)\subseteq N_b,
+      \]
+
+      So there is no hidden carrier slippage between the Cauchy-Green packet and the active-graph normalization packet once they are declared on the same transported bundle.
+
+      So the finite-horizon Cauchy-Green gap already supplies the additive observable the strong route was missing: the logarithm of the normalized singular-value gain on the same transported bundle.
+
+      For the increment form, fix 0 t 1 t 2 T J and a unit vector R d . Since D J,a ( ) N b, the scalar function
+
+      In particular, any coarse theorem that excludes the enlarged shadow strip at radius J automatically excludes the true J shadow tube.
+
+      This lemma is purely formal. The remaining creative theorem-search burden is to realize its hypotheses from the Navier-Stokes selector packets.
+
+      Fix an admissible strip I=[t 0,t 1] and a reference rate J(t). Define the selector-adapted one-sided defect density
+
+      Let J pair be a finite measure on the selector-g
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Transport-Assisted Dissipation Target Note
+    line_start: 63442
+    line_end: 63493
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63442
+    start_anchor: "\\subsection{Transport-Assisted Dissipation Target Note}\n"
+    end_anchor: "\\subsection{Transport-Frame Recentering Use Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Transport-Assisted Dissipation Target Note}
+
+      Record the exact sign target suggested by the current tower and matrix analysis, after the deformation-geometry correction.
+
+      The point is not merely that viscosity has one extra derivative. The stronger target would be a functional for which the nonlinear mixed source becomes sign-definite and negative.
+
+      \[
+      \frac12\frac{d}{dt}\|J_{m,\alpha}\|_{L^2}^2
+      +
+      \nu\|\nabla J_{m,\alpha}\|_{L^2}^2
+      =
+      -\sum_{\substack{0\le a\le m,\ \beta\le\alpha\\(a,\beta)\neq(0,0)}}
+      \binom ma\binom{\alpha}{\beta}\,
+      I_{a,\beta}^{m,\alpha},
+      \]
+
+      \[
+      I_{a,\beta}^{m,\alpha}
+      :=
+      \langle (J_{a,\beta}\cdot\nabla)J_{m-a,\alpha-\beta},J_{m,\alpha}\rangle.
+      \]
+
+      \[
+      \frac{d}{dt}K_{A,B}
+      +
+      2\nu\langle \nabla J_A,\nabla J_B\rangle
+      =
+      -\langle \widetilde T_A,J_B\rangle
+      -\langle J_A,\widetilde T_B\rangle.
+      \]
+
+      \[
+      \mathcal R_{A,B}
+      :=
+      \langle \widetilde T_A,J_B\rangle
+      +
+      \langle J_A,\widetilde T_B\rangle.
+      \]
+
+      \[
+      \frac{d}{dt}\mathcal F
+      +
+      \nu\,\mathcal D
+      \le
+      -c\,\mathcal M,
+      \]
+
+      D is the viscous Dirichlet part, M is a nonnegative quantity strong enough to control the blowup-threatening defect, and the mixed nonlinear part has been converted into a negative or nonpositive quantity.
+
+      But the corrected route says this target should probably be *induced* rather than found in isolation.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Transport-Frame Recentering Use Note
+    line_start: 63494
+    line_end: 63549
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63494
+    start_anchor: "\\subsection{Transport-Frame Recentering Use Note}\n"
+    end_anchor: "\\subsection{Transported Phase-Space Selector Theorem Candidate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Transport-Frame Recentering Use Note}
+
+      \[
+      U_\alpha := \partial_x^\alpha u,
+      \qquad
+      L_u := \partial_t + u\cdot\nabla.
+      \]
+
+      \[
+      L_u U_\alpha
+      +
+      \widetilde T_\alpha
+      +
+      \nabla P_\alpha
+      =
+      \nu \Delta U_\alpha,
+      \]
+
+      \[
+      \widetilde T_\alpha
+      :=
+      \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u)
+      =
+      [\partial^\alpha,u\cdot\nabla]u.
+      \]
+
+      \[
+      \widetilde T_\alpha
+      =
+      \nu \Delta U_\alpha
+      -L_u U_\alpha
+      -\nabla P_\alpha.
+      \]
+
+      This is already compatible with the weighted-Gram obstruction note, which uses exactly the same T as the active nonlinear defect packet.
+
+      This recentering is not just a formal rewrite. The route already has a theorem-facing commutator program.
+
+      \[
+      \mathcal J_N^{lift}(t)
+      :=
+      \sum_{j\ge N}
+      2^{2j}
+      \left\langle
+      [\Delta_j,b_j(t)\cdot\nabla]\Delta_j u(t),
+      \Delta_j u(t)
+      \right\rangle,
+      \]
+
+      But it does not automatically prove that this packet is negative or -coercive in the tower energy law.
+
+      The pasted note also mentioned the mild form. That does have a use, but on the opposite side of the duality.
+
+      The idea is so useful as a re-centering tool and a route selection tool, but not as a standalone closure theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Transpose-Profile Local Balance Identity Note
+    line_start: 63607
+    line_end: 63675
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63607
+    start_anchor: "\\subsection{Transpose-Profile Local Balance Identity Note}\n"
+    end_anchor: "\\subsection{Transpose-Weight To Flux-Time Rewrite Program}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Transpose-Profile Local Balance Identity Note}
+
+      The target is not an inequality on c transpose . It is the local balance rewrite
+
+      \[
+      \mathfrak c_\ell^{transpose}
+      +
+      \mathfrak w_\ell
+      \rightsquigarrow
+      \nabla_x\cdot J_\ell
+      +
+      \partial_t R_\ell
+      +
+      \mathcal E_\ell,
+      \]
+
+      \[
+      C_\ell
+      :=
+      \ell^{-2}[P_{\le \ell},\,b_\ell^{meso}\!\cdot\nabla]u,
+      \qquad
+      R_\ell^{raw}
+      :=
+      C_\ell\cdot u_{\le \ell}.
+      \]
+
+      \[
+      \ell\partial_\ell \Psi_\ell^{raw}
+      =
+      \mathfrak c_\ell
+      +
+      \mathfrak c_\ell^{transpose}
+      +
+      \mathfrak s_\ell^{edge}
+      +
+      \mathfrak w_\ell.
+      \]
+
+      The spill piece s edge is already separated. So the only unresolved Step 1 channel is
+
+      \[
+      \mathfrak c_\ell^{transpose}+\mathfrak w_\ell.
+      \]
+
+      \[
+      \Psi_\ell=\Psi_\ell^{raw}+\Psi_\ell^{corr},
+      \]
+
+      The theorem fails if any leftover produces a new free far scale r that is not already one of those named packets.
+
+      The proof should be organized as a local balance calculation, not as an estimate by absolute values.
+
+      This removes the pure scale-primitive part of the transpose/profile channel and leaves only the dynamic remainder W dyn .
+
+      The second term is where transport, pressure, and viscosity enter. The first term must be combined with the Stage A correction terms and rewritten as either exact time-potential, exact flux, or admissible residual.
+
+      The first term is exact flux. The second term is acceptable only if it reduces to bounded-gap or already named middle-band structure. It must not create a new free far scale.
+
+      Again, the first term is exact flux. The second is admissible only if C reduces to same-scale commutator structure. Since P commutes with derivatives and u is divergence-free, the only honest leftovers should come from derivatives on b meso or other explicit bounded-gap/profile corrections.
+
+      So the pressure remainder is not a new transport packet. It is an explicit same-scale commutator generated only by differentiation of the mesoscopic coefficient b meso .
+
+      The first term is exact flux. The second is same-scale and may be treated as eit
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Transpose-Weight To Flux-Time Rewrite Program
+    line_start: 63676
+    line_end: 63758
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63676
+    start_anchor: "\\subsection{Transpose-Weight To Flux-Time Rewrite Program}\n"
+    end_anchor: "\\subsection{True Commutatorized Lifted Remainder Definition}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: "\\subsection{Transpose-Weight To Flux-Time Rewrite Program}\n\nThe exact
+      algebraic burden left after the global LP-family reduction on the signed continuous-scale
+      route is the transpose-weight to flux-time rewrite.\n\n\\[\n\\mathfrak c_\\ell^{transpose}\n+\n\\mathfrak
+      w_\\ell\n\\rightsquigarrow\n\\nabla_x\\cdot J_\\ell\n+\n\\partial_t R_\\ell\n+\n\\mathcal
+      E_\\ell,\n\\]\n\n\\[\n\\mathfrak c_\\ell^{transpose}\n+\n\\mathfrak w_\\ell\n\\rightsquigarrow\n\\nabla_x\\cdot
+      J_\\ell\n+\n\\partial_t R_\\ell\n+\n\\mathcal E_\\ell.\n\\]\n\nEquation (1)
+      is not proved here. The exact proof shape for that rewrite is recorded.\n\nThe
+      failure mode is a free far scale r surviving inside the residual. That would
+      mean the term is still carrying a genuine long lifted interaction rather than
+      a local flux/time response.\n\n\\[\n\\ell\\partial_\\ell \\Psi_\\ell^{raw}\n=\n\\mathfrak
+      c_\\ell\n+\n\\mathfrak c_\\ell^{transpose}\n+\n\\mathfrak s_\\ell^{edge}\n+\n\\mathfrak
+      w_\\ell,\n\\]\n\n\\[\n\\Psi_\\ell^{raw}\n:=\n\\ell^{-2}\n\\langle\n[P_{\\le
+      \\ell},b_\\ell^{meso}\\!\\cdot\\nabla]u,\\,\nu_{\\le \\ell}\n\\rangle,\n\\]\n\n\\[\n\\mathfrak
+      c_\\ell^{transpose}\n:=\n\\ell^{-2}\n\\langle\n[P_{\\le \\ell},b_\\ell^{meso}\\!\\cdot\\nabla]u,\\,\nQ_\\ell
+      u\n\\rangle,\n\\]\n\nThe edge term s edge is already known to be the spill channel.
+      So the unresolved algebra on Step 1 is exactly the pair c transpose + w .\n\nThe
+      transpose term comes from differentiating the second low-pass factor in raw
+      . The weight term comes from differentiating -2 and the smooth multiplier profile.\n\nThe
+      point of (7) is not to eliminate everything. It is to strip off the pure scale-primitive
+      part first, leaving one dynamically meaningful remainder W dyn .\n\nThis is
+      the signed-route version of a normal-form step: absorb whatever is literally
+      a scale derivative before invoking the PDE.\n\nThe low-pass equation is used
+      as an exact substitution rule, not as a black-box bound. The only data needed
+      from it are the transport, pressure, and viscous pieces of t u .\n\nR should
+      come from a renormalized commutator-energy pairing between the global commutator
+      output and the low-pass \n% ... source excerpt truncated for packet size ...\n"
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: True Commutatorized Lifted Remainder Definition
+    line_start: 63759
+    line_end: 63807
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63759
+    start_anchor: "\\subsection{True Commutatorized Lifted Remainder Definition}\n"
+    end_anchor: "\\subsection{Two-Family Terminal Impasse Note}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{True Commutatorized Lifted Remainder Definition}
+
+      The bare separated shell exchange vanishes in the geometry j+M<k<ell-4. The live lifted object comes from the gradient high-side remainder generated by
+
+      \[
+      (S_{j-4}-S_{N+M})u.
+      \]
+
+      \[
+      N+M<k<j-4,
+      \]
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}(t)
+      :=
+      2^{2j}\left\langle
+      [\Delta_j,a_k(t)\cdot\nabla]\Delta_\ell u(t),
+      \Delta_j u(t)
+      \right\rangle,
+      \]
+
+      \[
+      \mathcal R_{j,k,\ell}^{lift}
+      =
+      2^{2j}\left\langle
+      \Delta_j(a_k\cdot\nabla\Delta_\ell u),
+      \Delta_j u
+      \right\rangle
+      -
+      2^{2j}\left\langle
+      a_k\cdot\nabla\Delta_j\Delta_\ell u,
+      \Delta_j u
+      \right\rangle.
+      \]
+
+      The second term is the transport cancellation term. Since a k is divergence-free,
+
+      \[
+      \left\langle a_k\cdot\nabla\Delta_j\Delta_\ell u,
+      \Delta_j\Delta_\ell u\right\rangle=0,
+      \]
+
+      and the output-collar replacement converts the lifted transport contribution into the commutator remainder above.
+
+      where W j,k,ell sigma is the outer one-sided weighted-tail coefficient inherited from the lifted packet route.
+
+      This file defines the true commutatorized lifted remainder and fixes its support geometry. It supplies the object needed by the signed weighted theorem. The signed weighted estimate itself remains the next theorem target.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Two-Family Terminal Impasse Note
+    line_start: 63808
+    line_end: 63866
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63808
+    start_anchor: "\\subsection{Two-Family Terminal Impasse Note}\n"
+    end_anchor: "\\subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung
+      Coefficient}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |
+      \subsection{Two-Family Terminal Impasse Note}
+
+      The stricter terminal-comparison lesson from the isolated WIZARD impasse notes is imported into the live Navier-Stokes theorem stack.
+
+      But that is not yet the strongest terminal comparison. If one pushes each route to the first exact survivor no longer reduced by the present theorem stack, the routes currently split into two survivor families rather than one already-identified common terminal class.
+
+      \[
+      \text{(CTS)}
+      \rightsquigarrow
+      \text{(LPAS)}
+      \rightsquigarrow
+      \text{Volterra primitive}
+      \rightsquigarrow
+      \text{lower-triangular weighted quotient}
+      \rightsquigarrow
+      \Pi_{\mathrm{aff}}\widetilde Z.
+      \]
+
+      \[
+      \Pi_{\mathrm{aff}}\widetilde Z
+      \equiv
+      (M_0,M_1),
+      \]
+
+      \[
+      c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t).
+      \]
+
+      The shell route does not honestly terminate at the slogan "half-derivative miracle needed."
+
+      \[
+      B_j(t):=\frac{A_j(t)}{\nu 2^{2j}},
+      \qquad
+      A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L_x^2}.
+      \]
+
+      Pushed to its current terminal form, the signed route does not stop at "boundary packet plus residual."
+
+      \[
+      \mathfrak B_N^{upper}+\Pi_N^{mid,far,L},
+      \]
+
+      where N mid,far,L is the far-gap middle-band flux carrying the explicit continuum gap kernel /r.
+
+      Pushed to terminal positive form, the Body 1 route does not stop at the raw 2 k residual.
+
+      So the positive lifted-band route also belongs to the gap-kernel / upper-tail family.
+
+      so the signed/gap-kernel route is naturally first-order in log-scale, while the affine quotient readout kills exact second derivatives.
+
+      So (B3) requires a genuine stressification map before a comparison theorem can even start.
+
+      It is not yet a theorem comparing the two terminal families. To become that, it would first need (B1) and likely (B2).
+
+      Without those three bridges, the theorem-grade verdict remains the two-family impasse above.
+
+      On the Clay problem object-law surface, this already has one additional consequence: because branch readouts are consumers rather than primitive starts, no third primitiv
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Uniform H D s Threshold To Speed Gate Result
+    line_start: 63894
+    line_end: 63904
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63894
+    start_anchor: "\\subsection{Uniform H D s Threshold To Speed Gate Result}\n"
+    end_anchor: "\\subsection{Uniform Packet Bounds Collapse the Small-Radius Budget}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Uniform H D s Threshold To Speed Gate Result}
+
+      \[
+      \sup_{r\in I_j}\|X(r)\|_{H_D^s}\le C_X.
+      \]
+
+      This file proves the threshold consequence of the first branch. The finite block
+
+      Uniform H D s control closes all sufficiently high active shells. It also reduces the collar-speed problem to a finite low-shell residual block plus any possible weighted direct speed mechanism.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{TPS Strong Bridge SG Lemma Family}
+
+    The strong route is not closed here. The current strong bridge is factored into named lemma slots, the pieces already following from existing packets are discharged, and the one remaining creative theorem-search target is isolated.
+
+    That strong-subroute is currently read on the torus-first internal branch. The transported bundle and selector geometry here belong to the periodic/operator proving surface, while any whole-space Euclidean statement on R 3 remains a separate downstream discharge/export question.
+
+    \[
+    \text{TPS-cg-gap}
+    \;+\;
+    (\mathrm{GN}.1)-(\mathrm{GN}.5)
+    \Longrightarrow
+    (\mathrm{GS}.21).
+    \]
+
+    \[
+    \mathcal A_J(t,a,\theta)
+    :=
+    \log s_{\min}\!\big(W_J(t,b)D_\theta\Theta_{J,a}(\theta)\big),
+    \]
+
+    \[
+    \widetilde{\mathcal A}_J(t,a,\theta)
+    :=
+    \mathcal A_J(t,a,\theta)-\log(c_\Theta \ell_J)
+    =
+    \log\frac{s_{\min}\!\big(W_J(t,b)D_\theta\Theta_{J,a}(\theta)\big)}{c_\Theta \ell_J}.
+    \]
+
+    \[
+    \widetilde\sigma_J
+    :=
+    \sigma_J+2\|\delta_J\|_{L_t^\infty},
+    \]
+
+    \[
+    D_\theta\Theta_{J,a}(\theta)\big(\mathbb R^{d_\perp}\big)\subseteq N_b,
+    \]
+
+    So there is no hidden carrier slippage between the Cauchy-Green packet and the active-graph normalization packet once they are declared on the same transported bundle.
+
+    So the finite-horizon Cauchy-Green gap already supplies the additive observable the strong route was missing: the logarithm of the normalized singular-value gain on the same transported bundle.
+
+    For the increment form, fix 0 t 1 t 2 T J and a unit vector R d . Since D J,a ( ) N b, the scalar function
+
+    In particular, any coarse theorem that excludes the enlarged shadow strip at radius J automatically excludes the true J shadow tube.
+
+    This lemma is purely formal. The remaining creative theorem-search burden is to realize its hypotheses from the Navier-Stokes selector packets.
+
+    Fix an admissible strip I=[t 0,t 1] and a reference rate J(t). Define the selector-adapted one-sided defect density
+
+    Let J pair be a finite measure on the selector-good active family G J pair . Assume the strip budgets obey the averaged estimate
+
+    That is the exact reduced frontier after the current Cauchy-Green, normalized, coarse/true, and weak averaged packets are all put on the same witness.
+
+    Fix a time window I=[t ,t + ]. Let u be a Leray or suitable weak solution on a larger interval containing I, and let v be a local strong solution on I with matching entry data
+
+    Assume the standard weak/strong compatibility principle on I: whenever a weak solution and a strong solution share the same entry data at t , they agree almost everywhere on I. Then
+
+
+
+    \subsection{Transport-Assisted Dissipation Target Note}
+
+    Record the exact sign target suggested by the current tower and matrix analysis, after the deformation-geometry correction.
+
+    The point is not merely that viscosity has one extra derivative. The stronger target would be a functional for which the nonlinear mixed source becomes sign-definite and negative.
+
+    \[
+    \frac12\frac{d}{dt}\|J_{m,\alpha}\|_{L^2}^2
+    +
+    \nu\|\nabla J_{m,\alpha}\|_{L^2}^2
+    =
+    -\sum_{\substack{0\le a\le m,\ \beta\le\alpha\\(a,\beta)\neq(0,0)}}
+    \binom ma\binom{\alpha}{\beta}\,
+    I_{a,\beta}^{m,\alpha},
+    \]
+
+    \[
+    I_{a,\beta}^{m,\alpha}
+    :=
+    \langle (J_{a,\beta}\cdot\nabla)J_{m-a,\alpha-\beta},J_{m,\alpha}\rangle.
+    \]
+
+    \[
+    \frac{d}{dt}K_{A,B}
+    +
+    2\nu\langle \nabla J_A,\nabla J_B\rangle
+    =
+    -\langle \widetilde T_A,J_B\rangle
+    -\langle J_A,\widetilde T_B\rangle.
+    \]
+
+    \[
+    \mathcal R_{A,B}
+    :=
+    \langle \widetilde T_A,J_B\rangle
+    +
+    \langle J_A,\widetilde T_B\rangle.
+    \]
+
+    \[
+    \frac{d}{dt}\mathcal F
+    +
+    \nu\,\mathcal D
+    \le
+    -c\,\mathcal M,
+    \]
+
+    D is the viscous Dirichlet part, M is a nonnegative quantity strong enough to control the blowup-threatening defect, and the mixed nonlinear part has been converted into a negative or nonpositive quantity.
+
+    But the corrected route says this target should probably be *induced* rather than found in isolation.
+
+
+
+    \subsection{Transport-Frame Recentering Use Note}
+
+    \[
+    U_\alpha := \partial_x^\alpha u,
+    \qquad
+    L_u := \partial_t + u\cdot\nabla.
+    \]
+
+    \[
+    L_u U_\alpha
+    +
+    \widetilde T_\alpha
+    +
+    \nabla P_\alpha
+    =
+    \nu \Delta U_\alpha,
+    \]
+
+    \[
+    \widetilde T_\alpha
+    :=
+    \partial^\alpha(u\cdot\nabla u)-u\cdot\nabla(\partial^\alpha u)
+    =
+    [\partial^\alpha,u\cdot\nabla]u.
+    \]
+
+    \[
+    \widetilde T_\alpha
+    =
+    \nu \Delta U_\alpha
+    -L_u U_\alpha
+    -\nabla P_\alpha.
+    \]
+
+    This is already compatible with the weighted-Gram obstruction note, which uses exactly the same T as the active nonlinear defect packet.
+
+    This recentering is not just a formal rewrite. The route already has a theorem-facing commutator program.
+
+    \[
+    \mathcal J_N^{lift}(t)
+    :=
+    \sum_{j\ge N}
+    2^{2j}
+    \left\langle
+    [\Delta_j,b_j(t)\cdot\nabla]\Delta_j u(t),
+    \Delta_j u(t)
+    \right\rangle,
+    \]
+
+    But it does not automatically prove that this packet is negative or -coercive in the tower energy law.
+
+    The pasted note also mentioned the mild form. That does have a use, but on the opposite side of the duality.
+
+    The idea is so useful as a re-centering tool and a route selection tool, but not as a standalone closure theorem.
+
+
+
+    \subsection{Transpose-Profile Local Balance Identity Note}
+
+    The target is not an inequality on c transpose . It is the local balance rewrite
+
+    \[
+    \mathfrak c_\ell^{transpose}
+    +
+    \mathfrak w_\ell
+    \rightsquigarrow
+    \nabla_x\cdot J_\ell
+    +
+    \partial_t R_\ell
+    +
+    \mathcal E_\ell,
+    \]
+
+    \[
+    C_\ell
+    :=
+    \ell^{-2}[P_{\le \ell},\,b_\ell^{meso}\!\cdot\nabla]u,
+    \qquad
+    R_\ell^{raw}
+    :=
+    C_\ell\cdot u_{\le \ell}.
+    \]
+
+    \[
+    \ell\partial_\ell \Psi_\ell^{raw}
+    =
+    \mathfrak c_\ell
+    +
+    \mathfrak c_\ell^{transpose}
+    +
+    \mathfrak s_\ell^{edge}
+    +
+    \mathfrak w_\ell.
+    \]
+
+    The spill piece s edge is already separated. So the only unresolved Step 1 channel is
+
+    \[
+    \mathfrak c_\ell^{transpose}+\mathfrak w_\ell.
+    \]
+
+    \[
+    \Psi_\ell=\Psi_\ell^{raw}+\Psi_\ell^{corr},
+    \]
+
+    The theorem fails if any leftover produces a new free far scale r that is not already one of those named packets.
+
+    The proof should be organized as a local balance calculation, not as an estimate by absolute values.
+
+    This removes the pure scale-primitive part of the transpose/profile channel and leaves only the dynamic remainder W dyn .
+
+    The second term is where transport, pressure, and viscosity enter. The first term must be combined with the Stage A correction terms and rewritten as either exact time-potential, exact flux, or admissible residual.
+
+    The first term is exact flux. The second term is acceptable only if it reduces to bounded-gap or already named middle-band structure. It must not create a new free far scale.
+
+    Again, the first term is exact flux. The second is admissible only if C reduces to same-scale commutator structure. Since P commutes with derivatives and u is divergence-free, the only honest leftovers should come from derivatives on b meso or other explicit bounded-gap/profile corrections.
+
+    So the pressure remainder is not a new transport packet. It is an explicit same-scale commutator generated only by differentiation of the mesoscopic coefficient b meso .
+
+    The first term is exact flux. The second is same-scale and may be treated as either further flux after one more integration by parts or as an admissible short-range residual. It is not allowed to carry a new long lifted interaction.
+
+    So it is genuinely short-range / same-scale. It does not introduce a second independent transport scale.
+
+    The transport remainder in (11) should not be treated as a fresh source. Its theorem-language classification is already installed on the route.
+
+
+
+    \subsection{Transpose-Weight To Flux-Time Rewrite Program}
+
+    The exact algebraic burden left after the global LP-family reduction on the signed continuous-scale route is the transpose-weight to flux-time rewrite.
+
+    \[
+    \mathfrak c_\ell^{transpose}
+    +
+    \mathfrak w_\ell
+    \rightsquigarrow
+    \nabla_x\cdot J_\ell
+    +
+    \partial_t R_\ell
+    +
+    \mathcal E_\ell,
+    \]
+
+    \[
+    \mathfrak c_\ell^{transpose}
+    +
+    \mathfrak w_\ell
+    \rightsquigarrow
+    \nabla_x\cdot J_\ell
+    +
+    \partial_t R_\ell
+    +
+    \mathcal E_\ell.
+    \]
+
+    Equation (1) is not proved here. The exact proof shape for that rewrite is recorded.
+
+    The failure mode is a free far scale r surviving inside the residual. That would mean the term is still carrying a genuine long lifted interaction rather than a local flux/time response.
+
+    \[
+    \ell\partial_\ell \Psi_\ell^{raw}
+    =
+    \mathfrak c_\ell
+    +
+    \mathfrak c_\ell^{transpose}
+    +
+    \mathfrak s_\ell^{edge}
+    +
+    \mathfrak w_\ell,
+    \]
+
+    \[
+    \Psi_\ell^{raw}
+    :=
+    \ell^{-2}
+    \langle
+    [P_{\le \ell},b_\ell^{meso}\!\cdot\nabla]u,\,
+    u_{\le \ell}
+    \rangle,
+    \]
+
+    \[
+    \mathfrak c_\ell^{transpose}
+    :=
+    \ell^{-2}
+    \langle
+    [P_{\le \ell},b_\ell^{meso}\!\cdot\nabla]u,\,
+    Q_\ell u
+    \rangle,
+    \]
+
+    The edge term s edge is already known to be the spill channel. So the unresolved algebra on Step 1 is exactly the pair c transpose + w .
+
+    The transpose term comes from differentiating the second low-pass factor in raw . The weight term comes from differentiating -2 and the smooth multiplier profile.
+
+    The point of (7) is not to eliminate everything. It is to strip off the pure scale-primitive part first, leaving one dynamically meaningful remainder W dyn .
+
+    This is the signed-route version of a normal-form step: absorb whatever is literally a scale derivative before invoking the PDE.
+
+    The low-pass equation is used as an exact substitution rule, not as a black-box bound. The only data needed from it are the transport, pressure, and viscous pieces of t u .
+
+    R should come from a renormalized commutator-energy pairing between the global commutator output and the low-pass state u .
+
+    The point is that once t hits this pairing, the low-pass NS equation can be inserted directly.
+
+    The time derivative is the place where the transpose channel stops being a scale derivative and becomes a genuine evolution term.
+
+    J should collect the transport, pressure, and viscous fluxes produced when the low-pass NS equation is substituted into t R and the result is integrated by parts in x.
+
+
+
+    \subsection{True Commutatorized Lifted Remainder Definition}
+
+    The bare separated shell exchange vanishes in the geometry j+M<k<ell-4. The live lifted object comes from the gradient high-side remainder generated by
+
+    \[
+    (S_{j-4}-S_{N+M})u.
+    \]
+
+    \[
+    N+M<k<j-4,
+    \]
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}(t)
+    :=
+    2^{2j}\left\langle
+    [\Delta_j,a_k(t)\cdot\nabla]\Delta_\ell u(t),
+    \Delta_j u(t)
+    \right\rangle,
+    \]
+
+    \[
+    \mathcal R_{j,k,\ell}^{lift}
+    =
+    2^{2j}\left\langle
+    \Delta_j(a_k\cdot\nabla\Delta_\ell u),
+    \Delta_j u
+    \right\rangle
+    -
+    2^{2j}\left\langle
+    a_k\cdot\nabla\Delta_j\Delta_\ell u,
+    \Delta_j u
+    \right\rangle.
+    \]
+
+    The second term is the transport cancellation term. Since a k is divergence-free,
+
+    \[
+    \left\langle a_k\cdot\nabla\Delta_j\Delta_\ell u,
+    \Delta_j\Delta_\ell u\right\rangle=0,
+    \]
+
+    and the output-collar replacement converts the lifted transport contribution into the commutator remainder above.
+
+    where W j,k,ell sigma is the outer one-sided weighted-tail coefficient inherited from the lifted packet route.
+
+    This file defines the true commutatorized lifted remainder and fixes its support geometry. It supplies the object needed by the signed weighted theorem. The signed weighted estimate itself remains the next theorem target.
+
+
+
+    \subsection{Two-Family Terminal Impasse Note}
+
+    The stricter terminal-comparison lesson from the isolated WIZARD impasse notes is imported into the live Navier-Stokes theorem stack.
+
+    But that is not yet the strongest terminal comparison. If one pushes each route to the first exact survivor no longer reduced by the present theorem stack, the routes currently split into two survivor families rather than one already-identified common terminal class.
+
+    \[
+    \text{(CTS)}
+    \rightsquigarrow
+    \text{(LPAS)}
+    \rightsquigarrow
+    \text{Volterra primitive}
+    \rightsquigarrow
+    \text{lower-triangular weighted quotient}
+    \rightsquigarrow
+    \Pi_{\mathrm{aff}}\widetilde Z.
+    \]
+
+    \[
+    \Pi_{\mathrm{aff}}\widetilde Z
+    \equiv
+    (M_0,M_1),
+    \]
+
+    \[
+    c_F(t)=A_\kappa M_0(t)+B_\kappa M_1(t).
+    \]
+
+    The shell route does not honestly terminate at the slogan "half-derivative miracle needed."
+
+    \[
+    B_j(t):=\frac{A_j(t)}{\nu 2^{2j}},
+    \qquad
+    A_j(t):=\sum_{k\le j}2^{5k/2}\|\Delta_k\omega(t)\|_{L_x^2}.
+    \]
+
+    Pushed to its current terminal form, the signed route does not stop at "boundary packet plus residual."
+
+    \[
+    \mathfrak B_N^{upper}+\Pi_N^{mid,far,L},
+    \]
+
+    where N mid,far,L is the far-gap middle-band flux carrying the explicit continuum gap kernel /r.
+
+    Pushed to terminal positive form, the Body 1 route does not stop at the raw 2 k residual.
+
+    So the positive lifted-band route also belongs to the gap-kernel / upper-tail family.
+
+    so the signed/gap-kernel route is naturally first-order in log-scale, while the affine quotient readout kills exact second derivatives.
+
+    So (B3) requires a genuine stressification map before a comparison theorem can even start.
+
+    It is not yet a theorem comparing the two terminal families. To become that, it would first need (B1) and likely (B2).
+
+    Without those three bridges, the theorem-grade verdict remains the two-family impasse above.
+
+    On the Clay problem object-law surface, this already has one additional consequence: because branch readouts are consumers rather than primitive starts, no third primitive blowup family is introduced downstream of class exit. The exact remaining exhaustiveness wall is so the collapse of these two terminal families to one common survivor class, not the discovery of some extra downstream family. See
+
+
+
+    \subsection{Uniform H D s Threshold To Speed Gate Result}
+
+    \[
+    \sup_{r\in I_j}\|X(r)\|_{H_D^s}\le C_X.
+    \]
+
+    This file proves the threshold consequence of the first branch. The finite block
+
+    Uniform H D s control closes all sufficiently high active shells. It also reduces the collar-speed problem to a finite low-shell residual block plus any possible weighted direct speed mechanism.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: TPS Strong Bridge SG Lemma Family
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63383
+  line_start: 63383
+  line_end: 63441
+  start_anchor: "\\subsection{TPS Strong Bridge SG Lemma Family}\n"
+  end_anchor: "\\subsection{Transport-Assisted Dissipation Target Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite TPS Strong Bridge SG Lemma Family
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63383
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Transport-Assisted Dissipation Target Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63442
+  line_start: 63442
+  line_end: 63493
+  start_anchor: "\\subsection{Transport-Assisted Dissipation Target Note}\n"
+  end_anchor: "\\subsection{Transport-Frame Recentering Use Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Transport-Assisted Dissipation
+    Target Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63442
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Transport-Frame Recentering Use Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63494
+  line_start: 63494
+  line_end: 63549
+  start_anchor: "\\subsection{Transport-Frame Recentering Use Note}\n"
+  end_anchor: "\\subsection{Transported Phase-Space Selector Theorem Candidate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Transport-Frame Recentering Use
+    Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63494
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Transpose-Profile Local Balance Identity Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63607
+  line_start: 63607
+  line_end: 63675
+  start_anchor: "\\subsection{Transpose-Profile Local Balance Identity Note}\n"
+  end_anchor: "\\subsection{Transpose-Weight To Flux-Time Rewrite Program}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Transpose-Profile Local Balance
+    Identity Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63607
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Transpose-Weight To Flux-Time Rewrite Program
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63676
+  line_start: 63676
+  line_end: 63758
+  start_anchor: "\\subsection{Transpose-Weight To Flux-Time Rewrite Program}\n"
+  end_anchor: "\\subsection{True Commutatorized Lifted Remainder Definition}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Transpose-Weight To Flux-Time
+    Rewrite Program as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63676
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: True Commutatorized Lifted Remainder Definition
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63759
+  line_start: 63759
+  line_end: 63807
+  start_anchor: "\\subsection{True Commutatorized Lifted Remainder Definition}\n"
+  end_anchor: "\\subsection{Two-Family Terminal Impasse Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite True Commutatorized Lifted Remainder
+    Definition as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63759
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Two-Family Terminal Impasse Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63808
+  line_start: 63808
+  line_end: 63866
+  start_anchor: "\\subsection{Two-Family Terminal Impasse Note}\n"
+  end_anchor: "\\subsection{Unconditional Carrier HFG Replay Blocked By Same-Rung
+    Coefficient}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Two-Family Terminal Impasse Note
+    as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63808
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Uniform H D s Threshold To Speed Gate Result
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63894
+  line_start: 63894
+  line_end: 63904
+  start_anchor: "\\subsection{Uniform H D s Threshold To Speed Gate Result}\n"
+  end_anchor: "\\subsection{Uniform Packet Bounds Collapse the Small-Radius Budget}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Uniform H D s Threshold To Speed
+    Gate Result as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:63894
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-74
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-74.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

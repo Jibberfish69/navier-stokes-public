@@ -105,7 +105,8 @@ far-corona packet
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le
+C_L
 \int_0^{\ell_N}\int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,
 \frac{dr}{r}\,\frac{d\ell}{\ell}.
@@ -124,7 +125,8 @@ r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,\frac{dr}{r}
 \right)
 \|\tau_\ell^{H^1}[u](t)\|_{L_x^2}^2\,
 \frac{d\ell}{\ell}\,dt
-\lesssim
+\le
+C_{CTS}
 \nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
 \tag{CTS}
 ```

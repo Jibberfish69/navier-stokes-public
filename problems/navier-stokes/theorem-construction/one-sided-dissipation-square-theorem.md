@@ -105,7 +105,7 @@ If `r:=\min\{\ell,m\}`, then
 =
 2^{-\sigma(\ell+m)}
 \sum_{N+M+4<j\le r}2^{(1+2\sigma)j}
-\lesssim_\sigma
+\le C_\sigma
 2^{-\sigma(\ell+m)}2^{(1+2\sigma)r}.
 ```
 

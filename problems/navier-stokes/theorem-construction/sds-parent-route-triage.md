@@ -78,7 +78,8 @@ on the left, then summing in `j` and integrating in time yields
 
 ```math
 \int_0^T\sum_{j>N+M+4}2^j\big(\mathcal T_j^\sigma(t)\big)^2\,dt
-\lesssim
+\le
+C_{SDS}
 \int_0^T\sum_{j>N+M+4}\mathrm{Err}_j^\sigma(t)\,dt,
 ```
 
@@ -89,12 +90,13 @@ one-sided and coercive on the weighted tail queue.
 
 ## Parent Route 2: One-Sided Tail Self-Interaction Damping
 
-The weighted packet decomposition already isolates the lifted remainder in the
-form
+The weighted packet decomposition already isolates the lifted remainder under
+the theorem-facing upper carrier bound
 
 ```math
-\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\sim
+|\mathcal R_{j,\mathrm{lift}}^\sigma(t)|
+\le
+C_R
 \sum_{k>j+M}2^{-\sigma(k-j)}a_k(t)\,\mathcal D_k^\uparrow(t).
 ```
 
@@ -117,7 +119,8 @@ Once this estimate is available, the same summation over `j` gives
 
 ```math
 \int_0^T\sum_{j>N+M+4}2^j\big(\mathcal T_j^\sigma(t)\big)^2\,dt
-\lesssim
+\le
+C_{SDS}'
 \int_0^T\sum_{j>N+M+4}\mathrm{Err}_j^\sigma(t)\,dt,
 ```
 
@@ -136,7 +139,8 @@ upward dyadic transfer carries a decaying spectral cost:
 ```math
 \sum_{j}\sum_{k<j}
 \mathcal T_{k\to j}(t)
-\lesssim
+\le
+C_{disp}
 \sum_j\sum_{k<j}
 K_{j-k}\,a_k(t)\,b_j(t),
 \qquad
@@ -194,7 +198,9 @@ w_j^{(j)}-w_\ell^{(j)}
 In the lifted regime this satisfies
 
 ```math
-1-2^{-\sigma(\ell-j)}\asymp 1,
+c_{\sigma,M}\le 1-2^{-\sigma(\ell-j)}\le 1,
+\qquad
+c_{\sigma,M}:=1-2^{-\sigma(M+1)}>0,
 ```
 
 so the weight records one-sided direction but does not produce additional gap
@@ -416,8 +422,15 @@ Then the equivalent anti-resonance statement is
 + \mathrm{Err}_j^\sigma.
 ```
 
-Since `\mathfrak L_j^\sigma[u]\sim \mathcal R_{j,\mathrm{lift}}^\sigma`, this
-is just the same coercive step stated as a theorem about nonlocal upward
+With the normalized alignment bound
+
+```math
+|\mathfrak L_j^\sigma[u]-\mathcal R_{j,\mathrm{lift}}^\sigma|
+\le
+C_{align}\,\mathrm{Err}_{j,\mathrm{align}}^\sigma,
+```
+
+this is the same coercive step stated as a theorem about nonlocal upward
 transport: the cumulative upper-tail interaction behaves like a dissipative
 queue, not like a coherent amplifier.
 

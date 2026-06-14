@@ -108,7 +108,7 @@ The principal paracommutator form is:
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}
-\sim
+:=
 2^{2j}
 \langle \mathcal C_j(S_k,u_j),u_j\rangle,
 \qquad

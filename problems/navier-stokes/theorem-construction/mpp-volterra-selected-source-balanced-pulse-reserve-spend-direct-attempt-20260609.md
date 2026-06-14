@@ -35,7 +35,7 @@ E_j'(t)+c\nu D_j(t)\le F_j(t)+L_j(t),
 and on the retained refill branch
 
 ```math
-F_j(t)\simeq c\nu D_j(t)
+F_{j,\mathrm{model}}(t):=c\nu D_j(t)
 ```
 
 on terminal heat-scale windows.  This maintains the active shell against

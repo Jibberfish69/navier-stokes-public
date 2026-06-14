@@ -99,7 +99,9 @@ and using
 
 ```math
 \left(\sum_{k<j}2^{2k}\|\Delta_k u\|_2^2\right)^{1/2}
-\lesssim \|\nabla u\|_2\simeq \|\omega\|_2,
+\le C_\nabla \|\nabla u\|_2,
+\qquad
+c_\omega\|\omega\|_2\le \|\nabla u\|_2\le C_\omega\|\omega\|_2,
 ```
 
 we obtain

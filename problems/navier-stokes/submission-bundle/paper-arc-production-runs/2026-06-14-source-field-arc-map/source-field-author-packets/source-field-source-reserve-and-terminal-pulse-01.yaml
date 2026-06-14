@@ -1,0 +1,763 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T15:37:55Z'
+chunk_id: source-field-source-reserve-and-terminal-pulse-01
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-reserve-and-terminal-pulse-01
+  sequence: 53
+  group_id: source-reserve-and-terminal-pulse
+  title: Source reserve and terminal pulse 1
+  author_job: write source-reserve material as gold obstruction, proof support, or
+    CM counterpart
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 14759
+  line_end: 66976
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14759
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20541
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27461
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55788
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66812
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66950
+  subsection_titles:
+  - Annular Pressure Product-Source Estimate
+  - Near-Pressure Summability From Weighted Annular L4 Source
+  - Terminal Zeno source-refill closure playbook
+  - Clay problem Terminal Zeno Source-Refill No-Hidden Frontier Note
+  - Clay problem Source Reserve Birth Charge.A Direct Attempt
+  - Clay problem Source Reserve Birth Charge.A CM Face Consumption
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Annular Pressure Product-Source Estimate
+    line_start: 14759
+    line_end: 14815
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14759
+    start_anchor: "\\subsection{Annular Pressure Product-Source Estimate}\n"
+    end_anchor: "\\subsection{Anti Beltrami Carleson.A from Original Smooth Data}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |+
+      \subsection{Annular Pressure Product-Source Estimate}
+
+      This estimate is a pressure-localization support theorem.  It says that the
+      pressure seen on one annulus is controlled by the velocity product on the
+      neighboring annuli, plus a far-field tail summed separately.  It
+      does not by itself prove the missing source-pulse estimate.
+
+      \[
+      p=\mathcal R_i\mathcal R_j(u_i u_j)
+      \]
+
+      \[
+      A_k=\{2^k\le |x|\le 2^{k+1}\},
+      \qquad
+      A_k^*=\bigcup_{|j-k|\le2}A_j,
+      \]
+
+      \[
+      \|p(t)-c_k(t)\|_{L^2(A_k)}
+      \le
+      C\|u(t)\otimes u(t)\|_{L^2(A_k^*)}+F_k(t),
+      \]
+
+      \[
+      F_k(t)\le C|A_k|^{1/2}
+      \sum_{|\ell-k|>2}2^{-3\max\{k,\ell\}}\|u(t)\otimes u(t)\|_{L^1(A_\ell)}.
+      \]
+
+      Choose a smooth annular cutoff \(\chi_k\) equal to one on \(A_k\) and supported
+      in \(A_k^*\).  Split
+
+      \[
+      \begin{aligned}
+      p_k^{near}&=\mathcal R_i\mathcal R_j(\chi_k u_i u_j),\\
+      p_k^{far}&=\mathcal R_i\mathcal R_j((1-\chi_k)u_i u_j),\\
+      p&=p_k^{near}+p_k^{far}.
+      \end{aligned}
+      \]
+
+      The near part is controlled by Calderon-Zygmund boundedness on the fat annulus:
+
+      \[
+      \|p_k^{near}(t)-c_k^{near}(t)\|_{L^2(A_k)}
+      \le
+      C\|u(t)\otimes u(t)\|_{L^2(A_k^*)}.
+      \]
+
+      For the far part, the pressure kernel is smooth on \(A_k\) against every annulus
+      outside \(A_k^*\).  After subtracting the annular mean \(c_k(t)\), the kernel
+      difference gains one annular derivative on \(A_k\), and the separated annulus
+      contribution is bounded by the displayed \(F_k(t)\).
+
+      This theorem pays the annular pressure decomposition.  Weighted summability of
+      the tail remains a separate input, supplied by local smoothing and exterior-tail
+      bounds when those are available in the active route.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Near-Pressure Summability From Weighted Annular L4 Source
+    line_start: 20541
+    line_end: 20564
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20541
+    start_anchor: "\\subsection{Near-Pressure Summability From Weighted Annular L4
+      Source}\n"
+    end_anchor: "\\subsection{Near pressure summability - hard remainder record}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |+
+      \subsection{Near-Pressure Summability From Weighted Annular L4 Source}
+
+      \[
+      \sup_{t\le T}\sum_k2^{2ak}\|u(t)\|_{L^2(A_k)}^2<\infty.
+      \]
+
+      \[
+      \|u\otimes u\|_{L^2(A_k^*)}=\|u\|_{L^4(A_k^*)}^2,
+      \]
+
+      \[
+      \sum_k2^{(2a-1)k}\|u\|_{L^4(A_k^*)}^2\|u\|_{L^2(A_k)}
+      \le
+      \left(\sum_k2^{2ak}\|u\|_{L^4(A_k^*)}^4\right)^{1/2}
+      \left(\sum_k2^{(2a-2)k}\|u\|_{L^2(A_k)}^2\right)^{1/2}.
+      \]
+
+      For 0<a<=1, the second sum is bounded by the weighted moment. For larger a, replace the weighted moment input by the corresponding stronger moment. Integrating over time gives the result.
+
+      The near part of the annular pressure supplier is closed once AnnL4.W and the weighted moment are available.
+
+      This theorem closes only the near pressure source. The far-tail term F k is handled separately.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Terminal Zeno source-refill closure playbook
+    line_start: 27461
+    line_end: 27504
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27461
+    start_anchor: "\\subsection{Terminal Zeno source-refill closure playbook}\n"
+    end_anchor: "\\subsection{Terminal Amplitude Gain.A no-Field hard obstruction}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |+
+      \subsection{Terminal Zeno source-refill closure playbook}
+
+      This is not a closed reduction. It is the Carleson-side presentation of the remaining Zeno source-refill wall.
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty.
+      \]
+
+      for every bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+      The proof must stay on the pre-Cauchy localized source carrier. It should avoid global absolute-value envelopes because those erase parent-child geometry.
+
+      \[
+      [\mathcal R_P]_+.
+      \]
+
+      \[
+      \int_{Q(P)}[\mathcal R_P]_+
+      \le
+      \theta\int_{Q(P)}\mathcal D_P
+      +\text{parent-edge drain}
+      +\text{legal loss},
+      \qquad 0<\theta<1.
+      \]
+
+      This is the real analytic statement. It says a terminal active positive source can persist only by spending drain or by creating a legal parent edge. Refill edges then telescope by the donor-balance identity.
+
+      \[
+      \|d\pi_P\|_{\text{parent }L^q}
+      \le C\|d\pi_P\|_{\text{parent }L^1},
+      \qquad q>1,
+      \]
+
+      \[
+      \text{uncharged Zeno refill ancestry}
+      \Longrightarrow
+      \text{ancient limit belongs to rigid class }\mathcal B.
+      \]
+
+      This is the smallest new analytic mechanism that can close the current wall. It counts only if it supplies the localized positive source Carleson estimate on every bounded-overlap same-fluid terminal family; otherwise it is just a branch-local estimate and does not close Refill Tree Well Founded.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Terminal Zeno Source-Refill No-Hidden Frontier
+      Note
+    line_start: 55788
+    line_end: 55833
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55788
+    start_anchor: "\\subsection{Clay problem Terminal Zeno Source-Refill No-Hidden
+      Frontier Note}\n"
+    end_anchor: "\\subsection{Tgc A Cover Positive Scale Terminal Cover Note}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |+
+      \subsection{Clay problem Terminal Zeno Source-Refill No-Hidden Frontier Note}
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty.
+      \]
+
+      \[
+      \boxed{
+      ZenoResidueLiouville_{\mathcal B}.A:
+      (u_\ast,p_\ast,\mu_\ast^{src})\in\mathcal B
+      \Longrightarrow
+      \mu_\ast^{src}=0.
+      }
+      \]
+
+      The unparameterized label Zeno Source Residue Rigidity.A hides these two jobs. The installed compactness note
+
+      If Refill Tree Well Founded.A fails, the direct refill-tree audit reduces the failure to a legal infinite source-refill ancestry. Finite subtrees are not an independent obstruction: by Local Donor Balance.A, every finite truncation telescopes to initial donor reserve, boundary/cutoff loss, dissipative drain, and the source contribution on its terminal leaves.
+
+      Entrance leaves do not survive as the terminal obstruction. By Entrance Leaf Decay.A, every branch reaching a fixed preterminal entrance surface has vanishing high-frequency source contribution after the terminal scale is driven down. Hence a counterexample contains a terminal Zeno subbranch
+
+      \[
+      r_m\downarrow0,
+      \qquad
+      \sum_m r_m^2<\infty,
+      \]
+
+      \[
+      o_N(1)+\text{summable legal losses}.
+      \]
+
+      Letting the terminal scale parameter increase and then summing the legal loss record contradicts the fixed positive source-pulse inheritance required for the Zeno counterexample. Thus the Carleson package rules out terminal Zeno refill.
+
+      \[
+      ZenoBoundedClass_{\mathcal B}.A
+      +
+      ZenoResidueLiouville_{\mathcal B}.A.
+      \]
+
+      The compactness extraction note supplies an ancient local suitable source-residue limit with nonzero inherited source residue. The first theorem places that limit in the named rigid class B; the second forces its source residue to vanish. This contradicts the nonzero inherited residue. Thus the class-B package also rules out terminal Zeno refill.
+
+      The rigidity side is open because current compactness produces an ancient local suitable source-residue object, but not a named rigid class B, and no source-residue Liouville theorem applies at that generality. The direct candidate audit
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Reserve Birth Charge.A Direct Attempt
+    line_start: 66812
+    line_end: 66832
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66812
+    start_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A Direct
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Terminal CM No-Exit Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |+
+      \subsection{Clay problem Source Reserve Birth Charge.A Direct Attempt}
+
+      After the no-genuine-exit reduction, this is the first concrete wall for preventing GenuineCMExit(T *) from original smooth data.
+
+      Pack gain / legal packing payment; Part participation failure; licensed Field source charge; terminal Zeno residue already sorted as Pack/Part exit.
+
+      The charge cannot be a free new positive source budget. It must either be paid by installed same-witness structure or become a Pack/Part/Field exit witness.
+
+      The inherited term is not new at W, so minimality and Past Window Reserve Separation.A can only leave the contracted piece (1-delta)R N(Past(W)) plus legal losses. The child residual term is the normalized-adjoint / weighted residual already isolated by the reserve-chain audits. Legal, boundary, cutoff, and non-selected terms belong to Loss legal(W).
+
+      At this point the proof needs a real source-charge theorem. The installed records do not prove that this first-created native reserve is automatically paid. The scalar short-pulse obstruction from the earlier reserve audits still survives: first moment can go to zero while the scale-critical reserve stays order one.
+
+      So the direct proof does not close Source Reserve Birth Charge.A from the current installed inputs.
+
+      So the only surviving Pack no-exit subcase is retained positive-scale native source-reserve birth.
+
+      This is real progress in the proof search because it removes the ambiguity around the Pack wall. The open theorem is no longer "some source-wall thing." It is the retained positive-scale first-created native reserve surplus.
+
+      It is not a Clay-ready proof. Calling the Clay problem solved here would be circular: the missing charge theorem is exactly the analytic content needed to prevent the first Pack exit from original smooth data.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Reserve Birth Charge.A CM Face Consumption
+    line_start: 66950
+    line_end: 66976
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66950
+    start_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A CM Face
+      Consumption}\n"
+    end_anchor: "\\subsection{Clay problem Terminal Packet Capture Working Pass}\n"
+    include_end_anchor: false
+    group_id: source-reserve-and-terminal-pulse
+    text: |
+      \subsection{Clay problem Source Reserve Birth Charge.A CM Face Consumption}
+
+      Its CM-contrapositive job was to handle the first retained positive-scale native donor- reserve surplus from original smooth data without importing Member(Q), continuation, or a forward smoothness estimate.
+
+      Let W m=(-tau m,0], with tau m -> 0, and let rho(y) dy be a retained packet-local spatial profile. Define a terminal-layer positive source measure
+
+      So the /source reserve stays order-one while its terminal first moment vanishes. With a signed partner chosen so the signed moment cancels, the unweighted signed record can balance while the one-sided terminal reading still retains the positive branch.
+
+      This shows that Zero Moment Reserve Visibility.A cannot be promoted as a forward visibility theorem. The zero-thickness terminal layer is a real branch.
+
+      The terminal-layer branch is not an in-class hidden continuation. It is exactly the branch that must be routed through the CM witness faces.
+
+      Positive relative time thickness gives the active-height branch. Missing, incompatible, or off-record signed partner lands immediately in Pack, Part, or licensed Field. same-witness retained partner is paid by ASAC / positive pair-weight charge or legal finite-donor records. The only uncharged terminal branch is a terminal signed-saturation failure. Terminal Signed SaturationCMFace Reduction.A routes it to Pack/Part/Field witness-face support, using the terminal Zeno Pack correction and the terminal atom face-labeling surface.
+
+      Thus the scalar-pulse countermodel blocks the wrong positive theorem, but it does not block the CM contrapositive route. It supplies the reason the route must be phrased as face consumption rather than active-height deletion.
+
+      Source Reserve Birth Height Flux Activation.A supplies the first reduction from the first-created source-reserve surplus to the active-height / CM-face branch.
+
+      Terminal Signed SaturationCMFace Reduction.A supplies the terminal no-free-sink failure as Pack/Part/Field witness-face exit support.
+
+      No Member(Q) converse is used. Member(Q) remains downstream of the Pack/Part/Field CM certificate.
+
+      The source-reserve birth root is support-only after the Pack-first audit. Zero-radius terminal residue or selected unpaid infinite donor-refill lands first at not Pack Q; the retained positive-scale first-created native donor- reserve surplus remains the supplier-quarantined burden.
+
+      This is not a standalone positive proof that every terminal reserve pulse has a visible first-moment height flux. It is the contrapositive proof step Thomas wanted: once the positive proof route reaches the reserve-surplus obstruction, the p
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  context_excerpt: |+
+    \subsection{Annular Pressure Product-Source Estimate}
+
+    This estimate is a pressure-localization support theorem.  It says that the
+    pressure seen on one annulus is controlled by the velocity product on the
+    neighboring annuli, plus a far-field tail summed separately.  It
+    does not by itself prove the missing source-pulse estimate.
+
+    \[
+    p=\mathcal R_i\mathcal R_j(u_i u_j)
+    \]
+
+    \[
+    A_k=\{2^k\le |x|\le 2^{k+1}\},
+    \qquad
+    A_k^*=\bigcup_{|j-k|\le2}A_j,
+    \]
+
+    \[
+    \|p(t)-c_k(t)\|_{L^2(A_k)}
+    \le
+    C\|u(t)\otimes u(t)\|_{L^2(A_k^*)}+F_k(t),
+    \]
+
+    \[
+    F_k(t)\le C|A_k|^{1/2}
+    \sum_{|\ell-k|>2}2^{-3\max\{k,\ell\}}\|u(t)\otimes u(t)\|_{L^1(A_\ell)}.
+    \]
+
+    Choose a smooth annular cutoff \(\chi_k\) equal to one on \(A_k\) and supported
+    in \(A_k^*\).  Split
+
+    \[
+    \begin{aligned}
+    p_k^{near}&=\mathcal R_i\mathcal R_j(\chi_k u_i u_j),\\
+    p_k^{far}&=\mathcal R_i\mathcal R_j((1-\chi_k)u_i u_j),\\
+    p&=p_k^{near}+p_k^{far}.
+    \end{aligned}
+    \]
+
+    The near part is controlled by Calderon-Zygmund boundedness on the fat annulus:
+
+    \[
+    \|p_k^{near}(t)-c_k^{near}(t)\|_{L^2(A_k)}
+    \le
+    C\|u(t)\otimes u(t)\|_{L^2(A_k^*)}.
+    \]
+
+    For the far part, the pressure kernel is smooth on \(A_k\) against every annulus
+    outside \(A_k^*\).  After subtracting the annular mean \(c_k(t)\), the kernel
+    difference gains one annular derivative on \(A_k\), and the separated annulus
+    contribution is bounded by the displayed \(F_k(t)\).
+
+    This theorem pays the annular pressure decomposition.  Weighted summability of
+    the tail remains a separate input, supplied by local smoothing and exterior-tail
+    bounds when those are available in the active route.
+
+
+
+    \subsection{Near-Pressure Summability From Weighted Annular L4 Source}
+
+    \[
+    \sup_{t\le T}\sum_k2^{2ak}\|u(t)\|_{L^2(A_k)}^2<\infty.
+    \]
+
+    \[
+    \|u\otimes u\|_{L^2(A_k^*)}=\|u\|_{L^4(A_k^*)}^2,
+    \]
+
+    \[
+    \sum_k2^{(2a-1)k}\|u\|_{L^4(A_k^*)}^2\|u\|_{L^2(A_k)}
+    \le
+    \left(\sum_k2^{2ak}\|u\|_{L^4(A_k^*)}^4\right)^{1/2}
+    \left(\sum_k2^{(2a-2)k}\|u\|_{L^2(A_k)}^2\right)^{1/2}.
+    \]
+
+    For 0<a<=1, the second sum is bounded by the weighted moment. For larger a, replace the weighted moment input by the corresponding stronger moment. Integrating over time gives the result.
+
+    The near part of the annular pressure supplier is closed once AnnL4.W and the weighted moment are available.
+
+    This theorem closes only the near pressure source. The far-tail term F k is handled separately.
+
+
+
+    \subsection{Terminal Zeno source-refill closure playbook}
+
+    This is not a closed reduction. It is the Carleson-side presentation of the remaining Zeno source-refill wall.
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    for every bounded-overlap same-fluid terminal family selected by the source-pulse branch.
+
+    The proof must stay on the pre-Cauchy localized source carrier. It should avoid global absolute-value envelopes because those erase parent-child geometry.
+
+    \[
+    [\mathcal R_P]_+.
+    \]
+
+    \[
+    \int_{Q(P)}[\mathcal R_P]_+
+    \le
+    \theta\int_{Q(P)}\mathcal D_P
+    +\text{parent-edge drain}
+    +\text{legal loss},
+    \qquad 0<\theta<1.
+    \]
+
+    This is the real analytic statement. It says a terminal active positive source can persist only by spending drain or by creating a legal parent edge. Refill edges then telescope by the donor-balance identity.
+
+    \[
+    \|d\pi_P\|_{\text{parent }L^q}
+    \le C\|d\pi_P\|_{\text{parent }L^1},
+    \qquad q>1,
+    \]
+
+    \[
+    \text{uncharged Zeno refill ancestry}
+    \Longrightarrow
+    \text{ancient limit belongs to rigid class }\mathcal B.
+    \]
+
+    This is the smallest new analytic mechanism that can close the current wall. It counts only if it supplies the localized positive source Carleson estimate on every bounded-overlap same-fluid terminal family; otherwise it is just a branch-local estimate and does not close Refill Tree Well Founded.A.
+
+
+
+    \subsection{Clay problem Terminal Zeno Source-Refill No-Hidden Frontier Note}
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty.
+    \]
+
+    \[
+    \boxed{
+    ZenoResidueLiouville_{\mathcal B}.A:
+    (u_\ast,p_\ast,\mu_\ast^{src})\in\mathcal B
+    \Longrightarrow
+    \mu_\ast^{src}=0.
+    }
+    \]
+
+    The unparameterized label Zeno Source Residue Rigidity.A hides these two jobs. The installed compactness note
+
+    If Refill Tree Well Founded.A fails, the direct refill-tree audit reduces the failure to a legal infinite source-refill ancestry. Finite subtrees are not an independent obstruction: by Local Donor Balance.A, every finite truncation telescopes to initial donor reserve, boundary/cutoff loss, dissipative drain, and the source contribution on its terminal leaves.
+
+    Entrance leaves do not survive as the terminal obstruction. By Entrance Leaf Decay.A, every branch reaching a fixed preterminal entrance surface has vanishing high-frequency source contribution after the terminal scale is driven down. Hence a counterexample contains a terminal Zeno subbranch
+
+    \[
+    r_m\downarrow0,
+    \qquad
+    \sum_m r_m^2<\infty,
+    \]
+
+    \[
+    o_N(1)+\text{summable legal losses}.
+    \]
+
+    Letting the terminal scale parameter increase and then summing the legal loss record contradicts the fixed positive source-pulse inheritance required for the Zeno counterexample. Thus the Carleson package rules out terminal Zeno refill.
+
+    \[
+    ZenoBoundedClass_{\mathcal B}.A
+    +
+    ZenoResidueLiouville_{\mathcal B}.A.
+    \]
+
+    The compactness extraction note supplies an ancient local suitable source-residue limit with nonzero inherited source residue. The first theorem places that limit in the named rigid class B; the second forces its source residue to vanish. This contradicts the nonzero inherited residue. Thus the class-B package also rules out terminal Zeno refill.
+
+    The rigidity side is open because current compactness produces an ancient local suitable source-residue object, but not a named rigid class B, and no source-residue Liouville theorem applies at that generality. The direct candidate audit
+
+
+
+    \subsection{Clay problem Source Reserve Birth Charge.A Direct Attempt}
+
+    After the no-genuine-exit reduction, this is the first concrete wall for preventing GenuineCMExit(T *) from original smooth data.
+
+    Pack gain / legal packing payment; Part participation failure; licensed Field source charge; terminal Zeno residue already sorted as Pack/Part exit.
+
+    The charge cannot be a free new positive source budget. It must either be paid by installed same-witness structure or become a Pack/Part/Field exit witness.
+
+    The inherited term is not new at W, so minimality and Past Window Reserve Separation.A can only leave the contracted piece (1-delta)R N(Past(W)) plus legal losses. The child residual term is the normalized-adjoint / weighted residual already isolated by the reserve-chain audits. Legal, boundary, cutoff, and non-selected terms belong to Loss legal(W).
+
+    At this point the proof needs a real source-charge theorem. The installed records do not prove that this first-created native reserve is automatically paid. The scalar short-pulse obstruction from the earlier reserve audits still survives: first moment can go to zero while the scale-critical reserve stays order one.
+
+    So the direct proof does not close Source Reserve Birth Charge.A from the current installed inputs.
+
+    So the only surviving Pack no-exit subcase is retained positive-scale native source-reserve birth.
+
+    This is real progress in the proof search because it removes the ambiguity around the Pack wall. The open theorem is no longer "some source-wall thing." It is the retained positive-scale first-created native reserve surplus.
+
+    It is not a Clay-ready proof. Calling the Clay problem solved here would be circular: the missing charge theorem is exactly the analytic content needed to prevent the first Pack exit from original smooth data.
+
+
+
+    \subsection{Clay problem Source Reserve Birth Charge.A CM Face Consumption}
+
+    Its CM-contrapositive job was to handle the first retained positive-scale native donor- reserve surplus from original smooth data without importing Member(Q), continuation, or a forward smoothness estimate.
+
+    Let W m=(-tau m,0], with tau m -> 0, and let rho(y) dy be a retained packet-local spatial profile. Define a terminal-layer positive source measure
+
+    So the /source reserve stays order-one while its terminal first moment vanishes. With a signed partner chosen so the signed moment cancels, the unweighted signed record can balance while the one-sided terminal reading still retains the positive branch.
+
+    This shows that Zero Moment Reserve Visibility.A cannot be promoted as a forward visibility theorem. The zero-thickness terminal layer is a real branch.
+
+    The terminal-layer branch is not an in-class hidden continuation. It is exactly the branch that must be routed through the CM witness faces.
+
+    Positive relative time thickness gives the active-height branch. Missing, incompatible, or off-record signed partner lands immediately in Pack, Part, or licensed Field. same-witness retained partner is paid by ASAC / positive pair-weight charge or legal finite-donor records. The only uncharged terminal branch is a terminal signed-saturation failure. Terminal Signed SaturationCMFace Reduction.A routes it to Pack/Part/Field witness-face support, using the terminal Zeno Pack correction and the terminal atom face-labeling surface.
+
+    Thus the scalar-pulse countermodel blocks the wrong positive theorem, but it does not block the CM contrapositive route. It supplies the reason the route must be phrased as face consumption rather than active-height deletion.
+
+    Source Reserve Birth Height Flux Activation.A supplies the first reduction from the first-created source-reserve surplus to the active-height / CM-face branch.
+
+    Terminal Signed SaturationCMFace Reduction.A supplies the terminal no-free-sink failure as Pack/Part/Field witness-face exit support.
+
+    No Member(Q) converse is used. Member(Q) remains downstream of the Pack/Part/Field CM certificate.
+
+    The source-reserve birth root is support-only after the Pack-first audit. Zero-radius terminal residue or selected unpaid infinite donor-refill lands first at not Pack Q; the retained positive-scale first-created native donor- reserve surplus remains the supplier-quarantined burden.
+
+    This is not a standalone positive proof that every terminal reserve pulse has a visible first-moment height flux. It is the contrapositive proof step Thomas wanted: once the positive proof route reaches the reserve-surplus obstruction, the pass branch remains the legal in-class continuation branch, and any fail branch becomes CM authority only after CM-test admission and a first Pack/Part/Field witness-face failure.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Annular Pressure Product-Source Estimate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14759
+  line_start: 14759
+  line_end: 14815
+  start_anchor: "\\subsection{Annular Pressure Product-Source Estimate}\n"
+  end_anchor: "\\subsection{Anti Beltrami Carleson.A from Original Smooth Data}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Annular Pressure Product-Source
+    Estimate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:14759
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Near-Pressure Summability From Weighted Annular L4 Source
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20541
+  line_start: 20541
+  line_end: 20564
+  start_anchor: "\\subsection{Near-Pressure Summability From Weighted Annular L4 Source}\n"
+  end_anchor: "\\subsection{Near pressure summability - hard remainder record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Near-Pressure Summability From
+    Weighted Annular L4 Source as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:20541
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Terminal Zeno source-refill closure playbook
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27461
+  line_start: 27461
+  line_end: 27504
+  start_anchor: "\\subsection{Terminal Zeno source-refill closure playbook}\n"
+  end_anchor: "\\subsection{Terminal Amplitude Gain.A no-Field hard obstruction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Terminal Zeno source-refill closure
+    playbook as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:27461
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Terminal Zeno Source-Refill No-Hidden Frontier Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55788
+  line_start: 55788
+  line_end: 55833
+  start_anchor: "\\subsection{Clay problem Terminal Zeno Source-Refill No-Hidden Frontier
+    Note}\n"
+  end_anchor: "\\subsection{Tgc A Cover Positive Scale Terminal Cover Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Terminal Zeno Source-Refill
+    No-Hidden Frontier Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:55788
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Reserve Birth Charge.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66812
+  line_start: 66812
+  line_end: 66832
+  start_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Terminal CM No-Exit Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Reserve Birth
+    Charge.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66812
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Reserve Birth Charge.A CM Face Consumption
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66950
+  line_start: 66950
+  line_end: 66976
+  start_anchor: "\\subsection{Clay problem Source Reserve Birth Charge.A CM Face Consumption}\n"
+  end_anchor: "\\subsection{Clay problem Terminal Packet Capture Working Pass}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Reserve Birth
+    Charge.A CM Face Consumption as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:66950
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-reserve-and-terminal-pulse-01
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-source-reserve-and-terminal-pulse-01.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

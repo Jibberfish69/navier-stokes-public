@@ -550,7 +550,7 @@ E_{N,h,\phi}(t)
 \tag{TC.30}
 ```
 
-From `(TC.20)`, one expects a schematic triangular closure inequality of the
+From `(TC.20)`, one expects a triangular closure inequality of the
 form
 
 ```math

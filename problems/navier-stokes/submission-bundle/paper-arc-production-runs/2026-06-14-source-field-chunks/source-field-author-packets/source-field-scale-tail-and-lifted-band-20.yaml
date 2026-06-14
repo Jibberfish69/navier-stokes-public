@@ -1,0 +1,1027 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-scale-tail-and-lifted-band-20
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-scale-tail-and-lifted-band-20
+  sequence: 45
+  group_id: scale-tail-and-lifted-band
+  title: Scale tail and lifted band 20
+  author_job: write scale, tail, and lifted-band material as paid derivation, named
+    obstruction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 50114
+  line_end: 50436
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50114
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50139
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50170
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50206
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50265
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50311
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50337
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50383
+  subsection_titles:
+  - Clay problem Scale Normalized Branch Entropy.A direct attempt
+  - Scale-normalized nu SCF Carleson estimate - audit
+  - Clay problem Scale Summability Penalty.A Direct Attempt
+  - Clay problem Scale Critical Tree Carleson Failure Field-Face Diagnostic
+  - Clay problem Scale Critical Tree Carleson.A Bellman Reserve Attempt
+  - Clay problem Scale Critical Tree Carleson.A Direct Irreducibility Note
+  - Clay problem Scale Critical Tree Carleson.A Equivalence Note
+  - Clay problem Scale Critical Tree Carleson.A Finite-Pricing Attempt
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Normalized Branch Entropy.A direct attempt
+    line_start: 50114
+    line_end: 50138
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50114
+    start_anchor: "\\subsection{Clay problem Scale Normalized Branch Entropy.A direct
+      attempt}\n"
+    end_anchor: "\\subsection{Scale-normalized nu SCF Carleson estimate - audit}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Scale Normalized Branch Entropy.A direct attempt}
+
+      This would rule out an infinite terminal Zeno ancestry carrying fixed positive source residue.
+
+      Same-fluidity preserves carrier identity. It supplies a licensed ancestry and prevents off-family bookkeeping drift.
+
+      It gives no finite label alphabet. A single same-fluid carrier can have many legal parent packets and many legal descendants across scales. Thus label fidelity supplies coherence, while it supplies no decreasing entropy rank.
+
+      Bounded overlap gives local multiplicity control for selected cylinders. It permits summation over packet families.
+
+      Entropy control is stronger. It requires a bound on how source mass splits among legal parent clouds across generations. Bounded overlap allows diffuse parent clouds with many small contributions, all within bounded local multiplicity.
+
+      \[
+      p_{k,i}=\frac{m_{k,i}}{\sum_j m_{k,j}}.
+      \]
+
+      The entropy drop requires concentration of the parent distribution or a rule forcing a selected parent to carry a fixed fraction of mass.
+
+      Current inputs allow diffuse legal parentage. so the entropy can remain high, or change by arbitrarily small amounts, along infinitely many Zeno steps.
+
+      Finite donor balance telescopes source and energy terms on finite truncations. It identifies leaves and legal losses.
+
+      It does not impose a monotone entropy law on how mass splits among terminal leaves. Passing to infinite depth returns to the terminal source atom.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Scale-normalized nu SCF Carleson estimate - audit
+    line_start: 50139
+    line_end: 50169
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50139
+    start_anchor: "\\subsection{Scale-normalized nu SCF Carleson estimate - audit}\n"
+    end_anchor: "\\subsection{Clay problem Scale Summability Penalty.A Direct Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Scale-normalized nu SCF Carleson estimate - audit}
+
+      The estimate is the bounded-overlap measure count:
+      \[
+      \sum_i \nu_{SCF}(Q_i)
+      \le
+      C_{atlas}\left(\mu_D(\Omega_T)+\sum_\chi \mu_{P,\chi}(\Omega_T)\right)<\infty.
+      \]
+      Finite dissipation pays \(\mu_D\), packet-local pressure integrability pays each \(\mu_{P,\chi}\), and the finite transported atlas supplies the overlap constant.
+
+      The Jump avg lower argument is not raw. It comes from the scale-critical threshold
+
+      Raw finite measure does not imply the normalized estimate. A model finite measure can satisfy
+
+      \[
+      \nu(Q_k)\sfcomp{48656} r_k^{\alpha}
+      \]
+
+      \[
+      \sum_k \nu(Q_k)<\infty,
+      \]
+
+      \[
+      \sum_k r_k^{-\alpha}\nu(Q_k)=\sum_k 1=\infty.
+      \]
+
+      Bounded overlap does not fix this: it controls repeated raw counting of the same measure, not the scale weights created by the normalized SCF base threshold.
+
+      Carleson sc(nu SCF) is not proved from finite energy, pressure Poisson structure, bounded pack gauge, and same-fluid geometry alone.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Summability Penalty.A Direct Attempt
+    line_start: 50170
+    line_end: 50205
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50170
+    start_anchor: "\\subsection{Clay problem Scale Summability Penalty.A Direct Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Failure Field-Face
+      Diagnostic}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Scale Summability Penalty.A Direct Attempt}
+
+      Purpose: test whether normalized terminal source atoms impose a scale penalty whose total cost diverges along a Zeno refinement chain.
+
+      \[
+      c_0\Phi(r_k)
+      \]
+
+      \[
+      \sum_k \Phi(r_k)=\infty
+      \]
+
+      for every Zeno chain, while the same cost is bounded above by finite energy or dissipation.
+
+      Natural physical costs at scale r typically carry positive powers of r. For geometric Zeno scales
+
+      \[
+      r_k=2^{-k},
+      \]
+
+      \[
+      \Phi(r)=r^\alpha,
+      \qquad \alpha>0,
+      \]
+
+      \[
+      \sum_k 2^{-\alpha k}<\infty.
+      \]
+
+      A scale-invariant normalized penalty gives a fixed cost per active scale. This would diverge along infinitely many active scales. The finite record, however, controls physical or route-weighted quantities, not a raw normalized scale count.
+
+      Converting normalized cost into a physical contradiction requires a scale-breaking theorem such as active- reserve or -source estimate.
+
+      A logarithmic penalty could diverge along some Zeno chains, but no installed packet estimate forces such a penalty from one normalized terminal source atom. Producing it would amount to a new branch entropy or charge-quantization theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson Failure Field-Face
+      Diagnostic
+    line_start: 50206
+    line_end: 50264
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50206
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Failure
+      Field-Face Diagnostic}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Bellman
+      Reserve Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |
+      \subsection{Clay problem Scale Critical Tree Carleson Failure Field-Face Diagnostic}
+
+      The sharper use of Scale Critical Tree Carleson.A is this: on the selected CM source-wall branch, its failure is sorted through the witness faces before it is treated as a missing positive estimate.
+
+      Here sel means the failure has already been reduced to the active CM-selected source-wall branch: legal-loss windows, endpoint/readout alternatives, and non-selected branch alternatives have been routed before the theorem is spent.
+
+      So if the selected scale-critical source reserve failure is the way smoothness breaks, and if the carrier geometry and pressure-viscosity participation have not already broken, then the failure is a Field failure.
+
+      \[
+      Pack_Q+Part_{N,Q}
+      +\forall r>0\,\neg Field_{N,r,Q}
+      \Longrightarrow
+      tower\text{-}blown,
+      \]
+
+      That is a strong direct continuation theorem. It may still be useful, but it is not the primitive CM move.
+
+      \[
+      CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+      \]
+
+      so a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Pack, Part, and Field.
+
+      On the direct source-wall branch, after Parent Square Embed.A has priced diffuse parentage, sel Scale Critical Tree Carleson.A(Q) means the scale-critical reserve still has positive tail mass after declared losses and non-selected exits are removed. Concretely, there is an eta>0 and scales k m->infty for which a selected same-fluid terminal window satisfies
+
+      \[
+      \int_{I_m}
+      2^{k_m}
+      \left(
+      \sum_{\ell>k_m+4}D_\ell(t)
+      \right)^2dt
+      \ge \eta
+      \]
+
+      This is the only form of Scale Critical Tree Carleson.A relevant to this CM face diagnostic. Raw failures outside this selected branch are routed first as Pack failure, Part failure, visible endpoint/readout failure, or legal-loss failure. They are not hidden fourth faces.
+
+      Then the source-reserve packet has lost the one bounded same-fluid carrier. The Carleson failure is not a Field theorem
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson.A Bellman Reserve
+      Attempt
+    line_start: 50265
+    line_end: 50310
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50265
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Bellman
+      Reserve Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Direct Irreducibility
+      Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Scale Critical Tree Carleson.A Bellman Reserve Attempt}
+
+      The diffuse-parent embedding is installed there as Parent Square Embed.A. The test here is whether Scale Critical Tree Carleson.A can be proved by the tree-Bellman / telescoping mechanism proposed for Chunk 1.
+
+      It does not close the reserve. It records the exact mathematical break: current installed inputs control first-moment dissipation and finite-tree donor telescoping, but they do not control the scale-critical active- reserve.
+
+      \[
+      \sum_{P^-}|A_{P^-}|^2
+      \sfcomp{48775}
+      \sum_{k>N}2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell
+      \right)^2.
+      \]
+
+      \[
+      \mathcal B_N(t)
+      :=
+      \sum_{k>N}\omega_k E_k(t)
+      +
+      \sum_{k>N}\Omega_k(t),
+      \]
+
+      \[
+      T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+      \]
+
+      \[
+      \int_I\sum_{k>N}D_k(t)\,dt\to0.
+      \]
+
+      Thus the only place where the reserve can live is k(t). But any k whose endpoints are already controlled by the installed energy/tail records is at most a first-moment or cumulative-tail reserve. It does not produce a signed derivative with the scale-critical density 2 kT k 2.
+
+      Equivalently, a successful k would have to be a new active-window Carleson functional. That is exactly the theorem being tested, not an installed input.
+
+      The failure is already visible at the scalar record level. Let I m be disjoint intervals accumulating at a terminal endpoint, set
+
+      \[
+      A_m:=2^{-2m},
+      \qquad
+      h_m:=2^mA_m^2=2^{-3m},
+      \]
+
+      If its endpoint values are controlled by installed energy/tail records, its derivative can only pay first-moment or already-installed cumulative-tail quantities, not the active- reserve. If its derivative pays 2 kT k 2, then its endpoint size already contains a scale-critical active-window Carleson reserve, which is precisely Scale Critical Tree Carleson.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson.A Direct Irreducibility
+      Note
+    line_start: 50311
+    line_end: 50336
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50311
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Direct
+      Irreducibility Note}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Equivalence
+      Note}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Scale Critical Tree Carleson.A Direct Irreducibility Note}
+
+      The direct post-reconcile naming and route custody on the reopened source wall are fixed here.
+
+      Here Parent Square Embed.A is already installed by the transported packet Bessel calculus. It removes the bounded-parent-selection obstruction and leaves exactly the scalar reserve
+
+      \[
+      \int
+      \sum_{k>N}
+      2^k
+      \left(
+      \sum_{\ell>k+4}D_\ell(t)
+      \right)^2dt.
+      \]
+
+      The native direct supplier languages have all been audited, and none lowers the direct wall beneath Scale Critical Tree Carleson.A.
+
+      The tree-Bellman attempt does not derive the reserve from installed first-moment, local-energy, or donor-balance records. Any Bellman functional whose endpoint values are already paid by those records can spend only first-moment or cumulative-tail quantities. A Bellman derivative that pays
+
+      \[
+      2^k\left(\sum_{\ell>k+4}D_\ell\right)^2
+      \]
+
+      and after the negative audits of terminal coherence, reverse-Holder parent concentration, and the tree-Bellman reserve attempt.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson.A Equivalence Note
+    line_start: 50337
+    line_end: 50382
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50337
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Equivalence
+      Note}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing
+      Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: |+
+      \subsection{Clay problem Scale Critical Tree Carleson.A Equivalence Note}
+
+      It does not prove the Carleson estimate from Original Smooth Data; it removes ambiguity about what estimate must be proved.
+
+      \[
+      \nu_{\mathcal T}
+      :=
+      \sum_{e=(P^-\to P)\in\mathcal T}
+      \pi(e)\,\delta_{Q(P)}.
+      \]
+
+      Here S loc active is the pre-Cauchy, same-fluid, localized source density before global absolute-value estimates erase parent structure.
+
+      Scale Critical Tree Carleson.A is the assertion that for every terminal root packet and every legal source-refill subtree,
+
+      \[
+      \boxed{
+      \nu_{\mathcal T}(\operatorname{Tent}(P^0))
+      \le
+      C\,\mathcal R_{\mathrm{sc}}(P^0)+o_N(1),
+      }
+      \]
+
+      \[
+      \pi(P^-\to child(P^-))
+      \le C_{\mathrm{sf},48853}
+      \Delta E(P^-)+\pi(parent(P^-)\to P^-)+\ell(P^-).
+      \]
+
+      \[
+      (\mathrm{child})_\#\nu_{\mathcal T}
+      \sfcomp{48870}
+      \mathfrak S_{N,loc}^{active}(t)\,dt
+      \]
+
+      \[
+      \int_{Bad_N(\eta)}
+      \mathfrak S_{N,loc}^{active}(t)\,dt
+      =o_N(1),
+      \]
+
+      provided the localized source-parent edge disintegration is used as the common carrier.
+
+      for every bounded-overlap same-fluid terminal family F N selected by the Jump avg / source-pulse branch.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Scale Critical Tree Carleson.A Finite-Pricing Attempt
+    line_start: 50383
+    line_end: 50436
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50383
+    start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing
+      Attempt}\n"
+    end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}\n"
+    include_end_anchor: false
+    group_id: scale-tail-and-lifted-band
+    text: "\\subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing
+      Attempt}\n\nBounded solve attempt on the pre-limit packet-tree pivot after the
+      terminal Zeno temporal-atom obstruction.\n\nThe packet/operator part is already
+      installed by Parent Square Embed.A. The remaining scalar reserve is not supplied
+      by current Original Smooth Data, finite energy, local energy, pressure/cutoff
+      records, same-fluid transport, or weighted residual estimates.\n\n\\[\n\\mu_*^{src}(Q_1(0,0))>0\n\\Longrightarrow\n\\exists
+      a>0:\\mu_*^{src}(\\{s<-a\\})>0.\n\\]\n\nThat implication fails under weak-*
+      source-measure compactness because source mass may concentrate on s=0.\n\n\\[\n\\sum_P\n\\left|\n\\sum_{P^-\\prec
+      P}K(P,P^-)a_{P^-}\n\\right|^2\n\\le\nC\\sum_{P^-}|a_{P^-}|^2+o_N(1).\n\\]\n\n\\[\n\\sum_{P^-}|A_{P^-}|^2.\n\\]\n\n\\[\n\\sum_{P^-}|A_{P^-}|^2\n\\sfcomp{48914}\n\\sum_{k>N}\n2^k\n\\left(\n\\sum_{\\ell>k+4}D_\\ell(t)\n\\right)^2.\n\\]\n\n\\[\n\\int\\sum_{k>N}D_k(t)\\,dt\\to0.\n\\]\n\nChoosing
+      M n n 0 but 2 nM n 2 n 0 keeps the first-moment tail small while preserving
+      a non-small scale-critical reserve. This is exactly the active heat-scale pulse
+      obstruction in scalar form.\n\nWeighted residual estimates are quadratic in
+      separated donor amplitudes. For a diffuse legal parent model\n\nAn entropy M
+      is also invisible unless a route record explicitly charges branch complexity.
+      No installed record carries such a positive entropy term.\n\nThe phrase \"source-balanced
+      active-pulse exclusion\" is only a descriptive reading of Scale Critical Tree
+      Carleson.A, not a new theorem object below it.\n\nThis is the single source-control
+      atom left after removing the false terminal backward-propagation route and after
+      paying diffuse parent clouds by Parent Square Embed.A.\n\nTrying to prove only
+      temporal non-atomicity happens too late in the compactness limit. Trying to
+      prove only bounded parent concentration is too strong and is refuted by diffuse
+      legal parent models. The remaining viable target is a scale-critical source-control
+      theorem that prevents the source-balanced active pulse \n% ... source excerpt
+      truncated for packet size ...\n"
+    truncated: true
+  context_excerpt: |+
+    \subsection{Clay problem Scale Normalized Branch Entropy.A direct attempt}
+
+    This would rule out an infinite terminal Zeno ancestry carrying fixed positive source residue.
+
+    Same-fluidity preserves carrier identity. It supplies a licensed ancestry and prevents off-family bookkeeping drift.
+
+    It gives no finite label alphabet. A single same-fluid carrier can have many legal parent packets and many legal descendants across scales. Thus label fidelity supplies coherence, while it supplies no decreasing entropy rank.
+
+    Bounded overlap gives local multiplicity control for selected cylinders. It permits summation over packet families.
+
+    Entropy control is stronger. It requires a bound on how source mass splits among legal parent clouds across generations. Bounded overlap allows diffuse parent clouds with many small contributions, all within bounded local multiplicity.
+
+    \[
+    p_{k,i}=\frac{m_{k,i}}{\sum_j m_{k,j}}.
+    \]
+
+    The entropy drop requires concentration of the parent distribution or a rule forcing a selected parent to carry a fixed fraction of mass.
+
+    Current inputs allow diffuse legal parentage. so the entropy can remain high, or change by arbitrarily small amounts, along infinitely many Zeno steps.
+
+    Finite donor balance telescopes source and energy terms on finite truncations. It identifies leaves and legal losses.
+
+    It does not impose a monotone entropy law on how mass splits among terminal leaves. Passing to infinite depth returns to the terminal source atom.
+
+
+
+    \subsection{Scale-normalized nu SCF Carleson estimate - audit}
+
+    The estimate is the bounded-overlap measure count:
+    \[
+    \sum_i \nu_{SCF}(Q_i)
+    \le
+    C_{atlas}\left(\mu_D(\Omega_T)+\sum_\chi \mu_{P,\chi}(\Omega_T)\right)<\infty.
+    \]
+    Finite dissipation pays \(\mu_D\), packet-local pressure integrability pays each \(\mu_{P,\chi}\), and the finite transported atlas supplies the overlap constant.
+
+    The Jump avg lower argument is not raw. It comes from the scale-critical threshold
+
+    Raw finite measure does not imply the normalized estimate. A model finite measure can satisfy
+
+    \[
+    \nu(Q_k)\sfcomp{48656} r_k^{\alpha}
+    \]
+
+    \[
+    \sum_k \nu(Q_k)<\infty,
+    \]
+
+    \[
+    \sum_k r_k^{-\alpha}\nu(Q_k)=\sum_k 1=\infty.
+    \]
+
+    Bounded overlap does not fix this: it controls repeated raw counting of the same measure, not the scale weights created by the normalized SCF base threshold.
+
+    Carleson sc(nu SCF) is not proved from finite energy, pressure Poisson structure, bounded pack gauge, and same-fluid geometry alone.
+
+
+
+    \subsection{Clay problem Scale Summability Penalty.A Direct Attempt}
+
+    Purpose: test whether normalized terminal source atoms impose a scale penalty whose total cost diverges along a Zeno refinement chain.
+
+    \[
+    c_0\Phi(r_k)
+    \]
+
+    \[
+    \sum_k \Phi(r_k)=\infty
+    \]
+
+    for every Zeno chain, while the same cost is bounded above by finite energy or dissipation.
+
+    Natural physical costs at scale r typically carry positive powers of r. For geometric Zeno scales
+
+    \[
+    r_k=2^{-k},
+    \]
+
+    \[
+    \Phi(r)=r^\alpha,
+    \qquad \alpha>0,
+    \]
+
+    \[
+    \sum_k 2^{-\alpha k}<\infty.
+    \]
+
+    A scale-invariant normalized penalty gives a fixed cost per active scale. This would diverge along infinitely many active scales. The finite record, however, controls physical or route-weighted quantities, not a raw normalized scale count.
+
+    Converting normalized cost into a physical contradiction requires a scale-breaking theorem such as active- reserve or -source estimate.
+
+    A logarithmic penalty could diverge along some Zeno chains, but no installed packet estimate forces such a penalty from one normalized terminal source atom. Producing it would amount to a new branch entropy or charge-quantization theorem.
+
+
+
+    \subsection{Clay problem Scale Critical Tree Carleson Failure Field-Face Diagnostic}
+
+    The sharper use of Scale Critical Tree Carleson.A is this: on the selected CM source-wall branch, its failure is sorted through the witness faces before it is treated as a missing positive estimate.
+
+    Here sel means the failure has already been reduced to the active CM-selected source-wall branch: legal-loss windows, endpoint/readout alternatives, and non-selected branch alternatives have been routed before the theorem is spent.
+
+    So if the selected scale-critical source reserve failure is the way smoothness breaks, and if the carrier geometry and pressure-viscosity participation have not already broken, then the failure is a Field failure.
+
+    \[
+    Pack_Q+Part_{N,Q}
+    +\forall r>0\,\neg Field_{N,r,Q}
+    \Longrightarrow
+    tower\text{-}blown,
+    \]
+
+    That is a strong direct continuation theorem. It may still be useful, but it is not the primitive CM move.
+
+    \[
+    CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
+    \]
+
+    so a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve failure is useful only after it is diagnosed against Pack, Part, and Field.
+
+    On the direct source-wall branch, after Parent Square Embed.A has priced diffuse parentage, sel Scale Critical Tree Carleson.A(Q) means the scale-critical reserve still has positive tail mass after declared losses and non-selected exits are removed. Concretely, there is an eta>0 and scales k m->infty for which a selected same-fluid terminal window satisfies
+
+    \[
+    \int_{I_m}
+    2^{k_m}
+    \left(
+    \sum_{\ell>k_m+4}D_\ell(t)
+    \right)^2dt
+    \ge \eta
+    \]
+
+    This is the only form of Scale Critical Tree Carleson.A relevant to this CM face diagnostic. Raw failures outside this selected branch are routed first as Pack failure, Part failure, visible endpoint/readout failure, or legal-loss failure. They are not hidden fourth faces.
+
+    Then the source-reserve packet has lost the one bounded same-fluid carrier. The Carleson failure is not a Field theorem; it is a Pack exit.
+
+    Then the packet is not participating in the same differentiated pressure-viscosity law. The source term is not a lawful same-fluid source reserve on the retained branch. This is a Part exit.
+
+    \[
+    \text{infinite terminal positive source-reserve tree}
+    \Longrightarrow
+    \neg Field_{N,r,Q}
+    \Longrightarrow
+    \neg CM_{N,r,Q}.
+    \]
+
+    Raw energy and local energy can allow finite physical mass while normalized positive source mass keeps appearing on shrinking windows. Field is the stronger object: it says the velocity-pressure tower is one coherent local field at a uniform positive scale on the same retained carrier.
+
+    Once Pack and Part hold, the positive source reserve is a same-fluid differentiated NS carrier. For a terminal node at scale k, the local Duhamel response converts the positive tail source
+
+    \[
+    T_k(t)=\sum_{\ell>k+4}D_\ell(t)
+    \]
+
+    Infinitely many order-one lower bounds of this form contradict the tail vanishing required by Field N,r,Q . Hence the source-reserve tree cannot coexist with Field.
+
+
+
+    \subsection{Clay problem Scale Critical Tree Carleson.A Bellman Reserve Attempt}
+
+    The diffuse-parent embedding is installed there as Parent Square Embed.A. The test here is whether Scale Critical Tree Carleson.A can be proved by the tree-Bellman / telescoping mechanism proposed for Chunk 1.
+
+    It does not close the reserve. It records the exact mathematical break: current installed inputs control first-moment dissipation and finite-tree donor telescoping, but they do not control the scale-critical active- reserve.
+
+    \[
+    \sum_{P^-}|A_{P^-}|^2
+    \sfcomp{48775}
+    \sum_{k>N}2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell
+    \right)^2.
+    \]
+
+    \[
+    \mathcal B_N(t)
+    :=
+    \sum_{k>N}\omega_k E_k(t)
+    +
+    \sum_{k>N}\Omega_k(t),
+    \]
+
+    \[
+    T_k(t):=\sum_{\ell>k+4}D_\ell(t).
+    \]
+
+    \[
+    \int_I\sum_{k>N}D_k(t)\,dt\to0.
+    \]
+
+    Thus the only place where the reserve can live is k(t). But any k whose endpoints are already controlled by the installed energy/tail records is at most a first-moment or cumulative-tail reserve. It does not produce a signed derivative with the scale-critical density 2 kT k 2.
+
+    Equivalently, a successful k would have to be a new active-window Carleson functional. That is exactly the theorem being tested, not an installed input.
+
+    The failure is already visible at the scalar record level. Let I m be disjoint intervals accumulating at a terminal endpoint, set
+
+    \[
+    A_m:=2^{-2m},
+    \qquad
+    h_m:=2^mA_m^2=2^{-3m},
+    \]
+
+    If its endpoint values are controlled by installed energy/tail records, its derivative can only pay first-moment or already-installed cumulative-tail quantities, not the active- reserve. If its derivative pays 2 kT k 2, then its endpoint size already contains a scale-critical active-window Carleson reserve, which is precisely Scale Critical Tree Carleson.A.
+
+
+
+    \subsection{Clay problem Scale Critical Tree Carleson.A Direct Irreducibility Note}
+
+    The direct post-reconcile naming and route custody on the reopened source wall are fixed here.
+
+    Here Parent Square Embed.A is already installed by the transported packet Bessel calculus. It removes the bounded-parent-selection obstruction and leaves exactly the scalar reserve
+
+    \[
+    \int
+    \sum_{k>N}
+    2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2dt.
+    \]
+
+    The native direct supplier languages have all been audited, and none lowers the direct wall beneath Scale Critical Tree Carleson.A.
+
+    The tree-Bellman attempt does not derive the reserve from installed first-moment, local-energy, or donor-balance records. Any Bellman functional whose endpoint values are already paid by those records can spend only first-moment or cumulative-tail quantities. A Bellman derivative that pays
+
+    \[
+    2^k\left(\sum_{\ell>k+4}D_\ell\right)^2
+    \]
+
+    and after the negative audits of terminal coherence, reverse-Holder parent concentration, and the tree-Bellman reserve attempt.
+
+
+
+    \subsection{Clay problem Scale Critical Tree Carleson.A Equivalence Note}
+
+    It does not prove the Carleson estimate from Original Smooth Data; it removes ambiguity about what estimate must be proved.
+
+    \[
+    \nu_{\mathcal T}
+    :=
+    \sum_{e=(P^-\to P)\in\mathcal T}
+    \pi(e)\,\delta_{Q(P)}.
+    \]
+
+    Here S loc active is the pre-Cauchy, same-fluid, localized source density before global absolute-value estimates erase parent structure.
+
+    Scale Critical Tree Carleson.A is the assertion that for every terminal root packet and every legal source-refill subtree,
+
+    \[
+    \boxed{
+    \nu_{\mathcal T}(\operatorname{Tent}(P^0))
+    \le
+    C\,\mathcal R_{\mathrm{sc}}(P^0)+o_N(1),
+    }
+    \]
+
+    \[
+    \pi(P^-\to child(P^-))
+    \le C_{\mathrm{sf},48853}
+    \Delta E(P^-)+\pi(parent(P^-)\to P^-)+\ell(P^-).
+    \]
+
+    \[
+    (\mathrm{child})_\#\nu_{\mathcal T}
+    \sfcomp{48870}
+    \mathfrak S_{N,loc}^{active}(t)\,dt
+    \]
+
+    \[
+    \int_{Bad_N(\eta)}
+    \mathfrak S_{N,loc}^{active}(t)\,dt
+    =o_N(1),
+    \]
+
+    provided the localized source-parent edge disintegration is used as the common carrier.
+
+    for every bounded-overlap same-fluid terminal family F N selected by the Jump avg / source-pulse branch.
+
+
+
+    \subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing Attempt}
+
+    Bounded solve attempt on the pre-limit packet-tree pivot after the terminal Zeno temporal-atom obstruction.
+
+    The packet/operator part is already installed by Parent Square Embed.A. The remaining scalar reserve is not supplied by current Original Smooth Data, finite energy, local energy, pressure/cutoff records, same-fluid transport, or weighted residual estimates.
+
+    \[
+    \mu_*^{src}(Q_1(0,0))>0
+    \Longrightarrow
+    \exists a>0:\mu_*^{src}(\{s<-a\})>0.
+    \]
+
+    That implication fails under weak-* source-measure compactness because source mass may concentrate on s=0.
+
+    \[
+    \sum_P
+    \left|
+    \sum_{P^-\prec P}K(P,P^-)a_{P^-}
+    \right|^2
+    \le
+    C\sum_{P^-}|a_{P^-}|^2+o_N(1).
+    \]
+
+    \[
+    \sum_{P^-}|A_{P^-}|^2.
+    \]
+
+    \[
+    \sum_{P^-}|A_{P^-}|^2
+    \sfcomp{48914}
+    \sum_{k>N}
+    2^k
+    \left(
+    \sum_{\ell>k+4}D_\ell(t)
+    \right)^2.
+    \]
+
+    \[
+    \int\sum_{k>N}D_k(t)\,dt\to0.
+    \]
+
+    Choosing M n n 0 but 2 nM n 2 n 0 keeps the first-moment tail small while preserving a non-small scale-critical reserve. This is exactly the active heat-scale pulse obstruction in scalar form.
+
+    Weighted residual estimates are quadratic in separated donor amplitudes. For a diffuse legal parent model
+
+    An entropy M is also invisible unless a route record explicitly charges branch complexity. No installed record carries such a positive entropy term.
+
+    The phrase "source-balanced active-pulse exclusion" is only a descriptive reading of Scale Critical Tree Carleson.A, not a new theorem object below it.
+
+    This is the single source-control atom left after removing the false terminal backward-propagation route and after paying diffuse parent clouds by Parent Square Embed.A.
+
+    Trying to prove only temporal non-atomicity happens too late in the compactness limit. Trying to prove only bounded parent concentration is too strong and is refuted by diffuse legal parent models. The remaining viable target is a scale-critical source-control theorem that prevents the source-balanced active pulse before compactness.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Normalized Branch Entropy.A direct attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50114
+  line_start: 50114
+  line_end: 50138
+  start_anchor: "\\subsection{Clay problem Scale Normalized Branch Entropy.A direct
+    attempt}\n"
+  end_anchor: "\\subsection{Scale-normalized nu SCF Carleson estimate - audit}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Normalized
+    Branch Entropy.A direct attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50114
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Scale-normalized nu SCF Carleson estimate - audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50139
+  line_start: 50139
+  line_end: 50169
+  start_anchor: "\\subsection{Scale-normalized nu SCF Carleson estimate - audit}\n"
+  end_anchor: "\\subsection{Clay problem Scale Summability Penalty.A Direct Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Scale-normalized nu SCF Carleson
+    estimate - audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50139
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Summability Penalty.A Direct Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50170
+  line_start: 50170
+  line_end: 50205
+  start_anchor: "\\subsection{Clay problem Scale Summability Penalty.A Direct Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Failure Field-Face
+    Diagnostic}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Summability
+    Penalty.A Direct Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50170
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson Failure Field-Face Diagnostic
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50206
+  line_start: 50206
+  line_end: 50264
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson Failure Field-Face
+    Diagnostic}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Bellman Reserve
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson Failure Field-Face Diagnostic as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50206
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson.A Bellman Reserve Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50265
+  line_start: 50265
+  line_end: 50310
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Bellman
+    Reserve Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Direct Irreducibility
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson.A Bellman Reserve Attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50265
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson.A Direct Irreducibility
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50311
+  line_start: 50311
+  line_end: 50336
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Direct Irreducibility
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Equivalence
+    Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson.A Direct Irreducibility Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50311
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson.A Equivalence Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50337
+  line_start: 50337
+  line_end: 50382
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Equivalence
+    Note}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing
+    Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson.A Equivalence Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50337
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Scale Critical Tree Carleson.A Finite-Pricing Attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50383
+  line_start: 50383
+  line_end: 50436
+  start_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Finite-Pricing
+    Attempt}\n"
+  end_anchor: "\\subsection{Clay problem Scale Critical Tree Carleson.A Next Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Scale Critical Tree
+    Carleson.A Finite-Pricing Attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:50383
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-scale-tail-and-lifted-band-20
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-20.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -1,0 +1,13 @@
+---
+version: 1
+kind: ns-paper-arc-current-source-certification
+generated_at: '2026-06-14T16:07:47Z'
+arc_id: cm-class-membership
+status: passed
+author_pack_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/author-packs/cm-class-membership.yaml
+critic_ref: problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-straight-through-machine/critic-reports/cm-class-membership.yaml
+critic_status: passed
+source_section_count: 5
+verifier_status: passed
+integration_allowed: true
+failures: []

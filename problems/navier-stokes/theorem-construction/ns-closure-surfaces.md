@@ -27,9 +27,11 @@ X = \sum_\lambda X_\lambda,
 \qquad
 \Omega_D X = \sum_\lambda \omega(\lambda) X_\lambda,
 ```
-with `\omega(\lambda) \asymp \lambda^{1/2}` and
+with `c_\omega\lambda^{1/2}\le\omega(\lambda)\le C_\omega\lambda^{1/2}` and
 ```text
-|X|_{\mathcal N}^2 \asymp \sum_\lambda (1+\omega(\lambda)) |X_\lambda|^2.
+c_{\mathcal N}\sum_\lambda (1+\omega(\lambda)) |X_\lambda|^2
+<= |X|_{\mathcal N}^2
+<= C_{\mathcal N}\sum_\lambda (1+\omega(\lambda)) |X_\lambda|^2.
 ```
 Assume the block decomposition is recorded from the active spectral split on
 the carrier surface and the same classical approximation surface is used

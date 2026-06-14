@@ -56,7 +56,7 @@ But `(3)` is not a contradiction.  Energy gives only
 \tag{4}
 ```
 
-where `D_j(t)\simeq \nu 2^{2j}e_j(t)`.  A function can have arbitrarily large
+where `c_D\nu2^{2j}e_j(t)\le D_j(t)\le C_D\nu2^{2j}e_j(t)`.  A function can have arbitrarily large
 pointwise high-tail peaks while its time integral tends to zero.  So rows 1--4
 push the endpoint into terminal high-frequency concentration; they do not
 exclude it.
@@ -141,7 +141,7 @@ The Hardy expansion is:
 =
 \sum_{\ell,m>N+4}D_\ell D_m
 \sum_{N<k<\min(\ell,m)-4}2^k
-\simeq
+\le C_H
 \sum_{\ell,m>N}2^{\min(\ell,m)}D_\ell D_m.
 \tag{12}
 ```
@@ -150,9 +150,9 @@ Equivalently, after splitting the double sum,
 
 ```math
 \sum_{k>N}2^kT_k^2
-\simeq
+\le C_H
 \sum_{\ell>N}2^\ell D_\ell
-\left(\sum_{m>\ell+O(1)}D_m\right).
+\left(\sum_{m>\ell+L_0}D_m\right).
 \tag{13}
 ```
 
@@ -211,7 +211,7 @@ Choosing
 ```math
 A_m\to0,
 \qquad
-h_m\sim2^mA_m^2
+h_m:=2^mA_m^2
 \tag{18}
 ```
 
@@ -255,4 +255,3 @@ and
 
 Any attempt to close rows 1--4 beyond this is just another presentation of
 Row 5 or Row 6.
-

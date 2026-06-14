@@ -1,0 +1,1105 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-critical-norm-and-field-12
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-critical-norm-and-field-12
+  sequence: 80
+  group_id: critical-norm-and-field
+  title: Critical norm and Field 12
+  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+    or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 49492
+  line_end: 53153
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49492
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49525
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49566
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51429
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52416
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52648
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53105
+  subsection_titles:
+  - Clay problem Retained Field Endpoint/Tower Reduction
+  - Clay problem Retained Field-Exit Source/Receiver Reduction
+  - Clay problem Retained Native Source Residue Field Exit Reduction
+  - Clay problem Six-Step Normalized-Mass Source-Drain Proof Package
+  - Source No Pulse Critical Pulse And Sign Audit Note
+  - Clay problem Source Pulse Field Exit.A Tower-Placement Reduction Note
+  - Clay problem Source Pulse Normal Form and Unspent Reserve Audit Note
+  - Sourcewall Reconcile Normalized Adjoint Theorem Grade Audit
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Field Endpoint/Tower Reduction
+    line_start: 49492
+    line_end: 49524
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49492
+    start_anchor: "\\subsection{Clay problem Retained Field Endpoint/Tower Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Retained Field Endpoint/Tower Reduction}
+
+      Theorem-facing continuation of the retained Field branch after any selected surface has already been legally sorted into the Field row.
+
+      This does not prove Navier--Stokes smoothness. It removes one fake degree of freedom: a retained Field failure cannot stay as vague source/receiver language. It must become failure of the same-family tower/DTC analytic package, or else an earlier Pack or Part exit.
+
+      \[
+      Pack_Q,
+      \qquad
+      Part_{N,Q},
+      \qquad
+      \Gamma_{\mathrm{pack},Q}\in L^\infty(I),
+      \]
+
+      \[
+      \forall r>0:\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      \neg Field_{N,r,Q}\Longrightarrow Jump.
+      \]
+
+      \[
+      \mathfrak A_{N+1,Q}\in L^\infty(I),
+      \]
+
+      \[
+      Field_{N,r_*,Q}
+      \]
+
+      Apply DTC-to-Tower Bound at tower depth N+1. The theorem requires DTC depth two rungs higher, hence N+3, because the forcing rung is
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Field-Exit Source/Receiver Reduction
+    line_start: 49525
+    line_end: 49565
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49525
+    start_anchor: "\\subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}\n"
+    end_anchor: "\\subsection{Clay problem Retained Native Source Residue Field Exit
+      Reduction}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}
+
+      Purpose: push the retained Field branch as far as the installed packet route actually proves, after a selected surface has already been legally sorted into the Field row, without turning the argument into a surface catalog.
+
+      \[
+      T_*<\infty
+      \wedge Pack_Q
+      \wedge Part_{N,Q}
+      \Longrightarrow
+      \forall r>0:\neg Field_{N,r,Q}.
+      \]
+
+      \[
+      \text{selected retained source-reserve or terminal-atom failure}
+      \Longrightarrow
+      \neg Field_{N,r,Q}
+      \]
+
+      The lower-carrier/receiver part has a local bypass. Let R , pre (t) be the union of the label-halo samples, the thickened collar support, and the widened receiver-return support. If there is one compact still-live receiver collar
+
+      \[
+      \mathcal R_{\rho,\psi}^{pre}(t)\subset Q_t^{rec,+}
+      \qquad(t\in I),
+      \]
+
+      \[
+      \sup_{(x,t)\in Q^{rec,+}}
+      \sum_{\ell\le N+m+6}|\nabla^\ell u(x,t)|<\infty,
+      \]
+
+      This is important: the oscillation receiver cannot be the obstruction while the receiver packet remains inside a compact smooth same-fluid collar. In that case the enlarged-ball oscillation closure is paid directly by ordinary local smoothness on the retained collar.
+
+      \[
+      \mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}\in L^1(I),
+      \qquad
+      \mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}\in L^1(I),
+      \qquad
+      \mathfrak b_\psi^{cut}\in L^1(I),
+      \]
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Retained Native Source Residue Field Exit Reduction
+    line_start: 49566
+    line_end: 49620
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49566
+    start_anchor: "\\subsection{Clay problem Retained Native Source Residue Field
+      Exit Reduction}\n"
+    end_anchor: "\\subsection{Retained Pack/Part Critical Concentration To Field Bridge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Retained Native Source Residue Field Exit Reduction}
+
+      CM-facing bridge note; strengthened by the 2026-05-22 polarity correction Terminal Source ResidueCMExit.A.
+
+      The retained native source residue is not a request to prove * sing =0 inside the CM route. It is the witness of class exit.
+
+      \[
+      \mu_*^{sing}\ne0
+      \Longrightarrow
+      \neg Pack_Q
+      \vee
+      \neg Part_{N,Q}.
+      \]
+
+      The previous Field-row wording below is retained only as historical/sharper diagnostic language for a residue that has already been converted into a lawful participating tower object. A raw unpaid source residue cannot break Field without breaking Part first. For the live CM target, it lands at Pack if no carrier survives, and otherwise at Part.
+
+      \[
+      Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
+      \Longrightarrow
+      \forall r>0\,\neg Field_{N,r,Q}
+      \]
+
+      The older conditional lower-response language below is retained as a sharper quantitative readout only after a separate theorem has licensed participation. The qualitative raw source-residue landing is now supplied by Terminal Source ResidueCMExit.A at Pack/Part.
+
+      Object boundary: the retained-Field diagnostic below is historical support. It does not classify the positive supplier theorem itself. Positive Remainder Depletion.A remains the forward source-control burden. Raw native source residue is now seated by Terminal Source ResidueCMExit.A at Pack/Part; Field language below applies only after a separate participation license has already converted the object into a coherence/readout residue.
+
+      \[
+      \left[\langle S_{<j}^{loc}w_j,w_j\rangle\right]_+
+      =
+      |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+      \]
+
+      \[
+      \mu_{\ast}^{sing}\perp \rho_{inst,N}.
+      \]
+
+      \[
+      CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+      \]
+
+      This is no longer the live landing for raw native source residue. A raw unpaid source residue breaks Part before Field. The statement is usable only for a coherence/readout residue after a separate theorem has already licensed the source term as lawful particip
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Six-Step Normalized-Mass Source-Drain Proof Package
+    line_start: 51310
+    line_end: 51363
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+    start_anchor: "\\subsection{Clay problem Six-Step Normalized-Mass Source-Drain
+      Proof Package}\n"
+    end_anchor: "\\subsection{Clay problem Source-Drain Definition Alignment And Discharge}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Six-Step Normalized-Mass Source-Drain Proof Package}
+
+      \[
+      \Gamma_T(t)
+      =
+      \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+      \qquad
+      g_T(t)=e^{\Gamma_T(t)},
+      \qquad
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+      \]
+
+      \[
+      M(T)
+      :=
+      |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+      \]
+
+      \[
+      \int g_T(t)^{-1}\langle R,\psi_T\rangle\,dt.
+      \]
+
+      \[
+      \mathcal C_T(a,b)
+      :=
+      \int_a^b
+      \left(
+      r_T^2\|\nabla^2b_k(t)\|_\infty
+      +
+      r_T\|\nabla A_k(t)\|_\infty
+      \right)\,dt.
+      \]
+
+      \[
+      \mathcal C_T(t_-,t_+)\le\varepsilon_M.
+      \]
+
+      The term E comes from differentiating g T(t) -1 . Its central strain part is the gain gauge itself; the remaining oscillatory part is included in the coefficient error controlled by C T( T,t +)= M.
+
+      Thus the mass was already present at the earlier stopped face. The cylinder (X T( T), T,r T) is an earlier source-pulse ancestor.
+
+      The gauge removes the central strain A k(X T,t). The remaining strain coefficient is
+
+      and the low-flow remainder is quadratic around the affine flow. By Coeff Stop.A,
+
+      The first estimate is Coifman--Meyer after extracting the principal strain. The second is Leray projection / Calderon--Zygmund. The third is heat-scale cutoff absorption. The fourth is shell separation plus high-frequency tail decay.
+
+      Pick the earliest tile crossing the threshold . Use a dyadic grid and lexicographic tie-breaking so the selection is measurable.
+
+      In the rescaled ancient sequence, every finite backward slice has zero earlier threshold-crossing source residue.
+
+      This is still a supplier route inside the broader contrapositive program; it is not itself the governing contrapositive primitive.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Source No Pulse Critical Pulse And Sign Audit Note
+    line_start: 51429
+    line_end: 51471
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51429
+    start_anchor: "\\subsection{Source No Pulse Critical Pulse And Sign Audit Note}\n"
+    end_anchor: "\\subsection{Source No Pulse Direct Attempt Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Source No Pulse Critical Pulse And Sign Audit Note}
+
+      Both attempts fail. The failure is not bookkeeping noise: both land on the same scale-critical pulse channel.
+
+      \[
+      \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+      \]
+
+      \[
+      \frac12\frac{d}{dt}\|\nabla u\|_2^2
+      +\nu\|\Delta u\|_2^2
+      =
+      -\int
+      \partial_k u_i\,\partial_i u_j\,\partial_k u_j.
+      \]
+
+      This proves small Lebesgue-time mass for the spill coefficient. It does not prove (MSC), because (MSC) pairs j with the mixed bilinear dissipation measure
+
+      \[
+      d\mu_N^\sigma(t,j,\ell)
+      :=
+      \mathfrak B_{j,\ell}^\sigma(t)\,dt.
+      \]
+
+      \[
+      \mu_N^\sigma(\{\sup_{j>N}\gamma_j>\eta\})
+      \le
+      o_N(1)+\eta\,\mu_N^\sigma([0,T_\ast]).
+      \]
+
+      \[
+      E_j(t)\sfcomp{49962} 2^j
+      \]
+
+      The enstrophy drain route would close if the production term in (Q) were pointwise nonpositive or algebraically dominated by a lower-order L 1 coefficient.
+
+      This is again the no-pulse assertion. The same critical pulse with E j 2 j on a heat-scale interval has
+
+      The installed energy, same-scale coefficient estimates, dyadic exchange antisymmetry, pressure Poisson structure, and algebraic strain identities do not prove this atom. The abstract scheduler countermodel in
+
+      Lebesgue measure alone cannot imply the required mixed-dissipation bad-set domination.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Field Exit.A Tower-Placement Reduction
+      Note
+    line_start: 52416
+    line_end: 52442
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52416
+    start_anchor: "\\subsection{Clay problem Source Pulse Field Exit.A Tower-Placement
+      Reduction Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse First Unpaid Self-Attempt}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Clay problem Source Pulse Field Exit.A Tower-Placement Reduction Note}
+
+      Theorem-facing reduction note for the primary current face of the CM-contrapositive source-pulse program.
+
+      Source Pulse Field Exit.A remains unproved here. The exact same-family tower-placement burden that remains after the three-face execution pass is isolated below.
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n)
+      \]
+
+      \[
+      Pack_{Q_n}(u,\Phi_n),
+      \qquad
+      Part_{N,Q_n}(u,p,\Phi_n).
+      \]
+
+      Since this theorem is already working on the retained Field-face branch, Pack and Part are being kept on the same family, so the packet is not being closed through the Pack or Part exits.
+
+      so the only remaining endpoint manifestation on this retained branch is Jump. The installed field-face bridge then gives
+
+      This is exactly the content of Source PulseDTCPlacement.A: the source-side same-family cover extraction plus the analytic transported-center packet on that cover. .
+
+      The no-pulse theorem would remove the whole source-pulse packet absolutely. The placement theorem only says: if a terminal source-pulse packet is the alleged genuine non-smooth witness and still keeps Pack+Part, then the mixed tower-blown escape must already be owned by the same-family transported-center / tower route, so the witness is forced into Jump, hence not Field.
+
+      The analytic Source PulseDTCAnalytic.A route remains a stronger endpoint/tower supplier route, useful if one wants to remove tower-blown without spending the retained Field branch. It is no longer the live requirement for the CM-exit manifestation theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Clay problem Source Pulse Normal Form and Unspent Reserve Audit
+      Note
+    line_start: 52648
+    line_end: 52692
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52648
+    start_anchor: "\\subsection{Clay problem Source Pulse Normal Form and Unspent
+      Reserve Audit Note}\n"
+    end_anchor: "\\subsection{Clay problem Source Pulse Parabolic Local-Energy / CKN
+      Audit Note}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |
+      \subsection{Clay problem Source Pulse Normal Form and Unspent Reserve Audit Note}
+
+      It proves a bookkeeping-normalization theorem for any failure of Source Pulse Exclusion.A and audits every currently installed original-data reserve against that normalized failure packet. It does not prove the exclusion theorem.
+
+      Assume Source Pulse Exclusion.A fails. Then after passing to a subsequence there is a terminal same-fluid source-pulse packet
+
+      \[
+      \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+      \qquad
+      |I_n|\sfcomp{51159} 2^{-2j_n},
+      \qquad
+      j_n\to\infty,
+      \qquad
+      t_n\uparrow T_\ast,
+      \]
+
+      \[
+      \sup_{t\in I_n}\gamma_{j_n}(t)\ge \eta>0
+      \]
+
+      \[
+      \int_{I_n}
+      \mathfrak S_{j_n,loc}^{active,+}(t)\,dt
+      \ge c_0>0.
+      \]
+
+      The packet may be chosen so that all already-installed legal losses are absorbed into o n(1) and all same-fluid labels, collars, cutoffs, and active windows are fixed from the same preterminal packet. This is just the standard terminal subsequence selection used throughout the source-pulse notes.
+
+      Failure of Source Pulse Exclusion.A gives active windows with nonvanishing normalized source mass. Discard windows whose pressure, cutoff, collar, or finite-depth record losses dominate the source mass; those windows are already legal-loss windows and cannot witness the failed theorem. On the remaining subsequence, the source mass is carried by the native positive active carrier.
+
+      \[
+      t_n\uparrow T_\ast,
+      \qquad
+      j_n\to\infty.
+      \]
+
+      Local energy supports extraction after a physical source-residue packet is available. It does not itself prove source-residue localization from the global or active shell carrier, nor does broad ancient compactness kill the resulting residue.
+
+      Thus local energy/compactness do not charge P n without the additional rigidify package.
+
+      Same-fluid transport preserves labels and legality of the packet. It does not remove, charge, or rigidify the positive source mass. In normal form it is a license condition, not a depletion estimate.
+
+      The normal-form theorem eliminates one possible am
+      % ... source excerpt truncated for packet size ...
+    truncated: true
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Sourcewall Reconcile Normalized Adjoint Theorem Grade Audit
+    line_start: 53105
+    line_end: 53153
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53105
+    start_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade
+      Audit}\n"
+    end_anchor: "\\subsection{Clay problem Source-Wall Root Execution record}\n"
+    include_end_anchor: false
+    group_id: critical-norm-and-field
+    text: |+
+      \subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade Audit}
+
+      That reading is false. The installed CM bridge closes the witness-face logic, but the Field/readout side still depends on accepting the normalized-adjoint source-drain route as theorem-grade.
+
+      \[
+      \left[\forall N\ \exists r_N>0:\ CM_{N,r_N,Q}\right]
+      \Longrightarrow
+      Smooth(Q),
+      \]
+
+      This is not the source wall. It only says where a non-smooth occurrence must exit the CM witness class.
+
+      To accept the normalized-adjoint discharge as theorem-grade, the following five certificates must be read as proved from installed Navier-Stokes inputs, not as formal names or proof sketches.
+
+      \[
+      \langle w_j(t_+),\chi_T(t_+)\rangle
+      =
+      \langle w_j(t),\chi_T(t)\rangle
+      +
+      \int_t^{t_+}g_T(s)^{-1}\langle R,\psi_T\rangle\,ds
+      +
+      E_\Gamma
+      \]
+
+      \[
+      \chi_T(t)=g_T(t)^{-1}\psi_T(t)
+      \]
+
+      \[
+      R=R^{comm}+R^{press}+R^{cut}+R^{off}
+      \]
+
+      \[
+      \|R\|_{L_t^2H^{-1}}^2
+      \le
+      C\int\sum_{q>N}D_q+o_N(1).
+      \]
+
+      The contraction must occur after gain normalization, not by assuming a uniform bound on raw strain amplification.
+
+      The 20260504 normalized-adjoint notes provide a coherent candidate proof and the current direct-live surfaces may select it. But the preserved matrix and source-wall notes still record the alternate source-wall inventory because the acceptance criteria above have not been independently reconciled against the older source-wall failures.
+
+      The direct Local Positive Source Carleson.A branch has now been tested through the diffuse-parent layer. The theorem
+
+      Thus the direct Carleson branch has not closed Local Positive Source Carleson.A; it has reduced it exactly to
+
+      Release/review/export refresh is downstream of this reconciliation. It is not honest to describe the route as "only bureaucratic" until Source Drain.Theorem Grade.A is accepted or one reopened source-wall route is proved.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Clay problem Retained Field Endpoint/Tower Reduction}
+
+    Theorem-facing continuation of the retained Field branch after any selected surface has already been legally sorted into the Field row.
+
+    This does not prove Navier--Stokes smoothness. It removes one fake degree of freedom: a retained Field failure cannot stay as vague source/receiver language. It must become failure of the same-family tower/DTC analytic package, or else an earlier Pack or Part exit.
+
+    \[
+    Pack_Q,
+    \qquad
+    Part_{N,Q},
+    \qquad
+    \Gamma_{\mathrm{pack},Q}\in L^\infty(I),
+    \]
+
+    \[
+    \forall r>0:\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    \neg Field_{N,r,Q}\Longrightarrow Jump.
+    \]
+
+    \[
+    \mathfrak A_{N+1,Q}\in L^\infty(I),
+    \]
+
+    \[
+    Field_{N,r_*,Q}
+    \]
+
+    Apply DTC-to-Tower Bound at tower depth N+1. The theorem requires DTC depth two rungs higher, hence N+3, because the forcing rung is
+
+
+
+    \subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}
+
+    Purpose: push the retained Field branch as far as the installed packet route actually proves, after a selected surface has already been legally sorted into the Field row, without turning the argument into a surface catalog.
+
+    \[
+    T_*<\infty
+    \wedge Pack_Q
+    \wedge Part_{N,Q}
+    \Longrightarrow
+    \forall r>0:\neg Field_{N,r,Q}.
+    \]
+
+    \[
+    \text{selected retained source-reserve or terminal-atom failure}
+    \Longrightarrow
+    \neg Field_{N,r,Q}
+    \]
+
+    The lower-carrier/receiver part has a local bypass. Let R , pre (t) be the union of the label-halo samples, the thickened collar support, and the widened receiver-return support. If there is one compact still-live receiver collar
+
+    \[
+    \mathcal R_{\rho,\psi}^{pre}(t)\subset Q_t^{rec,+}
+    \qquad(t\in I),
+    \]
+
+    \[
+    \sup_{(x,t)\in Q^{rec,+}}
+    \sum_{\ell\le N+m+6}|\nabla^\ell u(x,t)|<\infty,
+    \]
+
+    This is important: the oscillation receiver cannot be the obstruction while the receiver packet remains inside a compact smooth same-fluid collar. In that case the enlarged-ball oscillation closure is paid directly by ordinary local smoothness on the retained collar.
+
+    \[
+    \mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}\in L^1(I),
+    \qquad
+    \mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}\in L^1(I),
+    \qquad
+    \mathfrak b_\psi^{cut}\in L^1(I),
+    \]
+
+
+
+    \subsection{Clay problem Retained Native Source Residue Field Exit Reduction}
+
+    CM-facing bridge note; strengthened by the 2026-05-22 polarity correction Terminal Source ResidueCMExit.A.
+
+    The retained native source residue is not a request to prove * sing =0 inside the CM route. It is the witness of class exit.
+
+    \[
+    \mu_*^{sing}\ne0
+    \Longrightarrow
+    \neg Pack_Q
+    \vee
+    \neg Part_{N,Q}.
+    \]
+
+    The previous Field-row wording below is retained only as historical/sharper diagnostic language for a residue that has already been converted into a lawful participating tower object. A raw unpaid source residue cannot break Field without breaking Part first. For the live CM target, it lands at Pack if no carrier survives, and otherwise at Part.
+
+    \[
+    Pack_Q+Part_{N,Q}+\mu_{\ast}^{sing}\ne 0
+    \Longrightarrow
+    \forall r>0\,\neg Field_{N,r,Q}
+    \]
+
+    The older conditional lower-response language below is retained as a sharper quantitative readout only after a separate theorem has licensed participation. The qualitative raw source-residue landing is now supplied by Terminal Source ResidueCMExit.A at Pack/Part.
+
+    Object boundary: the retained-Field diagnostic below is historical support. It does not classify the positive supplier theorem itself. Positive Remainder Depletion.A remains the forward source-control burden. Raw native source residue is now seated by Terminal Source ResidueCMExit.A at Pack/Part; Field language below applies only after a separate participation license has already converted the object into a coherence/readout residue.
+
+    \[
+    \left[\langle S_{<j}^{loc}w_j,w_j\rangle\right]_+
+    =
+    |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+    \]
+
+    \[
+    \mu_{\ast}^{sing}\perp \rho_{inst,N}.
+    \]
+
+    \[
+    CM_{N,r,Q}=Pack_Q+Part_{N,Q}+Field_{N,r,Q}.
+    \]
+
+    This is no longer the live landing for raw native source residue. A raw unpaid source residue breaks Part before Field. The statement is usable only for a coherence/readout residue after a separate theorem has already licensed the source term as lawful participation.
+
+    Pack Q is the retained same-fluid carrier condition. If the selected residue cannot stay on a bounded same-fluid terminal carrier, the branch has already selected the Pack face.
+
+    For the live CM route this hypothesis is not automatic for native source residue. A raw unpaid source residue is exactly a failure of lawful participation, so it exits through Part once Pack is retained.
+
+    The historical Field theorem below is read only after a separate theorem has already converted the object into a lawful participating source/readout term. Only then can the remaining residue belong to the one-field coherence row.
+
+    Viscosity supplies the signed defect dissipation. Pressure remains within the shared participation carrier. The native positive source residue supplies the retained positive strain/cascade carrier on the selected terminal family.
+
+    This is the native analogue of the retained scale-critical source-reserve response used by RetainedSCTCFailure Field Exit.A.
+
+    The selected retained residue is localized to terminal same-fluid packet windows by the construction of sing after route records and non-selected alternatives are removed.
+
+
+
+    \subsection{Clay problem Six-Step Normalized-Mass Source-Drain Proof Package}
+
+    \[
+    \Gamma_T(t)
+    =
+    \int_t^{t_+}\lambda_{\max}^+(A_k(X_T(s),s))\,ds,
+    \qquad
+    g_T(t)=e^{\Gamma_T(t)},
+    \qquad
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t).
+    \]
+
+    \[
+    M(T)
+    :=
+    |\langle w_j(t_+),\chi_T(t_+)\rangle|^2.
+    \]
+
+    \[
+    \int g_T(t)^{-1}\langle R,\psi_T\rangle\,dt.
+    \]
+
+    \[
+    \mathcal C_T(a,b)
+    :=
+    \int_a^b
+    \left(
+    r_T^2\|\nabla^2b_k(t)\|_\infty
+    +
+    r_T\|\nabla A_k(t)\|_\infty
+    \right)\,dt.
+    \]
+
+    \[
+    \mathcal C_T(t_-,t_+)\le\varepsilon_M.
+    \]
+
+    The term E comes from differentiating g T(t) -1 . Its central strain part is the gain gauge itself; the remaining oscillatory part is included in the coefficient error controlled by C T( T,t +)= M.
+
+    Thus the mass was already present at the earlier stopped face. The cylinder (X T( T), T,r T) is an earlier source-pulse ancestor.
+
+    The gauge removes the central strain A k(X T,t). The remaining strain coefficient is
+
+    and the low-flow remainder is quadratic around the affine flow. By Coeff Stop.A,
+
+    The first estimate is Coifman--Meyer after extracting the principal strain. The second is Leray projection / Calderon--Zygmund. The third is heat-scale cutoff absorption. The fourth is shell separation plus high-frequency tail decay.
+
+    Pick the earliest tile crossing the threshold . Use a dyadic grid and lexicographic tie-breaking so the selection is measurable.
+
+    In the rescaled ancient sequence, every finite backward slice has zero earlier threshold-crossing source residue.
+
+    This is still a supplier route inside the broader contrapositive program; it is not itself the governing contrapositive primitive.
+
+
+
+    \subsection{Source No Pulse Critical Pulse And Sign Audit Note}
+
+    Both attempts fail. The failure is not bookkeeping noise: both land on the same scale-critical pulse channel.
+
+    \[
+    \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
+    \]
+
+    \[
+    \frac12\frac{d}{dt}\|\nabla u\|_2^2
+    +\nu\|\Delta u\|_2^2
+    =
+    -\int
+    \partial_k u_i\,\partial_i u_j\,\partial_k u_j.
+    \]
+
+    This proves small Lebesgue-time mass for the spill coefficient. It does not prove (MSC), because (MSC) pairs j with the mixed bilinear dissipation measure
+
+    \[
+    d\mu_N^\sigma(t,j,\ell)
+    :=
+    \mathfrak B_{j,\ell}^\sigma(t)\,dt.
+    \]
+
+    \[
+    \mu_N^\sigma(\{\sup_{j>N}\gamma_j>\eta\})
+    \le
+    o_N(1)+\eta\,\mu_N^\sigma([0,T_\ast]).
+    \]
+
+    \[
+    E_j(t)\sfcomp{49962} 2^j
+    \]
+
+    The enstrophy drain route would close if the production term in (Q) were pointwise nonpositive or algebraically dominated by a lower-order L 1 coefficient.
+
+    This is again the no-pulse assertion. The same critical pulse with E j 2 j on a heat-scale interval has
+
+    The installed energy, same-scale coefficient estimates, dyadic exchange antisymmetry, pressure Poisson structure, and algebraic strain identities do not prove this atom. The abstract scheduler countermodel in
+
+    Lebesgue measure alone cannot imply the required mixed-dissipation bad-set domination.
+
+
+
+    \subsection{Clay problem Source Pulse Field Exit.A Tower-Placement Reduction Note}
+
+    Theorem-facing reduction note for the primary current face of the CM-contrapositive source-pulse program.
+
+    Source Pulse Field Exit.A remains unproved here. The exact same-family tower-placement burden that remains after the three-face execution pass is isolated below.
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n)
+    \]
+
+    \[
+    Pack_{Q_n}(u,\Phi_n),
+    \qquad
+    Part_{N,Q_n}(u,p,\Phi_n).
+    \]
+
+    Since this theorem is already working on the retained Field-face branch, Pack and Part are being kept on the same family, so the packet is not being closed through the Pack or Part exits.
+
+    so the only remaining endpoint manifestation on this retained branch is Jump. The installed field-face bridge then gives
+
+    This is exactly the content of Source PulseDTCPlacement.A: the source-side same-family cover extraction plus the analytic transported-center packet on that cover. .
+
+    The no-pulse theorem would remove the whole source-pulse packet absolutely. The placement theorem only says: if a terminal source-pulse packet is the alleged genuine non-smooth witness and still keeps Pack+Part, then the mixed tower-blown escape must already be owned by the same-family transported-center / tower route, so the witness is forced into Jump, hence not Field.
+
+    The analytic Source PulseDTCAnalytic.A route remains a stronger endpoint/tower supplier route, useful if one wants to remove tower-blown without spending the retained Field branch. It is no longer the live requirement for the CM-exit manifestation theorem.
+
+
+
+    \subsection{Clay problem Source Pulse Normal Form and Unspent Reserve Audit Note}
+
+    It proves a bookkeeping-normalization theorem for any failure of Source Pulse Exclusion.A and audits every currently installed original-data reserve against that normalized failure packet. It does not prove the exclusion theorem.
+
+    Assume Source Pulse Exclusion.A fails. Then after passing to a subsequence there is a terminal same-fluid source-pulse packet
+
+    \[
+    \mathcal P_n=(Q_n^\Phi,j_n,I_n),
+    \qquad
+    |I_n|\sfcomp{51159} 2^{-2j_n},
+    \qquad
+    j_n\to\infty,
+    \qquad
+    t_n\uparrow T_\ast,
+    \]
+
+    \[
+    \sup_{t\in I_n}\gamma_{j_n}(t)\ge \eta>0
+    \]
+
+    \[
+    \int_{I_n}
+    \mathfrak S_{j_n,loc}^{active,+}(t)\,dt
+    \ge c_0>0.
+    \]
+
+    The packet may be chosen so that all already-installed legal losses are absorbed into o n(1) and all same-fluid labels, collars, cutoffs, and active windows are fixed from the same preterminal packet. This is just the standard terminal subsequence selection used throughout the source-pulse notes.
+
+    Failure of Source Pulse Exclusion.A gives active windows with nonvanishing normalized source mass. Discard windows whose pressure, cutoff, collar, or finite-depth record losses dominate the source mass; those windows are already legal-loss windows and cannot witness the failed theorem. On the remaining subsequence, the source mass is carried by the native positive active carrier.
+
+    \[
+    t_n\uparrow T_\ast,
+    \qquad
+    j_n\to\infty.
+    \]
+
+    Local energy supports extraction after a physical source-residue packet is available. It does not itself prove source-residue localization from the global or active shell carrier, nor does broad ancient compactness kill the resulting residue.
+
+    Thus local energy/compactness do not charge P n without the additional rigidify package.
+
+    Same-fluid transport preserves labels and legality of the packet. It does not remove, charge, or rigidify the positive source mass. In normal form it is a license condition, not a depletion estimate.
+
+    The normal-form theorem eliminates one possible ambiguity: the remaining atom is not hidden inside a forgotten original-data reserve. A failed terminal packet can be selected so that all installed reserves have already been spent, absorbed into legal losses, or shown irrelevant to the native positive active source carrier.
+
+
+
+    \subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade Audit}
+
+    That reading is false. The installed CM bridge closes the witness-face logic, but the Field/readout side still depends on accepting the normalized-adjoint source-drain route as theorem-grade.
+
+    \[
+    \left[\forall N\ \exists r_N>0:\ CM_{N,r_N,Q}\right]
+    \Longrightarrow
+    Smooth(Q),
+    \]
+
+    This is not the source wall. It only says where a non-smooth occurrence must exit the CM witness class.
+
+    To accept the normalized-adjoint discharge as theorem-grade, the following five certificates must be read as proved from installed Navier-Stokes inputs, not as formal names or proof sketches.
+
+    \[
+    \langle w_j(t_+),\chi_T(t_+)\rangle
+    =
+    \langle w_j(t),\chi_T(t)\rangle
+    +
+    \int_t^{t_+}g_T(s)^{-1}\langle R,\psi_T\rangle\,ds
+    +
+    E_\Gamma
+    \]
+
+    \[
+    \chi_T(t)=g_T(t)^{-1}\psi_T(t)
+    \]
+
+    \[
+    R=R^{comm}+R^{press}+R^{cut}+R^{off}
+    \]
+
+    \[
+    \|R\|_{L_t^2H^{-1}}^2
+    \le
+    C\int\sum_{q>N}D_q+o_N(1).
+    \]
+
+    The contraction must occur after gain normalization, not by assuming a uniform bound on raw strain amplification.
+
+    The 20260504 normalized-adjoint notes provide a coherent candidate proof and the current direct-live surfaces may select it. But the preserved matrix and source-wall notes still record the alternate source-wall inventory because the acceptance criteria above have not been independently reconciled against the older source-wall failures.
+
+    The direct Local Positive Source Carleson.A branch has now been tested through the diffuse-parent layer. The theorem
+
+    Thus the direct Carleson branch has not closed Local Positive Source Carleson.A; it has reduced it exactly to
+
+    Release/review/export refresh is downstream of this reconciliation. It is not honest to describe the route as "only bureaucratic" until Source Drain.Theorem Grade.A is accepted or one reopened source-wall route is proved.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Field Endpoint/Tower Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49492
+  line_start: 49492
+  line_end: 49524
+  start_anchor: "\\subsection{Clay problem Retained Field Endpoint/Tower Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Field Endpoint/Tower
+    Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49492
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Field-Exit Source/Receiver Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49525
+  line_start: 49525
+  line_end: 49565
+  start_anchor: "\\subsection{Clay problem Retained Field-Exit Source/Receiver Reduction}\n"
+  end_anchor: "\\subsection{Clay problem Retained Native Source Residue Field Exit
+    Reduction}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Field-Exit
+    Source/Receiver Reduction as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49525
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Retained Native Source Residue Field Exit Reduction
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49566
+  line_start: 49566
+  line_end: 49620
+  start_anchor: "\\subsection{Clay problem Retained Native Source Residue Field Exit
+    Reduction}\n"
+  end_anchor: "\\subsection{Retained Pack/Part Critical Concentration To Field Bridge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Retained Native
+    Source Residue Field Exit Reduction as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:49566
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Six-Step Normalized-Mass Source-Drain Proof Package
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  line_start: 51310
+  line_end: 51363
+  start_anchor: "\\subsection{Clay problem Six-Step Normalized-Mass Source-Drain Proof
+    Package}\n"
+  end_anchor: "\\subsection{Clay problem Source-Drain Definition Alignment And Discharge}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Six-Step Normalized-Mass
+    Source-Drain Proof Package as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51310
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Source No Pulse Critical Pulse And Sign Audit Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51429
+  line_start: 51429
+  line_end: 51471
+  start_anchor: "\\subsection{Source No Pulse Critical Pulse And Sign Audit Note}\n"
+  end_anchor: "\\subsection{Source No Pulse Direct Attempt Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source No Pulse Critical Pulse
+    And Sign Audit Note as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:51429
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Field Exit.A Tower-Placement Reduction
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52416
+  line_start: 52416
+  line_end: 52442
+  start_anchor: "\\subsection{Clay problem Source Pulse Field Exit.A Tower-Placement
+    Reduction Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse First Unpaid Self-Attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Field
+    Exit.A Tower-Placement Reduction Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52416
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Clay problem Source Pulse Normal Form and Unspent Reserve Audit
+    Note
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52648
+  line_start: 52648
+  line_end: 52692
+  start_anchor: "\\subsection{Clay problem Source Pulse Normal Form and Unspent Reserve
+    Audit Note}\n"
+  end_anchor: "\\subsection{Clay problem Source Pulse Parabolic Local-Energy / CKN
+    Audit Note}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Clay problem Source Pulse Normal
+    Form and Unspent Reserve Audit Note as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:52648
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Sourcewall Reconcile Normalized Adjoint Theorem Grade Audit
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53105
+  line_start: 53105
+  line_end: 53153
+  start_anchor: "\\subsection{Sourcewall Reconcile Normalized Adjoint Theorem Grade
+    Audit}\n"
+  end_anchor: "\\subsection{Clay problem Source-Wall Root Execution record}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Sourcewall Reconcile Normalized
+    Adjoint Theorem Grade Audit as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:53105
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-critical-norm-and-field-12
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-critical-norm-and-field-12.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

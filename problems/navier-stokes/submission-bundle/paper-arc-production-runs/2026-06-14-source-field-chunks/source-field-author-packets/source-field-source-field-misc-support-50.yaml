@@ -1,0 +1,862 @@
+---
+version: 1
+kind: ns-source-field-author-work-packet
+generated_at: '2026-06-14T06:55:28Z'
+chunk_id: source-field-source-field-misc-support-50
+arc_id: source-field-reader-integration
+work_unit: rewrite one bounded source-field proof-audit chunk into paper-ready TeX
+paper_goal: make the source-field appendix read as a proof-supporting mathematical
+  account, not raw recovered notes
+chunk:
+  chunk_id: source-field-source-field-misc-support-50
+  sequence: 202
+  group_id: source-field-misc-support
+  title: Miscellaneous source-field support 50
+  author_job: write the material as proof payment, exact support, obsolete material,
+    contradiction, or open continuation
+  source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  source_span_mode: grouped_exact_source_refs
+  line_start: 28729
+  line_end: 29060
+  source_refs:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28729
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28764
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28781
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28817
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28838
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28925
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28994
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29026
+  subsection_titles:
+  - Uniform Temporal Source Integrability.A / Terminal Residue Atom Exclusion.A attempt
+  - Weighted Lifted Skew Defect Legal.A assembly
+  - Weighted Lifted Skew Defect Legal.A attempt
+  - Weighted Lifted Skew Defect Legal.A reassembly after ASAC
+  - Weighted Lq Shifted-Anchor Alignment Rate
+  - 'Source-drain analytic core: Weighted Adj Bessel.A + Residual Pair.A => Weighted
+    Adj Res.A'
+  - Weighted Shell Direct Reserve Summability
+  - Weighted Shell Product Integrability Theorem
+  source_units:
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Uniform Temporal Source Integrability.A / Terminal Residue Atom
+      Exclusion.A attempt
+    line_start: 28729
+    line_end: 28763
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28729
+    start_anchor: "\\subsection{Uniform Temporal Source Integrability.A / Terminal
+      Residue Atom Exclusion.A attempt}\n"
+    end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A assembly}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Uniform Temporal Source Integrability.A / Terminal Residue Atom Exclusion.A attempt}
+
+      Failed discharge from installed inputs. The implication from uniform temporal source integrability to terminal atom exclusion is valid. The required temporal integrability supplier is unavailable from the current route surfaces.
+
+      \[
+      \mu_m^{src}(B_R\times[-\varepsilon,0])
+      \le
+      C_R\varepsilon^{1-1/p}.
+      \]
+
+      \[
+      \mu_*^{src}(B_R\times\{0\})=0.
+      \]
+
+      \[
+      \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+      \]
+
+      \[
+      g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+      \]
+
+      \[
+      \int_{-1}^{0}g_m(s)\,ds=1,
+      \]
+
+      Thus fixed viscosity and finite source mass permit terminal-layer concentration unless an additional same-fluid residence, reverse Holder, -source, or Carleson reserve is supplied.
+
+      Same-fluid ancestry identifies the source as native Navier-Stokes pre-Cauchy production, rather than arbitrary external forcing. The installed same-fluid tools preserve packet lineage and legal routing. They supply no temporal reverse Holder inequality for the positive source measure on the selected terminal windows.
+
+      Each of these is a source-reserve theorem rather than a consequence of the current L 1 source account.
+
+      The supplier itself is open from installed inputs. The direct attempt returns to the same hard atom: produce super-L 1 temporal residence for the native positive source, or install an equivalent source Carleson / active- reserve / positive-remainder depletion theorem.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Lifted Skew Defect Legal.A assembly
+    line_start: 28764
+    line_end: 28780
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28764
+    start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A assembly}\n"
+    end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A attempt}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Lifted Skew Defect Legal.A assembly}
+
+      \[
+      (W_P-W_{P'})J_e.
+      \]
+
+      On the live lifted shell surface the one-sided terminal weights have order-size mismatch across legal source-current edges. Absolute-value control loops to
+
+      \[
+      2^{2j}\sum_P\langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2,
+      \]
+
+      Projected divergence-free adjoint packets eliminate pressure pairings, projection commutators are legal residuals, and packet cutoff commutators are absorbed into dissipation plus the transported packet-factor derivative record.
+
+      Failed unconditional assembly. The exact successful local piece is Projected Cutoff record.A; the live principal obstructions are terminal weight mismatch and lifted active strain alignment.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Lifted Skew Defect Legal.A attempt
+    line_start: 28781
+    line_end: 28816
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28781
+    start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A attempt}\n"
+    end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A reassembly after
+      ASAC}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Lifted Skew Defect Legal.A attempt}
+
+      Failed as an unconditional theorem from the currently installed inputs. A conditional replacement is isolated.
+
+      The defects to absorb are one-sided tail weights, lifted commutator replacement, Leray/projection localization, packet cutoffs, and terminal same-fluid selection.
+
+      \[
+      Source_P^{bare}=
+      \sum_{P'}J^{bare}(P'\to P),
+      \qquad
+      J^{bare}(P\to P')=-J^{bare}(P'\to P).
+      \]
+
+      \[
+      Source_P^{loc}-Source_P^{bare}
+      =
+      Def_P^{weight}+Def_P^{lift}+Def_P^{proj}+Def_P^{cut}+Def_P^{term}.
+      \]
+
+      Projection and ordinary cutoff terms can be routed into the existing pressure/cutoff records when measured in the projected affine packet frame. The obstruction is the pair
+
+      \[
+      Def_P^{weight}+Def_P^{lift}.
+      \]
+
+      \[
+      (W_P-W_{P'})J^{bare}(P'\to P),
+      \]
+
+      \[
+      \sum_{P,P'}\int |W_P-W_{P'}|\,|J^{bare}(P'\to P)|dt,
+      \]
+
+      The signed-current route cannot yet promote Bare Dyadic Skew Current.0 to a terminal localized skew-current record. The next viable subtarget is Pair Weight Flattening.A or Lifted Skew Commutator.A.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Lifted Skew Defect Legal.A reassembly after ASAC
+    line_start: 28817
+    line_end: 28837
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28817
+    start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A reassembly after
+      ASAC}\n"
+    end_anchor: "\\subsection{Weighted Lq Shifted-Anchor Alignment Rate}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Lifted Skew Defect Legal.A reassembly after ASAC}
+
+      Projected Cutoff record.A is locally discharged on the projected affine packet branch. Pressure gradients vanish against projected solenoidal packets, projection commutators are legal residuals, and cutoff commutators are absorbed through the transported packet-factor record.
+
+      The absolute Pair Weight Flattening.A target remains open, but it is no longer the right post-ASAC positive-source consumer. The weighted pair defect
+
+      \[
+      (W_P-W_{P'})J_e
+      \]
+
+      Lifted Skew Commutator.A no longer remains open for the active-alignment reason isolated here. The lifted commutator contains the active strain-alignment carrier
+
+      \[
+      2^{2j}\sum_P\langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+      \]
+
+      Terminal Signed Saturation.A remains the parallel source-wall target. It would recover or price the missing signed counter-edge for each selected positive terminal source edge.
+
+      Unconditional reassembly fails. After the ASAC and one-sided pair-defect updates, the remaining mathematical split is terminal signed-partner saturation versus internal donor-sink depletion.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Lq Shifted-Anchor Alignment Rate
+    line_start: 28838
+    line_end: 28846
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28838
+    start_anchor: "\\subsection{Weighted Lq Shifted-Anchor Alignment Rate}\n"
+    end_anchor: "\\subsection{Weighted Pressure-Flux Estimate And Tail Condition}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Lq Shifted-Anchor Alignment Rate}
+
+      Let t * be the shifted aligned anchor. The finite-window material-cone and carrier-mismatch packet gives
+
+      Here G mat is the finite-time material singular gap, c0 is the initial right-singular overlap, and delta car is the carrier-mismatch term controlled by the short-window estimate.
+
+      So the shifted-anchor entrance-alignment rate is reduced to the normalized finite-window estimate above.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: 'Source-drain analytic core: Weighted Adj Bessel.A + Residual
+      Pair.A => Weighted Adj Res.A'
+    line_start: 28925
+    line_end: 28961
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28925
+    start_anchor: "\\subsection{Source-drain analytic core: Weighted Adj Bessel.A
+      + Residual Pair.A => Weighted Adj Res.A}\n"
+    end_anchor: "\\subsection{Weighted Shell Coefficient Domination Test}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Source-drain analytic core: Weighted Adj Bessel.A + Residual Pair.A => Weighted Adj Res.A}
+
+      Theorem-grade assembly conditional on the projected affine packet frame already locked in the source-drain definition surfaces.
+
+      \[
+      \chi_T:=g_T^{-1}\psi_T,
+      \qquad
+      g_T=e^{\Gamma_T}.
+      \]
+
+      \[
+      \boxed{
+      \left\|\sum_T c_T\chi_T\right\|_{L_t^2H_x^1}^2
+      \le C\sum_T|c_T|^2.
+      }
+      \]
+
+      \[
+      \boxed{
+      \|R\|_{L_t^2H_x^{-1}}^2
+      \le C\int_I\sum_{q>N}D_q(t)\,dt+o_N(1).
+      }
+      \]
+
+      \[
+      R=R^{comm}+R^{press}+R^{cut}+R^{off},
+      \]
+
+      \[
+      \sum_T|a_T|^2=1.
+      \]
+
+      Weighted Adj Res.A is the analytic charge estimate used in the parent-or-charge dichotomy. Together with Gain Stop.A, Parent Kernel.A, and First Pulse Kill.A, it yields
+
+      Analytic core assembled. The theorem uses already-locked inputs Weighted Adj Bessel.A and Residual Pair.A; it does not reprove their packet-calculus hypotheses.
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Shell Direct Reserve Summability
+    line_start: 28994
+    line_end: 29025
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28994
+    start_anchor: "\\subsection{Weighted Shell Direct Reserve Summability}\n"
+    end_anchor: "\\subsection{Weighted Shell Product Integrability Theorem}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Shell Direct Reserve Summability}
+
+      \[
+      R_N(t)=2^{-2N}(\Lambda_N(t)+\Theta_N^\sharp(t))^2E_N(t)
+      \in L^1(I).
+      \]
+
+      \[
+      A_N(t)=\Lambda_N(t)+\Theta_N^\sharp(t).
+      \]
+
+      \[
+      \Theta_N^\sharp(t)
+      \le C_{N,M}\|u(t)\|_{L^2}^2
+      \le C_{N,M}Q_0.
+      \]
+
+      \[
+      A_N(t)\le C_{N,M,Q_0}<\infty
+      \]
+
+      \[
+      E_N(t)
+      \le \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
+      \sfcomp{27528} \|\nabla u(t)\|_2^2.
+      \]
+
+      The reserve term in Weighted Shell.Absorb is summable on each fixed-threshold scheduler interval.
+
+      The constants depend on the fixed scheduler threshold N. This theorem does not prove the stronger threshold-uniform coefficient domination
+
+
+    truncated: false
+  - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+    subsection_title: Weighted Shell Product Integrability Theorem
+    line_start: 29026
+    line_end: 29060
+    source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29026
+    start_anchor: "\\subsection{Weighted Shell Product Integrability Theorem}\n"
+    end_anchor: "\\subsection{Whole Proof Skeleton Without Route Jargon}\n"
+    include_end_anchor: false
+    group_id: source-field-misc-support
+    text: |+
+      \subsection{Weighted Shell Product Integrability Theorem}
+
+      \[
+      \int_I(\Lambda_N(t)+\Theta_N^\sharp(t))E_N(t)\,dt<\infty.
+      \]
+
+      \[
+      A_N(t)=\Lambda_N(t)+\Theta_N^\sharp(t).
+      \]
+
+      \[
+      \Theta_N^\sharp(t)\le C_{N,M}Q_0.
+      \]
+
+      \[
+      A_N(t)
+      \le
+      C_{N,M,Q_0}
+      \]
+
+      \[
+      E_N(t)
+      \le
+      \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
+      \sfcomp{27560}
+      \|\nabla u(t)\|_2^2.
+      \]
+
+      This proves the direct product-integrability route for Weighted Shell.Absorb on each fixed-threshold scheduler interval.
+
+      Together with the algebraic absorption inequality, it also confirms the exact pressure-side weighted-shell contribution is time-integrable in the fixed-threshold route.
+
+      The constants depend on N. This theorem supplies fixed-threshold scheduler control. It does not assert a threshold-uniform bound for all N with one constant.
+
+
+    truncated: false
+  context_excerpt: |+
+    \subsection{Uniform Temporal Source Integrability.A / Terminal Residue Atom Exclusion.A attempt}
+
+    Failed discharge from installed inputs. The implication from uniform temporal source integrability to terminal atom exclusion is valid. The required temporal integrability supplier is unavailable from the current route surfaces.
+
+    \[
+    \mu_m^{src}(B_R\times[-\varepsilon,0])
+    \le
+    C_R\varepsilon^{1-1/p}.
+    \]
+
+    \[
+    \mu_*^{src}(B_R\times\{0\})=0.
+    \]
+
+    \[
+    \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds\le C_R.
+    \]
+
+    \[
+    g_m(s)=m\mathbf 1_{(-1/m,0]}(s).
+    \]
+
+    \[
+    \int_{-1}^{0}g_m(s)\,ds=1,
+    \]
+
+    Thus fixed viscosity and finite source mass permit terminal-layer concentration unless an additional same-fluid residence, reverse Holder, -source, or Carleson reserve is supplied.
+
+    Same-fluid ancestry identifies the source as native Navier-Stokes pre-Cauchy production, rather than arbitrary external forcing. The installed same-fluid tools preserve packet lineage and legal routing. They supply no temporal reverse Holder inequality for the positive source measure on the selected terminal windows.
+
+    Each of these is a source-reserve theorem rather than a consequence of the current L 1 source account.
+
+    The supplier itself is open from installed inputs. The direct attempt returns to the same hard atom: produce super-L 1 temporal residence for the native positive source, or install an equivalent source Carleson / active- reserve / positive-remainder depletion theorem.
+
+
+
+    \subsection{Weighted Lifted Skew Defect Legal.A assembly}
+
+    \[
+    (W_P-W_{P'})J_e.
+    \]
+
+    On the live lifted shell surface the one-sided terminal weights have order-size mismatch across legal source-current edges. Absolute-value control loops to
+
+    \[
+    2^{2j}\sum_P\langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2,
+    \]
+
+    Projected divergence-free adjoint packets eliminate pressure pairings, projection commutators are legal residuals, and packet cutoff commutators are absorbed into dissipation plus the transported packet-factor derivative record.
+
+    Failed unconditional assembly. The exact successful local piece is Projected Cutoff record.A; the live principal obstructions are terminal weight mismatch and lifted active strain alignment.
+
+
+
+    \subsection{Weighted Lifted Skew Defect Legal.A attempt}
+
+    Failed as an unconditional theorem from the currently installed inputs. A conditional replacement is isolated.
+
+    The defects to absorb are one-sided tail weights, lifted commutator replacement, Leray/projection localization, packet cutoffs, and terminal same-fluid selection.
+
+    \[
+    Source_P^{bare}=
+    \sum_{P'}J^{bare}(P'\to P),
+    \qquad
+    J^{bare}(P\to P')=-J^{bare}(P'\to P).
+    \]
+
+    \[
+    Source_P^{loc}-Source_P^{bare}
+    =
+    Def_P^{weight}+Def_P^{lift}+Def_P^{proj}+Def_P^{cut}+Def_P^{term}.
+    \]
+
+    Projection and ordinary cutoff terms can be routed into the existing pressure/cutoff records when measured in the projected affine packet frame. The obstruction is the pair
+
+    \[
+    Def_P^{weight}+Def_P^{lift}.
+    \]
+
+    \[
+    (W_P-W_{P'})J^{bare}(P'\to P),
+    \]
+
+    \[
+    \sum_{P,P'}\int |W_P-W_{P'}|\,|J^{bare}(P'\to P)|dt,
+    \]
+
+    The signed-current route cannot yet promote Bare Dyadic Skew Current.0 to a terminal localized skew-current record. The next viable subtarget is Pair Weight Flattening.A or Lifted Skew Commutator.A.
+
+
+
+    \subsection{Weighted Lifted Skew Defect Legal.A reassembly after ASAC}
+
+    Projected Cutoff record.A is locally discharged on the projected affine packet branch. Pressure gradients vanish against projected solenoidal packets, projection commutators are legal residuals, and cutoff commutators are absorbed through the transported packet-factor record.
+
+    The absolute Pair Weight Flattening.A target remains open, but it is no longer the right post-ASAC positive-source consumer. The weighted pair defect
+
+    \[
+    (W_P-W_{P'})J_e
+    \]
+
+    Lifted Skew Commutator.A no longer remains open for the active-alignment reason isolated here. The lifted commutator contains the active strain-alignment carrier
+
+    \[
+    2^{2j}\sum_P\langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
+    \]
+
+    Terminal Signed Saturation.A remains the parallel source-wall target. It would recover or price the missing signed counter-edge for each selected positive terminal source edge.
+
+    Unconditional reassembly fails. After the ASAC and one-sided pair-defect updates, the remaining mathematical split is terminal signed-partner saturation versus internal donor-sink depletion.
+
+
+
+    \subsection{Weighted Lq Shifted-Anchor Alignment Rate}
+
+    Let t * be the shifted aligned anchor. The finite-window material-cone and carrier-mismatch packet gives
+
+    Here G mat is the finite-time material singular gap, c0 is the initial right-singular overlap, and delta car is the carrier-mismatch term controlled by the short-window estimate.
+
+    So the shifted-anchor entrance-alignment rate is reduced to the normalized finite-window estimate above.
+
+
+
+    \subsection{Source-drain analytic core: Weighted Adj Bessel.A + Residual Pair.A => Weighted Adj Res.A}
+
+    Theorem-grade assembly conditional on the projected affine packet frame already locked in the source-drain definition surfaces.
+
+    \[
+    \chi_T:=g_T^{-1}\psi_T,
+    \qquad
+    g_T=e^{\Gamma_T}.
+    \]
+
+    \[
+    \boxed{
+    \left\|\sum_T c_T\chi_T\right\|_{L_t^2H_x^1}^2
+    \le C\sum_T|c_T|^2.
+    }
+    \]
+
+    \[
+    \boxed{
+    \|R\|_{L_t^2H_x^{-1}}^2
+    \le C\int_I\sum_{q>N}D_q(t)\,dt+o_N(1).
+    }
+    \]
+
+    \[
+    R=R^{comm}+R^{press}+R^{cut}+R^{off},
+    \]
+
+    \[
+    \sum_T|a_T|^2=1.
+    \]
+
+    Weighted Adj Res.A is the analytic charge estimate used in the parent-or-charge dichotomy. Together with Gain Stop.A, Parent Kernel.A, and First Pulse Kill.A, it yields
+
+    Analytic core assembled. The theorem uses already-locked inputs Weighted Adj Bessel.A and Residual Pair.A; it does not reprove their packet-calculus hypotheses.
+
+
+
+    \subsection{Weighted Shell Direct Reserve Summability}
+
+    \[
+    R_N(t)=2^{-2N}(\Lambda_N(t)+\Theta_N^\sharp(t))^2E_N(t)
+    \in L^1(I).
+    \]
+
+    \[
+    A_N(t)=\Lambda_N(t)+\Theta_N^\sharp(t).
+    \]
+
+    \[
+    \Theta_N^\sharp(t)
+    \le C_{N,M}\|u(t)\|_{L^2}^2
+    \le C_{N,M}Q_0.
+    \]
+
+    \[
+    A_N(t)\le C_{N,M,Q_0}<\infty
+    \]
+
+    \[
+    E_N(t)
+    \le \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
+    \sfcomp{27528} \|\nabla u(t)\|_2^2.
+    \]
+
+    The reserve term in Weighted Shell.Absorb is summable on each fixed-threshold scheduler interval.
+
+    The constants depend on the fixed scheduler threshold N. This theorem does not prove the stronger threshold-uniform coefficient domination
+
+
+
+    \subsection{Weighted Shell Product Integrability Theorem}
+
+    \[
+    \int_I(\Lambda_N(t)+\Theta_N^\sharp(t))E_N(t)\,dt<\infty.
+    \]
+
+    \[
+    A_N(t)=\Lambda_N(t)+\Theta_N^\sharp(t).
+    \]
+
+    \[
+    \Theta_N^\sharp(t)\le C_{N,M}Q_0.
+    \]
+
+    \[
+    A_N(t)
+    \le
+    C_{N,M,Q_0}
+    \]
+
+    \[
+    E_N(t)
+    \le
+    \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
+    \sfcomp{27560}
+    \|\nabla u(t)\|_2^2.
+    \]
+
+    This proves the direct product-integrability route for Weighted Shell.Absorb on each fixed-threshold scheduler interval.
+
+    Together with the algebraic absorption inequality, it also confirms the exact pressure-side weighted-shell contribution is time-integrable in the fixed-threshold route.
+
+    The constants depend on N. This theorem supplies fixed-threshold scheduler control. It does not assert a threshold-uniform bound for all N with one constant.
+
+
+  context_truncated: false
+  completion_test: each source unit is rewritten or certified as proof, support, obstruction,
+    obsolete material, contradiction, or open continuation, with Pack/Part/Field role
+    named where relevant
+source_rewrites:
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Uniform Temporal Source Integrability.A / Terminal Residue Atom
+    Exclusion.A attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28729
+  line_start: 28729
+  line_end: 28763
+  start_anchor: "\\subsection{Uniform Temporal Source Integrability.A / Terminal Residue
+    Atom Exclusion.A attempt}\n"
+  end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A assembly}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Uniform Temporal Source Integrability.A
+    / Terminal Residue Atom Exclusion.A attempt as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28729
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Lifted Skew Defect Legal.A assembly
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28764
+  line_start: 28764
+  line_end: 28780
+  start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A assembly}\n"
+  end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A attempt}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Lifted Skew Defect Legal.A
+    assembly as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28764
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Lifted Skew Defect Legal.A attempt
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28781
+  line_start: 28781
+  line_end: 28816
+  start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A attempt}\n"
+  end_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A reassembly after ASAC}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Lifted Skew Defect Legal.A
+    attempt as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28781
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Lifted Skew Defect Legal.A reassembly after ASAC
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28817
+  line_start: 28817
+  line_end: 28837
+  start_anchor: "\\subsection{Weighted Lifted Skew Defect Legal.A reassembly after
+    ASAC}\n"
+  end_anchor: "\\subsection{Weighted Lq Shifted-Anchor Alignment Rate}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Lifted Skew Defect Legal.A
+    reassembly after ASAC as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28817
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Lq Shifted-Anchor Alignment Rate
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28838
+  line_start: 28838
+  line_end: 28846
+  start_anchor: "\\subsection{Weighted Lq Shifted-Anchor Alignment Rate}\n"
+  end_anchor: "\\subsection{Weighted Pressure-Flux Estimate And Tail Condition}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Lq Shifted-Anchor Alignment
+    Rate as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28838
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: 'Source-drain analytic core: Weighted Adj Bessel.A + Residual
+    Pair.A => Weighted Adj Res.A'
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28925
+  line_start: 28925
+  line_end: 28961
+  start_anchor: "\\subsection{Source-drain analytic core: Weighted Adj Bessel.A +
+    Residual Pair.A => Weighted Adj Res.A}\n"
+  end_anchor: "\\subsection{Weighted Shell Coefficient Domination Test}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Source-drain analytic core: Weighted
+    Adj Bessel.A + Residual Pair.A => Weighted Adj Res.A as paper-ready TeX with proof/support/open
+    status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28925
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Shell Direct Reserve Summability
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28994
+  line_start: 28994
+  line_end: 29025
+  start_anchor: "\\subsection{Weighted Shell Direct Reserve Summability}\n"
+  end_anchor: "\\subsection{Weighted Shell Product Integrability Theorem}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Shell Direct Reserve
+    Summability as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28994
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+- op: replace_between
+  path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
+  subsection_title: Weighted Shell Product Integrability Theorem
+  source_ref: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29026
+  line_start: 29026
+  line_end: 29060
+  start_anchor: "\\subsection{Weighted Shell Product Integrability Theorem}\n"
+  end_anchor: "\\subsection{Whole Proof Skeleton Without Route Jargon}\n"
+  include_start_anchor: true
+  include_end_anchor: false
+  author_replacement_required: true
+  replacement: 'AUTHOR REPLACEMENT REQUIRED: rewrite Weighted Shell Product Integrability
+    Theorem as paper-ready TeX with proof/support/open status.
+
+'
+  repo_sources_used:
+  - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29026
+  endpoint_status: unset
+  reader_payments: []
+  math_reader_critic:
+    claim_truth_attack: unset
+    reader_thread_attack: unset
+    unpaid_derivation_attack: unset
+    repair_decision: unset
+    unresolved_failures: []
+  rewrite_contract: replacement must preserve the subsection heading and write the
+    material as proof, support, obstruction, obsolete material, contradiction, or
+    open continuation
+author_contract:
+  chunk_id: source-field-source-field-misc-support-50
+  must_write:
+  - finished TeX prose for every source span in this chunk
+  - plain reader-facing explanation before compressed notation
+  - proof, support, obstruction, obsolete material, contradiction, or open continuation
+    status for each source result
+  - Pack, Part, or Field role when the source touches CM class exit
+  - gold direct-route status only where the source actually supplies or obstructs
+    that route
+  - CM counterpart where a gold obstruction or source-field endpoint enters the class-exit
+    argument
+  must_criticize:
+  - attack the strongest claim in the replacement
+  - name the exact sentence where a reader could lose the thread
+  - name any unpaid derivation that remains, or say why it is paid on the page
+  - record a repair decision before integration
+  must_not_write:
+  - raw note dump
+  - internal automation voice
+  - free-running theorem search
+  - confidence language that hides an open derivation
+  allowed_endpoint_statuses:
+  - proved in this arc
+  - support for a named later proof step
+  - gold obstruction
+  - silver CM face payment
+  - obsolete or superseded with reason
+  - logical contradiction
+  - open continuation with exact missing derivation
+math_containment_rule: no free-running theorem pursuit; math work may enter only as
+  TeX-ready derivation, exact obstruction, endpoint status, or CM counterpart for
+  a named source sentence in this chunk
+verification_plan:
+  before_apply: replace every author_replacement_required body with final TeX and
+    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+  apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-source-field-misc-support-50.yaml
+    --dry-run
+  targeted_check: review only the changed source-field spans before any milestone
+    PDF build

@@ -93,9 +93,9 @@ The direct Calderon--Zygmund estimate gives
 
 ```math
 \|P^{loc}_{j,L}\nabla^2p\|_\infty
-\lesssim
-\sum_{m\sim j}
-\|\nabla u_m\|_\infty\|\nabla u_{\le m+O(1)}\|_\infty
+\le C_{\mathrm{PH}}
+\sum_{|m-j|\le L_0}
+\|\nabla u_m\|_\infty\|\nabla u_{\le m+L_0}\|_\infty
 +\mathrm{tails}.
 \tag{PHNS.5}
 ```

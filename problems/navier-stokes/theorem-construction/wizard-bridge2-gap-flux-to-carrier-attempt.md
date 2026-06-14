@@ -21,7 +21,7 @@ The signed route reduces the interior survivor to the far-gap flux packet
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L
 \int_0^{\ell_N}
 \chi_{mid}(\log\ell)
 \int
@@ -41,9 +41,9 @@ This is the continuum Hardy-type reduction from
 Dyadize
 
 ```math
-\ell\sim 2^{-j},
+2^{-j-1}\le \ell\le 2^{-j+1},
 \qquad
-r\sim 2^{-k},
+2^{-k-1}\le r\le 2^{-k+1},
 \qquad
 k<j-L_0.
 ```
@@ -110,8 +110,13 @@ By contrast, the continuum flux route pairs the low-shell strain with the
 
 ```math
 \int \tau_j^{H^1}[u](x,t)\,dx
-\sim
-2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2.
+\le C_\tau
+2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2,
+\qquad
+c_\tau
+2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2
+\le
+\int \tau_j^{H^1}[u](x,t)\,dx.
 \tag{6}
 ```
 
@@ -133,7 +138,7 @@ This is an extra active derivative gap.
 Because `D_j=2^{2j}E_j`, any direct comparison of the form
 
 ```math
-\Pi_N^{mid,far,L}\lesssim \mathcal C_N^\sigma
+\Pi_N^{mid,far,L}\le C_B \mathcal C_N^\sigma
 \tag{8}
 ```
 
@@ -169,7 +174,7 @@ In dyadic form, the desired conclusion is a comparison
 ```math
 \sum_{j\ge N}\sum_{k<j-L_0}
 2^{-(j-k)}\,\mathfrak S_k(t)\,E_j(t)
-\lesssim
+\le C_{B2}
 \sum_{k>N+M}
 2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}\,
 \mathcal D_k^\sigma(t),
@@ -181,7 +186,7 @@ or after one more square reduction,
 ```math
 \sum_{j\ge N}\sum_{k<j-L_0}
 2^{-(j-k)}\,\mathfrak S_k(t)\,E_j(t)
-\lesssim
+\le C_{B2}'
 \sum_{k>N+M}2^k\big(\mathcal D_k^\sigma(t)\big)^2.
 \tag{11}
 ```

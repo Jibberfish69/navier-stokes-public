@@ -15,7 +15,7 @@ This estimate is intended to feed the damped scalar response and produce active-
 
 ## Fixed-shell amplitude test
 
-At shell `j`, the nonlinear source has the schematic H1 shell form
+At shell `j`, the nonlinear source is represented by the H1 shell form
 
 ```math
 F_j(t)=2^{2j}\langle \Delta_j(u\cdot\nabla u),\Delta_j u\rangle.
