@@ -204,7 +204,7 @@ main part of `\mathcal R_P` is the native positive strain/source carrier:
 
 ```math
 \mathcal R_P^{main}
-\sim
+:=
 \chi_P\langle S_{<j}^{loc}w_j,w_j\rangle.
 ```
 

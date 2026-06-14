@@ -289,7 +289,7 @@ Combining `(IC.14)` and `(IC.15)` gives the exact transported-packet comparison
 \tag{IC.16}
 ```
 
-This is an exact inequality, not a schematic one.
+This is an exact inequality, not shorthand.
 
 It shows:
 

@@ -22,10 +22,13 @@ window by net low-strain action plus Part/Field/Zeno losses:
 
 ```math
 \int_W e(t)[\sigma(t)]_+\,dt
-\lesssim
+\le
+C_{\mathrm{HDS}}
+\left(
 \sup_W e\,
 \left[\int_W\sigma(t)\,dt\right]_+
-+\mathrm{Part}+\mathrm{Field}+\mathrm{Zeno}.
++\mathrm{Part}+\mathrm{Field}+\mathrm{Zeno}
+\right).
 \tag{HDS.1}
 ```
 
@@ -63,7 +66,7 @@ but
 
 ```math
 \int_W e(t)[\sigma(t)]_+\,dt
-\sim
+=
 E A |W|/\pi.
 ```
 
@@ -170,7 +173,7 @@ where
 ```math
 E_P:=\sup_{I_P}e_P(t),
 \qquad
-\tau_P\simeq(\nu2^{2j_P})^{-1}.
+\tau_P:=(\nu2^{2j_P})^{-1}.
 ```
 
 The loss term records only the already-legal errors needed to pass from the
@@ -262,10 +265,13 @@ Expanding `(HDS.4)` gives the native pieces:
 
 ```math
 |\partial_t\sigma_P|
-\lesssim
+\le
+C_{\mathrm{BV}}
+\left(
 |\partial_t S_{<j_P}^{loc}|
 +|S_{<j_P}^{loc}|\,|\partial_t n_P|
-+\mathrm{comm}_{P}^{flow/cut}.
++\mathrm{comm}_{P}^{flow/cut}
+\right).
 \tag{HDS.10}
 ```
 
@@ -300,7 +306,7 @@ main way to spend large `Var_{I_P}(sigma_P)` when the sampled low strain
 changes on the heat timescale:
 
 ```math
-\tau_P\mathrm{Var}_{I_P}(\sigma_P)\gtrsim 1
+\tau_P\mathrm{Var}_{I_P}(\sigma_P)\ge c_{\mathrm{burst}}
 \quad\Longrightarrow\quad
 \text{parabolic-rate strain burst}.
 \tag{HDS.11}

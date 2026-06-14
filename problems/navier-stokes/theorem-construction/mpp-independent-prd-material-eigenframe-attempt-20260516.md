@@ -19,7 +19,7 @@ source carrier is
 
 ```math
 D_N(\mathcal F_N)
-\simeq
+:=
 \sum_{P\in\mathcal F_N}
 \int_{I_P}
 E_P(t)\,[\sigma_P(t)]_+\,dt,
@@ -29,7 +29,7 @@ E_P(t)\,[\sigma_P(t)]_+\,dt,
 where
 
 ```math
-E_P(t)\simeq\int_{B_P(t)} |w_{j_P}|^2,
+E_P(t):=\int_{B_P(t)} |w_{j_P}|^2,
 \qquad
 \sigma_P(t):=
 n_P(t)\cdot S^{loc}_{<j_P}(X_P(t),t)n_P(t).
@@ -37,7 +37,7 @@ n_P(t)\cdot S^{loc}_{<j_P}(X_P(t),t)n_P(t).
 ```
 
 Here `n_P` is the transported high-vorticity direction and
-`tau_P\simeq(\nu2^{2j_P})^{-1}` is the heat time.
+`tau_P:=(\nu2^{2j_P})^{-1}` is the heat time.
 
 The hoped-for direct theorem is
 
@@ -135,7 +135,8 @@ The far-low term has a real gain:
 
 ```math
 \tau_P\int_{I_P}|D_tS^{far}_{j_P,L}|\,dt
-\lesssim
+\le
+C_{\mathrm{far}}
 2^{-2L}\int_{I_P}\|S^{far}_{j_P,L}\|_\infty\,dt
 +\mathrm{legal\ commutators}.
 \tag{MEF.8}
@@ -149,8 +150,12 @@ heat rate without the `2^{-2L}` penalty.
 For the near band there is no heat-scale gain:
 
 ```math
-\tau_P\nu2^{2m}\simeq 1
-\qquad (m=j_P-O_L(1)).
+c_{\mathrm{near}}
+\le
+\tau_P\nu2^{2m}
+\le
+C_{\mathrm{near}}
+\qquad (|m-j_P|\le C_L).
 \tag{MEF.9}
 ```
 
@@ -196,11 +201,12 @@ rotation into the expanding strain direction cannot be free.
 
 ## 4. Why absolute pressure/source control loops
 
-A direct Calderon--Zygmund/Bernstein bound on `(MEF.10)` gives, schematically,
+A direct Calderon--Zygmund/Bernstein bound on `(MEF.10)` gives
 
 ```math
 \|P^{loc}_{j,L}(S^2+\Omega^2+\nabla^2p)\|_\infty
-\lesssim
+\le
+C_{\mathrm{CZ}}
 \|\nabla u\|_\infty^2
 \tag{MEF.13}
 ```

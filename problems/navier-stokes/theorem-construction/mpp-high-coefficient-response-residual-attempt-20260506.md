@@ -160,7 +160,7 @@ every output-visible term at shell `j` containing a far coefficient
 `u_q`, `q>j+C`, must also contain response frequency `Z_\ell` with
 
 ```math
-|\ell-q|\le O(1),
+|\ell-q|\le C_{beat},
 \tag{HCR.9}
 ```
 
@@ -177,12 +177,15 @@ P_j(Z_\ell\cdot\nabla u_q).
 ```
 
 With smooth Littlewood-Paley cutoffs, the product has Fourier support in the
-Minkowski sum of annuli `|\xi|\simeq 2^q` and `|\xi|\simeq 2^\ell`.  If
+Minkowski sum of annuli
+`c_{LP}2^q\le|\xi|\le C_{LP}2^q` and
+`c_{LP}2^\ell\le|\xi|\le C_{LP}2^\ell`. If
 `q>j+C` and `\ell\le q-K` for `K` larger than the cutoff overlap constant, the
 sum is supported at frequency comparable to `2^q`, hence disjoint from shell
 `j`.  Thus the projection `P_j` vanishes.  Symmetrically, if
 `\ell\ge q+K`, the output is comparable to `2^\ell`, again disjoint from
-shell `j`.  The only output-visible region is `|\ell-q|\le O(1)`.
+shell `j`. The only output-visible region is `|\ell-q|\le C_{beat}`, where
+`C_{beat}` is fixed by the cutoff overlap.
 `\square`
 
 ## 5. Consequence
@@ -201,7 +204,8 @@ where:
 
 ```text
 R^{near-col} is eliminated by using L^{col}_{u,j};
-R^{far-beat} is only the high-high-to-low beat channel q ~= ell >> j.
+R^{far-beat} is only the high-high-to-low beat channel
+|\ell-q|\le C_{beat}, q>j+C.
 ```
 
 Therefore the honest direct reduction is:

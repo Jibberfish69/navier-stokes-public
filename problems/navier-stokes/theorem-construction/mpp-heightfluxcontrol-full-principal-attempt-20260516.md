@@ -152,8 +152,8 @@ ScaleCriticalTreeCarleson.A.
 
 ## Direct Test Of The Drain
 
-The installed normalized-adjoint package proves a child-mass parent-or-charge
-law.  In schematic form:
+The installed normalized-adjoint package proves the child-mass parent-or-charge
+law:
 
 ```math
 M(T)
@@ -210,7 +210,7 @@ the ordinary high-frequency dissipation tail is
 while the donor height is
 
 ```math
-\sup_{k<L-4}2^kD_L(t)\simeq 2^L A_Lh_L^{-1}.
+\sup_{k<L-4}2^kD_L(t)=2^{L-5} A_Lh_L^{-1}.
 ```
 
 Taking `A_L\to0` and `h_L` much smaller than the heat-scale tail keeps the

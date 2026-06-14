@@ -91,7 +91,7 @@ None is installed by the identity itself.
 
 ## 2. Alternative proof attempt: local energy as positive variation
 
-On a transported same-fluid packet one can write schematically:
+On a transported same-fluid packet the local energy inequality gives:
 
 ```math
 E_P(t_2)+\nu D_P([t_1,t_2])
@@ -140,7 +140,7 @@ After weighted tail summation, the lifted term becomes a lower-to-upper carrier:
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma
-\sim
+:=
 \sum_{k>j+M}
 2^{-\sigma(k-j)}
 a_k(t)\mathcal D_k^\uparrow(t).

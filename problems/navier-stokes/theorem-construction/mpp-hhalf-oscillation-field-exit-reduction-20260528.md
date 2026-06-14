@@ -51,15 +51,17 @@ or the corresponding normalized terminal quantity diverges.
 Choose a matched physical scale
 
 ```math
-r_m\simeq 2^{-J_m}.
+r_m:=2^{-J_m},
+\qquad
+A_m:=\{h:c_A r_m\le |h|\le C_A r_m\}.
 ```
 
-The dyadic shell packet is equivalent to matched-scale finite-difference energy. Schematically,
+The dyadic shell packet is controlled by matched-scale finite-difference energy:
 
 ```math
 2^{J_m}\|P_{J_m}v_m\|_2^2
-\lesssim
-r_m^{-1}\int_{|h|\simeq r_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,d\sigma(h)
+\le
+C_{\mathrm{LP}}r_m^{-1}\int_{A_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,d\sigma(h)
 ```
 
 with the reverse inequality available after the usual annular Littlewood--Paley localization.
@@ -78,7 +80,7 @@ Field_{N(J),r_J,Q}(\mathcal W)
 C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W)
 ```
 
-for `r_J\simeq 2^{-J}` and a depth `N(J)` high enough to read the selected shell.
+for `r_J=2^{-J}` and a depth `N(J)` high enough to read the selected shell.
 
 Once this theorem is installed, the branch closes: retained Pack keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is therefore Field.
 

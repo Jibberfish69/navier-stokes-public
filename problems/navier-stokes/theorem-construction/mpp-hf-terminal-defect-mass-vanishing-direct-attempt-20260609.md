@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-licensed-hf-taylor-scale-budget-missing
   proof_role: pack_restoration_direct_attempt
   logical_landing_node: licensed-hf-taylor-scale-budget
-  edge_effect: "Tests HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A. Preterminal smoothness gives the Taylor identity h-Fr = O(|r|^2 sup |D_a F|), so D_{h/F}/|r| vanishes on fixed preterminal windows as |r| -> 0. The missing theorem is terminal uniformity on the licensed same-fluid Pack scale windows: the window radius times the material Hessian of the flow must tend to zero in the native Pack norm while F and F^{-1} stay bounded. The next atom is LicensedHFTaylorScaleBudget.A."
+  edge_effect: "Tests HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A. Preterminal smoothness gives the Taylor identity h-Fr = R_h with |R_h| <= |r|^2 sup |D_a F|, so D_{h/F}/|r| vanishes on fixed preterminal windows as |r| tends to zero. The missing theorem is terminal uniformity on the licensed same-fluid Pack scale windows: the window radius times the material Hessian of the flow must tend to zero in the native Pack norm while F and F^{-1} stay bounded. The next atom is LicensedHFTaylorScaleBudget.A."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-scfbase-good-cover-from-exact-potential-readout-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-hf-unified-survivor-pack-survival-direct-attempt-20260609.md

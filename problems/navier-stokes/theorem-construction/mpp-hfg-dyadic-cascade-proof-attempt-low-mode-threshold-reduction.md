@@ -41,8 +41,11 @@ abla\omega_j\|_2^2
 Bernstein gives
 
 ```math
-\|
-abla\omega_j\|_2^2\simeq 2^{2j}\|\omega_j\|_2^2.
+c_{\mathrm{B}}2^{2j}\|\omega_j\|_2^2
+\le
+\|\nabla\omega_j\|_2^2
+\le
+C_{\mathrm{B}}2^{2j}\|\omega_j\|_2^2.
 ```
 
 So HFG follows from a shell inequality of the form
@@ -61,7 +64,8 @@ The genuine high-high packet has the near-diagonal cubic form
 
 ```math
 \mathfrak H_N^{HH}(t)
-\lesssim
+\le
+C_{\mathrm{HH}}
 \sum_{j\ge N-M}2^{3j}\|\Delta_j u(t)\|_2^3.
 ```
 
@@ -101,9 +105,9 @@ The low-high and commutator principal terms contain the strict low-mode strain c
 ```math
 A_{j-1}(t)
 :=
-\|
-abla S_{j-1}u(t)\|_{L^\infty}
-\lesssim
+\|\nabla S_{j-1}u(t)\|_{L^\infty}
+\le
+C_{\mathrm{LH}}
 \sum_{k<j}2^{5k/2}\|\Delta_k u(t)\|_2.
 ```
 
@@ -128,7 +132,8 @@ Using Cauchy-Schwarz against enstrophy,
 
 ```math
 A_{j-1}(t)
-\lesssim
+\le
+C_{\mathrm{CS}}
 \left(\sum_{k<j}2^{2k}\|\Delta_k u(t)\|_2^2\right)^{1/2}
 \left(\sum_{k<j}2^{3k}\right)^{1/2}.
 ```
@@ -138,20 +143,17 @@ Since
 ```math
 \left(\sum_{k<j}2^{2k}\|\Delta_k u\|_2^2\right)^{1/2}
 \le
-\|
-abla u\|_2
-\simeq
-\|
-omega\|_2,
+\|\nabla u\|_2
+\le
+C_{\omega}\|\omega\|_2,
 ```
 
 one obtains
 
 ```math
 A_{j-1}(t)
-\lesssim
-\|
-omega(t)\|_2 2^{3j/2}.
+\le
+C_A\|\omega(t)\|_2 2^{3j/2}.
 ```
 
 Therefore low-mode absorption holds whenever
@@ -197,24 +199,24 @@ Thus
 ```math
 \sum_{j<J(t)}2^{3j/2}\|
 Delta_j\omega(t)\|_2
-\lesssim
-\|
-abla\omega(t)\|_2 2^{J(t)/2}.
+\le
+C_{\mathrm{low}}
+\|\nabla\omega(t)\|_2 2^{J(t)/2}.
 ```
 
 By the definition of `J(t)`,
 
 ```math
-2^{J(t)/2}\simeq \nu^{-1}\|
-omega(t)\|_2.
+2^{J(t)/2}
+\le
+C_J\nu^{-1}\|\omega(t)\|_2.
 ```
 
 Therefore the residual low-shell contribution is bounded by
 
 ```math
 C\nu^{-1}\|
-abla\omega(t)\|_2\|
-omega(t)\|_2.
+\nabla\omega(t)\|_2\|\omega(t)\|_2.
 ```
 
 The time-integrated residual requires
