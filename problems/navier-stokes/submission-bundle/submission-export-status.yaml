@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-10T18:23:38Z'
+generated_at: '2026-06-14T15:20:38Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -12,16 +12,16 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
-    bytes: 3962347
+    sha1: 00626fbbc89bc3793a283d594378ab202bfe383b
+    bytes: 4221070
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
   codex_machine_paper:
     path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
     present: true
-    sha1: 605679714cf2060c0621de73ba3c1c64b1465934
-    bytes: 532063
+    sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+    bytes: 360725
     manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
     role: papers/** Codex-owned machine paper track
     required_for_clay_submission: true
@@ -41,13 +41,13 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 15 unresolv
   clay-closing-bridge-from-classified-class-exit-to-contradiction, contract-readiness-after-manuscript-expansion,
   clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
-manuscript_tex_sha1: '05903ee71d062e9393b264d239f2c2f38df843e1'
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260609-iteration-2.yaml
+manuscript_tex_sha1: ec7edf3a9bd613a3a8eecbc6bbf00d0333473089
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260614-iteration-2.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 1
-  completion_candidate_count: 15
-  completion_candidates:
+  completion_candidate_count: 10
+  completion_candidates: &1
   - candidate_id: public-clay-finality-from-classification
     kind: d8_open_blocker
     surface: problems/navier-stokes/d8-completion-route-map.yaml
@@ -178,53 +178,32 @@ readiness_evidence:
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: live_theorem_edge
     surface: problems/navier-stokes/live-theorem-edge.yaml
-    evidence: status=active-public-clay-finality-blocked
-    required_action: CM terminal-witness classification and finite-obstruction inventory
-      coverage are installed for currently promoted surfaces, but public Clay counterexample
-      exclusion is not proved by inventory coverage alone.
-  - candidate_id: source-frontier:primary_math_obligation
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty primary_math_obligation
-    required_action: Clear or demote the source-frontier primary_math_obligation before
-      submission readiness.
-  - candidate_id: source-frontier:first_unresolved_obligation
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty first_unresolved_obligation
-    required_action: Clear or demote the source-frontier first_unresolved_obligation
-      before submission readiness.
-  - candidate_id: source-frontier:unresolved_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty unresolved_obligations
-    required_action: Clear or demote the source-frontier unresolved_obligations before
-      submission readiness.
-  - candidate_id: source-frontier:dashboard_unresolved_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty dashboard_unresolved_obligations
-    required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
-      before submission readiness.
-  - candidate_id: source-frontier:additional_context_obligations
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty additional_context_obligations
-    required_action: Clear or demote the source-frontier additional_context_obligations
-      before submission readiness.
-  - candidate_id: source-frontier:active_frontier_labels
-    kind: source_frontier
-    surface: problems/navier-stokes/source-frontier.yaml
-    evidence: nonempty active_frontier_labels
-    required_action: Clear or demote the source-frontier active_frontier_labels before
-      submission readiness.
+    evidence: status=reopened-by-annular-limit-witness-audit
+    required_action: 'ParticipationDebtPassExitTargetClosure.A remains the pass-or-face
+      routing engine, but the terminal-radius closure is reopened for the annular-limit
+      witness: lawful pressure/flux payment, donor delivery, return, or singulet compatibility
+      is pass and gives Member(Q), while failed payment, donor delivery, return, or
+      singulet compatibility enters the installed Clay CM tree only after the surrounding
+      positive-radius annular fields have been paid by forward control or admitted
+      as a same-solution annular witness with Pack/carrier already paid; after that
+      admission, the CM failure is Part or Field.'
   - candidate_id: live-theorem-edge:clay_closure_status
     kind: source_frontier
     surface: problems/navier-stokes/live-theorem-edge.yaml
-    evidence: status=active-public-clay-finality-blocked
-    required_action: CM terminal-witness classification and finite-obstruction inventory
-      coverage are installed for currently promoted surfaces, but public Clay counterexample
-      exclusion is not proved by inventory coverage alone.
+    evidence: status=reopened-by-annular-limit-witness-audit
+    required_action: 'ParticipationDebtPassExitTargetClosure.A remains the pass-or-face
+      routing engine, but the terminal-radius closure is reopened for the annular-limit
+      witness: lawful pressure/flux payment, donor delivery, return, or singulet compatibility
+      is pass and gives Member(Q), while failed payment, donor delivery, return, or
+      singulet compatibility enters the installed Clay CM tree only after the surrounding
+      positive-radius annular fields have been paid by forward control or admitted
+      as a same-solution annular witness with Pack/carrier already paid; after that
+      admission, the CM failure is Part or Field.'
+  - candidate_id: pdf-track:human_app_aligned:fingerprint
+    kind: pdf_track
+    surface: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    evidence: stale fingerprint
+    required_action: Refresh human_app_aligned PDF fingerprint against the live file.
   - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
     kind: clay_closing_gap
     surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -235,195 +214,8 @@ readiness_evidence:
   completion_readiness:
     status: blocked
     submission_ready: false
-    candidate_count: 15
-    candidates:
-    - candidate_id: public-clay-finality-from-classification
-      kind: d8_open_blocker
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: open_blocker
-      required_action: ''
-    - candidate_id: pdf-reader-proof-integration
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=reopened-public-clay-finality-open
-      required_action: 'Both required PDF tracks have rendered artifacts, but rendered
-        existence and proof-surface integration are not CMI finality. The compact
-        paper has been repaired to stop claiming public Clay finality from terminal
-        classification alone. The human/app-aligned track and remaining submission
-        surfaces must stay nonfinal until NoGenuineExitFromSmoothData.A is proved.
-        Current narrowed theorem leaf: FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
-        through a non-alias bridge, after PositiveEndpointStressObservability.A, PositiveStressSignedExactnessTransfer.A,
-        EndpointMassFromShellPairCommutator.A, TerminalNuNWindowSeedSynchronization.A,
-        TerminalFiniteCollarSeedToIntervalControl.A, RetainedFiniteBandAmplitudeSmallness.A,
-        DirectFiniteBandBilinear8j11.A, RetainedEndpointMassShellPairThreading.A,
-        no-incoming / backward uniqueness, PositiveSourceTraceAC_{B_ASAC}.A, NativePositiveSourceUniformIntegrability_{B_ASAC}.A,
-        source-density/CKN/source-time aliases, retained carrier compactness, lifted-band
-        flux, affine quotient, and mu_N endpoint routes all failed or cycled, after
-        the retained positive-scale reserve-birth / B_ASAC terminal source atom routes
-        exhausted into a source-time alias cycle, the h/F terminal mass route reduced
-        to the selector-normal quadratic upgrade, the PD.70z pass showed CN.13q/CN.13ab-CN.13ad
-        remain alternate unproved upgrade routes, the CN.13j pass reduced the exact
-        missing lower link to polarity/amplitude-floor or small-moment absorption,
-        the lower-link pass reduced polarity to tangent linearization/coercivity of
-        the exact anchored observable, and the DG-Cal pass reduced that condition
-        to a local exact packet formula plus readout Gram lower bound, the formula
-        pass installed the canonical local projective channels while leaving actual
-        pair-defect realization open, and the realization pass reduced the unpaid
-        side to selector-shape normalization, and the PTC-shape pass reduced selector-shape
-        normalization to diagonal-density source oscillation, then the diagonal-density
-        pass showed center lower-density is supplied by density-selected centers,
-        and the Holder/stopping retained-mass follow-up paid the finite retained-intersection
-        lemma, and the density-stopping loss-budget pass showed retained measure does
-        not yet prove entrance-sector/core-cap coverage for the finite-frame route.'
-    - candidate_id: clay-closing-bridge-from-classified-class-exit-to-contradiction
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=reopened-public-clay-finality-open
-      required_action: 'Reopened by rendered referee reread: finite-obstruction inventory
-        coverage is installed as classification, but it does not prove public Clay
-        counterexample exclusion. The live result must be ClayCounterexampleExclusionBridge.A
-        / NoGenuineExitFromSmoothData.A or an equivalent theorem; the current executable
-        child is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
-        Same-witness terminal time-face capacity, trace no-positive-jump, super-L1/source-Carleson
-        residence, rigid anti-atom production, same-solution preterminal Pack persistence,
-        and terminal Pack uniformity from original smooth data have been tested and
-        do not pay the current finite Radon source class or terminal uniform Pack
-        modulus. Earlier Pack reflection and terminal Pack compactness have also been
-        tested and do not pay the bridge: reflection is unlicensed, and compactness
-        extracts the zero-thickness terminal Pack atom rather than excluding it. Uniform
-        terminal Pack tightness from first-exit minimality and no zero-thickness terminal
-        Pack atom from original smooth data have also been tested and do not pay the
-        bridge: first-exit minimality and original smooth data do not exclude terminal
-        selected positive Pack source strip concentration. Selected-source uniform
-        integrability and active-time thickness have also been tested and do not pay
-        the bridge: finite mass, same-solution custody, first-exit minimality, and
-        conditional no-incoming/BU support still allow zero-thickness terminal concentration.
-        Pack selector stability and selected-source no-atom have also been tested
-        and do not pay the bridge: the terminal strip model survives the current source-residence,
-        reflection, compactness, tightness, thickness, selector-stability, and no-atom
-        formulations. CrossProfilePackAtomBelongsToRigidProfile.A has now been tested
-        and does not pay the bridge: Cauchy-Schwarz gives only two-profile domination,
-        and the terminal atom can remain a near-resonant two-profile Pack molecule.
-        TwoProfilePackMoleculeRigidity.A has now been tested and does not pay the
-        bridge: profile-parameter orthogonality removes separated pairs and duplicate
-        profiles, but the scale-nested low-high same-window Pack molecule survives.
-        ScaleNestedLowHighPackMoleculeRigidity.A has now been tested and does not
-        pay the bridge: ParaproductNativeSourceCapture.A gives CM witness-grammar
-        face support for the low-high source work, but it does not exclude the first
-        Pack failure from original smooth data. LowHighPackSourceCarlesonReserve.A
-        has now been tested and does not pay the bridge: the high-packet square measure
-        gives only a conditional Carleson decomposition, while the selected positive
-        low-strain multiplier can still co-locate with high-packet occupancy in a
-        vanishing terminal strip. SelectedLowHighPositiveStrainDecorrelation.A has
-        now been tested and does not pay the bridge: the frozen trace-free expanding-eigenpacket
-        model still lets the selected high packet co-locate with positive low strain
-        on shrinking terminal windows. DynamicLowHighEigenpacketNoFreeze.A has now
-        been tested and does not pay the bridge: the material-eigenframe split pays
-        far-low/subparabolic support and routes parabolic-rate amplitude, but the
-        frozen aligned pressure/source-current and active-alignment/no-incoming cases
-        remain unpaid. TerminalPressureHessianNoSustain_lowhigh.A has now been tested
-        and does not pay the bridge: pressure structure gives only the source-current
-        or pure-pressure carrier dichotomy. OneSidedNearBandMaterialSourceCurrentLegal.A
-        has now been tested and does not pay the bridge: post-ASAC source-current
-        support is conditional on a forward no-free-sink or Zeno source-residue rigidity
-        theorem, while TerminalSignedSaturationCMFaceReduction.A is CM witness-face
-        support only. LowHighTerminalSignedSaturationForwardNoFreeSink.A has now been
-        tested and does not pay the bridge: retained partners, legal exits, ASAC pair-weight
-        defects, and finite donor trees are paid, but the terminal Zeno source-refill
-        branch still allows the shrinking strip model. The next executable child must
-        be LowHighTerminalSourceTimeAntiAtom.A, UniformTemporalSourceIntegrability_{p,lowhigh}.A,
-        LowHighPositiveActiveCarlesonReserve.A, LowHighSameWitnessSuperL1TerminalResidence.A,
-        LowHighTerminalSourceCarleson.A, LowHighRigidAntiAtomLiouvilleProduction.A,
-        or a genuinely non-source Pack-survival theorem before any TPS good-family,
-        selected-pair expansion, one-profile capture, two-profile molecule, low-high
-        paraproduct capture, low-high Carleson reserve, low-high decorrelation, dynamic
-        no-freeze, pressure no-sustain, source-current legality, or Pack-critical-element
-        route can be used.'
-    - candidate_id: contract-readiness-after-manuscript-expansion
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=reopened-public-clay-finality-open
-      required_action: 'Blocked by public Clay finality: the compact manuscript now
-        states terminal obstruction classification and an open bridge. Contract readiness
-        cannot close until both PDF tracks carry a proved final bridge or remain explicitly
-        nonfinal.'
-    - candidate_id: clay-readiness-not-claimed
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=reopened-public-clay-finality-open
-      required_action: Readiness must not be claimed while public Clay finality remains
-        open from finite-obstruction classification to finite-breakdown exclusion.
-    - candidate_id: finite-breakdown-exclusion-open
-      kind: d8_resolved_blocker_state
-      surface: problems/navier-stokes/d8-completion-route-map.yaml
-      evidence: state=open
-      required_action: 'Open: terminal obstruction classification is installed, but
-        public finite-breakdown exclusion still requires ClayCounterexampleExclusionBridge.A
-        / NoGenuineExitFromSmoothData.A or an equivalent theorem. Current narrowed
-        theorem leaf is SameWitnessTerminalAntiConcentrationForFirstPackExit.A / OriginalSmoothDataPackSurvival.A.
-        The known non-alias route families are consumed at current resolution, the
-        repo-local theorem-invention surfaces are superseded or support-only for the
-        live CM target, and the TPS good-set bundle / CF-bundle / same-witness capture
-        mechanism attempts are not installed as same-witness Pack survival. The next
-        executable work is proving same-witness terminal anti-concentration for the
-        original-data first Pack witness, then NoGenuineExitFromSmoothData.A.'
-    - candidate_id: live-theorem-edge:clay_closure_status
-      kind: live_theorem_edge
-      surface: problems/navier-stokes/live-theorem-edge.yaml
-      evidence: status=active-public-clay-finality-blocked
-      required_action: CM terminal-witness classification and finite-obstruction inventory
-        coverage are installed for currently promoted surfaces, but public Clay counterexample
-        exclusion is not proved by inventory coverage alone.
-    - candidate_id: source-frontier:primary_math_obligation
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty primary_math_obligation
-      required_action: Clear or demote the source-frontier primary_math_obligation
-        before submission readiness.
-    - candidate_id: source-frontier:first_unresolved_obligation
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty first_unresolved_obligation
-      required_action: Clear or demote the source-frontier first_unresolved_obligation
-        before submission readiness.
-    - candidate_id: source-frontier:unresolved_obligations
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty unresolved_obligations
-      required_action: Clear or demote the source-frontier unresolved_obligations
-        before submission readiness.
-    - candidate_id: source-frontier:dashboard_unresolved_obligations
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty dashboard_unresolved_obligations
-      required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
-        before submission readiness.
-    - candidate_id: source-frontier:additional_context_obligations
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty additional_context_obligations
-      required_action: Clear or demote the source-frontier additional_context_obligations
-        before submission readiness.
-    - candidate_id: source-frontier:active_frontier_labels
-      kind: source_frontier
-      surface: problems/navier-stokes/source-frontier.yaml
-      evidence: nonempty active_frontier_labels
-      required_action: Clear or demote the source-frontier active_frontier_labels
-        before submission readiness.
-    - candidate_id: live-theorem-edge:clay_closure_status
-      kind: source_frontier
-      surface: problems/navier-stokes/live-theorem-edge.yaml
-      evidence: status=active-public-clay-finality-blocked
-      required_action: CM terminal-witness classification and finite-obstruction inventory
-        coverage are installed for currently promoted surfaces, but public Clay counterexample
-        exclusion is not proved by inventory coverage alone.
-    - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-      kind: clay_closing_gap
-      surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-      evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is
-        not established.
-      required_action: Prove the Clay-closing bridge or replace the closing argument
-        with a noncircular finite-breakdown exclusion.
+    candidate_count: 10
+    candidates: *1
     checks:
       route_candidates: 0
       d8_candidates: 6
@@ -432,10 +224,10 @@ readiness_evidence:
       child_paper_repo_candidates: 0
       manuscript_unresolved_candidates: 0
       active_pdf_criticism_candidates: 0
-      source_frontier_candidates: 7
+      source_frontier_candidates: 1
       route_state_agreement_candidates: 0
       submission_verdict_agreement_candidates: 0
-      pdf_track_candidates: 0
+      pdf_track_candidates: 1
       current_material_candidates: 0
       clay_closing_gap_candidates: 1
       stale_readiness_ref_candidates: 0
@@ -447,15 +239,15 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
-          bytes: 3962347
+          sha1: 5f08e93691ea5002f21e5eefbb6c1efd30891f68
+          bytes: 4223573
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
           path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
           present: true
-          sha1: 605679714cf2060c0621de73ba3c1c64b1465934
-          bytes: 532063
+          sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+          bytes: 360725
           manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
           required_for_clay_submission: true
       preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -601,10 +393,15 @@ readiness_evidence:
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: live_theorem_edge
         surface: problems/navier-stokes/live-theorem-edge.yaml
-        evidence: status=active-public-clay-finality-blocked
-        required_action: CM terminal-witness classification and finite-obstruction
-          inventory coverage are installed for currently promoted surfaces, but public
-          Clay counterexample exclusion is not proved by inventory coverage alone.
+        evidence: status=reopened-by-annular-limit-witness-audit
+        required_action: 'ParticipationDebtPassExitTargetClosure.A remains the pass-or-face
+          routing engine, but the terminal-radius closure is reopened for the annular-limit
+          witness: lawful pressure/flux payment, donor delivery, return, or singulet
+          compatibility is pass and gives Member(Q), while failed payment, donor delivery,
+          return, or singulet compatibility enters the installed Clay CM tree only
+          after the surrounding positive-radius annular fields have been paid by forward
+          control or admitted as a same-solution annular witness with Pack/carrier
+          already paid; after that admission, the CM failure is Part or Field.'
       checks:
         route_candidates: 0
         d8_candidates: 6
@@ -622,15 +419,15 @@ readiness_evidence:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
-        bytes: 3962347
+        sha1: 00626fbbc89bc3793a283d594378ab202bfe383b
+        bytes: 4221070
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         required_for_clay_submission: true
       codex_machine_paper:
         path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
         present: true
-        sha1: 605679714cf2060c0621de73ba3c1c64b1465934
-        bytes: 532063
+        sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+        bytes: 360725
         manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
         required_for_clay_submission: true
     preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
@@ -638,16 +435,16 @@ readiness_evidence:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
-      bytes: 3962347
+      sha1: 00626fbbc89bc3793a283d594378ab202bfe383b
+      bytes: 4221070
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       role: preferred problems/** app-aligned human submission track
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: 605679714cf2060c0621de73ba3c1c64b1465934
-      bytes: 532063
+      sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+      bytes: 360725
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       role: papers/** Codex-owned machine paper track
       required_for_clay_submission: true
@@ -661,36 +458,39 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 6a55ae05fbe555ee9fcd073c77abfa90fd86153c
-      bytes: 3962347
+      sha1: 00626fbbc89bc3793a283d594378ab202bfe383b
+      bytes: 4221070
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
       path: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
       present: true
-      sha1: 605679714cf2060c0621de73ba3c1c64b1465934
-      bytes: 532063
+      sha1: b1b00ffb0490c197b2936153e7852f6aa822032b
+      bytes: 360725
       manuscript_source: papers/navier-stokes/manuscript/generated/main.tex
       required_for_clay_submission: true
   preferred_pdf: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
-source_wall_root_cm_status: Start with the alleged finite-time Clay terminal witness
-  from the same original smooth Navier-Stokes datum. Force that witness into the same-fluid
-  canonical CM terminal packet tree, exhaust its finite failure type as not Pack_Q,
-  not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read that first failed service
-  as Exit(Q):=not Member(Q) inside the CM contrapositive program. A theorem surface
-  is live for the CM program only when it is generated by negating the installed continuation
-  packet, or when a checked bridge lands it in a typed Pack, Part, or Field obligation.
-  The H^s readout bridge is proof-licensing work from CM to continuation, not a fourth
-  CM failure face. Imagined analytic pathologies and positive source-control estimates
-  are diagnostic language until that continuation-slot landing is proved. Older positive
-  no-exit / packet-survival language is support only and may not respawn as current
-  CM authority unless a fresh CM-necessity audit proves a genuine in-class nonsmooth
-  third branch. Generated, manuscript, source-history, runtime, export, and positive-supplier
-  surfaces are support when they conflict with live-theorem-edge.yaml or target-operating-contract.yaml.
-  The forward-positive quarantine index keeps 1853 scanned surfaces out of CM authority
-  unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
-submission_posture: blocked-public-clay-finality-open
-readiness_status: blocked-public-clay-finality-open
+source_wall_root_cm_status: Gold has been tried first and audited to the exact terminal
+  time-face pulse obstruction. A closure proof must produce terminal time-thickness,
+  super-L1 source integrability, a scale-critical source charge, transported no-incoming-flux
+  control strong enough for terminal strips, or production of a rigid no-atom BASAC
+  subclass. The silver CM split applies only after the surviving terminal residual
+  object is admitted as a same-solution CM witness; for the admitted annular residual
+  witness, carrier/selection is already paid and a finite nonsmooth branch exits through
+  Part or Field. A theorem surface is live for the CM program only when it is generated
+  by negating the installed continuation packet, or when a checked bridge lands it
+  in a typed Pack, Part, or Field obligation. The H^s readout bridge is proof-licensing
+  work from CM to continuation, not a fourth CM failure face. Imagined analytic pathologies
+  and positive source-control estimates are diagnostic language until that continuation-slot
+  landing is proved. Older positive no-exit / packet-survival language is support
+  only and may not respawn as current CM authority unless a fresh CM-necessity audit
+  proves a genuine in-class nonsmooth third branch. Generated, manuscript, source-history,
+  runtime, export, and positive-supplier surfaces are support when they conflict with
+  live-theorem-edge.yaml or target-operating-contract.yaml. The forward-positive quarantine
+  index keeps 1853 scanned surfaces out of CM authority unless a named bridge lands
+  the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.
+submission_posture: not-ready
+readiness_status: terminal-time-face-new-production-open
 manuscript_scaffold_status: human/app submission scaffold repaired as a paper-local
   CM proof surface; papers/** generated main.tex remains an independent manuscript
   surface requiring separate hygiene repair
@@ -705,10 +505,7 @@ blockers:
 - 'NSPDF-20260609-002: terminal-record bridge from finite Clay breakdown to Pack/Part/Field
   exhaustion remains underpaid.'
 required_before_submission:
-- resolve NSPDF-20260609-001
-- resolve NSPDF-20260609-002
-- rebuild both PDF tracks
-- rerun rendered CMI/human reread
+- terminal-time-face-new-production-gold-obstruction
 stdout: ''
 stderr: ''
-fallback: 
+fallback:

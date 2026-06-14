@@ -1,43 +1,29 @@
 \section{Proof Roadmap}
 
-The proof opens with the CM contrapositive class-exit chain. An alleged finite
-Clay terminal witness is admitted to the same-fluid terminal packet test, the
-first lost Pack/Part/Field requirement is derived, and that face failure is read as
+The proof begins by fixing the object under test.  A finite terminal claim must select the terminal record of the same Navier--Stokes branch: same datum, same equation, same pressure law, same viscosity, same incompressibility constraint, and same preterminal smooth solution.  After that admission, the paper asks whether the selected record is a member record or an exit record.
+
+The first route is gold.  The energy identity controls kinetic energy and integrated enstrophy.  The enstrophy identity exposes the nonlinear source term
 \[
-  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+  \int (u\cdot\nabla)u\cdot\Delta u\,dx.
 \]
+The calculation in the opening section gives the local inequality \(Y'(t)\le C_\nu Y(t)^3\).  That inequality gives local control and leaves finite-time growth possible.  The annular and funnel work sharpens this into the residual source-refill question on shrinking positive-radius windows near a proposed endpoint.
 
-First, the terminal object is fixed as the same original Navier--Stokes branch:
-same datum, same equation, same pressure-viscosity law, same preterminal smooth
-solution, and one witness record.
-
-Second, the object enters the CM terminal packet tree. A lawful member branch
-keeps the three continuation requirements
+The second route is silver.  If a residual terminal obstruction survives the forward accounting, the paper tests the selected record \(Q\).  A retained record must carry
 \[
-  \Pack_Q,\qquad \Part_{N,Q},\qquad \Field_{N,r,Q},
+  \Pack_Q,\qquad
+  \Part_{N,Q},\qquad
+  \Field_{N,r,Q}
 \]
-and reads out to smooth continuation through the usual \(H^s\), \(s>5/2\),
-criterion.
-
-Third, a finite nonsmooth terminal branch is exhausted in Pack-first order:
+to the continuation readout.  A failed record is exhausted in Pack-first order:
 \[
   \neg\Pack_Q,\qquad
-  \neg\Part_{N,Q},\qquad
-  \forall r>0\,\neg\Field_{N,r,Q}.
+  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
+The first failed face yields \(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
 
-Fourth, the no-third-branch law excludes a branch that is both an in-class
-continuation packet and the same finite nonsmooth terminal witness.
+The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is too small to carry the singularity claim by itself; the claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those payments is written, the paper keeps the boundary visible.
 
-The active manuscript proves this roadmap on the periodic zero-force surface
-\(\mathbb T^3\), where the transported whole-torus material atlas supplies the
-selected terminal packet, and on the whole-space surface \(\mathbb R^3\), where
-the exterior Duhamel source is first separated into harmless initial tail,
-harmless compact-core far-kernel contribution, and the genuinely exterior
-nonlinear source. The direct positive exterior \(H^s\) tail estimate is a
-stronger export theorem. The CM route also treats the survivor branch: bounded
-exterior frequencies vanish under exterior \(L^2\) tightness, and any surviving
-dyadic exterior source fails Pack, Part, or every fixed positive Field scale.
-Source-reserve, signed-pair, no-free-sink, no-pulse, endpoint, local-critical,
-and comparison material enters the proof only by landing on the same witness
-record as Pack, Part, Field, or continuation readout.
+Two downstream families are held for later sections.  The lower-carrier interval-integrability work belongs to the later receiver/source analysis, where a moving collar has to be shown to carry enough integrability for the retained window.  The strong-defect bridge work belongs to the later geometric-defect analysis, where a surviving defect has to be connected to a lawful Pack, Part, or Field role.  In the opening these families serve only as reminders that the annular boundary is not the whole proof topology.  They do not change the theorem stated above, and they do not convert the open gold annular supplier into a completed positive proof.
+
+The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof payment, context, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.

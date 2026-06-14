@@ -3,165 +3,188 @@
 % The visible content below is mathematical branch expansion only.
 
 \clearpage
-\section{Expanded CM Branch Obligations}
+\section{How Branch Inventories Reduce to CM Obligations}
 
-This appendix expands the source field into class-membership obligations. Each numbered obligation names the terminal mechanism, the CM requirement being tested, and the proof role it plays in the pass-or-exit engine. The full source inventory is kept outside the reader-facing paper.
+This appendix explains how the large branch inventory collapses to a small number of CM obligations.  The reader should be able to see the proof role without inspecting every source row.  Each family below states the same mathematical question in a different terminal setting: what is the selected record \(Q\), which class datum is being tested, and which face closes the fail branch?
 
-\subsection{CM proof role 1: Field-face terminal obligations}
-This proof role accounts for 769 branch obligations with one mathematical CM job. The proof rules represented here are retained field failure after the other faces have been removed (417); direct face failure (352). The tested requirements are Field \{N,r,Q\} (769). The terminal mechanisms represented here are terminal source wall, source reserve, source pulse, square source, or active window failure (285); one field coherence, receiver, finite difference, Field readout, or endpoint Field failure (266); carrier, cover, or Pack gauge failure routed by the row's face sort rule (96); source wall / Carleson type retained terminal source failure routed by the row's face sort rule (69); Zeno or zero heat time source residue failure routed by the row's face sort rule (33); one field coherence or Field readout failure routed by the row's face sort rule (14); Zeno terminal atom, zero heat time residue, or terminal source residue failure (6).
+\subsection{Field-face terminal obligations}
+
+The largest family consists of terminal source walls, source reserves, source pulses, square-source windows, receiver defects, finite-difference defects, endpoint readout defects, and Zeno source residues.  In these cases carrier and participation have survived far enough for the proof to ask the final question: does one positive scale carry the field coherently?
+
+The retained-Pack-and-Part Field statement is
+\[
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}
+  \quad\Longrightarrow\quad
+  \Exit(Q;\Owork).
+\]
+The proof is short because the work is in the face order.  Pack supplies the same-fluid carrier.  Part supplies the same Navier--Stokes participation tower.  The remaining continuation requirement is the positive-scale field readout.  When every \(r>0\) fails, the branch exits through Field.
+
+This is the family used by retained pulses and annular source residues after selection.  The page should read these branches as failed positive-scale readability.  The proof force comes from the lost coherent field scale, not from the mere presence of a large quantity.
+
+\subsection{Finite Pack/Part/Field disjunction obligations}
+
+Some branch surfaces produce a finite list of same-solution alternatives rather than a single named face.  The proof then runs the Pack-first test on each alternative.  Every alternative lands in one of the three displayed losses:
+\[
+  \neg\Pack_Q,\qquad
+  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+A finite disjunction of these losses is still exhausted by the same witness tree.  Once the alternatives are exhausted, no extra terminal branch remains outside the pass-or-exit law.
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 1 keeps carrier and participation but gives \(\forall r>0\,\neg\Field_{N,r,Q}\), hence \(\Exit(Q;\Owork)\).
+This family turns case lists into a finite proof obligation.  The list is finite, and each item has the same closing obligation: select the record and show the first failed face.
 
-\emph{Proof.} This branch is read after carrier and participation have survived for the case split. The remaining continuation requirement is a positive-scale coherent field readout. The terminal branch has no such scale at any \(r>0\), so the Field face fails and the failure embeds as \(\Exit(Q;\Owork)\).
+\subsection{Inherited-authority obligations}
 
-\emph{Reader-facing role.} This is the last face of the witness tree, so the page has to make the order visible. The branch has already survived the packet and participation questions; what remains is the absence of any positive scale on which the field can be read coherently. The conclusion is Field-face exit, not a generic statement that the solution looks bad.
+Some entries carry already established CM content.  They copy an installed terminal packet, an authority surface, a generated carrier, or a face-exhaustion result.  They do not introduce a fresh terminal object for the paper to test.
+
+Their mathematical role is restraint.  An inherited-authority entry contributes through the theorem or face sweep it inherits from.  It supplies no fourth membership requirement and no new continuation branch.  The manuscript keeps these entries visible so the reader can see why already-paid material is not being counted again as an independent terminal alternative.
 
-\subsection{CM proof role 2: finite Pack/Part/Field disjunction obligations}
-This proof role accounts for 96 branch obligations with one mathematical CM job. The proof rules represented here are finite face disjunction (96). The tested requirements are Field \{N,r,Q\} and Pack Q and Part \{N,Q\} (96). The terminal mechanisms represented here are branch local first failure routed by the surface's trichotomy or boundary lemma (80); carrier, cover, or Pack gauge failure routed by the row's face sort rule (7); source wall / Carleson type retained terminal source failure routed by the row's face sort rule (5); Zeno or zero heat time source residue failure routed by the row's face sort rule (2); one field coherence or Field readout failure routed by the row's face sort rule (2).
+\subsection{Pack-face terminal obligations}
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 2 gives a finite disjunction of Pack, Part, and Field losses, hence \(\Exit(Q;\Owork)\).
+Pack-face obligations are the branches whose selected terminal object loses the same-fluid carrier first.  The mechanisms include carrier loss, cover loss, packing failure, failed retained-packet admission, and Pack bridge failure.  Their closing statement is
+\[
+  \neg\Pack_Q\quad\Longrightarrow\quad\Exit(Q;\Owork).
+\]
+A member record has to be carried by a positive same-fluid packet before participation and field readout can even be asked.  When that carrier is absent, the branch exits at Pack.
 
-\emph{Proof.} The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-first order. A finite disjunction of Pack, Part, and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.
+This family handles bare terminal atoms, detached source objects, failed packet admissions, and no-carrier endpoint readings.  The conclusion is not that the branch is visually singular.  The conclusion is that the selected record cannot enter the same-solution membership test.
 
-\emph{Reader-facing role.} This keeps the reader from seeing the alternatives as an open cloud of cases. There are only finitely many branch options here, and each option pays one of the same three witness-face costs. Once the finite list is exhausted, there is no remaining terminal branch outside the pass-or-exit law.
+\subsection{Part-face terminal obligations}
 
-\subsection{CM proof role 3: inherited-authority obligations}
-This proof role accounts for 44 branch obligations with one mathematical CM job. The proof rules represented here are authority inheritance with no new terminal face (44). The tested requirements are no independent Pack/Part/Field face (44). The terminal mechanisms represented here are authority or generated carrier for the installed face sweep boundary (24); copy of an authority or export support surface (17); carrier, cover, or Pack gauge failure routed by the row's face sort rule (3).
+Part-face obligations keep enough carrier structure to pass Pack for the case split, then lose the same Navier--Stokes participation law.  The mechanisms include loss of the pressure-viscosity tether, failure of the participation envelope, dropped same-PDE law, and no-drop defects.  The closing statement is
+\[
+  \Pack_Q\wedge\neg\Part_{N,Q}
+  \quad\Longrightarrow\quad
+  \Exit(Q;\Owork).
+\]
+The selected record is still a carried object.  It no longer participates in the original pressure-viscosity-incompressibility tower through the derivative depth being tested.  The first lost membership datum is participation.
+
+This family is where ``dead'' mechanisms belong when dead means loss of same-object dynamics.  The word is not a synonym for small velocity or no visible motion.  It names a Part-side failure of the original law on the selected carrier.
+
+\subsection{Context-boundary obligations}
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 3 introduces no independent terminal alternative outside the installed Pack/Part/Field exhaustion.
+Context-boundary entries have no CM conclusion until they select a same-fluid terminal record or pay a named hinge.  They include history surfaces, audits, context material, downstream exports, readout statements, source recovery, manuscript presentation surfaces, supplier notes, and comparison material.  Their role is
+\[
+  \text{context}\quad\longrightarrow\quad
+  \text{later Pack, Part, Field, membership-readout, or no-third-branch hinge}.
+\]
+They can strengthen the pass branch, sharpen the obstruction, explain why a witness matters, or prepare a later selection.  They remain context until the page identifies the selected same-solution record and proves either \(\Member(Q;\Owork)\) or \(\Exit(Q;\Owork)\).
 
-\emph{Proof.} The branch carries already established CM content. Its mathematical force is inherited from the terminal packet capture and face-exhaustion theorems. Since it supplies no new selected nonsmooth packet, it contributes no extra continuation requirement and no fourth branch.
+This boundary keeps the appendix honest.  Useful material becomes proof only when the page shows the exact same-solution record it selects and the exact face or readout it pays.  Until then, it remains context.
 
-\emph{Reader-facing role.} For the reader, the point is restraint. This entry explains why already-paid proof work is not being reread as a new terminal branch. It belongs in the manuscript because it preserves the closed branch count and prevents a hidden fourth alternative from being smuggled back into the argument.
+\subsection{How the appendix is used}
 
-\subsection{CM proof role 4: Pack-face terminal obligations}
-This proof role accounts for 244 branch obligations with one mathematical CM job. The proof rules represented here are direct face failure (244). The tested requirements are Pack Q (244). The terminal mechanisms represented here are carrier, cover, packing, retained packet admission, or Pack bridge failure (164); carrier, cover, or Pack gauge failure routed by the row's face sort rule (71); one field coherence or Field readout failure routed by the row's face sort rule (7); participation, no drop, or Part envelope failure routed by the row's face sort rule (2).
+The main paper uses these six families as a reader guide for the branch material.  A branch is closed only after it has one of the following forms:
+\[
+  \Member(Q;\Owork),\qquad
+  \neg\Pack_Q,\qquad
+  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+Every other entry is context, inherited authority, obsolete material, or an open endpoint.  The appendix keeps the many branch names from overwhelming the proof route by making every live branch pay the same class-membership question.
+\section{How Forward Material Enters the Proof}
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 4 gives \(\neg\Pack_Q\), hence \(\Exit(Q;\Owork)\).
+This appendix records how forward-positive material enters the proof after the CM test has been fixed.  The repeated source files contain many local estimates and route probes.  The paper does not ask the reader to remember those file names.  It groups them by the kind of mathematical work they can pay.
 
-\emph{Proof.} A member branch must first carry \(Q\) by a positive same-fluid packet. The selected terminal branch loses that carrier requirement before any participation or field readout can be asked of it. The Pack-first order therefore gives \(\neg\Pack_Q\), and the class-exit embedding gives \(\Exit(Q;\Owork)\).
+There are four entry families:
+\begin{description}[leftmargin=0.26\linewidth,style=nextline]
+\item[Comparison context.]
+Explains a nearby boundary object and then returns to the Navier--Stokes record.
+\item[Export or legacy context.]
+Preserves a result whose force is spent only through a named proof hinge.
+\item[Forward supplier estimates.]
+Pays source, carrier, participation, or readout costs for the selected branch.
+\item[Receiver or endpoint readouts.]
+Reads the selected packet after Pack and Part have already survived.
+\end{description}
+Each family becomes proof material at the point where it selects \(Q\), proves a face, or supplies the member-side readout.  Before that point, it is useful context and the proof says so plainly.
 
-\emph{Reader-facing role.} On the page, this tells the reader that the branch never reaches the later questions. The proof is not claiming a new smooth solution; it is recording that the alleged terminal branch cannot even supply the packet that would let membership be tested. That is why the branch belongs on the fail side of the pass-or-exit split.
+\subsection{Comparison context}
 
-\subsection{CM proof role 5: Part-face terminal obligations}
-This proof role accounts for 250 branch obligations with one mathematical CM job. The proof rules represented here are direct face failure (250). The tested requirements are Part \{N,Q\} (250). The terminal mechanisms represented here are same PDE participation, no drop, pressure viscosity tether, envelope, or Part bridge failure (195); carrier, cover, or Pack gauge failure routed by the row's face sort rule (42); one field coherence or Field readout failure routed by the row's face sort rule (7); participation, no drop, or Part envelope failure routed by the row's face sort rule (6).
+Comparison context is the material that shows why an obstruction shape is natural by placing it beside a neighboring equation or a downstream export.  Its admissible use is narrow.  A comparison may help identify a candidate packet, reveal a boundary behavior, or warn the reader that a route has changed equation class.  The class proof then returns to the same Navier--Stokes record:
+\[
+  Q_{\mathrm{NS}}
+  \longrightarrow
+  \Pack_{Q_{\mathrm{NS}}},\quad
+  \Part_{N,Q_{\mathrm{NS}}},\quad
+  \Field_{N,r,Q_{\mathrm{NS}}}.
+\]
+The comparison object carries no separate membership conclusion.  Its value is spent when the Navier--Stokes packet has been selected and the exact face or readout paid on that packet.
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 5 keeps the carrier but gives \(\neg\Part_{N,Q}\), hence \(\Exit(Q;\Owork)\).
+\subsection{Export and legacy context}
 
-\emph{Proof.} Here the carrier question has already passed for the purpose of the split. The branch still has to participate in the same pressure-viscosity tower as the original Navier--Stokes solution. The selected failure breaks that tower, so the first surviving lost requirement is \(\Part_{N,Q}\). The face failure embeds as class exit.
+Export and legacy context preserves results that were produced for another surface of the project.  The current manuscript uses them through named hinges only:
+\[
+\text{terminal packet capture},\qquad
+\text{membership readout},\qquad
+\text{class exit},\qquad
+\text{no-third-branch exclusion}.
+\]
+A legacy theorem that pays one of these hinges keeps its force.  A legacy theorem that only repeats a route label stays outside the terminal proof claim.  This rule protects the paper from treating an old status word as a theorem.
 
-\emph{Reader-facing role.} The reader-facing point is that this is a same-solution participation test. The same-fluid carrier is still present. The branch no longer participates in the Navier--Stokes pressure-viscosity tower that the member branch needs. The obligation therefore closes by loss of participation.
+\subsection{Forward supplier estimates}
 
-\subsection{CM proof role 6: support-boundary obligations}
-This proof role accounts for 541 branch obligations with one mathematical CM job. The proof rules represented here are support retained outside the CM conclusion until a bridge supplies a face (541). The tested requirements are no independent Pack/Part/Field face (541). The terminal mechanisms represented here are history, audit, or context support (164); downstream export or readout consumer (94); root support or context surface (91); carrier, cover, or Pack gauge failure routed by the row's face sort rule (71); supplier/readout claim without independent CM steering authority (42); runtime or governance surface (31); manuscript or export presentation (23); source recovery or history context (22); Zeno or zero heat time source residue failure routed by the row's face sort rule (2); participation, no drop, or Part envelope failure routed by the row's face sort rule (1).
+Forward supplier estimates are the gold-side material.  They try to pay the equation estimates directly: source reserve, donor refill, pressure residue, active-square production, terminal anti-atom control, annular residual load, shell gain, and high-frequency tail control.  When a supplier estimate succeeds, it can strengthen the member branch by producing a continuation readout.  When it reaches a precise obstruction, it can select the fail-side record tested by the CM proof.
 
-\paragraph{Family proof role.}
-\emph{Claim.} CM proof role 6 has no CM conclusion until it selects a same-fluid terminal packet.
+The current live example is the annular supplier.  Gold asks for scale-uniform control of the residual load on every shrinking annular schedule.  The installed material has not written that gold estimate as a closed theorem.  The exact child left by the terminal pulse is \(\mathrm{TerminalTimeFaceAntiAtom.A}\), or the same-content new-production theorem \(\mathrm{TerminalNewProductionTheorem}_{B_{\mathrm{ASAC}}}\mathrm{.A}\).  Its checked entrances are temporal thickness or super-\(L^1_s\) source integrability; selected-source domination by a finite same-window reserve plus a terminal strip modulus; transported no-incoming flux together with terminal-face source-production exclusion; first-appearance upgraded into a time-priced ledger, source integrability, or a rigid no-atom subclass; and production of \(B_{\mathrm{ASAC}}\) into \(B_{\mathrm{ASAC}}^{TA}\).  The specific residual annular case is still exhausted: a gold pass removes the residual obstruction; the exact terminal time-face pulse explains why current inputs do not prove gold; a non-admitted diagnostic stays contextual or returns to the governing Pack boundary; and an admitted finite nonsmooth annular witness exits through Part or Field.
 
-\emph{Proof.} A support branch can strengthen the positive pass side, sharpen a pressure test, or prepare a later terminal witness. It cannot assert \(\Member(Q;\Owork)\) or \(\Exit(Q;\Owork)\) by itself. Its proof role is to feed a later Pack, Part, Field, membership-readout, or no-third-branch hinge.
+\subsection{Receiver and endpoint readouts}
 
-\emph{Reader-facing role.} This is included so the reader can see the boundary of the proof claim. The material may be useful, but it has not yet selected the same-fluid terminal packet that the CM test consumes. Until that selection is made, the branch remains support for the argument rather than an independent class conclusion.
+Receiver and endpoint readouts read what remains after the object and law have survived.  On the pass side they supply a continuation norm, such as the \(H^s\), \(s>5/2\), readout used in the main body.  On the fail side they supply the Field alternative:
+\[
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+This is why endpoint work belongs after the carrier and participation checks.  A good endpoint readout certifies the member branch.  A failed endpoint readout, after the same carrier and same participation law are still present, identifies the Field face.
+\section{How Branch Families Pay the Proof}
 
+The branch families are listed here so the reader can see how the current manuscript material is being carried by the paper.  The counts are coverage signals.  The proof role is the important part.  Each family either supplies a selected same-solution terminal record, pays one Pack/Part/Field face, pays the member-side readout, or remains an open context family.
 
-\section{Expanded Forward-Support Obligations}
+\subsection{Source-reserve family}
 
-Forward-positive material enters the paper only after it is rewritten as support for a class-membership hinge. Each obligation below records the support role without letting forward progress substitute for the CM conclusion.
+This family accounts for the source-survival, zero-radius refinement, signed-current, no-free-sink, retained-amplitude, and terminal-atom material.  Its common object is a terminal reserve or source residue.  The class test begins only after that residue is attached to a same-fluid packet \(Q\).
 
-\subsection{Support proof role 1: demoted positive / export/legacy / supplier / readout / positive smoothness / transfer/Euler}
-This proof role accounts for 128 support obligations with one mathematical support job. The support classes represented here are separate positive smoothness support; forward supplier support; transfer or Euler comparison support; receiver, readout, or endpoint support; downstream export or legacy engine support; demoted positive support language (23); transfer or Euler comparison support (16); transfer or Euler comparison support; receiver, readout, or endpoint support; downstream export or legacy engine support (16); transfer or Euler comparison support; downstream export or legacy engine support (13); forward supplier support; transfer or Euler comparison support (9); transfer or Euler comparison support; separate positive smoothness support; receiver, readout, or endpoint support; downstream export or legacy engine support (6); transfer or Euler comparison support; separate positive smoothness support (5); separate positive smoothness support; forward supplier support; transfer or Euler comparison support; receiver, readout, or endpoint support; downstream export or legacy engine support (4); separate positive smoothness support; transfer or Euler comparison support; receiver, readout, or endpoint support; downstream export or legacy engine support (3); transfer or Euler comparison support; forward supplier support (3); transfer or Euler comparison support; receiver, readout, or endpoint support (3); transfer or Euler comparison support; separate positive smoothness support; receiver, readout, or endpoint support; downstream export or legacy engine support; demoted positive support language (3); forward supplier support; transfer or Euler comparison support; receiver, readout, or endpoint support (2); separate positive smoothness support; forward supplier support; transfer or Euler comparison support; receiver, readout, or endpoint support (2); 16 further mechanisms. The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license.
+Once \(Q\) is named, the proof route is fixed:
+\begin{description}[leftmargin=0.30\linewidth,style=nextline]
+\item[No positive same-fluid packet.]
+This is \(\neg\Pack_Q\).
+\item[Same packet, broken pressure-viscosity tower.]
+This is \(\Pack_Q\wedge\neg\Part_{N,Q}\).
+\item[Same packet and same tower, no positive readout scale.]
+This is
+\[
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
+\]
+\end{description}
+The source material is closed when one of these lines is written for the selected residue.  It stays open when it only says that some source pressure may survive.
 
-\paragraph{Family proof role.}
-\emph{Claim.} Support proof role 1 enters the Navier--Stokes class proof only after it selects an exact same-fluid Navier--Stokes packet.
+\subsection{Local translator family}
 
-\emph{Proof.} Comparison information may locate an analogous obstruction or exclude a misleading branch shape. The CM proof still acts on the Navier--Stokes packet itself. Once that packet is selected, the same Pack, Part, and Field decision tree applies; before selection, the comparison statement remains hinge support.
+Local translator material moves local \(L^3\), Duhamel, or public-critical mass onto a terminal packet.  Its job is not to prove smoothness by translation.  Its job is to preserve enough of the same solution record for the Pack/Part/Field test.  A translator that changes the pressure-viscosity law lands on the Part side.  A translator that preserves the law moves to Field and readout.
 
-\emph{Reader-facing role.} The reader-facing role is to keep comparison from becoming authority by accident. The comparison can show why a branch is worth testing, but the Clay-facing proof is charged to the Navier--Stokes packet and its own witness faces. This paragraph therefore marks the exact point where comparison stops and same-fluid proof begins.
+\subsection{Same-ledger family}
 
-\subsection{Support proof role 2: export/legacy}
-This proof role accounts for 241 support obligations with one mathematical support job. The support classes represented here are downstream export or legacy engine support (241). The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license.
+Same-ledger material asks whether the proposed terminal object is charged to the same witness record.  A preterminal reflection, imported donor, or exported branch has no membership conclusion until it supplies the same datum, same viscosity, same solution branch, same transported carrier, and same participation tower.  After those data are supplied, the object enters the ordinary witness tree.
 
-\paragraph{Family proof role.}
-\emph{Claim.} Support proof role 2 contributes only through a named proof hinge: terminal packet capture, membership readout, class exit, or no-third-branch exclusion.
+\subsection{Class-law family}
 
-\emph{Proof.} A downstream statement carries no separate continuation requirement. Its mathematical value is measured by whether it verifies one of the hinges already used by the proof spine. If it does, the hinge supplies the proof force; if it does not, it remains outside the terminal branch law.
+Class-law material protects the pass-or-exit structure itself.  A reopening branch has to produce a genuine third possibility: an in-class nonsmooth terminal record that satisfies the membership data and still breaks continuation.  The current proof architecture sends such a challenge to one of three places: terminal CM entry, finite Pack/Part/Field exhaustion, or the no-third-branch closure.  A challenge that pays none of those places is support for a later audit, not a new branch of the proof.
 
-\emph{Reader-facing role.} This keeps the manuscript from making the reader trust a downstream label as though it were a theorem. The page has to show which hinge is being paid and what that hinge already proves. Anything that does not pay one of those hinges remains outside the terminal proof claim.
+\subsection{Local energy and elliptic family}
 
-\subsection{Support proof role 3: demoted positive / export/legacy / supplier / positive smoothness}
-This proof role accounts for 417 support obligations with one mathematical support job. The support classes represented here are forward supplier support (252); separate positive smoothness support; downstream export or legacy engine support (60); separate positive smoothness support (48); forward supplier support; downstream export or legacy engine support (17); separate positive smoothness support; forward supplier support (16); forward supplier support; demoted positive support language (9); downstream export or legacy engine support; separate positive smoothness support (7); forward supplier support; separate positive smoothness support (3); separate positive smoothness support; forward supplier support; downstream export or legacy engine support (3); downstream export or legacy engine support; demoted positive support language (1); separate positive smoothness support; forward supplier support; demoted positive support language (1). The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license.
+Local energy and elliptic estimates are analytic tools for selecting packets, verifying pressure participation, and reading positive field scales.  They enter the proof at the line where they pay one of those tasks.  For example, elliptic pressure control may help show that the same pressure law still participates on the carrier; local energy control may help keep the packet readable long enough for Field.  The estimate is proof material only at that paid line.
 
-\paragraph{Family proof role.}
-\emph{Claim.} Support proof role 3 strengthens the pass branch or selects the fail branch that the CM test later consumes.
+\subsection{Comparison-boundary family}
 
-\emph{Proof.} A positive supplier estimate can pay a source term, preserve a packet, or narrow the terminal pressure. The CM proof uses that work at the hinge where the branch becomes a selected same-solution packet. After selection, failure is decided by Pack, Part, or Field.
+Comparison-boundary material is admitted only after it returns to a Navier--Stokes packet.  It can explain an Euler-like boundary, a fixed-viscosity loss, or a neighboring smoothness mechanism.  The class conclusion is still charged to the Navier--Stokes record.  The comparison family closes when the page writes the same packet, the shared carrier reading, the lost fixed-viscosity participation or field scale, and the resulting boundary interpretation.
 
-\emph{Reader-facing role.} The reader-facing role is to show why forward estimates are present without letting them replace the contrapositive proof. They can pay costs on the pass side or select the branch that the fail side tests. Once the selected packet is on the page, the CM witness tree carries the final burden.
+\subsection{Candidate-branch family}
 
-\subsection{Support proof role 4: demoted positive / export/legacy / supplier / readout / positive smoothness}
-This proof role accounts for 1067 support obligations with one mathematical support job. The support classes represented here are receiver, readout, or endpoint support (555); forward supplier support; receiver, readout, or endpoint support (197); receiver, readout, or endpoint support; downstream export or legacy engine support (89); separate positive smoothness support; receiver, readout, or endpoint support (66); separate positive smoothness support; receiver, readout, or endpoint support; downstream export or legacy engine support (32); receiver, readout, or endpoint support; separate positive smoothness support (28); separate positive smoothness support; forward supplier support; receiver, readout, or endpoint support (19); forward supplier support; receiver, readout, or endpoint support; downstream export or legacy engine support (14); forward supplier support; receiver, readout, or endpoint support; demoted positive support language (13); forward supplier support; separate positive smoothness support; receiver, readout, or endpoint support (12); downstream export or legacy engine support; receiver, readout, or endpoint support (7); receiver, readout, or endpoint support; demoted positive support language (6); downstream export or legacy engine support; separate positive smoothness support; receiver, readout, or endpoint support (5); forward supplier support; separate positive smoothness support; receiver, readout, or endpoint support; downstream export or legacy engine support (4); 10 further mechanisms. The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license.
-
-\paragraph{Family proof role.}
-\emph{Claim.} Support proof role 4 has proof force through membership readout or through a Field-face loss.
-
-\emph{Proof.} A readout statement is downstream of the carrier and participation requirements. When the readout remains bounded on a positive scale, it supports the pass-side continuation norm. When every positive-scale readout fails, it supplies \(\forall r>0\,\neg\Field_{N,r,Q}\) and the fail side exits the class.
-
-\emph{Reader-facing role.} This tells the reader how to read endpoint material without turning it into a separate proof program. A good readout supports the member branch; a failed readout, after carrier and participation have survived, identifies the Field face. The obligation is therefore placed where the paper decides between positive-scale readability and field exit.
-
-
-\section{Expanded Branch-Family Obligations}
-
-The current-material coverage families are represented by mathematical proof roles rather than file names. Repetition is by branch family, so the visible appendix shows the obligation being carried instead of repeating the same anonymous sentence for every source item.
-
-\paragraph{Branch-family obligation 1.}
-\emph{Source-reserve family.} This family accounts for 41 current obligations.
-
-This branch family is tested by source survival, zero-radius refinement, signed-current/no-free-sink pressure, retained amplitude, and terminal atom mechanisms.
-
-\emph{Proof.} The proof first asks whether a positive same-fluid packet carries the source residue. Carrier loss gives \(\neg\Pack_Q\). A surviving carrier then asks whether the pressure-viscosity tower remains the same; failure gives \(\neg\Part_{N,Q}\). Surviving participation finally asks for a positive-scale coherent field readout; failure at every scale gives the Field face.
-
-\paragraph{Branch-family obligation 2.}
-\emph{Local translator family.} This family accounts for 3 current obligations.
-
-This family tests local critical translation as a same-solution packet question.
-
-\emph{Proof.} The translator has proof force only when it preserves the same Navier--Stokes pressure-viscosity participation on the transported packet. Loss of that participation is a Part-side failure; a surviving translator then moves to Field readout.
-
-\paragraph{Branch-family obligation 3.}
-\emph{Same-ledger family.} This family accounts for 10 current obligations.
-
-This family asks whether the terminal branch is still charged to the same witness record.
-
-\emph{Proof.} A terminal item on the same ledger enters the Pack-first test. A preterminal reflection or unpaid imported branch has no member conclusion until it supplies the same witness record, the same carrier, and the same participation tower.
-
-\paragraph{Branch-family obligation 4.}
-\emph{Class-law family.} This family accounts for 34 current obligations.
-
-This family tests the pass-or-exit law against possible reopening branches.
-
-\emph{Proof.} A reopening branch must either be an in-class nonsmooth third branch or break terminal CM entry, finite Pack/Part/Field exhaustion, or class-exit embedding. Every other challenge is absorbed by the installed pass branch, fail branch, or no-third-branch law.
-
-\paragraph{Branch-family obligation 5.}
-\emph{Local energy and elliptic family.} This family accounts for 3 current obligations.
-
-This family supplies analytic support for source-wall and classification tests.
-
-\emph{Proof.} Local energy and elliptic control matter when they select the terminal packet, verify pressure participation, or read out a positive field scale. The support is then consumed by Pack, Part, Field, or membership readout.
-
-\paragraph{Branch-family obligation 6.}
-\emph{Comparison-boundary family.} This family accounts for 7 current obligations.
-
-This family marks comparison branches that need an exact Navier--Stokes packet before entering the CM proof.
-
-\emph{Proof.} The comparison may reveal a useful branch shape. The proof uses it only after the Navier--Stokes witness record, carrier, participation, and field readout are stated for the same solution.
-
-\paragraph{Branch-family obligation 7.}
-\emph{Candidate-branch family.} This family accounts for 10 current obligations.
-
-This family contains candidate pressure tests and route probes.
-
-\emph{Proof.} A candidate becomes proof material only when it names a terminal packet and a witness face. The face then routes through Pack, Part, Field, membership readout, terminal capture, or no-third-branch exclusion.
+Candidate-branch material contains pressure tests and route probes.  It is deliberately provisional.  A candidate becomes part of the proof after it names a terminal packet and a witness face:
+\begin{center}
+\small
+\begin{tabular}{lll}
+\(\Pack\) & \(\Part\) & \(\Field\)\\
+member readout & terminal capture & no-third-branch exclusion
+\end{tabular}
+\end{center}
+Until then, the manuscript leaves it as an open continuation point.  That is a useful state for the paper, because the reader can see exactly which mathematical payment remains unwritten.

@@ -1,88 +1,293 @@
-\section{Scale Barrier And High-Frequency Tail Branch}
+\section{Scale Barriers and High-Frequency Tails}
 \label{sec:scale-barrier-tail-branch}
 
-The scale-barrier branch asks for a direct way to stop a finite-time breakdown
-from being carried by smaller and smaller spatial scales. Its positive-forward
-aim is simple: find a scale beyond which viscosity dominates nonlinear transfer,
-then sum the derivative tail. This branch is attractive because the equation
-already contains the competing terms. The nonlinearity transfers activity across
-scales, while viscosity damps high frequencies at rate comparable to
-\(\nu |k|^2\).
+The scale-barrier branch asks a direct question about the Navier--Stokes
+equation.  Can high-frequency transfer be made summable before it can carry a
+finite terminal event?  This is a forward branch because it tries to pay the
+estimate directly.  Viscosity damps a shell at frequency \(2^j\) at rate
+bounded below by a fixed multiple of \(\nu2^{2j}\), once the
+Littlewood--Paley cutoff convention is fixed.  The nonlinearity can move energy
+into that same shell.  A direct proof has to show that the damping wins after
+the harmless lower-order pieces have been separated away.
 
-A dyadic version of the branch begins by decomposing
+Write one smooth member of the classical approximation family as \(u\).  Let
+\(\Delta_j\) be the Littlewood--Paley projection with Fourier support in the
+annulus \(c_{LP}2^j\le |\xi|\le C_{LP}2^j\), and set \(u_j=\Delta_j u\).  For a
+dyadic threshold \(N\), define the high tail and its dissipation by
 \[
-  u=\sum_{j\geq -1} u_j,
-  \qquad u_j=P_j u,
-\]
-where \(P_j\) denotes a Littlewood--Paley projection to frequencies
-\(|\xi|\simeq 2^j\). The ideal estimate would show that for large active scales
-\(j\), the nonlinear transfer into the \(j\)-th band remains below the viscous
-payment:
-\[
-  \left|\int_{\mathbb T^3} P_j((u\cdot\nabla)u)\cdot u_j\,dx\right|
-  \leq c\nu 2^{2j}\|u_j\|_{L^2}^2 + \mathrm{summable\ lower\ terms},
-\]
-with a constant \(c<1\). Such an estimate would turn the high-frequency tail into
-a paid bill. Once the tail is paid, high derivatives can be recovered by summing
-weighted dyadic energies.
-
-The branch becomes difficult because the nonlinear term is triangular in scale.
-High-high, high-low, low-high, and lower-prefix interactions each carry a
-different payment demand. A schematic decomposition gives
-\[
-  P_j((u\cdot\nabla)u)
-  =
-  P_j((u_{\sim j}\cdot\nabla)u_{\sim j})
-  +P_j((u_{<j-C}\cdot\nabla)u_{\sim j})
-  +P_j((u_{\sim j}\cdot\nabla)u_{<j-C})
-  +\mathrm{tail}.
-\]
-The viscosity term pays the diagonal high-frequency bill. The lower-prefix terms
-ask for active-window control of low-frequency strain. The tail terms ask for
-summability across separated scales.
-
-The positive-forward program tries to prove a scale barrier of the
-form
-\[
-  \mathcal T_j(t)
-  \leq \frac{\nu}{2}2^{2j}E_j(t)+R_j(t),
+  E_N(t)=\sum_{j\ge N}\|u_j(t)\|_{L^2_x}^2,
   \qquad
-  \sum_j w_j R_j(t)<\infty,
+  D_N(t)=\sum_{j\ge N}2^{2j}\|u_j(t)\|_{L^2_x}^2.
 \]
-where \(E_j(t)=\|u_j(t)\|_{L^2}^2\), \(w_j\) is the derivative weight, and
-\(\mathcal T_j\) is the nonlinear transfer into the active band. The whole branch
-turns on the role of \(R_j\). If the remainder is summable with the needed
-weight, the scale barrier pays the tail. If the remainder carries an active
-lower-shell or source-reserve factor, the terminal obstruction survives.
-
-This is the first high-frequency version of the survivor pattern. Energy gives
-an integrated gradient budget. Enstrophy exposes a pointwise derivative source.
-The scale branch asks for bandwise transfer domination. The unpaid object now
-appears as lower-prefix memory, active-window strain, lifted-band leakage, or
-upper-tail residue.
-
-The stopping point of the branch is a payment mismatch:
+Projecting the equation and pairing the \(j\)-th shell with \(u_j\) gives
 \[
-  \begin{aligned}
-  \text{available payment} &:\ \text{integrated energy/enstrophy budget},\\
-  \text{required payment} &:\ \text{pointwise active-scale transfer control}.
-  \end{aligned}
+  \frac12\frac{d}{dt}\|u_j(t)\|_{L^2}^2
+  +\nu\|\nabla u_j(t)\|_{L^2}^2
+  =
+  -\left\langle
+  \Delta_j\mathbb P\nabla\cdot(u\otimes u),u_j
+  \right\rangle
 \]
-The mismatch can be reduced by localization, kernel gains, shell separation, or
-Volterra ordering. Each refinement creates a more precise terminal object. The
-branch remains valuable because it names the object whose final role must be
-classified.
+Bernstein gives constants \(0<c_B\le C_B<\infty\), fixed by the cutoff
+convention, such that
+\[
+  c_B2^{2j}\|u_j\|_2^2
+  \le
+  \|\nabla u_j\|_2^2
+  \le
+  C_B2^{2j}\|u_j\|_2^2.
+\]
+Summing over \(j\ge N\) gives the tail inequality
+\[
+  \frac12\frac{d}{dt}E_N(t)+c\nu D_N(t)
+  \le \mathcal F_N(t),
+\]
+where
+\[
+  \mathcal F_N(t)
+  :=
+  \sum_{j\ge N}
+  \left|
+  \left\langle
+  \Delta_j\mathbb P\nabla\cdot(u\otimes u),u_j
+  \right\rangle
+  \right|.
+\]
+The whole branch is now reduced to one task: prove that the time integral of
+\(\mathcal F_N\) can be absorbed into the viscous tail plus a summable
+remainder as \(N\to\infty\).
 
-In the CM-exit program, a scale-tail survivor has to enter the same-solution
-witness test. If the terminal tail remains attached to a positive material
-carrier, participates in the same pressure-viscosity equation, and admits a
-positive-scale field readout, it belongs to the continuation side of the branch.
-If the tail loses one of these requirements, the alleged breakdown witness exits the
-working class.
+The useful target estimate has the form
+\[
+  \int_0^T \mathcal F_N(t)\,dt
+  \le
+  \eta\nu\int_0^TD_N(t)\,dt
+  +C_0 2^{-2\delta N},
+  \qquad 0<\eta<c,
+  \tag{SB}
+\]
+after every lower-mode coefficient that remains has been paid on the same
+classical surface.  If \((\mathrm{SB})\) holds for all large \(N\), then the
+high tail cannot retain a fixed positive terminal residue.  The tail energy
+inequality gives
+\[
+  E_N(T)+2(c-\eta)\nu\int_0^T D_N(t)\,dt
+  \le
+  E_N(0)+2C_0 2^{-2\delta N}.
+\]
+Smooth initial data make \(E_N(0)\to0\), and the displayed inequality forces
+the high tail to vanish along large thresholds.  This is the gold scale
+barrier.
 
-The scale-barrier branch supplies a family of CM targets. A lower-shell
-remainder asks whether the selected packet still has a positive carrier. A
-pressure-supported tail asks whether the same Navier--Stokes participation law
-remains intact. A separated high-frequency residue asks whether a positive-scale
-field can still be read from the witness. The positive-forward estimate produces
-the survivor; the CM-exit method decides its terminal witness role.
+The reason this estimate is difficult appears in the paraproduct split.  Put
+\(S_m=\sum_{k<m}\Delta_k\).  For each \(j\ge N\), decompose
+\[
+  \Delta_j((u\cdot\nabla)u)
+  =
+  \mathcal T^{LH}_j+\mathcal T^{HL}_j+\mathcal T^{HH}_j,
+\]
+with
+\[
+  \mathcal T^{LH}_j
+  =
+  \Delta_j((S_{j-4}u\cdot\nabla)u_j),
+  \qquad
+  \mathcal T^{HL}_j
+  =
+  \Delta_j((u_j\cdot\nabla)S_{j-4}u),
+\]
+and
+\[
+  \mathcal T^{HH}_j
+  =
+  \Delta_j\!\left(
+  \sum_{k\ge j-3}\Delta_k u\cdot\nabla\widetilde\Delta_k u
+  \right),
+  \qquad
+  \widetilde\Delta_k=\Delta_{k-1}+\Delta_k+\Delta_{k+1}.
+\]
+The low-high and high-low terms contain the low-mode strain seen by the
+active shell.  The high-high term contains the near-diagonal cascade.
+
+Freeze the low-mode coefficient at the threshold:
+\[
+  S_{j-4}u
+  =
+  S_{N-4}u
+  +(S_{N+M}-S_{N-4})u
+  +(S_{j-4}-S_{N+M})u,
+\]
+where \(M\) is a fixed collar width.  The first term is the strict low-mode
+piece.  Since \(\nabla\cdot S_{N-4}u=0\),
+\[
+  \left\langle (S_{N-4}u\cdot\nabla)u_j,u_j\right\rangle=0
+\]
+The projected term is the commutator
+\[
+  \left\langle
+  [\Delta_j,S_{N-4}u\cdot\nabla]u_j,u_j
+  \right\rangle
+\]
+The fixed-gap commutator is estimated by writing the commutator with the
+Littlewood--Paley kernel.  The mean-value theorem puts one derivative on the
+low-frequency velocity \(S_{N-4}u\), and the \(L^1\) size of the rescaled
+kernel is uniform at fixed gap.  Thus there is a constant \(C_{\mathrm{comm}}\),
+depending only on the cutoff convention and the fixed gap, such that
+\[
+  \left|
+  \left\langle
+  [\Delta_j,S_{N-4}u\cdot\nabla]u_j,u_j
+  \right\rangle
+  \right|
+  \le C_{\mathrm{comm}}
+  \|\nabla S_{N-4}u\|_{L^\infty}\|u_j\|_2^2.
+\]
+With
+\[
+  \mathcal L_N(t)
+  =
+  1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_2,
+\]
+Bernstein and Young give, for every \(\varepsilon>0\),
+\[
+  \sum_{j\ge N}
+  \left|
+  \left\langle
+  \mathcal T^{SLH}_j+\mathcal T^{SHL}_j,u_j
+  \right\rangle
+  \right|
+  \le
+  C_\varepsilon \mathcal L_N(t)E_N(t)+\varepsilon D_N(t).
+\]
+Thus the strict low modes are understood.  They leave a definite lower-mode
+coefficient \( \mathcal L_N E_N\), together with two packets created by the
+frozen cutoff.
+
+The threshold-local collar is
+\[
+  (S_{N+M}-S_{N-4})u.
+\]
+It contains only finitely many shells around \(N\).  Its contribution is a
+finite collar packet.  The proof has a concrete target for that packet:
+estimate it by the same \(\mathcal L_NE_N\) currency plus an arbitrarily
+small fraction of \(D_N\).  This is a proposition-level payment inside the
+scale route.
+
+The genuine high-high packet is more favorable.  Fourier support forces it
+near the diagonal:
+\[
+  \left|
+  \left\langle
+  \mathcal T^{HH}_j,u_j
+  \right\rangle
+  \right|
+  \le
+  C\sum_{|k-j|\le M}
+  2^j\|\Delta_k u\|_2
+  \|\widetilde\Delta_k u\|_2
+  \|u_j\|_2
+\]
+Hence
+\[
+  \sum_{j\ge N}
+  \left|
+  \left\langle
+  \mathcal T^{HH}_j,u_j
+  \right\rangle
+  \right|
+  \le
+  C\sum_{j\ge N-M}2^j\|\Delta_j u\|_2^3.
+\]
+The energy bound supplies the extra large-threshold factor:
+\[
+  2^j\|\Delta_j u\|_2^3
+  =
+  \bigl(2^{2j}\|\Delta_j u\|_2^2\bigr)
+  \bigl(2^{-j}\|\Delta_j u\|_2\bigr)
+  \le
+  C_E^{1/2}2^{-N+M}\,
+  2^{2j}\|\Delta_j u\|_2^2.
+\]
+Choosing \(N\) large absorbs the cubic high-high packet into the viscous
+dissipation.  This is a real payment in the scale branch.
+
+The live obstruction is the lifted high-side remainder
+\[
+  b_j=(S_{j-4}-S_{N+M})u.
+\]
+It enters through
+\[
+  \mathcal T^{lift}_j
+  =
+  \Delta_j((b_j\cdot\nabla)u_j)
+  +
+  \Delta_j((u_j\cdot\nabla)b_j).
+\]
+The transported part is skew before localization, so the surviving term is
+a commutatorized stress-strain flux.  The packet is controlled by a
+mesoscopic density of the form
+\[
+  \Pi_N^{lift,dy}(t)
+  =
+  \sum_{j\ge N}
+  \int_{\mathbb R^3}
+  \Sigma^{meso}_j(x,t)\,
+  \tau^{H^1}_j(x,t)\,dx,
+\]
+where \(\Sigma^{meso}_j\) measures the strain of \(b_j\) at the shell scale
+and \(\tau^{H^1}_j\) measures the \(H^1\)-strength of the shell increments.
+The exact missing gold theorem is
+\[
+  \int_0^T\Pi_N^{lift,dy}(t)\,dt
+  \le
+  \frac{\eta\nu}{4}\int_0^TD_N(t)\,dt
+  +C_*2^{-2\delta N}.
+  \tag{L-Flux}
+\]
+This is the present scale-barrier wall.  It is smaller than the whole
+Navier--Stokes problem, because the strict low-mode pieces, the finite collar,
+and the genuine high-high cubic tail have all been separated.  The inherited
+finite-energy and enstrophy inputs still leave this estimate open.
+
+The later scale notes refine \((\mathrm{L\text{-}Flux})\) further.  The
+signed lifted-band descent isolates an upper boundary packet and a middle-band
+residual.  The middle-band residual reduces to a localized stress-strain flux.
+The far-corona form then asks for a cumulative tail-stress or one-sided
+square estimate.  These refinements are valuable because they name the exact
+descendant of the scale obstruction.  They remain open gold refinements
+from the installed Euclidean inputs.
+
+The high-frequency gain route records the downstream payoff.  If
+\[
+  \mathrm{HFG}(T):
+  \qquad
+  \sum_{j\ge0}2^{3j/2}
+  \|\Delta_j\omega\|_{L^1_tL^2_x(0,T)}
+  <\infty,
+  \qquad \omega=\nabla\times u,
+\]
+then Bernstein gives
+\[
+  \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt
+  \le
+  C\sum_{j\ge0}2^{3j/2}
+  \|\Delta_j\omega\|_{L^1_tL^2_x(0,T)}
+  <\infty
+\]
+The critical vorticity continuation criterion then continues the classical
+solution.  A pure spectral-gap transfer theorem is too weak for this route
+because the near-diagonal low-mode strain channel has no large gap to spend.
+A successful all-scale theorem must also control the diagonal amplitude, or
+it must supply an equivalent mixed enstrophy-gradient or carrier-export
+primitive on the same classical dyadic surface.
+
+The CM counterpart consumes the same terminal tail selected by this gold
+analysis.  A paid scale barrier supplies continuation readout and belongs to
+the member side.  A selected tail lacking a material carrier gives a
+\(\Pack_Q\) face failure.  A selected carrier whose pressure, viscosity, or
+incompressibility participation detaches from the original equation gives a
+\(\Part_{N,Q}\) face failure.  A retained carrier with retained participation
+and zero surviving positive field scale gives a \(\Field_{N,r,Q}\) face failure.  The
+scale branch has now done its paper job: it shows the direct gold payment,
+identifies the exact lifted-flux obstruction, and supplies the CM faces that
+classify any same-solution terminal tail left by that obstruction.

@@ -1,18 +1,24 @@
-\section{Derivative Recovery And Surface Fidelity}
+\section{Derivative Recovery on the Same Surface}
 \label{sec:recovery-surface-fidelity-branch}
 
 The derivative-recovery branch begins after a terminal object has been selected.
 The positive-forward hope is that the object carries enough structure to recover
-classical continuation. In the cleanest case, one obtains a bound in
-\(H^s\), with \(s>5/2\), and the standard continuation criterion extends the
-smooth solution beyond the proposed terminal time.
+classical continuation.  A same-surface estimate of the form
+\[
+  \sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>5/2,
+\]
+is enough for that purpose: Sobolev embedding gives \(u(t)\in C^1_x\) uniformly
+near \(T_*\), and the local \(H^s\) theory can be restarted from times
+\(t_j\uparrow T_*\) with a lifespan depending only on that uniform bound.  For
+\(j\) large, the restarted interval crosses \(T_*\).  That is the recovery
+payment the branch must supply on the original Navier--Stokes surface.
 
 The recovery step has a precise burden. It has to remain on the same
 Navier--Stokes surface. The recovered control must belong to the original
 solution, use the original pressure-viscosity equation, and return a continuation
 norm for the same branch. A recovery mechanism that succeeds on a different
-carrier supplies useful intuition or support, yet it does not close the original
-finite-time breakdown claim until a same-surface bridge is supplied.
+carrier gives useful intuition, yet it closes the original finite-time
+breakdown claim only after a same-surface bridge is supplied.
 
 A typical recovery target has the form
 \[
@@ -20,7 +26,7 @@ A typical recovery target has the form
   \qquad s>\frac52.
 \]
 This target is powerful because local theory gives continuation once the bound
-is available. The branch therefore asks how a terminal packet, local profile,
+is available. The branch asks how a terminal packet, local profile,
 scale decomposition, or geometric carrier can pay this \(H^s\) bill.
 
 One recovery route uses packet control. If a finite cover or material atlas
@@ -61,7 +67,7 @@ requirement.
 
 Thus this branch has two roles in the final paper. First, it explains the
 classical continuation readout used by the pass branch. Second, it prevents
-supporting recovery mechanisms from being promoted before their surface-fidelity
-bridges are supplied. The CM-exit method keeps that distinction sharp: recovery
+recovery mechanisms from being promoted before their surface-fidelity bridges
+are supplied. The CM-exit method keeps that distinction sharp: recovery
 belongs to the same-solution branch only after the selected terminal object has
 passed the membership requirements needed for continuation.
