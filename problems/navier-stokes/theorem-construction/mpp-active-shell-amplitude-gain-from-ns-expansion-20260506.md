@@ -35,10 +35,10 @@ C2^{-2\delta N}.
 Here
 
 ```math
-D_j(t)\simeq 2^{2j}E_j(t),
+c_D\,2^{2j}E_j(t)\le D_j(t)\le C_D\,2^{2j}E_j(t),
 ```
 
-and the shell law has schematic form
+and the shell law has the form
 
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t),
@@ -85,7 +85,7 @@ E_j'(t)+(c-\theta)\nu D_j(t)
 \tag{ASG.6}
 ```
 
-Since `D_j\simeq 2^{2j}E_j`, this is a heat-scale damped inequality:
+Using `c_D\,2^{2j}E_j(t)\le D_j(t)\le C_D\,2^{2j}E_j(t)`, this is a heat-scale damped inequality:
 
 ```math
 E_j'(t)+\kappa\nu2^{2j}E_j(t)
@@ -104,7 +104,7 @@ E_j(t)
 \tag{ASG.8}
 ```
 
-On a heat-scale active window `|I_j|\simeq (\nu2^{2j})^{-1}`, the inherited term is damped by a fixed factor unless it is reintroduced by the source reserve `R_j`. Multiplying by `2^{2j}` gives the corresponding bound for `D_j`.
+On a heat-scale active window `c_I(\nu2^{2j})^{-1}\le |I_j|\le C_I(\nu2^{2j})^{-1}`, the inherited term is damped by a fixed factor unless it is reintroduced by the source reserve `R_j`. Multiplying by `2^{2j}` gives the corresponding bound for `D_j`.
 
 For any `a\ge0`,
 
@@ -172,13 +172,16 @@ Compact preterminal bounds give no uniform decay in this coupled terminal limit.
 
 ## Obstruction 3: viscous damping alone is insufficient
 
-The shell law `(ASG.3)` damps inherited energy through `c\nu D_j`. A source-balanced pulse occurs when
+The shell law `(ASG.3)` damps inherited energy through `c\nu D_j`. A source-balanced pulse occurs when, for some fixed `0<\kappa<c`,
 
 ```math
-F_j(t)\approx c\nu D_j(t)
+F_j(t)\ge (c-\kappa)\nu D_j(t)
 ```
 
-on the heat-scale active window. In that case `(ASG.3)` gives no decay of the active amplitude. Therefore viscosity alone gives amplitude gain only after the source dominance estimate `(ASG.4)` is installed.
+on the heat-scale active window. In that case `(ASG.3)` leaves only the reduced
+drain `\kappa\nu D_j(t)`, which is not a source-free active-amplitude gain.
+Viscosity alone gives amplitude gain only after the source dominance estimate
+`(ASG.4)` is installed.
 
 ## Obstruction 4: source dominance is the source-pulse theorem
 

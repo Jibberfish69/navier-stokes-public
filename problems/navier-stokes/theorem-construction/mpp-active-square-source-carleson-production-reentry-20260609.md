@@ -118,7 +118,7 @@ at a chosen active amplitude. Source mass or first-moment dissipation does not
 force the amplitude decay
 
 ```math
-E_j^2\lesssim \nu2^{-j}
+E_j^2\le C_A\nu2^{-j}
 ```
 
 needed to absorb the active-square density.

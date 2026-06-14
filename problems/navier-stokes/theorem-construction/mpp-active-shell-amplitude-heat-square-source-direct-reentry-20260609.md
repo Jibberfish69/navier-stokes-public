@@ -76,17 +76,17 @@ scale-normalized estimate on moving high-frequency terminal windows.
 
 ### 3. Viscous heat-scale damping
 
-The shell law has the schematic form
+The shell law used in this attempt is the inequality
 
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t)+L_j(t).
 ```
 
 Viscosity damps only after the nonlinear source fails to replenish the active
-shell. Source-balanced pulses with
+shell. Source-balanced pulses with, for some fixed `0<\kappa<c`,
 
 ```math
-F_j(t)\simeq c\nu D_j(t)
+F_j(t)\ge (c-\kappa)\nu D_j(t)
 ```
 
 are still compatible with the current installed inputs. Excluding them is

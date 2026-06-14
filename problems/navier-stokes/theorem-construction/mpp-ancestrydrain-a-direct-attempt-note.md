@@ -105,7 +105,7 @@ modulo refill:
 
 ```math
 \pi(P^-\to \mathrm{child}(P^-))
-\lesssim
+\le C_{drain}
 \Delta E(P^-)+\pi(\mathrm{parent}(P^-)\to P^-)+\ell(P^-).
 ```
 

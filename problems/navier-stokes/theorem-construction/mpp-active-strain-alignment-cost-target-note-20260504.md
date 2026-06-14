@@ -34,11 +34,11 @@ a_k=\Delta_k u,
 S_k=\frac12(\nabla a_k+\nabla a_k^T).
 ```
 
-The dangerous principal lifted term is
+The principal model extracted from the dangerous lifted term is
 
 ```math
-R_{j,k,\ell}^{lift}
-\sim
+R_{j,k,\ell}^{prin}
+:=
 2^{2j}
 \langle \mathcal C_j(S_k,u_j),u_j\rangle.
 ```
@@ -49,16 +49,20 @@ Wave-packet expand the high shell:
 u_j=\sum_{P\in\mathcal P_j}c_Pe_P\phi_P,
 ```
 
-where `e_P` is the packet polarization.  Then, up to lower-order packet and
-commutator errors,
+where `e_P` is the packet polarization.  The packet model associated with
+`R_{j,k,\ell}^{prin}` is
 
 ```math
-R_{j,k,\ell}^{lift}
-\approx
+R_{j,k,\ell}^{wp}
+:=
 2^{2j}
 \sum_{P\in\mathcal P_j}
 \langle S_k(x_P,t)e_P,e_P\rangle |c_P|^2.
 ```
+
+A proof of `ASAC.A` must supply explicit error bounds comparing
+`R_{j,k,\ell}^{lift}` to `R_{j,k,\ell}^{prin}` and
+`R_{j,k,\ell}^{prin}` to `R_{j,k,\ell}^{wp}`.
 
 Define positive strain alignment by
 
@@ -355,7 +359,7 @@ Second, the change of variables must be written with the correct Stokes/divergen
 structure.  The formal transform removes the vector stretching, but the
 divergence constraint and pressure projection may become anisotropic rather than
 the standard `\nabla_z\cdot w=0` system.  The Carleman theorem must be proved for
-the exact transformed system, not only for the schematic scalar heat equation.
+the exact transformed system, not only for the scalar heat surrogate.
 
 Therefore the sharpened target is:
 

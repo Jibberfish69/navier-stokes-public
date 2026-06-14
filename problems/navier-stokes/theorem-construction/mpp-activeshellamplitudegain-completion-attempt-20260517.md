@@ -89,12 +89,14 @@ with summable reserve
 C2^{-2\delta N}.
 ```
 
-Here `D_j(t) ~= 2^{2j}E_j(t)`. The estimate is strong enough to pay the active
-square upper tail and hence to feed the source-normalization/no-pulse route.
+Here the shell ledger uses fixed constants
+`c_D2^{2j}E_j(t)\le D_j(t)\le C_D2^{2j}E_j(t)`. The estimate is strong
+enough to pay the active square upper tail and hence to feed the
+source-normalization/no-pulse route.
 
 ## Conditional Part That Does Close
 
-The selected shell balance has schematic form
+The selected shell balance is the inequality
 
 ```math
 E_j'(t)+c\nu D_j(t)
@@ -131,8 +133,9 @@ E_j'(t)+(c-\theta)\nu D_j(t)
 R_j(t)+L_j(t).
 ```
 
-Since `D_j ~= 2^{2j}E_j`, Duhamel on a heat-scale window gives damping of
-inherited amplitude, while `R_j+L_j` is the only source of renewed active mass.
+Since `c_D2^{2j}E_j\le D_j\le C_D2^{2j}E_j`, Duhamel on a heat-scale window
+gives damping of inherited amplitude, while `R_j+L_j` is the only source of
+renewed active mass.
 After multiplying by `2^{2j}` and applying
 
 ```math
@@ -168,16 +171,16 @@ ASAG needs square-strength heat-scale control:
 First moment does not imply this. A heat-scale pulse model with
 
 ```math
-|I_j|\simeq 2^{-2j},
+|I_j|=2^{-2j},
 \qquad
-D_j(t)\simeq 2^{2j}\mathbf 1_{I_j}(t)
+D_j(t)=2^{2j}\mathbf 1_{I_j}(t)
 ```
 
 has order-one first moment on the window but active-square contribution
 
 ```math
 \int_{I_j}2^{-j}D_j(t)^2\,dt
-\simeq
+=
 2^j.
 ```
 
@@ -228,10 +231,11 @@ SquareSourceEstimate.A / ActiveShellSourceNormalize.A.
 ## Direct Attempt 3: Viscous Damping In The Shell Law
 
 Viscosity gives damping only after the source fails to replenish the active
-shell. The shell law allows source-balanced pulses:
+shell. The shell law allows source-balanced pulses with, for some fixed
+`0<\kappa<c`,
 
 ```math
-F_j(t)\simeq c\nu D_j(t)
+F_j(t)\ge (c-\kappa)\nu D_j(t)
 ```
 
 on heat-scale terminal windows. In that case
@@ -369,4 +373,3 @@ temporal anti-concentration as entrances. This worker's branch says:
 ActiveShellAmplitudeGain.A fails by collapsing to active-square reserve /
 SquareSourceEstimate.A.
 ```
-

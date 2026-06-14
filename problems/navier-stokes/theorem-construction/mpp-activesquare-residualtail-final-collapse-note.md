@@ -50,10 +50,10 @@ represents.
 ## Tail-Square Reserve Mismatch
 
 The installed full tail-square reserve controls a cumulative tail-energy
-quantity, schematically
+quantity through an inequality of the form
 
 ```math
-2^{-2N}E_N(t)^2\lesssim \nu D_N(t).
+2^{-2N}E_N(t)^2\le C_{tail}\nu D_N(t).
 ```
 
 That reserve is useful for threshold-collar and cumulative-tail products.  It

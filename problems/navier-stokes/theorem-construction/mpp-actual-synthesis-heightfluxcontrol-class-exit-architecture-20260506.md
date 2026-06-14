@@ -128,7 +128,7 @@ The donor square reserve is:
 
 ```math
 R_N(W)
-\sim
+:=
 \int_W
 \sum_{k>N}
 2^k

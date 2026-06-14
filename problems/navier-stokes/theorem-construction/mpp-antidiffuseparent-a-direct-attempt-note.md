@@ -60,7 +60,8 @@ j_{P^-}\in[j_P-M,j_P+M]
 or in a licensed lower-feed band.  This gives finite frequency complexity, but
 not finite physical parent complexity.
 
-At heat scale `r_P`, the torus contains `O(r_P^{-3})` possible spatial cells.
+At heat scale `r_P`, the torus contains at most `C_{\mathbb T^3}r_P^{-3}`
+possible spatial cells.
 The positive source feeding one child can be distributed across many such cells
 or across many triadic pieces while the total parent measure remains order one.
 Frequency localization alone therefore does not give the required bounded
@@ -110,7 +111,7 @@ and Cauchy/Young:
 
 ```math
 |\mathfrak G_N^{lift,\sigma}|
-\lesssim
+\le C_\sigma
 \sum_{k>N}2^ka_kU_k.
 ```
 
