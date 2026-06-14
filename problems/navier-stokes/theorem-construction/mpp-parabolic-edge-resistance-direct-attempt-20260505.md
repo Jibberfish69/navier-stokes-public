@@ -76,24 +76,23 @@ CycleHeatAction.A.
 
 ## Installed Flux Estimate
 
-The localized Littlewood--Paley commutator estimates give only the schematic
-edge bound:
+The localized Littlewood--Paley commutator estimates give only the edge bound:
 
 ```math
 |J_e(t)|
-\lesssim
+\le
+C_{PER}
 \mathfrak a_e(t)\,
 \left(D_P(t)+D_{P'}(t)+D_{halo(e)}(t)\right)
 +Loss_e(t),
 \tag{1}
 ```
 
-where `\mathfrak a_e` is a scale-critical flux amplitude.  In low-high form one
-may take, schematically,
+where `\mathfrak a_e` is a scale-critical flux amplitude.  In low-high form set
 
 ```math
 \mathfrak a_e(t)
-\sim
+:=
 2^{-2j_e}
 \|\nabla u_{\le j_e-C}(t)\|_{L^\infty(Q_e)}
 +\mathfrak a_e^{hi-hi}(t)
@@ -270,4 +269,3 @@ source-wall theorem:
 ScaleCriticalTreeCarleson.A.
 }
 ```
-

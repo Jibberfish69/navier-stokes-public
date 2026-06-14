@@ -74,7 +74,7 @@ edge has a formal negative partner.
 
 The terminal route does not consume `(OFC.2)` directly.  It consumes a
 localized, one-sided weighted, lifted, terminal-selected, positive-parted
-source carrier.  The paired endpoint contributions have schematic form
+source carrier.  The paired endpoint contributions have the form
 
 ```math
 W_PA_P

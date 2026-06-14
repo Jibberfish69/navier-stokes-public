@@ -245,8 +245,9 @@ with the linearized separation `F(a,t)r`:
 -
 \delta_{F(a,t)r}U_k
 \big|
-\lesssim
-|\varepsilon_h(a,r,t)|\times
+\le
+C_{OFP,inc}
+|\varepsilon_h(a,r,t)|\,
 \text{next-rung segment amplitude}.
 \tag{OFP.5}
 ```
@@ -1042,7 +1043,7 @@ The deformation gradient satisfies
 \tag{OFP.10bym}
 ```
 
-Differentiating in label variables gives schematically
+Differentiating in label variables gives
 
 ```math
 \partial_t\nabla_a F
@@ -2016,9 +2017,9 @@ Choose a smooth cutoff profile `\Xi_{\delta}^{halo,\rho}` satisfying
 with the same derivative scale
 
 ```math
-\|(\Xi_{\delta}^{halo,\rho})'\|_{L^\infty}\lesssim \delta^{-1},
+\|(\Xi_{\delta}^{halo,\rho})'\|_{L^\infty}\le C_{\Xi,halo,1}\delta^{-1},
 \qquad
-\|(\Xi_{\delta}^{halo,\rho})''\|_{L^\infty}\lesssim \delta^{-2}.
+\|(\Xi_{\delta}^{halo,\rho})''\|_{L^\infty}\le C_{\Xi,halo,2}\delta^{-2}.
 \tag{OFP.10dm}
 ```
 

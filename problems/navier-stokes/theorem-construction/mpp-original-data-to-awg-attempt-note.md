@@ -48,7 +48,7 @@ t_\ell\uparrow T_\ast.
 ## Local-Energy No-Hopping Attempt
 
 Pull a bad window back to a normalized moving CKN cylinder. The local energy
-inequality gives, schematically,
+inequality gives
 
 ```math
 A(\tau_2)+D(\tau_1,\tau_2)
@@ -66,7 +66,8 @@ it has the same active factor as the velocity channel:
 
 ```math
 F_{conv}
-\lesssim
+\le
+C_{LE}
 (A^{aff}D)^{3/4}
 ```
 

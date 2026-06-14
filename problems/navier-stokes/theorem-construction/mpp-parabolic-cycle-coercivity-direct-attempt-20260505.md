@@ -154,10 +154,12 @@ Thus `CycleHeatAction.A` would follow if one could prove
 
 ```math
 \sum_{P\in\mathcal T}\operatorname{Var}^+(E_P)
-\lesssim
+\le
+C_{\mathrm{cyc}}\left(
 Flux^+_{\partial\mathcal T}
 +\theta\sum_{P\in\mathcal T}\int D_P\,dt
-+o_N(1)+Loss_{legal}.
++o_N(1)+Loss_{legal}
+\right).
 \tag{5}
 ```
 
@@ -366,9 +368,11 @@ A representative form is:
 with
 
 ```math
+c_R\,2^{-j_e}(D_P+D_{P'}+D_{halo(e)})
+\le
 \mathcal R_e
-\simeq
-2^{-j_e}(D_P+D_{P'}+D_{halo(e)})
+\le
+C_R\,2^{-j_e}(D_P+D_{P'}+D_{halo(e)})
 ```
 
 or the corresponding Thomson/action form:
@@ -443,9 +447,12 @@ same-fluid packet tree gives:
 ```math
 \sum_{\text{retained cycles }C}
 \sum_{e\in C}\int \mathcal R_e
-\lesssim
+\le
+C_{\mathrm{ov}}
+\left(
 \sum_{P\in\mathcal T}\int D_P\,dt
-+o_N(1)+Loss_{legal}.
++o_N(1)+Loss_{legal}
+\right).
 \tag{16}
 ```
 
@@ -453,9 +460,12 @@ Therefore:
 
 ```math
 Flow_{closed}(\mathcal T)
-\lesssim
+\le
+C_{\mathrm{flow}}
+\left(
 \sum_{P\in\mathcal T}\int D_P\,dt
-+o_N(1)+Loss_{legal},
++o_N(1)+Loss_{legal}
+\right),
 \tag{17}
 ```
 

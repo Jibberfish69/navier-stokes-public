@@ -85,7 +85,7 @@ On the lifted near-band / source-current normal form, the principal part of
 
 ```math
 J_e^{prin}
-\sim
+:=
 2^{2j}
 \langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2,
 \tag{PW.6}

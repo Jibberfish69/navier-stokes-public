@@ -127,8 +127,13 @@ But the positive strain action is
 \int_0^T\lambda_{\max}^+(S(t))\,dt
 =
 \int_0^T a(t)_+\,dt
-\sim
-\frac{K\omega T}{\pi}.
+=
+K\int_0^{\omega T}(\cos s)_+\,ds,
+\qquad
+\left|
+K\int_0^{\omega T}(\cos s)_+\,ds
+-\frac{K\omega T}{\pi}
+\right|\le 2K.
 ```
 
 This diverges as `\omega\to\infty`, while the net deformation gauge remains
@@ -213,4 +218,3 @@ RetainedPackGainProduction.A
 \quad\text{or explicit promotion of }PackGainLedger.A\text{ into }Pack_Q.
 }
 ```
-

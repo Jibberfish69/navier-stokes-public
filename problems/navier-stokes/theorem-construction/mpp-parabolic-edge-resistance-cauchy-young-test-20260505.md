@@ -30,7 +30,7 @@ with
 
 ```math
 \mathcal R_e
-\simeq
+:=
 2^{-j_e}(D_P+D_{P'}+D_{halo(e)}),
 ```
 
@@ -138,7 +138,8 @@ The product estimate instead has the structure
 
 ```math
 \text{source current}
-\lesssim
+\le
+C_{PER}
 \text{low/intermediate coefficient}
 \times
 \text{high active tail}.

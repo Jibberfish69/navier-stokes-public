@@ -58,8 +58,8 @@ The repo contains many packet and frequency orthogonality tools. They price
 unweighted energy, fixed child packets, pressure components, or signed
 quadratic pieces. Those are useful for support routes.
 
-The first-Pack defect is different. It is a selected terminal positive
-source/tree-Carleson object, schematically:
+The first-Pack defect is different. It is the selected terminal positive
+source/tree-Carleson object:
 
 ```math
 \left[\langle S_{<j}^{loc} w_j,w_j\rangle\right]_+

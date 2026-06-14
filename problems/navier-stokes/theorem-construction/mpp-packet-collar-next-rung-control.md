@@ -221,7 +221,8 @@ For `m` large enough for local Sobolev embedding in dimension `3`,
 
 ```math
 \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
-\lesssim
+\le
+C_{PC,m}
 \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t).
 \tag{PC.14}
 ```
