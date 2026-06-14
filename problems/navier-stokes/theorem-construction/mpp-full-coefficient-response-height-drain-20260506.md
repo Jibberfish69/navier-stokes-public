@@ -47,7 +47,8 @@ The terminal lower frame gives:
 
 ```math
 E_j^z(t_+)
-\lesssim
+\le
+C_{\mathrm{frame}}
 \sum_{T\in\mathcal T_j}M_Z(T)
 +Err_{frame}.
 \tag{RHD.2}
@@ -96,9 +97,11 @@ The charge satisfies:
 
 ```math
 \sum_TCharge_{\Delta u}(T)
-\lesssim
+\le
+C_{\mathrm{chg}}
 \|\Delta u_{>N}\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\Delta}
 \int\sum_{j>N}D_j(t)dt
 =o_N(1).
 \tag{RHD.7}

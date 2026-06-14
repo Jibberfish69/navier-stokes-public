@@ -306,7 +306,8 @@ Combining `(FCK.5)` with the ordinary dissipation tail:
 
 ```math
 \|\Delta u_{>N}\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\Delta}
 \int\sum_{j>N}D_j(t)dt
 \to0,
 \tag{FCK.9}

@@ -150,7 +150,8 @@ then, since `a_T(t_+)^2\ge A_*`,
 
 ```math
 A_*
-\lesssim
+\le
+4
 g_T(\tau_T)^{-2}
 \left|
 \int_{\tau_T}^{t_+}\langle R,\psi_T\rangle\,ds
@@ -161,13 +162,15 @@ This is weighted residual charge.  Summing such stopped tiles gives
 
 ```math
 \sum_T A_*
-\lesssim
+\le
+4
 \sum_T
 g_T^{-2}
 \left|
 \int_{I_T}\langle R,\psi_T\rangle\,dt
 \right|^2
-\lesssim
+\le
+C_{\mathrm{WAR}}
 \int\sum_{q>N}D_q+o_N(1),
 ```
 

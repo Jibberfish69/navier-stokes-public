@@ -121,7 +121,8 @@ As before:
 
 ```math
 \|\Delta u_{>N}\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\Delta}
 \int_I\sum_{j>N}D_j(t)dt
 \to0.
 \tag{FRA.5}
@@ -246,7 +247,7 @@ linearized response dynamics.  The only remaining discarded coefficient
 channel is:
 
 ```math
-q>j+C,\qquad |\ell-q|\le O(1),
+q>j+C,\qquad |\ell-q|\le C_{beat},
 ```
 
 namely a far-high response beat capable of returning to shell `j`.

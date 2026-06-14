@@ -145,7 +145,7 @@ but
 
 ```math
 \int_{I_m}2^mD_{m+5}(t)^2dt
-=2^mA_m^2h_m^{-1}\simeq1.
+=2^mA_m^2h_m^{-1}.
 ```
 
 For example, `A_m=2^{-2m}` and `h_m=2^{-3m}`. This is a ledger countermodel
@@ -157,7 +157,8 @@ The shell-balance derivative gives only:
 
 ```math
 [H_N(W)-H_N(Past(W))-Loss^{height}(W)]_+
-\lesssim
+\le
+C_{\mathrm{height}}
 \int_W\sup_{k>N}
 \left[
 2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)

@@ -289,9 +289,12 @@ and
 
 ```math
 \int_{I_J}\!\!\int_{\mathcal G_J}\mathfrak e_J^{cm}
-\lesssim
+\le
+C_{\mathrm{FS,cm}}
+\left(
 \mathcal E_J^{cm}
-+\mathcal E_J^{branch}.
++\mathcal E_J^{branch}
+\right).
 \tag{FS.15}
 ```
 
@@ -326,8 +329,9 @@ On the simple-top / exact-potential branch,
 \operatorname{Err}_J^{tc}
 +
 \operatorname{Err}_J^{cal}
-\lesssim
-|W_J|^2+\mathfrak e_J^{cm}.
+\le
+C_{\mathrm{FS,ang}}
+\left(|W_J|^2+\mathfrak e_J^{cm}\right).
 \tag{FS.16}
 ```
 
@@ -341,8 +345,9 @@ After integration on `\mathcal G_J`,
 \mathcal E_J^{tc}
 +
 \mathcal E_J^{cal}
-\lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
+\le
+C_{\mathrm{FS,ang,int}}
+\left(\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}\right).
 \tag{FS.17}
 ```
 
@@ -358,8 +363,9 @@ On the normal-covector branch,
 \operatorname{Err}_J^{tc}
 +
 \operatorname{Err}_J^{cal}
-\lesssim
-|W_J|^2+\mathfrak e_J^{cm}.
+\le
+C_{\mathrm{FS,perp}}
+\left(|W_J|^2+\mathfrak e_J^{cm}\right).
 \tag{FS.18}
 ```
 
@@ -373,8 +379,9 @@ After integration,
 \mathcal E_J^{tc}
 +
 \mathcal E_J^{cal}
-\lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
+\le
+C_{\mathrm{FS,perp,int}}
+\left(\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}\right).
 \tag{FS.19}
 ```
 
@@ -392,8 +399,9 @@ On the general Hodge branch,
 \mathcal E_J^{tc}
 +
 \mathcal E_J^{cal}
-\lesssim
-\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}.
+\le
+C_{\mathrm{FS,H}}
+\left(\mathcal E_J^{obs}(W_J)+\mathcal E_J^{cm}+\mathcal E_J^{branch}\right).
 \tag{FS.20}
 ```
 
@@ -406,8 +414,8 @@ the fused supplier packet reduces to the branch-local direct `SG.4` input:
 \mathcal E_J^{dir,\mathrm{branch}}
 +
 \mathcal E_J^{loop}
-\lesssim
-\mathcal E_J^{obs}(W_J),
+\le
+C_{\mathrm{FS,red}}\mathcal E_J^{obs}(W_J),
 \tag{FS.21}
 ```
 

@@ -119,7 +119,8 @@ where:
 
 ```math
 \sum_T Charge_{\Delta u}(T)
-\lesssim
+\le
+C_{\Delta}
 \int\sum_{j>N}D_j(t)dt
 =o_N(1).
 \tag{FDA.3}
@@ -148,7 +149,8 @@ estimate:
 
 ```math
 \|\Delta u_{>N}\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\Delta}
 \int\sum_{j>N}D_j(t)dt.
 ```
 

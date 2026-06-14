@@ -201,9 +201,11 @@ Using the Bessel estimate on good stopped subtiles:
 \left|
 \int_{\sigma_T}^{t_+}\langle\Delta u,\Chi_T^{full}\rangle dt
 \right|^2
-\lesssim
+\le
+C_{\mathrm{Bessel}}
 \|\Delta u_{>N}\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\Delta}
 \int\sum_{j>N}D_j(t)dt.
 \tag{FCG.12}
 ```

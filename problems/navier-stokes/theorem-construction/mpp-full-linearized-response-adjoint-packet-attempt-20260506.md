@@ -123,7 +123,8 @@ g_T(t)
 
 In the pulled-back frame, the adjoint equation becomes anisotropic heat plus a
 perturbation `E_T` whose `L_t^1(H^1->H^{-1})` norm is bounded by
-`C\mathcal C_T^{lin}`.  On coefficient-good tiles this is `O(epsilon_M)`.
+`C\mathcal C_T^{lin}`.  On coefficient-good tiles this is at most
+`C_{\mathrm{lin}}\epsilon_M`.
 Choose `epsilon_M` so small that the perturbation is absorbed by Duhamel.
 
 The normalized packets obey the same heat-tube bounds:
@@ -210,7 +211,7 @@ The only genuine high-coefficient residual is the far-high beat channel:
 ```math
 P_j(u_q\cdot\nabla Z_\ell+Z_\ell\cdot\nabla u_q),
 \qquad
-q>j+C,\quad |\ell-q|\le O(1).
+q>j+C,\quad |\ell-q|\le C_{\mathrm{collar}}.
 ```
 
 Thus the corrected reduction is:

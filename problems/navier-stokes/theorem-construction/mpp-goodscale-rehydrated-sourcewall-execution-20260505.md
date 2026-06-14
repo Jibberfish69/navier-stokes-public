@@ -76,13 +76,25 @@ which prices diffuse legal parent clouds into the donor square reserve
 ```math
 \mathcal R_N(W)
 :=
-\int_W\sum_{P^-}|A_{P^-}(t)|^2dt
-\simeq
+\int_W\sum_{P^-}|A_{P^-}(t)|^2dt,
+\qquad
+\mathcal S_N(W)
+:=
 \int_W
 \sum_{k>N}2^k
 \left(
 \sum_{\ell>k+4}D_\ell(t)
 \right)^2dt.
+```
+
+The normalization required by this branch is
+
+```math
+c_{\mathrm{res}}\mathcal S_N(W)
+\le
+\mathcal R_N(W)
+\le
+C_{\mathrm{res}}\mathcal S_N(W).
 ```
 
 The required dynamic theorem is:
