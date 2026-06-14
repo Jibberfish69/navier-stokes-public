@@ -22,10 +22,10 @@ or an equivalent diffuse charge statement.
 
 ## Direct tests
 
-Finite frequency-band complexity bounds shell type. It does not bound physical packet multiplicity or triadic phase multiplicity. A diffuse parent measure can take the form
+Finite frequency-band complexity bounds shell type. It does not bound physical packet multiplicity or triadic phase multiplicity. For each `M`, the diffuse parent countermodel can be taken as the probability measure
 
 ```math
-\pi_P\simeq M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+\pi_P^{(M)}:= M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
 \qquad M\to\infty,
 ```
 

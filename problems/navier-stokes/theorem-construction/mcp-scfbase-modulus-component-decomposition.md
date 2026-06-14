@@ -18,7 +18,7 @@ with a terminally usable modulus `\Omega`, strong enough to prevent moving bad S
 
 ## Decomposition of `SCF_base`
 
-Write schematically
+Define the component split by
 
 ```math
 SCF_{base}(Q_r^\Phi)

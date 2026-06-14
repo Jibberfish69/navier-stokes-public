@@ -102,7 +102,9 @@ High-frequency localization gives
 Using the shell dissipation normalization
 
 ```math
-D_j(t)\simeq \nu 2^{2j}\|w_j(t)\|_2^2
+c_D\nu 2^{2j}\|w_j(t)\|_2^2
+\le D_j(t)\le
+C_D\nu 2^{2j}\|w_j(t)\|_2^2
 ```
 
 and the strict shell ledger, the parabolic packet scaling converts the last bound into
@@ -135,7 +137,7 @@ This is the only component whose proof is a genuine license rather than pure boo
 
 ### 3. Cutoff term
 
-Cutoff residuals have the schematic form
+Cutoff residuals have the form
 
 ```math
 R^{cut}=\nu(2\nabla\phi\cdot\nabla w_j+w_j\Delta\phi)
@@ -153,9 +155,9 @@ plus adjacent packet-boundary terms. In dual form against `v\in H^1`, integrate 
 The heat-scale bounds
 
 ```math
-\|\nabla\phi\|_\infty\lesssim r_T^{-1},
+\|\nabla\phi\|_\infty\le C_\phi r_T^{-1},
 \qquad
-\|\Delta\phi\|_\infty\lesssim r_T^{-2}
+\|\Delta\phi\|_\infty\le C_\phi r_T^{-2}
 ```
 
 are part of the cutoff derivative ledger. Hence

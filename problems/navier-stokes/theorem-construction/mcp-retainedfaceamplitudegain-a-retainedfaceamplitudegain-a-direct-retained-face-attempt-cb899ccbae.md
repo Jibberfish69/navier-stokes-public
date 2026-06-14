@@ -32,7 +32,7 @@ This would imply the conditional cycle estimate and then the local positive sour
 
 ## Step 1. Pack controls the linear strain gain
 
-The packet equation after following the low same-fluid flow is schematically
+The packet equation after following the low same-fluid flow is
 
 ```math
 (\partial_t+u_{\le j-C}\cdot\nabla-\nu\Delta)U_P

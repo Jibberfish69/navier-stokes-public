@@ -17,7 +17,7 @@ This is stronger than the raw finite-measure carrier
 `sum_k nu_SCF(Q_k) <= C nu_SCF(total)`.
 
 ## Attempt
-The raw upper carrier is already available from the finite-energy and local-pressure measure. To upgrade it, one must control scale weights coming from the normalized `SCF_base` threshold. For shrinking terminal windows, this requires a bound of the schematic form
+The raw upper carrier is already available from the finite-energy and local-pressure measure. To upgrade it, one must control scale weights coming from the normalized `SCF_base` threshold. For shrinking terminal windows, this requires the bound
 
 `sum_k r_k^{-alpha} nu_SCF(Q_k) <= C`.
 

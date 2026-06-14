@@ -41,7 +41,7 @@ is controlled at the level needed to state the local energy inequality on same-f
 
 ## Local energy inequality test
 
-For a nonnegative transported cutoff `\varphi`, the local energy inequality has the schematic form
+For a nonnegative transported cutoff `\varphi`, the local energy inequality has the form
 
 ```math
 \frac{d}{dt}\int |u|^2\varphi

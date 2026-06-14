@@ -20,10 +20,10 @@ with a globally summable reserve over terminal source-pulse packets.
 
 ## Direct tests
 
-Finite dyadic banding bounds shell type. It leaves physical packet multiplicity and triadic phase multiplicity open. A legal parent measure can spread as
+Finite dyadic banding bounds shell type. It leaves physical packet multiplicity and triadic phase multiplicity open. For each `M`, a legal diffuse parent countermodel can be the probability measure
 
 ```math
-\pi_P\simeq M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+\pi_P^{(M)}:= M^{-1}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
 \qquad M\to\infty.
 ```
 

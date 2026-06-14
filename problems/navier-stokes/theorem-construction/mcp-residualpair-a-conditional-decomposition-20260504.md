@@ -72,8 +72,8 @@ The strict low-high commutator obeys the standard Coifman-Meyer / Bernstein esti
 
 ```math
 \|R^{comm}_{j,k}\|_{H^{-1}}
-\lesssim 2^{-j}\|R^{comm}_{j,k}\|_2
-\lesssim c_M\,\nu^{1/2}2^j\|w_j\|_2,
+\le C_{H^{-1}}2^{-j}\|R^{comm}_{j,k}\|_2
+\le C_{CM}c_M\,\nu^{1/2}2^j\|w_j\|_2,
 ```
 
 where `c_M\to0` after the strict scale gap and coefficient-good collar are enforced. Therefore

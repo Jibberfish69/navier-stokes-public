@@ -10,7 +10,7 @@ Assume `LocalDonorBalance.A`, giving the finite-tree telescoping estimate
 
 ```math
 \sum_{e\in\mathcal T_L^{int}}\pi(e)
-\lesssim
+\le C_{tree}
 \sum_{v\in\partial\mathcal T_L}E(v;t_v^-)
 +\sum_{v\in\mathcal T_L}\ell(v)
 +Boundary_{overlap}(\mathcal T_L).
