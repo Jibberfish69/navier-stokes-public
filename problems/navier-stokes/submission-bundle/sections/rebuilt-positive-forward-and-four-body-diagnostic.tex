@@ -1,4 +1,4 @@
-\section{Positive-Forward Closure And The Four-Body Diagnostic}
+\section{Direct Closure and the Four-Body Diagnostic}
 \label{sec:positive-forward-four-body-diagnostic}
 
 The direct proof standard for Navier--Stokes is clear. One wants estimates that
@@ -49,7 +49,8 @@ The enstrophy lift exposes the same issue in a sharper form. Set
 \[
   Y(t)=\frac12\|\nabla u(t)\|_{L^2}^2.
 \]
-The standard calculation gives
+Differentiating the equation, testing the differentiated equation against
+\(-\Delta u\), integrating by parts, and using \(\nabla\cdot u=0\) gives
 \[
   \frac12\frac{d}{dt}\|\nabla u(t)\|_{L^2}^2
   +\nu\|\Delta u(t)\|_{L^2}^2
@@ -60,7 +61,7 @@ bound
 \[
   Y'(t)\le C_\nu Y(t)^3.
 \]
-This inequality supports local continuation, and it also shows the unpaid bill:
+This inequality gives the local continuation mechanism, and it also shows the unpaid bill:
 the vortex-stretching source can still feed the derivative quantity that
 viscosity is trying to damp.
 
@@ -76,11 +77,12 @@ Sobolev, local-critical, endpoint, geometric, or packet-level control to recover
 classical continuation. Each recovery mechanism has to stay on the same
 Navier--Stokes surface. A recovery mechanism that changes the surface, imports a
 geometric drain from a different carrier, or detaches the terminal object from
-the original solution gives support material rather than a closed direct proof.
+the original solution only explains an obstruction until it is reattached to the
+original solution and proves direct continuation.
 
-Thus the four-body circuit produces a precise diagnostic result. It does not
-serve as the governing route of this paper. It shows the shape of the obstruction
-created by positive-forward closure attempts:
+The governing route of this paper is the selected-record class test.  The
+four-body circuit contributes the obstruction shape created by positive-forward
+closure attempts:
 \[
   \text{tail/source/exact-object/recovery demand}
   \quad\longrightarrow\quad

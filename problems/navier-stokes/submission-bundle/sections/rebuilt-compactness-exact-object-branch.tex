@@ -1,53 +1,89 @@
-\section{Compactness And Exact-Object Capture}
+\section{Compactness and Exact-Object Capture}
 \label{sec:compactness-exact-object-branch}
 
-The compactness branch addresses a different part of the positive-forward proof
-program. Energy, enstrophy, and scale estimates try to produce control. The
-compactness branch asks what kind of object that control produces near an alleged
-terminal time. A finite-time breakdown claim needs more than a growing norm. It
-needs a terminal object that still belongs to the original Navier--Stokes
-problem.
+Compactness enters the paper at the point where a terminal story has to become
+an object.
+Energy, enstrophy, and scale estimates follow the original Navier--Stokes
+branch as \(t\uparrow T_*\).
+Compactness asks what those estimates actually give at the alleged terminal
+time.
+The answer is useful only when the limiting object is still a record of the
+same solution.
+A large norm, weak limit, or profile is evidence for such a record only after
+the same-solution attachment has been paid.
 
-The positive-forward aim is exact-object capture. Start with a smooth solution
-on its maximal interval \([0,T_*)\), and suppose a terminal scenario is being
-formed as \(t\uparrow T_*\). One selects a sequence \(t_n\uparrow T_*\) and a
-family of localized or spectral objects derived from \(u(t_n)\). Compactness is
-then used to extract a limit. The useful limit must remain attached to the same
-datum, the same equation, the same pressure law, and the same preterminal
-solution.
+Start with a smooth solution on its maximal interval \([0,T_*)\), and suppose a
+terminal scenario is being formed as \(t\uparrow T_*\).
+Choose times \(t_n\uparrow T_*\) and choose localized, spectral, or transported
+objects derived from \(u(t_n)\).
+A compactness argument may extract a limit from those objects.
+The useful limit must remain attached to the same datum, the same equation, the
+same pressure law, the same viscosity, and the same preterminal solution.
+That attachment is the exact-object requirement.
 
-The standard compactness pattern has two parts. Low frequencies become compact
-once enough time regularity and spatial control are available. High frequencies
-are made small by a tail estimate. Schematically, write
+The basic compactness split is the low/high split
 \[
-  u=P_{\leq N}u+P_{>N}u.
+  u(t_n)=P_{\leq N}u(t_n)+P_{>N}u(t_n).
 \]
-The low-frequency term lives in a finite-dimensional or locally compact space
-after equicontinuity is obtained. The high-frequency term is controlled by a
-spectral tail quantity such as
+The low-frequency term can become compact after the branch supplies enough time
+equicontinuity and local spatial control.
+The high-frequency term disappears in \(H^s\) only when the proof pays a
+uniform tail estimate such as
 \[
-  \sum_{j>N}2^{2sj}\|P_j u(t)\|_{L^2}^2.
+  \lim_{N\to\infty}\sup_n
+  \sum_{j>N}2^{2sj}\|P_j u(t_n)\|_{L^2}^2=0.
 \]
-The compactness plan is to choose \(N\) large, control the tail uniformly, pass to
-a limit in the low modes, and reconstruct the terminal object.
+With that payment, the low limit and the high-frequency tail belong to the same
+\(H^s\) endpoint record.
+Without that payment, compactness may produce a weak object while the terminal
+high-frequency residue remains outside the claimed readout.
+Tail smallness without same-equation participation gives a detached limit.
+Selection without domain and equation fidelity gives a record for the wrong
+mathematical problem.
 
-The branch stalls at dependency order. Compactness consumes exactly the controls
-that the earlier branches were trying to prove. A low/high split can extract an
-object only after the tail, source, and participation bills have already been
-paid at the strength required by the topology. Thus compactness is a receiver of
-control rather than a free source of control.
+\begin{proposition}[Compactness is a receiver of control]
+A compactness extraction near \(T_*\) produces a proof-bearing terminal record
+only after the needed tail, source, participation, and exact-object controls
+have already been paid in the topology used for extraction.
+\end{proposition}
 
-This creates the exact-object residue. A terminal limit can be too weak, too
-detached, too dependent on the chosen sequence, or too poorly connected to the
-pressure-viscosity law. Each defect matters because a breakdown witness has to be
-a same-solution witness. A detached compactness artifact cannot carry the full
-burden of finite-time breakdown for the original Navier--Stokes solution.
+\begin{proof}
+The low modes \(P_{\leq N}u(t_n)\) live in a compact or finite-dimensional
+readout only after the relevant time and spatial bounds are available.
+The high modes \(P_{>N}u(t_n)\) disappear only after the spectral tail is
+controlled uniformly at the chosen \(H^s\) strength.
+The pressure and viscosity terms pass to the limit only after the same-equation
+participation estimates survive the extraction.
+Each step consumes a control statement supplied elsewhere in the proof.
+Compactness packages those statements into a terminal object; the tail, source,
+and participation estimates have to come from the proof before extraction.
+\end{proof}
 
-The compactness branch therefore supplies one of the central motivations for the
-CM-exit method. A terminal object has to be tested before it is allowed to serve
-as a witness. The test is not merely whether some limiting distribution exists.
-The test asks whether the object carries the requirements for membership in
-the working Navier--Stokes class.
+This dependency order explains why compactness can sharpen an obstruction
+while leaving it intact.
+For example, the measures
+\[
+  g_m(s)\,ds,\qquad g_m(s)=m\,\mathbf 1_{(-1/m,0]}(s),
+\]
+have fixed total mass and converge weakly to a terminal atom \(\delta_0\).
+Compactness sees the atom.
+The positive terminal thickness and uniform integrability needed for Pack
+survival remain unpaid.
+The same warning applies to velocity profiles, annular residues, exterior
+survivors, and transported packet limits.
+A terminal limit can be too weak, too detached from the original solution, too
+dependent on the chosen sequence, or too poorly connected to the
+pressure-viscosity law.
+Each defect matters because a breakdown witness has to be a same-solution
+witness.
+A detached compactness artifact cannot carry the burden of finite-time
+breakdown for the original Navier--Stokes solution.
+
+The compactness branch supplies one of the main motivations for the CM-exit
+method.
+A terminal object has to be tested before it is allowed to serve as a witness.
+The test asks whether the object carries the requirements for membership in the
+working Navier--Stokes class.
 
 Three failure modes dominate this branch.
 
@@ -57,20 +93,50 @@ Three failure modes dominate this branch.
 \item \textbf{Participation failure.} The selected object fails to carry the same
       pressure-viscosity participation law. This is a Part-side obstruction.
 \item \textbf{Readout failure.} The selected object has no positive-scale field
-      readout strong enough to support continuation. This is a Field-side
+      readout strong enough to give continuation. This is a Field-side
       obstruction.
 \end{enumerate}
 
-The positive-forward compactness branch tries to produce a terminal object that
-survives all three tests. The CM-exit method reverses the burden at the terminal
-claim. If a finite-time breakdown claim points to a compactness object, that
-object must pass the same-solution membership requirements. The first failed requirement
-turns the object into a class-exit witness rather than an in-class nonsmooth
-continuation.
+\begin{proposition}[Compactness object routing]
+Let \(Q\) be a terminal object produced by a compactness extraction from the
+original branch.
+Once \(Q\) is admitted as a same-solution terminal record, the compactness branch
+has one of the following proof roles:
+\begin{enumerate}[leftmargin=*]
+\item \(\Member(Q;\Owork)\): \(Q\) retains carrier, participation, field readout, and continuation readout.
+\item \(\neg\Pack_Q\): \(Q\) has no positive same-fluid carrier.
+\item \(\Pack_Q\wedge\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
+\item \(\Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
+\end{enumerate}
+\end{proposition}
 
-This branch also explains why the paper must track surface fidelity. A compact
-limit on the torus, a local blowup profile, and a whole-space export object are
-not interchangeable. Each lives on a specific surface with specific compactness
-and pressure rules. The paper treats periodic packet capture,
-local profile capture, and whole-space export as related branch concerns with
-separate admission tests.
+\begin{proof}
+Admission fixes \(Q\) as a same-solution terminal record.
+The CM test then reads the record by the three witness requirements.
+If all three survive and the selected continuation criterion can read the record, \(Q\)
+belongs to the member branch.
+If the carrier is absent, the compactness object is Pack-side.
+If the carrier survives and the pressure-viscosity law fails to participate on
+the same record, the object is Part-side.
+If carrier and participation survive while every positive-scale field readout
+fails, the object is Field-side.
+These are exactly the witness faces used by the same-solution CM theorem.
+\end{proof}
+
+The positive-forward compactness branch tries to produce a terminal object that
+survives all three tests and feeds a continuation readout.
+The CM-exit method uses the same extraction differently at a terminal claim.
+When a finite-time breakdown claim points to a compactness object, that object
+must first pass the same-solution admission test.
+The first failed requirement then turns the object into a class-exit witness.
+
+This branch also explains why the paper must keep the mathematical setting
+visible.
+A compact limit on the torus, a local blowup profile, and a whole-space export
+object are different records.
+Each has its own compactness theorem, pressure rule, and exact-object burden.
+The paper treats periodic packet capture, local profile capture, and whole-space
+export as related branch concerns with separate admission tests.
+After the setting and the same-solution attachment are fixed, the object can be
+read as Pack, Part, Field, member-side readout, or context for a named later
+proof step.

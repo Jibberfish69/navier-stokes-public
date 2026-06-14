@@ -1,29 +1,21 @@
 \section{Notation and Internal Dependency Labels}
 
-The proof uses the following project-internal names.
+The paper uses a small number of project names.  Each name is tied to a proof role.
 
 \begin{description}
-\item[\(\Owork\).] The working same-solution Navier--Stokes class object.
-\item[\(\Member(Q;\Owork)\).] The downstream class-membership predicate; a member
-branch reads out to smooth continuation.
-\item[\(\Exit(Q;\Owork)\).] The class-exit conclusion, defined by
-\(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
-\item[\(\Pack_Q\).] The Pack witness face: positive same-fluid carrier / packing
-requirement.
-\item[\(\Part_{N,Q}\).] The Part witness face: pressure-viscosity participation
-requirement.
-\item[\(\Field_{N,r,Q}\).] The Field witness face: positive-scale one-field
-coherence requirement.
-\item[CM-test entry.] Admission of an alleged finite Clay terminal witness to the
-same-fluid terminal packet tree.
-\item[Finite failure type exhaustion.] The theorem that every admitted finite
-terminal failure produces loss of Pack, loss of Part, or loss of every positive
-Field scale.
-\item[CM contrapositive embedding.] The theorem that the derived face failure
-supports \(\Exit(Q;\Owork)\).
+\item[\(\Owork\).] The working same-solution Navier--Stokes class object.  It keeps the datum, equation, pressure law, viscosity, incompressibility constraint, and preterminal branch together.
+\item[\(\Member(Q;\Owork)\).] The class-membership predicate for a selected terminal record \(Q\).  A member record is on the continuation side and must be paired with the relevant readout.
+\item[\(\Exit(Q;\Owork)\).] The class-exit conclusion.  It means
+\[
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
+\]
+\item[\(\Pack_Q\).] The Pack witness face.  It asks whether the selected record still has a positive same-fluid carrier or packet.
+\item[\(\Part_{N,Q}\).] The Part witness face.  It asks whether the same pressure-viscosity-incompressibility law still participates on the derivative tower being tested.
+\item[\(\Field_{N,r,Q}\).] The Field witness face.  It asks whether a positive-scale coherent velocity-field readout survives at scale \(r\).
+\item[\(Q_{\mathrm{ann}}\).] A selected annular residual terminal witness.  It is admitted to the CM test only after the positive-radius annular residue has been tied to the same original Navier--Stokes branch.
+\item[Gold route.] The forward-positive proof route.  It tries to control the original solution directly.
+\item[Silver route.] The CM contrapositive route.  It classifies a selected same-solution terminal record after a forward obstruction has survived.
+\item[Annular witness.] The positive-radius terminal residue surrounding a proposed endpoint.  It is the live boundary because a radius-zero point alone does not carry the full singularity claim.
 \end{description}
 
-Legacy periodic, whole-space, Euler-mirror, source-reserve, and positive
-packet-survival surfaces are provenance or support unless a current authority
-surface promotes them into Pack, Part, Field, membership readout, terminal CM
-entry, finite failure type exhaustion, or contrapositive embedding.
+These names are proof objects.  A branch, comparison packet, Euler boundary, source-reserve estimate, or positive-forward estimate note enters the paper only when it pays one of these roles: same-solution admission, Pack, Part, Field, member readout, exit conclusion, gold obstruction, silver landing, context, obsolete route, or open continuation.

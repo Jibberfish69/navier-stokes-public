@@ -1,58 +1,140 @@
 \section{The Class-Membership Exit Method}
 \label{sec:cm-exit-method}
 
-The preceding branches share the same lesson. A positive-forward proof tries to
-pay every dangerous channel by a stronger estimate. When that effort stalls, the
-branch leaves a more precise terminal object: a source reserve, a high-frequency
-tail, a compactness artifact, a surface-fidelity defect, an endpoint remnant, or
-an export boundary. The class-membership exit method begins at that point.
+The class-membership method begins where a direct positive estimate leaves a terminal object behind.  A forward branch may produce a source reserve, a high-frequency tail, a compactness artifact, a surface-fidelity defect, an endpoint remnant, or an export boundary.  The CM question is always the same: once that survivor is selected as the terminal record \(Q\), does it still belong to the same Navier--Stokes branch?
 
-The method asks a direct question. Suppose a finite-time breakdown claim points
-to a terminal object \(Q\). What must \(Q\) carry in order to count as a terminal
-object for the same Navier--Stokes solution?
-
-We write the working class as
+The working class object is \(\Owork\).  It is fixed by the original datum, the fixed viscosity, the preterminal velocity-pressure branch, the pressure law, incompressibility, and the transported material carrier.  Membership means that the selected terminal record remains a record of that same object.  Class exit is the derived statement
 \[
-  \mathfrak O_{\NS}^{\mathrm{work}}.
+  \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-Membership in this class means that the object under discussion is still a
-same-solution Navier--Stokes object. It has to remain attached to the original
-datum, the same equation, the same pressure-viscosity participation law, and a
-field readout capable of supporting continuation.
-
-The exit predicate is
+The derivation of this negation is the work of the witness faces:
 \[
-  \Exit(Q;\mathfrak O_{\NS}^{\mathrm{work}})
-  :=
-  \neg\Member(Q;\mathfrak O_{\NS}^{\mathrm{work}}).
+  \neg\Pack_Q,\qquad
+  \Pack_Q\wedge\neg\Part_{N,Q},\qquad
+  \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
 \]
-This formula is the organizing primitive of the proof. It does not assert that a
-bad-looking object is automatically an exit. The object first has to enter the
-same-solution terminal test. The exit is derived only after a required membership
-requirement fails.
 
-The requirements are recorded as three faces.
+At depth \(N\) and scale \(r\), the certificate being tested is
+\[
+  \CM_{N,r,Q}:=\Pack_Q\wedge\Part_{N,Q}\wedge\Field_{N,r,Q}.
+\]
+The certificate direction used in the paper is
+\[
+  \forall N\ \exists r_N>0:\ \CM_{N,r_N,Q}
+  \Longrightarrow
+  \Member(Q;\Owork),
+\]
+with the branch readout attached at the continuation depth in force.  The fail side is the Pack-first loss of that certificate on the same selected record.
 
 \paragraph{Pack.}
-The Pack face asks whether the terminal object has a positive material carrier
-or selected packet. A proposed breakdown witness has to be carried by something
-with positive terminal presence. A zero-radius remnant, detached donor ancestry,
-or packet with no selected positive carrier fails at this face.
+Pack is the carrier face.  The selected terminal record has to be carried by a positive same-fluid packet or material body.  A bare point, a detached donor ancestry, or a source atom with no transported body fails before the proof can ask whether the same equation participates on it.
 
 \paragraph{Part.}
-The Part face asks whether the same Navier--Stokes equation still acts on the
-selected packet. The pressure law, viscosity, divergence-free constraint, and
-preterminal branch have to remain the same. A source object that survives only by
-leaving the original pressure-viscosity participation law fails at this face.
+Part is the same-law face.  After a carrier is present, the record still has to carry the pressure-viscosity-incompressibility law of the original branch through the finite tower depth \(N\).  A survivor that lives only after changing the pressure law, losing the viscous tether, leaving the divergence-free class, or detaching from the preterminal carrier fails at this face.
 
 \paragraph{Field.}
-The Field face asks whether the object admits a positive-scale coherent field
-readout. Once the object has a carrier and participates in the same equation, it
-still has to produce field information strong enough to belong to the
-continuation side. A terminal object with no positive-scale field readout fails
-at this face.
+Field is the positive-scale readout face.  After carrier and participation survive, the record still has to admit one coherent positive-scale field reading.  A terminal branch with no such scale fails by
+\[
+  \forall r>0\,\neg\Field_{N,r,Q}.
+\]
+Field is the final face because it asks for readable continuation data after the object and law have already been fixed.
 
-The branch split is therefore:
+\subsection{The endpoint point and the annular witness}
+\label{subsec:annular-limit-witness}
+
+The endpoint point \((x_*,T_*)\) is only one part of the singularity witness.  A radius-zero point lacks the positive packet needed for continuation.  Finite-time blowup is observed through the fields on neighborhoods shrinking to that point.  Those neighborhoods have positive radius before the limit, so the proof follows them.
+
+Choose radii \(\rho_m\downarrow0\) and times \(t_m\uparrow T_*\).  A typical annular window is
+\[
+  \mathcal A_m
+  =
+  \{(x,t):\rho_{m+1}<|x-x_*|<\rho_m,\quad
+  T_*-\rho_m^2<t<T_*\}.
+\]
+Each \(\mathcal A_m\) is still part of the preterminal Navier--Stokes solution.  The statement that the limiting point has radius zero only classifies the point-object.  The singularity claim is carried by the positive-radius fields on the annuli.
+
+The current forward branch measures the unpaid annular load by the residual quantity \(D_m^{\mathrm{res}}\).  Choose \(j_m\) by the exact dyadic rule
+\[
+  2^{-j_m-1}<\rho_m\le 2^{-j_m}.
+\]
+At that scale, write
+\[
+  u_j=\Delta_j u,\qquad
+  E_j(t)=2^{2j}\|u_j(t)\|_2^2,\qquad
+  D_j(t)=2^{4j}\|u_j(t)\|_2^2.
+\]
+If \(\Phi_j^+(t)\) is the positive nonlinear source into the shell, then
+\[
+  \frac12\frac{d}{dt}E_j(t)+c_0\nu D_j(t)\le \Phi_j^+(t).
+\]
+Solving from an entrance time \(t_0\) gives the unpaid refill contribution
+\[
+  D_j^{\mathrm{res}}(t;t_0)
+  :=
+  2^{2j}\int_{t_0}^{t}e^{-c_0\nu2^{2j}(t-s)}\Phi_j^+(s)\,ds.
+\]
+The annular \(D_m^{\mathrm{res}}\) is this residual contribution localized to shells and time windows meeting \(\mathcal A_m\), after heat descendants, through-flow, legal losses, finite payments, and paid dissipation have already been removed.
+
+The gold annular supplier would prove that this residual refill cannot persist on every shrinking same-solution schedule.  One concrete form is
+\[
+  \forall\varepsilon>0\ \exists\rho_\varepsilon>0
+  \quad\text{such that}\quad
+  \rho_m<\rho_\varepsilon \Longrightarrow D_m^{\mathrm{res}}\le\varepsilon,
+\]
+and a stronger tail form is
+\[
+  \sup_{\mathcal A}\ \sum_{m\ge M}D_m^{\mathrm{res}}\longrightarrow0
+  \qquad(M\to\infty).
+\]
+These are forward-positive estimates.  They are the gold route because they would control the annular refill directly and recover the continuation readout.
+
+The obstruction is visible on heat-scale windows.  Put \(\lambda_m=2^{j_m}\), \(\tau_m=\lambda_m^{-2}\), and
+\[
+  \Phi_{j_m}^+(s)=a_m\,1_{[t_m-\tau_m,t_m]}(s),
+  \qquad 0<a_0\le a_m\le A.
+\]
+Then
+\[
+  \sum_m\int_{t_m-\tau_m}^{t_m}\Phi_{j_m}^+(s)\,ds
+  \le A\sum_m2^{-2j_m}<\infty,
+\]
+while
+\[
+  D_{j_m}^{\mathrm{res}}(t_m;t_m-\tau_m)
+  =
+  a_m\frac{1-e^{-c_0\nu}}{c_0\nu}
+  \ge a_0\frac{1-e^{-c_0\nu}}{c_0\nu}.
+\]
+Finite source mass and heat-window localization do not force the residual annular refill to vanish.  This calculation is the current gold obstruction in the annular branch.
+
+The silver route receives that obstruction only after the annular residue has been admitted as the same-solution terminal witness with the continuation-readout bridge paid.  Once the annular witness is admitted in that stronger sense, the carrier side has already been paid for this test.  A surviving nonsmooth annular branch then closes by Part or by Field.  It closes by Part when the branch no longer carries the same pressure-viscosity-incompressibility tower.  It closes by Field when participation survives and every positive continuation-readout field scale fails.
+
+The Field alternative has a concrete analytic reading.  If Part survives and a positive-scale Field readout gives a schedule-uniform \(H^s\), \(s>5/2\), bound \(M\), then
+\[
+  \|\Delta_j\mathbb P\nabla\cdot(u\otimes u)\|_2
+  \le C_sM^2\,2^{-j(s-1)},
+  \qquad
+  \|u_j\|_2\le M\,2^{-js}.
+\]
+Hence
+\[
+  \Phi_j^+(t)\le C_sM^3\,2^{(3-2s)j}
+  \quad\text{and}\quad
+  D_j^{\mathrm{res}}(t;t_0)\le C_s'M^3\,2^{(3-2s)j}\to0.
+\]
+A selected residual pulse with \(D_{j_m}^{\mathrm{res}}\ge\eta>0\) cannot keep that continuation-readout Field.  After Part has survived, the nonzero residual pulse is a Field failure only at the continuation-readout depth; a weaker local field reading remains context until it supplies the uniform \(H^s\) bridge.
+
+\subsection{Periodic and whole-space payments}
+
+The periodic branch pays selection by using the whole transported material atlas.  The terminal object is \(Q_{\mathrm{atlas}}\).  The atlas fixes the packet before local branch examples are read, so the proof cannot switch to a private diagnostic packet after seeing the obstruction.  Loss of atlas selection or material comparability is Pack failure for \(Q_{\mathrm{atlas}}\).  Once an annular residue has already been admitted through the atlas, carrier and selection have been paid for that residue; the remaining nonsmooth branch is decided by Part or Field.
+
+The whole-space branch pays selection differently.  For rapidly decaying data on \(\mathbb R^3\), the exterior Duhamel split removes the initial heat tail and the far-field effect of a fixed compact-core source.  The remaining object is the nonlinear source already living far out in space.  Vanishing in exterior \(H^s\) supplies the continuation readout.  A surviving exterior source enters the same CM packet test: Pack when no same-fluid material address remains, Part when the source has detached from the same equation and participation law, and Field when retained Pack plus Part still has no fixed positive field scale.
+
+These two payments show how auxiliary work enters the class proof.  A forward estimate, comparison calculation, or source decomposition can select the record or strengthen the pass branch.  The CM conclusion begins only when the selected same-solution record is tested by Pack, Part, and Field.
+
+\subsection{The pass-or-exit conclusion}
+
+The terminal split is
 \[
   \text{terminal witness candidate}
   \quad\longrightarrow\quad
@@ -61,30 +143,6 @@ The branch split is therefore:
   \text{exit side: first failed requirement}.
   \end{cases}
 \]
-The pass side belongs to the classical continuation logic. The fail side gives a
-class exit and cannot serve as an in-class nonsmooth terminal continuation of the
-same solution.
+The pass side belongs to classical continuation logic.  The fail side gives class exit.  After a record has entered the same-solution test, a lawful member-continuation record and a nonsmooth witness with a first failed membership requirement are distinct outcomes of the same test.
 
-This is why the CM-exit method is a proof route. It does not try
-to prove global smoothness by one monolithic estimate. It consumes the finite
-breakdown witness itself. Every branch that produces a terminal survivor must
-explain the survivor's role inside the same-solution membership test.
-
-The method fixes the structure of this paper. Each branch section
-has to end by placing its survivor into one of four bins:
-\[
-  \text{continuation readout},\qquad
-  \text{Pack failure},\qquad
-  \text{Part failure},\qquad
-  \text{Field failure}.
-\]
-A branch can also remain marked as support or scope boundary until its terminal
-object is admitted to the test. This prevents source-wall, no-pulse, endpoint,
-local-critical, compactness, or comparison material from being promoted before it
-lands on a same-solution face.
-
-The no-third-branch principle is the final class-law step. After the terminal
-object is admitted to the same-solution test, the branch cannot be both a lawful
-in-class continuation and the same finite nonsmooth terminal witness whose first
-membership requirement has failed. The pass branch and the exit branch have different
-membership conclusion. That distinction is the engine of the contrapositive proof.
+This is the proof role of the CM method.  It consumes the terminal survivor produced by the branch analysis, states what the selected record has to carry in order to remain a member, and records the first requirement it loses.
