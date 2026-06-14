@@ -18,7 +18,7 @@ The desired gain would imply scale-normalized `nu_SCF` Carleson control and woul
 
 ## Desired theorem
 
-A sufficient active-shell gain has schematic form
+A sufficient active-shell gain is the pointwise reserve inequality
 
 `2^{-j}D_j(t)^2 <= eps nu D_j(t) + r_j(t),`
 

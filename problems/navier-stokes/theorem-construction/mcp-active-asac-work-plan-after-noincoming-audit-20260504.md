@@ -104,11 +104,11 @@ R_{j,k}=R^{comm}+R^{press}+R^{cut}+R^{off}.
 Prove termwise:
 
 ```math
-\|R^{comm}\|_{H^{-1}}^2\lesssim D_j,
+\|R^{comm}\|_{H^{-1}}^2\le C_{comm}D_j,
 \quad
-\|R^{press}\|_{H^{-1}}^2\lesssim D_j,
+\|R^{press}\|_{H^{-1}}^2\le C_{press}D_j,
 \quad
-\|R^{cut}\|_{H^{-1}}^2\lesssim \nu\|\nabla w_j\|_2^2,
+\|R^{cut}\|_{H^{-1}}^2\le C_{cut}\nu\|\nabla w_j\|_2^2,
 \quad
 \sum_{j>N}\|R_j^{off}\|_{H^{-1}}^2=o_N(1).
 ```

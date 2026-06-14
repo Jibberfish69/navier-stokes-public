@@ -43,8 +43,8 @@ Therefore `LSA.1` requires the lower-order ledger to dominate the same low-shell
 
 ```math
 \Phi(\mathcal E_D(X_A))
-\gtrsim
-A M_{low}(e).
+\ge
+c_\Phi A M_{low}(e).
 \tag{LSA.5}
 ```
 

@@ -3,7 +3,7 @@
 ## Target
 Prove the active-shell amplitude gain needed upstream of the scale-normalized `nu_SCF` Carleson estimate.
 
-A sufficient gain has the schematic form
+A sufficient gain is the pointwise reserve inequality
 
 `2^{-j} D_j(t)^2 <= eps nu D_j(t) + r_j(t)`
 

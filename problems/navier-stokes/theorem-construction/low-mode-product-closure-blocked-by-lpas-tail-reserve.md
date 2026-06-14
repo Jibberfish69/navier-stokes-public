@@ -30,8 +30,8 @@ The tail-generated part routes through the tail-square reserve:
 
 ```math
 \int_I\Lambda_N^{tail}(t)E_N(t)dt
-\lesssim
-\int_I2^{-2N}E_N(t)^2dt+\\varepsilon\nu\int_I D_N(t)dt.
+\le C_{tail}
+\int_I2^{-2N}E_N(t)^2dt+\varepsilon\nu\int_I D_N(t)dt.
 ```
 
 ## Blocking dependency

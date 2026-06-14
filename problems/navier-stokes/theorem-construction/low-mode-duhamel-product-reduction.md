@@ -6,7 +6,7 @@ The desired conversion was
 
 ```math
 \int_0^T\Lambda_N(t)E_N(t)dt
-\lesssim
+\le C_{LM}
 \int_0^T2^{-2N}E_N(t)^2dt
 +
 \varepsilon\nu\int_0^TD_N(t)dt
@@ -21,7 +21,7 @@ Here
 
 ## Low-mode Duhamel formula
 
-The low-mode velocity satisfies schematically
+The low-mode velocity satisfies the projected Duhamel identity
 
 ```math
 S_{N-4}u(t)=e^{\nu(t-t_0)\Delta}S_{N-4}u(t_0)
@@ -71,7 +71,7 @@ This is not controlled by the tail-square reserve. It closes if one proves eithe
 or the stronger small-window coefficient estimate
 
 ```math
-\nu_N^{low}(I)\ll1
+\nu_N^{low}(I)\le \eta_{low}
 ```
 
 on terminal windows with small high-frequency entrance tail.

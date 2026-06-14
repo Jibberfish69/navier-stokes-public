@@ -55,7 +55,7 @@ The active-square density is
 Finite raw energy and finite raw dissipation allow source-balanced active pulses at shrinking scales. Source-mass control balances damping at the same scale; it does not force the amplitude decay
 
 ```math
-E_j^2\lesssim \nu2^{-j}
+E_j^2\le C_E\nu2^{-j}
 ```
 
 on active terminal windows.

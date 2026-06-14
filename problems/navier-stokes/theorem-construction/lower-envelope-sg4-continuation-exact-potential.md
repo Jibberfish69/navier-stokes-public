@@ -42,7 +42,7 @@ If
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{ELS}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}},
 \tag{ELS.1}
 ```
@@ -51,7 +51,7 @@ then
 
 ```math
 [\lambda_J-\mathfrak s_J]_+
-\lesssim
+\le C_{ELS}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
 \tag{ELS.2}
 ```

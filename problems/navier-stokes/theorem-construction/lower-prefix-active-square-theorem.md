@@ -75,8 +75,8 @@ proves that the direct inherited Euclidean attack on `(CTS)` yields
 \sum_{j\ge N}
 \mathcal P_j^{\downarrow}(t)\,
 2^{-j}D_j(t)^2\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
+\le
+C_{\mathrm{CTS}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right).
 \tag{2}
 ```
 
@@ -156,8 +156,8 @@ So `(LPAS)` would follow from
 \int_0^T
 \|\nabla u(t)\|_{L_x^2}^2
 \sum_{j\ge N}2^{-j}D_j(t)^2\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
+\le
+C_{\mathrm{LPAS}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right).
 \tag{6}
 ```
 

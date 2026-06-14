@@ -10,7 +10,7 @@ Here
 `nu_SCF = |grad u|^2 dxdt + sum_chi |p_chi^loc|^(3/2) dxdt`.
 
 ## Hypotheses
-Work on a finite bounded-overlap same-fluid terminal atlas. For every terminal window `Q` with radius `r_Q ~ 2^{-k_Q}`, assume:
+Work on a finite bounded-overlap same-fluid terminal atlas. For every terminal window `Q` with radius `c_Q2^{-k_Q}\le r_Q\le C_Q2^{-k_Q}`, assume:
 
 1. shell-to-window comparison:
 
@@ -56,7 +56,7 @@ The heat-scale dissipation tail bound gives
 
 `eps nu int_{I_l} sum_{j >= k_l-C0}D_j dt <= C eps nu 2^{2k_l}|I_l|`.
 
-For a terminal Carleson packing family, the heat-scale intervals satisfy `|I_l| ~ 2^{-2k_l}` and bounded overlap, so the first term sums finitely. The reserve term also sums by the dyadic decay and terminal packing. Hence
+For a terminal Carleson packing family, the heat-scale intervals satisfy `c_I2^{-2k_l}\le |I_l|\le C_I2^{-2k_l}` and bounded overlap, so the first term sums finitely. The reserve term also sums by the dyadic decay and terminal packing. Hence
 
 `sum_l SCF_norm(Q_l) <= C(E0, nu, atlas, reserves)`.
 
