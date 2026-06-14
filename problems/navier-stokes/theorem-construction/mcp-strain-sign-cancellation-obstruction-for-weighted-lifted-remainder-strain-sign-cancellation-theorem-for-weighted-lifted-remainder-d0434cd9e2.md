@@ -14,7 +14,7 @@ A sufficient theorem would show signed cancellation before absolute values, for 
 ## Attempt
 The principal lifted term is a strain interaction of the form
 
-`R_{j,k,l}^{lift} ~ 2^{2j}<C_j(grad a_k, Delta_j u), Delta_j u>`.
+`R_{j,k,l}^{lift,prin} := 2^{2j}<C_j(grad a_k, Delta_j u), Delta_j u>`.
 
 This term is sign-indefinite. Positive contributions occur when active-shell packets align with expanding strain eigendirections. Negative contributions occur in contracting directions. One-sided shell weights orient the scale sum, but they do not impose eigendirection cancellation.
 

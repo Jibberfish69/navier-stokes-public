@@ -66,10 +66,18 @@ which follows from a regular-window `\nabla^2v_J` bound. That bound is a source 
 The tensor comparison
 
 ```math
-W_J^{coc}\Pi_{N_a}(W_J^{coc})^*\approx C_J^{CG}
+\left\|
+W_J^{coc}\Pi_{N_a}(W_J^{coc})^*
+-C_J^{CG}
+\right\|_{op}
+\le
+\varepsilon_J
 ```
 
-is not a definition. Two positive semidefinite tensors can be arbitrarily far apart unless a comparison theorem links the cocycle tensor and the Cauchy--Green reference tensor on the same frame. This remains a source packet.
+is not a definition unless `C_J^{CG}` is defined to be the left-hand tensor.
+Two positive semidefinite tensors can be arbitrarily far apart unless a
+comparison theorem links the cocycle tensor and the Cauchy--Green reference
+tensor on the same frame. This remains a source packet.
 
 ## 6. Reference CG simple-top gap
 

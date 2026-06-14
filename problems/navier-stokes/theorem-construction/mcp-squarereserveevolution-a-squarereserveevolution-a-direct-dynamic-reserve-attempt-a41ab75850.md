@@ -46,15 +46,15 @@ To prove `SquareReserveEvolution.A`, one would like a local law
 Source_{P^-}^{sq}(t)+Loss_{P^-}(t).
 ```
 
-But `A_{P^-}` is not itself a primary shell energy; it is a source/donor functional extracted from parent packets.  In the dyadic model it is schematically a weighted tail or low-high donor factor, for example
+But `A_{P^-}` is not itself a primary shell energy; it is a source/donor functional extracted from parent packets.  In the dyadic model use the weighted-tail donor factor
 
 ```math
-A_k(t)\sim 2^{k/2}\sum_{\ell>k+4}D_\ell(t)
+A_k(t):=2^{k/2}\sum_{\ell>k+4}D_\ell(t)
 ```
 
 or an equivalent localized parent-source packet factor.  Differentiating `A_k^2` differentiates the upper-tail dissipation/source rather than a closed energy.
 
-The derivative produces terms of the schematic form
+The derivative produces terms of the form
 
 ```math
 A_k(t)\sum_{\ell>k+4}\partial_tD_\ell(t).

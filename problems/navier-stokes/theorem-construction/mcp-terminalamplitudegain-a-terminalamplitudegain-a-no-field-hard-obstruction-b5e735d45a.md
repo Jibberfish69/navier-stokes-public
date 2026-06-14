@@ -33,13 +33,13 @@ This would imply the conditional cycle-current estimate and hence local positive
 Finite energy alone allows scale-critical terminal packets.  A packet with
 
 ```math
-\|U_P\|_2\sim K r_P^{1/2}
+\|U_P\|_2=K r_P^{1/2}
 ```
 
-has dimensionless amplitude `a_P\sim K/\nu`, while its energy is
+has dimensionless amplitude `a_P=K/\nu`, while its energy is
 
 ```math
-\|U_P\|_2^2\sim K^2r_P\to0
+\|U_P\|_2^2=K^2r_P\to0
 ```
 
 as `r_P\to0`.  Thus small high-frequency energy tail does not force terminal amplitude gain.

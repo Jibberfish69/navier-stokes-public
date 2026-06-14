@@ -66,7 +66,7 @@ The quadratic Bellman produces the correct active-square density, and a cubic he
 
 ```math
 |R_{4,N}|
-\lesssim \mathfrak S_N(t)\mathcal A_N(t)+Loss_{legal},
+\le C_{4,N}\mathfrak S_N(t)\mathcal A_N(t)+Loss_{legal},
 \qquad
 \mathcal A_N(t)=\sum_{j>N}2^{-j}D_j(t)^2.
 ```

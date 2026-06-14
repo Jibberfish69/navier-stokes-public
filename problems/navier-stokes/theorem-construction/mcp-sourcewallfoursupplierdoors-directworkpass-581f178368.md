@@ -140,7 +140,7 @@ or an equivalent square-source reserve.
 
 Charge diffuse Zeno ancestry by a scale-normalized entropy or branch-complexity reserve.
 
-A schematic form is
+The target form is
 
 ```math
 \sum_{P\in\mathcal F_N} Entropy(P)

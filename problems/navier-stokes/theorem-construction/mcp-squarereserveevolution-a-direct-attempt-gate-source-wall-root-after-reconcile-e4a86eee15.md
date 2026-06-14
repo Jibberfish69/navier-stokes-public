@@ -28,7 +28,7 @@ The charge required by this theorem must be payable from already installed tail-
 
 ```math
 Charge_N(W)
-\lesssim
+\le C_{charge}
 \int_W\sum_{\ell>N}D_\ell(t)\,dt+Loss_{legal}+o_N(1).
 ```
 
@@ -71,7 +71,7 @@ Thus
 =
 \int_{I_L}
 \sum_{k=N+1}^{L-5}2^kA_L^2h_L^{-2}\,dt
-\simeq
+=
 2^L A_L^2h_L^{-1}.
 ```
 
@@ -80,7 +80,7 @@ Choose
 ```math
 A_L\to0,
 \qquad
-h_L\simeq2^LA_L^2.
+h_L:=2^LA_L^2.
 ```
 
 Then the installed first-moment tail charge tends to zero while the square reserve stays order one:
@@ -88,7 +88,7 @@ Then the installed first-moment tail charge tends to zero while the square reser
 ```math
 \int_{I_L}\sum_{\ell>N}D_\ell(t)\,dt=A_L\to0,
 \qquad
-\mathcal R_N(I_L)\simeq1.
+\mathcal R_N(I_L)=1.
 ```
 
 On an earliest pulse window, the past-reserve term contributes zero:
@@ -109,7 +109,7 @@ G_k(t):=\sum_{\ell>k+4}e_\ell(t),
 T_k(t):=\sum_{\ell>k+4}D_\ell(t).
 ```
 
-The tail energy identity gives schematically
+The tail energy identity gives
 
 ```math
 {d\over dt}G_k(t)+T_k(t)=\mathcal N_k(t),

@@ -55,8 +55,8 @@ This target would supply the missing `p=2` temporal control. The direct route ne
 The shell flux is trilinear. A fixed-shell amplitude scaling test has
 
 ```math
-F_j\sim A^3,
-\qquad |F_j|^2\sim A^6.
+F_j=A^3F_j^{(1)},
+\qquad |F_j|^2=A^6|F_j^{(1)}|^2.
 ```
 
 Original smooth data and preterminal smoothness give data-dependent bounds, while the active terminal estimate needs a scale-normalized bound along moving high-frequency windows. Current ledgers do not supply that normalization.

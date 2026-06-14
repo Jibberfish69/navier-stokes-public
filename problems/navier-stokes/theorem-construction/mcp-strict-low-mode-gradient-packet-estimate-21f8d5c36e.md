@@ -81,9 +81,9 @@ C2^{-j}\|\nabla a_N\|_\infty\|\nabla u_{\sim j}\|_2.
 Using Bernstein on the finite shell collar,
 
 ```math
-\|\nabla u_{\sim j}\|_2\lesssim 2^j\|u_{\sim j}\|_2,
+\|\nabla u_{\sim j}\|_2\le C_B2^j\|u_{\sim j}\|_2,
 \qquad
-\|\Delta u_j\|_2\sim 2^{2j}\|u_j\|_2.
+c_\Delta2^{2j}\|u_j\|_2\le \|\Delta u_j\|_2\le C_\Delta2^{2j}\|u_j\|_2.
 ```
 
 Therefore
