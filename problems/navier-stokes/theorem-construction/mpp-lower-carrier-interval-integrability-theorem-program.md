@@ -592,8 +592,7 @@ U_\beta(x,t)-U_\beta(\Phi(a^j,t),t)
 
 or, on the cascade side, the corresponding factor `U_r` with `r\le m`.
 
-For the centered part, the proof of `LCI.B2a` gives terms of the schematic
-form
+For the centered part, the proof of `LCI.B2a` gives terms of the form
 
 ```math
 |U_\beta(\Phi(a^j,t),t)|
@@ -906,9 +905,9 @@ with
 and the same derivative scale
 
 ```math
-\|(\Xi_\delta^{osc})'\|_{L^\infty}\lesssim \delta^{-1},
+\|(\Xi_\delta^{osc})'\|_{L^\infty}\le C_{\Xi,1}\delta^{-1},
 \qquad
-\|(\Xi_\delta^{osc})''\|_{L^\infty}\lesssim \delta^{-2}.
+\|(\Xi_\delta^{osc})''\|_{L^\infty}\le C_{\Xi,2}\delta^{-2}.
 \tag{LCI.3c3z5f}
 ```
 
@@ -2083,7 +2082,7 @@ For `x\in B(c_j(t),R_\delta/2)` and `y` in the support of `1-\eta_j`, one has
 `|y-c_j(t)|\ge R_\delta`, hence
 `|x-y|\ge |y-c_j(t)|/2`. Since
 `h_j=\partial_a\partial_b\mathcal N * ((1-\eta_j)u_a u_b)`, the kernel bound
-`|\partial_a\partial_b\mathcal N(x-y)|\lesssim |x-y|^{-3}` yields
+`|\partial_a\partial_b\mathcal N(x-y)|\le C_{\mathcal N}|x-y|^{-3}` yields
 `(LCI.3c3z19ah)`. Summing over `j` gives `(LCI.3c3z19aj)`, and
 `(LCI.3c3z19ak)` is immediate from
 `|y-c_j(t)|^{-3}\le R_\delta^{-3}` on the integration region. ∎
@@ -2454,7 +2453,7 @@ with the oscillation part fed by the center-ball supplier from
 ### Candidate Reduction `LCI.B2g5l` (Affine-frame handoff to the higher center rungs)
 
 Once `G_j` is installed, the higher center rungs should be transported in that
-affine frame. Writing schematically
+affine frame. Writing
 
 ```math
 \widetilde U_q^{\,j}(t)
@@ -2488,7 +2487,8 @@ with
 
 ```math
 B_{q,\rho,\psi}^{aff}(t)
-\lesssim
+\le
+C_{aff,q,\rho,\psi}
 \sum_{j=1}^{J}\mathfrak D_{1,j}^{aff}(t),
 \qquad
 S_{q,\rho,\psi}^{aff}\in L^1(I),

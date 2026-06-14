@@ -30,11 +30,11 @@ The existing signed route studies the weighted lifted remainder
 \sum W_{j,k,\ell}^{\sigma}\mathcal R_{j,k,\ell}^{lift},
 ```
 
-with principal form
+with displayed principal atom
 
 ```math
-\mathcal R_{j,k,\ell}^{lift}
-\sim
+\mathcal R_{j,k,\ell}^{lift,prin}
+:=
 2^{2j}
 \left\langle
 \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u
@@ -100,9 +100,12 @@ To prove `LocalStrainDepletion.A`, the route needs one of:
 \textbf{SignedPositiveBalance.A:}
 \quad
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_+
-\lesssim
+\le
+C_{SPB}
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_-
-+o_N(1);
+\varepsilon_N,
+\qquad
+\varepsilon_N\to0;
 ```
 
 ```math

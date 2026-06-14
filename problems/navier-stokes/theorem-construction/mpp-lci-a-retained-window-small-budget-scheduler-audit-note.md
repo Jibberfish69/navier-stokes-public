@@ -429,7 +429,7 @@ Since the right-hand side is bounded and `I_a` is finite,
 
 For the affine defect, the oscillation part is controlled by the same finite
 chain readout. The first-rung forcing part is read from the local center forcing
-identity, schematically
+identity,
 
 ```math
 \mathcal E_j^{(1)}

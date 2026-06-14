@@ -116,7 +116,7 @@ which is not linearized by the first-rung carrier `(HSP.6)` alone; and
 
 ```math
 \|D_t\vartheta_{\rho,\psi,t}^{halo,\delta}\|_{L^\infty}
-\lesssim
+\le C_{\vartheta}
 \delta^{-1}
 \Big(
 \mathfrak V_{\rho,\psi}^{core}(t)

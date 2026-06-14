@@ -57,16 +57,18 @@ source ledger as if it were a branch-native no-pulse theorem.
 
 ## Direct Estimate Test
 
-At the pre-Cauchy level the active local source has schematic form
+Fix the Littlewood--Paley interaction bandwidth `L_0` used by the dyadic
+paraproduct decomposition.  At the pre-Cauchy level the active local source
+atom tested here is
 
 ```math
 \mathfrak S_{N,loc}^{active}
-\sim
+:=
 \sum_{j>N}
 \int
 \chi_{j,Q}
 \Delta_j u\cdot
-\mathbb P\nabla\cdot(u_{\le j+O(1)}\otimes u_{>j-O(1)})\,dx,
+\mathbb P\nabla\cdot(u_{\le j+L_0}\otimes u_{>j-L_0})\,dx,
 ```
 
 with the same-fluid cutoff and active-window selector included in
@@ -78,10 +80,12 @@ so it has not yet become the off-diagonal product carrier
 
 ```math
 |\mathfrak S_{N,loc}^{active}|
-\lesssim
+\le
+C_{LS,L_0}\big(
 \text{local active-square tail}
 +
-\text{dissipation/commutator ledgers}.
+\text{dissipation/commutator ledgers}
+\big).
 ```
 
 After Young/Cauchy, the term that remains is the same active-square residual

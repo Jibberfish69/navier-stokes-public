@@ -36,7 +36,7 @@ Equivalently,
 
 ## Proof sketch
 
-Work on a same-fluid transported cylinder. The local energy balance has the schematic terminal form
+Work on a same-fluid transported cylinder. The terminal local energy balance is
 
 ```math
 \Delta E_{loc}^{term}+D_{loc}^{term}

@@ -39,7 +39,7 @@ where `j` is dyadic scale and `\alpha` indexes a same-fluid heat tube
 ```math
 Q_P
 =
-\{(x,t): |x-X_P(t)|\lesssim 2^{-j},\ t\in I_P,\ |I_P|\sim 2^{-2j}\}.
+\{(x,t): |x-X_P(t)|\le C_P2^{-j},\ t\in I_P,\ c_I2^{-2j}\le |I_P|\le C_I2^{-2j}\}.
 ```
 
 Let
@@ -62,7 +62,7 @@ E_P(t)=\frac12\|U_P(t)\|_2^2,
 D_P(t)=\nu\|\nabla U_P(t)\|_2^2.
 ```
 
-The localized packet equation is written schematically as
+The localized packet equation is
 
 ```math
 \partial_tU_P-\nu\Delta U_P
@@ -253,4 +253,3 @@ LocalizedSkewCurrent.A
 \Longrightarrow
 CycleHeatAction.A\ \text{can be applied to the localized signed current.}
 ```
-

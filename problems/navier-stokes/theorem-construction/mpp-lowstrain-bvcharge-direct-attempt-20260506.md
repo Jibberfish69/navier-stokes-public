@@ -18,7 +18,7 @@ For a retained active packet family `F_N(W)`, each packet `P` has shell
 `j_P`, heat time
 
 ```math
-\tau_P\simeq(\nu2^{2j_P})^{-1},
+\tau_P:=(\nu2^{2j_P})^{-1},
 ```
 
 sampled low strain
@@ -169,11 +169,11 @@ C\tau_P\int_{I_P}
 \end{aligned}
 ```
 
-Since `tau_P simeq (nu 2^{2j_P})^{-1}`,
+Since `\tau_P=(\nu 2^{2j_P})^{-1}`,
 
 ```math
 \tau_P\nu2^{2m}
-\lesssim
+=
 2^{-2(j_P-m)}
 \le
 2^{-2L}.
@@ -221,8 +221,12 @@ and belongs in the legal Field/source ledger by construction of `B_m`.
 The near band `j-L<m<j` has no small factor:
 
 ```math
-\tau_P\nu2^{2m}\simeq 1
-\quad\text{for }m=j-O_L(1).
+2^{-2(L-1)}
+\le
+\tau_P\nu2^{2m}
+\le
+2^{-2}
+\quad\text{for }m=j-\ell,\ 1\le \ell<L.
 ```
 
 Therefore near-band BV is the only serious part of `(LBV.1)`.
@@ -282,9 +286,12 @@ should give
 
 ```math
 |D_tn_P|
-\lesssim
+\le
+C_{Frame}
+\big(
 |Q_{n_P}S^{loc}_{<j_P}n_P|
-+\mathrm{FrameComm}_P.
++\mathrm{FrameComm}_P
+\big).
 \tag{LBV.13}
 ```
 

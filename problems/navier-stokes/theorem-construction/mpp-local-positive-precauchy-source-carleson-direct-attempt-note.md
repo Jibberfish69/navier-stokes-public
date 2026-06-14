@@ -39,13 +39,16 @@ structure are not erased before the estimate is applied.
 ## Attempt 1: Direct Cauchy / Young
 
 Applying Cauchy--Schwarz or Young to the localized nonlinear source gives a
-positive envelope such as:
+positive envelope with a constant `C_CY` depending only on the fixed cutoff and
+dyadic overlap:
 
 ```math
 \left|\mathcal N_{preCauchy}^{loc}\right|
-\lesssim
+\le
+C_{CY}\left(
 \mathsf{ActiveSquare}
-+\mathsf{LowerCoeff}\cdot\mathsf{Energy}.
++\mathsf{LowerCoeff}\cdot\mathsf{Energy}
+\right)
 ```
 
 This is useful for downstream routing, but it does not prove `(LPCS.1)`.  The

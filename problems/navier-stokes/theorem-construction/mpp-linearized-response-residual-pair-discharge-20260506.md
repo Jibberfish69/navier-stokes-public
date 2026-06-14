@@ -50,14 +50,12 @@ On shell `j`:
 
 ```math
 \|P_j\Delta u\|_{H^{-1}}^2
-\simeq
-2^{-2j}\|P_j\Delta u\|_2^2
-\simeq
-2^{-2j}2^{4j}\|u_j\|_2^2
+\le
+C_{\mathrm{LP}}2^{-2j}\|P_j\Delta u\|_2^2
+\le
+C_{\mathrm{LP}}'2^{2j}\|u_j\|_2^2
 =
-2^{2j}\|u_j\|_2^2
-=
-D_j.
+C_{\mathrm{LP}}'D_j.
 \tag{LRR.2}
 ```
 
@@ -66,7 +64,8 @@ Therefore:
 ```math
 \boxed{
 \|P_{>N}\Delta u\|_{L_t^2H_x^{-1}}^2
-\lesssim
+\le
+C_{\mathrm{LRR}}
 \int_I\sum_{j>N}D_j(t)dt.
 }
 \tag{LRR.3}
