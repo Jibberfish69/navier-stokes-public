@@ -263,7 +263,7 @@ Hence:
 
 ```math
 \boxed{
-\text{signed route } \approx \text{ affine-quotient route minus one scale derivative.}
+\text{signed route: affine-quotient route with one additional scale-derivative burden.}
 }
 ```
 
@@ -377,7 +377,7 @@ At the coupled, theorem-primary level, the stronger exact target is still
 `(MSI)` / the barrier-scale estimate on the lifted commutator functional
 `\mathcal J_N^{lift}`.
 
-## IV. Shell-Gain Route
+## IV. Shell Square-Factor Payment Route
 
 ### What the exploratory route says
 
@@ -388,7 +388,7 @@ In its own original language the route is:
 \rightsquigarrow
 \text{local block} + \text{tail block}
 \rightsquigarrow
-\text{tail block needs a half-derivative miracle.}
+\text{tail block needs a residual square-factor payment.}
 ```
 
 That is the content of:
@@ -398,7 +398,7 @@ That is the content of:
 
 ### Stronger normalization
 
-If one stops at “half-derivative miracle needed,” the route is still not
+If one stops at "residual square-factor payment needed," the route is still not
 normalized enough to compare honestly with the other survivors.
 
 The stronger current normalization is recorded in
@@ -424,7 +424,7 @@ Equivalently, on a fixed low shell `j_0`, the unresolved object is
 
 ```math
 \boxed{
-A_{j_0-1}(t)\le C\nu 2^{2j_0}.
+A_{j_0-1}(t)\le C_{\mathrm{shell}}\nu 2^{2j_0}.
 }
 ```
 
@@ -438,7 +438,7 @@ The honest terminal form is:
 ```math
 \boxed{
 \text{low-frequency cumulative strain barrier }B_j,
-\text{ equivalently the fixed-shell condition }A_{j_0-1}\lesssim \nu 2^{2j_0}.
+\text{ equivalently the fixed-shell condition }A_{j_0-1}\le C_{\mathrm{shell}}\nu 2^{2j_0}.
 }
 ```
 
@@ -460,13 +460,13 @@ gap-kernel upper-tail objects.
 
    deepest current terminal class on the one-sided scale-memory branch.
 
-2. **Shell-gain route**
+2. **Shell square-factor payment route**
 
    ```math
    \boxed{
    B_j=\frac{A_j}{\nu 2^{2j}}
    \quad\text{or}\quad
-   A_{j_0-1}\lesssim \nu 2^{2j_0}.
+A_{j_0-1}\le C_{\mathrm{shell}}\nu 2^{2j_0}.
    }
    ```
 
