@@ -53,7 +53,8 @@ the coefficient identity in the mixed-shell note gives
 
 ```math
 B_j(t)M_{j,\ell}^\sigma(t)
-\lesssim_M
+\le
+C_M
 \gamma_j(t)\,\mathfrak B_{j,\ell}^\sigma(t),
 \qquad
 \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t).
@@ -113,9 +114,10 @@ up to the barrier-sized initial boundary contribution.  Therefore
 
 ```math
 \int_0^{T_\ast}\mathfrak B_N^\sigma(t)\,dt
-\lesssim
+\le
+C_\nu
 \mathfrak M_N^\sigma(0)
-\lesssim
+\le
 C_\ast2^{-2\delta N}.
 ```
 
@@ -142,7 +144,8 @@ Indeed,
 
 ```math
 \int_0^{T_\ast}\sum_{j>N}\gamma_j(t)\,dt
-\lesssim_M
+\le
+C_M
 2^{-N}\int_0^{T_\ast}\sum_mE_m(t)\,dt
 \to0 .
 \tag{2}

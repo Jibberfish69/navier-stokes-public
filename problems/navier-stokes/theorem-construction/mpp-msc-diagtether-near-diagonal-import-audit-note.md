@@ -69,7 +69,7 @@ To produce a physical blow-up cylinder, the route needs a lower bound on the
 near-spatial-diagonal portion
 
 ```math
-\iint_{|x-y|\lesssim2^{-j}}
+\iint_{|x-y|\le C_{diag}2^{-j}}
 d_j(x,t)d_\ell(y,t)\,dx\,dy.
 ```
 

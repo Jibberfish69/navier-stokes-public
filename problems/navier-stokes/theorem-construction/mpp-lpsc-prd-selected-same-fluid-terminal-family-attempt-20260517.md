@@ -107,7 +107,7 @@ The near-band active source-current reduces to the source-weighted angular term
 \tag{SWAD}
 ```
 
-A Cauchy/Young estimate has the schematic form
+A Cauchy/Young estimate has the form
 
 ```math
 (SWAD)

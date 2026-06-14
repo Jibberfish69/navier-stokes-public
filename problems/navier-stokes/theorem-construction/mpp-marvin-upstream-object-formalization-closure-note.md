@@ -613,7 +613,7 @@ assuming the corresponding ellipticity and coefficient window.
 
 ```math
 \|\nabla_aW_\alpha^{test}\|_2
-\lesssim
+\le C_{same}
 \|\mathcal Z_\alpha\|_2
 \tag{MUP.50}
 ```

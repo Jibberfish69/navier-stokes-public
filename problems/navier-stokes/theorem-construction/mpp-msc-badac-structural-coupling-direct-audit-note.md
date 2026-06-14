@@ -65,8 +65,8 @@ Finite energy gives first-moment dissipation:
 The mixed measure contains products of active dissipation densities:
 
 ```math
-\mathfrak B_N^\sigma(t)
-\sim
+\mathfrak B_N^{\sigma,model}(t)
+:=
 \sum_{N<j\le \ell}K_{j,\ell}^\sigma D_j(t)D_\ell(t).
 ```
 
@@ -90,7 +90,7 @@ shellwise product-measure absolute continuity on the selected bad windows.
 
 ## Mixed Identity Self-Coupling Test
 
-The mixed identity has the schematic form:
+The mixed identity has the form:
 
 ```math
 \partial_t\mathfrak M_N^\sigma
@@ -205,4 +205,3 @@ or the pre-Cauchy local-source form
 ```math
 LocalSource.NoPulse.A.
 ```
-

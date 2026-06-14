@@ -6,7 +6,8 @@ Conditional Field-readout bridge. The readout implication is proved from the dow
 
 ## Statement
 
-Let `v=\chi_a^{\mathcal W}u` be the same-witness localized velocity packet. Let `r_J\simeq 2^{-J}`. Assume the pointwise Field row is instantiated through
+Let `v=\chi_a^{\mathcal W}u` be the same-witness localized velocity packet. Let `r_J:=2^{-J}` and
+`A_J:=\{h\in\mathbf R^3:r_J/2\le |h|\le r_J\}`. Assume the pointwise Field row is instantiated through
 
 ```math
 READ.COVER+ATD_m^\varepsilon\Longrightarrow Field.
@@ -15,7 +16,7 @@ READ.COVER+ATD_m^\varepsilon\Longrightarrow Field.
 Assume the cover has finite overlap and positive same-fluid radius `r_*>0`, and that `ATD_m^\varepsilon` gives the velocity-gradient tower rung on each cover cylinder. Then, for all matched scales `r_J\le c r_*`,
 
 ```math
-r_J^{-1}\fint_{|h|\simeq r_J}
+r_J^{-1}\fint_{A_J}
 \|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
 \le
 C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
@@ -46,7 +47,7 @@ r_*:=\min_i r_i>0.
 
 On each cover element, `ATD_m^\varepsilon` supplies finite-depth tower control. In particular, the velocity-gradient rung is controlled by the Field/tower modulus.
 
-For `|h|\simeq r_J\le c r_*`, same-fluid geometry and Pack-controlled overlap keep the segment from `x` to `x+h` inside a bounded enlargement of the same cover family. Hence
+For `h\in A_J` and `r_J\le c r_*`, same-fluid geometry and Pack-controlled overlap keep the segment from `x` to `x+h` inside a bounded enlargement of the same cover family. Hence
 
 ```math
 v(x+h)-v(x)
@@ -62,10 +63,10 @@ By Cauchy--Schwarz and finite overlap,
 C|h|^2\|\nabla v\|_{L^2(\operatorname{Cov}_{r_*})}^2.
 ```
 
-Averaging over `|h|\simeq r_J` and multiplying by `r_J^{-1}` gives
+Averaging over `A_J` and multiplying by `r_J^{-1}` gives
 
 ```math
-r_J^{-1}\fint_{|h|\simeq r_J}
+r_J^{-1}\fint_{A_J}
 \|v(\cdot+h)-v(\cdot)\|_2^2\,dh
 \le
 C r_J\|\nabla v\|_{L^2(\operatorname{Cov}_{r_*})}^2.

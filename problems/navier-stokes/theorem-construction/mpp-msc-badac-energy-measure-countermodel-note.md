@@ -108,15 +108,15 @@ j_N:=N+1,
 On `I_N`, take an active shell packet with the critical size
 
 ```math
-E_{j_N}(t)\sim 2^{j_N}.
+E_{j_N}(t):=2^{j_N}.
 ```
 
 Then
 
 ```math
-\gamma_{j_N}(t)=2^{-j_N}E_{j_N}(t)\sim1,
+\gamma_{j_N}(t)=2^{-j_N}E_{j_N}(t)=1,
 \qquad
-\int_{I_N}E_{j_N}(t)\,dt\sim2^{-j_N}\to0.
+\int_{I_N}E_{j_N}(t)\,dt=2^{-j_N}\to0.
 ```
 
 The energy scheduler still sees a vanishing tail contribution. But a

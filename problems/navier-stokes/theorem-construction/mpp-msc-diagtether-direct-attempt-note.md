@@ -42,14 +42,17 @@ D_j(t)D_\ell(t)
 The near-diagonal part needed by a physical blow-up cylinder is only
 
 ```math
-\sum_{\alpha\sim\beta}a_\alpha(t)b_\beta(t),
+\sum_{(\alpha,\beta)\in\mathcal N_j}a_\alpha(t)b_\beta(t),
 ```
 
-where `\alpha\sim\beta` means the cells are within `O(r_j)`.
+where
+`\mathcal N_j:=\{(\alpha,\beta):\operatorname{dist}(C_\alpha,C_\beta)\le
+2r_j\}`.
 
 There is no lower bound of the second sum by the first.  If the mass is spread
-over `M_j\simeq r_j^{-3}` comparable cells, the diagonal fraction can be only
-`O(M_j^{-1})`, while the global product remains order one after normalization.
+over `M_j` cells of side `r_j`, with each cell having at most `C_{near}` cells
+in its near-neighbor set, the diagonal fraction can be at most
+`C_{near}M_j^{-1}`, while the global product remains normalized to one.
 If the two shell masses are carried by separated cell families, the diagonal
 fraction can be even smaller.
 
@@ -58,7 +61,8 @@ enough to show that the installed inequality
 
 ```math
 \mathfrak B_N^\sigma(t)
-\lesssim
+\le
+C_{MSC}
 \sum_{N<j\le\ell} K_{j,\ell}^\sigma D_j(t)D_\ell(t)
 ```
 
@@ -95,7 +99,7 @@ Equivalently, define a local diagonal mixed-shell carrier
 \mathfrak B_{N,diag}^\sigma(t)
 :=
 \sum_{N<j\le\ell}K_{j,\ell}^\sigma
-\iint_{|x-y|\lesssim 2^{-j}} d_j(x,t)d_\ell(y,t)\,dx\,dy
+\iint_{|x-y|\le C_{diag}2^{-j}} d_j(x,t)d_\ell(y,t)\,dx\,dy
 ```
 
 and prove either
@@ -104,7 +108,8 @@ and prove either
 \boxed{
 DiagDom.A:
 \int_{Bad_N(\eta)}\mathfrak B_N^\sigma(t)\,dt
-\lesssim
+\le
+C_{Diag}
 \int_{Bad_N(\eta)}\mathfrak B_{N,diag}^\sigma(t)\,dt
 +o_N(1),
 }

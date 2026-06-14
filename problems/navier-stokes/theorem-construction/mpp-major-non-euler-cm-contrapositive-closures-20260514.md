@@ -306,7 +306,7 @@ terminal pulse can make:
 \int\sum_{\ell>N}D_\ell(t)\,dt\to0
 ```
 
-while the square reserve stays order one:
+while the square reserve stays bounded below by a fixed positive constant:
 
 ```math
 \mathcal R_N(I)
@@ -314,7 +314,7 @@ while the square reserve stays order one:
 \int_I
 \sum_{k>N}2^k
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt
-\simeq 1.
+\ge c_{sq}>0.
 ```
 
 So `SquareReserveEvolution.A` cannot be derived from installed first-moment tail

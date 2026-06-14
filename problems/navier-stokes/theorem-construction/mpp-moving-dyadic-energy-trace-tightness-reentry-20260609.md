@@ -15,7 +15,7 @@ It does not close public Clay finality.
 Try to prove terminal time-thickness for `B_{ASAC}^{closed,min}` from the fact
 that dyadic shell energies are absolutely continuous before the terminal time.
 
-For a shell `j`, the schematic high-frequency energy balance has the form:
+For a shell `j`, the high-frequency energy balance tested here has the form:
 
 ```math
 \frac{d}{dt}E_j(t)+c\nu 2^{2j}E_j(t)
@@ -60,7 +60,7 @@ terminal shells and shrinking heat-scale windows:
 ```math
 j_m\to\infty,
 \qquad
-|I_m|\simeq 2^{-2j_m},
+|I_m|:=2^{-2j_m},
 \qquad
 t_m\uparrow T_*.
 ```
@@ -102,10 +102,10 @@ a terminal source atom:
 
 ```math
 F_{j_m}(t)
-\simeq
+:=
 A_m |I_m|^{-1}1_{I_m}(t),
 \qquad
-|I_m|\simeq 2^{-2j_m},
+|I_m|:=2^{-2j_m},
 ```
 
 with `A_m` summable in the raw first-moment ledger but normalized active source
