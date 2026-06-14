@@ -36,7 +36,7 @@ The required source-Carleson estimate would follow from a bound of the form
 
 ```math
 \big|\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle\big|
-\lesssim
+\le C_{\mathrm{comm}}
 2^{-c(\ell-j)}2^{3k/2}\|\Delta_k u\|_2D_\ell,
 ```
 
@@ -46,7 +46,7 @@ The existing branch calculation reaches a conditional endpoint of the form
 
 ```math
 \sum_j2^j\mathcal R_{j,lift}^\sigma
-\lesssim
+\le
 \varepsilon\sum_k2^k(\mathcal D_k^{\uparrow,\beta})^2
 +C_\varepsilon\sum_{k>N}D_k.
 ```

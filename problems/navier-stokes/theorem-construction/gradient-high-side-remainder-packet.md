@@ -169,23 +169,23 @@ Proposition `6.1^\sharp`, the explicit `4 -> 1` return arrow, and `C3`.
 
 ## Diagnostic Naive Bound
 
-For the lifted gradient-side low-high contribution, one immediately obtains a
-schematic estimate of the form
+For the lifted gradient-side low-high contribution, one immediately obtains the
+diagnostic estimate
 
 ```math
 2^{2j}\big|\mathcal{C}^{lift}_j(t)\big|
-\lesssim
+\le C_{\mathrm{lift}}
 \Big(\sum_{N+M<k<j-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\Big)
 2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2.
 ```
 
 Again the coefficient sum ranges with `j`, so it is not controlled by the
 fixed-cutoff low-mode quantity `\mathcal{L}_N(t)`. A naive Cauchy-Schwarz
-estimate then produces only a supercritical bound of schematic form
+estimate then produces only a supercritical bound
 
 ```math
 \sum_{j\ge N}2^{2j}\big|\mathcal{C}^{lift}_j(t)\big|
-\lesssim
+\le C_{\mathrm{naive}}
 2^{-N/2} D_N(t)^{3/2},
 ```
 
@@ -251,12 +251,12 @@ the output. So any integrated proof has to start from that exact support
 description and show how the coefficient sum over `N+M<k<j-4` is converted into
 an admissible time-integrable factor.
 
-Second, the usual integrated shortcut becomes circular if it argues
-schematically
+Second, the usual integrated shortcut becomes circular if it argues through the
+candidate reduced estimate
 
 ```math
 \int_0^T |\mathfrak H_N^{grad,lift}[u](t)|\,dt
-\lesssim
+\le C_{\mathrm{red}}
 \int_0^T \|u_{\ge N+M}(t)\|_{L^2_x}\,E_N(t)^{1/2}D_N(t)^{1/2}\,dt
 ```
 
@@ -269,7 +269,7 @@ Therefore the lifted high-side remainder remains open not only at the pointwise
 packet level, but also at the integrated theorem-interface level presently
 supported by the lane.
 
-Moreover, the schematic reduced form
+Moreover, the candidate reduced form
 
 ```math
 \|u_{\ge N+M}(t)\|_{L^2_x}\,E_N(t)^{1/2}D_N(t)^{1/2}

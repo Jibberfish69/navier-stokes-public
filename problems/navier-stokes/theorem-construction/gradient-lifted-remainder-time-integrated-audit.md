@@ -6,7 +6,7 @@ This note records the current status of the time-integrated repair attempt for
 the lifted high-side remainder in the upgraded Body `4` packet.
 
 It does **not** prove the lifted remainder lemma. It isolates the exact theorem
-statement one would like, the exact schematic route behind that proposal, and
+statement one would like, the exact candidate route behind that proposal, and
 the two reasons that route is not theorem-grade on the current Euclidean
 surface.
 
@@ -52,13 +52,13 @@ Therefore the packet is an intermediate high-side transport remainder: the
 transport shell lies above the fixed collar but still below the output shell.
 Any theorem-grade proof of `(I)` has to respect that exact support geometry.
 
-## Tempting Schematic Route
+## Tempting Candidate Route
 
-A natural schematic bound is
+A natural candidate bound is
 
 ```math
 |\mathfrak H_N^{grad,lift}[u](t)|
-\lesssim
+\le C_{\mathrm{red}}
 \|u_{\ge N+M}(t)\|_{L^2_x}\,E_N(t)^{1/2}D_N(t)^{1/2}.
 \tag{S}
 ```
@@ -76,7 +76,7 @@ hope to recover `(I)`.
 
 ## First Obstruction: Support Mismatch
 
-The schematic factor `u_{\ge N+M}` suppresses the exact packet geometry.
+The candidate factor `u_{\ge N+M}` suppresses the exact packet geometry.
 
 The actual lifted packet contains the shell sum
 
@@ -95,11 +95,11 @@ At present, that support-level conversion is not available in the lane.
 Even before the time integration step, the present shell algebra does not yet
 produce `(S)` as a theorem-grade bound.
 
-The currently recorded lifted shell estimate is only the schematic form
+The currently recorded lifted shell estimate is only the explicit shell bound
 
 ```math
 2^{2j}|\mathcal C_j^{lift}(t)|
-\lesssim
+\le C_{\mathrm{lift}}
 \Big(\sum_{N+M<k<j-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}\Big)
 2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2.
 ```
@@ -109,7 +109,7 @@ stronger than the desired reduced form
 
 ```math
 \|u_{\ge N+M}(t)\|_{L^2_x}\,E_j(t)^{1/2}D_j(t)^{1/2}
-\sim
+=
 \|u_{\ge N+M}(t)\|_{L^2_x}\,2^{3j}\|\Delta_j u(t)\|_{L^2_x}^2.
 ```
 
@@ -120,7 +120,7 @@ proved packet estimate.
 
 ## Third Obstruction: Circular Use Of `E_N`
 
-Even if one accepts the schematic route `(S)`, the usual integrated-time
+Even if one accepts the candidate route `(S)`, the usual integrated-time
 estimate becomes
 
 ```math
@@ -182,7 +182,7 @@ and tries to combine
 
 ```math
 \int_0^T |\mathfrak H_N^{grad,lift}[u](t)|\,dt
-\lesssim
+\le C_{\mathrm{red}}
 \Big(\int_0^T \|u_{\ge N+M}(t)\|_{L^2_x}^2\,dt\Big)^{1/2}
 \Big(\int_0^T E_N(t)D_N(t)\,dt\Big)^{1/2}
 ```
@@ -199,7 +199,7 @@ proved
 
 ```math
 |\mathfrak H_N^{grad,lift}[u](t)|
-\lesssim
+\le C_{\mathrm{red}}
 \|u_{\ge N+M}(t)\|_{L^2_x}\,E_N(t)^{1/2}D_N(t)^{1/2}.
 ```
 
@@ -218,7 +218,7 @@ does not close:
 
   ```math
   \int_0^T 2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2\,dt
-  \lesssim
+  \le C_{\mathrm{bar}}
   2^{(4-2\delta)j},
   ```
 
@@ -247,7 +247,7 @@ Even if one only reached
 
 ```math
 \int_0^T |\mathfrak H_N^{grad,lift}[u](t)|\,dt
-\lesssim
+\le C_{\mathrm{fail}}
 2^{-\delta N},
 ```
 

@@ -143,7 +143,7 @@ with exact remaining pair-defect-side wall
 ```math
 \boxed{
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
-\lesssim
+\le C_{FSD}
 \mathcal E_J^{obs}(I).
 }
 \tag{FSD.6}
@@ -153,7 +153,7 @@ On the cycle-exact branch this collapses to the directional theorem
 
 ```math
 \boxed{
-\mathcal E_J^{dir}(I)\lesssim \mathcal E_J^{obs}(I).
+\mathcal E_J^{dir}(I)\le C_{FSD}\mathcal E_J^{obs}(I).
 }
 \tag{FSD.7}
 ```

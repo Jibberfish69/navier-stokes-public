@@ -78,7 +78,7 @@ scale
 
 ```math
 \|\nabla u_{<j_0}(t)\|_{L^\infty_x}
-\lesssim
+\le C_B
 \sum_{k<j_0}2^{5k/2}\|\Delta_k u(t)\|_{L^2_x}.
 ```
 
@@ -130,7 +130,7 @@ orthogonal to the missing low-mode theorem.
 ### 5. The local tail-energy `4 -> 1` packet
 
 The tail-energy route keeps the same-shape barrier by coercive damping
-`Q_N\gtrsim 2^{2N}T_N`, but that mechanism lives on the exact high-frequency
+`Q_N\ge c_Q2^{2N}T_N`, but that mechanism lives on the exact high-frequency
 tail. It does not back-propagate into a low-mode strain suppression theorem on
 the gradient-side strict low packet.
 
@@ -159,7 +159,7 @@ mixed dyadic term
 
 ```math
 \mathcal L_N(t)\sum_{j\ge N}\sqrt{E_jD_j}
-\sim
+=
 \mathcal L_N(t)\sum_{j\ge N}2^jE_j.
 ```
 

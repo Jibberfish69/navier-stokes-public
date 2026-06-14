@@ -37,7 +37,7 @@ The active-square integrand is
 Thus active-square Carleson requires a shell-amplitude gain of size
 
 ```math
-E_j^2\lesssim \nu2^{-j}
+E_j^2\le C_E\nu2^{-j}
 ```
 
 on average over heat-scale intervals.
@@ -86,7 +86,7 @@ The source Carleson estimate supplies interval source mass control. It supplies 
 Flux-source Carleson alone is insufficient for active-square Carleson. The missing theorem is one of:
 
 ```math
-E_j\lesssim \nu^{1/2}2^{-j/2}
+E_j\le C_E^{1/2}\nu^{1/2}2^{-j/2}
 ```
 
 on active intervals,

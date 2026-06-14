@@ -146,14 +146,16 @@ Its limitation here:
 
 ### 3. Incompatible Korn / Curl-augmented tensor control
 
-This is the family with schematic form
+This is the candidate Korn/curl control family
 
 ```math
 \text{full tensor control}
-\lesssim
+\le
+C_{\mathrm{KornCurl}}\left(
 \text{symmetric part}
 +
-\text{incompatibility term (Curl/gauge)}.
+\text{incompatibility term (Curl/gauge)}
+\right).
 \tag{9}
 ```
 
@@ -205,7 +207,8 @@ Equivalently, the theorem would look like
 \|G\nabla_aA\|_{L^\infty}
 +
 \|\nabla_a(G\nabla_aA)\|_{L^\infty}
-\lesssim
+\le
+C_{\mathrm{frame}}
 \Phi\big(
 \|G\|_{\text{metric ledger}},
 \text{one extra frame/gauge quantity}
@@ -365,13 +368,14 @@ projection lands on a better ledger for the edge packets.
 
 ### Stage 3. Recover the frame-level coefficient window
 
-The target theorem should then have the schematic form
+The target theorem should then have the form
 
 ```math
 \|G\nabla_aA\|_{L^\infty}
 +
 \|\nabla_a(G\nabla_aA)\|_{L^\infty}
-\lesssim
+\le
+C_{\mathrm{frame}}
 \Phi\Big(
 \|G\|_{\mathcal L_r},
 \|\nabla_aG\|_{\mathcal L_r},
@@ -592,8 +596,8 @@ So `\partial_t\mathsf M_1` contains only:
 
 In particular, no derivative of `A` above first order appears in `(13h)`.
 
-At the next level, differentiating once more gives only the schematic
-highest-order structure
+At the next level, differentiating once more gives the recorded highest-order
+structure
 
 ```math
 \partial_t\mathsf M_2
@@ -622,7 +626,7 @@ This route is coherent, but not yet verified theorem-grade.
 
 The missing checks are:
 
-1. the exact full-index bookkeeping in `(13i)`, beyond the schematic highest
+1. the exact full-index bookkeeping in `(13i)`, beyond the recorded highest
    order structure above;
 2. the exact Sobolev threshold on the `v`-ledger needed to make the
    coefficient bootstrap live in `L^\infty` once `\nabla_a^3v` enters;
@@ -695,12 +699,13 @@ where `\Lambda_*` is the already-propagated low-order bridge envelope on
 ```
 
 Since the adaptive partition is finite and the frozen-coordinate transfer in the
-bridge note gives `E_j\lesssim_{\Lambda_*} X_s^{\mathrm{corr}}[I_j;w,\pi]`,
+bridge note gives `E_j\le C_{\Lambda_*} X_s^{\mathrm{corr}}[I_j;w,\pi]`,
 one has
 
 ```math
 \sum_{j=0}^{N-1}E_j
-\lesssim_{\Lambda_*}
+\le
+C_{\Lambda_*}
 \sqrt{N}\,
 \|v\|_{L_t^2H_a^{s+1}([0,T])}
 <\infty.
@@ -1170,7 +1175,7 @@ the current theorem picture:
   ```math
   \mathsf M_2:=\nabla_a(G\nabla_aA),
   ```
-  the schematic expansion `(13i)` contains at most second derivatives of `A`
+  the recorded expansion `(13i)` contains at most second derivatives of `A`
   and third derivatives of `v`.
 
 So, if one tries to close the coefficient window by direct propagation of
@@ -1198,10 +1203,12 @@ Moser/Kato--Ponce tame estimate:
 
 ```math
 \|uv\|_{H^s}
-\lesssim
+\le
+C_s\left(
 \|u\|_{L^\infty}\|v\|_{H^s}
 +
-\|u\|_{H^s}\|v\|_{L^\infty},
+\|u\|_{H^s}\|v\|_{L^\infty}
+\right),
 \qquad s\ge 0,
 \tag{13m}
 ```
@@ -1270,12 +1277,15 @@ The exact theorem burden is a same-depth estimate of the form
 \|\partial_t v\|_{L_t^2 H^{s-1}}
 +
 \|\nabla_a q\|_{L_t^2 H^{s-1}}
-\lesssim
+\le
+C_{\mathrm{Stokes}}
+\left(
 \|v_0\|_{H^s}
 +
 \|f\|_{L_t^2 H^{s-1}}
 +
 \text{same-depth coefficient terms from }A,G,
+\right)
 \tag{13o}
 ```
 

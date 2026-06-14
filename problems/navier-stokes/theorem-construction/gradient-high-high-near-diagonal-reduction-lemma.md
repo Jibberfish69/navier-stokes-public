@@ -82,7 +82,7 @@ For each surviving shell, Bernstein and the `L^\infty\times L^2\to L^2` product 
 \|\Delta_k u\cdot\nabla\widetilde\Delta_k u\|_2
 \le
 \|\Delta_k u\|_\infty\,\|\nabla\widetilde\Delta_k u\|_2
-\lesssim
+\le C_B
 2^{\frac32k}\|\Delta_k u\|_2\,2^k\|\widetilde\Delta_k u\|_2.
 ```
 
@@ -95,7 +95,11 @@ C_M2^{\frac52j}\|\Delta_k u\|_2\|\widetilde\Delta_k u\|_2.
 Also
 
 ```math
-\|\Delta\Delta_j u\|_2\sim2^{2j}\|\Delta_j u\|_2.
+c_\Delta2^{2j}\|\Delta_j u\|_2
+\le
+\|\Delta\Delta_j u\|_2
+\le
+C_\Delta2^{2j}\|\Delta_j u\|_2.
 ```
 
 Multiplying these estimates yields

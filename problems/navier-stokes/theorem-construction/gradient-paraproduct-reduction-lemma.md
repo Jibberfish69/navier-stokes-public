@@ -36,20 +36,20 @@ a_N:=S_{N-4}u,
 \Lambda_N(t):=\|\nabla a_N(t)\|_\infty.
 ```
 
-Let `u_{\sim j}` denote a fixed finite shell collar around `j`.
+Let `u_{[j]}` denote a fixed finite shell collar around `j`.
 
 ## Strict Low-Mode Packets
 
 The strict low-high packet is
 
 ```math
-LH_j:=\left\langle [\Delta_j,a_N\cdot\nabla]u_{\sim j},-\Delta u_j\right\rangle.
+LH_j:=\left\langle [\Delta_j,a_N\cdot\nabla]u_{[j]},-\Delta u_j\right\rangle.
 ```
 
 The strict high-low packet is
 
 ```math
-HL_j:=\left\langle \Delta_j(u_{\sim j}\cdot\nabla a_N),-\Delta u_j\right\rangle.
+HL_j:=\left\langle \Delta_j(u_{[j]}\cdot\nabla a_N),-\Delta u_j\right\rangle.
 ```
 
 The uncommuted transport contribution cancels because `\nabla\cdot a_N=0`:
@@ -89,17 +89,17 @@ C\Lambda_N(t)E_N(t)+\frac{\eta\nu}{8}D_N(t).
 The standard dyadic commutator estimate gives
 
 ```math
-\|[\Delta_j,a_N\cdot\nabla]u_{\sim j}\|_2
+\|[\Delta_j,a_N\cdot\nabla]u_{[j]}\|_2
 \le
-C2^{-j}\|\nabla a_N\|_\infty\|\nabla u_{\sim j}\|_2.
+C2^{-j}\|\nabla a_N\|_\infty\|\nabla u_{[j]}\|_2.
 ```
 
 By Bernstein on the high shell collar,
 
 ```math
-\|\nabla u_{\sim j}\|_2\lesssim2^j\|u_{\sim j}\|_2,
+\|\nabla u_{[j]}\|_2\le C_B2^j\|u_{[j]}\|_2,
 \qquad
-\|\Delta u_j\|_2\sim2^{2j}\|u_j\|_2.
+c_\Delta2^{2j}\|u_j\|_2\le\|\Delta u_j\|_2\le C_\Delta2^{2j}\|u_j\|_2.
 ```
 
 Thus
@@ -107,7 +107,7 @@ Thus
 ```math
 |LH_j|
 \le
-C\Lambda_N(t)2^{2j}\|u_{\sim j}\|_2\|u_j\|_2.
+C\Lambda_N(t)2^{2j}\|u_{[j]}\|_2\|u_j\|_2.
 ```
 
 Finite overlap gives
@@ -120,8 +120,8 @@ Finite overlap gives
 For the high-low term,
 
 ```math
-\|\Delta_j(u_{\sim j}\cdot\nabla a_N)\|_2
-\le C\|u_{\sim j}\|_2\|\nabla a_N\|_\infty.
+\|\Delta_j(u_{[j]}\cdot\nabla a_N)\|_2
+\le C\|u_{[j]}\|_2\|\nabla a_N\|_\infty.
 ```
 
 Pairing with `-\Delta u_j` and summing by finite overlap gives

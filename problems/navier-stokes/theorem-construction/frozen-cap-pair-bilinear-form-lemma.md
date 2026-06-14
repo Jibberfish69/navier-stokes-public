@@ -18,7 +18,7 @@ way to `(WERS.2b)` / `(WERS.2s)`.
 ## Carrier
 
 Work on one resonant dyadic shell
-`|\xi|\sim|\eta|\sim|\xi+\eta|\sim 2^j` under the metric hypotheses
+`c_02^j\le|\xi|,|\eta|,|\xi+\eta|\le C_02^j` under the metric hypotheses
 `(WERS.0)`-`(WERS.0b)` from
 [weighted-exact-projection-resonant-shell-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md).
 
@@ -28,7 +28,7 @@ let `\mathcal R_j` be the active cap-pair graph
 ```math
 \mathcal R_j
 :=
-\{(\omega,\omega'):\angle(\omega,\omega')\lesssim \rho_j\},
+\{(\omega,\omega'):\angle(\omega,\omega')\le C_\rho \rho_j\},
 \tag{FCP.0}
 ```
 
@@ -156,7 +156,7 @@ same shell demotion already carried by the projector-defect side:
 ```math
 \boxed{
 |\mathcal R_j^{freeze}(f_j,g_j)|
-\lesssim
+\le C_{\mathrm{frz}}
 C_G\,2^{-j}\,
 \|f_j\|_{\mathsf{SameDepth}_j}\,
 \|g_j\|_{\mathsf{SameDepth}_j}.
@@ -251,11 +251,11 @@ verifying the smallness hypothesis `M_j^{coeff}r_j^{cell}\le \varepsilon_j` on
 the chosen carrier.
 
 If the chosen cap carrier is later shown to satisfy
-`r_j^{cell}\lesssim 2^{-j}\rho_j`, then `(FCP.3g)` specializes to the sharper
+`r_j^{cell}\le C_{cell}2^{-j}\rho_j`, then `(FCP.3g)` specializes to the sharper
 shell-scale estimate
 
 ```math
-\delta_j^{freeze}\lesssim M_j^{coeff}\,2^{-j}\rho_j.
+\delta_j^{freeze}\le C_{cell}M_j^{coeff}\,2^{-j}\rho_j.
 \tag{FCP.3i}
 ```
 
@@ -278,7 +278,7 @@ If `a\in C^\alpha_{\mathrm{loc}}` on the packet patches, then
 ```math
 \sup_{a\in P_{j,\omega,\omega'}}
 |a-a_{j,\omega,\omega'}|
-\lesssim
+\le C_\alpha
 \operatorname{diam}(P_{j,\omega,\omega'})^\alpha
 [a]_{C^\alpha(P_{j,\omega,\omega'})}.
 \tag{FCP.3k}
@@ -288,7 +288,7 @@ and therefore
 
 ```math
 \delta_j^{freeze}
-\lesssim
+\le C_\alpha
 M_j^{coeff}\,(r_j^{cell})^\alpha
 \sup_{(\omega,\omega')\in\mathcal R_j}
 [a]_{C^\alpha(P_{j,\omega,\omega'})}.
@@ -296,11 +296,11 @@ M_j^{coeff}\,(r_j^{cell})^\alpha
 ```
 
 In particular, if the chosen carrier later satisfies
-`r_j^{cell}\lesssim 2^{-j}\rho_j`, then
+`r_j^{cell}\le C_{cell}2^{-j}\rho_j`, then
 
 ```math
 \delta_j^{freeze}
-\lesssim
+\le C_{\alpha,cell}
 M_j^{coeff}\,(2^{-j}\rho_j)^\alpha
 \sup_{(\omega,\omega')\in\mathcal R_j}
 [a]_{C^\alpha(P_{j,\omega,\omega'})}.
@@ -370,7 +370,7 @@ the capwise pieces satisfy the standard finite-overlap square-function bound
 
 ```math
 \sum_\omega \|h_{j,\omega}\|_{L^2_a}^2
-\lesssim
+\le C_{\mathrm{fo}}
 \|h_j\|_{L^2_a}^2
 \qquad\text{for every shell field }h_j.
 \tag{FCP-sq}
@@ -381,7 +381,7 @@ same-depth-to-shell dominance on the chosen carrier:
 
 ```math
 \|h_j\|_{L^2_a}
-\lesssim
+\le C_{\mathrm{sd}}
 \|h_j\|_{\mathsf{SameDepth}_j}.
 \tag{FCP-sq'}
 ```
@@ -434,7 +434,7 @@ theorem follows:
 
 ```math
 |\mathcal R_j^{freeze}(f_j,g_j)|
-\lesssim
+\le C_{\mathrm{frz}}
 C_G\,2^{-j}\,
 \|f_j\|_{\mathsf{SameDepth}_j}\,
 \|g_j\|_{\mathsf{SameDepth}_j}.
@@ -443,7 +443,7 @@ C_G\,2^{-j}\,
 
 Indeed, `(FCP.3p)` gives the bound
 `|\mathcal R_j^{freeze}|\le C_G 2^j\varepsilon_j\|f_j\|_{\mathsf{SameDepth}_j}\|g_j\|_{\mathsf{SameDepth}_j}`,
-and `(FCP.3q)` demotes the prefactor `2^j\varepsilon_j` to `O(2^{-j})`.
+and `(FCP.3q)` demotes the prefactor to `2^j\varepsilon_j\le c2^{-j}`.
 
 Combining this with `(FCP.3h)` yields the cell-scale sufficient condition
 
