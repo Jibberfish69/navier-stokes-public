@@ -64,7 +64,7 @@ The reserve splits as
 
 ```math
 R_N
-\lesssim
+\le C_{WS}
 2^{-2N}\Lambda_N^2E_N
 +2^{-2N}(\Theta_N^\sharp)^2E_N.
 ```

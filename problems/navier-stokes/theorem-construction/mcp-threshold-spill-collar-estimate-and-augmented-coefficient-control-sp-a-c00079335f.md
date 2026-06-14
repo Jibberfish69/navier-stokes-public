@@ -82,14 +82,14 @@ with finite overlap in `j` and the high shell collar `u_{\sim j}`. Since each dy
 Thus the derivative may be placed on the high output side after pairing and integrating by parts. Bernstein gives
 
 ```math
-\|\Delta_m u\|_\infty\lesssim 2^{\frac32m}\|\Delta_m u\|_2.
+\|\Delta_m u\|_\infty\le C_B2^{\frac32m}\|\Delta_m u\|_2.
 ```
 
 For each shell,
 
 ```math
 |SP_j|
-\lesssim
+\le C_{SP}
 \Theta_N(t)\,E_j(t)^{1/2}D_j(t)^{1/2},
 ```
 
@@ -105,7 +105,7 @@ Summing over `j\ge N` and applying Cauchy-Schwarz gives
 
 ```math
 \sum_{j\ge N}|SP_j|
-\lesssim
+\le C_{SP}
 \Theta_N(t)E_N(t)^{1/2}D_N(t)^{1/2}.
 ```
 

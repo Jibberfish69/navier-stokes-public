@@ -39,7 +39,7 @@ The global energy reserve gives finite raw mass:
 
 At heat scale, a source pulse can carry order-one normalized source/mixed mass while its raw physical `L^2` contribution shrinks with volume. Therefore raw energy gives no fixed lower bound for `d dfrak(e)` at source-pulse normalization.
 
-The local energy inequality has the schematic form
+The local energy inequality has the form
 
 ```math
 A_\ell \le A_{\ell-1}+Charge_\ell+Reserve_\ell.

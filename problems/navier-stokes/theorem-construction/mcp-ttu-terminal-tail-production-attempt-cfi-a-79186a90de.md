@@ -41,7 +41,7 @@ This proves compact-window retained admission. It supplies no uniform terminal-t
 
 ## Terminal-tail `RSCB.NKF`
 
-`RSCB.NKF` on `[t_0,T_*)` requires an integrable terminal smooth center-ball ledger, schematically
+`RSCB.NKF` on `[t_0,T_*)` requires an integrable terminal smooth center-ball ledger:
 
 ```math
 \sum_j\|u\|_{L^1_t C^{m+2,\alpha}(B(c_j(t),2\rho))}
@@ -63,17 +63,15 @@ Thus
 
 ```math
 \Gamma_{pack,Q}(t)
-\lesssim
+\le C_{pack}
 \Gamma_{pack,Q}(t_0)
-\exp\left(\int_{t_0}^t\|
-abla u(s)\|_{L^\infty(Q_s)}ds\right).
+\exp\left(\int_{t_0}^t\|\nabla u(s)\|_{L^\infty(Q_s)}ds\right).
 ```
 
 A terminal bound for `\Gamma_{pack,Q}` follows from
 
 ```math
-\int_{t_0}^{T_*}\|
-abla u(s)\|_{L^\infty}ds<\infty,
+\int_{t_0}^{T_*}\|\nabla u(s)\|_{L^\infty}ds<\infty,
 ```
 
 or a pack-native substitute with the same continuation strength. Such an estimate is absent from original smooth data alone.

@@ -8,7 +8,7 @@ Let `t_*` be the shifted aligned anchor. The finite-window material-cone and car
 
 ```math
 \|P_{al}(t_*)-P_{top}^{seg}(t_*)\|_F^2
-\lesssim R_J(t_*),
+\le C_{seg}R_J(t_*),
 ```
 
 where

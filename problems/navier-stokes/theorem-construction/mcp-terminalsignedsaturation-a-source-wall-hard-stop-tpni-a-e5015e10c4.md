@@ -31,7 +31,7 @@ J(P'\to P)+J(P\to P')=0.
 The terminal one-sided weights are selected by receiver badness and source-wall tail geometry. The pair endpoints can lie in different receiver/source roles, different terminal depths, or different selected windows. Hence the terminal weights can have order-size mismatch:
 
 ```math
-|W_P-W_{P'}|\simeq W_P+W_{P'}
+c_W(W_P+W_{P'})\le |W_P-W_{P'}|\le C_W(W_P+W_{P'})
 ```
 
 on legal lifted edges. Same-fluid coherence preserves the edge identity; it does not flatten the terminal weights. Therefore terminal weight coherence requires a new theorem:

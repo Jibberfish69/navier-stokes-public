@@ -60,7 +60,7 @@ So this route supplies no lower theorem beneath the current source wall.
 
 ## Source ODE / flux route
 
-The shell energy balance has schematic form:
+The shell energy balance has the form:
 
 ```math
 dE_j+c\nu D_jdt\le F_jdt.

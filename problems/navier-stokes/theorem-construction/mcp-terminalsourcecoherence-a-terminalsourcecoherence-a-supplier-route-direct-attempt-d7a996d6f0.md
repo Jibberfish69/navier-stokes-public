@@ -32,11 +32,11 @@ SignedPositiveBalance.A.
 
 ## 1. LocalPressureStrainDeplete.A
 
-The dangerous legal interior source on a terminal packet has schematic pressure/strain form
+The dangerous legal interior source on a terminal packet has pressure/strain form
 
 ```math
 \mathcal N_{ps}^{loc}(P)
-\sim
+:=
 (e_P\cdot S(u) e_P)_+ |u_P|^2
 +\text{pressure-coupled source terms},
 ```

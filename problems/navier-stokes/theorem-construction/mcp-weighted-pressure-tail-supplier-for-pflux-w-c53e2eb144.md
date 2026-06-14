@@ -46,17 +46,17 @@ Split the pressure source against annuli:
 p=R_iR_j(u_iu_j)=p_k^{near}+p_k^{far}
 ```
 
-on `A_k`, where `p_k^{near}` is sourced by `|y|\sim2^k` and `p_k^{far}` by the complement. The near part is controlled by Calderon-Zygmund on a fat annulus:
+on `A_k`, where `p_k^{near}` is sourced by `c2^k\le |y|\le C2^k` and `p_k^{far}` by the complement. The near part is controlled by Calderon-Zygmund on a fat annulus:
 
 ```math
-\|p_k^{near}\|_{L^2(A_k)}\lesssim \|u\otimes u\|_{L^2(A_k^*)}.
+\|p_k^{near}\|_{L^2(A_k)}\le C_{CZ}\|u\otimes u\|_{L^2(A_k^*)}.
 ```
 
 This term requires local smoothness or an annular `L^4` control for `u`. The far part has kernel decay and is controlled by weighted energy tails:
 
 ```math
 \|p_k^{far}\|_{L^2(A_k)}
-\lesssim 2^{-\sigma k}\sum_{\ell}2^{-c|k-ell|}M_a(t).
+\le C_{far}2^{-\sigma k}\sum_{\ell}2^{-c|k-\ell|}M_a(t).
 ```
 
 Thus the pressure-tail supplier follows from weighted energy plus enough local annular smoothing to control `u\otimes u` in the near annulus.

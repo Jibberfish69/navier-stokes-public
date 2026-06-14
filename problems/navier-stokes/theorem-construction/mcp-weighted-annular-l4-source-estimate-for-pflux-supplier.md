@@ -31,7 +31,7 @@ The fat annulus `A_k^*` is the union of finitely many annuli `A_j` with `|j-k|<=
 \le C\sum_{|j-k|\le2}\|u\|_{L^4(A_j)}^4.
 ```
 
-Also `2^{2ak}\simeq_a2^{2aj}` for `|j-k|<=2`. Summing over `k` and using finite overlap gives
+Also `c_a2^{2aj}\le 2^{2ak}\le C_a2^{2aj}` for `|j-k|<=2`. Summing over `k` and using finite overlap gives
 
 ```math
 \sum_k2^{2ak}\int_0^T\|u\|_{L^4(A_k^*)}^4dt
