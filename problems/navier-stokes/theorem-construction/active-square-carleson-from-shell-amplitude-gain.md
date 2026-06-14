@@ -68,7 +68,7 @@ On heat-scale intervals with the active-shell normalization, the dissipation tai
 
 ```math
 \int_I\sum_{j\ge\max(N,k+C_1)}D_jdt
-\lesssim 2^{2k}|I|.
+\le C_{AS}2^{2k}|I|.
 ```
 
 Thus the active-square Carleson estimate follows.

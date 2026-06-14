@@ -30,7 +30,7 @@ The active-square term contains one extra factor of shell dissipation:
 The energy layer supplies `\int D_N`, while the active-square theorem asks for a square in `D_j`. A direct absorption requires an active-shell amplitude estimate of the form
 
 ```math
-2^{-j}D_j\lesssim \nu
+2^{-j}D_j\le c_{AS}\nu
 ```
 
 on the LPAS support, or an equivalent lower-prefix Carleson theorem. That estimate is not supplied by the current Euclidean inputs.

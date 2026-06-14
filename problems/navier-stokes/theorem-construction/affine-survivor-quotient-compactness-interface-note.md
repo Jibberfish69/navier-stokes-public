@@ -196,7 +196,7 @@ By `(9)`,
 
 ```math
 \|c_{F^{(n)}}(t)\|_{L_x^2}^2
-\lesssim_\kappa
+\le C_\kappa
 \|M_0^{(n)}(t)\|_{L_x^2}^2
 +
 \|M_1^{(n)}(t)\|_{L_x^2}^2.
@@ -240,7 +240,7 @@ The current route gives only the coarse moment bound
 
 ```math
 \|M_0^{(n)}(t)\|_{L_x^2}^2+\|M_1^{(n)}(t)\|_{L_x^2}^2
-\lesssim
+\le C_M
 \int_J \|\widetilde Z^{(n)}(\sigma,t)\|_{L_x^2}^2\,d\sigma.
 \tag{15}
 ```

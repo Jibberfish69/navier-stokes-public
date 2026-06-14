@@ -57,8 +57,10 @@ So
 The reserve splits as
 
 ```math
-R_N\lesssim 2^{-2N}\Lambda_N^2E_N
-+2^{-2N}(\Theta_N^\sharp)^2E_N.
+R_N
+\le
+2\,2^{-2N}\Lambda_N^2E_N
++2\,2^{-2N}(\Theta_N^\sharp)^2E_N.
 ```
 
 The first term needs product control between `\Lambda_N^2` and `E_N`. The current low-mode estimate gives `\Lambda_N\in L^2_t` at fixed `N`, so `\Lambda_N^2\in L^1_t`; the energy layer gives `E_N\in L^1_t`. Product integrability does not follow.

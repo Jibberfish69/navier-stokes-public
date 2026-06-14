@@ -60,7 +60,7 @@ By Cauchy-Schwarz in the `k` sum,
 
 ```math
 \lambda_j^2
-\lesssim
+\le C_{CS}
 \sum_{N+M<k<j-4}
 2^{-(j-k)}\,2^{3k}\|\Delta_k u\|_{L^2_x}^2.
 ```
@@ -69,7 +69,7 @@ Hence
 
 ```math
 \sum_{j\ge N}\lambda_j^2 \|\Delta_j u\|_{L^2_x}^2
-\lesssim
+\le C_{B1}
 \sum_{k\ge N+M}
 2^{3k}\|\Delta_k u\|_{L^2_x}^2
 \sum_{j>k+4}2^{-(j-k)}\|\Delta_j u\|_{L^2_x}^2.
@@ -157,6 +157,6 @@ cleanest next theorem target suggested by this audit:
 - the off-diagonal gain `2^{-(j-k)}` is already real on the scale-side lifted
   band;
 - the unresolved loss is entirely on the lower shell `k`;
-- so the best next refinement is an extra `k`-side gain of roughly one half
-  derivative, or an equivalent weighted tail theorem that absorbs the residual
-  factor `2^k`.
+- so the best next refinement is an integrated `k`-side payment of the exact
+  residual square factor `2^k`, or an equivalent weighted tail theorem that
+  absorbs that factor while preserving the band gap `2^{-(j-k)}`.

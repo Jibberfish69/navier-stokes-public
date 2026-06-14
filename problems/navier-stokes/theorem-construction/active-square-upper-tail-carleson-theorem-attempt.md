@@ -30,7 +30,7 @@ The proposed Carleson estimate is
 Split the sum into
 
 ```math
-j\simeq k
+|j-k|\le C_{\mathrm{collar}}
 ```
 
 and
@@ -43,11 +43,12 @@ On the fixed collar, the estimate requires control of terms of the form
 
 ```math
 \int_I 2^{-j}D_j(t)^2dt
-\lesssim
+\le C_{\mathrm{collar}}
 \varepsilon\nu2^{2k}|I|+C2^{-2\delta k}.
 ```
 
-Since `j\simeq k`, this is essentially a Carleson control for `D_j^2`.
+On this fixed collar, this is exactly the same active time-integrability
+burden as Carleson control for `D_j^2`, up to the displayed collar constant.
 
 The shell energy inequality supplies an `L^1_t` dissipation control for `D_j`, not an `L^2_t` or Carleson control for `D_j^2`. The near-diagonal absorption already proved controls spatial shell products by the global energy amplitude, but it does not upgrade time integrability from `D_j` to `D_j^2`.
 

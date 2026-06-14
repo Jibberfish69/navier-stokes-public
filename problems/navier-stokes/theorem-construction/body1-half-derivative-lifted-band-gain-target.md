@@ -52,10 +52,24 @@ The current Body `1` surface already controls the `2^{2k}` factor through
 
 ## Sharp Reduced Target
 
-The missing theorem content is therefore an additional `k`-side gain of roughly
-one half derivative on the intermediate shell.
+The missing theorem content is therefore the exact `k`-side payment left by the
+failed integration route.  The lifted-band estimate must pay the extra square
+factor
 
-Schematically, one wants to improve the lifted-band coefficient from
+```math
+2^k
+```
+
+in
+
+```math
+2^{3k}\|\Delta_k u^{(n)}\|_{L^2_x}^2
+=
+2^k\,2^{2k}\|\Delta_k u^{(n)}\|_{L^2_x}^2
+```
+
+while keeping the already-proved band gap `2^{-(j-k)}`.  One way to express the
+same target is to improve the lifted-band coefficient from
 
 ```math
 2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}
@@ -67,7 +81,7 @@ toward a carrier closer to
 2^{k}\|\Delta_k u^{(n)}\|_{L^2_x},
 ```
 
-or any equivalent bound that removes the residual `2^k` after integration.
+with the coupled integration still carrying the band gap.
 
 The correction is that this gain is not needed as a standalone shellwise theorem
 of the form `\int 2^{3k}\|\Delta_k u\|_2^2`. What is actually sufficient is the
@@ -94,8 +108,9 @@ integrated theorem.
 
 Any one of the following would be strong enough in principle:
 
-1. a direct half-derivative gain on the intermediate shell coefficient, but in
-   the coupled sense needed by `coupled-lifted-band-gain-target.md`;
+1. a direct payment of the residual `2^k` square factor on the intermediate
+   shell coefficient, in the coupled sense needed by
+   `coupled-lifted-band-gain-target.md`;
 2. a weighted Body `1` tail theorem controlling
 
    ```math

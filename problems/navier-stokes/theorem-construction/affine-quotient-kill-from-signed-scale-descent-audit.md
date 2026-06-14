@@ -193,7 +193,7 @@ Substituting `(10)` into `(5)` yields
 
 ```math
 \int_0^T H_w(t)\,\|\mathcal C_\theta[Y](t)\|_{L_x^2}^2\,dt
-\lesssim
+\le C_\theta
 \int_0^T H_w(t)\Big(
 \|\Psi(s_0,t)\|_{L_x^2}^2
 +
