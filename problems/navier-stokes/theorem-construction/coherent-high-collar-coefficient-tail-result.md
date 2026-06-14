@@ -64,7 +64,7 @@ has a uniform `L^\infty\to L^\infty` bound
 Choose smooth Littlewood-Paley cutoffs. The symbol of `R_{j,A,M}` is supported in the finite annulus
 
 ```math
-2^{j-M}\lesssim |\xi|\lesssim 2^{j+A}.
+c_{A,M}2^{j-M}\le |\xi|\le C_{A,M}2^{j+A}.
 ```
 
 After scaling by `2^j`, its inverse Fourier kernel has the form
@@ -218,11 +218,11 @@ The completed chain is
 ```math
 \text{selector-persistent transport}
 \Longrightarrow
-\|u_{coh}\|_\infty\lesssim \nu2^j+2^{-j}\Phi
+\|u_{coh}\|_\infty\le C_{coh}(\nu2^j+2^{-j}\Phi)
 \Longrightarrow
 \begin{cases}
-\|\nabla u_{coh}\|_\infty\lesssim \nu2^{2j}+\Phi,\\
-2^j\|P_{>j-M}u_{coh}\|_\infty\lesssim \nu2^{2j}+\Phi,
+\|\nabla u_{coh}\|_\infty\le C_{collar}(\nu2^{2j}+\Phi),\\
+2^j\|P_{>j-M}u_{coh}\|_\infty\le C_{collar}(\nu2^{2j}+\Phi),
 \end{cases}
 \Longrightarrow
 \text{low-pass commutator collar absorption}.

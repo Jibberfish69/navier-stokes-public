@@ -217,7 +217,7 @@ The exact standalone `4 -> 1` theorem is recorded in
 That lemma first assembles the tail-energy differential inequality from the
 local tail packet lemmas and then returns the Euclidean gradient-transfer
 output `(2)` to the scale barrier only by retaining the coercive tail damping
-`Q_N \gtrsim 2^{2N}T_N` on the same projector surface:
+`Q_N \ge c_Q2^{2N}T_N` on the same projector surface:
 
 ```math
 \int_0^T \|P_{\ge N}u(t)\|_{L_x^2}^2\,dt

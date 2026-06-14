@@ -109,7 +109,7 @@ propagation of the local `4 -> 1` theorem remain compressed.
 More sharply: conditional on the local tail packet lemmas, the exact
 tail-energy differential inequality on the `4 -> 1` surface is already clear,
 but the stronger same-shape barrier recovery still depends essentially on the
-coercive tail damping `Q_N \gtrsim 2^{2N}T_N` and cannot be replaced by bare
+coercive tail damping `Q_N \ge c_Q2^{2N}T_N` and cannot be replaced by bare
 Gronwall on `T_N`.
 
 ## No-Hidden-Modified-Equation Safeguards

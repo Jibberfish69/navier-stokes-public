@@ -74,7 +74,7 @@ into:
 - the operator-commutator defect produced by differentiated projection /
   coefficient structure.
 
-Write that schematically as
+Record that split as the tower identity
 
 ```math
 \partial_t \mathsf X_A

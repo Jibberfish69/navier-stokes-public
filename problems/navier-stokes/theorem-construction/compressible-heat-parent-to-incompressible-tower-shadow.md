@@ -263,7 +263,7 @@ p = p_0 + \varepsilon \pi_1 + \varepsilon^2 \pi,
 At leading order, the continuity equation forces
 
 ```math
-\nabla\cdot u = O(\varepsilon),
+\|\nabla\cdot u\|_{\mathcal X}\le C_{\mathcal X}\varepsilon,
 \tag{19}
 ```
 

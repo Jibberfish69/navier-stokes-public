@@ -207,12 +207,16 @@ u_{\mathrm{noncoh}}=\rho((I-\mathbb H_D)X).
 ```
 
 Standard Bernstein/Sobolev localization on `\mathbb R^3` gives, for `s>\frac52`,
+with constants `C_{B,s}` and `C_{H,s}` depending only on `s` and the fixed
+Littlewood--Paley partition,
 
 ```math
 \|\nabla P_{\le j_0} f\|_{L^\infty_x}
-\lesssim_s
+\le
+C_{B,s}
 2^{\frac52 j_0}\|P_{\le j_0}f\|_{L^2_x}
-\lesssim_s
+\le
+C_{H,s}
 2^{(\frac52-s)j_0}\|f\|_{H^s_x}.
 ```
 
@@ -220,7 +224,8 @@ Apply this with `f=u_{\mathrm{noncoh}}`:
 
 ```math
 \|\nabla P_{\le j_0}u_{\mathrm{noncoh}}\|_{L^\infty_x}
-\lesssim_s
+\le
+C_{H,s}
 2^{(\frac52-s)j_0}\|u_{\mathrm{noncoh}}\|_{H^s_x}.
 ```
 

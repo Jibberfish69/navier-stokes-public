@@ -174,7 +174,10 @@ actual one-sided tail weight `w_\ell^{(j)}=2^{-\sigma(\ell-j)}`, the explicit
 weight mismatch is
 
 ```math
-1-2^{-\sigma(\ell-j)}\asymp 1
+1-2^{-5\sigma}
+\le
+1-2^{-\sigma(\ell-j)}
+<1
 ```
 
 throughout the lifted regime, so the weight itself contributes direction but

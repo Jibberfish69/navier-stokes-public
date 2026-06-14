@@ -32,7 +32,7 @@ center-spacing part is geometric rather than theorem-level:
 }
 \Longrightarrow
 \boxed{
-\delta_{J,\ell\ell'}^{ctr}\lesssim r_J
+\delta_{J,\ell\ell'}^{ctr}\le C_{ctr} r_J
 }.
 \tag{CSR.1}
 ```

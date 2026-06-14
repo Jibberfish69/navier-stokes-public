@@ -1201,7 +1201,11 @@ Lock these as explicit hypotheses under `D.1.nSob`:
 2. Graph norm equivalence
 
 ```text
-\|X\|_{\mathcal N}\simeq \|X\|_H+\|\Omega_D X\|_H.
+c_{\mathcal N}\big(\|X\|_H+\|\Omega_D X\|_H\big)
+\le
+\|X\|_{\mathcal N}
+\le
+C_{\mathcal N}\big(\|X\|_H+\|\Omega_D X\|_H\big).
 ```
 
 3. Derivation closure
@@ -1251,7 +1255,11 @@ Assume
 and the graph norm satisfies
 
 ```text
-\|X\|_{\mathcal N}\simeq \|X\|_H+\|\Omega_DX\|_H.
+c_{\mathcal N}\big(\|X\|_H+\|\Omega_DX\|_H\big)
+\le
+\|X\|_{\mathcal N}
+\le
+C_{\mathcal N}\big(\|X\|_H+\|\Omega_DX\|_H\big).
 ```
 
 Assume further:

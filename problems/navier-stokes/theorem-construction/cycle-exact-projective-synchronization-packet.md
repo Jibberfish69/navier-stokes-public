@@ -1221,7 +1221,7 @@ now narrower:
    once that window data are supplied;
 2. prove the broader selector-adapted defect-to-strain theorem that forces
    those window ledgers from the signless pair packet on the same active
-   family, namely the exact-potential `\mathcal E_J^{dir}\lesssim
+   family, namely the exact-potential `\mathcal E_J^{dir}\le C_{PSJ}
    \mathcal E_J^{obs}` cut of `PSJ+` and, outside the exact-potential branch,
    the full residual pairwise closure `(PD.70q)` / `(PD.70s)` controlling
    `\mathcal E_J^{dir}+\mathcal E_J^{loop}` by `\mathcal E_J^{obs}`;
