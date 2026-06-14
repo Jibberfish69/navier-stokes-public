@@ -131,7 +131,7 @@ parent reduction uses the coercive estimate
 \|W_J(t)\|_{L^2_{x,y}}^2
 +
 \nu\int_{t_0}^t \|\nabla_{x,y}W_J(s)\|_{L^2_{x,y}}^2\,ds
-\lesssim \cdots
+\le C_{\mathrm{parent}}\cdots
 ```
 
 and then the selector observability packet

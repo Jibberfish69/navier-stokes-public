@@ -7,21 +7,20 @@ identity:
   generator: codex/referee-sweep-current-state
   audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
 status:
-  audit_status: superseded-by-20260609-public-clay-finality-reentry
+  audit_status: branch-paid-annular-silver-gold-new-production-open
   pass: false
   release_eligible: false
   clay_ready: false
   clay_statement_b_ready: false
   whole_space_statement_a_ready: false
   superseded_by:
-    - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-    - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
-    - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
-  current_blocker: >-
-    Terminal obstruction classification is installed for admitted records, but
-    public Clay finality is still open. The active first-exit Pack-survival
-    chain reduces to a genuinely new terminal time-thickness / anti-atom
-    theorem for the produced B_ASAC native positive source atom.
+  - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
+  - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
+  current_blocker: Terminal obstruction classification is installed for admitted records,
+    but public Clay finality is still open. The active first-exit Pack-survival chain
+    reduces to a genuinely new terminal time-thickness / anti-atom theorem for the
+    produced B_ASAC native positive source atom.
   resolved_gap:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
     correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -239,12 +238,33 @@ pass: false
 release_eligible: false
 clay_ready: false
 blockers:
-- public-clay-finality-from-classification
-- first-exit-pack-survival-mechanism-search
-blocking_findings: []
+- 'terminal-time-face-new-production-gold-obstruction: Prove TerminalTimeFaceAntiAtom.A
+  / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown
+  exclusion that lands every admitted surviving terminal residual object through Member(Q)
+  or a concrete Pack/Part/Field face failure.'
+blocking_findings:
+- id: terminal-time-face-new-production-gold-obstruction
+  summary: 'terminal-time-face-new-production-gold-obstruction: Prove TerminalTimeFaceAntiAtom.A
+    / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown
+    exclusion that lands every admitted surviving terminal residual object through
+    Member(Q) or a concrete Pack/Part/Field face failure.'
 open_logical_burdens:
-- ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-- OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A
-- FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A
+- burden_id: terminal-time-face-new-production-gold-obstruction
+  statement: 'terminal-time-face-new-production-gold-obstruction: Prove TerminalTimeFaceAntiAtom.A
+    / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown
+    exclusion that lands every admitted surviving terminal residual object through
+    Member(Q) or a concrete Pack/Part/Field face failure.'
+  required_resolution: Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
+    or replace it with a noncircular finite-breakdown exclusion that lands every admitted
+    surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field
+    face failure.
 passed: false
 reconciled_by: problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
+legacy_readiness_candidates:
+- candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
+  kind: clay_closing_gap
+  surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
+  evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is not
+    established.
+  required_action: Prove the Clay-closing bridge or replace the closing argument with
+    a noncircular finite-breakdown exclusion.
