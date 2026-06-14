@@ -39,8 +39,8 @@ The upper-boundary interface term is
 
 where `\Psi` is the chosen glued scalar representative on the signed route.
 
-Since `\partial_s\chi_{mid}` is supported in an `O(1)`-width transition collar
-near the top scale `\ell_N\sim c2^{-N}`, this term is supported only on the
+Since `\partial_s\chi_{mid}` is supported in a `C_\chi`-width transition collar
+near the top scale `c_N2^{-N}\le\ell_N\le C_N2^{-N}`, this term is supported only on the
 upper boundary slab of the logarithmic scale interval.
 
 Define the scalar upper-boundary packet by

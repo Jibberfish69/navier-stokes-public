@@ -328,7 +328,8 @@ give `(LPMC.17)`. ∎
 
 ## Honest Dynamics-Match Supplier
 
-Combining `(LPMC.8)` and `(LPMC.16)` yields the closed approximate dynamics
+Combining `(LPMC.8)` and `(LPMC.16)` yields the closed residual-controlled
+dynamics
 
 ```math
 \partial_t\widetilde S_J
@@ -371,7 +372,7 @@ So the honest localized-projector `DynamicsMatch` supplier is:
 +
 \texttt{LocalizationTail}
 \Longrightarrow
-\text{closed approximate projector-moment dynamics.}
+\text{closed residual-controlled projector-moment dynamics.}
 }
 \tag{LPMC.26}
 ```

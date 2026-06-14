@@ -75,14 +75,15 @@ u_\ell:=Q_\ell u.
 \tag{3}
 ```
 
-At active shell `j`, the relevant physical scale is `\ell\sim 2^{-j}`. The
-transport shells `k` in `(1)` correspond to lower frequencies and therefore to
-larger scales `r\sim 2^{-k}`. So `(1)` becomes the continuous scale region
+At active shell `j`, the relevant physical scale is
+`c_\ell2^{-j}\le\ell\le C_\ell2^{-j}`. The transport shells `k` in `(1)`
+correspond to lower frequencies and therefore to larger scales
+`c_r2^{-k}\le r\le C_r2^{-k}`. So `(1)` becomes the continuous scale region
 
 ```math
 \ell \ll r \le \ell_{bot},
 \qquad
-\ell_{bot}\sim 2^{-(N+M)}.
+c_{bot}2^{-(N+M)}\le \ell_{bot}\le C_{bot}2^{-(N+M)}.
 \tag{4}
 ```
 
@@ -118,7 +119,7 @@ Its integrated counterpart is the signed version of the lifted packet:
 
 ```math
 \mathcal J_N^{lift}(t)
-\sim
+:=
 \int_0^{c2^{-N}}
 \int_{\mathbb R^3}
 \mathfrak c_\ell(x,t)\,dx\,\frac{d\ell}{\ell}.
@@ -273,7 +274,7 @@ and the residual flux term satisfies
 \left|
 \int \mathcal R^{flux}_{mid}(s,t)\,ds
 \right|
-\lesssim
+\le C_{\mathrm{mid}}
 \Pi_N^{mid}(t),
 \tag{16}
 ```
@@ -317,7 +318,7 @@ The key far-corona estimate is
 
 ```math
 \Sigma_\ell^{far,L}(x,t)
-\lesssim_L
+\le C_L
 \int_{e^L\ell}^{\ell_{bot}}
 \frac{\ell}{r}\,\widetilde\Sigma_r(x,t)\,\frac{dr}{r},
 \tag{19}
@@ -327,7 +328,7 @@ which yields the exact two-scale kernel reduction
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L'
 \int_0^{\ell_N}
 \int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,

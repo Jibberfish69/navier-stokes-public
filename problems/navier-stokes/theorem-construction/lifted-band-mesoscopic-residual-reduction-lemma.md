@@ -124,7 +124,7 @@ and, pointwise in time,
 \left|
 \int \mathcal R^{flux}_{mid}(s,t)\,ds
 \right|
-\lesssim
+\le C_{\mathrm{mid}}
 \Pi_N^{mid}(t),
 \tag{4}
 ```

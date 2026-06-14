@@ -22,7 +22,7 @@ The honest localized-projector dynamics packet on disk is
 +
 \texttt{LocalizationTail}
 \Longrightarrow
-\text{closed approximate projector-moment dynamics.}
+\text{closed residual-controlled projector-moment dynamics.}
 \tag{LPMR.0}
 ```
 

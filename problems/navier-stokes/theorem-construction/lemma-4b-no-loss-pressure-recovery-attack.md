@@ -196,7 +196,7 @@ As an `H^{-1}` source, this is not harmless:
 
 ```math
 \|\operatorname{div}_a(F)\|_{H_a^{-1}}
-\lesssim
+\le C_{H^{-1}}
 \|F\|_{L_a^2},
 \tag{14}
 ```
@@ -252,7 +252,7 @@ The most conservative first attack is to prove
 
 ```math
 \|\nabla_a Q_\alpha\|_{L_a^2}
-\lesssim
+\le C_Q
 \|\partial_t\mathcal P_\alpha\|_{H_a^{-1}}
 +
 \|(\partial_t A)U_\alpha\|_{L_a^2}
@@ -383,7 +383,7 @@ A\,\operatorname{div}_a(G\nabla_a U_\alpha),
 \tag{23d}
 ```
 
-and schematically one more integration by parts yields
+and one more integration by parts yields
 
 ```math
 \nu\int G\nabla_a U_\alpha:\nabla_a(A^\top\nabla_a\Phi_\alpha)\,da.
@@ -560,7 +560,7 @@ global same-depth test-field estimate.
 The raw statement
 
 ```math
-\Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)\approx 0
+\Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)=0
 \quad\text{unless both factors live in a fixed collar of }j
 ```
 
@@ -633,7 +633,7 @@ so uniform ellipticity gives
 \|\nabla_a\Phi_\alpha\|_{L_a^2}
 +
 \|W_\alpha^{test}\|_{L_a^2}
-\lesssim
+\le C_{\mathrm{ell}}
 \|\mathcal Z_\alpha\|_{L_a^2}.
 \tag{23t}
 ```
@@ -653,12 +653,11 @@ A^\top\nabla_a^2\Phi_\alpha,
 \tag{23u}
 ```
 
-then standard Lipschitz-coefficient elliptic regularity only gives the
-schematic estimate
+then standard Lipschitz-coefficient elliptic regularity only gives the estimate
 
 ```math
 \|\nabla_a W_\alpha^{test}\|_{L_a^2}
-\lesssim
+\le C_{\mathrm{ell},1}
 \|\nabla_a\mathcal Z_\alpha\|_{L_a^2}
 +
 \|\mathcal Z_\alpha\|_{L_a^2},
@@ -677,7 +676,7 @@ The most tempting estimate would be
 
 ```math
 \|\nabla_a W_\alpha^{test}\|_{L_a^2}
-\lesssim
+\le C_{\mathrm{test}}
 \|\mathcal Z_\alpha\|_{L_a^2}.
 \tag{23w}
 ```
@@ -1143,7 +1142,7 @@ expects same-depth divergence:
 
 ```math
 \operatorname{div}_a\mathcal Z_\alpha^{top,A}
-\sim
+=
 (\partial_a^{\alpha+1}A)\,v
 +
 (\partial_a^\alpha A)\,\nabla_av,
@@ -1154,7 +1153,7 @@ and similarly
 
 ```math
 \operatorname{div}_a\mathcal Z_\alpha^{top,U}
-\sim
+=
 (\partial_a^2A)\,U_{\alpha-\beta}
 +
 (\partial_aA)\,\nabla_aU_{\alpha-\beta}.
@@ -1255,7 +1254,7 @@ So the real theorem packet on the friendlier edge is:
 ```math
 \boxed{
 \|[\Pi_G^{ex},a_{\alpha,\beta,j}]\,v_{\alpha,\beta,j}\|_{\text{pressure ledger}}
-\lesssim
+\le C_{\Pi}
 \text{coefficient ledger}
 }
 \tag{23ai.8k6}
@@ -1280,7 +1279,7 @@ estimate of the type
 
 ```math
 \|[\Pi_G^{ex},a_{<j-C}]\,\Delta_j v\|_{L^2_a}
-\lesssim
+\le C_{\Pi}
 2^{-j}\|\nabla_a a_{<j-C}\|_{L^\infty_a}\,\|\Delta_j v\|_{L^2_a}
 +
 \text{lower metric-symbol terms},
@@ -1293,7 +1292,7 @@ where `(WEP.A1)`-(`WEP.A2)` expose the exact `S^0_{1,0}` symbol hypotheses,
 `(WEP.2'd)` quantifies the shellwise remainder
 `\Pi_G^{ex}\Delta_j=T_{p_G}\Delta_j+R_{G,j}`, and `(WEP.2p)` gives the
 one-sided pressure-ledger upgrade. In particular, the lower terms in
-`(23ai.8k6b)` are no longer schematic: they are exactly the quantified
+`(23ai.8k6b)` are no longer informal: they are exactly the quantified
 `R_{G,j}` commutator terms controlled on the coefficient ledger.
 This theorem is now isolated explicitly in
 [weighted-exact-projection-commutator-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/weighted-exact-projection-commutator-theorem-candidate.md).
@@ -1373,7 +1372,7 @@ then keeping `R_\alpha` in divergence form gives
 
 ```math
 \|R_\alpha\|_{L_a^2}
-\lesssim
+\le C_R
 \|\nabla_a(G\nabla_aA)\|_{L^\infty}\,\|U_\alpha\|_{L_a^2}
 +
 \|G\nabla_aA\|_{L^\infty}\,\|\nabla_aU_\alpha\|_{L_a^2}.
@@ -1384,7 +1383,7 @@ Hence
 
 ```math
 |\mathcal B_G(R_\alpha,\mathcal Z_\alpha)|
-\lesssim
+\le C_B
 \|G^{-1/2}\mathcal Z_\alpha\|_{L_a^2}
 \Big(
 \|\nabla_a(G\nabla_aA)\|_{L^\infty}\,\|U_\alpha\|_{L_a^2}
@@ -1434,7 +1433,7 @@ There is a real connection between the derivative-tower splitting
 and the Eulerian fixed-collar locality machinery. But the naive transfer claim
 
 ```math
-\Delta_j\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)\approx 0
+\Delta_j\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)=0
 \quad\text{unless both factor frequencies lie in a fixed collar of }j
 \tag{23ba}
 ```
@@ -1541,7 +1540,8 @@ where:
 2. `\mathcal Z_{\alpha,j}^{high-low}` contains the symmetric packets with the
    low factor carried by `U_{\alpha-\beta}`;
 3. `\mathcal Z_{\alpha,j}^{res}` is supported only on finitely many shell pairs
-   with frequencies `k,\ell=j+O(1)`.
+   with frequencies `|k-j|\le C_{\mathrm{LP}}` and
+   `|\ell-j|\le C_{\mathrm{LP}}`.
 
 So a localization-based proof of Lemma 4B would not try to prove pure collar
 locality for `\mathcal Z_\alpha`. The correct reserve route is:
@@ -1817,7 +1817,7 @@ term directly, the strongest honest bound is of the form
 \left|
 \mathcal B_G\!\big(\operatorname{div}_a(AG\nabla_aU_\alpha),\mathcal Z_\alpha\big)
 \right|
-\lesssim
+\le C_G
 \|\nabla_aU_\alpha\|_{L_a^2}
 \Big(
 \|\nabla_a\mathcal Z_\alpha\|_{L_a^2}
@@ -1959,7 +1959,7 @@ But the strongest possible bridge statement is too strong.
 The naive formulation
 
 ```math
-\Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)\approx 0
+\Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)=0
 \quad\text{unless both factors lie in a fixed collar of }j
 \tag{29a}
 ```

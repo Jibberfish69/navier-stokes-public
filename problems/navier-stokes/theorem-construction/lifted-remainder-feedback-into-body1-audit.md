@@ -92,7 +92,7 @@ N+M<k<j-4.
 
 That candidate is recorded explicitly in
 `body1-kernelized-lifted-band-leakage-barrier.md`. Its kernelized form asks
-Body `1` to export a bound of schematic form
+Body `1` to export the bound
 
 ```math
 \sup_n \int_0^T

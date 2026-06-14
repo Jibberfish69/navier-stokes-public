@@ -64,7 +64,7 @@ Define the `H^1`-level band stress density
 Because `\eta` has mean zero and reproduces the `j`-band,
 
 ```math
-2^{2j}|u_j(x,t)|^2 \lesssim \tau_j^{H^1}[u](x,t).
+2^{2j}|u_j(x,t)|^2 \le C_\tau \tau_j^{H^1}[u](x,t).
 ```
 
 Finally, let `\rho_j` be any fixed nonnegative unit-mass kernel adapted to
@@ -91,7 +91,7 @@ For every classical Euclidean solution and every `N`,
 u_j(t)
 \right\rangle
 \right|
-\lesssim
+\le C_{\Sigma}
 \int_{\mathbb R^3}
 \Sigma_j^{meso}(x,t)\,
 \tau_j^{H^1}[u](x,t)\,dx
@@ -101,7 +101,7 @@ for each `j\ge N`. Hence
 
 ```math
 |\mathcal J_N^{lift}(t)|
-\lesssim
+\le C_{\mathrm{dy}}
 \Pi_N^{lift,\mathrm{dy}}(t),
 ```
 
@@ -116,12 +116,13 @@ where
 \tau_j^{H^1}[u](x,t)\,dx.
 ```
 
-Equivalently, after identifying `\ell\sim 2^{-j}` and interpolating piecewise
-constantly in `\ell`,
+Equivalently, after restricting `\ell` to the dyadic window
+`c_\ell2^{-j}\le \ell\le C_\ell2^{-j}` and interpolating piecewise constantly
+in `\ell`,
 
 ```math
 |\mathcal J_N^{lift}(t)|
-\lesssim
+\le C_{\mathrm{lift}}
 \Pi_N^{lift}(t)
 :=
 \int_0^{c2^{-N}}
@@ -214,7 +215,7 @@ Jensen then gives the bandpass Poincare estimate
 
 ```math
 2^{2j}|u_j(z,t)|^2
-\lesssim
+\le C_\tau
 \tau_j^{H^1}[u](z,t).
 ```
 
@@ -224,7 +225,7 @@ Apply this at the shifted points `z=y-(1-\theta)h` and `z=y+\theta h`. Using
 ```math
 2^{2j}
 |u_j(y-(1-\theta)h,t)|\,|u_j(y+\theta h,t)|
-\lesssim
+\le C_\tau
 \tau_j^{H^1}[u](y-(1-\theta)h,t)
 +
 \tau_j^{H^1}[u](y+\theta h,t).
@@ -236,7 +237,7 @@ Substituting the previous estimate into the kernel bound yields
 
 ```math
 |\mathcal C_j(t)|
-\lesssim
+\le C_C
 \int
 |\nabla b_j(y,t)|
 \Bigg[
@@ -257,7 +258,7 @@ change of variables, this may be rewritten as
 
 ```math
 |\mathcal C_j(t)|
-\lesssim
+\le C_C'
 \int_{\mathbb R^3}
 (\rho_j * |\nabla b_j(\cdot,t)|)(x)\,
 \tau_j^{H^1}[u](x,t)\,dx
@@ -275,7 +276,7 @@ Summing in `j\ge N` proves
 
 ```math
 |\mathcal J_N^{lift}(t)|
-\lesssim
+\le C_J
 \sum_{j\ge N}
 \int_{\mathbb R^3}
 \Sigma_j^{meso}(x,t)\,
@@ -315,4 +316,4 @@ bound. The remaining work is to show that the measure
 ```
 
 is Carleson- or barrier-controlled on the high-frequency window
-`\ell\lesssim 2^{-N}`.
+`\ell\le C_N2^{-N}`.

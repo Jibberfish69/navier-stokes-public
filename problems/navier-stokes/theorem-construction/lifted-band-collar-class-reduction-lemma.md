@@ -77,7 +77,7 @@ linear span of the following scalarized pairing objects:
    its edge-band contribution in a commutator pairing at scale `\ell^{-1}`;
 3. admissible collar errors: finite linear combinations of scalarized
    pairings whose multipliers differ by smooth bounded-gap perturbations and
-   whose frequency support stays inside an `O(1)` collar around one of the two
+   whose frequency support stays inside a `C_{\mathrm{collar}}` collar around one of the two
    transition bands.
 
 This is a reduction class, not a new theorem target.
@@ -151,12 +151,13 @@ On the support of `\partial_s\chi_{mid}` inside the lower transition collar,
 the scale variable satisfies
 
 ```math
-\ell \sim 2^{-(N+M)}
+c_\ell2^{-(N+M)}\le \ell\le C_\ell2^{-(N+M)}
 ```
 
 up to fixed constants depending only on the partition profile. Therefore the
-smooth multipliers `P_{\le \ell}` and `P_{\le c/\ell}` vary only inside an
-`O(1)` family of multiplier supports centered at the cutoff `2^{N+M}`.
+smooth multipliers `P_{\le \ell}` and `P_{\le c/\ell}` vary only inside a
+`C_{\mathrm{collar}}` family of multiplier supports centered at the cutoff
+`2^{N+M}`.
 
 Write
 
@@ -209,12 +210,13 @@ By the continuous-scale definition of the mesoscopic drift,
 \widetilde Q_\ell u,
 ```
 
-for a smooth band-pass operator `\widetilde Q_\ell` localized at frequency
-`\sim \ell^{-1}`. Therefore the spill term has the scalarized form
+for a smooth band-pass operator `\widetilde Q_\ell` localized at
+`c_Q\ell^{-1}\le |\xi|\le C_Q\ell^{-1}`. Therefore the spill term has the
+scalarized form
 
 ```math
 \mathcal S^{spill}_\ell
-\sim
+:=
 \ell^{-2}
 \left\langle
 [P_{\le \ell},(\widetilde Q_\ell u)\!\cdot\nabla]u,\,
@@ -225,7 +227,7 @@ P_{\le \ell}u
 The commutator output is supported near the edge scale `\ell^{-1}`. Hence,
 inside the scalarized pairing, only the edge-band component of the low-pass
 test factor contributes. Replace `P_{\le \ell}u` in the pairing by a smooth
-edge-band projection `P_{\sim \ell}u`. The discarded part is a same-scale
+edge-band projection `P_{[\ell]}u`. The discarded part is a same-scale
 bounded-gap perturbation and therefore belongs to `\mathscr A_{collar}`.
 
 This produces the same-scale edge packet `\mathcal S^{edge}` plus an

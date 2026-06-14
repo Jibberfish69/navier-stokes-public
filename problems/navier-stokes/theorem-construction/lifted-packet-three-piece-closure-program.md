@@ -124,7 +124,7 @@ From `(3)`,
 
 ```math
 \mathfrak H_N^{grad,lift}
-\lesssim
+\le C_{\mathrm{3p}}
 |\mathfrak B_N^{upper}|
 +
 \Pi_N^{mov\text{-}spill,L}
@@ -137,7 +137,7 @@ Integrate in time and apply `(UB)`, `(MS)`, and `(FC)`:
 
 ```math
 \int_0^T \mathfrak H_N^{grad,lift}(t)\,dt
-\lesssim
+\le C_{\mathrm{3p}}
 (\eta_{ub}+\eta_{ms}+\eta_{far})\nu\int_0^T D_N(t)\,dt
 +
 (C_{ub,*}+C_{ms,*}+C_{far,*})2^{-2\delta N}.
@@ -233,7 +233,7 @@ The exact far-corona reduction is
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L
 \int_0^{\ell_N}\int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,
 \frac{dr}{r}\,\frac{d\ell}{\ell},
@@ -312,8 +312,8 @@ C_*2^{-2\delta N}
 \tag{13}
 ```
 
-and therefore, after inserting `(5)` and Littlewood-Paley equivalence
-`D_N\sim Q_1`,
+and therefore, after inserting `(5)` and the Littlewood-Paley comparison
+`c_{LP}Q_1\le D_N\le C_{LP}Q_1`,
 
 ```math
 \int_0^T \mathrm{Leakage}_1(t)\,dt
