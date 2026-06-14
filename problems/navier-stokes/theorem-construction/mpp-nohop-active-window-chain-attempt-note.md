@@ -66,7 +66,7 @@ when the radii shrink.
 
 ## Local-Energy Iteration Attempt
 
-Iterating the local energy inequality backward gives the schematic alternative:
+Iterating the local energy inequality backward gives the recurrence
 
 ```math
 A_\ell

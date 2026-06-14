@@ -65,7 +65,7 @@ The nearby parallel reserve notes use the tail-square quantity
 E_N(t)=\sum_{j\ge N}E_j(t),
 ```
 
-with schematic dyadic definitions
+with dyadic definitions
 
 ```math
 E_j(t)=2^{2j}\|\Delta_j u(t)\|_2^2,
@@ -149,16 +149,17 @@ while the source reserve remains order one:
 For the tail-square quantity, however,
 
 ```math
-E_L(t)\simeq 2^{-2L}D_L(t),
+E_L(t)=2^{-2L}D_L(t),
 ```
 
 so
 
 ```math
 \int_{I_m}2^{-2m}E_L(t)^2dt
-\simeq
+=
 2^{-2m}2^{-4L}A_m^2h_m^{-1}
-\lesssim
+\le
+C_{TSQ}
 2^{-7m}.
 ```
 

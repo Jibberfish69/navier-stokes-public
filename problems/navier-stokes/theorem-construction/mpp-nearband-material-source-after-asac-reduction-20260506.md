@@ -99,7 +99,7 @@ legal commutator/cutoff/pressure loss.
 
 ## 2. ASAC removes the active-alignment piece
 
-The active-alignment contribution is schematically:
+The active-alignment contribution is:
 
 ```math
 \mathcal A_{near}

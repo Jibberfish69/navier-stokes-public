@@ -238,7 +238,8 @@ The four residual estimates are:
 
 ```math
 \|R^{comm}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le
+C_{comm}
 \int\sum_{q>N}D_q,
 ```
 
@@ -246,7 +247,8 @@ by Coifman--Meyer after the principal strain term has been moved into `A_k`;
 
 ```math
 \|R^{press}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le
+C_{press}
 \int\sum_{q>N}D_q,
 ```
 
@@ -254,16 +256,17 @@ by Leray projection and Calderon--Zygmund after local pressure normalization;
 
 ```math
 \|R^{cut}\|_{L_t^2H^{-1}}^2
-\lesssim
+\le
+C_{cut}
 \int\sum_{q>N}D_q,
 ```
 
 using
 
 ```math
-|\partial_t\eta_T|+|b_k\cdot\nabla\eta_T|\lesssim r_T^{-2},
+|\partial_t\eta_T|+|b_k\cdot\nabla\eta_T|\le C_{\eta,t} r_T^{-2},
 \qquad
-|\nabla\eta_T|\lesssim r_T^{-1},
+|\nabla\eta_T|\le C_{\eta,x} r_T^{-1},
 ```
 
 with `H^{-1}` paying one derivative; and

@@ -43,11 +43,12 @@ C^{near} = cutoff / material-commutator / localization errors.
 
 ## 1. Absolute estimates are circular
 
-A crude Calderon--Zygmund / Bernstein estimate gives schematically:
+A crude Calderon--Zygmund / Bernstein estimate gives:
 
 ```math
 \|\mathcal N^{near}_{j,L}+\mathcal P^{near}_{j,L}\|_\infty
-\lesssim
+\le
+C_{CZB}
 \|\nabla u\|_\infty\,\|\nabla u\|_\infty
 ```
 

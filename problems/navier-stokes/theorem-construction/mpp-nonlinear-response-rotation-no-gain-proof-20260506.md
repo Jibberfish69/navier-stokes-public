@@ -138,10 +138,10 @@ The `|d_P|^2` side is response-height charge:
 
 ```math
 \sum_P |d_P|^2
-\sim
-E_\ell^{z,\perp}
 \le
-E_\ell^z.
+C_{resp}E_\ell^{z,\perp}
+\le
+C_{resp}E_\ell^z.
 ```
 
 The `|c_P|^2` side is the original ASAC positive-alignment carrier:

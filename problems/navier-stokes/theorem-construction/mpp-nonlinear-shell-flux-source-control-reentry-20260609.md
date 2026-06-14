@@ -77,11 +77,11 @@ G_N^{lift,\sigma}
 \sum W_{j,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
 ```
 
-Its principal form is a commutatorized strain interaction:
+Its displayed principal atom is a commutatorized strain interaction:
 
 ```math
-R_{j,k,\ell}^{lift}
-\sim
+R_{j,k,\ell}^{lift,prin}
+:=
 2^{2j}\langle C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 

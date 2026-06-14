@@ -141,7 +141,7 @@ does not prove `TemporalNonAtomicSource.A`.
 
 ### 2. Fixed positive viscosity
 
-A terminal-layer source contributes schematically through
+A terminal-layer source contributes through
 
 ```math
 \int_{-1/m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds.

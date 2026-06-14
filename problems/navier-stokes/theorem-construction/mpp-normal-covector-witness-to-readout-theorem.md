@@ -233,7 +233,7 @@ Then there exist nonnegative ledgers
 \Theta_J^\perp(a,b,t)
 +
 \operatorname{Err}_{J,\mathrm{loop}}(a,b,t)
-\lesssim
+\le C_{NWI,9}
 \mathcal M_J^\perp(a,b,t)
 +
 \operatorname{Err}_{J,\mathrm{pack}}^{cm}(a,b,t)
@@ -253,7 +253,7 @@ Moreover the integrated supplier ledger obeys
 +
 \operatorname{Err}_{J,\mathrm{tc}}^{cm}
 \Big)
-\lesssim
+\le C_{NWI,10}
 \mathcal E_J^{cm},
 \tag{NWI.10}
 ```
@@ -267,7 +267,7 @@ and
 +
 \operatorname{Err}_{J,\mathrm{cal}}^{\perp}
 \Big)
-\lesssim
+\le C_{NWI,11}
 \mathcal E_J^{obs}(W_J)
 +
 \mathcal E_J^\perp.
@@ -286,7 +286,7 @@ Therefore
 \mathcal E_J^{tc}
 +
 \mathcal E_J^{cal,\perp}
-\lesssim
+\le C_{NWI,12}
 \mathcal E_J^{obs}(W_J)
 +
 \mathcal E_J^{cm}

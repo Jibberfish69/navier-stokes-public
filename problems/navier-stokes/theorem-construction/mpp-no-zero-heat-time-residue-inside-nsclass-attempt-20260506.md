@@ -110,7 +110,7 @@ Then:
 so the heat-time participation moment vanishes while total terminal source mass
 persists.
 
-The Duhamel contribution to a terminal packet has the schematic form:
+The Duhamel contribution to a terminal packet has the form:
 
 ```math
 \int_{-1/m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds.
@@ -121,7 +121,9 @@ On the normalized terminal heat scale, for `|s|\le1/m`, the semigroup has no
 uniform smallness:
 
 ```math
-e^{(0-s)\nu\Delta}=I+O(|s|\nu\Delta).
+e^{(0-s)\nu\Delta}=I+R_m(s),
+\qquad
+R_m(s):=\int_s^0 \nu\Delta e^{(0-\tau)\nu\Delta}\,d\tau .
 \tag{NZH.9}
 ```
 
