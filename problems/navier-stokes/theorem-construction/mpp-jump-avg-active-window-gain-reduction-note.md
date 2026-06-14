@@ -44,11 +44,11 @@ R^{-1}\iint_{Q_R^\Phi}|\nabla u|^2
 R^{-2}\iint_{Q_R^\Phi}|p^{loc}|^{3/2}.
 ```
 
-The affine-normalized base packet has the schematic form
+The affine-normalized base packet is decomposed as
 
 ```math
 SCF_{base}(Q_R^\Phi)
-\simeq
+=
 E_R^{aff}+Z_R+G_R^\Phi,
 ```
 

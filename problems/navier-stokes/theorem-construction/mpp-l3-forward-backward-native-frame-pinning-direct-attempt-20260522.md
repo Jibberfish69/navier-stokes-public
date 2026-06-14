@@ -32,7 +32,10 @@ e^{(t-s)\nu\Delta}P_jP_{Leray}\nabla\cdot(u\otimes u)(s)\,ds.
 The `L^3` response lower bound chooses terminal data
 
 ```math
-\psi_j(t_+)\simeq |w_j(t_+)|w_j(t_+),
+\psi_j(t_+)
+:=
+\frac{|w_j(t_+)|w_j(t_+)}
+{\||w_j(t_+)|w_j(t_+)\|_{L^{3/2}}},
 ```
 
 and the backward free heat-Leray packet is

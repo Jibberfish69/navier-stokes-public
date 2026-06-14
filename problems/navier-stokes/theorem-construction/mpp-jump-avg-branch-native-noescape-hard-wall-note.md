@@ -116,7 +116,7 @@ SCF_{base}(Q_{r_k}^{\Phi}(a_k,t_k))>\varepsilon_m,
 \qquad r_k\downarrow0,\quad t_k\uparrow T_\ast.
 ```
 
-The native component split is schematically
+The native component split is
 
 ```math
 SCF_{base}
@@ -213,8 +213,8 @@ scale-normalized:
 
 ```math
 \sum_k \operatorname{Norm}_{SCF}(Q_k)
-\gtrsim
-\sum_k c_m.
+\ge
+c_{\mathrm{norm}}\sum_k c_m.
 ```
 
 Raw finite mass does not imply the corresponding scale-normalized Carleson

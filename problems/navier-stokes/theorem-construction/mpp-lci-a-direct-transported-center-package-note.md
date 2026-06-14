@@ -208,7 +208,8 @@ from `\mathcal Z_{\mathfrak p}^{TC}` gives the old superlinear estimate
 
 ```math
 \frac{d}{dt}\mathcal Z
-\lesssim
+\le
+C_{\mathrm{DTC,old}}
 \left(1+\mathcal Z^{1/2}\right)\mathcal Z+F,
 \tag{DTC.7b3}
 ```
@@ -507,7 +508,8 @@ Reading `\mathcal M_{\mathfrak p}^{TC}` back from
 
 ```math
 \frac{d}{dt}\mathcal Z_{\mathfrak p}^{TC}
-\lesssim
+\le
+C_{\mathrm{DTC,M}}
 \left(1+\mathcal Z_{\mathfrak p}^{TC}\right)
 \mathcal Z_{\mathfrak p}^{TC}
 +
@@ -864,7 +866,7 @@ C_{\mathfrak p}
 \tag{DTC.AFF16}
 ```
 
-Thus the theorem-facing estimate has the schematic form
+Thus the theorem-facing estimate has the form
 
 ```math
 |\mathcal T_{\mathfrak p}^{tower}|
@@ -1044,7 +1046,7 @@ q=2:\quad B_{2,\mathrm{mid}}=0,
 
 and for `q\ge3` every factor in `(DTC.AFF-L2a)` has rung at most `q-1`.
 After subtracting center values and conjugating by `\mathcal C_{G_j}^{-1}`, the
-local affine middle block has the schematic form
+local affine middle block has the form
 
 ```math
 \mathcal M_{q,j}^{aff}
@@ -1734,7 +1736,8 @@ Then, for `0\le q\le m`,
 \tag{DTC.AFF-RSCB1}
 ```
 
-and, using the repo tower convention `U_q\sim\nabla^q u`,
+and, using the repo tower convention that `U_q` is the `q`-th spatial derivative
+tower rung,
 
 ```math
 |\Delta U_q(c_j(t),t)|
@@ -2340,11 +2343,14 @@ Route-license caution. The bound
 
 ```math
 K0.Core+E1.Aff+Kmid.Core
-\lesssim
+\le
+C_{\mathrm{Kcore}}
+\left(
 1+(\mathcal A_{\mathrm{core}}^{ctr})^2
 +(\mathfrak H^{osc,\alpha})^2
 +Y_{\mathrm{read}}
 +|u_0|_{L^2}^2
+\right)
 \tag{DTC.AFF-Kcore10}
 ```
 
@@ -2425,7 +2431,8 @@ u(x,t)-u(c_j,t)-A_j(x-c_j)
 \right),
 \qquad
 R|R_{1,j}|_{L^\infty(B_R)}
-\lesssim
+\le
+C_{\mathrm{X7}}
 \mathcal X_j(t)^{1/2};
 \tag{DTC.AFF-X7}
 ```
@@ -3041,7 +3048,8 @@ u(x,t)-u(c_j,t)-A_j(x-c_j)
 \right),
 \qquad
 |D_t\zeta|
-\lesssim
+\le
+C_{\mathrm{XCut}}
 (\mathcal X^{exc})^{1/2}.
 \tag{DTC.AFF-XCut0}
 ```

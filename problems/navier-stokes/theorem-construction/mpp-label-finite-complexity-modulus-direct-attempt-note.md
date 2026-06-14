@@ -87,7 +87,8 @@ A Lipschitz-in-label bound requires differentiating through the flow map:
 
 ```math
 |\nabla_a s(a,t)|
-\lesssim
+\le
+C_{\mathrm{label}}
 |\nabla_x^2 u(\Phi(a,t),t)|\,|\nabla_a\Phi(a,t)|.
 ```
 

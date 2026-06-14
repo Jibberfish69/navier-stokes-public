@@ -469,7 +469,7 @@ K_k(c_j(t)+\eta-y)-K_k(c_j(t)-y)
 ```
 
 where `K_k` is a derivative kernel of order `k+3`, so
-`|K_k(z)|\lesssim |z|^{-(k+3)}` and `|\nabla K_k(z)|\lesssim |z|^{-(k+4)}`.
+`|K_k(z)|\le C_k |z|^{-(k+3)}` and `|\nabla K_k(z)|\le C_k' |z|^{-(k+4)}`.
 On the support of `1-\chi_j^{pr}`, one has
 `|y-c_j(t)|>2\Lambda_{\delta,\rho}^{halo}`. Since
 `|\eta|\le \Lambda_{\delta,\rho}^{halo}`, the mean-value theorem gives
@@ -614,7 +614,7 @@ right-hand side lies inside the widened raw collar
 `d_{\rho,\psi}^{raw}<\delta+4\Lambda_{\delta,\rho}^{halo}`. The cutoff bounds
 from `(FPR.2)` give
 `|\nabla^\beta \chi_j^{pr}|+|\delta_\eta\nabla^\beta \chi_j^{pr}|
-\lesssim \Lambda_{\delta,\rho}^{halo,-\beta}`, with the second term using
+\le C_\beta\Lambda_{\delta,\rho}^{halo,-\beta}`, with the second term using
 `|\eta|\le \Lambda_{\delta,\rho}^{halo}`. Therefore each `L^\infty` or
 `C^{0,\alpha}` norm entering `(FPR.C1a)` is bounded by a universal combination
 of:

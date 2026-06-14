@@ -114,11 +114,11 @@ SCF_{base}(Q_R^\Phi)>\varepsilon_m
 implies one of the following:
 
 ```math
-D_R\gtrsim\varepsilon_m,
+c_D\,D_R\ge\varepsilon_m,
 \qquad
-P_R^{loc}\gtrsim\varepsilon_m,
+c_P\,P_R^{loc}\ge\varepsilon_m,
 \qquad
-A_R^{aff}\gtrsim\varepsilon_m^{4/3}D_R^{-1}.
+c_A\,A_R^{aff}\ge\varepsilon_m^{4/3}D_R^{-1}.
 ```
 
 The first two alternatives are seen by `\nu_{SCF}`. The third is the
@@ -183,4 +183,3 @@ JAVG.1\text{ remains open at }JAVG.Amp.
 
 Any future proof of `Jump_avg` elimination must either prove `JAVG.Amp` or
 avoid the affine-amplitude channel by a different same-carrier lower theorem.
-

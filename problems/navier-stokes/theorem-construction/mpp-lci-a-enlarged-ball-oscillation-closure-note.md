@@ -404,9 +404,9 @@ with a smooth profile satisfying
 and derivative scale
 
 ```math
-\|(\Xi_{\delta}^{osc,\sharp})'\|_{L^\infty}\lesssim \delta^{-1},
+\|(\Xi_{\delta}^{osc,\sharp})'\|_{L^\infty}\le C_{\Xi,1}\delta^{-1},
 \qquad
-\|(\Xi_{\delta}^{osc,\sharp})''\|_{L^\infty}\lesssim \delta^{-2}.
+\|(\Xi_{\delta}^{osc,\sharp})''\|_{L^\infty}\le C_{\Xi,2}\delta^{-2}.
 \tag{EOC.11}
 ```
 
@@ -881,7 +881,8 @@ By `(PC.14)`,
 
 ```math
 \mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}(t)
-\lesssim
+\le
+C_{\mathrm{EOC}}
 \mathcal K_{N+1,m,\rho,\psi}^{\delta+\delta_{seg}}(t)
 \qquad
 \text{for a.e. }t\in I.

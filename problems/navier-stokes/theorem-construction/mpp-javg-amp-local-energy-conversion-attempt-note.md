@@ -53,7 +53,7 @@ channel back into `D_R+P_R^{loc}`.
 ## Local Energy Attempt
 
 Test the local energy inequality against a transported cutoff adapted to
-`Q_R^\Phi`. In schematic normalized form,
+`Q_R^\Phi`. In normalized form,
 
 ```math
 A(t_2)+\nu D([t_1,t_2])

@@ -46,8 +46,9 @@ which is not scale-normalized and is therefore insufficient.
 
 ## Active-Shell Gain Hypothesis `AAG.A`
 
-Let `Q_\ell` have radius `r_\ell\simeq 2^{-k_\ell}`. Assume the terminal atlas
-has the shell-to-window comparison
+Let `Q_\ell` have radius satisfying
+`c_r\,2^{-k_\ell}\le r_\ell\le C_r\,2^{-k_\ell}`. Assume the terminal atlas has the
+shell-to-window comparison
 
 ```math
 SCF_{norm}(Q_\ell)
@@ -139,7 +140,7 @@ C\varepsilon\nu\,2^{2k_\ell}|I_\ell|
 For heat-scale terminal windows,
 
 ```math
-|I_\ell|\simeq 2^{-2k_\ell}.
+c_I\,2^{-2k_\ell}\le |I_\ell|\le C_I\,2^{-2k_\ell}.
 ```
 
 Separated or bounded-overlap terminal packing makes the first term summable,
@@ -225,4 +226,3 @@ OriginalSmoothData\Longrightarrow AAG.A
 ```
 
 or any equivalent heat-scale square-source / direct active-square theorem.
-
