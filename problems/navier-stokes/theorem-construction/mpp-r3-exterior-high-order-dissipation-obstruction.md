@@ -15,7 +15,7 @@ eta_R=0\quad |x|\le R,
 \qquad
 eta_R=1\quad |x|\ge 2R,
 \qquad
-|\nabla^k eta_R|\lesssim_k R^{-k}.
+|\nabla^k eta_R|\le C_k R^{-k}.
 ```
 
 The desired high-order tail theorem is
@@ -72,7 +72,7 @@ C_s\|\nabla u\|_{L^\infty}\|eta_R\Lambda^s u\|_2^2
 
 where `C_R^{ann}` is supported in the annulus `R<|x|<2R` and contains cutoff commutators.
 
-The boundary/cutoff term obeys the schematic estimate
+The boundary/cutoff term obeys the recorded cutoff estimate
 
 ```math
 \mathcal B_R

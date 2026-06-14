@@ -39,7 +39,7 @@ Let `eta_R` be an exterior cutoff with `eta_R=0` on `|x|<=R`, `eta_R=1` on `|x|>
 \mathcal P_R.
 ```
 
-The commutator term satisfies schematically
+The commutator term satisfies the exact recorded inequality
 
 ```math
 \mathcal C_R

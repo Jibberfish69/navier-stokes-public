@@ -33,7 +33,7 @@ Applying `Lambda^s` to Navier--Stokes and testing against `eta_R^2 Lambda^s u` g
 \mathcal P_R.
 ```
 
-The commutator satisfies the schematic bound
+The commutator satisfies the estimate
 
 ```math
 \mathcal C_R

@@ -112,7 +112,9 @@ because `u in L^{10/3}_{t,x}`. Hence on the annulus-time slab,
 \|u\|_{L^{10/3}_{t,x}}.
 ```
 
-Since `|A_R\times(0,T_*)|^{1/10}\lesssim R^{3/10}`, multiplying by `R^{-1}` gives `O(R^{-7/10})`, which tends to zero.
+Since `|A_R\times(0,T_*)|^{1/10}\le C_A^{1/10}T_*^{1/10}R^{3/10}`,
+multiplying by `R^{-1}` gives
+`C_A^{1/10}T_*^{1/10}R^{-7/10}`, which tends to zero.
 
 Therefore
 

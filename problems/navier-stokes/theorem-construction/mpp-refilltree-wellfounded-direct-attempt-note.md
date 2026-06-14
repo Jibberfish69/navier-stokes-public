@@ -42,7 +42,7 @@ time, the finite-tree telescoping lemma gives:
 
 ```math
 \sum_{e\in\mathcal T}\pi(e)
-\lesssim
+\le C_{\mathrm{RT}}
 \sum_{v\in \partial\mathcal T}E(v;t_v^-)
 +\sum_{v\in\mathcal T}\ell(v).
 ```

@@ -141,7 +141,7 @@ used in the post-reconcile source wall:
 
 ```math
 \mathcal R_N(W)
-\simeq
+:=
 \int_W
 \sum_{k>N}2^k
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.

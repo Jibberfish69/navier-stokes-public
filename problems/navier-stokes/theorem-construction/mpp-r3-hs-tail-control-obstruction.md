@@ -68,7 +68,8 @@ Compact-core tower bounds also leave the exterior region uncontrolled. They cove
 
 ## Localized high-order energy attempt
 
-Differentiating the equation and testing against an exterior cutoff gives schematically
+Differentiating the equation and testing against an exterior cutoff gives the
+formal localized identity
 
 ```math
 \frac{d}{dt}\int \chi_R |\Lambda^s u|^2

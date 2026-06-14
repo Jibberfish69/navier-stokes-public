@@ -37,11 +37,11 @@ legal loss negligible,
 but R_N(W) bounded below.
 ```
 
-The reserve has the schematic form:
+Define the reserve by
 
 ```math
 R_N(W)
-\sim
+:=
 \int_W
 \sum_{k>N}
 2^k
@@ -69,7 +69,7 @@ so:
 
 ```math
 R_N(W)
-\sim
+=
 \int_W
 \sum_{k>N}H_k(t)T_k(t)dt.
 ```
@@ -98,9 +98,9 @@ T_k(t)=A\,1_{[s,s+\tau]}(t).
 Then:
 
 ```math
-M_N(W)\sim A\tau,
+M_N(W)=A\tau,
 \qquad
-R_N(W)\sim 2^kA^2\tau.
+R_N(W)=2^kA^2\tau.
 ```
 
 Choose:
@@ -112,9 +112,9 @@ A=(2^k\tau)^{-1/2}.
 Then:
 
 ```math
-R_N(W)\sim1,
+R_N(W)=1,
 \qquad
-M_N(W)\sim 2^{-k/2}\tau^{1/2}.
+M_N(W)=2^{-k/2}\tau^{1/2}.
 ```
 
 So the first-moment tail can be arbitrarily small while the square reserve is

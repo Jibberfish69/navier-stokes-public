@@ -46,7 +46,7 @@ fails. Smooth far-field packets can have arbitrarily small `L^2` mass and arbitr
 
 ## High-order exterior energy identity
 
-Let `chi_R` be an exterior cutoff and apply `Lambda^s` to the equation. Testing against `chi_R Lambda^s u` gives schematically
+Let `chi_R` be an exterior cutoff and apply `Lambda^s` to the equation. Testing against `chi_R Lambda^s u` gives the formal identity
 
 ```math
 \frac{d}{dt}\int \chi_R |\Lambda^s u|^2

@@ -99,10 +99,10 @@ least \(R/2\). Thus the kernel contribution is bounded by a negative power of
 
 The \(L^1\) size of \(u\otimes u\) is controlled by finite energy, while the
 finite number of derivative commutators needed for the \(H^s\) norm is supplied
-by the compact-core readout. Hence the compact-core contribution is
+by the compact-core readout. Hence the compact-core contribution is bounded by
 
 ```text
-O(R^{-alpha})
+C_{s,\nu,T,core}R^{-alpha}
 ```
 
 for some \(\alpha>0\) on each finite interval where the compact-core readout is
