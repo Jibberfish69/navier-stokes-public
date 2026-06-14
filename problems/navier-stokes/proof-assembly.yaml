@@ -247,43 +247,47 @@ frontier_context:
     current_role: infrastructure repair; not mathematical progress unless it materializes
       theorem work
   open_root_group: &5
-    group_id: clay-cm-contrapositive-witness-consumption
-    group_label: Installed Clay CM terminal-witness consumption authority; older source-wall-root-after-reconcile
-      material is historical/support topology.
+    group_id: terminal-time-face-new-production-gold-obstruction
+    group_label: Terminal time-face new-production frontier after the annular residual
+      specific case exhaustion.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: false
+    top_level_release_blocker: true
     not_single_path: true
     not_single_proof_mode: true
-    dashboard_boundary: This group is retained as historical/support topology only
-      under the current direct-live clearance. It must not be counted or narrated
-      as one current release blocker, one path, one method, one wall, or the whole
-      NS target topology.
+    dashboard_boundary: The installed Clay terminal-witness CM chain remains the proof
+      grammar, but release is blocked at the current gold-side child. The specific
+      pulling-teeth annular residual case is exhausted in proof-program order; the
+      stronger terminal time-face anti-atom / BASAC new-production theorem is still
+      open. This must be narrated as the current theorem-work frontier, not as full-MPP
+      closure and not as a vague annular or Pack-survival slogan.
     exact_live_theorem_grade_burden: &1
-      status: contrapositive-witness-consumption-installed
-      burden_id: clay-cm-contrapositive-witness-consumption
-      proof_mode: cm_contrapositive_class_exit
-      target_object: ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-        / ClayCMContrapositiveEmbedding.A
-      theorem_grade_statement: Start with the alleged finite-time Clay terminal witness
-        from the same original smooth Navier-Stokes datum. Force that witness into
-        the same-fluid canonical CM terminal packet tree, exhaust its finite failure
-        type as not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and read
-        that first failed service as Exit(Q):=not Member(Q) inside the CM contrapositive
-        program.
-      active_container: clay-cm-contrapositive-witness-consumption
-      respawn_cell:
-      respawn_stage:
-      allowed_input_boundary: The proof may use installed genuine-exit capture, canonical
-        terminal packet capture, terminal source-residue CM-exit sorting, and finite
-        failure witness capture. Older positive packet-survival/no-exit labels, bare
-        positive-supplier deletion theorems, B_ASAC reverse-Holder production, PCTP/no-pulse
-        supplier targets, and endpoint readout consequences, plus every surface indexed
-        in the forward-positive quarantine ledger, stay separate or quarantined as
-        support unless the user explicitly switches to a positive packet-survival
-        proof.
-      nearest_wrong_substitution: Recasting the CM contrapositive target as a positive
-        packet-survival/no-exit theorem, a bare positive-supplier deletion theorem,
-        or a demand to prove that the Pack/Part/Field packet never exits.
+      status: branch-paid-annular-silver-gold-new-production-open
+      burden_id: terminal-time-face-new-production-gold-obstruction
+      proof_mode: source_wall_supplier
+      target_object: TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
+      theorem_grade_statement: Gold has been tried first and audited to the exact
+        terminal time-face pulse obstruction. A closure proof must produce terminal
+        time-thickness, super-L1 source integrability, a scale-critical source charge,
+        transported no-incoming-flux control strong enough for terminal strips, or
+        production of a rigid no-atom BASAC subclass. The silver CM split applies
+        only after the surviving terminal residual object is admitted as a same-solution
+        CM witness; for the admitted annular residual witness, carrier/selection is
+        already paid and a finite nonsmooth branch exits through Part or Field.
+      active_container: terminal-time-face-new-production-gold-obstruction
+      respawn_cell: theorem-work
+      respawn_stage: terminal-time-face-new-production-gold-obstruction
+      allowed_input_boundary: The proof may use the installed residual refill ledger,
+        exact annular pulse obstruction, terminal source first-appearance countertest,
+        native source anti-atom audit, transported no-incoming/no-flux audit, and
+        rigid BASAC Liouville/production split. The installed CM terminal-witness
+        grammar stays available for admitted witnesses, but support diagnostics may
+        not be promoted unless they supply the gold anti-atom/new-production theorem
+        or a same-solution CM admission plus a concrete Pack/Part/Field face failure.
+      nearest_wrong_substitution: Recasting the accounted specific annular case as
+        full Navier-Stokes closure; treating first-exit Pack-survival as a vague slogan
+        instead of the terminal time-face/new-production child; or spending a private
+        annular diagnostic as silver without same-solution admission, positive-radius
+        carrier, and continuation readout.
     cm_exit_discipline: A theorem surface is live for the CM program only when it
       is generated by negating the installed continuation packet, or when a checked
       bridge lands it in a typed Pack, Part, or Field obligation. The H^s readout
@@ -511,11 +515,13 @@ frontier_context:
       role: readout presentation requiring direct accountability before use as a target
   exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence: &6
-    disposition: submission-candidate
-    next_cell_type: submission
-    next_stage: full-mpp-closure-submission-candidate
-    next_action: Keep proof, graph, viewer, manuscript, both PDF tracks, and submission
-      wrappers aligned with the full CM contrapositive closure state.
+    disposition: blocked
+    next_cell_type: theorem-work
+    next_stage: terminal-time-face-new-production-gold-obstruction
+    next_action: Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
+      or replace it with a noncircular finite-breakdown exclusion that lands every
+      admitted surviving terminal residual object through Member(Q) or a concrete
+      Pack/Part/Field face failure.
   forward_positive_surface_quarantine: &7
     status: active-global-demotion
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -752,7 +758,7 @@ theorem_surface:
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/theorem-repair.yaml
     - problems/navier-stokes/dependency-discharge.yaml
-    installed_root_group_id: clay-cm-contrapositive-witness-consumption
+    installed_root_group_id: terminal-time-face-new-production-gold-obstruction
     proof_mode_must_be_selected: true
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
   target_preflight: *2

@@ -3,18 +3,18 @@ version: 1
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-05-26T01:38:01Z'
+  generated_at: '2026-06-14T16:19:45Z'
   generator: system/runner/lib/lane_classification_builder.rb
-mode: proof-present
+mode: hybrid
 source_authority: authoritative-external
 proof_present: true
-theorem_search_required: false
-paperization_required: false
+theorem_search_required: true
+paperization_required: true
 signals:
   default_mode: proof-present
   proof_bearing_source: true
   manuscript_classification: proof-manuscript
-  blocking_count: 0
-  theorem_upgrade_required: false
+  blocking_count: 1
+  theorem_upgrade_required: true
   source_note_count: 1
-  paper_quality_pass: true
+  paper_quality_pass: false

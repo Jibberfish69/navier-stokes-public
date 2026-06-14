@@ -7,8 +7,26 @@ The YAML edge file is the controlling surface:
 ## Active Route
 
 - Live route: `clay-cm-contrapositive-witness-consumption`
-- Primary frontier: no unresolved source-frontier obligation
+- Primary frontier: `terminal-time-face-new-production-gold-obstruction`
 - Current route name: `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`
+- Current annular boundary:
+  gold has been audited to the exact
+  `TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A`
+  obstruction; the silver CM statement is `AnnularLimitCMFaceLanding.A` after
+  same-solution admission, positive-radius carrier, and readout are paid.
+  The specific pulling-teeth annular residual case is now exhausted as:
+  gold supplier pass, exact terminal time-face pulse obstruction, no-admission
+  support/Pack boundary on the governing record, admitted Member branch, or
+  admitted Part/Field exit. The stronger scale-uniform gold supplier remains
+  unproved.
+- Current forward-positive child:
+  `TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A`.
+  The next gold-side work is a real terminal time-thickness or new-production
+  theorem, not another generic annular-gap restatement.
+  Authority note:
+  `problems/navier-stokes/theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md`.
+  Direct first-appearance test:
+  `problems/navier-stokes/theorem-construction/mpp-terminal-source-first-appearance-time-spread-direct-test-20260614.md`.
 - Retained receiver spine:
   `RSCB.NKF => NKF.Native => ACT.KX => ACT.X-Readout => ACT.A => RCF.A => LCI.A`
 - Finite-energy-native averaged spine:
@@ -68,7 +86,9 @@ It is safe to claim that the lane's current theorem-facing edge is the
 conditional class-membership closure packet, with the six requested burdens
 closed under H1-H6, retained and averaged receiver branches kept typed,
 post-`LCI.A` source closure, accepted endpoint certificate maps, and the
-original-data upgrade recorded explicitly.
+original-data upgrade recorded explicitly.  The annular case is safe only as
+the gold-hard-obstruction plus conditional silver admission/readout boundary
+above.
 
 It is not safe to claim unconditional periodic or whole-space regularity from
 this packet alone, or to treat any downstream readout branch as a substitute for

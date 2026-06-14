@@ -118,7 +118,7 @@ More precisely, the strict low-mode low-high and high-low pieces are isolated in
 - The vorticity/BKM route is not a separate discharge of the gradient frontier; it is the same continuation problem rewritten in critical variables.
 - The standard identities
   - `\partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega`,
-  - `\frac{d}{dt}\|\omega(t)\|_{L^2}^2 \lesssim \|S(u)(t)\|_{L^\infty}\|\omega(t)\|_{L^2}^2`,
+  - `\frac{d}{dt}\|\omega(t)\|_{L^2}^2 \le C_{\mathrm{BKM}}\|S(u)(t)\|_{L^\infty}\|\omega(t)\|_{L^2}^2`,
   - and the BKM continuation criterion
     `\int_0^T \|\omega(t)\|_{L^\infty}dt < \infty`
     are all conditional continuation statements, not a proof of the needed bound.
