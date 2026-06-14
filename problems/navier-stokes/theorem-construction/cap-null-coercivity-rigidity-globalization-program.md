@@ -56,7 +56,7 @@ The current operator packet gives
 \big|
 \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
 \big|
-\lesssim
+\le C_{\mathrm{froz}}
 C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
 \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
 ```
@@ -68,7 +68,7 @@ and therefore also
 \sum_{(\omega,\omega')\in\mathcal R_j}
 \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
 \right|
-\lesssim
+\le C_{\mathrm{froz}}
 C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
 \Big(\sum_\omega \|u_{j,\omega}\|_{L^2_a}^2\Big)^{1/2}
 \Big(\sum_{\omega'} \|u_{j,\omega'}\|_{L^2_a}^2\Big)^{1/2},
@@ -89,8 +89,10 @@ form
 
 after an exact symmetrization / freezing step on the same carrier. Here
 `\kappa_j` is the shell-local coercive scale on the upgraded carrier; only after
-that sign theorem lands should one try to identify `\kappa_j\simeq 2^j\rho_j`
-or one of its bridge-normalized variants on the current upgraded carrier.
+that sign theorem lands should one try to prove a two-sided scale
+identification
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j`, or one of its
+bridge-normalized variants on the current upgraded carrier.
 
 The signed packet is now reduced one step further: first prove the cap-adjacency
 matrix lower bound on the symmetrized frozen kernel, then promote that lower

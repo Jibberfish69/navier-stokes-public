@@ -21,7 +21,7 @@ The local frozen packet theorem gives an unsigned estimate
 \big|
 \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
 \big|
-\lesssim
+\le C_{\mathrm{froz}}
 C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
 \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
 \tag{CSD.0}
@@ -34,7 +34,7 @@ and therefore also
 \sum_{(\omega,\omega')\in\mathcal R_j}
 \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
 \right|
-\lesssim
+\le C_{\mathrm{froz}}
 C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
 \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
 \tag{CSD.0'}
@@ -123,9 +123,10 @@ Here:
 - `\mathrm{Err}_j^{sign}` collects the skew / non-coercive part of the
   symmetrized cap-pair interaction that is not absorbed by the positive defect.
 
-Only after the carrier normalization is fixed should one try to identify
-`\kappa_j\simeq 2^j\rho_j` or one of its bridge-normalized variants, potentially
-through the upgraded-carrier bridge measures now tracked elsewhere on the lane.
+Only after the carrier normalization is fixed should one try to prove
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j` or one of its bridge-normalized
+variants, potentially through the upgraded-carrier bridge measures now tracked
+elsewhere on the lane.
 
 This theorem is the exact missing bridge from unsigned capwise control to a
 coercive quantity.
@@ -201,7 +202,7 @@ define the net cap-graph coercive coefficient
 Then `(CSD.5)` is exactly the statement `\kappa_j^{net}\ge\kappa_j`, and the
 signed theorem can be restated with `\kappa_j:=\kappa_j^{net}`. Only after that
 net coefficient is identified should one try to prove a scale law such as
-`\kappa_j^{net}\simeq 2^j\rho_j`.
+`c_K2^j\rho_j\le \kappa_j^{net}\le C_K2^j\rho_j`.
 
 A convenient theorem-grade sufficient hypothesis is therefore:
 
@@ -241,7 +242,7 @@ Then
 and the signed shell-local positivity theorem follows with
 `\kappa_j:=(c_{\mathrm{diag}}-c_{\mathrm{off}})\Lambda_j`.
 
-This is better than fixing `\Lambda_j\sim 2^j\rho_j` too early: the theorem is
+This is better than fixing `\Lambda_j` by a two-sided `2^j\rho_j` scale law too early: the theorem is
 stable under route churn, and the exact carrier normalization can be identified
 after the diagonal and edge estimates are actually proved.
 
@@ -480,8 +481,9 @@ needs:
 3. absorption of the packet-freezing remainder and any skew residual on the same
    lower-order carrier.
 
-The carrier normalization question `\kappa_j\simeq 2^j\rho_j` comes only after
-one of those positivity mechanisms is fixed.
+The carrier normalization question
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j` comes only after one of those
+positivity mechanisms is fixed.
 
 So the present note is a candidate theorem, not a discharge.
 

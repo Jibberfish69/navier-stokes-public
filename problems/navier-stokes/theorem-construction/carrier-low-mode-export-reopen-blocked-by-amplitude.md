@@ -29,7 +29,7 @@ The direct coefficient theorem failed by fixed-shell amplitude scaling. The norm
 The carrier route cannot currently reopen unconditional HFG. The strongest valid statement remains the dynamic-threshold carrier export:
 
 ```math
-2^{2j}\gtrsim \nu^{-1}\|X\|_{H_D^s}
+2^{2j}\ge C_{LM}\nu^{-1}\|X\|_{H_D^s}
 \quad\Longrightarrow\quad
 \|\nabla_D\mathbb S_D(j)\mathbb H_DX\|_\infty\le c\nu2^{2j}.
 ```

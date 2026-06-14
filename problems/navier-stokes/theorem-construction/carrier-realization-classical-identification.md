@@ -186,14 +186,15 @@ Let `\varphi \in H^1_\sigma`. Since `\nabla\cdot X=0`,
 ```
 
 By Sobolev embedding and interpolation,
-`\|X\|_{L^6}\lesssim \|X\|_{H^1}` and `\|X\|_{L^3}\lesssim \|X\|_{H^1}`, so
+`\|X\|_{L^6}\le C_6\|X\|_{H^1}` and
+`\|X\|_{L^3}\le C_3\|X\|_{H^1}`, so
 
 ```text
 |\langle (X\cdot\nabla)X,\varphi\rangle|
-\lesssim
+\le
 \|X\|_{L^6}\|X\|_{L^3}\|\nabla\varphi\|_{L^2}
-\lesssim
-\|X\|_{H^1}^2\|\varphi\|_{H^1}.
+\le
+C_6C_3\|X\|_{H^1}^2\|\varphi\|_{H^1}.
 ```
 
 This proves `H^1_\sigma \to H^{-1}_\sigma`. The bilinear estimate and the
@@ -366,7 +367,11 @@ Stokes operator. This is the classical energy identity used by D.2 and D.6.
 On the realized carrier,
 
 ```text
-\|X\|_{\mathcal N} \simeq \|X\|_{H^1_\sigma}
+c_{\mathcal N}\|X\|_{H^1_\sigma}
+\le
+\|X\|_{\mathcal N}
+\le
+C_{\mathcal N}\|X\|_{H^1_\sigma}
 ```
 
 and the `\Omega_D` tier is coercively equivalent to the same first-order

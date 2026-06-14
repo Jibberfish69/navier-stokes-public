@@ -106,9 +106,17 @@ D_N^{(n)}(t)
 By standard Littlewood--Paley equivalence at dyadic threshold `K=2^N`,
 
 ```math
-T_0^{(n)}(K,t)\sim E_N^{(n)}(t),
+c_{LP}E_N^{(n)}(t)
+\le
+T_0^{(n)}(K,t)
+\le
+C_{LP}E_N^{(n)}(t),
 \qquad
-Q_0^{(n)}(K,t)\sim D_N^{(n)}(t),
+c_{LP}D_N^{(n)}(t)
+\le
+Q_0^{(n)}(K,t)
+\le
+C_{LP}D_N^{(n)}(t),
 \tag{6}
 ```
 

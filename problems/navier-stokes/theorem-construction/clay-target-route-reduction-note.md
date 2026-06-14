@@ -117,7 +117,8 @@ The source notes support all four of the following at once:
 
 1. pressure drops from the raw rung-level `L^2` pairing;
 2. pressure is still part of the differentiated family system;
-3. the differentiated pressure law preserves the same order bookkeeping;
+3. the differentiated pressure law preserves the same parabolic-order index
+   identity;
 4. pressure redistributes the same derivative splits nonlocally across the
    tower.
 
@@ -286,9 +287,12 @@ and cross-order spread
 
 ```math
 \mathcal N_N
-\sim
-\sum_{a+b=N+1}\mathrm{Bil}(\mathcal E_a,\mathcal E_b).
+:=
+\sum_{a+b=N+1}\mathcal B_{a,b,N},
 ```
+
+where `\mathcal B_{a,b,N}` denotes the exact bilinear contribution from input
+orders `a` and `b` to output order `N`.
 
 The exact unresolved condition stated there is:
 

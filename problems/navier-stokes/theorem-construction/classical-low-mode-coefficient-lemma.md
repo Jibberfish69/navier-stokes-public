@@ -106,7 +106,7 @@ However, on the exact `4 -> 1` tail-energy surface one does not need to treat
 lemma now keeps the coercive tail dissipation
 
 ```math
-Q_N(t)\gtrsim 2^{2N}T_N(t),
+Q_N(t)\ge c_Q2^{2N}T_N(t),
 ```
 
 and the corresponding `2^{2N}` damping dominates the `2^{3N/2}` growth coming

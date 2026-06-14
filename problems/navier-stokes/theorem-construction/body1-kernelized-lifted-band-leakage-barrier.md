@@ -72,11 +72,11 @@ remainder on Body `1` reduces to the kernelized **scale-side** carrier
 \|\Delta_j u^{(n)}(t)\|_{L^2_x}.
 ```
 
-Equivalently,
+The dyadic Bernstein upper form used in the barrier is
 
 ```math
 \mathfrak K_N^{scale}[u^{(n)}](t)
-\sim
+\le C_{LP}
 \sum_{j\ge N}\sum_{N+M<k<j-4}
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
 2^j\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
@@ -166,8 +166,9 @@ This note records a leading upstream repair target, not a discharged theorem.
 - The refinement target is now explicit in
   `body1-half-derivative-lifted-band-gain-target.md`: the gap decay
   `2^{-(j-k)}` is already real, so the remaining missing theorem content is an
-  extra `k`-side gain, roughly a half derivative on the intermediate shell, or
-  an equivalent weighted Body `1` transport/dissipation theorem.
+  integrated `k`-side payment of the exact residual square factor `2^k`, or an
+  equivalent weighted Body `1` transport/dissipation theorem that absorbs that
+  factor while preserving the band gap.
 - The cleanest exact theorem statement is now recorded in
   `meso-scale-shear-inefficiency-theorem.md`: a frequency-directional transport
   inefficiency law on the exact lifted band, landing directly on the remainder

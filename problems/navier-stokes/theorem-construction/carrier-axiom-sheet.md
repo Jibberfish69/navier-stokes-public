@@ -45,7 +45,9 @@ For each integer `s\ge 1`, there is a Hilbert space `H_D^s\subset H` with
 norm
 
 ```text
-|X|_{H_D^s}^2 \simeq \sum_{k=0}^s |\nabla_D^{\,k}X|_H^2,
+c_s\sum_{k=0}^s |\nabla_D^{\,k}X|_H^2
+\le |X|_{H_D^s}^2
+\le C_s\sum_{k=0}^s |\nabla_D^{\,k}X|_H^2,
 ```
 
 and continuous dense embeddings

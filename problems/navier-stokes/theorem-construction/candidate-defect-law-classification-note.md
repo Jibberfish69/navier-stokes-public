@@ -130,7 +130,11 @@ There are three useful exponent families.
 Template:
 
 ```math
-\mathcal E \sim \|Def\|_{L^2}^2.
+c_Q\|Def\|_{L^2}^2
+\le
+\mathcal E
+\le
+C_Q\|Def\|_{L^2}^2.
 \tag{7}
 ```
 
@@ -142,7 +146,11 @@ It is the natural target in Classes A, B, and D.
 Template:
 
 ```math
-\mathcal E \sim \|Def\|_{L^p}^p,
+c_p\|Def\|_{L^p}^p
+\le
+\mathcal E
+\le
+C_p\|Def\|_{L^p}^p,
 \qquad p>2,
 \tag{8}
 ```
@@ -159,10 +167,10 @@ Template:
 
 ```math
 \mathcal E
-\sim
-\text{Dirichlet part}
+:=
+\mathcal E_{\mathrm{Dir}}
 +
-\text{flux/commutator part}
+\mathcal E_{\mathrm{flux/comm}}
 \tag{9}
 ```
 
@@ -170,8 +178,8 @@ or
 
 ```math
 \mathcal E
-\sim
-\Psi^p + \Theta^q.
+:=
+c_\Psi\Psi^p+c_\Theta\Theta^q.
 \tag{10}
 ```
 
