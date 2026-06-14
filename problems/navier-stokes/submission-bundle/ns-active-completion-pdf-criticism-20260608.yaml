@@ -4,6 +4,12 @@ artifact_id: ns-active-completion-pdf-criticism-20260608
 created_for_run: system/meta/research-os/nightly-six-mpp/runs/2026-06-08
 created_at_local: '2026-06-08T21:46:00-06:00'
 status: resolved-zero-live-after-20260609-rendered-reread
+active_use_status: archived-historical-not-current-baseline
+superseded_for_active_loop_by: problems/navier-stokes/submission-bundle/ns-active-completion-telescopic-criticism-baseline-20260611.yaml
+active_loop_use_policy: >-
+  Historical evidence only. Do not seed current live criticism from this flat
+  inventory unless a fresh telescopic root or child criticism explicitly cites
+  the old row.
 scope: Rendered-read criticism custody for the two Navier-Stokes PDF tracks. This
   artifact preserves the false-finality reopening, records the 20260609 page-one,
   terminal-record, and machinery-voice repairs, and lands on a latest zero-new-live
