@@ -28,7 +28,7 @@ nu_J({alpha_J > theta_J}) -> 0,
 The aligned residual estimate gives
 
 ```math
-\|P_{al}-P_{top}^{seg}\|_F^2\lesssim \alpha_J^2.
+\|P_{al}-P_{top}^{seg}\|_F^2\le C_{al}\alpha_J^2.
 ```
 
 Hence

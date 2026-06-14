@@ -73,7 +73,7 @@ r_T^2\|\nabla^2 b_k(t)\|_{L^\infty(Q_T^*)}
 +r_T\|\nabla A_k(t)\|_{L^\infty(Q_T^*)}
 ```
 
-and by localization commutators of size `O(2^{-cM})`. In packet norms, it gives
+and by localization commutators bounded by `C_M2^{-cM}`. In packet norms, it gives
 
 ```math
 \|H_T(t,s)\mathcal E_T(s)u(s)\|_{\mathcal P_N(t)}

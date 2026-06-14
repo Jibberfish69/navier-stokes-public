@@ -25,7 +25,7 @@ Then `RPTS.A` gives
 ```math
 \|P_{al}(t,a)-P_{J,top}^{seg}(a,b,t)
 \|_F^2
-\lesssim
+\le C_{sync}
 Err_{sync}^{al}(a,b,t)
 +
 \frac{(E_{J,t_0}^{CG}(t,a))^2}{g_0^2}

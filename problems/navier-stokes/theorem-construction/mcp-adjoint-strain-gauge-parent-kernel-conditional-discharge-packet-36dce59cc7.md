@@ -67,7 +67,7 @@ where `G_T` removes the central matrix coefficient along `X_T`, the packet `\var
 \exp(-c2^{2j_T}|x-X_T(t)|^2)
 ```
 
-and its oscillatory strain errors contribute `O(2^{-M})`.  Since
+and its oscillatory strain errors contribute at most `C_M2^{-M}`. Since
 
 ```math
 \|g_T^{-1}G_T(t)\|\le C,
@@ -169,7 +169,7 @@ e^{-\Gamma_T(\tau_T)}
 then
 
 ```math
-A_*\lesssim e^{-2\Gamma_T(\tau_T)}
+A_*\le C_Ae^{-2\Gamma_T(\tau_T)}
 \left|\int_{\tau_T}^{t_+}\langle R,\psi_T\rangle\,ds\right|^2,
 ```
 
@@ -279,7 +279,7 @@ This is the desired local form of `LemmaB.SourceDrain`.
 The conditional proof depends on four live analytic obligations:
 
 1. construction of the strain-gauged adjoint packet parametrix from the localized Navier-Stokes coefficients;
-2. proof that oscillatory strain errors after gauging are `O(2^{-M})` in the heat-scale packet calculus;
+2. proof that oscillatory strain errors after gauging are bounded by `C_M2^{-M}` in the heat-scale packet calculus;
 3. termwise proof of the residual `L_t^2H_x^{-1}` estimate for commutator, pressure, cutoff, and off-packet pieces;
 4. measurable first-crossing / ancestor selection compatible with source-residue compactness in the ancient limit.
 

@@ -34,7 +34,7 @@ The angular factor is controlled by the shifted-anchor projector mismatch:
 
 ```math
 \|(I-P_{al})n_{top}\|
-\lesssim
+\le C_{P}
 \|P_{al}-P_{top}^{seg}\|_F.
 ```
 
@@ -42,7 +42,7 @@ Thus
 
 ```math
 |m_{al}|
-\lesssim
+\le C_m
 \|C_{al}\|_{op}\,\|P_{al}-P_{top}^{seg}\|_F.
 ```
 

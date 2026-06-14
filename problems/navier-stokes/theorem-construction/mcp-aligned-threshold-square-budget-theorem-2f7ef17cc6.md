@@ -67,7 +67,7 @@ Therefore the aligned square budget follows from
 Together with
 
 ```math
-\|P_{al}-P_{top}^{seg}\|_F^2\lesssim\alpha_J^2,
+\|P_{al}-P_{top}^{seg}\|_F^2\le C_{al}\alpha_J^2,
 ```
 
 this gives aligned selector-strain compatibility.

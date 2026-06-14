@@ -37,7 +37,7 @@ The angle factor is controlled by the entrance projector mismatch:
 
 ```math
 \|(I-P_{al})n_{top}(t_0)\|
-\lesssim
+\le C_P
 \|P_{al}(t_0)-P_{top}^{seg}(t_0)\|_F.
 ```
 

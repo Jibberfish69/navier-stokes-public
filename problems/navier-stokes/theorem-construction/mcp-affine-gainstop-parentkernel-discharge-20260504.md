@@ -78,7 +78,7 @@ If
 then active terminal mass gives
 
 ```math
-A_*\lesssim
+A_*\le C_A
  g_T(\tau_T)^{-2}\left|\int_{\tau_T}^{t_+}\langle R,\psi_T\rangle ds\right|^2.
 ```
 
