@@ -91,7 +91,7 @@ The installed no-earlier-selected-source slice only removes fixed selected
 parents.  It does not rule out a diffuse legal source-parent cloud:
 
 ```math
-\pi_P\simeq {1\over M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
+\pi_P^{(M)}:= {1\over M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},
 \qquad M\to\infty.
 ```
 

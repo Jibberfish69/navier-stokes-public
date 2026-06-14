@@ -43,7 +43,7 @@ LocalizedLeraySourceTether.A_{ind}.
 
 The desired statement would be that the pressure quadratic-gradient defect or Leray-projected near-band pressure channel is absolutely continuous with respect to the native source-current carrier in a way that forbids a pure terminal time-face atom.
 
-A useful schematic target is:
+A useful exact target is:
 
 ```math
 \mu_*^{press}(E)=0

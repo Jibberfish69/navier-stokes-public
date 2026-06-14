@@ -775,7 +775,7 @@ the far-high beat:
 ```text
 P_j(u_q dot grad Z_l + Z_l dot grad u_q),
 q>j+C,
-|l-q|<=O(1).
+|l-q|\le C_0.
 ```
 
 Updated packet expansion:

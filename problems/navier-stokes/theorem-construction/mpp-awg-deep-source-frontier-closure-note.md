@@ -66,14 +66,17 @@ geometry. The live object is the weighted lifted remainder
 \sum W_{j,k,\ell}^{\sigma}\mathcal R_{j,k,\ell}^{lift},
 ```
 
-whose principal term is a strain interaction
+whose principal model term is the strain interaction
 
 ```math
-\mathcal R_{j,k,\ell}^{lift}
-\sim
+\mathcal R_{j,k,\ell}^{prin}
+:=
 2^{2j}
 \langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
+
+A proof still has to supply the error estimate comparing
+`\mathcal R_{j,k,\ell}^{lift}` with `\mathcal R_{j,k,\ell}^{prin}`.
 
 The sign is not fixed. Active packets can align with expanding strain
 directions, and the one-sided shell weights do not impose eigendirection

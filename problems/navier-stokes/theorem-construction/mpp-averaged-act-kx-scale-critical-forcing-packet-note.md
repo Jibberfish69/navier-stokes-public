@@ -102,7 +102,7 @@ For a scale `R`, use moving cylinders
 ```math
 Q_{j,R}=B(c_j(t),R)\times I_R,
 \qquad
-|I_R|\simeq R^2.
+c_IR^2\le |I_R|\le C_IR^2.
 ```
 
 Replace point center modes by transported mollified affine modes
@@ -1062,7 +1062,7 @@ X_{\theta R}(s_a)\le C_m\theta^2.
 
 Choose `\theta_m` so that `C_m\theta_m^2\le\eta_X`. The same derivative bounds
 give `X_{\theta R}\in L^\infty(I_{\theta R})` and, since
-`|I_{\theta R}|\simeq\theta^2R^2`, give
+`c_I\theta^2R^2\le |I_{\theta R}|\le C_I\theta^2R^2`, give
 `N_{\theta R}\in L^1(I_{\theta R})`.
 
 For the averaged center forcing, test the tower equations against transported

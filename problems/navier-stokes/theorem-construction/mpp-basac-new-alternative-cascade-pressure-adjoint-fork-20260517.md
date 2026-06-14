@@ -47,7 +47,7 @@ The desired identity leaves an unpriced positive adjoint defect:
 
 ```math
 AdjDefect_m^{+,src}
-\sim
+:=
 \sum_P\int_{Q(P)}|w_{j_P}|^2[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}]_+dxdt.
 ```
 

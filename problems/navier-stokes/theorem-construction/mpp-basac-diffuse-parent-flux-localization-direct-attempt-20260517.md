@@ -38,7 +38,9 @@ BASACSourceAncestryCompactness.A.
 
 ## Attempt 1: local balance on a transported cylinder
 
-Let `\mathcal C_R(s_0,0)` be a transported cylinder in frozen-strain coordinates. A local source balance has the schematic form
+Let `\mathcal C_R(s_0,0)` be a transported cylinder in frozen-strain coordinates.
+With `Err_R` defined as the cutoff, transport-coordinate, and localization
+remainder, the local source balance is the identity
 
 ```math
 \mu^{src}(\mathcal C_R\cap\{s=0\})

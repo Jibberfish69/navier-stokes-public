@@ -34,7 +34,7 @@ This is a strong tangent bookkeeping class. It records the surviving terminal so
 
 ## Attempt 1: local transported-cylinder balance proves global no incoming flux
 
-On a transported same-fluid cylinder `Q_R^\Phi`, the local balance has schematic form
+On a transported same-fluid cylinder `Q_R^\Phi`, the local balance is the identity
 
 ```math
 \Delta E(Q_R^\Phi)

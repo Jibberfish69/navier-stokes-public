@@ -56,11 +56,13 @@ Thus bounded parent concentration fails.
 
 ## Entropy-reserve attempt
 
-The natural branch entropy is
+The branch entropy is bounded by
 
 ```math
-H(\pi_P)\sim\log M.
+H(\pi_P)\le\log M,
 ```
+
+with equality for the uniform `M`-child split.
 
 The installed route ledgers are energy, local energy, pressure/cutoff losses, source-localization losses, residual-square controls, donor-balance ledgers, and ASAC-paid angular defect controls. None carries `H(\pi_P)` with a positive coefficient.
 
