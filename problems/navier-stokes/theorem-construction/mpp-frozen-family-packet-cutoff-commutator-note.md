@@ -176,7 +176,7 @@ Summing in `k` gives `(PCC.B0)` after observing
 `E_N(h,t;\psi)\ge \sum_k\lambda_k\int \phi_t^2|f_k|^2\,dx` and
 `\|\phi_t\|_{L^\infty}\le \|\psi\|_{L^\infty}`. The alternative bound
 `(PCC.B1)` follows directly from `(PCC.A2)` using
-`\|\Delta\phi_t\|_{L^\infty}\lesssim \Phi_{\psi}^{glob,(2)}`. ∎
+`\|\Delta\phi_t\|_{L^\infty}\le C_{\phi}\Phi_{\psi}^{glob,(2)}`. ∎
 
 ## Route Position
 

@@ -71,7 +71,8 @@ After discarding the negative viscous term and absorbing legal losses:
 \left[
 H_N(W)-H_N(Past(W))-Loss^{height}_{legal}(W)
 \right]_+
-\lesssim
+\le
+C_{\mathrm{height}}
 \int_W\sup_{k>N}[\mathcal F_k^{height}(t)]_+dt.
 ```
 
@@ -112,7 +113,7 @@ T_k(t)=A\,1_{[s,s+\tau]}(t),
 \qquad
 H_k=2^kA,
 \qquad
-R_k\sim 2^kA^2\tau.
+R_k=2^kA^2\tau.
 ```
 
 Taking the pulse extremely thin lets `H_k` be large while the past square

@@ -260,7 +260,7 @@ For that source packet, the pressure input is the post-`LCI.A` theorem
 \le
 C(\mathcal N^{LH/HL}+\mathcal N^{RR}+\mathcal T^{far}),
 \qquad
-\mathcal T^{far}(t)\lesssim \|u_0\|_{L^2}^2.
+\mathcal T^{far}(t)\le C_{\mathrm{far}}\|u_0\|_{L^2}^2.
 \tag{FFPLB.D0}
 ```
 

@@ -62,7 +62,8 @@ The flow-gradient law gives
 
 ```math
 \frac{d}{dt}\log\Gamma_\sharp(t)
-\lesssim
+\le
+C_{\mathrm{flow}}
 \|\nabla u(\cdot,t)\|_{L^\infty(\Phi(A_\sharp,t))}.
 \tag{FCP.2}
 ```

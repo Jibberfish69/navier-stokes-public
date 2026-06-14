@@ -155,8 +155,9 @@ h(a,r,t)=\int_0^1 F(a+s r,t)\,r\,ds,
 so
 
 ```math
-h(a,r,t)=F(a,t)\,r+O(|r|^2)
-\qquad\text{for small }r.
+h(a,r,t)=F(a,t)\,r+R_h(a,r,t),
+\qquad
+R_h(a,r,t):=\int_0^1\bigl(F(a+s r,t)-F(a,t)\bigr)\,r\,ds.
 \tag{OP.11b}
 ```
 

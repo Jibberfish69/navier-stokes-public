@@ -21,7 +21,9 @@ v=\chi_a^{\mathcal W}(t)u(t)
 be a localized same-witness packet. For a selected dyadic level J, set
 
 ```math
-r_J\simeq 2^{-J}.
+r_J:=2^{-J},
+\qquad
+A_J:=\{h:c_A r_J\le |h|\le C_A r_J\}.
 ```
 
 The theorem proves the missing readout
@@ -29,7 +31,7 @@ The theorem proves the missing readout
 ```math
 Field_{N(J),r_J,Q}(\mathcal W)
 \Longrightarrow
-r_J^{-1}\fint_{|h|\simeq r_J}\|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
+r_J^{-1}\fint_{A_J}\|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
 \le
 C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 \tag{FFD.1}
@@ -37,15 +39,15 @@ C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 
 ## Proof
 
-`Field_{N,r,Q}` is the CM service that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Pack packet, the translated samples `x` and `x+h`, with `|h|` comparable to r and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
+`Field_{N,r,Q}` is the CM face that says the retained packet has one coherent field representative through depth N at positive scale r. On a retained Pack packet, the translated samples `x` and `x+h`, with `c_A r\le |h|\le C_A r` and both points inside the localized chart, are neighboring representatives of the same material packet. On a retained Part packet, the two representatives are compared through the same Navier-Stokes pressure-viscosity law.
 
-Thus the only quantitative content left in the Field service is the finite-difference/tower-coherence modulus: neighboring representatives at scale r must agree in L^2 up to the Field budget
+Thus the only quantitative content left in the Field face is the finite-difference/tower-coherence modulus: neighboring representatives at scale r must agree in L^2 up to the Field budget
 
 ```math
 \mathfrak C_{N,r,Q}(\mathcal W).
 ```
 
-Taking `r=r_J` and averaging over the annulus `|h|\simeq r_J` gives exactly `(FFD.1)`. The factor `r_J^{-1}` is the critical `H^{1/2}` normalization: a finite-difference square divided by the displacement scale is the physical-space form of the half-derivative energy at matched frequency.
+Taking `r=r_J` and averaging over `A_J` gives exactly `(FFD.1)`. The factor `r_J^{-1}` is the critical `H^{1/2}` normalization: a finite-difference square divided by the displacement scale is the physical-space form of the half-derivative energy at matched frequency.
 
 Therefore `Field_{N(J),r_J,Q}` supplies the missing hypothesis `(FCCS.1)` from `FieldCoherenceControlsCriticalShell.A`.
 

@@ -6,16 +6,22 @@ Conditional theorem. The analytic dyadic estimate is proved here. The repo-speci
 
 ## Statement
 
-Let `v=\chi_a^{\mathcal W}(t)u(t)` be the same-witness localized packet supplied by `SameLedgerHHalfExtraction.A`. Let `P_J` be a smooth annular Littlewood--Paley projector on `\mathbb T^3`, and choose the matched scale
+Let `v=\chi_a^{\mathcal W}(t)u(t)` be the same-witness localized packet supplied by `SameLedgerHHalfExtraction.A`. Let `P_J` be a smooth annular Littlewood--Paley projector on `\mathbb T^3`, choose the matched scale
 
 ```math
-r_J\simeq 2^{-J}.
+r_J:=2^{-J},
+```
+
+and define the fixed annulus
+
+```math
+A_J:=\{h:c_A r_J\le |h|\le C_A r_J\}.
 ```
 
 Assume the matched Field coherence bound
 
 ```math
-r_J^{-1}\fint_{|h|\simeq r_J}\|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
+r_J^{-1}\fint_{A_J}\|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
 \le
 C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 \tag{FCCS.1}
@@ -32,10 +38,10 @@ C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W).
 
 ## Proof
 
-For `|\xi|\simeq 2^J` and `r_J\simeq 2^{-J}`, the annular average satisfies
+For `c_\xi2^J\le|\xi|\le C_\xi2^J` and `r_J=2^{-J}`, the annular average satisfies
 
 ```math
-\fint_{|h|\simeq r_J}|e^{ih\cdot\xi}-1|^2\,dh\ge c_0>0.
+\fint_{A_J}|e^{ih\cdot\xi}-1|^2\,dh\ge c_0>0.
 \tag{FCCS.3}
 ```
 
@@ -44,7 +50,7 @@ By Plancherel,
 ```math
 \|P_Jv\|_2^2
 \le
-C\fint_{|h|\simeq r_J}\|P_Jv(\cdot+h)-P_Jv(\cdot)\|_2^2\,dh.
+C_{\mathrm{LP}}\fint_{A_J}\|P_Jv(\cdot+h)-P_Jv(\cdot)\|_2^2\,dh.
 \tag{FCCS.4}
 ```
 
@@ -61,17 +67,17 @@ The projector is `L^2` bounded. Hence
 ```math
 \|P_Jv\|_2^2
 \le
-C\fint_{|h|\simeq r_J}\|v(\cdot+h)-v(\cdot)\|_2^2\,dh.
+C_{\mathrm{LP}}\fint_{A_J}\|v(\cdot+h)-v(\cdot)\|_2^2\,dh.
 \tag{FCCS.5}
 ```
 
-Multiplying by `2^J` and using `2^J\simeq r_J^{-1}` gives
+Multiplying by `2^J` and using `2^J=r_J^{-1}` gives
 
 ```math
 2^J\|P_Jv\|_2^2
 \le
-C r_J^{-1}
-\fint_{|h|\simeq r_J}\|v(\cdot+h)-v(\cdot)\|_2^2\,dh.
+C_{\mathrm{LP}} r_J^{-1}
+\fint_{A_J}\|v(\cdot+h)-v(\cdot)\|_2^2\,dh.
 \tag{FCCS.6}
 ```
 
@@ -81,7 +87,7 @@ Inserting `(FCCS.1)` proves `(FCCS.2)`.
 
 Assume retained `Pack_Q` and retained `Part_{N,Q}`. Then the same-ledger extraction theorem places the critical `H^{1/2}` shell on the material packet and under the same pressure-viscosity law.
 
-If matched Field coherence `(FCCS.1)` holds at `r_J\simeq 2^{-J}`, the selected shell obeys `(FCCS.2)`. A terminal branch with persistent or divergent critical shell energy therefore exits Field coherence at the matched depth/scale.
+If matched Field coherence `(FCCS.1)` holds at `r_J=2^{-J}`, the selected shell obeys `(FCCS.2)`. A terminal branch with persistent or divergent critical shell energy therefore exits Field coherence at the matched depth/scale.
 
 Thus the pure oscillatory branch of `CriticalHHalfToCMFace.A` lands in the Field face once the matched Field finite-difference bound is certified as part of `Field_{N,r,Q}`.
 

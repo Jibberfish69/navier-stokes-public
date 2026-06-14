@@ -282,7 +282,8 @@ ordinary energy far-tail
 
 ```math
 \mathcal T^{far}(t)
-\lesssim
+\le
+C_{\mathrm{far}}
 \|u(\cdot,t)\|_{L^2}^2
 \le
 \|u_0\|_{L^2}^2.

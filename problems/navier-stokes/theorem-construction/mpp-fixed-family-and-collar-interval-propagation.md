@@ -399,7 +399,8 @@ Assume:
 
 ```math
 \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
-\lesssim
+\le
+C_{\mathrm{FCI}}
 \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
 \qquad
 \text{for }t\in I,

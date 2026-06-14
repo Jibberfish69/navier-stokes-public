@@ -228,8 +228,8 @@ symbol is Coifman--Meyer with one high-frequency derivative paid by the
 
 ```math
 \|R^{comm}\|_{H^{-1}}^2
-\lesssim
-D_j.
+\le
+C_{\mathrm{comm}}D_j.
 ```
 
 ### Pressure
@@ -247,8 +247,8 @@ projection boundedness gives
 
 ```math
 \|R^{press}\|_{H^{-1}}^2
-\lesssim
-D_j.
+\le
+C_{\mathrm{press}}D_j.
 ```
 
 ### Cutoff
@@ -265,18 +265,19 @@ Heat-scale derivatives obey
 
 ```math
 |\partial_t\eta_T|+|b_k\cdot\nabla\eta_T|
-\lesssim
+\le
+C_{\eta,t}
 r_T^{-2},
 \qquad
-|\nabla\eta_T|\lesssim r_T^{-1}.
+|\nabla\eta_T|\le C_{\eta,x}r_T^{-1}.
 ```
 
 The `H^{-1}` norm pays one derivative, so
 
 ```math
 \|R^{cut}\|_{H^{-1}}^2
-\lesssim
-\nu\|\nabla w_j\|_2^2.
+\le
+C_{\mathrm{cut}}\nu\|\nabla w_j\|_2^2.
 ```
 
 ### Off-packet
