@@ -14,7 +14,7 @@ remains blocked by the `E_u` component-selection channel. This note closes the l
 
 ## Definition of the enlarged charge
 
-On a selected same-fluid terminal atlas, write the base packet schematically as
+On a selected same-fluid terminal atlas, define the base packet by
 
 ```math
 SCF_{base}=E_u+D_u+P+G_\Phi.

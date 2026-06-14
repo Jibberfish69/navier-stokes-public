@@ -100,7 +100,7 @@ The pressure term is handled with the CKN-compatible pressure gauge and the fram
 
 ## Inequality form
 
-For every nonnegative `eta`, the normalized local energy inequality has the schematic form
+For every nonnegative `eta`, the normalized local energy inequality has the form
 
 ```math
 E_\eta(s_2)+\nu\int_{s_1}^{s_2}D_\eta(s)\,ds

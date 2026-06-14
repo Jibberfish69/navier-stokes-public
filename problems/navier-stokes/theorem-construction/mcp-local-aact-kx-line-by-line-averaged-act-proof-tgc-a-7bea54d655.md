@@ -56,7 +56,7 @@ The affine-subtracted velocity is
 w_R(x,t):=u(x,t)-u_R^{ctr}(t)-A_R(t)(x-c_R(t)).
 ```
 
-The averaged excess has the schematic form
+The averaged excess is
 
 ```math
 X_R(t)=R^{-2}\int_{Q_R^\Phi(t)}|w_R|^2\psi_R+\text{averaged lower affine-rung terms}.

@@ -28,7 +28,7 @@ Thus
 
 ```math
 \frac{d}{dt}\log \|F\|
-\lesssim
+\le C_F
 \|\nabla u(t)\|_{L^\infty},
 ```
 

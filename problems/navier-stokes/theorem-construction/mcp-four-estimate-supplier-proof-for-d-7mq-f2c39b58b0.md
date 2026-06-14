@@ -181,7 +181,8 @@ Then Davis-Kahan gives
 
 ```math
 \|\widehat P_J^{frame}-P_J^{CG}\|_F^2
-\lesssim
+\le
+C_{\mathrm{DK}}
 \frac{
 \left(
  d(2|W_J^{coc}|_{op}\varepsilon_{J,lin}^{frame}

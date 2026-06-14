@@ -31,7 +31,7 @@ The zero-force branch cannot be reused unchanged. The forcing contributes to:
 5. the endpoint forcing rungs;
 6. the final `H^s` continuation criterion.
 
-The rung equation becomes schematically
+For a forced branch, the `k`-th transported rung equation becomes
 
 ```math
 D_tU_k=K_k+B_k+\nabla^k f,

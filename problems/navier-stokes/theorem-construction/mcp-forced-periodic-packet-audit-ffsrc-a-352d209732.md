@@ -45,7 +45,7 @@ with the force contribution inserted into pressure, strain/cascade, cutoff, and 
 
 ## Required forced readout
 
-The endpoint rungs require a forced readout, schematically
+The endpoint rungs require the forced readout
 
 ```math
 K_q^{forced}=-\nabla^{q+1}p+\nu\Delta U_q+\nabla^q f,

@@ -42,11 +42,11 @@ on infinitely many terminal windows. This is the required lower-production side 
 
 ## Proof
 
-On each terminal window write the base packet schematically as
+On each terminal window define the base packet decomposition by
 
 ```math
 SCF_{base}(Q_R^\Phi)
-\simeq
+:=
 E_R^{aff}+Z_R+G_R^\Phi,
 ```
 

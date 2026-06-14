@@ -34,7 +34,7 @@ Davis-Kahan gives BridgeA once the target estimate is supplied:
 
 ```math
 \|P_{al}-P_J^{CG}\|_F
-\lesssim
+\le C_{DK}
 \frac{\|C_{al}-C_{CG}\|_{op}}{\gamma_J}.
 ```
 

@@ -31,8 +31,8 @@ then the target follows by integrating over `I`.
 The source `F_j` is trilinear in Littlewood-Paley pieces. On a fixed smooth finite-mode shell profile, amplitude scaling by `A` makes
 
 ```math
-F_j\sim A^3,
-\qquad |F_j|^2\sim A^6.
+F_j[A u]=A^3F_j[u],
+\qquad |F_j[A u]|^2=A^6|F_j[u]|^2.
 ```
 
 Original smooth data controls the solution through data-dependent energy and preterminal smoothness. The selected terminal active shells require a scale-normalized bound uniform along moving high-frequency windows. The current ledgers lack that normalization.
