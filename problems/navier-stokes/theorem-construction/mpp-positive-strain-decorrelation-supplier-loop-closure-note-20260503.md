@@ -88,9 +88,12 @@ The signed route would need a selected-window comparison:
 ```math
 \int_{Bad_N(\eta)}
 (\mathfrak S_{N,loc}^{active})_+
-\lesssim
+\le
+C_{PSD}
 \int_{Bad_N(\eta)}
-(\mathfrak S_{N,loc}^{active})_-+o_N(1).
+(\mathfrak S_{N,loc}^{active})_-+\varepsilon_N,
+\qquad
+\varepsilon_N\to0.
 ```
 
 The existing dyadic identities cancel signed full sums before terminal weights,

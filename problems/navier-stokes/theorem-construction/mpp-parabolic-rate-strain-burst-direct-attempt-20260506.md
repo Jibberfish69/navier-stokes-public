@@ -144,14 +144,15 @@ shell concentration:
 
 ```math
 D_{j-q}(t)
-\gtrsim
+\ge
+c_{PRS}
 \nu^2 q^{-4}2^{j+3q}.
 ```
 
 For bounded `q`, this is already:
 
 ```math
-D_{j-q}(t)\gtrsim \nu^2 2^j.
+D_{j-q}(t)\ge c_{PRS,L}\nu^2 2^j.
 ```
 
 More importantly, this is a donor-height event.  If `m=j-q` is the index

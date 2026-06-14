@@ -55,8 +55,8 @@ prevent the active selector from choosing expanding-strain source production.
 The true lifted remainder has leading paracommutator form
 
 ```math
-\mathcal R_{j,k,\ell}^{lift}
-\sim
+\mathcal R_{j,k,\ell}^{lift,prin}
+:=
 2^{2j}
 \left\langle
 \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u

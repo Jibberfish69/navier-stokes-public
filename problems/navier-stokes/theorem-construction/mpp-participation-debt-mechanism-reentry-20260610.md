@@ -81,7 +81,8 @@ For a packet `P` at scale `r`, use:
 
 ```text
 U_P(t)       velocity amplitude at scale r
-A_P(t)       gradient / vorticity / packet-load scale, roughly U_P/r
+A_P(t)       packet-normalized gradient/vorticity load A_P(t):=r^{-1}U_P(t),
+             unless a sharper local gradient or vorticity record is installed
 E_P(t)       localized kinetic energy
 D_P(I)       viscous dissipation over I
 F_P(I)       lawful incoming pressure / transport / neighbor flux
@@ -133,7 +134,7 @@ F_P(I) <= lawful neighbor / pressure / transport capacity on I.
 At small scale `r`, viscosity acts on the scale clock
 
 ```text
-tau_visc(r) ~ r^2 / nu.
+tau_visc(r) := r^2 / nu.
 ```
 
 The singular packet must therefore beat a two-sided constraint:

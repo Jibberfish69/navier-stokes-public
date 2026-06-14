@@ -184,7 +184,7 @@ B_P
 The child factor is paid by the local dissipation:
 
 ```math
-\sum_P|B_P|^2\lesssim \sum_P D_P.
+\sum_P|B_P|^2\le C_{child}\sum_P D_P.
 ```
 
 By `ParentSquareEmbed.A`,
@@ -228,8 +228,8 @@ quantity is
 For the actual scale-normalized donor factor in the source-wall branch,
 
 ```math
-\sum_{P^-}|A_{P^-}|^2
-\sim
+\mathcal R_N(t)
+:=
 \sum_{k>N}
 2^k
 \left(
@@ -283,4 +283,3 @@ SOURCE.NO\text{-}PULSE.A.
 The first factor is installed by packet Bessel orthogonality.  The second factor
 is not installed here and remains the exact live theorem wall for this direct
 Carleson branch.
-

@@ -71,7 +71,7 @@ This permits summing packet estimates. It gives no smallness, no terminal decay,
 
 ## Attempt 4: Cauchy/Young absorption
 
-The PRD attempt reaches a schematic estimate
+The PRD attempt reaches the estimate
 
 ```math
 \sum_P\int_{Q(P)}|w_{j_P}|^2[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}]_+
@@ -116,9 +116,9 @@ At current resolution the active-reserve target is the reserve presentation of t
 
 ```math
 PositiveActiveCarlesonReserve.A
-\simeq_{route}
+\equiv_{route}
 ScaleCriticalTreeCarleson.A
-\simeq_{route}
+\equiv_{route}
 LocalPositiveSourceCarleson.A
 ```
 

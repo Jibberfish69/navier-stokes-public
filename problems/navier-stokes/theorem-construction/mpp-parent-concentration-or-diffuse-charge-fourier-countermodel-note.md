@@ -32,8 +32,8 @@ in the child shell after projection.
 The localized pre-Cauchy high-low source contains strain terms of the form
 
 ```math
-\mathcal N_\alpha(P^-_\alpha\to P)
-\sim
+\mathcal N_\alpha^{prin}(P^-_\alpha\to P)
+:=
 \int_{Q_P^\Phi}
 (h_j\cdot\nabla a_\alpha)\cdot h_j\,\chi_P\,dxdt.
 ```
@@ -45,14 +45,14 @@ the selected child packet.  Scale the donor amplitudes by `M^{-1}`:
 a_\alpha=M^{-1}b_\alpha.
 ```
 
-Then the positive parent measure has the schematic form
+Then the model positive parent measure has the form
 
 ```math
 \pi_P
-=
+:=
 \sum_{\alpha=1}^M
 \bigl(\mathcal N_\alpha(P^-_\alpha\to P)\bigr)_+
-\simeq
+=
 {1\over M}\sum_{\alpha=1}^M \delta_{P^-_\alpha},
 ```
 
@@ -88,7 +88,7 @@ The natural donor energy of the low modes scales like
 \sum_{\alpha=1}^M \|a_\alpha\|_2^2
 =
 M\cdot M^{-2}\|b_\alpha\|_2^2
-\simeq M^{-1}.
+= M^{-1}.
 ```
 
 The same phenomenon holds for any raw quadratic donor ledger tied only to the

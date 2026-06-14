@@ -95,7 +95,7 @@ This proves the separation between lower/first-moment budget and square upper co
 
 ## Lemma 2. Heat-scale shell law reduces upper control to source-pulse exclusion
 
-On an active shell, the schematic shell law is
+On an active shell, the shell law is
 
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t),

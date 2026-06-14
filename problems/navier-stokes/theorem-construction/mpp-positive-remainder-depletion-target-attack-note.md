@@ -120,8 +120,8 @@ After pressure, cutoff, commutator, and boundary pieces are sent to the legal
 loss ledger, the dangerous remainder contains the active strain production:
 
 ```math
-\mathcal R_P^{main}
-\sim
+\mathcal R_P^{main,prin}
+:=
 \chi_P
 \langle S_{<j}^{loc} w_j,w_j\rangle
 ```
@@ -208,7 +208,8 @@ Cauchy/Young gives only:
 
 ```math
 |\mathcal R_P|
-\lesssim
+\le
+C_{PRD}
 \mathsf{ActiveSquare}_P
 +\text{lower legal ledgers}.
 ```
