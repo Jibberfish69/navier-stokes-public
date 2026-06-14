@@ -7,7 +7,7 @@ Status: conditional fixed-threshold coefficient theorem.
 Prove a coefficient domination of the form
 
 ```math
-\Lambda_N+\Theta_N^\sharp\le c\nu2^{2N}.
+\Lambda_N+\Theta_N^\sharp\le c\nu\,2^{2N}.
 ```
 
 ## Low-mode coefficient
@@ -49,8 +49,7 @@ which gives
 This yields pointwise domination whenever
 
 ```math
-\|\nabla u(t)\|_2\le c
-u2^{N/2}.
+\|\nabla u(t)\|_2\le c_L\nu\,2^{N/2}.
 ```
 
 Thus large-threshold domination holds on times where the enstrophy amplitude is below the threshold-dependent ceiling.
@@ -78,7 +77,7 @@ This is too large compared with `2^{2N}`. Using one gradient gives
 \le C_M2^N\|\nabla u(t)\|_2^2.
 ```
 
-Therefore
+Hence
 
 ```math
 \Theta_N^\sharp(t)
@@ -89,16 +88,14 @@ This satisfies
 
 ```math
 \Theta_N^\sharp(t)
-\le c
-u2^{2N}
+\le c_C\nu\,2^{2N}
 ```
 
 whenever
 
 ```math
 \|\nabla u(t)\|_2^2
-gle c
-u2^N.
+\le c_C C_M^{-1}\nu\,2^N.
 ```
 
 ## Verdict
@@ -106,12 +103,10 @@ u2^N.
 The coefficient domination theorem holds under a threshold condition tied to instantaneous enstrophy:
 
 ```math
-\|\nabla u(t)\|_2^2\lesssim 
-u2^N
+\|\nabla u(t)\|_2\le c_\ast\min\{\nu,\nu^{1/2}\}2^{N/2}
 \Longrightarrow
-\Lambda_N(t)+\Theta_N^\sharp(t)
-\le c
-u2^{2N}.
+\Lambda_N(t)+\Theta_N^\sharp(t)
+\le c\nu\,2^{2N}.
 ```
 
 A terminal-uniform fixed `N` domination requires a terminal enstrophy ceiling. The current theorem program supplies fixed-threshold reserve summability without needing this stronger pointwise domination.

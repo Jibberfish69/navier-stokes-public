@@ -129,7 +129,7 @@ By construction, `b_\ell^{near,L}` contains only frequencies in the finite
 window
 
 ```math
-c e^{-L}\ell^{-1}\lesssim |\xi| \lesssim c\ell^{-1}.
+c_- e^{-L}\ell^{-1}\le |\xi| \le c_+\ell^{-1}.
 ```
 
 So `\nabla b_\ell^{near,L}` is supported in a bounded-width corona adjacent to
@@ -150,7 +150,7 @@ For the far-corona strain one has the pointwise scale estimate
 
 ```math
 \Sigma_\ell^{far,L}(x,t)
-\lesssim_L
+\le C_L
 \int_{e^{L}\ell}^{\ell_{bot}}
 \frac{\ell}{r}\,
 \widetilde\Sigma_r(x,t)\,
@@ -158,7 +158,7 @@ For the far-corona strain one has the pointwise scale estimate
 \tag{2}
 ```
 
-where `\ell_{bot}\sim 2^{-(N+M)}` and `\widetilde\Sigma_r` is a band strain at
+where `c_b2^{-(N+M)}\le\ell_{bot}\le C_b2^{-(N+M)}` and `\widetilde\Sigma_r` is a band strain at
 scale `r`.
 
 ### Proof
@@ -172,7 +172,8 @@ b_\ell^{far,L}
 \int_{e^{L}\ell}^{\ell_{bot}} \widetilde Q_r u \,\frac{dr}{r},
 ```
 
-for a smooth band-pass family `\widetilde Q_r` at frequency `\sim r^{-1}`.
+for a smooth band-pass family `\widetilde Q_r` supported in
+`c_Q r^{-1}\le |\xi|\le C_Q r^{-1}`.
 Then
 
 ```math
@@ -183,9 +184,10 @@ Then
 
 When this lower-frequency field is inserted into the commutator kernel at
 active scale `\ell`, the mean-value expansion produces the increment factor
-`|h|` with `|h|\sim \ell`. For a field varying on scale `r`, this yields the
-ratio `|h|/r \sim \ell/r`. Convolving with the radius-`\ell` averaging kernel
-`\rho_\ell` gives `(2)`.
+`|h|`. On the kernel support there are constants `c_\rho,C_\rho>0` with
+`c_\rho\ell\le |h|\le C_\rho\ell`; for a field varying on scale `r`, this gives
+`c_\rho\ell/r\le |h|/r\le C_\rho\ell/r`. Convolving with the radius-`\ell`
+averaging kernel `\rho_\ell` gives `(2)`.
 
 So the far-corona transport loses efficiency with spectral gap in the
 continuous variable by the explicit kernel `\ell/r`.
@@ -196,7 +198,7 @@ Substituting `(2)` into the far flux gives
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L
 \int_0^{\ell_N}
 \chi_{mid}(\log\ell)
 \int
@@ -268,17 +270,17 @@ has bounded Schur norms on the measure spaces `d\ell/\ell` and `dr/r`:
 
 ```math
 \sup_\ell \int_{c_1\ell}^{\infty} K(\ell,r)\,\frac{dr}{r}
-\lesssim_{c_1} 1,
+\le C_{c_1},
 \qquad
 \sup_r \int_0^{r/c_1} K(\ell,r)\,\frac{d\ell}{\ell}
-\lesssim_{c_1} 1.
+\le C_{c_1}.
 ```
 
 So Schur's test and Cauchy-Schwarz give
 
 ```math
 \int_0^T \Pi_N^{mid,far,L}(t)\,dt
-\lesssim
+\le C
 \Bigg(
 \int_0^T\int_0^{\ell_N}U(\ell,t)^2\,\frac{d\ell}{\ell}\,dt
 \Bigg)^{1/2}
@@ -383,7 +385,7 @@ Then `(3)` becomes the exact kernel reduction
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L
 \int_0^{\ell_N}\int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,
 \frac{dr}{r}\,\frac{d\ell}{\ell}.

@@ -48,7 +48,7 @@ It supplies local energy, local dissipation, pressure bounds, and Radon compactn
 The failed entropy-charge test shows that diffuse legal parent branching can carry large entropy while paying vanishing quadratic cost.  Therefore the current inputs do not supply a finite inherited branch-entropy production bound.  In fact, the uniform diffuse model allows entropy to grow like
 
 ```math
-H(\pi_P)\sim \log M
+H(\pi_P)=\log M
 ```
 
 with no installed positive route ledger controlling it.

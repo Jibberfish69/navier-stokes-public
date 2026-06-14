@@ -31,13 +31,22 @@ clean theorem-facing version is
 2^{3N}\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2.
 ```
 
-This is equivalent, up to constants depending only on the fixed collar width
-`M`, to the raw spill coefficient
+This is tied to the raw spill coefficient by explicit fixed-collar constants:
 
 ```math
 \mathcal K_N(t)
 :=
 \sum_{m=N-M}^{N+M}2^{3m}\|\Delta_m u(t)\|_{L^2_x}^2.
+```
+
+Namely,
+
+```math
+2^{-3M}\mathcal K_N(t)
+\le
+\Theta_N^\sharp(t)
+\le
+2^{3M}\mathcal K_N(t).
 ```
 
 So the minimal coherent upgraded gradient-side coefficient interface currently
@@ -68,13 +77,15 @@ is **not** presently supported. The repaired spill proof first produces
 ```math
 \Theta_N(t)\,E_N(t)^{1/2}D_N(t)^{1/2},
 \qquad
-\Theta_N(t)\sim_M 2^{3N/2}\Big(\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2\Big)^{1/2},
+\Theta_N(t)
+:=
+2^{3N/2}\Big(\sum_{m=N-M}^{N+M}\|\Delta_m u(t)\|_{L^2_x}^2\Big)^{1/2},
 ```
 
 and Young then forces the quadratic collar coefficient
 
 ```math
-\Theta_N(t)^2 \sim_M \Theta_N^\sharp(t).
+\Theta_N(t)^2 = \Theta_N^\sharp(t).
 ```
 
 So the current lane supports `\widetilde\Lambda_N^\sharp` as the minimal
@@ -336,7 +347,7 @@ surface runs on its own admissible coefficient `\Gamma_N\in L^1(0,T)`.
 In the current local tail packet stack one may still take `\Gamma_N=\mathcal
 L_N`, but the upgraded four-body interface only needs the existence of such a
 tail-energy coefficient together with the coercive damping
-`Q_N \gtrsim 2^{2N}T_N`.
+`Q_N \ge c_Q\,2^{2N}T_N` for some fixed `c_Q>0`.
 
 Therefore upgrading Proposition `6.1` to `\widetilde\Lambda_N^\sharp` does not
 by itself force the tail-energy return arrow to use the same coefficient.

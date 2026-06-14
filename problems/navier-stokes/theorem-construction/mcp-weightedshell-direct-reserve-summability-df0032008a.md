@@ -49,7 +49,7 @@ The high-tail energy obeys
 ```math
 E_N(t)
 \le \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
-\simeq \|\nabla u(t)\|_2^2.
+\le C_E\|\nabla u(t)\|_2^2.
 ```
 
 The periodic zero-force energy inequality gives

@@ -32,7 +32,7 @@ Expanded:
 
 ## Extracted object
 
-The Zeno compactness step gives a local suitable ancient object, schematically
+The Zeno compactness step gives a local suitable ancient object
 
 ```math
 (v,q,\nu_*)\quad\text{on }(-\infty,0]\times\mathbb R^3\text{ locally},
@@ -65,7 +65,7 @@ for the extracted Zeno object.
 A Type I class would require a scale-uniform amplitude envelope, for example
 
 ```math
-|v(y,s)|\lesssim |s|^{-1/2}
+|v(y,s)|\le C_I |s|^{-1/2}
 ```
 
 or an equivalent critical bound.  The refill geometry supplies a normalized source-residue packet, not a Type I amplitude bound.  Source-balanced active pulses are precisely the obstruction to such an envelope.

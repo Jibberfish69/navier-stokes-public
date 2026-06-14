@@ -48,7 +48,7 @@ The tail energy satisfies
 E_N(t)
 \le
 \sum_{j\ge0}2^{2j}\|\Delta_j u(t)\|_2^2
-\simeq
+\le C_E
 \|\nabla u(t)\|_2^2.
 ```
 

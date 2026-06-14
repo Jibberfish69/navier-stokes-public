@@ -21,10 +21,14 @@ blowup-driving roughness quantity.
 ## 1. Monotone-law regime
 
 Suppose there are nonnegative functionals `\mathcal K_r[u]` and `\Psi_r[u]`
-such that
+and constants `0<c_-\le c_+<\infty` such that
 
 ```math
-\mathcal K_r[u]\asymp \Psi_r[u]^\beta
+c_-\Psi_r[u]^\beta
+\le
+\mathcal K_r[u]
+\le
+c_+\Psi_r[u]^\beta
 \qquad\text{for some }\beta>0,
 \tag{1}
 ```
@@ -67,19 +71,19 @@ The exponent controls the **decay rate**, not the basic non-blowup logic.
 
 ### Rate comparison
 
-If `\mathcal K_r\asymp \Psi_r^\beta`, then:
+If `c_-\Psi_r^\beta\le\mathcal K_r\le c_+\Psi_r^\beta`, then:
 
 - `p=\beta` gives linear/exponential-type decay:
 
   ```math
-  \mathcal K_r' \lesssim -\mathcal K_r;
+  \mathcal K_r' \le -c_1\mathcal K_r;
   \tag{5}
   ```
 
 - `p>\beta` gives a superlinear drain at large roughness:
 
   ```math
-  \mathcal K_r' \lesssim -\mathcal K_r^\alpha,
+  \mathcal K_r' \le -c_2\mathcal K_r^\alpha,
   \qquad \alpha>1;
   \tag{6}
   ```
@@ -87,7 +91,7 @@ If `\mathcal K_r\asymp \Psi_r^\beta`, then:
 - `0<p<\beta` gives a sublinear drain:
 
   ```math
-  \mathcal K_r' \lesssim -\mathcal K_r^\alpha,
+  \mathcal K_r' \le -c_3\mathcal K_r^\alpha,
   \qquad 0<\alpha<1.
   \tag{7}
   ```
@@ -206,7 +210,7 @@ What is required is:
 
 ```math
 \mathcal D_r^{\mathrm{Lag}}+\mathcal C_r^{\mathrm{Lag}}
-\gtrsim
+\ge c_\Psi
 \Psi_r^{\mathrm{Lag}}
 \quad\text{or more generally dominates the surviving positive production.}
 \tag{14}

@@ -59,17 +59,18 @@ The profile
 
 ```math
 y(t)=(T-t)^{-1/2},
-qquad
+\qquad
 z(t)=(T-t)^{-3/2}
 ```
 
-has finite `\int y`, has the same singular scale as `y'\sim y^3`, and gives
+has finite `\int y`, satisfies the exact scalar identity
+`y'(t)=\frac12 y(t)^3`, and gives
 
 ```math
 \int_0^T\sqrt{y(t)z(t)}dt=\infty.
 ```
 
-Therefore the scalar enstrophy inequality and baseline energy layer do not close MEG.
+The scalar enstrophy inequality and baseline energy layer do not close MEG.
 
 ## Level-set obstruction
 

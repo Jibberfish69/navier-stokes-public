@@ -48,7 +48,7 @@ Same-fluid ancestry gives coherent packet carriers, coherent test families, and 
 
 ## Direct cancellation test
 
-The weighted lifted skew residue has the schematic form
+The weighted lifted skew residue has the form
 
 ```math
 L_P^{w/lift}
@@ -66,7 +66,7 @@ and
 
 ```math
 \mathcal C_P^{lift}
-\sim
+:=
 2^{2j}\langle S_k(x_P,t)e_P,e_P\rangle |c_P(t)|^2.
 ```
 
