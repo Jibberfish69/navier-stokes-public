@@ -71,7 +71,8 @@ C_s\|f\|_{H^s}\|g\|_{H^s},
 \tag{5}
 ```
 
-because `H^s\hookrightarrow L^\infty` and `\|\nabla g\|_{H^{s-1}}\sim\|g\|_{H^s}`.
+because `H^s\hookrightarrow L^\infty` and
+`\|\nabla g\|_{H^{s-1}}\le\|g\|_{H^s}`.
 
 For the pressure law, the operator
 

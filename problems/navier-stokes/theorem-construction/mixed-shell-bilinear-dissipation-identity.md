@@ -253,7 +253,7 @@ fixed `s`,
 E_m(0)
 =
 2^{2m}\|\Delta_m u_0\|_{L_x^2}^2
-\lesssim_s
+\le C_s
 2^{2m}2^{-2sm}
 =
 C_s\,2^{-2(s-1)m}.
@@ -264,12 +264,12 @@ Therefore
 
 ```math
 M_{j,\ell}^\sigma(0)
-\lesssim_s
+\le C_s'
 2^{(3+\sigma)j-\sigma\ell}
 2^{-2(s-1)j}
 2^{-2(s-1)\ell}
 =
-C_s\,
+C_s'\,
 2^{(5+\sigma-2s)j}
 2^{(2-\sigma-2s)\ell}.
 ```
@@ -279,10 +279,10 @@ over `N<j\le \ell` yields
 
 ```math
 \mathfrak M_N^\sigma(0)
-\lesssim_{s,\sigma}
+\le C_{s,\sigma}
 \sum_{j>N}2^{(5+\sigma-2s)j}
 \sum_{\ell\ge j}2^{(2-\sigma-2s)\ell}
-\lesssim
+\le
 C_*2^{-2\delta N}.
 \tag{10}
 ```
@@ -294,7 +294,7 @@ is one-sided:
 \mathfrak M_N^\sigma(0)-\mathfrak M_N^\sigma(T)
 \le
 \mathfrak M_N^\sigma(0)
-\lesssim
+\le
 C_*2^{-2\delta N}.
 \tag{11}
 ```
@@ -397,13 +397,13 @@ piece satisfies
 
 ```math
 |\mathcal N_{m,\mathrm{HH}}(t)|
-\lesssim
+\le C_M
 \sum_{|r-m|\le M}
 2^{3m}
 \|\Delta_r u(t)\|_{L_x^2}
 \|\widetilde\Delta_r u(t)\|_{L_x^2}
 \|\Delta_m u(t)\|_{L_x^2}
-\lesssim
+\le C_M'
 2^{3m}\|\Delta_m u(t)\|_{L_x^2}^3.
 \tag{12}
 ```
@@ -413,8 +413,8 @@ becomes the shellwise smallness
 
 ```math
 |\mathcal N_{m,\mathrm{HH}}(t)|
-\lesssim
-C_E^{1/2}2^{-m}D_m(t).
+\le
+C_{HH}C_E^{1/2}2^{-m}D_m(t).
 \tag{13}
 ```
 
@@ -500,12 +500,12 @@ The PDE-natural global object is the mixed quadratic tail
 `\mathfrak M_N^\sigma`, with dissipation `\mathfrak B_N^\sigma` and nonlinear
 remainder `\mathfrak X_N^\sigma`.
 
-If one inserts the schematic lifted shell bound on the `\ell`-side relative to
+If one inserts the conditional lifted shell bound on the `\ell`-side relative to
 the lower threshold `j`,
 
 ```math
 |\mathcal N_{\ell,\mathrm{lift}(j)}(t)|
-\lesssim
+\le C_{lift}
 \sum_{j+M<k<\ell-4} a_k(t)\,D_\ell(t),
 \qquad
 a_k(t):=2^{3k/2}\|\Delta_k u(t)\|_{L_x^2},
@@ -515,7 +515,7 @@ then the exact mixed weight gives
 
 ```math
 2^{(3+\sigma)j-\sigma\ell}E_j(t)\,|\mathcal N_{\ell,\mathrm{lift}(j)}(t)|
-\lesssim
+\le C_{\sigma,lift}
 \sum_{j+M<k<\ell-4}
 a_k(t)\,K_{j,\ell}^\sigma\,D_j(t)D_\ell(t).
 \tag{21}
@@ -543,9 +543,9 @@ From the global energy bound,
 A_j(t)
 =
 \sum_{k\le j-4}2^{5k/2}\|\Delta_k u(t)\|_{L_x^2}
-\lesssim
+\le C_A
 2^{3j/2}\|u(t)\|_{L_x^2}
-\lesssim
+\le C_A'
 C_E^{1/2}2^{3j/2}.
 \tag{22}
 ```
@@ -573,8 +573,8 @@ Combining `(22)` and `(23)` gives
 
 ```math
 A_j(t)M_{j,\ell}^\sigma(t)
-\lesssim
-C_E^{1/2}2^{-j/2}\,2^{2j}M_{j,\ell}^\sigma(t)
+\le
+C_A'C_E^{1/2}2^{-j/2}\,2^{2j}M_{j,\ell}^\sigma(t)
 \le
 C_E^{1/2}2^{-N/2}\,\mathfrak B_{j,\ell}^\sigma(t)
 \tag{24}
@@ -616,15 +616,22 @@ Indeed, using
 B_j(t)
 =
 2^{3j}\sum_{m=j-M}^{j+M}\|\Delta_m u(t)\|_{L_x^2}^2
-\sim_M
-2^{-j}\sum_{m=j-M}^{j+M}E_m(t)\cdot 2^{2j},
+```
+
+and the fixed-collar comparison gives
+
+```math
+B_j(t)
+\le
+2^{2M}
+\Big(2^{-j}\sum_{m=j-M}^{j+M}E_m(t)\Big)2^{2j},
 ```
 
 one gets from `(23)` only
 
 ```math
 B_j(t)M_{j,\ell}^\sigma(t)
-\lesssim_M
+\le 2^{2M}
 \Big(2^{-j}\sum_{m=j-M}^{j+M}E_m(t)\Big)\,
 \mathfrak B_{j,\ell}^\sigma(t).
 \tag{26}

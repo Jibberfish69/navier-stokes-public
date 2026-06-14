@@ -316,7 +316,7 @@ Assume retained participation:
 
 ```math
 \int_W e(t)\,dt
-\gtrsim
+\ge c_{part}
 \tau_j\sup_W e(t)
 -\mathcal P_{N,Q}^{part}(W).
 \tag{AHF.4}

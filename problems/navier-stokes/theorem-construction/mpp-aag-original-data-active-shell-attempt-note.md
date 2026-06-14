@@ -28,7 +28,7 @@ geometry, and same-fluid transport.
 
 ## Dyadic Energy Attempt
 
-On a dyadic shell, write schematically
+The attempted dyadic shell-balance inequality is
 
 ```math
 E_j'(t)+c\nu 2^{2j}E_j(t)

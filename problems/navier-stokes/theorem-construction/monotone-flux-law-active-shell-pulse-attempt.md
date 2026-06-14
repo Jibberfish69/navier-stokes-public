@@ -51,7 +51,7 @@ F_j(t)=E_j'(t)+c\nu D_j(t).
 The dissipation mass can stay fixed by choosing `Ah=M`, while
 
 ```math
-\int_I D_j(t)^2dt\simeq A^2h={M^2\over h},
+\int_I D_j(t)^2dt = A^2h={M^2\over h},
 ```
 
 which grows without bound as `h\downarrow0`.

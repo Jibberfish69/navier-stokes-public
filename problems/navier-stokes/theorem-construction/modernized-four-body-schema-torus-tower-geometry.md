@@ -232,7 +232,8 @@ The modernized route must do the same:
    \tag{3g}
    ```
 
-   and in tower language the same shape should read schematically as
+   and in tower language the same shape would have to be made as an exact
+   inequality of the form
 
    ```math
    \frac{d}{dt}\mathfrak T_R + c\,\mathfrak D_R
@@ -319,8 +320,8 @@ J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u.
 \tag{4b}
 ```
 
-Then the corresponding high-depth tail should be read schematically as a
-family such as
+Then the corresponding high-depth tail should be stated as a precise family,
+for example
 
 ```math
 \mathfrak T_R(t)
@@ -405,7 +406,7 @@ Its remaining value is concrete, not rhetorical.
    because the available coercive damping is still phrased there as
 
    ```math
-   Q_N(t)\gtrsim 2^{2N}T_N(t).
+   Q_N(t)\ge c_Q\,2^{2N}T_N(t).
    \tag{4j}
    ```
 
@@ -484,10 +485,10 @@ So Body II should now be read as:
 \tag{5}
 ```
 
-In the newer language, the point is not:
+In the newer language, the point is not the literal identity
 
 ```math
-\nu\Delta u \sim -(\text{gradient})
+\nu\Delta u = -(\text{gradient})
 \tag{5a}
 ```
 

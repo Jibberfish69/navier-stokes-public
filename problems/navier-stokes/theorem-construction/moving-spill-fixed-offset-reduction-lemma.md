@@ -40,8 +40,9 @@ Choose a smooth partition of unity on the bounded ratio interval
 \rho\in[c_0,c_1],
 ```
 
-where each `\beta_m` is supported where `\rho\sim 2^m`, and `M_L<\infty`
-depends only on the logarithmic width `L`.
+where each `\beta_m` is supported in
+`c_\beta2^m\le\rho\le C_\beta2^m`, and `M_L<\infty` depends only on the
+logarithmic width `L`.
 
 Define
 
@@ -67,9 +68,9 @@ b_{\ell,m}=T_m(\ell D)u.
 \tag{2}
 ```
 
-Moreover, `b_{\ell,m}` is divergence-free and localized at frequency
-`\sim \ell^{-1}` with constants uniform up to the finite `L`-dependent family
-`|m|\le M_L`.
+Moreover, `b_{\ell,m}` is divergence-free and localized in a frequency annulus
+`c_m\ell^{-1}\le|\xi|\le C_m\ell^{-1}`, with constants uniform up to the
+finite `L`-dependent family `|m|\le M_L`.
 
 ### Proof
 
@@ -137,8 +138,9 @@ P_{\le \ell}u
 \tag{4}
 ```
 
-Since `b_{\ell,m}` is supported at scale `\sim \ell^{-1}`, only the edge-band
-part of `\nabla u_{\le \ell}` contributes inside the scalarized pairing. As in
+Since `b_{\ell,m}` is supported in
+`c_m\ell^{-1}\le|\xi|\le C_m\ell^{-1}`, only the edge-band part of
+`\nabla u_{\le \ell}` contributes inside the scalarized pairing. As in
 `lifted-band-collar-class-reduction-lemma.md`, replace the low-pass test
 factor by its edge-band projection. The discarded part is a bounded-gap
 same-scale perturbation and therefore lies in `\mathscr A_{collar}`.

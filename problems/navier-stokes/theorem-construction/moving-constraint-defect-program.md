@@ -70,9 +70,10 @@ the divergence correction is already same-depth if one can prove
 
 ```math
 \|\mathcal B g\|_{H^{s+1}}
-\lesssim
+\le C_{\mathcal B}\|g\|_{H^s},
+\qquad
 \|g\|_{H^s}
-\lesssim
+\le C_s
 \|\mu\|_{W^{1,\infty}}\|w\|_{H^{s+1}}
 +
 \|\mu\|_{H^{s+1}}\|w\|_{L^\infty}.
@@ -125,7 +126,7 @@ So the theorem-grade target is
 
 ```math
 \|g\|_{L_t^2 H_x^s}
-\lesssim
+\le C_s
 \|\mu\|_{L_t^\infty W_x^{1,\infty}}\|w\|_{L_t^2 H_x^{s+1}}
 +
 \|\mu\|_{L_t^\infty H_x^{s+1}}\|w\|_{L_t^2 L_x^\infty},
@@ -136,8 +137,13 @@ and hence
 
 ```math
 \|\mathcal B g\|_{L_t^2 H_x^{s+1}}
-\lesssim
-\text{same-depth slab norms of }\mu,w.
+\le
+C_{\mathcal B}C_s
+\Big(
+\|\mu\|_{L_t^\infty W_x^{1,\infty}}\|w\|_{L_t^2 H_x^{s+1}}
++
+\|\mu\|_{L_t^\infty H_x^{s+1}}\|w\|_{L_t^2 L_x^\infty}
+\Big).
 \tag{9a}
 ```
 
@@ -158,7 +164,7 @@ also gives the weaker but very useful estimate
 
 ```math
 \|g\|_{H_x^{s-1}}
-\lesssim
+\le C_s
 \|\mu\|_{L_x^\infty}\|\nabla_x w\|_{H_x^{s-1}}
 +
 \|\nabla_x\mu\|_{L_x^\infty}\|w\|_{H_x^{s-1}}
@@ -174,17 +180,18 @@ Equivalently,
 ```math
 \boxed{
 \|g\|_{H_x^{s-1}}
-\lesssim
+\le C_s
 \|\mu\|_{W_x^{1,\infty}\cap H_x^s}\,
 \|w\|_{H_x^s}.
 }
 \tag{9c}
 ```
 
-Since the dissipative Stokes norm is `\|\nabla_x w\|_{H_x^{s-1}}\sim\|w\|_{H_x^s}`,
-this shows the moving divergence defect is **not** a new operator class. It is
-a perturbative transport-type term once `\mu` is controlled in
-`H_x^s\cap W_x^{1,\infty}`.
+The derivative part of the Stokes ledger satisfies
+`\|\nabla_x w\|_{H_x^{s-1}}\le\|w\|_{H_x^s}`, while the low-frequency part is
+carried by the `L_x^2` component of the same slab ledger. Thus the moving
+divergence defect is **not** a new operator class. It is a perturbative
+transport-type term once `\mu` is controlled in `H_x^s\cap W_x^{1,\infty}`.
 
 This is a real gain, but it does **not** by itself close the bridge: the system
 still has a nonzero divergence constraint and the pressure defect
@@ -200,7 +207,7 @@ Show that the corrected source terms in `(7)` satisfy
 \|\nu\,\operatorname{div}_x(\eta\nabla_x\mathcal B g)\|_{L_t^2 H_x^{s-1}}
 +
 \|(\partial_t-\nu\Delta_x)\mathcal B g\|_{L_t^2 H_x^{s-1}}
-\lesssim
+\le C_s
 \text{small slab coefficient norms}\cdot X_s[t_0,t_0+h],
 \tag{10}
 ```
@@ -317,11 +324,11 @@ Then the classical Bogovski\u012d bounds give
 
 ```math
 \|z\|_{L_t^2H_x^{s+1}}
-\lesssim
+\le C_{\mathcal B}
 \|g\|_{L_t^2H_x^s},
 \qquad
 \|\Delta_x z\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_{\Delta\mathcal B}
 \|g\|_{L_t^2H_x^s},
 \tag{10i}
 ```
@@ -330,7 +337,7 @@ and by standard same-depth Moser/Kato--Ponce product calculus,
 
 ```math
 \|g\|_{L_t^2H_x^s}
-\lesssim
+\le C_s
 \mathfrak C_s[\mu]\,
 \Big(
 \|w\|_{L_t^2H_x^{s+1}}
@@ -344,10 +351,10 @@ Hence
 
 ```math
 \|\nu\,\operatorname{div}_x(\eta\nabla_x z)\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_s
 \nu\,\mathfrak C_s[\eta]\,
 \|z\|_{L_t^2H_x^{s+1}}
-\lesssim
+\le C_sC_{\mathcal B}
 \nu\,\mathfrak C_s[\eta]\mathfrak C_s[\mu]\,
 \Big(
 \|w\|_{L_t^2H_x^{s+1}}
@@ -361,7 +368,7 @@ For the transport-parabolic correction,
 
 ```math
 \|(\partial_t-\nu\Delta_x)z\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_z
 \|\mathsf T_1\|_{L_t^2H_x^{s-1}}
 +
 \|\mathsf T_2\|_{L_t^2H_x^{s-1}}
@@ -374,7 +381,7 @@ with
 
 ```math
 \|\mathsf T_1\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_s
 \mathfrak T_s[\mu]\,
 \|w\|_{L_t^\infty H_x^s},
 \tag{10m}
@@ -382,7 +389,7 @@ with
 
 ```math
 \|\mathsf T_2\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_s
 \mathfrak C_s[\mu]\,
 \|\partial_t w\|_{L_t^2H_x^{s-1}},
 \tag{10n}
@@ -392,9 +399,9 @@ and
 
 ```math
 \|\mathsf P\|_{L_t^2H_x^{s-1}}
-\lesssim
+\le C_s
 \nu\,\|g\|_{L_t^2H_x^s}
-\lesssim
+\le C_s'
 \nu\,\mathfrak C_s[\mu]\,
 \Big(
 \|w\|_{L_t^2H_x^{s+1}}
@@ -413,7 +420,7 @@ Combining `(10k)`-`(10o)` yields the theorem-grade same-depth estimate
 +
 \|(\partial_t-\nu\Delta_x)\mathcal B g\|_{L_t^2H_x^{s-1}}
 \\[3pt]
-&\qquad\lesssim
+&\qquad\le C_{B,s}
 \Big(
 \nu\,\mathfrak C_s[\eta]\mathfrak C_s[\mu]
 +
@@ -462,7 +469,7 @@ plain same-depth product estimate on the short slab.
 
 ```math
 \|\mu^\top\nabla_x\pi\|_{L_t^2 H_x^{s-1}}
-\lesssim
+\le C_s
 \|\mu\|_{L_t^\infty(H_x^s\cap W_x^{1,\infty})}
 \|\nabla_x\pi\|_{L_t^2 H_x^{s-1}}
 \tag{11}
@@ -473,11 +480,11 @@ Indeed, when `s>\frac52`, one has `H_x^{s-1}\hookrightarrow L_x^\infty` and
 
 ```math
 \|\mu^\top\nabla_x\pi\|_{H_x^{s-1}}
-\lesssim
+\le C_s
 \|\mu\|_{L_x^\infty}\|\nabla_x\pi\|_{H_x^{s-1}}
 +
 \|\mu\|_{H_x^{s-1}}\|\nabla_x\pi\|_{L_x^\infty}
-\lesssim
+\le C_s'
 \|\mu\|_{H_x^s\cap W_x^{1,\infty}}\|\nabla_x\pi\|_{H_x^{s-1}}.
 \tag{11a}
 ```
@@ -501,7 +508,7 @@ and `\mu(t_0)=0`, the short-slab control takes the form
 
 ```math
 \|\mu\|_{L_t^\infty H_x^s([t_0,t_0+h])}
-\lesssim
+\le C_s
 h^{1/2}\,
 P\!\big(\|M\|_{L_t^\infty(H_x^s\cap W_x^{1,\infty})}\big)
 \|w\|_{L_t^2H_x^{s+1}([t_0,t_0+h])},
@@ -543,7 +550,7 @@ Then:
 1. the raw moving divergence defect obeys
    ```math
    \|g\|_{L_t^2H_x^{s-1}(I)}
-   \lesssim
+   \le C_s
    \delta\,
    \Big(
    \|w\|_{L_t^2H_x^s(I)}
@@ -557,7 +564,7 @@ Then:
    \|\nu\,\operatorname{div}_x(\eta\nabla_x\mathcal B g)\|_{L_t^2H_x^{s-1}(I)}
    +
    \|(\partial_t-\nu\Delta_x)\mathcal B g\|_{L_t^2H_x^{s-1}(I)}
-   \lesssim
+   \le C_{B,s}
    \delta\,
    \widetilde X_s[I];
    \tag{11g}
@@ -565,14 +572,14 @@ Then:
 3. the pressure defect satisfies
    ```math
    \|\mu^\top\nabla_x\pi\|_{L_t^2H_x^{s-1}(I)}
-   \lesssim
+   \le C_s
    \delta\,
    \|\nabla_x\pi\|_{L_t^2H_x^{s-1}(I)}.
    \tag{11h}
    ```
 
 Since `s>\frac52` implies `H_x^{s+1}\hookrightarrow W_x^{1,\infty}`, one has
-`\widetilde X_s[I]\lesssim X_s^{\mathrm{corr}}[I]`, so altogether
+`\widetilde X_s[I]\le C_sX_s^{\mathrm{corr}}[I]`, so altogether
 
 ```math
 \boxed{
@@ -583,7 +590,7 @@ Since `s>\frac52` implies `H_x^{s+1}\hookrightarrow W_x^{1,\infty}`, one has
 \|(\partial_t-\nu\Delta_x)\mathcal B g\|_{L_t^2H_x^{s-1}(I)}
 +
 \|\mu^\top\nabla_x\pi\|_{L_t^2H_x^{s-1}(I)}
-\lesssim
+\le C_{corr,s}
 \delta\,X_s^{\mathrm{corr}}[I].
 }
 \tag{11i}
@@ -696,7 +703,7 @@ is exactly that
 
 ```math
 \|\mathcal E_{\mu,\eta}[w,\pi]\|_{L_t^2H_x^{s-1}(I)}
-\lesssim
+\le C_E
 \delta\,X_s^{\mathrm{corr}}[I],
 \tag{11if}
 ```
@@ -740,7 +747,7 @@ C_*\delta\,X_s^{\mathrm{corr}}[I].
 \tag{11ii}
 ```
 
-Finally, Lemma A gives `\|\mathcal B g\|_{L_t^2H_x^{s+1}}\lesssim \delta
+Finally, Lemma A gives `\|\mathcal B g\|_{L_t^2H_x^{s+1}}\le C_{\mathcal B,s}\delta
 X_s^{\mathrm{corr}}[I]`, so `u` and `w` are equivalent on the same slab ledger:
 
 ```math
@@ -753,7 +760,7 @@ C\,\delta\,X_s^{\mathrm{corr}}[I;w,\pi].
 ```
 
 Moreover, writing `z:=\mathcal B g`, Lemma B together with
-`\|\Delta_x z\|_{L_t^2H_x^{s-1}}\lesssim \|g\|_{L_t^2H_x^s}` yields
+`\|\Delta_x z\|_{L_t^2H_x^{s-1}}\le C_{\Delta\mathcal B}\|g\|_{L_t^2H_x^s}` yields
 
 ```math
 \|\partial_t z\|_{L_t^2H_x^{s-1}(I)}
@@ -761,7 +768,7 @@ Moreover, writing `z:=\mathcal B g`, Lemma B together with
 \|(\partial_t-\nu\Delta_x)z\|_{L_t^2H_x^{s-1}(I)}
 +
 \nu\,\|\Delta_x z\|_{L_t^2H_x^{s-1}(I)}
-\lesssim
+\le C_{z,s}
 \delta\,X_s^{\mathrm{corr}}[I].
 \tag{11ija}
 ```
@@ -770,11 +777,11 @@ Since `z(t_0)=0`, the standard Lions--Magenes time-trace estimate gives
 
 ```math
 \|z\|_{L_t^\infty H_x^s(I)}
-\lesssim
+\le C_{LM}
 \|z\|_{L_t^2H_x^{s+1}(I)}
 +
 \|\partial_t z\|_{L_t^2H_x^{s-1}(I)}
-\lesssim
+\le C_{LM,s}
 \delta\,X_s^{\mathrm{corr}}[I].
 \tag{11ijb}
 ```
@@ -787,7 +794,7 @@ Therefore the full velocity-side transfer is
 \|u-w\|_{L_t^2H_x^{s+1}(I)}
 +
 \|\partial_t(u-w)\|_{L_t^2H_x^{s-1}(I)}
-\lesssim
+\le C_{tr,s}
 \delta\,X_s^{\mathrm{corr}}[I].
 \tag{11ijc}
 ```
@@ -801,7 +808,7 @@ defect terms and obtains the short-slab same-depth estimate
 ```math
 \boxed{
 X_s^{\mathrm{corr}}[I;w,\pi]
-\lesssim
+\le C_{St,s}
 \|w(t_0)\|_{H_x^s}
 +
 \|\widetilde f\|_{L_t^2H_x^{s-1}(I)}.
@@ -865,7 +872,7 @@ componentwise:
 - `\mu(t_0)=0` and the evolution law `\partial_t M=-M(\nabla_x w)M` give the
   `h^{1/2}`-type gain for the Sobolev part of `\mu`;
 - the `L_t^2` coefficient-time norm `\mathfrak T_s[\mu;I]` tends to `0` as
-  `h\to0`, and under a bounded local envelope it is also `O(h^{1/2})`;
+  `h\to0`, and under a bounded local envelope it is bounded by `C h^{1/2}`;
 - the same is true for the corresponding short-slab drift norm of `\eta`.
 
 So the honest final statement is:
@@ -962,9 +969,11 @@ controls the coefficient package on each slab, `U1` is now theorem-grade:
 
 ```math
 \boxed{
+C_U^{-1}X_s^{\mathrm{corr}}[I_j;w,\pi]
+\le
 X_s^{\mathrm{corr}}[I_j;u,\Pi]
-\asymp
-X_s^{\mathrm{corr}}[I_j;w,\pi]
+\le
+C_UX_s^{\mathrm{corr}}[I_j;w,\pi]
 }
 \tag{11iu}
 ```
@@ -1033,7 +1042,7 @@ For the coefficient-time term, the honest same-depth statement is
 ```math
 \boxed{
 \mathfrak T_s[\mu;I_j]
-\lesssim
+\le
 C(\Lambda_j)\,\|w\|_{L_t^2H_x^{s+1}(I_j)}.
 }
 \tag{11iya}
@@ -1041,10 +1050,10 @@ C(\Lambda_j)\,\|w\|_{L_t^2H_x^{s+1}(I_j)}.
 
 So `U2` naturally splits into:
 
-- a static-drift smallness statement, which is genuinely `O(h_j^{1/2})`;
+- a static-drift smallness statement, bounded by `C h_j^{1/2}`;
 - a coefficient-time statement, which is controlled by the dissipation part of
-  the same slab ledger but is not yet visibly `O(h_j^{1/2})` from the current
-  note alone.
+  the same slab ledger and is not yet a bare `C h_j^{1/2}` bound from the
+  current note alone.
 
 #### Equivalent polynomial-envelope version of the static drift estimate
 
@@ -1097,7 +1106,7 @@ so for `s>\frac52`, the algebra property of `H_x^s` and the embedding
 \|\mu\|_{L_t^\infty H_x^s(I_j)}
 +
 \|\mu\|_{L_t^\infty W_x^{1,\infty}(I_j)}
-\lesssim_s
+\le C_s
 h_j^{1/2}\,P_s(K_j).
 \tag{11iyad}
 ```
@@ -1147,9 +1156,9 @@ The same-depth algebra estimate gives
 
 ```math
 \|\partial_t\mu\|_{H_x^{s-1}}
-\lesssim_s
+\le C_s
 \|M\|_{H_x^s}^2\,\|\nabla_xw\|_{H_x^{s-1}}
-\lesssim_s
+\le C_s'
 P_s(K_j)\,\|w\|_{H_x^{s+1}},
 \tag{11iyah}
 ```
@@ -1159,7 +1168,7 @@ while `H_x^s\hookrightarrow W_x^{1,\infty}` and
 
 ```math
 \|\partial_t\mu\|_{W_x^{1,\infty}}
-\lesssim_s
+\le C_s
 P_s(K_j)\,\|w\|_{H_x^{s+1}}.
 \tag{11iyai}
 ```
@@ -1207,7 +1216,7 @@ so standard same-depth product calculus yields
 \|\partial_t M\|_{H_x^s}
 +
 \|\partial_t M\|_{W_x^{1,\infty}}
-\lesssim
+\le
 C(\Lambda_j)\,\|w\|_{H_x^{s+1}}
 \tag{11jb}
 ```
@@ -1219,7 +1228,7 @@ on `I_j`. Therefore,
 \le
 h_j^{1/2}\,
 \|\partial_t M\|_{L_t^2(H_x^s\cap W_x^{1,\infty})(I_j)}
-\lesssim
+\le
 C(\Lambda_j)\,h_j^{1/2}.
 \tag{11jc}
 ```
@@ -1227,7 +1236,7 @@ C(\Lambda_j)\,h_j^{1/2}.
 Since `\mu=M-I`, this gives the uniform bound
 
 ```math
-\mathfrak C_s[\mu;I_j]\lesssim C(\Lambda_j)\,h_j^{1/2}.
+\mathfrak C_s[\mu;I_j]\le C(\Lambda_j)\,h_j^{1/2}.
 \tag{11jd}
 ```
 
@@ -1244,7 +1253,7 @@ so the algebra property of `H_x^s` and the `W_x^{1,\infty}` product rule imply
 
 ```math
 \mathfrak C_s[\eta;I_j]
-\lesssim
+\le
 C(\Lambda_j)\,h_j^{1/2}.
 \tag{11jf}
 ```
@@ -1316,7 +1325,7 @@ coming from `(11iyaf)` is the modulus form
 
 ```math
 \mathfrak T_s[\mu;I_j]
-\lesssim
+\le
 P_s(K_*)\,\omega_{s+1}(h_j),
 \qquad
 \omega_{s+1}(h)
@@ -1331,7 +1340,7 @@ is
 
 ```math
 \delta_{h,j}
-\lesssim
+\le C_s
 P_s(K_*)\,h_j^{1/2}
 +
 P_s(K_*)\,\omega_{s+1}(h_j),

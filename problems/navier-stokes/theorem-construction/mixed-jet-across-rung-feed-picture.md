@@ -257,14 +257,17 @@ N=2m+|\alpha|.
 \tag{15}
 ```
 
-Then the family energy law has the schematic form
+For this bookkeeping note, define `\mathcal B_{a,b,N}(t)` as the sum of the
+absolute values of the exact feed terms in (13) whose two input parabolic
+orders are `a` and `b` and whose output order is `N`. The recorded family
+energy inequality is
 
 ```math
 \frac12\frac{d}{dt}\mathcal E_N
 +
 \nu \mathcal D_N
 \le
-\sum_{a+b=N+1}\mathrm{Bil}(\mathcal E_a,\mathcal E_b).
+\sum_{a+b=N+1}\mathcal B_{a,b,N}(t).
 \tag{16}
 ```
 

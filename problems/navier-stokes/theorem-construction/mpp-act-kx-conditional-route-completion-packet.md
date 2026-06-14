@@ -491,7 +491,7 @@ The annular remainder satisfies the in-bootstrap estimate
 
 ```math
 \sum_{j,r}|\Lambda_{r,j}\Pi_j^{ann}|
-\lesssim
+\le C_{ann}
 X_{exc}^{1/2}N^{1/2}+X_{exc}.
 ```
 
@@ -531,7 +531,7 @@ The quadratic native pressure cell satisfies
 
 ```math
 |\Lambda_{r,j}\pi_j^{quad}|
-\lesssim
+\le C_{quad}
 X_{exc}^{1/2}N^{1/2}+X_{exc}.
 ```
 
@@ -554,9 +554,9 @@ C\|w_j\otimes w_j\|_{H^{r+1}}.
 At the finite pressure depth used by the route,
 
 ```math
-\|w_j\|_{H^2}\lesssim X_{exc}^{1/2},
+\|w_j\|_{H^2}\le C_2X_{exc}^{1/2},
 \qquad
-\|w_j\|_{H^{r+1}}\lesssim N^{1/2}+X_{exc}^{1/2}.
+\|w_j\|_{H^{r+1}}\le C_r\big(N^{1/2}+X_{exc}^{1/2}\big).
 ```
 
 The product estimate therefore gives the claimed quadratic bound. `\square`
@@ -585,7 +585,7 @@ The finite far-tail contribution satisfies
 
 ```math
 \mathcal T_{\le m}^{press,far}
-\lesssim
+\le C_{far}
 \|u(\cdot,t)\|_{L^2}^2
 \in L^\infty(I)\subset L^1(I).
 ```
@@ -641,9 +641,9 @@ Thus
 
 ```math
 |D_t\zeta|
-\lesssim
+\le C_\zeta
 \sup_{B(c_j,2R)}|U_1-A_j|
-\lesssim
+\le C_\zeta'
 X_{exc}^{1/2}.
 ```
 
@@ -972,7 +972,7 @@ energy-controlled:
 
 ```math
 \mathcal N_{far}^{press}
-\lesssim
+\le C_{far}
 \|u\|_{L^2}^2
 \in L^\infty(I).
 ```
