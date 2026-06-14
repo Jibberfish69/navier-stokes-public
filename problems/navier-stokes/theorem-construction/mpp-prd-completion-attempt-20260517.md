@@ -202,7 +202,8 @@ The Cauchy/Young route gives only
 
 ```math
 [\mathcal R_P^{main}]_+
-\lesssim
+\le
+C_{PRD}
 \mathsf{ActiveSquare}_P+\text{legal lower-order terms}.
 ```
 

@@ -258,7 +258,8 @@ If the residual term is large, then
 
 ```math
 A_*
-\lesssim
+\le
+C_{\mathrm{WAdj}}
 e^{-2\Gamma_T(\tau_T)}
 \left|
 \int_{\tau_T}^{t_+}\langle R,\psi_T\rangle\,ds
@@ -418,7 +419,7 @@ was:
 ```
 
 ```math
-\text{oscillatory strain error }O(\varepsilon_M),
+\text{oscillatory strain error bounded by }C_{\mathrm{osc}}\varepsilon_M,
 ```
 
 ```math

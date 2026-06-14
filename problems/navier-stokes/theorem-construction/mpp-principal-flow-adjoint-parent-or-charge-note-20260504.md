@@ -30,7 +30,7 @@ SignedLocalSource.A.
 
 ## Principal Packet Equation
 
-On a localized high-frequency packet, write the shell equation schematically as
+On a localized high-frequency packet, write the shell equation as
 
 ```math
 (\partial_t+u_{\le k}\cdot\nabla-\nu\Delta)u_j
@@ -60,7 +60,7 @@ R_{j,k}.
 
 Here `b_k=u_{\le k}` and `A_k` is the symmetric strain-production matrix with the
 sign convention chosen so that `-A_ku_j` equals the retained principal strain
-term.  Equivalently one may take `A_k=-S_k` in the schematic display above.
+term.  Equivalently one may take `A_k=-S_k` in the display above.
 
 This is the decisive bookkeeping move.  Positive strain alignment is no longer
 an external source term; it is part of the packet propagator.
@@ -105,7 +105,7 @@ Integrating across the tile,
 Let `S(T)` denote the positive strain-alignment source mass selected on tile
 `T`.  Identity `(A)` gives two legal origins for `S(T)`.
 
-The following display is the schematic parent-or-charge form.  In the active
+The following display is the parent-or-charge form.  In the active
 weighted route, this is replaced by the normalized child mass
 
 ```math
@@ -120,7 +120,8 @@ If the residual pairing is large:
 \left|
 \int_{t_-}^{t_+}\langle R_{j,k},\psi_T\rangle\,dt
 \right|^2
-\gtrsim
+\ge
+c_{res}
 S(T),
 ```
 
@@ -134,7 +135,8 @@ If the residual pairing is small, then the packet must have a backward parent:
 
 ```math
 |\langle u_j(t_-),\psi_T(t_-)\rangle|^2
-\gtrsim
+\ge
+c_{par}
 |\langle u_j(t_+),\psi_T(t_+)\rangle|^2.
 ```
 
@@ -278,7 +280,8 @@ The target termwise estimates are:
 
 ```math
 \|R^{comm}\|_{H^{-1}}^2
-\lesssim
+\le
+C_{comm}
 D_j
 ```
 
@@ -286,7 +289,8 @@ by Coifman--Meyer commutator bounds;
 
 ```math
 \|R^{press}\|_{H^{-1}}^2
-\lesssim
+\le
+C_{press}
 D_j
 ```
 
@@ -294,7 +298,8 @@ by Calderon--Zygmund pressure recovery and local pressure normalization;
 
 ```math
 \|R^{cut}\|_{H^{-1}}^2
-\lesssim
+\le
+C_{cut}
 \nu\|\nabla w_j\|_2^2
 ```
 
@@ -386,14 +391,15 @@ A_k(x,t)-A_k(X_T(t),t).
 On a `j`-scale packet,
 
 ```math
-|x-X_T(t)|\lesssim 2^{-j}.
+|x-X_T(t)|\le c_T 2^{-j}.
 ```
 
 Since `k<j-M`, the stopped coefficient budget controls
 
 ```math
 |A_k(x,t)-A_k(X_T(t),t)|
-\lesssim
+\le
+C_A
 r_T\|\nabla A_k(t)\|_{L^\infty(Q_T^*)},
 ```
 
@@ -401,12 +407,13 @@ and
 
 ```math
 |b_k(x,t)-b_k(X_T,t)-\nabla b_k(X_T,t)(x-X_T)|
-\lesssim
+\le
+C_b
 r_T^2\|\nabla^2b_k(t)\|_{L^\infty(Q_T^*)}.
 ```
 
 Coefficient stopping turns these affine-frame remainders into an
-`O(\varepsilon_M)` perturbation inside the heat-scale packet calculus.
+`C\varepsilon_M` perturbation inside the heat-scale packet calculus.
 
 #### Packet stability
 
@@ -425,12 +432,13 @@ should give
 
 ```math
 |\partial_x^\alpha\varphi_T(x,t)|
-\lesssim
+\le
+C_\alpha
 r_T^{-3/2-|\alpha|}
 \exp\left(-c\frac{|x-X_T(t)|^2}{r_T^2}\right).
 ```
 
-The perturbative error should be `O(\varepsilon_M)` after coefficient stopping
+The perturbative error should be bounded by `C\varepsilon_M` after coefficient stopping
 and after choosing the scale gap `M` large enough.
 
 #### TT* Bessel bound
@@ -439,7 +447,8 @@ For the gauged packets, prove almost-orthogonality:
 
 ```math
 |\langle \varphi_T(t),\varphi_{T'}(t)\rangle|
-\lesssim
+\le
+C
 \exp(-c\,d(T,T')^2).
 ```
 
@@ -448,7 +457,8 @@ For gradients, prove the heat-time version:
 ```math
 \int_{I_T\cap I_{T'}}
 \langle \nabla\varphi_T,\nabla\varphi_{T'}\rangle\,dt
-\lesssim
+\le
+C
 \exp(-c\,d(T,T')^2).
 ```
 
@@ -629,7 +639,7 @@ packet-calculus hypotheses:
 +
 \text{strain-gauged packet parametrix}
 +
-O(\varepsilon_M)\text{ oscillatory strain error}
+C\varepsilon_M\text{ oscillatory strain error}
 +
 L_t^2H_x^{-1}\text{ residual bound}
 +

@@ -76,9 +76,12 @@ has no theorem of the form
 
 ```math
 \|M_0[\widetilde Z]\|_2
-\lesssim
+\le
+C_{PST}
+\big(
 \text{signed exactness of }Y
-+\text{paid spill/error}.
++\text{paid spill/error}
+\big).
 ```
 
 This is not only a missing estimate. It is the same operator-order mismatch
@@ -98,7 +101,7 @@ Carleson reserve, not to free signed exactness:
 
 ```math
 |G_N^{lift,\sigma}(t)|
-\lesssim
+\le
 \varepsilon\sum_{k>N}2^kU_k(t)^2
 +C_\varepsilon\sum_{k>N}D_k(t).
 ```

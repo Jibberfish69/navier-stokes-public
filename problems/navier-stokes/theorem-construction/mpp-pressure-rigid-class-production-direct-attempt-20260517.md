@@ -56,7 +56,7 @@ Pressure trace/angular cancellation controls the full signed pressure object. Th
 Candidate:
 
 ```math
-|u_*(x,t)|\lesssim |t|^{-1/2},
+|u_*(x,t)|\le C_{I}|t|^{-1/2},
 \qquad
 u_*\in L_t^\infty L_x^3,
 ```

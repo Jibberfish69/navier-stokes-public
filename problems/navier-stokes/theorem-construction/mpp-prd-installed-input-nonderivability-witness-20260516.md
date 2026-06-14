@@ -121,23 +121,23 @@ terminal window by any `L^1_tL^\infty_x`, Carleson, angular-mixing, or
 source-residence theorem.
 
 A concrete heat-scale normalization makes the bookkeeping visible.  Let
-`|Q_N|\sim 2^{-5j}` and take the active high amplitude `B_N` so that
+`|Q_N|:=2^{-5j}` and take the active high amplitude `B_N` so that
 
 ```math
 \nu 2^{2j}B_N^2|Q_N|=1,
 \qquad
-B_N^2\sim \nu^{-1}2^{3j}.
+B_N^2=\nu^{-1}2^{3j}.
 ```
 
-Take the lower strain from a shell `k=j-O(1)` with velocity amplitude
-`A_N\sim \lambda_N2^{-k}`.  For
+Take the lower strain from a shell `k=j-L_0` with fixed dyadic offset `L_0` and
+velocity amplitude `A_N:=\lambda_N2^{-k}`.  For
 `\lambda_N=(1+\kappa)\nu2^{2j}`, its spatial local energy on a packet ball is
-schematically
+the displayed model quantity
 
 ```math
 A_N^2\,2^{-3j}
-\sim
-\nu^2 2^{-j},
+=
+(1+\kappa)^2\nu^2 2^{2L_0}2^{-j},
 ```
 
 so the installed finite-energy and local-energy ledgers do not forbid it.  The

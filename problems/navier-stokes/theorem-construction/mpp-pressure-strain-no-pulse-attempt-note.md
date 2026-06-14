@@ -74,7 +74,7 @@ Equivalently, `\nabla^2p` is a matrix of singular integrals of quadratic
 velocity-gradient expressions.  This supplies Calderon-Zygmund bounds such as
 
 ```math
-\|\nabla^2p\|_{L^q}\lesssim\|\nabla u\|_{L^{2q}}^2,
+\|\nabla^2p\|_{L^q}\le C_q\|\nabla u\|_{L^{2q}}^2,
 ```
 
 and the pressure source estimates used in the local receiver/source packets.

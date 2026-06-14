@@ -59,10 +59,10 @@ For the localized pressure-Hessian operator,
 T_N Q_N = \nabla^2p_N^{loc},
 ```
 
-Calderon-Zygmund theory gives schematic bounds
+Calderon-Zygmund theory gives bounds
 
 ```math
-\|T_NQ_N\|_{L^q}\lesssim \|Q_N\|_{L^q},
+\|T_NQ_N\|_{L^q}\le C_q \|Q_N\|_{L^q},
 \qquad 1<q<\infty,
 ```
 
@@ -72,7 +72,7 @@ These estimates control pressure sustain by the quadratic-gradient carrier. The 
 
 ```math
 \nu_N^{src}
-\sim
+:=
 |w_j|^2\left[e_j\cdot S_{<j}^{loc}e_j\right]_+ dxd t
 ```
 

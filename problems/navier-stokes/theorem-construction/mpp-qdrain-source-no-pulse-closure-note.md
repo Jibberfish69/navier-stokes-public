@@ -95,8 +95,8 @@ Y'(t)\le C_\nu Y(t)^3.
 ```
 
 This is not a terminal bound. Rewriting it as a `QDrain.A` coefficient gives
-`L(t)\simeq Y(t)^2`, and the installed energy class does not prove
-`Y^2\in L^1(0,T_\ast)`.
+`L(t):=C_\nu Y(t)^2`, and the installed energy class does not prove
+`L\in L^1(0,T_\ast)`.
 
 So interpolation does not discharge `QDrain.A`.
 

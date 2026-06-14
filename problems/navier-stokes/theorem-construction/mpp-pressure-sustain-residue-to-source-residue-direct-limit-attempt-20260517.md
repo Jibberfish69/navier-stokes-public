@@ -51,7 +51,7 @@ Here `\mu_*^{src}` is the native same-fluid source-current residue used by the s
 
 ## 1. Measure normal form
 
-At finite level the pressure sustain bill has the schematic form
+At finite level the pressure sustain bill has the form
 
 ```math
 d\pi_N^{press,+}
