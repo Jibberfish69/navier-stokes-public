@@ -33,7 +33,7 @@ The tempting statement
 
 ```math
 \Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)
-\approx 0
+=0
 \quad\text{unless both factors live in a fixed collar of }j
 ```
 
@@ -130,7 +130,7 @@ and
 So the exact shell geometry is:
 
 1. `\mathsf{LH}_{\alpha,\beta,j}` only uses the active `U_{\alpha-\beta}`
-   shell `k=j+O(1)` together with coefficient frequencies `\le k-C_0`.
+   shell `|k-j|\le C_0` together with coefficient frequencies `\le k-C_0`.
 2. `\mathsf{HL}_{\alpha,\beta,j}` is the symmetric packet with the active
    `\partial_a^\beta A` shell and low `U_{\alpha-\beta}` coefficient.
 3. `\mathsf{RR}_{\alpha,\beta,j}` is the only truly resonant packet, and it
@@ -211,8 +211,8 @@ shows that the live obstruction after source isolation is the coefficient
 window needed to control the bilinear remainder
 `\mathcal B_G(R_\alpha,\mathcal Z_\alpha)`.
 
-So the genuinely stronger theorem target is not only `(DLP.6)`. It is a
-source-plus-response theorem of the schematic form:
+So the genuinely stronger theorem target is not only `(DLP.6)`. It is the
+following source-plus-response operator localization statement:
 
 ```math
 \Delta_j W_\alpha^{test}

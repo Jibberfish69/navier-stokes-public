@@ -42,7 +42,8 @@ u\cdot\nabla\omega
 T_u(\nabla\omega)+T_{\nabla\omega}(u)+R(u,\nabla\omega).
 ```
 
-Then the localized commutator has the schematic form
+Then the localized commutator has the fixed-collar Littlewood-Paley
+decomposition
 
 ```math
 [\Delta_j,u\cdot\nabla]\omega
@@ -56,7 +57,7 @@ The principal local term is controlled by the low-frequency strain:
 ```math
 \big|\big\langle [\Delta_j,S_{j-1}u\cdot\nabla]\Delta_j\omega,\,
 \Delta_j\omega\big\rangle\big|
-\lesssim
+\le C_{\mathrm{com}}
 |\nabla S_{j-1}u|_{L^\infty_x}\,|\Delta_j\omega|_{L^2_x}^2.
 ```
 
@@ -64,7 +65,7 @@ The remainder terms carry the standard second-order kernel gain:
 
 ```math
 |\mathrm{Rem}_j|
-\lesssim
+\le C_{\mathrm{rem}}
 2^{-2j}\,|\omega|_{\dot H^{1/2}_x}^2.
 ```
 
@@ -95,4 +96,3 @@ calculus, for example:
 This note is the unconditional decomposition surface used by
 `regularity-upgrade-schemas.md`. It isolates the exact term that the conditional
 critical-space closure theorem would have to control.
-

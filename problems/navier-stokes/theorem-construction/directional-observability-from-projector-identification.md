@@ -15,9 +15,9 @@ Discharge the directional-observability step:
 
 ```math
 \boxed{
-\widehat P_J\approx P_{J,\top}^{seg}
+\|\widehat P_J-P_{J,\top}^{seg}\|_F^2\le \eta_J
 \Longrightarrow
-\Xi_J\lesssim |W_J|^2+\mathrm{Err}_J.
+\Xi_J\le C_{DO}\big(|W_J|^2+\mathrm{Err}_J\big).
 }
 \tag{DO.0}
 ```
@@ -68,7 +68,7 @@ Assume the synchronized pair packet yields
 
 ```math
 \|P_{ab}-\widehat P_J\|_F^2
-\lesssim
+\le C_{\mathrm{sync}}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{sync}},
 \tag{DO.1}
 ```
@@ -77,7 +77,7 @@ and projector identification yields
 
 ```math
 \|\widehat P_J-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le C_{\mathrm{id}}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{id}}.
 \tag{DO.2}
 ```
@@ -90,7 +90,7 @@ Then the angular ledger obeys
 \Xi_J^{ang}
 :=
 \frac12\|P_{ab}-P_{J,\top}^{seg}\|_F^2
-\lesssim
+\le C_{DO}
 |W_J|^2+\mathrm{Err}_{J,\mathrm{sync}}+\mathrm{Err}_{J,\mathrm{id}}.
 \tag{DO.3}
 ```
@@ -99,7 +99,7 @@ On the normal-covector branch the same structure is recorded as
 
 ```math
 \Theta_J^\perp
-\lesssim
+\le C_{\perp}
 |W_J|^2+\mathrm{Err}_{J,\perp}.
 \tag{DO.4}
 ```
@@ -154,7 +154,7 @@ D.7mq + \text{selector-strain compatibility}
 \Longrightarrow
 D.7mr2
 \Longrightarrow
-\Xi_J^{ang}\lesssim |W_J|^2+\mathrm{Err}_J.
+\Xi_J^{ang}\le C_{DO}\big(|W_J|^2+\mathrm{Err}_J\big).
 \tag{DO.6}
 ```
 

@@ -655,7 +655,8 @@ E'(t)\le C_0 E(t)+C_1 E(t)^{3/2}.
 
 Proof sketch:
 combine `D.2a`, `D.2b`, and `D.2c`; use the graph-norm equivalence
-`\|X\|_{\mathcal N}^2\simeq \|X\|_H^2+\|\Omega_DX\|_H^2`; and absorb the
+`c_{\mathcal N}(\|X\|_H^2+\|\Omega_DX\|_H^2)\le \|X\|_{\mathcal N}^2\le
+C_{\mathcal N}(\|X\|_H^2+\|\Omega_DX\|_H^2)`; and absorb the
 lower-order terms into the constants.
 
 ## Corollary D.2.2 (bootstrap growth control)

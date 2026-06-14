@@ -506,8 +506,8 @@ Boundedness of `|X|_{H_D^s}` on `[0,T)` implies extension beyond `T`.
 ### Lemma D.4.5 (Norm comparison)
 
 ```text
-|X|_H \sim |u|_{L^2},\quad
-|\nabla_DX|_H \sim |\nabla u|_{L^2}.
+c_0|u|_{L^2}\le |X|_H\le C_0|u|_{L^2},\quad
+c_1|\nabla u|_{L^2}\le |\nabla_DX|_H\le C_1|\nabla u|_{L^2}.
 ```
 
 ### Theorem D.4 (Continuation and pullback)

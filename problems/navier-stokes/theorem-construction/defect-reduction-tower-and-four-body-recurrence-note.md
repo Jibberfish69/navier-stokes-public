@@ -57,13 +57,13 @@ contraction.
 
 ## Evidence from the current route stack
 
-### 1. Shell-gain route
+### 1. Shell square-factor payment route
 
 In
 [dyadic-shell-gain-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/dyadic-shell-gain-lemma.md),
 the shell commutator splits into a local block and a tail block. The local
-block is discharged, while the surviving tail asks for the "half-derivative"
-gain needed to make the shell kernel summable.
+block is discharged, while the surviving tail asks for the residual square-factor
+payment needed to make the shell kernel summable.
 
 So this route already has the form
 
@@ -72,7 +72,7 @@ So this route already has the form
 \;\rightsquigarrow\;
 \text{tail survivor}
 \;\rightsquigarrow\;
-\text{miraculous gain request.}
+\text{unpaid square-factor request.}
 ```
 
 ### 2. Cumulative-tail stress route

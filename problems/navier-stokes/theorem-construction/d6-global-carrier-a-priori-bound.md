@@ -48,10 +48,15 @@ addition that the coercive part dominates the defect-driven cubic growth in the
 sense that there exists a coercive control functional
 
 ```text
-\mathcal E_D(X)\simeq \|X\|_{\mathcal N}^2
+c_{\mathcal E}\|X\|_{\mathcal N}^2
+\le
+\mathcal E_D(X)
+\le
+C_{\mathcal E}\|X\|_{\mathcal N}^2
 ```
 
-and constants `a_0,a_1,a_2>0` such that along every lane solution,
+and constants `c_{\mathcal E},C_{\mathcal E},a_0,a_1,a_2>0` such that along
+every lane solution,
 
 ```text
 \frac{d}{dt}\mathcal E_D(X(t))
@@ -625,15 +630,23 @@ d_\perp(X):=\|\nabla_D P_\perp X\|_H^2+\|\nabla_D\Omega_D P_\perp X\|_H^2.
 The finite block-frame calculus gives the norm equivalences
 
 ```text
-\|X\|_{\mathcal N}^2 \simeq \sum_{i,\beta} m_{i\beta}|x_{i\beta}|^2 + m_\perp(X),
+c_{\mathcal N}\left(\sum_{i,\beta} m_{i\beta}|x_{i\beta}|^2 + m_\perp(X)\right)
+\le
+\|X\|_{\mathcal N}^2
+\le
+C_{\mathcal N}\left(\sum_{i,\beta} m_{i\beta}|x_{i\beta}|^2 + m_\perp(X)\right),
 ```
 
 and
 
 ```text
-D(X):=\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2
-\simeq
-\sum_{i,\beta}\lambda_{i\beta}|x_{i\beta}|^2 + d_\perp(X).
+D(X):=\|\nabla_DX\|_H^2+\|\nabla_D\Omega_DX\|_H^2,
+\qquad
+c_D\left(\sum_{i,\beta}\lambda_{i\beta}|x_{i\beta}|^2 + d_\perp(X)\right)
+\le
+D(X)
+\le
+C_D\left(\sum_{i,\beta}\lambda_{i\beta}|x_{i\beta}|^2 + d_\perp(X)\right).
 ```
 
 The needed slaving estimate is the block inequality
@@ -1056,7 +1069,11 @@ Use the commutator definition
 The carrier norm satisfies
 
 ```text
-\|X\|_{\mathcal N}^2\sim \|X\|_H^2+\|\Omega_DX\|_H^2.
+c_{\Omega N}\left(\|X\|_H^2+\|\Omega_DX\|_H^2\right)
+\le
+\|X\|_{\mathcal N}^2
+\le
+C_{\Omega N}\left(\|X\|_H^2+\|\Omega_DX\|_H^2\right).
 ```
 
 Control `\Omega_D` by the gradient:
@@ -1104,7 +1121,8 @@ C_1\|X\|_{\mathcal N}^3
 \varepsilon D(X)+C_\varepsilon\|X\|_H^2.
 ```
 
-Convert `\|X\|_H^2\lesssim \|X\|_{\mathcal N}^2`.
+Convert by the explicit lower norm comparison
+`\|X\|_H^2\le c_{\Omega N}^{-1}\|X\|_{\mathcal N}^2`.
 
 This is the exact closure point for the carrier-energy packet.
 

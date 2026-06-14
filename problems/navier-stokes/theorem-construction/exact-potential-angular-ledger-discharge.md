@@ -145,8 +145,8 @@ Multiplying by `M_J^2` and integrating over `\mathcal G_J` gives
 ```math
 \int_{\mathcal G_J} M_J^2
 \bigl\|e_{ab}e_{ab}^{\top}-\Pi_J^{ref}\bigr\|_F^2\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{ref}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{RefObs}
 ```
 
@@ -154,8 +154,8 @@ After the measurable lift,
 
 ```math
 \int_{\mathcal G_J} M_J^2\bigl(1-(e_{ab}\cdot r_J)^2\bigr)\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{ref}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{RefObs^\sharp}
 ```
 
@@ -204,8 +204,8 @@ Therefore
 ```math
 \int_{\mathcal G_J} M_J^2
 \bigl\|e_{ab}e_{ab}^{\top}-\Pi_J^{top}\bigr\|_F^2\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{top}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{C10}
 ```
 
@@ -220,8 +220,8 @@ we obtain
 
 ```math
 \int_{\mathcal G_J} M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{ang}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{D.7mr2}
 ```
 
@@ -242,8 +242,8 @@ Hence
 \int_{\mathcal G_J} M_J^2(\Xi_J^{ang})^2\,d\mu_J
 \le
 \int_{\mathcal G_J} M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{ang}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{Quad}
 ```
 
@@ -254,7 +254,7 @@ So the linear normalization implies the older quadratic reconstruction target.
 If a separate supplier estimate is available in the form
 
 ```math
-\mathcal E_{J,M}^{obs}\lesssim \mathcal E_J^{obs}+o_J(1),
+\mathcal E_{J,M}^{obs}\le C_M\mathcal E_J^{obs}+\varepsilon_J,
 \tag{C13}
 ```
 
@@ -262,8 +262,8 @@ then `(D.7mr2)` yields the unweighted export
 
 ```math
 \int_{\mathcal G_J} M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
-\mathcal E_J^{obs}+o_J(1).
+\le
+C_{ang,M}\mathcal E_J^{obs}+\varepsilon_J.
 \tag{D.7mr2^\flat}
 ```
 

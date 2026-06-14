@@ -200,7 +200,10 @@ collar conventions, hence
 ```math
 0<2^{-\sigma(\ell-j)}\le 2^{-5\sigma},
 \qquad
-1-2^{-\sigma(\ell-j)}\asymp 1.
+1-2^{-5\sigma}
+\le
+1-2^{-\sigma(\ell-j)}
+<1.
 ```
 
 So the one-sided tail weight does break the exact antisymmetry, but it does
@@ -210,9 +213,9 @@ direction, not smallness.
 The discrete weight gradient still records the one-sided direction:
 
 ```math
-2^{-\sigma(\ell-j)}-2^{-\sigma(\ell-(j+1))}
-\sim
-(1-2^{-\sigma})\,2^{-\sigma(\ell-j)}.
+2^{-\sigma(\ell-(j+1))}-2^{-\sigma(\ell-j)}
+=
+(2^\sigma-1)\,2^{-\sigma(\ell-j)}.
 ```
 
 So the weighted tail plays two roles:
@@ -295,7 +298,7 @@ for some `c>0`. Then summing first in `j` gives the explicit endpoint
 
 ```math
 \sum_{j>N+M+4}2^j\,\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\lesssim
+\le C_{\sigma,c}
 \sum_{k>N+M}2^k\,a_k(t)\,\mathcal D_k^{\uparrow,\beta}(t),
 \qquad
 \beta:=\sigma+c,
@@ -354,7 +357,7 @@ Hence the summed commutator-defect route lands on
 
 ```math
 \sum_{j>N+M+4}2^j\,\mathcal R_{j,\mathrm{lift}}^\sigma(t)
-\lesssim
+\le
 \varepsilon\sum_{k>N+M}2^k\big(\mathcal D_k^{\uparrow,\beta}(t)\big)^2
 +
 C_\varepsilon\sum_{k>N+M}D_k(t).
@@ -375,7 +378,7 @@ possible local statement is a signed commutator-defect estimate of the form
 
 ```math
 \big|\langle [\Delta_j,a_k\cdot\nabla]\Delta_\ell u,\Delta_j u\rangle\big|
-\lesssim
+\le C_{\mathrm{comm}}
 2^{-c(\ell-j)}\,2^{3k/2}\|\Delta_k u\|_{L_x^2}\,D_\ell
 ```
 

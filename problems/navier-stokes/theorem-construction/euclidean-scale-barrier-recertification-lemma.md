@@ -55,13 +55,13 @@ D_N(t)
 \sum_{j\ge N} 2^{4j}\|P_j u(t)\|_{L_x^2}^2.
 ```
 
-On the dyadic surface, `Q_N(t) \sim E_N(t)`.
+On the dyadic surface, `c_EE_N(t)\le Q_N(t)\le C_EE_N(t)`.
 
 Let `\Gamma_N \in L_t^1` denote an admissible tail-energy coefficient on the
 Euclidean `4 -> 1` surface. In the current local tail packet stack, one may
 still take `\Gamma_N=\mathcal L_N`, but the theorem-facing return arrow only
 needs integrability of `\Gamma_N` together with the coercive damping
-`Q_N\gtrsim 2^{2N}T_N`.
+`Q_N\ge c_Q2^{2N}T_N`.
 
 ## Exact Statement
 
@@ -239,7 +239,7 @@ From the dyadic tail definition,
 
 ```math
 Q_N(t)
-\sim
+\ge c_Q
 \sum_{j\ge N}2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2
 \ge
 c_{\mathrm{LP}}\,2^{2N}T_N(t)
@@ -345,9 +345,9 @@ T_N(t)\le
 ```
 
 which is not by itself sharp enough to recover the same-shape barrier
-`\Pi_{\ge N}(T)\lesssim 2^{-2\delta N}` on the live theorem surface. The
+`\Pi_{\ge N}(T)\le C_\Pi2^{-2\delta N}` on the live theorem surface. The
 exact return arrow depends essentially on the coercive tail damping
-`Q_N \gtrsim 2^{2N}T_N`; that damping is what upgrades the conditional
+`Q_N \ge c_Q2^{2N}T_N`; that damping is what upgrades the conditional
 tail-energy differential inequality to genuine same-projector, same-exponent
 recertification.
 
@@ -370,7 +370,7 @@ In shorthand:
 This note now states the exact missing `4 -> 1` theorem in repo-faithful
 notation.
 
-The route is locally explicit rather than merely schematic. The strict
+The route is locally explicit rather than compressed. The strict
 low-mode estimate on the tail-energy surface is tighter and structurally
 expanded, the spill packet is explicit, and the genuine high-high packet is
 explicit on the local tail-energy surface.
@@ -398,7 +398,7 @@ Q_N(t)\ge c_{\mathrm{LP}}\,2^{2N}T_N(t),
 and argues only from
 
 ```math
-\frac{d}{dt}T_N(t)\lesssim L_N(t)T_N(t)+C_*2^{-2\delta N},
+\frac{d}{dt}T_N(t)\le C_L L_N(t)T_N(t)+C_*2^{-2\delta N},
 ```
 
 then the resulting bound retains an `N`-dependent exponential budget and does
