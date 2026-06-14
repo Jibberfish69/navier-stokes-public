@@ -10,7 +10,7 @@ Failed direct discharge from installed inputs.
 
 Prove a terminal pressure trace/angular saturation theorem strong enough to pay selected positive pressure-Hessian lobes in the `B_ASAC^closed` pressure fork.
 
-The desired schematic output is:
+The desired exact output is:
 
 ```text
 selected positive pressure-Hessian lobe

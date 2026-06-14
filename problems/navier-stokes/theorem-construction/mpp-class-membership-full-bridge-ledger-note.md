@@ -1617,7 +1617,7 @@ center ledger is a readout, not an additional local energy forcing:
 \mathfrak K_{m-1}^{visc,ctr}
 +
 \mathfrak K_m^{visc,ctr}
-\lesssim
+\le C_{ACT}
 \sum_j
 \left(
 |U_{m+1}(c_j)|

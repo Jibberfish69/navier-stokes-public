@@ -45,22 +45,30 @@ Choose `A_n` so that the enstrophy-scale viscous budget is fixed:
 \nu\|\nabla u_n\|_{L^2}^2=b.
 ```
 
-Since
+Since there are fixed constants `0<c_\nabla\le C_\nabla<\infty` with
 
 ```math
-\|\nabla u_n\|_{L^2}^2\simeq A_n^2n^2,
+c_\nabla A_n^2n^2
+\le
+\|\nabla u_n\|_{L^2}^2
+\le
+C_\nabla A_n^2n^2,
 ```
 
 one may choose
 
 ```math
-A_n\simeq b^{1/2}\nu^{-1/2}n^{-1}.
+A_n=c_\nabla^{-1/2}b^{1/2}\nu^{-1/2}n^{-1}.
 ```
 
 Then for every `k\ge2`,
 
 ```math
-\|u_n\|_{C^k}\simeq A_n n^k\simeq b^{1/2}\nu^{-1/2}n^{k-1}\to\infty.
+\|u_n\|_{C^k}
+\ge
+c_k A_n n^k
+=
+c_kc_\nabla^{-1/2}b^{1/2}\nu^{-1/2}n^{k-1}\to\infty.
 ```
 
 Thus a fixed positive viscous budget is compatible with arbitrarily large retained smooth norms. Therefore `(BTRA.1)` lacks a valid estimate.

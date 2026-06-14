@@ -95,7 +95,7 @@ Bernstein gives:
 
 ```math
 \|S_{<j}^{loc}(t)\|_{L^\infty}
-\lesssim
+\le C_B
 \sum_{k<j}2^{5k/2}\|\Delta_k u(t)\|_{L^2}.
 \tag{CB.3}
 ```
@@ -125,7 +125,7 @@ Calderon-Zygmund recovers strain from vorticity in finite-`p` spaces:
 
 ```math
 \|S(t)\|_{L^p}
-\lesssim_p
+\le C_p
 \|\omega(t)\|_{L^p},
 \qquad
 1<p<\infty.

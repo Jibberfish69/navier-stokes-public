@@ -106,7 +106,7 @@ Equivalently:
 
 ```math
 \boxed{
-\mathcal T_J(t)\lesssim \mathcal N_J(t)+\mathcal E_J^{cm}(t).
+\mathcal T_J(t)\le C_{\mathrm{CTN}}\left(\mathcal N_J(t)+\mathcal E_J^{cm}(t)\right).
 }
 \tag{CTN.4}
 ```

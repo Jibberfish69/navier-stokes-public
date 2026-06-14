@@ -107,13 +107,14 @@ pressure-viscosity participation row, or moving the packet outside the
 same-fluid terminal law. It must appear as a genuine retained source-response
 term in the finite-difference readout used by `Field_{N,r,Q}`.
 
-For a node at scale `k`, let `h_k\simeq2^{-2k}` be the heat time and let
-`\delta_k` be the neighboring spatial increment in the retained field readout.
+For a node at scale `k`, let the heat time satisfy
+`c_h2^{-2k}\le h_k\le C_h2^{-2k}` and let `\delta_k` be the neighboring
+spatial increment in the retained field readout.
 The Duhamel response of `(T.2)` on the heat window gives the lower bound
 
 ```math
 |\delta_k U|^2
-\gtrsim
+\ge c_U
 h_k^2 T_k(t)^2
 -
 Loss_{legal,k}(t)
@@ -126,7 +127,7 @@ heat window gives
 ```math
 \int_{I_m}
 2^{3k_m}|\delta_{k_m}U|^2\,dt
-\gtrsim
+\ge c_F
 \int_{I_m}2^{k_m}T_{k_m}(t)^2\,dt
 -
 Loss_{legal}(I_m).

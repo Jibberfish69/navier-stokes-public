@@ -166,7 +166,7 @@ The scale-critical reserve is:
 
 ```math
 \mathcal R_N(I)
-\simeq
+:=
 \int_I
 \sum_{k>N}
 2^k
@@ -331,7 +331,7 @@ Past(W_m)=0,
 \qquad
 Charge_N(W_m)\to0,
 \qquad
-\mathcal R_N(W_m)\gtrsim1.
+\mathcal R_N(W_m)\ge c_R.
 ```
 
 To rule that out one needs `ReserveCreationCharge.A`, or a genuinely

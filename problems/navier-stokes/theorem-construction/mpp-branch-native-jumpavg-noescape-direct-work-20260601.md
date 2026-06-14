@@ -50,7 +50,8 @@ Therefore the lower/upper contradiction is real but conditional.
 Failure of `SourcePulseExclusion.A` gives terminal heat-scale active windows
 
 ```text
-P_n=(Q_n^Phi,j_n,I_n),  j_n -> infinity,  |I_n| ~= 2^(-2j_n),
+P_n=(Q_n^Phi,j_n,I_n),  j_n -> infinity,
+c_I 2^(-2j_n) <= |I_n| <= C_I 2^(-2j_n),
 ```
 
 with nonvanishing normalized active nonlinear source mass:
@@ -109,17 +110,17 @@ scale-critical tree Carleson.
 ```
 
 Current result: raw finite energy/dissipation allows heat-scale critical pulses.
-At shell `j`, a pulse with `E_j(t) ~= 2^j` on `|I_j| ~= 2^(-2j)` has finite
-first-moment cost
+At shell `j`, the model pulse `E_j(t)=2^j 1_{I_j}(t)` on
+`|I_j|=2^{-2j}` has finite first-moment cost
 
 ```text
-int_{I_j} E_j(t) dt ~= 2^(-j),
+int_{I_j} E_j(t) dt = 2^(-j),
 ```
 
 while the normalized activity coefficient stays order one:
 
 ```text
-gamma_j(t)=2^(-j)E_j(t) ~= 1.
+gamma_j(t)=2^(-j)E_j(t) = 1 on I_j.
 ```
 
 Thus first-moment energy bookkeeping does not charge the exact object. The

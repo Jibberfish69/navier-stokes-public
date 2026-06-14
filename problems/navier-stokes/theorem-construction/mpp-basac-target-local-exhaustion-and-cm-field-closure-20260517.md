@@ -1,3 +1,12 @@
+---
+ns_viewer:
+  theorem_id: basac-target-local-exhaustion-pack-first-exit-support-20260517
+  status: target-local-exhaustion-pack-first-support-gold-new-production-open
+  proof_role: exact_basac_obstruction_and_cm_pack_support
+  logical_landing_node: terminal_zero_thickness_native_source_atom
+  edge_effect: "Records that the installed B_ASAC doors exhaust to a zero-thickness terminal source atom. This is not a forward positive-supplier discharge and not a Field readout; it is Pack-first CM support unless a separate positive-scale retained-carrier bridge is installed. Further gold progress requires an external new-production theorem."
+---
+
 # MPP B_ASAC Target-Local Exhaustion and CM Pack-First Exit Support
 
 Date: 2026-05-17
@@ -102,3 +111,13 @@ None is installed by the current route inputs.
 Do not advertise `BASACSourceTreeCarleson.A` as the active next lower bookkeeping atom by itself. It is one expression of the missing new-production theorem, alongside temporal anti-concentration, pressure time-face spread, transported time-face anti-atom, and rigid subclass production.
 
 The target-local `B_ASAC` descent is complete at obstruction plus Pack-first CM exit support. The forward supplier route remains open only at the external new-production theorem level.
+
+## Non-claims
+
+This note does not prove `ZenoResidueLiouville_{B_{ASAC}}.A`.
+
+It does not provide a positive-scale Field readout.
+
+It does not promote the zero-thickness terminal atom to the admitted annular
+witness.  Its current CM value is Pack-first support, while any forward gold
+closure still needs a new-production theorem.
