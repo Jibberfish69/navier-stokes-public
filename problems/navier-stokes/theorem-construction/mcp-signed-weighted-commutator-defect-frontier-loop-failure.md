@@ -32,7 +32,7 @@ The real object is the true lifted commutatorized remainder
 
 with `l` in the output collar. Its principal paracommutator form is the low/intermediate strain acting on active-shell energy density:
 
-`R_{j,k,l}^{lift} ~ 2^{2j} < C_j(grad a_k, Delta_j u), Delta_j u >.`
+`R_{j,k,l}^{lift,prin} := 2^{2j} < C_j(grad a_k, Delta_j u), Delta_j u >.`
 
 This form has variable sign. Coherent active-shell packets aligned with an expanding strain eigendirection give same-sign positive contributions. Alignment with contracting directions gives the opposite sign. The current weighted route supplies scale orientation; it supplies no strain-eigendirection cancellation theorem.
 

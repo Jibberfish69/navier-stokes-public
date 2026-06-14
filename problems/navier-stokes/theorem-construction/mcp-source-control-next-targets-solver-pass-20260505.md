@@ -33,7 +33,7 @@ The unweighted dyadic exchange identity cancels paired shell transfer before one
 After those operations, the live term has principal strain form
 
 ```math
-R_{j,k,\ell}^{lift}\sim 2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+R_{j,k,\ell}^{lift}:=2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 
 Its sign follows active packet alignment with the local symmetric strain. Terminal active packets may align with expanding strain eigendirections. The current route has no theorem forcing eigendirection decorrelation or signed cancellation of this weighted term.

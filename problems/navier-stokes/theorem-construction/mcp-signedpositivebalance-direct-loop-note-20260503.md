@@ -6,7 +6,7 @@ Prove from original smooth data that the positive native active source on select
 
 ```math
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_+\,dt
-\lesssim
+\le C_{SPB}
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_-\,dt+o_N(1).
 ```
 
@@ -17,7 +17,7 @@ Global signed Littlewood-Paley balance and unweighted dyadic exchange identities
 The true weighted lifted remainder has principal strain form
 
 ```math
-R_{j,k,\ell}^{lift}\sim 2^{2j}\langle C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+R_{j,k,\ell}^{lift}:=2^{2j}\langle C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 
 On a selected terminal packet, this contribution can be positive when the active high-shell packet aligns with expanding strain. Current original-data inputs provide no theorem forcing the matching negative part on the same bad windows.

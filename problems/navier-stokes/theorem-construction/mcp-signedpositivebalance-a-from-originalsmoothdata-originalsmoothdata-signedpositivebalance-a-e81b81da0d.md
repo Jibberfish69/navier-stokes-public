@@ -12,7 +12,7 @@ Concrete form:
 
 ```math
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_+\,dt
-\lesssim
+\le C_{SPB}
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_-\,dt+o_N(1).
 ```
 
@@ -25,7 +25,7 @@ Global signed Littlewood-Paley balance and unweighted dyadic exchange identities
 The weighted lifted remainder has the live principal strain term
 
 ```math
-R_{j,k,\ell}^{lift}\sim 2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
+R_{j,k,\ell}^{lift}:=2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 
 Its sign can be positive on selected packets aligned with expanding strain. Current route inputs provide no negative-part dominance theorem on the same bad windows.

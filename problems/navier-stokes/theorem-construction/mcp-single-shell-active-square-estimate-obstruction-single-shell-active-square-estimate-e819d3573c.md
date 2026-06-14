@@ -23,7 +23,7 @@ The damped scalar response gives the conditional route:
 
 `||E_j||_{L^2(I)}^2 <= C lambda_j^{-1}E_j(t0)^2 + C lambda_j^{-2}||F_j||_{L^2(I)}^2`,
 
-where `lambda_j ~ nu 2^{2j}`. Multiplying by `2^{3j}` reduces the target to an entrance-tail reserve plus the square-source estimate for `F_j`.
+where `lambda_j:=nu 2^{2j}`. Multiplying by `2^{3j}` reduces the target to an entrance-tail reserve plus the square-source estimate for `F_j`.
 
 ## Obstruction
 The required square-source estimate for `F_j` fails as a universal theorem from original smooth data by fixed-shell cubic amplitude scaling. Scaling smooth divergence-free data by amplitude `A` makes the shell flux scale like `A^3`, so the squared source scales like `A^6` on short intervals, while the proposed universal right-hand side is amplitude-independent at fixed shell.

@@ -35,7 +35,7 @@ on the chart. Calderon-Zygmund estimates give
 
 ```math
 \|p^{loc}\|_{L^{3/2}}
-\lesssim
+\le C_{CZ}
 \|\chi u\otimes u\|_{L^{3/2}}.
 ```
 

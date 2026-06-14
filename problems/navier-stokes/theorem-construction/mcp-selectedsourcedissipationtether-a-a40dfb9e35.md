@@ -26,13 +26,13 @@ The local source carrier is
 [\langle S_{<j}^{loc}w_j,w_j\rangle]_+.
 ```
 
-The CKN dissipation carrier is schematically
+The CKN dissipation carrier is
 
 ```math
 \mathcal D^{CKN}=\nu |\nabla u|^2\,dxdt.
 ```
 
-## Pointwise dyadic attempt
+## Dyadic attempt
 
 On a `j`-packet,
 
@@ -41,11 +41,13 @@ On a `j`-packet,
 \le |S_{<j}^{loc}| |w_j|^2.
 ```
 
-Using the high-frequency relation `|w_j|^2\lesssim 2^{-2j}|\nabla w_j|^2`,
+Using the packet Bernstein relation
+`\|w_j\|_{L^2(P)}^2\le C_B2^{-2j}\|\nabla w_j\|_{L^2(P)}^2`,
 
 ```math
-|S_{<j}^{loc}| |w_j|^2
-\lesssim 2^{-2j}|S_{<j}^{loc}| |\nabla w_j|^2.
+\int_P |S_{<j}^{loc}| |w_j|^2
+\le C_B2^{-2j}\|S_{<j}^{loc}\|_{L^\infty(P)}
+\int_P |\nabla w_j|^2.
 ```
 
 This is absorbable by dissipation only on the subregion where

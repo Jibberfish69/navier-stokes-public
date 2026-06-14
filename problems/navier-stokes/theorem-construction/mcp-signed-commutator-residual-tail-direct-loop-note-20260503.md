@@ -17,7 +17,7 @@ A successful proof would feed `PositiveRemainderDepletion.A` and then `SourcePul
 Unweighted dyadic exchange cancellation holds before terminal weights, lifted reductions, cutoffs, and active-window positive-part selection. The live weighted lifted remainder has principal form
 
 ```math
-R_{j,k,\ell}^{lift}\sim
+R_{j,k,\ell}^{lift}:=
 2^{2j}\langle C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 

@@ -25,7 +25,7 @@ The actual object is the weighted signed lifted remainder created after the one-
 
 The leading form is a commutatorized strain interaction:
 
-`R_{j,k,l}^{lift} ~ 2^{2j} < C_j(grad a_k, Delta_j u), Delta_j u >`.
+`R_{j,k,l}^{lift} := 2^{2j} < C_j(grad a_k, Delta_j u), Delta_j u >`.
 
 This term has variable sign. Coherent packets aligned with expanding strain directions can make same-sign positive contributions, while contracting directions contribute the opposite sign. The current route supplies shell orientation weights, but no strain-eigendirection cancellation theorem.
 
