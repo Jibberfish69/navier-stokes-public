@@ -34,13 +34,25 @@ where:
 
 ```math
 \mathcal R_N(W)
-=
+:=
 \int_W
-\sum_{P^-}|A_{P^-}(t)|^2dt
-\simeq
+\sum_{P^-}|A_{P^-}(t)|^2dt,
+\qquad
+\mathcal S_N(W)
+:=
 \int_W
 \sum_{k>N}2^k
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt,
+```
+
+with the normalized trace comparison
+
+```math
+c_{\mathrm{tr}}\mathcal S_N(W)
+\le
+\mathcal R_N(W)
+\le
+C_{\mathrm{tr}}\mathcal S_N(W),
 ```
 
 and:
@@ -94,13 +106,16 @@ does not imply a lower frame estimate. The direction needed for
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\lesssim
+\le
+C_{\mathrm{inv}}
+\left(
 \sum_P
 \left|
 \sum_{P^-\prec P}K(P,P^-)A_{P^-}
 \right|^2
 +
-Loss.
+Loss
+\right).
 ```
 
 That inverse estimate is not installed and is false for a general Bessel

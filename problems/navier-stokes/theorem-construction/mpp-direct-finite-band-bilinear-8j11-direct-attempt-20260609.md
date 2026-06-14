@@ -81,11 +81,11 @@ Since `m` and `j` are in a fixed collar, this is a finite-collar
 Writing out the shell normalization gives
 
 ```math
+c_{\mathrm{col}}2^N\|\Delta_m u(t)\|_{L_x^2}^2
+\le
 2^{-j}E_m(t)
-=
-2^{2m-j}\|\Delta_m u(t)\|_{L_x^2}^2
-\sim
-2^N\|\Delta_m u(t)\|_{L_x^2}^2
+\le
+C_{\mathrm{col}}2^N\|\Delta_m u(t)\|_{L_x^2}^2
 ```
 
 on the retained collar. Finite energy controls

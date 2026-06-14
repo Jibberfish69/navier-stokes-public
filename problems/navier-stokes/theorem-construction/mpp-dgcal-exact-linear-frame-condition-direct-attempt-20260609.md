@@ -44,7 +44,7 @@ for every tangent vector `H in T_{N_J} RP^2`.
 
 ## Source Check
 
-The current source surface defines the target only schematically:
+The current source surface defines the target only by placeholder notation:
 
 ```text
 mathcal W_J(P) := W_J(P,N_J, local exact packet).

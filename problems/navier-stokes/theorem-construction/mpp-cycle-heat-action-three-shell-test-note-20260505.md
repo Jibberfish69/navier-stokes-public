@@ -120,10 +120,13 @@ of packet energy is controlled:
 ```math
 \boxed{
 \sum_i \operatorname{Var}_I^+(E_i)
-\lesssim
+\le
+C_{\mathrm{var}}
+\left(
 Flux_{\partial I}^+
 +\theta\int_I\sum_iH_i\,dt
-+Loss_{legal}.
++Loss_{legal}
+\right).
 }
 \tag{4}
 ```
@@ -183,8 +186,8 @@ resistance
 
 ```math
 \mathcal R_e
-\simeq
-2^{-j_e}
+:=
+c_{\mathrm{edge}}2^{-j_e}
 \left(D_P+D_{P'}+D_{halo(e)}\right),
 ```
 
@@ -246,9 +249,12 @@ By bounded overlap of the packet tree,
 
 ```math
 \sum_{\text{cycles }C}\sum_{e\in C}\mathcal R_e
-\lesssim
+\le
+C_{\mathrm{ov}}
+\left(
 \sum_{P\in\mathcal T}D_P
-+o_N(1)+Loss_{legal}.
++o_N(1)+Loss_{legal}
+\right).
 ```
 
 Hence
@@ -308,4 +314,3 @@ This is the next exact theorem.  If it is true, the source-current route closes
 the direct Carleson wall.  If it is false, then terminal source pulses can be
 driven by a genuine lossless or low-resistance nonlinear pumping mechanism, and
 the proof must switch to a different invariant.
-

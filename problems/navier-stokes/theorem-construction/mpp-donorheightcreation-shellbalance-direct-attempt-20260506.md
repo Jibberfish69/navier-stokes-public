@@ -54,7 +54,7 @@ ScaleCriticalTreeCarleson.A.
 
 ## 2. Native shell balance input
 
-The available dyadic shell energy balance has schematic form:
+The available dyadic shell energy balance has the differential inequality form:
 
 ```math
 \frac{d}{dt}E_\ell(t)+c\nu D_\ell(t)
@@ -80,6 +80,7 @@ Thus:
 \le
 2^{2\ell}F_\ell(t)
 -c\nu2^{2\ell}D_\ell(t)
++
 2^{2\ell}L_\ell(t).
 ```
 
@@ -113,7 +114,8 @@ The shell balance proves only the tautological estimate:
 \left[
 H_N(W)-H_N(Past(W))-Loss^{height}_{legal}(W)
 \right]_+
-\lesssim
+\le
+C_{\mathrm{height}}
 \int_W
 \sup_{k>N}
 \left[

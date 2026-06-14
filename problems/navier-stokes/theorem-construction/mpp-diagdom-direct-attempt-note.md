@@ -11,9 +11,12 @@ The target was:
 \boxed{
 DiagDom.A:
 \int_{Bad_N(\eta)}\mathfrak B_N^\sigma(t)\,dt
-\lesssim
+\le
+C_{\mathrm{diag}}
+\left(
 \int_{Bad_N(\eta)}\mathfrak B_{N,diag}^\sigma(t)\,dt
-+o_N(1).
++o_N(1)
+\right).
 }
 ```
 
@@ -23,7 +26,7 @@ where
 \mathfrak B_{N,diag}^\sigma(t)
 :=
 \sum_{N<j\le\ell}K_{j,\ell}^\sigma
-\iint_{|x-y|\lesssim2^{-j}}
+\iint_{|x-y|\le C_{\mathrm{cell}}2^{-j}}
 d_j(x,t)d_\ell(y,t)\,dx\,dy.
 ```
 
@@ -41,13 +44,17 @@ D_jD_\ell
 \iint d_j(x)d_\ell(y)\,dx\,dy.
 ```
 
-The diagonal carrier keeps only the portion with `|x-y|\lesssim2^{-j}`.  A
+The diagonal carrier keeps only the portion with
+`|x-y|\le C_{\mathrm{cell}}2^{-j}`.  A
 heat-scale cell decomposition gives
 
 ```math
 D_jD_\ell=\sum_{\alpha,\beta}a_\alpha b_\beta,
 \qquad
-\mathfrak B_{diag}\sim\sum_{\alpha\sim\beta}a_\alpha b_\beta.
+\mathfrak B_{diag}
+=
+\sum_{\alpha,\beta:\operatorname{dist}(Q_\alpha,Q_\beta)\le C_{\mathrm{cell}}2^{-j}}
+a_\alpha b_\beta.
 ```
 
 No available conservation law, pack gauge, or same-fluid volume-preservation

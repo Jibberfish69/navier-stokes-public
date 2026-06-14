@@ -64,8 +64,8 @@ must pay viscous heat action.
 ## Finite Spacetime Graph Lift
 
 Discretize time at packet heat scale and add temporal storage edges.  On a
-finite truncation of the terminal packet tree, the balance has the schematic
-form:
+finite truncation of the terminal packet tree, the balance has the exact
+discrete form:
 
 ```math
 Incoming_{space}+Incoming_{time}
@@ -121,10 +121,13 @@ Thus the abstract inequality
 
 ```math
 \sum_P[\operatorname{div}J(P)]_+
-\lesssim
+\le
+C_{\mathrm{abs}}
+\left(
 Flux^+_{\partial\mathcal T}
 +
 \text{heat action}
+\right)
 ```
 
 is false for a general localized skew current.  A current with positive

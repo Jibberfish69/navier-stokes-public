@@ -29,15 +29,18 @@ on every terminal active window `I` and every active `k>N`.
 A time-thickness formulation is
 
 ```math
-|I|\gtrsim
-{2^k\left(\int_I T_k(t)dt\right)^2\over Charge(I)+o_N(1)+Loss_{legal}}.
+c_{\mathrm{thick}}
+{2^k\left(\int_I T_k(t)dt\right)^2\over Charge(I)+o_N(1)+Loss_{legal}}
+\le
+|I|
 ```
 
 A pointwise-amplitude formulation is
 
 ```math
 \sup_{t\in I}T_k(t)
-\lesssim
+\le
+C_{\mathrm{amp}}
 2^{-k}{Charge(I)+o_N(1)+Loss_{legal}\over \int_I T_k(t)dt}.
 ```
 
@@ -55,7 +58,8 @@ The desired reserve bound is
 
 ```math
 2^k\|T_k\|_{L^2_t(I)}^2
-\lesssim Charge(I)+o_N(1)+Loss_{legal}.
+\le
+C_{\mathrm{res}}\left(Charge(I)+o_N(1)+Loss_{legal}\right).
 ```
 
 The installed first-moment control gives an `L^1_t` estimate for the donor tail. The square reserve asks for a weighted `L^2_t` estimate. Therefore the missing ingredient is exactly a theorem that upgrades
@@ -74,10 +78,13 @@ Such an upgrade requires one of two mechanisms: a pointwise amplitude cap for `T
 
 ## Energy and Bernstein test
 
-Energy bounds the velocity, giving for a single dyadic block only the schematic pointwise estimate
+Energy bounds the velocity, giving for a single dyadic block only the Bernstein
+pointwise estimate
 
 ```math
-D_\ell(t)\lesssim \nu 2^{4\ell}\|u(t)\|_2^2.
+D_\ell(t)
+\le
+C_B\nu 2^{4\ell}\|u(t)\|_2^2.
 ```
 
 This grows with frequency and has the wrong sign for the reserve.
@@ -85,7 +92,9 @@ This grows with frequency and has the wrong sign for the reserve.
 If one imports a pointwise enstrophy bound, then
 
 ```math
-D_\ell(t)\lesssim \nu 2^{2\ell}\|\nabla u(t)\|_2^2.
+D_\ell(t)
+\le
+C_E\nu 2^{2\ell}\|\nabla u(t)\|_2^2.
 ```
 
 This still grows like `2^{2\ell}`. Moreover, a uniform terminal enstrophy bound is already the Row 1 contradiction target. Importing it here would spend the theorem being proved.
@@ -93,7 +102,9 @@ This still grows like `2^{2\ell}`. Moreover, a uniform terminal enstrophy bound 
 Thus the installed energy-type bounds supply no reserve-scale amplitude cap of the required form
 
 ```math
-T_k(t)\lesssim 2^{-k}\,ChargeDensity(t)
+T_k(t)
+\le
+C_Q2^{-k}\,ChargeDensity(t)
 ```
 
 or any comparable high-frequency decay.

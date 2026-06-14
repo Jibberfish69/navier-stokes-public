@@ -56,7 +56,8 @@ the tautological estimate
 \left[
 H_N(W)-H_N(Past(W))-Loss^{height}_{legal}(W)
 \right]_+
-\lesssim
+\le
+C_{\mathrm{height}}
 \int_W
 \sup_{k>N}
 \left[

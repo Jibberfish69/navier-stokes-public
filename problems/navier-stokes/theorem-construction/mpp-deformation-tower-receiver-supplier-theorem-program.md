@@ -1222,7 +1222,7 @@ term
 
 ```math
 \widetilde B_{q,\mathrm{osc}}^j
-\sim
+:=
 \mathcal C_{G_j}^{-1}
 \left(
 (U_1(x,t)-A_j(t))*U_q(x,t)
