@@ -17,8 +17,10 @@ The target is
 \int_0^{r/c_1}\mathcal A_{\ell,r}(t)\,\frac{d\ell}{\ell}
 \Bigg)^2
 \frac{dr}{r}\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
+\le
+C_{\mathrm{Car}}\left(
+\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}
+\right)
 ```
 
 The goal here is to push directly on that exact object and record what the
@@ -56,8 +58,8 @@ Then `(Car)` is exactly
 
 ```math
 \int_0^T\int_0^\infty B_r(t)^2\,\frac{dr}{r}\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
+\le
+C_{\mathrm{Car}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right).
 \tag{Car}
 ```
 
@@ -125,8 +127,8 @@ However, it does **not** by itself close the stress theorem
 \int_0^T\int_0^\infty
 r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,\|T_r(t)\|_{L_x^2}^2
 \frac{dr}{r}\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N},
+\le
+C_{\mathrm{FCTS}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right),
 \tag{FCTS}
 ```
 
@@ -154,7 +156,8 @@ By the continuous LP band estimate,
 
 ```math
 \|\widetilde\Sigma_r(t)\|_{L_x^\infty}
-\lesssim
+\le
+C_{LP,\infty}
 r^{-5/2}\|Q_r u(t)\|_{L_x^2}.
 \tag{6}
 ```
@@ -171,13 +174,17 @@ Also,
 \tag{7}
 ```
 
-Dyadicize `r\sim 2^{-k}` and `\ell\sim 2^{-j}`. Then
+Dyadicize by taking `r\in[2^{-k-1},2^{-k}]` and
+`\ell\in[2^{-j-1},2^{-j}]`. Then
 
 ```math
+c_\tau E_j(t)
+\le
 \int_{\mathbb R^3}\tau_\ell^{H^1}[u](x,t)\,dx
-\sim
-2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2
- =: E_j(t),
+\le
+C_\tau E_j(t),
+\qquad
+E_j(t):=2^{2j}\|\Delta_j u(t)\|_{L_x^2}^2,
 \tag{8}
 ```
 
@@ -185,7 +192,8 @@ and `(5)`-`(7)` give
 
 ```math
 B_k(t)
-\lesssim
+\le
+C_B
 2^{5k/2}\|\Delta_k u(t)\|_{L_x^2}
 \sum_{j\ge k+C_1}E_j(t),
 \tag{9}
@@ -197,7 +205,8 @@ Squaring and summing in `k`,
 
 ```math
 \int_0^T\int_0^\infty B_r(t)^2\,\frac{dr}{r}\,dt
-\lesssim
+\le
+C_B
 \int_0^T
 \sum_{k>N+M}
 \Bigg(
@@ -212,7 +221,8 @@ Since `D_k(t)=2^{4k}\|\Delta_k u(t)\|_{L_x^2}^2`, this becomes
 
 ```math
 \int_0^T\int_0^\infty B_r(t)^2\,\frac{dr}{r}\,dt
-\lesssim
+\le
+C_B
 \int_0^T
 \sum_{k>N+M}
 2^{k}D_k(t)
@@ -227,7 +237,8 @@ Because `E_j(t)=2^{-2j}D_j(t)`, the same bound may be written as
 
 ```math
 \int_0^T\int_0^\infty B_r(t)^2\,\frac{dr}{r}\,dt
-\lesssim
+\le
+C_B
 \int_0^T
 \sum_{k>N+M}
 2^{k}D_k(t)
@@ -271,7 +282,8 @@ The far-corona strain is a band derivative at scale `r`, so
 
 ```math
 \|\widetilde\Sigma_r(t)\|_{L_x^2}^2
-\lesssim
+\le
+C_{LP,2}
 r^{-2}\|Q_r u(t)\|_{L_x^2}^2.
 \tag{14}
 ```
@@ -283,8 +295,8 @@ Substituting into `(Car)` gives the exact sufficient condition
 r^{-2}\|Q_r u(t)\|_{L_x^2}^2
 \|T_r(t)\|_{L_x^2}^2
 \frac{dr}{r}\,dt
-\lesssim
-\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
+\le
+C_{\mathrm{FCTS}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right).
 \tag{15}
 ```
 
@@ -336,7 +348,8 @@ specializes verbatim to
 
 ```math
 |\mathcal C_{m,j}(t)|
-\lesssim
+\le
+C_{\mathrm{comm}}
 \int_{\mathbb R^3}
 (\rho_j*|\nabla u_m(\cdot,t)|)(x)\,
 \tau_j^{H^1}[u](x,t)\,dx.
@@ -347,7 +360,7 @@ Indeed the proof there uses only:
 
 1. the kernel identity for `[\Delta_j,b\cdot\nabla]u_j`,
 2. the mean-value bound `|\delta_h b|\le |h|\int_0^1 |\nabla b|`,
-3. the band-stress control `2^{2j}|u_j|^2\lesssim \tau_j^{H^1}[u]`.
+3. the band-stress control `2^{2j}|u_j|^2\le C_\tau\tau_j^{H^1}[u]`.
 
 So one may simply take `b=u_m`.
 
@@ -356,13 +369,15 @@ This gives two exact shellwise envelopes.
 ### Shellwise `L^\infty_x\times L^1_x` envelope
 
 Using `\|\rho_j*|\nabla u_m|\|_{L_x^\infty}\le \|\nabla u_m\|_{L_x^\infty}` and
-`\int \tau_j^{H^1}[u]\sim E_j`, one gets
+`c_\tau E_j\le\int \tau_j^{H^1}[u]\le C_\tau E_j`, one gets
 
 ```math
 |\mathcal C_{m,j}(t)|
-\lesssim
+\le
+C_{\mathrm{comm},\tau}
 \|\nabla u_m(t)\|_{L_x^\infty}\,E_j(t)
-\lesssim
+\le
+C_{\mathrm{comm},\tau,B}
 2^{5m/2}\|u_m(t)\|_{L_x^2}\,E_j(t).
 \tag{15c}
 ```
@@ -371,7 +386,8 @@ Equivalently, since `E_m(t)=2^{2m}\|u_m(t)\|_{L_x^2}^2`,
 
 ```math
 |\mathcal C_{m,j}(t)|
-\lesssim
+\le
+C_{\mathrm{comm},\tau,B}
 2^{m/2}E_m(t)^{1/2}\,E_j(t).
 \tag{15d}
 ```
@@ -379,13 +395,15 @@ Equivalently, since `E_m(t)=2^{2m}\|u_m(t)\|_{L_x^2}^2`,
 ### Shellwise `L^2_x\times L^2_x` envelope
 
 Using `\|\rho_j*|\nabla u_m|\|_{L_x^2}\le \|\nabla u_m\|_{L_x^2}` and
-`\|\tau_j^{H^1}[u]\|_{L_x^2}\lesssim 2^{-j/2}D_j`, one gets
+`\|\tau_j^{H^1}[u]\|_{L_x^2}\le C_\tau'2^{-j/2}D_j`, one gets
 
 ```math
 |\mathcal C_{m,j}(t)|
-\lesssim
+\le
+C_{\mathrm{comm}}
 \|\nabla u_m(t)\|_{L_x^2}\,\|\tau_j^{H^1}[u](t)\|_{L_x^2}
-\lesssim
+\le
+C_{\mathrm{comm},\tau'}
 E_m(t)^{1/2}\,2^{-j/2}D_j(t).
 \tag{15e}
 ```
@@ -478,7 +496,7 @@ C_{\varepsilon,\nu}\,
 By `(15h)`, the coefficient weight satisfies
 
 ```math
-2^{5m-2j}\lesssim_{I,J}2^{3N},
+2^{5m-2j}\le C_{I,J}2^{3N},
 \tag{15l}
 ```
 

@@ -18,7 +18,7 @@ D.7mr2
 RPC.3,
 \quad\text{i.e.}\quad
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{EPR}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
 }
 \tag{EPR.0}
@@ -39,7 +39,7 @@ If the angular ledger is available in the `D.7mr2` form
 
 ```math
 \Xi_J^{ang}
-\lesssim
+\le C_{ang}
 |W_J|^2+\mathrm{Err}_J,
 \tag{EPR.1}
 ```
@@ -48,7 +48,7 @@ then
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
+\le C_{pair}
 \mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}.
 \tag{EPR.2}
 ```

@@ -30,7 +30,7 @@ with explicit gap kernel
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim_L
+\le C_L
 \int_0^{\ell_N}\int_{r\ge c_1\ell}
 \frac{\ell}{r}\,\mathcal A_{\ell,r}(t)\,
 \frac{dr}{r}\,\frac{d\ell}{\ell}.
@@ -323,12 +323,17 @@ the weighted endpoint theorem `(EP)` is implied by
 ```
 
 Because `I` and `J` are fixed logarithmic windows, there are finite dyadic
-index sets `\mathcal B_I(N)`, `\mathcal B_J(N)` with cardinality `O(1)` such
+index sets `\mathcal B_I(N)`, `\mathcal B_J(N)` with cardinality at most
+`C_{\log}` such
 that
 
 ```math
 \int_I w(s,t)\,ds
-\asymp
+\ge c_I
+\sum_{m\in\mathcal B_I(N)} E_m(t),
+\qquad
+\int_I w(s,t)\,ds
+\le C_I
 \sum_{m\in\mathcal B_I(N)} E_m(t),
 \tag{8j4}
 ```
@@ -337,9 +342,9 @@ and
 
 ```math
 \int_J \|\widetilde Z(\sigma,t)\|_{L_x^2}^2\,d\sigma
-\asymp
+\le C_{\tau}
 \sum_{j\in\mathcal B_J(N)} \|\tau_j^{H^1}[u](t)\|_{L_x^2}^2
-\lesssim
+\le C_{\tau}'
 \sum_{j\in\mathcal B_J(N)} 2^{-j}D_j(t)^2.
 \tag{8j5}
 ```
@@ -390,7 +395,7 @@ shows that for each fixed low/active pair `m\in\mathcal B_I(N)`,
 [\Delta_j,\Delta_m u\cdot\nabla]\Delta_j u,\Delta_j u
 \right\rangle
 \right|
-\lesssim
+\le C_{m,j}
 2^{5m/2}\|\Delta_m u\|_{L_x^2}\,E_j
 \tag{8j8}
 ```
@@ -398,7 +403,7 @@ shows that for each fixed low/active pair `m\in\mathcal B_I(N)`,
 and also
 
 ```math
-\lesssim
+\le C_{m,j}'
 E_m^{1/2}\,2^{-j/2}D_j.
 \tag{8j9}
 ```
@@ -667,7 +672,7 @@ This also pins down the honest boundary of the sought direct packet estimate
 
 ```math
 \Pi_N^{mid,far,L}
-\stackrel{?}{\lesssim}
+\stackrel{?}{\le C_{FC}}
 \varepsilon\nu\int_0^T D_N(t)\,dt
 +
 C\int_0^T \widetilde\Lambda_N^\sharp(t)\,E_N(t)\,dt

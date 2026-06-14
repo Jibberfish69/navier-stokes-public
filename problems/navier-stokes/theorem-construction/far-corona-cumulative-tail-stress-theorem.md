@@ -19,7 +19,7 @@ r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,\frac{dr}{r}
 \right)
 \|\tau_\ell^{H^1}[u](t)\|_{L_x^2}^2\,
 \frac{d\ell}{\ell}\,dt
-\lesssim
+\le C_{CTS}
 \nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N},
 \tag{CTS}
 ```
@@ -68,7 +68,7 @@ Hence Cauchy-Schwarz in `d\ell/\ell` gives
 
 ```math
 \|T_r(t)\|_{L_x^2}^2
-\lesssim
+\le C_T
 \int_0^{r/c_1}
 \chi_{mid}(\log\ell)\,
 \|\tau_\ell^{H^1}[u](t)\|_{L_x^2}^2\,
@@ -81,7 +81,7 @@ gives
 
 ```math
 \mathrm{FCTS}
-\lesssim
+\le C_{FCTS}
 \int_0^T\int_{\ell_{top}}^{\ell_{bot}}
 \left(
 \int_{c_1\ell}^{\ell_{hi}}
@@ -99,9 +99,9 @@ So `(CTS)` is a genuine sufficient theorem for `FCTS`.
 Dyadicize
 
 ```math
-\ell\sim 2^{-j},
+\ell\in [c_\ell2^{-j},C_\ell2^{-j}],
 \qquad
-r\sim 2^{-k}.
+r\in [c_r2^{-k},C_r2^{-k}].
 ```
 
 Since `r\ge c_1\ell`, the inner `r`-tail corresponds to lower frequencies
@@ -117,7 +117,7 @@ Then the cumulative tail factor in `(CTS)` becomes
 ```math
 \int_{c_1\ell}^{\ell_{hi}}
 r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,\frac{dr}{r}
-\sim
+\le C_{\mathrm{dyad}}
 \sum_{k\le j-C_1} E_k(t).
 \tag{4}
 ```
@@ -132,7 +132,7 @@ Therefore `(CTS)` is dyadically equivalent to
 \right)
 \|\tau_j^{H^1}[u](t)\|_{L_x^2}^2
 \,dt
-\lesssim
+\le C_{CTS}
 \nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
 \tag{5}
 ```
@@ -145,24 +145,25 @@ For a `j`-band field,
 
 ```math
 \tau_j^{H^1}[u](x,t)
-\sim
+:=
 2^{2j}
 \int |\eta_j(a)|\,|\delta_a u_j(x,t)|^2\,da.
 ```
 
-Since `u_j` is localized at frequency `\sim 2^j`, Bernstein gives
+Since `\operatorname{supp}\widehat u_j\subset\{c_02^j\le |\xi|\le C_02^j\}`,
+Bernstein gives
 
 ```math
-\|u_j(t)\|_{L_x^4}\lesssim 2^{3j/4}\|u_j(t)\|_{L_x^2}.
+\|u_j(t)\|_{L_x^4}\le C_B2^{3j/4}\|u_j(t)\|_{L_x^2}.
 ```
 
 So
 
 ```math
 \|\tau_j^{H^1}[u](t)\|_{L_x^2}
-\lesssim
+\le C_\tau
 2^{2j}\|u_j(t)\|_{L_x^4}^2
-\lesssim
+\le C_{\tau,B}
 2^{7j/2}\|u_j(t)\|_{L_x^2}^2.
 \tag{6}
 ```
@@ -177,7 +178,7 @@ this becomes
 
 ```math
 \|\tau_j^{H^1}[u](t)\|_{L_x^2}^2
-\lesssim
+\le C_{\tau,D}
 2^{-j}D_j(t)^2.
 \tag{7}
 ```
@@ -192,7 +193,7 @@ Substituting `(7)` into `(5)` yields the exact inherited Euclidean reduction
 \right)
 2^{-j}D_j(t)^2
 \,dt
-\lesssim
+\le C_{FCTS}
 \nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}.
 \tag{8}
 ```

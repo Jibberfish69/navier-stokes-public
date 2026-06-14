@@ -59,7 +59,7 @@ Scale separation alone supplies the lower-prefix geometry. It does not supply th
 
 ```math
 2^{-2N}E_j(t)
-\lesssim
+\le C_{FS}
 2^{3j}E_j(t)^2
 ```
 

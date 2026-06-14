@@ -6,7 +6,7 @@ The far-corona packet has the coupled two-scale form
 
 ```math
 \Pi_N^{mid,far,L}(t)
-\lesssim
+\le C_{FC}
 \int_0^{\ell_N}\int_{r\ge c_1\ell}{\ell\over r}\,
 \mathcal A_{\ell,r}(t)\,{dr\over r}{d\ell\over\ell}.
 ```

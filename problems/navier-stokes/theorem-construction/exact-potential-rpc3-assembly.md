@@ -14,8 +14,8 @@ Discharge the exact assembly step
 D.7mr2
 \Longrightarrow
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{RPC3}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{D1}
 ```
 
@@ -28,8 +28,8 @@ The only hard input is the angular ledger from
 
 ```math
 \int_{\mathcal G_J} M_J^2\Xi_J^{ang}\,d\mu_J
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{ang}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{D1a}
 ```
 
@@ -50,15 +50,15 @@ More explicitly, the audited exact-potential branch form is
 
 ```math
 \mathcal E_J^{dir}
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1),
+\le
+C_{dir}\mathcal E_{J,M}^{obs}+\varepsilon_J,
 \tag{D1a''}
 ```
 
 and if the supplier packet exports
 
 ```math
-\mathcal E_{J,M}^{obs}\lesssim \mathcal E_J^{obs}+o_J(1),
+\mathcal E_{J,M}^{obs}\le C_M\mathcal E_J^{obs}+\varepsilon_J,
 \tag{D1a'''}
 ```
 
@@ -75,8 +75,8 @@ This yields
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
-\mathcal E_{J,M}^{obs}+o_J(1).
+\le
+C_{RPC3}\mathcal E_{J,M}^{obs}+\varepsilon_J.
 \tag{D1b}
 ```
 
@@ -85,8 +85,8 @@ form
 
 ```math
 \mathcal E_J^{dir}+\mathcal E_J^{loop}
-\lesssim
-\mathcal E_J^{obs}+o_J(1).
+\le
+C_{RPC3}'\mathcal E_J^{obs}+\varepsilon_J.
 \tag{D1c}
 ```
 

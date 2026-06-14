@@ -277,12 +277,26 @@ W_J^{coc}(t,a)\Pi_{N_a}(W_J^{coc}(t,a))^\ast
 \tag{FFL.14}
 ```
 
-is identified with the Cauchy--Green reference object through the installed
-`D.7mn` packet and the reference simple-top gap is open, Davis--Kahan gives the
-projector comparison
+is compared with the Cauchy--Green reference object through the installed
+`D.7mn` packet, set
 
 ```math
-\widehat P_J^{frame}(t,a)\approx P_J^{CG}(t,a).
+\delta_J(t,a)
+:=
+\left\|
+W_J^{coc}(t,a)\Pi_{N_a}(W_J^{coc}(t,a))^\ast
+-C_J^{CG}(t,a)
+\right\|_{op}.
+\tag{FFL.15a}
+```
+
+If the reference simple-top gap is `\gamma_J(t,a)>0`, Davis--Kahan gives the
+projector bound
+
+```math
+\|\widehat P_J^{frame}(t,a)-P_J^{CG}(t,a)\|_{op}
+\le
+2\,\delta_J(t,a)/\gamma_J(t,a).
 \tag{FFL.15}
 ```
 

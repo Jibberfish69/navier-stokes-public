@@ -51,7 +51,7 @@ D.7mq
 \Longrightarrow
 D.7mr2,
 \quad\text{hence}\quad
-\Xi_J^{ang}\lesssim |W_J|^2+\mathrm{Err}_J.
+\Xi_J^{ang}\le C_{EPA}\bigl(|W_J|^2+\mathrm{Err}_J\bigr).
 }
 \tag{EPA.0}
 ```
@@ -125,7 +125,7 @@ gives
 \bigl\|
 P_{ab}-P_{J,\top}^{seg}
 \bigr\|_F^2
-\lesssim
+\le C_{\triangle}
 \bigl\|
 P_{ab}-\widehat P_J
 \bigr\|_F^2

@@ -85,7 +85,7 @@ with
 
 ```math
 \operatorname{Err}_{J,CG}^{frame}(t,a)
-\lesssim
+\le C_{frame}
 \frac{
 \Bigl(
 d\bigl(2|W_J^{coc}(t,a)|_{\mathrm{op}}\rho_{J,\mathrm{lin}}(a,t;h_J)
@@ -145,7 +145,7 @@ Since the simple-top gap `(EPF.2)` is open, Davis--Kahan yields
 \bigl\|
 \widehat P_J^{frame}(t,a)-P_J^{CG}(t,a)
 \bigr\|_F
-\lesssim
+\le C_{CG}
 \frac{
 \bigl\|
 \mathcal K_J^{frame}(t,a)-\mathcal C_J^{CG}(t,a)
