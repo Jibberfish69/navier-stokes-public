@@ -35,7 +35,7 @@ Let `u^E` be the smooth Euler solution and `u^\nu` the fixed-viscosity Navier-St
 w=u^\nu-u^E.
 ```
 
-Then `w` obeys a forced viscous difference equation of the schematic form
+Then `w` obeys the forced viscous difference equation
 
 ```math
 \partial_t w+u^E\cdot\nabla w+w\cdot\nabla u^E+w\cdot\nabla w+

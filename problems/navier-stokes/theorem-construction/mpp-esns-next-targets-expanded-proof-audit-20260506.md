@@ -120,7 +120,7 @@ with `c_nu=nu`. This proves only raw coefficient retention.
 
 ### Actual-dissipation obstruction
 
-Actual packet dissipation has the schematic form
+Actual packet dissipation has the form
 
 ```math
 \nu\int_I\mathcal D_W(t)\,dt.

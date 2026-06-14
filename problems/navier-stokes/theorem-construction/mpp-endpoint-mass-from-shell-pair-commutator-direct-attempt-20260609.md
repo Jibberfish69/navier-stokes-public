@@ -27,12 +27,15 @@ The endpoint route asks for a theorem of the form:
 
 ```math
 \int_0^T H_w(t)\|M_0(t)\|_{L_x^2}^2\,dt
-\lesssim
+\le
+C_{\mathrm{EP}}
+\left(
 \varepsilon\nu\int_0^TD_N(t)\,dt
 +
 C\int_0^T\widetilde\Lambda_N^\sharp(t)E_N(t)\,dt
 +
-C_*2^{-2\delta N},
+C_*2^{-2\delta N}
+\right),
 \tag{EP-SP}
 ```
 

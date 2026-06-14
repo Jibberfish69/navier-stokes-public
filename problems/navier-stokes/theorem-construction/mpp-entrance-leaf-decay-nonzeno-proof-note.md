@@ -48,8 +48,11 @@ Consequently finite-tree donor telescoping gives:
 ```math
 \boxed{
 \sum_{e\in\mathcal T_N}\pi(e)
-\lesssim
-o_N(1)+\sum_{v\in\mathcal T_N}\ell(v).
+\le
+C_{\mathrm{tel}}
+\left(
+o_N(1)+\sum_{v\in\mathcal T_N}\ell(v)
+\right).
 }
 \tag{ELD.2}
 ```
@@ -90,8 +93,8 @@ up to the bounded overlap and fixed cutoff constants:
 
 ```math
 \sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
-\lesssim
-C_{\mathrm{ov}}
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
 \sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2.
 \tag{ELD.5}
 ```
@@ -110,10 +113,13 @@ Finally combine `(ELD.1)` with the finite-tree donor-balance telescoping from
 
 ```math
 \sum_{e\in \mathcal T_N}\pi(e)
-\lesssim
+\le
+C_{\mathrm{tree}}
+\left(
 \sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
 +\sum_{v\in\mathcal T_N}\ell(v)
-+\operatorname{Boundary}_{overlap}(\mathcal T_N).
++\operatorname{Boundary}_{overlap}(\mathcal T_N)
+\right).
 ```
 
 Bounded overlap absorbs the boundary term into the same legal-loss ledger.
@@ -138,4 +144,3 @@ ScaleCriticalTreeCarleson.A
 ZenoSourceResidueRigidity.A.
 }
 ```
-

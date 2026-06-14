@@ -196,8 +196,10 @@ This is the exact bridge from packing control to comparison control:
 \boxed{
 P_F^\ast(r,t;\psi)\text{ small}
 \Longrightarrow
-h(a,r,t)\approx F(a,t)r
-\text{ on the packet in }L_a^2(\psi^2 da).
+\int_{\mathbf R^3}\psi(a)^2
+|h(a,r,t)-F(a,t)r|^2\,da
+\le
+|r|^2P_F^\ast(r,t;\psi).
 }
 \tag{EC.8}
 ```

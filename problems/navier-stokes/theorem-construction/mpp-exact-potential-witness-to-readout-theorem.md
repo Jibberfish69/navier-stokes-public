@@ -277,14 +277,17 @@ Then there exist nonnegative ledgers
 \Xi_J^{ang}(a,b,t)
 +
 \operatorname{Err}_{J,\mathrm{loop}}(a,b,t)
-\lesssim
+\le
+C_{\mathrm{EWI}}
+\left(
 |W_J(a,b,t)|^2
 +
 \operatorname{Err}_{J,\mathrm{pack}}^{cm}(a,b,t)
 +
 \operatorname{Err}_{J,\mathrm{tc}}^{cm}(a,b,t)
 +
-\operatorname{Err}_{J,\mathrm{cal}}^{ang}(a,b,t).
+\operatorname{Err}_{J,\mathrm{cal}}^{ang}(a,b,t)
+\right).
 \tag{EWI.10}
 ```
 
@@ -297,8 +300,8 @@ Moreover the integrated supplier ledger obeys
 +
 \operatorname{Err}_{J,\mathrm{tc}}^{cm}
 \Big)
-\lesssim
-\mathcal E_J^{cm},
+\le
+C_{\mathrm{EWI,cm}}\mathcal E_J^{cm},
 \tag{EWI.11}
 ```
 
@@ -307,8 +310,8 @@ and
 ```math
 \int_{I_J}\!\!\int_{\mathcal G_J}
 \operatorname{Err}_{J,\mathrm{cal}}^{ang}
-\lesssim
-\mathcal E_J^{ang}.
+\le
+C_{\mathrm{EWI,ang}}\mathcal E_J^{ang}.
 \tag{EWI.12}
 ```
 
@@ -324,12 +327,15 @@ Therefore
 \mathcal E_J^{tc}
 +
 \mathcal E_J^{cal}
-\lesssim
+\le
+C_{\mathrm{EWI,tot}}
+\left(
 \mathcal E_J^{obs}(W_J)
 +
 \mathcal E_J^{cm}
 +
-\mathcal E_J^{ang}.
+\mathcal E_J^{ang}
+\right).
 \tag{EWI.13}
 ```
 
@@ -388,15 +394,18 @@ Equation `(EWI.13)` is the exact-potential specialization of `(FS.17)`.
 6. Insert the projector-space triangle
 
    ```math
-   \|P_{ab}-P_{J,\top}^{seg}\|_F^2
-   \lesssim
-   \|P_{ab}-\widehat P_J\|_F^2
-   +
-   \|\widehat P_J-P_J^{CG}\|_F^2
-   +
-   \|P_J^{CG}-P_{J,\top}^{seg}\|_F^2,
-   \tag{EWI.17}
-   ```
+\|P_{ab}-P_{J,\top}^{seg}\|_F^2
+\le
+3
+\left(
+\|P_{ab}-\widehat P_J\|_F^2
++
+\|\widehat P_J-P_J^{CG}\|_F^2
++
+\|P_J^{CG}-P_{J,\top}^{seg}\|_F^2
+\right),
+\tag{EWI.17}
+```
 
    and absorb the first term into `|W_J|^2` plus synchronization error, the
    second and third into the branch calibration ledger, and the strip/coherence

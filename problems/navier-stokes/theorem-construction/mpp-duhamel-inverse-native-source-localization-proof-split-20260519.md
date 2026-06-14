@@ -45,7 +45,10 @@ The duality step is the clean part. A terminal lower bound
 selects a normalized test
 
 ```math
-\psi_m \simeq |w_m|w_m\,\mathbf 1_{Q_m}
+\psi_m
+:=
+\frac{|w_m|w_m\,\mathbf 1_{Q_m}}
+{\left\||w_m|w_m\,\mathbf 1_{Q_m}\right\|_{L^{3/2}}},
 ```
 
 and, after pushing it backward by the adjoint heat-Leray flow, gives a source
@@ -54,7 +57,8 @@ work lower bound
 ```math
 \int
 P\nabla\cdot(u_m\otimes u_m)\cdot \Phi_m
-\gtrsim c_0.
+\ge
+c_{\mathrm{work}}c_0.
 ```
 
 Using self-adjointness of the Leray projection and integration by parts,

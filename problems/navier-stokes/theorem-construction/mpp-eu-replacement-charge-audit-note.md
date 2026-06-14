@@ -18,7 +18,7 @@ The natural enlarged object is
 \nu_{SCF}^{+}:=E_u+\mu_D+\sum_\chi\mu_{P,\chi}.
 ```
 
-It sees every analytic component of the schematic split
+It sees every analytic component of the component split
 
 ```math
 SCF_{base}=E_u+D_u+P_{loc}+G_\Phi,

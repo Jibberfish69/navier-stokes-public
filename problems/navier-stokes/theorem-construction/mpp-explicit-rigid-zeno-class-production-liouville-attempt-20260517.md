@@ -118,7 +118,9 @@ Since `r_m\downarrow0`, the original global energy bound yields local compactnes
 Type I requires a pointwise envelope such as
 
 ```math
-|u_*(y,s)|\lesssim |s|^{-1/2}.
+|u_*(y,s)|
+\le
+C_{\mathrm{I}} |s|^{-1/2}.
 ```
 
 The source-pulse branch gives a lower source-residue signal and local suitable compactness. It supplies no pointwise Type I upper envelope.

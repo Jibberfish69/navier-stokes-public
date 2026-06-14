@@ -43,8 +43,10 @@ The unresolved reserve is:
 \mathcal R_N(W)
 :=
 \int_W
-\sum_{P^-}|A_{P^-}(t)|^2\,dt
-\simeq
+\sum_{P^-}|A_{P^-}(t)|^2\,dt,
+\qquad
+\mathcal S_N(W)
+:=
 \int_W
 \sum_{k>N}
 2^k
@@ -52,6 +54,16 @@ The unresolved reserve is:
 \sum_{\ell>k+4}D_\ell(t)
 \right)^2dt.
 \tag{DSR.1}
+```
+
+The normalization asserts
+
+```math
+c_{\mathrm{res}}\mathcal S_N(W)
+\le
+\mathcal R_N(W)
+\le
+C_{\mathrm{res}}\mathcal S_N(W).
 ```
 
 The normalized-adjoint route controls, for a child tile `T`,
@@ -147,13 +159,16 @@ source-producing parent cloud:
 
 ```math
 \sum_{P^-}|A_{P^-}|^2
-\lesssim
+\le
+C_{\mathrm{inv}}
+\left(
 \sum_P
 \left|
 \sum_{P^-\prec P}K(P,P^-)A_{P^-}
 \right|^2
 +
-Loss.
+Loss
+\right).
 \tag{DSR.6}
 ```
 
@@ -172,8 +187,15 @@ But `(DSR.1)` has scale-critical square density.  In dyadic shorthand,
 
 ```math
 |A_k(t)|^2
-\sim
-2^k
+\ge
+c_A2^k
+\left(
+\sum_{\ell>k+4}D_\ell(t)
+\right)^2,
+\qquad
+|A_k(t)|^2
+\le
+C_A2^k
 \left(
 \sum_{\ell>k+4}D_\ell(t)
 \right)^2.
@@ -276,8 +298,11 @@ The dynamic-reserve pivot fails at:
 DonorReserveAdjointTrace.A:
 \quad
 \mathcal R_N(W)
-\lesssim
-\sum_{T\subset W}M(T)+Loss_{legal}+o_N(1).
+\le
+C_{\mathrm{trace}}
+\left(
+\sum_{T\subset W}M(T)+Loss_{legal}+o_N(1)
+\right).
 }
 ```
 
