@@ -42,7 +42,7 @@ The intended pulse-charge theorem is:
 ```math
 PulseCharge.A:
 \quad
-\gamma_j\gtrsim\eta
+\gamma_j\ge c_{pulse}\eta
 \ \text{and}\
 \int_{I_j}\mathfrak B_N^\sigma \text{ large}
 \Longrightarrow
@@ -112,15 +112,15 @@ comparable amount.
 On a critical pulse at shell `j`,
 
 ```math
-E_j(t)\sim 2^j,
+E_j(t):=2^j,
 \qquad
-|I_j|\sim2^{-2j}.
+|I_j|:=2^{-2j}.
 ```
 
 Then
 
 ```math
-\int_{I_j}E_j(t)\,dt\sim2^{-j},
+\int_{I_j}E_j(t)\,dt=2^{-j},
 ```
 
 which is summable over terminal shells. Thus the energy-dissipation reserve can
@@ -129,7 +129,7 @@ remain finite while infinitely many active pulses occur.
 The same pulse has
 
 ```math
-\gamma_j(t)=2^{-j}E_j(t)\sim1.
+\gamma_j(t)=2^{-j}E_j(t)=1.
 ```
 
 So it is bad for every fixed small `\eta`, yet it has only small first-moment
@@ -154,7 +154,7 @@ set, the spill source can be the same size as the dissipation:
 
 ```math
 \gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)
-\sim
+=
 \mathfrak B_{j,\ell}^\sigma(t).
 ```
 

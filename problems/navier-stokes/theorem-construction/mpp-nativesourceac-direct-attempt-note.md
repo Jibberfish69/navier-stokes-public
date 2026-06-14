@@ -56,15 +56,15 @@ selection.
 Energy gives a first-moment spacetime measure:
 
 ```math
-d\rho_{diss}\sim |\nabla u|^2\,dxdt.
+d\rho_{diss}:=|\nabla u|^2\,dxdt.
 ```
 
 The active source is trilinear or bilinear-after-normalization, with model
-form:
+principal atom:
 
 ```math
-\mathcal N_{preCauchy}^{loc}
-\sim
+\mathcal N_{preCauchy}^{loc,prin}
+:=
 \langle S_{<j}^{loc}w_j,w_j\rangle
 ```
 

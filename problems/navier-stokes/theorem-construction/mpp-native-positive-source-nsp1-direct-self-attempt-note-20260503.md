@@ -76,7 +76,7 @@ Thus signed global cancellation does not prove `(NSP.1)`.
 
 ## Attempt 2: Local Energy Inequality
 
-The local energy inequality gives, schematically,
+The local energy inequality gives
 
 ```math
 \partial_t\int |u|^2\phi
@@ -108,10 +108,12 @@ Paraproduct estimates give legal bounds of the form:
 
 ```math
 |\mathcal N_{preCauchy}^{loc}|
-\lesssim
+\le
+C_{NSP}\big(
 \text{low coefficient}\cdot\text{active square}
 +
-\text{legal commutators}.
+\text{legal commutators}
+\big).
 ```
 
 After pressure/cutoff/commutator losses are routed, the principal term is:

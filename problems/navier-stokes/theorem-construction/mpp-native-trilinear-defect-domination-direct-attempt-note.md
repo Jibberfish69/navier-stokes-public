@@ -69,7 +69,8 @@ One might try:
 \left[
 \langle S_{<j}w_j,w_j\rangle
 \right]_+
-\lesssim
+\le
+C_{NTD}
 |S_{<j}|\,|w_j|^2
 ```
 

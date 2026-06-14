@@ -60,7 +60,7 @@ D_j(t)D_\ell(t)
 A physical blow-up/source-residue cylinder needs near-spatial-diagonal mass:
 
 ```math
-\iint_{|x-y|\lesssim 2^{-j}}
+\iint_{|x-y|\le C_{diag}2^{-j}}
 d_j(x,t)d_\ell(y,t)\,dx\,dy.
 ```
 
@@ -213,4 +213,3 @@ Liouville.}
 Together with the already closed decorrelation and charge supplier loops, the
 native trilinear three-exit loop is now fully executed: none of the three exits
 is an installed discharge from the current allowed inputs.
-

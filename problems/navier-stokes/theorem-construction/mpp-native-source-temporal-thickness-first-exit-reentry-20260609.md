@@ -65,11 +65,11 @@ G_N^{lift,sigma}
 = sum W_{j,ell}^{sigma} R_{j,k,ell}^{lift}.
 ```
 
-Its principal term is a strain readout:
+Its displayed principal atom is a strain readout:
 
 ```text
-R_{j,k,ell}^{lift}
-~ 2^{2j}<C_j(nabla a_k, Delta_j u), Delta_j u>.
+R_{j,k,ell}^{lift,prin}
+:= 2^{2j}<C_j(nabla a_k, Delta_j u), Delta_j u>.
 ```
 
 To obtain temporal thickness one needs a theorem that this selected positive

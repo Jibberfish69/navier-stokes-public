@@ -156,7 +156,8 @@ only a moving-cutoff estimate of the form:
 
 ```math
 \|S_{<j}^{loc}(t)\|_{L^\infty}
-\lesssim
+\le
+C_{Ber}
 \sum_{k<j}2^{5k/2}\|\Delta_k u(t)\|_{L^2},
 ```
 

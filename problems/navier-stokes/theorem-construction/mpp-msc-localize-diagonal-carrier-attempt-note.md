@@ -61,7 +61,7 @@ The compactness route needs one physical center and one heat-scale cylinder:
 ```math
 Q_{r_n}(x_n,t_n),
 \qquad
-r_n\simeq2^{-j_n},
+c_r2^{-j_n}\le r_n\le C_r2^{-j_n},
 ```
 
 with a scale-critical local lower bound
@@ -74,7 +74,7 @@ A double-space carrier does not supply this unless its mass is tethered to the
 near-diagonal region
 
 ```math
-|x-y|\lesssim2^{-j}
+|x-y|\le C_{diag}2^{-j}
 ```
 
 and to the same terminal same-fluid label family.
@@ -86,7 +86,7 @@ Define a near-diagonal carrier
 ```math
 \mu_{j,\ell}^{diag}(t)
 :=
-\iint_{|x-y|\lesssim2^{-j}}
+\iint_{|x-y|\le C_{diag}2^{-j}}
 d_j(x,t)d_\ell(y,t)\,dx\,dy.
 ```
 
@@ -96,7 +96,7 @@ If the route had
 \sum_{N<j\le\ell}K_{j,\ell}^\sigma
 \int_{Bad_N(\eta)}
 \mu_{j,\ell}^{diag}(t)\,dt
-\gtrsim
+\ge c_{MSC}
 \int_{Bad_N(\eta)}\mathfrak B_N^\sigma(t)\,dt,
 ```
 

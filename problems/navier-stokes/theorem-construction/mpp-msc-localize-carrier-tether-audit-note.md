@@ -68,13 +68,13 @@ not heat-scale physical cylinders.
 
 ## Diffuse Shell Test
 
-Fix a large shell `j`.  Decompose the torus into `O(2^{3j})` cubes of side
+Fix a large shell `j`.  Decompose the unit torus into `2^{3j}` cubes of side
 `2^{-j}` and place equal `j`-frequency packet mass in each cube, with phases
 chosen so the global shell norm has the desired size.  Normalize the total
 shell size so that
 
 ```math
-\gamma_j(t)\simeq 1
+\gamma_j(t)=1
 ```
 
 on a heat-scale time interval.
@@ -83,7 +83,7 @@ Then `t` lies in `Bad_N(\eta)` for every fixed `0<\eta<1`, and the global
 mixed-shell expression can be normalized so that
 
 ```math
-\int_I \mathfrak B_N^\sigma(t)\,dt\simeq 1.
+\int_I \mathfrak B_N^\sigma(t)\,dt=1.
 ```
 
 But every physical ball of radius `2^{-j}` sees only a `2^{-3j}` fraction of
@@ -147,7 +147,7 @@ and a local badness predicate `Bad_N^{loc}(\eta)` such that:
 
 ```math
 \int_{\mathbb T^3} d\mu_N(\cdot,t)
-\simeq
+=
 \mathfrak B_N^\sigma(t)\,dt;
 ```
 

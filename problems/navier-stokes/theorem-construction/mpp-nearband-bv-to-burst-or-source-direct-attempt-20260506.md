@@ -78,10 +78,12 @@ Therefore
 
 ```math
 \tau_P\mathrm{Var}_{I_P}(\sigma_P^{near})
-\lesssim
+\le
+C_{NBV}\left(
 V_P^{heat}
 +V_P^{src}
-+V_P^{frame},
++V_P^{frame}
+\right),
 \tag{NBV.4}
 ```
 
@@ -126,7 +128,8 @@ the heat part is harmless up to a finite-band constant:
 
 ```math
 V_P^{heat}
-\lesssim_L
+\le
+C_L
 \theta
 \tag{NBV.6}
 ```
