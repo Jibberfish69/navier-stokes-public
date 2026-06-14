@@ -10,7 +10,7 @@ The normalized carrier term is
 \frac{\|C_{al}\|_{op}\sqrt{\delta_{car}}}{\theta_Jg_{al}}.
 ```
 
-By the short-window carrier estimate `AS.7v`, write schematically
+By the short-window carrier estimate `AS.7v`,
 
 ```math
 \sqrt{\delta_{car}}

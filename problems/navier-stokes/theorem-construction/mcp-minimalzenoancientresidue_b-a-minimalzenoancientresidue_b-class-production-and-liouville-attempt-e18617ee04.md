@@ -72,7 +72,7 @@ A source-residue Liouville theorem would need
 (v,q,\nu_*)\in B_{min}\Longrightarrow \nu_*=0.
 ```
 
-The local energy inequality has schematic form
+The local energy inequality used by this test is
 
 ```math
 E_\phi(s_2)+\int_{s_1}^{s_2}D_\phi(s)\,ds

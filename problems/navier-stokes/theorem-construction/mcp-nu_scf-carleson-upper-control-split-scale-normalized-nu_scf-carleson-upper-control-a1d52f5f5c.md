@@ -25,7 +25,7 @@ The canonical surfaces already prove the conditional implication:
 \text{scale-normalized }\nu_{SCF}\text{ Carleson control.}
 ```
 
-The proof uses shell-to-window comparison, bounded terminal atlas overlap, heat-scale dissipation tail control, and summable reserves. On active shells the gain has schematic form
+The proof uses shell-to-window comparison, bounded terminal atlas overlap, heat-scale dissipation tail control, and summable reserves. On active shells the gain has the form
 
 ```math
 2^{-j}D_j(t)^2\le \varepsilon\nu D_j(t)+r_j(t),

@@ -40,23 +40,29 @@ The chain rule writes `partial_t varphi`, `nabla varphi`, and `Delta varphi` as 
 The scale-critical quantities transform as
 
 ```math
+c_M\iint_{Q_1}|\tilde u-\tilde u^{norm}_{1}|^3
+\le
 r^{-2}\iint_{Q_r^\Phi}|u-u^{norm}_{r}|^3
-\simeq
-\iint_{Q_1}|\tilde u-\tilde u^{norm}_{1}|^3,
+\le
+C_M\iint_{Q_1}|\tilde u-\tilde u^{norm}_{1}|^3,
 ```
 
 ```math
+c_M\iint_{Q_1}|\tilde p-\tilde p^{norm}_{1}|^{3/2}
+\le
 r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}_{r}|^{3/2}
-\simeq
-\iint_{Q_1}|\tilde p-\tilde p^{norm}_{1}|^{3/2},
+\le
+C_M\iint_{Q_1}|\tilde p-\tilde p^{norm}_{1}|^{3/2},
 ```
 
 and
 
 ```math
+c_M\iint_{Q_1}|\nabla_y\tilde u|^2
+\le
 r^{-1}\iint_{Q_r^\Phi}|\nabla u|^2
-\simeq
-\iint_{Q_1}|\nabla_y\tilde u|^2,
+\le
+C_M\iint_{Q_1}|\nabla_y\tilde u|^2,
 ```
 
 again with constants depending only on `M_sharp,nu`. Thus

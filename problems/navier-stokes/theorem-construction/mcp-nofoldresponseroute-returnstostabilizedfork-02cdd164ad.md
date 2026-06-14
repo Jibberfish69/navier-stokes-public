@@ -52,7 +52,7 @@ Height-flux control is the direct square-reserve / active-shell side:
 
 ```math
 HeightFluxControl.A
-\simeq
+\Longleftrightarrow_{\mathrm{route}}
 ActiveShellAmplitudeGain.A.
 ```
 
@@ -60,7 +60,7 @@ Terminal rigidity/residue exclusion is the Zeno source-residue side:
 
 ```math
 TerminalRigidityOrResidueExclusion.A
-\simeq
+\Longleftrightarrow_{\mathrm{route}}
 TemporalNonAtomicSource.A.
 ```
 

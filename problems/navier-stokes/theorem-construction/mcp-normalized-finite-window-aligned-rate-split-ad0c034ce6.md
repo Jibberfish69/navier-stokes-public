@@ -8,7 +8,7 @@ From the shifted-anchor packet,
 
 ```math
 \|P_{al}(t_*)-P_{top}^{seg}(t_*)\|_F^2
-\lesssim R_J(t_*),
+\le C_{seg} R_J(t_*),
 ```
 
 where
@@ -41,11 +41,11 @@ and
 \right\|_{L^q(d\nu_J)}\to0.
 ```
 
-The short-window carrier estimate gives schematically
+The short-window carrier estimate gives
 
 ```math
 \sqrt{\delta_{car}}
-\lesssim
+\le C_{win}
 \frac{E_{win}}{g_{seg}},
 ```
 

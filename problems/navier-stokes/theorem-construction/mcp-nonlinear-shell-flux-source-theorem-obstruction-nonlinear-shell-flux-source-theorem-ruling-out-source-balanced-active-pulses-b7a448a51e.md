@@ -22,7 +22,7 @@ The dyadic exchange identity gives exact antisymmetry for the unweighted exchang
 After shell weights enter, the surviving source is a weighted exchange defect. Thus the source theorem reduces to a signed weighted commutator-defect theorem.
 
 ## Required commutator theorem
-A sufficient estimate has the schematic form
+A sufficient estimate has the target form
 
 `|<[Delta_j, a_k dot grad] Delta_l u, Delta_j u>| <= 2^{-c(l-j)} 2^{3k/2} ||Delta_k u||_2 D_l`,
 
