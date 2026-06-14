@@ -45,19 +45,19 @@ The pack ledger is spatial `L^\infty` along the active same-fluid packet. A loca
 For a smooth divergence-free test field localized at scale `r`, the gradient amplitude may scale like
 
 ```math
-|\nabla u_r|\sim A_r r^{-1}
+|\nabla u_r|\le C_A A_r r^{-1}
 ```
 
 on volume `r^3`, while
 
 ```math
-\|\nabla u_r\|_{L^2}^2\sim A_r^2 r.
+c_E A_r^2 r\le \|\nabla u_r\|_{L^2}^2\le C_E A_r^2 r.
 ```
 
 Choosing `A_r` so that `A_r^2 r` stays bounded leaves
 
 ```math
-\|\nabla u_r\|_{L^\infty}\sim r^{-3/2}
+\|\nabla u_r\|_{L^\infty}\ge c_\infty r^{-3/2}
 ```
 
 unbounded as `r\downarrow0`.

@@ -44,7 +44,7 @@ Then there is a nonnegative density
 
 ```math
 \beta_T(t)
-\lesssim
+\le C_{PSE}
 r_T^2\|\nabla^2b_k(t)\|_{L^\infty(Q_T^*)}
 +r_T\|\nabla A_k(t)\|_{L^\infty(Q_T^*)}
 +2^{-cM}\omega_T(t)
@@ -83,7 +83,7 @@ b_k(x,t)-b_k(X_T,t)-\nabla b_k(X_T,t)(x-X_T)
 \nabla^2 b_k(X_T+\theta J_Ty,t)[J_Ty,J_Ty]d\theta.
 ```
 
-On the affine heat tube `|y|\lesssim r_T`, this gives
+On the affine heat tube `|y|\le C_T r_T`, this gives
 
 ```math
 |b_{rem}(y,t)|\le C r_T^2\|\nabla^2b_k(t)\|_{L^\infty(Q_T^*)}.
@@ -137,7 +137,7 @@ the commutators
 [\partial_t+b_{aff}\cdot\nabla_y,\theta_T]u
 ```
 
-are finite sums of heat-scale derivative terms. The packet atlas assigns these to a legal collar whose leakage is `O(2^{-cM})` after the shell gap and terminal localization. They therefore contribute `2^{-cM}\omega_T(t)` with `\int\omega_T\lesssim1`.
+are finite sums of heat-scale derivative terms. The packet atlas assigns these to a legal collar whose leakage is bounded by `C_M2^{-cM}` after the shell gap and terminal localization. They therefore contribute `2^{-cM}\omega_T(t)` with `\int\omega_T\le C_\omega`.
 
 The affine heat kernel is spatially Gaussian and maps `\mathcal P_N` to itself, losing only the derivative already accounted for above. Combining the three classes of terms gives the displayed estimate for `H_T(t,s)\mathcal E_T(s)u(s)`.
 

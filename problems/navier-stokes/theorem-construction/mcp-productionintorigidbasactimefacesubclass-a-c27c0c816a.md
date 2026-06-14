@@ -36,7 +36,7 @@ ZenoResidueLiouville_{B_{ASAC}}.A.
 
 Try to prove the production theorem by converting a terminal source atom into a positive jump in a localized energy/source-balance trace.
 
-For a transported terminal cutoff `\phi_R`, write the localized balance schematically as
+For a transported terminal cutoff `\phi_R`, write the localized balance as
 
 ```math
 {d\over ds}E_R(s)+D_R(s)

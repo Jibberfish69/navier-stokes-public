@@ -114,8 +114,8 @@ terms:
 
 ```math
 |\mathcal R_P|
-\lesssim
-\mathsf{ActiveSquare}_P+	ext{legal lower-order ledgers}.
+\le C_{PRD}
+	\mathsf{ActiveSquare}_P+\text{legal lower-order ledgers}.
 ```
 
 The active-square term is the scale-critical carrier that

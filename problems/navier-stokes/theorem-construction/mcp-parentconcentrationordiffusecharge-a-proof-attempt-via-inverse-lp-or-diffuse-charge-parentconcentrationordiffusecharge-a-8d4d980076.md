@@ -78,7 +78,7 @@ The local two-tower donor balance is valid. For a legal donor packet `P^-` feedi
 
 ```math
 \pi(P^-\to child(P^-))
-\lesssim
+\le C_{donor}
 \Delta E(P^-)+\pi(parent(P^-)\to P^-)+\ell(P^-).
 ```
 
@@ -86,7 +86,7 @@ Finite refill trees telescope:
 
 ```math
 \sum_{e\in\mathcal T_L^{int}}\pi(e)
-\lesssim
+\le C_{tree}
 \sum_{v\in\partial\mathcal T_L}E(v;t_v^-)
 +
 \sum_{v\in\mathcal T_L}\ell(v)

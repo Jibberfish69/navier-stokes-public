@@ -25,7 +25,7 @@ On smooth preterminal windows, positive vorticity stretching gives instantaneous
 
 The terminal source-wall obstruction is precisely the zero-thickness case.  The selected source can concentrate on a shrinking layer near the terminal time.  Then instantaneous stretching can remain large while integrated amplitude gain, temporal residence, and drain charge vanish in the limit.
 
-The shell balance has schematic form
+The shell balance has the form
 
 ```math
 E_j' + c\nu D_j \le F_j.

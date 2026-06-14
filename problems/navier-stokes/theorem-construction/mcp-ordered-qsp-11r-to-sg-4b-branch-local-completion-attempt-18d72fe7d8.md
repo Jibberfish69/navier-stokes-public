@@ -124,7 +124,7 @@ on the same strip. Davis-Kahan gives
 
 ```math
 \|\widehat P_J^{frame}-P_J^{CG}\|_F^2
-\lesssim E_{frame}^2/g_*^2.
+\le C_{DK}E_{frame}^2/g_*^2.
 ```
 
 This is the `D.7mq` pair-to-CG projector comparison on the finite-frame branch.

@@ -23,7 +23,7 @@ Here the positive adjoint defect is the residual positive source-weighted carrie
 
 ```math
 AdjDefect_m^{+,src}
-\sim
+:=
 \sum_P\int_{Q(P)}
 |w_{j_P}|^2
 \left[e_{j_P}\cdot S_{<j_P}^{loc}e_{j_P}\right]_+dxdt.
