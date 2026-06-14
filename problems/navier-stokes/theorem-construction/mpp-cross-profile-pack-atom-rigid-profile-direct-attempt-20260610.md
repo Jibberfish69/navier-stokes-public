@@ -48,7 +48,8 @@ assign the terminal Pack atom to one profile.
 
 ## The Support Lemma That Does Work
 
-For a near-band cross term in the selected Pack source, write schematically
+For a near-band cross term in the selected Pack source, define the selected
+positive cross interaction by
 
 ```math
 F_{\alpha\beta,j}

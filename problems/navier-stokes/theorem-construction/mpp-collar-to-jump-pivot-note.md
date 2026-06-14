@@ -848,7 +848,7 @@ ACT.KX
 \Rightarrow
 \mathfrak A^{ctr}\in L^1
 \quad\text{and}\quad
-Field^{\le C}\Rightarrow\Omega^{osc}\lesssim C(m+1)L_{\mathrm{cov}}\rho
+Field^{\le C}\Rightarrow\Omega^{osc}\le C_{\Omega}C(m+1)L_{\mathrm{cov}}\rho
 \Rightarrow
 \Gamma^{low}\in L^1.
 \tag{CJ.9ai}

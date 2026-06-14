@@ -52,8 +52,11 @@ The `H^{1/2}` branch reads frequency-weighted critical shell energy:
 
 ```math
 \|u\|_{\dot H^{1/2}}^2
-\sim
-\sum_J2^J\|P_Ju\|_2^2.
+c_{LP}\sum_J2^J\|P_Ju\|_2^2
+\le
+\|u\|_{\dot H^{1/2}}^2
+\le
+C_{LP}\sum_J2^J\|P_Ju\|_2^2.
 ```
 
 The repaired route uses:

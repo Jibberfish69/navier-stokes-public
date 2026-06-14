@@ -84,7 +84,8 @@ has
 
 ```math
 \frac{\int |J|}{\int D}
-\sim
+\ge
+c_{\mathrm{heat}}
 \frac{K}{\nu},
 ```
 

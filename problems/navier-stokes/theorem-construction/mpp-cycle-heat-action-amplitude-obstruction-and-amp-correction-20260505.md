@@ -53,10 +53,14 @@ r=2^{-j}.
 ```
 
 Take three divergence-free wave packets `U_1,U_2,U_3` in the same same-fluid
-heat tube, with frequencies
+heat tube, with frequencies in a fixed dyadic shell:
 
 ```math
-|\xi_i|\sim r^{-1},
+c_\xi r^{-1}
+\le
+|\xi_i|
+\le
+C_\xi r^{-1},
 \qquad
 \xi_1+\xi_2+\xi_3=0,
 ```
@@ -73,61 +77,97 @@ Normalize
 \|U_i\|_2=A.
 ```
 
-Then the localized pointwise sizes are
+For this fixed packet model, the localized pointwise sizes on the packet core
+are bounded by
 
 ```math
-|U_i|\sim Ar^{-3/2},
+c_UAr^{-3/2}
+\le
+|U_i|
+\le
+C_UAr^{-3/2},
 ```
 
 and
 
 ```math
-|\nabla U_i|\sim Ar^{-5/2}.
+c_{\nabla}Ar^{-5/2}
+\le
+|\nabla U_i|
+\le
+C_{\nabla}Ar^{-5/2}.
 ```
 
-The internal triadic current has size
+Let
 
 ```math
 J
-\sim
-\int (U_1\cdot\nabla U_2)\cdot U_3
-\sim
-A^3r^{-5/2}.
+:=
+\int (U_1\cdot\nabla U_2)\cdot U_3\,dx.
 ```
 
-The packet dissipation has size
+The polarization choice fixes a nonzero interaction with exact model bounds
+
+```math
+c_JA^3r^{-5/2}
+\le
+|J|
+\le
+C_JA^3r^{-5/2}.
+```
+
+The packet dissipation
 
 ```math
 D
-\sim
-\nu r^{-2}A^2.
+:=
+\nu\|\nabla U_i\|_2^2
+```
+
+satisfies
+
+```math
+c_D\nu r^{-2}A^2
+\le
+D
+\le
+C_D\nu r^{-2}A^2.
 ```
 
 Over one heat time
 
 ```math
-|I|\sim r^2,
+c_Ir^2
+\le
+|I|
+\le
+C_Ir^2,
 ```
 
 the integrated current and dissipation are
 
 ```math
-\int_IJ\,dt
-\sim
-A^3r^{-1/2},
+c_{J,I}A^3r^{-1/2}
+\le
+\left|\int_IJ\,dt\right|
+\le
+C_{J,I}A^3r^{-1/2},
 ```
 
 ```math
+c_{D,I}\nu A^2
+\le
 \int_ID\,dt
-\sim
-\nu A^2.
+\le
+C_{D,I}\nu A^2.
 ```
 
 Their ratio is
 
 ```math
-\frac{\int_IJ}{\int_ID}
-\sim
+\frac{\left|\int_IJ\,dt\right|}{\int_ID\,dt}
+\ge
+c_R
 \frac{A}{\nu r^{1/2}}.
 ```
 
@@ -151,20 +191,25 @@ A=Kr^{1/2}.
 Then
 
 ```math
-\int_IJ\,dt\sim K^3r,
+\left|\int_IJ\,dt\right|
+\ge
+c_{K,J}K^3r,
 ```
 
 while
 
 ```math
-\int_ID\,dt\sim \nu K^2r.
+\int_ID\,dt
+\le
+C_{K,D}\nu K^2r.
 ```
 
-Therefore
+Hence
 
 ```math
-\frac{\int_IJ}{\int_ID}
-\sim
+\frac{\left|\int_IJ\,dt\right|}{\int_ID\,dt}
+\ge
+c_K
 \frac{K}{\nu}.
 ```
 
@@ -177,7 +222,7 @@ The packet energy is still small:
 \qquad(r\to0).
 ```
 
-Finite energy therefore does not forbid the packet. This is exactly the
+Finite energy alone does not forbid the packet. This is exactly the
 high-frequency, small-energy, high-source terminal pulse that the source wall
 is trying to exclude.
 
@@ -186,32 +231,41 @@ is trying to exclude.
 Pack
 
 ```math
-M\sim r^{-1}
+M_r:=\lfloor c_M r^{-1}\rfloor
 ```
 
 disjoint heat tubes of this type. Then total energy is
 
 ```math
-MK^2r\sim K^2,
+E_{\mathrm{tot}}
+=
+M_rK^2r
+\le
+C_EK^2,
 ```
 
 total integrated circulation is
 
 ```math
-MK^3r\sim K^3,
+|\operatorname{Circ}_{\mathrm{tot}}|
+\ge
+c_{\mathrm{circ}}K^3,
 ```
 
 and total integrated dissipation is
 
 ```math
-M\nu K^2r\sim \nu K^2.
+D_{\mathrm{tot}}
+\le
+C_{\mathrm{diss}}\nu K^2.
 ```
 
 Again,
 
 ```math
-\frac{\text{circulation}}{\text{dissipation}}
-\sim
+\frac{|\operatorname{Circ}_{\mathrm{tot}}|}{D_{\mathrm{tot}}}
+\ge
+c_{\mathrm{pack}}
 \frac{K}{\nu}.
 ```
 
@@ -229,12 +283,12 @@ Assume the terminal amplitude cap
 ```
 
 on each packet participating in a retained terminal current cycle. Then the
-same scaling gives
+packet calculation gives
 
 ```math
 \int_I|J_P|\,dt
-\lesssim
-\varepsilon\int_ID_P\,dt
+\le
+C_{\mathrm{amp}}\varepsilon\int_ID_P\,dt
 +
 Loss_{legal}.
 ```
@@ -265,8 +319,8 @@ the positive part:
 source=\operatorname{div}_{\mathcal G}J.
 ```
 
-But the heat-action step is not a lower theorem below the source wall unless
-the terminal amplitude gain is proved independently.
+The heat-action step is a lower theorem below the source wall only after the
+terminal amplitude gain is proved independently.
 
 The honest direct target is now:
 
@@ -274,20 +328,21 @@ The honest direct target is now:
 \boxed{
 TerminalAmplitudeGain.A:
 \|U_P\|_2
-\lesssim
-\varepsilon_N\nu r_P^{1/2},
+\le
+C_{\mathrm{TAG}}\varepsilon_N\nu r_P^{1/2},
 \qquad
 \varepsilon_N\to0.
 }
 ```
 
-This is a direct form of the same source-wall burden:
+This note records the same terminal packet-family burden without
+scale-comparison notation:
 
 ```math
 TerminalAmplitudeGain.A
-\simeq
+\quad\text{terminal-family route identification}\quad
 ScaleCriticalTreeCarleson.A
-\simeq
+\quad\text{terminal-family route identification}\quad
 LocalPositiveSourceCarleson.A
 ```
 
@@ -302,4 +357,3 @@ LocalizedSkewCurrent.A+CycleHeatAction.Amp
 ScaleCriticalTreeCarleson.A.
 }
 ```
-

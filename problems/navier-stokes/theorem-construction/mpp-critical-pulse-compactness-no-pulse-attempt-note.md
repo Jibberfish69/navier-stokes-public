@@ -31,7 +31,7 @@ I_n=[t_n-c2^{-2j_n},t_n],
 and active packets for which
 
 ```math
-\gamma_{j_n}(t)\sim 1
+c_\gamma\le\gamma_{j_n}(t)\le C_\gamma
 \qquad\text{on a nontrivial part of }I_n,
 ```
 

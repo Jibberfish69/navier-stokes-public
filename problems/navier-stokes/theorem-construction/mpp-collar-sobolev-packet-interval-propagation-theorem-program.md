@@ -99,7 +99,7 @@ If `CSP.A` lands, then the already-isolated collar embedding slot gives
 
 ```math
 \mathfrak C_{N+1,\rho,\psi}^{\delta}(t)
-\lesssim
+\le C_{emb}
 \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t),
 \tag{CSP.5}
 ```
@@ -662,7 +662,7 @@ Consequently,
 
 ```math
 |\mathcal C_{N+1,m}^{trans,\delta}(t)|
-\lesssim
+\le C_{trans}
 \|\mathcal T_{\rho,\psi,t}^{\delta}\|_{L^\infty(\mathcal A_{\rho,\psi}^{\delta}(t))}
 \,
 \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t),
@@ -673,7 +673,7 @@ and
 
 ```math
 |\mathcal C_{N+1,m}^{visc,\delta}(t)|
-\lesssim
+\le C_{visc}
 \Big(
 \|\nabla\chi_{\rho,\psi,t}^{\delta}\|_{L^\infty(\mathcal A_{\rho,\psi}^{\delta}(t))}
 +
@@ -914,12 +914,12 @@ More explicitly, let
 
 be the collar annulus where the cutoff transitions.
 
-Then the two genuinely collar-specific source packets should satisfy estimates
-of the schematic form
+Then the two genuinely collar-specific source packets should satisfy the target
+estimates
 
 ```math
 |\mathcal C_{N+1,m}^{trans,\delta}(t)|
-\lesssim
+\le C_{trans}
 \|\mathcal T_{\rho,\psi,t}^{\delta}\|_{L^\infty(\mathcal A_{\rho,\psi}^{\delta}(t))}
 \,
 \mathcal K_{N+1,m,\rho,\psi}^{\delta}(t),
@@ -930,7 +930,7 @@ and
 
 ```math
 |\mathcal C_{N+1,m}^{visc,\delta}(t)|
-\lesssim
+\le C_{visc}
 \sum_{\ell=1}^{2}
 \|\nabla^\ell\chi_{\rho,\psi,t}^{\delta}\|_{L^\infty(\mathcal A_{\rho,\psi}^{\delta}(t))}
 \,
@@ -974,8 +974,8 @@ More concretely, the source-control target is:
    `(TC.19)`--`(TC.31)`, with any transported-separation error entering only
    through `(TB.18)` / `(TB.28)`.
 
-In short, `CSP.B3` should reduce the entire right-hand side of `(CSP.18)` to a
-one-sided inequality of the schematic form
+In short, `CSP.B3` should reduce the entire right-hand side of `(CSP.18)` to
+the one-sided inequality
 
 ```math
 \frac{d}{dt}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)
@@ -1426,7 +1426,7 @@ mollified defining function. Hence, on `\operatorname{supp}\Xi_\delta'`,
 
 ```math
 \|D_t\vartheta_{\rho,\psi,t}^{\delta}\|_{L^\infty}
-\lesssim
+\le C_\vartheta
 \delta^{-1}
 \Big(
 \mathfrak V_{\rho,\psi}^{core}(t)
@@ -1438,11 +1438,11 @@ mollified defining function. Hence, on `\operatorname{supp}\Xi_\delta'`,
 
 ```math
 \|\nabla\vartheta_{\rho,\psi,t}^{\delta}\|_{L^\infty}
-\lesssim
+\le C_\vartheta'
 \delta^{-1},
 \qquad
 \|\nabla^2\vartheta_{\rho,\psi,t}^{\delta}\|_{L^\infty}
-\lesssim
+\le C_\vartheta''
 \delta^{-2}.
 \tag{CSP.25g0e}
 ```
@@ -1754,7 +1754,7 @@ Lemma `FCI.A1`,
 
 ```math
 \int_I\mathfrak S_{N,m,\rho,\psi}^{pkt}(s)\,ds
-\lesssim
+\le C_{FCI}
 \mathcal F_{N,\rho,\psi}^{\varepsilon}(t_0;I)
 +
 \int_I

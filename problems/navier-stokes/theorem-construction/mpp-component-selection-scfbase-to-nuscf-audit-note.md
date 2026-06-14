@@ -20,7 +20,7 @@ The selected charge is
 
 ## Decomposition
 
-The base packet has the schematic split
+The base packet has the split
 
 ```math
 SCF_{base}=E_u+D_u+P_{loc}+G_\Phi.

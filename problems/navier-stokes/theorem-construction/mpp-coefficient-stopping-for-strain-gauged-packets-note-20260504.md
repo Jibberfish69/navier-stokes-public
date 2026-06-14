@@ -203,7 +203,7 @@ C_\alpha r_T^{-3/2-|\alpha|}
 \exp\left(-c\frac{|x-X_T(t)|^2}{r_T^2}\right).
 ```
 
-The Duhamel term is `O(\varepsilon_M)`, so
+The Duhamel term is bounded by `C_D\varepsilon_M`, so
 
 ```math
 |\partial_x^\alpha\varphi_T(x,t)|
@@ -255,7 +255,7 @@ then
 
 ```math
 A_*
-\lesssim
+\le C_{res}
 g_T^{-2}
 \left|
 \int_{\sigma_T}^{t_+}\langle R,\psi_T\rangle\,dt
@@ -268,7 +268,7 @@ If the residual term is smaller, then
 
 ```math
 |\langle w_j(\sigma_T),\chi_T(\sigma_T)\rangle|^2
-\gtrsim
+\ge c_A
 A_*.
 ```
 

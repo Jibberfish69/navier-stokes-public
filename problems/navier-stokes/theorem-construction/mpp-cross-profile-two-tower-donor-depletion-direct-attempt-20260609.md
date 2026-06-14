@@ -111,7 +111,7 @@ For the cross-profile branch this gives the same finite-tree statement:
 
 ```math
 \sum_{e\in \mathcal T_L^{int}} \pi(e)
-\lesssim
+\le C_T
 \sum_{v\in \partial \mathcal T_L} E(v;t_v^-)
 +\sum_{v\in \mathcal T_L}\ell(v)
 +\operatorname{Boundary}_{overlap}(\mathcal T_L).
