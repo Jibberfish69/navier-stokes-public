@@ -30,7 +30,7 @@ With the retained simple-top gap floor `gamma_J`, Davis-Kahan gives
 
 ```math
 \|P_{al}-P_J^{CG}\|_F
-\lesssim
+\le C_{DK}
 Err_{cmp}^{frame}/\gamma_J.
 ```
 

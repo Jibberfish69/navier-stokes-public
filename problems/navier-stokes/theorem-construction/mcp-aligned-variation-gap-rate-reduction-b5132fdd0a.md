@@ -16,7 +16,7 @@ A sufficient bound has the form
 
 ```math
 \eta_{al}^{var}
-\lesssim
+\le C_{var}
 \int_I
 \left(
 \frac{\|\partial_t C_{al}\|_{op}}{g_{al}}\|C_{al}\|_{op}

@@ -22,7 +22,7 @@ The corrected near-diagonal estimate is
 
 ```math
 \mathfrak H_N^{grad,HH}(t)
-\lesssim
+\le C_{HH}
 \sum_{j\ge N-M}2^{\frac92j}\|u_j(t)\|_2^3.
 \tag{1}
 ```
@@ -31,7 +31,7 @@ The power `9j/2` is the direct Bernstein count for the displayed gradient-energy
 
 ```math
 \|u_j\|_\infty\,\|\nabla u_j\|_2\,\|\Delta u_j\|_2
-\lesssim
+\le C_B
 2^{\frac32j}\|u_j\|_2\cdot 2^j\|u_j\|_2\cdot 2^{2j}\|u_j\|_2.
 ```
 

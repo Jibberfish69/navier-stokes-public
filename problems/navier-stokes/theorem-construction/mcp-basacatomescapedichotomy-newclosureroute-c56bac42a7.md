@@ -20,7 +20,7 @@ Choose a backward transported adjoint packet `\psi_m` centered on the terminal a
 \langle \mu_m^{src},\psi_m\rangle \to c_0>0.
 ```
 
-The desired adjoint identity has the schematic form
+The desired adjoint identity has the form
 
 ```math
 \langle \mu_m^{src},\psi_m\rangle

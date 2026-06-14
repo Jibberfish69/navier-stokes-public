@@ -88,7 +88,7 @@ then
 
 ### 1. Gaussian product estimate
 
-Let `r\simeq r_T\simeq r_{T'}` and set `X=X_T(t)`, `X'=X_{T'}(t)`. The packet bounds give
+Let `r` satisfy `c_r r \le r_T,r_{T'}\le C_r r` and set `X=X_T(t)`, `X'=X_{T'}(t)`. The packet bounds give
 
 ```math
 |\chi_T(t,x)|\le Cr^{-3/2}e^{-a|x-X|^2/r^2},
@@ -134,7 +134,7 @@ Write
 \chi_T=M_T\varphi_T^0+M_T\rho_T.
 ```
 
-The boundedness of `M_T` transfers the packet norm estimates to `\chi_T`. Since `\rho_T` has the same Gaussian tube and size `O(\varepsilon_M)` in `\mathcal P_1`, every inner product containing at least one `\rho` factor satisfies
+The boundedness of `M_T` transfers the packet norm estimates to `\chi_T`. Since `\rho_T` has the same Gaussian tube and satisfies `\|\rho_T\|_{\mathcal P_1}\le C_\rho\varepsilon_M`, every inner product containing at least one `\rho` factor satisfies
 
 ```math
 |\langle M_T\rho_T,M_{T'}\varphi_{T'}^0\rangle|
@@ -148,7 +148,7 @@ The same estimate holds for gradients after multiplication by `r_T^2`. Combining
 ```math
 |\langle \chi_T(t),\chi_{T'}(t)\rangle|
 +r_T^2|\langle\nabla\chi_T(t),\nabla\chi_{T'}(t)\rangle|
-\le C(1+\\varepsilon_M)e^{-c d(T,T')^2}.
+\le C(1+\varepsilon_M)e^{-c d(T,T')^2}.
 ```
 
 Absorb `1+\varepsilon_M` into the constant.
@@ -168,7 +168,7 @@ K_{TT'}
 \right)dt.
 ```
 
-On a parabolic tile, `|I_T|\simeq r_T^2`. The `L^2` part contributes at most
+On a parabolic tile, assume constants `0<c_I\le C_I<\infty` with `c_I r_T^2\le |I_T|\le C_I r_T^2`. The `L^2` part contributes at most
 
 ```math
 C r_T^2 e^{-c d(T,T')^2}\le C e^{-c d(T,T')^2}.

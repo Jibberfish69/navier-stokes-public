@@ -62,7 +62,8 @@ Err_{cmp}^{frame}/\gamma_J\to0.
 Then Davis-Kahan gives
 
 ```math
-\|P_{al}-P_J^{CG}\|_F\lesssim Err_{cmp}^{frame}/\gamma_J\to0.
+\|P_{al}-P_J^{CG}\|_F
+\le C_{DK}Err_{cmp}^{frame}/\gamma_J\to0.
 ```
 
 ## Conclusion

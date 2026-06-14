@@ -32,7 +32,7 @@ Let
 
 be a legal same-fluid parent distribution with total source charge one.  Every bounded selector captures at most `B/M`, while the linear positive source sum remains order one.
 
-A natural entropy `H(\pi_P)\sim\log M` would price this diffusion, but installed energy, local energy, pressure/cutoff, donor-balance, residual-square, and ASAC ledgers carry no positive entropy coefficient.
+A natural entropy defined by `H(\pi_P):=\log M` for the uniform `M`-parent model would price this diffusion, but installed energy, local energy, pressure/cutoff, donor-balance, residual-square, and ASAC ledgers carry no positive entropy coefficient.
 
 For diffuse amplitudes `M^{-1}`, quadratic branch charges scale as
 

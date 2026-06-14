@@ -46,7 +46,7 @@ Available quadratic branch costs scale as
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1}.
 ```
 
-No installed ledger carries `H(\pi_P)\sim\log M` with positive coefficient.  Thus the entropy door remains open.
+No installed ledger carries a positive coefficient for the uniform-parent entropy `H(\pi_P):=\log M`. Thus the entropy door remains open.
 
 ## Door 3: transported time-face no-incoming
 

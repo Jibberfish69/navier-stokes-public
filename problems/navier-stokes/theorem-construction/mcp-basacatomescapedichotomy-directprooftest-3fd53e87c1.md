@@ -38,7 +38,7 @@ BASACAtomEscapeDichotomy.A.
 
 ## Adjoint identity test
 
-A localized backward-adjoint identity should schematically read
+A localized backward-adjoint identity should read
 
 ```math
 \langle \mu_m^{src},\psi_m\rangle

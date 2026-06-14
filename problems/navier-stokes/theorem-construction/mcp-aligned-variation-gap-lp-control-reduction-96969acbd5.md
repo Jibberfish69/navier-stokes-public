@@ -23,7 +23,7 @@ Therefore `Lp` control of the aligned variation / gap term follows from
 integral_I ||F_al_var(t,.)||_Lp(dnu_J) dt <= C.
 ```
 
-In the explicit derivative / gap form, `F_al_var` is controlled by terms of the schematic type
+In the explicit derivative / gap form, `F_al_var` is controlled by terms of the following type
 
 ```math
 (||partial_t C_al|| ||C_al|| / g_al)
