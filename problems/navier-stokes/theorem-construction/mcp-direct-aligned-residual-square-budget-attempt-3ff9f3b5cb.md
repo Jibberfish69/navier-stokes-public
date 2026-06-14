@@ -25,10 +25,10 @@ The aligned residual calculation gives
 
 ```math
 \|P_{al}-P_{top}^{seg}\|_F^2
-\lesssim
+\le C_{al}
 \eta_{al}^2/g_{al}^2
 =
-\alpha_J^2.
+C_{al}\alpha_J^2.
 ```
 
 Hence the weighted square budget gives aligned selector-strain compatibility:

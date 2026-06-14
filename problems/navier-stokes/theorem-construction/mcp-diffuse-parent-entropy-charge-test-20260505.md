@@ -13,7 +13,7 @@ Prove that a diffuse positive source-parent measure pays a finite route charge. 
 \qquad M\to\infty,
 ```
 
-with total child-feeding positive source normalized to order one.  The desired conclusion is that diffusion over many legal parents creates an entropy or overlap cost controlled by the weighted residual square estimate:
+with total child-feeding positive source normalized to one.  The desired conclusion is that diffusion over many legal parents creates an entropy or overlap cost controlled by the weighted residual square estimate:
 
 ```math
 \sum_Tg_T^{-2}\left|\int_{I_T}\langle R,\psi_T\rangle dt\right|^2
@@ -22,21 +22,21 @@ with total child-feeding positive source normalized to order one.  The desired c
 
 ## Test model
 
-Use the existing Fourier parent countermodel.  Let a high packet `h_j` feed the child window.  Let legal predecessor donors `a_\alpha=M^{-1}b_\alpha`, `1\le\alpha\le M`, have distinct allowed lower frequencies and positive aligned interactions
+Use the existing Fourier parent countermodel.  Let a high packet `h_j` feed the child window.  Let legal predecessor donors `a_\alpha=M^{-1}b_\alpha`, `1\le\alpha\le M`, have distinct allowed lower frequencies, `\|b_\alpha\|_2=1`, and positive aligned interactions defined by
 
 ```math
 \mathcal N_\alpha(P^-_\alpha\to P)
-\sim
+:=
 \int_{Q_P^\Phi}(h_j\cdot\nabla a_\alpha)\cdot h_j\,\chi_P dxdt>0.
 ```
 
-After normalizing total positive source mass,
+Normalize the family so that `\sum_{\alpha=1}^M\mathcal N_\alpha=1`. The parent measure is
 
 ```math
-\pi_P\simeq {1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}.
+\pi_P := {1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}.
 ```
 
-Every bounded selector captures at most `O(B/M)` of this parent measure.
+Every selector containing at most `B` parents captures at most `B/M` of this parent measure.
 
 ## Entropy charge attempt
 
@@ -50,16 +50,17 @@ The problem is that the installed route has no ledger carrying `H(\pi_P)` with a
 
 ```math
 \sum_{\alpha=1}^{M}\|a_\alpha\|_2^2
-=M\cdot M^{-2}\|b_\alpha\|_2^2\simeq M^{-1}.
+=M\cdot M^{-2}=M^{-1}.
 ```
 
-The residual-square charge has the same quadratic scaling for separated legal donor pieces:
+The residual-square charge has the following exact bound for separated legal donor pieces with constant `C_{res}` independent of `M`:
 
 ```math
-\sum_{\alpha=1}^{M}|\text{residual}_\alpha|^2\simeq M\cdot M^{-2}=M^{-1},
+\sum_{\alpha=1}^{M}|\text{residual}_\alpha|^2
+\le C_{res}M\cdot M^{-2}=C_{res}M^{-1},
 ```
 
-while the positive child-feeding source remains order one by construction.
+while the positive child-feeding source remains exactly normalized by `\sum_{\alpha=1}^M\mathcal N_\alpha=1`.
 
 Thus the putative entropy cost `\log M` is invisible to the installed quadratic ledgers.  Legal parent diffusion can increase entropy while decreasing raw quadratic charge.
 

@@ -95,13 +95,18 @@ If the CG reference tensor on the selected finite-frame branch is defined by
 \mathcal C_J^{CG}:=W_J^{coc}\Pi_{N_a}(W_J^{coc})^* ,
 ```
 
-the comparison is exact. If the branch keeps an independently defined CG tensor, the comparison
+the comparison is exact. If the branch keeps an independently defined CG tensor, the source theorem must instead prove a bound
 
 ```math
-W_J^{coc}\Pi_{N_a}(W_J^{coc})^*\approx \mathcal C_J^{CG}
+\left\|
+W_J^{coc}\Pi_{N_a}(W_J^{coc})^*
+-\mathcal C_J^{CG}
+\right\|_{op}
+\le
+\varepsilon_J
 ```
 
-remains a genuine source theorem.
+with an explicit acceptable error scale `\varepsilon_J`.
 
 ## 6. Reference CG simple-top gap
 

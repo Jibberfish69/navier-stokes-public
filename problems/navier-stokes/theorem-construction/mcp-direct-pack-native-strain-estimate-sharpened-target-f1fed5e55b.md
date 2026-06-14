@@ -59,7 +59,7 @@ The BKM-type route suggests
 
 ```math
 S_{pack,Q}(t)
-\lesssim
+\le C_{pack}
 1+\|\omega(t)\|_{L^\infty}\log\left(e+\|u(t)\|_{H^s}\right).
 ```
 

@@ -34,7 +34,7 @@ The attempted repair was the fixed-radius Holder-to-energy conversion
 ```math
 H2E.5\Lambda:
 \mathfrak H_{N,\eta}^{press,loc,4\Lambda,\alpha}
-\lesssim
+\le C_{FIRP}
 \Gamma^{low}\mathcal F^\varepsilon.
 ```
 

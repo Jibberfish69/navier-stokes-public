@@ -37,13 +37,15 @@ Substitute the bound for `F_k`. The resulting double sum has kernel
 K_{k\ell}=2^{(2a-1)k}|A_k|^{1/2}2^{-3\max\{k,\ell\}}.
 ```
 
-Since `|A_k|^{1/2}\simeq 2^{3k/2}`, this is
+For annuli with constants `0<c_A\le C_A<\infty`,
+`c_A2^{3k/2}\le |A_k|^{1/2}\le C_A2^{3k/2}`. Hence the kernel is bounded by
 
 ```math
-K_{k\ell}\simeq 2^{(2a+1/2)k}2^{-3\max\{k,\ell\}}.
+K_{k\ell}
+\le C_A2^{(2a+1/2)k}2^{-3\max\{k,\ell\}}.
 ```
 
-Weighted Cauchy-Schwarz with the moment weights turns the double sum into a Schur convolution. The kernel gains exponential decay when `|k-ell|` grows and the remaining diagonal power is summable in the admissible range of `a`. Therefore
+Weighted Cauchy-Schwarz with the moment weights turns the double sum into a Schur convolution. The kernel gains exponential decay when `|k-ell|` grows and the remaining diagonal power is summable in the admissible range of `a`, giving
 
 ```math
 \sum_k2^{(2a-1)k}F_k\|u\|_{L^2(A_k)}

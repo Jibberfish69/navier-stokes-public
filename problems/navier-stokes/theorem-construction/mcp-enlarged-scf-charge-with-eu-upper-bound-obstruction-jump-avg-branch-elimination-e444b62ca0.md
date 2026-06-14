@@ -4,10 +4,10 @@
 
 Repair component selection by enlarging the final branch charge to include the velocity-energy component `E_u`.
 
-The proposed charge is schematically
+The proposed enlarged charge is
 
 ```math
-nu_SCF_plus = E_u carrier + mu_D + sum_chi mu_P_chi.
+\nu_{SCF}^{+}:=\mu_{E_u}+\mu_D+\sum_\chi\mu_{P,\chi}.
 ```
 
 ## Motivation
