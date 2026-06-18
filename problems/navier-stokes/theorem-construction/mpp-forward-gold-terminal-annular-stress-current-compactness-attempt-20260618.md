@@ -3,8 +3,10 @@
 Date: 2026-06-18
 
 Status: conditional compactness theorem only.  The installed Navier-Stokes
-compactness package does not prove the required moving-current trace passage.
-This sharpens the Door 1 blocker; it does not close Door 1.
+compactness package does not prove the required moving-current trace passage,
+current realization, curvature control, orientation noncancellation, or
+zero-defect stationarity.  This sharpens the Door 1 and Door 2 blockers; it
+does not close either door.
 
 Role: audit the stress-current balance suggested by the terminal annular flux
 
@@ -21,6 +23,29 @@ residue is already available in the Door 1 packet.  The question here is
 whether the current/varifold framework passes the stress flux through the
 terminal limit without losing it into oscillation, frame curvature,
 boundary/cutoff terms, or endpoint trace concentration.
+
+This note incorporates the 2026-06-18 six-agent audit of the upgraded target:
+
+```math
+\boxed{\text{TerminalAnnularStressCurrentCompactness.A}.}
+\tag{TASC.0}
+```
+
+The target is not a Weingarten theorem.  Weingarten identities are only the
+smooth local chart inside a larger package:
+
+```math
+(T_n,\mu_n,n_n,h_n,\omega_n,\Phi_n),
+\tag{TASC.0a}
+```
+
+where `T_n` is an oriented annular current, `mu_n` is the mass/varifold measure,
+`n_n` is the approximate normal or orientation field, `h_n` is generalized
+second fundamental form when available, `omega_n` is the moving-frame
+connection, and `Phi_n` is the stress flux.
+
+The proposed theorem must survive weak limits.  Its useful content is a
+compactness/defect alternative, not a smooth-surface identity.
 
 ## Conditional theorem
 
@@ -286,3 +311,241 @@ So the stress-current passage sharpens the blocker as:
 The first box is conditional under the hypotheses above.  The second box is the
 same Door 1 wall already isolated by the projected local pre-Cauchy and terminal
 signed-saturation notes.
+
+## Six-agent audit result
+
+The upgrade is mathematically meaningful, but it does not solve the gold
+obstruction from installed inputs.
+
+### Stage 1: current precompactness
+
+The abstract GMT step is valid:
+
+```math
+\sup_n \mathbf M(T_n)<\infty,
+\qquad
+\sup_n \mathbf M(\partial T_n)<\infty,
+\qquad
+\operatorname{spt}T_n\Subset K
+\Longrightarrow
+T_{n_j}\to T_\ast
+\tag{TASC.15}
+```
+
+in flat/current topology after passing to a subsequence.
+
+For the Navier-Stokes terminal annular packet this is only conditional.  The
+repo does not currently derive:
+
+```text
+CurrentRealization.A
+TerminalAnnularCurrentMassBound.A
+TerminalAnnularBoundaryMassBound.A
+TerminalAnnularSupportNormalization.A
+```
+
+The legal/collar/source ledgers track proof charges.  They are not yet a true
+geometric current mass and boundary mass bound.
+
+### Stage 2: varifold curvature compactness
+
+The abstract varifold step is also valid under new hypotheses.  If the selected
+annular surfaces define rectifiable varifolds with mass tightness and
+
+```math
+\sup_n\int |H_n|^2\,d\mu_n<\infty
+\quad\text{or}\quad
+\sup_n\int |dn_n|^2\,d\mu_n<\infty,
+\tag{TASC.16}
+```
+
+then subsequential varifold compactness and curvature-defect measures follow.
+
+This is not installed as a Navier-Stokes estimate.  Bulk strain, vorticity,
+pressure, and viscous-stress controls do not directly control curvature of the
+selected moving annular packet surfaces.  The missing bridge is a
+surface-generation law plus moving trace/Hessian/nondegeneracy control.  In the
+current notation this is part of:
+
+```text
+FrameCurvatureLedger.A.
+```
+
+### Orientation cancellation
+
+The pair `(T_n,\mu_n,n_n\mu_n)` is not enough to prevent hidden cancellation.
+It gives only
+
+```math
+\eta\ll\mu,
+\qquad
+\left|{d\eta\over d\mu}\right|\le 1,
+\tag{TASC.17}
+```
+
+where `eta` is the weak limit of `n_n mu_n`.  Oppositely oriented sheets can
+cancel in `T_n` and `eta_n` while `mu_n` retains positive carrier mass.
+
+The direct countermodel is recorded in
+`mpp-oriented-varifold-no-hidden-cancellation-attempt-20260618.md`.
+
+The smallest valid noncancellation theorem is conditional:
+
+```math
+\boxed{
+\text{PairedOrientationCompactness.A}
++
+\text{PolarSaturationOnSelectedCarrier.A}
+\Longrightarrow
+\text{OrientedVarifoldNoHiddenCancellation.A}.
+}
+\tag{TASC.18}
+```
+
+Without polar saturation, or the Door 1 equivalent
+`TerminalSignedSaturation.A`, orientation cancellation can hide the selected
+positive terminal carrier.
+
+### Stress-current passage
+
+The stress-current balance `(TASC.8)` is conditional on moving singular trace
+control.  Installed local-suitable compactness passes fixed smooth tests.  It
+does not pass
+
+```math
+\bigl(u_n\otimes u_n+p_nI-\nu\nabla u_n\bigr)n_n\,d\mu_n
+\tag{TASC.19}
+```
+
+against moving annular currents.
+
+The missing trace inputs are:
+
+```text
+MovingStressNormalTrace.A
+SurfaceL2TraceCompactness.A
+PressureConormalTraceCompactness.A
+ViscousConormalTraceCompactness.A
+BoundaryCutoffNoLoss.A
+TerminalNativeSourceTraceContinuity.A
+```
+
+With those inputs, the route produces a visible signed/vector stress-current
+residue.  It still does not identify that residue with the selected positive
+native pre-Cauchy carrier.
+
+### Defect-to-ledger routing
+
+`DefectToLedgerRouting.A` is not installed.
+
+The routable defects are only those already identified as pressure, projection,
+cutoff, collar, boundary, or off-family legal losses.  The stress defect returns
+to Door 1 and still needs
+
+```math
+\text{ProjectedLocalPreCauchyResidueIdentity.A}
+\tag{TASC.20}
+```
+
+before minimality, or
+
+```math
+\text{MinimalChainProjectedResidueIdentity.A}
+\tag{TASC.21}
+```
+
+after the minimal terminal Zeno donor-chain reduction.
+
+The source defect returns to the native positive source / donor-chain
+obstruction, not to a generic legal ledger.
+
+The smallest honest replacement is:
+
+```math
+\text{MinimalZenoTraceDefectVisibility.A}
++
+\begin{cases}
+\text{MinimalChainProjectedResidueIdentity.A}, & \Phi_\ast\ne0,\\
+\text{MinimalZenoProfileProduction.A}, & \Phi_\ast=0
+\end{cases}
+\Longrightarrow
+\text{NoFreeTerminalZenoDonorChain.A}.
+\tag{TASC.22}
+```
+
+### Zero-defect branch
+
+A compact zero-defect stress-current limit with zero point-force flux is not
+yet a Landau-class profile.  It may still have nonzero renormalized time motion
+or neutral modulation:
+
+```math
+\partial_sU-\nu\Delta U+(U\cdot\nabla)U+\nabla P
+=
+F^{mod}.
+\tag{TASC.23}
+```
+
+Thus this package can contribute to `AnnularDefectEvacuation.A`, but it does
+not prove:
+
+```text
+ZenoNoDriftUniqueTangent.A
+ZeroFluxDriftVisibility.A
+SingleBubbleCanonicalGauge.A
+RenormalizedActionFinite.A
+RenormalizedZenoStationarity.A
+```
+
+The Landau/Sverak consumer remains conditional on producing an exact
+stationary, `(-1)`-homogeneous, smooth-sphere, zero-force profile.
+
+## Final audited frontier
+
+The upgraded framework replaces the vague terminal trace/defect language by a
+precise stress-current compactness package.  Its installed-input status is:
+
+```math
+\boxed{
+\text{TerminalAnnularStressCurrentCompactness.A}
+\text{ is conditional, not proved from current NS inputs.}
+}
+\tag{TASC.24}
+```
+
+The abstract GMT sublemmas are useful but conditional.  The live mathematical
+obstructions are:
+
+```text
+CurrentRealization.A
+TerminalAnnularCurrentMassBound.A
+TerminalAnnularBoundaryMassBound.A
+FrameCurvatureLedger.A
+MovingStressNormalTrace.A
+SurfaceL2TraceCompactness.A
+PressureConormalTraceCompactness.A
+ViscousConormalTraceCompactness.A
+PolarSaturationOnSelectedCarrier.A / TerminalSignedSaturation.A
+DefectToLedgerRouting.A
+RenormalizedActionFinite.A
+```
+
+After minimal donor-chain accounting, this collapses to the sharper gold
+frontier:
+
+```math
+\boxed{
+\text{MinimalZenoTraceDefectVisibility.A}
++
+\left(
+\text{MinimalChainProjectedResidueIdentity.A}
+\ \text{or}\
+\text{MinimalZenoProfileProduction.A}
+\right).
+}
+\tag{TASC.25}
+```
+
+So the GMT/current upgrade is the right language, but its present role is a
+visibility engine.  It does not yet pay the terminal source atom or produce the
+stationary zero-force profile.
