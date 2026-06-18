@@ -239,6 +239,6 @@ So the route-B burden is now exact:
 ## Limitation
 
 This note does not prove global closure of `(12)`.
-It only proves that the route-B remainder feeds the classical side through a
-standard forced `H^s` energy inequality, with no extra mystery term beyond
-`\|E_{\mathrm{sh}}(X)\|_{H^{s-1}}^2`.
+It only proves that the route-B remainder feeds the classical side through the
+displayed forced `H^s` energy inequality `(10)`, with no extra mystery term
+beyond `\|E_{\mathrm{sh}}(X)\|_{H^{s-1}}^2`.
