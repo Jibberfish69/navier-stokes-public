@@ -1265,8 +1265,7 @@ with `a_{\alpha,\beta,j}` genuinely low frequency. If such a commutator bound
 holds by paradifferential elliptic calculus, then the top-`U` low-high packet
 is structurally no worse than the already admitted coefficient transport on the
 Euclidean side.
-At the principal-symbol level this is exactly the order `-1` gain one expects
-from the order-zero projector
+The exact principal-symbol object is the order-zero projector
 `\Pi_G^{ex}=-G\nabla_aL_G^{-1}\operatorname{div}_a`, whose symbol is the
 rank-one projector
 
@@ -1275,8 +1274,11 @@ p_G(a,\xi)=\frac{G(a)\xi\otimes\xi}{\xi\cdot G(a)\xi}.
 \tag{23ai.8k6a}
 ```
 
-So the sharpened shellwise target is a frequency-separated commutator estimate
-of the type
+The order `-1` payment is therefore not a heuristic gain from the projector
+itself. It must be the frequency-separated commutator theorem under the exact
+symbol hypotheses on `p_G`: uniform ellipticity of `G`, the required
+`S^0_{1,0}` seminorm bounds for `p_G`, and a genuinely low-frequency
+coefficient `a_{<j-C}`. Under those hypotheses the sharpened shellwise target is
 
 ```math
 \|[\Pi_G^{ex},a_{<j-C}]\,\Delta_j v\|_{L^2_a}
