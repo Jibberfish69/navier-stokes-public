@@ -80,8 +80,9 @@ There are two retained residue cases.
 1. If the residue persists along an infinite retained source-reserve tree, the
 installed theorem `ClassInternalSourceTreeExclusion.A` applies. Under `Pack_Q`
 and `Part_{N,Q}`, the local Duhamel response of the positive source reserve
-forces an order-one retained neighboring-field defect at arbitrarily small
-scales. This contradicts the tail vanishing required by `Field_{N,r,Q}`.
+forces a retained neighboring-field defect of size at least a fixed `c_0>0` at
+arbitrarily small scales. This contradicts the tail vanishing required by
+`Field_{N,r,Q}`.
 
 2. If the residue is terminal Zeno/atomic, the installed theorem
 `RetainedZenoAtomFieldExit.A` applies. Under retained Pack and Part, a nonzero
