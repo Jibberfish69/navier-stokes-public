@@ -3784,6 +3784,43 @@ Edited live surfaces:
 - `theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md`;
 - `theorem-construction/mpp-r3-tailface-hs-endpoint-row-obstruction.md`.
 
+Second residue sweep:
+
+- `theorem-construction/chatgpt-items-1-8-completion-attempt.md`;
+- `theorem-construction/mcp-averaged-endpoint-matrix-formalization-read-cover-5ccb749170.md`;
+- `theorem-construction/mcp-avg-end-a-averaged-endpoint-theorem-read-end-1f65673fd8.md`;
+- `theorem-construction/mcp-avg-end-a-completion-read-end-b239e27d74.md`;
+- `theorem-construction/mcp-avg-end-a-consumption-check-read-end-dbdfc51d84.md`;
+- `theorem-construction/mcp-avg-end-a-hardened-averaged-endpoint-rows-tgc-a-b13bc3ecf3.md`;
+- `theorem-construction/mcp-cavg-j-matrix-integration-lemma-avg-cover-a-cf6fcd3f2b.md`;
+- `theorem-construction/mcp-compact-endpoint-matrix-formalization-read-end-1a51c290af.md`;
+- `theorem-construction/mcp-endpoint-origin-boundary-completion-note.md`;
+- `theorem-construction/mcp-endpoint-to-classical-contradiction-theorem-read-end-ac1bec0dd4.md`;
+- `theorem-construction/mcp-pctp-hard-averaged-assembly-through-read-end.md`;
+- `theorem-construction/mcp-pctp-hard-averaged-route-reduction-and-aact-gap.md`;
+- `theorem-construction/mcp-recovered-end_ns-to-pctp-hard-bridge-read-end-2202fe6907.md`;
+- `theorem-construction/mcp-terminal-route-compression-retained-conditional-theorem.md`;
+- `theorem-construction/mpp-act-kx-conditional-route-completion-packet.md`;
+- `theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md`;
+- `theorem-construction/mpp-h1-h2-h6-origin-retain-source-attack-note.md`;
+- `theorem-construction/mpp-pctp-hard-terminal-tail-current-obstruction.md`;
+- `theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md`;
+- `theorem-construction/mpp-periodic-clay-terminal-promotion-theorem.md`;
+- `theorem-construction/mpp-periodic-terminal-promotion-bridge.md`;
+- `theorem-construction/mpp-rawdata-production-and-release-completion-packet.md`;
+- `theorem-construction/mpp-seven-item-paper-grade-closure-package.md`;
+- `theorem-construction/mpp-pctp-hard-face-exclusion-assembly.md`;
+- `theorem-construction/mpp-pctp-hard-field-jump-absorption.md`;
+- `theorem-construction/mpp-pctp-hard-quantitative-closure-package.md`;
+- `theorem-construction/mpp-periodic-main-self-contained-manuscript-proof.md`;
+- `theorem-construction/mpp-periodic-main-theorem-manuscript-grade-package.md`;
+- `theorem-construction/mcp-avg-main-read-end-pointwise-endpoint-closure.md`;
+- `theorem-construction/mcp-field-read-completion-read-cover-22ead9287c.md`;
+- `theorem-construction/mcp-pctp-hard-final-obstruction-and-ttu-target.md`;
+- `theorem-construction/mcp-read-end-consumption-check-avg-main-a-08b02dd763.md`;
+- `theorem-construction/mcp-terminal-readout-invocation-endns-from-avg.md`;
+- `theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
