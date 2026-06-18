@@ -5668,3 +5668,96 @@ profile or `U/r` slope assumption.
 Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## ASAC Residual-Gate Exactness Repair
+
+Old loose step:
+
+The ASAC / post-ASAC surfaces still allowed the proof to spend phrases such as
+"up to lower-order packet and commutator errors", "installed ASAC", and "ASAC
+pays" as if the active-alignment and one-sided pair-weight channels were already
+discharged.  In the submission appendix this appeared before the displayed
+normal-form error budget; in downstream authority surfaces it let
+`FrameBVCharge.A`, `NearBandMaterialSourceCharge.A`,
+`PositivePairWeightDefectCharge.A`, and `TerminalWeightedNoFreeSink.A` inherit
+ASAC as a paid input.
+
+Exact replacement:
+
+The touched surfaces now make `ASAC.A` conditional on the exact residual gate.
+The lifted packet reduction is written with a named residual
+`Err_{j,k,\ell}^{ASAC}`:
+
+```tex
+R_{j,k,\ell}^{lift}
+=
+2^{2j}\sum_{P\in\mathcal P_j}
+\langle S_k(x_P,t)e_P,e_P\rangle |c_P|^2
++Err_{j,k,\ell}^{ASAC},
+```
+
+and the proof-spending hypothesis is
+
+```tex
+\sum_{j>N}\sum_{k<j-M}
+\int_I W_{j,k}^{\sigma}|Err_{j,k,\ell}^{ASAC}(t)|\,dt
+\le
+\varepsilon\int_I\sum_{q>N}D_q(t)\,dt+o_N(1).
+```
+
+The theorem-construction source note now phrases the same input as the combined
+packet residual estimate
+`\sum_{j,k}|Err_{j,k}|\le\varepsilon\sum_{q>N}D_q+o_N(1)`.
+Downstream ASAC spending is licensed only after this residual estimate, the
+`TPNI.A` no-incoming license, and the anisotropic backward-uniqueness theorem
+are installed.
+
+Proof or remaining burden:
+
+This batch does not prove `ASAC.A`.  It converts ASAC from an implicit paid
+channel into an exact conditional gate.  The remaining proof burden is the ASAC
+residual/no-incoming/backward-uniqueness package, plus the already exposed Zeno
+source-residue rigidity branch where the conditional ASAC route hands off.
+
+Downstream consequence:
+
+Authority and packet surfaces no longer say that ASAC unconditionally pays
+active-alignment or positive pair-weight pieces.  They state that proved ASAC.A
+supplies those pieces only after the packet residual absorbability estimate,
+`TPNI.A` no-incoming license, and anisotropic backward-uniqueness input are in
+force.  The submission appendix mirrors were repaired so the earlier model
+passage no longer hides the residual under "lower-order packet and commutator
+errors".
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-active-strain-alignment-cost-target-note-20260504.md`;
+- `theorem-construction/mcp-terminalangularmixing-a-alignmentdecorrel-a-asac-a-5b08228909.md`;
+- `theorem-construction/mcp-sourceweightedterminalangulardepletion-a-26ce55f7df.md`;
+- `theorem-construction/mcp-sourceweightedterminalangulardepletion-onwardbasacnoflux-4076d375f7.md`;
+- `theorem-construction/mcp-sourcewallrootdichotomy-a-53f54dbb9e.md`;
+- `theorem-construction/mpp-asac-defect-measure-equality-class-production-20260517.md`;
+- `theorem-construction/mpp-terminal-weighted-no-free-sink-after-asac-20260506.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`;
+- `theorem-packet.yaml`;
+- `submission-bundle/theorem-packet.yaml`;
+- `theorem-repair.yaml`;
+- `submission-verdict.yaml`;
+- `submission-bundle/submission-verdict.yaml`.
+
+Verification:
+
+The targeted ASAC overclaim scan over the edited surface set returns no hits for
+`installed ASAC`, `ASAC pays`, `ASAC payment`, `ASAC.A is an installed`, or
+`giving ASAC.A`.  YAML authority surfaces parse after the edits, and
+`git diff --check` passes on the edited batch.
+
+Remaining mathematical status:
+
+The broader exactness goal remains active.  This batch does not discharge the
+ASAC residual/no-incoming/backward-uniqueness package, `FCC.C1a`, the same-tail
+`\mathrm{SCF}_{\mathrm{base}}` modulus, or the Clay-finality /
+finite-breakdown bridge.
