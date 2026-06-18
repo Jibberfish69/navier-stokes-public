@@ -73,7 +73,7 @@ SS\text{-}model\Longrightarrow UB+MS.
 ```
 
 The lift itself is exact finite summation. But its input is the coefficient-free
-same-scale model theorem
+edge-family theorem `(SS-model)`
 
 ```math
 \int_0^T \Pi_{N,a}^{edge}(t)\,dt
@@ -83,7 +83,8 @@ same-scale model theorem
 ```
 
 `same-scale-multiplier-stability-program.md` records that this coefficient-free
-theorem is not installed; the available model estimate is coefficient-bearing.
+theorem is not installed; the available same-scale estimate is
+coefficient-bearing.
 
 Therefore the same-scale lift cannot be imported as a proof of `MSC.BadAC`.
 
