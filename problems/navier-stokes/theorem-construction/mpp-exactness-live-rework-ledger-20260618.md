@@ -4187,6 +4187,40 @@ language, not unresolved scale shortcuts:
 No remaining live hit spends the old pulling-teeth linear-profile estimate as a
 proof step.
 
+## Authority-Surface Table-Row Ontology Repair
+
+Old loose wording:
+
+- `source-frontier.yaml`, `submission-verdict.yaml`, and their
+  `submission-bundle` mirrors referred to "formal witness rows" and a
+  "formal license."
+- The same frontier summary rejected "standard-continuation language" but still
+  left the old phrase as the named object.
+
+Exact replacement:
+
+The authority surfaces now say that a Pack/Part/Field row is a generated or
+table-level row until a real terminal same-fluid realization is supplied and
+tested against the implication pressure among Pack, Part, Field, and the
+Dead/Jump/Blown readouts.  A retained Part hypothesis is recorded as a
+hypothesis/license rather than terminal ontology.  Continuation consumers are
+stated to require exact finite norm, local lifespan, relaunch, overlap
+uniqueness, and Gronwall inputs, rather than unstated continuation assertions.
+
+Downstream consequence:
+
+A generated Pack-only, Part-only, or Field-only row cannot discharge a live CM
+surface by table status.  It becomes proof-bearing only after the same-fluid
+realization story and the Pack/Part/Field implication test are paid on the
+active surface.
+
+Edited live surfaces:
+
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`;
+- `submission-verdict.yaml`;
+- `submission-bundle/submission-verdict.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
