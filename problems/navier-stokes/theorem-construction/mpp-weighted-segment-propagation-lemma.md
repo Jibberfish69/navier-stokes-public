@@ -141,7 +141,7 @@ then
 
 ### Proof
 
-This is immediate from the live reduction inequality
+This is the live reduction inequality
 
 ```math
 \mathcal M^{wseg}_{N+1,r,\psi}(t)

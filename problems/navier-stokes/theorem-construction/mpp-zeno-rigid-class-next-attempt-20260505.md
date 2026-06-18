@@ -70,7 +70,7 @@ Under the Zeno rescaling
 u^{(m)}(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s),
 ```
 
-the global energy scales like
+the global energy is
 
 ```math
 \|u^{(m)}(s)\|_{L^2_y}^2
@@ -106,9 +106,10 @@ identity, invariant axis, no-swirl structure, or two-dimensional reduction.
 
 Weak signed cancellation of the pre-Cauchy source distribution is not enough,
 because the extracted object carries the native positive active
-source-residue measure.  Strong native cancellation would imply
-`\mu_*^{src}=0`, but that is already the desired contradiction and cannot be
-used as an independently produced class on the surviving Zeno branch.
+source-residue measure.  Strong native cancellation is the identity
+`\int\varphi\,d\mu_*^{src}=0` for every nonnegative test `\varphi`, hence
+`\mu_*^{src}=0`.  That is already the desired contradiction and cannot be used
+as an independently produced class on the surviving Zeno branch.
 
 Therefore no standard class supplies an installed theorem
 
@@ -184,7 +185,7 @@ Thus
 
 for every fixed `R`, hence `\mu_*^{src}=0` as a local Radon measure.
 
-This would contradict the compactness extraction lower bound
+This contradicts the compactness extraction lower bound once `B_time` production is proved:
 
 ```math
 \mu_*^{src}(Q_1^-)\ge c_0>0.
@@ -289,4 +290,3 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
 \text{ remains open.}
 }
 ```
-

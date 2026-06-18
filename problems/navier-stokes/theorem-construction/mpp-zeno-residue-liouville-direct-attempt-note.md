@@ -34,8 +34,7 @@ from `ZenoCompactnessExtraction.A`, prove:
 \tag{ZRL.1}
 ```
 
-This would contradict the inherited source residue and close the Zeno rigidity
-branch.
+Together with the inherited nonzero source residue, `(ZRL.1)` gives the contradiction that closes the Zeno rigidity branch.
 
 ## Attempt 1: Broad Ancient Liouville
 

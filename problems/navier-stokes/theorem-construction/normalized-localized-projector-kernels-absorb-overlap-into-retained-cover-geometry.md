@@ -150,7 +150,7 @@ d_{\mathrm{proj}}\!\bigl(
 
 ### Proof
 
-The geometric counting `(NLP.8)` is exactly the standard bounded-multiplicity
+The geometric counting `(NLP.8)` is exactly the bounded-multiplicity
 estimate. Combine it with `(NLP.6)`. ∎
 
 ## Corollary `NLP.C` (subordination to retained windows)

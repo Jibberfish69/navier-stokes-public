@@ -55,11 +55,11 @@ with a nonzero inherited source-residue measure. The inherited controls are loca
 
 ### Finite global ancient energy
 
-A finite global ancient energy bound would be useful, but the terminal rescaling is local. Global energy over growing rescaled domains is not uniformly controlled by the installed packet extraction. Thus the extraction gives local energy, not finite global ancient energy.
+A finite global ancient energy bound would be a sufficient rigid-class input, but the terminal rescaling is local. Global energy over growing rescaled domains is not uniformly controlled by the installed packet extraction. Thus the extraction gives local energy, not finite global ancient energy.
 
 ### Type I / critical amplitude class
 
-A Type I envelope would require a uniform critical amplitude bound. The Zeno source-residue branch supplies a normalized source pulse, not a scale-uniform amplitude cap. Such a cap would already give the donor amplitude theorem that failed in the previous loop item.
+A Type I envelope requires a uniform critical amplitude bound. The Zeno source-residue branch supplies a normalized source pulse, not a scale-uniform amplitude cap. Such a cap is already the donor amplitude theorem that failed in the previous loop item.
 
 ### Critical-smallness class
 
@@ -67,7 +67,7 @@ Critical smallness is incompatible with the selected nonzero residue unless it i
 
 ### Bounded strain or vorticity class
 
-Uniform bounded strain or vorticity would imply strong regularity. The extraction occurs at scales tending to zero near the terminal endpoint, and the current ledgers do not propagate such a uniform bound through the rescaling sequence.
+Uniform bounded strain or vorticity licenses strong regularity only after a uniform bound is proved on the rescaled ancient sequence. The extraction occurs at scales tending to zero near the terminal endpoint, and the current ledgers do not propagate such a uniform bound through the rescaling sequence.
 
 ### Symmetric or self-similar class
 

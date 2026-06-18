@@ -77,7 +77,7 @@ The strong class is:
 \tag{ZCC.4}
 ```
 
-Then the Liouville implication is immediate:
+Then the Liouville implication is exactly the defining exclusion in this class:
 
 ```math
 (u_\ast,p_\ast,\mu_\ast^{src})\in\mathcal B_{src}^{strong}

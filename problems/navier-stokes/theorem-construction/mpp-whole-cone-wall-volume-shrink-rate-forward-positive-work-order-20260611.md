@@ -197,7 +197,7 @@ rho(t) = lambda tau^beta,
 beta > 0.
 ```
 
-At the critical Navier-Stokes velocity scale
+At the critical Navier-Stokes velocity benchmark
 
 ```text
 U_c(t) = nu / rho(t),
@@ -208,6 +208,30 @@ define the benchmark energy density by
 ```text
 e_c(t) = (1/2)U_c(t)^2 = (1/2)nu^2 rho(t)^(-2).
 ```
+
+This is a benchmark, not a profile statement about the solution.  The actual
+moving-slice quantity is the oscillation
+
+```text
+Delta_{rho(t)} u(t)
+  := sup_{x,y in B_{rho(t)}(x0)} |u(x,t)-u(y,t)|.
+```
+
+For a differentiable preterminal slice the exact bridge is
+
+```text
+Delta_{rho(t)} u(t)
+  <= 2 rho(t) sup_{B_{rho(t)}(x0)} |grad u(.,t)|.
+```
+
+Thus the dimensionless branch amplitude is
+
+```text
+A_osc(t) := rho(t) Delta_{rho(t)} u(t) / nu,
+```
+
+and any use of `U_c(t)` on an actual branch must be read through an explicit
+oscillation or wall-integrand hypothesis, not through a typical velocity law.
 
 The moving-wall benchmark is
 
@@ -246,9 +270,17 @@ Consequently the critical physical wall payment is finite for
 
 logarithmically divergent for `beta=1`, and power divergent for `beta>1`.
 
-The parabolic cone has `beta=1/2`, so a persistent type-I critical profile can
-carry finite physical whole-wall exchange while retaining a normalized critical
-profile satisfying `c\le S_0(r(t),t)\le C` in cone variables.
+The parabolic cone has `beta=1/2`. If the actual branch satisfies the explicit
+cone-scale oscillation condition
+
+```text
+0 < c <= A_osc(t) <= C < infinity
+```
+
+along the moving radius `rho(t)=lambda sqrt(T-t)`, then the exact wall benchmark
+above is still finite. This condition is the branch hypothesis being tested; it
+does not assert a linear velocity profile or a pointwise velocity law of size
+`nu/rho(t)`.
 
 This is the precise Gabriel's horn correction:
 
@@ -263,13 +295,20 @@ lives in the normalized scale-critical currency.
 
 ## 5. Supercritical Amplitude Test
 
-Let the packet amplitude be
+The old shortcut treated a packet amplitude
 
 ```text
 U(t) = A(t) nu / rho(t).
 ```
 
-For the parabolic cone `rho(t)=lambda tau^(1/2)`, take
+as though it were the actual velocity profile on the moving ball.  The exact
+version is to test the moving-ball oscillation amplitude:
+
+```text
+A_osc(t) = A(t).
+```
+
+For the parabolic cone `rho(t)=lambda tau^(1/2)`, take the benchmark schedule
 
 ```text
 A(t) = tau^(-alpha), alpha > 0.
@@ -291,17 +330,18 @@ alpha < 1/6.
 The viscous wall and moving-wall quadratic pieces remain integrable under the
 weaker condition `alpha < 1/4`.
 
-Thus even some supercritical amplitude growth is not excluded by finite
-physical wall accounting alone. This is not a claim that such a profile solves
-Navier-Stokes. It proves the exact no-go statement needed here:
+Thus even some supercritical oscillation-amplitude growth is not excluded by
+finite physical wall accounting alone, provided the actual wall integrands are
+only charged at this benchmark rate. This is not a claim that such a profile
+solves Navier-Stokes. It proves the exact no-go statement needed here:
 
 ```text
 physical whole-wall finiteness is too weak to rule out a dangerous normalized
-cone profile.
+cone-scale functional.
 ```
 
 A successful theorem must add Navier-Stokes structure that controls the
-unweighted profile, not merely the physical wall integral.
+unweighted cone-scale functional, not merely the physical wall integral.
 
 ## 6. Minimum Singularity Cost In The Correct Currency
 
@@ -422,10 +462,11 @@ Local energy can increase while total energy decreases. The increase is paid
 by redistribution through the wall, while the total decrease records only
 viscous dissipation. These are different accounts.
 
-The parabolic critical profile calculation above gives the scale reason. A
-persistent normalized profile can have finite physical energy and finite
-physical dissipation near the tip because the physical ledger is discounted.
-The unweighted cone profile can remain dangerous anyway.
+The calculation above is an exact separation between the discounted physical
+ledger and the unweighted cone-scale ledger. A branch satisfying a positive
+lower bound for the unweighted cone functional can have finite physical energy
+and finite physical dissipation near the tip because the physical ledger is
+discounted.
 
 So the transfer-versus-drain principle is not false as an intended theorem,
 but it is not a consequence of the basic energy law. It must be proved as a
@@ -473,11 +514,15 @@ At scale `r`, viscosity acts on the clock
 tau_nu(r) = r^2 / nu,
 ```
 
-and the critical velocity scale is
+and the critical velocity benchmark is
 
 ```text
 U_c(r) = nu / r.
 ```
+
+This benchmark does not assert a linear velocity profile on the moving ball.
+Actual cone use has to come from the cone energy identity, boundary flux terms,
+or a separate oscillation/carrier hypothesis.
 
 The stored critical energy benchmark is
 

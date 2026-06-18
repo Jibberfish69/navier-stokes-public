@@ -62,7 +62,7 @@ The non-diagonal route isolates the true remaining source as
 \tag{2}
 ```
 
-That is cleaner than the diagonal view, because all harmless structure is
+That is cleaner than the diagonal view, because all exact cancellation structure is
 already removed before any estimate:
 
 - pressure is gone;
@@ -91,7 +91,7 @@ no proved sign or telescoping law.
 So the non-diagonal route is presently a **better structural microscope**, not
 yet a closed Lyapunov theorem.
 
-## Most plausible next object
+## Leading candidate next object
 
 The sharpest candidate is not the full unrestricted matrix, but a bounded block
 functional built from:

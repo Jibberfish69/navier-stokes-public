@@ -17,10 +17,11 @@ The theorem needed below `ActiveHeightFluxTrichotomy.A` is:
 ZeroMomentReserveVisibility.A.
 ```
 
-On the first minimal terminal window, an order-one retained positive
-donor-square reserve surplus with vanishing first signed moment should either
-produce a same-ledger active height-flux level set or land as Pack carrier loss,
-Part dwell failure, licensed Field source charge, or terminal Zeno residue.
+On the first minimal terminal window, a retained positive donor-square reserve
+surplus bounded below by `c_0>0` with vanishing first signed moment should
+either produce a same-ledger active height-flux level set or land as Pack
+carrier loss, Part dwell failure, licensed Field source charge, or terminal Zeno
+residue.
 
 This is a CM-contrapositive witness theorem.  Its job is not to prove a
 positive smoothness estimate directly.  Its job is to show that the hidden
@@ -58,7 +59,7 @@ int_W J_+ = int_W J_-,
 ```
 
 The zero-moment obstruction is therefore not absence of mass.  It is hidden
-signed-pair cancellation of an order-one square reserve.
+signed-pair cancellation of a square reserve bounded below by `c_0>0`.
 
 ## Case Split
 
@@ -68,7 +69,8 @@ If the positive packet has no same-ledger negative partner on the retained
 terminal family, then the positive part itself is visible.  This gives the
 active height-flux level set required by `ActiveHeightFluxTrichotomy.A`.
 
-This case is harmless.
+This case is discharged by the visible positive-packet alternative above; it
+does not require a separate zero-moment reserve.
 
 ### 2. Partner is not on the same carrier
 
@@ -102,7 +104,7 @@ The remaining hard case is:
 J_+ and J_- both survive at positive scale,
 both stay on the same retained terminal ledger,
 their first moments cancel,
-and their square reserve stays order one.
+and their square reserve stays bounded below by `c_0>0`.
 ```
 
 This is the exact hidden branch.
@@ -124,7 +126,7 @@ step for every same-ledger positive-scale signed pair.
 The tempting argument is:
 
 ```text
-order-one square reserve + zero signed moment
+square reserve bounded below by `c_0>0` + zero signed moment
 => two visible opposite packets
 => one packet has positive active height flux.
 ```
@@ -145,9 +147,10 @@ The direct subclaim below `ZeroMomentReserveVisibility.A` is:
 ```text
 SignedPairReserveVisibility.A:
 on a first minimal terminal window, a positive-scale same-ledger signed pair
-with order-one donor-square reserve and zero first moment must either generate
-active height flux on one side, pay by ASAC / positive pair-weight charge, force
-TerminalWeightedNoFreeSink.A or TwoTowerDonorDepletion.A, or collapse to Zeno.
+with donor-square reserve bounded below by `c_0>0` and zero first moment must
+either generate active height flux on one side, pay by ASAC / positive
+pair-weight charge, force TerminalWeightedNoFreeSink.A or
+TwoTowerDonorDepletion.A, or collapse to Zeno.
 ```
 
 Equivalently, the still-open object is:
@@ -165,8 +168,8 @@ This attempt improves the proof target by replacing the broad phrase
 "zero-first-moment scalar pulse" with the exact survivor:
 
 ```text
-positive-scale same-ledger signed-pair cancellation with order-one square
-reserve and no charged no-free-sink/depletion theorem.
+positive-scale same-ledger signed-pair cancellation with square reserve bounded
+below by `c_0>0` and no charged no-free-sink/depletion theorem.
 ```
 
 Until `SignedPairReserveVisibility.A`, `TerminalWeightedNoFreeSink.A`, or

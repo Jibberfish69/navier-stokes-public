@@ -4,12 +4,12 @@
 
 - target obligation: NearBandBVToBurstOrSource.A+FrameBVCharge.A
 - target label: near-band BV burst/source control plus retained frame BV charge
-- route role: Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet.
+- route role: Use the near-band BV direct attempt: subparabolic near-band heat variation contributes at most `C_L theta H_W` and is paid only under `theta <= eta_abs/C_L`, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band BV burst/source control plus retained frame BV charge.
+NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt: subparabolic near-band heat variation contributes at most `C_L theta H_W` and is paid only under `theta <= eta_abs/C_L`, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. This supplies the exact noncircular bridge needed for near-band BV burst/source control plus retained frame BV charge.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 - selected_mechanism: near_band_bv_to_material_source_plus_frame
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Use the near-band BV direct attempt: subparabolic near-band heat variation is absorbable, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to NearBandMaterialSourceCharge.A+FrameBVCharge.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Use the near-band BV direct attempt: subparabolic near-band heat variation contributes at most `C_L theta H_W` and is paid only under `theta <= eta_abs/C_L`, while non-subparabolic near-band amplitude routes to parabolic-rate burst height; the remaining live pair is NearBandMaterialSourceCharge.A plus FrameBVCharge.A on the same retained packet. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to NearBandBVToBurstOrSource.A+FrameBVCharge.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -71,7 +71,7 @@ NearBandBVToBurstOrSource.A+FrameBVCharge.A. Use the near-band BV direct attempt
 ## Proof Attempt
 
 1. Keep the near-band and frame terms on the same retained terminal ledger.
-2. Absorb subparabolic near-band heat variation by the heat-rate gain.
+2. Pay subparabolic near-band heat variation by the explicit `C_L theta H_W` bound with `theta <= eta_abs/C_L`.
 3. Route non-subparabolic near-band amplitude into parabolic-rate burst height.
 4. Reduce the unabsorbed source/frame remainder to NearBandMaterialSourceCharge.A plus FrameBVCharge.A.
 5. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.

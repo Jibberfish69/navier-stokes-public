@@ -303,7 +303,7 @@ does not kill the native positive measure `\mu_\ast^{src}`, while
 
 is exactly `\mu_\ast^{src}=0` and therefore assumes the desired contradiction.
 
-The only produced class is `B_min`; the only class with an immediate residue
+The only produced class is `B_min`; the only class with a built-in residue
 Liouville proof is `B_time`; the gap between them is precisely
 `TemporalNonAtomicSource.A`.
 
@@ -424,7 +424,7 @@ But installed source-residue compactness supplies only `L_s^1` finite mass:
 \sup_m\mu_m^{src}(B_R\times(-1,0))<\infty.
 ```
 
-That bound allows the terminal-layer model above.  The direct attempt to prove
+That bound allows the endpoint time-marginal witness above.  The direct attempt to prove
 `UniformTemporalSourceIntegrability_p.A` routes into:
 
 ```math

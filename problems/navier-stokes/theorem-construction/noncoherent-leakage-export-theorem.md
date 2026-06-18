@@ -177,8 +177,8 @@ already known, and after readout it is controlled by:
 3. one carrier commutator estimate.
 
 So the only real remaining work is to lift the already-existing carrier
-commutator package to the readout-compatible `H_D^s` scale strongly enough to
-make the remainder lower-order at the classical viscous scale.
+commutator package to the readout-compatible `H_D^s` scale with the lower-order
+bound required at the classical viscous scale.
 
 ## Interfaces
 

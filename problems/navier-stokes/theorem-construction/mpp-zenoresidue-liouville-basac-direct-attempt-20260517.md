@@ -103,7 +103,7 @@ depletion.
 
 ## Attempt 3: Backward Uniqueness / No-Incoming Rigidity
 
-The plausible new hope is:
+The next candidate route is:
 
 ```text
 B_ASAC + zero ASAC defect

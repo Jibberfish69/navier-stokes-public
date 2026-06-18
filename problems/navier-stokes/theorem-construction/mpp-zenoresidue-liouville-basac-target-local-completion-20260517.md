@@ -83,7 +83,10 @@ terminal Zeno support,
 spatially compact zero lateral transported flux.
 ```
 
-Diffuse legal parent clouds give the parallel ancestry obstruction: linear positive source can remain order one while available quadratic branch charges scale like `M^{-1}`.
+Diffuse legal parent clouds give the parallel ancestry obstruction: linear
+positive source can remain bounded below because, for \(M\) equal parents,
+\(\sum_{\alpha=1}^M M^{-1}=1\), while the available quadratic branch charge is
+\(\sum_{\alpha=1}^M M^{-2}=M^{-1}\).
 
 ## Target-local finish
 

@@ -108,7 +108,7 @@ B_{min}:
 ```math
 B_{strong}:
 \quad
-\text{residue Liouville plausible for some choices, production unavailable.}
+\text{residue Liouville remains a candidate for some choices, production unavailable.}
 ```
 
 No tested class has both required properties.

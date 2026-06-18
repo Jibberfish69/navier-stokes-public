@@ -67,7 +67,7 @@ parabolic scaling.  For every fixed `R`,
 
 ## Compactness
 
-By the standard local suitable compactness mechanism, `(ZCE.2)` gives a
+By the local suitable-solution compactness theorem applied to `(ZCE.2)`, there is a
 subsequence, not relabeled, and an ancient local suitable limit
 
 ```math
@@ -86,8 +86,8 @@ u^{(m)}\to u_\ast
 \quad\text{weakly in }L^2_{loc},
 ```
 
-and pressure convergence weakly in `L^{3/2}_{loc}` after subtracting harmless
-time functions.
+and pressure convergence weakly in `L^{3/2}_{loc}` after subtracting additive
+time functions whose spatial gradients vanish.
 
 The limit is an ancient local suitable Navier-Stokes solution on
 `\mathbb R^3\times(-\infty,0]` in the local sense.

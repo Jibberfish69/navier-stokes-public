@@ -184,7 +184,7 @@ HeatScaleSquareSource.A
 == ScaleCriticalTreeCarleson.A.
 ```
 
-Using that route here would import the same source-wall theorem the height-flux
+Using that route here imports the same source-wall theorem the height-flux
 branch is trying to close.  Thus `TemporalNonAtomicSource.A` is a clean
 interface, but not a non-circular discharge unless it is proved by a different
 mechanism.
@@ -199,7 +199,7 @@ a pure terminal atom has no parabolic participation time and so should be a
 class-exit/Euler-side readout rather than an internal NS event.
 ```
 
-In theorem form this would be:
+In theorem form this is:
 
 ```math
 \boxed{
@@ -211,7 +211,7 @@ PositiveViscositySourceThickness.A:
 \tag{PVST}
 ```
 
-`PVST` would imply `TemporalNonAtomicSource.A` without first proving the
+`PVST` implies `TemporalNonAtomicSource.A` without first proving the
 square-source Carleson estimate.
 
 However, the direct Duhamel test shows why this is not installed.  A forcing

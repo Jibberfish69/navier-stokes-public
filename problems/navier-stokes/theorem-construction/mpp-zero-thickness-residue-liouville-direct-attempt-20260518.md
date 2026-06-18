@@ -57,7 +57,10 @@ The Zeno tangent construction supplies none of these automatically. In particula
 
 ## 3. Single-time support test
 
-Single-time support of the measure is a strong geometric statement. By itself, it is still a measure support statement. The local suitable formulation permits terminal defect measures. A Liouville theorem would need a mechanism converting support on one time face into vanishing.
+Single-time support of the measure is a strong geometric statement. By itself,
+it is still a measure support statement. The local suitable formulation permits
+terminal defect measures. A Liouville theorem requires a mechanism converting
+support on one time face into vanishing.
 
 That missing mechanism is
 

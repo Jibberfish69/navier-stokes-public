@@ -139,7 +139,11 @@ R^{-2}\iint_{Q_R^\Phi}|u-u_R^{aff}|^3
 +R^{-1}\iint_{Q_R^\Phi}|\nabla u|^2.
 ```
 
-This is the same scale-invariant packet as on `T^3`, with local pressure normalization.
+The parabolic weights are the periodic SCF weights:
+`R^{-2}` on the velocity and pressure slots and `R^{-1}` on the dissipation
+slot. The `R^3` packet is not a periodic-packet export by equality; its pressure
+slot uses the local average `p_R^{norm}`, and its theorem use is conditional on
+the compact-core / exterior-tail hypotheses stated below.
 
 ## 6. Whole-space `TTU.A`
 

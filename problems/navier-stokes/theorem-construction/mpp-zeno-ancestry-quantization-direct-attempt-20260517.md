@@ -16,7 +16,7 @@ A useful statement would be:
 \text{ of a monotone resource }\mathcal Q.
 ```
 
-Then an infinite terminal Zeno ancestry would force infinite resource spend, contradicting a finite original-data budget.
+Then an infinite terminal Zeno ancestry forces infinite resource spend, contradicting a finite original-data budget.
 
 ## Test 1: scale rank
 

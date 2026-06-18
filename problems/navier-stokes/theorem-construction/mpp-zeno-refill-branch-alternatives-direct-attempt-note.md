@@ -13,8 +13,19 @@ ZenoSourceResidueRigidity.A.
 }
 ```
 
-The non-Zeno entrance branch is controlled by original smooth tail decay.  This
-note tests the two possible closures for a Zeno source-refill ancestry branch.
+The non-Zeno entrance branch is paid by `EntranceLeafDecay.A`: for fixed
+preterminal time or positive-scale entrance leaves,
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
+
+This note tests the two possible closures for a Zeno source-refill ancestry
+branch.
 
 ## Zeno Branch
 
@@ -60,8 +71,7 @@ C\,\mathcal R_{\mathrm{sc}}(P^0)
 where `\mathcal R_{\mathrm{sc}}` is a finite scale-normalized donor reserve
 under `OriginalSmoothData`.
 
-This would immediately rule out an infinite normalized Zeno branch, because the
-left side contains infinitely many edge masses bounded below.
+This rules out an infinite normalized Zeno branch exactly when `\mathcal R_{\mathrm{sc}}(P^0)<\infty`, because the left side contains infinitely many edge masses bounded below.
 
 ### Direct Test
 
@@ -80,7 +90,7 @@ shows the gap: positive normalized source-parent mass can be spread across many
 legal predecessor pieces while the raw quadratic donor cost tends to zero.
 
 The active-square notes record the same obstruction in shell language.  A
-scale-critical tree Carleson estimate would dominate the active-window
+scale-critical tree Carleson estimate dominates the active-window
 square-source / positive parent edge measure.  That is exactly the donor
 reserve missing from `TwoTowerDonorDepletion.A`.
 

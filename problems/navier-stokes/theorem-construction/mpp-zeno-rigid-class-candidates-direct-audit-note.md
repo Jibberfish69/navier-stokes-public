@@ -144,7 +144,7 @@ is not installed.
 
 ## Candidate 6: Two-Dimensional Or Axisymmetric Reduction
 
-Two-dimensionality or axisymmetry would require a geometric symmetry or
+Two-dimensionality or axisymmetry requires a geometric symmetry or
 dimensional reduction of the Zeno limit.
 
 The same-fluid packet construction gives transported label fidelity and
@@ -171,7 +171,7 @@ The cancellation class `B_src` is defined by:
 \text{for every licensed source test }\varphi.
 ```
 
-For this class, the Liouville half is immediate:
+For this class, the Liouville half is built into the source-residue exclusion:
 
 ```math
 B_{src}\Longrightarrow \mu_\ast^{src}=0.
