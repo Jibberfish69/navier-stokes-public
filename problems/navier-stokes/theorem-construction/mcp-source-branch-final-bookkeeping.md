@@ -6,18 +6,22 @@ Closed source-branch bookkeeping surface for the final averaged proof.
 
 ## Final source choice
 
-The final averaged proof uses the strengthened sufficient source supplier
+The final averaged proof uses the strengthened sufficient source supplier with
+the cutoff-defect input included:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The strengthened source package is
 
 ```math
-FFSRC.A:
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A):
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow FCI.5f,
 ```
+
+where `FCC.C1a` is the interval hypothesis
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 This is the source branch used in the final chain
 
@@ -30,7 +34,7 @@ LCI.A_{avg}+FCI.5f\Longrightarrow CSP.A_{avg}\Longrightarrow OFP.A_{avg}\Longrig
 The stricter same-depth branch
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
 is recorded as an auxiliary strengthening. The final proof does not require this branch as a dependency.
@@ -40,7 +44,7 @@ is recorded as an auxiliary strengthening. The final proof does not require this
 Every final dependency list should record:
 
 ```text
-Source branch used: FFSRC.A -> FCI.5f.
+Source branch used: Hyp(FFSRC.A) -> FCI.5f, with FCC.C1a included.
 Same-depth branch: auxiliary stricter route, not part of the final dependency spine.
 ```
 
@@ -62,5 +66,5 @@ READ.COVER,
 The final source branch is selected and unambiguous:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
