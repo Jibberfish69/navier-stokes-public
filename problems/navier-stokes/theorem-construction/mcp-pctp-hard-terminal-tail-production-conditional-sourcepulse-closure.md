@@ -9,7 +9,8 @@ active math frontier.
 
 Conditional closure of the full terminal-tail production chain.
 
-The active averaged route has collapsed `PCTP.hard / TTU.A` to one remaining source-control primitive:
+This historical source-pulse route collapsed the branch to one source-control
+primitive:
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
@@ -17,10 +18,13 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 ## Theorem
 
-Assume
+At the current exactness standard, the conditional theorem also requires the
+same-tail Field-admission input.  Assume
 
 ```math
-OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A,
+\qquad
+SCFBaseLocalModulus_N\text{ on the admitted terminal tail}.
 ```
 
 Then the installed TGC/AACT/AVG/READ assembly produces
@@ -89,10 +93,16 @@ This supplies the terminal-tail retained Pack/Part/Field/tower readout required 
 
 ## Boundary
 
-This is a conditional closure. The exact remaining theorem is still
+This is a conditional closure. The exact remaining original-data theorem is not
+only the source-control statement; the current route also needs the same-tail
+Field-admission input:
 
 ```math
-OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A,
+\qquad
+OriginalSmoothData\Longrightarrow SCFBaseLocalModulus_N
+\text{ on admitted terminal tails}.
 ```
 
-Once that source-control theorem is installed, this note promotes to the unconditional full `PCTP.hard` terminal-tail production closure.
+Only after both inputs are installed does this historical note promote to the
+full `PCTP.hard` terminal-tail production closure.
