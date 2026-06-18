@@ -109,13 +109,13 @@ The intended reduction is:
 
 1. The strict low-mode parts of `\mathcal{T}^{LH}_{j,n}` and `\mathcal{T}^{HL}_{j,n}`, isolated in `theorem-construction/scale-paraproduct-reduction-lemma.md`, are reduced to `\mathcal{L}_N^{(n)}(t)E_N^{(n)}(t)` plus an arbitrarily small dissipation fraction.
 2. Replacing `S_{j-4}` with `S_{N-4}` creates two different remainder packets: a threshold-local spill collar handled by `theorem-construction/scale-spill-reduction-lemma.md`, and a lifted high-side remainder which remains separate from the genuine high-high packet.
-3. The genuine high-high packet is reduced to a cubic dyadic tail by `scale-high-high-near-diagonal-reduction-lemma.md` and absorbed by `scale-cubic-tail-absorption-lemma.md`.
+3. The genuine high-high packet is reduced to a cubic dyadic tail by `scale-high-high-near-diagonal-reduction-lemma.md` and is usable only through the `scale-cubic-tail-absorption-lemma.md` coefficient-margin estimate with `N>=N_*` and a fixed `0<eta<1` dissipation fraction.
 4. The lifted high-side remainder is now reduced, by `scale-lifted-band-stress-strain-flux-repair.md`, to a single coupled mesoscopic stress-strain flux theorem `(L-Flux)` rather than a shellwise leakage estimate.
-5. After summing in `j` and integrating in time, the strict low, spill, genuine high-high, and lifted flux bounds are absorbed into the viscous term and the remaining remainder becomes `C_0 2^{-2\delta N}`.
+5. After summing in `j` and integrating in time, the strict low, spill, genuine high-high, and lifted flux bounds must each contribute a displayed fraction of the viscous term whose total is `<1`; under that condition the remaining remainder becomes `C_0 2^{-2\delta N}`.
 
 ## Why This Is Smaller Than The Whole Bridge
 
-Once the transport-defect bound above is established, the scale-barrier bridge itself is already packaged: viscous absorption yields the tail bound, and the compactness and gradient packages consume that tail bound downstream. So this lemma is the exact residual local burden, not a restatement of the entire bridge.
+Once the transport-defect bound above is established, the scale-barrier bridge itself is already packaged: the retained viscous margin yields the tail bound, and the compactness and gradient packages consume that tail bound downstream. So this lemma is the exact residual local burden, not a restatement of the entire bridge.
 
 ## Precise Missing Step
 

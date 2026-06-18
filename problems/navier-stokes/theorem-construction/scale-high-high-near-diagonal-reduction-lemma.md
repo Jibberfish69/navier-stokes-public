@@ -144,15 +144,15 @@ C \sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}(t)\|_{L^2_x}^3.
 ## Consequence
 
 The genuine scale-side high-high packet has been reduced to one concrete cubic
-dyadic tail. The remaining work is the downstream absorption estimate for that
-tail together with separate theorem-grade control of the lifted high-side
-remainder.
+dyadic tail. The remaining work is the downstream coefficient-margin estimate
+for that tail together with separate theorem-grade control of the lifted
+high-side remainder.
 
 ## Honest Boundary
 
 This lemma is fully discharged as a reduction lemma for the genuine high-high
 packet on the classical dyadic surface. It does not by itself prove the cubic
-tail absorption bound
+tail coefficient-margin bound
 
 ```math
 \int_0^T \sum_{j\ge N-M} 2^j \|\Delta_j u^{(n)}(t)\|_{L^2_x}^3\,dt

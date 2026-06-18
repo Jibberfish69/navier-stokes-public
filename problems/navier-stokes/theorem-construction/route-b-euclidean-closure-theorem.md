@@ -6,8 +6,7 @@ Record the downstream Euclidean discharge/export route for the classical
 Navier-Stokes theorem without importing the old geometric carrier.
 
 This note is no longer the primary internal branch lock. It is the whole-space
-`R^3` export packet that would have to be proved after the torus-first internal
-route closes.
+`R^3` export packet required after the torus-first internal route closes.
 
 This note is the repo-faithful Route B pipeline as a compressed theorem packet:
 
@@ -147,7 +146,7 @@ The nonlinear term is handled by the live lemma stack:
 1. strict low-mode paraproduct reduction,
 2. threshold-local spill collar isolation,
 3. lifted high-side remainder plus genuine high-high isolation,
-4. cubic-tail absorption.
+4. cubic-tail coefficient-margin estimate.
 
 The declared Route B package wants the strict low-mode packet to reduce to the fixed-coefficient form
 
@@ -433,4 +432,4 @@ So the Euclidean closure package implemented here is:
 - [theorem-construction/body1-half-derivative-lifted-band-gain-target.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/body1-half-derivative-lifted-band-gain-target.md)
 - [theorem-construction/coupled-lifted-band-gain-target.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/coupled-lifted-band-gain-target.md)
 - [theorem-construction/gradient-commutator-remainder-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-commutator-remainder-lemma.md)
-- [theorem-construction/gradient-cubic-tail-absorption-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-cubic-tail-absorption-lemma.md)
+- [theorem-construction/gradient-cubic-tail-absorption-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-cubic-tail-absorption-lemma.md) (coefficient-margin estimate)

@@ -206,7 +206,7 @@ For `(PTCL.3i)`, let `u,v` be unit vectors. Then
 ```
 
 by Cauchy--Schwarz, which gives `(PTCL.3i)`. The bound `(PTCL.3j)` is
-immediate from
+the operator identity
 `\|r\otimes r\|_{\mathrm{op}}=|r|^2`, and `(PTCL.3k)` follows from
 `(PTCL.3f)` together with
 `\|WB^*\|_{\mathrm{op}},\|BW^*\|_{\mathrm{op}}\le \|W\|_{\mathrm{op}}\|B\|_{\mathrm{op}}`. ∎
@@ -284,7 +284,7 @@ averaged differentiability packet.
 Split the integral of `|r_{ab}(t)|^2` over
 `E_{J,\varepsilon}(t,a)` and its complement. On the complement, use
 `(PTCL.3l)`; on the exceptional set, use `(PTCL.3m)`. This gives `(PTCL.3n)`,
-and `(PTCL.3q)` is immediate. ∎
+and `(PTCL.3q)` follows from the same split. ∎
 
 ### Proposition PTCL.D (weighted pricing of differentiability-in-measure exceptional sets implies `PTC-Lin.A`)
 
@@ -524,10 +524,9 @@ Then
 uniformly in `(J,\varepsilon,t,a)`. This is exactly `(PTCL.3y)`, so
 Proposition `PTCL.E` applies. ∎
 
-### Corollary PTCL.H (the standard selector-scale realization makes bounded collar support automatic)
+### Corollary PTCL.H (the selector-scale coordinate realization makes bounded collar support automatic)
 
-Assume the selector-good pair family is realized in the standard reference
-coordinates
+Assume the selector-good pair family is realized in the reference coordinates
 
 ```math
 \xi_{ab}:=b-a
@@ -563,7 +562,7 @@ Then bounded collar support `(PTCL.3ac)` is automatic. More precisely:
 \tag{PTCL.3al}
 ```
 
-Therefore, under the standard selector-scale coordinate choice, `PTCL.F` is
+Therefore, under the selector-scale coordinate choice `(PTCL.3ai)`, `PTCL.F` is
 not an additional theorem burden: it is a direct consequence of the already
 installed active-pair scale selection.
 
@@ -573,9 +572,9 @@ pair family. Substituting the two realizations in `(PTCL.3ai)` yields
 `(PTCL.3ak)` and `(PTCL.3al)`, which are exactly the bounded-support forms
 required in `PTCL.F`. ∎
 
-### Corollary PTCL.I (under the standard selector-scale realization, `PTC-Lin.A` reduces to measure-small differentiability exceptional sets)
+### Corollary PTCL.I (under the selector-scale coordinate realization, `PTC-Lin.A` reduces to measure-small differentiability exceptional sets)
 
-Assume the standard selector-scale coordinate choice `(PTCL.3ai)` and the
+Assume the selector-scale coordinate choice `(PTCL.3ai)` and the
 active-pair scale packet `(PTCL.3aj)`. Assume moreover that for every fixed
 tolerance `\eta>0`,
 
@@ -587,7 +586,7 @@ tolerance `\eta>0`,
 
 Then `(PTCL.3v)` holds, hence `PTCL.D` applies and `PTC-Lin.A` is discharged.
 
-So on the standard selector-good branch, the live linearization burden is
+So on the selector-scale branch, the live linearization burden is
 reduced all the way to one theorem:
 
 ```math
@@ -604,9 +603,9 @@ support `(PTCL.3ac)`. Corollary `PTCL.F` then upgrades `(PTCL.3am)` to
 `(PTCL.3v)`. Proposition `PTCL.D` converts `(PTCL.3v)` into averaged
 differentiability `(PTCL.3w)`, and Corollary `PTCL.B` yields `PTC-Lin.A`. ∎
 
-### Corollary PTCL.J (`TPS.4u` is one exact sufficient realization of `DiffExc` on the standard selector-scale branch)
+### Corollary PTCL.J (`TPS.4u` is one exact sufficient realization of `DiffExc` on the selector-scale branch)
 
-Assume the standard selector-scale coordinate choice `(PTCL.3ai)` and the
+Assume the selector-scale coordinate choice `(PTCL.3ai)` and the
 active-pair scale packet `(PTCL.3aj)`. Assume also that the selector-good
 transport packet supplies
 
@@ -619,7 +618,7 @@ with `r_J` negligible in pair measure relative to `|a-b|` on the selector-good
 family in the sense of `(TPS.4u)`.
 
 Then `DiffExc` holds, i.e. `(PTCL.3am)` is satisfied. Consequently, on the
-standard selector-scale branch,
+selector-scale branch,
 
 ```math
 \texttt{TPS.4u}
@@ -663,7 +662,7 @@ localization and `L^{p/2}` control of the thresholded exceptional-set measure
 at the J-dependent schedule `\vartheta_{J,\tau}^{lin}(a)`, not only vanishing
 for each fixed tolerance `\eta`.
 
-So the standard selector-scale implication
+So the selector-scale implication
 
 ```math
 \texttt{TPS.4u}
@@ -677,7 +676,7 @@ does not by itself cross the synchronized frozen wall.
 
 ### Corollary PTCL.L (one exact stronger realization of the frozen geometric wall)
 
-On the standard selector-scale branch, the frozen geometric wall admits the
+On the selector-scale branch, the frozen geometric wall admits the
 exact stronger sufficient realization
 
 ```math
@@ -732,7 +731,7 @@ selector-weighted pricing theorem for the differentiability-in-measure
 exceptional family. After `PTCL.E`, this becomes a selector-pair uniform
 integrability theorem for `|\xi_{ab}|^2`, with bounded collar support
 `(PTCL.3ac)` or de la Vallée-Poussin control `(PTCL.3af)` as exact sufficient
-realizations. Under the standard selector-scale coordinate choice `(PTCL.3ai)`,
+realizations. Under the selector-scale coordinate choice `(PTCL.3ai)`,
 the bounded-collar route is already implied by the installed active-pair scale
 packet `(PTCL.3aj)`, so the live burden reduces further to selector-smallness
 of the differentiability exceptional family `(PTCL.3am)`. One exact sufficient
@@ -777,7 +776,7 @@ It must be paired with
 [ptc-shape-normalization-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/ptc-shape-normalization-closure.md)
 to obtain `D.7mq`.
 
-Under the standard selector-scale coordinate choice `(PTCL.3ai)`, Corollary
+Under the selector-scale coordinate choice `(PTCL.3ai)`, Corollary
 `PTCL.J` gives one installed source-backed supplier for the linearization side:
 
 ```math
@@ -793,7 +792,7 @@ Therefore, together with
 [ptc-linearization-and-shape-closure.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/ptc-linearization-and-shape-closure.md)
 and
 [sg4-and-br-lambda2-handoff.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/sg4-and-br-lambda2-handoff.md),
-the standard-selector exact-potential branch now reads:
+the selector-scale exact-potential branch now reads:
 
 ```math
 \texttt{TPS.4u}

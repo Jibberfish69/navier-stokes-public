@@ -43,7 +43,7 @@ The remaining scale-side theorem burden is discharged once one proves
 
 for all large `N`, with constants uniform on the same classical approximation surface.
 
-This bound is now supplied by `scale-cubic-tail-absorption-lemma.md`.
+This bound is now supplied by the coefficient-margin estimate in `scale-cubic-tail-absorption-lemma.md`.
 
 ## Reduction Interface
 
@@ -55,7 +55,7 @@ This bound is now supplied by `scale-cubic-tail-absorption-lemma.md`.
 
 ## Theorem Interface
 
-Once the displayed bound holds, the scale-barrier transport defect closes on the classical equation and Proposition S.1 of the scale package follows after viscous absorption. That tail estimate then feeds the compactness and gradient packages on the same theorem surface.
+Once the displayed bound holds, the scale-barrier transport defect closes on the classical equation and Proposition S.1 of the scale package follows after the viscous margin is retained. That tail estimate then feeds the compactness and gradient packages on the same theorem surface.
 
 ## Equivalent Cubic Tail Form
 
@@ -67,13 +67,13 @@ By `scale-high-high-near-diagonal-reduction-lemma.md`, it is enough to prove
 \eta\nu\int_0^T D_N^{(n)}(t)\,dt + C_0 2^{-2\delta N}.
 ```
 
-This cubic-tail form is the intended input for
+This cubic-tail form is the intended input for the coefficient-margin estimate in
 `scale-cubic-tail-absorption-lemma.md`.
 
 ## Honest Boundary
 
 This object remains part of the proof-critical packet stack on the classical
 theorem surface. Under the stricter audit standard it does not yet count as
-fully discharged merely because the downstream cubic-tail absorption lemma has
+fully discharged merely because the downstream cubic-tail coefficient lemma has
 been isolated. The separate lifted high-side remainder left over after the
 threshold-local spill collar is separated is not part of this packet.

@@ -100,7 +100,7 @@ while the genuine high-high packet is tracked separately in
 - `domain`: one fixed classical approximation family on `(0,T)\times\mathbb{R}^3`.
 - `codomain`: a nonnegative high-side transport-defect density and its time integral.
 - `admissibility`: original Euclidean Navier-Stokes dynamics only, with the strict low-mode reduction already extracted.
-- `invariance`: pressure gauge invariant and stable under equivalent dyadic partitions up to harmless constants.
+- `invariance`: pressure gauge invariant and stable under equivalent dyadic partitions up to fixed constants.
 - `theorem_interface`: this is the exact unresolved packet inside the classical scale-barrier functional after the readable low-mode pieces are removed.
 - `critical_scale_measure`: the dissipation tail `D_N^{(n)}` and the integrated transport into frequencies `j\ge N`.
 - `closure_mechanism`: absorb an `\eta`-fraction of dissipation and leave a summable dyadic remainder.
@@ -146,8 +146,9 @@ The live scale-side frontier is now:
 
 The cleanest unresolved theorem question is whether `\mathcal{T}^{lift}_{j,n}`
 can still be reduced to the admissible coefficient surface
-`\mathcal{L}_N^{(n)}E_N^{(n)}` plus a harmless dissipation fraction, or whether
-it forces a refined intermediate high-side coefficient.
+`\mathcal{L}_N^{(n)}E_N^{(n)}` plus an explicitly budgeted dissipation fraction
+`\varepsilon D_N^{(n)}`, with `\varepsilon` chosen before the lift estimate, or
+whether it forces a refined intermediate high-side coefficient.
 
 The new note `scale-kernelized-lifted-band-reduction-lemma.md` sharpens this
 frontier: at exact shell level, the lifted scale-side packet does carry a real
@@ -171,7 +172,7 @@ same-scale spill are no longer genuinely new theorem targets on this route.
 
 ## Diagnostic Naive Bound
 
-For the lifted low-high term, one immediately gets
+For the lifted low-high term, one gets
 
 ```math
 \left|
@@ -186,7 +187,7 @@ C_{naive}
 2^j\|\Delta_j u^{(n)}\|_{L^2_x}^2.
 ```
 
-The obstruction is immediate: the coefficient sum now ranges with `j`, so it is
+The obstruction already appears: the coefficient sum now ranges with `j`, so it is
 not controlled by the fixed-cutoff low-mode quantity `\mathcal{L}_N^{(n)}`.
 Moreover, a naive Cauchy-Schwarz bound only yields a supercritical nonclosing
 estimate

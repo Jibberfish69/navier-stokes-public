@@ -109,7 +109,7 @@ Therefore
 \left\langle [\Delta_j,S_{N-4}u^{(n)}\cdot\nabla]\Delta_j u^{(n)},\Delta_j u^{(n)}\right\rangle.
 ```
 
-The standard fixed-gap commutator estimate gives
+The fixed-gap commutator estimate gives
 
 ```math
 \left|\left\langle \mathcal{T}^{SLH}_{j,n},\Delta_j u^{(n)}\right\rangle\right|

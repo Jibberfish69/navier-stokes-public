@@ -261,7 +261,7 @@ Its useful content is:
 
 Its non-useful version is literal fluid quantization.
 
-So this family should be treated only as a possible **survivor dictionary
+So this family is treated only as a possible **survivor dictionary
 classifier**, not as a replacement proof route.
 
 ### Family E++. Exterior algebra branch-map family
@@ -278,12 +278,12 @@ Its useful content is:
 - the alternating/exact package sharpens which visible packets may be
   pressure-like, transport-like, or Lie-dragged rather than genuine growth
   sources;
-- the metric-form package clarifies that forms should carry the antisymmetric
+- the metric-form package clarifies that forms carry the antisymmetric
   side while deformation tensors still carry the symmetric strain burden;
 - the rank/decomposability package gives a real test for whether the survivor
   is simple after the right quotient or irreducibly mixed;
-- the exact-sequence / filtration package suggests the survivor dictionary
-  should be written as a filtration theorem rather than only as an analogy;
+- the exact-sequence / filtration package suggests the survivor dictionary as a
+  filtration theorem rather than only as an analogy;
 - the coalgebra / shuffle package suggests the mixed-jet tower's binomial
   combinatorics may be a shuffle/Hopf phenomenon rather than just Leibniz
   noise.
@@ -295,7 +295,7 @@ This family matters because it preserves several different live uses at once:
 - Eulerian/Lagrangian filtration bridge,
 - tower-combinatorics reinterpretation.
 
-So this family should be treated as the branch-preserving organizer for several
+So this family is treated as the branch-preserving organizer for several
 older failed or half-formed arguments, not as another replacement route.
 
 ### Family E+++. Tower -> shuffle -> deformation endgame program
@@ -312,14 +312,14 @@ Its useful content is:
 
 - the tower remains the visible engine;
 - transport recentering compresses the mixed spread into a commutator defect;
-- exactness and filtration should define the survivor quotient;
+- exactness and filtration define the survivor quotient;
 - the correct Hopf model is now the divided-power / shuffle-unshuffle law of
   the differentiated product rule, not Hopf-fibration topology or the
   alternating wedge Hopf algebra;
-- reduced coproducts identify the transport commutator defect and should
+- reduced coproducts identify the transport commutator defect and
   explain which part of the tower is composite spread and which part is the
   primitive survivor;
-- the survivor dictionary should then export that primitive class into the
+- the survivor dictionary then exports that primitive class into the
   Lagrangian deformation-geometry commutator burden;
 - the final missing theorem is still the deformation-side drain inequality.
 
@@ -406,7 +406,7 @@ Primary surfaces:
 - [route-hypothesis.yaml](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-hypothesis.yaml)
 - [obstruction-capture.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md)
 
-This family should remain visible for thinking, but it must not overwrite
+This family remains visible for thinking, but it must not overwrite
 authority.
 
 ## 4. What the audit says these families are actually doing
@@ -444,8 +444,8 @@ The strongest new synthesis from the modernization is:
 }
 ```
 
-So the dyadic packet, the tower packet, and the deformation packet should no
-longer be treated as separate universes.
+So the dyadic packet, the tower packet, and the deformation packet are no
+longer treated as separate universes.
 
 ### Synthesis 3. Body III is mostly downstream now
 
@@ -474,13 +474,12 @@ This is much cleaner than treating all four-body language as equally deep.
 
 ## 5. Hard dead ends and demotions
 
-The audit also says some things should stop being treated as live theorem hope.
+The audit also says some things are no longer live theorem hope.
 
 ### Dead end A. Pure quadratic weighted-Gram closure
 
-The dream that a bare quadratic Eulerian weighted-Gram energy would directly
-produce the desired YM-style square defect is blocked by the cubic-versus-
-quartic mismatch.
+The bare quadratic Eulerian weighted-Gram target is blocked as a direct source
+of the desired YM-style square defect by the cubic-versus-quartic mismatch.
 
 Primary surfaces:
 
@@ -523,9 +522,9 @@ Examples needing hard demotion include:
 These surfaces are useful as projections or history. They are not allowed to
 outvote the authority stack.
 
-## 6. What should be promoted
+## 6. What is promoted
 
-The following should now be treated as the center of gravity:
+The following are now treated as the center of gravity:
 
 1. the exact live survivor on
    ```math
@@ -549,7 +548,7 @@ It needs two central theorems.
 Make theorem-grade that the serious unresolved packets are the same object in
 different languages, or else state precisely where they cease to be the same.
 
-At minimum, the theorem should relate:
+At minimum, the theorem must relate:
 
 ```math
 \text{lower-prefix scale-memory packet}
@@ -621,7 +620,7 @@ or more generally a one-sided coercive negative rate law strong enough to
 dominate the dangerous roughness.
 
 If a middle observable sector `Y` is needed to connect the classical packet to
-that law, it should be introduced explicitly as a bridge object rather than
+that law, it must be introduced explicitly as a bridge object rather than
 smuggled in through ontic language.
 
 ### Step 3. Export the drain to the tower
@@ -653,7 +652,7 @@ This is the modern exact form of `4 -> 1`.
 
 Use compactness only as exact same-surface object production.
 
-By this point it should transmit:
+By this point compactness must transmit:
 
 - the exact classical field,
 - the exact survivor packet,
@@ -664,14 +663,14 @@ without creating a new conceptual center of gravity.
 ### Step 6. Discharge the closed-loop warrant
 
 Once the stronger Body I theorem and the upgraded Body IV theorem are proved on
-the same classical surface, the closed-loop warrant should stop being a slogan
+the same classical surface, the closed-loop warrant stops being a slogan
 and become a theorem packet.
 
 That is the moment where Route `B / C3` can compress into a final proof.
 
 ### Step 7. Rewrite the paper around the convergence kernel
 
-At that point the paper architecture should become:
+At that point the paper architecture becomes:
 
 1. classical target and route discipline,
 2. four-body contract,
@@ -689,7 +688,7 @@ So the sharpest current synthesis is:
 
 ```math
 \boxed{
-\text{the final NS proof should converge around one historical survivor complex}
+\text{the final NS proof target is convergence around one historical survivor complex}
 }
 ```
 
@@ -703,7 +702,7 @@ So the sharpest current synthesis is:
 }
 ```
 
-Everything serious in the repo should now be judged by one question:
+Everything serious in the repo is now judged by one question:
 
 ```math
 \boxed{

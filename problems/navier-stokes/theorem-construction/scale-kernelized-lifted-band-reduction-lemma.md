@@ -129,7 +129,8 @@ So only the commutator remains:
 \right\rangle.
 ```
 
-The standard kernel commutator estimate gives
+The kernel commutator estimate, using the cancellation of the `\Delta_j`
+kernel and the gap `k<j`, gives
 
 ```math
 \|[\Delta_j,\Delta_k u^{(n)}\cdot\nabla]\widetilde\Delta_j u^{(n)}\|_{L^2_x}

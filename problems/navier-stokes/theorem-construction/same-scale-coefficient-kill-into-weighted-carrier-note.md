@@ -12,7 +12,7 @@ same-scale coefficient term
 
 It does **not** prove the stronger coefficient-free same-scale theorem `(SS)`.
 What it does prove is that the coefficient term appearing in the model theorem
-`(SS^\sharp)` is already absorbed by the installed weighted carrier
+`(SS^\sharp)` is already included in the installed weighted carrier
 `\widetilde\Lambda_N^\sharp E_N` on the derivative-weighted spectral route.
 
 So this note kills `(1)` as a **separate barrier-scale burden**, even though it
@@ -69,8 +69,16 @@ C_{ss}\le M.
 \tag{6}
 ```
 
-This is harmless: if necessary, enlarge the fixed collar width once and for all
-to `M':=\max\{M,C_{ss}\}`.
+If the original threshold collar has width `M<C_{ss}`, replace it once and for
+all by
+
+```math
+M':=\max\{M,C_{ss}\}.
+```
+
+The proposition below is then read with `M'` in place of `M`.  This changes only
+the fixed collar constant; it introduces no dependence on `N`, `t`, or the
+solution and it does not assert any amplitude comparability between shells.
 
 ## Proposition
 
@@ -130,7 +138,7 @@ Multiplying by `2^{3N}` gives the first inequality in `(7)`:
 \tag{11}
 ```
 
-The second inequality in `(7)` is immediate from `(4)` because `\Lambda_N(t)\ge
+The second inequality in `(7)` is `(4)` together with `\Lambda_N(t)\ge
 0`:
 
 ```math
@@ -187,8 +195,8 @@ C_{ms,*}2^{-2\delta N}.
 ```
 
 Hence, on the weighted spectral carrier-floor-leakage surface, the same-scale
-side is no longer a distinct analytic burden. It has been reabsorbed into the
-already-installed carrier term.
+side is no longer a distinct analytic burden. It is dominated by the
+already-installed carrier term `\widetilde\Lambda_N^\sharp E_N`.
 
 ## Exact meaning of “kill” here
 
@@ -218,8 +226,8 @@ C_{a,*}2^{-2\delta N}.
 \tag{SS}
 ```
 
-It proves only that the coefficient-bearing term in `(SS^\sharp)` is already
-absorbed by the live weighted carrier.
+It proves only that the coefficient-bearing term in `(SS^\sharp)` is bounded by
+the live weighted carrier through `(7)` and the carrier estimates above.
 
 So the strong coefficient-free theorem `(SS)` remains open if one insists on a
 standalone same-scale packet theorem independent of

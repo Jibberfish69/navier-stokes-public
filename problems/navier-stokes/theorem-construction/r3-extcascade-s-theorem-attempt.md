@@ -62,11 +62,11 @@ then Gronwall yields
 \sup_{t<T_*}\|\eta_Ru(t)\|_{H^s}\to0.
 ```
 
-Thus the cascade mechanism would imply `Tail.Hs_R3`.
+Thus the cascade mechanism conditionally implies `Tail.Hs_R3`.
 
 ## Obstruction
 
-The coefficient `int_0^{T_*} ||nabla u||_{L^infty}` is continuation-grade. Spending it here would assume the high-order control that the R3 branch aims to prove. Exterior `L^2` tightness and compact-core tower bounds leave high-frequency derivative packets at spatial infinity uncontrolled.
+The coefficient `int_0^{T_*} ||nabla u||_{L^infty}` is continuation-grade. Spending it here assumes the high-order control that the R3 branch aims to prove. Exterior `L^2` tightness and compact-core tower bounds leave high-frequency derivative packets at spatial infinity uncontrolled.
 
 ## Verdict
 

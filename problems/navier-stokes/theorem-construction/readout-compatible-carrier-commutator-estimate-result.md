@@ -91,4 +91,4 @@ Adding both pieces proves the estimate.
 
 ## Boundary
 
-The base `D.2` estimate from `H.1` controls the `L^2` commutator. The readout-compatible leakage bound requires the lifted `H_D^s` surface above. A base-energy estimate of the displayed `H_D^s` norm would need an additional smoothing or finite-dimensional uniformity theorem.
+The base `D.2` estimate from `H.1` controls the `L^2` commutator. The readout-compatible leakage bound requires the lifted `H_D^s` surface above. A base-energy estimate of the displayed `H_D^s` norm requires an additional smoothing or finite-dimensional uniformity theorem.

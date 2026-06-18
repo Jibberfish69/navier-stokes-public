@@ -6,8 +6,8 @@ Frontier schema inventory for the remaining Euclidean regularity upgrade on the
 classical three-dimensional incompressible Navier-Stokes equation.
 
 This note does not discharge the Clay gap. Its job is to state, on one fixed
-classical surface, the admissible theorem shapes that would close the final
-vorticity/gradient continuation burden if any one of them were proved from the
+classical surface, the admissible theorem shapes sufficient to close the final
+vorticity/gradient continuation burden, provided one is proved from the
 Navier-Stokes dynamics itself.
 
 ## Classical Surface
@@ -68,8 +68,8 @@ or a critical substitute strong enough to imply one of those bounds on the same
 classical solution surface.
 
 The point is not to restate BKM or Serrin as a closure. The point is to record
-the exact kind of new theorem that would have to be proved in order to convert
-those continuation criteria into a genuine global regularity proof.
+the exact new theorem required to convert those continuation criteria into a
+genuine global regularity proof.
 
 ## Theorem A. Critical Coercive Dissipation
 
@@ -296,7 +296,8 @@ For low frequencies, Bernstein and Cauchy-Schwarz give
 2^{\frac32 J}\|\omega\|_{L^2_x}.
 ```
 
-That part is harmless.
+For fixed `J`, this low-frequency block is bounded by the displayed finite
+constant.
 
 The high-frequency block is the real obstruction. Bernstein only yields
 
@@ -309,7 +310,7 @@ The high-frequency block is the real obstruction. Bernstein only yields
 ```
 
 so summing over `j>J` does **not** produce a decaying factor `2^{-J/2}` from
-`H^1` control alone. Instead, the exponent still grows like `2^{j/2}`. In
+`H^1` control alone. Instead, the displayed bound still contains the factor `2^{j/2}`. In
 particular, the attempted bound
 
 ```math
@@ -380,7 +381,7 @@ It packages the exact endpoint statement
 \sum_{j\ge 0} 2^{\frac32 j}\,\|\Delta_j\omega\|_{L^1_tL^2_x(0,T)} < \infty
 ```
 
-as the live theorem object whose proof would close Theorem D.
+as the live theorem object whose proof closes Theorem D.
 
 ### Endpoint Defect
 
@@ -404,7 +405,7 @@ loss.
 
 ## Unified Closure Principle
 
-Each of the schemas above would imply a bound of the form
+Each of the schemas above implies a bound of the form
 
 ```math
 \|\nabla u\|_{L^1(0,T;L^\infty_x)} \le F(\|u_0\|_{H^s})
@@ -418,7 +419,7 @@ for every finite `T`, and therefore the standard high-regularity estimate
 C\|\nabla u(t)\|_{L^\infty_x}\|u(t)\|_{H^s}
 ```
 
-would force a global `H^s` bound and smooth continuation.
+forces a global `H^s` bound and smooth continuation.
 
 ## Honest Frontier Statement
 
@@ -440,13 +441,13 @@ What remains open:
 The strongest currently available internal route is the export theorem recorded
 in
 [carrier-coherence-defect-to-low-mode-strain-suppression.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/carrier-coherence-defect-to-low-mode-strain-suppression.md).
-That theorem would not prove regularity by a raw classical endpoint upgrade. It
-would export the carrier coherence defect and spectral-gap leakage control
-directly into the classical low-frequency strain bound that underlies the H2
-target.
+That theorem does not prove regularity by a raw classical endpoint upgrade. Its
+required output is the carrier coherence defect and spectral-gap leakage control
+exported directly into the classical low-frequency strain bound that underlies
+the H2 target.
 
 So the final unresolved burden is not the continuation criterion itself. It is
-the missing critical-space or critical-geometry control that would make that
+the missing critical-space or critical-geometry control required to make that
 criterion global.
 
 ## Interfaces

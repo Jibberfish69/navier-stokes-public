@@ -123,8 +123,8 @@ fixed region in the relative variable `\rho`.
 
 ## Exact directions and survivor map
 
-The lifted profile should not be measured directly.
-It should be measured modulo the directions already shown to be irrelevant.
+The measured object is the lifted relative-scale profile after quotienting out
+the directions already shown to be irrelevant.
 
 Let
 
@@ -243,8 +243,8 @@ So the full compactness architecture would become:
 
 ## A new notion of order on the quotient
 
-This quotient theory should not be ordered primarily by integer derivative
-count.
+This quotient theory is ordered by a persistence filtration rather than
+primarily by integer derivative count.
 
 Instead, define a persistence filtration
 
@@ -304,8 +304,8 @@ What it does fix is the correct formal target:
 1. the raw velocity space is too coarse to see the moving meso band;
 2. the relevant object is a lifted relative-scale profile on `\mathcal T_\kappa`;
 3. the correct compactness notion is modulo exact/collar-trivial directions;
-4. the remaining persistent modes should be measured by a new persistence order,
-   not by ordinary derivative order alone.
+4. the remaining persistent modes are measured by the proposed persistence
+   order, not by ordinary derivative order alone.
 
 So the next route question is precise:
 

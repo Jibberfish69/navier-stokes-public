@@ -58,7 +58,7 @@ RetainedFaceAmplitudeGain.A. Any retained field-face amplitude gain admissible f
 - central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, Field_{N,r,Q},
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - - 'Before promotion, run the bridge-license question: does this result enter Pack_Q,
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - Define or prove: Added four theorem-construction reductions. (1) strict-shadow-no-remainder-corollary.md: under the exact strict-shadow identities already present on the lane, ShadowDef(X) and E_sh(X) vanish identically, so the exact Route 
 - Define or prove: Reduced the live Navier-Stokes route stack against the Clay whole-space target into exact source-backed ingredients already present on the lane. On the classical side, isolated the mixed-jet system, the exact rung-level can
 - Define or prove: For the mixed-jet tower J_ m,alpha  = \partial_t^m \partial_x^\alpha u and differentiated pressure \Pi_ m,alpha , fix s > 3/2. Using the H^s algebra property and the order-1 Calderon-Zygmund bound for the pressure operator,

@@ -27,7 +27,7 @@ CritExit_{H^{1/2}}(\mathcal W)
 ## Installed cells used
 
 1. `SameLedgerHHalfExtraction.A`: a terminal critical `H^{1/2}` shell either lands at `\neg Pack_Q`, lands at `\neg Part_{N,Q}`, or becomes a same-ledger localized dyadic packet.
-2. `FieldFiniteDifferenceReadoutHHalf.A`: the actual `Field_{N,r,Q}` service supplies the matched finite-difference/tower-coherence modulus at `r_J=2^{-J}`.
+2. `FieldFiniteDifferenceReadoutHHalf.A`: the actual `Field_{N,r,Q}` face supplies the matched finite-difference/tower-coherence modulus at `r_J=2^{-J}`.
 3. `FieldCoherenceControlsCriticalShell.A`: that matched modulus controls the critical shell quantity `2^J\|P_Jv\|_2^2`.
 4. `R3CriticalL3WallToCMFace.A`: the amplitude branch of critical concentration lands in the Field face through the local `L^3` translator.
 
@@ -59,7 +59,7 @@ Split the critical `H^{1/2}` signal into amplitude and pure oscillatory alternat
 
 In the amplitude alternative, the critical shell carries local critical size visible through the installed local `L^3` translator. By `R3CriticalL3WallToCMFace.A`, retained Pack+Part sends that terminal concentration to the Field face.
 
-In the pure oscillatory alternative, coarse amplitude remains controlled while the selected half-derivative shell persists. Suppose some positive Field service survives at the matched scale. By `FieldFiniteDifferenceReadoutHHalf.A`, `Field_{N(J_m),r_m,Q}` supplies
+In the pure oscillatory alternative, coarse amplitude remains controlled while the selected half-derivative shell persists. Suppose some positive Field face survives at the matched scale. By `FieldFiniteDifferenceReadoutHHalf.A`, `Field_{N(J_m),r_m,Q}` supplies
 
 ```math
 r_m^{-1}\fint_{c_hr_m\le |h|\le C_hr_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
@@ -75,7 +75,7 @@ By `FieldCoherenceControlsCriticalShell.A`, this gives
 C\mathfrak C_{N(J_m),r_m,Q}(\mathcal W).
 ```
 
-Thus a retained positive Field service controls the same shell quantity selected by the terminal `H^{1/2}` defect. Persistent terminal shell energy beyond the Field budget contradicts retained Field. Hence, on retained Pack+Part,
+Thus a retained positive Field face controls the same shell quantity selected by the terminal `H^{1/2}` defect. Persistent terminal shell energy beyond the Field budget contradicts retained Field. Hence, on retained Pack+Part,
 
 ```math
 \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

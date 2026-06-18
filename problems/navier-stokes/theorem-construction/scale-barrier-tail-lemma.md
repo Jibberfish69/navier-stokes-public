@@ -1,11 +1,11 @@
-# Lemma S.T (Classical Dyadic Tail-Flux Scale Barrier)
+# Lemma S.T (Conditional Classical Dyadic Tail-Flux Scale Barrier)
 
 ## Role
 
-This lemma is the exact upstream scale-barrier theorem on the fixed classical
-approximation surface. Its job is to convert the already localized dyadic
-transport-defect reductions into the uniform high-frequency tail bound needed by
-compactness and the Euclidean fourth bridge.
+This lemma is the conditional upstream scale-barrier theorem on the fixed
+classical approximation surface. Its job is to state the exact hypotheses under
+which localized dyadic transport-defect reductions convert into the uniform
+high-frequency tail bound needed by compactness and the Euclidean fourth bridge.
 
 ## Setting
 
@@ -47,8 +47,21 @@ c_{LP}E_N^{(n)}(t)\le T_N^{(n)}(t)\le C_{LP}E_N^{(n)}(t).
 
 ## Lemma Statement
 
-There exist constants `\delta > 0`, `N_* \in \mathbb N`, and `C_* > 0` such
-that for every `N \ge N_*`,
+Assume the packet estimates `(2)`--`(5)` below and the following
+tail-compatible Gronwall coefficient condition: for some `\delta>0`, `C_G<\infty`,
+and `N_*`,
+
+```math
+\sup_n\left[
+T_N^{(n)}(0)
+\exp\!\left(C\int_0^T\mathcal L_N^{(n)}(s)\,ds\right)
+\right]
+\le
+C_G 2^{-2\delta N}
+\qquad (N\ge N_*).
+```
+
+Then there exists `C_* > 0` such that for every `N \ge N_*`,
 
 ```math
 \sup_n \int_0^T \|P_{\ge N}u^{(n)}(t)\|_{L_x^2}^2 \, dt
@@ -57,7 +70,7 @@ C_* 2^{-2\delta N}.
 ```
 
 Equivalently, the dangerous high-frequency tail is summably small on the fixed
-classical approximation family.
+classical approximation family under the displayed coefficient hypothesis.
 
 ## Proof
 
@@ -126,7 +139,7 @@ C_*2^{-2\delta N}.
 
 The genuine high-high packet is then reduced to a near-diagonal cubic tail by
 [scale-high-high-near-diagonal-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-high-high-near-diagonal-reduction-lemma.md)
-and then absorbed for all large cutoffs by
+and then controlled for all large cutoffs by the coefficient-margin estimate in
 [scale-cubic-tail-absorption-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-cubic-tail-absorption-lemma.md):
 
 ```math
@@ -157,8 +170,10 @@ For fixed `N`, the low-mode coefficient satisfies
 1 + C 2^{3N/2}\|u^{(n)}(t)\|_{L_x^2},
 ```
 
-so `\mathcal L_N^{(n)} \in L_t^\infty \cap L_t^1` uniformly on `[0,T]`.
-Gronwall applied to `(6)` yields
+so `\mathcal L_N^{(n)} \in L_t^\infty \cap L_t^1` on `[0,T]`.  This is enough
+to apply Gronwall at fixed `N`; it is not enough to preserve a summable tail as
+`N\to\infty`, because the displayed bound contains the factor `2^{3N/2}`.  Gronwall
+applied to `(6)` gives the exact estimate
 
 ```math
 T_N^{(n)}(t)
@@ -168,14 +183,22 @@ T_N^{(n)}(0)\,
 \tag{7}
 ```
 
-Because the data are smooth and compactly supported,
+Hence
 
 ```math
-T_N^{(n)}(0)\le C_0 2^{-2\delta N}
+\int_0^T T_N^{(n)}(t)\,dt
+\le
+T\,T_N^{(n)}(0)
+\exp\!\left(C\int_0^T \mathcal L_N^{(n)}(s)\,ds\right).
+\tag{8}
 ```
 
-for some `\delta>0` uniform in the approximation family. Integrating `(7)` in
-time and absorbing the harmless time-integral factor into the constant gives
+The needed initial tail bound is part of the coefficient hypothesis above.
+Pointwise smoothness of each approximant does not by itself give a uniform
+`C_0,\delta` for the whole approximation family.  The conclusion follows only
+when the uniform initial tail and the tail-compatible coefficient bound are
+both supplied; without them, the Gronwall factor in `(8)` can destroy the
+`2^{-2\delta N}` decay.  Under the hypothesis,
 
 ```math
 \sup_n \int_0^T T_N^{(n)}(t)\,dt
@@ -184,7 +207,9 @@ C_* 2^{-2\delta N},
 \qquad N \ge N_*.
 ```
 
-This proves the dyadic scale barrier **conditional on `(L-Flux)`**.
+This proves the dyadic scale barrier conditional on `(L-Flux)` and the
+tail-compatible Gronwall coefficient bound.  Energy control alone does not
+prove that coefficient bound.
 
 ## Object Slots
 
@@ -194,14 +219,15 @@ This proves the dyadic scale barrier **conditional on `(L-Flux)`**.
 - `invariance`: pressure gauge and equivalent dyadic partitions
 - `theorem_interface`: exact upstream input for compactness and gradient continuation
 - `critical_scale_measure`: `T_N^{(n)}` / `E_N^{(n)}` and the dissipation tail
-- `closure_mechanism`: paraproduct reduction, spill reduction, high-high absorption, and Gronwall on the admissible low-mode coefficient
+- `closure_mechanism`: paraproduct reduction, spill reduction, high-high coefficient margin, `(L-Flux)`, and Gronwall under the tail-compatible coefficient hypothesis
 - `gradient_transfer_role`: supplies the same dyadic barrier later recertified by the Euclidean fourth bridge
 
 ## Honest Boundary
 
 This lemma remains a theorem-construction target on the fixed classical
-Euclidean surface. Under the stricter audit standard, the remaining live burden
-is proposition-level packet alignment together with the coupled lifted-band
-flux theorem `(L-Flux)` from
-`scale-lifted-band-stress-strain-flux-repair.md`; without that theorem-grade
-lifted estimate, the proposition cannot honestly count as closed.
+Euclidean surface. Under the stricter audit standard, the remaining live burdens
+are proposition-level packet alignment, the coupled lifted-band flux theorem
+`(L-Flux)` from `scale-lifted-band-stress-strain-flux-repair.md`, and the
+tail-compatible Gronwall coefficient bound displayed in the lemma statement.
+Without those theorem-grade inputs, the proposition cannot honestly count as
+closed.

@@ -1,8 +1,11 @@
-# Scale Cubic-Tail Absorption Lemma
+# Scale Cubic-Tail Coefficient-Margin Lemma
 
 ## Purpose
 
-This note closes the remaining scale-side burden. Once the genuine high-high packet has been reduced to a near-diagonal cubic dyadic tail, the uniform energy bound supplies an extra factor `2^{-N}` that makes the packet absorbable into dissipation for all large cutoffs.
+This note closes the remaining scale-side burden conditionally on an explicit
+large-cutoff fraction. Once the genuine high-high packet has been reduced to a
+near-diagonal cubic dyadic tail, the uniform energy bound supplies an extra
+factor `2^{-N}`.
 
 ## Exact Statement
 
@@ -14,7 +17,9 @@ Let `\mathfrak{H}^{scale,HH}_{N}[u^{(n)}](t)` be the genuine high-high packet fr
 \frac{\eta\nu}{2}\int_0^T D_N^{(n)}(t)\,dt.
 ```
 
-In particular, the scale-side genuine high-high packet is absorbed with no extra theorem burden beyond choosing `N` large enough.
+In particular, the scale-side genuine high-high packet is spendable only through
+the displayed estimate with `N >= N_*`, leaving the remaining viscous
+dissipation on the left.
 
 ## Proof
 
@@ -61,7 +66,7 @@ Therefore
 C\,2^{-(N-M)} C_E^{1/2}\sum_{j\ge N-M}2^{2j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
 ```
 
-Absorb the finite dyadic collar into the threshold and write the right-hand side as
+Move the finite dyadic collar into the threshold and write the right-hand side as
 
 ```math
 \le
@@ -72,7 +77,7 @@ Choose `N_*` so that `C' 2^{-N} C_E^{1/2} \le \eta\nu/2` for all `N \ge N_*`. In
 
 ## Consequence
 
-This lemma supplies the intended cubic-tail absorption mechanism on the
+This lemma supplies the intended cubic-tail coefficient-margin mechanism on the
 classical equation. Under the stricter audit standard, however, the scale-side
 bridge does not yet count as fully discharged until the packet reductions are
 expanded line by line and audited inside the live theorem surface.

@@ -86,7 +86,9 @@ The route only becomes theorem-bearing if the right-hand side is bounded by an a
 6. Reduce the genuine high-high packet itself to a near-diagonal cubic tail by `scale-high-high-near-diagonal-reduction-lemma.md`.
 7. Absorb that cubic tail into dissipation for all large cutoffs by `scale-cubic-tail-absorption-lemma.md`.
 8. Keep the lifted high-side remainder explicit as a separate open packet until it is controlled at theorem grade.
-9. Apply the final closure argument only after the threshold-local spill collar and the lifted high-side remainder have both been aligned at theorem grade.
+9. Apply the final closure argument only after the threshold-local spill collar, the lifted high-side remainder, and the exact tail-compatible Gronwall condition
+   `sup_n T_N^(n)(0) exp(C int_0^T L_N^(n)) <= C_G 2^(-2 delta N)`
+   have all been supplied at theorem grade.
 
 This is the correct classical skeleton. It is also the same skeleton the
 gradient package needs when it upgrades from `L^2` tail control to
@@ -96,15 +98,19 @@ enstrophy-tail control.
 
 The current local corpus delivers the target statement, the dyadic carrier, and
 a compressed packet stack for the strict low-mode reduction, spill reduction,
-the near-diagonal high-high reduction, the cubic-tail absorption step, and the
-final Gronwall closure of the scale tail in
+the near-diagonal high-high reduction, and the cubic-tail absorption step in
 [scale-barrier-tail-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-tail-lemma.md).
+It does not yet deliver the final scale-tail closure: the same tail lemma now
+records the exact additional coefficient hypothesis needed before Gronwall
+preserves a summable `2^{-2\delta N}` tail.
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
 with a hypothesized decay law for `T(k,t)`. The present package replaces that
-informal posture with a classical proof on the approximation family stated
-above.
+informal posture with a classical approximation-family statement plus the
+remaining proposition-level burdens; it is not a completed classical proof until
+the lifted packet and the displayed tail-compatible coefficient hypothesis are
+supplied.
 
 ## Closing Lemma
 
@@ -129,11 +135,15 @@ If Proposition S.1 holds on the approximation surface above, then:
 
 ### Proof
 
-This is immediate from the hypotheses of the compactness and gradient packages. Their remaining scale-side input is exactly the classical tail bound supplied by Proposition S.1.
+This is the conjunction of the compactness-package hypotheses with the
+gradient-package hypotheses. Their remaining scale-side input is exactly the
+classical tail bound supplied by Proposition S.1.
 
 ## Bottom Line
 
 The scale-barrier bridge is not yet theorem-grade discharged on the classical
 surface. The remaining live work on this bridge is the line-by-line expansion
 of the strict low-mode, spill, and genuine high-high packet reductions together
-with their constant budgets.
+with their constant budgets, plus the exact coefficient-weighted tail condition
+`sup_n T_N^(n)(0) exp(C int_0^T L_N^(n)) <= C_G 2^(-2 delta N)` exposed in
+`scale-barrier-tail-lemma.md`.

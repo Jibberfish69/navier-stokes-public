@@ -3,15 +3,14 @@
 ## Purpose
 
 This note isolates the threshold-local spill collar created when the low-mode
-transport coefficient is frozen at the cutoff `N`. Under the stricter audit
-standard it should be read as a packet-definition and target-estimate note, not
-as a fully discharged proposition-level proof.
+transport coefficient is frozen at the cutoff `N`. It is a packet-definition
+and target-estimate note, not a fully discharged proposition-level proof.
 
 ## Local Debt Label
 
 `Threshold-local spill collar for the scale-barrier transport defect`
 
-## Exact Statement
+## Target Estimate
 
 Fix a collar width `M \ge 4` and let
 
@@ -23,7 +22,10 @@ Fix a collar width `M \ge 4` and let
 \Delta_j\Big((\Delta_j u^{(n)}\cdot\nabla)(S_{N+M}-S_{N-4})u^{(n)}\Big),
 ```
 
-for `j \ge N`, on the fixed classical approximation family `\{u^{(n)},p^{(n)}\}`. Then for every `\varepsilon > 0` there exists `C_\varepsilon > 0`, independent of `n` and `N`, such that
+for `j \ge N`, on the fixed classical approximation family
+`\{u^{(n)},p^{(n)}\}`. The target estimate is: for every
+`\varepsilon > 0` there exists `C_\varepsilon > 0`, independent of `n` and
+`N`, such that
 
 ```math
 \int_0^T \sum_{j\ge N}
@@ -39,16 +41,48 @@ C_\varepsilon \int_0^T \mathcal{L}_N^{(n)}(t)\,E_N^{(n)}(t)\,dt
 \varepsilon \int_0^T D_N^{(n)}(t)\,dt.
 ```
 
+Here `E_N^{(n)}`, `D_N^{(n)}`, and `\mathcal L_N^{(n)}` are the high-tail
+energy, high-tail dissipation, and strict-low coefficient from
+`scale-barrier-transport-defect-lemma.md`.
+
 The lifted remainder created by `(S_{j-4}-S_{N+M})u^{(n)}` is **not** part of
 this note. It is merged into the genuine high-high packet because it no longer
 contains a threshold-local low factor.
 
-## Intended Proof Route
+## Missing Collar Estimate
 
-1. Expand `S_{N+M}-S_{N-4} = \sum_{N-3 \le k \le N+M}\Delta_k`.
-2. Use the fixed threshold collar relation together with Bernstein to estimate the collar contribution against the same admissible surface, or else to show exactly where an additional packet split is still needed.
-3. Pair the differentiated factor with `\Delta_j u^{(n)}` and use Cauchy-Schwarz/Young to split the product into `\mathcal{L}_N^{(n)}(t)E_N^{(n)}(t)` plus an arbitrarily small fraction of `D_N^{(n)}(t)`.
-4. Sum in `j \ge N` and integrate in time.
+Expanding
+
+```math
+S_{N+M}-S_{N-4}=\sum_{N-3\le k\le N+M}\Delta_k
+```
+
+does not by itself place the collar inside the strict-low coefficient
+`\mathcal L_N^{(n)}`.  The actual extra quantity created by Bernstein is the
+threshold-collar amplitude
+
+```math
+A_{N,M}^{(n)}(t)
+:=
+\sum_{N-3\le k\le N+M}
+2^{5k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}.
+```
+
+The proof of the target estimate requires the separate bound
+
+```math
+\int_0^T A_{N,M}^{(n)}(t) E_N^{(n)}(t)\,dt
+\le
+C_\varepsilon \int_0^T
+\mathcal L_N^{(n)}(t)E_N^{(n)}(t)\,dt
++
+\varepsilon \int_0^T D_N^{(n)}(t)\,dt,
+\tag{SC}
+```
+
+uniformly in `n` and `N`, or a further packet split that replaces `(SC)` by an
+exact estimate of the same strength.  Without `(SC)`, the line "finite collar
+plus Bernstein" is only a route proposal.
 
 ## Consequence
 
@@ -62,6 +96,6 @@ That packet is tracked separately in `scale-genuine-high-high-packet.md`.
 ## Honest Boundary
 
 This note no longer claims that the whole frozen-cutoff remainder has already
-been reduced. It isolates only the threshold-local spill collar. Under the
-current audit standard that collar still belongs to the live proposition-level
-packet-discharge burden.
+been reduced. It isolates only the threshold-local spill collar and names
+`(SC)` as the missing estimate. The collar remains a live proposition-level
+packet-discharge burden until `(SC)` or an exact replacement is proved.

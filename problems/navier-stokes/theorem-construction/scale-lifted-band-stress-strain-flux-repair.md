@@ -151,7 +151,7 @@ formalizes the abstract bridge behind `(L-Flux)`:
 if the lifted mesoscopic strain is exact in the combined space-time-scale
 direction modulo a barrier-sized tail, and the induced boundary/dual pairing
 terms are controlled at the same barrier scale, then `(L-Flux)` follows by
-integration by parts. So the live burden is no longer just "guess a Carleson
+integration by parts. So the live burden is no longer just "postulate a Carleson
 estimate". It splits into:
 
 1. `(L-Descent)`: global descent-coboundary representation of the lifted
@@ -198,10 +198,10 @@ burden is now naturally split into:
 The note `middle-band-flux-gap-kernel-theorem.md` then records the current
 continuum route to that second theorem: split the middle-band flux into a
 bounded-width moving spill term and a far-corona term with explicit gap kernel
-`\ell/r`. That note also isolates the exact remaining theorem debt there: once
-the kernel is exposed, Hardy/Schur summation is routine, and the real open
-input is the one-sided square / Carleson estimate for the far-corona
-transport-stress density.
+`\ell/r`. That note also isolates the exact remaining theorem debt there:
+Hardy/Schur summation applies only after the exposed kernel is bounded in the
+declared measure class, and the open input is the one-sided square / Carleson
+estimate for the far-corona transport-stress density.
 
 The companion notes
 `far-corona-carleson-direct-attack.md` and

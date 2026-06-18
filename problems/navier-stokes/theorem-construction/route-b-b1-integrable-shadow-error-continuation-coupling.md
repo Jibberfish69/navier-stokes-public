@@ -59,8 +59,9 @@ Assume `(B1.2)` and `(B1.3)`. Then
 ```
 
 Consequently, the classical shadow does not blow up on `[0,T)`, and the route
-reduces to whatever standard continuation theorem is being used on the
-classical side.
+reduces to the named classical-side relaunch criterion: the displayed
+`H^{s-1}` bound must give a common restart lifespan and uniqueness overlap for
+the same solution.
 
 **Proof.**
 Apply the exact Gronwall estimate from

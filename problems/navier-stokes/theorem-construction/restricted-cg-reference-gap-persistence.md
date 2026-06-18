@@ -34,7 +34,7 @@ The key correction is this:
 they do **not** by themselves control the operator drift of
 `\mathcal C_J^N(t)` away from `\mathcal C_J^N(t_0)`. The honest gap-persistence
 packet therefore uses the reference Cauchy--Green persistence budget
-`E_{J,t_0}^{CG}` from `D.7mk1`, then immediately folds in the `D.7mb` strip
+`E_{J,t_0}^{CG}` from `D.7mk1`, then folds in the `D.7mb` strip
 budgets to recover the projector comparison needed downstream.
 
 ## Exact Setup
