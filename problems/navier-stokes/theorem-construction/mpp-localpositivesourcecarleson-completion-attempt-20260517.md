@@ -124,9 +124,8 @@ PositiveRemainderDepletion.A:
 
 ## Direct Completion Attempt
 
-To prove `(LPSC.1)` from installed inputs, it is enough to prove `(LPSC.2)`.
-So assume a selected packet set `E_N` with small installed ledger mass and try
-to force small native source mass:
+The installed inputs reduce `(LPSC.1)` to `(LPSC.2)`: for every selected packet
+set `E_N`, small installed ledger mass must force small native source mass,
 
 ```math
 \rho_N(E_N)\to0
