@@ -4137,6 +4137,12 @@ Edited live surfaces:
 - `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
 - `theorem-construction/mpp-cone-payment-closure-package-20260611.md`.
 
+Additional edited live surfaces in this cleanup:
+
+- `theorem-construction/mcp-uniform-local-hs-bounds-for-expanding-periodic-boxes-7ea50ac1cf.md`;
+- `theorem-construction/mpp-open-dead-patch-rigidity-theorem.md`;
+- `theorem-construction/mcp-weighted-pressure-tail-supplier-for-pflux-w-c53e2eb144.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
