@@ -53,4 +53,8 @@ ORIGIN.Retain upgrades the conditional retained-window route to the original-dat
 
 ## Diligence gate
 
-Claim level: conditional theorem-packet completion. Audit pass: absent in this session. Public Clay status: unsolved. Separate MCP lane-context burden: continuum coherent-sector replacement remains open for a related shared-control-object route.
+Claim level: conditional theorem-packet completion.  Line-by-line theorem
+verification remains a separate mathematical burden: each listed dependency
+must be proved to supply its displayed route claim on the same retained branch.
+Public Clay status: unsolved.  The continuum coherent-sector replacement
+remains open for the related shared-control-object route.
