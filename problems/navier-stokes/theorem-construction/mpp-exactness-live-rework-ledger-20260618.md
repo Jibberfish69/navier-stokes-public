@@ -304,6 +304,45 @@ Surfaces edited:
 - `theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md`;
 - `theorem-construction/mpp-jet-to-finite-difference-bridge-theorem.md`.
 
+## Positive Remainder Depletion Combined-Bound Rework
+
+Old claim being spent:
+
+`mcp-positiveremainderdepletion-a-97b674fc40.md` merged the main carrier and
+legal/low remainder by saying the supplier estimate gives "the same bound" for
+the main positive carrier.  The displayed inequality also contained malformed
+`\frac12` terms and an escaped `\\varepsilon`.
+
+Exact replacement:
+
+The proof now states packetwise subadditivity,
+
+```text
+[R_P]_+ <= [R_P^main]_+ + [R_P^legal + R_P^low]_+,
+```
+
+then adds the supplier assumption to the legal-routing estimate to obtain
+
+```text
+sum_P int [R_P]_+
+<= (theta_0+epsilon) sum_P int D_P
+ + (3/2) Drain_parent(F_N)
+ + (3/2) Loss_legal(F_N)
+ + o_N(1).
+```
+
+The ledger rescaling is the fixed factor `3/2`.
+
+Downstream consequence:
+
+The conditional proof of `PositiveRemainderDepletion.A` now spends the exact
+combined inequality.  The unconditional obstruction remains the missing
+selected-window angular-mixing/decorrelation supplier.
+
+Surface edited:
+
+- `theorem-construction/mcp-positiveremainderdepletion-a-97b674fc40.md`.
+
 ## Kernelized Lifted-Band Scale-Separation Rework
 
 Old loose step:
