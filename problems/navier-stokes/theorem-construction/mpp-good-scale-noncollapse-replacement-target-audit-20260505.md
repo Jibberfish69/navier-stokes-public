@@ -232,7 +232,7 @@ READ.COVER.
 
 ## Placement Against The Current Source Wall
 
-The tempting overclaim is:
+The false overclaim is:
 
 ```math
 OriginalSmoothData
