@@ -5,9 +5,9 @@ Date: 2026-05-06
 Status: audit note; no theorem discharge.
 
 Post-audit correction: `FirstHeightCreationDichotomy.A` has now been attempted
-directly and collapsed as an independent target.  The corrected live reading is
-that first-height language points back to `HeightFluxControl.A` plus a genuine
-structural mechanism.
+directly and collapsed as an independent target.  The historical corrected
+reading was that first-height language points back to `HeightFluxControl.A`
+plus a genuine structural mechanism.
 
 Exactness rework correction, 2026-06-18: "points back to
 `HeightFluxControl.A`" means historical supplier-refinement only.  Current live
