@@ -21,7 +21,12 @@ If the terminal tower bound holds for some finite depth `N>s+2`, then the Hs-con
 \qquad s>5/2,
 ```
 
-and the standard periodic continuation criterion extends the solution past `T_*`. Thus direct terminal tower control from `OriginalSmoothData` is already the missing regularity theorem.
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\). Periodic \(H^s\) local theory gives
+a lifespan \(\tau=\tau(\nu,s,M_s)>0\). Choosing \(t_j\uparrow T_*\) with
+\(T_*-t_j<\tau/2\), the solution launched from \(u(t_j)\) exists past `T_*` and
+agrees with the original solution on the overlap by uniqueness. Thus direct
+terminal tower control from `OriginalSmoothData` is already the missing
+regularity theorem.
 
 ## Pointwise readout route
 

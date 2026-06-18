@@ -319,7 +319,11 @@ The tower bound gives, for some `s>5/2` and `N>s+2`,
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
 ```
 
-The standard periodic `H^s` continuation theorem extends the solution past `T_*`, contradiction. Therefore `T_*=infty`.
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}\). Periodic `H^s` local
+theory gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\). Choose \(t_j\uparrow T_*\)
+with \(T_*-t_j<\tau/2\); the solution launched from \(u(t_j)\) exists past
+`T_*` and agrees with the original solution on the overlap by uniqueness,
+contradiction. Therefore `T_*=infty`.
 
 The dependency appendix records the theorem-program sources for the terminal-tail uniformization theorem: SCF base packet, CKN transfer, AACT.KX, scheduler, source theorem, averaged endpoint closure, and terminal readout.
 

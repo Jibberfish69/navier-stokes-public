@@ -201,8 +201,11 @@ The face-exclusion theorem eliminates the second alternative.
 
 Therefore the full readout-complete packet survives on `Q_atlas`. By the
 readout bridge, the solution has a bounded `H^s(T^3)` norm for some `s>5/2` on
-`[0,T_*)`. Periodic local well-posedness extends the same classical solution past
-`T_*`, contradiction.
+`[0,T_*)`. Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\). Periodic local
+well-posedness gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\). Choose
+\(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\); the solution launched from
+\(u(t_j)\) exists past `T_*` and agrees with the original solution on the
+overlap by uniqueness, contradiction.
 
 Thus `T_*` is not finite.
 

@@ -334,7 +334,11 @@ Finite-cover Sobolev patching yields
 \qquad s>5/2.
 ```
 
-The standard periodic H^s local theory continues the solution beyond T_*, contradiction. Hence T_*=infty and
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}\). Periodic \(H^s\) local
+theory gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\). Choose \(t_j\uparrow T_*\)
+with \(T_*-t_j<\tau/2\); the solution launched from \(u(t_j)\) exists beyond
+\(T_*\) and agrees with the original solution on the overlap by uniqueness,
+contradiction. Hence \(T_*=\infty\) and
 
 ```math
 u\in C^\infty([0,\infty)\times\mathbb T^3).

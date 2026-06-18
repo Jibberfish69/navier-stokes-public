@@ -204,7 +204,12 @@ Choose `s>5/2` and `N>s+2`. Finite-cover Sobolev patching gives
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
 ```
 
-The standard `H^s` local theory for periodic Navier--Stokes extends the solution beyond `T_*`, contradicting maximality. Therefore `T_*=infty`. Smoothness for all positive times and at time zero follows from the smooth local theory and bootstrapping.
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}\). Periodic `H^s` local
+theory gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\). Choose \(t_j\uparrow T_*\)
+with \(T_*-t_j<\tau/2\); the solution launched from \(u(t_j)\) exists beyond
+`T_*` and agrees with the original solution on the overlap by uniqueness,
+contradicting maximality. Therefore `T_*=infty`. Smoothness for positive time
+then follows by the same local theory and bootstrapping on finite intervals.
 
 ## 7. Dependency-clean manuscript rewrite
 
