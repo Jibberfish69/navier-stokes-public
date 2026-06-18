@@ -55,12 +55,21 @@ Rescale to `r=1` and pull back by the same-fluid moving frame. Bounded distortio
 
 The pressure normalization is the CKN-compatible one for the moving frame; affine pressure modes are absorbed into that normalization. With `epsilon_m` below the corresponding epsilon-regularity threshold, the CKN theorem gives local boundedness and smoothness on `Q_{1/2}`.
 
-Interior parabolic bootstrapping gives, for every `k <= m+2`,
+Choose an interior bootstrap cylinder between `Q_{1/2}` and the CKN-good unit
+cylinder.  For every `k <= m+2`, apply the differentiated Navier--Stokes
+equation for `\nabla^k u` and the CKN-gauged pressure equation
+
+```math
+-\Delta p=\partial_i\partial_j(u_i u_j).
+```
+
+Interior parabolic estimates for the velocity and interior elliptic estimates
+for this pressure equation give
 
 ```math
 \sup_{Q_{1/2}}|\nabla^k u|+
 \sup_{Q_{1/2}}|\nabla^{k+1}p|
-\le C_{m,M_\sharp,\nu}.
+\le C_{k,m,M_\sharp,\nu}.
 ```
 
 Scaling back gives
@@ -69,7 +78,7 @@ Scaling back gives
 \sup_{Q_{r/2}^\Phi}r^{k+1}|\nabla^k u|
 +
 \sup_{Q_{r/2}^\Phi}r^{k+3}|\nabla^{k+1}p|
-\le C_{m,M_\sharp,\nu}.
+\le C_{k,m,M_\sharp,\nu}.
 ```
 
 These estimates control every tower rung `U_q` for `q <= m+2` and every pressure derivative needed for the forcing rungs. Since
