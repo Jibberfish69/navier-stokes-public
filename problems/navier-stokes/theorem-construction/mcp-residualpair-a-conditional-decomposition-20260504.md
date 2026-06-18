@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional theorem-facing decomposition. The residual square estimate is reduced to explicit packet-frame licenses. The commutator, cutoff, coefficient-remainder, and off-packet terms have standard dissipation controls under the coefficient-good same-fluid packet hypotheses. The pressure term requires a projected / solenoidal packet-frame license or an equivalent pressure-normalized residual theorem.
+Conditional theorem-facing decomposition. The residual square estimate is reduced to explicit packet-frame licenses. The coefficient, commutator, cutoff, and off-packet terms are absorbable only through the estimates displayed below: the coefficient-good smallness bound, the `H^{-1}` Bernstein conversion plus Coifman--Meyer commutator bound, the viscous cutoff commutator identity, and the shell-separation/off-packet estimates. The pressure term requires a projected / solenoidal packet-frame license or an equivalent pressure-normalized residual theorem.
 
 ## Target
 
