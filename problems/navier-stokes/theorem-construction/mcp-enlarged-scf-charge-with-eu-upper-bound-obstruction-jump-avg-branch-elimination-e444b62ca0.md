@@ -19,9 +19,11 @@ SCF_base = E_u + D_u + P + G_Phi.
 ```
 
 Pack control handles `G_Phi`, and `nu_SCF` handles `D_u` plus local pressure. A
-threshold SCF packet can still be carried by `E_u`. Adding `E_u` closes the
-component gap only formally; it does not supply the scale-normalized additive
-upper carrier required by the `Jump_avg` contradiction.
+threshold SCF packet can still be carried by `E_u`. Adding `E_u` repairs only
+the lower-side component inclusion: an `E_u`-carried threshold packet is then
+counted by the enlarged packet functional.  The branch contradiction also
+requires a same-schedule upper theorem for that enlarged functional, and the
+`E_u` term has no installed scale-normalized additive upper carrier.
 
 ## Obstruction
 
@@ -39,7 +41,10 @@ Global energy gives size control per time. It does not give summability of repea
 
 ## Verdict
 
-The enlarged-charge route is open. Adding `E_u` fixes component selection only at the level of notation. It loses the installed finite upper-carrier theorem.
+The enlarged-charge route is open. Adding `E_u` proves set-theoretic
+component inclusion for lower accumulation, but it loses the installed finite
+upper-carrier theorem and does not prove scale-normalized upper summability on
+the terminal schedule.
 
 ## Required replacement theorem
 
@@ -54,10 +59,11 @@ on the same terminal schedule.
 A second valid replacement is an additive `E_u` carrier theorem:
 
 ```math
-sum_k E_u(Q_k) <= C(E_0)
+sum_k r_k^{-alpha} E_u(Q_k) <= C(E_0, S)
 ```
 
-for the same separated or bounded-overlap terminal windows used by the lower accumulation route.
+or the corresponding normalized packet estimate for the same separated or
+bounded-overlap terminal windows used by the lower accumulation route.
 
 ## Boundary
 

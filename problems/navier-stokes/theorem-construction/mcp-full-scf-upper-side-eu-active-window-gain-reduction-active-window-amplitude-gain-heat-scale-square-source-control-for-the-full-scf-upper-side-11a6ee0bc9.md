@@ -27,7 +27,9 @@ has raw bounded-overlap upper control. Under active-shell amplitude gain, it als
 
 ## E_u component test
 
-The enlarged charge adds `E_u` to close the component-selection escape from `SCF_base`. This fixes lower-side coverage, since every threshold component of `SCF_base` is represented in `\nu_{fullSCF}`.
+The enlarged charge adds `E_u` to represent every threshold component of
+`SCF_base` in `\nu_{fullSCF}`.  This proves lower-side coverage as a
+set-theoretic packet inclusion only.
 
 The upper side changes. `E_u` is a scale-critical local energy packet. Global energy controls time-slice size, while the branch contradiction needs summability across shrinking terminal windows:
 

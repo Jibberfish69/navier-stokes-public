@@ -186,17 +186,19 @@ One could enlarge the charge to include `E_u`:
 E_u\text{-carrier}+\mu_D+\sum_\chi\mu_{P,\chi}.
 ```
 
-This fixes component selection only formally. The `E_u` packet is a
+This proves only lower-side set inclusion: an `E_u`-carried threshold packet is
+represented in the enlarged packet functional.  The `E_u` packet is a
 scale-critical time-slice or cylinder-size readout, not an installed additive
 finite Radon measure with bounded-overlap summability. Global energy controls
 the total time-slice size, but it does not give
 
 ```math
-\sum_k E_u(Q_k)\le C(E_0)
+\sum_k r_k^{-\alpha}E_u(Q_k)\le C(E_0,\mathcal S)
 ```
 
-for terminal moving windows. The local energy inequality supplies balances, but
-not the required recurrence, decay, or conversion theorem.
+for the same separated terminal moving windows selected by the lower side. The
+local energy inequality supplies balances, but not the required recurrence,
+decay, or conversion theorem.
 
 Thus the enlarged-charge route lacks a matching upper estimate.
 

@@ -54,7 +54,18 @@ estimate is installed.
 
 The active-square / Carleson surfaces identify the exact missing ingredient. Raw finite mass does not provide the missing scale factor. To gain it, one needs an active-window amplitude gain or a heat-scale square-source theorem. Finite energy permits concentration on shrinking windows, so the desired estimate cannot be obtained from the global energy ledger alone.
 
-Adding `E_u` to the charge fixes component coverage only formally. It does not produce the scale-normalized upper estimate needed for a contradiction.
+Adding `E_u` to the charge proves only the set-theoretic lower inclusion:
+if a selected `SCF_base` threshold packet is carried by the velocity-energy
+component, then the enlarged packet functional counts that component.  It does
+not prove the upper summability required by the branch contradiction.  The
+missing estimate remains the same-scale terminal bound
+
+```math
+\sum_k \mathcal E_u^{sc}(Q_k)\le C(E_0,\mathcal S)
+```
+
+on the separated terminal window family, or an equivalent conversion of each
+`E_u` threshold into `D_u/P` mass on that same family.
 
 ## Verdict
 

@@ -3918,6 +3918,10 @@ Edited live surfaces:
 - `theorem-construction/mcp-separated-recurrence-after-original-data-eu-obstruction-jump-avg-branch-elimination-8b3473ef28.md`;
 - `theorem-construction/mcp-separated-recurrence-after-eu-conditional-route-jump-avg-branch-elimination-fe6f5b8ddb.md`;
 - `theorem-construction/mcp-separated-recurrence-final-charge-obstruction-jump-avg-branch-elimination-140e8ad8ec.md`.
+- `theorem-construction/mcp-eu-additive-carrier-reduces-to-active-window-amplitude-gain-jump-avg-branch-elimination-54b3f13ec0.md`;
+- `theorem-construction/mcp-enlarged-scf-charge-with-eu-upper-bound-obstruction-jump-avg-branch-elimination-e444b62ca0.md`;
+- `theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md`;
+- `theorem-construction/mcp-full-scf-upper-side-eu-active-window-gain-reduction-active-window-amplitude-gain-heat-scale-square-source-control-for-the-full-scf-upper-side-11a6ee0bc9.md`.
 
 ## Edited Or Preserved Residues
 
