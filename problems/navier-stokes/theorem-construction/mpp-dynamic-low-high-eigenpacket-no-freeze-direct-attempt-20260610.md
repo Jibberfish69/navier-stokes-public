@@ -61,14 +61,41 @@ positive source residence
 + frame-alignment variation.
 ```
 
-The support already paid is real:
+The support already paid is exactly the following.
 
-```text
-far-low temporal variation carries a parabolic scale-separation gain,
-subparabolic near-band heat variation contributes at most `C_L theta H_W` and
-is paid under `theta <= eta_abs/C_L`,
-parabolic-rate near-band amplitude routes to burst height / donor height / Zeno.
+For the far-low part, the material-derivative estimate is
+
+```math
+\tau_P\int_{I_P}|D_tS^{far}_{j_P,L}|\,dt
+\le
+C_{\mathrm{far}}2^{-2L}\int_{I_P}\|S^{far}_{j_P,L}\|_\infty\,dt
++\mathrm{legal\ commutators}.
 ```
+
+The small coefficient being spent is the displayed \(2^{-2L}\), not a profile
+assumption about how the low strain varies.
+
+For the subparabolic near-band heat part, on
+
+```math
+\|S^{near}_{j_P,L}\|_\infty\le\theta\tau_P^{-1},
+```
+
+the exact absorption is
+
+```math
+\sum_P\omega_PE_PV_P^{heat}
+\le
+C_L\theta H_W,
+\qquad
+H_W:=\sum_P\omega_PE_P,
+```
+
+and it is paid only after the preterminal choice
+\(\theta\le\eta_{\rm abs}/C_L\).  On the complement
+\(\|S^{near}_{j_P,L}\|_\infty>\theta\tau_P^{-1}\), the branch is not absorbed by
+heat variation; it routes to parabolic-rate burst height, then donor height,
+height charge, or Zeno.
 
 This support does not prove no-freeze. It only removes the easy parts of the
 dynamic coefficient variation.
