@@ -6365,6 +6365,42 @@ Surfaces edited:
 - `theorem-construction/transported-phase-space-selector-theorem-candidate.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Residual "Enough" Reduction Cleanup
+
+Old claim being spent:
+
+Remaining live surfaces used "enough" for route-discharge, normal-covector,
+temporal-source, finite-obstruction, and appendix class-exit language.
+
+Exact replacement:
+
+The edited surfaces now say:
+
+- the normal-covector subroute requires one of `(CN.13j)`, `(CN.13q)`, or
+  `(CN.13ab)`--`(CN.13ad)`;
+- `PCC.B` is the direct pre-CSP thickened packet theorem;
+- `TerminalSourceReverseHolder.A` must conclude `TemporalNonAtomicSource.A`;
+- the affine quotient residue is not automatically a Pack/Part/Field face
+  failure;
+- the Clay discharge ladder would discharge only after one named ladder closes
+  without changing the theorem target;
+- the finite-obstruction inventory is being tested for whether it can prove the
+  public Clay conclusion.
+
+Downstream consequence:
+
+These passages no longer use "enough" to blur a route proposal, implication, or
+class-exit face landing.
+
+Surfaces edited:
+
+- `theorem-construction/live-frontier-honest-cut-reduction.md`;
+- `theorem-construction/mpp-lci-a-pre-csp-common-consumer-bypass-note.md`;
+- `theorem-construction/mpp-independent-prd-alternative-proof-attempts-20260516.md`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `theorem-construction/clay-discharge-ladder-from-current-reductions.md`;
+- `theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md`.
+
 ## Friedrichs Energy Identity And Appendix Same-Identity Rework
 
 Old claim being spent:
