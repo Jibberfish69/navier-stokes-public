@@ -350,10 +350,35 @@ original smooth data, then `IndependentPositiveRemainderDepletion.A` follows
 without importing `ScaleCriticalTreeCarleson.A` or the existing Zeno rigidity
 branch.
 
-The obstruction exposed by the computation is the pressure/source-current
-term `(MEF.10)` after positive terminal selection.  Absolute estimates return
-to a scale-critical active coefficient bound, and signed integration by parts
-returns to the one-sided terminal source-current `(MEF.18)`.
+The obstruction exposed by the computation is the pressure/source-current term
+`(MEF.10)` after positive terminal selection:
+
+```math
+\sum_P
+\|E_P\|_{L^\infty(I_P)}\tau_P
+\int_{I_P}
+\left|
+n_P\cdot
+P^{loc}_{j_P,L}(S^2+\Omega^2+\nabla^2p)
+n_P
+\right|\,dt.
+```
+
+The absolute-value route spends the coefficient estimate `(MEF.13)`,
+
+```math
+\|P^{loc}_{j,L}(S^2+\Omega^2+\nabla^2p)\|_\infty
+\le
+C_{\mathrm{CZ}}\|\nabla u\|_\infty^2,
+```
+
+which is exactly the active-square coefficient strength this route was meant
+to avoid.  The signed integration-by-parts route returns to the one-sided
+terminal source-current in `(MEF.18)`,
+
+```math
+-\int_{I_P}Source_P^{loc}b_P\,dt.
+```
 
 The turnover atom is tested directly in
 `mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`.  That
