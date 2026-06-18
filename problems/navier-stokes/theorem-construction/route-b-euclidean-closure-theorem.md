@@ -14,7 +14,9 @@ This note is the repo-faithful Route B pipeline as a compressed theorem packet:
 - exact Euclidean limit object,
 - dyadic high-frequency inequality on that same object,
 - bounded high-frequency enstrophy,
-- bounded Euclidean `H^1` continuation norm,
+- bounded Euclidean `H^1` energy norm,
+- an additional `H^s`, `s>5/2`, continuation bridge or equivalent named
+  criterion,
 - return arrow to the scale barrier,
 - continuation beyond `T`.
 
@@ -313,18 +315,26 @@ inequality and still depends on the coercive damping step
 `Q_N \ge c_Q2^{2N}T_N`. After that point the remaining Route B work is
 proposition threading, explicit `4 -> 1` recertification, and `C3` assembly.
 
-## Step B.9: Continuation
+## Step B.9: Continuation Bridge
 
-By the classical `H^1` continuation criterion, the bound
+The high-frequency enstrophy step gives only the energy-level bound
 
 ```math
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
 ```
 
-forces continuation beyond `T`.
+It does not force classical continuation in three dimensions.  The continuation
+step requires an additional bound
 
-This final step is isolated explicitly in
-[classical-h1-continuation-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-h1-continuation-lemma.md).
+```math
+\sup_{t<T}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2,
+```
+
+or a separately named continuation criterion on the same Euclidean solution
+surface.  With that bound, local `H^s` theory supplies
+`\tau(\nu,s,M_s)>0`, relaunch from times approaching `T`, and uniqueness on the
+overlap.
 
 ## Compressed Closure Chain
 
@@ -341,9 +351,9 @@ C\,\widetilde\Lambda_N^\sharp E_N + C_* 2^{-2\delta N}
 \Longrightarrow
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
 \Longrightarrow
-\text{scale barrier re-certified}
+\text{energy-level support only}
 \Longrightarrow
-\text{continuation.}
+\text{requires an }H^s,\ s>5/2,\text{ continuation bridge.}
 ```
 
 The exact `4 -> 1` recertification object inside this chain is the standalone
