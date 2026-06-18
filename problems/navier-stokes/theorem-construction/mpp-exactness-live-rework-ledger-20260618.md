@@ -633,7 +633,9 @@ Old loose step:
 - `scale-kernelized-lifted-band-reduction-lemma.md` asked whether the shell
   algebra produced a "genuine off-diagonal gain" and then summarized the result
   as a "genuine summable gap kernel."
-- `lifted-band-gain-to-msi-bridge.md`, `route-b-euclidean-closure-theorem.md`,
+- `lifted-band-gain-to-msi-bridge.md`, the Body 1 kernelized leakage/audit
+  notes, `lifted-remainder-feedback-into-body1-audit.md`,
+  `scale-high-side-remainder-packet.md`, `route-b-euclidean-closure-theorem.md`,
   and the reader appendix repeated the same gain language in downstream route
   form.
 
@@ -663,6 +665,10 @@ Edited live surfaces:
 
 - `theorem-construction/scale-kernelized-lifted-band-reduction-lemma.md`;
 - `theorem-construction/lifted-band-gain-to-msi-bridge.md`;
+- `theorem-construction/body1-kernelized-lifted-band-leakage-barrier.md`;
+- `theorem-construction/body1-kernelized-lifted-band-integration-audit.md`;
+- `theorem-construction/lifted-remainder-feedback-into-body1-audit.md`;
+- `theorem-construction/scale-high-side-remainder-packet.md`;
 - `theorem-construction/route-b-euclidean-closure-theorem.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
