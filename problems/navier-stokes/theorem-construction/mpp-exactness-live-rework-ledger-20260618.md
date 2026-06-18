@@ -1756,6 +1756,41 @@ Edited live surface:
 
 - `theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md`.
 
+## Frozen-Family Cascade Collar-Envelope Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-frozen-family-strain-cascade-sufficient-reduction-note.md`
+  and the reader appendix said the cascade packet has one ordinary tower factor
+  of order at most `N+1`, "hence controlled by the common collar envelope."
+
+Exact replacement:
+
+Both surfaces now display the finite-depth collar-envelope bound being spent:
+
+```math
+\sup_{\substack{y\in\mathcal C_{\rho,\psi}^{\delta}(t)\\0\le m\le N+1}}
+|U_m(y,t)|
+\le
+C_N\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)^{1/2}.
+\tag{FFSC.Aenv}
+```
+
+The strain and cascade estimates then use this bound for the ordinary tower
+factor and use the two increment factors already contained in
+`E_N(\eta,t;\psi)`, followed by Cauchy--Schwarz and the finite-depth equivalence
+of the weighted increment sums.
+
+Downstream consequence: fixed-family strain/cascade consumers may spend
+`(FFSC.A2)` and `(FFSC.A4)` only through the finite-depth collar-envelope bound
+plus the displayed increment energy, not through a generic ordinary-tower-factor
+phrase.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-frozen-family-strain-cascade-sufficient-reduction-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
