@@ -102,15 +102,18 @@ equivalently
 
 ```math
 \text{no first finite classical endpoint realizes }
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
+\vee response\text{-}margin\text{-}collapse.
 ```
 
 The local pressure component of `DTC.Read` has been isolated in
 `mpp-dtc-read-pressure-local-poisson-estimate.md`, and `READ.COVER.noncirc`
 above removes the local circularity concern in the readout bridge.  The
 remaining burden is the analytic terminal-tail uniformization itself: produce
-the retained tail inputs from the original periodic Navier-Stokes dynamics, or
-directly rule out the four endpoint faces as first finite classical endpoints.
+the retained tail inputs, including strict Part response-margin retention or
+closed terminal Part encoding, from the original periodic Navier-Stokes
+dynamics, or directly rule out the endpoint faces as first finite classical
+endpoints.
 
 ## Consequence For Authority
 
