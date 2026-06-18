@@ -138,7 +138,7 @@ mpp-signedlocalsource-final-collapse-note.md
 mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md
 ```
 
-Result: the downstream frozen-family source supplier `FFSRC.A=>FCI.5f` is an
+Result: the downstream frozen-family source supplier `Hyp(FFSRC.A)=>FCI.5f` is an
 integrability theorem for the receiver/collar consumer.  It does not imply
 bad-set vanishing of the branch-native active local source.  The local route
 collapses back to signed weighted lifted-remainder cancellation with a usable
