@@ -6705,7 +6705,9 @@ Old claim being spent:
 said that the finite collar terms were finite in number and could be absorbed by
 a "standard cutoff shift," after which the high-high packet was bounded by
 `eta*nu*D_N`.  The appendix mirror and periodic proof-normalization paragraph
-also spent the old unshifted `D_N` high-high inequality.
+also spent the old unshifted `D_N` high-high inequality.  The source theorem
+note `mcp-manuscript-grade-periodic-proof-normalization-fce64a89ae.md` also
+claimed the periodic global theorem outright from that normalization package.
 
 Exact replacement:
 
@@ -6747,12 +6749,15 @@ the threshold-spill packet.  The old claim that it is absorbed directly into
 
 Downstream consequence:
 
-The appendix periodic proof-normalization paragraph is now conditional rather
-than an unconditional global regularity statement, and its scheduler sentence
-requires either the explicit collar charge or the shifted cutoff.  This keeps the
-cascade closure from spending a hidden finite-collar estimate.
+The theorem-construction periodic-normalization source note and its appendix
+mirror are now conditional rather than unconditional global regularity
+statements.  Their scheduler sentences require either the explicit collar charge
+or the shifted cutoff, and their endpoint-readout language includes the same-tail
+`SCFBaseLocalModulus_N` input.  This keeps the cascade closure from spending a
+hidden finite-collar estimate or a hidden terminal-tail admission theorem.
 
 Surfaces edited:
 
 - `theorem-construction/mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md`;
+- `theorem-construction/mcp-manuscript-grade-periodic-proof-normalization-fce64a89ae.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
