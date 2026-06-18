@@ -3876,6 +3876,49 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-ptc-shape-suppliers-plus-ptc-lin-to-d-7mq-attempt-2ecf7f3d5a.md`.
 
+## E_u Component-Coverage Rework
+
+Old loose step:
+
+- Several recurrence/Jumps surfaces said the enlarged charge including `E_u`
+  had "formal component coverage" or "formally" fixed component selection.
+
+Exact replacement:
+
+The enlarged charge repairs only set-theoretic component inclusion:
+
+```math
+\nu_{SCF}^{+}:=\nu_{SCF}+E_u
+```
+
+counts a threshold packet carried by the velocity-energy component.  It becomes
+a usable final contradiction charge only if the same terminal window schedule
+has a bounded-overlap upper estimate for the `E_u` contribution, such as
+
+```math
+\sum_k r_k^{-\alpha}E_u(Q_k)\le C(E_0)
+```
+
+or an `E_u`-to-`D_u/P` conversion theorem on that schedule.
+
+Proof or remaining burden:
+
+The component inclusion is immediate from the definition of `\nu_{SCF}^{+}`.
+The missing part is not inclusion; it is the upper estimate.  Finite raw energy
+does not by itself control repeated scale-normalized terminal windows.
+
+Downstream consequence:
+
+Separated recurrence cannot use `\nu_{SCF}^{+}` as `C_final` until the
+bounded-overlap upper theorem or the `E_u` conversion theorem is installed.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-separated-recurrence-after-original-data-eu-obstruction-jump-avg-branch-elimination-8b3473ef28.md`;
+- `theorem-construction/mcp-separated-recurrence-after-eu-conditional-route-jump-avg-branch-elimination-fe6f5b8ddb.md`;
+- `theorem-construction/mcp-separated-recurrence-final-charge-obstruction-jump-avg-branch-elimination-140e8ad8ec.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
