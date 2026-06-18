@@ -42,7 +42,10 @@ DTC\text{-}to\text{-}TowerBound+END.Exh+END.Cross+END.Pack+END.Field
 \Rightarrow End_{NS}.
 \]
 
-`End_NS` removes each of the four endpoint faces. Therefore the assumed first finite classical endpoint has no remaining endpoint face. This contradiction excludes \(T_*<\infty\).
+`End_NS` removes the endpoint faces, including the repaired Part
+response-margin-collapse subface. Therefore the assumed first finite classical
+endpoint has no remaining endpoint face. This contradiction excludes
+\(T_*<\infty\).
 
 Since the argument uses only the original periodic Navier--Stokes solution, its flow, its pressure, and the installed class-membership witness vocabulary, no regularized or projected substitute equation enters the bridge. The HFG/MEG side primitive is not used in this terminal bridge.
 
