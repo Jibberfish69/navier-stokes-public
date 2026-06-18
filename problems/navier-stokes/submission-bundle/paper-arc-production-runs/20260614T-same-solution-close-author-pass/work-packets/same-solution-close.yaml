@@ -73,24 +73,24 @@ production_machine_contract:
   first_draft_boundary: the first draft exists only when every current repo proof
     thread has a home on the page as proof, support, obstruction, obsolete material,
     contradiction, or open continuation
-source_payment_table:
+source_argument_table:
 - spine_id: the-same-solution-cm-proof
   section_title: The Same-Solution CM Proof
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: &1
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
 - spine_id: compactness-and-exact-object-capture
   section_title: Compactness And Exact-Object Capture
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 source_sections:
@@ -127,7 +127,7 @@ source_sections:
     The record \(Q\) is that endpoint data: the selected material packet or its failure, the same-equation participation information or its failure, and the field readout information or its failure.
     \end{proof}
 
-    The proof has five payments.
+    The proof has five steps.
     First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).
     Second, \(Q\) is admitted to the CM packet tree, or the proposed obstruction is rejected as the wrong object for the original solution.
     Third, the admitted record is read in the order
@@ -177,7 +177,7 @@ source_sections:
     \end{proof}
 
     This theorem is the class-consumption theorem.
-    Surface payments still do the work that makes a terminal record legitimate.
+    Surface landings still do the work that makes a terminal record legitimate.
     The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.
     The whole-space branch selects the exterior Duhamel survivor after the initial heat tail and fixed compact-core far-field source are removed.
     The annular endpoint branch is the active gold-side obstruction: the surrounding positive-radius fields would be controlled directly by the stronger forward-positive annular supplier.
@@ -344,7 +344,7 @@ support_refs:
     / TerminalNewProductionTheorem_{B_ASAC}.A obstruction; the installed repo
           inputs do not prove the stronger scale-uniform supplier. The surviving
           same-solution annular witness can be split by silver only after annular
-          admission. At that point Pack is already paid as carrier/selection:
+          admission. At that point Pack is already supplied as carrier/selection:
           retained Part+Field readout is Member(Q), while any finite nonsmooth
 - path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
   matched_keywords:
@@ -406,7 +406,7 @@ support_refs:
   - Member
   - Exit
   excerpt: |-
-    The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space payments are written, while the annular endpoint still needs gold control or a silver first-face landing.
+    The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space branch results are written, while the annular endpoint still needs gold control or a silver first-face landing.
 
     Targeted verification:
 - path: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
@@ -585,7 +585,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -602,7 +602,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -702,7 +702,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/theorem-construction/chatgpt-terminal-zeno-vortex-ontology-verbatim-note-20260528.md
@@ -953,7 +953,7 @@ context_domain_refs:
     - Member
     - Exit
     excerpt: |-
-      The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space payments are written, while the annular endpoint still needs gold control or a silver first-face landing.
+      The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space branch results are written, while the annular endpoint still needs gold control or a silver first-face landing.
 
       Targeted verification:
   - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-inventory-20260530.md
@@ -1018,17 +1018,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *2
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -1057,7 +1057,7 @@ math_reader_critic_contract:
   must_answer:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   acceptable_repair_decisions:
   - passes after repair

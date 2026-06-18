@@ -61,13 +61,18 @@ FCI.5f.
 The exact split is
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FCI.5f.
 ```
 
 The strengthened sufficient branch is compatible:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ is one of those hypotheses.}
 ```
 
 The main proof consumes only `FCI.5f`.

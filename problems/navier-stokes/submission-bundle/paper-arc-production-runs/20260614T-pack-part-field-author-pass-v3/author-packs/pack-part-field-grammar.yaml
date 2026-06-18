@@ -15,15 +15,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:637
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must define Pack as the same-fluid carrier face, not as a generic endpoint label.  The source now starts from the object the law and field readings act on."
     reader_thread_attack: "A reader sees why the Lagrangian map appears before the Pack gauge and before Part or Field are discussed."
-    unpaid_derivation_attack: "The section displays the carrier map, deformation tensor, Pack gauge, and the first-failure formula for lost carrier."
+    open_derivation_attack: "The section displays the carrier map, deformation tensor, Pack gauge, and the first-failure formula for lost carrier."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -36,15 +36,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:672
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must distinguish relevant terminal information from a selected same-fluid object.  It now states that source labels, traces, and endpoints remain short of Pack until a positive carrier is supplied."
     reader_thread_attack: "The Pack failures are listed as ways the carrier is missing, then the annular admission distinction explains why admitted annular residue has already passed Pack."
-    unpaid_derivation_attack: "The first lost face is displayed as neg Pack_Q and the annular branch is routed to Part or Field after admission."
+    open_derivation_attack: "The first lost face is displayed as neg Pack_Q and the annular branch is routed to Part or Field after admission."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -57,15 +57,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:693
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must not let dead, jump, or blown become free-standing classifications.  It now states that each mechanism name is lawful only after the first failed face is derived."
     reader_thread_attack: "Each mechanism is explained in ordinary language and then tied to its Pack, Part, or Field formula."
-    unpaid_derivation_attack: "The Part and Field formulas are displayed for dead and jump, and blown is routed through the ordered face test."
+    open_derivation_attack: "The Part and Field formulas are displayed for dead and jump, and blown is routed through the ordered face test."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -78,15 +78,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:758
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must turn the Boolean rows into a first-failure proof rule instead of a detached truth table.  The source now says the table is read by carrier, law, and field readout order."
     reader_thread_attack: "The reader can follow why later-looking failures collapse to the first missing requirement."
-    unpaid_derivation_attack: "The four rows are displayed and each row is explained by its proof role."
+    open_derivation_attack: "The four rows are displayed and each row is explained by its proof role."
     repair_decision: passes after repair
     unresolved_failures: []
 author_contract:
@@ -101,17 +101,17 @@ author_contract:
   must_criticize:
   - attack the replacement's strongest claim and state how the replacement now pays or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid on the page
+  - name any derivation jump that remains open, or state why the derivation is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - Pack
   - Part
   - Field
   - "(Exit|Member)"
-  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof payment, endpoint status, or a sourced exclusion
+  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof argument, endpoint status, or a sourced exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section build

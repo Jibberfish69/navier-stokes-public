@@ -1,15 +1,15 @@
 \section{Direct Closure and the Four-Body Diagnostic}
 \label{sec:positive-forward-four-body-diagnostic}
 
-The direct proof standard for Navier--Stokes is clear. One wants estimates that
+The direct proof target for Navier--Stokes is exact. One wants estimates that
 start from the original smooth divergence-free datum, remain on the same
-Navier--Stokes solution, and propagate enough control to continue the classical
+Navier--Stokes solution, and satisfy a continuation criterion for the classical
 solution beyond any proposed finite terminal time. In its cleanest form, the
 program has a simple rhythm: identify the dangerous channel, pay for it with an
 equation-level estimate, recover derivative control, and continue the solution.
 
 The four-body circuit was one serious way of organizing that positive-forward
-program. It should be read here as a diagnostic exercise. Its purpose is to show
+program. It is used here as a diagnostic exercise. Its purpose is to show
 what happens when a forward smoothness proof is pursued as far as the available
 structure can push it. The circuit is useful because each of its bodies is a real
 mathematical demand, and each demand exposes the same underlying obstruction
@@ -18,14 +18,14 @@ from a different angle.
 The four bodies are these.
 
 \begin{enumerate}[leftmargin=*]
-\item \textbf{Tail control.} High-frequency transfer has to become summable, or
-      viscosity has to dominate the cascade above an active scale.
-\item \textbf{Energy/enstrophy control.} The known energy law has to be lifted
-      into a derivative-level control strong enough for continuation.
+\item \textbf{Tail control.} High-frequency transfer must become summable, or
+      viscosity must dominate the cascade above an active scale.
+\item \textbf{Energy/enstrophy control.} The known energy law must be lifted
+      into derivative-level control satisfying a continuation criterion.
 \item \textbf{Exact-object capture.} Controlled approximations have to produce
       a same-solution terminal object rather than a detached limit object.
-\item \textbf{Derivative recovery.} The captured object has to return enough
-      local or global derivative control to close the continuation criterion.
+\item \textbf{Derivative recovery.} The captured object must return the local
+      or global derivative control required by the continuation criterion.
 \end{enumerate}
 
 This circuit looked promising because none of the four bodies is artificial.
@@ -34,8 +34,8 @@ Compactness is the natural way to extract a terminal object. Derivative recovery
 is the classical way to turn object-level control into smooth continuation. The
 problem appears when the four payments are placed in a loop.
 
-Tail control asks for a transfer estimate strong enough to dominate nonlinear
-cascade. The usual energy identity supplies
+Tail control asks for a transfer estimate whose conclusion dominates nonlinear
+cascade. The energy identity supplies
 \[
   \sup_{0\le t<T}\|u(t)\|_{L^2}^2
   +2\nu\int_0^T\|\nabla u(t)\|_{L^2}^2\,dt
@@ -74,7 +74,7 @@ trying to prove.
 
 Derivative recovery closes the loop. Once an exact object is captured, one wants
 Sobolev, local-critical, endpoint, geometric, or packet-level control to recover
-classical continuation. Each recovery mechanism has to stay on the same
+classical continuation. Each recovery mechanism must stay on the same
 Navier--Stokes surface. A recovery mechanism that changes the surface, imports a
 geometric drain from a different carrier, or detaches the terminal object from
 the original solution only explains an obstruction until it is reattached to the
@@ -92,14 +92,14 @@ The survivor changes names across branches: high-frequency tail, source reserve,
 donor residue, lower-prefix memory, packet defect, pressure-sustain object,
 endpoint remnant, or export boundary. The pattern is the same. A forward proof
 tries to delete the survivor. The survivor returns as a terminal object whose
-proof role has to be classified.
+proof role must be classified.
 
 This is the point where the paper changes proof polarity. The next question is
 no longer only how to erase every survivor by a stronger positive estimate. The
 next question is what the survivor is allowed to be as a terminal witness for the
 same Navier--Stokes solution. That question leads to the class-membership exit
 method: a terminal obstruction must be tested as a same-solution witness, and its
-failure has to be read through the continuation requirements needed for membership.
+failure must be read through the continuation requirements needed for membership.
 
 The four-body diagnostic supplies the first branch in the larger
 manuscript pattern. Each later branch will be treated in the same way: state the
