@@ -1252,6 +1252,37 @@ Edited live surfaces:
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`.
 
+## Exact-Projection Commutator Gain Rework
+
+Old loose step:
+
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md` said the
+  exact projection commutator had the order `-1` gain "one expects" from the
+  order-zero projector.
+
+Exact replacement:
+
+The note now states the exact principal-symbol object
+
+```math
+p_G(a,\xi)=\frac{G(a)\xi\otimes\xi}{\xi\cdot G(a)\xi}
+```
+
+and makes the order `-1` payment conditional on the frequency-separated
+commutator theorem under the stated symbol hypotheses: uniform ellipticity of
+`G`, required `S^0_{1,0}` seminorm bounds for `p_G`, and genuinely low-frequency
+coefficient `a_{<j-C}`. The shellwise estimate remains the displayed
+commutator bound `(23ai.8k6b)`, with lower metric-symbol terms controlled by
+the quantified `R_{G,j}` theorem cited immediately afterward.
+
+Downstream consequence: the Hodge/exact-projection route may spend only the
+symbol-class commutator theorem and its remainder bounds, not an expected
+derivative gain from projector order alone.
+
+Edited live surface:
+
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
