@@ -6641,3 +6641,58 @@ Surfaces edited:
 
 - `theorem-construction/mpp-full-coeff-stopped-parent-frame-pinning-20260506.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## Static-Diffusion Semigroup Form-Theory Repair
+
+Old claim being spent:
+
+`exact-potential-v2-static-diffusion-semigroup-reduction.md` said that after a
+large positive shift the form is closed and sectorial, and that "standard form
+theory" gives an m-sectorial realization and analytic semigroup.  The appendix
+mirror spent the same reduction as a route input for Wang--Zhang without
+displaying the form estimate.
+
+Exact replacement:
+
+The theorem note and appendix now define the shifted form
+
+```text
+a_{k,lambda}(u,v)
+= nu int G_k grad u . grad vbar
+  + int (b_k . grad u) vbar
+  + int (c_k + lambda) u vbar
+```
+
+on the homogeneous-boundary form domain.  Uniform ellipticity gives the
+principal coercive term.  The bounded lower-order coefficients are controlled by
+
+```text
+|int (b_k . grad u) ubar|
+  <= epsilon ||grad u||_2^2 + C_{epsilon,b} ||u||_2^2,
+|int c_k |u|^2|
+  <= ||c_k||_infty ||u||_2^2.
+```
+
+Choosing `epsilon < nu*kappa/2` and then `lambda` larger than the remaining
+`L^2` loss gives the exact sector estimate
+
+```text
+Re a_{k,lambda}(u,u) >= c_1 ||u||_{H^1}^2,
+|Im a_{k,lambda}(u,u)| <= c_2 Re a_{k,lambda}(u,u).
+```
+
+The first representation theorem for closed sectorial forms gives the
+m-sectorial realization `A_{k,lambda}`; `e^{-tA_{k,lambda}}` is analytic on
+`L^2`, and undoing the shift only multiplies by `e^{lambda t}`.
+
+Downstream consequence:
+
+The Wang--Zhang measurable-time route may use the analytic-semigroup input only
+after this fixed-chart ellipticity, bounded lower-order packet, and shift
+absorption estimate are available.  The remaining theorem burden remains
+interval observability / the `PDO-Carleman` node, not semigroup existence.
+
+Surfaces edited:
+
+- `theorem-construction/exact-potential-v2-static-diffusion-semigroup-reduction.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
