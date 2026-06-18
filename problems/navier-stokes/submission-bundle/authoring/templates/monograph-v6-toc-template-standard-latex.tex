@@ -1,0 +1,90 @@
+% Monograph V6 TOC template: standard LaTeX math-paper version.
+%
+% Source pattern checked from:
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.tex
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/preamble/macros.tex
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.pdf
+%
+% Purpose:
+% - keep the visual idea of the V6 TOC;
+% - avoid the V6 custom commands \Volume, \volumegroup, and \VolSection;
+% - use ordinary math-paper sectioning: section, subsection, subsubsection.
+
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tocloft}
+\usepackage{titlesec}
+
+\title{Generic Mathematical Paper}
+\author{Author Name}
+\date{\today}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+% V6 visual hierarchy adapted to ordinary article sectioning:
+%   section       = large bold top-level row;
+%   subsection    = italic group row;
+%   subsubsection = detailed row with dot leaders.
+\renewcommand{\cftsecfont}{\bfseries\large}
+\renewcommand{\cftsecpagefont}{\bfseries\large}
+\renewcommand{\cftsecleader}{\hfill}
+\setlength{\cftbeforesecskip}{1.7\baselineskip}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftsecnumwidth}{2.5em}
+
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cftsubsecpagefont}{\itshape}
+\renewcommand{\cftsubsecleader}{\hfill}
+\setlength{\cftbeforesubsecskip}{0.6\baselineskip}
+\setlength{\cftsubsecindent}{0pt}
+\setlength{\cftsubsecnumwidth}{3.2em}
+
+\renewcommand{\cftsubsubsecfont}{\normalfont}
+\renewcommand{\cftsubsubsecpagefont}{\normalfont}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftbeforesubsubsecskip}{0pt}
+\setlength{\cftsubsubsecindent}{1.6em}
+\setlength{\cftsubsubsecnumwidth}{4.4em}
+
+\titleformat{\section}[block]{\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\bfseries\large\itshape}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\bfseries\normalsize}{\thesubsubsection}{1em}{}
+
+\begin{document}
+
+\pagenumbering{roman}
+\maketitle
+\tableofcontents
+\clearpage
+
+\pagenumbering{arabic}
+
+\section{First Major Block}
+\subsection{First Thematic Group}
+\subsubsection{First Detailed Topic}
+This is placeholder body text for the first detailed topic.
+
+\subsubsection{Second Detailed Topic}
+This is placeholder body text for the second detailed topic.
+
+\subsection{Second Thematic Group}
+\subsubsection{Third Detailed Topic}
+This is placeholder body text for the third detailed topic.
+
+\section{Second Major Block}
+\subsection{Main Argument Group}
+\subsubsection{Fourth Detailed Topic}
+This is placeholder body text for the fourth detailed topic.
+
+\subsubsection{Fifth Detailed Topic}
+This is placeholder body text for the fifth detailed topic.
+
+\end{document}
