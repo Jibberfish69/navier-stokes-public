@@ -22,9 +22,18 @@ with added packets either inside the saturated ledger or charged to legal loss:
 
 ## Attempt
 
-For one selected source edge `e`, the bare dyadic graph gives a formal counter-edge `\iota(e)`.  Finite dyadic banding controls the shell indices involved in `\iota(e)`.  Same-fluid transport supplies carrier fidelity once the partner packet is selected.
+For one selected source edge `e`, the bare dyadic graph gives only the
+unlocalized involutive partner `\iota(e)` on the full unweighted interaction
+graph.  This is an algebraic partner, not yet a terminal packet in the selected
+same-fluid ledger.  Finite dyadic banding controls only the shell indices
+involved in `\iota(e)`.  Same-fluid transport supplies carrier fidelity only
+after a partner packet has already been selected and kept inside an admissible
+terminal collar.
 
-These two facts do not imply bounded-overlap saturation.  The obstruction is that a single selected terminal packet can have many legal counter-edge realizations across physical packet pieces and terminal time collars.  Closing the ledger under all such partners can produce multiplicity growth:
+These facts do not imply bounded-overlap saturation.  The obstruction is that a
+single selected terminal packet can have many legal counter-edge realizations
+across physical packet pieces and terminal time collars.  Closing the ledger
+under all such partners can produce multiplicity growth:
 
 ```math
 \#\{P' : P'\text{ is a counter-edge partner of some selected edge into }P\}\gg1.
