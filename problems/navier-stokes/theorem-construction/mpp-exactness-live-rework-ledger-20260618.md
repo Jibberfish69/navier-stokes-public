@@ -3189,6 +3189,51 @@ Edited live surfaces:
 - `theorem-construction/mcp-surface-audit-of-act-kx-conditional-route-completion-items-1-12-ofp-a-1a6481cefb.md`;
 - `theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md`.
 
+## PPCJ Davis-Kahan Wording Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said the PPCJ /
+  Davis--Kahan comparison slot "becomes formal" once a measurable symmetric
+  observable surrogate is supplied.
+
+Exact replacement:
+
+The appendix now states that, under the displayed simple-top gap and surrogate
+error hypotheses,
+
+```math
+\|\widetilde S_J-S_J^{seg}\|_{\mathrm{op}}
+\le \varepsilon_J^{obs},
+\qquad
+2\varepsilon_J^{obs}\le \gamma_J,
+```
+
+the comparison is the exact Davis--Kahan projector estimate
+
+```math
+d_{\mathrm{proj}}(\widetilde N_J,P_{J,\top}^{seg})^2
+\le
+4(\varepsilon_J^{obs})^2/\gamma_J^2.
+```
+
+Proof or remaining burden:
+
+The Davis--Kahan step is paid by the displayed spectral gap and surrogate
+operator-norm estimate.  The open theorem remains `PSJ`: construct the
+synchronization observable from packet data.  The edit removes "formal" as a
+proof-status substitute without changing the remaining burden.
+
+Downstream consequence:
+
+`PD.70z`, `PD.70`, `PD.70aa`, and `SG.4B` may spend the PPCJ comparison only
+after the surrogate and gap hypotheses are supplied; the word "formal" carries
+no proof force.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
