@@ -860,6 +860,47 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Lower-Prefix Active-Square Barrier Rework
+
+Old loose step:
+
+- The source-field appendix said Young/Cauchy factorization leaves an
+  uncontrolled lower-prefix weight and that no "barrier-scale estimate" controls
+  the product with a dissipative margin.
+
+Exact replacement:
+
+The appendix now states the lower-prefix active-square object itself:
+
+```math
+\sum_{k\le j-C_1}2^{-2k-j}D_k(t)D_j(t)^2.
+```
+
+It defines the lower-prefix weight
+
+```math
+P_j^\downarrow(t):=\sum_{k\le j-C_1}2^{-2k-j}D_k(t)
+```
+
+and names the missing absorption theorem:
+
+```math
+\int_I P_j^\downarrow(t)D_j(t)^2\,dt
+\le
+\varepsilon\nu\int_I D_j(t)\,dt
++\mathrm{legal}_{j,I},
+```
+
+or an equivalent Carleson/cumulative-tail stress bound.
+
+Downstream consequence: the LPAS/CTS branch may not describe the obstruction as
+a generic barrier-scale estimate. Its live burden is the displayed
+lower-prefix active-square absorption or an equivalent named theorem.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
