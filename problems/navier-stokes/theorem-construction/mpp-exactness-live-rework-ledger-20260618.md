@@ -6415,6 +6415,44 @@ Surface edited:
 
 - `theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`.
 
+## Route-Comparison Shortcut Cleanup
+
+Old claim being spent:
+
+Several live theorem notes used shortcut phrases such as "same estimate,"
+"same proof," "as above," or "same kind" while comparing route branches or
+splitting NS/Euler consequences.
+
+Exact replacement:
+
+The edited surfaces now name the actual relation:
+
+- dyadic/tower controls are distinct inequalities serving the same finite-window
+  receiver problem;
+- the jump-average lower and upper channels are both discharged by `AWG.A`;
+- the cycle-heat flow closure is the displayed reduction
+  `ParabolicSourceCurrent.A = LocalizedSkewCurrent.A + CycleHeatAction.A`;
+- the NS/Euler dual map splits the NS CM argument by the exact input it spends,
+  distinguishing shared flux-volume Pack from viscous participation and
+  one-field coherence;
+- the source-pulse ancestry note cites the Conditional Theorem 1 split directly;
+- the localized-drain/pack-strain side is named as another sufficient mechanism
+  for the same source-pulse target.
+
+Downstream consequence:
+
+These passages no longer license proof transfer by analogy.  A downstream
+surface must spend the named reduction, theorem target, or input split.
+
+Surfaces edited:
+
+- `theorem-construction/modernized-four-body-schema-torus-tower-geometry.md`;
+- `theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md`;
+- `theorem-construction/mpp-cycle-heat-action-abstract-flow-reduction-20260505.md`;
+- `theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md`;
+- `theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md`;
+- `theorem-construction/mpp-source-no-pulse-terminal-target-stack-note.md`.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
