@@ -5331,3 +5331,53 @@ or else leave the carrier leakage / remainder commutator as an open dependency.
 Edited live surface:
 
 - `theorem-construction/d2-global-coercive-energy-estimate.md`.
+
+## Readout/Leakage Lower-Order Bound Repair
+
+Old loose step:
+
+Several readout and leakage notes used "lower order" to describe tails,
+off-block leakage, frame derivatives, or collar remainders even though the live
+argument needs the actual `Phi_*`, `Psi`, Moser, LP-tail, or collar-remainder
+bound.
+
+Exact replacement:
+
+- `active-readout-subordination-to-persistent-carrier-core-result.md` now uses
+  the displayed `ARS.5` `Phi_*` tail bound.
+- `coherent-readout-low-mode-comparison-theorem.md` keeps
+  `Psi(E_D(X))` as the residual term to be compared against the Euclidean shell
+  barrier.
+- `frame-recovery-wall-theorem-candidate-note.md` now states
+  `||nabla_x H||_{L^\infty} <= C(K_*+Gamma_{j,sup}^x)` and points to the
+  Moser/composition estimates.
+- `littlewood-paley-tail-estimate-for-active-readout-result.md` now uses the
+  exact tail conditions `(LPT.10)`--`(LPT.11)`.
+- `h1-carrier-leakage-direct-completion.md` now lists the exact terms controlled
+  by Lemma 3.
+- `carrier-coherence-defect-to-low-mode-strain-suppression.md` and
+  `carrier-to-classical-low-mode-export-theorem.md` now require the displayed
+  readout bound for off-block leakage.
+- `noncoherent-low-mode-product-estimate-result.md` now states the
+  readout-compatible leakage bound as a condition.
+- `persistent-support-transport-export-theorem.md` now states that the collar
+  remainder must satisfy the same bridge-surface bound as the displayed
+  `R^{collar}` term.
+
+Downstream consequence:
+
+The carrier/readout route can no longer use "lower order" as a free deletion
+operator. Each tail or leakage term must be placed into the displayed bound
+used by that surface, or the downstream export remains conditional.
+
+Edited live surfaces:
+
+- `theorem-construction/active-readout-subordination-to-persistent-carrier-core-result.md`;
+- `theorem-construction/coherent-readout-low-mode-comparison-theorem.md`;
+- `theorem-construction/frame-recovery-wall-theorem-candidate-note.md`;
+- `theorem-construction/littlewood-paley-tail-estimate-for-active-readout-result.md`;
+- `theorem-construction/h1-carrier-leakage-direct-completion.md`;
+- `theorem-construction/carrier-coherence-defect-to-low-mode-strain-suppression.md`;
+- `theorem-construction/noncoherent-low-mode-product-estimate-result.md`;
+- `theorem-construction/persistent-support-transport-export-theorem.md`;
+- `theorem-construction/carrier-to-classical-low-mode-export-theorem.md`.
