@@ -375,6 +375,36 @@ Surface edited:
 
 - `theorem-construction/d3-commutative-shadow-theorem.md`.
 
+## Density-Selected Stopping Rule Rework
+
+Old claim being spent:
+
+`mcp-density-selected-source-packet-closure-schedule-for-sg-4-tps-ep-a-2baab1f1b7.md`
+said that after stopping/refining cells, "the same estimate holds."
+
+Exact replacement:
+
+The note now states the implication explicitly:
+
+```text
+diam(Q) <= (gamma * delta_bar_j(Q) / [delta_{j,Q}]_{C^alpha(Q)})^(1/alpha)
+=> [delta_{j,Q}]_{C^alpha(Q)} diam(Q)^alpha
+   <= gamma * delta_bar_j(Q),
+```
+
+when the Holder seminorm is positive.  If the seminorm is zero, the left side is
+already zero.
+
+Downstream consequence:
+
+The density-adapted stopping rule no longer hides a positivity assumption in the
+denominator or a "same estimate" shortcut.  The parent-cell Holder packet closes
+only under the displayed finite-seminorm/refinement hypotheses.
+
+Surface edited:
+
+- `theorem-construction/mcp-density-selected-source-packet-closure-schedule-for-sg-4-tps-ep-a-2baab1f1b7.md`.
+
 ## Kernelized Lifted-Band Scale-Separation Rework
 
 Old loose step:
