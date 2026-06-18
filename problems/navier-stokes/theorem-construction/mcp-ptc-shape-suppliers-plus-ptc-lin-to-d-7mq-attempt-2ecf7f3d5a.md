@@ -2,7 +2,12 @@
 
 ## Status
 
-Conditional composite proof. The formal bridge from the four requested packets to `D.7mq` closes. The analytic source estimates that instantiate those packets remain the active upstream work.
+Conditional reduction, not a source-level discharge. If the four requested
+packets hold on the same selector-good strip, and if the exact-potential
+comparison packet and reference Cauchy-Green spectral gap hold on that same
+strip, then the displayed tensor defect and Davis-Kahan estimate imply `D.7mq`.
+The analytic source estimates that instantiate those packets remain the active
+upstream work.
 
 ## Target
 
@@ -179,12 +184,31 @@ Expanding the frame tensor gives
  +(\varepsilon_{J,lin}^{frame})^2\right).
 ```
 
-With the exact-potential comparison packet and the reference Cauchy-Green simple-top gap, Davis-Kahan gives the projector comparison
+Define the finite-frame tensor defect
+
+```math
+E_{J,frame}:=
+d\left(2|W_J^{coc}|_{op}\varepsilon_{J,lin}^{frame}
++(\varepsilon_{J,lin}^{frame})^2\right).
+```
+
+Let `E_{J,EP}` be the exact-potential comparison error between the reference
+Cauchy-Green tensor and `W_J^{coc}\Pi_{N_a}(W_J^{coc})^*`, and let
+`\gamma_{J,CG}` be the simple-top spectral gap of the reference Cauchy-Green
+tensor.  The Davis-Kahan step is licensed only under the exact hypothesis
+
+```math
+\varepsilon_{J,CG}:=E_{J,frame}+E_{J,EP},
+\qquad
+2\varepsilon_{J,CG}\le\gamma_{J,CG}.
+```
+
+Then Davis-Kahan gives the projector comparison
 
 ```math
 \|\widehat P_J^{frame}-P_J^{CG}\|_F^2
 \le
-\operatorname{Err}_{J,CG}^{frame}.
+4\varepsilon_{J,CG}^2/\gamma_{J,CG}^2.
 ```
 
 This is exactly the `D.7mq` conclusion on the finite-frame branch.
@@ -210,6 +234,7 @@ sector sign + shell leakage + transport stability
 => PTC-Shape
 
 PTC-Shape + PTC-Lin + exact-potential comparison + CG gap
++ 2(E_frame+E_EP) <= gamma_CG
 => D.7mq
 ```
 
