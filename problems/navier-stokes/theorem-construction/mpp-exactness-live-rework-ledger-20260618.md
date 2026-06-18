@@ -6401,6 +6401,30 @@ Surfaces edited:
 - `theorem-construction/clay-discharge-ladder-from-current-reductions.md`;
 - `theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md`.
 
+## Appendix Comparison-Sufficiency Wording Rework
+
+Old claim being spent:
+
+The source-field appendix used "suffices" inside comparison-fact and abstract
+density-model passages.
+
+Exact replacement:
+
+The comparison passages now say that the widened-thickness or thicker
+current-collar route is permitted to supply the named packet, while the sharper
+theorem-facing object remains unchanged.  The density-model passage now says
+the model shows the installed inequality is too weak, without phrasing the
+model as a sufficiency proof.
+
+Downstream consequence:
+
+The appendix no longer uses "suffices" to blur comparison support with the
+sharp theorem-facing target.
+
+Surface edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Friedrichs Energy Identity And Appendix Same-Identity Rework
 
 Old claim being spent:
