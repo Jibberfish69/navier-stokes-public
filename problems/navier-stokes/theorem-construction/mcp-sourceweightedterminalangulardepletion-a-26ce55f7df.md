@@ -25,7 +25,7 @@ This would imply `PositiveRemainderDepletion.A`.
 The material eigenframe split decomposes the coefficient into threshold-small, far-low turnover, near-band turnover, and source-residence components.
 
 The threshold-small term is drain-absorbable.  Far-low turnover has parabolic
-scale separation and routes into legal ledgers.  The ASAC assembly pays the
+scale separation and routes into legal ledgers.  The conditional ASAC assembly pays the
 active-alignment and one-sided pair-weight defect component only after the exact
 packet residual estimate and no-incoming/backward-uniqueness inputs for
 `ASAC.A` are installed.
@@ -59,7 +59,9 @@ finite donor tree,
 terminal Zeno refill.
 ```
 
-ASAC pays retained partner pair-weight mismatch.  Legal ledgers pay legal exits.  LocalDonorBalance.A and EntranceLeafDecay.A pay finite donor trees.
+Proved `ASAC.A` pays retained partner pair-weight mismatch through the exact
+residual/no-incoming gate.  Legal ledgers pay legal exits.
+LocalDonorBalance.A and EntranceLeafDecay.A pay finite donor trees.
 
 The remaining case is
 
