@@ -82,9 +82,9 @@ C_{N,s}2^jR^{-N}\|Y\|_{H_D^s}.
 Multiplication by the bounded localizer `\widetilde Q_i` changes only the fixed constant, assuming `\|\widetilde Q_i\|_{W^{1,
 \infty}}` is controlled at the active scale.
 
-## Lower-order absorption condition
+## Tail Absorption Condition
 
-The tail is absorbed into the lower-order ledger whenever
+The tail is absorbed into the `\Phi_*` residual whenever
 
 ```math
 C_{N,s}2^jR^{-N}\|Y\|_{H_D^s}
