@@ -18,7 +18,33 @@ The compactness half is installed:
 ZenoCompactnessExtraction.A.
 ```
 
-For a legal Zeno branch with radii `r_m\downarrow0` and `\sum_m r_m^2<\infty`, parabolic rescaling gives local energy and pressure bounds on every fixed backward cylinder. Standard local suitable compactness produces an ancient local suitable limit
+For a legal Zeno branch with radii `r_m\downarrow0` and
+`\sum_m r_m^2<\infty`, use the parabolic rescaling from
+`ZenoCompactnessExtraction.A`:
+
+```math
+u^{(m)}(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s),\qquad
+p^{(m)}(y,s)=r_m^2 p(x_m+r_m y,t_m+r_m^2s).
+```
+
+The compactness input is the exact fixed-cylinder bound
+
+```math
+\sup_m\left[
+\|u^{(m)}\|_{L^\infty_sL^2_y(Q_R^-)}
++\|\nabla u^{(m)}\|_{L^2(Q_R^-)}
++\|p^{(m)}\|_{L^{3/2}(Q_R^-)}
+\right]<\infty
+\qquad\text{for each fixed }R,
+```
+
+together with the local energy inequality and normalized source-residue mass
+bound.  The local suitable compactness theorem then gives a subsequence with
+`u^{(m)}\to u_*` strongly in `L^2_loc`, `\nabla u^{(m)}\rightharpoonup\nabla u_*`
+weakly in `L^2_loc`, `p^{(m)}` converging weakly in `L^{3/2}_{loc}` after
+subtracting additive time functions, and
+`\mu_m^{src}\stackrel{*}{\rightharpoonup}\mu_*^{src}` as locally finite Radon
+measures.  Thus the extracted ancient local suitable source-residue limit is
 
 ```math
 (u_*,p_*,\mu_*^{src})
