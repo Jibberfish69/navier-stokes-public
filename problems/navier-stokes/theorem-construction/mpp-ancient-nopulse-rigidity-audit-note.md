@@ -92,8 +92,8 @@ class.
 
 ## Missing Extra Hypotheses
 
-The current repo does not install any of the standard hypotheses that could make
-such a source-residue Liouville theorem plausible, for example:
+The current repo does not install any of the hypotheses that would support such
+a source-residue Liouville theorem, for example:
 
 ```math
 \text{bounded ancient solution},
