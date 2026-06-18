@@ -3773,6 +3773,7 @@ Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-endpoint-matrix-minimality-theorem.md`;
+- `theorem-construction/mcp-endpoint-matrix-final-form.md`;
 - `theorem-construction/mcp-endpoint-contradiction-theorem-standard.md`;
 - `theorem-construction/mcp-externalized-proof-vocabulary-pde-lemmas.md`;
 - `theorem-construction/mcp-manuscript-smallest-standard-lemma-sequence.md`;
