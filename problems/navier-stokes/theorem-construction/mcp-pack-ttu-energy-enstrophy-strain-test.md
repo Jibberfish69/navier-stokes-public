@@ -105,4 +105,15 @@ The next admissible continuation criterion is the Beale-Kato-Majda type conditio
 \int_{t_0}^{T_*}\|\omega(t)\|_{L^\infty}\,dt<\infty.
 ```
 
-This can control the pack strain only with the usual logarithmic high-norm accompaniment or an equivalent continuation ledger.
+This can control the pack strain only if it is paired with a continuation-grade
+logarithmic strain estimate, for example for \(s>5/2\)
+
+```math
+\|\nabla u(t)\|_{L^\infty}
+\le
+C_s\bigl(1+\|\omega(t)\|_{L^\infty}
+\log(e+\|u(t)\|_{H^s})\bigr),
+```
+
+together with a same-solution \(H^s\) ledger, or with an equivalent continuation
+ledger.

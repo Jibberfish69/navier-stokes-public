@@ -32,8 +32,8 @@ The imported facts under review are:
    compactness on `\mathbb R^3` with globalization through the admissible-energy
    tail bound.
 6. Positive-time Gevrey / space analyticity of classical solutions, together
-   with the standard analytic unique-continuation consequence that open-set
-   vanishing on a connected time slice forces global vanishing on that
+   with the analytic identity theorem on a connected time slice: open-set
+   vanishing of the analytic spatial profile forces vanishing on the whole
    connected component.
 
 ## External Validation Map
@@ -151,11 +151,12 @@ External references:
 
 The class-membership rigidity note
 [mpp-open-dead-patch-rigidity-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-open-dead-patch-rigidity-theorem.md)
-uses one further standard import: positive-time spatial analyticity of
-classical solutions on the periodic and standard whole-space theorem surfaces.
+uses one further classical import: positive-time spatial analyticity of
+classical solutions on the periodic and whole-space theorem surfaces with the
+declared decay or normalization hypotheses.
 
 Once that analyticity is granted, the identity theorem for analytic functions
-gives the standard consequence:
+gives the consequence:
 
 ```text
 if u(·,t0) vanishes on a nonempty open set of a connected time slice,

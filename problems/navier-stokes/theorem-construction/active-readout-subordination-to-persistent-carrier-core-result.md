@@ -108,8 +108,10 @@ For every `N` and every `|\alpha|\le 1`, the Schwartz kernel gives
 C_{\alpha,N}2^{|\alpha|j}(1+2^jd_j(t))^{-N}.
 ```
 
-With the usual finite-template bounds on `\widetilde Q_i`, this yields the exact
-tail estimate
+Assume the finite-template bounds for `\widetilde Q_i`: each template has a
+uniform \(W^{1,\infty}\) multiplier norm and the template family has bounded
+finite overlap.  Combining those bounds with the kernel estimate above yields
+the exact tail estimate
 
 ```math
 \|\widetilde Q_i(P_{\le j}v)_{tail}\|_{W^{1,\infty}}

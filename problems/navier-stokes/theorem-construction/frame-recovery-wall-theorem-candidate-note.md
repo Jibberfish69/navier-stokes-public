@@ -1199,7 +1199,7 @@ W^{3,\infty}\ \text{needs}\ H^{\frac92+\varepsilon}.
 \tag{13l}
 ```
 
-For nonlinear expansions, the relevant same-depth product tool is the usual
+For nonlinear expansions, the relevant same-depth product tool is the displayed
 Moser/Kato--Ponce tame estimate:
 
 ```math

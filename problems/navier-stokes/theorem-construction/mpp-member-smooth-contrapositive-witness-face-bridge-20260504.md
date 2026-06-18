@@ -172,8 +172,8 @@ Smooth(Q).
 ```
 
 Equivalently, at any continuation depth high enough for the classical criterion
-used in the lane, `CM_{N,r_N,Q}` supplies the usual local continuation norm.  In
-particular the source-locked readout surface records
+used in the lane, `CM_{N,r_N,Q}` supplies the displayed local continuation
+norm.  In particular the source-locked readout surface records
 
 ```math
 CM_{N,r,Q}
