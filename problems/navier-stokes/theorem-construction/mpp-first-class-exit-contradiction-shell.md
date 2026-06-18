@@ -185,8 +185,8 @@ chronological form.
 This note does **not** prove any of the following by itself:
 
 1. that finite-time class exit actually occurs;
-2. that a genuine PDE non-smooth scenario automatically realizes the left
-   implication in `(FCE.5)` without the bridge note;
+2. that a genuine PDE non-smooth scenario realizes the left implication in
+   `(FCE.5)` without the bridge note;
 3. that exactly one primitive predicate fails at first exit;
 4. that the no-blown or no-jump endpoint exclusions are already closed.
 

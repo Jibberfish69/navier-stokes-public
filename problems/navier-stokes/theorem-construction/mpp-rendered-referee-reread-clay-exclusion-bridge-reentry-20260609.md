@@ -41,9 +41,9 @@ The checked repo state does not justify that final sentence.
    `ClayCounterexampleExclusionBridge.A`.
 
 3. `mpp-clay-counterexample-exclusion-gap-audit-20260601.md` records the
-   original gap: a classified `Exit(Q)` branch is not automatically a
-   contradiction with a finite Clay breakdown witness, because the Clay negation
-   is failure of classical continuation.
+   original gap: a classified `Exit(Q)` branch contradicts a finite Clay
+   breakdown witness only after the Clay-exclusion bridge connects class exit to
+   failure of classical continuation.
 
 4. `mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md`
    demotes the old generic "Exit itself is inadmissible" demand, but it relies

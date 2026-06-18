@@ -448,4 +448,4 @@ in `SCTCFailureToFaceWitness.A`; they are separate source-wall routes.
 The cross-ledger warning `PositiveFieldScaleUnderSynchronization.A` is also
 separate. This note diagnoses a selected SCTC failure on one active CM ledger; it
 does not claim that independent Pack, Part, and Field witnesses from different
-ledgers automatically synchronize.
+ledgers synchronize without a same-ledger synchronization theorem.

@@ -1770,7 +1770,8 @@ So the nontrivial coefficient-side debt is now exact: one must prove the
 lower-order moving-collar packet theorem `(CSP.25g2)`. The geometric readout
 is built directly into `\vartheta_{\rho,\psi,t}^{\delta}` and is no longer a
 separate wall. Once `(CSP.25g2)` is installed, Lemma `CSP.B3a0` feeds the
-annular package automatically and the coefficient input to `CSP.B4` is closed.
+annular package by the displayed implication and the coefficient input to
+`CSP.B4` is closed.
 
 ### Lemma `CSP.B3b` (Frozen-family packet-source integrability)
 

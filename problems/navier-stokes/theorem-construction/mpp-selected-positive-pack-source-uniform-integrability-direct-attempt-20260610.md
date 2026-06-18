@@ -49,9 +49,9 @@ positive part concentrates.
 
 The active loop already tested broader super-L1/source-Carleson, Orlicz,
 Morrey, and local positive source-Carleson routes. The selected-Pack version
-does not inherit those estimates automatically. It still needs a new theorem
-that either gives active-time thickness or proves the Pack selector is stable
-under terminal approach/profile decomposition.
+inherits those estimates only after a selected-Pack transfer theorem. It still
+needs a new theorem that either gives active-time thickness or proves the Pack
+selector is stable under terminal approach/profile decomposition.
 
 # Result
 

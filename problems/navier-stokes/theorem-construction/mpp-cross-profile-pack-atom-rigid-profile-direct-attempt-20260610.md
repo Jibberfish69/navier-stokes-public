@@ -127,8 +127,9 @@ with a quantitative density or anti-atom modulus strong enough to pass to the
 terminal limit.  The proved bound `(TPD)` gives only
 `\mu_{\alpha\beta}^+\le\nu_{\alpha\beta}`.  The weight is the total selected low
 strain, pressure/Leray/cutoff package, or near-band carrier seen by the original
-same-solution witness. It is not automatically the Pack functional of profile-decomposition frame
-`alpha` alone or frame `beta` alone.
+same-solution witness. It becomes the Pack functional of profile-decomposition
+frame `alpha` alone or frame `beta` alone only after a same-frame identification
+theorem.
 
 A near-resonant pair can therefore survive as a molecule:
 
