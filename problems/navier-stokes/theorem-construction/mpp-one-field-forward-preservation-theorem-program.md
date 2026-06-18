@@ -2306,7 +2306,7 @@ So the result of this test is:
 
 ```math
 \boxed{
-\text{the supplier split is not fully accidental, but the real irreducible receiver appears to be the collar packet rather than the earlier whole supplier ladder.}
+\text{after the packing and rung-1 source terms are absorbed, the remaining unclosed receiver is the collar packet.}
 }
 \tag{OFP.10s}
 ```
