@@ -22,7 +22,7 @@ OffFamilyCounteredgeCharge.A
 
 The installed off-packet, cutoff, collar, boundary, pressure, residual, heat,
 and earlier-arrival ledgers charge declared geometric or temporal errors.  They
-do not charge the full mass of a formal negative signed partner merely because
+do not charge the full mass of a bare algebraic negative signed partner merely because
 terminal positive selection placed that partner outside the selected usable
 same-fluid ledger.
 
