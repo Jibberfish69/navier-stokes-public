@@ -262,7 +262,7 @@
 }
 \newcommand{\SurfaceCrefTitle}[1]{%
   \SurfaceCrefIfKnown{#1}{%
-    \FormalEnvLabelSurface{\SurfaceCrefStem{#1}}%
+    \expandafter\FormalEnvLabelSurface\expandafter{\csname formal@surface@stem@#1\endcsname}%
   }{%
     \FormalEnvCrefPlain{#1}%
   }%
