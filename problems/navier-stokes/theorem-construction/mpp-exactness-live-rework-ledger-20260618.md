@@ -6526,6 +6526,52 @@ Surfaces edited:
 - `theorem-construction/mpp-vanishing-ledger-bad-packet-field-exit-20260516.md`;
 - `theorem-construction/mpp-uniform-terminal-pack-tightness-from-first-exit-minimality-direct-attempt-20260610.md`.
 
+## Immediate/Standard Language Rework
+
+Old claim being spent:
+
+Several live surfaces used `Immediate` in headings or generic `standard`
+language where the phrase could imply an unpaid proof step or imported estimate.
+
+Exact replacement:
+
+The edited surfaces now use direct language:
+
+- `Immediate` headings became `Formal`, `Current`, `Direct`, `Attack
+  Reduction`, `Consequence`, or the explicit statement that rescaled energy has
+  no coercive sign by itself;
+- a `standard CKN cylinder` became a fixed CKN cylinder;
+- a `standard mollifier` became a smooth compactly supported mollifier with
+  integral `1`;
+- `standard rigid classes` became listed rigid classes;
+- `standard regularity inputs` became current regularity inputs;
+- `audit standard` became audit criterion;
+- `standard basis` became coordinate basis.
+
+Downstream consequence:
+
+The remaining proof surfaces no longer invite a reader or later agent to treat
+generic standardness or immediacy as a proof payment.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-class-membership-endpoint-exclusion-note.md`;
+- `theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md`;
+- `theorem-construction/mpp-cm-contrapositive-primitive-seat-repair-note-20260503.md`;
+- `theorem-construction/mpp-euler-control-case-to-ns-attack-map-20260517.md`;
+- `theorem-construction/mpp-collar-to-jump-pivot-note.md`;
+- `theorem-construction/mpp-frozen-family-packet-cutoff-commutator-note.md`;
+- `theorem-construction/mpp-public-critical-exit-to-cm-face-bridge-required-20260519.md`;
+- `theorem-construction/spectral-transversality-in-measure-implies-pd70.md`;
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`;
+- `theorem-construction/mpp-cone-payment-closure-package-20260611.md`;
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
+- `theorem-construction/mpp-uniform-ledger-ac-direct-attempt-20260516.md`;
+- `theorem-construction/mpp-zenoresidue-liouville-basac-direct-attempt-20260517.md`;
+- `theorem-construction/mpp-no-zero-thickness-terminal-pack-atom-from-original-smooth-data-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-vortex-stretching-throttle-lyapunov-scale-barrier-reduction-20260611.md`;
+- `theorem-construction/pd70z-cycle-exact-normal-covector-route.md`.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
