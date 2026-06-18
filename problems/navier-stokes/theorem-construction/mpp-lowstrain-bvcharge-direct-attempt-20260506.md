@@ -72,8 +72,22 @@ D_tS
 \tag{LBV.3}
 ```
 
-with the usual incompressible pressure relation.  After localization and
-low-frequency projection,
+where `\Omega=(\nabla u-(\nabla u)^T)/2` and the pressure is fixed by the
+incompressible Poisson equation
+
+```math
+-\Delta p
+=
+\partial_i u_j\,\partial_j u_i
+=
+\operatorname{tr}\big((\nabla u)^2\big)
+=
+\operatorname{tr}(S^2+\Omega^2),
+\tag{LBV.3a}
+```
+
+with zero spatial mean on the periodic model, or the declared decay/local gauge
+on the whole-space model.  After localization and low-frequency projection,
 
 ```math
 D_tS^{loc}_{<j}
