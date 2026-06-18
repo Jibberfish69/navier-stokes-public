@@ -79,7 +79,7 @@ needs Navier-Stokes structure beyond finite energy.
 
 ## Required Navier-Stokes Primitive
 
-The density-only proof would close from either of the following positive-forward primitives:
+The density-only proof closes only from one of the following positive-forward primitives:
 
 ```math
 KineticDensityMorreyFromParticipation.A:

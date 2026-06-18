@@ -14,7 +14,7 @@ Role: test the first child left by
 \tag{SR.1}
 ```
 
-This theorem would imply `Door1TerminalSourceTimeAntiAtom.A` by the Holder
+This theorem implies `Door1TerminalSourceTimeAntiAtom.A` by the Holder
 calculation in the cost dichotomy note.
 
 ## Desired statement

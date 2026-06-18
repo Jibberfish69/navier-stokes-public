@@ -76,7 +76,7 @@ F_n^{mod}
 where `F_n^{mod}` contains translation, rotation, scale, phase, and selector
 forcing.
 
-Door 2 would close if the zero-flux branch proved
+Door 2 closes if the zero-flux branch proves
 
 ```math
 F_n^{mod}\to0,\qquad
@@ -99,7 +99,7 @@ The attractive argument is:
 \tag{GS.5}
 ```
 
-Then the zero-flux branch would force drift to vanish.
+Then the zero-flux branch forces drift to vanish.
 
 But `(GS.5)` is not installed.  A moving center, rotating frame, changing
 selector, or switching profile can appear as a neutral modulation of the
@@ -206,7 +206,7 @@ The proof needs real coercive facts behind the gauge:
 \tag{GS.11}
 ```
 
-These four statements would imply:
+These four statements imply:
 
 ```math
 \text{ZenoNoDriftUniqueTangent.A}

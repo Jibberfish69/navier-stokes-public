@@ -119,7 +119,7 @@ PositiveRemainderDepletion.A:
 \tag{LPSC.4}
 ```
 
-`PositiveRemainderDepletion.A` would imply same-fluid source residence and
+`PositiveRemainderDepletion.A` implies same-fluid source residence and
 `LocalPositiveSourceCarleson.A`.
 
 ## Direct Completion Attempt

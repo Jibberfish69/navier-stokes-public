@@ -796,7 +796,7 @@ So the compatibility hypothesis `(FPR.C5a)` is impossible on the installed
 route. The enlarged-ball theorem `EOC.A` is therefore not the direct supplier
 for `\mathfrak H_{N,\eta}^{press,loc,4\Lambda,\alpha}`.
 
-### Lemma `FPR.C6` (A sufficiently thick common collar would supply the widened collar half)
+### Lemma `FPR.C6` (A sufficiently thick common collar supplies the widened collar half)
 
 If the common thickened-collar scale satisfies
 
@@ -1033,7 +1033,7 @@ the unshifted FEI theorem `FEI.A` alone.
 
 The exact larger-radius upgrade is now isolated in
 [mpp-lci-a-larger-radius-shifted-center-envelope-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-larger-radius-shifted-center-envelope-note.md):
-that note first proves the larger-radius envelope `(FPR.C10b)` would follow
+that note first proves the larger-radius envelope `(FPR.C10b)` follows
 from a shifted-center `\Lambda`-increment theorem on offsets `|z|\le 4\Lambda`,
 then proves that the direct Holder theorem `FPC.H` supplies exactly that
 shifted-center chain. So `FPR.C10` is an honest FEI-local obstruction, but once

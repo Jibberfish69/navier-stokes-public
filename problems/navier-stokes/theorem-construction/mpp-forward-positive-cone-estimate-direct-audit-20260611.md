@@ -208,7 +208,7 @@ With fixed density `rho0 > 0`,
 k(x,t) = (rho0/2)|u(x,t)|^2
 ```
 
-and pointwise finite `k(x0,T)` would give finite `|u(x0,T)|`.
+and pointwise finite `k(x0,T)` gives finite `|u(x0,T)|`.
 
 The failed direct density note already shows the gap:
 

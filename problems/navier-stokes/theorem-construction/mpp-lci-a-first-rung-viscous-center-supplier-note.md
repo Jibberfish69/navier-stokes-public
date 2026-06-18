@@ -128,7 +128,7 @@ once the first-rung package has already been repaired into the affine frame.
 So `(VCS.6)` is a valid downstream recycle identity, but it is not by itself
 the honest current theorem on the lower-order first-rung surface. On the
 installed route, appealing to `\mathfrak A_{3,\rho,\psi}^{ctr}` before the
-first-rung package closes would simply feed the still-missing first-rung
+first-rung package closes simply feeds the still-missing first-rung
 closure back into itself.
 
 That is exactly why `\mathfrak K_{1,\rho,\psi}^{visc,ctr}` still survives as a

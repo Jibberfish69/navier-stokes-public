@@ -198,7 +198,7 @@ PositiveRemainderDepletion.A:
 ```
 
 with `0<theta<1`. The installed post-ASAC route proves this only
-conditionally from `ZenoSourceResidueRigidity.A`, so using it here would close
+conditionally from `ZenoSourceResidueRigidity.A`, so using it here closes
 a loop:
 
 ```math

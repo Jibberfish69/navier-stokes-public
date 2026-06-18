@@ -171,7 +171,7 @@ The stress-flux identity gives
 \tag{TD.9}
 ```
 
-After `(TD.8)`, Door 1 would close from the following sharper theorem:
+After `(TD.8)`, Door 1 closes from the following sharper theorem:
 
 ```math
 \boxed{

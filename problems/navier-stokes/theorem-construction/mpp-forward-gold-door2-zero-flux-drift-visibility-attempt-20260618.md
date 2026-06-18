@@ -55,7 +55,7 @@ coefficients stays nonzero along the selected Zeno orbit, then either
 ```
 
 or the selected native positive source carrier is nonzero in the Door 1 sense.
-On the zero-flux branch, this would force the modulation coefficients to vanish
+On the zero-flux branch, this forces the modulation coefficients to vanish
 after quotient normalization.
 
 ## Attempt 1: bare stress-flux projection
