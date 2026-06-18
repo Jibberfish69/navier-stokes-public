@@ -1334,6 +1334,31 @@ Edited live surfaces:
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`.
 
+## Five-Family Energy-Pipeline Proof-Verb Rework
+
+Old loose step:
+
+- `theorem-construction/five-family-binomial-pipeline-note.md` described the
+  argument as the "standard Navier--Stokes energy pipeline" and said the four
+  "standard pieces" behave as before.
+
+Exact replacement:
+
+The note now says the proof spends the displayed mixed-jet identities: the time
+derivative identity, pressure orthogonality from `\nabla\cdot J_{m,\alpha}=0`,
+base-transport cancellation from `\nabla\cdot u=0`, and viscous integration by
+parts. The five-family conclusion is tied to identities `(12)`--`(16)` and to
+the exact binomial convolution law `(16)`, not to a generic standard-pipeline
+phrase.
+
+Downstream consequence: the five-family note may still be used as an exact
+mixed-jet energy identity, but consumers must cite the displayed identities and
+the off-diagonal Leibniz sum rather than a proof-verb wrapper.
+
+Edited live surface:
+
+- `theorem-construction/five-family-binomial-pipeline-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
