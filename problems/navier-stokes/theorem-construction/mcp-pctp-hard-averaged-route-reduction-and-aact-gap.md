@@ -32,8 +32,7 @@ The intended order is
 ```math
 OriginalSmoothData
 \Longrightarrow
-SCF_{base}+SGC.A_{a.e.}+ATD_m^\varepsilon
-\ +\ SCFBaseLocalModulus_N
+SCF_{base}+SGC.A_{a.e.}+ATD_m^\varepsilon+SCFBaseLocalModulus_N
 \Longrightarrow
 SCF_{avg}^m
 \Longrightarrow
@@ -53,7 +52,7 @@ CFI.A_{avg}
 \Longrightarrow
 End_{NS,avg}
 \Longrightarrow
-READ.COVER+READ.END
+READ.COVER+Field.Read+DTC.Read+READ.END
 \Longrightarrow
 End_{NS}.
 ```
