@@ -115,7 +115,7 @@ has enough mass there, then
 \int a_m(s)\,d\mu_m(s)
 ```
 
-can carry order-one positive low-high source while the strip thickness tends to
+can remain bounded below by a fixed `c_0>0` while the strip thickness tends to
 zero. Finite `L^1_s` mass and same-object custody do not prevent this
 co-location. The argument needs a decorrelation, residence, domination, or
 strip-modulus theorem; it cannot be extracted from the paraproduct capture

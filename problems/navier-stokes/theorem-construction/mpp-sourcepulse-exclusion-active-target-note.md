@@ -209,8 +209,8 @@ to mean that for every terminal active-window family selected by the
 `Jump_avg` branch, the same-fluid nonlinear source packet cannot both:
 
 1. keep the active coefficient above threshold on heat-scale windows;
-2. carry order-one mixed bilinear dissipation / active-square mass on those
-   same windows;
+2. carry mixed bilinear dissipation / active-square mass bounded below by a
+   fixed `c_0>0` on those same windows;
 3. evade the signed lifted-remainder reserve and the active-window Carleson
    bound.
 

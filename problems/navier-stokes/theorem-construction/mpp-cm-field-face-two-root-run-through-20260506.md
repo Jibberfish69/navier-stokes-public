@@ -203,7 +203,8 @@ o_N(1).
 ```
 
 If installed, this would close the Field-face wall.  Indeed, choose the first
-terminal same-fluid window with order-one reserve.  Iterating backward gives:
+terminal same-fluid window with reserve at least a fixed `c_0>0`, independent
+of the backward iteration depth.  Iterating backward gives:
 
 ```math
 \mathcal R_N(W_0)
@@ -217,8 +218,9 @@ Loss_{legal}
 o_N(1).
 ```
 
-The first-pulse choice removes earlier order-one reserve, the contractive term
-dies, and the charge is paid by the high-frequency dissipation tail:
+The first-pulse choice removes every earlier reserve pulse of size at least
+`c_0`, the contractive term dies, and the charge is paid by the high-frequency
+dissipation tail:
 
 ```math
 \int\sum_{q>N}D_q(t)\,dt\to0.

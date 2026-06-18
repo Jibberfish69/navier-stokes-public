@@ -56,7 +56,9 @@ F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
 \qquad \tau_N\downarrow0,
 ```
 
-has unit `L^1_t` mass and order-one mass in every fixed terminal slab. Its primitive has a positive terminal jump.
+has unit `L^1_t` mass and, for every fixed terminal slab `[T-\tau,T]`, has
+mass `1` in that slab once `\tau_N<\tau`. Its primitive has a positive terminal
+jump.
 
 Therefore finite `L^1_t` mass and local energy/BV trace structure supply neither the slab modulus nor positive-source trace absolute continuity.
 

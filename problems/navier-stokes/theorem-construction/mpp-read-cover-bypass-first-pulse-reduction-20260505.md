@@ -177,7 +177,8 @@ Loss_{legal}(W)
 o_N(1).
 ```
 
-Firstness removes an earlier order-one reserve pulse.  Iteration kills the
+Firstness removes every earlier reserve pulse of size at least a fixed
+`c_0>0`.  Iteration kills the
 contractive inherited term, and the charge is controlled by the high-frequency
 dissipation tail.  Thus the assumed buffered blowup contradicts firstness plus
 tail smallness.  Hence the buffered carrier envelope holds.

@@ -76,9 +76,9 @@ The terminal concentration model
 g_m(s)=m\,1_{(-1/m,0]}(s)
 ```
 
-has uniformly bounded `L^1_s` mass and its primitive has an order-one positive
-jump at the terminal face. Thus the installed BV trace structure does not
-produce `PositiveSourceTraceAC_{B_ASAC}.A`.
+has `\|g_m\|_{L^1_s}=1` and its primitive jumps by exactly `1` at the terminal
+face. Thus the installed BV trace structure does not produce
+`PositiveSourceTraceAC_{B_ASAC}.A`.
 
 ### 2. Weak Linear Trace Compactness
 

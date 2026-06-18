@@ -177,7 +177,8 @@ First moment does not imply this. A heat-scale pulse model with
 D_j(t)=2^{2j}\mathbf 1_{I_j}(t)
 ```
 
-has order-one first moment on the window but active-square contribution
+has unit first moment `\int_{I_j}D_j(t)\,dt=1` on the window but active-square
+contribution
 
 ```math
 \int_{I_j}2^{-j}D_j(t)^2\,dt

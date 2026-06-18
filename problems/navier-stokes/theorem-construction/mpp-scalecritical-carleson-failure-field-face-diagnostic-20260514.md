@@ -189,9 +189,9 @@ has the same critical weight as the Carleson reserve:
 -Loss_{legal}(I_m).
 ```
 
-Infinitely many order-one lower bounds of this form contradict the tail
-vanishing required by `Field_{N,r,Q}`. Hence the source-reserve tree cannot
-coexist with `Field`.
+Infinitely many lower bounds by a fixed `c_0>0` of this form contradict the
+tail vanishing required by `Field_{N,r,Q}`. Hence the source-reserve tree
+cannot coexist with `Field`.
 
 ## Retained-Tree Response Lemma
 
@@ -216,7 +216,7 @@ the source reserve has to be seen by the neighboring-field readout used by
 `Field`.
 
 At every sufficiently small retained node, the failed Carleson square reserve
-gives an order-one lower bound for
+gives a lower bound by a fixed `c_1>0` for
 
 ```math
 \int_{I_m}2^{k_m}T_{k_m}(t)^2dt.

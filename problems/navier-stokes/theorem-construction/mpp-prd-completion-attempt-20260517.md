@@ -217,8 +217,9 @@ D_m(t)=A_m/h_m\quad\text{on an interval }I_m,\qquad |I_m|=h_m
 ```
 
 keeps `\int D_m=A_m` finite while making
-`\int 2^mD_m^2` order-one or worse by choosing `h_m` small. This is the same
-active-square obstruction recorded in the May 16 active-reserve attempt.
+`\int_{I_m} 2^mD_m^2dt = 2^mA_m^2/h_m` at least any prescribed
+`c_0>0` by choosing `h_m\le 2^mA_m^2/c_0`. This is the active-square
+obstruction recorded in the May 16 active-reserve attempt.
 
 The temporal Zeno route also stops here. Current source compactness supplies
 only

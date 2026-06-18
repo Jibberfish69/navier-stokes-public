@@ -51,8 +51,8 @@ g_m(s)\,ds\rightharpoonup\delta_0.
 ```
 
 Every fixed earlier slab sees no selected positive source slice, while the
-terminal record still carries an order-one atom. That is compatible with being
-the first Pack loss.
+terminal record still carries an atom of mass `1`. That is compatible with
+being the first Pack loss.
 
 # Why The First-Exit Label Does Not Pay The Bound
 
