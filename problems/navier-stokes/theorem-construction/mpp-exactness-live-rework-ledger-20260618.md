@@ -5203,13 +5203,14 @@ Exact replacement:
   decomposition as `Omega_D N_D(X)=nabla_D(X . nabla_D X)+R_N(X)` and states
   the required pairing bound on `R_N`.
 - `d4-shadow-continuation-theorem.md` now states the commuted coercivity,
-  drift, and nonlinear Young-margin inequalities used to propagate `H_D^1`.
+  drift, nonlinear Young-margin, derivative-commutator absorption, and pressure
+  Poisson recovery formulas used in the continuation/readout step.
 - `shadow-remainder-hs-forcing-estimate.md` now describes the weaker shadow
   branch as the forced `H^s` continuation problem governed by its displayed
   proposition.
 - `d3-commutative-shadow-theorem.md` now names the displayed differential
-  inequality supplied by the commutator estimate instead of calling it
-  standard.
+  inequality and the `epsilon D_cl + C_epsilon Q_cl` commutator absorption
+  supplied by the commutator estimate instead of calling the step standard.
 - `mpp-terminal-bad-scale-extraction-compactness-20260505.md` now removes the
   "standard compactness" wording and adds the negative-Sobolev time-derivative
   bound used for Aubin--Lions extraction.
