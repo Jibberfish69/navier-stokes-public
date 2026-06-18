@@ -118,8 +118,9 @@ s>\frac52,
 ```
 
 or the corresponding projected D-side Sobolev graph space. On this route,
-`A_D` is handled by standard semilinear theory and `B_D` is controlled by the
-Sobolev algebra estimate.
+`A_D` is handled by the sectorial generator / analytic semigroup package, and
+`B_D` is controlled by the displayed Sobolev algebra estimate that makes the
+mild map locally Lipschitz on the chosen graph norm.
 
 ### D.1.nSob
 
@@ -263,9 +264,15 @@ Self-adjointness of `\mathbb P_{D,\omega}` and commutation with
 `\Delta_{D,\omega}` imply that `H` is a reducing subspace for
 `\Delta_{D,\omega}`. The restriction of `\Delta_{D,\omega}` to `H` is
 therefore self-adjoint and nonnegative. Multiplication by `\nu > 0` preserves
-these properties. Sectoriality follows from self-adjoint nonnegativity.
-Analytic semigroup generation is standard for self-adjoint nonnegative
-operators. `\square`
+these properties. By the spectral theorem, `-A_D` generates the contraction
+semigroup
+
+```text
+e^{-tA_D}=\int_{[0,\infty)}e^{-t\lambda}\,dE_\lambda,
+```
+
+and the sectorial estimate follows from
+`\sup_{\lambda\ge0} t^\alpha\lambda^\alpha e^{-t\lambda}<\infty`. `\square`
 
 ## Proposition D.1
 
@@ -295,7 +302,7 @@ e^{-tA_D}X_0
 \int_0^t e^{-(t-s)A_D}B_D(X(s))\,ds.
 ```
 
-Assume the standard operator package on one common graph domain:
+Assume the following operator package on one common graph domain:
 
 1. `A_D` is sectorial on `\mathcal V_{D,\omega}`;
 2. `e^{-tA_D}` is a strongly continuous analytic semigroup;
@@ -363,10 +370,27 @@ Use the fixed-point map
 (\Phi X)(t):=e^{-tA_D}X_0-\int_0^t e^{-(t-s)A_D}B_D(X(s))\,ds.
 ```
 
-Analytic semigroup bounds and the local Lipschitz hypothesis make `\Phi` a
-contraction on a small ball in
-`C([0,T];D(A_D^{1/2}))`. The extension criterion is the standard semilinear
-continuation statement. `\square`
+Let
+
+```text
+M>2C\|X_0\|_{D(A_D^{1/2})}
+```
+
+and let `L_M` be the Lipschitz constant of `B_D` on the `M`-ball in
+`D(A_D^{1/2})`.  The analytic semigroup bound and the local Lipschitz
+hypothesis give, for `X,Y` in that ball,
+
+```text
+\|\Phi X-\Phi Y\|_{C([0,T];D(A_D^{1/2}))}
+\le C T L_M
+\|X-Y\|_{C([0,T];D(A_D^{1/2}))}.
+```
+
+Choosing `T` with `C T L_M<1` and the corresponding self-map bound makes
+`\Phi` a contraction on the ball.  If
+`\sup_{t<T_*}\|X(t)\|_{D(A_D^{1/2})}<\infty`, the same construction restarts at
+times `t<T_*` with a lifespan depending only on that bound and the operator
+constants, so the solution extends past `T_*`. `\square`
 
 ## Required Subclaims
 
@@ -620,8 +644,9 @@ classical theorem package recorded in
 
 The operator, domain, and preservation statement are now explicit on the NS
 lane. On the realized classical carrier, existence/uniqueness and closed-graph
-evolution are standard consequences of Stokes semigroup theory and the
-bilinear cancellation estimates recorded in
+evolution use the Stokes semigroup, the displayed bilinear
+`H^1_\sigma\times H^1_\sigma\to H^{-1}_\sigma` bound, the skew cancellation,
+and the fixed-point/relaunch argument recorded in
 [carrier-realization-classical-identification.md](carrier-realization-classical-identification.md).
 The remaining abstract non-Sobolev discussion is archival route text only.
 
@@ -1977,14 +2002,32 @@ surface:
 5. `E1` through `E3` propagate the `\mathcal N`-norm, so the solution stays
    in the non-Sobolev carrier class for the local interval.
 
-On the classical realization, the route closes by standard Picard iteration on
-`C([0,T];\mathcal N)`:
+On the classical realization, the route closes only after the Picard map on
+`C([0,T];\mathcal N)` is a self-map and contraction:
 
 ```text
 \partial_tX + A_DX + B_D(X)=0,
 \qquad
 X(0)=X_0\in\mathcal N.
 ```
+
+Equivalently, for
+
+```text
+(\Phi X)(t)=e^{-tA_D}X_0-\int_0^t e^{-(t-s)A_D}B_D(X(s))\,ds,
+```
+
+the required estimates are
+
+```text
+\|\Phi X\|_{C([0,T];\mathcal N)}\le M,
+\qquad
+\|\Phi X-\Phi Y\|_{C([0,T];\mathcal N)}
+\le q\|X-Y\|_{C([0,T];\mathcal N)},\quad q<1,
+```
+
+with `M,T,q` depending only on the initial `\mathcal N` bound, the semigroup
+constants, and the local Lipschitz constants supplied by `E4a`--`E4b`.
 
 ## D.1 Theorem-Grade Closure
 
