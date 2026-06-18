@@ -1148,6 +1148,29 @@ downstream route consequence is that bounded high-frequency enstrophy is support
 for an energy-level branch only; it cannot be spent as classical continuation
 without an additional \(H^s\) or equivalent continuation criterion.
 
+Route-B theorem-construction consequence pass:
+
+The same false \(H^1\)-continuation spend also appeared in active theorem notes:
+`classical-h1-continuation-lemma.md`,
+`high-frequency-enstrophy-to-h1-lemma.md`,
+`route-b-euclidean-closure-theorem.md`,
+`combined-closure-sufficiency-lemma.md`,
+`mpp-terminal-reduction-math-run-after-rows1-4-20260506.md`,
+`mpp-six-positive-contrapositive-chunks-completion-20260506.md`,
+`mpp-six-chunks-rows-1-4-unconditional-implication-criteria-20260506.md`,
+`lagrangian-six-lemma-mainline.md`,
+`mpp-pctp-hard-five-burden-frontier-audit-note.md`,
+`mpp-qdrain-source-no-pulse-closure-note.md`, and the exactness audit notes.
+Those surfaces now separate the exact statements:
+
+- bounded \(H^1\) high-frequency/enstrophy output gives energy-level support;
+- classical continuation requires \(H^s\), \(s>5/2\), or an explicitly named
+  equivalent criterion on the same surface;
+- terminal non-continuation forces blow-up of the selected \(H^s\) continuation
+  norm and high-tail \(E_{N,s}\), not merely the old \(H^1\) tail;
+- any Route-B or QDrain continuation claim remains conditional until that
+  same-surface \(H^s\) bridge is supplied.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
