@@ -101,8 +101,9 @@ Then every bounded parent selector captures only:
 \to0.
 ```
 
-The total positive child-feeding source may remain order one, while the raw
-quadratic donor and residual-square charges scale like:
+The total positive child-feeding source is normalized by
+\(\pi_P(\mathsf{Pred}(P))\), while the raw quadratic donor and residual-square
+charges are:
 
 ```math
 \sum_{\alpha=1}^{M}\|a_\alpha\|_2^2

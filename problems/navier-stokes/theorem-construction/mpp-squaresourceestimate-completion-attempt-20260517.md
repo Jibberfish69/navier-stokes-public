@@ -64,9 +64,10 @@ C\nu^{-1}2^jE_j(t_0)^2
 +C\nu^{-2}2^{-j}\int_I|F_j(t)|^2dt.
 ```
 
-The installed entrance-tail reserve pays the `E_j(t_0)` term.  Therefore
-`SquareSourceEstimate.A` would imply the single-shell active-square estimate,
-then active-square upper-tail control, then the direct `ScaleCriticalTreeCarleson.A`
+The installed entrance-tail reserve pays the `E_j(t_0)` term.  Given that
+reserve, `SquareSourceEstimate.A` is sufficient for the single-shell
+active-square estimate.  The single-shell estimate gives active-square
+upper-tail control and then the direct `ScaleCriticalTreeCarleson.A`
 / `LocalPositiveSourceCarleson.A` supplier route.
 
 ## Conditional Closure
@@ -124,7 +125,7 @@ the heat-scale `L^2_t` estimate for `F_j`.
 
 ### 2. Bellman endpoints do not give square source
 
-A Bellman proof would need a controlled functional whose derivative pays
+A Bellman proof requires a controlled functional whose derivative pays
 `|F_j|^2` or the active-square density produced from `|F_j|^2`.
 
 If the endpoint size is built only from installed energy, smooth-tail, legal

@@ -87,7 +87,7 @@ The installed compactness and source ledgers supply finite `L^1_s` source mass o
 \int_{-1}^{0}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}ds\le C_R.
 ```
 
-This permits concentration at the terminal slice.  The model marginal
+This permits concentration at the terminal slice.  The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

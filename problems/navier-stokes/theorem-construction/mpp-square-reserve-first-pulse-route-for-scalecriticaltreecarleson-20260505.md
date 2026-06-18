@@ -96,12 +96,12 @@ does not see diffuse legal parent ancestry:
 ```
 
 Every bounded selector captures at most `B/M`, while the total legal parent
-mass can stay order one.
+mass can stay bounded below by a fixed `c_0>0`.
 
 So the correct first object cannot be:
 
 ```math
-\text{one large parent packet}.
+\text{one parent packet with mass }\ge \eta.
 ```
 
 It must be:
@@ -229,10 +229,10 @@ o_N(1).
 ```
 
 The first-pulse choice for `\mathcal R_N` removes the earlier parent-square
-branch: if the parent square mass were order one on a finite backward slice, it
-would itself be an earlier square-reserve pulse.  If it is spread diffusely over
-many parents, it is still counted by `\mathcal R_N`, because the selected
-measure is already the full `\ell^2` parent cloud.
+branch: if the parent square mass were bounded below by `c_0>0` on a finite
+backward slice, it would itself be an earlier square-reserve pulse.  If it is
+spread diffusely over many parents, it is still counted by `\mathcal R_N`,
+because the selected measure is already the full `\ell^2` parent cloud.
 
 Thus, after sending the ancestry depth `s\to\infty`,
 
@@ -336,7 +336,7 @@ parentage is included rather than missed.
 The old route tried to kill:
 
 ```math
-\text{earlier large positive source packet}.
+\text{earlier positive source packet with mass }\ge \eta.
 ```
 
 That fails against diffuse parent clouds.

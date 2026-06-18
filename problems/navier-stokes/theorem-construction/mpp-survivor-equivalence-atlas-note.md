@@ -161,7 +161,7 @@ R_1\to R_2
 ```
 
 is an identity edge when it preserves the same survivor and changes only
-notation, normalization, or harmless packaging.
+notation, normalization, or fixed packaging.
 
 Identity edges may change symbols. They may not change labels, carrier law,
 endpoint cell, proof direction, or scale-limit object.

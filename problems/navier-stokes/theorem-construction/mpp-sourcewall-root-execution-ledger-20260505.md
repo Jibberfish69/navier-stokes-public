@@ -259,7 +259,7 @@ retained `Field_avg`.
 
 ## Current Exact Next Targets
 
-The immediate theorem targets are exactly:
+The current theorem targets selected by the source-wall route are exactly:
 
 ```math
 \boxed{

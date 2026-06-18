@@ -212,8 +212,8 @@ R_{m;j,k,\ell}^{Car},
 ```
 
 where `K_{j,\ell}` is a fixed summable collar kernel and
-`R_m^{Car}` is a Carleson-controlled residue absorbable into the
-`C_\theta o_N(1)` term in `(SNP)`.
+`R_m^{Car}` is usable only under the Carleson-residue estimate
+`R_m^{Car} <= C_\theta o_N(1)`, which is the amount entering `(SNP)`.
 
 Equivalently, on the active window,
 
@@ -275,8 +275,8 @@ Assume `(SNP)` fails.  Then there are terminal windows `I_m`, active scales
 ```
 
 Normalize the active defect to unit mass and rescale on the heat scale
-`r_m=2^{-N_m}`.  Local energy bounds and same-fluid localization should yield a
-subsequence
+`r_m=2^{-N_m}`.  The compactness burden is `TWR.2`: after this normalization,
+the rescaled same-fluid sequence must have a subsequence
 
 ```math
 v_m\rightharpoonup v_\ast
@@ -381,7 +381,7 @@ C_\theta o_N(1).
 
 ## Local Lemma Proof Skeleton
 
-The first local theorem should be written in perturbative form.  Let `Q_m` be an
+The first local theorem target is perturbative.  Let `Q_m` be an
 active terminal packet at scale
 
 ```math
@@ -700,7 +700,7 @@ polarization vector `e_P`.  The dangerous density is
 \langle S_ke_P,e_P\rangle |P|^2.
 ```
 
-Split packets into the harmless contracting part
+Split packets into the nonpositive contracting part
 
 ```math
 \langle S_ke_P,e_P\rangle\le0

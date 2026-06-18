@@ -14,7 +14,7 @@ Flux_{\partial \mathcal C_R^{tr}}
 Flux_{unstable,out}+Flux_{stable,in}+Flux_{mixed/pressure}.
 ```
 
-A successful theorem would prove that all three terms vanish in the transported exhaustion.
+The theorem target is simultaneous vanishing of all three terms in the transported exhaustion.
 
 ## Attempt 1: unstable outgoing flux
 
@@ -26,7 +26,7 @@ This pays only one boundary sector. The terminal obstruction can receive mass th
 
 Stable directions are the hard channel. In a trace-free strain, expansion and contraction coexist. A stable incoming tube can bring ancient far-field energy or pressure work into the terminal region.
 
-No installed tail estimate prevents such incoming mass. A proof here would need global spatial exhaustion or a no-incoming theorem.
+No installed tail estimate prevents such incoming mass. The missing input is global spatial exhaustion or a no-incoming theorem.
 
 ## Attempt 3: trace-free cancellation
 

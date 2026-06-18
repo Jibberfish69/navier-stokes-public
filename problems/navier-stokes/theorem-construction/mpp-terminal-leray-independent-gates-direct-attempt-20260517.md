@@ -20,7 +20,11 @@ TerminalLerayOrientation_{ind}.A
 }
 ```
 
-A successful package would turn the pure pressure-source singular residue into a same-fluid source-current edge or a paid legal residue, closing the pressure singular branch.
+The exact closure statement is: `TerminalLerayOrientation_ind.A`,
+`TerminalLerayCommutatorLegal_ind.A`, and `TerminalLeraySaturation_ind.A`
+together turn the pure pressure-source singular residue into a same-fluid
+source-current edge or a paid legal residue, closing the pressure singular
+branch.
 
 ## Localized Leray identity
 
@@ -53,7 +57,11 @@ Thus the orientation gate remains open.
 
 to be priced by legal/projected/cutoff pressure ledgers at the same one-sided terminal weights.
 
-Existing legal ledgers price standard cutoff, projection, harmonic, collar, boundary, and off-family errors. The retained pressure singular branch is selected after those exits have been removed. The terminal weighted commutator at this positive selection level therefore needs a fresh legal theorem.
+Existing legal ledgers price the named cutoff, projection, harmonic, collar,
+boundary, and off-family errors only in their displayed legal norms and weights.
+The retained pressure singular branch is selected after those exits have been
+removed. The terminal weighted commutator at this positive selection level
+therefore needs a fresh legal theorem.
 
 Thus the commutator legality gate remains open.
 
@@ -77,7 +85,9 @@ TerminalLerayOrientation_{ind}.A
 \text{pure pressure-source singular branch closes.}
 ```
 
-The package would provide a noncircular pressure-to-source bridge. Current surfaces supply the algebraic Leray identity and lack the three terminal one-sided gate theorems.
+The package is the required noncircular pressure-to-source bridge. Current
+surfaces supply the algebraic Leray identity and lack the three terminal
+one-sided gate theorems.
 
 ## Verdict
 

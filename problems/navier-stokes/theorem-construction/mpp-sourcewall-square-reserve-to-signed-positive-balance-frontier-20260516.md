@@ -55,7 +55,7 @@ The scalar terminal pulse test blocks derivation from the first-moment tail ledg
 \int_W\sum_{\ell>N}D_\ell(t)dt\to0
 ```
 
-while `\mathcal R_N(W)` stays order-one on a short heat window. Thus the direct square-reserve evolution route needs a square-amplitude charge law.
+while `\mathcal R_N(W)` stays bounded below by a fixed `c_0>0` on a short heat window. Thus the direct square-reserve evolution route needs a square-amplitude charge law.
 
 ## Replacement target
 

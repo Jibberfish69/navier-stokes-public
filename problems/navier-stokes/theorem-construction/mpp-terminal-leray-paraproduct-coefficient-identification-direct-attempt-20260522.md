@@ -51,7 +51,7 @@ same-ledger native source witness.
 ## Algebraic Core
 
 If the localized Leray-adjoint work has already been reduced to the unprojected
-high-low term, the coefficient identity is immediate:
+high-low term, the coefficient identity is:
 
 ```math
 -\int (w_j\otimes w_j):\nabla S_{<j}^{loc}u
@@ -79,8 +79,11 @@ Start with
 
 Localize the test to the selected terminal family and apply Bony splitting. The
 strict low-mode commutator estimates and ordinary cutoff/collar ledgers pay the
-standard finite-band errors. High-high or donor-square work is the selected
-scale-critical source-wall channel.
+finite-band errors with `|q-j|\le C_{\mathrm{band}}`; the finite number of
+neighboring bands contributes the explicit multiplier
+`N_band=2C_{\mathrm{band}}+1` to the displayed strict-low/cutoff constants.
+High-high or donor-square work is the selected scale-critical source-wall
+channel.
 
 The obstruction is the projected one-sided terminal packet:
 

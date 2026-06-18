@@ -153,9 +153,12 @@ parent-or-charge alternative for the donor square factor `|A_{P^-}|^2` itself.
 
 The signed-exchange route also stops before this point.  Bare shell
 antisymmetry is broken by one-sided weights, lifted/cutoff reductions,
-terminal selection, and positive-part extraction.  It would need
-`TerminalSignedSaturation.A`, which is another presentation of the same
-source-control wall unless a new sign/saturation theorem is supplied.
+terminal selection, and positive-part extraction.  The required additional
+input is `TerminalSignedSaturation.A`: it must keep each selected terminal
+signed counter-edge inside the usable terminal same-fluid ledger or charge it by
+a named legal/source-control measure.  Without that input, this is another
+presentation of the same source-control wall unless a new sign/saturation
+theorem is supplied.
 
 The active-tree coefficient route stops at the bad terminal coefficient set,
 where uniform integrability of the active-square density is exactly
@@ -185,7 +188,7 @@ condition:
 \forall R<\infty.
 ```
 
-Then the Liouville half is immediate: no earlier selected residue plus no
+Then the Liouville half is tautological: no earlier selected residue plus no
 terminal atom gives `\mu_*^{src}=0` on every compact backward cylinder,
 contradicting the inherited positive residue.
 

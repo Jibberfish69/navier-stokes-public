@@ -47,16 +47,39 @@ Commute the localization and Leray projection:
 [\nabla P,\chi_P]\Phi_P.
 ```
 
-The first term is the retained main term. The second term has the standard
-Calderon-Zygmund commutator kernel
+The first term is the retained main term. The second term is the exact
+commutator
 
 ```math
-K(x-y)(\chi_P(x)-\chi_P(y)),
+[\nabla P,\chi_P]\Phi_P(x)
+=
+\operatorname{p.v.}\int
+K(x-y)(\chi_P(x)-\chi_P(y))\Phi_P(y)\,dy,
 ```
 
-and hence gains one packet-scale cutoff derivative. On the stopped terminal
-family this derivative is supported in the collar of `Q(P)` or in bounded
-finite-band overlap. Therefore its pairing with `(u\otimes u)` is one of:
+where the Calderon-Zygmund kernel `K` for `\nabla P` satisfies
+
+```math
+|K(z)|\le C|z|^{-4},\qquad |\nabla K(z)|\le C|z|^{-5}.
+```
+
+Since the packet cutoff obeys
+
+```math
+|\chi_P(x)-\chi_P(y)|
+\le \|\nabla\chi_P\|_\infty |x-y|,
+```
+
+the near commutator gains one packet-scale cutoff derivative:
+
+```math
+|K(x-y)(\chi_P(x)-\chi_P(y))|
+\le C\|\nabla\chi_P\|_\infty |x-y|^{-3}.
+```
+
+On the stopped terminal family this derivative is supported in the collar of
+`Q(P)` or in bounded finite-band overlap. Therefore its pairing with
+`(u\otimes u)` is one of:
 
 1. cutoff/collar leakage already assigned to the legal localization ledger;
 2. pressure/projection redistribution already assigned to the Part/legal

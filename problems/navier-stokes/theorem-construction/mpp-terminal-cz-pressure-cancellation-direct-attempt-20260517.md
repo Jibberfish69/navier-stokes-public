@@ -189,8 +189,8 @@ m\,1_{\theta\in I_m^+}
 ```
 
 with equal total signed mass.  If the terminal selection retains only the
-positive sector `I_m^+`, the selected positive bill is order one while the
-signed full angular integral is zero.
+positive sector `I_m^+`, the selected positive bill is
+\(\int_{I_m^+}m\,d\theta=1\) while the signed full angular integral is zero.
 
 This model is compatible with pressure mean-zero cancellation.  It is killed
 only by a theorem saying terminal same-fluid selection cannot isolate a

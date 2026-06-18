@@ -277,7 +277,7 @@ Choosing:
 h_m=2^mA_m^2
 ```
 
-makes this reserve contribution order one while `A_m\to0`.  This is not a
+makes this reserve contribution equal to \(1\) while `A_m\to0`.  This is not a
 Navier-Stokes counterexample.  It is a scalar countermodel to the installed
 ledger package: first-moment dissipation, static parent-square embedding, and
 finite donor-balance bookkeeping do not imply a dynamic law for first-time

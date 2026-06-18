@@ -7,7 +7,7 @@ from the installed local `L^3` public translator to the Pack-side reserve
 chain. It does not prove `TerminalCMNoExit.A`.
 
 Supersession note: this audit is correct only for the reserve-pricing supplier
-question. It should not be read as saying the local `L^3` translator is unusable
+question. It does not say the local `L^3` translator is unusable
 inside the CM-facing terminal proof. The terminal `L^3` Duhamel-mass branch is
 now separately seated by
 `mpp-terminal-l3-duhamel-mass-cm-face-correction-20260523.md` as
@@ -114,12 +114,12 @@ with `A_m=2^{-2m}` and `h_m=2^{-3m}`. Then
 ```
 
 Thus first-moment charge can vanish while the scale-critical square reserve
-stays order one. This is not a Navier-Stokes counterexample; it is a ledger
-countermodel to the proposed implication from installed first-moment, source
-capture, or response-localization inputs to `ReserveCreationCharge.A`.
+stays bounded below by the fixed value `1`. This is not a Navier-Stokes
+counterexample; it is a ledger countermodel to the proposed implication from
+installed first-moment, source capture, or response-localization inputs to
+`ReserveCreationCharge.A`.
 
-The only way to spend this obstruction through the May 23 translator would be
-to add a new theorem:
+Spending this obstruction through the May 23 translator requires a new theorem:
 
 ```math
 FirstReservePulseToCriticalL3.A:
@@ -130,9 +130,9 @@ terminal\ same\text{-}ledger\ L^3\ critical\ response
 \vee \neg Pack_Q\vee\neg Part_{N,Q}\vee Legal.
 ```
 
-Even that theorem would be a face-routing theorem. On retained `Pack+Part`, the
-installed local `L^3` translator would send the resulting critical response to
-the local `Field` face. That classifies a failure; it does not by itself prove
+Even with that theorem, the result is a face-routing theorem. On retained
+`Pack+Part`, the installed local `L^3` translator sends the resulting critical
+response to the local `Field` face. That classifies a failure; it does not by itself prove
 `NoGenuineCMExit.A`, because the no-exit theorem still has to rule out loss of
 all lawful continuation packets.
 

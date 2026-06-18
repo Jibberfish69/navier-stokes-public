@@ -489,7 +489,7 @@ h_m=2^{-3m}.
 ```
 
 Then `h_m` is shorter than the heat time `2^{-2m}`, the first-moment charge
-tends to zero, and the square reserve remains order one:
+tends to zero, and the square reserve is exactly one:
 
 ```math
 A_m\to0,

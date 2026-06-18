@@ -161,7 +161,7 @@ in `(TET.9)` is positive and one-sided after terminal selection.  Without an
 independent angular decorrelation theorem it is exactly an active alignment
 charge, not a consequence of the vorticity direction equation alone.
 
-A local obstruction is immediate.  If
+A local obstruction already appears.  If
 
 ```math
 S=\operatorname{diag}(2a,-a,-a),\qquad n=e_1,
@@ -306,8 +306,10 @@ TerminalBurstDonorSinkCharge.A
 pays the parabolic-rate near-band strain burst branch without sending it to
 Zeno source-residue rigidity.
 
-The heat and far-low pieces are already absorbable.  These three are the only
-remaining pieces after the material derivative split.
+The heat and far-low pieces are paid only through the displayed heat/gap
+estimates, including `FarLow_L <= C2^{-2L}H_W+Legal_L` with
+`C2^{-2L}<=eta_far<1`. These three are the only remaining pieces after the
+material derivative split.
 
 ## 7. Verdict
 
@@ -330,8 +332,8 @@ OneSidedNearBandMaterialStrainBV.A.
 }
 ```
 
-A proof of either theorem would make the eigenframe route genuinely independent
-of the installed Carleson/Zeno inputs.  The present computation stops because
+Proving either theorem is the exact independence condition for the eigenframe
+route relative to the installed Carleson/Zeno inputs.  The present computation stops because
 the pressure Hessian and the signed source-current can sustain the selected
 positive coefficient after terminal localization, and absolute estimates of
 that term return to the scale-critical active source bound.

@@ -45,7 +45,7 @@ TemporalNonAtomicSource.A
 ZenoSourceResidueRigidity.A.
 ```
 
-Thus `TerminalAntiAtomModulus.A` would close the forward supplier side of the `B_ASAC` terminal atom obstruction, rather than merely typing it as a CM Field diagnostic.
+The exact consequence of `TerminalAntiAtomModulus.A` is closure of the forward supplier side of the `B_ASAC` terminal atom obstruction, rather than merely typing it as a CM Field diagnostic.
 
 ## Installed Inputs
 
@@ -88,13 +88,13 @@ Thus the local-energy trace route reaches `PositiveSourceTraceAC.A`, which is op
 
 ## Attempt 3: source dissipation absolute continuity
 
-A super-`L^1_t` density theorem would give the modulus by Holder or uniform integrability. The current dissipation ledger supplies total integrated control, and the concentration profile preserves total mass while destroying every super-`L^1_t` bound.
+A super-`L^1_t` density theorem implies the modulus by Holder or uniform integrability. The current dissipation ledger supplies total integrated control, and the concentration profile preserves total mass while destroying every super-`L^1_t` bound.
 
 Therefore the source-dissipation route reaches `QuantitativeSourceDissipationAbsoluteContinuity.A`, which is open.
 
 ## Attempt 4: source Carleson reserve
 
-A source Carleson or active-square reserve would also yield a terminal slab modulus. Current source-wall work has already isolated this as an independent production theorem, rather than an installed consequence of ASAC equality or local energy.
+A source Carleson or active-square reserve also implies a terminal slab modulus. Current source-wall work has already isolated this as an independent production theorem, rather than an installed consequence of ASAC equality or local energy.
 
 ## Verdict
 
@@ -111,4 +111,4 @@ source Carleson / active-square reserve,
 or production into a rigid class carrying one of those moduli.
 ```
 
-Current ledgers type the terminal atom for CM purposes, while this modulus would be the forward supplier discharge.
+Current ledgers type the terminal atom for CM purposes, while this modulus is the forward supplier discharge.

@@ -45,7 +45,7 @@ Logical skeleton: direct analytic estimate.
 Mechanism being attempted: continuation-strength strain control.
 
 Current failure mode: the target is not a local bookkeeping lemma. It asks for
-the same kind of terminal strain integrability that standard continuation
+the same kind of terminal strain integrability that classical continuation
 criteria require.
 
 ## Direct Attempt
@@ -73,7 +73,7 @@ The usual analytic routes do not make it smaller:
 1. A Beale-Kato-Majda style route replaces `||Du||_{L^\infty}` by vorticity
    control at continuation scale. That is a continuation criterion, not a
    Pack-only bookkeeping input.
-2. Sobolev embedding would control `||Du||_{L^\infty}` from `H^s`, `s>5/2`.
+2. Sobolev embedding controls `||Du||_{L^\infty}` from `H^s`, `s>5/2`.
    That is exactly the continuation norm the Clay proof is trying to force.
 3. Restricting to the transported collar does not remove the difficulty. The
    collar is chosen because it contains the terminal atlas carrier, so a blowup

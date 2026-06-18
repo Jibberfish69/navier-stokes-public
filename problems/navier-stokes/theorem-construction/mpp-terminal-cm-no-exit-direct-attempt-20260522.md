@@ -90,7 +90,7 @@ Pack_Q\wedge Part_{N_s,Q}\wedge Field_{N_s,r,Q}.
 \tag{TCNE.1}
 ```
 
-Here `N_s` is a continuation depth high enough for the installed `H^s`,
+Here `N_s` is a continuation depth chosen for the installed `H^s`,
 `s>5/2`, readout.
 
 ## Direct Attempt
@@ -132,7 +132,7 @@ prove the unconditional survival of the packet.
 ### 1. Pack no-exit
 
 Preterminal smoothness gives a flow map on every compact time interval below
-`T_*`. To pass Pack through `T_*`, one needs a terminal same-fluid carrier with
+`T_*`. Passing Pack through `T_*` requires a terminal same-fluid carrier with
 positive scale and finite deformation gauge.
 
 The deformation gauge obeys the usual strain ledger:
@@ -149,8 +149,8 @@ Thus a direct Pack proof asks for
 \int^{T_*}\|\nabla u(\cdot,t)\|_{L^\infty(Q_t)}\,dt<\infty
 ```
 
-or a route-native substitute strong enough to keep the carrier scale positive.
-Original smooth data plus the standard energy inequality do not give this. The
+or a route-native substitute whose conclusion keeps the carrier scale positive.
+Original smooth data plus the classical energy inequality do not give this. The
 installed Pack-side work instead identifies selected unpaid donor-refill
 ancestry as the Pack obstruction:
 
@@ -180,7 +180,7 @@ K_k=-\nabla^{k+1}p+\nu\Delta U_k.
 ```
 
 The terminal problem is closedness of this same tower on the retained carrier
-through the continuation depth `N_s`. A direct proof needs terminal control of
+through the continuation depth `N_s`. A direct proof requires terminal control of
 the pressure-viscosity readout, the next-rung amplitudes, and the forcing terms.
 
 Those inputs are not supplied by finite energy or by smoothness on compact

@@ -28,7 +28,9 @@ where
 \left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
 ```
 
-A successful proof would imply `ScaleCriticalTreeCarleson.A` by first-pulse iteration, since the first pulse has no earlier reserve to recycle and the installed energy tail gives
+A proof of the displayed square-reserve inequality is sufficient for
+`ScaleCriticalTreeCarleson.A` by first-pulse iteration: the first pulse has no
+earlier reserve to recycle, and the installed energy tail gives
 
 ```math
 \int\sum_{\ell>N}D_\ell(t)dt\to0.

@@ -47,8 +47,8 @@ F_j(t)\le \theta\nu D_j(t)+R_j(t),
 ```
 
 with a summable same-ledger reserve `R_j`, then the conditional active-shell
-amplitude proof would close. Viscous damping would kill inherited amplitude on
-heat-scale windows and the reserve would pay any renewed active mass.
+amplitude proof closes. Viscous damping kills inherited amplitude on heat-scale
+windows and the reserve pays any renewed active mass.
 
 That conditional theorem is already known. The live question is whether the
 terminal atom itself forces one of the payments without assuming source

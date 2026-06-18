@@ -91,8 +91,9 @@ Every bounded parent selector captures only
 \to0,
 ```
 
-while the total legal parent mass may remain order one.  Therefore first-pulse
-selection plus bounded parent ancestry does not imply source-parent compactness.
+while the total legal parent mass may remain bounded below by a fixed `c_0>0`.
+Therefore first-pulse selection plus bounded parent ancestry does not imply
+source-parent compactness.
 
 ## Root Source Wall Reopened
 

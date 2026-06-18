@@ -27,7 +27,7 @@ C_{spill}
 \tag{1}
 ```
 
-So the fixed spill is harmless only after one controls the coefficient
+So the fixed spill is controlled only after one controls the coefficient
 
 ```math
 \theta_N(t):=2^{-N/2}E_{N-4}(t)^{1/2}
