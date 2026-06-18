@@ -6388,3 +6388,30 @@ Surfaces edited:
 
 - `theorem-construction/mcp-pctp-hard-terminal-tail-production-conditional-sourcepulse-closure.md`;
 - `theorem-construction/mcp-pctp-hard-unconditional-promotion-check-sourcepulse-dependency.md`.
+
+## Classical-Closure Warrant Conditionality Repair
+
+Old claim being spent:
+
+Two endpoint-to-classical closure notes displayed conditional implications but
+their prose read as if the periodic global theorem had already been discharged
+from original data.
+
+Exact replacement:
+
+- `mcp-classical-closure-warrant-final-pass-ecq-a-18affdb00d.md` now states that
+  the global smooth conclusion follows only after `PCTP.hard+ECQ.A` is supplied.
+- `mcp-endpoint-to-classical-contradiction-theorem-read-end-ac1bec0dd4.md` now
+  states its hypotheses before the contradiction chain: `ECQ.A`, endpoint
+  exhaustion, and `End_NS`.
+
+Downstream consequence:
+
+The continuation bridge remains a valid conditional theorem. It no longer
+serves as evidence that `PCTP.hard` or the terminal-tail production theorem has
+been proved from original data.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-classical-closure-warrant-final-pass-ecq-a-18affdb00d.md`;
+- `theorem-construction/mcp-endpoint-to-classical-contradiction-theorem-read-end-ac1bec0dd4.md`.
