@@ -6289,3 +6289,35 @@ Surfaces edited:
 
 - `theorem-construction/mcp-tw-rig-a-ttu-a-662b1d053d.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## PCTP.hard Paper-Grade Proof Conditionality Repair
+
+Old claim being spent:
+
+`mcp-pctp-hard-paper-grade-proof.md` stated the unconditional periodic terminal
+theorem from original smooth data, while the proof spent upstream inputs such as
+`Field_avg`, `AACT.Global`, `Hyp(FFSRC.A)`, and endpoint certificates as already
+available.
+
+Exact replacement:
+
+The theorem is now stated as the conditional implication it actually proves:
+
+```text
+SCFBaseLocalModulus_N + Field_avg + AACT.Global + Hyp(FFSRC.A) + AVG.END.Cert
+=> End_NS_avg => READ.END => End_NS => H^s continuation => T_* = infinity.
+```
+
+The same-tail modulus is explicitly upstream of averaged Field admission and is
+not supplied by `READ.COVER`.
+
+Downstream consequence:
+
+The note no longer claims unconditional `PCTP.hard` from original data. It proves
+the downstream readout/continuation implication under the displayed terminal-tail
+production inputs.  The original-data production of those inputs remains a live
+mathematical burden, not a completed theorem.
+
+Surface edited:
+
+- `theorem-construction/mcp-pctp-hard-paper-grade-proof.md`.
