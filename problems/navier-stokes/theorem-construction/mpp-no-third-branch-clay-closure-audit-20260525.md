@@ -84,9 +84,18 @@ Field_{N_s,r,Q}
 
 at a depth `N_s` high enough for the installed `H^s`, `s>5/2`, continuation
 readout. By `CMW.A` and the continuation packet readout, the branch is
-`Member(Q; O_NS^work)` and gives the usual classical continuation norm. Local
-Navier-Stokes theory then extends the same solution past the alleged terminal
-time. Therefore a pass branch cannot also be the finite nonsmooth obstruction.
+`Member(Q; O_NS^work)` and gives the displayed continuation criterion
+
+```math
+\sup_{t<T_Q}\|u(t)\|_{H^s}<\infty,
+\qquad
+s>\frac52.
+```
+
+The `H^s` Navier-Stokes local theory gives a lifespan depending only on
+`\nu`, `s`, and this bound; restarting the same solution at times
+`t_j\uparrow T_Q` therefore extends it past the alleged terminal time.
+Therefore a pass branch cannot also be the finite nonsmooth obstruction.
 
 If `O` is on the fail branch, the audit may not jump from "bad enough to be
 nonsmooth" to `Exit(Q)`. The branch must first be entered into the CM terminal
