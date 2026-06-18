@@ -174,19 +174,26 @@ Thus the single downstream source theorem is
 
 ### Theorem 5.1
 
-If any of the four endpoint faces appears at a first finite endpoint,
+If any endpoint face appears at a first finite endpoint,
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump,
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
+\vee response\text{-}margin\text{-}collapse,
 ```
 
 then the endpoint package produces a contradiction.
 
 ### Proof
 
-Participation failure gives the dead face. Pack failure gives the packing-detached or tower-blown face. Tower escape gives the tower-blown face. Field failure gives the jump face. Cross-entry reductions place mixed failures into the same four rows.
+Participation failure gives the dead face, and strict response-margin collapse
+is the repaired Part subface. Pack failure gives the packing-detached or
+tower-blown face. Tower escape gives the tower-blown face. Field failure gives
+the jump face. Cross-entry reductions place mixed failures into the endpoint
+rows.
 
-Endpoint closure supplies the four row eliminations: participation row, pack row, tower-bound row, and field row. Hence a first finite endpoint has a face and that face is eliminated, contradiction.
+Endpoint closure supplies the row eliminations: participation/response-margin,
+pack, tower-bound, and field. Hence a first finite endpoint has a face and that
+face is eliminated, contradiction.
 
 ## 6. Final periodic theorem proof
 
