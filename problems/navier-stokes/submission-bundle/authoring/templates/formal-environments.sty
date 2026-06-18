@@ -218,7 +218,7 @@
 \newcommand{\FormalEnvCrefPlain}[1]{%
   \FormalEnvSplitLabel{#1}%
   \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-    \nameref*{#1}%
+    \FormalEnvLabelSurface{\FormalEnvLabelKeyString}%
   }{%
     \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
       \FormalEnvLabelSurface{\FormalEnvLabelKeyString}%
