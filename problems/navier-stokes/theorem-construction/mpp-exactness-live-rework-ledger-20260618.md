@@ -5412,3 +5412,52 @@ Edited live surfaces:
 - `theorem-construction/exact-potential-v2-fixed-metric-heat-supported-perturbation-remaining.md`;
 - `theorem-construction/exact-potential-convex-v2-simultaneous-isotropization-wall.md`;
 - `theorem-construction/derivative-lp-compatibility-bridge-note.md`.
+
+## Residual-Symbol Lower-Order Cleanup
+
+Old loose step:
+
+The final focused lower-order proof-phrase scan found remaining live sentences
+where "lower order" still named pressure residue, collar residue, weighted
+collar residuals, projected-flow remainders, shell-symbol remainders, or
+commutator/collar packets without naming the actual residual slot.
+
+Exact replacement:
+
+The affected surfaces now use exact residual language: pressure terms must be
+pressure-normalized or bounded by the dissipation/endpoint ledger; additive
+remainders are measured in `Phi_*` or `Phi_low`; cutoff loss sums to `o_N(1)`;
+weighted collar terms must satisfy the collar residual bound; ontic remainders
+must satisfy the energy-domain bound; shell projector errors enter `b_G^{rem}`
+only after `(WERS.3a)` is proved; and Osgood/product leftovers are named as
+`\mathcal R_s^{res}` or `\mathcal R_{res}`.
+
+Downstream consequence:
+
+These surfaces now expose the exact residual container or estimate required by
+the argument. "Lower order" no longer acts as a deletion or proof-force label
+on these live proof lines.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-source-residue-drain-inequality-lemma-b-note-20260504.md`;
+- `theorem-construction/phi-low-ledger-propagation-result.md`;
+- `theorem-construction/mpp-lci-a-affine-defect-supplier-reduction-note.md`;
+- `theorem-construction/coherent-high-collar-coefficient-tail-result.md`;
+- `theorem-construction/mcp-residual-weighted-adjres-war-a-20260504-001.md`;
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`;
+- `theorem-construction/weighted-branch-decision-result.md`;
+- `theorem-construction/weighted-collar-residual-smallness-result.md`;
+- `theorem-construction/weighted-collar-alternative-result.md`;
+- `theorem-construction/ym-heat-to-torus-heat-to-classical-shadow-bridge.md`;
+- `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
+- `theorem-construction/phi-s-osgood-subcriticality-test-result.md`;
+- `theorem-construction/amplitude-speed-gate-supplier-rollup-result.md`;
+- `theorem-construction/ontic-to-ns-sterile-theorem-map.md`;
+- `theorem-construction/low-pass-commutator-collar-closure-result.md`;
+- `theorem-construction/final-low-pass-commutator-collar-absorption-theorem.md`;
+- `theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`;
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
+- `theorem-construction/lifted-carrier-energy-threshold-uniformization-and-hfg-replay.md`;
+- `theorem-construction/weighted-gram-square-obstruction-note.md`;
+- `theorem-construction/lagrangian-six-lemma-mainline.md`.
