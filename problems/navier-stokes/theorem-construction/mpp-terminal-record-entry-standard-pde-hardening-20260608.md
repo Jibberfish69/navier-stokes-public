@@ -20,9 +20,27 @@ Equivalently, there is a sequence `t_n -> T_*` along the same solution such that
 
 ## Proof
 
-This is the standard maximal-solution argument.
+The proof spends the local theory only through the exact bounded-norm relaunch
+statement. Suppose, toward contradiction, that the same classical solution has
+a finite continuation bound
 
-Local well-posedness in `H^s`, `s > 5/2`, gives a continuation theorem: if the same classical solution remains bounded in the continuation norm on `[0,T_*)`, then the local existence theorem can be restarted from times approaching `T_*` with a uniform positive lifespan. That restarts the same solution past `T_*`.
+```math
+M_s:=\sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty.
+\tag{TRE.1}
+```
+
+The `H^s`, `s>5/2`, local Navier-Stokes theorem supplies a lifespan
+
+```math
+\tau=\tau(\nu,s,M_s)>0
+\tag{TRE.2}
+```
+
+depending only on the displayed bound. For any sequence `t_j\uparrow T_*`,
+choose `j` with `T_*-t_j<\tau/2`. Relaunching the Navier-Stokes system from
+the data `u(t_j)` gives a classical solution `v_j` on `[t_j,t_j+\tau]`.
+Classical `H^s` uniqueness identifies `v_j=u` on the overlap `[t_j,T_*)`, so
+`v_j` extends the same original branch beyond `T_*`.
 
 The finite Clay breakdown assumption says exactly that this same classical solution has no such continuation past `T_*`. Therefore the bounded-continuation alternative is impossible. The continuation norm must fail along times approaching `T_*`.
 
