@@ -478,9 +478,10 @@ Assume in addition that the coherent commutator is carrier-controlled:
 C_\varepsilon\Psi(\mathcal E_D(X)).
 ```
 
-This is the formal version of the discharge packet that the lane currently
-needs. The coherent part is carried by the persistent sector and the remainder
-is lower-order on the energy domain.
+This is the theorem version of the discharge packet that the lane currently
+needs. The coherent part is carried by the persistent sector, and the remainder
+must satisfy the displayed `\varepsilon\mathcal D_D+C_\varepsilon\Psi(\mathcal
+E_D)` energy-domain bound.
 
 ## Lemma H.1
 
@@ -518,7 +519,8 @@ C\|X\|_{H_D^s}
 ```
 
 for every carrier basis vector `e_\beta`, and the corresponding commutator
-terms are lower-order on the energy domain.
+terms satisfy the same `\varepsilon\mathcal D_D+C_\varepsilon\Psi(\mathcal
+E_D)` energy-domain bound.
 
 Then
 
@@ -576,12 +578,12 @@ C_{\varepsilon,s}\Psi(\mathcal E_D(X)).
 The first claim is the definition of `\mathbb H_D`. For the
 second, expand `N_{\mathrm{rem}}` in the carrier/off-carrier decomposition.
 The leakage identity expresses every off-carrier component through a reduced
-resolvent applied to a commutator defect. The commutator defect is lower-order
-by hypothesis, so the leakage gains one derivative after spectral-gap division.
-The same argument applies after commuting with `\nabla_D`, since the
-commutator with `\nabla_D` preserves lower-order status on the common graph
-domain. The stated estimate follows by summing the carrier-basis bounds and
-applying Cauchy–Young. `\square`
+resolvent applied to a commutator defect. The hypothesis is the displayed
+commutator-defect estimate above; after division by the spectral gap, the
+leakage gains one derivative. The same argument applies after commuting with
+`\nabla_D`, provided the commuted defect obeys the corresponding displayed
+bound on the common graph domain. The stated estimate follows by summing the
+carrier-basis bounds and applying Cauchy--Young. `\square`
 
 ## Proposition D.2.2
 
@@ -657,7 +659,8 @@ Proof sketch:
 combine `D.2a`, `D.2b`, and `D.2c`; use the graph-norm equivalence
 `c_{\mathcal N}(\|X\|_H^2+\|\Omega_DX\|_H^2)\le \|X\|_{\mathcal N}^2\le
 C_{\mathcal N}(\|X\|_H^2+\|\Omega_DX\|_H^2)`; and absorb the
-lower-order terms into the constants.
+`\Psi(\mathcal E_D(X))` remainder through the displayed growth envelope
+`E'(t)\le C_0E(t)+C_1E(t)^{3/2}`.
 
 ## Corollary D.2.2 (bootstrap growth control)
 
@@ -877,7 +880,7 @@ The live frontier inside H.1 is now isolated to these exact checks:
 \sigma_0(\mathcal C_{ij})=0.
 ```
 
-2. Carrier leakage is lower-order:
+2. Carrier leakage has one resolvent derivative of gain:
 
 ```text
 P_\perp N_D(X)P_K \in \Psi^{-1}_{\mathrm{coh}}.
@@ -969,7 +972,7 @@ Then Cauchy–Schwarz and Young give
 C_\varepsilon\Psi(\mathcal E_D(X)).
 ```
 
-Assume the remainder is lower-order:
+Assume the remainder satisfies the energy-domain bound:
 
 ```text
 \|N_{\mathrm{rem}}(X)\|
@@ -997,7 +1000,7 @@ Similarly, assume the coherent commutator is carrier-controlled:
 C\,\Psi(\mathcal E_D(X))^{1/2},
 ```
 
-and the remainder commutator is lower-order:
+and the remainder commutator satisfies the commuted energy-domain bound:
 
 ```text
 \|[\nabla_{D,\omega},N_{\mathrm{rem}}(X)]\|
@@ -1151,7 +1154,7 @@ The strongest current local reduction is the formal coherent/remainder package:
 ```
 
 with `N_{\mathrm{coh}}(X)` controlled by the carrier class and
-`N_{\mathrm{rem}}(X)` lower-order on the energy domain. Under that split, the
+`N_{\mathrm{rem}}(X)` satisfying the energy-domain bound. Under that split, the
 nonlinear source terms
 
 ```text
