@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note replaces the too-naive shellwise proxy for one model same-scale
+This note replaces the too-naive shellwise proxy for one same-scale edge
 packet by the honest scalarized packet coming from the signed continuous-scale
 route, then computes its exact trilinear Fourier symbol and tests the hoped-for
 same-scale principal cancellation.
@@ -44,7 +44,7 @@ Let `Q_{\ell,a}^{edge}` denote the bounded-offset edge-band test multiplier
 produced by the collar freezing / edge-band replacement on the scalarized
 channel, with symbol `q_a(\ell\xi)`.
 
-Then the honest model same-scale edge packet is
+Then the honest scalarized same-scale edge packet is
 
 ```math
 \Pi_{\ell,a}^{edge}(t)
