@@ -4650,6 +4650,10 @@ Exact replacement:
   after the displayed algebraic reductions.
 - The SG.4 handoff now says the downstream extraction is the `SG.4B` algebraic
   handoff under the residual pairwise closure hypotheses.
+- The cycle-exact, HWY, lifted-packet, UTKD, ontic-lift, Mellin-residue,
+  ACT.KX audit, and Clay-promotion notes now say conditional implication,
+  algebraic reduction, displayed reduction, recorded handoff, or endpoint
+  certificate map instead of "formalized," "formal reduction," or "formal map."
 
 Downstream consequence:
 
@@ -4666,6 +4670,17 @@ Edited live surfaces:
 - `theorem-construction/mcp-terminal-source-estimates-closure-audit-ep-a-b34e8fb1f2.md`;
 - `theorem-construction/utkd-to-ne-reduction-lemma.md`;
 - `theorem-construction/sg4-and-br-lambda2-handoff.md`.
+- `theorem-construction/cycle-exact-angular-observability-packet.md`;
+- `theorem-construction/cycle-exact-projective-synchronization-packet.md`;
+- `theorem-construction/hwy-instability-attack-packet.md`;
+- `theorem-construction/mcp-ordered-sg4-tps-completion-queue-pass-ep-a-43ef6d950d.md`;
+- `theorem-construction/lifted-packet-three-piece-closure-program.md`;
+- `theorem-construction/utkd-proof-attempt-audit.md`;
+- `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
+- `theorem-construction/mpp-gold-mellin-stress-flux-residue-test-20260617.md`;
+- `theorem-construction/lagrangian-six-lemma-mainline.md`;
+- `theorem-construction/mpp-act-kx-hidden-spending-audit-note.md`;
+- `theorem-construction/clay-closure-promotion-map.md`.
 
 ## Remaining Primary-Surface Residue Classification
 
