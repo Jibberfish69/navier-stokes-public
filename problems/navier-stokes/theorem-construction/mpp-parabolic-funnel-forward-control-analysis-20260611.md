@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
-  downstream_consequence: "The fixed-cylinder shrinking-radius problem is replaced by a parabolic funnel/rescaled-field problem. The moving-domain energy identity and rescaled Navier-Stokes equation are installed. Finite physical funnel energy/dissipation does not control the unweighted scale-critical cone budget; the positive-forward supplier is now ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A."
+  downstream_consequence: "The fixed-cylinder shrinking-radius problem is replaced by a parabolic funnel/rescaled-field problem. The moving-domain energy identity and rescaled Navier-Stokes equation are installed. Finite physical funnel energy/dissipation does not control the unweighted scale-critical cone budget; late moving-funnel slab smallness still requires a moving-layer-to-CKN bridge or direct moving-funnel epsilon regularity before it can exclude a terminal singularity."
 ---
 
 # MPP ParabolicFunnelForwardControlAnalysis.A
@@ -258,16 +258,43 @@ limsup_{S -> infinity}
 < epsilon_CKN.
 ```
 
-Then the terminal point cannot be singular inside that funnel branch. This is
-the usual epsilon-regularity mechanism written in the dynamic reference frame:
-small scale-critical rescaled-field mass on late parabolic slabs gives regularity in
-the corresponding physical cylinders near the tip.
+The exact physical form of this slab condition is not a fixed CKN cylinder.
+Since `s=-log(T-t)`,
+
+```text
+integral_S^{S+1} integral_{B_lambda}
+  ( |v|^3 + |q|^{3/2} ) dy ds
+=
+integral_{T-e^{-S}}^{T-e^{-(S+1)}}
+integral_{|x-x0|<lambda sqrt(T-t)}
+  ( |u|^3 + |p|^{3/2} )/(T-t) dx dt.
+```
+
+Thus the slab condition gives smallness on one moving funnel layer with the
+exact parabolic weight `(T-t)^{-1}`. It excludes a terminal singularity only
+after one additional exact bridge is supplied:
+
+```text
+FunnelSlabToCKN.A:
+  late moving-funnel layer smallness
+  plus the required exterior-annulus/full-cylinder comparison
+  implies
+  limsup_{r downarrow 0}
+    r^{-2} integral_{T-r^2}^{T} integral_{B_r(x0)}
+      ( |u|^3 + |p|^{3/2} ) dx dt
+  < epsilon_CKN.
+```
+
+Equivalently, one may prove a direct moving-funnel epsilon-regularity theorem.
+Without one of these bridges, late-slab smallness is a forward-control
+reduction, not by itself a CKN regularity proof.
 
 So the funnel reframing is not cosmetic. It converts the forward problem into:
 
 ```text
 prove late-slab scale-critical smallness,
-or prove a finite cone-critical tail whose late slabs become small.
+then prove `FunnelSlabToCKN.A` or a direct moving-funnel epsilon-regularity
+theorem.
 ```
 
 ## 7. Direct Attempt From Physical Energy Fails
@@ -348,7 +375,7 @@ Installed in this note:
 2. The parabolic rescaled field equation.
 3. The physical-budget discount calculation.
 4. The scale-critical cone currency.
-5. The conditional epsilon-regularity forward pass.
+5. The conditional moving-slab-to-CKN forward pass.
 6. The failed direct estimate from physical energy.
 ```
 
@@ -376,7 +403,8 @@ The repaired route for the shrinking-radius case is:
 ```text
 gold standard first:
   prove ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A, i.e.
-  prove late-slab scale-critical smallness or a finite undiscounted cone tail;
+  prove late-slab scale-critical smallness or a finite undiscounted cone tail,
+  then pay the moving-layer-to-CKN bridge;
 
 impassable obstruction:
   physical energy and physical dissipation are exactly discounted in cone time,
