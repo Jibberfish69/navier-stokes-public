@@ -6271,6 +6271,54 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Source-Wall Scale-Shorthand Repair
+
+Old claim being spent:
+
+Several live source-wall and source-pulse surfaces described failed attempts as
+returning to the "same scale-critical" carrier, reserve, multiplier, or wall.
+That wording correctly pointed to a repeated obstruction, but it let the scale
+phrase carry too much proof force.  The proof-relevant object is the unclosed
+source-pulse carrier, active-square reserve, active coefficient bound, or
+nonlinear-pressure charge.
+
+Exact replacement:
+
+The theorem notes and appendix mirror now name the residue directly:
+
+- Duhamel concentration is carried by the active source carrier
+  `|w_j|^2[e_j . S^{loc}_{<j}e_j]_+`;
+- edge-disintegrated routes require control of the tree/source-pulse carrier,
+  rather than proving a distinct lower root;
+- amplitude and source-wall routes still require an independent source-reserve
+  bound;
+- edge-resistance reduces to the displayed active-square reserve;
+- absolute estimates give only an unsigned active coefficient bound or the
+  active-source multiplier already displayed in the gate;
+- funnel weighting restates the missing nonlinear-pressure charge that
+  `ParabolicFunnelScaleCriticalBudget.A` must bound.
+
+Downstream consequence:
+
+The affected notes no longer spend "same scale-critical" language as a hidden
+proof step.  Each failed route now lands on a named unclosed carrier, reserve,
+coefficient, multiplier, or charge, so later CM/source-wall work must either
+prove that specific bound or route the resulting terminal residue through the
+Pack/Part/Field classifier.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-critical-l3-concentration-to-native-source-residue-direct-attempt-20260519.md`;
+- `theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md`;
+- `theorem-construction/mpp-funnel-profile-lyapunov-weighted-direct-attempt-20260611.md`;
+- `theorem-construction/mpp-senior-research-architect-synthesis-memo-20260506.md`;
+- `theorem-construction/mpp-read-cover-bypass-first-pulse-reduction-20260505.md`;
+- `theorem-construction/mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md`;
+- `theorem-construction/mpp-cycle-heat-action-abstract-flow-reduction-20260505.md`;
+- `theorem-construction/mpp-independent-prd-alternative-proof-attempts-20260516.md`;
+- `theorem-construction/mpp-nearband-bv-to-burst-or-source-direct-attempt-20260506.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Scale-Language / Behaves-Like Rework
 
 Old claim being spent:
