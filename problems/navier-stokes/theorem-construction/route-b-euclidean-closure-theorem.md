@@ -387,23 +387,26 @@ Then the packet is intended to show:
 1. `u` is an exact Euclidean Navier-Stokes solution;
 2. `\sup_{t<T} E_N(t) < \infty` for all sufficiently large `N`;
 3. `\sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty`;
-4. `u` continues beyond `T`;
+4. continuation beyond `T` still requires `\sup_{t<T}\|u(t)\|_{H^s}<\infty`
+   for some `s>5/2`, or an equivalent named continuation criterion;
 5. as a stronger architectural target, the high-frequency tail is re-certified in the exact same dyadic barrier shape.
 
 ### Corollary Packet (Internal classical Navier-Stokes theorem)
 
 On the full Route B packet recorded in this note and its cited support lemmas,
-the intended conclusion is that every classical solution of the
+the intended conclusion is conditional: every classical solution of the
 three-dimensional incompressible Navier-Stokes equation on `[0,T) x R^3`
 arising from smooth compactly supported divergence-free initial data extends
-beyond `T`. Under the stricter audit standard, this remains a theorem packet
-rather than a fully discharged theorem because the decisive packet reductions
-still need line-by-line manuscript-grade audit.
+beyond `T` only after the same surface also supplies the `H^s`, `s>5/2`,
+continuation bridge or an equivalent named criterion. Under the stricter audit
+standard, this remains a theorem packet rather than a fully discharged theorem
+because the decisive packet reductions and the continuation bridge still need
+line-by-line manuscript-grade audit.
 
-The exact same-shape `4 -> 1` barrier return is stronger than this basic
-continuation consequence and currently remains an open architectural closure
-target because of the explicit damping-threading and uniform-in-`N`
-constant-budget issue recorded in the recertification note.
+The exact same-shape `4 -> 1` barrier return is stronger than the energy-level
+support consequence and currently remains an open architectural closure target
+because of the explicit damping-threading and uniform-in-`N` constant-budget
+issue recorded in the recertification note.
 
 ## Exact Analytical Core
 
