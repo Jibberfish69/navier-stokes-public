@@ -2340,6 +2340,63 @@ Edited live surface:
 
 - `theorem-construction/mpp-pdf-cmi-proof-core-reentry-20260609.md`.
 
+## HeightFlux Architecture Proof-Force Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`
+  was explicitly referenced by `live-theorem-edge.yaml` as an audit-open
+  synthesis memo.
+- Inside that live referenced note, a "Schematic route" and "Clean proof graph"
+  still spent the old Field/source-wall architecture as if a supplier route
+  could run
+
+```text
+Pack + Part + not Field
+=> source wall / Zeno residue
+=> Field restored
+=> Member restored
+=> first class exit contradicted.
+```
+
+Exact replacement:
+
+The note now states that this graph is historical route architecture, not a
+proof implication. A source-reserve, height-flux, signed-current, or Zeno branch
+enters CM proof material only through one of the exact interfaces
+
+```text
+same-ledger payment
+or
+CM-test admission + first Pack/Part/Field face failure.
+```
+
+The exact face landing is displayed as
+
+```text
+not Pack_Q,
+Pack_Q + not Part_{N,Q},
+or
+Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+```
+
+The note now records the live consequence from the source-frontier surfaces:
+old `ActiveHeightFlux`, `SourceReserve`, `SignedPair`, and no-free-sink labels
+are consumed and cannot count as fresh progress. The live burden is a
+same-witness terminal anti-concentration / source-Carleson / rigid-anti-atom /
+non-source Pack-survival theorem, or an equivalent same-ledger payment.
+
+Downstream consequence: `live-theorem-edge.yaml` now classifies the note as
+historical audit-open support and states that old HeightFlux/Zeno/signed-current
+targets are support-level unless promoted by same-ledger payment or CM-test
+admission plus a first Pack/Part/Field face failure. The live edge no longer
+preserves the old schematic proof graph as a current target.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
+- `live-theorem-edge.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
