@@ -190,7 +190,10 @@ Therefore
 \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
 ```
 
-The whole-space `H^s` local theory continues the solution beyond `T_*`.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(R^3)}`. Whole-space `H^s` local theory gives
+`\tau=\tau(\nu,s,M_s)>0`; choosing `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists beyond `T_*` and agrees
+with the original solution on the overlap by uniqueness.
 
 ## 6. Whole-space `TTU.A`
 

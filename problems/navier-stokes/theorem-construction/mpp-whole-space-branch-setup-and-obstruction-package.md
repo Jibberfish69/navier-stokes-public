@@ -184,11 +184,18 @@ then
 \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
 ```
 
-The standard whole-space `H^s` local theory then continues the solution beyond `T_*`.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(R^3)}`. Whole-space `H^s` local theory gives
+`\tau=\tau(\nu,s,M_s)>0`; for `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the
+relaunch from `u(t_j)` exists beyond `T_*` and agrees with the original solution
+on the overlap by uniqueness.
 
 ### Proof
 
-Choose `R` so the exterior `H^s` tail is small. Cover `B_R` by finitely many local tower charts. Since `N>s+2`, local Sobolev patching controls the `H^s` norm on `B_R`. Adding the exterior tail gives the global `H^s` bound. Continuation follows from whole-space local well-posedness in `H^s`.
+Choose `R` so the exterior `H^s` tail is small. Cover `B_R` by finitely many
+local tower charts. Since `N>s+2`, local Sobolev patching controls the `H^s`
+norm on `B_R`. Adding the exterior tail gives the global `H^s` bound. With
+`M_s` equal to that supremum, whole-space local well-posedness supplies the
+uniform lifespan used in the preceding relaunch argument.
 
 ## 8. Whole-space theorem statement
 

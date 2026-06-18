@@ -167,7 +167,10 @@ Adding the exterior tail gives
 \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
 ```
 
-The whole-space local theory in `H^s`, `s>5/2`, continues the solution beyond `T_*`.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(R^3)}`. Whole-space `H^s` local theory,
+`s>5/2`, gives a lifespan `\tau=\tau(\nu,s,M_s)>0`; choosing
+`t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists
+beyond `T_*` and agrees with the original solution on the overlap by uniqueness.
 
 ## 6. Conditional `TTU.A_R3`
 

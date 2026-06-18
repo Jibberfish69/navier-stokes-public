@@ -48,7 +48,11 @@ Assume Pack_Q and Part_{N,Q} survive. If there exists rho>0 with Field_{N,rho,Q}
 \sup_{t<T_*}\|u(t)\|_{H^s(R^3)}<\infty.
 ```
 
-Classical H^s local theory for s>5/2 extends the same smooth solution beyond T_*. This contradicts the assumed terminal Sobolev wall. Therefore retained Pack and retained Part force
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(R^3)}`. Classical `H^s` local theory for
+`s>5/2` gives `\tau=\tau(\nu,s,M_s)>0`; for `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists beyond `T_*` and agrees
+with the original solution on the overlap by uniqueness. This contradicts the
+assumed terminal Sobolev wall. Therefore retained Pack and retained Part force
 
 ```math
 \forall \rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).

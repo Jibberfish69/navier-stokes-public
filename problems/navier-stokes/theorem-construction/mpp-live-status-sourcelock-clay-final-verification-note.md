@@ -238,7 +238,12 @@ $$
 \qquad s>\frac52.
 $$
 
-Classical continuation extends the solution past `T_*`, contradicting maximality. Therefore some retained window loses the witness. Taking the infimum of loss times gives the first class-exit time.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s}`. Classical `H^s` local theory gives a
+lifespan `\tau=\tau(\nu,s,M_s)>0`; for `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists past `T_*` and uniqueness
+identifies it with the original solution on the overlap, contradicting
+maximality. Therefore some retained window loses the witness. Taking the
+infimum of loss times gives the first class-exit time.
 
 Result:
 

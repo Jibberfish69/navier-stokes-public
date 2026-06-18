@@ -42,7 +42,14 @@ Assume Pack_Q survives. The Prodi-Serrin quantity must remain attached to the sa
 
 Assume Pack_Q and Part_{N,Q} survive. If some positive Field_{N,rho,Q} survives, the terminal packet supplies positive-scale local velocity coherence through the readout depth. The finite-overlap carrier and Field readout give the Prodi-Serrin spacetime bound on the terminal interval.
 
-The classical Prodi-Serrin continuation criterion extends the same smooth solution beyond T_*. This contradicts the assumed Prodi-Serrin terminal wall.
+The readout must give an exact Prodi-Serrin bound for the same solution on a
+terminal interval:
+`u\in L^q((T_*-\delta,T_*);L^p(R^3))` with `2/q+3/p\le 1` and `p>3` (or the
+endpoint version only if that endpoint theorem is explicitly invoked). The
+classical Prodi-Serrin continuation theorem then excludes blow-up at `T_*`: the
+maximal smooth solution has a continuation past `T_*`, and uniqueness
+identifies the continued solution with the original one on the overlap. This
+contradicts the assumed Prodi-Serrin terminal wall.
 
 Therefore retained Pack and retained Part force
 

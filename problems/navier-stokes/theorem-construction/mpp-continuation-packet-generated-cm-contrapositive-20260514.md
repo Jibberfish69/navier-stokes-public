@@ -70,7 +70,10 @@ The installed pointwise readout note proves that these slots give:
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-Classical local theory at `s>5/2` then extends the solution past `T_*`.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}`. Classical periodic `H^s` local
+theory at `s>5/2` gives `\tau=\tau(\nu,s,M_s)>0`; choosing
+`t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists past
+`T_*` and agrees with the original solution on the overlap by uniqueness.
 
 ## Theorem `ContPacket.CM.A`
 
