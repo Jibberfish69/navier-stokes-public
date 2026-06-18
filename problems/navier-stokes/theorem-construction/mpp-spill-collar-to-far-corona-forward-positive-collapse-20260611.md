@@ -89,7 +89,7 @@ Those notes show:
    finite edge families in the signed continuous-scale channel;
 2. the moving near-corona spill reduces to a finite family of fixed-offset
    same-scale edge packets;
-3. each fixed-offset edge packet satisfies the model estimate
+3. each fixed-offset edge packet satisfies the coefficient-bearing edge estimate
 
 ```math
 \int_0^T |\Pi_{N,a}^{edge}(t)|\,dt
