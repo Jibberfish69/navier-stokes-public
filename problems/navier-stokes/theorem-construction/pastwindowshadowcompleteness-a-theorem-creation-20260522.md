@@ -64,7 +64,7 @@ remains `NativeSourceAC.A` / `mu_*^sing=0`, equivalently
 - central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, or
 - - problems/navier-stokes/theorem-packet.yaml
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - TerminalReserveFirstAppearanceCharge.A. On every admissible terminal heat window W, every square-reserve contribution not already represented in Past(W) either injects into Charge_N(W) or is absorbed by the declared loss ledger.
 - WeightedAdjRes.A
 - terminal heat-window decomposition

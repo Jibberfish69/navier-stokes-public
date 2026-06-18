@@ -27,7 +27,7 @@ The lifted commutator and product estimates place one high derivative on one fac
 \text{lower-order terms}.
 ```
 
-After Young absorption,
+After the Young-margin split,
 
 ```math
 |\mathcal N_s(X)|

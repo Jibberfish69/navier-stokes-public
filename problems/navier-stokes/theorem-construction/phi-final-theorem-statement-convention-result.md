@@ -66,7 +66,7 @@ The viscous absorption constant is unchanged.
 
 ## Theorem PFC
 
-The final amplitude/speed theorem and final collar theorem should use `\Phi_{final}`. If original-ledger domination and bounded-test tail control are proved later, `\Phi_{final}` may be reduced back to `\Phi`.
+The final amplitude/speed theorem and final collar theorem must use `\Phi_{final}`. If original-ledger domination and bounded-test tail control are proved later, `\Phi_{final}` may be reduced back to `\Phi`.
 
 ## Source surfaces
 

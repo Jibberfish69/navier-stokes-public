@@ -28,7 +28,7 @@ Discharge the first exact downstream burden:
 
 The job of this note is to produce one observable symmetric surrogate and one
 synchronized reference projector on the transported good family. Until those
-objects exist, the spectral-gap discussion is only heuristic.
+objects exist, the spectral-gap discussion is only motivational setup.
 
 ## Exact Inputs
 

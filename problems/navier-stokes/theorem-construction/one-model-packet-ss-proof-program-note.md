@@ -30,8 +30,8 @@ C_{a,*}2^{-2\delta N}.
 for one fixed divergence-free annular order-zero multiplier packet.
 
 The point is not to claim `(SS)` is proved here. The point is to isolate the
-exact step where the current argument loses, and the exact new mechanism a real
-proof would need.
+exact step where the current argument loses and the additional mechanism
+required by a proof of `(SS)`.
 
 ## One model packet
 
@@ -185,8 +185,10 @@ bounded offsets.
 ### Step 2. Symmetrize and use incompressibility
 
 Because the two active inputs are same-scale and the transport field is
-divergence-free, the principal symbol should be tested under symmetrization in
-the active frequencies.
+divergence-free, the relevant principal-symbol test is symmetrization in the
+active frequencies. The known outcome is that incompressibility rewrites the
+transport factor but does not by itself cancel the principal same-scale
+amplitude.
 
 The honest outcome of that test is now known:
 

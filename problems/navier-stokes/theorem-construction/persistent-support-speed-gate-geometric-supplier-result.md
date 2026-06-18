@@ -95,7 +95,8 @@ together with the lower-order allowance for the `\Phi` term. Under `PSG.6`,
 \tag{PSG.7}
 ```
 
-so the amplitude gate holds after harmless adjustment of constants.
+so the amplitude gate holds after replacing the threshold constants by the
+fixed constants appearing in `(PSG.7)`.
 
 ## Flow-speed threshold corollary
 

@@ -33,8 +33,8 @@ continuation of that problem.
 
 ## Constitutive Import
 
-This route should be read as a branch consumer of the same MPP carrier, not as
-an autonomous normal-covector semantics engine.
+This route is a branch consumer of the same MPP carrier. It is not an
+autonomous normal-covector semantics engine.
 
 It also sits strictly on the Law-2-survivor side. By
 [mpp-law2-survivor-reduction-to-one-field-frontier.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-law2-survivor-reduction-to-one-field-frontier.md),
@@ -67,8 +67,8 @@ fused supplier splice:
 That branch-specific splice is now written explicitly in
 [mpp-normal-covector-witness-to-readout-theorem.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md).
 
-So the present note should also be read as a consumer packet downstream of that
-splice, not as the earliest constitutive start of the normal-covector branch.
+So the present note is a consumer packet downstream of that splice, not the
+earliest constitutive start of the normal-covector branch.
 
 ## Why the scalar cocycle still stops short
 
@@ -88,7 +88,7 @@ does **not** identify the distance of a unit pair direction `e_{ab}` to the
 expanding plane `N_a`: one covector that is merely nondegenerate on `N_a` need
 not annihilate `N_a^\perp`.
 
-So the cycle-exact cocycle route should not keep chasing another scalar label.
+So the cycle-exact cocycle route does not chase another scalar label.
 On the present `3D` rank-two bundle branch, the correct cocycle refinement is a
 single **bundle-normal covector**; any finite normal coframe alternative
 collapses to the same one-dimensional normal row space.
@@ -237,9 +237,9 @@ its normal-direction defect is observable from the pair-defect PDE.
 ## Smallest new PDE object on the cocycle route
 
 The current pair-defect packet already exposes the two-point defect field
-`W_J` and the near-diagonal observability node `\Gamma_J^{obs}`. So the
-smallest additional PDE-side object on the cycle-exact branch should be a
-**selector-normal moment observable**, not a new geometric theorem.
+`W_J` and the near-diagonal observability node `\Gamma_J^{obs}`. The smallest
+additional PDE-side object on the cycle-exact branch is a **selector-normal
+moment observable**, not a new geometric theorem.
 
 Fix a smooth radial cutoff `\zeta\in C_c^\infty(B(0,2))` with
 `\zeta\equiv 1` on `B(0,1)`. For a scale `\rho>0` and center `z\in\mathbb R^3`,
@@ -856,7 +856,7 @@ Write
 ```
 
 which is exactly `(CN.13n)` after inserting `(CN.13m)` and `(CN.13)`. Statement
-`(CN.13o)` is immediate. ∎
+`(CN.13o)` follows by the same substitution. ∎
 
 ### Corollary TPS-PD70z-from-support-smallness
 

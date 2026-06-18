@@ -8,7 +8,7 @@ sets up the semigroup lift used by the next bridge layer.
 
 ## Purpose
 
-The projected-flow route should not remain a loose rewritten equation. It needs
+The projected-flow route is a theorem-bearing bridge only after it is stated as
 a single operator on the physical sector, together with sector invariance,
 positive-time support preservation, and semigroup consistency.
 

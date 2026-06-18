@@ -30,7 +30,7 @@ Use the extended ledger `\Phi_{low}` when `M_{low}` is only known as a finite re
 
 ## Current decision
 
-The current route should promote the collar branch to `\Phi_{low}`.
+The current route promotes the collar branch to `\Phi_{low}`.
 
 Reason: finite cardinality of the low-shell block reduces the problem to finitely many amplitudes, while amplitude domination by the old `\Phi` is an extra theorem. The scaling test
 
@@ -52,7 +52,7 @@ With
 \tag{PLD.4}
 ```
 
-all collar absorption statements remain valid by the `\Phi_{low}` ledger propagation theorem:
+all collar coefficient-margin statements remain valid by the `\Phi_{low}` ledger propagation theorem:
 
 ```math
 A
@@ -78,7 +78,7 @@ C\Phi(\mathcal E_D(X)).
 \tag{PLD.6}
 ```
 
-Until then, theorem statements using the finite low-shell residual should use `\Phi_{low}` explicitly.
+Until then, theorem statements using the finite low-shell residual must use `\Phi_{low}` explicitly.
 
 ## Boundary
 

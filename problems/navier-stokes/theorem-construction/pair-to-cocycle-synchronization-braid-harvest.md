@@ -62,9 +62,9 @@ See:
 
 Operational consequence for `NS`:
 
-- the missing synchronization object should be a canonical projector or line
+- the missing synchronization object is a canonical projector or line
   field on the transported good family;
-- it should **not** be introduced first as a floating scalar selector label;
+- it is not introduced first as a floating scalar selector label;
 - sign choices, chart labels, and export-level selectors belong downstream.
 
 ### 2.2 Projectivize before orienting
@@ -89,7 +89,7 @@ the angle ledger is already signless.
 
 The braid dossier
 [encoded-residue-is-structured-signal-template.yaml](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/brain/braid/dossiers/encoded-residue-is-structured-signal-template.yaml:8)
-records the right meta-rule: leftover defect should not be discarded when the
+records the right meta-rule: leftover defect is retained when the
 route burden is to determine whether it still carries structure.
 
 But the `NS` projective packet also proves the sharp limit:
@@ -109,7 +109,7 @@ signless scalar defect alone -> oriented expanding direction.
 It licenses the narrower statement
 
 ```text
-signless defect is structural witness data and should be used as confidence,
+signless defect is structural witness data used as confidence,
 mass, weighting, or compatibility input in a larger synchronization object.
 ```
 
@@ -167,7 +167,7 @@ not the abandoned move
 pair packet -> sign choice by fiat.
 ```
 
-### 2.6 Cocycle/globalization should be local-to-global projector gluing
+### 2.6 Cocycle/globalization is local-to-global projector gluing
 
 The Hodge globalization notes phrase the endpoint as:
 
@@ -236,7 +236,7 @@ lift is optional.
 
 ### 3.3 Honest theorem target
 
-The braid-derived synchronization theorem should therefore be read as:
+The braid-derived synchronization theorem is therefore:
 
 ```text
 signless pair packet

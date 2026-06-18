@@ -94,7 +94,7 @@ the route-local reconstruction energy for the pair-direction defect `\Xi_J`,
 built from the same pair-defect packet rather than from a new geometric object.
 ```
 
-See `(PD.70t)` and the sentence immediately following it in
+See `(PD.70t)` and the sentence directly following it in
 [tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).
 
 Since this note was first written, two concrete realizations of the directional

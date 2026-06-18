@@ -55,8 +55,8 @@ Equivalently,
 C_*2^{-2\delta N}.
 ```
 
-Because `D_j(t)\le \mathcal T_j^\sigma(t)`, the implication
-`(SDS^\sharp) => (NE^\sharp)` is immediate.
+Because `D_j(t)\le \mathcal T_j^\sigma(t)`, `(SDS^\sharp)` implies
+`(NE^\sharp)` by direct comparison.
 
 ## Why NE-Sharp Is Still Important
 

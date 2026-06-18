@@ -124,7 +124,7 @@ land on the same PDE obstruction class:
 }
 ```
 
-That is the sharp obstruction class that should replace the looser slogan
+That is the sharp obstruction class replacing the looser slogan
 "uncontrolled high-frequency cascade" whenever the local route needs the
 precise burden.
 
@@ -145,7 +145,7 @@ The route choice is:
 ### Why `(CTS)` is preferred
 
 1. It keeps the obstruction in the native continuum two-scale form.
-2. It preserves the lower-prefix geometry without collapsing immediately to the
+2. It preserves the lower-prefix geometry without collapsing straight to the
    harsher quartic dyadic shadow.
 3. It matches the middle-band/far-corona route more directly than the shellwise
    gain route.
@@ -157,10 +157,10 @@ The route choice is:
 - The shell-gain route asks for a local half-derivative miracle after too much
   compression.
 - The all-scale transfer-inefficiency theorem is a legitimate route broadening,
-  but it is stronger than the present local burden and should not be the first
-  repair target.
+  but it is stronger than the present local burden and is not the first repair
+  target while `(CTS)` remains the narrower exact burden.
 
-So the live repair order should read:
+So the live repair order is:
 
 ```math
 \boxed{

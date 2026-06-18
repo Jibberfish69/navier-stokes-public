@@ -9,11 +9,11 @@ The point is:
 
 ```math
 \boxed{
-\text{those parabolic tools should not be applied directly to selector geometry.}
+\text{those parabolic tools are not applied directly to selector geometry.}
 }
 ```
 
-They should enter only after one has built a derived defect equation for a
+They enter only after one has built a derived defect equation for a
 packet-overlap or separation-density quantity. That derived-defect packet is
 now available concretely in
 [tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).

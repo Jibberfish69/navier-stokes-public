@@ -103,7 +103,7 @@ normalized-kernel endpoint, to `(PBA.6)`.
 
 ## Frontier Decision
 
-The live narrow branch should prefer the coarse endpoint:
+The live narrow branch uses the coarse endpoint:
 
 ```math
 \boxed{\texttt{one scalar retained-cover counting theorem }(PBA.6)}
@@ -114,8 +114,8 @@ realization, bounded multiplicity, and retained-box subordination hypotheses.
 
 The fine localizer-modulus route remains an honest sibling route, but it is no
 longer the minimal remaining overlap wall after the coarse endpoint notes are
-admitted. It should be kept as the sharper-geometry subbranch for contexts that
-require preserving pointwise localizer comparison.
+admitted. It stays as the sharper-geometry subbranch for contexts that require
+preserving pointwise localizer comparison.
 
 ## Guardrails
 

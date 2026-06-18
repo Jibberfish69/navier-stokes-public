@@ -196,8 +196,7 @@ disk for producing the hypotheses.
 
 ## Preferred Next Closure Cut
 
-The measurable-derivative route should therefore be read in the theorem-facing
-form
+The measurable-derivative route is therefore read in the theorem-facing form
 
 ```math
 \text{pair-to-cocycle synchronization}
@@ -261,7 +260,7 @@ D.7mp + D.7mo + D.7mm,
 ## Exact Gronwall Split
 
 The proof of `(PBR.6g)` already has the correct three-piece structure on disk.
-The point is not to guess a new evolution law, but to read Proposition `D.7mb`
+The point is not to invent a new evolution law, but to read Proposition `D.7mb`
 and its refinements in theorem-facing form.
 
 Set
@@ -577,7 +576,7 @@ So the authoritative exact branch no longer has four genuinely independent
 weighted suppliers from the raw `D.7mb` split. It reduces to the three scalar
 familywise estimates `(PBR.10p7)`-`(PBR.10p9)`.
 
-One tempting further collapse would be to absorb the variation supplier into the
+One candidate further collapse is to absorb the variation supplier into the
 common `A_J` supplier via a pointwise theorem of the form
 
 ```math
@@ -591,8 +590,8 @@ g_J^{str}(s,a)
 \tag{PBR.10q2}
 ```
 
-If `(PBR.10q2)` were available, then `(PBR.10p9)` would follow from
-`(PBR.10p8)` and the exact wall would collapse from three weighted suppliers to
+Under `(PBR.10q2)`, `(PBR.10p9)` follows from
+`(PBR.10p8)` and the exact wall collapses from three weighted suppliers to
 two. But the current `D.7mm` packet does **not** prove `(PBR.10q2)`; it only
 packages bootstrap control through `a_J^{lin}`, `a_J^{quad}`,
 `\Theta_J^{comm}`, and `\eta_J^{boot}`. So the strongest honest exact reduction
@@ -2212,7 +2211,7 @@ The polar decomposition `(PBR.10u16a)` gives
 `(W_J^N(\tau,a))^{-1}=(\mathcal C_{J,\tau}^N)^{-1/2}(O_{J,\tau}^{CG})^*`, so
 substituting into `(D.7mc1)` yields `(PBR.10u16c)`. Since
 `P_{J,\tau}^{CG},Q_{J,\tau}^{CG}` are the rank-one spectral projectors of
-`\mathcal C_{J,\tau}^N` in transverse rank two, `(PBR.10u16e)` is immediate and
+`\mathcal C_{J,\tau}^N` in transverse rank two, `(PBR.10u16e)` follows by diagonalizing the two transverse modes and
 gives `(PBR.10u16f)`-`(PBR.10u16g)` by block multiplication. Symmetry of
 `\widetilde S_{J,\tau}^{ref}` gives `(PBR.10u16h)`, and substitution into
 `(PBR.10u15g)` yields `(PBR.10u16i)`. The localization implication
@@ -2620,12 +2619,12 @@ the installed selector-good cocycle packet plus `CGR.A`.
 **Proof.**
 Integrate `(PBR.10u17e)` over `[t_0,t_1]` to obtain `(PBR.10u18c)`. The
 support claim in `(PBR.10u18d)` implies the support of the integrated source is
-contained in the same bad set, and `(PBR.10u18g)` is immediate from Hölder with
+contained in the same bad set, and `(PBR.10u18g)` is Hölder with
 the uniform amplitude bound `(PBR.10u18f)`. This gives `(PBR.10u18h)`. For the
 last part, `\mu_2^{CG}(s,a)\le |\mathcal C_J^N(s,a)|_{\mathrm{op}}
 =|W_J^N(s,a)|_{\mathrm{op}}^2` and `CGR.A` gives the gap floor, so
 `(PBR.10u18k)` follows by substitution into `(PBR.10u18b)`. Identities
-`(PBR.10u18m1)`-`(PBR.10u18m5)` are the standard singular-value formulas on
+`(PBR.10u18m1)`-`(PBR.10u18m5)` are the singular-value formulas on
 `N_a`, and `(PBR.10u18m4)` uses `\kappa+\kappa^{-1}\le 2\kappa` for
 `\kappa\ge 1`. Substituting into `(PBR.10u18k)` gives `(PBR.10u18m6)`, hence
 `(PBR.10u18m8)`. If `(PBR.10u18n1)` and `(PBR.10u18n3)` hold, then
@@ -2944,7 +2943,7 @@ Therefore
 
 which is exactly the frozen-time version of `(LPM.8)`. Taking Frobenius norms
 gives `(PBR.10u20m3)`, i.e. the frozen-time version of `(LPM.9)`. The support
-and `L^p` statements follow immediately from `(PBR.10u20m4)`-`(PBR.10u20m5)`. ∎
+and `L^p` statements are exactly `(PBR.10u20m4)`-`(PBR.10u20m5)`. ∎
 
 ### Corollary PBR.10u20n (the localized projector-moment realization gives one exact sufficient frozen pair-surrogate packet)
 
@@ -3219,7 +3218,7 @@ family.
 **Proof.**
 Under `(PBR.10u20q1)`, the integrand in `(PBR.10u20q3)` is exactly the
 integrand in `(PBR.10u20q2)` evaluated at `t=\tau`. Since `(PBR.10u20q2)` is a
-uniform-in-time bound, `(PBR.10u20q3)` follows immediately. Then
+uniform-in-time bound, evaluating it at `t=\tau` gives `(PBR.10u20q3)`. Then
 `(PBR.10u20p3)` applies. ∎
 
 ### Corollary PBR.10u20r (a spacetime weighted discrepancy theorem yields a good frozen slice for the pair-side bypass)
@@ -3393,7 +3392,7 @@ By definition,
 `\Delta_{J,\tau}^{sync,str}
 =
 \|S_J^N(\tau,a)\|_F\,\Delta_{J,\tau}^{sync,\Pi}`.
-Thus the support claim is immediate from `(PBR.10u21b)`, and `(PBR.10u21e)`
+Thus the support claim is `(PBR.10u21b)`, and `(PBR.10u21e)`
 follows from the uniform bound `(PBR.10u21d)` multiplied into
 `(PBR.10u21c)`. ∎
 
@@ -3655,7 +3654,7 @@ By definition,
 `\eta_{J,\tau}^{shape,w}
 =
 \bigl|\mathbf W_J^{coc}(\tau,a)\bigr|_{\mathrm{op}}^2\eta_{J,\tau}^{shape}`.
-The support statement is immediate from `(PBR.10u24b)`, and `(PBR.10u24e)`
+The support statement is `(PBR.10u24b)`, and `(PBR.10u24e)`
 follows from the uniform bound `(PBR.10u24d)` multiplied into
 `(PBR.10u24c)`. ∎
 
@@ -3933,11 +3932,11 @@ use
 \|\vartheta_{J,\tau}^{lin}\|_{L^p(d\mu_J^{pair})}^2`
 and then apply `(PBR.10u24i4)`. ∎
 
-### Corollary PBR.10u24j (on the standard selector-scale branch, the frozen weighted exceptional-set price reduces to frozen exceptional-set measure localization)
+### Corollary PBR.10u24j (under the selector-scale hypotheses, the frozen weighted exceptional-set price reduces to frozen exceptional-set measure localization)
 
-Keep the notation of `(PBR.10u24h)`, assume the standard selector-scale
-realization `(PTCL.3ai)` and the active-pair scale packet `(PTCL.3aj)`, and
-define the frozen exceptional-set measure density
+Keep the notation of `(PBR.10u24h)`, assume the selector-scale realization
+`(PTCL.3ai)` and the active-pair scale packet `(PTCL.3aj)`, and define the
+frozen exceptional-set measure density
 
 ```math
 \mu_{J,\tau}^{diff}(a)
@@ -4019,15 +4018,18 @@ Equivalently,
 \tag{PBR.10u24j8}
 ```
 
-So on the standard selector-scale branch, the geometric part of the frozen
-linearization price is already just a frozen-time slice of exceptional-set
-measure localization.
+So under `(PTCL.3ai)`, `(PTCL.3aj)`, the uniform frozen collar bound
+`(PBR.10u24j4)`, and the frozen exceptional-set localization hypothesis
+`(PBR.10u24j5)`-`(PBR.10u24j6)`, the geometric part of the frozen
+linearization price is exactly a frozen-time exceptional-set measure
+localization estimate.
 
 **Proof.**
 The pointwise estimate `(PBR.10u24j3)` is exactly `(PTCL.3ad)` at `t=\tau`
 combined with the automatic collar support from `PTCL.H`. The support claim
 for `\Theta_{J,\tau}^{diff}` follows from `(PBR.10u24j5)`, and the `L^{p/2}`
-bound is immediate from `(PBR.10u24j4)` and `(PBR.10u24j6)`. ∎
+bound comes from applying `(PBR.10u24j6)` to the pointwise estimate
+`(PBR.10u24j4)`. ∎
 
 ### Audit Note PBR.10u24k (the scalar frozen tolerance packet is auxiliary, while the geometric frozen wall is exceptional-set measure localization)
 
@@ -4048,11 +4050,13 @@ So `\texttt{FrozenTolLoc}_{\mu,p}` from `(PBR.10u24i7)` is a strong auxiliary
 localization form, not the intrinsic output of `PTCL.D`.
 
 By contrast, the weighted exceptional-set factor `\Theta_{J,\tau}^{diff}` is
-genuinely geometric, and on the standard selector-scale branch
-`(PBR.10u24j8)` reduces it to the frozen-time exceptional-set measure packet
+geometric: under `(PTCL.3ai)`, `(PTCL.3aj)`, the uniform frozen collar bound
+`(PBR.10u24j4)`, and the frozen exceptional-set localization hypothesis
+`(PBR.10u24j5)`-`(PBR.10u24j6)`, `(PBR.10u24j8)` reduces it to the
+frozen-time exceptional-set measure packet
 `\texttt{FrozenDiffMeasLoc}_{\mu,p/2}`.
 
-So the honest frozen linearization wall should now be read as
+So the honest frozen linearization wall now reads as
 
 ```math
 \boxed{
@@ -4213,9 +4217,9 @@ quantitative transport theorem.
 
 ### Corollary PBR.10u24q (a threshold-vs-linearization synchronization law is one exact sufficient realization of `SyncDiffQuad_{\tau}`)
 
-Keep the notation of `(PBR.10u24h)` and assume the standard selector-scale
-realization `(PTCL.3ai)` together with the active-pair scale packet
-`(PTCL.3aj)`. Then there exists a selector-scale lower constant
+Keep the notation of `(PBR.10u24h)` and assume the selector-scale realization
+`(PTCL.3ai)` together with the active-pair scale packet `(PTCL.3aj)`. Then
+there exists a selector-scale lower constant
 `c_{\mathrm{sel}}>0` such that
 
 ```math
@@ -4296,7 +4300,7 @@ is exactly `\texttt{SyncDiffQuad}_{\tau}`. ∎
 ### Audit Note PBR.10u24r (the frozen directional-shape packet is likewise a localization refinement of the geometric `PTC-Shape.A` slice)
 
 The frozen shape packet `\texttt{FrozenShapeDirLoc}_{\mu,p}` from
-`(PBR.10u24g6)` should be read the same way.
+`(PBR.10u24g6)` is read the same way.
 
 At the geometric level, `PTC-Shape.A` already supplies the frozen directional
 quadratic control
@@ -4323,8 +4327,9 @@ mechanism.
 
 In particular, if one later permits global scalar smallness rather than
 support-localized `L^p` packaging, then pointwise convergence from
-`PTC-Shape.A` together with the bound `(PBR.10u24r2)` would give frozen
-`L^p(d\mu_J^{pair})` smallness by dominated convergence.
+`PTC-Shape.A` together with the bound `(PBR.10u24r2)` gives frozen
+`L^p(d\mu_J^{pair})` smallness by dominated convergence under that relaxed
+packaging.
 
 ### Corollary PBR.10u25 (the frozen Cauchy-Green gap floor is already a slice of `CGR.A`)
 
@@ -5172,7 +5177,7 @@ Equivalently,
 ```
 
 So on the weighted exact splice, the raw variation source already has a direct
-square bypass and does not have to pass through the bad-set/`L^p` localization
+square bypass and does not pass through the bad-set/`L^p` localization
 packet `\texttt{VarWeightedLoc}_{\mu,p}`.
 
 ### Corollary PBR.10u34k (adding the common persistence amplitude gives a direct normalized square bypass for the transported-strain variation term)
@@ -6063,10 +6068,11 @@ where `PTC-Lin.A` is the pair-linearization packet and `PTC-Shape.A` is the
 selector-shape degree-2 isotropy theorem already isolated in the companion
 projector-construction notes.
 
-Under the standard selector-scale realization `\xi_{ab}=b-a` or
-`\xi_{ab}=(b-a)/\ell_J`, the active-pair scale packet already forces bounded
-collar support for `\xi_{ab}`. So the linearization packet sharpens further to
-the selector-good differentiability-exceptional-set theorem isolated in
+Under the explicit selector-scale realizations `\xi_{ab}=b-a` or
+`\xi_{ab}=(b-a)/\ell_J`, together with the active-pair scale packet
+`(PTCL.3aj)`, the pair variable has bounded collar support for `\xi_{ab}`. So
+the linearization packet sharpens further to the selector-good
+differentiability-exceptional-set theorem isolated in
 `PTCL.I`, with `TPS.4u` as one exact sufficient realization of that step, and
 the measurable-derivative descendant can be read more sharply as
 
@@ -6168,7 +6174,7 @@ with `FrozenLinLoc_{\mu,p}` itself reduced by
 with `FrozenDiffPriceLoc_{\mu,p/2}` itself reduced by
 `FrozenTolLoc_{\mu,p} + FrozenDiffWeightLoc_{\mu,p/2}` from
 `(PBR.10u24i7)`,
-and on the standard selector-scale branch with
+and under `(PTCL.3ai)` plus `(PTCL.3aj)` with the uniform frozen collar bound,
 `FrozenDiffWeightLoc_{\mu,p/2}` itself reduced by
 `PTCL.H + FrozenDiffMeasLoc_{\mu,p/2}` from `(PBR.10u24j8)`,
 with one stronger synchronized-modulus realization of
@@ -6223,13 +6229,14 @@ with one stronger uniform-floor realization of that ratio packet given by
 `\sup K_J^{coc} + \inf g_0` from `(PBR.10u32g4)`, and
 `WeightedBadSet + RH_\nu` from `(PBR.10v5)` treated only as exact sufficient
 realizations of `BootSquare`, not as additional branch primitives. Under the
-standard selector-scale coordinate choice, the real live linearization burden
-inside this splice splits into the geometric packet
+selector-scale coordinate choice `(PTCL.3ai)` plus the active-pair scale packet
+`(PTCL.3aj)`, the real live linearization burden inside this splice splits into
+the geometric packet
 `FrozenDiffMeasLoc_{\mu,p/2}` and the auxiliary scalar tolerance packet
 `FrozenTolLoc_{\mu,p}` by `(PBR.10u24k2)`, with `DiffExc` still the upstream
 source of the geometric side. A stronger sufficient realization of the
 geometric packet is the synchronized quadratic-threshold theorem
-`SyncDiffQuad_{\tau}` from `(PBR.10u24n6)`, itself forced by the
+`SyncDiffQuad_{\tau}` from `(PBR.10u24n6)`, itself implied by the
 threshold-vs-linearization synchronization law `(PBR.10u24q4)`. On the
 Cauchy-Green persistence side, the live common strip packet is now
 `CGCommonLoc_{\mu,p}` and the honest residual scalar amplitude wall is
@@ -6264,7 +6271,7 @@ J-dependent good frozen slice by `(PBR.10u20r4)`.
 Combine `(PBR.1)` with `(PBR.10t2)`. The primitive theorem formulation
 `(PBR.10w3)` is just the sharpened reading of `PTC-Lin` and `PTC-Shape`
 already isolated by the companion exact-potential projector notes. The more
-refined standard-selector-scale form `(PBR.10w3')` is exactly Corollary
+refined selector-scale form `(PBR.10w3')` is exactly Corollary
 `PTCL.I`. The last sentence is exactly the sufficient-realization hierarchy
 recorded in `(PBR.10u5)`, `(PBR.10u8e)`, `(PBR.10u11f)`, `(PBR.10u12j)`,
 `(PBR.10u13l)`, `(PBR.10u14i)`, `(PBR.10u15o)`, `(PBR.10u15q)`,

@@ -47,7 +47,7 @@ The lane needs two different graph objects.
 
 This is the wide thinking surface.
 
-It should include:
+It contains:
 
 - the source-grounded four-body route,
 - the theorem-primary current route,
@@ -75,7 +75,7 @@ Canonical surfaces:
 
 This is the narrow theorem-truth surface.
 
-It should include only:
+It contains only:
 
 - the fixed theorem target,
 - the route lock,
@@ -98,7 +98,7 @@ So the correct relationship is:
 }
 ```
 
-The authority projection should be a downstream cut of the exploration graph,
+The authority projection is a downstream cut of the exploration graph,
 not a replacement for it.
 
 ## Layer 0. Theorem target and route lock
@@ -133,7 +133,7 @@ So the correct reading is:
 
 ## Layer 0A. Release and review truth
 
-This sits immediately below the route lock.
+This sits one level below the route lock.
 
 Primary surfaces:
 
@@ -186,8 +186,9 @@ In the lane's own exact source language this is:
 4. `Curvature-Based Regularity`
 
 This layer fixes the classical body jobs.
-It does **not** yet decide the modern coordinate system in which those jobs
-should be carried.
+It leaves the modern coordinate system undecided; any later surface that uses
+modern coordinates must state that coordinate system and prove the descent back
+to the classical theorem surface before it can carry proof force.
 
 ## Layer 2. Theorem-primary current route
 
@@ -239,7 +240,7 @@ Primary surfaces:
 The old four-body program was not merely four isolated themes.
 It was a literal propagated packet with a live survivor.
 
-The modernized packet should therefore be read as:
+The modernized packet is therefore read in this graph as:
 
 ```math
 \bigl(\mathcal P_{\mathrm{mod}}(T),\mathcal E_{\mathrm{live}}^{(n)}\bigr)
@@ -264,7 +265,7 @@ The open target is still of the form
 
 and this has **not** been discharged.
 
-The crucial leading-edge insight is that the same survivor should now be read
+The crucial leading-edge insight is that the same survivor is now tracked
 through three synchronized faces:
 
 1. **Body I face**: unresolved tail leakage / no-escape failure,
@@ -320,7 +321,7 @@ G=AA^\top.
 The key claim here is:
 
 ```text
-NS should be read as geometry-evolving heat,
+this layer reads NS as geometry-evolving heat,
 with the Eulerian derivative tower treated as its visible shadow.
 ```
 
@@ -346,8 +347,8 @@ This layer contributes the heat-language synthesis:
 This does **not** yet close the theorem.
 Its honest current role is:
 
-- explain why torus spectral coercivity and classical viscosity should be read
-  as faces of one deeper heat law,
+- explain why torus spectral coercivity and classical viscosity are read here
+  as candidate faces of one deeper heat law,
 - motivate the deformation-geometry route,
 - but remain subordinate to the same-surface classical theorem discipline.
 
@@ -415,8 +416,8 @@ These surfaces are where the broad exploratory universe actually leaks through:
 - route pivots,
 - blocker captures and route-local objections.
 
-They are exactly the kind of material that should stay visible in an
-exploration graph even when they are not allowed to steer theorem authority.
+They remain visible in the exploration graph as thinking material, while
+theorem authority is still restricted to same-surface theorem-grade promotions.
 
 ## Layer 6. Lagging or stale surfaces
 
@@ -481,7 +482,7 @@ graph TD
 
 ## Folder-wide judgment
 
-The whole NS folder should now be read with this discipline:
+Read the whole NS folder with this discipline:
 
 1. **The source-grounded four-part architecture is still the theorem contract.**
 2. **The release/review stack outranks optimistic generated builder output.**
@@ -492,7 +493,7 @@ The whole NS folder should now be read with this discipline:
    surfaces.**
 6. **The projected-flow / torus / YM material is a real support route, but still
    a sidecar unless promoted same-surface and theorem-grade.**
-7. **Exploration branches should stay visible as thinking material even when they
+7. **Exploration branches remain visible as thinking material even when they
    are not theorem authority.**
 8. **Generated frontier and graph surfaces are currently lagging and must not be
    allowed to overwrite the live theorem reading.**

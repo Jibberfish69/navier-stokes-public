@@ -57,7 +57,7 @@ and
 
 ## Invariance
 
-- invariant under the lane's choice of low/high-frequency decomposition up to harmless collar constants;
+- invariant under the lane's choice of low/high-frequency decomposition up to fixed collar constants;
 - carries only the dangerous-scale tail and its nonlinear transport feed;
 - forgets coarse global energy information already recorded in `Q(t)`.
 

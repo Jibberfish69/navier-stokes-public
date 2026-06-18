@@ -14,8 +14,7 @@ active theorem: OriginalSmoothData=>SourcePulseExclusion.A
 measure form: OriginalSmoothData=>mu_*^sing=0
 ```
 
-The historical zero-frontier report below should not be used as current
-authority.
+The historical zero-frontier report below is not current authority.
 
 ## Target
 

@@ -12,7 +12,8 @@ The finite low-shell ledger inclusion introduces
 \tag{PLP.1}
 ```
 
-This note checks that replacing `\Phi` by `\Phi_{low}` preserves collar absorption statements.
+This note checks that replacing `\Phi` by `\Phi_{low}` preserves collar
+coefficient-margin statements.
 
 ## Monotonicity
 
@@ -43,7 +44,8 @@ A
 \tag{PLP.4}
 ```
 
-with the same viscous absorption constant.
+with the same viscous coefficient `\varepsilon\nu2^{2j}` and the larger
+declared lower-order ledger.
 
 ## Low-shell residual insertion
 

@@ -348,7 +348,7 @@ Indeed, the norm comparison
 \|u\|_{H^s}\le C\|X\|_{H_D^s}
 ```
 
-immediately gives bounded classical continuation norm. Hence
+gives a bounded classical continuation norm. Hence
 
 ```text
 \sup_{t\in[0,T)}\mathcal E_D(X(t))<\infty
