@@ -15,8 +15,8 @@ What it does prove is that the coefficient term appearing in the coefficient-bea
 same-scale edge estimate `(SS^\sharp\text{-}edge)` is already included in the installed weighted carrier
 `\widetilde\Lambda_N^\sharp E_N` on the derivative-weighted spectral route.
 
-So this note kills `(1)` as a **separate barrier-scale burden**, even though it
-does not remove it from the algebra.
+So this note removes `(1)` as a **separate barrier-scale burden**, even though
+the term remains present in the algebra.
 
 ## Setup
 
@@ -116,8 +116,8 @@ C_T
 \tag{9}
 ```
 
-So the same-scale coefficient term in `(SS^\sharp)` is already on the installed
-weighted carrier surface.
+So the same-scale coefficient term in `(SS^\sharp\text{-}edge)` is already on
+the installed weighted carrier surface.
 
 ## Proof
 
