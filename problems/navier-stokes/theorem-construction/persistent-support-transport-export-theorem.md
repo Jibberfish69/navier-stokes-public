@@ -167,7 +167,7 @@ estimate.” It is:
 
 1. prove the selector-localized transport intertwining;
 2. prove the carrier-side viscous-scale operator bound;
-3. show the collar remainder is truly lower-order.
+3. show the collar remainder satisfies the bridge-surface residual bound.
 
 ## Interfaces
 
