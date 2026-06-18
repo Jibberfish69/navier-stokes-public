@@ -356,13 +356,13 @@ $$
 
 ### Proof
 
-From the completed averaged route,
+From the averaged route hypothesis,
 
 $$
 AVG.MAIN.A\Rightarrow End_{NS,\mathrm{avg}}.
 $$
 
-By `READ.COVER`, this averaged endpoint package supplies the uniform positive-scale SCF-good finite cover needed for `Field.Read` and `DTC.Read`. By `READ.END`, the averaged endpoint package plus the readout bridges gives the original pointwise endpoint matrix:
+By `READ.COVER`, this averaged endpoint package supplies the uniform positive-scale SCF-good finite cover needed for `Field.Read` and `DTC.Read`. This is a downstream readout input, not the same-tail `SCFBaseLocalModulus_N` used to admit `Field_{N,r,Q}` into `Field_avg`. By `READ.END`, the averaged endpoint package plus the readout bridges gives the original pointwise endpoint matrix:
 
 $$
 End_{NS,\mathrm{avg}}+READ.COVER+Field.Read+DTC.Read
@@ -416,4 +416,4 @@ positive-scale cover needed for pointwise readout. The old endpoint matrix
 `End_NS` is obtained only at the terminal compatibility stage, together with the
 repaired Part response-margin input.
 
-Thus the promotion audit passes for the averaged-to-pointwise compatibility layer.
+Thus the promotion audit passes for the averaged-to-pointwise compatibility layer after `End_NS_avg` has been obtained. It does not discharge the upstream same-tail `SCFBaseLocalModulus_N` hypothesis.

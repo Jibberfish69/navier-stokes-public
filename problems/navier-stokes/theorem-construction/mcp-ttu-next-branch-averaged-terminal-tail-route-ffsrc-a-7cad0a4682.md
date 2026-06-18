@@ -103,7 +103,7 @@ End_{NS}.
 The TTU list should be rewritten as:
 
 1. Prove or audit `AVG.COVER.A` on terminal approach tails.
-2. Prove `AVG.MAIN.A` from `SCF_base + ATD_m^epsilon + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A`.
+2. Prove `AVG.MAIN.A` from `SCF_base + ATD_m^epsilon + SCFBaseLocalModulus_N + CAVG.J + AVG.RCV.A + AVG.END.A + FFSRC.A`.
 3. Invoke `READ.COVER.noncirc` downstream of `End_NS_avg`.
 4. Invoke `Field.Read` and `DTC.Read` on the fixed finite same-fluid cover.
 5. Apply `READ.END` to recover old `End_NS`.
@@ -126,5 +126,7 @@ This is the first non-pointwise terminal production step that avoids asking `Ori
 ## Boundary
 
 The branch remains typed to averaged objects until `READ.COVER`, `Field.Read`, `DTC.Read`, and `READ.END` are explicitly invoked.
+
+The same-tail `SCFBaseLocalModulus_N` input is upstream of that readout layer.  `READ.COVER` cannot be used to supply it, because `READ.COVER` appears only after `End_NS_avg`.
 
 The proof matrix currently records PCTP.hard as open. This averaged substitution requires a matrix/review update after `AVG.COVER.A`, `AVG.END.A`, and `READ.END` are audited in dependency order.

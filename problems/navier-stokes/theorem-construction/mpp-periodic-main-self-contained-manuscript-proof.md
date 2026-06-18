@@ -270,11 +270,11 @@ beyond `T_*`.
 
 ## Proof of the main theorem
 
-Assume `T_*<infty`. By Lemma 1, the terminal tail is strict averaged-good or `Jump_avg`. On the strict branch, Lemmas 2 and 3 give `DTC.A_avg`. Lemma 5 gives `End_NS_avg`. The `Jump_avg` branch is an averaged endpoint face and is removed by the same averaged endpoint theorem.
+Assume `T_*<infty`, and assume the same-tail `SCFBaseLocalModulus_N` input has been supplied on the admitted terminal tail, or proved from the retained `Field_{N,r,Q}` face. By Lemma 1, the terminal tail is strict averaged-good or `Jump_avg`. On the strict branch, Lemmas 2 and 3 give `DTC.A_avg`. Lemma 5 gives `End_NS_avg`. The `Jump_avg` branch is removed by the averaged endpoint theorem only for positive Field scales carrying that same-tail modulus.
 
-After `End_NS_avg`, Lemma 6 gives pointwise `End_NS`. Lemma 7 reduces the old non-tower first faces to the tower face, and `End_NS` removes the pointwise endpoint faces. Lemma 8 gives the `H^s` continuation contradiction. Hence `T_*` is infinite.
+After `End_NS_avg`, Lemma 6 gives pointwise `End_NS`. Lemma 7 reduces the old non-tower first faces to the tower face, and `End_NS` removes the pointwise endpoint faces. Lemma 8 gives the `H^s` continuation contradiction. Hence this self-contained proof gives global smoothness only under the same-tail modulus hypothesis; without it, the `Jump_avg` Field-face consumption remains open.
 
-Therefore the periodic solution is global and smooth:
+Under that same-tail modulus hypothesis, the periodic solution is global and smooth:
 
 ```math
 u\in C^\infty([0,\infty)\times\mathbb T^3).
