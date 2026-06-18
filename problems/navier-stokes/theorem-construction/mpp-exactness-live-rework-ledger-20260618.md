@@ -6138,6 +6138,65 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Direct Fixed-Nu Euler-NS Kato-Ponce Rework
+
+Old claim being spent:
+
+The authority-referenced note
+`mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md` proved the
+relative energy inequality by saying to use "standard Kato--Ponce commutator
+and product bounds" with `H^s -> W^{1,infty}`.
+
+Exact replacement:
+
+The note now displays the commutator and product estimates used for `s>5/2`:
+
+```text
+||[Lambda^s,a.grad]b||_2
+<= C_s( ||grad a||_infty ||b||_{H^s}
+       + ||a||_{H^s} ||grad b||_infty ),
+```
+
+and
+
+```text
+||a.grad b||_{H^s}
+<= C_s( ||a||_{H^s} ||grad b||_infty
+       + ||a||_infty ||b||_{H^{s+1}} ).
+```
+
+Together with `H^s -> W^{1,infty}`, these give the three exact nonlinear
+pairing bounds:
+
+```text
+|<Lambda^s(u^E.grad w), Lambda^s w>|
+<= C_E(t)||w||_{H^s}^2,
+|<Lambda^s(w.grad u^E), Lambda^s w>|
+<= C_E(t)||w||_{H^s}^2,
+|<Lambda^s(w.grad w), Lambda^s w>|
+<= C_s||w||_{H^s}^3.
+```
+
+The transport cancellation is explicitly
+
+```text
+<u^E.grad Lambda^s w, Lambda^s w> = 0
+```
+
+because `div u^E=0`, and `C_E(t)` is tied to a finite smooth Euler norm such as
+`||u^E(t)||_{H^{s+2}}`.
+
+Downstream consequence:
+
+The Euler-to-Navier--Stokes comparison note still proves only the displayed
+relative energy inequality.  The missing theorem remains the fixed-`nu`
+relative/tower bound; Euler smoothness pays the background coefficient but does
+not close the cubic perturbation term.
+
+Surface edited:
+
+- `theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md`.
+
 ## HFG Damped-Shell Upgrade Repair
 
 Old claim being spent:
