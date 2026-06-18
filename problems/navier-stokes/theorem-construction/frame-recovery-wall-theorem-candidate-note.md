@@ -782,8 +782,8 @@ G\nabla_aA,
 \tag{13u}
 ```
 
-is equivalent, up to uniformly bounded frozen-geometry factors and lower-order
-terms, to the transformed package
+is equivalent, up to uniformly bounded frozen-geometry factors and products
+controlled by the slab envelope, to the transformed package
 
 ```math
 \Theta_1:=H\nabla_xM,
@@ -1049,7 +1049,8 @@ For `\Theta_2`, differentiate `(13zi)` once. After expansion, every term in
 - bounded coefficient `\times\,\nabla_x^3 w`.
 
 The only potentially dangerous geometric term is `\nabla_x^2M`, but `(13zh)`
-rewrites it in terms of `\Theta_2` and lower-order products. Hence
+rewrites it in terms of `\Theta_2` and products bounded by
+`K_*+\Gamma_{j,\sup}^x`. Hence
 
 ```math
 \|\partial_t\Theta_2\|_{H_x^{s-2}}
