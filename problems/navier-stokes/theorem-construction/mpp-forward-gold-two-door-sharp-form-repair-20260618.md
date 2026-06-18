@@ -31,6 +31,11 @@ The same-shadow residence attempt then shows that the actual density/price
 children are `Door1PositiveActiveCarlesonReserve.A`,
 `Door1SourceDensityReverseHolder.A`, and `Door1TerminalTimePriceLedger.A`, with
 the rigidity/artifact branch still live.
+The donor-graph continuation
+`mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md` sharpens
+all of this to the single Door 1 atom `NoFreeTerminalZenoDonorChain.A`: retained
+partners, legal exits, finite donor trees, and preterminal entrance branches are
+paid, and only the infinite terminal Zeno donor chain remains.
 The Door 2 drift attempt reduces `ZeroFluxDriftVisibility.A` to
 `CanonicalGaugeCoercivity.A + ModulationForcingNativeProjection.A +
 NoNeutralModulationLoop.A`.
@@ -316,13 +321,13 @@ failure identifies why finite `L^1_t` mass, weak tethering, rigid-class
 postulates, source-square/Carleson postulates, and local collar costs do not
 close the terminal atom.
 
-The sharp two-door frontier after the Door 1 continuation is:
+The sharp two-door frontier after the donor-graph continuation is:
 
 ```math
 \boxed{
 \Phi_0\ne0:
 \quad
-\text{prove ProjectedLocalPreCauchyResidueIdentity.A.}
+\text{prove NoFreeTerminalZenoDonorChain.A inside TerminalSignedSaturation.A.}
 }
 \tag{TD.19}
 ```
@@ -337,5 +342,7 @@ ZeroFluxLandauClassLiouville.A.}
 \tag{TD.20}
 ```
 
-This is the fixed gold state.  It solves the selector subproblem and the
-zero-flux Liouville consumer, and it leaves exactly two real production bridges.
+This is the fixed gold state.  It solves the selector subproblem, pays the
+finite Door 1 donor graph, and solves the zero-flux Liouville consumer.  The
+remaining Door 1 bridge is the infinite terminal Zeno donor chain; the remaining
+Door 2 bridge is exact Zeno profile production.
