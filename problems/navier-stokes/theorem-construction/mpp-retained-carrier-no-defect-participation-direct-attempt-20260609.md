@@ -75,9 +75,11 @@ Take a terminal approach sequence to the canonical retained packet `Q`.  Pull
 the retained carrier charts back to fixed local coordinates and try to apply
 the compactness package.
 
-The low-frequency Aubin--Lions part is not the problem in isolation.  On fixed
-compact spacetime cylinders, energy and negative-norm time derivative control
-give the usual weak compactness and low-mode compactness.
+The low-frequency Aubin--Lions part is not the problem in isolation.  On each
+fixed compact spacetime cylinder, the energy bound gives weak compactness in
+`L^2_tH^1_x` and weak-* compactness in `L^\infty_tL^2_x`; the negative-norm
+time-derivative bound gives compactness of each fixed low-frequency projection
+in `L^2_{t,x}` by Aubin--Lions.
 
 The proof fails at the retained terminal inputs that Pack does not supply.
 
