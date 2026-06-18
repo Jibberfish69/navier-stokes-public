@@ -80,11 +80,12 @@ It does not share the NS mechanisms behind Part and Field:
 3. one-field coherence is extra regularity, not a primitive Euler class law;
 4. top-viscous absorption and parabolic receiver readout are absent.
 
-Therefore the same proof that closes NS CM must be read in two parts. Wherever
-it proves Pack in the shared flux-volume sense, a Pack failure is a class exit
-for both equations. Wherever it spends viscous participation or one-field
-coherence, it is identifying an Euler nonsmoothness-compatible gap: a way for
-Euler to remain a weak member while failing the stronger NS-style CM layer.
+Therefore the NS CM argument must be split by the exact input it spends.
+Wherever it proves Pack in the shared flux-volume sense, a Pack failure is a
+class exit for both equations. Wherever it spends viscous participation or
+one-field coherence, it is identifying an Euler nonsmoothness-compatible gap: a
+way for Euler to remain a weak member while failing the stronger NS-style CM
+layer.
 
 ## Jet / Slip Pressure Test
 

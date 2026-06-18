@@ -107,9 +107,10 @@ BoundedAncestryClass.A
 SourceResidueLiouville.A.
 ```
 
-As above, failure of `SourcePulseExclusion.A` produces either finite charge or
-an infinite legal source-balanced ancestry chain.  The finite-charge branch is
-excluded by the installed finite reserves.
+The split proved in Conditional Theorem 1 gives: failure of
+`SourcePulseExclusion.A` produces either finite charge or an infinite legal
+source-balanced ancestry chain.  The finite-charge branch is excluded by the
+installed finite reserves.
 
 On the remaining branch, `BoundedAncestryClass.A` extracts an ancient limit in
 a rigid class `\mathcal B` while preserving nonzero inherited active source

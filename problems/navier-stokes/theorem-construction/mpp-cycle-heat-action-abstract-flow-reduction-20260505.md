@@ -313,8 +313,10 @@ LocalizedSkewCurrent.A+CycleHeatAction.A.
 }
 ```
 
-The abstract flow part closes conditionally as above.  Later theorem-grade
-audits sharpen the PDE gates further:
+The abstract flow part closes conditionally through the displayed reduction
+`ParabolicSourceCurrent.A =
+LocalizedSkewCurrent.A+CycleHeatAction.A`.  Later theorem-grade audits sharpen
+the PDE gates further:
 
 ```math
 LocalizedSkewCurrent.A

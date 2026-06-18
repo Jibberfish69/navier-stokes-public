@@ -286,8 +286,9 @@ Those are two faces of the same barrier:
 - **dyadic face**: no runaway leakage into the high-frequency tail;
 - **tower face**: no runaway leakage into higher and higher derivative rungs.
 
-They are not literally the same estimate, but they are the same control
-problem seen in different coordinates.
+They are distinct inequalities, but both ask for one control problem: prevent
+runaway mass from escaping the finite receiver window, either across dyadic
+frequency or across derivative depth.
 
 The torus role is exactly the one recorded in
 [working-notes/torus-derivation-lab-versus-continuum-target.md](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/torus-derivation-lab-versus-continuum-target.md):

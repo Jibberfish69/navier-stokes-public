@@ -470,7 +470,8 @@ The additional mechanism audits
 pressure-vortex, helical/Beltrami, and vorticity-direction-coherence attempts
 as separate routes: each requires a new terminal active-window depletion or
 coherence theorem and therefore reduces back to the same source-pulse target.
-The localized-drain/pack-strain side is the same kind of sufficient mechanism:
+The localized-drain/pack-strain side is another sufficient mechanism for the
+same target:
 `mpp-sourcepulse-localized-drain-packstrain-final-audit-note.md` records that
 `mcp-localized-strain-depletion-target-and-partial-criterion-packstrain-crit.md`
 proves the conditional pack-strain criterion, but it does not derive the

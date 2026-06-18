@@ -288,8 +288,8 @@ for the same terminal schedule, with the enlarged charge then used on both
 sides.
 
 The active-window reduction note proves that these are not genuinely separate
-frontiers. The lower amplitude channel and the upper active-square channel are
-two faces of the same estimate:
+frontiers. Both the lower amplitude channel and the upper active-square channel
+are discharged by the single theorem target
 
 ```math
 AWG.A:
