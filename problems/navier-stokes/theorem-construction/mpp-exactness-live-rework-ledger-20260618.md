@@ -6230,6 +6230,66 @@ Surfaces edited:
 - `theorem-construction/tps-pair-defect-pde-packet.md`;
 - `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
 
+## Carrier Realization Compactness And Galerkin Rework
+
+Old claim being spent:
+
+`carrier-realization-classical-identification.md` used loose phrases including
+"usual compactness simplifications", "standard Galerkin truncations",
+"standard normalization", "standard identification" of the Stokes operator,
+and "standard first-order Sobolev equivalence".  Its global weak-solution proof
+also claimed an `L^2_tH^{-1}` time-derivative bound for the approximation.
+
+Exact replacement:
+
+The pressure recovery now states the actual gauge: zero spatial mean on
+`\mathbb T^3`, or the declared decay/local normalization on `\mathbb R^3`.
+The Stokes identification is explicit:
+
+```text
+\Delta_{D,\omega}=A=-P\Delta,
+<Au,u>_{L^2}=||grad u||_2^2
+```
+
+under the stated periodic or whole-space integration-by-parts hypotheses.  The
+route norm equivalence is now a finite first-order norm-comparison statement
+with fixed constants.
+
+The compactness hypothesis is now the Aubin--Lions--Simon form:
+
+```text
+X_n bounded in L^\infty_t L^2_x cap L^2_t H^1_x,
+partial_t X_n bounded in L^1_t H^{-1}_x
+```
+
+or the stated `L^1+L^2` variant.  On `\mathbb T^3`, compactness gives global
+strong `L^2_tL^2_x` convergence without spatial tail input.  On `\mathbb R^3`,
+it gives local strong convergence, and global convergence requires the
+admissible energy-tail bound.
+
+The approximation proof now separates the compact periodic Galerkin projection
+from the whole-space Friedrichs/Fourier cutoff approximation.  The nonlinear
+term is controlled by
+
+```text
+||B(u_N,u_N)||_{L^1_tH^{-1}_x}
+<= C ||u_N||_{L^2_tH^1_x}^2,
+```
+
+so the derivative bound is `L^1_tH^{-1}+L^2_tH^{-1}`, not a hidden
+`L^2_tH^{-1}` estimate.
+
+Downstream consequence:
+
+The carrier realization can still supply the classical Leray--Hopf existence
+and identification loop, but only with the exact compactness/tail hypotheses
+above.  Whole-space global compactness is not obtained from the Galerkin word or
+from periodic compactness; it requires the stated tail-tightness input.
+
+Surface edited:
+
+- `theorem-construction/carrier-realization-classical-identification.md`.
+
 ## HFG Damped-Shell Upgrade Repair
 
 Old claim being spent:
