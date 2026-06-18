@@ -529,9 +529,11 @@ central_gate:
     - target_id: post-asac-signed-current
       label: Terminal signed-current / weighted lifted defect support after ASAC
       proof_mode: conditional_signed_current_support
-      role: support presentation; ASAC pays active-alignment and positive pair-weight
-        pieces, after which the remaining selected branch is ZenoSourceResidueRigidity.A
-        and hence the installed Zeno Field diagnostic
+      role: support presentation conditional on proved ASAC.A; ASAC pays active-alignment
+        and positive pair-weight pieces only after the packet residual absorbability
+        estimate, TPNI/no-incoming license, and anisotropic backward-uniqueness
+        input are installed. Until then the selected branch remains a conditional
+        ZenoSourceResidueRigidity.A / Field diagnostic, not a paid no-pulse discharge.
     - target_id: native-trilinear-equivalent
       label: Native trilinear / square-reserve equivalent presentations
       proof_mode: equivalent_or_reduced_presentations
