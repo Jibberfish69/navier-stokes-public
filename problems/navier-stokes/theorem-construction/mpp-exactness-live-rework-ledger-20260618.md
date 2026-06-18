@@ -343,6 +343,34 @@ Surface edited:
 
 - `theorem-construction/mcp-positiveremainderdepletion-a-97b674fc40.md`.
 
+## Leray Projection Same-Bound Rework
+
+Old claim being spent:
+
+`d3-commutative-shadow-theorem.md` said the commutator estimate has the "same
+bound" after Leray projection.
+
+Exact replacement:
+
+The note now states the projection step:
+
+```text
+||P_Leray [Delta,u dot nabla]u||_2
+<= ||[Delta,u dot nabla]u||_2
+<= C ||nabla u||_infty ||Delta u||_2,
+```
+
+using that `P_Leray` is an `L^2` orthogonal projection.
+
+Downstream consequence:
+
+The continuation bridge consumes an explicit projected commutator estimate, not
+a hidden "same bound" assertion.
+
+Surface edited:
+
+- `theorem-construction/d3-commutative-shadow-theorem.md`.
+
 ## Kernelized Lifted-Band Scale-Separation Rework
 
 Old loose step:
