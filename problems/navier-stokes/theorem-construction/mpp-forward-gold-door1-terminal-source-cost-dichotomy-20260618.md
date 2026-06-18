@@ -12,6 +12,12 @@ upgrade finite `L1_s` source mass to super-`L1_s` residence; the density/price
 children are `Door1PositiveActiveCarlesonReserve.A`,
 `Door1SourceDensityReverseHolder.A`, and `Door1TerminalTimePriceLedger.A`.
 
+2026-06-18 continuation: `mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md`
+repackages these alternatives under the exact donor-chain atom.  The finite
+donor graph is paid, so the live Door 1 child is
+`NoFreeTerminalZenoDonorChain.A`, with source-control, active-reserve, or
+rigid-Zeno forks.
+
 Role: continue from
 
 ```text
