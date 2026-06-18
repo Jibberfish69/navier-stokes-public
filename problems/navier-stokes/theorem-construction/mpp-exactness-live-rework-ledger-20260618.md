@@ -4450,6 +4450,29 @@ Edited live theorem notes:
 - `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
 - `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
 
+## Class-Membership Contradiction Guardrail Repair
+
+Old loose wording:
+
+- `mpp-class-membership-contradiction-frontier-packet.md` described the
+  first-time class-exit shell as sitting over a "formal compactness-route
+  bridge" and warned against "formal object-law packaging."
+
+Exact replacement:
+
+The note now calls the bridge conditional and removes "formal" from the
+object-law packaging guardrail. The packet still treats these as support or
+packaging layers, not the singular route chain itself.
+
+Downstream consequence:
+
+The class-membership contradiction packet cannot use bridge/package labels as
+proof substitutes for the singular route chain.
+
+Edited live theorem note:
+
+- `theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
