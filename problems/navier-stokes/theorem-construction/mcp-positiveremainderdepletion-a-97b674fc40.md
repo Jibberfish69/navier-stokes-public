@@ -83,27 +83,41 @@ The legal routing gives, after summing over the bounded-overlap family,
 \sum_P\int_{Q(P)}[\mathcal R_P^{legal}+\mathcal R_P^{low}]_+
 \le
 \varepsilon\sum_P\int_{Q(P)}\mathcal D_P
-+rac12\operatorname{Drain}_{parent}(\mathcal F_N)
-+rac12\operatorname{Loss}_{legal}(\mathcal F_N)
++
+\frac12\operatorname{Drain}_{parent}(\mathcal F_N)
++
+\frac12\operatorname{Loss}_{legal}(\mathcal F_N)
 +o_N(1).
 ```
 
-The supplier estimate gives the same bound for the main positive carrier with coefficient `\theta_0` on drain.  Therefore
+For each packet,
+
+```math
+[\mathcal R_P]_+
+\le
+[\mathcal R_P^{main}]_+
++
+[\mathcal R_P^{legal}+\mathcal R_P^{low}]_+.
+```
+
+Adding the supplier assumption to the legal-routing estimate gives the exact
+combined bound
 
 ```math
 \sum_P\int_{Q(P)}[\mathcal R_P]_+
 \le
-(\theta_0+\\varepsilon)\sum_P\int_{Q(P)}\mathcal D_P
-+C\operatorname{Drain}_{parent}(\mathcal F_N)
-+C\operatorname{Loss}_{legal}(\mathcal F_N)
+(\theta_0+\varepsilon)\sum_P\int_{Q(P)}\mathcal D_P
++
+\frac32\operatorname{Drain}_{parent}(\mathcal F_N)
++
+\frac32\operatorname{Loss}_{legal}(\mathcal F_N)
 +o_N(1).
 ```
 
 Choose `\varepsilon>0` so that `\theta:=\theta_0+\varepsilon<1`.  Redefine the
-legal ledgers once by fixed constants,
-`Drain_parent' := C Drain_parent` and `Loss_legal' := C Loss_legal`, before the
-summation over packets.  The constants are independent of `N` and of the
-selected terminal packet.  This proves `PositiveRemainderDepletion.A`
+legal ledgers once by the fixed factor `3/2`, before the summation over
+packets.  The constants are independent of `N` and of the selected terminal
+packet.  This proves `PositiveRemainderDepletion.A`
 conditionally on `TerminalAngularMixing.A`.
 
 ## Obstruction to the unconditional proof
