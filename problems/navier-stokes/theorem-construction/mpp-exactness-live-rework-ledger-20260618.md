@@ -4473,6 +4473,43 @@ Edited live theorem note:
 
 - `theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`.
 
+## TPS Pair-Defect / Spectral Bridge Conditionality Repair
+
+Old loose wording:
+
+- `tps-pair-defect-pde-packet.md` said the large-good-family extraction and
+  `SG.4B` extraction were "already formal," and referred to a "formal
+  observability bridge."
+- `spectral-transversality-cocycle-bridge-to-sg4.md` used "formal discharge,"
+  "formal consequences," and "everything downstream ... genuinely formal" for
+  exact/general branch gluing.
+- `spectral-transversality-in-measure-implies-pd70.md` named `ST.7` as a
+  "formal splice."
+
+Exact replacement:
+
+The pair-defect packet now says the large-good-family extraction is
+algebraic/measurable under its stated good-family hypotheses, the observability
+bridge is conditional, and the `SG.4B` extraction is an algebraic consequence
+of the stated observability/closure hypotheses. The spectral cocycle note now
+calls the exact and general branches conditional discharges: `PD.70` follows
+only once the local windows, overlap/gluing theorem, and comparison-to-top
+projector theorem are installed, and downstream consequences remain
+conditional on those lemmas. The ST.7 splice is labeled conditional.
+
+Downstream consequence:
+
+The TPS/spectral branch cannot spend `PD.70` or `SG.4B` by saying the
+extraction is formal. It must carry the good-family hypotheses, residual
+pairwise closure, spectral/bundle-angle observability, local-window theorem,
+overlap/gluing theorem, and comparison-to-top projector theorem.
+
+Edited live theorem notes:
+
+- `theorem-construction/tps-pair-defect-pde-packet.md`;
+- `theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`;
+- `theorem-construction/spectral-transversality-in-measure-implies-pd70.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
