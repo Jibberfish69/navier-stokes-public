@@ -168,7 +168,7 @@ The finite family lift is no longer part of the open theorem debt.
 The open same-scale burden is therefore reduced to exactly two items:
 
 1. write the explicit upper-boundary family reduction `(1)`;
-2. upgrade the currently available coefficient-bearing model estimate
+2. upgrade the currently available coefficient-bearing edge estimate
    `(SS^\sharp\text{-}model)` to the coefficient-free theorem `(SS-model)`.
 
 Everything after that is finite summation.
