@@ -167,7 +167,7 @@ The sufficient route is compatible:
 Thus the single downstream source theorem is
 
 ```math
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 5. Standalone endpoint matrix theorem
