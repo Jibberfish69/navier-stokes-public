@@ -734,7 +734,8 @@ This is the place where the proof either closes or breaks.
 ### Target statement
 
 Export the deformation-side control into the exact Euclidean fourth-bridge
-packet strongly enough to recover a classical continuation norm:
+packet strongly enough to recover energy-level `H^1` support and expose the
+remaining `H^s`, `s>5/2`, continuation bridge:
 
 ```math
 \mathcal K_r^{Lag}
