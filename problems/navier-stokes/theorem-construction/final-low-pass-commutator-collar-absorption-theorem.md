@@ -71,7 +71,7 @@ C_{HA}C_s(c_0+c_1)
 \tag{FCA.6}
 ```
 
-Assume lower-order terms are measured in `\Phi_*`.
+Assume residual terms are measured in `\Phi_*`.
 
 ## Theorem FCA
 

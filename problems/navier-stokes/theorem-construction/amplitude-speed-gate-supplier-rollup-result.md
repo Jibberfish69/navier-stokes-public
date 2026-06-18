@@ -58,7 +58,9 @@ or the lower-order ledger is extended by
 \tag{ASR.6}
 ```
 
-then the finite low-shell residual is lower order and the amplitude gate holds with `\Phi_* = \Phi` in the first case and `\Phi_* = \Phi_{low}` in the second case.
+then the finite low-shell residual is included in the selected residual
+functional and the amplitude gate holds with `\Phi_* = \Phi` in the first case
+and `\Phi_* = \Phi_{low}` in the second case.
 
 ## Branch 3: preferred weighted branch by plateau containment
 

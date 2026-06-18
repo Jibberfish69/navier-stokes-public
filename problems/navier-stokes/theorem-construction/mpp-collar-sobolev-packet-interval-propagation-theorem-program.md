@@ -941,7 +941,8 @@ and
 ```
 
 So the collar-specific commutators are supported only on the annulus and are
-lower-order relative to the collar packet itself.
+absorbed relative to the collar packet itself by the displayed collar-packet
+bound.
 
 For the higher-rung same-fluid terms, the exact target is to bound
 

@@ -110,7 +110,9 @@ T^{1/2}\|\omega\|_{L^2_tL^2_x}
 
 ## 4. HFG replay
 
-For `j\ge J_*`, the carrier low-mode bound absorbs the diagonal low-strain term. High-high terms are absorbed by the near-diagonal cubic-tail estimate, and collar terms are lower order by the carrier collar estimates. Thus
+For `j\ge J_*`, the carrier low-mode bound absorbs the diagonal low-strain
+term. High-high terms are absorbed by the near-diagonal cubic-tail estimate,
+and collar terms are absorbed by the carrier collar estimates. Thus
 
 ```math
 cascade_j(t)

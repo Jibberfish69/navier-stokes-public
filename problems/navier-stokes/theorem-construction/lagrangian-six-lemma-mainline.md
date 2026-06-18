@@ -583,7 +583,7 @@ commutator debt
 \tag{17c''}
 ```
 
-which must be demoted to the coefficient ledger or lower-order terms. So the
+which must be demoted to the coefficient ledger or residual terms. So the
 true reserve theorem is a source-plus-response-plus-commutator theorem, not a
 source-only localization statement.
 In particular, the abstract weighted Hodge reduction is no longer the live debt

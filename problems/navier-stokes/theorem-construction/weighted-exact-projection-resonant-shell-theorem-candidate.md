@@ -128,7 +128,7 @@ C_\varepsilon\,\mathrm{lot}_j,
 ```
 
 where `D_j` is the shellwise same-depth dissipation ledger and
-`\mathrm{lot}_j` collects admitted coefficient / lower-order terms.
+`\mathrm{lot}_j` collects admitted coefficient / residual terms.
 
 Equivalently, one may phrase the same reserve burden on the shell-summed
 carrier:
@@ -214,9 +214,9 @@ C_G\,2^{-j}.
 ```
 
 Thus a projector replacement error belongs to `b_G^{rem}` only after the
-estimate `(WERS.3a)` has been proved for that term.  The split does not assume
-that every projector error is lower order; it makes lower-order membership a
-checked shell-symbol estimate.
+estimate `(WERS.3a)` has been proved for that term. The split does not assume
+that every projector error is residual-admissible; it makes membership in
+`b_G^{rem}` a checked shell-symbol estimate.
 
 For a proof-ready shell theorem, the honest live burden is sharper than
 `(WERS.3)`: it is one derivative shell-symbol estimate. Namely, for some fixed

@@ -310,7 +310,7 @@ happen:
    ```math
    \mathcal N_W[u]
    \ge
-   c\,\mathcal F[u] - \text{lower-order terms},
+   c\,\mathcal F[u] - \mathcal R_{\mathrm{res}}[u],
    \tag{19}
    ```
    with `\mathcal F` not literally identical to the cubic source.

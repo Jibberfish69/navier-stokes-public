@@ -73,7 +73,7 @@ C_{HA}C_s(c_0+c_1)\le\varepsilon
 \tag{LPCCC.5}
 ```
 
-and lower-order terms are measured in `\Phi_*`, then inserting `LPCCC.3`--`LPCCC.4` into `LPCCC.2` gives
+and residual terms are measured in `\Phi_*`, then inserting `LPCCC.3`--`LPCCC.4` into `LPCCC.2` gives
 
 ```math
 \|\nabla C_{i,j}[X;Y]\|_\infty

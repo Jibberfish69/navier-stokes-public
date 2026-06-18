@@ -43,7 +43,7 @@ For the projected split, write
 | scale barrier | no new coherent holonomy outside the carrier sector | D.1 spectral closure and D.2 leakage control |
 | monotone functional | `\mathcal E_D(X)` and the named `Q(t)` bridge | same-surface accounting and final warrant input |
 | non-Sobolev compactness | carrier localization / no hidden reservoir | D.1 closure and D.3 descent |
-| curvature regularity | curvature insertion is lower-order on the carrier split | D.2 commutator bound and D.3 shadow kill |
+| curvature regularity | curvature insertion satisfies the carrier commutator bound | D.2 commutator bound and D.3 shadow kill |
 | Hodge lifting | `\mathbb P_D`, `\delta_D`, `K_D`, `[\Theta]` | D.1 domain, D.3 readout, D.4 continuation |
 
 ## D-route reading
