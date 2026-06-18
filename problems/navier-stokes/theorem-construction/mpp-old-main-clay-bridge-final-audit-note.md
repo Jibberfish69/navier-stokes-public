@@ -138,7 +138,9 @@ $$
 
 ### Proof
 
-Let `(u,p)` be the maximal classical solution launched from smooth divergence-free data. Standard local well-posedness gives a maximal lifespan
+Let `(u,p)` be the maximal classical solution launched from smooth
+divergence-free data. Periodic `H^s` local well-posedness gives a unique
+classical solution on a maximal lifespan
 
 $$
 [0,T_*).
