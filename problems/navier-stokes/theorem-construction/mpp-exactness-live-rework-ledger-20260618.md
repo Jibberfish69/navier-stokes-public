@@ -3374,6 +3374,46 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-aact-kx-scheduler-seed-obstruction-aact-kx-f4eff31d09.md`.
 
+## Jump Avg SCF Lower-Accumulation Obstruction Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mcp-jump-avg-to-scfbase-charge-lower-accumulation-obstruction-jump-avg-branch-elimination-5bb3fb9613.md`
+  said a "formal obstruction model" is possible.
+
+Exact replacement:
+
+The live surfaces now state the definition-level obstruction:
+
+```math
+Jump_avg(T)
+\quad\text{and}\quad
+\liminf_{n\to\infty}\nu_{SCF}(Q_n)=0
+```
+
+along the selected terminal windows `Q_n`.  Thus terminal good-radius collapse
+can be recorded while the analytic SCF measure has zero terminal lower density
+on the same selected windows.
+
+Proof or remaining burden:
+
+The obstruction is compatible with the present branch definitions.  The missing
+theorem is the component-selection and moving-concentration compactness
+statement forcing radius collapse to spend nonzero `nu_SCF` mass on the same
+selected windows.
+
+Downstream consequence:
+
+Jump_avg lower-accumulation consumers may not infer analytic SCF charge lower
+density from good-radius collapse alone.  They must prove the component-selection
+and moving-concentration compactness bridge.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-jump-avg-to-scfbase-charge-lower-accumulation-obstruction-jump-avg-branch-elimination-5bb3fb9613.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
