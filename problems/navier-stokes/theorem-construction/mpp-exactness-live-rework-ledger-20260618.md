@@ -3925,6 +3925,53 @@ Edited live surfaces:
 
 ## Edited Or Preserved Residues
 
+## Shrinking Shell Model-Bound Rework
+
+Old loose step:
+
+- The retained-family shell row said the shrinking-shell error had a "model
+  bound" and then sent the two model terms to zero.
+
+Exact replacement:
+
+For the finite shell family, choose all inner and outer shell boundary radii
+outside the atom sets of the corresponding finite active radial measures.  For
+the thickness-`h` shell `S_{r,h}^{\pm}`, continuity from above gives
+
+```math
+\eta_{r,\pm}(S_{r,h}^{\pm})\to0,
+\qquad
+\sigma_{r,\pm}(S_{r,h}^{\pm})\to0
+\qquad (h\downarrow0).
+```
+
+Thus
+
+```math
+A_{shell}(h)
+:=
+\sum_{r,\pm}
+\int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}(h)|\,d\mu_j(a)
+\to0,
+```
+
+and the retained-family loss obeys
+
+```math
+\varepsilon_{shell}(h)\le A_{shell}(h)/\theta_{shell}\to0.
+```
+
+Downstream consequence:
+
+The SG.4/TPS retained-family budget may spend the shell row only under the
+finite shell-family, atom-free boundary, and shrinking-thickness hypotheses.
+There is no standalone model estimate.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-seven-loss-budgets-for-sg-4-tps-retained-family-ep-a-b4208cdf26.md`.
+
 Edited: live theorem/proof/manuscript surfaces whose route statements or
 estimates depended on the exactness failures above.
 
