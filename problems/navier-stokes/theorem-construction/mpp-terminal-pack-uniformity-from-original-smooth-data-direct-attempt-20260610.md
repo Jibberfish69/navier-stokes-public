@@ -26,7 +26,7 @@ original smooth datum
 => the Pack_Q / ScaleCriticalTreeCarleson constants stay uniformly bounded up to T_*.
 ```
 
-If this were true, it would supply the missing first-Pack input:
+If this is true, it supplies the missing first-Pack input:
 
 ```text
 OriginalSmoothDataPackSurvival.A:

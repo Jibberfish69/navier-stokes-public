@@ -29,7 +29,7 @@ The desired estimate is:
 \qquad p>1.
 ```
 
-It would imply:
+It implies:
 
 ```math
 \mu_m^{src,+}(B_R\times[-\varepsilon,0])
@@ -123,7 +123,7 @@ active-square/source-control reserve.
 
 ## Parent Inverse Route
 
-A parent reverse-Holder theorem would force boundedly many legal parents to
+A parent reverse-Holder theorem forces boundedly many legal parents to
 carry a fixed fraction of source-parent mass.  The diffuse legal parent model
 keeps normalized positive source mass while spreading over arbitrarily many
 legal predecessors.

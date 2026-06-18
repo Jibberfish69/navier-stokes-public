@@ -285,7 +285,7 @@ Ancestral.NoPulse^{src}:
 ancient source-residue critical limit.}
 ```
 
-Thus the ancestry route would close as
+Thus the ancestry route closes as
 
 ```math
 MSC.Localize^{src}+SourceParent.A+Ancestral.NoPulse^{src}

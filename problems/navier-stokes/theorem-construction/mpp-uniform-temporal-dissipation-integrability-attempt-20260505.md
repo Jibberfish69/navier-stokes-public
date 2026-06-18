@@ -64,13 +64,13 @@ UniformTemporalDissipationIntegrability_p.A:
 \text{for some }p>1.
 ```
 
-This would imply
+This implies
 
 ```math
 \mu_{D,*}(B_R\times\{0\})=0
 ```
 
-and would close the dissipation piece of `TemporalNonAtomicSCF.A`.
+and closes the dissipation piece of `TemporalNonAtomicSCF.A`.
 
 ## Installed input
 

@@ -137,7 +137,7 @@ or direct
 \boxed{ScaleCriticalTreeCarleson.A.}
 ```
 
-The smallest current forward-facing formulation is `PositiveRemainderDepletion.A`, because it attacks the native localized positive remainder directly and would imply same-fluid source residence, temporal non-atomicity, Zeno source-residue rigidity, and the post-ASAC no-free-sink closure.
+The smallest current forward-facing formulation is `PositiveRemainderDepletion.A`, because it attacks the native localized positive remainder directly and implies same-fluid source residence, temporal non-atomicity, Zeno source-residue rigidity, and the post-ASAC no-free-sink closure.
 
 ## Verdict
 

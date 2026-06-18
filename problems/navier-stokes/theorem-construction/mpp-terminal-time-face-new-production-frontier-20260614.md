@@ -48,7 +48,7 @@ admitted Member branch;
 admitted Part/Field exit.
 ```
 
-The remaining gold-side theorem is the child that would remove the exact pulse
+The remaining gold-side theorem is the child that removes the exact pulse
 obstruction.  It is not another generic annular statement.  It is the terminal
 time-face anti-atom or new-production theorem:
 
@@ -175,7 +175,7 @@ Parent inverse control
   returns to ScaleCriticalTreeCarleson.A.
 
 NativeSourceAC.A / PositiveActiveCarlesonReserve.A
-  would close only after the selected native positive source is dominated by a
+  closes only after the selected native positive source is dominated by a
   finite same-window reserve and that reserve has a terminal strip modulus.
   Local energy, finite CKN mass, and soft cubic velocity integrability give
   only L1 terminal-time currency and do not dominate the selected one-sided

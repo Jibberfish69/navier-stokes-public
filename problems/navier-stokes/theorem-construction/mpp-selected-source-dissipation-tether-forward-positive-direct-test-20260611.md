@@ -41,7 +41,7 @@ for the right-hand side:
 }
 ```
 
-Together these would imply `TerminalTimeFaceAntiAtom.A`.
+Together these imply `TerminalTimeFaceAntiAtom.A`.
 
 ## What The Tether Must Do
 

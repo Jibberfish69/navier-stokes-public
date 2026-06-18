@@ -238,7 +238,7 @@ same-fluid active windows.}
 }
 ```
 
-Proving this would close:
+Proving this closes:
 
 ```math
 NativeSourceAC.A

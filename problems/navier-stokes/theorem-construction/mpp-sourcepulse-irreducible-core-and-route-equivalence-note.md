@@ -182,7 +182,7 @@ The conditional assembly is recorded in
 Either package implies `SourcePulseExclusion.A`.
 The two-tower donor slogan is formalized in
 `mpp-two-tower-donor-depletion-formalization-note.md`: a genuine
-`TwoTowerDonorDepletion.A` theorem would imply both
+`TwoTowerDonorDepletion.A` theorem implies both
 `ParentConcentrationOrDiffuseCharge.A` and `BackwardDrainFunctional.A`, but the
 note records that raw energy/local-energy flux bookkeeping does not install the
 required scale-normalized donor reserve.

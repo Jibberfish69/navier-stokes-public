@@ -18,7 +18,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
-This note records the exact theorem atoms that would close the route.  It does
+This note records the exact theorem atoms that close the route.  It does
 not claim those atoms are installed.
 
 ## Installed / Definitional Refinements
