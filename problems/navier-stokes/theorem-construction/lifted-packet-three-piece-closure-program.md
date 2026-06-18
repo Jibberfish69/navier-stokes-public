@@ -203,7 +203,7 @@ What is already available is slightly weaker but still structural:
 So the exact remaining same-scale strengthening is:
 
 ```math
-\text{upgrade the weak model theorem `(SS^\sharp)` to the coefficient-free theorem `(SS)`.}
+\text{upgrade the coefficient-bearing theorem `(SS^\sharp)` to the coefficient-free theorem `(SS)`.}
 \tag{8A}
 ```
 
