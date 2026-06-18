@@ -23,7 +23,7 @@ first-order and zeroth-order terms are controlled once the Carleman parameter
 passes the threshold in `(ELA.5)`. So the lower-order perturb-transfer theorem
 is not an additional independent wall on this branch.
 
-## Proposition `ELA.A` (bounded lower-order terms under a fixed-metric Carleman threshold)
+## Proposition `ELA.A` (bounded coefficient terms under a fixed-metric Carleman threshold)
 
 Fix one retained chart `\Omega_k\times I_k`, and write the backward chart
 operator in the form
