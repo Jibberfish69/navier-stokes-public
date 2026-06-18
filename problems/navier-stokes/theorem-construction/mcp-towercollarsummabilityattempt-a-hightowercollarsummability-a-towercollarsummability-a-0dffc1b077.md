@@ -15,38 +15,88 @@ persistent terminal affine/source core
 
 ## Direct attempt
 
-The existing collar pricing gives a local lower cost for a persistent critical affine/source core on a parabolic clock. Schematically:
+The old loose step was to spend "positive collar cost per window" as if
+positivity alone made a terminal Zeno schedule impossible.  The exact local
+input supplied by
+[mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md)
+has stronger hypotheses and a specific bill.
+
+For a selected terminal window choose
 
 ```math
-\text{collar-cost on window } I_m \ge c_m>0.
+B_{r_m}(x_m)\subset B_{R_m}(x_m),\qquad
+I_{r_m}=(t_m-r_m^2/\nu,t_m),
 ```
 
-This is useful but not enough. To rule out a terminal Zeno schedule, one must sum over infinitely many shrinking windows:
+and a measurable active subset `G_m subset I_{r_m}`.  Assume
 
 ```math
-\sum_m c_m = \infty
+\int_{B_{r_m}(x_m)}|\nabla u(x,t)|^2\,dx
+\ge
+\eta_m\nu^2/r_m
+\qquad (t\in G_m),
 ```
-
-while also having a finite global tower/collar budget:
 
 ```math
-\sum_m \text{available tower budget on } I_m < \infty.
+|G_m|\ge \theta_m r_m^2/\nu,
+\qquad
+\sup_{t\in G_m}\int_{B_{R_m}(x_m)}|u(x,t)|^2\,dx
+\le E_{R,m},
 ```
 
-The problem is that the installed local collar lower bound degenerates with the shrinking parabolic scales unless a uniform scale-normalized tower budget or lower bound is supplied. A Zeno schedule can place positive source mass on windows whose costs are individually positive but summably small.
+and the absorption condition
+
+```math
+\eta_m\nu^2/r_m
+\ge
+2C R_m^{-2}E_{R,m}.
+```
+
+Then the exact parent/collar bill is
+
+```math
+B_m
+:=
+\nu\int_{G_m}\int_{B_{R_m}(x_m)}|\nabla^2 u|^2\,dx\,dt
+\ge
+c\,\theta_m\eta_m^2\nu^4/E_{R,m}.
+```
+
+So a tower/collar contradiction needs two separate facts for a separated or
+bounded-overlap terminal family:
+
+```math
+\sum_m B_m
+\le C_{\mathrm{HT}}<\infty,
+\tag{HT-budget}
+```
+
+and
+
+```math
+\sum_m \theta_m\eta_m^2/E_{R,m}
+=\infty.
+\tag{non-summable-collar}
+```
+
+The installed affine/collar estimate proves only the individual lower bound for
+`B_m` under the displayed hypotheses. It does not supply `(HT-budget)`, and it
+does not force `(non-summable-collar)`. A Zeno schedule can still place retained
+source mass on windows whose exact collar bills are positive but summable.
 
 ## Failure point
 
 The proof needs one of:
 
 ```text
-uniform lower collar cost per retained terminal source packet;
-scale-normalized tower budget that makes the costs non-summable;
-finite global high-tower/enstrophy-production budget with matching lower bound;
-Carleson packing of terminal source windows tied to the collar cost.
+uniform lower bound on theta_m eta_m^2/E_{R,m} for retained terminal packets;
+scale-normalized tower budget that makes sum_m B_m non-summable;
+finite global high-tower/enstrophy-production budget controlling the same B_m;
+Carleson packing of terminal source windows tied to the displayed collar bill.
 ```
 
-The installed affine/collar estimate prices the frozen-core escape locally, but it does not by itself supply the summable global contradiction.
+The installed affine/collar estimate prices the frozen-core escape locally, but
+it does not by itself supply the global contradiction.
 
 ## Verdict
 
