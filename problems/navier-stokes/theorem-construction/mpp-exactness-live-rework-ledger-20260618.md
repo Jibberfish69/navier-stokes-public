@@ -1949,6 +1949,10 @@ Old loose step:
 - `theorem-construction/mpp-r3-hs-tail-control-obstruction.md` similarly used a
   formal localized identity and summarized the missing input as
   continuation-grade control.
+- `theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md`
+  said smoothing would need "an integrable coefficient such as" the BKM
+  integral, without tying that sentence back to the displayed Gronwall
+  inequality as the exact coefficient condition.
 - The reader appendix's R3 exterior high-order subsection had the identity and
   fragments naming annular and pressure records, but it did not display the
   exact inequality tying those records to the Gronwall coefficient.
@@ -2033,6 +2037,7 @@ Edited live surfaces:
 - `theorem-construction/mpp-r3-tail-hs-face-elimination-attempt.md`;
 - `theorem-construction/mpp-r3-hs-tail-control-obstruction.md`;
 - `theorem-construction/mpp-r3-exterior-high-order-dissipation-obstruction.md`;
+- `theorem-construction/mpp-r3-noncircular-exterior-high-order-ledger-obstruction.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 ## Edited Or Preserved Residues
