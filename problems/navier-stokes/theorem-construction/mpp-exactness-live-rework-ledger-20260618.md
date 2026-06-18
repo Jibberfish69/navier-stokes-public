@@ -1856,6 +1856,50 @@ Edited live surfaces:
 - `theorem-construction/mpp-lci-a-fixed-increment-pressure-response-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Frozen Cap-Pair Finite-Overlap Square-Function Rework
+
+Old loose step:
+
+- `theorem-construction/frozen-cap-pair-bilinear-form-lemma.md` said the capwise
+  pieces satisfy the "standard finite-overlap square-function bound" and used
+  that to make `(FCP.3o)` automatic.
+- The reader appendix summarized the algebraic reduction without naming the
+  exact square-function payment behind the capwise summation.
+
+Exact replacement:
+
+The theorem note now states the multiplier-overlap hypothesis on the active
+shell:
+
+```math
+\sum_\omega |\psi_{j,\omega}(\xi)|^2\le C_{\mathrm{fo}},
+\tag{FCP-sq0}
+```
+
+and proves the capwise square-function step by Plancherel:
+
+```math
+\sum_\omega \|\Delta_{j,\omega}h_j\|_{L^2_a}^2
+=
+\int
+\sum_\omega |\psi_{j,\omega}(\xi)|^2|\widehat h_j(\xi)|^2\,d\xi
+\le
+C_{\mathrm{fo}}\|h_j\|_{L^2_a}^2.
+```
+
+The same-depth comparison is now a separate displayed hypothesis
+`(FCP-sq'')`.
+
+Downstream consequence: `(FCP.3o)` is automatic only after the exact
+multiplier-overlap/Plancherel square-function bound and same-depth comparison
+are both available. The remaining live local debts are carrier geometry,
+packet-freezing remainder control, and the pairwise frozen cap bound.
+
+Edited live surfaces:
+
+- `theorem-construction/frozen-cap-pair-bilinear-form-lemma.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
