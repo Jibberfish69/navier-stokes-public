@@ -82,6 +82,22 @@ linear span of the following scalarized pairing objects:
 
 This is a reduction class, not a new theorem target.
 
+The phrase "modulo admissible collar errors" is structural until a quantitative
+residual bound is supplied.  A proof-spending collar residual on an interval `I`
+must be named as `\mathcal E_N^{collar}` and satisfy a bound of the form
+
+```math
+\int_I |\mathcal E_N^{collar}(t)|\,dt
+\le
+\varepsilon_{collar}^{res}\nu\int_I D_N(t)\,dt
++
+C_{collar,*}^{res}2^{-2\delta N}.
+\tag{collar-res}
+```
+
+Without `(collar-res)`, the reduction only says where the leftover packet lives;
+it does not absorb the leftover packet into the dissipative budget.
+
 ## Structural identity
 
 From the signed scale-descent identity,
