@@ -3029,6 +3029,62 @@ Edited live surface:
 
 - `theorem-construction/mpp-transported-material-packet-bridge-lemma.md`.
 
+## Anisotropic Backward-Uniqueness Transform Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said the change of
+  variables was a "formal transform" that removed vector stretching and that
+  the divergence/pressure structure "may become" anisotropic.
+- `theorem-construction/mpp-active-strain-alignment-cost-target-note-20260504.md`
+  called the transformed equation an anisotropic heat--Stokes equation but did
+  not state the transformed divergence constraint before discussing
+  no-incoming decay.
+
+Exact replacement:
+
+For frozen symmetric trace-free strain \(S\), the transform is
+
+```math
+E(s)=e^{sS},\qquad z=E(s)^{-1}y,\qquad
+w(z,s)=E(s)v(E(s)z,s),
+```
+
+and the finite-slab transformed system is
+
+```math
+\partial_s w+\nabla_z q
+=\nu\nabla_z\cdot(A(s)\nabla_z w),
+\qquad
+\nabla_z\cdot(A(s)w)=0,
+```
+
+with
+
+```math
+A(s)=E(s)^{-1}E(s)^{-T}=e^{-sS}e^{-sS^T}.
+```
+
+Proof or remaining burden:
+
+The transformed finite-slab system is exact under the frozen-strain transform.
+The direct backward-uniqueness route remains conditional on a global
+no-incoming flux/weighted boundary condition and an anisotropic Stokes
+Carleman theorem for the displayed system.  Local compact decay on fixed balls
+is explicitly insufficient on the ancient half-line.
+
+Downstream consequence:
+
+The ASAC/TPNI reserve route may not spend scalar heat backward uniqueness,
+standard Euclidean divergence, or a merely formal stretching-removal heuristic.
+It can spend only the exact anisotropic Stokes finite-slab transform plus the
+still-open global no-incoming and Carleman inputs.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-active-strain-alignment-cost-target-note-20260504.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
