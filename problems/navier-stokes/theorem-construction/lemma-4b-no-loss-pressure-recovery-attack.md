@@ -911,7 +911,7 @@ So Route A reduces to one sharper subquestion:
 \text{does }
 \int AG\nabla_aU_\alpha:G^{-1}\nabla_aW_\alpha^{test}\,da
 \text{ admit a same-depth reduction to }
-\mathcal D_r^{Lag}\text{ plus lower-order terms?}
+\mathcal D_r^{Lag}\text{ plus explicitly bounded remainder terms?}
 }
 \tag{23ai.5}
 ```

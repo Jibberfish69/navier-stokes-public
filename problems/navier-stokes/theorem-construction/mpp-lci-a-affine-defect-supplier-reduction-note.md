@@ -191,7 +191,7 @@ On the current route, those two terms remain separate:
    ledger when that ledger is available;
 2. the first-rung viscous center ledger
    `\mathfrak K_{1,\rho,\psi}^{visc,ctr}` remains an explicit same-fluid
-   supplier on this lower-order surface.
+   supplier on this first-rung coefficient surface.
 
 So the honest remaining first-rung supplier theorem is no longer the opaque
 package phrase “prove `AFD.A`.” It is the explicit pair

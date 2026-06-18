@@ -131,8 +131,8 @@ by incompressibility;
 F^{pressure}
 ```
 
-is lower order, pressure-normalized, or absorbable into the local dissipation /
-endpoint residue ledger;
+must be pressure-normalized or bounded by the local dissipation / endpoint
+residue ledger;
 
 ```math
 F^{comm}

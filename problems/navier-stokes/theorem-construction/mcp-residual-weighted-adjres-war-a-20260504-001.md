@@ -167,7 +167,8 @@ are part of the cutoff derivative ledger. Hence
 \le \eta D_j(t)+C_\eta Loss^{legal}_{cut}(t).
 ```
 
-The legal cutoff loss is lower-order on the terminal packet family and sums to `o_N(1)` after the packet selection. Thus
+The legal cutoff loss is part of the terminal packet loss ledger and sums to
+`o_N(1)` after the packet selection. Thus
 
 ```math
 \|R^{cut}\|_{L_t^2H_x^{-1}}^2

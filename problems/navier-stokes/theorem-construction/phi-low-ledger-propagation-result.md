@@ -82,7 +82,9 @@ The viscous absorption window is unchanged.
 
 ## Theorem PLP
 
-Replacing `\Phi` by `\Phi_{low}` preserves every lower-order collar absorption statement whose lower-order terms enter additively and whose viscous term has already been absorbed. The replacement changes only the lower-order constant:
+Replacing `\Phi` by `\Phi_{low}` preserves every collar absorption statement
+whose residual terms enter additively and whose viscous term has already been
+absorbed. The replacement changes only the residual constant:
 
 ```math
 C_\varepsilon

@@ -207,7 +207,8 @@ C_{A,M}C_A(C_s\kappa_T+\kappa_R)\le c_1.
 
 3. Loss size: the collar multiplier costs one explicit factor `2^j`, exactly matching the amplitude scale `\nu2^j` from the selector strain proof.
 
-4. Lower-order readout: the term `\Phi(\mathcal E_D(X))` remains explicit and enters the collar estimate as the permitted lower-order contribution.
+4. Residual readout: the term `\Phi(\mathcal E_D(X))` remains explicit and
+   enters the collar estimate as the permitted residual contribution.
 
 ## Boundary
 
