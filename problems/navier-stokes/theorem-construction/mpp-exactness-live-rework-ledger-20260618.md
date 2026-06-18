@@ -3274,6 +3274,52 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## D.2 Energy Identity Wording Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said the "formal energy
+  identity" leaves two nonlinear terms.
+
+Exact replacement:
+
+The appendix now names it simply as the energy identity and immediately
+displays the two terms
+
+```math
+\mathcal N_1(X):=
+2\langle \Delta_{D,\omega}X,\mathbb P_DN_D(X)\rangle,
+\qquad
+\mathcal N_2(X):=
+2\langle \Omega_D(X),
+[\nabla_{D,\omega},\mathbb P_DN_D(X)]\rangle.
+```
+
+The proof force is the displayed leakage estimate leading to
+
+```math
+|\mathcal N_1(X)|+|\mathcal N_2(X)|
+\le
+\varepsilon\mathcal D_D(X)+C_\varepsilon\mathcal E_D(X),
+\qquad
+\varepsilon<c_D/2.
+```
+
+Proof or remaining burden:
+
+The nonlinear D.2 hinge is paid by the carrier-leakage completion and the
+coercive margin shown in the appendix.  No "formal" label is used as proof
+force.
+
+Downstream consequence:
+
+D.2 consumers may cite the displayed nonlinear estimate and retained coercive
+margin, not a formal-energy shorthand.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
