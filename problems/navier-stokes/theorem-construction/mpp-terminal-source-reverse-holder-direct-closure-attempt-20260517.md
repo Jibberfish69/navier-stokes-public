@@ -24,7 +24,8 @@ A weaker usable form is the anti-atom estimate
 \qquad \omega_R(\varepsilon)\to0.
 ```
 
-This would imply temporal non-atomicity of the source residue at the terminal face.
+The exact consequence is temporal non-atomicity of the source residue at the
+terminal face.
 
 ## 1. Finite dissipation test
 

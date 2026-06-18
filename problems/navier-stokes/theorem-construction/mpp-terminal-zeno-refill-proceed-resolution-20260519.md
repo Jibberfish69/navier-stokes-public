@@ -51,7 +51,7 @@ It isolates the missing theorem:
 ```
 
 The installed source ledgers give only local `L^1_t` mass. They permit the
-terminal-layer model
+endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s),
@@ -182,7 +182,7 @@ PressureTimeFaceSpread.A,
 BASACLocalEnergyTraceNoPositiveJump.A.
 ```
 
-Any one of these would supply the missing temporal thickness, reserve, or rigid
+Any one of these supplies the missing temporal thickness, reserve, or rigid
 class needed to kill the terminal Zeno refill as a forward supplier.
 
 ## 5. Verdict

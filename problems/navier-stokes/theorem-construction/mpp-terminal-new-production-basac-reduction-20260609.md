@@ -24,7 +24,7 @@ TerminalNewProductionTheorem_{B_ASAC}.A
 
 meaning: produce one genuine mechanism that rules out or pays the terminal
 native positive source atom inside `B_ASAC^{closed,min}`. The live atom has
-terminal model:
+endpoint time-marginal witness:
 
 ```math
 d\mu_m^{src,+}(y,s)
@@ -54,7 +54,7 @@ Exit(Q):=not Member(Q).
 
 ## Door 1: Temporal Integrability / Reverse Holder
 
-The useful theorem would be:
+The useful exact theorem is:
 
 ```text
 UniformTemporalSourceIntegrability_{p,B_ASAC}.A
@@ -84,7 +84,7 @@ for every `p>1`. The current `B_ASAC` clauses allow this profile.
 
 ## Door 2: Active-Square / Square-Source Charge
 
-The useful theorem would be:
+The useful exact theorem is:
 
 ```text
 PositiveActiveCarlesonReserve.A / SquareSourceEstimate.A.
@@ -102,11 +102,11 @@ It does not prove `ActiveShellSourceNormalize.A` from original smooth data or
 from the current `B_ASAC` branch.
 
 The fixed-shell amplitude obstruction is decisive for the universal
-square-source theorem. For a smooth finite-mode divergence-free profile with
-nonzero shell flux, scaling by amplitude `A` gives:
+square-source theorem. Let `phi` be a smooth finite-mode divergence-free test
+field with nonzero shell flux. For the family `u_A=A phi`, trilinearity gives:
 
 ```math
-F_j(0;Au_0)=A^3F_j(0;u_0),
+F_j(0;u_A)=A^3F_j(0;\phi),
 ```
 
 so:
@@ -155,7 +155,7 @@ installed. A legal diffuse parent cloud can have:
 
 so every bounded parent subcollection captures vanishing mass. Raw quadratic
 donor ledgers can shrink like `M^{-1}` while the normalized positive source
-feeding remains order one.
+feeding remains bounded below by `c_0>0`.
 
 The strongest proved reduction is:
 

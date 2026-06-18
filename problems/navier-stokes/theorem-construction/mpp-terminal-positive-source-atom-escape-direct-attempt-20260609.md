@@ -77,7 +77,7 @@ ZenoSourceResidueRigidity.A.
 The existing hard-obstruction certificate tested the nearest direct
 mechanisms: residence lower bound, scale-invariant parent charge, transported
 boundary tightness, and local-energy trace anti-atom.  Each fails on the same
-terminal-layer model.  The installed source control is `L_s^1`; it has no
+endpoint time-marginal witness.  The installed source control is `L_s^1`; it has no
 terminal strip modulus.
 
 Thus `TerminalTimeFaceAntiAtom.A` is not installed.

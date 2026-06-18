@@ -248,7 +248,7 @@ TerminalSignedSaturation.A
 ParabolicNoFreeSink.A.
 ```
 
-Together with a genuine heat-edge resistance/coercivity input, this would feed
+Together with a genuine heat-edge resistance/coercivity input, this feeds
 the signed-current route to `ScaleCriticalTreeCarleson.A`.
 
 But this note does not prove the saturation theorem.  The exact obstruction is:

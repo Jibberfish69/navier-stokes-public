@@ -87,7 +87,8 @@ ActiveShellSourceNormalize.A.
 
 That normalization is not supplied by original smoothness or preterminal
 smoothness at moving terminal high shells.  The trilinear shell flux scales
-cubically in amplitude, and its square source scales sextically.  The existing
+cubically by the exact identity \(F_j(Au)=A^3F_j(u)\), and its square source is
+\(A^6|F_j(u)|^2\).  The existing
 data-dependent finite bounds do not become scale-normalized terminal smallness.
 
 Thus the heat-scale square-source route returns to:

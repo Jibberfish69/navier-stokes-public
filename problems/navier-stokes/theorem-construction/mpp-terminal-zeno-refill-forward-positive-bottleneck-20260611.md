@@ -25,9 +25,17 @@ EntranceLeafDecay.A.
 ```
 
 `LocalDonorBalance.A` proves that a donor packet feeds a child only by donor
-drain, legal loss, or refill from its own parents.  `EntranceLeafDecay.A` proves
-that any non-Zeno refill branch reaching a fixed preterminal entrance surface is
-paid by original smooth tail decay.
+drain, legal loss, or refill from its own parents.  `EntranceLeafDecay.A` pays
+any non-Zeno refill branch reaching a fixed preterminal or positive-scale
+entrance by
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
 
 Thus the unpaid forward-positive branch is not ordinary donor balance and not
 the non-Zeno tree.  It is:
@@ -180,7 +188,7 @@ does not assign a fixed cost to each scale-normalized source edge;
 
 has no finite alphabet or installed entropy charge.
 
-The terminal-support exclusion theorem would say:
+The terminal-support exclusion target is:
 
 ```math
 \mu_\ast^{src}(B_R\times\{0\})=0.

@@ -274,8 +274,8 @@ or terminal selection.  Current incompressibility, finite energy, pressure
 recovery, same-fluid transport, finite-band packet bookkeeping, and the
 normalized-adjoint source-drain support do not charge `(TSL.10)`.
 
-Thus a proof of `TerminalSkewLocalizationLedger.A` would itself supply a
-signed-positive depletion theorem for the active source carrier.  It cannot be
+Thus `TerminalSkewLocalizationLedger.A` has the strength of a signed-positive
+depletion theorem for the active source carrier.  It cannot be
 obtained as a bookkeeping corollary of bare skew symmetry.
 
 ## Strongest Valid Reduction

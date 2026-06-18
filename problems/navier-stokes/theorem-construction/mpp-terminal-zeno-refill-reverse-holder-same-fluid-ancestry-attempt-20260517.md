@@ -72,7 +72,7 @@ r_k\downarrow0,
 
 so the heat-time windows form a summable terminal stack. The source marginal can concentrate on the final layer while remaining same-fluid and L1-bounded.
 
-The model marginal
+The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: TerminalPositivePackActiveTimeThickness.A / OriginalSmoothDataPackSurvival.A
   claim_status: not_proved
-  edge_effect: "Tests whether a terminal selected positive Pack source atom must occupy a positive preterminal time interval. It is not proved: current inputs allow zero-thickness terminal concentration unless a selector-stability, no-incoming, backward-uniqueness, or critical-element theorem creates a dwell-time lower bound."
+  edge_effect: "Tests whether a terminal selected positive Pack source atom must occupy a positive preterminal time interval. It is not proved: current inputs allow zero-thickness terminal time-marginal concentration unless a selector-stability, no-incoming, backward-uniqueness, or critical-element theorem creates a dwell-time lower bound."
   downstream_consequence: "The first-Pack wall remains open. Future progress must prove PackProfileSelectorStability.A, PackCriticalElementStability.A, SelectedPositivePackSourceNoAtom.A, or an equivalent theorem producing dwell/thickness or excluding the selected terminal atom. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-selected-positive-pack-source-uniform-integrability-direct-attempt-20260610.md
@@ -24,23 +24,24 @@ a terminal selected positive Pack source atom
 => positive active-time thickness before T_*.
 ```
 
-This would rule out the zero-thickness strip model and give the uniform
-integrability needed for terminal Pack survival.
+This exact dwell-time lower bound rules out the zero-thickness terminal time-marginal obstruction and gives the uniform integrability needed for terminal Pack survival.
 
 # Direct Attempt
 
 The desired implication is a dwell-time theorem. It must say that a positive
 terminal Pack source cannot be born only in the terminal limit.
 
-Current inputs do not give that. The same terminal strip model remains:
+Current inputs do not give that. They still allow nonnegative source-time
+marginals supported in shrinking terminal windows with fixed positive mass. The
+sharp scalar witness is:
 
 ```math
-g_m(s)=m1_{(-1/m,0]}(s).
+g_m(s)=m 1_{(-1/m,0]}(s).
 ```
 
-It has positive total terminal mass and zero limiting time thickness. First-exit
-minimality and same-witness custody identify the object; they do not force the
-mass to occupy a fixed earlier interval.
+It has total mass one and zero limiting time thickness. First-exit minimality
+and same-witness custody identify the object; they do not force the mass to
+occupy a fixed earlier interval.
 
 # Why Existing No-Incoming / Backward-Uniqueness Support Does Not Close It
 
@@ -70,8 +71,8 @@ or ProducedMinimalFirstPackBubbleRigidity.A with a real selected-source input.
 # New Live Criticism
 
 `NS-LIVE-20260609-213`: terminal positive Pack active-time thickness is not
-proved. The selected positive Pack source atom can still be modeled as
-zero-thickness terminal concentration unless a Pack selector-stability,
+proved. The selected positive Pack source atom can still appear as a
+zero-thickness terminal time-marginal concentration unless a Pack selector-stability,
 critical-element, no-atom, or rigid-subclass theorem supplies a dwell-time lower
 bound. The active loop must prove one of those narrower theorems before
 `OriginalSmoothDataPackSurvival.A` can be counted. Keep `pdfs_final` false.

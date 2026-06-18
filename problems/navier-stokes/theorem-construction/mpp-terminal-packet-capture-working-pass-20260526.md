@@ -259,7 +259,7 @@ the selected terminal packet and its finite cover include every obstruction
 component needed for the same-solution H^s continuation readout.
 ```
 
-Otherwise `Field_{N_s,r,Q}` may only prove that one local packet is harmless,
+Otherwise `Field_{N_s,r,Q}` may only prove that one local packet is controlled,
 while the real blowup sits outside the selected record.
 
 ### 3. Pack definition alignment
@@ -323,4 +323,3 @@ desired CM exit result.
 If one of these three atoms turns out impossible, that is an authentic logical
 blocker for the current CM formulation. It should not be hidden by saying
 "terminal subsequence" or "selected packet" more forcefully.
-

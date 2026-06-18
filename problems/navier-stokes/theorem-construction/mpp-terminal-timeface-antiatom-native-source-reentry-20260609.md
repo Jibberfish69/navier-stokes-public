@@ -21,9 +21,9 @@ mu_m^{src,+}(B_R x [-epsilon,0]) <= omega_R(epsilon)+o_m(1),
 omega_R(epsilon) -> 0.
 ```
 
-That modulus would put every produced `B_ASAC` residue into the rigid
-time-face subclass and the existing subclass Liouville theorem would force the
-native source residue to vanish.
+That modulus is the exact terminal anti-atom input needed to put every produced
+`B_ASAC` residue into the rigid time-face subclass.  The existing subclass
+Liouville theorem applies only after this native source modulus is proved.
 
 ## Tempting Route
 
@@ -133,6 +133,6 @@ prove a super-L1 time modulus for the native positive active source residue
 or produce a different explicit Zeno rigid class whose Liouville theorem kills
 that same positive native source measure.
 
-The next proof attack should stay at the native-source level, not at the soft
-cubic velocity marginal level.
-
+The remaining proof attack is native-source level: it must prove the displayed
+strip modulus for the selected one-sided source, not a soft cubic velocity
+marginal estimate.

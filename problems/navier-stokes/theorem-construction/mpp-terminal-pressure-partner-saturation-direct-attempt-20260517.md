@@ -206,7 +206,7 @@ by the original two-path Zeno branch.
 
 The direct tether attempt is recorded in
 `mpp-pressure-lobe-source-tether-direct-attempt-20260517.md`.  It shows that
-the only immediate finite-packet tether uses the localized Leray
+the only finite-packet tether available at this stage uses the localized Leray
 convective-pressure source-current ledger, so the independent pressure route
 would need the limit bridge `PressureSustainResidueToSourceResidue.A` or a new
 noncircular `LocalizedLeraySourceTether.A`.

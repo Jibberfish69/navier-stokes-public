@@ -43,15 +43,16 @@ theorem is missing:
 B_{ASAC}\Longrightarrow B_{ASAC}^{RH}(p).
 ```
 
-The terminal-layer model has unit `L^1_s` mass and divergent `L^p_s` norm for
+The endpoint time-marginal witness has unit `L^1_s` mass and divergent `L^p_s` norm for
 every `p>1`.
 
 ### Branch entropy / donor depletion
 
 `ScaleNormalizedBranchEntropyReserve.A` and `TwoTowerDonorDepletion.A` are not
-installed suppliers. A diffuse legal parent cloud can carry order-one linear
-native positive source while available quadratic donor or residual charges
-scale like `M^{-1}`.
+installed suppliers. For a diffuse legal parent cloud with \(M\) equal parents,
+the normalized linear native positive source is
+\(\sum_{\alpha=1}^{M}M^{-1}=1\), while the available quadratic donor or
+residual charge is \(\sum_{\alpha=1}^{M}M^{-2}=M^{-1}\).
 
 ### Reserve creation / charge ledger
 

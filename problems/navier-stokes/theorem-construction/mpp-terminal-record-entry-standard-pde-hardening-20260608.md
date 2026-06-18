@@ -1,8 +1,8 @@
-# MPP Terminal Record Entry Standard PDE Hardening
+# MPP Terminal Record Entry PDE Hardening
 
 Date: 2026-06-08
 
-Status: terminal-record entry hardened in standard PDE language; generic Clay-closing bridge superseded by the finite-obstruction inventory.
+Status: terminal-record entry hardened in classical PDE language; generic Clay-closing bridge superseded by the finite-obstruction inventory.
 
 ## Claim
 
@@ -32,7 +32,7 @@ This produces a same-solution terminal record:
 (u_0, u, T_*, t_n -> T_*, continuation-readout failure for u(t_n)).
 ```
 
-No internal CM language is needed for this entry step. The record comes directly from the standard PDE formulation of finite maximal classical breakdown.
+No internal CM language is needed for this entry step. The record comes directly from the classical PDE formulation of finite maximal classical breakdown.
 
 ## Consequence For The CM Route
 
@@ -44,7 +44,7 @@ A Clay finite-breakdown allegation can be fed into the CM terminal packet becaus
 2. the same maximal classical solution;
 3. a finite terminal time;
 4. a same-solution preterminal readout sequence approaching that time;
-5. failure of the standard continuation criterion.
+5. failure of the named PDE relaunch criterion on the stated classical surface.
 
 That is enough to remove the referee objection that the CM terminal-entry step depends on internal terminology rather than on the PDE problem statement.
 

@@ -68,7 +68,8 @@ Equivalently,
 \tag{PHNS.3}
 ```
 
-up to harmless tensor contractions.  After localizing and projecting to the
+where the tensor contractions are the fixed index contractions in the
+Hessian/Riesz representation. After localizing and projecting to the
 near band,
 
 ```math
@@ -188,9 +189,11 @@ source conditions already isolated for the native source wall.
 ## 5. Harmonic pressure tail test
 
 The harmonic/localization pressure piece can be written as boundary data on a
-collar.  If the collar flux is small or retained in the legal pressure ledger,
-it is harmless.  If it is not small, it represents off-packet pressure work
-feeding the selected terminal packet.
+collar.  The collar may be discarded only under an exact alternative:
+`|Flux_collar| <= epsilon LegalPressureRecord` at the selected terminal weights,
+or `Flux_collar` is itself a summand retained in the legal pressure ledger.
+If neither alternative holds, it represents off-packet pressure work feeding
+the selected terminal packet.
 
 That off-packet pressure work is not lower than the source wall.  To legalize
 it one needs either:

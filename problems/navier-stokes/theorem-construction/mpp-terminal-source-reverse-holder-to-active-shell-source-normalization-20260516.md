@@ -46,7 +46,9 @@ The next candidate is
 ActiveShellSourceNormalize.A.
 ```
 
-It asks for scale-normalized control of the nonlinear shell source on selected terminal active heat-scale windows, strong enough to yield the square-source estimate and hence super-`L^1` temporal residence.
+It asks for scale-normalized control of the nonlinear shell source on selected
+terminal active heat-scale windows.  The required strength is the square-source
+estimate, which gives super-`L^1` temporal residence.
 
 A model shell balance is
 
@@ -60,7 +62,13 @@ The source term `F_j` is trilinear in shell components.  At fixed shell,
 F_j(Au)=A^3F_j(u).
 ```
 
-Thus `|F_j|^2` scales like `A^6`.  Smooth original data and preterminal smoothness give data-dependent amplitude bounds, while the terminal theorem needs scale-normalized control along moving high shells.  Therefore smoothness alone does not give `ActiveShellSourceNormalize.A`.
+Consequently, for this fixed shell and fixed profile `u`,
+
+```math
+|F_j(Au)|^2=A^6|F_j(u)|^2.
+```
+
+This is an exact homogeneity statement, not a profile estimate.  Smooth original data and preterminal smoothness give data-dependent bounds on `A` over a fixed smooth interval.  `ActiveShellSourceNormalize.A` instead needs a bound uniform on the selected terminal moving high-shell windows after the active-window normalization has been fixed.  That uniform normalized bound is not supplied by smoothness alone.
 
 ## Equivalent signed route
 
@@ -70,7 +78,7 @@ The source normalization route can use Navier-Stokes exchange structure.  Bare d
 J(P\to P')+J(P'\to P)=0.
 ```
 
-After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live object is the true weighted lifted remainder.  A useful theorem would be
+After terminal weights, cutoffs, projectors, and lifted packets are inserted, the live object is the true weighted lifted remainder.  A useful exact theorem is
 
 ```math
 \int_0^T G_N^{lift,\sigma}(t)dt

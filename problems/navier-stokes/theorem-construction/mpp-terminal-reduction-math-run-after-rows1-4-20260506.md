@@ -215,7 +215,8 @@ h_m:=2^mA_m^2
 \tag{18}
 ```
 
-makes the first moment vanish while the square reserve stays order one.
+makes the first moment vanish while the square reserve stays bounded below by
+the fixed value `1`.
 
 This is not a Navier--Stokes counterexample.  It is the exact mathematical
 reason rows 1--4 plus energy do not prove source-wall closure.

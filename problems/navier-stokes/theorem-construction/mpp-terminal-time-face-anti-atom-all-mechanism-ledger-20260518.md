@@ -102,7 +102,10 @@ ScaleSummabilityPenalty.A.
 
 Result: failed from installed scale ledgers.
 
-Reason: natural physical penalties scale like positive powers of `r` and are summable along geometric Zeno refinement. A normalized penalty lacks a finite-energy contradiction unless a scale-breaking theorem supplies the conversion. The missing bridge is one of
+Reason: the displayed scale-penalty model has `Phi(r)=r^alpha` with
+`alpha>0`, and `sum_k Phi(2^{-k}r_0)<infinity` along geometric Zeno
+refinement.  A normalized penalty lacks a finite-energy contradiction unless a
+scale-breaking theorem supplies the conversion. The missing bridge is one of
 
 ```math
 PositiveActiveCarlesonReserve.A,

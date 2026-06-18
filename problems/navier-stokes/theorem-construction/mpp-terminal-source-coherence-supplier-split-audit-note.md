@@ -105,8 +105,8 @@ SignedPositiveBalance.A\ \text{is not installed.}
 
 ## Supplier 3: `LocalPressureStrainDeplete.A`
 
-This would use pressure/strain coupling to deplete positive source production
-on the same terminal active windows.
+The required content of this supplier is pressure/strain coupling that depletes
+positive source production on the same terminal active windows.
 
 The pressure equation supplies elliptic recovery and legal pressure routing.
 It removes trace/gradient artifacts and controls local pressure losses, but the
@@ -131,8 +131,8 @@ LocalPressureStrainDeplete.A\ \text{is not installed.}
 
 ## Supplier 4: `ActiveVorticityCoherence.A`
 
-This would supply a DFD/CKN-type terminal vorticity-direction coherence strong
-enough to deplete the exact weighted active source packet.
+The required content is a DFD/CKN-type terminal vorticity-direction coherence
+strong enough to deplete the exact weighted active source packet.
 
 The audit `mpp-sourcepulse-vorticity-direction-coherence-audit-note.md` records
 the gap: direction coherence can be a depletion mechanism if assumed, but
@@ -150,8 +150,8 @@ ActiveVorticityCoherence.A\ \text{is not installed.}
 
 ## Supplier 5: `AntiBeltramiCarleson.A`
 
-This would force a terminal anti-Beltrami or mixed-helicity defect large enough
-to deplete coherent active source production.
+The required content is a terminal anti-Beltrami or mixed-helicity defect large
+enough to deplete coherent active source production.
 
 The audit `mpp-sourcepulse-beltrami-helical-alignment-audit-note.md` records
 that Beltrami/helical packets are cancellation geometries, not a theorem

@@ -26,7 +26,8 @@ Candidate:
 \boxed{ResidenceLowerBound.A.}
 ```
 
-Each terminal source packet would have a lower residence time proportional to a fixed macroscopic clock.
+The attempted residence theorem asserts a lower residence time proportional to a
+fixed macroscopic clock for each terminal source packet.
 
 Failure: the same-fluid terminal construction permits parabolic residence windows shrinking with the packet scale.  Zeno branches precisely exploit
 
@@ -44,7 +45,8 @@ Candidate:
 \boxed{ScaleInvariantParentChargeQuantum.A.}
 ```
 
-Each terminal refill would cost a fixed quantum of parent source charge, forcing total charge divergence.
+The attempted parent-charge theorem asserts a fixed quantum of parent source
+charge for each terminal refill, forcing total charge divergence.
 
 Failure: Navier-Stokes scaling allows normalized terminal source mass with physical parent charge shrinking by scale.  Diffuse splitting can spread parent mass across many packets.  A fixed quantum requires a new scale-breaking estimate.
 
@@ -56,7 +58,8 @@ Candidate:
 \boxed{TransportedBoundaryTightness.A.}
 ```
 
-Incoming source mass through transported terminal shells would vanish uniformly near the terminal face.
+The attempted transported-shell theorem asserts uniform vanishing of incoming
+source mass near the terminal face.
 
 Failure: boundary tightness is equivalent to a no-incoming-flux or transported anti-atom theorem.  The current B_ASAC tangent class supplies some no-flux survivors only for restricted tangent classes.  It does not exclude general terminal source concentration without a new transported class or a reverse Holder estimate.
 
@@ -70,7 +73,9 @@ Candidate:
 
 The local energy trace across the terminal face would rule out source atoms.
 
-Failure: local energy inequalities allow terminal defect measures.  A stronger trace theorem would need exactly the anti-atom modulus.  This restates the target in local-energy language.
+Failure: local energy inequalities allow terminal defect measures.  The stronger
+trace theorem is exactly the anti-atom modulus.  This restates the target in
+local-energy language.
 
 ## 5. Entropy and branch-complexity variants
 

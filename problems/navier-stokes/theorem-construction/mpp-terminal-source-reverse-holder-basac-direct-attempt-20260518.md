@@ -53,7 +53,7 @@ F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
 \qquad \tau_N\downarrow0.
 ```
 
-The source mass remains order one, while every `L_t^p`, `p>1`, norm blows up.
+The source mass remains one, while every `L_t^p`, `p>1`, norm blows up.
 
 ## 3. Missing B_ASAC theorem
 
@@ -69,7 +69,8 @@ or equivalently
 \boxed{BASACZeroThicknessExclusion.A.}
 ```
 
-It would say that B_ASAC equality geometry forces positive time thickness of native source mass.
+The theorem asserts that B_ASAC equality geometry forces positive time thickness
+of native source mass.
 
 ## 4. Verdict
 

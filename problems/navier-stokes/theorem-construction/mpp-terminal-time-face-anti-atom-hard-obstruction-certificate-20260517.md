@@ -140,7 +140,9 @@ The terminal Zeno source branch is closed conditionally by
 TerminalTimeFaceAntiAtom.A.
 ```
 
-At the present theorem resolution, `TerminalTimeFaceAntiAtom.A` is the hard obstruction. This certificate should be treated as the active closure bottleneck for `source-wall-root-after-reconcile`.
+At the present theorem resolution, `TerminalTimeFaceAntiAtom.A` is the hard
+obstruction. This certificate is the active closure bottleneck for
+`source-wall-root-after-reconcile`.
 
 ## 6. Non-claims
 

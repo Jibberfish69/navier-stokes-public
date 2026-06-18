@@ -64,10 +64,10 @@ installed source-pulse package; coherent active strain/source alignment is a
 possible terminal bad-window geometry until a separate depletion theorem
 removes it.
 
-The signed lifted-remainder route would need cancellation before absolute
-values on the true weighted lifted remainder, plus active-square residual-tail
-control.  Current shell-exchange identities cancel only before terminal
-weights, cutoffs, and positive-part selection.
+The signed lifted-remainder route requires cancellation before absolute values
+on the true weighted lifted remainder, plus active-square residual-tail control.
+Current shell-exchange identities cancel only before terminal weights, cutoffs,
+and positive-part selection.
 
 Same-fluid transport preserves the carrier once selected.  It does not force
 coherence defects to vanish on the selected terminal family.

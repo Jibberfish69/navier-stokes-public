@@ -28,8 +28,9 @@ UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A:
 }
 ```
 
-This would exclude the terminal atom in the `B_ASAC` source-residue class and
-then prove `ZenoResidueLiouville_{B_ASAC}.A`.
+The exact consequence of `TerminalSourceReverseHolder_{B_ASAC}.A` is exclusion
+of the terminal atom in the `B_ASAC` source-residue class, followed by
+`ZenoResidueLiouville_{B_ASAC}.A`.
 
 ## What Is Already Available
 
@@ -60,7 +61,7 @@ retained terminal residue is no longer leaking through the ASAC-paid branch.
 It does not impose a time-spread condition on the remaining native positive
 source measure.
 
-The model marginal
+The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
