@@ -312,6 +312,64 @@ Edited live surface:
 
 - `submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex`.
 
+## Scale-Barrier Critical-Scale Rework
+
+Old loose step:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex` described a "natural
+  proof picture" in which there "should be" a critical scale
+  \(k_{\mathrm{crit}}\) where nonlinear transfer and viscous loss balance, and
+  above which viscosity "should dominate and drive the tail down."
+- The same passage then used the power-law model
+  \(T(k,t)=C_Tk^{-\alpha}\), \(E(k,t)=C_Ek^{-\beta}\) to motivate
+  \(k_{\mathrm{crit}}\).  That was a model-profile calculation, not a proof for
+  an arbitrary terminal spectrum.
+- The adjacent enstrophy estimate was introduced as "the usual estimate."
+
+Exact replacement:
+
+For a cutoff \(K>0\), the live appendix now defines the actual high-frequency
+tail and dominance functional
+
+```math
+Y_{>K}(t):=\int_K^\infty k^2E(k,t)\,dk,
+\qquad
+\mathcal D_K(t):=
+2\nu\int_K^\infty k^4E(k,t)\,dk
+-
+\int_K^\infty k^2T_+(k,t)\,dk,
+```
+
+with \(T_+=\max(T,0)\).  The spectral balance gives the exact implication
+
+```math
+\frac{d}{dt}Y_{>K}(t)\le-\mathcal D_K(t).
+```
+
+The remaining theorem is therefore a tail-dominance statement,
+
+```math
+\mathcal D_K(t)\ge0
+\quad\text{or}\quad
+\int_0^{T_*}(\mathcal D_K(t))_-\,dt<\infty,
+```
+
+with \(K\) and constants tied to the same selected tail.  The power-law
+\(k_{\mathrm{crit}}\) computation is now explicitly only a diagnostic under
+extra profile assumptions.  The enstrophy bound is now named as
+H\"older/Sobolev/interpolation followed by Young, matching the displayed
+inequalities.
+
+Downstream consequence: the scale-barrier body no longer spends a guessed
+critical scale or generic viscosity intuition.  It remains open exactly at the
+high-frequency cascade-control theorem proving the displayed
+\(\mathcal D_K\)-dominance on the same tail used by the compactness or
+continuation argument.
+
+Edited live surface:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
