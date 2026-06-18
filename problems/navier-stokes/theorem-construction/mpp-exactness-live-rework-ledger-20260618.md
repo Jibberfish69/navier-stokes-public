@@ -6138,6 +6138,66 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## HFG Damped-Shell Upgrade Repair
+
+Old claim being spent:
+
+`coefficient-bearing-hfg-variant-conditional.md` said that, after the aggregate
+pointwise absorbable form
+
+```text
+dE_N/dt + c' nu D_N <= C_epsilon R_N,
+```
+
+"the usual damped-shell argument" gives
+
+```text
+sum_{j>=N} 2^{3j/2} ||Delta_j omega||_{L_t^1 L_x^2} < infinity.
+```
+
+The appendix mirror displayed the same HFG conclusion after the aggregate
+inequality without the missing shellwise summation step.
+
+Exact replacement:
+
+The repaired note states that the aggregate inequality gives only
+`sup_t E_N(t)+int D_N < infinity`.  HFG requires a shellwise inequality for
+
+```text
+e_j(t) := ||Delta_j omega(t)||_2^2,
+de_j/dt + alpha nu 2^{2j} e_j <= r_j(t),
+```
+
+together with the HFG-weighted reserve
+
+```text
+sum_{j>=N} 2^{j/2}
+  ( e_j(0) + int_0^T r_j(t) dt )^{1/2} < infinity.
+```
+
+Then integrating the shell inequality and using Cauchy--Schwarz in time gives
+
+```text
+2^{3j/2} ||Delta_j omega||_{L_t^1 L_x^2}
+<= T^{1/2} (alpha nu)^{-1/2} 2^{j/2}
+   ( e_j(0) + int_0^T r_j(t) dt )^{1/2},
+```
+
+and summation gives the high-frequency tail.  The low shells `j<N` are paid
+separately by the energy bound.
+
+Downstream consequence:
+
+The coefficient-bearing HFG branch no longer closes HFG from an aggregate
+`E_N,D_N` absorption estimate.  Any downstream use of this branch must supply
+the shellwise HFG-weighted reserve, or it remains a tail-energy/dissipation
+result rather than a critical Besov-vorticity continuation packet.
+
+Surfaces edited:
+
+- `theorem-construction/coefficient-bearing-hfg-variant-conditional.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## ATD Interior-Bootstrap Standard-Step Repair
 
 Old claim being spent:
