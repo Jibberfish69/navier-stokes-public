@@ -764,16 +764,16 @@ and the completion steps are exactly:
 
 ```math
 \sup_{t<T}E_N(t)<\infty
-\xRightarrow[\text{HF $\to H^1$}]
+\xRightarrow[\text{HF $\to H^1$ energy}]
 {\text{
 [high-frequency-enstrophy-to-h1-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/high-frequency-enstrophy-to-h1-lemma.md)
 }}
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
-\xRightarrow[\text{classical continuation}]
+\xRightarrow[\text{requires }H^s,\ s>5/2,\text{ bridge}]
 {\text{
 [classical-h1-continuation-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-h1-continuation-lemma.md)
 }}
-\text{continuation}.
+\text{continuation only after that bridge is supplied}.
 \tag{19a}
 ```
 
@@ -874,8 +874,9 @@ At mainline level, Lemma 5 is the conditional import
 ```
 
 The stronger same-shape `4\to 1` barrier recertification remains useful as an
-architectural upgrade, but it is **not** needed for the first-singular-time
-contradiction once the Euclidean `H^1` continuation norm is already recovered.
+architectural upgrade. The Euclidean `H^1` energy norm alone is not the
+first-singular-time contradiction; the route still needs the `H^s`, `s>5/2`,
+continuation bridge or an equivalent named criterion.
 
 The new point of `(19d)`-`(19h)` is that the coefficient side of the Euclidean
 fourth-bridge packet is no longer part of the live burden. The only remaining
@@ -1345,7 +1346,8 @@ sharpest honest form as:
 This is the return arrow
 
 ```math
-G\to H^1\to\text{continuation}.
+G\to H^1\text{ energy support}\to
+\text{requires an }H^s,\ s>5/2,\text{ continuation bridge}.
 \tag{20}
 ```
 
@@ -1360,7 +1362,7 @@ barrier verbatim.” It is the weaker but sufficient theorem:
 
 ```math
 \boxed{
-\text{then close continuation through }H^1.
+\text{then close continuation only after an }H^s,\ s>5/2,\text{ bridge is supplied.}
 }
 \tag{20a}
 ```
@@ -1370,15 +1372,15 @@ barrier verbatim.” It is the weaker but sufficient theorem:
 ### Target statement
 
 Boundedness of `\mathcal K_r^{Lag}`, together with Lemma 5 and the bridge
-capsule already built into Lemma 4B, yields a classical continuation norm and
-hence continuation:
+capsule already built into Lemma 4B, yields energy-level support. Continuation
+requires the same-surface `H^s`, `s>5/2`, bridge:
 
 ```math
 \mathcal K_r^{Lag}(T)\ \text{bounded}
 \Longrightarrow
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
 \Longrightarrow
-\text{continuation}.
+\text{requires } \sup_{t<T}\|u(t)\|_{H^s}<\infty,\ s>5/2,\text{ or equivalent control}.
 \tag{21}
 ```
 
@@ -1393,7 +1395,7 @@ Operationally, the handoff is
 \text{controlled short extension and frame window}
 \xRightarrow{(19j)}
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
-\xRightarrow{\text{classical }H^1\text{ continuation}}
+\xRightarrow{\text{additional }H^s,\ s>5/2,\text{ bridge}}
 \text{extension beyond }T.
 }
 \tag{21a}
@@ -1496,13 +1498,13 @@ exact order:
    into the weighted carrier through `(19n4)`, with only local frozen-family
    packaging left on the upper boundary, and the genuine high-high
    side is already local. After that, proposition-level threading through
-   `(19o')` completes the Euclidean fourth bridge. Once that lands, `(19a)` recovers the
-   classical `H^1` continuation norm through `(19a)`, with no derivative
-   mismatch or restart-loss in constants.
+   `(19o')` completes the Euclidean fourth bridge. Once that lands, `(19a)`
+   recovers only the classical `H^1` energy norm; an `H^s`, `s>5/2`, bridge
+   remains necessary for continuation.
 
 4. **Lemma 6 consumes Lemma 5 through the explicit restart handoff `(21a)`.**
    The continuation step must use the bridge capsule, the Euclidean
-   fourth-bridge packet, and the classical `H^1` continuation lemma as one
+   fourth-bridge packet, and the `H^s`, `s>5/2`, relaunch lemma as one
    integrated implication, not as parallel stories.
 
 5. **First-singular-time contradiction is written as one theorem.**
@@ -1572,7 +1574,8 @@ More explicitly, once:
 3. the far-corona theorem `(19n8)` is closed and `(19o')` is threaded so
    that `(19j)` exports the Lagrangian control to the
    exact Euclidean fourth-bridge packet and hence to the classical `H^1`
-   continuation norm,
+   energy norm, with the `H^s`, `s>5/2`, continuation bridge still supplied
+   separately,
 4. and Lemma 6 uses the restart/continuation handoff `(21a)`,
 
 the contradiction theorem is:
