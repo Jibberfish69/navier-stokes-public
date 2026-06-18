@@ -272,8 +272,8 @@ Equation `(16)` says exactly:
 4. the entire live burden is the off-diagonal Leibniz spread over all nontrivial
    derivative splits.
 
-So when the full five-family system is pushed through the same pipeline, the
-output is not a new qualitative term. The output is the exact binomial
+So when the full five-family system is pushed through identities `(12)`--`(16)`,
+the output is not a new qualitative term. The output is the exact binomial
 convolution law for the live burden.
 
 ## Parabolic-order packaging
