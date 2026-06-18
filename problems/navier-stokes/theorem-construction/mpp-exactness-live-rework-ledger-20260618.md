@@ -2247,6 +2247,67 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Appendix Model-Form Second Batch
+
+Old loose step:
+
+- Several appendix passages still introduced exact displayed targets or
+  obstruction identities as "model form": carrier heat law, carrier leakage
+  derivative placement, localized commutator expansion, active-shell shell
+  ledger, whole-space cutoff boundary terms, scale-normalized
+  `\nu_{\mathrm{SCF}}` Carleson control, BASAC transported-cylinder source
+  balance, terminal skew localization, weighted lifted defect Carleson, and the
+  scale-side high-remainder obstruction.
+
+Exact replacement:
+
+Each passage now states the displayed object directly as the identity,
+estimate, target, or obstruction being used. The main exact replacements are:
+
+- scale-normalized terminal windows now require
+
+```math
+\sum_k r_k^{-\alpha}\nu_{\mathrm{SCF}}(Q_k)\le C
+```
+
+or equivalently
+
+```math
+\sum_k \mathrm{SCF}_{\mathrm{normalized}}(Q_k)\le C(E_0,\mathrm{source});
+```
+
+- BASAC diffuse parent flux now uses the exact transported-cylinder source
+  balance with `Err_R` defined as cutoff, transport-coordinate, and localization
+  remainder;
+- terminal skew localization now displays the true endpoint defect
+
+```math
+\Delta_e
+=
+W_PA_P-W_{P^-}A_{P^-}+R_e^{lift/cut}+R_e^{window};
+```
+
+- weighted lifted defect Carleson now displays
+
+```math
+\Delta_e
+=
+(W_P-W_Q)A_e+R_e^{lift}+R_e^{cut/proj}+R_e^{window/off};
+```
+
+- the scale-side high-remainder obstruction now says the naive
+  Cauchy--Schwarz estimate is supercritical and nonclosing, not a target model.
+
+Downstream consequence: the appendix no longer uses "model form" to soften
+which formulas are hypotheses, exact reductions, or failed estimates. The
+remaining burdens are the named source theorems: active-square/source reserve,
+BASAC no-time-face removal, terminal signed saturation, weighted lifted defect
+Carleson, and integrated control of the kernelized high-side carrier.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
