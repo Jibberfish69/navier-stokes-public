@@ -1533,6 +1533,69 @@ Edited live surface:
 
 - `theorem-construction/mcp-residualpair-a-conditional-decomposition-20260504.md`.
 
+## Far-Pressure Annular Summability Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-far-pressure-summability-conditional-reduction-far-pressure-summability-8bbad2f75d.md`
+  said a "standard far-pressure route" uses Calderon--Zygmund decay, remote
+  energy, and annular weight summability.
+- `theorem-construction/mcp-far-pressure-summability-from-weighted-moment-tails-2a49bd8ea7.md`
+  said the far contribution is finite in the admissible range where the annular
+  kernel convolution is summable.
+- `live-theorem-edge.yaml` compressed the downstream pressure far-tail as
+  energy-controlled.
+
+Exact replacement:
+
+The far-pressure supplier now spends the annular kernel bound
+
+```math
+F_k(t)\le C|A_k|^{1/2}
+\sum_{|\ell-k|>2}2^{-3\max\{k,\ell\}}
+\|u(t)\|_{L^2(A_\ell)}^2
+```
+
+and the finite weighted Schur constant
+
+```math
+C_a^{far}:=
+\sup_{\|x\|_{\ell^2}=1}
+\sum_{k,\ell}
+2^{(2a-1)k}|A_k|^{1/2}
+2^{-3\max\{k,\ell\}}
+2^{-ak}2^{-2a\ell}
+|x_k|\,|x_\ell|^2
+<\infty.
+```
+
+With
+
+```math
+M_a(t)=\sum_\ell2^{2a\ell}\|u(t)\|_{L^2(A_\ell)}^2,
+\qquad
+M_a^{3/2}\in L^1(0,T),
+```
+
+the exact far-tail estimate is
+
+```math
+\sum_k2^{(2a-1)k}F_k(t)\|u(t)\|_{L^2(A_k)}
+\le
+C\,C_a^{far}M_a(t)^{3/2}.
+```
+
+Downstream consequence: `PFlux.Supplier` and live-edge far-pressure consumers
+may spend the far pressure tail only through the displayed kernel estimate,
+finite `C_a^{far}`, and the `M_a^{3/2}` time integrability. Weighted energy or
+"standard far pressure" language alone does not close the supplier.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-far-pressure-summability-conditional-reduction-far-pressure-summability-8bbad2f75d.md`;
+- `theorem-construction/mcp-far-pressure-summability-from-weighted-moment-tails-2a49bd8ea7.md`;
+- `live-theorem-edge.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
