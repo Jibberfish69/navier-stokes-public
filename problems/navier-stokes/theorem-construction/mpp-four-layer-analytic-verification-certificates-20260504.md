@@ -9,7 +9,7 @@ This note verifies the analytic estimates invoked by
 certificates:
 
 ```math
-\text{model estimate}
+\text{affine heat kernel estimate}
 \quad
 \text{perturbative estimate}
 \quad
@@ -139,7 +139,7 @@ H_T\varphi_T(t_+)
 \int H_T\mathcal E_T\varphi_T.
 ```
 
-The model estimate controls the first term.  The second term is bounded in the
+The affine heat kernel estimate controls the first term.  The second term is bounded in the
 same packet norm by `C\varepsilon_M\|\varphi_T\|_{packet}`.  Choose `M` so
 `C\varepsilon_M<1/2`.  Absorb to obtain
 
