@@ -892,8 +892,11 @@ The exact feeder map is term-by-term:
 
 1. `(MP.12)` supplies the pressure / flux / strain / cascade / viscous-cutoff
    decomposition pattern to be reproduced one rung higher on the collar;
-2. `(TC.19)`--`(TC.31)` supply the triangular strain/cascade structure that
-   controls `\mathcal S_{N+1,m}^{hi}` and `\mathcal R_{N+1,m}^{hi}`;
+2. `(TC.19)`--`(TC.31)` supply the triangular strain/cascade structure only
+   after the localized tower-closure proof supplies the flux/cutoff bound
+   `(TC.31a)` or its collar analogue; otherwise this line is the exact remaining
+   source-control burden for `\mathcal S_{N+1,m}^{hi}` and
+   `\mathcal R_{N+1,m}^{hi}`;
 3. `(TB.18)`, `(TB.26a)`, and `(TB.28)` supply the only packing-side bridge
    quantities that enter when transported separations are converted back to
    Eulerian collar data;
@@ -970,8 +973,9 @@ More concretely, the source-control target is:
 3. `\mathcal S^{hi}` is bounded by collar `L^\infty` envelopes of the lower
    tower against `\mathcal K_{N+1,m,\rho,\psi}^{\delta}`;
 4. `\mathcal R^{hi}` is bounded by the same triangular rung-split structure as
-   `(TC.19)`--`(TC.31)`, with any transported-separation error entering only
-   through `(TB.18)` / `(TB.28)`.
+   `(TC.19)`--`(TC.31)` only after the collar proof supplies the corresponding
+   flux, cutoff, and transported-separation error bounds, with the
+   transported-separation part entering only through `(TB.18)` / `(TB.28)`.
 
 In short, `CSP.B3` reduces the entire right-hand side of `(CSP.18)` to the
 one-sided inequality
