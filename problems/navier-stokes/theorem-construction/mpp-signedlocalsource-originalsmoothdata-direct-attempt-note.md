@@ -131,7 +131,7 @@ positive/residual reserve for the signed lifted remainder.
 The pressure Poisson law enforces incompressibility and supplies local response
 estimates used downstream.  It does not impose a sign on the active strain
 production or prove active-window Carleson decay.  Importing
-`FFSRC.A=>FCI.5f` here would spend a downstream frozen-family source ledger as
+`Hyp(FFSRC.A)=>FCI.5f` here would spend a downstream frozen-family source ledger as
 if it were a branch-native no-pulse theorem, which is circular.
 
 ## Reduction
