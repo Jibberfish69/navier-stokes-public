@@ -56,7 +56,8 @@ The exhaustion row is
 END.Exh_{avg}:
 \neg CM_{avg}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
 ```
 
 The field row is

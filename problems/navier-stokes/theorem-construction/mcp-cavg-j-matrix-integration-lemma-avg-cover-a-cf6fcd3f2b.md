@@ -50,7 +50,8 @@ The averaged endpoint exhaustion row becomes
 END.Exh_{avg}:
 \neg CM_{avg}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
 ```
 
 The good-region failure of averaged field coherence and the bad-material failure of positive SCF-good scale both enter `Jump_avg`.

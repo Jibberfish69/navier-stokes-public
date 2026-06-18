@@ -43,7 +43,8 @@ CFI.A+End_{NS}\Longrightarrow\text{no finite-time class exit}.
 Assume a first class-exit time. By `END.Exh`, failure of the class witness produces one primitive endpoint face:
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 `Part` removes `Dead`: the installed participation row says an active participation witness cannot terminate as `Dead` while the retained class witness is still propagated.

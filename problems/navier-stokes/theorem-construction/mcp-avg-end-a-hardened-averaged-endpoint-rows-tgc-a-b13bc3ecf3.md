@@ -23,7 +23,8 @@ The averaged exhaustion row is
 
 ```math
 END.Exh_{avg}:\quad
-\neg CM_{avg}\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
+\neg CM_{avg}\Longrightarrow Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
 ```
 
 The averaged field row is

@@ -67,7 +67,8 @@ End_{NS}:=END.Pack\wedge END.Field\wedge END.TowerBound\wedge END.Cross\wedge EN
 `END.Exh` is the endpoint exhaustiveness theorem:
 
 ```math
-\neg CM_{N,r,Q}\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+\neg CM_{N,r,Q}\Longrightarrow Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 The certificate maps are

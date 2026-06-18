@@ -25,7 +25,8 @@ CM_{avg}=Pack\wedge Part\wedge Field_{avg}.
 END.Exh_{avg}:
 \neg CM_{avg}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown_{avg}\vee Jump_{avg}.
 ```
 
 The averaged field row removes `Jump_avg`:
