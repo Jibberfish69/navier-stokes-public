@@ -2939,6 +2939,58 @@ Edited live surface:
 
 - `theorem-construction/mcp-asymptoticstationarityattempt-a-asymptoticstationarity-a-zenocriticalprofileproduction-a-65fa0863d0.md`.
 
+## Transported Material Packet Bridge Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-transported-material-packet-bridge-lemma.md`
+  titled the relative-packing estimate as schematic even though the displayed
+  Cauchy--Young inequality `(TB.28)` is exact.
+- The same note said the fused packet "should satisfy" an inequality of the
+  form `(TB.29)` without stating the exact propagation consequence or the
+  integrability condition on the coefficient.
+
+Exact replacement:
+
+The relative-packing heading now identifies `(TB.28)` as the exact inequality.
+The packet closure target now requires nonnegative quantities
+`J_{N,r,psi}`, `Dtilde_{N,r,psi}`, and `C_{N,r,psi}` satisfying
+
+```text
+d/dt J_{N,r,psi}(t) + 2 nu Dtilde_{N,r,psi}(t)
+<= C_{N,r,psi}(t) J_{N,r,psi}(t),
+```
+
+with
+
+```text
+int_{t0}^{t1} C_{N,r,psi}(s) ds < infinity.
+```
+
+The exact propagation consequence is the displayed Gronwall estimate `(TB.29a)`.
+
+Proof or remaining burden:
+
+The bridge note proves the tower/label-space identities and the exact rung-1
+source term
+
+```text
+Q_{1,r,psi}^{str}(t)
+```
+
+with the upper bound by `Etilde_{1,r,psi}`.  It does not yet construct the
+closed packet pair `(J,C)` with integrable `C`.
+
+Downstream consequence:
+
+The transported-packet branch cannot spend the formal packet inequality as if it
+were already closed.  Downstream use requires the actual construction of
+`J_{N,r,psi}` and `C_{N,r,psi}` and the selected-packet integral bound for `C`.
+
+Edited live surface:
+
+- `theorem-construction/mpp-transported-material-packet-bridge-lemma.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
