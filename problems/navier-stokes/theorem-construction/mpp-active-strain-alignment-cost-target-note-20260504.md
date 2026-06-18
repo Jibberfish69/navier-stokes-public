@@ -315,7 +315,7 @@ z=e^{-sS}y,
 w(z,s)=e^{sS}v(e^{sS}z,s).
 ```
 
-Formally this gives an anisotropic heat--Stokes equation
+The transform gives the anisotropic Stokes equation on each finite slab
 
 ```math
 \partial_s w+\nabla_z q
@@ -329,8 +329,16 @@ with
 A(s)=e^{-sS}e^{-sS^T}.
 ```
 
-On each finite interval `[-R,0]`, this is uniformly parabolic.  The no-incoming
-condition becomes local decay of `w` on compact sets as `s\to-\infty`.
+The divergence constraint is not the Euclidean condition.  It becomes
+
+```math
+\nabla_z\cdot(A(s)w)=0.
+```
+
+On each finite interval `[-R,0]`, `A(s)` is smooth and uniformly elliptic.  The
+no-incoming condition cannot be reduced to local decay of `w` on compact sets as
+`s\to-\infty`; the ancient theorem needs a global no-incoming flux or equivalent
+weighted boundary condition for the transformed anisotropic flow.
 
 The desired analytic theorem is a backward-uniqueness / Carleman statement:
 
@@ -356,11 +364,17 @@ each fixed compact.  A usable form might be a global weighted `L^2` decay, a
 scale-localized high-frequency tail vanishing statement, or a no-flux condition
 on transported backward cylinders inherited from the terminal rescaling.
 
-Second, the change of variables must be written with the correct Stokes/divergence
-structure.  The formal transform removes the vector stretching, but the
-divergence constraint and pressure projection may become anisotropic rather than
-the standard `\nabla_z\cdot w=0` system.  The Carleman theorem must be proved for
-the exact transformed system, not only for the scalar heat surrogate.
+Second, the Carleman theorem must be proved for the exact transformed
+anisotropic Stokes system
+
+```math
+\partial_s w+\nabla_z q=\nu\nabla_z\cdot(A(s)\nabla_z w),
+\qquad
+\nabla_z\cdot(A(s)w)=0,
+```
+
+not for the scalar heat surrogate or for the standard Euclidean divergence
+constraint.
 
 Therefore the sharpened target is:
 
