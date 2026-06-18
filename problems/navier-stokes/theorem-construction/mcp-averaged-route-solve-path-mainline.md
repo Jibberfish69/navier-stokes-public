@@ -242,8 +242,11 @@ FIRP.A0:
 This remains a separate exact branch. The finite increment repair fails because finite frozen increments cannot control fixed-radius Holder seminorms. The main finite-energy solve path therefore proceeds through the averaged route and terminal readout, while the strengthened retained source branch proceeds through
 
 ```math
-FPC.H\Longrightarrow FFPB.A0\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+FPC.H\Longrightarrow FFPB.A0\Longrightarrow
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`.
 
 ## 9. Final solve path
 

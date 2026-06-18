@@ -27,10 +27,11 @@ Resolution: the averaged branch produces `Field_avg`, `DTC.A_avg`, `CFI.A_avg`, 
 Resolution: the final proof uses
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
-The stricter same-depth branch is auxiliary and is not part of the final dependency spine.
+The source hypothesis includes `FCC.C1a`. The stricter same-depth branch is
+auxiliary and is not part of the final dependency spine.
 
 ## Objection 4: endpoint-face definition trick
 

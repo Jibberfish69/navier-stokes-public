@@ -27,8 +27,10 @@ LCI.A_{avg}.
 The strengthened source bridge supplies
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`.
 
 ## Chain
 

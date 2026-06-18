@@ -6,7 +6,7 @@ Status: conditional dependency-order audit passed for the averaged route.
 
 ```math
 AVG.MAIN.A:
-SCF_{base}+ATD_m^\varepsilon+CAVG.J+AVG.RCV.A+AVG.END.A+FFSRC.A
+SCF_{base}+ATD_m^\varepsilon+CAVG.J+AVG.RCV.A+AVG.END.A+\operatorname{Hyp}(FFSRC.A)
 \Longrightarrow
 \text{no averaged finite-time class exit}.
 ```
@@ -38,7 +38,7 @@ LCI.A_{avg}.
 The source supplier enters as
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Then averaged consumers run:
@@ -79,7 +79,8 @@ The dependency order is coherent:
 1. `SCF_base + ATD_m^epsilon` supplies local averaged tower packets.
 2. `AACT.KX` consumes only averaged SCF/tower data and the bad-set exclusion on the good branch.
 3. `AVG.RCV.A` produces `LCI.A_avg` after `DTC.A_avg`.
-4. `FFSRC.A` supplies the source input needed by averaged collar consumers.
+4. `Hyp(FFSRC.A)` supplies the source input needed by averaged collar consumers,
+   including `FCC.C1a`.
 5. `AVG.END.A` consumes `CFI.A_avg` and the averaged endpoint certificates.
 6. `CAVG.J` handles the complement as `Jump_avg`.
 

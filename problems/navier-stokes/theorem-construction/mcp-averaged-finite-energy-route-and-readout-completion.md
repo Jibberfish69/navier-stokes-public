@@ -216,8 +216,10 @@ FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
 is the exact same-depth source branch, while
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
+
+with `FCC.C1a` included in the source hypothesis.
 
 is the strengthened sufficient source branch.
 

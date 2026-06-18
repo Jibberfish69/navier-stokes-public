@@ -5,10 +5,12 @@ Status: conditional strengthened source bridge.
 ## Statement
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
-`FFSRC.A` is the organized stronger sufficient source package. It combines the widened pressure bridge, the finite-family strain/cascade channel, and the cutoff absorption channel.
+`Hyp(FFSRC.A)` is the organized stronger sufficient source package. It
+combines the widened pressure bridge, the finite-family strain/cascade channel,
+and the cutoff absorption channel with the separate cutoff-defect input.
 
 ## Inputs
 
@@ -33,7 +35,7 @@ ordinary interval energy,
 and
 
 ```math
-\mathfrak b_{\psi}^{cut}\in L^1(I).
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I).
 ```
 
 ## Proof
@@ -62,11 +64,13 @@ The frozen-family differential inequality is
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-\left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+\mathcal F_{N,\rho,\psi}^{\varepsilon}
++4\nu\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
-All coefficients on the right are integrable, so Gronwall gives
+The coefficient term and the cutoff-defect term on the right are integrable by
+the stated hypotheses, so Gronwall gives
 
 ```math
 \sup_I\mathcal F_{N,\rho,\psi}^{\varepsilon}<\infty
@@ -85,10 +89,11 @@ The strain/cascade channel then satisfies
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}\in L^1(I).
 ```
 
-`FCC.C1` absorbs the cutoff channel into the viscous ledger plus the cutoff coefficient times the bounded frozen packet aggregate, giving
+`FCC.C1` absorbs the cutoff channel into the viscous ledger plus the exact
+weighted cutoff-defect ledger, and `FCC.C1a` makes that ledger integrable:
 
 ```math
-\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
 ```
 
 The source split is
@@ -108,4 +113,7 @@ which is `FCI.5f`.
 
 ## Boundary
 
-This bridge uses the stronger sufficient source branch `FFSRC.A`. It does not discharge the exact same-depth source branch with pressure wall `FPCR.C` and smaller wall `FIRP.A0`. In the averaged route, `FFSRC.A` is used exactly as the strengthened source supplier.
+This bridge uses the stronger sufficient source branch `Hyp(FFSRC.A)`. It does
+not discharge the exact same-depth source branch with pressure wall `FPCR.C`,
+smaller wall `FIRP.A0`, and cutoff-defect input `FCC.C1a`. In the averaged
+route, `Hyp(FFSRC.A)` is used exactly as the strengthened source supplier.

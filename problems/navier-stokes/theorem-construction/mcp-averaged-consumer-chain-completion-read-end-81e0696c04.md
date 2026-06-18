@@ -25,8 +25,10 @@ LCI.A_{avg}.
 The strengthened source theorem supplies
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`.
 
 The averaged collar consumer applies to the averaged lower-carrier ledger with the source input:
 

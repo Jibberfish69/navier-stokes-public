@@ -5,7 +5,7 @@ Status: conditional strengthened source theorem.
 ## Statement
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 ## Proof
@@ -25,11 +25,13 @@ The frozen-family energy inequality is
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-\left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+\mathcal F_{N,\rho,\psi}^{\varepsilon}
++4\nu\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
-The coefficient is integrable by the widened collar and cutoff hypotheses. Gronwall gives
+The coefficient is integrable by the widened collar hypotheses, and the
+cutoff-defect term is integrable by `FCC.C1a`. Gronwall gives
 
 ```math
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
@@ -43,7 +45,7 @@ The strain/cascade theorem gives
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}\in L^1(I).
 ```
 
-The cutoff theorem gives
+The cutoff theorem plus `FCC.C1a` gives
 
 ```math
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
@@ -66,4 +68,6 @@ which is `FCI.5f`.
 
 ## Boundary
 
-This completion uses the strengthened sufficient source package `FFSRC.A`. The exact same-depth pressure branch remains a separate route when required by stricter bookkeeping.
+This completion uses the strengthened sufficient source package
+`Hyp(FFSRC.A)`, including `FCC.C1a`. The exact same-depth pressure branch
+remains a separate route when required by stricter bookkeeping.

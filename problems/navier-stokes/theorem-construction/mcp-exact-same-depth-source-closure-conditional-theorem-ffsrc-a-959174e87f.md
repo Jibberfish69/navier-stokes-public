@@ -5,7 +5,7 @@ Status: conditional theorem. The condition is `FIRP.A0` for each frozen incremen
 ## Statement
 
 ```math
-FIRP.A0+FSCR.C+FCC.C1
+FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -60,7 +60,7 @@ The pressure-channel reduction then yields
 \mathcal N^{sc}\in L^1(I).
 ```
 
-`FCC.C1` supplies
+`FCC.C1` together with `FCC.C1a` supplies
 
 ```math
 \mathcal N^{cut}\in L^1(I).
@@ -85,5 +85,5 @@ FCI.5f.
 This closes the exact same-depth source branch only conditionally on `FIRP.A0`. Since `FIRP.A0` remains open, the active averaged route continues to use the strengthened source theorem
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```

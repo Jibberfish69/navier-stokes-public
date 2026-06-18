@@ -7,7 +7,7 @@ Status: conditional closure theorem.
 The exact same-depth source branch closes under the pressure wall:
 
 ```math
-FIRP.A0+FSCR.C+FCC.C1
+FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -23,7 +23,7 @@ FIRP.A0.
 Thus the sharpened exact closure statement is
 
 ```math
-WeightedShell.Absorb+FSCR.C+FCC.C1
+WeightedShell.Absorb+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -46,7 +46,7 @@ The frozen-family source ledger splits as
 \mathcal N^{sc}\in L^1(I).
 ```
 
-`FCC.C1` gives
+`FCC.C1` together with `FCC.C1a` gives
 
 ```math
 \mathcal N^{cut}\in L^1(I).
@@ -85,5 +85,5 @@ WeightedShell.Absorb.
 The active averaged proof may continue using the already closed strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
