@@ -184,6 +184,7 @@ must become unbounded along the terminal approach.  The low part obeys
 
 ```math
 \sum_{j<N}2^{2sj}\|\Delta_j u(t)\|_2^2
+\le
 C_{N,s}\|u(t)\|_2^2.
 ```
 
