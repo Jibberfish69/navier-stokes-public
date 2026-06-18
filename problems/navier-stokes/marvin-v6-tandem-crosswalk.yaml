@@ -49,7 +49,7 @@ shared_current_state:
   - 'main.txt: promoted-as-synthesis-refresh'
 dual_track_rule:
   summary: Keep the direct Navier-Stokes proof-bearing base distinct from V6 synthesis
-    imports. Chat 2 may import V6 language immediately when it sharpens a named bridge,
+    imports. Chat 2 may import V6 language directly when it sharpens a named bridge,
     but only direct NS theorem material may upgrade proof authority.
   why_the_split_is_honest: The legacy NS corpus already contains the direct theorem
     family. V6 is valuable because it improves loop language, obstruction vocabulary,
@@ -70,9 +70,9 @@ what_chat_y_should_read_first:
 - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md"
 - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/marvin-adaptation-notes.md"
 what_chat2_can_do_without_waiting:
-- Continue importing V6 synthesis into lane-local bridge notes immediately when useful.
+- Continue importing V6 synthesis into lane-local bridge notes directly when useful.
 - Continue rebuilding theorem packets and proof dependencies from the direct NS base.
 - Continue theorem writing even if Chat Y questions remain unanswered.
 parallel_execution_rule:
   chat_y_queries_block_local_work: false
-  import_immediately_when_useful: true
+  import_directly_when_useful: true

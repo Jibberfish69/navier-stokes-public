@@ -3,7 +3,7 @@ version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-14T15:00:18Z'
+  generated_at: '2026-06-17T18:36:11Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: cm-contrapositive-referee-blocked
 pass: false
@@ -22,11 +22,11 @@ checks:
   status: blocked
   surface: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 auto_audit_certification:
-  current_package_status: full-mpp-closure-ready
-  standalone_status: accept
-  completion_tier_achieved: full-mpp-closure
-  review_verdict: accept
-  theorem_packet_status: export-ready
+  current_package_status: branch-paid-annular-silver-gold-new-production-open
+  standalone_status: blocked
+  completion_tier_achieved: branch-paid-annular-silver-gold-new-production-open
+  review_verdict: blocked
+  theorem_packet_status: theorem-open
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml

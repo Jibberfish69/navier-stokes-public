@@ -23,7 +23,7 @@ may rely only on:
 3. inviscid-limit language used without preserving the theorem-critical
    estimates on Euler itself;
 4. hidden stronger data classes;
-5. heuristic decay or cascade language promoted to theorem status.
+5. informal decay or cascade language promoted to theorem status.
 
 ## Conditional Closure Interface
 

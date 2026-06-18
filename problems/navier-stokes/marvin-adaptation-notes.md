@@ -13,7 +13,8 @@ direct Navier-Stokes theorem file.
 ## Operating Rule
 
 When Marvin/V6 yields a direct Navier-Stokes theorem file, promote it into
-`authoritative-source-discovery.yaml` and `proof-source-pack.md` immediately.
+`authoritative-source-discovery.yaml` and `proof-source-pack.md` once the file
+is verified as direct Navier-Stokes theorem evidence.
 Until then, treat Marvin/V6 as a synthesis family that sharpens the existing
 legacy NS theorem base.
 

@@ -15921,6 +15921,7 @@ certificates:
   proof_explanation: SelectedFailure(surface) implies the negation of the listed CM
     face; since CM is Pack+Part+Field, that selected failure is a CM exit witness.
 - path: theorem-construction/mpp-immediate-source-targets-execution-note-20260503.md
+  exactness_review: path_reference_only_filename_contains_legacy_word
   face_sort: source_wall_Field_diagnostic_or_supplier
   diagnostic_status: selected_failure_field_landing
   contrapositive_status: proved_cm_exit
@@ -15933,6 +15934,9 @@ certificates:
   proof_explanation: After this surface's legal-loss, readout-loss, non-selected,
     Pack, and Part alternatives are removed or inherited on the selected branch, the
     retained failure implies not Field_{N,r,Q}; hence it is a CM exit witness.
+  mathematical_consequence: The filename contributes no immediacy claim. The row's
+    proof content is only the selected retained Field-failure implication under
+    the listed branch exclusions.
 - path: theorem-construction/mpp-increment-stability-and-transported-packet-comparison.md
   face_sort: Pack_or_Pack_bridge
   diagnostic_status: face_landing

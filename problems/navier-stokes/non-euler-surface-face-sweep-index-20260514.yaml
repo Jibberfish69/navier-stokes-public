@@ -5404,9 +5404,11 @@ entries:
   face_sort: Part_or_Part_bridge
   role: theorem-construction surface classified by local theorem vocabulary
 - path: theorem-construction/mpp-immediate-source-targets-execution-note-20260503.md
+  exactness_review: path_reference_only_filename_contains_legacy_word
   category: theorem_construction_surface
   face_sort: source_wall_Field_diagnostic_or_supplier
-  role: theorem-construction surface classified by local theorem vocabulary
+  role: theorem-construction surface classified by local theorem vocabulary; the
+    filename contributes no immediacy claim
 - path: theorem-construction/mpp-increment-stability-and-transported-packet-comparison.md
   category: theorem_construction_surface
   face_sort: Pack_or_Pack_bridge
