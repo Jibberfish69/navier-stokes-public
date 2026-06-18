@@ -210,7 +210,10 @@ A finite endpoint failure must be typed through the endpoint vocabulary:
 \neg Field\Rightarrow Jump,
 ```
 
-or through tower-amplitude escape. The endpoint matrix excludes those faces once `End_NS` is installed. Therefore the retained-window theorem applies to the original maximal solution setup at the conditional route level.
+or through tower-amplitude escape. The endpoint matrix excludes those faces only
+after the terminal readout layer has installed `End_NS` for the same endpoint
+packet. Therefore the retained-window theorem applies to the original maximal
+solution setup only at the conditional route level.
 
 ## 5. Boundary: Retained, Averaged, Terminal Readout
 
