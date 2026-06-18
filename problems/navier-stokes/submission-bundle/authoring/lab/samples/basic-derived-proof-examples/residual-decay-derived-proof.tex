@@ -1,0 +1,318 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.65em}
+\raggedbottom
+\setlist[enumerate]{leftmargin=1.7em,itemsep=0.35em,topsep=0.35em}
+
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\dd}{\,d}
+
+\theoremstyle{definition}
+\newtheorem*{proposition}{Proposition}
+
+\title{Decay of Heat-Scale Residual Refill at High Frequency}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{The quantity being measured}
+
+The incompressible three-dimensional Navier-Stokes equation is
+\[
+\partial_t u+(u\cdot\nabla)u+\nabla p-\nu\Delta u=0,
+\qquad
+\nabla\cdot u=0,
+\]
+where \(u\) is velocity, \(p\) is pressure, and \(\nu>0\) is viscosity. A
+finite-time concentration scenario means that, as time approaches a possible
+terminal time \(T_*\), the solution's active part is forced into smaller and
+smaller spatial scales near the terminal region.
+
+Annular or funnel windows are used to watch that terminal region without
+freezing the observation at one fixed scale. Each window has a terminal end
+time and a short backward time length. As the windows approach \(T_*\), they
+look for activity that survives closer and closer to the terminal point.
+
+After a Littlewood-Paley decomposition, smaller spatial scales appear as larger
+dyadic frequencies. The quantity defined below measures whether residual source
+can keep refilling those high-frequency shells once heat damping has acted.
+
+Let \(\Delta_j\) be the Littlewood-Paley projection onto the shell whose
+frequency size is about \(2^j\), and write
+\[
+u_j=\Delta_j u.
+\]
+Large \(j\) means high frequency and small spatial scale.
+
+Viscosity damps shell \(j\) at rate comparable to
+\[
+\nu2^{2j},
+\]
+where \(\nu>0\) is the viscosity. The natural heat time for shell \(j\) is
+then of order
+\[
+2^{-2j}.
+\]
+A source feeding shell \(j\) matters at high frequency through the part
+that survives this heat-scale damping.
+
+Let \(\Phi_j^+(\sigma)\) be the nonnegative residual source feeding shell \(j\)
+at time \(\sigma\). For two times \(t_0<t<T_*\), define the heat-scale residual
+refill by
+\[
+D_j^{\rm res}(t;t_0)
+=
+2^{2j}\int_{t_0}^{t}
+e^{-c_0\nu2^{2j}(t-\sigma)}
+\Phi_j^+(\sigma)\dd\sigma .
+\]
+Here \(c_0>0\) is a fixed heat-kernel constant. The exponential factor records
+heat damping from time \(\sigma\) to time \(t\). The outside factor \(2^{2j}\)
+normalizes the integral to the heat time scale of the shell. Thus
+\(D_j^{\rm res}(t;t_0)\) measures how much residual source still refills shell
+\(j\) after heat damping.
+
+\section*{Dyadic input}
+
+The following dyadic source estimate is the input to the decay argument. Let
+\(s>5/2\), and assume that the
+velocity field has the uniform Sobolev bound
+\[
+\sup_{t<T_*}\norm{u(t)}_{H^s}\le M,
+\]
+where \(M\) is fixed. Assume also that the residual source obeys
+\[
+\Phi_j^+(t)
+\le
+C_s\,2^{2j}
+\norm{u_j(t)}_2
+\norm{\Delta_j\mathbb P\nabla\cdot(u\otimes u)(t)}_2 .
+\]
+Here \(C_s\) depends on \(s\), and \(\mathbb P\) is the Leray projection onto
+divergence-free vector fields. All remaining estimates below come from this
+source bound and the \(H^s\) hypothesis.
+
+\begin{proposition}[Decay of residual refill under an \(H^s\) bound]
+Under the assumptions above, there is a constant \(C_s'>0\), independent of
+\(j\), such that
+\[
+D_j^{\rm res}(t;t_0)
+\le
+C_s' M^3 2^{(3-2s)j}.
+\]
+In particular,
+\[
+D_j^{\rm res}(t;t_0)\to0
+\quad\text{as }j\to\infty.
+\]
+\end{proposition}
+
+\section*{Proof}
+
+The proof is a power count. Each step records the power of \(2^j\) that remains
+at shell \(j\).
+
+First, the \(H^s\) bound controls one shell. On shell \(j\), applying \(s\)
+derivatives costs \(2^{sj}\). Hence
+\[
+2^{sj}\norm{u_j(t)}_2\le M.
+\]
+Dividing by \(2^{sj}\) gives
+\[
+\norm{u_j(t)}_2\le M2^{-sj}.
+\]
+
+Second, the nonlinear term has one derivative. Since \(s>5/2\), the space
+\(H^s(\mathbb R^3)\) is an algebra. Thus
+\[
+\norm{u\otimes u}_{H^s}
+\le
+C_s\norm{u}_{H^s}^2
+\le
+C_sM^2.
+\]
+Taking the \(j\)-th shell gives
+\[
+\norm{\Delta_j(u\otimes u)}_2
+\le
+C_sM^2 2^{-sj}.
+\]
+The operator \(\nabla\cdot\) contributes one derivative, and one derivative on
+shell \(j\) costs \(2^j\). The Leray projection \(\mathbb P\) has order zero.
+Thus
+\[
+\norm{\Delta_j\mathbb P\nabla\cdot(u\otimes u)(t)}_2
+\le
+C_sM^2 2^j2^{-sj}.
+\]
+Equivalently,
+\[
+\norm{\Delta_j\mathbb P\nabla\cdot(u\otimes u)(t)}_2
+\le
+C_sM^2 2^{(1-s)j}.
+\]
+
+Insert the two shell bounds into the source estimate:
+\[
+\Phi_j^+(t)
+\le
+C_s\,2^{2j}
+\bigl(M2^{-sj}\bigr)
+\bigl(M^2 2^{(1-s)j}\bigr).
+\]
+The constants multiply as
+\[
+M\cdot M^2=M^3.
+\]
+The dyadic powers multiply as
+\[
+2^{2j}2^{-sj}2^{(1-s)j}
+=
+2^{(3-2s)j}.
+\]
+Hence
+\[
+\Phi_j^+(t)\le C_sM^3 2^{(3-2s)j}.
+\]
+
+Now return to the definition of \(D_j^{\rm res}\):
+\[
+D_j^{\rm res}(t;t_0)
+=
+2^{2j}\int_{t_0}^{t}
+e^{-c_0\nu2^{2j}(t-\sigma)}
+\Phi_j^+(\sigma)\dd\sigma.
+\]
+Using the source bound just proved,
+\[
+D_j^{\rm res}(t;t_0)
+\le
+2^{2j}C_sM^3 2^{(3-2s)j}
+\int_{t_0}^{t}
+e^{-c_0\nu2^{2j}(t-\sigma)}\dd\sigma.
+\]
+
+The remaining integral is controlled by the full heat tail:
+\[
+\int_{t_0}^{t}
+e^{-c_0\nu2^{2j}(t-\sigma)}\dd\sigma
+\le
+\int_0^\infty e^{-c_0\nu2^{2j}\rho}\dd\rho.
+\]
+The last integral is explicit:
+\[
+\int_0^\infty e^{-c_0\nu2^{2j}\rho}\dd\rho
+=
+\frac{1}{c_0\nu2^{2j}}.
+\]
+Substituting this gives
+\[
+D_j^{\rm res}(t;t_0)
+\le
+2^{2j}C_sM^3 2^{(3-2s)j}
+\frac{1}{c_0\nu2^{2j}}.
+\]
+The two factors \(2^{2j}\) cancel:
+\[
+D_j^{\rm res}(t;t_0)
+\le
+\frac{C_s}{c_0\nu}M^3 2^{(3-2s)j}.
+\]
+Set
+\[
+C_s'=\frac{C_s}{c_0\nu}.
+\]
+This constant is independent of \(j\), so
+\[
+D_j^{\rm res}(t;t_0)
+\le
+C_s'M^3 2^{(3-2s)j}.
+\]
+
+It remains to check the exponent. Since \(s>5/2\),
+\[
+2s>5.
+\]
+Subtracting from \(3\) gives
+\[
+3-2s<3-5=-2.
+\]
+In particular,
+\[
+3-2s<0.
+\]
+Set
+\[
+a=2s-3.
+\]
+Then \(a>0\) and \(3-2s=-a\). Hence
+\[
+2^{(3-2s)j}=2^{-aj}=\frac{1}{2^{aj}}.
+\]
+As \(j\to\infty\), \(2^{aj}\to\infty\), so
+\[
+2^{(3-2s)j}\to0.
+\]
+The constants \(C_s'\) and \(M\) are fixed while \(j\to\infty\). Thus
+\[
+C_s'M^3 2^{(3-2s)j}\to0.
+\]
+The bound
+\[
+0\le D_j^{\rm res}(t;t_0)\le C_s'M^3 2^{(3-2s)j}
+\]
+then gives
+\[
+D_j^{\rm res}(t;t_0)\to0.
+\]
+This proves the proposition.
+
+\section*{Contradiction with a selected terminal witness}
+
+Suppose an annular or funnel selection produces time windows and shell indices
+\[
+j_m\to\infty.
+\]
+The index \(m\) labels the selected window. Its end time is \(t_m\), its length
+is \(\tau_m\), and its start time is \(t_m-\tau_m\). The selected residual
+refill is
+\[
+D_{j_m}^{\rm res}(t_m;t_m-\tau_m).
+\]
+The proposition gives
+\[
+D_{j_m}^{\rm res}(t_m;t_m-\tau_m)
+\le
+C_s'M^3 2^{(3-2s)j_m}.
+\]
+Since \(j_m\to\infty\) and \(3-2s<0\), the right hand side tends to zero. For
+each fixed \(\eta>0\), there is an index \(m_0\) such that, for every
+\(m\ge m_0\),
+\[
+C_s'M^3 2^{(3-2s)j_m}<\eta.
+\]
+For those \(m\),
+\[
+D_{j_m}^{\rm res}(t_m;t_m-\tau_m)<\eta.
+\]
+
+A fixed positive witness asserts the opposite lower bound along the same
+selected sequence:
+\[
+D_{j_m}^{\rm res}(t_m;t_m-\tau_m)\ge\eta.
+\]
+For large \(m\), the same number is smaller than \(\eta\) and at least
+\(\eta\). The contradiction shows that a uniform \(H^s\) bound with
+\(s>5/2\) cannot coexist with a fixed positive residual refill witness at
+frequencies \(j_m\to\infty\).
+
+\end{document}
