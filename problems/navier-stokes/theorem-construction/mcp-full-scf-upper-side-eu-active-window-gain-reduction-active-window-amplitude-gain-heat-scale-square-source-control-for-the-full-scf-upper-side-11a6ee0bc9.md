@@ -34,10 +34,12 @@ set-theoretic packet inclusion only.
 The upper side changes. `E_u` is a scale-critical local energy packet. Global energy controls time-slice size, while the branch contradiction needs summability across shrinking terminal windows:
 
 ```math
-\sum_k r_k^{-\alpha}E_u(Q_k)\le C.
+\sum_k r_k^{-\alpha}E_u(Q_k)\le C(E_0,\mathcal S)
 ```
 
-The current global energy ledger gives raw size control. It does not give the missing scale factor for terminal active windows.
+on the same separated terminal family selected by the lower side.  The current
+global energy ledger gives raw size control. It does not give the missing scale
+factor for terminal active windows.
 
 ## Reduction
 
@@ -50,7 +52,7 @@ E_u\text{ terminal threshold}\Longrightarrow D_u/P\text{ terminal mass},
 or
 
 ```math
-\sum_k r_k^{-\alpha}E_u(Q_k)\le C(E_0)
+\sum_k r_k^{-\alpha}E_u(Q_k)\le C(E_0,\mathcal S)
 ```
 
 for the same separated or bounded-overlap terminal windows used by the lower accumulation route.
