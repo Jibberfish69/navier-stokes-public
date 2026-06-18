@@ -1127,6 +1127,27 @@ H(\pi_P)\ge \log M-\log C
 when \(M\) active parent weights satisfy \(\pi_i\le C/M\). The reserve argument
 now spends exact entropy lower bounds, not a scale-comparison phrase.
 
+False \(H^1\) continuation-norm pass:
+
+The appendix contained a proof-bearing subsection titled `Classical H^1
+Continuation Lemma` and a downstream `High-Frequency Enstrophy Implies H^1`
+lemma that treated bounded \(H^1(\mathbb R^3)\) as the classical
+three-dimensional continuation norm. That has been reworked to the actual
+classical Sobolev relaunch hypothesis:
+
+```math
+\sup_{0\le t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2.
+```
+
+The lemma now uses \(M_s\), \(\tau(\nu,s,M_s)>0\), relaunch from
+\(t_n\uparrow T_*\), and uniqueness on the overlap. The high-frequency
+enstrophy lemma now proves only a full \(H^1\) energy norm and explicitly says
+that this does not supply the \(H^s\), \(s>5/2\), continuation norm. The
+downstream route consequence is that bounded high-frequency enstrophy is support
+for an energy-level branch only; it cannot be spent as classical continuation
+without an additional \(H^s\) or equivalent continuation criterion.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
