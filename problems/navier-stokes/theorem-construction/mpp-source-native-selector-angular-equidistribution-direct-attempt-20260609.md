@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-positive-equidistribution-discharge-pivots-to-field-face-entry
   proof_role: selector_source_cm_pivot_reentry
   logical_landing_node: angular-concentration-field-face-entry
-  edge_effect: "Tests SourceNativeSelectorAngularEquidistribution.A. A positive source-native angular equidistribution theorem is not installed: smooth incompressible transport can carry concentrated selected directions, and the material-gap tether preserves concentration rather than spreading it. Under the CM pass-or-exit engine, the missing-cap branch should not be forced as a positive supplier theorem forever; the next atom is AngularConcentrationFieldFaceEntry.A: prove that failure of finite QSP angular nonconcentration, once admitted as part of the same terminal packet, is a concrete Field-face failure unless Pack or Part already fails earlier."
+  edge_effect: "Tests SourceNativeSelectorAngularEquidistribution.A. A positive source-native angular equidistribution theorem is not installed: smooth incompressible transport can carry concentrated selected directions, and the material-gap tether preserves concentration rather than spreading it. Under the CM pass-or-exit engine, the missing-cap branch has two exact outcomes: prove the positive angular nonconcentration supplier, or prove AngularConcentrationFieldFaceEntry.A, namely that failure of finite QSP angular nonconcentration, once admitted as part of the same terminal packet, is a concrete Field-face failure unless Pack or Part already fails earlier."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-source-native-finite-cap-bump-comparability-direct-attempt-20260609.md
     - problems/navier-stokes/live-theorem-edge.yaml
@@ -67,8 +67,7 @@ QSP cap/shell bump family.
 
 ## CM Pass-Or-Exit Reading
 
-The live authority edge says the route should follow the positive program until
-a real obstruction is reached, then split the obstruction:
+The live authority edge gives the exact pass-or-exit split:
 
 ```text
 pass branch: supplies the in-class Member(Q) continuation packet;
@@ -83,11 +82,19 @@ too little or zero selected mass. Then the finite quadratic sign-separation
 packet fails, so the balanced-frame shape/readout packet cannot be supplied on
 that same terminal selection.
 
-That failure should not remain an endless demand for a positive
-equidistribution theorem unless it is required for a pass branch. Under retained
-Pack and retained Part, a same-terminal-packet failure of the one-field
-coherent shape/readout support is a Field-facing failure candidate. If Pack or
-Part is already missing, the first-face order sends the obstruction earlier.
+That failure is not automatically a Field face. The exact remaining alternative
+is:
+
+```text
+either prove finite QSP angular nonconcentration for the pass branch,
+or prove QSPAngularFailureFieldNecessityBridge.A:
+under retained Pack+Part and on the same terminal packet, failure of finite
+QSP angular nonconcentration is failure of the Field coherence/readout
+requirement itself, not merely failure of one sufficient supplier route.
+```
+
+If Pack or Part is already missing, the first-face order sends the obstruction
+earlier.
 
 ## Result
 
