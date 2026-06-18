@@ -5976,11 +5976,11 @@ source-normalization wall until one of the stated exact inputs is supplied.
 
 Edited live surfaces:
 
-- `submission-bundle/source-field-reader-appendix.tex`.
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`.
 
-Source checked:
+Additional sources checked:
 
-- `theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`;
 - `theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md`;
 - `theorem-construction/mpp-nonlinear-shell-flux-source-control-reentry-20260609.md`.
 
