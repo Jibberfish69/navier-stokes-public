@@ -3320,6 +3320,60 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## AACT.KX Scheduler Seed Finite-Partition Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mcp-aact-kx-scheduler-seed-obstruction-aact-kx-f4eff31d09.md`
+  said the finite-coverage portion is "formal once the seed exists" because
+  integrability of `B_R` and `F_R` gives a finite partition with small Gronwall
+  packets.
+
+Exact replacement:
+
+The live surfaces now state the exact scheduler partition.  On a finite retained
+tail, under
+
+```math
+B_R,F_R\in L^1,\qquad B_R,F_R\ge0,
+```
+
+choose a finite partition into intervals `J_k` with
+
+```math
+\int_{J_k}B_R\le\log(4/3),
+\qquad
+\int_{J_k}F_R\le\eta/2.
+```
+
+Then a restart seed `X_R(s_k)<=eta` gives
+
+```math
+\exp\!\left(\int_{J_k}B_R\right)
+\left(X_R(s_k)+\int_{J_k}F_R\right)
+\le2\eta.
+```
+
+Proof or remaining burden:
+
+The finite scheduler part is paid by the displayed `L^1` partition and
+Gronwall inequality.  The unproved theorem remains the fresh seed production
+`X_R(s_k)<=eta` in the restart frame from `SCF_avg^m`,
+transported-frame minimization, or a finite-cover small-excess selection
+principle.
+
+Downstream consequence:
+
+AACT.KX scheduler consumers may spend finite partitioning only together with
+the displayed seed and small-integral conditions; "formal once seeded" no
+longer carries proof force.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-aact-kx-scheduler-seed-obstruction-aact-kx-f4eff31d09.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
