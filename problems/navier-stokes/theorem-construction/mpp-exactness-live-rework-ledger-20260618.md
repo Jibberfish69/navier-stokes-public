@@ -4002,6 +4002,42 @@ Edited live surfaces:
 - `theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md`;
 - `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`.
 
+## Compact-Support Localizer Model-Bound Rework
+
+Old loose step:
+
+- The compact-support localizer subsection said every simultaneous-overlap
+  weighted ledger satisfies a "model bound."
+
+Exact replacement:
+
+Under the compact-support localizer hypotheses and simultaneous activation
+condition, the support balls give
+
+```math
+|c_{J,\ell}(z)-c_{J,\ell'}(z)|\le 2r_J
+```
+
+by the triangle inequality.  Hence any nonnegative weighted overlap ledger
+supported on simultaneous activations satisfies
+
+```math
+\sum_{\ell,\ell'} w_{\ell,\ell'}(z,p)
+|c_{J,\ell}(z)-c_{J,\ell'}(z)|
+\le
+2r_J\sum_{\ell,\ell'}w_{\ell,\ell'}(z,p).
+```
+
+Downstream consequence:
+
+This pays only the support-radius half of `CSR.A/CSR.B`.  The PSJ+.1 fine
+localizer route still requires the weighted small-radius budget `(CSR.9)` on
+the same localized-projector surface.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
