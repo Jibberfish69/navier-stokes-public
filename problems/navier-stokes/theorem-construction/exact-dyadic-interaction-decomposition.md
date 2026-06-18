@@ -50,7 +50,6 @@ T_j+\big\langle u\cdot\nabla\Delta_j\omega,\Delta_j\omega\big\rangle,
 and the last term is zero because `\nabla\cdot u=0`.  Thus transport
 cancellation leaves the commutator `T_j`; it does not identify the stretching
 term `S_j` with that commutator.
-```
 
 ## Paraproduct Expansion
 
