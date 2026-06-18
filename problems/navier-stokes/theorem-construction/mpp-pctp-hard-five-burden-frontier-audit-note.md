@@ -268,10 +268,12 @@ OriginalSmoothData\Longrightarrow QDrain.A.
 
 By `mpp-qdrain-source-no-pulse-closure-note.md`, this gives
 `QDrain.A=>QBound.A=>AWG.A`, hence closes `PCTP.5.C`; the same `QBound.A` is a
-uniform periodic `H^1` bound and therefore gives the terminal continuation
-needed for `PCTP.5.A`. This is a valid compression, but it is stronger than the
-route-native class-membership package and should not be confused with a proof of
-the pack strain ledger `Pack.TTU`.
+uniform periodic `H^1` bound. That is energy-level support, not the terminal
+classical continuation bridge by itself. `PCTP.5.A` still needs an `H^s`,
+`s>5/2`, continuation bound or an explicitly named equivalent criterion on the
+same periodic surface. This is a valid support compression, but it is stronger
+than the route-native class-membership package and should not be confused with a
+proof of the pack strain ledger `Pack.TTU`.
 
 By `mpp-mixed-shell-spill-coefficient-scheduler-attempt-note.md`,
 `QBound.A=>MSC.Spill.Close`; the unconditional mixed-shell route requires
