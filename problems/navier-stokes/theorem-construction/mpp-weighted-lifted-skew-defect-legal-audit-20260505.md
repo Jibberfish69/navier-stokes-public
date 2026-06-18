@@ -74,13 +74,21 @@ Thus weighted skewness survives only if the edge weight difference is small or
 if the defect can be charged to a legal ledger.
 
 The existing signed-weighted audits show that the one-sided tail weights do not
-give such smallness on the live lifted surface.  In shell notation the mismatch
-has order-size:
+give such smallness on the live lifted surface.  In shell notation the
+edge-weight difference is exact:
 
 ```math
 2^j2^{-\sigma(\ell-j)}-2^\ell
 =
 -\,2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+```
+
+If legal separated edges satisfy `ell-j >= d_0` and `sigma>-1`, then
+
+```math
+\left|2^j2^{-\sigma(\ell-j)}-2^\ell\right|
+\ge
+\left(1-2^{-(1+\sigma)d_0}\right)2^\ell .
 ```
 
 Therefore the bare antisymmetry does not prove the weighted terminal skew
