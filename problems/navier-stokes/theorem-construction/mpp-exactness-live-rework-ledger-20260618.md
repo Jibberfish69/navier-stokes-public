@@ -3723,6 +3723,65 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`.
 
+## Endpoint-Face Residue Second-Pass Rework
+
+Old downstream step:
+
+- Several live appendix mirrors and theorem-construction notes still spent
+  endpoint contradiction as "exactly four faces" after the Part closedness
+  repair exposed response-margin collapse as a distinct terminal failure mode.
+
+Exact replacement:
+
+The exact endpoint implication is now
+
+```math
+\text{first endpoint}\Longrightarrow
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
+\vee response\text{-}margin\text{-}collapse.
+```
+
+The old four-face matrix may be spent only on the subbranch where the Part row
+supplies closed terminal response predicates or retained strict response
+margins
+
+```math
+\mathcal R_\ell(t)\ge\gamma_\ell>0
+```
+
+on the terminal tail.
+
+Proof or remaining burden:
+
+This is the direct consequence of the repaired Part closedness statement.
+Strict response inequalities are not closed under terminal limiting unless a
+positive margin survives, while closed non-strict terminal Part predicates do
+pass to the limit.  Therefore a proof that excludes only Dead,
+packing-detached, tower-blown, and Jump closes the endpoint contradiction only
+after the response-margin subface has already been removed by hypothesis or by
+the Part row.
+
+Downstream consequence:
+
+Endpoint contradiction, referee-facing lemma compression, terminal-tail
+uniformization, retained admission, and the R3 compact-core matrix can no
+longer say "all four faces" without the Part-margin qualifier.  Their live
+statements now either include response-margin-collapse or explicitly restrict
+to the branch where the Part-margin/closed-predicate input has removed it.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-endpoint-matrix-minimality-theorem.md`;
+- `theorem-construction/mcp-endpoint-contradiction-theorem-standard.md`;
+- `theorem-construction/mcp-externalized-proof-vocabulary-pde-lemmas.md`;
+- `theorem-construction/mcp-manuscript-smallest-standard-lemma-sequence.md`;
+- `theorem-construction/mcp-referee-readable-lemma-compression.md`;
+- `theorem-construction/mcp-pctp-hard-terminal-tail-uniformization-read-cover-a6c643da31.md`;
+- `theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md`;
+- `theorem-construction/mpp-r3-tailface-hs-endpoint-theorem-attempt.md`;
+- `theorem-construction/mpp-r3-tailface-hs-endpoint-row-obstruction.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
