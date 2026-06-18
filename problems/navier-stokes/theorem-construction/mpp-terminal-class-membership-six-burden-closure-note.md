@@ -14,7 +14,8 @@ It is not an unconditional proof of the Clay target. The hypotheses are exactly
 the retained-window hypotheses already isolated in
 [mpp-act-kx-conditional-route-completion-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md):
 `RSCB.NKF`, bounded pack gauge, the finite required parameter set, post-`LCI.A`
-source inputs, and the accepted endpoint certificate maps.
+source inputs including the cutoff-defect input `FCC.C1a`, and the accepted
+endpoint certificate maps.
 
 ## Theorem `TCM.6` (Terminal six-burden class-membership closure)
 
@@ -66,17 +67,25 @@ spend. It does not install the stronger downstream implication
 
 ### 3. `FCI.5f`
 
-Once `LCI.A` is installed, the source-side three-channel packet closes:
+Once `LCI.A` is installed, the source-side packet closes only with the corrected
+cutoff-defect input. The old three-channel chain
+`FPCR.C + FSCR.C + FCC.C1 => FCI.5f` spent the cutoff commutator as if the
+Young term were controlled by the ordinary finite-difference energy. The exact
+cutoff channel instead spends the weighted cutoff-gradient ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}`.
 
 ```math
 LCI.A
-=> FPCR.C + FSCR.C + FCC.C1
+=> FPCR.C + FSCR.C + FCC.C1 + FCC.C1a
 => FCI.5f.
 ```
 
+Here `FCC.C1a` is the hypothesis
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, or a separate
+domination theorem proving that integrability from already-admitted packet data.
 This is the exact frozen-family source ledger beneath `OFP.A`. The stronger
-`FFSRC.A => FCI.5f` route remains an optional import, not the minimal authority
-needed here.
+source import is read as `\operatorname{Hyp}(FFSRC.A) => FCI.5f`, where
+`\operatorname{Hyp}(FFSRC.A)` includes the same cutoff-defect input.
 
 ### 4. `OFP.A`
 
