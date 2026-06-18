@@ -23,22 +23,24 @@ Rows1To4.Criteria.A
 \text{global regularity}.
 ```
 
-## Row 1: `bounded H^1 => continuation`
+## Row 1: `bounded H^s, s>5/2 => continuation`
 
 Let `u` be a classical Navier--Stokes solution on `[0,T)` and assume
 
 ```math
-\sup_{t<T}\|u(t)\|_{H^1}<\infty.
+\sup_{t<T}\|u(t)\|_{H^s}<\infty,
+\qquad s>5/2.
 ```
 
-The `H^1` local strong-solution relaunch theorem being invoked here must give a
-restart lifespan depending only on this uniform `H^1` bound.  Restarting from
-times `t_n\uparrow T` and using uniqueness continues the solution past `T`.
+The `H^s`, `s>5/2`, local strong-solution relaunch theorem gives a restart
+lifespan `\tau(\nu,s,M_s)>0` depending only on this uniform `H^s` bound.
+Restarting from times `t_n\uparrow T` and using uniqueness continues the
+solution past `T`.
 
 Thus:
 
 ```math
-\sup_{t<T}\|u(t)\|_{H^1}<\infty
+\sup_{t<T}\|u(t)\|_{H^s}<\infty,\qquad s>5/2
 \Longrightarrow
 \text{continuation past }T.
 ```
@@ -48,10 +50,12 @@ Contrapositively:
 ```math
 \text{finite terminal non-continuation}
 \Longrightarrow
-\limsup_{t\uparrow T}\|u(t)\|_{H^1}=+\infty.
+\limsup_{t\uparrow T}\|u(t)\|_{H^s}=+\infty
+\quad\text{for the selected }s>5/2\text{ continuation norm.}
 ```
 
-This does not prove that `H^1` blow-up is impossible.
+This does not prove that selected `H^s` blow-up is impossible, and bounded
+`H^1` energy control alone is not this continuation criterion.
 
 ## Row 2: `closed mixed-jet tower => continuation`
 
