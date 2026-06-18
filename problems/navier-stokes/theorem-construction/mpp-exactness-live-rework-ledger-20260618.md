@@ -3582,6 +3582,53 @@ Edited live surfaces:
 - `theorem-construction/mpp-pctp-hard-participation-persistence.md`;
 - `theorem-construction/mcp-part-row-nodrop-to-part-n-q-20260504.md`.
 
+## Terminal-Tail Uniformization Downstream Rework
+
+Old downstream step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said that once finite
+  terminal-tail records are supplied, the persistence argument is "formal."
+- `theorem-construction/mcp-pctp-hard-averaged-route-reduction-and-aact-gap.md`
+  listed only `Dead`, `packing-detached`, `tower-blown`, and `Jump` as endpoint
+  faces and treated the face-free branch as retaining Part without separately
+  retaining the strict-response margins exposed by the Part closedness repair.
+
+Exact replacement:
+
+The averaged route package now includes the additional endpoint face
+
+```math
+response\text{-}margin\text{-}collapse
+```
+
+and the face-free branch retains the strict Part response margins
+
+```math
+\mathcal R_\ell(t)\ge\gamma_\ell>0
+```
+
+or uses a closed non-strict terminal encoding of the Part clauses.
+
+Proof or remaining burden:
+
+The finite-record persistence implication is conditional: Pack controls carrier
+geometry, Field supplies positive scale, tower records prevent finite-depth
+amplification, and Part persists only with the response-margin/closed-predicate
+input.  Original smooth data still has to produce those terminal-tail inputs;
+the package does not supply them.
+
+Downstream consequence:
+
+The averaged PCTP route may run only on the enlarged face-free branch.  It may
+not exclude first finite endpoint by routing only the old four faces; response
+margin collapse must be excluded, admitted as the Part face, or encoded in the
+closed terminal Part predicate.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-pctp-hard-averaged-route-reduction-and-aact-gap.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
