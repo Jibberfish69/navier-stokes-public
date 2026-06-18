@@ -1016,7 +1016,7 @@ C_{\alpha,N,\lambda,\rho,\psi,\delta,I}
 \Big(
 \mathfrak Q_{N,\eta}^{press,loc,src,\alpha}(t)
 +
-\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2
+1+\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^4
 \Big).
 \tag{FPR.C3a}
 ```
