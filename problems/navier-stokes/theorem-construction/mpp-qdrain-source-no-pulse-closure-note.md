@@ -18,10 +18,12 @@ AWG.A
 ```
 
 The first three arrows are useful. In addition, `QBound.A` is continuation-grade
-on the periodic surface only when paired with the named `H^1` relaunch theorem:
-the uniform `H^1` bound must give a common restart lifespan and uniqueness
-overlap, which prevents a finite classical endpoint. Thus the
-strong monotone branch would also close the terminal-tail side:
+on the periodic surface only when paired with the named `H^s`, `s>5/2`,
+relaunch theorem or an equivalent criterion: the uniform continuation bound
+must give a common restart lifespan and uniqueness overlap, which prevents a
+finite classical endpoint. A uniform `H^1` bound is energy-level support, not
+this relaunch theorem. Thus the strong monotone branch would close the
+terminal-tail side only after that continuation bridge is supplied:
 
 ```math
 QDrain.A
