@@ -259,6 +259,51 @@ The zero-stress, zero-source, zero-boundary branch returns to Door 2 through
 The theorem above is conditional.  Each input has a separate Navier-Stokes
 bridge burden.
 
+### 0. Boundary readout alone fails
+
+The annular readout cannot be only a two-face boundary readout.  On a fixed
+annulus `A`, choose a nonzero divergence-free field
+
+```math
+U_k\in C_c^\infty(A),
+\qquad
+\|U_k\|_{H^1(A)}=1,
+\tag{NEX.20a}
+```
+
+for instance a high spherical-harmonic toroidal field with compact radial
+cutoff away from both boundary components.  Set `P_k=0` and
+
+```math
+F_k=-\nu\Delta U_k .
+\tag{NEX.20b}
+```
+
+Then all two-face velocity and conormal traces vanish:
+
+```math
+\gamma_-U_k=\gamma_+U_k=\mathcal T_-U_k=\mathcal T_+U_k=0,
+\tag{NEX.20c}
+```
+
+but the interior state is nonzero.  Thus a true no-escape estimate requires one
+of the following:
+
+```text
+ExactAnnularEquation.A:
+  the relevant interior residual is zero in the annular defect class,
+
+or
+
+FullInteriorResidualCharge.A:
+  the residual/source norm is included in the readout/legal charge at the same
+  frequency and scale.
+```
+
+This is why `(NEX.12)` and `(NEX.13)` are not decorative.  They are the
+mechanism that prevents an interior forced packet from being invisible to the
+collar faces.
+
 ### 1. Annular no-loss
 
 `(NEX.8)` requires:
@@ -325,11 +370,13 @@ AnnularStokesCauchyResidualEstimate.A
 ProjectionReadoutCommutatorBound.A
 NonlinearRemainderSmallOnMinimalCollar.A
 SurfaceTraceNormCompatibility.A
+ExactAnnularEquation.A / FullInteriorResidualCharge.A
 ```
 
 The dangerous term is not the formal Stokes estimate.  The dangerous term is
 whether the selected terminal positive source appears in the residual/readout
-norm being estimated.
+norm being estimated.  Compactly supported interior Stokes residuals are the
+simple countermodel to any boundary-only version.
 
 ### 4. Residual absorption
 
