@@ -318,7 +318,7 @@ Then `u=\mathcal C(X)` satisfies
 \nabla\cdot u=0.
 ```
 
-The proof is formal: apply `\mathcal C` to
+The proof is the exact pushforward calculation: apply `\mathcal C` to
 
 ```text
 \partial_t X+\mathbb P_DN_D(X)=\nu\,\mathbb P_D\Delta_DX,
