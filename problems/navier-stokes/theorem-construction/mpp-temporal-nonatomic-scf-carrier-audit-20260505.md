@@ -14,9 +14,10 @@ TemporalNonAtomicSCF.A
 }
 ```
 
-The velocity and pressure pieces have plausible superlinear time control from
-the energy class.  The dissipation carrier is only `L^1_t` at the installed
-level, and it can form a terminal atom in weak-* rescaled limits.
+The installed tests isolate possible superlinear time control for the velocity
+and pressure pieces.  No installed estimate gives that upgrade for the
+dissipation carrier: at the current level it is only `L^1_t`, and it can form a
+terminal atom in weak-* rescaled limits.
 
 ## Source anchors
 
