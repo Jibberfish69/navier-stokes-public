@@ -88,7 +88,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
-No downstream source ledger such as `FFSRC.A=>FCI.5f` can be imported here
+No downstream source ledger such as `Hyp(FFSRC.A)=>FCI.5f` can be imported here
 without circularity, because that ledger controls an accepted frozen-family
 source packet after the receiver route has been admitted; it does not prove
 bad-window source normalization on the `Jump_avg` branch.
