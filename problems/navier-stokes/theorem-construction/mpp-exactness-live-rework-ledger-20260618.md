@@ -370,6 +370,59 @@ Edited live surface:
 
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Positive-Forward Four-Body Diagnostic Rework
+
+Old loose step:
+
+- `submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex`
+  said that high-frequency transfer had to be handled because "viscosity must
+  dominate the cascade above an active scale."  That phrasing spent an
+  active-scale picture as if it were a proved tail inequality.
+- The compactness paragraph said compactness was "the natural way" to extract a
+  terminal object, which hid the exact topology, tail smallness, and
+  same-solution attachment requirements.
+- The enstrophy lift referred to a "familiar local-theory bound" instead of the
+  conditional differential inequality and hypotheses actually being used.
+
+Exact replacement:
+
+The live section now states the tail burden on the selected frequencies:
+
+```math
+\mathcal D_K(t)
+:=
+2\nu\int_K^\infty k^4E(k,t)\,dk
+-
+\int_K^\infty k^2T_+(k,t)\,dk,
+```
+
+and requires either
+
+```math
+\mathcal D_K(t)\ge0
+```
+
+or an integrable bound on the negative part of \(\mathcal D_K\), on the same
+tail used by the later compactness or continuation step.  Compactness is now
+allowed only after the extraction topology, low-mode compactness,
+high-frequency tail smallness, and same-solution attachment have been supplied.
+The enstrophy lift is now named as the conditional differential inequality
+
+```math
+Y'(t)\le C_\nu Y(t)^3.
+```
+
+Downstream consequence: the four-body circuit no longer spends active-scale
+intuition, natural compactness language, or generic local-theory familiarity as
+proof force.  It remains a diagnostic branch whose unresolved mathematical
+burden is the same selected-tail \(\mathcal D_K\) domination/cascade-control
+theorem and the exact same-solution compactness attachment needed before any
+continuation readout can be claimed.
+
+Edited live surface:
+
+- `submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
