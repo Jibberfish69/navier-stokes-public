@@ -3970,6 +3970,34 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-seven-loss-budgets-for-sg-4-tps-retained-family-ep-a-b4208cdf26.md`.
 
+## Formal Counter-Edge Rework
+
+Old loose step:
+
+- Skew-saturation wording said the bare dyadic graph gives a "formal
+  counter-edge" and then moved quickly to finite banding and same-fluid
+  fidelity.
+
+Exact replacement:
+
+The bare dyadic identity gives only an unlocalized involution
+`\iota(e)` on the full unweighted interaction graph.  It does not select a
+terminal packet, keep that packet in the same usable same-fluid ledger, preserve
+bounded overlap, or price a partner outside the selected terminal collar.
+Finite banding controls shell indices only.  Same-fluid fidelity applies only
+after an admissible partner packet has already been selected and retained.
+
+Downstream consequence:
+
+Skew Saturation Admissibility.A remains a genuine theorem requiring partner
+multiplicity control, same-fluid partner collars, and off-saturation boundary
+pricing.  Bare skew symmetry cannot be spent as a terminal same-record pairing.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-skew-saturation-admissibility-attempt-20260505.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
