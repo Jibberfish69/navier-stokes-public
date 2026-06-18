@@ -418,9 +418,12 @@ central_gate:
       basac_source_ancestry_compactness_attempt: problems/navier-stokes/theorem-construction/mpp-basac-source-ancestry-compactness-attempt-20260517.md
       basac_target_local_exhaustion_and_cm_field_closure: problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
       cm_contrapositive_sourcepulse_status: SourcePulseCMExit.A is locally discharged
-        as a source-pulse branch theorem by retained-Field tower anchoring; the route-wide
-        CM primitive remains Exit(Q):=not Member(Q), and positive supplier presentations
-        are quarantined support, not the proof root.
+        as a source-pulse branch theorem by retained-Field tower anchoring; the
+        exact anchoring uses Field oscillation plus local energy for U0,
+        finite-order anchoring for the finite U_k tower, and retained Part for
+        the K_k envelope. The route-wide CM primitive remains
+        Exit(Q):=not Member(Q), and positive supplier presentations are
+        quarantined support, not the proof root.
       sourcepulse_cm_retained_branch_status: SourcePulseCMExit.A already classifies
         the retained source-pulse survivor as a Pack/Part/Field exit; no stronger
         SourcePulseExclusion.A proof is required for that CM branch split.
