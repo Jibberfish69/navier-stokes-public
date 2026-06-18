@@ -36,6 +36,11 @@ The donor-graph continuation
 all of this to the single Door 1 atom `NoFreeTerminalZenoDonorChain.A`: retained
 partners, legal exits, finite donor trees, and preterminal entrance branches are
 paid, and only the infinite terminal Zeno donor chain remains.
+The minimal-chain trace continuation
+`mpp-forward-gold-door1-minimal-zeno-donor-chain-trace-dichotomy-attempt-20260618.md`
+then reduces that atom to terminal trace compactness, or to a visible trace
+defect that splits into nonzero-flux native-carrier identification and zero-flux
+profile production.
 The Door 2 drift attempt reduces `ZeroFluxDriftVisibility.A` to
 `CanonicalGaugeCoercivity.A + ModulationForcingNativeProjection.A +
 NoNeutralModulationLoop.A`.
@@ -327,7 +332,8 @@ The sharp two-door frontier after the donor-graph continuation is:
 \boxed{
 \Phi_0\ne0:
 \quad
-\text{prove NoFreeTerminalZenoDonorChain.A inside TerminalSignedSaturation.A.}
+\text{prove MinimalZenoTerminalTraceCompactness.A or visible nonzero-flux
+native-carrier residue inside NoFreeTerminalZenoDonorChain.A.}
 }
 \tag{TD.19}
 ```
