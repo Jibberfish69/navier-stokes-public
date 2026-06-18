@@ -77,7 +77,7 @@ Retain the localized increment-source ledger from `(FPR.C1a)`:
 \tag{FSP.4}
 ```
 
-Fix a harmless Littlewood--Paley collar width `C_0\ge 4` on the local spatial
+Fix a Littlewood--Paley collar width `C_0\ge 4` on the local spatial
 variable.
 
 ## Exact Packet Reconstruction
@@ -215,7 +215,7 @@ By `(FSP.6)`,
 ```
 
 Square `(FSP.A1)`, use `(a+b+c)^2\le 3(a^2+b^2+c^2)`, sum in `k` with
-weights `\lambda_k`, and take the supremum in `j`. The harmless constant
+weights `\lambda_k`, and take the supremum in `j`. The fixed constant
 `C_{N,\alpha,C_0}` only records the finite Bony collar overlap and the finite
 Leibniz expansion. ∎
 

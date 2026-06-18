@@ -149,7 +149,7 @@ Finite energy and first-moment dissipation control
 
 not the scale-critical square density or heat-window source residence needed
 for `(LPSC.2)`. A short terminal active pulse can keep first-moment cost small
-while preserving order-one normalized positive source mass.
+while preserving normalized positive source mass bounded below by `c_0>0`.
 
 Incompressibility gives trace-free strain, not nonpositive strain. A localized
 lower strain may have an expanding eigendirection:
@@ -271,7 +271,7 @@ TerminalSourceReverseHolder.A
 UniformTemporalSourceIntegrability_p.A,\quad p>1.
 ```
 
-The installed source control is only `L^1_t`. The terminal-layer model
+The installed source control is only `L^1_t`. The endpoint time-marginal witness
 
 ```math
 g_m(s)=m1_{(-1/m,0]}(s)

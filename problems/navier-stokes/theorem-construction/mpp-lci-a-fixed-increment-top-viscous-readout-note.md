@@ -119,9 +119,9 @@ C_N\,
 
 ### Proof
 
-Each component of `\Delta U_N` is a universal contraction of the rung
-`U_{N+2}`. Apply that identity at the two points `c_j(t)` and `c_j(t)+\eta`,
-subtract, and take the supremum over `j`. ∎
+Each component of `\Delta U_N` is the coordinate trace of the two derivative
+slots in `U_{N+2}=\nabla^2U_N`. Apply that fixed trace identity at the two
+points `c_j(t)` and `c_j(t)+\eta`, subtract, and take the supremum over `j`. ∎
 
 ## Exact Successor Theorem For `FEI.D2`
 
@@ -523,7 +523,7 @@ It isolates the exact remaining viscous wall:
 ```
 
 So the direct successor to `FEI.D2` is now the fixed-ball Sobolev theorem
-`FVR.F`, with `FVR.D` and then `FVR.A` as immediate readout corollaries, while
+`FVR.F`, with `FVR.D` and then `FVR.A` as first readout corollaries, while
 the pressure side has already been narrowed further to the direct fixed-ball
 Holder theorem `FPC.H`, with the larger-radius envelope and oscillation half
 already downstream of it by `LRE.C1`. One

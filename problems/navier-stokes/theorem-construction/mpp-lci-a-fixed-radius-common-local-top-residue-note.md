@@ -121,7 +121,7 @@ Consequently,
 
 ### Proof
 
-The lower bound `(FTR.A0)` is immediate because `(FTR.4)` is the restriction of
+The lower bound `(FTR.A0)` is the restriction of
 `(FTR.3)` to the subfamily `q=N+3,N+4`.
 
 For the upper bound, split the sum in `(FTR.3)` into

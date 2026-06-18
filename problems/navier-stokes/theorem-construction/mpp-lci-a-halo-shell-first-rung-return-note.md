@@ -83,7 +83,7 @@ ledger, Proposition `PTE.A` closes the far-tail half of `(AFS.A0)`. Corollary
 upgrades that to the frozen first-center import recorded on the residual note
 as `(RCF.1b)`. ∎
 
-### Reduction `HFR.B` (The same branch continues immediately to the FEI return layer)
+### Reduction `HFR.B` (The same branch continues directly to the FEI return layer)
 
 On the installed receiver route, the same stronger halo-shell packet also lies
 above `HSP.A`. So the honest direct successor beneath `HSP.A0a` is already the

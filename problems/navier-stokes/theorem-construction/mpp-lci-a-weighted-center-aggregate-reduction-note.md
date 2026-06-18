@@ -241,8 +241,9 @@ M_{1,\rho,\psi}^{ctr}\,
 and `(WCA.A3)` gives the same reduction for `q=1`.
 
 The remaining sums with `2\le \ell\le q-1` are exactly the multilinear ledger
-`\mathfrak Q_{N,m,\rho,\psi}^{ctr,w}` from `(WCA.4)`, up to a harmless change
-in constants. Collecting these bounds yields `(WCA.A0)`. ∎
+`\mathfrak Q_{N,m,\rho,\psi}^{ctr,w}` from `(WCA.4)`, with only the fixed
+combinatorial constant change from the finite index ranges. Collecting these
+bounds yields `(WCA.A0)`. ∎
 
 ## Exact Conditional Closure Beneath `RCF.A`
 

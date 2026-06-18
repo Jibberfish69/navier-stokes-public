@@ -123,7 +123,7 @@ Original smooth data gives finite energy and first-moment dissipation:
 
 The target `(LPCS.1)` is scale-critical on terminal heat-scale windows.  A short
 active pulse can keep first moment finite while the positive source carrier has
-order-one normalized mass on the selected window.  This is the same
+normalized mass bounded below by `c_0>0` on the selected window.  This is the same
 first-moment versus square-density obstruction recorded in the active-square
 residual-tail audit.
 

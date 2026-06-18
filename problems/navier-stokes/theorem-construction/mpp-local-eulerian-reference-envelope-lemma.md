@@ -182,7 +182,7 @@ Then
 
 ### Proof
 
-This is immediate from `(LE.10)`. ∎
+This is `(LE.10)` with the displayed supremum taken in `t`. ∎
 
 ## Interpretation
 

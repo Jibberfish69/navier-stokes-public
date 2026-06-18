@@ -67,8 +67,8 @@ readout ledger
 \tag{VCR.2}
 ```
 
-This is the exact non-halo local object whose center evaluation would discharge
-the remaining viscous-center ledger.
+This is the exact non-halo local object. Its center evaluation discharges the
+remaining viscous-center ledger through the displayed supremum bound.
 
 ### Proposition `VCR.A` (Direct center-ball Laplacian readout is sufficient for the first-rung viscous-center wall)
 
@@ -119,9 +119,10 @@ itself no longer defines a genuinely new external supplier family.
 
 ## One-Rung-Higher Sufficient Readout
 
-Because `\Delta U_1` is a universal contraction of the rung `U_3`, the direct
-Laplacian readout above is itself downstream of a one-rung-higher center-ball
-readout. Define
+With the rung convention `U_{q+\alpha}=\nabla^\alpha U_q`, the Laplacian is the
+fixed coordinate trace of the two extra derivative slots:
+`\Delta U_1=\operatorname{tr}_{2}U_3`. Thus the direct Laplacian readout above
+is itself downstream of a one-rung-higher center-ball readout. Define
 
 ```math
 \mathfrak R_{3,\rho,\psi}^{ctr,ball}(t)
@@ -150,7 +151,8 @@ Then
 
 ### Proof
 
-There is a universal constant `C` such that
+The fixed trace map `\operatorname{tr}_{2}` has finite operator norm, so there
+is a constant `C` depending only on dimension and tensor convention such that
 
 ```math
 \big|\Delta U_1(x,t)\big|

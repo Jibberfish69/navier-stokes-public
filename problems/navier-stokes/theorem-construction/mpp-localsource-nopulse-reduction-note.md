@@ -80,7 +80,7 @@ at the current route resolution.
 The installed source branch
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 is downstream-consumer source integrability.  It is used after `LCI.A` or

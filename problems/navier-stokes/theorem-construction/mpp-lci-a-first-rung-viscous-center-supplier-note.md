@@ -78,7 +78,8 @@ Then
 Proposition `PTE.A` gives
 `\mathfrak T_{1,\rho,\psi}^{press,far}\in L^\infty(I)\subset L^1(I)`. Since
 `(VCS.2)` is an exact identity of nonnegative ledgers on the finite interval
-`I`, `(VCS.4)` follows immediately. ∎
+`I`, the remaining summand `\mathfrak K_{1,\rho,\psi}^{visc,ctr}` also lies in
+`L^1(I)`, which is `(VCS.4)`. ∎
 
 So, on the energy-conditioned first-rung route, the residual lower-order
 supplier beneath `AFD.A` is no longer the pair from `AFS.A`. It is exactly

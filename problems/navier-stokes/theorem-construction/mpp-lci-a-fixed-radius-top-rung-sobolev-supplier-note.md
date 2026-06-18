@@ -101,7 +101,7 @@ So `(FTS.A1)` implies `FVR.F`, hence `FVR.D`, hence `FVR.A`.
 
 ### Proof
 
-Each derivative of `U_{N+2}` is a universal linear contraction of one higher
+Each derivative of `U_{N+2}` is a fixed coordinate projection of one higher
 derivative of `U_{N+1}`. More precisely, for `\beta=0,1,2`,
 
 ```math
@@ -111,8 +111,8 @@ derivative of `U_{N+1}`. More precisely, for `\beta=0,1,2`,
 \tag{FTS.A3}
 ```
 
-for a fixed finite family of universal contraction operators
-`\mathcal C_{\beta,N}`. Hence on every ball `B(c_j(t),\Lambda)`,
+where `\mathcal C_{\beta,N}` is the fixed finite-dimensional coordinate
+projection between derivative slots. Hence on every ball `B(c_j(t),\Lambda)`,
 
 ```math
 \sum_{\beta=0}^{2}

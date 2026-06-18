@@ -185,7 +185,7 @@ statement
 \tag{HSP.A0a}
 ```
 
-from which `(HSP.A0)` follows immediately because
+from which `(HSP.A0)` follows because
 `\mathcal G_{1,\rho,\psi}^{halo,\delta}` is one summand of
 `\mathcal G_{N,m,\rho,\psi}^{halo,low,\delta}`.
 
@@ -431,7 +431,7 @@ the coefficient side, with the larger-radius transported-center envelope
 `FPC.H` by `LRE.C1`, with the fixed-ball
 Sobolev theorem `FPC.A` only a
 sharp sufficient route beneath that direct Holder theorem, and the fixed-radius transported-center top-rung Sobolev theorem
-`FVR.F` on the top-viscous side, whose immediate readout corollaries are `FVR.D`
+`FVR.F` on the top-viscous side, whose first readout corollaries are `FVR.D`
 and `FVR.A`,
 with the cascade and drift mismatch already absorbed by the thickened collar envelope
 `\mathfrak C_{N+1,\rho,\psi}^{\delta+\Lambda_{\delta,\rho}^{halo}}`.

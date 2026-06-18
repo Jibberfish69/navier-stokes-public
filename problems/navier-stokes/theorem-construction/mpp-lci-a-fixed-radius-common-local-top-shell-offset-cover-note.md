@@ -244,7 +244,7 @@ C_N\,
 ### Proof
 
 Fix `z` with `|z|\le 4\Lambda` and one transported center `c_j(t)`. On the ball
-`B(c_j(t)+z,\Lambda)`, the same universal contraction identities used in
+`B(c_j(t)+z,\Lambda)`, the same fixed coordinate-projection identities used in
 `(FTS.A3)` give
 
 ```math
@@ -326,8 +326,8 @@ C_N\,
 ### Proof
 
 Fix `z` with `|z|\le 4\Lambda` and one transported center `c_j(t)`. On the
-shifted ball `B(c_j(t)+z,\Lambda)`, the same contraction identities used in
-`(FTS.A3)` give
+shifted ball `B(c_j(t)+z,\Lambda)`, the same fixed coordinate-projection
+identities used in `(FTS.A3)` give
 
 ```math
 \nabla^\beta U_{N+2}
@@ -415,8 +415,8 @@ gives
 Therefore the `q=N+2,N+3,N+4` zero-derivative slots in
 `\mathcal G_{N+4,N+4,\rho,\psi}^{low,\delta+5\Lambda_{\delta,\rho}^{halo}}`
 already measures the zero-derivative shifted top family `U_{N+2},U_{N+3},U_{N+4}`.
-For `\beta=1,2,3`, the same contraction identities used in `(FTL.A1)` give
-on `B(c_j(t)+z,\Lambda)`:
+For `\beta=1,2,3`, the same fixed coordinate-projection identities used in
+`(FTL.A1)` give on `B(c_j(t)+z,\Lambda)`:
 
 ```math
 \nabla^\beta U_{N+1}

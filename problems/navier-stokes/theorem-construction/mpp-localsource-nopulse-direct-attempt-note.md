@@ -29,7 +29,7 @@ consequence of the already installed downstream source supplier `FFSRC.A`.
 The strengthened source theorem has the downstream form:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 It proves `L^1(I)` integrability of frozen-family source contributions used by
@@ -143,8 +143,8 @@ A second possible route is a local active-source Carleson theorem:
 ```
 
 for the same heat-scale windows that define `Bad_N(\eta)`.  Such a theorem
-would imply `LocalSource.NoPulse.A` by covering the bad set with the active
-window family.
+implies `LocalSource.NoPulse.A` only after those windows cover the bad set with
+bounded overlap.
 
 No installed note proves this Carleson smallness.  The existing source closure
 only gives integrability for selected frozen families, not uniform decay of the

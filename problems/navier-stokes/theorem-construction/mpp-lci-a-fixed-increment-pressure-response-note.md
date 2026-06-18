@@ -135,7 +135,7 @@ For each `k`, the localized pressure source behind
 \tag{FPR.8}
 ```
 
-with the obvious low-order interpretation when `k=0`.
+with the low-order `k=0` interpretation obtained by removing the derivative block.
 
 The derivative-LP bridge note supplies the exact shellwise source localization:
 strict low-high, strict high-low, and finite-collar resonant packets. So the
@@ -497,7 +497,7 @@ C_{k,\rho,\psi,\delta,I}
 
 Multiply by `|\delta_\eta U_k(c_j(t),t)|`, sum in `k`, take the supremum in
 `j`, and again use `2ab\le a^2+b^2`. This gives `(FPR.C2b)`. The conditional
-bound `(FPR.C2c)` is immediate from
+bound `(FPR.C2c)` is obtained from
 `|y-c_j(t)|^{-(k+4)}\le (2\Lambda_{\delta,\rho}^{halo})^{-(k+4)}` on the
 integration region. ∎
 
@@ -763,7 +763,7 @@ then
 
 ### Proof
 
-This is immediate from the inclusion of the underlying raw collar sets. ∎
+This follows from the inclusion of the underlying raw collar sets. ∎
 
 So the widened collar half is only a radius-comparison issue. The genuine new
 pressure-side obstruction is the absolute fixed-radius `5\Lambda`

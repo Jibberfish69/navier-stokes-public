@@ -18,9 +18,9 @@ LocalActiveCarleson.A:
 ```
 
 The windows `\mathcal Q` are the same heat-scale same-fluid active windows used
-to define the terminal bad set.  This theorem would imply
-`LocalSource.NoPulse.A` by covering `Bad_N(\eta)` with bounded-overlap active
-windows.
+to define the terminal bad set.  The theorem implies `LocalSource.NoPulse.A`
+only after the displayed Carleson smallness is proved for a bounded-overlap
+cover of `Bad_N(\eta)`.
 
 The target is not installed by the existing Carleson, SCF, source, or averaged
 cover notes.

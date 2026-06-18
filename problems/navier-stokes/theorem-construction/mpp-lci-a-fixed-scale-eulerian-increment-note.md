@@ -637,8 +637,8 @@ By `(TC.12)`,
 \tag{FEI.5zi}
 ```
 
-For `0\le k\le N-1`, each component of `\Delta U_k` is a universal contraction
-of `U_{k+2}`. Since `k+2\le N+1`, the values
+For `0\le k\le N-1`, each component of `\Delta U_k` is the coordinate trace of
+the two derivative slots in `U_{k+2}=\nabla^2U_k`. Since `k+2\le N+1`, the values
 `U_{k+2}(c_j(t),t)` and `U_{k+2}(c_j(t)+\eta,t)` both lie inside the thickened
 collar envelope, so those lower viscous increments contribute only to the same
 coefficient class as `(FEI.5zc)`. The only viscous increment not absorbed that

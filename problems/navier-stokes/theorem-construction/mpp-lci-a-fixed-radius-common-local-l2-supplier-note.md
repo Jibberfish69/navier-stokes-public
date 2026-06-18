@@ -123,7 +123,7 @@ hence `FPL.C`, `FTL.C`, `FPC.H`, and `FVR.F`.
 
 ### Proof
 
-The first inequality is immediate because `(FCL.2a)` is the restriction of
+The first inequality is the restriction of
 `(FCL.3)` to the subfamily `q=1,\dots,N+2`.
 
 For the second inequality, fix `j`. Because

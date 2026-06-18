@@ -38,7 +38,7 @@ Define the interval energy ledger
 [carrier-realization-classical-identification.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md)
 records in Proposition `R6` that a Leray--Hopf solution on the realized
 carrier satisfies the classical energy inequality, and in the regular class
-this becomes the standard energy identity.
+this becomes the classical energy identity.
 
 So on any still-live interval where that classical energy surface is imported,
 `\mathfrak E_I^{vel}<\infty` is already a lawful route-native datum.

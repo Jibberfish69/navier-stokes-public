@@ -107,7 +107,8 @@ C_{\rho,\psi,\delta,I}\,
 \tag{VHR.A3}
 ```
 
-Now `\Delta U_1` is a universal contraction of the rung `U_3`, so
+Now `\Delta U_1=\operatorname{tr}_{2}U_3` by the fixed coordinate trace over
+the two derivative slots added to `U_1`, so
 
 ```math
 \big|\Delta U_1(c_j(t),t)\big|

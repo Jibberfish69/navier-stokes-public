@@ -90,8 +90,9 @@ For `\beta=1,2,3`,
 \tag{FTL.A1}
 ```
 
-for a fixed finite family of universal contraction operators
-`\mathcal C_{\beta,N}`. Hence on every ball `B(c_j(t),\Lambda)`,
+where `\mathcal C_{\beta,N}` is the fixed finite-dimensional coordinate
+projection identifying the derivative slots of the tower rung. Hence on every
+ball `B(c_j(t),\Lambda)`,
 
 ```math
 \sum_{\beta=1}^{3}

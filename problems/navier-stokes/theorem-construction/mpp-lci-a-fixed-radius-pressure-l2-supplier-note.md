@@ -113,9 +113,9 @@ For `q=1,\dots,N+1` and `\beta=0,1`,
 \tag{FPL.A3}
 ```
 
-for a fixed finite family of universal contraction operators
-`\mathcal C_{\beta,q}`; for `\beta=0` this is the identity. Therefore on every
-fixed ball `B(c_j(t),R_{\rho,\delta}^{press})`,
+where `\mathcal C_{\beta,q}` is the fixed finite-dimensional coordinate
+projection between derivative slots; for `\beta=0` this is the identity.
+Therefore on every fixed ball `B(c_j(t),R_{\rho,\delta}^{press})`,
 
 ```math
 \sum_{q=1}^{N+1}
