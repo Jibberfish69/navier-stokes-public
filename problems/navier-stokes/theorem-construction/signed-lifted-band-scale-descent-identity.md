@@ -332,6 +332,11 @@ That note proves the two reduction lemmas:
 2. the spill term `\chi_{mid}\mathcal S^{spill}` reduces, in the scalarized
    pairing, to the same-scale edge packet modulo admissible collar errors.
 
+Here "modulo admissible collar errors" has only the structural meaning fixed in
+`lifted-band-collar-class-reduction-lemma.md`; those leftovers are absorbed only
+after the collar residual bound `(collar-res)` is supplied for the named
+residual packet.
+
 So the signed lifted-band route now satisfies
 
 ```math
