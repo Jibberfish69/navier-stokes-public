@@ -32,7 +32,8 @@ After the Young-margin split,
 ```math
 |\mathcal N_s(X)|
 \le
-\varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\|X\|_{H_D^s}^2+	ext{lower-order terms}.
+\varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\|X\|_{H_D^s}^2+
+\text{lower-order terms}.
 ```
 
 Since
@@ -44,7 +45,7 @@ Since
 one obtains at best the linear form when every nonlinear coefficient is carried by the dissipative factor. The current readout-compatible commutator package includes product terms where the coefficient is controlled only by the lifted energy itself. In the standard high-Sobolev Navier-Stokes closure this yields the growth bound
 
 ```math
-E'(t)\\le C E(t)^{3/2}+C E(t)+C.
+E'(t)\le C E(t)^{3/2}+C E(t)+C.
 ```
 
 Thus the current available `Phi_s` is
