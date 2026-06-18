@@ -677,6 +677,39 @@ Edited live surfaces:
 - `theorem-construction/referee-hard-upgraded-body4-packet-subsection.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Standard-Proof-Verb Displayed-Inequality Rework
+
+Old loose step:
+
+- `meso-scale-shear-inefficiency-theorem.md` said standard kernel commutator
+  calculus gave the gap factor.
+- `tail-energy-strict-low-mode-reduction-lemma.md` called the displayed
+  commutator inequality the "standard" fixed-gap estimate.
+- `mpp-affine-readout-condition-number-budget-direct-attempt-20260609.md` said
+  standard singular-value comparison gave the differential comparison.
+- `coherent-readout-low-mode-comparison-theorem.md` said standard
+  Bernstein/Sobolev localization gave the low-mode comparison.
+
+Exact replacement:
+
+Each surface now points to the displayed inequality itself as the proof step:
+the lifted-band carrier contains \(2^{-(j-k)}\), the commutator estimate follows
+from the preceding mean-value/kernel-moment bounds, the affine readout uses the
+displayed differential singular-value comparison, and the low-mode comparison
+uses the displayed Bernstein/Sobolev inequalities with named constants and
+\(s>5/2\).
+
+Downstream consequence: these surfaces no longer let "standard" carry proof
+force.  Their downstream use is allowed only through the displayed inequalities
+and their stated hypotheses.
+
+Edited live surfaces:
+
+- `theorem-construction/meso-scale-shear-inefficiency-theorem.md`;
+- `theorem-construction/tail-energy-strict-low-mode-reduction-lemma.md`;
+- `theorem-construction/mpp-affine-readout-condition-number-budget-direct-attempt-20260609.md`;
+- `theorem-construction/coherent-readout-low-mode-comparison-theorem.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
