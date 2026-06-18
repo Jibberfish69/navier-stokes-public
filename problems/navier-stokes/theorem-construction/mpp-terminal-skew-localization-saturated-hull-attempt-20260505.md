@@ -55,7 +55,7 @@ and
 =
 \operatorname{Sat}_{q}(\mathcal F_N)
 \cup
-\{\text{all packet endpoints of the formal signed counter-edges of edges
+\{\text{all packet endpoints of the bare algebraic signed counter-edges of edges
 meeting }\operatorname{Sat}_{q}(\mathcal F_N)\}.
 ```
 
@@ -106,13 +106,13 @@ surface actually consumed by the source-wall route, after:
 - terminal same-fluid selection;
 - positive-source consumer restriction.
 
-The saturated hull repairs only the easiest defect: a missing formal
-counter-edge caused by restricting the packet family too early.  It does not
-repair the two defects that survive on the live object.
+The saturated hull repairs only the easiest defect: a missing algebraic
+counter-edge endpoint caused by restricting the packet family too early.  It
+does not repair the two defects that survive on the live object.
 
 ### 1. Weighted/Lifted Exchange Is Not Antisymmetric On The Hull
 
-Even if both endpoints of a formal counter-edge are included, the live weighted
+Even if both endpoints of an algebraic counter-edge are included, the live weighted
 source contribution has the form
 
 ```math

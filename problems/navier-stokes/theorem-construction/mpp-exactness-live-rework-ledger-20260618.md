@@ -3996,7 +3996,11 @@ pricing.  Bare skew symmetry cannot be spent as a terminal same-record pairing.
 Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`;
-- `theorem-construction/mcp-skew-saturation-admissibility-attempt-20260505.md`.
+- `theorem-construction/mcp-skew-saturation-admissibility-attempt-20260505.md`;
+- `theorem-construction/mpp-terminal-signed-saturation-direct-attempt-20260505.md`;
+- `theorem-construction/mpp-signed-samefluid-edgepairing-direct-attempt-20260505.md`;
+- `theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md`;
+- `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`.
 
 ## Edited Or Preserved Residues
 

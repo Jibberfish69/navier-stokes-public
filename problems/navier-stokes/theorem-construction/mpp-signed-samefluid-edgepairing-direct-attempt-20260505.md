@@ -175,9 +175,9 @@ Start from a positive edge contribution:
 \left[d\mathcal S^{nl}(P^-\to P)\right]_+.
 ```
 
-Using the global exchange identity, assign the formal counter-edge produced by
-the transposed interaction.  This gives a symbolic pairing on the full
-unlocalized signed exchange graph.
+Using the global exchange identity, assign the bare unlocalized algebraic
+counter-edge produced by the transposed interaction.  This gives only a
+symbolic pairing on the full unlocalized signed exchange graph.
 
 To promote the symbolic pairing to `EdgePairing.A`, one must prove the
 following terminal saturation statement:

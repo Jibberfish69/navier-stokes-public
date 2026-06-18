@@ -40,8 +40,8 @@ P\in\mathcal F_N,
 d\mathcal S^{active}_{N,loc}(e;P)>0,
 ```
 
-let `e^\ast` denote the formal signed counter-edge supplied by the unlocalized
-Navier--Stokes dyadic skew exchange.  The target charge is:
+let `e^\ast` denote the bare algebraic signed counter-edge supplied by the
+unlocalized Navier--Stokes dyadic skew exchange.  The target charge is:
 
 ```math
 \boxed{
@@ -70,7 +70,7 @@ The bare unweighted dyadic exchange has exact skew symmetry:
 ```
 
 Thus, on a full finite unweighted closed interaction graph, every positive
-edge has a formal negative partner.
+edge has a bare algebraic negative partner.
 
 The terminal route does not consume `(OFC.2)` directly.  It consumes a
 localized, one-sided weighted, lifted, terminal-selected, positive-parted
@@ -89,7 +89,7 @@ mass of `Q` outside the selected usable ledger is automatically paid.
 ## Direct Attempt
 
 Take a selected positive terminal source edge `e:Q\to P` with
-`P\in\mathcal F_N`.  Use `(OFC.2)` to assign its formal negative partner
+`P\in\mathcal F_N`.  Use `(OFC.2)` to assign its bare algebraic negative partner
 `e^\ast`.  Split the cases.
 
 ### 1. Geometric spill cases
@@ -266,7 +266,7 @@ OffFamilyCounteredgeCharge.A.
 ```
 
 Proof.  Apply `TerminalSignedSaturation.A` to every selected positive terminal
-source edge.  If the formal counter-edge remains in the same usable terminal
+source edge.  If the algebraic counter-edge remains in the same usable terminal
 ledger, it contributes no off-family charge.  If it leaves the ledger,
 `TerminalSignedSaturation.A` says exactly that it is paid by installed legal
 loss.  Summing over the bounded-overlap selected family gives `(OFC.1)`.
@@ -292,7 +292,7 @@ Proof.  Use `BareDyadicSkewCurrent.0` to assign the full unweighted
 antisymmetric current.  Move the weighted coefficient mismatch and lifted /
 cutoff commutator residual into the ledger and pay it by
 `WeightedLiftedSkewDefectCharge.A`.  For every selected positive edge whose
-formal counter-edge exits the usable selected terminal ledger, apply
+algebraic counter-edge exits the usable selected terminal ledger, apply
 `OffFamilyCounteredgeCharge.A`.  The remaining paired terms lie inside the
 same saturated same-fluid terminal ledger and define the desired antisymmetric
 current.  Bounded overlap gives the terminal ledger estimate.

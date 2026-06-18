@@ -88,7 +88,8 @@ e:P^-\to P^+,
 d\mathcal S_e(P^+)>0.
 ```
 
-Use `(TSS.2)` to assign its formal counter-edge.  The hoped-for proof is:
+Use `(TSS.2)` to assign its bare unlocalized algebraic counter-edge.  The
+hoped-for proof is:
 
 1. retain both endpoints in a same-fluid signed ledger;
 2. charge all defects created by localization and weighting as legal loss;
@@ -156,7 +157,7 @@ packet transport do not force a negative partner on the same terminal ledger.
 
 ### Terminal selection
 
-The negative formal counter-edge may lie outside `\mathcal F_N`, outside the
+The negative algebraic counter-edge may lie outside `\mathcal F_N`, outside the
 same time window, in a donor packet not selected as terminal bad, or in a
 collar/off-family spill.  Same-fluid fidelity preserves admissible labels, but
 it does not prove the counter-edge remains in the selected consumer ledger or

@@ -6,7 +6,10 @@ Failed as an unconditional theorem from the currently installed terminal packet 
 
 ## Target
 
-Given a bounded-overlap same-fluid terminal packet family `\mathcal F_N`, form the saturated family `\mathcal F_N^\sharp` by adjoining the formal signed counter-edge partners of every selected terminal source edge.  Prove:
+Given a bounded-overlap same-fluid terminal packet family `\mathcal F_N`, form
+the candidate saturated family `\mathcal F_N^\sharp` by adjoining the
+bare/unlocalized algebraic counter-edge partners of every selected terminal
+source edge.  Prove:
 
 ```math
 \mathcal F_N^\sharp
