@@ -6248,3 +6248,44 @@ Surfaces edited:
 
 - `theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md`;
 - `theorem-construction/mpp-still-live-smooth-window-implies-class-membership-theorem.md`.
+
+## TW.RIG Legal-Error Residual Repair
+
+Old claim being spent:
+
+The tangent-weight rigidity note and appendix mirror used "up to legal
+commutator and cutoff errors" and then said the first weighted exchange sum
+obeyed an estimate, but the appendix mirror omitted the estimate itself.
+
+Exact replacement:
+
+The note now writes the unweighted exchange defect as
+
+```text
+R_e^lift + R_{e*}^lift = C_e^comm + C_e^cut,
+```
+
+and states that these pieces are legal only when included in `Err_N` and
+controlled by
+
+```text
+int_{Q_N} |Err_N| <= o_N(1) + Loss_legal(F_N).
+```
+
+The appendix mirror now displays the missing first-sum estimate:
+
+```text
+| int (1/2) sum_e (W_e - W_{e*}) R_e |
+<= (1/2) omega_N sum_e int |R_e|.
+```
+
+Downstream consequence:
+
+`TW.RIG.A` remains a conditional bridge. The signed lifted defect vanishes only
+after terminal weight flattening, exchange tightness, the explicit legal-loss
+bound, and source-defect compatibility before positive-part extraction.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-tw-rig-a-ttu-a-662b1d053d.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
