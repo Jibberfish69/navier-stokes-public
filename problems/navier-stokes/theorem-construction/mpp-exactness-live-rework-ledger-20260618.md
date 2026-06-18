@@ -4780,6 +4780,100 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `submission-bundle/navier-stokes-submission.tex`.
 
+## Active Theorem-Note Standard-Step And Commutator Repair
+
+Old loose step:
+
+- `h2-standalone-half-derivative-bound.md` and the mirrored reader-appendix
+  subsection said the fractional transport part cancels after a commutator
+  rewrite and left only the vortex-stretching channel. At the
+  \(\dot H^{1/2}\) level that is not exact: the advective term cancels only
+  after a transport commutator has been split off.
+- `exact-dyadic-interaction-decomposition.md` and its reader-appendix mirror
+  equated the stretching shell pairing with the transport commutator. That
+  conflated two different channels in the vorticity shell identity.
+- `signed-weighted-lifted-remainder-theorem-attempt.md` and its appendix mirror
+  used "standard paracommutator expansion" and "lower order collar terms"
+  where the sign obstruction depends on the exact principal term and on the
+  status of the remainder.
+- `mcp-residualpair-a-conditional-decomposition-20260504.md`,
+  `mpp-transported-partition-lp-commutator-hhalf-20260528.md`,
+  `mpp-torus-global-material-atlas-terminal-capture-20260526.md`, and
+  `mcp-zenosquarepulserigidity-a-conditional-reduction-source-wall-root-after-reconcile-2e3abf5731.md`
+  used "standard," "usual," or "familiar" summary phrases at proof-entry
+  points.
+
+Exact replacement:
+
+The half-derivative identity now reads
+\[
+  \frac12\frac{d}{dt}E_{1/2}(t)
+  +\nu\|\omega(t)\|_{\dot H^{3/2}}^2
+  =
+  \mathcal S_{1/2}(t)-\mathcal T_{1/2}(t),
+\]
+where \(\mathcal S_{1/2}\) is the stretching pairing and
+\[
+  \mathcal T_{1/2}(t)
+  =
+  \langle[\Lambda^{1/2},u\cdot\nabla]\omega,\Lambda^{1/2}\omega\rangle .
+\]
+The exact transport calculation is displayed, and the target estimate is now a
+bound for \(\mathcal S_{1/2}-\mathcal T_{1/2}\), not for stretching alone.
+
+The dyadic shell identity now separates
+\[
+  S_j=\langle\Delta_j(\omega\cdot\nabla u),\Delta_j\omega\rangle,\qquad
+  T_j=\langle[\Delta_j,u\cdot\nabla]\omega,\Delta_j\omega\rangle,
+\]
+and records the exact shell energy equation
+\[
+  \frac12\frac{d}{dt}\|\Delta_j\omega\|_2^2
+  +\nu\|\nabla\Delta_j\omega\|_2^2
+  =
+  S_j-T_j.
+\]
+Transport cancellation leaves \(T_j\); it does not identify \(S_j\) with \(T_j\).
+
+The lifted-remainder note now states the Coifman--Meyer commutator expansion
+with an explicit fixed-collar remainder
+\[
+  [\Delta_j,a_k\cdot\nabla]\Delta_\ell u
+  =
+  2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)
+  +\mathcal E_{j,k,\ell},
+\]
+with
+\[
+  \|\mathcal E_{j,k,\ell}\|_2
+  \le
+  C_{\rm col}2^{-j}\|\nabla a_k\|_{L^\infty}
+  \|\nabla\Delta_\ell u\|_2.
+\]
+
+The residual-pair, transported-partition, torus-atlas, and Zeno notes now name
+their exact displayed estimates, terminal records, packet-test-density inputs,
+or remaining class-production atom instead of using standard/familiar wording
+as proof authority.
+
+Downstream consequence:
+
+Any half-derivative closure or dyadic coercive deficit now has to control the
+combined stretching-minus-transport-commutator expression. A route that
+suppresses only vortex stretching no longer pays the H2 burden unless it also
+controls the fractional transport commutator at the same coercive scale.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/h2-standalone-half-derivative-bound.md`;
+- `theorem-construction/exact-dyadic-interaction-decomposition.md`;
+- `theorem-construction/signed-weighted-lifted-remainder-theorem-attempt.md`;
+- `theorem-construction/mcp-residualpair-a-conditional-decomposition-20260504.md`;
+- `theorem-construction/mpp-transported-partition-lp-commutator-hhalf-20260528.md`;
+- `theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md`;
+- `theorem-construction/mcp-zenosquarepulserigidity-a-conditional-reduction-source-wall-root-after-reconcile-2e3abf5731.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
