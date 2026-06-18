@@ -35,7 +35,7 @@ Current endpoint definitions supply threshold selectors: for each threshold ther
 A finite-complexity theorem would be sufficient:
 
 ```math
-\exists C_1,\dots,C_J,
+\exists C_1,\dots,C_J,
 \quad
 \sup_{a\in C_j}s(a,t)
 \le C s(a_j,t)+e_j(t),
@@ -72,7 +72,18 @@ Together with labelwise finite strain integrals, this gives `Pack.TTU`.
 
 ## Moving-spike obstruction
 
-Without finite complexity or an integrable label modulus, a moving-spike pattern on compact `A_Q` can satisfy
+Without finite complexity or an integrable label modulus, the following exact
+measurable model blocks the implication.  Let `A_Q=[0,1]`.  Choose pairwise
+disjoint label intervals `U_n` and pairwise disjoint terminal time intervals
+`I_n`.  Let `\chi_n` and `\psi_n` be nonnegative bumps supported in `U_n` and
+`I_n`, with `sup_a chi_n(a)=1`, and choose amplitudes `h_n` so that
+`h_n\int_{I_n}\psi_n(t)\,dt=1`.  Set
+
+```math
+s(a,t)=\sum_n h_n\chi_n(a)\psi_n(t).
+```
+
+Then each fixed label is contained in at most one label support, so
 
 ```math
 \int s(a,t)dt<\infty
@@ -82,10 +93,17 @@ Without finite complexity or an integrable label modulus, a moving-spike pattern
 while
 
 ```math
-\int \sup_a s(a,t)dt=\infty.
+\int \sup_a s(a,t)dt
+\ge
+\sum_n h_n\int_{I_n}\psi_n(t)dt
+=\sum_n 1
+=\infty.
 ```
 
-The same construction defeats every fixed finite selector.
+The same construction defeats every fixed finite selector by placing all later
+`U_n` away from that finite set.  This is a countermodel to the abstract
+labelwise-to-supremal implication; it is not asserted as a Navier--Stokes
+solution.
 
 ## Verdict
 

@@ -46,9 +46,13 @@ Jump_{avg}.
 
 ## Relation to other faces
 
-The implication to `tower-blown` would require extracting unbounded finite-depth tower amplitude from persistent scale-critical badness. That is a separate concentration-to-tower theorem.
+The implication to `tower-blown` requires extraction of unbounded finite-depth
+tower amplitude from persistent scale-critical badness. That is a separate
+concentration-to-tower theorem.
 
-The implication to `packing-detached` would require extracting pack-gauge escape from persistent scale-critical badness. That is a separate concentration-to-pack theorem.
+The implication to `packing-detached` requires extraction of pack-gauge escape
+from persistent scale-critical badness. That is a separate concentration-to-pack
+theorem.
 
 The current grammar-level consequence is therefore exactly
 

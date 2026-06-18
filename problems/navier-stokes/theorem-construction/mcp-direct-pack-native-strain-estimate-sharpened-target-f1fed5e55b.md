@@ -97,7 +97,9 @@ If the retained packet has a preferred stretching direction `e(a,t)`, one may tr
 S_{pack,Q}^{align}(t):=\sup_{a\in A_Q(t)} e(a,t)\cdot S(u)(X(a,t),t)e(a,t).
 ```
 
-This coefficient controls the largest singular value along the actual stretching direction. A proof would require a closed equation for the direction field and an integrable bound for the positive part of the aligned strain.
+This coefficient controls the largest singular value along the actual stretching
+direction. The missing proof inputs are a closed equation for the direction
+field and an integrable bound for the positive part of the aligned strain.
 
 ## Obstruction
 

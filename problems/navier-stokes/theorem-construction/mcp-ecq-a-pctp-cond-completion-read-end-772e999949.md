@@ -58,7 +58,7 @@ At route depth `N` above a classical continuation index `s>5/2`, persistence of 
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-The standard local classical Navier-Stokes theory in `H^s(T^3)` gives a lifespan depending only on this bound. Choose `t_j\uparrow T_*`; for large `j`, the solution launched from `u(t_j)` exists past `T_*`, and uniqueness identifies it with the original solution on the overlap. Hence
+The periodic `H^s`, `s>5/2`, local well-posedness/relaunch theorem gives a lifespan depending only on this bound. Choose `t_j\uparrow T_*`; for large `j`, the solution launched from `u(t_j)` exists past `T_*`, and uniqueness identifies it with the original solution on the overlap. Hence
 
 ```math
 T_* = \infty.

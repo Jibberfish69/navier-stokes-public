@@ -64,7 +64,7 @@ Persistence of `CM` on the retained same-fluid cover gives the continuation read
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-The standard `H^s` local theory then gives a common lifespan
+The `H^s`, `s>5/2`, local theory then gives a common lifespan
 
 ```math
 \tau=\tau\left(\sup_{t<T_*}\|u(t)\|_{H^s}\right)>0.

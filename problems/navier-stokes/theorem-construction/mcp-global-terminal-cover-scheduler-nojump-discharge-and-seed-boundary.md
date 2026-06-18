@@ -2,7 +2,7 @@
 
 ## Target
 
-Work on the frontier-loop item `global finite/summable terminal cover scheduler` after the local `AACT.KX` absorption repair.
+Work on the frontier-loop item `global finite/summable terminal cover scheduler` after the local `AACT.KX` coefficient-margin repair.
 
 The relevant scheduler target is
 

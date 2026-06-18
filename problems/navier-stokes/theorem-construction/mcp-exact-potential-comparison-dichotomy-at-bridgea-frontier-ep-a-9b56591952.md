@@ -60,7 +60,7 @@ then
 Err_{cmp}^{frame}=0.
 ```
 
-The comparison estimate closes immediately.
+The comparison estimate closes at this point.
 
 However, the existing selector-strain route consumes the current CG projector `P_J^CG`. Therefore aligned-reference consistency requires one of:
 
@@ -78,7 +78,10 @@ proved without using the BridgeA comparison itself.
 
 ## Obstruction
 
-A shared simple-top gap gives perturbative stability only after tensor closeness is supplied. It cannot supply tensor closeness. Two symmetric tensors can both carry a uniform simple-top gap while their top eigendirections differ by order one.
+A shared simple-top gap gives perturbative stability only after tensor closeness
+is supplied. It cannot supply tensor closeness. For example,
+\(A=\operatorname{diag}(2,1,0)\) and \(B=R_{\pi/4}AR_{\pi/4}^{T}\) both have
+top gap \(1\), while their top eigendirections meet at angle \(\pi/4\).
 
 ## Exact remaining input
 

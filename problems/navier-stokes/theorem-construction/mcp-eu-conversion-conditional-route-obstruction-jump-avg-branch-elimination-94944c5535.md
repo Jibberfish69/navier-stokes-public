@@ -26,7 +26,9 @@ E_u terminal threshold => D_u/P terminal mass
 
 on the same terminal schedule.
 
-A Poincare conversion would need a zero-mode-free or affine-relative E_u normalization strong enough to remove local mean or affine energy. That theorem is not installed as an unconditional component-selection rule.
+A Poincare conversion requires a zero-mode-free or affine-relative E_u
+normalization strong enough to remove local mean or affine energy. That theorem
+is not installed as an unconditional component-selection rule.
 
 Adding E_u to the charge also remains unavailable, because no additive finite carrier for repeated scale-critical E_u terminal packets is installed.
 

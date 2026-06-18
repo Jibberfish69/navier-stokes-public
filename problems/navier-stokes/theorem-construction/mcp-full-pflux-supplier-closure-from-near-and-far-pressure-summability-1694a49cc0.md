@@ -55,7 +55,7 @@ C\sum_k2^{(2a-1)k}\int\|u\otimes u\|_{L^2(A_k^*)}\|u\|_{L^2(A_k)}
 C\sum_k2^{(2a-1)k}\int F_k\|u\|_{L^2(A_k)}.
 ```
 
-The first term is finite by near summability. The second is finite by far summability. The annular mean `c_k(t)` contributes no gradient pressure flux after the pressure is represented by the normalized Riesz pressure, or is absorbed into the harmless time normalization on each annulus.
+The first term is finite by near summability. The second is finite by far summability. The annular mean `c_k(t)` contributes no gradient pressure flux after the pressure is represented by the normalized Riesz pressure, because `\nabla c_k(t)=0` on each annulus. Equivalently, subtracting `c_k(t)` changes only the pressure gauge on that annulus.
 
 Therefore `PFlux.Supplier` holds. The previously installed `PFlux.W` theorem then gives the weighted pressure flux estimate.
 

@@ -1,6 +1,6 @@
 # Forced Periodic Source/Readout Branch Attempt
 
-Status: failed as an immediate extension. The forced periodic branch remains separate.
+Status: failed as a direct extension. The forced periodic branch remains separate.
 
 ## Target
 

@@ -23,7 +23,9 @@ Q^\Phi(I,A_\sharp)
 r_*:=\min_i r_i>0.
 ```
 
-Each cover element is `\varepsilon_m`-good and therefore supports `ATD_m^\varepsilon` on a shrunken cylinder.
+For each cover element, the input includes an `ATD_m^\varepsilon` certificate
+on a fixed shrunken cylinder. The shrink factor and constants belong to that
+certificate; they are not inferred from the word `\varepsilon_m`-good alone.
 
 ## Proof
 
@@ -33,7 +35,7 @@ The strict positive lower scale `r_*>0` prevents degeneration of the constants. 
 
 `Field_avg` gives averaged coherence on each element. Local stability from `ATD_m^\varepsilon` converts this to pointwise coherence on each shrunken element. Finite chain connectivity across overlaps propagates the same pointwise field identity across the retained approach window.
 
-Thus the old field predicate holds:
+These inputs give the old field predicate:
 
 ```math
 Field_{N,r,Q}.

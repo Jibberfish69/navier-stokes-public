@@ -10,7 +10,7 @@ Prove from original smooth data that active terminal high-shell packet direction
 \le o_N(1)+\text{legal losses}.
 ```
 
-This would feed
+Once supplied, this feeds
 
 ```math
 EigenDecorrel.A\Longrightarrow TerminalSourceCoherence.A\Longrightarrow PositiveSourceDepletion.A\Longrightarrow SourcePulseExclusion.A.
@@ -26,7 +26,10 @@ Pressure Poisson recovery gives elliptic response and routes pressure losses. It
 
 Same-fluid transport preserves legal labels and carrier fidelity. It gives no angular mixing rate or eigendirection decorrelation mechanism.
 
-Beltrami/helical or vorticity-direction coherence would help if supplied. Current original-data inputs do not force terminal active packets into those coherent classes, and no bridge from such coherence to the exact weighted active source packet is installed.
+Beltrami/helical or vorticity-direction coherence is a sufficient extra
+structure only after a theorem produces that coherence on the selected terminal
+active packets and bridges it to the exact weighted active source packet.
+Current original-data inputs do neither.
 
 ## Result
 

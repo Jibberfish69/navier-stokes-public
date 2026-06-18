@@ -62,7 +62,8 @@ LowMode.A+SP.A+HH.Abs.Q\Longrightarrow GC.A.
 
 The strict low-mode, threshold-spill, and high-high estimates are local Fourier estimates plus finite-collar summations. They hold on the interior region where `\chi_R=1`.
 
-Commuting the cutoff through the equation introduces boundary terms supported in `B_{2R}\setminus B_R`. The representative terms are
+Commuting the cutoff through the equation introduces boundary terms supported in
+`B_{2R}\setminus B_R`. The boundary terms under test are
 
 ```math
 R^{-1}\int_{B_{2R}\setminus B_R}|u||\nabla u||\Delta_j u|,

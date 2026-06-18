@@ -44,4 +44,7 @@ SourcePulseExclusion.A.
 
 ## Verdict
 
-The eigen-decorrelation branch remains open. The loop should proceed to `SignedPositiveBalance.A`.
+The eigen-decorrelation branch remains open.  The downstream signed-balance
+branch must compare positive and negative parts of the same selected localized
+source carrier after one-sided weights, cutoffs, terminal packet selection, and
+positive-part extraction.

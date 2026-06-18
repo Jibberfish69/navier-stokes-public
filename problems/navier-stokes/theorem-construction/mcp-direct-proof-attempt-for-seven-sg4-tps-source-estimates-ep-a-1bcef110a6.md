@@ -80,7 +80,9 @@ Support localization is
 supp\,\beta_J\subset B_J.
 ```
 
-The proof is immediate once `B_J` is defined as a support carrier. The source theorem is that this carrier belongs to a small weighted bad family.
+Once `B_J` is defined as a support carrier, the displayed support inclusion is
+just `supp\,\beta_J\subset B_J`. The source theorem is that this carrier
+belongs to a small weighted bad family.
 
 ## 6. BootSquare mass
 

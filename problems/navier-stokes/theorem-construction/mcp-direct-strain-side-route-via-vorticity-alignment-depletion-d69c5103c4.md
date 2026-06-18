@@ -60,4 +60,6 @@ A sufficient theorem is
 
 ## Verdict
 
-The direct strain route is reduced to an alignment-depletion estimate for the positive directional strain. This side route bypasses the averaged terminal-tail machinery and would give an independent pack-gauge proof if completed.
+The direct strain route is reduced to an alignment-depletion estimate for the
+positive directional strain. If completed, this side route gives an independent
+pack-gauge proof without the averaged terminal-tail machinery.

@@ -121,7 +121,10 @@ SourcePulseExclusion.A.
 
 ## Direct proof attempt for the common atom
 
-The tempting proof is to use fixed positive viscosity to force nonzero heat-time participation.  That would say a nonzero source residue needs positive residence time on heat-scale windows.
+The failed shortcut is the implication from fixed positive viscosity to nonzero
+heat-time participation. The required theorem is an explicit positive residence
+estimate: nonzero native source residue must occupy heat-scale windows for a
+positive amount of parabolic time.
 
 The direct test fails.  A scalar time marginal
 

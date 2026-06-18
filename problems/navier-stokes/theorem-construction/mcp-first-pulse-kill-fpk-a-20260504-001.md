@@ -61,7 +61,8 @@ The selected cylinder has normalized mass
 \nu_n(Q_1(0,0))\ge\eta,
 ```
 
-so the limiting object carries nontrivial terminal source residue, up to the standard boundary-null cylinder choice.
+ so the limiting object carries nontrivial terminal source residue, up to the
+ fixed boundary-null cylinder choice.
 
 ## Earliest-pulse exclusion of backward source mass
 
@@ -71,7 +72,7 @@ Fix `a>0`. Suppose the selected source-pulse class has
 \nu_*(\{s<-a\})>0.
 ```
 
-By inner regularity, choose a compact set `K\subset\{s<-a\}` with positive `\nu_*` mass. Cover `K` by finitely many dyadic backward cylinders whose upper times are at most `-a/2`. Threshold stability for the selected pulse class gives one dyadic cylinder `Q^-` with normalized pulse mass at least `\eta` after passing to the approximating sequence, possibly with a fixed harmless reduction of `\eta` absorbed into the selector threshold.
+By inner regularity, choose a compact set `K\subset\{s<-a\}` with positive `\nu_*` mass. Cover `K` by finitely many dyadic backward cylinders whose upper times are at most `-a/2`. Threshold stability for the selected pulse class gives one dyadic cylinder `Q^-` with normalized pulse mass at least a fixed retained threshold `\eta'`, where `0<\eta'\le\eta` is chosen before the dyadic selection and depends only on the stability loss of the selected pulse class, not on the approximating index.
 
 In original variables, `Q^-` is a legal source-pulse tile strictly earlier than `T_n`, contradicting the earliest dyadic selection. Therefore
 

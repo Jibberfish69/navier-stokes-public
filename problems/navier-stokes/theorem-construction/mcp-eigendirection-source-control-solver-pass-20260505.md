@@ -3,7 +3,8 @@
 ## Target list and solve plan
 
 1. `ActiveEigendirectionDecorrel.A`.
-   Solve by proving selected terminal high-shell packets spend vanishing weighted time aligned with expanding low-strain eigendirections.
+   Proof target: selected terminal high-shell packets spend vanishing weighted
+   time aligned with expanding low-strain eigendirections.
 
 2. `StrainAlignmentCost.A` / `ASAC.A`.
    Solve by proving a Carleson packing cost for positive strain-alignment tiles.
@@ -12,10 +13,11 @@
    Solve `ASAC.A` by contradiction: a failed Carleson bound produces a frozen-strain ancient tangent packet; a strong no-incoming condition plus anisotropic backward uniqueness forces this tangent packet to vanish.
 
 4. `NonlinearShellFluxControl.A`.
-   Solve from eigendirection decorrelation, signed lifted-remainder cancellation, monotone shell-flux dominance, or direct active-square Carleson.
+   It is supplied by eigendirection decorrelation, signed lifted-remainder
+   cancellation, monotone shell-flux dominance, or direct active-square Carleson.
 
 5. `ActiveShellSourceNormalize.A`, `HeatScaleSquareSource.A`, and temporal non-atomicity.
-   Solve from `NonlinearShellFluxControl.A`.
+   These follow from `NonlinearShellFluxControl.A`.
 
 ## Direct attempt on `ActiveEigendirectionDecorrel.A`
 

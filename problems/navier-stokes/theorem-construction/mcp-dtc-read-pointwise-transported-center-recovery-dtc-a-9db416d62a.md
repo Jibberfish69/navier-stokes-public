@@ -39,7 +39,8 @@ The forcing rung is
 K_q=-\nabla^{q+1}p+\nu\Delta U_q.
 ```
 
-The viscous part is supplied by the `U_{q+2}` tower readout. Hence the `ATD_m^\varepsilon` depth is chosen large enough to include the required `q+2` rungs.
+The viscous part is supplied by the `U_{q+2}` tower readout. Hence the exact
+depth condition is `m >= q+2`.
 
 For the pressure part, use the fixed-cover local Poisson split. On a cover element `(B_i',B_i,2B_i)`, choose `\chi_i=1` on `B_i` and supported in `2B_i`, then write
 

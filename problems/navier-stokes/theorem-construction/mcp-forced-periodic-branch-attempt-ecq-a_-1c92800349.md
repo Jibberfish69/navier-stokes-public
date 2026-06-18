@@ -1,6 +1,6 @@
 # Forced Periodic Branch Attempt
 
-Status: failed as an immediate branch extension. The forced periodic branch remains separate.
+Status: failed as a direct branch extension. The forced periodic branch remains separate.
 
 ## Target
 

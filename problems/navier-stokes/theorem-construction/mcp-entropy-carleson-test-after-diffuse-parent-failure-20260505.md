@@ -29,9 +29,11 @@ DiffuseParentEntropyCharge.A\Longrightarrow EntropyCarleson.A\Longrightarrow Loc
 \pi_P={1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
 ```
 
-with order-one positive source and quadratic donor/residual charge of order `M^{-1}`.  The entropy `\log M` has no positive route ledger.
+with normalized positive source \(\sum_{\alpha=1}^{M}M^{-1}=1\) and quadratic
+donor/residual charge \(\sum_{\alpha=1}^{M}M^{-2}=M^{-1}\).  The entropy
+`\log M` has no positive route ledger.
 
-A Carleson estimate would require summing a positive packet source measure across bounded-overlap terminal packets.  For each child packet in the diffuse model, the positive source may remain order one while the available charge per child tends to zero.  Therefore no summable entropy charge is available to dominate
+A Carleson estimate would require summing a positive packet source measure across bounded-overlap terminal packets.  For each child packet in the diffuse model, the positive source mass is normalized to \(1\) while the available charge per child tends to zero.  Therefore no summable entropy charge is available to dominate
 
 ```math
 \int_{Q(P)}[\mathcal N_{ps}^{loc}]_+.
@@ -49,7 +51,10 @@ Weighted residual square controls
 \sum_T\left|\int g_T^{-1}\langle R,\psi_T\rangle dt\right|^2.
 ```
 
-This is quadratic in residual amplitude.  The positive source target is linear in the signed-aligned donor contribution after positive-part extraction.  Diffuse amplitudes can keep the linear sum order one while the quadratic sum tends to zero.
+This is quadratic in residual amplitude.  The positive source target is linear
+in the signed-aligned donor contribution after positive-part extraction.  Diffuse
+amplitudes can keep the normalized linear sum equal to \(1\) while the quadratic
+sum tends to zero.
 
 ## Verdict
 

@@ -18,7 +18,10 @@ The previous component-selection audit found the exact escape channel:
 SCF_base = E_u + D_u + P + G_Phi.
 ```
 
-Pack control handles `G_Phi`, and `nu_SCF` handles `D_u` plus local pressure. A threshold SCF packet can still be carried by `E_u`. Adding `E_u` would formally close that component gap.
+Pack control handles `G_Phi`, and `nu_SCF` handles `D_u` plus local pressure. A
+threshold SCF packet can still be carried by `E_u`. Adding `E_u` closes the
+component gap only formally; it does not supply the scale-normalized additive
+upper carrier required by the `Jump_avg` contradiction.
 
 ## Obstruction
 
