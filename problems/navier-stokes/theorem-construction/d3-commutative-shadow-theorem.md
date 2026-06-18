@@ -561,7 +561,16 @@ The structural estimate is the one the continuation bridge actually consumes:
 C\,\|\nabla u\|_{L^\infty}\,\|\Delta u\|_{L^2},
 ```
 
-and therefore the same bound holds after Leray projection.
+The Leray projector is an \(L^2\)-orthogonal projection on divergence-free
+fields, so
+
+```text
+\|\mathbb P_{\mathrm{Leray}}[\Delta,u\cdot\nabla]u\|_{L^2}
+\le
+\|[\Delta,u\cdot\nabla]u\|_{L^2}
+\le
+C\,\|\nabla u\|_{L^\infty}\,\|\Delta u\|_{L^2}.
+```
 
 ## Imported four-bodied classical control architecture
 
