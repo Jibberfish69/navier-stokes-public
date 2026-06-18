@@ -204,7 +204,7 @@ The Cauchy/Young route gives only
 [\mathcal R_P^{main}]_+
 \le
 C_{PRD}
-\mathsf{ActiveSquare}_P+\text{legal lower-order terms}.
+\mathsf{ActiveSquare}_P+\mathsf{Loss}^{legal}_P.
 ```
 
 Summing this requires `ScaleCriticalTreeCarleson.A`,
