@@ -6696,3 +6696,63 @@ Surfaces edited:
 
 - `theorem-construction/exact-potential-v2-static-diffusion-semigroup-reduction.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## High-High Finite-Collar Cutoff-Shift Repair
+
+Old claim being spent:
+
+`mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md`
+said that the finite collar terms were finite in number and could be absorbed by
+a "standard cutoff shift," after which the high-high packet was bounded by
+`eta*nu*D_N`.  The appendix mirror and periodic proof-normalization paragraph
+also spent the old unshifted `D_N` high-high inequality.
+
+Exact replacement:
+
+The finite collar is now an explicit term:
+
+```text
+C_{N,M}(t) = sum_{N-M <= j < N} 2^{4j} ||u_j(t)||_2^2.
+```
+
+The exact identity is
+
+```text
+sum_{j >= N-M} 2^{4j} ||u_j||_2^2
+= D_N(t) + C_{N,M}(t)
+= D_{N-M}(t).
+```
+
+With enstrophy control `E_1(t)<=Q_1`, the actual high-high estimate is
+
+```text
+H_N^{grad,HH}(t)
+<= C_HH 2^{-(N-M)/2} Q_1^{1/2} (D_N(t)+C_{N,M}(t)).
+```
+
+Choosing `N_*` so that the coefficient is at most `eta*nu` gives
+
+```text
+H_N^{grad,HH}(t)
+<= eta*nu (D_N(t)+C_{N,M}(t))
+= eta*nu D_{N-M}(t).
+```
+
+Proof or remaining burden:
+
+The high-high packet is absorbed after relabeling the high-side cutoff to
+`N-M`, or on the unshifted surface only after the finite collar is charged to
+the threshold-spill packet.  The old claim that it is absorbed directly into
+`D_N` without that collar charge is invalid.
+
+Downstream consequence:
+
+The appendix periodic proof-normalization paragraph is now conditional rather
+than an unconditional global regularity statement, and its scheduler sentence
+requires either the explicit collar charge or the shifted cutoff.  This keeps the
+cascade closure from spending a hidden finite-collar estimate.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
