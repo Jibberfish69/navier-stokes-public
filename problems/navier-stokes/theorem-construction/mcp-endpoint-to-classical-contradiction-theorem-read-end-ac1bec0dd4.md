@@ -4,6 +4,9 @@ Status: conditional contradiction theorem.
 
 ## Statement
 
+Assume `ECQ.A`, endpoint exhaustion, and the pointwise endpoint package
+`End_NS`. Then
+
 ```math
 T_*<\infty
 \Longrightarrow
