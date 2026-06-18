@@ -897,6 +897,112 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## FCC.C1a Source-Branch Downstream Repair
+
+Old loose step:
+
+Several source-branch theorem notes still spent the strengthened source import
+as a bare
+
+```math
+FFSRC.A\Longrightarrow FCI.5f
+```
+
+or spent the exact same-depth source chain as
+
+```math
+FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+```
+
+Those forms hid the cutoff-channel payment found earlier in this ledger. The
+cutoff commutator is not controlled by the coefficient
+`\mathfrak b_\psi^{cut}` times the ordinary packet energy without an additional
+domination theorem.
+
+Exact replacement:
+
+The source branch now uses
+
+```math
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+```
+
+where `\operatorname{Hyp}(FFSRC.A)` includes
+
+```math
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I).
+```
+
+The exact same-depth branch is now
+
+```math
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
+```
+
+In proof surfaces that wrote the Gronwall source inequality, the old
+coefficient shortcut has been replaced by the exact term
+
+```math
+4\nu\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
+```
+
+Downstream consequence:
+
+The final dependency compression, averaged-route source consumers, bridge
+license notes, source-branch proof decisions, exact-source boundary notes, and
+source-pulse audit notes no longer let the strengthened import discharge the
+cutoff channel unless `FCC.C1a` is present. The source-pulse no-go notes keep
+their mathematical point: even with `Hyp(FFSRC.A)`, source integrability does
+not prove branch-native positive-source depletion on terminal bad windows.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-pressure-source-supplier-verification-fcc-fscr-fpcr-ffsrc-20260501.md`;
+- `theorem-construction/mcp-source-branch-final-bookkeeping.md`;
+- `theorem-construction/mcp-terminal-route-compression-retained-conditional-theorem.md`;
+- `theorem-construction/mcp-fci-5f-avg-source-closure-audit.md`;
+- `theorem-construction/mcp-pressure-source-srcfinal-loop-closure.md`;
+- `theorem-construction/mcp-ffsrc-a-averaged-route-decision-cfi-a_-f2f22d3c25.md`;
+- `theorem-construction/mcp-pressure-side-collar-return-to-strengthened-source-closure.md`;
+- `theorem-construction/mcp-ffsrc-to-fci5f-full-source-proof.md`;
+- `theorem-construction/mcp-source-branch-proof-decision-cfi-a_-9e35a24378.md`;
+- `theorem-construction/mcp-averaged-finite-energy-route-and-readout-completion.md`;
+- `theorem-construction/mcp-bridge-license-audit-into-cm-main-proof.md`;
+- `theorem-construction/mcp-authority-surface-digest-and-exact-source-branch-completion-ffsrc-a-62eb68bca2.md`;
+- `theorem-construction/mcp-exact-branch-boundary-fcc-c1-3a03d57bb2.md`;
+- `theorem-construction/mcp-exact-same-depth-source-branch-attempt-ffpb-a0-990fd82f9e.md`;
+- `theorem-construction/mcp-final-dependency-compression.md`;
+- `theorem-construction/mcp-endpoint-origin-boundary-completion-note.md`;
+- `theorem-construction/mcp-dtc-a-through-act-kx-core-completion.md`;
+- `theorem-construction/mcp-returned-pressure-lower-carrier-to-act-kx-conditional-closure.md`;
+- `theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md`;
+- `theorem-construction/mcp-pctp-hard-maximal-reduction-from-ttu-a-frontier-tgc-a-3c1c665565.md`;
+- `theorem-construction/mcp-ffsrc-a-to-fci-5f-strengthened-source-bridge-firp-a0-8c8a3b529a.md`;
+- `theorem-construction/mcp-minimal-dependency-graph-for-averaged-pctp-hard-route-dtc-a-6ec61a7517.md`;
+- `theorem-construction/mcp-avg-main-a-dependency-order-audit-read-cover-44022d0dde.md`;
+- `theorem-construction/mcp-localpressurestraindeplete-a-from-originalsmoothdata-ffsrc-a-31566f6566.md`;
+- `theorem-construction/mcp-pctp-hard-paper-grade-proof.md`;
+- `theorem-construction/mcp-averaged-route-solve-path-mainline.md`;
+- `theorem-construction/mcp-localpressurestraindeplete-direct-loop-note-20260503.md`;
+- `theorem-construction/mcp-exact-same-depth-source-closure-after-firp-a0-retry-ffsrc-a-9e64200794.md`;
+- `theorem-construction/mcp-exact-same-depth-source-closure-conditional-theorem-ffsrc-a-959174e87f.md`;
+- `theorem-construction/mcp-single-proof-skeleton-with-inline-lemmas-read-end-4369efa4a9.md`;
+- `theorem-construction/mcp-final-referee-objection-ledger.md`;
+- `theorem-construction/mcp-averaged-consumer-chain-avg-end-a-6ee93788bd.md`;
+- `theorem-construction/mcp-averaged-consumer-chain-completion-read-end-81e0696c04.md`;
+- `theorem-construction/mcp-firp-a0-exact-resonant-pressure-integrability-attempt-fpcr-c-103c1e11b4.md`;
+- `theorem-construction/mcp-ffsrc-a-to-fci-5f-completion-ffpb-a0-4bb527dbe4.md`;
+- `theorem-construction/mpp-sourcepulse-pressure-vortex-depletion-final-audit-note.md`;
+- `theorem-construction/mpp-final-assembly-promotion-audit-and-route-map-note.md`;
+- `theorem-construction/mcp-sourcepulse-remove-charge-rigidify-direct-loop-note-20260502.md`.
+
+Remaining mathematical status:
+
+`FCC.C1a` is still not proved by this batch. The installed cutoff notes state
+that coefficient control of `\mathfrak b_\psi^{cut}` does not control the
+weighted cutoff-defect ledger without an additional domination theorem. This is
+a live mathematical open item, not a completed repair.
+
 ## Lower-Prefix Active-Square Barrier Rework
 
 Old loose step:
