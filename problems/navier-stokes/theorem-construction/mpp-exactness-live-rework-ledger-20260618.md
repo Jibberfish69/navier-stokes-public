@@ -3085,6 +3085,72 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mpp-active-strain-alignment-cost-target-note-20260504.md`.
 
+## Eigenframe Source-Current Shortcut Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said absolute estimates
+  of the near-band material pressure/source term give the "same
+  scale-critical active coefficient bound" and that signed integration by parts
+  reintroduces the one-sided source-current.
+- `theorem-construction/mpp-independent-prd-material-eigenframe-attempt-20260516.md`,
+  `theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`,
+  and
+  `theorem-construction/mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md`
+  used the same compressed verdict language.
+
+Exact replacement:
+
+The live surfaces now identify the near-band material pressure/source term:
+
+```math
+\sum_P
+\|E_P\|_{L^\infty(I_P)}\tau_P
+\int_{I_P}
+\left|
+n_P\cdot
+P^{loc}_{j_P,L}(S^2+\Omega^2+\nabla^2p)
+n_P
+\right|\,dt.
+```
+
+The absolute-value route spends the coefficient estimate
+
+```math
+\|P^{loc}_{j,L}(S^2+\Omega^2+\nabla^2p)\|_\infty
+\le
+C_{\mathrm{CZ}}\|\nabla u\|_\infty^2,
+```
+
+and the signed integration-by-parts route produces the selected source-current
+term
+
+```math
+-\int_{I_P}Source_P^{loc}b_P\,dt.
+```
+
+Proof or remaining burden:
+
+The turnover/residence reduction is exact once the displayed terms are used.
+The missing theorem is not a vague scale-critical obstruction: it is either a
+legal bound for the displayed near-band material/source coefficient without
+using active-square strength, or a signed theorem that preserves/certifies the
+selected source-current after terminal positive selection.
+
+Downstream consequence:
+
+Independent positive-remainder depletion, terminal eigenframe turnover, and
+terminal pressure-Hessian no-sustain cannot spend "active coefficient" language
+as a proof.  They must discharge the displayed coefficient/source-current
+terms or route through the existing source-wall primitives.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-independent-prd-material-eigenframe-attempt-20260516.md`;
+- `theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`;
+- `theorem-construction/mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
