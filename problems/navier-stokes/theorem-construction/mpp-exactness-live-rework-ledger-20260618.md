@@ -6198,6 +6198,61 @@ Surfaces edited:
 - `theorem-construction/coefficient-bearing-hfg-variant-conditional.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Threshold Scheduler Moving-Partition Repair
+
+Old claim being spent:
+
+`mcp-fully-quantified-threshold-scheduler-theorem-pst-a-8fad5bf7a1.md` said
+that when the partition size `K` depends on the threshold `N`, one can use a
+"standard monotone selection" because `E_N(t_0)` and `R_N` vanish as
+`N->infinity`.
+
+Exact replacement:
+
+For a fixed cell budget `L_*`, define
+
+```text
+B_N = int_I A_N(t) dt,
+K_N = 1 + ceil(B_N/L_*).
+```
+
+The theorem now assumes the scheduler compatibility condition
+
+```text
+K_N ( E_N(t_0) + R_N |I| ) -> 0.
+```
+
+Equivalently, a uniform bound on `K_N` plus `E_N(t_0)->0` and `R_N->0` is
+sufficient.  The threshold is then chosen so
+
+```text
+E_N(t_0)+R_N|I| <= rho/(16 K_N exp(L_*)).
+```
+
+Proof or remaining burden:
+
+The old monotone-selection paragraph was invalid because a growing `K_N` can
+outpace the vanishing tail.  The repaired proof is exact: the product condition
+is precisely what pays the moving partition size.
+
+Downstream consequence:
+
+The PST.A scheduler step may use fixed-threshold coefficient integrability only
+after proving
+
+```text
+(1 + ceil(L_*^{-1} int_I C_{eta,M,nu} Lambda_N^sharp(t) dt))
+  (E_N(t_0)+C_*2^{-2delta N}|I|) -> 0.
+```
+
+Without that product smallness, the route has fixed-threshold integrability but
+not a selected threshold that survives the finite partition.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-fully-quantified-threshold-scheduler-theorem-pst-a-8fad5bf7a1.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## ATD Interior-Bootstrap Standard-Step Repair
 
 Old claim being spent:
