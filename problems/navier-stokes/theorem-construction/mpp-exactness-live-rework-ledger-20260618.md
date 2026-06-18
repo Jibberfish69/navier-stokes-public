@@ -6290,6 +6290,63 @@ Surface edited:
 
 - `theorem-construction/carrier-realization-classical-identification.md`.
 
+## Cone Payment Moving-Cone To CKN Bridge Rework
+
+Old claim being spent:
+
+`mpp-cone-payment-closure-package-20260611.md` claimed that finite
+undiscounted cone budget makes late cone slabs CKN-small "on a smaller subcone"
+after a usual cutoff shrink, and its header described a conditional
+finite-undiscounted-cone-budget-to-CKN closure.
+
+Exact replacement:
+
+The note now proves only the exact moving-cone consequence:
+
+```text
+int_S^\infty int_{B_lambda} (|v|^3+|q|^{3/2}) dy ds -> 0.
+```
+
+In physical variables this controls
+
+```text
+K_{lambda,S}
+= {(x,t): T-e^{-S}<t<T, |x-x0|<lambda sqrt(T-t)}.
+```
+
+The note now states why this is not a standard CKN cylinder:
+
+```text
+Q_r(x0,T)=B_r(x0) x (T-r^2,T)
+```
+
+contains points arbitrarily close to `T` with
+`lambda sqrt(T-t)<|x-x0|<r`, outside the moving cone.
+
+The CKN-consuming bridge is now explicit:
+
+```text
+MovingConeToCKNSmallness.A:
+  moving-cone tail smallness + exterior annulus control
+  => limsup_{r downarrow 0} CKN(Q_r(x0,T)) < epsilon_CKN,
+```
+
+or a direct moving-cone epsilon-regularity theorem, or the full-cylinder CKN
+smallness assumption itself.
+
+Downstream consequence:
+
+The cone-payment authority status now lists `MovingConeToCKNSmallness.A` as an
+open forward-positive child.  Finite undiscounted cone budget may no longer be
+spent as CKN regularity without this bridge or full-cylinder smallness.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-cone-payment-closure-package-20260611.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
+
 ## HFG Damped-Shell Upgrade Repair
 
 Old claim being spent:
