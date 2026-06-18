@@ -157,7 +157,8 @@ Branch-family rows are no longer allowed to be the load-bearing proof that
 terminal capture exists.  The global atlas is the proof object.  Branch-family
 material has one of three roles:
 
-1. it identifies which Pack/Part/Field service a familiar obstruction attacks;
+1. it identifies the selected terminal atlas record and proves which Pack,
+   Part, or Field face is lost for that same record;
 2. it supplies support for a service or readout theorem;
 3. it stays demoted until a same-atlas face derivation is proved.
 
