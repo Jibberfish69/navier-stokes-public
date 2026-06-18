@@ -192,9 +192,9 @@ What is already available is slightly weaker but still structural:
 
 - `\mathfrak B_N^{upper}` is already reduced to an explicit finite frozen
   same-scale edge family plus collar residual;
-- the finite-family lift from a model packet estimate to `(UB)` and `(MS)` is
+- the finite-family lift from a coefficient-free edge estimate to `(UB)` and `(MS)` is
   already formalized;
-- the currently proved model packet estimate still carries the same-scale
+- the currently proved coefficient-bearing edge estimate still carries the same-scale
   coefficient term
   \[
   \int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt.
