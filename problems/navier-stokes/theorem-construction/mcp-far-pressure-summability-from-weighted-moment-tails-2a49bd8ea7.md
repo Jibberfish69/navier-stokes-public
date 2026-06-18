@@ -15,13 +15,27 @@ Assume the weighted moment
 M_a(t)=\sum_\ell 2^{2a\ell}\|u(t)\|_{L^2(A_\ell)}^2
 ```
 
-is bounded on `[0,T]`. Then the far contribution
+has `M_a^{3/2}\in L^1(0,T)`, and assume the annular far-kernel has finite
+weighted Schur constant
+
+```math
+C_a^{far}:=
+\sup_{\|x\|_{\ell^2}=1}
+\sum_{k,\ell}
+2^{(2a-1)k}|A_k|^{1/2}
+2^{-3\max\{k,\ell\}}
+2^{-ak}2^{-2a\ell}
+|x_k|\,|x_\ell|^2
+<\infty.
+```
+
+Then the far contribution
 
 ```math
 \sum_k2^{(2a-1)k}\int_0^TF_k(t)\|u(t)\|_{L^2(A_k)}dt
 ```
 
-is finite for the admissible weight range where the annular kernel convolution is summable.
+is finite.
 
 ## Proof
 
@@ -45,11 +59,12 @@ K_{k\ell}
 \le C_A2^{(2a+1/2)k}2^{-3\max\{k,\ell\}}.
 ```
 
-Weighted Cauchy-Schwarz with the moment weights turns the double sum into a Schur convolution. The kernel gains exponential decay when `|k-ell|` grows and the remaining diagonal power is summable in the admissible range of `a`, giving
+Weighted Cauchy-Schwarz with the moment weights turns the double sum into the
+Schur form controlled by `C_a^{far}`, giving
 
 ```math
 \sum_k2^{(2a-1)k}F_k\|u\|_{L^2(A_k)}
-\le C_a M_a(t)^{3/2}.
+\le C\,C_a^{far} M_a(t)^{3/2}.
 ```
 
 Integrating over `[0,T]` proves the far summability.
