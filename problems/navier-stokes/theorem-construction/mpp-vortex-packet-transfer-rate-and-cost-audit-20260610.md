@@ -307,13 +307,18 @@ r^{-2} integral_{Q_r} (|u|^3 + |p|^{3/2}) dx dt
 
 cannot be below the epsilon-regularity threshold at every small `r`.
 
-Equivalently, the unnormalized cost on `Q_r` is at least of order:
+Equivalently, if the normalized quantity is bounded below by the CKN threshold
+`\epsilon_0`, then the unnormalized cost on `Q_r` obeys the exact lower bound
 
 ```text
 epsilon_0 r^2
 ```
 
-on every sufficiently small scale where singularity is still claimed.
+on every sufficiently small scale where singularity is still claimed:
+
+```text
+integral_{Q_r} (|u|^3 + |p|^{3/2}) dx dt >= epsilon_0 r^2.
+```
 
 That absolute cost tends to zero as `r down to 0`. This is why the question
 cannot be settled by saying the total field has only finite energy. The
