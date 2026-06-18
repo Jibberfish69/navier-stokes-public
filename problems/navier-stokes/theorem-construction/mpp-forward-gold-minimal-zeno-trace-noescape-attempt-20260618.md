@@ -63,6 +63,8 @@ B_{\rm ann}\mathcal Z
 \operatorname{Hol}_{\partial}\mathcal Z,
 \mathcal A_{\rm conn}(\mathcal Z),
 \Pi_{\rm mod}F^{mod},
+\operatorname{Tw}_{ann}(\mathcal Z),
+\mathcal A_{tw}(\mathcal Z),
 \partial T,
 \operatorname{Tr}_{src}\mathcal Z,
 W_{\rm pair}
@@ -96,6 +98,20 @@ component such as
 ```
 
 Otherwise symmetry-tangent drift and selector loops remain invisible.
+
+The annular readout must also include topological drift.  A Dehn twist can be
+identity on both boundary circles while changing the interior annular marking.
+Thus endpoint holonomy and boundary traces do not rule out a nonzero twist
+class.  The readout needs the integer twist class
+
+```math
+\operatorname{Tw}_{ann}(\mathcal Z)\in\mathbb Z
+\tag{NEX.6a1}
+```
+
+or the corresponding twist action `A_tw`.  On a fixed-modulus collar, nonzero
+twist forces connection/modulation action; on a degenerating collar, the
+degeneration must be charged to the collar/modulus legal ledger.
 
 The source trace also cannot be only a separate unsigned marginal.  Door 1
 needs a source-resolved paired orientation/conormal trace, for instance a joint
@@ -284,6 +300,8 @@ the complete annular readout:
 \operatorname{Hol}_{\partial}\mathcal Z,\quad
 \mathcal A_{\rm conn}(\mathcal Z),\quad
 \Pi_{\rm mod}F^{mod},\quad
+\operatorname{Tw}_{ann}(\mathcal Z),\quad
+\mathcal A_{tw}(\mathcal Z),\quad
 \partial T,\quad
 \operatorname{Tr}_{src}\mathcal Z,\quad
 W_{\rm pair}.
