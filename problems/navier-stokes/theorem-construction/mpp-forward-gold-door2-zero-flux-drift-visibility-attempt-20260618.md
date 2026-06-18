@@ -78,10 +78,10 @@ So bare zero flux does not see every drift mode.
 ## Attempt 2: native source tests
 
 The native source carrier is more local and one-sided than the stress flux.
-This makes it a plausible detector for drift.  However, the current installed
-inputs do not prove that every nonzero modulation forcing has a positive
-projection onto the selected native source tests after packet selection,
-positive-part extraction, and terminal localization.
+That is only motivation for testing it as a drift detector.  The current
+installed inputs do not prove that every nonzero modulation forcing has a
+positive projection onto the selected native source tests after packet
+selection, positive-part extraction, and terminal localization.
 
 The missing theorem is:
 
