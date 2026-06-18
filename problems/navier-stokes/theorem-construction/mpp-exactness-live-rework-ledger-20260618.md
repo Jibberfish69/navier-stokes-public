@@ -2457,6 +2457,44 @@ Edited live surfaces:
 - `live-theorem-edge.yaml`.
 - `current-route-dependency-graph.yaml`.
 
+## Terminal Skew Lifted-Remainder Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md`
+  introduced the lifted/localized commutator remainder with "Schematically"
+  before using it to explain the failure of the terminal signed ledger.
+
+Exact replacement:
+
+The note now states the lifted localized remainder directly,
+
+```math
+R_{j,k,\ell}^{lift}
+:=
+2^{2j}
+\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle,
+```
+
+and names the exact missing estimate on the selected same-fluid terminal ledger:
+
+```math
+\sum_{j,k,\ell}
+\int_{I_P}
+|R_{j,k,\ell}^{lift}|\,dt
+\le
+o_N(1)+Loss_{legal}.
+```
+
+Downstream consequence: the direct-attempt note now feeds the already-live
+`TerminalSignedSaturation.A` / `WeightedLiftedSkewDefectLegal.A` obstruction as
+an exact legal-loss burden. It no longer spends bare dyadic skew symmetry or a
+schematic lifted term as if it supplied a same-packet negative partner.
+
+Edited live surface:
+
+- `theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
