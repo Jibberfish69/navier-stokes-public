@@ -555,8 +555,11 @@ E_{N,h,\phi}(t)
 \tag{TC.30}
 ```
 
-From `(TC.20)`, one expects a triangular closure inequality of the
-form
+The route needs the following localized triangular closure estimate. It is not
+obtained from `(TC.20)` by expectation or formal analogy: the proof must
+differentiate `(TC.30)`, integrate the viscous term by parts, keep the cutoff
+commutators, put the pressure contribution into a flux functional, and bound
+each ordinary-rung / bad-difference coupling by the displayed coefficient.
 
 ```math
 \frac{d}{dt}E_{N,h,\phi}(t)
@@ -571,9 +574,23 @@ C_{N,\phi}\int
 \tag{TC.31}
 ```
 
-This is the right localized whole-field coupling law for the present route.
+Here `\mathrm{Flux}_{N,h,\phi}` is part of the theorem data, not harmless
+notation. The estimate is usable only with a legal flux/cutoff bound, for
+example
 
-It says:
+```math
+\int_I |\mathrm{Flux}_{N,h,\phi}(t)|\,dt
+\le
+\mathrm{Legal}_{N,h,\phi}(I),
+\tag{TC.31a}
+```
+
+or with an explicitly absorbable boundary/cutoff estimate on the same retained
+family. Until `(TC.31)` and a bound such as `(TC.31a)` are proved, the localized
+tower closure is a remaining theorem, not a consequence already delivered by
+`(TC.20)`.
+
+If `(TC.31)` and `(TC.31a)` are proved, then the statement says:
 
 1. the PDE damps defect fields directly through the viscous term;
 2. pressure remains a redistributor through flux;
