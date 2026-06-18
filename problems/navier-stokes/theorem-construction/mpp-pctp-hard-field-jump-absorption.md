@@ -18,13 +18,15 @@ for some `r_*>0`. Equivalently,
 Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown
 ```
 
-as a first terminal face on the retained same-fluid tail.
+as a first terminal face on the retained same-fluid tail after the repaired Part
+row has excluded `response-margin-collapse`.
 
 ## Setup
 
 Fix a finite depth `N` and a retained same-fluid terminal tail for the smooth periodic solution on `[0,T_*)`. Assume:
 
-1. `Part_{N,Q}` persists on the tail.
+1. `Part_{N,Q}` persists on the tail with closed terminal response predicates or
+   retained strict response margins.
 2. The pack gauge is bounded:
 
 ```math
@@ -72,7 +74,7 @@ Thus `Field_{N,r_*,Q}` holds throughout the terminal tail.
 
 Suppose `Jump` is the first endpoint face. Before that first time, `Part`, `Pack`, and the tower amplitude remain controlled. At the first time, their terminal limits remain controlled by the hypotheses of first failure. The lemma then supplies a positive field scale at that same terminal tail, contradicting the claim that the first face is `Jump`.
 
-Hence a terminal `Jump` face can occur first only after one of the three supplier controls has already failed:
+Hence a terminal `Jump` face can occur first only after one of the three supplier controls has already failed, on the branch where the response-margin subface has already been removed:
 
 ```math
 Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.

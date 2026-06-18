@@ -210,20 +210,23 @@ with local Calderon--Zygmund/Schauder control for `p_i^{loc}` and harmonic far-t
 \le C_{q,i}\|u_0\|_{L^2}^2.
 ```
 
-Pointwise `Field` and pointwise `DTC.A` then supply the old endpoint matrix, yielding `End_NS`.
+Pointwise `Field` and pointwise `DTC.A` then supply the old endpoint matrix
+together with the repaired Part response-margin input, yielding `End_NS`.
 
 ## Lemma 7: endpoint-face reduction
 
 At the first finite endpoint face,
 
 ```math
-Dead\vee packing\text{-}detached\vee Jump
+\bigl(Dead\vee packing\text{-}detached\vee Jump\bigr)
+\wedge\neg response\text{-}margin\text{-}collapse
 \Longrightarrow tower\text{-}blown.
 ```
 
 ### Proof
 
-The installed first-face reductions are
+The installed first-face reductions are old-face reductions after
+response-margin collapse has been excluded:
 
 ```math
 packing\text{-}detached\Rightarrow Dead\vee Jump\vee tower\text{-}blown,

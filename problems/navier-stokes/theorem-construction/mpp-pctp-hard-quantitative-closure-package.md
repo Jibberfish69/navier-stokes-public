@@ -173,7 +173,7 @@ K_q=-\nabla^{q+1}p+\nu\Delta U_q,
 \qquad 0\le q\le N,
 ```
 
-is controlled by the `U_{q+2}` rung. The pressure term is controlled by the local Poisson split plus the harmonic energy far tail. Thus `DTC.Read` gives pointwise `DTC.A`. `Field.Read` gives pointwise `Field`. With `Pack` and `Part` shared, the old endpoint matrix gives `End_NS`.
+is controlled by the `U_{q+2}` rung. The pressure term is controlled by the local Poisson split plus the harmonic energy far tail. Thus `DTC.Read` gives pointwise `DTC.A`. `Field.Read` gives pointwise `Field`. With `Pack`, `Part`, and the repaired Part response-margin input shared, the old endpoint matrix gives `End_NS`.
 
 ## 7. Clean face absorption theorem
 
@@ -182,7 +182,8 @@ is controlled by the `U_{q+2}` rung. The pressure term is controlled by the loca
 As first-face alternatives on the retained terminal tail,
 
 ```math
-Dead\vee packing\text{-}detached\vee Jump
+\bigl(Dead\vee packing\text{-}detached\vee Jump\bigr)
+\wedge\neg response\text{-}margin\text{-}collapse
 \Longrightarrow
  tower\text{-}blown.
 ```

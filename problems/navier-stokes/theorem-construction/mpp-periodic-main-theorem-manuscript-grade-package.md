@@ -283,21 +283,23 @@ with local Calderon--Zygmund/Schauder control for `p_i^{loc}` and the harmonic f
 \le C_{q,i}\|u_0\|_{L^2}^2.
 ```
 
-Thus pointwise `Field` and `DTC.A` are available, and the old endpoint matrix yields `End_NS`.
+Thus pointwise `Field` and `DTC.A` are available, and the old endpoint matrix
+yields `End_NS` only together with the repaired Part response-margin input.
 
 ## 8. Clean endpoint-face theorem
 
 ### Theorem `FACE.Absorb`
 
 ```math
-Dead\vee packing\text{-}detached\vee Jump
-\Longrightarrow
- tower\text{-}blown.
+\bigl(Dead\vee packing\text{-}detached\vee Jump\bigr)
+\wedge\neg response\text{-}margin\text{-}collapse
+\Longrightarrow tower\text{-}blown.
 ```
 
 ### Proof
 
-The installed first-face reductions are
+The installed first-face reductions below are the old-face reductions; they run
+after response-margin collapse has been excluded by the repaired Part row:
 
 ```math
 packing\text{-}detached\Rightarrow Dead\vee Jump\vee tower\text{-}blown,

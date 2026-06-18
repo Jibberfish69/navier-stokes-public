@@ -8,7 +8,9 @@ This note assembles the endpoint-face reductions proved in the PCTP.hard loop. I
 
 ## Inputs
 
-Use the following conditional lemmas on the same retained terminal tail:
+Use the following conditional lemmas on the same retained terminal tail, after
+the repaired Part row has excluded `response-margin-collapse` by closed terminal
+Part predicates or retained strict response margins:
 
 ```math
 packing\text{-}detached\Longrightarrow Dead\vee Jump\vee tower\text{-}blown,
@@ -26,7 +28,9 @@ These are supplied by the pack-detachment endpoint reduction, participation pers
 
 ## Theorem
 
-For a first finite endpoint face in the PCTP.hard endpoint vocabulary, every non-tower first face reduces to `tower-blown`.
+For a first finite endpoint face in the old PCTP.hard endpoint submatrix, every
+non-tower first face reduces to `tower-blown`.  The response-margin subface is a
+separate Part-row input and is not reduced by this theorem.
 
 Equivalently,
 
@@ -93,7 +97,8 @@ Therefore every first finite endpoint face reduces to `tower-blown`.
 
 ## Consequence
 
-The four-face version of PCTP.hard is reduced to one analytic theorem:
+After the response-margin subface has been removed, the old-face version of
+PCTP.hard is reduced to one analytic theorem:
 
 ```math
 OriginalSmoothData\Longrightarrow \neg tower\text{-}blown.
