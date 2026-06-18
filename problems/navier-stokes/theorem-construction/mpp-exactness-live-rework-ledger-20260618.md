@@ -114,6 +114,59 @@ The strengthened source import is now read as:
 
 where `\operatorname{Hyp}(FFSRC.A)` includes the weighted cutoff-defect input.
 
+## Second Consequence Pass
+
+The downstream source route was rechecked after the cutoff-source correction.
+The following live theorem surfaces were edited so they no longer spend a bare
+`FFSRC.A=>FCI.5f` or the old three-channel source chain without the cutoff-defect
+input:
+
+- `live-theorem-edge.yaml`;
+- `mpp-terminal-class-membership-six-burden-closure-note.md`;
+- `mpp-act-kx-hidden-spending-audit-note.md`;
+- `mpp-pctp-hard-five-burden-frontier-audit-note.md`;
+- `mpp-scf-aact-elliptic-source-endpoint-branch-package.md`;
+- `mpp-seven-item-paper-grade-closure-package.md`;
+- source-pulse / local-source theorem notes that refer to the downstream source
+  supplier only as `\operatorname{Hyp}(FFSRC.A)=>FCI.5f`.
+
+The old decision-bearing chain
+
+```math
+FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+```
+
+is now allowed only as an explicitly named old spend being rejected.  The live
+consumer-facing source theorem is either the exact branch with `FCC.C1a`, or the
+strengthened source import with `\operatorname{Hyp}(FFSRC.A)`.
+
+The Door 1 projected-stress note also contained a loose comparison statement.
+It no longer says that the stress/native-carrier gap is merely "same order" as
+the source wall.  The live statement is the defect
+
+```math
+\mathcal D_N^{PLP}
+:=
+\sum_{P\in\mathcal F_N}\int_{Q(P)}
+\mathcal N_{preCauchy}^{loc}(u;P)\,dxdt
++
+\int T:\nabla(\chi_R\ell)\,dy,
+```
+
+and the required unproved bound
+
+```math
+|\mathcal D_N^{PLP}|\le \mathrm{Legal}_N+o_N(1).
+```
+
+Until that defect inequality is proved on the same selected terminal family, the
+stress-flux projection cannot be spent as a lower bound for the native positive
+source wall.
+
+`middle-band-flux-gap-kernel-theorem.md` was also tightened from "pointwise scale
+estimate" to "pointwise kernel bound"; the displayed inequality was already the
+exact object, and the edit prevents it from being read as scale intuition.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
