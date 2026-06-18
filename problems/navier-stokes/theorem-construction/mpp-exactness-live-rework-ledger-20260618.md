@@ -6271,6 +6271,119 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Modal Shortcut / Automaticity Rework
+
+Old claim being spent:
+
+Several live manuscript and theorem-construction surfaces still used modal proof
+force as a substitute for a theorem: `automatically`, `should produce`, `would
+close`, `could force`, and related wording.  The dangerous pattern was not the
+word itself; it was that the sentence let an implication, transfer, cost, class
+exit, or continuation step sound available before its hypotheses had been
+stated.
+
+Exact replacement:
+
+The repaired surfaces now state the required inputs directly.  The main
+replacement types are:
+
+```text
+identity readout:
+  A1a/A1b collapse only because the realized carrier makes the readout identity;
+
+CM exit:
+  a useful bad object becomes an exit witness only after same-witness admission
+  and a first Pack/Part/Field face failure;
+
+Clay contradiction:
+  a classified Exit(Q) contradicts a finite Clay breakdown witness only after
+  the Clay-exclusion bridge connects class exit to failure of classical
+  continuation;
+
+pressure/source:
+  pressure lobes and pressure-graph failures become native source residues only
+  after a pressure-source tether or same-packet orientation theorem;
+
+annular/cone:
+  finite physical energy gives unweighted scale-critical control only after a
+  discount-removal theorem, and global energy drain outruns local accumulation
+  only after a shrink-law estimate;
+
+selected packets:
+  selected-Pack, profile-frame, aligned-projector, SCF, scheduler, and terminal
+  Leray transfers require the corresponding transfer, comparison, or orientation
+  theorem;
+
+positive route:
+  four-body and shell routes require named compactness, derivative-recovery,
+  transfer-tail, active-window coefficient, and weighted quotient-control
+  statements before continuation or closure follows.
+```
+
+Proof or remaining burden:
+
+No modal shortcut is allowed to perform proof work.  When the implication is
+already exact, the text now names the exact reason, such as identity readout or
+an installed displayed implication.  When the implication is not installed, the
+text names the missing theorem: backward reflection, discount removal,
+same-witness Pack/Part/Field landing, same-ledger synchronization,
+same-carrier residual identification, terminal strong compactness,
+same-packet orientation, pressure-source tether, transported-density conversion,
+mesoscopic exclusion, selected-derivative transfer, fixed-coordinate readout, or
+periodic flat-torus derivative recovery.
+
+Downstream consequence:
+
+The live proof surfaces can no longer treat historical route attraction,
+generic parabolic smoothing, tensor cancellation, compactness, finite energy,
+or profile decomposition as a proof step by wording.  Each affected branch now
+either carries an exact hypothesis into the next argument or remains an explicit
+theorem burden.  In particular, the CM contrapositive route keeps a bad object
+as a witness candidate until same-witness admission and a concrete Pack, Part,
+or Field face failure are derived; the positive/gold routes keep continuation
+closure conditional on the named estimates rather than on modal language.
+
+Surfaces edited:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex`;
+- `theorem-construction/clay-discharge-ladder-from-current-reductions.md`;
+- `theorem-construction/live-frontier-honest-cut-reduction.md`;
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`;
+- `theorem-construction/mpp-affine-material-readout-to-fixed-hs-direct-attempt-20260609.md`;
+- `theorem-construction/mpp-annular-limit-witness-gap-goal-run-primer-20260611.md`;
+- `theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md`;
+- `theorem-construction/mpp-clay-part-face-exclusion-working-pass-20260607.md`;
+- `theorem-construction/mpp-cm-contrapositive-direction-alignment-audit-20260503.md`;
+- `theorem-construction/mpp-cm-field-face-two-root-run-through-20260506.md`;
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
+- `theorem-construction/mpp-completed-proof-surface-challenge-20260525.md`;
+- `theorem-construction/mpp-cross-profile-pack-atom-rigid-profile-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-earlier-pack-failure-reflection-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-first-class-exit-contradiction-shell.md`;
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`;
+- `theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md`;
+- `theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md`;
+- `theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`;
+- `theorem-construction/mpp-rendered-referee-reread-clay-exclusion-bridge-reentry-20260609.md`;
+- `theorem-construction/mpp-scalecritical-carleson-failure-field-face-diagnostic-20260514.md`;
+- `theorem-construction/mpp-selected-positive-pack-source-uniform-integrability-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md`;
+- `theorem-construction/mpp-terminal-leray-paraproduct-coefficient-identification-direct-attempt-20260522.md`;
+- `theorem-construction/mpp-terminal-reduction-math-run-after-rows1-4-20260506.md`;
+- `theorem-construction/mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md`;
+- `theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`;
+- `theorem-construction/pd70z-cycle-exact-closure-obstruction-note.md`;
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
+- `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
+
+Validation:
+
+The live authority-set scan for raw `automatically` now returns no hits.  The
+focused modal proof-force scan for the edited batch returns no hits, and
+`git diff --check` passes on the edited files.
+
 ## Source-Wall Scale-Shorthand Repair
 
 Old claim being spent:
