@@ -99,7 +99,7 @@ summary:
     bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
 release_blockers: *1
 required_next_actions: *1
-generated_at: '2026-06-17T18:36:11Z'
+generated_at: '2026-06-18T21:00:23Z'
 pass: false
 truth_alignment:
   source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md

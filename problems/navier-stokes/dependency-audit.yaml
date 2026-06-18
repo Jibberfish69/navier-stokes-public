@@ -3,7 +3,7 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-audit-navier-stokes
-  generated_at: '2026-06-17T18:36:11Z'
+  generated_at: '2026-06-18T21:00:23Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: dependency release blocked by CM contrapositive referee audit
 status:
@@ -36,9 +36,7 @@ summary:
   open_frontier_labels: []
 findings:
 - The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale
-  terminal release overlays are non-authoritative unless they display the exact
-  same-witness CM admission and Pack/Part/Field face landing that would carry proof
-  force.
+  terminal release overlays are demoted.
 verdict:
   dependency_graph_closed: false
   release_eligible: false
