@@ -4,6 +4,12 @@ Date: 2026-05-06
 
 Status: terminal direct attempt; not discharged; demote as independent target.
 
+Exactness rework correction, 2026-06-18: the negative result below remains
+valid, but the old "correct direct stack" toward `HeightFluxControl.A` is
+historical supplier architecture.  Current live surfaces require a retained
+source/height branch to be paid in the same ledger or admitted to the CM test
+with a first Pack/Part/Field face failure before it has proof force.
+
 Purpose: pursue `FirstHeightCreationDichotomy.A` to the end and decide whether
 it is a real theorem atom below `HeightFluxControl.A`, or only a repackaging of
 the same Field-face source wall.
@@ -202,7 +208,7 @@ or:
 
 Therefore it should not remain a live next target.
 
-Correct direct stack:
+Historical direct supplier stack:
 
 ```text
 HeightFluxControl.A
@@ -223,4 +229,8 @@ or a truly independent signed/decorrelation/depletion theorem.
 ```
 
 The route should move on from `FirstHeightCreationDichotomy.A` as a headline
-target and attack the actual structural mechanism directly.
+target.  Current live use is narrower: this note only proves that the
+first-height dichotomy label cannot be spent as a proof step.  The next live
+burden is a same-witness terminal anti-concentration / source-Carleson /
+rigid-anti-atom / non-source Pack-survival theorem, or an equivalent same-ledger
+payment that promotes the retained branch without a positive no-exit shortcut.
