@@ -13,10 +13,10 @@ source_rewrites:
   author_replacement_required: false
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:647
-  endpoint_status: silver CM face payment
-  reader_payments: &1
+  endpoint_status: silver CM face landing
+  reader_requirements: &1
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
@@ -25,8 +25,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside The Packet Witness without
       requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -39,8 +39,8 @@ source_rewrites:
   author_replacement_required: false
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:682
-  endpoint_status: silver CM face payment
-  reader_payments: *1
+  endpoint_status: silver CM face landing
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -48,8 +48,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Packet Failure without
       requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -62,8 +62,8 @@ source_rewrites:
   author_replacement_required: false
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:703
-  endpoint_status: silver CM face payment
-  reader_payments: *1
+  endpoint_status: silver CM face landing
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -71,8 +71,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Velocity Failure Mechanisms
       without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -162,8 +162,8 @@ source_rewrites:
     reason: Submission verdict surface; not direct Pack/Part/Field proof authority.
   - path: problems/navier-stokes/submission-bundle/theorem-packet.yaml
     reason: Packet index; direct theorem and route-law sources are used instead.
-  endpoint_status: silver CM face payment
-  reader_payments: *1
+  endpoint_status: silver CM face landing
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -171,8 +171,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Reading the Witness Table
       without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -192,21 +192,21 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - Pack
   - Part
   - Field
   - "(Exit|Member)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

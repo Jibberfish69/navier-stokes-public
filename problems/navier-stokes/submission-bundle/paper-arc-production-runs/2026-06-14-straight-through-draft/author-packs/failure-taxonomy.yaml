@@ -26,9 +26,9 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   endpoint_status: support for a named later proof step
-  reader_payments: &1
+  reader_requirements: &1
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
@@ -37,8 +37,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside What a Terminal Failure
       Can Be without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -53,7 +53,7 @@ source_rewrites:
     reason: generated graph surface; the readable layer map is represented by ns-layered-route-graph.md
       and theorem notes
   - source_ref: problems/navier-stokes/source-forensics/ns-historical-biography.md
-    reason: historical source-forensics context, not a proof payment for this arc
+    reason: historical source-forensics context, not a proof argument for this arc
   - source_ref: problems/navier-stokes/campaign-status.yaml
     reason: status mirror; current face-order content is represented by route-lock,
       source-frontier, and theorem notes
@@ -98,7 +98,7 @@ source_rewrites:
       for this arc
   - source_ref: problems/navier-stokes/theorem-construction/mpp-act-kx-conditional-route-completion-packet.md
     reason: conditional receiver/source completion support; belongs to later receiver
-      or Field payment work
+      or Field landing work
   - source_ref: problems/navier-stokes/theorem-construction/mpp-euler-boundary-clean-applicability-to-cm-exits-20260612.md
     reason: Euler boundary material belongs to comparison/transfer boundary, not this
       endpoint taxonomy arc
@@ -124,7 +124,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:468
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -132,8 +132,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Sorting Failures by the
       First Lost Face without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -153,20 +153,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - failure
   - "(Pack|Part|Field)"
   - "(endpoint|obstruction)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

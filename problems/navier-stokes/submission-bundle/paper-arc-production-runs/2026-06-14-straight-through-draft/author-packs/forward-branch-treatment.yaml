@@ -81,9 +81,9 @@ source_rewrites:
   - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
     reason: Export status mirror; no direct proof role in this arc.
   endpoint_status: support for a named later proof step
-  reader_payments: &1
+  reader_requirements: &1
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
@@ -92,8 +92,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How Forward Branches Enter
       the Proof without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -107,7 +107,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1240
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -115,8 +115,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Which Branches Still Matter
       without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -130,7 +130,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1289
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -138,8 +138,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside The Support Boundary without
       requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -153,7 +153,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1439
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -161,8 +161,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Branch Coverage in the
       Main Proof without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -176,7 +176,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1596
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -184,8 +184,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How Auxiliary Estimates
       Enter without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -199,7 +199,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1615
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -207,8 +207,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How to Read the Appendices
       without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -222,7 +222,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1625
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -230,8 +230,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Branch-to-Face Derivation
       Patterns without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -245,7 +245,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -253,8 +253,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How Branch Families Pay
       the CM Proof without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -268,7 +268,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -276,8 +276,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Energy, Enstrophy, and
       Source Reserves without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -291,7 +291,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -299,8 +299,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Kernelized Lifted-Band
       Branch without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -314,7 +314,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -322,8 +322,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Lower-Prefix and Upper-Tail
       Survivors without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -337,7 +337,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -345,8 +345,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Direct Closure and the
       Four-Body Diagnostic without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -360,7 +360,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -368,8 +368,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Derivative Recovery on
       the Same Surface without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -383,7 +383,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -391,8 +391,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Scale Barriers and High-Frequency
       Tails without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -406,7 +406,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -414,8 +414,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside Shell Gain and Half-Derivative
       Branch without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -429,7 +429,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -437,8 +437,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How Forward Support Enters
       the Proof without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -452,7 +452,7 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
   endpoint_status: support for a named later proof step
-  reader_payments: *1
+  reader_requirements: *1
   math_reader_critic:
     claim_truth_attack: The current-source arc critic passed this section with zero
       deterministic claim-truth issues; the section is certified only for the proof
@@ -460,8 +460,8 @@ source_rewrites:
     reader_thread_attack: The current-source arc critic found no reader-thread failure
       in this section; the section keeps the reader inside How Branch Families Pay
       the Proof without requiring an external status report.
-    unpaid_derivation_attack: The current-source arc critic found no deterministic
-      unpaid-derivation issue in this section; any later mathematical failure must
+    open_derivation_attack: The current-source arc critic found no deterministic
+      open-derivation issue in this section; any later mathematical failure must
       be raised as a named critic issue against this arc.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -481,20 +481,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - forward
   - branch
   - "(support|obstruction|open)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
