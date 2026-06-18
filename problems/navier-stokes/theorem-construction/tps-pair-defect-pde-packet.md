@@ -2145,8 +2145,12 @@ C_{\mathrm{harm}}C_{\mathrm{harm}}^\star
 \tag{PD.70z15a}
 ```
 
-After the usual route-local normalization / absorption step for sufficiently
-large `J`, this is exactly the residual pairwise closure `(PD.70q)`.
+This becomes the residual pairwise closure `(PD.70q)` only under the explicit
+route-normalization hypothesis stated below: every stripwise estimate
+\(\mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
+\le C_\star\mathcal E_J^{obs}(I)+o_J(1)\), with fixed finite `C_\star`, is
+absorbed into the normalized observability budget for all sufficiently large
+`J`.
 
 If one instead writes a separate explicit loop-error ledger
 `\mathcal E_J^{loop}\le C\mathcal E_J^{harm}+\varepsilon_J^{loop}` with
