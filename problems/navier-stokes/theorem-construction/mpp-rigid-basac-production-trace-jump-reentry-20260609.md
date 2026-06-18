@@ -41,8 +41,9 @@ Define `B_ASAC^{TA}` by adding:
 \qquad\forall R<\infty.
 ```
 
-Inside `B_ASAC^{TA}`, residue Liouville is immediate from terminal anti-atom
-plus no fixed earlier selected source slice. The missing theorem is production:
+Inside `B_ASAC^{TA}`, residue Liouville is exactly the conjunction of terminal
+anti-atom and no fixed earlier selected source slice. The missing theorem is
+production:
 
 ```math
 B_{ASAC}\Longrightarrow B_{ASAC}^{TA}.

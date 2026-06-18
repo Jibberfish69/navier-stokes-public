@@ -75,7 +75,7 @@ The lifted band has geometry
 N+M<k<j-4.
 ```
 
-The coefficient shell may lie far below the output shell `j`, so finite near-diagonal high-high support does not apply. The genuine high-high cubic-tail absorption lemma does not control this term.
+The coefficient shell may lie far below the output shell `j`, so finite near-diagonal high-high support does not apply. The genuine high-high cubic-tail coefficient lemma controls only the separated near-diagonal scale packet and does not control this lifted term.
 
 ### Pointwise tail-smallness shortcut
 

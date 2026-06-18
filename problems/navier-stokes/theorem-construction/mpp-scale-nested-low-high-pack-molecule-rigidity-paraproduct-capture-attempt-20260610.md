@@ -22,7 +22,7 @@ finality and does not license PDF finality.
 
 ## Target
 
-The previous pass reduced the two-profile molecule branch to:
+The previous pass reduced the two profile-decomposition-frame molecule branch to:
 
 ```text
 ScaleNestedLowHighPackMoleculeRigidity.A.
@@ -31,8 +31,8 @@ ScaleNestedLowHighPackMoleculeRigidity.A.
 The hard survivor is a same-terminal-window low-high Pack paraproduct:
 
 ```text
-low profile supplies selected strain / carrier,
-high profile supplies the packet,
+low profile-decomposition frame supplies selected strain / carrier,
+high profile-decomposition frame supplies the packet,
 the positive part is taken after the product.
 ```
 
@@ -125,14 +125,17 @@ LowHighPackSourceCarlesonReserve.A
 or an equivalent super-L1 / Orlicz / reverse-Holder / active-square theorem for
 the selected low-high source density.
 
-Current inputs do not supply that reserve. The terminal pulse model remains:
+Current inputs do not supply that reserve. The exact terminal time marginal that
+still survives this support theorem is:
 
 ```math
 g_m(s)=m{\bf 1}_{(-1/m,0]}(s).
 ```
 
 It can be carried by the selected low-high paraproduct with bounded local
-`L^1_s` mass and no fixed earlier source slice.
+`L^1_s` mass and no fixed earlier source slice unless an additional residence,
+decorrelation, cancellation, strip-modulus, or rigidity theorem rules out that
+time marginal on the same selected window.
 
 ## Result
 

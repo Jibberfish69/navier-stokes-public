@@ -48,7 +48,7 @@ Use the synchronized witness ledger
 
 Let `CritConc_X(\mathcal W)` mean that a public critical class `X` concentrates
 or exits on the terminal sequence selected by the same ledger `\mathcal W`.
-Typical choices of `X` are:
+Admissible choices of `X` include:
 
 ```math
 L^\infty_tL^3_x,\qquad

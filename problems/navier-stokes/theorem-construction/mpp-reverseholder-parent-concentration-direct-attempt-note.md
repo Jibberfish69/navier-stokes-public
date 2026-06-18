@@ -53,14 +53,15 @@ dyadic banding does not prove reverse-Holder concentration.
 ## Direct Orthogonality Test
 
 One may hope orthogonality of the parent pieces forces a square sum that prices
-diffusion.  But the raw quadratic donor cost can scale like:
+diffusion.  But the raw quadratic donor cost is:
 
 ```math
 \sum_{\alpha=1}^M\|a_\alpha\|_2^2= M^{-1},
 ```
 
-while the normalized positive child-feeding source remains order one after
-source-pulse normalization.  Raw orthogonality is therefore on the wrong scale.
+while the normalized positive child-feeding source is
+\(\sum_{\alpha=1}^M M^{-1}=1\) after source-pulse normalization.  Raw
+orthogonality is therefore on the wrong scale.
 
 To make orthogonality useful one needs a scale-normalized square reserve:
 

@@ -67,7 +67,7 @@ The energy inequality gives control of
 It does not force the weighted single-collar quantity in `(A)` to be small on
 a retained terminal interval. A high shell can have
 `\|\Delta_m u\|_2^2:=c2^{-N}` while the total `L^2` contribution is tiny and
-the coefficient `2^N\|\Delta_m u\|_2^2` stays order one.
+the coefficient `2^N\|\Delta_m u\|_2^2` is exactly `c`.
 
 This blocks a theorem derived from raw energy alone.
 

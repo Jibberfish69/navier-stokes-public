@@ -90,7 +90,8 @@ The direct obstruction is a diffuse legal parent cloud:
 
 Every bounded selector captures only a vanishing fraction of the mass. Raw
 quadratic donor cost can tend to zero while the normalized positive
-child-feeding source remains order one after the selected terminal scaling.
+child-feeding source has mass \(\pi_P(\mathsf{Pred}(P))=1\) after the selected
+terminal scaling.
 
 This is the same mismatch recorded in the scale-normalized parent-inverse and
 positive-active reserve audits. Finite dyadic banding and raw orthogonality
@@ -101,7 +102,7 @@ price the wrong ledger.
 The cross-profile case does not remove the diffuse cloud. It adds another
 profile label to the parent/child interaction, while the terminal selector can
 still choose the same heat-scale child window where the normalized positive
-source is order one.
+source has mass \(\pi_P(\mathsf{Pred}(P))=1\).
 
 To close the cross-profile reserve, one needs one of:
 

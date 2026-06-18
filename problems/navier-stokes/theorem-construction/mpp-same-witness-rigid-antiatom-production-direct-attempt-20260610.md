@@ -67,7 +67,9 @@ positive source mass, local-energy/BV balance primitives, weak linear traces,
 zero ASAC, and no fixed earlier selected source slice. They do not produce the
 terminal anti-atom clause.
 
-The scalar terminal strip model remains admissible:
+The current hypotheses do not rule out the exact terminal time-marginal
+obstruction: nonnegative selected source marginals on shrinking windows with
+fixed positive mass and only finite `L^1_s` control. The sharp scalar witness is:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s),
@@ -75,7 +77,7 @@ g_m(s)=m\,1_{(-1/m,0]}(s),
 g_m(s)\,ds\rightharpoonup\delta_0.
 ```
 
-It has bounded `L^1_s` mass, no fixed earlier selected slice, and an order-one
+It has bounded `L^1_s` mass, no fixed earlier selected slice, and a unit
 terminal time-face atom.
 
 # Same-Witness Check
@@ -108,9 +110,10 @@ The production premise is not installed.
 `NS-LIVE-20260609-205`: same-witness rigid anti-atom production is not proved.
 The rigid subclass Liouville theorem is valid after a terminal time-face
 anti-atom clause is granted, but the same-witness first-Pack data do not produce
-that clause. The shrinking terminal layer `g_m(s)=m 1_{(-1/m,0]}` still satisfies
-the current finite-L1/local-energy/BV/weak-trace inputs while producing a
-terminal atom. The active loop must next prove a genuinely non-source
-Pack-survival theorem, such as Pack-critical-element stability or profile
-decomposition forbidding the selected positive terminal atom, or install a new
+that clause. Current finite-L1/local-energy/BV/weak-trace inputs still allow
+nonnegative terminal time marginals on shrinking windows with fixed positive
+selected mass; the witness `g_m(s)=m 1_{(-1/m,0]}` has unit mass and weak-*
+endpoint limit `delta_0`. The active loop must next prove a genuinely non-source
+Pack-survival theorem, such as Pack-critical-element stability or a
+profile-decomposition-frame theorem forbidding the selected positive terminal atom, or install a new
 terminal anti-atom production theorem. Keep `pdfs_final` false.

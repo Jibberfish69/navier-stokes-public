@@ -17,7 +17,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-annular-selection-readout-torus-atlas-payment-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-cm-face-consumption-20260525.md
     - problems/navier-stokes/theorem-construction/mpp-basac-target-local-exhaustion-and-cm-field-closure-20260517.md
-  downstream_consequence: "The annular supplier boundary is no longer an undifferentiated open phrase. At the present theorem resolution, the gold route is blocked exactly at TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A or an equivalent unweighted cone/profile production theorem. The silver residual-decay argument is operative only after the residual annular witness is admitted with same-solution positive-radius carrier and a continuation-readout bridge strong enough to give the uniform H^s, s>5/2, bound. At that point Pack is paid by admission, so a finite nonsmooth readout-complete terminal witness exits through Part or Field. This is a corrected conditional proof-program boundary, not a claim that the stronger gold supplier or the general annular readout bridge has been proved."
+  downstream_consequence: "The annular supplier boundary is no longer an undifferentiated open phrase. At the present theorem resolution, the gold route is blocked exactly at TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A or an equivalent unweighted cone/profile production theorem. The silver residual-decay argument is operative only after the residual annular witness is admitted with same-solution positive-radius carrier and a continuation-readout bridge whose conclusion is the uniform H^s, s>5/2, bound. At that point Pack is paid by admission, so a finite nonsmooth readout-complete terminal witness exits through Part or Field. This is a corrected conditional proof-program boundary, not a claim that the stronger gold supplier or the general annular readout bridge has been proved."
 ---
 
 # MPP Scale-Uniform Annular Supplier Goal Resolution
@@ -76,8 +76,8 @@ The installed forward-positive notes prove the following pieces.
 5. The residual ledger removes heat descendants and raw shear false positives;
    the only live positive source object is residual same-fluid nonlinear refill.
 
-So the gold proof has reached a precise fork.  It closes immediately under one
-of these new-production inputs:
+So the gold proof has reached a precise fork. It closes under either of these
+new-production inputs:
 
 ```math
 TerminalTimeFaceAntiAtom.A,
@@ -191,8 +191,11 @@ Field_{N_s,r,Q_{ann}}\quad\text{for some }r>0,
 ```
 
 then the readout-completeness premise gives the same-solution \(H^s\),
-\(s>5/2\), continuation norm.  Classical local Navier--Stokes theory continues
-the same branch past \(T_*\).  This is the member side:
+\(s>5/2\), continuation norm.  The exact hypothesis spent here is:
+there is \(M<\infty\) such that the same branch has an \(H^s\) readout with
+\(\|u(T_*)\|_{H^s}\le M\).  The \(H^s\) local well-posedness theorem then gives
+a time \(\tau=\tau(s,\nu,M)>0\) and a unique same-branch continuation in
+\(C([T_*,T_*+\tau];H^s)\).  This is the member side:
 
 ```math
 Member(Q_{ann};\mathcal O_{work}).
@@ -202,7 +205,8 @@ It is the smooth/pass branch, not a finite nonsmooth terminal witness.
 
 This pass branch also kills the heat-scale obstruction above.  If the admitted
 tail has the installed \(H^s\), \(s>5/2\), readout with bound \(M\), then the
-dyadic nonlinear source obeys the standard algebra estimate
+Sobolev algebra/product bound and Littlewood--Paley projection give the exact
+dyadic source estimate
 
 ```math
 \|\Delta_j\mathbb P\nabla\cdot(u\otimes u)\|_2

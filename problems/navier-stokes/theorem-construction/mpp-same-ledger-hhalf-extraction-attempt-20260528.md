@@ -36,7 +36,7 @@ Choose a terminal sequence `t_m -> T_*` and dyadic levels `J_m` carrying the cri
 2^{J_m}\|P_{J_m}u(t_m)\|_{L^2}^2.
 ```
 
-First test Pack. If the selected shell scale is incompatible with the retained transported packet atlas, or if the shell has no same-fluid localized carrier in the ledger, then the carrier service fails:
+First test Pack. If the selected shell scale is incompatible with the retained transported packet atlas, or if the shell has no same-fluid localized carrier in the ledger, then the carrier face fails:
 
 ```math
 \neg Pack_Q(\mathcal W).
@@ -94,4 +94,13 @@ Thus the extraction theorem is proved.
 
 ## Consequence
 
-The extracted packet feeds `FieldFiniteDifferenceReadoutHHalf.A` and `FieldCoherenceControlsCriticalShell.A`. On retained Pack+Part, persistent terminal `H^{1/2}` shell energy lands in the Field face.
+The extracted packet feeds `FieldFiniteDifferenceReadoutHHalf.A` and `FieldCoherenceControlsCriticalShell.A`. On retained Pack+Part, the exact downstream implication is
+
+```math
+Field_{N(J),2^{-J},Q}(\mathcal W)
+\Longrightarrow
+2^J\|P_J(\chi_a^{\mathcal W}u)\|_2^2
+\le C\,\mathfrak C_{N(J),2^{-J},Q}(\mathcal W).
+```
+
+Persistent terminal `H^{1/2}` shell energy beyond that matched modulus lands in the Field face.

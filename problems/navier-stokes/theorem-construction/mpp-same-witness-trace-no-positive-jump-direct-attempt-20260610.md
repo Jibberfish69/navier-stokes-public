@@ -75,7 +75,7 @@ A_m(t)=\int_{-1}^{t}\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,ds,
 
 this gives bounded variation. It does not give continuity at `t=0`.
 
-The same terminal model survives:
+The same endpoint time-marginal witness survives:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s).

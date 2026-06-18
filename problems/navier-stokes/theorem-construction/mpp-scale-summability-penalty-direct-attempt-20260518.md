@@ -28,9 +28,10 @@ such that
 
 for every Zeno chain, while the same cost is bounded above by finite energy or dissipation.
 
-## 1. Natural scaling test
+## 1. Displayed scale-penalty test
 
-Natural physical costs at scale `r` typically carry positive powers of `r`. For geometric Zeno scales
+In the displayed model under test, the physical cost is `Phi(r)=r^alpha` with
+`alpha>0`. For geometric Zeno scales
 
 ```math
 r_k=2^{-k},
@@ -63,7 +64,10 @@ A logarithmic penalty could diverge along some Zeno chains, but no installed pac
 
 ## 4. Verdict
 
-`ScaleSummabilityPenalty.A` fails from installed inputs. The scale weights naturally available from energy and dissipation are summable along Zeno refinement. A divergent penalty requires a new scale-breaking estimate:
+`ScaleSummabilityPenalty.A` fails from installed inputs. In the displayed
+model under test, `Phi(r)=r^alpha` with `alpha>0`, so
+`sum_k Phi(2^{-k}r_0)<infinity`.  A divergent penalty requires a new
+scale-breaking estimate:
 
 ```math
 PositiveActiveCarlesonReserve.A,

@@ -146,13 +146,16 @@ package:
 \qquad
 \mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}\in L^1(I),
 \qquad
-\mathfrak b_\psi^{cut}\in L^1(I),
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I),
 \tag{RFE.10}
 ```
 
 together with finite frozen-family seed data and the ordinary interval energy
-ledger.  The exact same-depth source branch remains sharper, but `(RFE.10)` is
-the installed organized sufficient source closure.
+ledger.  The packet-factor coefficient `\mathfrak b_\psi^{cut}` remains only
+coefficient control unless a separate domination theorem supplies the weighted
+cutoff-defect ledger in `(RFE.10)`. The exact same-depth source branch remains
+sharper, but `(RFE.10)` is the organized sufficient source closure with that
+cutoff-defect input.
 
 ## Theorem `RFE.A` (Retained Field Exit Pushdown)
 

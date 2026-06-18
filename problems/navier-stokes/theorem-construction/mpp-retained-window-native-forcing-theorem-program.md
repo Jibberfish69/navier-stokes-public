@@ -338,7 +338,7 @@ uniformly for the retained mollifier family. This proves `NKF.Moll`.
 For each retained center, each finite rung, and each retained forcing component,
 the local smoothness assumptions make the tested field continuous in space on
 `B(c_j(t),2r_a)` for almost every `t`, with an `L^1_t` dominating norm. Hence
-standard approximate-identity convergence gives
+mollifier-to-point convergence with that dominating norm gives
 
 ```math
 K_{q,j}^{[r]}(t)\to K_q(c_j(t),t)

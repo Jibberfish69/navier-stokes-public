@@ -26,7 +26,7 @@ Then an infinite Zeno refill chain would force divergent total charge, contradic
 
 ## 1. Scaling test
 
-At terminal scale `r`, Navier-Stokes parabolic scaling permits normalized quantities to stay order one while physical spacetime charge scales with powers of `r`.
+At terminal scale `r`, Navier-Stokes parabolic scaling permits packet-normalized quantities such as the displayed \(F_r\) below to remain fixed while physical spacetime charge scales with powers of `r`.
 
 A model terminal source density on a parabolic cylinder has
 

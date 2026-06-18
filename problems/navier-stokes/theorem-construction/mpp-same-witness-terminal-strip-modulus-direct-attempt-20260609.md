@@ -31,7 +31,7 @@ concentrate into vanishing preterminal time strips. Equivalently, there is a
 same-ledger modulus that forces positive active-time thickness for W_*.
 ```
 
-If proved, this would feed either TPS capture or a direct Pack-survival route:
+Once proved, this feeds either TPS capture or a direct Pack-survival route:
 
 ```text
 terminal strip modulus for W_*

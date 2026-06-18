@@ -320,7 +320,7 @@ follows from `(R1.11e)` together with the finiteness of `(R1.11f)`. ∎
 
 ### Remark `R1.C1` (Explicit reduction of the shifted distortion ledger)
 
-The shift in `(TB.28)` should stay visible until it is reduced explicitly. For
+The shift in `(TB.28)` remains explicit until it is reduced explicitly. For
 `|r|\le \rho`, define the enlarged packet
 
 ```math

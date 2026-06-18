@@ -264,7 +264,7 @@ bundle that matches the route's own language.
 
 ## Formal Consequences
 
-The immediate logical consequences are:
+The next logical consequences are:
 
 ### Packing Consequence
 

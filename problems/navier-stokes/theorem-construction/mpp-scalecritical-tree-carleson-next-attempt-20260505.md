@@ -253,7 +253,7 @@ Choosing terminal heat windows with
 h_m:=2^mA_m^2
 ```
 
-keeps this contribution order one while `A_m\to0`.  This does not assert an
+sets this contribution equal to \(1\) while `A_m\to0`.  This does not assert an
 actual Navier-Stokes solution; it shows that the installed scalar ledgers
 cannot prove `(STC)` without a theorem forbidding source-balanced terminal
 active pulses.

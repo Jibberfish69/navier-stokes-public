@@ -21,7 +21,7 @@ and a uniform entropy spend along every positive refill edge:
 \qquad \eta>0.
 ```
 
-This would rule out an infinite terminal Zeno ancestry carrying fixed positive source residue.
+Those two inequalities rule out an infinite terminal Zeno ancestry carrying fixed positive source residue: each positive refill edge spends at least `\eta`, while the initial entropy budget is finite.
 
 ## Attempt 1: same-fluid label entropy
 

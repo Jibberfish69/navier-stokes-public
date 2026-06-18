@@ -101,8 +101,8 @@ Equivalently, by `RN.NativeDecision.A`,
 \tag{RN3.5}
 ```
 
-On a normal-form counterpacket satisfying `(RN3.2)`, `(RN3.4)` gives an
-immediate contradiction by taking `\epsilon<c/2`.
+On a normal-form counterpacket satisfying `(RN3.2)`, `(RN3.4)` gives a
+contradiction by taking `\epsilon<c/2`.
 
 ### Rigidify
 

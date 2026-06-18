@@ -183,8 +183,8 @@ For a diffuse legal parent model
 ```
 
 with donor amplitudes scaled as `M^{-1}`, the positive linear child-feeding
-source can remain order one after normalization while raw quadratic donor or
-residual charge scales like:
+source is \(\sum_{\alpha=1}^{M}M^{-1}=1\) after normalization while raw quadratic donor or
+residual charge is:
 
 ```math
 M\cdot M^{-2}=M^{-1}.

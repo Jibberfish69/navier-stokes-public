@@ -48,8 +48,8 @@ The active-square/LPAS burden contains terms of the form
 ```
 
 A short terminal pulse can keep the first moment finite while keeping the
-normalized active-square mass order one on selected terminal heat windows. This
-is the same obstruction recorded in the local positive source Carleson and
+normalized active-square mass fixed at the selected terminal-window
+normalization. This is the same obstruction recorded in the local positive source Carleson and
 quantitative source-dissipation attempts: finite carrier mass is not a uniform
 terminal modulus and does not dominate the selected positive part.
 
