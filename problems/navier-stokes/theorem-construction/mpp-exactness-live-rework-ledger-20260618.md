@@ -901,6 +901,37 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Radon-Nikodym Decision Criterion Rework
+
+Old loose step:
+
+- `mpp-duhamel-critical-mass-to-native-source-direct-attempt-20260519.md` and
+  the source-field appendix said the installed Radon--Nikodym decision criterion
+  "applies" after displaying a positive native source packet.
+
+Exact replacement:
+
+Both live surfaces now state the actual selected-terminal implication:
+
+```math
+\rho_m(E_m)\to0,\qquad \nu_m(E_m)\ge c_1
+\quad\Longrightarrow\quad
+\mu_*^{sing}\neq0.
+```
+
+This is the measure-theoretic decision being spent on the selected terminal
+packet algebra.
+
+Downstream consequence: the Duhamel critical-mass note may route a selected
+positive source packet only through the displayed vanishing-ledger implication,
+donor-reserve failure as `\neg ScaleCriticalTreeCarleson.A`, or legal ledger
+charge. The words "decision criterion applies" no longer carry proof force.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-duhamel-critical-mass-to-native-source-direct-attempt-20260519.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
