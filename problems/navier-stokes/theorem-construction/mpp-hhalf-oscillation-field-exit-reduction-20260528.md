@@ -104,7 +104,12 @@ Once this theorem is installed, the branch closes: retained Pack keeps the shell
 
 The amplitude branch means the velocity becomes large on shrinking regions. The repo already routes that through the `L^3` translator.
 
-The pure oscillatory branch means the velocity keeps comparable size while its structure moves to finer and finer scales. Physically this is unresolved vortex/strain texture. The material object persists and the NS law still participates, so Pack and Part stay active. The failure is coherence between neighboring towers at the selected scale. That is the Field face.
+The pure oscillatory branch means `PureOsc_{H^{1/2}}(\mathcal W)` remains after
+the `L^3` amplitude-concentration branch is removed: the retained signal is
+high-frequency organization on the same material and pressure-viscosity ledger.
+The material object persists and the NS law still participates, so Pack and
+Part stay active. The failure is coherence between neighboring towers at the
+selected scale. That is the Field face.
 
 ## Hard boundary
 
