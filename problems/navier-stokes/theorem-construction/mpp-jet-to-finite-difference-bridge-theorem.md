@@ -218,7 +218,16 @@ jet-to-difference estimate
 \tag{JFD.16}
 ```
 
-The same estimate holds with `U_k` replaced by `K_k`.
+For the pressure-viscosity carrier, the identical mean-value calculation gives
+
+```math
+|\Delta_r^\Phi K_k(a,t)|
+\le
+\Gamma_{\mathrm{pack},Q}(t)\,|r|\,
+\sup_{0\le\theta\le 1}
+|\nabla K_k(\Phi(a,t)+\theta h(a,r,t),t)|.
+\tag{JFD.16a}
+```
 
 ### Proof
 
