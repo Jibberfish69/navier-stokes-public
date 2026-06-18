@@ -5852,3 +5852,79 @@ Remaining mathematical status:
 The broader exactness goal remains active.  The same-tail modulus itself is
 still a mathematical input to prove or build into the Field face; it is no
 longer hidden inside the averaged route compression.
+
+## Collar Residual Proof-Force Repair
+
+Old loose step:
+
+The appendix used phrases such as "up to admissible collar errors" and "up to
+accepted collar errors" while spending the lifted-band mesoscopic and
+upper-boundary reductions.  Those phrases left the proof free to discard collar
+terms without naming the residual or showing the budget by which it is absorbed.
+
+Exact replacement:
+
+The profile-collar piece is now written as a named residual:
+
+```text
+chi_mid W^prof = partial_s Psi^prof + E_collar^prof,
+E_collar^prof in A_collar,
+int_I |E_collar^prof(t)| dt
+  <= eps_prof^res nu int_I D_N(t) dt + C_prof,*^res 2^{-2 delta N}.
+```
+
+The upper-boundary packet is now written as the exact finite frozen-edge family
+plus residual:
+
+```text
+B_N^upper(t)
+  = sum_{a in A_ub} c_a Pi_{N,a}^edge(t) + E_N^{ub,collar}(t),
+E_N^{ub,collar} in A_collar,
+int_I |E_N^{ub,collar}(t)| dt
+  <= eps_ub^res nu int_I D_N(t) dt + C_ub,*^res 2^{-2 delta N}.
+```
+
+Only after this decomposition and the same-scale edge estimates are supplied
+does the upper-boundary carrier estimate follow:
+
+```text
+int_I |B_N^upper(t)| dt
+  <= eps_ub nu int_I D_N(t) dt
+     + C_ub int_I Lambda_N^sharp(t) E_N(t) dt
+     + C_ub,* 2^{-2 delta N}.
+```
+
+Proof or remaining burden:
+
+This batch does not prove the coefficientwise decomposition of
+`B_N^upper`.  It makes the remaining algebraic burden explicit.  The
+theorem-construction collar class now states that "modulo admissible collar
+errors" is structural until a named residual satisfies `(collar-res)`.
+
+Downstream consequence:
+
+The appendix can no longer spend collar leftovers as automatically paid.
+The signed lifted-band, moving-spill, and mesoscopic residual notes now point to
+the quantitative collar-residual requirement before any absorption claim is
+available.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/lifted-band-collar-class-reduction-lemma.md`;
+- `theorem-construction/signed-lifted-band-scale-descent-identity.md`;
+- `theorem-construction/moving-spill-fixed-offset-reduction-lemma.md`;
+- `theorem-construction/lifted-band-mesoscopic-residual-reduction-lemma.md`.
+
+Second downstream pass:
+
+The named authority YAML surfaces were scanned for the loose collar phrases and
+did not repeat them.  Remaining theorem-construction uses are now either the
+definition of the structural phrase or references that point to the quantitative
+residual budget.
+
+Remaining mathematical status:
+
+The broader exactness goal remains active.  The upper-boundary coefficientwise
+finite-family decomposition and its residual bound remain live mathematical
+inputs; they are no longer hidden under "accepted collar errors."
