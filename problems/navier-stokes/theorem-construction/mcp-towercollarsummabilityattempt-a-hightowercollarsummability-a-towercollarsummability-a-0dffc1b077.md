@@ -8,8 +8,8 @@ The intended route is:
 
 ```text
 persistent terminal affine/source core
-=> positive collar/tower cost per terminal window
-=> total cost over all terminal windows exceeds available global budget
+=> exact affine-core collar bill B_m on each selected terminal window
+=> sum_m B_m exceeds the available high-tower budget
 => terminal time-face atom impossible.
 ```
 
