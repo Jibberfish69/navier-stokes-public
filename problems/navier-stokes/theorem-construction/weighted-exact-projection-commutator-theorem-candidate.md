@@ -296,9 +296,9 @@ The factor `2^{-j}` is the real gain: it says the commutator is order `-1` on
 the active shell, and `(WEP.2'c)` shows exactly where the metric dependence
 enters quantitatively.
 
-The symbolic reason is standard. For an order-zero pseudodifferential operator
-`T_p`, the commutator with multiplication by a low function `a` has principal
-symbol
+The symbolic reason is the first commutator term in the pseudodifferential
+composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
+coefficient `a`, the commutator with multiplication by `a` has principal symbol
 
 ```math
 \sigma([T_p,a])
@@ -307,10 +307,12 @@ i\,\partial_\xi p\cdot \nabla_a a,
 \tag{WEP.2''}
 ```
 
-which is order `-1`. Here `p=p_G(a,\xi)`, so the same principle applies to
-`\Pi_G^{ex}`; the only extra work is demoting the lower metric-symbol terms
-coming from the variable coefficient `G`. Those lower terms are exactly where a
-rigorous paradifferential construction for `L_G^{-1}` has to enter.
+The remaining composition terms are bounded in `S^{-2}_{1,0}` when the symbol
+seminorms in `(WEP.A2)` and the low-coefficient derivatives are bounded. Hence
+the principal term is order `-1`. Here `p=p_G(a,\xi)`, so the same expansion
+applies to `\Pi_G^{ex}`; the only extra work is demoting the lower metric-symbol
+terms coming from the variable coefficient `G`. Those lower terms are exactly
+where a rigorous paradifferential construction for `L_G^{-1}` has to enter.
 
 On the active dyadic support `2^{j-1}\le|\xi|\le 2^{j+1}`, `(WEP.A6)` becomes
 
