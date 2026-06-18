@@ -57,9 +57,15 @@ such that
 
 ## Construction
 
-Use the fixed cell amplification budget `L_*`.
+Use the fixed cell amplification budget `L_*`.  By `(2a)`, choose `N` large
+enough that
 
-Choose a partition such that each cell satisfies
+```math
+E_N(t_0)+R_N|I|\le \frac{\rho}{16K_N e^{L_*}}.
+\tag{3}
+```
+
+For this selected `N`, choose a partition such that each cell satisfies
 
 ```math
 \int_{t_a}^{t_{a+1}}A_N(t)dt\le L_*.
@@ -71,18 +77,9 @@ This is possible by absolute continuity of the integral; one may take
 K\le K_N.
 ```
 
-By `(2a)`, choose `N` large enough that
-
-```math
-E_N(t_0)+R_N|I|\le \frac{\rho}{16K_N e^{L_*}}.
-\tag{3}
-```
-
-After this `N` is chosen, choose any partition with `K<=K_N` cells satisfying
-the cell integral bound.  There is no monotone-selection shortcut here: if
-`K_N` grows with `N`, the vanishing of `E_N(t_0)` and `R_N` alone does not imply
-`(3)`.  The product condition `(2a)` is the exact hypothesis that pays the
-moving partition size.
+There is no monotone-selection shortcut here: if `K_N` grows with `N`, the
+vanishing of `E_N(t_0)` and `R_N` alone does not imply `(3)`.  The product
+condition `(2a)` is the exact hypothesis that pays the moving partition size.
 
 ## Propagation
 
