@@ -12,13 +12,25 @@ and collapsed as an independent theorem atom.  Replace first-height-dichotomy
 language below by the stronger requirement: prove `HeightFluxControl.A` through
 a genuine structural mechanism.
 
+Exactness rework correction, 2026-06-18: the height factorization and scalar
+pulse obstruction below are exact conditional reductions, but the old
+conclusion that the current theorem-crank target is simply
+`HeightFluxControl.A` is stale.  Current live surfaces consume old
+ActiveHeightFlux / SourceReserve / SignedPair / no-free-sink labels as
+support-level.  This note may be used only as a historical supplier reduction:
+the retained positive-scale source branch must now be promoted by same-ledger
+payment or by CM-test admission plus a first Pack/Part/Field face failure.  The
+live replacement burden is the same-witness terminal anti-concentration /
+source-Carleson / rigid-anti-atom / non-source Pack-survival family, or an
+equivalent same-ledger payment theorem.
+
 Purpose: sharpen the direct `ScaleCriticalTreeCarleson.A` attack by replacing
 the blunt square-reserve target with a smaller first-creation target for the
 scale-normalized donor height.
 
 ## 1. Context
 
-The current direct Field-face source-wall chain is:
+The historical direct Field-facing supplier chain was:
 
 ```text
 ReserveCreationCharge.A
@@ -308,7 +320,7 @@ creating it.
 that every large donor height event is visible to the normalized-adjoint source
 trace and is charged by the existing parent-or-charge mechanism.
 
-The sharpened dependency is:
+The historical sharpened dependency was:
 
 ```text
 DonorReserveAdjointTrace.A
@@ -331,6 +343,11 @@ without paying native height charge.
 
 This is more precise than the previous square-reserve statement.
 
+Current proof use: the displayed burden is a supplier-side reduction only.  It
+does not promote the retained source branch into CM proof material unless a
+same-ledger payment is proved or the branch is admitted to the CM test and
+lands at a first Pack/Part/Field face failure.
+
 It asks for a dynamic law for:
 
 ```math
@@ -343,7 +360,8 @@ not for the integrated square reserve itself.
 
 This note does not prove `ReserveCreationCharge.A`.
 
-It improves the direct route by isolating an audit-open sharper theorem atom:
+It improves the historical direct supplier route by isolating an audit-open
+sharper theorem atom:
 
 ```math
 \boxed{
@@ -359,8 +377,11 @@ DonorHeightCreation.A
 \Longrightarrow
 \text{no first-time terminal square-reserve pulse}
 \Longrightarrow
-\text{the direct Option A source-wall closure}.
+\text{the historical direct Option A source-wall closure}.
 ```
 
-The next theorem-crank attempt should therefore target the native shell-balance
-derivative of `H_k(t)` and identify the legal height charge.
+The old next theorem-crank attempt was the native shell-balance derivative of
+`H_k(t)` and the legal height charge.  The current live frontier has moved past
+that label: this note now feeds the same-witness terminal anti-concentration /
+source-Carleson / rigid-anti-atom / non-source Pack-survival burden only when it
+supplies the exact same-ledger payment or first-face landing described above.
