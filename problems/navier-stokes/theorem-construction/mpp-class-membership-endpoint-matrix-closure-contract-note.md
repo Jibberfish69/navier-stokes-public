@@ -388,8 +388,8 @@ For jump cross-entries, the installed field-coherence reduction routes
 and `Part` are retained. For dead cross-entries, the route-native dead entry is
 the installed `(Part,Dead)` row.
 
-Therefore `END.Cross` is closed as a formal matrix-reduction theorem once the
-field-coherence reduction and the installed `(Part,Dead)` row are accepted:
+Therefore `END.Cross` is a conditional matrix-reduction theorem under the
+field-coherence reduction and the installed `(Part,Dead)` row:
 
 ```math
 END.Cross:
@@ -399,7 +399,7 @@ END.Cross:
 \tag{END.7c}
 ```
 
-## Formal Endpoint Contradiction
+## Endpoint Contradiction
 
 ### Theorem `END.COMPLETE`
 
@@ -427,11 +427,13 @@ and the one-field input `OFP.A` needed by `END.Field`. Then
 
 holds.
 
-This theorem is formal assembly. Its definition-level content is `END.Exh` and
-`END.Cross`; its non-endpoint analytic input is `END.TowerAmp`, plus the
-already-tracked pack-gauge and one-field inputs. The implication
-`END.TowerAmp => END.TowerBound` is the closed definition-level cell
-`END.TowerBound`.
+This theorem is an exact assembly under the listed hypotheses. Its
+definition-level content is `END.Exh` and `END.Cross`; its non-endpoint
+analytic input is `END.TowerAmp`, plus the already-tracked pack-gauge and
+one-field inputs. The implication `END.TowerAmp => END.TowerBound` is the
+direct contradiction between a uniform tower-amplitude bound on the same
+finite cover/depth and the `tower-blown` requirement of arbitrarily large
+tower amplitude.
 
 Assume a first finite-time class exit at `T_\ast`. If `CFI.A` is installed, then
 on every same-fluid still-live approach window before `T_\ast`,
@@ -458,7 +460,7 @@ reduces every remaining shell interaction to one of those discharged entries.
 Thus the assumed first class exit has no endpoint shell left in the matrix.
 Contradiction.
 
-The formal endpoint conclusion is:
+The endpoint conclusion is:
 
 ```math
 CFI.A+\mathsf{End}_{NS}
@@ -490,11 +492,14 @@ End_{NS}.
 ```
 
 The analytic tower input is the installed theorem
-`DTC-to-TowerBound => END.TowerAmp => END.TowerBound`. `END.Pack` is formal once the native pack gauge
-`\Gamma_{\mathrm{pack},Q}\in L^\infty(I)` is supplied. `END.Field` is formal
-once `OFP.A` supplies a positive field scale and finite coherence bound.
-`END.TowerBound` is formal once `END.TowerAmp` is supplied. `END.Cross` is
-formal once the cross-entry certificate reductions are accepted.
+`DTC-to-TowerBound => END.TowerAmp => END.TowerBound`. `END.Pack` follows from
+the native pack-gauge bound
+`\Gamma_{\mathrm{pack},Q}\in L^\infty(I)`, which excludes the
+packing-detached endpoint on the same packet. `END.Field` follows when `OFP.A`
+supplies a positive field scale and finite coherence bound, excluding the
+`Jump`/field-failure endpoint on the same packet. `END.TowerBound` is the
+direct tower-amplitude contradiction described above. `END.Cross` is available
+only under the accepted cross-entry certificate reductions.
 
 Finally, `END.Exh` closes from the endpoint certificate definitions/theorems:
 
