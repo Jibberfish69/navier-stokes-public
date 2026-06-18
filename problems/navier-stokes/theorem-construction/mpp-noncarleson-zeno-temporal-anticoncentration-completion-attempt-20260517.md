@@ -127,7 +127,7 @@ fixed cylinders:
 
 The no-earlier-selected-source slice controls where the limiting selected
 source may live, but it does not control the thickness of the terminal layer.
-The model marginal
+The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)

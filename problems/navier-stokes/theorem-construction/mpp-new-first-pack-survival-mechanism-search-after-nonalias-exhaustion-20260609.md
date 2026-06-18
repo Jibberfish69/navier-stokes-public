@@ -9,7 +9,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-first-exit-nonalias-frontier-after-basac-density-failure-20260609.md
     - problems/navier-stokes/creative-theorem-search.yaml
     - problems/navier-stokes/theorem-creation.yaml
-  downstream_consequence: "The active loop remains open at OriginalSmoothDataPackSurvival.A / NoGenuineExitFromSmoothData.A. The next proof unit is NewFirstPackSurvivalMechanismInventionPacket.A: produce a candidate theorem with a new mathematical input, a proof-method class, a falsification model, and a propagation path to OriginalSmoothDataPackSurvival.A, then immediately direct-test it. pdfs_final remains false."
+  downstream_consequence: "The active loop remains open at OriginalSmoothDataPackSurvival.A / NoGenuineExitFromSmoothData.A. The next proof unit is NewFirstPackSurvivalMechanismInventionPacket.A: produce a candidate theorem with a new mathematical input, a proof-method class, a falsification model, and a propagation path to OriginalSmoothDataPackSurvival.A, then direct-test it next. pdfs_final remains false."
 ---
 
 # MPP New First-Pack Survival Mechanism Search After Non-Alias Exhaustion

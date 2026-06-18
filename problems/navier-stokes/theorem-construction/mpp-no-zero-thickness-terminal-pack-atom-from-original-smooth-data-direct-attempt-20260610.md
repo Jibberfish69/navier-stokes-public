@@ -51,8 +51,9 @@ time-thickness lower bound for the selected positive Pack source.
 
 # Why Standard Regularity Inputs Do Not Close It Here
 
-The usual continuation logic would say: prove a uniform critical norm and the
-solution continues. But that is the conclusion. In this node the uniform
+The continuation route would require a proved uniform critical norm and then
+the named relaunch/regularity criterion would continue the solution. But that
+uniform critical norm is the conclusion. In this node the uniform
 critical object is the Pack/tree-Carleson modulus itself.
 
 Local energy and compactness can carry a terminal defect into the record. They

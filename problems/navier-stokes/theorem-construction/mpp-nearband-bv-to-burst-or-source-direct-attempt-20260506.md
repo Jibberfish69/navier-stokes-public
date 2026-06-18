@@ -2,9 +2,10 @@
 
 Date: 2026-05-06
 
-Status: partial reduction; subparabolic near-band variation is absorbable,
-parabolic-rate variation routes to burst height, remaining gate is material
-source / pressure plus frame rotation.
+Status: partial reduction; subparabolic near-band variation contributes at most
+`C_L theta` times the tested active packet height, parabolic-rate variation
+routes to burst height, and the remaining gate is material source / pressure
+plus frame rotation.
 
 Purpose: continue the direct attack under `LowStrainBVCharge.A` and decide
 whether the near-band BV wall is a new theorem or only another presentation of
@@ -124,7 +125,7 @@ On the subparabolic near-band set
 \tag{NBV.5}
 ```
 
-the heat part is harmless up to a finite-band constant:
+the heat contribution obeys the finite-band bound
 
 ```math
 V_P^{heat}
@@ -145,9 +146,32 @@ C_L\theta\sum_P\omega_PE_P.
 \tag{NBV.7}
 ```
 
-In the height-flux application this term is absorbable by choosing `theta`
-small before the terminal limit, because it is proportional to the same active
-packet height being tested and carries no positive source sign.
+In the height-flux application this term is paid as follows.  Let
+
+```math
+H_W:=\sum_P\omega_PE_P
+```
+
+be the active packet height on the tested window, and fix an absorption margin
+`0<eta_abs<1`.  Choose
+
+```math
+\theta\le \eta_{abs}/C_L.
+\tag{NBV.7a}
+```
+
+Then `(NBV.7)` gives
+
+```math
+\sum_P\omega_PE_PV_P^{heat}
+\le
+\eta_{abs} H_W.
+\tag{NBV.7b}
+```
+
+This is the exact absorption being used; the term is paid only with the
+declared pre-terminal choice of `theta` and only because it is proportional to
+the same active packet height being tested and carries no positive source sign.
 
 ## 3. Complement is parabolic-rate burst
 
@@ -262,7 +286,7 @@ The proved part of this attempt is the split:
 
 ```text
 subparabolic near-band heat variation
-=> absorbable,
+=> inequality `(NBV.7b)` after the choice `(NBV.7a)`,
 ```
 
 and
@@ -300,8 +324,9 @@ FarLowMaterialDerivativeEnvelope.A
 ## 7. Verdict
 
 `NearBandBVToBurstOrSource.A` is partially discharged.  The near-band heat
-part is not a live obstruction; it is either subparabolic and absorbable, or it
-is a parabolic-rate burst that forces lower/neighbor donor height.
+part is not a live obstruction; it is either subparabolic and satisfies the
+explicit height absorption `(NBV.7b)`, or it is a parabolic-rate burst that
+forces lower/neighbor donor height.
 
 The live remainder is sharper:
 

@@ -336,8 +336,11 @@ Equation `(NWI.12)` is the normal-covector specialization of `(FS.19)`.
 5. Invoke the selector-normal moment observable `\mathcal M_J^\perp` and its
    branch-local observability ledger to control the normal readout by `W_J`.
 
-6. Absorb the remaining transport/geometry losses into the CM-exported
-   packing/transport ledgers and the residual normal-covector calibration term.
+6. Apply the two integrated ledger inequalities `(NWI.10)` and `(NWI.11)`.
+   These are the exact hypotheses that pay the transport/geometry losses:
+   packing and transported-strain losses are charged to `\mathcal E_J^{cm}`,
+   while the moment and normal-covector calibration losses are charged to
+   `\mathcal E_J^{obs}(W_J)+\mathcal E_J^\perp`.
 
 This yields `(NWI.9)`--`(NWI.12)`.
 

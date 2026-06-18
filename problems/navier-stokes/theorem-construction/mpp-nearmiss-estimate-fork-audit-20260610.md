@@ -4,7 +4,7 @@ ns_viewer:
   status: route-audit-not-proof
   proof_role: active_completion_nearmiss_route_governance
   logical_landing_node: nearmiss_estimate_fork
-  edge_effect: "Turns Thomas's 214-attempt concern into a route fork: recent theorem work is useful only when it feeds the participation-debt mechanism, and repeated positive-forward anti-atom attempts are demoted unless they supply cost, payment, return, donor, limit, or singulet progress."
+  edge_effect: "Turns Thomas's 214-attempt concern into a route fork: recent theorem work is useful only when it feeds the participation-debt mechanism, and repeated positive-forward anti-atom attempts have no proof force unless they supply cost, payment, return, donor, limit, or singulet progress."
   upstream_origin:
     - /Users/thomasbirnie/.codex/attachments/9bf84840-083e-49fc-b943-7844429d4713/pasted-text.txt
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md

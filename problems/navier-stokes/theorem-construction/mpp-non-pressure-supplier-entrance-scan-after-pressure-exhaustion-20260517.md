@@ -32,7 +32,9 @@ Candidate theorem:
 \boxed{ScaleNormalizedBranchEntropy.A.}
 ```
 
-Idea: an infinite or rapidly splitting Zeno ancestry should carry a scale-normalized entropy cost that cannot be paid by finite energy or finite dissipation.
+Candidate theorem: an infinite or rapidly splitting Zeno ancestry carries a
+scale-normalized entropy cost that cannot be paid by finite energy or finite
+dissipation.
 
 Failure: no installed theorem gives a positive minimum entropy cost per terminal branch after scale collapse. The terminal tree may split into many branches whose per-branch charge decays with the scale. Bounded overlap and finite energy control total visible charge, while entropy without a charge lower bound supplies no contradiction.
 
@@ -50,7 +52,8 @@ Candidate theorem:
 \boxed{QuantizedParentCharge.A.}
 ```
 
-Idea: every terminal refill step should require a minimum parent charge, forcing total parent charge divergence along a Zeno chain.
+Candidate theorem: every terminal refill step has a scale-invariant minimum
+parent charge, forcing total parent charge divergence along a Zeno chain.
 
 Failure: Navier-Stokes scaling supplies no fixed quantum of local source or pressure charge. A Zeno sequence can shrink spatial and temporal scale while keeping normalized terminal residue. Parent charges can also be diffuse across multiple packets. The proof needs a scale-invariant minimum charge theorem.
 
@@ -68,7 +71,8 @@ Candidate theorem:
 \boxed{MinimalBadAncestryCompactness.A.}
 ```
 
-Idea: choose a minimal bad terminal ancestry under scale/order and extract a rigid ancient object.
+Candidate theorem: a minimal bad terminal ancestry under scale/order has a
+rigid ancient-object limit.
 
 Failure: compactness produces an ancient local suitable residue class. The previous Zeno and pressure Liouville attempts show that local ancient compactness alone lacks a rigid class. Minimality may remove some side branches, while the terminal atom and zero-thickness source/time marginal can survive.
 
@@ -86,7 +90,9 @@ Candidate theorem:
 \boxed{LocalEnergyTerminalTraceNoJump.A.}
 ```
 
-Idea: the local energy inequality across the terminal face should prevent a positive terminal source atom or pressure-sustain atom.
+Candidate theorem: the local energy inequality across the terminal face rules
+out a positive terminal source atom or pressure-sustain atom after adding the
+missing temporal anti-concentration or rigid-residue input.
 
 Failure: the local energy inequality allows defect measures at terminal times. Removing a terminal atom requires temporal anti-concentration, reverse Holder source control, or a rigid residue Liouville theorem. This returns to
 

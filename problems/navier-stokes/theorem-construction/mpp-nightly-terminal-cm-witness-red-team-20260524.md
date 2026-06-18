@@ -87,7 +87,7 @@ ClayTerminalWitnessCMEntry.A
 ```
 
 The useful correction is presentational and assembly-level: any phrase like
-`ClayBreakdownCanonicalTerminalObstruction.A` should be read only as a
+`ClayBreakdownCanonicalTerminalObstruction.A` is read only as a
 Clay-ready exposition label for the installed same-solution terminal witness
 entry, not as a fresh frontier, missing theorem, or new proof obligation.
 

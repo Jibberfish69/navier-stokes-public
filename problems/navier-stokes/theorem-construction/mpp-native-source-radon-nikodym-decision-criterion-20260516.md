@@ -136,11 +136,23 @@ First, prove source-weighted strain decorrelation:
 PositiveStrainDecorrelation.A.
 ```
 
-That would show the active direction cannot keep positive terminal mass along
-the expanding eigendirections of `S_{<j}^{loc}` on sets where the installed
-ledger vanishes. The existing direct audit shows trace-free strain, signed
-exchange, pressure recovery, coherence heuristics, and same-fluid transport do
-not supply this theorem.
+The needed form is the source-weighted packet estimate
+
+```math
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+|w_{j_P}|^2
+\big[e_P\cdot S_{<j_P}^{loc}e_P\big]_+
+\chi_P\,dxdt
+\le
+\mathrm{Legal}_{N,Q}+o_N(1).
+```
+
+That estimate shows the active direction cannot keep positive terminal
+mass along the expanding eigendirections of `S_{<j}^{loc}` on sets where the
+installed ledger vanishes. The existing direct audit shows trace-free strain,
+signed exchange, pressure recovery, direction/coherence claims, and same-fluid
+transport do not supply the displayed inequality.
 
 Second, prove a source-weighted active reserve:
 
@@ -148,7 +160,7 @@ Second, prove a source-weighted active reserve:
 PositiveActiveCarlesonReserve.A.
 ```
 
-That would charge the whole positive source carrier by the installed ledger on
+That charges the whole positive source carrier by the installed ledger on
 the same packets. The existing direct audit shows raw energy, local energy,
 Cauchy/Young envelopes, finite banding, pressure/cutoff ledgers, and downstream
 source suppliers do not supply this theorem.
@@ -164,7 +176,7 @@ ZenoBoundedClass_B.A
 ZenoResidueLiouville_B.A.
 ```
 
-That would turn the nonzero singular residue into a forbidden source-residue
+That turns the nonzero singular residue into a forbidden source-residue
 limit. The current Zeno audits extract local suitable ancient source-residue
 limits but do not produce an explicit rigid class `B` from original data.
 

@@ -275,7 +275,8 @@ and:
 \Delta v.
 ```
 
-The heat forcing `Delta v` is aligned and harmless for orthogonal response, but
+The heat forcing `Delta v` is aligned and drops out of the orthogonal response
+pairing, but
 the `Sigma` terms can rotate `w` if response strain is present.  Therefore the
 unconditional proof needs either:
 

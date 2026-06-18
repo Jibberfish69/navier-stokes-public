@@ -107,7 +107,7 @@ the CM Pack wall.
 Even a valid estimate for `2^{-2N}E_N^2` cannot be promoted to
 `ScaleCriticalTreeCarleson.A` without a separate bridge.
 
-Take the standard scalar first-pulse test from the reserve obstruction notes.
+Use the displayed scalar first-pulse test from the reserve obstruction notes.
 Let `I_m` have length `h_m`, put one active shell at `L=m+5`, and set
 
 ```math
@@ -140,7 +140,7 @@ Then the first-moment high-frequency dissipation tends to zero:
 \int_{I_m}D_L(t)dt=A_m\to0,
 ```
 
-while the source reserve remains order one:
+while the source reserve remains bounded below by the fixed value `1`:
 
 ```math
 2^mA_m^2h_m^{-1}=1.
@@ -164,7 +164,8 @@ C_{TSQ}
 ```
 
 Thus the parallel tail-square reserve can be small while the
-`ScaleCriticalTreeCarleson.A` source reserve is order one.  The quantities live
+`ScaleCriticalTreeCarleson.A` source reserve is bounded below by the fixed
+value `1`.  The quantities live
 at different scale weights.  A tail-square discharge is not a Pack-wall
 discharge unless it is accompanied by a theorem converting terminal
 source-reserve birth into that tail-square reserve.

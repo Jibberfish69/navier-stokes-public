@@ -62,8 +62,25 @@ e_j\cdot S_{<j}^{loc}e_j
 \tag{NTD.Split.1}
 ```
 
-Thus a singular positive trilinear defect can survive only through the product
-of three packet features:
+Set, on each selected terminal packet,
+
+```math
+A_j:=|w_j|^2,\qquad
+B_j:=\left[e_j\cdot S_{<j}^{loc}e_j\right]_+,\qquad
+d\mu_j:=\mathbf 1_{Q(P)}\,dxdt.
+```
+
+The exact object is the positive product measure
+
+```math
+\sum_{P\in\mathcal F_N}\int A_{j_P}B_{j_P}\,d\mu_{j_P}.
+\tag{NTD.Split.1a}
+```
+
+There is no profile or scale-shape reduction here.  A theorem must control the
+displayed product measure itself, or it must control one of the factors in a
+norm strong enough to multiply the other factor on the same selected terminal
+packets.  In packet language this leaves three proof locations:
 
 ```math
 \text{positive low-strain coefficient}
@@ -73,7 +90,7 @@ of three packet features:
 \text{alignment with expanding strain directions}.
 ```
 
-Equivalently, domination would follow from a theorem package of the form:
+One sufficient factor package has the form:
 
 ```math
 \boxed{
@@ -88,7 +105,7 @@ NativeTrilinearDefectDomination.A.
 \tag{NTD.Split.2}
 ```
 
-The contrapositive form is the current frontier split:
+For bare factor estimates this gives the contrapositive frontier split:
 
 ```math
 \boxed{
@@ -115,7 +132,7 @@ installed route ledgers.}
 }
 ```
 
-A typical sufficient version is an active-window bound of the form:
+One sufficient target version is the active-window bound:
 
 ```math
 \int_{I(P)}
@@ -228,24 +245,26 @@ AlignmentDecorrel.A\ \text{is open.}
 
 ## No Hidden Fourth Face
 
-Formula `(NTD.Split.1)` is native to the surviving term itself.  Once the
-source pulse has been reduced to:
+Formula `(NTD.Split.1a)` is native to the surviving term itself.  Once the
+source pulse has been reduced to the positive product measure:
 
 ```math
-\left[
-\langle S_{<j}^{loc}w_j,w_j\rangle
-\right]_+,
+\sum_{P\in\mathcal F_N}\int A_{j_P}B_{j_P}\,d\mu_{j_P},
 ```
 
-there are only three analytic places left for a proof to enter:
+an additional argument has to do exactly one of the following:
 
-1. control the coefficient `S_{<j}^{loc}`;
-2. control the active square amplitude `|w_j|^2`;
-3. prevent positive alignment of `e_j` with the expanding strain directions.
+1. bound the coefficient factor `B_j` in a terminal packet norm that can
+   multiply the active square measure;
+2. bound the active square measure `A_j\,d\mu_j` with the coefficient factor
+   retained on the same selected packets;
+3. prove source-weighted loss of the positive alignment factor, i.e. a direct
+   estimate of `\int A_jB_j\,d\mu_j`.
 
 Pressure, commutators, cutoffs, shell bookkeeping, and same-fluid transport can
-still help only by supplying one of these three inputs.  They are not a fourth
-independent face of this normalized positive trilinear carrier.
+still help only by supplying one of these displayed estimates or by changing
+the reduction to a different carrier.  They are not a fourth independent
+estimate for the normalized positive trilinear carrier.
 
 ## Result
 

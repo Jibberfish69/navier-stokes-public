@@ -2,7 +2,7 @@
 
 ## Status
 
-Direct follow-up attempt on the native zero-loss profile survivor recorded in:
+Direct follow-up attempt on the native zero-loss defect-limit survivor recorded in:
 
 ```text
 mpp-sourcewall-proceed-pass-uniform-temporal-zero-loss-profile-20260505.md

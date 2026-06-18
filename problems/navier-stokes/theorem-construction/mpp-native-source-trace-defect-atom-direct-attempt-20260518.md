@@ -12,7 +12,7 @@ Status: failed as a production theorem. The trace defect is the terminal atom it
 \boxed{\mu_*^{src}(B_R\times\{0\})=0.}
 ```
 
-This would discharge the terminal time-face component of `TransportedCylinderNoFlux.A` and activate the local-energy bridge.
+This discharges the terminal time-face component of `TransportedCylinderNoFlux.A` and activates the local-energy bridge once the displayed anti-atom statement is proved.
 
 ## Active model
 
@@ -44,7 +44,7 @@ The atom model is compatible with this compactness.
 
 ## Attempt 3: terminal trace as removable defect
 
-A removable-defect theorem would need capacity zero or a test class that sees all native source mass while forcing terminal trace to vanish. The previous capacity and adjoint tests show the terminal face is trace-bearing.
+A removable-defect theorem requires capacity zero or a test class that sees all native source mass while forcing terminal trace to vanish. The previous capacity and adjoint tests show the terminal face is trace-bearing.
 
 ## Attempt 4: source trace absolute continuity
 

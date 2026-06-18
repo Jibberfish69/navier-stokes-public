@@ -25,8 +25,10 @@ SourcePulseCMExit.A.
 }
 ```
 
-The native-trilinear split below should therefore be read as the current
-field-face supplier loop, not as a replacement for the CM-contrapositive root.
+The native-trilinear split below is the current field-face supplier loop. Its
+output can enter the CM argument only through the displayed Field-face and
+source-pulse class-exit implications; it is not a replacement for the
+CM-contrapositive root.
 
 The direct strong supplier target remains:
 
@@ -78,7 +80,8 @@ NativeSourceAC.A
 SourcePulseExclusion.A.
 ```
 
-Thus the only permitted immediate field-face targets are:
+Thus the only permitted field-face targets selected by the native-source
+decomposition are:
 
 1. `PositiveStrainDecorrelation.A`;
 2. `PositiveActiveCarlesonReserve.A`;

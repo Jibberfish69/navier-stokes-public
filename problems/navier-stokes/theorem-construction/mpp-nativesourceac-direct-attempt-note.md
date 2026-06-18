@@ -17,9 +17,9 @@ C\rho_{inst,N}+o_N(1)
 }
 ```
 
-This would eliminate the singular native positive active source measure and
-close `SourcePulseExclusion.A`.  The theorem is not installed by the current
-route inputs.
+The displayed domination eliminates the singular native positive active source
+measure and closes `SourcePulseExclusion.A` once proved on the same terminal
+active packet family.  The theorem is not installed by the current route inputs.
 
 ## Target In Native Variables
 
@@ -97,8 +97,8 @@ weights, cutoffs, lifted packet reductions, and positive-part extraction, the
 native carrier is no longer the signed exchange form.  The principal term is
 sign-indefinite and can align with expanding strain directions.
 
-Compensated compactness or div-curl cancellation would need an exact theorem
-showing the positive trilinear defect is controlled by a quadratic defect
+Compensated compactness or div-curl cancellation requires an exact theorem
+showing that the positive trilinear defect is controlled by a quadratic defect
 measure already in `\rho_{inst,N}`.  No such theorem is installed.  Without it,
 the positive part may carry a singular defect measure even when the signed
 distribution cancels.
@@ -116,9 +116,10 @@ legal localization errors:
 ```
 
 They do not dominate the interior active strain/source production after
-positive-part selection.  A pressure-strain depletion theorem would prove a
-piece of `NativeSourceAC.A`, but that theorem is exactly one of the already
-audited source-pulse presentations and is not installed.
+positive-part selection.  A pressure-strain depletion theorem proves a piece of
+`NativeSourceAC.A` only after it controls that positive selected strain/source
+production, but that theorem is exactly one of the already audited source-pulse
+presentations and is not installed.
 
 Thus pressure/cutoff ledgers do not prove `NativeSourceAC.A`.
 

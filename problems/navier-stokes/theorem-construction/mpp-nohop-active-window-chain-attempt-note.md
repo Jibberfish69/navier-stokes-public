@@ -43,9 +43,9 @@ cannot remain uncharged.
 
 ## Direct Compactness Attempt
 
-If the chain stayed at one fixed positive scale, finite energy plus compactness
-would forbid infinitely many disjoint high-amplitude packets without spending a
-raw energy budget. But the `Jump_avg` schedule is terminal and scale-degenerate:
+At one fixed positive scale, finite energy plus compactness forbids infinitely
+many disjoint high-amplitude packets without spending a raw energy budget. The
+`Jump_avg` schedule is terminal and scale-degenerate:
 `R_\ell` may shrink to zero and the cylinders may move along the same-fluid
 transport.
 

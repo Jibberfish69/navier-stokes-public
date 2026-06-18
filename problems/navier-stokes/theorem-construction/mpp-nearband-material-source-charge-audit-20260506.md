@@ -207,9 +207,42 @@ be a net Pack / heat-window boundary ledger, not an accumulated-positive-strain
 ledger.
 
 Conversely, a theorem-grade proof of `NearBandMaterialSourceCharge.A` strong
-enough to survive terminal positive selection would supply the missing signed
-positive-source balance needed by `WeightedLiftedSkewDefectLegal.A`, modulo the
-standard packetization and coefficient-freezing ledgers.
+enough to survive terminal positive selection supplies the signed
+positive-source balance needed by `WeightedLiftedSkewDefectLegal.A` only under
+these exact bridge hypotheses:
+
+```math
+\int_{I_P}\omega_PE_P\tau_P\,D_t b_P\,dt
+=
+[\omega_PE_P\tau_P b_P]_{\partial I_P}
+-\int_{I_P}\omega_P\tau_P(D_tE_P)b_P\,dt
+\mathrm{Com}_{P}^{near},
+```
+
+the shell balance
+
+```math
+D_tE_P
+=
+2\sigma_PE_P
+-c\tau_P^{-1}E_P
++Source_P^{loc}
++Legal_P,
+```
+
+and the coefficient-freezing/commutator bound
+
+```math
+\sum_{P\in F_N(W)}
+\omega_P\tau_P
+\int_{I_P}
+\big|\mathrm{Com}_{P}^{near}\big|
++\big|\mathrm{Freeze}_{P}^{near}\big|\,dt
+\le
+\mathrm{Legal}_{N,Q}(W)+o_N(1).
+```
+
+Without these three displayed inputs, the implication is not proved.
 
 So this is a route convergence, not a new independent branch.
 

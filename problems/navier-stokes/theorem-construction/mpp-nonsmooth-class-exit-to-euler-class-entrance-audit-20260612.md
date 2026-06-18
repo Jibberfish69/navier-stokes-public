@@ -450,14 +450,18 @@ Euler class entrance only after the same event is represented as EVol+EMom.
 
 ### Averaged `Jump_avg`
 
-The averaged face note installs:
+The repaired averaged face note installs only the conditional implication:
 
 ```text
 Pack_Q + Part_{N,Q} + Jump_avg(T)
-  => forall r > 0, not Field_{N,r,Q}.
+  + SCFBaseLocalModulus_N(T,r)
+  => not Field_{N,r,Q} at that r.
 ```
 
-It then consumes that as `Exit(Q):=not Member(Q)`.
+The old all-radii Field exit is available only after each retained positive
+Field scale supplies that same-tail `SCF_base` modulus, or after the Field face
+is strengthened to include it.  Without that input, this row is an analytic
+Field-admission burden rather than an installed class exit.
 
 Source:
 `/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-averaged-field-face-admission-20260607.md:21`.
@@ -465,8 +469,8 @@ Source:
 Status:
 
 ```text
-NS Field exit installed;
-Euler analogue is Member_E plus failed optional one-field regularity.
+NS Field exit conditional on the same-tail SCF_base modulus;
+Euler analogue only after that conditional Field exit is actually derived.
 ```
 
 ### SourcePulse

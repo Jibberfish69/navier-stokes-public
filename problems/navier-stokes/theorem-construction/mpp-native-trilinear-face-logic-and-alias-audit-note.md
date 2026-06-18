@@ -31,9 +31,26 @@ e_j\cdot S_{<j}^{loc}e_j
 \tag{Face.1}
 ```
 
+Equivalently, for a selected family `\mathcal F_N`, the exact carrier is
+
+```math
+\mathcal T_N^+
+:=
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+A_{j_P}B_{j_P}\,dxdt,
+\qquad
+A_j:=|w_j|^2,\quad
+B_j:=\left[e_j\cdot S_{<j}^{loc}e_j\right]_+.
+\tag{Face.1a}
+```
+
 This note prevents a false reading of the split.  The three faces are not three
 independent already-usable discharges.  They are three native locations where a
-new theorem could enter the same positive product.
+new theorem could enter the same positive product: a coefficient estimate for
+`B_j`, an active-square/source estimate for `A_j` with the same selected
+carrier retained, or a source-weighted alignment estimate for the product
+`A_jB_j` itself.
 
 ## Correct Face Logic
 
@@ -184,16 +201,27 @@ PositiveActiveCarlesonReserve.A.
 
 ### Alignment
 
-A qualitative statement that active directions "usually" decorrelate from
-expanding eigendirections does not control `\mathcal T_P^+`.  The theorem must
-survive positive-part extraction, terminal packet selection, weights, cutoffs,
-and same-fluid localization.  That is exactly
-`PositiveStrainDecorrelation.A`.
+The source-weighted alignment estimate needed here is
+
+```math
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+|w_{j_P}|^2
+\big[e_P\cdot S_{<j_P}^{loc}e_P\big]_+
+\chi_P\,dxdt
+\le
+\mathrm{Legal}_{N,Q}+o_N(1).
+```
+
+A direction-only decorrelation statement does not control `\mathcal T_P^+`
+unless it survives the positive part, terminal packet selection, weights,
+cutoffs, and same-fluid localization in the displayed inequality.  That
+source-weighted estimate is exactly `PositiveStrainDecorrelation.A`.
 
 The existing audit shows that incompressibility, signed full-space skew
-symmetry, pressure Poisson recovery, vorticity-direction/helical heuristics,
-finite-band orthogonality, and same-fluid transport do not install this
-source-weighted decorrelation.
+symmetry, pressure Poisson recovery, vorticity-direction/helical alignment
+claims, finite-band orthogonality, and same-fluid transport do not install the
+displayed inequality.
 
 Verdict:
 
@@ -205,6 +233,29 @@ PositiveStrainDecorrelation.A.
 }
 ```
 
+## Exact Exhaustion
+
+After `(Face.1a)`, an argument that keeps the same native carrier has only
+these proof forms:
+
+```math
+\begin{aligned}
+&\text{coefficient form: } B_j
+\text{ is bounded in a packet norm that multiplies } A_j\,dxdt,\\
+&\text{active-source form: } A_j\,dxdt
+\text{ is charged with the coefficient factor retained,}\\
+&\text{source-weighted alignment form: }
+\sum_{P\in\mathcal F_N}\int_{Q(P)}A_{j_P}B_{j_P}\,dxdt
+\le \operatorname{Legal}_{N,Q}+o_N(1).
+\end{aligned}
+\tag{Face.3}
+```
+
+Pressure, commutator, cutoff, shell, and same-fluid arguments are relevant only
+when they supply one of the estimates in `(Face.3)` or replace the carrier by a
+different reduced object.  Without that replacement they are not a fourth
+native face.
+
 ## Corrected Frontier
 
 The exact current frontier is:
@@ -215,7 +266,7 @@ NativeTrilinearDefectDomination.A
 }
 ```
 
-with three theorem-facing entrances:
+with these theorem-facing entrances for the exact carrier `(Face.1a)`:
 
 ```math
 \boxed{

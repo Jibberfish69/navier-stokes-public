@@ -33,8 +33,21 @@ M(T)
 ```
 
 The point of the normalization is that central positive strain is not treated
-as a free source.  It is absorbed into the adjoint amplitude; residual creation
-is then measured by the weighted pairing
+as a free source.  The exact statement is the integrating-factor identity
+
+```math
+\frac{d}{dt}\bigl(g_T(t)^{-1}\langle w_j(t),\psi_T(t)\rangle\bigr)
+=
+g_T(t)^{-1}
+\frac{d}{dt}\langle w_j(t),\psi_T(t)\rangle
++
+\lambda_{\max}^+(A_k(X_T(t),t))
+g_T(t)^{-1}
+\langle w_j(t),\psi_T(t)\rangle .
+```
+
+The scalar coefficient placed in `\Gamma_T` is therefore part of the
+differentiated weight; residual creation is measured by the weighted pairing
 
 ```math
 \int_{I_T} g_T(t)^{-1}\langle R,\psi_T\rangle\,dt.
@@ -81,9 +94,25 @@ E_\Gamma .
 ```
 
 The term `E_\Gamma` is produced by differentiating `g_T(t)^{-1}`.  Its
-coefficient is controlled by the same central-strain gauge budget used to define
-`g_T`; the remaining oscillatory part is included in the coefficient error
-absorbed by `\mathcal C_T(\sigma_T,t_+)=\varepsilon_M`.
+unrepresented part is controlled by the exact coefficient estimate
+
+```math
+|E_\Gamma|
+\le
+C_\Gamma\mathcal C_T(\sigma_T,t_+)
+\sup_{\tau\in[\sigma_T,t_+]}
+|\langle w_j(\tau),\chi_T(\tau)\rangle|.
+\tag{NAA.1}
+```
+
+On a stopped coefficient interval
+`\mathcal C_T(\sigma_T,t_+)=\varepsilon_M`; the dichotomy below uses the
+explicit threshold
+
+```math
+C_\Gamma\varepsilon_M\le \frac18.
+\tag{NAA.2}
+```
 
 If
 
@@ -362,9 +391,9 @@ First-pulse selection gives the no-earlier-pulse property:
 \forall a>0.
 ```
 
-Indeed, if an earlier threshold source-pulse survived in the limit, regularity
-of Radon measures and dyadic density selection would produce earlier
-threshold-crossing tiles for `n` large, contradicting earliest selection.
+Indeed, if an earlier threshold source-pulse survives in the limit, regularity
+of Radon measures and dyadic density selection produce earlier threshold-crossing
+tiles for `n` large, contradicting earliest selection.
 
 Let
 

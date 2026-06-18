@@ -267,7 +267,7 @@ signed terminal source-current
 + boundary/legal bookkeeping.
 ```
 
-After the standard boundary and projected-cutoff ledgers, the exact remaining
+After the boundary and projected-cutoff ledgers, the exact remaining
 primitive is:
 
 ```text

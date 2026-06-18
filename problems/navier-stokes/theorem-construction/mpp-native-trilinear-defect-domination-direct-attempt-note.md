@@ -11,9 +11,9 @@ NativeTrilinearDefectDomination.A.
 }
 ```
 
-This theorem would dominate the native positive active trilinear/source defect
-by installed quadratic route ledgers on terminal same-fluid active packets.  It
-would prove `NativeSourceAC.A` and hence `SourcePulseExclusion.A`.
+This theorem must dominate the native positive active trilinear/source defect
+by installed quadratic route ledgers on terminal same-fluid active packets.  Once
+proved, it proves `NativeSourceAC.A` and hence `SourcePulseExclusion.A`.
 
 The theorem is not installed by the current route inputs.
 
@@ -80,7 +80,8 @@ an `L^1_tL^\infty_x` or Carleson coefficient bound on selected bad windows.
 
 The current energy/enstrophy layer gives finite `L^2`-type control, and
 Calderon-Zygmund maps vorticity/strain in finite-`p` spaces.  It does not give
-the packet coefficient bound needed to absorb the positive trilinear defect.
+the packet coefficient bound needed to control the positive trilinear defect by
+dissipation with a retained coefficient margin `0<theta<1`.
 
 Thus quadratic energy defect domination is not installed.
 
