@@ -313,38 +313,38 @@
   \crefname{subsubsection}{\S}{\S}%
   \Crefname{subsubsection}{\S}{\S}%
 }
+\RenewDocumentCommand{\cref}{s o m}{%
+  \FormalEnvSplitLabel{#3}%
+  \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
+    \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+  }{%
+    \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
+      \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+    }{%
+      \IfBooleanTF{#1}{\FormalEnvOriginalCref*{#3}}{\FormalEnvOriginalCref{#3}}%
+    }%
+  }%
+}
+\RenewDocumentCommand{\Cref}{s o m}{%
+  \FormalEnvSplitLabel{#3}%
+  \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
+    \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+  }{%
+    \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
+      \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+    }{%
+      \IfBooleanTF{#1}{\FormalEnvOriginalCrefCap*{#3}}{\FormalEnvOriginalCrefCap{#3}}%
+    }%
+  }%
+}
 \AtBeginDocument{%
   \SetupFormalEnvCrefNames
-  \RenewDocumentCommand{\cref}{s o m}{%
-    \FormalEnvSplitLabel{##3}%
-    \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-      \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
-    }{%
-      \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
-        \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
-      }{%
-        \IfBooleanTF{##1}{\FormalEnvOriginalCref*{##3}}{\FormalEnvOriginalCref{##3}}%
-      }%
-    }%
-  }%
-  \RenewDocumentCommand{\Cref}{s o m}{%
-    \FormalEnvSplitLabel{##3}%
-    \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-      \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
-    }{%
-      \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
-        \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
-      }{%
-        \IfBooleanTF{##1}{\FormalEnvOriginalCrefCap*{##3}}{\FormalEnvOriginalCrefCap{##3}}%
-      }%
-    }%
-  }%
   \pdfstringdefDisableCommands{%
-    \def\cref####1{\FormalEnvCrefPlain{####1}}%
-    \def\Cref####1{\FormalEnvCrefPlain{####1}}%
-    \def\surfacecref####1{\SurfaceCrefTitle{####1} [\SurfaceCrefTag{####1}]}%
-    \def\Sref####1{\S\ref*{####1}}%
-    \def\titlecap####1{####1}%
+    \def\cref#1{\FormalEnvCrefPlain{#1}}%
+    \def\Cref#1{\FormalEnvCrefPlain{#1}}%
+    \def\surfacecref#1{\SurfaceCrefTitle{#1} [\SurfaceCrefTag{#1}]}%
+    \def\Sref#1{\S\ref*{#1}}%
+    \def\titlecap#1{#1}%
   }%
 }
 \newcommand{\Sref}[1]{%
