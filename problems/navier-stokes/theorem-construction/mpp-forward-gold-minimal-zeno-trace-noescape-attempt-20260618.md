@@ -242,8 +242,8 @@ By `(NEX.12)` and `(NEX.13)`,
 |Z_H|_Z
 \le
 (\varepsilon_R+C_{\rm res}\varepsilon)|Z|_Z
-C'|B_{\rm ann}Z|_Y
-C_{\rm res}\mathcal D_{\rm legal}.
++C'|B_{\rm ann}Z|_Y
++C_{\rm res}\mathcal D_{\rm legal}.
 \tag{NEX.18}
 ```
 
@@ -253,8 +253,8 @@ Adding `(NEX.17)` and `(NEX.18)` gives
 |Z|_Z
 \le
 C''|B_{\rm ann}Z|_Y
-C''\mathcal D_{\rm legal}
-(1+C_RC_B)(\varepsilon_R+C_{\rm res}\varepsilon)|Z|_Z.
++C''\mathcal D_{\rm legal}
++(1+C_RC_B)(\varepsilon_R+C_{\rm res}\varepsilon)|Z|_Z.
 \tag{NEX.19}
 ```
 
@@ -282,8 +282,11 @@ the complete annular readout:
 \gamma_\pm U,\quad
 \mathcal T_\pm U,\quad
 \operatorname{Hol}_{\partial}\mathcal Z,\quad
+\mathcal A_{\rm conn}(\mathcal Z),\quad
+\Pi_{\rm mod}F^{mod},\quad
 \partial T,\quad
-\operatorname{Tr}_{src}\mathcal Z.
+\operatorname{Tr}_{src}\mathcal Z,\quad
+W_{\rm pair}.
 \tag{NEX.21}
 ```
 
@@ -390,10 +393,10 @@ reasonable coercive estimate of the form
 
 ```math
 \|U\|_{H^1(A)}
-\|P\|_{L^2(A)/\mathbb R}
++\|P\|_{L^2(A)/\mathbb R}
 \lesssim
 \|\operatorname{Res}_{Stokes}(U,P)\|_{H^{-1}(A)}
-\|\gamma U\|_{H^{1/2}(\partial A)}.
++\|\gamma U\|_{H^{1/2}(\partial A)}.
 \tag{NEX.23}
 ```
 
