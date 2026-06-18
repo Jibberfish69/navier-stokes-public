@@ -5298,3 +5298,36 @@ Edited live surfaces:
 - `theorem-construction/mpp-five-supplier-parallel-completion-ledger-20260517.md`;
 - `theorem-construction/mcp-sourcewallhardobstruction-a-ttu-a-3e6b467cd2.md`;
 - `theorem-construction/mpp-independent-math-verification-audit.md`.
+
+## D.2 Lower-Order Energy-Domain Repair
+
+Old loose step:
+
+`d2-global-coercive-energy-estimate.md` used "lower-order on the energy domain"
+and "absorb lower-order terms into the constants" inside the central carrier
+coercive estimate.
+
+Exact replacement:
+
+The D.2 prose now points to the displayed bounds actually required:
+
+```text
+\varepsilon\mathcal D_D(X)+C_\varepsilon\Psi(\mathcal E_D(X)),
+```
+
+the commuted version of the same energy-domain bound, the resolvent derivative
+gain for carrier leakage, and the growth envelope
+
+```text
+E'(t)\le C_0E(t)+C_1E(t)^{3/2}.
+```
+
+Downstream consequence:
+
+H.1/D.2 downstream arguments may no longer use "lower-order" as a proof label.
+They must cite the displayed energy-domain or commuted energy-domain estimate,
+or else leave the carrier leakage / remainder commutator as an open dependency.
+
+Edited live surface:
+
+- `theorem-construction/d2-global-coercive-energy-estimate.md`.
