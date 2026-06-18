@@ -183,8 +183,15 @@ variables:
 \int_{-1/m}^{0} e^{(0-s)\nu\Delta}F_m(s)\,ds
 ```
 
-can remain order-size while the heat semigroup is close to the identity on
-`|s|\ll1`.
+can remain nonzero.  For example, if
+`F_m(s)=m\mathbf 1_{(-1/m,0]}(s)f` with `0\ne f\in L^2`, then
+
+```math
+\int_{-1/m}^{0} m e^{(0-s)\nu\Delta}f\,ds \to f
+\quad\text{in }L^2
+```
+
+by strong continuity of the heat semigroup.
 
 ## Verdict
 
