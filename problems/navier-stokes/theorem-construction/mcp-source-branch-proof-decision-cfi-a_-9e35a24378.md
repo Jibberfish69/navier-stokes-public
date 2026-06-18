@@ -7,7 +7,7 @@ Status: conditional route decision.
 The averaged route uses the strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 This is the source input named in
@@ -21,20 +21,22 @@ AVG.MAIN.A.
 The selected source route is
 
 ```math
-FFSRC.A:
-FFPB.A0+FFSC.C1+FCC.C1
+\operatorname{Hyp}(FFSRC.A):
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
 
-It uses the packet-local widened pressure bridge, finite-family strain/cascade control, and cutoff absorption.
+It uses the packet-local widened pressure bridge, finite-family strain/cascade
+control, and cutoff absorption with the separate cutoff-defect interval input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 ## Exact same-depth branch
 
 The stricter exact branch is
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -46,7 +48,7 @@ That branch remains a separate optional target for proof contracts requiring sam
 The active averaged theorem states explicitly:
 
 ```text
-Source supplier for AVG.MAIN.A: FFSRC.A.
+Source supplier for AVG.MAIN.A: Hyp(FFSRC.A), including FCC.C1a.
 ```
 
 This declaration fixes the dependency graph and prevents ambiguity during matrix regeneration.

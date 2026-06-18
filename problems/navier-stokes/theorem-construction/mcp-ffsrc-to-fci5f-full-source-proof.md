@@ -5,8 +5,8 @@
 The strengthened frozen-family source package
 
 ```math
-FFSRC.A:
-FFPB.A0+FFSC.C1+FCC.C1
+\operatorname{Hyp}(FFSRC.A):
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
 ```
 
 implies
@@ -41,9 +41,12 @@ FFSC.C1\Longrightarrow
 The cutoff channel is supplied by
 
 ```math
-FCC.C1\Longrightarrow
+FCC.C1+FCC.C1a\Longrightarrow
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
 ```
+
+Here `FCC.C1a` is the interval input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 Therefore
 
@@ -61,17 +64,19 @@ The frozen-family packet obeys
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-\left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+\mathcal F_{N,\rho,\psi}^{\varepsilon}
++4\nu\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
 The coefficient
 
 ```math
-\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
 ```
 
-is integrable by the collar, cutoff, and source package inputs. Gronwall yields
+is integrable by the collar and source package inputs; the cutoff-defect term
+is integrable by `FCC.C1a`. Gronwall yields
 
 ```math
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
@@ -92,13 +97,13 @@ This is precisely `FCI.5f`.
 This proof uses the strengthened source branch:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The exact same-depth branch
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
 is an auxiliary stricter route and is not used in this proof.

@@ -147,7 +147,7 @@ Substitution of the two compressed chains yields the terminal retained theorem:
 
 ```math
 ACT.KX
-+FFSRC.A
++\operatorname{Hyp}(FFSRC.A)
 +DTC\text{-}to\text{-}TowerBound
 +END.Exh+END.Cross+END.Pack+END.Field
 \Longrightarrow
@@ -159,7 +159,7 @@ with the understood route expansion
 ```math
 ACT.KX\Rightarrow LCI.A,
 \qquad
-LCI.A\Rightarrow FFSRC.A\Rightarrow FCI.5f,
+LCI.A\Rightarrow \operatorname{Hyp}(FFSRC.A)\Rightarrow FCI.5f,
 \qquad
 LCI.A+FCI.5f\Rightarrow CFI.A.
 ```
@@ -282,7 +282,8 @@ Retained terminal theorem status: conditionally compressed under H1--H6.
 Source status: strengthened branch closes through
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Rightarrow FFSRC.A\Rightarrow FCI.5f.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
+\Rightarrow \operatorname{Hyp}(FFSRC.A)\Rightarrow FCI.5f.
 ```
 
 Endpoint status: endpoint package closes through

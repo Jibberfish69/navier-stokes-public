@@ -115,15 +115,18 @@ By `FFPB.A0`, the preceding two inputs imply
 Together with the installed nonpressure and cutoff source pieces,
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
 \Longrightarrow
-FFSRC.A.
+\operatorname{Hyp}(FFSRC.A).
 ```
+
+The extra input is the cutoff-defect interval bound
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 Hence
 
 ```math
-FFSRC.A
+\operatorname{Hyp}(FFSRC.A)
 \Longrightarrow
 FCI.5f.
 ```

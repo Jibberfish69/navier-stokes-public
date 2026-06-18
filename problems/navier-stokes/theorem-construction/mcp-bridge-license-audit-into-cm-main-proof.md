@@ -23,7 +23,7 @@ DTC.A_{avg}\to AVG.RCV.A\to LCI.A_{avg}\to CSP.A_{avg}\to OFP.A_{avg}\to CFI.A_{
 The source branch has license through
 
 ```math
-FFSRC.A\ \text{or}\ FPCR.C+FSCR.C+FCC.C1\to FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\ \text{or}\ FPCR.C+FSCR.C+FCC.C1+FCC.C1a\to FCI.5f,
 ```
 
 then through the same collar / one-field / CFI chain.

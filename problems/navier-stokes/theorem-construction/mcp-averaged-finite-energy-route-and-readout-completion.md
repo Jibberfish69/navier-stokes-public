@@ -122,7 +122,7 @@ The compressed averaged route is
 
 ```math
 AVG.MAIN.A:
-SCF_{base}+ATD_m^\varepsilon+CAVG.J+AVG.RCV.A+AVG.END.A+FFSRC.A
+SCF_{base}+ATD_m^\varepsilon+CAVG.J+AVG.RCV.A+AVG.END.A+\operatorname{Hyp}(FFSRC.A)
 \Longrightarrow
 \text{no averaged finite-time class exit}.
 ```
