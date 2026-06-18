@@ -1496,6 +1496,43 @@ Edited live surfaces:
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`.
 
+## Residual-Pair Low-High Commutator Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-residualpair-a-conditional-decomposition-20260504.md`
+  said the strict low-high commutator obeys the "standard Coifman-Meyer /
+  Bernstein estimate."
+
+Exact replacement:
+
+The note now separates the two exact estimates. Bernstein on a `j`-shell gives
+
+```math
+\|R^{comm}_{j,k}\|_{H^{-1}}
+\le C_{H^{-1}}2^{-j}\|R^{comm}_{j,k}\|_2.
+```
+
+The strict scale gap and coefficient-good collar must then supply
+
+```math
+\|R^{comm}_{j,k}\|_2
+\le C_{CM}c_M\,\nu^{1/2}2^{2j}\|w_j\|_2,
+\qquad c_M\to0.
+```
+
+Together they imply the displayed absorbable residual estimate. The small
+factor `c_M` is a required output of the strict gap/stopping construction, not a
+generic commutator consequence.
+
+Downstream consequence: the residual-pair branch may spend the `H^{-1}`
+absorption only after the shell Bernstein conversion and the coefficient-good
+Coifman--Meyer bound are proved on the same selected collar.
+
+Edited live surface:
+
+- `theorem-construction/mcp-residualpair-a-conditional-decomposition-20260504.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
