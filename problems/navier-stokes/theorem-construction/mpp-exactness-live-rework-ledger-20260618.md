@@ -9063,3 +9063,86 @@ Validation:
 The live hidden-model/profile scan now returns only intentionally preserved
 guard, external-claim, or theorem-target hits, and `git diff --check` passes on
 the edited files.
+
+## Hope / Slogan / Route-Intuition Rework
+
+Old claim being spent:
+
+The live route-intuition scan found proof-adjacent language such as `hope`,
+`hoped-for`, `attractive`, `promising`, `tempting`, `suggests`, `expectation`,
+and `slogan`.  The failure pattern was that route attraction or proof-search
+mood could sit where the text needed an exact theorem input, bridge, or
+displayed estimate.
+
+Exact replacement:
+
+The repaired surfaces now state exact burdens in place of route mood:
+
+- derivative recovery is a same-surface continuation requirement, with
+  \(\sup_{t<T_*}\|u(t)\|_{H^s}<\infty\), \(s>5/2\), as the concrete readout;
+- geometric drain routes require a same-surface coercive derivative inequality;
+- the four-body circuit has four theorem inputs: scale control, \(Q(t)\)
+  control, compact exact-object capture, and same-surface derivative recovery;
+- lifted-band and LPAS routes require summable kernel decay / lower-prefix
+  orientation control, not attraction from frequency separation;
+- two-point strain routes require a selected-pair lower-envelope theorem for
+  SG.4;
+- pressure-source and transported-boundary branches require a pressure-source
+  tether or transported-boundary anti-inflow theorem;
+- \(Q(t)\), active-window, projected-flow, and source-wall passages now name the
+  exact estimates they need;
+- Zeno point-object prose now separates the point-object from the shrinking
+  positive-radius fields that must be tested;
+- theorem notes now use exact target language for drift visibility,
+  long-window stationarity, height-flux charge, backward reflection,
+  affine-frame linearization, class-membership compression, parabolic edge
+  resistance, one-field compression, and finite-financing/receiver-speed
+  branches.
+
+Downstream consequence:
+
+The manuscript and theorem notes no longer let route history, reader appeal, or
+proof-search preference carry proof force.  Each affected branch either names a
+displayed estimate/proposition that would close it or remains an explicit
+uninstalled theorem target.  The CM-facing passages continue to treat tempting
+positive deletion objections as proof-program switches unless a same-witness
+Pack/Part/Field consequence has actually been derived.
+
+Surfaces edited:
+
+- `submission-bundle/navier-stokes-submission.tex`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/sections/reader-facing-proof-program-front-pages.tex`;
+- `submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex`;
+- `submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex`;
+- `submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/lagrangian-material-derivative-recheck-note.md`;
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`;
+- `theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`;
+- `theorem-construction/mpp-clay-breakdown-preterminal-reflection-proof-attempt-20260524.md`;
+- `theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md`;
+- `theorem-construction/mpp-forward-gold-door2-gauge-stationarity-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`;
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`;
+- `theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`;
+- `theorem-construction/mpp-parabolic-edge-resistance-direct-attempt-20260505.md`;
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
+- `theorem-construction/transported-phase-space-selector-theorem-candidate.md`.
+
+Intentionally preserved hits:
+
+- `tempting` / `attractive wrong substitution` lines that explicitly warn
+  against overclaiming remain as guard language;
+- `slogan` lines that explicitly say a slogan has been replaced, is not proof,
+  or must not be promoted remain as guard language;
+- `conditional expectation` in `d3-commutative-shadow-theorem.md` is a
+  mathematical operator, not proof mood;
+- `qualitative mixing expectation` and `vague larger-shell hope` remain only in
+  sentences that reject those shortcuts and immediately name exact replacements.
+
+Validation:
+
+The focused live route-intuition scan now returns only intentionally preserved
+warning/operator/rejection hits, and `git diff --check` passes on the edited
+files.
