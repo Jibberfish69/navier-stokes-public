@@ -30,8 +30,8 @@ The route now factors cleanly as
 
 ## Current Support-Level Input
 
-The scale-side shell algebra already yields a genuine summable gap kernel on
-the lifted band:
+The scale-side shell algebra already yields the displayed summable factor
+`2^{-(j-k)}` on the lifted-band scale-side carrier:
 
 ```math
 \sum_{j\ge N}\sum_{N+M<k<j-4}
@@ -42,7 +42,7 @@ the lifted band:
 
 This is recorded in `scale-kernelized-lifted-band-reduction-lemma.md`. So the
 missing content is no longer "find any off-diagonal decay." The missing content
-is the theorem that turns that support-level kernel into the exact spacetime
+is the theorem that turns that support-level carrier into the exact spacetime
 remainder needed by the lifted packet.
 
 ## Installed Frontier Theorem
