@@ -79,7 +79,7 @@ and
 \tag{5}
 ```
 
-So transport disappears from the base equation but reappears immediately as
+So transport disappears from the base equation but reappears as
 strain/commutator forcing once spatial derivatives or viscosity are applied.
 
 ## Spatially differentiated material equation
@@ -135,17 +135,17 @@ The material tower has one real structural improvement:
 }
 ```
 
-So for low-order reasoning, it may isolate more clearly that the active source
+So for low-order reasoning, it may isolate more directly that the active source
 is strain/commutator interaction rather than bare transport.
 
 ## What worsens
 
-Three things worsen immediately.
+Three things worsen at once.
 
 1. The viscosity term loses its clean linear rung form because of `[D_t,\Delta]`.
 2. The pressure term no longer looks harmless once `[D_t,\nabla]` enters.
 3. The tower becomes commutator-heavy rather than binomial-heavy; this is not
-   obviously simpler.
+   plainly simpler.
 
 In short:
 

@@ -120,7 +120,7 @@ So `(LPAS)` is not implied by the currently installed Euclidean queue.
 
 ## Bounded self-attempt: why the installed queue does not close `(LPAS)`
 
-There are three immediate reduction attempts, and each fails for a structural
+There are three first reduction attempts, and each fails for a structural
 reason.
 
 ### 1. Reduction to the upper-tail queue fails by orientation

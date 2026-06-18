@@ -11,8 +11,8 @@ Lagrangian six-lemma route:
 }
 ```
 
-strong enough to feed the enlarged `A`-ledger and recover the coefficient
-window
+in the explicit form needed to feed the enlarged `A`-ledger and recover the
+coefficient window
 
 ```math
 G\nabla_aA,\qquad \nabla_a(G\nabla_aA)\in L^\infty.
@@ -24,7 +24,7 @@ window; see
 
 ## Target system
 
-The bridge should be proved on the exact Lagrangian system
+The bridge is posed on the exact Lagrangian system
 
 ```math
 \partial_t v + A^\top\nabla_a q-\nu\,\operatorname{div}_a(G\nabla_a v)=f,
@@ -104,7 +104,7 @@ G\nabla_aA,\ \nabla_a(G\nabla_aA)\in L^\infty
 
 ## Minimal theorem program
 
-The missing theorem should be attacked as four subclaims.
+The missing theorem splits into four subclaims.
 
 ### Step 1. Frozen-coefficient same-depth Stokes estimate
 
@@ -190,7 +190,7 @@ So `(7)` is equivalent to
 ```
 
 with `\widetilde f(y,t):=f(A_*y,t)`. Therefore the same-depth estimate `(3)` is
-true in the constant-coefficient frozen case by transport of the standard
+true in the constant-coefficient frozen case by transport of the classical
 Stokes estimate through the linear volume-preserving map `(7b)`.
 
 This means the real content of Step 1 is **not** the constant-coefficient
@@ -268,8 +268,9 @@ with `\widetilde f(x,t):=f(Y_*(x),t)`.
 
 So for a frozen coefficient pair coming from a genuine frozen flow map, there is
 no new variable-coefficient PDE difficulty at the level of the equation itself.
-The same-depth estimate follows from the standard Stokes estimate plus
-composition/norm-equivalence constants for `X_*` and `Y_*`.
+The same-depth estimate follows from the constant-coefficient Stokes estimate
+in the frozen coordinates, with composition/norm-equivalence constants for
+`X_*` and `Y_*`.
 
 The real issues in this exact frozen setting are:
 
@@ -293,7 +294,7 @@ G_*(a)=A_*(a)A_*(a)^\top.
 \tag{7n}
 ```
 
-Here there is no exact linear conjugation to the standard Stokes operator. So
+Here there is no exact linear conjugation to the constant-coefficient Stokes operator. So
 the intrinsic Step 1 target is:
 
 ```math
@@ -363,7 +364,7 @@ enter.
 
 #### Minimal operator objects for Step 1c
 
-The frozen spatially varying problem should be organized around
+The frozen spatially varying problem is organized around
 
 ```math
 D_{A_*}v:=\operatorname{div}_a(A_*v),
@@ -410,7 +411,7 @@ So the first truly actionable estimate is the patchwise bound
 ```
 
 for nested balls `B\Subset B'`, with the localized constraint repaired after
-cutoff. The global frozen estimate should then come from a partition-of-unity
+cutoff. The global frozen estimate then comes from a partition-of-unity
 sum of `(7u)`.
 
 The corresponding audit of the naive stability slogan is:
@@ -435,8 +436,7 @@ include:
    `G_*`) on the localization ball,
 4. the cutoff/divergence-repair contribution from `(7ad)`.
 
-So the patchwise estimate `(7u)` is the corrected form that should actually be
-proved.
+So the patchwise estimate `(7u)` is the corrected theorem target.
 
 #### Constrained weak form for Step 1c
 
@@ -781,7 +781,9 @@ X_s^{\mathrm{corr}}[I_j;w,\pi].
 ```
 
 Since the adaptive partition already enforces the short-slab smallness regime,
-the factor `h_j^{1/2}` is harmless and may be absorbed into the slab constant.
+the absorption is the explicit slab condition
+`C_{\Lambda_*}h_j^{1/2} <= C_{\mathrm{slab}}`; the slab constant is enlarged
+once by that fixed bound.
 Combining with `(10b)` gives
 
 ```math
@@ -1227,7 +1229,7 @@ z(t_0)=0,
 \tag{10tk}
 ```
 
-and the linear part satisfies the standard frozen Stokes bounds
+and the linear part satisfies the frozen Stokes bounds
 
 ```math
 \|w^{\mathrm{lin}}\|_{L_t^\infty H_x^s(I)}
@@ -1303,7 +1305,7 @@ B_\tau(N_0,R)\to 0
 Here the source term `A_\tau` contains the forcing increment `F_\tau` and the
 small linear contribution `\tau^{1/2}N_0` from `(10tl)`, while the coefficient
 defects contribute one factor of either `\tau^{1/2}` or the increment size
-`Z_\tau`. Thus the recentered restart problem is reduced to a standard
+`Z_\tau`. Thus the recentered restart problem is reduced to a
 zero-initial-data quadratic bootstrap.
 
 #### Bootstrap closure of `(10tp)`
@@ -1361,7 +1363,8 @@ Z_{[t_0,t]}
 ```
 
 So the bootstrap improves strictly from `R_*` to `\tfrac34R_*`. Since
-`Z_{[t_0,t_0]}=0`, standard continuity implies
+`Z_{[t_0,t_0]}=0`, continuity of the bootstrap norm in the slab parameter
+implies
 
 ```math
 Z_\tau
@@ -1439,7 +1442,8 @@ where `\mu:=M-I`, `\eta:=H-I`, and the classes are:
    `\eta\,\nabla_x^2 w^{\mathrm{lin}}`; these contribute to
    `B_\tau(N_0,R)\,Z_\tau`, and the coefficient in front is small
    because each such term carries one factor of either the short-slab defect
-   `\delta_I` from `(10to)` or the small linear profile `w^{\mathrm{lin}}`;
+   `\delta_I` from `(10to)` or the explicit short-slab norm
+   `\|w^{\mathrm{lin}}\|_{L_t^1H_x^{s+1}(I)}`;
 
 3. **genuine quadratic remainder terms**, containing at least two increment
    factors from `z,\Xi_1,\Xi_2,\mu,\eta`; the model examples are
@@ -1953,7 +1957,7 @@ closes Lemma 4B by the established Route A argument.
 ### Two cautions
 
 1. **BKM is not the bridge.**  
-   It is only a continuation heuristic. It does not by itself produce the
+   It is only a continuation guide. It does not by itself produce the
    same-depth `v`-derivatives required by `\mathsf M_1,\mathsf M_2`.
 
 2. **Existing maximal-regularity papers validate the operator class, not the

@@ -404,7 +404,8 @@ C\bigl(\mathcal E_J^{obs}+\mathrm{Err}_{J,\mathrm{pair}}\bigr).
 
 ### Proof
 
-`(KMG.27)` is immediate from `(PSJ+.1)`. Combine it with `KMG.C` and `KMG.B`. ∎
+`(KMG.27)` is `(PSJ+.1)` rewritten in the present notation. Combine it with
+`KMG.C` and `KMG.B`. ∎
 
 ## Interpretation
 

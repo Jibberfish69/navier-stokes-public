@@ -161,4 +161,9 @@ LCI.A+CJ.A_{low}.7+FCI.5f+OFP.A+CFI.A+End_{NS}.
 
 ## Boundary
 
-This tranche closes the carrier route conditionally under Osgood-subcritical `\Phi_s`. If `\Phi_s(r)` grows like `r^p` with `p>1`, the scalar comparison ODE permits finite-time escape, so the lifted energy route requires a sharper structure theorem for `\Phi_s`.
+This tranche closes the carrier route conditionally under Osgood-subcritical
+`\Phi_s`. If there are \(c>0\), \(p>1\), and \(R>0\) such that
+\(\Phi_s(r)\ge c r^p\) for \(r\ge R\), then
+\(\int_R^\infty dr/\Phi_s(r)\le (c(p-1)R^{p-1})^{-1}<\infty\); the scalar
+comparison ODE permits finite-time escape.  The lifted energy route therefore
+requires a sharper structure theorem for `\Phi_s`.

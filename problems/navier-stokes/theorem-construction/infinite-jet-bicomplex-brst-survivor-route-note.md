@@ -27,7 +27,7 @@ The question is:
 
 ## Immediate verdict
 
-The route should be split into three different verdicts.
+The route splits into three different verdicts.
 
 ### 1. Infinite jet spaces: yes
 
@@ -54,7 +54,7 @@ because the bicomplex is the natural way to separate:
 - contact-trivial pieces,
 - genuinely surviving cohomological content of the prolonged PDE.
 
-This makes it a plausible tool for the **survivor dictionary theorem**.
+This makes it a candidate tool for the **survivor dictionary theorem**.
 
 ### 3. Literal BRST quantization: probably not the main theorem route
 
@@ -110,13 +110,13 @@ It is a cleaner statement of what the mixed-jet route already is:
 }
 ```
 
-## 2. What the variational bicomplex would add
+## 2. What the variational bicomplex adds as a theorem target
 
 Let `\mathcal E_{\mathrm{NS}}^\infty` denote the infinite prolongation of the
 classical incompressible Navier--Stokes system on fields `(u,p)` or on a
 Lagrangian package `(v,G,q)`.
 
-On the ambient jet space one has the standard decomposition
+On the ambient jet space the variational bicomplex decomposition is
 
 ```math
 d = d_H + d_V,
@@ -128,8 +128,8 @@ where:
 - `d_V` is the vertical/contact differential.
 
 The potential value of this for the lane is not abstract elegance.
-It is that several current "cancellations" should be re-read as exactness
-statements.
+It is that several current "cancellations" become exactness statements only
+after the quotient complex and survivor class are specified.
 
 ### Pressure
 
@@ -177,7 +177,7 @@ That is already much closer to the current central theorem need than a generic
 ## 3. Why literal BRST quantization is too large
 
 Raw deterministic Navier--Stokes is not presently being used in the lane as a
-clean classical gauge action whose direct quantization should solve regularity.
+clean classical gauge action whose direct quantization solves regularity.
 
 So the phrase
 
@@ -196,8 +196,8 @@ Three things make it risky if taken literally.
    auxiliary language tries to replace the theorem route instead of clarifying
    it.
 
-So full BRST quantization would likely become another support universe unless
-it is kept on a short leash.
+So full BRST quantization is support-language only unless it is restricted to
+the survivor-class quotient.
 
 ## 4. The usable BRST move
 
@@ -216,8 +216,8 @@ In the present lane, that means:
 - contact-trivial jet terms,
 - possibly pure relabelling artifacts on the Lagrangian side.
 
-The practical output would not be a quantum fluid.
-It would be a cohomological statement of the form:
+The practical output is not a quantum fluid. It is a cohomological statement of
+the form:
 
 ```math
 \boxed{
@@ -327,8 +327,8 @@ That is almost certainly not the right destination for classical NS
 regularity. The NS lane is not trying to classify scattering states. It is
 trying to prove global smoothness for the classical PDE.
 
-So the asymptotic-Fock-space part should be treated as motivational background
-only, not as the route target.
+So the asymptotic-Fock-space part is motivational background only, not the route
+target.
 
 The right endpoint here is:
 
@@ -482,8 +482,8 @@ split:
 
 ## 4F. The actual NS differential-form package
 
-The right way to use forms here is not abstractly but through the standard
-intrinsic fluid objects.
+The right way to use forms here is not abstractly but through the intrinsic fluid
+objects.
 
 Let
 
@@ -524,7 +524,7 @@ Then the natural operators become:
   \mathcal L_u,\qquad i_u.
   ```
 
-So the geometric NS rewrite should be thought of as living on:
+So the geometric NS rewrite lives on:
 
 ```math
 \alpha,\qquad \omega=d\alpha,\qquad \delta\alpha=0,\qquad \Delta_H\alpha.
@@ -622,7 +622,7 @@ It just means:
 
 - forms + Hodge + Cartan are likely the right intrinsic language for the
   transport/vorticity/exactness side;
-- currents may become useful later when the lane has to pass to weak limits or
+- currents may become useful later when the lane must pass to weak limits or
   generalized same-surface objects.
 
 ## 5. New synthesized insight
@@ -666,7 +666,8 @@ residual class:
 - contractive,
 - or coercively dominated.
 
-That would be the right cohomological version of the drain theorem.
+That is the cohomological version of the drain theorem once the residual class
+and domination/exactness alternative are proved.
 
 So the jet/bicomplex/BRST route does **not** replace the current final-proof
 program.

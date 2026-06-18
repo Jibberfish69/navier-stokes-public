@@ -98,8 +98,9 @@ This is the exact boundary theorem now needed on the signed route.
 
 ## Why this is not already covered
 
-The lower collar and same-scale spill packets are already absorbed into
-`\mathscr A_{collar}`. The upper-boundary packet is different:
+The lower collar and same-scale spill packets have already been assigned to
+the collar-class term `\mathscr A_{collar}` by the preceding reductions. The
+upper-boundary packet is different:
 
 1. it is not a fixed-cutoff family centered at `N+M`;
 2. it is not a same-scale spill packet created by `\ell\partial_\ell
@@ -116,8 +117,8 @@ This note is only a boundary isolation note. It does **not** prove
 
 What it does settle is the exact remaining boundary theorem on the signed
 route: after collar-class reduction, every non-new boundary/collar effect has
-already been pushed into accepted packet classes, and the only new boundary
-term left is `\mathfrak B_N^{upper}`.
+already been assigned to its named packet class by the preceding reductions,
+and the only new boundary term left is `\mathfrak B_N^{upper}`.
 
 The companion interior note
 `lifted-band-mesoscopic-residual-reduction-lemma.md`

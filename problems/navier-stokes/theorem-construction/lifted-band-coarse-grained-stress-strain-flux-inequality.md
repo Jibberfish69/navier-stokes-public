@@ -21,8 +21,9 @@ The live quantity is
 ```
 
 The theorem below shows that `\mathcal J_N^{lift}` is controlled by one
-coarse-grained stress-strain flux measure. After this reduction, the route
-should no longer be read as a family of independent shell estimates.
+coarse-grained stress-strain flux measure. After this reduction, the route must
+be read as that coupled flux estimate, not as a family of independent shell
+estimates.
 
 ## Setup
 
@@ -67,8 +68,19 @@ Because `\eta` has mean zero and reproduces the `j`-band,
 2^{2j}|u_j(x,t)|^2 \le C_\tau \tau_j^{H^1}[u](x,t).
 ```
 
-Finally, let `\rho_j` be any fixed nonnegative unit-mass kernel adapted to
-radius `2^{-j}` and define the mesoscopic strain density
+Finally, choose a fixed nonnegative unit-mass kernel `\rho_j`, adapted to
+radius `2^{-j}`, large enough to dominate the commutator averaging kernel:
+
+```math
+\int_0^1\int
+|\nabla K_j(h)|\,|h|\,
+\big(\phi(y-(1-\theta)h)+\phi(y+\theta h)\big)\,dh\,d\theta
+\le
+C_\rho(\rho_j*\phi)(y)
+```
+
+for every nonnegative test density `\phi`.  Define the mesoscopic strain
+density
 
 ```math
 \Sigma_j^{meso}(x,t)
@@ -76,8 +88,9 @@ radius `2^{-j}` and define the mesoscopic strain density
 (\rho_j * |\nabla b_j(\cdot,t)|)(x).
 ```
 
-This is the natural strain field seen by the `j`-packet after the commutator
-kernel shifts are unfolded.
+This is the strain field seen by the `j`-packet after the commutator kernel
+shifts are unfolded, with the domination property above carrying the averaging
+constant.
 
 ## Theorem
 
@@ -252,9 +265,9 @@ Substituting the previous estimate into the kernel bound yields
 \Bigg]dy.
 ```
 
-The inner bracket is exactly a radius-`2^{-j}` average of the band stress,
-since `|\nabla K_j(h)|\,|h|` is an `L^1` kernel at that scale. After one more
-change of variables, this may be rewritten as
+The domination property of `\rho_j` bounds the inner bracket by a
+radius-`2^{-j}` average of the band stress. After one more change of variables,
+this gives
 
 ```math
 |\mathcal C_j(t)|
@@ -263,6 +276,7 @@ change of variables, this may be rewritten as
 (\rho_j * |\nabla b_j(\cdot,t)|)(x)\,
 \tau_j^{H^1}[u](x,t)\,dx
 =
+C_C'
 \int_{\mathbb R^3}
 \Sigma_j^{meso}(x,t)\,
 \tau_j^{H^1}[u](x,t)\,dx.
@@ -282,7 +296,7 @@ Summing in `j\ge N` proves
 \Sigma_j^{meso}(x,t)\,
 \tau_j^{H^1}[u](x,t)\,dx
 =
-\Pi_N^{lift,\mathrm{dy}}(t).
+C_J\Pi_N^{lift,\mathrm{dy}}(t).
 ```
 
 Passing from the dyadic sum to the scale integral `\int d\ell/\ell` gives the

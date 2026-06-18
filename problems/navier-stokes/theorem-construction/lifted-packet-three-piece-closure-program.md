@@ -18,8 +18,8 @@ close exactly three named objects:
 \tag{1}
 ```
 
-Once those three estimates are proved, the lifted packet is absorbable and the
-weighted leakage theorem closes.
+Once those three estimates are proved, the lifted packet satisfies the
+coefficient-margin bound needed by the weighted leakage theorem.
 
 ## Exact reduction already available
 

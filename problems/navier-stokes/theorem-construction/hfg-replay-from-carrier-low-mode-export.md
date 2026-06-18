@@ -6,10 +6,16 @@ Assume carrier export supplies active-shell low-mode strain suppression:
 \|\nabla S_{j-1}u(t)\|_{L^\infty}\le c\nu2^{2j}.
 ```
 
-Then the dyadic vorticity cascade estimate closes. The low-mode part is absorbed by this bound; the high-high packet is absorbed by the near-diagonal cubic-tail argument; and the spill/collar terms are lower order by the carrier collar estimates. Hence
+Then the dyadic vorticity cascade estimate closes only with explicit
+dissipative fractions. The low-mode part must satisfy
+`c <= eta_low` in the displayed active-shell bound, the high-high packet must
+satisfy the near-diagonal cubic-tail estimate
+`H_HH,j <= eta_HH nu 2^{2j}||Delta_j omega||_2^2`, and the spill/collar terms
+enter the carrier collar constants. Hence
 
 ```math
-cascade_j(t)\le \varepsilon\nu2^{2j}\|\Delta_j\omega\|_2^2+C_\varepsilon2^{-2j}\|\nabla\omega(t)\|_2^2.
+cascade_j(t)\le \varepsilon\nu2^{2j}\|\Delta_j\omega\|_2^2+C_\varepsilon2^{-2j}\|\nabla\omega(t)\|_2^2,
+\qquad 0<\varepsilon<1 .
 ```
 
 Therefore

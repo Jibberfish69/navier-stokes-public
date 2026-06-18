@@ -11,7 +11,7 @@ The point is to say, step by step:
 
 1. what the exact object is,
 2. what equation or theorem shape is wanted at that step,
-3. what conclusion that step would give,
+3. what conditional conclusion that step gives,
 4. what obstruction remains.
 
 The route described here is:
@@ -170,8 +170,8 @@ The jet-pairing matrix shows:
 \tag{12}
 ```
 
-So pressure and base transport should be treated as exact / antisymmetric
-channels rather than genuine growth channels.
+So this program treats pressure and base transport as exact / antisymmetric
+channels rather than genuine growth channels, using the identities in `(12)`.
 
 Candidate theorem shape:
 
@@ -199,7 +199,7 @@ Conclusion:
 
 ```math
 \boxed{
-\text{the true survivor should be defined as a quotient, not as a rhetorical remainder.}
+\text{the survivor theorem defines the true survivor as a quotient, not as a rhetorical remainder.}
 }
 \tag{14}
 ```
@@ -330,8 +330,9 @@ Remaining obstruction:
 
 ## Step 6. Shuffle/Hopf is the right algebraic middle layer
 
-The exterior-algebra / Hopf extraction suggests that the tower spread should be
-re-read as a shuffle-coalgebra phenomenon rather than as a messy Leibniz pile.
+The exterior-algebra / Hopf extraction target is to rewrite the tower spread as
+a shuffle-coalgebra decomposition rather than leave it as an unstructured
+Leibniz pile.
 
 Candidate algebraic theorem shape:
 
@@ -352,7 +353,7 @@ Candidate algebraic theorem shape:
 where `\mathcal S` is the primitive or indecomposable residual survivor class
 from `(13)`.
 
-Equivalently, the whole mixed tower should split into:
+Equivalently, the target split of the whole mixed tower is:
 
 - shuffle-composite pieces generated from lower packets,
 - one primitive/coideal survivor.
@@ -361,7 +362,7 @@ Conclusion:
 
 ```math
 \boxed{
-\text{Hopf/shuffle is not the proof itself; it is the algebra that should identify which part of the tower is merely composite spread and which part is the true survivor.}
+\text{Hopf/shuffle is not the proof itself; it is the algebraic classifier separating composite tower spread from the true survivor.}
 }
 \tag{28}
 ```
@@ -375,10 +376,10 @@ Remaining obstruction:
 \tag{29}
 ```
 
-## Step 7. The survivor dictionary theorem should identify three readouts
+## Step 7. The survivor dictionary theorem identifies three readouts
 
-The current lane already suggests that the same obstruction should appear in
-three forms:
+The survivor dictionary target requires the same obstruction to appear in three
+forms:
 
 ```math
 \text{lifted high-side remainder}
@@ -390,7 +391,7 @@ three forms:
 ```
 
 The old lower-prefix/affine survivor family and the current lifted upper-tail
-family should also be compared by filtration:
+family are compared by the filtration target:
 
 ```math
 \mathcal S_{\mathrm{prefix}}
@@ -483,7 +484,7 @@ Remaining obstruction:
 
 ## Step 9. The endgame is a deformation-geometry drain theorem
 
-The candidate final inequality should be sought on a finite Lagrangian family
+The candidate final inequality is posed on a finite Lagrangian family
 of `v` and `G` derivatives:
 
 ```math
@@ -507,8 +508,11 @@ with:
 
 - `\mathcal K_r^{Lag}` a deformation-curvature energy,
 - `\mathcal D_r^{Lag}` the genuine parabolic drain in the evolving metric,
-- `\mathcal C_r^{Lag}` a coercive square-type term strong enough to dominate
-  the exported survivor packet.
+- `\mathcal C_r^{Lag}` a coercive square-type term with an explicit domination
+  clause
+  `\mathsf{Surv}_r^{Lag}[v,G]\le C\mathcal C_r^{Lag}[v,G]+\mathsf{Err}_r^{Lag}`,
+  where `\mathsf{Err}_r^{Lag}` is an already routed lower-order, boundary, or
+  entrance ledger.
 
 Conclusion:
 
@@ -528,7 +532,7 @@ Remaining obstruction:
 \tag{43}
 ```
 
-## Step 10. What finishing this program would imply
+## Step 10. Conditional consequence of finishing this program
 
 If Steps `3` through `9` succeed, then:
 

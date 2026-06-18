@@ -21,7 +21,7 @@ The route is invalid if any theorem-critical step depends essentially on:
 - a regularized, filtered, truncated, or hyper-viscous evolution law;
 - a geometric carrier not pulled back to the Euclidean equation;
 - a hidden strengthening of the admissible data class;
-- a heuristic frequency-decay slogan standing in for a proved estimate.
+- an unproved frequency-decay slogan standing in for a proved estimate.
 
 ## Honest Main Theorem Posture
 

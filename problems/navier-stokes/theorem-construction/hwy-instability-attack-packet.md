@@ -27,7 +27,7 @@ For this packet, the only source-backed facts from that claim that matter are:
 2. the branch solutions are Leray--Hopf and smooth for every positive time;
 3. the advertised branching mechanism is an unstable self-similar profile.
 
-The exact TPS contradiction route therefore has to pass through the already
+The exact TPS contradiction route therefore passes through the already
 formalized local slots
 
 ```math
@@ -461,7 +461,7 @@ solution classes. One must prove either:
    solution-defined class stable under the same datum.
 
 Without such a datum-side bridge, the slogan "embed
-`\mathcal X_{\lambda_2}^0(u_0,\tau)` into Barker" is only heuristic shorthand,
+`\mathcal X_{\lambda_2}^0(u_0,\tau)` into Barker" is only informal shorthand,
 not a closed theorem statement.
 
 ### Remark Route B closes the contradiction branch, not `PD.70q` by itself
@@ -576,8 +576,8 @@ the middle-eigenvalue estimate
 \le C\,B_J([0,\delta]).
 ```
 
-So even a correct local fixed-point theorem in `\mathcal K_{p,\beta}` would only
-produce a strong solution in that stronger auxiliary class. It would still not
+So even a correct local fixed-point theorem in `\mathcal K_{p,\beta}` only
+produces a strong solution in that stronger auxiliary class. It still does not
 prove either:
 
 1. branch-local realization of the HWY construction inside the exact entry class
@@ -652,7 +652,7 @@ u^{(1)}(t)=u^{(2)}(t)
 ```
 
 In particular, the two branches have the same value at the positive time `t_*`
-in the standard Leray--Hopf trace sense. By hypothesis 2, both restrictions
+in the Leray--Hopf trace sense. By hypothesis 2, both restrictions
 `u^{(1)}|_{[t_*,T]}` and `u^{(2)}|_{[t_*,T]}` are smooth solutions of the same
 Navier--Stokes Cauchy problem with the same data at time `t_*`. Classical
 strong-solution uniqueness therefore gives
@@ -703,7 +703,7 @@ to the implication `(PD.70z3)+(PD.70z12)+(PD.70z13)+(PD.70z14)\Longrightarrow
 ### Remark what remains open on Route A
 
 The theorem above is purely conditional. To make Route A an actual proof, one
-still has to prove the three HWY export lemmas producing `(PD.70z12)`,
+must still prove the three HWY export lemmas producing `(PD.70z12)`,
 `(PD.70z13)`, and `(PD.70z14)` from the initial-strip profile, plus `SG.4Fb`
 when renewal is used. No complete profile-to-Hodge export theorem of that form
 is currently installed on disk.
@@ -779,7 +779,7 @@ So the earlier four-gap checklist both overcounts and undercounts:
   is entry plus zero-time uniqueness;
 - it **undercounts** the primary theorem route because the alleged
   "Route-B-to-Hodge export" is itself a new quantitative observability /
-  coercivity theorem, not a routine functoriality or renewal step.
+  coercivity theorem, not a direct functoriality or renewal step.
 
 In particular, any proposed closure path from Route B to `(PD.70q)` must still
 prove one genuinely quantitative packet theorem of one of the following forms:
@@ -856,11 +856,10 @@ rather:
 4. one **primary quantitative theorem** producing either the Hodge core
    `(PD.70z12)`-`(PD.70z14)` or the exact-potential packet `PSJ+`.
 
-The genuine optimization is that items 2 and 4 should probably be attacked as
-two corollaries of one broader selector-adapted observability / defect-to-strain
-master theorem, with the contradiction branch using a weaker middle-eigenvalue
-output and the primary branch using the stronger Hodge-core or projective
-output.
+The current optimization target attacks items 2 and 4 as two corollaries of one
+broader selector-adapted observability / defect-to-strain theorem, with the
+contradiction branch using a weaker middle-eigenvalue output and the primary
+branch using the stronger Hodge-core or projective output.
 
 ### Remark exact closure program for the primary torus-first route
 
@@ -3055,7 +3054,7 @@ and
 
 These are the actual windowwise scalars to be substituted into the pricing and
 summation packets below. In particular, the abstract local scalar choices in
-`EP.10q`, `EP.10v`, and `EP.10aa` should be read as
+`EP.10q`, `EP.10v`, and `EP.10aa` are read as
 
 ```math
 X_\ell\in\{\mathbf q_\ell^{mat},\mathbf q_\ell^{aux}\},
@@ -3683,7 +3682,7 @@ Equivalently, the live synchronization wall is now:
 \tag{EP.10y1}
 ```
 
-This is the exact theorem-facing point where further progress has to come from
+This is the exact theorem-facing point where further progress comes from
 new mathematics rather than sharper repackaging.
 
 ### Corollary EP.10z (the canonical price choice is the local source scalar itself)
@@ -4378,7 +4377,7 @@ rotational ceiling `(EP.10am2)`.
 **Proof.**
 On each subordinate local window, `(EP.10o5)` and the bounds
 `g_J\ge\gamma_k`, `\sup\|\partial_t A_J^{seg}\|_{\mathrm{op}}\le N_k`,
-`\sup|K_J^{seg}n_J|\le M_{k,\infty}^{rot}` give `(EP.10am3)` immediately. Then
+`\sup|K_J^{seg}n_J|\le M_{k,\infty}^{rot}` give `(EP.10am3)`. Then
 sum over all subordinate local synchronization windows and use the multiplicity
 bound `M_{\mathrm{sub}}` to obtain `(EP.10am4)`. ∎
 
@@ -4443,7 +4442,7 @@ the same type already used in the short-window carrier-mismatch packet
 
 **Proof.**
 The first inequality in `(EP.10an1)` is the operator norm bound for a unit
-vector, and the second is immediate from
+vector, and the second is the identity
 `K_J^{seg}=\operatorname{Skew}\mathcal M_J`. Substituting `(EP.10an2)` into
 `(EP.10am3)` gives `(EP.10an3)`, and summing exactly as in `EP.10am` yields
 `(EP.10an4)`. ∎
@@ -4531,7 +4530,7 @@ By `(AS.5)`,
 of a matrix is represented by the cross-product with half the vorticity, which
 is `(EP.10ao2)`-`(EP.10ao3)`. Taking the segment average in `(EP.10ao1)` and
 using the triangle inequality gives `(EP.10ao4)`. The windowwise bound
-`(EP.10ao7)` is then immediate from `(EP.10ao5)`-`(EP.10ao6)`. ∎
+`(EP.10ao7)` is then `(EP.10ao5)`-`(EP.10ao6)` combined on the same window. ∎
 
 ### Corollary EP.10ap (the adiabatic local input is now exactly a segment-vorticity ceiling packet)
 
@@ -4758,7 +4757,7 @@ So the adiabatic local vorticity packet closes once one proves a chart-local
 pointwise critical Besov ceiling.
 
 **Proof.**
-By the standard inhomogeneous embedding
+By the inhomogeneous embedding
 `B^0_{\infty,1}(\mathbf R^3)\hookrightarrow L^\infty(\mathbf R^3)`,
 
 ```math
@@ -4941,7 +4940,7 @@ W_k^\sharp+L_k^\omega |t-\tau_k^\omega|.
 ```
 
 Since `|t-\tau_k^\omega|\le \rho_k^\omega` on `I_k^\omega`, this gives
-`(EP.10aw4)`, and then `(EP.10aw5)` is immediate. ∎
+`(EP.10aw4)`, and `(EP.10aw5)` is the same bound integrated on `I_k^\omega`. ∎
 
 ### Corollary EP.10ax (the chart-local vorticity wall is now either pointwise critical control or anchor-plus-continuity)
 
@@ -5222,7 +5221,7 @@ Assume the localized coefficient/source packet
 \tag{EP.10be2}
 ```
 
-Then a standard transport-diffusion estimate in `B^0_{\infty,1}` yields
+The local transport-diffusion estimate in `B^0_{\infty,1}` yields
 
 ```math
 \sup_{t\in I_k^{gap}}
@@ -5255,7 +5254,8 @@ e^{C_{\mathrm{td}}\Lambda_k^v}
 ```
 
 So the adiabatic chart-local wall no longer needs a separate derivative packet
-once one accepts the standard localized transport-diffusion propagation theorem.
+once one accepts the localized transport-diffusion propagation theorem stated
+for this packet.
 
 ### Corollary EP.10bf (the adiabatic chart-local wall reduces to one anchor-time critical packet plus one coefficient/source packet)
 
@@ -5768,7 +5768,8 @@ For each `x\in U_k` and `t\in I_k^{gap}`, the mean-value theorem gives
 ```
 
 Multiply by `\|\widetilde\chi_k\|_{L^\infty}` and take the supremum over
-`x,t`. This yields `(EP.10bn3)`, and `(EP.10bn4)` follows immediately. ∎
+`x,t`. This yields `(EP.10bn3)`, and `(EP.10bn4)` is the same bound written
+after summing in `k`. ∎
 
 So one conservative sufficient realization of the new velocity-side wall is:
 
@@ -5978,7 +5979,7 @@ So the anchor-acceleration packet is no longer opaque. It splits exactly into:
 2. one local vorticity-gradient packet at the chart anchor.
 
 **Proof.**
-Equation `(EP.10bq1)` is the standard identity
+Equation `(EP.10bq1)` is the vector identity
 `\nabla\times(\nabla\times v)=\nabla(\nabla\cdot v)-\Delta v`, together with
 `\nabla\cdot v_J=0`. Taking pointwise norms gives `(EP.10bq2)`. Integrating
 over `I_k^{gap}` and combining with `(EP.10bo3)` yields `(EP.10bq5)`. ∎
@@ -6149,7 +6150,7 @@ K(x_k-y):\bigl(v_J(y,t)\otimes v_J(y,t)\bigr)\,dy,
 \tag{EP.10bu2}
 ```
 
-where `K=\nabla^3(-\Delta)^{-1}` is the standard homogeneous kernel of degree
+where `K=\nabla^3(-\Delta)^{-1}` is the homogeneous Calderon-Zygmund kernel of degree
 `-4`. Define the global pressure packet
 
 ```math
@@ -6175,10 +6176,10 @@ current theorem stack. Its honest residual form is one global quadratic
 singular-integral packet evaluated at the chart anchor.
 
 **Proof.**
-Equation `(EP.10bu1)` is the standard incompressible pressure Poisson law. The
+Equation `(EP.10bu1)` is the incompressible pressure Poisson law. The
 representation `(EP.10bu2)` is the corresponding singular-integral formula for
 the gradient of pressure. Integrating its absolute value over `I_k^{gap}`
-immediately yields `(EP.10bu4)` from `(EP.10bu3)`. ∎
+yields `(EP.10bu4)` from `(EP.10bu3)`. ∎
 
 ### Corollary EP.10bv (the adiabatic velocity-side branch ends at one global pressure packet plus local vorticity/geometry packets)
 
@@ -6426,7 +6427,7 @@ H_{mi}(x_k-y)\,
 \tag{EP.10by2}
 ```
 
-where `H_{mi}(z):=-\partial_m\partial_i N(z)` is the standard homogeneous
+where `H_{mi}(z):=-\partial_m\partial_i N(z)` is the homogeneous
 Calderon-Zygmund kernel of degree `-3`, and the collar defect is
 
 ```math
@@ -6971,8 +6972,8 @@ note stack, at the following exact residual package:
 
 There is no further deterministic reduction available from the current note
 stack without importing a genuinely new local strain-pressure theorem, or a
-strictly stronger local strain regularity/localization packet that would
-discharge `(EP.10ce1)`.
+strictly stronger local strain regularity/localization packet that discharges
+`(EP.10ce1)`.
 
 ### Proposition EP.10cf (one classical sufficient realization of the strain-linear pressure packet is anchor strain plus a local Holder strain packet)
 
@@ -7212,8 +7213,8 @@ There is no further deterministic reduction available on this stronger branch
 from the current note stack without importing either:
 
 1. a genuinely new local strain-gradient theorem, or
-2. a strictly stronger local Hessian / strain-modulus theorem that would
-   discharge `(EP.10ch3)`.
+2. a strictly stronger local Hessian / strain-modulus theorem that discharges
+   `(EP.10ch3)`.
 
 So the stronger sufficient route is now terminated just as cleanly as the
 minimal route:
@@ -7316,7 +7317,7 @@ So the stronger strain-gradient wall admits a clean elliptic sufficient route:
 **Proof.**
 Identity `(EP.10ck2)` follows from `(EP.10ck1)` by applying
 `\operatorname{Sym}\nabla`. The interior elliptic estimate `(EP.10ck5)` is the
-standard `C^1` estimate for solutions of Poisson equations on nested domains,
+interior `C^1` estimate for solutions of Poisson equations on nested domains,
 with source term controlled by `\nabla\omega_J` and lower-order term by `S_J`
 itself. Substituting `(EP.10ck6)` gives `(EP.10ck7)`. ∎
 
@@ -7591,8 +7592,8 @@ Assume the localized coefficient/source packet
 \tag{EP.10cr3}
 ```
 
-Then a standard transport-diffusion estimate in `L^\infty` for the vector
-field `G_{J,k}` yields
+The local transport-diffusion estimate in `L^\infty` for the vector field
+`G_{J,k}` yields
 
 ```math
 \sup_{t\in I_k^{gap}}
@@ -7643,7 +7644,7 @@ W_{k,\nabla\omega}^{anc}
 ```
 
 So the strengthened local branch no longer needs the raw derivative ceiling
-`(EP.10cn3)` once one accepts the standard localized transport-diffusion
+`(EP.10cn3)` once one accepts the localized transport-diffusion
 propagation theorem.
 
 **Proof.**
@@ -7662,7 +7663,7 @@ Rewrite `(EP.10co2)` as
 ```
 
 Here we used `\widehat\eta_k(\nabla v_J)\nabla\omega_J=(\nabla v_J)G_{J,k}`.
-Applying the standard `L^\infty` transport-diffusion Gronwall estimate for
+Applying the `L^\infty` transport-diffusion Gronwall estimate for
 linear vector equations with coefficient `\nabla v_J` and source
 `\mathcal H_{J,k}^{\nabla\omega}`, together with `(EP.10cr2)`-`(EP.10cr3)`,
 gives `(EP.10cr4)`. The identities `(EP.10cr5)`-`(EP.10cr6)` then follow from
@@ -8183,7 +8184,7 @@ continuation from the current note stack without importing a genuinely new
 enlarged-support local vorticity-gradient theorem, or a stronger collar-control
 theorem for the higher-derivative cutoff packets.
 
-### Proposition EP.10df (further continuation would reopen the same local vorticity-gradient branch on an enlarged cutoff)
+### Proposition EP.10df (further continuation reopens the same local vorticity-gradient branch on an enlarged cutoff)
 
 Keep the setting of `EP.10de`. The only apparent continuation of the enlarged-
 support local vorticity-gradient packet `(EP.10db2)` is to rerun the same
@@ -9103,9 +9104,9 @@ together with `(EP.12b2)`. So the live compatibility wall is a
 **threshold-selection problem** for the retained windows, not simply a summable
 `\delta_k^2` packet.
 
-This is exactly where the adiabatic cubic inverse-gap loss still bites. A
-direct non-adiabatic `\beta_J` theorem would remove the `\gamma_k^{-3}` branch
-and make this compatibility problem much cleaner.
+This is exactly where the adiabatic cubic inverse-gap loss still bites. The
+direct non-adiabatic `\beta_J` theorem target removes the `\gamma_k^{-3}` branch
+and makes this compatibility problem cleaner.
 
 ### Proposition EP.12c (direct non-adiabatic `\beta_J` budget is the right next forcing theorem)
 
@@ -9292,7 +9293,7 @@ coefficients `m(\cdot,t)` such that for almost every `t\in I`,
 ```
 
 for every admissible Besov datum `f`. A concrete sufficient specialization is
-to require the coefficients to lie in a standard paraproduct multiplier class,
+to require the coefficients to lie in a paraproduct multiplier class,
 for example `L_t^\infty(L_x^\infty\cap \dot B^1_{\infty,1})`, or in a
 low-frequency packet with the same multiplier action.
 

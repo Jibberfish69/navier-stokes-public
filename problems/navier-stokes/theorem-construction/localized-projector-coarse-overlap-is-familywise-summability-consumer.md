@@ -52,7 +52,7 @@ So on the coarse localized-projector route, overlap is not a separate scalar
 burden either. It is part of the same familywise summability wall already named
 in the source packet.
 
-## Corollary `LFS.A` (coarse overlap is absorbed by the familywise summability theorem)
+## Corollary `LFS.A` (coarse overlap is controlled by the familywise summability theorem)
 
 Assume:
 

@@ -120,8 +120,9 @@ N_{\mathrm{ov}}\,|I|\,\mu_J^{pair}(\mathcal J),
 \tag{LCV.6}
 ```
 
-hence the coarse localized-projector overlap price is absorbed by the `F.1`
-side of the retained-family packet.
+hence the coarse localized-projector overlap price is bounded by the `F.1`
+side of the retained-family packet with the displayed multiplicity factor
+`N_{\mathrm{ov}}`.
 
 ### Proof
 

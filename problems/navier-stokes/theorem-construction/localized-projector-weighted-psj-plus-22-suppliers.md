@@ -176,8 +176,8 @@ M_J^2\kappa_J^{win}\,dx\,dt=o_J(1).
 
 ### Proof
 
-`(WPC.9)` is immediate from `(WPC.3)` and `(WPC.8)`. Substitute the floor
-`{\Gamma_J\ge\Gamma_0}` into `(WPC.4)`. ∎
+`(WPC.9)` is the product of `(WPC.3)` and `(WPC.8)`. Substituting the floor
+`{\Gamma_J\ge\Gamma_0}` into `(WPC.4)` gives `(WPC.12)`. ∎
 
 ## Corollary `WPC.C` (material-gap entrance route)
 

@@ -315,8 +315,13 @@ It only records the structural analogy:
 3. in the classical deformation route, the comoving pullback kills explicit
    transport as a visible source term;
 4. the remaining burden is deformation geometry itself;
-5. top-level Route B is a plausible program for asking whether that deformation burden
+5. top-level Route B is a conditional program for asking whether that deformation burden
    projects to a commutative sector cleanly enough to support smoothness.
+
+The downstream burden is exact: Route B has proof force only after a theorem
+identifies the deformation observable sector and proves that the remaining
+singular mechanism is killed, absorbed, or exposed there.  Until that theorem is
+installed, this note is a sector-selection question, not a regularity proof.
 
 So the real question, if this fork is ever pursued, is:
 

@@ -228,8 +228,8 @@ Here:
 - `\mathcal S_{\mathrm{surv}}` is the true survivor class.
 
 **Conclusion.**
-The first real theorem move should be a survivor-classification theorem, not
-yet a drain theorem.
+The first proof-bearing theorem is a survivor-classification theorem, not yet a
+drain theorem.
 
 **Remaining obstruction.**
 No theorem-grade definition of `\mathcal E_{\mathrm{exact}}` and
@@ -336,7 +336,7 @@ The exact combinatorial collapse is
 \tag{24}
 ```
 
-This strongly suggests the candidate time-jet coproduct
+This exactly matches the candidate time-jet coproduct
 
 ```math
 \Delta_{\mathrm{sh}}(V_n)
@@ -365,19 +365,23 @@ M_n = \mu_\nabla\big(\Delta_{\mathrm{sh}}V_n\big),
 
 where `\mu_\nabla(a\otimes b):=(a\cdot\nabla)b`.
 
-The intended theorem-grade use is:
+The unpaid theorem-grade use is:
 
 ```math
 \boxed{
-\text{after quotienting exact/trivial layers, the survivor class should be primitive or coideal for }\Delta_{\mathrm{sh}}.
+\text{after quotienting exact/trivial layers, the survivor class is primitive or coideal for }\Delta_{\mathrm{sh}}.
 }
 \tag{28}
 ```
 
-That is the exact role of the Hopf/shuffle frontier.
+The displayed coproduct identities alone do not prove this boxed statement.
+They only identify the algebraic packet on which the survivor theorem would
+have to act.
 
 **Conclusion.**
-Hopf/shuffle is the best current explanation of the tower's combinatorics.
+Hopf/shuffle is exact combinatorial bookkeeping for the tower's differentiated
+product rule.  It becomes proof-bearing only after the exactness quotient and
+primitive/coideal survivor theorem are installed.
 
 **Remaining obstruction.**
 No theorem has yet shown that the lifted survivor is primitive, coideal, or
@@ -447,11 +451,11 @@ A^\top\nabla_a \partial_a^\alpha q
 
 where `\mathcal C_\alpha` is the deformation-coefficient commutator packet.
 
-So the intended dictionary theorem is:
+The unpaid dictionary theorem is:
 
 ```math
 \boxed{
-\text{the survivor class isolated in the tower should export to the coefficient/deformation commutator packet in the Lagrangian frame.}
+\text{the survivor class isolated in the tower exports to the coefficient/deformation commutator packet in the Lagrangian frame.}
 }
 \tag{35}
 ```
@@ -537,9 +541,10 @@ The downstream chain is:
 
 1. The useful Wikipedia material does **not** replace the route lock.
 2. The tower remains the visible engine.
-3. Forms and exactness should classify fake burden, not compete with the main
-   proof route.
-4. Filtration should compare the historical survivor families.
+3. Forms and exactness classify fake burden only through installed quotient
+   theorems; they do not compete with the main proof route.
+4. Filtration compares the historical survivor families only after explicit
+   readout maps and carrier/scale-window hypotheses are installed.
 5. Shuffle/Hopf is the right algebraic frontier for the tower's combinatorics.
 6. The honest deep object is Lagrangian deformation geometry.
 7. The actual endgame theorem is still a deformation-side drain inequality.

@@ -34,7 +34,7 @@ The point is:
 
 ```math
 \boxed{
-\text{Hopf/shuffle should classify the survivor,}
+\text{Hopf/shuffle classifies the survivor at the algebraic-filter stage,}
 }
 ```
 
@@ -279,10 +279,10 @@ The internal proof of `(13b)` is the package assembled in
 [frame-recovery-wall-theorem-candidate-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/frame-recovery-wall-theorem-candidate-note.md),
 and
 [lagrangian-stokes-bridge-program.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md).
-Those internals should no longer appear as exposed burdens in the six-lemma
-mainline. Here the only callable contract is `(13b)`.
+Those internals no longer appear as exposed burdens in the six-lemma mainline.
+Here the only callable contract is `(13b)`.
 
-So Lemma 3 should now be read as:
+So Lemma 3 now reads:
 
 ```math
 \text{metric ellipticity window}
@@ -489,7 +489,7 @@ So Lemma 4A is no longer a live theorem burden on the current surface.
 ### Target statement
 
 Recover `Q_\alpha` at the same derivative depth, with no extra derivatives of
-`v` or `G`, in a form strong enough to bound
+`v` or `G`, in the explicit pairing form needed to bound
 
 ```math
 \langle Q_\alpha,\mathcal P_\alpha\rangle.
@@ -549,7 +549,7 @@ shape is a para-banded trichotomy:
 ```
 
 with only `\mathcal Z_{\alpha,j}^{res}` genuinely finite-collar. So any future
-local proof of Lemma 4B would reduce to:
+local proof of Lemma 4B reduces to:
 
 ```math
 \text{strict-low coefficient packets on the existing ledger}
@@ -617,7 +617,7 @@ The sharpest sufficient mechanism now identified for the resonant side is the
 operator-level cap route in
 [weighted-exact-projection-resonant-shell-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md),
 which reduces the same-depth burden to a projected transport null factor plus a
-cap-localized packet geometry strong enough to prove
+cap-localized packet geometry that proves
 `(WERS.3Cap-BO)` / `(WERS.3Cap-TT)` directly. The same note preserves the
 symbolic route as a secondary sufficient branch.
 The exact remaining microlocal construction burden is the cap packet
@@ -664,9 +664,10 @@ compactness-rigidity loop.
 That first globalization theorem is now frozen separately in
 [capwise-signed-defect-positivity-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/capwise-signed-defect-positivity-theorem-candidate.md).
 That signed packet is now stabilized first with an abstract shell-local
-coercive coefficient `\kappa_j` and a cap-adjacency matrix reduction; only
-after a positivity mechanism is fixed should one try to prove
-`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j`.
+coercive coefficient `\kappa_j` and a cap-adjacency matrix reduction; the
+comparison
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j`
+belongs after the positivity mechanism is fixed.
 Its current theorem-grade sufficient route is the block-Gershgorin positivity
 criterion through the net cap-graph margin `\kappa_j^{net}`.
 The abstract theorem `(CSD-net)` is now discharged there; the live reserve sign
@@ -859,7 +860,7 @@ the combined closure packet
 together with
 [route-b-euclidean-closure-theorem.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/route-b-euclidean-closure-theorem.md).
 
-At mainline level, Lemma 5 should therefore be read as the conditional import
+At mainline level, Lemma 5 is the conditional import
 
 ```math
 \boxed{
@@ -917,7 +918,7 @@ The current theorem surface already supports:
 ```
 
 and the genuine high-high packet is locally discharged by the cubic-tail
-absorption lemma. So the only genuinely open analytic packet inside `(19j)` is
+coefficient-margin lemma. So the only genuinely open analytic packet inside `(19j)` is
 the lifted high-side remainder:
 
 ```math
@@ -1349,7 +1350,7 @@ G\to H^1\to\text{continuation}.
 ```
 
 So the live burden in Lemma 5 is no longer “rebuild the exact same scale
-barrier immediately.” It is the weaker but sufficient theorem:
+barrier verbatim.” It is the weaker but sufficient theorem:
 
 ```math
 \boxed{
@@ -1452,7 +1453,7 @@ encapsulated by `(13b)`, so the remaining risk is no longer local coefficient
 recovery itself but correct integration of that bridge contract into the
 continuation step.
 
-The route should therefore be read as:
+The route is:
 
 ```math
 \boxed{
@@ -1476,7 +1477,7 @@ The route should therefore be read as:
 ## Global Closure Checklist
 
 To promote the current lane from a closed bridge package to a theorem-grade
-global smoothness result, the six-lemma stack now has to be certified in this
+global smoothness result, the six-lemma stack must be certified in this
 exact order:
 
 1. **Lemma 4A is discharged through `(15i)`.**
@@ -1484,7 +1485,7 @@ exact order:
    already collapses it into `\mathcal K_r^{Lag}`.
 
 2. **Lemma 4B is invoked only through the bridge contract `(13b)`.**
-   No frame/coefficient internals should remain exposed at mainline level after
+   No frame/coefficient internals remain exposed at mainline level after
    `(17a)`.
 
 3. **Lemma 5 closes the return arrow to the lifted classical packet.**
@@ -1505,12 +1506,12 @@ exact order:
    integrated implication, not as parallel stories.
 
 5. **First-singular-time contradiction is written as one theorem.**
-   The final theorem has to read:
+   The final theorem must read:
 
    ```math
    \boxed{
    \text{if a first singular time }T^*<\infty\text{ existed, then the restart--propagation lemma}
-   \text{ plus }(21a)\text{ would extend past }T^*,
+   \text{ plus }(21a)\text{ extends past }T^*,
    }
    ```
 

@@ -14,8 +14,9 @@ left by
 It does **not** prove the barrier theorem for the interior residual. What it
 does prove is the next honest reduction:
 
-1. the purely profile-driven part of `\mathcal W` may be absorbed into a
-   renormalized scalar potential, modulo admissible collar errors;
+1. the purely profile-driven part of `\mathcal W` is moved into the
+   renormalized scalar potential by the gauge normalization in this note,
+   modulo admissible collar errors;
 2. the genuinely interior part of `\mathcal W` reduces to a middle-band
    stress-strain flux packet controlled by the same coupled mesoscopic flux
    mechanism already isolated in

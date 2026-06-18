@@ -268,7 +268,7 @@ o_J(1).
 \tag{LPMR.22}
 ```
 
-Hence the approximate localized projector-moment dynamics `(LPMC.24)` closes in
+Hence the residual-controlled localized projector-moment dynamics `(LPMC.24)` closes in
 weighted `L^2`.
 
 #### Proof

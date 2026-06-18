@@ -280,8 +280,8 @@ packet class.
 
 The next note
 `lifted-band-mesoscopic-residual-reduction-lemma.md`
-attacks the second term. It proves that, after a harmless profile
-renormalization of the scalar potential, the interior residual
+attacks the second term. It proves that, after the scalar-potential gauge
+normalization stated in that note, the interior residual
 `\chi_{mid}\mathcal W` reduces further to a localized middle-band
 stress-strain flux packet `\Pi_N^{mid}` modulo the same collar class.
 

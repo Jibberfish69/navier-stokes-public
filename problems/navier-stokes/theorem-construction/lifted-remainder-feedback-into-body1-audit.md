@@ -25,15 +25,15 @@ barrier
 \int_0^T \|P_{\ge N}u(t)\|_{L^2_x}^2\,dt \le C_*2^{-2\delta N}.
 ```
 
-The proposed refinement is to ask Body `1` to export something stronger that
-could close the lifted high-side remainder later on the exact solution side.
+The proposed refinement asks Body `1` to export the exact lifted-band leakage
+barrier needed later on the exact solution side.
 
-Schematically, one would want Body `1` to produce a bound on the intermediate
-high-side transport remainder itself, or on a stronger carrier dominating it.
+The theorem slot is a bound on the intermediate high-side transport remainder
+itself, or on a stronger carrier dominating it.
 
-## What Body 1 Would Need To Export
+## What Body 1 Must Export
 
-To help Body `4`, the strengthened Body `1` output would have to control the
+To help Body `4`, the strengthened Body `1` output must control the
 packet created by
 
 ```math
@@ -46,8 +46,8 @@ whose exact shell geometry is
 N+M<k<j-4.
 ```
 
-So a meaningful strengthened Body `1` theorem would need to export more than
-the tail barrier alone. It would need either:
+So a meaningful strengthened Body `1` theorem must export more than the tail
+barrier alone. It must provide one of:
 
 1. a direct integrated estimate for the lifted high-side packet on the
    approximation family;
@@ -108,19 +108,19 @@ C_*2^{-2\delta N},
 with `K_{j-k}` summable.
 
 This is the right sort of export because it matches the exact remaining packet
-geometry and would feed Body `4` noncircularly if it could be proved and passed
-through Body `3`.
+geometry. Once proved on the approximation family and passed through Body `3`,
+it feeds Body `4` noncircularly.
 
 The route is now sharper than before: `scale-kernelized-lifted-band-reduction-lemma.md`
 shows that the current scale-side shell algebra really does produce a summable
 off-diagonal gain `2^{-(j-k)}` on the lifted band. What remains open is the
-integrated theorem that would bound that kernelized carrier uniformly on the
+integrated theorem bounding that kernelized carrier uniformly on the
 approximation family, and any downstream upgrade from the natural scale-side
 carrier to the stronger gradient-side target.
 
 The bounded self-attempt in
 `body1-kernelized-lifted-band-integration-audit.md` shows that the first
-obvious integration routes still fail on the current Body `1` surface: after
+direct integration routes still fail on the current Body `1` surface: after
 Young/Cauchy-Schwarz, the kernelized carrier leaves a residual shell factor
 `2^k` beyond the available `L_t^2H_x^1` control.
 
@@ -164,12 +164,12 @@ problem. It moves the exact same packet-level burden upstream:
 The feedback route is mathematically coherent, but it does **not** currently
 create a solution automatically.
 
-What it really says is:
+The exact conditional reduction is:
 
-1. if one could prove a stronger Body `1` theorem that controls the lifted
-   high-side remainder on the approximation family,
-2. then Body `3` could pass that stronger theorem to the exact limit,
-3. and Body `4` could consume it noncircularly.
+1. prove a stronger Body `1` theorem that controls the lifted high-side
+   remainder on the approximation family;
+2. pass that stronger theorem through Body `3` to the exact limit;
+3. consume it in Body `4` noncircularly.
 
 But on the present lane, the missing estimate is not improved by the feedback
 loop itself. The same packet remains open, only at the Body `1` level instead

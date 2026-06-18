@@ -138,13 +138,13 @@ That is the geometric version of the regularity question.
 
 The honest Lagrangian verdict is:
 
-1. **better than the fake Eulerian `D_t` tower**  
+1. **better than the fake Eulerian `D_t` tower**
    because transport is removed exactly rather than hidden inside commutators;
 
-2. **not obviously easier than the current mixed-jet tower**  
+2. **not evidently easier than the current mixed-jet tower**
    because pressure and viscosity become variable-coefficient geometry terms;
 
-3. **a real fork only if the primary unknown changes**  
+3. **a real fork only if the primary unknown changes**
    from mixed jets `J_{m,\alpha}` to deformation geometry
    (`F`, `A`, `G`) plus the pulled-back velocity.
 
@@ -167,7 +167,7 @@ It is:
 
 ```math
 \boxed{
-\text{The material-derivative idea becomes more plausible in a genuine Lagrangian package,}
+\text{The material-derivative idea becomes better supported in a genuine Lagrangian package,}
 }
 ```
 
