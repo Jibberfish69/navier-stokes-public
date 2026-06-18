@@ -523,7 +523,9 @@ U_q(\cdot,t)-U_q(\Phi(a^j,t),t)
 \tag{EOC.17}
 ```
 
-Then the same proof as `LCI.B2f2b` gives, for a.e. `t\in I`,
+Applying `LCI.B2f2b` with `R_\delta^{osc}` replaced by
+`R_\delta^{osc,2}` and with the oscillation coefficient replaced by
+`\Omega_{N,m,\rho,\psi}^{osc,\sharp,2}` gives, for a.e. `t\in I`,
 
 ```math
 \Gamma_{N,m,\rho,\psi}^{osc,\sharp,sh}(t)
