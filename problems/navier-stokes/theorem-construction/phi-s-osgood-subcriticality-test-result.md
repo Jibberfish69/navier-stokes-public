@@ -42,7 +42,7 @@ Since
 \|X\|_{H_D^s}^2\le C_E(E(t)+1),
 ```
 
-one obtains at best the linear form when every nonlinear coefficient is carried by the dissipative factor. The current readout-compatible commutator package includes product terms where the coefficient is controlled only by the lifted energy itself. In the standard high-Sobolev Navier-Stokes closure this yields the growth bound
+one obtains at best the linear form when every nonlinear coefficient is carried by the dissipative factor. The current readout-compatible commutator package includes product terms where the coefficient is controlled only by the lifted energy itself. In the classical high-Sobolev Navier-Stokes closure this yields the growth bound
 
 ```math
 E'(t)\le C E(t)^{3/2}+C E(t)+C.

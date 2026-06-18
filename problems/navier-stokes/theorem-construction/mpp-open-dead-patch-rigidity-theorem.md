@@ -224,7 +224,7 @@ u(\cdot,t)\equiv 0
 ```
 
 So an open dead patch forces not merely local silence but trivial continuation on
-the standard theorem surface.
+the classical theorem surface.
 
 ## Interpretation
 

@@ -111,7 +111,7 @@ source-residue measure.  Strong native cancellation is the identity
 `\mu_*^{src}=0`.  That is already the desired contradiction and cannot be used
 as an independently produced class on the surviving Zeno branch.
 
-Therefore no standard class supplies an installed theorem
+Therefore no rigid class currently supplies an installed theorem
 
 ```math
 OriginalSmoothData\Longrightarrow ZenoBoundedClass_B.A.
