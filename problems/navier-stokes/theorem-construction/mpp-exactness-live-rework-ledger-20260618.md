@@ -1082,6 +1082,32 @@ original solution. The terminal-record entry hardening passage was tightened in
 the same way, so "continuation theorem" no longer carries proof force without
 the uniform lifespan and uniqueness argument.
 
+Field-persistence oscillation pass:
+
+The appendix Field-persistence proof still said "the mean-value estimate gives"
+at the point where bounded tower derivatives were converted into positive-scale
+field coherence. That has been replaced by the exact profile-free cell
+oscillation
+
+```math
+\Delta_{r_*}U_k(t;C)
+:=
+\sup_{\substack{x,y\in C(t)\\ |x-y|\le r_*}}
+|U_k(x,t)-U_k(y,t)|
+```
+
+and the inequality
+
+```math
+\Delta_{r_*}U_k(t;C)
+\le r_*\sup_{z\in C(t)}|\nabla U_k(z,t)|
+\le r_* C_k(N,M_A,M_P,\mathcal C_{\mathrm{cov}}).
+```
+
+The downstream Field conclusion now spends a derivative supremum supplied by
+the retained tower bound on a finite cell cover, not a typical slope or hidden
+linear-profile assumption.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
