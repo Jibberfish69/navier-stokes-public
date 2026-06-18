@@ -631,4 +631,5 @@ So this note isolates the live local burden exactly:
    strengthened form `(FCP.3c)`,
 3. feed the result back into the reserve shell theorem, with the finite-valence
    graph summation `(FCP-graph)` already automatic and the capwise
-   square-function step `(FCP.3o)` reduced to `(FCP-sq')`.
+   square-function step `(FCP.3o)` reduced to the multiplier-overlap bound
+   `(FCP-sq')` plus the same-depth comparison `(FCP-sq'')`.
