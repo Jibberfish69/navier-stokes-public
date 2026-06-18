@@ -656,12 +656,21 @@ Because `\chi_j^{pr}` is supported on `B(c_j(t),4\Lambda_{\delta,\rho}^{halo})`
 and `|\eta|\le \Lambda_{\delta,\rho}^{halo}`, every point sampled on the
 right-hand side lies inside the widened raw collar
 `d_{\rho,\psi}^{raw}<\delta+4\Lambda_{\delta,\rho}^{halo}`. The cutoff bounds
-from `(FPR.2)` give
-`|\nabla^\beta \chi_j^{pr}|+|\delta_\eta\nabla^\beta \chi_j^{pr}|
-\le C_\beta\Lambda_{\delta,\rho}^{halo,-\beta}`, with the second term using
-`|\eta|\le \Lambda_{\delta,\rho}^{halo}`. Therefore each `L^\infty` or
-`C^{0,\alpha}` norm entering `(FPR.C1a)` is bounded by a universal combination
-of:
+`(FPR.2b)`--`(FPR.2c)` give the exact finite-radius price for every derivative
+or increment falling on `\chi_j^{pr}`:
+
+```math
+\|\nabla^\beta\chi_j^{pr}\|_{L^\infty}
++\|\delta_\eta\nabla^\beta\chi_j^{pr}\|_{L^\infty}
+\le
+C_\beta(\Lambda_{\delta,\rho}^{halo})^{-|\beta|},
+\tag{FPR.C4g}
+```
+
+and the `C^{0,\alpha}` contribution costs at most
+`C_{\beta,\alpha}(\Lambda_{\delta,\rho}^{halo})^{-|\beta|-\alpha}`. Therefore
+each `L^\infty` or `C^{0,\alpha}` norm entering `(FPR.C1a)` is bounded by a
+finite sum of the following exact types:
 
 1. one absolute carrier factor controlled by
    `\mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}(t)^{1/2}`;
