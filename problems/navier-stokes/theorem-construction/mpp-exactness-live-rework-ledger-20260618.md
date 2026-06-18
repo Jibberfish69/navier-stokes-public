@@ -6271,6 +6271,53 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## "Enough To Prove" Reduction Rework
+
+Old claim being spent:
+
+Several live theorem notes used "it is enough" or equivalent proof-reuse
+phrasing while naming reductions:
+
+- `d3-commutative-shadow-theorem.md` reduced the local operator equality to
+  three identities;
+- `mpp-class-membership-forward-invariance-theorem-program.md` reduced the
+  pack-side `\Gamma_\sharp` input to a gradient integrability condition;
+- `mpp-localpositivesourcecarleson-completion-attempt-20260517.md` reduced
+  `LPSC.1` to `LPSC.2`;
+- `tps-strong-bridge-sg-lemma-family.md` reduced the cycle-exact and general
+  Hodge branches to displayed directional / harmonic / loop ledgers.
+
+Exact replacement:
+
+The D.3 note now expands both sides of the operator equality and states that
+substitution of the three identities gives the target equality.  The CFI note
+now identifies `(CFI.17b)` as the interval-integrability burden and keeps the
+displayed exponential bound `(CFI.17c)` as the proof.  The LPSC note now states
+the exact implication required of every selected packet set:
+`\rho_N(E_N)->0` must force `\nu_N(E_N)->0`.  The SG note now states the
+cycle-exact branch hypotheses as `(SG.4Pf)` plus
+`\mathcal E_J^{harm}=\mathcal E_J^{loop}=0`, and it invokes `SG.4P` only after
+`(SG.4Pa)` and the canonical budget `(SG.4Pe)` are available.
+
+Proof or remaining burden:
+
+Each reduction now names the exact displayed implication or substitution being
+spent.  The remaining burdens are the same theorem atoms already named in the
+notes: `(CFI.17b)`, `(LPSC.2)`, `(SG.4Pf)` / `(PD.70z11)` on the cycle-exact
+branch, and `(PD.70z12)`--`(PD.70z14)` on the general Hodge branch.
+
+Downstream consequence:
+
+These route reductions no longer rely on "enough" or proof-reuse phrasing to
+carry a mathematical implication.
+
+Surfaces edited:
+
+- `theorem-construction/d3-commutative-shadow-theorem.md`;
+- `theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`;
+- `theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md`;
+- `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
+
 ## Friedrichs Energy Identity And Appendix Same-Identity Rework
 
 Old claim being spent:
