@@ -24,17 +24,43 @@ Let a terminal sequence decompose into profiles:
 u_m = sum_alpha U_alpha^m + r_A^m.
 ```
 
-The Pack-side functional is a selected positive local object, schematically:
+The Pack-side functional is a selected positive local object.  For each
+admissible terminal selector `sigma`, let `F_sigma(u)` be the signed local
+low-high / source / tree expression, and define
 
 ```text
-P(u_m) = [ local low-high / source / tree expression selected on terminal windows ]_+.
+P_sigma(u):=[F_sigma(u)]_+.
+```
+
+For the selected terminal record `sigma_m`, the tested quantity is
+
+```text
+P_{sigma_m}(u_m)=[F_{sigma_m}(u_m)]_+.
 ```
 
 The needed decoupling is stronger than ordinary profile orthogonality:
 
 ```text
-P(u_m) = sum_alpha P(U_alpha^m) + negligible cross contribution + negligible remainder.
+F_{sigma_m}(u_m)
+=
+sum_alpha F_{sigma_m}(U_alpha^m)
++ C_{sigma_m}^{cross}(m,A)
++ R_{sigma_m}(m,A),
 ```
+
+and hence
+
+```text
+P_{sigma_m}(u_m)
+<=
+sum_alpha P_{sigma_m}(U_alpha^m)
++ |C_{sigma_m}^{cross}(m,A)|
++ |R_{sigma_m}(m,A)|.
+```
+
+The theorem needs the cross and remainder terms to vanish uniformly over the
+admissible selected terminal records, or else to be assigned to one genuine
+profile or to endpoint-strip boundary exit.
 
 ## What ordinary orthogonality gives
 
@@ -91,7 +117,20 @@ or:
 OneProfilePackDefectLocalization.A.
 ```
 
-Current installed orthogonality does not provide this because it acts before the exact positive selected Pack operation.
+Current installed orthogonality does not provide this because it acts before
+the exact positive selected Pack operation.  The missing quantitative form is
+
+```text
+lim_{A->infty} limsup_{m->infty}
+sup_{sigma in Sigma_m}
+(
+|C_sigma^{cross}(m,A)|+|R_sigma(m,A)|
+)
+=0,
+```
+
+unless a nonzero selected positive cross-profile defect is routed to one
+profile or to endpoint-strip boundary exit.
 
 ## Verdict
 
