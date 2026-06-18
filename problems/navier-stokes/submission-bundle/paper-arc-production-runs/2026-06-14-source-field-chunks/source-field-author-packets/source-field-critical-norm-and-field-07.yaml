@@ -12,7 +12,7 @@ chunk:
   sequence: 75
   group_id: critical-norm-and-field
   title: Critical norm and Field 7
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -148,7 +148,7 @@ chunk:
 
       Finite global ancient energy, Type I control, critical smallness, bounded vorticity/strain, self-similarity, and two-dimensional or axisymmetric structure are not produced by the Zeno extraction.
 
-      A source-cancellation class gives residue Liouville immediately, but producing it is equivalent to the native positive source-depletion theorem.
+      A source-cancellation class gives residue Liouville once the class is installed, but producing it is equivalent to the native positive source-depletion theorem.
 
       Statement: every nonzero terminal source atom in B ASAC forces at least one forbidden escape: an earlier selected same-fluid source slice, a legal/projected/cutoff boundary exit, a finite or non-Zeno donor-refill exit, or a nonzero ASAC-paid defect measure.
 
@@ -498,7 +498,7 @@ chunk:
 
     Finite global ancient energy, Type I control, critical smallness, bounded vorticity/strain, self-similarity, and two-dimensional or axisymmetric structure are not produced by the Zeno extraction.
 
-    A source-cancellation class gives residue Liouville immediately, but producing it is equivalent to the native positive source-depletion theorem.
+    A source-cancellation class gives residue Liouville once the class is installed, but producing it is equivalent to the native positive source-depletion theorem.
 
     Statement: every nonzero terminal source atom in B ASAC forces at least one forbidden escape: an earlier selected same-fluid source slice, a legal/projected/cutoff boundary exit, a finite or non-Zeno donor-refill exit, or a nonzero ASAC-paid defect measure.
 
@@ -751,11 +751,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28962
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -779,11 +779,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29230
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -810,11 +810,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29437
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -839,11 +839,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29752
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -867,11 +867,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29943
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -895,11 +895,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:30156
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -925,11 +925,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:32152
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -954,11 +954,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:34199
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -979,7 +979,7 @@ author_contract:
   must_criticize:
   - attack the strongest claim in the replacement
   - name the exact sentence where a reader could lose the thread
-  - name any unpaid derivation that remains, or say why it is paid on the page
+  - name any unpaid derivation that remains, or say why it is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - raw note dump
@@ -990,7 +990,7 @@ author_contract:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -999,7 +999,7 @@ math_containment_rule: no free-running theorem pursuit; math work may enter only
   a named source sentence in this chunk
 verification_plan:
   before_apply: replace every author_replacement_required body with final TeX and
-    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+    fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-critical-norm-and-field-07.yaml
     --dry-run
   targeted_check: review only the changed source-field spans before any milestone
