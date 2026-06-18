@@ -3,10 +3,17 @@
 
 Compactness enters the paper at the point where a terminal story has to become
 an object.
-Energy, enstrophy, and scale estimates follow the original Navier--Stokes
-branch as \(t\uparrow T_*\).
-Compactness asks what those estimates actually give at the alleged terminal
-time.
+At that point the branch may spend only estimates already proved for the
+original Navier--Stokes solution as \(t\uparrow T_*\), such as
+\[
+  \sup_{t<T_*}\|u(t)\|_{L^2}^2<\infty,
+  \qquad
+  \nu\int_0^{T_*}\|\nabla u(t)\|_{L^2}^2\,dt<\infty.
+\]
+Any high-frequency compactness claim must additionally name the tail quantity it
+controls on the selected sequence.
+Compactness asks what those proved quantities actually give at the alleged
+terminal time.
 The answer is useful only when the limiting object is still a record of the
 same solution.
 A large norm, weak limit, or profile is evidence for such a record only after
@@ -25,13 +32,18 @@ The basic compactness split is the low/high split
 \[
   u(t_n)=P_{\leq N}u(t_n)+P_{>N}u(t_n).
 \]
+For an \(H^s\) extraction, the high-frequency object is the exact tail
+\[
+  \operatorname{Tail}_s(N;\{t_n\})
+  :=
+  \sup_n
+  \sum_{j>N}2^{2sj}\|P_j u(t_n)\|_{L^2}^2.
+\]
 The low-frequency term can become compact after the branch supplies enough time
 equicontinuity and local spatial control.
-The high-frequency term disappears in \(H^s\) only when the proof pays a
-uniform tail estimate such as
+The high-frequency term disappears in \(H^s\) only when the proof pays
 \[
-  \lim_{N\to\infty}\sup_n
-  \sum_{j>N}2^{2sj}\|P_j u(t_n)\|_{L^2}^2=0.
+  \lim_{N\to\infty}\operatorname{Tail}_s(N;\{t_n\})=0.
 \]
 With that payment, the low limit and the high-frequency tail belong to the same
 \(H^s\) endpoint record.
