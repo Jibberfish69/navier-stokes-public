@@ -4356,6 +4356,35 @@ Edited live theorem notes:
 - `theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md`;
 - `theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md`.
 
+## TPS Coarse-Flow Strip Implication Repair
+
+Old loose wording:
+
+- `tps-coarse-flow-pair-gap-theorem-candidate.md` said every good active pair
+  satisfies a "formal implication," separated two "formal outputs," and called
+  the full transport-stability part "formal."
+
+Exact replacement:
+
+The note now states the exact conditional strip-end implication: under the
+tail condition yielding `(CF.11a)` and the strip inequality
+`L_I^{net}\ge L_J^{thr}`, a good active pair has endpoint strip exclusion.
+Whole-strip exclusion still requires the stronger prefix criterion `(CF.10j)`
+or an external no-entry/no-return theorem. The route is reduced to conditional
+statements; the remaining theorem-grade inputs are the stripwise packet
+inequality on an asymptotically full good family and the downstream
+actual-solution strain-budget control.
+
+Downstream consequence:
+
+The coarse-flow route cannot spend transport stability by saying the route is
+formal. It must carry either the endpoint strip hypotheses or the stronger
+whole-strip no-entry hypotheses, plus the actual-solution strain budget.
+
+Edited live theorem note:
+
+- `theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
