@@ -24,7 +24,7 @@ The lifted commutator and product estimates place one high derivative on one fac
 \le C_s
 \|X\|_{H_D^s}\,\Xi_D^{(s)}(X)
 +
-\text{lower-order terms}.
+\mathcal R_s^{res}(X).
 ```
 
 After the Young-margin split,
@@ -33,7 +33,7 @@ After the Young-margin split,
 |\mathcal N_s(X)|
 \le
 \varepsilon\Xi_D^{(s)}(X)+C_\varepsilon\|X\|_{H_D^s}^2+
-\text{lower-order terms}.
+\mathcal R_s^{res}(X).
 ```
 
 Since

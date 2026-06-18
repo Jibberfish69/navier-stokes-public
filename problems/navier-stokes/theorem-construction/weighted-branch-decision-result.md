@@ -18,7 +18,7 @@ m_j^{-1}\|w_j u_{coh}\|_\infty.
 The second is weighted collar closure:
 
 ```math
-(1-w_j)u_{coh}\text{ is lower order on the collar support.}
+(1-w_j)u_{coh}\text{ satisfies the collar residual bound.}
 \tag{WBD.2}
 ```
 
@@ -34,7 +34,8 @@ Choose the positive lower-envelope branch when the active persistent support is 
 
 This gives the unweighted amplitude/speed gate directly.
 
-Choose the weighted collar branch when the selector weight is allowed to degenerate near the boundary while the residual is lower order:
+Choose the weighted collar branch when the selector weight is allowed to
+degenerate near the boundary while the residual satisfies the collar bound:
 
 ```math
 \|\nabla((1-w_j)u_{coh})\|_\infty

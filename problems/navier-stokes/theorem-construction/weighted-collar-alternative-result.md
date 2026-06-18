@@ -134,7 +134,9 @@ If the active localizer obeys
 \tag{WCA.12}
 ```
 
-up to a collar region controlled by the lower-order ledger, then `C^{res}_{i,j}` is lower order. In that case the weighted route consumes `w_ju_{coh}` directly through `WCA.8`.
+up to a collar region controlled by the residual ledger, then `C^{res}_{i,j}`
+satisfies the required collar residual bound. In that case the weighted route
+consumes `w_ju_{coh}` directly through `WCA.8`.
 
 ## Boundary
 
@@ -143,7 +145,7 @@ weighted principal coefficient plus a residual. The residual can be discarded
 only under a plateau or collar-smallness theorem:
 
 ```text
-(1-w_j)u_coh is lower order on the collar support.
+(1-w_j)u_coh satisfies the collar residual bound on the collar support.
 ```
 
 Weighting transfers the burden from a positive lower envelope to a residual collar-smallness statement.

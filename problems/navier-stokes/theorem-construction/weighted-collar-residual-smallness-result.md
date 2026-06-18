@@ -76,7 +76,8 @@ Combining `WCR.6` and `WCR.7` gives `WCR.2`.
 
 ## Result
 
-The weighted collar residual is lower order under either of the following supplier conditions:
+The weighted collar residual satisfies the required smallness bound under
+either of the following supplier conditions:
 
 ```text
 plateau containment of the active collar support;

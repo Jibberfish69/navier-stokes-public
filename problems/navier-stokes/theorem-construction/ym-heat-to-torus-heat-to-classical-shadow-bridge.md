@@ -150,7 +150,7 @@ Q_1(A,\nabla_A A) + Q_2(A,A,A),
 ```
 
 where `\Delta_A` is the covariant Laplace-type operator induced by the
-connection and `Q_1,Q_2` are lower-order quadratic/cubic interaction packets.
+connection and `Q_1,Q_2` are quadratic/cubic interaction packets.
 
 So the governing heat claim is:
 
@@ -282,8 +282,9 @@ transport-diffusion law:
 E_{\mathrm{phys}}(A)\neq 0,
 ```
 
-but remains lower-order, absorbable, or shadow-killed in the commutative
-readout. Then the same structural law survives modulo a defect packet.
+but is either absorbed by the displayed defect packet or killed in the
+commutative readout. Then the same structural law survives modulo that defect
+packet.
 
 This is the exact bridge the lane still needs to make theorem-grade.
 

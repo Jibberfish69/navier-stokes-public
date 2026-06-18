@@ -91,7 +91,7 @@ N_{\mathrm{coh}}(X)\in K_D,
 N_{\mathrm{rem}}(X)\in K_D^\perp,
 ```
 
-and `N_{\mathrm{rem}}(X)` is lower-order on the energy domain.
+and `N_{\mathrm{rem}}(X)` satisfies the energy-domain remainder bound.
 
 Define
 
@@ -163,7 +163,7 @@ Split
 ```
 
 The coherent term is handled by carrier bookkeeping and bounded by the
-persistent sector norm. The remainder term is lower-order, so
+persistent sector norm. The remainder term satisfies the energy-domain bound, so
 
 ```text
 |\langle \Delta_{D,\omega}X,N_{\mathrm{rem}}(X)\rangle|
