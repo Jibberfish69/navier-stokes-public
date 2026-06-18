@@ -5815,9 +5815,10 @@ unconditional `forall r>0, not Field_{N,r,Q}` face.
 
 Downstream consequence:
 
-`AVG.MAIN.A` and the periodic theorem-construction proof paragraphs are now
-conditional on `SCFBaseLocalModulus_N`.  `READ.COVER` is explicitly downstream of
-`End_NS_avg` and cannot be used to supply the upstream same-tail modulus.
+`AVG.MAIN.A`, the periodic theorem-construction proof paragraphs, and the
+appendix "Whole Proof Skeleton Without Route Jargon" are now conditional on
+`SCFBaseLocalModulus_N`.  `READ.COVER` is explicitly downstream of `End_NS_avg`
+and cannot be used to supply the upstream same-tail modulus.
 
 Edited live surfaces:
 
@@ -5825,7 +5826,8 @@ Edited live surfaces:
 - `theorem-construction/mcp-ttu-next-branch-averaged-terminal-tail-route-ffsrc-a-7cad0a4682.md`;
 - `theorem-construction/mpp-periodic-main-theorem-manuscript-grade-package.md`;
 - `theorem-construction/mpp-periodic-main-self-contained-manuscript-proof.md`;
-- `theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md`.
+- `theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass:
 
