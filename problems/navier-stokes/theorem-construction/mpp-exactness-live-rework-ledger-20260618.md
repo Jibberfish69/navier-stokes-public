@@ -557,6 +557,67 @@ Edited live surface:
 
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Low-High Eigenpacket Far-Low/Near-Band Support Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said that far-low strain
+  turnover has a "genuine parabolic scale-separation gain" and that the near band
+  must route to burst/source structure, without displaying the estimate being
+  spent.
+- `mpp-dynamic-low-high-eigenpacket-no-freeze-direct-attempt-20260610.md` said
+  that far-low temporal variation "carries a parabolic scale-separation gain" and
+  summarized the near-band heat payment as paid support.
+- `live-theorem-edge.yaml`, `source-frontier.yaml`, and
+  `submission-bundle/source-frontier.yaml` repeated the same paid-support summary
+  in decision-bearing route language.
+
+Exact replacement:
+
+The live manuscript and theorem note now state the far-low payment as the exact
+material-derivative estimate
+
+```math
+\tau_P\int_{I_P}|D_tS^{far}_{j_P,L}|\,dt
+\le
+C_{\mathrm{far}}2^{-2L}\int_{I_P}\|S^{far}_{j_P,L}\|_\infty\,dt
++\mathrm{legal\ commutators}.
+```
+
+The near-band heat payment is now stated only under the subparabolic hypothesis
+
+```math
+\|S^{near}_{j_P,L}\|_\infty\le\theta\tau_P^{-1},
+```
+
+with the exact absorption
+
+```math
+\sum_P\omega_PE_PV_P^{heat}
+\le
+C_L\theta H_W,
+\qquad
+H_W:=\sum_P\omega_PE_P,
+```
+
+and the explicit choice \(\theta\le\eta_{\rm abs}/C_L\).  On the complement
+\(\|S^{near}_{j_P,L}\|_\infty>\theta\tau_P^{-1}\), the branch is not absorbed by
+heat variation; it routes to parabolic-rate burst height, donor height, height
+charge, or Zeno.
+
+Downstream consequence: `DynamicLowHighEigenpacketNoFreeze.A` still does not
+follow from the material-eigenframe split.  The support now paid is exactly
+`(MEF.8)` and `(NBV.7b)`, while the frozen aligned pressure/source-current and
+active-alignment/no-incoming cases remain the live unpaid wall.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-dynamic-low-high-eigenpacket-no-freeze-direct-attempt-20260610.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
