@@ -37,7 +37,8 @@ E_N(t)
 \exp\left(C\int_0^t\widetilde\Lambda_N^\sharp(s)ds\right)
 ```
 
-for finite-threshold tail energy. For the integrated HFG gain, the pointwise absorbable form is stronger: it gives
+for finite-threshold tail energy. The pointwise coefficient-margin form is
+stronger at the aggregate tail-energy level:
 
 ```math
 {d\over dt}E_N(t)+c'\nu D_N(t)
