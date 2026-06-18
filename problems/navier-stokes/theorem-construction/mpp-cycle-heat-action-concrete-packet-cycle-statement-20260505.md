@@ -226,7 +226,7 @@ j_2\to j_3,
 j_3\to j_1.
 ```
 
-The desired model estimate is:
+The desired three-shell cycle inequality is:
 
 ```math
 |J(j_1\to j_2)|
