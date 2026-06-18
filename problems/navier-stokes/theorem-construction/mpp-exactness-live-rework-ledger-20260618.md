@@ -8958,3 +8958,45 @@ The live authority-set scan for raw `automatically` now returns no hits, and
 the focused live authority-set proof-force scan for
 `should`/`would`/`could` implication shortcuts now returns no hits.  `git diff --check`
 passes on the edited files.
+
+## Standard / Plausible Proof-Force Rework
+
+Old claim being spent:
+
+The live authority scan for `standard`, `plausible`, `routine`, `obvious`,
+`immediate`, `heuristic`, `roughly`, `approximately`, and `same-order` language
+found one proof-force use in the minimal Zeno trace no-escape note: the
+velocity-pressure low-mode kernel was called "plausible and standard," and the
+collar/cutoff lower bound was called "plausible for chosen cutoffs."
+
+Exact replacement:
+
+The note now states the low-mode kernel as an exact target: on a fixed smooth
+annulus, prove that the finite-dimensional Stokes/linearized-NS mode family
+with zero two-face Dirichlet and conormal data has zero velocity after pressure
+gauge fixing.  The absorption step now names the displayed estimate `(NEX.19)`.
+The collar/cutoff sentence now names the missing lower bound `(NEX.28)` as the
+required input.
+
+Downstream consequence:
+
+The no-escape branch can no longer spend "standard" or "plausible" language as a
+kernel proof or a collar-cost theorem.  Its remaining burden is the displayed
+finite-dimensional kernel target plus the collar/cutoff lower bound, followed by
+the separate terminal-time-layer exclusion.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`.
+
+Intentionally preserved hit:
+
+- `submission-bundle/source-field-reader-appendix.tex` keeps "Standard Liouville
+  inputs are absent" because the sentence lists missing Liouville hypotheses
+  rather than using standardness as proof force.
+
+Validation:
+
+The focused live authority scan for the proof-force adjective family now returns
+only that intentionally preserved missing-input sentence, and `git diff --check`
+passes on the edited files.
