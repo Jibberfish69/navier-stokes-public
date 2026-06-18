@@ -1,0 +1,309 @@
+{
+  "audit_id": "mpp-active-route-semantic-audit-20260617",
+  "scope": "problems/navier-stokes",
+  "completion_truth": "active_route_semantic_pass_current_reworked",
+  "target_failure": "active route, theorem, and decision-bearing surfaces using familiar branch names, finite-energy intuition, standard-step language, or selector geometry shorthand as if those phrases carried exact proof force",
+  "edited_reworked": [
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "issue": "critical-base feed mirror still said retained localized feed and non-affine feed force tower cost without displaying the retained-feed and non-affine-defect hypotheses",
+      "replacement": "status now requires A_r(t) >= a0 for the localized slice gradient lower bound, B_r(t) >= b0 on a time set of measure at least theta r^2/nu for the per-scale higher-tower lower bound, and scale-separated or bounded-overlap charging before any global cascade bill is spendable",
+      "downstream_consequence": "route readers cannot spend critical-base feed as installed tower cost; RetainedLocalizedCriticalFeedToNonAffineTowerCost.A now includes the charging ledger and ConeAffineProfileRigidity.A remains an open child"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "issue": "affine-core mirror used natural parabolic slab language that could hide the exact parent-energy and gradient-persistence hypotheses",
+      "replacement": "status now says the residual-or-collar bill applies only on parabolic slabs satisfying the displayed parent-energy and gradient-persistence hypotheses",
+      "downstream_consequence": "the affine branch cannot be read as a free finite-energy collar-cost theorem"
+    },
+    {
+      "path": "problems/navier-stokes/source-frontier.yaml",
+      "issue": "frontier mirror still advertised retained tower cost as installed",
+      "replacement": "status now says retained-feed branch hypotheses are installed and retained-feed-to-non-affine tower cost is still open",
+      "downstream_consequence": "frontier state no longer promotes the branch-hypothesis reduction into a closed tower-cost theorem"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "issue": "submission-bundle frontier mirror still advertised retained tower cost as installed",
+      "replacement": "status now says retained-feed branch hypotheses are installed and retained-feed-to-non-affine tower cost is still open",
+      "downstream_consequence": "submission-bundle route state no longer promotes the branch-hypothesis reduction into a closed tower-cost theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/psj-plus-d7mb-residual-budget-route.md",
+      "issue": "standard selector-scale branch language licensed several reductions by a familiar branch name",
+      "replacement": "each reduction now names the selector-scale realization (PTCL.3ai), active-pair scale packet (PTCL.3aj), uniform frozen collar bound, and frozen exceptional-set localization hypotheses where they are spent",
+      "downstream_consequence": "FrozenDiffWeightLoc and SyncDiffQuad are tied to exact selector-scale hypotheses and synchronization inequalities, not to generic selector-scale intuition"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/selector-quadratic-sign-separation-packet.md",
+      "issue": "standard shell/cap geometry and natural reference carrier language hid cap-diameter and selected-center membership hypotheses",
+      "replacement": "the note now names the cap-diameter hypothesis (QSP.10zzcb1), selected packet-center membership hypothesis (QSP.10zzcc2), and the oriented top right singular direction as an explicit candidate reference carrier",
+      "downstream_consequence": "the selector shape reduction spends only the displayed cap hypotheses and entrance-direction assignment theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md",
+      "issue": "AD idea-capture let finite energy and finite momentum sound like pointwise control and let no-zero/no-infinity slogans look like proof logic",
+      "replacement": "the subsection now states that finite energy/momentum do not imply pointwise velocity bounds and that the branch must supply quantified receiver and donor-loss functionals or a regularity norm strong enough for pointwise control",
+      "downstream_consequence": "AD remains a source-fit motivation until the donor/receiver estimates in AD.7 are proved; no route may spend finite energy as pointwise blowup exclusion"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/frame-recovery-wall-theorem-candidate-note.md",
+      "issue": "standard Bihari, Moser, and Sobolev-calculus wording could read as unlisted proof steps",
+      "replacement": "the bootstrap is tied to the explicit smallness condition (13zcb), composition estimates are tied to (13za), and product calculus is tied to the displayed Sobolev/Moser estimates (13k)-(13m)",
+      "downstream_consequence": "frame recovery spends named estimates and smallness hypotheses; the operator wall from Lemma 4B remains open"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-affinematerialreadouttofixedhsreduction-a-affinematerialreadouttofixedhs-a-d77299e234.md",
+      "issue": "fixed-coordinate Hs transfer was stated only in schematic form",
+      "replacement": "the note now displays the affine pullback estimate (AMR.1) and the nonlinear material-chart hypotheses (AMR.2) with the resulting pullback bound (AMR.3)",
+      "downstream_consequence": "AffineMaterialReadoutToFixedHs.A requires determinant, inverse-stretch, condition-number, and finite-depth chart-derivative control; it is not a generic moving-frame comparability estimate"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md",
+      "issue": "standard elliptic regularity and standard Bony geometry phrasing could read as unlisted proof steps in the pressure derivative accounting",
+      "replacement": "the Lipschitz elliptic estimate is tied to the bootstrap ellipticity and W^{1,infinity} coefficient bounds; the frequency split is tied to the displayed Bony decomposition (23bb) and the exact low-high/high-low/high-high trichotomy (23bd)-(23bf)",
+      "downstream_consequence": "the pressure reserve route spends the displayed estimates only; Lemma 4B still requires a no-derivative-loss bilinear form theorem respecting the split (29h)"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md",
+      "issue": "standard harmonic/comparison language and natural tensor-action wording could obscure the exact response and handoff steps",
+      "replacement": "the harmonic response is tied to the displayed interior estimate (LCI.3c3z19x), the affine handoff uses the rank-q tensor action of G_j, and the zero-data case uses scalar comparison for (LCI.3c5a)",
+      "downstream_consequence": "the transported-center oscillation ledger remains explicit; lower-carrier closure still depends on the widened-shell oscillation theorem and the affine-frame defect package"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/same-scale-multiplier-stability-program.md",
+      "issue": "same-scale finite-width language and 'should reduce' wording could spend bounded-offset support geometry as if it were cancellation, coefficient-free stability, or an installed upper-boundary edge-family decomposition",
+      "replacement": "the note now defines same-scale as a fixed relative-offset annular support condition with no amplitude or cancellation force; the scalarized edge packet is displayed as the commutator/edge-test pairing; the moving-spill side states the exact uniform finite-family estimate and collar residual needed; the upper-boundary side is conditional on the explicit coefficientwise frozen-family identity (UB-fam) and its residual bound",
+      "downstream_consequence": "the weighted route may spend only the coefficient-bearing SS^sharp estimate plus carrier inclusion; standalone coefficient-free SS remains open, and upper-boundary UB cannot be spent until UB-fam is written"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-positive-pack-defect-orthogonality-bilinear-decoupling-attempt-20260609.md",
+      "issue": "bilinear decoupling and positive-part language could let signed cross-term smallness stand in for control of the selected terminal positive Pack measure",
+      "replacement": "the note now defines dmu_{alpha beta,j}^{+,m}, displays the signed convergence statement that is insufficient, and states the exact alternatives needed: vanishing of that measure, uniform integrability/Carleson non-atomicity, one-profile absolute continuity with density control, or a Pack/Part/Field face failure",
+      "downstream_consequence": "PositivePackDefectOrthogonality.A remains unproved by bilinear/paraproduct orthogonality alone; it must pass through TerminalPositiveCrossProfileSourceControl.A / UniformPackCrossTermIntegrability.A / SelectedPositivePackCrossTermNoAtom.A or an equivalent exact measure-control theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-enstrophy-production-throttle-forward-positive-direct-test-20260611.md",
+      "issue": "standard/usual enstrophy machinery language could let the high-tower budget failure rest on a named classical estimate rather than the exact differential inequality",
+      "replacement": "the note now states the domain/boundary class for the energy and elliptic equivalence, names the Gagliardo-Nirenberg/Calderon-Zygmund stretching estimate, and displays the resulting Y' <= C nu^(-3)Y^3 comparison wall",
+      "downstream_consequence": "EnstrophyProductionThrottle.A remains unproved from the displayed energy/enstrophy identities; the live forward-positive child remains VortexStretchingThrottleOrLyapunov.A or an equivalent noncircular high-tower mechanism"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-vortex-stretching-throttle-lyapunov-scale-barrier-reduction-20260611.md",
+      "issue": "standard Lyapunov and demotion language could make the vortex-stretching reduction look like a bookkeeping downgrade rather than a mathematical reduction through the cubic comparison wall",
+      "replacement": "the note now ties the failed Lyapunov throttle to the displayed stretching estimate and the cubic comparison wall, states that VortexStretchingThrottleOrLyapunov.A is reworked into the exact scale-barrier transport-defect packet discharge, and identifies the spill child as the explicit collar-amplitude estimate (SC)",
+      "downstream_consequence": "the live forward-positive children remain ThresholdLocalSpillCollarBound.A/(SC) and LiftedMesoscopicStressStrainFluxBound.A; the latter carries the middle-band stress-strain flux obstruction"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/scale-spill-reduction-lemma.md",
+      "issue": "the intended proof route used finite-collar/Bernstein language as if the threshold-local spill estimate followed automatically from the strict-low surface",
+      "replacement": "the note now exposes the threshold-collar amplitude A_{N,M}^{(n)} and names the missing estimate (SC), which must bound int A_{N,M}^{(n)} E_N^{(n)} by the strict-low term plus an epsilon fraction of D_N^{(n)}",
+      "downstream_consequence": "ThresholdLocalSpillCollarBound.A is still a live proposition-level packet-discharge burden until (SC) or an exact replacement is proved"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/lifted-band-coarse-grained-stress-strain-flux-inequality.md",
+      "issue": "the mesoscopic flux proof treated an adapted radius kernel as if it automatically gave the exact commutator average and dropped the domination constant in the displayed reduction",
+      "replacement": "the note now requires rho_j to dominate the commutator averaging kernel for every nonnegative test density and carries the constants C_rho, C_C', and C_J through the local and summed flux inequalities",
+      "downstream_consequence": "LiftedMesoscopicStressStrainFluxBound.A rests on an explicit kernel-domination reduction to Pi_N^{lift}; the final barrier estimate (L-Flux) remains open rather than hidden inside shellwise leakage language"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-face-exclusion-work-order-demotion-20260607.md",
+      "issue": "legacy demotion/blocker language could make generic Pack face-exclusion look like archive movement rather than the exact CM target repair",
+      "replacement": "the note now states target_repair: the generic Pack-retention theorem is a stale generic blocker, while every promoted row must prove same-witness CM-test entry and either not Pack_Q or Pack_Q followed by Part/Field certification",
+      "downstream_consequence": "Pack failure remains a lawful first-face landing for named terminal obstructions; no global generic Pack-retention theorem is treated as an open Clay blocker without a promoted row"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-generic-part-face-exclusion-work-order-demotion-20260607.md",
+      "issue": "legacy demotion/standard/should wording could make generic Part face-exclusion look like a proof burden removed by classification",
+      "replacement": "the note now states target_repair: the generic Part-survival theorem is stale, and named promoted rows must certify terminal participation or land at not Part_{N,Q} after Pack_Q",
+      "downstream_consequence": "Part remains a row-level first-face test; no generic retained-Pack ancestry-to-Part theorem is treated as a standing CM-referee blocker"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md",
+      "issue": "legacy blocker-demotion wording could make generic Pack/Part no-face-exclusion look like completion by downgrade",
+      "replacement": "the note now states installed target repair: the proof gate is row-level same-witness CM entry and Pack/Part/Field certification, with non-proof rows classified as support",
+      "downstream_consequence": "the current CM theorem state remains governed by finite-obstruction inventory coverage, not by generic Pack/Part face-exclusion"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md",
+      "issue": "generic Clay bridge reconciliation still used blocker-demotion, standard continuation, usual readout, demotion, and should-language on a decision-bearing CM bridge surface",
+      "replacement": "the note now uses target_repair, states the finite-obstruction inventory requirement, and displays the exact pass-branch continuation readout sup_{t<T_*} ||u(t)||_{H^s}<infinity for fixed s>5/2 with same-solution relaunch from t_j -> T_*",
+      "downstream_consequence": "future Clay blockers must be concrete promoted terminal obstruction rows missing CM-test entry or Pack/Part/Field face landing; the generic Exit-inadmissibility bridge is not respawned as a live blocker"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-scfbase-good-cover-from-exact-potential-readout-direct-attempt-20260609.md",
+      "issue": "SCFBaseGoodCoverFromExactPotentialReadout.A was correctly not required as the Field certificate, but the active surface described that target reselection as demotion",
+      "replacement": "the note now states support_route_classification_and_cm_target_reselection: Field_avg/Jump_avg is the installed Field pass/fail split under retained Pack+Part, while exact-potential/QSP remains optional continuation support",
+      "downstream_consequence": "the active public-finality burden stays on OriginalSmoothDataPackSurvival.A through HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A, not on a support-route good-cover theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-hf-terminal-defect-mass-vanishing-direct-attempt-20260609.md",
+      "issue": "the h/F Taylor route named a native Pack norm without stating the exact window quantity that norm must dominate",
+      "replacement": "the note now defines licensed windows W_m=(A_m,I_m,rho_m), the segment-control Hessian quantity M_m, and the missing Taylor budget rho_m M_m -> 0 or rho_m N_m(D_aF)->0 for a Pack-window Hessian-control norm dominating M_m",
+      "downstream_consequence": "HFTerminalDefectMassVanishing.A / USCP.A2-PackRestoration.A remains unproved; the next atom is LicensedHFTaylorScaleBudget.A or an equivalent observability/source estimate forcing the h/F terminal survivor measure to vanish"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-licensed-hf-taylor-scale-budget-direct-attempt-20260609.md",
+      "issue": "LicensedHFTaylorScaleBudget.A still used rho_window * ||D_a F||, native Pack norm, and adaptive shrinkage language without defining the exact segment quantity or the separate Pack-admissible shrink theorem",
+      "replacement": "the note now defines licensed windows W_m=(A_m,I_m,rho_m), the segment-control Hessian quantity M_m, and two exact alternatives: rho_m M_m -> 0 on actual windows, or a shrunken schedule rho'_m with rho'_m M'_m -> 0 plus preservation of the finite same-fluid Pack witness; equivalent norm statements require M_m <= C N_m(D_aF) and rho_m N_m(D_aF) -> 0 with constants independent of m",
+      "downstream_consequence": "PackLicensedScaleHessianBudget.A is the next atom with exact obligations; adaptive shrinkage alone no longer closes Pack restoration, and h/F terminal survivor vanishing must occur on the same licensed windows"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-pack-licensed-scale-hessian-budget-direct-attempt-20260609.md",
+      "issue": "PackLicensedScaleHessianBudget.A inherited the rho_window * ||D_a F|| proxy and route-retargeting language that could make the stronger Hessian budget look removed rather than left open with exact obligations",
+      "replacement": "the note now defines the licensed-window segment-control quantity M_m, states the exact Hessian alternatives rho_m M_m -> 0, M_m <= C N_m(D_aF) with rho_m N_m(D_aF) -> 0, or admissible shrink freedom preserving the finite same-fluid Pack witness, and separately classifies UniformStrainTail.TTU / EndpointSelector.TTU as the current primary Pack.TTU route",
+      "downstream_consequence": "PackLicensedScaleHessianBudget.A remains open as a stronger optional route; the active Pack-restoration leaf is the exact TTU uniformity problem converting labelwise strain tails into the supremal Pack.TTU strain ledger"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-pack-ttu-selector-uniformity-closure-note.md",
+      "issue": "the active Pack.TTU selector/uniformity note used a moving-spike pattern as shorthand for the failure of labelwise finite strain to imply the supremal Pack ledger",
+      "replacement": "the note now displays an exact measurable countermodel on A_Q=[0,1] with disjoint label supports U_n, disjoint terminal time supports I_n, bumps chi_n and psi_n, and amplitudes h_n chosen so h_n integral_{I_n} psi_n dt=1; each fixed label has finite integral while integral sup_a s(a,t) dt diverges",
+      "downstream_consequence": "UniformStrainTail.TTU / EndpointSelector.TTU remains an exact structural burden: finite complexity, an integrable label modulus, or LabelNoMovingSpike.TTU is required before labelwise strain tails can be spent as the supremal Pack.TTU ledger"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-endpointselector-or-uniformstraintail-theorem-audit-tgc-a-8304b922a8.md",
+      "issue": "the supporting endpoint/uniform-strain audit carried the same moving-spike shorthand and contained a corrupted finite-complexity display",
+      "replacement": "the note now fixes the finite-complexity display and installs the same exact label/time bump countermodel with the divergent supremal integral computed from the chosen amplitudes",
+      "downstream_consequence": "the support audit now backs the TTU leaf with an explicit countermodel to the abstract implication, while preserving that it is not asserted as a Navier-Stokes solution"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-label-finite-complexity-modulus-direct-attempt-note.md",
+      "issue": "the direct LabelNoMovingSpike.TTU note described finite complexity and integrable label modulus as equivalent no-moving-spike rules and used a smooth bump pattern shorthand without an exact obstruction calculation",
+      "replacement": "the note now states finite complexity and integrable label modulus as two sufficient structures, displays the label/time bump countermodel with amplitudes A_n chosen so A_n integral_{I_n} psi_n dt=1, and derives divergence of integral sup_a s(a,t) dt as sum_n 1",
+      "downstream_consequence": "LabelNoMovingSpike.TTU now means the terminal strain ledger satisfies FiniteComplexity.TTU or IntegrableLabelModulus.TTU; OriginalSmoothData=>LabelNoMovingSpike.TTU remains unproved, so the averaged SOURCE.NO-PULSE.A route remains the active route unless a new structural theorem is installed"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "issue": "the live route-map mirror still described the direct pointwise Pack.TTU fallback as archived and compressed its selector/modulus chain into labels without the exact supremal strain ledger or countermodel boundary",
+      "replacement": "the resolved-frontier summary now states the exact Pack.TTU ledger int sup_{a in A_Q} ||sym nabla u(Phi(a,t),t)||_op dt < infinity, records the disjoint label/time bump countermodel, and names LabelNoMovingSpike.TTU as satisfying one of the displayed finite-complexity or integrable-label-modulus structures",
+      "downstream_consequence": "route-map readers cannot treat the pointwise Pack.TTU chain as archive/demotion completion; it remains an open fallback while SOURCE.NO-PULSE.A remains the active averaged route unless a new structural theorem is installed"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-pctp5c-known-criteria-source-nopulse-attack-note-20260503.md",
+      "issue": "the active SourcePulseKnownCriterionPlacement attack note used standard-criterion, equivalence-label, shrink-inside-retained-scale, and therefore-language around the known-criteria consumer route",
+      "replacement": "the note now states each KC clause as conditional on a named placement hypothesis, replaces the retained-field CKN shrink step with the exact subcylinder condition C(rho)+D(rho)<epsilon_CKN, and treats AWG.A/SOURCE.NO-PULSE.A/QDrain.A/MSC.BadAC/PulseCharge.A/SignedLocalSource.A as route-alias labels rather than proof-equivalent suppliers",
+      "downstream_consequence": "SourcePulseKnownCriterionPlacement.A remains an open placement dichotomy; retained-field CKN placement is only a retained-branch consumer and cannot discharge branch-native Jump_avg elimination or PCTP.5.C"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-sourcepulse-knowncriterion-placement-boundary-audit-note-20260503.md",
+      "issue": "the boundary audit used usual subcritical interpolation, equivalence shorthand, and therefore-language in the four known-criteria supply tests",
+      "replacement": "the note now displays the exact energy-class interpolation bound ||u||_{L^{10/3}}^{10/3} <= C ||u||_{L_t^infty L_x^2}^{4/3} ||grad u||_{L^2_{t,x}}^2, replaces equivalence prose with route-record wording, and states each missing supply as an installed conclusion",
+      "downstream_consequence": "KC.L3Supply.A, KC.LiouvilleSupply.A, KC.CKNSupply.A, and KC.DirSupply.A remain unproved from OriginalSmoothData; the next targets remain SignedLocalSource.A or the same-carrier JAVG.1+JAVG.2 pair"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-cross-profile-pack-atom-rigid-profile-direct-attempt-20260610.md",
+      "issue": "profile-capture language could let two-profile domination look like assignment of a terminal Pack atom to one rigid profile",
+      "replacement": "the note now displays the selected positive interaction measure dmu_{alpha beta,j}^+ and the exact two-profile domination inequality (TPD), then states that one-profile capture would require absolute continuity against a single-profile Pack measure plus a quantitative density or anti-atom modulus",
+      "downstream_consequence": "CrossProfilePackAtomBelongsToRigidProfile.A remains unproved; the installed support is only CrossProfilePackAtomTwoProfileDomination.A, and the live burden remains TwoProfilePackMoleculeRigidity.A or an equivalent one-profile/anti-atom/polarity theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md",
+      "issue": "the surviving low-high same-window molecule was described with profile geometry and order-size language after positive selection",
+      "replacement": "the note now defines the selected low-high positive measure dmu_{alpha beta,m}^+, states survival as the exact normalized nonvanishing condition (TPM), and states separated-pair vanishing through the explicit cutoff-overlap limit (SEP)",
+      "downstream_consequence": "TwoProfilePackMoleculeRigidity.A remains unproved; the live child must prove vanishing, a terminal anti-atom modulus, one-profile absolute continuity with density control, a source-Carleson reserve, a rigid two-profile Liouville class, or a Pack/Part/Field face failure for the selected measure"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
+      "issue": "reader-facing appendix mirrors retained selector-scale, Moser/Bogovskii, rank-q tensor-action, continuation-criterion, compactness, local-energy, pressure, and commutator shortcuts",
+      "replacement": "the frozen exceptional-set section now names (PTCL.3ai), (PTCL.3aj), and the frozen collar bound; the divergence section names the Moser product and Bogovskii correction estimates on g=-div(mu w); the affine section uses rank-q tensor action; the PTC-Lin mirror names the selector-scale realization and active-pair scale packet; continuation summaries now display the exact bounded H^s or L^1_t B^0_{infty,1}/BKM-type input being spent; compactness passages now name uniform local energy, L^{3/2}_{loc} pressure, local energy inequality, residue inheritance, and test-density hypotheses; pressure and commutator passages now display the fixed-time Calderon-Zygmund/Schauder, Kato-Ponce/Moser, or cutoff-paired pressure-work inputs",
+      "downstream_consequence": "the submission appendix mirrors exact theorem-note dependencies and continuation/compactness hypotheses instead of presenting familiar branch language as proof authority; terminal-cover production, noncircular tower control, source-residue rigidity, and exterior H^s tail control remain open where the appendix says they are open"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-jump-avg-lower-accumulation-full-scf-charge-discharge.md",
+      "issue": "the Jump_avg lower-side note used raw fullSCF charge notation, standard Vitali/Besicovitch extraction, and positive lower accumulation language without naming the normalized packet functional and selected separated family",
+      "replacement": "the note now defines the normalized packet functional N_fullSCF(Q)=E_u(Q)+D_u(Q)+P(Q)+G_Phi(Q), separates it from raw measures, and makes the Besicovitch separated terminal extraction an explicit retained-atlas hypothesis",
+      "downstream_consequence": "the lower side closes only for normalized full-SCF packet mass on the selected terminal schedule; the branch contradiction still requires scale-normalized upper control for the E_u part on that same schedule"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-javg2-active-shell-gain-to-carleson-note.md",
+      "issue": "the JAVG.2 upper proof treated per-window heat-scale bounds and bounded overlap as enough to sum an infinite terminal family, hiding the selected-family overlap and reserve summability needed for scale-normalized Carleson control",
+      "replacement": "the theorem now states SCF_norm as a normalized packet functional, adds the active-tail overlap constant M_Q, global first-moment bound C_D, and selected-family reserve summability, and carries M_Q through the proof constant",
+      "downstream_consequence": "AAG.A=>JAVG.2 remains conditional only under these exact selected-family hypotheses; OriginalSmoothData=>AAG.A is still unproved and cannot be replaced by raw finite mass or first-moment dissipation"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-signedlocalsource-terminal-reserve-collapse-note.md",
+      "issue": "the terminal-reserve collapse note said the signed remainder, active-square, square-source, and active-shell targets reduce to one structural theorem, which let route aliasing stand in for a displayed conversion theorem",
+      "replacement": "the note now states that the four targets share a source-normalization burden but are not proved two-way equivalent; downstream use requires either the displayed selected-family active-square bound or an explicit one-sided signed-remainder theorem",
+      "downstream_consequence": "SignedLocalSource.A remains open as ActiveShellSourceNormalize.A or a one-sided signed-remainder theorem; route names are not spendable interchangeably"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md; problems/navier-stokes/theorem-construction/mpp-signedlocalsource-final-collapse-note.md; problems/navier-stokes/theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md",
+      "issue": "the SignedLocalSource cluster used equivalent/route-equivalent/reduce-to language around signed reserve, active-square residual-tail, and SOURCE.NO-PULSE labels without proving the conversion theorem",
+      "replacement": "the notes now say these are sufficient active forms or route-map aliases for the same unresolved no-pulse atom; the signed route needs a one-sided sign theorem, while replacing it by absolute values adds the active-window source-normalization hypothesis",
+      "downstream_consequence": "branch-native Jump_avg elimination may spend only a proved signed one-sided reserve, a proved active-square/source-normalized Carleson theorem, or a proved conversion between them"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "issue": "route-map mirrors still said route-equivalent, alias-collapse, or collapsed-to for source/no-pulse and active-shell source-normalization surfaces",
+      "replacement": "the mirrors now classify those names as route-map aliases or route-adjacent support presentations unless a displayed conversion or source-normalization theorem is proved, and the frontier status says reworked-to explicit hypotheses rather than collapsed-to",
+      "downstream_consequence": "generated/frontier readers cannot treat SignedLocalSource.A, ActiveShellSourceNormalize.A, SOURCE.NO-PULSE.A, and related active-square surfaces as completed by demotion or aliasing"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "issue": "after the source/no-pulse alias repair, the live route maps still carried residual route-equivalent, collapse, demotion, therefore/Thus, and should-language that could let support classification or proof-order prose masquerade as mathematical payment",
+      "replacement": "the route maps now use explicit classified-as-support, requires-the-same-bound, same-selected-Zeno-burden, displayed-witness-face, and proof-order wording; targeted route-equivalent/collapse/demotion/connective shortcut strings were removed from the three active route maps",
+      "downstream_consequence": "route-map status can no longer close a proof step by alias, collapse, demotion, or connective force; downstream proof force requires a displayed Pack/Part/Field landing, a named exact bound, or a proved conversion theorem"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/navier-stokes-submission.tex; problems/navier-stokes/submission-bundle/sections/main-result.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex; problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex",
+      "issue": "active manuscript and section mirrors used usual/standard/clear/Thus/therefore language around continuation, Sobolev estimates, local regularity readout, energy/enstrophy identities, and branch-role transitions",
+      "replacement": "the manuscript now names the exact H^s, s>5/2 local-relaunch continuation criterion, the retained-subcylinder C(r)+D(r)<epsilon_CKN local-regularity target, the integer m>=3 Moser/Kato-Ponce commutator estimate, the classical energy identity, the displayed enstrophy comparison wall, and direct non-filler transition wording",
+      "downstream_consequence": "reader-facing proof prose can no longer spend usual/standard local theory or connective force as a hidden proof step; continuation requires the displayed H^s bound and relaunch theorem, local regularity requires the stated CKN smallness target, and branch mirrors keep classification separate from proof payment"
+    },
+    {
+      "path": "problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb; problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml; problems/navier-stokes/target-operating-contract.yaml",
+      "issue": "forward-positive quarantine used demotion language as an active support-classification schema",
+      "replacement": "generator now emits support_classes, cm_authority: no-proof-authority, proof_force: none_without_exact_cm_bridge, and support_classification_law; target contract and rebuilt index carry the 3043-entry current support count",
+      "downstream_consequence": "quarantined support surfaces have no CM proof authority unless an exact bridge lands the same witness in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}, or the named positive theorem is proved under stated hypotheses"
+    },
+    {
+      "path": "problems/navier-stokes/review-verdict.yaml; problems/navier-stokes/route-lock.yaml; problems/navier-stokes/release-decision.yaml; problems/navier-stokes/route-integrity-report.yaml; problems/navier-stokes/proof-assembly.yaml; problems/navier-stokes/theorem-to-warrant.yaml; problems/navier-stokes/warrant-compilation.yaml; problems/navier-stokes/theorem-repair.yaml; problems/navier-stokes/theorem-crank.yaml; problems/navier-stokes/theorem-packet.yaml; problems/navier-stokes/submission-verdict.yaml; problems/navier-stokes/submission-bundle/theorem-packet.yaml; problems/navier-stokes/submission-bundle/submission-verdict.yaml",
+      "issue": "generated verdict and packet mirrors used therefore/demoted wording around Pack/Part/Field support and source-control support rows",
+      "replacement": "mirrors now state that concrete Pack/Part/Field face failure supports Exit(Q), and source-control/positive supplier rows remain support-only with no proof force unless the exact bridge or theorem is proved",
+      "downstream_consequence": "route/verdict surfaces cannot close a proof step by connective force or support classification"
+    },
+    {
+      "path": "problems/navier-stokes/ns-completion-route-sync-payload-*.yaml",
+      "issue": "dated top-level route-sync payloads are imported by viewer, executor, and submission sync paths but still encoded resolution by support downgrading, source-wall downgrade wording, generic Pack/Part downgrade wording, and H^s shorthand",
+      "replacement": "payloads now use no-proof-authority classification, wrong-target/no-proof-force language for generic Pack/Part face-exclusion, source-frontier classification with no proof authority, and the classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound",
+      "downstream_consequence": "route-sync consumers cannot read demotion or standard-continuation shorthand as proof payment; imported route status requires same-witness CM admission plus Pack/Part/Field certification or a proved local relaunch input"
+    },
+    {
+      "path": "problems/navier-stokes/assumption-audit.yaml; problems/navier-stokes/dependency-audit.yaml; problems/navier-stokes/consistency-audit.yaml; problems/navier-stokes/circularity-audit.yaml; problems/navier-stokes/gap-audit.yaml; problems/navier-stokes/cm-contrapositive-referee-audit.yaml; problems/navier-stokes/d8-completion-route-map.yaml; problems/navier-stokes/live-theorem-edge.yaml; problems/navier-stokes/source-frontier.yaml; problems/navier-stokes/submission-bundle/source-frontier.yaml; problems/navier-stokes/submission-bundle/current-material-coverage.yaml; problems/navier-stokes/spine.md; problems/navier-stokes/promotion-blocker-burndown.md",
+      "issue": "active audit/frontier/support summaries still let demotion, generated overlay suppression, or standard-entry language sound like mathematical repair",
+      "replacement": "summaries now use non-authoritative/no-proof-force/support-only language tied to same-witness CM admission and Pack/Part/Field certification; source-gap demoted schema rows carry proof_force: none where retained for compatibility",
+      "downstream_consequence": "decision surfaces separate active proof force from support classification and preserved schema/source-ID residue"
+    },
+    {
+      "path": "problems/navier-stokes/tools/build_current_material_coverage.rb; problems/navier-stokes/submission-bundle/current-material-coverage.yaml",
+      "issue": "current-material coverage could not prove final classification because newer authoring, paper-arc, source-spine, theorem-construction, and tooling files sat outside the static family map, while stale static family entries were treated as failures even when those files were covered by newer authority surfaces",
+      "replacement": "generator now drops static family entries already covered by direct/quarantine/source surfaces and adds dynamic no-proof-authority families for authoring residue, completion/source-writing batches, paper-arc production support, source-spine production support, current theorem-construction remainder, and tooling support; regenerated coverage records 824 classified remainder files",
+      "downstream_consequence": "current-material coverage check now has zero unclassified current checkable files, zero stale family entries, and a family-count sum matching the 824-file remainder"
+    }
+  ],
+  "inspected_no_edit_needed": [
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md",
+      "reason": "the cone/funnel surface already states the moving radius rho(t)=lambda sqrt(T-t), the moving-domain identity, the exact rescaled unknown v(y,s), and the cone-critical late-slab quantities; it does not spend U/r, oscillation, or a linear profile approximation as proof"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/hwy-instability-attack-packet.md",
+      "reason": "the packet states exact conditional hypotheses for the fresh-angle feed and zero-time uniqueness entry; it explicitly leaves the final uniqueness-class hypothesis open"
+    }
+  ],
+  "preserved_residue_or_support": [
+    {
+      "class": "logs-inventories-generated-packets",
+      "rule": "high raw marker counts in review logs, derivation inventories, paper-arc production packets, and generated author/context/work packets remain residue/support unless a live route surface imports their wording as authority"
+    },
+    {
+      "class": "exactness-audit-ledgers-and-authoring-support",
+      "rule": "the exactness marker classifier now treats theorem-construction audit/review JSON ledgers and submission-bundle authoring README text as support surfaces; this prevents quoted defect excerpts and authoring guidance from being counted as proof-bearing theorem text while preserving the rule that any live route surface importing those words must be audited separately"
+    },
+    {
+      "class": "support-schema-and-generated-residue-after-20260617-support-pass",
+      "rule": "legacy_demotion_classes, demotion/standard/collapse/immediate inside source IDs, filenames, paper-arc packets not imported as current route authority, authoring transcripts, and quoted audit evidence are preserved residue only; active importing surfaces must state no proof force unless an exact bridge or theorem proof is supplied"
+    }
+  ],
+  "remaining_risk": "The support/verdict/route-sync decision-surface pass, current-material coverage classification, and standard-step reader-appendix rework are current against this worktree. Future promotion of preserved residue or support wording as proof authority still requires exact statement, hypotheses, and downstream consequences."
+}

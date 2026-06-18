@@ -1,0 +1,170 @@
+{
+  "audit_id": "mpp-hidden-profile-semantic-audit-20260617",
+  "scope": "problems/navier-stokes",
+  "completion_truth": "hidden_profile_semantic_pass_current_reworked",
+  "target_failure": "unknown local profile replaced by a linear, same-scale, typical-size, benchmark, representative, or hidden profile assumption and then spent as proof",
+  "preserved_residue_rule": "transcript, log, archive, forensic, and sample residues may preserve old wording only as evidence and may not feed live theorem, route, manuscript, inventory, generated state, or decision surfaces",
+  "edited_reworked": [
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-estimate-direct-audit-20260611.md",
+      "issue": "cubic transport benchmark equality silently read like a generic same-scale packet fact",
+      "replacement": "added explicit full-annulus volume/amplitude hypothesis; without it the exact quantity remains r^{-1} int_{A_r} |u|^3",
+      "downstream_consequence": "ScaleCriticalPaymentThrottle.A still needs structural control below the critical payment demand on shrinking schedules"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md",
+      "issue": "persistent critical profile language could be read as a pointwise or linear profile assumption",
+      "replacement": "replaced it with the exact moving-slice oscillation amplitude A_osc(t)=rho(t) Delta_{rho(t)}u(t)/nu and the branch condition 0 < c <= A_osc(t) <= C < infinity along rho(t)=lambda sqrt(T-t)",
+      "downstream_consequence": "finite physical wall accounting remains separated from unweighted cone-scale control; no proof may spend a pointwise velocity law of size nu/rho(t) or an unidentified typical profile"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md",
+      "issue": "profile problem language could be misread as prescribing a spatial profile",
+      "replacement": "stated that profile means the exact rescaled unknown v, not a prescribed shape or linear model for u",
+      "downstream_consequence": "late-slab claims must be stated as bounds on v, q, or scale-critical funnel quantities"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-funnel-profile-lyapunov-weighted-direct-attempt-20260611.md",
+      "issue": "weighted linear profile loss summary collapsed the signed identity and the absolute production bound",
+      "replacement": "separated the exact signed identity (1/2)E_G' + nu D_G + (1/2)E_G = P_G from the bound |P_G| <= N_G",
+      "downstream_consequence": "FunnelProfileLyapunov.A remains conditional on an absorption estimate for N_G with theta < 1 and integrable remainder"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-active-shell-source-normalization-obstruction-active-shell-source-normalization-fdd05c46cc.md",
+      "issue": "amplitude scaling of a profile was stated as generic intuition",
+      "replacement": "rewrote it as an exact test family u_A=A phi with smooth finite-mode divergence-free phi and F_j(phi) != 0",
+      "downstream_consequence": "active-shell source normalization cannot come from smoothness alone; it requires a source-control theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-activeshellamplitudegain-completion-attempt-20260517.md",
+      "issue": "source-flux obstruction used profile language without separating the test family from a Navier-Stokes terminal branch",
+      "replacement": "rewrote it as the exact trilinear scaling F_j(u_A)=A^3F_j(phi), |F_j(u_A)|^2=A^6|F_j(phi)|^2",
+      "downstream_consequence": "the fixed-data theorem still needs a scale-normalized active-window source theorem"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md",
+      "issue": "small linear profile carried an unstated smallness premise",
+      "replacement": "replaced it with the explicit short-slab norm ||w^{lin}||_{L_t^1 H_x^{s+1}(I)}",
+      "downstream_consequence": "the restart inequality spends a named norm, not an assumed profile shape"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md",
+      "issue": "L2 closeness to an affine comparator was followed by wording that could be read as grad^2 u=0 in the actual solution core",
+      "replacement": "stated grad^2[b+A(t)(x-x0)]=0 only for the comparator and required either explicit non-affine residual control or a matching/collar cost for the actual solution",
+      "downstream_consequence": "the affine branch becomes residual-or-collar cost, and the remaining gap is still a summable high-tower/enstrophy-production budget"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "issue": "generated route state repeated the older affine-core shortcut",
+      "replacement": "updated the affine status to exact gradient-lower-bound plus residual-or-collar consequence",
+      "downstream_consequence": "downstream route readers no longer receive an exact-affine claim for the actual solution"
+    },
+    {
+      "path": "problems/navier-stokes/source-frontier.yaml",
+      "issue": "frontier status retained exact-affine-core-hypotheses label",
+      "replacement": "changed status to exact-affine-core-gradient-lower-bound-installed-residual-or-collar-cost-high-tower-budget-still-not-supplied",
+      "downstream_consequence": "frontier status points to the real residual-or-collar burden"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "issue": "submission-bundle mirror retained exact-affine-core-hypotheses label",
+      "replacement": "changed status to exact-affine-core-gradient-lower-bound-installed-residual-or-collar-cost-high-tower-budget-still-not-supplied",
+      "downstream_consequence": "submission-bundle route mirror points to the real residual-or-collar burden"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "issue": "decision-bearing exactness status could be read as a full Navier-Stokes prose-profile exactness completion claim",
+      "replacement": "changed the status to current Navier-Stokes exactness audit evidence, with marker-profile clearance tied to preserved-residue and no-proof-force classifications rather than proof payment",
+      "downstream_consequence": "downstream route readers receive the current exactness-audit state without treating marker cleanliness as a theorem proof"
+    },
+    {
+      "path": "problems/navier-stokes/source-frontier.yaml",
+      "issue": "frontier mirror advertised full prose-profile exactness marker clearance",
+      "replacement": "changed the mirror to current exactness-audit status after the standard-step and active-route semantic passes reworked or classified the proof-facing contexts",
+      "downstream_consequence": "route/frontier state separates proof-force rework from preserved residue and support classification"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "issue": "submission-bundle frontier mirror advertised full prose-profile exactness marker clearance",
+      "replacement": "changed the mirror to current exactness-audit status after the standard-step and active-route semantic passes reworked or classified the proof-facing contexts",
+      "downstream_consequence": "submission-state readers see the exactness-audit state together with the no-proof-force boundary for residue/support hits"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-critical-base-feed-to-tower-coherence-direct-test-20260611.md",
+      "issue": "localized profile language still described the cone tower bill as shape-payment rather than exact branch hypotheses",
+      "replacement": "stated A_r(t) >= a0, the non-affine defect condition B_r(t) >= b0 on a time set of measure at least theta r^2/nu, the scale-separated or bounded-overlap charging requirement, and separate through-flow/affine-only branches",
+      "downstream_consequence": "RetainedLocalizedCriticalFeedToNonAffineTowerCost.A now requires an exact retained-feed to non-affine-density implication plus a charging ledger; ConeAffineProfileRigidity.A now requires the vanishing-non-affine-defect branch to be ruled out explicitly"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md",
+      "issue": "separated-profile language said the cross term was forced off the selected window without stating the exact separation hypothesis",
+      "replacement": "added the selected-window frame separation condition and overlap-measure consequence; same-parameter pairs now produce one profile frame by bookkeeping, not a two-profile theorem",
+      "downstream_consequence": "SeparatedProfilePackMoleculeVanishes.A is tied to frame separation and vanishing terminal mass; the scale-nested low-high same-window molecule remains the open branch"
+    }
+  ],
+  "inspected_no_edit_needed": [
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-cone-payment-closure-package-20260611.md",
+      "reason": "already states Delta_r u, exact moving-radius gradient bridge, benchmark definition, and explicit volume/profile hypothesis before lower energy billing"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-scale-critical-payment-throttle-energy-only-direct-test-20260611.md",
+      "reason": "already states U_c(r)=nu/r is a benchmark amplitude rather than a local profile assertion"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/same-scale-edge-fourier-symbol-and-principal-part-test.md",
+      "reason": "same-scale is an explicit Fourier-symbol packet test; the note proves incompressibility alone does not annihilate the principal same-scale amplitude"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/same-scale-multiplier-stability-program.md",
+      "reason": "same-scale language names the exact remaining theorem debt and does not use same-scale intuition as proof"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/capwise-signed-defect-positivity-theorem-candidate.md",
+      "reason": "scale law is explicitly postponed until after the net cap-graph margin kappa_j^{net} is identified"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-source-parent-compactness-unconditional-attempt-20260504.md",
+      "reason": "same-scale refill chain language is a negative result: finite integral control gives no fixed positive spend per legal source-parent edge"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-transported-cylinder-no-flux-attempt-20260505.md",
+      "reason": "representative form is a conditional target statement inside a failed direct attempt"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-scfbase-label-scale-modulus-test.md",
+      "reason": "representative language describes fixed finite labels in a negative moving-packet obstruction, not a proof shortcut"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/volterra-scale-memory-formalization-note.md",
+      "reason": "scalar profile is the exact orthogonal representative from the weak equation partial_s(w m_w)=0"
+    },
+    {
+      "path": "problems/navier-stokes/source-frontier.yaml",
+      "reason": "profile and cross-profile route-map text states failed or open bridge status rather than proof authority"
+    },
+    {
+      "path": "problems/navier-stokes/d8-completion-route-map.yaml",
+      "reason": "profile/cross-profile rows state tested-and-does-not-pay-bridge outcomes"
+    }
+  ],
+  "preserved_residue_or_support": [
+    {
+      "class": "sample-evidence-support",
+      "rule": "pulling-teeth transcripts and sample PDFs may preserve the original bad U/r language only as evidence"
+    },
+    {
+      "class": "forensic-or-audit-support",
+      "rule": "audit notes may quote or name the bad language to document the repair"
+    },
+    {
+      "class": "archived-production-support",
+      "rule": "old paper-arc/source-spine production packets are not live theorem authority"
+    },
+    {
+      "class": "path-reference-support",
+      "rule": "filenames containing legacy shortcut words have no proof content in the filename"
+    }
+  ],
+  "remaining_risk": "This semantic pass inspected and reworked high-risk hidden-profile hits, and later status mirrors now carry the current marker-profile and standard-step verification state. Future promotion of preserved residue or support wording as proof authority still requires exact statement, hypotheses, and downstream consequences."
+}

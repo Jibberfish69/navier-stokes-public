@@ -1,0 +1,49 @@
+{
+  "audit_id": "mpp-standard-step-semantic-audit-20260617",
+  "scope": "problems/navier-stokes",
+  "completion_truth": "standard_step_semantic_pass_current_high_risk_reworked",
+  "target_failure": "standard, obvious, immediate, routine, or continuity-language being used as a proof step without stating the theorem, hypotheses, and downstream burden",
+  "edited_reworked": [
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-viscosity-homotopy-response-height-proof-20260506.md",
+      "issue": "the one-sided viscosity anchor said standard inviscid-limit stability gives (0,nu_0] subset G_T without stating the input theorem or hypotheses",
+      "replacement": "replaced the shortcut by an explicit input, InviscidLimitAnchor.A, requiring an Euler solution from the same datum with sup_{0<=t<=T} ||u^0(t)||_{H^{s+2}} <= M and producing smooth Navier-Stokes solutions for 0<nu<=nu_0(M,T,s)",
+      "downstream_consequence": "the topology/no-fold argument can spend the anchor only after this inviscid-limit input is supplied; ViscosityNoFold.A remains the separate positive-viscosity boundary theorem"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
+      "issue": "reader-facing appendix prose still used usual/standard/routine language around continuation criteria, weak limits, energy bounds, commutator estimates, weak/strong compatibility, Duhamel tail estimates, CM readout, and branch-family support classification",
+      "replacement": "reworked those sentences to the displayed bounded native-norm criterion, energy weak-limit spaces, divergence-free skew cancellation, zero-mean pressure normalization, vorticity and transport commutator identities, classical energy inequality, forced H^s continuation norm, explicit weak/strong compatibility hypothesis, weighted heat-kernel/off-diagonal estimates, named projected-cutoff/boundary records, local H^s relaunch readout, localized pressure equation/local nonlinear balance wording, and no-proof-force classification wording",
+      "downstream_consequence": "the submission appendix no longer spends sampled usual/standard/routine proof-facing language as proof authority; remaining standard/usual hits in that appendix are retained as ordinary labels for classical spaces, gauges, named references, explicit negative/open-status statements, or audit-standard wording rather than hidden proof payments"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction",
+      "issue": "active theorem notes still used standard/local/continuation/commutator/energy/routine/immediate language at proof conversion points, especially where bounded terminal readouts were spent as continuation and where displayed estimates were introduced by shortcut prose",
+      "replacement": "reworked the continuation conversions to the exact relaunch theorem being invoked: periodic H^s, s>5/2, relaunch with lifespan controlled by the uniform H^s bound plus uniqueness on overlaps; H^1 route notes now state the H^1 relaunch theorem burden; commutator and product steps now name Kato-Ponce/Sobolev product bounds; local energy, pressure, compactness, epsilon-regularity, and transport-diffusion steps now name the actual inequality or theorem; immediate/routine wording now points to the displayed implication, defining exclusion, or remaining theorem burden",
+      "downstream_consequence": "the active theorem-construction notes no longer use the targeted standard/usual/routine/immediate phrase family as proof authority in the checked contexts; downstream continuation claims require the relevant bounded readout plus the named relaunch/regularity criterion"
+    }
+  ],
+  "inspected_no_edit_needed": [
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-enstrophy-production-throttle-forward-positive-direct-test-20260611.md",
+      "reason": "standard enstrophy language is followed by the displayed identity, vortex-stretching bound, Young inequality, and comparison ODE showing non-closure"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-vortex-stretching-throttle-lyapunov-scale-barrier-reduction-20260611.md",
+      "reason": "standard Lyapunov language is a negative result supported by the displayed enstrophy identity and cubic comparison wall"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/lagrangian-stokes-bridge-program.md",
+      "reason": "standard Stokes/continuity references are tied to displayed frozen-coordinate equivalence, norm-equivalence constants, and a bootstrap inequality"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/scale-paraproduct-reduction-lemma.md",
+      "reason": "standard fixed-gap commutator language is tied to a displayed fixed-gap estimate"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
+      "reason": "after the reader-appendix rework, the remaining standard/usual hits are ordinary names for classical infrastructure, gauges, named references, explicit negative/open-status statements, or audit-standard wording; the proof-facing sampled shortcuts were edited to displayed criteria, estimates, hypotheses, or no-proof-force classifications"
+    }
+  ],
+  "remaining_risk": "This pass records the current high-risk standard/usual/routine/immediacy rework and the remaining no-edit-needed standard-step classifications. Future promotion of any preserved support or mirror sentence as proof authority still requires the same exact-statement and downstream-consequence audit."
+}

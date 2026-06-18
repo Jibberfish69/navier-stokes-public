@@ -1,0 +1,172 @@
+{
+  "audit_id": "mpp-form-selection-semantic-audit-20260617",
+  "scope": "problems/navier-stokes",
+  "completion_truth": "form_selection_and_submission_mirror_pass_current_reworked",
+  "target_failure": "typical, representative, profile, benchmark, and should-language selecting a proof form, target, model, or term without stating the exact object or hypothesis",
+  "edited_reworked": [
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex",
+      "replacement": "reworked stale reader-facing mirrors: shell-source amplitude tests now use exact u_A=A phi test families; the donor-tail target now displays the derivative inequality; the transported-cylinder no-flux target now displays the boundary-flux integral; the Duhamel obstruction now displays g_m(s)=m 1_{(-1/m,0]}; route 'should land' wording became a stated finite-family reduction target with an open theorem step; scale-summability mirror now uses Phi(r)=r^alpha with alpha>0; strict-low sum-level mirror now displays the commutator estimates it invokes",
+      "downstream_consequence": "the submission appendix no longer spends profile/representative/typical/standard language as proof authority on these branches"
+    },
+    {
+      "path": "problems/navier-stokes/live-theorem-edge.yaml",
+      "replacement": "terminal-layer Duhamel profile language now states the exact model time marginal g_m(s)=m 1_{(-1/m,0]} and its retained order-size response",
+      "downstream_consequence": "live theorem state records the temporal anti-concentration burden without a hidden forcing-profile assumption"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-terminalsourcereverseholder-onwardsourcenormalize-8788b38d6c.md",
+      "replacement": "amplitude scaling now uses a smooth finite-mode divergence-free test field phi with F_j(phi) != 0 and the exact family u_A=A phi",
+      "downstream_consequence": "ActiveShellSourceNormalize.A remains a scale-normalized active-window source theorem, not a consequence of smoothness"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-heat-scale-square-source-terminal-attempt-note.md",
+      "replacement": "amplitude scaling now uses the exact u_A=A phi family",
+      "downstream_consequence": "the square-source route remains conditional on active-shell source normalization"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-heat-scale-square-source-direct-attempt-20260505.md",
+      "replacement": "fixed-shell amplitude obstruction now uses the exact u_A=A phi family",
+      "downstream_consequence": "the selected terminal active-shell bound is still an open scale-normalized estimate"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-terminal-new-production-basac-reduction-20260609.md",
+      "replacement": "universal square-source obstruction now uses the exact u_A=A phi family",
+      "downstream_consequence": "B_ASAC new-production reduction does not prove ActiveShellSourceNormalize.A from smoothness"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-scale-summability-penalty-direct-attempt-20260518.md",
+      "replacement": "typical physical cost language and the verdict's naturally-available scale-weight wording became the displayed model Phi(r)=r^alpha with alpha>0 and sum_k Phi(2^{-k}r_0)<infinity",
+      "downstream_consequence": "scale-summability failure is tied to the displayed model and requires a new scale-breaking estimate, not a general scaling intuition"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-terminal-time-face-anti-atom-all-mechanism-ledger-20260518.md",
+      "replacement": "scale-summability ledger reason now uses the displayed model Phi(r)=r^alpha with alpha>0 and the summable geometric series",
+      "downstream_consequence": "the all-mechanism ledger no longer repeats natural physical penalty language as proof rationale"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-asap-closure-better-ideas-20260506.md",
+      "replacement": "terminal-layer Duhamel profiles became the exact model time marginal g_m(s)=m 1_{(-1/m,0]}",
+      "downstream_consequence": "positive viscosity alone still does not prove terminal temporal anti-concentration"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/same-scale-multiplier-stability-program.md",
+      "replacement": "same-scale route-selection language now states the shared target as one stability theorem for bounded annular order-zero multiplier families",
+      "downstream_consequence": "upper-boundary and moving-spill are not closed by same-scale wording; they require the named multiplier-stability theorem or the weaker carrier route already displayed"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/upper-boundary-frozen-edge-family-reduction-note.md",
+      "replacement": "profile corrections became separately displayed bounded-gap coefficient/template correction terms",
+      "downstream_consequence": "upper-boundary residuals cannot hide an unspecified profile correction"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/transpose-profile-local-balance-identity-note.md",
+      "replacement": "profile corrections and should-language became displayed derivatives on b_meso plus separately stated bounded-gap correction terms",
+      "downstream_consequence": "transpose/profile channel residuals require explicit same-scale or bounded-gap structure"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-transported-cylinder-no-flux-attempt-20260505.md",
+      "replacement": "representative form became one sufficient target form",
+      "downstream_consequence": "transported-cylinder no-flux is a target theorem statement, not a proxy approximation"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-basac-transported-cylinder-noflux-direct-attempt-20260517.md",
+      "replacement": "representative form became one sufficient target form",
+      "downstream_consequence": "B_ASAC no-flux remains a sufficient target, not a representative approximation"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-parabolic-cycle-coercivity-direct-attempt-20260505.md",
+      "replacement": "representative form became one sufficient target form",
+      "downstream_consequence": "parabolic edge resistance target is stated as a sufficient inequality form"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-donor-amplitude-time-thickness-direct-attempt-20260506.md",
+      "replacement": "representative target became one sufficient target inequality",
+      "downstream_consequence": "donor-tail heat-window branch states the derivative inequality it would need"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-sourcewallfoursupplierdoors-directworkpass-581f178368.md",
+      "replacement": "representative target became one sufficient target inequality",
+      "downstream_consequence": "sourcewall supplier target is an explicit inequality, not a representative proxy"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/gradient-spill-reduction-lemma.md",
+      "replacement": "representative term became one spill term under test",
+      "downstream_consequence": "the gradient spill reduction uses a displayed model term rather than a generic representative"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-threshold-spill-collar-estimate-and-augmented-coefficient-control-sp-a-c00079335f.md",
+      "replacement": "representative spill interaction became one spill interaction under test",
+      "downstream_consequence": "threshold-spill collar estimate states the displayed interaction as a tested term"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mcp-euclidean-cascade-analogue-with-localization-and-exterior-tails-pst-a-2dec751149.md",
+      "replacement": "representative boundary terms became boundary terms under test",
+      "downstream_consequence": "localization/exterior-tail obstruction states the actual boundary terms"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-alignment-split-note.md",
+      "replacement": "typical sufficient version became one sufficient target version",
+      "downstream_consequence": "native trilinear alignment route now states the selected active-window bound as a target"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-carrier-admissibility-point-probe-germ-pack-lemma-20260530.md",
+      "replacement": "typical parabolic window became parabolic windows written as Q_rho",
+      "downstream_consequence": "carrier germ window is a definition, not a typical scale guess"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-pack-ttu-supremal-strain-tower-dichotomy-proof-20260609.md",
+      "replacement": "typical route language became for-example route language in body and frontmatter",
+      "downstream_consequence": "TowerBound.Upstream remains the theorem atom; READ.COVER + ATD + DTC is an example route, not a default assumption"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md",
+      "replacement": "typical term became one model term in the test",
+      "downstream_consequence": "selected-source tether test states the displayed trilinear term as a model term"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-charge-active-source-expansion-20260506.md",
+      "replacement": "typical active-square/amplitude-gain targets became target forms",
+      "downstream_consequence": "CAS targets are stated as forms rather than typical scale guesses"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md",
+      "replacement": "typical differentiated factor became differentiated factors under test",
+      "downstream_consequence": "WERS tensor test lists explicit factor shapes"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/relative-band-quotient-compactness-formalization-note.md",
+      "replacement": "lifted-profile should-language became the exact measured object: the lifted relative-scale profile after quotienting out exact/collar-trivial directions, ordered by the proposed persistence order",
+      "downstream_consequence": "relative-band compactness remains a proposed quotient theorem, not a direct measurement of an assumed survivor profile"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md",
+      "replacement": "typical choices became admissible choices",
+      "downstream_consequence": "public critical class choices are admissible examples, not typical assumptions"
+    },
+    {
+      "path": "problems/navier-stokes/theorem-construction/mpp-participation-debt-six-mechanism-workflow-integration-20260610.md",
+      "replacement": "representative mechanism files became mechanism files used for the six-bucket workflow",
+      "downstream_consequence": "workflow integration no longer labels its evidence set as representative proof coverage"
+    }
+  ],
+  "inspected_no_edit_needed": [
+    {
+      "path": "problems/navier-stokes/source-ledger.yaml",
+      "reason": "remaining same-scale/profile hits are path/source_id references or duplicate cluster representatives, not proof-force prose"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/surface-derivation-inventory.yaml",
+      "reason": "remaining same-scale/profile rows are face-sort inventory rows that state SelectedFailure or NoLicensedCMFailure, not same-scale/profile proof shortcuts"
+    },
+    {
+      "path": "problems/navier-stokes/source-frontier.yaml",
+      "reason": "profile/cross-profile entries state tested/open bridge outcomes, including exact g_m time-marginal language where relevant"
+    },
+    {
+      "path": "problems/navier-stokes/submission-bundle/source-frontier.yaml",
+      "reason": "submission-bundle frontier mirror matches the exact/open bridge status rather than proof-force shorthand"
+    }
+  ],
+  "remaining_risk": "This pass removes the inspected form-selection and submission-mirror shortcuts and classifies the remaining same-scale/profile hits listed above as source IDs, duplicate representatives, face-sort inventory rows, or open bridge contexts with no independent proof force. Future promotion of any preserved support wording still requires exact statement, hypotheses, and downstream consequences."
+}
