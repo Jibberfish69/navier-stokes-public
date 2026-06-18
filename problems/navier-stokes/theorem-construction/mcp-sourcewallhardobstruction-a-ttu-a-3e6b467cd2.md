@@ -101,7 +101,7 @@ Terminal Zeno compactness produces only the minimal class
 B_{min}=\text{local suitable ancient source-residue objects with no fixed-time incoming threshold pulse}.
 ```
 
-This class is too weak for source-residue Liouville: positive residue may concentrate at `s=0`.  Stronger standard rigid classes are not produced by the route, or else they assume the desired source-wall conclusion.
+This class is too weak for source-residue Liouville: positive residue may concentrate at `s=0`. Stronger rigid classes are not produced by the route, or else they assume the desired source-wall conclusion.
 
 ### 7. TerminalSupportExclusion.A / MonotoneAncestryRank.A
 

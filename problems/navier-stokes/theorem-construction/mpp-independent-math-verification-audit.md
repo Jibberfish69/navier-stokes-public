@@ -234,7 +234,7 @@ SCF_base + SGC.A_a.e. + ATD_m^epsilon => DTC.A_avg.
 DTC.A_avg => CFI.A_avg => End_NS_avg => READ.END => End_NS
 ```
 
-and then the standard terminal `H^s` continuation conversion.
+and then the terminal `H^s` continuation conversion.
 
 ## Second-Pass Burden Granularity
 

@@ -62,10 +62,9 @@ For higher derivatives, differentiate the localized equation:
 ```
 
 where `mathcal N_R` is the localized nonlinearity and `mathcal C_{m,R}` contains
-cutoff commutators supported in `B_{2R}\setminus B_R`.  The proof spends exactly
+cutoff commutators supported in `B_{2R}\setminus B_R`. The proof spends exactly
 the finiteness of `M_{m,R}`; it does not get to replace the nonlinear,
-pressure, or commutator terms by the words "lower order" or "standard local
-estimate."
+pressure, or commutator terms by shortcut labels.
 
 Put `w_m=\nabla^m(\chi u)`.  Multiplying the localized equation by `w_m`,
 integrating by parts, and applying Cauchy--Young gives the exact estimate

@@ -29,7 +29,7 @@ Thus the channel closes if
 
 The first is supplied by the baseline energy layer. The second is the enstrophy dissipation layer and is equivalent to a higher regularity continuation input.
 
-A stronger standard route is
+A stronger classical route is
 
 ```math
 \sup_{t<T}\|\omega(t)\|_2<\infty,

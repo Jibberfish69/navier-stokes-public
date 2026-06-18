@@ -67,9 +67,9 @@ denote the weighted frozen exceptional-set factor.
 
 ## Exact Target
 
-### Theorem FEML.A (on the standard selector-scale branch, frozen exceptional-set measure localization supplies the weighted frozen geometric packet)
+### Theorem FEML.A (on the selector-scale branch, frozen exceptional-set measure localization supplies the weighted frozen geometric packet)
 
-Assume the standard selector-scale realization `(PTCL.3ai)` and the
+Assume the selector-scale realization `(PTCL.3ai)` and the
 active-pair scale packet `(PTCL.3aj)`. Then
 
 ```math

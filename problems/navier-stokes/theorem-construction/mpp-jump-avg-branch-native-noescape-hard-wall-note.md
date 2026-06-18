@@ -138,10 +138,11 @@ R^{-2}\iint |p-p_R^{norm}|^{3/2}
 R^{-1}\iint |\nabla u|^2,
 ```
 
-the standard interpolation still leaves a local-energy or sup-time channel.
-Poincare closes that channel only with a zero-mode/affine residual theorem
-strong enough to control the local energy component on the same terminal
-schedule. That theorem is not installed from `OriginalSmoothData`.
+interpolation between the displayed scale-critical terms still leaves a
+local-energy or sup-time channel. Poincare closes that channel only with a
+zero-mode/affine residual theorem strong enough to control the local energy
+component on the same terminal schedule. That theorem is not installed from
+`OriginalSmoothData`.
 
 Therefore
 

@@ -11,7 +11,7 @@ FIRP.A0:
 \mathfrak Q_{N,\eta}^{press,loc,src,RR,\alpha}\in L^1(I).
 ```
 
-The earlier failure treated the resonant packet as the final same-depth survivor and stopped there. The missing point was why the standard pressure operator estimate does not already close the time integral.
+The earlier failure treated the resonant packet as the final same-depth survivor and stopped there. The missing point was why the fixed-time Calderon--Zygmund/Schauder pressure estimate does not already close the time integral.
 
 The reason is that Calderon-Zygmund/Schauder boundedness transfers spatial regularity at a fixed time. It does not create the needed terminal time integrability of the resonant packet ledger.
 

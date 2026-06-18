@@ -24,7 +24,7 @@ This note works the Door 1 side.
 
 ## Checked incoming attempts
 
-The immediate incoming attempt is
+The checked incoming attempt is
 
 ```text
 mcp-weightedliftedskewdefectlegalattempt-a-weightedliftedskewdefectlegal-a-projectedlocalprecauchyresidueidentity-a-01109edc57.md

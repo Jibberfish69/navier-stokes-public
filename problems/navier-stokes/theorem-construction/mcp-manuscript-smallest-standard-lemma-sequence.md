@@ -1,4 +1,4 @@
-# Smallest Referee-Readable Standard Lemma Sequence
+# Smallest Referee-Readable Lemma Sequence
 
 ## Status
 
@@ -6,7 +6,7 @@ Closed manuscript-level compression.
 
 ## Final sequence
 
-The proof should be presented as four standard lemmas plus the final theorem.
+The proof should be presented as four named lemmas plus the final theorem.
 
 ### Lemma 1: Moving-cylinder regularity and affine excess
 

@@ -13,7 +13,7 @@ or ActiveShellAmplitudeGain.A
 or non-Carleson Zeno temporal anti-concentration.
 ```
 
-The completion standard for each branch is strict: either prove the theorem
+The completion criterion for each branch is strict: either prove the theorem
 unconditionally from installed Navier-Stokes inputs, without using downstream
 CM exit or endpoint closure upstream, or record the exact primitive that remains
 missing.
