@@ -207,10 +207,14 @@ hence
 \tag{SLC.15}
 ```
 
-Standard smooth ODE theory therefore gives that each `\Phi_t` is a `C^1`
-diffeomorphism of `\Omega`; in particular, its restriction to
-`A_Q(t):=\{a:\Phi(a,t)\in Q_t\}` is one `C^1` diffeomorphic motion on
-`A_Q(t)`.
+Since `u` is smooth on the compact time window under discussion, `\nabla u` is
+continuous and bounded on the transported compact tube.  The flow ODE has a
+unique `C^1` solution map, the derivative in labels is the matrix `F` above, and
+`\det F=1` is nonzero.  The inverse-function theorem gives local `C^1`
+invertibility, while uniqueness of the forward and backward flow gives the
+global inverse.  Thus each `\Phi_t` is a `C^1` diffeomorphism of `\Omega`; in
+particular, its restriction to `A_Q(t):=\{a:\Phi(a,t)\in Q_t\}` is one `C^1`
+diffeomorphic motion on `A_Q(t)`.
 
 Now fix a time-slice meeting `Q`. Since `\overline Q_t` is compact and
 `\Phi_t^{-1}` is continuous, the label set `\Phi_t^{-1}(\overline Q_t)` is
