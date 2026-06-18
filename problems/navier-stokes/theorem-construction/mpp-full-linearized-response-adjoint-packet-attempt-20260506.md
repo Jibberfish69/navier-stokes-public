@@ -171,8 +171,26 @@ LinearizedCoeffStop.A
 
 is the direct analogue of the installed `CoeffStop.A`.
 
-The stopping argument is formal once the response mass and stopped response
-parent relation are pinned.  It does not require a new PDE estimate.
+The stopping step is conditional on two exact inputs.  First, the stopped
+interval must satisfy the coefficient budget
+
+```math
+\mathcal C_T^{lin}(\sigma_T,t_+)=\varepsilon_M
+```
+
+and the corresponding Duhamel smallness condition for the pulled-back adjoint.
+Second, the stopped response mass must obey the no-free-create inequality
+
+```math
+\mathsf M_T^{lin}(t_+)
+\le
+\mathsf M_T^{lin}(\sigma_T)+\mathsf{Charge}_T^{lin}([\sigma_T,t_+])
+```
+
+with the stopped parent relation defined on the same tile.  Under those two
+inputs the step is packet bookkeeping and does not require a new PDE estimate.
+Without the mass inequality and parent relation, `LinearizedCoeffStop.A`
+remains open.
 
 ## 5. High-Coefficient Residual
 
