@@ -6331,6 +6331,62 @@ Surfaces edited:
 - `theorem-construction/carrier-realization-classical-identification.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## WCA Substitution, FEI Aggregate, And Anchor-Burden Rework
+
+Old claim being spent:
+
+Three live LCI/CJ surfaces used shortcut wording:
+
+- `mpp-lci-a-weighted-center-aggregate-reduction-note.md` said `(WCA.1a)` was
+  "just the substitution" of `(RCF.8)` into `(LCI.3c3z15)`--`(LCI.3c3z17)`;
+- `mpp-lci-a-fixed-scale-eulerian-increment-note.md` said `(FEI.5c)` was
+  "simply" the finite family aggregate;
+- `mpp-collar-to-jump-pivot-note.md` and the source-field appendix used
+  "simply" around the anchored-center burden, and the appendix sentence was
+  incomplete before the next subsection.
+
+Exact replacement:
+
+The WCA proof now states the actual substitution: the pressure term becomes
+`\mathfrak K_{q,\rho,\psi}^{press,ctr}`, the recycled viscous center term
+becomes `C_q nu \mathfrak A_{q+2,\rho,\psi}^{ctr}`, and the remaining quadratic
+center terms are exactly those listed in `(LCI.3c3z16)`--`(LCI.3c3z17)`.
+
+The FEI note now defines `(FEI.5c)` as the finite sum
+
+```text
+F_{N,delta,rho}^{ctr,epsilon}(t)
+= sum_{ell=1}^{M_epsilon} I_{N,eta^ell}^{ctr}(t).
+```
+
+The CJ note and appendix now state the anchored-center alternatives explicitly:
+
+```text
+A_{N,m,rho,psi}^{ctr} in L^1(I)
+```
+
+for the direct `CJ.A_low.1` readout, or the stronger
+`A_{N,m,rho,psi}^{ctr} in L^2(I)` when routing through `LCI.B2e`.
+
+Proof or remaining burden:
+
+These are exact substitutions or displayed burdens; the missing appendix
+sentence is repaired by the source note's anchor-burden statement. No new
+theorem is added.
+
+Downstream consequence:
+
+The lower-carrier/CJ/FEI path no longer spends "just/simply" phrasing for the
+center aggregate, finite-increment aggregate, or anchored-center integrability
+burden.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lci-a-weighted-center-aggregate-reduction-note.md`;
+- `theorem-construction/mpp-lci-a-fixed-scale-eulerian-increment-note.md`;
+- `theorem-construction/mpp-collar-to-jump-pivot-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Frozen-Family Pressure Interval Discharge Rework
 
 Old claim being spent:
