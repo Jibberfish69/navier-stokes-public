@@ -14,7 +14,12 @@ T_* = \infty.
 
 Assume for contradiction that the maximal classical lifespan is finite.
 
-The solution has the standard finite-energy bounds up to the terminal time. At almost every material spacetime point, the scale-critical local velocity, pressure, and gradient quantities become small on sufficiently small parabolic cylinders. Local epsilon-regularity then gives smooth finite-depth control on every cylinder where this smallness holds.
+The solution has the finite-energy bounds up to the terminal time:
+`u in L^\infty_t L^2_x` and `nabla u in L^2_t L^2_x`. At almost every material
+spacetime point, the scale-critical local velocity, pressure, and gradient
+quantities become small on sufficiently small parabolic cylinders. Local
+epsilon-regularity then gives smooth finite-depth control on every cylinder
+where this smallness holds.
 
 The terminal tail is split into two possibilities. Either it has a finite positive-scale family of such good cylinders, or the available good scales degenerate. The degeneration case is recorded as an averaged endpoint face. On the good-cylinder branch, the local regularity estimates can be summed over a finite same-fluid cover, giving averaged control of the transported derivative and pressure packets.
 
@@ -36,7 +41,10 @@ Therefore no finite maximal time exists. Equivalently, the retained class witnes
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty
 ```
 
-for some `s>5/2`. The standard local classical Navier-Stokes theory in `H^s` extends the solution beyond any alleged finite `T_*`. Thus
+for some `s>5/2`. The `H^s` local well-posedness/relaunch theorem gives a
+lifespan controlled from below by that bound; relaunching from times
+`t_j\uparrow T_*` and using uniqueness on overlaps extends the same solution
+beyond any alleged finite `T_*`. Thus
 
 ```math
 T_* = \infty.

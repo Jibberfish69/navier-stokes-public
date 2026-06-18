@@ -15,7 +15,7 @@ ZenoResidueLiouville_B.A:
 \quad B\Longrightarrow \mu_*^{src}=0.
 ```
 
-Together these would close the Zeno compact-rigidity supplier branch for `SourcePulseExclusion.A`.
+Together these close the Zeno compact-rigidity supplier branch for `SourcePulseExclusion.A` once the class-production half is proved. Zeno compactness gives a nonzero residue limit, membership in `B` activates the residue Liouville theorem, and the resulting `\mu_*^{src}=0` contradicts `\mu_*^{src}(Q_1^-)\ge c_0`.
 
 ## Installed extraction
 
@@ -39,7 +39,10 @@ with positive native residue:
 
 ## Candidate rigid classes
 
-Finite global ancient energy is unavailable from the rescaling. The rescaled global `L^2` norm grows like `r_m^{-1}` times the original energy.
+Finite global ancient energy is unavailable from the rescaling. For the
+parabolic rescaling \(u_m(y,s)=r_m u(x_m+r_my,t_m+r_m^2s)\),
+\(\|u_m(s)\|_{L^2_y}^2=r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2\) on the rescaled
+global domain.
 
 Type I control is unavailable from the local energy and pressure compactness package. The source-pulse branch supplies active residue, not a pointwise envelope.
 
@@ -51,7 +54,7 @@ Self-similar or discretely self-similar structure is unavailable. A Zeno sequenc
 
 Two-dimensional or axisymmetric reduction is unavailable. Same-fluid packet geometry preserves carrier fidelity, while it supplies no invariant axis or dimensional reduction.
 
-The source-cancellation class has an immediate residue-vanishing implication only in the native positive-residue sense. Weak signed cancellation leaves positive native residue compatible with signed cancellation. Strong native cancellation is exactly the desired contradiction.
+The source-cancellation class has residue-vanishing built in only in the native positive-residue sense. Weak signed cancellation leaves positive native residue compatible with signed cancellation. Strong native cancellation is exactly the desired contradiction.
 
 ## Result
 

@@ -11,7 +11,8 @@ PFlux.Supplier:
 
 ## Input From Annular Pressure Estimate
 
-The annular pressure estimate gives, after subtracting harmless annular means,
+The annular pressure estimate gives, after subtracting annular means
+`c_k(t)` with `\nabla c_k(t)=0`,
 
 ```math
 \|p\|_{L^2(A_k)}

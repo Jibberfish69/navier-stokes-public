@@ -47,7 +47,15 @@ The relevant theorem-facing file is
 `mpp-asac-parent-drain-assembly-20260506.md`.  Thus this branch should now
 consume `ASAC.A` instead of listing `TPNI.A` as an unresolved live subgate.
 
-`TerminalSignedSaturation.A` remains the parallel source-wall target.  It would recover or price the missing signed counter-edge for each selected positive terminal source edge.
+`TerminalSignedSaturation.A` remains the parallel source-wall target.  Its exact content must attach to each selected positive terminal source edge either a signed counter-edge at the same normalization or a legal cost measure:
+
+```math
+d\pi^+(e)\le d\pi^-(e^*)+d\mathcal D_{\mathrm{legal}}(e),
+\qquad
+\sum_e d\mathcal D_{\mathrm{legal}}(e)<\infty.
+```
+
+That edgewise alternative, not generic signed cancellation, is what recovers or prices the missing terminal counter-edge.
 
 ## Assembly verdict
 

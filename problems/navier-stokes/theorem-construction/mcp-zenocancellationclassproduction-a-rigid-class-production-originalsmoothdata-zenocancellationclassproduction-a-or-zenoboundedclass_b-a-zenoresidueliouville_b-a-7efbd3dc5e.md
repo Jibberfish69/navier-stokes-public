@@ -54,7 +54,7 @@ Strong native cancellation means
 \qquad\forall \varphi\ge0.
 ```
 
-This immediately gives `\mu_*^{src}=0`. It also directly contradicts the extracted lower bound. Thus strong native cancellation is already the desired contradiction, not an independently produced class from the surviving Zeno branch.
+This gives `\mu_*^{src}=0`. It also directly contradicts the extracted lower bound. Thus strong native cancellation is already the desired contradiction, not an independently produced class from the surviving Zeno branch.
 
 ## Rigid-class route
 

@@ -49,13 +49,13 @@ Strong native cancellation says
 \qquad \forall \varphi\ge0.
 ```
 
-This immediately implies
+This gives
 
 ```math
 \mu_*^{src}=0.
 ```
 
-It is therefore not an independently produced rigid class. It is the contradiction itself. Producing it from a surviving Zeno branch would already prove the source-pulse exclusion theorem.
+It is therefore not an independently produced rigid class. It is the contradiction itself. Producing it from a surviving Zeno branch is exactly a proof of the source-pulse exclusion theorem.
 
 ## Rigid-class production test
 

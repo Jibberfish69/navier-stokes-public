@@ -1,6 +1,6 @@
 # Whole-Space Export / Localization Theorem Attempt
 
-Status: failed as an immediate export theorem. The whole-space branch remains separate.
+Status: failed as a direct export theorem. The whole-space branch remains separate.
 
 ## Target
 

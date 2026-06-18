@@ -28,7 +28,7 @@ The shell coercivity relation is
 D_N\ge 2^{2N}E_N.
 ```
 
-Young absorption gives
+The Young-margin split gives
 
 ```math
 A_NE_N

@@ -54,7 +54,7 @@ Then
 ```
 
 So `\mathcal K_r` is nonincreasing.
-If blowup would force `\Psi_r[u(t)]\to\infty`, then `(2)` already rules it
+If blowup forces `\Psi_r[u(t)]\to\infty`, then `(2)` already rules it
 out, because the same quantity that would have to blow up is being driven
 monotonically downward.
 

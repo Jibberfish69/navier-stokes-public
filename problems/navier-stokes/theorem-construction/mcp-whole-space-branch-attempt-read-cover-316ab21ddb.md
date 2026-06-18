@@ -1,6 +1,6 @@
 # Whole-Space Branch Attempt
 
-Status: failed as an immediate branch extension. The whole-space problem remains a separate branch.
+Status: failed as a direct branch extension. The whole-space problem remains a separate branch.
 
 ## Target
 

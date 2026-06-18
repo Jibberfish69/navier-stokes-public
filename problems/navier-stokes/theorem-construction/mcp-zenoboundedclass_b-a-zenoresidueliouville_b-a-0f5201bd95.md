@@ -30,7 +30,7 @@ This is stronger than bare local suitable compactness.  It is still compatible w
 
 ## Direct Liouville failure for B_ASAC
 
-The terminal-layer model
+The endpoint time-marginal witness
 
 ```math
 d\mu_m^{src}(y,s)=\rho(y)m\mathbf 1_{(-1/m,0]}(s)dyds
@@ -81,7 +81,7 @@ which is the failed `TerminalSourceReverseHolder_{B_ASAC}.A` supplier.
 
 Finite global ancient energy, Type I control, critical smallness, bounded vorticity/strain, self-similarity, and two-dimensional or axisymmetric structure are not produced by the Zeno extraction.
 
-A source-cancellation class gives residue Liouville immediately, but producing it is equivalent to the native positive source-depletion theorem.
+A source-cancellation class packages residue Liouville tautologically, but producing it is equivalent to the native positive source-depletion theorem.
 
 A no-incoming/backward-uniqueness route would need new class-specific inputs:
 

@@ -6,7 +6,8 @@ Failed from current inputs.
 
 ## Target
 
-Prove vanishing incoming lateral flux through strain-transported backward cylinders. A representative form is
+Prove vanishing incoming lateral flux through strain-transported backward
+cylinders. One sufficient target form is
 
 ```math
 \lim_{R\to\infty}\limsup_{s_0\to-\infty}
@@ -35,7 +36,15 @@ FirstPulse.NoParent:
 
 This license controls the selected positive source-residue ancestry graph. It gives no global bound for all kinetic energy crossing transported lateral boundaries.
 
-Local energy compactness controls fixed cylinders. Transported no-flux requires uniform tightness as the transported cylinder radius tends to infinity and the initial time tends to minus infinity. The terminal Zeno rescaling also weakens global energy control, since global `L^2` energy scales like the inverse of the shrinking radius.
+Local energy compactness controls fixed cylinders. Transported no-flux requires uniform tightness as the transported cylinder radius tends to infinity and the initial time tends to minus infinity. Under the terminal Zeno rescaling `u_m(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s)`,
+
+```math
+\|u_m(s)\|_{L^2(\Omega_m)}^2
+=
+r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2(\Omega)}^2
+```
+
+on the corresponding rescaled domain.  Thus local energy control does not supply a uniform global ancient-energy bound for the transported no-flux theorem.
 
 ## Result
 

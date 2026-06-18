@@ -107,11 +107,11 @@ theorem debt may be read as:
 \textbf{(L-Flux)}.
 ```
 
-That same note records the key limitation: this exactness mechanism is most
-faithful on the signed lifted-band defect channel before the positive
-majorization `\Pi_N^{lift}` is introduced. So the cocycle route should be read
-as a structural guide to the signed commutator layer, not as proof that the
-already-positivized majorant automatically retains the same cancellation.
+That same note records the key limitation: this exactness mechanism is faithful
+on the signed lifted-band defect channel before the positive majorization
+`\Pi_N^{lift}` is introduced.  The cocycle route is therefore a structural guide
+to the signed commutator layer only; it does not prove that the
+already-positivized majorant retains the same cancellation.
 
 The note `signed-lifted-band-scale-descent-identity.md` now makes that precise:
 after replacing dyadic shells by a continuous LP family, the signed lifted
@@ -138,7 +138,7 @@ for some `\sigma>0`, `\delta>0`, `C_*>0`, and all `N\ge N_*`.
 ## Proposition-Level Consequence
 
 If the coupled bound for `\mathcal J_N^{lift}` held, then the lifted gradient
-packet would close immediately. In particular, the stronger sufficient package
+packet would close directly. In particular, the stronger sufficient package
 `(MSI)` also yields the required integrated closure:
 
 ```math
@@ -196,7 +196,7 @@ kernel, or better the coupled commutator functional itself, into a spacetime
 remainder at the same dyadic scale `2^{-2\delta N}` as the Body `1` tail
 barrier.
 
-The all-scale frequency-transfer inefficiency theorem would be a strictly
+The all-scale frequency-transfer inefficiency theorem is a strictly
 stronger source for this local target; `(MSI)` is the packet-level theorem
 actually needed by the present four-body route. The new reduction note
 `upper-tail-kernelized-dissipation-theorem.md` sharpens the remaining upstream

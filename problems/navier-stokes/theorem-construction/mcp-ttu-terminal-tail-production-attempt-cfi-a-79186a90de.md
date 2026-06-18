@@ -49,7 +49,18 @@ This proves compact-window retained admission. It supplies no uniform terminal-t
 \sum_j\|p\|_{L^1_t C^{m+1,\alpha}(B(c_j(t),2\rho))}<\infty.
 ```
 
-This is continuation-grade information. Original smooth data gives this only on compact subintervals beneath `T_*`. A proof on the terminal tail would already supply the retained local smoothness needed to read out a continuation norm.
+This is continuation-grade information. Original smooth data gives it only on compact subintervals beneath `T_*`. The terminal-tail theorem must supply the same bound on `[t_0,T_*)`, together with the terminal Lipschitz or pack-native strain integral needed for the retained readout:
+
+```math
+\sum_j\|u\|_{L^1_t C^{m+2,\alpha}(B(c_j(t),2\rho))}
++
+\sum_j\|p\|_{L^1_t C^{m+1,\alpha}(B(c_j(t),2\rho))}
++
+\int_{t_0}^{T_*}\|\nabla u(s)\|_{L^\infty(Q_s)}ds
+<\infty.
+```
+
+Once this package is proved, the retained local smoothness gives the continuation norm. Compact-window classical smoothness alone gives no uniform implication as `T_0\uparrow T_*`.
 
 ## Terminal pack gauge
 

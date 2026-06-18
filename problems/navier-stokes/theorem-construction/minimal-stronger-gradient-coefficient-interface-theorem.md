@@ -305,10 +305,10 @@ C_{\mu,*}'\,2^{-2\delta N},
 \tag{CM1}
 ```
 
-for a harmless modified constant `C_{\mu,*}'`.
+for the modified constant `C_{\mu,*}'` fixed by `(CM1)`.
 
 So a Carleson / tent-space theorem for the measure `d\mu_N
-=\widetilde\Lambda_N^\sharp E_N\,dt` is not just heuristic packaging. It is an
+=\widetilde\Lambda_N^\sharp E_N\,dt` is not just motivational packaging. It is an
 exact sufficient theorem surface for the upgraded fourth bridge.
 
 ## Interface With The Fixed-Collar Far-Corona Route
@@ -330,7 +330,7 @@ C\,\widetilde\Lambda_N^\sharp(t)\,E_N(t).
 \tag{GF}
 ```
 
-Therefore any interval theorem of the form `(CM)` immediately upgrades that
+Therefore any interval theorem of the form `(CM)` upgrades that
 absorbed shell-pair family into a true endpoint estimate. This is the exact
 place where the external tent-space / Carleson ideas can couple to the current
 lane, and it also shows why amplitude-free shellwise absorption was the wrong

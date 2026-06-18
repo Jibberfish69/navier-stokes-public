@@ -14,13 +14,13 @@ ZenoAncestryQuantization.A:
 \text{each terminal source refill spends quantized heat-time, donor reserve, or branch complexity.}
 ```
 
-Such a theorem would imply
+The exact downstream implication is
 
 ```math
 TerminalLayerTimeThickness.A
 ```
 
-and hence
+and then
 
 ```math
 TerminalSourceReverseHolder.A.
@@ -30,9 +30,15 @@ TerminalSourceReverseHolder.A.
 
 Same-fluid ancestry gives legal packet lineage.  It does not give a scale-independent lower bound on heat-time duration.  A Zeno sequence can pass through windows whose heat-times form a convergent series.
 
-A quantized donor reserve per refill would close the branch, but current donor balance pays finite and non-Zeno refill.  The terminal Zeno branch can keep first-moment donor cost finite.
+A quantized donor reserve per refill closes the branch only if every legal refill carries a scale-normalized lower cost `d\mathfrak d_m\ge c_0>0`. Then infinitely many Zeno refills force `\sum_m d\mathfrak d_m=\infty`. Current donor balance prices finite and non-Zeno refill; the terminal Zeno branch can keep first-moment donor cost finite.
 
-A branch entropy reserve would charge diffuse parent clouds.  That again requires a scale-normalized reserve, equivalent in strength to the active-square/tree reserve already isolated.
+A branch entropy reserve must give a scale-normalized charge such as
+
+```math
+\sum_P H(\pi_P)\,d\mathfrak c_P\le C
+```
+
+while diffuse parent clouds have `H(\pi_P)\sim\log M`. This is the active-square/tree reserve already isolated; it is not a consequence of same-fluid ancestry alone.
 
 ## Result
 

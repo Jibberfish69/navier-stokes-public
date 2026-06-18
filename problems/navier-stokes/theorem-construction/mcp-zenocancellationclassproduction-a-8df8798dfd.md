@@ -18,7 +18,7 @@ and
 ZenoBoundedClass_{\mathcal B}.A\Longrightarrow ZenoResidueLiouville_{\mathcal B}.A.
 ```
 
-Then the inherited positive source residue from Zeno compactness would contradict the residue Liouville theorem.
+Class production plus residue Liouville gives `\mu_*^{src}=0`, contradicting the inherited positive source residue from Zeno compactness.
 
 ## Extracted object
 

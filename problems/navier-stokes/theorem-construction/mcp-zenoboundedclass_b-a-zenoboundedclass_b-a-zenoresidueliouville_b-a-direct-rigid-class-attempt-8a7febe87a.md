@@ -50,7 +50,21 @@ The available compactness is local: local energy inequality, local pressure deco
 
 ### 1. Finite global ancient energy
 
-A finite global energy class would support stronger compactness and possible Liouville inputs.  But Zeno rescaling of a local packet does not preserve a uniform global ancient energy bound.  Under parabolic blowup, global energy scales like the inverse length scale on larger rescaled domains, and the terminal Zeno extraction is only locally controlled.
+Finite global ancient energy is a usable rigid class only after proving
+
+```math
+\sup_{m,s}\int_{\Omega_m}|u_m(y,s)|^2dy<\infty.
+```
+
+Zeno rescaling of a local packet does not preserve that bound from original finite energy.  For `u_m(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s)`,
+
+```math
+\int_{\Omega_m}|u_m(y,s)|^2\,dy
+=
+r_m^{-1}\int_{\Omega}|u(x,t_m+r_m^2s)|^2\,dx
+```
+
+on corresponding domains.  The terminal Zeno extraction is only locally controlled, so finite global ancient energy is an additional rigid-class hypothesis rather than a consequence of the local packet extraction.
 
 Therefore
 
@@ -74,13 +88,13 @@ Thus Type I membership is not produced.
 
 ### 3. Critical-smallness class
 
-Critical smallness would allow an epsilon-regularity or Liouville argument.  But the selected Zeno object carries nonzero normalized source residue.  A class strong enough to force critical smallness would already preclude the selected residue and hence would assume the desired conclusion.
+Critical smallness licenses an epsilon-regularity or Liouville argument only after an independent bound below the critical threshold is proved on the selected limit.  The selected Zeno object carries nonzero normalized source residue.  A produced class that forces critical smallness on that same object precludes the selected residue and hence assumes the desired conclusion.
 
 Thus critical smallness is circular as a produced class.
 
 ### 4. Bounded vorticity / bounded strain class
 
-A bounded vorticity or bounded strain class would imply strong regularity.  Original smooth data gives such bounds only on compact preterminal windows.  The Zeno sequence approaches the terminal endpoint at shrinking scales; no uniform bound survives the rescaling from the currently installed inputs.
+A bounded vorticity or bounded strain class licenses strong regularity only after proving a uniform bound for the rescaled ancient sequence.  Original smooth data gives such bounds only on compact preterminal windows.  The Zeno sequence approaches the terminal endpoint at shrinking scales; no uniform bound survives the rescaling from the currently installed inputs.
 
 Thus bounded vorticity/strain is not inherited.
 
@@ -92,7 +106,7 @@ Thus these rigid classes are unavailable.
 
 ### 6. Source-cancellation class
 
-A source-cancellation class would assert that the source residue vanishes or has enough signed cancellation in the limit.  But the selected object is built precisely to retain positive localized source residue.  Producing this class would be equivalent to proving the desired source-wall theorem.
+A source-cancellation class asserts that the source residue vanishes, or that signed cancellation controls the native positive residue measure, in the selected limit.  The selected object is built precisely to retain positive localized source residue.  Producing that class is equivalent to proving the desired source-wall theorem unless an independent compactness or monotonicity law supplies the cancellation.
 
 Thus source-cancellation is not an independent class.
 

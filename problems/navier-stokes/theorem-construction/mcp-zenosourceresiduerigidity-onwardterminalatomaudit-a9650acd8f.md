@@ -151,7 +151,7 @@ Terminal support exclusion would require
 
 This is exactly temporal anti-concentration.
 
-A monotone ancestry rank would need every Zeno source-refill edge to lower a finite rank or spend quantized finite reserve.  Scale rank fails, time-depth rank fails because
+A monotone ancestry rank requires every Zeno source-refill edge to lower a finite rank or spend quantized finite reserve.  Scale rank fails, time-depth rank fails because
 
 ```math
 \sum_m r_m^2<\infty,

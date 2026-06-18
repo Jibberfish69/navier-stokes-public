@@ -13,7 +13,8 @@ Prove a uniform estimate
 \qquad p>1.
 ```
 
-This would imply temporal non-atomicity of the source-residue limit.
+This implies temporal non-atomicity of the source-residue limit by the estimate
+`\mu_m^{src}(B_R\times[-\varepsilon,0])\le C_R\varepsilon^{1-1/p}`.
 
 ## Attempt
 
@@ -29,7 +30,13 @@ That gives the target with `p=2`.
 
 The boot-square multiplier route gives the same conclusion under compatible higher integrability of the boot multiplier and residual source factor. The current source surfaces record this as conditional: the multiplier and residual factors need an `L^p`, `p>2`, or Holder-compatible pair of bounds. Those inputs remain open on selected terminal packets.
 
-The heat-scale square-source surface gives the sharp obstruction. Active-shell source normalization would imply square-source control, which would imply this target. The source-normalization theorem remains the active source wall.
+The heat-scale square-source surface gives the sharp obstruction. The exact supplier needed on the selected packets is
+
+```math
+\int_{-1}^{0}\left(\int F_n^{src,+}(y,s)dy\right)^2ds\le C
+```
+
+with `C` independent of `n`. This estimate gives the target with `p=2`, and the displayed `p>1` bound then rules out terminal source atoms. Active-shell source normalization helps only if it proves this same heat-scale temporal bound; the source-normalization theorem remains the active source wall.
 
 ## Result
 

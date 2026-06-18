@@ -12,7 +12,7 @@ OriginalSmoothData
 \Longrightarrow PCTP.hard / TTU.A.
 ```
 
-The immediate theorem-facing attack is the signed terminal source route. The goal is to eliminate the singular native positive active source component by proving that terminal heat-scale blowups flatten the lifted weights enough to recover the unweighted dyadic exchange antisymmetry in the tangent limit.
+The current theorem-facing attack is the signed terminal source route. The goal is to eliminate the singular native positive active source component by proving that terminal heat-scale blowups flatten the lifted weights enough to recover the unweighted dyadic exchange antisymmetry in the tangent limit.
 
 ## Candidate theorem: `TW.RIG.A`
 
