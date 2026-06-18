@@ -166,7 +166,7 @@ Together with the finite-family lift, this yields `(MS^\sharp)` for the
 installed moving-spill family, and it yields `(UB^\sharp)` for the upper boundary
 after `(UB\text{-}fam)` and the collar-residual bound are written.
 The coefficient term is then included in the installed weighted carrier, and so
-is killed only as a separate barrier-scale burden, by
+is removed only as a separate barrier-scale burden, by
 [same-scale-coefficient-kill-into-weighted-carrier-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md):
 
 ```math
@@ -194,7 +194,8 @@ antisymmetry.
 The exact family-lift step is now formalized in
 [same-scale-family-lift-lemma.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-family-lift-lemma.md):
 once the upper-boundary collar integral is written as an explicit finite
-same-scale edge family and the uniform edge-family hypothesis `(SS-model)` is
+same-scale edge family and the coefficient-free edge-family hypothesis
+`(SS\text{-}edge)` is
 available, the lift to `(UB)` and `(MS)` is a finite summation argument.
 
 ## Exact upper-boundary condition for `(SS)`
@@ -266,8 +267,8 @@ The dependency order is:
 
 The finite-family lift itself is now written out explicitly in
 [same-scale-family-lift-lemma.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-family-lift-lemma.md):
-once the upper boundary is written as a finite edge family and the uniform
-edge-family hypothesis `(SS-model)` is available, `(UB)` and `(MS)` follow by
+once the upper boundary is written as a finite edge family and the coefficient-free
+edge-family hypothesis `(SS\text{-}edge)` is available, `(UB)` and `(MS)` follow by
 finite summation.
 
 So the route is
@@ -280,7 +281,7 @@ So the route is
 \text{finite frozen edge family plus admissible collar residual}
 \\
 &\Longrightarrow
-\text{weak model theorem }(SS^\sharp)\text{ plus finite lift}
+\text{coefficient-bearing theorem }(SS^\sharp)\text{ plus finite lift}
 \\
 &\Longrightarrow
 \text{coefficient term included in }\widetilde\Lambda_N^\sharp E_N
