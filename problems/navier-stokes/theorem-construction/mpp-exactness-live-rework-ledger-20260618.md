@@ -1431,6 +1431,71 @@ Edited live surface:
 
 - `theorem-construction/weighted-exact-projection-resonant-shell-bilinear-theorem-candidate.md`.
 
+## Continuation And High-Regularity Standard-Step Rework
+
+Old loose step:
+
+- `theorem-construction/d2-global-coercive-energy-estimate.md` said the
+  strengthened continuation corollary followed from the "standard semilinear
+  continuation criterion."
+- `theorem-construction/mpp-esns-next-targets-expanded-proof-audit-20260506.md`
+  invoked the "standard Kato-Ponce / commutator estimate" in the proof of
+  `(ESA.3)`.
+- `theorem-construction/regularity-upgrade-schemas.md` said a bounded
+  \(L^1_tL^\infty_x\) gradient gives continuation by the "standard
+  high-regularity estimate."
+
+Exact replacement:
+
+The abstract `D.2.3` continuation step now states the finite norm
+
+```math
+M_N:=\sup_{t<T^\ast}\|X(t)\|_{\mathcal N}<\infty,
+```
+
+the local lifespan `\tau_N(M_N)>0`, relaunch times
+`t_j\uparrow T^\ast` with `T^\ast-t_j<\tau_N/2`, and uniqueness on the overlap.
+The `D.2` coercive estimate supplies or preserves the bound; it does not
+replace the local lifespan/uniqueness theorem.
+
+The ESNS note now spends the displayed Kato--Ponce commutator inequality itself
+for `s>5/2` and fixes the Young term in the forcing estimate. The regularity
+schema now spends the exact inequality
+
+```math
+\frac{d}{dt}\|u(t)\|_{H^s}
+\le
+C\|\nabla u(t)\|_{L^\infty_x}\|u(t)\|_{H^s}
+```
+
+and Gronwall's bound
+
+```math
+\sup_{0\le t\le T}\|u(t)\|_{H^s}
+\le
+\|u_0\|_{H^s}
+\exp\!\left(
+C\int_0^T\|\nabla u(t)\|_{L^\infty_x}\,dt
+\right),
+```
+
+followed by the \(H^s\), \(s>5/2\), local lifespan and overlap uniqueness
+relaunch.
+
+Downstream consequence: continuation consumers may spend bounded
+`\mathcal N`, Kato--Ponce, or \(L^1_tL^\infty_x\) gradient control only through
+these displayed inequalities plus the local lifespan and uniqueness mechanism.
+Generic "standard continuation" language no longer carries proof force.
+
+Edited live surfaces:
+
+- `theorem-construction/d2-global-coercive-energy-estimate.md`;
+- `theorem-construction/mpp-esns-next-targets-expanded-proof-audit-20260506.md`;
+- `theorem-construction/regularity-upgrade-schemas.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
