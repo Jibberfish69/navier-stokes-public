@@ -236,7 +236,7 @@ additional classical remainder analysis.
 
 On the already realized classical carrier, Theorem `R4` makes the readout the
 identity, so `(A1a)` full-data lift coverage and `(A1b)` exact strict shadow
-collapse automatically. On that realized subbranch, Route `A` reduces to the
+collapse by identity readout. On that realized subbranch, Route `A` reduces to the
 single burden `(A1c)` global carrier control.
 
 ## IV. NC weaker shadow ladder

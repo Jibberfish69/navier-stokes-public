@@ -80,7 +80,8 @@ first square-reserve pulse
 
 A first `R_N` pulse only gives large current height. Large `H_N` may have
 existed on earlier very thin sets without creating past square-reserve mass.
-Therefore a first square-reserve pulse does not automatically make:
+Therefore a first square-reserve pulse creates first-time donor height only
+after the height source is localized to that first reserve event:
 
 ```math
 \left[

@@ -161,8 +161,8 @@ A proof must account for:
    pressure depth;
 4. donor drain and payment, measured in residual refill currency;
 5. the rescaled annular profile on fixed annuli in cone variables;
-6. the fact that finite physical energy is discounted and does not automatically
-   imply unweighted scale-critical control.
+6. the fact that finite physical energy is discounted and implies unweighted
+   scale-critical control only after a discount-removal theorem.
 
 Gold acceptance:
 

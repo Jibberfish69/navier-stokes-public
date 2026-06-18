@@ -496,7 +496,7 @@ TemporalNonAtomicSource.A
 
 from inputs not already equivalent to `ScaleCriticalTreeCarleson.A`.
 
-The full Option B run sharpens this further.  The automatically produced class
+The full Option B run sharpens this further.  The produced class
 is:
 
 ```math

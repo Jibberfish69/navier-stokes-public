@@ -62,8 +62,8 @@ face failure must first appear only at `T_*`.
 This reasoning is the invalid step. It treats terminal class-exit as something
 that must be reflected backward before it can serve the CM contrapositive. That
 changes the proof program. In the CM contrapositive, the terminal face failure
-is the witness of `Exit(Q_*):=not Member(Q_*)`; it is not automatically a defect
-that must occur on an earlier still-live member window.
+is the witness of `Exit(Q_*):=not Member(Q_*)`; it becomes an earlier still-live
+member-window defect only after a backward-reflection theorem.
 
 ### Pack Face
 

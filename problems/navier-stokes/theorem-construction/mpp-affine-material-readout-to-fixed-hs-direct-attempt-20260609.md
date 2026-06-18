@@ -69,7 +69,8 @@ kappa(J)=||J|| ||J^{-1}||
 ```
 
 can still be arbitrarily large.  The affine metric is therefore a valid packet
-metric, not automatically a fixed Euclidean readout metric.
+metric; it becomes a fixed Euclidean readout metric only after a fixed-coordinate
+readout theorem.
 
 The pointwise class readout theorem proves fixed-coordinate continuation only
 after the retained witness includes `Pack_Q`, because Pack supplies bounded

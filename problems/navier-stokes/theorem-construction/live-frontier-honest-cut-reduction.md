@@ -130,7 +130,7 @@ once the exact strict-shadow hypotheses hold, both `\mathrm{ShadowDef}(X)` and
 `E_{\mathrm{sh}}(X)` vanish identically. The remaining Route A burdens are then
 only `(A1a)` full-data lift coverage, `(A1b)` exact Euclidean strict shadow, and
 `(A1c)` global Euclidean carrier control. Moreover, on the realized classical
-carrier, `(A1a)` and `(A1b)` collapse automatically, leaving only `(A1c)` on
+carrier, `(A1a)` and `(A1b)` collapse by identity readout, leaving only `(A1c)` on
 that realized subbranch. So this branch remains mathematically real, but it is
 secondary whole-space discharge context rather than the primary TPS-branch
 theorem wall. ∎

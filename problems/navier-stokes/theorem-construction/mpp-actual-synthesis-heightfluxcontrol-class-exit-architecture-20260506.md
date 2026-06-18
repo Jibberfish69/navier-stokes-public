@@ -204,9 +204,10 @@ where `M_N(W)` is the first-moment donor tail.
 
 Energy can make `M_N(W)` small.  A square pulse can still survive if
 `H_N(W)` becomes huge.  Therefore first-time reserve creation requires large
-donor height.  It is not automatically first-time donor-height creation; the
-attempted first-height dichotomy is not independent and collapses back to the
-structural `HeightFluxControl.A` problem.
+donor height.  It is first-time donor-height creation only after the height
+source is localized to that first reserve event; the attempted first-height
+dichotomy is not independent and collapses back to the structural
+`HeightFluxControl.A` problem.
 
 The sharpened direct route is:
 

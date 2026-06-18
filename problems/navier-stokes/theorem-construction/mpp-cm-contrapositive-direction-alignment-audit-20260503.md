@@ -66,7 +66,8 @@ CM+\text{same-fluid still-live family}+\neg Blown+\neg Jump
 \Longrightarrow CM.
 ```
 
-This is not automatically a primitive-production theorem.
+This is a primitive-production theorem only after the same-solution primitive
+production bridge is supplied.
 
 `D5` analytic supplier / receiver:
 
