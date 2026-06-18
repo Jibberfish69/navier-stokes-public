@@ -8,7 +8,7 @@ the exact language the lane now supports.
 It separates three things that were getting blurred together:
 
 1. the exact continuum theorem debt;
-2. the immediate local work surface;
+2. the local work surface selected by the inherited dyadic reduction;
 3. the bad overestimates and circular shortcuts to avoid.
 
 ## Exact continuum theorem debt
@@ -60,7 +60,7 @@ So the exact continuum theorem debt is:
 \tag{4}
 ```
 
-## Immediate local work surface
+## Local Work Surface Selected By Reduction
 
 The lane does **not** currently prove `(CTS)` directly from inherited Euclidean
 inputs. The direct inherited reduction lands on the dyadic object
@@ -83,13 +83,19 @@ So the correct local reading is:
 ```math
 \text{exact continuum debt} = \mathrm{CTS},
 \qquad
-\text{immediate local work surface} = \mathrm{LPAS}.
+\text{local work surface selected by the inherited dyadic reduction} = \mathrm{LPAS}.
 \tag{6}
 ```
 
 That matches the current working note: the preferred route remains the
 continuum cumulative-tail stress theorem, while the actual theorem-crank
 surface for local Hardy/Volterra work is its dyadic shadow.
+
+Exactness consequence: `LPAS` is not accepted because it has the same scale or is
+used as an unproved local proxy for `CTS`.  It is usable only after the displayed reduction
+from the coupled density `\mathcal A_{\ell,r}` through the lower-prefix dyadic
+object `(5)`.  Any proof that bypasses that reduction has to work directly with
+the two-scale `CTS`/`FCTS`/`Car` chain.
 
 ## Execution order
 
@@ -375,7 +381,7 @@ m\in\mathcal B_I(N),\ j\in\mathcal B_J(N),
 ```
 
 with constants uniform in the finitely many collar indices, where `C_{I,J}` is a
-harmless collar-width constant. So the fixed-band endpoint route has been reduced
+fixed collar-width constant. So the fixed-band endpoint route has been reduced
 to a bounded family of local shellwise estimates rather than a moving lower-prefix
 theorem.
 
@@ -520,7 +526,7 @@ absorbs directly into the interval form of `(G^\sharp)`.
 
 So the modern external ideas about shrinking windows and tent-space / Carleson
 control now attach to exact in-repo objects, `\nu_N` and `\mu_N`, rather than
-to heuristic coefficient language.
+to informal coefficient language.
 
 This also exposes the two exact external-facing measure surfaces compatible
 with the current upgraded bridge.

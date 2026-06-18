@@ -60,7 +60,7 @@ Every spill interaction contains one threshold-strip factor with dyadic index
 N-M\le m\le N+M.
 ```
 
-A representative term has the form
+One spill term under test has the form
 
 ```math
 \left\langle\Delta_j(\Delta_m u\cdot\nabla u_{[j]}),-\Delta\Delta_j u\right\rangle.

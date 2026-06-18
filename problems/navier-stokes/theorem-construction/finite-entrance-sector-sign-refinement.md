@@ -60,8 +60,8 @@ separate entrance-assignment theorem.
 
 By `TPS-sign-ent`, the reserve-sign packet survives on the entrance-sector
 refined carrier. The assignment rule is exactly the entrance-compatibility
-hypothesis used on the selector side, so the entrance-compatible refinement
-follows immediately. ∎
+hypothesis used on the selector side, so the entrance-compatible refinement is
+the same assignment rule on the refined carrier. ∎
 
 ## Interpretation
 

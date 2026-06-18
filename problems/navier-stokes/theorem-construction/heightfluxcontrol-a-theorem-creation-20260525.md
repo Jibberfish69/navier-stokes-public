@@ -93,7 +93,7 @@ HeightFluxControl.A. Turn the remaining positive source-reserve birth charge int
 16. Recursive solver step for LowStrainBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 17. Recursive solver step for LowStrainBVCharge.A: Use problems/navier-stokes/agent-contract.yaml:175 as source support for installed dynamic support.
 18. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Keep the near-band and frame terms on the same retained terminal ledger.
-19. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Absorb subparabolic near-band heat variation by the heat-rate gain.
+19. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Pay subparabolic near-band heat variation by the explicit `C_L theta H_W` bound with `theta <= eta_abs/C_L`.
 20. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Route non-subparabolic near-band amplitude into parabolic-rate burst height.
 21. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Reduce the unabsorbed source/frame remainder to NearBandMaterialSourceCharge.A plus FrameBVCharge.A.
 22. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.

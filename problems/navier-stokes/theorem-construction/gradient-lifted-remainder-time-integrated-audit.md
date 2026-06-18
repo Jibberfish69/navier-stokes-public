@@ -29,7 +29,7 @@ C_*2^{-2\delta N}.
 
 If `(I)` were available, it would be compatible with the upgraded gradient-side
 interface because the lifted remainder would then contribute only an
-absorbable-plus-summable term.
+coefficient-margin-plus-summable term.
 
 ## Exact Packet Geometry
 

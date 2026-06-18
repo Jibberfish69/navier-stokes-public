@@ -64,7 +64,7 @@ Satisfied locally: Euclidean fourth bridge promoted; curvature branch deprecated
 
 ## What The Current Corpus Provides
 
-- The source family clearly identifies the fourth bridge as curvature-based regularity.
+- The source family points to the fourth bridge as curvature-based regularity.
 - The lane-local theorem construction now identifies the Euclidean gradient package as theorem-primary.
 - The source-forensics reconstruction now makes the mismatch explicit rather than leaving it buried in drifted summaries.
 

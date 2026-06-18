@@ -118,7 +118,11 @@ Hence the finite low-shell block enters the same lower-order ledger as the colla
 
 ### Proof
 
-From `FLSC.1`, each positive residual is bounded by `A_j^{low}(I_j)`. Taking the maximum gives `FLSC.6`. Under `FLSC.7`, `FLSC.3` follows immediately. Under `FLSC.10`, use `FLSC.8` and take the maximum over the finite block to obtain `FLSC.7`. ∎
+From `FLSC.1`, each positive residual is bounded by `A_j^{low}(I_j)`. Taking
+the maximum gives `FLSC.6`. Under `FLSC.7`, `FLSC.3` bounds each
+`A_j^{low}(I_j)` by `C_{low}\Phi(\mathcal E_D(X))`, so `FLSC.6` becomes
+`FLSC.11`. Under `FLSC.10`, use `FLSC.8` and take the maximum over the finite
+block to obtain `FLSC.7`. ∎
 
 ## Boundary
 

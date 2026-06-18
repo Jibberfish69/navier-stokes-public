@@ -58,7 +58,22 @@ F(t)=c\nu2^{2j}A,
 D(t)=2^{2j}A.
 ```
 
-The source estimate has the same scale as the dissipation term and permits fixed amplitude `A` inside the small coefficient budget.
+For this model the source estimate measures the first moment of the shell
+amplitude:
+
+```math
+\int_I |F(t)|\,dt
+=
+c\nu2^{2j}A|I|,
+\qquad
+\nu\int_I D(t)\,dt
+=
+\nu2^{2j}A|I|.
+```
+
+Thus source-mass control is linear in `A` and carries the same dyadic factor
+`2^{2j}` as the dissipative first moment.  It does not contain the quadratic
+amplitude factor required below.
 
 But the active-square term is
 

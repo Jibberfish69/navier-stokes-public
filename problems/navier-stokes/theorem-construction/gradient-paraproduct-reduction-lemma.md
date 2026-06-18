@@ -86,7 +86,7 @@ C\Lambda_N(t)E_N(t)+\frac{\eta\nu}{8}D_N(t).
 
 ## Proof
 
-The standard dyadic commutator estimate gives
+The dyadic commutator estimate gives
 
 ```math
 \|[\Delta_j,a_N\cdot\nabla]u_{[j]}\|_2

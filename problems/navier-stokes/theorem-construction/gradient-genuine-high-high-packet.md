@@ -75,9 +75,9 @@ C_\varepsilon 2^{-2j}\|\nabla\omega\|_{L^2_x}^2.
 ```
 
 That formulation makes explicit that the true unresolved point is not raw
-high-frequency damping by itself, but the absorbable-plus-summable control of
-the genuine high-high cascade after the low/high decomposition has been carried
-out.
+high-frequency damping by itself, but the coefficient-margin-plus-summable
+control of the genuine high-high cascade after the low/high decomposition has
+been carried out.
 
 ## Honest Boundary
 

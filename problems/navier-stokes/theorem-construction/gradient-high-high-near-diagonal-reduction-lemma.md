@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note records the genuine gradient-side high-high commutator packet after the strict low-mode and threshold-local spill collar have been separated. It fixes the gradient-energy convention and the Bernstein powers feeding the absorption lemma.
+This note records the genuine gradient-side high-high commutator packet after the strict low-mode and threshold-local spill collar have been separated. It fixes the gradient-energy convention and the Bernstein powers feeding the coefficient-margin lemma.
 
 ## Convention
 

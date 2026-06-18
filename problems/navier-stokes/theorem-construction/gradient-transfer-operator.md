@@ -89,7 +89,7 @@ lands on the stronger fixed-cutoff low-strain coefficient
 ```
 
 So the live theorem question is no longer whether that stronger coefficient is
-just a heuristic artifact. The current shell computation really produces it. To
+just a mnemonic artifact. The current shell computation really produces it. To
 return Proposition `6.1` to the declared weaker `\mathcal L_N` surface, the
 lane now needs an additional low-mode strain suppression input or a genuinely
 new cancellation beyond the present shell algebra. The fallback fixed-cutoff
@@ -116,8 +116,8 @@ upgraded interface, the remaining live burden is now the lifted high-side
 remainder plus full proposition-level genuine high-high propagation.
 
 This asymmetry is specific to the gradient surface. On the local tail-energy
-surface there is one fewer high derivative, so the fixed-gap kernel gain can
-still plausibly return the strict low-mode packet to the declared
+surface there is one fewer high derivative, so the fixed-gap kernel gain may
+still return the strict low-mode packet to the declared
 `\mathcal L_N` coefficient.
 
 The exact same-surface rescue input already isolated in source recovery is the

@@ -378,8 +378,19 @@ c_D\,\mathcal D_D(X)
 C\,\Psi(\mathcal E_D(X)).
 ```
 
-This is the direct H.1 completion used to finish the D.2 hinge on the current
-theorem surface.
+On the certified closure class below, `\Psi(\mathcal E)=\mathcal E`; hence this
+is the linear Gronwall inequality
+
+```text
+\frac{d}{dt}\mathcal E_D(X)
++
+c_D\,\mathcal D_D(X)
+\le
+C\,\mathcal E_D(X).
+```
+
+The D.2 hinge closes only with that closure class and the carrier coercivity
+constant `c_D` retained on the same theorem surface.
 
 ## Certified Hypothesis H
 

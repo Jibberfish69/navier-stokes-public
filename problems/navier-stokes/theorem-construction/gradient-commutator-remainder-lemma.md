@@ -2,7 +2,11 @@
 
 ## Purpose
 
-This note records the proposition-level split of the gradient commutator remainder after the high-high packet correction. The genuine high-high slot is now repaired and absorbed by the enstrophy half-tail argument. The remaining theorem work sits in the strict low-mode coefficient and threshold-spill collar slots.
+This note records the proposition-level split of the gradient commutator
+remainder after the high-high packet correction. The genuine high-high slot is
+now repaired by the enstrophy half-tail inequality stated below. The remaining
+theorem work sits in the strict low-mode coefficient and threshold-spill collar
+slots.
 
 ## Setup
 
@@ -80,7 +84,14 @@ The patched `gradient-cubic-tail-absorption-lemma.md` gives, under the enstrophy
 \frac{\eta\nu}{2}D_{N-M}(t).
 ```
 
-After shifting the high-side cutoff by the fixed collar width, this gives the required high-high absorption into `D_N`.
+After shifting the high-side cutoff by the fixed collar width, this gives the
+required high-high contribution to the dissipative side:
+
+```math
+\sum_{j\ge N+M}|HH_j|
+\le
+\frac{\eta\nu}{2}D_N(t).
+```
 
 ## Reassembled conditional theorem
 

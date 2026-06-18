@@ -212,7 +212,7 @@ r_j^{cell}
 \tag{FCP.3f}
 ```
 
-Then `(FCP.3e)` gives the immediate local criterion
+Then `(FCP.3e)` gives the local criterion
 
 ```math
 \boxed{
@@ -343,7 +343,7 @@ M_j^{coeff}(r_j^{cell})^\alpha
 \tag{FCP.3u}
 ```
 
-Then `(FCP-cell)` and `(FCP.3n)` immediately give
+Then `(FCP-cell)` and `(FCP.3n)` give
 
 ```math
 \delta_j^{freeze}\le \varepsilon_j^{freeze}.

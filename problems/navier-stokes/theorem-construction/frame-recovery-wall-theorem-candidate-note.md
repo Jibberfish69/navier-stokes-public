@@ -140,7 +140,7 @@ Its relevance is strong:
 
 Its limitation here:
 
-- the current route needs coefficient control strong enough for `(1)`,
+- the current route needs coefficient control in the explicit form `(1)`,
   not merely recovery up to rigid motion;
 - the NS setting also carries time evolution and integrability constraints.
 
@@ -159,12 +159,13 @@ C_{\mathrm{KornCurl}}\left(
 \tag{9}
 ```
 
-This is highly suggestive for the current wall because:
+This identifies a possible theorem shape, but it supplies no estimate for the
+current wall by itself.  The exact reason it is relevant is:
 
 - metric data alone controls the symmetric/stretch side;
 - the missing piece is the frame/rotation side;
-- the standard upgrade mechanism is exactly an extra incompatibility or gauge
-  term.
+- a Korn/curl-style theorem must add an explicit incompatibility or
+  gauge term that controls that frame/rotation side.
 
 Its limitation here:
 
@@ -172,12 +173,13 @@ Its limitation here:
 - it is an inverse Jacobian with its own transport and Piola-type
   compatibility structure.
 
-So this family should be read as a model for the missing theorem shape, not as
-an already-installed theorem.
+So this family is only a model for the missing theorem shape.  It becomes
+proof-bearing here only after a Navier--Stokes-specific compatibility estimate
+for the inverse-Jacobian frame \(A\) is proved.
 
-## Clean theorem candidate
+## Clean Theorem Candidate
 
-The most plausible missing theorem is therefore:
+The missing theorem selected by this compatibility analysis is:
 
 ```math
 \boxed{
@@ -198,9 +200,9 @@ A,\ \nabla A,\ \nabla^2A\text{ controlled},
 \tag{10}
 ```
 
-strongly enough to imply `(1)`.
+in a form that implies `(1)`.
 
-Equivalently, the theorem would look like
+Equivalently, the theorem target is
 
 ```math
 \boxed{
@@ -246,13 +248,13 @@ G^{1/2}\nabla_a R.
 So once the metric ledger controls `G` and its derivatives, the genuinely new
 unknown is the rotation field `R` and its derivatives.
 
-But `R` is still a derived variable. The actual theorem should be phrased on
-the native frame objects `A` and `F`, because those are where the exact
-Lagrangian identities live.
+But `R` is still a derived variable. The actual theorem is phrased on the
+native frame objects `A` and `F`, because those are where the exact Lagrangian
+identities live.
 
 ### Stage 2. Supply one NS-native compatibility control for the frame
 
-The extra datum should not be an abstract gauge choice. It should come from the
+The extra datum is not an abstract gauge choice. It must come from the
 actual Lagrangian structure:
 
 ```math
@@ -286,8 +288,8 @@ so the frame is constrained by:
    \tag{11f}
    ```
 
-So the correct NS-specific compatibility quantity is not yet fixed, but it
-should be built from one or more of:
+So the correct NS-specific compatibility quantity is not yet fixed. The
+available exact candidates are:
 
 ```math
 \Gamma_1:=\operatorname{Curl}_a F,
@@ -301,7 +303,7 @@ should be built from one or more of:
 In the exact Lagrangian system these are not arbitrary diagnostics; they are
 the natural integrability / transport / Piola constraints of the frame.
 
-Equivalently, the theorem should be stated as
+Equivalently, the theorem target is
 
 ```math
 \boxed{
@@ -315,8 +317,8 @@ G\nabla_aA,\ \nabla_a(G\nabla_aA)\in L^\infty,
 ```
 
 where `\mathcal T_r[A;v]` is built from the exact NS-native constraints
-`(11d)`-`(11f)`. Only after that proposition is in hand should one translate
-it into control of `R,\nabla_aR,\nabla_a^2R` through `A=G^{1/2}R`.
+`(11d)`-`(11f)`. Control of `R,\nabla_aR,\nabla_a^2R` through `A=G^{1/2}R`
+is a downstream corollary only after this proposition is proved.
 
 ### Stage 2.5. Localize the pressure source before asking for the frame window
 
@@ -331,7 +333,7 @@ The derivative tower source
 (\partial_a^\beta A)\,U_{\alpha-\beta}
 ```
 
-should not be treated as a full frequency convolution. The raw statement
+is not treated as a full frequency convolution. The raw statement
 "only same-shell factors contribute" is false, because strict low-high packets
 survive. The correct Littlewood-Paley bridge is the paraproduct split
 
@@ -368,7 +370,7 @@ projection lands on a better ledger for the edge packets.
 
 ### Stage 3. Recover the frame-level coefficient window
 
-The target theorem should then have the form
+The target theorem has the form
 
 ```math
 \|G\nabla_aA\|_{L^\infty}
@@ -432,7 +434,7 @@ Stokes identities.
 
 ## Exact interpretation for the NS route
 
-So the current route should not search for a purely metric theorem of the form
+So the current route does not search for a purely metric theorem of the form
 
 ```math
 \text{metric data alone}\Longrightarrow \text{full frame coefficient window}.
@@ -454,8 +456,7 @@ The correct search is:
 \tag{13}
 ```
 
-In the present lane, that compatibility/gauge input will likely have to come
-from one of:
+In the present lane, the compatibility/gauge input is one of:
 
 1. explicit `A`-ledger control added to the six-lemma mainline;
 2. a frame-recovery theorem from `G` together with integrability / transport
@@ -497,7 +498,7 @@ A=F^{-1},
 \tag{13b}
 ```
 
-This route should be read as the **enlarged A-ledger route**:
+This route is the **enlarged A-ledger route**:
 
 - it does not try to recover the whole frame from `G` alone;
 - it propagates the frame directly and uses the metric ledger only as its
@@ -635,7 +636,7 @@ The missing checks are:
    flatness of the frame, but do not themselves lower the derivative count of
    the top `\mathsf M_1,\mathsf M_2` terms.
 
-So this is a serious candidate route, but it should be viewed as:
+So this is a serious candidate route with the following proof burden:
 
 ```math
 \boxed{
@@ -647,8 +648,8 @@ not as a proved consequence of the current metric-only mainline.
 
 ### Conditional finite-interval frame bootstrap
 
-The current bridge surface is now strong enough to isolate the frame route down
-to one local propagation lemma.
+The current bridge surface now isolates the frame route down to one local
+propagation lemma.
 
 Fix `s>\frac72` and a bounded interval `[0,T]` carrying the adaptive refreezing
 partition from
@@ -895,9 +896,9 @@ Consequently,
 \tag{13zc}
 ```
 
-Because the adaptive partition already makes `E_j^x` small on each slab, a
-standard continuity/Bihari argument closes this bootstrap and yields a
-one-step recursion of the form
+Because the adaptive partition makes `E_j^x` satisfy the smallness condition
+`(13zcb)` on each slab, the continuity/Bihari bootstrap applied to `(13zc)`
+closes and yields a one-step recursion of the form
 
 ```math
 \boxed{
@@ -998,8 +999,8 @@ H\nabla_x^2M
 
 Also `\nabla_xH=(\nabla_xM)M^\top+M(\nabla_xM)^\top`, so every occurrence of
 `\nabla_xH` is lower-order in `K_*+\Gamma_{j,\sup}^x`; the dependence of
-`H^{-1}` and `\nabla_xH^{-1}` on the slab envelope is handled by the standard
-Moser/composition estimates already built into `(13za)`.
+`H^{-1}` and `\nabla_xH^{-1}` on the slab envelope is controlled by the
+Moser/composition estimates included in `(13za)`.
 
 For `\Theta_1`,
 
@@ -1051,8 +1052,8 @@ P_s(K_*+\Gamma_{j,\sup}^x)\,\|w\|_{H_x^{s+1}}.
 Integrating `(13zj)` and `(13zk)` over `I_j` yields `(13zb)` and hence the
 bootstrap inequality `(13zc)`. The one-step recursion `(13zca)` then follows by
 short-slab continuity, using the smallness threshold `(13zcb)` built into the
-adaptive partition. The slab-sup corollary `(13zcc)`-`(13zcd)` is then
-immediate from `(13zca)`.
+adaptive partition. Applying `(13zca)` on each slab of the adaptive partition
+and taking the supremum gives the slab-sup corollary `(13zcc)`-`(13zcd)`.
 
 ### Conditional coefficient-window theorem
 
@@ -1110,9 +1111,9 @@ So the coefficient window is now conditionally closed on bounded-envelope
 finite-dissipation intervals. The remaining global gap is no longer local frame
 propagation; it is only the removal of that interval-level hypothesis.
 
-## Existing analytic machinery that plausibly fits this wall
+## Existing Analytic Machinery Candidate Stack
 
-The most credible existing tool stack is:
+The current candidate tool stack is:
 
 1. **Lagrangian variable-coefficient maximal regularity**, to recover high
    parabolic derivatives of `v` without derivative loss from the operator
@@ -1120,10 +1121,10 @@ The most credible existing tool stack is:
 2. **sharp commutator/product estimates** of Kato–Ponce type, to keep the
    differentiated `\mathsf M_1,\mathsf M_2` equations on the same Sobolev
    ledger;
-3. **BKM-type control principles** only as a heuristic for what the top
-   coefficient norm should depend on, not as the missing theorem by itself.
+3. **BKM-type control principles** only as a guide to permitted dependencies of
+   the top coefficient norm, not as the missing theorem by itself.
 
-The important correction is that maximal regularity should not be stated here as
+The important correction is that maximal regularity must not be stated here as
 “it directly gives `W^{3,\infty}`.” In the present route it is more honest to
 say:
 
@@ -1179,8 +1180,8 @@ the current theorem picture:
   and third derivatives of `v`.
 
 So, if one tries to close the coefficient window by direct propagation of
-`\mathsf M_1,\mathsf M_2`, the natural Sobolev budget in dimension `3` is the
-standard one:
+`\mathsf M_1,\mathsf M_2`, the required Sobolev embedding budget in dimension
+`3` is:
 
 ```math
 H^s(\mathbb R^3)\hookrightarrow W^{k,\infty}(\mathbb R^3)
@@ -1213,9 +1214,9 @@ C_s\left(
 \tag{13m}
 ```
 
-with analogous commutator bounds for differentiated products. This is the
-standard calculus that makes the `\mathsf M_2` product expansions
-regularity-compatible.
+with analogous commutator bounds for differentiated products. These are the
+exact calculus inputs that make the `\mathsf M_2` product expansions
+regularity-compatible at the stated Sobolev depth.
 
 The important limit is that `(13k)`-`(13m)` are only **infrastructure**. They
 show that the enlarged `A`-ledger route is not dimensionally absurd, and they
@@ -1237,7 +1238,7 @@ More precisely:
 }
 ```
 
-or a frame/coefficient theorem strong enough to feed that bilinear estimate.
+or a frame/coefficient theorem that feeds that bilinear estimate.
 
 ## Minimal upstream theorem target
 
@@ -1302,7 +1303,7 @@ Once `(13o)` is available, the exact propagated equations for
 can be closed by same-depth Moser/Kato--Ponce calculus and then embedded into
 the coefficient window needed by Route A.
 
-So the missing bridge should now be viewed as three minimal subclaims:
+So the missing bridge consists of three minimal subclaims:
 
 1. a **same-depth velocity estimate** for `(13n)`;
 2. a **same-depth pressure estimate** for `(13n)`;

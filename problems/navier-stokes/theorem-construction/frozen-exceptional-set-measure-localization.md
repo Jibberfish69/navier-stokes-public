@@ -137,8 +137,8 @@ measure localization.
 
 The pointwise estimate `(FEML.1)` is exactly `PTCL.F` at `t=\tau` together
 with automatic collar support from `PTCL.H`. The support claim for
-`\Theta_{J,\tau}^{diff}` follows from `(FEML.3)`, and the `L^{p/2}` bound is
-immediate from `(FEML.2)` and `(FEML.4)`. ∎
+`\Theta_{J,\tau}^{diff}` follows from `(FEML.3)`, and the `L^{p/2}` bound comes
+from applying `(FEML.4)` to the pointwise estimate `(FEML.2)`. ∎
 
 ## Interpretation
 

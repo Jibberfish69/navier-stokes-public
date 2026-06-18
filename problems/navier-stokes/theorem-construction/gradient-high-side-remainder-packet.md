@@ -66,7 +66,7 @@ while the genuine high-high commutator packet is tracked separately in
 - `invariance`: pressure gauge invariant and stable under equivalent dyadic decompositions.
 - `theorem_interface`: this is the exact unresolved packet inside the gradient-transfer operator after the readable low-mode pieces are removed.
 - `critical_scale_measure`: the high-frequency enstrophy `E_N` and dissipation `D_N`.
-- `closure_mechanism`: absorb the packet into dissipation plus a summable scale-barrier remainder.
+- `closure_mechanism`: control the packet by a dissipative margin plus a summable scale-barrier remainder.
 - `gradient_transfer`: once controlled, this packet turns the dyadic enstrophy identity into the continuation inequality used to prevent gradient blow-up.
 
 ## Honest Boundary
@@ -95,7 +95,7 @@ so the output shell `j` can survive even when `k` is far below `j`. Standard
 Littlewood-Paley support geometry therefore does **not** force this packet into
 the finite near-diagonal collar used for `\mathcal{C}^{HH}_j`.
 
-That is why the genuine high-high reduction and cubic-tail absorption do not by
+That is why the genuine high-high reduction and cubic-tail coefficient estimate do not by
 themselves settle the full repaired high-side packet on the gradient side.
 
 In particular, the lifted remainder is **not** the packet with one shell far
@@ -115,13 +115,14 @@ The live gradient-side frontier is now:
 1. prove a theorem-grade bound for the threshold-local spill collar;
 2. prove a theorem-grade bound for the lifted high-side remainder;
 3. propagate the already explicit genuine high-high reduction and cubic-tail
-   absorption through the proposition-level Route B packet.
+   coefficient estimate through the proposition-level Route B packet.
 
 The cleanest unresolved question is whether the lifted remainder still reduces
 to the admissible proposition-level coefficient surface
-`\widetilde\Lambda_N^\sharp(t)E_N(t)` plus a harmless fraction of `D_N(t)`, or
-whether the packet forces a genuinely new theorem not presently available on
-the Euclidean route.
+`\widetilde\Lambda_N^\sharp(t)E_N(t)` plus an explicitly budgeted fraction
+`\varepsilon D_N(t)`, with `\varepsilon` fixed before the lifted-remainder
+estimate, or whether the packet forces a genuinely new theorem not presently
+available on the Euclidean route.
 
 That theorem should be understood first as a statement about the coupled
 lifted-band commutator functional
@@ -169,7 +170,7 @@ Proposition `6.1^\sharp`, the explicit `4 -> 1` return arrow, and `C3`.
 
 ## Diagnostic Naive Bound
 
-For the lifted gradient-side low-high contribution, one immediately obtains the
+For the lifted gradient-side low-high contribution, one obtains the
 diagnostic estimate
 
 ```math

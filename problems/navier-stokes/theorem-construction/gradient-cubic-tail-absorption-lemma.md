@@ -1,8 +1,8 @@
-# Gradient Cubic-Tail Absorption Lemma
+# Gradient Cubic-Tail Coefficient Lemma
 
 ## Purpose
 
-This note closes the genuine gradient-side high-high absorption step after the strict low-mode and threshold-spill reductions. The corrected near-diagonal packet is controlled by the enstrophy component of the monotone bridge `Q(t)`, rather than by raw `L^2` energy alone.
+This note closes the genuine gradient-side high-high coefficient step after the strict low-mode and threshold-spill reductions. The corrected near-diagonal packet is controlled by the enstrophy component of the monotone bridge `Q(t)`, rather than by raw `L^2` energy alone.
 
 ## Exact Statement
 
@@ -43,7 +43,7 @@ for almost every `t`. After shifting the high-side cutoff by the fixed collar wi
 \frac{\eta\nu}{2}D_N(t).
 ```
 
-A harmless summable reserve may be added:
+A summable reserve may be added:
 
 ```math
 \mathfrak H_N^{grad,HH}[u](t)
@@ -100,7 +100,7 @@ The sum on the right is `D_{N-M}(t)`. Choose `N_*` so that
 C_M2^{-\frac12(N_*-M)}Q_1^{1/2}\le \frac{\eta\nu}{2}.
 ```
 
-Then the desired absorption follows for every `N\ge N_*`.
+Then the desired coefficient-margin estimate follows for every `N\ge N_*`.
 
 ## Consequence
 
@@ -110,8 +110,8 @@ The genuine high-high packet has a real small coefficient:
 2^{-N/2}Q_1^{1/2}.
 ```
 
-Thus the high-high portion of the gradient cascade is absorbed by high-frequency gradient dissipation once the route has the `Q(t)` enstrophy layer.
+Thus the high-high portion of the gradient cascade is controlled by high-frequency gradient dissipation once the route has the `Q(t)` enstrophy layer.
 
 ## Boundary
 
-This lemma closes the genuine high-high absorption slot. The strict low-mode coefficient, threshold-spill collar, and lifted high-side remainder remain separate packets in the full gradient cascade theorem.
+This lemma closes the genuine high-high coefficient slot. The strict low-mode coefficient, threshold-spill collar, and lifted high-side remainder remain separate packets in the full gradient cascade theorem.

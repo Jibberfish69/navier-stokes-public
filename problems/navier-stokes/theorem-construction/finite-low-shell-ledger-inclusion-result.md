@@ -66,7 +66,7 @@ with `C_{low}` depending only on `\theta_{low}` and the fixed finite-block const
 
 ### Proof
 
-The bound `FLL.5` is immediate from the definition `FLL.4`. The residual estimate follows from
+The bound `FLL.5` is the definition `FLL.4`. The residual estimate follows from
 
 ```math
 \mathcal R_{low}(X)\le M_{low}(X)

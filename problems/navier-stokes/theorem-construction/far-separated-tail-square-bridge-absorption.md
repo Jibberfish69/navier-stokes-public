@@ -34,7 +34,14 @@ Then
 Far_N^+(t)\le C_{C_0}C_E2^{-2N}D_N(t).
 ```
 
-The unoriented far-separated block satisfies the same estimate up to a factor two. Hence for every `\varepsilon>0`, all sufficiently large `N` satisfy
+The unoriented far-separated block satisfies the same estimate up to a factor
+two. Hence for every `\varepsilon>0` and every `N` satisfying
+
+```math
+2C_{C_0}C_E2^{-2N}\le \varepsilon\nu,
+```
+
+one has
 
 ```math
 Far_N(t)\le \varepsilon\nu D_N(t).
@@ -86,8 +93,15 @@ Choose `N` so that
 2C_{C_0}C_E2^{-2N}\le \varepsilon\nu.
 ```
 
-This proves the absorption estimate.
+This proves the exact estimate
+
+```math
+Far_N(t)\le \varepsilon\nu D_N(t).
+```
 
 ## Consequence
 
-The far-separated tail-square bridge closes directly from the global energy bound. The LPAS/FCTS far-corona route remains useful for the lifted packet, while the tail-square reserve itself no longer needs the linear-to-active-square bridge.
+The far-separated tail-square bridge closes directly from the global energy
+bound under the displayed cutoff condition. The LPAS/FCTS far-corona route
+remains useful for the lifted packet, while the tail-square reserve itself no
+longer needs the linear-to-active-square bridge.

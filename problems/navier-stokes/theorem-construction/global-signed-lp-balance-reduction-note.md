@@ -115,8 +115,10 @@ u_{\le \ell}
 \tag{7}
 ```
 
-and `\mathfrak w_\ell` is the harmless derivative-of-weight term coming from
-`\ell^{-2}` and the smooth multiplier profile.
+and `\mathfrak w_\ell` is the exact derivative-of-weight term coming from
+`\ell^{-2}` and the smooth multiplier profile. It remains on the ledger as a
+fixed multiplier-derivative contribution; it may be bounded only by the
+corresponding uniform profile-derivative constants.
 
 ### Proof
 

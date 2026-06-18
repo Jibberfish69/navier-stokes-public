@@ -39,13 +39,20 @@ Far_N^+(t)
 \le C_{C_0}C_E2^{-2N}D_N(t).
 ```
 
-Consequently, for every `\varepsilon>0`, all sufficiently large `N` satisfy
+Consequently, for every `\varepsilon>0` and every `N` satisfying
+
+```math
+2C_{C_0}C_E2^{-2N}\le \varepsilon\nu,
+```
+
+one has
 
 ```math
 Far_N^+(t)\le \varepsilon\nu D_N(t).
 ```
 
-By symmetry, the full far-separated block obeys the same bound up to a harmless factor `2`.
+By symmetry, the full far-separated block obeys the same bound with the fixed
+factor `2`.
 
 ## Proof
 
@@ -93,14 +100,17 @@ Choose `N` such that
 2C_{C_0}C_E2^{-2N}\le \varepsilon\nu
 ```
 
-and include the symmetric upper-prefix half. This proves the full far-separated absorption.
+and include the symmetric upper-prefix half. This proves the full
+far-separated estimate.
 
 ## Consequence
 
-The far-separated tail-square block does not require LPAS for this reserve. Together with near-diagonal absorption, the full tail-square reserve closes by global energy:
+The far-separated tail-square block does not require LPAS for this reserve.
+Together with the corresponding near-diagonal estimate, the full tail-square
+reserve is paid by global energy under the displayed cutoff condition:
 
 ```math
 2^{-2N}E_N(t)^2\le \varepsilon\nu D_N(t)
 ```
 
-for all sufficiently large `N`.
+for every `N` satisfying `2C_{C_0}C_E2^{-2N}\le \varepsilon\nu`.
