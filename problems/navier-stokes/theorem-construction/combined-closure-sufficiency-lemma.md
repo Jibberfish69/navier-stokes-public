@@ -237,20 +237,29 @@ input as `(S)`:
 
 So no hidden strengthening occurs in the return arrow.
 
-### Step 7. Continuation
+### Step 7. Continuation Bridge
 
-By `(2)`, the classical `H^1` continuation criterion gives extension beyond
-`T`. This final step is isolated in
-[classical-h1-continuation-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-h1-continuation-lemma.md).
+By `(2)`, the route has only the full `H^1` energy bound.  In three dimensions
+that is not the classical continuation criterion.  Continuation beyond `T`
+requires a same-surface bound
 
-This already gives the main continuation consequence of the Euclidean route:
+```math
+\sup_{t<T}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2,
+```
+
+or a separately named continuation criterion.  With that bound, the local
+`H^s` theorem supplies `\tau(\nu,s,M_s)>0`, relaunch from times approaching
+`T`, and uniqueness on the overlap.
+
+The Euclidean route currently gives the energy-level support consequence:
 
 ```math
 (\mathrm S)+(\mathrm M)+(\mathrm G^\sharp)
 \Longrightarrow
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty
 \Longrightarrow
-\text{no singularity on } [0,T).
+\text{continuation still requires }H^s,\ s>5/2,\text{ or equivalent control.}
 ```
 
 The stronger closed-loop statement
