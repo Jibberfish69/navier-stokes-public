@@ -27,7 +27,7 @@ same-fluid sense rather than their weak formal sense?
 ```
 
 The nearby wrong substitution is to reintroduce a "Pack-only" or "Field-only"
-row as if it were an ontological scenario. Those rows are only formal table
+row as if it were an ontological scenario. Those rows are only truth-table
 bookkeeping unless a theorem supplies a terminal scenario realizing them.
 
 ## Current Checked State
@@ -36,14 +36,14 @@ The installed repo already distinguishes two readings.
 
 | Layer | Meaning |
 | --- | --- |
-| Weak/formal witness table | `CM` is written as `Pack and Part and Field`, so one can formally name missing slots. |
+| Truth-table witness table | `CM` is written as `Pack and Part and Field`, so one can name missing slots as candidate rows. |
 | Terminal ontology | A real finite endpoint may activate several witness axes at once; the endpoint labels are not disjoint physical doors. |
 
 Resolution for the retained-Field notes: a theorem of the form
-`Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` is weak/formal
-branch bookkeeping.  It says Pack and Part have been retained as licenses, so
-the first unspent CM face is Field.  It does not make `Pack, Part, not-Field`
-a surviving terminal row; terminal same-fluid ontology collapses that realized
+`Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` is conditional
+face bookkeeping.  It says Pack and Part have been retained as licenses, so the
+first unspent CM face is Field.  It does not make `Pack, Part, not-Field` a
+surviving terminal row; terminal same-fluid ontology collapses that realized
 coherence break to `Pack, not-Part, not-Field`.
 
 The proof note
@@ -73,8 +73,8 @@ The audit must test these implication pressures directly.
 
 ## Grounded Test Protocol
 
-The eight formal rows are not evidence. Treat each row as a candidate world that
-must be realized by an endpoint cause.
+The eight truth-table rows are not evidence. Treat each row as a candidate
+world that must be realized by an endpoint cause.
 
 For every candidate row:
 
@@ -166,7 +166,7 @@ The forensic table is:
 | `Pack, not-Part, not-Field` | `Dead` and `Jump` together while carrier geometry remains usable | Valid candidate: the packet can remain geometrically trackable while same-law participation and one-field coherence fail. |
 | `not-Pack, not-Part, not-Field` | `Blown`, or `Blown` plus `Dead/Jump` | Valid total-failure row: carrier, participation, and field all fail together. |
 
-So the eight formal rows collapse ontologically to three meaningful rows:
+So the eight truth-table rows collapse ontologically to three meaningful rows:
 
 | Surviving row | Meaning |
 | --- | --- |
@@ -175,7 +175,7 @@ So the eight formal rows collapse ontologically to three meaningful rows:
 | `not-Pack, not-Part, not-Field` | blown terminal failure; the carrier itself is no longer a valid same-fluid witness |
 
 The important forensic point is that `Pack-only`, `Part-only`, and `Field-only`
-are not honest endpoint stories. They are formal rows. The story that would
+are not honest endpoint stories. They are truth-table rows. The story that would
 realize each one already changes another face.
 
 ## Strict Logic Behind The Reduction
