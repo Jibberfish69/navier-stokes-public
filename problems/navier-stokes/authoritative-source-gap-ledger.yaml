@@ -157,7 +157,7 @@ topics:
     rationale: Aubin-Lions compactness is retained as the legacy compactness
       mechanism behind the source corpus. The current theorem packet treats it
       as provenance for compactness support, not as a separate direct-live authority row.
-    release_rule: demoted to compactness provenance; no source-gap blocker remains.
+    release_rule: retained as compactness provenance with no source-gap blocker remaining.
   - classification_id: ns-src-gap-discrete-energy-estimates
     topic: discrete energy estimates
     status: demoted
@@ -172,7 +172,7 @@ topics:
       scaffold. The active direct-live authority frontier is governed by the retained/averaged
       route surfaces and does not spend a discrete-scheme energy row as a terminal
       theorem burden.
-    release_rule: demoted to provenance context for approximation/compactness.
+    release_rule: retained as provenance context for approximation/compactness with no proof force.
   - classification_id: ns-src-gap-discrete-formulations
     topic: discrete formulations
     status: demoted
@@ -186,7 +186,7 @@ topics:
     rationale: Discrete formulations are retained as source-history and
       approximation context. They do not supersede the current torus-first
       classical/retained-cover theorem packet.
-    release_rule: demoted to source-history context; not a direct-live frontier blocker.
+    release_rule: retained as source-history context; not a direct-live frontier blocker.
   - classification_id: ns-src-gap-energy-bounds
     topic: energy bounds
     status: explicitly-covered
@@ -215,4 +215,4 @@ topics:
       discrete/compactness pipeline. The live theorem packet uses the retained
       class-membership and averaged readout route and therefore does not promote
       Galerkin approximation to an independent active matrix row.
-    release_rule: demoted to compactness/approximation provenance.
+    release_rule: retained as compactness/approximation provenance with no proof force.

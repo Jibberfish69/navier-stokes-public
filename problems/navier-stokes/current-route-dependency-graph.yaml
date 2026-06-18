@@ -105,7 +105,7 @@ nodes:
       retained `Pack_Q` and `Part_{N,Q}`. These failures may not be revived as
       finite-energy NKF.Native or upstream pointwise readout.
   sourcewall_reconcile_resolution:
-    status: resolved-by-demotion
+    status: resolved-by-no-proof-authority-classification
     theorem_ids:
       - SourceWall.Reconcile.A
     source:
@@ -385,7 +385,7 @@ nodes:
     role: >-
       Periodic T^3 positive-forward endpoint layer. The repo-declared route is
       smooth periodic data -> terminal-tail / Pack-Part-Field-tower readout ->
-      uniform H^s(T^3), s>5/2 -> standard H^s continuation. This node must stay
+      uniform H^s(T^3), s>5/2 -> classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound. This node must stay
       scoped to T^3 and must not absorb R^3 tail/export burdens.
   t3_pctp_hs_audit_pressure:
     status: support-audit-pressure-cm-resolved

@@ -82,7 +82,7 @@ layers:
   receiver_source:
     upstream_chain: "RSCB.NKF=>NKF.Native=>ACT.KX=>ACT.X-Readout=>ACT.A=>RCF.A=>LCI.A"
     recombination_chain: "LCI.A+FCI.5f=>CSP.A=>OFP.A=>CFI.A"
-    source_supplier: "FPCR.C+FSCR.C+FCC.C1=>FCI.5f; stronger import FFSRC.A=>FCI.5f when explicitly cited"
+    source_supplier: "FPCR.C+FSCR.C+FCC.C1+FCC.C1a=>FCI.5f; stronger import FFSRC.A=>FCI.5f only with the current FFSRC.A hypotheses, including the weighted cutoff-defect ledger"
     forbidden_edges:
       - "endpoint rows feeding ACT.KX or LCI.A"
       - "READ.COVER feeding averaged receiver closure"

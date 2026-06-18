@@ -140,7 +140,7 @@ Older umbrella manuscripts and support texts also confirmed in the old stack:
 The source-family sections exist, but they do not all stand at the same proof level.
 
 - `Body I / Scale barrier`:
-  original source is heuristic/hypothetical at the section level. `Section 2` explicitly hypothesizes the transfer bound `T(k,t) \le C k^{-\alpha}` and then derives spectral decay from it. The lane-local theorem-construction package now contains a much sharper dyadic same-surface replacement package, and in the newer language this body is best read as the **no-escape / tail-barrier law for derivative geometry across scales and derivative depth**. The dyadic high-frequency barrier and the tower high-rung barrier are the two visible coordinate systems for the same body.
+  original source is conditional at the section level. `Section 2` assumes the transfer bound `T(k,t) \le C k^{-\alpha}` and then derives spectral decay from that assumption. The lane-local theorem-construction package now contains a much sharper dyadic same-surface replacement package, and in the newer language this body is best read as the **no-escape / tail-barrier law for derivative geometry across scales and derivative depth**. The dyadic high-frequency barrier and the tower high-rung barrier are the two visible coordinate systems for the same body.
 - `Body II / Monotone functional`:
   source-grounded and basically straightforward as a named `Q(t)` bridge, but necessary and not sufficient. `Section 3` itself says boundedness of `Q(t)` is obtained under the scale-barrier input. In the updated language this is the **coercive drain-law body**: the place where one seeks a functional under which the full dynamics behave like a one-sided gradient-type drain on the dangerous derivative/deformation roughness.
 - `Body III / Compactness`:
@@ -161,7 +161,7 @@ So the four-body proof cannot be called internally clean until one of these is c
 
 ### 7. Current solvability verdict
 
-The most plausible internally solvable route is:
+The current internally constrained route candidate is:
 
 1. keep the classical four-body architecture;
 2. use the lane-local dyadic same-surface package for `Body I`;
@@ -171,6 +171,12 @@ The most plausible internally solvable route is:
    - the source-faithful curvature route plus an explicit pullback theorem on the chosen classical branch, or
    - a declared deformation-geometry upgrade route that is honestly labeled as replacing the original fourth bridge;
 6. then prove the loop-closing warrant explicitly rather than relying on the old diagram alone.
+
+This is not a proof status.  It is a candidate route because the listed bodies
+are the only checked surfaces in this note that keep the four-body architecture,
+the dyadic same-surface package, the `Q(t)` bridge, compactness, and the return
+arrow in one exact closure problem.  Downstream proof force requires the exact
+integrated closure theorem named below.
 
 That loop-closing warrant should now be read as a **literal propagated packet**
 again, not just as four relabeled burdens:
@@ -261,7 +267,7 @@ The concrete mathematical agenda is:
 6. certify that no hidden modified-equation or stronger hidden hypothesis is doing theorem-bearing work;
 7. then promote Theorem `2.1` from conditional to discharged.
 
-So the immediate proof-writing start point is:
+So the current proof-writing start point selected by this agenda is:
 
 - not Body I alone,
 - not Body IV alone,
