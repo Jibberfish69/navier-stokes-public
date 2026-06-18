@@ -376,9 +376,9 @@ direct ledger package `(DTC.5)`--`(DTC.6)`.
 ### Reduction of the Coefficient Bundle to `DTC.M`
 
 The preceding four-cell presentation is not the sharp endpoint. The moving
-cutoff, pressure-response, and residual-forcing cells are formal consequences
-of the local tower carrier once the tower carrier is controlled in the stronger
-pointwise-in-time form.
+cutoff, pressure-response, and residual-forcing cells are conditional
+consequences of the local tower carrier once the tower carrier is controlled
+in the stronger pointwise-in-time form.
 
 For
 
@@ -4098,8 +4098,9 @@ EOC.A.
 \tag{DTC.26}
 ```
 
-This step is now a formal receiver readback, not the supplier of the
-transported-center package.
+This step is now a receiver readback under the displayed
+`CSP.A_{\delta+\delta_{seg}}`, `(EOC.27)`, and `(OFP.10cb)` inputs, not the
+supplier of the transported-center package.
 
 The base receiver readout continues:
 
@@ -4196,11 +4197,12 @@ DTC.A_{\mathfrak p}
 The endpoint block `\mathsf{End}_{NS}` is recorded in
 [mpp-class-membership-endpoint-matrix-closure-contract-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md):
 `END.Exh` and `END.Cross` are accepted certificate/cross-entry reductions,
-`END.Pack` and `END.Field` are native formal exclusions once their inputs are
-present, and `DTC-to-TowerBound` supplies the analytic tower amplitude input
+`END.Pack` is the native pack-gauge exclusion under
+`\Gamma_{\mathrm{pack},Q}\in L^\infty(I)`, `END.Field` is the positive-scale
+one-field exclusion under `OFP.A`, and `DTC-to-TowerBound` supplies the analytic tower amplitude input
 `\mathfrak A_{N,Q}\in L^\infty(I)`.
 
-## Current Formal Breakdown
+## Current Conditional Breakdown
 
 The receiver-side chain is now:
 
@@ -4214,9 +4216,9 @@ DTC.A_{\mathfrak p}.
 ```
 
 Here `DTC.LINEAR` is the direct moving-center differential inequality and
-`DTC.PRE` is the noncircular `L^1` coefficient package. If the moving-center
-identity/commutator estimate is treated as a formal PDE computation, then the
-remaining coefficient work is exactly:
+`DTC.PRE` is the noncircular `L^1` coefficient package. Once the exact
+moving-center identity/commutator estimate is supplied, the remaining
+coefficient work is exactly:
 
 ```math
 DTC.PRE_{\mathfrak p}
@@ -4312,9 +4314,9 @@ ULCI(\mathscr P_{\rm req}).
 \tag{DTC.37}
 ```
 
-Consequently the receiver side is formal after the ordered `ACT.KX` package in
-`(DTC.36b-1)`--`(DTC.36b-3)` is installed for every required parameter
-instance. The
+Consequently the receiver side is conditional after the ordered `ACT.KX`
+package in `(DTC.36b-1)`--`(DTC.36b-3)` is installed for every required
+parameter instance. The
 source-side and endpoint-side packets are now separately promoted under the
 post-`LCI.A` source hypotheses and accepted endpoint certificates:
 
@@ -4378,8 +4380,10 @@ CFI.A+\mathsf{End}_{NS}
 
 Here `END.TowerAmp` denotes the actual tower-amplitude input
 `\mathfrak A_{N,Q}\in L^\infty(I)`. The definition-level implication
-`END.TowerAmp => \neg tower-blown` is formal and recorded in the endpoint
-matrix note as `END.TowerBound`.
+`END.TowerAmp => \neg tower-blown` is the direct contradiction between this
+same-packet `L^\infty(I)` bound and the `tower-blown` requirement of
+arbitrarily large tower amplitude; it is recorded in the endpoint matrix note
+as `END.TowerBound`.
 
 With the ordered pressure package and `ACT.KX` installed, the receiver-side
 live chain is
@@ -4649,8 +4653,8 @@ The finite cover yields
 \tag{DTC.43e}
 ```
 
-Thus `END.TowerBound` is formal: bounded tower amplitude rules out
-`tower-blown`.
+Thus `END.TowerBound` is the direct tower-amplitude contradiction: bounded
+tower amplitude on the same finite cover rules out `tower-blown`.
 
 For `END.Exh`, the witness identity
 
