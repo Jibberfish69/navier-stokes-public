@@ -60,7 +60,7 @@ TemporalNonAtomicSource.A
 ZenoCancellationClassProduction.A + RigidClassResidueVanish.A
 ```
 
-would be enough, but current inputs give only `L^1_t` source mass and local
+is sufficient, but current inputs give only `L^1_t` source mass and local
 suitable compactness, not super-`L^1_t` residence, terminal atom exclusion, or
 a produced rigid ancient class.
 
@@ -159,7 +159,7 @@ which is `PositiveRemainderDepletion.A`.
 
 ## Unconditional Direct Attempt
 
-The direct drain-absorption proof would need
+The direct drain-absorption proof requires
 
 ```math
 |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+
@@ -285,7 +285,7 @@ ULAC.PacketModulus.A:
 \omega(\eta)\downarrow0,\quad \epsilon_N\to0,
 ```
 
-for selected terminal packet sets `E_N`. This would eliminate the singular
+for selected terminal packet sets `E_N`. This eliminates the singular
 native source residue for the positive supplier route, but PRD itself needs the
 stronger depletion form with a strict drain coefficient `\theta<1`.
 

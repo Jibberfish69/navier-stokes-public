@@ -2,7 +2,7 @@
 
 ## Status
 
-Installed verification note for the pressure/source supplier cell.
+Conditional verification note for the pressure/source supplier cell.
 
 This note expands the source-side bookkeeping requested for
 
@@ -14,13 +14,19 @@ It verifies exactly what is closed and what is not:
 
 ```math
 \boxed{
-\text{the route-selected strengthened source import }FFSRC.A\Longrightarrow FCI.5f
-\text{ is installed,}
+\text{the route-selected strengthened source import is }
+\operatorname{Hyp}(FFSRC.A)
+\Longrightarrow FCI.5f,
 }
 ```
 
+Here `\operatorname{Hyp}(FFSRC.A)` includes the weighted cutoff-defect
+integrability input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
+
 while the stricter exact same-depth source branch still has the pressure wall
-`FPCR.C` with exact smaller wall `FIRP.A0`.
+`FPCR.C` with exact smaller wall `FIRP.A0`, and the cutoff branch now carries the
+separate cutoff-defect interval input.
 
 ## Source Split
 
@@ -41,33 +47,32 @@ cutoff channels:
 Thus any proof of `(FCI.5f)` must supply `L^1(I)` control for all three
 channels on the same frozen family.
 
-## Cutoff Channel: `FCC.C1`
+## Cutoff Channel: corrected `FCC.C1`
 
-The packet cutoff note proves the pointwise absorption
+The packet cutoff note proves the pointwise Young-margin estimate
 
 ```math
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}(t;I)
 \le
 \frac12\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}(t;I)
 +
-\mathfrak b_{\psi}^{cut}(t)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I).
 \tag{FCC.1}
 ```
 
 Therefore, once
 
 ```math
-\mathfrak b_{\psi}^{cut}\in L^1(I),
-\qquad
-\mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I),
 ```
 
 and the pressure/strain channels have already been supplied, `FCC.C1` is the
-cutoff absorption step:
+cutoff Young-margin step:
 
 ```math
-FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
+FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FCI.5f.
 \tag{FCC.2}
@@ -129,11 +134,12 @@ resonant packet target `FIRP.A0`, but does not prove it unconditionally.
 Thus the exact route
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 \tag{FPCR.2}
 ```
 
-is a valid accounting implication, not the route-selected closed source import.
+is a valid accounting implication only with the cutoff-defect input in `(FCC.2)`,
+not the route-selected source import by itself.
 If strict same-depth bookkeeping requires `FPCR.C`, then `FIRP.A0` remains the
 open pressure-side theorem.
 
@@ -143,7 +149,8 @@ The current route does not spend the unproved exact same-depth pressure wall.
 It uses the organized stronger sufficient source package:
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FFSRC.A
 \Longrightarrow
@@ -166,10 +173,12 @@ FFPB.A0:
 
 The key interpretation is packet-local: `\mathfrak H^{press,loc}` already
 includes the frozen packet multipliers and finite-difference/tower weights. A
-centerwise-only interpretation would reopen the separate bridge `FIPCB.A0`.
+centerwise-only interpretation reopens the separate bridge `FIPCB.A0`.
 
 With `(FFSRC.2)` giving pressure, `(FSCR.1)` giving strain/cascade, and
-`(FCC.1)` absorbing cutoff, the frozen-family Gronwall inequality gives
+`(FCC.1)` plus
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)` handling cutoff,
+the frozen-family Gronwall inequality gives
 
 ```math
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
@@ -184,12 +193,13 @@ This is exactly `(FCI.5f)`.
 
 ## Verification Result
 
-The pressure/source supplier target is closed in the only sense currently used
-by the active route:
+The pressure/source supplier target is conditional in the currently used active
+route:
 
 ```math
 \boxed{
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)
+\Longrightarrow FCI.5f.
 }
 ```
 
@@ -198,7 +208,7 @@ The exact same-depth branch remains accurately labeled:
 ```math
 \boxed{
 FPCR.C \text{ remains open unless the route spends the stronger } FFSRC.A
-\text{ import.}
+\text{ import, and the cutoff-defect input remains separate.}
 }
 ```
 

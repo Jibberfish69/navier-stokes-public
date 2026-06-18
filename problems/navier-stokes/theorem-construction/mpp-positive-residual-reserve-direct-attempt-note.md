@@ -47,8 +47,10 @@ A small signed integral does not imply small positive part.  The positive mass
 can concentrate on `Bad_N(\eta)` and be cancelled by negative mass on other
 times, other packets, or contracting strain windows.
 
-Thus the missing reserve is not cosmetic.  It is exactly the theorem that would
-prevent the active selector from choosing expanding-strain source production.
+Thus the missing reserve is not cosmetic.  It is exactly the positive-part
+depletion theorem: it must bound the selected expanding-strain production on
+`Bad_N(\eta)`, so the active selector cannot carry order-one source production
+there.
 
 ## Principal Symbol Obstruction
 

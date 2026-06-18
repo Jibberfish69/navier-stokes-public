@@ -54,7 +54,9 @@ Pressure identities are signed. The terminal obstruction uses localization, one-
 
 `PressureCarrierTrace.A` is not installed from current inputs.
 
-It would support `PressureSourceTimeFaceSpread.A` only as the carrier-tether component. It does not provide the time-face spread component.
+A proved `PressureCarrierTrace.A` supports `PressureSourceTimeFaceSpread.A` only
+as the carrier-tether component. It does not provide the time-face spread
+component.
 
 The next alternatives remain:
 

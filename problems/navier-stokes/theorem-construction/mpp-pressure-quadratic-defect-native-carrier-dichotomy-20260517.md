@@ -47,7 +47,9 @@ QuadraticDefectSourceDomination.A:
 }
 ```
 
-This theorem would imply `PressureSourceAC.A` and hence `PressureSustainResidueToSourceResidue.A` on the interior pressure region.
+The conditional consequence of this source-carrier domination theorem is
+`PressureSourceAC.A` on the interior pressure region, and hence
+`PressureSustainResidueToSourceResidue.A` there.
 
 ## 2. Failure of source-only forcing
 
@@ -123,7 +125,7 @@ If one proves
 \mu_*^{press\perp src}=0,}
 ```
 
-then the dichotomy immediately yields
+then the dichotomy yields
 
 ```math
 \mu_*^{press-sus}>0

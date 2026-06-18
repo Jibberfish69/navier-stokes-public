@@ -69,7 +69,7 @@ Bounded overlap gives
 
 This permits summing packet estimates. It gives no smallness, no terminal decay, and no source-current depletion. A coherent family can charge every selected packet with the same sign while preserving bounded overlap.
 
-## Attempt 4: Cauchy/Young absorption
+## Attempt 4: Cauchy/Young margin split
 
 The PRD attempt reaches the estimate
 
@@ -81,7 +81,11 @@ The PRD attempt reaches the estimate
 +\mathrm{Legal}_N.
 ```
 
-The first term is absorbable. The term `\mathsf A_N` is the active-square residual-tail reserve. Thus Cauchy/Young defines the required reserve quantity. It does not estimate it.
+The first term is spendable only as the displayed fraction
+`0<eta<1` of `sum_P int_{Q(P)} D_P`, leaving the remaining dissipative record
+coercive. The term `\mathsf A_N` is the active-square residual-tail reserve.
+Thus Cauchy/Young defines the required reserve quantity. It does not estimate
+it.
 
 Therefore this route proves only
 
@@ -92,7 +96,9 @@ Therefore this route proves only
 
 ## Attempt 5: square-source estimate or active-shell amplitude gain
 
-A square-source theorem or active-shell amplitude gain would imply active reserve. In the packet language they require a terminal bound of the form
+A square-source theorem or active-shell amplitude gain implies active reserve
+only after it proves the terminal bound on the same selected terminal packet
+family. In the packet language the required bound has the form
 
 ```math
 \int_I2^{-j}D_j(t)^2\,dt

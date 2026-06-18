@@ -20,7 +20,7 @@ or equivalently
 \boxed{EllipticTimeSmearing.A.}
 ```
 
-A useful form would be
+A useful exact form is
 
 ```math
 \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
@@ -28,7 +28,7 @@ A useful form would be
 \qquad \alpha>0.
 ```
 
-This would rule out a terminal pressure atom and could feed
+This estimate rules out a terminal pressure atom and feeds
 
 ```math
 PressureRigidClassProduction.A
@@ -56,7 +56,7 @@ Thus local energy does not prove the desired time-spread estimate.
 
 ## 3. Material residence test
 
-A material residence theorem would say a pressure lobe that sustains a terminal packet must remain tied to a same-fluid material ancestry over a positive time interval. This would produce temporal thickness.
+A material residence theorem must say a pressure lobe that sustains a terminal packet remains tied to a same-fluid material ancestry over a positive time interval. That statement is the temporal-thickness input.
 
 The required theorem is
 
@@ -133,4 +133,4 @@ or a new legal class
 \boxed{TerminalPressurePureStrainLegal.A.}
 ```
 
-The immediate pressure route is therefore exhausted at this theorem resolution.
+The pressure route at this theorem resolution is therefore exhausted.

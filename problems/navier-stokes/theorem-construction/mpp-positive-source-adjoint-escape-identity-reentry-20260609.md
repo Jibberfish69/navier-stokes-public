@@ -5,7 +5,7 @@
 Active-completion proof attempt after
 `mpp-native-timeface-atom-transfer-active-burst-bridge-reentry-20260609.md`.
 
-This note tests both the adjoint escape identity and the immediate positive
+This note tests both the adjoint escape identity and the first positive
 adjoint defect depletion that the identity exposes.  It does not close public
 Clay finality.
 

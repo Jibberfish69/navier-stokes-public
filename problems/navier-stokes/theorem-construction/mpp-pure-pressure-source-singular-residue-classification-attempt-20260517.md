@@ -80,7 +80,10 @@ S=\operatorname{diag}(2,-1,-1),\qquad \Omega=0
 
 has zero native vorticity source carrier and positive pressure-Hessian sustain in the local pressure law. This identifies the pure pressure-source singular branch as an interior pressure-quadratic object.
 
-A legal classification would need a terminal pressure collar, harmonic, cutoff, or projection-loss theorem pricing this pure-strain pressure lobe. The residue is interior and selected after pressure legal exits have already been removed. Hence the available legal ledgers give no price for it.
+The legal-classification target is a terminal pressure collar, harmonic, cutoff,
+or projection-loss theorem pricing this pure-strain pressure lobe. The residue
+is interior and selected after pressure legal exits have already been removed.
+Hence the available legal ledgers give no price for it.
 
 This leaves the new target:
 
@@ -90,7 +93,9 @@ This leaves the new target:
 
 ## Attempt 3: Pure pressure singular Liouville
 
-A Liouville theorem would need to show that a retained local suitable pressure tangent carrying pressure-Hessian sustain and zero native source-current carrier vanishes.
+The Liouville target is a theorem showing that a retained local suitable
+pressure tangent carrying pressure-Hessian sustain and zero native
+source-current carrier vanishes.
 
 The local pure-strain pressure model blocks a proof from algebraic identities alone. It shows that pressure sustain can be produced by symmetric strain without vorticity-source current at the tangent level. A finite-energy or retained-carrier exclusion would add new PDE content. The current package supplies no such exclusion.
 

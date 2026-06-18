@@ -4,13 +4,13 @@ ns_viewer:
   status: failed-reduced-to-terminal-positive-cross-profile-source-control
   proof_role: proof_method_pivot
   logical_landing_node: positive_pack_defect_orthogonality
-  edge_effect: "Tests whether bilinear/paraproduct estimates make terminal selected positive Pack defect decouple across profiles."
+  edge_effect: "Tests whether bilinear/paraproduct estimates make the exact selected positive Pack cross-measure decouple across profiles."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-pack-critical-element-stability-profile-orthogonality-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-native-trilinear-defect-domination-direct-attempt-note.md
     - problems/navier-stokes/theorem-construction/mpp-local-positive-precauchy-source-carleson-direct-attempt-note.md
     - problems/navier-stokes/theorem-construction/mpp-reverseholder-parent-concentration-direct-attempt-note.md
-  downstream_consequence: "PositivePackDefectOrthogonality.A now requires direct terminal positive cross-profile source control or a uniform-integrability/Carleson replacement; pdfs_final remains false."
+  downstream_consequence: "PositivePackDefectOrthogonality.A now requires direct control of the selected positive cross-profile measure, a uniform-integrability/Carleson replacement, or a Pack/Part/Field face landing; pdfs_final remains false."
 ---
 
 # MPP PositivePackDefectOrthogonality Bilinear-Decoupling Attempt
@@ -68,6 +68,36 @@ S_{<j}^{loc} U_{\alpha,<j}^{(m)}, U_{\beta,j}^{(m)}
 after cutoff, pressure/Leray bookkeeping, scale normalization, and terminal
 window selection.
 
+The exact measure being tested is
+
+```math
+d\mu_{\alpha\beta,j}^{+,m}
+:=
+\chi_{j,m}^{sel}
+\left[
+\left\langle
+S_{<j}^{loc} U_{\alpha,<j}^{(m)}, U_{\beta,j}^{(m)}
+\right\rangle
+\right]_+\,dx\,dt .
+```
+
+The theorem cannot be proved by a signed ledger alone.  Even a statement such
+as
+
+```math
+\int \chi_{j,m}^{sel}
+\left\langle
+S_{<j}^{loc} U_{\alpha,<j}^{(m)}, U_{\beta,j}^{(m)}
+\right\rangle\,dx\,dt \to 0
+```
+
+does not imply `\mu_{\alpha\beta,j}^{+,m}(W_m)\to0`.  The proof must establish
+one of the following exact alternatives for `\mu_{\alpha\beta,j}^{+,m}` on the
+selected terminal windows: vanishing in the tested Pack measure, uniform
+integrability/Carleson non-atomicity, absorption by a displayed one-profile
+Pack measure with quantitative density control, or a Pack/Part/Field face
+failure.
+
 The desired bilinear theorem is:
 
 ```text
@@ -93,9 +123,10 @@ orthogonality do not dominate
 
 on selected terminal heat-scale windows.
 
-The positive part matters. A signed cross term may be small in a raw integral
-while its positive part concentrates on the selected terminal window. The
-profile selector is allowed to choose precisely that window.
+The positive part matters because the map `f -> [f]_+` does not preserve signed
+cancellation.  A sequence can satisfy the signed convergence above while the
+positive measures `\mu_{\alpha\beta,j}^{+,m}` retain a nonzero terminal
+subsequence on the selected windows.
 
 ## Uniform Integrability Test
 
@@ -106,25 +137,43 @@ UniformPackCrossTermIntegrability.A
 => TerminalPositiveCrossProfileSourceControl.A.
 ```
 
-For example, an Orlicz, reverse-Holder, source-Carleson, or active-square
-envelope for the selected cross-profile source density would forbid terminal
-zero-thickness concentration.
+For example, a de la Vallee-Poussin/Orlicz modulus, reverse-Holder estimate,
+source-Carleson bound, or active-square envelope for the selected density would
+have to imply the exact non-atom condition
+
+```math
+\forall \epsilon>0\ \exists\delta>0:
+|E|<\delta
+\Longrightarrow
+\sup_m \mu_{\alpha\beta,j}^{+,m}(E)<\epsilon
+```
+
+on the selected terminal windows, or a Carleson variant strong enough to rule
+out terminal zero-thickness concentration.
 
 That envelope is not installed. The terminal layer model remains compatible:
 
 ```math
-g_m(s)=m1_{(-1/m,0]}(s),
+g_m(s)=m{\bf 1}_{(-1/m,0]}(s),
 \qquad
 g_m(s)\,ds\rightharpoonup\delta_0.
 ```
 
 It has bounded local L1 mass and no fixed earlier selected source slice, while
-still leaving an order-one terminal positive source atom.
+still allowing a nonzero terminal atom, e.g.
+
+```math
+\limsup_m \mu_{\alpha\beta,j}^{+,m}(W_m)\ge \eta>0
+```
+
+on terminal windows with thickness tending to zero in the selected time
+coordinate.
 
 ## Resonant Same-Window Test
 
-Separated profiles are easier. Strong scale, center, or time separation can
-kill many cross terms after fixed testing.
+Separated profiles are easier only when the selected cutoffs and profile frames
+give an exact vanishing overlap or scale-separation estimate; for those pairs
+one may prove `\mu_{\alpha\beta,j}^{+,m}(W_m)\to0`.
 
 The hard case is the near-resonant same-window interaction selected by the Pack
 functional. If two pieces interact on the same terminal heat-scale window, the

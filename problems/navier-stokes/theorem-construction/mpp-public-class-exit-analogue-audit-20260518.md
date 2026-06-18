@@ -51,10 +51,18 @@ For this lane, that becomes:
 \text{first failure of }Pack_Q\text{ or }Part_{N,Q}\text{ or }Field_{N,r,Q}.
 ```
 
-The public literature does not supply that implication. It supplies a standard
-for what such a theorem must look like: a named class, a terminal extraction or
-concentration mechanism, and a rigidity/regularity argument that makes
-persistent class membership incompatible with singularity.
+The public literature does not supply that implication. The only repo-usable
+criterion extracted from the analogues is the following exact bridge shape:
+
+1. a named public class `X`;
+2. a terminal sequence or window family `\mathcal W` and a precise readout
+   `CritExit_X(\mathcal W)`;
+3. a proved repo-local implication from that readout to a first CM witness-face
+   failure:
+   `\neg Pack_Q(\mathcal W)`, `\neg Part_{N,Q}(\mathcal W)`, or
+   `\neg Field_{N,r,Q}(\mathcal W)`.
+
+Without item 3, the public result is supplier/readout support only.
 
 ## Adapted repo burden
 

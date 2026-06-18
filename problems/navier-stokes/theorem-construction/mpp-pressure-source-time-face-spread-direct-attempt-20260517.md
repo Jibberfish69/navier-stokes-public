@@ -111,7 +111,7 @@ The prior verdict stands. Pressure/Leray coupling binds spatial carriers and sig
 \qquad \omega_R(\varepsilon)\downarrow0.
 ```
 
-The terminal-layer model
+The endpoint time-marginal witness
 
 ```math
 \rho(y)m\mathbf 1_{(-1/m,0]}(s)dy ds

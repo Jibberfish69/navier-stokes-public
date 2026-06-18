@@ -51,7 +51,8 @@ The pressure Poisson law gives
 \tag{PHG.3}
 ```
 
-after harmless tensor contractions.  Therefore, for each selected receiver
+after the fixed tensor contractions in the Hessian/Riesz representation.
+Therefore, for each selected receiver
 `P`,
 
 ```math

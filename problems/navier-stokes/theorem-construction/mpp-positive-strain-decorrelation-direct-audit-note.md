@@ -11,8 +11,9 @@ PositiveStrainDecorrelation.A.
 }
 ```
 
-This theorem would deplete the positive active-strain remainder on selected
-terminal packets and hence feed `PositiveRemainderDepletion.A`.
+The proof role of `PositiveStrainDecorrelation.A` is the exact depletion
+estimate below: it bounds the positive active-strain remainder on selected
+terminal packets and then supplies that input to `PositiveRemainderDepletion.A`.
 
 ## Target
 
@@ -76,4 +77,3 @@ PositiveSourceDepletion.A.
 
 The reverse implication is not claimed as a theorem; the point is that no
 weaker installed estimate currently supplies the needed decorrelation.
-

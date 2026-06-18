@@ -83,7 +83,12 @@ The remaining candidate is a temporal-spread class:
 \qquad \alpha>0.
 ```
 
-Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous in time, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
+A theorem proving the displayed temporal-spread bound eliminates a terminal
+pressure atom and supplies the temporal input needed by a pressure Liouville
+route. This candidate is genuinely new. It requires an elliptic-to-temporal
+theorem: pressure is instantaneous in time, so temporal spread must come from
+terminal packet dynamics or from a material identity, not from
+Calderon-Zygmund ellipticity alone.
 
 The sharpened alternative is therefore
 

@@ -80,7 +80,7 @@ g_m(s)=m\,1_{(-1/m,0]}(s)
 \rightharpoonup \delta_{s=0}
 ```
 
-can carry order-one selected source mass on a shrinking terminal layer. Spatial
+can carry selected source mass bounded below by `M_0>0` on a shrinking terminal layer. Spatial
 Calderon-Zygmund control can see the corresponding pressure response at each
 time slice, while leaving the time support unchanged.
 
@@ -109,7 +109,7 @@ native positive source atom:
 B_{ASAC}^{closed,min}
 ```
 
-with the same terminal model:
+with the same endpoint time-marginal witness:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s).

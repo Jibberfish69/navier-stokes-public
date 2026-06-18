@@ -167,7 +167,7 @@ A theorem that only says "`X` blows up" has not landed in CM yet.
 
 Most public critical-norm exits should be treated as `Field`-side candidates
 unless the proof identifies a cover/carrier failure or a same-PDE participation
-failure. That is only a sorting heuristic. The theorem still has to prove the
+failure. That is only a preliminary sort. The theorem still has to prove the
 typed landing:
 
 ```math

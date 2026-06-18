@@ -433,7 +433,7 @@ This is the class-membership contradiction program in its primitive form.
 
 This note deliberately does **not**:
 
-1. collapse the route into the standard continuation wall
+1. collapse the route into the plain `H^s` continuation wall
    `\int_0^T \|\nabla u\|_{L^\infty}\,dt`;
 2. over-compose the route into a generic bundle of amplitudes, coherence
    moduli, and carrier norms;
@@ -469,7 +469,7 @@ That PDE-native sharpening is recorded separately in
 
 So the present note remains the primitive statement surface, while the new note
 pushes the route one layer deeper into PDE-generated structure without
-collapsing it into a standard continuation package.
+collapsing it into a plain continuation package.
 
 Inside this primitive surface, the remaining burden is:
 

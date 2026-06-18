@@ -14,7 +14,8 @@ Use Hardy-type cancellation on transported shells to control pressure work in th
 \qquad (R\to\infty).
 ```
 
-A successful theorem would convert the pressure tail into summable shell errors or a radial derivative with a favorable sign.
+The pressure-tail Hardy target is a theorem converting the pressure tail into
+summable shell errors or a radial derivative with a favorable sign.
 
 ## Attempt 1: spherical Hardy cancellation
 
@@ -50,7 +51,9 @@ Stable and unstable sectors create opposite transport tendencies. Pressure work 
 
 `PressureTailHardyTransportedShells.A` is not installed.
 
-The pressure-tail part of transported-boundary tightness remains open and would require a new geometric Hardy theorem for anisotropic transported shells, plus tail control for nonselected field energy.
+The pressure-tail part of transported-boundary tightness remains open. The
+missing input is a geometric Hardy theorem for anisotropic transported shells,
+plus tail control for nonselected field energy.
 
 The final component in this reduced list is the terminal time-face anti-atom theorem.## Continuation audit: ChatGPT 2026-05-18
 

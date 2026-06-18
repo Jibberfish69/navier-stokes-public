@@ -5,7 +5,7 @@ ns_viewer:
   proof_role: exactness_accounting
   logical_landing_node: cone_funnel_active_square_exactness_repair
   source_authority:
-    - problems/navier-stokes/docs/Samples/pulling teeth/pulling-teeth-transcript.pdf
+    - problems/navier-stokes/submission-bundle/authoring/lab/transcripts/pulling-teeth/pulling-teeth-transcript.pdf
     - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-cone-payment-closure-package-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
@@ -172,41 +172,25 @@ does not claim that the full Navier-Stokes proof is closed,
 that the stronger annular supplier is proved, or that every older theorem note
 in the repo has been exactness-swept.
 
-## 7. Repo-Wide Exactness Sweep Status
+## 7. Live Exactness Status
 
-The transcript failure was systemic.  A follow-on sweep repaired live theorem
-notes across the cone, annular, active-square, tail-energy, exact-potential,
-far-corona, gradient/lifted-band, Lagrangian, pressure-recovery, and generated
-MCP support surfaces by replacing proof-bearing estimate shorthand, asymptotic
-notation, big-O notation, and informal route language with named constants,
-exact dyadic windows, definitions, or explicit obstruction status.
+The transcript failure was systemic, but classifier counts and generated
+inventories are only finding aids.  They do not prove that a live theorem
+surface has been mathematically repaired.  A live surface is repaired only when
+the surface itself names the old loose claim, replaces it by the exact object
+or inequality being spent, states the hypotheses, and carries the consequence
+into the branch it controls.
 
-The 2026-06-14 continuation extended the exactness guard in three ways.  First,
-it added a prose profile, so loose proof-facing scale language and vague route
-labels are audited with the symbolic markers.  Second, it added TeX extension
-support, so the submission bundle can be checked directly instead of treating
-the manuscript appendices as outside the scan.  Third, it separated live
-proof-bearing surfaces from sample evidence, archived production packets,
-quarantine/ingest files, and tool implementation text.
+For this note, the repaired live content is the moving-radius oscillation
+replacement in Sections 1--2 and the gold/obstruction/silver branch boundary in
+Sections 3--6.  The exact downstream burden is unchanged by any sweep count:
+the stronger residual source-balanced annular supplier remains open, and the
+silver branch applies only after same-solution admission, positive-radius
+carrier, and readout have been paid on the admitted object.
 
-The broad `problems/navier-stokes` prose-profile pass over `.md`, `.tex`,
-`.yaml`, `.yml`, `.rb`, and `.py` now reports
-`proof_bearing_or_unclassified_file_count: 0` and
-`proof_bearing_or_unclassified_hit_count: 0` across 954 marker hits.  The
-remaining marker files are classified as sample evidence, historical/verbatim
-support, forensic/audit support, archived production support, quarantine/ingest
-support, tool implementation text, shell-collar notation, relation notation,
-URL/path text, or legitimate approximation-method language.  That guard result
-means the systemic hand-wave class exposed by the transcript is currently
-cleared from live proof-bearing Navier-Stokes surfaces under the installed
-classifier.
-
-The full submission-bundle TeX pass now reports 0 proof-bearing or unclassified
-hits under the same prose profile.  The rebuilt PDF compiled after the TeX
-repair, and the rendered page for the lifted-band obstruction now states the
-exact unpaid `2^k` square-factor payment.
-
-This is still an exactness and accounting result, not a proof-completion claim.
-The stronger gold supplier remains open at the residual source-balanced annular
-control wall, and the silver branch still applies only after same-solution
-admission, positive-radius carrier, and readout have been paid.
+Older broad-sweep outputs, TeX marker reports, and generated classifications
+may be used to find candidate residues.  They are not proof authority and must
+not be cited as completion of the systemic hand-wave repair unless the
+importing live manuscript, theorem, frontier, verdict, or active construction
+note contains the exact replacement and its downstream consequence in its own
+text.

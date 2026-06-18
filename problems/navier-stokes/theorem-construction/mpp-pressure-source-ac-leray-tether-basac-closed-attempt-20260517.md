@@ -10,7 +10,7 @@ Outcome: open. Pressure/Leray coupling gives conditional near-band signed-curren
 
 ## Target
 
-A useful pressure/Leray production theorem would be:
+A useful pressure/Leray production theorem is:
 
 ```math
 \boxed{PressureSourceAC.A}
@@ -25,10 +25,10 @@ or finite-packet form
 Desired content:
 
 ```text
-pressure quadratic-gradient residue is absolutely continuous with respect to the native source-current residue, with a spread estimate strong enough to exclude a pure terminal time-face source atom.
+pressure quadratic-gradient residue is absolutely continuous with respect to the native source-current residue, with a spread estimate sufficient to exclude a pure terminal time-face source atom.
 ```
 
-A successful theorem would feed:
+A successful theorem feeds:
 
 ```math
 PressureSourceAC.A
@@ -70,7 +70,7 @@ Thus absolute pressure domination gives a sufficient condition and no independen
 
 ## Attempt 2: pressure-source absolute continuity
 
-A residue-level absolute-continuity theorem would need a measure relation of the form
+A residue-level absolute-continuity theorem requires a measure relation of the form
 
 ```math
 \mu_*^{press}(E)=0\quad\text{whenever}\quad\mu_*^{src}(E)=0,
@@ -82,7 +82,7 @@ The installed pressure surfaces provide partner and collar decompositions. They 
 
 ## Attempt 3: localized Leray tether
 
-A finite-packet Leray tether would keep pressure/source-current partners attached before the terminal positive-part selection.
+A finite-packet Leray tether keeps pressure/source-current partners attached before the terminal positive-part selection.
 
 The obstruction is the signed selection gap. Leray projection and pressure localization move mass across packets and signs. After one-sided terminal selection, signed cancellation can leave a positive residue unless a terminal partner theorem, donor depletion theorem, legal-exit theorem, or temporal anti-atom theorem is supplied.
 
@@ -104,7 +104,7 @@ PressureTimeFaceSpread.A
 PressureSourceAC.A.
 ```
 
-The new independent atom would be:
+The new independent atom is:
 
 ```math
 \boxed{PressureTimeFaceSpread.A}
@@ -138,7 +138,7 @@ PressureSourceAC.A
 BASACTimeFaceAntiAtom.A
 ```
 
-provided the absolute-continuity statement includes a pressure/source time-spread estimate strong enough to kill the terminal face atom.
+provided the absolute-continuity statement includes a pressure/source time-spread estimate sufficient to kill the terminal face atom.
 
 The direct theorem remains open. Calderon-Zygmund pressure control gives spatial and quadratic-gradient control at fixed heat time. Leray projection is spatial. Both can preserve a shrinking time support. Absolute continuity alone allows pressure and source measures to charge the same terminal face. The finite-packet Leray tether still needs terminal orientation, commutator legality, and saturation gates through one-sided positive selection.
 

@@ -22,19 +22,27 @@ A diagnostic landing is weaker. It classifies the obstruction. A witness theorem
 
 ## 1. PressureSourceAC.A / LocalizedLeraySourceTether.A_ind
 
-If proved, this endpoint would convert pressure-sustain residue into native source residue or a finite packet source tether. That would feed the source-current branch and could support Field-side source data.
+A proved endpoint of this type converts pressure-sustain residue into native
+source residue or a finite packet source tether. Only after that conversion does
+it feed the source-current branch or support Field-side source data.
 
 The endpoint remains unproved. The finite packet tether still requires independent terminal Leray orientation, commutator legality, and saturation. Therefore it supplies no present Pack/Part/Field witness.
 
 ## 2. PurePressureSustainResidueLiouville.A
 
-If proved, this endpoint would remove the pure pressure-sustain residue. The direct Liouville, rigid-class production, trace/angular saturation, legal classification, and time-spread tests all failed from installed inputs.
+A proved endpoint of this type removes the pure pressure-sustain residue. The
+direct Liouville, rigid-class production, trace/angular saturation, legal
+classification, and time-spread tests all failed from installed inputs.
 
 Thus this endpoint supplies no present witness face. It remains a future pressure-specific theorem.
 
 ## 3. TerminalPressurePureStrainLegal.A
 
-If proved, this endpoint would create a legal pressure class for retained pure-strain pressure sustain. The legal-classification attempt showed that the existing legal pressure ledgers cover collar, harmonic, cutoff/projector, and off-family exits only. The retained interior pure pressure residue needs a new legal class and terminal summability proof.
+A proved endpoint of this type creates a legal pressure class for retained
+pure-strain pressure sustain. The legal-classification attempt showed that the
+existing legal pressure ledgers cover collar, harmonic, cutoff/projector, and
+off-family exits only. The retained interior pure pressure residue needs a new
+legal class and terminal summability proof.
 
 Thus this endpoint supplies no present witness face.
 

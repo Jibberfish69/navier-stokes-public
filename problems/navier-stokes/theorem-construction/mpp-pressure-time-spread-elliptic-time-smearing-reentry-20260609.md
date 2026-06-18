@@ -13,7 +13,7 @@ The previous pass reduced the pure pressure-source singular branch to:
 PressureTimeSpread.A / EllipticTimeSmearing.A.
 ```
 
-A useful form would be a terminal strip modulus for the pure pressure residue:
+A useful exact form is a terminal strip modulus for the pure pressure residue:
 
 ```math
 \mu_*^{press\perp src}(B_R\times[-\varepsilon,0])
@@ -21,8 +21,8 @@ A useful form would be a terminal strip modulus for the pure pressure residue:
 \qquad \alpha>0.
 ```
 
-This would remove a pure terminal pressure atom, produce a pressure rigid class,
-and feed:
+This estimate removes a pure terminal pressure atom, produces a pressure rigid class,
+and feeds:
 
 ```text
 PurePressureSustainResidueLiouville.A
@@ -76,7 +76,7 @@ g_m(s)=m1_{(-1/m,0]}(s)
 \rightharpoonup\delta_{s=0}.
 ```
 
-It can carry order-one pressure-sustain mass on a shrinking terminal time
+It can carry pressure-sustain mass bounded below by `M_0>0` on a shrinking terminal time
 layer. Spatial elliptic recovery sees the source at each time slice and does
 not spread it into earlier times. Local compactness can extract a terminal
 pressure residue. The pure-pressure branch keeps this residue singular to the
@@ -119,7 +119,7 @@ positive source atom:
 B_{ASAC}^{closed,min}
 ```
 
-with terminal model:
+with endpoint time-marginal witness:
 
 ```math
 g_m(s)=m1_{(-1/m,0]}(s).

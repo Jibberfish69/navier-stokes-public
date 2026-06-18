@@ -44,7 +44,12 @@ A possible theorem is
 \boxed{PressureInteriorToCollarTransfer.A.}
 ```
 
-This would say every interior pure pressure-sustain residue must emerge from hidden collar or harmonic pressure work. The pressure Poisson law supplies elliptic nonlocality, but the principal local pressure kernel can generate an interior directional lobe from the local quadratic-gradient carrier. No installed identity pushes that lobe to the collar once the principal local part remains.
+The statement is that every interior pure pressure-sustain residue must emerge
+from hidden collar or harmonic pressure work. The pressure Poisson law supplies
+elliptic nonlocality, but the principal local pressure kernel can generate an
+interior directional lobe from the local quadratic-gradient carrier. No
+installed identity pushes that lobe to the collar once the principal local part
+remains.
 
 ## 3. Cutoff/projector classification attempt
 
@@ -104,7 +109,10 @@ This run rechecked `TerminalPressurePureStrainLegal.A` after the independent Ler
 
 The previous legal-classification verdict stands. Existing pressure legal ledgers cover collar/boundary work, harmonic tails, cutoff/projector commutators, off-family pressure tails, and packets outside the retained terminal family. The pure pressure-sustain singular residue is defined after those channels are removed. It is an interior retained principal-local pressure-Hessian lobe.
 
-Thus `TerminalPressurePureStrainLegal.A` would need a new legal class and a terminal-weight summability estimate for the pure-strain pressure carrier. That estimate would have the strength of a new pressure depletion theorem, rather than an already installed legal escape.
+Thus `TerminalPressurePureStrainLegal.A` requires a new legal class and a
+terminal-weight summability estimate for the pure-strain pressure carrier. That
+estimate has the strength of a new pressure depletion theorem, rather than an
+already installed legal escape.
 
 The pressure-side branch therefore remains at these endpoints:
 

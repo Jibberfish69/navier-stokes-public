@@ -27,7 +27,7 @@ MSC.Spill.NoPulse,\qquad
 QDrain.A.
 ```
 
-The pressure route would need a theorem saying that the nonlocal pressure
+The exact pressure-route target is a theorem stating that the nonlocal pressure
 response prevents heat-scale source-balanced active pulses.
 
 ## Vorticity/Strain Identity
