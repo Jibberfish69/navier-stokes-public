@@ -10,9 +10,12 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
-This is the formal version of the old tower-transfer intuition: a child active
-pulse cannot blow up for free.  It must either spend a finite reserve or have a
-lawful same-fluid parent packet that fed it.
+This is the exact replacement for the old tower-transfer intuition: a child
+active pulse is not treated as "unable to blow up for free" by slogan.  The
+usable statement is the displayed parent-measure theorem below: source recovery,
+parent lower density, same-fluid edge fidelity, summable loss, and charge
+alternative must produce either a finite charge or a lawful comparable
+same-fluid predecessor packet.
 
 ## Pulse Packets
 
