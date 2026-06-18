@@ -202,7 +202,20 @@ window, so `(FFPR.A0)` applies to each
 net and use the definitions `(FFPR.1)`--`(FFPR.2)`. The constant term sums to
 `M_\varepsilon`, while the collar factor is common to the whole frozen net.
 This gives `(FFPR.B0)`. On the finite interval `I`, the sufficient interval
-discharge `(FFPR.B1)` follows from the same bound. ∎
+discharge `(FFPR.B1)` follows because
+
+```math
+\int_I
+\mathfrak C_{N+1,\rho,\psi}^{\delta+4\Lambda_{\delta,\rho}^{halo}}(t)\,dt
+<\infty,
+\qquad
+\int_I
+\mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}(t;I)\,dt
+<\infty
+```
+
+make the right-hand side of `(FFPR.B0)` integrable, while the frozen-net
+constant contributes only `M_\varepsilon |I|`. ∎
 
 ## Fixed-Radius Export
 
