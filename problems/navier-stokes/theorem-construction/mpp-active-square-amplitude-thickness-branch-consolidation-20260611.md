@@ -117,14 +117,16 @@ The selector-amplitude branch returns to a source/amplitude theorem.
 The terminal pulse-thickness route would pay LPAS by preventing the active shell
 from concentrating its first-moment drain into a short time interval.
 
-The obstruction is the standard zero-thickness profile:
+The obstruction is the explicit zero-thickness concentrating sequence:
 
 ```text
 g_m(s) = m 1_{(-1/m,0]}(s).
 ```
 
-It has finite `L^1` mass and weakly converges to a terminal time atom. Finite
-mass alone does not create a positive lower bound on time thickness.
+It satisfies `int g_m(s) ds = 1` for every `m`, while for every fixed
+`\tau>0` its support lies inside `(-\tau,0]` once `m>1/\tau`.  Thus it weakly
+converges to a terminal time atom. Finite `L^1` mass alone does not create a
+positive lower bound on time thickness.
 
 Orlicz, Morrey, super-`L^1`, or reverse-Holder control would close this branch
 if produced. The terminal atom or minimality hypothesis does not produce those
