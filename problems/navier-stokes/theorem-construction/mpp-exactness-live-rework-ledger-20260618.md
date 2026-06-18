@@ -4421,6 +4421,35 @@ Edited live theorem note:
 
 - `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
 
+## TPS Dynamic Target Conditionality Repair
+
+Old loose wording:
+
+- `tps-dynamic-source-fit-and-open-frontier.md` called the good-set layer a
+  "formal backbone," the donor-collapse leading edge a "formal shape," and the
+  current branch target the "cleanest formal target."
+- `tps-strong-bridge-sg-lemma-family.md` said an `SG.4B` lemma was "purely
+  formal."
+
+Exact replacement:
+
+The TPS dynamic note now describes these as a conditional backbone, conditional
+leading-edge shape, and conditional target packet. The SG lemma now states that
+it is algebraic under hypotheses `(SG.4Ba)`--`(SG.4Bc)`, with the remaining
+theorem-search burden being realization of those hypotheses from the
+Navier--Stokes selector packets.
+
+Downstream consequence:
+
+The TPS branch may not spend donor-collapse or SG.4B language as a proof by
+target shape alone. It must carry the financing/donor-death hypotheses or the
+explicit `(SG.4Ba)`--`(SG.4Bc)` selector-packet hypotheses.
+
+Edited live theorem notes:
+
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
+- `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
