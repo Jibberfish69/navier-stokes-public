@@ -69,7 +69,12 @@ must absorb the recycled `q\mapsto q+2` family across the whole center system.
 
 ### Proof
 
-This is just the substitution of `(RCF.8)` into `(LCI.3c3z15)`--`(LCI.3c3z17)`.
+Substitute the recycled-center identity `(RCF.8)` into the center ODE
+`(LCI.3c3z15)`. The pressure term gives
+`\mathfrak K_{q,\rho,\psi}^{press,ctr}`, the viscous recycled-center term gives
+`C_q\nu\mathfrak A_{q+2,\rho,\psi}^{ctr}`, and the quadratic center terms are
+the terms already listed in `(LCI.3c3z16)`--`(LCI.3c3z17)`. This is exactly
+`(WCA.1a)`.
 ∎
 
 ## Weighted Center Aggregate
