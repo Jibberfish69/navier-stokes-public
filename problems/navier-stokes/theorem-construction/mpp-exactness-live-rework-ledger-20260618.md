@@ -6271,6 +6271,66 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Friedrichs Energy Identity And Appendix Same-Identity Rework
+
+Old claim being spent:
+
+`carrier-realization-classical-identification.md` said the Friedrichs
+approximation obeyed the energy identity because "the same identity" holds after
+testing against `u_N`.  The submission appendix also used "the same statement"
+or "the same identity" in proof-facing passages for low-mode coefficients,
+mixed-jet energy, ATD depth bookkeeping, and bad-set growth.
+
+Exact replacement:
+
+The carrier realization proof now states the actual tested identities.  The
+cutoff is self-adjoint, Leray-commuting, and satisfies `P_N u_N=u_N`, so
+
+```text
+<P_N((u_N . grad)u_N),u_N>
+= <(u_N . grad)u_N,u_N>
+= 0,
+```
+
+and
+
+```text
+<P_N Delta u_N,u_N>
+= <Delta u_N,u_N>
+= -||grad u_N||_2^2.
+```
+
+The source-field reader appendix now states:
+
+- the uniform approximation-family low-mode bound follows by applying the same
+  dyadic inequality to `u^(n)` under
+  `sup_n ||u^(n)||_{L^\infty_t L^2_x} <= M`;
+- summing the differentiated mixed-jet identity over `2m+|alpha|=N` gives the
+  displayed family-level energy law;
+- the ATD packet requirement is the depth rule with the indices written out;
+- on `Bad_N(eta)`, the displayed localized energy identity leaves the explicit
+  unabsorbed term
+  `C gamma_j(t) B_{j,l}^sigma(t) 1_{Bad_N(eta)}(t)`;
+- the pressure-slot readout uses the displayed CKN/interior estimate rather
+  than a hidden "same CKN" reference.
+
+Proof or remaining burden:
+
+The Friedrichs energy identity is now proved directly by the two displayed
+pairings.  The appendix passages are reductions to displayed inequalities or
+index identities; they add no new theorem burden.
+
+Downstream consequence:
+
+The classical existence/compactness surface and its source-field appendix
+mirror no longer spend "same identity" wording for energy, jet, or bad-set
+growth steps.
+
+Surfaces edited:
+
+- `theorem-construction/carrier-realization-classical-identification.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Frozen-Family Pressure Interval Discharge Rework
 
 Old claim being spent:
