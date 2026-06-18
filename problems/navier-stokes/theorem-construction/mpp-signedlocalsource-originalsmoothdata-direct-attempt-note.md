@@ -17,8 +17,10 @@ not.
 
 ## Target Being Tested
 
-At the current route resolution, `SignedLocalSource.A` means one of the two
-equivalent source-normalization closures:
+At the current route resolution, `SignedLocalSource.A` can be supplied by one of
+two source-normalization closures.  This note does not prove the two forms
+equivalent; each may be spent downstream only after its own hypotheses are
+proved:
 
 ```math
 \text{signed weighted lifted-remainder cancellation with positive/residual
@@ -77,7 +79,7 @@ j\to\infty,
 t\uparrow T_\ast.
 ```
 
-Fixed-shell and compact-preterminal smoothness therefore do not provide the
+Fixed-shell and compact-preterminal smoothness do not provide the
 terminal scale-normalized source gain.
 
 ## Fixed-Shell Amplitude Test
@@ -93,14 +95,15 @@ c\varepsilon\nu^3 2^{3j}|I|
 
 The audit `square-source-shell-flux-estimate-result.md` shows why this cannot
 be a universal consequence of original smooth data.  For smooth finite-mode
-divergence-free data scaled by amplitude `A`, the shell flux scales as
+divergence-free data scaled by amplitude `A`, the shell flux obeys the exact
+amplitude identity
 
 ```math
 F_j(0;Au_0)=A^3F_j(0;u_0),
 ```
 
-so the square source scales like `A^6` on a short interval, while the displayed
-right-hand side is independent of `A`.  Thus a square-source theorem needs an
+so the square source is `A^6|F_j(0;u_0)|^2` on a short interval, while the
+displayed right-hand side is independent of `A`. A square-source theorem needs an
 active-window amplitude normalization or structural cancellation, not merely
 smooth initial data.
 
@@ -120,7 +123,7 @@ positive production; alignment with contracting directions gives negative
 production.  The unweighted exchange antisymmetry does not survive the
 one-sided weights, cutoffs, and lifted packet reductions as a sign theorem.
 
-Therefore original smooth data plus incompressibility does not imply the needed
+Original smooth data plus incompressibility does not imply the needed
 positive/residual reserve for the signed lifted remainder.
 
 ## Pressure Test
@@ -133,7 +136,7 @@ if it were a branch-native no-pulse theorem, which is circular.
 
 ## Reduction
 
-The direct route from original smooth data therefore reduces to one of the
+The direct route from original smooth data reduces to one of the
 following genuinely new PDE inputs:
 
 ```math
@@ -163,13 +166,16 @@ following genuinely new PDE inputs:
 active-square control.}
 ```
 
-These are route-equivalent presentations of the same source no-pulse atom at
-the current frontier.
+These are route-adjacent presentations of the same source no-pulse atom at the
+current frontier.  They are not interchangeable proof statements until a
+separate theorem proves the conversion between the signed one-sided reserve and
+the active-square/source-normalized form.
 
 The first branch is audited directly in
 `mpp-signed-remainder-reserve-direct-attempt-note.md`: the positive/residual
 reserve required to repair the signed lifted remainder is itself
-`ActiveSquareCarleson.A` or an equivalent source-normalization theorem, while
+`ActiveSquareCarleson.A` or a source-normalized theorem with the same
+selected-family strength, while
 the signed part still needs a new strain-sign cancellation theorem.
 
 ## Verdict

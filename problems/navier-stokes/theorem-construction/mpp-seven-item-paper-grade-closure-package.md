@@ -32,7 +32,14 @@ OriginalSmoothData\Longrightarrow TTU.A.
 
 Fix a terminal same-fluid approach tail. The scale-critical good-cylinder dichotomy gives two cases.
 
-In the strict averaged-good case, the tail has a finite same-fluid cover by cylinders with positive lower radius and bounded overlap. On each cylinder, local epsilon regularity gives a finite-depth averaged affine tower packet. The common scheduler lemma runs the averaged ACT budget on all cover elements and all finitely many route parameters, giving averaged transported-center control.
+In the strict averaged-good case, the tail has a finite same-fluid cover by
+cylinders with positive lower radius and bounded overlap.  On each selected
+cylinder the exact input is `SCF_{base}(Q_R^\Phi)<=\varepsilon_m`, with the
+bounded-distortion CKN comparison from Section 3; the `ATD_m^\varepsilon` lemma
+then supplies the finite-depth averaged affine tower packet on
+`Q_{\theta_mR}^\Phi`.  The common scheduler lemma runs the averaged ACT budget
+on all cover elements and all finitely many route parameters, giving averaged
+transported-center control.
 
 In the averaged-jump case, loss of every positive same-fluid good-cylinder scale is an averaged endpoint face. The averaged endpoint theorem removes that face.
 
@@ -42,7 +49,10 @@ Thus every terminal tail reaches averaged endpoint closure. The terminal readout
 
 ### Theorem 2.1
 
-Let endpoint tower depth be `N`, and choose readout depth `m>=N+2`. Assume averaged endpoint closure, a finite readout cover, averaged field control, averaged transported-center control, and `ATD_m^epsilon` on the shrunken cover. Then pointwise endpoint closure follows.
+Let endpoint tower depth be `N`, and choose readout depth `m>=N+2`. Assume
+averaged endpoint closure, a finite readout cover, averaged field control,
+averaged transported-center control, and `ATD_m^\varepsilon` on the shrunken
+cover. Then pointwise endpoint closure follows.
 
 ### Constants
 
@@ -112,7 +122,15 @@ ATD_m^\varepsilon(Q_{\theta_m R}^\Phi).
 
 ### Proof
 
-Rescale the moving cylinder to unit size. The bounded same-fluid distortion sends it to a CKN-admissible parabolic cylinder with controlled constants. Choose `epsilon_m` below the corresponding epsilon regularity threshold. Interior regularity and parabolic bootstrapping yield, for `0<=k<=m+2`,
+Rescale the moving cylinder to unit size.  The bounded same-fluid distortion is
+spent through the CKN comparison constants and the exact threshold
+
+```math
+C_M\,SCF_{base}(Q_R^\Phi)\le\varepsilon_{CKN}(m+2,M_\sharp,\nu).
+```
+
+Choose `epsilon_m` below that threshold.  Interior regularity and parabolic
+bootstrapping yield, for `0<=k<=m+2`,
 
 ```math
 \sup_{Q_{\theta_m R}^\Phi}R^{k+1}|\nabla^ku|+
@@ -135,7 +153,7 @@ Choose `theta_m` with `C_m theta_m^2<=eta_X`. The same derivative estimates give
 The exact source split gives
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
 ```
 
 The pressure channel, strain/cascade channel, and cutoff channel are the three components of the frozen-family source decomposition. Their integrable ledgers add to the five-family frozen source integrability statement `FCI.5f`.
@@ -143,13 +161,13 @@ The pressure channel, strain/cascade channel, and cutoff channel are the three c
 The sufficient route is compatible:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Thus the single downstream source theorem is
 
 ```math
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)\Longrightarrow FCI.5f.
+FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 5. Standalone endpoint matrix theorem

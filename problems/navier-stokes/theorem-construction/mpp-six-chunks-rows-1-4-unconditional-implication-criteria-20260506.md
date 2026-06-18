@@ -31,9 +31,9 @@ Let `u` be a classical Navier--Stokes solution on `[0,T)` and assume
 \sup_{t<T}\|u(t)\|_{H^1}<\infty.
 ```
 
-The standard local theory gives a restart lifespan depending only on this
-uniform `H^1` bound.  Restarting from times `t_n\uparrow T` and using uniqueness
-continues the solution past `T`.
+The `H^1` local strong-solution relaunch theorem being invoked here must give a
+restart lifespan depending only on this uniform `H^1` bound.  Restarting from
+times `t_n\uparrow T` and using uniqueness continues the solution past `T`.
 
 Thus:
 
@@ -198,4 +198,3 @@ They do not buy:
 \text{high-tail exclusion},\quad
 \text{source-wall closure}.
 ```
-

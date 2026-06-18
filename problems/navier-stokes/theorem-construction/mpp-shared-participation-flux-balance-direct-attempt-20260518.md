@@ -62,7 +62,7 @@ conservation law for the positive source residue.
 ## 2. The missing balance
 
 The native source residue is a selected positive source-current trace. The
-dangerous terminal model is
+dangerous endpoint time-marginal witness is
 
 ```math
 F_m^{src,+}(t)=\tau_m^{-1}{\bf 1}_{[T-\tau_m,T]}(t),

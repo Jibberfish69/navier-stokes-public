@@ -385,7 +385,7 @@ Installed/local statuses:
 - `LowMode.A` is installed by the strict paraproduct reduction.
 - `SP.A` is installed by the threshold-spill collar reduction.
 - `HH.A` is installed under the enstrophy component by the cubic-tail
-  absorption lemma.
+  coefficient-margin lemma.
 - `Sched.A` is installed conditionally once `GC.A` is accepted.
 - `LiftedHighSide.A` is not safely removable from the theorem-primary audit.
 

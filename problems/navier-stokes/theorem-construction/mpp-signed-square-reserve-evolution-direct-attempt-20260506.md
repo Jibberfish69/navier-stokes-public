@@ -36,7 +36,9 @@ and terminal boundary control
 |\Phi_N(T_*)|+|\Phi_N(0)|\le o_N(1)+Loss_{legal}.
 ```
 
-Such an identity would imply `ScaleCriticalTreeCarleson.A` by integrating in time.
+The displayed signed identity is sufficient for `ScaleCriticalTreeCarleson.A`
+only together with the stated terminal boundary control and `L^1_t` error bound;
+integrating in time then gives the reserve estimate.
 
 ## Formal primitive test
 

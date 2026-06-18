@@ -21,11 +21,12 @@ from global shell norms, and
 
 ```math
 LocalSource.NoPulse.A
-\equiv_{\mathrm{route}}
+\sim_{\mathrm{route}}
 SOURCE.NO\text{-}PULSE.A.
 ```
 
-Thus the only non-compactness route left is the signed/local source theorem:
+This route-map alias does not prove a two-way theorem.  The remaining
+non-compactness route is the signed/local source theorem:
 
 ```math
 \boxed{
@@ -97,19 +98,24 @@ strain depletion theorem.
 
 ## Final Collapse
 
-The live branch is therefore:
+The live branch records the following implication chain once
+`SignedLocalSource.A` is actually proved:
 
 ```math
 \boxed{
 SignedLocalSource.A
-\Longleftrightarrow_{\mathrm{route}}
+\Longrightarrow
 LocalSource.NoPulse.A
-\Longleftrightarrow_{\mathrm{route}}
+\Longrightarrow
 SOURCE.NO\text{-}PULSE.A
 \Longrightarrow
 Jump_{avg}\Rightarrow\bot.
 }
 ```
+
+The reverse arrows are not installed by this note.  The source/no-pulse labels
+are route-map names for the same unresolved atom, not proof-equivalent theorems
+that may be substituted without a conversion result.
 
 `FFSRC.A=>FCI.5f` remains installed for the downstream collar/source consumer,
 but it does not prove `SignedLocalSource.A`.
@@ -125,7 +131,7 @@ OriginalSmoothData\Longrightarrow SignedLocalSource.A,
 }
 ```
 
-equivalently, prove from original smooth data either:
+with the following sufficient active forms:
 
 ```math
 \text{signed weighted lifted-remainder cancellation with positive/residual reserve}
@@ -137,7 +143,7 @@ or
 \text{active-square residual-tail / square-source / active-window Carleson control}.
 ```
 
-Equivalently in the local-source language, prove:
+In the local-source language, sufficient forms are:
 
 ```math
 LocalStrainDepletion.A
@@ -162,13 +168,15 @@ ActiveShellAmplitudeGain.A.
 ```
 
 The follow-up target note `mpp-sourcepulse-exclusion-active-target-note.md`
-closes that split to one route-equivalent theorem:
+records the route-map alias:
 
 ```math
 SourcePulseExclusion.A
-\Longleftrightarrow_{\mathrm{route}}
+\sim_{\mathrm{route}}
 SignedLocalSource.A.
 ```
 
-This is now the sharp active theorem target for branch-native `Jump_avg`
-elimination.
+This alias is bookkeeping for the same unresolved source no-pulse atom.  The
+branch-native `Jump_avg` elimination still needs one proved active theorem:
+signed one-sided reserve, active-square/source-normalized Carleson control, or a
+proved conversion between those two forms.

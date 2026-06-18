@@ -81,7 +81,7 @@ For any swirl readout around the point,
 |Omega(rho,t)| <= C
 ```
 
-up to the harmless rigid-motion choice of the point velocity.
+after fixing the rigid-motion gauge for the point velocity.
 
 So a branch with genuinely uniform finite outward gradient cannot also carry
 infinite point spin as a velocity-gradient singularity. The singularity is

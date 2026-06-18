@@ -176,7 +176,7 @@ material by another name.
 | endpoint matrix / endpoint taxonomy | Pack = packing-detached, Part = Dead, Field = Jump, tower-blown/readout rows reduce back to native faces | taxonomy only; no Euler entrance without same selected packet and \(EVol+EMom\) |
 | `TerminalSourceResidueCMExit.A` | no positive carrier gives Pack; unpaid retained source/forcing gives Part | excluded while raw residue remains; clean Part subcase requires source-measure removal |
 | `TerminalL3DuhamelMassCMFace.A` | source-wall failure gives Pack; unpaid native residue gives Part; retained Pack+Part critical L3 concentration gives Field | clean retained-Field subcase only after same-ledger no-residue typing |
-| `AveragedFieldFaceAdmission.A` / `Jump_avg` | retained Pack+Part plus `Jump_avg` lands as no positive Field scale | clean Field subcase after same admitted averaged packet and no defect leak |
+| `AveragedFieldFaceAdmission.A` / `Jump_avg` | retained Pack+Part plus `Jump_avg` rules out positive Field scale only after the same-tail `SCF_base` modulus is supplied or derived | conditional Field subcase after same admitted averaged packet, no defect leak, and the repaired modulus input |
 | `RetainedPressurePackageCMFacePlacement.A` | pressure package is Part failure, pass-side support, or Field failure after retained Pack+Part | clean Part or Field subcases only |
 | `REE.C` receiver escape | missing Pack or Part lands earlier; retained Pack+Part receiver escape lands in Field | clean Field subcase only when receiver escape is one-field tether loss without source residue |
 | `LowHighInfiniteCostEndpointSource.A` | endpoint source atom with no positive retained carrier lands as Pack | does not apply |

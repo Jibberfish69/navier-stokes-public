@@ -7,7 +7,7 @@ governing_program: "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{
 claim_boundary:
   logical_landing_node: SelectedPositivePackSourceUniformIntegrability.A / OriginalSmoothDataPackSurvival.A
   claim_status: not_proved
-  edge_effect: "Tests whether the selected positive Pack source family is uniformly integrable near the terminal time. It is not proved from current inputs: finite native mass, local-energy/BV traces, same-solution custody, and first-exit minimality still allow shrinking terminal strip concentration."
+  edge_effect: "Tests whether the selected positive Pack source family is uniformly integrable near the terminal time. It is not proved from current inputs: finite native mass, local-energy/BV traces, same-solution custody, and first-exit minimality still allow nonnegative source-time marginals on shrinking terminal windows with fixed positive mass."
   downstream_consequence: "The first-Pack wall remains open. Future progress must produce terminal active-time thickness, selector stability, a Pack-critical-element rigidity/stability theorem, or another non-circular theorem excluding the selected terminal Pack source atom. pdfs_final remains false."
 evidence_refs:
   - problems/navier-stokes/theorem-construction/mpp-no-zero-thickness-terminal-pack-atom-from-original-smooth-data-direct-attempt-20260610.md
@@ -29,17 +29,17 @@ tightness.
 # Direct Attempt
 
 The current inputs give finite mass and same-solution custody. They do not give
-uniform integrability. The selected positive Pack source can still concentrate
-as:
+uniform integrability. The selected positive Pack source can still be represented
+by nonnegative time marginals on shrinking terminal windows. The sharp witness is:
 
 ```math
-g_m(s)=m1_{(-1/m,0]}(s),
+g_m(s)=m 1_{(-1/m,0]}(s),
 \qquad
 g_m(s)\,ds\rightharpoonup\delta_0.
 ```
 
-This family is bounded in `L^1` but not uniformly integrable. The terminal atom
-is exactly the object the theorem must remove.
+This family is bounded in `L^1`, has unit mass, and is not uniformly
+integrable. The terminal atom is exactly the object the theorem must remove.
 
 # Why The Selected Pack Label Does Not Add The Missing Estimate
 
@@ -71,7 +71,8 @@ or SelectedPositivePackSourceNoAtom.A.
 
 `NS-LIVE-20260609-212`: selected positive Pack source uniform integrability is
 not proved. Finite native mass, local-energy/BV traces, same-solution custody,
-and first-exit minimality still allow shrinking terminal strip concentration.
+and first-exit minimality still allow nonnegative source-time marginals on
+shrinking terminal windows with fixed positive mass.
 The active loop must prove terminal active-time thickness, Pack selector
 stability, Pack critical-element stability, or another theorem excluding the
 selected terminal Pack source atom before `OriginalSmoothDataPackSurvival.A`

@@ -111,7 +111,7 @@ bump family, without using the finite-frame branch or the cap-floor loop.
 
 Equivalently, prove a finite discrepancy bound against the reference spherical
 or shell measure that is smaller than the reference mass of every bump in the
-finite list. That would immediately pay the comparability and lower-bound
+finite list. That would pay the comparability and lower-bound
 packets. The current repo surfaces do not yet prove such an angular spreading
 mechanism from the Navier-Stokes source data.
 

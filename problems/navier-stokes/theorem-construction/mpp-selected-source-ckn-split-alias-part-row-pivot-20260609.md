@@ -164,7 +164,7 @@ retained, prove terminal no-defect participation on the retained carrier, or
 prove that an unpaid native pressure/source tower defect cannot be the finite
 Clay breakdown witness.
 
-The first immediate subpass should attack `PartFailureTargetFidelityBridge.A`,
+The first subpass should attack `PartFailureTargetFidelityBridge.A`,
 because the recent loop has repeatedly treated CM face classification as if it
 were public Clay exclusion.  If target fidelity alone fails, the loop must
 return to the concrete no-defect compactness/payment targets rather than

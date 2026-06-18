@@ -4,7 +4,7 @@ ns_viewer:
   status: signed-decorrelation-branch-collapsed-to-source-time-cost-or-residual-active-square-theorem
   proof_role: forward_positive_signed_decorrelation_branch_collapse
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Tests the remaining signed/decorrelation child after square-source and source-normalization were demoted to conditional bridge/alias surfaces. Active eigendirection decorrelation is not supplied by incompressibility, pressure, same-fluid transport, angular-mixing language, or Beltrami/helical labels. Persistent expansion alignment forces a reserve only after a real time-thickness, amplitude-gain, or drain/no-incoming mechanism is proved. Since amplitude gain is the active-square wall again, the non-alias forward-positive children are SourceTimeConcentrationCost.A or residual active-square through LPAS/CTS/FCTS/Car."
+  edge_effect: "Tests the remaining signed/decorrelation child after square-source and source-normalization were classified as conditional bridge/alias support surfaces with no proof force. Active eigendirection decorrelation is not supplied by incompressibility, pressure, same-fluid transport, angular-mixing language, or Beltrami/helical labels. Persistent expansion alignment forces a reserve only after a real time-thickness, amplitude-gain, or drain/no-incoming mechanism is proved. Since amplitude gain is the active-square wall again, the non-alias forward-positive children are SourceTimeConcentrationCost.A or residual active-square through LPAS/CTS/FCTS/Car."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-active-eigendirection-decorrel-reentry-20260609.md
@@ -65,7 +65,7 @@ selection, cutoffs, lifted remainders, and positive-part extraction. It does
 not control the selected positive part.
 
 Beltrami, helical, vorticity-direction coherence, angular equipartition, and
-anti-coherence classes would help if a theorem produced the active terminal
+anti-coherence classes help only after a theorem produces the active terminal
 packet inside those classes. The current inputs do not produce that theorem.
 
 ## 2. Persistent Alignment Is The Sharp Remaining Model

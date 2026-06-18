@@ -45,8 +45,7 @@ principal commutatorized strain form can align with expanding strain
 directions, so signed cancellation alone does not provide a positive/residual
 reserve.
 
-Thus this route reduces to positive-part strain depletion or an active-square
-replacement.
+This route needs positive-part strain depletion or an active-square replacement.
 
 ## Active-Square Residual Tail
 
@@ -77,37 +76,41 @@ SquareSource.A,
 ActiveShellAmplitudeGain.A
 ```
 
-reduce to one structural theorem:
+share one visible source-normalization burden.  This note does not prove a
+two-way equivalence between the four names.  A downstream proof may spend only a
+displayed theorem of one of the following exact forms:
+
+```math
+\boxed{
+\sum_\ell
+\int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j(t)^2\,dt
+\le C(E_0,\nu,\text{atlas})
+\quad\text{for every separated terminal active family } \{Q_\ell\},
+}
+```
+
+or a one-sided signed-remainder theorem that controls the positive selected
+production without replacing it by the active-square envelope.  The common
+sufficient hypothesis can be recorded as:
 
 ```math
 \boxed{
 ActiveShellSourceNormalize.A:
-\text{terminal active shell windows cannot be source-balanced at
-scale-critical strength from }OriginalSmoothData.
+\text{the selected terminal active shells satisfy a scale-normalized
+source-square bound strong enough for the displayed active-square estimate.}
 }
-```
-
-In route language,
-
-```math
-ActiveShellSourceNormalize.A
-\Longleftrightarrow_{\mathrm{route}}
-SourcePulseExclusion.A
-\Longleftrightarrow_{\mathrm{route}}
-SignedLocalSource.A
-\Longleftrightarrow_{\mathrm{route}}
-SOURCE.NO\text{-}PULSE.A.
 ```
 
 ## Verdict
 
 There is no remaining deterministic subtarget behind `SignedLocalSource.A` that
-is currently softer than the source-normalization theorem above.  The active
-terminal theorem is:
+is currently proved softer than the source-normalization theorem above.  The
+active terminal theorem is:
 
 ```math
 \boxed{
-OriginalSmoothData\Longrightarrow ActiveShellSourceNormalize.A.
+OriginalSmoothData\Longrightarrow ActiveShellSourceNormalize.A
+\quad\text{or an explicit one-sided signed-remainder theorem.}
 }
 ```
 

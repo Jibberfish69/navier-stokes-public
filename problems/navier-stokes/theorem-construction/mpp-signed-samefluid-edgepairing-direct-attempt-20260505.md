@@ -69,7 +69,7 @@ divergence-free shell `a_k`,
 \tag{EP.1}
 ```
 
-Therefore a signed theorem is plausible only if it is applied before absolute
+A signed theorem can have proof force here only if it is applied before absolute
 values and before the source is flattened into a positive carrier.
 
 But the source-wall branch does not consume the bare unweighted exchange.  It
@@ -285,7 +285,7 @@ SignedPositiveBalance.A:
 ```
 
 Current installed inputs do not prove this.  Taking absolute values avoids the
-missing signed saturation theorem but immediately returns to:
+missing signed saturation theorem but returns straight to:
 
 ```math
 \boxed{
@@ -295,10 +295,10 @@ ScaleCriticalTreeCarleson.A.
 
 ## Working Verdict
 
-The signed-exchange idea identifies the only plausible structural mechanism:
-source pulses must pay by signed exchange.  But the current route still lacks
-the terminal saturation theorem that keeps the negative counter-edge in the
-same usable same-fluid ledger.
+The signed-exchange idea identifies the structural mechanism candidate: source
+pulses must pay by signed exchange.  The current route still lacks the terminal
+saturation theorem that keeps the negative counter-edge in the same usable
+same-fluid ledger.
 
 Thus this attempt does not close `ScaleCriticalTreeCarleson.A`.  It sharpens
 the signed route to:

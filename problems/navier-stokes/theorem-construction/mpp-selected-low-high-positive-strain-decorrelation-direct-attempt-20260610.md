@@ -46,7 +46,8 @@ Proof program: CM contrapositive public-finality bridge.
 Target role: prove or reduce the decorrelation payment needed by the low-high
 source-Carleson branch.
 
-Logical skeleton: obstruction model plus dynamic-cost reduction.
+Logical skeleton: explicit frozen aligned test configuration plus dynamic-cost
+reduction.
 
 Mechanism tested: incompressibility, signed dyadic exchange, pressure recovery,
 same-fluid transport, and existing alignment-decorrelation notes.
@@ -54,7 +55,7 @@ same-fluid transport, and existing alignment-decorrelation notes.
 ## Static Inputs Do Not Prove Decorrelation
 
 The existing terminal strain-alignment pressure test already gives the relevant
-model. Freeze a trace-free lower strain matrix
+test configuration. Freeze a trace-free lower strain matrix
 
 ```text
 S=diag(2,-1,-1),
@@ -68,9 +69,9 @@ g_m(s)=m\,1_{(-1/m,0]}(s).
 ```
 
 The packet is divergence-free at principal-symbol level, the polarization sits
-in an expanding eigendirection, and the selected positive source is order one
-on the terminal strip. The model keeps finite local `L^1_s` mass and no fixed
-earlier selected slice.
+in an expanding eigendirection, and the selected positive source has positive
+mass on the terminal strip. This test configuration keeps finite local `L^1_s`
+mass and no fixed earlier selected slice.
 
 This means trace-free strain, principal incompressibility, finite source mass,
 same-fluid packet custody, and no fixed earlier selected source slice do not
@@ -147,9 +148,10 @@ remain non-final.
 ## New Live Criticism
 
 `NS-LIVE-20260609-220`: `SelectedLowHighPositiveStrainDecorrelation.A` is not
-proved. The frozen trace-free expanding-eigenpacket model survives the current
-soft inputs and shows that a selected high packet can co-locate with positive
-low strain on shrinking terminal heat windows. The active loop must prove a
+proved. The frozen trace-free expanding-eigenpacket test configuration survives
+the current soft inputs and shows that a selected high packet can co-locate
+with positive low strain on shrinking terminal heat windows. The active loop
+must prove a
 dynamic eigenpacket no-freeze, pressure/Leray eigenframe rotation cost,
 low-high frame BV charge, multi-direction participation tether, low-high
 positive-strain residence, terminal strip modulus, scale-nested Liouville, or an

@@ -68,5 +68,7 @@ AWG.A,
 }
 ```
 
-but both supplier terms reduce to the same active-window source-normalization
-primitive unless a new sign theorem is installed.
+but the current route can spend the signed term only after a genuine one-sided
+sign theorem is installed.  If the proof replaces the signed term by absolute
+values, the residual term is the active-window source-normalization primitive
+above; that conversion is an extra hypothesis, not a free equivalence.

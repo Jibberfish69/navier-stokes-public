@@ -89,7 +89,7 @@ Assume a selected terminal source-balanced active pulse remains after the
 installed legal exits:
 
 ```text
-source mass on Q_j is order one in normalized heat-scale units,
+source mass on Q_j has a fixed positive normalized heat-scale lower bound,
 time thickness is comparable to or smaller than nu^{-1}2^{-2j},
 and F_j balances c nu 2^{2j}E_j.
 ```

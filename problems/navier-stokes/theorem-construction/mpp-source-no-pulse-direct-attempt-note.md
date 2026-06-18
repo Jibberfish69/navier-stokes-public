@@ -110,7 +110,8 @@ QDrain.A\Longrightarrow QBound.A\Longrightarrow AWG.A.
 ```
 
 But `QDrain.A` is itself the enstrophy-level no-pulse statement for the
-vortex-stretching cubic. The standard enstrophy estimate gives only
+vortex-stretching cubic. The enstrophy identity plus Sobolev,
+Gagliardo--Nirenberg, and Young gives only
 
 ```math
 Y'(t)\le C_\nu Y(t)^3,

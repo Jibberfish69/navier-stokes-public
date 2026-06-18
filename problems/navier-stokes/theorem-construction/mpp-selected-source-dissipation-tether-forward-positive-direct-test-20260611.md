@@ -79,8 +79,8 @@ ledger from the scale-critical regularity quantities.
 
 ## Direct Pointwise Test
 
-The localized nonlinear source has trilinear structure.  A typical term has the
-form:
+The localized nonlinear source has trilinear structure. One model term in the
+test has the form:
 
 ```math
 u_{low}\,\nabla u_{high}\,u_{active}
@@ -215,7 +215,7 @@ current installed inputs do not prove the second burden, and every available
 direct estimate that tries to prove the first without extra structure returns
 to the active-square/source-control reserve.
 
-So the immediate new-production theorem is:
+So the next new-production theorem is:
 
 ```math
 \boxed{

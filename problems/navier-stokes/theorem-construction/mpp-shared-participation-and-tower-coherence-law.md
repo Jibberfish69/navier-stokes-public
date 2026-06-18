@@ -42,13 +42,13 @@ The exact job of this note is:
 
 The route being sharpened is:
 
-1. the Navier--Stokes object should be read globally through one common
-   incompressible pressure-viscosity structure;
-2. `Pack` should come out as the exact shared packing law;
-3. `Part` should come out as the exact shared participation / tower law;
-4. one shared field should be read through finite-difference tower coherence;
-4. the real dangerous channel should be isolated as packing failure or
-   coherence fracture, not reduced to a generic norm slogan.
+1. the Navier--Stokes object is read globally through one common incompressible
+   pressure-viscosity structure;
+2. `Pack` is the exact shared packing law;
+3. `Part` is the exact shared participation / tower law;
+4. one shared field is read through finite-difference tower coherence;
+5. the real dangerous channel is isolated as packing failure or coherence
+   fracture, not reduced to a generic norm slogan.
 
 ## Fixed PDE
 
@@ -210,7 +210,11 @@ B_0:=0.
 \tag{TC.15}
 ```
 
-Here `*` denotes the universal contraction coming from Leibniz expansion.
+Here `*` denotes the finite coordinate-contraction sum produced by the displayed
+Leibniz terms: for each `\ell`, the tensor
+`\nabla^\ell u\otimes\nabla^{k+1-\ell}u` is contracted by the fixed index maps
+in the differentiated transport nonlinearity, with coefficient
+`\binom{k}{\ell}`.
 
 This is the primitive shared participation / tower law:
 
@@ -323,7 +327,8 @@ Equivalently:
 ```
 
 Here `Field^{strain}` is not a fourth primitive law. It names the existing
-Field/tower/strain readout strong enough to feed the pack transport estimate.
+Field/tower/strain readout that supplies the pack transport estimate used in
+`(TC.16h)`.
 
 The reverse Part-to-Field question has the same custody rule. If the
 one-point participation residual is `R_k:=D_tU_k-K_k-B_k`, then the law half of
@@ -449,7 +454,7 @@ size.
 
 ## 5. Failure Taxonomy
 
-The route-native failure taxonomy should be stated at the level of the packing
+The route-native failure taxonomy is stated at the level of the packing
 law and the tower-difference law, not at the level of raw pointwise speed.
 
 First, ordinary stagnation remains inside the class:
@@ -578,7 +583,7 @@ It says:
 
 ## 7. Proof Posture
 
-The primary proof engine should therefore be:
+The primary proof engine is:
 
 ```math
 \boxed{
@@ -596,9 +601,9 @@ More sharply:
 \tag{TC.33}
 ```
 
-That is why the finite-difference tower hierarchy should lead the proof engine.
+That is why the finite-difference tower hierarchy leads the proof engine.
 
-If a pairwise coherence matrix is introduced later, it should sit above this
+If a pairwise coherence matrix is introduced later, it sits above this
 scalar defect-energy layer as a semantic or geometric envelope, not replace it
 as the first coercive object.
 
@@ -652,7 +657,7 @@ What it does claim is narrower:
 
 ```math
 \boxed{
-\text{the PDE-native class-membership route should be led by the flow-map packing law and the finite-difference tower hierarchy,}
+\text{the PDE-native class-membership route is led by the flow-map packing law and the finite-difference tower hierarchy,}
 }
 ```
 

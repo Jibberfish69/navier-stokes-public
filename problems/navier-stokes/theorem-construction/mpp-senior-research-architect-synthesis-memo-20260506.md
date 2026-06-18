@@ -645,7 +645,7 @@ TemporalNonAtomicSource.A
 
 then the rigid class and residue Liouville theorem.
 
-This is the most plausible compactness route.
+This is the current compactness-route candidate.
 
 ### Move C: Signed-current legalization
 

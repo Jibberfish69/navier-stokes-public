@@ -64,9 +64,10 @@ mpp-msc-spill-nopulse-bad-set-domination-attempt-note.md
 mpp-msc-badac-energy-measure-countermodel-note.md
 ```
 
-Result: the good-coefficient region is absorbable, but the installed scheduler
-gives only small Lebesgue bad-time measure.  The abstract heat-scale
-countermodel shows that this does not dominate
+Result: the good-coefficient region pays only the exact `C\eta\le\nu/2`
+coefficient margin, while the installed scheduler gives only small Lebesgue
+bad-time measure.  The abstract heat-scale countermodel shows that this does
+not dominate
 `\mathfrak B_N^\sigma(t)dt`.
 
 Verdict:

@@ -80,16 +80,42 @@ u_R(y,\tau)=R u(x,t),
 p_R(y,\tau)=R^2p(x,t).
 ```
 
-Bounded same-fluid distortion converts the moving cylinder into a CKN-admissible standard cylinder with constants controlled by the distortion bound. The hypothesis becomes the normalized smallness condition
+The bounded same-fluid distortion hypothesis is used only through the following
+exact comparison.  After the moving-frame pullback, there are constants
+`0<c_M<=C_M<infty`, depending only on the distortion bound, `nu`, and the
+declared frame coefficients, such that the CKN scale-critical quantities obey
 
 ```math
-\iint|u_R-u_R^{aff}|^3+
-\iint|p_R-p_R^{norm}|^{3/2}+
-\iint|\nabla u_R|^2
-\le C_{geom}\varepsilon_m.
+c_M(\widetilde A_1+\widetilde P_1+\widetilde D_1)
+\le
+A_R^{aff}+P_R^{norm}+D_R
+\le
+C_M(\widetilde A_1+\widetilde P_1+\widetilde D_1),
 ```
 
-Choose `epsilon_m` so that `C_geom epsilon_m` lies below the CKN threshold for depth `m+2`. Interior regularity and parabolic bootstrapping give, for `0<=k<=m+2`,
+where
+
+```math
+A_R^{aff}:=R^{-2}\iint_{Q_R^\Phi}|u-u_R^{aff}|^3,
+\quad
+P_R^{norm}:=R^{-2}\iint_{Q_R^\Phi}|p-p_R^{norm}|^{3/2},
+\quad
+D_R:=R^{-1}\iint_{Q_R^\Phi}|\nabla u|^2.
+```
+
+The imported local regularity input is the bounded-coefficient CKN epsilon
+theorem for the pulled-back moving-frame equation. The pullback has uniformly
+elliptic metric coefficients, uniformly bounded Jacobian factors, and
+lower-order moving-frame terms whose normalized contribution is included in
+`SCF_base`. Thus the hypothesis needed here is the exact threshold condition
+
+```math
+C_M\,SCF_{base}(Q_R^\Phi)\le\varepsilon_{CKN}(m+2,M_\sharp,\nu).
+```
+
+Choose `epsilon_m` so that this threshold condition holds whenever
+`SCF_base(Q_R^Phi)<=epsilon_m`. Interior regularity and parabolic bootstrapping
+give, for `0<=k<=m+2`,
 
 ```math
 \sup_{Q_{\theta_mR}^\Phi}R^{k+1}|\nabla^k u|
@@ -239,13 +265,13 @@ FCC.C1:\\ S_{cutoff}\in L^1.
 Summing the three integrable ledgers across the finite frozen family gives
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
 ```
 
 The strengthened sufficient source theorem has the same downstream target:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Thus downstream proofs consume the single source result
@@ -253,7 +279,7 @@ Thus downstream proofs consume the single source result
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)\Longrightarrow FCI.5f.
+FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 6. Endpoint matrix as finite formal theorem
@@ -275,7 +301,7 @@ Each face maps to one row:
 | Face | Row | Discharge |
 |---|---|---|
 | Dead | participation loss | participation persistence |
-| packing-detached | pack gauge loss | pack-detachment absorption |
+| packing-detached | pack gauge loss | pack-detachment endpoint reduction |
 | tower-blown | tower amplitude escape | tower readout and tower-bound row |
 | Jump | field coherence loss | field readout / field row |
 
