@@ -38,7 +38,7 @@ int |nabla u|^2 dx dt < infinity.
 
 Thus `mu_D` is finite on the terminal spacetime slab.
 
-On each transported cutoff chart, split the pressure into a local part and a harmonic tail. The local part solves the standard localized pressure equation driven by the localized quadratic velocity tensor. Calderon-Zygmund estimates and finite-energy bounds give
+On each transported cutoff chart, split the pressure into a local part and a harmonic tail. The local part solves the localized pressure Poisson equation driven by the cutoff quadratic velocity tensor. Calderon-Zygmund estimates and finite-energy bounds give
 
 ```math
 int |p_loc_chi|^(3/2) dx dt < infinity
@@ -56,7 +56,9 @@ Atlas and geometry constants are absorbed into `C_atlas`. This proves the pressu
 
 ## Result
 
-The upper side for the final `nu_SCF` charge is installed conditionally on the standard finite-atlas, bounded-overlap, local-pressure setup.
+The upper side for the final `nu_SCF` charge is installed conditionally on the
+displayed finite-atlas hypotheses: finitely many charts, overlap at most
+`\Omega`, and finite local pressure/source measures on each chart.
 
 ## Remaining obstruction
 

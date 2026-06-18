@@ -13,7 +13,8 @@ For terminal active shell windows `I` at frequency `j`, prove a heat-scale squar
 \le c\varepsilon\nu^3 2^{3j}|I|+C\nu^2 2^j2^{-2\delta j}.
 ```
 
-This estimate would give `L_s^2` temporal source control after parabolic normalization and therefore `UniformTemporalSourceIntegrability.A`.
+After parabolic normalization, this estimate gives `L_s^2` temporal source
+control and therefore `UniformTemporalSourceIntegrability.A`.
 
 ## Direct route
 
@@ -28,11 +29,13 @@ then the target follows by integrating over `I`.
 
 ## Obstruction
 
-The source `F_j` is trilinear in Littlewood-Paley pieces. On a fixed smooth finite-mode shell profile, amplitude scaling by `A` makes
+The source `F_j` is trilinear in Littlewood-Paley pieces. For a fixed smooth
+finite-mode shell test field `phi` with `F_j(phi) != 0`, the family `u_A=A phi`
+gives
 
 ```math
-F_j[A u]=A^3F_j[u],
-\qquad |F_j[A u]|^2=A^6|F_j[u]|^2.
+F_j[u_A]=A^3F_j[\phi],
+\qquad |F_j[u_A]|^2=A^6|F_j[\phi]|^2.
 ```
 
 Original smooth data controls the solution through data-dependent energy and preterminal smoothness. The selected terminal active shells require a scale-normalized bound uniform along moving high-frequency windows. The current ledgers lack that normalization.

@@ -36,7 +36,8 @@ shows that the finite-infinitesimal charge measures finite-scale variation of th
 hF_charge <= C (nu_SCF + controlled pack/source terms).
 ```
 
-A reverse bridge would need terminal `nu_SCF` mass to produce a nonzero finite-infinitesimal survivor.
+A reverse bridge requires terminal `nu_SCF` mass to produce a nonzero
+finite-infinitesimal survivor.
 
 ## Obstruction
 

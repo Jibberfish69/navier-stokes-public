@@ -5,11 +5,11 @@ Prove a monotone source-dominance theorem for the nonlinear shell flux in
 
 `E_j' + c nu D_j <= F_j`.
 
-A sufficient form would be
+A sufficient exact form is
 
 `F_j <= a_j(t) E_j + b_j(t)`,
 
-with `a_j` integrable at active scale and `b_j` controlled by a Carleson or square-source reserve. This would rule out source-balanced active pulses and imply direct active-square Carleson.
+with `a_j` integrable at active scale and `b_j` controlled by a Carleson or square-source reserve. Gronwall then turns the inequality into direct active-square Carleson control and rules out source-balanced active pulses at that normalization.
 
 ## Attempt
 The shell identity alone cannot supply monotone dominance: a scalar source can create any short active pulse by choosing

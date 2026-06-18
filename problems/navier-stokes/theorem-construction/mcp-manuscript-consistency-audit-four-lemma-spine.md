@@ -35,7 +35,7 @@ The theorem and roadmap state the result on `T^3`. The appendix records whole-sp
 
 ## Vocabulary check
 
-The main proof uses standard PDE phrasing. The appendix maps the internal dependency labels:
+The main proof uses classical PDE phrasing. The appendix maps the internal dependency labels:
 
 ```text
 Field_avg, Jump_avg, AACT, DTC, End_NS_avg, End_NS, READ.END, FFSRC.A -> FCI.5f

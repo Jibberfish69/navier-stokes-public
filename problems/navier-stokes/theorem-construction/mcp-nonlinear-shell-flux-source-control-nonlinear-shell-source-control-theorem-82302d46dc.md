@@ -26,7 +26,9 @@ This cancellation is useful before weights and lifted reductions enter.
 
 ## Attempt
 
-After shell weights, cutoffs, projectors, and lifted packets are inserted, the live object becomes a weighted lifted remainder. A theorem strong enough for source control would have the form
+After shell weights, cutoffs, projectors, and lifted packets are inserted, the
+live object becomes a weighted lifted remainder. A source-control theorem must
+control that weighted lifted remainder directly, for example through
 
 ```math
 \int_0^T G_N^{lift,\sigma}(t)\,dt\le C2^{-2\delta N},
@@ -58,6 +60,7 @@ and
 \boxed{\text{active-square residual-tail control}.}
 ```
 
-Equivalently, a direct monotone/source-dominance law for the nonlinear shell source would close this target.
+Equivalently, a direct monotone/source-dominance law for the nonlinear shell
+source closes this target once supplied.
 
 Claimed status: failed bounded solve attempt with exact subtargets isolated.

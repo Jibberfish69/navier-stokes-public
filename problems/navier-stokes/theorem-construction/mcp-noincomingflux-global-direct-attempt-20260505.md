@@ -6,7 +6,9 @@ Failed from the current first-pulse inputs.
 
 ## Target
 
-Upgrade first-pulse no-parent information to a global no-incoming flux condition for the frozen-strain tangent field. A usable form would be a transported-cylinder or weighted condition such as
+Upgrade first-pulse no-parent information to a global no-incoming flux condition
+for the frozen-strain tangent field. A usable form is a transported-cylinder or
+weighted condition such as
 
 ```math
 \lim_{R\to\infty}\limsup_{s_0\to-\infty}

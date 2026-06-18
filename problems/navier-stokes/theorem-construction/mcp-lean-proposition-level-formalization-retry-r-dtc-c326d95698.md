@@ -98,7 +98,7 @@ structure ReadoutImplications (R : ReadoutTypes) where
 
 ## Result
 
-The finite route can be formalized immediately at proposition level. Analytic formalization can then replace each opaque implication with definitions and proofs one at a time.
+The finite route can be formalized first at proposition level. Analytic formalization can then replace each opaque implication with definitions and proofs one at a time.
 
 ## Boundary
 

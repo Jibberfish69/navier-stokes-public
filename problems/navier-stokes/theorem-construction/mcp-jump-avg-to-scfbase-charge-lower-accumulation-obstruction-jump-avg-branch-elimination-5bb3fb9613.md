@@ -30,7 +30,11 @@ Jump_{avg}(T)
 \inf_{(a,t)\in T'}r_{good}(a,t)=0.
 ```
 
-The intended proof would identify the cause of this radius collapse with analytic concentration in the dissipation/local-pressure carrier `nu_SCF`. Then a terminal compactness theorem would extract nonzero terminal `nu_SCF` mass, and a separation theorem would turn that nonzero mass into a lower accumulation schedule.
+The intended proof target identifies the cause of this radius collapse with
+analytic concentration in the dissipation/local-pressure carrier `nu_SCF`. It
+then requires a terminal compactness theorem to extract nonzero terminal
+`nu_SCF` mass and a separation theorem to turn that nonzero mass into a lower
+accumulation schedule.
 
 ## Obstruction
 

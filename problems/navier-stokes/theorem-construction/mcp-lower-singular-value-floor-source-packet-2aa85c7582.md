@@ -34,7 +34,7 @@ For an invertible matrix,
 \sigma_{min}(H_J)=\|H_J^{-1}\|_{op}^{-1}.
 ```
 
-The stated inverse bound gives the claimed lower floor immediately.
+The stated inverse bound gives the claimed lower floor.
 
 ## Boundary
 

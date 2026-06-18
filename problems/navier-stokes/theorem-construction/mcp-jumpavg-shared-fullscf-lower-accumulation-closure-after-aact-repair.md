@@ -36,7 +36,15 @@ By `Jump_avg`, every terminal subtail contains loss of positive SCF-good materia
 SCF_{base}(Q_k)>\varepsilon_m.
 ```
 
-A Vitali/Besicovitch extraction in the bounded-distortion same-fluid atlas gives a separated or bounded-overlap terminal subfamily. Passing to this subfamily preserves terminal recurrence.
+Work in the pulled-back same-fluid parabolic metric on the bounded-distortion
+atlas.  For each finite tail of the terminal family, apply the finite `5r`
+selection lemma: choose disjoint core windows whose fixed `5`-dilates cover the
+tail union.  The parabolic doubling constant is dimensional, and pushing
+forward by an atlas with distortion `M_\sharp` changes the overlap by at most a
+constant `\Omega_4(M_\sharp)`.  Applying this selection on tails and taking a
+diagonal subsequence gives an infinite terminal subfamily with fixed-dilate
+overlap bounded by `\Omega_4(M_\sharp)`.  Terminal recurrence is preserved
+because every tail still contributes at least one selected window.
 
 On each selected window, decompose the base packet as
 

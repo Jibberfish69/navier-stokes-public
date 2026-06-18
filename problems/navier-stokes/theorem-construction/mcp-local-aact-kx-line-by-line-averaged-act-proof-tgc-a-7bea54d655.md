@@ -173,7 +173,9 @@ The affine-subtracted quadratic term satisfies
 C_\ast\left(X_R^{1/2}+V_R^{1/3}+P_R^{2/3}\right)N_R+C X_RB_R+F_{nl,R}.
 ```
 
-This is the averaged version of the standard local nonlinear balance: the genuine quadratic excess supplies `X_R^{1/2}N_R`, while pressure and viscous coefficient packets appear through fractional Young factors.
+This is the averaged local nonlinear balance used here: the genuine quadratic
+excess supplies `X_R^{1/2}N_R`, while pressure and viscous coefficient packets
+appear through fractional Young factors.
 
 ## Step 7: First-exit absorption
 

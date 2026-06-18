@@ -10,7 +10,8 @@ LocalStrainDepletion.A:
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_+(t)\,dt=o_N(1).
 ```
 
-This would imply `LocalSource.NoPulse.A` and feed the source-pulse closure chain.
+The exact downstream implication is: `LocalStrainDepletion.A` implies
+`LocalSource.NoPulse.A` and feeds the source-pulse closure chain.
 
 ## Direct strain attempt
 

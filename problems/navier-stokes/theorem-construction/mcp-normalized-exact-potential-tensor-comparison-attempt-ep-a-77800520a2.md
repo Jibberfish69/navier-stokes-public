@@ -74,7 +74,10 @@ Those inputs do not identify `WPiW*` with an independently fixed `C_J^CG`.
 
 ## Obstruction
 
-A shared simple-top gap does not imply tensor closeness. Two symmetric tensors can both have a uniform top gap while their top eigendirections differ by order one. Hence `gamma_J>0` alone cannot prove `Err_cmp^frame=o(gamma_J)`.
+A shared simple-top gap does not imply tensor closeness. For example,
+\(A=\operatorname{diag}(2,1,0)\) and \(B=R_{\pi/4}AR_{\pi/4}^{T}\) both have
+top gap \(1\), while their top eigendirections meet at angle \(\pi/4\). Hence
+`gamma_J>0` alone cannot prove `Err_cmp^frame=o(gamma_J)`.
 
 ## Exact remaining theorem
 

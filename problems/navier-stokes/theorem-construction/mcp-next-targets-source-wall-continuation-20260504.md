@@ -78,7 +78,15 @@ Result: `TerminalSourceCoherence.A` remains open.
 
 The audited rigid candidates are finite global ancient energy, Type I, critical smallness, bounded vorticity, self-similarity, two-dimensionality/axisymmetry, and source-cancellation class.
 
-Global energy scales like `r_m^{-1}` after Zeno rescaling. Type I needs an amplitude envelope absent from refill geometry. Critical smallness conflicts with persistent normalized residue. Bounded vorticity, self-similarity, and symmetry are not produced by local suitable compactness or same-fluid ancestry. Weak signed cancellation leaves positive residue; strong native cancellation is the contradiction itself.
+For the Zeno rescaling `u_m(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s)`,
+
+```math
+\int_{B_R}|u_m(y,s)|^2\,dy
+=
+r_m^{-1}\int_{B_{Rr_m}(x_m)}|u(x,t_m+r_m^2s)|^2\,dx.
+```
+
+The global `L^2` energy has the same `r_m^{-1}` factor when the whole rescaled domain is used.  Type I needs an amplitude envelope absent from refill geometry. Critical smallness conflicts with persistent normalized residue. Bounded vorticity, self-similarity, and symmetry are not produced by local suitable compactness or same-fluid ancestry. Weak signed cancellation leaves positive residue; strong native cancellation is the contradiction itself.
 
 Result:
 

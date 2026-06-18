@@ -31,14 +31,18 @@ It is a statement about source-residue ancestry, not about the full tangent fiel
 
 ### 2. Strong license: no incoming parabolic boundary mass
 
-The stronger license needed by the direct backward-uniqueness route would assert a genuine incoming-boundary condition for the frozen-strain tangent field. Local compact decay alone is
+The stronger license needed by the direct backward-uniqueness route is a genuine
+incoming-boundary condition for the frozen-strain tangent field. Local compact
+decay alone is
 
 ```math
 \lim_{s\to-\infty}\int_{B_R}|v(y,s)|^2\,dy=0
 \qquad (R<\infty).
 ```
 
-A usable global form would need to rule out incoming mass through the backward parabolic boundary of the transformed anisotropic flow, for example a weighted statement of the form
+A usable global form must rule out incoming mass through the backward parabolic
+boundary of the transformed anisotropic flow, for example a weighted statement
+of the form
 
 ```math
 \lim_{s\to-\infty}\int_{\mathbb R^3}|w(z,s)|^2\Omega(z,s)\,dz=0,

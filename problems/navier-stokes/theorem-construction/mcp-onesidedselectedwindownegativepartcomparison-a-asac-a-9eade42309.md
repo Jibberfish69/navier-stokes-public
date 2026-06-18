@@ -15,7 +15,9 @@ C\sum_{e\in\mathcal E_N}\int [J_{e^*}]_{-,sel}\,dt
 +Drain_{parent}+Loss_{legal}+o_N(1).
 ```
 
-This would give the negative-part comparison needed to turn signed cancellation into positive-source depletion.
+The exact downstream claim is: a theorem excluding the terminal Zeno
+source-refill atom gives the negative-part comparison needed to turn signed
+cancellation into positive-source depletion.
 
 ## Installed post-ASAC correction
 
@@ -70,7 +72,9 @@ Therefore the requested one-sided comparison follows conditionally from ZenoSour
 
 ## Obstruction
 
-The unconditional proof of the comparison would need to rule out a terminal source-refill branch with no earlier negative partner and no finite donor depletion.  That is the Zeno branch.  Current inputs reduce it to
+The unconditional proof of the comparison requires exclusion of a terminal
+source-refill branch with no earlier negative partner and no finite donor
+depletion.  That is the Zeno branch.  Current inputs reduce it to
 
 ```math
 TemporalNonAtomicSource.A

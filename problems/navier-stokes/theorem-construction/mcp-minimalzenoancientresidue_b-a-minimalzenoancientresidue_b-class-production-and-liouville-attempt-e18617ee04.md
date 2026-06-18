@@ -18,7 +18,9 @@ and
 ZenoBoundedClass_B.A\Longrightarrow ZenoResidueLiouville_B.A.
 ```
 
-Then the terminal Zeno branch would close by contradiction with the inherited nonzero source residue.
+If both `ZenoBoundedClass_B.A` and `ZenoResidueLiouville_B.A` are supplied,
+the terminal Zeno branch closes by contradiction with the inherited nonzero
+source residue.
 
 ## Produced minimal class
 
@@ -77,7 +79,7 @@ The local energy inequality used by this test is
 ```math
 E_\phi(s_2)+\int_{s_1}^{s_2}D_\phi(s)\,ds
 \le
-E_\phi(s_1)+\nu_*([s_1,s_2]\times\operatorname{supp}\phi)+\text{standard local terms}.
+E_\phi(s_1)+\nu_*([s_1,s_2]\times\operatorname{supp}\phi)+\text{cutoff commutator, pressure, and forcing terms fixed by }\phi.
 ```
 
 The no-incoming property controls threshold source-pulse residue on fixed slices `s<-a`.  It does not exclude positive residue concentrating in a terminal layer `s\uparrow0`.  Thus it permits a measure scenario of the form
@@ -116,7 +118,9 @@ B=\text{self-similar or symmetric}.
 
 But terminal Zeno compactness from `OriginalSmoothData` does not produce any of them.  Local energy is local, Type I and bounded-vorticity are endpoint amplitude controls, critical smallness conflicts with the retained nonzero residue, and self-similarity/symmetry is not imposed by the selected same-fluid ancestry.
 
-A source-cancellation class would force `\nu_*=0`, but producing it is exactly the source-wall theorem and hence circular.
+A source-cancellation class whose defining law cancels terminal positive source
+residue forces `\nu_*=0`, but producing that class is exactly the source-wall
+theorem and hence circular.
 
 ## Conclusion
 

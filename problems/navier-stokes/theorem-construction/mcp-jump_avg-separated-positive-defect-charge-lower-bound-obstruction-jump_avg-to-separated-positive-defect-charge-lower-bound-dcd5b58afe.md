@@ -15,11 +15,15 @@ with scale-window measure
 This object can represent terminal scale memory, affine mismatch, pack-side failure, and field-side failure when a licensed terminal scale schedule and nonzero survivor measure are supplied.
 
 ## Attempt
-`Jump_avg` gives persistent loss of positive SCF-good averaged coherence on every terminal subtail. One would like to extract cells `(a_k,r_k,t_k)` so that the scale-window defect measure has a uniform positive lower mass on separated windows:
+`Jump_avg` gives persistent loss of positive SCF-good averaged coherence on
+every terminal subtail. The missing lower theorem must extract cells
+`(a_k,r_k,t_k)` so that the scale-window defect measure has a uniform positive
+lower mass on separated windows:
 
 `D_k >= d0 > 0`.
 
-A contradiction route would then compare `sum_k D_k` with a finite energy/source upper bound.
+Once the separated lower charges are produced, the contradiction route compares
+`sum_k D_k` with a finite energy/source upper bound.
 
 ## Failure point
 The available surfaces classify SCF defect or terminal radius degeneration as `Jump_avg`. They also define a candidate survivor measure. They do not prove that persistent `Jump_avg` forces nonzero terminal mass in that measure, nor that the mass sits on a separated family of windows with uniform lower charge.

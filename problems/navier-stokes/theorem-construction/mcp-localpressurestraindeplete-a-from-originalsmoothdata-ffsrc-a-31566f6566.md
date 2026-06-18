@@ -31,7 +31,7 @@ The active stretching carrier is
 
 Pressure disappears after curl. Pressure Poisson recovery gives elliptic and Calderon-Zygmund control of pressure/strain response. It supplies routing and integrability estimates, while it gives no sign for the local stretching term.
 
-The sign obstruction is immediate: with
+The sign obstruction is:
 
 ```math
 S=\mathrm{diag}(2,-1,-1),\qquad \omega=(1,0,0),
@@ -59,4 +59,6 @@ is a downstream integrability supplier. It does not eliminate positive source pr
 
 ## Verdict
 
-The pressure-strain branch remains open and the loop should proceed to `ActiveVorticityCoherence.A`.
+The pressure-strain branch remains open.  The remaining Active Vorticity
+Coherence.A branch must prove a source-weighted coherence or anti-alignment law
+on the same terminal packet family; no such theorem is installed here.

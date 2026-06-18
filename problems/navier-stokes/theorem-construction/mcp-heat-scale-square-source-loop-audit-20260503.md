@@ -16,7 +16,8 @@ A sufficient shell form for the active-square upper-tail Carleson theorem is
 \varepsilon\nu2^{2j}|I|+C2^{-2\delta j}.
 ```
 
-Summing this over active terminal shells would give the scale-normalized upper control needed for the final `Jump_avg` charge.
+Summing this estimate over active terminal shells gives the scale-normalized
+upper control needed for the final `Jump_avg` charge.
 
 ## Scalar obstruction
 

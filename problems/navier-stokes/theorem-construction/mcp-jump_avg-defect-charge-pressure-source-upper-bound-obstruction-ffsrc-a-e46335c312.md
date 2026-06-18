@@ -14,7 +14,8 @@ Relevant upper-bound surfaces include:
 - pressure/source supplier notes from the `PFlux` and `FFSRC.A` route.
 
 ## Attempt
-The natural upper-bound route would control the defect charge by an active-square or Carleson-type source measure. The repo surfaces show the needed chain:
+The natural upper-bound route must control the defect charge by an active-square
+or Carleson-type source measure. The repo surfaces show the needed chain:
 
 1. flux-source control bounds shell forcing;
 2. active-square Carleson bounds the square-strength tail charge;

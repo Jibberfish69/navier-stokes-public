@@ -12,7 +12,15 @@ For every finite classical interval and every tolerance `rho>0`, there is a dyad
 \sup_I E_N(t)+\int_I D_N(t)dt\le \rho.
 ```
 
-Proof. Split the nonlinear gradient packet into strict low-mode, threshold-spill, and genuine high-high pieces. The strict low-mode packet is controlled by the finite low strain coefficient. The threshold-spill packet is controlled by the quadratic finite-collar coefficient. The high-high packet is absorbed by the enstrophy half-tail. The resulting differential inequality is closed by the fixed-threshold coefficient admissibility and scheduler theorem.
+Proof. Split the nonlinear gradient packet into strict low-mode,
+threshold-spill, and genuine high-high pieces. The strict low-mode packet is
+controlled by the finite low strain coefficient. The threshold-spill packet is
+controlled by the quadratic finite-collar coefficient. The high-high packet is
+usable only through the displayed half-tail inequality
+`\mathfrak H_N^{grad,HH}(t) <= eta nu D_N(t)`, with `0<eta<1`. The resulting
+differential inequality is closed by the fixed-threshold coefficient
+admissibility and scheduler theorem with `(1-eta)nu D_N` remaining on the
+dissipative side.
 
 ## Lemma 2: Terminal Averaged Cover And Readout
 
