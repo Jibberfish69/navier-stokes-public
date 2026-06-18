@@ -5460,4 +5460,6 @@ Edited live surfaces:
 - `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
 - `theorem-construction/lifted-carrier-energy-threshold-uniformization-and-hfg-replay.md`;
 - `theorem-construction/weighted-gram-square-obstruction-note.md`;
-- `theorem-construction/lagrangian-six-lemma-mainline.md`.
+- `theorem-construction/lagrangian-six-lemma-mainline.md`;
+- `theorem-construction/sds-parent-route-triage.md`;
+- `theorem-construction/mpp-prd-completion-attempt-20260517.md`.
