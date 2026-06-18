@@ -53,7 +53,33 @@ This follows, for example, from the noncoherent low-mode readout estimate togeth
 \varepsilon\nu2^{2j}\|Y\|_{H_D^s}+C_\varepsilon\Phi(\mathcal E_D(X)).
 ```
 
-This is the standard smooth-multiplier commutator estimate on the readout-compatible carrier surface, with the coherent strain coefficient bounded at the active shell scale.
+This line is not discharged by the word "standard." It requires the
+readout-compatible commutator bound
+
+```math
+\|\nabla\widetilde Q_i[I-P_{\le j},a\partial_i]P_{\le j}f\|_\infty
+\le
+C_{\mathrm{com}}
+\|\nabla a\|_{L^\infty(\mathrm{car}_{i,j})}
+\|\nabla P_{\le j}f\|_{L^\infty(\mathrm{car}_{i,j})}
++\mathrm{KernelErr}_{i,j}(a,f),
+```
+
+with `a=u_{coh,i}` and `f=v_{coh}`, followed by the active-shell coefficient
+estimate
+
+```math
+C_{\mathrm{com}}
+\|\nabla u_{coh,i}\|_{L^\infty(\mathrm{car}_{i,j})}
+\|\nabla P_{\le j}v_{coh}\|_{L^\infty(\mathrm{car}_{i,j})}
++\mathrm{KernelErr}_{i,j}
+\le
+\varepsilon\nu2^{2j}\|Y\|_{H_D^s}
++C_\varepsilon\Phi(\mathcal E_D(X)).
+```
+
+The collar theorem may spend C3 only after these two inequalities are proved on
+the same readout-compatible carrier surface.
 
 ### C4. Coherent high-tail product
 
