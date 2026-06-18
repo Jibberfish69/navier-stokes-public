@@ -1003,6 +1003,76 @@ that coefficient control of `\mathfrak b_\psi^{cut}` does not control the
 weighted cutoff-defect ledger without an additional domination theorem. This is
 a live mathematical open item, not a completed repair.
 
+## Live Authority Completion-Overclaim Repair
+
+Old loose step:
+
+Several live authority surfaces still presented the local CM route as if it were
+the completed Navier--Stokes theorem. The strongest old wording was:
+
+```text
+Navier-Stokes global regularity is proved by CM contrapositive class exit
+```
+
+with `unresolved_obligations: []`, `blocked_frontier: []`, or zero live-frontier
+counts, despite verdict surfaces recording `all_discharged: false` and active
+exactness / Clay-finality blockers.
+
+Exact replacement:
+
+The authority surfaces now state the supported claim as conditional:
+
+```text
+Current live surfaces support a conditional CM contrapositive class-exit route.
+```
+
+They also state that this is not a global-regularity completion certificate
+while exactness rework, Clay finality, and finite-breakdown exclusion blockers
+remain active.
+
+Proof or remaining burden:
+
+The replacement is forced by the current verdict evidence:
+`submission-verdict.yaml` and its bundle mirror have `packet_complete: false`,
+`all_discharged: false`, and blockers including exactness rework, Clay finality,
+and finite-breakdown exclusion. No live surface inspected in this pass proved a
+new theorem discharging those blockers.
+
+Downstream consequence:
+
+`source-frontier.yaml`, `submission-bundle/source-frontier.yaml`,
+`theorem-packet.yaml`, `submission-bundle/theorem-packet.yaml`, and
+`dependency-discharge.yaml` no longer present zero-frontier or proof-complete
+language as the live authority state. The R3 branch is now described as
+conditional support, not whole-space Clay completion.
+
+Edited live surfaces:
+
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`;
+- `theorem-packet.yaml`;
+- `submission-bundle/theorem-packet.yaml`;
+- `dependency-discharge.yaml`.
+
+Cleared live manuscript surfaces:
+
+- `submission-bundle/navier-stokes-submission.tex`: the cone passage already
+  defines
+  `\Delta_r u(t)=\sup_{x,y\in B_r(x_*)}|u(x,t)-u(y,t)|`, proves
+  `\Delta_r u(t)\le 2r\sup_{B_r(x_*)}|\nabla u(\cdot,t)|`, and specializes to
+  `\rho(t)=\lambda\sqrt{T_*-t}`. It explicitly rejects a slope `U/r` or profile
+  law.
+- `submission-bundle/source-field-reader-appendix.tex`: the checked live
+  profile passages reject scale-profile assumptions and replace the old
+  finite-depth-to-good-cover step by a same-tail
+  `SCF_base` local modulus.
+
+Remaining mathematical status:
+
+The exactness goal remains active. These authority edits remove false completion
+claims; they do not prove `FCC.C1a`, the same-tail `SCF_base` modulus, or the
+Clay-finality bridge.
+
 ## Lower-Prefix Active-Square Barrier Rework
 
 Old loose step:
