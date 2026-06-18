@@ -1,13 +1,13 @@
-# TPS Shadow Barrier Formal Closure Packet
+# TPS Shadow Barrier Conditional Reduction Packet
 
 ## Status
 
-Formal theorem-shape closure packet for the current TPS dynamic notes.
+Conditional theorem-shape reduction packet for the current TPS dynamic notes.
 
 This note is deliberately conditional. It does **not** claim to discharge the
 original selector-local transverse lower-bound theorem, and it does **not**
 promote the lane past the current unsafe-overclaim guard. Its job is to prove
-the formal implications already used by the coarse barrier, the SG bridge
+the exact conditional implications needed by the coarse barrier, the SG bridge
 factorization, and the weak averaged shadow-time packet.
 
 The canonical theorem-facing Navier--Stokes surfaces now place the live route on
@@ -26,15 +26,15 @@ The current theorem stack now has two dynamic closure layers:
 \tag{SB.0}
 ```
 
-What remained to make those claims formally airtight was not another new
-Navier--Stokes theorem, but the exact theorem-shape logic connecting:
+What remained was not another new Navier--Stokes theorem, but the exact
+conditional logic connecting:
 
 1. strip-local logarithmic repulsion,
 2. coarse/true strip stability,
 3. selector-level singular-value control,
 4. the averaged occupancy ledger.
 
-Those formal implications are recorded here as `SB.1`-`SB.5`.
+Those conditional implications are recorded here as `SB.1`-`SB.5`.
 
 ## Setup
 
@@ -425,9 +425,10 @@ to have vanishing normalized mass. ∎
 
 ## Remaining Open Input
 
-The formal closure packet above does **not** discharge the original
-Navier--Stokes-specific theorem burden. After these formal reductions, the only
-genuinely new input still missing is:
+The conditional reductions above do **not** discharge the original
+Navier--Stokes-specific theorem burden. They may be spent only with the listed
+strip-barrier, selector-coherence, weak occupancy, and vanishing-exception
+hypotheses. After those reductions, the genuinely new input still missing is:
 
 ```math
 \boxed{
@@ -445,4 +446,4 @@ note: the `SG.4-production` packet, namely the `SG.4C` production theorem
 together with one of its two realizations `SG.4A` / `SG.4B`, all on the actual
 Navier--Stokes selector geometry.
 
-So this note closes theorem shape, not theorem substance.
+So this note supplies conditional reductions, not theorem substance.
