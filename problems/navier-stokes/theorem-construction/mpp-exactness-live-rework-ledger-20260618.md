@@ -6378,13 +6378,64 @@ Surfaces edited:
 - `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
 - `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
 
+Additional surfaces edited by the follow-up `should`/`would`/`could`
+proof-force pass:
+
+- `submission-bundle/sections/main-result.tex`;
+- `submission-bundle/sections/rebuilt-cm-exit-method.tex`;
+- `submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex`;
+- `submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex`;
+- `theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`;
+- `theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md`;
+- `theorem-construction/mpp-basac-local-energy-trace-no-positive-jump-reentry-20260609.md`;
+- `theorem-construction/mpp-basac-noincoming-source-drain-attempt-20260517.md`;
+- `theorem-construction/mpp-basac-positive-source-trace-ac-direct-attempt-20260609.md`;
+- `theorem-construction/mpp-basac-source-ancestry-compactness-attempt-20260517.md`;
+- `theorem-construction/mpp-basac-terminal-source-anticoncentration-direct-attempt-20260517.md`;
+- `theorem-construction/mpp-clay-pack-face-exclusion-working-pass-20260607.md`;
+- `theorem-construction/mpp-density-point-closure-direct-attempt-20260611.md`;
+- `theorem-construction/mpp-forward-gold-door1-same-shadow-super-l1-residence-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-door2-gauge-stationarity-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-two-door-sharp-form-repair-20260618.md`;
+- `theorem-construction/mpp-forward-positive-cone-estimate-direct-audit-20260611.md`;
+- `theorem-construction/mpp-lci-a-first-rung-viscous-center-supplier-note.md`;
+- `theorem-construction/mpp-lci-a-fixed-increment-pressure-response-note.md`;
+- `theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md`;
+- `theorem-construction/mpp-noncarleson-zeno-temporal-anticoncentration-completion-attempt-20260517.md`;
+- `theorem-construction/mpp-positive-remainder-source-supplier-handoff-20260516.md`;
+- `theorem-construction/mpp-positive-source-trace-ac-direct-attempt-20260518.md`;
+- `theorem-construction/mpp-post-affine-pack-survival-sharp-target-selection-20260609.md`;
+- `theorem-construction/mpp-production-into-rigid-basac-timeface-subclass-attempt-20260517.md`;
+- `theorem-construction/mpp-read-cover-bypass-first-pulse-reduction-20260505.md`;
+- `theorem-construction/mpp-retained-field-endpoint-tower-reduction-20260515.md`;
+- `theorem-construction/mpp-rigid-basac-production-trace-jump-reentry-20260609.md`;
+- `theorem-construction/mpp-scale-nested-low-high-pack-molecule-rigidity-paraproduct-capture-attempt-20260610.md`;
+- `theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md`;
+- `theorem-construction/mpp-scalecritical-carleson-failure-field-face-diagnostic-20260514.md`;
+- `theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md`;
+- `theorem-construction/mpp-source-no-pulse-terminal-target-stack-note.md`;
+- `theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md`;
+- `theorem-construction/mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md`;
+- `theorem-construction/mpp-sourcepulse-native-source-measure-decomposition-note.md`;
+- `theorem-construction/mpp-terminal-pack-uniformity-from-original-smooth-data-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-terminal-source-reverse-holder-forward-positive-collapse-20260611.md`;
+- `theorem-construction/mpp-terminal-source-reverse-holder-to-active-shell-source-normalization-20260516.md`;
+- `theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md`;
+- `theorem-construction/mpp-uniform-temporal-dissipation-integrability-attempt-20260505.md`;
+- `theorem-construction/mpp-uniform-temporal-integrability-next-attempt-20260505.md`;
+- `theorem-construction/mpp-uniform-terminal-pack-tightness-from-first-exit-minimality-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-vortex-stretching-throttle-lyapunov-scale-barrier-reduction-20260611.md`;
+- `theorem-construction/mpp-weighted-profile-production-absorption-direct-test-20260611.md`;
+- `theorem-construction/tps-shadow-barrier-formal-closure-packet.md`;
+- `theorem-construction/transported-phase-space-selector-theorem-candidate.md`.
+
 Validation:
 
 The live authority-set scan for raw `automatically` now returns no hits, and
-`git diff --check` passes on the edited files.  The broader
-`should`/`would`/`could` pass is not yet globally closed; remaining hits require
-the next inspection/classification pass before this modal-shortcut family can be
-called complete.
+the focused live authority-set proof-force scan for
+`should`/`would`/`could` implication shortcuts now returns no hits.  `git diff
+--check` passes on the edited files.
 
 ## Source-Wall Scale-Shorthand Repair
 
