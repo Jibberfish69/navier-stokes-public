@@ -16,10 +16,11 @@ OriginalSmoothData
 \text{uniform terminal-tail retained class-membership readout}.
 ```
 
-Equivalently, at a first finite classical endpoint, the four endpoint faces must be excluded:
+Equivalently, at a first finite classical endpoint, the endpoint faces must be excluded:
 
 ```math
-Dead,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump.
+Dead,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump,
+\qquad response\text{-}margin\text{-}collapse.
 ```
 
 ## Strategy
@@ -60,9 +61,9 @@ This order keeps `READ.COVER` terminal. It enters only after `End_NS_avg`.
 
 ## Lemma 1: endpoint-free branch split
 
-Let `(u,p)` be the maximal smooth periodic solution on `[0,T_*)`. On any same-fluid terminal approach tail, one of the endpoint faces is realized or the branch has the finite class-membership data required to run the averaged route.
+Let `(u,p)` be the maximal smooth periodic solution on `[0,T_*)`. On any same-fluid terminal approach tail, one of the endpoint faces is realized or the branch has the finite class-membership data, including the retained strict-response margins or closed Part predicate encoding, required to run the averaged route.
 
-Proof. `EndpointFace.Type` and `PackGauge.Dichotomy` classify failure of `Pack`, `Part`, `Field`, and tower amplitude into the four faces. Therefore the proof of `PCTP.hard` can be run by contradiction on the face-free branch. On that branch, pack distortion stays finite, participation stays active, averaged field failure is routed to `Jump_avg`, and tower escape is routed to the averaged tower face. This gives the admissible domain for the averaged production route.
+Proof. `EndpointFace.Type`, `PackGauge.Dichotomy`, and the repaired Part closedness row classify failure of `Pack`, `Part`, `Field`, tower amplitude, and strict Part response margins into the displayed endpoint faces. Therefore the proof of `PCTP.hard` can be run by contradiction on the face-free branch. On that branch, pack distortion stays finite, participation and its response margins stay active, averaged field failure is routed to `Jump_avg`, and tower escape is routed to the averaged tower face. This gives the admissible domain for the averaged production route.
 
 ## Lemma 2: averaged good-cylinder production below the endpoint layer
 
@@ -156,7 +157,7 @@ This closes the old pointwise endpoint matrix in the valid terminal order.
 
 If the averaged ACT theorem and its terminal finite-cover globalization hold on the face-free branch, then `PCTP.hard` follows.
 
-Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, or `Jump` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS`. The endpoint matrix excludes every first finite endpoint face. This contradicts first finite class exit and supplies the terminal-tail retained `H^s`, `s>5/2`, readout. The `H^s` relaunch criterion then gives a common preterminal restart lifespan and continues the same smooth solution past `T_*`.
+Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, `Jump`, or `response-margin-collapse` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds, while the Part closedness row may be spent only with the retained response-margin or closed-predicate input. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS`. The endpoint matrix excludes every first finite endpoint face. This contradicts first finite class exit and supplies the terminal-tail retained `H^s`, `s>5/2`, readout. The `H^s` relaunch criterion then gives a common preterminal restart lifespan and continues the same smooth solution past `T_*`.
 
 ## Attempted discharge of AACT.KX
 
