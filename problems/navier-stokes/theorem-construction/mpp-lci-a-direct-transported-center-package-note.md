@@ -568,8 +568,8 @@ transported-center block.
 
 ## Conditional Linearized Route `DTC.LINEAR`
 
-There is a tempting affine-frame linearized route. In each transported-center
-frame set
+The affine-frame linearized route has the following exact setup. In each
+transported-center frame set
 
 ```math
 A_j(t):=U_1(c_j(t),t),

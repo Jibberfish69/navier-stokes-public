@@ -164,8 +164,8 @@ terminal derived face failure
 => earlier still-live face failure.
 ```
 
-That inference is attractive because it would contradict `SLC.A / CMW.A`, but
-it is not part of the installed CM contrapositive. The installed CM
+That inference would contradict `SLC.A / CMW.A`, but it is not part of the
+installed CM contrapositive. The installed CM
 contrapositive uses the terminal face failure itself as the witness of
 `Exit(Q_*):=not Member(Q_*)`.
 

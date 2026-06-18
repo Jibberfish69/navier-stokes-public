@@ -648,13 +648,13 @@ non-source Pack-survival theorem, or prove an equivalent same-ledger payment
 that promotes the retained positive-scale source branch without importing a
 positive no-exit shortcut.
 
-The most promising proof idea is:
+The historical proof-search implication was:
 
 ```text
-first-time creation of donor height must be charged by a native shell/strain
-ledger, because uncharged first creation would create a terminal active packet
-with no ancestry, which should violate same-fluid participation plus
-no-incoming terminal rigidity.
+first-time creation of donor height is charged by a native shell/strain ledger
+only after a theorem shows that an uncharged first creation creates a terminal
+active packet with no ancestry and that this packet violates same-fluid
+participation plus no-incoming terminal rigidity.
 ```
 
 That is historical proof-search context.  It is not the current theorem-crank

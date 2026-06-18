@@ -155,7 +155,7 @@ or an equivalent residue-evacuation theorem.
 
 ## 5. Alignment alternative is not installed
 
-The remaining structural hope is:
+The remaining uninstalled structural implication is:
 
 ```text
 first height creation

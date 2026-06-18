@@ -90,7 +90,7 @@ locally on annuli in the weak norms needed by the stationary equation.
 
 ## Drift visibility test
 
-The attractive argument is:
+The uninstalled drift-visibility implication is:
 
 ```math
 \text{persistent modulation drift}
@@ -123,7 +123,7 @@ Without `(GS.6)`, `ZenoNoDriftUniqueTangent.A` is not proved.
 
 ## Stationarity test
 
-A second attractive argument is long-window averaging in renormalized time:
+The second uninstalled route is long-window averaging in renormalized time:
 to make this work, finite total renormalized production must give intervals
 where all production terms vanish, and compactness on those intervals must
 produce a stationary limit.
