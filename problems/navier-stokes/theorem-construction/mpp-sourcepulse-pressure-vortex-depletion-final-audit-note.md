@@ -96,4 +96,4 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 Thus pressure-vortex depletion remains a possible proof mechanism, but it is
 not installed by the current pressure Poisson, energy, vorticity, or
-`FFSRC.A=>FCI.5f` ledgers.
+`Hyp(FFSRC.A)=>FCI.5f` ledgers.
