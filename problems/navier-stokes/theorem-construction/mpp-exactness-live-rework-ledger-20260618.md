@@ -6319,6 +6319,86 @@ Surfaces edited:
 - `theorem-construction/mpp-nearband-bv-to-burst-or-source-direct-attempt-20260506.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Hidden-Constant / Order-Size Rework
+
+Old claim being spent:
+
+Several live theorem notes and appendix mirrors still used hidden-constant or
+size-language statements as if they were proof quantities:
+
+- `\lesssim`, `\gtrsim`, and `\simeq` in the Door 1 / Door 2 / terminal annular
+  stress-current notes;
+- "order-size terminal response" in the Zeno source-residue and selected-source
+  dissipation tests;
+- "order-one" reserve language in the zero-moment signed-pair appendix;
+- "order-size mismatch" in the weighted lifted skew-defect note and its
+  source-field reader mirrors.
+
+Exact replacement:
+
+The Door 2 gauge estimate now states the required constant explicitly:
+
+```text
+|x_s|+|Omega_s|+|(\log lambda)_s|+|theta_s|
+<= C_gauge ( ||projected modulation residual|| + defect ),
+```
+
+and the note says no such coercive `C_gauge` estimate is installed.  Door 1 now
+defines
+
+```text
+c_L := inf_{|e|=1} max_{ell in L} [ell.e]_+
+```
+
+and uses `max_ell [ell.Phi_0]_+ >= c_L |Phi_0|`.  The terminal annular
+stress-current note defines the flux functional by equality,
+`Phi_n(ell):=int_{T_n} ell.(u_n tensor u_n + p_n I - nu grad u_n)n_n dmu_n`.
+
+For the Zeno and selected-source tests, the model response is now exact: if
+`F_m(s)=m 1_{(-1/m,0]}(s) f` with `0 != f in L^2`, then
+
+```text
+int_{-1/m}^0 m e^{(0-s)nu Delta} f ds -> f in L^2
+```
+
+by heat-semigroup strong continuity.
+
+For zero-moment signed pairs, the appendix now uses fixed lower-bound
+hypotheses such as `|J_+|(W), |J_-|(W) >= c_0` and reserve bounds
+`R_first(W)>=eta`, rather than "order-one" language.
+
+For the weighted skew defect, the exact separated-edge defect is
+
+```text
+2^j 2^{-sigma(ell-j)} - 2^ell
+= -2^ell(1 - 2^{-(1+sigma)(ell-j)}),
+```
+
+and for legal separated edges `ell-j>=d_0`, `sigma>-1`,
+
+```text
+|2^j 2^{-sigma(ell-j)} - 2^ell|
+>= (1 - 2^{-(1+sigma)d_0}) 2^ell.
+```
+
+Downstream consequence:
+
+The live notes no longer use hidden asymptotic notation or order-size language
+as proof currency.  Each affected route now exposes the actual constant,
+functional, convergence statement, lower-bound hypothesis, or separated-edge
+defect that must be proved or charged.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-zenosourceresiduerigidity-a-7a97f81431.md`;
+- `theorem-construction/mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-door1-same-shadow-super-l1-residence-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-terminal-annular-stress-current-compactness-attempt-20260618.md`;
+- `theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md`;
+- `theorem-construction/mpp-weighted-lifted-skew-defect-legal-audit-20260505.md`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Scale-Language / Behaves-Like Rework
 
 Old claim being spent:
