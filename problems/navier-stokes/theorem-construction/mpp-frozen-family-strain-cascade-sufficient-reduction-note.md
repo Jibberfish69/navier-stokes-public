@@ -95,6 +95,15 @@ lies in the reference part of the common packet collar, exactly as in the
 geometry used in `(FN.8)`. Hence every ordinary tower factor evaluated at `x`
 or `x+\eta` is bounded by
 `\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)^{1/2}`.
+The exact finite-depth bound being spent is
+
+```math
+\sup_{\substack{y\in\mathcal C_{\rho,\psi}^{\delta}(t)\\0\le m\le N+1}}
+|U_m(y,t)|
+\le
+C_N\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)^{1/2}.
+\tag{FFSC.Aenv}
+```
 
 For the strain packet, the transport form `(MP.10)` and the packet identity
 `(MP.12)` give a finite weighted sum of integrals of the form
@@ -135,8 +144,8 @@ U_\ell(x,t)*(\delta_\eta U_{k+1-\ell}(x,t)).
 ```
 
 Pairing with `\delta_\eta U_k(x,t)` in the packet identity again yields one
-ordinary tower factor of order at most `N+1`, hence controlled by the common
-collar envelope, and two increment factors already contained in
+ordinary tower factor of order at most `N+1`. The factor is bounded by
+`(FFSC.Aenv)`, and the two increment factors are already contained in
 `E_N(\eta,t;\psi)`. The same weighted Cauchy--Schwarz argument gives
 
 ```math
