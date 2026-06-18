@@ -198,7 +198,7 @@ and
 \int_{\mathbb R^3}|K_j(z)|\,|z|\,dz \le C_K2^{-j},
 ```
 
-we obtain the standard fixed-gap commutator estimate
+we obtain the fixed-gap commutator estimate
 
 ```math
 \|[\Delta_j,\Delta_k u]\nabla \widetilde\Delta_j u\|_{L^2}
