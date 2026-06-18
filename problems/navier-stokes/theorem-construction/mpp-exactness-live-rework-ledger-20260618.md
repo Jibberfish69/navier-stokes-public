@@ -167,6 +167,64 @@ source wall.
 estimate" to "pointwise kernel bound"; the displayed inequality was already the
 exact object, and the edit prevents it from being read as scale intuition.
 
+## Proof-Verb Inclusion And Finite-Measure Rework
+
+Old loose steps:
+
+- `mpp-packet-collar-next-rung-control.md` proved `PC.A` by saying it was
+  "Immediate from `(PC.2)`--`(PC.7)`."
+- `uniform-packet-bounds-collapse-small-radius-budget.md` proved `UPB.C` by
+  saying it was "Immediate from `(UPB.9)` and `(UPB.10)`."
+- Downstream summaries said the radius-gap route "gives" a uniform
+  shrinking-radius theorem without naming the finite-measure calculation.
+
+Exact replacements:
+
+For `PC.A`, the live proof now shows the containments. If
+\(\eta\in\mathcal R_{\rho}^{ref}(t;\psi)\), then `(PC.2)` gives
+\(|\eta|\le\Lambda_{\rho,\psi}^{ref}(I)\), hence
+\(\eta\in\mathbb B_{\rho,\psi}^{ref}(I)\) by `(PC.3)`, so
+\[
+X(a,t)+\eta\in\mathfrak B_{\rho,\psi}(t;I).
+\]
+Then `(PC.6)` puts both \(\mathfrak B_{\rho,\psi}(t;I)\) and
+\(\mathfrak S_{\rho,\psi}(t)\) in \(\mathfrak P_{\rho,\psi}(t)\), and
+`(PC.7)` puts every distance-zero point of \(\mathfrak P_{\rho,\psi}(t)\) into
+the collar \(\mathcal C_{\rho,\psi}^{\delta}(t)\). This proves `(PC.10)`
+without a hidden geometry shortcut.
+
+For `UPB.C`, the live proof now spends the exact pointwise and measure
+calculation:
+
+```math
+r_J(z)^2\le\rho_J^2,
+\qquad
+\int_I\int_{\mathcal J}r_J(z)^2\,d\mu_J^{pair}\,dt
+\le
+\rho_J^2\mu_J^{pair}(\mathcal J\times I)
+\le
+\mathfrak m_\ast\rho_J^2=o_J(1).
+```
+
+Downstream consequence: the stronger compact-support/localizer route is
+conditional on the fixed gap floor, finite active measure, and uniform
+shrinking-radius bound \(r_J\le\rho_J\to0\). It is still a bypass realization,
+not the installed minimal overlap theorem wall. The packet-collar route still
+has the open `PC.D` / collar Sobolev / interval-propagation burdens; the
+geometric containment step itself is no longer an unresolved proof verb.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-packet-collar-next-rung-control.md`;
+- `theorem-construction/uniform-packet-bounds-collapse-small-radius-budget.md`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/localized-projector-localizer-modulus-overlap-reduction.md`;
+- `theorem-construction/compact-support-localizer-shrinking-radius-implies-center-spacing.md`.
+
+Residuals: the remaining "Immediate from" hits found in this batch are inside
+`mpp-exactness-residue-audit-classification-20260617.json`, a generated audit
+residue, not a live theorem/manuscript surface.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
