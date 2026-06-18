@@ -295,7 +295,7 @@ When this question is live, do not answer from the old eight-row table.
 
 Use this order instead:
 
-1. name whether the statement is weak/formal or terminal/ontological;
+1. name whether the statement is truth-table/certificate bookkeeping or terminal/ontological;
 2. test the actual implication pressure among Pack, Part, and Field;
 3. identify any common-mode or neighboring-coherence exception;
 4. only then mention repo route labels or endpoint cells.
