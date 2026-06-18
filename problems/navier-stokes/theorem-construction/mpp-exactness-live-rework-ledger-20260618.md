@@ -2891,6 +2891,54 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`.
 - `theorem-construction/mpp-exactness-live-rework-ledger-20260618.md`.
 
+## Asymptotic-Stationarity Residual Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-asymptoticstationarityattempt-a-asymptoticstationarity-a-zenocriticalprofileproduction-a-65fa0863d0.md`
+  said the passage from a renormalized ancient/local suitable limit to a
+  stationary profile would "typically" come from one of several mechanisms
+  without stating the exact convergence those mechanisms must prove.
+
+Exact replacement:
+
+For a renormalized Zeno sequence `U_n,P_n` on compact
+`K subset R^3\\{0}` and finite renormalized time interval `J`, the note now
+writes the renormalized equation as
+
+```text
+partial_s U_n - nu Delta U_n + (U_n dot grad)U_n + grad P_n
+=
+F_n^drift + F_n^selector + F_n^scale + F_n^src
++ div M_n^def.
+```
+
+The needed theorem is the displayed vanishing
+
+```text
+partial_s U_n -> 0 in L^1(J;H^{-1}(K));
+F_n^drift+F_n^selector+F_n^scale -> 0 in L^1(J;H^{-1}(K));
+F_n^src -> 0 in L^1(J;H^{-1}(K));
+M_n^def -> 0 as a measure on J x K.
+```
+
+Proof or remaining burden:
+
+Any Lyapunov, frequency-locking, entropy, tangent-flow uniqueness, modulation,
+or source-evacuation mechanism is useful only after it proves those exact
+vanishing statements for the selected sequence.  Current inputs do not prove
+them.
+
+Downstream consequence:
+
+Door 2 cannot spend "critical rescaling becomes autonomous" or a mechanism list
+as a stationarity proof.  The Landau/Sverak consumer becomes available only
+after the exact `L^1_s H^{-1}_{loc}` and measure-evacuation limits are proved.
+
+Edited live surface:
+
+- `theorem-construction/mcp-asymptoticstationarityattempt-a-asymptoticstationarity-a-zenocriticalprofileproduction-a-65fa0863d0.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
