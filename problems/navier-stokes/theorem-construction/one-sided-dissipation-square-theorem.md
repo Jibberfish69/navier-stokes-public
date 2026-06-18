@@ -117,8 +117,29 @@ Assume `\ell\ge m`. Then
 2^{(1+\sigma)m-\sigma\ell}.
 ```
 
-So `(SDS^\sharp)` is comparable, up to constants depending on `\sigma`, to the
-one-sided bilinear square form
+Define
+
+```math
+B_N^\sigma(t)
+:=
+\sum_{m>N+M+4}\sum_{\ell\ge m}
+2^{(1+\sigma)m-\sigma\ell}D_m(t)D_\ell(t).
+```
+
+The inner geometric sum also has the lower bound obtained from its top term
+`j=r`. By symmetry between `\ell` and `m`, there are constants
+`0<c_\sigma\le C_\sigma<\infty` such that, pointwise in `t`,
+
+```math
+c_\sigma B_N^\sigma(t)
+\le
+\sum_{j>N+M+4}2^j\big(\mathcal T_j^\sigma(t)\big)^2
+\le
+C_\sigma B_N^\sigma(t).
+```
+
+Thus `(SDS^\sharp)` is exactly equivalent, with constants depending only on
+`\sigma`, to the one-sided bilinear square form
 
 ```math
 \sum_{m>N+M+4}\sum_{\ell\ge m}
