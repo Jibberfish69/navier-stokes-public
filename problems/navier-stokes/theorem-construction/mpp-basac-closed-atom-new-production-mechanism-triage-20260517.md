@@ -41,7 +41,7 @@ or finite-packet form
 LocalizedLeraySourceTether.A_{ind}.
 ```
 
-The desired statement would be that the pressure quadratic-gradient defect or Leray-projected near-band pressure channel is absolutely continuous with respect to the native source-current carrier in a way that forbids a pure terminal time-face atom.
+The desired statement is that the pressure quadratic-gradient defect or Leray-projected near-band pressure channel is absolutely continuous with respect to the native source-current carrier in a way that forbids a pure terminal time-face atom.
 
 A useful exact target is:
 
@@ -63,7 +63,7 @@ Thus residue-level pressure absolute continuity remains a new theorem, not an in
 
 ## Test 2: finite-packet Leray-source tether
 
-A finite-packet tether would assert that the localized Leray pressure/source channel must remain attached to the selected native source-current before terminal positive-part extraction.
+A finite-packet tether asserts that the localized Leray pressure/source channel must remain attached to the selected native source-current before terminal positive-part extraction.
 
 The obstruction is the selection gap. Leray projection and pressure localization can move mass across packets and signs. After one-sided terminal selection, signed cancellation can disappear. A tether strong enough to survive this step becomes a signed no-free-sink or PRD-type theorem.
 

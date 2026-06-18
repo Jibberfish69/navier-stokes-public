@@ -18,7 +18,7 @@ LocalPositiveSourceCarleson.A
 PositiveRemainderDepletion.A.
 ```
 
-A successful theorem would prevent a retained positive source atom in the produced `B_ASAC` branch and feed the time-face anti-atom / Liouville chain.
+A successful theorem must prevent a retained positive source atom in the produced `B_ASAC` branch and feed the time-face anti-atom / Liouville chain.
 
 ## Available branch data
 
@@ -34,7 +34,7 @@ The only source-size control presently installed is local finite `L^1_s` source 
 
 ## Direct test
 
-A local positive source Carleson theorem would give a scale-critical measure bound on terminal source concentration. Positive remainder depletion would force the weighted positive terminal source current to drain through legal, ASAC, donor, temporal, or rigidity ledgers.
+A local positive source Carleson theorem gives a scale-critical measure bound on terminal source concentration. Positive remainder depletion forces the weighted positive terminal source current to drain through legal, ASAC, donor, temporal, or rigidity ledgers.
 
 The all-doors-closed branch was constructed precisely after those ledgers were audited. In that branch, the terminal source layer
 

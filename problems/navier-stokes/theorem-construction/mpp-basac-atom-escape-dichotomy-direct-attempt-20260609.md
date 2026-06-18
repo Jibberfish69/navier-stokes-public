@@ -96,8 +96,8 @@ parents.  It does not rule out a diffuse legal source-parent cloud:
 ```
 
 Every bounded selected subfamily captures vanishing mass while the full native
-positive source residue remains order one.  Thus first-pulse no-parent does not
-prove the source-drain door.
+positive source residue remains bounded below by `M_0>0`.  Thus first-pulse
+no-parent does not prove the source-drain door.
 
 ## Attempt 2: Temporal Residence / Reverse Holder
 
@@ -117,7 +117,7 @@ TerminalSourceReverseHolder_{B_{ASAC}}.A^{gain}
 
 and then temporal source anti-concentration.
 
-The installed source ledger is only `L^1_s`.  The terminal-layer model:
+The installed source ledger is only `L^1_s`.  The endpoint time-marginal witness:
 
 ```math
 g_m(s)=m\,{\bf 1}_{(-1/m,0]}(s)

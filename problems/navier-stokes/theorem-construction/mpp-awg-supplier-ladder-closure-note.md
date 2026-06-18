@@ -46,7 +46,7 @@ leaves the active-square residual-tail wall.
 
 Recorded in `mpp-monotone-source-dominance-no-pulse-attempt-note.md`.
 
-Result: a monotone law would close the active-window charge, but the current
+Result: a monotone law closes the active-window charge exactly when it supplies the displayed active-scale coefficient and reserve, but the current
 shell identity permits source-balanced active pulses unless a new nonlinear
 source-control theorem is proved.
 

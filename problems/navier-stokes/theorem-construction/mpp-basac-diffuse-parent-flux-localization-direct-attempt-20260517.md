@@ -58,7 +58,7 @@ The `B_ASAC` clauses remove fixed earlier selected source slices, legal exits, f
 
 Therefore a nonzero terminal diffuse parent cloud does not force nonzero lateral transported flux.
 
-## Attempt 2: compact terminal-layer model
+## Attempt 2: compact endpoint time-marginal witness
 
 Use a terminal layer supported inside a fixed compact spatial ball:
 
@@ -82,7 +82,7 @@ Thus transported-cylinder no-flux controls the spatial-incoming branch, while th
 
 ## Attempt 4: full parabolic-boundary reformulation
 
-One can define a full boundary flux that includes the terminal time face. Under that definition the theorem becomes immediate: the nonzero source atom itself is the nonzero terminal boundary flux.
+One can define a full boundary flux that includes the terminal time face. Under that definition the theorem is only a relabeling: the nonzero source atom itself becomes the terminal boundary-flux term.
 
 That reformulation gives no Liouville gain. To close the route, the terminal time-face term must be ruled out by an independent theorem such as
 

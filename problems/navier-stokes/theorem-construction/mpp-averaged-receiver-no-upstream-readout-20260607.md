@@ -5,8 +5,8 @@ ns_viewer:
   logical_landing_node: averaged_terminal_route
   edge_effect: blocks upstream use of READ.COVER, DTC.Read, Field.Read, READ.END, and pointwise DTC/Field objects before End_NS_avg.
   upstream_origin: finite-energy point-pressure derivative obstruction and averaged receiver route audit.
-  downstream_consequence: Continue the averaged branch through the no-Jump_avg scheduled cover, or route cover failure as Jump_avg and then to the Field face by AveragedFieldFaceAdmission.A.
-  status: installed
+  downstream_consequence: Continue the averaged branch through the no-Jump_avg scheduled cover, or route cover failure as Jump_avg and then to the Field face by AveragedFieldFaceAdmission.A only after the same-tail SCF_base local modulus is supplied or derived.
+  status: conditional-on-scfbase-local-modulus
   source_authority: problems/navier-stokes/ns-proof-program-route-table.yaml
 ---
 
@@ -102,14 +102,16 @@ OriginalSmoothData
 ```
 
 still fails as a standalone theorem from `OriginalSmoothData`. The checked CM
-primitive closes by the second route: failure of such a uniform cover is exactly
+primitive no longer closes by depth alone. Failure of such a uniform cover is
 the averaged `Jump_avg` face, and on the same CM-test-admitted averaged terminal
-tail `AveragedFieldFaceAdmission.A` gives
+tail `AveragedFieldFaceAdmission.A` gives the Field-face contradiction only with
+the same-tail modulus:
 
 ```math
 Pack_Q+Part_{N,Q}+Jump_{avg}(T)
+\quad+\quad SCFBaseLocalModulus_N(T,r)
 \Longrightarrow
-\forall r>0\,\neg Field_{N,r,Q}.
+\neg Field_{N,r,Q}\text{ at that }r.
 ```
 
 This uses neither pointwise pressure recovery nor terminal readout upstream.
@@ -119,10 +121,12 @@ This uses neither pointwise pressure recovery nor terminal readout upstream.
 This note keeps the averaged route inside the CM contrapositive discipline. It
 does not label the averaged cover problem as `Exit(Q)` by itself. The checked
 fail branch enters the CM test and, with `Pack_Q` and `Part_{N,Q}` retained,
-derives the concrete Field-face failure
+derives the concrete Field-face failure only after the same-tail modulus is part
+of the Field row or has been proved from it:
 
 ```math
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-That face failure supports `Exit(Q):=\neg Member(Q)`.
+That face failure supports `Exit(Q):=\neg Member(Q)` once the modulus input has
+been supplied.

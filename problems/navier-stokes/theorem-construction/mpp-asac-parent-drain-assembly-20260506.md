@@ -74,8 +74,10 @@ PacketNormalForm.A.
 \tag{APA.3}
 ```
 
-This is the standard low-frequency pseudodifferential packet expansion; the
-large object is the diagonal positive strain carrier.
+The proof-bearing input is the displayed error estimate `(APA.2)`: off-diagonal
+packet interactions and coefficient Taylor remainders are bounded by
+`\varepsilon\int\sum_{q>N}D_q(t)dt+o_N(1)`.  After that estimate is installed,
+the remaining large object is the diagonal positive strain carrier.
 
 ## 2. Source Tether
 
@@ -107,8 +109,8 @@ terminal-slice tether.
 ## 3. Limit Pass
 
 Assume the positive-alignment tile Carleson theorem `PATC.A` fails.  Select a
-maximal bad tile and rescale on its heat scale.  The standard local energy,
-packet normalization, and same-fluid compactness package gives a subsequential
+maximal bad tile and rescale on its heat scale.  The local energy inequality,
+packet normalization, and same-fluid compactness package give a subsequential
 limit:
 
 ```math

@@ -107,7 +107,7 @@ finds no installed supplier outside the audited families.
 
 ## Consolidated obstruction
 
-The persistent terminal model remains
+The persistent endpoint time-marginal witness remains
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.

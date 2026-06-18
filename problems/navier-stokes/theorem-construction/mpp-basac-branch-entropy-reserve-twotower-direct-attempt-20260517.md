@@ -40,7 +40,7 @@ Let a terminal source child receive legal same-fluid parent contributions from `
 \pi_P={1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}.
 ```
 
-The positive child-feeding source is normalized to order one:
+The positive child-feeding source is normalized by the exact mass identity:
 
 ```math
 \pi_P(\mathsf{Pred}(P))=1.
@@ -72,11 +72,15 @@ For diffuse amplitudes of size `M^{-1}`, quadratic ledgers scale as
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1},
 ```
 
-while the positive source sum remains order one. Thus residual-square and donor-energy costs decrease under legal diffuse splitting.
+while the positive source sum is
+```math
+\sum_{\alpha=1}^{M}M^{-1}=1.
+```
+Thus residual-square and donor-energy costs decrease under legal diffuse splitting.
 
 ## Two-tower donor-depletion attempt
 
-A two-tower theorem would need a fixed scale-normalized spend for each legal source-parent edge, or a convex reserve whose total grows with branch complexity.
+A two-tower theorem requires a fixed scale-normalized spend for each legal source-parent edge, or a convex reserve whose total grows with branch complexity.
 
 Current donor-balance inputs telescope finite trees and pay finite/non-Zeno exits. Terminal Zeno diffusion can split source mass across arbitrarily many legal parents while making the quadratic cost per edge small. The installed balance laws track total energy and legal exits; they do not assign a fixed spend to every legal same-fluid parent edge.
 
@@ -94,7 +98,9 @@ The exact obstruction is:
 
 ```math
 \boxed{
-\text{linear positive source may remain order one while available quadratic branch charges scale like }M^{-1}.
+\sum_{\alpha=1}^M M^{-1}=1
+\quad\text{while}\quad
+\sum_{\alpha=1}^M M^{-2}=M^{-1}.
 }
 ```
 

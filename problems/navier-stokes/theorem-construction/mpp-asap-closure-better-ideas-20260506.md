@@ -284,10 +284,12 @@ This route closes only if it avoids hidden dependence on:
 HeatScaleSquareSource.A / ScaleCriticalTreeCarleson.A.
 ```
 
-The technical object should be an adjoint backward heat packet centered at the
-terminal atom.  A real atom pairs nontrivially with every shrinking backward
-packet; positive viscosity plus no-incoming rigidity should force that pairing
-to vanish.
+The technical object is a normalized adjoint backward heat packet
+`\psi_T^{resp}` centered at the terminal atom.  The theorem must prove two
+exact facts on the same response tile: a real atom gives a nonzero squared
+response mass `M_resp(T)`, and the response parent-or-charge estimate plus
+no-incoming rigidity drives that mass to zero.  Without both facts, this is only
+a detection idea, not an atom-exclusion proof.
 
 If proved:
 
@@ -312,7 +314,7 @@ not helical/Beltrami-like
 => strain/source charge is visible.
 ```
 
-The useful theorem would be:
+The useful exact theorem is:
 
 ```math
 \boxed{
@@ -401,7 +403,7 @@ ResidueEvacuationWithoutSquareSource.A closes the Zeno branch;
 HelicalHeightFluxDichotomy.A closes the positive weighted shell-flux estimate.
 ```
 
-The strongest immediate next proof attempt is:
+The strongest next proof attempt is:
 
 ```math
 \boxed{
@@ -630,8 +632,9 @@ The frame items are packet-definition pinning.  The hard PDE item is now:
 ResponseResidualPair.A.
 ```
 
-`ResponseKernelSignControl.A` should be treated as superseded by the
-square-mass route, not as the live primitive.
+`ResponseKernelSignControl.A` is superseded by the square-mass route.  The
+remaining PDE burden is `ResponseResidualPair.A` after the same-fluid response
+frame is pinned.
 
 ## Execution Result: Response Principal-Strain Gauge
 
@@ -1585,6 +1588,7 @@ NoZeroHeatTimeResidueInsideNSClass.A
 on the selected Zeno branch with `NoEarlierSelectedSourceSlice.A`.
 
 The proof attempt fails as a lower theorem because fixed positive viscosity and
-local energy allow terminal-layer Duhamel profiles with bounded `L^1_t` source
-mass and vanishing heat-time moment.  Thus positive viscosity alone does not
+local energy allow the model time marginal
+`g_m(s)=m 1_{(-1/m,0]}` to have bounded `L^1_t` source mass, vanishing heat-time
+moment, and order-size terminal response. Thus positive viscosity alone does not
 prove terminal temporal anti-concentration.

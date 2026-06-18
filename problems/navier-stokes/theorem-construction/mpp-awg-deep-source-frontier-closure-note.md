@@ -108,7 +108,7 @@ F_j(t)\le a_j(t)E_j(t)+b_j(t),
 ```
 
 where `a_j` is integrable at active scale and `b_j` has Carleson or square-source
-control. Such a law would forbid source-balanced active pulses in
+control. Such a law forbids source-balanced active pulses in
 
 ```math
 E_j' + c\nu D_j \le F_j.

@@ -5,7 +5,7 @@ ns_viewer:
   proof_role: case_exhaustion_for_pulling_teeth_annular_residual_case
   logical_landing_node: terminal_cone_annular_limit_witness
   source_authority:
-    - problems/navier-stokes/docs/Samples/pulling teeth/pulling-teeth-transcript.pdf
+    - problems/navier-stokes/submission-bundle/authoring/lab/transcripts/pulling-teeth/pulling-teeth-transcript.pdf
     - problems/navier-stokes/theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md
     - problems/navier-stokes/theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md
     - problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
@@ -51,7 +51,7 @@ in exact order: gold first, obstruction second, silver after admission third.
 
 ## 2. Gold Standard
 
-The gold theorem would prove scale-uniform residual annular control:
+The gold theorem target is scale-uniform residual annular control:
 
 ```math
 \forall\varepsilon>0\ \exists r_\varepsilon>0
@@ -59,8 +59,9 @@ The gold theorem would prove scale-uniform residual annular control:
 D_{j_m}^{res}(t_m;t_0)\le\varepsilon
 ```
 
-for every same-solution terminal annular schedule, or an equivalent
-undiscounted scale-critical cone/profile budget.
+for every same-solution terminal annular schedule, or another proved theorem
+that implies the same limit for the undiscounted scale-critical annular cone
+budget.
 
 The installed inputs do not prove this theorem.  The exact obstruction is the
 heat-time pulse
@@ -117,7 +118,7 @@ branches.
 
 If the residual annular supplier is proved, then the residual load vanishes on
 the shrinking annular schedule.  The packet is not a surviving residual
-obstruction.  The branch goes to the usual continuation/member side when the
+obstruction.  The branch goes to the continuation/member side when the
 readout hypotheses are retained.
 
 ### Branch B: no annular admission

@@ -220,8 +220,9 @@ CM_{N,r,Q}
 \qquad s>5/2.
 ```
 
-The standard continuation criterion extends the classical solution past
-`T_*`, contradicting that `\mathcal F` is a finite-time failure witness. Hence
+The `H^s`, `s>5/2`, relaunch criterion gives a common preterminal restart
+lifespan and extends the same classical solution past `T_*`, contradicting that
+`\mathcal F` is a finite-time failure witness. Hence
 no positive coherence scale can survive:
 
 ```math

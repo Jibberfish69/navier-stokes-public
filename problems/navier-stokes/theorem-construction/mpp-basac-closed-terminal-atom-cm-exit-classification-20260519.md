@@ -8,7 +8,7 @@ Conditional closure at CM-exit level. This note applies the shared-participation
 
 ## Inputs
 
-Installed immediately upstream:
+Installed one step upstream:
 
 ```math
 SourceMeasureParticipationDensityBridge.A

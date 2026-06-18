@@ -63,7 +63,8 @@ not finite physical parent complexity.
 At heat scale `r_P`, the torus contains at most `C_{\mathbb T^3}r_P^{-3}`
 possible spatial cells.
 The positive source feeding one child can be distributed across many such cells
-or across many triadic pieces while the total parent measure remains order one.
+or across many triadic pieces while the total parent measure is normalized to
+\(\pi_P(\mathsf{Pred}(P))=1\).
 Frequency localization alone therefore does not give the required bounded
 subcollection `\mathcal C(P)`.
 
@@ -128,7 +129,7 @@ Pressure and cutoff ledgers can route legal error terms once those terms are
 separated.  The downstream frozen-family source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 is an integrability supplier after the receiver/source route is admitted.  None

@@ -2,7 +2,8 @@
 
 Date: 2026-05-17
 
-Status: failed unconditional discharge. The local-energy trace idea is a plausible fresh route, and it reduces to no-incoming flux or temporal anti-concentration.
+Status: failed unconditional discharge. The local-energy trace idea is a route
+candidate, and it reduces to no-incoming flux or temporal anti-concentration.
 
 ## Target
 

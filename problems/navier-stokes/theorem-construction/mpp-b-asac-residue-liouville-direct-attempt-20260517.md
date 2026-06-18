@@ -73,7 +73,7 @@ escape, or an ASAC-paid defect.
 
 The class gives finite terminal source mass and no earlier selected source
 slice.  It does not give any super-`L^1_s` temporal control.  The standard
-terminal-layer model
+endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
@@ -85,7 +85,7 @@ current `B_ASAC` clauses do not contain a reverse Holder or
 `L^p_s`, `p>1`, anti-concentration input.
 
 So `TerminalSourceReverseHolder.A` / `UniformTemporalSourceIntegrability_p.A`
-would still close this route, but it is not produced by `B_ASAC` as stated.
+closes this route by giving a super-`L^1_s` time marginal and excluding terminal atoms, but it is not produced by `B_ASAC` as stated.
 
 ## Attempt 4: global no-incoming / backward uniqueness
 

@@ -4,7 +4,7 @@ ns_viewer:
   status: corrected-live-goal-run-primer-open
   proof_role: gold-forward-positive-and-silver-cm-annular-limit-reopen
   logical_landing_node: terminal_cone_annular_limit_witness
-  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The installed statement r_*=0 => not Pack_Q handles the point-object, but Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing is not enough, and Pack is not the CM argument after annular admission."
+  edge_effect: "Reopens the overclaimed terminal-radius closure for the resumed goal-run. The installed statement r_*=0 => not Pack_Q handles the point-object, but Thomas's objection is that the singularity is witnessed by the surrounding positive-radius fields as they approach the tip. The next run must either prove forward-positive annular/cone control in residual scale-critical currency, or admit the annular limiting behavior as the same-solution terminal witness and classify the admitted nonsmooth branch by Part or Field. A bare zero-radius Pack landing does not settle the positive-radius annular witness, and Pack is not the CM argument after annular admission."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-residual-refill-ledger-and-spine-consolidation-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-active-square-obstruction-pass-or-pack-exit-20260611.md
@@ -143,7 +143,8 @@ D_j^{res},
 not raw shell size, raw wall flux, raw cone volume, first-moment global drain,
 or bare derivative-tower amplitude.
 
-The theorem should prove one of the following equivalent forward closures:
+The theorem target must prove one of the following forward closures, or a
+checked implication from one of them to the same residual annular readout:
 
 ```text
 ResidualSourceBalancedLPAS.A
@@ -170,8 +171,9 @@ The annular field cannot retain scale-critical residual load through infinitely
 many terminal cone slabs.
 ```
 
-Equivalently, late annular slabs become small enough for the CKN/H^s
-continuation readout.
+Equivalently, the surviving late annular slabs must fall below a named
+CKN/H^s continuation threshold with the required local energy, pressure,
+velocity-depth, and readout hypotheses stated on the same annular record.
 
 ## 5. Silver Standard: CM Annular Face Landing
 
@@ -259,7 +261,7 @@ witnessed by the fields around the tip.
 The run is PDF-focused, but the math runner must carry this note as a live
 frontier.
 
-The gold runner should try the forward-positive annular route first:
+The gold route is the forward-positive annular route:
 
 ```text
 AnnularLimitForwardControl.A
@@ -268,7 +270,7 @@ ResidualDirectCTSOrFCTS.A
 AnnularScaleCriticalConeBudget.A
 ```
 
-The silver runner should classify only the surviving residual annular pulse:
+The silver route classifies only the surviving residual annular pulse:
 
 ```text
 AnnularLimitCMFaceLanding.A

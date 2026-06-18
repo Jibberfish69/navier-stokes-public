@@ -101,8 +101,8 @@ No installed B_ASAC clause supplies such a moment. The same terminal layer has
 divergent superlinear moments.
 
 A Morrey residence route would need a power improvement on short intervals.
-Finite `L^1_s` mass gives no such improvement; the terminal layer again has
-order-one mass on intervals of length `1/m`.
+Finite `L^1_s` mass gives no such improvement; the endpoint time-marginal
+witness again has fixed positive mass on intervals of length `1/m`.
 
 Thus the Orlicz and Morrey versions are not proved.
 
@@ -135,9 +135,10 @@ Zero ASAC and the paid legal/projected/cutoff/boundary and finite-donor exits
 remove their named channels. They do not estimate the surviving native positive
 source measure.
 
-No fixed earlier selected source slice is compatible with the model
+No fixed earlier selected source slice is compatible with the endpoint
+time-marginal witness
 `g_m(s)=m 1_{(-1/m,0]}(s)`: every fixed earlier slice is empty while the
-terminal strip still carries order-one mass.
+terminal strip still carries fixed positive mass.
 
 ## Result
 

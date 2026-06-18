@@ -96,7 +96,7 @@ NoIncomingFlux_{global}.A / TransportedCylinderNoFlux.A
 
 provided `B_ASAC^flux` includes a genuine exhaustion hypothesis such as `(FGE)`, `(VTF)`, or an equivalent tail theorem.
 
-This would remove external transported-cylinder replenishment. The terminal residue would then require temporal anti-concentration or residue Liouville for the remaining internally terminal atom.
+This removes external transported-cylinder replenishment once the exhaustion hypothesis is proved. The terminal residue then requires temporal anti-concentration or residue Liouville for the remaining internally terminal atom.
 
 ## Verdict
 

@@ -76,7 +76,7 @@ LCI.A_{avg},
 ```
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
 ```
 
 ```math
