@@ -1,6 +1,6 @@
 # Classical Closure Warrant Final Pass
 
-Status: discharged for the periodic zero-force theorem-facing branch.
+Status: conditional classical-closure warrant for the periodic zero-force branch.
 
 ## Statement
 
@@ -10,7 +10,9 @@ PCTP.hard+ECQ.A
 T_* = \infty.
 ```
 
-Thus smooth divergence-free zero-mean initial data on `T^3` with zero force generate a global smooth classical solution.
+Thus, once `PCTP.hard` has been supplied for the periodic zero-force branch,
+smooth divergence-free zero-mean initial data on `T^3` with zero force generate a
+global smooth classical solution.
 
 ## Target branch
 
@@ -59,4 +61,5 @@ T_* = \infty.
 
 ## Branch boundary
 
-The conclusion is the periodic zero-force global smooth solution statement.
+The conclusion is the periodic zero-force global smooth solution statement under
+the displayed `PCTP.hard+ECQ.A` hypothesis.
