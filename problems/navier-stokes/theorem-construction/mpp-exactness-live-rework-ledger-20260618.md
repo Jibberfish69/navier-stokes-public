@@ -5187,3 +5187,65 @@ Edited live surfaces:
 - `theorem-construction/weighted-exact-projection-commutator-theorem-candidate.md`;
 - `theorem-construction/mpp-full-coefficient-good-packet-stop-attempt-20260506.md`;
 - `theorem-construction/mpp-effective-viscous-packet-antidegeneration-expansion-20260506.md`.
+
+## Lower-Order, Compactness, And Continuation Shortcut Repair
+
+Old loose step:
+
+Several live theorem-construction notes still used "lower order," "standard
+extraction," "standard route," or "standard continuation" at proof-force points
+where the route needed an explicit remainder bound, compactness input, finite
+cover argument, continuation inequality, or absorption estimate.
+
+Exact replacement:
+
+- `d6-global-carrier-a-priori-bound.md` now writes the nonlinear vorticity
+  decomposition as `Omega_D N_D(X)=nabla_D(X . nabla_D X)+R_N(X)` and states
+  the required pairing bound on `R_N`.
+- `d4-shadow-continuation-theorem.md` now states the commuted coercivity,
+  drift, and nonlinear Young-margin inequalities used to propagate `H_D^1`.
+- `shadow-remainder-hs-forcing-estimate.md` now describes the weaker shadow
+  branch as the forced `H^s` continuation problem governed by its displayed
+  proposition.
+- `d3-commutative-shadow-theorem.md` now names the displayed differential
+  inequality supplied by the commutator estimate instead of calling it
+  standard.
+- `mpp-terminal-bad-scale-extraction-compactness-20260505.md` now removes the
+  "standard compactness" wording and adds the negative-Sobolev time-derivative
+  bound used for Aubin--Lions extraction.
+- `mpp-parabolic-source-current-route-note-20260505.md` now refers to explicit
+  source-route ingredients for `LocalizedSkewCurrent.A`.
+- `mcp-periodic-continuation-readout-standard.md` now identifies itself as the
+  displayed periodic continuation lemma.
+- `mpp-pctp-noescape-scheduler-pde-export-closure-note.md` now spells out the
+  finite shrinking / bounded-overlap step.
+- `mpp-six-positive-contrapositive-chunks-completion-20260506.md` now refers to
+  the displayed gradient-control route.
+- `mpp-temporal-nonatomic-scf-carrier-audit-20260505.md` now states the
+  sufficient superlinear temporal marginal theorem without the "standard"
+  shortcut.
+- `mcp-anisotropic-stokes-carleman-finite-slab-attempt-20260505.md` now gives
+  the order-zero multiplier absorption inequality and corrects the principal
+  operator from `u nabla` to `nu nabla`.
+
+Downstream consequence:
+
+The affected surfaces now expose the exact local dependency: a stated remainder
+pairing bound, commuted coercivity estimate, forced `H^s` inequality,
+Aubin--Lions compactness input, finite-overlap construction, displayed
+gradient-control route, or finite-slab Carleman absorption. No downstream route
+may spend these lines as a generic "lower order" or "standard" proof payment.
+
+Edited live surfaces:
+
+- `theorem-construction/d6-global-carrier-a-priori-bound.md`;
+- `theorem-construction/d4-shadow-continuation-theorem.md`;
+- `theorem-construction/shadow-remainder-hs-forcing-estimate.md`;
+- `theorem-construction/d3-commutative-shadow-theorem.md`;
+- `theorem-construction/mpp-terminal-bad-scale-extraction-compactness-20260505.md`;
+- `theorem-construction/mpp-parabolic-source-current-route-note-20260505.md`;
+- `theorem-construction/mcp-periodic-continuation-readout-standard.md`;
+- `theorem-construction/mpp-pctp-noescape-scheduler-pde-export-closure-note.md`;
+- `theorem-construction/mpp-six-positive-contrapositive-chunks-completion-20260506.md`;
+- `theorem-construction/mpp-temporal-nonatomic-scf-carrier-audit-20260505.md`;
+- `theorem-construction/mcp-anisotropic-stokes-carleman-finite-slab-attempt-20260505.md`.
