@@ -61,6 +61,8 @@ B_{\rm ann}\mathcal Z
 \gamma_-U,\gamma_+U,
 \mathcal T_-U,\mathcal T_+U,
 \operatorname{Hol}_{\partial}\mathcal Z,
+\mathcal A_{\rm conn}(\mathcal Z),
+\Pi_{\rm mod}F^{mod},
 \partial T,
 \operatorname{Tr}_{src}\mathcal Z
 \right),
@@ -75,6 +77,24 @@ with conormal stress traces
 \left(U\otimes U+PI-\nu\nabla U\right)n_\pm .
 \tag{NEX.6}
 ```
+
+The endpoint holonomy alone is too weak.  A nonconstant compactly supported
+loop `g(s)` in the modulation, rotation, or selector group can satisfy
+`g(-\infty)=g(+\infty)=e` and hence have trivial endpoint holonomy while
+`g^{-1}g_s` is nonzero on an interior renormalized-time interval.  The readout
+therefore must include a coercive connection-action or modulation-forcing
+component such as
+
+```math
+\mathcal A_{\rm conn}(\mathcal Z)
+\sim
+\int |g^{-1}g_s|\,ds
+\quad\text{or}\quad
+\Pi_{\rm mod}F^{mod}.
+\tag{NEX.6a}
+```
+
+Otherwise symmetry-tangent drift and selector loops remain invisible.
 
 The norm `|\mathcal Z|_Z` cannot be raw geometric mass alone.  A pure ghost
 annulus with `U=0`, zero source, zero stress flux, and arbitrary auxiliary
@@ -536,6 +556,18 @@ can remove some hidden moving-frame loops.  It does not see translations,
 scale-schedule drift, selector switching, or symmetry-tangent rotations unless
 the gauge is canonical and the modulation equations project onto native
 stress/source tests.
+
+The sharper countermodel is a compactly supported loop in the modulation group:
+
+```math
+U(s)=g(s)U_0,\qquad g(-\infty)=g(+\infty)=e,\qquad
+\int |g^{-1}g_s|^2\,ds<\infty.
+\tag{NEX.30a}
+```
+
+The endpoint holonomy vanishes, but the path is not frozen.  Thus the annular
+readout must contain connection action or modulation forcing, not merely the
+cycle holonomy.
 
 Missing bridge:
 
