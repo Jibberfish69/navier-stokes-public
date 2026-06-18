@@ -4541,6 +4541,24 @@ Edited live theorem note:
 
 - `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
 
+## Remaining Primary-Surface Residue Classification
+
+After the TPS/spectral/selector repairs, the focused primary-surface scan still
+returns four text hits. None is a remaining proof-force hand-wave.
+
+- `mpp-r3-tail-hs-duhamel-source-reduction-20260607.md` contains the phrase
+  "\(H^s\) profile assumption is spent" only in the negative sentence "No
+  scale-profile or compact-core \(H^s\) profile assumption is spent." This is an
+  exact non-use statement, not a live profile assumption.
+- `mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md` uses
+  "same-scale packets" to name the signed positive/negative packet split
+  \(J=J_+-J_-\) at the first-created terminal scale. This is a packet
+  construction at a shared scale, not a "same order" estimate.
+- `tps-coarse-flow-pair-gap-theorem-candidate.md` and
+  `tps-strong-bridge-sg-lemma-family.md` contain `formal` only inside the
+  historical filename `tps-shadow-barrier-formal-closure-packet.md`. The target
+  file's content has been reworked as a conditional reduction packet.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
