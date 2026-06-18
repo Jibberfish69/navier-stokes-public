@@ -423,7 +423,7 @@ C_G\,2^{-j}
 \tag{WEP.2m6}
 ```
 
-which closes the quantified model estimate `(WEP.2')`. The extra
+which closes the quantified commutator estimate `(WEP.2')`. The extra
 `\|a_{<j-C}\|_{L^\infty_a}\,\|\nabla_a G\|_{L^\infty_a}` factor is precisely
 the cost of passing from the frozen projector symbol to the full
 variable-coefficient realization.
