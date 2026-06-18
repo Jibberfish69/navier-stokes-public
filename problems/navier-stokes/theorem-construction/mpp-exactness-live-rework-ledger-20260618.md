@@ -4874,6 +4874,77 @@ Edited live surfaces:
 - `theorem-construction/mpp-torus-global-material-atlas-terminal-capture-20260526.md`;
 - `theorem-construction/mcp-zenosquarepulserigidity-a-conditional-reduction-source-wall-root-after-reconcile-2e3abf5731.md`.
 
+## Carrier And Compactness Standard-Step Repair
+
+Old loose step:
+
+- `d1-projected-nc-flow-well-posedness.md` spent "standard semilinear
+  theory," "standard operator package," "standard semilinear continuation," and
+  "standard Picard iteration" to move from operator hypotheses to local
+  existence, uniqueness, and continuation.
+- `d8b-global-projected-wellposedness-decay.md` said bounded approximants give
+  weak or weak-* compactness "in the standard spaces," without naming the
+  topologies used to pass the projected equation to the limit.
+- `regularity-upgrade-schemas.md` used "standard vorticity and continuation
+  formulas" and "standard embedding" at the bridge from a critical input to
+  BKM-type continuation.
+- `mixed-jet-generating-field-hs-energy.md` summarized its result as the
+  "standard" or "usual" \(H^s\) energy law, despite having the actual
+  inequality displayed as `(8)`.
+- `mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md`
+  said the retained compactness attempt has "usual weak compactness and
+  low-mode compactness."
+
+Exact replacement:
+
+The D.1 note now gives the spectral-theorem semigroup representation
+\[
+  e^{-tA_D}=\int_{[0,\infty)}e^{-t\lambda}\,dE_\lambda
+\]
+and uses the explicit fixed-point map
+\[
+  (\Phi X)(t)=e^{-tA_D}X_0-\int_0^t e^{-(t-s)A_D}B_D(X(s))\,ds .
+\]
+It names the needed local Lipschitz constant \(L_M\), the small-time
+contraction condition \(CTL_M<1\), and the bounded-norm relaunch criterion.
+The non-Sobolev closure now states the two Picard estimates required on
+`C([0,T];\mathcal N)`: self-map and contraction.
+
+The D.8b note now states the exact compactness:
+\[
+  X_n\rightharpoonup X\text{ in }L^2(0,T;\mathcal N),\qquad
+  X_n\overset{*}{\rightharpoonup}X\text{ in }L^\infty(0,T;H),
+\]
+with strong \(L^2(0,T;H)\) convergence reserved for the nonlinear term.
+
+The regularity-upgrade note now names the vorticity equation, enstrophy
+inequality, continuation criterion, and the embedding
+\[
+  \|f\|_{L^\infty}\le C\|f\|_{B^0_{\infty,1}}.
+\]
+
+The mixed-jet note now points to the displayed \(H^s\) inequality `(8)` instead
+of spending "standard" or "usual" as proof force. The retained-carrier attempt
+now states weak compactness in \(L^2_tH^1_x\), weak-* compactness in
+\(L^\infty_tL^2_x\), and low-frequency strong compactness in \(L^2_{t,x}\) by
+Aubin--Lions from the negative-norm time-derivative bound.
+
+Downstream consequence:
+
+Carrier-local existence, projected global passage to the limit, mixed-jet
+energy, and retained-carrier compactness may be cited only through these named
+maps, estimates, and topologies. A later route sentence cannot use "standard
+semilinear theory," "usual compactness," or "usual \(H^s\) law" as a proof
+payment.
+
+Edited live surfaces:
+
+- `theorem-construction/d1-projected-nc-flow-well-posedness.md`;
+- `theorem-construction/d8b-global-projected-wellposedness-decay.md`;
+- `theorem-construction/regularity-upgrade-schemas.md`;
+- `theorem-construction/mixed-jet-generating-field-hs-energy.md`;
+- `theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
