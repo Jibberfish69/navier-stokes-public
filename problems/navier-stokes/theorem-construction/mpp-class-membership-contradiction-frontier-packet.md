@@ -240,7 +240,7 @@ The auxiliary chronological outer shell is now:
 1. [mpp-first-class-exit-contradiction-shell.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-first-class-exit-contradiction-shell.md)
 
 Meaning: the first-time class-exit shell is now the explicit chronological
-wrapper on top of the formal compactness-route bridge. It indexes the
+wrapper on top of the conditional compactness-route bridge. It indexes the
 contradiction at the earliest route-visible exit without claiming that only one
 primitive failure mode occurs there, and it is not the governing restart
 surface.
@@ -558,7 +558,7 @@ This packet explicitly refuses the following substitutions.
 
 1. do **not** widen the route into a menu of many completion paths;
 2. do **not** treat the generic witness bundle as the primary live object;
-3. do **not** let formal object-law packaging replace the singular route chain;
+3. do **not** let object-law packaging replace the singular route chain;
 4. do **not** collapse the route into the plain `H^s` continuation wall
    `\int_0^T \|\nabla u\|_{L^\infty}\,dt`.
 
