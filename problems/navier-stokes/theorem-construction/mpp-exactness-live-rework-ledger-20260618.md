@@ -5989,3 +5989,63 @@ Remaining mathematical status:
 The broader exactness goal remains active.  The signed reserve and active-square
 residual-tail estimates are explicit live mathematical burdens, not completed
 source-control payments.
+
+## Source-Normalization Square-Strength Notation Repair
+
+Old loose step:
+
+The appendix contained many broken source-normalization fragments such as
+`active- residual-tail`, `active- density`, `full tail- reserve`, `heat-scale
+-source`, and `shellwise -dissipation`.  In context those fragments were the
+proof-critical square/source quantities, so the missing words made the live
+burden ambiguous.
+
+Exact replacement:
+
+The touched appendix passages now state the actual quantities:
+
+```text
+active-square residual-tail,
+active-square density,
+active-square / active-window Carleson reserve,
+tail-square reserve,
+shellwise square-dissipation,
+heat-scale L^2-source control.
+```
+
+Where the source norm appears in TeX prose it is written as `\(L^2\)-source`.
+
+Proof or remaining burden:
+
+This is not a theorem discharge.  It restores the exact quantity required by
+the surrounding inequalities, especially estimates involving
+
+```text
+int_I sum_{j>=N} 2^{-j} D_j(t)^2 dt
+```
+
+and heat-scale square-source bounds for the nonlinear shell source.
+
+Downstream consequence:
+
+The source-normalization wall is no longer hidden behind a missing noun.  The
+appendix now says that first-moment dissipation and cumulative tail-square
+reserves do not control shellwise active-square density on terminal active
+windows, and that any closure needs an active-square, active-window Carleson, or
+`L^2`-source theorem on the same packet topology.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Verification:
+
+A targeted scan for dangling `active-`, `tail-`, `-source`, and
+`shellwise -dissipation` fragments in the appendix returns no stale hits; the
+remaining matches are explicit `active-square`, `tail-square`, or
+`\(L^2\)-source` statements.
+
+Remaining mathematical status:
+
+The broader exactness goal remains active.  The source-normalization theorem is
+still open; the page now states its exact square-strength burden.
