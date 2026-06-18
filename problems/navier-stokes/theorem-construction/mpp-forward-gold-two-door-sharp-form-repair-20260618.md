@@ -10,6 +10,11 @@ is still open.
 The finite selector and conditional positive-part implication are paid there;
 the live Door 1 blocker is `ProjectedLocalPreCauchyResidueIdentity.A`.
 
+Further Door 1 sharpening is recorded in
+`mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md`.
+Inside `WeightedLiftedSkewDefectLegal.A`, the post-ASAC live core is
+`TerminalSignedSaturation.A` or equivalent `InternalDonorSinkDepletion.A`.
+
 Role: fix the June 17 two-door stress-flux packet after the generic anti-atom
 attempts and the direct two-door attempts.  The repair separates the solved
 finite selector and Liouville-consumer pieces from the two remaining production
