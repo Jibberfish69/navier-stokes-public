@@ -967,13 +967,12 @@ So the exact live debt on the branch is best summarized as:
 
 More sharply: upstream of `SSC-EP.A`, the projective exact-potential branch is
 now waiting on one selector-good differentiability-exceptional-set theorem and
-one selector-shape isotropy theorem. Under the standard selector-scale
-realization `\xi_{ab}=b-a` or `\xi_{ab}=(b-a)/\ell_J`, the bounded-collar side
-of `PTC-Lin.A` is already imported by the installed active-pair scale packet,
-and `TPS.4u` is one exact sufficient realization of that remaining
-exceptional-set step. So the live linearization debt is the exceptional-set
-pricing step rather than a separate support theorem. Once those are installed,
-the
+one selector-shape isotropy theorem. For either declared selector realization
+`\xi_{ab}=b-a` or `\xi_{ab}=(b-a)/\ell_J`, the bounded-collar side of
+`PTC-Lin.A` is already imported by the installed active-pair scale packet, and
+`TPS.4u` is one exact sufficient realization of that remaining exceptional-set
+step. So the live linearization debt is the exceptional-set pricing step rather
+than a separate support theorem. Once those are installed, the
 `D.7mq -> D.7mr2 -> RPC.3 -> SG.4 -> BR.\lambda2` side is downstream assembly.
 
 There is now also a sharper alternate upstream route on disk:
@@ -1024,9 +1023,17 @@ Those three live-debt surfaces are now materialized explicitly as:
 3. [selector-strain-sufficiency-d7mp-d7mo-d7mm.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/selector-strain-sufficiency-d7mp-d7mo-d7mm.md)
 
 The most novel theorem debt is concentrated in `PTC-Lin` and `PTC-Shape`. The
-selector-strain packet remains live theorem debt too, but it is now reduced to
-a more standard perturbative / bootstrap gap argument on the Cauchy--Green
-branch.
+selector-strain packet remains live theorem debt too, but its required
+Cauchy--Green branch statement is now the explicit gap comparison
+
+```math
+\|P_J^{CG}(t,a)-P_{J,\top}^{seg}(a,b,t)\|_F^2
+\le C_{EP}\eta_J^{mb}(t,a,b)^2/g_0^2,
+```
+
+together with the reference gap floor supplied by `E_{J,t_0}^{CG}`.  No
+perturbative/bootstrap step is counted unless it proves that displayed
+inequality with the stated gap floor.
 
 ## Source Surfaces
 
