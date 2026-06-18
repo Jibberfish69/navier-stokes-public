@@ -27,6 +27,10 @@ The Door 1 source-time child is further split in
 `mpp-forward-gold-door1-terminal-source-cost-dichotomy-20260618.md` into
 `Door1SameShadowSuperL1Residence.A` or
 `StressFluxZenoRefillRigidity.A / Door1InfiniteCostEndpointArtifact.A`.
+The same-shadow residence attempt then shows that the actual density/price
+children are `Door1PositiveActiveCarlesonReserve.A`,
+`Door1SourceDensityReverseHolder.A`, and `Door1TerminalTimePriceLedger.A`, with
+the rigidity/artifact branch still live.
 
 Role: fix the June 17 two-door stress-flux packet after the generic anti-atom
 attempts and the direct two-door attempts.  The repair separates the solved
