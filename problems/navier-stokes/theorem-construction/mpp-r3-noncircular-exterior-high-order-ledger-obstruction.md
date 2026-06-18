@@ -63,13 +63,18 @@ The Riesz pressure split plus exterior `L^2` tightness controls low-order pressu
 
 ## Attempt 4: parabolic smoothing
 
-For each positive time, smoothness gives finite `H^s` norm. Uniform control up to a finite maximal endpoint is exactly the continuation question. Smoothing cannot give a uniform exterior high-order tail at `T_*` without an a priori high-order bound or an integrable coefficient such as
+For each positive time, smoothness gives finite `H^s` norm. Uniform control up
+to a finite maximal endpoint is exactly the continuation question. Smoothing
+does not supply the exterior tail ledger at `T_*`; the Gronwall inequality above
+requires the exact coefficient condition
 
 ```math
 \int_0^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt<\infty.
 ```
 
-That is BKM/continuation-grade information.
+That is BKM/continuation-grade information, and it must be proved separately
+from the original whole-space data before the direct-positive tail route may
+spend it.
 
 ## Conclusion
 
