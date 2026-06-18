@@ -355,7 +355,7 @@ finite-parameter statement `ULCI.A(\mathscr P_{\rm pre})`: the coefficient is
 and the initial bound is
 
 ```math
-G_{0,\rm pre}
+G_{0,\mathrm{pre}}
 :=
 \max_{\mathfrak p\in\mathscr P_{\rm pre}}
 \mathcal G_{\mathfrak p}(t_0)
@@ -368,7 +368,7 @@ Thus, for `\mathfrak p\in\mathscr P_{\rm pre}`,
 ```math
 \mathcal G_{\mathfrak p}(t)
 \le
-G_{0,\rm pre}
+G_{0,\mathrm{pre}}
 \exp\left(\|\mathfrak B_{\rm pre}\|_{L^1(I)}\right),
 \tag{ULCI.25c}
 ```
