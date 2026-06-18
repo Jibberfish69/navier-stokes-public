@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-18T22:35:02Z'
+generated_at: '2026-06-18T22:36:01Z'
 rules: problems/navier-stokes/submission-bundle/authoring/structure-map/repo-section-map-rules.yaml
 source_files:
 - problems/navier-stokes/spine.md
@@ -334,89 +334,89 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.1
   reader_title: ATE 1
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.md: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.2
   reader_title: ATE 2
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.2-ATE.5
   reader_title: ATE 2 ATE 5
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.3
   reader_title: ATE 3
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.md: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.4
   reader_title: ATE 4
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.md: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.5
   reader_title: ATE 5
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.md: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ATE.A
   reader_title: ATE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.md: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -535,38 +535,38 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveAmplitudeCarleson.A
   reader_title: Active Amplitude Carleson
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveHeightFluxTrichotomy.A
   reader_title: Active Height Flux Trichotomy
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveShellAmplitudeGain.A
   reader_title: Active Shell Amplitude Gain
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
@@ -586,62 +586,62 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveSquareCarleson.A
   reader_title: Active Square Carleson
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveSquareResidualTail.A
   reader_title: Active Square Residual Tail
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveStrainAlignmentCost.A
   reader_title: Active Strain Alignment Cost
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveVorticityCoherence.A
   reader_title: Active Vorticity Coherence
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ActiveWindowHeight.A
   reader_title: Active Window Height
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -659,13 +659,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: AllNonEulerCMContrapositiveClosure.A
   reader_title: All Non Euler Class-Membership Contrapositive Closure
-  kind: comparison_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Comparison and transfer support
-  visibility: appendix_or_route_map
-  placement_rule: euler_comparison_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -698,62 +699,63 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: Ancestral.NoPulse
   reader_title: Ancestral No Pulse
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: Ancient.NoPulse
   reader_title: Ancient No Pulse
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: AnnularLimitCMFaceLanding.A
   reader_title: Annular Limit Class-Membership Face Landing
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Gold Standard (forward-positive proof)
+  - Realizations, Insights, and Final Obstructions to the gold standard route
+  visibility: proof_program_support
+  placement_rule: gold_obstruction_support
   source_files:
     problems/navier-stokes/live-theorem-edge.md: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: AntiBeltramiCarleson.A
   reader_title: Anti Beltrami Carleson
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: AntiDiffuseParent.A
   reader_title: Anti Diffuse Parent
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -773,13 +775,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: BASACClosedTerminalAtomCMExitClassification.A
   reader_title: BASAC Closed Terminal Atom Class-Membership Exit Classification
-  kind: support_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Source and supplier support
-  visibility: appendix_or_route_map
-  placement_rule: source_supplier_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -822,13 +825,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: BASACTerminalAtomCMFaceLabeling.A
   reader_title: BASAC Terminal Atom Class-Membership Face Labeling
-  kind: support_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Source and supplier support
-  visibility: appendix_or_route_map
-  placement_rule: source_supplier_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -847,13 +851,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: BR.lambda2
   reader_title: BR Lambda 2
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.md: 1
@@ -861,13 +865,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: BackwardDrainFunctional.A
   reader_title: Backward Drain Functional
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -885,13 +889,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CAVG.J
   reader_title: CAVG
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.md: 1
@@ -899,157 +903,157 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.1
   reader_title: CE 1
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.2
   reader_title: CE 2
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.3
   reader_title: CE 3
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.4
   reader_title: CE 4
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.5
   reader_title: CE 5
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.6
   reader_title: CE 6
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.7
   reader_title: CE 7
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.8
   reader_title: CE 8
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.A
   reader_title: CE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.B
   reader_title: CE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.C
   reader_title: CE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.D
   reader_title: CE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CE.E
   reader_title: CE
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -1125,25 +1129,25 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CJ.A_low
   reader_title: CJ A Low
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CJ.A_low.7
   reader_title: CJ A Low 7
-  kind: repo_surface
+  kind: route_node
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
   source_files:
     problems/navier-stokes/live-theorem-edge.md: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
@@ -1186,26 +1190,28 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CMContrapositiveRefereeInventoryPatch.A
   reader_title: Class-Membership Contrapositive Referee Inventory Patch
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CMFaceNoFirstTerminalLoss.A
   reader_title: Class-Membership Face No First Terminal Loss
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -1373,13 +1379,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ClaySolutionCMExitInadmissibility.A
   reader_title: Clay Solution Class-Membership Exit Inadmissibility
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -1438,26 +1445,27 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CriticalFluxAmplitudeSmall.A
   reader_title: Critical Flux Amplitude Small
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CriticalHHalfToCMFace.A
   reader_title: Critical H Half to Class-Membership Face
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -1475,13 +1483,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: CriticalNormCMExit.A
   reader_title: Critical Norm Class-Membership Exit
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -2166,13 +2175,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
   reader_title: Exhaustive Contrapositive Finite Breakdown Exclusion
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -2584,13 +2594,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: GenuineCMExit.Equiv.A
   reader_title: Genuine Class-Membership Exit Equiv
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -2970,25 +2981,25 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: LiftedMesoscopicStressStrainFluxBound.A
   reader_title: Lifted Mesoscopic Stress Strain Flux Bound
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: LocalActiveCarleson.A
   reader_title: Local Active Carleson
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3020,13 +3031,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: LocalPressureStrainDeplete.A
   reader_title: Local Pressure Strain Deplete
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3044,13 +3055,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: LocalStrainDepletion.A
   reader_title: Local Strain Depletion
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3068,13 +3079,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: LowStrainBVCharge.A
   reader_title: Low Strain BV Charge
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -3166,13 +3177,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: MajorNonEulerCMContrapositiveClosure.A
   reader_title: Major Non Euler Class-Membership Contrapositive Closure
-  kind: comparison_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Comparison and transfer support
-  visibility: appendix_or_route_map
-  placement_rule: euler_comparison_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -3712,13 +3724,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ParentConcentrationOrDiffuseCharge.A
   reader_title: Parent Concentration or Diffuse Charge
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3748,13 +3760,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: PartEnvelopeAmplitudeConservation.A
   reader_title: Part Envelope Amplitude Conservation
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3912,25 +3924,25 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: PositiveStrainDecorrelation.A
   reader_title: Positive Strain Decorrelation
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: Pressure.R3
   reader_title: Pressure Whole-Space
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/whole-space-r3-matrix-branch.md: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3948,25 +3960,27 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: PublicCriticalExitToCMFace_L3.A
   reader_title: Public Critical Exit to Class-Membership Face L 3
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: PublicCriticalExitToCMFace_X.A
   reader_title: Public Critical Exit to Class-Membership Face X
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -3996,13 +4010,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: QDrain.A
   reader_title: Q Drain
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -4286,13 +4300,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: RetainedFaceAmplitudeGain.A
   reader_title: Retained Face Amplitude Gain
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
@@ -4639,20 +4653,6 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ScaleCriticalTreeCarleson.A
   reader_title: Scale Critical Tree Carleson
-  kind: repo_surface
-  pdf_level: appendix
-  pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
-  source_files:
-    problems/navier-stokes/cm-convergence-atlas.yaml: 1
-    problems/navier-stokes/live-theorem-edge.yaml: 1
-    problems/navier-stokes/ns-proof-program-route-table.yaml: 1
-  cross_reference_boundary: structure-map only; not a formal ENV cref target
-- repo_handle: ScaleUniformAnnularSupplierGoalResolution.A
-  reader_title: Scale-Uniform Annular Supplier Goal Resolution
   kind: support_surface
   pdf_level: appendix
   pdf_path:
@@ -4660,6 +4660,21 @@ entries:
   - Source and supplier support
   visibility: appendix_or_route_map
   placement_rule: source_supplier_support
+  source_files:
+    problems/navier-stokes/cm-convergence-atlas.yaml: 1
+    problems/navier-stokes/live-theorem-edge.yaml: 1
+    problems/navier-stokes/ns-proof-program-route-table.yaml: 1
+  cross_reference_boundary: structure-map only; not a formal ENV cref target
+- repo_handle: ScaleUniformAnnularSupplierGoalResolution.A
+  reader_title: Scale-Uniform Annular Supplier Goal Resolution
+  kind: proof_program_surface
+  pdf_level: subsection
+  pdf_path:
+  - Proof program
+  - Gold Standard (forward-positive proof)
+  - Realizations, Insights, and Final Obstructions to the gold standard route
+  visibility: proof_program_support
+  placement_rule: gold_obstruction_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -4727,13 +4742,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: SourcePulseCMExit.A
   reader_title: Source Pulse Class-Membership Exit
-  kind: support_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Source and supplier support
-  visibility: appendix_or_route_map
-  placement_rule: source_supplier_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/agent-contract.yaml: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
@@ -5077,13 +5093,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: TerminalAmplitudeGain.A
   reader_title: Terminal Amplitude Gain
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/cm-convergence-atlas.yaml: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
@@ -5126,13 +5142,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: TerminalL3DuhamelMassCMFace.A
   reader_title: Terminal L 3 Duhamel Mass Class-Membership Face
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -5186,13 +5203,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: TerminalPackStrainIntegrabilityNoExit.A
   reader_title: Terminal Pack Strain Integrability No Exit
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -5273,13 +5290,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: TerminalSourceResidueCMExit.A
   reader_title: Terminal Source Residue Class-Membership Exit
-  kind: support_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Source and supplier support
-  visibility: appendix_or_route_map
-  placement_rule: source_supplier_support
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -5311,13 +5329,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: TerminalTimeFaceAntiAtom.A
   reader_title: Terminal Time Face Anti Atom
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Gold Standard (forward-positive proof)
+  - Realizations, Insights, and Final Obstructions to the gold standard route
+  visibility: proof_program_support
+  placement_rule: gold_obstruction_support
   source_files:
     problems/navier-stokes/live-theorem-edge.md: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
@@ -5423,13 +5442,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: UniformStrainTail.TTU
   reader_title: Uniform Strain Tail TTU
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -5582,13 +5601,13 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: WeightedLiftedDefectCarleson.A
   reader_title: Weighted Lifted Defect Carleson
-  kind: repo_surface
+  kind: support_surface
   pdf_level: appendix
   pdf_path:
   - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Source and supplier support
+  visibility: appendix_or_route_map
+  placement_rule: source_supplier_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
@@ -5619,13 +5638,14 @@ entries:
   cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: ZenoAtomFailureToFaceWitness.A
   reader_title: Zeno Atom Failure to Face Witness
-  kind: repo_surface
-  pdf_level: appendix
+  kind: proof_program_surface
+  pdf_level: subsection
   pdf_path:
-  - Main Theorem and Proof
-  - Surface support inventory
-  visibility: authoring_review
-  placement_rule: unmapped_surface
+  - Proof program
+  - Silver Standard (Class membership and Contrapositive proof)
+  - Class Membership
+  visibility: proof_program_support
+  placement_rule: class_membership_support
   source_files:
     problems/navier-stokes/live-theorem-edge.yaml: 1
     problems/navier-stokes/ns-proof-program-route-table.yaml: 1
