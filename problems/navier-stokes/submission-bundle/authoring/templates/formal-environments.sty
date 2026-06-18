@@ -235,10 +235,11 @@
 }
 
 % Custom internal cross-references, option 2:
-% hybrid NS-surface refs: readable title plus exact repo tag.
+% hybrid NS-surface refs. The prose phrase still comes from a strict
+% PascalCase title stem; the exact repo shorthand stays as a secondary tag.
 \makeatletter
 \newcommand{\SurfaceCrefDeclare}[3]{%
-  \expandafter\gdef\csname formal@surface@title@#1\endcsname{#2}%
+  \expandafter\gdef\csname formal@surface@stem@#1\endcsname{#2}%
   \expandafter\gdef\csname formal@surface@tag@#1\endcsname{#3}%
 }
 \newcommand{\SurfaceCrefAnchor}[3]{%
@@ -246,15 +247,22 @@
   \SurfaceCrefDeclare{#1}{#2}{#3}%
 }
 \newcommand{\SurfaceCrefIfKnown}[1]{%
-  \ifcsname formal@surface@title@#1\endcsname
+  \ifcsname formal@surface@stem@#1\endcsname
     \expandafter\@firstoftwo
   \else
     \expandafter\@secondoftwo
   \fi
 }
+\newcommand{\SurfaceCrefStem}[1]{%
+  \SurfaceCrefIfKnown{#1}{%
+    \csname formal@surface@stem@#1\endcsname
+  }{%
+    #1%
+  }%
+}
 \newcommand{\SurfaceCrefTitle}[1]{%
   \SurfaceCrefIfKnown{#1}{%
-    \csname formal@surface@title@#1\endcsname
+    \FormalEnvLabelSurface{\SurfaceCrefStem{#1}}%
   }{%
     \FormalEnvCrefPlain{#1}%
   }%
