@@ -283,7 +283,7 @@ For each fixed increment `\eta`, define the centerwise fixed-increment energy
 \tag{FEI.5l}
 ```
 
-Then `(FEI.5c)` is simply the finite family aggregate
+Then `(FEI.5c)` is the finite family aggregate defined by
 
 ```math
 \mathcal F_{N,\delta,\rho}^{ctr,\varepsilon}(t)
