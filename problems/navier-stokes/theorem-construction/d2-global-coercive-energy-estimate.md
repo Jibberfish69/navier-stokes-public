@@ -696,9 +696,25 @@ Equivalently, if `T^\ast<\infty` is the maximal existence time, then
 ```
 
 Proof:
-this is the standard semilinear continuation criterion once the coercive
-control prevents loss of the `\mathcal N`-norm. The only input is the local
-existence/uniqueness from `D.1.nSob` and the `D.2` energy control.
+let
+
+```text
+M_N:=\sup_{t<T^\ast}\|X(t)\|_{\mathcal N}<\infty.
+```
+
+The `D.1.nSob` local theory must supply a lifespan
+
+```text
+\tau_N=\tau_N(M_N)>0
+```
+
+for all data with `\mathcal N`-norm at most `M_N`, together with uniqueness on
+overlapping intervals. Choose `t_j\uparrow T^\ast` with
+`T^\ast-t_j<\tau_N/2`. The solution launched from `X(t_j)` then exists past
+`T^\ast`, and uniqueness identifies it with the original solution on the
+overlap. The `D.2` coercive inequality is used only to supply or preserve the
+finite bound `M_N`; it is not a substitute for the local lifespan and uniqueness
+input.
 
 ## H.1 Split Into Three Sublemmas
 
