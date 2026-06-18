@@ -3629,6 +3629,100 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-pctp-hard-averaged-route-reduction-and-aact-gap.md`.
 
+## Endpoint-Face Count Propagation Rework
+
+Old downstream step:
+
+- Endpoint summary packets and the live appendix still said the endpoint matrix
+  had "four endpoint faces" after the Part closedness repair had exposed strict
+  response-margin collapse as a separate Part-face mechanism.
+
+Exact replacement:
+
+The endpoint lists now include
+
+```math
+Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump
+\vee response\text{-}margin\text{-}collapse.
+```
+
+The face-free production alternative includes Pack, Part, Field, finite tower
+control, and retained strict Part response margins
+
+```math
+\mathcal R_\ell\ge\gamma_\ell>0
+```
+
+or closed non-strict terminal encoding of the Part clauses.
+
+Proof or remaining burden:
+
+This is not a new endpoint theorem.  It is the downstream consistency condition
+forced by the repaired Part closedness theorem: response-margin collapse is
+either discharged in the participation row, admitted as the Part face, or
+removed by a closed terminal predicate definition.
+
+Downstream consequence:
+
+Endpoint-matrix consumers may not claim endpoint exhaustiveness by excluding
+only the old four faces.  The Part row now includes the response-margin
+subface, and the terminal-tail uniformization theorem must produce that margin
+or encode the response clauses as closed terminal predicates.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-rawdata-production-and-release-completion-packet.md`;
+- `theorem-construction/mpp-periodic-terminal-promotion-bridge.md`;
+- `theorem-construction/mpp-pctp-hard-endpoint-face-audit.md`;
+- `theorem-construction/mpp-seven-item-paper-grade-closure-package.md`;
+- `theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md`.
+
+## Linearized Response Stopping Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`
+  said the stopping argument is formal once response mass and the stopped parent
+  relation are pinned.
+
+Exact replacement:
+
+The stopped interval must satisfy
+
+```math
+\mathcal C_T^{lin}(\sigma_T,t_+)=\varepsilon_M
+```
+
+and the pulled-back adjoint Duhamel smallness condition.  The stopped response
+mass must also satisfy the no-free-create inequality
+
+```math
+\mathsf M_T^{lin}(t_+)
+\le
+\mathsf M_T^{lin}(\sigma_T)+\mathsf{Charge}_T^{lin}([\sigma_T,t_+])
+```
+
+with the stopped parent relation on the same tile.
+
+Proof or remaining burden:
+
+Under those exact hypotheses, the stopping step is packet bookkeeping and needs
+no new PDE estimate.  Without the mass inequality and parent relation,
+`LinearizedCoeffStop.A` remains open.
+
+Downstream consequence:
+
+Full linearized response consumers may not spend a "formal stopping" phrase as
+a theorem.  They must provide the coefficient budget, Duhamel smallness, stopped
+mass inequality, and stopped parent relation.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
