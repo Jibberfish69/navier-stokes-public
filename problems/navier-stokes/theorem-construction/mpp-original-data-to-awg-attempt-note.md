@@ -71,7 +71,8 @@ C_{LE}
 (A^{aff}D)^{3/4}
 ```
 
-up to same-fluid chart constants. Thus `(LE)` proves only:
+where `C_{LE}` includes the retained same-fluid chart constants on the selected
+normalized cylinder. Thus `(LE)` proves only:
 
 ```math
 \text{high affine amplitude at }\tau_2
