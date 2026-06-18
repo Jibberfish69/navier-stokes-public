@@ -6554,6 +6554,37 @@ Surfaces edited:
 - `theorem-construction/mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`;
 - `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
 
+## Periodic Main Continuation Criterion TeX Rework
+
+Old claim being spent:
+
+`submission-bundle/periodic-main-clean.tex` said the "standard periodic
+H^s continuation criterion" extends the solution past `T_*`.
+
+Exact replacement:
+
+The proof now states the actual relaunch criterion: after finite-cover Sobolev
+patching gives
+
+```text
+sup_{t<T_*} ||u(t)||_{H^s(T^3)} < infinity,
+s>5/2,
+```
+
+periodic Navier-Stokes local theory gives a lifespan depending only on `nu`,
+`s`, and that bound; restarting the same solution at `t_j -> T_*` extends
+beyond `T_*`.
+
+Downstream consequence:
+
+The manuscript no longer spends "standard continuation" as a hidden proof
+step.  The continuation contradiction is tied to the exact `H^s`, `s>5/2`,
+bounded-norm relaunch criterion.
+
+Surface edited:
+
+- `submission-bundle/periodic-main-clean.tex`.
+
 ## Current Keyword Residue Classification After Live Rework Batch
 
 This is not a completion claim.  It records the remaining authority-referenced
