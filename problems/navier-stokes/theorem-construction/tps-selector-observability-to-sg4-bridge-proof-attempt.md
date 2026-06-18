@@ -35,10 +35,10 @@ This note is not a dead-endpoint / participation-failure theorem surface. By
 the separate Law 2 no-drop theorem must first exclude the dead-endpoint line. Only
 then does this selector packet become the active live frontier.
 
-So this note should be read as the active surviving one-field consumer wall on
-the Law-2-survivor side: it converts the surviving pair-defect PDE packet into
-the one-sided selector deficit needed for `SG.4`, rather than carrying any
-remaining dead-endpoint burden.
+This note is the active surviving one-field consumer wall on the
+Law-2-survivor side: it converts the surviving pair-defect PDE packet into the
+one-sided selector deficit needed for `SG.4`, rather than carrying any remaining
+dead-endpoint burden.
 
 ## Installed ingredients
 
@@ -550,7 +550,7 @@ signless packet `W_J` into one-sided control of `[\lambda_J-\mathfrak s_J]_+`.
 
 ### Proposition D.7g (simple-top angle reduction is already formal)
 
-The angle formulation above is not merely heuristic. After the spectral-floor
+The angle formulation above is an installed conditional reduction. After the spectral-floor
 and bundle-angle losses are peeled off, it has an exact installed realization on
 the simple-top branch.
 
@@ -1739,9 +1739,9 @@ so the atom-free hypothesis is exactly what removes the atomic correction term.
 
 Since `S_J^N` has a simple top eigenvalue on `I_0`, differentiating the
 eigenvalue equation
-`S_J^N n_J=\lambda_1(S_J^N)n_J` and projecting onto
-`Q_J^{top}` gives the standard reduced-resolvent formula in `(D.7mb6)`. The
-norm bound follows from `\|R_J^{str}\|_{\mathrm{op}}\le (g_J^{str})^{-1}` and
+`S_J^N n_J=\lambda_1(S_J^N)n_J` and projecting onto `Q_J^{top}` gives the
+reduced-resolvent identity `(D.7mb6)`. The norm bound follows from
+`\|R_J^{str}\|_{\mathrm{op}}\le (g_J^{str})^{-1}` and
 `\partial_t P_{J,\top}^{seg}
 =(\partial_t n_J)\otimes n_J+n_J\otimes(\partial_t n_J)`.
 
@@ -1793,15 +1793,14 @@ m_J,
 ```
 
 so `m_J` is the symmetric-matrix residual of the unit vector `n_J` for
-`\mathcal C_J^N`. The standard residual theorem for symmetric matrices with a
-simple top eigenvalue gives
+`\mathcal C_J^N`. The elementary simple-eigenvalue residual estimate gives
 `\sin\angle(n_J,P_J^{CG})\le |m_J|/\operatorname{gap}_J^{CG}`. Since
 `\|P_{J,\top}^{seg}-P_J^{CG}\|_F^2
 =2\sin^2\angle(n_J,P_J^{CG})`, `(D.7mb9)` follows.
 Finally, because
 `\|(I-P_{J,\top}^{seg})\mathcal C_J^N P_{J,\top}^{seg}\|_F=|m_J|`, the definition `(D.7mb10)`
 implies `(D.7ma5)`. The eigenspace statement for `\widetilde{\mathcal C}_J^N`
-is immediate from `(D.7ma2)`. ∎
+is `(D.7ma2)` written for the same top eigenspace. ∎
 
 So the selector-strain compatibility slot `(D.7ma5)` is no longer a hidden
 black box. On the atom-free selector-good windows it is formally reduced to
@@ -2632,7 +2631,7 @@ Corollary `D.7me` is:
 3. control `|B_J^N(t,a)-B_{J,\tau}^N|_{\mathrm{op}}`, for example via
    `(D.7mi4)`.
 
-Thus the correct imported persistence heuristic is not merely
+Thus the correct imported persistence template is not merely
 “`S_J^N` varies slowly,” but rather “the transported strain operator `B_J^N`
 and the Cauchy-Green tensor `\mathcal C_J^N` stay close to a nearly commuting
 reference pair.”
@@ -3250,9 +3249,10 @@ Q_J^{quad}(a)\,u^2
 2e^{K_J^{lin}(a)}\eta_J^{boot}(a,b).
 ```
 
-The standard continuity/bootstrap argument for `(D.7mm7)` therefore yields
-`U_J(a,b)\in\mathcal I`, proving `(D.7mm4)`. Proposition `D.7mb9` then implies
-`(D.7mm5)`, and `(D.7mm6)` is the corresponding projector-error ledger. ∎
+The continuity bootstrap on the invariant interval `\mathcal I` for `(D.7mm7)`
+therefore yields `U_J(a,b)\in\mathcal I`, proving `(D.7mm4)`. Proposition
+`D.7mb9` then implies `(D.7mm5)`, and `(D.7mm6)` is the corresponding
+projector-error ledger. ∎
 
 ### Proposition D.7mn (pair-to-cocycle synchronization reduces to linearization plus selector-shape)
 
@@ -3895,8 +3895,8 @@ The four-step program
 direction observability -> harmonic observability -> selector/commutator summation -> loop-from-harmonic export
 ```
 
-is exactly the right bookkeeping expansion of Candidate `E`, but it should not
-be misread as if all four steps were already standard local algebra.
+is exactly the right bookkeeping expansion of Candidate `E`, but it is not a
+discharge of all four steps as paid local algebra.
 
 The Hodge split and the final summation are formal once `(E.8)`-`(E.10)` are
 available. The genuinely new theorem slots are still:
@@ -3972,7 +3972,7 @@ Apply the corresponding local observability theorem on each chart:
 Phung--Wang in the heat-type lower-order class, Chaves-Silva--Souza--Zhang for
 the non-stationary Stokes system, Escauriaza--Montaner--Zhang for bounded-domain
 analytic evolutions, or Wang--Zhang for abstract analytic-semigroup systems.
-Duhamel's formula or the standard source-splitting argument absorbs the
+Duhamel's formula with the displayed source-splitting ledger absorbs the
 inhomogeneous forcing into `\mathcal E_{J,k}^{src}(I_k)`, while finite overlap
 and the uniform chart constants allow summation over the chart family. This
 produces `(E.17)`, which is exactly the harmonic packet needed in `(E.9)` and
@@ -4312,8 +4312,8 @@ reference observable model `A_\alpha^0`, the only remaining theorem is the
 uniform perturb-transfer statement `(E.22c)`. After that, `(E.21)` applies and
 `PD.70z13` follows.
 
-Two source-backed realization routes remain plausible, but they are not
-discharged here:
+Two source-backed realization routes remain available as candidates, but they
+are not discharged here:
 
 1. a perturbed semigroup route based on admissibility invariance for
    Miyadera--Voigt-type perturbations together with a class-specific
@@ -4772,10 +4772,10 @@ localization-and-chart algebra on the already-installed pair defect equation
 
 **Proof.**
 Equation `(F.11d4)` is the product rule applied to `q_k=\chi_kW_J` in
-`(F.11d2)`. The chart equation `(F.11d7)` is the standard pushforward of a
-second-order divergence-form operator under a `C^2` diffeomorphism. Uniform
-ellipticity `(F.11d12)` follows from `(F.11d11)`, while the coefficient bounds
-in `(F.11d13)` are algebraic consequences of `(F.11d9)`-`(F.11d11)`. The
+`(F.11d2)`. The chart equation `(F.11d7)` is the coordinate pushforward formula
+for a second-order divergence-form operator under a `C^2` diffeomorphism.
+Uniform ellipticity `(F.11d12)` follows from `(F.11d11)`, while the coefficient
+bounds in `(F.11d13)` are algebraic consequences of `(F.11d9)`-`(F.11d11)`. The
 source splitting `(F.11d14)` is the transformed version of the three explicit
 sources: the high-frequency defect forcing `f_k^{hi}`, the cutoff commutator
 `f_k^{cut}`, and the chart-normalization remainder `\widetilde f_k^{chart}`. ∎
@@ -4858,7 +4858,7 @@ So the `\partial_t A_J^{seg}` term retains the cubic inverse-gap loss from
 rotational term without additional structure.
 
 **Proof.**
-Inequality `(F.11e2)` is immediate from `(F.11e1)` by pulling the infimum gap
+Inequality `(F.11e2)` is `(F.11e1)` after pulling the infimum gap
 out of the denominator. Under the adiabatic reduction, Corollary `D.7ia`
 states that
 `\beta_J^2/g_J \le 2|K_J^{seg}n_J|^2/g_J
@@ -5051,7 +5051,7 @@ series with prefactor `\gamma_k^{-1}`. It is the pair of split series
 \tag{F.11h5}
 ```
 
-If, in addition, the regular windows satisfy the heuristic quantitative
+If, in addition, the regular windows satisfy the additional quantitative
 envelopes
 
 ```math
@@ -5201,7 +5201,7 @@ C_4
 \tag{F.11i7}
 ```
 
-which yields `(F.11i3)`. Statement `(F.11i4)` is immediate from
+which yields `(F.11i3)`. Statement `(F.11i4)` comes from
 `\eta_J^{sh}(I)=o_J(1)` together with the uniform bound `(F.11i2)`. The linear
 support-pricing case is exactly the stronger support-smallness route
 `(CN.13q)`-`(CN.13r)`. Finally, the last paragraph is just the combination of
@@ -5276,7 +5276,8 @@ On `A_{J,\theta}^{sh}(I)` one has
 \theta_\ast^{-2}\Sigma_J^\perp(I),
 ```
 
-which is exactly `(F.11j3)`. The `o_J(1)` consequence is immediate. ∎
+which is exactly `(F.11j3)`. The `o_J(1)` consequence comes from the vanishing
+right-hand side. ∎
 
 ### Corollary F.11k (the exact remaining normal-covector supplier is a same-ledger transfer plus vanishing stripwise pair-defect energy)
 
@@ -5340,7 +5341,8 @@ the downstream Chebyshev step `(F.11j)`, but the upstream same-ledger transfer
 `(F.11k1)` together with a vanishing stripwise pair-defect energy supplier.
 
 **Proof.**
-Estimate `(F.11k3)` is immediate from `(F.11k1)` and `(F.11k2)`. Then apply
+Estimate `(F.11k3)` is `(F.11k1)` and `(F.11k2)` combined on the same strip.
+Then apply
 `(F.11j)` to obtain `\eta_{J,\theta}^{sh}(I)=o_J(1)`, and insert that into
 `(F.11i4)` under the support and quartic-budget hypotheses already recorded
 there. Formula `(F.11k5)` is exactly the stripwise consequence `(PD.51c)`, so

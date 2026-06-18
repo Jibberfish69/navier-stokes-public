@@ -231,8 +231,23 @@ where:
 
 ### Conclusion
 
-The first real theorem should be a survivor-classification theorem.
-It should define the live survivor as a quotient after exactness reduction.
+The proof-bearing target is a survivor-classification theorem, not a route
+preference.  It must construct an exact sequence
+
+```math
+0
+\to
+\mathcal E_{\mathrm{exact}}
+\to
+\mathcal T_{\mathrm{full}}
+\to
+\mathcal S
+\to
+0
+```
+
+and prove that the selected live survivor is represented in the quotient
+`\mathcal S`.
 
 ### Remaining obstruction
 
@@ -263,8 +278,8 @@ N+M<k<j-4.
 \tag{13}
 ```
 
-The right comparison is no longer rhetorical.
-It should be a filtration statement of the form:
+The comparison is proof-bearing only as an installed filtration statement of
+the form:
 
 ```math
 0
@@ -277,14 +292,15 @@ F^2=\mathcal T_{\mathrm{surv}},
 \tag{14}
 ```
 
-with one layer carrying the lower-prefix cumulative readout and the top
-quotient carrying the lifted high-side class, or else proving that no such
-filtration exists.
+with one proved readout from a layer to the lower-prefix cumulative packet and
+one proved readout from a quotient to the lifted high-side class, or else a
+theorem proving that no such common filtration exists.
 
 ### Conclusion
 
-The historical and modern survivors should be compared by one dictionary or
-filtration theorem, not by prose similarity.
+The historical and modern survivors are not identified by prose similarity.
+The remaining proof burden is a dictionary or filtration theorem with explicit
+readout maps and carrier/scale-window hypotheses.
 
 ### Remaining obstruction
 
@@ -294,11 +310,10 @@ The exact functor from one to the other is still missing.
 
 ## Step 5. Shuffle/Hopf combinatorics
 
-The key new algebraic proposal is that the tower's spread should be read as a
-shuffle/coaction phenomenon rather than as brute-force Leibniz noise.
-
-The vague version of this idea is no longer needed.
-There are now two exact algebraic models.
+The exact algebraic content is narrower than the old proposal language.  The
+binomial coefficients in the tower are reproduced by a shuffle/Hopf coproduct;
+this is an identity for the differentiated product rule, not yet an estimate
+or survivor theorem.
 
 ### Step 5A. Exact Hopf law for the pure time tower
 
@@ -468,13 +483,13 @@ strictly internal split packet
 
 which is the exact algebraic shadow of the non-boundary mixed spread.
 
-### Step 5D. What the shuffle/Hopf layer should prove
+### Step 5D. What the shuffle/Hopf layer must prove
 
-The hoped-for survivor statement is:
+The survivor statement that remains unpaid is:
 
 ```math
 \boxed{
-\text{after exactness reduction, the live survivor should be the primitive or coideal residual of the tower.}
+\text{after exactness reduction, the live survivor is the primitive or coideal residual of the tower.}
 }
 \tag{31}
 ```
@@ -509,10 +524,11 @@ It is **not**:
 
 ### Conclusion
 
-This is the right place for Hopf/shuffle:
-not topology, and not the signed exterior wedge algebra, but the combinatorial
-algebra that exactly reproduces the differentiated product rule and isolates
-the nontrivial transport defect through reduced coproducts.
+Hopf/shuffle currently supplies exact combinatorial bookkeeping: divided
+powers for the time tower, shuffle/unshuffle for mixed jets, and reduced
+coproducts for the transport defect.  It isolates the algebraic location of the
+nontrivial transport packet.  It becomes proof-bearing only after the quotient
+and primitive/coideal survivor theorems below are proved.
 
 ### Remaining obstruction
 
@@ -575,8 +591,8 @@ into theorem-grade decay.
 
 ## Step 7. Survivor dictionary theorem
 
-After Steps 3 through 6, the next theorem should identify the current faces of
-the live burden:
+After Steps 3 through 6, the unpaid dictionary theorem identifies the current
+faces of the live burden:
 
 ```math
 \text{tail leakage}

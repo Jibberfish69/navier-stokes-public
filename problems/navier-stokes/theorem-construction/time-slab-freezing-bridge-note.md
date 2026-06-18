@@ -319,10 +319,37 @@ C_*\Big(
 where `\mathfrak D_s[\mu,w]` is the extra cost of the nonzero divergence defect
 `\operatorname{div}_x w=-\operatorname{div}_x(\mu w)`.
 
-If the coefficient drift term is small enough on the slab and
-`\mathfrak D_s[\mu,w]` is controlled on the same ledger, then the perturbative
-term is absorbed to the left, yielding a same-depth estimate with
-frozen-geometry-dependent constants.
+The exact slab-closing condition is
+
+```math
+C_*
+\Big(
+\|\mu\|_{L_t^\infty W_x^{1,\infty}}
++
+\|\eta\|_{L_t^\infty W_x^{1,\infty}}
+\Big)
+\le
+\frac12 .
+\tag{19a}
+```
+
+Under `(19a)`, `(19)` gives
+
+```math
+X_s[t_0,t_0+h]
+\le
+2C_*\Big(
+\|w(t_0)\|_{H^s}
++
+\|\widetilde f\|_{L_t^2H_x^{s-1}}
+\Big)
++
+2\mathfrak D_s[\mu,w].
+\tag{19b}
+```
+
+Thus the same-depth estimate closes only after the divergence-defect ledger
+`\mathfrak D_s[\mu,w]` is controlled on the same slab.
 
 ## Exact remaining obstruction
 
@@ -336,8 +363,9 @@ The note reduces the non-autonomous bridge to one sharp question:
 \tag{20}
 ```
 
-If yes, then the entire non-autonomous bridge follows by short-time freezing,
-absorption, and iteration across time slabs.
+If the answer to `(20)` is yes and the slab length is chosen so that `(19a)`
+holds on each slab, then the non-autonomous bridge follows by short-time
+freezing and iteration across those slabs.
 
 If no, then the real remaining burden is no longer “maximal regularity” in
 general, but the same-depth treatment of the evolving constrained divergence

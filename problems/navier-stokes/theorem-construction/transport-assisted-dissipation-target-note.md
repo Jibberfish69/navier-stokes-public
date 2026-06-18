@@ -6,8 +6,9 @@ Record the exact sign target suggested by the current tower and matrix
 analysis, after the deformation-geometry correction.
 
 The point is not merely that viscosity has one extra derivative.
-The stronger target would be a functional for which the nonlinear mixed source
-becomes sign-definite and negative.
+The exact stronger target is a functional, supplied as a theorem object or
+stated hypothesis, for which the nonlinear mixed source becomes sign-definite
+and negative.
 
 But this note is now secondary in one precise sense:
 
@@ -70,7 +71,7 @@ So the live source is the mixed-source matrix
 
 ## The desired closure mechanism
 
-The real missing mechanism would be a coercive functional `\mathcal F` of the
+The real missing mechanism is a coercive functional `\mathcal F` of the
 tower or matrix tower such that
 
 ```math
@@ -85,7 +86,7 @@ tower or matrix tower such that
 where:
 
 - `\mathcal D` is the viscous Dirichlet part,
-- `\mathcal M` is a nonnegative quantity strong enough to control the
+- `\mathcal M` is a nonnegative quantity sufficient to control the
   blowup-threatening defect,
 - and the mixed nonlinear part has been converted into a negative or
   nonpositive quantity.
@@ -103,7 +104,7 @@ Equivalently,
 
 rather than mere transport-versus-dissipation tension.
 
-## Why this would matter
+## Why this matters
 
 If one could prove, in the right functional,
 
@@ -114,7 +115,7 @@ If one could prove, in the right functional,
 \tag{7}
 ```
 
-then the tower law would take the form
+then the tower law takes the form
 
 ```math
 \frac{d}{dt}\mathcal F
@@ -127,9 +128,9 @@ c\,(\text{defect})^2
 \tag{8}
 ```
 
-That would be a genuine monotone dissipation law.
+That is a genuine monotone dissipation law.
 
-At that point the theorem would reduce to the coercivity question:
+At that point the theorem reduces to the coercivity question:
 
 ```math
 \text{does }
@@ -165,8 +166,9 @@ for which the mixed-source matrix becomes negative semidefinite?
 
 That remains the sharp **Eulerian** target.
 
-But the corrected route says this target should probably be *induced* rather
-than found in isolation.
+The corrected route treats this target as induced rather than isolated: the
+required functional is the Eulerian shadow of the deformation-geometry law, not
+a free tower functional guessed directly on the raw Leibniz spread.
 
 ## Relation to the YM-heat bridge
 
@@ -190,7 +192,7 @@ layers:
    an induced transport-assisted dissipation inequality on the Eulerian tower.
 
 So the present route does not yet prove transport-assisted dissipation.
-But it now clarifies where such a mechanism would have to appear:
+But it now clarifies where such a mechanism must appear:
 
 - not in the raw visible term-by-term Leibniz spread,
 - not from a bare quadratic weighted Gram energy by itself,

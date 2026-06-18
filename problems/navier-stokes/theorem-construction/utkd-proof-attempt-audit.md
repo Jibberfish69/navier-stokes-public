@@ -4,7 +4,7 @@
 
 This note derives every formally valid reduction of the upper-tail kernelized
 dissipation theorem `(UTKD)` from the current Body `1` surface and isolates the
-first genuinely new estimate that would make the theorem go through.
+first genuinely new estimate required for the theorem.
 
 Throughout, fix `M\ge 4`, let `u` be the exact Euclidean Navier-Stokes
 solution on `[0,T)\times\mathbb R^3`, and define

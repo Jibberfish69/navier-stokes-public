@@ -447,7 +447,7 @@ N_Jm_J-B_J.
 ```
 
 Combining this with `(SG.4Bc)` yields `(SG.4Bd)`. The one-visit consequence
-`(SG.4Be)` is immediate. ∎
+`(SG.4Be)` follows by substitution. ∎
 
 This lemma is purely formal. The remaining creative theorem-search burden is to
 realize its hypotheses from the Navier-Stokes selector packets.
@@ -642,7 +642,7 @@ So if
 then the per-visit gain hypothesis `(SG.4Ba)` holds on `I`.
 
 **Proof.**
-Identity `(SG.4Div)` is immediate from `(SG.4Cd)` and the definition of
+Identity `(SG.4Div)` is `(SG.4Cd)` with the definition of
 `Z_{ab}^I`. Since `\mathfrak s_J-\lambda_J\ge-[\lambda_J-\mathfrak s_J]_+
 =-\mathfrak d_J^-`, integrating on `I` gives `(SG.4Dv)`. Condition
 `(SG.4Dvi)` is exactly the gain statement `(SG.4Ba)` with
@@ -1176,8 +1176,8 @@ g_J^{fresh,\angle}(t)
 
 which is exactly `(SG.4Ec)` after the definitions `(SG.4Ea)`-`(SG.4Eb)`. This
 is the hypothesis `(SG.4Ce)` with `\lambda_J=\lambda_J^{SG}` and
-`\varepsilon_J=\varepsilon_J^{SG}`. The closing sentence is then immediate from
-`SG.4C` together with whichever realization theorem, `SG.4A` or `SG.4B`, is
+`\varepsilon_J=\varepsilon_J^{SG}`. The closing sentence is then `SG.4C`
+together with whichever realization theorem, `SG.4A` or `SG.4B`, is
 available on the same family. ∎
 
 ## SG.4F Weighted Renewal Under Fresh-Gain Comparability
@@ -1364,9 +1364,9 @@ v(t_\ast)=u(t_\ast).
 \tag{SE.1}
 ```
 
-Assume the standard weak/strong compatibility principle on `I`: whenever a weak
-solution and a strong solution share the same entry data at `t_\ast`, they agree
-almost everywhere on `I`. Then
+Assume weak-strong uniqueness on `I`: whenever a weak solution and a strong
+solution share the same entry data at `t_\ast`, they agree almost everywhere on
+`I`. Then
 
 ```math
 u=v
@@ -1408,7 +1408,7 @@ So the only remaining work in this bridge is to prove `(BR.\lambda2)` from the
 coarse loss decomposition; no extra route logic is hidden after that point.
 
 **Proof.**
-If `B_J(I)<\infty`, then `(BR.\lambda2)` immediately gives finiteness of the
+If `B_J(I)<\infty`, then `(BR.\lambda2)` gives finiteness of the
 critical Besov integral, which is exactly `(BR.\lambda2 a)`. ∎
 
 ## Theorem SG.7 Conditional Continuation From The TPS Scalar Packet

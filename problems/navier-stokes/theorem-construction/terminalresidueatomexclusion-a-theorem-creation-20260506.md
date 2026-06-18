@@ -54,7 +54,7 @@ TerminalResidueAtomExclusion.A. A positive terminal source-residue atom cannot s
 - Field landing bridge for Prove the cross-face CM bridge-license synthesis theorem that converts same-ledger Pack/Part/Field face support into the aggregate CM bridge toward Member without importing supplier-only aliases.
 - central_gate: Every promoted theorem result must land in Pack_Q, Part_{N,Q}, Field_{N,r,Q},
 - - problems/navier-stokes/theorem-packet.yaml
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - exhaust the exact local theorem packets it implies, publish the resulting local
 - source-residue measure construction

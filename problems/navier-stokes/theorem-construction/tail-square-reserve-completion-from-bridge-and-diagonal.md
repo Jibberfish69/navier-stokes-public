@@ -2,7 +2,7 @@
 
 ## Inputs
 
-Near-diagonal absorption gives, for large `N`,
+The near-diagonal estimate gives, for every `N\ge N_{\mathrm{diag}}(\varepsilon_1)`,
 
 ```math
 \int_0^T Diag_N(t)dt\le \varepsilon_1\nu\int_0^TD_N(t)dt.
@@ -42,7 +42,8 @@ Split the tail square:
 2^{-2N}E_N^2=Diag_N+Far_N.
 ```
 
-Integrate. The diagonal term is absorbed by the near-diagonal estimate. For the far term, insert the bridge and then the LPAS/FC bound:
+Integrate. The diagonal term is controlled by the near-diagonal estimate. For
+the far term, insert the bridge and then the LPAS/FC bound:
 
 ```math
 \int_0^TFar_Ndt

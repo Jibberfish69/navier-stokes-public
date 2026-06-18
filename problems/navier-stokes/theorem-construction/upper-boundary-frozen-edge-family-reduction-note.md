@@ -15,7 +15,7 @@ supported for the upper-boundary packet
 The point is not to prove the final upper-boundary estimate `(UB)` here. The
 point is to rewrite `\mathfrak B_N^{upper}` as a finite same-scale edge family
 plus collar residual, so the only genuinely missing theorem becomes the model
-same-scale edge absorption estimate.
+same-scale edge coefficient-margin estimate.
 
 ## Input surfaces already available
 
@@ -112,7 +112,8 @@ contains only the already admissible collar leftovers:
 
 - spill-edge contributions,
 - same-scale commutator leftovers,
-- profile corrections that remain bounded-gap at the active scale.
+- separately displayed bounded-gap coefficient/template correction terms at the
+  active scale.
 
 No free far-scale packet is allowed inside `\mathcal E_N^{ub,collar}`.
 

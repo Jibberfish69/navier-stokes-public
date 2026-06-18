@@ -96,4 +96,4 @@ This is the needed finite-mode coefficient theorem for the low-mode Duhamel prod
 
 ## Boundary
 
-The theorem is terminal-window local. A global interval statement would require a partition into finitely many windows with controlled entrance tails or a uniform-in-time coefficient theorem.
+The theorem is terminal-window local. A global interval statement requires a partition into finitely many windows with controlled entrance tails or a uniform-in-time coefficient theorem.

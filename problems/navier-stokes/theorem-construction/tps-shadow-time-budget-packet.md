@@ -1005,7 +1005,7 @@ which is exactly `(CS.29h)`. Since
 `\|I-e_{ab}\otimes e_{ab}\|_{\mathrm{op}}\le 1` and
 `\|\int_0^1 \nabla u_{\le J}(\gamma_{a,b}(\theta,t),t)\,d\theta\|_{\mathrm{op}}
 \le \|\nabla u_{\le J}(t)\|_{L^\infty_x}`, one gets `(CS.29i)` after absorbing
-harmless dimensional constants into `2`. ∎
+the fixed dimensional constants into `2`. ∎
 
 **Remark.**
 The drift bound `(CS.29i)` alone does **not** imply the return-time occupancy

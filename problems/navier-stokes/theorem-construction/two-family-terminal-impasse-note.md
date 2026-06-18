@@ -238,7 +238,7 @@ The quotient-compactness formalization currently developed in
 is therefore a **Family A** route at present.
 
 It is not yet a theorem comparing the two terminal families.
-To become that, it would first need `(B1)` and likely `(B2)`.
+A theorem comparing them requires `(B1)` and likely `(B2)`.
 
 ## Honest current verdict
 

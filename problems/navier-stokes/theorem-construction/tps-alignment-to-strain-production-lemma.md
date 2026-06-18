@@ -11,7 +11,7 @@ object: the segment-transport matrix and the resulting misalignment ledger.
 ## Purpose
 
 On the strong route, the remaining local burden is `SG.4Ce` on a
-selector-good active-pair family. The user-facing infinitesimal heuristic
+selector-good active-pair family. The user-facing infinitesimal shorthand
 
 ```math
 \dot e=(\nabla v_J)e-\big((\nabla v_J)e\cdot e\big)e
@@ -356,9 +356,9 @@ then the per-visit gain hypothesis of `SG.4B` holds, and the remaining
 finite-window closure is exactly the `SG.4P` renewal package.
 
 **Proof.**
-Inequality `(AS.21)` is immediate from `(AS.19)`, and integrating on `I` gives
-`(AS.22)`. The two applications are then just `SG.4A` and `SG.4P` on the same
-pair family and same horizon. ∎
+Inequality `(AS.21)` is the pointwise estimate `(AS.19)` rewritten in the
+notation above, and integrating on `I` gives `(AS.22)`. The two applications
+are then `SG.4A` and `SG.4P` on the same pair family and same horizon. ∎
 
 ## Angular Forcing Below `\alpha_J`
 
@@ -923,8 +923,9 @@ so
 \tag{AS.7l}
 ```
 
-which is exactly `(AS.7d)`. Formula `(AS.7f)` is just `(AS.7d)` rewritten
-using `(AS.7e)`, and `(AS.7h)` follows immediately from `(AS.7g)`. ∎
+which is exactly `(AS.7d)`. Formula `(AS.7f)` is `(AS.7d)` rewritten using
+`(AS.7e)`, and `(AS.7h)` is the same estimate with the denominator replaced by
+its lower bound from `(AS.7g)`. ∎
 
 ### Corollary AS.7m. Material Cone Entry Transfers To The Instantaneous Cone Up To Carrier Mismatch
 

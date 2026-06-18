@@ -15,8 +15,8 @@ unique-continuation tools a mathematically proper home:
 \tag{PD.0}
 ```
 
-Under the object-law route this packet should be read as an upstream parabolic
-supplier for the surviving selector wall on the Law-2-survivor side, not as a
+Under the object-law route this packet is an upstream parabolic supplier for the
+surviving selector wall on the Law-2-survivor side, not as a
 theorem surface for dead-endpoint / participation-failure exclusion.
 
 The canonical objects are:
@@ -378,7 +378,7 @@ parabolic principal operator.
 
 Because the principal drift is the low-frequency field `v_J=u_{\le J}`, this
 derived defect packet lives in a smooth-drift parabolic regime. That is exactly
-why Carleman or weighted backward-uniqueness tools remain plausible here,
+why Carleman or weighted backward-uniqueness tools remain candidate tools here,
 despite the recent rough-drift advection-diffusion nonuniqueness literature.
 
 ## Auxiliary Closure Lemmas
@@ -605,7 +605,7 @@ C_{\mathrm{bridge}}\,
 So the defect-to-deviation passage now has a fully explicit packet-scale budget.
 
 **Proof.**
-The Duhamel formula `(PD.34)` and the definition `(PD.41)` immediately give
+The Duhamel formula `(PD.34)` and the definition `(PD.41)` give
 `(PD.43)` after taking the `\mathcal X_J` seminorm and the supremum over
 `0\le t\le T_J`. Package the pair source into the six-dimensional vector field
 
@@ -969,10 +969,11 @@ This is the clean global smoothing bridge from high-frequency tail control to
 defect control.
 
 **Proof.**
-The propagator estimate is the standard energy method for bounded drift:
-commuting `\nabla_{x,y}` past the transport term produces the commutator
-`(\nabla v_J)\nabla_{x,y}`, and Gronwall yields the exponential Lipschitz
-factor, while the heat part supplies `(t-s)^{-1/2}`.
+The propagator estimate is the bounded-drift energy estimate: commuting
+`\nabla_{x,y}` past the transport term produces the commutator
+`(\nabla v_J)\nabla_{x,y}`, Gronwall gives the exponential factor involving
+`\int\|\nabla v_J\|_{L^\infty}`, and the heat kernel gives the
+`(t-s)^{-1/2}` smoothing factor.
 
 Start from the exact Duhamel formula `(PD.34)` and move the divergence onto the
 propagator gradient. Minkowski and `(PD.52)` give an integral against the
@@ -1289,7 +1290,7 @@ B_J^-(a,b;I).
 ```
 
 **Proof.**
-Identity `(PD.68b)` is immediate from `(PD.64)` and the exact logarithmic
+Identity `(PD.68b)` is `(PD.64)` after substituting the exact logarithmic
 pair-gap identity already used in `SG.4C`. Since
 `\mathfrak s_J-\lambda_J\ge-[\lambda_J-\mathfrak s_J]_+`, integrating gives
 `(PD.68d)`. ∎
@@ -2147,7 +2148,7 @@ C_{\mathrm{harm}}C_{\mathrm{harm}}^\star
 After the usual route-local normalization / absorption step for sufficiently
 large `J`, this is exactly the residual pairwise closure `(PD.70q)`.
 
-If one instead writes a separate approximate loop ledger
+If one instead writes a separate explicit loop-error ledger
 `\mathcal E_J^{loop}\le C\mathcal E_J^{harm}+\varepsilon_J^{loop}` with
 `\varepsilon_J^{loop}\to 0`, then one has reverted to the expanded bookkeeping
 form `(PD.70z6)`-`(PD.70z10)` rather than the sharper three-slot Hodge core.

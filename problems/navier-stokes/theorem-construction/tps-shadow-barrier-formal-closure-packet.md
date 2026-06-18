@@ -224,7 +224,8 @@ The vector difference
 ```
 
 has norm at most `2\delta_J` by the triangle inequality. The reverse triangle
-inequality yields `(SB.2a)`. The consequences `(SB.2b)`-`(SB.2c)` are immediate.
+inequality yields `(SB.2a)`. The consequences `(SB.2b)`-`(SB.2c)` are the same
+bound written for the signed barrier and its integrated packet.
 ∎
 
 So the coarse barrier theorem applies to the true shadow tube once the enlarged

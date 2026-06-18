@@ -37,15 +37,16 @@ Thus
 \le C_M2^{-N}D_{N-M}(t),
 ```
 
-with the harmless shifted tail. On the common tail surface this yields the
-constant-bound form
+The tail shift is the fixed finite-collar comparison
+`D_{N-M}(t) \le C'_M D_N(t)`, valid because `M` is fixed before the
+tail index. On the common tail surface this yields the constant-bound form
 
 ```math
 \Theta_N^\sharp(t)E_N(t)
 \le C_M2^{-N}D_N(t)E_N(t)
 ```
 
-after absorbing fixed collar shifts into constants.
+with constants depending only on the fixed collar width.
 
 ## Young reduction
 

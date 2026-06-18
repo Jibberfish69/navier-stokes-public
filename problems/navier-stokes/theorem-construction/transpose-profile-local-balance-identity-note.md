@@ -101,15 +101,16 @@ residual classes:
 - spill or moving-spill leftovers,
 - middle-band/far-corona terms already routed through `\Pi_N^{mid}` or
   `\mathcal A_{\ell,r}`,
-- profile corrections and viscosity leftovers that remain same-scale.
+- separately displayed bounded-gap coefficient/template correction terms and
+  viscosity leftovers that remain same-scale.
 
 The theorem fails if any leftover produces a new free far scale `r \gg \ell`
 that is not already one of those named packets.
 
 ## Proof architecture
 
-The proof should be organized as a local balance calculation, not as an estimate
-by absolute values.
+The required proof object is a local balance identity. An estimate by absolute
+values would discard the cancellation needed to avoid a new free far scale.
 
 ### Step A: scale renormalization
 
@@ -202,9 +203,9 @@ p_{\le \ell}\,\nabla\cdot C_\ell.
 
 Again, the first term is exact flux. The second is admissible only if
 `\nabla\cdot C_\ell` reduces to same-scale commutator structure. Since
-`P_{\le \ell}` commutes with derivatives and `u` is divergence-free, the only
-honest leftovers should come from derivatives on `b_\ell^{meso}` or other
-explicit bounded-gap/profile corrections.
+`P_{\le \ell}` commutes with derivatives and `u` is divergence-free, the allowed
+leftovers are the displayed derivatives on `b_\ell^{meso}` and any separately
+stated bounded-gap correction terms.
 
 This point can be made exact. Since `b_\ell^{meso}` is divergence-free,
 
@@ -270,7 +271,7 @@ independent transport scale.
 
 ### Step C.1: transport remainder classification
 
-The transport remainder in `(11)` should not be treated as a fresh source. Its
+The transport remainder in `(11)` is not treated as a fresh source. Its
 theorem-language classification is already installed on the lane.
 
 After bounded-gap profile perturbations are discarded into the collar class, the
@@ -359,12 +360,12 @@ The forbidden failure mode is:
 \tag{15}
 ```
 
-That would mean the transpose/profile channel is still hiding a genuine long
+That means the transpose/profile channel is still hiding a genuine long
 lifted packet.
 
 ## Residual taxonomy
 
-For this rewrite, the admissible residual classes should be read narrowly.
+For this rewrite, the admissible residual classes are read narrowly.
 
 Allowed:
 

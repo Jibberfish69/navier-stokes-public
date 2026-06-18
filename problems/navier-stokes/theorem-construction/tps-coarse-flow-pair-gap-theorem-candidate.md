@@ -15,7 +15,7 @@ obstruction. This note is therefore a local TPS dynamic burden packet inside
 that surviving branch, not a separate lane-wide promotion surface.
 
 Throughout this note, the active surface is the periodic torus branch. Pair
-distances should therefore be read on the periodic lift / geodesic
+distances are read on the periodic lift / geodesic
 representative of `\mathbb T^3`, not as a whole-space-at-infinity object.
 
 ## Coarse flow and transverse pair-gap
@@ -52,8 +52,8 @@ Define the normalized coarse pair-gap functional
 \tag{CF.3}
 ```
 
-This is the pair-gap quantity one wants to keep uniformly away from the shadow
-scale.
+This is the pair-gap quantity targeted by the uniform-away-from-shadow-scale
+theorem.
 
 ## Coarse linearized flow
 
@@ -261,7 +261,8 @@ the coefficient of `\theta_J^2` is at most `2M_J(t)`. Therefore
 \big(\Lambda_J(t)-\varepsilon_J^{spec}(t,a)-2M_J(t)\theta_J(a,t)^2\big)|v|^2,
 ```
 
-which is `(CF.6g)`. The identification `(CF.6h)` is immediate. ∎
+which is `(CF.6g)`. The identification `(CF.6h)` is the same lower bound
+written in the packet notation above. ∎
 
 ### Corollary CF-bundle-coercive-int. Minimal Integrated Coarse Closure Packet
 
@@ -568,7 +569,7 @@ because `\overline{\mathcal A}_{ab}^{fresh}(t)=0` when
 ```
 
 Combining the last two displays and using `(CF.6n2)` yields `(CF.6o)`; the
-factor `c_\angle\le 1` is harmless because
+factor `c_\angle\le 1` is dropped in this one-sided bound because
 `\overline{\mathcal A}_{ab}^{fresh}(t)\ge 0`. Integrating `(CF.6o)` from `0` to
 `t` gives
 

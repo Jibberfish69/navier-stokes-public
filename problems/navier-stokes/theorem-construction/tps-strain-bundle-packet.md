@@ -295,5 +295,5 @@ The important outcome is:
 - measurable-good-set linearization is increasingly source-backed;
 - strain-based continuation criteria support the type of mechanism in this
   packet, but not the selector-local theorem itself;
-- the most plausible first attack is the coarse-field bundle variant
+- the current candidate first attack is the coarse-field bundle variant
   `CF-bundle-coercive`, not a raw full-field pointwise lower bound.

@@ -45,8 +45,9 @@ that rewrite.
 
 ## Proposition
 
-For the fixed global LP family, the transpose/profile channel should admit a
-local balance rewrite of the form `(0)` after:
+For the fixed global LP family, the proposition to prove is that the
+transpose/profile channel admits a local balance rewrite of the form `(0)`
+after:
 
 1. renormalizing away the pure scale-primitive part,
 2. inserting the low-pass Navier--Stokes equation into the remaining dynamic
@@ -57,7 +58,7 @@ local balance rewrite of the form `(0)` after:
    surface.
 
 The failure mode is a free far scale `r \gg \ell` surviving inside the
-residual. That would mean the term is still carrying a genuine long lifted
+residual. That means the term is still carrying a genuine long lifted
 interaction rather than a local flux/time response.
 
 ## Starting identity
@@ -110,7 +111,7 @@ channel. So the unresolved algebra on Step 1 is exactly the pair
 
 ## What the rewrite means
 
-The claim `(1)` should be read as:
+The claim `(1)` is read as:
 
 ```math
 \text{the transpose/profile channel is not another long lifted interaction;}
@@ -118,7 +119,7 @@ The claim `(1)` should be read as:
 
 ```math
 \text{it is the dynamic response of the low-pass field }u_{\le \ell}
-\text{ and should be expressible as}
+\text{ and is expressible as}
 ```
 
 ```math
@@ -143,7 +144,7 @@ The only acceptable outputs are:
 
 ## Two-stage proof shape
 
-The proof should be done in two algebraic stages.
+The proof runs in two algebraic stages.
 
 ### Stage A: renormalize the raw scale potential
 
@@ -185,7 +186,7 @@ literally a scale derivative before invoking the PDE.
 
 ### Stage B: rewrite the dynamic remainder by the low-pass NS equation
 
-After Stage A, the remaining term `\mathcal W_\ell^{dyn}` should be rewritten
+After Stage A, the remaining term `\mathcal W_\ell^{dyn}` is rewritten
 using the low-pass equation
 
 ```math
@@ -218,15 +219,16 @@ The low-pass equation is used as an exact substitution rule, not as a black-box
 bound. The only data needed from it are the transport, pressure, and viscous
 pieces of `\partial_t u_{\le \ell}`.
 
-## What `R_\ell`, `J_\ell`, and `\mathcal E_\ell` should be
+## What `R_\ell`, `J_\ell`, and `\mathcal E_\ell` are
 
 The exact formulas are not yet written, so only the candidate core can be named
 here.
 
 ### Time potential `R_\ell`
 
-`R_\ell` should come from a renormalized commutator-energy pairing between the
-global commutator output and the low-pass state `u_{\le \ell}`.
+`R_\ell` comes from a renormalized commutator-energy pairing between the global
+commutator output and the low-pass state `u_{\le \ell}`, after the Stage A
+correction terms are written.
 
 The first candidate core is:
 
@@ -250,7 +252,7 @@ scale derivative and becomes a genuine evolution term.
 
 ### Space flux `J_\ell`
 
-`J_\ell` should collect the transport, pressure, and viscous fluxes produced
+`J_\ell` collects the transport, pressure, and viscous fluxes produced
 when the low-pass NS equation is substituted into `\partial_t R_\ell` and the
 result is integrated by parts in `x`.
 
@@ -296,7 +298,7 @@ The flux `J_\ell` is the sum of the exact divergence-form pieces in
 
 ### Residual `\mathcal E_\ell`
 
-`\mathcal E_\ell` should contain only terms that are already on an admissible
+`\mathcal E_\ell` contains only terms that are already on an admissible
 residual surface:
 
 - profile/weight corrections left after Stage A,
@@ -319,7 +321,7 @@ success.
 
 ## The actual proof mechanism
 
-The proof should therefore run as follows.
+The proof therefore runs as follows.
 
 1. Write
    \[

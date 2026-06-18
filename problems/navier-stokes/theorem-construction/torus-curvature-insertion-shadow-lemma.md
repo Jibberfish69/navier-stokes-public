@@ -76,7 +76,7 @@ Then
 \mathcal C(\iota_X\Omega_{D_\Theta}(X))=0
 ```
 
-holds immediately.
+holds by substitution into the displayed identity.
 
 ### 2. Symbol-level antisymmetry route
 

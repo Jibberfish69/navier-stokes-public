@@ -540,5 +540,5 @@ At present:
 - Gap 1 is explicit on the jet side and formal on the lifted side;
 - Gap 2 has the right abstract residual and the right packet-side candidate,
   but no theorem equating them;
-- Gap 3 has a plausible coefficient-control start, but still fails at
+- Gap 3 has a candidate coefficient-control start, but still fails at
   top-order pressure recovery.
