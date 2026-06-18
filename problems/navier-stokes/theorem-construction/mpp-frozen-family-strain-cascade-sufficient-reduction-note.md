@@ -143,10 +143,15 @@ U_\ell(x,t)*(\delta_\eta U_{k+1-\ell}(x,t)).
 \tag{FFSC.A3}
 ```
 
-Pairing with `\delta_\eta U_k(x,t)` in the packet identity again yields one
-ordinary tower factor of order at most `N+1`. The factor is bounded by
-`(FFSC.Aenv)`, and the two increment factors are already contained in
-`E_N(\eta,t;\psi)`. The same weighted Cauchy--Schwarz argument gives
+Pairing with `\delta_\eta U_k(x,t)` in the packet identity leaves exactly one
+non-increment factor in each summand. In the first form in `(FFSC.A3)` that
+factor is `U_{k+1-\ell}(x+\eta,t)`, and in the second it is `U_\ell(x,t)`.
+For the finite packet range `0\le k\le N` and `0\le\ell\le k+1`, these indices
+lie in `\{0,\dots,N+1\}`, and the collar geometry places the displayed
+arguments in `\mathcal C_{\rho,\psi}^{\delta}(t)`. Thus `(FFSC.Aenv)` bounds
+the non-increment factor in every summand, while the two remaining increment
+factors are already contained in `E_N(\eta,t;\psi)`. The same weighted
+Cauchy--Schwarz argument gives
 
 ```math
 |\mathcal R_N(\eta,t;\psi)|
