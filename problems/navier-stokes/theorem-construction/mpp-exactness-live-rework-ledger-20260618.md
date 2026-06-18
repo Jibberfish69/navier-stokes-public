@@ -3151,6 +3151,44 @@ Edited live surfaces:
 - `theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`;
 - `theorem-construction/mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md`.
 
+## ACT.KX Conditional Route Verification Residue Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mcp-surface-audit-of-act-kx-conditional-route-completion-items-1-12-ofp-a-1a6481cefb.md`
+  said a theorem-audit endpoint was absent from an exposed MCP tool list and
+  that formal mathematical verification was absent.
+- `theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md`
+  said the audit pass was "absent in this session."
+
+Exact replacement:
+
+The live surfaces now state the theorem status directly: this is a conditional
+route-completion surface, not a line-by-line proof.  The route may spend only
+the listed installed inputs, and the remaining mathematical burden is to prove
+that each listed dependency supplies its displayed ACT.KX, pressure/forcing,
+moving-cutoff/frame, endpoint-matrix, readout, and original-data upgrade claim
+on the same retained branch.
+
+Proof or remaining burden:
+
+No theorem proof is created by the audit paragraph.  The continuum
+coherent-sector replacement remains a separate theorem burden for the related
+shared-control-object route.
+
+Downstream consequence:
+
+Tool/session availability no longer appears as proof-facing evidence.  ACT.KX
+route consumers must treat the completion surface as conditional until the
+listed dependencies are checked line by line on the same retained branch.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-surface-audit-of-act-kx-conditional-route-completion-items-1-12-ofp-a-1a6481cefb.md`;
+- `theorem-construction/mcp-act-kx-conditional-route-completion-covering-items-1-12-cfi-a-b476f4bf8c.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
