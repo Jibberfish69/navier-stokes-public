@@ -277,8 +277,8 @@ C''|B_{\rm ann}Z|_Y
 The smallness condition `(NEX.15)` absorbs the last term and proves
 `(NEX.16)`.
 
-This part is real.  It is a standard finite-dimensional kernel plus
-high-frequency residual absorption argument.
+This part is real.  It uses a finite-dimensional kernel on the retained annular
+variables plus the high-frequency residual absorption estimate `(NEX.19)`.
 
 ## What the abstract theorem actually buys
 
@@ -385,8 +385,8 @@ bookkeeping object.
 
 ### 2. Low-mode kernel
 
-For the velocity-pressure part, the low-mode kernel is plausible and standard:
-on a fixed smooth annulus, a finite-dimensional set of Stokes/linearized-NS
+For the velocity-pressure part, the low-mode kernel target is exact: on a fixed
+smooth annulus, prove that a finite-dimensional set of Stokes/linearized-NS
 modes with zero two-face Dirichlet and conormal data has zero velocity, after
 fixing the pressure gauge.
 
