@@ -56,7 +56,7 @@ the exact antisymmetry.
 
 After the shell weights, lifted reductions, and finite-packet cutoffs enter, the
 surviving object is a weighted commutator/lifted-remainder defect. The desired
-source theorem follows only from a signed estimate of the form
+source theorem follows only from the displayed signed reserve estimate
 
 ```math
 \int_0^T G_N^{lift,\sigma}(t)\,dt
