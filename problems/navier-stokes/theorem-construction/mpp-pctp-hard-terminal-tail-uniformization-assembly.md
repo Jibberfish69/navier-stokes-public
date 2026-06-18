@@ -19,7 +19,8 @@ OriginalSmoothData
 Equivalently, no first finite classical endpoint realizes
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 ## Step 1: terminal cover dichotomy

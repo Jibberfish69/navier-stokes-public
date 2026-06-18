@@ -228,7 +228,8 @@ with local pressure response and the `U_{k+2}` viscous rung. The required depth 
 ```math
 \neg CM_{N,r,Q}
 \Rightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 This is `END.Exh`.

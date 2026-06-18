@@ -25,7 +25,8 @@ CM_{N,r,Q}=Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}.
 A first nonextendable classical endpoint must therefore appear to the class-membership vocabulary as failure of one of these witnesses, or as a tower/pack endpoint face detected by the endpoint matrix. By endpoint exhaustiveness, the first endpoint has one of the faces
 
 \[
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 \]
 
 The installed Theorem 2.1 warrant supplies the retained receiver/source/endpoint spine:

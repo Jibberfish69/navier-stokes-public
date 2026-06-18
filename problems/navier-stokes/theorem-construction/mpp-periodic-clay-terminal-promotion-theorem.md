@@ -57,7 +57,8 @@ or
 
 ```math
 \text{no first finite classical endpoint realizes }
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 The installed endpoint matrix proves a witness-grammar implication:
@@ -65,7 +66,8 @@ The installed endpoint matrix proves a witness-grammar implication:
 ```math
 \neg CM_{N,r,Q}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 It does not, by itself, prove that the original PDE dynamics cannot realize one
