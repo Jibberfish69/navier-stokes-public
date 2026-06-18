@@ -89,7 +89,25 @@ D_tU_k=K_k+B_k,
 \tag{SLC.6}
 ```
 
-with `B_k` the usual lower-order differentiated transport terms.
+where for each multi-index `\gamma` with `|\gamma|=k`,
+
+```math
+B_\gamma
+:=
+u\cdot\nabla\partial^\gamma u
+-
+\partial^\gamma(u\cdot\nabla u)
+=
+-
+\sum_{0<\beta\le\gamma}
+\binom{\gamma}{\beta}\,
+(\partial^\beta u\cdot\nabla)\partial^{\gamma-\beta}u.
+\tag{SLC.6a}
+```
+
+The tensor `B_k` is the finite collection of these `B_\gamma`; in particular
+`B_0=0`, and for each fixed `N` every `B_k` with `k\le N` is bounded on
+`Q^+` because `(u,p)` is classical there.
 
 For each finite depth `N`, define
 
