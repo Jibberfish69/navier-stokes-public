@@ -6176,3 +6176,41 @@ not create the CKN-good cylinder or terminal cover.
 Surface edited:
 
 - `theorem-construction/mcp-atd-tower-bootstrapping-depth-lemma-e5998e235f.md`.
+
+## ATD Moving-Cylinder Local-Completion Mirror Repair
+
+Old claim being spent:
+
+The sibling moving-cylinder ATD note already displayed scaled derivative bounds,
+but the proof still said "Interior parabolic bootstrapping gives" those bounds
+without naming the pressure mechanism.
+
+Exact replacement:
+
+The note now states that the velocity bounds come from the differentiated
+Navier--Stokes equations and the pressure bounds come from the CKN-gauged
+Poisson equation
+
+```text
+-Delta p = partial_i partial_j(u_i u_j).
+```
+
+The scaled estimate is now written with finite-depth constants
+`C_{k,m,M_sharp,nu}`:
+
+```text
+sup_{Q_{r/2}^Phi} r^{k+1}|nabla^k u|
++ sup_{Q_{r/2}^Phi} r^{k+3}|nabla^{k+1}p|
+<= C_{k,m,M_sharp,nu}.
+```
+
+Downstream consequence:
+
+`ATD_m^epsilon` remains a conditional local completion theorem under
+CKN-admissible moving-cylinder hypotheses.  It now pays the pressure slots
+needed by `K_q` through the explicit pressure equation rather than through a
+generic bootstrap phrase.
+
+Surface edited:
+
+- `theorem-construction/mcp-atd_m-epsilon-ckn-admissible-local-completion-read-cover-4fd93155f1.md`.
