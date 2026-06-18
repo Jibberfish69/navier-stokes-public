@@ -39,8 +39,9 @@ to act at full strength after passing through the available structural
 splittings.
 
 The carrier route changes that question. On the carrier side, the transport is
-already split into a persistent coherent-support contribution and a lower-order
-leakage term. The missing step is to prove that this internal carrier
+already split into a persistent coherent-support contribution and a residual
+leakage term satisfying the carrier energy-surface bound. The missing step is
+to prove that this internal carrier
 mechanism survives classical readout in the precise form needed by the
 Euclidean theorem surface. In other words, the live burden is not merely to
 descend the equation, but to export the carrier-side closure mechanism itself
@@ -74,7 +75,7 @@ The internal carrier route already packages:
 1. a persistent coherent support object,
 2. spectral-gap leakage control off that support,
 3. a coherent / remainder split for the projected transport,
-4. lower-order absorbability of the remainder on the carrier energy surface.
+4. the displayed energy-surface absorbability bound for the remainder.
 
 The classical Euclidean route, by contrast, still needs the low-mode strain
 suppression statement
@@ -277,7 +278,8 @@ C\,\Psi(\mathcal E_D(X)).
 Hence the classical low-mode strain splits into:
 
 - a principal coherent contribution at scale `\nu 2^{2j_0}`,
-- a lower-order exported leakage term.
+- an exported leakage term satisfying the displayed `C\Psi(\mathcal E_D(X))`
+  readout bound.
 
 Combining the two gives the claimed estimate.
 
@@ -310,8 +312,8 @@ The unresolved subclaims are exactly:
    [carrier-frequency-aligned-readout-theorem.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/carrier-frequency-aligned-readout-theorem.md),
 2. a theorem identifying the coherent carrier transport norm with the viscous
    low-mode strain scale,
-3. a theorem showing that spectral-gap leakage remains lower-order after
-   classical readout.
+3. a theorem showing that spectral-gap leakage satisfies the displayed readout
+   bound after classical readout.
 
 Without those three export steps, the carrier route remains an internal closure
 architecture and the Euclidean route remains forced to rediscover suppression by
