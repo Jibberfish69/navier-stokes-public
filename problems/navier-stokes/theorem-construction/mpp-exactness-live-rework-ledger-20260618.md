@@ -6541,3 +6541,45 @@ Surfaces edited:
 - `theorem-construction/mcp-zenosourceresiduerigidity-a-from-originalsmoothdata-originalsmoothdata-zenosourceresiduerigidity-a-a3912f4159.md`;
 - `theorem-construction/mpp-zeno-source-residue-compactness-extraction-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## Flow-Map Tower Continuation Relaunch Repair
+
+Old claim being spent:
+
+`mpp-flow-map-and-tower-continuation-note.md` used the sentence "Standard local
+well-posedness in `H^s`, `s>5/2`" to pass from a bounded tower norm to extension
+past `T`.  The old text did not state the restart theorem, lifespan dependence,
+or uniqueness-overlap argument.
+
+Exact replacement:
+
+The proof now states the exact continuation input:
+
+```text
+M_s := sup_{0<=t<T} ||u(t)||_{H^s(Omega)} < infinity,
+s>5/2.
+```
+
+For every divergence-free datum `v_0 in H^s(Omega)` with
+`||v_0||_{H^s} <= M_s`, local Navier-Stokes existence and uniqueness gives a
+lifespan
+
+```text
+tau = tau(nu,s,M_s) > 0
+```
+
+and a unique solution in `C([0,tau];H^s)`, with pressure recovered from
+`-Delta p = partial_i partial_j(u_i u_j)` up to additive normalization.  Choosing
+`t_n` with `T-t_n<tau/2`, the relaunched solution from `u(t_n)` agrees with the
+original one on the overlap by uniqueness and extends beyond `T`.
+
+Downstream consequence:
+
+The flow-map/tower note may spend a bounded `H^s`, `s>5/2`, tower only through
+this relaunch criterion.  It does not convert weaker energy-level or geometric
+flow-map control into continuation unless the same surface also supplies the
+displayed `H^s` bound.
+
+Surface edited:
+
+- `theorem-construction/mpp-flow-map-and-tower-continuation-note.md`.
