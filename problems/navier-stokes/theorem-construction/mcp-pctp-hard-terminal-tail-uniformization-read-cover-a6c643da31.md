@@ -129,8 +129,10 @@ The release posture remains conditional-class-membership packet. A terminal rele
 OriginalSmoothData\Rightarrow\text{uniform terminal-tail retained Pack/Part/Field/tower data}
 ```
 
-or a direct PDE theorem excluding `Dead`, `packing-detached`, `tower-blown`, and `Jump` as first finite classical endpoint faces.
+or a direct PDE theorem excluding `Dead`, `response-margin-collapse`,
+`packing-detached`, `tower-blown`, and `Jump` as first finite classical endpoint
+faces.
 
 ## Short verdict
 
-The ordered attempt closes Step 1 as formalization and validates Steps 7-8 as conditional packaging. Steps 2-6 remain the same analytic barrier in four endpoint-face coordinates. The first decisive obstruction is terminal-tail admission from original dynamics without spending `End_NS` as an upstream supplier.
+The ordered attempt closes Step 1 as formalization and validates Steps 7-8 as conditional packaging. Steps 2-6 remain the same analytic barrier in endpoint-face coordinates: the old four rows plus the repaired response-margin subface unless the Part margin/closed-predicate input has already removed it. The first decisive obstruction is terminal-tail admission from original dynamics without spending `End_NS` as an upstream supplier.

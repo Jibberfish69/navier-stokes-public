@@ -26,7 +26,7 @@ Every terminal same-fluid tail either has a positive-scale finite SCF-good cover
 
 ### Lemma 3: Endpoint contradiction
 
-A first finite endpoint must enter one of four primitive faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates all four faces, so no first finite endpoint occurs.
+A first finite endpoint must enter participation failure, response-margin collapse, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates the old four faces only after the Part row supplies closed terminal response predicates or retained margins `\mathcal R_\ell\ge\gamma_\ell`; otherwise response-margin collapse remains an endpoint face.
 
 ### Lemma 4: Terminal readout and continuation
 

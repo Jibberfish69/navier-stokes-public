@@ -44,7 +44,7 @@ Referee-facing lemma statement. A finite positive-scale family of SCF-good same-
 
 Internal name: `End_NS_avg`.
 
-Referee-facing lemma statement. If the averaged class witness persists and the four possible terminal averaged faces are supplied with their eliminators, then the averaged terminal endpoint is excluded. The four faces are participation failure, packing failure, averaged tower-amplitude escape, and loss of positive-scale averaged field cover.
+Referee-facing lemma statement. If the averaged class witness persists with closed terminal Part predicates or retained strict response margins, and the terminal averaged faces are supplied with their eliminators, then the averaged terminal endpoint is excluded. Without that Part input, the exact faces are participation failure, response-margin collapse, packing failure, averaged tower-amplitude escape, and loss of positive-scale averaged field cover.
 
 ## Lemma E: terminal readout equivalence
 

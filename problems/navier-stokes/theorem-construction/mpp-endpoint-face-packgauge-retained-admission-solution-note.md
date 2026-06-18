@@ -229,10 +229,15 @@ Equivalently, any first retained-route failure must enter the endpoint matrix:
 ```math
 \text{first retained-route failure}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
-Once `End_NS` removes all four faces, retained-route failure is excluded. Then H3-H5 replay through the already installed packet, yielding the six-burden stack
+Once `End_NS` removes the old four faces together with the repaired Part
+response-margin subface, retained-route failure is excluded. Equivalently, the
+old four-face form may be spent only after the Part row has retained strict
+response margins or closed terminal response predicates. Then H3-H5 replay
+through the already installed packet, yielding the six-burden stack
 
 ```math
 LCI.A+CJ.A_{low}.7+FCI.5f+OFP.A+CFI.A+End_{NS}.

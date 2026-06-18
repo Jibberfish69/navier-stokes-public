@@ -19,7 +19,8 @@ Here `eta_R` is an exterior cutoff, equal to one for `|x|>=2R` and zero for `|x|
 
 ## Existing endpoint rows
 
-The periodic / compact-core endpoint matrix has four rows:
+The periodic / compact-core endpoint matrix has the historical four rows plus
+the repaired Part response-margin subface:
 
 ```math
 Dead,
@@ -28,10 +29,16 @@ packing\text{-}detached,
 \qquad
 tower\text{-}blown,
 \qquad
-Jump.
+Jump,
+\qquad
+response\text{-}margin\text{-}collapse.
 ```
 
-These rows classify failures of participation, pack geometry, local tower amplitude, and field coherence on retained finite packets.
+These rows classify failures of participation, response-margin retention, pack
+geometry, local tower amplitude, and field coherence on retained finite
+packets. On the subbranch with closed terminal Part predicates or retained
+positive response margins, this reduces to the old four-row compact-core
+matrix.
 
 ## Test against TailFace_R3^Hs
 

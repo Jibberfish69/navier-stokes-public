@@ -2,16 +2,21 @@
 
 ## Statement
 
-The averaged endpoint matrix has exactly four primitive faces:
+The averaged endpoint matrix has four historical primitive faces plus the
+Part-side response-margin subface exposed by the repaired Part closedness
+theorem:
 
 ```math
 Dead,
 \qquad packing\text{-}detached,
 \qquad tower\text{-}blown_{avg},
-\qquad Jump_{avg}.
+\qquad Jump_{avg},
+\qquad response\text{-}margin\text{-}collapse.
 ```
 
-They are exhaustive and irredundant for the averaged class-membership route.
+The old four-face matrix is exhaustive only after the Part row supplies closed
+terminal response predicates or retained strict margins
+`\mathcal R_\ell(t)\ge\gamma_\ell>0` on the terminal tail.
 
 ## Exhaustiveness
 
@@ -21,10 +26,14 @@ The averaged class witness is
 CM_{avg}=Pack\wedge Part\wedge Field_{avg}.
 ```
 
-Failure of `Part` is by definition the participation endpoint face:
+Failure of `Part` gives the participation endpoint face, and strict
+response-margin collapse is the separate Part-side subface unless closed
+terminal Part predicates or retained positive response margins have been
+supplied:
 
 ```math
-\neg Part\Longrightarrow Dead.
+\neg Part\Longrightarrow
+Dead\vee response\text{-}margin\text{-}collapse.
 ```
 
 Failure of the packing/diffeomorphic gauge enters the packing endpoint face, with the tower-amplitude split kept explicit:
@@ -45,7 +54,10 @@ The remaining finite-amplitude escape in the averaged transported-center tower i
 \mathfrak A_{N,Q}^{avg}\notin L^\infty\Longrightarrow tower\text{-}blown_{avg}.
 ```
 
-Thus every failure of the route witness or its tower readout enters one of the four faces. Mixed failures are unions of these failures and are reduced by `END.Cross_avg`.
+Thus every failure of the route witness or its tower readout enters one of the
+endpoint faces. Mixed failures are unions of these failures and are reduced by
+`END.Cross_avg`. On the margin-retained or closed-Part subbranch this reduces to
+the historical four rows.
 
 ## Irredundancy
 
@@ -58,6 +70,10 @@ Each face removes a distinct primitive obstruction.
 3. `tower-blown_avg` concerns escape of the averaged endpoint tower amplitude. It is not equivalent to packing-detachment, because pack geometry can remain bounded while the finite tower readout escapes.
 
 4. `Jump_avg` concerns terminal loss of positive-scale averaged field coherence. It can occur with participation, pack, and finite tower amplitude still typed as present, so it is not redundant.
+
+5. `response-margin-collapse` concerns loss of strict neighboring-response
+margin under terminal limiting. It can occur while the closed relaxed Part
+predicate survives, so it is not represented by pack, tower, or field loss.
 
 Hence no face can be deleted without losing a primitive failure mode.
 

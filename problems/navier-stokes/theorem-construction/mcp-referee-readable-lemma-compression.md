@@ -28,7 +28,7 @@ This replaces `Field_avg / Jump_avg` vocabulary.
 
 ### Lemma 4: Endpoint contradiction
 
-A first finite endpoint must enter one of four faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal field-scale loss. The proof package eliminates all four, so the endpoint is impossible.
+A first finite endpoint must enter participation failure, response-margin collapse, packing failure, averaged tower-amplitude escape, or terminal field-scale loss. The proof package eliminates the endpoint only after the repaired Part row excludes response-margin collapse by closed terminal predicates or retained response margins.
 
 This replaces the endpoint matrix notation.
 

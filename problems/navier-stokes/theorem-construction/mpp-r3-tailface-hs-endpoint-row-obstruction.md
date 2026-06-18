@@ -73,10 +73,15 @@ packing\text{-}detached,
 \quad
 tower\text{-}blown,
 \quad
-Jump.
+Jump,
+\quad
+response\text{-}margin\text{-}collapse.
 ```
 
-The compact-core matrix removes the original four faces. The new tail row remains open until `Tail.Hs_R3` or an equivalent exterior high-order ledger is proved.
+The compact-core matrix removes the old four faces together with the repaired
+Part response-margin subface, or assumes the Part response-margin input before
+spending the old four rows. The new tail row remains open until `Tail.Hs_R3` or
+an equivalent exterior high-order ledger is proved.
 
 ## Verdict
 
