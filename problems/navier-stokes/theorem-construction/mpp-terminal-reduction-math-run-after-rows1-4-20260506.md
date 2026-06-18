@@ -65,29 +65,31 @@ But `(3)` is not a contradiction.  Energy gives only
 \tag{4}
 ```
 
-where `c_D\nu2^{2j}e_j(t)\le D_j(t)\le C_D\nu2^{2j}e_j(t)`.  A function can have arbitrarily large
-pointwise high-tail peaks while its time integral tends to zero.  So rows 1--4
-push the endpoint into terminal high-frequency concentration; they do not
-exclude it.
+where `D_j` is the energy/enstrophy dissipation scale.  A function can have
+arbitrarily large pointwise \(H^s\) high-tail peaks while its available
+energy-level time integral tends to zero.  So rows 1--4 push the endpoint into
+terminal high-frequency concentration in the selected continuation norm; they
+do not exclude it.
 
-## Step 2: the gradient-tail inequality would exclude the high-tail blow-up
+## Step 2: the selected \(H^s\)-tail inequality would exclude the high-tail blow-up
 
-The required high-tail differential inequality has the form
+The required high-tail differential inequality must be written for
+`E_{N,s}`, not for the energy-level `H^1` tail:
 
 ```math
-{d\over dt}E_N(t)
-+c\nu D_N(t)
+{d\over dt}E_{N,s}(t)
++c\nu D_{N,s}(t)
 \le
-A_N(t)E_N(t)+R_N(t),
+A_{N,s}(t)E_{N,s}(t)+R_{N,s}(t),
 \tag{5}
 ```
 
 with
 
 ```math
-A_N\in L^1(0,T_*),
+A_{N,s}\in L^1(0,T_*),
 \qquad
-\int_0^{T_*}R_N(t)\,dt=o_N(1).
+\int_0^{T_*}R_{N,s}(t)\,dt=o_N(1).
 \tag{6}
 ```
 
@@ -95,7 +97,7 @@ If `(5)`--`(6)` hold for a fixed threshold chosen after the smooth initial
 tail, Gronwall and the scheduler give
 
 ```math
-\sup_{t<T_*}E_N(t)+\int_0^{T_*}D_N(t)\,dt<\infty,
+\sup_{t<T_*}E_{N,s}(t)+\int_0^{T_*}D_{N,s}(t)\,dt<\infty,
 \tag{7}
 ```
 
