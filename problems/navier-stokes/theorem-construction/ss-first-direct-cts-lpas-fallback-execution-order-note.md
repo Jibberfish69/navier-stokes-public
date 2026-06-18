@@ -83,7 +83,7 @@ If `(SS)` lands, then two of the three lifted-packet pieces disappear at once.
 The conservative same-scale execution order is:
 
 1. write `\mathfrak B_N^{upper}` in exact frozen same-scale normal form;
-2. formulate one model divergence-free annular order-zero edge theorem;
+2. formulate one coefficient-free divergence-free annular order-zero edge theorem;
 3. prove it uniformly over the bounded multiplier family;
 4. recover `(UB)` and `(MS)` by finite summation.
 
@@ -92,7 +92,7 @@ So Step A is:
 ```math
 \text{frozen normal form}
 \Longrightarrow
-\text{model same-scale edge estimate}
+\text{coefficient-free same-scale edge estimate}
 \Longrightarrow
 \text{finite-family `(SS)`}.
 \tag{5}
