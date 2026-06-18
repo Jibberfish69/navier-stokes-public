@@ -1108,6 +1108,25 @@ The downstream Field conclusion now spends a derivative supremum supplied by
 the retained tower bound on a finite cell cover, not a typical slope or hidden
 linear-profile assumption.
 
+Entropy-reserve asymptotic pass:
+
+The appendix branch-entropy reserve paragraph used
+`H(\pi_P)\sim\log M` to explain diffuse parent clouds. That asymptotic has been
+replaced by exact entropy facts:
+
+```math
+H(\pi_P)=\log M
+```
+
+for a uniform cloud on \(M\) legal parents, and
+
+```math
+H(\pi_P)\ge \log M-\log C
+```
+
+when \(M\) active parent weights satisfy \(\pi_i\le C/M\). The reserve argument
+now spends exact entropy lower bounds, not a scale-comparison phrase.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
