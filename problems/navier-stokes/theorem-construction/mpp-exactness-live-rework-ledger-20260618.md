@@ -2392,9 +2392,20 @@ targets are support-level unless promoted by same-ledger payment or CM-test
 admission plus a first Pack/Part/Field face failure. The live edge no longer
 preserves the old schematic proof graph as a current target.
 
+Second-pass downstream consequence: the live-edge neighboring HeightFlux notes
+also no longer set `HeightFluxControl.A`, `DonorHeightCreation.A`, or
+`FirstHeightCreationDichotomy.A` as the current target by historical supplier
+chain. The exact scalar pulse obstruction and donor-height factorization remain
+available as conditional reductions, but their proof use is now restricted to
+same-ledger payment or CM-test admission plus typed face failure.
+
 Edited live surfaces:
 
 - `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
+- `theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md`.
+- `theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md`.
+- `theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md`.
+- `theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md`.
 - `live-theorem-edge.yaml`.
 
 ## Edited Or Preserved Residues
