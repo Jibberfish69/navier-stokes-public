@@ -6380,9 +6380,11 @@ Surfaces edited:
 
 Validation:
 
-The live authority-set scan for raw `automatically` now returns no hits.  The
-focused modal proof-force scan for the edited batch returns no hits, and
-`git diff --check` passes on the edited files.
+The live authority-set scan for raw `automatically` now returns no hits, and
+`git diff --check` passes on the edited files.  The broader
+`should`/`would`/`could` pass is not yet globally closed; remaining hits require
+the next inspection/classification pass before this modal-shortcut family can be
+called complete.
 
 ## Source-Wall Scale-Shorthand Repair
 
