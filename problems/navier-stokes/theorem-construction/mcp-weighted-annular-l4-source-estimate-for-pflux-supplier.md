@@ -10,7 +10,7 @@ Supply
 
 ## Theorem `AnnL4.W`
 
-Assume the weighted local smoothing source
+Assume the weighted annular `L4` source
 
 ```math
 \sum_k2^{2ak}\int_0^T\|u(t)\|_{L^4(A_k)}^4dt<\infty.
@@ -39,18 +39,22 @@ Also `c_a2^{2aj}\le 2^{2ak}\le C_a2^{2aj}` for `|j-k|<=2`. Summing over `k` and 
 \sum_j2^{2aj}\int_0^T\|u\|_{L^4(A_j)}^4dt.
 ```
 
-The right side is finite by the weighted local smoothing source.
+The right side is finite by the weighted annular `L4` source.
 
 ## Supplier Form
 
-A route-level sufficient source is
+A route-level sufficient source is the same weighted annular `L4` bound
 
 ```math
 \sum_k2^{2ak}\int_0^T\|u\|_{L^4(A_k)}^4dt<\infty.
 ```
 
-This can be pursued through localized cascade/local Hs control on annuli or through a weighted smoothing theorem.
+This can be pursued only through a theorem that proves the displayed annular
+`L4` bound, for example from localized cascade/local `H^s` control on annuli or
+from a weighted smoothing theorem with exactly this conclusion.
 
 ## Boundary
 
-This note converts a weighted local smoothing source into the fat-annulus L4 estimate needed by `PFlux.Supplier`. The weighted smoothing source remains the analytic input.
+This note converts the weighted annular `L4` source on base annuli into the
+fat-annulus `L4` estimate needed by `PFlux.Supplier`.  The displayed `L4`
+summability remains the analytic input.
