@@ -6356,3 +6356,35 @@ admission input upstream of the readout layer.
 Surface edited:
 
 - `theorem-construction/mcp-pctp-hard-readend-ecqa-loop-closure.md`.
+
+## Source-Pulse Promotion Criterion Same-Tail Repair
+
+Old claim being spent:
+
+Two source-pulse promotion notes treated
+
+```text
+OriginalSmoothData => SourcePulseExclusion.A
+```
+
+as the only remaining input needed to promote the conditional terminal-tail
+route to full `PCTP.hard / TTU.A`.
+
+Exact replacement:
+
+The notes now state the current exactness standard:
+
+```text
+OriginalSmoothData => SourcePulseExclusion.A
+and
+OriginalSmoothData => SCFBaseLocalModulus_N on admitted terminal tails.
+```
+
+The same-tail modulus is needed before the retained Field row is admitted into
+the averaged Field row; it is not supplied by the source-pulse theorem or by
+`READ.COVER`.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-pctp-hard-terminal-tail-production-conditional-sourcepulse-closure.md`;
+- `theorem-construction/mcp-pctp-hard-unconditional-promotion-check-sourcepulse-dependency.md`.
