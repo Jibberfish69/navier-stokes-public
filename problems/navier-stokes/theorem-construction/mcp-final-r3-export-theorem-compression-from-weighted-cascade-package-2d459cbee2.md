@@ -54,7 +54,9 @@ PFlux.Supplier:
 \sum_k2^{(2a-1)k}\int_0^T\|p\|_{L^2(A_k)}\|u\|_{L^2(A_k)}dt<\infty,
 ```
 
-plus the annular product-source and local smoothing estimates that make this summable.
+plus the exact annular inputs that make this summable:
+`AnnL4.W` for the near product source, weighted moment control for the annular
+velocity factor, and the far-tail `F_k` Schur summability theorem.
 
 An alternative route is direct `A1c_R` strain control:
 
