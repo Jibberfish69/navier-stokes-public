@@ -83,6 +83,6 @@ Induction over `m<=k`, then `H^k(B_R)\hookrightarrow H^s(B_R)`, gives
 
 This theorem supplies local uniform regularity only after the exact nonlinear,
 pressure, commutator, and low-mode forcing package is uniform in the expanding
-box index.  It does not derive those exterior budgets, and it does not allow
-"local smoothing" or "standard estimates" to stand in for the displayed
-`L_t^2L_x^2` forcing bounds.
+box index.  It does not derive those exterior budgets; the displayed
+`L_t^2L_x^2` forcing bounds are explicit hypotheses of this local regularity
+step.
