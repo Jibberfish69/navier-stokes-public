@@ -6415,3 +6415,67 @@ Surfaces edited:
 
 - `theorem-construction/mcp-classical-closure-warrant-final-pass-ecq-a-18affdb00d.md`;
 - `theorem-construction/mcp-endpoint-to-classical-contradiction-theorem-read-end-ac1bec0dd4.md`.
+
+## Authority Source-Pulse / PCTP Same-Tail Mirror Repair
+
+Old claim being spent:
+
+The live authority mirrors still carried the older source-pulse promotion
+sentence: the stronger no-pulse/PCTP supplier route was not to be marked closed
+unless the source-control atom was proved.  In `live-theorem-edge.yaml`, the
+same overclaim appeared in the downstream chain
+
+```text
+AWG.A + TGC.A + AACT.Global.noJump + AVG.END.A + READ.END
+=> PCTP.hard / TTU.A.
+```
+
+and in the normalized-adjoint source-drain trace
+
+```text
+LemmaB.SourceDrain => SOURCE.NO-PULSE.A => AWG.A
+=> Jump_avg false => PCTP.hard / TTU.A.
+```
+
+That wording spent source-control as if it were the only missing terminal-tail
+production input.
+
+Exact replacement:
+
+The authority mirrors now require two independent inputs before the stronger
+PCTP/TTU supplier route can be promoted:
+
+```text
+SOURCE.NO-PULSE.A or the source-control atom
+and
+SCFBaseLocalModulus_N on the admitted terminal tail.
+```
+
+The exact downstream consumer chain is conditional:
+
+```text
+SCFBaseLocalModulus_N
++ AWG.A + TGC.A + AACT.Global.noJump + AVG.END.A + READ.END
+=> PCTP.hard / TTU.A.
+```
+
+The proof reason is the same-tail admission repair: `READ.COVER` and `READ.END`
+are downstream of `End_NS_avg` and cannot supply `SCFBaseLocalModulus_N`.  The
+source-drain certificates discharge only the source-control component; they do
+not prove the same-tail terminal-tail Field-admission modulus.
+
+Downstream consequence:
+
+Authority surfaces no longer let a source-pulse/source-control discharge close
+`PCTP.hard`, `TTU.A`, or the stronger no-pulse/PCTP supplier route by itself.
+Any downstream route using that supplier must either prove
+`SCFBaseLocalModulus_N` on the admitted terminal tail, prove it from the retained
+`Field_{N,r,Q}` face, or keep the PCTP/TTU route conditional.
+
+Surfaces edited:
+
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`;
+- `theorem-packet.yaml`;
+- `submission-bundle/theorem-packet.yaml`.
