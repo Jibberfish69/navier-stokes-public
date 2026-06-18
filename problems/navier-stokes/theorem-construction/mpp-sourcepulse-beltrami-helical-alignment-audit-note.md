@@ -77,7 +77,7 @@ That is exactly a source-pulse depletion theorem, not an existing supplier.
 
 ## Conclusion
 
-Beltrami/helical alignment is a plausible proof language for
+Beltrami/helical alignment is a candidate proof mechanism for
 `SourcePulseExclusion.A`, but it is not an installed discharge.  At current
 route resolution,
 
@@ -90,4 +90,3 @@ SourcePulseExclusion.A.
 ```
 
 No promotion is licensed from this mechanism alone.
-
