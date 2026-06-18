@@ -347,7 +347,7 @@ has the exact upper bound
 \tag{TB.26b}
 ```
 
-## Schematic Relative Packing Inequality
+## Exact Relative Packing Inequality
 
 Let
 
@@ -396,11 +396,13 @@ strain defect `\mathcal Q_{1,r,\psi}^{str}(t)`. The larger transported packet
 `\widetilde E_{1,r,\psi}(t)` is a valid controlling upper bound by `(TB.26b)`,
 but it is not literally the source term in `(TB.28)`.
 
-## Packet Inequality
+## Conditional Packet Inequality
 
 Together with the transported tower-defect evolution from
-`mpp-shared-participation-and-tower-coherence-law.md`, the fused packet should
-satisfy an inequality of the form
+`mpp-shared-participation-and-tower-coherence-law.md`, the closed fused-packet
+theorem must produce nonnegative quantities
+`\mathcal J_{N,r,\psi}`, `\widetilde D_{N,r,\psi}`, and
+`\mathcal C_{N,r,\psi}` satisfying
 
 ```math
 \frac{d}{dt}\mathcal J_{N,r,\psi}(t)
@@ -417,8 +419,30 @@ where `\mathcal C_{N,r,\psi}(t)` is built from:
 3. the packet transport mismatch coming from the moving cutoff;
 4. the fixed packet enlargement used in `(TB.28)`.
 
-This remains a conditional bridge. The exact content of the bridge note is that the only
-new geometric source term introduced by the packing side is the rung-1
+The exact propagation consequence would then be the Gronwall statement
+
+```math
+\mathcal J_{N,r,\psi}(t)
++2\nu\int_{t_0}^t
+\exp\!\left(-\int_s^t\mathcal C_{N,r,\psi}(\tau)\,d\tau\right)
+\widetilde D_{N,r,\psi}(s)\,ds
+\le
+\mathcal J_{N,r,\psi}(t_0)
+\exp\!\left(\int_{t_0}^t\mathcal C_{N,r,\psi}(s)\,ds\right).
+\tag{TB.29a}
+```
+
+So the missing theorem is not the formal shape `(TB.29)`. It is the construction
+of `\mathcal J_{N,r,\psi}` and `\mathcal C_{N,r,\psi}` from the displayed
+packet quantities, with
+
+```math
+\int_{t_0}^{t_1}\mathcal C_{N,r,\psi}(s)\,ds<\infty
+\tag{TB.29b}
+```
+
+on the selected material packet.  The exact content of this bridge note is that
+the only new geometric source term introduced by the packing side is the rung-1
 transported defect.
 
 ## Exact Next Theorem Shape
@@ -427,7 +451,7 @@ The theorem target now visible is:
 
 ```math
 \boxed{
-\text{control of the exact rung-1 transported source term should propagate both tower coherence and packing coherence on one material packet.}
+\text{construct }(\mathcal J,\mathcal C)\text{ so that }(TB.29)\text{ and }(TB.29b)\text{ hold with the exact rung-1 source term.}
 }
 \tag{TB.30}
 ```
