@@ -30,7 +30,12 @@ The square-source input requires source normalization on selected terminal activ
 ActiveShellSourceNormalize.A.
 ```
 
-The direct test fails from current inputs.  Shell flux is trilinear, so scaling a smooth finite-mode profile by amplitude `A` gives source size like `A^3` and square-source size like `A^6`.  Original smoothness and preterminal smoothness give data-dependent bounds, while the terminal branch needs a scale-normalized estimate along moving high shells.
+The direct test fails from current inputs. Shell flux is trilinear: for a smooth
+finite-mode divergence-free test field `phi` with `F_j(phi) != 0`, the family
+`u_A=A phi` gives `F_j(u_A)=A^3F_j(phi)` and
+`|F_j(u_A)|^2=A^6|F_j(phi)|^2`. Original smoothness and preterminal smoothness
+give data-dependent bounds, while the terminal branch needs a scale-normalized
+estimate along moving high shells.
 
 Thus:
 

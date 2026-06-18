@@ -46,11 +46,16 @@ Compactness produces a local suitable ancient source-residue object. The current
 
 ### RefillTreeWellFounded.A
 
-`LocalDonorBalance.A` is installed. Entrance leaves are controlled by original smooth tail decay. The terminal Zeno refill branch survives and reduces to either a scale-critical tree Carleson theorem or a Zeno source-residue rigidity theorem.
+`LocalDonorBalance.A` is installed. Entrance leaves are paid by `EntranceLeafDecay.A`:
+`sum_{v in partial T_N} E_N(v;t_v^-) <= C_leaf C_ov sup_{t<=T_*-tau} ||P_{>=N-C}u(t)||_2^2 -> 0`
+for fixed preterminal or positive-scale entrance leaves. The terminal Zeno refill branch survives and reduces to either a scale-critical tree Carleson theorem or a Zeno source-residue rigidity theorem.
 
 ### ScaleCriticalTreeCarleson.A
 
-This would close the Zeno charge branch. Existing active-window Carleson and square-source presentations are route-equivalent to the source-pulse theorem itself and cannot serve as independent installed reserves.
+The scale-critical tree Carleson theorem closes the Zeno charge branch once
+supplied. Existing active-window Carleson and square-source presentations are
+route-equivalent to the source-pulse theorem itself and cannot serve as
+independent installed reserves.
 
 ### ZenoSourceResidueRigidity.A
 

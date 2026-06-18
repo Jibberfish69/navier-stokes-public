@@ -83,7 +83,7 @@ A_L\to0,
 h_L:=2^LA_L^2.
 ```
 
-Then the installed first-moment tail charge tends to zero while the square reserve stays order one:
+Then the installed first-moment tail charge tends to zero while the square reserve is exactly one:
 
 ```math
 \int_{I_L}\sum_{\ell>N}D_\ell(t)\,dt=A_L\to0,

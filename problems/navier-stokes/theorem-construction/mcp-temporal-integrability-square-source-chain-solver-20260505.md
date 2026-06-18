@@ -48,7 +48,8 @@ Current compactness gives finite source mass, an `L^1_s` level estimate. Finite 
 
 ### `HeatScaleSquareSource.A`
 
-This target would supply the missing `p=2` temporal control. The direct route needs active-shell source normalization on selected terminal windows.
+This target supplies the missing `p=2` temporal control once proved. The direct
+route needs active-shell source normalization on selected terminal windows.
 
 ### `ActiveShellSourceNormalize.A`
 

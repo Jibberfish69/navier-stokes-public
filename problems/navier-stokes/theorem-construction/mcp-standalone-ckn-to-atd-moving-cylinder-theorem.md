@@ -31,7 +31,11 @@ x=c(t)+rA(t)y,
 \qquad s=(t-t_0)/r^2.
 ```
 
-Bounded distortion gives uniformly elliptic metric coefficients and uniformly bounded Jacobian factors. The pulled-back local energy inequality has the standard CKN form plus lower-order frame terms controlled by the same affine-relative residual measured in `SCF_base`.
+Bounded distortion gives uniformly elliptic metric coefficients and uniformly
+bounded Jacobian factors. The imported local regularity input is the
+bounded-coefficient CKN epsilon theorem for this pulled-back moving-frame
+equation; the lower-order frame terms are part of the normalized residual
+measured in `SCF_base`.
 
 The pressure normalization is
 

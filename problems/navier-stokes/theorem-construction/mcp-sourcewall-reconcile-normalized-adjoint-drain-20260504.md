@@ -116,7 +116,7 @@ SourceWall.Reconcile.A:
 }
 ```
 
-The immediate theorem target is now one root source-wall theorem:
+The current theorem target is one root source-wall theorem:
 
 ```math
 LocalPositiveSourceCarleson.A
@@ -126,4 +126,4 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 
 ## Claimed status
 
-The unconditional source-drain discharge is demoted. The row bridge and CM assembly must treat the Field row as conditional on source-wall closure until one root source-wall theorem is proved.
+The unconditional source-drain discharge is conditional analytic support with no proof force for unconditional source-wall closure. The row bridge and CM assembly must treat the Field row as conditional on source-wall closure until one root source-wall theorem is proved.

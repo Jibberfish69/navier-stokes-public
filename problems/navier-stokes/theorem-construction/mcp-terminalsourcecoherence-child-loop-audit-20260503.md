@@ -43,7 +43,9 @@ Each supplier must control the native positive active source packet after same-f
 
 `LocalPressureStrainDeplete.A` remains open: pressure Poisson recovery gives elliptic routing and pressure-loss control, while the interior stretching/source carrier remains sign-indefinite.
 
-`ActiveVorticityCoherence.A` remains open: direction coherence would deplete stretching if supplied, while OriginalSmoothData gives no terminal active-window direction modulus for the exact weighted carrier.
+`ActiveVorticityCoherence.A` remains open: direction coherence depletes
+stretching once supplied, while OriginalSmoothData gives no terminal
+active-window direction modulus for the exact weighted carrier.
 
 `AntiBeltramiCarleson.A` remains open: Beltrami/helical cancellation is a possible geometry, while the current route has no theorem forcing terminal active packets into that depleted class.
 

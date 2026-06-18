@@ -48,4 +48,7 @@ or a route-equivalent source-residence theorem.
 
 ## Verdict
 
-The terminal time-face atom remains compatible with installed inputs.  The next route should test active-shell amplitude gain directly.
+The terminal time-face atom remains compatible with installed inputs.  The
+remaining direct alternative is active-shell amplitude gain: it must provide the
+missing terminal thickness or source-normalization estimate rather than merely
+restate the atom.

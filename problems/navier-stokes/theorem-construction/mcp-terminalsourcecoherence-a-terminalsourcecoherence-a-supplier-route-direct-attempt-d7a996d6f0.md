@@ -43,7 +43,18 @@ The dangerous legal interior source on a terminal packet has pressure/strain for
 
 where `S(u)` is the symmetric strain and `e_P` is the active packet polarization.
 
-Calderon--Zygmund pressure recovery gives elliptic boundedness of pressure terms in the same scale of spaces used by the local energy estimates.  It does not give a sign law for
+Calderon--Zygmund pressure recovery gives only the operator bound
+
+```math
+\|p^{loc}\|_{L^q(Q)}
+\le
+C_q\|\chi\,u\otimes u\|_{L^q(Q^*)},
+\qquad 1<q<\infty,
+```
+
+and the corresponding differentiated/localized pressure-loss estimates after
+cutoff.  This is size control of the pressure response.  It does not give a
+one-sided sign or coherence law for
 
 ```math
 (e_P\cdot S(u)e_P)_+.
@@ -55,11 +66,13 @@ Since `tr S(u)=0` only forces the sum of eigenvalues to vanish, it permits posit
 \int_{Q(P)}\mathcal N_{ps}^{loc,+}\le \text{legal losses}+o_N(1)
 ```
 
-is not obtained from pressure recovery and incompressibility alone.
+is not obtained from Calderon--Zygmund recovery and incompressibility alone.
 
 ## 2. ActiveVorticityCoherence.A
 
-A vorticity-direction route would require a terminal modulus controlling the direction of active vorticity on shrinking endpoint windows, strong enough to deplete vortex stretching and to match the exact weighted source packet.
+A vorticity-direction route requires a terminal modulus controlling the
+direction of active vorticity on shrinking endpoint windows, strong enough to
+deplete vortex stretching and to match the exact weighted source packet.
 
 Original smooth data supplies smoothness on every compact preterminal interval.  It does not supply a uniform terminal vorticity-direction modulus on the shrinking active windows selected by the source-pulse branch.  The needed statement is exactly a terminal coherence theorem, not a consequence of the baseline data.
 
@@ -73,7 +86,9 @@ by the current route inputs.
 
 ## 3. EigenDecorrel.A
 
-An eigendecorrelation route would prove that terminal high-frequency packets cannot remain aligned with expanding eigendirections of the low/intermediate strain.  In symbols it would force a bound of the type
+An eigendecorrelation route requires a theorem proving that terminal
+high-frequency packets cannot remain aligned with expanding eigendirections of
+the low/intermediate strain.  In symbols it must force a bound of the type
 
 ```math
 \sum_P\int_{Q(P)}(e_P\cdot S_{low}e_P)_+|u_P|^2

@@ -54,7 +54,7 @@ then `PCTP.cond` applies.
 
 ## `PCTP.cond`
 
-Let `u_0` be smooth, divergence-free, and zero-mean on `T^3`, with zero force. Let `(u,p)` be the maximal classical solution on `[0,T_*)`. Under the uniform terminal-tail `H^s` readout above, standard local classical Navier-Stokes theory gives a common lifespan
+Let `u_0` be smooth, divergence-free, and zero-mean on `T^3`, with zero force. Let `(u,p)` be the maximal classical solution on `[0,T_*)`. Under the uniform terminal-tail `H^s`, `s>5/2`, readout above, the periodic `H^s` local well-posedness/relaunch theorem gives a common lifespan
 
 ```math
 \tau=\tau\left(\sup_{t<T_*}\|u(t)\|_{H^s}\right)>0.

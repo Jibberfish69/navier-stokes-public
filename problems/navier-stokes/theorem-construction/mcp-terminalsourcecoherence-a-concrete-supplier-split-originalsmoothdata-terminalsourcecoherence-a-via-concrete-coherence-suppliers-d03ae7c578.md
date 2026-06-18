@@ -58,4 +58,6 @@ The coherence branch stays at the native theorem
 OriginalSmoothData\Longrightarrow TerminalSourceCoherence.A.
 ```
 
-The loop should continue to the positive-source Carleson / reverse-Holder parent concentration branch.
+The remaining consequence is the positive-source Carleson / reverse-Holder
+parent concentration burden: without one of the concrete coherence suppliers,
+`TerminalSourceCoherence.A` does not discharge the native source-pulse atom.

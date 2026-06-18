@@ -66,7 +66,7 @@ The spill packet is produced by replacing the moving low cutoff with the fixed t
 N-M\le m\le N+M.
 ```
 
-A representative spill interaction has the form
+One spill interaction under test has the form
 
 ```math
 \left\langle \Delta_j(\Delta_m u\cdot\nabla u_{\sim j}),-\Delta\Delta_j u\right\rangle,

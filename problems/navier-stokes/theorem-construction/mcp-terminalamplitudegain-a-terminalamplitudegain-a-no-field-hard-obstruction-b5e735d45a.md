@@ -26,7 +26,8 @@ The desired amplitude theorem is
 }
 ```
 
-This would imply the conditional cycle-current estimate and hence local positive source control.
+This estimate implies the conditional cycle-current estimate and hence local
+positive source control.
 
 ## Scaling obstruction
 

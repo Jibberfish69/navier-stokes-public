@@ -13,7 +13,7 @@ Let P_n=(Q_n^Phi,j_n,I_n) be a terminal same-fluid source-pulse family used as t
 
 The tower amplitude is A_{N,Q_n}(t)=sup_{x in Q_{n,t}} sum_{k=0}^N (|U_k(x,t)|+|K_k(x,t)|), where U_k=nabla^k u and K_k=-nabla^{k+1}p+nu Delta U_k.
 
-The retained Field hypothesis supplies a fixed positive spatial scale and finite-difference coherence. Energy bounds the base rung U_0. Indeed, if |u(x_0,t)|=M and Field gives |u(x,t)-u(y,t)| <= C|x-y| for |x-y|<=r, then |u|>=M/2 on a ball of radius rho=min(r,M/(2C)). The energy bound gives E_0 >= c M^2 rho^3, so M is bounded. For M<=2Cr the bound is immediate; for M>2Cr, rho=r and M^2<=C_r E_0.
+The retained Field hypothesis supplies a fixed positive spatial scale and finite-difference coherence. Energy bounds the base rung U_0. Indeed, if |u(x_0,t)|=M and Field gives |u(x,t)-u(y,t)| <= C|x-y| for |x-y|<=r, then |u|>=M/2 on a ball of radius rho=min(r,M/(2C)). The energy bound gives E_0 >= c M^2 rho^3, so M is bounded. For M<=2Cr, use rho=M/(2C); for M>2Cr, rho=r and M^2<=C_r E_0.
 
 For k>=1, the finite-difference bound on U_{k-1} gives |nabla U_{k-1}|=|U_k|<=C on the preterminal smooth window. For force rungs, Part gives the base force envelope K_0, and Field gives |K_k|<=C through the finite-difference bound on K_{k-1}. Summing finitely many bounded U_k and K_k terms gives A_{N,Q_n} in L^infty(I_n), so tower-blown cannot occur on retained Pack+Part+Field.
 

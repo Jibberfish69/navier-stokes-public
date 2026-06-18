@@ -16,7 +16,14 @@ On this branch, the retained material cross-section is compact on the periodic s
 
 ## Cover extraction
 
-For each point of the coherent terminal subtail, choose a same-fluid parabolic cylinder with radius in `[r_*,2r_*]`. A parabolic Vitali-Besicovitch selection in bounded-distortion coordinates gives finite overlap. Periodicity supplies compact spatial geometry; bounded distortion transfers the overlap constants to the moving cylinders.
+For each point of the coherent terminal subtail, choose a same-fluid parabolic
+cylinder with radius in `[r_*,2r_*]`.  In pulled-back same-fluid coordinates,
+choose a maximal `r_*/4`-separated net on the retained compact tail.  The
+`r_*` cylinders cover the tail, the `r_*/4` cores are disjoint, and parabolic
+packing gives at most `C_4(M_\sharp)(1+D_T/r_*)^4` selected cylinders with
+fixed-dilate overlap bounded by `\Omega_4(M_\sharp)`.  Periodicity supplies
+compact spatial geometry; bounded distortion transfers these constants to the
+moving cylinders.
 
 ## Collapse branch
 

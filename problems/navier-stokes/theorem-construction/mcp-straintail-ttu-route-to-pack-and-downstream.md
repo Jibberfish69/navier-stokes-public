@@ -100,4 +100,6 @@ For a continuum active label family, labelwise absence of `\mathcal S_\infty` do
 \int S_{pack,Q}<\infty.
 ```
 
-A uniform finite-label reduction or a compact-uniform strain-tail lemma is required. The finite active packet route above is the valid immediate consequence.
+A uniform finite-label reduction or a compact-uniform strain-tail lemma is
+required. The finite active packet route above is the valid next consequence
+available from the current packet.

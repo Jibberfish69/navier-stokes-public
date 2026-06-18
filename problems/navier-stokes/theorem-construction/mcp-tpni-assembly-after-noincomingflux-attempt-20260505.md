@@ -22,7 +22,7 @@ TPNI.A\Rightarrow PATC.A\Rightarrow ASAC.A.
 
 ## Assembly
 
-Assume `PATC.A` fails. The standard rescaling gives a nonzero frozen-strain tangent packet solving
+Assume `PATC.A` fails. The parabolic rescaling gives a nonzero frozen-strain tangent packet solving
 
 ```math
 \partial_s v+(Sy)\cdot\nabla v+Sv+\nabla\pi=\nu\Delta v,

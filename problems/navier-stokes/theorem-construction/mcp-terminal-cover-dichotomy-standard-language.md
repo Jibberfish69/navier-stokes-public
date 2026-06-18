@@ -35,7 +35,11 @@ Equivalently, the same-fluid tail loses every uniform positive SCF-good scale ap
 
 The alternatives are complementary for the nonnegative function `r_good` on terminal subtails. If a terminal subtail has a positive lower bound, Alternative A holds. If every terminal subtail has infimum zero, Alternative B holds.
 
-In Alternative A, choose cylinders with radii in `[r_*,2r_*]` at every point of `T'`. The parabolic Vitali-Besicovitch selection theorem in same-fluid coordinates gives a finite subcover on the retained compact tail, with overlap controlled by dimension and the distortion bound. This is the quantitative terminal cover theorem.
+In Alternative A, choose cylinders with radii in `[r_*,2r_*]` at every point of
+`T'`.  In pulled-back same-fluid coordinates, a maximal `r_*/4`-separated net
+on the retained compact tail gives a finite subcover with at most
+`C_4(M_\sharp)(1+D_T/r_*)^4` cylinders and fixed-dilate overlap bounded by
+`\Omega_4(M_\sharp)`.  This is the quantitative terminal cover theorem.
 
 In Alternative B, there is no terminal subtail carrying a uniform positive SCF-good radius. This is the terminal coherence-loss endpoint face.
 

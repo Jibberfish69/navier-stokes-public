@@ -12,7 +12,8 @@ Show that the Zeno limiting source-residue measure has no terminal time atom:
 \mu_*^{src}(\{s=0\})=0.
 ```
 
-This would turn positive terminal mass into positive mass on an earlier time slab and would close `TerminalSourceBackwardPropagation.A`.
+This theorem turns positive terminal mass into positive mass on an earlier time
+slab and closes `TerminalSourceBackwardPropagation.A`.
 
 ## Attempt
 
@@ -33,7 +34,9 @@ Then every time interval `I` satisfies
 
 and the limiting measure has no time atoms.
 
-Current ledgers supply finite mass / L1 control. They do not supply the displayed `p>1` estimate on selected terminal packets. A square-source or Carleson estimate would supply it, but that is exactly the open source-control reserve.
+Current ledgers supply finite mass / L1 control. They do not supply the displayed
+`p>1` estimate on selected terminal packets. A square-source or Carleson estimate
+supplies it once proved, but that is exactly the open source-control reserve.
 
 ## Result
 

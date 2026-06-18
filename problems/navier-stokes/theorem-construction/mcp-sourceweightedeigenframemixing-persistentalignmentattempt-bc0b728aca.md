@@ -17,7 +17,21 @@ SourceWeightedEigenframeMixing.A:
 Drain_{parent}+Loss_{legal}+o_N(1).
 ```
 
-The intended mechanism is angular mixing: selected active directions should lose persistent alignment with expanding eigendirections of `S_<j^loc`.
+The angular-mixing route requires a source-weighted nonalignment estimate, not
+a qualitative mixing expectation.  One sufficient form is
+
+```math
+\sum_{P\in\mathcal F_N}\int_{Q(P)}
+\chi_P |w_{j_P}|^2
+[e_{j_P}\cdot S^{loc}_{<j_P}e_{j_P}]_+
+\mathbf 1_{\angle(e_{j_P},E^+_{<j_P})\le\alpha}\,dxdt
+\le
+\theta D_N(\mathcal F_N)+Legal_N(\mathcal F_N)+o_N(1),
+\qquad 0<\theta<1.
+```
+
+The complementary aligned branch must instead spend a persistent-alignment
+reserve theorem.
 
 ## Tests
 
@@ -27,7 +41,9 @@ The active direction can co-rotate with the local expanding eigenspace over a sh
 
 ### Eigenframe rotation / BV
 
-Eigenframe rotation would help if terminal windows carried a source-weighted BV or angular-variation lower bound.  Current inputs supply no such bound on the selected positive packet family.
+Eigenframe rotation helps only if terminal windows carry a source-weighted BV or
+angular-variation lower bound.  Current inputs supply no such bound on the
+selected positive packet family.
 
 ### Constantin-Fefferman coherence
 
@@ -35,7 +51,9 @@ Vorticity-direction coherence can constrain singularity formation in regimes whe
 
 ### Beltrami / anti-Beltrami depletion
 
-Beltrami or anti-Beltrami structure would deplete the stretching carrier if the selected family entered that class.  Current `B_ASAC` production supplies equality/tangent organization, while it supplies no Beltrami depletion class.
+Beltrami or anti-Beltrami structure depletes the stretching carrier only when the
+selected family enters that class.  Current `B_ASAC` production supplies
+equality/tangent organization, while it supplies no Beltrami depletion class.
 
 ## Result
 
@@ -59,4 +77,7 @@ Loss_{legal}.
 
 ## Verdict
 
-Eigenframe mixing remains open.  The next useful target is persistent-alignment rigidity: prove that long enough positive alignment creates measurable amplitude gain or temporal source residence.
+Eigenframe mixing remains open.  The remaining theorem is
+`PersistentExpansionAlignmentForcesReserve.A`: persistent positive alignment
+must create measurable amplitude gain, temporal source residence, no-incoming
+source drain, or legal loss on the same selected terminal packet family.

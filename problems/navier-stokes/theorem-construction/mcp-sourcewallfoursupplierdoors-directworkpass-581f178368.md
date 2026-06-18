@@ -24,7 +24,7 @@ The native carrier is
 \left[e_{j_P}\cdot S^{loc}_{<j_P}e_{j_P}\right]_+dxdt.
 ```
 
-The terminal model that survives all four attempts is the zero-thickness source-balanced terminal pulse.
+The endpoint time-marginal witness that survives all four attempts is the zero-thickness source-balanced terminal pulse.
 
 ## Door 1: TerminalSourceReverseHolder.A
 
@@ -106,7 +106,7 @@ in a scale-normalized form on moving terminal shells.
 
 Prove square-source control strong enough to imply super-`L^1` temporal source control and active-square reserve.
 
-A representative target is
+One sufficient target inequality is
 
 ```math
 \int_{I_P} |Source_P^{loc}(t)|^2\,dt

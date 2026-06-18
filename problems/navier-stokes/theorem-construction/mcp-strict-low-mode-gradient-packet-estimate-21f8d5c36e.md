@@ -70,7 +70,8 @@ The exact transport term cancels before the commutator is formed. Since `\nabla\
 \left\langle a_N\cdot\nabla u_j,-\Delta u_j\right\rangle=0.
 ```
 
-Thus the strict low-high contribution is the commutator term. The standard dyadic commutator estimate gives
+Thus the strict low-high contribution is the commutator term. The dyadic
+commutator estimate gives
 
 ```math
 \|[\Delta_j,a_N\cdot\nabla]u_{\sim j}\|_2

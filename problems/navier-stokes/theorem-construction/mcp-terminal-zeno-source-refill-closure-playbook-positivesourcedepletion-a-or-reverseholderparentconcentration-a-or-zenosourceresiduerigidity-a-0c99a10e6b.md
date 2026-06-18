@@ -56,7 +56,7 @@ o_N(1)+\text{summable legal losses}.
 
 for every bounded-overlap same-fluid terminal family selected by the source-pulse branch.
 
-This is the most direct target because it immediately gives
+This is the most direct target because it gives
 
 ```math
 PositiveSourceDepletion.A
@@ -70,7 +70,10 @@ SourcePulseExclusion.A.
 
 ## How to try to prove `PositiveSourceDepletion.A`
 
-The proof must stay on the pre-Cauchy localized source carrier.  It should avoid global absolute-value envelopes because those erase parent-child geometry.
+The proof object is the pre-Cauchy localized source carrier.  A global
+absolute-value envelope is the wrong estimate because it replaces the
+parent-child signed decomposition below by an unlocalized size bound and loses
+the refill-tree telescope.
 
 A viable proof needs three local ingredients.
 

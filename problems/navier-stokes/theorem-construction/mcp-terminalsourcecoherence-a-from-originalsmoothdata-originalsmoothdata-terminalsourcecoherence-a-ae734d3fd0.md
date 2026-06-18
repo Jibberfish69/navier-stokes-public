@@ -60,7 +60,9 @@ Beltrami/helical coherent packets are compatible cancellation geometries. The in
 
 Same-fluid transport preserves the selected carrier. It does not make coherence defects small.
 
-The signed lifted-remainder route would need cancellation of the true weighted lifted remainder before absolute values and active-window selection. That supplier remains open.
+The signed lifted-remainder route requires cancellation of the true weighted
+lifted remainder before absolute values and active-window selection. That
+supplier remains open.
 
 ## Verdict
 
