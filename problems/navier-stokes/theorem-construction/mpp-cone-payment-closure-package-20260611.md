@@ -12,16 +12,18 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-participation-transfer-donor-drain-audit-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-peak-backoff-and-vortex-return-dichotomy-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-singulet-spin-smooth-exterior-compatibility-20260610.md
-  downstream_consequence: "The full cone-payment work order is now a typed forward-positive theorem package. It proves the moving-cone ledger identity, the conditional finite-undiscounted-cone-budget-to-CKN closure, the static hiding reduction, and the critical payment-rate lower bound. It leaves the exact forward-positive children open: ParabolicFunnelScaleCriticalBudget.A, FunnelProfileLyapunov.A, ScaleCriticalPaymentThrottle.A, and KineticDensityMorreyFromParticipation.A."
+  downstream_consequence: "The full cone-payment work order is now a typed forward-positive theorem package. It proves the moving-cone ledger identity, the moving-cone tail smallness consequence of a finite undiscounted cone budget, the static hiding reduction, and the critical payment-rate lower bound. It leaves the exact forward-positive children open: ParabolicFunnelScaleCriticalBudget.A, FunnelProfileLyapunov.A, MovingConeToCKNSmallness.A, ScaleCriticalPaymentThrottle.A, and KineticDensityMorreyFromParticipation.A."
 ---
 
 # MPP ConePaymentClosurePackage.A
 
 Date: 2026-06-11
 
-Status: parent closure package for the cone-payment work order. This note proves
-the ledger reductions and the critical payment threshold. It does not claim the
-undiscounted cone-budget supplier has been proved from raw physical energy.
+Status: parent reduction package for the cone-payment work order. This note
+proves the ledger reductions, the moving-cone tail smallness consequence, and
+the critical payment threshold. It does not claim the undiscounted cone-budget
+supplier or the moving-cone-to-CKN bridge has been proved from raw physical
+energy.
 
 ## 0. Frozen Source Split
 
