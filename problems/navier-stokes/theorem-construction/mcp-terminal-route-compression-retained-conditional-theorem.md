@@ -35,7 +35,7 @@ ACT.KX
 \Longrightarrow
 LCI.A[N+2,N+2,\delta+5\Lambda]
 \Longrightarrow
-FFSRC.A
+\operatorname{Hyp}(FFSRC.A)
 \Longrightarrow
 FCI.5f.
 ```
@@ -47,7 +47,7 @@ ACT.KX
 \Longrightarrow
 LCI.A
 \Longrightarrow
-FFSRC.A
+\operatorname{Hyp}(FFSRC.A)
 \Longrightarrow
 FCI.5f
 \Longrightarrow
@@ -77,10 +77,13 @@ OFP.A+CFI.B1+CFI.B2\Longrightarrow CFI.A.
 The source side uses the strengthened branch:
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
+\Longrightarrow \operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
-The exact same-depth pressure branch remains separate from this strengthened source route.
+Here `FCC.C1a` is the weighted cutoff-defect interval input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`. The exact
+same-depth pressure branch remains separate from this strengthened source route.
 
 ## 2. Endpoint Side
 
