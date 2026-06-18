@@ -1206,6 +1206,52 @@ Those surfaces now separate the exact statements:
 - any Route-B or QDrain continuation claim remains conditional until that
   same-surface \(H^s\) bridge is supplied.
 
+## Localized Tower-Closure Expectation Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`
+  said that from `(TC.20)` "one expects a triangular closure inequality" and
+  then described `(TC.31)` as the localized whole-field coupling law.
+- Downstream theorem programs then treated `(TC.19)`--`(TC.31)` as supplied
+  triangular strain/cascade structure for material-packet, lower-carrier, and
+  collar source-control estimates.
+
+Exact replacement:
+
+The shared tower note now states `(TC.31)` as a remaining localized closure
+theorem. The proof must differentiate the defect energy, integrate the viscous
+term by parts, keep cutoff commutators, place pressure into
+`\mathrm{Flux}_{N,h,\phi}`, and bound each ordinary-rung / bad-difference
+coupling by the displayed coefficient. The flux symbol is part of the theorem
+data, and the closure is usable only with a legal estimate such as
+
+```math
+\int_I|\mathrm{Flux}_{N,h,\phi}(t)|\,dt
+\le
+\mathrm{Legal}_{N,h,\phi}(I),
+\tag{TC.31a}
+```
+
+or with an explicitly absorbable boundary/cutoff estimate on the same retained
+family.
+
+Downstream consequence: material-packet, lower-carrier, and collar consumers
+may cite `(TC.31)` only as a conditional/imported theorem target unless they
+prove the corresponding packet/collar flux, cutoff, and transported-separation
+bounds. The triangular closure is no longer spent as an expectation from the
+tower law.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`;
+- `theorem-construction/mpp-scalarized-neighboring-tower-defect-energy-note.md`;
+- `theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`;
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
