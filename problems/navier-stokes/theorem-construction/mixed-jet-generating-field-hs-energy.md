@@ -12,7 +12,7 @@ This note records one exact consequence of the generating-field package:
 
 ```math
 \boxed{
-\text{it obeys the standard }H^s\text{ Navier--Stokes energy inequality.}
+\text{it obeys the displayed }H^s\text{ Navier--Stokes energy inequality }(8).
 }
 ```
 
@@ -149,7 +149,8 @@ Thus the previous weighted-jet reduction and the present generating-field
 estimate fit together exactly:
 
 - the weighted factorial norm controls the size of the generating field;
-- the generating field satisfies the standard `H^s` Navier--Stokes inequality.
+- the generating field satisfies the displayed `H^s` Navier--Stokes inequality
+  `(8)`.
 
 ## Meaning
 
@@ -173,7 +174,7 @@ It proves only:
 
 ```math
 \boxed{
-\text{if the generating field exists on an }H^s\text{ slice, it satisfies the usual }H^s\text{ NS energy law.}
+\text{if the generating field exists on an }H^s\text{ slice, it satisfies }(8).
 }
 \tag{11}
 ```
