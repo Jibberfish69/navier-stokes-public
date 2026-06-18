@@ -103,7 +103,7 @@ Therefore
 For the selected strengthened route, use
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow \operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The expanded source split is
