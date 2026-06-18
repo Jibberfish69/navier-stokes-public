@@ -1596,6 +1596,30 @@ Edited live surfaces:
 - `theorem-construction/mcp-far-pressure-summability-from-weighted-moment-tails-2a49bd8ea7.md`;
 - `live-theorem-edge.yaml`.
 
+## Selector Balanced-Frame Separation Rework
+
+Old loose step:
+
+- `theorem-construction/selector-balanced-frame-lemma.md` introduced the
+  equivalence of `(SBF.4)` and `(SBF.5)` as the "standard separation criterion."
+
+Exact replacement:
+
+The proof now names the finite-dimensional separation argument in the affine
+hyperplane of trace-one symmetric tensors. Since
+`\operatorname{tr}(\omega\otimes\omega)=1`, the affine dual is exactly the
+traceless symmetric operators; failure of `(SBF.4)` gives a nonzero traceless
+separator by Hahn--Banach, and that separator is exactly the sign obstruction
+excluded by `(SBF.5)`.
+
+Downstream consequence: selector-frame consumers may cite this lemma as a
+finite-dimensional convex-separation proof, not as an unnamed standard
+criterion.
+
+Edited live surface:
+
+- `theorem-construction/selector-balanced-frame-lemma.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
