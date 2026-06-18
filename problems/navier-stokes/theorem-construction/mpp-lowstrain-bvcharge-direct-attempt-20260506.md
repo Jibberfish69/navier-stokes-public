@@ -123,8 +123,10 @@ Correspondingly,
 \tag{LBV.6}
 ```
 
-The far-low term has a genuine parabolic scale-separation gain.  The near
-band does not; it must be routed to parabolic burst/source structure.
+The far-low term is paid only by the exact estimate `(LBV.8)` below.  Its small
+factor is \(2^{-2L}\) after the material-derivative envelope `(LBV.7)`, together
+with the legal \(B_m\) leakage term.  The near band has no corresponding
+far-low factor; it must be routed to the parabolic burst/source structure.
 
 ## 3. Far-low slow variation lemma
 
@@ -334,9 +336,9 @@ HeatDwellSampling.BV
 
 ## 8. Verdict
 
-`LowStrainBVCharge.A` is not just a renamed source wall.  Its far-low part has
-a concrete parabolic scale-separation gain.  The live obstruction is now much
-more localized:
+`LowStrainBVCharge.A` is not just a renamed source wall.  Its far-low part is
+paid only by `(LBV.8)`: the \(2^{-2L}\) material-derivative factor plus legal
+\(B_m\) leakage.  The live obstruction is now much more localized:
 
 ```text
 near-band material derivative / pressure-source variation
