@@ -426,5 +426,4 @@ silver CM-exit test:
 
 Thus this note closes the foundational funnel geometry and the raw-budget
 obstruction. It does not claim the final forward-positive supplier has been
-proved, and it does not spend a merely informal estimate as CM exit.
 proved, and it does not spend an unproved estimate as CM exit.
