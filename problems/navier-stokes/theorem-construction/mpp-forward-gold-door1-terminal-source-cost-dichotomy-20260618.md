@@ -6,6 +6,12 @@ Status: proved dichotomy for the Door 1 shadow-ledger source marginal.  This
 does not prove `Door1TerminalSourceTimeAntiAtom.A`; it identifies the exact
 remaining production alternatives.
 
+2026-06-18 continuation: `mpp-forward-gold-door1-same-shadow-super-l1-residence-attempt-20260618.md`
+checks the super-`L1_s` side directly.  Same-shadow bookkeeping does not itself
+upgrade finite `L1_s` source mass to super-`L1_s` residence; the density/price
+children are `Door1PositiveActiveCarlesonReserve.A`,
+`Door1SourceDensityReverseHolder.A`, and `Door1TerminalTimePriceLedger.A`.
+
 Role: continue from
 
 ```text
