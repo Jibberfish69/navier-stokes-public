@@ -365,15 +365,40 @@ Indeed, `(FCP.3w)` implies either `(FCP.3h)` or `(FCP.3n)` with
 
 ### Automatic Capwise Square-Function Control
 
-Because the cap partition is smooth and finite overlap on one resonant shell,
-the capwise pieces satisfy the standard finite-overlap square-function bound
+The capwise square-function step uses the explicit multiplier overlap
+hypothesis, not an unrecorded "standard" import. For the shell-cap multipliers
+`\Delta_{j,\omega}` assume the smooth partition satisfies, on the active shell,
+
+```math
+\sum_\omega |\psi_{j,\omega}(\xi)|^2\le C_{\mathrm{fo}}
+\qquad\text{for all }\xi
+\text{ in the }j\text{-shell.}
+\tag{FCP-sq0}
+```
+
+Equivalently, the active cap cover has uniformly bounded overlap after the
+fixed smooth bump enlargement used to define the Fourier multipliers. For every
+shell-supported field `h_j`, Plancherel gives
+
+```math
+\sum_\omega \|\Delta_{j,\omega}h_j\|_{L^2_a}^2
+=
+\int
+\sum_\omega |\psi_{j,\omega}(\xi)|^2|\widehat h_j(\xi)|^2\,d\xi
+\le
+C_{\mathrm{fo}}
+\|h_j\|_{L^2_a}^2.
+\tag{FCP-sq}
+```
+
+Thus the exact capwise square-function bound is
 
 ```math
 \sum_\omega \|h_{j,\omega}\|_{L^2_a}^2
 \le C_{\mathrm{fo}}
 \|h_j\|_{L^2_a}^2
 \qquad\text{for every shell field }h_j.
-\tag{FCP-sq}
+\tag{FCP-sq'}
 ```
 
 So the only additional ledger comparison needed for `(FCP.3o)` is the
@@ -383,10 +408,11 @@ same-depth-to-shell dominance on the chosen carrier:
 \|h_j\|_{L^2_a}
 \le C_{\mathrm{sd}}
 \|h_j\|_{\mathsf{SameDepth}_j}.
-\tag{FCP-sq'}
+\tag{FCP-sq''}
 ```
 
-Under `(FCP-sq')`, the square-function hypothesis `(FCP.3o)` is automatic.
+Under `(FCP-sq')` and `(FCP-sq'')`, the square-function hypothesis `(FCP.3o)`
+is automatic.
 
 There is also a sharper dyadic sufficient route from `(FCP.3b)` to the stronger
 same-depth target `(FCP.3c)`. Once `(FCP.3o)` is automatic, only the dyadic
