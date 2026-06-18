@@ -4,7 +4,7 @@
 
 Conditional theorem-note attempt for `PCTP.hard`.
 
-This note records the strongest noncircular solve route I can currently extract from the MCP surfaces. It reduces the terminal-tail theorem to one analytic supplier: an averaged ACT budget theorem on SCF-good moving cylinders, plus its terminal finite-cover globalization.
+This note records the strongest noncircular solve route I can currently extract from the MCP surfaces. It reduces the terminal-tail theorem to the same-tail field-admission input, an averaged ACT budget theorem on SCF-good moving cylinders, and the terminal finite-cover globalization.
 
 ## Target
 
@@ -33,6 +33,7 @@ The intended order is
 OriginalSmoothData
 \Longrightarrow
 SCF_{base}+SGC.A_{a.e.}+ATD_m^\varepsilon
+\ +\ SCFBaseLocalModulus_N
 \Longrightarrow
 SCF_{avg}^m
 \Longrightarrow
@@ -58,6 +59,8 @@ End_{NS}.
 ```
 
 This order keeps `READ.COVER` terminal. It enters only after `End_NS_avg`.
+The same-tail `SCFBaseLocalModulus_N` input is upstream of `SCF_avg^m`; it is
+not supplied by `READ.COVER` or by the later pointwise readout layer.
 
 ## Lemma 1: endpoint-free branch split
 
@@ -145,19 +148,22 @@ CFI.A_{avg}+AVG.END.Cert
 End_{NS,avg}.
 ```
 
-Finally `AVG.MAIN.A + READ.END` gives
+Finally the downstream readout layer gives
 
 ```math
-End_{NS,avg}\Longrightarrow READ.COVER\Longrightarrow Field.Read+DTC.Read\Longrightarrow End_{NS}.
+End_{NS,avg}+READ.COVER+Field.Read+DTC.Read
+\Longrightarrow End_{NS}.
 ```
 
 This closes the old pointwise endpoint matrix in the valid terminal order.
 
 ## Conditional theorem
 
-If the averaged ACT theorem and its terminal finite-cover globalization hold on the face-free branch, then `PCTP.hard` follows.
+If the same-tail `SCFBaseLocalModulus_N` input, the averaged ACT theorem, and
+the terminal finite-cover globalization hold on the face-free branch, then
+`PCTP.hard` follows.
 
-Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, `Jump`, or `response-margin-collapse` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds, while the Part closedness row may be spent only with the retained response-margin or closed-predicate input. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS`. The endpoint matrix excludes every first finite endpoint face. This contradicts first finite class exit and supplies the terminal-tail retained `H^s`, `s>5/2`, readout. The `H^s` relaunch criterion then gives a common preterminal restart lifespan and continues the same smooth solution past `T_*`.
+Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, `Jump`, or `response-margin-collapse` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds, while the Part closedness row may be spent only with the retained response-margin or closed-predicate input. The same-tail modulus admits the retained Field row into the averaged Field row on this terminal tail. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS_avg`, and the terminal readout layer gives `End_NS`. Only after that point does the pointwise endpoint matrix exclude every first finite endpoint face. This contradicts the first finite class exit supplied by `ECQ.A`. The terminal-tail retained `H^s`, `s>5/2`, readout is supplied by `End_NS` and the continuation bridge; `PCTP.cond` then gives a common preterminal restart lifespan and continues the same smooth solution past `T_*`.
 
 ## Attempted discharge of AACT.KX
 
