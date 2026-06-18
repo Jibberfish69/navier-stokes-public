@@ -117,7 +117,7 @@ The reverse arrows are not installed by this note.  The source/no-pulse labels
 are route-map names for the same unresolved atom, not proof-equivalent theorems
 that may be substituted without a conversion result.
 
-`FFSRC.A=>FCI.5f` remains installed for the downstream collar/source consumer,
+`Hyp(FFSRC.A)=>FCI.5f` remains installed for the downstream collar/source consumer,
 but it does not prove `SignedLocalSource.A`.
 
 ## Verdict
@@ -154,7 +154,7 @@ LocalActiveCarleson.A.
 The direct original-data attempt is recorded in
 `mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md`.  It shows
 that original smoothness, finite energy, pressure Poisson structure, compact
-preterminal regularity, and the downstream `FFSRC.A=>FCI.5f` source ledger do
+preterminal regularity, and the downstream `Hyp(FFSRC.A)=>FCI.5f` source ledger do
 not imply the signed/local source theorem.  The direct target first splits into:
 
 ```math
