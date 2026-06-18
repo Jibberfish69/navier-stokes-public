@@ -124,8 +124,9 @@ where `\Pi_{N,m}^{edge}` is a fixed-offset same-scale edge packet.
 
 ### Proof
 
-Because `b_{\ell,m}` is divergence-free, the standard coarse energy-flux
-identity applies in the scalarized pairing channel:
+Because `b_{\ell,m}` is divergence-free, integration by parts in the
+coarse-grained energy flux leaves only the commutator stress in the scalarized
+pairing channel:
 
 ```math
 \left\langle
@@ -138,6 +139,8 @@ P_{\le \ell}u
 \tag{4}
 ```
 
+Here
+`\tau_\ell(b_{\ell,m},u):=(b_{\ell,m}u)_{\le\ell}-b_{\ell,m}u_{\le\ell}`.
 Since `b_{\ell,m}` is supported in
 `c_m\ell^{-1}\le|\xi|\le C_m\ell^{-1}`, only the edge-band part of
 `\nabla u_{\le \ell}` contributes inside the scalarized pairing. As in

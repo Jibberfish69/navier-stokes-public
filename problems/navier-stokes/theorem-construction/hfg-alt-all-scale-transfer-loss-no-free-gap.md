@@ -58,7 +58,7 @@ In the vorticity shell identity, the low-high stretching term contains
 \langle \Delta_j((S_{j-1}\omega)\cdot\nabla S_{j-1}u),\Delta_j\omega\rangle
 ```
 
-and after the usual commutator/paraproduct localization its size is bounded by
+and the localized low-high paraproduct estimate gives the explicit bound
 
 ```math
 C\|\nabla S_{j-1}u(t)\|_\infty\|\Delta_j\omega(t)\|_2^2.

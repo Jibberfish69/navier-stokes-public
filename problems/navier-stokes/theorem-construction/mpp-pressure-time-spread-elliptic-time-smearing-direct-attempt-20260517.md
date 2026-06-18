@@ -50,7 +50,15 @@ Thus elliptic recovery gives spatial smearing, not temporal smearing.
 
 ## 2. Local energy time test
 
-Local energy inequalities integrate pressure work in time. For the selected pressure-sustain residue, the needed bound is super-`L^1_t` or positive time thickness on the terminal pressure measure. Local energy gives only the standard pressure-work integrability paired with cutoffs and velocity. After positive directional selection and terminal weights, it returns to active-square/source-strength estimates or pressure-source carrier control.
+Local energy inequalities integrate pressure work in time. For the selected pressure-sustain residue, the needed bound is super-`L^1_t` or positive time thickness on the terminal pressure measure. Local energy gives only the cutoff-paired pressure work term
+
+```math
+\iint p\,u\cdot\nabla\phi
+```
+
+under the local energy integrability available for \(p\), \(u\), and the cutoff
+\(\phi\). After positive directional selection and terminal weights, it returns
+to active-square/source-strength estimates or pressure-source carrier control.
 
 Thus local energy does not prove the desired time-spread estimate.
 

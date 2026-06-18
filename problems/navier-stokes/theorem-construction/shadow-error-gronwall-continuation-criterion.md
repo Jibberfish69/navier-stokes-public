@@ -5,8 +5,9 @@
 This note records the clean continuation criterion behind the weaker shadow
 branch.
 
-Instead of a quartic energy inequality, it uses the standard transport
-commutator estimate to put the shadow remainder into a direct Gronwall form.
+Instead of a quartic energy inequality, it uses the displayed transport
+commutator estimate `(3)` to put the shadow remainder into a direct Gronwall
+form.
 
 ## Forced classical equation
 
@@ -32,7 +33,18 @@ Set
 
 Apply `\Lambda^\sigma` to `(1)` and pair with `\Lambda^\sigma u`.
 
-Because `u` is divergence-free, the `H^\sigma` Sobolev commutator bound gives
+Because `u` is divergence-free, the exact decomposition is
+
+```math
+\langle \Lambda^\sigma((u\cdot\nabla)u),\Lambda^\sigma u\rangle
+=
+\langle[\Lambda^\sigma,u\cdot\nabla]u,\Lambda^\sigma u\rangle
++
+\langle u\cdot\nabla\Lambda^\sigma u,\Lambda^\sigma u\rangle,
+```
+
+and the last term vanishes.  The Kato--Ponce commutator bound for
+`\sigma>3/2` gives
 
 ```math
 \big|

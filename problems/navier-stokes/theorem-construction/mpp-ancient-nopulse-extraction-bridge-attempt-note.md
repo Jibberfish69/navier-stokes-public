@@ -157,8 +157,17 @@ on every unit-scale competitor in the rescaled same-fluid class.
 
 ## Compactness Package
 
-The local energy inequality, local pressure decomposition, and standard
-scale-critical compactness on fixed backward cylinders should extract
+The local energy inequality and local pressure decomposition supply uniform
+scale-critical bounds on each fixed backward cylinder:
+
+```math
+v_n \text{ bounded in } L^\infty_sL^2_y(Q_R^-)\cap L^2_sH^1_y(Q_R^-),
+\qquad
+p_n \text{ bounded in } L^{3/2}(Q_R^-),
+```
+
+together with the negative-Sobolev time-derivative bound needed for
+Aubin--Lions.  Those bounds should extract
 
 ```math
 v_n\rightharpoonup v

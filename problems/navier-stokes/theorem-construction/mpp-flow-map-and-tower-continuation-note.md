@@ -301,8 +301,24 @@ finite.
 
 ## Sobolev Tower Witness
 
-Apply `\Lambda^s=(1-\Delta)^{s/2}` to Navier--Stokes and use the standard
-commutator estimate for `s>5/2`. Then
+Apply `\Lambda^s=(1-\Delta)^{s/2}` to Navier--Stokes.  Since
+`\nabla\cdot u=0`,
+
+```math
+\langle \Lambda^s((u\cdot\nabla)u),\Lambda^s u\rangle
+=
+\langle[\Lambda^s,u\cdot\nabla]u,\Lambda^s u\rangle,
+```
+
+and the Kato--Ponce commutator estimate for `s>5/2` gives
+
+```math
+\big|\langle[\Lambda^s,u\cdot\nabla]u,\Lambda^s u\rangle\big|
+\le
+C_s\|\nabla u\|_{L^\infty}\|u\|_{H^s}^2.
+```
+
+Therefore
 
 ```math
 \frac12\frac{d}{dt}\|u(t)\|_{H^s_x}^2
