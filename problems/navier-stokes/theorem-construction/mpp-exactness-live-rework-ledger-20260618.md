@@ -3461,6 +3461,79 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-lifted-skew-commutator-attempt-20260505.md`.
 
+## Parabolic Cubic Normal-Form Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said a "formal
+  parabolic normal form" cancels `\mathcal C_{3,N}` and then wrote the
+  derivative of `\mathcal B_{3,N}` as though the displayed cancellation were
+  already a full Navier-Stokes cancellation.
+- `theorem-construction/mcp-paraboliccubicnormalform-a-paraboliccubicnormalform-a-attempt-for-scalecriticaltreecarleson-a-a6b0996aeb.md`
+  called the canceled term the "formal heat-linear cubic source."
+
+Exact replacement:
+
+The live surfaces now state that the normal form supplies only the heat-linear
+homological cancellation.  With
+
+```math
+m_\alpha
+:=
+\frac{\text{symbol of }\mathcal C_{3,N}}
+{\nu(|\xi_1|^2+|\xi_2|^2+|\xi_3|^2)},
+```
+
+the exact cancellation is
+
+```math
+\left.\frac{d}{dt}\mathcal B_{3,N}\right|_{\partial_tu=\nu\Delta u}
+=-\mathcal C_{3,N}.
+```
+
+For Navier-Stokes, the corrected Bellman is only
+
+```math
+\frac{d}{dt}\mathcal B_N(t)+c_0\mathcal A_N(t)
+\le \mathcal R_{4,N}(t)+\mathcal L_N(t),
+\qquad
+\mathcal A_N(t):=\sum_{j\ge N}2^{-j}D_j(t)^2.
+```
+
+Proof or remaining burden:
+
+The heat-linear homological equation is exact.  The nonlinear derivative
+creates the quartic active-tree remainder
+
+```math
+|\mathcal R_{4,N}(t)|
+\le
+C_{4,NF}\mathfrak S_N(t)\mathcal A_N(t)+\mathcal L_{4,N}(t),
+```
+
+so closure requires the coefficient-weighted active-square estimate
+
+```math
+\int_I\mathfrak S_N(t)\mathcal A_N(t)\,dt
+\le
+\theta\int_I\mathcal A_N(t)\,dt+o_N(1)+\text{legal losses}.
+```
+
+That estimate is the terminal source-coherence / local positive source
+Carleson primitive, not a consequence of the normal form.
+
+Downstream consequence:
+
+Consumers may spend the cubic normal form only as a reduction from the raw
+cubic source to terminal active-tree coefficient control.  They may not infer
+`ScaleCriticalTreeCarleson.A` or active-square summability from the normal-form
+construction without the displayed product estimate.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-paraboliccubicnormalform-a-paraboliccubicnormalform-a-attempt-for-scalecriticaltreecarleson-a-a6b0996aeb.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
