@@ -280,14 +280,16 @@ L^\infty(0,T;L^2_\sigma)\cap L^2(0,T;H^1_\sigma)
 and
 
 ```text
-\partial_tX_n \text{ is bounded in } L^2(0,T;H^{-1}_\sigma),
+\partial_tX_n \text{ is bounded in } L^1(0,T;H^{-1}_\sigma)
+\text{, or more generally in } L^1+L^2 \text{ with values in }H^{-1}_\sigma,
 ```
 
 then:
 
 1. On `\mathbb T^3`, the embedding `H^1_\sigma\hookrightarrow L^2_\sigma` is
-   compact, so Aubin--Lions gives strong convergence in `L^2(0,T;L^2_\sigma)`.
-2. On `\mathbb R^3`, Aubin--Lions gives strong convergence in
+   compact, so Aubin--Lions--Simon gives strong convergence in
+   `L^2(0,T;L^2_\sigma)`.
+2. On `\mathbb R^3`, Aubin--Lions--Simon gives strong convergence in
    `L^2(0,T;L^2_{\mathrm{loc}})` and the energy tail bound globalizes the limit
    on the fixed admissible data class.
 
@@ -299,8 +301,8 @@ Incompressible Navier--Stokes Equations and Related Models*, Theorem II.5.16
 
 ## Theorem R1 (Carrier realization theorem)
 
-On the realized carrier above, the abstract axioms A1--A11 become standard
-facts of classical incompressible Navier--Stokes analysis.
+On the realized carrier above, the abstract axioms A1--A11 are identified with
+the following classical incompressible Navier--Stokes facts.
 
 ### Projection structure
 
