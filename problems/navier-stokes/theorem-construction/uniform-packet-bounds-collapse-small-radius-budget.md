@@ -152,7 +152,21 @@ so the compact-support bypass closes.
 
 ### Proof
 
-Immediate from `(UPB.9)` and `(UPB.10)`. ∎
+For every active point \(z\in\mathcal J\times I\), `(UPB.10)` gives
+\[
+r_J(z)^2\le \rho_J^2 .
+\]
+Integrating this pointwise bound against the finite active measure in
+`(UPB.9)` gives
+\[
+\int_I\int_{\mathcal J} r_J(z)^2\,d\mu_J^{pair}(a,b)\,dt
+\le
+\rho_J^2\,\mu_J^{pair}(\mathcal J\times I)
+\le
+\mathfrak m_\ast\rho_J^2 .
+\]
+Since \(\mathfrak m_\ast<\infty\) is fixed and \(\rho_J\to0\), the right-hand
+side is \(o_J(1)\). ∎
 
 ## Interpretation
 
