@@ -398,7 +398,7 @@ it is not an independent closed supplier.
 
 The pre-Cauchy bypass `LocalSource.NoPulse.A` is audited directly in
 `mpp-localsource-nopulse-direct-attempt-note.md`.  That note separates it from
-the downstream supplier `FFSRC.A=>FCI.5f`: source integrability for a frozen
+the downstream supplier `Hyp(FFSRC.A)=>FCI.5f`: source integrability for a frozen
 family is not bad-set vanishing of the active local source.  The bypass reduces
 to one of
 
