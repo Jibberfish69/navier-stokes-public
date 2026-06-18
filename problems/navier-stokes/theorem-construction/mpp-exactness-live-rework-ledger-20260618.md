@@ -4721,6 +4721,65 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md`.
 
+## Live Manuscript Standard-Step Repair
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said that the local
+  carrier theory follows the "familiar semigroup pattern." That phrase was
+  doing proof work: it bridged from the carrier hypotheses to local existence
+  and continuation without naming the fixed-point map, constants, contraction
+  hypothesis, or relaunch criterion.
+- The same appendix said that "familiar Navier--Stokes facts" supply the
+  realized carrier inputs. That left the reader to infer which classical facts
+  were actually being imported.
+- `submission-bundle/navier-stokes-submission.tex` said that a branch can
+  explain which requirement a "familiar mechanism" attacks. The proof role is
+  not familiarity; it is same-terminal-record entry through a proved Pack,
+  Part, Field, or continuation readout outcome.
+
+Exact replacement:
+
+The appendix now states the mild fixed-point map
+\[
+  \Phi_X(t)
+  =
+  e^{-tA_D}X_0
+  +\int_0^t e^{-(t-\tau)A_D}
+    \bigl(R_DX(\tau)-P_DN_D(X(\tau))\bigr)\,d\tau ,
+\]
+then names the hypotheses spent: analytic semigroup bounds for \(A_D\),
+boundedness of \(R_D\), and a finite local Lipschitz constant \(L_M\) for
+\(P_DN_D\) on the \(C([0,T];H_D^1)\) ball of radius \(M\). Choosing
+\(T=T(M,A_D,R_D,L_M)\) small gives the contraction; retention in
+\(\mathcal R\) follows because each term is projected to \(\mathcal R\); and
+continuation is exactly the relaunch criterion under
+\(\sup_{t<t_*}\|X(t)\|_{H_D^1}<\infty\).
+
+The realized-carrier paragraph now lists the actual imported classical inputs:
+the Fourier-multiplier Stokes semigroup, the displayed
+\(H^1_\sigma\times H^1_\sigma\to H^{-1}_\sigma\) bilinear bound, Leray
+projection commutation on the divergence-free sector, pressure Poisson
+recovery with the declared normalization, and the compactness hypothesis stated
+below.
+
+The main proof branch proposition now states that a branch family has proof
+force only after it names the terminal record and proves which requirement is
+lost or which continuation readout survives for that same record.
+
+Downstream consequence:
+
+Later carrier, branch-coverage, and source-field reader passages may cite the
+local carrier theory only through the displayed fixed-point hypotheses and
+relaunch criterion. Branch-family prose may not spend a mechanism label, route
+name, or familiar source as proof force unless the same terminal record and the
+proved Pack/Part/Field/readout outcome are named.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `submission-bundle/navier-stokes-submission.tex`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
