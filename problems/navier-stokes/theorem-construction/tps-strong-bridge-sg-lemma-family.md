@@ -829,8 +829,8 @@ C_{\mathrm{loop}}^\star C_{\mathrm{harm}}^\star
 \tag{SG.4Pj}
 ```
 
-and `(SG.4Pa)` holds with the canonical budget `(SG.4Pe)`, hence the renewal
-package closes exactly as in `SG.4P`.
+and `(SG.4Pa)` holds with the canonical budget `(SG.4Pe)`. These are the
+renewal-package hypotheses used by `SG.4P`.
 
 On the cycle-exact branch, the hypotheses are the directional estimate
 `(SG.4Pf)` and the vanishing ledgers
@@ -848,8 +848,8 @@ The pair-defect packet identifies `(SG.4Pf)`-`(SG.4Pi)` with the split
 observability family `(PD.70z6)`-`(PD.70z9)`, hence gives the residual pairwise
 closure `(PD.70z10)`. That is the stripwise form of `(PD.70s)`, so
 `TPS-selector-defect-budget` supplies `(PD.70aa)`, which is exactly `(SG.4Pe)`.
-Therefore `(SG.4Pa)` is available on the same strip family and the proof of
-`SG.4P` applies verbatim.
+Therefore `(SG.4Pa)` is available on the same strip family, and `SG.4P` is
+invoked with the canonical budget `(SG.4Pe)`.
 
 If the active pair-gap cocycle is cycle-exact, the harmonic and loop ledgers
 vanish:
