@@ -18,7 +18,9 @@ finite Clay breakdown witness
 ```
 
 The active working sweep installed the torus global material-atlas capture
-proof and demoted unresolved branch-family support from proof-bearing status.
+proof and reclassified unresolved branch-family rows as support with no
+proof-bearing status unless a same-atlas Pack/Part/Field face derivation is
+proved.
 Two submission-level blockers remain: the manuscript proof spine must be
 rewritten around the global atlas object, and any full `R^3` Clay claim needs a
 separate whole-space export theorem.

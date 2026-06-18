@@ -46,7 +46,7 @@ continuum cumulative-tail stress theorem `(CTS)`:
 Why this route is preferred:
 
 1. it keeps the obstruction in a native continuum two-scale form;
-2. it preserves the lower-prefix geometry without immediate collapse to the
+2. it preserves the lower-prefix geometry without premature collapse to the
    harsher dyadic square;
 3. it interfaces directly with the far-corona / middle-band route;
 4. it is local enough to remain a realistic Body `1` repair target.
@@ -138,9 +138,9 @@ r\partial_r T_r = \tau_{r/c_1}^{H^1}[u].
 
 So the Volterra language matches the object at birth.
 
-## 5. Immediate formalization target
+## 5. Current Formalization Target
 
-The immediate formal move is:
+The current formal move is:
 
 1. write the far-corona / cumulative-tail object as a one-sided Volterra
    primitive on the classical solution;
@@ -251,9 +251,8 @@ genuine large-gap work only on the far-corona `CTS` / `LPAS` surface.
 
 The far-corona side is now packaged separately in
 [far-corona-cts-lpas-execution-program.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/far-corona-cts-lpas-execution-program.md):
-the exact continuum debt remains `CTS`, but the immediate local theorem-engine
-surface is the dyadic shadow `LPAS`, which is the correct Hardy/Volterra work
-surface.
+the exact continuum debt remains `CTS`, while the dyadic shadow `LPAS` is the
+Hardy/Volterra work surface selected by the inherited reduction.
 
 ## Working conclusion
 

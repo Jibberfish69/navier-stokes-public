@@ -26,7 +26,7 @@
 
 ## Paragraph Movement Map
 - `role:` orient
-  `core_move:` Name the proof program immediately as CM contrapositive class exit from an alleged finite Clay terminal witness.
+  `core_move:` Name the proof program directly as CM contrapositive class exit from an alleged finite Clay terminal witness.
   `must_keep:` finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | CM contrapositive class-exit program | `Exit(Q):=not Member(Q)`
   `avoid:` torus-first opening | `Q(t)` opening | periodic branch as first story
 - `role:` entry

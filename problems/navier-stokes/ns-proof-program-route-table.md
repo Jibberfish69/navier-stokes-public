@@ -153,7 +153,7 @@ deformation drain
 -> endpoint exclusion
 ```
 
-The immediate theorem-facing question is narrower:
+The current theorem-facing question selected by the displayed route map is narrower:
 
 ```text
 Can deformation geometry or tower control prove the remaining receiver/collar
@@ -163,6 +163,10 @@ theorem feeding LCI.A?
 That is the best contact point because the source side already has an organized
 near-closure package, while the live burden returns to the receiver side once
 the strengthened source branch is granted.
+
+This route table gives no proof force to urgency or immediacy.  The downstream
+burden is the exact receiver/collar theorem named below; a later surface must
+prove the stated implication rather than cite this row as a shortcut.
 
 The sharpened theorem-facing version is now:
 

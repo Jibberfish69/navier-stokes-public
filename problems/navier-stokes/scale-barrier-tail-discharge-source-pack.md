@@ -1,6 +1,6 @@
 # Scale-Barrier Tail Discharge Source Pack
 
-Archived theorem-construction residue. The live theorem side has since discharged this burden on the primary full-claim surface; this note records the former local debt only.
+Historical theorem-construction source pack. Despite the filename, the live theorem side has not discharged this burden: the current exact tail lemma is conditional on packet alignment, lifted-band flux, and a tail-compatible Gronwall coefficient bound. This note records the former discharge target and may not be used as closure evidence.
 
 ## Target Obligation
 
@@ -35,9 +35,9 @@ Let `P_j` be homogeneous Littlewood-Paley projectors and `P_(>=N) := \sum_{j >= 
 - codomain: a nonnegative tail-defect scalar `\mathfrak{S}_N[u^(n)]`
 - admissibility: classical Euclidean Navier-Stokes only; no hyperviscosity, filtering, or geometric surrogate
 - invariance: insensitive to pressure gauge and stable under equivalent dyadic partitions
-- theorem interface: if `\sup_n \mathfrak{S}_N[u^(n)] <= C_0 2^{-2\delta N}`, then the scale-barrier bridge is discharged on the same approximation surface
+- theorem interface: if `\sup_n \mathfrak{S}_N[u^(n)] <= C_0 2^{-2\delta N}` and the tail-compatible Gronwall coefficient bound from `theorem-construction/scale-barrier-tail-lemma.md` is supplied, then the scale-barrier bridge is discharged on the same approximation surface
 - critical_scale_measure: high-frequency energy tail `E_N^(n)` and dissipation tail `\sum_{j >= N} 2^{2j}\|P_j u^(n)\|_{L^2_x}^2`
-- closure_mechanism: absorb the defect into viscous dissipation and leave a summable remainder
+- closure_mechanism: absorb the defect into viscous dissipation, control the Gronwall coefficient without losing the tail exponent, and leave a summable remainder
 - gradient_transfer: feed the remainder `C_*2^{-2\delta N}` into the gradient-transfer operator
 - transport_defect_split: low-high / high-low / high-high decomposition on the same classical approximation family
 
@@ -103,7 +103,7 @@ The readable part of the route is:
    `int_0^T sum_{j >= N} (|<\mathcal{T}^{SLH}_{j,n}, P_j u^(n)>| + |<\mathcal{T}^{SHL}_{j,n}, P_j u^(n)>|) dt <= C int_0^T \mathcal{L}_N^(n)(t) E_N^(n)(t) dt + eps int_0^T D_N^(n)(t) dt`.
 2. Replacing `S_{j-4}` by `S_{N-4}` creates a repaired high-side packet split: a threshold-local spill collar tracked by `theorem-construction/scale-spill-reduction-lemma.md`, plus a lifted high-side remainder tracked by `theorem-construction/scale-high-side-remainder-packet.md`.
 3. The genuine high-high packet is kept separate from that lifted remainder and is tracked in `theorem-construction/scale-genuine-high-high-packet.md`.
-4. The transport-defect estimate is complete only after the threshold-local spill collar, the lifted high-side remainder, and the genuine high-high packet are all aligned on the same classical approximation family, uniformly in `n` and `N`.
+4. The transport-defect estimate is complete only after the threshold-local spill collar, the lifted high-side remainder, the genuine high-high packet, and the tail-compatible Gronwall coefficient are all aligned on the same classical approximation family, uniformly in `n` and `N`.
 
 For this decomposition, use
 
@@ -142,7 +142,7 @@ This is the exact bounded object passed downstream to compactness and gradient t
 1. Apply `P_j` to the classical equation and pair with `P_j u^(n)`.
 2. Sum over `j >= N`; pressure vanishes after Leray projection and divergence-free pairing.
 3. Isolate the nonlinear transport contribution as the only non-dissipative high-mode term.
-4. Prove the dyadic flux bound above with low-mode factors controlled by the uniform classical energy/enstrophy budget.
+4. Prove the dyadic flux bound above with the low-mode coefficient controlled strongly enough that the Gronwall factor preserves the summable high-frequency tail; the uniform classical energy/enstrophy budget alone is not this control.
 5. Absorb the `\eta`-weighted dissipation portion into the viscous term to close the tail inequality.
 6. Integrate in time and pass to the uniform `n` bound.
 
@@ -154,9 +154,9 @@ This is the exact bounded object passed downstream to compactness and gradient t
 
 ## Still Conditional
 
-The unresolved step is the actual proof of the dyadic transport/flux inequality on the classical equation with constants uniform in `n` and `N`. Until that estimate is derived, this remains a conditional bridge package, not a discharged theorem component.
+The unresolved steps are the actual proof of the dyadic transport/flux inequality on the classical equation with constants uniform in `n` and `N`, and the tail-compatible Gronwall coefficient bound. Until those estimates are derived, this remains a conditional bridge package, not a discharged theorem component.
 
-The exact residual local debt is: `Classical dyadic transport defect bound for the scale-barrier functional`.
+The exact residual local debt is: `Classical dyadic transport defect bound for the scale-barrier functional plus tail-compatible Gronwall coefficient bound`.
 
 More precisely, the strict low-mode pieces are no longer the only live frontier, but the threshold-local spill collar and the repaired high-side packet remain theorem-critical. The genuine high-high packet is tracked in `theorem-construction/scale-genuine-high-high-packet.md`, while the lifted remainder is tracked in `theorem-construction/scale-high-side-remainder-packet.md`.
 

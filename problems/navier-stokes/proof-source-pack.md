@@ -164,7 +164,7 @@ ontic projected-flow theorem, exact lift package, classical corollary.
 
 These files are not the direct theorem-bearing base for Navier-Stokes, but they
 do contain bridge language and loop-level synthesis that should be imported into
-lane-local notes immediately when useful.
+lane-local notes when they sharpen a named Navier-Stokes bridge.
 
 ## Marvin Source 1
 - Path: `/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex`
@@ -342,5 +342,5 @@ lane-local notes immediately when useful.
 The direct proof-bearing base remains the legacy NS corpus.
 Marvin/V6 is now wired into the lane as a live synthesis import family.
 If future direct NS-bearing files appear under the V6 tree, they should be
-added immediately to `authoritative-source-discovery.yaml` and promoted ahead of
-mere synthesis notes.
+added to `authoritative-source-discovery.yaml` after verification and promoted
+ahead of mere synthesis notes.

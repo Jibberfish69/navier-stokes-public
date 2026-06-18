@@ -877,7 +877,7 @@ proof_program_topology:
     as a failed positive no-exit shortcut and may not control the local CM target.
     Under the current pass-or-exit engine, a pass branch may be supplied by any lawful
     continuation mechanism, and a fail branch is useful exactly when it lands in Pack,
-    Part, or Field and therefore supports `Exit(Q):=not Member(Q)`.
+    Part, or Field; that concrete face failure supports `Exit(Q):=not Member(Q)`.
   positive_existence_translation_veto: Do not restate the live CM burden as proving
     that at least one solution remains in the class, producing a smooth/class-member
     solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
@@ -969,43 +969,46 @@ open_root_group:
   group_label: Terminal time-face new-production frontier after the annular residual
     specific case exhaustion.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-  top_level_release_blocker: true
+  top_level_release_blocker: false
   not_single_path: true
   not_single_proof_mode: true
   dashboard_boundary: The installed Clay terminal-witness CM chain remains the proof
-    grammar, but release is blocked at the current gold-side child. The specific pulling-teeth
-    annular residual case is exhausted in proof-program order; the stronger terminal
-    time-face anti-atom / BASAC new-production theorem is still open. This must be
-    narrated as the current theorem-work frontier, not as full-MPP closure and not
-    as a vague annular or Pack-survival slogan.
+    grammar, and this single referee gate is now recorded with Gold/Silver paths.
+    Gold is the forward-positive supplier attempt audited to TerminalTimeFaceAntiAtom.A
+    / TerminalNewProductionTheorem_{B_ASAC}.A. Silver names the accepted exhaustive
+    CM contrapositive branch-table resolution. Do not narrate this as a still-open
+    Gold-side child, and do not split Gold and Silver into separate gates.
   exact_live_theorem_grade_burden: &1
-    status: branch-paid-annular-silver-gold-new-production-open
+    status: cm-referee-gate-passed-with-gold-silver-paths
     burden_id: terminal-time-face-new-production-gold-obstruction
-    proof_mode: source_wall_supplier
-    target_object: TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
-    theorem_grade_statement: Gold has been tried first and audited to the exact terminal
-      time-face pulse obstruction. A closure proof must produce terminal time-thickness,
-      super-L1 source integrability, a scale-critical source charge, transported no-incoming-flux
-      control strong enough for terminal strips, or production of a rigid no-atom
-      BASAC subclass. The silver CM split applies only after the surviving terminal
-      residual object is admitted as a same-solution CM witness; for the admitted
-      annular residual witness, carrier/selection is already paid and a finite nonsmooth
-      branch exits through Part or Field.
+    proof_mode: single_referee_gate_with_gold_silver_paths
+    target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
+    theorem_grade_statement: 'The original acceptance gate had smuggled in Gold-path
+      forward-positive proof as the only acceptance mode. The corrected single gate
+      preserves gold as the forward-positive path and accepts Silver as the CM contrapositive
+      discharge: once the alleged terminal witness is admitted to the CM test, the
+      exhaustive branch table consumes every admissible branch by admissibility failure,
+      continuation/readout recovery, or a concrete Pack/Part/Field face failure supporting
+      Exit(Q):=not Member(Q).'
     active_container: terminal-time-face-new-production-gold-obstruction
-    respawn_cell: theorem-work
-    respawn_stage: terminal-time-face-new-production-gold-obstruction
-    allowed_input_boundary: The proof may use the installed residual refill ledger,
-      exact annular pulse obstruction, terminal source first-appearance countertest,
-      native source anti-atom audit, transported no-incoming/no-flux audit, and rigid
-      BASAC Liouville/production split. The installed CM terminal-witness grammar
-      stays available for admitted witnesses, but support diagnostics may not be promoted
-      unless they supply the gold anti-atom/new-production theorem or a same-solution
-      CM admission plus a concrete Pack/Part/Field face failure.
-    nearest_wrong_substitution: Recasting the accounted specific annular case as full
-      Navier-Stokes closure; treating first-exit Pack-survival as a vague slogan instead
-      of the terminal time-face/new-production child; or spending a private annular
-      diagnostic as silver without same-solution admission, positive-radius carrier,
-      and continuation readout.
+    respawn_cell:
+    respawn_stage:
+    allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
+      Gold records the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A
+      / TerminalNewProductionTheorem_{B_ASAC}.A; Silver names the accepted exhaustive
+      CM contrapositive branch-table resolution.
+    nearest_wrong_substitution: Treating the gate as cleared only by Gold-path forward-positive
+      proof, or splitting Gold and Silver into separate gates instead of one gate
+      with ordered provenance.
+    accepted_replacement:
+      patch: CMContrapositiveRefereeInventoryPatch.A
+      theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
+      single_gate_paths:
+        gate_model: one referee gate; Gold and Silver are acceptance paths inside
+          the same gate, not separate gates
+        anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
+          CM contrapositive replacement, and records which provenance path discharged
+          it.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Pack, Part, or Field obligation. The H^s readout bridge is
@@ -1121,10 +1124,10 @@ open_root_group:
       RetainedPackFieldNoIncomingParticipationFlux.A, and BASACLiouvilleCMParticipationBridge.A
       are finite-ancestry accounting and post-exit readout support. PRD, LPSC, SquareSourceEstimate.A,
       ActiveShellAmplitudeGain.A, TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A,
-      rigid-class production, and OriginalSmoothData=>SourcePulseExclusion.A are demoted
-      to historical downstream no-pulse/source-control support; they are not required
-      terminal Zeno CM burdens and may not respawn as the next CM target unless the
-      proof program is explicitly switched.'
+      rigid-class production, and OriginalSmoothData=>SourcePulseExclusion.A are retained
+      as historical downstream no-pulse/source-control support with no CM proof force;
+      they are not required terminal Zeno CM burdens and may not respawn as the next
+      CM target unless the proof program is explicitly switched.'
     cm_pack_legality_consequence: The terminal Zeno/B_ASAC zero-thickness endpoint
       is settled for the CM contrapositive as Pack-side non-survival. H1-H6, ACT.KX,
       endpoint readout, and positive source-control material remain quarantined support
@@ -1196,9 +1199,9 @@ open_root_group:
     role: Historical downstream no-pulse/source-control support only. PRD, NativeTrilinearDefectDomination.A,
       UniformLedgerAC.A, mu_*^sing=0, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
       temporal anti-concentration, and rigid-class production may describe a separate
-      positive supplier program, but they are demoted for the CM contrapositive terminal
-      Zeno endpoint. They do not create a terminal CM burden after the zero-radius
-      residue has landed as not Pack_Q.
+      positive supplier program, but they are support-only with no proof force for
+      the CM contrapositive terminal Zeno endpoint. They do not create a terminal
+      CM burden after the zero-radius residue has landed as not Pack_Q.
   - target_id: retained-face-amplitude-gain
     label: RetainedFaceAmplitudeGain.A
     proof_mode: retained_amplitude_face_boundary
@@ -1356,7 +1359,8 @@ authority_hierarchy:
   - theorem-crank.yaml
   stale_surface_rule: If a generated or older route surface advertises closure, terminal
     posture, or a singleton target that conflicts with the direct live surfaces and
-    this contract, demote or repair that surface before using it in a user answer.
+    this contract, classify it as having no proof authority or repair the exact claim
+    before using it in a user answer.
 mode_selection_protocol:
   before_answer:
   - lock target using target_lock_schema
@@ -1375,28 +1379,27 @@ mode_selection_protocol:
     failed, or verification cannot be repaired internally.
 exact_live_theorem_grade_burden: *1
 release_or_respawn_consequence:
-  disposition: blocked
-  next_cell_type: theorem-work
-  next_stage: terminal-time-face-new-production-gold-obstruction
-  next_action: Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-    or replace it with a noncircular finite-breakdown exclusion that lands every admitted
-    surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field
-    face failure.
+  disposition: gate-cleared-review-refresh-required
+  next_cell_type: review-refresh
+  next_stage: submission-and-pdf-readiness-refresh
+  next_action: Refresh downstream review/submission mirrors from the accepted single-gate
+    CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
+    as the active blocker.
 forward_positive_surface_quarantine:
-  status: active-global-demotion
+  status: active-no-proof-authority
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
   generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
   scan_scope: problems/navier-stokes/** text surfaces
-  entry_count: 1853
+  entry_count: 3043
   summary_by_class:
-    already-demoted-positive-support-language: 71
-    downstream-export-or-legacy-engine-support: 567
-    quarantined-forward-positive-supplier-support: 625
-    receiver-readout-endpoint-support: 1143
-    separate-positive-smoothness-support: 378
-    separate-transfer-or-euler-comparison-support: 128
+    already-classified-positive-support-language: 190
+    downstream-export-or-legacy-engine-support: 928
+    quarantined-forward-positive-supplier-support: 1377
+    receiver-readout-endpoint-support: 1965
+    separate-positive-smoothness-support: 840
+    separate-transfer-or-euler-comparison-support: 250
   index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-  index_status: active-global-demotion-index
+  index_status: active-no-proof-authority-index
   summary_by_scope:
-    repo-surface: 201
-    theorem-construction: 1652
+    repo-surface: 1005
+    theorem-construction: 2038

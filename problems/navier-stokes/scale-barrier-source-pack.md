@@ -1,6 +1,6 @@
 # Scale-Barrier Source-Pack
 
-Archived theorem-construction residue. The live theorem side has since discharged this burden on the primary full-claim surface; this note records the former local debt only.
+Historical theorem-construction source pack. The live theorem side has not discharged this burden: the current exact tail lemma is conditional on packet alignment, lifted-band flux, and the coefficient-weighted tail condition `sup_n T_N^(n)(0) exp(C int_0^T L_N^(n)) <= C_G 2^(-2 delta N)`. This note records the source-pack target and may not be used as discharge evidence.
 
 ## Target Obligation
 
@@ -13,7 +13,7 @@ Let `u^(n)` be a classical approximation family for the three-dimensional incomp
 
 `sup_n int_0^T ||P_(>= N) u^(n)(t)||_(L^2_x)^2 dt <= C_* 2^(-2 delta N)`
 
-for some `delta > 0`, `N_*`, and `C_*`, or an equivalent dyadic flux estimate strong enough to imply the same tail decay.
+for some `delta > 0`, `N_*`, and `C_*`, or an equivalent dyadic flux estimate strong enough to imply the same tail decay together with the displayed coefficient-weighted Gronwall condition exposed in `theorem-construction/scale-barrier-tail-lemma.md`.
 
 ## Mediating Object
 
@@ -33,7 +33,7 @@ If the classical scale-barrier functional satisfies the tail estimate above, the
 
 ## Remaining Missing Estimate
 
-The unresolved burden is a uniform Euclidean dyadic transport or flux estimate strong enough to bound cumulative nonlinear transfer into the high-frequency block by an absorbable dissipation fraction plus a summable remainder on the classical equation itself.
+The unresolved burden is a uniform Euclidean dyadic transport or flux estimate strong enough to bound cumulative nonlinear transfer into the high-frequency block by an absorbable dissipation fraction plus a summable remainder on the classical equation itself, plus the displayed coefficient control needed so Gronwall does not destroy the `2^{-2 delta N}` tail.
 
 Sharpening: the failed local repair routes identify the more precise obstruction class as one-sided scale-memory, not just generic high-frequency cascade. The preferred failed-route repair target is the continuum cumulative-tail stress theorem `(CTS)`, with `(LPAS)` as its dyadic shadow; see [one-sided-scale-memory-obstruction-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/one-sided-scale-memory-obstruction-note.md).
 

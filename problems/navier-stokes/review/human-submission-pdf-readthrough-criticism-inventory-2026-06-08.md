@@ -47,7 +47,7 @@ Actionable repair target:
   - `problems/navier-stokes/submission-bundle/source-frontier.yaml`
 - Source regions:
   - Main body near the "Remaining Closing Burden" / final main-body transition.
-  - Appendix entrance immediately after `\appendix`.
+  - Appendix entrance directly after `\appendix`.
 - Required result: the main body tells the referee exactly what mathematical
   statement pays Pack retention, Part participation, and Field/good-scale
   realization. The appendix entrance then matches that status instead of

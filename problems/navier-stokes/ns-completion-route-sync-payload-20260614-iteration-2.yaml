@@ -48,7 +48,7 @@ route_nodes:
     and that face failure supports Exit(Q):=not Member(Q). The current referee audit
     checks finite-obstruction inventory coverage rather than generic no-face exclusion.
     The promoted proof-bearing rows have CM entry and first-face landing, while generic
-    support rows remain demoted.'
+    support rows remain proof-free unless same-witness face certification is proved.'
   source_refs: &3
   - live-theorem-edge.yaml
   - source-frontier.yaml
@@ -78,9 +78,8 @@ route_nodes:
   - theorem-construction/mpp-finite-energy-point-pressure-derivative-obstruction-20260606.md
 - node_id: sourcewall_reconcile_resolution
   label: sourcewall_reconcile_resolution
-  status: resolved-by-demotion
-  role: Demotes normalized-adjoint source-drain from unconditional source-wall proof
-    to conditional analytic support because FirstPulseKill.A lacks source-parent compactness
+  status: resolved-by-no-proof-authority-classification
+  role: Classifies normalized-adjoint source-drain as conditional analytic support with no proof force for unconditional source-wall proof because FirstPulseKill.A lacks source-parent compactness
     / no-diffuse-ancestry.
   source_refs: &6
   - theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
@@ -88,7 +87,7 @@ route_nodes:
   - source-frontier.yaml
 - node_id: normalized_adjoint_source_drain_support
   label: normalized_adjoint_source_drain_support
-  status: support-only-after-sourcewall-demotion
+  status: support-only-after-sourcewall-no-proof-authority-classification
   role: Accepted conditional analytic parent-or-charge mechanism. It does not prove
     SOURCE.NO-PULSE.A from OriginalSmoothData without an additional source-wall root
     theorem.
@@ -204,7 +203,7 @@ route_nodes:
   - theorem-construction/mpp-terminal-source-reverse-holder-basac-direct-attempt-20260517.md
 - node_id: downstream_no_jump_readout
   label: downstream_no_jump_readout
-  status: downstream-consumer-gated-by-demoted-sourcewall
+  status: downstream-consumer-gated-by-sourcewall-no-proof-authority-classification
   role: Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes active
     only after the reopened source-wall root is proved.
   source_refs: &12
@@ -241,7 +240,7 @@ route_nodes:
   status: installed-repo-declared-endpoint
   role: Periodic T^3 positive-forward endpoint layer. The repo-declared route is smooth
     periodic data -> terminal-tail / Pack-Part-Field-tower readout -> uniform H^s(T^3),
-    s>5/2 -> standard H^s continuation. This node must stay scoped to T^3 and must
+    s>5/2 -> classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound. This node must stay scoped to T^3 and must
     not absorb R^3 tail/export burdens.
   source_refs: &15
   - theorem-construction/mcp-final-theorem-statement-periodic-global-smoothness.md
@@ -481,7 +480,7 @@ integration_chain:
   surface_class: theorem graph
   current_state: finite-obstruction-inventory-synced
   job: Every branch node has an evidence source, state, and next burden.
-  current_gap: The generic Pack/Part face-exclusion work order is demoted. The graph
+  current_gap: The generic Pack/Part face-exclusion work order is classified as the wrong target with no proof force. The graph
     must show finite-obstruction inventory coverage and keep future named rows under
     same-witness Pack/Part/Field certification.
 - step_id: app_worker_surface
@@ -531,37 +530,36 @@ open_blockers:
   - problems/navier-stokes/live-theorem-edge.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:primary_math_obligation
-  blocker: 'source-frontier:primary_math_obligation: Clear or demote the source-frontier
+  blocker: 'source-frontier:primary_math_obligation: Clear or classify the source-frontier with no proof authority
     primary_math_obligation before submission readiness.'
   refs: &26
   - problems/navier-stokes/source-frontier.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:first_unresolved_obligation
-  blocker: 'source-frontier:first_unresolved_obligation: Clear or demote the source-frontier
+  blocker: 'source-frontier:first_unresolved_obligation: Clear or classify the source-frontier with no proof authority
     first_unresolved_obligation before submission readiness.'
   refs: &27
   - problems/navier-stokes/source-frontier.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:unresolved_obligations
-  blocker: 'source-frontier:unresolved_obligations: Clear or demote the source-frontier
+  blocker: 'source-frontier:unresolved_obligations: Clear or classify the source-frontier with no proof authority
     unresolved_obligations before submission readiness.'
   refs: &28
   - problems/navier-stokes/source-frontier.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:dashboard_unresolved_obligations
-  blocker: 'source-frontier:dashboard_unresolved_obligations: Clear or demote the
-    source-frontier dashboard_unresolved_obligations before submission readiness.'
+  blocker: 'source-frontier:dashboard_unresolved_obligations: Clear or classify the source-frontier dashboard_unresolved_obligations with no proof authority before submission readiness.'
   refs: &29
   - problems/navier-stokes/source-frontier.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:additional_context_obligations
-  blocker: 'source-frontier:additional_context_obligations: Clear or demote the source-frontier
+  blocker: 'source-frontier:additional_context_obligations: Clear or classify the source-frontier with no proof authority
     additional_context_obligations before submission readiness.'
   refs: &30
   - problems/navier-stokes/source-frontier.yaml
   mirror_of_completion_candidate: true
 - blocker_id: source-frontier:active_frontier_labels
-  blocker: 'source-frontier:active_frontier_labels: Clear or demote the source-frontier
+  blocker: 'source-frontier:active_frontier_labels: Clear or classify the source-frontier with no proof authority
     active_frontier_labels before submission readiness.'
   refs: &31
   - problems/navier-stokes/source-frontier.yaml
@@ -616,7 +614,7 @@ branch_rows:
     recorded, and that face failure supports Exit(Q):=not Member(Q). The current referee
     audit checks finite-obstruction inventory coverage rather than generic no-face
     exclusion. The promoted proof-bearing rows have CM entry and first-face landing,
-    while generic support rows remain demoted.'
+    while generic support rows remain proof-free unless same-witness face certification is proved.'
   evidence_refs: *3
   mcp_visibility_status: visible-in-route-state
 - row_id: graph:torus_global_material_atlas_terminal_capture
@@ -643,7 +641,7 @@ branch_rows:
 - row_id: graph:sourcewall_reconcile_resolution
   row_kind: route_node
   label: sourcewall_reconcile_resolution
-  state: resolved-by-demotion
+  state: resolved-by-no-proof-authority-classification
   next_burden: Demotes normalized-adjoint source-drain from unconditional source-wall
     proof to conditional analytic support because FirstPulseKill.A lacks source-parent
     compactness / no-diffuse-ancestry.
@@ -652,7 +650,7 @@ branch_rows:
 - row_id: graph:normalized_adjoint_source_drain_support
   row_kind: route_node
   label: normalized_adjoint_source_drain_support
-  state: support-only-after-sourcewall-demotion
+  state: support-only-after-sourcewall-no-proof-authority-classification
   next_burden: Accepted conditional analytic parent-or-charge mechanism. It does not
     prove SOURCE.NO-PULSE.A from OriginalSmoothData without an additional source-wall
     root theorem.
@@ -716,7 +714,7 @@ branch_rows:
 - row_id: graph:downstream_no_jump_readout
   row_kind: route_node
   label: downstream_no_jump_readout
-  state: downstream-consumer-gated-by-demoted-sourcewall
+  state: downstream-consumer-gated-by-sourcewall-no-proof-authority-classification
   next_burden: Downstream source-pulse/no-Jump_avg terminal-tail consumer. It becomes
     active only after the reopened source-wall root is proved.
   evidence_refs: *12
@@ -749,7 +747,7 @@ branch_rows:
   state: installed-repo-declared-endpoint
   next_burden: Periodic T^3 positive-forward endpoint layer. The repo-declared route
     is smooth periodic data -> terminal-tail / Pack-Part-Field-tower readout -> uniform
-    H^s(T^3), s>5/2 -> standard H^s continuation. This node must stay scoped to T^3
+    H^s(T^3), s>5/2 -> classical H^s local well-posedness relaunch criterion with lifespan depending only on the H^s bound. This node must stay scoped to T^3
     and must not absorb R^3 tail/export burdens.
   evidence_refs: *15
   mcp_visibility_status: visible-in-route-state
@@ -848,7 +846,7 @@ branch_rows:
   row_kind: d8_integration_step
   label: theorem graph
   state: finite-obstruction-inventory-synced
-  next_burden: The generic Pack/Part face-exclusion work order is demoted. The graph
+  next_burden: The generic Pack/Part face-exclusion work order is classified as the wrong target with no proof force. The graph
     must show finite-obstruction inventory coverage and keep future named rows under
     same-witness Pack/Part/Field certification.
   evidence_refs:
@@ -917,7 +915,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:primary_math_obligation
   state: blocked
-  next_burden: 'source-frontier:primary_math_obligation: Clear or demote the source-frontier
+  next_burden: 'source-frontier:primary_math_obligation: Clear or classify the source-frontier with no proof authority
     primary_math_obligation before submission readiness.'
   evidence_refs: *26
   mirror_of_completion_candidate: true
@@ -926,7 +924,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:first_unresolved_obligation
   state: blocked
-  next_burden: 'source-frontier:first_unresolved_obligation: Clear or demote the source-frontier
+  next_burden: 'source-frontier:first_unresolved_obligation: Clear or classify the source-frontier with no proof authority
     first_unresolved_obligation before submission readiness.'
   evidence_refs: *27
   mirror_of_completion_candidate: true
@@ -935,7 +933,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:unresolved_obligations
   state: blocked
-  next_burden: 'source-frontier:unresolved_obligations: Clear or demote the source-frontier
+  next_burden: 'source-frontier:unresolved_obligations: Clear or classify the source-frontier with no proof authority
     unresolved_obligations before submission readiness.'
   evidence_refs: *28
   mirror_of_completion_candidate: true
@@ -944,8 +942,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:dashboard_unresolved_obligations
   state: blocked
-  next_burden: 'source-frontier:dashboard_unresolved_obligations: Clear or demote
-    the source-frontier dashboard_unresolved_obligations before submission readiness.'
+  next_burden: 'source-frontier:dashboard_unresolved_obligations: Clear or classify the source-frontier dashboard_unresolved_obligations with no proof authority before submission readiness.'
   evidence_refs: *29
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
@@ -953,8 +950,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:additional_context_obligations
   state: blocked
-  next_burden: 'source-frontier:additional_context_obligations: Clear or demote the
-    source-frontier additional_context_obligations before submission readiness.'
+  next_burden: 'source-frontier:additional_context_obligations: Clear or classify the source-frontier additional_context_obligations with no proof authority before submission readiness.'
   evidence_refs: *30
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
@@ -962,7 +958,7 @@ branch_rows:
   row_kind: open_blocker
   label: source-frontier:active_frontier_labels
   state: blocked
-  next_burden: 'source-frontier:active_frontier_labels: Clear or demote the source-frontier
+  next_burden: 'source-frontier:active_frontier_labels: Clear or classify the source-frontier with no proof authority
     active_frontier_labels before submission readiness.'
   evidence_refs: *31
   mirror_of_completion_candidate: true

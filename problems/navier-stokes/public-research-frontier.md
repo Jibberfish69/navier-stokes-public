@@ -80,7 +80,7 @@ It is intentionally frontier-focused rather than an exhaustive all-time bibliogr
 
 - Tobias Barker, "Quantitative classification of potential Navier-Stokes singularities beyond the blow-up time," arXiv:2510.20757, submitted 2025-10-23, revised 2026-02-04.
   Link: [arXiv:2510.20757](https://arxiv.org/abs/2510.20757)
-  Why it matters: theorem-level scenario testing of Hou-style singularity candidates for approximately axisymmetric data.
+  Why it matters: theorem-level scenario testing of Hou-style singularity candidates in the paper's near-axisymmetric data regime.
 
 - Qi S. Zhang, "On partial type I solutions to the Axially symmetric Navier-Stokes equations," arXiv:2604.07785, submitted 2026-04-09.
   Link: [arXiv:2604.07785](https://arxiv.org/abs/2604.07785)
