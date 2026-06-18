@@ -1,0 +1,198 @@
+% Monograph V6 TOC template: custom-macro version.
+%
+% Source pattern checked from:
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.tex
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/preamble/macros.tex
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.pdf
+%
+% Purpose:
+% - keep the V6 TOC machinery intact;
+% - remove monograph-specific subject matter;
+% - give the PDF writer a copyable top-level TOC shape.
+
+\documentclass[12pt,oneside]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{etoolbox}
+\usepackage{import}
+
+\title{Generic Mathematical Paper}
+\author{Author Name}
+\date{\today}
+
+% ============================================================
+% Table of contents and part/section structure copied from V6.
+% ============================================================
+
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{3}
+
+\makeatletter
+\@addtoreset{section}{part}
+\renewcommand{\thesection}{\arabic{part}.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+\makeatother
+
+% Bookmark hierarchy for a chapterless report structure.
+\makeatletter
+\@ifundefined{toclevel@section}{\def\toclevel@section{0}}{\renewcommand{\toclevel@section}{0}}
+\@ifundefined{toclevel@subsection}{\def\toclevel@subsection{1}}{\renewcommand{\toclevel@subsection}{1}}
+\@ifundefined{toclevel@subsubsection}{\def\toclevel@subsubsection{2}}{\renewcommand{\toclevel@subsubsection}{2}}
+\makeatother
+
+% Unique hyperref anchors across section resets.
+\makeatletter
+\renewcommand{\theHpart}{\arabic{part}}
+\renewcommand{\theHsection}{\arabic{part}.\arabic{section}}
+\renewcommand{\theHsubsection}{\arabic{part}.\arabic{section}.\arabic{subsection}}
+\renewcommand{\theHsubsubsection}{\arabic{part}.\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+\makeatother
+
+\renewcommand{\thepart}{\arabic{part}}
+
+% Top-level TOC rows.
+\renewcommand{\cftpartfont}{\bfseries\large}
+\renewcommand{\cftpartpagefont}{\bfseries\large}
+\renewcommand{\cftpartpresnum}{}
+\renewcommand{\cftpartaftersnum}{}
+\setlength{\cftbeforepartskip}{2.0\baselineskip}
+\settowidth{\cftpartnumwidth}{Volume~00\, -- \ }
+
+% V6-style flow controls.
+\newif\ifToEGroupHold
+\ToEGroupHoldfalse
+\newif\ifToEVolumeHold
+\ToEVolumeHoldfalse
+\newif\ifVolSectionNewpage
+\VolSectionNewpagefalse
+\newcommand{\VolSectionNewpageOn}{\VolSectionNewpagetrue}
+\newcommand{\VolSectionNewpageOff}{\VolSectionNewpagefalse}
+\newif\ifVolGroupNewpage
+\VolGroupNewpagefalse
+\newcommand{\VolGroupNewpageOn}{\VolGroupNewpagetrue}
+\newcommand{\VolGroupNewpageOff}{\VolGroupNewpagefalse}
+
+% Original V6 file-backed section wrapper.
+% Usage: \VolSection{<section title>}{<relative-file.tex>}
+\newcommand{\VolSection}[2]{%
+  \ifToEGroupHold
+    \ToEGroupHoldfalse
+  \else
+    \ifToEVolumeHold
+      \ToEVolumeHoldfalse
+    \else
+      \ifVolSectionNewpage
+        \newpage
+      \fi
+    \fi
+  \fi
+  \section{#1}%
+  \subimport{./}{#2}%
+}
+
+% Custom TOC line for group rows: italic text, no page number.
+\makeatletter
+\newcommand{\l@vgroup}[2]{%
+  \addvspace{0.7\baselineskip}%
+  {\noindent\itshape\small #1}\par
+}
+\providecommand{\toclevel@vgroup}{0}
+\makeatother
+
+% Heading size controls.
+\newcommand{\HeadingSizeVolume}{\fontsize{18pt}{22pt}\selectfont}
+\newcommand{\HeadingSizeGroup}{\fontsize{16.5pt}{20.5pt}\selectfont}
+\newcommand{\HeadingSizeSection}{\fontsize{15pt}{18.5pt}\selectfont}
+\newcommand{\HeadingSizeSubsection}{\fontsize{13.5pt}{16.5pt}\selectfont}
+\newcommand{\HeadingSizeSubsubsection}{\fontsize{13pt}{15.5pt}\selectfont}
+
+% On-page group divider, also written into the TOC.
+\newcommand{\volumegroup}[1]{%
+  \ifToEVolumeHold
+    \ToEVolumeHoldfalse
+  \else
+    \ifVolGroupNewpage
+      \clearpage
+    \fi
+  \fi
+  \ToEGroupHoldtrue
+  \par\vspace{1.8\baselineskip}%
+  \phantomsection
+  \addcontentsline{toc}{vgroup}{#1}%
+  {\centering\bfseries\itshape\HeadingSizeGroup #1\par}%
+  \vspace{0.6\baselineskip}%
+}
+
+% Keep TOC pages plain.
+\pretocmd{\tableofcontents}{\pagestyle{plain}\markboth{}{}}{}{}
+
+% Top-level part macro: compact on-page heading plus V6-style TOC row.
+% Usage: \Volume{<major part title>}
+\makeatletter
+\newcommand{\Volume}[2][]{%
+  \clearpage
+  \refstepcounter{part}%
+  \phantomsection
+  \if\relax\detokenize{#1}\relax\else\label{#1}\fi
+  \addcontentsline{toc}{part}{Volume~\thepart\ \textemdash\ #2}%
+  \par\vspace{1.0ex}%
+  \noindent{\centering\bfseries\HeadingSizeVolume Volume \thepart\ -- \ #2\par}%
+  \vspace{0.8ex}%
+  \ToEVolumeHoldtrue
+}
+\makeatother
+
+\titleformat{\section}[block]{\bfseries\HeadingSizeSection}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\bfseries\HeadingSizeSubsection}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\bfseries\HeadingSizeSubsubsection}{\thesubsubsection}{1em}{}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\providecommand{\theHpage}{\thepage}
+\pagenumbering{roman}
+\renewcommand{\theHpage}{front\roman{page}}
+\maketitle
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\renewcommand{\theHpage}{\arabic{page}}
+\hypersetup{pageanchor=true}
+
+% V6 starts at Volume 0. Change to 0 if the first printed volume should be 1.
+\setcounter{part}{-1}
+
+\Volume{First Major Part}
+\VolGroupNewpageOff
+\VolSectionNewpageOff
+
+\volumegroup{First Thematic Group}
+\section{First Section Title}
+This is placeholder body text for the first section.
+
+\section{Second Section Title}
+This is placeholder body text for the second section.
+
+\volumegroup{Second Thematic Group}
+\section{Third Section Title}
+This is placeholder body text for the third section.
+
+\Volume{Second Major Part}
+
+\volumegroup{Main Argument Group}
+\section{Fourth Section Title}
+This is placeholder body text for the fourth section.
+
+\section{Fifth Section Title}
+This is placeholder body text for the fifth section.
+
+\end{document}
