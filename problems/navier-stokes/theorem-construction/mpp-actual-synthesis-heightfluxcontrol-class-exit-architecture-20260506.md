@@ -11,6 +11,38 @@ and collapsed as an independent target.  Read every occurrence below as
 historical target selection unless explicitly restated by the live edge. The
 direct route now needs `HeightFluxControl.A` with a real structural mechanism.
 
+Exactness rework correction, 2026-06-18: the proof graph below is historical
+route architecture, not a proof implication.  Its old mathematical claim was
+that the Field/source-wall branch could be treated schematically as
+
+```text
+Pack + Part + not Field
+=> source wall / Zeno residue
+=> Field restored
+=> Member restored
+=> first class exit contradicted.
+```
+
+That claim is too fast.  Current live surfaces keep source-reserve,
+height-flux, active-height, signed-current, and Zeno residue branches
+support-level until a theorem supplies one of the exact interfaces:
+
+```text
+same-ledger payment
+or
+CM-test admission + first Pack/Part/Field face failure.
+```
+
+Zero-radius terminal residue or selected unpaid infinite donor-refill lands
+first at `not Pack_Q`.  A retained positive-scale first-created native donor
+reserve surplus remains supplier-quarantined until a same-witness charge,
+anti-concentration, or non-source Pack-survival theorem is proved.  The live
+frontier currently records that old ActiveHeightFlux / SourceReserve /
+SignedPair / no-free-sink labels are consumed and cannot count as fresh
+progress; the active replacement is the same-witness terminal
+anti-concentration / source-Carleson / rigid-anti-atom / non-source
+Pack-survival family.
+
 Purpose: compress the Navier-Stokes lane into the current shortest proof
 architecture and identify the theorem atoms that would actually move the
 project.
@@ -90,7 +122,7 @@ The source wall becomes proof-relevant only through:
 FieldFaceResidueReduction.A.
 ```
 
-Schematic route:
+Historical route sketch, not proof force:
 
 ```text
 not Field
@@ -100,6 +132,20 @@ not Field
    or missing NativePositiveSourceControl
    or Zeno residue.
 ```
+
+Exact current use: this display may only be cited as a list of candidate
+Field-facing support branches.  To become CM proof material, the branch must be
+admitted to the same terminal witness record and must derive the first failed
+face
+
+```text
+not Pack_Q,
+Pack_Q + not Part_{N,Q},
+or
+Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}.
+```
+
+Otherwise it remains supplier quarantine or downstream readout support.
 
 After the non-source alternatives are routed, the live split is:
 
@@ -368,7 +414,7 @@ Field + OFP.A => no Jump.
 
 Thus the missing work remains inside Field preservation / source control.
 
-## 8. Clean proof graph
+## 8. Historical proof graph and exact replacement
 
 ```text
 A. Classical local existence gives still-live windows.
@@ -410,7 +456,21 @@ K. First class exit contradicted.
 L. Global smoothness on the torus-first target.
 ```
 
-The shortest viable route is `G1`.
+The graph above is not a clean proof graph under the current CM discipline.
+Steps H--K promote a supplier route into positive no-exit closure.  The exact
+replacement is the pass/fail obstruction engine:
+
+```text
+positive supplier branch reaches a real obstruction
+=> pass branch: lawful in-class / Member(Q) continuation mechanism
+=> fail branch: CM-test admission + first Pack/Part/Field face failure
+=> Exit(Q):=not Member(Q) for that same witness.
+```
+
+The branch proves CM-facing work only through that exact face landing.  A
+source-control theorem can still support the pass side, but a source alias,
+height-flux label, or endpoint readout label does not by itself restore Field,
+restore CM, restore Member, or contradict first exit.
 
 ## 9. Subagent lens allocation
 
@@ -428,7 +488,7 @@ Audit every theorem for its landing face.
 
 ### Source-wall lens
 
-Primary:
+Historical primary, now consumed as an independent fresh-progress label:
 
 ```text
 HeightFluxControl.A.
@@ -443,6 +503,12 @@ ReserveCreationCharge.A.
 ```
 
 Every source theorem must reduce the positive weighted shell flux.
+
+Current exact requirement: a source theorem must either pay the same-witness
+branch in the installed ledger, or promote the admitted finite obstruction to a
+specific Pack/Part/Field face failure.  Reducing a positive weighted shell flux
+inside a supplier estimate is not enough unless that reduction supplies one of
+those interfaces.
 
 ### Zeno lens
 
@@ -486,7 +552,7 @@ whole-space claims before torus-first closure
 
 ## 10. Next exact theorem attempts
 
-### Attempt 1: `HeightFluxControl.A`
+### Attempt 1: historical `HeightFluxControl.A`
 
 Concrete form:
 
@@ -511,6 +577,12 @@ finite-overlap terminal packet selection
 legal pressure/cutoff ledger
 active strain decorrelation or depletion
 ```
+
+Current status: this remains a supplier estimate template.  It is not an
+installed CM theorem and it cannot be spent as a proof of Field restoration.
+The live leaf has moved to same-witness terminal anti-concentration /
+source-Carleson / rigid-anti-atom / non-source Pack-survival, or to a proved
+same-ledger payment that makes this estimate enter the pass branch.
 
 ### Attempt 2: `FirstHeightCreationDichotomy.A`
 
@@ -548,7 +620,10 @@ expanding eigendirections without producing source ancestry / incoming pulse.
 The repo is coherent.  The CM architecture is real.  The contrapositive
 class-exit route is the correct organizing principle.
 
-The proof remains open at the Field-face source wall.
+The proof remains open at the same-witness terminal source/Pack-survival
+frontier recorded by the live source-frontier surfaces.  The old
+Field-face-source-wall language is retained only as historical support unless a
+separate theorem places the branch in the current Pack/Part/Field witness tree.
 
 The most valuable consolidation is:
 
@@ -559,11 +634,17 @@ Source wall
 = terminal Field-face source concentration.
 ```
 
-The strongest next mathematical move is:
+The old strongest next mathematical move was:
 
 ```text
 prove HeightFluxControl.A.
 ```
+
+The current next mathematical burden is sharper: prove the same-witness
+terminal anti-concentration / source-Carleson / rigid-anti-atom /
+non-source Pack-survival theorem, or prove an equivalent same-ledger payment
+that promotes the retained positive-scale source branch without importing a
+positive no-exit shortcut.
 
 The most promising proof idea is:
 
@@ -574,4 +655,6 @@ with no ancestry, which should violate same-fluid participation plus
 no-incoming terminal rigidity.
 ```
 
-That is the current theorem-crank target.
+That is historical proof-search context.  It is not the current theorem-crank
+target unless the live frontier explicitly reopens this supplier estimate as the
+same-witness anti-concentration or same-ledger payment mechanism.
