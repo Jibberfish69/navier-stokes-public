@@ -4082,6 +4082,35 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/phi-s-osgood-subcriticality-test-result.md`.
 
+## Remaining Appendix Trigger-Phrase Cleanup
+
+Old loose wording:
+
+- A failed gradient-lifted-remainder audit referred to a "model route" and a
+  "model bound."
+- A tower-amplitude block said the proof was "formal" after an amplitude bound.
+- Two analytic-collapse passages used "typical" only to reject profile/slope
+  assumptions.
+
+Exact replacement:
+
+The gradient-lifted-remainder audit now names the displayed high-tail factor
+estimate and states that the exact shell algebra still leaves the coefficient
+
+```math
+\sum_{N+M<k<j-4}2^{3k/2}\|\Delta_k u(t)\|_{L^2_x}.
+```
+
+The tower-amplitude block now states the direct contradiction: `tower-blown`
+gives arbitrarily large `A_{N,Q}(t)` on `I`, while the supplied
+`L^\infty(I)` bound forbids this after choosing `M` larger than that bound.
+The analytic-collapse passages now say plainly that no profile assumption,
+same-scale estimate, linearized dead-patch estimate, or slope ansatz is used.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
