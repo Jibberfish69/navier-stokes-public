@@ -23,8 +23,17 @@ FullLinearizedResponseAdjointPacket.A.
 }
 ```
 
-This should give Bessel, parent-kernel, and lower-frame detection for adjoint
-packets solving the full localized linearized response adjoint.
+If proved, this theorem supplies the three response-packet conclusions
+
+```text
+BesselBound.A,
+ParentKernelDetection.A,
+LowerFrameDetection.A
+```
+
+for adjoint packets solving the full localized linearized response adjoint. The
+rest of this note separates the proved truncated packet from the unproved
+high-coefficient residual needed for that full theorem.
 
 ## 1. Truncated Full Linearized Operator
 
@@ -186,10 +195,20 @@ CLegalHighTail_N+o_N(1).
 ```
 
 If the high coefficient is estimated by absolute values, this can return to a
-mixed high-high response source wall.  But the scale gap `M` and ordinary
-dissipation tail should make the high-coefficient part legal after finite-band
-decomposition, provided no terminal same-scale response concentration is
-hidden in the discarded coefficient.
+mixed high-high response source wall. The required replacement is the exact
+residual theorem
+
+```math
+\|R^{hi-coeff}\|_{L_t^2H^{-1}}^2
+\le
+C\,LegalHighTail_N+o_N(1),
+\tag{FLAP.5a}
+```
+
+after the finite-band decomposition, with no terminal same-scale response
+concentration hidden in the discarded coefficient. The scale gap `M` and
+ordinary dissipation tail are inputs to `(FLAP.5a)`; they do not by themselves
+prove it.
 
 The direct attempt in
 `mpp-high-coefficient-response-residual-attempt-20260506.md` sharpens this
@@ -204,7 +223,7 @@ L^{col}_{u,j}Z
 -\nu\Delta Z.
 ```
 
-Then the near-collar residual is eliminated by identity.  Its cost becomes
+Then the near-collar residual is eliminated by identity. Its cost becomes
 coefficient-good/stopped packet calculus, not an `H^{-1}` source estimate.
 The only genuine high-coefficient residual is the far-high beat channel:
 
