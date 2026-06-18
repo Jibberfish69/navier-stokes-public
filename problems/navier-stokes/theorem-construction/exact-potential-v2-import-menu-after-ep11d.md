@@ -134,9 +134,9 @@ now sharper than “heat plus perturbation”: the split note
 is now continued by
 [exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md),
 which shows that once the fixed-metric Lipschitz packet is imported in uniform
-Carleman form, the bounded lower-order terms absorb directly. So the repaired
-direct `V2` subroute now reduces to the fixed-metric Lipschitz Carleman import
-itself.
+Carleman form, the bounded first-order and zeroth-order coefficients satisfying
+`(ELA.2)` are absorbed by the threshold `(ELA.7)`. So the repaired direct `V2`
+subroute now reduces to the fixed-metric Lipschitz Carleman import itself.
 The analytic audit now shows that `F.11d` also does not yet supply an analytic
 operator-class normalization, so that third route remains conditional on one
 stronger analytic-normalization theorem.

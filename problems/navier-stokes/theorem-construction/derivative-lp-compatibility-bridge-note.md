@@ -224,7 +224,7 @@ depends only on:
 
 - strict low-high / high-low coefficient packets,
 - finite-collar resonant packets,
-- and lower-order remainders.
+- and explicitly bounded remainder slots.
 
 That extra step is where paradifferential elliptic transport still has to be
 proved.

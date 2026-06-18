@@ -15,11 +15,12 @@ The repaired direct `V2` route now stops at the existing parabolic node
 [exact-potential-v2-static-diffusion-reduces-to-pdo-carleman.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-reduces-to-pdo-carleman.md).
 
 This note sharpens that remaining wall. The repaired operator has one fixed
-diffusion metric and bounded lower-order terms, so the direct local theorem
-should factor into:
+diffusion metric plus bounded first-order and zeroth-order coefficients, so the
+direct local theorem should factor into:
 
 1. interval observability for the fixed-metric heat part;
-2. perturbative transfer to the full lower-order operator.
+2. perturbative transfer to the full operator satisfying the coefficient bound
+   later recorded as `(ELA.2)`.
 
 ## Proposition `EHP.A` (the repaired operator splits into base heat plus bounded perturbation)
 

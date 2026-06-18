@@ -108,5 +108,6 @@ perturb-transfer theorem. With the external fixed-metric heat import accepted,
 the lower-order side is then reduced further in
 [exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md):
 once the fixed-metric packet is imported in uniform Carleman form, the bounded
-lower-order terms absorb directly, so the repaired direct branch reduces to the
+first-order and zeroth-order coefficients satisfying `(ELA.2)` are absorbed by
+the threshold `(ELA.7)`, so the repaired direct branch reduces to the
 fixed-metric Lipschitz Carleman import alone.

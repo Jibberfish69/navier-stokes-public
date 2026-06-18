@@ -116,8 +116,8 @@ From `(ELA.1)` and `(ELA.2)`,
 \tag{ELA.6}
 ```
 
-Insert `(ELA.6)` into `(ELA.3)`. The second term on the right is lower order
-than the bulk packet `(ELA.4)`: the gradient part is controlled by the
+Insert `(ELA.6)` into `(ELA.3)`. The second term on the right is absorbed by
+the bulk packet `(ELA.4)` under the threshold `(ELA.7)`: the gradient part is controlled by the
 `s\theta_k e^{2s\phi_k}|\nabla_\zeta z|^2` term, and the zeroth-order part is
 controlled by the `s^3\theta_k^3 e^{2s\phi_k}|z|^2` term. On the interior slab
 where the Carleman estimate is applied, assume the cutoff has
@@ -135,8 +135,9 @@ where the Carleman estimate is applied, assume the cutoff has
 \tag{ELA.7}
 ```
 
-Under `(ELA.7)`, the lower-order contribution in `(ELA.6)` is at most one half
-of the bulk packet `(ELA.4)`, so moving it to the left gives `(ELA.5)`. ∎
+Under `(ELA.7)`, the bounded-coefficient contribution in `(ELA.6)` is at most
+one half of the bulk packet `(ELA.4)`, so moving it to the left gives
+`(ELA.5)`. ∎
 
 ## Corollary `ELA.B` (the separate perturb-transfer wall disappears under the fixed-metric Carleman import)
 
@@ -199,9 +200,10 @@ itself.
 - [Duyckaerts--Zhang--Zuazua 2008](https://www.math.univ-paris13.fr/~duyckaer/articles/OptimalityDZZ.pdf)
   treat the Euclidean variable-coefficient parabolic class with bounded
   first-order and zeroth-order potentials and show that observability persists
-  with explicit dependence on those lower-order packets. The present note uses
-  that theorem family only as the model showing that the lower-order terms are
-  not a new branch object once the principal Carleman packet is available.
+  with explicit dependence on those coefficient packets. The present note uses
+  that theorem family only as the model showing that the bounded coefficient
+  terms are not a new branch object once the principal Carleman packet is
+  available.
 
 ## Interpretation
 

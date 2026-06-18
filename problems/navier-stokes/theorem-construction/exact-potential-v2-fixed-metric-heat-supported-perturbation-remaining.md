@@ -97,8 +97,8 @@ This is the cleanest honest intermediate split on the repaired direct branch:
 
 So the exact remaining local theorem is no longer a generic observability theorem
 for the whole repaired operator. At this stage it is the perturb-transfer
-theorem for bounded lower-order terms on the fixed Lipschitz chart metric
-class. That lower-order wall is now reduced further in
+theorem for bounded first-order and zeroth-order coefficients on the fixed
+Lipschitz chart metric class. That coefficient wall is now reduced further in
 [exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md),
 which shows that once the fixed-metric packet is imported in Carleman form, the
-bounded lower-order terms absorb directly.
+bounded coefficients satisfying `(ELA.2)` are absorbed by `(ELA.7)`.

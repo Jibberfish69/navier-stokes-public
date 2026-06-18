@@ -107,8 +107,8 @@ shares one common isotropizing chart `\Phi_k`.
 
 ### Proof
 
-Multiplication by the scalar gauge `e^{\psi_k}` changes only lower-order terms,
-so it does not alter the principal second-order coefficient. A time-independent
+Multiplication by the scalar gauge `e^{\psi_k}` changes only first-order and
+zeroth-order coefficient terms, so it does not alter the principal second-order coefficient. A time-independent
 spatial diffeomorphism transforms the principal matrix by the standard
 conductivity pushforward law `(EVI.6)`. Therefore the exact target
 `-\nu\Delta_y` in `(EVI.4)` forces `(EVI.5)`.
