@@ -6761,3 +6761,40 @@ Surfaces edited:
 - `theorem-construction/mcp-corrected-high-high-absorption-via-enstrophy-half-tail-8c28e55d7d.md`;
 - `theorem-construction/mcp-manuscript-grade-periodic-proof-normalization-fce64a89ae.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## Phi_s Osgood Comparator Repair
+
+Old claim being spent:
+
+The source-field reader appendix said the currently available growth was
+`\Phi_s(r)\simeq 1+r+r^{3/2}` and immediately used that loose comparator to
+declare Osgood failure.
+
+Exact replacement:
+
+The appendix now states explicit constants `c_\Phi,C_\Phi,R_\Phi>0` such that,
+for `r>=R_\Phi`,
+
+```text
+c_\Phi r^{3/2} <= \Phi_s(r) <= C_\Phi(1+r+r^{3/2}).
+```
+
+The lower bound gives the actual integral consequence:
+
+```text
+int_{R_\Phi}^\infty dr/Phi_s(r)
+<= (1/c_\Phi) int_{R_\Phi}^\infty r^{-3/2} dr
+= 2/(c_\Phi sqrt(R_\Phi)) < infinity.
+```
+
+Downstream consequence:
+
+The lifted carrier route may no longer cite a vague `same-size` comparator as a
+proof step.  The obstruction is specifically the superlinear lower growth of
+the available coefficient, so the remaining burden is still a structural
+improvement that makes the coefficient Osgood-subcritical, integrable, or
+dissipative.
+
+Surface edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
