@@ -1040,7 +1040,7 @@ new theorem discharging those blockers.
 
 Downstream consequence:
 
-`source-frontier.yaml`, `submission-bundle/source-frontier.yaml`,
+`live-theorem-edge.yaml`, `source-frontier.yaml`, `submission-bundle/source-frontier.yaml`,
 `theorem-packet.yaml`, `submission-bundle/theorem-packet.yaml`, and
 `dependency-discharge.yaml` no longer present zero-frontier or proof-complete
 language as the live authority state. The R3 branch is now described as
@@ -1050,6 +1050,7 @@ Edited live surfaces:
 
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`;
+- `live-theorem-edge.yaml`;
 - `theorem-packet.yaml`;
 - `submission-bundle/theorem-packet.yaml`;
 - `dependency-discharge.yaml`.
