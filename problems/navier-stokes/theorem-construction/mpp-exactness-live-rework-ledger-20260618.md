@@ -2408,6 +2408,55 @@ Edited live surfaces:
 - `theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md`.
 - `live-theorem-edge.yaml`.
 
+## Square-Reserve Source-Root Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-square-reserve-evolution-next-attempt-20260505.md`
+  still presented the donor-square derivative obstruction "schematically" as
+  a drift back to source terms.
+- `theorem-construction/mpp-square-reserve-evolution-or-zeno-rigidity-final-attempt-20260505.md`
+  and downstream authority text still set the "next actual theorem" as
+  `SquareReserveEvolution.A` or a produced Zeno rigid class.
+- `theorem-construction/mpp-leading-edge-math-targets-audit-note.md` still
+  called `ScaleCriticalTreeCarleson.A` the "live direct source-wall root."
+
+Exact replacement:
+
+The donor-square differentiation note now displays the exact obstruction term
+
+```math
+I_N(W)
+:=
+\int_W
+\sum_{k>N}2^kT_k(t)
+\left[
+\sum_{\ell>k+4}Source_\ell(t)
+\right]_+dt,
+```
+
+and states that legal/dissipative pieces may be placed in the legal/favorable
+ledgers, while the positive weighted source term requires a separate theorem.
+Cauchy or Young returns `\int_W r_N(t)dt` without a contraction factor or a
+first-moment charge.
+
+Downstream consequence: the square-reserve/Zeno final attempt, the leading-edge
+audit note, `live-theorem-edge.yaml`, and `current-route-dependency-graph.yaml`
+now classify the SquareReserveEvolution / Zeno / ScaleCriticalTreeCarleson
+family as historical source-control support after the Pack-first CM correction.
+Those branches enter the current proof only by same-ledger payment or CM-test
+admission plus first Pack/Part/Field face failure, feeding the same-witness
+terminal anti-concentration / source-Carleson / rigid-anti-atom /
+non-source Pack-survival frontier.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-square-reserve-evolution-next-attempt-20260505.md`.
+- `theorem-construction/mpp-square-reserve-evolution-or-zeno-rigidity-final-attempt-20260505.md`.
+- `theorem-construction/mpp-leading-edge-math-targets-audit-note.md`.
+- `live-theorem-edge.yaml`.
+- `current-route-dependency-graph.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
