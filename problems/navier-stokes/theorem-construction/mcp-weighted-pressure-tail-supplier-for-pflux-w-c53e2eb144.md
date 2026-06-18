@@ -52,18 +52,62 @@ on `A_k`, where `p_k^{near}` is sourced by `c2^k\le |y|\le C2^k` and `p_k^{far}`
 \|p_k^{near}\|_{L^2(A_k)}\le C_{CZ}\|u\otimes u\|_{L^2(A_k^*)}.
 ```
 
-This term requires local smoothness or an annular `L^4` control for `u`. The far part has kernel decay and is controlled by weighted energy tails:
+This term requires the exact annular `L^4` source
+
+```math
+AnnL4.W:\qquad
+\sum_k2^{2ak}\int_0^T\|u(t)\|_{L^4(A_k^*)}^4dt<\infty.
+```
+
+Together with
+
+```math
+\sup_{t\le T}\sum_k2^{2ak}\|u(t)\|_{L^2(A_k)}^2<\infty,
+```
+
+weighted Cauchy-Schwarz gives the near summability input
+
+```math
+S_{near}:=
+\sum_k2^{(2a-1)k}\int_0^T
+\|u\otimes u\|_{L^2(A_k^*)}\|u\|_{L^2(A_k)}dt<\infty.
+```
+
+The far part is controlled only after the annular kernel tail is paid.  With
+`F_k(t)` as in the annular pressure decomposition, the required far input is
+
+```math
+S_{far}:=
+\sum_k2^{(2a-1)k}\int_0^TF_k(t)\|u(t)\|_{L^2(A_k)}dt<\infty.
+```
+
+A sufficient exact far theorem is the weighted Schur estimate
+
+```math
+\sum_k2^{(2a-1)k}F_k(t)\|u(t)\|_{L^2(A_k)}
+\le C C_a^{far} M_a(t)^{3/2},
+```
+
+with `C_a^{far}<infty` and `M_a^{3/2} in L^1(0,T)`.  A schematic decay form for
+the far pressure is
 
 ```math
 \|p_k^{far}\|_{L^2(A_k)}
 \le C_{far}2^{-\sigma k}\sum_{\ell}2^{-c|k-\ell|}M_a(t).
 ```
 
-Thus the pressure-tail supplier follows from weighted energy plus enough local annular smoothing to control `u\otimes u` in the near annulus.
+Thus the pressure-tail supplier follows from the exact pair
+`AnnL4.W + S_far`, with the weighted moment controlling the velocity factor in
+the near term.  Weighted energy alone does not close the near annular product
+source.
 
 ## Conclusion
 
-The pressure-flux estimate is reduced to a concrete annular supplier: weighted energy handles far pressure, while the near pressure requires annular local smoothing or `L^4`-type control. This is the sharp weighted pressure-tail subproblem feeding exterior decay propagation.
+The pressure-flux estimate is reduced to a concrete annular supplier: the near
+pressure requires `AnnL4.W` plus weighted moment control, and the far pressure
+requires the displayed `F_k` summability or the weighted Schur theorem above.
+This is the sharp weighted pressure-tail subproblem feeding exterior decay
+propagation.
 
 ## Boundary
 
