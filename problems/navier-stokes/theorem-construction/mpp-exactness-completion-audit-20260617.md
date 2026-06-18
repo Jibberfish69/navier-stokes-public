@@ -70,8 +70,9 @@ The active rework is recorded across these decision-bearing surfaces:
 The theorem-construction rework includes exact continuation and estimate
 replacements in active proof notes.  Bounded terminal readouts now spend named
 `H^s`, `s>5/2`, relaunch criteria with lifespan and overlap/uniqueness
-consequences.  Route B `H^1` continuation now carries its relaunch-theorem
-burden explicitly.  Kato--Ponce/Sobolev product estimates, local energy,
+consequences.  Route B `H^1` material is now only energy-level support unless
+the `H^s`, `s>5/2`, continuation bridge or an equivalent criterion is supplied
+on the same surface.  Kato--Ponce/Sobolev product estimates, local energy,
 localized pressure, compactness, CKN epsilon regularity, and
 transport-diffusion propagation are named where they are spent.  Former
 `immediate` or `routine` proof-step language now points to a displayed
