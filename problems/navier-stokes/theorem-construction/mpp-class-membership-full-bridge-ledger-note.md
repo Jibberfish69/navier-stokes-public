@@ -673,14 +673,16 @@ If `(FCI.5f)` is not installed, add:
 ```math
 \boxed{FPCR.C+FSCR.C+FCC.C1+FCC.C1a}
 \quad
-\text{followed formally by closed }FCI.Split.
+\text{followed by the source-ledger split }FCI.Split.
 \tag{BL.44}
 ```
 
 The main analytic bridge is `DTC.MA-Energy`. The main endpoint semantic bridge
 is the certificate-definition content beneath `END.Exh`. The source-side bridge
-`FCI.Split` itself is closed; when source-side work remains, the open content is
-the three channel theorems `FPCR.C`, `FSCR.C`, and `FCC.C1`.
+`FCI.Split` itself is closed only under the four displayed source inputs; when
+source-side work remains, the open content is the pressure channel `FPCR.C`, the
+strain-cascade channel `FSCR.C`, the cutoff channel `FCC.C1`, and the
+cutoff-defect integrability input `FCC.C1a`.
 
 ## Current Hard Analytic Subledger for `DTC.MA-Energy`
 
