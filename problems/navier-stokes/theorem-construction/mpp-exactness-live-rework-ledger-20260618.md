@@ -8956,5 +8956,5 @@ Validation:
 
 The live authority-set scan for raw `automatically` now returns no hits, and
 the focused live authority-set proof-force scan for
-`should`/`would`/`could` implication shortcuts now returns no hits.  `git diff
---check` passes on the edited files.
+`should`/`would`/`could` implication shortcuts now returns no hits.  `git diff --check`
+passes on the edited files.
