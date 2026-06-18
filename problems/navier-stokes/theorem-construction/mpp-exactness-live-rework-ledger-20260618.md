@@ -4682,6 +4682,45 @@ Edited live surfaces:
 - `theorem-construction/mpp-act-kx-hidden-spending-audit-note.md`;
 - `theorem-construction/clay-closure-promotion-map.md`.
 
+## Pack/Part/Field Truth-Table Row Repair
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `mpp-pack-part-field-ontological-collapse-question-20260517.md` still called
+  Pack-only / Part-only / Field-only alternatives "formal rows" or "formal
+  table bookkeeping." That wording left the generated truth table sounding like
+  a proof object.
+- The retained-Field collapse paragraph called
+  `Pack_Q + Part_{N,Q} + receiver escape => not Field_{N,r,Q}` "weak/formal
+  branch bookkeeping," instead of naming the exact branch-local role it plays.
+
+Exact replacement:
+
+The repaired passages distinguish truth-table bookkeeping from terminal
+ontology. A Pack-only, Part-only, or Field-only row is only a candidate row in
+the Boolean witness table. It is not evidence and cannot become an endpoint
+story until a theorem supplies a terminal scenario realizing it.
+
+The retained-Field implication is now described as conditional face
+bookkeeping: Pack and Part are retained as licenses, so the first unspent CM
+face is Field. That implication does not make `Pack, Part, not-Field` a
+surviving terminal ontology row; the terminal same-fluid ontology still
+collapses a realized coherence break to the appropriate overlapping endpoint
+readout unless a separate theorem proves a genuine exception.
+
+Downstream consequence:
+
+Pack/Part/Field endpoint surfaces may still use the Boolean table for
+case-bookkeeping, but they cannot spend a table row as an ontological scenario.
+Every row now requires an endpoint cause and a realization theorem before it
+has proof force.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
