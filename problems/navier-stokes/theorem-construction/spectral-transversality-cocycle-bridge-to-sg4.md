@@ -593,7 +593,7 @@ residual-loop bound
 \mathcal E_J^{loop}(I)
 \le
 C_{loop}\mathcal E_J^{obs}(I),
-\tag{7.10'}
+\tag{7.10r}
 ```
 
 so the exported defect ledger is bounded by
