@@ -159,7 +159,7 @@ This is the minimal source-aligned selector-calibration theorem on the torus
 branch. The Euclidean strict-shadow discharge branch remains separate and is not
 part of this splice.
 
-### Corollary `ST.7` (formal splice to `PD.70` and `SG.4B`)
+### Corollary `ST.7` (conditional splice to `PD.70` and `SG.4B`)
 
 Assume the theorem above and the residual pairwise closure `(ST.6)`. Then the
 selector-defect budget sharpens to
