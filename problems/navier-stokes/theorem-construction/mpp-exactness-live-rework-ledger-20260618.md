@@ -2737,6 +2737,85 @@ Edited live surfaces:
 - `theorem-construction/same-scale-family-lift-lemma.md`.
 - `theorem-construction/same-scale-multiplier-stability-program.md`.
 
+## Tower-Collar Summability Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-towercollarsummabilityattempt-a-hightowercollarsummability-a-towercollarsummability-a-0dffc1b077.md`
+  spent the local collar theorem only as
+  `collar-cost on window I_m >= c_m > 0`, then discussed summing positive
+  costs over a terminal Zeno schedule.
+- `theorem-construction/mcp-terminaltimefaceantiatomgoldallroutesattempt-a-terminaltimefaceantiatom-a-terminalnewproductiontheorem_-b_asac--a-aaae2762da.md`
+  and
+  `theorem-construction/mpp-terminal-new-production-gold-direct-attempt-20260614.md`
+  summarized `HighTowerCollarSummability.A` without displaying the actual
+  collar bill and the non-summability condition needed downstream.
+
+Exact replacement:
+
+The tower/collar route now uses the exact affine-core collar-cost hypotheses
+from
+`theorem-construction/mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md`.
+For a selected terminal window
+
+```text
+B_{r_m}(x_m) subset B_{R_m}(x_m),
+I_{r_m}=(t_m-r_m^2/nu,t_m),
+G_m subset I_{r_m},
+```
+
+the hypotheses are
+
+```text
+int_{B_{r_m}(x_m)} |grad u(x,t)|^2 dx >= eta_m nu^2/r_m
+for t in G_m,
+|G_m| >= theta_m r_m^2/nu,
+sup_{t in G_m} int_{B_{R_m}(x_m)} |u(x,t)|^2 dx <= E_{R,m},
+eta_m nu^2/r_m >= 2 C R_m^{-2} E_{R,m}.
+```
+
+Under those hypotheses the exact bill is
+
+```text
+B_m
+:=
+nu int_{G_m} int_{B_{R_m}(x_m)} |grad^2 u|^2 dx dt
+>=
+c theta_m eta_m^2 nu^4 / E_{R,m}.
+```
+
+Proof or remaining burden:
+
+- The local bill is the interpolation/collar-cost result already proved in
+  `mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md`.
+- A terminal contradiction needs a finite high-tower/enstrophy-production budget
+  controlling the same selected bills,
+
+```text
+sum_m B_m <= C_HT < infinity,
+```
+
+  plus a non-summable lower side,
+
+```text
+sum_m theta_m eta_m^2/E_{R,m} = infinity.
+```
+
+Downstream consequence:
+
+`HighTowerCollarSummability.A` is no longer a black-box "positive local cost"
+or "collar pricing" phrase.  It is the exact combination of a finite selected
+high-tower budget with a non-summable lower side for the displayed `B_m`.  The
+current installed affine-core theorem prices each selected window under its
+hypotheses, but it does not supply the global summation contradiction.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-towercollarsummabilityattempt-a-hightowercollarsummability-a-towercollarsummability-a-0dffc1b077.md`.
+- `theorem-construction/mcp-terminaltimefaceantiatomgoldallroutesattempt-a-terminaltimefaceantiatom-a-terminalnewproductiontheorem_-b_asac--a-aaae2762da.md`.
+- `theorem-construction/mpp-terminal-new-production-gold-direct-attempt-20260614.md`.
+- `theorem-construction/mpp-exactness-live-rework-ledger-20260618.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
