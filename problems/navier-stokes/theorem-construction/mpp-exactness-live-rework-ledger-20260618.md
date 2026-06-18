@@ -818,6 +818,48 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Pressure-Flux Local-Smoothing Supplier Rework
+
+Old loose step:
+
+- The source-field appendix said weighted pressure-tail summability was supplied
+  by "local smoothing" and exterior-tail bounds when available.
+- The pressure-flux section said the near pressure required "annular local
+  smoothing or \(L^4\)-type control" without naming the exact supplier being
+  spent.
+
+Exact replacement:
+
+The live appendix now states the near-annulus supplier as the weighted local
+\(L^4\) source
+
+```math
+\sum_k2^{2ak}\int_0^T\|u(t)\|_{L^4(A_k^*)}^4\,dt<\infty,
+```
+
+together with the weighted moment bound on
+\(\sum_k2^{2ak}\|u(t)\|_{L^2(A_k)}^2\).  The near-source summability is paid by
+the displayed weighted Cauchy--Schwarz inequality:
+
+```math
+\sum_k2^{(2a-1)k}\|u\|_{L^4(A_k^*)}^2\|u\|_{L^2(A_k)}
+\le
+\Big(\sum_k2^{2ak}\|u\|_{L^4(A_k^*)}^4\Big)^{1/2}
+\Big(\sum_k2^{(2a-2)k}\|u\|_{L^2(A_k)}^2\Big)^{1/2}.
+```
+
+The far source remains the separate \(F_k\)-summability input supplied by an
+exterior pressure-tail theorem.
+
+Downstream consequence: `PFlux.Supplier` may be consumed only after the exact
+near weighted \(L^4\) source and the far-tail summability are supplied. The
+phrase "local smoothing" is no longer allowed to carry the pressure-flux closure
+inside the appendix.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
