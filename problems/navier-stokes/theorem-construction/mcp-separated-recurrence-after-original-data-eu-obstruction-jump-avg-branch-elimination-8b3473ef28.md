@@ -9,7 +9,8 @@ Prove separated recurrence for the charge resulting from the original-data E_u s
 The E_u step did not install a resulting final charge. The current candidates remain split:
 
 - `nu_SCF` has finite bounded-overlap upper control and lacks E_u component selection.
-- the enlarged E_u charge has formal component coverage and lacks finite bounded-overlap upper control.
+- the enlarged E_u charge counts the missing component by definition and lacks
+  finite bounded-overlap upper control.
 
 ## Recurrence consequence
 
