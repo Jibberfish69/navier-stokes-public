@@ -107,8 +107,9 @@ o_N(1),
 ```
 
 because the negative strain-alignment part is discarded in this upper bound,
-and the lower-order commutator / packet errors are required to satisfy the
-displayed absorbability budget.
+and the combined packet residuals `Err_{j,k}` introduced in the normal form
+are required to satisfy the displayed absorbability budget
+`\sum_{j,k}|Err_{j,k}|\le\varepsilon\sum_{q>N}D_q+o_N(1)`.
 
 ## Packet Normal Form
 
