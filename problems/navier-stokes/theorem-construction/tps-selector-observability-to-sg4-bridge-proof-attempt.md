@@ -1382,9 +1382,9 @@ C\,\operatorname{Err}_{J,\mathrm{top}}(a,b,t).
 \tag{D.7m5}
 ```
 
-So on the exact-potential simple-top branch the terminal theorem may be phrased
-without any polarity map: it is enough to recover a sign-compatible rank-one
-projector from `W_J` and compare that projector to the top strain projector.
+So on the exact-potential simple-top branch the terminal theorem has two
+explicit inputs and no polarity map: recover a sign-compatible rank-one
+projector from `W_J`, then compare that projector to the top strain projector.
 
 **Proof.**
 Identity `(D.7m2)` is the rank-one projector formula for the squared sine of the
@@ -3205,7 +3205,7 @@ In particular, `(D.7ma5)` holds with
 ```
 
 so one does not need the stronger-looking packet `\int_I a_J<1` from the
-coarser roadmap. It is enough to control:
+coarser roadmap. The required controls are:
 
 1. the linear top-mode growth rate `a_J^{lin}`;
 2. the quadratic bootstrap coefficient `a_J^{quad}`;
@@ -3790,8 +3790,8 @@ geometric reduction.
 
 ### Explicit gap decomposition
 
-To close `(E.7)`, it is enough to isolate three exact sublemmas with a vanishing
-error ledger:
+Closure of `(E.7)` is the following three-sublemma decomposition with a
+vanishing error ledger:
 
 ```math
 \mathcal E_J^{dir}(I)
