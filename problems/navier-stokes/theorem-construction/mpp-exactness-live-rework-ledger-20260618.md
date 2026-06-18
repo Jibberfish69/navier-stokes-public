@@ -4038,6 +4038,50 @@ Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Normal-Form And Phi_s Model-Bound Rework
+
+Old loose steps:
+
+- The cubic normal-form correction was described as having a "model bound."
+- The `Phi_s` Osgood subsection described a tame-product estimate as a "model
+  bound" and carried a malformed lower-order term.
+
+Exact replacement:
+
+The cubic heat normal form supplies only a conditional multiplier estimate:
+
+```math
+|\mathcal B_{3,N}(t)|
+\le
+C_{3,NF}\eta_N(t)\mathcal B_{2,N}(t)
++
+\mathcal B_{2,N}(t)^{1/2}\mathfrak S_N(t).
+```
+
+The high-tail factor is small only on the admitted high-mode tail, while the
+low/intermediate source coefficient `\mathfrak S_N` remains a source-wall
+coefficient unless a terminal source-coherence theorem controls it.
+
+For the lifted carrier route, the exact tame-product estimate gives
+
+```math
+|\mathcal N_s(X)|
+\le
+\varepsilon\Xi_D^{(s)}(X)
++C_\varepsilon\|X\|_{H_D^s}^2
++\text{lower-order terms},
+```
+
+which yields the currently available growth `\Phi_s(r)\simeq 1+r+r^{3/2}`.
+That growth fails the Osgood condition; the remaining theorem is a structural
+improvement converting the energy-size coefficient into an integrable or
+dissipative coefficient.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/phi-s-osgood-subcriticality-test-result.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
