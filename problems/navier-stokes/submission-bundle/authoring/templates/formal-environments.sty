@@ -283,12 +283,8 @@
   \penalty0\hspace{0.2em}%
   \SurfaceCrefTagText{\SurfaceCrefTag{#1}}%
 }
-\NewDocumentCommand{\surfacecref}{s m}{%
-  \IfBooleanTF{#1}{%
-    \FormalEnvCrefPad\SurfaceCrefDisplay{#2}\FormalEnvCrefPad
-  }{%
-    \FormalEnvCrefPad\hyperref[#2]{\SurfaceCrefDisplay{#2}}\FormalEnvCrefPad
-  }%
+\newcommand{\surfacecref}[1]{%
+  \FormalEnvCrefPad\hyperref[#1]{\SurfaceCrefDisplay{#1}}\FormalEnvCrefPad
 }
 
 \makeatletter
@@ -313,27 +309,27 @@
   \crefname{subsubsection}{\S}{\S}%
   \Crefname{subsubsection}{\S}{\S}%
 }
-\RenewDocumentCommand{\cref}{s o m}{%
-  \FormalEnvSplitLabel{#3}%
+\RenewDocumentCommand{\cref}{m}{%
+  \FormalEnvSplitLabel{#1}%
   \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-    \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+    \FormalEnvCrefLinked{#1}%
   }{%
     \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
-      \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+      \FormalEnvCrefLinked{#1}%
     }{%
-      \IfBooleanTF{#1}{\FormalEnvOriginalCref*{#3}}{\FormalEnvOriginalCref{#3}}%
+      \FormalEnvOriginalCref{#1}%
     }%
   }%
 }
-\RenewDocumentCommand{\Cref}{s o m}{%
-  \FormalEnvSplitLabel{#3}%
+\RenewDocumentCommand{\Cref}{m}{%
+  \FormalEnvSplitLabel{#1}%
   \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-    \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+    \FormalEnvCrefLinked{#1}%
   }{%
     \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
-      \IfBooleanTF{#1}{\FormalEnvCrefShort{#3}}{\FormalEnvCrefLinked{#3}}%
+      \FormalEnvCrefLinked{#1}%
     }{%
-      \IfBooleanTF{#1}{\FormalEnvOriginalCrefCap*{#3}}{\FormalEnvOriginalCrefCap{#3}}%
+      \FormalEnvOriginalCrefCap{#1}%
     }%
   }%
 }
