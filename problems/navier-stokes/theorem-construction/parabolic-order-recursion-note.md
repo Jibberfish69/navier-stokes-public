@@ -6,7 +6,7 @@ This note records the sharper structural reading of the derivative tower:
 
 ```math
 \boxed{
-\text{the Navier--Stokes regularity problem is not a same-order estimate problem;}
+\text{the Navier--Stokes regularity problem is not a same-derivative-order estimate problem;}
 }
 ```
 
@@ -202,7 +202,7 @@ where:
 - `\mathcal P_N` is the pressure contribution, which is of the same quadratic
   order after elliptic recovery.
 
-The crucial fact is that `\mathcal N_N` is not same-order.
+The crucial fact is that `\mathcal N_N` is not same-derivative-order.
 It is built from ordered products:
 
 ```math
