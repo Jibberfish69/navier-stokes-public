@@ -2736,6 +2736,7 @@ Edited live surfaces:
 - `theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md`.
 - `theorem-construction/same-scale-family-lift-lemma.md`.
 - `theorem-construction/same-scale-multiplier-stability-program.md`.
+- `theorem-construction/mpp-msc-badac-same-scale-import-audit-note.md`.
 
 ## Tower-Collar Summability Rework
 
