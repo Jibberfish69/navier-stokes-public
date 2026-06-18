@@ -228,8 +228,9 @@ H_N(W)-H_N(Past(W))-Loss_{legal}^{height}(W)
 C\,Charge_N^{height}(W)+o_N(1).
 ```
 
-The shell-balance attempt shows that the derivative grammar is straightforward.
-The obstruction is the positive weighted nonlinear shell flux:
+The shell-balance attempt gives the exact derivative inequality recorded in
+`DonorHeightCreation.A`: after the legal loss is separated, the obstruction is
+the positive weighted nonlinear shell flux
 
 ```math
 \int_W
