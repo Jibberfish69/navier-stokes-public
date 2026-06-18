@@ -36,7 +36,9 @@ ScaleCriticalTreeCarleson.A
 
 The direct active-square estimate needs a heat-scale square-source theorem for the selected shell source. Current original-data inputs give finite raw energy and dissipation, while the target prices scale-normalized mass on shrinking terminal active windows.
 
-The active-shell amplitude gain route would convert `2^{-j}D_j^2` into an absorbable viscous term plus reserve. The implication is valid; the gain remains open.
+The active-shell amplitude gain route converts `2^{-j}D_j^2` into an absorbable
+viscous term plus reserve once supplied. The implication is valid; the gain
+remains open.
 
 The localized positive source route preserves parent-child geometry, while global skew-symmetry cancels before localization and positive-part selection. It gives no bound on the selected positive carrier.
 

@@ -4,9 +4,9 @@
 
 Closed manuscript compression surface.
 
-## Minimal standard lemma sequence
+## Minimal Classical Lemma Sequence
 
-The periodic proof can be presented with five standard PDE lemmas and one theorem.
+The periodic proof can be presented with five classical PDE lemmas and one theorem.
 
 ### Lemma 1: Moving-cylinder epsilon regularity
 

@@ -6,7 +6,10 @@ Failed direct attempt. The target reduces to the scale-critical tree Carleson re
 
 ## Target
 
-For every localized positive source-parent measure `\pi_P`, prove either bounded parent concentration or a globally summable charge for diffuse legal parentage. The desired diffuse branch is a finite scale-normalized donor reserve:
+For every localized positive source-parent measure `\pi_P`, prove either bounded
+parent concentration or a globally summable charge for diffuse legal parentage.
+The diffuse branch is not a consequence of shell banding or raw energy.  It is
+the finite scale-normalized donor-reserve estimate
 
 ```math
 \pi_P(\mathsf{Pred}(P)\setminus\mathcal C(P))
@@ -24,7 +27,7 @@ Finite dyadic banding controls shell type and triad class. It leaves physical pa
 
 is compatible with current shell geometry. Every bounded selector captures at most `B/M` of the mass.
 
-Raw orthogonality controls unweighted donor energy. The source-parent charge is scale-normalized and one-sided. Donor amplitudes can be spread across many legal parents so that raw quadratic cost stays small while normalized child-feeding mass remains order one.
+Raw orthogonality controls unweighted donor energy. The source-parent charge is scale-normalized and one-sided. Donor amplitudes can be spread across many legal parents so that the raw quadratic cost is \(\sum_{\alpha=1}^M M^{-2}=M^{-1}\), while normalized child-feeding mass is \(\sum_{\alpha=1}^M M^{-1}=1\).
 
 Same-fluid transport preserves legality after a parent edge has been selected. It supplies fidelity, while the target needs an inverse selection theorem or a donor entropy charge.
 

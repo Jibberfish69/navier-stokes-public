@@ -12,7 +12,10 @@ The branch has:
 Jumpavg => epsilon-threshold SCF concentration sequence.
 ```
 
-The `nu_SCF` charge has finite unweighted bounded-overlap upper control, but it does not select the `E_u` component. The enlarged charge including `E_u` would cover the component split, but its upper estimate reduces to an active-window amplitude gain or heat-scale square-source theorem.
+The `nu_SCF` charge has finite unweighted bounded-overlap upper control, but it
+does not select the `E_u` component. The enlarged charge including `E_u` covers
+the component split, but its upper estimate reduces to an active-window amplitude
+gain or heat-scale square-source theorem.
 
 ## Obstruction
 

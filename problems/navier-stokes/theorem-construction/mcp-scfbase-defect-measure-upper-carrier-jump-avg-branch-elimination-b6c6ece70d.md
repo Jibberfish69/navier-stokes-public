@@ -77,7 +77,13 @@ On each cutoff chart, the local pressure split satisfies
 -\Delta p^{loc}_\chi=\partial_i\partial_j(\chi u_i u_j).
 ```
 
-The Leray bounds place `u` in the standard finite-energy pressure class on finite measure cylinders. Calderon-Zygmund estimates give local integrability of `p^{loc}_chi` strong enough for
+The Leray bounds give
+`u\in L^\infty_tL^2_x\cap L^2_t\dot H^1_x`; interpolation gives
+`u\in L^{10/3}_{t,x}` on finite-measure cylinders, hence
+`\chi u_i u_j\in L^{5/3}_{t,x}`.  Calderon-Zygmund estimates for
+`-\Delta p^{loc}_\chi=\partial_i\partial_j(\chi u_i u_j)` give
+`p^{loc}_\chi\in L^{5/3}_{t,x}`.  Since `5/3>3/2` on a finite-measure cylinder,
+this gives
 
 ```math
 \int |p^{loc}_\chi|^{3/2}<\infty.

@@ -66,7 +66,11 @@ The local pressure part is defined relative to the cutoff `\chi`. On each chart,
 \mu_{P,\chi}:=|p^{loc}_\chi|^{3/2}\,dx\,dt.
 ```
 
-The Leray bounds imply the local source `\chi u\otimes u` lies in the standard finite-energy pressure class on finite measure cylinders. Calderon-Zygmund estimates give local finiteness of
+The Leray bounds give
+`u\in L^\infty_tL^2_x\cap L^2_t\dot H^1_x`; interpolation gives
+`u\in L^{10/3}_{t,x}` on finite-measure cylinders, so
+`\chi u\otimes u\in L^{5/3}_{t,x}`.  Calderon-Zygmund estimates give
+`p^{loc}_\chi\in L^{5/3}_{t,x}`, hence local finiteness of
 
 ```math
 \int |p^{loc}_\chi|^{3/2}.

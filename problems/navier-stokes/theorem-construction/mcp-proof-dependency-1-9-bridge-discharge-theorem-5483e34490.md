@@ -52,7 +52,7 @@ This is a same-surface bulk-control bridge rather than background energy prose. 
 
 ## Bridge 3: the monotone bridge exposes energy insufficiency
 
-The monotone bridge gives the global bulk layer, while the Navier-Stokes continuation obstruction is scale-local. A bounded `Q(t)` package controls energy/enstrophy infrastructure. It leaves the endpoint Besov or Lipschitz quantity required by standard continuation criteria outside direct reach.
+The monotone bridge gives the global bulk layer, while the Navier-Stokes continuation obstruction is scale-local. A bounded `Q(t)` package controls energy/enstrophy infrastructure. It leaves the endpoint Besov or Lipschitz quantity required by the named BKM/Serrin/`H^s` continuation criteria outside direct reach.
 
 Thus the route proceeds from `Q(t)` to a statement saying global energy/enstrophy is necessary infrastructure and insufficient terminal control. This discharges `proof-dependency-3`.
 

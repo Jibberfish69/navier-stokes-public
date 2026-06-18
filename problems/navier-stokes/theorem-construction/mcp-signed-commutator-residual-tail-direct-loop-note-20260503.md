@@ -10,7 +10,8 @@ Close the nonlinear shell-flux source theorem through the pair:
 \text{active-square residual-tail control.}
 ```
 
-A successful proof would feed `PositiveRemainderDepletion.A` and then `SourcePulseExclusion.A`.
+A successful proof feeds `PositiveRemainderDepletion.A` and then
+`SourcePulseExclusion.A`.
 
 ## Signed branch
 
@@ -27,7 +28,10 @@ Thus signed cancellation needs a new theorem: active eigendirection decorrelatio
 
 ## Residual-tail branch
 
-Taking absolute values returns to the positive-carrier branch. The needed estimate is active-square residual-tail / `ScaleCriticalTreeCarleson.A`. Shell-amplitude gain, square-source control, or localized positive source Carleson would imply it.
+Taking absolute values returns to the positive-carrier branch. The needed
+estimate is active-square residual-tail / `ScaleCriticalTreeCarleson.A`.
+Shell-amplitude gain, square-source control, or localized positive source
+Carleson implies it once supplied.
 
 Raw energy and first-moment dissipation do not control shellwise square dissipation on shrinking active windows. A source-balanced pulse can keep the active shell above threshold while remaining compatible with finite energy. Direct localized positive-source estimates preserve geometry but produce the same active-square residual after Cauchy/Young.
 

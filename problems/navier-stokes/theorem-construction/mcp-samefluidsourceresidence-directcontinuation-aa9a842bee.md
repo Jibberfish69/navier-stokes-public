@@ -104,7 +104,7 @@ The source split is
 \mathcal R_P.
 ```
 
-The useful theorem would be
+The useful exact theorem is
 
 ```math
 \int_{Q(P)}[\mathcal R_P]_+
@@ -116,7 +116,8 @@ The useful theorem would be
 \tag{SFR.3}
 ```
 
-This would force every positive source pulse to spend drain, legal parent mass, or legal loss, giving source residence and tree Carleson control.
+This condition forces every positive source pulse to spend drain, legal parent
+mass, or legal loss, giving source residence and tree Carleson control.
 
 The direct attempt reaches the active strain/source product.  The selected active packet can align with an expanding strain direction.  Energy, pressure, cutoff, and local energy ledgers route sizes and legal losses; they supply no sign-depletion theorem for `[\mathcal R_P]_+` on the selected window.  Hence `(SFR.3)` is exactly `PositiveRemainderDepletion.A`, still open.
 

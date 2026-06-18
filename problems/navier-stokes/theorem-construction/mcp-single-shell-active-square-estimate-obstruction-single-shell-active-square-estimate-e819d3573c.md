@@ -26,7 +26,15 @@ The damped scalar response gives the conditional route:
 where `lambda_j:=nu 2^{2j}`. Multiplying by `2^{3j}` reduces the target to an entrance-tail reserve plus the square-source estimate for `F_j`.
 
 ## Obstruction
-The required square-source estimate for `F_j` fails as a universal theorem from original smooth data by fixed-shell cubic amplitude scaling. Scaling smooth divergence-free data by amplitude `A` makes the shell flux scale like `A^3`, so the squared source scales like `A^6` on short intervals, while the proposed universal right-hand side is amplitude-independent at fixed shell.
+The required square-source estimate for `F_j` fails as a universal theorem from original smooth data by fixed-shell cubic homogeneity.  For a fixed shell profile `u`,
+
+```math
+F_j(Au)=A^3F_j(u),
+\qquad
+|F_j(Au)|^2=A^6|F_j(u)|^2.
+```
+
+On any short interval where the fixed-shell profile is retained, the proposed universal right-hand side is amplitude-independent at fixed shell.  Thus the estimate needs an active-window amplitude normalization or a structural cancellation theorem; smooth initial data alone does not provide the uniform normalized bound.
 
 ## Verdict
 The single-shell active-square estimate remains open. It is equivalent, at current route granularity, to one of:

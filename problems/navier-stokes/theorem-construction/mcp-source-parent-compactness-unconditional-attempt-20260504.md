@@ -64,7 +64,9 @@ Thus bounded shell banding and same-fluid fidelity fail to force bounded parent 
 
 The diffuse branch asks the spread-out legal parent measure to spend a finite reserve. Existing ledgers price energy, local-energy balance, pressure/cutoff leakage, illegal localization loss, and residual charge. They supply no price for legal branching entropy inside `\mathsf{Pred}(P)`.
 
-The active-square or local positive source Carleson reserve would price this branch, yet that theorem is route-equivalent to the source-pulse wall. Importing it here would close the target by assumption.
+The active-square or local positive source Carleson reserve prices this branch
+once supplied, yet that theorem is route-equivalent to the source-pulse wall.
+Importing it here closes the target by assumption.
 
 Therefore `DiffuseParentCharge.A` remains open under current inputs.
 

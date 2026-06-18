@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed as an immediate import or proof.  External literature supplies adjacent tools, but no located theorem directly proves the needed selected-source terminal anti-atom statement for `B_ASAC`.
+Failed as a direct import or proof.  External literature supplies adjacent tools, but no located theorem directly proves the needed selected-source terminal anti-atom statement for `B_ASAC`.
 
 ## Target
 
@@ -43,7 +43,26 @@ The missing adaptation is the source tether:
 \mu_m^{src,+}\quad\text{controlled by the quantitative CKN dissipation measure on the same selected windows.}
 ```
 
-Without this tether, CKN controls the usual local energy/dissipation quantities rather than the one-sided same-fluid selected native source marginal.
+Without this tether, the CKN input controls only the scale-critical quantities
+
+```math
+A_r=r^{-1}\sup_t\int_{B_r}|u|^2,\qquad
+C_r=r^{-2}\iint_{Q_r}|u|^3,\qquad
+D_r=r^{-1}\iint_{Q_r}|\nabla u|^2,
+```
+
+plus the corresponding pressure quantity.  It does not imply the needed
+same-window domination
+
+```math
+\mu_m^{src,+}(Q_r^\Phi)
+\le
+F(A_r,C_r,D_r,P_r)+o_m(1)
+```
+
+for the one-sided same-fluid selected native source marginal, nor a
+reverse-Holder estimate forcing that source marginal to be absolutely continuous
+with respect to the CKN dissipation measure.
 
 ### Energy-measure density methods
 
@@ -53,7 +72,7 @@ Energy-measure dimension estimates can rule out overly concentrated terminal ene
 B_{ASAC}\Longrightarrow\text{the required Type-I / }L^qL^p\text{ density hypothesis.}
 ```
 
-The current class supplies finite local `L^1_s` source mass only, so the terminal-layer model remains compatible.
+The current class supplies finite local `L^1_s` source mass only, so the endpoint time-marginal witness remains compatible.
 
 ### Ancient Liouville / backward uniqueness
 

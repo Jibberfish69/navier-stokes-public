@@ -11,7 +11,8 @@ For terminal Zeno source-refill trees, construct a scale-normalized Carleson res
 
 with `R_sc` finite under `OriginalSmoothData` and uniform across terminal depth.
 
-This would close the charge branch of `RefillTreeWellFounded.A` and hence the donor route.
+This theorem closes the charge branch of `RefillTreeWellFounded.A` and hence
+the donor route.
 
 ## Attempt
 
@@ -21,9 +22,13 @@ Raw energy gives finite physical mass and first-moment dissipation. A Zeno sourc
 
 Local energy gives packet balances. It becomes a Carleson reserve only after a scale-normalized charge is supplied. That charge is exactly the current target.
 
-The candidate active-square / square-source estimates have the right form. They would control terminal active-window positive source mass and yield the desired tree Carleson bound. The terminal stack records those estimates as route-equivalent to `SourcePulseExclusion.A` after the executed active-square, square-source, and active-window Carleson audits.
+The candidate active-square / square-source estimates have the right form. They
+control terminal active-window positive source mass and yield the desired tree
+Carleson bound once supplied. The terminal stack records those estimates as
+route-equivalent to `SourcePulseExclusion.A` after the executed active-square,
+square-source, and active-window Carleson audits.
 
-Therefore importing active-window Carleson here would spend the theorem being proved.
+Therefore importing active-window Carleson here spends the theorem being proved.
 
 ## Result
 

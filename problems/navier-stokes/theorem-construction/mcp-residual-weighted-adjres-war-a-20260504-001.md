@@ -83,7 +83,7 @@ The commutator term consists of the strict low-high mismatch generated when `b_k
 R^{comm}_{j,k}=[P_j,b_k\cdot\nabla]w_j
 ```
 
-plus harmless adjacent-shell variants. Since `k<j-M`, Coifman-Meyer and Bernstein give
+plus the fixed adjacent-shell variants. Since `k<j-M`, Coifman-Meyer and Bernstein give
 
 ```math
 \|R^{comm}_{j,k}\|_2

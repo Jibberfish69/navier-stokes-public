@@ -17,7 +17,8 @@ G_N^{lift,\sigma}
 \sum W_{j,k,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
 ```
 
-A proof of this target, together with active-square residual-tail control, would feed `PositiveRemainderDepletion.A` and hence the source-pulse closure chain.
+A proof of this target, together with active-square residual-tail control, feeds
+`PositiveRemainderDepletion.A` and hence the source-pulse closure chain.
 
 ## Attempt
 

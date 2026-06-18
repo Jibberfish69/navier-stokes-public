@@ -131,4 +131,5 @@ with pressure entering only through legal projection commutator residuals.
 
 ## Boundary
 
-This discharge uses the projected formulation as the final packet convention. A local nonprojected pressure-normalized proof would require a separate carrier theorem.
+This discharge uses the projected formulation as the final packet convention. A
+local nonprojected pressure-normalized proof requires a separate carrier theorem.

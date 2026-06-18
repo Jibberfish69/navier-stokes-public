@@ -19,7 +19,9 @@ In the residual split
 R=R^{coeff}+R^{comm}+R^{press}+R^{cut}+R^{off},
 ```
 
-the pressure component is harmless only if the adjoint packet frame pairs in the solenoidal projected class or if pressure is separately normalized on the same carrier.
+the pressure component is removable only if the adjoint packet frame pairs in
+the solenoidal projected class or if pressure is separately normalized on the
+same carrier.
 
 ## Projected formulation
 

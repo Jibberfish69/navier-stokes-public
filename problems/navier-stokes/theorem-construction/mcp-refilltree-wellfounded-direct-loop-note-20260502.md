@@ -60,7 +60,9 @@ or
 ZenoSourceResidueRigidity.A.
 ```
 
-The first would charge terminal Zeno refill trees by a scale-normalized donor reserve. The second would extract a rigid ancient source-residue limit from any uncharged Zeno branch and force the inherited residue to vanish.
+The first charges terminal Zeno refill trees by a scale-normalized donor reserve.
+The second extracts a rigid ancient source-residue limit from any uncharged Zeno
+branch and forces the inherited residue to vanish.
 
 ## Consequence
 

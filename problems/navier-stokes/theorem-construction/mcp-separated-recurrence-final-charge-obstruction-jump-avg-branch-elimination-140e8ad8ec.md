@@ -30,7 +30,10 @@ There is currently no eligible final charge with both required properties:
 1. every threshold SCF packet selects positive mass for the charge;
 2. bounded-overlap terminal window sums of the charge are finite.
 
-Even if a single positive terminal defect were available, the contradiction would still require separated recurrence. A nested sequence around one terminal defect cannot be summed with the bounded-overlap upper estimate. The lower schedule must be terminal and separated enough for the upper estimate to apply.
+Even after a single positive terminal defect is available, the contradiction
+still requires separated recurrence. A nested sequence around one terminal defect
+cannot be summed with the bounded-overlap upper estimate. The lower schedule
+must be terminal and separated enough for the upper estimate to apply.
 
 ## Verdict
 

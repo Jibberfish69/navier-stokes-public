@@ -27,7 +27,10 @@ Finite dyadic banding bounds shell type. It leaves physical packet multiplicity 
 \qquad M\to\infty.
 ```
 
-Raw orthogonality has the wrong scale. Donor amplitudes can spread across many legal predecessors with raw quadratic cost tending to zero while normalized child-feeding source mass remains order one.
+Raw orthogonality has the wrong scale. Donor amplitudes can spread across many
+legal predecessors with raw quadratic cost
+\(\sum_{\alpha=1}^M M^{-2}=M^{-1}\to0\), while the normalized child-feeding
+source mass is \(\sum_{\alpha=1}^M M^{-1}=1\).
 
 Same-fluid transport preserves legal labels after parent selection. It gives no inverse theorem selecting a bounded parent set and gives no entropy charge for diffuse parentage.
 

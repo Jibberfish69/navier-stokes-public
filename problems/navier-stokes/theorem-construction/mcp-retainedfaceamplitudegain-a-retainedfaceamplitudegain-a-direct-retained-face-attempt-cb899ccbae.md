@@ -28,7 +28,8 @@ Pack_Q+Part_{N,Q}\Longrightarrow
 }
 ```
 
-This would imply the conditional cycle estimate and then the local positive source Carleson bound.
+This estimate implies the conditional cycle estimate and then the local positive
+source Carleson bound.
 
 ## Step 1. Pack controls the linear strain gain
 
@@ -100,7 +101,11 @@ or, equivalently, a Field/high-tail modulus on the selected terminal packet fami
 
 ## Step 4. Why preterminal smoothness is insufficient
 
-For any fixed `t_0<T_*`, classical smoothness gives high-frequency decay at `t_0`.  A first-crossing argument would propagate that decay if the envelope inequality above were already known.  The proof of that envelope inequality requires control of terminal high-high transfer on shrinking windows.  That is exactly the source wall.
+For any fixed `t_0<T_*`, classical smoothness gives high-frequency decay at
+`t_0`.  A first-crossing argument propagates that decay after the envelope
+inequality above is known.  The proof of that envelope inequality requires
+control of terminal high-high transfer on shrinking windows.  That is exactly
+the source wall.
 
 Thus preterminal smoothness supplies the starting value, while the missing source-wall estimate is needed to prevent first terminal crossing.
 

@@ -16,7 +16,8 @@ Concrete form:
 \int_{Bad_N(\eta)}(\mathfrak S_{N,loc}^{active})_-\,dt+o_N(1).
 ```
 
-This would deplete the native positive source carrier on the selected terminal bad windows.
+This estimate depletes the native positive source carrier on the selected
+terminal bad windows once supplied.
 
 ## Direct tests
 
@@ -40,4 +41,7 @@ Pressure, cutoff, and localization estimates route legal losses. They do not cre
 
 ## Verdict
 
-The signed-positive-balance branch stays open and reduces to the same source-pulse wall. The loop should proceed to `LocalPressureStrainDeplete.A`.
+The signed-positive-balance branch stays open and reduces to the same
+source-pulse wall.  The remaining pressure-strain route must prove a same-window
+negative-part dominance or localized positive stretching depletion theorem; no
+such theorem is installed here.

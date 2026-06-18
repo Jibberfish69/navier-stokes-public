@@ -6,7 +6,8 @@ Test the next `Jump_avg` branch-elimination item:
 
 `Signed weighted commutator-defect theorem`.
 
-The theorem would need to supply the missing flux-source control behind the active-square Carleson route.
+The theorem must supply the missing flux-source control behind the active-square
+Carleson route.
 
 ## Sources checked
 

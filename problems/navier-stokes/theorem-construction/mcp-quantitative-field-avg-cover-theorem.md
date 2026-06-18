@@ -55,13 +55,18 @@ r_{good}(a,t)\ge 2r_*
 \qquad ((a,t)\in T').
 ```
 
-For each point select an SCF-good same-fluid cylinder of radius in `[r_*,2r_*]`. The selected cylinders cover `T'`. Apply the parabolic Vitali-Besicovitch selection theorem in the pulled-back same-fluid coordinates. Bounded distortion transfers the standard parabolic overlap bound to the physical moving cylinders, giving
+For each point select an SCF-good same-fluid cylinder of radius in `[r_*,2r_*]`.
+In pulled-back same-fluid coordinates, choose a maximal `r_*/4`-separated net in
+the retained compact tail.  The `r_*/4` cores are disjoint, the `r_*` cylinders
+cover `T'`, and the `\theta_m r_j` dilates have overlap bounded by the
+parabolic packing constant after bounded-distortion pushforward:
 
 ```math
 \sum_j1_{Q_{\theta_m r_j}^{\Phi}}\le\Omega_4(M_\sharp).
 ```
 
-The parabolic balls have radius at least `r_*` and lie in a set of parabolic diameter `D_T`; the packing estimate gives
+The selected cylinders have radius at least `r_*` and lie in a set of parabolic
+diameter `D_T`; the disjoint `r_*/4` cores give the finite count
 
 ```math
 J\le C_4(M_\sharp)(1+D_T/r_*)^4.

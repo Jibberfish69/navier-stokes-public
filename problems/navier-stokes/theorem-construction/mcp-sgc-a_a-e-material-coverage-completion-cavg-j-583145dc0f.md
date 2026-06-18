@@ -35,7 +35,23 @@ u\in L^3_{loc},
 p\in L^{3/2}_{loc}.
 ```
 
-The same-fluid chart has bounded distortion, so its material spacetime measure is comparable to Eulerian spacetime measure on the chart. Pulling the local energy-class functions into material coordinates preserves local integrability up to constants depending only on the distortion bound.
+The same-fluid chart has bounded distortion: for its spatial Jacobian \(J_\Phi(a,t)\) there are constants \(0<c_\Phi\le C_\Phi<\infty\) on the chart such that
+
+```math
+c_\Phi \le |\det J_\Phi(a,t)| \le C_\Phi .
+```
+
+Consequently, for every nonnegative measurable \(f\) supported in the chart,
+
+```math
+c_\Phi\iint f(\Phi(a,t),t)\,da\,dt
+\le
+\iint f(x,t)\,dx\,dt
+\le
+C_\Phi\iint f(\Phi(a,t),t)\,da\,dt .
+```
+
+Pulling the local energy-class functions into material coordinates therefore preserves local integrability with constants depending only on \(c_\Phi,C_\Phi\).
 
 Parabolic Lebesgue differentiation then gives, for material-a.e. `(a,t)`,
 
