@@ -48,7 +48,20 @@ The implication is currently unproved. The definition of `Jump_avg` records term
 
 The current surfaces do not force the `SCF_base` failure to occur in these analytic components. Failure can still be assigned, at the level of available definitions, to geometric or field-side degeneration unless an additional component-selection theorem is installed.
 
-A formal obstruction model is therefore possible: terminal good-radius collapse holds, so `Jump_avg` holds, while the analytic measure `nu_SCF` has zero terminal lower density along the selected windows. This satisfies the present branch definitions and violates the desired lower bound.
+A definition-level obstruction model is therefore possible under the current
+branch definitions:
+
+```math
+Jump_avg(T)
+\quad\text{and}\quad
+\liminf_{n\to\infty}\nu_{SCF}(Q_n)=0
+```
+
+along the selected terminal windows `Q_n`.  Thus terminal good-radius collapse
+can be recorded while the analytic measure `nu_SCF` has zero terminal lower
+density on the same selected windows.  The missing theorem is the
+component-selection and moving-concentration compactness statement that forces
+radius collapse to spend nonzero `nu_SCF` mass on the selected windows.
 
 ## Required missing theorem
 
