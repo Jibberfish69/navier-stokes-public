@@ -1048,6 +1048,26 @@ branch. Those surfaces were edited in the same batch so that the continuation
 step now consumes only exact bounded-quantity hypotheses plus relaunch and
 uniqueness, not an unnamed criterion.
 
+Main-manuscript consequence pass:
+
+The live manuscript still contained two proof-spending compressed sentences in
+`submission-bundle/navier-stokes-submission.tex`: the finite-witness
+classification proof said that local `H^s` theory "restarts the classical
+solution past `T_*`", and the Field-survival case said that the readout
+"extends the same classical solution past `T_*`." Both have now been replaced
+inside the proof with the exact hypothesis
+
+```math
+M_s=\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,\qquad s>5/2,
+```
+
+the local lifespan `\tau(\nu,s,M_s)>0`, launch times `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, and uniqueness on the overlap. The following
+`No same-record member obstruction` theorem was also tightened so its `M_s`
+definition displays finiteness. The downstream contradiction in the manuscript
+therefore spends the exact relaunch-and-uniqueness theorem at the point of use,
+not a loose continuation phrase.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
