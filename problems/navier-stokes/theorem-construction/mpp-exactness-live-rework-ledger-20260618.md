@@ -5463,3 +5463,31 @@ Edited live surfaces:
 - `theorem-construction/lagrangian-six-lemma-mainline.md`;
 - `theorem-construction/sds-parent-route-triage.md`;
 - `theorem-construction/mpp-prd-completion-attempt-20260517.md`.
+
+## Second Downstream Pass: Submission Appendix Mirrors
+
+Old loose step:
+
+After the theorem-construction repairs, `submission-bundle/source-field-reader-appendix.tex`
+still mirrored stale lower-order/residual wording from older source notes.
+
+Exact replacement:
+
+The appendix mirrors now use the same exact replacements installed in the live
+notes: finite low-shell residuals are included in the selected residual
+functional; coherent/noncoherent readout terms must satisfy their displayed
+readout-compatible bounds; bounded coefficient terms are absorbed by the
+Carleman threshold; order-zero slab multipliers require the finite-slab
+threshold; collar commutators are absorbed by the displayed collar-packet bound;
+and shell remainders are named residual terms.
+
+Downstream consequence:
+
+The submission-bundle appendix no longer reintroduces the repaired
+"lower-order" proof shortcut language. The live manuscript `U/r` hits are
+negative exactness statements only: they say the argument is not a linear
+profile or `U/r` slope assumption.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
