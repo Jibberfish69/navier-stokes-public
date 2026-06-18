@@ -2308,6 +2308,38 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Terminal Record Proof-Core Consumer Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-pdf-cmi-proof-core-reentry-20260609.md` still said
+  `mpp-terminal-record-entry-standard-pde-hardening-20260608.md` proves a
+  "standard maximal-solution entry step."
+
+Exact replacement:
+
+The proof-core note now states the same bounded-norm relaunch used in the
+terminal-record theorem:
+
+```math
+M_s:=\sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
+\qquad
+\tau=\tau(\nu,s,M_s)>0.
+```
+
+For `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, local `H^s` theory relaunches from
+`u(t_j)` beyond `T_*`, and uniqueness on `[t_j,T_*)` identifies the relaunched
+solution with the original branch.
+
+Downstream consequence: this proof-core consumer no longer spends
+"standard maximal solution" as a hidden continuation argument. It cites the
+exact same-branch relaunch mechanism already installed in the theorem note and
+main manuscript.
+
+Edited live surface:
+
+- `theorem-construction/mpp-pdf-cmi-proof-core-reentry-20260609.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
