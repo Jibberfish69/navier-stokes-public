@@ -106,7 +106,7 @@ Then
 ```math
 \sup_{x\in Q_t^{int}}|u(x,t)|
 \le
-C_{r,C,E_0,Q}<\infty.
+C_{r,r_{int},C,E_0,Q}<\infty.
 \tag{RF.4}
 ```
 
