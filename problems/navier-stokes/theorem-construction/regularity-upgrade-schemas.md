@@ -30,8 +30,8 @@ with vorticity
 \omega := \nabla \times u.
 ```
 
-On the local smooth existence interval `[0,T_*)`, the standard vorticity and
-continuation formulas hold:
+On the local smooth existence interval `[0,T_*)`, the vorticity equation and
+continuation criterion used here are the following exact inputs:
 
 ```math
 \partial_t \omega + (u\cdot\nabla)\omega = (\omega\cdot\nabla)u + \nu\Delta\omega,
@@ -184,8 +184,13 @@ upgrade
 \omega \in L^1_t B^0_{\infty,1}.
 ```
 
-Then, using the standard embedding `B^0_{\infty,1} \hookrightarrow L^\infty`,
-one obtains
+Then the Besov embedding
+
+```math
+\|f\|_{L^\infty_x}\le C\|f\|_{B^0_{\infty,1}}
+```
+
+gives
 
 ```math
 \int_0^T \|\omega(t)\|_{L^\infty_x}\,dt
