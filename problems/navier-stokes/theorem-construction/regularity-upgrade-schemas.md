@@ -419,7 +419,8 @@ Each of the schemas above implies a bound of the form
 \|\nabla u\|_{L^1(0,T;L^\infty_x)} \le F(\|u_0\|_{H^s})
 ```
 
-for every finite `T`, and therefore the standard high-regularity estimate
+for every finite `T`. The continuation step spends the explicit high-regularity
+inequality
 
 ```math
 \frac{d}{dt}\|u(t)\|_{H^s}
@@ -427,7 +428,21 @@ for every finite `T`, and therefore the standard high-regularity estimate
 C\|\nabla u(t)\|_{L^\infty_x}\|u(t)\|_{H^s}
 ```
 
-forces a global `H^s` bound and smooth continuation.
+and Gronwall's lemma:
+
+```math
+\sup_{0\le t\le T}\|u(t)\|_{H^s}
+\le
+\|u_0\|_{H^s}
+\exp\!\left(
+C\int_0^T\|\nabla u(t)\|_{L^\infty_x}\,dt
+\right).
+```
+
+On a finite terminal interval this gives a finite \(H^s\), \(s>5/2\), bound
+`M_s(T)`. The local \(H^s\) theorem then supplies a lifespan
+`\tau(\nu,s,M_s(T))>0`; relaunching from times inside \(\tau/2\) of the
+endpoint and using uniqueness on the overlap gives smooth continuation.
 
 ## Honest Frontier Statement
 
