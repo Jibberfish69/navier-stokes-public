@@ -102,6 +102,7 @@ Summing over `\ell>k+4` and multiplying by `2^k` gives:
 \le
 2^k\sum_{\ell>k+4}2^{2\ell}F_\ell(t)
 -c\nu 2^k\sum_{\ell>k+4}2^{2\ell}D_\ell(t)
++
 2^k\sum_{\ell>k+4}2^{2\ell}L_\ell(t).
 ```
 
@@ -222,8 +223,8 @@ HeightFluxControl.A
 
 not at the algebraic derivative of `H_k`.
 
-The derivative is straightforward.  The missing theorem is a noncircular
-control of the positive weighted shell flux:
+The displayed shell balance gives the exact obstruction.  The missing theorem
+is a noncircular control of the positive weighted shell flux:
 
 ```math
 \int_W
