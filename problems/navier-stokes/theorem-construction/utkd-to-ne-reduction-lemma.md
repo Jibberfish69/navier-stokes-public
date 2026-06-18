@@ -124,4 +124,4 @@ This lemma fixes the algebraic endpoint:
 This note proves only the reduction.
 
 It does not prove `(NE)`. That theorem remains the first genuinely new theorem
-after the formal reductions.
+after the displayed algebraic reductions.
