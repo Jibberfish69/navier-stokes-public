@@ -78,7 +78,9 @@ For a rescaled Navier-Stokes field, pressure is tied to
 -Delta q = partial_i partial_j (v_i v_j)
 ```
 
-up to the usual normalization. Under amplitude scaling,
+with zero spatial mean on the periodic model, or with the declared decay/local
+pressure gauge on the whole-space model. This normalization is linear in the
+right-hand side, so under amplitude scaling
 
 ```text
 v_M = M phi

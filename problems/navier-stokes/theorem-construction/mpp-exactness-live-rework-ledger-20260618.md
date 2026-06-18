@@ -6347,6 +6347,38 @@ Surfaces edited:
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`.
 
+## Weighted Profile Pressure Normalization Rework
+
+Old claim being spent:
+
+`mpp-weighted-profile-production-absorption-direct-test-20260611.md` said the
+rescaled pressure satisfies
+
+```text
+-Delta q = partial_i partial_j(v_i v_j)
+```
+
+"up to the usual normalization" before using amplitude scaling to conclude
+`q_M=M^2 pi_phi`.
+
+Exact replacement:
+
+The note now states the pressure gauge: zero spatial mean on the periodic model,
+or the declared decay/local pressure gauge on the whole-space model.  With that
+fixed gauge, the pressure solve is linear in the right-hand side, so
+`v_M=M phi` gives `q_M=M^2 pi_phi`.
+
+Downstream consequence:
+
+The amplitude-scaling obstruction remains unchanged, but it no longer spends an
+unnamed pressure-normalization convention.  The cubic pressure-production term
+still cannot be dominated by the quadratic Gaussian linear loss with
+amplitude-independent constants.
+
+Surface edited:
+
+- `theorem-construction/mpp-weighted-profile-production-absorption-direct-test-20260611.md`.
+
 ## HFG Damped-Shell Upgrade Repair
 
 Old claim being spent:
