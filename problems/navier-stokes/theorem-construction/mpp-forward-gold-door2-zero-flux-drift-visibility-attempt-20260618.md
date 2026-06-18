@@ -113,7 +113,8 @@ Jacobian:
 \tag{ZD.7}
 ```
 
-This is not installed.  The Zeno profile may have nearly degenerate moments,
+No constant `C_{\mathrm{gauge}}` with this coercive gauge estimate is installed.
+The Zeno profile may have nearly degenerate moments,
 multiple comparable extremizers, or switching packet selectors.  Then the gauge
 can move without producing a coercive residual.
 
