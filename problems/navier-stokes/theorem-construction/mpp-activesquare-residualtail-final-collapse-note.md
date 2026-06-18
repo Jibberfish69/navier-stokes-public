@@ -91,7 +91,7 @@ That normalization is another form of the same source-pulse exclusion theorem.
 - finite energy or first-moment dissipation;
 - the installed cumulative tail-square reserve;
 - the current square-source route without amplitude normalization;
-- `FFSRC.A=>FCI.5f`, which is only downstream source integrability;
+- `Hyp(FFSRC.A)=>FCI.5f`, which is only downstream source integrability;
 - the averaged cover machinery, which treats the bad branch as `Jump_avg`.
 
 The branch collapses to:
