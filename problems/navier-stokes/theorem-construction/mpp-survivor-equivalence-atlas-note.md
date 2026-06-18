@@ -145,7 +145,7 @@ This definition makes `\sim_{\mathrm{surv}}` reflexive, symmetric, and
 transitive as atlas bookkeeping.
 
 The proof-relevant burden is stronger: when a theorem claims two named branch
-objects are "the same survivor," it should supply either a direct
+objects are "the same survivor," it must supply either a direct
 `\bowtie_{\mathrm{surv}}` witness or the finite chain in `(SEA.9)`.
 
 ## Edge Types
