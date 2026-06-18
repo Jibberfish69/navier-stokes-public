@@ -340,7 +340,7 @@ ParabolicEdgeResistance.A,
 ```
 
 but the direct edge-resistance attempt reduces its missing coefficient to the
-same scale-critical active-square reserve:
+active-square reserve displayed below:
 
 ```math
 CriticalFluxAmplitudeSmall.A

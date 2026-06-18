@@ -15,8 +15,8 @@ source-wall square-reserve primitive.}
 ```
 
 The bypass does not create an easier generic Liouville theorem.  The attempted
-temporal-integrability escape collapses back to the same scale-critical carrier
-primitive already isolated under the post-reconcile source wall:
+temporal-integrability escape still requires the carrier primitive already
+isolated under the post-reconcile source wall:
 
 ```math
 \boxed{

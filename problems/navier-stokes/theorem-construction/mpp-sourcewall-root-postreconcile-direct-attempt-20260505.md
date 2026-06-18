@@ -116,7 +116,7 @@ ActiveShellAmplitudeGain.A,
 HeatScaleSquareSourceControl.A.
 ```
 
-Each presentation returns to the same scale-critical reserve:
+Each presentation leaves the source reserve unproved:
 
 - global skew cancellation is lost after localization and positive-part
   selection;

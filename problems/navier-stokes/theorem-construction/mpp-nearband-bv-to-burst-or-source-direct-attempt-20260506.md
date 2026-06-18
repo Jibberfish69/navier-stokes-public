@@ -244,8 +244,8 @@ C\mathcal L_{N,Q}^{field}(W)
 ```
 
 This is the pressure/source gate in its sharpest current form.  It is not
-settled by absolute Calderon-Zygmund estimates, because those return to the
-same scale-critical active-source multiplier.  A noncircular proof must use
+settled by absolute Calderon-Zygmund estimates, because those bound only the
+active-source multiplier displayed in (NBV.10).  A noncircular proof must use
 one of:
 
 ```text

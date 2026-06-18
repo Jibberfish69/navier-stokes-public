@@ -216,8 +216,8 @@ e_P\cdot P^{loc}_{j_P,L}(S^2+\Omega^2+\nabla^2p)e_P
 ```
 
 and the associated frame-rotation cost.  Absolute estimates of this term give
-the same scale-critical active coefficient bound, while signed integration by
-parts reintroduces the one-sided terminal source-current.
+only an unsigned active coefficient bound, while signed integration by parts
+reintroduces the one-sided terminal source-current.
 
 Thus this attempt isolates a sharper possible new atom:
 
