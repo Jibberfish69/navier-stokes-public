@@ -20,13 +20,11 @@ edge from its negative exchange partner.  Current route inputs do not prove
 that the negative partner remains inside the same usable terminal same-fluid
 ledger or that it is otherwise charged by viscous/legal loss.
 
-Thus the signed route still reduces to the existing live theorem object:
-
-```math
-\boxed{
-ScaleCriticalTreeCarleson.A.
-}
-```
+Exactness rework correction, 2026-06-18: this failed attempt is a signed
+same-fluid obstruction calculation.  It may not be used to reset the current
+live target to the old scalar source wall.  Current proof use requires
+same-ledger payment, terminal signed saturation, or CM-test admission plus first
+Pack/Part/Field face failure on the same witness.
 
 ## Intended Theorem
 
@@ -104,7 +102,7 @@ The exact pair `(EP.1)` is not enough for `(EP.2)` for four separate reasons.
 ### 1. One-sided weights break antisymmetry
 
 After inserting the source-wall tail weights, the symmetrized coefficient
-mismatch is order-size rather than gap-small.  Schematically:
+mismatch is the exact order-size defect
 
 ```math
 2^j2^{-\sigma(\ell-j)}-2^\ell
@@ -293,6 +291,11 @@ ScaleCriticalTreeCarleson.A.
 }
 ```
 
+Current proof use is narrower: the absolute-value fallback is source-control
+support only.  It has CM proof force only after it is paid in the same ledger or
+after the admitted terminal branch derives the first failed Pack, Part, or
+Field face.
+
 ## Working Verdict
 
 The signed-exchange idea identifies the structural mechanism candidate: source
@@ -300,17 +303,18 @@ pulses must pay by signed exchange.  The current route still lacks the terminal
 saturation theorem that keeps the negative counter-edge in the same usable
 same-fluid ledger.
 
-Thus this attempt does not close `ScaleCriticalTreeCarleson.A`.  It sharpens
-the signed route to:
+Thus this attempt does not close the signed-current branch.  It sharpens the
+signed route to:
 
 ```math
 \boxed{
 TerminalSignedSaturation.A
-\quad\text{or}\quad
-ScaleCriticalTreeCarleson.A
 }
 ```
 
 with the caveat that `TerminalSignedSaturation.A` is not a separate lower
 installed theorem; it is a signed formulation of the same source-control wall
-unless a new strain-sign / terminal-saturation argument is supplied.
+unless a new strain-sign / terminal-saturation argument is supplied.  Any
+absolute fallback to `ScaleCriticalTreeCarleson.A` remains historical supplier
+support under the Pack-first CM correction, not a current target-setting
+conclusion.
