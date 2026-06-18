@@ -7,7 +7,8 @@ forcing estimate.
 
 It does not prove the weaker branch closes.
 It proves that if the projected equation carries a remainder term, then the
-classical question becomes a standard forced `H^s` continuation problem.
+classical question becomes the forced `H^s` continuation problem governed by
+the proposition below.
 
 ## Forced classical equation
 

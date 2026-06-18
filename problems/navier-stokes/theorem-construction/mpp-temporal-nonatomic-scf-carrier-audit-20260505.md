@@ -50,7 +50,7 @@ TemporalNonAtomicSCF.A:
 \forall R<\infty.
 ```
 
-The standard sufficient theorem is a superlinear temporal marginal bound:
+The sufficient theorem is a superlinear temporal marginal bound:
 
 ```math
 \left\|

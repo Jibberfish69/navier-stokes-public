@@ -118,7 +118,7 @@ M.
 \tag{WEP.A1}
 ```
 
-Under `(WEP.A1)`, the principal projector symbol belongs to the standard
+Under `(WEP.A1)`, the principal projector symbol belongs to the Hörmander
 order-zero class:
 
 ```math

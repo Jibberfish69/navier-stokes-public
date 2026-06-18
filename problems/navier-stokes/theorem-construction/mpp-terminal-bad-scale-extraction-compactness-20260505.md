@@ -10,7 +10,7 @@ Verdict:
 ```math
 \boxed{
 TerminalBadScaleExtraction.A
-\text{ closes under the standard retained same-fluid suitable-compactness
+\text{ closes under the retained same-fluid suitable-compactness
 normalization.}
 }
 ```
@@ -24,7 +24,7 @@ It does not close `TerminalDefectPersistence.A` or
 |---|---|
 | `mpp-source-no-pulse-read-cover-bypass-discharge-20260505.md` | two-threshold `READ.COVER` bypass and target placement |
 | `mcp-moving-concentration-compactness-test.md` | moving `D_u/P` concentration compactifies to a terminal SCF defect object |
-| `mpp-zeno-source-residue-compactness-extraction-note.md` | standard parabolic rescaling and ancient local suitable compactness pattern |
+| `mpp-zeno-source-residue-compactness-extraction-note.md` | parabolic rescaling and ancient local suitable compactness inputs |
 | `mcp-affine-pressure-normalization-compatibility-lemma-846fdf37af.md` | pressure-gauge compatibility for `SCF_base` |
 
 ## Setup
@@ -160,12 +160,20 @@ inequality and the Navier-Stokes equations in the suitable weak sense on
 
 ## Proof
 
-The compactness proof is the standard diagonal local-suitable extraction.
+The compactness proof is the following diagonal local-suitable extraction.
 
 For a fixed `R`, `(TBSE.2)` gives uniform local energy, dissipation, and
 pressure bounds on `Q_R^-`.  The local equation gives the corresponding
-negative-Sobolev time-derivative control on compact subcylinders.  Aubin-Lions
-therefore gives strong local `L^2` convergence of `u^{(n)}` after subsequence.
+negative-Sobolev time-derivative control on compact subcylinders, for example
+
+```math
+\partial_su^{(n)}
+\text{ is bounded in }
+L^{4/3}((-R^2,0);H^{-1}(B_R)).
+```
+
+Aubin-Lions therefore gives strong local `L^2` convergence of `u^{(n)}` after
+subsequence.
 Weak compactness gives subsequential limits of `\nabla u^{(n)}` in `L^2` and
 `p^{(n)}` in `L^{3/2}` after subtracting time functions.
 
