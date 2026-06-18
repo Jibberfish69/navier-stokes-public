@@ -146,7 +146,8 @@ This proves `(1)`.
 
 ## Lemma B: far corona carries an explicit gap kernel
 
-For the far-corona strain one has the pointwise kernel bound
+For the far-corona contribution to the commutator/stress flux, the required
+kernel bound is
 
 ```math
 \Sigma_\ell^{far,L}(x,t)
@@ -158,8 +159,10 @@ For the far-corona strain one has the pointwise kernel bound
 \tag{2}
 ```
 
-where `c_b2^{-(N+M)}\le\ell_{bot}\le C_b2^{-(N+M)}` and `\widetilde\Sigma_r` is a band strain at
-scale `r`.
+where `c_b2^{-(N+M)}\le\ell_{bot}\le C_b2^{-(N+M)}` and
+`\widetilde\Sigma_r` is the normalized far-band strain density
+`r|\nabla \widetilde Q_r u|`, after convolution against kernels with uniformly
+bounded `L^1` mass.
 
 ### Proof
 
@@ -182,12 +185,28 @@ Then
 \int_{e^{L}\ell}^{\ell_{bot}} \nabla\widetilde Q_r u \,\frac{dr}{r}.
 ```
 
-When this lower-frequency field is inserted into the commutator kernel at
-active scale `\ell`, the mean-value expansion produces the increment factor
-`|h|`. On the kernel support there are constants `c_\rho,C_\rho>0` with
-`c_\rho\ell\le |h|\le C_\rho\ell`; for a field varying on scale `r`, this gives
-`c_\rho\ell/r\le |h|/r\le C_\rho\ell/r`. Convolving with the radius-`\ell`
-averaging kernel `\rho_\ell` gives `(2)`.
+When the \(r\)-band field \(f_r=\widetilde Q_r u\) is inserted into the
+commutator kernel at active scale `\ell`, the exact increment is
+
+```math
+f_r(x+h)-f_r(x)
+=
+\int_0^1 h\cdot\nabla f_r(x+\theta h)\,d\theta .
+```
+
+On the kernel support, \(|h|\le C_\rho\ell\).  Hence
+
+```math
+|f_r(x+h)-f_r(x)|
+\le
+C_\rho\frac{\ell}{r}
+\int_0^1 r|\nabla f_r(x+\theta h)|\,d\theta .
+```
+
+Convolution in \(h\) against the radius-\(\ell\) averaging kernel produces
+`(2)`, with `\widetilde\Sigma_r` equal to the convolved normalized density
+`r|\nabla \widetilde Q_r u|`.  No linear profile for the \(r\)-band field is
+assumed; all profile dependence remains inside that normalized density.
 
 So the far-corona transport loses efficiency with spectral gap in the
 continuous variable by the explicit kernel `\ell/r`.
