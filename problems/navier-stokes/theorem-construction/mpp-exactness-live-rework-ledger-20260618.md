@@ -4510,6 +4510,37 @@ Edited live theorem notes:
 - `theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`;
 - `theorem-construction/spectral-transversality-in-measure-implies-pd70.md`.
 
+## TPS Selector-Observability Conditionality Repair
+
+Old loose wording:
+
+- `tps-selector-observability-to-sg4-bridge-proof-attempt.md` called the
+  simple-top angle reduction "already formal," said the downstream passage to
+  `PD.70` / `SG.4B` was "formal by `(ST.7)`," named an "exact formal route,"
+  and said the Hodge split/final summation were formal once `(E.8)`-`(E.10)`
+  were available.
+
+Exact replacement:
+
+The note now calls `D.7g` a conditional reduction, says the downstream passage
+is conditional on `(ST.7)` and the installed pair-defect packet, removes
+"formal" from the exact Cauchy--Green route, and states that the Hodge split
+and final summation are algebraic consequences only once `(E.8)`-`(E.10)` are
+available. The selector-strain compatibility estimate `(D.7ma5)` is explicitly
+an additional theorem and does not follow from Cauchy--Green construction
+alone.
+
+Downstream consequence:
+
+The selector-observability route cannot spend angle reduction, ST.7, the
+Cauchy--Green gap route, or Hodge summation unless the displayed hypotheses are
+present: `(ST.7)`, the pair-defect packet, the reference simple-top gap plus
+Cauchy--Green persistence, and `(E.8)`-`(E.10)`.
+
+Edited live theorem note:
+
+- `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
