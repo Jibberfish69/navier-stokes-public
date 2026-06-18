@@ -272,6 +272,38 @@ Edited live surfaces:
 - `submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex`;
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Same-Proof Reference Tightening
+
+Old claim being spent:
+
+Two live theorem notes used shortcut references: the enlarged-ball oscillation
+note said "the same proof as `LCI.B2f2b`", and the jet-to-finite-difference
+bridge said the "same estimate" holds with `U_k` replaced by `K_k`.
+
+Exact replacement:
+
+The enlarged-ball note now states the exact substitution:
+`R_delta^{osc}` is replaced by `R_delta^{osc,2}`, and the oscillation
+coefficient is replaced by `Omega_{N,m,rho,psi}^{osc,sharp,2}`.  The
+jet-to-finite-difference bridge now displays the carrier estimate
+
+```text
+|Delta_r^Phi K_k(a,t)|
+<= Gamma_pack,Q(t) |r|
+   sup_{0<=theta<=1} |nabla K_k(Phi(a,t)+theta h(a,r,t),t)|.
+```
+
+Downstream consequence:
+
+Neither note relies on a "same proof" shortcut at the proof-bearing line.  The
+larger-radius oscillation export and the carrier finite-difference estimate
+state the exact quantity being substituted.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md`;
+- `theorem-construction/mpp-jet-to-finite-difference-bridge-theorem.md`.
+
 ## Kernelized Lifted-Band Scale-Separation Rework
 
 Old loose step:
