@@ -177,7 +177,7 @@ Therefore the direct path is:
 
 ```math
 \boxed{
-\mathcal R_N=o_N(1)
+\mathcal R_{N,s}=o_N(1)
 \Longrightarrow
 R_{N,s}\text{ in }(5)\text{ is legal}
 \Longrightarrow
@@ -186,7 +186,8 @@ R_{N,s}\text{ in }(5)\text{ is legal}
 \tag{14}
 ```
 
-This is exactly `ScaleCriticalTreeCarleson.A`.
+This is exactly the selected-derivative analogue of `ScaleCriticalTreeCarleson.A`;
+the old energy-level reserve is not automatically this \(H^s\) reserve.
 
 ## Step 4: why rows 1--4 do not prove the reserve
 
@@ -246,7 +247,7 @@ H^s,\ s>5/2,\text{ blow-up impossible in the selected norm}
 \text{high-tail/source packet impossible}
 \Longleftarrow
 ScaleCriticalTreeCarleson.A
-\text{ or an equivalent signed/Zeno theorem}.
+\text{ or its selected }H^s\text{ analogue, or an equivalent signed/Zeno theorem}.
 ```
 
 The remaining actual proof targets are:
