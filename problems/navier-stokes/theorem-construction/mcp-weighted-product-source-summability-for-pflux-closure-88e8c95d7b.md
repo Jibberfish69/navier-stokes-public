@@ -36,7 +36,7 @@ A concrete sufficient estimate is
 \|u\|_{L^4(A_k^*)}^2\|u\|_{L^2(A_k)}dt<\infty.
 ```
 
-This follows from a weighted local smoothing bound of the form
+This follows from the exact weighted annular `L4` source
 
 ```math
 \sum_k2^{2ak}\int_0^T\|u\|_{L^4(A_k^*)}^4dt<\infty
@@ -67,7 +67,23 @@ The far-tail pressure term is controlled if
 \sum_k2^{(2a-1)k}\int_0^TF_k(t)\|u(t)\|_{L^2(A_k)}dt<\infty.
 ```
 
-The kernel decay in `F_k` and the weighted moment give this summability under the same weighted local smoothing and exterior-tail hypotheses.
+The exact far-tail theorem is separate.  It assumes the annular kernel bound
+
+```math
+F_k(t)\le C|A_k|^{1/2}
+\sum_{|\ell-k|>2}2^{-3\max\{k,\ell\}}
+\|u(t)\|_{L^2(A_\ell)}^2
+```
+
+and a finite weighted Schur constant `C_a^{far}` such that
+
+```math
+\sum_k2^{(2a-1)k}F_k(t)\|u(t)\|_{L^2(A_k)}
+\le C C_a^{far}M_a(t)^{3/2}.
+```
+
+With `M_a^{3/2} in L^1(0,T)`, this gives the displayed far-tail summability.
+It is not a consequence of the near `L4` source.
 
 ## Closure
 
@@ -75,4 +91,7 @@ Near-source summability plus far-tail summability gives `PFlux.Supplier`; `PFlux
 
 ## Boundary
 
-The live analytic input is the weighted local `L^4` smoothing estimate. The pressure-flux closure is complete once that source estimate is supplied.
+The live analytic inputs are the weighted annular `L4` source for the near
+term, the weighted moment for the velocity factor, and the far-tail Schur
+summability for `F_k`.  The pressure-flux closure is complete only after all
+three inputs are supplied.
