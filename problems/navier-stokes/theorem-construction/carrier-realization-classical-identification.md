@@ -438,7 +438,8 @@ X_n \text{ is bounded in } L^\infty(0,T;L^2_\sigma)\cap L^2(0,T;H^1_\sigma),
 and
 
 ```text
-\partial_t X_n \text{ is bounded in } L^2(0,T;H^{-1}_\sigma).
+\partial_t X_n \text{ is bounded in } L^1(0,T;H^{-1}_\sigma)
+\text{, or more generally in } L^1+L^2 \text{ with values in }H^{-1}_\sigma.
 ```
 
 Then, after extraction of a subsequence,
@@ -464,8 +465,9 @@ in `L^1(0,T;H^{-1}_\sigma)` and hence in the sense of distributions. On
 argument.
 
 **Proof.**
-By Aubin--Lions on the chain `H^1_\sigma \Subset L^2_{\mathrm{loc}} \hookrightarrow
-H^{-1}_\sigma`, the stated space and time bounds yield
+By the Aubin--Lions--Simon compactness theorem on the chain
+`H^1_\sigma \Subset L^2_{\mathrm{loc}} \hookrightarrow H^{-1}_\sigma`, the
+stated space bound and the `L^1_tH^{-1}` time-translation control yield
 
 ```text
 X_n \to X \quad\text{strongly in } L^2(0,T;L^2_{\mathrm{loc}}(\mathbb R^3)).
