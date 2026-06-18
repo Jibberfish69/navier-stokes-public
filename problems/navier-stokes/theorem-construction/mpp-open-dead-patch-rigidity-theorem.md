@@ -185,9 +185,9 @@ component vanishes at `x_\ast`, every Taylor coefficient is zero, so
 `u(\cdot,t_0)=0` on some neighborhood of `x_\ast`. Theorem `DTR.1` then gives
 `(DTR.5b)`. ∎
 
-### Corollary DTR.3 (future-time collapse on the standard surface)
+### Corollary DTR.3 (future-time collapse on the classical surface)
 
-Assume the setting of Theorem `DTR.1` and the standard periodic or decaying
+Assume the setting of Theorem `DTR.1` and the periodic or decaying
 whole-space normalization for pressure.
 
 If `(DTR.2)` holds, then

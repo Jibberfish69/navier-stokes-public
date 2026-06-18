@@ -58,9 +58,9 @@ smallness, bounded ancient vorticity, self-similarity, discrete
 self-similarity, two-dimensionality, axisymmetry, or native source
 cancellation.
 
-## Failed Standard Rigid Classes
+## Failed Rigid Classes
 
-The audited standard choices still fail.
+The audited rigid-class choices still fail.
 
 ### Finite global ancient energy
 

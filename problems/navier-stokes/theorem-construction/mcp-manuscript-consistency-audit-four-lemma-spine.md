@@ -18,7 +18,7 @@ All three included files exist.
 
 ## Four-lemma spine
 
-The manuscript states four standard lemmas:
+The manuscript states four named lemmas:
 
 ```text
 1. Moving-cylinder regularity and affine excess

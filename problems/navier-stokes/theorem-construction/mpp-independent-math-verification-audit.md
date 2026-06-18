@@ -17,10 +17,10 @@ This is a mathematical verdict, not a governance or export verdict.
 1. The target-facing statement is correctly periodic: smooth divergence-free
    zero-mean data on `T^3`, with no force.
 
-2. The final `H^s` continuation conversion is standard once terminal tower
+2. The final `H^s` continuation conversion follows from the named criterion once terminal tower
    control is assumed. The note
    `mpp-pctp-hard-hs-continuation-conversion.md` explicitly assumes
-   `A_{N,Q} in L^\infty(0,T_*)` and then applies the standard periodic
+   `A_{N,Q} in L^\infty(0,T_*)` and then applies the periodic
    continuation criterion.
 
 3. The retained-window class-membership route is coherent as a conditional

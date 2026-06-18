@@ -4,7 +4,7 @@
 
 Active theorem-facing upstream debt note.
 
-Role: isolate the exact frozen geometric wall on the standard selector-scale
+Role: isolate the exact frozen geometric wall on the selector-scale
 branch, namely the localization and `L^{p/2}` control of the thresholded
 differentiability exceptional-set measure.
 
@@ -41,7 +41,7 @@ frozen exceptional-set measure density
 \tag{FEML.0a}
 ```
 
-Under the standard selector-scale realization and the active-pair scale
+Under the selector-scale realization and the active-pair scale
 packet, bounded collar support at the frozen time is automatic; write this as
 
 ```math
@@ -129,7 +129,7 @@ Equivalently,
 \tag{FEML.6}
 ```
 
-So on the standard selector-scale branch, the geometric part of the frozen
+So on the selector-scale branch, the geometric part of the frozen
 linearization price is already just a frozen-time slice of exceptional-set
 measure localization.
 
