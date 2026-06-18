@@ -276,16 +276,19 @@ Edited live surfaces:
 
 Old claim being spent:
 
-Two live theorem notes used shortcut references: the enlarged-ball oscillation
-note said "the same proof as `LCI.B2f2b`", and the jet-to-finite-difference
-bridge said the "same estimate" holds with `U_k` replaced by `K_k`.
+Three live theorem notes used shortcut references: the enlarged-ball oscillation
+note said "the same proof as `LCI.B2f2b`", the jet-to-finite-difference bridge
+said the "same estimate" holds with `U_k` replaced by `K_k`, and the halo-shell
+propagation note said the same proof goes through from `LCI.B2f2a`.
 
 Exact replacement:
 
 The enlarged-ball note now states the exact substitution:
 `R_delta^{osc}` is replaced by `R_delta^{osc,2}`, and the oscillation
-coefficient is replaced by `Omega_{N,m,rho,psi}^{osc,sharp,2}`.  The
-jet-to-finite-difference bridge now displays the carrier estimate
+coefficient is replaced by `Omega_{N,m,rho,psi}^{osc,sharp,2}`.  The halo-shell
+note now says the proof is the listed substitution of the halo shell into
+`LCI.B2f2a`, with no new source families.  The jet-to-finite-difference bridge
+now displays the carrier estimate
 
 ```text
 |Delta_r^Phi K_k(a,t)|
@@ -302,6 +305,7 @@ state the exact quantity being substituted.
 Surfaces edited:
 
 - `theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md`;
+- `theorem-construction/mpp-lci-a-halo-shell-propagation-note.md`;
 - `theorem-construction/mpp-jet-to-finite-difference-bridge-theorem.md`.
 
 ## Positive Remainder Depletion Combined-Bound Rework
