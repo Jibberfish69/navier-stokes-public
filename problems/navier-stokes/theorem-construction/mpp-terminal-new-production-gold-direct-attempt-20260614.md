@@ -300,8 +300,18 @@ ZenoCompactnessExtraction.A
 \tag{6.3}
 ```
 
-One can close it through the affine route only with an additional summable
-high-tower budget:
+One can close it through the affine route only with an additional high-tower
+budget that controls the exact affine-core collar bills
+
+```math
+B_m
+:=
+\nu\int_{G_m}\int_{B_{R_m}(x_m)}|\nabla^2u|^2\,dx\,dt
+\ge
+c\,\theta_m\eta_m^2\nu^4/E_{R,m},
+```
+
+together with a non-summable selected lower side.  In route shorthand this is
 
 ```math
 HighTowerCollarSummability.A.
