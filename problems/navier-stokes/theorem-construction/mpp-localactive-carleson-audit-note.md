@@ -69,7 +69,7 @@ positive SCF-good scale is lost.  `LocalActiveCarleson.A` is precisely a
 branch-native theorem meant to eliminate that bad branch.  Therefore using the
 averaged cover or `AACT.Global.noJump` to prove it would be circular.
 
-The downstream source supplier `FFSRC.A=>FCI.5f` also does not help: it gives
+The downstream source supplier `Hyp(FFSRC.A)=>FCI.5f` also does not help: it gives
 `L^1` source integrability for selected frozen-family packets, not uniform
 Carleson decay over all terminal active bad windows.
 
