@@ -384,9 +384,12 @@ This is the exact bridge from tower coherence to packing coherence.
 ## Exact Tower-Defect Side Of The Packet
 
 The finite-difference tower law from
-`mpp-shared-participation-and-tower-coherence-law.md` gives the defect-side
-evolution. After localization to the material packet, the defect energy should
-satisfy a triangular closure inequality of the form
+`mpp-shared-participation-and-tower-coherence-law.md` does not yet give the
+material-packet defect evolution for free. The imported theorem target is the
+localized triangular closure estimate after differentiating the defect energy,
+integrating the viscous term by parts, keeping cutoff and packet-transport
+commutators, and placing pressure into a legal flux functional. In material
+packet form the required estimate is:
 
 ```math
 \frac{d}{dt}E_N(h,t;\psi)
@@ -405,7 +408,11 @@ C_{N,\psi}
 ```
 
 where `\mathrm{PackErr}_{N,h,\psi}` denotes the packet-transport mismatch from
-`(MP.10)`.
+`(MP.10)`. This inequality is usable only together with legal bounds on
+`\mathrm{Flux}_{N,h,\psi}` and `\mathrm{PackErr}_{N,h,\psi}` on the same packet,
+for example an `L^1_t` bound or an absorbable boundary/cutoff estimate. Until
+those bounds are proved, `(MP.30)` is a named packet-closure burden, not a
+delivered consequence of the shared tower law.
 
 So the whole packet now splits the class-membership burden into two exact tasks:
 
