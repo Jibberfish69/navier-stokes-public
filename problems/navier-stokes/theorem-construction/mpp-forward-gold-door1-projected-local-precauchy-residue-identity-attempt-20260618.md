@@ -217,9 +217,31 @@ or its split into
 \tag{PLP.16}
 ```
 
-Those theorems are not installed.  Without them, the gap between the full
-stress projection and the native pre-Cauchy carrier can be of the same order as
-the positive source wall.
+Those theorems are not installed.  The exact missing defect is
+
+```math
+\mathcal D_N^{PLP}
+:=
+\sum_{P\in\mathcal F_N}
+\int_{Q(P)}
+\mathcal N_{preCauchy}^{loc}(u;P)\,dxdt
++
+\int T:\nabla(\chi_R\ell)\,dy .
+\tag{PLP.16a}
+```
+
+Door 1 needs the estimate
+
+```math
+|\mathcal D_N^{PLP}|
+\le
+\mathrm{Legal}_N+o_N(1)
+\tag{PLP.16b}
+```
+
+on the same selected terminal family.  The current inputs do not prove `(PLP.16b)`;
+therefore the full stress projection cannot yet be spent as a lower bound for
+the native positive source wall.
 
 ## Exact reduction
 
@@ -236,7 +258,7 @@ to
 \boxed{
 \text{ProjectedLocalPreCauchyResidueIdentity.A}.
 }
-\tag{PLP.18}
+\tag{PLP.19}
 ```
 
 More explicitly:
@@ -249,7 +271,7 @@ More explicitly:
 \text{StressAnnulusPacketPartition.A}
 +
 \text{WeightedLiftedSkewDefectLegal.A}.
-\tag{PLP.19}
+\tag{PLP.20}
 ```
 
 where:
@@ -279,7 +301,7 @@ The conditional implication is proved:
 \text{ProjectedLocalPreCauchyResidueIdentity.A}
 \Longrightarrow
 \Phi_0\ne0\text{ Door 1 closes.}
-\tag{PLP.20}
+\tag{PLP.21}
 ```
 
 The identity itself is not proved from installed inputs.  The remaining Door 1
@@ -289,7 +311,7 @@ blocker is exactly:
 \boxed{
 \text{ProjectedLocalPreCauchyResidueIdentity.A}.
 }
-\tag{PLP.21}
+\tag{PLP.22}
 ```
 
 This is narrower than `ProjectedStressFluxNativeCarrierIdentification.A` and is
