@@ -3234,6 +3234,46 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Compactness Upgrade Lemma Wording Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` called the compactness
+  upgrade lemma a "formal compactness statement."
+
+Exact replacement:
+
+The appendix now names it as a conditional compactness statement.  Its
+hypotheses are the displayed uniform energy bounds plus the same-scheme
+scale-barrier tail input
+
+```math
+\forall R>0,\ \forall\varepsilon>0,\ \exists N\ge N_*
+\quad
+\sup_n\|P_{\ge N}u^{(n)}\|_{L^2(0,T;L^2(B_R))}
+\le\varepsilon.
+```
+
+The proof is the displayed low/high recombination: Aubin--Lions compactness for
+`P_{<N}u^{(n)}` at fixed `N`, uniform local `L^2` smallness of
+`P_{\ge N}u^{(n)}`, then `n->infty` before `N->infty`.
+
+Proof or remaining burden:
+
+The compactness conclusion is exact under the scale-barrier tail input.  The
+open upstream theorem remains the scale-barrier tail estimate on the same
+classical approximation scheme.
+
+Downstream consequence:
+
+The quadratic passage to the weak formulation may spend the compactness lemma
+only after the same-scheme tail input is supplied; the word "formal" carries no
+proof force.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
