@@ -1938,6 +1938,103 @@ Edited live surfaces:
 - `theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`;
 - `submission-bundle/navier-stokes-submission.tex`.
 
+## R3 Exterior High-Order Tail Coefficient Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-r3-tail-hs-face-elimination-attempt.md` used a
+  schematic exterior identity with `commutator flux`, `cutoff flux`, and
+  `pressure flux`, then said "standard commutator estimates require a
+  coefficient such as" `\|\nabla u\|_{L^\infty}`.
+- `theorem-construction/mpp-r3-hs-tail-control-obstruction.md` similarly used a
+  formal localized identity and summarized the missing input as
+  continuation-grade control.
+- The reader appendix's R3 exterior high-order subsection had the identity and
+  fragments naming annular and pressure records, but it did not display the
+  exact inequality tying those records to the Gronwall coefficient.
+
+Exact replacement:
+
+The live surfaces now use the exterior cutoff `eta_R` and the exact tail
+quantity
+
+```math
+\mathcal H_s^{tail}(R,t):=\|\eta_R\Lambda^s u(t)\|_2^2.
+```
+
+Testing the differentiated equation against `eta_R^2\Lambda^s u` gives
+
+```math
+\frac12\frac d{dt}\|\eta_R\Lambda^s u\|_2^2
++\nu\|\eta_R\nabla\Lambda^s u\|_2^2
+\le
+\mathcal C_R+\mathcal B_R+\mathcal P_R,
+```
+
+with
+
+```math
+\mathcal C_R
+\le
+C_s\|\nabla u(t)\|_{L^\infty}\mathcal H_s^{tail}(R,t)
++\mathcal C_R^{ann}(t),
+```
+
+and
+
+```math
+\mathcal B_R
+\le
+\frac{\nu}{4}\|\eta_R\nabla\Lambda^s u\|_2^2
++C_{s,\nu}\mathcal E_s^{ann}(R,t),
+\qquad
+\mathcal P_R
+\le
+\frac{\nu}{4}\|\eta_R\nabla\Lambda^s u\|_2^2
++C_{s,\nu}\mathcal P_s^{tail}(R,t).
+```
+
+Thus the exact conditional Gronwall inequality is
+
+```math
+\frac d{dt}\mathcal H_s^{tail}(R,t)
++\nu\|\eta_R\nabla\Lambda^s u\|_2^2
+\le
+C_s\|\nabla u(t)\|_{L^\infty}\mathcal H_s^{tail}(R,t)
++C_{s,\nu}\mathcal E_s^{tail}(R,t),
+```
+
+where
+
+```math
+\mathcal E_s^{tail}
+:=\mathcal C_R^{ann}+\mathcal E_s^{ann}+\mathcal P_s^{tail}.
+```
+
+The direct-positive `Tail.Hs_R3` branch may spend this only with
+
+```math
+\int_0^{T_*}\|\nabla u(t)\|_{L^\infty}\,dt<\infty,\qquad
+\int_0^{T_*}\mathcal E_s^{tail}(R,t)\,dt\to0,\qquad
+\mathcal H_s^{tail}(R,0)\to0.
+```
+
+Downstream consequence: the whole-space direct-positive tail route is not
+licensed by exterior `L^2` tightness, compact-core tower bounds, or a generic
+"standard commutator" citation. It remains conditional on the displayed
+continuation-grade coefficient and exterior high-order tail ledger. The
+CM-facing June 8 endpoint-consumption route remains the governing whole-space
+branch; this repair only sharpens the stronger direct-positive export branch
+and prevents it from being promoted through a schematic high-order tail
+estimate.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-r3-tail-hs-face-elimination-attempt.md`;
+- `theorem-construction/mpp-r3-hs-tail-control-obstruction.md`;
+- `theorem-construction/mpp-r3-exterior-high-order-dissipation-obstruction.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
