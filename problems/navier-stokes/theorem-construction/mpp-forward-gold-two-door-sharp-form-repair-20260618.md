@@ -31,6 +31,9 @@ The same-shadow residence attempt then shows that the actual density/price
 children are `Door1PositiveActiveCarlesonReserve.A`,
 `Door1SourceDensityReverseHolder.A`, and `Door1TerminalTimePriceLedger.A`, with
 the rigidity/artifact branch still live.
+The Door 2 drift attempt reduces `ZeroFluxDriftVisibility.A` to
+`CanonicalGaugeCoercivity.A + ModulationForcingNativeProjection.A +
+NoNeutralModulationLoop.A`.
 
 Role: fix the June 17 two-door stress-flux packet after the generic anti-atom
 attempts and the direct two-door attempts.  The repair separates the solved

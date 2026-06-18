@@ -7,6 +7,12 @@ renormalized-stationarity strategy reduces the zero-flux Zeno profile production
 problem to drift visibility, a renormalized action bound, and annular defect
 evacuation.
 
+2026-06-18 continuation: `mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`
+tests `ZeroFluxDriftVisibility.A` directly.  Zero flux does not detect
+symmetry-tangent drift by itself; the drift child reduces to
+`CanonicalGaugeCoercivity.A + ModulationForcingNativeProjection.A +
+NoNeutralModulationLoop.A`.
+
 Role: continue the current forward-gold Door 2 frontier:
 
 ```math
