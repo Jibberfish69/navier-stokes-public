@@ -25,7 +25,7 @@ That modulus is the exact terminal anti-atom input needed to put every produced
 `B_ASAC` residue into the rigid time-face subclass.  The existing subclass
 Liouville theorem applies only after this native source modulus is proved.
 
-## Tempting Route
+## Failed Soft-Cubic Domination Route
 
 For local suitable Navier-Stokes limits, the energy class gives local
 space-time integrability such as

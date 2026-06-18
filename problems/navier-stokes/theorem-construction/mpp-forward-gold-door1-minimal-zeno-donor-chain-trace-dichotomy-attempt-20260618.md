@@ -176,7 +176,7 @@ positive-viscosity Navier-Stokes.
 
 ## New pressure point: terminal trace compactness
 
-The minimal-chain formulation suggests the following theorem.
+The minimal-chain formulation leaves the following exact theorem target.
 
 ```math
 \boxed{

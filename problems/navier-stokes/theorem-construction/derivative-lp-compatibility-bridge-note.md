@@ -29,7 +29,7 @@ inside the pressure source
 (\partial_a^\beta A)\,U_{\alpha-\beta}.
 ```
 
-The tempting statement
+The false collar-only statement
 
 ```math
 \Delta_j\!\big((\partial_a^\beta A)\,U_{\alpha-\beta}\big)

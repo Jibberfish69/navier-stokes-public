@@ -123,7 +123,7 @@ step for every same-ledger positive-scale signed pair.
 
 ## Failed Closure Attempt
 
-The tempting argument is:
+The failed implication is:
 
 ```text
 square reserve bounded below by `c_0>0` + zero signed moment
