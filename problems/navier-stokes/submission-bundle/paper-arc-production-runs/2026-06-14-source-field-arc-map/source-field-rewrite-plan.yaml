@@ -19,7 +19,7 @@ allowed_endpoint_statuses:
 - proved in this arc
 - support for a named later proof step
 - gold obstruction
-- silver CM face payment
+- silver CM face landing
 - obsolete or superseded with reason
 - logical contradiction
 - open continuation with exact missing derivation
@@ -35,7 +35,7 @@ group_definitions:
   - reader guide
 - group_id: carrier-and-pack
   title: Carrier and Pack
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   patterns:
   - carrier
@@ -74,7 +74,7 @@ group_definitions:
   - annular
 - group_id: pressure-and-participation
   title: Pressure and participation
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   patterns:
   - pressure
@@ -84,7 +84,7 @@ group_definitions:
   - velocity
 - group_id: critical-norm-and-field
   title: Critical norm and Field
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   patterns:
   - "\\bField\\b"
@@ -96,7 +96,7 @@ group_definitions:
   - barrier
 - group_id: cm-audits-and-closure
   title: CM audits and closure
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   patterns:
   - "\\bCM\\b"
@@ -121,7 +121,7 @@ group_definitions:
   - mirror
 - group_id: source-field-misc-support
   title: Miscellaneous source-field support
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   patterns: []
 chunks:
@@ -206,7 +206,7 @@ chunks:
   sequence: 3
   group_id: carrier-and-pack
   title: Carrier and Pack 1
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -255,7 +255,7 @@ chunks:
   sequence: 4
   group_id: carrier-and-pack
   title: Carrier and Pack 2
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -302,7 +302,7 @@ chunks:
   sequence: 5
   group_id: carrier-and-pack
   title: Carrier and Pack 3
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -361,7 +361,7 @@ chunks:
   sequence: 6
   group_id: carrier-and-pack
   title: Carrier and Pack 4
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -423,7 +423,7 @@ chunks:
   sequence: 7
   group_id: carrier-and-pack
   title: Carrier and Pack 5
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -482,7 +482,7 @@ chunks:
   sequence: 8
   group_id: carrier-and-pack
   title: Carrier and Pack 6
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -526,7 +526,7 @@ chunks:
   sequence: 9
   group_id: carrier-and-pack
   title: Carrier and Pack 7
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -588,7 +588,7 @@ chunks:
   sequence: 10
   group_id: carrier-and-pack
   title: Carrier and Pack 8
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -631,7 +631,7 @@ chunks:
   sequence: 11
   group_id: carrier-and-pack
   title: Carrier and Pack 9
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -680,7 +680,7 @@ chunks:
   sequence: 12
   group_id: carrier-and-pack
   title: Carrier and Pack 10
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -723,7 +723,7 @@ chunks:
   sequence: 13
   group_id: carrier-and-pack
   title: Carrier and Pack 11
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -772,7 +772,7 @@ chunks:
   sequence: 14
   group_id: carrier-and-pack
   title: Carrier and Pack 12
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -815,7 +815,7 @@ chunks:
   sequence: 15
   group_id: carrier-and-pack
   title: Carrier and Pack 13
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -878,7 +878,7 @@ chunks:
   sequence: 16
   group_id: carrier-and-pack
   title: Carrier and Pack 14
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -941,7 +941,7 @@ chunks:
   sequence: 17
   group_id: carrier-and-pack
   title: Carrier and Pack 15
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -1008,7 +1008,7 @@ chunks:
   sequence: 18
   group_id: carrier-and-pack
   title: Carrier and Pack 16
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -1080,7 +1080,7 @@ chunks:
   sequence: 19
   group_id: carrier-and-pack
   title: Carrier and Pack 17
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -1146,7 +1146,7 @@ chunks:
   sequence: 20
   group_id: carrier-and-pack
   title: Carrier and Pack 18
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -1213,7 +1213,7 @@ chunks:
   sequence: 21
   group_id: carrier-and-pack
   title: Carrier and Pack 19
-  author_job: write carrier material as Pack-side proof payment, support, obstruction,
+  author_job: write carrier material as Pack-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3032,7 +3032,7 @@ chunks:
   sequence: 54
   group_id: pressure-and-participation
   title: Pressure and participation 1
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3096,7 +3096,7 @@ chunks:
   sequence: 55
   group_id: pressure-and-participation
   title: Pressure and participation 2
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3157,7 +3157,7 @@ chunks:
   sequence: 56
   group_id: pressure-and-participation
   title: Pressure and participation 3
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3200,7 +3200,7 @@ chunks:
   sequence: 57
   group_id: pressure-and-participation
   title: Pressure and participation 4
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3268,7 +3268,7 @@ chunks:
   sequence: 58
   group_id: pressure-and-participation
   title: Pressure and participation 5
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3318,7 +3318,7 @@ chunks:
   sequence: 59
   group_id: pressure-and-participation
   title: Pressure and participation 6
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3360,7 +3360,7 @@ chunks:
   sequence: 60
   group_id: pressure-and-participation
   title: Pressure and participation 7
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3444,7 +3444,7 @@ chunks:
   sequence: 61
   group_id: pressure-and-participation
   title: Pressure and participation 8
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3491,7 +3491,7 @@ chunks:
   sequence: 62
   group_id: pressure-and-participation
   title: Pressure and participation 9
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3536,7 +3536,7 @@ chunks:
   sequence: 63
   group_id: pressure-and-participation
   title: Pressure and participation 10
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3590,7 +3590,7 @@ chunks:
   sequence: 64
   group_id: pressure-and-participation
   title: Pressure and participation 11
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3643,7 +3643,7 @@ chunks:
   sequence: 65
   group_id: pressure-and-participation
   title: Pressure and participation 12
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3694,7 +3694,7 @@ chunks:
   sequence: 66
   group_id: pressure-and-participation
   title: Pressure and participation 13
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3745,7 +3745,7 @@ chunks:
   sequence: 67
   group_id: pressure-and-participation
   title: Pressure and participation 14
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3794,7 +3794,7 @@ chunks:
   sequence: 68
   group_id: pressure-and-participation
   title: Pressure and participation 15
-  author_job: write participation material as Part-side proof payment, support, obstruction,
+  author_job: write participation material as Part-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3825,7 +3825,7 @@ chunks:
   sequence: 69
   group_id: critical-norm-and-field
   title: Critical norm and Field 1
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3883,7 +3883,7 @@ chunks:
   sequence: 70
   group_id: critical-norm-and-field
   title: Critical norm and Field 2
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3932,7 +3932,7 @@ chunks:
   sequence: 71
   group_id: critical-norm-and-field
   title: Critical norm and Field 3
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -3983,7 +3983,7 @@ chunks:
   sequence: 72
   group_id: critical-norm-and-field
   title: Critical norm and Field 4
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4032,7 +4032,7 @@ chunks:
   sequence: 73
   group_id: critical-norm-and-field
   title: Critical norm and Field 5
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4075,7 +4075,7 @@ chunks:
   sequence: 74
   group_id: critical-norm-and-field
   title: Critical norm and Field 6
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4118,7 +4118,7 @@ chunks:
   sequence: 75
   group_id: critical-norm-and-field
   title: Critical norm and Field 7
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4169,7 +4169,7 @@ chunks:
   sequence: 76
   group_id: critical-norm-and-field
   title: Critical norm and Field 8
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4222,7 +4222,7 @@ chunks:
   sequence: 77
   group_id: critical-norm-and-field
   title: Critical norm and Field 9
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4271,7 +4271,7 @@ chunks:
   sequence: 78
   group_id: critical-norm-and-field
   title: Critical norm and Field 10
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4313,7 +4313,7 @@ chunks:
   sequence: 79
   group_id: critical-norm-and-field
   title: Critical norm and Field 11
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4370,7 +4370,7 @@ chunks:
   sequence: 80
   group_id: critical-norm-and-field
   title: Critical norm and Field 12
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4425,7 +4425,7 @@ chunks:
   sequence: 81
   group_id: critical-norm-and-field
   title: Critical norm and Field 13
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4469,7 +4469,7 @@ chunks:
   sequence: 82
   group_id: critical-norm-and-field
   title: Critical norm and Field 14
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4510,7 +4510,7 @@ chunks:
   sequence: 83
   group_id: critical-norm-and-field
   title: Critical norm and Field 15
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4577,7 +4577,7 @@ chunks:
   sequence: 84
   group_id: critical-norm-and-field
   title: Critical norm and Field 16
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4620,7 +4620,7 @@ chunks:
   sequence: 85
   group_id: critical-norm-and-field
   title: Critical norm and Field 17
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4658,7 +4658,7 @@ chunks:
   sequence: 86
   group_id: cm-audits-and-closure
   title: CM audits and closure 1
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4713,7 +4713,7 @@ chunks:
   sequence: 87
   group_id: cm-audits-and-closure
   title: CM audits and closure 2
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4764,7 +4764,7 @@ chunks:
   sequence: 88
   group_id: cm-audits-and-closure
   title: CM audits and closure 3
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4829,7 +4829,7 @@ chunks:
   sequence: 89
   group_id: cm-audits-and-closure
   title: CM audits and closure 4
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4887,7 +4887,7 @@ chunks:
   sequence: 90
   group_id: cm-audits-and-closure
   title: CM audits and closure 5
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4947,7 +4947,7 @@ chunks:
   sequence: 91
   group_id: cm-audits-and-closure
   title: CM audits and closure 6
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -4996,7 +4996,7 @@ chunks:
   sequence: 92
   group_id: cm-audits-and-closure
   title: CM audits and closure 7
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5051,7 +5051,7 @@ chunks:
   sequence: 93
   group_id: cm-audits-and-closure
   title: CM audits and closure 8
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5109,7 +5109,7 @@ chunks:
   sequence: 94
   group_id: cm-audits-and-closure
   title: CM audits and closure 9
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5176,7 +5176,7 @@ chunks:
   sequence: 95
   group_id: cm-audits-and-closure
   title: CM audits and closure 10
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5229,7 +5229,7 @@ chunks:
   sequence: 96
   group_id: cm-audits-and-closure
   title: CM audits and closure 11
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5272,7 +5272,7 @@ chunks:
   sequence: 97
   group_id: cm-audits-and-closure
   title: CM audits and closure 12
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5321,7 +5321,7 @@ chunks:
   sequence: 98
   group_id: cm-audits-and-closure
   title: CM audits and closure 13
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5366,7 +5366,7 @@ chunks:
   sequence: 99
   group_id: cm-audits-and-closure
   title: CM audits and closure 14
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5413,7 +5413,7 @@ chunks:
   sequence: 100
   group_id: cm-audits-and-closure
   title: CM audits and closure 15
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5459,7 +5459,7 @@ chunks:
   sequence: 101
   group_id: cm-audits-and-closure
   title: CM audits and closure 16
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5500,7 +5500,7 @@ chunks:
   sequence: 102
   group_id: cm-audits-and-closure
   title: CM audits and closure 17
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5565,7 +5565,7 @@ chunks:
   sequence: 103
   group_id: cm-audits-and-closure
   title: CM audits and closure 18
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5608,7 +5608,7 @@ chunks:
   sequence: 104
   group_id: cm-audits-and-closure
   title: CM audits and closure 19
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5677,7 +5677,7 @@ chunks:
   sequence: 105
   group_id: cm-audits-and-closure
   title: CM audits and closure 20
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5709,7 +5709,7 @@ chunks:
 
     Role: make the Eulerian/transported fork explicit and record the first exact comparison statement linking the PDE-native Eulerian defect engine to the honest transported closure surface.
 
-    The safe immediate repair is the integral-of-sup packet E cmp .
+    The first repair step is the integral-of-sup packet E cmp .
 
     This is the exact comparison layer; all quantitative bridge work is carried by the increment-stability note and its successors.
 
@@ -5730,7 +5730,7 @@ chunks:
   sequence: 106
   group_id: cm-audits-and-closure
   title: CM audits and closure 21
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5794,7 +5794,7 @@ chunks:
   sequence: 107
   group_id: cm-audits-and-closure
   title: CM audits and closure 22
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5867,7 +5867,7 @@ chunks:
   sequence: 108
   group_id: cm-audits-and-closure
   title: CM audits and closure 23
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5912,7 +5912,7 @@ chunks:
   sequence: 109
   group_id: cm-audits-and-closure
   title: CM audits and closure 24
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -5942,7 +5942,7 @@ chunks:
   context_excerpt: |
     \subsection{Clay problem Immediate Source Targets Execution Note}
 
-    Execution pass on the immediate theorem targets behind branch-native Jump avg elimination.
+    Execution pass on the current theorem targets behind branch-native Jump avg elimination.
 
     Result: finite energy, compact preterminal smoothness, pressure Poisson response, dyadic exchange, and monotone-functional language do not install the required heat-scale no-pulse estimate. The atom remains open.
 
@@ -5962,7 +5962,7 @@ chunks:
   sequence: 110
   group_id: cm-audits-and-closure
   title: CM audits and closure 25
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6034,7 +6034,7 @@ chunks:
   sequence: 111
   group_id: cm-audits-and-closure
   title: CM audits and closure 26
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6096,7 +6096,7 @@ chunks:
   sequence: 112
   group_id: cm-audits-and-closure
   title: CM audits and closure 27
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6165,7 +6165,7 @@ chunks:
   sequence: 113
   group_id: cm-audits-and-closure
   title: CM audits and closure 28
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6233,7 +6233,7 @@ chunks:
   sequence: 114
   group_id: cm-audits-and-closure
   title: CM audits and closure 29
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6297,7 +6297,7 @@ chunks:
   sequence: 115
   group_id: cm-audits-and-closure
   title: CM audits and closure 30
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6356,7 +6356,7 @@ chunks:
   sequence: 116
   group_id: cm-audits-and-closure
   title: CM audits and closure 31
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6401,7 +6401,7 @@ chunks:
   sequence: 117
   group_id: cm-audits-and-closure
   title: CM audits and closure 32
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6465,7 +6465,7 @@ chunks:
   sequence: 118
   group_id: cm-audits-and-closure
   title: CM audits and closure 33
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6508,7 +6508,7 @@ chunks:
   sequence: 119
   group_id: cm-audits-and-closure
   title: CM audits and closure 34
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6550,7 +6550,7 @@ chunks:
   sequence: 120
   group_id: cm-audits-and-closure
   title: CM audits and closure 35
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6595,7 +6595,7 @@ chunks:
   sequence: 121
   group_id: cm-audits-and-closure
   title: CM audits and closure 36
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6648,7 +6648,7 @@ chunks:
   sequence: 122
   group_id: cm-audits-and-closure
   title: CM audits and closure 37
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6700,7 +6700,7 @@ chunks:
   sequence: 123
   group_id: cm-audits-and-closure
   title: CM audits and closure 38
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6760,7 +6760,7 @@ chunks:
   sequence: 124
   group_id: cm-audits-and-closure
   title: CM audits and closure 39
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6826,7 +6826,7 @@ chunks:
   sequence: 125
   group_id: cm-audits-and-closure
   title: CM audits and closure 40
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6889,7 +6889,7 @@ chunks:
   sequence: 126
   group_id: cm-audits-and-closure
   title: CM audits and closure 41
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6934,7 +6934,7 @@ chunks:
   sequence: 127
   group_id: cm-audits-and-closure
   title: CM audits and closure 42
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -6986,7 +6986,7 @@ chunks:
   sequence: 128
   group_id: cm-audits-and-closure
   title: CM audits and closure 43
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7031,7 +7031,7 @@ chunks:
   sequence: 129
   group_id: cm-audits-and-closure
   title: CM audits and closure 44
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7076,7 +7076,7 @@ chunks:
   sequence: 130
   group_id: cm-audits-and-closure
   title: CM audits and closure 45
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7141,7 +7141,7 @@ chunks:
   sequence: 131
   group_id: cm-audits-and-closure
   title: CM audits and closure 46
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7217,7 +7217,7 @@ chunks:
   sequence: 132
   group_id: cm-audits-and-closure
   title: CM audits and closure 47
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7275,7 +7275,7 @@ chunks:
   sequence: 133
   group_id: cm-audits-and-closure
   title: CM audits and closure 48
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7328,7 +7328,7 @@ chunks:
   sequence: 134
   group_id: cm-audits-and-closure
   title: CM audits and closure 49
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7388,7 +7388,7 @@ chunks:
   sequence: 135
   group_id: cm-audits-and-closure
   title: CM audits and closure 50
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7443,7 +7443,7 @@ chunks:
   sequence: 136
   group_id: cm-audits-and-closure
   title: CM audits and closure 51
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7500,7 +7500,7 @@ chunks:
   sequence: 137
   group_id: cm-audits-and-closure
   title: CM audits and closure 52
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7552,7 +7552,7 @@ chunks:
   sequence: 138
   group_id: cm-audits-and-closure
   title: CM audits and closure 53
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7604,7 +7604,7 @@ chunks:
   sequence: 139
   group_id: cm-audits-and-closure
   title: CM audits and closure 54
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7647,7 +7647,7 @@ chunks:
   sequence: 140
   group_id: cm-audits-and-closure
   title: CM audits and closure 55
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7688,7 +7688,7 @@ chunks:
   sequence: 141
   group_id: cm-audits-and-closure
   title: CM audits and closure 56
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7747,7 +7747,7 @@ chunks:
   sequence: 142
   group_id: cm-audits-and-closure
   title: CM audits and closure 57
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7789,7 +7789,7 @@ chunks:
   sequence: 143
   group_id: cm-audits-and-closure
   title: CM audits and closure 58
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7845,7 +7845,7 @@ chunks:
   sequence: 144
   group_id: cm-audits-and-closure
   title: CM audits and closure 59
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7892,7 +7892,7 @@ chunks:
   sequence: 145
   group_id: cm-audits-and-closure
   title: CM audits and closure 60
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7937,7 +7937,7 @@ chunks:
   sequence: 146
   group_id: cm-audits-and-closure
   title: CM audits and closure 61
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -7988,7 +7988,7 @@ chunks:
   sequence: 147
   group_id: cm-audits-and-closure
   title: CM audits and closure 62
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8031,7 +8031,7 @@ chunks:
   sequence: 148
   group_id: cm-audits-and-closure
   title: CM audits and closure 63
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8074,7 +8074,7 @@ chunks:
   sequence: 149
   group_id: cm-audits-and-closure
   title: CM audits and closure 64
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8301,7 +8301,7 @@ chunks:
   sequence: 153
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 1
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8353,7 +8353,7 @@ chunks:
   sequence: 154
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 2
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8414,7 +8414,7 @@ chunks:
   sequence: 155
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 3
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8475,7 +8475,7 @@ chunks:
   sequence: 156
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 4
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8530,7 +8530,7 @@ chunks:
   sequence: 157
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 5
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8582,7 +8582,7 @@ chunks:
   sequence: 158
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 6
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8638,7 +8638,7 @@ chunks:
   sequence: 159
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 7
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8695,7 +8695,7 @@ chunks:
   sequence: 160
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 8
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8757,7 +8757,7 @@ chunks:
   sequence: 161
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 9
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8805,7 +8805,7 @@ chunks:
   sequence: 162
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 10
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8848,7 +8848,7 @@ chunks:
   sequence: 163
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 11
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8899,7 +8899,7 @@ chunks:
   sequence: 164
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 12
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -8947,7 +8947,7 @@ chunks:
   sequence: 165
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 13
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9004,7 +9004,7 @@ chunks:
   sequence: 166
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 14
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9055,7 +9055,7 @@ chunks:
   sequence: 167
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 15
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9126,7 +9126,7 @@ chunks:
   sequence: 168
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 16
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9174,7 +9174,7 @@ chunks:
   sequence: 169
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 17
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9242,7 +9242,7 @@ chunks:
   sequence: 170
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 18
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9288,7 +9288,7 @@ chunks:
   sequence: 171
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 19
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9330,7 +9330,7 @@ chunks:
   sequence: 172
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 20
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9377,7 +9377,7 @@ chunks:
   sequence: 173
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 21
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9436,7 +9436,7 @@ chunks:
   sequence: 174
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 22
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9490,7 +9490,7 @@ chunks:
   sequence: 175
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 23
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9558,7 +9558,7 @@ chunks:
   sequence: 176
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 24
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9601,7 +9601,7 @@ chunks:
   sequence: 177
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 25
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9666,7 +9666,7 @@ chunks:
   sequence: 178
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 26
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9709,7 +9709,7 @@ chunks:
   sequence: 179
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 27
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9767,7 +9767,7 @@ chunks:
   sequence: 180
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 28
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9828,7 +9828,7 @@ chunks:
   sequence: 181
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 29
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9876,7 +9876,7 @@ chunks:
   sequence: 182
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 30
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9925,7 +9925,7 @@ chunks:
   sequence: 183
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 31
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -9978,7 +9978,7 @@ chunks:
   sequence: 184
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 32
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10021,7 +10021,7 @@ chunks:
   sequence: 185
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 33
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10074,7 +10074,7 @@ chunks:
   sequence: 186
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 34
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10121,7 +10121,7 @@ chunks:
   sequence: 187
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 35
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10170,7 +10170,7 @@ chunks:
   sequence: 188
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 36
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10231,7 +10231,7 @@ chunks:
   sequence: 189
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 37
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10276,7 +10276,7 @@ chunks:
   sequence: 190
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 38
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10327,7 +10327,7 @@ chunks:
   sequence: 191
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 39
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10382,7 +10382,7 @@ chunks:
   sequence: 192
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 40
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10445,7 +10445,7 @@ chunks:
   sequence: 193
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 41
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10488,7 +10488,7 @@ chunks:
   sequence: 194
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 42
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10538,7 +10538,7 @@ chunks:
   sequence: 195
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 43
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10579,7 +10579,7 @@ chunks:
   sequence: 196
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 44
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10633,7 +10633,7 @@ chunks:
   sequence: 197
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 45
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10680,7 +10680,7 @@ chunks:
   sequence: 198
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 46
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10732,7 +10732,7 @@ chunks:
   sequence: 199
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 47
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10775,7 +10775,7 @@ chunks:
   sequence: 200
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 48
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10826,7 +10826,7 @@ chunks:
   sequence: 201
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 49
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10876,7 +10876,7 @@ chunks:
   sequence: 202
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 50
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10918,7 +10918,7 @@ chunks:
   sequence: 203
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 51
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -10963,7 +10963,7 @@ chunks:
   sequence: 204
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 52
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11026,7 +11026,7 @@ chunks:
   sequence: 205
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 53
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11093,7 +11093,7 @@ chunks:
   sequence: 206
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 54
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11160,7 +11160,7 @@ chunks:
   sequence: 207
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 55
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11213,7 +11213,7 @@ chunks:
   sequence: 208
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 56
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11273,7 +11273,7 @@ chunks:
   sequence: 209
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 57
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11329,7 +11329,7 @@ chunks:
   sequence: 210
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 58
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11392,7 +11392,7 @@ chunks:
   sequence: 211
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 59
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11450,7 +11450,7 @@ chunks:
   sequence: 212
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 60
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11501,7 +11501,7 @@ chunks:
   sequence: 213
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 61
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11544,7 +11544,7 @@ chunks:
   sequence: 214
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 62
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11587,7 +11587,7 @@ chunks:
   sequence: 215
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 63
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11637,7 +11637,7 @@ chunks:
   sequence: 216
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 64
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11687,7 +11687,7 @@ chunks:
   sequence: 217
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 65
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11730,7 +11730,7 @@ chunks:
   sequence: 218
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 66
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11793,7 +11793,7 @@ chunks:
   sequence: 219
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 67
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11848,7 +11848,7 @@ chunks:
   sequence: 220
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 68
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11905,7 +11905,7 @@ chunks:
   sequence: 221
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 69
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -11954,7 +11954,7 @@ chunks:
   sequence: 222
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 70
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12014,7 +12014,7 @@ chunks:
   sequence: 223
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 71
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12069,7 +12069,7 @@ chunks:
   sequence: 224
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 72
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12129,7 +12129,7 @@ chunks:
   sequence: 225
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 73
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12172,7 +12172,7 @@ chunks:
   sequence: 226
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 74
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12218,7 +12218,7 @@ chunks:
   sequence: 227
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 75
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12276,7 +12276,7 @@ chunks:
   sequence: 228
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 76
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12346,7 +12346,7 @@ chunks:
   sequence: 229
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 77
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -12415,7 +12415,7 @@ chunks:
   sequence: 230
   group_id: source-field-misc-support
   title: Miscellaneous source-field support 78
-  author_job: write the material as proof payment, exact support, obsolete material,
+  author_job: write the material as proof argument, exact support, obsolete material,
     contradiction, or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
