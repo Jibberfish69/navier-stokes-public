@@ -107,7 +107,7 @@ The checked direct attempts do not install any entrance:
   dissipation, active-square residual tails, square-source/amplitude-gain
   routes, or downstream frozen-family source integrability.
 - `PositiveStrainDecorrelation.A` is not supplied by incompressibility, signed
-  exchange, pressure recovery, vorticity-direction/Beltrami/helical heuristics,
+  exchange, pressure recovery, vorticity-direction/Beltrami/helical criteria,
   finite-band orthogonality, or same-fluid transport.
 
 Thus the current public Clay finality theorem is not closed.  The live target
@@ -128,4 +128,3 @@ OriginalSmoothData
 All submission/PDF/readiness surfaces must remain nonfinal until one of the
 source-weighted entrances is proved or a different noncircular theorem proves
 `NoGenuineExitFromSmoothData.A`.
-

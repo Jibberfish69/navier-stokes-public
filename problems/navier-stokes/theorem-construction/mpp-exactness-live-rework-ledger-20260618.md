@@ -4146,6 +4146,13 @@ Additional edited live surfaces in this cleanup:
 - `theorem-construction/mcp-terminalstressfluxantiatomtwodoorpacketattempt-a-stressfluxselectordomination-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-1c958d83b9.md`;
 - `theorem-construction/mpp-r3-tail-hs-face-elimination-attempt.md`;
 - `theorem-construction/mpp-immediate-source-targets-execution-note-20260503.md`.
+- `theorem-construction/activeheightfluxtrichotomy-a-theorem-creation-20260525.md`;
+- `theorem-construction/mpp-cycle-heat-action-amplitude-obstruction-and-amp-correction-20260505.md`;
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`;
+- `theorem-construction/mpp-public-clay-finality-sourcepulse-frontier-reentry-20260609.md`;
+- `theorem-construction/mcp-projectedstressfluxnativecarrieridentificationattempt-a-projectedstressfluxnativecarrieridentification-a-projectedlocalprecauchyresidueidentity-a-cac43e600a.md`;
+- `theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`;
+- `theorem-construction/mcp-zenocriticalprofileproductionattempt-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-6024ef0bd0.md`.
 
 ## Edited Or Preserved Residues
 

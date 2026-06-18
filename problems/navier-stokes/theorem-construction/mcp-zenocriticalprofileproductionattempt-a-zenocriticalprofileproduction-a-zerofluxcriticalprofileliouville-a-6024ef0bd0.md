@@ -34,7 +34,9 @@ no residual time-dependence, drift, defect measure, or source residue.
 
 ## Direct attempt
 
-The Zeno critical branch supplies a terminal concentration schedule and a critical Mellin-pole heuristic. It can suggest scale-invariant structure, but it does not automatically remove:
+The Zeno critical branch supplies a terminal concentration schedule and a
+critical Mellin-pole indication. It can suggest scale-invariant structure, but
+it does not automatically remove:
 
 ```text
 time-dependence of the blow-up limit;

@@ -1274,8 +1274,8 @@ p_G(a,\xi)=\frac{G(a)\xi\otimes\xi}{\xi\cdot G(a)\xi}.
 \tag{23ai.8k6a}
 ```
 
-The order `-1` payment is therefore not a heuristic gain from the projector
-itself. It must be the frequency-separated commutator theorem under the exact
+The order `-1` payment is therefore not a free gain from the projector itself.
+It must be the frequency-separated commutator theorem under the exact
 symbol hypotheses on `p_G`: uniform ellipticity of `G`, the required
 `S^0_{1,0}` seminorm bounds for `p_G`, and a genuinely low-frequency
 coefficient `a_{<j-C}`. Under those hypotheses the sharpened shellwise target is

@@ -23,7 +23,11 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 
 ## Exactness Audit
 
-No Pack/Part/Field conclusion in this note is licensed by temporal immediacy, same-scale intuition, or typical-size language.  The exact downstream burden is the named face mechanism: a missing same-ledger partner gives carrier failure, an incompatible partner gives participation or dwell failure, and a retained legal source charge may enter Field only through the installed Field-face theorem.
+No Pack/Part/Field conclusion in this note is licensed by event ordering,
+same-scale intuition, or size-language.  The exact downstream burden is the
+named face mechanism: a missing same-ledger partner gives carrier failure, an
+incompatible partner gives participation or dwell failure, and a retained legal
+source charge may enter Field only through the installed Field-face theorem.
 
 ### Candidate Theorems
 

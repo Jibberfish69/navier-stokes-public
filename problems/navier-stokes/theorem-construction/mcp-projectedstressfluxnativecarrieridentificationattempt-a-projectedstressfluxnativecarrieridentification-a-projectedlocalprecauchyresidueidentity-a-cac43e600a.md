@@ -32,7 +32,7 @@ If the localized pre-Cauchy source over the same-fluid active family satisfied
 = \ell\cdot\Phi_0 - \mathrm{Legal}_N-o_N(1),
 ```
 
-then the target follows immediately from the positive-part inequality
+then the target follows by applying the positive-part inequality
 
 ```math
 \sigma_+(X)\ge [\sigma(X)]_+.

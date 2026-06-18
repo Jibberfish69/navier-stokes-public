@@ -231,7 +231,8 @@ A_osc(t) := rho(t) Delta_{rho(t)} u(t) / nu,
 ```
 
 and any use of `U_c(t)` on an actual branch must be read through an explicit
-oscillation or wall-integrand hypothesis, not through a typical velocity law.
+oscillation or wall-integrand hypothesis, not through a single-amplitude
+velocity law.
 
 The moving-wall benchmark is
 

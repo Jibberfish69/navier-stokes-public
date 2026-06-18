@@ -106,7 +106,8 @@ J
 \int (U_1\cdot\nabla U_2)\cdot U_3\,dx.
 ```
 
-The polarization choice fixes a nonzero interaction with exact model bounds
+The polarization choice fixes a nonzero interaction with exact scaling bounds
+for this fixed normalized packet family:
 
 ```math
 c_JA^3r^{-5/2}
