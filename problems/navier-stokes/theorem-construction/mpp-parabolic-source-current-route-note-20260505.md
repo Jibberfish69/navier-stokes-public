@@ -113,7 +113,7 @@ o_N(1)+Loss_{legal}.
 ### Proof Status
 
 `LocalizedSkewCurrent.A` is the algebraic ledger step, not the hard estimate.
-It follows from three standard ingredients already used by the source route:
+It follows from three explicit ingredients already used by the source route:
 
 1. The inviscid advective nonlinearity is energy-skew after incompressible
    projection.

@@ -143,8 +143,7 @@ with constants matching the packet excess variable `Y`, receiver budget
 `\gamma`, and dissipative quantity `Z` in `ACT.KX`. The scheduler supplies the
 smallness of `\int b` and `\int f`; the positive effective-viscous lower bound
 supplies `\gamma`; finite cover and finite parameter count then sum the packet
-outputs. This exact lemma, rather than the phrase "standard first-exit
-absorption," is what yields `ACT.KX`.
+outputs. This exact lemma is what yields `ACT.KX`.
 
 So the rigorous conditional implication is:
 

@@ -537,10 +537,32 @@ Apply Grönwall and integrate in time to obtain the a priori bound
 
 ### Step 2 - `H_D^1` propagation
 
-Differentiate covariantly with `\nabla_D`. The linear part gives a coercive
-`|\nabla_D^2X|_H^2` contribution up to lower order terms. The drift is bounded
-by A8, and the nonlinear term is controlled by the same carrier cancellation
-mechanism used in D.2. The Young-margin inequality yields
+Differentiate covariantly with `\nabla_D`. The linear part is used through the
+explicit commuted coercivity estimate
+
+```text
+\langle \nabla_D A_DX,\nabla_DX\rangle
+\ge
+c_A|\nabla_D^2X|_H^2-C_A|\nabla_DX|_H^2.
+```
+
+The drift is bounded by A8:
+
+```text
+|\langle \nabla_D(\delta_\omega X),\nabla_DX\rangle|
+\le C_A|\nabla_DX|_H^2.
+```
+
+The nonlinear term is controlled by the same carrier cancellation mechanism
+used in D.2:
+
+```text
+|\langle \nabla_DB_D(X),\nabla_DX\rangle|
+\le
+\varepsilon|\nabla_D^2X|_H^2+C_\varepsilon|\nabla_DX|_H^2.
+```
+
+Choosing `\varepsilon<c_A/2` yields
 
 ```text
 \frac{d}{dt}|\nabla_DX|_H^2 + c_1|\nabla_D^2X|_H^2 \le C|\nabla_DX|_H^2.

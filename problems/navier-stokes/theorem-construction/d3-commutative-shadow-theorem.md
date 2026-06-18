@@ -607,13 +607,15 @@ Q_{\mathrm{cl}}(t):=\|u(t)\|_{H^1}^2+\|\nabla\times u(t)\|_{L^2}^2,
 ```
 
 or, on the torus-side proving ground, the stronger `H^s` graph norm with
-`s>\frac52`. The commutator estimate feeds the standard inequality
+`s>\frac52`. The commutator estimate supplies the displayed differential
+inequality
 
 ```text
 \frac{d}{dt}Q_{\mathrm{cl}}(t)+c\,D_{\mathrm{cl}}(t)\le C\,Q_{\mathrm{cl}}(t),
 ```
 
-with `D_{\mathrm{cl}}(t)` the dissipation channel.
+where `D_{\mathrm{cl}}(t)` is the corresponding dissipation channel and the
+constants are the ones in the already displayed commutator estimate.
 
 ### Non-Sobolev compactness
 

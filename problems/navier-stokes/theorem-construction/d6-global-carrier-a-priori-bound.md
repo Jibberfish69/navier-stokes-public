@@ -245,10 +245,17 @@ Apply Young:
 
 ### Step 6 -- nonlinear term at vorticity level
 
-Use covariant form and cancellation:
+Use the covariant nonlinear decomposition supplied by the carrier calculus:
 
 ```text
-\Omega_D N_D(X) = \nabla_D(X\cdot\nabla_D X) + \text{lower order}.
+\Omega_D N_D(X) = \nabla_D(X\cdot\nabla_D X) + R_N(X),
+```
+
+where the remainder is required to satisfy the explicit pairing bound
+
+```text
+|\langle R_N(X),\Omega_DX\rangle|
+\le C|\nabla_DX|_H|\nabla_D\Omega_DX|_H.
 ```
 
 Pairing gives

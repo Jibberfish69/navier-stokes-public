@@ -318,11 +318,17 @@ r_j\ge r_*>0,
 SCF_{base}(Q_{r_j}^{\Phi})\le\varepsilon_m.
 ```
 
-Finite cover multiplicity gives bounded overlap after standard shrinking.
+Finite cover multiplicity gives bounded overlap after shrinking the selected
+radii by a fixed factor. Equivalently, replace each `Q_{r_j}^{\Phi}` by
+`Q_{\theta r_j}^{\Phi}` with `0<\theta<1`; the finite family then has overlap
+bounded by the maximum number of shrunken cylinders meeting at one point.
 
 ### Hidden compactness audit
 
-The compactness used here is ordinary finite-subcover compactness of the retained terminal label-time tail. It is not a regularity compactness statement. Regularity enters only through the dichotomy: failure of positive SCF-good radius is typed as `Jump_avg`.
+The compactness used here is ordinary finite-subcover compactness of the
+retained terminal label-time tail. It is not a regularity compactness statement.
+Regularity enters only through the dichotomy: failure of positive SCF-good
+radius is typed as `Jump_avg`.
 
 ### Scale-loss audit
 

@@ -36,7 +36,7 @@ Applying this projection eliminates the pressure and gives a projected equation 
 
 ```math
 \partial_s w-
-u\nabla_z\cdot(A(s)\nabla_z w)+B_R(s,D)w=0,
+\nu\nabla_z\cdot(A(s)\nabla_z w)+B_R(s,D)w=0,
 ```
 
 where `B_R(s,D)` is a bounded time-dependent order-zero multiplier on the finite slab. The term `B_R` accounts for the time variation of the anisotropic constraint bundle and the projected pressure response.
@@ -53,13 +53,24 @@ u\nabla_z\cdot(A(s)\nabla_z w)
 
 belongs to the fixed-metric parabolic Carleman class on the finite slab. The existing `PDO-Carleman` / fixed-metric packet applies componentwise to this principal operator.
 
-The order-zero multiplier `B_R` is lower order relative to the Carleman bulk. The lower-order absorption theorem applies exactly as in the bounded-chart packet: for Carleman parameter large enough depending on the finite-slab bounds,
+The order-zero multiplier `B_R` is absorbed by the finite-slab Carleman bulk
+through the explicit bound
+
+```math
+\|e^{\tau\phi}B_Rw\|_2^2
+\le
+C_R\|e^{\tau\phi}w\|_2^2,
+```
+
+and the principal Carleman inequality includes a positive
+`c_R\tau^2\|e^{\tau\phi}w\|_2^2` bulk term. Thus, for
+`\tau^2\ge 2C_R/c_R`, the multiplier contribution is absorbed and
 
 ```math
 \mathcal I_{R,\tau}[w]
 \le C_R\|e^{\tau\phi}(
 \partial_s-
-u\nabla\cdot(A\nabla)+B_R)w\|_2^2
+\nu\nabla\cdot(A\nabla)+B_R)w\|_2^2
 +Obs_{R,\tau}[w].
 ```
 

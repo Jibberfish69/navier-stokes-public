@@ -42,4 +42,4 @@ Therefore `T_*=\infty`.
 
 ## Boundary
 
-This is a standard periodic continuation lemma. It uses the pointwise endpoint package only after `READ.END` and uses no averaged object directly.
+This is the displayed periodic continuation lemma. It uses the pointwise endpoint package only after `READ.END` and uses no averaged object directly.

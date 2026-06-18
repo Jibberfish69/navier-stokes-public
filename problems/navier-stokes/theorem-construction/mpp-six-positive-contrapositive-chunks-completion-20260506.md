@@ -338,7 +338,7 @@ sense.  It does not prove that the high tail/source wall is impossible.
 
 ## Row 5: full commutator estimate and gradient-tail control
 
-The positive implication is the standard route:
+The positive implication is the displayed gradient-control route:
 
 ```math
 GC.A
