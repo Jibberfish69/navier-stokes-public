@@ -1673,6 +1673,50 @@ Edited live surfaces:
 - `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`;
 - `theorem-construction/mpp-high-coefficient-response-residual-attempt-20260506.md`.
 
+## Principal-Flow Adjoint Packet-Stability Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md`
+  said the gauged packet "should solve" the perturbed affine heat equation,
+  Duhamel "should give" the Gaussian packet bound, and the perturbative error
+  "should be bounded" after coefficient stopping.
+
+Exact replacement:
+
+The note now states the packet-stability theorem explicitly. On
+coefficient-good tiles the gauged packet must solve
+
+```math
+(-\partial_t-b_k\cdot\nabla-\nu\Delta)\varphi_T
+=
+\mathcal E_T\varphi_T,
+\qquad
+\|\mathcal E_T\|_{L_t^1(H_x^1\to H_x^{-1})}\le C\varepsilon_M,
+```
+
+and satisfy the Duhamel formula
+
+```math
+\varphi_T(t)
+=
+H_T(t,t_+)\varphi_T(t_+)
++\int_t^{t_+}H_T(t,s)\mathcal E_T(s)\varphi_T(s)\,ds.
+\tag{PFAP.1}
+```
+
+The required output is the displayed Gaussian packet derivative bound, with the
+perturbative Duhamel term controlled by `C\varepsilon_M` in the same packet
+norm after coefficient stopping and scale-gap selection.
+
+Downstream consequence: the Bessel and parent-kernel claims may spend packet
+stability only after the perturbed affine heat/Duhamel estimate is proved, not
+from the informal assertion that the affine propagator should preserve packets.
+
+Edited live surface:
+
+- `theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
