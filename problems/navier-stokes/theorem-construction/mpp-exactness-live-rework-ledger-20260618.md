@@ -6387,6 +6387,28 @@ Surfaces edited:
 - `theorem-construction/mpp-collar-to-jump-pivot-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Appendix Residual "Simply" Cleanup
+
+Old claim being spent:
+
+The source-field appendix still used "simply" in two definitional sentences:
+the selector-localized classical target and the transported-region definition.
+
+Exact replacement:
+
+The appendix now states the definitions directly: the selector-localized target
+is the low-mode band, and a transported region is the image of a label set under
+the Navier--Stokes flow map.
+
+Downstream consequence:
+
+These passages no longer train a later proof pass to treat definitional
+identifications as shortcut prose.
+
+Surface edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Frozen-Family Pressure Interval Discharge Rework
 
 Old claim being spent:
