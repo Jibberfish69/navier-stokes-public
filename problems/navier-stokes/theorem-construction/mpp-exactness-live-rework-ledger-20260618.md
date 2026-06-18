@@ -3534,6 +3534,54 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-paraboliccubicnormalform-a-paraboliccubicnormalform-a-attempt-for-scalecriticaltreecarleson-a-a6b0996aeb.md`.
 
+## Part Closedness Response-Margin Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex`,
+  `theorem-construction/mcp-part-terminal-closedness-field-tower-theorem-20260504.md`,
+  `theorem-construction/mpp-pctp-hard-participation-persistence.md`, and
+  `theorem-construction/mcp-part-row-nodrop-to-part-n-q-20260504.md`
+  treated `Part_{N,Q}` as a finite closed predicate under compactness and said
+  neighboring-response positivity survives after passing to a late terminal
+  subtail.
+
+Exact replacement:
+
+The live surfaces now distinguish closed clauses from strict response clauses.
+Same-fluid incidence and finite-difference compatibility pass to the terminal
+limit by uniform convergence.  A strict neighboring-response clause passes only
+if it is encoded as a closed non-strict terminal predicate or if the retained
+tail carries a fixed margin
+
+```math
+\mathcal R_\ell(t)\ge\gamma_\ell>0
+```
+
+for each of the finitely many response functionals in the Part witness.
+
+Proof or remaining burden:
+
+Arzela--Ascoli gives terminal limits for the finite witness data under the
+positive Field scale and bounded tower hypotheses.  Closed predicates pass to
+the limit.  Strict positivity does not pass from pointwise preterminal
+positivity without a uniform margin.  Without that margin, compactness gives
+only the closed relaxed Part witness.
+
+Downstream consequence:
+
+Part-row consumers may not reduce a first Part failure to Field failure or
+tower blowup from Field+tower control alone.  The exact conditional conclusion
+requires response-margin retention or closed terminal encoding; loss of the
+response margin is itself a lawful `\neg Part_{N,Q}` face.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-part-terminal-closedness-field-tower-theorem-20260504.md`;
+- `theorem-construction/mpp-pctp-hard-participation-persistence.md`;
+- `theorem-construction/mcp-part-row-nodrop-to-part-n-q-20260504.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
