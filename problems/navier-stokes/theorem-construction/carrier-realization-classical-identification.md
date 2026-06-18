@@ -582,8 +582,26 @@ the energy identity gives
 = ||P_Nu_0||_2^2.
 ```
 
-The same identity holds for the Friedrichs approximation after testing against
-`u_N`. Thus `u_N` is uniformly bounded in
+For the Friedrichs approximation, test the finite-dimensional equation against
+`u_N`. The cutoff is self-adjoint, Leray-commuting, and satisfies `P_Nu_N=u_N`,
+so
+
+```text
+<P_N((u_N\cdot\nabla)u_N),u_N>
+= <(u_N\cdot\nabla)u_N,u_N>
+= 0,
+```
+
+and
+
+```text
+<P_N\Delta u_N,u_N>
+= <\Delta u_N,u_N>
+= -||\nabla u_N||_2^2.
+```
+
+Therefore the Friedrichs approximation obeys the displayed energy identity as
+well. Thus `u_N` is uniformly bounded in
 `L^\infty(0,T;L^2_\sigma)\cap L^2(0,T;H^1_\sigma)`. Since
 `B:H^1\times H^1\to H^{-1}` continuously,
 
