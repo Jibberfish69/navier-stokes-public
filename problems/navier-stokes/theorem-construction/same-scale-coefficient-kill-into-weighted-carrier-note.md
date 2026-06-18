@@ -154,10 +154,10 @@ the weighted spectral surface gives `(9)`.
 
 ## Corollary: weak same-scale closure is already on the carrier surface
 
-Insert `(8)` into the weak model theorem
+Insert `(8)` into the weak coefficient-bearing edge theorem
 `(SS^\sharp\text{-}model)` from
 [same-scale-edge-family-and-model-estimate-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-family-and-model-estimate-note.md).
-Then each model packet satisfies
+Then each edge packet satisfies
 
 ```math
 \int_0^T |\Pi_{N,a}^{edge}(t)|\,dt
