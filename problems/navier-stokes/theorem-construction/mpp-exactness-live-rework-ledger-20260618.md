@@ -1620,6 +1620,59 @@ Edited live surface:
 
 - `theorem-construction/selector-balanced-frame-lemma.md`.
 
+## Full-Linearized Response Adjoint Conditional-Output Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`
+  said `FullLinearizedResponseAdjointPacket.A` "should give" Bessel,
+  parent-kernel, and lower-frame detection, and said the scale gap/tail should
+  make the high-coefficient part legal.
+- `theorem-construction/mpp-high-coefficient-response-residual-attempt-20260506.md`
+  said the finite-collar stopping branch "should not" be counted in
+  `HighCoefficientResponseResidual.A`.
+
+Exact replacement:
+
+The adjoint-packet attempt now states the conditional outputs explicitly:
+
+```text
+BesselBound.A,
+ParentKernelDetection.A,
+LowerFrameDetection.A.
+```
+
+The high-coefficient residual is now the exact theorem
+
+```math
+\|R^{hi-coeff}\|_{L_t^2H^{-1}}^2
+\le
+C\,LegalHighTail_N+o_N(1),
+\tag{FLAP.5a}
+```
+
+after finite-band decomposition, with no hidden terminal same-scale response
+concentration. The finite collar `j-M<q<=j+C` is moved into the principal
+linearized operator, and the finite-collar stopping branch is classified as
+`LinearizedCoeffStop.A`, not as part of `HighCoefficientResponseResidual.A`.
+
+Downstream consequence: `FullLinearizedResponseAdjointPacket.A` remains
+conditional on
+
+```text
+TruncatedLinearizedResponseAdjointPacket.A
+LinearizedCoeffStop.A
+HighCoefficientResponseResidual.A
+```
+
+and the open analytic content is still `FarHighBeatNoReturn.A` unless the route
+upgrades to a full-coefficient linearized adjoint kernel.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-full-linearized-response-adjoint-packet-attempt-20260506.md`;
+- `theorem-construction/mpp-high-coefficient-response-residual-attempt-20260506.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
