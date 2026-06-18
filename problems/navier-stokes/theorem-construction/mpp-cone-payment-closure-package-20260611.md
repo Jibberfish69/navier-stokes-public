@@ -587,25 +587,31 @@ witness.
 
 ## 9. What This Note Changes
 
-Before this package, the open cone work could still blur into:
+Before this package, the open cone work could still blur into old slogans.  The
+exact replacements are:
 
 ```text
-finite physical energy should imply no point blow-up
+old: finite physical energy should imply no point blow-up
+new: finite cone energy gives the moving-cone ledger and late-slab smallness
+     only after the CKN scale-critical quantity is controlled on the selected
+     moving cylinders.
 ```
-
-or:
 
 ```text
-the parabolic funnel automatically removes the discount
+old: the parabolic funnel automatically removes the discount
+new: the funnel identity separates the discounted physical budget from the
+     undiscounted scale-critical budget; removing the discount is the open
+     same-fluid participation / payment-rate theorem.
 ```
-
-or:
 
 ```text
-the critical payment-rate threshold is already the scale-uniform throttle.
+old: the critical payment-rate threshold is already the scale-uniform throttle
+new: a benchmark payment rate is only a lower-bound hypothesis on a selected
+     superlevel or oscillation packet; scale-uniform throttle requires that
+     bound across all shrinking schedules.
 ```
 
-All three are now separated.
+All three replacements are now separated.
 
 The proved part is:
 
