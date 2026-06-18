@@ -636,8 +636,10 @@ Old loose step:
 - `lifted-band-gain-to-msi-bridge.md`, the Body 1 kernelized leakage/audit
   notes, `lifted-remainder-feedback-into-body1-audit.md`,
   `scale-high-side-remainder-packet.md`, `route-b-euclidean-closure-theorem.md`,
-  and the reader appendix repeated the same gain language in downstream route
-  form.
+  `all-scale-frequency-transfer-inefficiency-theorem.md`,
+  `meso-scale-shear-inefficiency-theorem.md`,
+  `referee-hard-upgraded-body4-packet-subsection.md`, and the reader appendix
+  repeated the same gain language in downstream route form.
 
 Exact replacement:
 
@@ -670,6 +672,9 @@ Edited live surfaces:
 - `theorem-construction/lifted-remainder-feedback-into-body1-audit.md`;
 - `theorem-construction/scale-high-side-remainder-packet.md`;
 - `theorem-construction/route-b-euclidean-closure-theorem.md`;
+- `theorem-construction/all-scale-frequency-transfer-inefficiency-theorem.md`;
+- `theorem-construction/meso-scale-shear-inefficiency-theorem.md`;
+- `theorem-construction/referee-hard-upgraded-body4-packet-subsection.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 ## Edited Or Preserved Residues
