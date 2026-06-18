@@ -180,13 +180,13 @@ flattened.
 
 ## Relation To The Existing Kernelized Route
 
-The current scale-side algebra already proves a real gap factor
+The current scale-side algebra already places the displayed factor
 
 ```math
 2^{-(j-k)}
 ```
 
-for the lifted band in
+inside the lifted-band scale-side carrier in
 `scale-kernelized-lifted-band-reduction-lemma.md`. So the positive shellwise
 reformulation is not invented from nothing. It is the sharpened integrated
 version of the same observed lossy-middle effect.
