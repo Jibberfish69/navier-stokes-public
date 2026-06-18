@@ -26,20 +26,43 @@ Applying `\Lambda^{1/2}` to the vorticity equation and testing against
 ```math
 \frac12\frac{d}{dt}E_{1/2}(t)
 + \nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
-= \mathcal N_{1/2}(t),
+= \mathcal S_{1/2}(t)-\mathcal T_{1/2}(t),
 ```
 
 where
 
 ```math
-\mathcal N_{1/2}(t)
+\mathcal S_{1/2}(t)
 :=
 \big\langle \Lambda^{1/2}(\omega\cdot\nabla u),
 \Lambda^{1/2}\omega\big\rangle.
 ```
 
-The transport part cancels by divergence-free structure after the standard
-commutator rewrite. The remaining term is the stretching channel.
+and
+
+```math
+\mathcal T_{1/2}(t)
+:=
+\big\langle [\Lambda^{1/2},u\cdot\nabla]\omega,
+\Lambda^{1/2}\omega\big\rangle.
+```
+
+The exact transport calculation is
+
+```math
+\big\langle \Lambda^{1/2}(u\cdot\nabla\omega),
+\Lambda^{1/2}\omega\big\rangle
+=
+\big\langle [\Lambda^{1/2},u\cdot\nabla]\omega,
+\Lambda^{1/2}\omega\big\rangle
++
+\big\langle u\cdot\nabla\Lambda^{1/2}\omega,
+\Lambda^{1/2}\omega\big\rangle,
+```
+
+and the last term is zero because `\nabla\cdot u=0`.  Thus the fractional
+transport channel leaves the commutator `\mathcal T_{1/2}`; only the advective
+part without the commutator cancels.
 
 ## Coercive Target
 
@@ -47,7 +70,7 @@ To close the `\dot H^{1/2}` level without circular use of endpoint
 `BMO`/log control, it is enough to prove a structural estimate of the form
 
 ```math
-\mathcal N_{1/2}(t)
+\mathcal S_{1/2}(t)-\mathcal T_{1/2}(t)
 \le
 (1-\delta)\nu \|\omega(t)\|_{\dot H^{3/2}_x}^2
 + C_\delta \|\omega(t)\|_{\dot H^{1/2}_x}^2
@@ -59,6 +82,8 @@ Equivalent admissible inputs are:
 
 - a dyadic coherence defect at every shell;
 - an alignment-defect inequality suppressing stretching;
+- a transport-commutator bound for `\mathcal T_{1/2}` at the same coercive
+  scale;
 - a shellwise payment of the residual high-frequency square factor that
   converts the cascade into a summable defect;
 - a transport-mixing mechanism that yields the same coercive inequality after
