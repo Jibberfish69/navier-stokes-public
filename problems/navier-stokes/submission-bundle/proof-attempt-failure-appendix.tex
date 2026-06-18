@@ -415,7 +415,7 @@ transfer into that shell.  The model identity has the form
 \]
 The viscous term has the right sign and the right frequency weight.
 A direct proof has to state this as a tail inequality on the same frequencies it
-later consumes.  For a cutoff \(K\), set
+later consumes.  With \(T_+(k,t)=\max(T(k,t),0)\), and for a cutoff \(K\), set
 \[
   Y_{>K}(t):=\int_K^\infty k^2E(k,t)\,dk
 \]
@@ -445,15 +445,16 @@ Testing the equation against \(-\Delta u\), integrating by parts, and using
 \]
 The left side is the desired derivative payment.
 The right side is the source that has to be paid.
-Sobolev interpolation bounds the source term by the local-theory inequality
+H\"older, Sobolev interpolation, and Young bound the source term by the
+conditional local-continuation inequality
 \[
   Y'(t)\le C_\nu Y(t)^3 .
 \]
 That inequality explains local persistence, and it also explains the global
 gap.
 The comparison equation can blow up in finite time.
-The \(Q(t)\) body so has to do more than repeat enstrophy control; it
-has to find a new payment for the source term.
+The \(Q(t)\) body must do more than repeat enstrophy control; it has to find a
+new payment for the source term.
 
 The third body is compactness.
 If the tail and source payments were already available, compactness would still
