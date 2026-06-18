@@ -29,18 +29,38 @@ defect measures.
 
 The terminal Zeno/critical-pole regime suggests that a scale-normalized object should become approximately autonomous at the pole. But approximate criticality does not by itself imply stationarity.
 
-To pass from a renormalized ancient/local suitable limit to a stationary profile, one needs a vanishing theorem for all time-derivative and modulation-forcing terms. Typically this would come from:
+The old loose step is the expectation that critical rescaling should make the
+profile stationary.  The exact theorem needed is a residual-vanishing statement.
+For a renormalized Zeno sequence `U_n,P_n` on compact sets
+`K subset R^3\{0}` and finite renormalized time intervals `J`, write the
+renormalized equation in the form
 
-```text
-monotone Lyapunov functional;
-frequency-locking identity;
-vanishing entropy production;
-compactness plus uniqueness of tangent flow;
-modulation equations with integrable derivative;
-source/defect evacuation.
+```math
+\partial_s U_n-\nu\Delta U_n+(U_n\cdot\nabla)U_n+\nabla P_n
+=
+F_n^{drift}
++F_n^{selector}
++F_n^{scale}
++F_n^{src}
++\operatorname{div}M_n^{def}.
 ```
 
-The installed inputs do not provide such a theorem. In particular, after Zeno rescaling, terminal concentration can retain residual forcing or an ancient profile with nontrivial time-dependence. That object is outside the exact Landau-class consumer.
+Stationarity follows only after the actual selected sequence satisfies
+
+```text
+partial_s U_n -> 0 in L^1(J;H^{-1}(K));
+F_n^{drift}+F_n^{selector}+F_n^{scale} -> 0 in L^1(J;H^{-1}(K));
+F_n^{src} -> 0 in L^1(J;H^{-1}(K));
+M_n^{def} -> 0 as a measure on J x K.
+```
+
+A monotone Lyapunov functional, frequency-locking identity, entropy-production
+identity, uniqueness of tangent flow, modulation equation, or source-evacuation
+argument would be useful only if it proves the displayed vanishing for the
+selected sequence.  The installed inputs do not provide that theorem. In
+particular, after Zeno rescaling, terminal concentration can retain residual
+forcing or an ancient profile with nontrivial time-dependence. That object is
+outside the exact Landau-class consumer.
 
 ## Failure point
 
@@ -64,7 +84,9 @@ It reduces to a vanishing theorem for the renormalized time-derivative, modulati
 
 ```text
 RenormalizedZenoStationarity.A:
-terminal Zeno critical orbit + modulation freezing + defect evacuation
+terminal Zeno critical orbit
++ displayed L^1_s H^{-1}_{loc} vanishing of time/modulation/source terms
++ local measure evacuation of defect terms
 => stationary Navier-Stokes profile on R^3 \ {0}.
 ```
 
