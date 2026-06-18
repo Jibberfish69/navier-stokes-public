@@ -263,8 +263,9 @@ of the form
 C_*2^{-2\delta N}.
 ```
 
-Standard kernel commutator calculus already gives the `2^{-(j-k)}` gap factor.
-What it does **not** give on its own is the barrier-scale time integral above.
+The displayed carrier already contains the `2^{-(j-k)}` factor.  What that
+commutator calculation does **not** give on its own is the barrier-scale time
+integral above.
 After Young/Cauchy-Schwarz, the residual still lands on the same lifted-band
 carrier with a lower-shell weight that is not presently controlled by the
 Euclidean inputs alone.
