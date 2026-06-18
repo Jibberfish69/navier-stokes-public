@@ -6525,6 +6525,61 @@ Surface edited:
 
 - `theorem-construction/spectral-gap-rigidity-and-projector-identification-note.md`.
 
+## Current Keyword Residue Classification After Live Rework Batch
+
+This is not a completion claim.  It records the remaining authority-referenced
+`standard/usual/immediate/gold` keyword hits after the live proof-force edits
+above.
+
+Intentionally preserved as labels/headings, not proof steps:
+
+- `Gold Standard` / `Silver Standard` route labels in annular and pulling-teeth
+  notes;
+- `Immediate Formal Burden`, `Immediate Manuscript Repair`, `Immediate
+  consequence`, `Immediate Theorem Burden`, `Immediate Attack Reduction`,
+  `Immediate classification`, and `Immediate Consequence For The Route`
+  headings;
+- `Rescaled Energy Has No Immediate Coercive Sign`, where "Immediate" is part
+  of a negative heading;
+- `PCC.B (Immediate packet-side cutoff bound)`, whose following display is the
+  actual inequality.
+
+Intentionally preserved as ordinary mathematical nouns, not hidden proof force:
+
+- `standard CKN cylinder`;
+- `standard mollifier`;
+- `standard basis`;
+- `standard rigid classes`;
+- `stricter audit standard`;
+- `Why The Standard Estimates Still Miss`;
+- `Why Standard Regularity Inputs Do Not Close It Here`.
+
+Edited in this batch rather than preserved:
+
+- `usual viscous cutoff commutator`;
+- `usual higher-rung strain/cascade`;
+- `usual radius-scale derivative bounds`;
+- `usual incompressible pressure relation`;
+- `usual lower-order differentiated transport terms`;
+- `usual epsilon-regularity mechanism`;
+- `usual Bony split`;
+- `standard divergence-free interpretation`;
+- `standard legal ledgers pay ordinary errors`;
+- `standard zero-thickness profile`;
+- `standard selector-scale realization`;
+- `standard perturbative / bootstrap gap argument`;
+- `derivative grammar is straightforward`;
+- `usual classical continuation norm`.
+
+Still unresolved by this note:
+
+- The global theorem remains open wherever a repaired surface now names a real
+  missing bridge, such as `MovingConeToCKNSmallness.A`,
+  `FunnelSlabToCKN.A`, `TerminalLerayCommutatorLegal_{L3}.A`,
+  `HeightFluxControl.A`, the fixed-`nu` relative/tower bound, and the
+  Cauchy--Green projector comparison in `SSC-EP.A`.  These are mathematical
+  blockers, not accepted stand-ins for completion.
+
 ## Direct Fixed-Nu Euler-NS Kato-Ponce Rework
 
 Old claim being spent:
