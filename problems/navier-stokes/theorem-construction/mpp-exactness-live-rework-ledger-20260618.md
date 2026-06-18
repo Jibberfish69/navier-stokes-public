@@ -2128,6 +2128,85 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Appendix Model-Form Mirror Rework
+
+Old loose step:
+
+- The reader appendix kept four downstream proof mirrors in "model form" prose:
+  the lifted-band stress-strain flux reduction, the aligned variation/gap rate
+  reduction, the parabolic edge resistance amplitude, and the PRD
+  nonderivability witness.
+- In each case, the corresponding theorem-construction note had an exact
+  displayed object or hypothesis, while the appendix either named the object
+  schematically or corrupted the normalization.
+
+Exact replacement:
+
+The appendix now restores the exact source-note objects:
+
+1. the lifted stress-strain reduction
+
+```math
+|\mathcal J_N^{lift}(t)|
+\le
+C_J\sum_{j\ge N}\int
+\Sigma_j^{meso}(x,t)\tau_j^{H^1}[u](x,t)\,dx
+=C_J\Pi_N^{lift,\mathrm{dy}}(t),
+```
+
+followed by the actual barrier-scale theorem target for
+`\int_0^T\Pi_N^{lift}`;
+
+2. the aligned variation budget
+
+```math
+\eta_{\mathrm{al}}^{var}
+\le C_{var}\int_I
+\left(
+\frac{\|\partial_t C_{\mathrm{al}}\|_{op}}{g_{\mathrm{al}}}
+\|C_{\mathrm{al}}\|_{op}
++\|C_{\mathrm{al}}\|_{op}
+\frac{\|\partial_t S_{\mathrm{seg}}\|_{op}}{g_{\mathrm{seg}}}
+\right)dt,
+```
+
+with the normalized derivative/gap budget needed for
+`\eta_{\mathrm{al}}^{var}=o(\theta_Jg_{\mathrm{al}})`;
+
+3. the parabolic edge scale-critical amplitude definition
+
+```math
+\mathfrak a_e(t)
+:=
+2^{-2j_e}\|\nabla u_{\le j_e-C}(t)\|_{L^\infty(Q_e)}
++\mathfrak a_e^{hi-hi}(t)+\mathfrak a_e^{comm}(t);
+```
+
+4. the PRD heat-scale witness normalization
+
+```math
+\nu2^{2j}B_N^2|Q_N|=1,\qquad
+B_N^2=\nu^{-1}2^{3j},
+```
+
+and
+
+```math
+A_N^2\,2^{-3j}
+=
+(1+\kappa)^2\nu^2 2^{2L_0}2^{-j}.
+```
+
+Downstream consequence: the appendix no longer spends "model form" as proof
+glue on these four mirrors. The remaining burdens are exactly the named source
+theorems: lifted flux barrier control, aligned derivative/gap control,
+parabolic edge flux-amplitude control, and an endpoint supplier beyond the
+installed PRD inputs.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
