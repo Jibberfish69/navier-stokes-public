@@ -568,6 +568,12 @@ Old loose step:
 - `mpp-dynamic-low-high-eigenpacket-no-freeze-direct-attempt-20260610.md` said
   that far-low temporal variation "carries a parabolic scale-separation gain" and
   summarized the near-band heat payment as paid support.
+- `mpp-lowstrain-bvcharge-direct-attempt-20260506.md` said that the far-low
+  part has a "genuine parabolic scale-separation gain" before its own exact
+  `(LBV.8)` estimate appeared.
+- `mpp-independent-prd-alternative-proof-attempts-20260516.md` repeated the same
+  far-low gain sentence in a live proof-attempt surface named by the theorem
+  packet and verdict maps.
 - `live-theorem-edge.yaml`, `source-frontier.yaml`, and
   `submission-bundle/source-frontier.yaml` repeated the same paid-support summary
   in decision-bearing route language.
@@ -613,6 +619,8 @@ active-alignment/no-incoming cases remain the live unpaid wall.
 Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-lowstrain-bvcharge-direct-attempt-20260506.md`;
+- `theorem-construction/mpp-independent-prd-alternative-proof-attempts-20260516.md`;
 - `theorem-construction/mpp-dynamic-low-high-eigenpacket-no-freeze-direct-attempt-20260610.md`;
 - `live-theorem-edge.yaml`;
 - `source-frontier.yaml`;
