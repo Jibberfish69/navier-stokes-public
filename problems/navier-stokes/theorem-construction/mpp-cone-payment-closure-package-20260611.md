@@ -188,7 +188,7 @@ K_{lambda,S}
 {(x,t): T-e^{-S}<t<T, |x-x0|<lambda sqrt(T-t)}.
 ```
 
-It does not by itself control a standard CKN cylinder
+It does not by itself control a fixed CKN cylinder
 
 ```text
 Q_r(x0,T):=B_r(x0) x (T-r^2,T).

@@ -77,7 +77,7 @@ MSC.Localize^{src}+ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
 and records that none is installed for the same source-weighted terminal
 packet carrier.
 
-## Why The Standard Estimates Still Miss
+## Why The Current Estimates Still Miss
 
 The native source integrand is
 

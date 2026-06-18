@@ -256,7 +256,7 @@ Euclidean box unrelated to the same-fluid carrier.
 
 To make `(CSP.11)`--`(CSP.13)` honest rather than formal, fix
 `0<\kappa<\frac13`, let `\varrho\in C_c^\infty(B_1(0))` be a nonnegative
-standard mollifier with `\int\varrho=1`, write
+smooth compactly supported mollifier with `\int\varrho=1`, write
 
 ```math
 \varrho_{\kappa\delta}(x)

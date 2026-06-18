@@ -174,7 +174,7 @@ absorbed for large `N` by `scale-cubic-tail-absorption-lemma.md`.
 These are not the live stretching mystery anymore.
 
 The threshold-local spill collar is isolated by
-`scale-spill-reduction-lemma.md`. Under the stricter audit standard, that note
+`scale-spill-reduction-lemma.md`. Under the stricter audit criterion, that note
 is a packet-definition and target-estimate note, not a fully proposition-grade
 discharge. Its live estimate is the collar-amplitude bound `(SC)`, which must
 control

@@ -49,7 +49,7 @@ integrability. Weak trace compactness does not give absolute continuity in
 time. Same-solution custody prevents changing the object; it does not create a
 time-thickness lower bound for the selected positive Pack source.
 
-# Why Standard Regularity Inputs Do Not Close It Here
+# Why The Current Regularity Inputs Do Not Close It Here
 
 The continuation route would require a proved uniform critical norm and then
 the named relaunch/regularity criterion would continue the solution. But that

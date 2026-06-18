@@ -143,7 +143,7 @@ global no-incoming boundary theorem.
 
 ## Attempt 4: Known Ancient Liouville Classes
 
-The extra `B_ASAC` equality does not produce any of the standard rigid classes:
+The extra `B_ASAC` equality does not produce any of the listed rigid classes:
 
 ```text
 finite global ancient energy,
@@ -161,7 +161,7 @@ critical smallness remain consumer theorems rather than available inputs.
 Collapse:
 
 ```text
-no produced standard rigid class.
+no produced listed rigid class.
 ```
 
 ## Verdict

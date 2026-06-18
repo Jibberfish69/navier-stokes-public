@@ -117,7 +117,7 @@ n_J(a)\in (\mathbb R^3)^*,
 
 **Proof.**
 Write `R_a:=I-P_{N_a}`. Since `N_a` has rank two, `R_a` is a measurable rank-one
-orthogonal projector. For the standard basis `e_1,e_2,e_3`,
+orthogonal projector. For the coordinate basis `e_1,e_2,e_3`,
 
 ```math
 \sum_{k=1}^3 |R_a e_k|^2=\operatorname{tr}R_a=1.
