@@ -124,7 +124,27 @@ These alternatives exhaust every terminal packet sequence after subsequence sele
 
 Assume `(EVPAD.1)` and assume the ACT ledger hypotheses `\mathsf{Ledger}_{ACT}` are available: retained-window admission, bounded pack gauge, scale scheduler, source closure, pressure/cutoff bounds, and endpoint certificates.
 
-Under these hypotheses, the positive lower bound on `\mathcal V_m^{eff}` gives the receiver absorption margin used by the `ACT.KX` packet. The ACT ledger then runs the standard first-exit absorption: the scheduler chooses intervals on which the transport coefficient and forcing majorants have small integral; the positive budget absorbs the square-root excess term; the first-exit bound closes the local excess; finite cover and finite parameter count sum the packet outputs. This yields `ACT.KX`.
+Under these hypotheses, the positive lower bound on `\mathcal V_m^{eff}` gives the receiver absorption margin used by the `ACT.KX` packet. The exact input needed from the ACT ledger is the following scalar first-exit lemma:
+
+```math
+\textbf{ACT.FirstExitAbsorb:}\quad
+\begin{gathered}
+Y(t)\le Y(a)+\int_a^t b(s)Y(s)\,ds+\int_a^t f(s)\,ds
+-\gamma\int_a^t Z(s)\,ds,\\
+\int_a^b b(s)\,ds\le\eta,\qquad
+\int_a^b f(s)\,ds\le\eta\,\gamma,\qquad
+Y(a)\le\eta\,\gamma
+\end{gathered}
+\Longrightarrow
+\sup_{a\le t\le b}Y(t)\le C\eta\,\gamma,
+```
+
+with constants matching the packet excess variable `Y`, receiver budget
+`\gamma`, and dissipative quantity `Z` in `ACT.KX`. The scheduler supplies the
+smallness of `\int b` and `\int f`; the positive effective-viscous lower bound
+supplies `\gamma`; finite cover and finite parameter count then sum the packet
+outputs. This exact lemma, rather than the phrase "standard first-exit
+absorption," is what yields `ACT.KX`.
 
 So the rigorous conditional implication is:
 
