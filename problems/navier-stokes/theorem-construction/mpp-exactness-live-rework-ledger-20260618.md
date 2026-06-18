@@ -2083,6 +2083,51 @@ Edited live surfaces:
 - `theorem-construction/mpp-original-data-to-awg-attempt-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Retained-Window Affine-Defect Scheduler Mirror Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md`
+  already displayed the first-rung forcing identity `(RWS.C10)` and the
+  affine-defect bound `(RWS.C11)`.
+- The reader appendix mirror had flattened that paid step into the sentence
+  that the forcing was read from the local center forcing identity "in model
+  form", leaving the identity and bound absent from the live reader surface.
+
+Exact replacement:
+
+The appendix now displays the first-rung forcing identity
+
+```math
+\mathcal E_j^{(1)}
+=
+\text{local pressure response}
++\text{harmonic pressure tail}
++\text{viscous }U_3\text{ term},
+```
+
+and the scheduler bound
+
+```math
+\mathfrak D_{1,\rho,\psi}^{aff}(t)
+\le
+C_{\mathrm{cov}}
+\left(
+1+\sum_{j,b}\mathcal Y_{j,b}^{read}(t)
++\mathcal A_{\mathrm{core}}^{ctr}(t)^2
++\|u_0\|_{L^2}^2
+\right).
+```
+
+Downstream consequence: the scheduler appendix no longer asks the reader to
+trust a missing "model form" bridge. The live theorem source was already exact;
+the downstream repair was to restore that exact identity and bound in the
+reader-facing appendix.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
