@@ -102,7 +102,7 @@ V_{n+1}=L_n-M_n.
 
 ### Conclusion
 
-The tower is not an upward same-order runaway.
+The tower is not an upward same-derivative-order runaway.
 It is an exact cross-order balance whose live source is the mixed binomial
 spread.
 
