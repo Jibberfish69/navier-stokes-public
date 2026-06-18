@@ -24,7 +24,7 @@ first terminal Pack loss for the same original-data solution
 => uniform terminal tightness for the selected positive Pack source/tree measure.
 ```
 
-This would turn first-exit minimality into the missing compactness modulus for
+This turns first-exit minimality into the missing compactness modulus for
 `ScaleCriticalTreeCarleson.A`.
 
 # Direct Attempt

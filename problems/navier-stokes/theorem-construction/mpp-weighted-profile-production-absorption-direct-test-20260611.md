@@ -59,7 +59,7 @@ D_G[v_M] = M^2 D_G[phi],
 int |v_M|^3 |y|G dy = M^3 int |phi|^3 |y|G dy.
 ```
 
-Thus the proposed coefficient-margin inequality would imply
+Thus the proposed coefficient-margin inequality implies
 
 ```text
 M^3 c_phi

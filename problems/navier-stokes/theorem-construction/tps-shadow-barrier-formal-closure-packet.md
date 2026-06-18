@@ -158,7 +158,7 @@ Since `d_c(t)/d_c(s)=1/2`, the left-hand side equals `-\log 2`. Therefore
 ```
 
 which is `(SB.1c)`. So under `(SB.1d)` no such strip traversal exists. If
-`\tau_J<+\infty`, continuity of `d_c` would produce such a traversal by taking
+`\tau_J<+\infty`, continuity of `d_c` produces such a traversal by taking
 the last time before `\tau_J` at which `d_c=2\widetilde\sigma_J`. Thus
 `\tau_J=+\infty`, proving `(SB.1e)`. ∎
 

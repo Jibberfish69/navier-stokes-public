@@ -60,7 +60,7 @@ Holder would then give, for every time interval `I\subset(-1,0)`,
 C_R |I|^{1-1/p},
 ```
 
-and weak-* passage would imply
+and weak-* passage implies
 
 ```math
 \mu_*^{src,+}(B_R\times\{0\})=0.

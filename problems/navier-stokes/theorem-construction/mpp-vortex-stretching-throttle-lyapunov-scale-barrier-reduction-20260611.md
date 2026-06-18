@@ -303,6 +303,6 @@ The second child is the middle-band stretching/coherent-transfer wall. The third
 child is the exact replacement for the old "harmless Gronwall factor" step:
 fixed-`N` Gronwall is available, but summable high-tail propagation requires the
 coefficient-weighted initial-tail hypothesis displayed above. Proving `(L-Flux)`
-and the tail-compatible coefficient bound would give the high-frequency scale
+and the tail-compatible coefficient bound gives the high-frequency scale
 barrier, which would feed the compactness and gradient packages. Without both,
 the forward-positive cone route has reached its exact noncircular obstruction.
