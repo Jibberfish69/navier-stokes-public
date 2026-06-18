@@ -4218,8 +4218,44 @@ Edited live surfaces:
 
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`;
+- `live-theorem-edge.yaml`;
+- `theorem-packet.yaml`;
+- `submission-bundle/theorem-packet.yaml`;
+- `theorem-repair.yaml`;
 - `submission-verdict.yaml`;
 - `submission-bundle/submission-verdict.yaml`.
+
+## Live-Edge Endpoint Assembly And Split-Bridge Repair
+
+Old loose wording:
+
+- `live-theorem-edge.yaml` said `END.TowerBound` was a "formal implication"
+  and `END.COMPLETE` was "formal" from endpoint components.
+- The same live edge said `(FCI.5f)` was supplied "not by the formal split
+  bridge alone," leaving the missing input too implicit.
+- The two-tower donor note was described as the "formal version" of an idea.
+
+Exact replacement:
+
+The live edge now states the actual mathematical content. `END.TowerBound` is
+the direct contradiction between the `END.TowerAmp` uniform bound on the same
+finite cover/depth and the `tower-blown` requirement of arbitrarily large
+tower amplitude. `END.COMPLETE` follows by applying `END.TowerAmp` with the
+accepted `END.Exh` / `END.Cross` certificate maps to the same endpoint packet.
+For `(FCI.5f)`, the split bridge alone is explicitly insufficient; the
+cutoff-defect input `FCC.C1a` is required with `FPCR.C + FSCR.C + corrected
+FCC.C1`. The two-tower donor passage now names the exact implication replacing
+the slogan.
+
+Downstream consequence:
+
+The endpoint packet and source split cannot be discharged by assembly language
+alone. They may be spent only when the same endpoint packet, cover/depth, and
+cutoff-defect hypotheses named above are present.
+
+Edited live surface:
+
+- `live-theorem-edge.yaml`.
 
 ## Edited Or Preserved Residues
 
