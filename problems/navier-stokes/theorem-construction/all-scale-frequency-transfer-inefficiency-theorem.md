@@ -75,19 +75,24 @@ This is the global all-scale version of:
 The meso-scale theorem `(MSI)` is a local corollary candidate of this more
 global route.
 
-If one had the all-scale theorem above, then restricting to the range
+The implication to `(MSI)` is not a scale slogan.  It requires that the
+all-scale theorem's exponents dominate the exact lifted-band carrier used in
+`(MSI)` and that its kernel remain summable after restriction to
 
 ```math
 N+M<k<j-4
 ```
 
-should recover a gap-damped transport bound of the type needed by
+Under those hypotheses, restricting the all-scale estimate to that range gives
+the gap-damped transport bound required by
 `meso-scale-shear-inefficiency-theorem.md`.
 
-So the relationship is:
+Thus the theorem-level relationship is conditional:
 
 ```math
 \text{all-scale frequency-transfer inefficiency}
+\quad+\quad
+\text{lifted-band exponent embedding}
 \Longrightarrow
 \text{meso-scale shear inefficiency}
 \Longrightarrow
@@ -107,10 +112,10 @@ The present Euclidean inputs supply only:
 Those inputs are too coarse to imply a global directional law for transfer
 across all scales.
 
-So this note records a genuinely stronger theorem direction. If true, it would
-reorganize the route: Body `1` would export a global transport-loss principle,
-and the lifted band would become one corollary rather than the unique open
-packet.
+So this note records a genuinely stronger theorem direction.  If the
+all-scale estimate and the lifted-band exponent embedding are both proved, Body
+`1` exports a global transport-loss principle and the lifted band becomes a
+corollary rather than the unique open packet.
 
 ## Relation To Existing Frontier Notes
 

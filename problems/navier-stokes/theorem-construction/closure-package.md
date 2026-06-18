@@ -77,7 +77,7 @@ deprecated provenance and does not perform theorem-bearing work.
 2. a compactness gain that only holds because the approximation family is secretly smoother than the theorem target;
 3. a fourth-bridge estimate that silently imports a stronger carrier or hidden coercive hypothesis;
 4. a hidden replacement of arbitrary or minimally admissible data by a narrower high-regularity class;
-5. a heuristic decay principle promoted to theorem-bearing status without proof.
+5. an unproved decay principle promoted to theorem-bearing status without proof.
 
 ### Current status
 
@@ -133,7 +133,7 @@ The closure package also owns the theorem-level meaning of the phrase "strong en
 3. the same suppression enters the selected Euclidean fourth-bridge mechanism of `G2`;
 4. no later step asks for more than the scale-barrier package actually proves.
 
-If this interface fails, the route has not closed even if each package looks plausible in isolation.
+If this interface fails, the route has not closed even if each package looks internally coherent in isolation.
 
 ## Proof Roadmap
 

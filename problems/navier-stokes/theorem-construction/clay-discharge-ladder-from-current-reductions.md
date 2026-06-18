@@ -56,8 +56,11 @@ The current classical reductions already give:
    whenever `0\le\tau_0<\tau_1` and `0\le r_0<r_1`;
 4. if `\mathfrak A_s` stays bounded, then the base classical `H^s` norm stays
    bounded;
-5. if the base classical `H^s` norm stays bounded for `s>\frac52`, the classical
-   solution continues.
+5. if the base classical `H^s` norm stays bounded by `M` for `s>\frac52`, the
+   local wellposedness restart time is bounded below by
+   `\tau_{\mathrm{lwp}}(M,\nu)>0`; choosing
+   `t_0>T-\tau_{\mathrm{lwp}}(M,\nu)/2` continues the same classical solution
+   past `T`.
 
 So the exact remaining theorem on this branch is:
 

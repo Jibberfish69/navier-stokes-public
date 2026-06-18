@@ -5,7 +5,7 @@
 Reserve globalization program downstream of the live same-depth operator route in
 [weighted-exact-projection-resonant-shell-theorem-candidate.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md).
 
-This note records the strongest plausible endgame suggested by the current
+This note records the strongest candidate endgame suggested by the current
 capwise null-form packet. It is **not** the current live theorem frontier. The
 live local burden remains the reserve shell theorem
 
@@ -41,8 +41,8 @@ So the globalization loop
 \text{minimal-element rigidity}
 ```
 
-is a plausible reserve endgame, but it still needs new theorem packets at every
-arrow.
+is a reserve-endgame candidate, but it still needs new theorem packets at every
+arrow before it has downstream proof force.
 
 ## Exact Missing First Upgrade
 
@@ -98,7 +98,8 @@ The signed packet is now reduced one step further: first prove the cap-adjacency
 matrix lower bound on the symmetrized frozen kernel, then promote that lower
 bound into `(CNCR.1)` after absorbing freezing and skew remainders.
 
-Without `(CNCR.1)`, the rest of the coercivity-rigidity loop is only heuristic.
+Without `(CNCR.1)`, the rest of the coercivity-rigidity loop is only a route
+proposal with no proof force.
 
 ## Reserve Theorem Stack
 
@@ -212,7 +213,7 @@ C_\eta o_J(1).
 
 Indeed,
 `\mathcal T^{bdry}_{\ge J}\le |\mathcal T^{bdry}_{\ge J}|`, and substitution of
-`(CNCR.3b)` into `(CNCR.3b0)` gives the conclusion immediately. So the abstract
+`(CNCR.3b)` into `(CNCR.3b0)` gives the conclusion. So the abstract
 absorption step is already discharged; the live reserve burden is only to prove
 the hypothesis `(CNCR.3b)` or a sufficient criterion implying it.
 
@@ -495,7 +496,7 @@ a generic appeal to backward uniqueness.
 
 ## Interpretation
 
-The current operator packet suggests a plausible globalization philosophy:
+The current operator packet suggests a candidate globalization philosophy:
 
 ```math
 \text{capwise null operator control}

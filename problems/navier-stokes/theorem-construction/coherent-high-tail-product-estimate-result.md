@@ -78,8 +78,10 @@ If the coherent selector enforces
 P_{>j}v_{coh}=0,
 ```
 
-then `T_{i,j}^{hi}=0`, and the estimate is immediate.
+then `T_{i,j}^{hi}=0`, and the estimate follows from the vanishing high factor.
 
 ## Boundary
 
-This term is harmless under exact spectral alignment or high-tail decay. It leaves the principal coherent coefficient and noncoherent low-mode product as the active collar terms.
+This term vanishes under exact spectral alignment and is controlled under the
+stated high-tail decay. It leaves the principal coherent coefficient and
+noncoherent low-mode product as the active collar terms.

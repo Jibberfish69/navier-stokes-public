@@ -3,8 +3,9 @@
 ## Status
 
 Theorem-grade classical realization / identification surface for the classical NS model. This note
-instantiates the carrier axioms on the standard divergence-free Euclidean
-setting and isolates the exact pullback and compactness steps used by D.1, D.4,
+instantiates the carrier axioms on the declared divergence-free Euclidean
+setting \(H=L^2_\sigma(\mathbb R^3)\), \(V=H^1_\sigma(\mathbb R^3)\), and
+\(V'=H^{-1}_\sigma(\mathbb R^3)\), and isolates the exact pullback and compactness steps used by D.1, D.4,
 and D.8a.
 
 It does not introduce a new analytic principle. It packages the classical
@@ -262,7 +263,7 @@ the usual way:
 
 **Proof.**
 Because `\rho` is the identity on the realized carrier, the linear and
-nonlinear intertwining identities are immediate. The Leray projection removes
+nonlinear intertwining identities follow from substituting the realized carrier into the defining formulas. The Leray projection removes
 the gradient component of the convective term, and the remaining gradient
 remainder is recovered as the pressure by solving the Poisson equation above
 with the standard normalization. \(\square\)
@@ -511,13 +512,13 @@ initial data `u_0\in L^2_\sigma`.
 Then:
 
 1. `u` satisfies the classical energy inequality, and in the regular class it
-   becomes the standard energy identity.
+   becomes the classical energy identity.
 2. If `u\in L^2(0,T;H^1_\sigma)\cap L^p(0,T;L^q)` with
    `\frac{2}{p}+\frac{3}{q}\le 1` and `q>3`, then `u` is regular on `[0,T]`.
 
 **Proof.**
 The energy statement is the classical Leray estimate on the realized carrier,
-and the Serrin-type regularity conclusion is the standard continuation
+and the Serrin-type regularity conclusion is the named continuation
 criterion for incompressible Navier--Stokes on the Euclidean model. On
 `\mathbb T^3` the same criterion applies with the usual periodic compactness
 simplifications. \(\square\)

@@ -22,7 +22,27 @@ The reopen step requires one of:
 
 or a readout-preserving normalization that gives the same bound with lower-order readout defect.
 
-The direct coefficient theorem failed by fixed-shell amplitude scaling. The normalization theorem also failed: exact readout preservation leaves amplitude unchanged, while amplitude clipping creates a same-order readout defect.
+The direct coefficient theorem failed by fixed-shell amplitude scaling. The normalization route keeps the same obstruction for an exact reason. For a candidate clipping map `C_A`, define the readout defect
+
+```math
+E_A(X):=\rho(\mathbb H_DX)-\rho(\mathbb H_D C_AX)
+      =\rho(\mathbb H_D(I-C_A)X).
+```
+
+Exact readout preservation is the case `E_A(X)=0`, and then the coefficient
+
+```math
+\|\nabla_D\mathbb S_D(j)\mathbb H_DX\|_\infty
+```
+
+is unchanged. Amplitude clipping replaces the coefficient problem by the displayed defect `E_A`. The route can spend clipping only after proving a bound such as
+
+```math
+\|\nabla P_{\le j}E_A(X)\|_{L^\infty}
+\le \varepsilon\nu2^{2j}+R_j(X),
+```
+
+with `R_j` already paid in the low-mode export ledger. No such lower-order defect theorem is installed here.
 
 ## Result
 

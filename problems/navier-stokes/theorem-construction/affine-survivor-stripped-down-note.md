@@ -207,7 +207,7 @@ with
 \tag{8}
 ```
 
-Then `(3)` follows immediately.
+Then `(3)` is the vanishing statement encoded by `(8)` in the notation of `(7)`.
 
 This is the cleanest possible identity, but it is also stronger than anything
 currently installed.
@@ -529,7 +529,8 @@ M_1[Y](t)
 ```
 
 which is exactly `(11g)` with the definitions `(11d)`-`(11e)`. Equation
-`(11h)` is immediate, and dividing by `|I|` gives `(11i)`.
+`(11h)` is the same identity after substituting `(12l)` into `(11g)`, and
+dividing by `|I|` gives `(11i)`.
 
 Finally,
 

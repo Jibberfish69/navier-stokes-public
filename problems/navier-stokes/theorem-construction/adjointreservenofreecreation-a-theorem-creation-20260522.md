@@ -54,7 +54,7 @@ AdjointReserveNoFreeCreation.A. Turn the reserve increment into a dual pairing c
 - - problems/navier-stokes/theorem-packet.yaml
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - ReserveCreationCharge.A. For every admissible terminal heat window W and scale N, the positive first-created square reserve increment is inherited from Past(W) up to declared loss or is paid by Charge_N(W), so [R_N(W) - (1 - delta)R_N(Past(W)) - Loss_N(W)]_+ <= Charge_N(W) + o_N(1).
 - ParentSquareEmbed.A
 - terminal heat-window decomposition

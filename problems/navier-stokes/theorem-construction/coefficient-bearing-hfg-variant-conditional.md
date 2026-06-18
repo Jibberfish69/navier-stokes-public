@@ -14,7 +14,10 @@ or pointwise
 \widetilde\Lambda_N^\sharp E_N\le \varepsilon\nu D_N+C_\varepsilon R_N
 ```
 
-with `R_N` summable in the final shell summation. Assume the lifted high-side packet is also absorbed or summable.
+with `0<\varepsilon<c` for the dissipative coefficient in the dyadic
+inequality and with `R_N` summable in the final shell summation. Assume the
+lifted high-side packet is also controlled by the same coefficient-margin form
+or is summable as a declared remainder.
 
 ## Dyadic inequality
 

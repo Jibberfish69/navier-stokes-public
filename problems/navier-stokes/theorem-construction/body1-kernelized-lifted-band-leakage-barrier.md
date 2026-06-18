@@ -28,9 +28,9 @@ transport carrier
 2^{4j}\|\Delta_j u^{(n)}(t)\|_{L^2_x}^2.
 ```
 
-This is the gradient-shaped coefficient one would ultimately like to dominate.
-It matches the open gradient-side lifted packet algebra after the strict
-low-mode and threshold-local spill collar are removed.
+This is the gradient-shaped coefficient targeted by the strengthened Body `1`
+export. It matches the open gradient-side lifted packet algebra after the
+strict low-mode and threshold-local spill collar are removed.
 
 ## Stronger Kernelized Version
 
@@ -47,7 +47,7 @@ K_{j-k}\,
 
 where `K_r` is summable, for example `K_r = 2^{-\sigma r}` with `\sigma>0`.
 
-The corresponding strengthened Body `1` export would be:
+The corresponding strengthened Body `1` export is:
 
 ```math
 \sup_n\int_0^T \mathfrak L_N^{(K)}[u^{(n)}](t)\,dt
@@ -103,9 +103,8 @@ which does not see:
 - the dissipation weight `2^{4j}`;
 - or any off-diagonal gain in `j-k`.
 
-So if Body `1` is upgraded in a way that actually targets the open packet, it
-should export exactly this intermediate transport leakage quantity or a theorem
-that dominates it.
+So the exact Body `1` export target is this intermediate transport leakage
+quantity, or a theorem that dominates it.
 
 ## Why The Kernel Matters
 
@@ -125,12 +124,12 @@ with `K_{j-k}` summable and `a_k(t)=2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}`.
 
 ## Consequence If Proved
 
-If Body `1` proved a theorem-grade integrated barrier for the natural
-kernelized scale-side carrier `\mathfrak K_N^{scale}`, and if Body `3` passed
-it stably to the exact limit, then the route would gain a real noncircular
-transport-leakage input upstream of the last open packet.
+If Body `1` proves a theorem-grade integrated barrier for the natural
+kernelized scale-side carrier `\mathfrak K_N^{scale}`, and Body `3` passes it
+stably to the exact limit, the route gains a real noncircular transport-leakage
+input upstream of the last open packet.
 
-That would turn the open lifted packet from
+The resulting theorem interface turns the open lifted packet from
 
 ```math
 \text{unsupported intermediate-band transport}
@@ -160,7 +159,7 @@ This note records a leading upstream repair target, not a discharged theorem.
   carrier to the stronger gradient-side carrier.
 - The bounded self-attempt
   `body1-kernelized-lifted-band-integration-audit.md` now sharpens that
-  boundary: the first obvious integration routes still fail on the current Body
+  boundary: the first direct integration routes still fail on the current Body
   `1` surface because the kernelized carrier leaves a residual shell factor
   `2^k` beyond the available `L_t^2H_x^1` control.
 - The refinement target is now explicit in

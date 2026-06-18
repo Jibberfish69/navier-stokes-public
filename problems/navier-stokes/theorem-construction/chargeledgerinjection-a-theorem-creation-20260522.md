@@ -55,7 +55,7 @@ ChargeLedgerInjection.A. Close the terminal reserve birth problem by proving a g
 - Define or prove: Added three theorem-facing reductions on the Navier-Stokes lane. First, weighted-mixed-jet-next-time-envelope-reduction.md proves the exact whole-tower inequality A_next_ s-1 (tau,r) <= nu D_s(tau,r) + C_s A_s(tau,r)^2, red
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - - If generated surfaces disagree with live-theorem-edge.yaml or source-frontier.yaml,
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - - 'Read direct live surfaces first: live-theorem-edge.yaml, source-frontier.yaml,
 - ParentSquareEmbed.A
 - terminal heat-window decomposition

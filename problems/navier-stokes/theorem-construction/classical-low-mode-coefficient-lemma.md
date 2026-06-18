@@ -56,7 +56,9 @@ M\sum_{k\le N-4}2^{3k/2}
 C\,2^{3N/2}M.
 ```
 
-Adding the constant term `1` gives the pointwise bound for `\mathcal{L}_N(t)`. The `L^\infty_t` and `L^1_t` claims follow immediately.
+Adding the constant term `1` gives the pointwise bound for `\mathcal{L}_N(t)`.
+Taking the time supremum gives the `L^\infty_t` claim, and integrating in time
+gives the `L^1_t` claim.
 
 ## Audit Boundary
 
@@ -91,7 +93,7 @@ This lemma is theorem-grade for the fixed-cutoff claim
 \qquad\text{for each fixed }N.
 ```
 
-Its pointwise bound grows like `2^{3N/2}`:
+Its pointwise bound contains the factor `2^{3N/2}`:
 
 ```math
 \int_0^T \mathcal{L}_N(t)\,dt
@@ -101,8 +103,8 @@ T\big(1 + C\,2^{3N/2}M\big)
 
 So by itself it is only a fixed-cutoff admissibility statement.
 
-However, on the exact `4 -> 1` tail-energy surface one does not need to treat
-`\exp(C\int_0^T\mathcal L_N)` as a harmless free factor. The recertification
+However, on the exact `4 -> 1` tail-energy surface one does not leave
+`\exp(C\int_0^T\mathcal L_N)` as an uncontrolled free factor. The recertification
 lemma now keeps the coercive tail dissipation
 
 ```math

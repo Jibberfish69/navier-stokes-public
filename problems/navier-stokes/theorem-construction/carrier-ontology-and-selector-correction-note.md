@@ -42,7 +42,7 @@ the note states:
 There is only one ontic carrier: \mathfrak R.
 ```
 
-and then immediately warns that `K_D` must not be defined by downstream
+and then warns that `K_D` must not be defined by downstream
 commutative survival or by after-the-fact classical selection.
 
 In

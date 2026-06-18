@@ -103,7 +103,8 @@ D_N^{(n)}(t)
 \tag{5}
 ```
 
-By standard Littlewood--Paley equivalence at dyadic threshold `K=2^N`,
+For the fixed smooth dyadic partition with uniformly finite overlap, the
+threshold `K=2^N` tail norms satisfy the exact equivalence
 
 ```math
 c_{LP}E_N^{(n)}(t)

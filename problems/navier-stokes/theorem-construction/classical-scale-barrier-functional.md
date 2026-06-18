@@ -29,7 +29,7 @@ for all `N >= N_*` on the same classical surface.
 - `domain`: one fixed classical smooth-data approximation family with common energy/enstrophy budget.
 - `codomain`: a nonnegative tail-defect scalar indexed by `N`.
 - `admissibility`: original Euclidean Navier-Stokes dynamics only; no hyperviscosity, filtering, or geometric surrogate.
-- `invariance`: independent of pressure gauge and stable under equivalent dyadic partitions up to harmless constants.
+- `invariance`: independent of pressure gauge and stable under equivalent dyadic partitions up to fixed constants.
 - `theorem_interface`: controls the only high-frequency quantity used by both compactness and gradient continuation.
 - `critical_scale_measure`: the high-frequency energy and dissipation tails `E_N` and `D_N`.
 - `closure_mechanism`: viscous absorption plus a summable remainder turns the high-side remainder packet into the tail estimate used downstream.

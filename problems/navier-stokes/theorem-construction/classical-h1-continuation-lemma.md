@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This note names the standard continuation criterion used at the end of the
+This note states the exact `H^1` relaunch criterion used at the end of the
 Euclidean Route B closure chain.
 
 ## Fixed Surface
@@ -38,7 +38,7 @@ Choose any sequence `t_n\uparrow T`. Then
 \qquad\text{for all }n.
 ```
 
-By the standard local classical well-posedness theory in `H^1(\mathbb R^3)`,
+By the `H^1(\mathbb R^3)` local strong-solution relaunch theorem used here,
 there exists a lifespan `\tau=\tau(M)>0`, depending only on the bound `M`, such
 that for each `n` the Navier--Stokes system with initial data `u(t_n)` admits a
 classical solution on `[t_n,t_n+\tau]`.

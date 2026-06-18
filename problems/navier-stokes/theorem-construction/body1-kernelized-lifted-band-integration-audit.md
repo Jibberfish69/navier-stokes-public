@@ -122,7 +122,7 @@ so the same `2^{3k}` obstruction remains.
 ## Honest Verdict
 
 The kernelized scale-side reduction is real, but it does **not** close on the
-current Body `1` energy surface by the first obvious integration routes.
+current Body `1` energy surface by the first direct integration routes.
 
 What the new kernel buys is:
 

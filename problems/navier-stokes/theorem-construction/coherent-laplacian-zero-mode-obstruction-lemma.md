@@ -141,7 +141,7 @@ Hence
 (I+\mathcal L_{\mathrm{coh}})^{1/2}=I_{K_D}.
 ```
 
-The spectral selector computation is then immediate: the only spectral value
+The spectral selector computation then reduces to the one-point spectrum: the only spectral value
 is `1`, so the spectral family is zero below `1` and the identity at or above
 `1`. `\square`
 

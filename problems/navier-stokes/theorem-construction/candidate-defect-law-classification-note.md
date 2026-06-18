@@ -117,7 +117,7 @@ The higher-order defect is the coefficient-commutator packet
 This is the class most structurally compatible with the YM cubic/self-geometry
 pattern, because the heat operator is already geometry-modified.
 
-So if a true primary drain law exists, this is the most plausible source.
+So if a true primary drain law exists, this is the leading candidate source.
 
 ## 2. Secondary classification by exponent
 
@@ -183,7 +183,7 @@ c_\Psi\Psi^p+c_\Theta\Theta^q.
 \tag{10}
 ```
 
-This is the most plausible shape in Class C and is also realistic in Class D,
+This is the leading candidate shape in Class C and is also realistic in Class D,
 where the geometry defect may split into:
 
 - a velocity-gradient Dirichlet drain,
@@ -216,7 +216,7 @@ with it naturally?
 
 ## 4. Current ranking of candidate classes
 
-At the current route state, the most plausible ranking is:
+At the current route state, the current candidate ranking is:
 
 ### Rank 1. Class D: deformation-geometry defect
 
@@ -252,7 +252,7 @@ So the best next classification move is:
 \
 \text{(ii) the natural same-surface functional,}
 \
-\text{(iii) the most plausible exponent family, and}
+\text{(iii) the leading candidate exponent family, and}
 \
 \text{(iv) the production law it would need to dominate.}
 }

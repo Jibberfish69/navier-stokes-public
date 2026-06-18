@@ -123,10 +123,11 @@ Here:
 - `\mathrm{Err}_j^{sign}` collects the skew / non-coercive part of the
   symmetrized cap-pair interaction that is not absorbed by the positive defect.
 
-Only after the carrier normalization is fixed should one try to prove
-`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j` or one of its bridge-normalized
-variants, potentially through the upgraded-carrier bridge measures now tracked
-elsewhere on the lane.
+Unsigned capwise control does not identify the scale of `\kappa_j`.  The scale
+law
+`c_K2^j\rho_j\le \kappa_j\le C_K2^j\rho_j`, or one of its bridge-normalized
+variants, is a separate carrier-normalization theorem to be proved through the
+upgraded-carrier bridge measures now tracked elsewhere on the lane.
 
 This theorem is the exact missing bridge from unsigned capwise control to a
 coercive quantity.

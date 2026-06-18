@@ -155,7 +155,7 @@ is a bounded linear map on the affine survivor space.
 
 ### Proof
 
-This is immediate from `(6)` and the triangle inequality.
+This is `(6)` plus the triangle inequality.
 
 ## Weighted consequence
 
