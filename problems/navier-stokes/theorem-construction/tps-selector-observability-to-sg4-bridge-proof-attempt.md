@@ -5156,7 +5156,10 @@ In particular:
 ```
 
 so the vanishing-error cycle-exact closure `(PD.70z11)` holds on that strip
-family after the usual route-local normalization;
+family under the explicit route-normalization hypothesis used in
+`TPS-Hodge-core-plus-normalization-yields-PD70q`: a fixed-constant stripwise
+bound plus an `o_J(1)` remainder is absorbed into the normalized observability
+budget for all sufficiently large `J`;
 2. if the stronger linear support pricing
    `\eta_J^{sh}(I)\le C_{sh}(\mathcal E_J^{obs}(I)+\mathcal E_{J,\perp}^{err}(I))`
    holds, then one recovers `(CN.13q)` and hence the full quadratic closure
