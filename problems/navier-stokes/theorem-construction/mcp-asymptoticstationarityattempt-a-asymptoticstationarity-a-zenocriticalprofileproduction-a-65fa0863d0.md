@@ -27,10 +27,10 @@ defect measures.
 
 ## Attempt
 
-The terminal Zeno/critical-pole regime suggests that a scale-normalized object should become approximately autonomous at the pole. But approximate criticality does not by itself imply stationarity.
-
-The old loose step is the expectation that critical rescaling should make the
-profile stationary.  The exact theorem needed is a residual-vanishing statement.
+The old loose step is the expectation that critical rescaling makes the profile
+approximately autonomous at the pole.  Approximate criticality does not by
+itself imply stationarity.  The exact theorem needed is a residual-vanishing
+statement.
 For a renormalized Zeno sequence `U_n,P_n` on compact sets
 `K subset R^3\{0}` and finite renormalized time intervals `J`, write the
 renormalized equation in the form
