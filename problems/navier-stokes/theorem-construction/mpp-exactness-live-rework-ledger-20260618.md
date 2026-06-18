@@ -710,6 +710,33 @@ Edited live surfaces:
 - `theorem-construction/mpp-affine-readout-condition-number-budget-direct-attempt-20260609.md`;
 - `theorem-construction/coherent-readout-low-mode-comparison-theorem.md`.
 
+## CKN Packet Cost Order-Phrase Rework
+
+Old loose step:
+
+- `mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md` said the
+  unnormalized cost on a singular parabolic cylinder was "at least of order"
+  `\epsilon_0 r^2`.
+
+Exact replacement:
+
+The live quantitative audit now spends the normalized CKN threshold directly:
+
+```math
+r^{-2}\int_{Q_r}(|u|^3+|p|^{3/2})\,dx\,dt\ge\epsilon_0
+\quad\Longrightarrow\quad
+\int_{Q_r}(|u|^3+|p|^{3/2})\,dx\,dt\ge\epsilon_0 r^2.
+```
+
+Downstream consequence: the cone-payment branch may use a normalized
+scale-critical lower bound and its exact unnormalized consequence. It may not
+use the phrase "of order" as a substitute for the displayed implication, and it
+still cannot derive a scale-uniform positive supplier from finite raw energy.
+
+Edited live surface:
+
+- `theorem-construction/mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
