@@ -26,20 +26,37 @@ Here `delta_car` is the mismatch between the material left singular carrier and 
 
 ## Short-window carrier mismatch
 
-By Proposition `AS.7v`, on a short regular window the carrier mismatch is bounded by the local generator and variation data divided by the square of the segment gap. Schematically,
+By Proposition `AS.7v`, on a short regular window the carrier mismatch is
+controlled by the normalized short-window error and the instantaneous
+segment-strain gap.  Write `E_win(t_*)` for the short-window generator /
+variation error at the shifted anchor and `g_seg(t_*)` for the corresponding
+instantaneous segment-strain gap.  The exact hypothesis is
 
 ```math
-delta_car(t_*) <= short_window_error(t_*)^2 / g_seg(t_*)^2.
+\sqrt{\delta_{car}(t_*)}
+\le
+\frac{E_{win}(t_*)}{g_{seg}(t_*)}.
 ```
 
 Therefore finite-window material cone entry plus carrier mismatch control gives shifted-anchor alignment:
 
 ```math
 ||P_al(t_*) - P_top^seg(t_*)||_F^2
-lesssim
+\le
+2\exp(-2G_{mat}){1-c_0^2\over c_0^2}
++2{E_{win}(t_*)^2\over g_{seg}(t_*)^2}.
+```
+
+The old schematic bound
+
+```math
+\|P_{al}(t_*)-P_{top}^{seg}(t_*)\|_F^2
+\lesssim
 exp(-2G_mat) (1-c0^2)/c0^2
 + short_window_error(t_*)^2/g_seg(t_*)^2.
 ```
+
+may be used only as a mnemonic for the displayed estimate above.
 
 ## Remaining rate theorem
 
@@ -51,3 +68,18 @@ The remaining target is the weighted rate
 ```
 
 in weighted `L^q`.
+
+Equivalently, the carrier-mismatch part is the exact weighted source theorem
+
+```math
+\left\|
+{\|C_{al}(t_*)\|_{op}E_{win}(t_*)
+\over
+\theta_J g_{al}(t_*)g_{seg}(t_*)}
+\right\|_{L^q(d\nu_J)}
+\to0,
+```
+
+together with the material-cone decay term weighted by
+`\|C_{al}(t_*)\|_{op}/(\theta_Jg_{al}(t_*))`.  Without those weighted rates,
+the shifted-anchor alignment is not proved by the gap-square estimate alone.
