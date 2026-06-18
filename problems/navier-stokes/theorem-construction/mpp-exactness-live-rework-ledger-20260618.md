@@ -4290,6 +4290,42 @@ Edited live theorem notes:
 - `theorem-construction/tps-shadow-barrier-formal-closure-packet.md`;
 - `theorem-construction/mpp-sourceparent-measure-formal-definition-note.md`.
 
+## Endpoint Matrix And Source Split Input Repair
+
+Old loose wording:
+
+- `mpp-class-membership-endpoint-matrix-closure-contract-note.md` treated
+  `END.Cross`, `END.COMPLETE`, `END.Pack`, `END.Field`, and `END.TowerBound`
+  as "formal" endpoint assembly once inputs were named.
+- `mpp-class-membership-full-bridge-ledger-note.md` displayed
+  `FPCR.C+FSCR.C+FCC.C1+FCC.C1a => (FCI.5f)` but then said the bridge was
+  closed by "the three channel theorems," which could silently drop
+  `FCC.C1a`.
+
+Exact replacement:
+
+The endpoint matrix now states the exact contradiction or conditional
+reduction for each endpoint cell: `END.TowerBound` is the direct contradiction
+between the `END.TowerAmp` uniform bound on the same finite cover/depth and
+the `tower-blown` requirement; `END.Pack` requires the native pack-gauge bound
+on the same packet; `END.Field` requires `OFP.A` to supply positive scale and
+finite coherence; `END.Cross` is conditional on the accepted cross-entry
+certificate reductions. The source split now says `(FCI.5f)` follows only from
+the four displayed inputs, with `FCC.C1a` supplying the cutoff-defect
+integrability required to put the cutoff channel in `L^1(I)`.
+
+Downstream consequence:
+
+The endpoint and source bridges cannot be spent as assembly by name. Downstream
+uses of `(FCI.5f)` must carry `FCC.C1a`, and downstream uses of `End_NS` must
+carry the same endpoint packet, cover/depth, pack-gauge, one-field, tower, and
+cross-certificate hypotheses.
+
+Edited live theorem notes:
+
+- `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`;
+- `theorem-construction/mpp-class-membership-full-bridge-ledger-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
