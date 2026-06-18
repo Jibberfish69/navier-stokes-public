@@ -69,11 +69,11 @@ A coefficient-bearing spill estimate is not such a domination theorem.
 `same-scale-family-lift-lemma.md` proves a finite-family lift:
 
 ```math
-SS\text{-}model\Longrightarrow UB+MS.
+SS\text{-edge}\Longrightarrow UB+MS.
 ```
 
 The lift itself is exact finite summation. But its input is the coefficient-free
-edge-family theorem `(SS-model)`
+edge-family theorem `(SS\text{-}edge)`
 
 ```math
 \int_0^T \Pi_{N,a}^{edge}(t)\,dt
@@ -84,15 +84,15 @@ edge-family theorem `(SS-model)`
 
 `same-scale-multiplier-stability-program.md` records that this coefficient-free
 theorem is not installed; the available same-scale estimate is
-the coefficient-bearing edge estimate `(SS^\sharp\text{-}model)`.
+the coefficient-bearing edge estimate `(SS^\sharp\text{-}edge)`.
 
 Therefore the same-scale lift cannot be imported as a proof of `MSC.BadAC`.
 
-## Candidate 4: Weak Same-Scale Coefficient Kill
+## Candidate 4: Weak Same-Scale Coefficient Inclusion
 
-The weak same-scale route kills its coefficient into a different weighted
+The weak same-scale route includes its coefficient term in a different weighted
 carrier inside the signed continuous-scale branch. That is a branch-local
-coefficient transfer. It does not say:
+coefficient inclusion. It does not say:
 
 ```math
 \mathfrak B_N^\sigma(t)dt
@@ -110,12 +110,12 @@ one of the following extra inputs:
 ```math
 QBound.A,
 \qquad
-SS\text{-}model,
+SS\text{-edge},
 \qquad
 \text{or a direct mixed-measure domination theorem.}
 ```
 
-`QBound.A` is continuation-grade, `SS-model` is not installed, and the direct
+`QBound.A` is continuation-grade, `SS\text{-}edge` is not installed, and the direct
 mixed-measure domination theorem is exactly `MSC.BadAC`.
 
 Thus the import attempt returns to the same active primitive:
