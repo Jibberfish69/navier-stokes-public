@@ -263,12 +263,13 @@ every time `t\in I`,
 \mathcal S_{N,\eta}^{press,tail,ctr}(t)
 \le
 C_{N,\lambda,\rho,\psi,\delta,I}
-\mathcal I_{N,\eta}^{ctr}(t).
+\big(1+\mathcal I_{N,\eta}^{ctr}(t)\big).
 \tag{FPR.B2b}
 ```
 
 In particular, under `(FPR.B2a)` the harmonic-tail half is no longer an
-external FEI wall; it is absorbed into the coefficient side of `(FEI.5y)`.
+external FEI wall; it is absorbed into the coefficient side of `(FEI.5y)`
+plus the finite interval source term coming from the energy bound.
 
 ### Proof
 
@@ -416,8 +417,10 @@ Define the far-field increment tail ledger
 :=
 \sup_{1\le j\le J}
 \sum_{k=0}^{N}\lambda_k
+\left(
 \int_{|y-c_j(t)|>2\Lambda_{\delta,\rho}^{halo}}
-\frac{|u(y,t)|^2}{|y-c_j(t)|^{k+4}}\,dy.
+\frac{|\eta|\,|u(y,t)|^2}{|y-c_j(t)|^{k+5}}\,dy
+\right)^2.
 \tag{FPR.C2a}
 ```
 
@@ -439,7 +442,7 @@ If, in addition, the ordinary interval energy ledger is available, then
 \mathfrak T_{N,\eta}^{press,far,ctr}(t)
 \le
 C_{N,\lambda,\rho,\psi,\delta,I}\,
-\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2.
+\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^4.
 \tag{FPR.C2c}
 ```
 
@@ -468,8 +471,10 @@ K_k(c_j(t)+\eta-y)-K_k(c_j(t)-y)
 \tag{FPR.C2e}
 ```
 
-where `K_k` is a derivative kernel of order `k+3`, so
-`|K_k(z)|\le C_k |z|^{-(k+3)}` and `|\nabla K_k(z)|\le C_k' |z|^{-(k+4)}`.
+where `K_k=\nabla^{k+3}\mathcal N` is the Newton kernel differentiated
+`k+3` times. Hence, away from the origin,
+`|K_k(z)|\le C_k |z|^{-(k+4)}` and
+`|\nabla K_k(z)|\le C_k' |z|^{-(k+5)}`.
 On the support of `1-\chi_j^{pr}`, one has
 `|y-c_j(t)|>2\Lambda_{\delta,\rho}^{halo}`. Since
 `|\eta|\le \Lambda_{\delta,\rho}^{halo}`, the mean-value theorem gives
@@ -480,7 +485,7 @@ K_k(c_j(t)+\eta-y)-K_k(c_j(t)-y)
 \big|
 \le
 C_{k,\rho,\psi,\delta,I}\,
-|y-c_j(t)|^{-(k+4)}.
+\frac{|\eta|}{|y-c_j(t)|^{k+5}}.
 \tag{FPR.C2f}
 ```
 
@@ -491,15 +496,18 @@ Substituting `(FPR.C2f)` into `(FPR.C2e)` yields
 \le
 C_{k,\rho,\psi,\delta,I}
 \int_{|y-c_j(t)|>2\Lambda_{\delta,\rho}^{halo}}
-\frac{|u(y,t)|^2}{|y-c_j(t)|^{k+4}}\,dy.
+\frac{|\eta|\,|u(y,t)|^2}{|y-c_j(t)|^{k+5}}\,dy.
 \tag{FPR.C2g}
 ```
 
 Multiply by `|\delta_\eta U_k(c_j(t),t)|`, sum in `k`, take the supremum in
 `j`, and again use `2ab\le a^2+b^2`. This gives `(FPR.C2b)`. The conditional
 bound `(FPR.C2c)` is obtained from
-`|y-c_j(t)|^{-(k+4)}\le (2\Lambda_{\delta,\rho}^{halo})^{-(k+4)}` on the
-integration region. ∎
+`|\eta|\,|y-c_j(t)|^{-(k+5)}
+\le
+\Lambda_{\delta,\rho}^{halo}(2\Lambda_{\delta,\rho}^{halo})^{-(k+5)}`
+on the integration region and then squaring the resulting `L^2`-energy bound
+in `(FPR.C2a)`. ∎
 
 So, once the ordinary energy ledger is imported, the harmonic-tail half of the
 FEI pressure wall is no longer independent.
@@ -518,7 +526,7 @@ C_{\alpha,N,\lambda,\rho,\psi,\delta,I}
 \Big(
 \mathfrak Q_{N,\eta}^{press,loc,src,\alpha}(t)
 +
-\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^2
+1+\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^4
 \Big).
 \tag{FPR.C3}
 ```
