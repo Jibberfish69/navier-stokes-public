@@ -4,15 +4,15 @@
 
 This note tests the proposed upstream repair route for the last open packet by
 working directly on the **scale-side** lifted high-side remainder. The question
-is whether the current shell algebra already produces any genuine off-diagonal
-gain in the lifted band
+is whether the current shell algebra produces an explicit off-diagonal kernel in
+the lifted band
 
 ```math
 N+M<k<j-4.
 ```
 
-The answer is yes, but only on the natural scale-side carrier with one fewer
-high derivative than the gradient packet.
+It does, but only on the displayed scale-side carrier with one fewer high
+derivative than the gradient packet.
 
 ## Scale-Side Lifted Packet
 
@@ -92,8 +92,9 @@ C_{K,M}
 
 for almost every `t`.
 
-So the current scale-side shell algebra does produce a genuine summable gap
-kernel `2^{-(j-k)}` on the lifted band.
+So the current scale-side shell algebra produces the displayed summable factor
+`2^{-(j-k)}` in `\mathfrak K_N^{scale}` on the lifted band.  The proof spends
+that carrier, not a freestanding scale-gain principle.
 
 ## Proof
 
