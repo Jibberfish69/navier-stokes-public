@@ -26,13 +26,17 @@ G_N^{lift,\sigma}
 Err_N
 ```
 
-be the signed weighted lifted source defect on `Q_N`, where `e\mapsto e^*` is the exchange-pair involution and the unweighted lifted exchange satisfies
+be the signed weighted lifted source defect on `Q_N`, where `e\mapsto e^*` is
+the exchange-pair involution.  The exact unweighted exchange is recorded as
 
 ```math
-R_{e,N}^{lift}+R_{e^*,N}^{lift}=0
+R_{e,N}^{lift}+R_{e^*,N}^{lift}
+=C_{e,N}^{comm}+C_{e,N}^{cut}
 ```
 
-in the rescaled tangent coordinates, up to legal commutator and cutoff errors.
+in the rescaled tangent coordinates.  The commutator and cutoff pieces are legal
+only when their sum is included in `Err_N` and satisfies the residual absorption
+bound in assumption 3.
 
 Assume:
 
@@ -89,7 +93,8 @@ Pair the exchange terms before taking positive parts:
 \left(R_{e,N}^{lift}+R_{e^*,N}^{lift}\right).
 ```
 
-The second sum is absorbed by the legal commutator/cutoff ledger. The first sum obeys
+The second sum is part of `Err_N` and is controlled only through assumption 3.
+The first sum obeys
 
 ```math
 \left|\int_{Q_N}\frac12\sum_e
@@ -99,7 +104,19 @@ The second sum is absorbed by the legal commutator/cutoff ledger. The first sum 
 \sum_e\int_{Q_N}|R_{e,N}^{lift}|\,dxdt.
 ```
 
-By terminal weight flattening and exchange tightness, the right side tends to zero modulo legal losses. Hence the signed lifted source defect has zero tangent mass after installed ledgers are removed.
+Combining this with assumption 3 gives
+
+```math
+\left|\int_{Q_N}G_N^{lift,\sigma}\,dxdt\right|
+\le
+\frac12\omega_N
+\sum_e\int_{Q_N}|R_{e,N}^{lift}|\,dxdt
++o_N(1)+Loss_{legal}(\mathcal F_N).
+```
+
+By terminal weight flattening and exchange tightness, the first term tends to
+zero. After the installed legal ledger is removed through the displayed
+`Loss_{legal}` bound, the signed lifted source defect has zero tangent mass.
 
 The source-defect compatibility hypothesis transfers this signed vanishing to the native positive source survivor. The singular component `\mu_*^{sing}` is therefore zero.
 
