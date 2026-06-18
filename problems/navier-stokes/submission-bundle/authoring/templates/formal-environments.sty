@@ -142,9 +142,10 @@
 \let\FormalEnvOriginalCref\cref
 \let\FormalEnvOriginalCrefCap\Cref
 
-\@tfor\FormalEnvSectionPrefix:=vol,sec,sub,ssb\do{%
-  \expandafter\gdef\csname formal@sectiontype@\FormalEnvSectionPrefix\endcsname{1}%
-}
+\expandafter\gdef\csname formal@sectiontype@vol\endcsname{1}
+\expandafter\gdef\csname formal@sectiontype@sec\endcsname{1}
+\expandafter\gdef\csname formal@sectiontype@sub\endcsname{1}
+\expandafter\gdef\csname formal@sectiontype@ssb\endcsname{1}
 \newcommand{\FormalEnvRegisterCrefPrefix}[2]{%
   \expandafter\gdef\csname formal@display@#1\endcsname{#2}%
 }
@@ -201,6 +202,11 @@
   }
 \NewDocumentCommand{\FormalEnvLabelSurface}{m}{\formal_env_label_surface:n {#1}}
 \ExplSyntaxOff
+\newcommand{\FormalEnvExpandedLabelSurface}[1]{%
+  \begingroup
+    \edef\x{\endgroup\noexpand\FormalEnvLabelSurface{#1}}%
+  \x
+}
 
 \newcommand{\FormalEnvCrefText}[1]{%
   \begingroup
@@ -218,10 +224,10 @@
 \newcommand{\FormalEnvCrefPlain}[1]{%
   \FormalEnvSplitLabel{#1}%
   \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
-    \FormalEnvLabelSurface{\FormalEnvLabelKeyString}%
+    \FormalEnvExpandedLabelSurface{\FormalEnvLabelKeyString}%
   }{%
     \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
-      \FormalEnvLabelSurface{\FormalEnvLabelKeyString}%
+      \FormalEnvExpandedLabelSurface{\FormalEnvLabelKeyString}%
     }{%
       \ref*{#1}%
     }%
@@ -262,7 +268,7 @@
 }
 \newcommand{\SurfaceCrefTitle}[1]{%
   \SurfaceCrefIfKnown{#1}{%
-    \expandafter\FormalEnvLabelSurface\expandafter{\csname formal@surface@stem@#1\endcsname}%
+    \FormalEnvExpandedLabelSurface{\csname formal@surface@stem@#1\endcsname}%
   }{%
     \FormalEnvCrefPlain{#1}%
   }%
