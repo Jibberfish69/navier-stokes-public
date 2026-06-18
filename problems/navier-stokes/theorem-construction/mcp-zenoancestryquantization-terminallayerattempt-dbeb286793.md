@@ -38,7 +38,23 @@ A branch entropy reserve must give a scale-normalized charge such as
 \sum_P H(\pi_P)\,d\mathfrak c_P\le C
 ```
 
-while diffuse parent clouds have `H(\pi_P)\sim\log M`. This is the active-square/tree reserve already isolated; it is not a consequence of same-fluid ancestry alone.
+For a uniform cloud on `M` legal parents,
+
+```math
+H(\pi_P)=\log M.
+```
+
+More generally, if the cloud has `M` active parents and each active weight
+satisfies `\pi_i\le C/M`, then
+
+```math
+H(\pi_P)
+=\sum_i\pi_i\log {1\over \pi_i}
+\ge \log M-\log C.
+```
+
+This is the active-square/tree reserve already isolated; it is not a consequence
+of same-fluid ancestry alone.
 
 ## Result
 
