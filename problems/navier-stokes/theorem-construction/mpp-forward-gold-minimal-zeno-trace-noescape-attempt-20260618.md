@@ -511,7 +511,7 @@ Desired bridge:
 \tag{NEX.25}
 ```
 
-For material surfaces the smooth identities have the schematic form
+For material surfaces the exact identity target has the form
 
 ```math
 D_t n=-P_T(\nabla U)^Tn,

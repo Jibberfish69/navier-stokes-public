@@ -116,7 +116,7 @@ P_j^{down}(t)2^{-j}D_j(t)^2\,dt
 \mathrm{finite}.
 ```
 
-The source-balanced scalar model shows the exact missing structure.  A source
+The source-balanced scalar ODE test shows the exact missing structure.  A source
 can maintain a short active pulse by taking:
 
 ```math

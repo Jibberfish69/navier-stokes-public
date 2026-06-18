@@ -83,7 +83,7 @@ A source term with
 F_j(t)=c_s nu 2^(2j)A
 ```
 
-can sustain `E_j=A` in the scalar model. Damping only wins after the source amplitude has been
+can sustain `E_j=A` in the scalar ODE test. Damping only wins after the source amplitude has been
 controlled.
 
 So active-shell amplitude normalization reduces to a source theorem, not to
