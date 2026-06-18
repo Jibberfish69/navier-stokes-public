@@ -6197,6 +6197,39 @@ Surface edited:
 
 - `theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md`.
 
+## TPS Route-Local Normalization Rework
+
+Old claim being spent:
+
+Two live authority-referenced TPS surfaces used "usual route-local
+normalization" language to pass from a fixed-constant stripwise estimate with
+vanishing error to the residual pairwise closure `(PD.70q)`.
+
+Exact replacement:
+
+`tps-pair-defect-pde-packet.md` now states the exact route-normalization
+hypothesis:
+
+```text
+E_J^{dir}(I)+E_J^{loop}(I)
+<= C_* E_J^{obs}(I)+o_J(1),
+```
+
+with fixed finite `C_*`, must be absorbed into the normalized observability
+budget for all sufficiently large `J`.  The selector-observability bridge now
+points to the same hypothesis instead of citing a usual normalization step.
+
+Downstream consequence:
+
+`PD.70q` may be consumed from these TPS branches only after the fixed-constant
+normalization and vanishing-error absorption hypothesis has been supplied.  The
+old route-local convention no longer carries proof force.
+
+Surfaces edited:
+
+- `theorem-construction/tps-pair-defect-pde-packet.md`;
+- `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
+
 ## HFG Damped-Shell Upgrade Repair
 
 Old claim being spent:
