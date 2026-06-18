@@ -19,7 +19,8 @@ The four bodies are these.
 
 \begin{enumerate}[leftmargin=*]
 \item \textbf{Tail control.} High-frequency transfer must become summable, or
-      viscosity must dominate the cascade above an active scale.
+      the positive transfer tail must be dominated by the viscous tail on the
+      same selected frequencies.
 \item \textbf{Energy/enstrophy control.} The known energy law must be lifted
       into derivative-level control satisfying a continuation criterion.
 \item \textbf{Exact-object capture.} Controlled approximations have to produce
@@ -28,11 +29,27 @@ The four bodies are these.
       or global derivative control required by the continuation criterion.
 \end{enumerate}
 
+In the tail item, domination means a proved inequality for the selected
+high-frequency tail, not an active-scale picture. For spectral balance variables
+\(E(k,t)\) and \(T_+(k,t)=\max(T(k,t),0)\), the exact object is
+\[
+  \mathcal D_K(t)
+  :=
+  2\nu\int_K^\infty k^4E(k,t)\,dk
+  -
+  \int_K^\infty k^2T_+(k,t)\,dk,
+\]
+and the proof must supply \(\mathcal D_K(t)\ge0\), or an integrable bound on
+its negative part, on the same tail used by the later compactness or
+continuation step.
+
 This circuit looked promising because none of the four bodies is artificial.
 High-frequency damping is built into viscosity. Energy is genuinely controlled.
-Compactness is the natural way to extract a terminal object. Derivative recovery
-is the classical way to turn object-level control into smooth continuation. The
-problem appears when the four payments are placed in a loop.
+Compactness can extract a terminal object only after the extraction topology,
+low-mode compactness, high-frequency tail smallness, and same-solution
+attachment have been supplied. Derivative recovery must be a named continuation
+readout on that same surface. The problem appears when the four payments are
+placed in a loop.
 
 Tail control asks for a transfer estimate whose conclusion dominates nonlinear
 cascade. The energy identity supplies
@@ -56,8 +73,8 @@ Differentiating the equation, testing the differentiated equation against
   +\nu\|\Delta u(t)\|_{L^2}^2
   =\int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx.
 \]
-H\"older, Sobolev, interpolation, and Young give the familiar local-theory
-bound
+H\"older, Sobolev, interpolation, and Young give the conditional differential
+inequality
 \[
   Y'(t)\le C_\nu Y(t)^3.
 \]
