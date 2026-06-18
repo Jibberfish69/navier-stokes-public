@@ -2495,6 +2495,47 @@ Edited live surface:
 
 - `theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md`.
 
+## Signed Same-Fluid Edge-Pairing Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-signed-samefluid-edgepairing-direct-attempt-20260505.md`
+  introduced the one-sided shell-weight coefficient mismatch as "schematic"
+  and concluded too broadly that the signed route reduced to the old scalar
+  source wall `ScaleCriticalTreeCarleson.A`.
+
+Exact replacement:
+
+The note now treats the coefficient mismatch as the exact order-size defect
+
+```math
+2^j2^{-\sigma(\ell-j)}-2^\ell
+=
+-2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
+```
+
+It also states that the signed edge-pairing attempt may be used only as a
+same-fluid obstruction calculation. The proof-facing replacement is
+
+```math
+TerminalSignedSaturation.A,
+```
+
+or same-ledger payment / CM-test admission plus the first Pack/Part/Field face
+failure on the same witness. The absolute fallback to
+`ScaleCriticalTreeCarleson.A` is now historical supplier support under the
+Pack-first CM correction, not a current target-setting conclusion.
+
+Downstream consequence: the signed-current branch no longer gets to convert
+symbolic exchange pairing into a scalar source-wall target by language alone.
+The missing theorem is terminal signed saturation / signed-positive balance on
+the selected same-fluid terminal ledger, with CM proof force only through the
+typed face interface.
+
+Edited live surface:
+
+- `theorem-construction/mpp-signed-samefluid-edgepairing-direct-attempt-20260505.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
