@@ -1795,6 +1795,66 @@ Edited live surfaces:
 - `theorem-construction/mpp-frozen-family-strain-cascade-sufficient-reduction-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Fixed-Increment Pressure Tail Kernel/Young Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-lci-a-fixed-increment-pressure-response-note.md`
+  described the harmonic-tail kernel as a derivative kernel of order `k+3` but
+  assigned the decay one derivative too weak, and its Young step spent an
+  unsquared far-field tail as though it were the post-pairing ledger.
+- The reader appendix only said the harmonic-tail half was no longer
+  independent after the energy record, without naming the exact kernel and
+  Young object being absorbed.
+
+Exact replacement:
+
+The theorem note now identifies
+`K_k=\nabla^{k+3}\mathcal N` and uses the Newton-kernel bounds
+
+```math
+|K_k(z)|\le C_k|z|^{-(k+4)},
+\qquad
+|\nabla K_k(z)|\le C_k'|z|^{-(k+5)}.
+```
+
+For `|\eta|\le\Lambda_{\delta,\rho}^{halo}` outside the pressure halo, the
+mean-value step is
+
+```math
+|K_k(c_j(t)+\eta-y)-K_k(c_j(t)-y)|
+\le
+C_{k,\rho,\psi,\delta,I}
+\frac{|\eta|}{|y-c_j(t)|^{k+5}}.
+```
+
+After pairing with `\delta_\eta U_k(c_j(t),t)`, the far-field pressure-tail
+ledger is the squared integral
+
+```math
+\sup_j\sum_{k=0}^N\lambda_k
+\left(
+\int_{|y-c_j(t)|>2\Lambda_{\delta,\rho}^{halo}}
+\frac{|\eta|\,|u(y,t)|^2}{|y-c_j(t)|^{k+5}}\,dy
+\right)^2.
+```
+
+The energy-conditioned bound is therefore controlled by
+`\|u(\cdot,t)\|_{L^2(\mathbf R^3)}^4`, and the earlier
+`s^{1/2}\le 1+s` step now states the actual `1+\mathcal I_{N,\eta}^{ctr}`
+output instead of dropping the finite source term.
+
+Downstream consequence: FEI pressure-tail consumers may cite the harmonic-tail
+absorption only as a fixed-increment center-energy term plus a finite interval
+source term. It is no longer recorded as a pure `\mathcal I_{N,\eta}^{ctr}`
+coefficient-side absorption and no longer rests on a generic kernel-order
+description.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-lci-a-fixed-increment-pressure-response-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
