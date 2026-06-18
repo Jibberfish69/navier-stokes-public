@@ -25,7 +25,7 @@ This would imply `PositiveRemainderDepletion.A`.
 The material eigenframe split decomposes the coefficient into threshold-small, far-low turnover, near-band turnover, and source-residence components.
 
 The threshold-small term is drain-absorbable.  Far-low turnover has parabolic
-scale separation and routes into legal ledgers.  The conditional ASAC assembly pays the
+scale separation and routes into legal ledgers.  The conditional ASAC assembly accounts for the
 active-alignment and one-sided pair-weight defect component only after the exact
 packet residual estimate and no-incoming/backward-uniqueness inputs for
 `ASAC.A` are installed.
