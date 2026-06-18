@@ -22,7 +22,7 @@ Status: public Clay finality not discharged.
 
 ## Target
 
-Test whether the installed finite-obstruction inventory is enough to prove the
+Test whether the installed finite-obstruction inventory can prove the
 public Clay conclusion:
 
 ```text

@@ -29,8 +29,8 @@ solving 3D incompressible Navier--Stokes with
 \forall t\ge 0.
 ```
 
-To discharge the MPP from the current route stack, it is enough to close **one**
-of the ladders below without changing the theorem target.
+The current route stack would discharge the MPP after one ladder below closes
+without changing the theorem target.
 
 ## I. Classical weighted mixed-jet ladder
 

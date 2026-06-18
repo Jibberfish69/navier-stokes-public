@@ -88,7 +88,7 @@ return is kept separate, no additional independent halo/increment theorem
 remains below `EOC.A`; only the direct common-consumer theorem `(PCC.2)` does.
 ∎
 
-### Corollary `PCC.B` (A direct pre-CSP thickened packet theorem suffices)
+### Corollary `PCC.B` (Direct pre-CSP thickened packet theorem)
 
 Under `(OFP.10bi)`, `(OFP.10cb)`, `(PCC.1)`, and `(EOC.30)`, assume
 

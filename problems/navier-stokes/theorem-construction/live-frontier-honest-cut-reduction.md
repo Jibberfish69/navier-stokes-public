@@ -161,8 +161,8 @@ internal split inside the preserved TPS / exact-potential branch.
 
 On the cycle-exact / exact-potential side, the branch-local theorem is the
 polarization or alignment theorem turning signless `W_J` into a one-sided
-directional deficit. On the normal-covector subroute, it is enough to prove one
-of the explicit sufficient upgrades
+directional deficit. On the normal-covector subroute, the required input is one
+of the explicit upgrades
 
 ```math
 \text{(CN.13j)},\qquad

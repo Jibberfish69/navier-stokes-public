@@ -259,7 +259,7 @@ or
 ```
 
 meaning a non-Carleson temporal thickness theorem for the native positive source
-measure, enough to prove `TemporalNonAtomicSource.A`.
+measure. Its required conclusion is `TemporalNonAtomicSource.A`.
 
 The material-eigenframe attempt refines this list by separating the angular
 option into a turnover version and a residence version:
