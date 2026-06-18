@@ -3,7 +3,7 @@
 ## Purpose
 
 This note records the exact proof shape required to upgrade the currently proved
-same-scale model theorem
+coefficient-bearing same-scale edge theorem
 
 ```math
 (SS^\sharp)\qquad
@@ -33,7 +33,7 @@ The point is not to claim `(SS)` is proved here. The point is to isolate the
 exact step where the current argument loses and the additional mechanism
 required by a proof of `(SS)`.
 
-## One model packet
+## One edge packet
 
 Fix one annular order-zero multiplier family `M_a(\ell D)` and set, at the
 active scale `\ell_N:=2^{-N}`,
@@ -49,7 +49,7 @@ annulus of width `O_a(1)` around frequency `\ell^{-1}`. Let
 produced by the collar-freezing / edge-band replacement on the scalarized
 channel.
 
-Then the honest scalarized model packet is
+Then the honest scalarized edge packet is
 
 ```math
 \Pi_{\ell,a}^{edge}(t)
@@ -84,7 +84,7 @@ structure can suggest spurious cancellation.
 ## Where the current proof loses
 
 After freezing `(4)` to a bounded shell cluster near `N`, the currently proved
-model estimate replaces the exact scalarized packet by a shellwise commutator
+coefficient-bearing estimate replaces the exact scalarized packet by a shellwise commutator
 majorant. On each active shell it uses the estimate
 
 ```math
@@ -263,7 +263,7 @@ This is the real coefficient-free `(SS)` step.
 
 ## Shortest truthful slogan
 
-To prove coefficient-free `(SS)` on one model packet, one must prove
+To prove coefficient-free `(SS)` on one same-scale edge packet, one must prove
 
 ```math
 \boxed{
