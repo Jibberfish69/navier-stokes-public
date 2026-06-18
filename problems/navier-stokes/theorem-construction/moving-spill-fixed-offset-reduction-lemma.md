@@ -15,6 +15,10 @@ does prove is the exact reduction that avoids the naive Bernstein loss:
 3. in the scalarized pairing, each such piece reduces to a fixed-offset
    same-scale edge packet modulo admissible collar errors.
 
+The last phrase is structural.  The collar packet is proof-spendable only when
+it is named and satisfies the quantitative `(collar-res)` bound from
+`lifted-band-collar-class-reduction-lemma.md`.
+
 So the moving-spill theorem is reduced to a finite-offset stability extension
 of the same-scale spill technology.
 
