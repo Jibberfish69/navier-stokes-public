@@ -338,8 +338,43 @@ Define
 \tag{ULCI.25}
 ```
 
-The restriction of the same proof gives `ULCI.A(\mathscr P_{\rm pre})`. In
-particular:
+Applying `(ULCI.10)`--`(ULCI.20)` with every occurrence of
+`\mathscr P_{\rm req}` replaced by `\mathscr P_{\rm pre}` gives the restricted
+finite-parameter statement `ULCI.A(\mathscr P_{\rm pre})`: the coefficient is
+
+```math
+\mathfrak B_{\rm pre}(t)
+:=
+\sum_{\mathfrak p\in\mathscr P_{\rm pre}}
+\mathfrak B_{\mathfrak p}^{coef,\varepsilon}(t),
+\qquad
+\mathfrak B_{\rm pre}\in L^1(I),
+\tag{ULCI.25a}
+```
+
+and the initial bound is
+
+```math
+G_{0,\rm pre}
+:=
+\max_{\mathfrak p\in\mathscr P_{\rm pre}}
+\mathcal G_{\mathfrak p}(t_0)
+<\infty.
+\tag{ULCI.25b}
+```
+
+Thus, for `\mathfrak p\in\mathscr P_{\rm pre}`,
+
+```math
+\mathcal G_{\mathfrak p}(t)
+\le
+G_{0,\rm pre}
+\exp\left(\|\mathfrak B_{\rm pre}\|_{L^1(I)}\right),
+\tag{ULCI.25c}
+```
+
+and the readout `(ULCI.17)` gives the corresponding uniform
+`L^1(I)` bound for `\Gamma_{\mathfrak p}^{low}`. In particular:
 
 ```math
 (N,m,\delta_\ast)\in\mathscr P_{\rm pre}

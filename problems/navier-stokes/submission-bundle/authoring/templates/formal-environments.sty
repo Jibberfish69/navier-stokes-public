@@ -136,7 +136,7 @@
 
 \ApplyFormalEnvSpacing{theorem,axiom,principle,definition,assumption,lemma,proposition,corollary,conjecture,notationenv,example,proof,remark}
 
-% Custom internal cross-references, option 1:
+% Custom internal cross-references:
 % preserve the monograph-V6 label-stem cref rule in a generic template layer.
 \makeatletter
 \let\FormalEnvOriginalCref\cref
@@ -238,59 +238,6 @@
 }
 \newcommand{\FormalEnvCrefLinked}[1]{%
   \FormalEnvCrefPad\hyperref[#1]{\FormalEnvCrefText{\FormalEnvCrefPlain{#1}}}\FormalEnvCrefPad
-}
-
-% Custom internal cross-references, option 2:
-% hybrid NS-surface refs. The prose phrase still comes from a strict
-% PascalCase title stem; the exact repo shorthand stays as a secondary tag.
-\makeatletter
-\newcommand{\SurfaceCrefDeclare}[3]{%
-  \expandafter\gdef\csname formal@surface@stem@#1\endcsname{#2}%
-  \expandafter\gdef\csname formal@surface@tag@#1\endcsname{#3}%
-}
-\newcommand{\SurfaceCrefAnchor}[3]{%
-  \phantomsection\label{#1}%
-  \SurfaceCrefDeclare{#1}{#2}{#3}%
-}
-\newcommand{\SurfaceCrefIfKnown}[1]{%
-  \ifcsname formal@surface@stem@#1\endcsname
-    \expandafter\@firstoftwo
-  \else
-    \expandafter\@secondoftwo
-  \fi
-}
-\newcommand{\SurfaceCrefStem}[1]{%
-  \SurfaceCrefIfKnown{#1}{%
-    \csname formal@surface@stem@#1\endcsname
-  }{%
-    #1%
-  }%
-}
-\newcommand{\SurfaceCrefTitle}[1]{%
-  \SurfaceCrefIfKnown{#1}{%
-    \FormalEnvExpandedLabelSurface{\csname formal@surface@stem@#1\endcsname}%
-  }{%
-    \FormalEnvCrefPlain{#1}%
-  }%
-}
-\newcommand{\SurfaceCrefTag}[1]{%
-  \SurfaceCrefIfKnown{#1}{%
-    \csname formal@surface@tag@#1\endcsname
-  }{%
-    #1%
-  }%
-}
-\makeatother
-\newcommand{\SurfaceCrefTagText}[1]{%
-  \textnormal{\scriptsize\ttfamily[#1]}%
-}
-\newcommand{\SurfaceCrefDisplay}[1]{%
-  \FormalEnvCrefText{\SurfaceCrefTitle{#1}}%
-  \penalty0\hspace{0.2em}%
-  \SurfaceCrefTagText{\SurfaceCrefTag{#1}}%
-}
-\newcommand{\surfacecref}[1]{%
-  \FormalEnvCrefPad\hyperref[#1]{\SurfaceCrefDisplay{#1}}\FormalEnvCrefPad
 }
 
 \makeatletter

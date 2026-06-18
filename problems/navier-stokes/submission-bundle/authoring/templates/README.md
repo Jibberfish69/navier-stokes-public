@@ -10,6 +10,13 @@ introduction shape, Gold/Silver route explanation, class-membership witness
 sections, theorem/proof section forms, branch/leaf integration forms, and
 Pack/Part/Field exit prose patterns.
 
+Formal cross-reference boundary:
+
+The template formal-environment layer has one internal cref system, copied and
+sterilized from V6. Repo-native surface, branch, route, and status names do not
+become a second formal cref scheme. They are translated outside this folder by
+`../structure-map/` into PDF section placement and reader-facing titles.
+
 Template rendering rule:
 
 Every `.tex` template in this folder must compile as its own standalone PDF,

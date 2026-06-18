@@ -188,10 +188,10 @@ actual abstract once the template is used for a real mathematical manuscript.
 \volumegroup{First Thematic Group}
 \section{Formal Environment Examples}\label{sec:FormalEnvironmentExamples}
 This section demonstrates the formal environment naming convention inside the
-custom volume structure. Option 1 makes \cref{def:SampleObject} and
-\cref{thm:SampleConclusion} read as noun phrases from the canonical
-PascalCase label stem. Section pointers can still use the section sign, as in
-\Sref{sec:FormalEnvironmentExamples}.
+custom volume structure. The formal cross-reference rule makes
+\cref{def:SampleObject} and \cref{thm:SampleConclusion} read as noun phrases
+from the canonical PascalCase label stem. Section pointers can still use the
+section sign, as in \Sref{sec:FormalEnvironmentExamples}.
 
 \begin{definition}[sample object]\label{def:SampleObject}
 A sample object is a placeholder mathematical item used only to show the
@@ -256,35 +256,9 @@ The support step is \cref{lem:SampleSupportingStep}. The transfer step is
 \end{example}
 
 \begin{remark}[section reference form]
-The local section helper prints \Sref{sub:SubsectionLevelNumbering}; option 1
-prints the same destination as \cref{sub:SubsectionLevelNumbering}.
-\end{remark}
-
-\subsection{Surface Hybrid Reference Examples}\label{sub:SurfaceHybridReferenceExamples}
-\SurfaceCrefAnchor{surf:ClayTerminalWitnessClassMembershipEntry}{ClayTerminalWitnessClassMembershipEntry}{ClayTerminalWitnessCMEntry.A}
-\SurfaceCrefAnchor{surf:WholeSpaceClassMembershipCompletion}{WholeSpaceClassMembershipCompletion}{R3.WholeSpaceCMCompletion.A}
-\SurfaceCrefAnchor{surf:LocalizedSkewCurrent}{LocalizedSkewCurrent}{LocalizedSkewCurrent.A}
-\SurfaceCrefAnchor{surf:WholeSpaceSobolevTail}{WholeSpaceSobolevTail}{Tail.Hs\_R3}
-\SurfaceCrefAnchor{surf:EulerMirrorSharedPackSplit}{EulerMirrorSharedPackSplit}{ESM.N6}
-\SurfaceCrefAnchor{surf:ReceiverReadoutBridge}{ReceiverReadoutBridge}{ACT.X-Readout}
-\SurfaceCrefAnchor{surf:PackFace}{PackFace}{Pack\_Q}
-\SurfaceCrefAnchor{surf:PartFace}{PartFace}{Part\_\{N,Q\}}
-\SurfaceCrefAnchor{surf:FieldFace}{FieldFace}{Field\_\{N,r,Q\}}
-Option 2 keeps option 1's strict expanded title rule, then appends the exact
-repo shorthand when the shorthand carries route, domain, status, or symbolic
-face information.
-
-\noindent\surfacecref{surf:ClayTerminalWitnessClassMembershipEntry}\par
-\noindent\surfacecref{surf:WholeSpaceClassMembershipCompletion}\par
-\noindent\surfacecref{surf:LocalizedSkewCurrent}\par
-\noindent\surfacecref{surf:WholeSpaceSobolevTail}\par
-\noindent\surfacecref{surf:EulerMirrorSharedPackSplit}\par
-\noindent\surfacecref{surf:ReceiverReadoutBridge}\par
-
-\begin{remark}[face primitive references]
-The same rule can name witness faces without forcing them into theorem-number
-syntax: \surfacecref{surf:PackFace}, \surfacecref{surf:PartFace}, and
-\surfacecref{surf:FieldFace}.
+The local section helper prints \Sref{sub:SubsectionLevelNumbering}; the formal
+cross-reference rule prints the same destination as
+\cref{sub:SubsectionLevelNumbering}.
 \end{remark}
 
 \section{Second Section Title}
