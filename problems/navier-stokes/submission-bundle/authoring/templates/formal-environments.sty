@@ -339,13 +339,6 @@
 }
 \AtBeginDocument{%
   \SetupFormalEnvCrefNames
-  \pdfstringdefDisableCommands{%
-    \def\cref#1{\FormalEnvCrefPlain{#1}}%
-    \def\Cref#1{\FormalEnvCrefPlain{#1}}%
-    \def\surfacecref#1{\SurfaceCrefTitle{#1} [\SurfaceCrefTag{#1}]}%
-    \def\Sref#1{\S\ref*{#1}}%
-    \def\titlecap#1{#1}%
-  }%
 }
 \newcommand{\Sref}[1]{%
   \@ifpackageloaded{hyperref}{%
