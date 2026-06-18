@@ -423,6 +423,65 @@ Edited live surface:
 
 - `submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex`.
 
+## Failure-Appendix Tail And Compactness Restatement Rework
+
+Old loose step:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex` still said that the
+  nonlinear transfer should be weaker than viscous dissipation "after summing
+  over the active scales."
+- The same appendix said compactness was "the natural way" or "the standard
+  way" to pass from approximations to a solution.
+- The Body III compactness passage used a pointwise power-law tail
+  \(E_n(k,t)\le Ck^{-\gamma}\) as the visible route to high-frequency
+  smallness, leaving the actual compactness hypothesis implicit.
+
+Exact replacement:
+
+The live appendix now defines \(T_+(k,t)=\max(T(k,t),0)\), the selected
+derivative tail
+
+```math
+Y_{>K}(t):=\int_K^\infty k^2E(k,t)\,dk,
+```
+
+and the same dominance functional
+
+```math
+\mathcal D_K(t)
+:=
+2\nu\int_K^\infty k^4E(k,t)\,dk
+-
+\int_K^\infty k^2T_+(k,t)\,dk.
+```
+
+The proof burden is now stated as \(\mathcal D_K(t)\ge0\), or integrability of
+\((\mathcal D_K(t))_-\), with constants on the same selected tail.  Compactness
+is now stated as a low/high split with explicit hypotheses: finite-dimensional
+low modes after a time-derivative bound, and high-mode smallness from the
+uniform tail condition
+
+```math
+\lim_{K\to\infty}
+\sup_n\int_0^T
+\int_{k\ge K} k^{2s}E_n(k,t)\,dk\,dt
+=0.
+```
+
+Pointwise power-law decay is now only a sufficient extra profile assumption,
+not the proof's hidden compactness input.
+
+Downstream consequence: the failure appendix no longer lets active-scale
+summation language, standard compactness language, or a power-law model profile
+carry proof force.  The downstream compactness body now depends explicitly on
+the same selected-tail estimate, time compactness, nonlinear passage, pressure
+normalization, and same-solution attachment required by the main four-body
+diagnostic.
+
+Edited live surface:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
