@@ -315,7 +315,7 @@ Expanded:
 4. Corollary `LCI.B2e` gives `LCI.B`;
 5. Proposition `LCI.C` gives `LCI.A`.
 
-Thus the first formal certificate is:
+Thus the first conditional certificate is:
 
 ```math
 \boxed{
@@ -462,8 +462,10 @@ This remains conditional on the endpoint exclusions collected in
 
 ## Current Open Blocks
 
-After `ULCI.A` and `DTC.C`, the receiver-side lower-carrier machinery is formal
-assembly. The receiver side has one remaining positive-estimate block:
+After `ULCI.A` and `DTC.C`, the receiver-side lower-carrier machinery is a
+conditional assembly under the finite-parameter Gronwall inputs and the
+transported-center package. The receiver side has one remaining
+positive-estimate block:
 
 ```math
 \boxed{
@@ -512,6 +514,6 @@ The endpoint block is spelled out in
 `End_NS`.
 
 This is the corrected reading of the proposed end-to-end route: the receiver
-subgraph is compressed to `DTC.A` plus formal `ULCI`/collar/one-field assembly,
-and the lane-level closure is the conditional certificate
+subgraph is compressed to `DTC.A` plus the conditional `ULCI`/collar/one-field
+assembly with its named inputs, and the lane-level closure is the conditional certificate
 `CFI.A+\mathsf{End}_{NS}`, equivalently `CFI.A+End_NS`.
