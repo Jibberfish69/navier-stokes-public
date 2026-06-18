@@ -302,7 +302,7 @@ RCF.A_{\mathfrak p}
 \tag{ULCI.23}
 ```
 
-Hence the formal reduction is:
+Hence the conditional finite-parameter reduction is:
 
 ```math
 \bigwedge_{\mathfrak p\in\mathscr P_{\rm req}}
