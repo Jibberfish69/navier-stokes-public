@@ -626,6 +626,46 @@ Edited live surfaces:
 - `source-frontier.yaml`;
 - `submission-bundle/source-frontier.yaml`.
 
+## Lifted-Band Kernel Gain Carrier Rework
+
+Old loose step:
+
+- `scale-kernelized-lifted-band-reduction-lemma.md` asked whether the shell
+  algebra produced a "genuine off-diagonal gain" and then summarized the result
+  as a "genuine summable gap kernel."
+- `lifted-band-gain-to-msi-bridge.md`, `route-b-euclidean-closure-theorem.md`,
+  and the reader appendix repeated the same gain language in downstream route
+  form.
+
+Exact replacement:
+
+The live surfaces now spend only the displayed scale-side kernelized carrier
+
+```math
+\mathfrak K_N^{scale}[u^{(n)}](t)
+:=
+\sum_{j\ge N}\sum_{N+M<k<j-4}
+2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}(t)\|_{L^2_x}\,
+\|\nabla \Delta_j u^{(n)}(t)\|_{L^2_x}\,
+\|\Delta_j u^{(n)}(t)\|_{L^2_x}.
+```
+
+The factor \(2^{-(j-k)}\) is no longer described as a freestanding scale-gain
+principle.  It is a factor inside this exact carrier.
+
+Downstream consequence: the lifted-band route remains open at the theorem that
+integrates or dominates \(\mathfrak K_N^{scale}\) in the required spacetime
+leakage estimate, and at any upgrade from the scale-side carrier to the stronger
+gradient-side lifted packet.  The downstream route may not spend the displayed
+factor alone as closure of the lifted high-side remainder.
+
+Edited live surfaces:
+
+- `theorem-construction/scale-kernelized-lifted-band-reduction-lemma.md`;
+- `theorem-construction/lifted-band-gain-to-msi-bridge.md`;
+- `theorem-construction/route-b-euclidean-closure-theorem.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
