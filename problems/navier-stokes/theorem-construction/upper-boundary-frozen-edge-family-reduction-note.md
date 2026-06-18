@@ -153,7 +153,7 @@ C_{ub,*}^{res}2^{-2\delta N}.
 \tag{6}
 ```
 
-For each frozen edge packet, the model same-scale theorem and carrier kill
+For each frozen edge packet, the coefficient-free same-scale edge theorem and carrier kill
 already give
 
 ```math
