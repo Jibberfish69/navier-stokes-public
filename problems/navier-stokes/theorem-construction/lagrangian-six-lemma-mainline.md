@@ -1019,8 +1019,9 @@ kernelized two-scale density
 \tag{19n2}
 ```
 
-with the Hardy/Schur step already formal once one has the required one-sided
-square / Carleson control. A stronger but sufficient overestimate is the
+with the Hardy/Schur step reduced to an algebraic estimate once one has the
+required one-sided square / Carleson control. A stronger but sufficient
+overestimate is the
 installed upper-tail square route
 
 ```math
