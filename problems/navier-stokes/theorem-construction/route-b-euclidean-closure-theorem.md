@@ -246,9 +246,10 @@ surface, the remaining program is still:
 The strongest auxiliary upstream repair candidate remains the Body `1`
 kernelized lifted-band leakage route on the exact shell geometry `N+M<k<j-4`.
 That auxiliary line is real but not theorem-primary: the scale-side lifted
-packet carries a genuine off-diagonal factor `2^{-(j-k)}`, yet the current
-Body `1` integration audit still leaves a residual `2^k` weight, and the
-coupled lower-shell gain needed to remove that weight is not discharged.
+packet carries the displayed factor `2^{-(j-k)}` inside its kernelized carrier,
+yet the current Body `1` integration audit still leaves a residual `2^k` weight,
+and the coupled lower-shell estimate needed to remove that weight is not
+discharged.
 
 ## Step B.6: Fixed-Threshold Gronwall Closure
 
