@@ -78,7 +78,16 @@ The carrier space becomes
 \mathfrak R = H^1_\sigma \cap \ker(\mathrm{div}) = H^1_\sigma
 ```
 
-with the standard divergence-free interpretation.
+where
+
+```text
+H^1_sigma
+:=
+{ X in H^1(Omega;R^3) : div X = 0 }
+```
+
+on `T^3`, and on `R^3` the same space is the `H^1` closure of smooth compactly
+supported divergence-free vector fields.
 
 ## Realization Audit
 
