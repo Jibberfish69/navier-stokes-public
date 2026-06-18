@@ -213,7 +213,7 @@ prove it.
 The direct attempt in
 `mpp-high-coefficient-response-residual-attempt-20260506.md` sharpens this
 paragraph.  The split at `j-M` is too low.  The finite collar
-`j-M<q<=j+C` should be moved into the principal linearized operator:
+`j-M<q<=j+C` is moved into the principal linearized operator:
 
 ```math
 L^{col}_{u,j}Z
