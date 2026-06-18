@@ -4,10 +4,12 @@ Status: conditional endpoint taxonomy theorem.
 
 ## Statement
 
-If a finite first pointwise class exit occurs on a retained same-fluid terminal branch, then one of the four primitive endpoint faces occurs:
+If a finite first pointwise class exit occurs on a retained same-fluid terminal
+branch, then one of the endpoint faces occurs:
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 Equivalently,
@@ -17,7 +19,8 @@ T_*<\infty
 \Longrightarrow
 \text{finite class exit}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump,
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump,
 ```
 
 inside the pointwise `Pack/Part/Field` vocabulary.
@@ -44,11 +47,16 @@ or a finite tower amplitude required by the participation/field readout blows up
 
 ## Endpoint typing
 
-The four primitive faces are:
+The primitive faces are:
 
 ```math
-\neg Part_{N,Q}\Longrightarrow Dead,
+\neg Part_{N,Q}\Longrightarrow
+Dead\vee response\text{-}margin\text{-}collapse,
 ```
+
+The response-margin subface is absent only when the terminal Part predicates are
+encoded as closed non-strict predicates or the strict response functionals retain
+positive margins `\mathcal R_\ell(t)\ge\gamma_\ell>0` on the terminal tail.
 
 ```math
 \neg Pack_Q\Longrightarrow packing\text{-}detached,
@@ -72,7 +80,8 @@ Thus endpoint exhaustion is exactly
 END.Exh:
 \neg CM_{N,r,Q}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 Combined with `ECQ.A`, any finite maximal time produces one of these faces.
