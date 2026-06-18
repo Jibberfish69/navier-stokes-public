@@ -276,8 +276,12 @@ The finite-net reduction is closed:
 The current exact branch remains open at the fixed-radius Holder-to-energy conversion. The strengthened source route uses the pressure-side returned receiver path instead:
 
 ```math
-CSP.B3a1[N+2,N+2,\delta+5\Lambda]\Longrightarrow FFPB.A0\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+CSP.B3a1[N+2,N+2,\delta+5\Lambda]\Longrightarrow FFPB.A0
+\Longrightarrow \operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`,
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 So `FIRP.A0` is an optional exact branch, not a blocker for the strengthened retained conditional route.
 

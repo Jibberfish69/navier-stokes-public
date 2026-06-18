@@ -24,7 +24,9 @@ Pack.TTU+GoodScale.TTU+JumpExclusion.Upstream
 TTU.A
 ```
 
-provided the selected strengthened source authority `FFSRC.A=>FCI.5f`, the local `AACT.KX` repair, and the bridge-license map below are used.
+provided the selected strengthened source authority `Hyp(FFSRC.A)=>FCI.5f`,
+including `FCC.C1a`, the local `AACT.KX` repair, and the bridge-license map
+below are used.
 
 More explicitly:
 
@@ -47,7 +49,7 @@ DTC.A_{avg}.
 The selected source branch gives
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Hence
@@ -81,10 +83,11 @@ extend the same classical solution past `T_*`.
 The selected strengthened branch is closed at the level needed by the averaged route:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
-The exact same-depth route remains an optional stricter reconstruction requiring `FIRP.A0`.
+The exact same-depth route remains an optional stricter reconstruction requiring
+`FIRP.A0` and the same cutoff-defect input `FCC.C1a`.
 
 ### AACT.Global.noJump
 

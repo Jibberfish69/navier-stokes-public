@@ -41,16 +41,17 @@ This theorem branch does not state a nonzero-forcing result. A forced branch nee
 This theorem branch uses the strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The stricter exact same-depth source branch
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
-is a separate route option.
+is a separate route option. In both branches `FCC.C1a` denotes
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 ## Boundary statement
 

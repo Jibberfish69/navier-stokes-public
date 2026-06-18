@@ -208,8 +208,11 @@ FCI.5f.
 Together with the receiver closure above, this gives the strengthened source route at the retained conditional level:
 
 ```math
-ACT.KX\Longrightarrow LCI.A[N+2,N+2,\delta+5\Lambda]\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+ACT.KX\Longrightarrow LCI.A[N+2,N+2,\delta+5\Lambda]\Longrightarrow
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes the cutoff-defect interval input `FCC.C1a`.
 
 The class-membership continuation then follows the existing route:
 

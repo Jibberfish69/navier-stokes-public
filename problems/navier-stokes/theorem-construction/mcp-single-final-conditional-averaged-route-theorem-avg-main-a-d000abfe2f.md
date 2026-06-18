@@ -12,7 +12,8 @@ For the periodic zero-force Navier-Stokes problem on `T^3`, assume the following
 4. `SGC.A_a.e` material almost-everywhere SCF-good coverage.
 5. `CAVG.J` matrix integration of the bad material set as `Jump_avg`.
 6. `AVG.RCV.A`, giving `DTC.A_avg => LCI.A_avg`.
-7. The strengthened source supplier `FFSRC.A => FCI.5f`.
+7. The strengthened source supplier `Hyp(FFSRC.A) => FCI.5f`, with `FCC.C1a`
+   included.
 8. The averaged consumer chain
 
 ```math
@@ -95,7 +96,7 @@ DTC.A_{avg}\Longrightarrow LCI.A_{avg}.
 The source decision uses the strengthened branch
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Therefore the averaged consumer chain gives

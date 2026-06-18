@@ -42,14 +42,14 @@ SCF_{base}+SGC.A_{a.e.}+ATD_m^\varepsilon
 
 The post-`LCI.A` source branch is the branch surveyed in this note. Its exact
 pressure closure is not promoted here; the selected route uses the strengthened
-source import `FFSRC.A=>FCI.5f`.
+source import `Hyp(FFSRC.A)=>FCI.5f`, where `Hyp(FFSRC.A)` includes `FCC.C1a`.
 
 ## Exact source target
 
 The exact source branch is
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -104,7 +104,10 @@ The exact same-depth `FSCR.C` target would supply
 
 ## Cutoff channel
 
-`FCC.C1` supplies cutoff absorption once the pressure and strain/cascade source controls are present. Hence
+`FCC.C1` supplies cutoff absorption once the pressure and strain/cascade source
+controls are present and the separate cutoff-defect input `FCC.C1a`,
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, is available.
+Hence
 
 ```math
 \mathcal N^{cut}\in L^1(I).
@@ -135,7 +138,7 @@ FCI.5f.
 Thus the stricter exact reconstruction remains the conditional branch
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -145,7 +148,7 @@ FCI.5f.
 The stronger source import
 
 ```math
-FFSRC.A => FCI.5f
+\operatorname{Hyp}(FFSRC.A) => FCI.5f
 ```
 
 is the route-selected supplier import when cited. The exact branch above does
@@ -154,6 +157,7 @@ accepted, so this note cannot outrank the installed `FIRP.A0` open-wall status.
 
 ## Remaining live work
 
-The source branch row is discharged for `FFSRC.A=>FCI.5f`. The stricter exact
-source reconstruction remains separate. The remaining live theorem-facing work
-lies in `Jump_avg` branch elimination and terminal-tail production assembly.
+The source branch row is discharged for `Hyp(FFSRC.A)=>FCI.5f` only with
+`FCC.C1a` included. The stricter exact source reconstruction remains separate.
+The remaining live theorem-facing work lies in `FCC.C1a`, `Jump_avg` branch
+elimination, and terminal-tail production assembly.

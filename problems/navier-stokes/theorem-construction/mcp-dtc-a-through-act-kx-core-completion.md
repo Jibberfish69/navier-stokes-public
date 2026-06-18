@@ -153,8 +153,11 @@ ULCI.A\Longrightarrow LCI.A[N+2,N+2,\delta+5\Lambda].
 The pressure-side return gives the strengthened source branch:
 
 ```math
-LCI.A[N+2,N+2,\delta+5\Lambda]\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+LCI.A[N+2,N+2,\delta+5\Lambda]\Longrightarrow
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes the cutoff-defect interval input `FCC.C1a`.
 
 Together with the base receiver output,
 

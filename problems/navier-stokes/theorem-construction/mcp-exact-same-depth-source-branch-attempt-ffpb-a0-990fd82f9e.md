@@ -7,7 +7,7 @@ Status: failed as an exact same-depth discharge. The branch is reduced to the ex
 The requested exact source branch is
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
@@ -36,7 +36,10 @@ Thus
 FCI.5f.
 ```
 
-`FCC.C1` accounts for the cutoff channel. `FSCR.C` accounts for the strain/cascade channel.
+`FCC.C1` accounts for the cutoff Young-margin channel only with `FCC.C1a`,
+the interval input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`. `FSCR.C`
+accounts for the strain/cascade channel.
 
 ## Pressure branch
 
@@ -56,7 +59,7 @@ The present exact route does not provide a smaller exact descendant beneath `FIR
 The strengthened sufficient route
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 is closed through the widened packet-local pressure bridge `FFPB.A0`, strain/cascade closure, and cutoff absorption. That route is the active supplier in the averaged theorem.
@@ -74,9 +77,10 @@ FIRP.A0.
 The valid reduced statement is
 
 ```math
-FIRP.A0+FSCR.C+FCC.C1
+FIRP.A0+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 ```
 
-with `FIRP.A0` still an unsolved exact pressure integrability theorem.
+with `FIRP.A0` still an unsolved exact pressure integrability theorem and
+`FCC.C1a` still a separate cutoff-defect interval input.

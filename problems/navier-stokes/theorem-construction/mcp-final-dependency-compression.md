@@ -42,8 +42,11 @@ Field_{avg}\Longrightarrow AACT.Global\Longrightarrow DTC.A_{avg}.
 The selected source branch is
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+Here `Hyp(FFSRC.A)` includes the cutoff-defect input `FCC.C1a`,
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 Together with the averaged receiver,
 
