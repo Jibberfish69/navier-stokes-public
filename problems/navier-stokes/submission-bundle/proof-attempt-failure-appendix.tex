@@ -85,6 +85,11 @@ limit.  Finite \(L^1\) source mass permits the pulse model
   g_m(s)=m\,1_{(-1/m,0]}(s),
   \qquad g_m(s)\,ds\rightharpoonup\delta_0 .
 \]
+For any nonzero \(f\in L^2\),
+\[
+  \int_{-1/m}^0 m e^{(0-s)\nu\Delta}f\,ds\to f
+  \quad\text{in }L^2 .
+\]
 The gold-side continuation would need a temporal thickness theorem, a
 super-\(L^1\) source bound, a selected-source tether with absolute continuity,
 or a rigid BASAC production theorem that rules out the terminal atom.  When that
@@ -812,7 +817,11 @@ positive deletion theorem has magically been proved.
 \paragraph{BASAC and terminal atom.}
 BASAC tries to control source mass at the terminal layer.
 The model density \(g_m=m1_{(-1/m,0]}\) explains the obstruction in one line:
-the \(L^1\) mass stays bounded while every \(L^p\), \(p>1\), blows.
+the \(L^1\) mass stays bounded while
+\[
+  \|g_m\|_{L^p}=m^{1-1/p}
+\]
+for every \(p>1\), so every super-\(L^1\) norm diverges.
 So finite source mass can converge to a terminal time atom.
 The branch fails at uniform integrability, reverse Holder residence, Morrey
 anti-atom control, or a Liouville mechanism strong enough to rule out the
