@@ -1418,8 +1418,8 @@ C_\Gamma
 
 or a weighted `PDO-BU` analogue. This is the point where the signless defect
 energy is converted into the one-sided selector ledger. The unresolved part is
-not the large-good-family extraction, which is already formal, but the residual
-pairwise closure
+not the large-good-family extraction, which is algebraic/measurable under its
+stated good-family hypotheses, but the residual pairwise closure
 
 ```math
 \mathcal E_J^{dir}(I)+\mathcal E_J^{loop}(I)
@@ -1686,7 +1686,7 @@ raw `L^2` bound on `W_J`, but a mechanism that converts the parabolic defect
 equation into the one-sided directional defect estimate `(PD.70)`.
 
 The strongest theorem-safe factorization currently on disk is now the
-combination of the transverse split `(PD.70l)`-`(PD.70r)` with the formal
+combination of the transverse split `(PD.70l)`-`(PD.70r)` with the conditional
 observability bridge in
 [tps-selector-observability-to-sg4-bridge-proof-attempt.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md).
 That combination shows:
@@ -2239,9 +2239,10 @@ ledger are absorbed into the normalized observability budget, yielding
 
 The preceding corollary shows that the irreducible new mathematics is now
 strictly smaller than “prove
-`PD.70` from scratch”: the `SG.4B` extraction is already formal, the spectral
-and bundle-angle losses are already peeled off, and the exact remaining burden
-is branch-sensitive:
+`PD.70` from scratch”: the `SG.4B` extraction is an algebraic consequence of
+the stated observability/closure hypotheses, the spectral and bundle-angle
+losses are already peeled off, and the exact remaining burden is
+branch-sensitive:
 
 ```text
 cycle-exact branch: vanishing-error directional estimate (PD.70z11),
