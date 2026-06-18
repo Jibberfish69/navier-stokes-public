@@ -85,7 +85,15 @@ X_n\to X
 \quad\text{strongly in }L^2(0,T;H).
 \]
 
-The uniform \(L^2_t\mathcal N\) and \(L^\infty_tH\) bounds yield weak or weak-* compactness in the standard spaces, so the linear terms pass to the limit directly.  
+The uniform bounds give the exact compactness used here:
+\[
+X_n \rightharpoonup X \quad\text{in }L^2(0,T;\mathcal N),
+\qquad
+X_n \overset{*}{\rightharpoonup} X \quad\text{in }L^\infty(0,T;H).
+\]
+Those two convergences pass the time derivative, projected linear operator, and
+test-paired linear terms to the limit against smooth compactly supported test
+functions on \((0,T)\).  
 The strong \(L^2_tH\) convergence supplies the convergence needed for the projected nonlinear term on the certified approximation route.  
 Therefore \(X\) satisfies the projected weak equation on \([0,T]\).
 
