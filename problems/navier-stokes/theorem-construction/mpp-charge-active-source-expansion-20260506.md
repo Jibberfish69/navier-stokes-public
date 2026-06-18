@@ -27,7 +27,7 @@ ActiveShellAmplitudeGain.A.
 \tag{CAS.1}
 ```
 
-A typical active-square target is
+One active-square target form is
 
 ```math
 \int_I\sum_{j\ge \max(N,k+C)}2^{-j}D_j(t)^2\,dt
@@ -36,7 +36,7 @@ A typical active-square target is
 \tag{CAS.2}
 ```
 
-A typical amplitude-gain target is
+One amplitude-gain target form is
 
 ```math
 2^{-j}D_j(t)^2
@@ -71,7 +71,7 @@ ActiveSquareCarleson.A.
 
 ## Conditional implication 2: active-square charge gives source-pulse exclusion
 
-Assume `ActiveSquareCarleson.A`. On every selected terminal source-balanced heat-scale pulse, the active positive source packet is controlled by the same square source reserve. Summing over bounded-overlap terminal active windows gives a finite total charge. A terminal sequence carrying persistent active source mass would then require a positive lower charge on infinitely many selected windows, contradicting the summable reserve.
+Assume `ActiveSquareCarleson.A`. On every selected terminal source-balanced heat-scale pulse, the active positive source packet is controlled by the same square source reserve. Summing over bounded-overlap terminal active windows gives a finite total charge. A terminal sequence carrying persistent active source mass then requires a fixed positive lower charge on infinitely many selected windows; bounded overlap makes those charges summable only if the tail vanishes, contradicting persistence.
 
 Therefore
 
@@ -146,7 +146,7 @@ Unweighted dyadic exchange cancellation occurs before the route inserts terminal
 The downstream frozen-family source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 controls an accepted source packet after the receiver route has been admitted. The charge branch needs control of the branch-native bad-window source pulse before that downstream route is licensed. Importing `FFSRC.A` here would reuse a later consumer as an earlier source-control proof.

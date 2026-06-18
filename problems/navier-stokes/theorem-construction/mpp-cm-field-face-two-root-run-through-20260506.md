@@ -417,8 +417,8 @@ does not exclude a terminal-time atom or a terminal Zeno concentration.
 
 ### Stronger Classes Not Produced
 
-The current extraction does not produce any of the rigid classes that would make
-a Liouville theorem plausible:
+The current extraction does not produce any of the rigid classes that would put
+a Liouville theorem in reach:
 
 ```math
 \text{finite global ancient energy},

@@ -186,7 +186,7 @@ spine into one theorem-grade front statement.
 
 ## Route Consequence
 
-The route consequence is immediate:
+The route consequence is:
 
 ```math
 \text{CM tethering theorem}

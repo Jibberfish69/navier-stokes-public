@@ -52,7 +52,7 @@ The stale target:
 prove Exit(Q) is inadmissible as a Clay breakdown counterexample
 ```
 
-is demoted. It is too close to the rejected positive no-exit slogan and it
+is not proof authority. It is too close to the rejected positive no-exit slogan and it
 misreads the CM route by trying to delete the fail branch after using it.
 
 The live target is:

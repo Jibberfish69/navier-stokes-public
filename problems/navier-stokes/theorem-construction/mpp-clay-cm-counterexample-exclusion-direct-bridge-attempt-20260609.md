@@ -107,7 +107,7 @@ that original smooth data cannot realize that first terminal face.
 
 One could try to define a valid finite Clay counterexample as an object that
 must retain Pack, Part, and Field at the terminal edge. That would make the
-bridge immediate, but it would bake the desired continuation conclusion into
+bridge automatic, but it would bake the desired continuation conclusion into
 the definition of counterexample.
 
 The current terminal-record entry surfaces do not do that. They supply the same

@@ -82,7 +82,7 @@ j_P\to\infty,
 t_P\uparrow T_\ast.
 ```
 
-The bound grows like a positive power of the cutoff.  The active source packet
+The bound contains the positive cutoff factor \(2^{3N/2}\).  The active source packet
 requires a scale-normalized or chargeable coefficient bound on the selected
 terminal family, not fixed-`N` admissibility before the terminal limit.
 
@@ -100,10 +100,19 @@ Bernstein gives:
 \tag{CB.3}
 ```
 
-Energy controls `\|\Delta_k u(t)\|_{L^2}` but leaves the sum with growth
-comparable to `2^{5j/2}`.  Enstrophy improves some shell weights but still does
-not produce a terminal scale-normalized `L^1_tL^\infty_x` coefficient on the
-same active heat-scale windows.
+Energy controls `\|\Delta_k u(t)\|_{L^2}` by `\|u(t)\|_{L^2}`. Hence `(CB.3)` gives only the exact geometric-sum bound
+
+```math
+\sum_{k<j}2^{5k/2}\|\Delta_k u(t)\|_{L^2}
+\le
+C\,2^{5j/2}\|u(t)\|_{L^2}.
+\tag{CB.4}
+```
+
+The factor `2^{5j/2}` is not scale-normalized on terminal heat-scale windows.
+Enstrophy improves some shell weights but still does not produce a terminal
+scale-normalized `L^1_tL^\infty_x` coefficient on the same active heat-scale
+windows.
 
 Using `(CB.3)` inside `(CB.1)` returns to the same product problem:
 

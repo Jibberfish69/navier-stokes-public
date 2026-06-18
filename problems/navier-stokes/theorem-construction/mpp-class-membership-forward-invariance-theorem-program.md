@@ -59,8 +59,9 @@ The proposed upgrade is one sentence stronger:
 \tag{CFI.2}
 ```
 
-That is the exact sense in which the primitive class law itself would become the
-coercive law, with `(CFI.1)` as the installed witness family being propagated.
+That is the exact conditional role of the primitive class law: if `(CFI.2)` is
+proved, then `(CFI.1)` is the installed witness family being propagated by the
+coercive law.
 
 ## Installed Inputs
 
@@ -684,13 +685,15 @@ If `CFI.A` lands, then the manifestation bridge and the chronological
 first-time class-exit shell both become corollaries rather than the primary
 theorem wall.
 
-Indeed, if a purported PDE non-smooth scenario approached `(x_\ast,T_\ast)`
-without blown or jump manifestation on the still-live approach, then `CFI.A`
-would keep class membership installed on that approach family. Since dead
-failure is already discharged by `(CFI.3)`, the purported non-smooth scenario
-would have no surviving class-exit geometry available.
+Indeed, assume a purported PDE non-smooth scenario approaches
+`(x_\ast,T_\ast)` without blown or jump manifestation on the still-live
+approach, and assume `CFI.A` has been proved on that approach family. Then
+`CFI.A` keeps class membership installed there. Since dead failure is already
+discharged by `(CFI.3)`, the purported non-smooth scenario has no surviving
+class-exit geometry available under those hypotheses.
 
-So `CFI.A` would compress the present bridge burden to:
+So proved `CFI.A`, together with `(CFI.3)`, compresses the present bridge burden
+to:
 
 ```math
 \text{genuine PDE non-smoothness}
@@ -714,15 +717,15 @@ On the chronological shell, the same consequence reads:
 \tag{CFI.6a}
 ```
 
-Again this is existential rather than exclusive: `CFI.A` would force the first
-remaining exit onto the surviving Law 1 / Law 3 side, but it would not by
+Again this is existential rather than exclusive: proved `CFI.A` forces the
+first remaining exit onto the surviving Law 1 / Law 3 side, but it does not by
 itself prove that exactly one of blown or jump occurs there.
 
 ## Optional Compressed Realization
 
 The direct predicate theorem `CFI.A` is the primitive target.
 
-A sharper but optional realization would be to build one nonnegative
+A sharper optional realization is to build one nonnegative
 same-fluid defect
 
 ```math
@@ -776,15 +779,14 @@ The defect route is acceptable only if the defect is derived from the exact
 \tag{CFI.10}
 ```
 
-If no such closed defect law can be extracted honestly, then the route should
-stay in the direct predicate language `CFI.A` rather than force a bad
-compression.
+If no such closed defect law can be extracted honestly, the route stays in the
+direct predicate language `CFI.A` rather than forcing a bad compression.
 
 ## Exact Live Queue
 
 The live queue under this compression route is:
 
-1. make `CFI.B0` exact enough to be used without ambiguity;
+1. prove the exact hypotheses in `CFI.B0` needed for unambiguous use;
 2. use `CFI.C1` to isolate the exact nontrivial packing-side burden;
 3. feed `CFI.B2` from the installed Law 2 tethering/no-drop spine `CFI.C2`;
 4. close the one-field wall now isolated in `OFP.A`, in the installed order:
@@ -831,7 +833,7 @@ The live queue under this compression route is:
    exposes the frontier-level collar return and `FPL.G` the same return from the
    deeper local pressure stack to `CSP.B3a1`;
    on the top-viscous side the remaining direct branch runs through the
-   fixed-radius top-rung Sobolev theorem `FVR.F`, whose immediate readout
+   fixed-radius top-rung Sobolev theorem `FVR.F`, whose first readout
    corollaries are `FVR.D` and `FVR.A`, with `FTL.C` the branch-local direct
    sufficient theorem on that side, with `FTS.C` only the intermediate
    one-rung-lower Sobolev route, with `(FTL.Bc0)` the sharper route-native
@@ -1012,6 +1014,6 @@ bounded pack gauge, the finite required parameter set, and the accepted endpoint
 certificate maps.
 
 The compactness-and-reconstitution route remains available as a fallback
-checkpoint if this forward-invariance extraction fails. But the live theorem
-pressure should first go here, because this is the route that most directly
-tests whether the MPP class law is already the coercive law in seed form.
+checkpoint if this forward-invariance extraction fails. The live theorem
+pressure is placed here first because this route directly tests whether the MPP
+class law is already the coercive law in seed form.

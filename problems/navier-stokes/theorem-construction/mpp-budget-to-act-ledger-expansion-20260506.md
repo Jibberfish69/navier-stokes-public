@@ -76,7 +76,7 @@ L,F\in L^1
 ```math
 \liminf_m\mathcal V_m^{eff}>0
 \Longrightarrow
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \quad\text{or the source inputs required before them.}
 ```
 

@@ -51,19 +51,19 @@ Every bounded selected parent subfamily carries:
 
 Thus fixed parent selection and reverse Holder concentration fail.
 
-The available quadratic charges scale like:
+The available quadratic charge is:
 
 ```math
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1},
 ```
 
-while the linear positive source remains order one.  This is the central
+while the linear positive source is \(\sum_{\alpha=1}^{M}M^{-1}=1\).  This is the central
 reason raw energy, local energy, donor balance, residual-square control, and
 ASAC-paid angular defect do not price diffuse parentage.
 
 ## Attempt 1: Scale-Normalized Branch Entropy
 
-A branch entropy reserve would need a monotone law:
+A branch entropy reserve requires a monotone law:
 
 ```math
 \mathsf H_{sc}(\mathcal A_{k+1})

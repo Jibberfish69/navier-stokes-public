@@ -13,7 +13,7 @@ ns_viewer:
   downstream_consequence: "The next theorem atom is DGCalExactLinearFrameCondition.A: compute the tangent linearization of the exact anchored observable and prove its readout channels span the projective tangent frame."
 ---
 
-# MPP CN13j Lower-Link / Small-Moment Absorption Direct Attempt
+# MPP CN13j Lower-Link / Small-Moment Coefficient-Margin Direct Attempt
 
 Date: 2026-06-09
 
@@ -28,13 +28,14 @@ The active child from the `CN.13j` pass is:
 CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A.
 ```
 
-The target asks for one of two things:
+The downstream theorem name is retained for compatibility, but its mathematical
+content is the following threshold alternative:
 
 ```text
 1. a polarity/amplitude-floor lower link for the selector-normal moment on the
    active normal-defect support; or
-2. absorption of the small-moment region by the existing error, shadow-support,
-   or support-smallness ledger.
+2. a coefficient-margin estimate placing the small-moment region under the
+   existing charged error, shadow-support, or support-smallness ledger.
 ```
 
 Either would turn the installed linear selector-normal calibration into the
@@ -45,7 +46,7 @@ quadratic `PD.70z` ledger, directly or through the support-smallness route.
 The previous pass proved only the exact reduction:
 
 ```text
-CN.10 linear calibration + lower-link/small-moment absorption
+CN.10 linear calibration + lower-link/small-moment coefficient-margin estimate
 => CN.13j
 => PD.70z.
 ```
@@ -93,7 +94,7 @@ while the geometric normal leakage is still nonzero.
 
 So the direct amplitude-floor route is not proved.
 
-## Attempt 2: Small-Moment Absorption By Shadow Support
+## Attempt 2: Small-Moment Coefficient-Margin By Shadow Support
 
 The support-smallness route is formally sharp. The shadow-time packet supplies
 the exact occupancy ledger `(ST.12c)` once the bad-residue mass and per-pair
@@ -111,7 +112,7 @@ non-shadow separated pairs unless an additional theorem ties the active normal
 defect to the shadow-tube regime. The current notes explicitly leave this as an
 unproved route-local support theorem.
 
-So the small-moment absorption route is not proved through shadow support.
+So the small-moment coefficient-margin route is not proved through shadow support.
 
 ## Attempt 3: Polarity / Projective Readout
 
@@ -154,8 +155,8 @@ So the polarity route is not proved, but it has a concrete next theorem.
 
 ## Result
 
-`CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A` is not proved from
-the installed inputs.
+`CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A`, read as the
+threshold alternative above, is not proved from the installed inputs.
 
 The next live theorem atom is:
 
@@ -184,7 +185,7 @@ Until one of these is proved and propagated, the paper cannot claim `CN.13j`,
 
 `NS-LIVE-20260609-132`: `CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A`
 is still open. Direct amplitude floor is not installed, shadow-support
-absorption needs the unproved `CN.13t1` localization theorem, and the polarity
+coefficient-margin needs the unproved `CN.13t1` localization theorem, and the polarity
 route reduces to the unproved tangent-frame linearization/coercivity theorem
 `DGCalExactLinearFrameCondition.A`. The PDFs cannot be CMI-final until that
 lower-link or an alternate support/weight route is proved and propagated through

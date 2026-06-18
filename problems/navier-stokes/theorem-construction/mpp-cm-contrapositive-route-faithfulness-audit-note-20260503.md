@@ -53,7 +53,7 @@ theorems remain useful only when their logical role is one of the following:
    survivor;
 2. classify a genuine terminal non-smooth occurrence as failure of one of those
    witnesses;
-3. consume already-installed `CM` into a standard continuation readout.
+3. consume already-installed `CM` into a named `H^s` relaunch readout.
 
 They are not allowed to replace the class-exit classification theorem.
 
@@ -67,7 +67,7 @@ An argument is route-faithful if it answers one of these exact questions.
 | Still-live admission | Why does a classical still-live window carry `CM`? |
 | Class-exit bridge | If a non-smooth occurrence is genuine, which `CM` component fails? |
 | Survivor control | If the feared packet remains lawful `CM`, can a local supplier propagate it? |
-| Continuation readout | Once `CM` and tower data are installed, how does standard continuation follow? |
+| Continuation readout | Once `CM` and tower data are installed, which `H^s` relaunch theorem gives the same-solution continuation? |
 
 An argument is mis-seated when it changes the governing theorem into:
 
@@ -178,7 +178,7 @@ The existing source-pulse notes still matter, but their proof role changes.
 
 | Existing object | Route-faithful role after this audit |
 | --- | --- |
-| `SourcePulseExclusion.A` | Strong sufficient theorem. If proved, it immediately prevents the source-pulse exit, but it is stronger than the primary CM classification burden. |
+| `SourcePulseExclusion.A` | Strong sufficient theorem. If proved, it prevents the source-pulse exit by its stated exclusion conclusion, but it is stronger than the primary CM classification burden. |
 | `mu_*^sing=0` / `NativeTrilinearDefectDomination.A` | Sharp measure/PDE sufficient form for the same source-pulse supplier. Route-faithful use is to show that nonzero `mu_*^sing` forces `not Field` or another `CM` exit, not merely to demand absolute vanishing. |
 | `PositiveStrainDecorrelation.A` | Possible proof that the active source mass cannot remain a lawful one-field positive strain alignment. |
 | `PositiveActiveCarlesonReserve.A` | Possible proof that a lawful pulse must be charged by a finite installed reserve. |

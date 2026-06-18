@@ -117,7 +117,7 @@ At shell `j`, the model pulse `E_j(t)=2^j 1_{I_j}(t)` on
 int_{I_j} E_j(t) dt = 2^(-j),
 ```
 
-while the normalized activity coefficient stays order one:
+while the normalized activity coefficient is exactly one:
 
 ```text
 gamma_j(t)=2^(-j)E_j(t) = 1 on I_j.
@@ -129,9 +129,9 @@ shell, since nonlinear shell flux scales cubically with amplitude.
 
 ### Rigidify
 
-A rigidify proof would localize the active source pulse to physical same-fluid
-heat-scale cylinders, extract a terminal source-residue ancient limit, and prove
-that such a source-residue limit is impossible.
+A rigidify proof localizes the active source pulse to physical same-fluid
+heat-scale cylinders, extracts a terminal source-residue ancient limit, and
+proves that such a source-residue limit is impossible.
 
 Checked mechanisms:
 
@@ -174,5 +174,5 @@ Charge:  active-window Carleson / square-source / finite source-reserve theorem.
 Rigidify: localized source-residue extraction plus typed ancient no-pulse.
 ```
 
-Any one of these would supply `SourcePulseExclusion.A`, eliminate `Jump_avg`,
-remove the final Field-face branch on `Q_atlas`, and feed the Clay bridge.
+Any one of these supplies `SourcePulseExclusion.A`, eliminates `Jump_avg`,
+removes the final Field-face branch on `Q_atlas`, and feeds the Clay bridge.

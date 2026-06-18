@@ -94,7 +94,7 @@ Exit(Q) disqualifies ClaySmoothSolution(u,p),
 but does not by itself disqualify ClayAdmissibleFiniteBreakdown(W_*).
 ```
 
-Promoting the stronger conclusion would redefine a counterexample witness as a
+Promoting the stronger conclusion redefines a counterexample witness as a
 surviving in-class terminal object. That would beg the question, because the
 breakdown alternative is precisely that the original smooth solution cannot be
 continued as such an object.

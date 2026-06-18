@@ -60,7 +60,7 @@ A **germ carrier** at `z_*` is the family of positive-radius neighbourhoods
 G(z_*):={Q_rho(z_*): rho>0},
 ```
 
-where a typical parabolic window is
+with parabolic windows written as
 
 ```math
 Q_rho(z_*)=B_rho(x_*) x (T_*-rho^2,T_*).

@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-pd70z-quadratic-normal-upgrade-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-normal-covector-witness-to-readout-theorem.md
     - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
-  downstream_consequence: "The next theorem atom is a selector-normal amplitude-floor / small-moment absorption theorem, with the PD.70za polarity route and CN.13q support-smallness route retained as alternate exact exits."
+  downstream_consequence: "The next theorem atom is a selector-normal amplitude-floor / small-moment coefficient-margin theorem, with the PD.70za polarity route and CN.13q support-smallness route retained as alternate exact exits."
 ---
 
 # MPP CN13j Quadratic Selector-Normal Calibration Direct Attempt
@@ -144,8 +144,9 @@ selector-normal threshold theorem:
 ```text
 CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A:
 on the active normal-defect support, either the selector-normal moment has a
-uniform polarity/amplitude floor, or the small-moment region is charged by the
-existing error, shadow-support, or support-smallness ledger.
+uniform polarity/amplitude floor, or a coefficient-margin estimate charges the
+small-moment region to the existing error, shadow-support, or support-smallness
+ledger.
 ```
 
 There are three honest exits from this child:
@@ -184,7 +185,7 @@ CMI-final closure.
 `NS-LIVE-20260609-131`: `CN13jQuadraticSelectorNormalCalibration.A` is still
 open. The installed route gives a linear selector-normal calibration and a
 weighted `L4` closure, but it lacks the lower polarity/amplitude-floor or
-small-moment absorption theorem needed to turn that into the quadratic
+small-moment coefficient-margin theorem needed to turn that into the quadratic
 `PD.70z` ledger. The next target is
 `CN13jSelectorNormalAmplitudeFloorOrSmallMomentAbsorption.A`, with the
 `PD.70za` polarity theorem and the `CN.13q` shadow-support route retained as

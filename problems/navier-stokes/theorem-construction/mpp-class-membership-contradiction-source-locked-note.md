@@ -230,8 +230,9 @@ The source claim is:
 \tag{SC.5}
 ```
 
-Once that happens, the point or region would pack differently from the common
-incompressible evolution. So the shared packing law has already failed there.
+Once that happens, no retained neighborhood of that point or region satisfies
+the shared Pack row for the common incompressible evolution. The class-exit
+conclusion is the resulting Pack failure, not a separate velocity-size estimate.
 
 ### 3. Jump Endpoint
 

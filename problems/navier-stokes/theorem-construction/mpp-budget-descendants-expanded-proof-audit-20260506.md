@@ -131,7 +131,7 @@ Hence
 \Gamma_{pack}(t)\ge e^{\lambda t}.
 ```
 
-The parameter `\lambda` can be arbitrarily large. A separate localized high-frequency component can keep a prescribed positive budget `b`; the pack gauge still grows like `e^{\lambda t}`. Therefore scalar budget positivity cannot imply bounded pack gauge.
+The parameter `\lambda` can be arbitrarily large. A separate localized high-frequency component can keep a prescribed positive budget `b`; the pack gauge still has the displayed lower bound `\Gamma_{pack}(t)\ge e^{\lambda t}`. Therefore scalar budget positivity cannot imply bounded pack gauge.
 
 ### Verdict
 
@@ -222,7 +222,7 @@ The proved part is the conditional scheduler lemma from `L^1` majorants and rest
 ```math
 \liminf_m\mathcal V_m^{eff}>0
 \Longrightarrow
-FPCR.C+FSCR.C+FCC.C1.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a.
 \tag{BTSI.1}
 ```
 
@@ -313,7 +313,7 @@ The only rigorous positive result across the five targets is conditional:
 +\Gamma_{pack}\in L^\infty
 +L,F\in L^1
 +X(t_a)\le\eta\cr
-+FPCR.C+FSCR.C+FCC.C1
++FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 +END.Pack+END.Field+END.Exh+END.Cross+DTC\text{-to-TowerBound}
 \Longrightarrow ACT.KX\Longrightarrow LCI.A\Longrightarrow CFI.A.
 \end{gathered}}

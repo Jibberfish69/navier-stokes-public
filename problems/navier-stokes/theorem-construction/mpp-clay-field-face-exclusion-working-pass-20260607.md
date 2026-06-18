@@ -181,8 +181,10 @@ The live edge records three relevant boundaries.
 
 Assume `Pack_Q`, `Part_{N_s,Q}`, and `Field_{N_s,r,Q}` for some positive
 `r`.  The global material atlas / terminal completeness readout gives a bounded
-`H^s`, `s>5/2`, norm up to `T_*`.  The standard continuation criterion extends
-the same classical solution past `T_*`.
+`H^s`, `s>5/2`, norm up to `T_*`.  The `H^s`, `s>5/2`, relaunch
+criterion gives a lifespan
+`\tau=\tau(s,\sup_{t<T_*}\|u(t)\|_{H^s})>0` from any preterminal time;
+uniqueness on overlaps extends the same classical solution past `T_*`.
 
 This proves that the full Pack+Part+Field packet is incompatible with a finite
 terminal breakdown.  It does not prove that retained Pack+Part force Field.
@@ -379,13 +381,15 @@ OriginalSmoothData
 This is the `GoodScaleNonCollapse.A => UniformReadCover.A => READ.COVER =>
 Field.Read` route specialized to the canonical Clay terminal atlas.  It is
 stronger than the realization lemma because it directly produces the Field
-service and then closes by the standard `H^s` continuation criterion.
+service and then closes only after the periodic `H^s`, `s>5/2`, relaunch theorem
+supplies a lifespan controlled by the uniform `H^s` readout and uniqueness on
+overlaps.
 
 ## Proof Judgment
 
 The Field-face branch is not excluded here.  The working pass proves that local
 `H^s` continuation, endpoint readout, zero-radius classification, and dyadic
 survivor selection do not close the branch without a positive-scale
-noncollapse or a realized-Jump identification theorem.  The smallest immediate
+noncollapse or a realized-Jump identification theorem.  The smallest next
 missing lemma is `ClayFieldFailureRealization.A`; the stronger direct closure
 is `ClayRetainedPackPartGoodScaleNonCollapse.A`.

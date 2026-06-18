@@ -45,7 +45,7 @@ CF-bundle-coercive / restricted Cauchy-Green expansion
 
 # Source Check
 
-The TPS dynamic frontier records `CF-bundle-coercive` as the most plausible
+The TPS dynamic frontier records `CF-bundle-coercive` as the current leading
 first attack: construct a good set `G_J` and transverse bundle `N_a` so that the
 coarse strain on `N_a` has a lower envelope, the integrated gain is large, and
 the actual/coarse deviation is `o(ell_J)`. The transported-selector file then

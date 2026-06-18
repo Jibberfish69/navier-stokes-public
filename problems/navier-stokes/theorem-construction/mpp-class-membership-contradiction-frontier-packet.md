@@ -13,7 +13,7 @@ For the current restart surface, the governing authority is the source-locked
 note:
 [mpp-class-membership-contradiction-source-locked-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md).
 This frontier packet remains available only as archived downstream packaging and
-should not be allowed to redefine the restart frame.
+does not redefine the restart frame.
 
 ## Fixed Target
 
@@ -47,7 +47,7 @@ The route says:
 
 ```math
 \boxed{
-\text{the dangerous endpoint should be treated as leaving the NS object, not as an event occurring inside it.}
+\text{the dangerous endpoint is treated as leaving the NS object, not as an event occurring inside it.}
 }
 ```
 
@@ -249,10 +249,10 @@ The preferred compression test surface is now:
 
 1. [mpp-class-membership-forward-invariance-theorem-program.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md)
 
-Meaning: the live theorem pressure should first test whether lawful class
-membership is itself forward-invariant under the same-fluid evolution, with the
+Meaning: the live theorem pressure first tests whether lawful class membership
+is itself forward-invariant under the same-fluid evolution, with the
 compactness-and-reconstitution bridge kept only as fallback if that extraction
-fails. But this compression remains a test of the same source semantic route; it
+fails. This compression remains a test of the same source semantic route; it
 does not replace the direct reading that singularity is class exit from the MPP
 object.
 
@@ -397,9 +397,9 @@ but once `(LCI.3c3z20)` and `(LCI.3c3z22)` are taken as package inputs, the
 only remaining transported-center receiver statement is `RCF.A`, not the older
 coarse scalar obstruction.
 
-For execution inside the surviving endpoint pair, this means the no-jump side
-should be attacked first. Its theorem-facing shell is `OFP.A`; inside that
-shell the installed order is:
+For execution inside the surviving endpoint pair, the no-jump side is attacked
+first. Its theorem-facing shell is `OFP.A`; inside that shell the installed
+order is:
 
 ```math
 \boxed{
@@ -467,7 +467,7 @@ sufficient routes inside that pressure-side stack, while `FPC.Bc` already
 exposes the frontier-level collar return and `FPL.G` the same return from the
 deeper local pressure stack to `CSP.B3a1`; on the
 top-viscous side the remaining direct branch runs through the fixed-radius
-top-rung Sobolev theorem `FVR.F`, whose immediate readout corollaries are
+top-rung Sobolev theorem `FVR.F`, whose first readout corollaries are
 `FVR.D` and `FVR.A`, with `FTL.C` the branch-local direct sufficient theorem
 on that side, with `FTS.C` only the intermediate one-rung-lower Sobolev route,
 with `(FTL.Bc0)` the sharper route-native moving-collar corollary and
@@ -559,7 +559,7 @@ This packet explicitly refuses the following substitutions.
 1. do **not** widen the route into a menu of many completion paths;
 2. do **not** treat the generic witness bundle as the primary live object;
 3. do **not** let formal object-law packaging replace the singular route chain;
-4. do **not** collapse the route into the standard continuation wall
+4. do **not** collapse the route into the plain `H^s` continuation wall
    `\int_0^T \|\nabla u\|_{L^\infty}\,dt`.
 
 Those may appear as comparison layers or downstream packaging later, but they

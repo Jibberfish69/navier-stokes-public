@@ -63,8 +63,8 @@ Every bounded selected subfamily then captures at most:
 So bounded parent concentration and fixed selector arguments fail.
 
 The two-tower donor note records the same scaling obstruction. The linear
-positive source can stay order one, while the available quadratic donor or
-residual charges scale like:
+positive source has normalized mass \(\sum_{\alpha=1}^M M^{-1}=1\), while the
+available quadratic donor or residual charge is:
 
 ```math
 \sum_{\alpha=1}^M M^{-2}=M^{-1}.

@@ -76,9 +76,16 @@ zero modes:
 \tag{BL.4}
 ```
 
-The radius `R_{\mathfrak p}^{aff}` is chosen large enough, using
-`\Gamma_\sharp\in L^\infty(I)`, so that every raw center ball
-`B(c_j(t),R_{\mathfrak p}^{TC})` pulls back inside
+Let
+```math
+L_{\mathfrak p}(I):=\sup_{j,t\in I}\|G_j(t)^{-1}\|.
+```
+The affine radius must satisfy
+```math
+R_{\mathfrak p}^{aff}\ge
+L_{\mathfrak p}(I)R_{\mathfrak p}^{TC}.
+```
+Then every raw center ball `B(c_j(t),R_{\mathfrak p}^{TC})` pulls back inside
 `B(0,R_{\mathfrak p}^{aff})`.
 
 The bridge theorem is:
@@ -270,7 +277,7 @@ LCI.B_{N+4,N+4,\delta+5\Lambda_{\delta,\rho}^{halo}}.
 The frozen-family source ledger closes through:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 (FCI.5f).
 \tag{BL.21}
@@ -661,7 +668,7 @@ certificate reductions, the serious remaining bridge content is:
 If `(FCI.5f)` is not installed, add:
 
 ```math
-\boxed{FPCR.C+FSCR.C+FCC.C1}
+\boxed{FPCR.C+FSCR.C+FCC.C1+FCC.C1a}
 \quad
 \text{followed formally by closed }FCI.Split.
 \tag{BL.44}
@@ -1240,7 +1247,7 @@ The top buffer modes `m+1,m+2` are readout/top-viscous modes inside
 +\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}`. Proving them before
 `ACT.X-Boot` would require the optional stronger input
 `\sum_{q=m+1}^{m+2}\sum_j|\widetilde K_{q,j}|^2\in L^1(I)` and risks rung
-creep. The immediate live obligation beneath `ACT.Actr_core` is now the direct
+creep. The live obligation beneath `ACT.Actr_core` is now the direct
 lower center-forcing ledger `ACT.Kcore`.
 
 Audit boundary. A displayed estimate for `K0.Core+E1.Aff+Kmid.Core` that uses

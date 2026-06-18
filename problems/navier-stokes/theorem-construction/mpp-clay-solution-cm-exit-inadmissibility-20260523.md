@@ -31,7 +31,7 @@ a Pack/Part/Field CM class-exit witness is inadmissible as a Clay breakdown
 counterexample witness.
 ```
 
-That stronger statement would require an additional bridge, because the Clay
+That stronger statement requires an additional bridge, because the Clay
 breakdown alternative is precisely the nonexistence of a global smooth accepted
 solution.
 
@@ -155,4 +155,3 @@ exclusion still needs one of the following:
 2. a proof of `TerminalCMNoExit.A / NoGenuineCMExit.A`;
 3. an equivalent theorem showing that terminal CM class-exit cannot be realized
    by the maximal smooth solution from original smooth data.
-

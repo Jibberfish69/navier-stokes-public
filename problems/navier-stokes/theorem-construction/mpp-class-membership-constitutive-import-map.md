@@ -173,7 +173,7 @@ BR.\lambda2.
 
 ## What Pops Out
 
-Three route corrections appear immediately.
+Three route corrections appear at once.
 
 ### 1. `TCJ` is not a free miracle
 
