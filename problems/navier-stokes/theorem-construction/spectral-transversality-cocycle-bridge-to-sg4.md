@@ -29,8 +29,8 @@ The lane now has three installed facts:
    coefficient commutators;
 2. the direct strong-route frontier is a selector-good lower envelope for the
    short-segment directional strain averages `\mathfrak s_J`;
-3. the one-sided extraction from a stripwise deficit budget to `SG.4B` is
-   already formal.
+3. the one-sided extraction from a stripwise deficit budget to `SG.4B` is an
+   algebraic implication under the stated deficit hypotheses.
 
 The remaining theorem target is:
 
@@ -1169,7 +1169,7 @@ So the non-exact branch has one extra theorem burden beyond local recovery:
 show that the active-family graph and kernel satisfy the symmetry,
 nondegeneracy, and connectivity hypotheses needed for the synchronization step.
 
-#### Exact-branch formal discharge once `DG-Cal^{exact,sharp}` is local and coercive
+#### Exact-branch conditional discharge once `DG-Cal^{exact,sharp}` is local and coercive
 
 The exact branch can now be pushed one step farther than the generic burden
 statement above.
@@ -1262,7 +1262,7 @@ C_{sh}'
 In the exact shadow limit
 `\varepsilon_J^{sh}=\varepsilon_J^{sh,\partial}=\varepsilon_J^{gap}=\varepsilon_J^{drift}=0`,
 the cycle-exact branch closes with `\widehat P_J:=N_J`, so `PSJ`, `PPCJ'`,
-`CPS.1`, and `CPS.2` all become formal consequences of the anchored
+`CPS.1`, and `CPS.2` all become conditional consequences of the anchored
 calibration theorem.
 
 **Proof.**
@@ -1286,7 +1286,7 @@ This is the clean exact-branch discharge: the deformation-generated carrier is
 itself the synchronized projector, and no extra graph/globalization theorem is
 needed once the local Hessian theorem is proved.
 
-#### General-branch formal discharge as local-to-global projective gluing
+#### General-branch conditional discharge as local-to-global projective gluing
 
 The non-exact branch still needs a genuine globalization theorem. The cleanest
 repo-native form is not a raw orientation theorem, but a local-to-global
@@ -1417,7 +1417,7 @@ C_{PD}
 \tag{7.45}
 ```
 
-So `PD.70` is formal once the local windows, the overlap/gluing theorem, and
+So `PD.70` follows once the local windows, the overlap/gluing theorem, and
 the comparison-to-top projector theorem are all installed.
 
 **Proof.**
@@ -1433,9 +1433,9 @@ gluing theorem: the observable kernel is one way to package the overlap mismatch
 ledger on the active graph. The local-projective-window formulation is better
 for this repo because it matches the existing `PSJ+` surrogate construction.
 
-#### What is formal after (A)-(D)
+#### What is conditional after (A)-(D)
 
-Everything downstream of these four lemmas is now genuinely formal:
+Everything downstream of these four lemmas is conditional on those lemmas:
 
 1. `(A)` gives the rank-one line carrier and its stripwise gap;
 2. `(B)` turns that carrier into a theorem-safe segment simple-top packet;
@@ -1560,8 +1560,8 @@ second-variation problem. It is:
 2. verify that its two scalar readout channels span
    `T_{N_J}\mathbf{RP}^2`.
 
-Once `(7.52)` holds, `DG-Cal^{exact,\sharp}` and hence `DG-Exact^{close}` are
-formal by Taylor's theorem.
+Once `(7.52)` holds, `DG-Cal^{exact,\sharp}` and hence `DG-Exact^{close}`
+follow by Taylor's theorem.
 
 ##### `(D')` `DG-Glue^{\mathrm{conn}}`: the gluing wall is a connection-Laplacian problem
 
