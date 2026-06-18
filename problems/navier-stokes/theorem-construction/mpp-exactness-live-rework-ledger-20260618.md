@@ -6583,3 +6583,61 @@ displayed `H^s` bound.
 Surface edited:
 
 - `theorem-construction/mpp-flow-map-and-tower-continuation-note.md`.
+
+## Full-Coefficient Stopped-Parent Frame/Bessel Repair
+
+Old claim being spent:
+
+`mpp-full-coeff-stopped-parent-frame-pinning-20260506.md` proved
+`StoppedParentFrame.A` by saying that the heat-tube packet is expanded in a
+local response frame and "standard frame/Bessel estimates" give the coefficient
+square sum.  The appendix mirror then spent `StoppedParentFrame.A` inside the
+full-coefficient response drain assembly without displaying the coefficient
+bound.
+
+Exact replacement:
+
+The stopped-frame proof now uses the explicit packet-frame analysis inequality
+
+```text
+a_{P,T}=<Chi_T^{full}(sigma_T), tilde Chi_P>_{H_T},
+sum_{P prec_stop T} |a_{P,T}|^2
+  <= C_B ||Chi_T^{full}(sigma_T)||_{H_T}^2,
+```
+
+plus the heat-tube normalization
+
+```text
+||Chi_T^{full}(sigma_T)||_{H_T} <= C_H.
+```
+
+Therefore
+
+```text
+sum_{P prec_stop T} |a_{P,T}|^2 <= C_B C_H^2,
+```
+
+which is the exact `(FPS.3)` coefficient-square bound.  The reconstruction
+error is identified as
+
+```text
+(I - Pi_resp,T) Chi_T^{full}(sigma_T) = Err_frame(T).
+```
+
+Proof or remaining burden:
+
+This repair spends only the installed response-frame Bessel analysis bound and
+the heat-tube normalization from `FullCoeffGoodPacket.A`.  It does not assert an
+unproved inverse lower-frame theorem or no-null-source theorem.
+
+Downstream consequence:
+
+The appendix response-drain assembly now names the same coefficient-square bound
+before using the stopped endpoint as a legal first-pulse parent.  The stopped
+parent contribution is legal through the explicit Bessel upper bound and the
+installed off-frame error, not through an unnamed "standard" frame estimate.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-full-coeff-stopped-parent-frame-pinning-20260506.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
