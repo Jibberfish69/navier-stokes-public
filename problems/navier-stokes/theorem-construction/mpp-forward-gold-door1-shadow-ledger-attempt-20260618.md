@@ -6,6 +6,12 @@ Status: direct Door 1 proof attempt; not closed.  The attempted shadow-ledger
 proof reduces `TerminalSignedSaturation.A` to the terminal Zeno source-refill
 anti-atom / rigidity branch.
 
+2026-06-18 continuation: `mpp-forward-gold-door1-terminal-source-cost-dichotomy-20260618.md`
+proves the exact cost split for the Door 1 shadow source marginal.  Uniform
+same-shadow super-`L1_s` residence implies the anti-atom theorem; a surviving
+terminal atom has infinite super-`L1_s` residence cost and must be handled by
+`StressFluxZenoRefillRigidity.A` or `Door1InfiniteCostEndpointArtifact.A`.
+
 Role: continue the current forward-gold Door 1 frontier:
 
 ```math

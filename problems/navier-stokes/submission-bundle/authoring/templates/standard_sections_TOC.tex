@@ -3,6 +3,7 @@
 % Source pattern checked from:
 % - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.tex
 % - /Users/thomasbirnie/Workspace/ToE/monograph-V6/preamble/macros.tex
+% - /Users/thomasbirnie/Workspace/ToE/monograph-V6/preamble/theoremstyle.tex
 % - /Users/thomasbirnie/Workspace/ToE/monograph-V6/monograph-v6.pdf
 %
 % Purpose:
@@ -21,6 +22,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{tocloft}
 \usepackage{titlesec}
+\usepackage{formal-environments}
 
 \title{Generic Mathematical Paper}
 \author{Author Name}
@@ -77,11 +79,82 @@ actual abstract once the template is used for a real mathematical manuscript.
 
 \section{First Major Block}
 \subsection{First Thematic Group}
-\subsubsection{First Detailed Topic}
-This is placeholder body text for the first detailed topic.
+\subsubsection{Formal Environment Examples}\label{sec:standard-formal-envs}
+This detailed topic demonstrates the same formal environment naming convention
+inside ordinary math-paper sectioning. Headings print the full environment name,
+while cross-references use the abbreviated form, as in
+\cref{def:standard-sample-object} and \cref{th:standard-sample-conclusion}.
+Section pointers use the section sign, as in \Sref{sec:standard-formal-envs}.
 
-\subsubsection{Second Detailed Topic}
-This is placeholder body text for the second detailed topic.
+\begin{definition}[sample object]\label{def:standard-sample-object}
+A sample object is a placeholder mathematical item used only to show the
+environment heading, optional title, counter, spacing, and cross-reference form.
+\end{definition}
+
+\begin{notationenv}[sample notation]\label{not:standard-sample-notation}
+For a finite list of sample objects, write \(X_1,\ldots,X_n\), and let
+\(P(X_i)\) denote the placeholder property attached to \(X_i\).
+\end{notationenv}
+
+\begin{assumption}[sample regularity hypothesis]\label{as:standard-sample-assumption}
+Each \(X_i\) carries enough structure for the statement \(P(X_i)\) to be
+evaluated inside the present section.
+\end{assumption}
+
+\begin{theorem}[sample conclusion]\label{th:standard-sample-conclusion}
+Under \cref{as:standard-sample-assumption}, the object introduced in
+\cref{def:standard-sample-object} has a well-defined placeholder property.
+\end{theorem}
+
+\begin{proof}
+The definition supplies the object, the notation supplies the property symbol,
+and the assumption supplies the condition under which the statement can be read.
+\end{proof}
+
+\subsubsection{Subsection-Level Numbering}\label{sub:standard-formal-numbering}
+This detailed topic shows the subsection-aware number. Environment counters
+restart inside the subsection, and the displayed number includes the subsection
+index.
+
+\begin{lemma}[sample supporting step]\label{lem:standard-sample-step}
+The placeholder property is stable under replacing one sample object by another
+object from the same finite list.
+\end{lemma}
+
+\begin{proposition}[sample transfer]\label{prop:standard-sample-transfer}
+The stability in \cref{lem:standard-sample-step} transfers the placeholder
+property from \(X_1\) to every \(X_i\) in the list.
+\end{proposition}
+
+\begin{corollary}[sample consequence]\label{cor:standard-sample-consequence}
+Every object in the list has the placeholder property.
+\end{corollary}
+
+\begin{principle}[sample reading rule]\label{prin:standard-sample-rule}
+Template examples should expose the printed convention without importing the
+source manuscript's subject matter.
+\end{principle}
+
+\begin{axiom}[sample starting premise]\label{ax:standard-sample-premise}
+The sample list is nonempty.
+\end{axiom}
+
+\begin{conjecture}[sample future claim]\label{con:standard-sample-future}
+The same display convention remains legible when the section contains longer
+mathematical prose.
+\end{conjecture}
+
+\begin{example}[sample use]\label{ex:standard-sample-use}
+The reference sequence \cref{lem:standard-sample-step},
+\cref{prop:standard-sample-transfer}, and
+\cref{cor:standard-sample-consequence} shows the abbreviated names used by
+cleveref.
+\end{example}
+
+\begin{remark}[section reference form]
+The local section helper prints \Sref{sub:standard-formal-numbering}; cleveref
+prints the same destination as \cref{sub:standard-formal-numbering}.
+\end{remark}
 
 \subsection{Second Thematic Group}
 \subsubsection{Third Detailed Topic}
@@ -90,7 +163,14 @@ This is placeholder body text for the third detailed topic.
 \section{Second Major Block}
 \subsection{Main Argument Group}
 \subsubsection{Fourth Detailed Topic}
-This is placeholder body text for the fourth detailed topic.
+This second major block keeps the same stripped formal environment convention.
+\cref{prin:standard-second-block-rule} shows that the counter follows the
+current section address.
+
+\begin{principle}[sample second-block rule]\label{prin:standard-second-block-rule}
+The formal environment layer is reusable across ordinary sections without
+carrying any monograph-specific labels, tooltips, or subject matter.
+\end{principle}
 
 \subsubsection{Fifth Detailed Topic}
 This is placeholder body text for the fifth detailed topic.

@@ -23,6 +23,11 @@ the current children to `Door1TerminalSourceTimeAntiAtom.A` /
 `SingleBubbleCanonicalGauge.A + ZeroFluxDriftVisibility.A +
 RenormalizedActionFinite.A + AnnularDefectEvacuation.A` on Door 2.
 
+The Door 1 source-time child is further split in
+`mpp-forward-gold-door1-terminal-source-cost-dichotomy-20260618.md` into
+`Door1SameShadowSuperL1Residence.A` or
+`StressFluxZenoRefillRigidity.A / Door1InfiniteCostEndpointArtifact.A`.
+
 Role: fix the June 17 two-door stress-flux packet after the generic anti-atom
 attempts and the direct two-door attempts.  The repair separates the solved
 finite selector and Liouville-consumer pieces from the two remaining production
