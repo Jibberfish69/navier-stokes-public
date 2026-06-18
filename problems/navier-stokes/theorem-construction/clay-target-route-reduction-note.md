@@ -125,7 +125,7 @@ The source notes support all four of the following at once:
 More concretely:
 
 - [time-order-cross-balance-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/time-order-cross-balance-note.md)
-  says pressure is not the live same-order forcing term in the rung-level
+  says pressure is not the live same-derivative-order forcing term in the rung-level
   `L^2` recursion.
 - [parabolic-order-recursion-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/parabolic-order-recursion-note.md)
   says the pressure constraint preserves parabolic order and redistributes the
