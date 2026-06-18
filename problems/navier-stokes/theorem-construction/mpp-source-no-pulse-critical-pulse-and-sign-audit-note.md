@@ -186,9 +186,9 @@ profile inside a shell packet destroys any possible pointwise-sign proof of
 cross-scale cancellation, or terminal packet structure, not a bare algebraic
 sign.
 
-## Attempt 3: Same-Scale Coefficient Upgrade
+## Attempt 3: Same-Scale Coefficient-Bearing Edge Estimate
 
-The same-scale model theorem gives the coefficient-bearing estimate
+The coefficient-bearing same-scale edge estimate gives
 
 ```math
 \int |\Pi_N^{edge}|
@@ -201,7 +201,7 @@ The same-scale model theorem gives the coefficient-bearing estimate
 
 The finite-family lift to upper-boundary and moving-spill packets is installed,
 but it preserves the same coefficient term.  To reach the coefficient-free
-theorem `(SS-model)`, one must prove
+edge-family theorem `(SS\text{-}edge)`, one must prove
 
 ```math
 \int_0^{T_\ast}\Theta_N^{ss,\sharp}(t)E_N(t)\,dt
