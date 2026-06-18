@@ -5381,3 +5381,34 @@ Edited live surfaces:
 - `theorem-construction/noncoherent-low-mode-product-estimate-result.md`;
 - `theorem-construction/persistent-support-transport-export-theorem.md`;
 - `theorem-construction/carrier-to-classical-low-mode-export-theorem.md`.
+
+## Exact-Potential Bounded-Coefficient Absorption Repair
+
+Old loose step:
+
+Exact-potential `V2` support notes summarized the fixed-metric Carleman
+perturbation step as "bounded lower-order terms absorb directly."
+
+Exact replacement:
+
+The affected notes now state that the terms are bounded first-order and
+zeroth-order coefficient packets satisfying `(ELA.2)`, and that absorption is
+licensed by the Carleman threshold `(ELA.7)`. The main absorption note now says
+the bounded-coefficient contribution in `(ELA.6)` is at most half of the bulk
+packet `(ELA.4)` under `(ELA.7)`.
+
+Downstream consequence:
+
+The direct `V2` route may reduce to the fixed-metric Lipschitz Carleman import
+only after the coefficient bound `(ELA.2)` and threshold `(ELA.7)` are in force.
+It is no longer phrased as generic lower-order absorption.
+
+Edited live surfaces:
+
+- `theorem-construction/exact-potential-v2-import-menu-after-ep11d.md`;
+- `theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md`;
+- `theorem-construction/exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md`;
+- `theorem-construction/exact-potential-v2-static-diffusion-reduces-to-pdo-carleman.md`;
+- `theorem-construction/exact-potential-v2-fixed-metric-heat-supported-perturbation-remaining.md`;
+- `theorem-construction/exact-potential-convex-v2-simultaneous-isotropization-wall.md`;
+- `theorem-construction/derivative-lp-compatibility-bridge-note.md`.
