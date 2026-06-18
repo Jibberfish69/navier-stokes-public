@@ -4326,6 +4326,36 @@ Edited live theorem notes:
 - `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`;
 - `theorem-construction/mpp-class-membership-full-bridge-ledger-note.md`.
 
+## Receiver / ULCI Conditional Assembly Repair
+
+Old loose wording:
+
+- `mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md` called its first
+  lower-carrier certificate "formal" and said the receiver-side machinery was
+  "formal assembly" after `ULCI.A` and `DTC.C`.
+- `mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md` called
+  `(ULCI.24)` a "formal reduction."
+
+Exact replacement:
+
+The receiver map now calls `(RCC.19)` a conditional certificate and states that
+the receiver-side assembly is conditional on the finite-parameter Gronwall
+inputs and the transported-center package. The corrected route is
+`DTC.A` plus conditional `ULCI`/collar/one-field assembly with named inputs,
+not assembly by label. The ULCI note now describes `(ULCI.24)` as the
+conditional finite-parameter reduction.
+
+Downstream consequence:
+
+Route summaries may compress the receiver subgraph only after carrying the
+finite-parameter `EOC.A`, `AFD.A`, `AFD.B`, `RCF.A` hypotheses through `ULCI.A`
+and the transported-center package. The compression itself is not proof.
+
+Edited live theorem notes:
+
+- `theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md`;
+- `theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
