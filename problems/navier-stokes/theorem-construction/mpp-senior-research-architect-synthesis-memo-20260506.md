@@ -238,8 +238,8 @@ ActiveSquareCarleson.A
 SourcePulseExclusion.A
 ```
 
-All present the same scale-critical source-pulse carrier after edge
-disintegration.
+After edge disintegration, each requires control of the source-pulse carrier;
+none proves a distinct lower root.
 
 ### Active square-density obstruction
 
@@ -270,8 +270,8 @@ ParabolicEdgeResistance.A
 TerminalAmplitudeGain.A
 ```
 
-All return to the same scale-critical source reserve unless independently
-proved.
+Each still requires an independent bound on the source reserve; naming a
+different reserve theorem does not prove it.
 
 ## 4. Real Proof Load vs Naming Noise
 
@@ -565,7 +565,7 @@ WeightedLiftedSkewDefectLegal.A
 ```
 
 Show weighted/lifted signed-current commutators are legal without spending the
-same scale-critical source wall.
+unproved positive source-wall estimate.
 
 ```text
 GoodScaleNonCollapse.A
