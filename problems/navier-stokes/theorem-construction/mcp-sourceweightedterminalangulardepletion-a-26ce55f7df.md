@@ -24,7 +24,11 @@ This would imply `PositiveRemainderDepletion.A`.
 
 The material eigenframe split decomposes the coefficient into threshold-small, far-low turnover, near-band turnover, and source-residence components.
 
-The threshold-small term is drain-absorbable.  Far-low turnover has parabolic scale separation and routes into legal ledgers.  The installed ASAC assembly pays the active-alignment and one-sided pair-weight defect component.
+The threshold-small term is drain-absorbable.  Far-low turnover has parabolic
+scale separation and routes into legal ledgers.  The ASAC assembly pays the
+active-alignment and one-sided pair-weight defect component only after the exact
+packet residual estimate and no-incoming/backward-uniqueness inputs for
+`ASAC.A` are installed.
 
 After projected-cutoff, boundary, pressure/collar/off-family ledgers, and finite donor-tree telescoping, the remaining near-band object is the selected terminal source-current
 

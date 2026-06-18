@@ -21,7 +21,9 @@ Drain_{parent}(\mathcal F_N)+Loss_{legal}(\mathcal F_N)+o_N(1).
 
 ## ASAC/equality-class test
 
-The installed ASAC route pays active alignment in the signed-current presentation.  The newer equality route gives
+The ASAC route pays active alignment in the signed-current presentation only
+after its exact residual/no-incoming inputs are installed.  The newer equality
+route gives
 
 ```math
 ASACDefectMeasure.A

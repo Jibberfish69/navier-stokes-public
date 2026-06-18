@@ -76,7 +76,10 @@ legal Field source charge,
 terminal Zeno source-residue atom.
 ```
 
-The installed ASAC and ledger surfaces pay the alignment, pair-weight, legal boundary/cutoff, and non-Zeno donor/refill branches.  The surviving objects are therefore:
+The exact ASAC residual/no-incoming gate and the ledger surfaces pay the
+alignment, pair-weight, legal boundary/cutoff, and non-Zeno donor/refill branches
+only after their hypotheses are installed.  Under those hypotheses, the surviving
+objects are:
 
 ```text
 interior native positive source carrier,

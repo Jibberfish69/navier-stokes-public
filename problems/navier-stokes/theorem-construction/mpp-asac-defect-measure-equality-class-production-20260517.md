@@ -31,7 +31,9 @@ d\nu_N^{ang}
 
 on selected bounded-overlap same-fluid terminal packets.
 
-The installed post-ASAC routing already pays:
+The conditional ASAC routing may pay the active-alignment part only when the
+exact residual/no-incoming hypotheses of `ASAC.A` are installed, alongside the
+already installed legal and donor ledgers:
 
 ```text
 ASAC.A,
@@ -46,8 +48,8 @@ can only live after those payments have been removed.
 
 ## Lemma `ASACDefectMeasure.A`
 
-Let `alpha_N` denote the ASAC-paid active-alignment/pair-weight defect measure
-inside the post-ASAC source-weighted angular carrier. On every selected failure
+Let `alpha_N` denote the ASAC-controlled active-alignment/pair-weight defect
+measure inside the conditional ASAC source-weighted angular carrier. On every selected failure
 sequence normalized so that
 
 ```math
@@ -55,7 +57,7 @@ sequence normalized so that
 ```
 
 the terminal drain is uniformly finite in the normalized packet scale, and all
-installed ASAC legal, boundary, projected-cutoff, finite donor, and non-Zeno
+conditional ASAC, legal, boundary, projected-cutoff, finite donor, and non-Zeno
 entrance ledgers vanish on `E_N`, every terminal extraction satisfies
 
 ```math
@@ -63,13 +65,13 @@ entrance ledgers vanish on `E_N`, every terminal extraction satisfies
 ```
 
 Equivalently, the terminal source-residue limit carries no remaining
-ASAC-paid defect measure.
+ASAC-controlled defect measure.
 
 ### Proof
 
-`ASAC.A` is an installed theorem for the active-alignment defect in the
-first-pulse packet normal form. In measure form it gives, for every
-`\theta>0`,
+When the exact ASAC residual/no-incoming hypotheses are installed, `ASAC.A`
+gives the active-alignment defect estimate in the first-pulse packet normal
+form. In measure form this conditional input is, for every `\theta>0`,
 
 ```math
 \alpha_N(E_N)
@@ -80,8 +82,8 @@ first-pulse packet normal form. In measure form it gives, for every
 ```
 
 where `D_N` is the relevant terminal drain and `L_N^{ASAC}` is the sum of the
-ASAC-licensed packet-normal-form, source-tether, projected, cutoff, boundary,
-and pair-weight legal ledgers.
+ASAC packet-normal-form residual, source-tether/no-incoming, projected, cutoff,
+boundary, and pair-weight legal ledgers.
 
 In the retained failure sequence under consideration, `D_N(E_N)` is uniformly
 bounded in the normalized packet scale, and `L_N^{ASAC}(E_N)` has already been
@@ -98,9 +100,9 @@ defect of `alpha_N` is zero.
 
 ## Theorem `TerminalNoFreeSinkEqualityClassProduction.A`
 
-Assume `SourceWeightedTerminalAngularDepletion.A` fails after the installed
-ASAC, legal, boundary, projected-cutoff, finite donor, and non-Zeno entrance
-payments are removed. Then the normalized terminal source-residue extraction
+Assume `SourceWeightedTerminalAngularDepletion.A` fails after the conditional
+ASAC gate and the installed legal, boundary, projected-cutoff, finite donor, and
+non-Zeno entrance payments are removed. Then the normalized terminal source-residue extraction
 belongs to an explicit equality class `B_ASAC`.
 
 The class `B_ASAC` consists of ancient local suitable source-residue limits

@@ -2,8 +2,10 @@
 
 Date: 2026-05-06
 
-Status: theorem-facing reduction; non-Zeno and ASAC-paid branches discharged,
-terminal Zeno source-residue rigidity remains the analytic open atom.
+Status: theorem-facing reduction; non-Zeno branches are discharged, while the
+ASAC branch is discharged only under the exact residual/no-incoming hypotheses
+of `ASAC.A`. Terminal Zeno source-residue rigidity remains the analytic open
+atom.
 
 Purpose: prove the no-free-sink estimate needed by the post-ASAC near-band
 source wall as far as the current route permits, without importing

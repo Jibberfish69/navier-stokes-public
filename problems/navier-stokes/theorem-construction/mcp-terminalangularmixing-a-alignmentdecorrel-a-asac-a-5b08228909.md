@@ -2,7 +2,11 @@
 
 ## Status
 
-Conditional theorem note.  The angular component has an installed ASAC payment.  The same selected terminal-window estimate closes once the terminal source-current branch is supplied by ZenoSourceResidueRigidity.A.
+Conditional theorem note.  The angular component has an ASAC payment only after
+the exact packet residual estimate and the no-incoming/backward-uniqueness inputs
+for `ASAC.A` are installed.  The same selected terminal-window estimate closes
+once that conditional ASAC gate and the terminal source-current branch are
+supplied by `ZenoSourceResidueRigidity.A`.
 
 ## Target
 
@@ -29,7 +33,8 @@ finite donor/refill part,
 terminal signed source-current part.
 ```
 
-The ASAC parent-drain assembly supplies
+The ASAC parent-drain assembly supplies the active-alignment payment only under
+the exact residual/no-incoming hypotheses of `ASAC.A`:
 
 ```math
 ASAC.A
@@ -55,7 +60,8 @@ LocalDonorBalance.A+EntranceLeafDecay.A
 
 ## Remaining branch
 
-After the ASAC payment and legal ledgers, the only surviving source-current branch is
+After the conditional ASAC payment and legal ledgers, the only surviving
+source-current branch is
 
 ```math
 TerminalWeightedNoFreeSink.A.
@@ -78,7 +84,13 @@ Thus, with ZenoSourceResidueRigidity.A installed, every selected positive termin
 
 ## Conditional proof
 
-Sum the four components over the bounded-overlap family.  ASAC pays the active-alignment component.  Projected-cutoff and boundary ledgers pay the legal pieces.  LocalDonorBalance.A and EntranceLeafDecay.A telescope finite/non-Zeno refill trees.  ZenoSourceResidueRigidity.A removes the terminal atom branch.  The family bounded-overlap constant converts packetwise payments into a single global ledger bound:
+Sum the four components over the bounded-overlap family.  Proved `ASAC.A` pays
+the active-alignment component through its residual/no-incoming gate.
+Projected-cutoff and boundary ledgers pay the legal pieces.
+`LocalDonorBalance.A` and `EntranceLeafDecay.A` telescope finite/non-Zeno refill
+trees.  `ZenoSourceResidueRigidity.A` removes the terminal atom branch.  The
+family bounded-overlap constant converts packetwise payments into a single global
+ledger bound:
 
 ```math
 \sum_{P\in\mathcal F_N}\int_{Q(P)}
