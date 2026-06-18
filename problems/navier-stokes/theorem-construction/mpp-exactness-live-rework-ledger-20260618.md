@@ -9000,3 +9000,66 @@ Validation:
 The focused live authority scan for the proof-force adjective family now returns
 only that intentionally preserved missing-input sentence, and `git diff --check`
 passes on the edited files.
+
+## Model / Profile Assumption Rework
+
+Old claim being spent:
+
+The live hidden-model/profile scan found several places where a "model" or
+"schematic" phrase could be read as a proof shortcut rather than an exact test
+object:
+
+- the proof-attempt appendix called the terminal atom example a model
+  calculation;
+- active-square and source-pulse notes referred to scalar models;
+- the minimal Zeno trace note referred to schematic material-surface identities;
+- the source-field appendix preserved scalar-model language in the reserve
+  obstruction.
+
+Exact replacement:
+
+Those passages now distinguish exact counterexamples and theorem targets from
+profile assumptions:
+
+- \(g_m=m1_{(-1/m,0]}\) is an exact test sequence with bounded \(L^1\) mass,
+  weak-star terminal atom limit, and exploding \(L^p\), \(p>1\);
+- active-shell source examples are scalar ODE tests showing that first-moment or
+  damping information alone does not force pulse thickness;
+- the material-surface line is an exact identity target, not a schematic
+  substitute;
+- the source-field reserve obstruction is an exact scalar ODE counterexample
+  class against first-moment-only tail records.
+
+Downstream consequence:
+
+These branches can use the examples only as counterexamples to an insufficient
+theorem, not as evidence for an arbitrary-profile proof.  The remaining burdens
+are the same exact structural inputs named in the edited surfaces: uniform
+integrability / anti-atom control, source-amplitude control, the displayed
+material identity target, and a theorem pricing simultaneous high-frequency
+donor mass quadratically.
+
+Surfaces edited:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-active-shell-square-payment-source-no-pulse-collapse-20260611.md`;
+- `theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`;
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`.
+
+Intentionally preserved hits:
+
+- `theorem-construction/mpp-hhalf-oscillation-field-exit-reduction-20260528.md`,
+  `theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md`,
+  and their appendix mirrors preserve `profile assumption` language as explicit
+  no-profile-assumption guards;
+- `source-field-reader-appendix.tex` and
+  `tps-dynamic-source-fit-and-open-frontier.md` preserve self-similar-profile
+  wording where they describe an external Hou--Wang--Yang claim or a separate
+  profile-to-feed theorem target, not a hidden proof assumption.
+
+Validation:
+
+The live hidden-model/profile scan now returns only intentionally preserved
+guard, external-claim, or theorem-target hits, and `git diff --check` passes on
+the edited files.
