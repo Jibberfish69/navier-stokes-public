@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The analytic commutator estimate is standard. The CM use depends on retained Pack-scale compatibility of the transported cutoff.
+Conditional supplier lemma for `SameLedgerHHalfExtraction.A`. The analytic commutator estimate is the fixed-time kernel bound proved below from `(TPC.4)`--`(TPC.7)`. The CM use depends on retained Pack-scale compatibility of the transported cutoff through `(TPC.3)`.
 
 ## Statement
 
