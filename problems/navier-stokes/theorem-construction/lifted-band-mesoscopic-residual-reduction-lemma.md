@@ -22,6 +22,11 @@ does prove is the next honest reduction:
    mechanism already isolated in
    `lifted-band-coarse-grained-stress-strain-flux-inequality.md`.
 
+The collar phrase in item 1 is a structural reduction only.  It becomes a paid
+estimate only after the resulting collar residual is named and shown to satisfy
+the quantitative `(collar-res)` bound in
+`lifted-band-collar-class-reduction-lemma.md`.
+
 So after this note, the interior problem is no longer an undefined remainder.
 It is a localized middle-band flux theorem.
 
