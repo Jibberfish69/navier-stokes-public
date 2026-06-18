@@ -3821,6 +3821,61 @@ Second residue sweep:
 - `theorem-construction/mcp-terminal-readout-invocation-endns-from-avg.md`;
 - `theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md`.
 
+## D.7mq Conditional Bridge Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mcp-ptc-shape-suppliers-plus-ptc-lin-to-d-7mq-attempt-2ecf7f3d5a.md`
+  said the "formal bridge" from the four requested packets to `D.7mq` closes.
+
+Exact replacement:
+
+The bridge is a conditional reduction on one selector-good strip.  The finite
+frame linearization error gives
+
+```math
+E_{J,frame}
+=d\left(2|W_J^{coc}|_{op}\varepsilon_{J,lin}^{frame}
++(\varepsilon_{J,lin}^{frame})^2\right).
+```
+
+With exact-potential comparison error `E_{J,EP}` and reference Cauchy-Green
+simple-top gap `\gamma_{J,CG}`, the Davis-Kahan step is licensed only under
+
+```math
+\varepsilon_{J,CG}:=E_{J,frame}+E_{J,EP},
+\qquad
+2\varepsilon_{J,CG}\le\gamma_{J,CG}.
+```
+
+Then
+
+```math
+\|\widehat P_J^{frame}-P_J^{CG}\|_F^2
+\le
+4\varepsilon_{J,CG}^2/\gamma_{J,CG}^2.
+```
+
+Proof or remaining burden:
+
+The finite-frame tensor estimate follows by expanding
+`z_l=W_J^{coc}\omega_l+e_l` and summing the cross/error terms over the finite
+balanced frame.  The projector conclusion is Davis-Kahan under the displayed
+gap hypothesis.  The bridge does not prove the source estimates, the
+exact-potential comparison error, or the Cauchy-Green gap.
+
+Downstream consequence:
+
+Consumers may spend `D.7mq` only after the four source packets, `E_{J,EP}`, and
+`\gamma_{J,CG}` are available on the same selector-good strip.  The word
+"formal" no longer carries proof force.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-ptc-shape-suppliers-plus-ptc-lin-to-d-7mq-attempt-2ecf7f3d5a.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
