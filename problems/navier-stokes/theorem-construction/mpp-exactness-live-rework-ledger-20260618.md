@@ -6321,3 +6321,38 @@ mathematical burden, not a completed theorem.
 Surface edited:
 
 - `theorem-construction/mcp-pctp-hard-paper-grade-proof.md`.
+
+## READ.END / ECQ.A Loop-Closure Overclaim Repair
+
+Old claim being spent:
+
+`mcp-pctp-hard-readend-ecqa-loop-closure.md` claimed that the periodic terminal
+loop was closed as
+
+```text
+OriginalSmoothData => PCTP.hard => T_* = infinity.
+```
+
+That statement spent terminal-tail production inputs as if they had already been
+derived from original data.
+
+Exact replacement:
+
+The note is now a conditional readout/continuation bridge:
+
+```text
+SCFBaseLocalModulus_N + TGC.A + AACT.Global.noJump + SRC.Final
++ AVG.END.Cert + READ.END
+=> PCTP.hard => T_* = infinity.
+```
+
+Downstream consequence:
+
+The bridge from `READ.END`/`ECQ.A` to continuation remains usable after the
+terminal-tail inputs are supplied.  It no longer closes the original-data
+production theorem, and it explicitly keeps the same-tail modulus / Field
+admission input upstream of the readout layer.
+
+Surface edited:
+
+- `theorem-construction/mcp-pctp-hard-readend-ecqa-loop-closure.md`.
