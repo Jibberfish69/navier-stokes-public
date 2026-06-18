@@ -12,7 +12,8 @@ For a separated terminal family `Q_k = Q_{r_k}^Phi(a_k,t_k)`, the needed scale-n
 
 `sum_k r_k^{-alpha} nu_SCF(Q_k) <= C(E0, source)`.
 
-This would match the lower density supplied by persistent `Jump_avg` and would complete the branch-native no-escape argument.
+The exact conditional is: this bound plus the lower density supplied by
+persistent `Jump_avg` completes the branch-native no-escape argument.
 
 ## Attempt
 The raw carrier estimate gives

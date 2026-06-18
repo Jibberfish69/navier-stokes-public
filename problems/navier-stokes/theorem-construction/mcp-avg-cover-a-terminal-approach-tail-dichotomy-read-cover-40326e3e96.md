@@ -75,7 +75,7 @@ SGC.A_{a.e.}+ATD_m^\varepsilon+CAVG.J
 
 ## Proof
 
-Finite energy and suitability give the standard local integrability layer:
+Finite energy and suitability give the local energy-integrability layer:
 
 ```math
 u\in L_t^\infty L_x^2,

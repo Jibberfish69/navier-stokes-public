@@ -6,7 +6,9 @@ Prove the active-square upper-tail Carleson estimate directly:
 `int_I sum_{j >= max(N,k+C1)} 2^{-j}D_j(t)^2 dt <= eps nu 2^{2k}|I| + C 2^{-2 delta max(N,k)}`.
 
 ## Direct route attempt
-A direct proof would need to control the shellwise square dissipation density `2^{-j}D_j^2` on active intervals without passing through square-source or amplitude-gain hypotheses.
+The direct proof target is control of the shellwise square dissipation density
+`2^{-j}D_j^2` on active intervals without passing through square-source or
+amplitude-gain hypotheses.
 
 The available energy layer controls `int D_j` and cumulative tail quantities. The installed full tail-square reserve controls `2^{-2N}E_N^2` by `D_N`. These estimates are first-moment or cumulative-tail controls.
 

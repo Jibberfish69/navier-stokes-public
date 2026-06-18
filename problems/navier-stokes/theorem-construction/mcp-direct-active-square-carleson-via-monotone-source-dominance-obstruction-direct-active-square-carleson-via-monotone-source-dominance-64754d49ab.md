@@ -8,7 +8,7 @@ The desired output is
 `int_I sum_{j >= max(N,k+C1)} 2^{-j}D_j(t)^2 dt <= eps nu 2^{2k}|I| + C2^{-2 delta max(N,k)}`.
 
 ## Monotone/source-dominance route
-A sufficient theorem would dominate the nonlinear shell source in
+A sufficient theorem dominates the nonlinear shell source in
 
 `E_j' + c nu D_j <= F_j`
 
@@ -18,7 +18,8 @@ by a term that cannot create short active pulses, for example
 
 with `a_j` integrable at the active scale and `b_j` having Carleson/square-source control.
 
-Such a dominance theorem would turn the shell equation into a no-pulse law and then imply active-square Carleson.
+Once supplied, this dominance theorem turns the shell equation into a no-pulse
+law and then implies active-square Carleson.
 
 ## Obstruction
 The monotone flux law surface shows the scalar obstruction: for any short interval, a source can balance a chosen active pulse. Therefore the shell identity and damping do not imply monotonicity. The proof must use nonlinear Navier-Stokes flux structure.

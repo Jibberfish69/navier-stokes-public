@@ -14,7 +14,7 @@ TerminalSourceReverseHolder_{B_{ASAC}}.A:
 \qquad p>1.
 ```
 
-This immediately gives the terminal strip modulus
+This gives the terminal strip modulus
 
 ```math
 \mu_m^{src}(B_R\times[-\varepsilon,0])
@@ -38,7 +38,7 @@ A candidate input is
 QuantitativeSourceDissipationAbsoluteContinuity.A.
 ```
 
-It would adapt quantitative partial-regularity ideas to show that the selected native source marginal cannot concentrate entirely on a terminal time face without creating a CKN-scale dissipation concentration visible to the local energy inequality.
+This candidate adapts quantitative partial-regularity ideas to show that the selected native source marginal cannot concentrate entirely on a terminal time face without creating a CKN-scale dissipation concentration visible to the local energy inequality.
 
 ### Energy-measure density anti-atom
 
@@ -58,7 +58,7 @@ A third input is
 BMOCarlesonSourceReserve.A.
 ```
 
-This would import scale-critical Carleson machinery to prove a source reserve on selected terminal packets.  It is route-equivalent to `LocalPositiveSourceCarleson.A / PRD`, but it gives a concrete outside analytic language.
+This candidate imports scale-critical Carleson machinery to prove a source reserve on selected terminal packets.  It is route-equivalent to `LocalPositiveSourceCarleson.A / PRD`, but it gives a concrete outside analytic language.
 
 ### Backward uniqueness / ancient Liouville
 
@@ -78,7 +78,7 @@ A fifth input is
 PressureTimeFaceSpread.A.
 ```
 
-Local pressure projection can improve pressure bookkeeping and isolate local pressure distributions.  A closure would still need a time-spread theorem, not only spatial pressure decomposition.
+Local pressure projection can improve pressure bookkeeping and isolate local pressure distributions.  Closure still requires a time-spread theorem, not only spatial pressure decomposition.
 
 ## Recommendation
 

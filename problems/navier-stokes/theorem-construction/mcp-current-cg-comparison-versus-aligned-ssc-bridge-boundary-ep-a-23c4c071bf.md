@@ -33,7 +33,7 @@ then
 Err_{cmp}^{frame}=0.
 ```
 
-That convention closes the EPF comparison immediately.
+That convention closes the EPF comparison.
 
 ## SSC compatibility boundary
 

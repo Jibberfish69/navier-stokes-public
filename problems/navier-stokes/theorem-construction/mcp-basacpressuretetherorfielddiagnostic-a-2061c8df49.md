@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether remains a plausible production mechanism, and the all-doors-closed survivor is demoted to Pack-first `not Pack_Q` support unless a positive-scale retained-carrier bridge licenses later Field readout.
+Conditional pressure route and completed diagnostic placement.  The pressure/Leray tether is a candidate production mechanism only after a retained-carrier bridge proves the required pressure/source absolute-continuity estimate. The all-doors-closed survivor is demoted to Pack-first `not Pack_Q` support unless that positive-scale retained-carrier bridge licenses later Field readout.
 
 ## Pressure/source absolute-continuity route
 

@@ -46,7 +46,7 @@ ATD_m^\varepsilon.
 
 ## Proof
 
-Rescale the moving cylinder to unit size. Bounded same-fluid distortion makes the transformed cylinder uniformly comparable to a standard parabolic cylinder, with constants depending only on `M_sharp`. The CKN-compatible normalization gives
+Rescale the moving cylinder to unit size. The bounded-distortion hypothesis `\Gamma_\sharp\le M_\sharp` gives a pullback whose Jacobian, inverse Jacobian, metric tensor, parabolic measure, and gradient norms are comparable to the unit-cylinder quantities by constants depending only on `M_sharp`. The CKN-compatible normalization gives
 
 ```math
 \iint_{Q_1}|u-u_1^{norm}|^3
@@ -60,7 +60,7 @@ Rescale the moving cylinder to unit size. Bounded same-fluid distortion makes th
 Choose `\varepsilon_m` below the CKN epsilon-regularity threshold for this bounded-distortion frame. The local epsilon-regularity theorem gives smoothness on a smaller cylinder, and parabolic bootstrapping gives, for all derivative depths needed by the route,
 
 ```math
-\sup_{Q_{1/2}}|\nabla^k u|+\\sup_{Q_{1/2}}|\nabla^{k+1}p|
+\sup_{Q_{1/2}}|\nabla^k u|+\sup_{Q_{1/2}}|\nabla^{k+1}p|
 \le C_{m,M_\sharp,\nu}
 \qquad (k\le m+2).
 ```
@@ -85,7 +85,7 @@ and each finite affine-normalized residual slot in the averaged packet.
 For every residual slot in `X_{\theta r}` one obtains
 
 ```math
-\|\zeta_{\theta r}\nabla_{	heta r}^{\beta}R_{q,j}^{\theta r}(s_a)\|_{\bar L^2}^2
+\|\zeta_{\theta r}\nabla_{\theta r}^{\beta}R_{q,j}^{\theta r}(s_a)\|_{\bar L^2}^2
 \le C_m\theta^2.
 ```
 
@@ -98,15 +98,15 @@ C_m\theta_m^2\le \eta_X.
 This gives the averaged seed
 
 ```math
-X_{	heta r}(s_a)\le\eta_X.
+X_{\theta r}(s_a)\le\eta_X.
 ```
 
 The same local derivative bounds give
 
 ```math
-X_{	heta r}\in L^\infty(I_{	heta r}),
+X_{\theta r}\in L^\infty(I_{\theta r}),
 \qquad
-N_{	heta r}\in L^1(I_{	heta r}).
+N_{\theta r}\in L^1(I_{\theta r}).
 ```
 
 For the averaged center forcing, test the tower equations against transported mollifiers:
@@ -114,21 +114,18 @@ For the averaged center forcing, test the tower equations against transported mo
 ```math
 \frac{d}{dt}\bar U_{q,j}^{\theta r}
 =
-\langle K_q,\varphi_{j,	heta r}\rangle
+\langle K_q,\varphi_{j,\theta r}\rangle
 +\text{moving-frame terms}.
 ```
 
 The pressure part is controlled either by the pressure derivative bounds above or by integration by parts onto the mollifier. The viscous part is controlled by the available `U_{q+2}` rung. Moving-frame terms are controlled by the same distortion and derivative bounds. Hence
 
 ```math
-\mathcal K_{\le m}^{avg,	heta r}\in L^1(I_{	heta r}),
-
-and
-\qquad
-F_{	heta r}\in L^1(I_{	heta r}).
+\mathcal K_{\le m}^{avg,\theta r}\in L^1(I_{\theta r}),
+F_{\theta r}\in L^1(I_{\theta r}).
 ```
 
-Thus the finite-depth averaged affine tower packet `ATD_m` holds on `Q_{	heta_m r}^Phi`.
+Thus the finite-depth averaged affine tower packet `ATD_m` holds on `Q_{\theta_m r}^Phi`.
 
 ## Output
 

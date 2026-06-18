@@ -43,7 +43,7 @@ The estimates spend classical finite-interval smoothness only to justify dyadic 
 
 ## Endpoint Placement
 
-Endpoint exclusion appears only after `PST.A`, inside `PEnd.A`. The estimates `LowMode.A`, `SP.A`, `HH.Abs.Q`, `GC.A`, `Coeff.A`, and `Sched.A` use no endpoint conclusion. Their inputs are energy/enstrophy, fixed-threshold coefficients, dyadic support, Bernstein, commutator bounds, Young absorption, and Gronwall.
+Endpoint exclusion appears only after `PST.A`, inside `PEnd.A`. The estimates `LowMode.A`, `SP.A`, `HH.Abs.Q`, `GC.A`, `Coeff.A`, and `Sched.A` use no endpoint conclusion. Their inputs are energy/enstrophy, fixed-threshold coefficients, dyadic support, Bernstein, commutator bounds, Young-margin splits, and Gronwall.
 
 Thus the endpoint matrix receives the cascade estimate as an input; it is absent from the proof of that input.
 

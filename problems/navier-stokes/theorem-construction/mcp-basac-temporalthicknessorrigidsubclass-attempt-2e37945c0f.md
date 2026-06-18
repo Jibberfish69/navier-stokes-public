@@ -30,7 +30,7 @@ UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A:
 \qquad p>1.
 ```
 
-It would imply
+By Holder in time, this estimate implies
 
 ```math
 \mu_m^{src}(B_R\times[-\varepsilon,0])

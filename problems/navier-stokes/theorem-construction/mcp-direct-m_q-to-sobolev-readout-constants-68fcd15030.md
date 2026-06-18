@@ -67,4 +67,5 @@ M_Q(u,p)+DTC.Read
 
 ## Continuation use
 
-Taking the supremum over the terminal window gives the norm bound required by the standard classical continuation criterion.
+Taking the supremum over the terminal window gives the `H^s`, `s>5/2`, norm
+bound required by the classical continuation criterion.

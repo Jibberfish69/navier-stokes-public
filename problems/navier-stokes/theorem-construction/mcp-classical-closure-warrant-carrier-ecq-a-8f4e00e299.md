@@ -50,7 +50,7 @@ At route depth `N` dominating some continuation index `s>5/2`, the installed rea
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-The standard local classical Navier-Stokes theory in `H^s(T^3)` gives a lifespan depending only on this bound. For any sequence `t_j\uparrow T_*`, the classical solution relaunched from `u(t_j)` exists on a common interval of length `tau>0`. For large `j`,
+The periodic `H^s`, `s>5/2`, local well-posedness/relaunch theorem gives a lifespan depending only on this bound. For any sequence `t_j\uparrow T_*`, the classical solution relaunched from `u(t_j)` exists on a common interval of length `tau>0`. For large `j`,
 
 ```math
 t_j+\tau>T_*.

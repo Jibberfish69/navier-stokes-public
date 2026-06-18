@@ -15,7 +15,20 @@ define the affine residual
 w_R(x,t)=u(x,t)-u_R(t)-B_R(t)(x-c(t)),
 ```
 
-where `u_R(t)` and `B_R(t)` are chosen by the usual zeroth and first moment conditions against a transported cutoff `psi_R`. Define
+where `u_R(t)` and the trace-free matrix `B_R(t)` are the weighted affine
+least-squares coefficients against the transported cutoff `psi_R`.  Equivalently,
+for `\xi=x-c(t)` and every trace-free matrix `G`,
+
+```math
+\int w_R(x,t)\psi_R(x,t)\,dx=0,
+\qquad
+\int w_R(x,t)\cdot G\xi\,\psi_R(x,t)\,dx=0.
+```
+
+The cutoff is assumed to have positive mass and a coercive weighted second
+moment tensor on the cylinder, so this finite-dimensional system determines
+`(u_R,B_R)` uniquely with constants depending only on the cutoff template and
+the bounded-distortion ledger. Define
 
 ```math
 X_R(t)=R^{-2}\int |w_R|^2\psi_R(x,t)\,dx
@@ -87,7 +100,17 @@ Summing the displayed estimates yields the claimed inequality.
 
 ## Scheduler closure
 
-On scheduler cells where the nonlinear coefficient is absorbable and the Gronwall factor is small, the inequality gives
+On scheduler cells satisfying the explicit pointwise absorption and Gronwall
+conditions
+
+```math
+C X_R^{1/2}\le c/2,
+\qquad
+\exp\!\left(\int_J B_R^+(t)\,dt\right)
+\left(X_R(t_0)+\int_J F_R^+(t)\,dt\right)\le X_{\mathrm{cell}},
+```
+
+the inequality gives
 
 ```math
 X_R\in L^\infty,

@@ -22,7 +22,7 @@ The desired theorem is a super-`L^1` temporal estimate for the native positive s
 \qquad p>1.
 ```
 
-This would imply terminal source anti-concentration:
+By Holder in time, this implies terminal source anti-concentration:
 
 ```math
 \mu_m^{src}(B_R\times[-\varepsilon,0])
@@ -35,7 +35,7 @@ and hence
 \mu_*^{src}(B_R\times\{0\})=0.
 ```
 
-Then the Zeno terminal atom branch would be removed.
+This removes the Zeno terminal atom branch.
 
 ## Direct test inside B_ASAC
 
@@ -103,4 +103,6 @@ The pressure/eigenframe route remains support for near-band signed-current contr
 
 ## Verdict
 
-The B_ASAC reverse-Hölder route remains open.  The next concrete theorem would have to add temporal thickness to B_ASAC, or strengthen B_ASAC into a rigid subclass with a source-residue Liouville theorem.
+The B_ASAC reverse-Hölder route remains open.  The next concrete theorem is
+either temporal thickness inside B_ASAC or production of a rigid B_ASAC subclass
+with a source-residue Liouville theorem.

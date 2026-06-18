@@ -15,7 +15,7 @@ BASACTerminalSourceAntiConcentration.A:
 \qquad \omega_R(\varepsilon)\downarrow0.
 ```
 
-This would remove the terminal time-face atom.  It follows from
+This removes the terminal time-face atom once supplied.  It follows from
 
 ```math
 UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A,
@@ -32,15 +32,19 @@ has unit `L^1_s` mass and converges to a terminal atom.  Thus the temporal door 
 
 ## Door 2: branch-complexity / entropy reserve
 
-A branch-entropy theorem would price diffuse legal same-fluid parent clouds.  For
+A branch-entropy theorem must price diffuse legal same-fluid parent clouds.  For
 
 ```math
 \pi_P={1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha},
 ```
 
-every bounded selected parent family captures at most `B/M`, while the total linear positive source remains order one.
+every bounded selected parent family captures at most `B/M`, while the total
+linear positive source mass is
+```math
+\sum_{\alpha=1}^{M}M^{-1}=1.
+```
 
-Available quadratic branch costs scale as
+Available quadratic branch cost is
 
 ```math
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1}.
@@ -70,7 +74,9 @@ Define `B_{ASAC}^{TA}` by adding
 \qquad\forall R<\infty.
 ```
 
-Then the Liouville theorem for `B_{ASAC}^{TA}` is immediate by combining the time-face anti-atom clause with the no-earlier-selected-source-slice clause.
+Then the Liouville theorem for `B_{ASAC}^{TA}` is exactly the conjunction of
+the time-face anti-atom clause with the no-earlier-selected-source-slice
+clause.
 
 The production theorem
 

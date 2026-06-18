@@ -4,7 +4,19 @@ Status: conditional threshold-transfer theorem.
 
 ## Statement
 
-Let `Q_r^Phi` be a CKN-admissible same-fluid moving cylinder with distortion bound `M_sharp`. Let `CKN_std(Q_1)` denote the standard normalized CKN scale-critical quantity after rescaling and pullback to the unit cylinder. There is a constant
+Let `Q_r^Phi` be a CKN-admissible same-fluid moving cylinder with distortion bound `M_sharp`. Define the normalized CKN scale-critical quantity after rescaling and pullback to the unit cylinder by
+
+```math
+CKN_{std}(Q_1)
+:=
+\iint_{Q_1}|\tilde u-\tilde u^{norm}|^3
++
+\iint_{Q_1}|\tilde p-\tilde p^{norm}|^{3/2}
++
+\iint_{Q_1}|\nabla_y\tilde u|^2.
+```
+
+There is a constant
 
 ```math
 C_{CKN}=C(M_\sharp,\nu,\mathscr P_{req})
@@ -53,7 +65,7 @@ C(M_\sharp)
 The pressure normalization lemma supplies the CKN-compatible pressure gauge, so
 
 ```math
-\iint_{Q_1}|\tilde p-	ilde p^{norm}|^{3/2}
+\iint_{Q_1}|\tilde p-\tilde p^{norm}|^{3/2}
 \le
 C(M_\sharp,\nu)
 \,r^{-2}\iint_{Q_r^\Phi}|p-p^{norm}|^{3/2}.

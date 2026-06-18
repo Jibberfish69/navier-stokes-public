@@ -22,7 +22,7 @@ BASACLocalEnergyTraceNoPositiveJump.A
 ProductionIntoRigidBASACTimeFaceSubclass.A.
 ```
 
-A terminal source atom gives positive mass in `B_R\times\{0\}`.  In the localized source balance, all paid channels are already routed away by the definition of `B_ASAC`; therefore the atom must appear as a positive terminal jump in the remaining trace primitive.  A no-positive-jump theorem would rule it out.
+A terminal source atom gives positive mass in `B_R\times\{0\}`.  In the localized source balance, all paid channels are already routed away by the definition of `B_ASAC`; therefore the atom must appear as a positive terminal jump in the remaining trace primitive.  The no-positive-jump theorem required here is continuity from below for that remaining trace primitive at the terminal face.
 
 ## Direct test
 
@@ -48,7 +48,7 @@ The energy/enstrophy infrastructure similarly supplies necessary compactness and
 
 ## Equivalent stronger suppliers
 
-Any of the following would imply the trace theorem:
+Any of the following is a sufficient supplier for the trace theorem:
 
 ```math
 UniformTemporalSourceIntegrability_{p,B_ASAC}.A\quad(p>1),
@@ -102,6 +102,10 @@ g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
 
 has unit source mass and its primitive converges to a positive terminal jump at `s=0`.
 
-Weak linear velocity traces and the local energy inequality do not rule this out after quadratic/one-sided terminal source selection. A no-positive-jump theorem would require a stronger trace regularity input, positive-source trace absolute continuity, super-`L^1_s` source residence, or a source Carleson reserve.
+Weak linear velocity traces and the local energy inequality do not rule this out
+after quadratic/one-sided terminal source selection. The no-positive-jump
+theorem requires a stronger trace regularity input, positive-source trace
+absolute continuity, super-`L^1_s` source residence, or a source Carleson
+reserve.
 
 Therefore `BASACLocalEnergyTraceNoPositiveJump.A` remains open and the next item is `PurePressureSourceSingularResidueLiouville.A`.

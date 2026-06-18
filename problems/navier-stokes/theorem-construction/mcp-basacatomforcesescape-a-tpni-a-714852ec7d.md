@@ -21,7 +21,7 @@ Then, since every such escape is excluded by the definition of `B_ASAC`, the ter
 
 First-pulse source-parent minimality removes fixed earlier selected source parents and finite/non-Zeno ancestry.  It does not remove a sequence of source layers whose heat scales shrink to zero at the terminal time.
 
-Local energy and raw source compactness provide finite source mass on compact cylinders.  They do not separate diffuse near-terminal source from a terminal atom.  The model marginal
+Local energy and raw source compactness provide finite source mass on compact cylinders.  They do not separate diffuse near-terminal source from a terminal atom.  The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

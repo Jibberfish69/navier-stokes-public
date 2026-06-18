@@ -10,9 +10,12 @@ Prove that a nonzero terminal native source charge in the produced `B_ASAC` clas
 
 ## Parent-cloud concentration test
 
-Order-one terminal source charge gives order-one mass in shrinking terminal layers.  Pigeonholing can select a large density layer, but the layer may lie in `(-\varepsilon_m,0]` with `\varepsilon_m\downarrow0`.  This gives no fixed preterminal gap.
+Terminal source charge bounded below by `M_0>0` gives fixed positive mass in
+shrinking terminal layers.  Pigeonholing can select a large density layer, but
+the layer may lie in `(-\varepsilon_m,0]` with `\varepsilon_m\downarrow0`.
+This gives no fixed preterminal gap.
 
-The model
+The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
@@ -20,7 +23,10 @@ g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
 
 again shows that fixed negative-time parent mass need not appear under the installed `L^1_t` source information.
 
-A selected-parent compactness theorem would require a bounded selected family capturing fixed mass.  A diffuse cloud can have many legal near-terminal parents with total charge order one and every bounded subfamily capturing vanishing mass.
+A selected-parent compactness theorem requires a bounded selected family
+capturing fixed mass.  A diffuse cloud can have many legal near-terminal parents
+with total charge bounded below by `M_0>0` and every bounded subfamily capturing
+vanishing mass.
 
 ## Branch-entropy / donor-depletion test
 
@@ -30,9 +36,12 @@ Let
 \pi_P={1\over M}\sum_{\alpha=1}^{M}\delta_{P^-_\alpha}
 ```
 
-be a legal same-fluid parent distribution with total source charge one.  Every bounded selector captures at most `B/M`, while the linear positive source sum remains order one.
+be a legal same-fluid parent distribution with total source charge one.  Every bounded selector captures at most `B/M`, while the linear positive source sum remains one.
 
-A natural entropy defined by `H(\pi_P):=\log M` for the uniform `M`-parent model would price this diffusion, but installed energy, local energy, pressure/cutoff, donor-balance, residual-square, and ASAC ledgers carry no positive entropy coefficient.
+An entropy route requires a functional such as `H(\pi_P):=\log M` for the exact
+uniform `M`-parent family.  Installed energy, local energy, pressure/cutoff,
+donor-balance, residual-square, and ASAC ledgers carry no positive entropy
+coefficient for that functional.
 
 For diffuse amplitudes `M^{-1}`, quadratic branch charges scale as
 
@@ -40,7 +49,8 @@ For diffuse amplitudes `M^{-1}`, quadratic branch charges scale as
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1},
 ```
 
-while the linear positive source stays order one.  Thus current quadratic reserves get cheaper under legal diffusion.
+while the linear positive source stays bounded below by `M_0>0`.  Thus current
+quadratic reserves get cheaper under legal diffusion.
 
 Bounded overlap controls selected child coverage, not the incoming legal parent count for one child.
 

@@ -44,7 +44,10 @@ For route depth `N` above a classical continuation index `s>5/2`, the readout gi
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-The standard periodic Navier-Stokes local theory in `H^s(T^3)` gives a lifespan depending only on this bound. Relaunching at times `t_j\uparrow T_*` extends the solution past any finite `T_*`, and uniqueness identifies the relaunched solution with the original one on the overlap.
+The periodic Navier-Stokes local theory in `H^s(T^3)`, `s>5/2`, gives a
+lifespan depending only on this bound. Relaunching at times `t_j\uparrow T_*`
+extends the solution past any finite `T_*`, and uniqueness identifies the
+relaunched solution with the original one on the overlap.
 
 Therefore finite `T_*` is impossible. Equivalently, `ECQ.A` identifies finite maximal time with finite class exit, and `PCTP.hard` excludes that exit.
 

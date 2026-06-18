@@ -13,7 +13,7 @@ UniformTemporalSourceIntegrability_{p,B_ASAC}.A,
 \qquad p>1.
 ```
 
-This would imply terminal source anti-concentration by Holder.  Installed inputs supply finite local `L^1_s` source mass.  The terminal-layer profile
+By Holder in time, this implies terminal source anti-concentration.  Installed inputs supply finite local `L^1_s` source mass.  The terminal-layer profile
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
@@ -29,7 +29,18 @@ Target:
 ScaleNormalizedBranchEntropyReserve.A.
 ```
 
-A diffuse legal parent cloud can split unit source mass among `M` parents.  Every bounded selected parent subfamily captures at most `B/M`, while the linear source remains order one.  Available quadratic costs scale like `M^{-1}` and no installed ledger carries a positive `\log M` branch-entropy charge.  This gate remains open.
+A diffuse legal parent cloud can split unit source mass among `M` equal parents.
+Every bounded selected parent subfamily captures at most `B/M`; the linear
+source mass is
+```math
+\sum_{\alpha=1}^M M^{-1}=1,
+```
+whereas the available quadratic cost is
+```math
+\sum_{\alpha=1}^M M^{-2}=M^{-1}.
+```
+No installed ledger carries a positive `\log M` branch-entropy charge.  This
+gate remains open.
 
 ## Gate 3: transported time-face no-incoming
 
@@ -51,7 +62,10 @@ ProductionIntoRigidBASACTimeFaceSubclass.A:
 B_ASAC\Longrightarrow B_ASAC^{TA}.
 ```
 
-The subclass Liouville theorem is valid once `B_ASAC^{TA}` is produced.  The current equality-class production gives finite local `L^1_s` mass, zero ASAC defect, paid-exit removal, and terminal Zeno support, all compatible with the terminal-layer model.  This gate remains open.
+The subclass Liouville theorem is valid once `B_ASAC^{TA}` is produced.  The
+current equality-class production gives finite local `L^1_s` mass, zero ASAC
+defect, paid-exit removal, and terminal Zeno support, all compatible with the
+endpoint time-marginal witness.  This gate remains open.
 
 ## Gate 5: pressure time-face spread
 
@@ -99,7 +113,7 @@ TerminalLerayOrientation_{ind}.A
 +TerminalLeraySaturation_{ind}.A.
 ```
 
-The localized Leray identity recombines convection and pressure before terminal positive selection.  After one-sided selection, an independent proof needs orientation, commutator pricing, and saturation gates.  Importing the existing terminal skew/source-current ledger would make the proof circular.  This gate package remains open.
+The localized Leray identity recombines convection and pressure before terminal positive selection.  After one-sided selection, an independent proof needs orientation, commutator pricing, and saturation gates.  Importing the existing terminal skew/source-current ledger spends the conclusion this gate package is trying to prove.  This gate package remains open.
 
 ## Completed state
 

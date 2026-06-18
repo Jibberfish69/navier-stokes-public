@@ -37,7 +37,7 @@ D_u(Q_r^\Phi)+P_{loc}(Q_r^\Phi)
 \ge c\varepsilon_m,
 ```
 
-then component selection is immediate:
+then component selection follows directly:
 
 ```math
 \nu_{SCF}(Q_r^\Phi)

@@ -32,7 +32,7 @@ Equivalently,
 SCF_{base}\le\varepsilon_m\Longrightarrow ATD_m^\varepsilon.
 ```
 
-The proof is standard local epsilon regularity after converting the bounded-distortion same-fluid cylinder to a CKN-compatible frame. Interior parabolic bootstrapping supplies every finite tower rung required by the route, including the averaged seed, excess packet, dissipation packet, pressure readout, and mollified center-forcing ledgers.
+The proof uses CKN epsilon regularity after converting the bounded-distortion same-fluid cylinder to a CKN-compatible frame. Interior parabolic bootstrapping supplies every finite tower rung required by the route, including the averaged seed, excess packet, dissipation packet, pressure readout, and mollified center-forcing ledgers.
 
 Thus
 

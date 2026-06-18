@@ -35,7 +35,7 @@ If the parent density obeys
 \le \gamma\bar\delta_j(Q),
 ```
 
-then the parent-cell Holder packet is immediate.
+then the parent-cell Holder packet is the next packet to record.
 
 Equivalently, if parent cells are stopped or refined until
 
