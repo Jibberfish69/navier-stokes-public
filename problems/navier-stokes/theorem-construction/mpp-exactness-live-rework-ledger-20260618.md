@@ -4257,6 +4257,39 @@ Edited live surface:
 
 - `live-theorem-edge.yaml`.
 
+## Dependency-Referenced Theorem-Note Conditionality Repair
+
+Old loose wording:
+
+- `tps-shadow-barrier-formal-closure-packet.md` described itself as a
+  "formal closure packet" proving "formal implications already used" by the
+  barrier, SG bridge, and averaged packet.
+- `mpp-sourceparent-measure-formal-definition-note.md` said it was the "formal
+  version" of the tower-transfer intuition.
+
+Exact replacement:
+
+The TPS packet now states that it supplies conditional reductions only. It may
+be spent only with the listed strip-barrier, selector-coherence, weak occupancy,
+and vanishing-exception hypotheses; it still leaves the
+`SG.4-production` packet as the missing Navier--Stokes-specific input. The
+source-parent note now replaces the old intuition with the displayed
+parent-measure theorem: source recovery, parent lower density, same-fluid edge
+fidelity, summable loss, and charge alternative must produce either a finite
+charge or a lawful comparable same-fluid predecessor packet.
+
+Downstream consequence:
+
+The dependency-discharge reference to the TPS packet does not discharge
+selector-local transverse production or lane readiness. It records only the
+conditional barrier/occupancy logic, while the source-parent ancestry route can
+spend tower-transfer language only through the exact parent-measure axioms.
+
+Edited live theorem notes:
+
+- `theorem-construction/tps-shadow-barrier-formal-closure-packet.md`;
+- `theorem-construction/mpp-sourceparent-measure-formal-definition-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
