@@ -32,4 +32,4 @@ The tail-square reserve remains conditional on the active-square far-corona theo
 
 ## Result
 
-The collar product remains blocked by the open LPAS/FC input. Once LPAS/FC is installed, the already-written collar product theorem promotes immediately.
+The collar product remains blocked by the open LPAS/FC input. Once LPAS/FC is installed, the already-written collar product theorem can be promoted.

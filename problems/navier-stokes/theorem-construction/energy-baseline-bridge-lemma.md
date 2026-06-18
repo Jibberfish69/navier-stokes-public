@@ -15,7 +15,7 @@ Therefore the classical route must treat energy or enstrophy control as necessar
 
 ## Proof Sketch
 
-1. Any classical regularity route must at minimum retain the standard energy budget and viscous dissipation control.
+1. Any classical regularity route must at minimum retain the classical energy budget and viscous dissipation control.
 2. Those bounds give global size control, but they do not by themselves localize transport into the dangerous dyadic regime.
 3. Without a tail or flux estimate, high-frequency concentration remains compatible with the baseline energy budget.
 4. Without a continuation-level gradient estimate, one still lacks the mechanism that rules out blow-up from concentrated high-frequency growth.

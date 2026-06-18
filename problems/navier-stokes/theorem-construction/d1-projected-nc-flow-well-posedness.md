@@ -1043,7 +1043,7 @@ Then
 [\pi_f,A_D]X=T_U(\Omega_DX).
 ```
 
-For E2.3, boundedness is immediate once each window component is bounded:
+For E2.3, boundedness comes from the bounded window components:
 `Q_U:H\to H`, `R_U:H\to H`, `\widetilde{\mathbb P}_U:H\to H`, and
 `\pi_f:H\to C^k(U)`. Therefore
 
@@ -1372,7 +1372,7 @@ Therefore
 \|[E_\omega,X]\|_{\mathcal N}\le C_\omega\|X\|_{\mathcal N}.
 ```
 
-Then E3 follows immediately:
+Then E3 is the decomposition
 
 ```text
 \delta_\omega X=[D,X]+[E_\omega,X],

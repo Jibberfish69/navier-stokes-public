@@ -55,7 +55,7 @@ frequency-space locality.
 ## Exact Shellwise Product Localization
 
 Fix a homogeneous Littlewood-Paley decomposition in the Lagrangian variable
-`a`, with shell operators `\Delta_j`, low cutoffs `S_j`, and a harmless collar
+`a`, with shell operators `\Delta_j`, low cutoffs `S_j`, and a fixed collar
 width `C_0\ge 4`.
 
 For a fixed derivative split `0<\beta\le \alpha`, write

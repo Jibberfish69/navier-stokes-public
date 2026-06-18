@@ -19,10 +19,11 @@ isolated the repaired direct `V2` wall as:
 
 This note sharpens that split. Once the fixed-metric heat import is taken in the
 stronger uniform Carleman form supplied by Laurent--Léautaud, the bounded
-first-order and zeroth-order terms absorb directly. So the lower-order
-perturb-transfer theorem is not an additional independent wall on this branch.
+first-order and zeroth-order terms are controlled once the Carleman parameter
+passes the threshold in `(ELA.5)`. So the lower-order perturb-transfer theorem
+is not an additional independent wall on this branch.
 
-## Proposition `ELA.A` (bounded lower-order terms absorb into the fixed-metric Carleman packet)
+## Proposition `ELA.A` (bounded lower-order terms under a fixed-metric Carleman threshold)
 
 Fix one retained chart `\Omega_k\times I_k`, and write the backward chart
 operator in the form
@@ -98,8 +99,8 @@ Then there exists `s_\ast=s_\ast(C_0,M_\ast,\phi_k,\theta_k)` such that for all
 \tag{ELA.5}
 ```
 
-So the lower-order packet is absorbed into the same chart-uniform Carleman
-class.
+So the lower-order packet is controlled in the same chart-uniform Carleman
+class after `s>=s_*`.
 
 ### Proof
 
@@ -118,10 +119,24 @@ From `(ELA.1)` and `(ELA.2)`,
 Insert `(ELA.6)` into `(ELA.3)`. The second term on the right is lower order
 than the bulk packet `(ELA.4)`: the gradient part is controlled by the
 `s\theta_k e^{2s\phi_k}|\nabla_\zeta z|^2` term, and the zeroth-order part is
-controlled by the `s^3\theta_k^3 e^{2s\phi_k}|z|^2` term. After the usual
-time-cutoff, `\theta_k` is bounded below on the interior slab where the
-Carleman estimate is applied, so for `s` large enough the lower-order
-contribution is absorbed into the left-hand side. This yields `(ELA.5)`. ∎
+controlled by the `s^3\theta_k^3 e^{2s\phi_k}|z|^2` term. On the interior slab
+where the Carleman estimate is applied, assume the cutoff has
+`\theta_k\ge\theta_\ast>0`. Choose `s_\ast` so that, for every `s\ge s_\ast`,
+
+```math
+2C_0M_\ast^2
+\left(
+\frac1{s\theta_\ast}
++
+\frac1{s^3\theta_\ast^3}
+\right)
+\le
+\frac12 .
+\tag{ELA.7}
+```
+
+Under `(ELA.7)`, the lower-order contribution in `(ELA.6)` is at most one half
+of the bulk packet `(ELA.4)`, so moving it to the left gives `(ELA.5)`. ∎
 
 ## Corollary `ELA.B` (the separate perturb-transfer wall disappears under the fixed-metric Carleman import)
 
@@ -133,7 +148,8 @@ Assume the retained chart family satisfies the repaired `F.11d` packet:
 
 Assume further that Laurent--Léautaud's uniform Lipschitz-metric Carleman
 estimate is available for the base operator `P_{k,0}`. Then `(ELA.A)` upgrades
-that fixed-metric Carleman packet to the full repaired chart operator `P_k`.
+that fixed-metric Carleman packet to the full repaired chart operator `P_k`
+for Carleman parameters `s>=s_*`.
 Consequently the bounded lower-order perturb-transfer theorem required in
 
 [exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md)
@@ -201,7 +217,7 @@ is now replaced by one sharper and more classical import packet:
 }
 \Longrightarrow
 \boxed{
-\texttt{bounded lower-order absorption}
+\texttt{bounded lower-order threshold control}
 }
 \Longrightarrow
 \boxed{

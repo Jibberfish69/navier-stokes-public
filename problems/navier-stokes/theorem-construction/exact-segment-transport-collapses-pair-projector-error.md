@@ -176,8 +176,7 @@ so `(LPMR.19)` is automatic on this subbranch.
 Proposition `PSJ+.5` verifies Assumption `PSJ+.SST` with `\eta=0`, because the
 pair separation law is exact. Therefore the residual term `E_{ab}` in
 `(PSJ+.25)` vanishes. Rewriting that exact pair ODE in the localized notation
-gives `(PPE.8)` with `E_J^{pair}=0`, and then `(PPE.9)`-`(PPE.10)` follow
-immediately. ∎
+gives `(PPE.8)` with `E_J^{pair}=0`, and then `(PPE.9)`-`(PPE.10)` follow by direct substitution. ∎
 
 ## Interpretation
 

@@ -163,8 +163,10 @@ C\,\Gamma_N(t)\,T_N(t)
 
 This strict low-mode tail component is now materially more explicit on the
 exact Euclidean surface. Its packet structure is no longer black-box, but the
-coefficient-preserving commutator absorption still remains under audit, so it
-is not yet safe to treat this line as fully closed.
+coefficient-preserving commutator estimate still remains to be proved: the
+route needs a bound that turns `C\Gamma_N(t)T_N(t)` into a paid part of `Q_N(t)`
+plus a declared remainder. Until that estimate is installed, it is not safe to
+treat this line as fully closed.
 
 ### Step 2. Spill reduction on the same admissible surface
 
@@ -179,15 +181,21 @@ The finite-band spill term is reduced by
 ```
 
 The spill packet is now explicit on the local tail-energy surface. It is
-absorbed directly into `Q_N` by a large-cutoff factor `2^{-N/2}K_T`, where
-`K_T=\sup_{0\le t<T}\|\nabla u(t)\|_{L^2}` is already available from the
-Euclidean fourth bridge. No `L^\infty_x` continuation norm enters.
+controlled by the exact large-cutoff condition
+
+```math
+C_MK_T2^{-N/2}\le\frac{\eta\nu}{4},
+```
+
+where `K_T=\sup_{0\le t<T}\|\nabla u(t)\|_{L^2}` is already available from the
+Euclidean fourth bridge. Under that condition it contributes at most
+`(\eta\nu/4)Q_N(t)`. No `L^\infty_x` continuation norm enters.
 
 ### Step 3. Genuine high-high packet
 
 The remaining high-high component is isolated in
 [tail-energy-genuine-high-high-packet.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/tail-energy-genuine-high-high-packet.md),
-which proves that for all sufficiently large `N`,
+which proves that for every `N\ge N_{\mathrm{HH}}`,
 
 ```math
 \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
@@ -206,7 +214,7 @@ After reindexing the fixed dyadic collar into the threshold budget, this gives
 ```
 
 So the genuine high-high packet is now explicit on the local tail-energy
-surface. The remaining local issue is not the high-high absorption itself.
+surface. The remaining local issue is not this high-high cutoff payment.
 
 ### Step 4. Tail-energy differential inequality
 
@@ -382,9 +390,9 @@ commutator audit, and the same-shape barrier is recovered by the coercive tail
 damping in `(13)`.
 
 So this note no longer hides the local theorem structure, but it still depends
-on a final strict low-mode commutator absorption audit in addition to the
-upstream proposition-level packet alignment in Proposition 4.1 and Proposition
-6.1.
+on a strict low-mode coefficient-preserving commutator estimate in addition to
+the upstream proposition-level packet alignment in Proposition 4.1 and
+Proposition 6.1.
 
 ## Audit Boundary
 

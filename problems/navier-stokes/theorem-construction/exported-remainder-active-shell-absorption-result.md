@@ -37,7 +37,7 @@ C_\varepsilon\Phi_s(\mathcal E_D^{(s)}(X(t)))
 
 ## Proof
 
-This is immediate from the displayed threshold definition. Choose `K>=eta^{-1}` and rearrange.
+Choose `K>=eta^{-1}` in the displayed threshold definition and rearrange.
 
 ## Consequence
 

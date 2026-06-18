@@ -7,25 +7,30 @@ layer used by
 [carrier-realization-classical-identification.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md).
 
 Its job is not to introduce a new bridge, estimate, or closure lemma. Its job
-is to certify that the realized-carrier facts used by `D.1`, `D.2`, `D.4`, and
-`D.8a` are standard classical Navier-Stokes infrastructure on the declared
-Euclidean theorem surface.
+is to record the exact external classical facts used by `D.1`, `D.2`, `D.4`,
+and `D.8a`, together with the theorem-surface hypotheses under which they are
+being imported.
 
 ## Certification Scope
 
 The imported facts under review are:
 
-1. Leray projector structure on `L^2_\sigma` and `H^s_\sigma`.
-2. Positivity, self-adjointness, and analyticity of the Stokes semigroup.
+1. Leray projector structure on `L^2_\sigma` and the Sobolev spaces used by
+   the carrier realization.
+2. Positivity, self-adjointness on `L^2_\sigma`, domain
+   `H^2\cap L^2_\sigma`, and analyticity of the Stokes semigroup.
 3. The bilinear map
    ```text
    H^1_\sigma \times H^1_\sigma \to H^{-1}_\sigma
    ```
-   together with the standard cancellation identity.
+   together with the divergence-free cancellation identity under periodic or
+   declared whole-space decay hypotheses.
 4. Exact pullback to the classical incompressible equation and pressure
    recovery after Leray projection.
-5. Aubin-Lions-Simon compactness on `\mathbb T^3` and local compactness on
-   `\mathbb R^3`, with globalization through the admissible-energy tail bound.
+5. Aubin-Lions-Simon compactness from uniform `L^2_tH^1_x` and compatible
+   negative-Sobolev time-derivative bounds on `\mathbb T^3`, plus local
+   compactness on `\mathbb R^3` with globalization through the admissible-energy
+   tail bound.
 6. Positive-time Gevrey / space analyticity of classical solutions, together
    with the standard analytic unique-continuation consequence that open-set
    vanishing on a connected time slice forces global vanishing on that
@@ -41,9 +46,12 @@ The realized projection
 \mathbb P_D = \mathbb P
 ```
 
-is the standard Helmholtz-Leray projector onto the divergence-free subspace.
-The boundedness, self-adjointness, idempotence, and Sobolev preservation used in
-the realized-carrier theorem are standard classical facts.
+is the Helmholtz-Leray projector onto the divergence-free subspace. The imported
+facts are boundedness on `L^2_\sigma` and the Sobolev spaces used by the carrier
+realization, self-adjointness on `L^2_\sigma`, idempotence, and preservation of
+the divergence-free subspace. These are external facts of the declared periodic
+or admissible whole-space surface, not estimates proved by the class-membership
+route.
 
 External references:
 
@@ -62,9 +70,8 @@ A = -\mathbb P \Delta
 ```
 
 with domain `H^2 \cap L^2_\sigma` is the classical Stokes operator. The
-realized-carrier use of positivity, self-adjointness, and analytic semigroup
-generation is mathematically standard and does not introduce a new theorem-local
-burden.
+imported facts are positivity, self-adjointness on `L^2_\sigma`, and analytic
+semigroup generation on the declared surface.
 
 External references:
 
@@ -80,15 +87,15 @@ The realized nonlinearity
 N_D(X) = \mathbb P((X \cdot \nabla)X)
 ```
 
-uses the standard `H^1_\sigma \times H^1_\sigma -> H^{-1}_\sigma` bilinear map
+uses the imported `H^1_\sigma \times H^1_\sigma -> H^{-1}_\sigma` bilinear map
 and the divergence-free cancellation
 
 ```text
 \langle (X \cdot \nabla)X, X \rangle = 0.
 ```
 
-These are classical NS identities and are correctly imported as infrastructure,
-not as new route lemmas.
+The cancellation is imported only under the boundary, decay, or periodic
+conditions that remove boundary terms.
 
 External references:
 
@@ -99,15 +106,15 @@ External references:
 ### 4. Exact pullback and pressure recovery
 
 Once `\rho = \mathrm{Id}` on the realized carrier and the equation is written in
-Leray-projected form, pressure recovery is exactly the classical Poisson
-reconstruction
+Leray-projected form, pressure recovery is exactly the Poisson reconstruction
 
 ```text
--\Delta p = \nabla \cdot ((u \cdot \nabla)u),
+-\Delta p = \partial_i\partial_j(u_i u_j),
 ```
 
-unique up to an additive constant. No new theorem-local derivation is needed
-beyond the classical Helmholtz decomposition and the projected equation itself.
+with periodic zero-mean normalization or the declared whole-space local/far
+normalization. No theorem-local pressure law is gained unless the solution stays
+inside those hypotheses.
 
 External references:
 
@@ -118,9 +125,11 @@ External references:
 
 ### 5. Compactness on `\mathbb T^3` and `\mathbb R^3`
 
-The realized compactness step uses the standard Aubin-Lions-Simon compactness
-framework:
+The realized compactness step imports Aubin-Lions-Simon only with the exact
+inputs:
 
+- a uniform local `L^2_tH^1_x` bound;
+- a compatible uniform time-derivative bound in a negative Sobolev space;
 - compact embedding `H^1_\sigma \hookrightarrow L^2_\sigma` on `\mathbb T^3`;
 - local compactness on `\mathbb R^3`;
 - globalization on the fixed admissible data class through the lane's uniform
@@ -173,7 +182,8 @@ External references:
 
 The realized-carrier note is externally valid as a theorem-grade classical model
 identification surface. The imported Leray/Stokes/Aubin-Lions/pressure-recovery
-facts are standard classical NS facts on the declared Euclidean theorem surface.
+facts are available only under the declared periodic or admissible whole-space
+classical hypotheses listed above.
 
 Accordingly:
 
@@ -183,10 +193,11 @@ Accordingly:
    realized-carrier note and the external paper surfaces; no new mathematical
    invention is required at this layer.
 3. Any residual disagreement is now properly classified as external acceptance of
-   standard imports, not as an internal proof gap in the note stack.
+   the listed classical hypotheses, not as an internal proof gap in the note
+   stack.
 4. The positive-time analyticity import used by the MPP dead-patch rigidity note
-   is likewise certified as standard classical infrastructure rather than a new
-   route-local theorem burden.
+   is likewise tied to the declared positive-time classical theorem surface
+   rather than introduced as a route-local theorem burden.
 
 ## Residual Risk
 

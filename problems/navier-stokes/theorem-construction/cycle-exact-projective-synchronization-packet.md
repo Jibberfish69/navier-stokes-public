@@ -379,7 +379,8 @@ d_{\mathrm{proj}}(P,Q)^2
 \tag{PPCJ'.8}
 ```
 
-so `(PPCJ'.3)` follows immediately. Integrating gives `(PPCJ'.6)`. ∎
+substituting `(PPCJ'.8)` into the Davis-Kahan bound `(PPCJ'.7)` gives
+`(PPCJ'.3)`. Integrating gives `(PPCJ'.6)`. ∎
 
 ## Cycle-exact projective synchronization theorem
 
@@ -491,7 +492,9 @@ C\,\frac{\varepsilon_J^{obs}(a,b,t)^2}{\gamma_J(a,b,t)^2}.
 ```
 
 Integrate over `G_J^{pair}(I)\times I` and apply `(CPS.1)`, `(PSJ.3)`, and
-`(PPCJ'.6)` to conclude `(CPS.2)`. The absorbed form `(CPS.3)` is immediate. ∎
+`(PPCJ'.6)` to conclude `(CPS.2)`. The absorbed form `(CPS.3)` is obtained by
+moving the last term of `(CPS.2)` to the left and using the smallness allowance
+in `(PSJ.3)`. ∎
 
 ## Splice to the installed cycle-exact branch
 

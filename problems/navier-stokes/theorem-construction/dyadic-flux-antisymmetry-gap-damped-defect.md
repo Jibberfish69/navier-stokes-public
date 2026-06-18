@@ -386,7 +386,7 @@ in the separated lifted geometry `k<j-4<\ell-8`, together with a summation
 strong enough to land at the barrier scale after integrating in time.
 
 So the exact deterministic next move on this branch is not to ask the weight
-for decay, and not to pass immediately to positive carriers, but to ask the
+for decay, and not to pass directly to positive carriers, but to ask the
 summed signed defect for decay before absolute values are introduced.
 
 ## Honest Boundary

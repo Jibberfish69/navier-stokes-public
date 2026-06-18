@@ -58,7 +58,7 @@ By definition `(EPT.1)`, `\widetilde S_J` is exactly the localized pair-projecto
 integral and contains no additive remainder tensor. So if one chooses the
 tail-free realization, the auxiliary symbol `\mathrm{Tail}_J` is identically
 zero. Then `R_J^{tail}`, defined as the derivative contribution of that same
-auxiliary remainder, is also identically zero. Hence `(EPT.3)` is immediate. ∎
+auxiliary remainder, is also identically zero. Hence `(EPT.3)` follows from the vanishing remainder. ∎
 
 ## Consequence For The Honest Localized-Projector Wall
 

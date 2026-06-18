@@ -453,7 +453,7 @@ Once the shadow comparison
 \|u(t)\|_{H^s(\mathbb T^3)} \le C\|X(t)\|_{H_D^s}
 ```
 
-is theorem-grade, the periodic shadow continuation statement is immediate. D.4
+is theorem-grade, the periodic shadow continuation statement follows directly. D.4
 therefore already has a concrete torus-side proving ground and is not just a
 formal continuation slogan.
 
@@ -540,7 +540,7 @@ Apply Grönwall and integrate in time to obtain the a priori bound
 Differentiate covariantly with `\nabla_D`. The linear part gives a coercive
 `|\nabla_D^2X|_H^2` contribution up to lower order terms. The drift is bounded
 by A8, and the nonlinear term is controlled by the same carrier cancellation
-mechanism used in D.2. Young absorption yields
+mechanism used in D.2. The Young-margin inequality yields
 
 ```text
 \frac{d}{dt}|\nabla_DX|_H^2 + c_1|\nabla_D^2X|_H^2 \le C|\nabla_DX|_H^2.

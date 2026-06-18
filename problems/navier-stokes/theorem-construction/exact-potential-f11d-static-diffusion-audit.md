@@ -23,7 +23,7 @@ Several recent exact-potential `V2` notes inherited the theorem-facing readout
 \tag{EFS.1}
 ```
 
-with a principal coefficient written as
+with a principal coefficient previously written schematically as
 
 ```math
 a_k=\nu G_k+a_k^{chart},
@@ -35,8 +35,8 @@ G_k:=D\Theta_kD\Theta_k^\top,
 and with `a_k^{chart}` allowed to depend on `V_J`.
 
 This note audits that readout against the proof line of `F.11d`, which says the
-chart equation is the standard pushforward of a second-order divergence-form
-operator under a **time-independent** `C^2` diffeomorphism.
+chart equation is the exact pushforward of the Euclidean Laplacian under a
+**time-independent** `C^2` diffeomorphism.
 
 ## Proposition `EFS.A` (time-independent chart pushforward leaves the principal diffusion static)
 
@@ -60,7 +60,8 @@ then the theorem-facing pushforward takes the form
 
 ```math
 \partial_t \widetilde q_k
--\nu\,\nabla_\zeta\cdot(G_k\nabla_\zeta \widetilde q_k)
+-\nu\,J_k^{-1}\partial_{\zeta_\alpha}
+\big(J_k g_k^{\alpha\beta}\partial_{\zeta_\beta}\widetilde q_k\big)
 +\widetilde b_k\cdot \nabla_\zeta \widetilde q_k
 +\widetilde c_k\widetilde q_k
 =
@@ -70,7 +71,12 @@ then the theorem-facing pushforward takes the form
 
 where:
 
-1. `G_k` depends only on the chart `\Theta_k`;
+1. with `\Psi_k=\Theta_k^{-1}`,
+   `J_k(\zeta)=|\det D_\zeta\Psi_k(\zeta)|` and
+   `g_k^{\alpha\beta}(\zeta)=
+   \partial_{x_i}\Theta_k^\alpha(\Psi_k(\zeta))
+   \partial_{x_i}\Theta_k^\beta(\Psi_k(\zeta))`, so
+   `J_kg_k^{\alpha\beta}` depends only on the chart `\Theta_k`;
 2. the lower-order coefficients `\widetilde b_k,\widetilde c_k` depend
    algebraically on `D\Theta_k`, `D^2\Theta_k`, and `V_J`;
 3. no `V_J`-dependent term enters the second-order diffusion matrix.
@@ -80,11 +86,19 @@ where:
 The time derivative is unchanged because `\Theta_k` is time-independent. The
 drift term `V_J\cdot\nabla q_k` remains first-order after composition with
 `\Theta_k^{-1}`. The Laplacian term is the only second-order part, and its
-pushforward under a fixed `C^2` diffeomorphism is the standard divergence-form
-operator with coefficient matrix determined by the chart metric. Therefore the
-principal coefficient depends only on `\Theta_k`, not on `V_J`. Any
-`D^2\Theta_k` contributions are lower-order coefficient terms, not new forcing
-and not time-dependent principal diffusion. ∎
+pushforward is exactly
+
+```math
+(\Delta_x q_k)\circ\Psi_k
+=
+J_k^{-1}\partial_{\zeta_\alpha}
+\big(J_k g_k^{\alpha\beta}\partial_{\zeta_\beta}\widetilde q_k\big).
+```
+
+Therefore the principal coefficient `J_kg_k^{\alpha\beta}` depends only on
+`\Theta_k`, not on `V_J`. Any derivatives of `J_k` or `g_k^{\alpha\beta}` are
+chart lower-order coefficient terms, not new forcing and not time-dependent
+principal diffusion. ∎
 
 ## Corollary `EFS.B` (the active convex `V2` wall should be read as static diffusion)
 

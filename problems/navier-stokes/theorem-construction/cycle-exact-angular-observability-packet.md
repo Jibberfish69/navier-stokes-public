@@ -286,7 +286,7 @@ C_{\mathrm{align}}
 ```
 
 Apply `(CAO.1)` and `(TEA.2)` to obtain `(CAO.2)`. The absorbed form `(CAO.3)`
-is immediate. ∎
+comes from moving the final term of `(CAO.2)` to the left. ∎
 
 ## Splice to the installed cycle-exact branch
 

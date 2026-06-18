@@ -161,7 +161,7 @@ Its sharpest repaired form is now the two-packet split in
 [exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-static-diffusion-heat-plus-perturbation-split.md):
 fixed-metric heat observability plus lower-order perturb-transfer. With the
 Lipschitz-metric import taken in the stronger uniform Carleman form, that
-lower-order packet is absorbed directly by
+lower-order packet is controlled under the `s>=s_*` threshold in
 [exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-v2-bounded-lower-order-absorption-from-fixed-metric-carleman.md).
 So the repaired direct convex branch now reduces to the fixed-metric
 Lipschitz-Carleman import itself, not to a separate perturb-transfer wall.

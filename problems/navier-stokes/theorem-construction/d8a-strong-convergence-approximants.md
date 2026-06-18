@@ -101,6 +101,7 @@ X_n \to X \quad \text{strongly in } L^2(0,T;H).
 With that strong convergence in hand, Theorem R5 supplies the nonlinear limit
 passage on the same realized carrier.
 
-The uniform \(L^\infty_tH\) and \(L^2_tV\) bounds pass to the limit in the
-standard weak and weak-* senses, so \(X\in L^2(0,T;\mathfrak R)\).
+The uniform \(L^\infty(0,T;H)\) and \(L^2(0,T;V)\) bounds give weak-star
+compactness in \(L^\infty(0,T;H)\) and weak compactness in \(L^2(0,T;V)\);
+lower semicontinuity then gives \(X\in L^2(0,T;\mathfrak R)\).
 \(\square\)

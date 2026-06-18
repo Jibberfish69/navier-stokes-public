@@ -40,8 +40,10 @@ If this bound holds, then by Bernstein
 \int_0^T \|\omega(t)\|_{B^0_{\infty,1}}\,dt < \infty,
 ```
 
-and therefore the standard continuation criterion closes on the same classical
-surface.
+and the continuation step invoked here is exactly the displayed
+vorticity-integrability criterion: finiteness of this integral is the
+hypothesis used to relaunch the same classical solution past a finite endpoint
+on the same classical surface.
 
 ## Dyadic Evolution Form
 
@@ -104,8 +106,15 @@ Then the theorem reduces to the summability of
 ### Program 2. Same-surface commutator gain
 
 Use Bony decomposition on `F` and prove that the strict low-mode pieces are
-already absorbed by the admissible coefficient `\mathcal L_N(t)E_N(t)`, while
-the remaining high-high packet obeys the cascade estimate above.
+controlled by an inequality of the form
+
+```math
+Low_N(t)\le C\mathcal L_N(t)E_N(t)+\varepsilon\nu D_N(t)+R_N(t),
+\qquad 0<\varepsilon<1,
+```
+
+with `R_N` summable in time, while the remaining high-high packet obeys the
+cascade estimate above.
 
 ### Program 3. Time-decay compensation
 

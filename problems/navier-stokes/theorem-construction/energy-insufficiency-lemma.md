@@ -24,13 +24,13 @@ Under the classical setting above:
 1. (Necessity) Any theorem route claiming global regularity on this surface must include the baseline energy/enstrophy control as a non-optional bound.
 2. (Insufficiency in the present route) The baseline bound alone does not imply either of the following theorem-critical estimates:
    - a dyadic dangerous-scale tail/flux estimate that suppresses high-frequency transfer on the classical equation, or
-   - a Euclidean high-frequency enstrophy coercivity inequality with absorbable commutator remainder.
+   - a Euclidean high-frequency enstrophy coercivity inequality with a coefficient-margin commutator remainder.
 3. Therefore, within this route, energy/enstrophy control is necessary infrastructure but not a sufficient closure mechanism.
 
 ## Proof Skeleton
-1. Necessity is immediate from the classical energy identity: any global regular solution on the theorem surface satisfies the baseline bound.
+1. Necessity is the classical energy identity: any global regular solution on the theorem surface satisfies the baseline bound.
 2. Write the dyadic enstrophy balance for `P_j u` and isolate low-high, high-low, and high-high transport pieces.
-3. The baseline bound controls global energy and integrated dissipation, but it does not itself force the high-frequency transport remainder into the absorbable-plus-summable form needed for:
+3. The baseline bound controls global energy and integrated dissipation, but it does not itself force the high-frequency transport remainder into the coefficient-margin-plus-summable form needed for:
    - the scale-barrier tail estimate, and
    - the gradient coercivity inequality.
 4. Because those two bridges are independent closure requirements in the same proof chain, the baseline bound cannot complete the theorem alone.

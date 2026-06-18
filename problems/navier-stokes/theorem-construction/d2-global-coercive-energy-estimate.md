@@ -396,7 +396,7 @@ symbol, so only the skew carrier contraction survives. Hence
 C\,|X|_H\,|\nabla_DX|_H.
 ```
 
-Young absorption now yields, for every `\varepsilon>0`,
+The Young-margin inequality now yields, for every `\varepsilon>0`,
 
 ```text
 |\langle N_D(X),X\rangle|
@@ -573,7 +573,7 @@ C_{\varepsilon,s}\Psi(\mathcal E_D(X)).
 
 ## Proof
 
-The first claim is immediate from the definition of `\mathbb H_D`. For the
+The first claim is the definition of `\mathbb H_D`. For the
 second, expand `N_{\mathrm{rem}}` in the carrier/off-carrier decomposition.
 The leakage identity expresses every off-carrier component through a reduced
 resolvent applied to a commutator defect. The commutator defect is lower-order

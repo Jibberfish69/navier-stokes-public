@@ -11,8 +11,9 @@ band. A standalone half-derivative shell gain of the form
 C_*2^{-2\delta k}
 ```
 
-is directionally suggestive, but it is **not** by itself sufficient to close
-the route.
+is an insufficient shellwise target.  It does **not** close the route by itself.
+The route needs the coupled estimate against the upper-tail carrier displayed
+below.
 
 The reason is that after swapping the kernelized lifted-band sums, the lower
 shell `k` is paired with an **upper-tail dissipation convolution**, not with

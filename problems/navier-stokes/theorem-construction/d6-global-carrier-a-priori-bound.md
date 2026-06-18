@@ -510,7 +510,7 @@ What this gives the route is the exact low-tier control constant
 C_H(T):=e^{(|S_\omega|-\nu\lambda_*)T}\|X_0\|_H.
 ```
 
-Any stronger sign condition on the carrier immediately upgrades this to a
+Any stronger sign condition on the carrier upgrades this directly to a
 time-uniform bound.
 
 ### D.6a'' (block coercivity on active channels)

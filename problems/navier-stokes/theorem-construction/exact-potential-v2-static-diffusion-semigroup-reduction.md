@@ -113,8 +113,8 @@ observability wall is now identified with the existing parabolic node
 ## Interpretation
 
 This is the cleanest conservative direct route now on disk. The repaired direct
-`V2` branch no longer has three abstract prerequisites. Two of them are routine
-on the theorem-facing packet. The only live theorem burden is:
+`V2` branch no longer has three abstract prerequisites. Two of them are carried
+by the theorem-facing packet. The only live theorem burden is:
 
 ```math
 \texttt{prove interval observability for }

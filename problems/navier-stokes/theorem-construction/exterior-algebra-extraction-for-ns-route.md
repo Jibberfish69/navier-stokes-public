@@ -74,7 +74,7 @@ Only the first five look like live theorem-route tools.
 
 ## 1. Alternating / exact channel package
 
-This is the most immediately useful branch.
+This is the most useful branch right now.
 
 The page's core fact is:
 
@@ -144,7 +144,7 @@ The page's Riemannian-manifold section adds:
 - adjointness between wedge and interior product,
 - Gram determinant inner product on exterior powers.
 
-This package is immediately relevant because the lane already has a metric
+This package is relevant now because the lane already has a metric
 upgrade candidate:
 
 ```math

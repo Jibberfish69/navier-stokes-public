@@ -132,8 +132,8 @@ C_{\mathrm{FCTS}}\left(\nu\int_0^T D_N(t)\,dt + C_*2^{-2\delta N}\right),
 \tag{FCTS}
 ```
 
-because a Hardy or Gronwall step would still have to control the mixed product
-on the right-hand side of `(4b)` against the dissipation weight
+because the missing input is a Hardy or Gronwall step controlling the mixed
+product on the right-hand side of `(4b)` against the dissipation weight
 `r^{-2}\|Q_r u(t)\|_{L_x^2}^2\,dr/r`. No such propagation inequality is
 currently available on the Euclidean surface.
 
@@ -448,7 +448,7 @@ fourth-bridge carrier.
 
 Let `\mathcal B_I(N),\mathcal B_J(N)` be the finite dyadic packets extracted
 from the fixed logarithmic middle-band windows. Because those windows have
-bounded width and lie below the threshold scale `\ell_N`, there is a harmless
+bounded width and lie below the threshold scale `\ell_N`, there is a fixed
 collar constant `C_{I,J}` such that
 
 ```math
@@ -460,7 +460,7 @@ N\le j\le N+C_{I,J},
 \tag{15h}
 ```
 
-After enlarging once and for all the harmless threshold collar width `M` in
+After enlarging once and for all the fixed threshold collar width `M` in
 `\Theta_N^\sharp` so that it dominates `C_{I,J}`, one has
 
 ```math
