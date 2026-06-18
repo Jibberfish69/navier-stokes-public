@@ -313,9 +313,24 @@ M_\sharp r_b.
 \tag{RWS.C2c}
 ```
 
-Thus `(RWS.C2)` holds with `\kappa_\sharp=M_\sharp`. Since the subcover is
-finite, finite overlap and a finite chain constant are obtained after a standard
-finite refinement. Therefore
+Thus `(RWS.C2)` holds with `\kappa_\sharp=M_\sharp`. The refinement step is the
+finite compactness statement actually being used: if the retained label tube is
+covered by the admissible balls `B_{\Gamma_\sharp(t)r_b}(b)` and each selected
+radius is positive, compactness gives a finite subcover
+`\{B_{\Gamma_\sharp(t)r_{b_i}}(b_i)\}_{i=1}^{K}`. The overlap number and chain
+constant are then finite numbers determined by that finite family, for example
+by
+
+```math
+N_{\mathrm{ov}}
+:=
+\max_i
+\#\{k:B_{\Gamma_\sharp(t)r_{b_i}}(b_i)
+\cap
+B_{\Gamma_\sharp(t)r_{b_k}}(b_k)\ne\varnothing\},
+```
+
+and by the maximal length of the finite adjacency graph. Therefore
 
 ```math
 RWS.C_{\mathrm{cover}}:
