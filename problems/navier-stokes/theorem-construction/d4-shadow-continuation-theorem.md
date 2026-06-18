@@ -357,8 +357,8 @@ package from D.3:
 2. the monotone functional is the continuation norm `Q_{\mathrm{cl}}(t)`,
 3. non-Sobolev compactness is the no-escape statement for the divergence-free
    sector,
-4. curvature-based regularity is the lower-order status of the derivative
-   commutators relative to dissipation.
+4. curvature-based regularity is the derivative-commutator absorption bound
+   `|Comm(t)| <= epsilon D_cl(t)+C_epsilon Q_cl(t)` relative to dissipation.
 
 Under those inputs, the only route to blowup would be concentration in the
 classical shadow that is not seen by the NC energy. D.4 rules that out.
@@ -606,5 +606,10 @@ Then
 
 On the realized classical carrier, Theorem R4 gives `\rho=\mathrm{Id}` and
 `\delta_\omega=0`. Therefore `u` solves the exact classical Navier--Stokes
-equation with the pressure recovered from the standard Poisson equation, and
-the carrier bounds transport without any residual forcing term.
+equation with pressure recovered, up to an additive function of time, by
+
+```text
+-\Delta p=\partial_i\partial_j(u_i u_j),
+```
+
+and the carrier bounds transport without any residual forcing term.
