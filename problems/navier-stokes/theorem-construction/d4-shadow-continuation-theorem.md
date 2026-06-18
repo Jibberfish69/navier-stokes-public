@@ -550,13 +550,16 @@ Hence `|X(t)|_{H_D^1}` stays finite on finite intervals.
 
 ### Step 3 - continuation
 
-The D.1 continuation criterion applies on the maximal interval of existence:
+The D.1 continuation input is the bounded `H_D^1` norm on the maximal interval:
 
 ```text
 \sup_{t<T}|\nabla_DX(t)|_H<\infty
 \quad\Longrightarrow\quad
 X \text{ extends beyond } T.
 ```
+
+Thus Step 2 supplies the exact hypothesis of D.1, and D.1 gives extension
+beyond a finite maximal `T`.
 
 Since Step 2 gives the bound on any finite interval, the maximal time is
 infinite.
