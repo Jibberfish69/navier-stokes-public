@@ -3414,6 +3414,53 @@ Edited live surfaces:
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-jump-avg-to-scfbase-charge-lower-accumulation-obstruction-jump-avg-branch-elimination-5bb3fb9613.md`.
 
+## Lifted Skew Commutator Signed-Partner Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` and
+  `theorem-construction/mcp-lifted-skew-commutator-attempt-20260505.md`
+  said a "formal decomposition" into positive and negative eigendirection
+  packets can be written, but the negative branch may leave the selected
+  terminal record.
+
+Exact replacement:
+
+The live surfaces now state the exact spectral split
+
+```math
+S_k=\sum_m\lambda_m e_m\otimes e_m,
+\qquad
+\sum_m\lambda_m=0,
+```
+
+and the resulting packet contribution
+
+```math
+\sum_m(\lambda_m)_+|\langle u_j,e_m\rangle|^2
+-
+\sum_m(\lambda_m)_-|\langle u_j,e_m\rangle|^2.
+```
+
+Proof or remaining burden:
+
+The algebraic split is exact.  The obstruction is terminal selection: the
+negative branch need not lie in the selected terminal same-fluid record.
+Bringing it back requires `TerminalSignedSaturation.A`; charging by magnitude
+requires `ScaleCriticalTreeCarleson.A`.
+
+Downstream consequence:
+
+Lifted skew-commutator consumers may not treat trace-free strain or a formal
+positive/negative split as a signed partner theorem.  They must prove selected
+terminal signed saturation or pay the magnitude by the scale-critical tree
+Carleson route.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-lifted-skew-commutator-attempt-20260505.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
