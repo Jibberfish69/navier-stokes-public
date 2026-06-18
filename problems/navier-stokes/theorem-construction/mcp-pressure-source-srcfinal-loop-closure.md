@@ -9,7 +9,7 @@ Verify the pressure/source supplier row consumed by the averaged main proof:
 ```math
 SRC.Final:
 \quad
-FFSRC.A\ \text{or}\ FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\ \text{or}\ FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
 ```
 
 ## Source split
@@ -29,7 +29,7 @@ The frozen-family source ledger splits as
 The route-selected source path is the strengthened branch
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 ## Strengthened supplier chain
@@ -37,7 +37,7 @@ FFSRC.A\Longrightarrow FCI.5f.
 The strengthened package is
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow \operatorname{Hyp}(FFSRC.A).
 ```
 
 `FFPB.A0` supplies the pressure source channel in `L^1(I)` using the packet-local widened pressure bridge:
@@ -56,7 +56,10 @@ FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A.
 \mathcal N^{src,sc}\in L^1(I).
 ```
 
-`FCC.C1` supplies the cutoff channel by the exact cutoff commutator formula, Young-margin split, and finite-net summation:
+`FCC.C1` plus `FCC.C1a` supplies the cutoff channel by the exact cutoff
+commutator formula, Young-margin split, finite-net summation, and the interval
+bound
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`:
 
 ```math
 \mathcal N^{src,cut}\in L^1(I).
@@ -79,7 +82,11 @@ FCI.5f.
 The source row needed by the main proof is closed on the route-selected strengthened branch:
 
 ```math
-\boxed{FFSRC.A\Longrightarrow FCI.5f.}
+\boxed{\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.}
 ```
 
-The stricter exact same-depth reconstruction through `FPCR.C+FSCR.C+FCC.C1` remains available as a sharper optional route with its own smaller walls. The terminal main proof consumes `SRC.Final` through the strengthened branch recorded here.
+The stricter exact same-depth reconstruction through
+`FPCR.C+FSCR.C+FCC.C1+FCC.C1a` remains available as a sharper optional route
+with its own smaller walls. The terminal main proof consumes `SRC.Final`
+through the strengthened branch recorded here; neither branch proves `FCC.C1a`
+inside this note.
