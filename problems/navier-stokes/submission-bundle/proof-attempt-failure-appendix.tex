@@ -2577,25 +2577,35 @@ then the first derivative stays finite:
   <\infty .
 \]
 
-The natural proof picture is this.
-There should be a critical scale \(k_{\mathrm{crit}}\) where nonlinear transfer
-and viscous loss balance:
+The exact proof burden is not the existence of a visually plausible critical
+scale.  For \(K>0\), define the high-frequency enstrophy tail and the
+viscous-minus-positive-transfer dominance functional
 \[
-  T(k_{\mathrm{crit}},t)
-  =
-  2\nu k_{\mathrm{crit}}^2E(k_{\mathrm{crit}},t).
+  Y_{>K}(t):=\int_K^\infty k^2E(k,t)\,dk,
+  \qquad
+  \mathcal D_K(t):=
+  2\nu\int_K^\infty k^4E(k,t)\,dk
+  -
+  \int_K^\infty k^2T_+(k,t)\,dk,
 \]
-Above that scale, viscosity should dominate and drive the tail down.
-In the exact model \(T(k,t)=C_Tk^{-\alpha}\) and
-\(E(k,t)=C_Ek^{-\beta}\), the balance equation gives
+where \(T_+=\max(T,0)\).  The spectral balance gives the exact implication
+\[
+  \frac{d}{dt}Y_{>K}(t)
+  \le
+  -\mathcal D_K(t).
+\]
+A drain theorem therefore has to prove \(\mathcal D_K(t)\ge0\), or an
+integrable bound on its negative part, on the same high-frequency tail being
+used in the compactness or continuation argument.  The power-law calculation
+\(T(k,t)=C_Tk^{-\alpha}\), \(E(k,t)=C_Ek^{-\beta}\) only explains why the route
+was attractive: under those extra profile assumptions, the balance equation
+would give
 \[
   k_{\mathrm{crit}}
   =
   \left(\frac{C_T}{2\nu C_E}\right)^{1/(2+\beta-\alpha)}.
 \]
-This is why the route was attractive.
-It gives a concrete way to think about viscosity winning at sufficiently high
-frequency.
+That model critical scale is not a proof for an arbitrary terminal spectrum.
 
 The failure is the transfer estimate.
 The energy identity controls
@@ -2603,12 +2613,14 @@ The energy identity controls
   \int_0^T\|\nabla u(t)\|_{L^2}^2\,dt,
 \]
 and the total kinetic energy.
-The pointwise high-frequency transfer law remains open:
+The high-frequency dominance theorem remains open:
 \[
-  T(k,t)\le Ck^{-\alpha}
+  \mathcal D_K(t)\ge0
+  \quad\text{or}\quad
+  \int_0^{T_*}(\mathcal D_K(t))_-\,dt<\infty
 \]
-with the exponent needed to make the derivative tail summable.
-That transfer law is already a cascade-control theorem.
+with constants and cutoff \(K\) tied to the same selected tail.
+That dominance law is already a cascade-control theorem.
 Once the proof asks for it, the proof has moved the hard part into the tail.
 
 What survived is the right object: high-frequency nonlinear transfer.
@@ -2644,7 +2656,7 @@ After differentiating the equation and integrating by parts,
   =
   \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx .
 \]
-The usual estimate gives
+Holder's inequality gives
 \[
   \left|
     \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx
@@ -2689,7 +2701,8 @@ It also permits the ODE blow-up profile
 The calculation so shows exactly what the \(Q(t)\) route would have to
 improve.
 It needs the nonlinear source to be paid by something stronger than the
-standard energy/enstrophy bookkeeping.
+kinetic-energy identity and the enstrophy differential inequality displayed
+above.
 
 The source-forensic correction says the same thing in the old notation.
 The clean dissipative \(Q(t)\) formula
