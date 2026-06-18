@@ -816,7 +816,44 @@ branch may spend the paired displayed estimates for `\mathcal S_N` and
 
 Edited live surface:
 
-- `submission-bundle/source-field-reader-appendix.tex`.
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-weighted-annular-l4-source-estimate-for-pflux-supplier.md`;
+- `theorem-construction/mcp-weighted-pressure-tail-supplier-for-pflux-w-c53e2eb144.md`;
+- `theorem-construction/mcp-weighted-product-source-summability-for-pflux-closure-88e8c95d7b.md`;
+- `theorem-construction/mcp-final-r3-export-theorem-compression-from-weighted-cascade-package-2d459cbee2.md`.
+
+Downstream note rework:
+
+- Removed the live appendix residue saying a connector-blocked read prevented
+  verification of the near-pressure proof.  The appendix now states the actual
+  conditional proof: `AnnL4.W` plus weighted moment control gives near
+  summability by the displayed Cauchy--Schwarz inequality.
+- Replaced `local smoothness tails`, `enough local annular smoothing`, and
+  `local smoothing estimates` in the active pressure-flux notes with the exact
+  input triple:
+
+```math
+AnnL4.W:\quad
+\sum_k2^{2ak}\int_0^T\|u(t)\|_{L^4(A_k^*)}^4\,dt<\infty,
+```
+
+```math
+\sup_{t\le T}\sum_k2^{2ak}\|u(t)\|_{L^2(A_k)}^2<\infty,
+```
+
+and
+
+```math
+\sum_k2^{(2a-1)k}\int_0^T F_k(t)\|u(t)\|_{L^2(A_k)}\,dt<\infty.
+```
+
+The far input is tied to the weighted Schur consequence
+
+```math
+\sum_k2^{(2a-1)k}F_k(t)\|u(t)\|_{L^2(A_k)}
+\le
+C\,C_a^{far}M_a(t)^{3/2}.
+```
 
 ## Pressure-Flux Local-Smoothing Supplier Rework
 
