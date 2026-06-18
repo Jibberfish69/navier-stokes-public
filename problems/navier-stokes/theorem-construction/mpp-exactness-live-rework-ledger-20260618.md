@@ -6479,3 +6479,65 @@ Surfaces edited:
 - `submission-bundle/source-frontier.yaml`;
 - `theorem-packet.yaml`;
 - `submission-bundle/theorem-packet.yaml`.
+
+## Zeno Compactness Extraction Standard-Step Repair
+
+Old claim being spent:
+
+`mcp-zenosourceresiduerigidity-a-from-originalsmoothdata-originalsmoothdata-zenosourceresiduerigidity-a-a3912f4159.md`
+said that parabolic rescaling gives local bounds and that "standard local
+suitable compactness" produces the ancient source-residue limit.  That wording
+hid the exact compactness hypotheses and the topology in which the limit and
+source-residue measure are obtained.
+
+Exact replacement:
+
+The theorem note and appendix mirror now cite the concrete rescaling
+
+```text
+u^(m)(y,s)=r_m u(x_m+r_m y,t_m+r_m^2 s),
+p^(m)(y,s)=r_m^2 p(x_m+r_m y,t_m+r_m^2 s),
+```
+
+and the fixed-cylinder input
+
+```text
+sup_m [
+  ||u^(m)||_{L^\infty_s L^2_y(Q_R^-)}
+  + ||grad u^(m)||_{L^2(Q_R^-)}
+  + ||p^(m)||_{L^{3/2}(Q_R^-)}
+] < infinity
+```
+
+for each fixed `R`, together with the local energy inequality and normalized
+source-residue mass bound.  The exact compactness output is a subsequence with
+strong `L^2_loc` velocity convergence, weak `L^2_loc` gradient convergence,
+weak `L^{3/2}_{loc}` pressure convergence after subtracting additive time
+functions, and weak-* convergence of the locally finite source-residue measures.
+
+Proof or remaining burden:
+
+This repairs only the compactness half.  It preserves the already-installed
+conclusion
+
+```text
+mu_*^{src}(Q_1^-) >= c_0 > 0.
+```
+
+It still does not prove a Type I bound, finite global ancient energy, critical
+smallness, symmetry, source-cancellation class production, or
+`mu_*^{src}=0`.  The remaining proof-force burden is still rigid-class
+production or a class-specific source-residue Liouville theorem.
+
+Downstream consequence:
+
+Authority chains may spend `ZenoCompactnessExtraction.A` only for the exact
+ancient local suitable source-residue limit and positive residue lower bound.
+They may not use the compactness extraction itself as a hidden Liouville,
+rigidity, anti-atom, or temporal-spread theorem.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-zenosourceresiduerigidity-a-from-originalsmoothdata-originalsmoothdata-zenosourceresiduerigidity-a-a3912f4159.md`;
+- `theorem-construction/mpp-zeno-source-residue-compactness-extraction-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
