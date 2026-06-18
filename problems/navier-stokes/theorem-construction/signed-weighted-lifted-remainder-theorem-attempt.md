@@ -29,12 +29,25 @@ The live lifted remainder is
 
 ## Principal commutator form
 
-For `k<j` and `ell` in the output collar, the commutator has the standard paracommutator expansion
+For `k<j` and `ell` in the output collar, the estimate used here is the
+Coifman--Meyer commutator expansion with a fixed-collar remainder:
 
 ```math
 [\Delta_j,a_k\cdot\nabla]\Delta_\ell u
 =
-2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)+\text{lower order collar terms}.
+2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)
++\mathcal E_{j,k,\ell},
+```
+
+where the bilinear operators `\mathcal C_j` have symbols uniformly bounded in
+the Coifman--Meyer class and the remainder satisfies the same fixed-collar size
+bound
+
+```math
+\|\mathcal E_{j,k,\ell}\|_2
+\le
+C_{\rm col}2^{-j}\|\nabla a_k\|_{L^\infty}
+\|\nabla\Delta_\ell u\|_2.
 ```
 
 On the output collar assume the exact support condition `|\ell-j|\le C_{\rm col}`.
@@ -54,7 +67,7 @@ collar-local expression
 2^{2j}\langle \mathcal C_j(\nabla a_k,\Delta_j u),\Delta_j u\rangle.
 ```
 
-The coefficient is the low/intermediate strain `\nabla a_k` acting on the active shell energy density.
+The coefficient is the low/intermediate strain `\nabla a_k` acting on the active shell energy density.  The sign analysis below applies to the displayed principal form; the fixed-collar remainder is controlled only in absolute value by the estimate above and supplies no signed cancellation.
 
 ## Sign obstruction
 
