@@ -7,31 +7,40 @@ rename the remaining obstruction.  It starts from finite terminal
 non-continuation, spends the first four table rows, and records the exact
 quantity that still has to be proved impossible.
 
-## Step 1: terminal non-continuation forces high-tail blow-up
+## Step 1: terminal non-continuation forces selected \(H^s\) high-tail blow-up
 
 Assume a first finite classical endpoint `T_*`.
 
-By the `H^1` continuation criterion,
+Fix the classical continuation norm actually used on the surface, \(H^s\) with
+`s>5/2`. If
 
 ```math
-\limsup_{t\uparrow T_*}\|u(t)\|_{H^1}=+\infty.
+\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
+```
+
+then local `H^s` theory supplies `\tau(\nu,s,M_s)>0`, relaunch from times
+approaching `T_*`, and uniqueness on the overlap. Hence finite terminal
+non-continuation forces
+
+```math
+\limsup_{t\uparrow T_*}\|u(t)\|_{H^s}=+\infty.
 \tag{1}
 ```
 
 Let
 
 ```math
-e_j(t):=2^{2j}\|\Delta_j u(t)\|_2^2,
+e_j^{(s)}(t):=2^{2sj}\|\Delta_j u(t)\|_2^2,
 \qquad
-E_N(t):=\sum_{j\ge N}e_j(t).
+E_{N,s}(t):=\sum_{j\ge N}e_j^{(s)}(t).
 ```
 
 For every fixed `N`,
 
 ```math
-\sum_{j<N}e_j(t)
+\sum_{j<N}e_j^{(s)}(t)
 \le
-C_N\|u(t)\|_2^2.
+C_{N,s}\|u(t)\|_2^2.
 \tag{2}
 ```
 
@@ -40,13 +49,13 @@ Energy bounds the right-hand side.  Therefore `(1)` implies:
 ```math
 \boxed{
 \forall N\text{ fixed},\qquad
-\limsup_{t\uparrow T_*}E_N(t)=+\infty.
+\limsup_{t\uparrow T_*}E_{N,s}(t)=+\infty.
 }
 \tag{3}
 ```
 
 This is the first real purchase of rows 1 and 4: terminal failure cannot be
-confined to any fixed low-frequency block.
+confined to any fixed low-frequency block in the selected continuation norm.
 
 But `(3)` is not a contradiction.  Energy gives only
 
