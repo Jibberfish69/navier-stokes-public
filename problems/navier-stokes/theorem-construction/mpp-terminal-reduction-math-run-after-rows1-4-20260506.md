@@ -107,22 +107,24 @@ Thus the real Row 5 mathematical burden is not a slogan.  It is exactly:
 
 ```math
 \boxed{
-\text{prove all non-low-frequency source terms fit into }R_N
-\text{ with } \int R_N=o_N(1).
+\text{prove all non-low-frequency source terms fit into }R_{N,s}
+\text{ with } \int R_{N,s}=o_N(1).
 }
 \tag{8}
 ```
 
-The fixed low-mode term is not the issue, because rows 1--4 give
+The fixed low-mode term is not the issue only after it is written at the same
+selected derivative level:
 
 ```math
-LowMode_N(t)\le C\Lambda_N(t)E_N(t),
+LowMode_{N,s}(t)\le C\Lambda_{N,s}(t)E_{N,s}(t),
 \qquad
-\Lambda_N\in L^1(0,T_*)\text{ for fixed }N.
+\Lambda_{N,s}\in L^1(0,T_*)\text{ for fixed }N.
 \tag{9}
 ```
 
-So the remaining term is the high/source part of the commutator/source packet.
+So the remaining term is the high/source part of the commutator/source packet
+at the selected \(H^s\) derivative level.
 
 ## Step 3: absolute high/source control produces the square reserve
 
