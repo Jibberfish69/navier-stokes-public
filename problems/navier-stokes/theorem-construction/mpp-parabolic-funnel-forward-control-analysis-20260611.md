@@ -176,7 +176,7 @@ means a lower bound such as
 inf_{S >= S0} integral_S^{S+1} integral_{B_lambda} |v|^3 dy ds > 0,
 ```
 
-not the informal assertion that `u` has size `1/sqrt(T-t)`.
+not the unproved assertion that `u` has size `1/sqrt(T-t)`.
 
 ## 4. Physical Budget Is Discounted In Cone Time
 
@@ -427,3 +427,4 @@ silver CM-exit test:
 Thus this note closes the foundational funnel geometry and the raw-budget
 obstruction. It does not claim the final forward-positive supplier has been
 proved, and it does not spend a merely informal estimate as CM exit.
+proved, and it does not spend an unproved estimate as CM exit.
