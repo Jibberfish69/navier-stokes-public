@@ -21,10 +21,11 @@ for infinitely many `k`, where the same charge `C_final` also has a finite bound
 
 ### Candidate 2: enlarged charge including E_u
 
-The enlarged charge closes the component-selection gap only by definition of
-what it counts. It fails the upper-bound side because the current surfaces do
-not install an additive finite carrier for repeated scale-critical `E_u`
-terminal packets.
+The enlarged charge proves only the set-theoretic lower inclusion of the
+`E_u` component: an `E_u`-carried threshold packet is counted by the enlarged
+packet functional. It fails the upper-bound side because the current surfaces
+do not install an additive finite carrier for repeated scale-critical `E_u`
+terminal packets on the same separated schedule.
 
 ## Obstruction
 
