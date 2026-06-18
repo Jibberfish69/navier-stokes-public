@@ -6331,6 +6331,31 @@ Surfaces edited:
 - `theorem-construction/mpp-material-packet-closure-program.md`;
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Informal-Warning Residue Cleanup
+
+Old claim being spent:
+
+Remaining live warning passages used `plausibility` or `informal` language even
+while denying proof force.
+
+Exact replacement:
+
+The source-field appendix now says proof force cannot come from suggestion,
+route history, or source proximity; the source-parent and CG-gap passages refer
+to old unproved claims or slogans.  The parabolic-funnel note now says the
+rescaled slab statement replaces an unproved size assertion and does not spend
+an unproved estimate as CM exit.
+
+Downstream consequence:
+
+The warning passages retain their exactness role without preserving the old
+informal/probabilistic vocabulary as live proof language.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+
 ## "Enough To Prove" Reduction Rework
 
 Old claim being spent:
