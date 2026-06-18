@@ -6453,6 +6453,42 @@ Surfaces edited:
 - `theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md`;
 - `theorem-construction/mpp-source-no-pulse-terminal-target-stack-note.md`.
 
+## Residual Comparison Phrase Cleanup
+
+Old claim being spent:
+
+The narrow authority-referenced scan still found loose comparison phrases:
+`analogous`, `same kind`, `as above`, and `same proof direction`.
+
+Exact replacement:
+
+The live notes now replace those phrases with the concrete relation:
+
+- `D.3` is the corresponding object-production step on the NC route;
+- `CSP.B2` is the higher-rung version of the packet-defect identity;
+- the Zeno terminal atom has the Carleson-tree `Field` landing;
+- `MBR.C4` uses the compact collar satisfying `MBR.C3`;
+- the survivor atlas requires identical proof direction as a preservation
+  condition;
+- the two-profile note spends the zero-overlap statement obtained after scale
+  separation;
+- `PD70Z` fixes the already-defined normal covector `n_J(a)`.
+
+Downstream consequence:
+
+The live authority-referenced scan no longer leaves this shortcut vocabulary as
+an available proof transfer mechanism.
+
+Surfaces edited:
+
+- `theorem-construction/modernized-four-body-schema-torus-tower-geometry.md`;
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`;
+- `theorem-construction/mpp-major-non-euler-cm-contrapositive-closures-20260514.md`;
+- `theorem-construction/mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md`;
+- `theorem-construction/mpp-survivor-equivalence-atlas-note.md`;
+- `theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md`;
+- `theorem-construction/pd70z-cycle-exact-normal-covector-route.md`.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
