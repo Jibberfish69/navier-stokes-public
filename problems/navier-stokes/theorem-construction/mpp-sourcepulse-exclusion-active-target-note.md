@@ -273,7 +273,7 @@ The direct original-data route splits into
 `ActiveShellAmplitudeGain.A`, but
 `mpp-signedlocalsource-originalsmoothdata-direct-attempt-note.md` shows that
 original smoothness, finite energy, pressure Poisson structure, preterminal
-regularity, and the downstream `FFSRC.A=>FCI.5f` ledger do not install any of
+regularity, and the downstream `Hyp(FFSRC.A)=>FCI.5f` ledger do not install any of
 those inputs.
 
 The remaining three split branches have now been audited directly.  The notes
