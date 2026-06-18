@@ -36,7 +36,10 @@ sum_k C_final(Q_k) <= C
 
 for bounded-overlap terminal windows.
 
-Current candidates split these requirements. `nu_SCF` has upper summability and misses the `E_u` component. The enlarged charge including `E_u` has formal component coverage and lacks upper summability.
+Current candidates split these requirements. `nu_SCF` has upper summability and
+misses the `E_u` component. The enlarged charge including `E_u` counts that
+component by definition, but lacks the bounded-overlap upper summability
+required of a final contradiction charge.
 
 ## Verdict
 
