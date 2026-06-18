@@ -84,7 +84,7 @@ edge-family theorem `(SS-model)`
 
 `same-scale-multiplier-stability-program.md` records that this coefficient-free
 theorem is not installed; the available same-scale estimate is
-coefficient-bearing.
+the coefficient-bearing edge estimate `(SS^\sharp\text{-}model)`.
 
 Therefore the same-scale lift cannot be imported as a proof of `MSC.BadAC`.
 
