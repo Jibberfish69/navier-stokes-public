@@ -2536,6 +2536,55 @@ Edited live surface:
 
 - `theorem-construction/mpp-signed-samefluid-edgepairing-direct-attempt-20260505.md`.
 
+## Finite-Window Material-Cone Carrier-Mismatch Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-finite-window-material-cone-and-carrier-mismatch-at-shifted-anchor-c9cce37666.md`
+  stated the short-window carrier mismatch only schematically as
+  `short_window_error^2/g_seg^2`, then spent it in a shifted-anchor alignment
+  estimate.
+
+Exact replacement:
+
+The note now introduces the actual short-window error `E_win(t_*)` and segment
+gap `g_seg(t_*)`, and states the exact hypothesis
+
+```math
+\sqrt{\delta_{car}(t_*)}
+\le
+\frac{E_{win}(t_*)}{g_{seg}(t_*)}.
+```
+
+The shifted-anchor estimate is now
+
+```math
+\|P_{al}(t_*)-P_{top}^{seg}(t_*)\|_F^2
+\le
+2\exp(-2G_{mat}){1-c_0^2\over c_0^2}
++2{E_{win}(t_*)^2\over g_{seg}(t_*)^2}.
+```
+
+The remaining weighted source theorem is also displayed:
+
+```math
+\left\|
+{\|C_{al}(t_*)\|_{op}E_{win}(t_*)
+\over
+\theta_J g_{al}(t_*)g_{seg}(t_*)}
+\right\|_{L^q(d\nu_J)}
+\to0.
+```
+
+Downstream consequence: the finite-window material-cone route no longer spends
+"local generator and variation divided by square gap" as a profile-free scale
+guess. The proof now depends on the exact normalized short-window error rate
+and the corresponding weighted material-cone decay term.
+
+Edited live surface:
+
+- `theorem-construction/mcp-finite-window-material-cone-and-carrier-mismatch-at-shifted-anchor-c9cce37666.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
