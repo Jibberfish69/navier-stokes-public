@@ -36,12 +36,13 @@ classical interval below a putative terminal time `T_*`, on the active periodic
 or Euclidean theorem surface used by the lane.  Then the six requested positive
 chunks have the following exact contrapositive forms.
 
-1. Bounded `H^1` continuation:
+1. Bounded `H^s`, `s>5/2`, continuation:
 
 ```math
 \text{terminal non-continuation at }T_*
 \Longrightarrow
-\limsup_{t\uparrow T_*}\|u(t)\|_{H^1}=+\infty.
+\limsup_{t\uparrow T_*}\|u(t)\|_{H^s}=+\infty
+\quad\text{for the selected }s>5/2\text{ continuation norm.}
 ```
 
 2. Mixed-jet tower continuation:
@@ -140,20 +141,21 @@ after installed legal-loss and packet-Bessel ledgers are held fixed.
 The theorem needed to make source-wall failure impossible is still exactly
 `ScaleCriticalTreeCarleson.A`, or the alternate Zeno rigid-class pair.
 
-## Row 1: `bounded H^1 => continuation`
+## Row 1: `bounded H^s, s>5/2 => continuation`
 
 The installed continuation surface is
-`classical-h1-continuation-lemma.md`.  Assume
+`classical-h1-continuation-lemma.md`, now corrected to the `H^s`, `s>5/2`,
+relaunch theorem.  Assume
 
 ```math
-M:=\sup_{0\le t<T}\|u(t)\|_{H^1}<\infty.
+M_s:=\sup_{0\le t<T}\|u(t)\|_{H^s}<\infty,\qquad s>5/2.
 ```
 
-Choose `t_n\uparrow T`.  Local well-posedness from `H^1` data gives a lifespan
-`\tau=\tau(M)>0` for every datum `u(t_n)`, independent of `n`.  For `n` large,
-`t_n+\tau>T`.  Uniqueness in the strong/classical class identifies the local
-solution launched at `t_n` with the old solution on `[t_n,T)`, and therefore
-extends it past `T`.
+Choose `t_n\uparrow T`.  Local well-posedness from `H^s` data gives a lifespan
+`\tau=\tau(\nu,s,M_s)>0` for every datum `u(t_n)`, independent of `n`.  For `n`
+large, `t_n+\tau>T`.  Uniqueness in the strong/classical class identifies the
+local solution launched at `t_n` with the old solution on `[t_n,T)`, and
+therefore extends it past `T`.
 
 This proves:
 
@@ -161,32 +163,37 @@ This proves:
 \boxed{
 \text{finite terminal non-continuation}
 \Longrightarrow
-H^1\text{ blow-up}.
+H^s,\ s>5/2,\text{ blow-up in the selected continuation norm}.
 }
 ```
 
 What it does not prove is the next sentence in the user's closure column:
 
 ```math
-H^1\text{ blow-up}\Longrightarrow\bot.
+H^s,\ s>5/2,\text{ blow-up}\Longrightarrow\bot.
 ```
 
-The correct route reading is narrower.  For any fixed threshold `N`,
+The correct route reading is narrower.  For any fixed threshold `N`, the selected
+Sobolev tail
 
 ```math
-\|u(t)\|_{H^1}^2
+E_{N,s}(t):=\sum_{j\ge N}2^{2sj}\|\Delta_j u(t)\|_2^2
+```
+
+must become unbounded along the terminal approach.  The low part obeys
+
+```math
+\sum_{j<N}2^{2sj}\|\Delta_j u(t)\|_2^2
 \le C_N
-\sum_{j<N}2^{2j}\|\Delta_j u(t)\|_2^2
-+
-E_N(t).
+C_{N,s}\|u(t)\|_2^2.
 ```
 
 The fixed low part is controlled by energy with an `N`-dependent constant.  So
-terminal `H^1` blow-up cannot be a purely fixed-low-mode obstruction; it must
-force high-frequency tail failure for every sufficiently useful threshold
-choice.  In the CM route this is a Field-face/source-wall manifestation only
-after Pack/Part alternatives and readout/legal-loss alternatives have been
-routed.
+terminal `H^s` blow-up cannot be a purely fixed-low-mode obstruction; it must
+force selected high-frequency tail failure for every sufficiently useful
+threshold choice.  In the CM route this is a Field-face/source-wall
+manifestation only after Pack/Part alternatives and readout/legal-loss
+alternatives have been routed.
 
 Thus Row 1 is closed as a continuation theorem and as a contrapositive
 high-frequency reduction.  It is not, by itself, a contradiction theorem.
@@ -529,7 +536,7 @@ ledgers.  Therefore the source wall remains genuinely open until one proves
 
 | Row | Positive chunk | Contrapositive completion | Status |
 | --- | --- | --- | --- |
-| 1 | `bounded H^1 => continuation` | terminal non-continuation forces `H^1` blow-up | unconditional continuation criterion; does not prove bounded `H^1` |
+| 1 | `bounded H^s, s>5/2 => continuation` | terminal non-continuation forces selected `H^s` blow-up | unconditional continuation criterion; does not prove bounded `H^s` |
 | 2 | `closed mixed-jet tower => continuation` | terminal non-continuation forces tower propagation/closure failure | unconditional sufficiency criterion; propagation still open |
 | 3 | `next-time envelope <= dissipation + quadratic tower term` | next-time blow-up forces dissipative-envelope or tower blow-up | unconditional algebraic reduction; right-hand channels still open |
 | 4 | `low-mode packets <= Lambda_N E_N` | bad fixed-low packet forces fixed coefficient size or high-tail size | unconditional fixed-threshold estimate; moving/high-frequency obstruction still open |
