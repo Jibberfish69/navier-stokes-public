@@ -123,7 +123,7 @@ The `BASACTemporalSpreading.A` fanout is therefore correct to mark
 `TerminalSourceFirstAppearanceTimeSpread.A` is not installed from current
 inputs.
 
-The direct test closes the hand-wave: first-birth, first-appearance,
+The direct test closes the shortcut: first-birth, first-appearance,
 reserve-creation, and charge-ledger wording may not be used as a terminal
 time-face anti-atom theorem unless one of the exact gold outcomes in Section 1
 has been proved.
