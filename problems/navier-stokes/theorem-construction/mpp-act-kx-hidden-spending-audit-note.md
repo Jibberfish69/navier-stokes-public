@@ -218,7 +218,7 @@ The source-side package must be cited as
 
 ```text
 post-LCI.A:
-FPCR.C + FSCR.C + FCC.C1 => FCI.5f.
+FPCR.C + FSCR.C + FCC.C1 + FCC.C1a => FCI.5f.
 ```
 
 The endpoint field package must be cited as
