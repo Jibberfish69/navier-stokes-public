@@ -2648,6 +2648,95 @@ Edited live surfaces:
 - `theorem-construction/mcp-packfunctionalstabilityreduction-a-packfunctionalstabilityunderprofiledecomposition-a-c3337570cc.md`.
 - `theorem-construction/mcp-positivepackdefectorthogonalityattempt-a-positivepackdefectorthogonality-a-486dcd5062.md`.
 
+## Same-Scale Coefficient/Edge-Family Rework
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` said the coefficient
+  term appearing in a "model theorem" was included in the weighted carrier, and
+  an earlier audit line imported `SS-model => UB+MS` as though a
+  coefficient-free same-scale theorem had already been supplied.
+- `theorem-construction/same-scale-edge-family-and-model-estimate-note.md`,
+  `theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md`,
+  `theorem-construction/same-scale-family-lift-lemma.md`, and
+  `theorem-construction/same-scale-multiplier-stability-program.md` retained
+  `model` labels at the exact point where the route must distinguish the
+  coefficient-bearing theorem from the coefficient-free edge-family hypothesis.
+
+Exact replacement:
+
+The live appendix and governing notes now separate the two statements.  The
+proved coefficient-bearing edge estimate is
+
+```text
+int_0^T |Pi_{N,a}^{edge}(t)| dt
+<=
+epsilon nu int_0^T D_N(t) dt
++ C_{epsilon,a,nu} int_0^T Theta_N^{ss,#}(t) E_N(t) dt,
+```
+
+where
+
+```text
+Theta_N^{ss,#}(t)
+:=
+2^{3N} sum_{|m-N|<=C_ss} ||Delta_m u(t)||_2^2.
+```
+
+The carrier inclusion is the exact domination
+
+```text
+Theta_N^{ss,#}(t)
+<= Theta_N^#(t)
+<= widetilde Lambda_N^#(t),
+```
+
+after enlarging the fixed collar to `M' = max{M,C_ss}` if needed, and therefore
+
+```text
+int_0^T Theta_N^{ss,#}(t) E_N(t) dt
+<=
+int_0^T widetilde Lambda_N^#(t) E_N(t) dt.
+```
+
+The coefficient-free family lift now assumes the explicit edge-family
+hypothesis `(SS\text{-}edge)` instead of a `model` theorem:
+
+```text
+int_0^T Pi_{N,a}^{edge}(t) dt
+<=
+epsilon_a nu int_0^T D_N(t) dt
++ C_{a,*} 2^{-2 delta N}.
+```
+
+Proof or remaining burden:
+
+- The carrier inclusion is proved by fixed-index-set containment
+  `{|m-N|<=C_ss} subset [N-M',N+M']`, positivity of `Lambda_N`, multiplication
+  by `E_N(t)>=0`, and time integration.
+- The finite lift from `(SS\text{-}edge)` to `(UB)` and `(MS)` is exact finite
+  summation plus the displayed collar-residual bounds.
+- The coefficient-free edge-family theorem `(SS\text{-}edge)` is not supplied
+  by the coefficient-bearing estimate.  It remains a separate stronger theorem
+  only when a standalone same-scale packet theorem is required independent of
+  `widetilde Lambda_N^# E_N`.
+
+Downstream consequence:
+
+The same-scale side no longer spends a theorem-shaped `model` label as proof.
+On the weighted spectral route, the coefficient term is carried by the installed
+weighted carrier.  For standalone `(UB)`/`(MS)` without the weighted carrier,
+the route still needs the coefficient-free edge-family theorem; the exact
+family lift does not create that theorem.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/same-scale-edge-family-and-model-estimate-note.md`.
+- `theorem-construction/same-scale-coefficient-kill-into-weighted-carrier-note.md`.
+- `theorem-construction/same-scale-family-lift-lemma.md`.
+- `theorem-construction/same-scale-multiplier-stability-program.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
