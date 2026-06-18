@@ -6108,3 +6108,32 @@ Remaining status:
 This batch repairs the endpoint-closure overclaim in the active skeleton and its
 appendix mirror. It does not prove `SCFBaseLocalModulus_N`; that remains an
 upstream mathematical input unless derived from the retained Field row.
+
+## D.99 Lower-Order Threshold Wording Repair
+
+Old claim being spent:
+
+The appendix described the exact-potential `V2` lower-order branch as "paid in
+D.99" or "paid rather than ignored."  The supporting theorem note contains an
+actual threshold inequality, so the loose payment verb was unnecessary and could
+hide the condition being used.
+
+Exact replacement:
+
+The appendix now attributes the lower-order transfer to the fixed-metric
+Carleman import plus the D.99 threshold
+
+```text
+2 C_0 M_*^2 (1/(s theta_*) + 1/(s^3 theta_*^3)) <= 1/2.
+```
+
+Downstream consequence:
+
+The `V2` direct closure no longer reads as a labeled absorption.  It is
+conditional on the uniform lower-order coefficient bound and on taking the
+Carleman parameter above the displayed threshold; the remaining local import is
+the fixed-metric Lipschitz Carleman / heat observability packet.
+
+Surface edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
