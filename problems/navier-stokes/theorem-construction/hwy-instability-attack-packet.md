@@ -6,7 +6,7 @@ External contradiction / stress-test packet for the live TPS strong route.
 
 This note does **not** claim to disprove the Hou--Wang--Yang construction. Its
 job is narrower: factor the proposed contradiction route into exact local
-theorem slots already formalized on the lane, prove the steps that now do
+theorem slots already recorded on the lane, prove the steps that now do
 follow, and isolate the one extra uniqueness-class hypothesis that is still
 missing.
 
@@ -246,7 +246,7 @@ class. Since both branches have the same datum `u_0`, they must coincide on
 
 ## Exact remaining gap on the contradiction route
 
-The theorem above proves the clean formal reduction:
+The theorem above proves the clean conditional reduction:
 
 ```math
 \boxed{
@@ -266,7 +266,7 @@ The theorem above proves the clean formal reduction:
 }
 ```
 
-The lane already formalizes the first downstream implication
+The lane already records the first downstream implication
 
 ```math
 \text{positive fresh angular }\lambda_{2,J}^+

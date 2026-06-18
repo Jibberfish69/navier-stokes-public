@@ -4,7 +4,7 @@
 
 Conditional local branch pass.
 
-## Completed formal reductions
+## Completed Conditional Reductions
 
 ```text
 Err_cmp^frame / gamma_J -> 0

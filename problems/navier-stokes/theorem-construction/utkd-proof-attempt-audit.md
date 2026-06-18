@@ -370,7 +370,7 @@ The current route therefore factors as
 ```math
 \text{current Body `1` inputs}
 \Longrightarrow
-\text{formal reductions}
+\text{displayed algebraic reductions}
 \Longrightarrow
 \text{(SDS}^\sharp\text{) as the installed frontier theorem}
 \Longrightarrow

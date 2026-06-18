@@ -1233,4 +1233,4 @@ now narrower:
    concentration budget compatible with the strip error ledger.
 
 Everything else on the exact-potential simple-top branch is downstream
-bookkeeping already formalized on disk.
+bookkeeping already recorded as explicit conditional implications on disk.

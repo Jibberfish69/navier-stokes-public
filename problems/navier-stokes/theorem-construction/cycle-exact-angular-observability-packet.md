@@ -30,7 +30,8 @@ that would still be needed:
 2. trajectorywise alignment with the expanding eigendirection;
 3. the installed pair-defect observation bound.
 
-Everything downstream of that packet is already formal on disk.
+Everything downstream of that packet is an explicit conditional implication
+chain on disk.
 
 ## Constitutive Import
 

@@ -192,8 +192,8 @@ What is already available is slightly weaker but still structural:
 
 - `\mathfrak B_N^{upper}` is already reduced to an explicit finite frozen
   same-scale edge family plus collar residual;
-- the finite-family lift from a coefficient-free edge estimate to `(UB)` and `(MS)` is
-  already formalized;
+- the finite-family lift from a coefficient-free edge estimate to `(UB)` and
+  `(MS)` is already recorded as an explicit conditional implication;
 - the currently proved coefficient-bearing edge estimate still carries the same-scale
   coefficient term
   \[
