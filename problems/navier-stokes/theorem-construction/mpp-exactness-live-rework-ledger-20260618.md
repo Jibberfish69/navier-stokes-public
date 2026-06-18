@@ -530,6 +530,33 @@ Edited live surfaces:
 - `theorem-construction/middle-band-flux-gap-kernel-theorem.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Critical H-One-Half Field-Landing Rework
+
+Old loose step:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex` repeatedly said that
+  pure \(H^{1/2}\) oscillation "should become" a Field failure.
+- The same section also said the necessary same-ledger extraction and
+  oscillation-to-Field lemmas were missing.  The old wording let the desired
+  Field landing leak into the proof role before those lemmas were paid.
+
+Exact replacement:
+
+The live appendix now states the branch as a conditional translator.  Amplitude
+still routes toward the local \(L^3\) translator.  Pure oscillation is
+Field-facing, and with Pack and Part retained it has the shape of a Field
+failure, but it is not a proved Field failure until same-ledger \(H^{1/2}\)
+extraction and oscillation-to-Field conversion are supplied.
+
+Downstream consequence: the \(H^{1/2}\) branch no longer counts as completed
+class exit or as an installed Field face.  It remains a candidate Field landing
+and reader-facing diagnostic until the named extraction and conversion lemmas
+are proved on the selected same-solution ledger.
+
+Edited live surface:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
