@@ -822,8 +822,19 @@ For each `t`,
 \tag{PD.50}
 ```
 
-The same estimate controls the `y`-slot source term. So the forcing factorizes
-exactly at the `L^2` level with no hidden gradient dependence.
+The `y`-slot source term is controlled by the separate bound
+
+```math
+\|r_J(y,t)K_J(\cdot,\cdot,t)\|_{L^2_{x,y}}
+\le
+\|r_J(t)\|_{L^\infty_y}\|K_J(t)\|_{L^2_{x,y}}
+=
+\|r_J(t)\|_{L^\infty}\|K_J(t)\|_{L^2_{x,y}}.
+\tag{PD.50y}
+```
+
+So the forcing factorizes exactly at the `L^2` level with no hidden gradient
+dependence.
 
 **Proof.**
 By Fubini,
@@ -835,9 +846,19 @@ By Fubini,
 |r_J(x,t)|^2|K_J(x,y,t)|^2\,dy\,dx.
 ```
 
-Pull out the `L^\infty_x` norm of `r_J` and then take square roots. The same
-argument applies to the `y`-slot source term because the same velocity field
-appears in each slot. ∎
+Pull out the `L^\infty_x` norm of `r_J` and then take square roots. For
+`(PD.50y)`, compute instead
+
+```math
+\|r_J(y,t)K_J\|_{L^2_{x,y}}^2
+=
+\int_{\mathbb R^3_x}\int_{\mathbb R^3_y}
+|r_J(y,t)|^2|K_J(x,y,t)|^2\,dy\,dx
+\le
+\|r_J(t)\|_{L^\infty_y}^2\|K_J(t)\|_{L^2_{x,y}}^2,
+```
+
+and take square roots. ∎
 
 ### Corollary TPS-pair-defect-energy-closure
 

@@ -3485,9 +3485,11 @@ Corollary `D.7mm` supplies `(D.7ma5)` with
 `\operatorname{Err}_{J,CG}^{strain}=\operatorname{Err}_{J,CG}^{strain,\mathrm{boot}}`,
 while Corollary `D.7mo` provides the gap floor used in that bootstrap packet.
 Substituting these two ledgers into `(D.7ma7)` yields `(D.7mr2)`. This is the
-same estimate as `(D.7mg1)`, now written with the theorem-facing pair and strain
-packets made explicit. Corollary `D.7mp` is included as the selector-good
-reference-direction component of that strain packet. ∎
+`D.7mg` closure with the two error slots fixed as
+`\operatorname{Err}_{J,CG}^{pair,\varepsilon}` and
+`\operatorname{Err}_{J,CG}^{strain,\mathrm{boot}}`. Corollary `D.7mp` is
+included as the selector-good reference-direction component of that strain
+packet. ∎
 
 ### Corollary D.7ms (a concentrated symmetric surrogate plus the supplier split yields the projective directional packet)
 

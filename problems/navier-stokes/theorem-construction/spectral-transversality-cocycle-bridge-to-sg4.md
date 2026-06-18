@@ -586,8 +586,18 @@ closes through
 DG-PSJ -> PSJ+.5 -> PSJ+.SST -> PSJ+.4 -> PSJ+.6 -> PPCJ'.
 ```
 
-Without cycle exactness, the same estimate together with the residual loop
-bound yields the full `PD.70` closure.
+Without cycle exactness, the full `PD.70` closure additionally spends the
+residual-loop bound
+
+```math
+\mathcal E_J^{loop}(I)
+\le
+C_{loop}\mathcal E_J^{obs}(I),
+\tag{7.10'}
+```
+
+so the exported defect ledger is bounded by
+`(C_{dir}+C_{loop})\mathcal E_J^{obs}(I)`.
 
 ### Why this is the right theorem shape
 

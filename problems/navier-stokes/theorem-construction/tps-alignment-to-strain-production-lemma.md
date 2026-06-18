@@ -924,8 +924,8 @@ so
 ```
 
 which is exactly `(AS.7d)`. Formula `(AS.7f)` is `(AS.7d)` rewritten using
-`(AS.7e)`, and `(AS.7h)` is the same estimate with the denominator replaced by
-its lower bound from `(AS.7g)`. ∎
+`(AS.7e)`. Formula `(AS.7h)` follows by substituting the lower bound
+`c_1(t)^2\ge c_{min}^2` from `(AS.7g)` into the denominator of `(AS.7d)`. ∎
 
 ### Corollary AS.7m. Material Cone Entry Transfers To The Instantaneous Cone Up To Carrier Mismatch
 
