@@ -783,6 +783,8 @@ and uniqueness, or else name the precise missing hypothesis such as
 Edited live surfaces:
 
 - `theorem-construction/hfg-continuation-all-scale-and-carrier-export-result.md`;
+- `theorem-construction/carrier-realization-classical-identification.md`;
+- `theorem-construction/d4-shadow-continuation-theorem.md`;
 - `theorem-construction/mcp-ecqa-final-verification-loop-stop.md`;
 - `theorem-construction/mcp-final-dependency-compression.md`;
 - `theorem-construction/mcp-full-route-originalsmoothdata-to-member-smooth-20260504.md`;
