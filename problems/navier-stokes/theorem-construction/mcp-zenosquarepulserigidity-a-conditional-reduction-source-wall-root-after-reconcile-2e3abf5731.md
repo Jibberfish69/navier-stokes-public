@@ -114,7 +114,13 @@ ZenoSquareCompactnessExtraction.A
 ZenoSquarePulseRigidity.A+ZenoSquareResidueLiouville.A.
 ```
 
-The first and third pieces are proved above under the standard terminal-packet compactness and test-density hypotheses. The live atom is `ZenoSquareCancellationClassProduction.A`.
+The first piece is proved above from the stated same-fluid packet coherence,
+legal terminal localization, parabolic scale normalization, local energy
+bounds, local pressure decomposition, and square-reserve normalization.  The
+third piece is proved from the definition of `\mathcal B_{sq}` plus separation
+of positive packet measures by admissible same-fluid terminal source tests and
+Riesz representation.  The live atom is
+`ZenoSquareCancellationClassProduction.A`.
 
 ## Consequence for Row 6
 
