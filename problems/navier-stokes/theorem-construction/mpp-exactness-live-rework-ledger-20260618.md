@@ -1127,6 +1127,41 @@ H(\pi_P)\ge \log M-\log C
 when \(M\) active parent weights satisfy \(\pi_i\le C/M\). The reserve argument
 now spends exact entropy lower bounds, not a scale-comparison phrase.
 
+The same entropy shortcut was also present in
+`theorem-construction/mcp-zenoancestryquantization-terminallayerattempt-dbeb286793.md`;
+that theorem note now carries the same exact uniform-cloud identity and
+bounded-density lower bound instead of `H(\pi_P)\sim\log M`.
+
+Affine-frame strain-budget pass:
+
+The reader appendix and
+`theorem-construction/mcp-frame-ledger-production-from-original-dynamics-attempt-avg-end-a-1911afc26c.md`
+said that an affine frame tied to a same-fluid chart requires the "same kind" of
+terminal strain budget. That phrase has been replaced by the exact matrix
+coefficient
+
+```math
+B_A(t):=A(t)^{-1}\dot A(t)
+```
+
+and the required finite budget
+
+```math
+\int_{t_0}^{T_*}\|B_A(t)\|\,dt<\infty.
+```
+
+The displayed fluid strain budget implies this frame budget only after the
+same-frame comparison
+
+```math
+\|A(t)^{-1}\dot A(t)\|
+\le C_A\|\nabla u(t)\|_{L^\infty(\Omega_A(t))}
+```
+
+is proved on the transported chart domain. Without that comparison, affine
+frame control is a separate hypothesis and cannot be spent as a same-kind
+consequence of the fluid strain estimate.
+
 False \(H^1\) continuation-norm pass:
 
 The appendix contained a proof-bearing subsection titled `Classical H^1
