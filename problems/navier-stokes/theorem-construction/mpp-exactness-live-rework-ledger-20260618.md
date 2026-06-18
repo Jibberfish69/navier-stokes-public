@@ -6572,6 +6572,17 @@ Surfaces edited:
 - `theorem-construction/mpp-vortex-stretching-throttle-lyapunov-scale-barrier-reduction-20260611.md`;
 - `theorem-construction/pd70z-cycle-exact-normal-covector-route.md`.
 
+Remaining intentional hits after the broad phrase scan:
+
+- `Gold Standard` / `Silver Standard` are preserved route labels, not proof
+  estimates;
+- `ordinary rungs and bad differences of order at most k` is a derivative-order
+  statement;
+- `one factor of order at most m+3` is the exact Leibniz-order pigeonhole used
+  in the lower-carrier interval estimate;
+- `B_k` being a polynomial in derivatives of order at most `k` is an exact
+  differential-order statement.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
