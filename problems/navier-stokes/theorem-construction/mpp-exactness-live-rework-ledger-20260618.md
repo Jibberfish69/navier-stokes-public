@@ -6049,3 +6049,60 @@ Remaining mathematical status:
 
 The broader exactness goal remains active.  The source-normalization theorem is
 still open; the page now states its exact square-strength burden.
+
+## Endpoint Closure Conditionality Second-Pass Repair
+
+Old claim being spent:
+
+The endpoint closure skeleton still spent proof-shaped prose as if it were an
+installed theorem:
+
+```text
+averaged control propagates through receiver/source/collar/one-field/class-invariance
+=> averaged class witness persists
+=> endpoint matrix excludes every face
+=> retained class witness supplies a terminal H^s bound
+```
+
+That wording hid two downstream hypotheses:
+
+1. `SCFBaseLocalModulus_N` is needed upstream to admit the retained
+   `Field_{N,r,Q}` row into the averaged Field row on the same terminal tail.
+2. The terminal Sobolev continuation bound is supplied only after
+   `End_NS_avg -> READ.COVER -> Field.Read/DTC.Read -> READ.END -> End_NS`,
+   followed by `ECQ.A` and `PCTP.cond`.
+
+Exact replacement:
+
+```text
+SCF_base + SGC.A_a.e + ATD_m^epsilon + SCFBaseLocalModulus_N
+=> End_NS_avg
+=> READ.COVER + Field.Read + DTC.Read
+=> READ.END
+=> End_NS
+=> ECQ.A / PCTP.cond
+=> T_* = infinity.
+```
+
+The readout cover is explicitly downstream of `End_NS_avg`; it cannot be used to
+prove the same-tail modulus.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-whole-proof-skeleton-without-route-jargon-ecq-a-c1979dd73e.md`;
+- `theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md`.
+
+Downstream consequence:
+
+The finite-time contradiction is now conditional on the displayed upstream
+averaged route inputs and the downstream readout bridge.  The phrase "class
+witness supplies a terminal bound" is no longer spent as a standalone proof
+step: the bound is attributed to the readout chain plus the continuation
+criterion.
+
+Remaining status:
+
+This batch repairs the endpoint-closure overclaim in the active skeleton and its
+appendix mirror. It does not prove `SCFBaseLocalModulus_N`; that remains an
+upstream mathematical input unless derived from the retained Field row.
