@@ -36,7 +36,7 @@ A sufficient ledger is
 with
 
 ```math
-\sup_{t<T_*}\mathcal H_s^{tail}(R,t)	o0
+\sup_{t<T_*}\mathcal H_s^{tail}(R,t)\to0
 \qquad(R\to\infty).
 ```
 
@@ -119,13 +119,13 @@ and
 while
 
 ```math
-\mathcal H_s^{tail}(R,0)	o0,
+\mathcal H_s^{tail}(R,0)\to0,
 ```
 
 then Gronwall gives
 
 ```math
-\sup_{t<T_*}\mathcal H_s^{tail}(R,t)	o0.
+\sup_{t<T_*}\mathcal H_s^{tail}(R,t)\to0.
 ```
 
 Thus `Tail.Hs_R3` follows under this added exterior high-order coefficient ledger.
