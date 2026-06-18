@@ -43,8 +43,10 @@ Use the following installed theorem surfaces.
 6. `RF.E`: retained `Pack+Part+Field` excludes the mixed tower-blown residue and
    discharges `SourcePulseCMExit.A`, from
    [mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md).
-7. The standard periodic classical continuation criterion in `H^s(T^3)`,
-   `s>5/2`, as already recorded in
+7. The bounded-`H^s(T^3)` periodic relaunch criterion: for `s>5/2`, a finite
+   value of `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}` gives a uniform local
+   lifespan and launch times `t_j\uparrow T_*` carry the same solution past a
+   finite endpoint by uniqueness, as already recorded in
    [mcp-theorem-2-1-classical-closure-bridge-after-sourcepulse-cmexit.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mcp-theorem-2-1-classical-closure-bridge-after-sourcepulse-cmexit.md).
 
 ## Theorem `CPC.A` (conditional contrapositive terminal consumption)
@@ -123,11 +125,14 @@ in which case the reconstitution side of `MBR.E` already gives local extension,
 or it is genuine, in which case Theorem `CPC.A` gives a contradiction with the
 retained terminal class-membership witness.
 
-Thus, under the TTU input, no finite maximal endpoint remains.  Equivalently, choose `s>5/2`; the
-finite terminal readout controls the finite tower needed for an `H^s(T^3)`
-bound on every terminal tail.  Periodic local well-posedness gives a lifespan
-depending only on that bound, `\nu`, and the torus, so relaunching from times
-`t_j\uparrow T_*` extends the solution past `T_*`.  Hence `T_*=\infty`.
+Thus, under the TTU input, no finite maximal endpoint remains. Equivalently,
+choose `s>5/2`; the finite terminal readout controls the finite tower needed
+for
+`M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty`. Periodic `H^s` local
+well-posedness gives `\tau=\tau(\nu,s,M_s)>0` for all data with norm at most
+`M_s`. Choose `t_j\uparrow T_*` with `T_*-t_j<\tau/2`; the relaunch from
+`u(t_j)` exists past `T_*` and agrees with the original solution on the overlap
+by uniqueness. Hence `T_*=\infty`.
 `\square`
 
 ## Target Queue Consequence
