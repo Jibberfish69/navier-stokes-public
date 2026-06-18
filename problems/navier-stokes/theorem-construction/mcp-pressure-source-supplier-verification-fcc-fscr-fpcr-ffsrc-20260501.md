@@ -35,28 +35,45 @@ Thus `FCI.5f` follows once the pressure, strain/cascade, and cutoff channels bel
 \int \phi_t\,\delta_hU_k\,\nabla\phi_t\cdot\nabla\delta_hU_k\,dx.
 ```
 
+Define the exact weighted cutoff-defect ledger
+
+```math
+\mathcal E_N^{cut,\nabla}(h,t;\psi)
+:=
+\sum_{k=0}^{N}\lambda_k
+\int
+|\nabla\phi_t(x,t)|^2\,|\delta_hU_k(x,t)|^2\,dx.
+```
+
 The Young-margin split gives
 
 ```math
 |\mathcal C_N^{cut}(h,t;\psi)|
 \le {1\over2}\mathcal N_{N,h,\psi}^{visc}(t)
-+\mathfrak b_\psi^{cut}(t)E_N(h,t;\psi),
-\qquad
-\mathfrak b_\psi^{cut}=4\nu(\Phi_\psi^{glob,(1)})^2.
++4\nu\,\mathcal E_N^{cut,\nabla}(h,t;\psi).
+```
+
+For the frozen net set
+
+```math
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I)
+:=
+\sum_{\ell=1}^{M_\varepsilon}
+\mathcal E_N^{cut,\nabla}(\eta^\ell,t;\psi).
 ```
 
 Summing over the finite frozen net gives
 
 ```math
-\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}
-\le {1\over2}\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}
-+\mathfrak b_\psi^{cut}\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}(t;I)
+\le {1\over2}\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}(t;I)
++4\nu\,\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I).
 ```
 
 Therefore, under
 
 ```math
-\mathfrak b_\psi^{cut}\in L^1(I),\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I),\qquad
 \mathcal N^{src,\varepsilon,press}+\mathcal N^{src,\varepsilon,sc}\in L^1(I),
 ```
 
@@ -68,7 +85,13 @@ Gronwall yields
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
 ```
 
-This is the actual use of `FCC.C1`: it consumes pressure and strain/cascade source control plus `\mathfrak b_\psi^{cut}\in L^1(I)`, then places the cutoff channel under the displayed Young-margin inequality.
+This is the actual use of `FCC.C1`: it consumes pressure and strain/cascade
+source control plus the separate cutoff-defect input `FCC.C1a`,
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, then places the
+cutoff channel under the displayed Young-margin inequality. A bound for
+`\mathfrak b_\psi^{cut}` controls the coefficient size of `|\nabla\phi_t|`, but
+it does not by itself replace the weighted cutoff-defect ledger by ordinary
+packet energy.
 
 ## Line 2: FSCR.C strain/cascade supplier
 
@@ -159,19 +182,20 @@ promoted by this audit. Therefore the exact branch remains unclosed here unless
 The live route authority records two source paths:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f,
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f,
 ```
 
 and the stronger cited import
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
 ```
 
 The existing line-by-line note `mcp-pressure-source-supplier-line-by-line-aact-kx-5ccc977444.md` uses the stronger path. Its actual supplier chain is
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
+\Longrightarrow \operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Here `FFPB.A0` is the packet-local widened-pressure bridge:
@@ -193,11 +217,13 @@ After `FFPB.A0`, `FFSC.C1` gives the frozen-family differential law
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta}))
-\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+\mathcal F_{N,\rho,\psi}^{\varepsilon}
++4\nu\,\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
-Gronwall gives `\mathcal F^\varepsilon\in L^\infty(I)` and
+With `FCC.C1a`, Gronwall gives
+`\mathcal F^\varepsilon\in L^\infty(I)` and
 `\mathcal N^{visc,\varepsilon}\in L^1(I)`. Then `FSCR.C_postLCI` and `FCC.C1`
 place the strain/cascade and cutoff channels in `L^1(I)`. The full source split
 gives `FCI.5f`.
@@ -206,8 +232,9 @@ gives `FCI.5f`.
 
 The expanded estimates are verified at the route ledger level:
 
-1. `FCC.C1` is fully expanded: exact commutator formula, Young-margin split,
-   finite-net summation, Gronwall, and cutoff-margin estimate.
+1. `FCC.C1` is fully expanded: exact commutator formula, weighted
+   cutoff-defect ledger, Young-margin split, finite-net summation, Gronwall,
+   and cutoff-margin estimate under `FCC.C1a`.
 2. `FSCR.C_postLCI` is expanded through the representative triangular
    strain/cascade packets and the finite weighted Cauchy--Schwarz estimate.
    The exact same-depth theorem `FSCR.C` is not proved here.
@@ -215,20 +242,23 @@ The expanded estimates are verified at the route ledger level:
    installed pressure bridge note still treats the `LH/HL` and `RR` bounds
    `FFPB.A3`--`FFPB.A4` as finite Leibniz/local pressure-response estimates,
    rather than writing every Leibniz summand and tower weight separately.
-4. `FFSRC.A` is verified only under the packet-local reading of
-   `\mathfrak H^{press,loc}`. A centerwise-only reading reopens `FIPCB.A0`.
+4. `Hyp(FFSRC.A)` is verified only under the packet-local reading of
+   `\mathfrak H^{press,loc}` and with `FCC.C1a` included. A centerwise-only
+   reading reopens `FIPCB.A0`.
 
 ## Verification verdict
 
-1. `FCC.C1` is line-by-line verified as a cutoff-margin estimate after pressure and strain/cascade source controls plus `\mathfrak b_\psi^{cut}\in L^1(I)`.
+1. `FCC.C1` is line-by-line verified as a cutoff-margin estimate after pressure and strain/cascade source controls plus `FCC.C1a`, the interval bound `\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 2. `FSCR.C_postLCI` is verified from the coefficient-side estimate `(1+\mathfrak C^\delta)\mathcal F^\varepsilon`; the exact same-depth `FSCR.C` wall is not proved.
 3. `FPCR.C_postLCI` is verified from the `LH/HL + RR + far` pressure split under `\Gamma^{low}\in L^1(I)` and bounded `\mathcal F^\varepsilon`, with the noted `FFPB.A3`--`FFPB.A4` expansion boundary.
 4. The exact `FIRP.A0 => FPCR.C` branch is not promoted by this audit. `FIRP.A0` remains the exact smaller pressure theorem unless the separate fixed-threshold local attempt is accepted.
-5. The stronger `FFSRC.A` import is actually used in the existing line-by-line note, through `FFPB.A0 + FFSC.C1 + FCC.C1 => FFSRC.A => FCI.5f`, with the packet-local pressure-carrier interpretation as a required typing condition.
+5. The stronger `Hyp(FFSRC.A)` import is actually used in the existing line-by-line note, through `FFPB.A0 + FFSC.C1 + FCC.C1 + FCC.C1a => Hyp(FFSRC.A) => FCI.5f`, with the packet-local pressure-carrier interpretation and cutoff-defect integrability as required typing conditions.
 
 ## Local conclusion
 
 The supplier algebra is verified under the stated route assumptions and under
-the route-selected stronger import. This closes the pressure/source supplier row
-for `FFSRC.A=>FCI.5f`. It does not close the stricter exact source reconstruction
-unless `FIRP.A0` and the exact same-depth `FSCR.C` route are separately accepted.
+the route-selected stronger import only when `FCC.C1a` is present. This closes
+the pressure/source supplier row for `Hyp(FFSRC.A)=>FCI.5f`, not for a
+three-input `FFSRC.A=>FCI.5f` chain. It does not prove `FCC.C1a`, and it does
+not close the stricter exact source reconstruction unless `FIRP.A0` and the
+exact same-depth `FSCR.C` route are separately accepted.
