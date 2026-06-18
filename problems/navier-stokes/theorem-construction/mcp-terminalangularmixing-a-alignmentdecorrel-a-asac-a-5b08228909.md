@@ -2,7 +2,7 @@
 
 ## Status
 
-Conditional theorem note.  The angular component has an ASAC payment only after
+Conditional theorem note.  The angular component has an ASAC account only after
 the exact packet residual estimate and the no-incoming/backward-uniqueness inputs
 for `ASAC.A` are installed.  The same selected terminal-window estimate closes
 once that conditional ASAC gate and the terminal source-current branch are
@@ -60,7 +60,7 @@ LocalDonorBalance.A+EntranceLeafDecay.A
 
 ## Remaining branch
 
-After the conditional ASAC payment and legal ledgers, the only surviving
+After the conditional ASAC gate and legal ledgers, the only surviving
 source-current branch is
 
 ```math
