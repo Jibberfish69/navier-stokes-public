@@ -260,7 +260,7 @@ invalid step that absorbs a pointwise coefficient multiplying `N_R` using only
 
 Post-audit repair note. The row `pressure-source-supplier-line-by-line` has now
 been expanded for the route-selected strengthened import
-`FFSRC.A=>FCI.5f` in
+`Hyp(FFSRC.A)=>FCI.5f` in
 `mpp-pctp-hard-source-supplier-verification-note.md` and
 `mcp-pressure-source-supplier-verification-fcc-fscr-fpcr-ffsrc-20260501.md`.
 That repair does not promote the stricter exact reconstruction through
