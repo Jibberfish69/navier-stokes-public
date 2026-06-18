@@ -4945,6 +4945,57 @@ Edited live surfaces:
 - `theorem-construction/mixed-jet-generating-field-hs-energy.md`;
 - `theorem-construction/mpp-retained-carrier-no-defect-participation-direct-attempt-20260609.md`.
 
+## Continuation, Readout, And Product-Estimate Standard-Step Repair
+
+Old loose step:
+
+- `mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md` said
+  `CM_{N,r_N,Q}` supplies the "usual local continuation norm."
+- `active-readout-subordination-to-persistent-carrier-core-result.md` invoked
+  "usual finite-template bounds" before a tail estimate.
+- `external-classical-validation-note.md` used "standard" analytic
+  unique-continuation wording around the open-set rigidity import.
+- `frame-recovery-wall-theorem-candidate-note.md` called the product tool the
+  "usual" Moser/Kato--Ponce tame estimate.
+- `mcp-pack-ttu-energy-enstrophy-strain-test.md` said the BKM-type route needs
+  the "usual logarithmic high-norm accompaniment."
+
+Exact replacement:
+
+The member-smooth bridge now identifies the displayed \(H^s\), \(s>5/2\),
+continuation bound as the actual norm being supplied. The active-readout note
+now states the finite-template hypotheses: uniform \(W^{1,\infty}\) multiplier
+norms and bounded finite overlap, combined with the displayed kernel estimate.
+The external validation note now names positive-time spatial analyticity plus
+the analytic identity theorem on a connected time slice. The frame-recovery
+wall now points to the displayed Moser/Kato--Ponce estimate `(13m)`. The
+Pack.TTU strain test now states an example continuation-grade logarithmic
+strain estimate,
+\[
+  \|\nabla u(t)\|_{L^\infty}
+  \le
+  C_s\bigl(1+\|\omega(t)\|_{L^\infty}
+  +\log(e+\|u(t)\|_{H^s})\bigr),
+\]
+together with a same-solution \(H^s\) ledger or an equivalent continuation
+ledger.
+
+Downstream consequence:
+
+Continuation, finite-template readout, analytic rigidity, nonlinear product
+expansion, and Pack.TTU BKM-style routes now have to cite the displayed norm,
+template hypotheses, identity theorem, product inequality, or logarithmic
+strain-plus-\(H^s\) ledger. They no longer get proof force from "usual" or
+"standard" continuity language.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md`;
+- `theorem-construction/active-readout-subordination-to-persistent-carrier-core-result.md`;
+- `theorem-construction/external-classical-validation-note.md`;
+- `theorem-construction/frame-recovery-wall-theorem-candidate-note.md`;
+- `theorem-construction/mcp-pack-ttu-energy-enstrophy-strain-test.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
