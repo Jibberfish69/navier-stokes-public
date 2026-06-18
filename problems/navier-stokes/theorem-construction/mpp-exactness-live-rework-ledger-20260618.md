@@ -6463,6 +6463,68 @@ Surface edited:
 
 - `theorem-construction/mpp-terminal-leray-paraproduct-coefficient-identification-direct-attempt-20260522.md`.
 
+## Active-Square Zero-Thickness Sequence Rework
+
+Old claim being spent:
+
+`mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`
+called the pulse-thickness obstruction the "standard zero-thickness profile."
+
+Exact replacement:
+
+The obstruction is now the explicit concentrating sequence
+
+```text
+g_m(s)=m 1_{(-1/m,0]}(s),
+int g_m(s) ds = 1.
+```
+
+For every fixed `tau>0`, the support of `g_m` lies in `(-tau,0]` once
+`m>1/tau`, so the sequence weakly converges to a terminal atom while retaining
+finite `L^1` mass.
+
+Downstream consequence:
+
+Pulse thickness is not discharged by finite source mass.  The branch still
+requires Orlicz, Morrey, super-`L^1`, reverse-Holder, or another explicit
+source-time concentration cost.
+
+Surface edited:
+
+- `theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`.
+
+## Spectral Gap Selector-Scale And Bootstrap Rework
+
+Old claim being spent:
+
+`spectral-gap-rigidity-and-projector-identification-note.md` referred to a
+"standard selector-scale realization" and then to a "standard perturbative /
+bootstrap gap argument" on the Cauchy--Green branch.
+
+Exact replacement:
+
+The selector scale is now restricted to the two declared choices
+`\xi_{ab}=b-a` and `\xi_{ab}=(b-a)/\ell_J`.  The remaining Cauchy--Green branch
+debt is the displayed gap comparison
+
+```text
+||P_J^CG(t,a)-P_{J,top}^seg(a,b,t)||_F^2
+<= C_EP eta_J^mb(t,a,b)^2/g_0^2,
+```
+
+together with the reference gap floor supplied by `E_{J,t_0}^{CG}`.
+
+Downstream consequence:
+
+`SSC-EP.A` may no longer be counted as a generic perturbative/bootstrap step.
+It must prove the displayed projector comparison under the stated reference gap
+floor before the downstream `D.7mq -> D.7mr2 -> RPC.3 -> SG.4 -> BR.lambda2`
+assembly is available.
+
+Surface edited:
+
+- `theorem-construction/spectral-gap-rigidity-and-projector-identification-note.md`.
+
 ## Direct Fixed-Nu Euler-NS Kato-Ponce Rework
 
 Old claim being spent:
