@@ -157,7 +157,7 @@ c_D\,\mathcal D_D(X)
 C\,\Psi(\mathcal E_D(X)).
 ```
 
-This promotes D.2 from formal reduction to a real coercive theorem.
+This promotes D.2 from a conditional reduction to a real coercive theorem.
 
 ### 4. L and C.1 promotion
 
