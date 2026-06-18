@@ -2585,6 +2585,69 @@ Edited live surface:
 
 - `theorem-construction/mcp-finite-window-material-cone-and-carrier-mismatch-at-shifted-anchor-c9cce37666.md`.
 
+## Pack Profile Selected-Positive Orthogonality Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-packfunctionalstabilityreduction-a-packfunctionalstabilityunderprofiledecomposition-a-c3337570cc.md`
+  described the Pack functional only as a schematic selected positive part and
+  wrote the desired profile behavior as an additive expansion.
+- `theorem-construction/mcp-positivepackdefectorthogonalityattempt-a-positivepackdefectorthogonality-a-486dcd5062.md`
+  used the same schematic selected-positive Pack object.
+
+Exact replacement:
+
+Both notes now introduce a signed selected expression `F_sigma(u)` and the
+positive selected functional
+
+```text
+P_sigma(u):=[F_sigma(u)]_+.
+```
+
+For a selected terminal record `sigma_m`, the exact decomposition burden is
+
+```text
+F_{sigma_m}(u_m)
+=
+sum_alpha F_{sigma_m}(U_alpha^m)
++ C_{sigma_m}^{cross}(m,A)
++ R_{sigma_m}(m,A),
+```
+
+followed by the elementary positive-part inequality
+
+```text
+P_{sigma_m}(u_m)
+<=
+sum_alpha P_{sigma_m}(U_alpha^m)
++ |C_{sigma_m}^{cross}(m,A)|
++ |R_{sigma_m}(m,A)|.
+```
+
+The missing theorem is the uniform selected cross/remainder vanishing
+
+```text
+lim_{A->infty} limsup_{m->infty}
+sup_{sigma in Sigma_m}
+(
+|C_sigma^{cross}(m,A)|+|R_sigma(m,A)|
+)
+=0,
+```
+
+or a theorem routing every nonzero selected positive cross-profile defect to
+one genuine profile or endpoint-strip boundary exit.
+
+Downstream consequence: Pack functional stability is no longer expressed as
+ordinary profile-orthogonality plus an additive selected-positive functional.
+The proof burden is the exact selected-positive cross-term control needed before
+`PositivePackDefectOrthogonality.A` can support first-exit Pack survival.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-packfunctionalstabilityreduction-a-packfunctionalstabilityunderprofiledecomposition-a-c3337570cc.md`.
+- `theorem-construction/mcp-positivepackdefectorthogonalityattempt-a-positivepackdefectorthogonality-a-486dcd5062.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
