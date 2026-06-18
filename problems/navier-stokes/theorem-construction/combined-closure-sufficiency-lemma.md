@@ -89,11 +89,19 @@ Then, if the imported packet reductions are fully discharged at theorem grade,
 \sup_{t<T}\|\nabla u(t)\|_{L_x^2}<\infty,
 ```
 
-the dyadic tail remains suppressed in the same form as `(S)`, and `u`
-continues beyond `T`.
+and the dyadic tail remains suppressed in the same form as `(S)`.  Continuation
+beyond `T` additionally requires a same-surface bound
+
+```math
+\sup_{t<T}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2,
+```
+
+or an equivalent named continuation criterion.
 
 Equivalently, the packet is intended to show that the active whole-space Clay
-existence-and-smoothness statement with `f = 0` follows.
+existence-and-smoothness statement with `f = 0` follows only after that
+continuation bridge is supplied on the same surface.
 
 ## Compressed Proof Packet
 
