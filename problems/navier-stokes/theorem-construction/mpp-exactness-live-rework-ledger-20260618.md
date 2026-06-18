@@ -5126,3 +5126,64 @@ they are not proof authority and are not allowed to discharge a live theorem.
 Still mathematically open: prove `FCC.C1a` directly or prove a domination theorem
 that derives the weighted cutoff-defect integrability from already-admitted
 packet/collar data.
+
+## Standard-Estimate Proof-Force Repair II
+
+Old loose step:
+
+Several remaining live theorem-construction notes spent "standard" or
+"comparable up to constants" language at the point where the argument needed a
+specific inequality, kernel hypothesis, interpolation fact, compactness
+refinement, symbolic commutator expansion, packet absorption step, or first-exit
+lemma.
+
+Exact replacement:
+
+- `mpp-derivative-tower-cone-closure-race-attempt-20260611.md` now identifies
+  the differentiated Navier--Stokes source term
+  `-\sum_{0<\beta\le\alpha} binom(alpha,beta)
+  (partial^beta u) . grad partial^{alpha-beta}u` as the tower source, and says
+  the missing finite budget is control of those displayed source terms.
+- `transported-phase-space-selector-theorem-candidate.md` now states the exact
+  off-diagonal packet-kernel input needed to turn pair separation `R_J` into the
+  bound `C_N R_J^{-N}`.
+- `h1-carrier-leakage-direct-completion.md` now proves the interpolation
+  absorption from spectral calculus, Young's inequality, fixed carrier graph
+  norm equivalence, and the projected Poincare/coercivity hypothesis.
+- `one-sided-dissipation-square-theorem.md` now defines `B_N^sigma(t)` and
+  gives the two-sided pointwise comparison constants `c_sigma,C_sigma` instead
+  of the phrase "comparable up to constants."
+- `mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md` now replaces
+  "standard finite refinement" with the finite subcover, finite overlap number,
+  and finite adjacency-chain constant actually used.
+- `shadow-remainder-forced-hs-estimate.md` now cites the displayed forced
+  `H^s` inequality `(10)` rather than a "standard forced" inequality.
+- `weighted-exact-projection-commutator-theorem-candidate.md` now spells out
+  the first pseudodifferential commutator symbol and the `S^{-2}_{1,0}`
+  remainder condition.
+- `mpp-full-coefficient-good-packet-stop-attempt-20260506.md` now writes the
+  packet-norm Duhamel absorption inequality and the Schur-test condition for
+  the tube Gram matrix.
+- `mpp-effective-viscous-packet-antidegeneration-expansion-20260506.md` now
+  names the scalar `ACT.FirstExitAbsorb` lemma required by the ACT ledger.
+
+Downstream consequence:
+
+The affected routes no longer discharge their local proof steps by the word
+"standard." They either point to a displayed estimate/proof, a stated kernel or
+symbol hypothesis, a finite compactness construction, or a named scalar lemma
+whose proof remains part of the ACT package. In particular, `ACT.KX` is still
+conditional on `ACT.FirstExitAbsorb`; this is a mathematical dependency, not a
+completion claim.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-derivative-tower-cone-closure-race-attempt-20260611.md`;
+- `theorem-construction/transported-phase-space-selector-theorem-candidate.md`;
+- `theorem-construction/h1-carrier-leakage-direct-completion.md`;
+- `theorem-construction/one-sided-dissipation-square-theorem.md`;
+- `theorem-construction/mpp-lci-a-retained-window-small-budget-scheduler-audit-note.md`;
+- `theorem-construction/shadow-remainder-forced-hs-estimate.md`;
+- `theorem-construction/weighted-exact-projection-commutator-theorem-candidate.md`;
+- `theorem-construction/mpp-full-coefficient-good-packet-stop-attempt-20260506.md`;
+- `theorem-construction/mpp-effective-viscous-packet-antidegeneration-expansion-20260506.md`.
