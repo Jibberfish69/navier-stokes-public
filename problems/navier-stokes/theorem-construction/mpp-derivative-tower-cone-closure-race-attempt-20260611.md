@@ -324,9 +324,22 @@ Thus:
 ```
 
 The derivative tower catches a scale-charged non-affine cascade, but only if a
-finite higher-tower budget and the scale-charging ledger are available. Since
-the standard equations provide vortex stretching as the high-tower source, that
-finite budget is exactly part of the unsolved work.
+finite higher-tower budget and the scale-charging ledger are available. The
+source is the differentiated Navier--Stokes nonlinearity itself: for a spatial
+multi-index `\alpha`,
+
+```math
+\partial_t\partial^\alpha u-\nu\Delta\partial^\alpha u
++u\cdot\nabla\partial^\alpha u+\nabla\partial^\alpha p
+=
+-\sum_{0<\beta\le\alpha}\binom{\alpha}{\beta}
+(\partial^\beta u)\cdot\nabla\partial^{\alpha-\beta}u.
+```
+
+In vorticity variables the same tower contains the stretched-gradient terms in
+`\partial^\alpha(\omega\cdot\nabla u)`. Thus the missing finite budget is not a
+generic appeal to the equations; it is control of these displayed high-order
+commutator/source terms along the charged cone.
 
 ## Full-Tower Generating Functional Test
 
