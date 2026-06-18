@@ -118,8 +118,19 @@ The localized commutator
 ```
 
 must be paid by the pressure/cutoff/collar/projection ledgers at the same
-one-sided terminal weights. Standard legal ledgers pay ordinary errors; the
-selected terminal commutator requires this L3-weighted legal theorem.
+one-sided terminal weights. The installed unweighted cutoff, collar, and
+projection ledgers control only commutators measured in their native packet
+norms; they do not imply
+
+```math
+\int_{Q(P)}
+|[\chi,P_{Leray}]\nabla(u\cdot\nabla u)|\,|w_{j_P}|\,dxdt
+\le
+C\,\mathrm{Legal}_{L3}(P)
+```
+
+with the same selected `L^3` terminal weights.  That weighted bound is exactly
+`TerminalLerayCommutatorLegal_{L3}.A`.
 
 ### Gate 3: L3 Terminal Saturation
 
