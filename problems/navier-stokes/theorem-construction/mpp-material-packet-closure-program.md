@@ -62,7 +62,7 @@ supported label packet `\psi(a)` is then
 \tag{MP.3}
 ```
 
-This is the intended material meaning of the informal notation
+This is the exact material definition represented by the shorthand
 `\phi_t=\psi\circ A`.
 
 For the Eulerian tower, write
