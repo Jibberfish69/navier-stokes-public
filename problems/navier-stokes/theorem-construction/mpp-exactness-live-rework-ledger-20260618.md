@@ -6293,6 +6293,44 @@ Surface edited:
 
 - `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
 
+## Informal/Plausibility Language Rework
+
+Old claim being spent:
+
+The authority-linked scan found proof-adjacent informal/plausibility language:
+
+- `mpp-one-field-forward-preservation-theorem-program.md` said the irreducible
+  receiver "appears to be" the collar packet;
+- `mpp-material-packet-closure-program.md` called `\phi_t=\psi\circ A`
+  informal notation;
+- `proof-attempt-failure-appendix.tex` said a route turned the informal sentence
+  "viscosity wins at small scales" into a summability condition.
+
+Exact replacement:
+
+The one-field note now states the exact conclusion supported by its preceding
+calculation: after packing and rung-1 source terms are absorbed, the remaining
+unclosed receiver is the collar packet
+`\mathcal K_{N+1,m,\rho,\psi}^{\delta}`.  The material packet note now states
+that `\phi_t=\psi\circ A` is shorthand for the exact material definition
+`\phi_t(x)=\psi(Y(x,t))`.  The appendix now says the old sentence is replaced
+by the explicit summability condition, whose failure point is the missing
+transfer law.
+
+Downstream consequence:
+
+These passages no longer use "appears" or "informal" language to carry a proof
+role.  The one-field route's current bottleneck is stated as the collar
+propagation theorem `CSP.A`; the material cutoff is a definition; and the
+failure appendix keeps the exact summability condition separate from the missing
+transfer law.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-one-field-forward-preservation-theorem-program.md`;
+- `theorem-construction/mpp-material-packet-closure-program.md`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## "Enough To Prove" Reduction Rework
 
 Old claim being spent:
