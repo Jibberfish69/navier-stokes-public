@@ -235,10 +235,10 @@ Audit reading:
 
 ### A4. `ScaleCriticalTreeCarleson.A`
 
-Current classification:
+Current classification after the Pack-first CM correction:
 
 ```math
-\textbf{live direct source-wall root.}
+\textbf{historical source-control support, not the live CM root.}
 ```
 
 Evidence:
@@ -259,7 +259,8 @@ Evidence:
 Audit reading:
 
 - this is the sharpened scalar reserve left after `ParentSquareEmbed.A`;
-- it is the direct branch of the current live root;
+- it is a historical direct source-control branch, not the current live CM
+  root by itself;
 - the post-reconcile direct attempt and tree-Bellman attempt do not prove it
   from installed inputs; the Bellman route is circular unless an independent
   active-window Carleson reserve, active-shell amplitude gain, normalized
@@ -271,8 +272,10 @@ Audit reading:
   active-window height / donor-tail estimate, which is not installed by current
   first-moment, local-energy, donor-balance, normalized-adjoint, active-shell,
   square-source, branch-reserve, or Zeno compactness inputs.
-- the signed-current route remains the most structural direct attack, but its
-  subtargets are conditional route pieces rather than lower installed roots.
+- the current proof use is narrower: this family can support the same-witness
+  terminal anti-concentration / source-Carleson / rigid-anti-atom /
+  non-source Pack-survival frontier only after same-ledger payment or CM-test
+  admission plus first Pack/Part/Field face failure.
 
 ### A4B. `ParabolicSourceCurrent.A` / `CycleHeatAction.A`
 
