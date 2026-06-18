@@ -1783,8 +1783,12 @@ of the weighted increment sums.
 
 Downstream consequence: fixed-family strain/cascade consumers may spend
 `(FFSC.A2)` and `(FFSC.A4)` only through the finite-depth collar-envelope bound
-plus the displayed increment energy, not through a generic ordinary-tower-factor
-phrase.
+plus the displayed increment energy. The theorem note and manuscript mirror now
+also spell out the cascade index check: after pairing with
+`\delta_\eta U_k`, the lone non-increment factor is either
+`U_{k+1-\ell}(x+\eta,t)` or `U_\ell(x,t)`, with index in
+`\{0,\dots,N+1\}` and argument inside
+`\mathcal C_{\rho,\psi}^{\delta}(t)`.
 
 Edited live surfaces:
 
