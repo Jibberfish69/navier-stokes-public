@@ -259,7 +259,7 @@ FSCR.C:\\ S_{strain/cascade}\in L^1,
 and
 
 ```math
-FCC.C1:\\ S_{cutoff}\in L^1.
+FCC.C1+FCC.C1a:\\ S_{cutoff}\in L^1.
 ```
 
 Summing the three integrable ledgers across the finite frozen family gives
@@ -279,7 +279,7 @@ Thus downstream proofs consume the single source result
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 6. Endpoint matrix as finite formal theorem
