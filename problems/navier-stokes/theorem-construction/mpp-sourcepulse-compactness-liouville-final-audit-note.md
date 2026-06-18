@@ -44,9 +44,9 @@ SourcePulseExclusion.A.
 ## Audit
 
 The existing compactness attempt
-`mpp-critical-pulse-compactness-no-pulse-attempt-note.md` shows that failure of
-the no-pulse atom plausibly produces a rescaled critical object only after the
-bad source packet has been localized to physical same-fluid cylinders.
+`mpp-critical-pulse-compactness-no-pulse-attempt-note.md` reduces production of
+a rescaled critical object to one missing localization step: the bad source
+packet must first be localized to physical same-fluid cylinders.
 
 The extraction bridge
 `mpp-ancient-nopulse-extraction-bridge-attempt-note.md` now records the exact
