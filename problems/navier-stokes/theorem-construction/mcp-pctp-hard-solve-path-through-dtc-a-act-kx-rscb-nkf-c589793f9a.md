@@ -154,7 +154,7 @@ The receiver block is the simultaneous system
 C((\mathcal X^{exc})^{1/2}\mathcal N^{1/2}+\mathcal X^{exc})+F_K.
 ```
 
-with `L_0,F_0,F_K in L^1(I)`. The scale-small absorption uses
+with `L_0,F_0,F_K in L^1(I)`. The scale-small coefficient-margin step uses
 
 ```math
 \eta_X=(c_\nu/(4C_X))^2,

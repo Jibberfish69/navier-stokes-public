@@ -6,7 +6,7 @@ Failed direct discharge.  This note tests whether pressure/eigenframe sustain fo
 
 ## Target
 
-A useful theorem would be
+A useful exact theorem is
 
 ```math
 PressureSourceTimeFaceSpread.A:
@@ -23,7 +23,7 @@ for some `theta>0`, or an equivalent pressure-carrier trace theorem:
 PressureCarrierTrace.A.
 ```
 
-This would remove terminal time atoms and feed
+This removes terminal time atoms and feeds
 
 ```math
 TemporalNonAtomicSource.A.
@@ -37,7 +37,7 @@ The installed pressure-Hessian and eigenframe tools control signed near-band sus
 
 ## Exact missing theorem
 
-The pressure route would need a parabolic memory theorem:
+The pressure route requires a parabolic memory theorem:
 
 ```math
 \boxed{PressureSourceParabolicMemory.A}

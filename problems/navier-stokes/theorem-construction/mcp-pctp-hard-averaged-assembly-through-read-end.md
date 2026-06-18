@@ -142,7 +142,9 @@ At route depth `N` dominating some `s>5/2`, the pointwise class witness gives
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
 ```
 
-and standard local theory extends the solution past any alleged finite `T_*`.
+and the `H^s`, `s>5/2`, local well-posedness/relaunch theorem gives a common
+preterminal lifespan, so uniqueness on overlaps extends the same solution past
+any alleged finite `T_*`.
 
 ## Conditional theorem
 

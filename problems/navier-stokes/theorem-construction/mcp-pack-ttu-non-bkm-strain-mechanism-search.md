@@ -57,7 +57,8 @@ The full pack gauge therefore requires the two-sided operator norm of symmetric 
 
 ## Candidate 3: localized Morrey / CKN control
 
-A positive SCF-good cylinder gives local regularity by `ATD_m^\varepsilon`. That would control the strain on that cylinder.
+A positive SCF-good cylinder gives local regularity by `ATD_m^\varepsilon`.
+That regularity controls the strain on that cylinder.
 
 Finite energy supplies such cylinders material-a.e. The pack ledger needs every active terminal label. The missing input is exactly
 

@@ -30,7 +30,7 @@ At depth `N`, the field and tower components control all spatial derivatives req
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}\le M_s<\infty.
 ```
 
-The standard periodic local theory in `H^s`, `s>5/2`, gives a lifespan
+The periodic local theory in `H^s`, `s>5/2`, gives a lifespan
 
 ```math
 \tau=\tau(\nu,s,M_s)>0

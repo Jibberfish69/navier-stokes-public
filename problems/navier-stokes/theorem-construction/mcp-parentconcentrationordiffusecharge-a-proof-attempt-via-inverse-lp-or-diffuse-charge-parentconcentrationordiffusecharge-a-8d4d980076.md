@@ -58,7 +58,10 @@ with every `P^-_\alpha` legal. For every fixed `B`,
 \le {B\over M}\pi_P(\mathsf{Pred}(P))\to0.
 ```
 
-Thus an inverse LP concentration theorem would need an additional hypothesis forcing positive localized source edges to concentrate in boundedly many parents. Finite banding, same-fluid transport, pressure/cutoff ledgers, and source-supplier ledgers do not provide that hypothesis.
+Thus an inverse LP concentration theorem requires an additional hypothesis
+forcing positive localized source edges to concentrate in boundedly many parents.
+Finite banding, same-fluid transport, pressure/cutoff ledgers, and
+source-supplier ledgers do not provide that hypothesis.
 
 ## Attempt 2: diffuse parent charge by square-source / active-window Carleson reserve
 
@@ -68,9 +71,16 @@ The diffuse-charge route asks the diffuse measure to pay a finite reserve. Raw d
 \sum_{\alpha=1}^M\|a_\alpha\|_2^2.
 ```
 
-In the Fourier diffuse-parent model, choosing donor amplitudes `a_\alpha=M^{-1}b_\alpha` gives total positive source-parent mass of order one after normalization, while the raw quadratic donor cost is order `M^{-1}`. Hence raw energy and local energy do not price legal diffuse source-parent branching at source-pulse normalization.
+In the Fourier diffuse-parent model, choosing donor amplitudes
+`a_\alpha=M^{-1}b_\alpha` gives normalized total positive source-parent mass
+\(\sum_{\alpha=1}^{M}M^{-1}=1\), while the raw quadratic donor cost is
+\(\sum_{\alpha=1}^{M}M^{-2}=M^{-1}\). Hence raw energy and local energy do not
+price legal diffuse source-parent branching at source-pulse normalization.
 
-A square-source / active-window Carleson reserve would price that diffusion. The current surfaces identify exactly that reserve as `ScaleCriticalTreeCarleson.A`, `ActiveSquareCarleson.A`, or an equivalent donor-depletion theorem. That reserve is not installed by current inputs.
+A square-source / active-window Carleson reserve prices that diffusion once
+supplied. The current surfaces identify exactly that reserve as
+`ScaleCriticalTreeCarleson.A`, `ActiveSquareCarleson.A`, or an equivalent
+donor-depletion theorem. That reserve is not installed by current inputs.
 
 ## What is proved
 
@@ -110,7 +120,17 @@ To upgrade finite-tree telescoping to `TwoTowerDonorDepletion.A`, the refill tre
 RefillTreeWellFounded.A.
 ```
 
-The non-Zeno entrance branch is controlled by original smooth tail decay. The terminal Zeno branch remains:
+The non-Zeno entrance branch is paid by `EntranceLeafDecay.A`:
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
+
+The terminal Zeno branch remains:
 
 ```math
 r_m\downarrow0,

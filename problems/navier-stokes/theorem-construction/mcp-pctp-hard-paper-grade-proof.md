@@ -88,7 +88,9 @@ The class witness at depth `N` dominates a continuation index `s>5/2`, so `End_N
 \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
 ```
 
-The standard periodic `H^s` local theory gives a lifespan depending only on that bound. Relaunching from times `t_j\uparrow T_*` extends the classical solution past `T_*`. Hence the maximal time satisfies
+The periodic `H^s`, `s>5/2`, local theory gives a lifespan depending only on
+that bound. Relaunching from times `t_j\uparrow T_*` extends the classical
+solution past `T_*`. Hence the maximal time satisfies
 
 ```math
 T_*=\infty.

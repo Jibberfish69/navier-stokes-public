@@ -43,7 +43,9 @@ Only after that point, the readout layer gives
 End_{NS,avg}+READ.COVER+Field.Read+DTC.Read\Longrightarrow End_{NS}.
 ```
 
-Then the standard continuation conversion would rule out a first finite endpoint.
+Then the `H^s`, `s>5/2`, continuation conversion would rule out a first finite
+endpoint by giving a common preterminal relaunch lifespan and uniqueness
+overlap.
 
 ## Failure point
 

@@ -99,7 +99,12 @@ The supplier estimate gives the same bound for the main positive carrier with co
 +o_N(1).
 ```
 
-Choose `\varepsilon>0` so that `\theta:=\theta_0+\varepsilon<1`, and absorb harmless ledger constants into the definitions of legal parent drain and legal loss.  This proves `PositiveRemainderDepletion.A` conditionally on `TerminalAngularMixing.A`.
+Choose `\varepsilon>0` so that `\theta:=\theta_0+\varepsilon<1`.  Redefine the
+legal ledgers once by fixed constants,
+`Drain_parent' := C Drain_parent` and `Loss_legal' := C Loss_legal`, before the
+summation over packets.  The constants are independent of `N` and of the
+selected terminal packet.  This proves `PositiveRemainderDepletion.A`
+conditionally on `TerminalAngularMixing.A`.
 
 ## Obstruction to the unconditional proof
 

@@ -35,7 +35,7 @@ Thus `FCI.5f` follows once the pressure, strain/cascade, and cutoff channels bel
 \int \phi_t\,\delta_hU_k\,\nabla\phi_t\cdot\nabla\delta_hU_k\,dx.
 ```
 
-Young absorption gives
+The Young-margin split gives
 
 ```math
 |\mathcal C_N^{cut}(h,t;\psi)|
@@ -68,7 +68,7 @@ Gronwall yields
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
 ```
 
-This is the actual use of `FCC.C1`: it consumes pressure and strain/cascade source control plus `\mathfrak b_\psi^{cut}\in L^1(I)`, then absorbs the cutoff channel.
+This is the actual use of `FCC.C1`: it consumes pressure and strain/cascade source control plus `\mathfrak b_\psi^{cut}\in L^1(I)`, then places the cutoff channel under the displayed Young-margin inequality.
 
 ## Line 2: FSCR.C strain/cascade supplier
 
@@ -206,8 +206,8 @@ gives `FCI.5f`.
 
 The expanded estimates are verified at the route ledger level:
 
-1. `FCC.C1` is fully expanded: exact commutator formula, Young absorption,
-   finite-net summation, Gronwall, and cutoff absorption.
+1. `FCC.C1` is fully expanded: exact commutator formula, Young-margin split,
+   finite-net summation, Gronwall, and cutoff-margin estimate.
 2. `FSCR.C_postLCI` is expanded through the representative triangular
    strain/cascade packets and the finite weighted Cauchy--Schwarz estimate.
    The exact same-depth theorem `FSCR.C` is not proved here.
@@ -220,7 +220,7 @@ The expanded estimates are verified at the route ledger level:
 
 ## Verification verdict
 
-1. `FCC.C1` is line-by-line verified as cutoff absorption after pressure and strain/cascade source controls plus `\mathfrak b_\psi^{cut}\in L^1(I)`.
+1. `FCC.C1` is line-by-line verified as a cutoff-margin estimate after pressure and strain/cascade source controls plus `\mathfrak b_\psi^{cut}\in L^1(I)`.
 2. `FSCR.C_postLCI` is verified from the coefficient-side estimate `(1+\mathfrak C^\delta)\mathcal F^\varepsilon`; the exact same-depth `FSCR.C` wall is not proved.
 3. `FPCR.C_postLCI` is verified from the `LH/HL + RR + far` pressure split under `\Gamma^{low}\in L^1(I)` and bounded `\mathcal F^\varepsilon`, with the noted `FFPB.A3`--`FFPB.A4` expansion boundary.
 4. The exact `FIRP.A0 => FPCR.C` branch is not promoted by this audit. `FIRP.A0` remains the exact smaller pressure theorem unless the separate fixed-threshold local attempt is accepted.

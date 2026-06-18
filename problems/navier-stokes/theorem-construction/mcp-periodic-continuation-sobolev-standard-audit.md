@@ -34,4 +34,7 @@ The pointwise endpoint package gives the terminal cover and pointwise field/towe
 
 ## Verdict
 
-The continuation step is a standard Sobolev continuation argument on `T^3`.
+The continuation step is the periodic `H^s`, `s>5/2`, relaunch argument on
+`T^3`: the displayed uniform bound gives a common local lifespan from
+preterminal times, and uniqueness on overlaps extends the same classical
+solution past the endpoint.

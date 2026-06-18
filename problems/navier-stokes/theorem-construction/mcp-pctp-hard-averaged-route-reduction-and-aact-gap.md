@@ -156,7 +156,7 @@ This closes the old pointwise endpoint matrix in the valid terminal order.
 
 If the averaged ACT theorem and its terminal finite-cover globalization hold on the face-free branch, then `PCTP.hard` follows.
 
-Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, or `Jump` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS`. The endpoint matrix excludes every first finite endpoint face. This contradicts first finite class exit and supplies the terminal-tail retained readout. The standard continuation criterion then continues the smooth solution past `T_*`.
+Proof. Suppose `T_*<\infty` and take a first finite endpoint. If one of `Dead`, `packing-detached`, `tower-blown`, or `Jump` occurs, it is an endpoint face. On the face-free branch, Lemmas 2 and 3 supply finite `SCF_base` good moving cylinders and local averaged tower seeds. By the assumed `AACT.KX` globalization, these local packets produce `DTC.A_avg` across the required finite terminal cover. Lemma 4 gives `End_NS`. The endpoint matrix excludes every first finite endpoint face. This contradicts first finite class exit and supplies the terminal-tail retained `H^s`, `s>5/2`, readout. The `H^s` relaunch criterion then gives a common preterminal restart lifespan and continues the same smooth solution past `T_*`.
 
 ## Attempted discharge of AACT.KX
 
@@ -178,7 +178,7 @@ The natural averaged budget is
 \le C(X_{avg}^{1/2}N_{avg}^{1/2}+X_{avg})+F_K.
 ```
 
-The local `ATD_m^\varepsilon` theorem supplies the small seed and the finite local coefficient ledgers on each shrunken good cylinder. Absorption then works on a single cylinder if the scheduler interval satisfies
+The local `ATD_m^\varepsilon` theorem supplies the small seed and the finite local coefficient ledgers on each shrunken good cylinder. The single-cylinder coefficient margin is retained if the scheduler interval satisfies
 
 ```math
 \left(\eta_X+\int_I(F_0+F_K)\right)

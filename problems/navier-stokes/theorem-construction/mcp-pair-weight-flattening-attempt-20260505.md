@@ -42,7 +42,16 @@ On the current lifted source wall, the one-sided tail weights have shell-size mi
 =-2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right).
 ```
 
-For legal separated shell edges with `\ell-j` in the active collar, this defect has order comparable to the larger shell weight unless an additional flattening mechanism is supplied.
+For legal separated shell edges with `\ell-j\ge d_0>0` in the active collar, the exact identity above gives the lower bound
+
+```math
+\left|2^j2^{-\sigma(\ell-j)}-2^\ell\right|
+=2^\ell\left(1-2^{-(1+\sigma)(\ell-j)}\right)
+\ge
+\left(1-2^{-(1+\sigma)d_0}\right)2^\ell.
+```
+
+Thus the defect retains a fixed positive fraction of the larger shell weight unless an additional flattening mechanism is supplied.
 
 ## Failed proof route
 

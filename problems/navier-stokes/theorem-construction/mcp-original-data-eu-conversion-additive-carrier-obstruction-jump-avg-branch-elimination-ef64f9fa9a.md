@@ -14,7 +14,9 @@ or build an additive E_u carrier with finite bounded-overlap upper control.
 
 The moving-frame local energy inequality supplies local balances on admissible same-fluid cylinders. In affine-relative coordinates, frame terms are controlled by the SCFBase packet and frame ledgers.
 
-A Poincare route would convert local energy to gradient mass if the E_u packet were already zero-mode-free or affine-relative with the local mean and affine modes removed.
+A Poincare route converts local energy to gradient mass only after the E_u
+packet is zero-mode-free or affine-relative with the local mean and affine modes
+removed.
 
 ## Obstruction
 

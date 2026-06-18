@@ -36,8 +36,8 @@ Here the localized source is decomposed as
 ## Attempt 1: absorb the positive remainder into local drain
 
 The pre-Cauchy local source contains the active strain/source pairing before
-absolute-value estimates erase parent geometry.  A direct drain estimate would
-require a packet inequality of the form
+absolute-value estimates erase parent geometry.  A direct drain estimate
+requires a packet inequality of the form
 
 ```math
 [\mathcal R_P]_+
@@ -66,7 +66,7 @@ G_N^{lift,\sigma}
 \sum W_{j,\ell}^{\sigma}R_{j,k,\ell}^{lift}.
 ```
 
-The existing signed route would need
+The existing signed route requires
 
 ```math
 \int G_N^{lift,\sigma}(t)\,dt\le C2^{-2\delta N}

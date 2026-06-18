@@ -114,7 +114,7 @@ on the heat tube. Thus the strain remainder contributes at most
 C r_T\|\nabla A_k(t)\|_{L^\infty(Q_T^*)}\|u\|_{\mathcal P_N}.
 ```
 
-Terms generated outside the strict tube are handled by the Gaussian weight. Polynomial factors such as `|y|/r_T` and `|y|^2/r_T^2` satisfy
+Terms generated outside the strict tube are handled by the Gaussian weight. Polynomial factors such as `|y|/r_T` and `|y|^2/r_T^2` are absorbed by the exact weight comparison
 
 ```math
 (1+|y|/r_T)^m e^{-a|y|^2/r_T^2}

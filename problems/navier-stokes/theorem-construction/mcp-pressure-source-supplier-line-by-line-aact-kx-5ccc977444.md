@@ -206,4 +206,4 @@ The `pressure-source-supplier-line-by-line` row is discharged for the live route
 FFSRC.A \Longrightarrow FCI.5f.
 ```
 
-The exact same-depth `FIRP.A0` branch remains open as a recorded alternative branch boundary. The remaining live Navier-Stokes blockers are `PCTP.hard` terminal-tail production, local `AACT.KX` absorption repair, and `Jump_avg` branch elimination.
+The exact same-depth `FIRP.A0` branch remains open as a recorded alternative branch boundary. The remaining live Navier-Stokes blockers are `PCTP.hard` terminal-tail production, local `AACT.KX` coefficient-margin repair, and `Jump_avg` branch elimination.

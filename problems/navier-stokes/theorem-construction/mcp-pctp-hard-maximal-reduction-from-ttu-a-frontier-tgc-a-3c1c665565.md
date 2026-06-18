@@ -70,7 +70,9 @@ READ.COVER+Field.Read+DTC.Read
 End_{NS}.
 ```
 
-Finally, endpoint tower control gives the usual continuation contradiction.
+Finally, endpoint tower control gives the `H^s`, `s>5/2`, continuation
+contradiction: a common preterminal relaunch lifespan and uniqueness overlap
+extend the same classical solution past `T_*`.
 
 ## Discharged or compressed cells
 

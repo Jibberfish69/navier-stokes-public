@@ -42,7 +42,8 @@ These are spacetime `L^2` controls.
 
 The pack ledger is spatial `L^\infty` along the active same-fluid packet. A localized high-frequency / high-amplitude strain packet can keep `L^2_x` mass finite while its pointwise operator norm becomes arbitrarily large on a small spatial set.
 
-For a smooth divergence-free test field localized at scale `r`, the gradient amplitude may scale like
+For a smooth divergence-free test field localized at scale `r`, the model assumes
+the pointwise gradient bound
 
 ```math
 |\nabla u_r|\le C_A A_r r^{-1}

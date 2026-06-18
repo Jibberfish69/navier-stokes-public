@@ -56,7 +56,7 @@ FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A.
 \mathcal N^{src,sc}\in L^1(I).
 ```
 
-`FCC.C1` supplies the cutoff channel by the exact cutoff commutator formula, Young absorption, and finite-net summation:
+`FCC.C1` supplies the cutoff channel by the exact cutoff commutator formula, Young-margin split, and finite-net summation:
 
 ```math
 \mathcal N^{src,cut}\in L^1(I).

@@ -86,7 +86,8 @@ This does not yield
 \int_0^{T_*}\|\nabla u(t)\|_{L^\infty}dt<\infty.
 ```
 
-Any direct derivation of that endpoint strain integral would already be a continuation-grade theorem.
+A direct derivation of that endpoint strain integral is already a
+continuation-grade theorem.
 
 ## Noncircular Pack-Native Target
 

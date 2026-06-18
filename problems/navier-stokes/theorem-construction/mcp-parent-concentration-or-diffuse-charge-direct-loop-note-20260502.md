@@ -64,7 +64,12 @@ For every fixed route constant `B`,
 
 Therefore finite banding and same-fluid edge fidelity do not prove `ParentConcentration.A`.
 
-For the diffuse-charge branch, the installed finite ledgers price raw energy, local-energy balance, pressure/cutoff losses, and illegal source-localization loss. They do not price legal parent branching entropy inside `\mathsf{Pred}(P)`. The active-square reserve would price this only after a square-source / active-window Carleson theorem is already installed, and that theorem is the same source-pulse wall in another form.
+For the diffuse-charge branch, the installed finite ledgers price raw energy,
+local-energy balance, pressure/cutoff losses, and illegal source-localization
+loss. They do not price legal parent branching entropy inside
+`\mathsf{Pred}(P)`. The active-square reserve prices this only after a
+square-source / active-window Carleson theorem is already installed, and that
+theorem is the same source-pulse wall in another form.
 
 Thus the direct route does not prove `DiffuseParentCharge.A` either.
 

@@ -154,7 +154,9 @@ The nonlinear derivative of `\mathcal B_{3,N}` has quartic form.  After paraprod
 +\mathcal L_{4,N}(t),
 ```
 
-where `\mathfrak S_N(t)` measures the same localized terminal low/intermediate strain/source coherence on the selected packets.  To close the corrected Bellman one would need
+where `\mathfrak S_N(t)` measures the same localized terminal low/intermediate
+strain/source coherence on the selected packets.  Closing the corrected Bellman
+requires
 
 ```math
 \int_I\mathfrak S_N(t)
