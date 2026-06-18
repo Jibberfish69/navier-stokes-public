@@ -1,7 +1,7 @@
 ---
 ns_viewer:
   theorem_id: parabolic-funnel-forward-control-analysis-20260611
-  status: forward-positive-control-reduction-scale-critical-cone-budget-open
+  status: forward-positive-control-reduction-scale-critical-cone-budget-and-moving-layer-to-ckn-bridge-open
   proof_role: forward_positive_first_cm_fallback_later
   logical_landing_node: parabolic_funnel_forward_control
   edge_effect: "Implements Thomas's correction: first analyze the shrinking parabolic cone as a dynamic reference-frame control problem, then use CM class exit only after a precise obstruction survives."
@@ -390,6 +390,14 @@ or
 ```text
 FunnelProfileLyapunov.A.
 ```
+
+and, after either route gives late moving-funnel slab smallness,
+
+```text
+FunnelSlabToCKN.A
+```
+
+or a direct moving-funnel epsilon-regularity theorem.
 
 Only after one of those forward attempts hits a precise obstruction should the
 obstruction be inspected as a CM class-exit witness. The current note does not
