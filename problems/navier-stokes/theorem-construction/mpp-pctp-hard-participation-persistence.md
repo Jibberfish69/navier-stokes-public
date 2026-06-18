@@ -4,7 +4,9 @@
 
 Conditional theorem installed for the `PCTP.hard` terminal-tail program.
 
-This note proves that participation failure is not an independent first terminal face once the one-field scale and tower amplitude remain controlled.
+This note proves that participation failure is not an independent first
+terminal face once the one-field scale, tower amplitude, and strict-response
+margin/closed-predicate input remain controlled.
 
 ## Theorem
 
@@ -24,6 +26,14 @@ r(t)\ge r_*>0.
 \qquad 0<t<T_*.
 ```
 
+4. Every strict neighboring-response clause in the finite `Part_{N,Q}` witness is either encoded as a closed non-strict terminal predicate, or has a retained margin
+
+```math
+\mathcal R_\ell(t)\ge\gamma_\ell>0
+```
+
+on the same terminal tail.
+
 Then `Part_{N,Q}` cannot fail first at `T_*`.
 
 Equivalently,
@@ -40,30 +50,33 @@ The installed exact class-membership witness expresses `Part_{N,Q}` through a fi
 
 It remains to check terminal closedness of the witness. By the positive `Field` scale, all witness comparisons are made on cylinders whose radii are bounded below by `r_*`. By the bounded tower amplitude to depth `N+1`, the velocity, pressure readouts needed by the finite-difference bridge, and their spatial increments are uniformly bounded and equicontinuous on those cylinders. Since only finitely many labels and finite depth `N` are involved, Arzela-type compactness gives terminal limits for every witness quantity entering `Part_{N,Q}`.
 
-The participation predicates are closed finite predicates under these limits: incidence of the retained same-fluid labels, nonzero neighboring response, and finite-difference compatibility survive after restricting to a sufficiently late terminal subtail. Therefore the limiting terminal witness still satisfies `Part_{N,Q}`.
+Incidence of the retained same-fluid labels and finite-difference compatibility are closed finite predicates under these limits.  Strict nonzero neighboring response survives only under the retained margin above, or under a closed non-strict terminal encoding of the response predicate. Therefore the limiting terminal witness still satisfies `Part_{N,Q}` only with this closed-predicate/margin input.
 
 Assume `Part_{N,Q}` is the first failed class-membership component. Then
-`Field_{N,r,Q}` and the tower amplitude remain controlled by definition of
-first failure. The closedness argument above gives `Part_{N,Q}` on the terminal
-tail, contradicting the assumption that participation is the first failed
-component.
+`Field_{N,r,Q}`, the tower amplitude, and the response margins remain
+controlled by hypothesis. The closedness argument above gives `Part_{N,Q}` on
+the terminal tail, contradicting the assumption that participation is the first
+failed component. If a response margin vanishes, that vanishing is itself the
+Part-face mechanism and is not ruled out by Field scale plus tower control.
 
-Thus participation cannot fail first unless either the positive field scale has already failed or the tower amplitude has already blown.
+Thus participation cannot fail first unless the positive field scale has
+already failed, the tower amplitude has already blown, or a strict
+neighboring-response margin has collapsed as the Part face.
 
 ## Consequence
 
 The dead endpoint reduces to the remaining primitive faces:
 
 ```math
-Dead\Longrightarrow Jump\vee tower\text{-}blown.
+Dead\Longrightarrow Jump\vee tower\text{-}blown\vee response\text{-}margin\text{-}collapse.
 ```
 
 Together with the pack-detachment endpoint-reduction lemma, the terminal-tail endpoint list reduces conditionally to
 
 ```math
-Jump\vee tower\text{-}blown.
+Jump\vee tower\text{-}blown\vee response\text{-}margin\text{-}collapse.
 ```
 
 ## Boundary
 
-This note does not prove terminal tower control or terminal positive field scale from `OriginalSmoothData`. It proves only that, once those two controls are present, participation cannot be the first terminal failure.
+This note does not prove terminal tower control, terminal positive field scale, or strict response-margin retention from `OriginalSmoothData`. It proves only that, once those controls are present or the strict clauses are closed non-strict terminal predicates, participation cannot be the first terminal failure.
