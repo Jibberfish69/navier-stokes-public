@@ -335,8 +335,21 @@ OneSidedNearBandMaterialStrainBV.A.
 Proving either theorem is the exact independence condition for the eigenframe
 route relative to the installed Carleson/Zeno inputs.  The present computation stops because
 the pressure Hessian and the signed source-current can sustain the selected
-positive coefficient after terminal localization, and absolute estimates of
-that term return to the scale-critical active source bound.
+positive coefficient after terminal localization.  The absolute-value route
+spends
+
+```math
+\|P^{loc}_{j,L}(S^2+\Omega^2+\nabla^2p)\|_\infty
+\le
+C_{\mathrm{CZ}}\|\nabla u\|_\infty^2,
+```
+
+which is the active-square coefficient strength, and the signed route produces
+the selected source-current term
+
+```math
+-\int Source_P^{loc}b_P\,dt.
+```
 
 The pressure-sustain atom is tested directly in
 `mpp-terminal-pressure-hessian-no-sustain-attempt-20260517.md`; that attempt
