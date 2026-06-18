@@ -254,8 +254,8 @@ The drift channel is fixed in the pressure gauge:
 ```
 
 So the carrier evolution pushes forward exactly to the classical incompressible
-Navier--Stokes system, with the pressure recovering the gradient remainder in
-the usual way:
+Navier--Stokes system. The pressure is the scalar potential whose gradient is
+the removed Leray-complement of the convective term:
 
 ```text
 -\Delta p = \nabla\cdot((u\cdot\nabla)u).
@@ -263,10 +263,11 @@ the usual way:
 
 **Proof.**
 Because `\rho` is the identity on the realized carrier, the linear and
-nonlinear intertwining identities follow from substituting the realized carrier into the defining formulas. The Leray projection removes
-the gradient component of the convective term, and the remaining gradient
-remainder is recovered as the pressure by solving the Poisson equation above
-with the standard normalization. \(\square\)
+nonlinear intertwining identities follow from substituting the realized carrier
+into the defining formulas. The Leray projection removes the gradient component
+of the convective term. The pressure is recovered by solving the Poisson
+equation above with zero spatial mean on `\mathbb T^3`, or with the declared
+decay/local normalization on `\mathbb R^3`. \(\square\)
 
 ### (f) Compactness
 
@@ -360,8 +361,11 @@ With the route sign convention,
 \langle \Delta_{D,\omega}X, X\rangle = \|\nabla X\|_{L^2}^2
 ```
 
-up to the standard identification of `\Delta_{D,\omega}` with the positive
-Stokes operator. This is the classical energy identity used by D.2 and D.6.
+after identifying `\Delta_{D,\omega}` with the positive Stokes operator
+`A=-\mathbb P\Delta` on the realized divergence-free carrier. Indeed,
+`<Au,u>_{L^2}=||\nabla u||_2^2` on the periodic surface and on `\mathbb R^3`
+under the declared decay/integration-by-parts hypotheses. This is the classical
+energy identity used by D.2 and D.6.
 
 ### Norm equivalence
 
@@ -380,10 +384,11 @@ control. Thus the abstract carrier norm and the classical Sobolev norm agree
 up to fixed constants.
 
 **Proof.**
-All quantities are the standard Euclidean Sobolev quantities on the realized
-divergence-free space. The route norm is a finite sum of `L^2`, first
-derivative, and vorticity-tier terms, so its equivalence with `H^1_\sigma` is
-the standard first-order Sobolev equivalence on the divergence-free subspace.
+On the realized divergence-free space, the route norm is a finite sum of `L^2`,
+first-derivative, and vorticity-tier terms. The inequalities above are exactly
+the finite-dimensional norm-comparison statement for those finitely many
+first-order terms against the `H^1_\sigma` norm; the constants are fixed by the
+chosen realized carrier norm and do not depend on the solution.
 \(\square\)
 
 **Proof of Theorem R1.**
@@ -521,8 +526,8 @@ The energy statement is the classical Leray estimate on the realized carrier.
 The regularity conclusion spends the Serrin hypothesis itself:
 `u\in L^p(0,T;L^q)` with `2/p+3/q\le 1` and `q>3`, attached to the same Leray
 solution. The Serrin continuation theorem then gives regularity on `[0,T]`;
-on `\mathbb T^3` the same hypothesis gives the periodic conclusion with the
-usual compactness simplifications. \(\square\)
+on `\mathbb T^3` no spatial tail-tightness hypothesis is needed because the
+domain is compact. \(\square\)
 
 ## Theorem T* (Global weak solution and closed limit construction)
 
@@ -548,20 +553,39 @@ in `\mathcal D'`, and
 ```
 
 **Proof.**
-Take the standard Galerkin truncations `P_N` and solve the finite-dimensional
-ODE
+On `\mathbb T^3`, let `P_N` be the `L^2`-orthogonal Fourier projection onto the
+finitely many divergence-free modes with `|k|\le N`. On `\mathbb R^3`, use the
+corresponding Leray-commuting Friedrichs/Fourier cutoff approximation. Solve
 
 ```text
 \partial_t u_N + P_N\big((u_N\cdot\nabla)u_N\big)=\nu P_N\Delta u_N.
 ```
 
-The ODE is global. The classical energy identity gives uniform bounds in
-`L^\infty(0,T;L^2_\sigma)\cap L^2(0,T;H^1_\sigma)`, and the time derivative is
-bounded in `L^2(0,T;H^{-1}_\sigma)`. Therefore Theorem R5 gives, after
-subsequence extraction, strong convergence in `L^2(0,T;L^2)` and convergence
-of the nonlinear term in distributions. The limit solves the projected
-Navier--Stokes equation, and lower semicontinuity yields the energy
-inequality. \(\square\)
+On the finite-dimensional periodic approximation this is a global ODE because
+the energy identity gives
+
+```text
+||u_N(t)||_2^2 + 2\nu int_0^t ||\nabla u_N(s)||_2^2 ds
+= ||P_Nu_0||_2^2.
+```
+
+The same identity holds for the Friedrichs approximation after testing against
+`u_N`. Thus `u_N` is uniformly bounded in
+`L^\infty(0,T;L^2_\sigma)\cap L^2(0,T;H^1_\sigma)`. Since
+`B:H^1\times H^1\to H^{-1}` continuously,
+
+```text
+||B(u_N,u_N)||_{L^1(0,T;H^{-1})}
+<= C||u_N||_{L^2(0,T;H^1)}^2,
+```
+
+and `\nu\Delta u_N` is bounded in `L^2(0,T;H^{-1})`; hence `\partial_t u_N`
+is bounded in `L^1(0,T;H^{-1})+L^2(0,T;H^{-1})`. The compactness statement R5
+then gives, after subsequence extraction, strong convergence in the local
+`L^2_tL^2_x` sense, globally on `\mathbb T^3` and globally on `\mathbb R^3`
+only after the stated tail-tightness input. The nonlinear term converges in
+distributions by the strong--weak pairing from R5. Lower semicontinuity yields
+the energy inequality. \(\square\)
 
 ## Status note
 
