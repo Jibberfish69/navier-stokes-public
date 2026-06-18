@@ -102,7 +102,40 @@ then the finite union bound and Markov give
 \varepsilon_{shell}\le A_{shell}/\theta_{shell}.
 ```
 
-For shrinking regular shells, `A_shell->0` follows from active shell-boundary regularity plus vanishing spherical shell mass.
+For shrinking regular shells, `A_shell->0` is the following finite-measure
+selection statement.  The shell list is finite.  Choose the inner and outer
+shell boundary radii outside the atom sets of the active radial measures.  If
+`S_{r,h}^{\pm}` is the thickness-`h` shell around one chosen boundary, then
+continuity from above for finite measures gives
+
+```math
+\eta_{r,\pm}(S_{r,h}^{\pm})\to0,
+\qquad
+\sigma_{r,\pm}(S_{r,h}^{\pm})\to0
+\qquad (h\downarrow0),
+```
+
+where `\eta_{r,\pm}` is the active averaged shell measure and
+`\sigma_{r,\pm}` is the spherical shell measure.  Therefore
+
+```math
+A_{shell}(h)
+:=
+\sum_{r,\pm}
+\int_{G_J}|\delta_{J,r}^{\pm}(a)-s_{\pm,r}^{shell}(h)|\,d\mu_j(a)
+\to0.
+```
+
+The shell loss then obeys
+
+```math
+\varepsilon_{shell}(h)
+\le
+A_{shell}(h)/\theta_{shell}
+\to0
+```
+
+for fixed `\theta_{shell}>0`.
 
 ## 4. C2 collar loss
 
