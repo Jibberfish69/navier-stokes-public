@@ -84,8 +84,17 @@ which the lower ball in `(RF.6)` has nonvanishing geometric size.
 
 ## Lemma `RF.A` (Energy Anchors The Base Rung Under Field Coherence)
 
-Assume `Field^{\le C}_{0,r,Q}` on a finite spatial section `Q_t`, and assume
-the energy bound
+Assume `Field^{\le C}_{0,r,Q}` on a finite spatial section `Q_t`.  Also assume
+the point being tested lies in a retained interior subsection
+`Q_t^{int}` with interior radius `r_{int}>0`, meaning
+
+```math
+B(x,r_{int})\subset Q_t
+\qquad\text{for every }x\in Q_t^{int}.
+\tag{RF.2}
+```
+
+Assume the energy bound
 
 ```math
 \|u(t)\|_{L^2(\mathbb T^3)}\le E_0^{1/2}.
@@ -95,7 +104,7 @@ the energy bound
 Then
 
 ```math
-\sup_{x\in Q_t}|u(x,t)|
+\sup_{x\in Q_t^{int}}|u(x,t)|
 \le
 C_{r,C,E_0,Q}<\infty.
 \tag{RF.4}
@@ -115,11 +124,11 @@ the same spatial section:
 If `|u(x_0,t)|=M`, then on a ball of radius
 
 ```math
-\rho=\min\{r,\ M/(2C)\}
+\rho=\min\{r,\ r_{int},\ M/(2C)\}
 ```
 
-inside the same local section after the standard interior shrink,
-`|u|\ge M/2`.  The energy inequality gives
+the ball `B(x_0,\rho)` lies inside the retained section, and the Lipschitz bound
+gives `|u|\ge M/2` on that ball.  The energy inequality gives
 
 ```math
 E_0
@@ -130,8 +139,11 @@ c\,M^2\rho^3.
 \tag{RF.6}
 ```
 
-If `M\le 2Cr`, use `\rho=M/(2C)`.  If `M>2Cr`, then `\rho=r` and
-`M^2\le C_rE_0`.  Hence `M` is bounded in all cases. `\square`
+If `M\le 2C\min\{r,r_{int}\}`, use `\rho=M/(2C)`.  If
+`M>2C\min\{r,r_{int}\}`, then `\rho=\min\{r,r_{int}\}` and
+`M^2\le C_{r,r_{int}}E_0`.  Hence `M` is bounded on the retained interior
+subsection. Without a positive retained interior radius, this lemma does not
+give a uniform boundary-adjacent bound. `\square`
 
 ## Lemma `RF.B` (Retained Field Bounds Higher Velocity Rungs)
 
