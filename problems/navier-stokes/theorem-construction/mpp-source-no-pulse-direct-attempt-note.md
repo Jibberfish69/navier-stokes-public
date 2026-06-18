@@ -260,7 +260,7 @@ audited supplier formulation.
 
 The consolidated terminal target stack is recorded in
 `mpp-source-no-pulse-terminal-target-stack-note.md`. It separates the installed
-pressure/source supplier cell `FFSRC.A=>FCI.5f` from the branch-native no-pulse
+pressure/source supplier cell `Hyp(FFSRC.A)=>FCI.5f` from the branch-native no-pulse
 atom and records `MSC.BadAC` as the sharpest current formulation.
 The normal-form audit
 `mpp-sourcepulse-normal-form-and-unspent-reserve-audit-note.md` further records
