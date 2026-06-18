@@ -259,8 +259,16 @@ estimate.
    `dyadic-high-frequency-gain-theorem.md`.
 3. Summing the dyadic blocks yields
    `\int_0^T \|\omega(t)\|_{B^0_{\infty,1}}\,dt < \infty`.
-4. The embedding `B^0_{\infty,1}\hookrightarrow L^\infty` and the standard
-   BKM continuation criterion then force smooth continuation beyond `T`.
+4. The embedding `B^0_{\infty,1}\hookrightarrow L^\infty` gives the exact BKM
+   input
+   ```math
+   \int_0^T\|\omega(t)\|_{L^\infty}\,dt<\infty .
+   ```
+   The BKM continuation theorem then yields a finite terminal Sobolev
+   continuation norm `M_s=\sup_{t<T}\|u(t)\|_{H^s}<\infty` for `s>5/2`.
+   Local `H^s` theory gives a uniform lifespan `\tau(\nu,s,M_s)>0`; launching
+   from times `t_j\uparrow T` with `T-t_j<\tau/2` and using uniqueness on the
+   overlap extends the same smooth solution beyond `T`.
 
 ### Boundary
 
