@@ -22,8 +22,8 @@ with radii `r_m\downarrow0`, terminal times `t_m\uparrow T_\ast`, and
 ```
 
 Assume the branch is legal same-fluid, has bounded packet-local local-energy
-data after the standard parabolic normalization, and carries nonzero normalized
-active source residue:
+data under the parabolic normalization defined below, and carries nonzero
+normalized active source residue:
 
 ```math
 \pi(P^{-m-1}\to P^{-m})\ge c_0>0.
