@@ -119,8 +119,8 @@ Pack_Q+Part_{N,Q}
 \forall r>0\,\neg Field_{N,r,Q}.
 ```
 
-So the Zeno terminal atom is the same kind of diagnostic as the Carleson tree:
-after Pack and Part survive, the selected terminal source atom breaks `Field`.
+So the Zeno terminal atom has the Carleson-tree landing: after Pack and Part
+survive, the selected terminal source atom breaks `Field`.
 
 The positive non-Carleson temporal anti-atom theorem remains separate.
 

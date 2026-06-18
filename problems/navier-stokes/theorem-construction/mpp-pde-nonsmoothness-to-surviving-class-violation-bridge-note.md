@@ -475,7 +475,8 @@ Lipschitz on `K`.
 
 ##### Lemma `MBR.C4` (Uniform time equicontinuity of the finite tower)
 
-Fix `N\ge 0` and a compact collar `K` as above. For `0\le k\le N`, the
+Fix `N\ge 0` and a compact collar `K` satisfying the hypotheses of `MBR.C3`.
+For `0\le k\le N`, the
 differentiated Navier--Stokes law gives
 
 ```math

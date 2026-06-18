@@ -722,8 +722,8 @@ coefficients multiply the localized quadratic packet. ∎
 
 Differentiate the same-fluid tower law through one more rung and localize with
 the moving collar cutoff. The target is a localized higher-rung energy identity
-for `\mathcal K_{N+1,m,\rho,\psi}^{\delta}` analogous in role to the packet
-defect identity `(MP.12)`.
+for `\mathcal K_{N+1,m,\rho,\psi}^{\delta}` serving the higher-rung version of
+the packet defect identity `(MP.12)`.
 
 Write
 

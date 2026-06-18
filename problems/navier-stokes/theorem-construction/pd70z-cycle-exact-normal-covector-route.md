@@ -144,7 +144,7 @@ spanned by `n_J(a)`. So the “finite normal coframe” alternative does not wid
 the theorem route: one measurable unit normal covector already captures the full
 normal information.
 
-With `n_J(a)` fixed as above, define
+With this `n_J(a)` fixed, define
 
 ```math
 n_J(a)\in (\mathbb R^3)^*,

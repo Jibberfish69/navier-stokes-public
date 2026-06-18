@@ -97,7 +97,7 @@ fixed constants `C_x,C_t`, take the selected cutoffs to be supported in
 \tag{SEP}
 ```
 
-or the analogous zero-overlap statement after scale separation.  Under `(SEP)`,
+or the zero-overlap statement obtained after scale separation.  Under `(SEP)`,
 the selected positive cross source has vanishing terminal mass in the tested
 Pack measure.
 

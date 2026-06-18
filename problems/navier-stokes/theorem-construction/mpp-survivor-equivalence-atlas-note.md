@@ -113,7 +113,7 @@ The bridge maps must preserve:
 
 ```math
 \text{same labels, same fluid family, same endpoint cell, same carrier law,
-same scale-limit object, and same proof direction.}
+same scale-limit object, and identical proof direction.}
 \tag{SEA.7}
 ```
 

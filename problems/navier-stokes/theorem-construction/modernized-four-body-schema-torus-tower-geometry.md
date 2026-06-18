@@ -543,7 +543,7 @@ and, in the parallel projected-flow language,
 
 ```math
 \boxed{
-\text{D.3 shadow/descent is the analogous object-production step on the NC route.}
+\text{D.3 shadow/descent is the corresponding object-production step on the NC route.}
 }
 \tag{6b}
 ```
