@@ -12,7 +12,7 @@ chunk:
   sequence: 84
   group_id: critical-norm-and-field
   title: Critical norm and Field 16
-  author_job: write critical-norm material as Field-side proof payment, support, obstruction,
+  author_job: write critical-norm material as Field-side proof argument, support, obstruction,
     or open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -285,17 +285,22 @@ chunk:
     text: |
       \subsection{Averaged Field-Face Admission}
 
-      This installs the missing admission bridge for the averaged Jump avg branch, with the standard CM depth requirement made explicit.
+      This records the averaged Jump avg admission bridge with the declared CM depth requirement and the separate same-tail \(\mathrm{SCF}_{\mathrm{base}}\) modulus requirement made explicit.
 
       \(\Pack_Q\) is retained, so the terminal object has a positive same-fluid packet and bounded transported chart geometry. \(\Part_{N,Q}\) is retained, so the same Navier-Stokes pressure-viscosity tower participates through depth \(N\). The depth \(N\) is chosen at least as large as the finite depth needed to control the components in \(\mathrm{SCF}_{\mathrm{base}}\): velocity fluctuation, local gradient energy, pressure normalization, and the same-fluid frame terms.
 
-      This depth requirement is already the intended CM witness depth in the paper: \(\Field_{N,r,Q}\) is a finite-depth one-field witness, and the local CKN-compatible \(\mathrm{SCF}_{\mathrm{base}}\) packet uses only finitely many local velocity, pressure, and frame quantities.
+      This depth requirement is already the intended CM witness depth in the paper: \(\Field_{N,r,Q}\) is a finite-depth one-field witness, and the local CKN-compatible \(\mathrm{SCF}_{\mathrm{base}}\) packet uses only finitely many local velocity, pressure, and frame quantities. Depth makes the components readable; it does not by itself prove the uniform small-scale \(\mathrm{SCF}_{\mathrm{base}}\) modulus.
 
       By the manuscript definition, \(\Field_{N,r,Q}\) means that, after \(\Pack_Q\) and \(\Part_{N,Q}\) have fixed the packet and participation readings, one positive scale carries coherent field data through depth \(N\) on the same witness record.
 
       In ordinary terms, the selected terminal packet still reads as one Navier-Stokes field on a positive same-fluid scale. Neighboring velocity-tower and pressure-viscosity readings fit together instead of degenerating into incompatible terminal traces.
 
-      On a smaller same-fluid cylinder inside that positive scale, the coherent depth-\(N\) field bound controls the local velocity oscillation, the local gradient-energy contribution, and the pressure normalization used by \(\mathrm{SCF}_{\mathrm{base}}\). Bounded Pack geometry controls the frame term. Since these are scale-critical local integrals of controlled quantities, shrinking the cylinder makes the normalized \(\mathrm{SCF}_{\mathrm{base}}\) value fall below the fixed \(\varepsilon_m\) threshold.
+      The old proof step being spent here was stronger than finite-depth field coherence. It treated controlled scale-critical components as though they automatically gave a uniform small-cylinder \(\mathrm{SCF}_{\mathrm{base}}\) gain. The exact replacement is a same-tail local modulus for the \(\mathrm{SCF}_{\mathrm{base}}\) packet:
+      \[
+        \omega_{\mathrm{SCF}}(\rho):=\sup_{z\in T'}\mathrm{SCF}_{\mathrm{base}}(Q_\rho^\Phi(z)),
+        \qquad
+        \lim_{\rho\downarrow0}\omega_{\mathrm{SCF}}(\rho)=0.
+      \]
 
       The bound is on the same terminal witness record, not on a separate readout
       % ... source excerpt truncated for packet size ...
@@ -508,23 +513,28 @@ chunk:
 
     \subsection{Averaged Field-Face Admission}
 
-    This installs the missing admission bridge for the averaged Jump avg branch, with the standard CM depth requirement made explicit.
+    This records the averaged Jump avg admission bridge with the declared CM depth requirement and the separate same-tail \(\mathrm{SCF}_{\mathrm{base}}\) modulus requirement made explicit.
 
     \(\Pack_Q\) is retained, so the terminal object has a positive same-fluid packet and bounded transported chart geometry. \(\Part_{N,Q}\) is retained, so the same Navier-Stokes pressure-viscosity tower participates through depth \(N\). The depth \(N\) is chosen at least as large as the finite depth needed to control the components in \(\mathrm{SCF}_{\mathrm{base}}\): velocity fluctuation, local gradient energy, pressure normalization, and the same-fluid frame terms.
 
-    This depth requirement is already the intended CM witness depth in the paper: \(\Field_{N,r,Q}\) is a finite-depth one-field witness, and the local CKN-compatible \(\mathrm{SCF}_{\mathrm{base}}\) packet uses only finitely many local velocity, pressure, and frame quantities.
+    This depth requirement is already the intended CM witness depth in the paper: \(\Field_{N,r,Q}\) is a finite-depth one-field witness, and the local CKN-compatible \(\mathrm{SCF}_{\mathrm{base}}\) packet uses only finitely many local velocity, pressure, and frame quantities. Depth makes the components readable; it does not by itself prove the uniform small-scale \(\mathrm{SCF}_{\mathrm{base}}\) modulus.
 
     By the manuscript definition, \(\Field_{N,r,Q}\) means that, after \(\Pack_Q\) and \(\Part_{N,Q}\) have fixed the packet and participation readings, one positive scale carries coherent field data through depth \(N\) on the same witness record.
 
     In ordinary terms, the selected terminal packet still reads as one Navier-Stokes field on a positive same-fluid scale. Neighboring velocity-tower and pressure-viscosity readings fit together instead of degenerating into incompatible terminal traces.
 
-    On a smaller same-fluid cylinder inside that positive scale, the coherent depth-\(N\) field bound controls the local velocity oscillation, the local gradient-energy contribution, and the pressure normalization used by \(\mathrm{SCF}_{\mathrm{base}}\). Bounded Pack geometry controls the frame term. Since these are scale-critical local integrals of controlled quantities, shrinking the cylinder makes the normalized \(\mathrm{SCF}_{\mathrm{base}}\) value fall below the fixed \(\varepsilon_m\) threshold.
+    The old proof step being spent here was stronger than finite-depth field coherence. It treated controlled scale-critical components as though they automatically gave a uniform small-cylinder \(\mathrm{SCF}_{\mathrm{base}}\) gain. The exact replacement is a same-tail local modulus for the \(\mathrm{SCF}_{\mathrm{base}}\) packet:
+    \[
+      \omega_{\mathrm{SCF}}(\rho):=\sup_{z\in T'}\mathrm{SCF}_{\mathrm{base}}(Q_\rho^\Phi(z)),
+      \qquad
+      \lim_{\rho\downarrow0}\omega_{\mathrm{SCF}}(\rho)=0.
+    \]
 
-    The bound is on the same terminal witness record, not on a separate readout cover. After passing to the retained terminal subtail, the same positive field scale and bounded same-fluid distortion give a uniform shrunken scale \(r_*>0\). Each point of that subtail has an \(\mathrm{SCF}_{\mathrm{base}}\)-good same-fluid cylinder with radius at least \(r_*\).
+    The bound is on the same terminal witness record, not on a separate readout cover. If the modulus holds, choose \(r_*\le r\) with \(\omega_{\mathrm{SCF}}(r_*)\le\varepsilon_m\). Then every point of \(T'\) has an \(\mathrm{SCF}_{\mathrm{base}}\)-good same-fluid cylinder with radius \(r_*\). Without this same-tail modulus, \(\Field_{N,r,Q}\) does not by itself imply \(\mathrm{Field}_{\mathrm{avg}}(T)\).
 
-    For this CM face landing, the Field admission bridge replaces the stronger high-frequency survivor-measure lower-bound demand. That stronger route may remain useful as a source-control or no-escape proof, but it is not required to consume \(\mathrm{Jump}_{\mathrm{avg}}\) once the same admitted averaged tail has the \(\Field_{N,r,Q}\Rightarrow\mathrm{Field}_{\mathrm{avg}}\) admission bridge.
+    For this CM face landing, the Field admission bridge replaces the stronger high-frequency survivor-measure lower-bound demand only after the same-tail \(\mathrm{SCF}_{\mathrm{base}}\) modulus is supplied. That stronger route may remain useful as a source-control or no-escape proof, but it is not required to consume \(\mathrm{Jump}_{\mathrm{avg}}\) once the same admitted averaged tail has the conditional \(\Field_{N,r,Q}+\mathrm{SCFBaseLocalModulus}_{N}\Rightarrow\mathrm{Field}_{\mathrm{avg}}\) admission bridge.
 
-    The remaining depth caveat is explicit: the CM witness depth must be selected high enough to dominate the local \(\mathrm{SCF}_{\mathrm{base}}\) components. If a future route tries to run \(\Field_{N,r,Q}\) at a weaker depth, this argument does not apply until that depth is upgraded.
+    The remaining caveat is therefore sharper than depth alone: the CM witness depth must be high enough to read the local \(\mathrm{SCF}_{\mathrm{base}}\) components, and the branch must supply the same-tail small-scale modulus above. Until that modulus is proved from \(\Field_{N,r,Q}\) or added to the Field face, the admission theorem is conditional on it.
 
 
 
@@ -578,11 +588,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67659
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -606,11 +616,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67708
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -634,11 +644,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67739
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -662,11 +672,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67772
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -690,11 +700,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:67791
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -718,11 +728,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68276
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -746,11 +756,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68291
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -774,11 +784,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:68312
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -799,7 +809,7 @@ author_contract:
   must_criticize:
   - attack the strongest claim in the replacement
   - name the exact sentence where a reader could lose the thread
-  - name any unpaid derivation that remains, or say why it is paid on the page
+  - name any unpaid derivation that remains, or say why it is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - raw note dump
@@ -810,7 +820,7 @@ author_contract:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -819,7 +829,7 @@ math_containment_rule: no free-running theorem pursuit; math work may enter only
   a named source sentence in this chunk
 verification_plan:
   before_apply: replace every author_replacement_required body with final TeX and
-    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+    fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-arc-map/source-field-author-packets/source-field-critical-norm-and-field-16.yaml
     --dry-run
   targeted_check: review only the changed source-field spans before any milestone
