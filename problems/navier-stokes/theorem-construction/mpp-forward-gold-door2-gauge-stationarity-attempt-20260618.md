@@ -124,9 +124,9 @@ Without `(GS.6)`, `ZenoNoDriftUniqueTangent.A` is not proved.
 ## Stationarity test
 
 A second attractive argument is long-window averaging in renormalized time:
-finite total renormalized production should give intervals where all production
-terms vanish, and compactness on those intervals should produce a stationary
-limit.
+to make this work, finite total renormalized production must give intervals
+where all production terms vanish, and compactness on those intervals must
+produce a stationary limit.
 
 The missing input is the finite action estimate itself.  Local energy and
 finite `L^1_s` source mass do not imply
