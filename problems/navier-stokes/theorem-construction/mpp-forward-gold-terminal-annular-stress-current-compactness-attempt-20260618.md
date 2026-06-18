@@ -8,13 +8,13 @@ current realization, curvature control, orientation noncancellation, or
 zero-defect stationarity.  This sharpens the Door 1 and Door 2 blockers; it
 does not close either door.
 
-Role: audit the stress-current balance suggested by the terminal annular flux
+Role: audit the stress-current balance for the terminal annular flux functional
 
 ```math
-\Phi_n
-\simeq
+\Phi_n(\ell)
+:=
 \int_{T_n}
-\bigl(u_n\otimes u_n+p_nI-\nu\nabla u_n\bigr)n_n\,d\mu_n .
+\ell\cdot\bigl(u_n\otimes u_n+p_nI-\nu\nabla u_n\bigr)n_n\,d\mu_n .
 \tag{TASC.1}
 ```
 
