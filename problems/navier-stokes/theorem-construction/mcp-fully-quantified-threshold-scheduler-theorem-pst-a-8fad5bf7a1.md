@@ -23,6 +23,24 @@ R_N\to0
 \tag{2}
 ```
 
+Fix a cell amplification budget `L_*` with `e^{L_*}\le2`, and set
+
+```math
+B_N:=\int_I A_N(t)dt,
+\qquad
+K_N:=1+\lceil B_N/L_*\rceil.
+```
+
+Assume the scheduler compatibility condition
+
+```math
+K_N\big(E_N(t_0)+R_N|I|\big)\to0.
+\tag{2a}
+```
+
+Equivalently, `(2a)` may be replaced by a uniform partition bound
+`\sup_N K_N<\infty` together with `(2)`.
+
 ## Theorem `Sched.A+`
 
 For every `\rho>0`, there exist a threshold `N`, an integer `K`, and a partition
@@ -39,17 +57,7 @@ such that
 
 ## Construction
 
-Choose a cell amplification budget `L_*` with
-
-```math
-e^{L_*}\le2.
-```
-
-For fixed `N`, set
-
-```math
-B_N:=\int_I A_N(t)dt.
-```
+Use the fixed cell amplification budget `L_*`.
 
 Choose a partition such that each cell satisfies
 
@@ -60,17 +68,21 @@ Choose a partition such that each cell satisfies
 This is possible by absolute continuity of the integral; one may take
 
 ```math
-K\le 1+\lceil B_N/L_*\rceil.
+K\le K_N.
 ```
 
-Choose `N` large enough that
+By `(2a)`, choose `N` large enough that
 
 ```math
-E_N(t_0)+R_N|I|\le \frac{\rho}{16K e^{L_*}}.
+E_N(t_0)+R_N|I|\le \frac{\rho}{16K_N e^{L_*}}.
 \tag{3}
 ```
 
-When `K` depends on `N`, choose `N` by the standard monotone selection: first choose a candidate threshold, compute `K`, then raise the threshold until `(3)` holds for that computed finite `K`. Since `E_N(t_0)` and `R_N` vanish as `N` increases, this terminates for any fixed computed partition size; if the partition is recomputed, repeat once and take the larger threshold. The resulting finite `K` is then fixed.
+After this `N` is chosen, choose any partition with `K<=K_N` cells satisfying
+the cell integral bound.  There is no monotone-selection shortcut here: if
+`K_N` grows with `N`, the vanishing of `E_N(t_0)` and `R_N` alone does not imply
+`(3)`.  The product condition `(2a)` is the exact hypothesis that pays the
+moving partition size.
 
 ## Propagation
 
@@ -145,7 +157,17 @@ A_N(t)=C_{\eta,M,\nu}\widetilde\Lambda_N^\sharp(t),
 R_N=C_*2^{-2\delta N}.
 ```
 
-`Coeff.A` supplies `A_N\in L^1(I)` for fixed `N`, and smooth data supplies `E_N(t_0)\to0`. Hence `Sched.A+` proves the scheduler step used by `PST.A`.
+`Coeff.A` supplies `A_N\in L^1(I)` for fixed `N`, and smooth data supplies
+`E_N(t_0)\to0`.  The scheduler step used by `PST.A` additionally requires
+
+```math
+\left(1+\left\lceil {1\over L_*}\int_I
+C_{\eta,M,\nu}\widetilde\Lambda_N^\sharp(t)dt\right\rceil\right)
+\left(E_N(t_0)+C_*2^{-2\delta N}|I|\right)\to0.
+```
+
+Without this product smallness, fixed-threshold integrability of `A_N` does not
+by itself select a tail threshold that survives the finite partition.
 
 ## Boundary
 
