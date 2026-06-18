@@ -41,7 +41,7 @@ the affine-frame defect
 \tag{AFD.1}
 ```
 
-because the harmless affine/shear sector must be quotiented out before the
+because the affine/shear gauge sector must be quotiented out before the
 higher-rung induction is replayed.
 
 So the exact first-center-rung question is not “can one bound `|U_1|` directly

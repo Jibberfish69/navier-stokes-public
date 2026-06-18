@@ -72,4 +72,4 @@ The repo has a downstream proof after `GoodScale.TTU`. The positive production t
 GoodScaleFailureToFieldExit.A
 ```
 
-This theorem should formalize that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.
+This theorem formalizes that an active terminal material point with no positive SCF-good cylinder is exactly a Field/Jump exit in the Pack/Part/Field grammar.

@@ -27,8 +27,10 @@ For the final pressure/dissipation charge
 \sum_\chi |p_\chi^{loc}|^{3/2}\,dx\,dt,
 ```
 
-`JAVG.2` asks for a scale-normalized upper estimate on separated terminal
-same-fluid windows:
+`JAVG.2` asks for a scale-normalized upper estimate on a separated terminal
+same-fluid window family `{Q_\ell}`.  Here `SCF_{norm}(Q_\ell)` denotes the
+normalized packet functional on `Q_\ell`; it is not the raw mass
+`\nu_{SCF}(Q_\ell)`:
 
 ```math
 \sum_\ell SCF_{norm}(Q_\ell)
@@ -42,7 +44,8 @@ Raw finite mass gives only
 \sum_\ell \nu_{SCF}(Q_\ell)\le C\nu_{SCF}(\text{total}),
 ```
 
-which is not scale-normalized and is therefore insufficient.
+which is not scale-normalized and is insufficient for the `Jump_avg`
+contradiction.
 
 ## Active-Shell Gain Hypothesis `AAG.A`
 
@@ -73,21 +76,38 @@ Assume active-shell amplitude gain:
 \tag{AAG.2}
 ```
 
-and the reserve summability
+and the reserve summability on the selected family
 
 ```math
+\sum_\ell
 \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j(t)\,dt
-\le
-C2^{-2\delta k_\ell}.
+\le C_R.
 \tag{AAG.3}
 ```
 
-Finally assume heat-scale dissipation-tail control on active intervals:
+Finally assume exact active-tail overlap/first-moment control.  In concrete
+terms, the selected family must satisfy
 
 ```math
+\mathcal M_{\mathcal Q}
+:=
+\sup_{j,t}
+\sum_\ell {\bf 1}_{I_\ell}(t){\bf 1}_{\{j\ge k_\ell-C_0\}}
+<\infty,
+```
+
+and the active first moment must obey
+
+```math
+\int_0^{T_\ast}\sum_j D_j(t)\,dt\le C_D(E_0,\nu).
+```
+
+Equivalently, the exact family estimate being spent is
+
+```math
+\sum_\ell
 \int_{I_\ell}\sum_{j\ge k_\ell-C_0}D_j(t)\,dt
-\le
-C2^{2k_\ell}|I_\ell|.
+\le \mathcal M_{\mathcal Q} C_D(E_0,\nu).
 \tag{AAG.4}
 ```
 
@@ -100,14 +120,13 @@ Under `(AAG.1)`--`(AAG.4)`, for every separated terminal window family
 \boxed{
 \sum_\ell SCF_{norm}(Q_\ell)
 \le
-C(E_0,\nu,\text{atlas},C_R).
+C(E_0,\nu,\text{atlas},\mathcal M_{\mathcal Q},C_R).
 }
 ```
 
 ## Proof
 
-Sum `(AAG.1)` over `\ell`. Bounded overlap and the finite terminal atlas reduce
-the sum to finitely many dyadic active-tail integrals:
+Sum `(AAG.1)` over `\ell`:
 
 ```math
 \sum_\ell SCF_{norm}(Q_\ell)
@@ -128,28 +147,22 @@ Use `(AAG.2)`:
 \int_{I_\ell}\sum_{j\ge k_\ell-C_0}r_j.
 ```
 
-Apply `(AAG.3)`--`(AAG.4)`:
+Sum over `\ell` and apply `(AAG.3)`--`(AAG.4)`:
 
 ```math
+\sum_\ell
 \int_{I_\ell}\sum_{j\ge k_\ell-C_0}2^{-j}D_j^2
 \le
-C\varepsilon\nu\,2^{2k_\ell}|I_\ell|
-+C2^{-2\delta k_\ell}.
+C\varepsilon\nu\,\mathcal M_{\mathcal Q} C_D(E_0,\nu)
++C_R.
 ```
 
-For heat-scale terminal windows,
-
-```math
-c_I\,2^{-2k_\ell}\le |I_\ell|\le C_I\,2^{-2k_\ell}.
-```
-
-Separated or bounded-overlap terminal packing makes the first term summable,
-and the dyadic reserve term is summable. Therefore
+Substituting this into the summed `(AAG.1)` estimate gives
 
 ```math
 \sum_\ell SCF_{norm}(Q_\ell)
 \le
-C(E_0,\nu,\text{atlas},C_R).
+C(E_0,\nu,\text{atlas},\mathcal M_{\mathcal Q},C_R).
 ```
 
 This proves `JAVG.2` under `AAG.A`.
@@ -185,7 +198,7 @@ Carleson estimate needs square control
 
 not only first-moment source or dissipation control.
 
-Thus `AAG.A` requires one of:
+The missing `AAG.A` input is one of:
 
 ```math
 \text{heat-scale square-source estimate},
@@ -225,4 +238,5 @@ OriginalSmoothData\Longrightarrow AAG.A
 }
 ```
 
-or any equivalent heat-scale square-source / direct active-square theorem.
+or a heat-scale square-source / direct active-square theorem with the same
+selected-family normalization and active-tail overlap hypotheses.

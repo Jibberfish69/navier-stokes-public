@@ -11,9 +11,9 @@ FiniteComplexity.TTU
 IntegrableLabelModulus.TTU.
 ```
 
-Neither is installed from `OriginalSmoothData` by the current repo inputs. Both
-are equivalent route-level ways of forbidding moving terminal strain spikes
-across a continuum label family.
+Neither is installed from `OriginalSmoothData` by the current repo inputs. They
+are two sufficient route-level structures for forbidding terminal strain spikes
+from moving through a continuum label family.
 
 ## Target A: `FiniteComplexity.TTU`
 
@@ -51,11 +51,11 @@ finite partition. They allow:
 ```
 
 The label `a_M` may move with the threshold and with terminal time. Compactness
-of the label family only gives convergent subsequences; it does not prevent
-spikes from visiting infinitely many shrinking label cells.
+of the label family only gives convergent subsequences; by itself it gives no
+finite partition `C_j` and no error functions `e_j` satisfying the displayed
+finite-complexity inequality.
 
-Thus endpoint compactness and threshold witnesses do not prove finite
-complexity.
+Endpoint compactness and threshold witnesses do not prove finite complexity.
 
 ## Target B: `IntegrableLabelModulus.TTU`
 
@@ -92,8 +92,8 @@ C_{\mathrm{label}}
 |\nabla_x^2 u(\Phi(a,t),t)|\,|\nabla_a\Phi(a,t)|.
 ```
 
-Therefore an integrable label modulus is controlled by a continuation-grade
-quantity such as
+A sufficient route to an integrable label modulus is the continuation-grade
+quantity
 
 ```math
 \int_{t_0}^{T_*}
@@ -101,35 +101,56 @@ quantity such as
 \Gamma_{pack,Q}(t)\,dt<\infty,
 ```
 
-or an equivalent finite-depth tower/modulus packet.
+or another finite-depth tower/modulus packet that implies the displayed
+integrable modulus inequality.
 
 The installed energy/enstrophy layer does not give this. `Pack.TTU` would help
 with `\Gamma_{pack,Q}`, but not with the terminal `\nabla^2u` modulus. Tower
 readout would help, but using tower readout upstream is circular for the direct
 terminal-tail proof.
 
-Thus `IntegrableLabelModulus.TTU` is not supplied from `OriginalSmoothData` by
-the current route.
+`IntegrableLabelModulus.TTU` is not supplied from `OriginalSmoothData` by the
+current route.
 
 ## Moving-Spike Normal Form
 
-Both structural hypotheses are exactly no-moving-spike rules. A compact label
-family can support smooth bump patterns
+The exact obstruction is the same label/time bump array exposed in the
+selector-uniformity note.  Let `A_Q=[0,1]`, choose pairwise disjoint label
+intervals `U_n` and pairwise disjoint terminal time intervals `I_n`, and choose
+nonnegative bumps `\phi_n(a)` and `\psi_n(t)` supported in those sets.  Choose
+amplitudes `A_n` so that
 
 ```math
-s(a,t)=\sum_n A_n\phi_n(a)\psi_n(t)
+A_n\int_{I_n}\psi_n(t)\,dt=1
 ```
 
-with supports moving through disjoint label cells and terminal time intervals.
-One can arrange every fixed label to have finite strain integral while the
-continuum supremum has divergent integral.
+and set
 
-Therefore the missing structural theorem can be named:
+```math
+s(a,t)=\sum_n A_n\phi_n(a)\psi_n(t).
+```
+
+Then every fixed label has finite strain integral, because each label belongs
+to at most one `U_n`, while
+
+```math
+\int_{t_0}^{T_*}\sup_a s(a,t)\,dt
+\ge
+\sum_n A_n\int_{I_n}\psi_n(t)\,dt
+= \sum_n 1
+=\infty.
+```
+
+Every fixed finite selector misses all but finitely many spikes.  This is an
+abstract strain-ledger countermodel, not a Navier--Stokes solution.
+
+The missing structural theorem can be named as the exact exclusion of that
+countermodel by one of the displayed sufficient structures:
 
 ```math
 \boxed{
 LabelNoMovingSpike.TTU:
-\text{terminal strain spikes have finite complexity or integrable label modulus.}
+\text{the terminal strain ledger satisfies FiniteComplexity.TTU or IntegrableLabelModulus.TTU.}
 }
 ```
 
@@ -153,5 +174,5 @@ The current repo does not prove
 OriginalSmoothData\Longrightarrow LabelNoMovingSpike.TTU.
 ```
 
-This is why the active route should remain the averaged route through
-`SOURCE.NO-PULSE.A`, unless a new finite-complexity/modulus theorem is installed.
+The active route remains the averaged route through `SOURCE.NO-PULSE.A` unless
+a new finite-complexity/modulus theorem is installed.

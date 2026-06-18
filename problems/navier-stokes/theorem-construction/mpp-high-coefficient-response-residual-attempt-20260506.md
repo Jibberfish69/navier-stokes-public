@@ -164,7 +164,9 @@ every output-visible term at shell `j` containing a far coefficient
 \tag{HCR.9}
 ```
 
-up to harmless rapidly decaying Fourier tails.
+plus only Schwartz-cutoff remainders satisfying, for every `A>0`,
+`||R_{j,q,\ell}||_2 <= C_A 2^{-A(|q-j|+|\ell-q|)}
+||u_q||_{L^\infty}||\nabla Z_\ell||_2`.
 
 ### Proof
 
@@ -181,11 +183,22 @@ Minkowski sum of annuli
 `c_{LP}2^q\le|\xi|\le C_{LP}2^q` and
 `c_{LP}2^\ell\le|\xi|\le C_{LP}2^\ell`. If
 `q>j+C` and `\ell\le q-K` for `K` larger than the cutoff overlap constant, the
-sum is supported at frequency comparable to `2^q`, hence disjoint from shell
+sum is contained in an annulus
+
+```math
+c'_LP2^q\le |\xi|\le C'_LP2^q
+```
+
+with constants depending only on the cutoff system, hence disjoint from shell
 `j`.  Thus the projection `P_j` vanishes.  Symmetrically, if
-`\ell\ge q+K`, the output is comparable to `2^\ell`, again disjoint from
-shell `j`. The only output-visible region is `|\ell-q|\le C_{beat}`, where
-`C_{beat}` is fixed by the cutoff overlap.
+`\ell\ge q+K`, the output is contained in an annulus
+
+```math
+c'_LP2^\ell\le |\xi|\le C'_LP2^\ell,
+```
+
+again disjoint from shell `j`. The only output-visible region is
+`|\ell-q|\le C_{beat}`, where `C_{beat}` is fixed by the cutoff overlap.
 `\square`
 
 ## 5. Consequence

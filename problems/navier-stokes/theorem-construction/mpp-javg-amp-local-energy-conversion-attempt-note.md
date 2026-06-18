@@ -46,8 +46,8 @@ R^{-2}\iint_{Q_R^\Phi}|u-u_R^{aff}|^3
 C(A_R^{aff}D_R)^{3/4}.
 ```
 
-Thus an `SCF_base` threshold carried by the velocity term either sees `D_R`, or
-it sees the amplitude channel `A_R^{aff}`. The target is to force that amplitude
+An `SCF_base` threshold carried by the velocity term either sees `D_R`, or it
+sees the amplitude channel `A_R^{aff}`. The target is to force that amplitude
 channel back into `D_R+P_R^{loc}`.
 
 ## Local Energy Attempt
@@ -67,11 +67,22 @@ A(t_1)
 
 The pressure term is controlled by `P_R^{loc}` plus the already separated
 harmonic/far carrier. The cutoff and frame terms are controlled by the bounded
-same-fluid geometry. The convective term is exactly the active amplitude flux
-which, after interpolation, carries the same scale-critical factor as the
-velocity term.
+same-fluid geometry. For `v=u-u_R^{aff}`, the convective term obeys the exact
+normalized interpolation bound
 
-Therefore the local energy inequality yields only the dichotomy:
+```math
+|F_{conv}|
+\le
+C\,R^{-2}\iint_{Q_R^\Phi}|v|^3
+\le
+C(A_R^{aff}D_R)^{3/4}.
+```
+
+This is the active amplitude flux. It is not absorbed by `D_R+P_R^{loc}` unless
+an additional amplitude-gain, recurrence-decay, or active-flux depletion theorem
+controls `A_R^{aff}`.
+
+The local energy inequality yields only the dichotomy:
 
 ```math
 A_R^{aff}\text{ is paid by }D_R+P_R^{loc},

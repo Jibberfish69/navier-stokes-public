@@ -30,7 +30,7 @@ c\varepsilon\nu^3 2^{3j}
 +C\nu^2 2^j2^{-2\delta j}|I|^{-1},
 ```
 
-then integration gives the heat-scale square-source estimate immediately. The
+then integration gives the heat-scale square-source estimate. The
 scalar response lemma then yields the single-shell active-square estimate:
 
 ```math
@@ -53,14 +53,15 @@ AWG.A.
 ## Unconditional Attempt
 
 The nonlinear shell flux `F_j` is trilinear in the Littlewood-Paley components
-of `u`. A universal estimate from `OriginalSmoothData` alone would have to rule
-out source-balanced active pulses at terminal active shells.
+of `u`. A universal estimate from `OriginalSmoothData` alone therefore requires
+a theorem excluding source-balanced active pulses at terminal active shells.
 
-The fixed-shell amplitude test blocks this. Scaling a smooth finite-mode
-divergence-free profile by amplitude `A` makes `F_j` scale cubically and
-`|F_j|^2` scale like `A^6`. Smoothness and finite energy give data-dependent
-raw bounds, not the active heat-scale normalization needed on moving terminal
-shells.
+The fixed-shell amplitude test blocks this. For a smooth finite-mode
+divergence-free test field `phi` with `F_j(phi) != 0`, the family `u_A=A phi`
+gives `F_j(u_A)=A^3F_j(phi)` and
+`|F_j(u_A)|^2=A^6|F_j(phi)|^2`. Smoothness and finite energy give
+data-dependent raw bounds, not the active heat-scale normalization needed on
+moving terminal shells.
 
 ## Verdict
 

@@ -1,19 +1,20 @@
 ---
 ns_viewer:
-  theorem_id: generic-pack-part-face-exclusion-blocker-demotion-20260607
+  theorem_id: generic-pack-part-face-exclusion-blocker-target-repair-20260607
   status: installed-target-repair
-  proof_role: blocker_demotion
+  proof_role: target_repair
   logical_landing_node: cm_class_membership_program_attempts
-  edge_effect: "Demotes generic Pack/Part no-face-exclusion as the wrong local CM target and restores finite-obstruction inventory coverage as the current proof gate."
+  edge_effect: "Replaces generic Pack/Part no-face-exclusion with row-level same-witness CM entry and Pack/Part/Field certification as the current proof gate."
   upstream_origin: "June 3 counterexample-exclusion target correction plus June 7 Pack/Part working passes."
   downstream_consequence: "The current route remains on row-level same-witness CM entry and Pack/Part/Field certification, with no generic Pack/Part global blocker open."
 ---
 
-# MPP Generic Pack/Part Face-Exclusion Blocker Demotion
+# MPP Generic Pack/Part Face-Exclusion Blocker Target Repair
 
 Date: 2026-06-07
 
-Status: installed target repair; the generic Pack/Part face-exclusion work order is demoted.
+Status: installed target repair; the generic Pack/Part face-exclusion work
+order is stale as a generic global blocker.
 
 ## Point
 
@@ -36,7 +37,8 @@ The correct question is row-level:
 For each proof-bearing finite terminal obstruction O:
   O enters the same-solution CM terminal test,
   O lands in the first Pack/Part/Field face it actually breaks,
-  and non-proof rows are demoted instead of carried as theorem burdens.
+  and non-proof rows are classified as support instead of carried as theorem
+  burdens.
 ```
 
 ## Governing Sources
@@ -102,8 +104,9 @@ open Clay blockers.
 ## Result
 
 `same-solution-terminal-pack-retention` and
-`retained-pack-original-ancestry-part-survival` are demoted as generic global
-blockers. They remain useful warning labels for failed no-exit proof attempts.
+`retained-pack-original-ancestry-part-survival` are reclassified as stale
+generic global blockers. They remain useful warning labels for failed no-exit
+proof attempts.
 
 The current CM theorem state is governed by the finite-obstruction inventory
 gate, not by generic Pack/Part face exclusion.

@@ -87,16 +87,35 @@ Energy gives
 C_E^{1/2}2^{-N+M}.
 ```
 
-Hence, for large `N`,
+The old loose step was to say that this is absorbed for large `N`.  The exact
+shifted-tail statement is
+
+```math
+\mathfrak H_N^{HH}(t)
+\le
+C_{\mathrm{HH}}C_E^{1/2}2^{-N+M}
+\sum_{j\ge N-M}2^{4j}\|\Delta_j u(t)\|_2^2.
+```
+
+Choose `N_*` so that
+
+```math
+C_{\mathrm{HH}}C_E^{1/2}2^{-N_*+M}\le \frac{\eta\nu}{2}.
+```
+
+Then for `N\ge N_*`,
 
 ```math
 \mathfrak H_N^{HH}(t)
 \le
 \frac{\eta\nu}{2}
-\sum_{j\ge N}2^{4j}\|\Delta_j u(t)\|_2^2.
+\sum_{j\ge N-M}2^{4j}\|\Delta_j u(t)\|_2^2.
 ```
 
-Thus the genuine high-high packet is absorbable into gradient dissipation at high cutoff. This closes the high-high part of the cascade estimate.
+The route form with `\sum_{j\ge N}` is valid only after the fixed collar
+`N-M\le j<N` is included in the threshold-spill packet or after the high-side
+cutoff is reindexed by the fixed width `M`.  Thus the genuine high-high packet
+closes only under that shifted-tail or collar-bookkept interpretation.
 
 ## 3. Strict low-mode coefficient remains
 

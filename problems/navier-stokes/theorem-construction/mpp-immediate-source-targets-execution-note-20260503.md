@@ -1,8 +1,8 @@
-# MPP Immediate Source Targets Execution Note
+# MPP Route-Selected Source Targets Execution Note
 
 ## Status
 
-Execution pass on the immediate theorem targets behind branch-native
+Execution pass on the route-selected theorem targets behind branch-native
 `Jump_avg` elimination.
 
 The downstream route is already reduced to:
@@ -19,7 +19,7 @@ Jump_{avg}\Rightarrow\bot
 PCTP.hard/TTU.A.
 ```
 
-Thus the immediate mathematical work is not endpoint bookkeeping, source
+Thus the selected mathematical work is not endpoint bookkeeping, source
 supplier verification, or class-membership assembly.  It is the source-pulse
 atom:
 
@@ -33,7 +33,12 @@ SignedLocalSource.A.
 }
 ```
 
-## Immediate Targets Executed
+## Route-Selected Targets Executed
+
+Exactness audit: no target in this note is selected by temporal immediacy or by
+an assumed typical profile.  The targets below are selected only by the displayed
+route implications, measure decompositions, and branch exclusions.  Downstream
+use must cite one of those exact reductions, not the old filename wording.
 
 ### 1. Direct nonlinear shell-flux/source control
 
@@ -88,9 +93,11 @@ current route resolution.
 Target:
 
 ```math
-\int_{I_j}\omega_j\cdot S_{<j}\omega_j
+\int_{I_j}\int
+\big[\omega_j\cdot S_{<j}\omega_j\big]_+\,dx\,dt
 \le
-\varepsilon\nu\int_{I_j}|\nabla\omega_j|^2
+\varepsilon\nu\int_{I_j}\int|\nabla\omega_j|^2\,dx\,dt
++
 C_\varepsilon 2^{-2\delta j}.
 ```
 
@@ -220,7 +227,7 @@ new rigid ancient source-residue class plus Liouville theorem.
 
 ## Closed Target List
 
-The immediate wrappers are no longer independent next targets:
+The route-level wrappers are no longer independent next targets:
 
 ```math
 MSC.BadAC,
@@ -435,9 +442,9 @@ bounded ancient vorticity, self-similarity, axisymmetry/two-dimensionality, or
 native source-cancellation class.  The rigidify slot therefore needs a new
 localization plus rigid ancient/ancestral exclusion theorem.
 
-## No-Hidden Immediate Target
+## No-Hidden Route-Selected Target
 
-After the deeper slot pass, the immediate target list is exactly:
+After the deeper slot pass, the current route-selected target list is exactly:
 
 ```math
 TPS.Remove.A
@@ -562,7 +569,7 @@ charge, and rigidify jobs for `\mu_{\ast}^{sing}`.
 
 ## Exact Remaining Mathematical Theorem
 
-The only immediate math target left is:
+The only route-selected math target left is:
 
 ```math
 \boxed{

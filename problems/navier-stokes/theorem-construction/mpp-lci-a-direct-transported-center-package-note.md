@@ -657,7 +657,7 @@ is the oscillation output of `EOC.A`, and
 ```
 
 is the residual-forcing input in `RCF.A`. Therefore using these ledgers as
-unproved coefficients inside `DTC.LINEAR` would reintroduce the same
+unproved coefficients inside `DTC.LINEAR` reintroduces the same
 transported-center package that `DTC.A` is supposed to supply.
 
 Thus `DTC.LINEAR` is a conditional bridge, not a closed direct
@@ -1101,7 +1101,7 @@ F_{\mathrm{mid}}^{aff}(t)
 still requires a noncircular lower-rung induction or a dissipative absorption
 argument of the `ACT.E1` / `ACT.E2` type. Reading the needed lower-rung
 `L^\infty` coefficients from the desired `\mathcal E_{ACT}\in L^\infty`
-conclusion would recreate the circular bootstrap marked in `(ACT.Bad)`.
+conclusion recreates the circular bootstrap marked in `(ACT.Bad)`.
 
 ### Lemma `DTC.AFF-L3` (Pressure and Top-Forcing Gate)
 
@@ -1296,9 +1296,11 @@ F_{press,r}(t),
 \tag{DTC.AFF-S3}
 ```
 
-where local same-rung derivative factors are absorbed by
-`\mathcal D_r^{aff}` and harmonic tails are supplied by far-tail ledgers. If
-the local pressure response uses `CSP.A`, this stage estimate is circular.
+where local same-rung derivative factors are controlled by Young inequalities
+whose total dissipative leakage is part of the displayed
+`\varepsilon\nu\mathcal D_r^{aff}` margin, and harmonic tails are supplied by
+far-tail ledgers. If the local pressure response uses `CSP.A`, this stage
+estimate is circular.
 
 The cutoff/frame estimate is
 
@@ -1333,7 +1335,7 @@ ACT.E2.
 ### Scale-Small Affine Excess Route `ACT.ScaleSmall`
 
 There is a second sufficient route to `ACT.E1` / `ACT.E2`: replace the raw
-`L^1` coefficient demand by a scale-small affine-excess absorption. This route
+`L^1` coefficient demand by a scale-small affine-excess coefficient margin. This route
 is conditional and must not be read as an unconditional closure.
 
 Define a scale-normalized affine excess on one affine center cylinder by
@@ -2357,8 +2359,8 @@ C_{\mathrm{Kcore}}
 is a valid post-readout estimate after `ACT.Actr_core`, `AXP.A`, and
 `Y_{\mathrm{read}}\in L^\infty` are already available. It is not a proof of the
 pre-pressure supplier `ACT.Kcore`, because the ordered route uses `ACT.Kcore`
-to obtain `ACT.Actr_core`. Promoting `(DTC.AFF-Kcore10)` to `ACT.Kcore` would
-spend the core amplitude and readout package that `ACT.Kcore` is supposed to
+to obtain `ACT.Actr_core`. Promoting `(DTC.AFF-Kcore10)` to `ACT.Kcore` spends
+the core amplitude and readout package that `ACT.Kcore` is supposed to
 feed. A noncircular closure must either prove the native supplier cells
 `K0.Core`, `E1.Aff`, and `Kmid.Core` directly before `ACT.Actr_core`, or replace
 the ordered route by an explicitly named simultaneous core/excess bootstrap
@@ -2368,7 +2370,7 @@ Let
 
 ```math
 \mathcal X(t):=\mathcal X^{exc}(t)
-\quad\text{for the absorbable excess part}
+\quad\text{for the first-exit small excess part}
 \tag{DTC.AFF-X2}
 ```
 
@@ -2488,9 +2490,17 @@ and `\mathcal X(t_0)\le\eta_X`, then the first-exit argument gives
 \tag{DTC.AFF-X11}
 ```
 
-Indeed, before the first time when `\mathcal X=4\eta_X`,
-`(C_{cut}+C_{press})\mathcal X^{1/2}\mathcal N` is absorbed into the left side of
-`(DTC.AFF-X4)`, and Gronwall plus `(DTC.AFF-X10)` prevents the exit.
+Indeed, before the first time when `\mathcal X=4\eta_X`, the definition
+`(DTC.AFF-X9)` gives
+```math
+(C_{cut}+C_{press})\mathcal X^{1/2}
+\le
+(C_{cut}+C_{press})(4\eta_X)^{1/2}
+=\frac{c_\nu}{2}.
+```
+Thus the square-root excess term moves to the dissipative side of
+`(DTC.AFF-X4)` with half of the \(c_\nu\mathcal N\) margin left, and Gronwall
+plus `(DTC.AFF-X10)` prevents the exit.
 
 Therefore:
 
@@ -2508,9 +2518,9 @@ ACT.ScaleSmall:
 
 #### Named `ACT.X-*` Subtheorem Ledger
 
-The scale-small branch should be recorded as a sequence of named atoms. The
-important correction is that the full readout packet and the small bootstrap
-packet are different objects.
+The scale-small branch is recorded as a sequence of named atoms. The important
+correction is that the full readout packet and the small bootstrap packet are
+different objects.
 
 `ACT.X-Def` defines the normalized affine excess. With
 
@@ -2547,8 +2557,9 @@ The full readout packet is
 
 Only `\mathcal X^{exc}` is the smallness variable. The center zero modes in
 `\mathcal A_{\mathrm{core}}^{ctr}+\mathcal A_{\mathrm{buf}}^{ctr}` are
-retained for raw tower readout but are not part of the quantity absorbed by
-small affine excess.
+retained for raw tower readout but are not part of the first-exit smallness
+variable. The only smallness spend is the first-exit condition
+`(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\le c_\nu/2`.
 
 The normalized dissipation is
 
@@ -2925,7 +2936,9 @@ F_{press}(t).
 The far-tail half of `ACT.X-Press_energy` is handled by energy. The local
 fixed-ball pressure response is reduced by the native affine normal form to the
 quadratic residual core plus annular terms; its only non-`L^1` residue is the
-scale-small absorbable term `C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`.
+scale-small first-exit term
+`C_{press}(\mathcal X^{exc})^{1/2}\mathcal N`, spendable only under
+`(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\le c_\nu/2`.
 
 The top-viscous part of `AXE.2` is separate: it is read from the included
 `m+2` buffer modes inside `\mathcal Y^{read}`. In particular,
@@ -3008,8 +3021,9 @@ F_{cut,visc}\in L^1(I).
 This is the static viscous cutoff commutator estimate from derivatives of
 `\zeta`; it is handled by Cauchy--Young and the fixed affine ball constants.
 
-Adding `(AXE.1)`--`(AXE.4)` and choosing `\varepsilon` small enough to absorb
-all dissipative pieces gives the affine-excess line
+Adding `(AXE.1)`--`(AXE.4)` gives the affine-excess line after the displayed
+Cauchy--Young parameters are chosen so that the total dissipative leakage is at
+most \(c_\nu\mathcal N/4\):
 
 ```math
 AXE.A:
@@ -3117,7 +3131,7 @@ The variable used in the scheduler is
 \tag{DTC.AFF-KX1}
 ```
 
-but the scale-small absorption uses only `\mathcal X^{exc}`:
+but the scale-small coefficient-margin step uses only `\mathcal X^{exc}`:
 
 ```math
 C_X(\mathcal X^{exc})^{1/2}\mathcal N.
@@ -3139,8 +3153,8 @@ ACT.Actr_{\mathrm{core}}.
 \tag{DTC.AFF-KX3}
 ```
 
-The latter route would be circular because `ACT.X-MidRaw` contains the
-zero-mode linearized middle terms in `(AXE.1a)`.
+The latter route is circular because `ACT.X-MidRaw` contains the zero-mode
+linearized middle terms in `(AXE.1a)`.
 
 The correct seed input is not retained smoothness itself, but the scale-small
 seed theorem proved from retained smoothness:
@@ -3167,7 +3181,7 @@ Retained smooth center-ball regularity is the proof source for
 derivative in the packet, the installed affine remainder is locally continuous
 after the appropriate center mode is subtracted. For `q=1`, the installed
 remainder is `U_1(c_j+G_jy,s_a)-U_1(c_j,s_a)` in the affine frame; subtracting
-an additional `\nabla U_1(c_j,s_a)y` would be a different packet, not this
+an additional `\nabla U_1(c_j,s_a)y` gives a different packet, not this
 `ACT.X-Scale` theorem. With the installed packet,
 `\mathcal X^{exc}(s_a;R)\to0` as `R\downarrow0`; finite centers and rungs allow
 one common admissible `R_a`. This uses the shrink-admissibility of the
@@ -3277,7 +3291,7 @@ that the budgets
 \tag{DTC.AFF-XSched2}
 ```
 
-stay below the fixed absorption budget. This is why `ACT.KX` is simultaneous:
+stay below the fixed coefficient-margin budget. This is why `ACT.KX` is simultaneous:
 the center coefficient is not an external pre-bootstrap input.
 
 `ACT.X-Absorb` fixes one retained interval and lets `T_\ast` be the first time
@@ -3453,7 +3467,7 @@ C_X(\mathcal X^{exc})^{1/2}\mathcal N
 \tag{AXP.5}
 ```
 
-Absorbing this term in the affine-excess line of `ACT.KX`, while the center
+Placing this term under the affine-excess coefficient margin in `ACT.KX`, while the center
 system is controlled by `(DTC.AFF-KX6)`, yields
 
 ```math
@@ -3576,7 +3590,7 @@ retained restart, the scheduler budget condition, and `RWS.C_scale` to transfer
 small-radius packets to the fixed-radius readouts. Finiteness of `F,L` alone is
 not the same as `ACT.X-Seed`.
 
-#### Sublemma `ACT.X-Boot` Inside `ACT.KX` (Seed + Scheduler + Absorption)
+#### Sublemma `ACT.X-Boot` Inside `ACT.KX` (Seed + Scheduler + Coefficient Margin)
 
 The retained-window scheduler naming is now decomposed into three atoms:
 
@@ -3624,8 +3638,9 @@ C_X(\mathcal X^{exc})^{1/2}\mathcal N
 ```
 
 so Gronwall gives `\mathcal X^{exc}\le2\eta_X`, contradicting an exit at
-`4\eta_X`. Integrating the absorbed inequality gives `\mathcal N\in L^1` on
-each retained interval, and the finite sum over intervals gives
+`4\eta_X`. Integrating the post-absorption inequality, which still retains a
+positive \(c_\nu\mathcal N/2\) margin, gives `\mathcal N\in L^1` on each
+retained interval, and the finite sum over intervals gives
 
 ```math
 \mathcal X^{exc}\in L^\infty(I),
@@ -3729,15 +3744,17 @@ three-channel frozen-family packet:
 ```math
 LCI.A
 \Longrightarrow
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 (FCI.5f).
 \tag{DTC.AFF22}
 ```
 
-Here `FCC.C1` absorbs the cutoff channel into viscous dissipation plus
-`\mathfrak b_\psi^{cut}\mathcal F_{N,\rho,\psi}^{\varepsilon}` with
-`\mathfrak b_\psi^{cut}\in L^1(I)`, `FSCR.C` is the finite strain/cascade
+Here the corrected `FCC.C1` places the cutoff channel under the Young-margin
+bound with viscous dissipation plus the weighted cutoff-defect ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}`; that ledger must be in
+`L^1(I)` or supplied by a separate domination theorem. `FSCR.C` is the finite strain/cascade
 Leibniz bound
 `C_N(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\mathcal F_{N,\rho,\psi}^{\varepsilon}`,
 and `FPCR.C` is the frozen pressure split into low-high/high-low, resonant
@@ -4302,7 +4319,7 @@ source-side and endpoint-side packets are now separately promoted under the
 post-`LCI.A` source hypotheses and accepted endpoint certificates:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\to FCI.5f,
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\to FCI.5f,
 \qquad
 DTC\text{-to-TowerBound}\to END.TowerAmp\to END.TowerBound,
 \qquad
@@ -4324,7 +4341,7 @@ LCI.A,
 ```
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f,
 \tag{DTC.39b}
@@ -4395,10 +4412,10 @@ route theorem. The route-valid receiver cells materialized here are:
 | `NKF.Ann` | projected annular remainder `\Pi_{ann}` | annular pressure is controlled after affine modes are projected away |
 | `NKF.Quad` | pointwise quadratic pressure residual | quadratic pressure feeds the pressure package at the bootstrap scale |
 | `ACT.X-Press` | `ACT.X-Press_energy` plus post-`ACT.KX` `ACT.X-Press_cell` | the named pressure package is `NKF.Native+NKF.Ann+NKF.Quad => ACT.X-Press` |
-| `ACT.X-Cut` | moving-cutoff affine-defect term | contributes only the absorbable `C_{cut}(\mathcal X^{exc})^{1/2}\mathcal N` residue |
+| `ACT.X-Cut` | moving-cutoff affine-defect term | contributes only the first-exit residue `C_{cut}(\mathcal X^{exc})^{1/2}\mathcal N`, spendable under `(C_{cut}+C_{press})(\mathcal X^{exc})^{1/2}\le c_\nu/2` |
 | `ACT.X-MidRaw` | finite triangular middle block with zero-mode linear coefficients | carries those coefficients through `\mathcal A_{\mathrm{core}}^{ctr}` inside `ACT.KX` |
 | `ACT.X-TopVisc` | top `m+1,m+2` viscous buffer modes | keeps `\mathcal A_{\mathrm{buf}}^{ctr}` as readout/buffer data inside `Y_read` |
-| `ACT.KX` | `\mathcal X^{exc}\in L^\infty`, `\mathcal N\in L^1`, `\mathcal K_{\le m}^{ctr}\in L^1`, `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty` | simultaneous core/excess theorem using `\mathcal J=\mathcal X^{exc}+\theta\mathcal A_{\mathrm{core}}^{ctr}` and absorbing only `(\mathcal X^{exc})^{1/2}\mathcal N` |
+| `ACT.KX` | `\mathcal X^{exc}\in L^\infty`, `\mathcal N\in L^1`, `\mathcal K_{\le m}^{ctr}\in L^1`, `\mathcal A_{\mathrm{core}}^{ctr}\in L^\infty` | simultaneous core/excess theorem using `\mathcal J=\mathcal X^{exc}+\theta\mathcal A_{\mathrm{core}}^{ctr}` and the coefficient-margin term `(\mathcal X^{exc})^{1/2}\mathcal N` |
 | `ACT.X-Scale` | retained restart seed `\mathcal X^{exc}(s_a;R_a)\le\eta_X` | supplies scale-small initial data for each retained window |
 | `RWS.C_scale` | finite dynamic small-radius cover to fixed readout scale | recovers fixed-radius readouts without asserting fixed-radius smallness |
 | `ACT.X-Readout` | `Y_read=\mathcal A_{\mathrm{core}}^{ctr}+\mathcal A_{\mathrm{buf}}^{ctr}+\mathcal X^{exc}` | spends the full post-`ACT.KX` readout packet |
@@ -4467,7 +4484,7 @@ The ordered closure program splits those cells into two independent lanes.
 The source-side lane is the exact source split
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 (FCI.5f).
 \tag{DTC.42}
@@ -4487,21 +4504,25 @@ For `FCC.C1`, the frozen-net cutoff channel is localization-created:
 \tag{DTC.42a}
 ```
 
-The required estimate is the cutoff absorption
+The required estimate is the cutoff Young-margin bound
 
 ```math
 |\mathcal C_N^{cut}(\eta^\ell,t;\psi)|
 \le
-\mathfrak b_\psi^{cut}(t)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}(t),
+4\nu\,\mathcal E_N^{cut,\nabla}(\eta^\ell,t;\psi)
++\frac12\mathcal N_{N,\eta^\ell,\psi}^{visc}(t),
 \qquad
-\mathfrak b_\psi^{cut}\in L^1(I),
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I),
 \qquad
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I).
 \tag{DTC.42b}
 ```
 
-With finite frozen net size this gives
+Together with the frozen-family differential inequality, the pressure and
+strain/cascade source inputs, and
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, Gronwall gives
+`\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}\in L^1(I)`. Then summing
+`(DTC.42b)` over the finite frozen net gives
 `\mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I)`.
 
 For `FSCR.C`, the finite Leibniz/triangular algebra gives
@@ -4683,7 +4704,7 @@ The preferred package order is therefore
 ```math
 ACT.KX
 \to
-(FPCR.C+FSCR.C+FCC.C1)
+(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)
 \to
 \left(
 DTC\text{-to-TowerBound}+END.Exh+END.Cross

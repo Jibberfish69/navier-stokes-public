@@ -53,7 +53,7 @@ UniformTemporalSourceIntegrability_p.A
 }
 ```
 
-The native zero-loss profile gives an equivalent local PDE face:
+The native zero-loss defect limit gives an equivalent local PDE face:
 
 ```math
 \boxed{
@@ -236,9 +236,9 @@ ScaleCriticalTreeCarleson.A.
 So the Zeno temporal branch does not close independently.  It is a precise
 alternate interface for the same source-control obstruction.
 
-## 3. Native Zero-Loss Profile Branch
+## 3. Native Zero-Loss Defect-Limit Branch
 
-The zero-loss profile route reduces the terminal positive source carrier to:
+The zero-loss defect-limit route reduces the terminal positive source carrier to:
 
 ```math
 \left[
@@ -291,7 +291,7 @@ pressure/vortex structure, vorticity-direction/Beltrami/helical coherence, or
 same-fluid transport.
 
 There is no fourth local face of the native positive trilinear carrier.  The
-zero-loss profile route therefore returns to the same active positive source
+zero-loss defect-limit route therefore returns to the same active positive source
 wall.
 
 ## Rehydrated Terminal Verdict

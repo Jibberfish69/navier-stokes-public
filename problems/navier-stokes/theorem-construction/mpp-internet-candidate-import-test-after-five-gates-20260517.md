@@ -64,11 +64,11 @@ Weak-star continuity in `BMO^{-1}` for mild solutions gives a trace property for
 
 ## Candidate 4: critical Besov/Lorentz criteria
 
-Critical-space criteria prove regularity when a solution satisfies a specified integrability or smallness condition. The current route lacks a theorem producing that criterion from `B_ASAC^closed`. Producing it would be another form of temporal residence or source-carrier depletion.
+Critical-space criteria prove regularity when a solution satisfies a specified integrability or smallness condition. The current route lacks a theorem producing that criterion from `B_ASAC^closed`. Producing it is another form of temporal residence or source-carrier depletion.
 
 ## Verdict
 
-No online candidate gives an immediately importable closure of `ZenoResidueLiouville_{B_ASAC}.A`.
+No online candidate gives a directly importable closure of `ZenoResidueLiouville_{B_ASAC}.A`.
 
 The most relevant external direction is the first-threshold route, with a concrete local bridge requirement:
 

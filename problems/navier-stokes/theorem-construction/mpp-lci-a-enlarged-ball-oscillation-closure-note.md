@@ -175,7 +175,7 @@ transport-geometry hypothesis only reads the fixed enlarged-ball radius
 `2R_\delta^{osc}`. The reverse image of the label halo is already controlled by
 `X(B(a^j,\rho)\cap A_\sharp,t)\subset B(c_j(t),\Gamma_\sharp(t)\rho)`, but
 that is a variable-radius ball. So the new geometric wall is a variable-radius
-center-ball theorem strong enough to control
+center-ball theorem proving the carrier bound for
 `\mathfrak U_{1,\rho}^{halo,ctr}` on `B(c_j(t),\Gamma_\sharp(t)\rho)`.
 The dedicated theorem-facing surface for that wall is now
 [mpp-lci-a-variable-radius-center-ball-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-variable-radius-center-ball-note.md),
@@ -479,8 +479,8 @@ and similarly
 \tag{EOC.15}
 ```
 
-Replaying `LCI.B1` with this companion cutoff would give the exact analogue of
-`(LCI.3c3z5j)`:
+Under the same hypotheses used in `LCI.B1`, the companion cutoff gives the
+exact analogue of `(LCI.3c3z5j)`:
 
 ```math
 \frac{d}{dt}\mathcal G_{N,m,\rho,\psi}^{osc,\sharp,\delta}(t)
@@ -494,8 +494,8 @@ C_{\varepsilon,m,\rho,\psi,\delta,I}
 \tag{EOC.15a}
 ```
 
-So the companion shell would again reduce only to its own outer-shell carrier,
-not directly to `EOC.A`.
+So the companion shell reduces only to its own outer-shell carrier, not directly
+to `EOC.A`.
 
 ### Candidate Reduction `EOC.B3` (The companion carrier reads off from a one-step larger oscillation coefficient)
 
@@ -567,7 +567,7 @@ If
 ```
 
 then fixed-radius local Sobolev/Morrey on the plateau balls from `(EOC.13)`
-should give
+gives
 
 ```math
 \mathfrak H_{N,m,\rho,\psi}^{osc,\sharp,\alpha}\in L^\infty(I)\subset L^2(I),
@@ -644,9 +644,9 @@ Accordingly, the honest shell-side conclusion is:
 
 The honest next move is not to keep iterating shell enlargements.
 
-Those would only keep pushing the oscillation coefficient to larger radii. The
-sharper current route stays on the pointwise reduction `(EOC.23)` together with
-the deformation-law propagation step `OFP.C1i`--`OFP.C1j`.
+Iterated shell enlargements only push the oscillation coefficient to larger
+radii. The sharper current route stays on the pointwise reduction `(EOC.23)`
+together with the deformation-law propagation step `OFP.C1i`--`OFP.C1j`.
 
 The exact theorem order is therefore:
 
@@ -695,7 +695,7 @@ More explicitly, the attack I want is:
    into that lower packet and with `(FPS.H0)` / `FPC.A` only intermediate
    sufficient routes inside that pressure-side stack;
    on the top-viscous side the remaining direct branch runs through the
-   fixed-radius top-rung Sobolev theorem `FVR.F`, whose immediate readout
+   fixed-radius top-rung Sobolev theorem `FVR.F`, whose first readout
    corollaries are `FVR.D` and `FVR.A`, with `FTL.C` the branch-local direct
    sufficient theorem on that side, with `FTS.C` only the intermediate
    one-rung-lower Sobolev route, with `(FTL.Bc0)` the sharper route-native
@@ -750,7 +750,7 @@ branch-local top wall `FTL.C` and the pressure wall `FPL.C`, hence globally to
    continuation is unpacked, the branch reopens only returned lower-carrier
    reads and feeds back into the already-installed `LCI.A` route.
 
-So the immediate mathematical burden is now:
+So the next mathematical burden is now:
 
 ```math
 \boxed{
@@ -1029,7 +1029,7 @@ EOC.A.
 \tag{EOC.49}
 ```
 
-Thus `EOC.A` is no longer a monolithic receiver wall. Its immediate proof-cell
+Thus `EOC.A` is no longer a monolithic receiver wall. Its next proof-cell
 order is: widened return as `WRR.A`, anchored-center ledger plus `U2H.A` to
 obtain the segment geometry `(OFP.10cb)`, thickened collar consumer as `WTC.A`
 with `WTC.4 -> WTL.A` and `(FCI.5f)` separate, then recombination. The
@@ -1161,8 +1161,8 @@ LCI\text{-family receiver input at enlarged depth/thickness}.
 ```
 
 Route-natively, there is still no theorem currently on disk comparing
-`\delta_{seg}` to `5\Lambda_{\delta,\rho}^{halo}` strongly enough to read
-`\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}` directly off the widened
+`\delta_{seg}` to `5\Lambda_{\delta,\rho}^{halo}` and thereby deriving
+`\mathfrak C_{N+1,\rho,\psi}^{\delta+\delta_{seg}}` directly from the widened
 receiver-side packet `(EOC.27)`. So the common thickened collar consumer
 remains a genuinely separate hypothesis at the route-native `EOC` surface.
 

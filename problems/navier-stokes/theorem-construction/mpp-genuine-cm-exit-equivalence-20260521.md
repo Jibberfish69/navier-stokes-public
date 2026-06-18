@@ -130,9 +130,10 @@ Thus
 \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
 ```
 
-The standard classical Navier-Stokes local theory at `s>5/2` gives a uniform
-lifespan from times `t_j\uparrow T_*`.  Relaunching the classical solution from
-those times extends `(u,p)` past `T_*`.
+The classical Navier-Stokes `H^s`, `s>5/2`, local theory gives a lifespan
+depending only on the displayed bound. Thus the lifespans from times
+`t_j\uparrow T_*` have a common positive lower bound, and relaunching the
+classical solution from those times extends `(u,p)` past `T_*`.
 
 So a continuation-complete CM packet rules out finite terminal
 non-continuation.

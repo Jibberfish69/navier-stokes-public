@@ -277,6 +277,6 @@ The mathematical proof is not fully solved.
 The repo contains a substantial conditional route skeleton and several
 coherent assembly packets, but I cannot independently certify the full
 Navier-Stokes MPP proof from the audited theorem notes. The live mathematical
-work is the noncircular terminal-tail production theorem, with the local
-`AACT.KX` absorption and the `Jump_avg` branch elimination as immediate hard
-failures.
+work is the noncircular terminal-tail production theorem; the local
+`AACT.KX` absorption and the `Jump_avg` branch elimination remain named hard
+failures in that production theorem.

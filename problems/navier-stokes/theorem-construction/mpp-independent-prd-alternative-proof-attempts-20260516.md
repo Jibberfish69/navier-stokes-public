@@ -211,7 +211,7 @@ or its residence companion:
 \boxed{TerminalSourceResidenceEvacuation.A}.
 ```
 
-Either one would be a genuinely new proof route if proved directly from the
+Either one is a genuinely new proof route if proved directly from the
 Navier--Stokes packet equations and original smooth data.
 
 ## 5. What remains genuinely independent

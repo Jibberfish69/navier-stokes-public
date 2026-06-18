@@ -276,7 +276,7 @@ which is the exact bridge from jet-level strain to packing mismatch.
 
 ### Proof
 
-Substituting `(JFD.8)` into `(JFD.17)` shows immediately that
+Substituting `(JFD.8)` into `(JFD.17)` shows that
 `\widetilde E_{N,r,\psi}(t)` is the Eulerian finite-difference defect energy
 evaluated at the true transported increment `h(a,r,t)`. The special case
 `k=1` identifies

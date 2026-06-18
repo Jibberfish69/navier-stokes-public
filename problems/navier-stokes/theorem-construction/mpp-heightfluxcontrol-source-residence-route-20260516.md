@@ -264,9 +264,10 @@ positive-part extraction.
 ```
 
 Cauchy / Young gives only an active-square envelope, which is the scale-critical
-reserve target again.  Reverse-Holder parent concentration would also work, but
-diffuse legal parentage is not ruled out by finite banding or same-fluid
-transport.
+reserve target again.  A reverse-Holder parent concentration theorem closes
+this subcase only if it proves that boundedly many parents carry a fixed
+fraction of the positive source; finite banding and same-fluid transport do not
+rule out diffuse legal parentage.
 
 ## 5. Verdict
 

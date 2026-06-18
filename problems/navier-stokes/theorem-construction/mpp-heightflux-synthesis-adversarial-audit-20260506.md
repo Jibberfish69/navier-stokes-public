@@ -32,7 +32,8 @@ The synthesis does not prove `ScaleCriticalTreeCarleson.A`,
 
 ## 2. Valid refinement
 
-The scalar factorization is valid at the level of a target heuristic:
+The scalar factorization is an exact algebraic reduction for the displayed
+quantities:
 
 ```math
 R_N(W)
@@ -42,7 +43,7 @@ H_N(W)M_N(W),
 H_N(W):=\sup_{t\in W}\sup_{k>N}2^k\sum_{\ell>k+4}D_\ell(t).
 ```
 
-Thus if:
+Thus, for a fixed threshold `\eta>0`, if
 
 ```math
 R_N(W)\ge \eta,
@@ -50,14 +51,16 @@ R_N(W)\ge \eta,
 M_N(W)=o_N(1),
 ```
 
-then:
+then on every such window with `M_N(W)>0`,
 
 ```math
-H_N(W)\to\infty.
+H_N(W)\ge {\eta\over M_N(W)}.
 ```
 
-This justifies looking for a height-creation theorem rather than trying to
-control the spike-sensitive square reserve by first-moment energy alone.
+Consequently, along any sequence with `M_N(W_N)=o_N(1)` and
+`R_N(W_N)\ge\eta`, the height quantity satisfies `H_N(W_N)\to\infty`.  This
+justifies looking for a height-creation theorem rather than trying to control
+the spike-sensitive square reserve by first-moment energy alone.
 
 ## 3. Failed overpromotion
 

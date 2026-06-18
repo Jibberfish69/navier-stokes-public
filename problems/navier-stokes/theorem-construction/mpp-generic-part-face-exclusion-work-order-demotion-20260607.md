@@ -1,21 +1,21 @@
 ---
 ns_viewer:
-  theorem_id: generic-part-face-exclusion-work-order-demotion-20260607
-  status: demoted-stale-work-order
-  proof_role: blocker_demotion
+  theorem_id: generic-part-face-exclusion-work-order-target-repair-20260607
+  status: target-repair-stale-generic-blocker
+  proof_role: target_repair
   logical_landing_node: cm_part_face_attempts
-  edge_effect: "Demotes generic Part-face exclusion as a stale no-exit target while preserving Part as a lawful first-face landing for named rows."
+  edge_effect: "Replaces generic Part-face exclusion with row-level terminal participation certification while preserving Part as a lawful first-face landing for named rows."
   upstream_origin: "June 7 Part-face exclusion working pass and current CM referee audit."
   downstream_consequence: "Future retained-Pack participation rows require same-witness terminal participation proof or they land as Part failures instead of staying global blockers."
 ---
 
-# MPP Generic Part-Face Exclusion Work Order Demotion
+# MPP Generic Part-Face Exclusion Work Order Target Repair
 
 Date: 2026-06-07
 
-Status: demotion note. The generic Part face-exclusion work order is stale as
-the local CM referee target. It remains a useful failed proof audit, but it is
-not a named uncovered proof-bearing row on the currently promoted surfaces.
+Status: target-repair note. The generic Part face-exclusion work order is stale
+as the local CM referee target. It remains a useful failed proof audit, but it
+is not a named uncovered proof-bearing row on the currently promoted surfaces.
 
 ## Authority Checked
 
@@ -97,9 +97,9 @@ for each named promoted terminal obstruction O:
 ```
 
 Thus the old generic Part work order is too broad. It asks for a
-continuation-strength no-defect theorem when the current CM referee standard
-only requires a named promoted obstruction row to be certified at its correct
-first face.
+continuation-strength no-defect theorem when the current CM referee requirement
+only asks a named promoted obstruction row to be certified at its correct first
+face.
 
 ## Current Row-Level Part State
 
@@ -131,8 +131,8 @@ Pack and Part.
 
 So, on the currently promoted finite-obstruction inventory, there is no generic
 uncovered Part theorem row. There are named rows, and the named rows that carry
-proof mass have either been certified at Pack/Part/Field or demoted from
-proof-bearing status.
+proof mass have either been certified at Pack/Part/Field or classified as
+non-proof-bearing support.
 
 ## What Still Becomes Live If A New Row Is Promoted
 
@@ -165,17 +165,18 @@ Pack_Q + original preterminal ancestry => Part_{N,Q}
 ```
 
 with no named obstruction row. That question is too large and has already been
-shown to require terminal no-defect compactness. It should not be used as a
+shown to require terminal no-defect compactness. It is not used as a
 standing CM-referee blocker.
 
 ## Result
 
 `RetainedPackOriginalAncestryPartSurvival.A` remains a failed generic
-no-defect theorem, not the current local proof target. The current Part standard
-is row-level certification: named promoted obstruction rows must either land at
-`not Part_{N,Q}` after `Pack_Q`, pass through `Part_{N,Q}` and continue to the
-next face, or be demoted as non-proof support. Under the newer referee audit,
-no current promoted surface leaves a generic Part face-exclusion blocker open.
+no-defect theorem, not the current local proof target. The current Part
+requirement is row-level certification: named promoted obstruction rows must
+either land at `not Part_{N,Q}` after `Pack_Q`, pass through `Part_{N,Q}` and
+continue to the next face, or be classified as non-proof support. Under the
+newer referee audit, no current promoted surface leaves a generic Part
+face-exclusion blocker open.
 
 ## Boundary
 

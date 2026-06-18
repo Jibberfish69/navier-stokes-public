@@ -2,11 +2,18 @@
 
 ## Status
 
-Conditional reduction. The route is mathematically coherent, but it needs one exact bridge theorem:
+Conditional reduction. The old unresolved claim was that the pure
+`H^{1/2}` shell needed a future "matched-scale control" theorem.  The exact
+Field bridge is now supplied by
+`mpp-field-coherence-controls-critical-shell-hhalf-20260528.md` together with
+`mpp-field-finite-difference-readout-hhalf-20260528.md`:
 
 ```math
 FieldCoherenceControlsCriticalShell.A.
 ```
+
+The remaining condition in this note is the same-witness extraction hypothesis
+`SameLedgerHHalfExtraction.A`, not an unspecified profile or scale estimate.
 
 ## Target
 
@@ -61,19 +68,26 @@ The dyadic shell packet is controlled by matched-scale finite-difference energy:
 ```math
 2^{J_m}\|P_{J_m}v_m\|_2^2
 \le
-C_{\mathrm{LP}}r_m^{-1}\int_{A_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,d\sigma(h)
+C_{\mathrm{LP}}r_m^{-1}\fint_{A_m}\|v_m(\cdot+h)-v_m(\cdot)\|_2^2\,dh
 ```
 
-with the reverse inequality available after the usual annular Littlewood--Paley localization.
+The reverse inequality is available only after the same fixed-annulus
+Littlewood--Paley localization is imposed on the packet; it is not used as a
+profile assumption.
 
 Therefore the pure `H^{1/2}` oscillatory branch is a neighboring-scale coherence signal. It is exactly the kind of object that Field is supposed to control.
 
-The precise missing theorem is:
+The installed bridge used here is the exact matched finite-difference
+implication:
 
 ```math
 FieldCoherenceControlsCriticalShell.A:
 \quad
 Field_{N(J),r_J,Q}(\mathcal W)
+\Longrightarrow
+r_J^{-1}\fint_{A_J}\|v(\cdot+h)-v(\cdot)\|_{L^2}^2\,dh
+\le
+C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W)
 \Longrightarrow
 2^J\|P_J(\chi_a^{\mathcal W}u)\|_2^2
 \le
@@ -81,6 +95,8 @@ C\,\mathfrak C_{N(J),r_J,Q}(\mathcal W)
 ```
 
 for `r_J=2^{-J}` and a depth `N(J)` high enough to read the selected shell.
+The first implication is the Field finite-difference readout; the second is the
+annular Littlewood-Paley finite-difference estimate above.
 
 Once this theorem is installed, the branch closes: retained Pack keeps the shell on the material packet, retained Part keeps the pressure-viscosity law active, and the remaining pure oscillatory terminal defect exceeds the matched Field coherence bound. The exit face is therefore Field.
 
@@ -88,12 +104,17 @@ Once this theorem is installed, the branch closes: retained Pack keeps the shell
 
 The amplitude branch means the velocity becomes large on shrinking regions. The repo already routes that through the `L^3` translator.
 
-The pure oscillatory branch means the velocity keeps comparable size while its structure moves to finer and finer scales. Physically this is unresolved vortex/strain texture. The material object persists and the NS law still participates, so Pack and Part stay active. The failure is coherence between neighboring towers at the selected scale. That is the Field service.
+The pure oscillatory branch means the velocity keeps comparable size while its structure moves to finer and finer scales. Physically this is unresolved vortex/strain texture. The material object persists and the NS law still participates, so Pack and Part stay active. The failure is coherence between neighboring towers at the selected scale. That is the Field face.
 
 ## Hard boundary
 
-A fixed low-depth Field face does not see arbitrary high-frequency escape. The Field witness must be matched to the selected dyadic depth/scale, or the all-depth Field package must be used. This is the exact condition that turns the `H^{1/2}` oscillation argument from suggestive into proof-bearing CM work.
+A fixed low-depth Field face does not see arbitrary high-frequency escape. The Field witness must be matched to the selected dyadic depth/scale, or the all-depth Field package must be used. This is the exact condition that turns the `H^{1/2}` oscillation argument from a route proposal into proof-bearing CM work.
 
-## Remaining theorem
+## Remaining condition
 
-The next exact theorem target is `FieldCoherenceControlsCriticalShell.A`. It should prove the matched-scale finite-difference / tower-coherence control of the critical shell.
+`FieldCoherenceControlsCriticalShell.A` is no longer the open estimate in this
+chain.  The remaining condition is that `SameLedgerHHalfExtraction.A` actually
+produces the same-witness localized packet with the selected terminal dyadic
+shell on the retained Pack+Part record.  Once that packet is present, the
+installed matched Field finite-difference readout gives the displayed shell
+bound and a persistent terminal shell excess selects `\neg Field_{N(J),r_J,Q}`.

@@ -4,7 +4,7 @@
 
 Theorem-facing bounded solve attempt for `JAVG.1`.
 
-This note tests the most plausible direct route:
+This note tests the affine-normalized direct route candidate:
 
 ```math
 \text{affine-normalized }SCF_{base}\text{ threshold}
@@ -13,7 +13,8 @@ This note tests the most plausible direct route:
 ```
 
 The attempt does not discharge `JAVG.1`. It isolates the exact missing
-amplitude theorem.
+amplitude theorem, and downstream use must cite that theorem once proved rather
+than cite this route candidate.
 
 ## Native Setup
 
@@ -105,7 +106,7 @@ C(A_R^{aff}D_R)^{3/4}.
 If the pressure and dissipation terms are small while the velocity term is
 large, `(JAVG.P2)` forces a lower bound on `A_R^{aff}`, not on `D_R` alone.
 
-Thus
+The exact consequence is:
 
 ```math
 SCF_{base}(Q_R^\Phi)>\varepsilon_m
@@ -173,7 +174,7 @@ installed.
 ## Verdict
 
 Affine normalization improves the bookkeeping, but it does not eliminate the
-velocity-amplitude channel. Therefore
+velocity-amplitude channel, so
 
 ```math
 \boxed{

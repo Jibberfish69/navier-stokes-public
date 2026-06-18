@@ -93,8 +93,10 @@ small threshold
 + source residence.
 ```
 
-The small threshold term is absorbed by taking `\eta` small relative to the
-terminal normalization.  The two serious terms are turnover and residence.
+The small threshold term is spendable only as the explicit threshold fraction:
+choose `0<eta<1` below the terminal-normalization reserve, so the contribution
+is at most `eta tau_P^{-1} int_{I_P} E_P`.  The two serious terms are turnover
+and residence.
 
 ## 2. Material derivative of the coefficient
 
@@ -183,7 +185,7 @@ plus the frame-rotation piece
 \tag{MEF.11}
 ```
 
-The frame part has a plausible geometric interpretation: a packet rotating
+The frame part has a candidate geometric interpretation: a packet rotating
 into an expanding eigendirection should spend alignment cost.  The direct
 equation gives
 
