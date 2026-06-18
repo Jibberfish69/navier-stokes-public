@@ -37,13 +37,13 @@ The tempting statement
 \quad\text{unless both factors live in a fixed collar of }j
 ```
 
-is too strong. It is false already at the level of the standard paraproduct
-geometry, because a strict low-high interaction
+is too strong. It is false already at the level of the paraproduct
+decomposition displayed below, because a strict low-high interaction
 `S_{j-C_0}(\partial_a^\beta A)\,\Delta_jU_{\alpha-\beta}` survives at shell
 `j`.
 
 So the right compatibility theorem is not "everything is collar-local." The
-right theorem is the usual Bony split:
+right theorem is the explicit Bony split:
 
 - one strict low-high coefficient packet,
 - one strict high-low coefficient packet, and
