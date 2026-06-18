@@ -45,7 +45,16 @@ Equivalently, if parent cells are stopped or refined until
 \left(\frac{\gamma\bar\delta_j(Q)}{[\delta_{j,Q}]_{C^\alpha(Q)}}\right)^{1/\alpha},
 ```
 
-the same estimate holds. Thus this packet closes under a density-adapted stopping rule, provided the density has finite local Holder seminorm and the refinement keeps the active family usable.
+when `[\delta_{j,Q}]_{C^\alpha(Q)}>0`, then
+
+```math
+[\delta_{j,Q}]_{C^\alpha(Q)}\operatorname{diam}(Q)^\alpha
+\le \gamma\bar\delta_j(Q).
+```
+
+If `[\delta_{j,Q}]_{C^\alpha(Q)}=0`, the left side is already zero. Thus this
+packet closes under a density-adapted stopping rule, provided the density has
+finite local Holder seminorm and the refinement keeps the active family usable.
 
 ## 3. Finite shell comparability
 
