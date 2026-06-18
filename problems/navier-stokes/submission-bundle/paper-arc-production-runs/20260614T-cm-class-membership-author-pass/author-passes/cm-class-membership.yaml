@@ -19,7 +19,7 @@ author_sequence:
 - write every source rewrite in the author pack as complete TeX, not notes
 - turn each source item into proof, derivation, support, obstruction, obsolete status,
   contradiction, or open continuation
-- fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+- fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   for every rewrite
 - set ready_to_apply true only after the arc text is complete enough for verifier
   attack
@@ -31,7 +31,7 @@ output_contract:
   - 'author_replacement_required: false for every completed rewrite'
   - repo_sources_used for every rewrite
   - endpoint_status for every rewrite
-  - reader_payments with plain_explanation, derivation_or_proof_payment, endpoint_status
+  - reader_requirements with plain_explanation, derivation_or_proof_argument, endpoint_status
   - math_reader_critic with a resolved repair_decision
   must_not_return:
   - a report instead of TeX
@@ -63,7 +63,7 @@ prompt_text: |
 
   Write like a mathematical author speaking to a graduate reader. Explain the object before using it. Show the calculation or cite the exact repo source when a claim needs proof. State gold status honestly. State the CM/silver counterpart wherever this arc touches class exit. Every endpoint must be one of the allowed statuses in the work packet.
 
-  Return a complete ns-paper-arc-author-pack YAML in problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-cm-class-membership-author-pass/author-packs/cm-class-membership.yaml. The pack must set ready_to_apply true only after every rewrite has final TeX, repo_sources_used, endpoint_status, reader_payments, and math_reader_critic.
+  Return a complete ns-paper-arc-author-pack YAML in problems/navier-stokes/submission-bundle/paper-arc-production-runs/20260614T-cm-class-membership-author-pass/author-packs/cm-class-membership.yaml. The pack must set ready_to_apply true only after every rewrite has final TeX, repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic.
 
   Keep theorem work inside this arc. A math note may enter only as TeX-ready derivation, exact obstruction, endpoint classification, or CM counterpart for a named sentence in this arc.
 

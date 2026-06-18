@@ -357,7 +357,7 @@ arcs:
   priority: 8
   status: ready_for_author_packet
   production_role: state the silver certification and Clay-facing conclusion only
-    after the proof payments are on the page
+    after the proof arguments are on the page
   author_job: write the final CM closure as a theorem proof, including exactly what
     it certifies
   support_keywords:
@@ -390,7 +390,7 @@ arcs:
   title: Forward-positive branch treatment
   priority: 9
   status: ready_for_author_packet
-  production_role: integrate forward-positive branch work only as written proof payment,
+  production_role: integrate forward-positive branch work only as written proof argument,
     obstruction record, support, obsolete material, contradiction, or explicit open
     continuation
   author_job: write the forward-positive branches as paid proof, obstruction, support,
@@ -588,7 +588,7 @@ arcs:
   priority: 12
   status: ready_for_author_packet
   production_role: turn raw appendix/source-field material into readable main-paper
-    support, proof payment, obsolete status, contradiction, or open continuation
+    support, proof argument, obsolete status, contradiction, or open continuation
   author_job: convert raw proof-attempt appendix material into readable paper text
     or explicit support/open status
   support_keywords:

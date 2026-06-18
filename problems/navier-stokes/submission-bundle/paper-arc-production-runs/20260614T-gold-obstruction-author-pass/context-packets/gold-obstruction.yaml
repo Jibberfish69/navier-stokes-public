@@ -477,7 +477,7 @@ support_refs:
   excerpt: |-
     proof_role: forward_positive_residual_refill_ledger_and_cm_obstruction_routing
       logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-      edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Pack-side. An admitted residual annular supplier has already paid carrier/selection, so its CM failures are Part or Field."
+      edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Pack-side. An admitted residual annular supplier has already supplied carrier/selection, so its CM failures are Part or Field."
       upstream_origin:
         - problems/navier-stokes/theorem-construction/mpp-direct-lpas-raw-active-square-false-shear-counterexample-20260611.md
 - path: problems/navier-stokes/theorem-construction/mpp-terminal-time-face-anti-atom-hard-obstruction-certificate-20260517.md
@@ -527,7 +527,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -544,7 +544,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -629,7 +629,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
@@ -897,17 +897,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *1
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -931,6 +931,6 @@ mechanical_verifier:
   math_reader_critic_required:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   must_emit: ready author pack with replace_section rewrites, not notes or reports
