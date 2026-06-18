@@ -151,7 +151,7 @@ C_\varepsilon\sum_j \mathrm{lot}_j.
 Here `\mathrm{lot}_j` denotes the lower-order / coefficient-ledger packet
 already admitted on the reserve branch.
 
-## Why `(WEP.RR.5)` Should Follow From `(WEP.2')`
+## Required Reduction From `(WEP.2')` To `(WEP.RR.5)`
 
 Every term in `\mathcal B_{G,j}^{rem}` contains at least one projector defect:
 
@@ -159,9 +159,22 @@ Every term in `\mathcal B_{G,j}^{rem}` contains at least one projector defect:
 - a low-high commutator `[T_{p_G},a_{<j-C}]`,
 - or a projector-shell commutator `[\Delta_j,\Pi_G^{ex}]`.
 
-Each such defect is order `-1` on the active shell. So the commutator theorem
-`(WEP.2')` and the shellwise order `-1` remainder bound for `R_{G,j}` should
-demote the entire remainder packet to the same coefficient-bearing carrier:
+The reduction is not automatic from the phrase "order `-1`." It must prove the
+following shellwise estimates on the active shell:
+
+```math
+\|R_{G,j}F_j\|_{L^2}
++\|[T_{p_G},a_{<j-C}]F_j\|_{L^2}
++\|[\Delta_j,\Pi_G^{ex}]F_j\|_{L^2}
+\le
+C_G2^{-j}\,\mathrm{Coef}_j(G,a)\,\|F_j\|_{L^2},
+\tag{WEP.RR.7a}
+```
+
+with the same coefficient ledger used by `(WEP.2')`, uniformly in `j` and in
+the finitely many resonant shell offsets. After `(WEP.RR.7a)` is proved for
+each projector defect, Cauchy--Schwarz / Young on the displayed shell pairing
+gives the remainder demotion
 
 ```math
 \mathcal B_{G,j}^{rem}
@@ -170,9 +183,10 @@ C_G\,2^{-j}\times \text{same-depth shell norms}.
 \tag{WEP.RR.7}
 ```
 
-This is the exact sense in which the paradifferential pressure defects are no
-longer a conceptual burden. Once `(WEP.2')` is proved, only the pure resonant
-main term remains.
+This is the exact sense in which the paradifferential pressure defects cease to
+be a separate burden. Until `(WEP.RR.7a)` is proved for all three defect types,
+`(WEP.2')` is supporting evidence, not a completed reduction to the pure
+resonant main term.
 
 ## Exact Remaining Debt
 
