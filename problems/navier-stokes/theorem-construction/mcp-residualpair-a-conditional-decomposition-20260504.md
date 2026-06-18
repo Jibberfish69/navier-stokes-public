@@ -68,7 +68,25 @@ Thus `R^{coeff}` is absorbable after choosing the shell gap / coefficient stoppi
 
 ## 2. Commutator residual
 
-The strict low-high commutator obeys the standard Coifman-Meyer / Bernstein estimate
+The strict low-high commutator is absorbable only after the following two
+estimates are proved on the same coefficient-good collar. First, Bernstein on a
+`j`-shell gives the exact residual conversion
+
+```math
+\|R^{comm}_{j,k}\|_{H^{-1}}
+\le C_{H^{-1}}2^{-j}\|R^{comm}_{j,k}\|_2.
+```
+
+Second, the strict scale gap and coefficient-good collar must supply the
+Coifman--Meyer commutator bound
+
+```math
+\|R^{comm}_{j,k}\|_2
+\le C_{CM}c_M\,\nu^{1/2}2^{2j}\|w_j\|_2,
+\qquad c_M\to0
+```
+
+after the gap/stopping parameters are chosen. Together these give
 
 ```math
 \|R^{comm}_{j,k}\|_{H^{-1}}
@@ -76,7 +94,8 @@ The strict low-high commutator obeys the standard Coifman-Meyer / Bernstein esti
 \le C_{CM}c_M\,\nu^{1/2}2^j\|w_j\|_2,
 ```
 
-where `c_M\to0` after the strict scale gap and coefficient-good collar are enforced. Therefore
+where `c_M\to0` after the strict scale gap and coefficient-good collar are
+enforced. Therefore
 
 ```math
 \sum_{j>N,k<j-M}\|R^{comm}_{j,k}\|_{L_t^2H_x^{-1}}^2
