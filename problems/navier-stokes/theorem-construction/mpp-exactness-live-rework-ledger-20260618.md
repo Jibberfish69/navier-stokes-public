@@ -787,6 +787,37 @@ Edited live surfaces:
 - `theorem-construction/mpp-lowstrain-bvcharge-direct-attempt-20260506.md`;
 - `theorem-construction/mpp-refilltree-wellfounded-direct-attempt-note.md`.
 
+## Source-Appendix Cascade Proof-Verb Mirror Rework
+
+Old loose step:
+
+- The source-field appendix mirror of
+  `mpp-frozen-family-strain-cascade-sufficient-reduction-note.md` said the
+  cascade packet bound followed by "the same weighted Cauchy--Schwarz argument"
+  but omitted the displayed inequality.
+
+Exact replacement:
+
+The appendix now displays the actual cascade estimate already present in the
+theorem note:
+
+```math
+|\mathcal R_N(\eta,t;\psi)|
+\le
+C_{N,\lambda}\,
+\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)^{1/2}\,
+E_N(\eta,t;\psi).
+```
+
+Downstream consequence: the source-field appendix no longer asks the reader to
+accept the cascade channel from a proof verb alone. The downstream sufficient
+branch may spend the paired displayed estimates for `\mathcal S_N` and
+`\mathcal R_N`, not an omitted "same argument" step.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
