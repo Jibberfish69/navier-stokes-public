@@ -136,7 +136,7 @@ is the exact post-`LCI.A` source assembly, while
 ```math
 FFPB.A0+FFSC.C1+FCC.C1+
 \mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
-\Longrightarrow FFSRC.A\Longrightarrow FCI.5f
+\Longrightarrow \operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 \tag{PCTP.5.D4}
 ```
 
@@ -213,7 +213,7 @@ PCTP.5.B,\qquad PCTP.5.D,\qquad PCTP.5.E
 ```
 
 are discharged for the selected route by the restart-scheduler cover theorem,
-the strengthened `FFSRC.A=>FCI.5f` source verification with its cutoff-defect
+the strengthened `Hyp(FFSRC.A)=>FCI.5f` source verification with its cutoff-defect
 hypothesis, and the bridge-license audit into `CM=Pack+Part+Field`.
 
 The active averaged-route primitive is now exactly:
