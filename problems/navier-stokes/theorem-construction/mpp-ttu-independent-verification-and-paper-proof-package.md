@@ -290,7 +290,7 @@ Thus downstream proofs may consume the single source theorem
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 8. Endpoint matrix as a standalone theorem
