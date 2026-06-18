@@ -1283,6 +1283,57 @@ Edited live surface:
 
 - `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`.
 
+## BKM Continuation Readout Rework
+
+Old loose step:
+
+- `theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md`
+  said retained Pack, Part, and Field imply the "standard BKM continuation
+  condition" and that the same smooth solution extends beyond `T_*`.
+- The reader appendix mirrored the same compressed extension step.
+- `theorem-construction/regularity-upgrade-schemas.md` used "standard BKM
+  continuation criterion" as the final proof step.
+
+Exact replacement:
+
+The R3 BKM branch now requires the exact Field-to-BKM readout bridge on the
+same synchronized ledger:
+
+```math
+\mathrm{Field}_{N,\rho,Q}(\mathcal W)
+\Longrightarrow
+\int_{T_*-\delta}^{T_*}\|\omega(t)\|_{L^\infty}\,dt<\infty,
+```
+
+or the corresponding strain/Besov criterion. Equivalently, retained Field must
+produce a finite envelope
+
+```math
+\|\omega(t)\|_{L^\infty}
+\le C_{N,\rho,Q}G_{N,\rho,Q}(t),
+\qquad
+\int_{T_*-\delta}^{T_*}G_{N,\rho,Q}(t)\,dt<\infty.
+```
+
+Only after that input does the BKM continuation theorem give a finite terminal
+Sobolev continuation norm \(M_s=\sup_{t<T_*}\|u(t)\|_{H^s}<\infty\),
+\(s>5/2\). The downstream continuation step then uses the already-installed
+uniform lifespan, relaunch from \(t_j\uparrow T_*\), and uniqueness on the
+overlap.
+
+Downstream consequence: retained Field is only a BKM-facing candidate until the
+Field-to-BKM readout bridge is proved. The R3 vorticity/BKM branch cannot be
+advertised as discharged by a generic "standard criterion" phrase.
+
+Edited live surfaces:
+
+- `theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/regularity-upgrade-schemas.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
