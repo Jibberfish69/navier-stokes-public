@@ -665,9 +665,9 @@ degenerating annulus forces a legal cutoff/collar/source cost:
 \tag{NEX.28}
 ```
 
-This is plausible for chosen cutoffs, since bad modulus raises the cost of
-separating inner and outer faces.  It does not by itself rule out the terminal
-time layer
+The exact missing input is the displayed collar/cutoff lower bound `(NEX.28)`
+for the chosen cutoffs.  Even with that bound, the argument still has to rule
+out the terminal time layer
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s),
