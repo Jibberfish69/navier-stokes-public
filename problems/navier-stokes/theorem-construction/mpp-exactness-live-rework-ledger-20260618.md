@@ -6314,6 +6314,155 @@ Surface edited:
 
 - `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
 
+## Derivative-LP Paraproduct Split Wording Rework
+
+Old claim being spent:
+
+`derivative-lp-compatibility-bridge-note.md` referred to "standard paraproduct
+geometry" and the "usual Bony split" while explaining why collar-locality is
+too strong.
+
+Exact replacement:
+
+The note now points to the explicit paraproduct decomposition displayed in the
+same section:
+
+```text
+F V = T_F V + T_V F + R(F,V),
+T_f g = sum_k S_{k-C0} f Delta_k g,
+R(f,g)=sum_{|k-l|<=C0} Delta_k f Delta_l g.
+```
+
+Downstream consequence:
+
+The derivative-LP compatibility bridge no longer spends a named standard split
+as proof force.  The source-side localization remains exactly strict low-high,
+strict high-low, and finite-collar resonant packets.
+
+Surface edited:
+
+- `theorem-construction/derivative-lp-compatibility-bridge-note.md`.
+
+## Donor Height Shell-Balance Formula Rework
+
+Old claim being spent:
+
+The donor-height direct attempt and synthesis mirror summarized the derivative
+step as "straightforward."  The donor source file also had a displayed
+summed-shell inequality with the legal-loss term lacking its explicit plus
+sign.
+
+Exact replacement:
+
+The donor source now displays
+
+```text
+dH_k/dt
+<= 2^k sum_{ell>k+4} 2^{2ell} F_ell
+ - c nu 2^k sum_{ell>k+4} 2^{2ell} D_ell
+ + 2^k sum_{ell>k+4} 2^{2ell} L_ell.
+```
+
+The conclusion and synthesis mirror now say that this exact derivative
+inequality leaves the positive weighted shell flux as the obstruction.
+
+Downstream consequence:
+
+`HeightFluxControl.A` is still the missing theorem, but it is now tied to the
+displayed positive flux term rather than to a vague derivative-grammar claim.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md`;
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
+
+## Carrier Divergence-Free Space Definition Rework
+
+Old claim being spent:
+
+`carrier-realization-classical-identification.md` said the realized carrier
+space used the "standard divergence-free interpretation."
+
+Exact replacement:
+
+The note now defines
+
+```text
+H^1_sigma = { X in H^1(Omega;R^3) : div X = 0 }
+```
+
+on `T^3`, with the `R^3` version given as the `H^1` closure of smooth compactly
+supported divergence-free vector fields.
+
+Downstream consequence:
+
+The carrier realization no longer relies on an implicit interpretation of the
+divergence-free carrier.  Later Leray/Stokes identifications use this explicit
+space.
+
+Surface edited:
+
+- `theorem-construction/carrier-realization-classical-identification.md`.
+
+## No-Third-Branch Continuation Criterion Rework
+
+Old claim being spent:
+
+`mpp-no-third-branch-clay-closure-audit-20260525.md` said the pass branch gives
+the "usual classical continuation norm."
+
+Exact replacement:
+
+The proof now names the displayed criterion:
+
+```text
+sup_{t<T_Q} ||u(t)||_{H^s} < infinity,
+s > 5/2.
+```
+
+The continuation step is the `H^s` Navier-Stokes local theory with lifespan
+depending only on `nu`, `s`, and this bound, allowing restart at
+`t_j -> T_Q`.
+
+Downstream consequence:
+
+The branch-law audit no longer treats `Member(Q)` as a black-box continuation
+word.  A pass branch excludes terminal nonsmoothness only through the explicit
+`H^s`, `s>5/2`, relaunch criterion.
+
+Surface edited:
+
+- `theorem-construction/mpp-no-third-branch-clay-closure-audit-20260525.md`.
+
+## Terminal Leray L3 Legal-Commutator Rework
+
+Old claim being spent:
+
+`mpp-terminal-leray-paraproduct-coefficient-identification-direct-attempt-20260522.md`
+said "standard legal ledgers pay ordinary errors" before naming the terminal
+commutator theorem.
+
+Exact replacement:
+
+The note now states that installed unweighted cutoff, collar, and projection
+ledgers do not imply the selected terminal estimate
+
+```text
+int_{Q(P)} |[chi,P_Leray] nabla(u dot nabla u)| |w_{j_P}| dxdt
+<= C Legal_L3(P)
+```
+
+with the same `L^3` terminal weights.
+
+Downstream consequence:
+
+`TerminalLerayCommutatorLegal_{L3}.A` is now the exact missing weighted legal
+theorem, not a vague upgrade from ordinary legal ledgers.
+
+Surface edited:
+
+- `theorem-construction/mpp-terminal-leray-paraproduct-coefficient-identification-direct-attempt-20260522.md`.
+
 ## Direct Fixed-Nu Euler-NS Kato-Ponce Rework
 
 Old claim being spent:
