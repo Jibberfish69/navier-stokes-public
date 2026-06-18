@@ -6271,6 +6271,28 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Dynamic-Source Thought-Note Wording Cleanup
+
+Old claim being spent:
+
+`tps-dynamic-source-fit-and-open-frontier.md` preserved a thought note with the
+phrase "may be enough" around the single-point energy-loss target.
+
+Exact replacement:
+
+The note now preserves the same meaning as a narrower possible target: prove it
+is impossible for any single point to lose all of its energy, while keeping the
+velocity-versus-higher-derivative nuance.
+
+Downstream consequence:
+
+The active note no longer carries "enough" phrasing in a theorem-facing thought
+record.
+
+Surface edited:
+
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
+
 ## "Enough To Prove" Reduction Rework
 
 Old claim being spent:
