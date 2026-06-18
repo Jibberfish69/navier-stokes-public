@@ -5250,3 +5250,49 @@ Edited live surfaces:
 - `theorem-construction/mpp-six-positive-contrapositive-chunks-completion-20260506.md`;
 - `theorem-construction/mpp-temporal-nonatomic-scf-carrier-audit-20260505.md`;
 - `theorem-construction/mcp-anisotropic-stokes-carleman-finite-slab-attempt-20260505.md`.
+
+## Residual Standard/Immediate Vocabulary And Mechanism Repair
+
+Old loose step:
+
+The narrowed non-`lower-order` scan still found live uses of "standard,"
+"immediate," and adjacent shortcut language. Most were vocabulary residues, but
+two carried mechanism risk: interpolation in the jump-average no-escape note
+and pressure operator control in the FIRP retry.
+
+Exact replacement:
+
+- Manuscript/support notes now say named/displayed/classical lemmas or routes
+  instead of "standard" or "immediate" where no proof mechanism was intended.
+- `mpp-jump-avg-branch-native-noescape-hard-wall-note.md` now says the displayed
+  scale-critical interpolation still leaves a local-energy or sup-time channel,
+  which requires a same-schedule zero-mode/affine residual theorem.
+- `mcp-firp-a0-retry-via-weighted-shell-response-obstruction-ffsrc-a-868127128b.md`
+  now identifies the relevant pressure control as fixed-time
+  Calderon--Zygmund/Schauder boundedness, and states why that does not create
+  terminal time integrability.
+- Rigid-class and source-wall notes now avoid treating "standard class" as an
+  authority label; they state whether the needed rigid class is actually
+  produced.
+
+Downstream consequence:
+
+The remaining non-`lower-order` shortcut hits from the focused scan no longer
+appear as proof payments on live theorem-construction text. The pressure and
+interpolation surfaces now expose their exact missing channels.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-uniform-local-hs-bootstrap-from-whole-space-shell-tail-control-f79eac12d9.md`;
+- `theorem-construction/mcp-manuscript-smallest-standard-lemma-sequence.md`;
+- `theorem-construction/mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md`;
+- `theorem-construction/frozen-exceptional-set-measure-localization.md`;
+- `theorem-construction/mixed-enstrophy-gradient-channel-result.md`;
+- `theorem-construction/mpp-open-dead-patch-rigidity-theorem.md`;
+- `theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md`;
+- `theorem-construction/phi-s-osgood-subcriticality-test-result.md`;
+- `theorem-construction/mpp-zeno-rigid-class-next-attempt-20260505.md`;
+- `theorem-construction/mcp-firp-a0-retry-via-weighted-shell-response-obstruction-ffsrc-a-868127128b.md`;
+- `theorem-construction/mpp-five-supplier-parallel-completion-ledger-20260517.md`;
+- `theorem-construction/mcp-sourcewallhardobstruction-a-ttu-a-3e6b467cd2.md`;
+- `theorem-construction/mpp-independent-math-verification-audit.md`.
