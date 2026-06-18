@@ -33,7 +33,7 @@ OriginalSmoothData\Longrightarrow SCFBaseLocalModulus_N
 \text{ on admitted terminal tails}.
 ```
 
-Once this theorem is installed, the chain is:
+Once these inputs are installed, the chain is:
 
 ```math
 OriginalSmoothData
