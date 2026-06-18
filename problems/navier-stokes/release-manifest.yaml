@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: release-manifest-navier-stokes
-  generated_at: '2026-06-18T21:00:23Z'
+  generated_at: '2026-06-18T21:20:08Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: blocked
 pass: false
@@ -13,8 +13,8 @@ terminal_safe: false
 required_before_terminal_release:
 - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
   bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-source_fingerprint: b0b60184d72c20689179bfc8a139feeebf2508a7
-bundle_sha1: 70310b674df71efb349b0f7ed981cc4a0df082ab
+source_fingerprint: b960f22f748022406381690d5183cbe4fff4b139
+bundle_sha1: 29bf705e879a34598dea4fec4e5b8252afa2b3dd
 summary:
   artifact_count: 15
   missing_artifact_count: 0
@@ -81,7 +81,7 @@ source_summary:
     blockers:
     - 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the Clay-closing
       bridge or replace the closing argument with a noncircular finite-breakdown exclusion.'
-  source_fingerprint: b0b60184d72c20689179bfc8a139feeebf2508a7
+  source_fingerprint: b960f22f748022406381690d5183cbe4fff4b139
 artifacts:
 - path: problems/navier-stokes/theorem-packet.yaml
   present: true
@@ -90,9 +90,9 @@ artifacts:
   modified_at: '2026-06-18T20:45:53Z'
 - path: problems/navier-stokes/source-frontier.yaml
   present: true
-  sha1: 0d51027d681cd9f46522355b447f9e94a1e6881e
-  bytes: 123731
-  modified_at: '2026-06-18T20:45:53Z'
+  sha1: f7d9c395cb5c24a40c7a2e6465913597fc7385cc
+  bytes: 127350
+  modified_at: '2026-06-18T21:13:22Z'
 - path: problems/navier-stokes/live-theorem-edge.yaml
   present: true
   sha1: 17ea83bc8d923d50b9f00121ebb795017f253c8e
@@ -110,44 +110,44 @@ artifacts:
   modified_at: '2026-06-17T20:34:22Z'
 - path: problems/navier-stokes/dependency-audit.yaml
   present: true
-  sha1: a479a23aa12736993486cf9fb8e6be056ae31fc8
+  sha1: 342a9ece4c5271c32c3841936666f1624ba60cd5
   bytes: 1733
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:11Z'
 - path: problems/navier-stokes/assumption-audit.yaml
   present: true
-  sha1: afc99b21e43c061d66891f780407b017b16c40f3
+  sha1: 3b74f2a1bbeb9ebfeb2afd45cbe896942db94dcf
   bytes: 1733
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:11Z'
 - path: problems/navier-stokes/circularity-audit.yaml
   present: true
-  sha1: 9be8625d4f7c0f3f2ef60de0d2515173788e334a
+  sha1: 56fd934d8a855a577191be77aac795b2c7bb6b79
   bytes: 1735
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:12Z'
 - path: problems/navier-stokes/gap-audit.yaml
   present: true
-  sha1: 3fba199edb6f8d688c3fd0644a69fa5bb547595a
+  sha1: 0bf15a07db34fafe44ceb0dc011e480c7e29dd02
   bytes: 1730
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:11Z'
 - path: problems/navier-stokes/gap-ticket.yaml
   present: true
-  sha1: c31776651be4f2d7dab8d346f67db53f3653befb
+  sha1: 8da941596c16b6d093021add759a7fdabe357649
   bytes: 1768
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:11Z'
 - path: problems/navier-stokes/consistency-audit.yaml
   present: true
-  sha1: 60938c9853c27d0cfe3d7ca253b04bbc63b21b09
+  sha1: 5c47fa18fb4a56a40fb007bc839af66d4a7a14a9
   bytes: 1735
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:11Z'
 - path: problems/navier-stokes/dependency-graph.yaml
   present: true
-  sha1: fa664958edcf52d61069ea7b3d6f9bf0ed310fa0
+  sha1: d6b079dbb0342634a2b284889c60c297c88a9a3c
   bytes: 1731
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:12Z'
 - path: problems/navier-stokes/failure-mode-checks.yaml
   present: true
-  sha1: dac9c7f6636c1dae24505b45718fc7e0b2f5fa44
+  sha1: ac691e3322299314f76ffa683dddeac316e17a05
   bytes: 1827
-  modified_at: '2026-06-18T21:00:24Z'
+  modified_at: '2026-06-18T21:20:12Z'
 - path: problems/navier-stokes/auto-audit.yaml
   present: true
   sha1: 47e9dd2cb426590fceca025f5d345a228ce8493a
