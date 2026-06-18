@@ -146,7 +146,7 @@ This proves `(1)`.
 
 ## Lemma B: far corona carries an explicit gap kernel
 
-For the far-corona strain one has the pointwise scale estimate
+For the far-corona strain one has the pointwise kernel bound
 
 ```math
 \Sigma_\ell^{far,L}(x,t)
