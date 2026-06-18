@@ -2207,6 +2207,46 @@ Edited live surface:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## R3 Dyadic Survivor Field-Face Mirror Rework
+
+Old loose step:
+
+- The live theorem note
+  `theorem-construction/mpp-r3-exterior-dyadic-survivor-field-incompatibility-20260607.md`
+  stated the exact CM Field-face contradiction using
+  `\Field_{M,\rho,Q}`.
+- The reader appendix mirror had corrupted that into `M, ,Q`, a missing
+  positive field scale, and an omitted finite-depth Littlewood-Paley bound.
+
+Exact replacement:
+
+The appendix now states the exact contradiction hypothesis
+
+```math
+\Field_{M,\rho,Q}\quad\text{for fixed }\rho>0,\ M>s+2,
+```
+
+the finite-depth localized bound
+
+```math
+\sum_{|\alpha|\le M}\|\partial^\alpha f\|_{L^2}\le C_{\rho,M,Q},
+```
+
+and the Littlewood-Paley consequence
+
+```math
+N^s\|P_N f\|_{L^2}\le C_{\rho,M,Q}N^{s-M}\to0.
+```
+
+Downstream consequence: the appendix no longer treats the dyadic survivor
+Field landing as a corrupted symbol string or informal positive-scale reading.
+The proof mechanism is the exact incompatibility between fixed positive
+Field-scale finite-depth control and a surviving high-frequency dyadic packet.
+
+Edited live surface:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
