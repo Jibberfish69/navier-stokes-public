@@ -232,8 +232,8 @@ This is the claimed kernelized reduction.
 
 ## Consequence
 
-The current scale-side packet algebra does contain a real off-diagonal gain for
-the lifted band. What it gives is the kernelized **scale-side** carrier
+The current scale-side packet algebra contains the displayed off-diagonal factor
+only inside the kernelized **scale-side** carrier
 
 ```math
 2^{-(j-k)}\,2^{3k/2}\|\Delta_k u^{(n)}\|_{L^2_x}\,

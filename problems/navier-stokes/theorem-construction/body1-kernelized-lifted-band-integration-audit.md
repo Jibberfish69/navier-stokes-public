@@ -154,8 +154,8 @@ That is the sharpest current upstream formulation of the last open packet.
 The new note `body1-half-derivative-lifted-band-gain-target.md` records the
 cleanest next theorem target suggested by this audit:
 
-- the off-diagonal gain `2^{-(j-k)}` is already real on the scale-side lifted
-  band;
+- the factor `2^{-(j-k)}` is present in the displayed scale-side lifted-band
+  carrier;
 - the unresolved loss is entirely on the lower shell `k`;
 - so the best next refinement is an integrated `k`-side payment of the exact
   residual square factor `2^k`, or an equivalent weighted tail theorem that

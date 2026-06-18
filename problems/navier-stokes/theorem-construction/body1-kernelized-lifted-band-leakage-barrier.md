@@ -101,7 +101,7 @@ which does not see:
 - the lifted-band shell range `N+M<k<j-4`;
 - the strict gap below the output shell `j`;
 - the dissipation weight `2^{4j}`;
-- or any off-diagonal gain in `j-k`.
+- or the displayed `2^{-(j-k)}` factor from the scale-side kernelized carrier.
 
 So the exact Body `1` export target is this intermediate transport leakage
 quantity, or a theorem that dominates it.
@@ -110,9 +110,9 @@ quantity, or a theorem that dominates it.
 
 Without a decaying kernel, the lifted packet stays as an intermediate-band
 coefficient multiplying the high shell. The scale-side reduction now shows that
-a summable kernel is in fact present at exact shell level. The remaining
-question is whether Body `1` can integrate that kernelized carrier sharply
-enough to export a theorem useful downstream.
+the factor `2^{-(j-k)}` is present in the exact shell-level carrier. The
+remaining question is whether Body `1` can integrate that kernelized carrier
+sharply enough to export a theorem useful downstream.
 
 So the kernelized theorem is the cleaner candidate:
 

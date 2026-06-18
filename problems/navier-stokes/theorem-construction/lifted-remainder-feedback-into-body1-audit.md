@@ -112,9 +112,9 @@ geometry. Once proved on the approximation family and passed through Body `3`,
 it feeds Body `4` noncircularly.
 
 The route is now sharper than before: `scale-kernelized-lifted-band-reduction-lemma.md`
-shows that the current scale-side shell algebra really does produce a summable
-off-diagonal gain `2^{-(j-k)}` on the lifted band. What remains open is the
-integrated theorem bounding that kernelized carrier uniformly on the
+shows that the factor `2^{-(j-k)}` is present in the displayed scale-side
+lifted-band carrier. What remains open is the integrated theorem bounding that
+kernelized carrier uniformly on the
 approximation family, and any downstream upgrade from the natural scale-side
 carrier to the stronger gradient-side target.
 

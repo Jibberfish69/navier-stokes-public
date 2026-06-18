@@ -151,9 +151,9 @@ can still be reduced to the admissible coefficient surface
 whether it forces a refined intermediate high-side coefficient.
 
 The new note `scale-kernelized-lifted-band-reduction-lemma.md` sharpens this
-frontier: at exact shell level, the lifted scale-side packet does carry a real
-off-diagonal gain `2^{-(j-k)}` on the band `N+M<k<j-4`, but only on the
-natural scale-side carrier with one high derivative
+frontier: at exact shell level, the factor `2^{-(j-k)}` appears in the displayed
+lifted scale-side carrier on the band `N+M<k<j-4`, but only on the scale-side
+carrier with one high derivative
 `\|\nabla \Delta_j u^{(n)}\|_{L^2_x}\|\Delta_j u^{(n)}\|_{L^2_x}`.
 
 The new coupled repair note
