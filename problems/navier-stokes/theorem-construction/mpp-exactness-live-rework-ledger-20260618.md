@@ -6528,6 +6528,32 @@ Surface edited:
 
 - `theorem-construction/spectral-gap-rigidity-and-projector-identification-note.md`.
 
+## Motivation-Only Language Rework
+
+Old claim being spent:
+
+Two active support notes still used plausibility language near route arguments:
+`mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md` called
+the native source carrier a "plausible detector" for drift, and
+`tps-dynamic-source-fit-and-open-frontier.md` said anisotropic criteria support
+the "geometric plausibility" of the cycle-exact polarization endgame.
+
+Exact replacement:
+
+Both notes now mark those comparisons as motivation only.  The drift note keeps
+the missing theorem as `ModulationForcingNativeProjection.A`; the TPS note says
+the anisotropic criteria do not supply the selector-adapted defect bridge.
+
+Downstream consequence:
+
+Neither route may spend plausibility as theorem support.  Each remains blocked
+at its named source/defect bridge.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`;
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
+
 ## Current Keyword Residue Classification After Live Rework Batch
 
 This is not a completion claim.  It records the remaining authority-referenced
