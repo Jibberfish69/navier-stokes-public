@@ -186,31 +186,31 @@ actual abstract once the template is used for a real mathematical manuscript.
 \VolSectionNewpageOff
 
 \volumegroup{First Thematic Group}
-\section{Formal Environment Examples}\label{sec:custom-formal-envs}
+\section{Formal Environment Examples}\label{sec:FormalEnvironmentExamples}
 This section demonstrates the formal environment naming convention inside the
-custom volume structure. Headings print the full environment name, while
-cross-references use the abbreviated form, as in \cref{def:custom-sample-object}
-and \cref{th:custom-sample-conclusion}. Section pointers use the section sign,
-as in \Sref{sec:custom-formal-envs}.
+custom volume structure. Option 1 makes \cref{def:SampleObject} and
+\cref{thm:SampleConclusion} read as noun phrases from the canonical
+PascalCase label stem. Section pointers can still use the section sign, as in
+\Sref{sec:FormalEnvironmentExamples}.
 
-\begin{definition}[sample object]\label{def:custom-sample-object}
+\begin{definition}[sample object]\label{def:SampleObject}
 A sample object is a placeholder mathematical item used only to show the
 environment heading, optional title, counter, spacing, and cross-reference form.
 \end{definition}
 
-\begin{notationenv}[sample notation]\label{not:custom-sample-notation}
+\begin{notationenv}[sample notation]\label{not:SampleNotation}
 For a finite list of sample objects, write \(X_1,\ldots,X_n\), and let
 \(P(X_i)\) denote the placeholder property attached to \(X_i\).
 \end{notationenv}
 
-\begin{assumption}[sample regularity hypothesis]\label{as:custom-sample-assumption}
+\begin{assumption}[sample regularity hypothesis]\label{as:SampleRegularityHypothesis}
 Each \(X_i\) carries enough structure for the statement \(P(X_i)\) to be
 evaluated inside the present section.
 \end{assumption}
 
-\begin{theorem}[sample conclusion]\label{th:custom-sample-conclusion}
-Under \cref{as:custom-sample-assumption}, the object introduced in
-\cref{def:custom-sample-object} has a well-defined placeholder property.
+\begin{theorem}[sample conclusion]\label{thm:SampleConclusion}
+Under \cref{as:SampleRegularityHypothesis}, the object introduced in
+\cref{def:SampleObject} has a well-defined placeholder property.
 \end{theorem}
 
 \begin{proof}
@@ -218,47 +218,71 @@ The definition supplies the object, the notation supplies the property symbol,
 and the assumption supplies the condition under which the statement can be read.
 \end{proof}
 
-\subsection{Subsection-Level Numbering}\label{sub:custom-formal-numbering}
+\subsection{Subsection-Level Numbering}\label{sub:SubsectionLevelNumbering}
 This subsection shows the second numbering form. Environment counters restart
 inside the subsection, and the displayed number includes the subsection index.
 
-\begin{lemma}[sample supporting step]\label{lem:custom-sample-step}
+\begin{lemma}[sample supporting step]\label{lem:SampleSupportingStep}
 The placeholder property is stable under replacing one sample object by another
 object from the same finite list.
 \end{lemma}
 
-\begin{proposition}[sample transfer]\label{prop:custom-sample-transfer}
-The stability in \cref{lem:custom-sample-step} transfers the placeholder
+\begin{proposition}[sample transfer]\label{prop:SampleTransfer}
+The stability in \cref{lem:SampleSupportingStep} transfers the placeholder
 property from \(X_1\) to every \(X_i\) in the list.
 \end{proposition}
 
-\begin{corollary}[sample consequence]\label{cor:custom-sample-consequence}
+\begin{corollary}[sample consequence]\label{cor:SampleConsequence}
 Every object in the list has the placeholder property.
 \end{corollary}
 
-\begin{principle}[sample reading rule]\label{prin:custom-sample-rule}
+\begin{principle}[sample reading rule]\label{prin:SampleReadingRule}
 Template examples should expose the printed convention without importing the
 source manuscript's subject matter.
 \end{principle}
 
-\begin{axiom}[sample starting premise]\label{ax:custom-sample-premise}
+\begin{axiom}[sample starting premise]\label{ax:SampleStartingPremise}
 The sample list is nonempty.
 \end{axiom}
 
-\begin{conjecture}[sample future claim]\label{con:custom-sample-future}
+\begin{conjecture}[sample future claim]\label{con:SampleFutureClaim}
 The same display convention remains legible when the section contains longer
 mathematical prose.
 \end{conjecture}
 
-\begin{example}[sample use]\label{ex:custom-sample-use}
-The reference sequence \cref{lem:custom-sample-step},
-\cref{prop:custom-sample-transfer}, and \cref{cor:custom-sample-consequence}
-shows the abbreviated names used by cleveref.
+\begin{example}[sample use]\label{ex:SampleUse}
+The reference sequence \cref{lem:SampleSupportingStep},
+\cref{prop:SampleTransfer}, and \cref{cor:SampleConsequence}
+shows the title-stem names used by the custom internal cref rule.
 \end{example}
 
 \begin{remark}[section reference form]
-The local section helper prints \Sref{sub:custom-formal-numbering}; cleveref
-prints the same destination as \cref{sub:custom-formal-numbering}.
+The local section helper prints \Sref{sub:SubsectionLevelNumbering}; option 1
+prints the same destination as \cref{sub:SubsectionLevelNumbering}.
+\end{remark}
+
+\subsection{Surface Hybrid Reference Examples}\label{sub:SurfaceHybridReferenceExamples}
+\SurfaceCrefAnchor{surf:ClayTerminalWitnessCMEntry}{Clay terminal witness CM entry}{ClayTerminalWitnessCMEntry.A}
+\SurfaceCrefAnchor{surf:WholeSpaceCMCompletionBranch}{whole-space CM completion branch}{R3.WholeSpaceCMCompletion.A}
+\SurfaceCrefAnchor{surf:LocalizedSkewCurrentPacket}{localized skew-current packet}{LocalizedSkewCurrent.A}
+\SurfaceCrefAnchor{surf:WholeSpaceHsTail}{whole-space Hs tail}{Tail.Hs\_R3}
+\SurfaceCrefAnchor{surf:SharedPackSplit}{shared Pack split}{ESM.N6}
+\SurfaceCrefAnchor{surf:ActionableViscousCrossReadout}{actionable viscous cross-readout}{ACT.X-Readout}
+\SurfaceCrefAnchor{surf:PackFace}{Pack face}{Pack\_Q}
+\SurfaceCrefAnchor{surf:PartFace}{Part face}{Part\_\{N,Q\}}
+\SurfaceCrefAnchor{surf:FieldFace}{Field face}{Field\_\{N,r,Q\}}
+Option 2 keeps the readable surface and exact repo handle together:
+\surfacecref{surf:ClayTerminalWitnessCMEntry},
+\surfacecref{surf:WholeSpaceCMCompletionBranch}, and
+\surfacecref{surf:LocalizedSkewCurrentPacket}. It also leaves compact branch
+codes legible, as in \surfacecref{surf:WholeSpaceHsTail},
+\surfacecref{surf:SharedPackSplit}, and
+\surfacecref{surf:ActionableViscousCrossReadout}.
+
+\begin{remark}[face primitive references]
+The same rule can name witness faces without forcing them into theorem-number
+syntax: \surfacecref{surf:PackFace}, \surfacecref{surf:PartFace}, and
+\surfacecref{surf:FieldFace}.
 \end{remark}
 
 \section{Second Section Title}
@@ -273,10 +297,10 @@ This is placeholder body text for the third section.
 \volumegroup{Main Argument Group}
 \section{Fourth Section Title}
 This second volume keeps the same stripped formal environment convention.
-\cref{prin:custom-second-volume-rule} shows that the counter follows the
+\cref{prin:SampleSecondVolumeRule} shows that the counter follows the
 current volume/section address.
 
-\begin{principle}[sample second-volume rule]\label{prin:custom-second-volume-rule}
+\begin{principle}[sample second-volume rule]\label{prin:SampleSecondVolumeRule}
 The formal environment layer is reusable across volumes without carrying any
 monograph-specific labels, tooltips, or subject matter.
 \end{principle}
