@@ -45,7 +45,7 @@ Each route performs some version of the same four moves:
 3. convert the remaining lifted or cumulative object into a one-sided carrier;
 4. pass to a positive, weighted, or quotient readout of the surviving part.
 
-Schematically,
+As a bookkeeping relation, not as a theorem, write
 
 ```math
 \mathcal E^{(n+1)} = \mathcal R(\mathcal E^{(n)}),
@@ -54,6 +54,17 @@ Schematically,
 where `\mathcal R` is not yet a proved operator, but the notes consistently
 show that it lowers descriptive complexity without yet proving quantitative
 contraction.
+
+The missing theorem would have to define a class of admissible defects
+`\mathfrak E`, prove that `\mathcal R:\mathfrak E\to\mathfrak E` is available
+for the actual Navier--Stokes survivor, and supply either a contraction
+
+```math
+J(\mathcal R(E))\le \theta J(E),\qquad 0<\theta<1,
+```
+
+or a finite landing theorem into a named discharged packet class.  No downstream
+argument may spend the displayed recurrence as quantitative decay.
 
 ## Evidence from the current route stack
 
