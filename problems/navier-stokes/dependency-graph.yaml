@@ -3,7 +3,7 @@ version: 3
 identity:
   problem_id: navier-stokes
   artifact_id: dependency-graph-navier-stokes
-  generated_at: '2026-06-18T21:20:08Z'
+  generated_at: '2026-06-18T21:43:38Z'
   generator: system/runner/lib/release_surface_reconciler.rb
 status: cm-contrapositive-referee-blocked
 pass: false
