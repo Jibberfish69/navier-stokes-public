@@ -4154,6 +4154,39 @@ Additional edited live surfaces in this cleanup:
 - `theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`;
 - `theorem-construction/mcp-zenocriticalprofileproductionattempt-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-6024ef0bd0.md`.
 
+## Remaining Exact U/r And Profile-Hit Classification
+
+Second-pass search:
+
+```text
+U/r|∇u|\nabla u (~|\sim)|nabla u.*U|velocity changes by|
+typical gradient|typical slope|linear profile|profile assumption
+```
+
+Remaining live hits are classified as edited/intentionally retained repair
+language, not unresolved scale shortcuts:
+
+- `submission-bundle/navier-stokes-submission.tex`: the pulling-teeth passage
+  states the oscillation inequality on the actual moving ball and explicitly
+  rejects slope `U/r` or any profile law.
+- `submission-bundle/source-field-reader-appendix.tex`: remaining hits state
+  exact normalized densities, analytic-collapse imports, finite cell-cover
+  mean-value inequalities, fixed-annulus Littlewood--Paley hypotheses,
+  non-use of profile assumptions, or the exact same-tail
+  `SCF_base` local-modulus replacement.
+- `theorem-construction/same-scale-multiplier-stability-program.md`,
+  `middle-band-flux-gap-kernel-theorem.md`,
+  `mpp-hhalf-oscillation-field-exit-reduction-20260528.md`,
+  `mpp-r3-tail-hs-duhamel-source-reduction-20260607.md`,
+  `mpp-open-dead-patch-rigidity-theorem.md`, and related live notes keep
+  profile language only as explicit non-use or exact replacement language.
+- `theorem-construction/mpp-transported-material-packet-bridge-lemma.md` uses
+  `\Delta_r^X(\nabla u)` as an oscillation/difference notation for the
+  transported gradient field, not as `\nabla u\sim U/r`.
+
+No remaining live hit spends the old pulling-teeth linear-profile estimate as a
+proof step.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
