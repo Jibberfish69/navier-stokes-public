@@ -103,7 +103,7 @@ central_gate:
       - 'Pack/Part/Field as overlapping witness axes: Pack has fixed-box flux and
         finite-window material-coordinate readings; Part is same pressure-viscosity
         carrier law; Field is neighboring tower coherence'
-      - 'Pack/Part/Field ontological collapse audit: test whether formal witness rows
+      - 'Pack/Part/Field ontological collapse audit: test whether generated Pack/Part/Field witness rows
         have real terminal same-fluid realizations, or collapse into overlapping Dead/Jump/Blown
         readouts'
       - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
@@ -324,7 +324,7 @@ central_gate:
       Field records neighboring tower coherence. A finite-time material distortion
       event is Pack-facing but its strain/tower mechanism must be audited against
       Field or the row-independent tower-amplitude slot. Under the terminal same-fluid
-      reading, do not advertise a formal "Pack-only", "Part-only", or "Field-only"
+      reading, do not advertise a table-level "Pack-only", "Part-only", or "Field-only"
       row as an ontological scenario until its real terminal realization has been
       tested against the implication pressure among Pack, Part, Field, and the Dead/Jump/Blown
       readouts.
@@ -334,12 +334,12 @@ central_gate:
       so the first unspent CM face is Field_{N,r,Q}. Under the stronger terminal same-fluid
       ontology, a realized coherence break also defeats terminal participation and
       collapses to Pack + not-Part + not-Field unless the note explicitly says Part
-      is only a retained hypothesis/formal license.
+      is only a retained hypothesis/license rather than terminal ontology.
     part_field_resolution_note: problems/navier-stokes/theorem-construction/mpp-field-failure-to-part-collapse-20260522.md
     active_ontological_audit:
       status: field-to-part-collapse-resolved-pack-blown-side-active
       note: problems/navier-stokes/theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md
-      question: 'Determine which formal Pack/Part/Field witness rows have real terminal
+      question: 'Determine which generated Pack/Part/Field witness rows have real terminal
         same-fluid realizations, and which collapse into overlapping endpoint readouts
         once Pack is carrier geometry, Part is terminal pressure-viscosity/tower participation,
         and Field is neighboring tower coherence. For each binary row, ask which cause
