@@ -414,10 +414,23 @@ transfer into that shell.  The model identity has the form
   \partial_t E(k,t)=T(k,t)-2\nu k^2E(k,t).
 \]
 The viscous term has the right sign and the right frequency weight.
-A direct proof would need \(T(k,t)\) to be weaker than that dissipation on the
-bad tail, or at least weak enough after summing over the active scales.
-That is the scale payment.
-It asks the equation to turn viscosity into a summable derivative tail.
+A direct proof has to state this as a tail inequality on the same frequencies it
+later consumes.  For a cutoff \(K\), set
+\[
+  Y_{>K}(t):=\int_K^\infty k^2E(k,t)\,dk
+\]
+and
+\[
+  \mathcal D_K(t)
+  :=
+  2\nu\int_K^\infty k^4E(k,t)\,dk
+  -
+  \int_K^\infty k^2T_+(k,t)\,dk .
+\]
+The scale payment is not a pointwise profile for \(T\) and not an active-scale
+picture.  It is a proof that \(\mathcal D_K(t)\ge0\), or that
+\((\mathcal D_K(t))_-\) is integrable with the required constants, on the
+selected tail.
 
 The second body asks the same question in physical-space energy language.
 Let
@@ -443,16 +456,18 @@ The \(Q(t)\) body so has to do more than repeat enstrophy control; it
 has to find a new payment for the source term.
 
 The third body is compactness.
-If the tail and source payments were already available, compactness would be
-the natural way to produce the object on which the final argument acts.
+If the tail and source payments were already available, compactness would still
+need a specified extraction topology and a same-solution attachment theorem.
 One splits an approximating sequence into low and high modes.
-Low modes are finite-dimensional after time regularity is supplied.
-High modes are small after a real tail estimate.
+Low modes are finite-dimensional after a time-compactness bound is supplied.
+High modes are small only after a uniform selected-tail estimate is proved.
 Then strong convergence passes the quadratic term,
 \[
   u_n\otimes u_n\longrightarrow u\otimes u,
 \]
-and the limit remains a solution of the same equation.
+and the limit remains a solution of the same equation only after the weak
+equation, pressure normalization, and initial-data/uniqueness attachment are
+kept on the original Navier--Stokes surface.
 This body is essential because the Clay problem is about the original
 Navier--Stokes solution, not about an auxiliary object that merely resembles
 it.
@@ -2052,7 +2067,9 @@ That shape explains both the attraction and the failure.
 The attraction is that each body is a familiar mathematical move.
 High-frequency dissipation is real.
 The kinetic energy identity is exact.
-Compactness is the standard way to pass from approximations to solutions.
+Compactness can pass from approximations to a solution only after the topology,
+time-compactness, uniform tail smallness, nonlinear passage, and same-solution
+attachment have all been supplied.
 Derivative recovery is exactly what a smoothness proof must eventually provide.
 The failure is that none of those bodies can be allowed to borrow the theorem
 from the next body.
@@ -2735,23 +2752,29 @@ The source norm was
   +\|\nabla u\|_{L^2}
   +\sup_{k>k_0}\frac{E(k)}{k^\beta}.
 \]
-The argument is the standard low/high split in a tailored space.
+The actual compactness statement is a low/high split with explicit hypotheses.
 Write
 \[
   u_n=u_n^{(<K)}+u_n^{(\ge K)} .
 \]
 The low-frequency part has only finitely many Fourier modes and is compact once
-the time side is controlled.
-The high-frequency part is small when the scale tail is small:
+a time-derivative bound in a negative Sobolev space is supplied.  The
+high-frequency part is small only under a uniform tail condition, for example
+\[
+  \lim_{K\to\infty}
+  \sup_n\int_0^T
+  \int_{k\ge K} k^{2s}E_n(k,t)\,dk\,dt
+  =0
+\]
+at the derivative level \(s\) being passed.  At \(s=0\), this gives
 \[
   \|u_n^{(\ge K)}\|_{L^2}^2
   \le C_{LP}
   \int_{k\ge K}E_n(k,t)\,dk .
 \]
-If \(E_n(k,t)\le Ck^{-\gamma}\) with \(\gamma>1\), the tail can be made small by
-taking \(K\) large.
-For derivative-level compactness one needs the stronger tail matched to the
-derivative being passed.
+Pointwise power-law decay \(E_n(k,t)\le Ck^{-\gamma}\) is only one sufficient
+extra profile assumption.  The proof itself needs the displayed uniform tail
+smallness, matched to the norm and time window used in the nonlinear passage.
 
 The compactness route is real.
 It tells us how a controlled approximation family can produce an exact
