@@ -6271,6 +6271,150 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Frozen-Family Pressure Interval Discharge Rework
+
+Old claim being spent:
+
+`mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md` said the
+interval discharge `(FFPR.B1)` followed from "the same bound."
+
+Exact replacement:
+
+The proof now states the exact integrability consequence: `(FFPR.B1)` supplies
+
+```text
+int_I C_{N+1,rho,psi}^{delta+4 Lambda_halo}(t) dt < infinity,
+int_I H_{N,rho,psi}^{press,loc,4 Lambda,epsilon,alpha}(t;I) dt < infinity,
+```
+
+which makes the right side of `(FFPR.B0)` integrable, with the frozen-net
+constant contributing only `M_epsilon |I|`.
+
+Downstream consequence:
+
+The fixed-pressure carrier reduction now spends an `L^1(I)` discharge, not a
+verbal same-bound shortcut.
+
+Surface edited:
+
+- `theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md`.
+
+## Uniform Lower-Carrier Pre-Parameter Restriction Rework
+
+Old claim being spent:
+
+`mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md` said that
+the restriction to `P_pre` followed by "the same proof."
+
+Exact replacement:
+
+The non-circular graph reading now repeats the actual finite-parameter
+Gronwall reduction over `P_pre`, defines
+
+```text
+B_pre(t) = sum_{p in P_pre} B_p^{coef,epsilon}(t) in L^1(I),
+G_{0,pre} = max_{p in P_pre} G_p(t0),
+```
+
+and writes the restricted bound
+
+```text
+G_p(t) <= G_{0,pre} exp(||B_pre||_{L^1(I)}).
+```
+
+Downstream consequence:
+
+The base readback no longer hides circularity under a proof-reference phrase;
+the pre-`EOC.A` receiver set is closed by its own displayed restricted
+Gronwall packet.
+
+Surface edited:
+
+- `theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md`.
+
+## Pair-Defect Two-Slot Source Estimate Rework
+
+Old claim being spent:
+
+`tps-pair-defect-pde-packet.md` displayed the `x`-slot product estimate and
+then said the `y`-slot source term was controlled by the same estimate.
+
+Exact replacement:
+
+The proposition now displays the second bound:
+
+```text
+||r_J(y,t) K_J||_{L^2_{x,y}}
+<= ||r_J(t)||_{L^\infty_y} ||K_J(t)||_{L^2_{x,y}}
+=  ||r_J(t)||_{L^\infty} ||K_J(t)||_{L^2_{x,y}}.
+```
+
+The proof now repeats the actual Fubini integral in the `y` variable.
+
+Downstream consequence:
+
+The pair-defect energy closure spends two displayed product estimates,
+`(PD.50)` and `(PD.50y)`, instead of a one-slot estimate plus symmetry prose.
+
+Surface edited:
+
+- `theorem-construction/tps-pair-defect-pde-packet.md`.
+
+## Selector And Alignment Same-Estimate Rework
+
+Old claim being spent:
+
+Two live selector/alignment notes used "same estimate" wording inside proof
+closures: `D.7mr2` compared to `D.7mg1`, and `(AS.7h)` compared to `(AS.7d)`.
+
+Exact replacement:
+
+`tps-selector-observability-to-sg4-bridge-proof-attempt.md` now says exactly
+which error slots are fixed:
+`Err_pair = Err_pair^epsilon` and
+`Err_strain = Err_strain^boot`.  `tps-alignment-to-strain-production-lemma.md`
+now states that `(AS.7h)` follows by substituting the lower bound
+`c_1(t)^2 >= c_min^2` from `(AS.7g)` into the denominator of `(AS.7d)`.
+
+Downstream consequence:
+
+The downstream closure no longer relies on similarity language; it records the
+actual substitutions that move the earlier packets into the theorem-facing
+forms.
+
+Surfaces edited:
+
+- `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`;
+- `theorem-construction/tps-alignment-to-strain-production-lemma.md`.
+
+## Spectral Residual-Loop Closure Rework
+
+Old claim being spent:
+
+`spectral-transversality-cocycle-bridge-to-sg4.md` said that without cycle
+exactness, "the same estimate" plus the residual loop bound yielded `PD.70`.
+
+Exact replacement:
+
+The note now states the extra residual-loop inequality:
+
+```text
+E_J^{loop}(I) <= C_loop E_J^{obs}(I),
+```
+
+and the exported defect ledger is bounded by
+`(C_dir + C_loop) E_J^{obs}(I)`.
+
+Downstream consequence:
+
+The general-branch `PD.70` closure now has an explicit second contribution; the
+cycle-exact branch and residual-loop branch are no longer collapsed into a
+single verbal estimate.
+
+Surface edited:
+
+- `theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md`.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
