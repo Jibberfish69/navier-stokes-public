@@ -267,9 +267,17 @@ OneSidedNearBandMaterialStrainBV.A
 ```
 
 and of the signed no-free-sink/source-current wall.  Absolute pressure control
-returns to active-square Carleson strength; signed pressure control returns to
-terminal partner retention, legal exit, donor depletion, or temporal anti-atom
-rigidity.
+returns to the active-square coefficient estimate
+
+```math
+\|P^{loc}_{j,L}(S^2+\Omega^2+\nabla^2p)\|_\infty
+\le
+C_{\mathrm{CZ}}\|\nabla u\|_\infty^2,
+```
+
+while signed pressure control must preserve terminal partner cancellation or
+convert its failure into legal exit, donor depletion, temporal anti-atom
+rigidity, or the selected source-current term.
 
 The partner-graph normal form is made explicit in
 `mpp-pressure-hessian-partner-graph-normal-form-20260517.md`.  It corrects the
