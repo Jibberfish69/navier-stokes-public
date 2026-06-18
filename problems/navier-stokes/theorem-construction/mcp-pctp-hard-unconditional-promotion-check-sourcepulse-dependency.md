@@ -4,13 +4,17 @@
 
 Conditional promotion check.
 
-The terminal-tail production chain is installed under the source-control hypothesis:
+The historical terminal-tail production chain was recorded under the
+source-control hypothesis:
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
 
-Under that hypothesis, the current averaged-route assembly gives
+At the current exactness standard, that hypothesis is not sufficient by itself:
+the same-tail `SCFBaseLocalModulus_N` input is also required before the retained
+Field row can be admitted into the averaged Field row.  Under both inputs, the
+averaged-route assembly gives
 
 ```math
 PCTP.hard / TTU.A.
@@ -18,10 +22,15 @@ PCTP.hard / TTU.A.
 
 ## Promotion criterion
 
-The conditional `PCTP.hard` closure promotes to unconditional exactly when the source-control theorem is discharged:
+The conditional `PCTP.hard` closure promotes to unconditional only when the
+source-control theorem and the same-tail Field-admission input are discharged
+from original data:
 
 ```math
-OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
+OriginalSmoothData\Longrightarrow SourcePulseExclusion.A,
+\qquad
+OriginalSmoothData\Longrightarrow SCFBaseLocalModulus_N
+\text{ on admitted terminal tails}.
 ```
 
 Once this theorem is installed, the chain is:
@@ -35,7 +44,7 @@ Jump_{avg}\Rightarrow\bot
 \Longrightarrow
 \neg Jump_{avg}
 \Longrightarrow
-TGC.A.cover
+SCFBaseLocalModulus_N+TGC.A.cover
 \Longrightarrow
 AACT.Global.noJump
 \Longrightarrow
@@ -54,14 +63,25 @@ The route surfaces consolidate every current source-control presentation into th
 \text{exclude heat-scale, scale-critical nonlinear source pulses carrying mixed bilinear dissipation on active terminal windows.}
 ```
 
-The currently installed notes provide conditional bridges and dependency collapse. The unconditional original-data proof of this atom remains the active frontier.
+The currently installed notes provide conditional bridges and dependency
+collapse. The unconditional original-data proof of the source-control atom and
+the same-tail modulus input remains the active frontier.
 
 ## Result
 
-The unconditional promotion remains pending on the source-pulse theorem. The conditional `PCTP.hard` closure is ready for promotion once `SourcePulseExclusion.A` is derived from `OriginalSmoothData`.
+The unconditional promotion remains pending on the source-pulse theorem and the
+same-tail Field-admission input. The conditional `PCTP.hard` closure is ready
+for promotion only after both are derived from `OriginalSmoothData`.
 
 ## Next target
 
 ```math
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
+```
+
+and
+
+```math
+OriginalSmoothData\Longrightarrow SCFBaseLocalModulus_N
+\text{ on admitted terminal tails}.
 ```
