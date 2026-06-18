@@ -206,9 +206,9 @@ Apply the exact comparison identity to the noncoherent piece
 u_{\mathrm{noncoh}}=\rho((I-\mathbb H_D)X).
 ```
 
-Standard Bernstein/Sobolev localization on `\mathbb R^3` gives, for `s>\frac52`,
-with constants `C_{B,s}` and `C_{H,s}` depending only on `s` and the fixed
-Littlewood--Paley partition,
+Bernstein and Sobolev localization on `\mathbb R^3` give the displayed
+inequalities below, for `s>\frac52`, with constants `C_{B,s}` and `C_{H,s}`
+depending only on `s` and the fixed Littlewood--Paley partition,
 
 ```math
 \|\nabla P_{\le j_0} f\|_{L^\infty_x}
