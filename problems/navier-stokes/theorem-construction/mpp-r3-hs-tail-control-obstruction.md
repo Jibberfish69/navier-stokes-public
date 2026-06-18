@@ -68,23 +68,38 @@ Compact-core tower bounds also leave the exterior region uncontrolled. They cove
 
 ## Localized high-order energy attempt
 
-Differentiating the equation and testing against an exterior cutoff gives the
-formal localized identity
+Let `eta_R` be an exterior cutoff with `eta_R=0` on `|x|\le R`, `eta_R=1` on
+`|x|\ge 2R`, and `|\nabla^j eta_R|\le C_jR^{-j}`.  The tail quantity is
 
 ```math
-\frac{d}{dt}\int \chi_R |\Lambda^s u|^2
-+2\nu\int\chi_R|\nabla\Lambda^s u|^2
-=
-\text{commutator flux}+\text{cutoff flux}+\text{pressure flux}.
+\mathcal H_s^{tail}(R,t)
+:=\|eta_R\Lambda^s u(t)\|_2^2.
 ```
 
-The commutator terms require continuation-grade control such as
+Testing the differentiated equation against `eta_R^2\Lambda^s u` gives the
+exact inequality
 
 ```math
-\int_0^{T_*}\|\nabla u(t)\|_{L^\infty}dt<\infty
+\frac d{dt}\mathcal H_s^{tail}(R,t)
++\nu\|eta_R\nabla\Lambda^s u\|_2^2
+\le
+C_s\|\nabla u(t)\|_{L^\infty}\mathcal H_s^{tail}(R,t)
++C_{s,\nu}\mathcal E_s^{tail}(R,t),
 ```
 
-or an equivalent high-order exterior dissipation ledger. That is the kind of information the whole-space continuation argument is trying to prove, so spending it here would be circular.
+where `\mathcal E_s^{tail}` is the sum of the annular cutoff commutator ledger
+and the localized pressure/Riesz commutator ledger.  A Gronwall closure requires
+
+```math
+\int_0^{T_*}\|\nabla u(t)\|_{L^\infty}dt<\infty,
+\qquad
+\int_0^{T_*}\mathcal E_s^{tail}(R,t)\,dt\to0
+\quad(R\to\infty),
+```
+
+plus the initial tail `\mathcal H_s^{tail}(R,0)\to0`.  This is exactly the kind
+of continuation-grade information the whole-space argument is trying to prove,
+so spending it here would be circular.
 
 ## Remaining endpoint face
 
