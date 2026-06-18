@@ -2,21 +2,38 @@
 
 ## Status
 
-Paper-grade proof surface for the terminal-tail theorem.
+Conditional proof surface for the terminal-tail theorem.  This is not an
+unconditional proof of `PCTP.hard` from original data until the upstream
+terminal-tail production inputs listed below have been supplied.
 
 ## Theorem
 
-For smooth divergence-free zero-mean periodic initial data on `T^3`, the maximal classical Navier-Stokes solution has no finite terminal endpoint. Equivalently,
+For smooth divergence-free zero-mean periodic initial data on `T^3`, let
+`(u,p)` be the maximal classical solution on `[0,T_*)`.  Assume that every
+terminal same-fluid approach tail has the upstream averaged route inputs
 
 ```math
-OriginalSmoothData\Longrightarrow\text{uniform terminal-tail retained class-membership readout}.
+SCFBaseLocalModulus_N,\qquad
+Field_{avg},\qquad
+AACT.Global,\qquad
+\operatorname{Hyp}(FFSRC.A),\qquad
+AVG.END.Cert,
 ```
+
+with the same-tail modulus supplied on the admitted terminal tail or proved from
+the retained `Field_{N,r,Q}` row.  Under these hypotheses the maximal classical
+solution has no finite terminal endpoint.
 
 ## Proof
 
-Let `(u,p)` be the maximal classical solution on `[0,T_*)`. Work on a terminal same-fluid approach tail.
+Work on a terminal same-fluid approach tail satisfying the displayed inputs.
 
-The averaged field object gives the terminal positive-scale cover dichotomy. On the `Field_avg` branch, the Field_avg equivalence theorem gives a finite positive-scale SCF-good same-fluid cover on a terminal subtail. On the complementary branch, the terminal loss of that cover is the averaged endpoint face `Jump_avg`.
+The same-tail modulus is an upstream input to the averaged Field admission; it
+is not supplied by `READ.COVER`.  With that input in place, the averaged field
+object gives the terminal positive-scale cover dichotomy. On the `Field_avg`
+branch, the Field_avg equivalence theorem gives a finite positive-scale SCF-good
+same-fluid cover on a terminal subtail. On the complementary branch, the terminal
+loss of that cover is the averaged endpoint face `Jump_avg`.
 
 On the `Field_avg` branch, the local averaged estimates and finite-cover scheduler give
 
@@ -98,14 +115,17 @@ solution past `T_*`. Hence the maximal time satisfies
 T_*=\infty.
 ```
 
-This proves `PCTP.hard` and the periodic global smoothness theorem.
+Thus the displayed upstream route inputs imply the periodic terminal conclusion.
+Without those inputs, this note proves only the downstream readout/continuation
+implication, not unconditional `PCTP.hard` from original smooth data.
 
 ## Dependency order
 
 The proof order is exactly
 
 ```math
-Field_{avg}\to AACT.Global\to DTC.A_{avg}\to CFI.A_{avg}\to End_{NS,avg}\to READ.END\to End_{NS}\to continuation.
+SCFBaseLocalModulus_N+Field_{avg}+AACT.Global+\operatorname{Hyp}(FFSRC.A)
+\to DTC.A_{avg}\to CFI.A_{avg}\to End_{NS,avg}\to READ.END\to End_{NS}\to continuation.
 ```
 
 `READ.COVER` appears only after `End_NS_avg`. Pointwise `Field` and pointwise `DTC.A` appear only after terminal readout.
