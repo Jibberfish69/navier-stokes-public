@@ -4,6 +4,12 @@ Date: 2026-05-06
 
 Status: direct attempt; obstruction recorded; theorem not discharged.
 
+Exactness rework correction, 2026-06-18: this remains a valid obstruction note
+for the supplier-side shell-balance attempt, but its old downstream use as a
+direct source-wall closure chain is stale.  Current live surfaces require
+same-ledger payment or CM-test admission plus a first Pack/Part/Field face
+failure before a retained source/height-flux branch becomes CM proof material.
+
 Target:
 
 ```math
@@ -40,7 +46,8 @@ H_N(W)-H_N(Past(W))-Loss^{height}_{legal}(W)
 C\,Charge_N^{height}(W)+o_N(1).
 ```
 
-If installed, it closes the first-pulse direct source-wall branch:
+Under the old direct supplier route, installing it would have fed the
+first-pulse source-wall branch:
 
 ```math
 DonorHeightCreation.A
@@ -51,6 +58,10 @@ SquareReserveEvolution.A
 \Longrightarrow
 ScaleCriticalTreeCarleson.A.
 ```
+
+Under the current live frontier, this implication chain is support-level unless
+the same branch is paid in the same ledger or is admitted to the CM test and
+lands at the first failed Pack, Part, or Field face.
 
 ## 2. Native shell balance input
 
@@ -244,7 +255,7 @@ or assuming ScaleCriticalTreeCarleson.A.
 
 ## 7. Current route update
 
-The sharpened direct chain is now:
+The historical sharpened direct chain was:
 
 ```text
 HeightFluxControl.A
@@ -257,6 +268,10 @@ HeightFluxControl.A
 But `HeightFluxControl.A` is not currently lower than the source wall.  It is a
 more precise PDE face of the same wall unless one proves a genuinely new
 signed/decorrelation/depletion theorem.
+The current live frontier is sharper: that theorem must be a same-witness
+terminal anti-concentration / source-Carleson / rigid-anti-atom /
+non-source Pack-survival mechanism, or an equivalent same-ledger payment, before
+this shell-balance note carries proof force.
 
 ## 8. Verdict
 
@@ -270,7 +285,7 @@ square-reserve first creation
 -> positive weighted shell-flux control.
 ```
 
-The next theorem-crank target is therefore not scalar damping.  It is:
+The old next theorem-crank target was therefore not scalar damping.  It was:
 
 ```math
 \boxed{
@@ -279,3 +294,7 @@ HeightFluxControl.A
 ```
 
 with one of the structural mechanisms listed above.
+
+Current use: this note supplies the exact hard carrier and scalar-damping
+failure for later same-witness anti-concentration or payment work.  It is not a
+current target-setting surface by itself.
