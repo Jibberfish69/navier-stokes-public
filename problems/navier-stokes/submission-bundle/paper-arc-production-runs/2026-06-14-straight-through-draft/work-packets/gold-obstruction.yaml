@@ -74,24 +74,24 @@ production_machine_contract:
   first_draft_boundary: the first draft exists only when every current repo proof
     thread has a home on the page as proof, support, obstruction, obsolete material,
     contradiction, or open continuation
-source_payment_table:
+source_argument_table:
 - spine_id: the-direct-estimate-route
   section_title: The Direct Estimate Route
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:151
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: &1
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
 - spine_id: where-the-direct-route-reaches-an-obstruction
   section_title: Where the Direct Route Reaches an Obstruction
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:200
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 context_home_table:
@@ -108,7 +108,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -127,7 +127,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -145,7 +145,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -165,7 +165,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -184,7 +184,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -203,7 +203,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -221,7 +221,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -239,7 +239,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -257,7 +257,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -275,7 +275,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -294,7 +294,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -313,7 +313,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -332,7 +332,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -351,7 +351,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -370,7 +370,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -393,7 +393,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -413,7 +413,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -434,7 +434,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -455,7 +455,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -476,7 +476,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -497,7 +497,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -520,7 +520,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -541,7 +541,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -562,7 +562,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -585,7 +585,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -607,7 +607,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -630,7 +630,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -651,7 +651,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -673,7 +673,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -694,7 +694,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -716,7 +716,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -737,7 +737,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -760,7 +760,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -781,7 +781,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -802,7 +802,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1068,7 +1068,7 @@ source_sections:
 
     Several nearby support routes sit at this boundary, and they have to be read in the right order.  A source-reserve argument helps only if the first-created positive reserve is charged to a finite same-window ledger, or if the admitted reserve enters the CM test with a concrete first face failure.  The lower-carrier receiver package, the participation-debt mechanism, and the pressure-Hessian normal form are later accounting tools: they explain how an admitted terminal record keeps or loses the same pressure, viscosity, incompressibility, differentiated tower, and field readout.  The pulse above remains possible until one of the gold inputs is added.  The \(B_{\mathrm{ASAC}}\) local exhaustion has the same status.  It reduces the current local doors to a zero-thickness terminal source atom and gives Pack-first support unless a separate positive-scale carrier is produced.  Thus the gold child remains the terminal time-face/new-production theorem, while the silver child is only the admitted same-solution branch split.
 
-    This is the point where the opening route turns to the CM branch.  A residual annular witness that survives this accounting and is admitted as the same-solution terminal object has already paid Pack through admission.  The nonsmooth admitted witness must then fail through Part or Field.
+    This is the point where the opening route turns to the CM branch.  A residual annular witness that survives this accounting and is admitted as the same-solution terminal object has already supplied Pack through admission.  The nonsmooth admitted witness must then fail through Part or Field.
   truncated: false
 support_refs:
 - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
@@ -1279,7 +1279,7 @@ support_refs:
   excerpt: |-
     proof_role: forward_positive_residual_refill_ledger_and_cm_obstruction_routing
       logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-      edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Pack-side. An admitted residual annular supplier has already paid carrier/selection, so its CM failures are Part or Field."
+      edge_effect: "Builds the residual refill ledger requested after the raw LPAS shear counterexample. The ledger measures positive same-fluid nonlinear refill after heat decay, through-flow, legal losses, and paid dissipation are removed. It reorganizes the cone/tower/drain, raw LPAS, square-source, amplitude-normalization, direct active-square, and source-pulse attempts around one spine: residual LPAS/CTS is the live forward theorem; a surviving residual source-balanced pulse is the only obstruction to classify. Generic no-carrier or point-object cases remain Pack-side. An admitted residual annular supplier has already supplied carrier/selection, so its CM failures are Part or Field."
       upstream_origin:
         - problems/navier-stokes/theorem-construction/mpp-direct-lpas-raw-active-square-false-shear-counterexample-20260611.md
 - path: problems/navier-stokes/theorem-construction/mpp-terminal-time-face-anti-atom-hard-obstruction-certificate-20260517.md
@@ -1329,7 +1329,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -1346,7 +1346,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -1430,7 +1430,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md
@@ -1699,17 +1699,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *2
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -1738,7 +1738,7 @@ math_reader_critic_contract:
   must_answer:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   acceptable_repair_decisions:
   - passes after repair
