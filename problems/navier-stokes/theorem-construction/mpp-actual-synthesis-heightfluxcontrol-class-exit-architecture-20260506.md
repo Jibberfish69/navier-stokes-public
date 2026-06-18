@@ -13,7 +13,7 @@ direct route now needs `HeightFluxControl.A` with a real structural mechanism.
 
 Exactness rework correction, 2026-06-18: the proof graph below is historical
 route architecture, not a proof implication.  Its old mathematical claim was
-that the Field/source-wall branch could be treated schematically as
+that the Field/source-wall branch could be compressed into the chain
 
 ```text
 Pack + Part + not Field

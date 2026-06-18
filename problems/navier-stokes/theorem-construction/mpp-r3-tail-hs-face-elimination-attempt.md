@@ -61,8 +61,9 @@ Set
 :=\|eta_R\Lambda^s u(t)\|_2^2.
 ```
 
-The exact localized high-order inequality needed here is not the schematic
-statement that commutator, cutoff, and pressure fluxes are ``standard''.  Apply
+The exact localized high-order inequality needed here is not the unsupported
+statement that commutator, cutoff, and pressure fluxes are already controlled.
+Apply
 `\Lambda^s` to the equation and test against `eta_R^2\Lambda^s u`.  After
 integration by parts,
 

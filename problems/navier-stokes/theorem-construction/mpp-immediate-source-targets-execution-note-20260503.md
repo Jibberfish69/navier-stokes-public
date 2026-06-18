@@ -35,10 +35,11 @@ SignedLocalSource.A.
 
 ## Route-Selected Targets Executed
 
-Exactness audit: no target in this note is selected by temporal immediacy or by
-an assumed typical profile.  The targets below are selected only by the displayed
-route implications, measure decompositions, and branch exclusions.  Downstream
-use must cite one of those exact reductions, not the old filename wording.
+Exactness audit: no target in this note is selected by the event's temporal
+order or by a profile assumption.  The targets below are selected only by the
+displayed route implications, measure decompositions, and branch exclusions.
+Downstream use must cite one of those exact reductions, not the old filename
+wording.
 
 ### 1. Direct nonlinear shell-flux/source control
 

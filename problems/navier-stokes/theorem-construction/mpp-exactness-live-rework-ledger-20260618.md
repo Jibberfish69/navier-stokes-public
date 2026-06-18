@@ -4142,6 +4142,10 @@ Additional edited live surfaces in this cleanup:
 - `theorem-construction/mcp-uniform-local-hs-bounds-for-expanding-periodic-boxes-7ea50ac1cf.md`;
 - `theorem-construction/mpp-open-dead-patch-rigidity-theorem.md`;
 - `theorem-construction/mcp-weighted-pressure-tail-supplier-for-pflux-w-c53e2eb144.md`.
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`;
+- `theorem-construction/mcp-terminalstressfluxantiatomtwodoorpacketattempt-a-stressfluxselectordomination-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-1c958d83b9.md`;
+- `theorem-construction/mpp-r3-tail-hs-face-elimination-attempt.md`;
+- `theorem-construction/mpp-immediate-source-targets-execution-note-20260503.md`.
 
 ## Edited Or Preserved Residues
 

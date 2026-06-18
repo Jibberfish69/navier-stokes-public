@@ -93,7 +93,11 @@ zero point force when Phi_0=0;
 no residual time-dependence, drift, or defect measure.
 ```
 
-The jump from a terminal Zeno branch to an exact stationary homogeneous profile is a compactness/rigidity production theorem. It cannot be inferred merely from a critical Mellin-pole heuristic unless the error terms, time-dependence, translations, rotations, scale drift, and source residues are shown to vanish in the blow-up profile.
+The jump from a terminal Zeno branch to an exact stationary homogeneous profile
+is a compactness/rigidity production theorem. It cannot be inferred merely from
+a critical Mellin-pole indication unless the error terms, time-dependence,
+translations, rotations, scale drift, and source residues are shown to vanish in
+the blow-up profile.
 
 ### Door 2 production verdict
 
