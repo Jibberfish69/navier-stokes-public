@@ -72,7 +72,7 @@ remaining_open_after_batch:
     finality, or a full-PDF finality gate.
   - >-
     D14-D23 now tell the reader which source-field reductions are installed and
-    which proof payments remain open, but those open payments are still not
+    which proof arguments remain open, but those open payments are still not
     proofs of the annular endpoint witness.
   - >-
     The next source-field unit begins at D24, the carrier axiom and low-mode

@@ -60,4 +60,4 @@ up to fixed-width constants. Therefore, for large `N`,
 
 ## Consequence
 
-LPAS remains a live theorem for the lifted-packet/far-corona route, but the tail-square reserve no longer requires LPAS. The collar product and tail-generated low-mode product can now use the direct tail-square absorption path.
+LPAS remains a live theorem for the lifted-packet/far-corona route, but the tail-square reserve no longer requires LPAS. The collar product and tail-generated low-mode product can now use the displayed direct tail-square inequality.

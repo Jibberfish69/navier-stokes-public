@@ -92,7 +92,7 @@ source_rewrites:
 
     \subsection{Retained Amplitude, Low Strain, And Height Flux}
 
-    Retained-amplitude and low-strain routes are hard because a branch can keep enough structure to avoid immediate Pack failure while still accumulating terminal field pressure.  The forward-positive route tries to prove a gain, bounded variation, or height-flux control strong enough to force readout.  The class route preserves the branch split.
+    Retained-amplitude and low-strain routes are hard because a branch can keep enough structure to avoid first Pack failure while still accumulating terminal field pressure.  The forward-positive route tries to prove a gain, bounded variation, or height-flux control strong enough to force readout.  The class route preserves the branch split.
 
     \begin{proposition}[Retained-amplitude routing]
     A retained-amplitude branch either creates Pack gain, loses Part participation or dwell, reaches a licensed Field diagnostic, or falls into a Zeno terminal subcase.
@@ -189,7 +189,7 @@ source_rewrites:
     \textbf{Branch family} & \textbf{Object it can select} & \textbf{Proof role in this manuscript}\\
     \hline
     Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
-    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field payment\\
+    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
     Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Pack, Part, Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
     Square reserve and native trilinear control & selected square-source reserve & auxiliary until the reserve lands in first-face order\\

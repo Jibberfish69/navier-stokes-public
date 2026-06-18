@@ -500,7 +500,7 @@ runner_lanes:
   - Expanded CM Branch Obligations
   - Expanded Forward-Support Obligations
   - Expanded Branch-Family Obligations
-  output_contract: integrate branch-family material as proof payment or explicit support
+  output_contract: integrate branch-family material as proof argument or explicit support
     inside the main source spine
 - runner_id: appendix-distillation-source-author
   runner_role: appendix-distillation

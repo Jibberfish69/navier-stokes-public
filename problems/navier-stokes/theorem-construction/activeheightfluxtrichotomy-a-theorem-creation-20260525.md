@@ -4,12 +4,12 @@
 
 - target obligation: ActiveHeightFluxTrichotomy.A
 - target label: Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit.
-- route role: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support.
+- route role: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support.
 - theorem family: reserve-creation-charge
 
 ## Created Theorem
 
-ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit..
+ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. This supplies the exact noncircular bridge needed for Create the post-activation theorem ActiveHeightFluxTrichotomy.A converting positive square-reserve surplus into active height flux or Pack/Part/Field exit..
 
 ## Inventive Search
 
@@ -19,7 +19,11 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 - selected_mechanism: zero_moment_signed_pair_visibility
 - candidate_count: 2
 - solver_chain_verdict: closed
-- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, lands immediately in Pack/Part/Field, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A -> TerminalSignedSaturationCMFaceReduction.A.
+- selection_reason: This theorem is the right next move because it changes the proof economy: A first-created positive square-reserve surplus with zero first moment cannot remain hidden: the signed-pair normal form either exposes same-ledger active height flux, pays by ASAC / positive pair-weight charge, produces a Pack, Part, or licensed Field face through the named same-ledger failure mechanism, or reduces to TerminalSignedSaturation.A, whose failure is already CM face-reduction support. It is source-backed by 8 local ingredient(s). It deliberately reduces the remaining work to SignedPairReserveVisibility.A rather than pretending the frontier is closed. The internal solver also discharged the residual chain through ActiveHeightFluxTrichotomy.A -> SignedPairReserveVisibility.A -> TerminalSignedSaturationCMFaceReduction.A.
+
+## Exactness Audit
+
+No Pack/Part/Field conclusion in this note is licensed by temporal immediacy, same-scale intuition, or typical-size language.  The exact downstream burden is the named face mechanism: a missing same-ledger partner gives carrier failure, an incompatible partner gives participation or dwell failure, and a retained legal source charge may enter Field only through the installed Field-face theorem.
 
 ### Candidate Theorems
 
@@ -74,13 +78,13 @@ ActiveHeightFluxTrichotomy.A. A first-created positive square-reserve surplus wi
 ## Proof Attempt
 
 1. Work on the first minimal terminal window after inherited past reserve, child residual, and legal loss are removed.
-2. Decompose the zero-moment carrier into same-scale positive and negative terminal source packets J_+ and J_- with order-one square reserve.
+2. Decompose the zero-moment carrier into same-scale positive and negative terminal source packets J_+ and J_- with square reserve bounded below by `c_0>0`.
 3. Route missing or incompatible partners to active height flux, Pack carrier loss, Part dwell failure, or legal Field source charge.
 4. Reduce the only retained positive-scale hidden branch to SignedPairReserveVisibility.A.
 5. Use the signed-pair theorem only as CM witness-face support through TerminalSignedSaturationCMFaceReduction.A, not as a forward smoothness estimate.
 6. Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 7. Recursive solver step for SignedPairReserveVisibility.A: Work in the first minimal terminal window selected below ZeroMomentReserveVisibility.A.
-8. Recursive solver step for SignedPairReserveVisibility.A: Keep the positive and negative packets on the same retained ledger; missing or incompatible partners land immediately in Pack, Part, or licensed Field.
+8. Recursive solver step for SignedPairReserveVisibility.A: Keep the positive and negative packets on the same retained ledger; missing or incompatible partners produce Pack, Part, or licensed Field only through the declared carrier-loss, dwell-failure, incompatibility, or source-charge face mechanism.
 9. Recursive solver step for SignedPairReserveVisibility.A: Pay retained partners by ASAC.A / PositivePairWeightDefectCharge.A and legal exits by the declared boundary, projection, pressure, collar, and heat-action ledgers.
 10. Recursive solver step for SignedPairReserveVisibility.A: Route the only uncharged same-ledger donor-sink branch to TerminalSignedSaturation.A, then use its CM face-reduction theorem rather than a forward smoothness estimate.
 11. Recursive solver step for SignedPairReserveVisibility.A: Record the conclusion as Pack/Part/Field witness support for Exit(Q):=not Member(Q), not as a proof that the bad branch was positively erased.

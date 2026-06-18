@@ -70,14 +70,62 @@ holds exactly from `ARS.2`.
 
 ## Schwartz-kernel boundary
 
-For standard smooth Littlewood-Paley cutoffs, the kernel has rapid tails. The route therefore uses the core/tail interpretation. The exact global support statement is replaced by
+Let the smooth low-pass have kernel
+
+```math
+K_{\le j}(x)=2^{3j}K(2^jx),
+\qquad K\in\mathcal S(\mathbb R^3).
+```
+
+Assume the localizer has a carrier buffer
+
+```math
+d_j(t):=\operatorname{dist}\big(\operatorname{supp}\widetilde Q_i(t),
+\mathbb R^3\setminus\mathfrak C_j(t)\big)>0.
+```
+
+Choose a smooth radial cutoff `chi_j` equal to one on `|z|\le d_j(t)/2` and
+zero on `|z|\ge d_j(t)`.  Define
+
+```math
+(P_{\le j}v)_{core}(x)=\int \chi_j(x-y)K_{\le j}(x-y)v(y)\,dy,
+\qquad
+(P_{\le j}v)_{tail}=P_{\le j}v-(P_{\le j}v)_{core}.
+```
+
+Then the core support statement is exact on the localized readout:
+
+```math
+\operatorname{supp}\big(\widetilde Q_i(P_{\le j}v)_{core}\big)
+\subseteq \mathfrak C_j(t).
+```
+
+For every `N` and every `|\alpha|\le 1`, the Schwartz kernel gives
+
+```math
+\big\|\partial^\alpha\big((1-\chi_j)K_{\le j}\big)\big\|_{L^1}
+\le
+C_{\alpha,N}2^{|\alpha|j}(1+2^jd_j(t))^{-N}.
+```
+
+With the usual finite-template bounds on `\widetilde Q_i`, this yields the exact
+tail estimate
+
+```math
+\|\widetilde Q_i(P_{\le j}v)_{tail}\|_{W^{1,\infty}}
+\le
+C_N\,2^j(1+2^jd_j(t))^{-N}\|v\|_{L^\infty}.
+\tag{ARS.7}
+```
+
+Thus the old literal global-support claim is replaced by the exact statement
 
 ```math
 \text{principal support inside }\mathfrak C_j(t)
 \quad+
 \quad
 \text{tail in }\Phi_*.
-\tag{ARS.7}
+\tag{ARS.8}
 ```
 
 ## Result

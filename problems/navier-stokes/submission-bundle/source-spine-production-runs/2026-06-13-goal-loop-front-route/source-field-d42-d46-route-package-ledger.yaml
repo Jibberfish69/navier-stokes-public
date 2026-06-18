@@ -22,7 +22,7 @@ operations:
 source_authoring_summary: >-
   The batch rewrote D42-D46 of the source-field appendix as reader-facing proof
   support. It explains the differentiated tower as a binomial transport
-  convolution burden, lists four forward-positive proof payments, states the
+  convolution burden, lists four forward-positive proof arguments, states the
   freeze and signed-defect margin gates, keeps the closure package tied to one
   classical theorem surface, records the unpaid HFG product-control estimate,
   and explains the finite-collar multiplier support used by the coefficient
@@ -30,7 +30,7 @@ source_authoring_summary: >-
 proof_role:
   gold_layer: >-
     The edited slice packages the route-reduction and closure-package material
-    as forward-positive support and open proof payments. It does not certify the
+    as forward-positive support and open proof arguments. It does not certify the
     gold route.
   silver_layer: >-
     The edited slice states that a tower obstruction can enter the silver CM
@@ -64,7 +64,7 @@ remaining_open_after_batch:
     finality, or a full-PDF finality gate.
   - >-
     D42-D46 now tell the reader which tower, margin, closure, HFG, and
-    high-collar coefficient facts are support, which proof payments remain
+    high-collar coefficient facts are support, which proof arguments remain
     open, and where a tower obstruction can enter the CM layer.
   - >-
     D47-D48 remain the next current source-field unit for carrier choice and

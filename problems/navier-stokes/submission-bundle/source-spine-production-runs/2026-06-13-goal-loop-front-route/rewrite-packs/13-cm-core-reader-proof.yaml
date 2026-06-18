@@ -59,7 +59,7 @@ source_rewrites:
       U_k:=\nabla^k u,\qquad
       K_k:=-\nabla^{k+1}p+\nu\Delta U_k .
     \]
-    The differentiated equation has the schematic form
+    At derivative depth \(k\), the differentiated equation reads
     \[
       D_tU_k=K_k+B_k(u,\nabla u,\ldots,\nabla^k u),
       \qquad 0\le k\le N,
@@ -261,7 +261,7 @@ source_rewrites:
     \]
     The discarded formal rows are not ignored.  They are read through the same first-face rule.  A field reading without a same carrier has already lost Pack.  A participation reading without a same carrier has already lost Pack.  A carrier whose law and field both fail is recorded at the first lost face.
 
-    Some failures are easiest to see from Field first.  A slip sheet is the clean example: the visible problem is neighboring-field jump, and the Part defect may be isolated only after the neighboring fields are placed on one record.  Field stays in the table for that reason.  It catches terminal pictures that Part alone does not expose immediately, while the final class-exit reading remains tied to the same Pack/Part/Field record.
+    Some failures are easiest to see from Field first.  A slip sheet is the clean example: the visible problem is neighboring-field jump, and the Part defect may be isolated only after the neighboring fields are placed on one record.  Field stays in the table for that reason.  It catches terminal pictures that Part alone does not expose on its own, while the final class-exit reading remains tied to the same Pack/Part/Field record.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: The Class-Law Proof
@@ -399,7 +399,7 @@ source_rewrites:
     \]
     where the supremum is over admissible disjoint terminal annular schedules.  The manuscript does not claim either estimate as proved.  These displays state the exact forward-positive bill still owed before the gold layer closes the annular witness.
 
-    The silver route pays only the residual obstruction that survives this accounting.  It selects the same annular residue as the terminal record and keeps the readout data visible.  Once that annular witness is admitted, carrier has already been paid for this test.  The admitted smooth branch is Member, and the admitted finite nonsmooth branch lands at Part for loss of the same pressure-viscosity-incompressibility participation tower, or Field for loss of positive-scale one-field readout after Part survives.
+    The silver route pays only the residual obstruction that survives this accounting.  It selects the same annular residue as the terminal record and keeps the readout data visible.  Once that annular witness is admitted, carrier has already been supplied for this test.  The admitted smooth branch is Member, and the admitted finite nonsmooth branch lands at Part for loss of the same pressure-viscosity-incompressibility participation tower, or Field for loss of positive-scale one-field readout after Part survives.
 
     \paragraph{Gold status ledger.}
     The forward-positive notes have paid organizing support.  The moving-cone local energy identity accounts for stored energy, interior dissipation, moving wall loss, transport flux, pressure work, and viscous wall exchange on the shrinking receiver.  A finite undiscounted scale-critical cone budget would make late cone slabs small and trigger the usual CKN/\(H^s\) regularity readout.  Raw active-square size and raw LPAS are not closure currencies, because a heat-decaying shear can make the raw bill large while the nonlinear refill is zero.  The live currency is the residual positive refill \(D_m^{\mathrm{res}}\).
@@ -423,7 +423,7 @@ source_rewrites:
     \[
       \mathrm{AnnularLimitCMFaceLanding.A}.
     \]
-    It does not reuse the bare endpoint shortcut.  It says that a surviving residual annular obstruction, once admitted as the same-solution terminal witness and readout-complete for the claimed breakdown, has already paid the carrier side of this annular test.  The retained branch is the smooth/member branch:
+    It does not reuse the bare endpoint shortcut.  It says that a surviving residual annular obstruction, once admitted as the same-solution terminal witness and readout-complete for the claimed breakdown, has already supplied the carrier side of this annular test.  The retained branch is the smooth/member branch:
     \[
       \Part_{N,Q}\wedge \exists r>0\,\Field_{N,r,Q}
       \quad\Longrightarrow\quad
