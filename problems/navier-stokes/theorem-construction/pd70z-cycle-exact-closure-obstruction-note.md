@@ -200,7 +200,7 @@ chain, but that arrow is still real mathematics, not bookkeeping.
 The cleanest cocycle-side continuation of that first arrow is now isolated in
 [pd70z-cycle-exact-normal-covector-route.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/pd70z-cycle-exact-normal-covector-route.md):
 the scalar exact potential is treated as sufficient to kill the loop term, and
-the measurable normal covector is now discharged automatically from the rank-two
+the measurable normal covector is discharged by the rank-two
 bundle. So the remaining cocycle burden is reduced further to:
 
 1. selector-normal calibration;

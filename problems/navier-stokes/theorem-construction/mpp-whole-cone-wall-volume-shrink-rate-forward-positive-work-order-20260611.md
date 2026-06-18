@@ -575,7 +575,7 @@ The following weaker routes are closed as insufficient:
 finite total energy closes the tip;
 finite physical cone volume closes the tip;
 finite physical whole-wall flux closes the tip;
-global energy drain automatically outruns local accumulation;
+global energy drain outruns local accumulation without a shrink-law estimate;
 fastest collapse or longest feeding wins without a shrink-law estimate;
 density algebra closes the point without Morrey/cone control;
 viscosity scale alone supplies the missing profile smallness.

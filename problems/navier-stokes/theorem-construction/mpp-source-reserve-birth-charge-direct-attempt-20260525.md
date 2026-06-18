@@ -90,8 +90,8 @@ first-created native reserve >= c eta.
 ```
 
 At this point the proof needs a real source-charge theorem.  The installed
-ledgers do not prove that this first-created native reserve is automatically
-paid.  The scalar short-pulse obstruction from the earlier reserve audits still
+ledgers do not prove payment of this first-created native reserve.  The scalar
+short-pulse obstruction from the earlier reserve audits still
 survives: first moment can go to zero while the scale-critical square reserve is
 bounded below by `c_0>0`.
 

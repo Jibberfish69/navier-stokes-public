@@ -91,9 +91,10 @@ The obstruction is the projected one-sided terminal packet:
 \nabla P\Phi
 ```
 
-does not automatically select the same high packet, sign, and source edge as
-the native contraction. The installed terminal Leray notes already isolate the
-three independent requirements needed after one-sided terminal selection.
+selects the same high packet, sign, and source edge as the native contraction
+only after a same-packet orientation theorem. The installed terminal Leray notes
+already isolate the three independent requirements needed after one-sided
+terminal selection.
 
 ### Gate 1: L3 Terminal Leray Orientation
 

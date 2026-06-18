@@ -460,9 +460,9 @@ MinimalChainProjectedResidueIdentity.A
 TerminalSignedSaturation.A
 ```
 
-The annular estimate can expose a residual.  It does not automatically identify
-the exposed residual with the selected positive native carrier after weighting,
-lifting, projection, positive-part extraction, and selector choice.
+The annular estimate can expose a residual.  Identifying the exposed residual
+with the selected positive native carrier requires a same-carrier theorem after
+weighting, lifting, projection, positive-part extraction, and selector choice.
 
 The exact Door 1 replacement is a source-resolved identity on the selected
 shadow:
@@ -732,9 +732,9 @@ defect-visibility tool:
 \tag{NEX.31}
 ```
 
-It is not automatically a Navier-Stokes cost.  It needs `L^2` curvature or
-connection-action control first, then a routing theorem sending the defect to a
-legal ledger or to the annular readout.
+It is a Navier-Stokes cost only after `L^2` curvature or connection-action
+control first, then a routing theorem sending the defect to a legal ledger or to
+the annular readout.
 
 Missing bridge:
 

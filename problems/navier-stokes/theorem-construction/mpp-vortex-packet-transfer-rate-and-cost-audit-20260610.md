@@ -273,8 +273,9 @@ The local kinetic energy needed to support that velocity size is:
 E_{r,\mathrm{model}}:= U_r^2 r^3 = A_r^2 r^5.
 ```
 
-So an infinite gradient does not automatically require large raw energy in a
-shrinking ball. For example, under Navier-Stokes scaling `U_r:=r^{-1}`,
+So an infinite gradient requires large raw energy in a shrinking ball only after
+an additional profile or lower-bound theorem. For example, under Navier-Stokes
+scaling `U_r:=r^{-1}`,
 
 ```text
 A_r:= r^{-2},

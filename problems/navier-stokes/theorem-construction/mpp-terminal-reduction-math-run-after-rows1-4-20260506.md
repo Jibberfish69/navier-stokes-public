@@ -187,7 +187,8 @@ R_{N,s}\text{ in }(5)\text{ is legal}
 ```
 
 This is exactly the selected-derivative analogue of `ScaleCriticalTreeCarleson.A`;
-the old energy-level reserve is not automatically this \(H^s\) reserve.
+the old energy-level reserve becomes this \(H^s\) reserve only after a
+selected-derivative transfer theorem.
 
 ## Step 4: why rows 1--4 do not prove the reserve
 

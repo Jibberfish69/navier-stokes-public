@@ -37,7 +37,7 @@ ClayBreakdownPreterminalReflection.A / CMFaceNoFirstTerminalLoss.A
 
 It is not a live CM burden. The terminal Pack/Part/Field face failure is the
 CM contrapositive witness supporting `Exit(Q):=not Member(Q)`. It is not
-automatically an earlier still-live failure.
+an earlier still-live failure without a backward-reflection theorem.
 
 This pass tests whether the Pack-only version has an independent proof.
 

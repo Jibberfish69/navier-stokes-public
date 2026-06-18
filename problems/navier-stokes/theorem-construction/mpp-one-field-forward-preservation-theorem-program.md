@@ -1481,7 +1481,7 @@ The non-smuggling supplier for that transported-center package is isolated in
 transported-center estimates, not from `EOC.Ca`, `WRR.A`, `U2H.A`, `LCI.A`, or
 `CSP.A`.
 
-### Lemma `OFP.C1f` (The centerwise segment density is automatically downstream of a thickened collar envelope)
+### Lemma `OFP.C1f` (The centerwise segment density is downstream of a thickened collar envelope)
 
 Retain the packet-collar thickness `\delta>0` from
 `mpp-packet-collar-next-rung-control.md`. Assume there is a fixed scale
