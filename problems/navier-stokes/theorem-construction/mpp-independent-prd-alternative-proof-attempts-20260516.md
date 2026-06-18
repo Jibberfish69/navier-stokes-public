@@ -187,9 +187,29 @@ or
 rapid eigenframe/strain turnover.
 ```
 
-The one-dimensional turnover/residence dichotomy is valid.  Far-low strain
-turnover has a genuine parabolic scale-separation gain.  The direct proof
-breaks only at the near-band material term
+The one-dimensional turnover/residence dichotomy is valid only after the
+coefficient estimates are stated.  The far-low strain turnover is paid by the
+material-derivative estimate
+
+```math
+\tau_P\int_{I_P}|D_tS^{far}_{j_P,L}|\,dt
+\le
+C_{\mathrm{far}}2^{-2L}\int_{I_P}\|S^{far}_{j_P,L}\|_\infty\,dt
++\mathrm{legal\ commutators}.
+```
+
+The near-band heat part is paid only on the subparabolic set
+\(\|S^{near}_{j_P,L}\|_\infty\le\theta\tau_P^{-1}\), where the summed
+absorption is
+
+```math
+\sum_P\omega_PE_PV_P^{heat}\le C_L\theta H_W,
+\qquad
+H_W:=\sum_P\omega_PE_P,
+```
+
+after choosing \(\theta\le\eta_{\rm abs}/C_L\).  The direct proof breaks at the
+near-band material term
 
 ```math
 e_P\cdot P^{loc}_{j_P,L}(S^2+\Omega^2+\nabla^2p)e_P
