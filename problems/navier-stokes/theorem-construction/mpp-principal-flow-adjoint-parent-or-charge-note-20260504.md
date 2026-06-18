@@ -417,7 +417,7 @@ Coefficient stopping turns these affine-frame remainders into an
 
 #### Packet stability
 
-On coefficient-good tiles, the gauged packet should solve
+On coefficient-good tiles, the gauged packet must solve
 
 ```math
 (-\partial_t-b_k\cdot\nabla-\nu\Delta)\varphi_T
@@ -427,8 +427,19 @@ On coefficient-good tiles, the gauged packet should solve
 \|\mathcal E_T\|_{L_t^1(H_x^1\to H_x^{-1})}\le C\varepsilon_M.
 ```
 
-Duhamel against the affine heat propagator `H_T` associated to `(X_T,J_T)`
-should give
+The required Duhamel representation against the affine heat propagator `H_T`
+associated to `(X_T,J_T)` is
+
+```math
+\varphi_T(t)
+=
+H_T(t,t_+)\varphi_T(t_+)
++\int_t^{t_+}H_T(t,s)\mathcal E_T(s)\varphi_T(s)\,ds.
+\tag{PFAP.1}
+```
+
+Packet stability is the theorem that `(PFAP.1)` and the small operator norm
+above imply the Gaussian packet bound
 
 ```math
 |\partial_x^\alpha\varphi_T(x,t)|
@@ -438,8 +449,10 @@ r_T^{-3/2-|\alpha|}
 \exp\left(-c\frac{|x-X_T(t)|^2}{r_T^2}\right).
 ```
 
-The perturbative error should be bounded by `C\varepsilon_M` after coefficient stopping
-and after choosing the scale gap `M` large enough.
+The perturbative part of `(PFAP.1)` must be bounded by `C\varepsilon_M` in the
+same packet norm after coefficient stopping and after choosing the scale gap
+`M` large enough. Without that bound, the later Bessel and parent-kernel claims
+cannot spend packet stability.
 
 #### TT* Bessel bound
 
