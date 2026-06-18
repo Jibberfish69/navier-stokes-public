@@ -2816,6 +2816,81 @@ Edited live surfaces:
 - `theorem-construction/mpp-terminal-new-production-gold-direct-attempt-20260614.md`.
 - `theorem-construction/mpp-exactness-live-rework-ledger-20260618.md`.
 
+## Additive-Carrier And Defect-Reduction Recurrence Rework
+
+Old loose step:
+
+- `theorem-construction/mcp-eu-additive-carrier-reduces-to-active-window-amplitude-gain-jump-avg-branch-elimination-54b3f13ec0.md`
+  introduced the needed scale-normalized terminal estimate "schematically" as
+  `sum_k r_k^{-alpha} C_final(Q_k) <= C(E0,source)`.
+- `theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md`
+  wrote the route synthesis as a schematic recurrence
+  `E^{(n+1)}=R(E^{(n)})`.  The appendix mirror already warned that this was
+  structural rather than quantitative, but did not state the exact missing
+  theorem needed before the recurrence can be spent as decay.
+
+Exact replacement:
+
+For the additive `E_u` carrier, the selected terminal windows are now displayed
+as
+
+```text
+Q_k := B_{r_k}(x_k) x I_k,
+I_k=(t_k-r_k^2/nu,t_k),
+```
+
+and the required scale-normalized estimate is
+
+```text
+sum_k r_k^{-alpha} C_final(Q_k) <= C(E_0,S), alpha>0,
+```
+
+with `C_final(Q_k)` the same final charge used in the `Jumpavg` no-escape
+contradiction and `S` the already-admitted source records.  For the energy
+component itself, the exact substitute is a bound such as
+
+```text
+sum_k E_u^{sc}(Q_k) <= C(E_0,S),
+E_u^{sc}(Q_k)
+:=
+r_k^{-1} sup_{t in I_k} int_{B_{r_k}(x_k)} |u(x,t)|^2 dx.
+```
+
+For the defect-reduction recurrence, the source note and appendix now state
+that `R` is bookkeeping only unless a theorem defines an admissible defect
+class `Efrak`, proves `R:Efrak->Efrak` for the actual Navier-Stokes survivor,
+and supplies either
+
+```text
+J(R(E)) <= theta J(E), 0<theta<1,
+```
+
+or a finite landing theorem into a named discharged packet class.
+
+Proof or remaining burden:
+
+- Raw bounded-overlap finite mass proves only unweighted control.  It does not
+  imply the displayed scale-normalized estimate on shrinking terminal windows.
+- The missing additive-carrier proof is still active-window amplitude gain or
+  an equivalent heat-scale source theorem.
+- The recurrence has no proof force until the admissible-defect class,
+  self-map property, and contraction/finite-landing theorem are supplied.
+
+Downstream consequence:
+
+The `E_u` carrier cannot be added to the final charge as a formal coverage
+device and then used for a normalized contradiction.  The four-body recurrence
+cannot be used as quantitative decay or a single-common-terminal-class theorem.
+It remains structural synthesis until the displayed contraction or finite
+landing theorem is proved.
+
+Edited live surfaces:
+
+- `theorem-construction/mcp-eu-additive-carrier-reduces-to-active-window-amplitude-gain-jump-avg-branch-elimination-54b3f13ec0.md`.
+- `theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md`.
+- `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/mpp-exactness-live-rework-ledger-20260618.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
