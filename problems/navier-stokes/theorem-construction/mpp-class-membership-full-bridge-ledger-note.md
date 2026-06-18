@@ -286,8 +286,9 @@ FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 When `(FCI.5f)` is treated as installed, this bridge sits in the proven ledger.
 When `(FCI.5f)` remains open, `FCI.Split` remains part of the terminal work.
 
-This bridge is formal and closed once the three channel theorems are available.
-Indeed, by definition the source ledger splits pointwise as
+This bridge is closed only under the four displayed source inputs, including
+the cutoff-defect input `FCC.C1a`. By definition the source ledger splits
+pointwise as
 
 ```math
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon}
@@ -300,7 +301,9 @@ Indeed, by definition the source ledger splits pointwise as
 \tag{BL.21a}
 ```
 
-Thus `FPCR.C`, `FSCR.C`, and `FCC.C1` give the three `L^1(I)` summands, and
+Thus `FPCR.C`, `FSCR.C`, and `FCC.C1` identify the pressure, strain-cascade,
+and cutoff channels, while `FCC.C1a` supplies the cutoff-defect integrability
+needed to put the cutoff channel in `L^1(I)`. With all four inputs present,
 finite summation gives `(FCI.5f)`.
 
 Route-license caution. A route-level closure packet may use the receiver output
@@ -653,7 +656,7 @@ Thus, with `(FCI.5f)` installed, the terminal theorem blocks reduce to:
 \tag{BL.42}
 ```
 
-If `END.Cross` is accepted as a formal matrix reduction from the displayed
+If `END.Cross` is accepted as a conditional matrix reduction from the displayed
 certificate reductions, the serious remaining bridge content is:
 
 ```math
