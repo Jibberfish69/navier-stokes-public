@@ -548,7 +548,7 @@ because
 so angle-closeness to `e_1` is the precise geometric content needed to turn the
 signless packet `W_J` into one-sided control of `[\lambda_J-\mathfrak s_J]_+`.
 
-### Proposition D.7g (simple-top angle reduction is already formal)
+### Proposition D.7g (simple-top angle conditional reduction)
 
 The angle formulation above is an installed conditional reduction. After the spectral-floor
 and bundle-angle losses are peeled off, it has an exact installed realization on
@@ -1235,8 +1235,8 @@ observable and the already installed spectral-floor losses. If
 and whichever of `(CN.13j)` or the stronger linear upgrade is available on that
 subroute. In both cases, `(D.7l1)` and `(D.7l3)` convert the added polarization
 input into the pair-defect observation budget. The downstream passage from the
-resulting directional bound to `PD.70`, `PD.70aa`, and `SG.4B` is already
-formal by `(ST.7)` and the installed pair-defect packet. ∎
+resulting directional bound to `PD.70`, `PD.70aa`, and `SG.4B` is conditional
+on `(ST.7)` and the installed pair-defect packet. ∎
 
 ### Theorem Candidate D.7n (Gronwall-type sufficient condition for the polarization slot)
 
@@ -1541,7 +1541,7 @@ projective packet. The remaining genuine new mathematics is now exact:
 bundle, while `P_{J,\top}^{seg}(a,b,t)` is the instantaneous top strain
 projector, so the
 selector-strain compatibility estimate `(D.7ma5)` is an additional theorem and
-not a formal consequence of the Cauchy-Green construction alone.
+does not follow from the Cauchy-Green construction alone.
 
 ### Proposition D.7mb (Cauchy-Green residual evolution reduces `(D.7ma5)` to explicit strip budgets)
 
@@ -2975,7 +2975,7 @@ E_{J,\tau}^{CG}(t,a)^2.
 
 Thus the honest gap-floor theorem on the Cauchy-Green branch is not “integrated
 instantaneous strain gap plus slow `S_J^N` variation implies a CG gap.” The
-exact formal route is: reference simple-top gap for `\mathcal C_J^N` plus
+exact route is: reference simple-top gap for `\mathcal C_J^N` plus
 Cauchy-Green persistence implies a uniform CG gap floor and reference-projector
 stability.
 
@@ -3898,8 +3898,8 @@ direction observability -> harmonic observability -> selector/commutator summati
 is exactly the right bookkeeping expansion of Candidate `E`, but it is not a
 discharge of all four steps as paid local algebra.
 
-The Hodge split and the final summation are formal once `(E.8)`-`(E.10)` are
-available. The genuinely new theorem slots are still:
+The Hodge split and the final summation are algebraic consequences once
+`(E.8)`-`(E.10)` are available. The genuinely new theorem slots are still:
 
 1. the map from the signless defect packet `W_J` (or its localized scalar
    reduction `q_k`) to the directional ledger `\mathcal E_J^{dir}`;
