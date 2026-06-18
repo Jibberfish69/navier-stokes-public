@@ -4,6 +4,11 @@ Date: 2026-06-18
 
 Status: Door 1 continuation; conditional closure proved; identity not installed.
 
+2026-06-18 continuation: the weighted/lifted subgate is sharpened in
+`mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md`.
+The live post-ASAC Door 1 core is `TerminalSignedSaturation.A` or equivalent
+`InternalDonorSinkDepletion.A`.
+
 Role: continue the repaired two-door gold packet after
 `mpp-forward-gold-two-door-sharp-form-repair-20260618.md`.  The finite vector
 selector is already paid.  This note tests the next Door 1 theorem:
