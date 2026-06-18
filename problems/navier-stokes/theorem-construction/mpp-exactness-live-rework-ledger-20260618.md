@@ -6399,6 +6399,54 @@ Surfaces edited:
 - `submission-bundle/proof-attempt-failure-appendix.tex`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Terminal-Pulse Model Exactness Rework
+
+Old claim being spent:
+
+The main manuscript, proof-attempt appendix, source-field reader appendix, and
+two theorem notes used terminal-pulse model language such as "bounded `L^1`
+mass can still concentrate" or "`g_m` converges to a terminal atom" as a loose
+obstruction explanation.  That was directionally right, but the proof role
+requires the actual witness facts.
+
+Exact replacement:
+
+The affected surfaces now state the exact model facts for
+
+```text
+g_m(s)=m 1_{(-1/m,0]}(s).
+```
+
+The installed facts are:
+
+```text
+||g_m||_{L^1}=1,
+g_m(s) ds -> delta_0 weakly,
+||g_m||_{L^p}=m^{1-1/p} -> infinity for p>1,
+```
+
+and, for any nonzero `f in L^2`,
+
+```text
+int_{-1/m}^0 m e^{(0-s)nu Delta} f ds -> f in L^2.
+```
+
+Downstream consequence:
+
+Terminal time-face concentration is no longer justified by a model slogan.  The
+live burden is now explicit: a closing theorem must provide temporal thickness,
+super-`L^1` source integrability, selected-source domination by an absolutely
+continuous reserve, transported no-incoming plus source-production exclusion,
+or a rigid anti-atom class that rules out this exact weak-limit witness.
+
+Surfaces edited:
+
+- `submission-bundle/navier-stokes-submission.tex`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-zenosourceresiduerigidity-a-7a97f81431.md`;
+- `theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md`.
+
 ## Scale-Language / Behaves-Like Rework
 
 Old claim being spent:
