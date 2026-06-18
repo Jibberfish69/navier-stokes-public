@@ -32,7 +32,7 @@ Let `P_*` be a terminal source-pulse packet used as a genuine non-smooth
 occurrence on an approaching same-fluid family `\mathcal Q_*`.
 
 Assume we are on the only branch where the CM-exit conclusion is not already
-immediate:
+realized:
 
 ```math
 Pack_Q,\qquad Part_{N+2,Q},\qquad Field^{\le C}_{N+2,r,Q}
@@ -59,21 +59,28 @@ source-pulse family.
 
 The pack predicate says that the restricted flow map is one incompressible
 `C^1` diffeomorphic same-fluid motion with finite distortion gauge on the
-approaching family.  Work in label space.  The label support of a retained
-source-pulse packet is compact after the standard finite packet localization.
-Choose finitely many label balls of radius comparable to the retained field
-scale divided by the pack distortion bound.  Transporting them by `\Phi_t`
-gives balls
+approaching family.  Work in label space.  Let `A` be the compact label
+footprint of the retained source-pulse packet after the finite packet
+localization, let `r` be the retained field scale, and let `\Gamma_Q` be the
+retained pack distortion bound.  Choose a maximal `\eta`-separated set in `A`
+with
+
+```math
+\eta:=r/(2\Gamma_Q).
+```
+
+The resulting finite label balls cover `A`; their transported centers give
+balls
 
 ```math
 B(c_a(t),R_a)
 ```
 
 that cover the physical source-pulse window for every time in the packet
-interval.  Bounded distortion gives a finite overlap constant depending only on
-the retained pack gauge and the finite cover.  The centers are transported
-centers by construction.  This is the same-family finite cover on which the
-tower readout is evaluated.
+interval.  The maximal-net packing argument gives overlap at most
+`C_3(2\Gamma_Q^2+1)^3`, so the constant depends only on dimension and the
+retained pack gauge.  The centers are transported centers by construction.
+This is the same-family finite cover on which the tower readout is evaluated.
 
 ## Lemma 2: field coherence plus energy anchors the finite `U_k` tower
 
@@ -96,24 +103,53 @@ The finite-difference field predicate gives a uniform fixed-scale modulus for
 each tower component `U_k`, `0<=k<=N+2`, and the compatibility relations
 `U_k=\nabla^k u` on the same field.
 
-For `k=0`, the `U_0` modulus and the energy bound anchor the absolute value of
-`u`: if `|u(x_0,t)|=M`, then `u` remains comparable to `M` on a fixed subball
-unless `M` is already bounded by the modulus-scale product, and the energy
-inequality forbids arbitrarily large `M`.
+For `0<=q<=N+2`, write
 
-For `k>=1`, argue by descending polynomial anchoring.  If `U_k` were
-arbitrarily large at a point while the `Field^{\le C}_{N+2,r,Q}` modulus stayed
-bounded, then `U_k` would remain large on a fixed-scale subball.  Integrating
-the compatible tower relations downward along line segments in that subball
-forces a polynomial-sized variation in `U_{k-1}`, then in `U_{k-2}`, and after
-`k` steps in `u` itself.  The already anchored lower rung and ultimately the
-energy bound rule this out.  This uses only the finite-difference moduli for
-the rungs already present in `Field^{\le C}_{N+2,r,Q}`; it does not require a
-new `\nabla^{N+3}u` input.
+```math
+\Omega_q(r/2)
+:=
+\operatorname{osc}_{B(c_a(t),r/2)} U_q(\cdot,t).
+```
+
+For `k=0`, the `U_0` modulus and the energy bound anchor the absolute value of
+`u` exactly.  If `x_0\in B(c_a(t),r/4)` and `|u(x_0,t)|=M`, then
+
+```math
+M
+\le
+\Omega_0(r/2)
++
+|B(c_a(t),r/2)|^{-1/2}
+\|u(\cdot,t)\|_{L^2(B(c_a(t),r/2))}.
+```
+
+This follows from
+`|u(x_0,t)|\le |u(y,t)|+\Omega_0(r/2)` for every
+`y\in B(c_a(t),r/2)` and integration in `y`.
+
+For `k>=1`, use the finite-order anchoring inequality on the same cover ball.
+With the compatibility `U_q=\nabla^q u` on that ball, iterating the
+one-dimensional fundamental theorem of calculus along coordinate line segments,
+then anchoring the lowest rung by the local `L^2` energy bound, gives
+
+```math
+\|U_k(\cdot,t)\|_{L^\infty(B(c_a(t),r/4))}
+\le
+C_{k,r}
+\left(
+  \|u(\cdot,t)\|_{L^2(B(c_a(t),r/2))}
+  +
+  \sum_{q=0}^{k} r^q\Omega_q(r/2)
+\right).
+```
+
+The right side is finite from the energy bound and the finite-difference moduli
+already present in `Field^{\le C}_{N+2,r,Q}`.  No `\nabla^{N+3}u` input is
+used.
 
 Thus every finite tower amplitude `U_k`, `0<=k<=N+2`, is bounded on the inner
-cover balls.  This is the standard finite-order polynomial/Poincare anchoring
-argument: a positive coherence scale plus compatibility prevents a high
+cover balls.  The exact proof input is the displayed finite-order anchoring
+inequality: a positive coherence scale plus compatibility prevents a high
 derivative from appearing as a pure unanchored constant mode.
 
 ## Lemma 3: retained participation supplies the `K_k` readout

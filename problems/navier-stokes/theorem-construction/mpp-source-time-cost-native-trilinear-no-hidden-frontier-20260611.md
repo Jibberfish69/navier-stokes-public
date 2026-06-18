@@ -39,8 +39,8 @@ this same positive carrier on the terminal active packet family.
 ## Native Face Split
 
 The checked audit
-`mpp-native-trilinear-face-logic-and-alias-audit-note.md` says the carrier has
-exactly three theorem-facing entrances:
+`mpp-native-trilinear-face-logic-and-alias-audit-note.md` says the exact
+carrier factorization has these theorem-facing entrances:
 
 ```math
 CoeffBound.A
@@ -50,8 +50,7 @@ PositiveActiveCarlesonReserve.A
 PositiveStrainDecorrelation.A.
 ```
 
-These are not three proved estimates.  They are the only native locations
-where a new source-weighted theorem can enter the positive product:
+These are not three proved estimates.  The exact carrier factorization is:
 
 ```math
 \left[
@@ -64,7 +63,14 @@ e_j\cdot S_{<j}^{loc}e_j
 \right]_+.
 ```
 
-There is no hidden fourth face in the current native trilinear formulation.
+Thus a theorem which keeps this same carrier must either bound the positive
+coefficient factor `[e_j\cdot S_{<j}^{loc}e_j]_+`, bound the active square
+measure `|w_j|^2 dxdt` with that coefficient retained on the same selected
+packets, or prove a source-weighted product estimate for the displayed
+integral itself.  Pressure, commutator, cutoff, shell, or same-fluid arguments
+count here only after they supply one of those estimates or change the reduced
+carrier.  In that exact sense there is no hidden fourth face in the current
+native trilinear formulation.
 
 ## Coefficient Face
 

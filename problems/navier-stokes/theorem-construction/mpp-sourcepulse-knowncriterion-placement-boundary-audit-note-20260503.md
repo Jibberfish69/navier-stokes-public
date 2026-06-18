@@ -12,8 +12,9 @@ SourcePulseKnownCriterionPlacement.A
 
 This note attacks the target directly and records the result.  The target is
 not installed by the current repo inputs.  The exact surviving primitive is the
-branch-native source/no-pulse theorem, equivalently the same-carrier
-`JAVG.1+JAVG.2` pair or the pre-Cauchy signed source theorem.
+branch-native source/no-pulse theorem.  The same surviving primitive is also
+recorded in this route as the same-carrier `JAVG.1+JAVG.2` pair or the
+pre-Cauchy signed source theorem.
 
 ## Target
 
@@ -54,10 +55,10 @@ That is a valid conditional consumer on a retained positive-scale field branch.
 It is not the missing branch-native theorem, because the open branch is
 
 ```math
-Jump_{avg}\equiv\text{loss of every positive averaged field/coherence scale}.
+Jump_{avg}:=\text{loss of every positive averaged field/coherence scale}.
 ```
 
-Thus any proof of `SPKC` that first invokes `Field`, `Field_avg`, a uniform
+Any proof of `SPKC` that first invokes `Field`, `Field_avg`, a uniform
 terminal good cover, `AACT.Global.noJump`, or `READ.COVER` spends the predicate
 denied on the branch.  Such a proof can close the retained non-jump branch, but
 not `PCTP.5.C`.
@@ -72,11 +73,19 @@ Finite energy gives
 u\in L_t^\infty L_x^2,\qquad \nabla u\in L^2_{t,x},
 ```
 
-and interpolation gives the usual subcritical spacetime control
-`u\in L^{10/3}_{t,x}`.  It does not give a uniform terminal
+and interpolation gives the exact energy-class spacetime bound
+
+```math
+\|u\|_{L^{10/3}_{t,x}}^{10/3}
+\le
+C\|u\|_{L_t^\infty L_x^2}^{4/3}
+\|\nabla u\|_{L^2_{t,x}}^2.
+```
+
+It does not give a uniform terminal
 `L_t^\infty L_x^3` bound on the normalized source-pulse cylinders.
 
-Therefore:
+Installed conclusion:
 
 ```math
 OriginalSmoothData
@@ -91,7 +100,7 @@ localization and carrier tethering.  It does not place that object in any rigid
 ancient class such as bounded ancient mild, Type I, self-similar,
 axisymmetric, critical-small, or two-dimensional.
 
-Therefore:
+Installed conclusion:
 
 ```math
 OriginalSmoothData
@@ -107,7 +116,7 @@ after a positive field/coherence scale is already present.  On the raw jump
 branch, the available statement is threshold failure of the base packet along
 arbitrarily small terminal windows, not a small CKN subcover.
 
-Therefore:
+Installed conclusion:
 
 ```math
 OriginalSmoothData
@@ -123,7 +132,7 @@ The current inputs give energy, pressure Poisson structure, same-fluid geometry,
 and endpoint/receiver ledgers; they do not force direction coherence or signed
 decorrelation of the vortex-stretching source on terminal active windows.
 
-Therefore:
+Installed conclusion:
 
 ```math
 OriginalSmoothData
@@ -156,7 +165,7 @@ SignedLocalSource.A.
 }
 ```
 
-Equivalently, the no-escape route can close through the same-carrier pair:
+The no-escape route can also close through the same-carrier pair:
 
 ```math
 JAVG.1:
@@ -182,7 +191,7 @@ for the same carrier and schedule.
 The next theorem targets are now ordered:
 
 1. `SignedLocalSource.A`: prove the signed weighted lifted-remainder estimate,
-   or an equivalent active-square residual-tail / Carleson theorem, from
+   or a route-proved active-square residual-tail / Carleson theorem, from
    `OriginalSmoothData`.
 2. `JAVG.1+JAVG.2`: prove component selection and scale-normalized upper
    control for one shared terminal charge.
@@ -197,4 +206,3 @@ Until one of these is proved, the full route remains open at:
 PCTP.5.C / SOURCE.NO\text{-}PULSE.A / AWG.A.
 }
 ```
-

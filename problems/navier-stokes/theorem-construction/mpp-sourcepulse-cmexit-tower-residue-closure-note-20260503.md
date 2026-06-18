@@ -123,7 +123,7 @@ If packing-detached manifests, then the pack-native endpoint row gives
 ```
 
 If jump manifests and either `Pack_Q` or `Part_{N,Q}` has already failed, then
-the desired disjunction is immediate. If jump manifests while `Pack_Q` and
+the desired disjunction is already realized. If jump manifests while `Pack_Q` and
 `Part_{N,Q}` are retained, the field endpoint row and coherence-fracture
 reduction give
 

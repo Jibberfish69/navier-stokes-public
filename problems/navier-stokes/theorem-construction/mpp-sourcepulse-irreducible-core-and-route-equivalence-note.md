@@ -178,9 +178,9 @@ The downstream ancestry closures are audited in
 The conditional assembly is recorded in
 `mpp-sourcepulse-ancestry-route-conditional-closure-note.md`: either
 `ParentConcentrationOrDiffuseCharge.A+BackwardDrainFunctional.A` or
-`ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A+SourceResidueLiouville.A`
-would imply `SourcePulseExclusion.A`.
-The two-tower donor heuristic is formalized in
+`ParentConcentrationOrDiffuseCharge.A+BoundedAncestryClass.A+SourceResidueLiouville.A`.
+Either package implies `SourcePulseExclusion.A`.
+The two-tower donor slogan is formalized in
 `mpp-two-tower-donor-depletion-formalization-note.md`: a genuine
 `TwoTowerDonorDepletion.A` theorem would imply both
 `ParentConcentrationOrDiffuseCharge.A` and `BackwardDrainFunctional.A`, but the

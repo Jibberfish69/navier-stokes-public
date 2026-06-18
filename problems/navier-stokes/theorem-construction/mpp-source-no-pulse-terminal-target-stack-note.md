@@ -19,10 +19,9 @@ class-membership theorem shape.  The CM-contrapositive target is:
 \neg Pack\vee\neg Part\vee\neg Field.
 ```
 
-The source-control stack should therefore be read as possible ways to prove or
-exhaust that class-exit classification.  It should not be read as replacing the
-original proof program with an absolute "no terminal source pulse from original
-data" program.
+The source-control stack consists of possible routes to prove or exhaust that
+class-exit classification.  It is not a replacement for the original proof
+program by an absolute "no terminal source pulse from original data" theorem.
 
 ## Closed In The Current Stack
 
@@ -32,7 +31,7 @@ The source-supplier cell for the active route is closed in the strengthened
 import sense:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The expanded verification is recorded in
@@ -43,7 +42,7 @@ Boundary: the exact same-depth pressure route still has the pressure wall
 to spend that wall because it uses the installed stronger package
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow FFSRC.A.
 ```
 
 ### 2. Bad-time scheduler closure rejected
@@ -62,8 +61,9 @@ But the scheduler estimate
 
 does not imply `MSC.BadAC`. The countermodel note
 `mpp-msc-badac-energy-measure-countermodel-note.md` proves that small bad-time
-Lebesgue measure is compatible with order-one
-`\mathfrak B_N^\sigma(t)dt` mass on the bad set.
+Lebesgue measure is compatible with
+`\mathfrak B_N^\sigma(t)dt` mass bounded below by a fixed `c_0>0` on the bad
+set.
 
 ### 3. Pulse-charge route rejected as an installed discharge
 
@@ -83,7 +83,8 @@ PulseCharge.A:
 
 The installed reserves do not supply that charge. Energy has only first-moment
 cost, the mixed boundary can be balanced by the spill source on bad windows, and
-the separated barrier packets cannot pay for order-one bad-pulse dissipation.
+the separated barrier packets cannot pay for bad-pulse dissipation bounded
+below by a fixed `m_0>0`, independent of `N`.
 Thus
 
 ```math
@@ -136,8 +137,9 @@ packets.  The first analytic layer of that route is coefficient stopping,
 recorded in
 `mpp-coefficient-stopping-for-strain-gauged-packets-note-20260504.md`: tiles
 whose affine-frame coefficient budget `r_T^2\nabla^2b_k+r_T\nabla A_k` is too
-large must be stopped and converted into residual charge or earlier source-pulse
-ancestry before `WeightedAdjBessel.A` is allowed to run.
+large, meaning above the stopping threshold `\Lambda`, must be stopped and
+converted into residual charge or earlier source-pulse ancestry before
+`WeightedAdjBessel.A` is allowed to run.
 
 ### 5. Pressure-strain depletion route rejected as an installed discharge
 
@@ -533,7 +535,7 @@ terminal-tail bridge bookkeeping. It is:
 ```math
 \boxed{
 \text{exclude heat-scale, scale-critical nonlinear source pulses carrying
-mixed bilinear dissipation on the same short windows where }\gamma_j\text{ is large.}
+mixed bilinear dissipation on the same short windows where }\gamma_j>\eta\text{.}
 }
 ```
 

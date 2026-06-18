@@ -47,7 +47,7 @@ with every `P^-_\alpha` legal. For every bounded selector size `B`,
 \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le {B\over M}\to0,
 ```
 
-while the total legal parent mass remains order one.
+while the total legal parent mass is \(\pi_P(\mathsf{Pred}(P))=1\).
 
 Therefore bounded parent selection plus first-pulse minimality cannot imply source-parent compactness.
 

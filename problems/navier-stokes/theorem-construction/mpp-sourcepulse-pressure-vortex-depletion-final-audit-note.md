@@ -28,7 +28,7 @@ PressureVortexDeplete.A:
 }
 ```
 
-If this were installed, it would supply the missing positive-part strain
+A proved `PressureVortexDeplete.A` supplies the missing positive-part strain
 depletion needed by `SourcePulseExclusion.A`.
 
 ## Audit
@@ -97,4 +97,3 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 Thus pressure-vortex depletion remains a possible proof mechanism, but it is
 not installed by the current pressure Poisson, energy, vorticity, or
 `FFSRC.A=>FCI.5f` ledgers.
-

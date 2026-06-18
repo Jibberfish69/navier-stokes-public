@@ -47,7 +47,7 @@ MSC.BadAC.
 ```
 
 They name useful faces of the obstruction, but none is currently a lower
-installed theorem from original data. A proof on this side would need a new
+installed theorem from original data. A proof on this side requires a new
 positive-part strain depletion, heat-scale square-source estimate, active-shell
 amplitude gain, or direct active-window Carleson theorem.
 

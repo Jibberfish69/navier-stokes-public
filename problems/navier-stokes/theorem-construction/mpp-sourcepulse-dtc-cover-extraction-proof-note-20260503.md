@@ -120,10 +120,33 @@ The net is finite because `A_n` is a bounded packet footprint.  If
 
 Setting `c_\ell(t)=\Phi_t(a_\ell)` gives `(SDC.3)`.
 
-Bounded overlap follows by applying a standard finite Vitali subcover or
-bounded-multiplicity lattice thinning on the label net and pushing it forward by
-the bi-Lipschitz map `\Phi_t`; the multiplicity changes by a constant depending
-only on the pack distortion and dimension.  Incompressibility preserves packet
+Choose the net in `(SDC.6)` maximal `\eta_{n,\mathfrak p}`-separated.  Then
+the label balls `B(a_\ell,\eta_{n,\mathfrak p}/2)` are disjoint, while the
+balls `B(a_\ell,\eta_{n,\mathfrak p})` cover `A_n`.  If an Eulerian point
+`x=\Phi_t(a)` belongs to `K` transported balls
+`B(\Phi_t(a_\ell),R_{\mathfrak p}^{TC}/2)`, then the inverse Lipschitz bound in
+`(SDC.4)` gives
+
+```math
+|a_\ell-a|
+\le
+\Gamma_{\mathrm{pack},Q_n}R_{\mathfrak p}^{TC}/2
+```
+
+for each of the `K` centers.  The disjoint balls
+`B(a_\ell,\eta_{n,\mathfrak p}/2)` are therefore contained in a single label
+ball of radius
+`\Gamma_{\mathrm{pack},Q_n}R_{\mathfrak p}^{TC}/2
++\eta_{n,\mathfrak p}/2`.  The Euclidean volume-packing bound gives
+
+```math
+K
+\le
+C_3\bigl(2\Gamma_{\mathrm{pack},Q_n}^2+1\bigr)^3,
+```
+
+with `C_3` dimensional.  Thus the overlap is finite and depends only on the
+dimension and the retained pack distortion.  Incompressibility preserves packet
 volume, so no extra density loss is introduced.
 
 This proves `SourcePulseDTCCover.A`. ∎

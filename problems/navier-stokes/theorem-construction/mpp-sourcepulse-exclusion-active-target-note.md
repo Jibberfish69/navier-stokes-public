@@ -305,9 +305,9 @@ control, but no sign on the vorticity stretching source
 The Beltrami/helical route is also not independent.  The note
 `mpp-sourcepulse-beltrami-helical-alignment-audit-note.md` records that pure
 Beltrami packets are cancellation examples, not a theorem forcing arbitrary
-terminal bad active windows to become Beltrami/helical.  A discharge would
-require `HelicalCoherenceDeplete.A` or `AntiBeltramiCarleson.A`, again a
-source-pulse depletion theorem.
+terminal bad active windows to become Beltrami/helical.  A discharge requires
+`HelicalCoherenceDeplete.A` or `AntiBeltramiCarleson.A`, again a source-pulse
+depletion theorem.
 
 The vorticity-direction route is also not independent.  The note
 `mpp-sourcepulse-vorticity-direction-coherence-audit-note.md` records that

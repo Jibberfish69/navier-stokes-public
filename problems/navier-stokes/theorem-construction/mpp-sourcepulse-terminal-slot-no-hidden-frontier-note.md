@@ -122,10 +122,10 @@ source mass tends to zero on every selected terminal family, contradicting the
 positive lower bound in `(SPS.2)`.
 
 If `TPS.Charge.A` holds, every surviving pulse spends a reserve contribution
-bounded below by a fixed positive amount on a subsequence.  Since the reserve is
-installed and finite along the route ledger, infinitely many terminal pulses
-would force an infinite total spend, contradicting the finite reserve.  Thus a
-terminal source-pulse family cannot exist.
+bounded below by the positive liminf in `(SPS.2)`. Since the reserve is installed
+and finite along the route ledger, infinitely many terminal pulses would force
+an infinite total spend, contradicting the finite reserve.  Thus a terminal
+source-pulse family cannot exist.
 
 If `TPS.Rigidify.A` holds, the counterpacket localizes to a same-fluid
 source-residue cylinder family and extracts an ancient or ancestral limit with

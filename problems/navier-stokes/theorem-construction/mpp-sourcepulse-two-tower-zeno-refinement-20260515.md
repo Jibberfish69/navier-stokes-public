@@ -50,11 +50,17 @@ then the tree cannot carry the source-pulse lower bound.
 Apply `LocalDonorBalance.A` to a finite truncation.  Interior refill terms
 telescope, leaving boundary leaf energy plus legal losses.  On a non-Zeno
 branch the backward heat-time sum reaches a fixed preterminal entrance surface.
-`EntranceLeafDecay.A` makes the boundary leaf energy `o_N(1)`.  The legal losses
-are already summable in the source-parent packet.  The right side is therefore
-`o_N(1)` plus legal loss, while the source-pulse child requires a fixed
-normalized lower mass.  For terminal threshold `N` large enough, this is a
-contradiction. `\square`
+`EntranceLeafDecay.A` makes the unpaid boundary leaf energy
+`\mathrm{Leaf}_N=o_N(1)`.  The legal losses are charged to the source-parent
+packet.  If the source-pulse child carries normalized lower mass
+`m_{\mathrm{src}}>0`, the contradiction uses the explicit threshold
+
+```math
+\mathrm{Leaf}_N\le \frac12 m_{\mathrm{src}}.
+```
+
+Above that threshold, donor-balance accounting cannot produce the fixed child
+mass. `\square`
 
 ## Lemma `SPTZ.B` (Failure Forces Terminal Zeno)
 

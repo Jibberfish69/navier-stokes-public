@@ -108,25 +108,46 @@ window.  On that window, `Pack_{Q_n}` gives one transported carrier map
 \tag{SPDTC.4}
 ```
 
-Choose the DTC packet radius `R_{n}^{DTC}` to be a fixed small multiple of the
-terminal heat scale associated to `j_n`, with the multiple small enough that
-transported balls remain inside the legal collar after applying the local
-pack-distortion bound.  At an initial time slice in `I_n`, cover the compact
-spatial section of the packet by balls of radius comparable to `R_n^{DTC}` and
-extract a finite bounded-overlap Besicovitch/Vitali subcover.  Transport the
-centers by the same flow map:
+Choose the DTC packet radius `R_{n}^{DTC}` to be the required heat/packet radius
+for shell `j_n`, after the fixed collar shrink allowed in the statement.  Let
+`A_n` be the compact label footprint of `Q_n^\Phi`, and set
+
+```math
+\Gamma_n:=
+\sup_{a\in A_n,\ t\in I_n}
+\max\{|D\Phi_t(a)|,\ |D\Phi_t(a)^{-1}|\}.
+```
+
+Choose a maximal `\eta_n`-separated net
+
+```math
+\{a_1,\ldots,a_{J_n}\}\subset A_n,
+\qquad
+\eta_n:=R_n^{DTC}/(2\Gamma_n).
+```
+
+The net is finite because `A_n` is compact.  Maximality gives the label cover
+by `B(a_\ell,\eta_n)`, and the Lipschitz bound gives the transported cover with
+radius `R_n^{DTC}/2`.  Transport the centers by the same flow map:
 
 ```math
 c_{\mathfrak p}(t)=\Phi_t(a_{\mathfrak p}).
 \tag{SPDTC.5}
 ```
 
-Because `Pack` gives finite distortion of the transported carrier on `Q_n`, the
-transported balls with a fixed dimensional enlargement still cover `Q_{n,t}`
-for every `t\in I_n`, while a fixed shrink supplies the interior balls consumed
-by the DTC readout.  The overlap constant is multiplied only by the local
-distortion constant and the dimension.  Since the initial subcover is finite,
-the transported family remains finite for the whole interval.
+The overlap is also fixed by the same hypotheses.  If one Eulerian point lies
+in `K` transported balls, the inverse Lipschitz bound puts the corresponding
+label centers in a ball of radius `\Gamma_n R_n^{DTC}/2`.  The disjoint balls
+`B(a_\ell,\eta_n/2)` around those centers fit inside that label ball enlarged
+by `\eta_n/2`, so volume packing gives
+
+```math
+K\le C_3(2\Gamma_n^2+1)^3,
+```
+
+with `C_3` dimensional.  Thus the transported family remains finite for the
+whole interval and has bounded overlap depending only on dimension and the
+local pack gauge.
 
 The construction uses only the same carrier `\Phi` and the same terminal
 packet `Q_n^\Phi`; no `READ.COVER`, endpoint readout cover, averaged cover, or

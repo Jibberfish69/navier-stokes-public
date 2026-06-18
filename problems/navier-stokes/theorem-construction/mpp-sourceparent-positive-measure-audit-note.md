@@ -137,9 +137,9 @@ f_\alpha:=M^{-1}.
 ```
 
 For arbitrarily large `M`, no single parent has comparable strength.  A
-Navier-Stokes proof would need a finite-complexity theorem or a concentration
-theorem for the source distribution.  The installed dyadic and local-energy
-ledgers do not provide it.
+Navier-Stokes proof from these inputs must add either a finite-complexity theorem
+or a concentration theorem for the source distribution.  The installed dyadic
+and local-energy ledgers do not provide it.
 
 ## Correct Replacement Target
 

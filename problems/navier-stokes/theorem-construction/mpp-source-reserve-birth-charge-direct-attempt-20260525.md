@@ -92,8 +92,8 @@ first-created native reserve >= c eta.
 At this point the proof needs a real source-charge theorem.  The installed
 ledgers do not prove that this first-created native reserve is automatically
 paid.  The scalar short-pulse obstruction from the earlier reserve audits still
-survives: first moment can go to zero while the scale-critical square reserve
-stays order one.
+survives: first moment can go to zero while the scale-critical square reserve is
+bounded below by `c_0>0`.
 
 Therefore the direct proof does not close `SourceReserveBirthCharge.A` from the
 current installed inputs.
@@ -156,6 +156,6 @@ This is real progress in the proof search because it removes the ambiguity
 around the Pack wall.  The open theorem is no longer "some source-wall thing."
 It is the retained positive-scale first-created native reserve surplus.
 
-It is not a Clay-ready proof.  Calling the MPP solved here would be circular:
+It is not a Clay-ready proof.  Calling the MPP solved here is circular:
 the missing charge theorem is exactly the analytic content needed to prevent
 the first Pack exit from original smooth data.

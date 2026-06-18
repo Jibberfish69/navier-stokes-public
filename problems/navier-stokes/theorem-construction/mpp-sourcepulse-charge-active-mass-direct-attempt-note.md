@@ -56,7 +56,7 @@ unless a new depletion/decorrelation theorem is supplied.
 The downstream frozen-family source ledger
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 is an integrability supplier after the receiver/source route is admitted.  It

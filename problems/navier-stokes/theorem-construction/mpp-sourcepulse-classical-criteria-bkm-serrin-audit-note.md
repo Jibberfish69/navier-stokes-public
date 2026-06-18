@@ -10,7 +10,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 }
 ```
 
-This note tests whether standard continuation criteria such as BKM,
+This note tests whether named continuation criteria such as BKM,
 Prodi-Serrin, or critical `L^3` regularity eliminate the terminal source-pulse
 packet.
 
@@ -58,10 +58,10 @@ bad branch is exactly the absence of a positive SCF-good coherence scale.
 
 ## Relation To SourcePulseExclusion.A
 
-If a BKM/Serrin-strength terminal estimate were proved from original data, it
-would remove active mass and imply `SourcePulseExclusion.A`.  But deriving that
-estimate is another presentation of the same missing nonlinear source-control
-theorem.
+The conditional consequence is exact: a BKM/Serrin-strength terminal estimate
+proved from original data removes active mass and implies
+`SourcePulseExclusion.A`.  Proving that estimate is another presentation of the
+same missing nonlinear source-control theorem.
 
 Thus:
 
@@ -78,4 +78,3 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 Classical continuation criteria are valid consumers, not source-pulse
 suppliers.  They close the endpoint only after the missing terminal
 critical-space/source-control estimate has already been proved.
-

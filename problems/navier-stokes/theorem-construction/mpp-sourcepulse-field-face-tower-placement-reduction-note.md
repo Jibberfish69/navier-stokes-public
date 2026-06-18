@@ -269,11 +269,12 @@ This is strictly narrower than the older strong supplier target
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
 
-The no-pulse theorem would remove the whole source-pulse packet absolutely.
-The placement theorem only says: if a terminal source-pulse packet is the
-alleged genuine non-smooth witness and still keeps `Pack+Part`, then the mixed
-`tower-blown` escape must already be owned by the same-family transported-center
-/ tower route, so the witness is forced into `Jump`, hence `not Field`.
+The no-pulse theorem removes the whole source-pulse packet absolutely once
+proved. The placement theorem has a narrower conditional consequence: if a
+terminal source-pulse packet is the alleged genuine non-smooth witness and still
+keeps `Pack+Part`, then the mixed `tower-blown` escape must already be owned by
+the same-family transported-center / tower route, so the witness is forced into
+`Jump`, hence `not Field`.
 
 So, with respect to the CM-contrapositive proof program, the sharpened next
 target order on the active face is:

@@ -143,7 +143,7 @@ SourcePulseExclusion.A.
 
 ## Conditional Theorem 3: Two-Tower Donor Depletion
 
-The old tower-exchange heuristic is formalized in
+The old tower-exchange slogan is formalized in
 `mpp-two-tower-donor-depletion-formalization-note.md` as:
 
 ```math
@@ -207,8 +207,18 @@ identity.
 
 The direct attempt on this target is
 `mpp-refilltree-wellfounded-direct-attempt-note.md`.  The non-Zeno entrance
-branch is proved in `mpp-entrance-leaf-decay-nonzeno-proof-note.md` by original
-smooth tail decay, while the terminal Zeno branch still needs either:
+branch is proved in `mpp-entrance-leaf-decay-nonzeno-proof-note.md` by the exact
+fixed-entrance bound
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0,
+```
+
+while the terminal Zeno branch still needs either:
 
 ```math
 ScaleCriticalTreeCarleson.A

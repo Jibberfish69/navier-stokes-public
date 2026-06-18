@@ -67,9 +67,9 @@ and
 ```
 
 The scale-barrier language has the same status.  A uniform spectral decay
-estimate strong enough to prevent terminal active pulses would remove active
-mass, but deriving that decay from the energy/enstrophy layer is precisely the
-source-control problem.
+estimate strong enough to prevent terminal active pulses removes active mass
+once proved, but deriving that decay from the energy/enstrophy layer is
+precisely the source-control problem.
 
 ## Conclusion
 
@@ -87,4 +87,3 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 The recovered corpus is therefore useful as provenance for the desired proof
 shape, but it does not install the missing terminal nonlinear source-control
 estimate.
-

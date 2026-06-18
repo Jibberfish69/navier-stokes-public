@@ -1,4 +1,4 @@
-# MPP Source-Wall Proceed Pass: Uniform Temporal And Zero-Loss Profile Routes
+# MPP Source-Wall Proceed Pass: Uniform Temporal And Zero-Loss Defect Routes
 
 ## Status
 
@@ -130,17 +130,17 @@ SquareReserveEvolution.A
 }
 ```
 
-## 3. Zero-loss active profile route
+## 3. Zero-loss active defect-limit route
 
-The contradiction/profile route starts from:
+The contradiction/defect-limit route starts from:
 
 ```math
 \neg ScaleCriticalTreeCarleson.A
 \Longrightarrow
-\text{normalized active source-pulse profile with vanishing legal losses.}
+\text{normalized active source-pulse defect limit with vanishing legal losses.}
 ```
 
-Keeping the source pre-Cauchy and passing to the native profile reduces the
+Keeping the source pre-Cauchy and passing to the native defect limit reduces the
 remaining positive carrier to:
 
 ```math
@@ -216,7 +216,7 @@ structure, vorticity-direction/Beltrami/helical coherence, or same-fluid
 transport.}
 ```
 
-Thus the zero-loss profile route does not currently prove a contradiction.
+Thus the zero-loss defect-limit route does not currently prove a contradiction.
 It sharpens the live obstruction to the singular native positive trilinear
 defect.
 

@@ -27,8 +27,8 @@ contradicts local energy / CKN.}
 }
 ```
 
-If installed, this would give a terminal good-scale cover and would eliminate
-the `Jump_avg` branch without a separate source-pulse theorem.
+If installed, this theorem gives a terminal good-scale cover and eliminates the
+`Jump_avg` branch without a separate source-pulse theorem.
 
 ## Audit
 
@@ -91,4 +91,3 @@ SourcePulseExclusion.A.
 ```
 
 No promotion is licensed from local energy, CKN, or `ATD_m^\varepsilon` alone.
-

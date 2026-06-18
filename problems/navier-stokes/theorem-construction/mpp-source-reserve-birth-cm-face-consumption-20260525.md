@@ -41,14 +41,15 @@ Exit(Q) := not Member(Q).
 The forward claim
 
 ```text
-order-one square reserve + zero first moment
+square reserve bounded below by `c_0>0` + zero first moment
 => visible active height flux
 ```
 
 is false as a standalone theorem.
 
 Let `W_m=(-tau_m,0]`, with `tau_m -> 0`, and let `rho(y) dy` be a retained
-packet-local spatial profile.  Define a terminal-layer positive source measure
+packet-local spatial source density.  Define the terminal-layer positive source
+measure
 
 ```text
 dnu_m^+(y,s) = rho(y) tau_m^{-1} chi(s/tau_m) dy ds,
@@ -62,8 +63,8 @@ nu_m^+(W_m) = 1,
 int_{W_m} |s| dnu_m^+ <= C tau_m -> 0.
 ```
 
-So the square/source reserve stays order-one while its terminal first moment
-vanishes.  With a signed partner chosen so the signed moment cancels, the
+So the square/source reserve has fixed positive mass while its terminal first
+moment vanishes.  With a signed partner chosen so the signed moment cancels, the
 unweighted signed ledger can balance while the one-sided terminal reading still
 retains the positive branch.
 
@@ -86,7 +87,7 @@ ActiveHeightFluxTrichotomy.A
 The cases are:
 
 1. Positive relative time thickness gives the active-height branch.
-2. Missing, incompatible, or off-ledger signed partner lands immediately in
+2. Missing, incompatible, or off-ledger signed partner lands in
    Pack, Part, or licensed Field.
 3. Same-ledger retained partner is paid by ASAC / positive pair-weight charge
    or legal finite-donor ledgers.

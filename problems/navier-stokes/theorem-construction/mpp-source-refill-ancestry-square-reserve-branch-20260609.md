@@ -75,7 +75,9 @@ Loss_{legal}(W)
 o_N(1).
 ```
 
-This would imply `ScaleCriticalTreeCarleson.A` by first-pulse iteration.
+This square-reserve inequality is sufficient for `ScaleCriticalTreeCarleson.A`
+by first-pulse iteration, provided the first-pulse minimality and high-frequency
+energy-tail limit hold on the same selected terminal windows.
 
 ## Direct Square-Reserve Test
 
@@ -108,7 +110,7 @@ while:
 ```
 
 Choosing `A_m=2^{-2m}` and `h_m=2^{-3m}` makes the first moment vanish and the
-square reserve stay order one. This is a countermodel to the currently installed
+square reserve contribution equal \(2^mA_m^2h_m^{-1}=1\). This is a countermodel to the currently installed
 ledger implications. It is not a Navier-Stokes counterexample, but it proves the
 existing ledgers do not imply `SquareReserveEvolution.A`.
 
