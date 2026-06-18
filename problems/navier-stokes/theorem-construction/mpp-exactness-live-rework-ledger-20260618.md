@@ -5928,3 +5928,64 @@ Remaining mathematical status:
 The broader exactness goal remains active.  The upper-boundary coefficientwise
 finite-family decomposition and its residual bound remain live mathematical
 inputs; they are no longer hidden under "accepted collar errors."
+
+## Nonlinear Shell-Flux Signed-Reserve Repair
+
+Old loose step:
+
+The appendix's nonlinear shell-flux source attempt said the desired source
+theorem follows from "a signed estimate of the form" but did not display the
+signed estimate.  It then displayed only the positive-fallback active-square
+tail integral, which could make the signed-cancellation burden and the fallback
+residual burden look interchangeable.
+
+Exact replacement:
+
+The appendix now names the true weighted lifted remainder
+
+```text
+G_N^{lift,sigma}(t) = sum W_{j,ell}^sigma R_{j,k,ell}^{lift}(t)
+```
+
+and states the signed reserve estimate actually needed:
+
+```text
+int_I G_N^{lift,sigma}(t) dt <= C 2^{-2 delta N}.
+```
+
+The fallback remains the distinct active-square residual-tail burden
+
+```text
+int_I sum_{j>=N} 2^{-j} D_j(t)^2 dt.
+```
+
+Proof or remaining burden:
+
+This batch does not prove the signed reserve estimate.  It makes the proof split
+exact: either prove a genuine one-sided signed reserve for the weighted lifted
+remainder, or separately prove active-square residual-tail control.  The
+installed full tail-square reserve controls cumulative tail energy squared by
+first-moment dissipation and does not control shellwise active-square density on
+terminal active intervals.
+
+Downstream consequence:
+
+The appendix no longer lets the nonlinear source theorem spend a blank signed
+estimate or confuse it with the positive fallback.  `AWG.A` remains open at the
+source-normalization wall until one of the stated exact inputs is supplied.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Source checked:
+
+- `theorem-construction/mpp-nonlinear-shell-flux-source-theorem-attempt-note.md`;
+- `theorem-construction/mpp-signed-lifted-remainder-residual-tail-attempt-note.md`;
+- `theorem-construction/mpp-nonlinear-shell-flux-source-control-reentry-20260609.md`.
+
+Remaining mathematical status:
+
+The broader exactness goal remains active.  The signed reserve and active-square
+residual-tail estimates are explicit live mathematical burdens, not completed
+source-control payments.
