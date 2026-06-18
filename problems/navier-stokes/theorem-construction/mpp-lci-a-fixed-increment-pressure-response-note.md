@@ -48,7 +48,43 @@ B(c_j(t),4\Lambda_{\delta,\rho}^{halo}),
 \tag{FPR.2}
 ```
 
-with the usual radius-scale derivative bounds.
+and construct it by fixing
+`\vartheta\in C_c^\infty(B(0,4))` with `\vartheta\equiv1` on `B(0,2)` and
+setting
+
+```math
+\chi_j^{pr}(x,t)
+:=
+\vartheta\!\left(\frac{x-c_j(t)}{\Lambda_{\delta,\rho}^{halo}}\right).
+\tag{FPR.2a}
+```
+
+For every multi-index `\beta` and every `0<\alpha<1`,
+
+```math
+\|\nabla^\beta\chi_j^{pr}(\cdot,t)\|_{L^\infty}
+\le
+C_\beta(\Lambda_{\delta,\rho}^{halo})^{-|\beta|},
+\qquad
+[\nabla^\beta\chi_j^{pr}(\cdot,t)]_{C^{0,\alpha}}
+\le
+C_{\beta,\alpha}
+(\Lambda_{\delta,\rho}^{halo})^{-|\beta|-\alpha}.
+\tag{FPR.2b}
+```
+
+For `|\eta|\le\Lambda_{\delta,\rho}^{halo}`,
+
+```math
+\|\delta_\eta\nabla^\beta\chi_j^{pr}(\cdot,t)\|_{L^\infty}
+\le
+C_\beta\,
+\min\!\left\{
+(\Lambda_{\delta,\rho}^{halo})^{-|\beta|},
+|\eta|(\Lambda_{\delta,\rho}^{halo})^{-|\beta|-1}
+\right\}.
+\tag{FPR.2c}
+```
 
 Define the localized pressure potential and harmonic remainder
 
