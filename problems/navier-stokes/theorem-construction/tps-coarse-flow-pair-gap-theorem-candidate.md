@@ -1180,7 +1180,8 @@ C_D
 
 so `(CF.11a)` follows whenever this tail is `o(\ell_J)`.
 
-Then every good active pair satisfies the formal implication
+Then every good active pair satisfying these hypotheses obeys the conditional
+strip-end implication
 
 ```math
 L_I^{net}(a,b)\ge L_J^{thr}
@@ -1193,7 +1194,7 @@ on every admissible strip `I=[t_0,t_1]`.
 
 To upgrade `(CF.11b)` from strip-end exclusion to exclusion on the whole strip,
 one needs the stronger prefix criterion `(CF.10j)` or an external no-entry /
-no-return theorem. So the packet now separates two formal outputs:
+no-return theorem. So the packet now separates two conditional outputs:
 
 ```math
 \text{endpoint strip exclusion from }L_I^{net}\ge L_J^{thr}
@@ -1202,10 +1203,11 @@ no-return theorem. So the packet now separates two formal outputs:
 \tag{CF.11c}
 ```
 
-So the full transport-stability part of the coarse-flow route is now formal:
-the only remaining theorem-grade inputs are those needed to force the stripwise
-packet inequality `L_I^{net}\ge L_J^{thr}` on an asymptotically full good
-family and to control the actual-solution strain budget downstream.
+So the transport-stability part of the coarse-flow route is reduced to exact
+conditional statements: the remaining theorem-grade inputs are those needed to
+force the stripwise packet inequality `L_I^{net}\ge L_J^{thr}` on an
+asymptotically full good family and to control the actual-solution strain
+budget downstream.
 
 The infimum-in-time bad set here is an honest measurable selector object: the
 time-slice shadow tube and the full infimum-in-time bad set admit Borel and
@@ -1348,7 +1350,7 @@ So the open closure target can now be stated in one scalar form:
 }
 ```
 
-The corresponding theorem-shape closure implications, including the
+The corresponding conditional closure reductions, including the
 stopping-time barrier logic, coarse/true strip stability, and the honest
 strong/weak dichotomy on the occupancy ledger, are now packaged in
 [tps-shadow-barrier-formal-closure-packet.md](/Users/thomasbirnie/Desktop/ToE/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-shadow-barrier-formal-closure-packet.md).
