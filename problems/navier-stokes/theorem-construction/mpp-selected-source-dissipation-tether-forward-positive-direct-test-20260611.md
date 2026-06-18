@@ -130,10 +130,17 @@ currency still permits terminal concentration at the measure level.  The model:
 g_m(s)=m\,1_{(-1/m,0]}(s)
 ```
 
-has bounded `L^1` mass and converges to a terminal atom.  A CKN-type measure
-can concentrate in the same way unless a super-`L^1` temporal modulus, Type I
-bound, smallness criterion, or quantitative absolute-continuity theorem is
-proved on the selected windows.
+has `||g_m||_{L^1}=1` and `g_m(s) ds -> delta_0` weakly.  For any nonzero
+`f in L^2`,
+
+```math
+\int_{-1/m}^{0}m e^{(0-s)\nu\Delta}f\,ds\to f
+\quad\text{in }L^2 .
+```
+
+A CKN-type measure can concentrate in the same way unless a super-`L^1`
+temporal modulus, Type I bound, smallness criterion, or quantitative
+absolute-continuity theorem is proved on the selected windows.
 
 Therefore the CKN tether route splits into two real requirements:
 
