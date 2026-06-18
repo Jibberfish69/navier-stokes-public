@@ -24,7 +24,17 @@ Choose depth `N` above a classical continuation index `s>5/2`. The retained Pack
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-Periodic classical local theory gives a lifespan depending only on this bound. Relaunching from times approaching `T_*` extends the classical solution past any finite terminal time, with uniqueness identifying the relaunched solution with the original solution on the overlap. Therefore
+Set
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}.
+```
+
+Periodic `H^s` local theory gives a lifespan
+`\tau=\tau(\nu,s,M_s)>0` for every datum with `H^s` norm at most `M_s`.
+Choose `t_j\uparrow T_*` with `T_*-t_j<\tau/2`. The solution launched from
+`u(t_j)` exists on `[t_j,t_j+\tau]`, which reaches past `T_*`, and uniqueness
+identifies it with the original solution on the overlap. Therefore
 
 ```math
 T_*=\infty.

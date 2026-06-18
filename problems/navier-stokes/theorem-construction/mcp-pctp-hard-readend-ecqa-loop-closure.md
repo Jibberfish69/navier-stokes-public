@@ -94,7 +94,17 @@ Choose `N` above a classical continuation index `s>5/2`. The readout gives
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-Classical periodic local theory supplies a lifespan depending only on that bound, so a relaunch from times approaching `T_*` extends the solution past any finite terminal time. Hence
+Set
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}.
+```
+
+Classical periodic `H^s` local theory supplies a lifespan
+`\tau=\tau(\nu,s,M_s)>0` for all data with norm at most `M_s`. Choose
+`t_j\uparrow T_*` with `T_*-t_j<\tau/2`. The relaunch from `u(t_j)` exists past
+`T_*` and, by uniqueness, is the original solution on the common interval.
+Hence
 
 ```math
 T_*=\infty.

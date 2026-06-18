@@ -182,9 +182,13 @@ Q_{ann}\ \mathrm{readout\mbox{-}complete\ admitted}
 ```
 
 By the readout-completeness admission premise and the installed continuation
-readout, this gives a bounded `H^s`, `s>5/2`, continuation norm for the same
-Navier-Stokes solution near `T_*`. Classical local theory extends the solution
-past `T_*`. That is the smooth/member branch:
+readout, this gives
+`M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty` for some `s>5/2` for the same
+Navier-Stokes solution near `T_*`. Periodic `H^s` local theory gives
+`\tau=\tau(\nu,s,M_s)>0`; choosing `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists past `T_*` and agrees with
+the original solution on the overlap by uniqueness. That is the smooth/member
+branch:
 
 ```math
 Member(Q_{ann};\mathcal O_{work}).

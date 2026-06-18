@@ -34,7 +34,12 @@ This replaces the endpoint matrix notation.
 
 ### Lemma 5: Terminal readout and continuation
 
-The averaged endpoint package gives a finite readout cover. On that cover, averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives a uniform `H^s(T^3)` bound for some `s>5/2`, and periodic local theory extends the solution past any finite endpoint.
+The averaged endpoint package gives a finite readout cover. On that cover,
+averaged field and tower bounds recover the pointwise endpoint package. The
+pointwise package gives `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty` for some
+`s>5/2`. Periodic `H^s` local theory supplies
+`\tau=\tau(\nu,s,M_s)>0`; relaunching from `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2` carries the same solution past the endpoint by uniqueness.
 
 This combines `READ.END` and the continuation bridge.
 

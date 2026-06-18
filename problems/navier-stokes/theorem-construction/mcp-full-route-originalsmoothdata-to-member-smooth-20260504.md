@@ -152,7 +152,12 @@ The member-smooth bridge gives
 \Longrightarrow Smooth(Q).
 ```
 
-Equivalently, at continuation depth `s>5/2`, the CM readout gives the classical periodic continuation norm, and the local theory extends the solution past a finite terminal time.
+Equivalently, at continuation depth `s>5/2`, the CM readout gives
+`M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty`. Periodic `H^s` local theory
+gives a lifespan `\tau=\tau(\nu,s,M_s)>0` for every datum with norm at most
+`M_s`; for `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the relaunch from `u(t_j)`
+exists past `T_*` and uniqueness identifies it with the original solution on
+the overlap.
 
 ## Main theorem
 

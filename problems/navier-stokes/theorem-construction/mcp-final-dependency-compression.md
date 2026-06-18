@@ -98,7 +98,11 @@ The pointwise endpoint closure gives a uniform continuation norm
 \qquad s>5/2,
 ```
 
-and the periodic local theory extends the solution past any alleged finite `T_*`.
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}`. Periodic `H^s` local
+well-posedness gives `\tau=\tau(\nu,s,M_s)>0` for data with norm at most `M_s`.
+Choosing `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the relaunch from `u(t_j)`
+exists past `T_*` and agrees with the original solution on the overlap by
+uniqueness. Thus an alleged finite `T_*` contradicts maximality.
 
 ## Final theorem
 

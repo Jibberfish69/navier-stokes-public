@@ -61,7 +61,10 @@ End_{NS,avg}+READ.COVER+Field.Read+DTC.Read
 End_{NS}.
 ```
 
-11. The class-exit/continuation equivalence `ECQ.A` and the standard periodic continuation criterion `PCTP.cond`.
+11. The class-exit/continuation equivalence `ECQ.A` and the bounded-`H^s`
+    periodic relaunch criterion `PCTP.cond`: an `H^s(T^3)` bound supplies a
+    uniform lifespan, and launch times `t_j\uparrow T_*` carry the same solution
+    past a finite endpoint by uniqueness.
 
 Then the maximal classical solution has
 

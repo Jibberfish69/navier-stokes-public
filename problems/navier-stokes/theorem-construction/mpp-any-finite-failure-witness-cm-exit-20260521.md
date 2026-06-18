@@ -99,8 +99,11 @@ Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
 \qquad s>5/2,
 ```
 
-at the chosen continuation depth. Classical local theory then extends the
-solution past `T_*`.
+at the chosen continuation depth. Set
+`M_s:=\sup_{t<T_*}\|u(t)\|_{H^s}`. Local `H^s` theory gives
+`\tau=\tau(\nu,s,M_s)>0`; for `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the
+relaunch from `u(t_j)` exists past `T_*` and is the original solution on the
+overlap by uniqueness.
 
 Therefore an alleged finite-time failure witness cannot retain all three slots
 on the same terminal packet. We now sort the failed slot in Pack-first order.

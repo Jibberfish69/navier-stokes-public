@@ -188,7 +188,10 @@ CM_{N_s,r,Q}
 \qquad s>5/2.
 ```
 
-Classical local theory then extends the solution past `T_*`, contradicting
+Set `M_s:=\sup_{t<T_*}\|u(t)\|_{H^s}`. Local `H^s` theory gives
+`\tau=\tau(\nu,s,M_s)>0`; choosing `t_j\uparrow T_*` with
+`T_*-t_j<\tau/2`, the relaunch from `u(t_j)` exists past `T_*` and uniqueness
+identifies it with the original solution on the overlap. This contradicts
 maximality. Hence no positive field-coherence scale can survive:
 
 ```math
