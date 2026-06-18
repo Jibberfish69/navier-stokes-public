@@ -103,8 +103,8 @@ Finite positive Radon mass and `L^1_t` source control permit terminal concentrat
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
 ```
 
-have uniformly bounded `L^1` mass and converge weakly to a terminal atom at
-`s=0`.  More explicitly, for any nonzero `f in L^2` define
+have `||g_m||_{L^1}=1` and `g_m(s) ds -> delta_0` weakly.  More explicitly,
+for any nonzero `f in L^2` define
 
 ```math
 R_m:=\int_{-1/m}^{0}m e^{(0-s)\nu\Delta}f\,ds .
