@@ -45,9 +45,10 @@ Assume the coefficient packet already present on the chart:
 2. `G_k\in W^{1,\infty}(\Omega_k)`;
 3. `\widetilde b_k,\widetilde c_k\in L^\infty(\Omega_k\times I_k)`.
 
-Then the associated sesquilinear form on `L^2(\Omega_k)` is sectorial after the
-usual large positive shift, so the realized operator `A_k` is a natural
-analytic-semigroup generator candidate on `H_k:=L^2(\Omega_k)`.
+Then the shifted sesquilinear form `\mathfrak a_{k,\lambda}` below is sectorial
+for any `\lambda` satisfying the displayed lower-order absorption bound
+`(ESR.2b)`.  Its m-sectorial realization gives the analytic-semigroup input on
+`H_k:=L^2(\Omega_k)`.
 
 ### Proof
 
