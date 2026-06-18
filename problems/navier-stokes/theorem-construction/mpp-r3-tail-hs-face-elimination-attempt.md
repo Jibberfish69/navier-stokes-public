@@ -46,47 +46,121 @@ fails. Smooth far-field packets can have arbitrarily small `L^2` mass and arbitr
 
 ## High-order exterior energy identity
 
-Let `chi_R` be an exterior cutoff and apply `Lambda^s` to the equation. Testing against `chi_R Lambda^s u` gives the formal identity
+Let `eta_R` be an exterior cutoff with
 
 ```math
-\frac{d}{dt}\int \chi_R |\Lambda^s u|^2
-+2\nu\int \chi_R |\nabla\Lambda^s u|^2
-=
+eta_R=0\quad |x|\le R,\qquad
+eta_R=1\quad |x|\ge 2R,\qquad
+|\nabla^j eta_R|\le C_jR^{-j}.
+```
+
+Set
+
+```math
+\mathcal H_s^{tail}(R,t)
+:=\|eta_R\Lambda^s u(t)\|_2^2.
+```
+
+The exact localized high-order inequality needed here is not the schematic
+statement that commutator, cutoff, and pressure fluxes are ``standard''.  Apply
+`\Lambda^s` to the equation and test against `eta_R^2\Lambda^s u`.  After
+integration by parts,
+
+```math
+\frac12\frac d{dt}\|eta_R\Lambda^s u\|_2^2
++\nu\|eta_R\nabla\Lambda^s u\|_2^2
+\le
 \mathcal C_R+
-\mathcal F_R+
+\mathcal B_R+
 \mathcal P_R.
 ```
 
-Here `C_R` contains commutators with `u·nabla`, `F_R` contains cutoff fluxes, and `P_R` contains pressure/cutoff terms. Standard commutator estimates require a coefficient such as
+The transport commutator is
 
 ```math
-\|\nabla u(t)\|_{L^\infty}
+\mathcal C_R
+=\left|\int eta_R^2\Lambda^s u\cdot
+[\Lambda^s,u\cdot\nabla]u\,dx\right|,
 ```
 
-or a localized high-order exterior dissipation ledger. Integrating to `T_*` needs
+and Kato--Ponce gives
+
+```math
+\mathcal C_R
+\le
+C_s\|\nabla u(t)\|_{L^\infty}
+\mathcal H_s^{tail}(R,t)
++\mathcal C_R^{ann}(t),
+```
+
+where `\mathcal C_R^{ann}` is supported in `A_R=\{R<|x|<2R\}` and contains the
+cutoff commutators.  The cutoff and pressure terms are recorded as
+
+```math
+\mathcal B_R
+\le
+\frac\nu4\|eta_R\nabla\Lambda^s u\|_2^2
++C_{s,\nu}\mathcal E_s^{ann}(R,t),
+\qquad
+\mathcal P_R
+\le
+\frac\nu4\|eta_R\nabla\Lambda^s u\|_2^2
++C_{s,\nu}\mathcal P_s^{tail}(R,t).
+```
+
+Thus the precise inequality being spent is
+
+```math
+\frac d{dt}\mathcal H_s^{tail}(R,t)
++\nu\|eta_R\nabla\Lambda^s u\|_2^2
+\le
+C_s\|\nabla u(t)\|_{L^\infty}\mathcal H_s^{tail}(R,t)
++C_{s,\nu}\mathcal E_s^{tail}(R,t),
+```
+
+with
+
+```math
+\mathcal E_s^{tail}
+:=\mathcal C_R^{ann}+\mathcal E_s^{ann}+\mathcal P_s^{tail}.
+```
+
+Integrating this inequality to `T_*` needs
 
 ```math
 \int_0^{T_*}\|\nabla u(t)\|_{L^\infty}dt<\infty
 ```
 
-or an equivalent exterior high-order control. That information is continuation-grade and cannot be spent upstream.
+and
+
+```math
+\int_0^{T_*}\mathcal E_s^{tail}(R,t)\,dt\to0,
+\qquad
+\mathcal H_s^{tail}(R,0)\to0
+\qquad(R\to\infty),
+```
+
+or an equivalent exterior high-order control.  The first condition is
+continuation-grade and the second is a genuine exterior high-order tail ledger,
+so neither may be spent upstream as a ``standard'' estimate.
 
 ## Conditional elimination theorem
 
-If one adds the exterior high-order tail ledger
+If one adds the exact exterior high-order tail ledger
 
 ```math
 \int_0^{T_*}\mathcal E_s^{tail}(R,t)\,dt\to0
 \qquad(R\to\infty),
 ```
 
-where `E_s^{tail}` dominates the commutator, cutoff, and pressure tail terms in the high-order exterior identity, then Gronwall gives
+plus the coefficient condition above, then Gronwall gives
 
 ```math
 Tail.Hs_{R^3}.
 ```
 
-Under this extra ledger, `TailFace_R3^Hs` is eliminated and the whole-space tower-to-continuation theorem closes.
+Under this extra ledger, `TailFace_R3^Hs` is eliminated for the direct-positive
+whole-space export branch.
 
 ## Verdict
 
