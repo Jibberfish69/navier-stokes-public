@@ -24,6 +24,12 @@ scale-critical active-window height bound for the donor-tail Hardy expansion.
 That input is not installed by `ParentSquareEmbed.A`, `WeightedAdjRes.A`,
 finite-tree donor balance, first-moment dissipation, or local energy.
 
+Exactness rework correction, 2026-06-18: this note is a failed historical
+attempt. Its donor-square differentiation may be cited only as an obstruction
+calculation. It does not set the current proof target unless the resulting
+source branch is paid in the same ledger or admitted to the CM test with a
+first Pack/Part/Field face failure.
+
 ## Live Target
 
 The installed direct branch is:
@@ -185,23 +191,24 @@ controls:
 ```
 
 not `\partial_tD_\ell`.  Rewriting `\partial_tD_\ell` through the localized
-shell equation introduces the same signed source and strain terms whose
-positive part defines the source wall.  Schematically:
+shell equation introduces the signed source and strain terms in the same
+donor-square weight.  The exact obstruction is that the positive part of this
+weighted shell source is not controlled by the installed first-moment charge:
 
 ```math
-T_k\sum_{\ell>k+4}\partial_tD_\ell
-\leadsto
-T_k\sum_{\ell>k+4}Source_\ell
-+
-Loss_{legal}
-+
-\text{favorable dissipation}.
+I_N(W)
+:=
+\int_W
+\sum_{k>N}2^kT_k(t)
+\left[
+\sum_{\ell>k+4}Source_\ell(t)
+\right]_+dt.
 \tag{D2}
 ```
 
-After positive-part extraction and localization, `(D2)` is controlled only by
-the same local positive source / active-square reserve.  Cauchy or Young
-estimates return:
+The legal and dissipative terms can be kept in `Loss_{legal}` and the favorable
+dissipation ledger, but the displayed positive weighted source term requires a
+separate theorem.  Cauchy or Young estimates return:
 
 ```math
 \int_W r_N(t)dt
