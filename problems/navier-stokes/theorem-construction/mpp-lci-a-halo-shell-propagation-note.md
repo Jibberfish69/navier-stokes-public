@@ -251,8 +251,9 @@ C_{\varepsilon,\rho,\psi,\delta,I}
 
 ### Proof
 
-This is the direct halo-shell analogue of `LCI.B2f2a`. The same proof goes
-through without new source families:
+This is the direct halo-shell analogue of `LCI.B2f2a`. The proof is the
+following substitution of the halo shell into that estimate; no new source
+families are introduced:
 
 1. the packet family is again `\{Z_{\beta,q}=\nabla^\beta U_q\}_{0\le q\le m,\ 0\le\beta\le 2}`,
    now localized by `\vartheta_{\rho,\psi,t}^{halo,\delta}`;
