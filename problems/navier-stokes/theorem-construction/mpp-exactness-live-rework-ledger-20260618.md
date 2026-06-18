@@ -1359,6 +1359,45 @@ Edited live surface:
 
 - `theorem-construction/five-family-binomial-pipeline-note.md`.
 
+## Collar Commutator Standard-Estimate Rework
+
+Old loose step:
+
+- `theorem-construction/collar-remainder-lower-order-estimate-result.md` said
+  the low-pass commutator collar estimate C3 was the "standard
+  smooth-multiplier commutator estimate" with the coherent strain coefficient
+  bounded at the active shell scale.
+
+Exact replacement:
+
+C3 now requires the displayed readout-compatible commutator bound
+
+```math
+\|\nabla\widetilde Q_i[I-P_{\le j},a\partial_i]P_{\le j}f\|_\infty
+\le
+C_{\mathrm{com}}
+\|\nabla a\|_{L^\infty(\mathrm{car}_{i,j})}
+\|\nabla P_{\le j}f\|_{L^\infty(\mathrm{car}_{i,j})}
++\mathrm{KernelErr}_{i,j}(a,f),
+```
+
+with `a=u_{coh,i}` and `f=v_{coh}`, plus the active-shell coefficient estimate
+that bounds the right side by
+
+```math
+\varepsilon\nu2^{2j}\|Y\|_{H_D^s}
++C_\varepsilon\Phi(\mathcal E_D(X)).
+```
+
+Downstream consequence: the collar assembly theorem may still sum C1--C4 by
+triangle inequality, but C3 remains an analytic input until the commutator
+kernel error and active-shell coefficient bound are proved on the same
+readout-compatible carrier.
+
+Edited live surface:
+
+- `theorem-construction/collar-remainder-lower-order-estimate-result.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
