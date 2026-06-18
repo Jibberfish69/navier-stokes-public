@@ -179,9 +179,9 @@ Therefore the direct path is:
 \boxed{
 \mathcal R_N=o_N(1)
 \Longrightarrow
-R_N\text{ in }(5)\text{ is legal}
+R_{N,s}\text{ in }(5)\text{ is legal}
 \Longrightarrow
-\text{no terminal }H^1\text{ blow-up}.
+\text{no terminal }H^s,\ s>5/2,\text{ blow-up in the selected norm}.
 }
 \tag{14}
 ```
@@ -241,7 +241,7 @@ independent proof burdens.  Their closure columns reduce into the same high
 source problem:
 
 ```math
-H^1\text{ blow-up impossible}
+H^s,\ s>5/2,\text{ blow-up impossible in the selected norm}
 \Longleftarrow
 \text{high-tail/source packet impossible}
 \Longleftarrow
@@ -253,7 +253,7 @@ The remaining actual proof targets are:
 
 ```math
 \boxed{
-\text{Row 5: prove the full non-low source/commutator packet gives legal }R_N
+\text{Row 5: prove the full non-low source/commutator packet gives legal }R_{N,s}
 \text{ in }(5).
 }
 ```
