@@ -158,7 +158,7 @@ source_sections:
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
-    Pack/Part/Field payment & native CM role until the same packet is cleanly typed\\
+    Pack/Part/Field landing & native CM role until the same packet is cleanly typed\\
     Smooth-side comparison & support for intuition or boundary comparison &
     smooth-side support for comparison\\
     \end{tabular}
@@ -325,7 +325,7 @@ source_sections:
     The Duhamel split removes the initial heat tail and the fixed compact-core far-field source.  The remaining exterior nonlinear source either vanishes in \(H^s\) or survives.  In the vanishing case, the whole-space branch has the continuation tail needed by the member-side readout.  In the surviving case, bounded exterior frequencies vanish, so the survivor is a dyadic high-frequency escape.  The preceding proposition reads that escape as Pack failure, Part failure, or Field failure on the same terminal record.  The CM embedding reads the first failed face as \(\Exit(Q;\Owork)\).  The direct positive exterior \(H^s\) theorem remains a stronger gold/export theorem.
     \end{proof}
 
-    This is the whole-space payment used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger direct route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
+    This is the whole-space branch result used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger direct route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
   truncated: false
 support_refs:
 - path: problems/navier-stokes/current-route-dependency-graph.yaml
@@ -600,7 +600,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -617,7 +617,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -736,7 +736,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/ns-proof-program-route-table.yaml
@@ -1058,17 +1058,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *1
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -1092,6 +1092,6 @@ mechanical_verifier:
   math_reader_critic_required:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   must_emit: ready author pack with replace_section rewrites, not notes or reports

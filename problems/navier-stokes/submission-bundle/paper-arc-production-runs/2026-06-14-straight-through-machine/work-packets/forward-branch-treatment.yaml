@@ -12,7 +12,7 @@ arc:
   title: Forward-positive branch treatment
   priority: 9
   status: ready_for_author_packet
-  production_role: integrate forward-positive branch work only as written proof payment,
+  production_role: integrate forward-positive branch work only as written proof argument,
     obstruction record, support, obsolete material, contradiction, or explicit open
     continuation
   author_job: write the forward-positive branches as paid proof, obstruction, support,
@@ -164,114 +164,114 @@ production_machine_contract:
   first_draft_boundary: the first draft exists only when every current repo proof
     thread has a home on the page as proof, support, obstruction, obsolete material,
     contradiction, or open continuation
-source_payment_table:
+source_argument_table:
 - spine_id: how-forward-branches-enter-the-proof
   section_title: How Forward Branches Enter the Proof
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1111
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: &1
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
 - spine_id: which-branches-still-matter
   section_title: Which Branches Still Matter
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1250
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: the-support-boundary
   section_title: The Support Boundary
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1299
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: branch-coverage-in-the-main-proof
   section_title: Branch Coverage in the Main Proof
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1466
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: how-auxiliary-estimates-enter
   section_title: How Auxiliary Estimates Enter
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1623
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: how-to-read-the-appendices
   section_title: How to Read the Appendices
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1642
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: branch-to-face-derivation-patterns
   section_title: Branch-to-Face Derivation Patterns
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1652
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: how-branch-families-pay-the-cm-proof
   section_title: How Branch Families Pay the CM Proof
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: energy-enstrophy-and-source-reserves
   section_title: Energy, Enstrophy, and Source Reserves
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: kernelized-lifted-band-branch
   section_title: Kernelized Lifted-Band Branch
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: lower-prefix-and-upper-tail-survivors
   section_title: Lower-Prefix and Upper-Tail Survivors
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: direct-closure-and-the-four-body-diagnostic
   section_title: Direct Closure and the Four-Body Diagnostic
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: derivative-recovery-on-the-same-surface
   section_title: Derivative Recovery on the Same Surface
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: scale-barriers-and-high-frequency-tails
   section_title: Scale Barriers and High-Frequency Tails
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: shell-gain-and-half-derivative-branch
   section_title: Shell Gain and Half-Derivative Branch
   source_ref: problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: how-forward-support-enters-the-proof
   section_title: How Forward Support Enters the Proof
   source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: how-branch-families-pay-the-proof
   section_title: How Branch Families Pay the Proof
   source_ref: problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 context_home_table:
@@ -288,7 +288,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -307,7 +307,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -326,7 +326,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -345,7 +345,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -364,7 +364,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -383,7 +383,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -402,7 +402,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -420,7 +420,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -438,7 +438,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -456,7 +456,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -475,7 +475,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -494,7 +494,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -513,7 +513,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -532,7 +532,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -551,7 +551,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -571,7 +571,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -591,7 +591,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -611,7 +611,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -631,7 +631,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -651,7 +651,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -671,7 +671,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -691,7 +691,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -711,7 +711,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -731,7 +731,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -751,7 +751,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -771,7 +771,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -791,7 +791,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -811,7 +811,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -831,7 +831,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -851,7 +851,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -871,7 +871,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -891,7 +891,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -911,7 +911,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -931,7 +931,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -951,7 +951,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -971,7 +971,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -991,7 +991,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1011,7 +1011,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1031,7 +1031,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1156,7 +1156,7 @@ source_sections:
     \textbf{Branch family} & \textbf{Object it can select} & \textbf{Proof role in this manuscript}\\
     \hline
     Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
-    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field payment\\
+    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
     Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Pack, Part, Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
     Square reserve and native trilinear control & selected square-source reserve & auxiliary until the reserve lands in first-face order\\
@@ -1280,9 +1280,9 @@ source_sections:
 
     The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  Each appendix entry receives a limited proof status: it either supplies a Pack, Part, Field, or member-side readout payment for a selected terminal record, or it remains support, obstruction evidence, obsolete direct work, or a scope boundary.
 
-    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face payment or readout payment.
+    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face landing or readout payment.
 
-    The main-body theorem is the same-solution CM dichotomy together with the named surface payments.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Pack, Part, or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
+    The main-body theorem is the same-solution CM dichotomy together with the named surface landings.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Pack, Part, or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
 
     \begingroup
     \sloppy
@@ -1377,7 +1377,7 @@ source_sections:
     \text{Field failure} &
       \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
     \text{support} &
-      \text{a real estimate whose selected record or face payment is still unwritten.}
+      \text{a real estimate whose selected record or face landing is still unwritten.}
     \end{array}
     \]
     This is the bookkeeping the reader needs.  A forward argument may pay a source term, rule out a donor refill, locate a terminal atom, or sharpen an endpoint readout.  It becomes proof text only at the line where it names \(Q\), names the class data carried by \(Q\), and pays one of the outcomes above.
@@ -1394,7 +1394,7 @@ source_sections:
     Compactness & Extract a terminal object from the preterminal branch & Detached or under-controlled terminal limit & Admits a candidate \(Q\) only when it remains attached to the same solution record\\
     Recovery/surface fidelity & Convert terminal control into continuation & Recovery available on the wrong surface or wrong object & Supplies member readout on the same object; otherwise leaves a face failure or support boundary\\
     Lower-prefix/upper-tail & Collapse split survivor families & Split terminal family & Tests each surviving family as its own same-solution witness\\
-    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face payment or readout payment\\
+    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face landing or readout payment\\
     Shell gain/half derivative & Use active-window smallness to pay lower strain & Active-window coefficient gap & Tests Field coherence after Pack and Part have survived on the selected record\\
     Annular-limit witness & Control the residual scale-critical load on shrinking positive-radius annuli & Terminal residual pulse surrounding a radius-zero endpoint & Gold seeks direct annular control; silver classifies the admitted pulse by Part or Field\\
     \hline
@@ -2362,7 +2362,7 @@ source_sections:
     If this were available, the active shell could absorb the lower-prefix forcing
     into viscosity.
 
-    The branch is plausible because energy gives time-integrated control. A terminal
+    The branch stays alive at this step because energy gives time-integrated control. A terminal
     cascade has to concentrate in time as well as scale. One hopes that the bad shell
     cannot see enough lower-frequency strain for long enough to maintain a breakdown
     channel. This turns the branch from a static dyadic estimate into a time-window
@@ -2563,7 +2563,7 @@ support_refs:
   - obstruction
   - gold
   excerpt: |-
-    The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space payments are written, while the annular endpoint still needs gold control or a silver first-face landing.
+    The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space branch results are written, while the annular endpoint still needs gold control or a silver first-face landing.
 
     Targeted verification:
 - path: problems/navier-stokes/submission-bundle/ns-pdf-proof-unit-completion-strategy-20260612.yaml
@@ -2699,7 +2699,7 @@ support_refs:
   - gold
   excerpt: |-
     source_authority:
-        - problems/navier-stokes/docs/Samples/pulling teeth/pulling-teeth-transcript.pdf
+        - problems/navier-stokes/submission-bundle/authoring/lab/transcripts/pulling-teeth/pulling-teeth-transcript.pdf
         - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
         - problems/navier-stokes/theorem-construction/mpp-cone-payment-closure-package-20260611.md
         - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
@@ -2748,7 +2748,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -2765,7 +2765,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -2912,7 +2912,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/auto-audit.yaml
@@ -3129,7 +3129,7 @@ context_domain_refs:
     - obstruction
     - gold
     excerpt: |-
-      The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space payments are written, while the annular endpoint still needs gold control or a silver first-face landing.
+      The batch rewrote three active source sections in `navier-stokes-submission.tex`: `Reframing the Problem`, `Generally Classifying Failure Types From the List`, and `Silver Standard Approach`.  The new handoff tells the reader that a failed forward-positive estimate is not yet a class-exit proof.  It becomes silver material only after the manuscript selects the same-solution terminal record and then lands the first failed Pack, Part, or Field face.  The silver section now states the current certification boundary directly: the periodic and whole-space branch results are written, while the annular endpoint still needs gold control or a silver first-face landing.
 
       Targeted verification:
   - path: problems/navier-stokes/submission-bundle/pdf-rebuild-branch-section-workplan-20260530.md
@@ -3189,17 +3189,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *2
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -3228,7 +3228,7 @@ math_reader_critic_contract:
   must_answer:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   acceptable_repair_decisions:
   - passes after repair

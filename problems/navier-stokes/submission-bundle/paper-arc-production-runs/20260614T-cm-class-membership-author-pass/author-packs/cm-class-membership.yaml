@@ -15,15 +15,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:483
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must keep silver as class-membership testing on a selected same-solution record, not as a positive smoothness estimate.  The source now states that the record either keeps the class data or loses a first requirement."
     reader_thread_attack: "The pass/fail display is preceded by ordinary language explaining what the record is and what the route asks of it."
-    unpaid_derivation_attack: "The section is route grammar, and it pays that grammar by displaying Member, Exit, and the Pack-first face losses."
+    open_derivation_attack: "The section is route grammar, and it pays that grammar by displaying Member, Exit, and the Pack-first face losses."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -36,15 +36,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:510
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must define Member(Q;Owork) as the class-membership predicate and Exit(Q;Owork) as its negation, while keeping Pack, Part, and Field as witness faces."
     reader_thread_attack: "The text gives the fixed equation data before the predicate, then explains why support objects need reattachment to the selected record."
-    unpaid_derivation_attack: "The participation tower is displayed from the differentiated Navier-Stokes law, with K_k and B_k named as the pressure-viscosity term and commutator term."
+    open_derivation_attack: "The participation tower is displayed from the differentiated Navier-Stokes law, with K_k and B_k named as the pressure-viscosity term and commutator term."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -57,15 +57,15 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:593
   - problems/navier-stokes/submission-bundle/source-frontier.yaml
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The section must keep the witness record fixed while reading Part and Field.  It states the witness record and then defines the participation and one-field laws on that record."
     reader_thread_attack: "The reader sees every component of the witness record before the formal definitions appear."
-    unpaid_derivation_attack: "The finite-difference field bound and participation law are displayed as the local certificate objects."
+    open_derivation_attack: "The finite-difference field bound and participation law are displayed as the local certificate objects."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -77,15 +77,15 @@ source_rewrites:
   replacement: ''
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-cm-exit-method.tex:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The rebuilt method file must support the same pass-or-exit grammar as the rendered CM section."
     reader_thread_attack: "The file keeps CM as a class-membership test on a selected same-solution record."
-    unpaid_derivation_attack: "The source records method support; rendered proof payment is carried by the main TeX CM sections."
+    open_derivation_attack: "The source records method support; rendered proof argument is carried by the main TeX CM sections."
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -98,14 +98,14 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:6
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: "The appendix obligations must remain support unless the main text selects a terminal record and pays the witness face."
     reader_thread_attack: "The appendix groups obligations that the main text later consumes through Member, Pack, Part, Field, or Exit."
-    unpaid_derivation_attack: "This appendix surface records obligations and does not itself claim final closure."
+    open_derivation_attack: "This appendix surface records obligations and does not itself claim final closure."
     repair_decision: passes after repair
     unresolved_failures: []
 author_contract:
@@ -120,16 +120,16 @@ author_contract:
   must_criticize:
   - attack the replacement's strongest claim and state how the replacement now pays or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid on the page
+  - name any derivation jump that remains open, or state why the derivation is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - "(Member|class membership)"
   - participation
   - "(CM|contrapositive)"
-  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof payment, endpoint status, or a sourced exclusion
+  source_material_rule: every repo note, section, obstruction, and support item in the packet must be turned into prose, proof argument, endpoint status, or a sourced exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section build

@@ -13,7 +13,7 @@ arc:
   priority: 12
   status: ready_for_author_packet
   production_role: turn raw appendix/source-field material into readable main-paper
-    support, proof payment, obsolete status, contradiction, or open continuation
+    support, proof argument, obsolete status, contradiction, or open continuation
   author_job: convert raw proof-attempt appendix material into readable paper text
     or explicit support/open status
   support_keywords:
@@ -67,17 +67,17 @@ production_machine_contract:
   first_draft_boundary: the first draft exists only when every current repo proof
     thread has a home on the page as proof, support, obstruction, obsolete material,
     contradiction, or open continuation
-source_payment_table:
+source_argument_table:
 - spine_id: direct-routes-that-did-not-close
   section_title: Direct Routes That Did Not Close
   source_ref: problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -96,7 +96,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -115,7 +115,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -135,7 +135,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -155,7 +155,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -174,7 +174,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -192,7 +192,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -210,7 +210,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -228,7 +228,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -246,7 +246,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -265,7 +265,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -284,7 +284,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -303,7 +303,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -322,7 +322,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -341,7 +341,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -361,7 +361,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -381,7 +381,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -401,7 +401,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -422,7 +422,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -443,7 +443,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -463,7 +463,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -485,7 +485,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -506,7 +506,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -527,7 +527,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -547,7 +547,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -567,7 +567,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -587,7 +587,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -608,7 +608,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -628,7 +628,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -648,7 +648,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -668,7 +668,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -688,7 +688,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -708,7 +708,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -728,7 +728,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -748,7 +748,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -768,7 +768,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -789,7 +789,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -810,7 +810,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -830,7 +830,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -850,7 +850,7 @@ context_home_table:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -875,7 +875,7 @@ source_sections:
     smoothness-control program first became a concrete circuit:
     control the high scales, control energy and enstrophy, use those controls to
     produce an exact object, and recover derivative control on that object.
-    Every later branch below is a refinement of one of those payments.
+    Every later branch below is a refinement of one of those arguments.
 
     Each route is written in the same reader-facing order.  First it states the
     payment the route tried to make.  Then it shows the calculation that made the
@@ -890,7 +890,7 @@ source_sections:
     tested by that grammar.
 
     For that reason every route below has five obligations:
-    the attempted payment, the calculation that made the route plausible, the exact
+    the attempted payment, the calculation that was supposed to carry the route, the exact
     mathematical stopping point, the surviving residue, and the later CM role.
     Those obligations are the admission rule for this appendix.  A route belongs
     here when it helps the reader identify a terminal object, a member-side readout,
@@ -959,7 +959,7 @@ source_sections:
     The attempted payment is a loop:
     tail control gives \(Q(t)\) control, those controls give compactness, compactness
     gives an exact object, and derivative recovery returns to tail control.
-    The calculation is plausible because each body is a real mathematical tool:
+    The route uses four real mathematical tools:
     viscous high-frequency damping, the energy identity, compactness of controlled
     approximations, and derivative recovery on a geometric carrier.
     The stopping point is circular debt.
@@ -1179,7 +1179,7 @@ source_sections:
     The stopping point is that none is installed unconditionally from the original
     data.
     The residue is the reduced source-wall obstruction list.
-    Its CM role is honesty: these are supplier doors, not completed proof payments.
+    Its CM role is honesty: these are supplier doors, not completed proof arguments.
 
     \item \textbf{Source reserve birth.}
     The attempted payment is charging first-created donor-square reserve to legal,
@@ -1432,7 +1432,7 @@ source_sections:
     class face.
 
     \paragraph{Compactness.}
-    The compactness body tried to turn approximate control into an exact solution
+    The compactness body tried to turn control of approximating packets into an exact solution
     object.
     The route is mathematically honest.
     Split an approximating sequence into low and high frequencies.
@@ -1476,7 +1476,7 @@ source_sections:
     Navier--Stokes geometry: deformation-gradient control, commutator drain, or
     another same-surface mechanism.
     Until that theorem exists, the curvature branch is support and motivation, not
-    a proof payment.
+    a proof argument.
 
     \paragraph{Modernized four-body packet.}
     The modern packet keeps the four old jobs and replaces their vague names by
@@ -1667,7 +1667,7 @@ source_sections:
     The survivor is a zero-thickness native source residue.
     This is exactly the kind of object that makes honesty essential.
     Calling it impossible would import the missing anti-atom theorem.
-    Calling it an exit immediately would skip the CM face test.
+    Calling it an exit before the CM face test would skip the CM face test.
     The paper must instead say what the object is, why the positive deletion route
     stopped there, and how CM tests it as zero-radius Pack/Part support after
     terminal admission.
@@ -2375,7 +2375,7 @@ source_sections:
     For each branch the page itself has to answer five questions without sending
     the reader back to a repository surface.
     What did the positive proof try to buy?
-    Which calculation made that purchase plausible?
+    Which calculation was supposed to pay for that purchase?
     Where did the calculation stop?
     What residue survived the stopping point?
     What is the residue's exact role in the Pack, Part, Field grammar?
@@ -2435,7 +2435,7 @@ source_sections:
     It said the opposite: there was too much material, at too many proof levels.
     Some texts were theorem attempts.
     Some were manuscript wrappers.
-    Some were heuristic explanations.
+    Some were informal explanations.
     Some were generated summaries of older work.
     The live question so became a ranking question:
     \[
@@ -2881,7 +2881,7 @@ source_sections:
       \begin{aligned}
       &\text{positive attempted payment}\\
       &\Longrightarrow
-      \text{calculation that made the payment plausible}\\
+      \text{calculation that was supposed to carry the payment}\\
       &\Longrightarrow
       \text{exact stopping point}\\
       &\Longrightarrow
@@ -2952,7 +2952,7 @@ source_sections:
       <\infty .
     \]
     This is why the route looked like a proof.
-    It turns the intuitive sentence ``viscosity wins at small scales'' into an
+    It turns the informal sentence ``viscosity wins at small scales'' into an
     actual summability condition.
     The exact point of failure is the transfer law.
     The energy identity pays \(\int\|\nabla u\|_2^2\) in time.
@@ -3107,7 +3107,7 @@ support_refs:
   excerpt: |-
     The May 25 source-reserve burst was the stress test of that turn. The direct
     positive attempt found the same-ledger signed-pair / zero-moment visibility
-    problem. Under the old habit, that would immediately become "the next theorem to
+    problem. Under the old habit, that would be promoted to "the next theorem to
     prove." Under the CM reading, it had to pass a different test:
 - path: problems/navier-stokes/submission-bundle/ns-active-completion-pdf-criticism-20260608.yaml
   matched_keywords:
@@ -3238,7 +3238,7 @@ context_packer_contract:
     role: current route authority, gold/silver status, and proof-state constraints
   - domain_id: theorem_notes
     name: theorem notes and construction records
-    role: derivations, failed routes, proof payments, obstructions, and exact source
+    role: derivations, failed routes, proof arguments, obstructions, and exact source
       references
   - domain_id: brain_app_node_material
     name: brain/app/node and graph material
@@ -3255,7 +3255,7 @@ context_packer_contract:
   selection_rule: include source material that can change this arc's TeX; exclude
     or quarantine anything that cannot pay a line on the page
   missing_material_rule: when a domain has no matching source, the author must say
-    whether the arc is already paid, obsolete, or still missing a cited source
+    whether the arc is already supplied, obsolete, or still missing a cited source
   handoff_rule: math notes enter only as TeX-ready derivation, exact obstruction,
     endpoint status, or CM counterpart for this arc
 context_domain_refs:
@@ -3336,7 +3336,7 @@ context_domain_refs:
   ref_count: 6
 - domain_id: theorem_notes
   name: theorem notes and construction records
-  role: derivations, failed routes, proof payments, obstructions, and exact source
+  role: derivations, failed routes, proof arguments, obstructions, and exact source
     references
   refs:
   - path: problems/navier-stokes/cm-branch-family-certificate-ledger-20260526.yaml
@@ -3443,7 +3443,7 @@ context_domain_refs:
     excerpt: |-
       The May 25 source-reserve burst was the stress test of that turn. The direct
       positive attempt found the same-ledger signed-pair / zero-moment visibility
-      problem. Under the old habit, that would immediately become "the next theorem to
+      problem. Under the old habit, that would be promoted to "the next theorem to
       prove." Under the CM reading, it had to pass a different test:
   - path: problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
     matched_keywords:
@@ -3554,7 +3554,7 @@ context_domain_refs:
     excerpt: |-
       - Treat "explain simply", "simpler please", "plainly", "plain English", "ordinary language", "tldr", and close variants as representation-debt flags, not cosmetic shortening requests. Recover the plain live object, its job, the actual blockage, and the next move before labels, notation, or receipts; repeated occurrences must be mined into durable profile/behavior updates.
       - Before answering a high-friction or behavior-repair turn, infer what Thomas is trying to see and answer from that thought-shape. A reply that sounds like a memo, taxonomy, compliance receipt, or assistant process note must be compressed before sending.
-      - For MPP PDF quality failures, treat the PDF as one reader-facing proof artifact before local prose work. Judge the opening promise, reader route, proof payments, theorem closure, teaching burden, and fragmentation/bluff risk first; local edits such as H^s wording, opening-page prose, appendix labels, build gates, or status sync only count when they serve that whole argument.
+      - For MPP PDF quality failures, treat the PDF as one reader-facing proof artifact before local prose work. Judge the opening promise, reader route, proof arguments, theorem closure, teaching burden, and fragmentation/bluff risk first; local edits such as H^s wording, opening-page prose, appendix labels, build gates, or status sync only count when they serve that whole argument.
       - Criticism-inventory custody rule: a PDF criticism list is evidence for the next writing pass, not a Codex-owned work order. Do not promote criticisms into broad targets such as rewrite the opening, demote hinges, quarantine appendices, replace the proof grammar, separate branches, or impose a new spine unless each action is licensed by exact page evidence and Thomas's stated paper intent. Vague spans such as `the opening` are forbidden unless the exact object is named: title page, abstract, introduction, section opening, paragraph, sentence, or displayed formula. Choice verbs such as `resolve or demote` are forbidden when Codex has not identified the correct object and why. The default treatment of appendix material is expansion and mathematical payment into the MPP proof, not quarantine, deletion, or demotion; any structural reduction requires explicit user authorization or exact manuscript evidence that the material is outside the intended paper. Choose the next edit from a concrete page defect, preserve the working proof shape already on the page, and make the smallest honest improvement that helps the PDF carry the proof. Removing machinery voice is a safe target when it preserves the math and reader route.
   - path: problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
     matched_keywords:
@@ -3627,17 +3627,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *1
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -3666,7 +3666,7 @@ math_reader_critic_contract:
   must_answer:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   acceptable_repair_decisions:
   - passes after repair
