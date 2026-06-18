@@ -163,10 +163,10 @@ N_G(s)
 <= C(lambda,nu) int_{B_lambda} ( |v|^3 + |q||v| ) dy.
 ```
 
-This is controlled by the same scale-critical cone currency that
-`ParabolicFunnelScaleCriticalBudget.A` is trying to prove. So the weighted
-identity does not remove the discount by itself; it restates the missing
-control as a weighted nonlinear-pressure production estimate.
+This is precisely the nonlinear-pressure charge that
+`ParabolicFunnelScaleCriticalBudget.A` must bound. So the weighted identity does
+not remove the discount by itself; it restates the missing control as a
+weighted nonlinear-pressure production estimate.
 
 ## 5. Result
 

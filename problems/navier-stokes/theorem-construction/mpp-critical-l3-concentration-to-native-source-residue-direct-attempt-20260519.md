@@ -63,8 +63,7 @@ earlier selected slice. That earlier selected slice is excluded by the retained
 terminal construction.
 
 So the critical mass must be carried by the Duhamel source term. Dyadically,
-this source term is the same scale-critical active source carrier used by the
-source-wall route:
+this is the active source carrier used by the source-wall route:
 
 ```math
 |w_j|^2[e_j\cdot S^{loc}_{<j}e_j]_+

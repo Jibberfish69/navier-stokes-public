@@ -194,8 +194,7 @@ ActiveSquareCarleson.A
 SourcePulseExclusion.A
 ```
 
-all collapse to the same scale-critical tree/source-pulse carrier after edge
-disintegration.
+all require control of the tree/source-pulse carrier after edge disintegration.
 
 ```text
 ActiveSquareResidualTail.A
