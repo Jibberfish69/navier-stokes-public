@@ -205,9 +205,7 @@ C_\varepsilon\|X\|,
 ```text
 \|\Omega_D(X)\|
 \le
-\varepsilon\|\Delta_D^{1/2}\Omega_D(X)\|
-+
-C_\varepsilon\|X\|,
+\mathcal E_D(X)^{1/2},
 ```
 
 and
@@ -218,9 +216,40 @@ and
 
 ### Proof
 
-Use standard graph-norm interpolation on `D(\Delta_D)` and
-`D(\Delta_D^{1/2})`, then coercive control of `\|X\|` by the projected-energy
-graph norm on the physical sector. `\square`
+Assume `\Delta_D` is the positive self-adjoint projected Laplacian on the
+physical sector and that this sector has the projected Poincare/coercivity
+bound
+
+```text
+\|X\|^2 \le C_P\|\Delta_D^{1/2}X\|^2
+\le C_P\mathcal E_D(X).
+```
+
+The spectral theorem gives
+
+```text
+\|\Delta_D^{1/2}X\|^2
+=
+\langle X,\Delta_DX\rangle
+\le
+\|X\|\,\|\Delta_DX\|.
+```
+
+Young's inequality then gives, for any `\varepsilon>0`,
+
+```text
+\|\Delta_D^{1/2}X\|
+\le
+\varepsilon\|\Delta_DX\|
++
+C_\varepsilon\|X\|.
+```
+
+The fixed carrier graph norm gives
+`\|\nabla_DX\|\le C_D\|\Delta_D^{1/2}X\|`; the displayed interpolation bound for
+`\nabla_DX` follows after changing constants. The bound for `\Omega_D(X)` is
+the corresponding term in `\mathcal E_D(X)`, and the final inequality is the
+projected Poincare/coercivity hypothesis above. `\square`
 
 ### Corollary 3
 
