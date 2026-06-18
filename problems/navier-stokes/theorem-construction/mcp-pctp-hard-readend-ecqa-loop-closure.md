@@ -1,16 +1,20 @@
 # PCTP.hard READ.END / ECQ.A Loop Closure
 
-Status: local theorem-loop discharge claimed for the periodic terminal branch.
+Status: conditional readout/continuation bridge.  The previous loop-discharge
+claim is not valid as an unconditional `OriginalSmoothData => PCTP.hard`
+statement.
 
 ## Target
 
-Promote terminal-tail production through the readout layer and the continuation bridge:
+Promote supplied terminal-tail production inputs through the readout layer and
+the continuation bridge:
 
 ```math
-OriginalSmoothData\Longrightarrow PCTP.hard\Longrightarrow T_*=\infty.
+SCFBaseLocalModulus_N+TGC.A+AACT.Global.noJump+SRC.Final+AVG.END.Cert
+\Longrightarrow PCTP.hard\Longrightarrow T_*=\infty.
 ```
 
-## Inputs closed in this loop
+## Inputs consumed in this bridge
 
 The bridge-license audit into the class-membership object is persisted at
 
@@ -38,10 +42,10 @@ problems/navier-stokes/theorem-construction/mcp-pressure-source-srcfinal-loop-cl
 
 ## Averaged production to averaged endpoint
 
-The production chain is
+The conditional production chain is
 
 ```math
-TGC.A+AACT.Global.noJump+SRC.Final
+SCFBaseLocalModulus_N+TGC.A+AACT.Global.noJump+SRC.Final
 \Longrightarrow
 DTC.A_{avg}.
 ```
@@ -77,7 +81,8 @@ End_{NS,avg}\Longrightarrow READ.COVER
 The canonical bridge is therefore
 
 ```math
-TGC.A+AACT.Global.noJump+AVG.END.A+READ.END\Longrightarrow PCTP.hard.
+SCFBaseLocalModulus_N+TGC.A+AACT.Global.noJump+AVG.END.A+READ.END
+\Longrightarrow PCTP.hard.
 ```
 
 ## Continuation
@@ -112,10 +117,16 @@ T_*=\infty.
 
 ## Loop decision
 
-The remaining loop target is closed on the periodic terminal branch:
+The readout/continuation bridge is closed only conditionally:
 
 ```math
-\boxed{OriginalSmoothData\Longrightarrow PCTP.hard\Longrightarrow T_*=\infty.}
+\boxed{
+SCFBaseLocalModulus_N+TGC.A+AACT.Global.noJump+SRC.Final+AVG.END.Cert+READ.END
+\Longrightarrow PCTP.hard\Longrightarrow T_*=\infty.
+}
 ```
 
-This artifact closes the local theorem-work inventory from the CM bridge-license audit through `READ.END` and `ECQ.A`.
+This artifact does not close the original-data production theorem.  The missing
+upstream step remains the noncircular production of the terminal-tail inputs from
+`OriginalSmoothData`, including the same-tail modulus / Field-admission input,
+without using the endpoint readout layer as an upstream supplier.
