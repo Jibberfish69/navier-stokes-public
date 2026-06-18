@@ -104,7 +104,7 @@ It means the first nontrivial line of a branch cannot be something like
 \tag{CFR.4}
 ```
 
-unless the note immediately says which of those are:
+unless the note says right there which of those are:
 
 1. forced by packing/participation/one-field import;
 2. still-open export theorems from the class-membership carrier;

@@ -8,7 +8,7 @@ This note tests the compactness route: assume the no-pulse theorem fails,
 rescale the active heat-scale pulses, and try to exclude the limiting critical
 object.
 
-The compactness extraction is route-plausible.  The exclusion is not installed.
+The compactness extraction is route-compatible.  The exclusion is not installed.
 The remaining theorem becomes a Liouville/depletion statement for the critical
 pulse profile.
 
@@ -66,12 +66,15 @@ On fixed backward cylinders, the Navier-Stokes equations are invariant:
 ```
 
 The active normalization gives a nonzero critical packet in the rescaled
-sequence.  The energy inequality supplies local suitable bounds of the
-standard CKN type on bounded cylinders, after passing to the same-fluid/moving
-coordinate chart with bounded distortion.
+sequence.  The compactness step would require the following uniform bounds on
+each bounded pulled-back cylinder: local \(L^\infty_sL^2_x\) velocity control,
+local \(L^2_s\dot H^1_x\) dissipation control, local \(L^{3/2}_{s,x}\) pressure
+control, and the local energy inequality in the same-fluid/moving coordinates,
+with constants depending only on the bounded distortion class.
 
-Thus a subsequence can be expected to converge, in the usual local suitable
-weak sense, to a nontrivial ancient or backward-eternal local suitable object
+Only after those bounds and the nonzero packet localization are proved can one
+extract a subsequence converging in the local suitable weak sense to a
+nontrivial ancient or backward-eternal local suitable object
 
 ```math
 (v_\ast,q_\ast)
@@ -128,7 +131,7 @@ axisymmetric,
 small in a critical norm.
 ```
 
-Without one of those extra structural hypotheses, standard compactness only
+Without one of those extra structural hypotheses, local suitable compactness only
 turns failure of no-pulse into a nontrivial ancient critical object.  It does
 not make that object impossible.
 
@@ -229,5 +232,5 @@ LocalSource.NoPulse.A.
 This is a stricter dependency list than the original `Ancient.NoPulse` target:
 ancient rigidity is only useful after `DiagDom.A` preserves physical
 co-location and source residue through localization.  `LocalSource.NoPulse.A`
-is the direct pre-Cauchy source theorem and would close the no-pulse atom
-without passing through ancient compactness.
+closes the no-pulse atom only if it proves zero retained source residue on the
+selected pre-Cauchy packet family, without passing through ancient compactness.

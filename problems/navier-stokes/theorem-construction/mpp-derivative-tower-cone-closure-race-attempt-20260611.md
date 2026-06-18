@@ -107,12 +107,15 @@ S_q(r(t),t)\to0
 
 on late terminal heat slabs.
 
-If the packet stayed critical on infinitely many heat slabs with positive
-normalized thickness, this integral would diverge.
+If the packet stayed critical on a disjoint or bounded-overlap family of
+infinitely many heat slabs with positive normalized thickness, this integral
+would diverge. Without that charging/separation condition, this is only the
+per-slab criterion.
 
 ## What The Tower Proves
 
-The tower proves that a real localized critical profile has a shape bill.
+The tower proves exact lower bounds for localized contrast and non-affine
+defect.
 
 A pure through-flow is not enough.  It can have positive inward wall rate while
 carrying no derivative-tower cost inside the receiver.
@@ -141,9 +144,11 @@ then Poincare gives a constant `c_P>0`:
 c_P\,{a0\nu^2\over r}.
 ```
 
-So retained localized critical feed forces first tower cost.
+So `A_r(t)>=a0` gives the displayed slice lower bound for
+`\int_{B_r}|\nabla u|^2`. This is not a time-integrated feed theorem until a
+time-set or receiver-accounting hypothesis is supplied.
 
-If the first derivative profile is non-affine, define:
+If the first derivative field is non-affine, define:
 
 ```math
 B_r(t)
@@ -170,10 +175,11 @@ c_{P,2}\,\theta\,b0\,{\nu^2\over r}.
 
 The constant depends only on the local chart and Poincare constants; the
 positive fraction of the slab is `\theta`.  This lower bound is not summable
-down dyadic scales.  Hence a persistent non-affine critical cone profile
-cannot be paid by any finite second-derivative tower budget.
+down dyadic scales only after the charged slabs are selected disjointly or with
+bounded overlap. Hence a scale-charged persistent non-affine critical cone
+branch cannot be paid by any finite second-derivative tower budget.
 
-If the profile is affine in the core, the cost moves into the collar only
+If the branch is affine in the core, the cost moves into the collar only
 after a separate affine-collar mismatch hypothesis is proved.  The exact
 critical affine-core hypothesis is:
 
@@ -202,7 +208,9 @@ The exact split is:
 
 ```text
 through-flow: not retained packet load;
-localized non-affine packet: non-summable local tower bill under B_r>=b0;
+localized non-affine packet: per-scale tower bill under B_r>=b0 on a positive
+  heat-time subset; non-summable only after scale-separated or bounded-overlap
+  charging;
 localized affine packet: parent-collar bill only after affine-collar mismatch is proved.
 ```
 
@@ -231,7 +239,19 @@ The enstrophy identity is:
 \int(\omega\cdot\nabla u)\cdot\omega\,dx.
 ```
 
-The right-hand side is vortex stretching.  Its standard bound gives:
+The right-hand side is vortex stretching.  Sobolev, Gagliardo--Nirenberg, and
+Young give:
+
+```math
+\left|\int(\omega\cdot\nabla u)\cdot\omega\,dx\right|
+\le
+C\|\nabla u\|_2^{3/2}\|\nabla\omega\|_2^{3/2}
+\le
+{\nu\over2}\|\nabla\omega\|_2^2
+C\nu^{-3}\|\nabla u\|_2^6.
+```
+
+Therefore
 
 ```math
 Y'(t)\le C\nu^{-3}Y(t)^3,
@@ -303,9 +323,10 @@ Thus:
 \sum_j{\nu^2\over r_j}=\infty.
 ```
 
-The derivative tower catches the cascade, but only if a finite higher-tower
-budget is available.  Since the standard equations provide vortex stretching
-as the high-tower source, that finite budget is exactly the unsolved part.
+The derivative tower catches a scale-charged non-affine cascade, but only if a
+finite higher-tower budget and the scale-charging ledger are available. Since
+the standard equations provide vortex stretching as the high-tower source, that
+finite budget is exactly part of the unsolved work.
 
 ## Full-Tower Generating Functional Test
 
@@ -355,7 +376,7 @@ itself.
 
 ## Exact Closure Theorem Still Needed
 
-The derivative-tower cone problem is now closed to a precise theorem.
+The derivative-tower cone problem is now reduced to precise theorem options.
 
 A proof must supply one of the following strict mechanisms:
 
@@ -399,7 +420,7 @@ or:
 \boxed{
 \text{RigidCriticalConeProfileLiouville.A:}
 \quad
-\text{every critical profile saturating the tower balance is a removable
+\text{every exact rescaled critical branch saturating the tower balance is a removable
 through-flow/affine mode or violates finite-energy same-fluid compatibility.}
 }
 ```
@@ -407,7 +428,8 @@ through-flow/affine mode or violates finite-energy same-fluid compatibility.}
 ## Verdict
 
 The derivative tower honors the main mathematical content of the cone idea:
-base energy can hide, but real retained shape cannot hide.
+base energy can hide, but a scale-charged non-affine branch cannot hide from
+the displayed tower bill.
 
 It does not close Navier-Stokes on its own.  It reduces the problem to the
 critical tower equality case where transport and viscosity balance.  Closing

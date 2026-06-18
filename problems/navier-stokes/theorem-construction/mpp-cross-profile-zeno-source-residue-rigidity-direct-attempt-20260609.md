@@ -99,8 +99,7 @@ can vanish under tests while the native positive active source-residue measure
 remains nonzero. The target residue is the positive measure selected by the
 source-pulse branch, not only a signed distributional source.
 
-Strong native cancellation would imply the desired conclusion, but producing it
-would already contradict the extracted lower bound
+Strong native cancellation is the desired conclusion in positive-measure form. Producing it gives \(\mu_\ast^{src}=0\), contradicting the extracted lower bound
 
 ```math
 \mu_\ast^{src}(Q_1^-)\ge c_0.

@@ -220,7 +220,7 @@ rho0 > 0,
 k = (rho0/2)|u|^2.
 ```
 
-The algebra is immediate:
+The algebra is:
 
 ```text
 k(x0,T) < infinity
@@ -245,10 +245,10 @@ counterexample, not a Navier-Stokes solution.
 The static hiding case therefore has the dichotomy:
 
 ```text
-static profile becomes scale-critical-small on late cone slabs
+rescaled cone field becomes scale-critical-small on late cone slabs
   => CKN regularity removes the point;
 
-static profile keeps a persistent or unbounded scale-critical cone profile
+rescaled cone field keeps a persistent or unbounded scale-critical cone mass
   => finite raw energy has not hidden the point; the missing estimate is an
      undiscounted cone budget or point-density Morrey bound.
 ```
@@ -344,8 +344,9 @@ critical payment power benchmark:  omega_3 A^2 nu^3/r -> infinity
 ```
 
 This benchmark is not a theorem that every oscillatory packet fills the whole
-ball. To turn an oscillation into a lower energy bill, one must state a volume
-or profile hypothesis. For example, if a subset `G_r(t) subset B_r(x0)` has
+ball. To turn an oscillation into a lower energy bill, one must state a
+positive-measure amplitude hypothesis. For example, if a subset
+`G_r(t) subset B_r(x0)` has
 measure at least `theta omega_3 r^3` and
 
 ```text
@@ -367,7 +368,7 @@ therefore:
 the hard estimate is not "there is enough raw energy";
 the hard estimate is whether the same participating field can lawfully supply
 the benchmark payment P_bench(r;A), or the corresponding lower bound forced by
-the stated volume/profile hypothesis, into the shrinking receiver before
+the stated positive-measure amplitude hypothesis, into the shrinking receiver before
 viscosity acts on the tau_nu(r) clock.
 ```
 
@@ -398,12 +399,12 @@ bound on the positive-radius cone before passing to the tip.
 The minimum demand to reach the dangerous scale is:
 
 ```text
-Cost_crit(r;A) := omega_3 A(r)^2 nu^3/r
+Cost_crit(r;A) := omega_3 A^2 nu^3/r
 ```
 
 measured as benchmark payment rate over the viscous clock. If the packet has
 only volume fraction `theta` and lower amplitude fraction `c`, replace
-`omega_3` by `theta omega_3 c^2`.
+`omega_3 A^2` by `theta omega_3 c^2 A^2`.
 
 The moving flux theorem therefore has the exact comparison form:
 
@@ -434,7 +435,7 @@ So the flux-maximization case is closed to this sharp fork:
 ```text
 positive route:
   prove a scale-critical pressure/flux/donor/return estimate strong enough to
-  beat A(r)^2 nu^3/r on every shrinking schedule;
+  beat the explicit benchmark/superlevel payment bill on every shrinking schedule;
 
 open route:
   if that estimate cannot be proved, record the exact failed estimate and stop
@@ -498,10 +499,10 @@ If the cone claims to build the concentration by incoming payment, then the
 same-fluid boundary ledger must pay at least the critical rate
 
 ```text
-Cost_crit(r;A) = omega_3 A(r)^2 nu^3/r
+Cost_crit(r;A) = omega_3 A^2 nu^3/r
 ```
 
-over the viscous clock, with the stated volume/profile constants when the
+over the viscous clock, with the stated positive-measure amplitude constants when the
 packet does not fill the whole ball. Fixed-scale accounting is proved;
 scale-uniform exclusion is not supplied by raw energy. A successful
 forward-positive proof must supply `ScaleCriticalPaymentThrottle.A`,

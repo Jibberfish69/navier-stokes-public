@@ -51,9 +51,9 @@ finite frame, and density-stopping preservation.
 
 The installed QSP route pays the following conditional theorem.
 
-Assume the retained density-good shape measure on the active family satisfies a
+Assume the retained density-good measure on the active family satisfies a
 finite eigen-cap occupancy packet: for the QSP caps `C_{+,r}` and `C_{-,r}`,
-there is `alpha_* > 0` such that each retained shape measure gives at least
+there is `alpha_* > 0` such that each retained density-good measure gives at least
 `alpha_*` mass to every cap in the finite list. Then Corollary `QSP.B` gives
 the finite two-sided sign-separation packet `(QSP.7a)`-`(QSP.7b)`. Theorem
 `Q.A` turns that packet into the support-level quadratic richness needed by the

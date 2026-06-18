@@ -252,8 +252,10 @@ TerminalSourceCoherence.A,
 AlignmentDecorrel.A.
 ```
 
-This would kill the positive factor
-`[e\cdot S_{<j}^{loc}e]_+` on source-weighted terminal packets.
+The exact missing consumer estimate is the displayed PRD bound itself: it must
+control the source-weighted factor `[e\cdot S_{<j}^{loc}e]_+` on the same
+selected terminal packets by the drain, parent charge, or legal loss terms in
+that inequality.
 
 Or:
 

@@ -1,16 +1,16 @@
 ---
 ns_viewer:
   theorem_id: critical-base-feed-to-tower-coherence-direct-test-20260611
-  status: direct-positive-part-feed-bridge-false-retained-localized-nonaffine-bridge-proved-as-forward-positive-reduction
+  status: direct-positive-part-feed-bridge-false-localized-slice-lower-bounds-proved-nonaffine-cascade-cost-conditional-on-scale-charging
   proof_role: forward_positive_cone_feed_to_derivative_tower_bridge_test
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Tests the proposed bridge from critical base wall feed to derivative-tower cost. The positive-part boundary capacity is proved too weak by through-flow. The corrected retained-localized feed bridge is proved by Poincare/Campanato lower bounds, and the remaining forward-positive child is reduced to non-affine coherent feed or affine profile rigidity."
+  edge_effect: "Tests the proposed bridge from critical base wall feed to derivative-tower cost. The positive-part boundary capacity is proved too weak by through-flow. Poincare/Campanato prove exact localized slice lower bounds from A_r and B_r hypotheses. Turning the non-affine lower bound into a global cascade bill still requires time persistence plus a scale-separated or bounded-overlap charging ledger."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md
     - problems/navier-stokes/theorem-construction/mcp-atd_m-depth-bookkeeping-lemma-read-cover-078c26eede.md
     - problems/navier-stokes/theorem-construction/lagrangian-six-lemma-mainline.md
     - problems/navier-stokes/theorem-construction/mcp-dtc-read-kq-pressure-poisson-cover-depth.md
-  downstream_consequence: "WholeConeScaleCriticalParticipationThrottle.A is no longer a single broad energy slogan. Its derivative-tower form splits into three facts: positive-part feed alone is false; retained localized critical feed forces first derivative-tower cost; persistent non-affine feed forces a non-summable higher-tower bill. The remaining proof question is whether a genuine cone singular profile can avoid the non-affine bill by being only through-flow or affine at every late scale."
+  downstream_consequence: "WholeConeScaleCriticalParticipationThrottle.A is no longer a single broad energy slogan. Its derivative-tower form splits into exact facts: positive-part feed alone is false; A_r(t)>=a0 gives a slice gradient lower bound; B_r(t)>=b0 on a sufficiently long time set gives a per-scale higher-tower lower bound; a global non-summable cascade conclusion still needs scale-separated or bounded-overlap charging. The remaining proof question is whether a genuine cone singular branch supplies that non-affine charged cascade or escapes as through-flow / affine-only behavior."
 ---
 
 # MPP CriticalBaseFeedToTowerCoherenceDirectTest.A
@@ -39,7 +39,8 @@ That sentence is too broad. It is true only after "feed" means retained,
 localized feed into the receiver. It is false for bare positive boundary
 inflow.
 
-This note proves that split.
+This note proves the through-flow failure and the exact slice lower bounds that
+replace the broad feed slogan.
 
 ## 1. Base Boundary Capacity
 
@@ -200,7 +201,12 @@ This is the first real version of "the packet is not a private point and not a
 fake through-flow": it has a retained velocity contrast inside the same
 receiver.
 
-## 4. First Tower Cost From Localized Critical Feed
+The word "retained" does not itself pay a tower bill. The exact branch data are
+`R_rho(I)` for receiver accounting and `A_r(t)` for slice localization; any
+proof below may spend only those displayed quantities, not a hidden packet
+profile.
+
+## 4. First Slice Lower Bound From Localized Critical Feed
 
 Poincare on `B_r` gives
 
@@ -222,17 +228,19 @@ int_{B_r} |grad u|^2 dx
   >= c a0 nu^2 / r.
 ```
 
-So a retained localized critical packet forces first derivative-tower energy at
-the critical scale.
+So the exact consequence of `A_r(t)>=a0` is the slice lower bound
+`int_{B_r}|grad u|^2 dx >= c a0 nu^2/r`. This is a derivative-energy lower
+bound on that receiver slice. It is not yet a time-integrated retained-feed
+theorem.
 
 This proves the corrected first bridge:
 
 ```text
-retained localized critical feed
-  => first derivative-tower cost.
+A_r(t) >= a0
+  => int_{B_r} |grad u|^2 dx >= c a0 nu^2/r.
 ```
 
-It also explains why the base energy route was weak.  At critical velocity
+It also explains why the base energy route was weak.  At the benchmark velocity
 `U_c(r)=nu/r`, the base packet energy is bounded by
 
 ```text
@@ -249,7 +257,7 @@ which grows as the receiver shrinks.
 
 ## 5. Non-Affine Defect And The Higher Tower Bill
 
-A first derivative cost can still hide in an affine strain profile. To see the
+A first derivative cost can still hide in an affine strain field. To see the
 next real bill, quotient the first derivative by affine modes:
 
 ```text
@@ -290,26 +298,29 @@ if this non-affine defect persists on a time subset of measure at least
 theta r^2 / nu,
 ```
 
-then the first-rung tower dissipation pays
+then the first-rung tower dissipation on that charged slab pays
 
 ```text
 nu int_G int_{B_r} |grad^2 u|^2 dx dt
   >= c theta b0 nu^2 / r.
 ```
 
-This is not summable down dyadic scales. For `r_j=2^{-j} r0`,
+For a scale-separated cascade whose charged slabs are disjoint or have a
+bounded-overlap charging ledger, this lower bound is not summable down dyadic
+scales. For `r_j=2^{-j} r0`,
 
 ```text
 sum_j nu^2 / r_j = infinity.
 ```
 
-So a cascade of genuinely non-affine critical feeds cannot be hidden inside
-finite higher-tower participation. It requires an infinite coherent-organization
-bill.
+So a charged cascade of genuinely non-affine critical feeds cannot be hidden
+inside finite higher-tower participation. Without the scale-separated or
+bounded-overlap charging hypothesis, the calculation above is only a per-scale
+lower bound and may not be spent as a global contradiction.
 
 ## 6. General Rung Scaling
 
-Let the normalized cone profile be
+Let the exact rescaled cone unknown be
 
 ```text
 v(y,s) = (r/nu) u(x0+r y, t0 + (r^2/nu)s).
@@ -335,14 +346,17 @@ For `q=0`, this is `nu^2 r`, which is dyadically summable.
 
 For `q=1`, this is `nu^2/r`, which is dyadically non-summable.
 
-The full derivative tower does not change the critical velocity scale
+The full derivative tower does not change the critical velocity benchmark
 
 ```text
 U_c(r)=nu/r.
 ```
 
-It changes the bookkeeping depth. A singular cascade can be cheap in raw base
-energy and expensive in coherent derivative organization at the same time.
+It changes the bookkeeping depth.  The benchmark is not an unstated local-shape
+statement; the packet use above comes from the displayed `A_r` and `B_r`
+hypotheses and the derived lower bounds.  A singular cascade can be
+cheap in raw base energy and expensive in coherent derivative organization at
+the same time.
 
 ## 7. What Is Closed
 
@@ -353,25 +367,30 @@ positive-part base wall capacity large
   => derivative-tower cost.
 ```
 
-The correct bridge is proved in two layers:
+The exact lower bounds proved here are:
 
 ```text
-retained localized critical feed
-  => first derivative-tower energy cost,
+A_r(t) >= a0
+  => int_{B_r} |grad u|^2 dx >= c a0 nu^2/r,
 ```
 
 and
 
 ```text
-retained non-affine critical feed
-  => non-summable higher-tower dissipation across infinitely many shrinking
-     parabolic scales.
+B_r(t) >= b0 on G_r, |G_r| >= theta r^2/nu
+  => nu int_{G_r} int_{B_r} |grad^2 u|^2 dx dt
+       >= c theta b0 nu^2/r.
 ```
 
 This is the derivative-tower version of the cone wall/volume idea: raw energy
-can shrink, but a real localized profile has to keep paying shape. A pure
-through-flow does not count as receiver feed. A pure affine survivor has to be
-handled by a separate profile-rigidity test.
+can shrink, but the proof only spends the exact branch hypotheses above.  The
+receiver feed is retained only when the localized critical packet gives the
+displayed lower bound for `int_{B_r} |grad u|^2`; the higher-tower bill is
+retained only when the non-affine defect satisfies `B_r(t) >= b0` on a time set
+of measure at least `theta r^2/nu`, and the global cascade bill is retained only
+after a scale-separated or bounded-overlap charging ledger is supplied.
+Through-flow and affine-only survivors are separate branches, not hidden costs
+already paid by an unstated shape picture.
 
 ## 8. Exact Remaining Forward-Positive Children
 
@@ -387,20 +406,25 @@ It splits into two exact forward-positive children:
 RetainedLocalizedCriticalFeedToNonAffineTowerCost.A
 ```
 
-Prove that a genuine persistent scale-critical cone profile which is fed and
-sustained by the receiver has non-affine defect on a positive density of late
-parabolic slabs.
+Prove the exact implication from retained feed to non-affine density: whenever
+a late cone sequence `r_j=rho(t_j)` has the localized critical feed lower bound
+and remains receiver-sustained, either `B_{r_j}(t) >= b0` on subsets of the
+corresponding slabs with measure at least `theta r_j^2/nu` together with a
+scale-separated or bounded-overlap charging ledger, or the branch is classified
+as through-flow or affine-only and sent to its own test.
 
 ```text
-ConeAffineProfileRigidity.A
+ConeAffineCoreRigidity.A
 ```
 
-Prove that a persistent affine-only cone profile is not a singular tip for the
-unforced finite-energy Navier-Stokes problem; it is a removable drift/strain
-mode or it fails the pressure, energy, or global compatibility requirements
-before it becomes a point singularity.
+Prove that the affine-only branch, stated as vanishing non-affine defect
+`B_{r_j}(t) -> 0` along the retained cone sequence after subtracting affine
+matrices, cannot be a singular tip for the unforced finite-energy
+Navier-Stokes problem.  The proof must show removable drift/strain behavior or
+an explicit failure of pressure, energy, or global compatibility before the
+branch can be used downstream.
 
 These two children are the precise remaining forward-positive bridge. The
 base-feed-to-tower idea is now mathematically sharpened: feed must be retained,
-localized, and non-affine before the derivative tower gives the fixed lower
-cost per critical scale.
+localized, non-affine, and chargeable across scales before the derivative tower
+gives a global lower cost.

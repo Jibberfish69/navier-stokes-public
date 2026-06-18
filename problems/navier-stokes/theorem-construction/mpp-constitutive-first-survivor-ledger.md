@@ -62,7 +62,7 @@ finite--infinitesimal separation survivor
 `\mathcal S_\ast^{h/F}=\operatorname{tr}M_\ast`, in
 [mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-unified-survivor-finite-infinitesimal-separation-defect-note.md).
 
-Each entry below should be read as a packet
+Each entry below is read as a packet
 
 ```math
 R=(F,I,\Lambda,C,W,E,\rho)
@@ -98,7 +98,7 @@ The current high-level edge audit is:
    `OFP.A`, `Field`, or endpoint exclusion inside that supplier is an illegal
    carrier change.
 
-So this ledger should no longer be read only as a list of branch residues. It is
+So this ledger is no longer read only as a list of branch residues. It is
 an atlas-compatibility ledger: every survivor entry must preserve the same
 carrier, endpoint cell, and proof direction before it can be identified with
 another entry.
@@ -130,7 +130,7 @@ Every entry then records five additional survivor items:
 2. the carrier it lives on;
 3. the branch readout it feeds;
 4. the source terms that keep it alive;
-5. the visible class-violation it would force.
+5. the visible class-violation forced by the entry.
 
 ## First Dictionary Layer Already On Disk
 
@@ -272,7 +272,7 @@ exists, and its receiver is smaller than the old branch ladder.
 - Source terms that keep it alive:
   frozen-family source-only ledger `(FCI.5ec)` and the lower-carrier
   receiver branch.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   jump manifestation / one-field coherence fracture.
 
 ### Entry 2. Collar receiver branch `CSP.A` / `LCI.A`
@@ -312,7 +312,7 @@ exists, and its receiver is smaller than the old branch ladder.
 - Source terms that keep it alive:
   lower-carrier coefficients, packet-local deformation gauge, frozen-family
   source term, center oscillation / center forcing on the sharper branch.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   jump manifestation through loss of common collar coherence.
 
 ### Entry 3. Frozen-family source branch `FCI.A1`
@@ -346,7 +346,7 @@ exists, and its receiver is smaller than the old branch ladder.
 - Source terms that keep it alive:
   `\mathcal P_N^{red}+\mathcal F_N^{press}+\mathcal S_N+\mathcal R_N+\mathcal C_N^{cut}`
   on each frozen increment.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   jump manifestation on the one-field side if the reference-family coherence
   collapses.
 
@@ -381,7 +381,7 @@ exists, and its receiver is smaller than the old branch ladder.
   the transported-center receiver branch.
 - Source terms that keep it alive:
   the deformation-driving strain ledger on the common label collar.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   blown manifestation / failure of the common deformation class.
 
 ### Entry 5. Manifestation bridge `MBR.C`
@@ -415,7 +415,7 @@ exists, and its receiver is smaller than the old branch ladder.
 - Source terms that keep it alive:
   finite tower bounds and surviving positive coherence scales on the approach
   family.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   blown manifestation or jump manifestation.
 
 ### Entry 6. Surviving endpoint exclusions `L13`
@@ -448,7 +448,7 @@ exists, and its receiver is smaller than the old branch ladder.
 - Source terms that keep it alive:
   packing ledgers on the Law 1 side and transported closure packet ledgers on
   the Law 3 side.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   one of the open shell programs currently under test.
 
 ### Entry 7. Optional one-defect compression
@@ -467,8 +467,8 @@ exists, and its receiver is smaller than the old branch ladder.
 - Exported observables:
   a zero-set realization of class membership.
 - Derived error budgets:
-  CM-paid carrier part would be the exact predicate package itself; branch-local
-  consumer part would be only the residual same-fluid defect law.
+  CM-paid carrier part is the exact predicate package itself; branch-local
+  consumer part is only the residual same-fluid defect law.
 - Final obstruction term:
   there is still no accepted defect `\mathfrak D` and no closed zero-set
   propagation law.
@@ -478,7 +478,7 @@ exists, and its receiver is smaller than the old branch ladder.
   a compressed realization of `CFI.A`.
 - Source terms that keep it alive:
   whichever branch tails survive after exact predicate export.
-- Visible class-violation it would force:
+- Visible class-violation forced by the entry:
   `\mathfrak D>0`, hence blown or jump.
 
 ## Current Survivor Choice By Minimality
@@ -533,4 +533,4 @@ following:
 3. converts that packet to visible blown or jump manifestation;
 4. closes the final contradiction.
 
-Everything else should be treated as archive material rather than live frontier.
+Everything else is treated as archive material rather than live frontier.

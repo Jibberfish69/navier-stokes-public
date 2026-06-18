@@ -14,7 +14,7 @@ Use density-only bookkeeping. Let
 k(x,t)=\frac12\rho_0 |u(x,t)|^2.
 ```
 
-The algebraic velocity closure is immediate:
+The algebraic velocity closure is:
 
 ```math
 k(x_0,T)<\infty

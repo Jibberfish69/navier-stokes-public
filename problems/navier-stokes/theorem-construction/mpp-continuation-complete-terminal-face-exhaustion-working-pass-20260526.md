@@ -78,10 +78,10 @@ satisfies
 sup_{t<T_*} ||u(t)||_{H^s(T^3)} < infinity.
 ```
 
-The standard local Navier-Stokes continuation theorem at `s>5/2` gives a
-lifespan depending only on that bound.  Starting from times `t_j` increasing to
-`T_*`, the solution extends classically past `T_*`.  This contradicts terminal
-non-continuation.
+The `H^s`, `s>5/2`, local well-posedness/relaunch theorem gives a lifespan
+depending only on that bound.  Starting from times `t_j` increasing to `T_*`
+and using uniqueness on overlaps, the same solution extends classically past
+`T_*`.  This contradicts terminal non-continuation.
 
 Therefore a finite terminal non-continuation time forces
 

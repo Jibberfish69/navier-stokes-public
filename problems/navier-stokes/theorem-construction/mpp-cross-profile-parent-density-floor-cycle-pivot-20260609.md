@@ -67,8 +67,9 @@ For every fixed route constant `B`,
 ```
 
 The parent cloud remains legal, same-fluid, and terminal. The selected
-positive cross-profile Pack source can stay order one while every bounded
-parent selector sees vanishing mass.
+positive cross-profile Pack source has normalized mass
+\(\pi_P(\mathsf{Pred}(P))=1\), while every bounded parent selector sees
+vanishing mass.
 
 Thus `CrossProfileParentDensityFloor.A` is not a new theorem target. It is the
 same anti-diffuse parent wall in cross-profile notation.

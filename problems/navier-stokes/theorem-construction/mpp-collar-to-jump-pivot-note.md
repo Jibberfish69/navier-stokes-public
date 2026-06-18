@@ -9,7 +9,8 @@ does not close on the installed class-membership / forward-invariance route.
 
 This note does **not** pretend that failure to prove `CSP.A` is already a
 mathematical event. Its narrower job is to identify the exact converse bridge
-that would turn the unresolved collar receiver into visible jump manifestation.
+whose proved contrapositive turns unresolved collar receiver control into
+visible jump manifestation.
 
 ## Purpose
 
@@ -77,7 +78,7 @@ More explicitly, the current one-field wall is already stated as
 
 ```math
 \boxed{
-\text{propagate the fixed finite packet family and the collar Sobolev packet strongly enough that the transported finite-difference defect never loses a positive coherence regime.}
+\text{propagate the fixed finite packet family and the collar Sobolev packet so that } \inf_{t\in I}\mathcal C_{\mathrm{coh}}(t)>0.
 }
 \tag{CJ.3}
 ```
@@ -135,9 +136,9 @@ That is weaker than jump manifestation.
 
 The survivor compression now says the real irreducible receiver is the collar
 packet, with the sharper wall already reduced further to the lower-carrier
-closure package. So if the direct proof of `(CJ.0)` stalls, the route should not
-go back to the older supplier ladder. It should ask whether the surviving
-coherence regime can be used in the reverse direction.
+closure package. If the direct proof of `(CJ.0)` stalls, the route does not
+return to the older supplier ladder; the exact pivot test is whether the
+surviving coherence regime can be used in the reverse direction.
 
 The visible manifestation target is already fixed on disk:
 
@@ -180,9 +181,10 @@ In theorem-facing shorthand:
 \tag{CJ.5}
 ```
 
-If `(CJ.5)` can be proved strongly enough to recover the collar packet
-`\mathcal K_{N+1,m,\rho,\psi}^{\delta}` or its exact lower-carrier receiver
-package, then the contrapositive yields the desired pivot:
+If `(CJ.5)` proves either the collar packet bound
+`\sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty` or the exact
+lower-carrier receiver package, then the contrapositive yields the desired
+pivot:
 
 ```math
 \text{source-side package installed}
@@ -198,7 +200,7 @@ And that is exactly the one-field `jump` channel.
 ## Endpoint-Level Corollary Shape
 
 Combined with the surviving-manifestation language already fixed in `MBR` and
-`L13`, the desired endpoint-level corollary would be:
+`L13`, the endpoint-level corollary is:
 
 ### Candidate Corollary `CJ.B` (Collar failure forces jump manifestation)
 
@@ -243,8 +245,7 @@ That is a proof-theorem statement, not yet a manifestation theorem.
 ## Exact Proof Program For The Pivot
 
 The narrowest honest target is the lower-carrier receiver, not the full collar
-packet at first. The pivot should therefore be recorded as the following
-theorem-facing subtarget.
+packet at first. The pivot is the following theorem-facing subtarget.
 
 ### Candidate Theorem `CJ.A_low` (Bounded one-field coherence recovers the lower-carrier receiver)
 
@@ -281,10 +282,9 @@ Use retained `Part` only to discard the finite-difference tower-law half of
 ```
 
 Assume also a pre-output source/bridge anchor on the same fixed transported
-cover, such as finite center values, seed values, or an initial lower-carrier
-packet strong enough to control the constant mode on every collar component.
-This anchor is indispensable: increment control alone does not control constant
-modes.
+cover. The needed anchor is exactly `(CJ.9m0)` below, or its minimal
+`A^{low}_{m,\mathrm{anc}}` projection on every collar component. This anchor is
+indispensable: increment control alone does not control constant modes.
 
 Then prove the shell-supported lower-carrier receiver
 
@@ -450,9 +450,9 @@ and the installed anchored-center ledger is
 \tag{LCI.3c3m}
 ```
 
-So `A^{low}_{m,\mathrm{anc}}` should be read as the minimal component-anchor
-projection of `\mathfrak A^{ctr}`. If the proof uses all `LCI` cover centers,
-then the anchor burden is simply
+So `A^{low}_{m,\mathrm{anc}}` is the minimal component-anchor projection of
+`\mathfrak A^{ctr}`. If the proof uses all `LCI` cover centers, then the anchor
+burden is simply
 
 ```math
 \mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
@@ -492,7 +492,7 @@ integrability `(CJ.9m0)` on the same fixed cover, produced without spending
 ### Obstruction `CJ.A_low.2` (The anchor is not optional)
 
 Without an anchor, bounded `Field` cannot control the lower carrier. The constant
-mode obstruction is immediate: on a fixed collar, replace `U_q` by
+mode obstruction already appears on a fixed collar: replace `U_q` by
 `U_q+M_q(t)` with `M_q(t)` spatially constant. The increments
 `\delta_hU_q` do not see `M_q(t)`, while the lower carrier
 `\|U_q(\cdot,t)\|_{L^\infty(\mathcal C_{\rho,\psi}^{\delta,\vartheta}(t))}`
@@ -515,8 +515,8 @@ This anchor production may not spend `LCI.A`, `CSP.A`, `OFP.A`, `CFI.A`,
 ### Solution Route `CJ.A_low.3` (Produce the anchor through the pre-`LCI.A` affine-center core)
 
 The way to solve `(CJ.9m)` is not to derive absolute center amplitudes from
-`Field`. `Field` is used only for oscillation. The anchor should be produced
-from the clean pre-`LCI.A` affine-center block already isolated in the direct
+`Field`. `Field` is used only for oscillation. The anchor must be produced from
+the clean pre-`LCI.A` affine-center block already isolated in the direct
 transported-center package.
 
 Use the receiver-side block only up to the `ACT.KX` core output:
@@ -607,7 +607,7 @@ LCI.A\text{-level receiver control.}
 ```
 
 This route must stop before `ACT.X-Readout -> ACT.A -> RCF.A -> LCI.A` when it is
-being used to prove the `CJ` anchor. Otherwise it would merely cite the old
+being used to prove the `CJ` anchor. Continuing through that chain cites the old
 receiver closure instead of supplying the converse pivot.
 
 ### Lemma `CJ.A_low.4` (Affine-core anchor implies the raw anchored-center ledger)
@@ -866,7 +866,7 @@ No unconditional theorem currently on disk runs in the full converse direction
 ```
 
 The installed route still does not give this from `Field` alone. What the
-immediate attack reduction above supplies is the conditional lower-carrier
+attack reduction above supplies at this stage is the conditional lower-carrier
 converse:
 
 ```math

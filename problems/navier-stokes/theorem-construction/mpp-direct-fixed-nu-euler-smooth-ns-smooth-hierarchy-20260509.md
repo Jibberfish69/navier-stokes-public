@@ -249,7 +249,7 @@ three useful routes are:
 
 The first-failure reduction is recorded in
 `mpp-viscosity-cannot-create-first-failure-reduction-20260509.md`: proving
-`ViscosityCannotCreateFirstFailure.A` immediately yields the direct hierarchy
+`ViscosityCannotCreateFirstFailure.A` yields the direct hierarchy
 theorem.
 
 Any counterexample to the conjecture would be equally valuable: it would exhibit

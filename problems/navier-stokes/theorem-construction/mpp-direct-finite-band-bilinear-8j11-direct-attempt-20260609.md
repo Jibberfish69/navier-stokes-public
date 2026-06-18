@@ -59,7 +59,7 @@ Then the bilinear term is
 a_{m,j}(t)D_j(t).
 ```
 
-The only immediate absorption is
+The only absorption available at this stage is
 
 ```math
 a_{m,j}D_j

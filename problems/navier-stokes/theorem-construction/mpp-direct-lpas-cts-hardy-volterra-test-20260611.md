@@ -79,7 +79,7 @@ not the active-square quantity:
 \int_0^T 2^{-j}D_j(t)^2\,dt.
 ```
 
-So the direct absorption attempt reduces immediately to active-shell amplitude
+So the direct coefficient-margin attempt reduces directly to active-shell amplitude
 normalization.
 
 ## Continuum CTS / Schur Test
@@ -185,15 +185,15 @@ c\varepsilon\nu^3 2^{3j}|I|
 +C\nu^2 2^j2^{-2\delta j}.
 ```
 
-The universal form fails by fixed-shell cubic amplitude scaling.  Scaling
+The universal form fails by the fixed-shell cubic amplitude identity. Scaling
 smooth finite-band data by amplitude `A` makes the shell source satisfy:
 
 ```math
 F_j(0;Au_0)=A^3F_j(0;u_0),
 ```
 
-so the square source scales like `A^6` while the proposed universal right-hand
-side is amplitude-independent.
+so the square source is `A^6|F_j(0;u_0)|^2` while the proposed universal
+right-hand side is amplitude-independent.
 
 Therefore the square-source path is conditional only.  It needs active
 interval amplitude normalization, a structural signed cancellation in the

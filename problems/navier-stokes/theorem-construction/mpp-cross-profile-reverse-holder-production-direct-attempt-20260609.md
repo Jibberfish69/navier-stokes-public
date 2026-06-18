@@ -112,7 +112,7 @@ carrying a fixed fraction of the mass.
 The current reverse-Holder parent concentration audit records why this is not
 installed. A legal same-fluid parent cloud can spread across many small
 predecessors. Each predecessor has small raw quadratic cost, while the
-normalized child-feeding source remains order one.
+normalized child-feeding source has mass \(\pi_P(\mathsf{Pred}(P))=1\).
 
 Thus the cross-profile structure does not create a new finite-reserve
 contradiction.

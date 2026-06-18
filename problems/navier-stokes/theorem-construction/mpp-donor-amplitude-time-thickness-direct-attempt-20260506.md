@@ -44,7 +44,15 @@ C_{\mathrm{amp}}
 2^{-k}{Charge(I)+o_N(1)+Loss_{legal}\over \int_I T_k(t)dt}.
 ```
 
-Either formulation would convert the installed first-moment tail ledger into the square reserve.
+Either formulation converts the installed first-moment tail ledger into the square reserve only after it proves the precise upgrade
+
+```math
+2^k\int_I T_k(t)^2\,dt
+\le
+C_{\mathrm{res}}\left(Charge(I)+o_N(1)+Loss_{legal}\right)
+```
+
+on the same terminal window.
 
 ## Reduction to an L1-to-L2 problem
 
@@ -97,7 +105,7 @@ D_\ell(t)
 C_E\nu 2^{2\ell}\|\nabla u(t)\|_2^2.
 ```
 
-This still grows like `2^{2\ell}`. Moreover, a uniform terminal enstrophy bound is already the Row 1 contradiction target. Importing it here would spend the theorem being proved.
+This still contains the factor `2^{2\ell}`. Moreover, a uniform terminal enstrophy bound is already the Row 1 contradiction target. Importing it here spends the theorem being proved.
 
 Thus the installed energy-type bounds supply no reserve-scale amplitude cap of the required form
 
@@ -111,7 +119,8 @@ or any comparable high-frequency decay.
 
 ## Heat-window duration test
 
-A heat-scale argument would need a creation law for the donor tail. A representative target would be
+A heat-scale argument requires a creation law for the donor tail. One
+sufficient target inequality is
 
 ```math
 \left|{d\over dt}T_k(t)\right|
@@ -120,7 +129,7 @@ A heat-scale argument would need a creation law for the donor tail. A representa
 
 with `Forcing_k` priced by charge. Such an inequality could force a pulse carrying mass `A_k` to occupy a parabolic window before it contributes size `2^kA_k^2/|I|` to the reserve.
 
-The current installed source-wall packet supplies the static parent-square embedding and the first-moment tail. It supplies no dynamic inequality for `T_k`, no forcing law for donor creation, and no parabolic lower bound for pulse width. Establishing this derivative inequality would amount to a version of `SquareReserveEvolution.A` itself.
+The current installed source-wall packet supplies the static parent-square embedding and the first-moment tail. It supplies no dynamic inequality for `T_k`, no forcing law for donor creation, and no parabolic lower bound for pulse width. Establishing this derivative inequality is a version of `SquareReserveEvolution.A` itself.
 
 ## Scalar obstruction
 

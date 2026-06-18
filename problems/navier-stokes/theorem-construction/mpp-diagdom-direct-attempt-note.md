@@ -67,7 +67,7 @@ after the estimate has passed to absolute values.
 The installed source side
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 is an `L^1` frozen-family source ledger for the downstream

@@ -104,8 +104,8 @@ HeatLinearRemainderNoTerminalCriticalMass.A:
 \text{linear heat propagation carries no new terminal }L^3\text{ atom}.
 ```
 
-This is plausible from heat smoothing plus same-ledger extraction, but it is
-not written as an installed theorem. The May 19 heat-remainder attempt reduces
+This is a candidate consequence suggested by heat smoothing plus same-ledger
+extraction, but it is not written as an installed theorem. The May 19 heat-remainder attempt reduces
 it to `SameLedgerHeatAncestorLocalization.A`: terminal local `L^3` mass of a
 heat evolution must either have a same-ledger earlier critical slice or select
 the Pack face.

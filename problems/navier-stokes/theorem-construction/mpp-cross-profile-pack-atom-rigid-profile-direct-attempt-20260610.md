@@ -4,13 +4,13 @@ ns_viewer:
   status: partial-support-reduced-to-two-profile-pack-molecule-rigidity
   proof_role: active_completion_proof_pressure
   logical_landing_node: cross_profile_pack_atom_rigid_profile_production
-  edge_effect: "Tests whether a terminal selected positive cross-profile Pack atom belongs to one rigid profile. The pass proves only a two-profile domination estimate; one-profile assignment is not proved because the atom may live in the near-resonant pair interaction."
+  edge_effect: "Tests whether a terminal selected positive cross-profile Pack atom belongs to one rigid profile-decomposition frame. The pass proves only a two profile-decomposition-frame trace-measure domination estimate; one-profile-frame assignment is not proved because the atom may live in the near-resonant pair interaction."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-selected-positive-pack-source-no-atom-direct-attempt-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-pack-profile-selector-stability-direct-attempt-20260610.md
     - problems/navier-stokes/theorem-construction/mpp-positive-pack-defect-orthogonality-bilinear-decoupling-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-pack-critical-element-stability-profile-orthogonality-attempt-20260609.md
-  downstream_consequence: "CrossProfilePackAtomBelongsToRigidProfile.A is not proved. The live branch is sharpened to a near-resonant TwoProfilePackMoleculeRigidity.A / SelectedStrainSelfDomination.A problem before PackCriticalElementStability.A can feed NoGenuineExitFromSmoothData.A."
+  downstream_consequence: "CrossProfilePackAtomBelongsToRigidProfile.A is not proved. The live branch is sharpened to a near-resonant two-frame measure problem, TwoProfilePackMoleculeRigidity.A / SelectedStrainSelfDomination.A, before PackCriticalElementStability.A can feed NoGenuineExitFromSmoothData.A."
 ---
 
 # MPP CrossProfilePackAtomBelongsToRigidProfile Direct Attempt
@@ -28,23 +28,26 @@ The active loop target is:
 CrossProfilePackAtomBelongsToRigidProfile.A.
 ```
 
-The desired statement is that a terminal selected positive cross-profile Pack
-source atom cannot remain an atom of the interaction. It must either vanish, be
-uniformly integrated away, or belong to one genuine profile that can then be
-placed in a rigid class.
+The desired theorem would have to prove that a terminal selected positive
+cross-profile Pack source atom cannot remain an atom of the interaction. It
+would have to produce one exact alternative: vanishing of the selected positive
+measure, a uniform anti-atom modulus, absolute continuity with respect to one
+single profile-decomposition-frame Pack measure, or a rigid two-frame class with
+its own Liouville theorem.
 
 ## Method Pass
 
 Proof program: CM contrapositive public-finality bridge.
 
-Target role: one-profile capture theorem needed by Pack-critical-element
+Target role: one profile-decomposition-frame capture theorem needed by Pack-critical-element
 stability.
 
 Logical skeleton: minimal counterexample plus profile decomposition plus
 measure domination.
 
-Mechanism tested: use the pointwise quadratic domination of a cross term to
-assign the terminal Pack atom to one profile.
+Mechanism tested: whether pointwise quadratic domination of a cross term is
+enough for one-profile-frame capture. The test fails at the two-frame measure
+step below.
 
 ## The Support Lemma That Does Work
 
@@ -65,7 +68,7 @@ The elementary inequality
 2 |ab| \le |a|^2+|b|^2
 ```
 
-gives a local domination of the positive interaction by weighted profile
+gives a local domination of the positive interaction by weighted profile-decomposition-frame
 quadratic traces:
 
 ```math
@@ -76,52 +79,90 @@ F_{\alpha\beta,j}
 ```
 
 after the same cutoff and heat-window selection. Thus any terminal positive
-cross-profile Pack atom is not invisible: it is dominated by the two profile
+cross-profile Pack atom is not invisible: it is dominated by the two profile-decomposition-frame
 quadratic trace measures that participate in the selected interaction.
+
+Equivalently, on the selected heat window and cutoff, the positive interaction
+measure
+
+```math
+d\mu_{\alpha\beta,j}^+
+:=
+\chi_{j}^{sel}F_{\alpha\beta,j}\,dx\,dt
+```
+
+satisfies the exact measure domination
+
+```math
+d\mu_{\alpha\beta,j}^+
+\le
+\frac12\chi_j^{sel}|S_{<j}^{loc}|
+|U_{\alpha,<j}|^2\,dx\,dt
++
+\frac12\chi_j^{sel}|S_{<j}^{loc}|
+|U_{\beta,j}|^2\,dx\,dt
+=:d\nu_{\alpha\beta,j}.
+\tag{TPD}
+```
+
+This is the whole proved statement.  It is domination by a two-frame trace
+measure `\nu_{\alpha\beta,j}`, not assignment to either single
+profile-decomposition-frame Pack measure.
 
 This is real support for the critical-element route. It prevents the cross
 atom from being a completely free third measure.
 
 ## Why This Does Not Prove One-Profile Capture
 
-The domination is a two-profile statement, not a one-profile Pack statement.
-The weight is the total selected low strain, pressure/Leray/cutoff package, or
-near-band carrier seen by the original same-solution witness. It is not
-automatically the Pack functional of profile `alpha` alone or profile `beta`
-alone.
+The domination is a two-frame statement, not a one-profile-frame Pack statement.
+One-profile-frame capture would require an additional hypothesis of the form
+
+```math
+\mu_{\alpha\beta}^+\ll \mu_{\alpha}^{Pack}
+\quad\text{or}\quad
+\mu_{\alpha\beta}^+\ll \mu_{\beta}^{Pack}
+```
+
+with a quantitative density or anti-atom modulus strong enough to pass to the
+terminal limit.  The proved bound `(TPD)` gives only
+`\mu_{\alpha\beta}^+\le\nu_{\alpha\beta}`.  The weight is the total selected low
+strain, pressure/Leray/cutoff package, or near-band carrier seen by the original
+same-solution witness. It is not automatically the Pack functional of profile-decomposition frame
+`alpha` alone or frame `beta` alone.
 
 A near-resonant pair can therefore survive as a molecule:
 
 ```text
-profile alpha supplies the low carrier,
-profile beta supplies the high packet,
+frame alpha supplies the low carrier,
+frame beta supplies the high packet,
 the selected positive part lives on their product,
-and neither individual profile carries the same selected Pack defect alone.
+and neither individual frame carries the same selected Pack defect alone.
 ```
 
-Raw profile orthogonality still permits this because the selector is allowed to
+In exact terms, the molecule obstruction is a terminal positive measure
+`\mu_{\alpha\beta}^+` with bounded scale separation between the low carrier and
+the high packet, satisfying `(TPD)`, while no displayed single-frame Pack
+measure carries the same terminal atom with the required density or anti-atom
+modulus.
+
+Raw profile-decomposition orthogonality still permits this because the selector is allowed to
 choose the terminal heat-scale window where the product is positive before any
 global signed cancellation is visible.
 
 ## What Minimality Adds
 
 First-Pack minimality selects the smallest unresolved Pack failure. It does not
-forbid a two-profile molecule from being the minimal object. A molecule is not
-a smaller single profile; it is the first object whose interaction produces the
-selected positive Pack source.
+forbid a two-frame molecule from being the minimal object. A molecule is not a
+smaller single profile-decomposition frame; it is the first object whose
+interaction produces the selected positive Pack source.
 
-So the critical-element route cannot write:
-
-```text
-terminal cross-profile Pack atom
-=> one rigid profile
-```
-
-from domination alone. It can only write:
+So the critical-element route cannot infer one-frame rigid capture from
+domination alone. It can only write:
 
 ```text
 terminal cross-profile Pack atom
-=> one near-resonant two-profile Pack molecule.
+=> a positive two-frame dominated measure, possibly a near-resonant
+   two-frame Pack molecule.
 ```
 
 ## Correct Next Theorem
@@ -130,10 +171,10 @@ The next theorem must pay the molecule step directly:
 
 ```text
 TwoProfilePackMoleculeRigidity.A:
-every minimal near-resonant two-profile Pack molecule either
-  produces a one-profile selected Pack defect,
+every minimal near-resonant two-frame Pack molecule either
+  produces a one profile-decomposition-frame selected Pack defect,
   has a uniform terminal anti-atom modulus,
-  lands in a rigid two-profile Liouville class,
+  lands in a rigid two-frame Liouville class,
   or creates a concrete Pack/Part/Field face failure strong enough to feed
   NoGenuineExitFromSmoothData.A.
 ```
@@ -157,10 +198,10 @@ The pass installs one support fact:
 CrossProfilePackAtomTwoProfileDomination.A.
 ```
 
-That support fact is weaker than one-profile capture. The live obstruction is
-now sharper: a near-resonant two-profile Pack molecule can carry the terminal
-selected positive Pack atom without assigning it to either profile as a rigid
-single-profile object.
+That support fact is weaker than one-profile-frame capture. The live obstruction is
+now sharper: a near-resonant two-frame Pack molecule can carry the terminal
+selected positive Pack atom without assigning it to either frame as a rigid
+single-frame object.
 
 Until `TwoProfilePackMoleculeRigidity.A`, `SelectedStrainSelfDomination.A`, or
 an equivalent theorem is installed and propagated through
@@ -171,12 +212,12 @@ remain non-final.
 
 ## New Live Criticism
 
-`NS-LIVE-20260609-216`: one-profile capture is not proved. The current proof
+`NS-LIVE-20260609-216`: one-profile-frame capture is not proved. The current proof
 does get a useful domination estimate: a terminal selected positive
-cross-profile Pack atom is dominated by the two profile quadratic trace
+cross-profile Pack atom is dominated by the two profile-decomposition-frame quadratic trace
 measures participating in the selected interaction. That still permits a
-near-resonant two-profile Pack molecule in which the low carrier and high
-packet come from different profiles and no single profile carries the selected
+near-resonant two-frame Pack molecule in which the low carrier and high
+packet come from different frames and no single frame carries the selected
 Pack defect by itself. The active loop must prove
 `TwoProfilePackMoleculeRigidity.A`, `SelectedStrainSelfDomination.A`,
 `NearResonantTwoProfilePackAtomExclusion.A`,

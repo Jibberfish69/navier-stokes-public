@@ -131,8 +131,16 @@ terminal leaves, or else spends a finite scale-normalized reserve.
 ```
 
 The non-Zeno branch is controlled by the existing entrance-leaf mechanism: a
-branch that reaches a fixed preterminal entrance surface is paid by original
-smooth tail decay.
+branch that reaches a fixed preterminal or positive-scale entrance surface is
+paid by the bound
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
 
 The open branch is a Zeno refill tree:
 

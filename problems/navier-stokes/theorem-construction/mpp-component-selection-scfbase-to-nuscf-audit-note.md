@@ -36,7 +36,7 @@ If the threshold defect satisfies
 D_u(Q_r^\Phi)+P_{loc}(Q_r^\Phi)\ge c\varepsilon_m,
 ```
 
-then component selection is immediate:
+then the component-selection inequality gives the displayed lower bound:
 
 ```math
 \operatorname{dens}_{SCF}(\nu_{SCF};Q_r^\Phi)\ge c_*.

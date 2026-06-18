@@ -4,12 +4,12 @@ ns_viewer:
   status: direct-lpas-raw-active-square-theorem-false
   proof_role: forward_positive_lpas_target_correction
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Proves that the raw DirectLPAS active-square theorem is too strong: an exact smooth Navier-Stokes shear solution with zero nonlinear source and pure heat decay violates the lower-prefix active-square bound at high frequency. The forward-positive target must be a residual/source-balanced LPAS after subtracting harmless linear heat decay and through-flow, not the raw D_j^2 bill."
+  edge_effect: "Proves that the raw DirectLPAS active-square theorem is too strong: an exact smooth Navier-Stokes shear solution with zero nonlinear source and pure heat decay violates the lower-prefix active-square bound at high frequency. The forward-positive target must be a residual/source-balanced LPAS after subtracting exact linear heat decay and through-flow, not the raw D_j^2 bill."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/lower-prefix-active-square-theorem.md
     - problems/navier-stokes/theorem-construction/mpp-direct-lpas-cts-hardy-volterra-test-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md
-  downstream_consequence: "Do not try to prove unrenormalized DirectLPAS.A as a universal theorem. Replace it by the residual refill ledger in mpp-residual-refill-ledger-and-spine-consolidation-20260611.md: ResidualSourceBalancedLPAS.A or a continuum CTS/FCTS theorem whose active-square density has harmless heat-decay / through-flow pieces removed. The CM exit branch applies only to the surviving source-balanced terminal residual, not to harmless exact heat modes."
+  downstream_consequence: "Do not try to prove unrenormalized DirectLPAS.A as a universal theorem. Replace it by the residual refill ledger in mpp-residual-refill-ledger-and-spine-consolidation-20260611.md: ResidualSourceBalancedLPAS.A or a continuum CTS/FCTS theorem whose active-square density has exact heat-decay / through-flow pieces removed. The CM exit branch applies only to the surviving source-balanced terminal residual, not to exact heat modes."
 ---
 
 # MPP DirectLPAS Raw Active-Square False Shear Counterexample
@@ -199,7 +199,7 @@ This is the key correction:
 ```
 
 The bad object is active-square size that is being sustained by nonlinear
-same-fluid source refill after harmless heat decay, through-flow, and already
+same-fluid source refill after exact heat decay, through-flow, and already
 paid linear dissipation have been removed.
 
 ## 6. Corrected Forward Target
@@ -217,7 +217,7 @@ The residual refill ledger is defined in
 `mpp-residual-refill-ledger-and-spine-consolidation-20260611.md`.
 
 It should control only the active-square portion that remains after subtracting
-the exact heat-decay contribution and other harmless transport/through-flow
+the exact heat-decay contribution and other exact transport/through-flow
 pieces.
 
 At the target-template level, the raw factor
