@@ -75,12 +75,42 @@ with the same terminal response packet frame used for full-adjoint mass.
 ### Proof
 
 At the stopped face `sigma_T`, the propagated packet
-`\Chi_T^{full}(\sigma_T)` satisfies the heat-tube bounds from
-`FullCoeffGoodPacket.A`.  The response packet frame at time `sigma_T` is a
-bounded-overlap local frame on the same response-orthogonal subspace.  Expand
-the heat-tube packet in that local frame.  Standard frame/Bessel estimates give
-the coefficient square sum `(FPS.3)`, and the off-frame tail is exactly the
-installed `Err_frame(T)`. `\square`
+`\Chi_T^{full}(\sigma_T)` satisfies the heat-tube normalization from
+`FullCoeffGoodPacket.A`:
+
+```math
+\|\Chi_T^{full}(\sigma_T)\|_{\mathcal H_T}\le C_H.
+```
+
+The response packet frame at time `sigma_T` is used through the exact Bessel
+analysis bound, on the same response-orthogonal subspace:
+
+```math
+a_{P,T}:=\langle \Chi_T^{full}(\sigma_T),\widetilde\Chi_P\rangle_{\mathcal H_T},
+\qquad
+\sum_{P\prec_{stop}T}|a_{P,T}|^2
+\le C_B\|\Chi_T^{full}(\sigma_T)\|_{\mathcal H_T}^2.
+\tag{FPS.3'}
+```
+
+Here `\{\widetilde\Chi_P\}` is the dual analysis frame paired with the response
+packet synthesis frame.  Combining the two displayed bounds gives
+
+```math
+\sum_{P\prec_{stop}T}|a_{P,T}|^2\le C_B C_H^2,
+```
+
+which is `(FPS.3)` after renaming the constant.  The reconstruction identity is
+
+```math
+\Chi_T^{full}(\sigma_T)
+=
+\sum_{P\prec_{stop}T}a_{P,T}\Chi_P^{full}(\sigma_T)
++
+\left(I-\Pi_{resp,T}\right)\Chi_T^{full}(\sigma_T),
+```
+
+and the final term is the installed `Err_frame(T)`. `\square`
 
 ## 3. Theorem `ResponseNoParent_full.A`
 
