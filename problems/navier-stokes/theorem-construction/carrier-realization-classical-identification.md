@@ -517,11 +517,12 @@ Then:
    `\frac{2}{p}+\frac{3}{q}\le 1` and `q>3`, then `u` is regular on `[0,T]`.
 
 **Proof.**
-The energy statement is the classical Leray estimate on the realized carrier,
-and the Serrin-type regularity conclusion is the named continuation
-criterion for incompressible Navier--Stokes on the Euclidean model. On
-`\mathbb T^3` the same criterion applies with the usual periodic compactness
-simplifications. \(\square\)
+The energy statement is the classical Leray estimate on the realized carrier.
+The regularity conclusion spends the Serrin hypothesis itself:
+`u\in L^p(0,T;L^q)` with `2/p+3/q\le 1` and `q>3`, attached to the same Leray
+solution. The Serrin continuation theorem then gives regularity on `[0,T]`;
+on `\mathbb T^3` the same hypothesis gives the periodic conclusion with the
+usual compactness simplifications. \(\square\)
 
 ## Theorem T* (Global weak solution and closed limit construction)
 
