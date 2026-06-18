@@ -10,7 +10,9 @@ Assume the normalized cylinder satisfies the CKN smallness threshold:
 CKN_{std}(Q_1)\le\varepsilon_{CKN}.
 ```
 
-Then, on a smaller cylinder, interior regularity and bootstrapping give the local tower bounds needed by `DTC.Read`:
+Fix the CKN pressure normalization on `Q_1`.  Then, on a smaller cylinder, the
+local epsilon theorem and the finite-depth differentiated equations give the
+local tower bounds needed by `DTC.Read`:
 
 ```math
 U_0,\dots,U_{N+2},
@@ -29,7 +31,17 @@ has every required local readout slot.
 
 ## Proof
 
-CKN epsilon regularity gives boundedness and smoothness on a shrunken normalized cylinder. Standard interior parabolic bootstrapping gives, for every finite `k` in the route depth,
+CKN epsilon regularity gives boundedness and smoothness on a shrunken normalized
+cylinder.  Choose a fixed interior cylinder `Q_{3/4}` for the bootstrap and read
+the final bounds on `Q_{1/2}`.  For every finite `k` in the route depth, the
+differentiated Navier--Stokes equation for `\nabla^k u`, the pressure equation
+
+```math
+-\Delta p=\partial_i\partial_j(u_i u_j),
+```
+
+with the CKN pressure gauge, and interior parabolic/elliptic estimates give
+constants `C_k=C_k(k,\nu,\varepsilon_{CKN})` such that
 
 ```math
 \sup_{Q_{1/2}}|\nabla^k u|
@@ -68,7 +80,10 @@ The largest pressure derivative required is
 \nabla^{N+1}p.
 ```
 
-The pressure equation and interior elliptic/Schauder estimates supply these derivatives after the same CKN regularity gain. Thus every `K_q` for `q<=N` is controlled.
+The pressure derivatives are not a separate assumption: after the CKN
+regularity gain, the displayed Poisson equation and the fixed pressure gauge
+give the `\nabla^{q+1}p` bounds on the same interior cylinder. Thus every `K_q`
+for `q<=N` is controlled.
 
 ## Depth convention
 
