@@ -817,8 +817,8 @@ through one of the concrete missing bridges above.
 
 `MinimalZenoTraceNoEscape.A` is now a conditional theorem with a complete
 low/high proof skeleton.  From installed NS inputs, it remains open at the
-carrier and residual bridges.  The most promising next attack is not a new
-global compactness package; it is the narrower pair
+carrier and residual bridges.  The next exact attack is not a new global
+compactness package; it is the narrower pair
 
 ```math
 \boxed{

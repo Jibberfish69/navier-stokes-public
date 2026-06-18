@@ -205,7 +205,7 @@ The honest Lagrangian recheck is:
 
 ```math
 \boxed{
-\text{this route is more promising than the fake Eulerian }(D_t,\nabla)\text{ swap.}
+\text{this route is the lawful material-derivative replacement for the fake Eulerian }(D_t,\nabla)\text{ swap.}
 }
 \tag{17}
 ```

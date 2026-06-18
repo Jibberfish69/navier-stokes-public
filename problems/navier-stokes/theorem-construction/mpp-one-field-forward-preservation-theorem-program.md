@@ -2165,7 +2165,7 @@ If `(OFP.10j)`--`(OFP.10k)` hold, then the exact transported bridge
 control into a surviving positive Eulerian coherence scale. That is the
 shortest direct route to `OFP.A`.
 
-### Why This Compression Is Attractive
+### Why This Compression Is the Exact Target
 
 This candidate keeps the proof pressure on one real object:
 
@@ -2190,7 +2190,7 @@ by one propagated same-fluid envelope in label space.
 
 ### Exact Caution
 
-This compressed theorem is promising, but it is not yet proved on disk.
+This compressed theorem is the exact target, but it is not yet proved on disk.
 
 The main reason is that the naive envelope
 

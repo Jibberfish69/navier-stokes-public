@@ -38,7 +38,7 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 ## Target
 
 For each legal same-fluid packet edge `e:P\to P'` at heat scale `2^{-j_e}`,
-the hoped-for theorem is a current-capacity bound:
+the required theorem is a current-capacity bound:
 
 ```math
 \int_I |J_e(t)|\,dt

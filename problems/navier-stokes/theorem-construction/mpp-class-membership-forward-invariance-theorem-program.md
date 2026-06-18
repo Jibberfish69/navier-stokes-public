@@ -9,7 +9,7 @@ program.
 
 This note does **not** delete the still-live manifestation bridge in
 [mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-pde-nonsmoothness-to-surviving-class-violation-bridge-note.md).
-It records the stronger hope that the bridge can be compressed into one more
+It records the stronger compression target that the bridge can be replaced by one more
 primitive theorem:
 
 ```math
