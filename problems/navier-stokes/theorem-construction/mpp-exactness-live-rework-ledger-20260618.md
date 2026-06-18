@@ -1717,6 +1717,45 @@ Edited live surface:
 
 - `theorem-construction/mpp-principal-flow-adjoint-parent-or-charge-note-20260504.md`.
 
+## Angular Equidistribution Pass-Or-Exit Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md`
+  said the route "should follow" the positive program until an obstruction is
+  reached and that angular failure "should not remain" an endless positive
+  supplier demand.
+
+Exact replacement:
+
+The note now states the exact pass-or-exit split:
+
+```text
+pass branch: supplies the in-class Member(Q) continuation packet;
+fail branch: becomes Exit(Q):=not Member(Q) only after CM-test entry and a
+concrete Pack/Part/Field face failure.
+```
+
+For finite QSP angular nonconcentration, the remaining alternative is now
+explicit:
+
+```text
+either prove finite QSP angular nonconcentration for the pass branch,
+or prove QSPAngularFailureFieldNecessityBridge.A:
+under retained Pack+Part and on the same terminal packet, failure of finite
+QSP angular nonconcentration is failure of the Field coherence/readout
+requirement itself, not merely failure of one sufficient supplier route.
+```
+
+Downstream consequence: the failed positive angular supplier is not treated as
+automatic `Exit(Q)` or automatic Field. It is support for the next necessity
+bridge already named by
+`mpp-angular-concentration-field-face-entry-direct-attempt-20260609.md`.
+
+Edited live surface:
+
+- `theorem-construction/mpp-source-native-selector-angular-equidistribution-direct-attempt-20260609.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
