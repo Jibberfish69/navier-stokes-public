@@ -33,8 +33,10 @@ DTC.A_{avg}\Longrightarrow AVG.RCV.A\Longrightarrow LCI.A_{avg}.
 The strengthened source supplier gives
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+This source hypothesis includes `FCC.C1a`.
 
 The averaged consumer chain then gives
 

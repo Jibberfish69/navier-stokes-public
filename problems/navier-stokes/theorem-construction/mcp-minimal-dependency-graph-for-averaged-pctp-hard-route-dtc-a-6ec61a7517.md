@@ -12,7 +12,7 @@ OriginalSmoothData
 => DTC.A_avg
 => AVG.RCV.A
 => LCI.A_avg
-=> FFSRC.A => FCI.5f
+=> Hyp(FFSRC.A) => FCI.5f
 => CSP.A_avg
 => OFP.A_avg
 => CFI.A_avg
@@ -51,8 +51,10 @@ DTC.A_{avg}
 ```
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
 ```
+
+where the source hypothesis includes `FCC.C1a`.
 
 ```math
 LCI.A_{avg}+FCI.5f

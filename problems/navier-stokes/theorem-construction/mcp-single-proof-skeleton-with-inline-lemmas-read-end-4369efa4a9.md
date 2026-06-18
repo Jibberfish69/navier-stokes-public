@@ -7,7 +7,7 @@ Status: conditional proof skeleton.
 Under the averaged terminal-tail route hypotheses and the source choice
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
 ```
 
 the periodic zero-force Navier-Stokes maximal classical solution satisfies
@@ -124,8 +124,10 @@ DTC.A_{avg}\Longrightarrow LCI.A_{avg}.
 The selected source supplier gives
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`.
 
 Therefore the averaged consumer chain gives
 

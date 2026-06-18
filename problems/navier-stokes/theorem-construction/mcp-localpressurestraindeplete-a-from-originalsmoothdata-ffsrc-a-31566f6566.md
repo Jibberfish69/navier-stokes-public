@@ -48,10 +48,12 @@ and `tr S=0`. Thus incompressibility permits positive stretching.
 The strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
-is a downstream integrability supplier. It does not eliminate positive source production on the terminal bad windows.
+is a downstream integrability supplier, with `FCC.C1a` included as a cutoff
+input. It does not eliminate positive source production on the terminal bad
+windows.
 
 ## Result
 

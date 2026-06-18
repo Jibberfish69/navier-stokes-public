@@ -65,5 +65,7 @@ FPCR.C.
 The active averaged route continues through the strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
+
+The source hypothesis includes `FCC.C1a`.
