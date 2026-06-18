@@ -1848,7 +1848,8 @@ Downstream consequence: FEI pressure-tail consumers may cite the harmonic-tail
 absorption only as a fixed-increment center-energy term plus a finite interval
 source term. It is no longer recorded as a pure `\mathcal I_{N,\eta}^{ctr}`
 coefficient-side absorption and no longer rests on a generic kernel-order
-description.
+description. The later intermediate FEI export `(FPR.C3a)` in the same theorem
+note was updated to carry the same `1+\|u(\cdot,t)\|_{L^2}^4` source term.
 
 Edited live surfaces:
 
