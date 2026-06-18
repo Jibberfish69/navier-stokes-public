@@ -286,8 +286,8 @@ The frame part in `(LBV.2)` is:
 \tag{LBV.12}
 ```
 
-If `n_P` is the transported high-packet direction, the exact transport law
-should give
+If `n_P` is the transported high-packet direction, the needed frame-transport
+input is the explicit estimate
 
 ```math
 |D_tn_P|
@@ -300,9 +300,10 @@ C_{Frame}
 \tag{LBV.13}
 ```
 
-The first term is geometric rotation by strain; the second is legal
-localization/pressure/viscous leakage.  Thus large frame variation is exactly
-the active-strain-alignment-cost branch:
+This note does not prove `(LBV.13)`. It isolates the required hypotheses: the
+first term is geometric rotation by strain, and `\mathrm{FrameComm}_P` must be a
+legal localization/pressure/viscous leakage term on the same packet. Under that
+input, large frame variation is exactly the active-strain-alignment-cost branch:
 
 ```text
 FrameBVCharge.A
