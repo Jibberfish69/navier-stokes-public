@@ -842,26 +842,29 @@ Relative to the packet identity `(MP.12)`, the exact novelty is narrow:
 1. `\mathcal P^{hi}`, `\mathcal F^{hi,press}`, `\mathcal S^{hi}`, and
    `\mathcal R^{hi}` are just the one-rung-higher localized analogues of the
    corresponding packet terms in `(MP.12)`;
-2. `\mathcal C^{visc,\delta}` is the exact localization residue produced by
-   integrating the viscous term against
-   `(\chi_{\rho,\psi,t}^{\delta})^2W_{j,k}`.  For each `(j,k)` it consists of
-   the two cutoff-derivative terms
+2. `\mathcal C^{visc,\delta}` is the exact localization residue produced after
+   the viscous contribution is split as
 
 ```math
+\begin{aligned}
 2\nu\lambda_k
 \int
-\chi_{\rho,\psi,t}^{\delta}
-\nabla\chi_{\rho,\psi,t}^{\delta}\cdot\nabla W_{j,k}\,W_{j,k}\,dx
-\quad\text{and}\quad
-\nu\lambda_k
+(\chi_{\rho,\psi,t}^{\delta})^2 W_{j,k}\Delta W_{j,k}\,dx
+&=
+-2\nu\lambda_k
 \int
-\Delta\!\big((\chi_{\rho,\psi,t}^{\delta})^2\big)
-|W_{j,k}|^2\,dx,
+(\chi_{\rho,\psi,t}^{\delta})^2|\nabla W_{j,k}|^2\,dx  \\
+&\quad
++\nu\lambda_k
+\int
+\Delta\!\big((\chi_{\rho,\psi,t}^{\delta})^2\big)|W_{j,k}|^2\,dx .
+\end{aligned}
 \tag{CSP.18a}
 ```
 
-   summed over `(j,k)`, with the annular bound already displayed in
-   `(CSP.22)`;
+   The first term is the collar dissipation.  The second term, summed over
+   `(j,k)`, is `\mathcal C^{visc,\delta}` and is bounded by the annular
+   derivative cost displayed in `(CSP.22)`;
 3. `\mathcal C^{trans,\delta}` is the only genuinely new term created by the
    fact that `\chi_{\rho,\psi,t}^{\delta}` obeys `(CSP.13)` rather than the
    exact transported-cutoff law `(\partial_t+u\cdot\nabla)\phi_t=0`.
