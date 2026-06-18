@@ -107,9 +107,10 @@ Jacobian:
 +\left|\Omega_s\right|
 +\left|(\log\lambda)_s\right|
 +\left|\theta_s\right|
-\le C_{\mathrm{gauge}}
-\|\text{projected modulation residual}\|
-+\mathrm{defect}.
+\le C_{\mathrm{gauge}}\bigl(
+  \|\text{projected modulation residual}\|
+  +\mathrm{defect}
+\bigr).
 \tag{ZD.7}
 ```
 
