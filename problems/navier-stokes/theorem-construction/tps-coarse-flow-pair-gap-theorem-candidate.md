@@ -315,7 +315,7 @@ Define the positive part of the coarse middle eigenvalue by
 ```
 
 The live selector route does not need a pointwise selector of one spatial point
-on the transported segment. It is enough to produce an angular-good sub-arc on
+on the transported segment. The required feed is an angular-good sub-arc on
 which `\lambda_{2,J}^{+}` contributes positively to the exact logarithmic
 pair-strain identity.
 
