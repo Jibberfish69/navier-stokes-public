@@ -710,6 +710,120 @@ Edited live surfaces:
 - `theorem-construction/mpp-affine-readout-condition-number-budget-direct-attempt-20260609.md`;
 - `theorem-construction/coherent-readout-low-mode-comparison-theorem.md`.
 
+## Bounded-Hs Continuation Relaunch Rework
+
+Old loose step:
+
+- Periodic surfaces said "standard/local/classical continuation" extended the
+  solution after an `H^s` bound was known.
+- Whole-space surfaces said whole-space local theory continued the solution
+  beyond the endpoint after compact-core plus exterior-tail control.
+- Prodi--Serrin surfaces said the continuation criterion extended the solution
+  without naming the exact spacetime hypothesis being spent.
+- The compression hid the fact that the same-solution continuation proof needs a
+  uniform lifespan, launch times approaching the endpoint, and uniqueness on the
+  overlap.
+
+Exact periodic replacement:
+
+For `s>5/2`, the readout must supply
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+```
+
+Periodic `H^s` local well-posedness supplies a lifespan
+
+```math
+\tau=\tau(\nu,s,M_s)>0
+```
+
+for all data with `H^s` norm at most `M_s`. Choosing
+`t_j\uparrow T_*` with `T_*-t_j<\tau/2`, the solution launched from `u(t_j)`
+exists past `T_*`. Uniqueness identifies it with the original solution on the
+overlap, contradicting maximality of a finite endpoint.
+
+Exact whole-space replacement:
+
+For the `R^3` branch, compact-core and exterior-tail hypotheses must produce
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb R^3)}<\infty,
+\qquad s>5/2.
+```
+
+Whole-space `H^s` local well-posedness then gives the same
+`\tau=\tau(\nu,s,M_s)>0` relaunch and uniqueness contradiction. The exterior
+tail remains a real hypothesis; local compact-core charts alone do not produce
+the global `H^s(\mathbb R^3)` bound.
+
+Exact Prodi--Serrin replacement:
+
+The readout must give an exact spacetime bound for the same solution on a
+terminal interval, for example
+
+```math
+u\in L^q((T_*-\delta,T_*);L^p(\mathbb R^3)),
+\qquad 2/q+3/p\le 1,\quad p>3.
+```
+
+The endpoint case may be spent only when the corresponding endpoint theorem is
+explicitly invoked. Under that theorem, the maximal smooth solution continues
+past `T_*`, and uniqueness identifies the continuation with the original
+solution on the overlap.
+
+Downstream consequence:
+
+No downstream continuation surface may spend the words `standard`, `classical`,
+`local theory`, or `criterion applies` as proof force. The consumer must name
+the exact bounded quantity, the lifespan dependence, the moving launch sequence,
+and uniqueness, or else name the precise missing hypothesis such as
+`Tail.Hs_R3` or the Prodi--Serrin endpoint theorem.
+
+Edited live surfaces:
+
+- `theorem-construction/hfg-continuation-all-scale-and-carrier-export-result.md`;
+- `theorem-construction/mcp-ecqa-final-verification-loop-stop.md`;
+- `theorem-construction/mcp-final-dependency-compression.md`;
+- `theorem-construction/mcp-full-route-originalsmoothdata-to-member-smooth-20260504.md`;
+- `theorem-construction/mcp-manuscript-smallest-standard-lemma-sequence.md`;
+- `theorem-construction/mcp-pctp-hard-readend-ecqa-loop-closure.md`;
+- `theorem-construction/mcp-referee-readable-lemma-compression.md`;
+- `theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md`;
+- `theorem-construction/mpp-annular-limit-cm-face-landing-20260611.md`;
+- `theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md`;
+- `theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md`;
+- `theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md`;
+- `theorem-construction/mpp-contrapositive-terminal-consumption-closure-note-20260503.md`;
+- `theorem-construction/mpp-live-status-sourcelock-clay-final-verification-note.md`;
+- `theorem-construction/mpp-old-main-clay-bridge-final-audit-note.md`;
+- `theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md`;
+- `theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md`;
+- `theorem-construction/mpp-pctp-hard-quantitative-closure-package.md`;
+- `theorem-construction/mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md`;
+- `theorem-construction/mcp-ecq-a-and-pctp-cond-final-continuation-bridge-read-end-2b72f3465e.md`;
+- `theorem-construction/mcp-final-theorem-statement-periodic-global-smoothness.md`;
+- `theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md`;
+- `theorem-construction/mpp-seven-item-paper-grade-closure-package.md`;
+- `theorem-construction/mpp-ttu-independent-verification-and-paper-proof-package.md`;
+- `theorem-construction/mpp-pctp-hard-terminal-tower-final-obstruction.md`;
+- `theorem-construction/mpp-r3-seven-item-tail-branch-resolution.md`;
+- `theorem-construction/mpp-r3-seven-item-tail-closure-attempt.md`;
+- `theorem-construction/mpp-whole-space-branch-setup-and-obstruction-package.md`;
+- `theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md`;
+- `theorem-construction/r3-cm-contrapositive-prodi-serrin-20260528.md`;
+- `submission-bundle/navier-stokes-submission.tex`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second consequence pass:
+
+The first relaunch replacements exposed downstream compression surfaces in the
+referee-readable lemma sequences, dependency compression, source-lock
+verification, periodic theorem statement, R3 tail branch, and Prodi--Serrin
+branch. Those surfaces were edited in the same batch so that the continuation
+step now consumes only exact bounded-quantity hypotheses plus relaunch and
+uniqueness, not an unnamed criterion.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
