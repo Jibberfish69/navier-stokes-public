@@ -1068,6 +1068,20 @@ definition displays finiteness. The downstream contradiction in the manuscript
 therefore spends the exact relaunch-and-uniqueness theorem at the point of use,
 not a loose continuation phrase.
 
+Appendix second consequence pass:
+
+`submission-bundle/source-field-reader-appendix.tex` still contained compressed
+whole-space and mixed-jet continuation statements of the form "the classical
+continuation criterion prevents breakdown" or "boundedness of this norm extends
+the solution." Those passages now state the same exact mechanism: at a
+hypothetical endpoint \(T_*\) or \(T\), define the finite bound \(M_s\) or
+\(M_s(T)\), use the \(H^s\), \(s>5/2\), local theorem to obtain
+\(\tau(\nu,s,M_s)>0\), relaunch from times inside \(\tau/2\) of the endpoint,
+and use uniqueness on the overlap to identify the relaunched branch with the
+original solution. The terminal-record entry hardening passage was tightened in
+the same way, so "continuation theorem" no longer carries proof force without
+the uniform lifespan and uniqueness argument.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
