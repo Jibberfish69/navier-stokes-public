@@ -138,7 +138,7 @@ Thus dyadic exchange does not charge `\mathcal P_n`.
 
 Pressure and cutoff ledgers route legal losses.  They do not give a sign or
 Carleson bound for the interior native source carrier after positive-part
-selection.  The downstream source theorem `FFSRC.A=>FCI.5f` supplies
+selection.  The downstream source theorem `Hyp(FFSRC.A)=>FCI.5f` supplies
 integrability after the receiver/source route is admitted; importing it here
 would assume the bad branch has already been eliminated.
 
