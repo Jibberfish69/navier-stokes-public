@@ -9,6 +9,13 @@ directly and collapsed as an independent target.  The corrected live reading is
 that first-height language points back to `HeightFluxControl.A` plus a genuine
 structural mechanism.
 
+Exactness rework correction, 2026-06-18: "points back to
+`HeightFluxControl.A`" means historical supplier-refinement only.  Current live
+surfaces no longer allow old ActiveHeightFlux / SourceReserve / SignedPair /
+no-free-sink labels to count as fresh progress or CM proof force.  Any use of
+this stack must now supply either same-ledger payment or CM-test admission plus
+a first Pack/Part/Field face failure; otherwise it remains support-level.
+
 Purpose: record the mathematical audit of the new CM / HeightFluxControl
 synthesis before any promotion-grade use.
 
@@ -107,9 +114,9 @@ Since that theorem collapsed, `DonorHeightCreation.A` can be spent toward
 first-pulse `ReserveCreationCharge.A` only after a real structural
 `HeightFluxControl.A` mechanism is installed.
 
-## 4. Corrected direct stack
+## 4. Historical corrected direct stack
 
-The audit-open direct target stack is:
+The audit-open direct target stack was:
 
 ```text
 HeightFluxControl.A
@@ -120,6 +127,10 @@ HeightFluxControl.A
 ```
 
 This is a proposed theorem-crank stack, not an installed implication chain.
+Under the current live frontier it is also not the current target label by
+itself.  It can re-enter only as a same-witness anti-concentration,
+source-Carleson, rigid-anti-atom, non-source Pack-survival, or equivalent
+same-ledger payment mechanism.
 
 ## 5. Shell-balance hard term
 
@@ -154,5 +165,7 @@ as audit-open target-refinement surfaces.
 They may guide theorem attempts and automation routing.
 
 They must not be used as theorem-grade discharges or release/promotion
-evidence until the missing HeightFluxControl / native charge theorem is proved
-on disk and audited.
+evidence.  The exact promotion boundary is now sharper than "prove
+HeightFluxControl": prove the same-ledger payment or CM-test admission plus the
+first Pack/Part/Field face failure for the retained same-witness terminal
+branch.
