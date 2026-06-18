@@ -482,6 +482,54 @@ Edited live surface:
 
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Middle-Band Gap-Kernel Mean-Value Rework
+
+Old loose step:
+
+- `theorem-construction/middle-band-flux-gap-kernel-theorem.md` derived the
+  \(\ell/r\) kernel by saying that, "for a field varying on scale \(r\),"
+  the commutator increment gives the ratio \(|h|/r\).
+- `submission-bundle/source-field-reader-appendix.tex` carried the same live
+  proof step in an even looser PDF-facing form, saying that a field varying on
+  scale \(r\) yields a ratio and then referring downstream to a bare "kernel
+  /r."
+
+Exact replacement:
+
+Both live surfaces now derive the scale factor from the exact difference
+identity for the \(r\)-band field \(f_r=\widetilde Q_r u\):
+
+```math
+f_r(x+h)-f_r(x)
+=
+\int_0^1 h\cdot\nabla f_r(x+\theta h)\,d\theta .
+```
+
+On the radius-\(\ell\) commutator kernel support, \(|h|\le C_\rho\ell\), hence
+
+```math
+|f_r(x+h)-f_r(x)|
+\le
+C_\rho\frac{\ell}{r}
+\int_0^1 r|\nabla f_r(x+\theta h)|\,d\theta .
+```
+
+The normalized far-band density is now stated as \(r|\nabla\widetilde Q_r u|\)
+after convolution against kernels with uniformly bounded \(L^1\) mass.  The
+\(\ell/r\) factor is therefore a commutator-increment consequence, not a linear
+profile assumption for the \(r\)-band field.
+
+Downstream consequence: the middle-band/far-corona route no longer spends
+"field varying on scale \(r\)" as proof force.  The open theorem remains the
+one-sided square/Carleson estimate on the coupled two-scale density
+\(\mathcal A_{\ell,r}\), with Hardy/Schur applied only after the exact
+\(\ell/r\) kernel and normalized far-band density are exposed.
+
+Edited live surfaces:
+
+- `theorem-construction/middle-band-flux-gap-kernel-theorem.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
