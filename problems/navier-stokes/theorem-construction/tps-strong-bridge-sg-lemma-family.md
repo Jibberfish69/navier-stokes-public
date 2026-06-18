@@ -248,8 +248,7 @@ and therefore
 ```
 
 In particular, any coarse theorem that excludes the enlarged shadow strip at
-radius `\widetilde\sigma_J` automatically excludes the true `\sigma_J` shadow
-tube.
+radius `\widetilde\sigma_J` excludes the true `\sigma_J` shadow tube.
 
 **Proof.**
 If `|X(a,t)-X(b,t)|\le \sigma_J`, then
@@ -873,7 +872,8 @@ Three routes are now visible:
 3. **One-sided defect realization.** Prove an averaged bound of the type
    `(SG.4Dvii)` for the selector-adapted defect density
    `\mathfrak d_J^-=[\lambda_J-\mathfrak s_J]_+`. Then `SG.4D` extracts a large
-   good family on which the renewal package `SG.4B` holds automatically.
+   good family on which the renewal package `SG.4B` holds by the renewal
+   hypotheses.
 
 So the only genuinely new theorem family left inside the strong packet is
 `SG.4-production`.
