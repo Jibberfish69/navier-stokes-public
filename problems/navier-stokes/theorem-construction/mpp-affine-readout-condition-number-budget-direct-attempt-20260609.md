@@ -74,7 +74,7 @@ The skew part of `A` rotates the frame. The symmetric part
 S(t)=1/2(A(t)+A(t)^T)
 ```
 
-changes singular values. Standard singular-value comparison gives
+changes singular values. The exact differential comparison used here is
 
 ```text
 d/dt log ||J(t)|| <= ||S(t)||_{op},
