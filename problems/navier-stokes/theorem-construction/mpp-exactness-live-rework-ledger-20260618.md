@@ -6271,6 +6271,67 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Scale-Language / Behaves-Like Rework
+
+Old claim being spent:
+
+Several live surfaces still used proof-force comparison language such as
+`behaves like`, `looks like`, `same kind`, and `comparable size` where the
+argument needed an exact inequality, an exact predicate statement, or a precise
+reader-facing warning.  The worst cases were:
+
+- the cone-wall volume note saying the wall area "behaves like" a slope term;
+- the `H^{1/2}` oscillation note explaining the exit by comparable-size
+  velocity wording;
+- the appendix finite-cover and source-field paragraphs using "same kind" or
+  "behaves like" language for proof roles;
+- the proof-attempt appendix saying theorem burdens and terminal objects "look
+  like" proof holes or shortcuts.
+
+Exact replacement:
+
+The cone-wall surface now uses the exact bound, for
+`rho(t)=lambda tau^beta`,
+
+```text
+|rho'(t)| = lambda beta tau^(beta-1),
+sqrt(1+a^2) <= 1+a,
+```
+
+so
+
+```text
+int_0^{tau0} rho(t)^2 sqrt(1+|rho'(t)|^2) d tau
+<= lambda^2 int_0^{tau0} tau^(2 beta) d tau
+ + lambda^3 beta int_0^{tau0} tau^(3 beta - 1) d tau
+< infinity
+```
+
+for every `beta>0`.  The `H^{1/2}` note now states the retained-signal
+predicate `PureOsc_{H^{1/2}}(W)` rather than a comparable-profile description.
+The source-field appendix now states exact roles: the tower is a
+lower-triangular feed network, the packet has one shared field at depth `N`, the
+Zeno atom has the Carleson-tree landing, and the BKM/Serrin inputs give endpoint
+exclusion when supplied on the terminal interval.  The proof-attempt appendix
+now says the old readings are misreadings and names the desired shell payment
+as the displayed inequality.
+
+Downstream consequence:
+
+These surfaces no longer spend scale-metaphor language as proof evidence.  The
+cone-wall contribution is paid by an explicit integrability inequality; the
+oscillation exit is paid by a retained `H^{1/2}` signal predicate; and the
+appendix reader route separates exact proof roles from warnings about how the
+old presentation could be misread.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`;
+- `theorem-construction/mpp-hhalf-oscillation-field-exit-reduction-20260528.md`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Dynamic-Source Thought-Note Wording Cleanup
 
 Old claim being spent:
