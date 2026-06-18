@@ -142,7 +142,7 @@ Define the weighted cutoff-defect ledger
 This is not the same object as the localized packet energy `E_N`: the weight is
 `|\nabla\phi_t|^2`, not `\phi_t^2`.
 
-### Corollary `PCC.B` (Immediate packet-side cutoff bound)
+### Corollary `PCC.B` (Direct packet-side cutoff bound)
 
 For every frozen increment `h` and every `t`,
 

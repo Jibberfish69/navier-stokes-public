@@ -250,7 +250,7 @@ Any theorem statement that does not explicitly include:
 
 is too weak to count as the direct `PD.70` supplier.
 
-## Immediate Consequence For The Route
+## Consequence For The Route
 
 This shifts the direct theorem frontier to:
 

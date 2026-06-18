@@ -333,7 +333,7 @@ Until that converse exists, the operational attack order on this branch remains:
 3. keep the contrapositive downstream, and only then revisit any
    jump-manifestation pivot.
 
-## Immediate Attack Reduction
+## Attack Reduction
 
 The first thing to do with `CJ.A_low` is not to attempt the whole collar theorem.
 It is to prove the finite-cover anchor-chain lemma and expose the exact anchor

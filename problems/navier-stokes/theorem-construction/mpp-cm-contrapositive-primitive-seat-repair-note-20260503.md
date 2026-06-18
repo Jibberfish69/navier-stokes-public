@@ -84,7 +84,7 @@ mpp-upstream-downstream-audit-against-sourcepulse-cmexit-note-20260503.md
 is therefore quarantined as a source-pulse branch audit, not a CM primitive
 authority surface.
 
-## Immediate consequence
+## Direct consequence
 
 The live route status must be downgraded from local CM closure to
 

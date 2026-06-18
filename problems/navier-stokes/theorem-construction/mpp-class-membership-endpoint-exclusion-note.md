@@ -524,7 +524,7 @@ to forbid ordinary zero velocity. It means:
 That is the exact sense in which the tower is built into `\mathcal MPP([0,T))`
 rather than merely read off after the fact.
 
-## Immediate Formal Burden
+## Formal Burden
 
 The unresolved work is now sharply identifiable.
 

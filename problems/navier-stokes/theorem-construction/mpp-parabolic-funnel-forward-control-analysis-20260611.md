@@ -334,7 +334,7 @@ scale-critical cone budget finite or small.
 The forward estimate needs a new scale-critical input, not another raw energy
 calculation.
 
-## 8. Rescaled Energy Has No Immediate Coercive Sign
+## 8. Rescaled Energy Has No Coercive Sign By Itself
 
 On the whole rescaled space, formally multiplying the rescaled equation by `v`
 gives:

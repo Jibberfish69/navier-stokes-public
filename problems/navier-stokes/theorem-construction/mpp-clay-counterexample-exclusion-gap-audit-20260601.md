@@ -60,7 +60,7 @@ Full Clay-ready Navier-Stokes proof: not established.
 
 The proof can be completed only by proving the missing bridge, or by replacing the manuscript's closing argument with a different noncircular argument that excludes finite terminal breakdown for the original solution.
 
-## Immediate Manuscript Repair
+## Manuscript Repair
 
 The submission manuscript must stop presenting the classified class exit as a completed proof of global regularity.
 

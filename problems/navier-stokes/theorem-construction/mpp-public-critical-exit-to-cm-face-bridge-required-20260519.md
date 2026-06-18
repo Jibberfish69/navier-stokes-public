@@ -163,7 +163,7 @@ CritExit_X(\mathcal W)
 
 A theorem that only says "`X` blows up" has not landed in CM yet.
 
-## Immediate classification
+## Current classification
 
 Most public critical-norm exits should be treated as `Field`-side candidates
 unless the proof identifies a cover/carrier failure or a same-PDE participation

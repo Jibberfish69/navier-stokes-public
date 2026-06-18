@@ -153,7 +153,7 @@ The honest order from the Euler control case is:
    control case identifying the missing mechanism; fixed-`nu` Euler-to-NS
    transfer remains a separate theorem target.
 
-## Immediate Theorem Burden
+## Current Theorem Burden
 
 The next theorem-facing burden should be named something like:
 
