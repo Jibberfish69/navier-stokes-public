@@ -6137,3 +6137,42 @@ the fixed-metric Lipschitz Carleman / heat observability packet.
 Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
+
+## ATD Interior-Bootstrap Standard-Step Repair
+
+Old claim being spent:
+
+The active ATD tower note said that "standard interior parabolic bootstrapping"
+gives every finite velocity and pressure derivative required by `DTC.Read`.
+That was too loose as a proof step because it did not state the pressure gauge,
+the pressure equation, the interior cylinder, or the finite-depth constants.
+
+Exact replacement:
+
+The note now states the local estimate on normalized cylinders:
+
+```text
+CKN_std(Q_1) <= epsilon_CKN
+=> for each finite k,
+sup_{Q_{1/2}} |nabla^k u| + sup_{Q_{1/2}} |nabla^{k+1} p|
+   <= C_k(k,nu,epsilon_CKN),
+```
+
+with pressure read through
+
+```text
+-Delta p = partial_i partial_j(u_i u_j)
+```
+
+after fixing the CKN pressure normalization.
+
+Downstream consequence:
+
+The ATD note now identifies exactly why `U_{N+2}` supplies the viscous piece
+`\nu Delta U_q` and why the same local regularity gain supplies
+`\nabla^{q+1}p` for `0<=q<=N`.  It remains a conditional local theorem: it does
+not create the CKN-good cylinder or terminal cover.
+
+Surface edited:
+
+- `theorem-construction/mcp-atd-tower-bootstrapping-depth-lemma-e5998e235f.md`.
