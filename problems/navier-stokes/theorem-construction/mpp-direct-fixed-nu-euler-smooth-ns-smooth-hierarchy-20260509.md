@@ -158,17 +158,70 @@ where `C_E(t)` is finite on `[0,T]` by Euler smoothness.
 ### Proof
 
 Subtract Euler from Navier--Stokes and apply the Leray projection. Apply
-`\Lambda^s`, pair with `\Lambda^s w`, and use standard Kato--Ponce commutator
-and product bounds with `H^s\hookrightarrow W^{1,\infty}`. The viscous term gives
+`\Lambda^s` and pair with `\Lambda^s w`.  The estimates being spent are the
+following, for `s>5/2` and smooth divergence-free fields on the same whole-space
+or periodic surface:
+
+```math
+\|[\Lambda^s,a\cdot\nabla]b\|_2
+\le
+C_s\big(
+\|\nabla a\|_{L^\infty}\|b\|_{H^s}
++\|a\|_{H^s}\|\nabla b\|_{L^\infty}
+\big),
+```
+
+and
+
+```math
+\|a\cdot\nabla b\|_{H^s}
+\le
+C_s\big(
+\|a\|_{H^s}\|\nabla b\|_{L^\infty}
++\|a\|_{L^\infty}\|b\|_{H^{s+1}}
+\big),
+```
+
+together with the embedding `H^s\hookrightarrow W^{1,\infty}`.  Since
+`\nabla\cdot u^E=0`,
+
+```math
+\langle u^E\cdot\nabla\Lambda^s w,\Lambda^s w\rangle=0,
+```
+
+so
+
+```math
+|\langle \Lambda^s(u^E\cdot\nabla w),\Lambda^s w\rangle|
+=
+|\langle [\Lambda^s,u^E\cdot\nabla]w,\Lambda^s w\rangle|
+\le C_E(t)\|w\|_{H^s}^2.
+```
+
+The product estimate gives
+
+```math
+|\langle \Lambda^s(w\cdot\nabla u^E),\Lambda^s w\rangle|
+\le C_E(t)\|w\|_{H^s}^2,
+```
+
+with `C_E(t)` depending on a finite smooth Euler norm, for example
+`\|u^E(t)\|_{H^{s+2}}`.  For the perturbation nonlinearity,
+
+```math
+|\langle \Lambda^s(w\cdot\nabla w),\Lambda^s w\rangle|
+\le C_s\|\nabla w\|_{L^\infty}\|w\|_{H^s}^2
+\le C_s\|w\|_{H^s}^3.
+```
+
+The viscous term gives
 
 ```math
 \langle \Lambda^s\nu\Delta w,\Lambda^s w\rangle
 =-\nu\|\nabla w\|_{H^s}^2.
 ```
 
-The smooth Euler transport and stretching terms are bounded by
-`C_E(t)\|w\|_{H^s}^2`. The nonlinear difference term is bounded by
-`C_s\|w\|_{H^s}^3`. The forcing term satisfies
+The forcing term satisfies
 
 ```math
 2\nu|\langle\Lambda^s\Delta u^E,\Lambda^s w\rangle|
