@@ -1,4 +1,4 @@
-# Same-Scale Model Edge Estimate and Weak Lift Note
+# Same-Scale Coefficient-Bearing Edge Estimate and Weak Lift Note
 
 ## Purpose
 
@@ -90,7 +90,7 @@ and hence, for every `\varepsilon>0`,
 \varepsilon \nu\int_0^T D_N(t)\,dt
 +
 C_{\varepsilon,a,\nu}\int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt.
-\tag{SS^\sharp\text{-}model}
+\tag{SS^\sharp\text{-}edge}
 ```
 
 ### Proof
@@ -152,7 +152,7 @@ C_{\varepsilon,\nu}(\Gamma_N^{ss})^2E_N.
 ```
 
 Using `(3)` and absorbing `C_{\Gamma,ss}` and `C_{\Pi,a}` into
-`C_{\varepsilon,a,\nu}` gives `(SS^\sharp\text{-}model)`.
+`C_{\varepsilon,a,\nu}` gives `(SS^\sharp\text{-}edge)`.
 
 ## Corollary B: weak lift to upper boundary and moving spill
 
@@ -200,7 +200,7 @@ C_{sp,*}^{res}2^{-2\delta N}.
 \tag{14}
 ```
 
-Then the coefficient-bearing estimate `(SS^\sharp\text{-}model)` lifts to
+Then the coefficient-bearing estimate `(SS^\sharp\text{-}edge)` lifts to
 
 ```math
 \int_0^T |\mathfrak B_N^{upper}(t)|\,dt
@@ -228,14 +228,14 @@ C_{sp,*}^{res}2^{-2\delta N}.
 
 ### Proof
 
-Integrate `(11)` in time and apply `(SS^\sharp\text{-}model)` termwise over the
+Integrate `(11)` in time and apply `(SS^\sharp\text{-}edge)` termwise over the
 finite set `\mathcal A_{ub}`. With
 `A_{ub}:=|\mathcal A_{ub}|`, all packet constants are absorbed into the displayed
 coefficient `C_{\varepsilon,\nu,ub}`. Then use `(13)` to obtain
 `(UB^\sharp)`.
 
 The moving-spill estimate is identical: integrate `(12)`, apply
-`(SS^\sharp\text{-}model)` over the finite set `\mathcal A_{sp}`, absorb
+`(SS^\sharp\text{-}edge)` over the finite set `\mathcal A_{sp}`, absorb
 `A_{sp}:=|\mathcal A_{sp}|` and the packet constants into
 `C_{\varepsilon,\nu,sp}`, and then use `(14)` to obtain `(MS^\sharp)`.
 
@@ -260,7 +260,7 @@ C_{a,*}2^{-2\delta N},
 \tag{SS}
 ```
 
-because `(SS^\sharp\text{-}model)` still carries the unresolved same-scale coefficient term
+because `(SS^\sharp\text{-}edge)` still carries the unresolved same-scale coefficient term
 
 ```math
 \int_0^T \Theta_N^{ss,\sharp}(t)\,E_N(t)\,dt.
