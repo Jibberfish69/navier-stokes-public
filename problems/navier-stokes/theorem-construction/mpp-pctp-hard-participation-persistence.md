@@ -39,7 +39,7 @@ Then `Part_{N,Q}` cannot fail first at `T_*`.
 Equivalently,
 
 ```math
-Dead\Longrightarrow Jump\vee tower\text{-}blown
+Dead\Longrightarrow Jump\vee tower\text{-}blown\vee response\text{-}margin\text{-}collapse
 ```
 
 on the retained terminal tail.
