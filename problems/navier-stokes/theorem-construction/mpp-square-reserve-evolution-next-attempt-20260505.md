@@ -30,9 +30,9 @@ calculation. It does not set the current proof target unless the resulting
 source branch is paid in the same ledger or admitted to the CM test with a
 first Pack/Part/Field face failure.
 
-## Live Target
+## Historical Direct Target
 
-The installed direct branch is:
+The historical direct branch was:
 
 ```math
 ParentSquareEmbed.A
