@@ -166,31 +166,67 @@ integral_{S0}^{infinity} integral_{B_lambda}
 < infinity,
 ```
 
-then the late slabs become small:
+then the late cone tails become small:
 
 ```text
-integral_S^{S+1} integral_{B_lambda}
+integral_S^{infinity} integral_{B_lambda}
   ( |v|^3 + |q|^{3/2} ) dy ds
 -> 0.
 ```
 
 Proof: the integrand is nonnegative and integrable on `[S0,infinity)`, so the
-tail integrals over unit slabs tend to zero.
+tail integrals tend to zero.
 
-For all sufficiently large `S`, the corresponding physical parabolic cylinders
-inside the cone have scale-critical mass below the CKN epsilon threshold on a
-smaller subcone, for example `B_{lambda/2}` after the usual cutoff shrink.
+This is a moving-cone statement. In physical variables it controls the
+self-similar terminal region
+
+```text
+K_{lambda,S}
+:=
+{(x,t): T-e^{-S}<t<T, |x-x0|<lambda sqrt(T-t)}.
+```
+
+It does not by itself control a standard CKN cylinder
+
+```text
+Q_r(x0,T):=B_r(x0) x (T-r^2,T).
+```
+
+For every fixed `r>0`, the cylinder contains points arbitrarily close to `T`
+with `lambda sqrt(T-t)<|x-x0|<r`; those points lie outside the moving cone.
+Thus the old "smaller subcone after cutoff shrink" step is not a CKN cylinder
+smallness theorem.
+
+The exact CKN-consuming bridge must be one of the following:
+
+```text
+MovingConeToCKNSmallness.A:
+  moving-cone tail smallness + exterior annulus control
+  => limsup_{r downarrow 0} CKN(Q_r(x0,T)) < epsilon_CKN,
+```
+
+or a direct moving-cone epsilon-regularity theorem whose hypotheses match
+`K_{lambda,S}`. Equivalently, one may assume the full-cylinder smallness
+
+```text
+limsup_{r downarrow 0}
+  integral_{T-r^2}^T integral_{B_r(x0)}
+    ( |u|^3 + |p|^{3/2} ) dx dt / r^2
+< epsilon_CKN.
+```
+
 CKN epsilon regularity then rules out a singular point at the cone tip.
 
-So the conditional forward theorem is proved:
+So the conditional forward theorem is:
 
 ```text
 finite undiscounted cone budget
-=> late cone slabs become CKN-small
+=> late moving-cone tails become small
++ MovingConeToCKNSmallness.A or full-cylinder CKN smallness
 => no terminal singularity at (x0,T).
 ```
 
-The open supplier is the first boxed premise:
+The open suppliers are now the cone-budget premise
 
 ```text
 ParabolicFunnelScaleCriticalBudget.A
@@ -200,6 +236,12 @@ or a replacement profile monotonicity theorem:
 
 ```text
 FunnelProfileLyapunov.A.
+```
+
+and the cone-to-CKN bridge
+
+```text
+MovingConeToCKNSmallness.A.
 ```
 
 ## 4. Static Hiding / Singulet Case
