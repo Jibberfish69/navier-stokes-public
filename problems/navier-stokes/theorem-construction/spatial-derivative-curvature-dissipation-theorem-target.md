@@ -58,7 +58,7 @@ So the corrected theorem target is:
 
 ```math
 \boxed{
-\text{the real curvature object should be the deformation geometry }G,
+\text{the real curvature object is the deformation geometry }G,
 \text{ while the Eulerian derivative tower is its visible shadow.}
 }
 \tag{3}
@@ -140,7 +140,7 @@ cubic term:
 \tag{9}
 ```
 
-So the missing NS square should be sought first in the deformation geometry,
+So the missing NS square target is first sought in the deformation geometry,
 not in a bare quadratic Eulerian tower energy.
 
 ## 2. Why `G` is the right analogue of the hidden YM geometry
@@ -187,7 +187,7 @@ That is exactly the place where a YM-style square defect could live.
 
 ## 3. Corrected primary theorem target
 
-The primary theorem should now be stated on the finite Lagrangian derivative
+The primary theorem is now stated on the finite Lagrangian derivative
 family
 
 ```math
@@ -236,7 +236,7 @@ Here:
   metric to remain transport-flat/tame;
 - `\Psi_r^{\mathrm{Lag}}` is a blowup-controlling geometry norm.
 
-The theorem should also prove coercive comparisons
+The theorem must also prove coercive comparisons
 
 ```math
 c_K\Psi_r^{\mathrm{Lag}}[v,G]
@@ -275,9 +275,9 @@ curvature energy decreases because the field's self-modified diffusion drains
 the very defect that the geometry records.
 ```
 
-## 4. What the pieces should mean
+## 4. What the pieces mean
 
-The viscous part should look like the natural variable-coefficient Dirichlet
+The viscous part is the natural variable-coefficient Dirichlet
 energy:
 
 ```math
@@ -291,7 +291,7 @@ G\,\nabla_a \partial_a^\alpha v : \nabla_a \partial_a^\alpha v\,da
 \tag{18}
 ```
 
-The deformation defect should measure the price of the geometry not remaining
+The deformation defect measures the price of the geometry not remaining
 tame under strain through an exact square packet of the form
 
 ```math
@@ -309,7 +309,7 @@ But the note now fixes the place where it has to be searched:
 
 ```math
 \boxed{
-\text{the missing square should come from geometry-modified diffusion and its coefficient commutators.}
+\text{the missing square target comes from geometry-modified diffusion and its coefficient commutators.}
 }
 \tag{20}
 ```
@@ -320,7 +320,7 @@ The older weighted-Gram / spatial-tower target is still useful, but only as
 the visible shadow of the deeper Lagrangian law.
 
 If `(14)` can be proved and the passage back to Eulerian variables is tame,
-then it should imply a shadow inequality of the form
+then it implies a shadow inequality of the form
 
 ```math
 \boxed{
@@ -365,7 +365,7 @@ What is established now is the route constraint:
 1. a bare quadratic Eulerian weighted-Gram functional cannot by itself produce
    the YM square;
 2. the honest Lagrangian rewrite turns viscosity into geometry-modified heat;
-3. therefore the strongest theorem target should be written first on the
+3. therefore the strongest theorem target is written first on the
    deformation geometry `G`, with the Eulerian tower treated as a shadowed
    consequence.
 

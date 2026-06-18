@@ -172,7 +172,8 @@ on the right-hand side of `(11)`.
 This proves that the weaker projection route does have a clean classical
 energy interface.
 
-It does **not** yet prove that `(10)` is strong enough for global continuation.
+It does **not** yet prove that `(10)` satisfies a stated global-continuation
+criterion for the classical equation.
 It proves that the shadow remainder enters the classical equation exactly as a
 forced `H^{s-1}` source term, with no additional hidden structure needed on the
 classical side.

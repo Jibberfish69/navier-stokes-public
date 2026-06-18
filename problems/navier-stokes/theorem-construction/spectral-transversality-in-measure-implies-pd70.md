@@ -20,14 +20,14 @@ one-sided selector calibration theorem:
 [\lambda_J-\mathfrak s_J]_+ \text{ one-sided directional deficit}.
 ```
 
-The direct missing theorem should therefore be stated in the language of:
+The direct missing theorem is therefore stated in the language of:
 
 1. spectral/bundle transversality on the coarse expanding plane,
 2. pair-gap cocycle exactness or controlled loop defect,
 3. selector calibration on the good active family.
 
 YM-heat / deformation geometry remains relevant, but only one layer upstream:
-it should supply the spectral floor and coherence packet that this direct
+it is required to supply the spectral floor and coherence packet that this direct
 selector theorem consumes.
 
 ## Route Position

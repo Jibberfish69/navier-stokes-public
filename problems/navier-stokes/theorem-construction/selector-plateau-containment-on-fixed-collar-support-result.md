@@ -75,7 +75,10 @@ zero weighted residual on the collar support.
 
 ### Proof
 
-The inclusion `SPC.4` places every point of the fixed collar support inside the plateau set. By `SPC.3`, `w_j=1` on that plateau. This gives `SPC.5`. The lower-envelope statement `SPC.6` and residual vanishing `SPC.7` follow immediately. ∎
+The inclusion `SPC.4` places every point of the fixed collar support inside the
+plateau set. By `SPC.3`, `w_j=1` on that plateau. This gives `SPC.5`. The
+lower-envelope statement `SPC.6` and residual vanishing `SPC.7` are the same
+plateau identity restricted to the collar support. ∎
 
 ## Construction criterion
 

@@ -49,8 +49,13 @@ C_M K_T\,2^{-N/2}\,Q_N(t)
 ```
 
 In particular, the tail-energy spill packet is explicit on the local
-`4 -> 1` surface and is absorbed directly into the tail-energy dissipation for
-all sufficiently large cutoffs.
+`4 -> 1` surface. Its exact payment is the cutoff condition
+
+```math
+C_MK_T2^{-N/2}\le \frac{\eta\nu}{4},
+```
+
+which makes the spill contribution at most `(\eta\nu/4)Q_N(t)`.
 
 ## Proof
 
@@ -276,8 +281,9 @@ This proves the lemma.
 ## Consequence
 
 On the local `4 -> 1` surface, the spill packet is no longer an unresolved
-threshold-strip coefficient problem. It is absorbed directly into the
-tail-energy dissipation once the exact-solution gradient bound is available.
+threshold-strip coefficient problem. It is controlled by `(9)` and hence
+contributes no more than `(\eta\nu/4)Q_N(t)` once the exact-solution gradient
+bound is available and `N\ge N_*`.
 
 ## Honest Boundary
 
@@ -302,6 +308,6 @@ L_N(t)=1+\sum_{k\le N-4}2^{3k/2}\|\Delta_k u(t)\|_{L_x^2}
 
 stops at the strict low cutoff `N-4` and therefore does not include the
 threshold strip `[N-M,N+M]`. On the local `4 -> 1` surface the spill packet is
-absorbed through the exact-solution gradient bound `K_T` and the large-cutoff
-gain `2^{-N/2}`, not by identifying the threshold strip with the declared
-low-mode coefficient.
+paid by the exact-solution gradient bound `K_T` and the large-cutoff condition
+`C_MK_T2^{-N/2}\le\eta\nu/4`, not by identifying the threshold strip with the
+declared low-mode coefficient.

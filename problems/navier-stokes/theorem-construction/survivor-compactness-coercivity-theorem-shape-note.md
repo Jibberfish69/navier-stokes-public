@@ -11,8 +11,8 @@ u^{(n)} \longmapsto \Pi_{\mathrm{surv}}\mathcal Z^{(n)}
 ```
 
 It does **not** prove such a theorem.
-It isolates what the theorem would have to mean, what class it would act on,
-and how it would discharge the live Family `A` survivor route.
+It isolates the theorem meaning, the blowup-normalized class on which it acts,
+and the discharge mechanism for the live Family `A` survivor route.
 
 The role of this note is to replace slogan-level talk with one precise
 mathematical interface.
@@ -58,8 +58,8 @@ The live Family `A` case is
 
 ## Blowup-normalized class
 
-The right theorem should not act on arbitrary smooth solutions. It should act
-on sequences already normalized to expose the survivor.
+The right theorem acts on sequences already normalized to expose the survivor,
+not on arbitrary smooth solutions.
 
 Fix active-scale and relative-gap windows `I,J`, and define the survivor
 target space
@@ -203,8 +203,8 @@ and the blowup-normalized class forces
 Then the survivor norm itself tends to zero, contradicting `(B3)`.
 
 So coercivity is stronger than mere boundedness.
-It says the survivor coordinates are controlled by a defect budget already
-known or expected to vanish.
+It says the survivor coordinates are controlled by a defect budget proved to
+vanish or explicitly hypothesized to vanish.
 
 ## Rigidity add-on
 
@@ -232,7 +232,8 @@ C\,\|S_{2D}\|_{\mathcal Y_{I,J}},
 \tag{SC-5}
 ```
 
-where the `2D` reference survivor is known to vanish or to be harmless.
+where the `2D` reference survivor is known either to vanish or to be controlled
+by the reference theorem.
 
 So the compactness route really has the shape
 
@@ -257,7 +258,7 @@ For the live affine survivor route, define
 \tag{A1}
 ```
 
-The compactness theorem would say:
+The compactness theorem shape is:
 
 ### Theorem shape ASC-1 (Affine survivor compactness)
 
@@ -274,7 +275,7 @@ L^2\big((0,T);L_x^2\times L_x^2\big).
 \tag{A2}
 ```
 
-The coercive version would say:
+The coercive theorem shape is:
 
 ### Theorem shape ASC-2 (Affine survivor coercivity)
 
@@ -297,7 +298,7 @@ C\,\mathfrak D_{\mathrm{aff}}^{(n)}+\varepsilon_n,
 
 If `\mathfrak D_{\mathrm{aff}}^{(n)}\to0`, then the affine survivor vanishes.
 
-## Why this would kill the persistent weighted quotient mode
+## Why this kills the persistent weighted quotient mode
 
 The note
 [affine-survivor-quotient-compactness-interface-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/affine-survivor-quotient-compactness-interface-note.md)

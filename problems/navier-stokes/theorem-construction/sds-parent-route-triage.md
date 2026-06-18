@@ -100,8 +100,9 @@ C_R
 \sum_{k>j+M}2^{-\sigma(k-j)}a_k(t)\,\mathcal D_k^\uparrow(t).
 ```
 
-The damping parent route is the statement that this lifted term is absorbed by
-the square queue:
+The damping parent route is the exact coefficient-margin statement that this
+lifted term is bounded by a small part of the square queue plus a correction
+and an integrable error:
 
 ```math
 \mathcal R_{j,\mathrm{lift}}^\sigma(t)
@@ -304,9 +305,23 @@ with
 ```
 
 If such a coercive inequality holds, then summing in `j>N+M+4` and
-integrating in time gives `(SDS^\sharp)` after the endpoint terms are absorbed
-by the already-available tail bounds on `\Phi_j^\sigma` and the auxiliary
-correction `\Psi_j^\sigma`.
+integrating in time gives `(SDS^\sharp)` provided the endpoint contribution
+
+```math
+\mathfrak E_{N,\mathrm{end}}^\sigma
+:=
+\sum_{j>N+M+4}
+\Big(
+\Phi_j^\sigma(0)-\Phi_j^\sigma(T)
++
+\Psi_j^\sigma(T)-\Psi_j^\sigma(0)
+\Big)_+
+\le
+C_{\mathrm{end}}2^{-2\delta N}.
+```
+
+Together with the displayed `Err_j^\sigma` estimate, this is the exact
+endpoint/tail input needed for the SDS sum.
 
 Equivalently, the only genuinely new step in the monotonicity route is the
 lifted coercivity estimate
@@ -373,9 +388,9 @@ and require
 + \mathrm{err}_j^\sigma.
 ```
 
-After absorbing the lower-order pieces into `\Psi_j^\sigma` and
-`\mathrm{Err}_j^\sigma`, this is exactly the lifted coercive estimate already
-isolated on the monotonicity route.
+After the lower-order pieces are included in the definitions of
+`\Psi_j^\sigma` and `\mathrm{Err}_j^\sigma`, this is exactly the lifted
+coercive estimate already isolated on the monotonicity route.
 
 ### Entropy / Weighted Enstrophy Form
 
@@ -399,8 +414,10 @@ C_*2^{-2\delta N}.
 ```
 
 This is the tight PDE version: the weighted high-frequency tail satisfies a
-one-sided entropy dissipation law, and the lifted forcing is absorbed into the
-square dissipation queue after the correction term is added.
+one-sided entropy dissipation law, and the lifted forcing is controlled by the
+`\varepsilon` share of the square queue plus the displayed correction and error.
+The coercive margin retained by the route is `c-\varepsilon`, so the statement
+is useful only with `0<\varepsilon<c`.
 
 ### Spectral Locality / Anti-Resonance Form
 
@@ -449,7 +466,7 @@ authoritative statement for the route:
 ```
 
 It is the closest to the PDE, it implies `(SDS^\sharp)` directly after summing
-in `j`, and the transport-loss and spectral-locality versions are immediate
+in `j`, and the transport-loss and spectral-locality versions are direct
 rephrasings of the same missing coercive content.
 
 ## Verdict

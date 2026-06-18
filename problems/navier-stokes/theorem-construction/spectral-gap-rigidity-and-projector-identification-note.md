@@ -39,7 +39,7 @@ exact-potential branch can discharge the much harder identification theorem:
 
 ```math
 \boxed{
-\text{recover a projective object from signless pair-defect data and prove that it tracks the true instantaneous top-strain projector strongly enough to force a one-sided angle ledger.}
+\text{recover a projective object from signless pair-defect data and prove a projector-error bound that yields the one-sided angle ledger.}
 }
 \tag{SGR.1}
 ```
@@ -318,8 +318,8 @@ measurable-derivative branch, the alternate candidate is
 `\widetilde{\mathcal C}_J^N`.
 
 The exact burden is **not** that these come from `W_J` alone. The burden is
-that they are readable from the route data carried on the transported good
-family strongly enough to feed projector recovery and projector comparison.
+that the route data carried on the transported good family imply the projector
+recovery and projector comparison estimates used downstream.
 
 ### Package 3. A projector-recovery / pair-to-cocycle synchronization theorem
 
@@ -379,8 +379,8 @@ explicit residual budgets of the form
 ```
 
 This is still the same theorem burden: compare the recovered projective object
-to the true instantaneous top-strain projector strongly enough for the
-one-sided angle ledger to become observable.
+to the true instantaneous top-strain projector by a displayed error bound small
+enough to make the one-sided angle ledger observable.
 
 ### Package 5. A directional observability estimate
 
@@ -534,7 +534,7 @@ The relevant chain is
 \tag{SGR.18r}
 ```
 
-So the real question is not whether the story sounds plausible in prose. The
+So the real question is not whether the story sounds coherent in prose. The
 real question is where one implication can fail as mathematics.
 
 ### Failure 1. Surrogate failure
@@ -651,8 +651,8 @@ That is the strongest version of the idea that still matches the live frontier.
 
 ## Successor Discharge Surfaces
 
-The live discharge sequence downstream of this clarification note should be
-read in the current-strength route form
+The live discharge sequence downstream of this clarification note is the
+current-strength route form
 
 ```math
 (\text{EWI.A},\ \text{branch-local synchronization packet})
@@ -949,9 +949,9 @@ D.7mp + D.7mo + D.7mm
 \tag{SGR.20z}
 ```
 
-should be read as one sufficient route to the hypotheses and bootstrap control
-behind `SSC-EP.A`, rather than as the minimal logical statement of the
-branch-local selector-strain theorem itself.
+is one sufficient route to the hypotheses and bootstrap control behind
+`SSC-EP.A`, rather than the minimal logical statement of the branch-local
+selector-strain theorem itself.
 
 So the exact live debt on the branch is best summarized as:
 

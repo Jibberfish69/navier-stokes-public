@@ -201,7 +201,7 @@ By `(SDC.5)` and `(SDC.9)`,
 ```
 
 Use `(x+y+z)^2\le 3(x^2+y^2+z^2)` and integrate against `M_J^2\,d\mu_J`. This
-gives `(SSC-D7mb)`. The implication `(SDC.10) => (SSC)` is immediate. ∎
+gives `(SSC-D7mb)`. The implication `(SDC.10) => (SSC)` then follows by substitution. ∎
 
 ## Corollary To The Angular Ledger
 
@@ -455,7 +455,8 @@ Q_J^{top}(W_J^N)^*S_J^N W_J^N n_J
 ```
 
 because `(D.7ml5)`-`(D.7ml6)` and `(D.7mf2)` are exactly the coefficients
-appearing in `(D.7ml3)` after absorbing the harmless factors `2` and `3`.
+appearing in `(D.7ml3)` after multiplying the fixed numerical factors `2` and
+`3` into the displayed constant.
 Multiplying `(SDC.25)` by `2` and integrating gives
 
 ```math

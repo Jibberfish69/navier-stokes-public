@@ -37,7 +37,16 @@ For `k<j` and `ell` in the output collar, the commutator has the standard paraco
 2^{-j}\mathcal C_j(\nabla a_k,\nabla\Delta_\ell u)+\text{lower order collar terms}.
 ```
 
-Since `ell` is comparable to `j`, this yields the leading size
+On the output collar assume the exact support condition `|\ell-j|\le C_{\rm col}`.
+Then
+
+```math
+2^{-C_{\rm col}}\le 2^{\ell-j}\le 2^{C_{\rm col}},
+```
+
+so the factor `2^{-j}\nabla\Delta_\ell u` has the same dyadic size as
+`\Delta_\ell u` up to the fixed constant `2^{C_{\rm col}}`.  This yields the
+collar-local expression
 
 ```math
 \mathcal R_{j,k,\ell}^{lift}

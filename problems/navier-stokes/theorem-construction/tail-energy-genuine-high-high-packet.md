@@ -14,8 +14,8 @@ Q_N(t):=\|\nabla P_{\ge N}u(t)\|_{L_x^2}^2.
 ```
 
 After the strict low-mode packet and the finite-band spill packet have both
-been removed, this note records the remaining high-high interaction and its
-large-cutoff absorption on the same tail-energy surface.
+been removed, this note records the remaining high-high interaction and the
+large-cutoff inequality on the same tail-energy surface.
 
 ## Exact Packet
 
@@ -59,7 +59,8 @@ After reindexing the finite collar into the threshold budget, this becomes
 \frac{\eta\nu}{4}\,Q_N(t)
 ```
 
-for all sufficiently large `N`.
+for every `N\ge N_{\mathrm{HH}}`, after enlarging the theorem-local cutoff once
+to account for the fixed collar.
 
 ## Proof
 
@@ -156,7 +157,7 @@ C' 2^{-N} C_E^{1/2}\,Q_{N-M}(t).
 \tag{5}
 ```
 
-### Step 4. Absorption
+### Step 4. Large-cutoff payment
 
 Choose `N_*` so that
 
@@ -177,26 +178,26 @@ Then `(5)` implies
 \tag{7}
 ```
 
-Absorb the finite collar `M` into the threshold regime by enlarging `N_*`
-inside the same theorem-local budget. This yields
+Enlarge `N_*` once to include the fixed collar `M`, and call the resulting
+threshold `N_{\mathrm{HH}}`. This yields
 
 ```math
 \mathcal N_{N,\mathrm{HH}}^{\mathrm{tail}}(t)
 \le
 \frac{\eta\nu}{4}\,Q_N(t)
-\qquad (N \ge N_*).
+\qquad (N \ge N_{\mathrm{HH}}).
 \tag{8}
 ```
 
-This is the exact large-cutoff high-high absorption used on the local
-tail-energy surface.
+This is the exact large-cutoff high-high payment used on the local tail-energy
+surface.
 
 ## Consequence
 
 On the `4 -> 1` tail-energy surface, the genuine high-high packet is reduced to
 the same near-diagonal cubic packet already visible in the scale-side theorem
-stack, and it is absorbed into the gradient-tail dissipation `Q_N` for all
-sufficiently large cutoffs.
+stack, and it contributes at most `(\eta\nu/4)Q_N` for every
+`N\ge N_{\mathrm{HH}}`.
 
 So, locally inside the recertification packet,
 

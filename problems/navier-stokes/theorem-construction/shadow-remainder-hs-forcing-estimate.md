@@ -82,7 +82,7 @@ Because `\mathbb P_{\mathrm{Leray}}` is bounded on `H^s`,
 \tag{6}
 ```
 
-For `s>\frac52`, the standard Sobolev product estimate gives
+For `s>\frac52`, the `H^s` Sobolev product estimate gives
 
 ```math
 \big|\big\langle \Lambda^s((u\cdot\nabla)u),\Lambda^s u\big\rangle\big|

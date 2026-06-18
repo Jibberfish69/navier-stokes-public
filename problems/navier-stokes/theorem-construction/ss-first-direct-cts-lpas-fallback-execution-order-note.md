@@ -6,7 +6,7 @@ This note records the exact execution order now supported by the classical
 lifted-packet route.
 
 The point is not merely to say that `(SS)` and `LPAS/CTS` are both open. The
-point is to fix the order in which they should be attacked:
+point is to fix the attack order:
 
 ```math
 \text{first close `(SS)`,}
@@ -52,7 +52,7 @@ with
 
 So the packet does **not** bottleneck symmetrically.
 
-## Why `(SS)` should come first
+## Why `(SS)` comes first
 
 The same-scale side is already local and fully packet-identified.
 
@@ -98,7 +98,7 @@ So Step A is:
 \tag{5}
 ```
 
-## Why direct `(CTS)` should come second
+## Why direct `(CTS)` comes second
 
 Once the same-scale side is closed, the only genuine large-gap survivor is the
 far-corona packet
@@ -131,7 +131,7 @@ C_{CTS}
 \tag{CTS}
 ```
 
-So the second target should be:
+So the second target is:
 
 ```math
 \text{keep } \mathcal A_{\ell,r} \text{ and the kernel } \ell/r \text{ visible long enough to try to prove `(CTS)` directly.}
@@ -170,7 +170,7 @@ not
 ```math
 \mathcal A_{\ell,r}
 \Longrightarrow
-\text{immediate dyadic overestimate.}
+\text{unproved dyadic overestimate.}
 \tag{9}
 ```
 
@@ -202,7 +202,7 @@ installed Euclidean queue:
 3. weighted factorization still leaves the uncontrolled lower-prefix times
    active-square product.
 
-So `(LPAS)` should be treated as:
+So `(LPAS)` is treated as:
 
 ```math
 \text{the exact fallback theorem debt if direct `(CTS)` still collapses to dyadic language.}
@@ -259,7 +259,7 @@ The mathematically sane route order is therefore:
 
 This note does **not** prove `(SS)`, `(CTS)`, or `(LPAS)`.
 
-What it fixes is the order in which those open debts should now be worked.
+What it fixes is the order in which those open debts are worked.
 
 The route is no longer:
 

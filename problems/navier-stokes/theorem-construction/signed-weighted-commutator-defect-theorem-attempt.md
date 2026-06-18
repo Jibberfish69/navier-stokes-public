@@ -26,7 +26,15 @@ the product
 a_k\cdot\nabla\Delta_\ell u
 ```
 
-has Fourier support at frequencies comparable to `2^\ell`. Therefore
+has Fourier support contained in an annulus
+
+```math
+c_{LP}2^\ell\le |\xi|\le C_{LP}2^\ell
+```
+
+with constants fixed by the Littlewood-Paley cutoffs. Since `j+M<\ell-4` and
+`M` is chosen larger than the cutoff overlap width, this annulus is disjoint
+from the support of `\Delta_j`. Therefore
 
 ```math
 \Delta_j(a_k\cdot\nabla\Delta_\ell u)=0.

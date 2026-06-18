@@ -74,7 +74,7 @@ Then
 ```
 
 Since `\mathbb P_{\mathrm{Leray}}` is bounded on `H^s`, the nonlinear term obeys
-the standard commutator estimate
+the Kato--Ponce `H^s` commutator/product estimate
 
 ```math
 \big|

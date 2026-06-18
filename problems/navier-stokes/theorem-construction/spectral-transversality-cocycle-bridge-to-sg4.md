@@ -32,8 +32,7 @@ The lane now has three installed facts:
 3. the one-sided extraction from a stripwise deficit budget to `SG.4B` is
    already formal.
 
-So the remaining theorem search should not be phrased as “another coercive
-estimate on `W_J`.” It should be phrased as:
+The remaining theorem target is:
 
 ```math
 \boxed{
@@ -324,7 +323,7 @@ Define the one-sided directional deficit
 \tag{5.1}
 ```
 
-Then `(4.1)` immediately gives
+Then `(4.1)` gives
 
 ```math
 \mathfrak d_J^-(a,b,t)
@@ -426,7 +425,7 @@ control.
 For the exact rigidity-vs-identification split at this splice point, see
 [spectral-gap-rigidity-and-projector-identification-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/spectral-gap-rigidity-and-projector-identification-note.md).
 
-### What the direct theorem should now be
+### Direct theorem at the live splice point
 
 The direct theorem to prove at the live splice point is:
 
@@ -602,7 +601,7 @@ triangle inequality behind `D.7m` and the `PSJ+.5` reduction give `(7.9)`,
 while `(7.8)` upgrades the pointwise bound to the stripwise family estimate
 `(7.10)`.
 
-### What weaker YM/deformation outputs would still fail
+### Weaker YM/deformation outputs that leave the splice open
 
 Anything that stops at `DG-SF` or `CF-bundle-coercive` still leaves the live
 splice open. Those packets only produce:
@@ -1046,7 +1045,7 @@ For the perpendicular leakage,
 
 So `DG-Shadow^sharp` reduces to exactly two theorems:
 
-1. an approximate-commutation theorem controlling `[A_J,P\mathcal S_JP]` or,
+1. a commutator-smallness theorem controlling `[A_J,P\mathcal S_JP]` or,
    equivalently, `(7.21)`;
 2. a plane-leakage theorem controlling `[\mathcal S_J,P]`.
 
@@ -1599,8 +1598,11 @@ splits into exactly two pieces:
 
 On the Cauchy-Green local route, the first step is already reduced on disk by
 `D.7mn` and `D.7mq` to a cocycle linearization theorem and a selector-shape
-theorem. After that, the remaining globalization step is standard spectral
-connection-Laplacian synchronization on the active overlap graph.
+theorem. After that, the remaining globalization step is the finite graph
+connection-Laplacian synchronization theorem on the active overlap graph: if the
+overlap graph has spectral gap `\lambda_G>0` and lifted edge frustration
+`\sum_{ij}\delta_{ij}\le \eta`, then a global sign choice exists with total
+projector mismatch bounded by `C\lambda_G^{-1}\eta`.
 
 ## Source anchors
 

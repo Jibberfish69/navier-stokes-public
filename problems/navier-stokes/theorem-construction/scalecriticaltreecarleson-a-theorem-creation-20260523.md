@@ -96,7 +96,7 @@ ScaleCriticalTreeCarleson.A. The installed reserve, charge, adjoint-tail, and wi
 19. Recursive solver step for LowStrainBVCharge.A: Route the moving retained-frame variation to FrameBVCharge.A.
 20. Recursive solver step for LowStrainBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.
 21. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Keep the near-band and frame terms on the same retained terminal ledger.
-22. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Absorb subparabolic near-band heat variation by the heat-rate gain.
+22. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Pay subparabolic near-band heat variation by the explicit `C_L theta H_W` bound with `theta <= eta_abs/C_L`.
 23. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Route non-subparabolic near-band amplitude into parabolic-rate burst height.
 24. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Reduce the unabsorbed source/frame remainder to NearBandMaterialSourceCharge.A plus FrameBVCharge.A.
 25. Recursive solver step for NearBandBVToBurstOrSource.A+FrameBVCharge.A: Use problems/navier-stokes/theorem-packet.yaml as source support for installed dynamic support.

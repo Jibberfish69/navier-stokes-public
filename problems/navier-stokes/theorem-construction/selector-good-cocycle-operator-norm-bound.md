@@ -149,7 +149,7 @@ Gronwall therefore gives
 ```
 
 Taking the supremum over `|v|=1` yields `(SCN.3)`, hence `(SCN.5)`. Then
-`(SCN.6)` is immediate. ∎
+`(SCN.6)` follows by the same supremum bound. ∎
 
 **Proof of Corollary `SCN.B`.**
 Set `Z_J(t,a):=(W_J^N(t,a))^{-1}`. Differentiating

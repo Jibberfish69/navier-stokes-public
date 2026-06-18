@@ -90,8 +90,8 @@ The inherited Euclidean attack on `(CTS)` lands on the dyadic theorem
 ```
 
 That is an exact theorem debt, not a fake one. But it is also a fallback
-surface created by the collapse of the direct continuum route. So it should not
-be treated as theorem-primary unless the direct `(CTS)` route really fails to
+surface created by the collapse of the direct continuum route. So it is not
+theorem-primary unless the direct `(CTS)` route fails to
 stay in continuum language.
 
 ## Exact execution order
@@ -126,11 +126,11 @@ Equivalently,
 \tag{4}
 ```
 
-## Why `(LPAS)` should not be attacked first
+## Why `(LPAS)` is not attacked first
 
 Attacking `(LPAS)` first bakes in the weakest language too early.
 
-It immediately gives up:
+It gives up at once:
 
 1. the coupled two-scale object `\mathcal A_{\ell,r}`;
 2. the explicit kernel `\ell/r`;
@@ -141,11 +141,11 @@ make theorem-primary while direct `(CTS)` is still mathematically visible.
 
 ## Practical routing rule for the lane
 
-The lane should interpret the blocker stack as:
+The lane interprets the blocker stack as:
 
 1. finish the same-scale theorem `(SS)` first;
 2. then try to discharge the far-corona side directly in continuum language;
-3. only after a bounded direct-`(CTS)` self-attempt fails should the lane pivot
+3. only after a bounded direct-`(CTS)` self-attempt fails does the lane pivot
    theorem-primary work onto `(LPAS)`.
 
 This keeps the route both conservative and honest:

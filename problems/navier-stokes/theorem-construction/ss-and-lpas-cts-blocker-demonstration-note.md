@@ -3,7 +3,7 @@
 ## Purpose
 
 This note records exactly how the current packet-closure route is blocked, and
-what theorem moves would actually resolve those blocks.
+what theorem moves resolve those blocks.
 
 The current closure program is:
 
@@ -50,7 +50,7 @@ What is already proved:
 1. `\mathfrak B_N^{upper}` is supported in a finite collar near `\ell_N`;
 2. `\Pi_N^{mov\text{-}spill,L}` is already a finite sum of fixed-offset
    same-scale edge packets;
-3. both should therefore land on one finite family of annular order-zero
+3. both therefore land on one finite family of annular order-zero
    multiplier packets.
 
 What is **not** yet proved:
@@ -77,7 +77,7 @@ that the route still lacks a theorem of the form:
 ```math
 \text{annular order-zero divergence-free multiplier family}
 \Longrightarrow
-\text{uniform same-scale edge absorption.}
+\text{uniform same-scale edge coefficient-margin control.}
 ```
 
 Without that theorem, the upper boundary and moving spill remain reduced but not
@@ -107,8 +107,9 @@ uniform symbol bounds and bounded relative offset:
 \varepsilon_a \nu D_N + C_{a,*}2^{-2\delta N}.
 ```
 
-The proof should be local-in-scale and should not reintroduce any lower-prefix
-or far-corona queue.
+The required model estimate is local-in-scale: its constants must be uniform
+in the finite symbol family and it must not reintroduce any lower-prefix or
+far-corona queue.
 
 ### 3. Lift from one model packet to the finite family
 
@@ -184,7 +185,7 @@ So the existing one-sided high-tail theorems do not apply.
 
 ### 2. Crude prefix collapse failure
 
-Collapsing the prefix to `\|\nabla u\|_{L_x^2}^2` would require stronger
+Collapsing the prefix to `\|\nabla u\|_{L_x^2}^2` requires stronger
 `L_t^\infty` or Carleson-type control than the inherited surface supplies.
 
 ### 3. Weighted factorization failure
@@ -230,7 +231,7 @@ Keep the coupled two-scale object
 visible long enough to prove a spacetime cumulative-tail theorem directly,
 without collapsing prematurely to a dyadic one-scale shadow.
 
-What this would need:
+Required content:
 
 1. a genuine two-scale Carleson/tent-space estimate on `\mathcal A_{\ell,r}`;
 2. preservation of the full barrier exponent `2^{-2\delta N}`;
@@ -243,20 +244,20 @@ This is the honest dyadic route if the continuum route stays stuck.
 Do **not** try to force `(LPAS)` into the installed upper-tail queue. Instead
 prove a genuinely new lower-prefix theorem at the dyadic level.
 
-What this would need:
+Required content:
 
 1. a Hardy/Volterra theorem that respects the lower-triangular orientation;
 2. a one-sided lower-prefix-to-active-square control preserving `2^{-2\delta N}`;
 3. ideally, a way to replace the full lower prefix by the smaller quotient/readout
    object identified in the scale-memory operator note.
 
-So the dyadic route should not be:
+So the dyadic route is not:
 
 ```math
 \text{more shellwise absolute values.}
 ```
 
-It should be:
+It is:
 
 ```math
 \text{a new lower-prefix theorem, possibly after quotient/readout reduction.}

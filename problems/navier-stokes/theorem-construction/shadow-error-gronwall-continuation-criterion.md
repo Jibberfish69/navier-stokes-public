@@ -32,7 +32,7 @@ Set
 
 Apply `\Lambda^\sigma` to `(1)` and pair with `\Lambda^\sigma u`.
 
-Because `u` is divergence-free, the standard Sobolev commutator bound gives
+Because `u` is divergence-free, the `H^\sigma` Sobolev commutator bound gives
 
 ```math
 \big|
@@ -168,7 +168,7 @@ It says:
 
 ```math
 \boxed{
-\text{it needs an integrable shadow remainder plus the usual continuation integral.}
+\text{it needs an integrable shadow remainder plus the displayed continuation integral.}
 }
 \tag{12}
 ```

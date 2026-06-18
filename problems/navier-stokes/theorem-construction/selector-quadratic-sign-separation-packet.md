@@ -1107,7 +1107,7 @@ d\mu_j(a),
 ```
 
 and inserting `d\#_{N(a)}(b)=N(a)\,d\overline\mu_{J,a}^{pair}(b)` gives
-`(QSP.10zzx)`. The pushforward identity `(QSP.10zzz)` is immediate:
+`(QSP.10zzx)`. The pushforward identity `(QSP.10zzz)` is:
 
 ```math
 \overline\nu_{J,a}^{dir,0}(E)
@@ -1994,8 +1994,8 @@ L_\chi\,\delta_J^\rho+\varepsilon_J^\rho,
 
 which is exactly `(QSP.10zzbu1)` with `(QSP.10zzbv6)`. ∎
 
-On the material-gap exact-potential subbranch, one natural reference carrier is
-the oriented top right singular direction
+On the material-gap exact-potential subbranch, one explicit candidate reference
+carrier is the oriented top right singular direction
 
 ```math
 \rho_J^{RS}(a,b;t,t_0)
@@ -2359,8 +2359,8 @@ Then `QSP.AA` holds with
 \tag{QSP.10zzcb3}
 ```
 
-Consequently, on the standard transported shell/cap packet geometry where the
-selected packet-center direction already lies in its parent cap, the genuinely
+Consequently, under the cap-diameter hypothesis `(QSP.10zzcb1)` and the
+selected packet-center membership hypothesis in `(QSP.10zzcb2)`, the genuinely
 new TPS geometric burden shrinks one last step to
 
 ```math
@@ -2402,17 +2402,16 @@ e_{ab}(t_0)\in \omega_J(a,b).
 \tag{QSP.10zzcc1}
 ```
 
-On the standard transported shell/cap packet geometry, the selected
-packet-center direction already lies in its parent cap:
+Assume the selected packet-center membership hypothesis
 
 ```math
 \widehat\xi_{Q_J(a,b)}(t_0)\in \omega_J(a,b).
 \tag{QSP.10zzcc2}
 ```
 
-Therefore `QSP.AB` applies, and on this realization the remaining new TPS
-geometric burden is exactly one entrance-direction-adapted selected-cell
-assignment theorem:
+Therefore `QSP.AB` applies, and under the cap-diameter and selected-center
+membership hypotheses the remaining new TPS geometric burden is exactly one
+entrance-direction-adapted selected-cell assignment theorem:
 
 ```math
 \text{for every active pair, choose its selected cell so that }
@@ -2423,7 +2422,7 @@ e_{ab}(t_0)\in \omega_J(a,b).
 **Proof.**
 The hypothesis `(QSP.10zzcc1)` is exactly the selected-parent-cap entrance
 membership statement needed in `(QSP.10zzcb2)`, while `(QSP.10zzcc2)` is part
-of the ambient shell/cap packet geometry. So `QSP.AB` applies immediately. ∎
+of the ambient shell/cap packet geometry. So `QSP.AB` applies. ∎
 
 ### Corollary QSP.AD (entrance-compatible cap-balancing refinement supplies `QSP.AC`)
 
@@ -2437,8 +2436,9 @@ e_{ab}(t_0)\in \omega_J(a,b).
 \tag{QSP.10zzcd1}
 ```
 
-Then `QSP.AC` holds automatically. Consequently, on the standard shell/cap
-geometry the live TPS selector burden can be packaged as one theorem:
+Then `QSP.AC` holds automatically. Consequently, under the cap-diameter and
+selected-center membership hypotheses, the live TPS selector burden can be
+packaged as one theorem:
 
 ```math
 \text{entrance-compatible TPS cap-balancing / reserve-sign refinement.}
@@ -2460,7 +2460,7 @@ with entrance-direction cap assignment.
 
 **Proof.**
 The compatibility statement `(QSP.10zzcd1)` is exactly the hypothesis
-`(QSP.10zzcc1)` in `QSP.AC`, so the conclusion is immediate. ∎
+`(QSP.10zzcc1)` in `QSP.AC`, so `QSP.AC` gives the conclusion. ∎
 
 ### Corollary QSP.AE (finite entrance-sector sign refinement supplies `QSP.AD`)
 
@@ -2547,8 +2547,9 @@ the pair `(TPS.3t)`-`(TPS.3u)`. ∎
 
 Keep the hypotheses of `QSP.AG`, and assume the entrance-sector graph is
 inherited from the parent cap graph with uniformly bounded sector multiplicity,
-as in `TPS-sign-ent'''`. Then the sector-edge-transfer half is automatic up to
-a harmless constant renormalization, and the remaining selector-side exact
+as in `TPS-sign-ent'''`. Then the sector-edge-transfer half is automatic after
+replacing the parent constant by the fixed sector-multiplicity constant, and
+the remaining selector-side exact
 primitive collapses to
 
 ```math
@@ -2829,10 +2830,11 @@ just one selected packet-center-to-right-singular angular tether. Corollary
 `QSP.Z` peels that once more: after inserting the already-source-side uniform
 initial right-singular overlap, the genuinely new TPS geometric burden is only
 one packet-center-to-entrance-direction tether. Corollary `QSP.AA` then
-reduces that again to a pure selected-cell entrance-direction cap-aperture
-theorem, and Corollary `QSP.AB` makes the ambient packet-width input explicit:
-on the standard shell/cap geometry, what remains new is only that each carried
-entrance direction lies in its selected parent cap. Corollary `QSP.AC` then
+  reduces that again to a pure selected-cell entrance-direction cap-aperture
+  theorem, and Corollary `QSP.AB` makes the ambient packet-width input explicit:
+  after the cap-diameter and selected packet-center membership hypotheses in
+  `(QSP.10zzcb1)`-`(QSP.10zzcb2)`, what remains new is only that each carried
+  entrance direction lies in its selected parent cap. Corollary `QSP.AC` then
 rewrites even that as one entrance-direction-adapted selected-cell assignment
 theorem. Corollary `QSP.AD` fuses that assignment burden back into the same TPS
 refinement layer as the cap-balancing / reserve-sign theorem itself: the
@@ -2924,9 +2926,8 @@ width, this shrinks one last step to:
 \tag{QSP.11g}
 ```
 
-On the standard transported shell/cap geometry, where the packet-center
-direction already lies in its selected parent cap and the cap diameter is part
-of the ambient packet scale, this reduces once more to:
+Under the cap-diameter hypothesis `(QSP.10zzcb1)` and the selected
+packet-center membership hypothesis `(QSP.10zzcc2)`, this reduces once more to:
 
 ```math
 \boxed{
@@ -2941,7 +2942,7 @@ of the ambient packet scale, this reduces once more to:
 \tag{QSP.11h}
 ```
 
-Equivalently, on the standard shell/cap packet geometry this is just:
+Equivalently, under those shell/cap packet hypotheses this is just:
 
 ```math
 \boxed{

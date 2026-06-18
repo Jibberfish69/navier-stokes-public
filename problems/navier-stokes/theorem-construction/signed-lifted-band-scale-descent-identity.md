@@ -116,8 +116,9 @@ Here:
    derivative hitting the second low-pass factor;
 3. `\mathfrak s_\ell^{edge}` is the term created when `\ell\partial_\ell`
    falls on `b_\ell^{meso}`;
-4. `\mathfrak w_\ell` is the harmless derivative-of-weight correction from
-   `\ell^{-2}` and the smooth cutoff profile.
+4. `\mathfrak w_\ell` is the exact derivative-of-weight correction from
+   `\ell^{-2}` and the smooth cutoff profile, controlled only by the fixed
+   multiplier-derivative constants.
 
 The main point is not the exact constants. It is the structural support of the
 four terms.
@@ -184,13 +185,13 @@ already-controlled collar packet, `(SD1)` takes the form
 where:
 
 - `\Psi_\ell` is a signed cumulative commutator potential,
-- `\mathcal S_\ell^{spill}` is threshold-local and should be absorbed by the
-  existing spill packet,
+- `\mathcal S_\ell^{spill}` is threshold-local and must be bounded by the
+  existing spill-packet inequality before it can enter the signed route,
 - `\mathcal W_\ell` is a soft remainder coming from smooth weight/profile
   differentiation.
 
 To match the PDE evolution, one then applies the Navier-Stokes equation to
-`P_{\le \ell}u`, which introduces the standard local time derivative and
+`P_{\le \ell}u`, which introduces the local time derivative and
 divergence terms:
 
 ```math
@@ -258,7 +259,7 @@ Then:
 4. `\mathcal S_\ell^{spill}` is returned to the existing spill packet;
 5. `\mathcal E_\ell` is the true barrier-scale tail.
 
-Only **after this signed telescoping step** should one pass to the positive
+Only **after this signed telescoping step** does the argument pass to the positive
 stress-strain majorant. At that point the majorant is used to control the
 residual tail, not to generate the theorem mechanism.
 
@@ -278,7 +279,7 @@ So the pushdown chain is:
 
 This is the correct order.
 
-The immediate conclusion of the signed telescoping step is the scalar signed
+The direct conclusion of the signed telescoping step is the scalar signed
 estimate
 
 ```math

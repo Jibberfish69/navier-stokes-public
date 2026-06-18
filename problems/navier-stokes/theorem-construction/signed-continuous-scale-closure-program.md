@@ -131,7 +131,7 @@ So the first theorem move is not “prove cocycle triviality” abstractly. It i
 \tag{9}
 ```
 
-If `(8)` is obtained globally, then the signed route reduces immediately to
+If `(8)` is obtained globally, then the signed route reduces to
 boundary and residual estimates.
 
 This Step 1 surface is already recorded concretely in
@@ -310,15 +310,15 @@ So the far-corona theorem is not “prove UTKD sharper.” It is:
 
 This execution discipline is now recorded separately in
 [far-corona-cts-lpas-execution-program.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/far-corona-cts-lpas-execution-program.md):
-the exact continuum debt is `CTS`, the immediate local theorem-engine surface
-is `LPAS`, and premature collapse to one-scale upper-tail shadows is the main
-sanity failure to avoid.
+the exact continuum debt is `CTS`, `LPAS` is the dyadic Hardy/Volterra surface
+selected by the inherited reduction, and premature collapse to one-scale
+upper-tail shadows is the main sanity failure to avoid.
 
 ## Step 5: feed the results back without changing the carrier surface
 
 If Steps 2 through 4 close, then one gets the integrated lifted estimate `(2)`.
-Substituting `(2)` into `(1)` gives the weighted leakage absorption theorem on
-the already-honest carrier
+Substituting `(2)` into `(1)` gives the weighted leakage coefficient-margin
+theorem on the already-honest carrier
 
 ```math
 \widetilde\Lambda_N^\sharp
@@ -328,12 +328,12 @@ the already-honest carrier
 ```
 
 So the route is not trying to improve the carrier anymore. The carrier is
-frozen. The only remaining task is to make the lifted packet absorbable on that
+frozen. The remaining task is to prove the lifted packet inequality on that
 surface.
 
 ## Exact next work items
 
-The program above reduces immediately to four concrete theorem tasks:
+The program above reduces to four concrete theorem tasks:
 
 1. write the global explicit signed balance identity `(8)` from one fixed LP
    family;
