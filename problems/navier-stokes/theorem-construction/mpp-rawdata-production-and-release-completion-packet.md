@@ -190,7 +190,7 @@ Thus H4 globalizes along endpoint-free tails.
 The source closure is locked at post-`LCI.A` level:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Rightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Rightarrow FCI.5f.
 ```
 
 The source split is

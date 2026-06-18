@@ -131,7 +131,12 @@ holds.
 
 ### Proof
 
-The compact core is covered by finitely many SCF-good cylinders using openness and compactness. The tail contributes no endpoint face because `Tail.Hs_R3` removes high-frequency exterior obstruction. The union gives the noncompact terminal readout cover: finite on the active core, harmless on the controlled tail.
+The compact core is covered by finitely many SCF-good cylinders using openness
+and compactness. The tail contributes no endpoint face because `Tail.Hs_R3`
+removes high-frequency exterior obstruction. The union gives the noncompact
+terminal readout cover: finite on the active core and excluded on the exterior
+tail by the `Tail.Hs_R3` bound
+`\lim_{R\to\infty}\sup_{t<T_*}\|\eta_R u(t)\|_{H^s}=0`.
 
 ## 4. Whole-space pressure-tail theorem
 

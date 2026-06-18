@@ -98,7 +98,7 @@ the velocity has size at least `M/2`. The energy inequality gives:
 E0 >= c M^2 rho^3.
 ```
 
-If `M <= 2Cr`, the bound is immediate. If `M > 2Cr`, then `rho=r`, and
+If `M <= 2Cr`, use `rho=M/(2C)`. If `M > 2Cr`, then `rho=r`, and
 
 ```text
 M^2 <= C_r E0.

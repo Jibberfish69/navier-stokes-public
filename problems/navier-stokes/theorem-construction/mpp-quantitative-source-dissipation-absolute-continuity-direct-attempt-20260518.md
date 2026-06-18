@@ -14,7 +14,7 @@ The desired theorem is
 \boxed{QuantitativeSourceDissipationAbsoluteContinuity.A.}
 ```
 
-A useful form would be
+A useful exact form is
 
 ```math
 \nu_N^{src,+}(B_R\times I)

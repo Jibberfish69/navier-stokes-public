@@ -118,7 +118,7 @@ M_N(W)=2^{-k/2}\tau^{1/2}.
 ```
 
 So the first-moment tail can be arbitrarily small while the square reserve is
-order one.  This is exactly the spike-sensitive gap.
+exactly \(R_N(W)=1\).  This is exactly the spike-sensitive gap.
 
 Therefore no argument using only donor area / energy tail can prove
 `ReserveCreationCharge.A`.
@@ -294,7 +294,7 @@ non-summable native height charge.
 H_N(W)\le C_{legal}.
 ```
 
-It immediately implies absence of first reserve pulses by:
+It gives absence of first reserve pulses by:
 
 ```math
 R_N(W)\le C_{legal}M_N(W)=o_N(1).
@@ -304,9 +304,9 @@ R_N(W)\le C_{legal}M_N(W)=o_N(1).
 height if the height was already present or if the PDE pays native charge for
 creating it.
 
-`DonorReserveAdjointTrace.A` is another realization: it would prove that every
-large donor height event is visible to the normalized-adjoint source trace and
-therefore charged by the existing parent-or-charge mechanism.
+`DonorReserveAdjointTrace.A` is another realization: its target statement is
+that every large donor height event is visible to the normalized-adjoint source
+trace and is charged by the existing parent-or-charge mechanism.
 
 The sharpened dependency is:
 

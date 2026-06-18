@@ -55,7 +55,7 @@ qquad
 \lim_{R\to\infty}\sup_{t<T_*}\|\eta_R u(t)\|_{H^s}=0,
 ```
 
-then `TailFace_R3^Hs` is eliminated immediately by definition.
+then `TailFace_R3^Hs` is eliminated by definition.
 
 More generally, if an exterior high-order cascade ledger gives
 

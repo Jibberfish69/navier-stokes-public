@@ -58,9 +58,9 @@ or, for some finite depth `M_*`,
 ```
 
 On `T^3`, there is no spatial infinity alternative.  On `R^3`, spatial escape
-is harmless unless the receiver packet is supposed to remain on a retained
-finite carrier; if it is not retained, that is already a carrier/Pack failure
-for the selected branch.
+does not create a separate analytic branch: if the receiver packet is not
+carried by a retained finite same-fluid carrier, the selected branch has already
+lost `Pack_Q`.
 
 Thus receiver escape is not a new analytic species.  It is carrier loss or
 finite-depth tower loss along the receiver packet.

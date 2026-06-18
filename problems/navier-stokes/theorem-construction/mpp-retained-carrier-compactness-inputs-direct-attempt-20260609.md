@@ -74,7 +74,7 @@ as M -> infinity,
 where the projection, chart, time interval, and packet are all the retained
 terminal objects used by `Q`.
 
-The standard energy bound gives only integrated `L^2_t H^1_x` control before
+The energy inequality gives only integrated `L^2_t H^1_x` control before
 `T_*`.  A terminal burst can keep finite integrated energy while concentrating
 high-frequency activity on shrinking terminal time slabs.  That is exactly why
 earlier source-time and scale-normalized charge-time targets existed.  Raw

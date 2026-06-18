@@ -14,7 +14,8 @@ mpp-viscosity-homotopy-response-height-proof-20260506.md
 
 ## 0. Target
 
-The low-response-strain branch is harmless if the response has finite low norm.
+The low-response-strain branch is controlled under the finite-low-norm
+hypothesis.
 The only remaining low-response threat is high-frequency response-height
 creation:
 

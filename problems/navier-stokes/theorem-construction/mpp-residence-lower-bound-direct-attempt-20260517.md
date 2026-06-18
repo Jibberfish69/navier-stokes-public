@@ -57,11 +57,13 @@ r_N\downarrow0,
 \qquad \tau_N\downarrow0.
 ```
 
-The normalized source mass can remain order one while the physical time support shrinks:
+The normalized source mass remains exactly one while the physical time support shrinks:
 
 ```math
 F_N^{src,+}(t):= \tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t).
 ```
+
+Indeed \(\int F_N^{src,+}(t)\,dt=1\).
 
 This model preserves the `L^1_t` budget and violates every macroscopic residence lower bound.
 
@@ -75,7 +77,10 @@ A scale-aware residence estimate of the form
 
 is already compatible with terminal atoms after rescaling.  It gives the natural packet duration and still permits all source mass to sit in shrinking terminal slabs.
 
-To imply `TerminalTimeFaceAntiAtom.A`, the estimate would need a lower bound independent of the terminal scale, or a compensating decay of source mass with scale.  The latter is exactly a parent-charge quantum or active-square reserve theorem.
+For `ResidenceLowerBound.A` to imply `TerminalTimeFaceAntiAtom.A`, the required
+input is either a lower bound independent of the terminal scale or a
+compensating decay of source mass with scale.  The latter is exactly a
+parent-charge quantum or active-square reserve theorem.
 
 ## 4. Verdict
 

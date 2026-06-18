@@ -51,8 +51,13 @@ Assume `QBound.A`. Then
 u\in L^\infty(0,T_\ast;H^1(\mathbb T^3)).
 ```
 
-On a same-fluid CKN-admissible cylinder `Q_R^\Phi`, bounded pack geometry makes
-the moving cylinder uniformly comparable to a standard parabolic cylinder.
+Assume the same-fluid packet has bounded geometry
+
+```math
+\Gamma_\sharp(Q_R^\Phi)\le M_\sharp.
+```
+
+Then the pullback `x=Phi(a_0,t)+RA(t)y`, `s=(t-t_0)/R^2`, has Jacobian, inverse Jacobian, and metric tensor bounded above and below by constants depending only on `M_sharp`. Thus each normalized `D_R,A_R,P_R` term below changes by at most a fixed factor `C(M_sharp)` under the moving-cylinder pullback.
 
 ### Dissipation term
 
@@ -94,8 +99,23 @@ R^{-2}\iint_{Q_R^\Phi}|u-u_{B_R}|^3
 C_Q R^{3/2}.
 ```
 
-The affine-normalized velocity residual is no larger for this purpose than the
-standard mean-subtracted residual up to bounded frame constants.
+For the affine-normalized velocity residual,
+
+```math
+A_R^{aff}
+:=
+R^{-2}\iint_{Q_R^\Phi}
+\inf_{\ell\in\mathcal A_R}|u-\ell|^3,
+```
+
+where `\mathcal A_R` is the declared finite-dimensional affine frame class containing the constant field `u_{B_R}(t)`. Therefore
+
+```math
+A_R^{aff}
+\le
+C(M_\sharp)R^{-2}\iint_{Q_R^\Phi}|u-u_{B_R}|^3
+\le C(M_\sharp)C_QR^{3/2}.
+```
 
 ### Pressure term
 
@@ -159,8 +179,8 @@ For zero-force periodic Navier-Stokes, differentiating enstrophy gives
 \tag{Q.1}
 ```
 
-The right side is the vortex-stretching / strain-cubic production term. The
-standard estimate is
+The right side is the vortex-stretching / strain-cubic production term. Hölder,
+Gagliardo--Nirenberg, and Young give the exact estimate
 
 ```math
 \left|\int \partial_k u_i\,\partial_i u_j\,\partial_k u_j\right|

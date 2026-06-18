@@ -50,7 +50,8 @@ Assume, toward contradiction, that \(\Field_{M,\rho,Q}\) holds for some fixed \(
 \sum_{|\alpha|\le M}\|\partial^\alpha f\|_{L^2}\le C_{\rho,M,Q}.
 \]
 
-For a Littlewood--Paley projection at frequency \(N\), the standard cancellation estimate gives
+For a Littlewood--Paley projection at frequency \(N\), the multiplier
+localization and \(M\) integrations by parts give
 
 \[
 \|P_N f\|_{L^2}\le C_{\rho,M}N^{-M}

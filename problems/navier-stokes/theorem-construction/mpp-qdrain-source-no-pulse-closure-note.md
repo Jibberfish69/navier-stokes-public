@@ -18,8 +18,9 @@ AWG.A
 ```
 
 The first three arrows are useful. In addition, `QBound.A` is continuation-grade
-on the periodic surface: it is a uniform `H^1` bound and therefore prevents a
-finite classical endpoint by the standard local continuation criterion. Thus the
+on the periodic surface only when paired with the named `H^1` relaunch theorem:
+the uniform `H^1` bound must give a common restart lifespan and uniqueness
+overlap, which prevents a finite classical endpoint. Thus the
 strong monotone branch would also close the terminal-tail side:
 
 ```math
@@ -59,7 +60,7 @@ The exact identity is
 ```
 
 The cubic term is the strain/vortex-stretching production. It has no installed
-sign. A one-sided drain theorem would need
+sign. The exact one-sided drain target is the estimate
 
 ```math
 -\int
@@ -74,9 +75,9 @@ This is exactly `QDrain.A`.
 The identity alone does not prove it: the cubic can be positive on expanding
 strain configurations.
 
-## Target 2: Standard Interpolation
+## Target 2: Exact Interpolation Bound
 
-The standard bound gives
+Sobolev, Gagliardo--Nirenberg, and Young give
 
 ```math
 \left|\int

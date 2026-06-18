@@ -142,7 +142,16 @@ EntranceLeafDecay.A
 }
 ```
 
-controls non-Zeno entrance leaves by original smooth tail decay;
+pays the non-Zeno entrance leaves through the exact fixed-entrance high-frequency
+tail estimate
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0;
+```
 
 ```math
 \boxed{

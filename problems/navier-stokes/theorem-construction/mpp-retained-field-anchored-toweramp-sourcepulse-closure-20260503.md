@@ -130,7 +130,7 @@ c\,M^2\rho^3.
 \tag{RF.6}
 ```
 
-If `M\le 2Cr`, the bound is immediate.  If `M>2Cr`, then `\rho=r` and
+If `M\le 2Cr`, use `\rho=M/(2C)`.  If `M>2Cr`, then `\rho=r` and
 `M^2\le C_rE_0`.  Hence `M` is bounded in all cases. `\square`
 
 ## Lemma `RF.B` (Retained Field Bounds Higher Velocity Rungs)
@@ -243,7 +243,7 @@ Jump.
 If `packing-detached` occurs, the pack-native endpoint row gives `\neg Pack`.
 
 If `Jump` occurs and either `Pack` or `Part` has already failed, the conclusion
-is immediate.  If `Jump` occurs while `Pack+Part` are retained, the installed
+follows from that prior face failure.  If `Jump` occurs while `Pack+Part` are retained, the installed
 field-face theorem gives `\neg Field`.
 
 It remains only to handle the mixed `tower-blown` alternative.  On the branch

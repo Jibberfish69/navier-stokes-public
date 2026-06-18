@@ -102,7 +102,8 @@ aligned high response:      component of z_j parallel to u_j;
 orthogonal high response:   component of z_j perpendicular to u_j.
 ```
 
-Only the aligned high-response piece has an immediate absorption mechanism.
+Only the aligned high-response piece has an absorption mechanism available at
+this stage.
 
 ## 2. Response Decomposition
 

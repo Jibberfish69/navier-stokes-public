@@ -106,14 +106,21 @@ It remains to consider the retained Pack+Part branch. On that branch the
 survivor is attached to the same terminal object and must be visible inside the
 retained Field windows. If a fixed positive Field scale \(\rho>0\) held through
 depth \(M>s\), each localized Field-window piece would have a uniform
-finite-depth derivative bound. The standard Littlewood-Paley cancellation
-estimate gives
+finite-depth derivative bound. For a fixed Littlewood--Paley projection whose
+multiplier is supported in \(c_0N\le |\xi|\le C_0N\), the exact derivative
+estimate is
 
 ```text
-|| P_N f ||_2 <= C_{rho,M,Q} N^{-M},
+|| P_N f ||_2 <= c_0^{-M} N^{-M} || |\nabla|^M f ||_2.
 ```
 
-and hence
+The retained Field-window hypothesis supplies
+
+```text
+|| |\nabla|^M f ||_2 <= C_{rho,M,Q},
+```
+
+and therefore
 
 ```text
 N^s || P_N f ||_2 <= C_{rho,M,Q} N^{s-M} -> 0.

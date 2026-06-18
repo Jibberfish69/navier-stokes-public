@@ -152,8 +152,8 @@ Then `(RC.6)`--`(RC.7)` follow.
 From `(RC.9)`, one has
 `\mathfrak e^{ref}_{N,\rho,\psi}(a,t)\le \mathfrak e^{Eul,ref}_{N,\rho,\psi}(a,t)`
 for a.e. `a`. Integrating against `\psi(a)^2\,da` and taking the supremum in
-`t\in I` gives `(RC.6)`. Since `(RC.4)` is the supremum in `r`, `(RC.7)`
-follows immediately. ∎
+`t\in I` gives `(RC.6)`. Taking the supremum of `(RC.6)` in `r` using `(RC.4)`
+gives `(RC.7)`. ∎
 
 ## No-Shortcut Warning
 

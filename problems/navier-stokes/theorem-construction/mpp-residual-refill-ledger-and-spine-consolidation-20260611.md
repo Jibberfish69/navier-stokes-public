@@ -26,7 +26,8 @@ The working spine is:
 
 ```text
 build the residual refill ledger,
-prove it cannot accumulate enough scale-critical load into the cone,
+prove scale-critical residual source refill cannot retain a nonzero terminal
+limsup on heat-scale cone windows,
 and only for the surviving residual pulse use CM to say it is not a hidden
 in-class continuation.
 ```
@@ -36,7 +37,7 @@ This note makes that precise.
 Raw high-frequency size is not the dangerous object.  The exact shear
 counterexample in
 `mpp-direct-lpas-raw-active-square-false-shear-counterexample-20260611.md`
-shows that a harmless heat-decaying mode can make the raw active-square bill
+shows that an exact heat-decaying mode can make the raw active-square bill
 large while the nonlinear source is zero.
 
 The dangerous object is the part of the high-frequency active load that is
@@ -325,7 +326,7 @@ CM enters only after a genuine residual pulse survives the forward ledger.
 Then the source-pulse is not treated as a hidden smoothness route.  It is tested
 as a witness-face object.
 
-The existing CM placement is:
+The existing generic no-carrier CM placement is:
 
 ```math
 \text{positive-radius retained ancestry}
@@ -336,12 +337,15 @@ The existing CM placement is:
 by `NoPersistentUnpaidPositiveRadiusAncestry.A`, and
 
 ```math
-r_m\downarrow0,\quad t_m\uparrow T_*
+\text{no selected same-solution positive-radius carrier for the terminal record}
 \Longrightarrow
-\neg Pack_Q,
+\neg Pack_Q
 ```
 
-by the terminal Zeno / finite-failure witness surfaces.
+by the terminal Zeno / finite-failure witness surfaces.  The bare facts
+`r_m\downarrow0` and `t_m\uparrow T_*` do not by themselves spend Pack failure;
+they identify the terminal schedule whose carrier, selection, and readout
+hypotheses must be tested.
 
 Thus the residual pulse has this branch grammar:
 
@@ -360,10 +364,10 @@ pays the residual forward ledger or becomes the single residual obstruction for
 CM testing.
 
 For a generic point-object or no-carrier endpoint, the obstruction is Pack-side.
-  For the annular supplier boundary, the admitted object is different: it is the
-  surrounding positive-radius same-solution annular witness. Once that witness is
-  selected, carried on a same-solution positive-radius annular tail, and
-  readout-complete, carrier is paid. Its finite nonsmooth CM failures are
+For the annular supplier boundary, the admitted object is different: it is the
+surrounding positive-radius same-solution annular witness.  Once that witness is
+selected, carried on a same-solution positive-radius annular tail, and
+readout-complete, carrier is paid.  Its finite nonsmooth CM failures are
 
 ```math
 \neg Part_{N,Q_{ann}}
@@ -373,8 +377,7 @@ Part_{N,Q_{ann}}\wedge\forall r>0\,\neg Field_{N,r,Q_{ann}}.
 
 ## 7. Reorganization Rule For The Old Attempts
 
-The 214 active-square / source-wall theorem attempts should now be read through
-this rule:
+Read the 214 active-square / source-wall theorem attempts through this rule:
 
 ```text
 If a note controls only raw D_j, raw wall flux, raw cone volume, raw global

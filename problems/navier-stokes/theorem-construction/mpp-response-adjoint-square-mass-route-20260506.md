@@ -69,8 +69,8 @@ M_{resp}(T)
 \tag{RAM.1}
 ```
 
-The response parent-or-charge theorem should be stated for `M_resp(T)`, not
-for a raw positive signed source integral.
+The response parent-or-charge theorem is a theorem for `M_resp(T)`, not for a
+raw positive signed source integral.
 
 ## 2. Detection Bridge
 
@@ -292,5 +292,7 @@ ResponseResidualPair.A
 ResponseParentKernel.A
 ```
 
-But `ResponseKernelSignControl.A` is no longer the right primitive.  The
-response drain should proceed through squared adjoint mass.
+`ResponseKernelSignControl.A` is no longer the right primitive.  The response
+drain proceeds through squared adjoint mass and still requires
+`PositiveRotationDetectsAdjointMass.A`, `ResponseAdjointBessel.A`,
+`ResponseResidualPair.A`, and `ResponseParentKernel.A`.

@@ -264,7 +264,7 @@ E_N
 ```
 
 Once `(RW.11)` and `(RW.12)` are discharged, the downstream closure-packaging
-theorem applies immediately.
+theorem applies as written.
 
 The exact identities and inequalities on disk already cover the downstream
 reduction step. The open part is the interval propagation of the two live

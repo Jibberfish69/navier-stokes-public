@@ -22,8 +22,9 @@ exterior L2 tightness => exterior Hs tightness.
 ```
 
 This note reduces the remaining obstruction by Duhamel splitting. The point is
-to separate the part already forced small by rapid decay and kernel distance
-from the part that still needs a genuine exterior nonlinear-source theorem.
+to separate the part already forced small by the exact rapid-decay and
+off-diagonal kernel-tail estimates from the part that still needs a genuine
+exterior nonlinear-source theorem.
 
 ## Setup
 
@@ -65,48 +66,55 @@ for every finite \(T<T_*\).
 ### Proof
 
 Since \(u_0\) is smooth and rapidly decaying, \(u_0\in H^m_\ell\) for every
-finite derivative order \(m\) and polynomial weight \(\ell\). The heat kernel
-commutes with derivatives and only improves decay on finite time intervals.
-For \(|x|>R\), the usual weighted heat estimate gives
+finite derivative order \(m\) and polynomial weight \(\ell\). The exact input
+used here is that the heat flow preserves Schwartz tails uniformly on finite
+time intervals:
 
 ```text
+for every L>0,
 || eta_R e^{nu t Delta} u_0 ||_{H^s}
-  <= C_{s,\ell,T} R^{-ell} || u_0 ||_{H^{s+\ell}_ell}.
+  <= C_{s,L,T,u_0} R^{-L},
+0 <= t <= T < T_*.
 ```
 
 The right side tends to zero as \(R\to\infty\).
 
 ## Lemma 2: Compact-Core Source Has Vanishing Far Tail
 
-Fix a compact core radius \(R/4\). The part of the Duhamel source supported in
-that core cannot create a nonzero \(H^s\) tail outside \(2R\):
+Let \(K_{s,\nu}(\theta,z)\) be the kernel of
+\(\Lambda^s e^{\nu\theta\Delta}P\nabla\cdot\).  The compact-core part of the
+Duhamel source is controlled by the following off-diagonal tail bound:
+
+```text
+for every L>0,
+integral_0^T sup_{|y| <= R/4}
+  || eta_R(.) K_{s,nu}(theta, . - y) ||_{L^2_x} dtheta
+<= C_{s,nu,T,L} R^{-L}.
+```
+
+Since \(\|u(\tau)\otimes u(\tau)\|_{L^1}\le \|u(\tau)\|_{L^2}^2\le E_0\), this
+implies
 
 ```text
 lim_{R -> infinity} sup_{0 <= t <= T}
 || eta_R integral_0^t e^{nu(t-tau)Delta} P div(chi_{<R/4} u tensor u)(tau) dtau ||_{H^s}
-= 0
+= 0.
 ```
-
-provided the compact-core \(H^s\) readout is available on every fixed core.
 
 ### Proof
 
-The kernel of \(\Lambda^s e^{nu(t-\tau)\Delta}P\nabla\cdot\) is smooth away
-from the diagonal and has standard heat/Leray off-diagonal decay. On the
-support of the compact-core source and the exterior cutoff, the distance is at
-least \(R/2\). Thus the kernel contribution is bounded by a negative power of
-\(R\), with constants depending on \(s,\nu,T\) and on fixed-core local norms.
-
-The \(L^1\) size of \(u\otimes u\) is controlled by finite energy, while the
-finite number of derivative commutators needed for the \(H^s\) norm is supplied
-by the compact-core readout. Hence the compact-core contribution is bounded by
+On the support of \(\eta_R(x)\chi_{<R/4}(y)\), the separation satisfies
+\(|x-y|\ge R/2\). The displayed kernel-tail inequality gives the operator bound,
+and Minkowski gives
 
 ```text
-C_{s,\nu,T,core}R^{-alpha}
+sup_{0 <= t <= T}
+|| eta_R integral_0^t e^{nu(t-tau)Delta} P div(chi_{<R/4} u tensor u)(tau) dtau ||_{H^s}
+<= C_{s,nu,T,L} R^{-L} sup_{0 <= tau <= T} ||u(tau)||_{L^2}^2.
 ```
 
-for some \(\alpha>0\) on each finite interval where the compact-core readout is
-available. This tends to zero.
+This tends to zero for every finite \(T<T_*\). No scale-profile or compact-core
+\(H^s\) profile assumption is spent.
 
 ## Remaining Theorem: Exterior Nonlinear Source Ledger
 

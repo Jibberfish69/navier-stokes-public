@@ -163,8 +163,8 @@ On a first retained terminal tail satisfying `(RFET.1)`,
 
 ### Proof
 
-If the bracketed DTC/tower package held, `RFET.C` would give
-`\mathfrak A_{N+1,Q}\in L^\infty(I)`, and `RFET.A` would give a positive Field
+If the bracketed DTC/tower package holds, `RFET.C` gives
+`\mathfrak A_{N+1,Q}\in L^\infty(I)`, and `RFET.A` gives a positive Field
 scale.  That contradicts the retained Field exit. `\square`
 
 ## Source-Pulse Family Consequence

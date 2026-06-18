@@ -215,7 +215,7 @@ This is the `READ.COVER`-bypass analogue of the older source-wall target
 source/SCF carrier comparison theorem is installed.
 
 With no earlier selected SCF carrier and temporal non-atomicity, the
-temporal-support Liouville argument is immediate:
+temporal-support Liouville argument is:
 
 ```math
 \nu_*^{SCF}(B_R\times[-R^2,-a])=0\quad\forall a>0,
