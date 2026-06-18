@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-density-point-closure-direct-attempt-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md
-  downstream_consequence: "The forward-positive route is narrowed to a genuine scale-critical coercive estimate. The current cone ledger proves the moving identity, the physical discount, and the critical payment-rate threshold, but it does not prove discount removal, an unweighted cone budget, a profile Lyapunov functional, a scale-uniform payment throttle, or point-density Morrey control."
+  downstream_consequence: "The forward-positive route is narrowed to a genuine scale-critical coercive estimate. The current cone ledger proves the moving identity, the physical discount, and the critical payment-rate threshold, but it does not prove discount removal, an unweighted cone budget, a rescaled-field Lyapunov functional, a scale-uniform payment throttle, or point-density Morrey control."
 ---
 
 # MPP ForwardPositiveConeEstimateDirectAudit.A
@@ -63,7 +63,7 @@ int ( |u|^3 + |p|^{3/2} ) dx dt
 
 up to fixed constants on unit `s` slabs.
 
-The pure ledger cannot remove that discount. A model rescaled profile
+The pure ledger cannot remove that discount. A model rescaled field
 
 ```text
 v(y,s) = phi(y),       q(y,s) = pi(y),
@@ -91,7 +91,7 @@ undiscounted cone accounting. Any proof of
 `ParabolicFunnelScaleCriticalBudget.A` must use real Navier-Stokes structure
 beyond the moving-domain ledger.
 
-## 3. The Basic Profile Energy Is Not A Lyapunov Functional
+## 3. The Basic Rescaled Field Energy Is Not A Lyapunov Functional
 
 The rescaled equation used by the funnel note is
 
@@ -140,13 +140,13 @@ Thus
 = (1/4) A_lambda(s) - Boundary_lambda(s).
 ```
 
-The unweighted profile energy has a growth-side term `A_lambda/4` and uncontrolled
+The unweighted rescaled energy has a growth-side term `A_lambda/4` and uncontrolled
 boundary pressure/flux terms. It is not a monotone decreasing quantity on the
-cone. Therefore `FunnelProfileLyapunov.A` is not supplied by the plain profile
+cone. Therefore `FunnelProfileLyapunov.A` is not supplied by the plain rescaled
 energy.
 
 A successful Lyapunov theorem must add a new weight, pressure cancellation,
-boundary condition, or coercive profile identity that turns the right-hand side
+boundary condition, or coercive rescaled-field identity that turns the right-hand side
 into controlled loss.
 
 ## 4. The Fixed-Scale Payment Formula Does Not Give A Uniform Throttle
@@ -160,30 +160,40 @@ Rate_E(r,t)
  + C nu r^{-2} int_{A_r} |u|^2.
 ```
 
-At critical velocity
+Define the critical velocity scale only as a comparison unit:
 
 ```text
-U(r) = A(r) nu/r,
+U_bench(r;A) := A nu/r,
 ```
 
-define the stored critical packet energy and payment power by
+where `A` is a dimensionless benchmark amplitude. This is not an assertion
+that the branch has pointwise size `A nu/r`. The stored critical packet
+energy and payment power for a full-volume benchmark are
 
 ```text
-E_A(r) = omega_3 A(r)^2 nu^2 r,
-P_A(r) = omega_3 A(r)^2 nu^3/r.
+E_A(r) = omega_3 A^2 nu^2 r,
+P_A(r) = omega_3 A^2 nu^3/r.
 ```
 
-The cubic transport benchmark at the same scale, on an annulus `A_r` with
-volume constant `omega_A`, is
+The cubic transport benchmark at the same scale is valid only under an explicit
+positive-measure amplitude hypothesis. If an annulus `A_r` has volume constant
+`omega_A` and the tested branch satisfies `|u|=A nu/r` on that entire benchmark
+annulus, then
 
 ```text
 r^{-1} int_{A_r} |u|^3
-= omega_A A(r)^3 nu^3/r.
+= omega_A A^3 nu^3/r.
 ```
 
+Without that volume/amplitude hypothesis, the actual quantity remains
+`r^{-1} int_{A_r}|u|^3`, not the benchmark value. A weaker lower bound must be
+stated with its actual superlevel set: for example, if
+`|G_r(t)| >= theta |A_r|` and `|u| >= c A nu/r` on `G_r(t)`, then
+`r^{-1} int_{A_r}|u|^3 >= theta c^3 omega_A A^3 nu^3/r`.
+
 So the known rate formula is an accounting upper bound, not a throttle that
-beats the required payment.  When `A(r)` is bounded above and below, it has the
-same `r^{-1}` scale as the critical payment demand; when `A(r)` grows, the
+beats the required payment.  When `A` is bounded above and below, it has the
+same `r^{-1}` scale as the critical payment demand; when `A` grows, the
 cubic amplitude power is larger than the quadratic payment demand.
 
 Therefore `ScaleCriticalPaymentThrottle.A` still needs a structural estimate
@@ -223,8 +233,8 @@ The current forward-positive ledger proves:
 moving-cone energy identity;
 discounted physical cone budget;
 finite undiscounted cone budget => late-slab smallness => CKN regularity;
-critical stored energy E_A(r) = omega_3 A(r)^2 nu^2 r;
-critical payment power P_A(r) = omega_3 A(r)^2 nu^3/r;
+critical stored energy benchmark E_A(r) = omega_3 A^2 nu^2 r under the full-volume amplitude hypothesis;
+critical payment power benchmark P_A(r) = omega_3 A^2 nu^3/r under the same hypothesis;
 fixed-scale transfer-rate accounting;
 density-only point closure fails from finite integral data.
 ```
@@ -252,11 +262,11 @@ int_{S0}^{infinity} int_{B_lambda}
   ( |v|^3 + |q|^{3/2} + |nabla v|^2 ) dy ds
 < infinity;
 
-or a profile Lyapunov/coercivity inequality strong enough to force late slab
+or a rescaled-field Lyapunov/coercivity inequality strong enough to force late slab
 smallness;
 
-or a scale-uniform payment throttle below A(r)^2 nu^3/r on every shrinking
-schedule;
+or a scale-uniform payment throttle below the explicit benchmark/superlevel
+payment bill on every shrinking schedule;
 
 or a point-density Morrey/Campanato estimate strong enough to bound k(x0,T).
 ```

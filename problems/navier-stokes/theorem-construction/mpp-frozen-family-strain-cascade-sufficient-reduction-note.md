@@ -181,7 +181,7 @@ In particular, a sufficient interval discharge for `(FSCR.C)` is
 
 Sum `(FFSC.A0)` over the frozen net `\Xi_{\rho,\psi}^{\varepsilon}(I)` and use
 the definitions `(FFSC.1)`--`(FFSC.2)`. The interval discharge `(FFSC.B1)`
-then follows immediately on the finite interval `I`. ∎
+then follows by summing over the finite interval net `\Xi_{\rho,\psi}^{\varepsilon}(I)`. ∎
 
 ### Corollary `FSCR.C_postLCI` (Post-`LCI.A` strain/cascade channel closure)
 
@@ -255,9 +255,10 @@ If one also inserts the pointwise cutoff bound `(FCC.B2)`, then
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}(t;I)
 +
-\Big(
-\mathfrak b_{\psi}^{cut}(t)
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I)
 +
+\Big(
 C_{N,\lambda}\,
 \big(1+\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)\big)
 \Big)\,
@@ -283,8 +284,9 @@ gives
 \tag{FFSC.C2}
 ```
 
-Insert `(FFSC.B0)` to obtain `(FFSC.C0)`, then insert `(FCC.B2)` to absorb the
-cutoff branch and obtain `(FFSC.C1)`. ∎
+Insert `(FFSC.B0)` to obtain `(FFSC.C0)`, then insert the corrected cutoff
+bound `(FCC.B2)`, whose second term is the explicit cutoff-defect ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}`. This gives `(FFSC.C1)`. ∎
 
 ## Route Position
 
@@ -310,15 +312,16 @@ visible on disk:
 \tag{FFSC.D}
 ```
 
-So on that sufficient branch, the fixed-family differential law no longer has a
-second genuinely independent nonpressure source packet: strain/cascade has
-already moved to the coefficient side, leaving pressure as the only remaining
-independent source-side sibling after the cutoff absorption.
+So on that sufficient branch, the strain/cascade term is coefficient-side, while
+the cutoff branch is absorbed only after the explicit cutoff-defect ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}` is integrable. Pressure is
+the only remaining independent source-side sibling after that additional cutoff
+input.
 
 The new companion closure note
 [mpp-frozen-family-source-sufficient-closure-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-source-sufficient-closure-note.md)
 now combines this coefficient-side nonpressure realization with `FFPB.A0` and
-`FCC.C1` into the installed combined stronger sufficient source-side package
+the corrected `FCC.C1` cutoff-defect input into the installed combined stronger sufficient source-side package
 `(FFSRC.A)`.
 
 ## Boundary
@@ -333,6 +336,7 @@ It also does **not** identify a sharper same-depth descendant beneath
 stronger sufficient route currently visible on disk, namely `(FFSC.B1)` and
 its coefficient-side realization `(FFSC.C1)` on the frozen-family differential
 law. Once that nonpressure realization is combined with the remaining pressure
-bridge `(FFPB.A0)` and the cutoff closure inside `(FFSRC.A)`, this channel is
-no longer a live one-field burden: the strengthened source branch returns the
-remaining theorem-facing work entirely to the receiver side.
+bridge `(FFPB.A0)` and the explicit cutoff-defect input inside `(FFSRC.A)`, this
+channel is no longer a live one-field burden: the strengthened source branch
+returns the remaining theorem-facing work to the receiver side plus the cutoff
+defect/domination burden.

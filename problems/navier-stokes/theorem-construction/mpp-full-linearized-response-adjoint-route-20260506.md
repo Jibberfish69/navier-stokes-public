@@ -38,8 +38,8 @@ But the response equation itself is globally linear in `z`:
 \nu\Delta z+\Delta u.
 ```
 
-Therefore the cleanest adjoint should be built for the full localized
-linearized operator, not a shell-diagonal approximation.
+Therefore the proof-bearing adjoint route is the full localized linearized
+operator, not a shell-diagonal approximation.
 
 ## 1. Full Linearized Operator
 

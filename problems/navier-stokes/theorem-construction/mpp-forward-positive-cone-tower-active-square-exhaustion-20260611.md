@@ -4,7 +4,7 @@ ns_viewer:
   status: forward-positive-cone-tower-drain-program-exhausted-to-lpas-cts
   proof_role: forward_positive_cone_payment_derivative_tower_exhaustion
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Develops Thomas's shrinking-cone, derivative-tower, donor-drain, fast-collapse, and Gabriel-wall/volume ideas into one forward-positive accounting theorem. The cone and tower correctly show that base energy can hide while retained shape creates a higher-rung bill. They do not prove that global first-moment drain beats local active-square accumulation. A heat-scale pulse sequence has finite first-moment drain and divergent lower-prefix active-square cost, so the non-alias forward-positive target is residual/source-balanced LPAS/CTS/FCTS rather than raw active-square control."
+  edge_effect: "Develops Thomas's shrinking-cone, derivative-tower, donor-drain, fast-collapse, and Gabriel-wall/volume ideas into one forward-positive accounting theorem. The cone and tower correctly show that base energy can hide while explicit retained normalized tower load / non-affine scale-charged branches create higher-rung bills. They do not prove that global first-moment drain beats local active-square accumulation. A heat-scale pulse sequence has finite first-moment drain and divergent lower-prefix active-square cost, so the non-alias forward-positive target is residual/source-balanced LPAS/CTS/FCTS rather than raw active-square control."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-derivative-tower-cone-closure-race-attempt-20260611.md
@@ -54,7 +54,7 @@ The exact missing theorem is the residual source-balanced active-square /
 cumulative-tail control defined in
 `mpp-residual-refill-ledger-and-spine-consolidation-20260611.md`.  Raw
 active-square control is too
-strong because harmless heat-decaying high modes can have a large `D_j^2`
+strong because exact heat-decaying high modes can have a large `D_j^2`
 bill without being a nonlinear source-refill obstruction.
 
 ## 1. Whole-Cone Wall Accounting Is Correct But Discounted
@@ -107,10 +107,11 @@ use the full-ball benchmark power
 \omega_3{\nu^3\over \rho(t)}.
 ```
 
-Here `omega_3=|B_1(0)|`. If the active profile occupies only a fraction
-`theta` of the ball and carries only a fraction `c` of the benchmark amplitude,
-the benchmark constant becomes `theta omega_3 c^2`. That volume/profile lower
-bound is an extra hypothesis; cone geometry alone does not supply it.
+Here `omega_3=|B_1(0)|`. If an actual branch has a measurable active subset of
+relative volume `theta` and the relevant wall or energy density is bounded below
+there by a fraction `c` of the benchmark density, the benchmark constant becomes
+`theta omega_3 c^2`. That volume/amplitude or wall-integrand lower bound is an
+extra hypothesis; cone geometry alone does not supply it.
 
 For a power cone
 
@@ -129,8 +130,8 @@ the critical physical wall payment behaves like
 ```
 
 This is finite for `0<beta<1`.  The parabolic cone has `beta=1/2`, so finite
-physical wall payment is compatible with a persistent scale-critical cone
-profile.
+physical wall payment is compatible with a branch satisfying an explicit
+scale-critical cone-functional lower bound.
 
 That is the Gabriel-wall lesson in the Navier-Stokes currency:
 
@@ -142,7 +143,7 @@ That is the Gabriel-wall lesson in the Navier-Stokes currency:
 
 The whole cone is the right object, but its physical accounting is discounted.
 
-## 2. The Derivative Tower Finds The Shape Bill
+## 2. The Derivative Tower Finds Exact Retained-Load Bills
 
 Represent the cone through the derivative tower by
 
@@ -168,7 +169,7 @@ Then the identity is
 E_q(r,t)=\nu^2 r^{1-2q}G_q(r,t).
 ```
 
-A retained critical tower profile means that `G_q(r,t)` stays bounded below
+A retained critical tower load means that `G_q(r,t)` stays bounded below
 and above by positive constants along the selected shrinking branch. Under
 that stated hypothesis, the base rung can hide:
 
@@ -176,18 +177,21 @@ that stated hypothesis, the base rung can hide:
 E_0(r,t)=\nu^2 rG_0(r,t)\to0.
 ```
 
-The shape rungs cannot hide in the same way:
+The higher normalized rungs cannot hide in the same way:
 
 ```math
 E_q(r,t)\to\infty
 \qquad(q\ge1).
 ```
 
-Without a lower bound for `G_q`, this conclusion is not licensed.
+Without a lower bound for `G_q`, this conclusion is not licensed. Turning the
+per-scale lower bound into a global bill also requires a heat-time selection or
+bounded-overlap scale-charging ledger.
 
-So Thomas's derivative-tower correction is mathematically right.  The base
-energy picture misses the retained shape.  A genuine localized critical packet
-must pay at the derivative level.
+So Thomas's derivative-tower correction is mathematically right under the
+stated lower-bound hypotheses. The base energy picture misses retained
+normalized tower load. A localized critical packet pays at the derivative level
+only through those displayed lower bounds and the required charging ledger.
 
 Use heat time
 
@@ -204,7 +208,7 @@ S_q(r,t)
 \int_{B_r}|\nabla^q u|^2\,dx.
 ```
 
-A retained critical profile has `S_q(r,t)` bounded below and above by positive
+A retained critical tower branch has `S_q(r,t)` bounded below and above by positive
 constants. The desired tower conclusion is a finite heat-time bill:
 
 ```math
@@ -267,7 +271,7 @@ So representing the cone as the derivative tower sharpens the problem:
 ```math
 \text{critical base energy can be finite,}
 \qquad
-\text{critical retained shape demands higher-rung control.}
+\text{critical retained higher-rung load demands higher-rung control.}
 ```
 
 It does not by itself produce the missing finite high-rung budget.
@@ -421,7 +425,7 @@ That implication is false as an accounting theorem.
 ## 6. What The Forward-Positive Route Has Actually Reduced To
 
 The spill, signed, source-time, amplitude, and tower branches all return to the
-same non-alias target once harmless heat-decay and through-flow pieces are
+same non-alias target once exact heat-decay and through-flow pieces are
 removed.
 
 The raw dyadic form is:
@@ -442,7 +446,7 @@ The raw dyadic form is:
 The raw version cannot be the final theorem.  It must be read as the template
 for a residual theorem in which `2^{-j}D_j(t)^2` is replaced by the
 source-balanced positive refill density left after subtracting linear heat
-decay and harmless transport.
+decay and exact transport.
 
 The continuum forms are:
 
@@ -464,7 +468,7 @@ Thomas's cone/tower/drain picture has real mathematical content:
 
 ```text
 base energy can hide;
-retained shape moves into the derivative tower;
+retained normalized tower load moves into the derivative tower;
 the moving cone supplies the correct wall and volume ledgers;
 fast collapse is dangerous because square payment grows as active time shrinks;
 global drain is only a first-moment bill.
@@ -501,7 +505,7 @@ impassable obstruction from current exact ledgers:
   valid universal target;
 
 silver CM-exit test:
-  only a surviving residual source-balanced terminal pulse, after harmless heat
+  only a surviving residual source-balanced terminal pulse, after exact heat
   decay, through-flow, legal losses, and paid dissipation are removed, may be
   sent to the Pack-first CM witness grammar.
 ```

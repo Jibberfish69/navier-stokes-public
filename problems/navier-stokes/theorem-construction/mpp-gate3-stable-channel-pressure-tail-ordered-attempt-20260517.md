@@ -16,7 +16,7 @@ StableChannelTailControl.A
 PressureTailHardyTransportedShells.A.
 ```
 
-A successful package would give transported-boundary tightness, which still requires terminal time-face anti-atom control to close `ZenoResidueLiouville_{B_ASAC}.A`.
+The transported-boundary package gives transported-boundary tightness only together with terminal time-face anti-atom control; that combined statement is the condition needed to close `ZenoResidueLiouville_{B_ASAC}.A`.
 
 ## Stable-channel tail test
 

@@ -14,7 +14,7 @@ The desired residue theorem is
 \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
 ```
 
-This would convert pressure-sustain residue into native source residue or legal source residue.
+This absolute-continuity statement converts pressure-sustain residue into native source residue or legal source residue.
 
 ## Failure of PressureSourceAC.A
 

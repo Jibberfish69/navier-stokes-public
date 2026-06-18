@@ -58,7 +58,7 @@ where
 B_T(t)=J_T(t)^{-1}J_T(t)^{-T}
 ```
 
-up to the harmless determinant normalization from the affine change of
+after the determinant normalization from the affine change of
 variables.  On coefficient-good heat windows, the affine frame is uniformly
 nondegenerate, so `B_T(t)` is uniformly elliptic on the tile:
 

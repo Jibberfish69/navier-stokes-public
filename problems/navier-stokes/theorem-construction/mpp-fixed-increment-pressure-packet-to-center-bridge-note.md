@@ -90,7 +90,8 @@ So the coarser theorem beneath `FFPLB.B0` is exactly:
 ```
 
 If `(FIPCB.A0)` were installed, then on the ordinary energy-conditioned branch
-the single-increment bridge `FFPLB.B0` would follow immediately from `(FPR.C3)`.
+the single-increment bridge `FFPLB.B0` would be `(FPR.C3)` rewritten with the
+packet-to-center bridge supplied by `(FIPCB.A0)`.
 
 ### Proposition `FIPCB.A1` (The frozen-net packet-to-center bridge reduces to the single-increment bridge)
 

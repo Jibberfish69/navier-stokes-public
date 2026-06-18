@@ -103,7 +103,7 @@ Therefore
 For the selected strengthened route, use
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow FFSRC.A\Longrightarrow FCI.5f.
 ```
 
 The expanded source split is
@@ -112,12 +112,12 @@ The expanded source split is
 \mathcal N^{src}=\mathcal N^{press}+\mathcal N^{sc}+\mathcal N^{cut}.
 ```
 
-`FCC.C1` supplies the cutoff commutator formula and Young absorption into viscosity plus an integrable cutoff coefficient. `FSCR.C_postLCI` gives strain/cascade control from the finite weighted coefficient estimate. `FPCR.C_postLCI` gives the pressure split into `LH/HL`, resonant, and far-tail channels under `Gamma_low in L^1` and bounded frozen-family energy. The selected route reads pressure through the packet-local weighted pressure carrier in `FFPB.A0`.
+`FCC.C1` supplies the cutoff commutator formula and a Young-margin split into viscosity plus an integrable cutoff coefficient. `FSCR.C_postLCI` gives strain/cascade control from the finite weighted coefficient estimate. `FPCR.C_postLCI` gives the pressure split into `LH/HL`, resonant, and far-tail channels under `Gamma_low in L^1` and bounded frozen-family energy. The selected route reads pressure through the packet-local weighted pressure carrier in `FFPB.A0`.
 
 Thus the line-by-line supplier row closes for the route-selected strengthened import:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The exact same-depth `FIRP.A0=>FPCR.C` branch is a separate optional pressure branch.

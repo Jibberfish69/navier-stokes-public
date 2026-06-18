@@ -20,7 +20,7 @@ visible beneath the frozen-family source-only ledger `(FCI.5f)`.
 
 ```math
 \boxed{
-\text{once pressure is split off and the localization-created cutoff channel is absorbed,}
+\text{once pressure is split off and the localization-created cutoff channel is placed under the Young-margin estimate,}
 \newline
 \text{the remaining same-depth nonpressure source beneath }(FCI.5f)\text{ is exactly the frozen-family strain/cascade channel,}
 \newline
@@ -144,7 +144,7 @@ For every `t\in I`,
 Expand `(FSCR.2a)` using `(FSCR.2)` with `h=\eta^\ell`, sum in
 `\ell=1,\dots,M_\varepsilon`, and compare with `(FSL.3)` and `(FSL.4)`. ∎
 
-### Corollary `FSCR.A1` (After cutoff absorption, the remaining nonpressure source target is exactly the strain/cascade channel)
+### Corollary `FSCR.A1` (After the cutoff Young-margin estimate, the remaining nonpressure source target is exactly the strain/cascade channel)
 
 Assume
 
@@ -175,7 +175,7 @@ the exact remaining same-depth nonpressure source theorem beneath `(FCI.5f)` is
 Integrate `(FSCR.A0)` on `I`. Since `(FSCR.A1a)` makes the cutoff summand
 integrable, the two interval-integrability statements in `(FSCR.A1b)` are
 equivalent. The last statement is only the same conclusion read after the
-already-installed cutoff absorption route. ∎
+already-installed cutoff Young-margin route. ∎
 
 ## PDE-Native Structure
 

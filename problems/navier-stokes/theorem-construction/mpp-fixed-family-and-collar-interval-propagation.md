@@ -37,7 +37,7 @@ The exact burden here is:
 \tag{FCI.0}
 ```
 
-The route has already been reduced far enough that these are the two immediate
+The route has already been reduced far enough that these are the two next
 successor burdens. Once they are available, the common-object discharge is
 formal and the branch can move on to closure packaging and first-exit work.
 
@@ -312,7 +312,7 @@ as `(FFPR.C2)`, and that sufficient branch already rejoins the installed
 fixed-radius pressure stack through `FPC.H -> FPL.C`, then returns by `FPL.G`
 to the receiver-side collar burden `CSP.B3a1`. The new companion note
 [mpp-frozen-family-strain-cascade-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md)
-now records the matching nonpressure sibling exactly: after cutoff absorption,
+now records the matching nonpressure sibling exactly: after cutoff Young-margin reduction,
 the remaining same-depth source theorem is `(FSCR.C)`, namely
 `\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(\cdot;I)\in L^1(I)`, while the
 new adjacent sufficient note

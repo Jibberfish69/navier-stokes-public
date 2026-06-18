@@ -255,7 +255,7 @@ FirstHeightCreationDichotomy.A.
 \tag{FHC.9}
 ```
 
-The proof is immediate from `(FHC.6)` and the first-height selection.
+The proof is `(FHC.6)` applied at the first-height selection.
 
 ## 6. Verdict
 

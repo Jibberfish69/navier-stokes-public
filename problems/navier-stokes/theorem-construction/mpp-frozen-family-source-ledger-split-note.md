@@ -132,7 +132,8 @@ source packets in the localized defect-energy identity `(MP.12)` and therefore
 the pointwise source side of the neighboring-response witness `(NRW.14)`. By
 the pressure bookkeeping `(MP.13)`, the first two terms form one pressure
 channel, the next two form the strain/cascade interaction channel, and the last
-term is the viscous cutoff-commutator channel. So `(FSL.A0)` is immediate, and
+term is the viscous cutoff-commutator channel. So `(FSL.A0)` is exactly this
+regrouping, and
 `(FSL.A1)`--`(FSL.A2)` follow by integrating on `I`. ∎
 
 ## Conditional Source-Route Readout
@@ -157,6 +158,8 @@ FSCR.C_{postLCI}:
 ```math
 FCC.C1:
 \quad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I),
 \tag{FSL.C3}
 ```
@@ -164,7 +167,8 @@ FCC.C1:
 and therefore, by `(FSL.A0)`,
 
 ```math
-FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
+FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 (FCI.5f).
 \tag{FSL.C4}
@@ -173,8 +177,9 @@ FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
 The pressure cell is the local pressure split into low-high/high-low,
 resonant finite-net, and energy far-tail pieces; the strain/cascade cell is
 the finite frozen packet aggregate against the post-`LCI.A` collar coefficient;
-the cutoff cell is the packet-factor derivative/cutoff absorption through
-`\mathfrak b_{\psi}^{cut}=4\nu(\Phi_{\psi}^{glob,(1)})^2`. Thus the
+the cutoff cell is the packet-factor derivative/cutoff Young-margin estimate
+through the explicit weighted cutoff-defect ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}`. Thus the
 source-side contribution to the conditional route is exactly the three-channel
 frozen-family source split, not a receiver `ACT.KX` theorem and not an endpoint
 certificate.
@@ -198,15 +203,19 @@ channels already admit a route-native interval-integrability discharge, rather
 than continuing to speak only about the undifferentiated sum `(FCI.5f)`.
 The companion note
 [mpp-frozen-family-cutoff-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-cutoff-channel-reduction-note.md)
-now goes farther: `(FCC.C1)` absorbs the cutoff channel into the
-viscous/coefficient side once the explicit packet-factor coefficient ledger
-`\mathfrak b_{\psi}^{cut}` is integrable. So the genuinely inhomogeneous source
-wall is no longer three equal channels; it is pressure plus strain/cascade,
-with cutoff now a paired coefficient-side closure. The explicit packet
+now goes farther: the corrected `(FCC.C1)` places the cutoff channel under the
+viscous side plus the exact weighted cutoff-defect ledger
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}`. The packet-factor
+coefficient `\mathfrak b_{\psi}^{cut}` is only a coefficient readout unless a
+separate domination theorem connects it to that weighted ledger. So the
+genuinely inhomogeneous source wall is no longer three equal channels once that
+cutoff-defect input is supplied; it is pressure plus strain/cascade, with cutoff
+then a paired viscous/cutoff-defect closure. The explicit packet
 commutator writeup in the companion note
 [mpp-frozen-family-packet-cutoff-commutator-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-packet-cutoff-commutator-note.md).
-then records via `(PCC.Ca)` that the first direct packet bounds still self-loop
-through the same fixed-family propagation.
+then records via `(PCC.Ca)` that the first direct packet bounds spend the
+cutoff-defect ledger rather than a proved coefficient multiple of the packet
+energy.
 On the pressure side, the companion note
 [mpp-frozen-family-pressure-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md)
 now shows that, under the installed ordinary interval energy ledger, the
@@ -238,12 +247,12 @@ So the honest source-side status is:
 
 ```math
 \boxed{
-\text{the remaining frozen-family wall is still }(FCI.5f),\text{ but its cutoff branch is already a paired coefficient-side closure and,}
+\text{the remaining frozen-family wall is still }(FCI.5f),\text{ but its cutoff branch is a paired viscous/cutoff-defect closure once }(FCC.C1a)\text{ is supplied and,}
 \newline
 \text{on the installed ordinary interval energy route, the pressure branch sharpens to }
 \mathfrak Q_{N,\rho,\psi}^{press,RR,\varepsilon,\alpha}\text{ beside the exact same-depth strain/cascade theorem }(FSCR.C).}
 \newline
-\text{The new companion strain/cascade note records the exact nonpressure survivor: after cutoff absorption, the remaining same-depth source theorem is }
+\text{The new companion strain/cascade note records the exact nonpressure survivor: after cutoff Young-margin reduction, the remaining same-depth source theorem is }
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(\cdot;I)\in L^1(I),
 \newline
 \text{while the adjacent sufficient note }(FFSC.B1)\text{ / }(FFSC.C1)\text{ already exports that whole channel to }

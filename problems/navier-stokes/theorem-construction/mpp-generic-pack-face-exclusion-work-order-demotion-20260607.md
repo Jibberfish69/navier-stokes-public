@@ -1,22 +1,22 @@
 ---
 ns_viewer:
-  theorem_id: generic-pack-face-exclusion-work-order-demotion-20260607
-  status: demoted-stale-work-order
-  proof_role: blocker_demotion
+  theorem_id: generic-pack-face-exclusion-work-order-target-repair-20260607
+  status: target-repair-stale-generic-blocker
+  proof_role: target_repair
   logical_landing_node: cm_pack_face_attempts
-  edge_effect: "Demotes generic Pack-face exclusion as a stale global no-exit target while preserving not-Pack_Q as a lawful first-face landing for named rows."
+  edge_effect: "Replaces generic Pack-face exclusion with row-level CM-test entry and first-face certification while preserving not-Pack_Q as a lawful first-face landing for named rows."
   upstream_origin: "June 7 Pack-face exclusion working pass and current CM referee audit."
   downstream_consequence: "Future carrier rows require same-witness Pack certification or land as Pack failures instead of staying generic Clay blockers."
 ---
 
-# MPP Generic Pack-Face Exclusion Work-Order Demotion
+# MPP Generic Pack-Face Exclusion Work-Order Target Repair
 
 Date: 2026-06-07
 
-Status: demotion note. The generic Pack face-exclusion work order is stale as a
-current proof-bearing blocker. Named promoted obstruction rows still require
-CM-test entry plus Pack/Part/Field face certification before they can carry proof
-mass.
+Status: target-repair note. The generic Pack face-exclusion work order is stale
+as a current proof-bearing blocker. Named promoted obstruction rows still
+require CM-test entry plus Pack/Part/Field face certification before they can
+carry proof mass.
 
 ## Governing Program
 
@@ -141,15 +141,16 @@ terminal L3 Duhamel response mass
 ```
 
 The rows that are not certified as proof-bearing are not Pack blockers. They are
-demoted support, supplier, readout, generic translator, or comparison rows until
-a same-atlas proof promotes them. The retained positive-scale native reserve
-birth row is the key example: it remains optional positive Pack-support work,
-not a current CM proof-bearing row, unless same-ledger payment or concrete
+classified as support, supplier, readout, generic translator, or comparison rows
+until a same-atlas proof promotes them. The retained positive-scale native
+reserve birth row is the key example: it remains optional positive Pack-support
+work, not a current CM proof-bearing row, unless same-ledger payment or concrete
 CM-test admission plus first-face derivation is proved on the global atlas.
 
 ## Result
 
-The generic Pack face-exclusion work order is demoted.
+The generic Pack face-exclusion work order is reclassified as a stale generic
+blocker, not a live theorem burden.
 
 The current mathematical status is:
 

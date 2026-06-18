@@ -88,7 +88,7 @@ infinite terminal common-collar stretching on the first Pack-failure collar.
 
 ## Why this does not close from current inputs
 
-The current `B_ASAC` clauses still admit the scalar terminal-layer model:
+The current `B_ASAC` clauses still admit the scalar endpoint time-marginal witness:
 
 ```text
 g_m(s)=m 1_{(-1/m,0]}(s),

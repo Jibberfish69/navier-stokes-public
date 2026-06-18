@@ -59,9 +59,11 @@ gives two exact reductions:
    from `(FSP.7)`--`(FSP.9)`, with only the resonant packet genuinely
    same-depth by `(FSP.C1)`.
 
-So the frozen-family pressure channel does not have to be treated as one
-undifferentiated pressure source if one follows the installed direct pressure
-route.
+Thus, on the installed direct pressure route, `(FPR.C3)` and `(FSP.C1)` split the
+frozen-family pressure channel into harmonic-tail/coefficient companions, strict
+low-high and high-low coefficient companions, and the finite-collar resonant
+survivor. The reduction is conditional on the ordinary interval energy ledger
+used in `(FPR.C3)`.
 
 ## Frozen-Net Resonant Packet Sum
 
@@ -223,8 +225,8 @@ Define the frozen-net FEI pressure-response family by
 \tag{FPCR.E0}
 ```
 
-The centerwise-only bridge would compare the packet-level
-frozen-family pressure channel `(FPCR.1)` to `(FPCR.E0)` on `I`, so that the
+The centerwise-only bridge is the comparison of the packet-level
+frozen-family pressure channel `(FPCR.1)` with `(FPCR.E0)` on `I`, so that the
 installed FEI route
 
 ```math

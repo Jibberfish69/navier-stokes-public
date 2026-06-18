@@ -29,7 +29,7 @@ For each finite `R`, the time interval decomposes as
 [-R^2,0]=\left(\bigcup_{n\ge1}[-R^2,-1/n]\right)\cup\{0\}.
 ```
 
-The no-earlier-slice clause gives zero mass on each `[-R^2,-1/n]`. A terminal time-face anti-atom clause would give zero mass on `{0}`. Countable subadditivity would then give zero source residue on `B_R\times[-R^2,0]`, and exhaustion in `R` would give residue Liouville.
+The no-earlier-slice clause gives zero mass on each `[-R^2,-1/n]`. Adding the terminal time-face anti-atom clause gives zero mass on `{0}`. Countable subadditivity then gives zero source residue on `B_R\times[-R^2,0]`, and exhaustion in `R` gives residue Liouville.
 
 ## Direct obstruction
 

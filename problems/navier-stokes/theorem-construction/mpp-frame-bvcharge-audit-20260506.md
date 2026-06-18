@@ -85,10 +85,36 @@ C\theta
 \tag{FBV.5}
 ```
 
-If the off-axis strain component is not large, `(FBV.5)` is absorbable by
-choosing `theta` small.  If it is large, then the packet direction is rotating
-at the high heat rate toward or across an expanding near-band eigendirection.
-That is exactly an active-alignment transition, not legal bookkeeping.
+If the off-axis strain component is not large, `(FBV.5)` is paid with an
+explicit absorption margin.  For the tested frame packet define
+
+```math
+H_W^{frame}:=\sum_P\omega_PE_P
+|Q_{n_P}S^{near}_{j_P,L}n_P|.
+```
+
+After summing `(FBV.5)` over \(P\), choose \(0<\eta_{fbv}<1\) and
+
+```math
+\theta\le \eta_{fbv}/C.
+\tag{FBV.5a}
+```
+
+Then the subparabolic non-rotating part is bounded by
+
+```math
+\sum_P\omega_PE_P\tau_P
+|Q_{n_P}S^{near}_{j_P,L}n_P|
+\|S^{near}_{j_P,L}\|_\infty
+\le
+\eta_{fbv}H_W^{frame}.
+\tag{FBV.5b}
+```
+
+If this smallness condition fails through a large off-axis component, then the
+packet direction is rotating at the high heat rate toward or across an
+expanding near-band eigendirection.  That is exactly an active-alignment
+transition, not legal bookkeeping.
 
 On the complement of `(FBV.4)`, the near band has parabolic-rate amplitude and
 therefore routes to the already isolated burst-height branch:
@@ -163,9 +189,9 @@ no incoming source cannot keep rotating into an expanding strain direction.
 ## 5. Verdict
 
 `FrameBVCharge.A` is not an independent easy estimate.  Its subparabolic
-non-rotating part is harmless, and its parabolic-amplitude complement routes to
-burst height.  The live remainder is exactly the active alignment/no-incoming
-gate:
+non-rotating part is paid only by the explicit `(FBV.5b)` absorption after the
+choice `(FBV.5a)`, and its parabolic-amplitude complement routes to burst
+height.  The live remainder is exactly the active alignment/no-incoming gate:
 
 ```text
 ActiveStrainAlignmentCost.A / TPNI.A / TerminalSignedSaturation.A.

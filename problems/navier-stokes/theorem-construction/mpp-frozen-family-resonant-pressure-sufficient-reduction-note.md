@@ -119,7 +119,8 @@ R_{\rho}^{halo,\ast},
 which is the second inequality in `(FFPR.Aa0)`. Since the frozen net
 `\Xi_{\rho,\psi}^{\varepsilon}(I)=\{\eta^\ell\}_{\ell=1}^{M_\varepsilon}`
 lies in the fixed reference ball `\mathbb B_{\rho,\psi}^{ref}(I)` by the setup
-`(FCI.0)` / `(FN.4)`, `(FFPR.Aa1)` follows immediately. ∎
+`(FCI.0)` / `(FN.4)`, each packet center satisfies the radius condition in
+`(FFPR.Aa1)`. ∎
 
 ## Single-Increment Sufficient Reduction
 
@@ -156,7 +157,8 @@ factors are bounded by `(FPR.2)`, one absolute factor is controlled by
 and one increment/Holder factor is controlled by
 `\mathfrak H_{N,\eta}^{press,loc,4\Lambda,\alpha}(t)^{1/2}`. The resonant
 restriction only removes terms from the full Leibniz-Bony expansion, while the
-finite collar width `C_0` contributes only to the harmless constant.
+finite collar width `C_0` contributes only to a fixed multiplicative constant
+`C(C_0)` chosen before the endpoint packet is selected.
 
 Taking the `L^\infty` and `C^{0,\alpha}` norms on the widened transported-center
 balls, summing in `k=0,\dots,N`, and taking the supremum in `j` yields
@@ -199,8 +201,8 @@ window, so `(FFPR.A0)` applies to each
 `\eta^\ell\in\Xi_{\rho,\psi}^{\varepsilon}(I)`. Sum `(FFPR.A0)` over the frozen
 net and use the definitions `(FFPR.1)`--`(FFPR.2)`. The constant term sums to
 `M_\varepsilon`, while the collar factor is common to the whole frozen net.
-This gives `(FFPR.B0)`. The sufficient interval discharge `(FFPR.B1)` is then
-immediate on the finite interval `I`. ∎
+This gives `(FFPR.B0)`. On the finite interval `I`, the sufficient interval
+discharge `(FFPR.B1)` follows from the same bound. ∎
 
 ## Fixed-Radius Export
 
@@ -290,7 +292,7 @@ This note does **not** prove
 
 It also does **not** identify any sharper same-depth descendant beneath
 `(FIRP.A0)`; it only records the nearest stronger sufficient export inherited
-from `(FPR.C4c)` and its immediate fixed-radius continuation.
+from `(FPR.C4c)` and its next fixed-radius continuation.
 
 So the honest pressure-side status is:
 

@@ -30,7 +30,7 @@ combined source-side package currently visible on disk.
 \newline
 \text{to the installed packet-local widened-pressure bridge plus one Gronwall closure on the frozen-family packet aggregate driven by the widened collar envelope, the widened local pressure carrier,}
 \newline
-\text{and the cutoff coefficient.}
+\text{and the explicit cutoff-defect ledger.}
 }
 \tag{FFSRC.0}
 ```
@@ -60,10 +60,10 @@ the finite-net widened local pressure carrier
 \tag{FFSRC.3}
 ```
 
-and the cutoff coefficient
+and the cutoff-defect ledger
 
 ```math
-\mathfrak b_{\psi}^{cut}(t).
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I).
 \tag{FFSRC.4}
 ```
 
@@ -100,8 +100,8 @@ packet-local widened pressure theorem
 as `(FFPB.A0)`. The key typing is that
 `\mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha}` already
 includes the frozen packet multipliers and finite-difference/tower weights
-appearing in the packet pressure channel. A centerwise-only reading would
-reopen `(FIPCB.A0)`.
+appearing in the packet pressure channel. A centerwise-only reading reopens
+`(FIPCB.A0)`.
 
 ### Proposition `FFSRC.A` (Combined source-side closure on the organized stronger source branch)
 
@@ -128,7 +128,7 @@ the ordinary interval energy ledger is available on `I`,
 and
 
 ```math
-\mathfrak b_{\psi}^{cut}\in L^1(I).
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I).
 \tag{FFSRC.A3}
 ```
 
@@ -182,9 +182,10 @@ Now apply `(FFSC.C1)`:
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}(t;I)
 +
-\Big(
-\mathfrak b_{\psi}^{cut}(t)
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I)
 +
+\Big(
 C_{N,\lambda}\,
 \big(1+\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)\big)
 \Big)\,
@@ -193,10 +194,9 @@ C_{N,\lambda}\,
 ```
 
 The coefficient multiplying `\mathcal F_{N,\rho,\psi}^{\varepsilon}` belongs to
-`L^1(I)` by `(FFSRC.A1)`, `(FFSRC.A3)`, and `(FFSRC.A8)`, while the
-inhomogeneous source term is integrable by `(FFSRC.A7)`. Gronwall on the finite
-interval `I` therefore gives `(FFSRC.A4)`, and the same integrated inequality
-shows
+`L^1(I)` by `(FFSRC.A1)` and `(FFSRC.A8)`, while the inhomogeneous source terms
+are integrable by `(FFSRC.A7)` and `(FFSRC.A3)`. Gronwall on the finite interval
+`I` therefore gives `(FFSRC.A4)`, and the same integrated inequality shows
 
 ```math
 \mathcal N_{N,\rho,\psi}^{visc,\varepsilon}\in L^1(I).
@@ -210,29 +210,32 @@ Then `(FFSC.B1)` applied with `(FFSRC.A4)` and `(FFSRC.A8)` yields
 \tag{FFSRC.A11}
 ```
 
-which is the second part of `(FFSRC.A5)`. Finally, `(FCC.C1)` applies with
-`(FFSRC.A3)`, `(FFSRC.A5)`, and `(FFSRC.A4)` and gives the full source theorem
-`(FFSRC.A6)`. ∎
+which is the second part of `(FFSRC.A5)`. Finally, the corrected `(FCC.C1)`
+applies with the cutoff-defect input `(FFSRC.A3)`, `(FFSRC.A5)`, and
+`(FFSRC.A4)` and gives the full source theorem `(FFSRC.A6)`. ∎
 
 ### Corollary `FFSRC.B_postLCI` (Source-side cell of the conditional route theorem)
 
-On the post-`LCI.A` source lane, assume the source-side coefficient package
+On the post-`LCI.A` source lane, assume the source-side closure package
 
 ```math
 \mathfrak C_{N+1,\rho,\psi}^{\delta}\in L^1(I),
 \qquad
 \Gamma_{N,m,\rho,\psi}^{low}\in L^1(I),
 \qquad
-\mathfrak b_{\psi}^{cut}\in L^1(I),
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I),
 \qquad
 \sup_{t\in I}\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)<\infty.
 \tag{FFSRC.B2}
 ```
 
-Here `\mathfrak b_{\psi}^{cut}=4\nu(\Phi_{\psi}^{glob,(1)})^2` is the
-packet-factor cutoff coefficient supplied by the transported packet-factor
-derivative package `(FCC.A0)`--`(FCC.A5)`. Under `(FFSRC.B2)`, the source
-channel cells are:
+Here `\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}` is the exact weighted
+cutoff-defect ledger from `(FCC.3b)`. The transported packet-factor derivative
+package `(FCC.A0)`--`(FCC.A5)` controls the coefficient
+`\mathfrak b_{\psi}^{cut}=4\nu(\Phi_{\psi}^{glob,(1)})^2`; a separate
+domination theorem is still needed if one wants to derive this cutoff-defect
+input from that coefficient control. Under `(FFSRC.B2)`, the source channel
+cells are:
 
 ```math
 FPCR.C_{postLCI}:
@@ -269,7 +272,7 @@ FPCR.C_{postLCI}+FSCR.C_{postLCI}+FCC.C1
 i.e.
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 (FCI.5f)
 \tag{FFSRC.B4}
@@ -278,7 +281,7 @@ FPCR.C+FSCR.C+FCC.C1
 on the post-`LCI.A` sufficient source route. The older route shorthand
 `FCC.C1 -> FSCR.C -> FPCR.C -> FCI.5f` is only an accounting order: the actual
 use of `FCC.C1` consumes the already obtained pressure and strain/cascade
-`L^1` controls and then absorbs the cutoff channel into the viscous/coefficient
+`L^1` controls and then places the cutoff channel under the viscous/coefficient
 side.
 
 ### Proof
@@ -314,10 +317,10 @@ C\|u_0\|_{L^2}^2.
 Thus `(FFSRC.B2)` makes all three pressure pieces integrable on the finite
 interval, proving `(FFSRC.B2a)`.
 
-Now apply `FCC.C1` with `(FFSRC.B2a)`, `(FFSRC.B2b)`, and
-`\mathfrak b_{\psi}^{cut}\in L^1(I)`. The cutoff commutator is absorbed into
-half of the frozen-family viscous ledger plus the packet-factor coefficient
-times `\mathcal F_{N,\rho,\psi}^{\varepsilon}`, giving `(FFSRC.B2c)`. Finally,
+Now apply the corrected `FCC.C1` with `(FFSRC.B2a)`, `(FFSRC.B2b)`, and
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`. The cutoff
+commutator is absorbed into half of the frozen-family viscous ledger plus the
+explicit cutoff-defect ledger, giving `(FFSRC.B2c)`. Finally,
 the formal source split `(FSL.A0)` / `FCI.Split` identifies the full frozen
 source ledger as pressure plus strain/cascade plus cutoff, proving
 `(FFSRC.B3)`--`(FFSRC.B4)`. ∎
@@ -336,7 +339,7 @@ What it does show is that the installed stronger branches already organize:
 
 1. pressure: the installed packet-local widened bridge `(FFPB.A0)`;
 2. nonpressure: `FFSC.B1` / `FFSC.C1`;
-3. cutoff: `FCC.C1`;
+3. cutoff: the corrected `FCC.C1` with the cutoff-defect input `(FCC.C1a)`;
 
 into one combined source-side package for `(FCI.5f)`.
 
@@ -349,7 +352,7 @@ driven by:
 \qquad
 \mathfrak H_{N,\rho,\psi}^{press,loc,4\Lambda,\varepsilon,\alpha},
 \qquad
-\mathfrak b_{\psi}^{cut},
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon},
 \qquad
 \mathcal F_{N,\rho,\psi}^{\varepsilon}(t_0;I).
 \tag{FFSRC.B1}

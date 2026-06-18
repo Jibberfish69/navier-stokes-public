@@ -118,7 +118,7 @@ question:
 ```
 
 ```math
-\text{does the whole incompressible geometry respond immediately?}
+\text{does the whole incompressible geometry respond at once?}
 ```
 
 To model that question, consider the forced system on `[t_*,T)` with
@@ -166,7 +166,7 @@ e^{-|x-y|^2/(4\nu(t-s))},
 which is nonzero for every `x,y`.
 
 Therefore, once the perturbation is turned on, the incompressible NS model
-generically produces immediate global readjustment:
+generically produces global readjustment at once:
 
 ```math
 \boxed{
@@ -201,7 +201,7 @@ a+\int_{t_*}^t u(\Phi(a,s),s)\,ds,
 ```
 
 so under the NS model the entire incompressible geometry is coupled
-immediately, but not symmetrically and not by discontinuous jump.
+at once, but not symmetrically and not by discontinuous jump.
 
 The same point is visible in the pressure law:
 

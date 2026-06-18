@@ -291,7 +291,7 @@ C_{\mathrm{far}}
 ```
 
 Thus the pressure contribution to
-`FPCR.C+FSCR.C+FCC.C1 -> (FCI.5f)` is a source/frozen-family pressure
+`FPCR.C+FSCR.C+FCC.C1+FCC.C1a -> (FCI.5f)` is a source/frozen-family pressure
 localization statement. It does not import a receiver `ACT.KX` theorem or any
 endpoint certificate.
 

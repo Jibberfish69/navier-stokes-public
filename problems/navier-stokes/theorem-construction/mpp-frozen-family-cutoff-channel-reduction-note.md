@@ -18,17 +18,18 @@ cutoff-commutator channel in the source-side ledger under `(FCI.5f)`.
 
 ```math
 \boxed{
-\text{the cutoff channel is localization-created only, so it can be absorbed into the viscous/coefficient side of the frozen-family law once the packet-factor coefficient }
-\mathfrak b_{\psi}^{cut}\text{ is integrable,}
+\text{the cutoff channel is localization-created only, so it is placed under the displayed Young-margin inequality on the viscous/cutoff-defect side once }
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)\text{ is supplied,}
 \newline
 \text{shrinking the independent source wall beneath }(FCI.5f)\text{ to the pressure and strain/cascade channels.}
 }
 \tag{FCC.0}
 ```
 
-This note now proves the exact cutoff absorption beneath the frozen-net source
-ledger. What remains conditional is only the interval-integrability of the
-packet-factor coefficient `\mathfrak b_{\psi}^{cut}`.
+This note now proves the exact cutoff Young-margin reduction beneath the frozen-net source
+ledger. What remains conditional is the interval-integrability of the weighted
+cutoff-defect ledger `(FCC.3b)`, or a separate theorem that dominates it by
+already-controlled data.
 
 ## Exact Frozen-Net Cutoff Channel
 
@@ -132,7 +133,7 @@ then
 This is exactly `CSP.B1c`, rewritten as the coefficient-side package beneath
 the frozen-net cutoff channel. ∎
 
-## Exact Cutoff Absorption
+## Exact Cutoff Young-Margin Estimate
 
 Define the packet-factor cutoff coefficient
 
@@ -144,7 +145,33 @@ Define the packet-factor cutoff coefficient
 \tag{FCC.3}
 ```
 
-### Proposition `FCC.B1` (Exact cutoff-commutator formula and single-increment absorption)
+Define also the exact cutoff-defect ledger spent by the packet commutator:
+
+```math
+\mathcal E_N^{cut,\nabla}(h,t;\psi)
+:=
+\sum_{k=0}^{N}
+\lambda_k
+\int
+|\nabla\phi_t(x,t)|^2\,|\delta_hU_k(x,t)|^2\,dx.
+\tag{FCC.3a}
+```
+
+For the frozen net, set
+
+```math
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I)
+:=
+\sum_{\ell=1}^{M_\varepsilon}
+\mathcal E_N^{cut,\nabla}(\eta^\ell,t;\psi).
+\tag{FCC.3b}
+```
+
+The coefficient `\mathfrak b_{\psi}^{cut}` controls the size of
+`|\nabla\phi_t|`, but it does not by itself turn `(FCC.3a)` into a multiple of
+the localized packet energy `(MP.6)`.
+
+### Proposition `FCC.B1` (Exact cutoff-commutator formula and single-increment Young-margin estimate)
 
 For every fixed increment `h\in\mathbf R^3`, time `t`, and finite depth `N`,
 
@@ -166,7 +193,7 @@ Consequently,
 \le
 \frac12\,\mathcal N_{N,h,\psi}^{visc}(t)
 +
-\mathfrak b_{\psi}^{cut}(t)\,E_N(h,t;\psi).
+4\nu\,\mathcal E_N^{cut,\nabla}(h,t;\psi).
 \tag{FCC.B1b}
 ```
 
@@ -204,9 +231,12 @@ For the estimate, use `|\nabla\phi_t|\le \Phi_{\psi}^{glob,(1)}(t)` and
 ```
 
 Multiply `(FCC.B1d)` by `\nu\lambda_k`, integrate, sum in `k`, and use
-`(NRW.4)` and `(MP.6)`. This gives `(FCC.B1b)`. ∎
+`(NRW.4)` and `(FCC.3a)`. This gives `(FCC.B1b)`. The earlier coefficient-only
+reading requires an additional domination theorem converting
+`\mathcal E_N^{cut,\nabla}` into a multiple of `E_N`; it is not a consequence of
+the definitions of `\phi_t` and `E_N`. ∎
 
-### Corollary `FCC.B2` (Frozen-net cutoff absorption)
+### Corollary `FCC.B2` (Frozen-net cutoff Young-margin estimate)
 
 Define the frozen-family viscous ledger
 
@@ -226,8 +256,8 @@ for the same frozen net `\Xi_{\rho,\psi}^{\varepsilon}(I)=\{\eta^\ell\}` as in
 \le
 \frac12\,\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}(t;I)
 +
-\mathfrak b_{\psi}^{cut}(t)\,
-\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I).
 \tag{FCC.B2b}
 ```
 
@@ -235,14 +265,14 @@ for the same frozen net `\Xi_{\rho,\psi}^{\varepsilon}(I)=\{\eta^\ell\}` as in
 
 Apply `(FCC.B1b)` with `h=\eta^\ell` and sum in `\ell=1,\dots,M_\varepsilon`.
 The cutoff packets sum to `(FCC.1)`, the viscous pieces sum to `(FCC.B2a)`, and
-the energies sum to `\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I)`. ∎
+the cutoff-defect ledgers sum to `(FCC.3b)`. ∎
 
-### Proposition `FCC.C1` (The frozen-family theorem reduces to pressure plus strain/cascade once the cutoff coefficient is integrable)
+### Proposition `FCC.C1` (The frozen-family theorem reduces to pressure plus strain/cascade once the cutoff-defect ledger is integrable)
 
 Assume on `I` that
 
 ```math
-\mathfrak b_{\psi}^{cut}\in L^1(I)
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(\cdot;I)\in L^1(I)
 \tag{FCC.C1a}
 ```
 
@@ -295,7 +325,7 @@ For each frozen increment `\eta^\ell`, combine `(NRW.3)` with `(FCC.B1b)`:
 +
 \mathcal N_{N,\eta^\ell,\psi}^{sc}(t)
 +
-\mathfrak b_{\psi}^{cut}(t)\,E_N(\eta^\ell,t;\psi),
+4\nu\,\mathcal E_N^{cut,\nabla}(\eta^\ell,t;\psi),
 \tag{FCC.C1g}
 ```
 
@@ -319,8 +349,8 @@ Summing `(FCC.C1g)` in `\ell` yields
 +
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(t;I)
 +
-\mathfrak b_{\psi}^{cut}(t)\,
-\mathcal F_{N,\rho,\psi}^{\varepsilon}(t;I).
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}(t;I).
 \tag{FCC.C1h}
 ```
 
@@ -331,10 +361,10 @@ then gives `(FCC.C1d)`. Finally, insert `(FCC.C1c)` and `(FCC.C1d)` into
 source ledger is the sum of the pressure, strain/cascade, and cutoff channels
 by `(FSL.A0)`, `(FCC.C1f)` follows. ∎
 
-### Corollary `FCC.C2` (Receiver-conditioned closure of the frozen-family source theorem)
+### Corollary `FCC.C2` (Receiver-conditioned closure with explicit cutoff-defect input)
 
-Assume the paired low-carrier ledger from `(CSP.25b)` is integrable on `I` and
-that
+Assume the paired low-carrier ledger from `(CSP.25b)` is integrable on `I`,
+assume the cutoff-defect ledger satisfies `(FCC.C1a)`, and assume
 
 ```math
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
@@ -355,8 +385,9 @@ Then
 
 By `(FCC.A5)`, the integrability of `(CSP.25b)` yields
 `\Phi_{\psi}^{glob,(1)}\in L^\infty(I)`. Since `I` is finite, `(FCC.3)` gives
-`\mathfrak b_{\psi}^{cut}\in L^1(I)`. Then `(FCC.C1)` applies with
-`(FCC.C2a)` and yields `(FCC.C2b)`. ∎
+`\mathfrak b_{\psi}^{cut}\in L^1(I)`. This is only coefficient control. The
+actual cutoff-channel closure now uses the separate cutoff-defect input
+`(FCC.C1a)`, so `(FCC.C1)` applies with `(FCC.C2a)` and yields `(FCC.C2b)`. ∎
 
 ## Installed Commutator Template
 
@@ -371,42 +402,44 @@ So the sharpest exact on-disk reduction for the frozen-net cutoff channel is:
 
 ```math
 \boxed{
-\text{the cutoff packet is absorbed by }
+\text{the cutoff packet is bounded by }
 \tfrac12\,\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}
-\text{ plus the explicit coefficient }
-\mathfrak b_{\psi}^{cut}\,\mathcal F_{N,\rho,\psi}^{\varepsilon},
+\text{ plus the explicit cutoff-defect ledger }
+4\nu\,\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon},
 \newline
 \text{so the independent source wall collapses to the pressure and strain/cascade channels once }
-\mathfrak b_{\psi}^{cut}\in L^1(I).
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I).
 }
 \tag{FCC.B}
 ```
 
-What remains conditional is only the coefficient-side interval closure
-`\mathfrak b_{\psi}^{cut}\in L^1(I)`. The current on-disk readout of that
-closure is still `(FCC.A5)`, which spends the paired low-carrier ledger
-`(CSP.25b)` from the receiver branch.
+What remains conditional is the cutoff-defect interval closure
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, or a separate
+domination theorem reducing that ledger to coefficient-side data. The current
+on-disk readout `(FCC.A5)` controls `\mathfrak b_{\psi}^{cut}`, but it does not
+control `(FCC.3b)` without that additional domination step.
 
 ## Route Position
 
 Among the three source-side channels in `(FSL.A0)`, the cutoff channel is now
-no longer an independent same-depth source wall because:
+reduced to an explicit viscous/cutoff-defect condition because:
 
 1. it contains no pressure redistribution/flux algebra;
 2. it contains no cascade bookkeeping;
 3. its coefficient side already has installed route-native propagation through
-   `CSP.B1c`, with interval closure `(FCC.A5)` available once the paired
-   low-carrier ledger `(CSP.25b)` is granted;
+   `CSP.B1c`, but that propagation controls only the coefficient
+   `\mathfrak b_{\psi}^{cut}`;
 4. its commutator template is already explicitly linked to the collar route by
    `CSP.B3`;
-5. the exact source-side absorption statement `(FCC.C1)` is now on disk.
+5. the exact source-side Young-margin statement `(FCC.C1)` is now on disk with
+   the explicit cutoff-defect ledger `(FCC.3b)`.
 
 So the honest remaining source-side mathematical move is:
 
 ```math
-\text{prove the coefficient-side interval closure }
-\mathfrak b_{\psi}^{cut}\in L^1(I)
-\text{ and then close the irreducible inhomogeneous source pair }
+\text{prove the cutoff-defect interval closure }
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{, or prove a domination theorem that supplies it, and then close the irreducible inhomogeneous source pair }
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc},
@@ -417,12 +450,14 @@ So the honest remaining source-side mathematical move is:
 
 ## Boundary
 
-This note does **not** prove the coefficient-side interval closure
-`\mathfrak b_{\psi}^{cut}\in L^1(I)` as a standalone source theorem.
+This note does **not** prove the cutoff-defect interval closure
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)` as a standalone
+source theorem.
 
-That closure still uses the route-native packet-factor propagation
-`(FCC.A3)`--`(FCC.A5)`, and the current on-disk readout of `(FCC.A5)` spends
-the paired low-carrier ledger `(CSP.25b)` from the receiver branch.
+The route-native packet-factor propagation `(FCC.A3)`--`(FCC.A5)` still controls
+`\mathfrak b_{\psi}^{cut}`. The additional mathematical burden is to connect
+that coefficient control to the weighted cutoff-defect ledger `(FCC.3b)`, or to
+prove `(FCC.C1a)` directly.
 
 What this note now fixes is the sharper theorem-facing reduction beneath the
 cutoff channel:
@@ -431,7 +466,7 @@ cutoff channel:
 \boxed{
 \text{the frozen-net cutoff wall is no longer an independent inhomogeneous source burden;}
 \newline
-\text{once }\mathfrak b_{\psi}^{cut}\in L^1(I),\text{ the fixed-family theorem reduces to the pressure and strain/cascade channels.}
+\text{once }\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I),\text{ the fixed-family theorem reduces to the pressure and strain/cascade channels.}
 }
 \tag{FCC.D}
 ```
