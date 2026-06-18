@@ -84,8 +84,8 @@ normalized in the theorem-surface class, if
 is the trivial velocity solution on `[t_0,T)`.
 
 Thus Theorem `DTR.1` uses only Import 1 plus the identity theorem. Corollary
-`DTR.3` additionally uses Import 3. No typical-profile, same-scale, or
-linearized dead-patch estimate is being used.
+`DTR.3` additionally uses Import 3. No profile assumption, same-scale estimate,
+or linearized dead-patch estimate is being used.
 
 ## Exact Theorem
 
