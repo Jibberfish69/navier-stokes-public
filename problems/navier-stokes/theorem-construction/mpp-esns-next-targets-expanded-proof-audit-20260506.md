@@ -55,7 +55,9 @@ C_s\bigl(\|\nabla u^E(t)\|_{L^\infty}+\|u^E(t)\|_{H^{s+1}}\bigr)
 
 ### Proof
 
-Apply `\Lambda^s` to `(ESA.2)`, take the `L^2` inner product with `\Lambda^s w`, and use the standard Kato-Ponce / commutator estimate for `s>5/2`:
+Apply `\Lambda^s` to `(ESA.2)`, take the `L^2` inner product with
+`\Lambda^s w`, and use the following Kato--Ponce / commutator inequality for
+`s>5/2`:
 
 ```math
 |\langle \Lambda^s\mathbb P(a\cdot\nabla b),\Lambda^s b\rangle|
@@ -76,7 +78,7 @@ The forcing term is bounded by Young's inequality:
 ```math
 2|\nu\langle \Lambda^s\Delta u^E,\Lambda^s w\rangle|
 \le
-C_s\nu^2\|u^E\|_{H^{s+2}}^2+	frac12\|w\|_{H^s}^2,
+C_s\nu^2\|u^E\|_{H^{s+2}}^2+\frac12\|w\|_{H^s}^2,
 ```
 
 with the `\|w\|_{H^s}^2` term added to the Gronwall coefficient on the Euler
