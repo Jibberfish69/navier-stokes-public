@@ -2,10 +2,12 @@
 
 ## Purpose
 
-This note proves the exact lift from a uniform model same-scale edge estimate to
-the upper-boundary estimate `(UB)` and moving-spill estimate `(MS)`.
+This note proves the exact lift from the displayed uniform edge-family
+hypothesis `(SS-model)` to the upper-boundary estimate `(UB)` and moving-spill
+estimate `(MS)`.
 
-Unlike the model theorem `(SS)` itself, this family lift is finite and exact.
+Unlike the open coefficient-free theorem `(SS)` itself, this family lift is
+finite and exact.
 The weaker currently-proved lift with the same-scale coefficient term
 `\Theta_N^{ss,\sharp}E_N` is recorded separately in
 [same-scale-edge-family-and-model-estimate-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-family-and-model-estimate-note.md).
@@ -60,7 +62,7 @@ C_{sp,*}^{res}2^{-2\delta N}.
 \tag{4}
 ```
 
-Finally assume the model same-scale estimate holds uniformly for every packet in
+Finally assume the following uniform edge-family hypothesis for every packet in
 the union family `\mathcal A:=\mathcal A_{ub}\cup\mathcal A_{sp}`:
 
 ```math
@@ -133,7 +135,7 @@ Integrate `(1)` in time:
 \tag{7}
 ```
 
-Apply `(SS-model)` term by term and then `(3)`:
+Apply the displayed hypothesis `(SS-model)` term by term and then `(3)`:
 
 ```math
 \int_0^T |\mathfrak B_N^{upper}(t)|\,dt
