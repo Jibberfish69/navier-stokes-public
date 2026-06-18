@@ -12,7 +12,7 @@ chunk:
   sequence: 105
   group_id: cm-audits-and-closure
   title: CM audits and closure 20
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -51,7 +51,7 @@ chunk:
 
       Role: make the Eulerian/transported fork explicit and record the first exact comparison statement linking the PDE-native Eulerian defect engine to the honest transported closure surface.
 
-      The safe immediate repair is the integral-of-sup packet E cmp .
+      The first repair step is the integral-of-sup packet E cmp .
 
       This is the exact comparison layer; all quantitative bridge work is carried by the increment-stability note and its successors.
 
@@ -90,7 +90,7 @@ chunk:
       \psi(a)^2\,\mathfrak e^{cmp}_{N,r,\psi}(a,t)\,da.
       \]
 
-      This is the exact immediate comparison object. The transported increment choice stays inside the a-integral where it actually lives.
+      This is the exact comparison object at this stage. The transported increment choice stays inside the a-integral where it actually lives.
 
       This identity is the reason the comparison route is the right next theorem: the Eulerian packet already pulls back to the material packet without losing the PDE-native coercive structure.
 
@@ -269,7 +269,7 @@ chunk:
 
       Same-fluid carrier fidelity preserves route identity and local parent-child geometry. It supplies no invariant axis, no two-dimensional dependence, and no axisymmetric no-swirl structure.
 
-      For this class, the Liouville half is immediate. Producing B src from the surviving Zeno source
+      For this class, the Liouville half reduces to the stated contradiction. Producing B src from the surviving Zeno source
       % ... source excerpt truncated for packet size ...
     truncated: true
   - source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
@@ -420,7 +420,7 @@ chunk:
 
     Role: make the Eulerian/transported fork explicit and record the first exact comparison statement linking the PDE-native Eulerian defect engine to the honest transported closure surface.
 
-    The safe immediate repair is the integral-of-sup packet E cmp .
+    The first repair step is the integral-of-sup packet E cmp .
 
     This is the exact comparison layer; all quantitative bridge work is carried by the increment-stability note and its successors.
 
@@ -459,7 +459,7 @@ chunk:
     \psi(a)^2\,\mathfrak e^{cmp}_{N,r,\psi}(a,t)\,da.
     \]
 
-    This is the exact immediate comparison object. The transported increment choice stays inside the a-integral where it actually lives.
+    This is the exact comparison object at this stage. The transported increment choice stays inside the a-integral where it actually lives.
 
     This identity is the reason the comparison route is the right next theorem: the Eulerian packet already pulls back to the material packet without losing the PDE-native coercive structure.
 
@@ -645,7 +645,7 @@ chunk:
 
     Same-fluid carrier fidelity preserves route identity and local parent-child geometry. It supplies no invariant axis, no two-dimensional dependence, and no axisymmetric no-swirl structure.
 
-    For this class, the Liouville half is immediate. Producing B src from the surviving Zeno source-pulse branch is exactly the native source-depletion theorem. Thus this class packages the desired conclusion rather than generating a new rigid mechanism.
+    For this class, the Liouville half reduces to the stated contradiction. Producing B src from the surviving Zeno source-pulse branch is exactly the native source-depletion theorem. Thus this class packages the desired conclusion rather than generating a new rigid mechanism.
 
     Proof: the failed no-free-sink branch extracts a nonzero terminal source-residue limit. Zeno Bounded Class B.A places that limit in B. Zeno Residue Liouville B.A forces its source residue to vanish. This contradicts the inherited lower bound. Hence the terminal Zeno branch is eliminated.
 
@@ -754,11 +754,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36049
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -782,11 +782,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36105
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -811,11 +811,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36163
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -842,11 +842,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36229
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -872,11 +872,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36284
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -901,11 +901,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36311
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -929,11 +929,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36338
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -957,11 +957,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:36353
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -982,7 +982,7 @@ author_contract:
   must_criticize:
   - attack the strongest claim in the replacement
   - name the exact sentence where a reader could lose the thread
-  - name any unpaid derivation that remains, or say why it is paid on the page
+  - name any unpaid derivation that remains, or say why it is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - raw note dump
@@ -993,7 +993,7 @@ author_contract:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1002,7 +1002,7 @@ math_containment_rule: no free-running theorem pursuit; math work may enter only
   a named source sentence in this chunk
 verification_plan:
   before_apply: replace every author_replacement_required body with final TeX and
-    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+    fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-20.yaml
     --dry-run
   targeted_check: review only the changed source-field spans before any milestone
