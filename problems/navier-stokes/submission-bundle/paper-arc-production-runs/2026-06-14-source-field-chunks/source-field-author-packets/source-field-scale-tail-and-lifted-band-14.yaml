@@ -659,11 +659,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28847
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -687,11 +687,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:28877
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -715,11 +715,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29143
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -744,11 +744,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29217
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -772,11 +772,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:29822
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -802,11 +802,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31094
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -832,11 +832,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31231
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -861,11 +861,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:31258
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -886,7 +886,7 @@ author_contract:
   must_criticize:
   - attack the strongest claim in the replacement
   - name the exact sentence where a reader could lose the thread
-  - name any unpaid derivation that remains, or say why it is paid on the page
+  - name any unpaid derivation that remains, or say why it is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - raw note dump
@@ -897,7 +897,7 @@ author_contract:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -906,7 +906,7 @@ math_containment_rule: no free-running theorem pursuit; math work may enter only
   a named source sentence in this chunk
 verification_plan:
   before_apply: replace every author_replacement_required body with final TeX and
-    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+    fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-scale-tail-and-lifted-band-14.yaml
     --dry-run
   targeted_check: review only the changed source-field spans before any milestone
