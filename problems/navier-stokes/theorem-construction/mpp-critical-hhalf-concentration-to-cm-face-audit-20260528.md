@@ -66,4 +66,4 @@ The oscillatory reading is different: the flow carries increasingly fine same-sc
 
 ## Boundary
 
-This note finds a plausible class-exit route on `H^{1/2}`. It does not install the theorem. The live CM promotion gate remains Pack/Part/Field landing through the direct-live surfaces.
+This note records a candidate class-exit route on `H^{1/2}`. It does not install the theorem. The live CM promotion gate remains Pack/Part/Field landing through the direct-live surfaces.
