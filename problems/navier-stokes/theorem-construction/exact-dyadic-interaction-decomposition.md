@@ -4,7 +4,7 @@
 
 Unconditional decomposition note for the classical three-dimensional
 Navier-Stokes vorticity equation. This file isolates the exact shell-level
-identity and the obstruction term that remains after transport cancellation and
+identity and the obstruction terms that remain after transport cancellation and
 paraproduct splitting.
 
 It does not prove any uniform coercive deficit. It records the decomposition
@@ -18,18 +18,38 @@ decomposition `\omega = \sum_{j\ge -1}\Delta_j\omega`.
 
 ## Exact Dyadic Identity
 
-For each dyadic shell `j`,
+For each dyadic shell `j`, define
 
 ```math
-\big\langle \Delta_j(\omega\cdot\nabla u),\,\Delta_j\omega\big\rangle
-=
+S_j
+:=
+\big\langle \Delta_j(\omega\cdot\nabla u),\,\Delta_j\omega\big\rangle,
+\qquad
+T_j
+:=
 \big\langle [\Delta_j,u\cdot\nabla]\omega,\,\Delta_j\omega\big\rangle.
 ```
 
-The transport contribution cancels exactly:
+The shell energy identity is
 
 ```math
-\big\langle u\cdot\nabla\Delta_j\omega,\,\Delta_j\omega\big\rangle = 0.
+\frac12\frac{d}{dt}\|\Delta_j\omega\|_2^2
++\nu\|\nabla\Delta_j\omega\|_2^2
+=
+S_j-T_j.
+```
+
+The exact transport decomposition is
+
+```math
+\big\langle \Delta_j(u\cdot\nabla\omega),\Delta_j\omega\big\rangle
+=
+T_j+\big\langle u\cdot\nabla\Delta_j\omega,\Delta_j\omega\big\rangle,
+```
+
+and the last term is zero because `\nabla\cdot u=0`.  Thus transport
+cancellation leaves the commutator `T_j`; it does not identify the stretching
+term `S_j` with that commutator.
 ```
 
 ## Paraproduct Expansion
@@ -42,7 +62,7 @@ u\cdot\nabla\omega
 T_u(\nabla\omega)+T_{\nabla\omega}(u)+R(u,\nabla\omega).
 ```
 
-Then the localized commutator has the fixed-collar Littlewood-Paley
+Then the localized transport commutator has the fixed-collar Littlewood-Paley
 decomposition
 
 ```math
@@ -52,7 +72,8 @@ decomposition
 +\text{lower-frequency commutators}.
 ```
 
-The principal local term is controlled by the low-frequency strain:
+The principal local transport-commutator term is controlled by the low-frequency
+strain:
 
 ```math
 \big|\big\langle [\Delta_j,S_{j-1}u\cdot\nabla]\Delta_j\omega,\,
@@ -61,7 +82,7 @@ The principal local term is controlled by the low-frequency strain:
 |\nabla S_{j-1}u|_{L^\infty_x}\,|\Delta_j\omega|_{L^2_x}^2.
 ```
 
-The remainder terms carry the standard second-order kernel gain:
+The remainder terms carry the second-order kernel gain
 
 ```math
 |\mathrm{Rem}_j|
@@ -71,12 +92,13 @@ The remainder terms carry the standard second-order kernel gain:
 
 ## Obstruction
 
-The remainder has the desired `2^{-2j}` gain, but the principal low-high term
-is governed by `|\nabla S_{j-1}u|_{L^\infty_x}`. A uniform coercive deficit of
-the form
+The transport-commutator remainder has the desired `2^{-2j}` gain, but the
+principal low-high transport term is governed by
+`|\nabla S_{j-1}u|_{L^\infty_x}`, and the stretching term `S_j` remains a
+separate shell channel. A uniform coercive deficit of the form
 
 ```math
-\big|\big\langle \Delta_j(\omega\cdot\nabla u),\Delta_j\omega\big\rangle\big|
+S_j-T_j
 \le
 (1-\delta)\nu 2^{2j}|\Delta_j\omega|_{L^2_x}^2
 ```
