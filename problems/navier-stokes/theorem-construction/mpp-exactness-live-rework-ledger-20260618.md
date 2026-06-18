@@ -737,6 +737,56 @@ Edited live surface:
 
 - `theorem-construction/mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md`.
 
+## Frame Transport And Refill Scale-Time Rework
+
+Old loose steps:
+
+- `mpp-lowstrain-bvcharge-direct-attempt-20260506.md` said the exact transport
+  law "should give" the frame-variation estimate `(LBV.13)`.
+- `mpp-refilltree-wellfounded-direct-attempt-note.md` said comparable-scale
+  ancestry gives backward time increments "of order" `r_m^2`.
+
+Exact replacements:
+
+The low-strain surface now states `(LBV.13)` as the missing frame-transport
+input, not as an automatic consequence:
+
+```math
+|D_tn_P|
+\le
+C_{Frame}
+\big(
+|Q_{n_P}S^{loc}_{<j_P}n_P|
++\mathrm{FrameComm}_P
+\big).
+```
+
+The first term is geometric rotation by strain, and `\mathrm{FrameComm}_P`
+must be proved as legal localization/pressure/viscous leakage on the same
+packet before the frame-variation branch can be spent.
+
+The refill-tree surface now states the scale-time summation hypothesis as
+two-sided parabolic comparability:
+
+```math
+c\,r_m^2\le \Delta t_m\le C\,r_m^2,
+\qquad 0<c<C<\infty.
+```
+
+Only under that hypothesis does `\sum_m r_m^2=\infty` force a preterminal
+entrance time. The complementary `\sum_m r_m^2<\infty` branch remains the Zeno
+refill obstruction.
+
+Downstream consequence: the low-strain route remains open at
+`FrameBVCharge.A` / `ActiveStrainAlignmentCost.A` until `(LBV.13)` is proved
+with legal commutators, and the refill route may not use a scale-time
+"order" phrase unless the displayed comparability constants are supplied.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-lowstrain-bvcharge-direct-attempt-20260506.md`;
+- `theorem-construction/mpp-refilltree-wellfounded-direct-attempt-note.md`.
+
 ## Bounded-Hs Continuation Relaunch Rework
 
 Old loose step:
