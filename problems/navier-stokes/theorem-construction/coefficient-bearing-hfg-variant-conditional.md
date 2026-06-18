@@ -118,3 +118,6 @@ This is a conditional HFG branch. The current weighted carrier result did not pr
 ```
 
 or the corresponding absorbable coefficient bounds.
+
+For HFG itself, those bounds must land in the shellwise HFG-weighted form above.
+An aggregate `E_N,D_N` inequality is only tail-energy/dissipation control.
