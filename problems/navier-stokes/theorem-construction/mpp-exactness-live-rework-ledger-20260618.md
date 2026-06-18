@@ -6585,6 +6585,30 @@ Surface edited:
 
 - `submission-bundle/periodic-main-clean.tex`.
 
+## Failure Appendix Proof-Burden Wording Rework
+
+Old claim being spent:
+
+`submission-bundle/proof-attempt-failure-appendix.tex` said the exact proof
+burden was not the existence of a "visually plausible critical scale."
+
+Exact replacement:
+
+The line now says the proof burden is not the visual appearance of a critical
+scale, then immediately defines the high-frequency enstrophy tail and
+viscous-minus-positive-transfer dominance functional that carry the actual
+burden.
+
+Downstream consequence:
+
+The appendix no longer contains plausibility language at that proof-burden
+transition.  The proof obligation remains the displayed tail/dominance
+functional.
+
+Surface edited:
+
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Current Keyword Residue Classification After Live Rework Batch
 
 This is not a completion claim.  It records the remaining authority-referenced
