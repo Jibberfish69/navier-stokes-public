@@ -426,4 +426,4 @@ content is reduced to:
    simple-top branch.
 
 Everything else on the exact-potential branch is downstream bookkeeping already
-formalized on disk.
+recorded as explicit conditional implications on disk.
