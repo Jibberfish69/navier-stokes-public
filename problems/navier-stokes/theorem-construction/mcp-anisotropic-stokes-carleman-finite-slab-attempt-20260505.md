@@ -48,7 +48,7 @@ The principal operator
 ```math
 P_{R,0}w=
 \partial_s w-
-u\nabla_z\cdot(A(s)\nabla_z w)
+\nu\nabla_z\cdot(A(s)\nabla_z w)
 ```
 
 belongs to the fixed-metric parabolic Carleman class on the finite slab. The existing `PDO-Carleman` / fixed-metric packet applies componentwise to this principal operator.
