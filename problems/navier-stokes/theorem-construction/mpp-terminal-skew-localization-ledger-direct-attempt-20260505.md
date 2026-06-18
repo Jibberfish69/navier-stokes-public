@@ -32,6 +32,10 @@ The attempt proves only the unweighted closed-graph algebra already recorded as
 the passage from global signed shell exchange to the selected localized
 same-fluid positive terminal packet family.
 
+Exactness rework correction, 2026-06-18: this note is a failed direct attempt.
+Its role is the exact obstruction calculation leading to terminal signed
+saturation, not a schematic proof of localized skew-current control.
+
 ## Target
 
 For every bounded-overlap same-fluid terminal packet family `\mathcal F_N`,
@@ -176,8 +180,8 @@ pressure, cutoff, collar, boundary leakage, or viscous dissipation.
 
 ### 2. Lifted/Localized Remainders Are Not The Bare Skew Pair
 
-In the separated shell regime, the true live term is a lifted localized
-commutator remainder, not the bare global triadic exchange.  Schematically:
+In the separated shell regime, the true live term is the lifted localized
+commutator remainder, not the bare global triadic exchange:
 
 ```math
 R_{j,k,\ell}^{lift}
@@ -187,9 +191,21 @@ R_{j,k,\ell}^{lift}
 \tag{TSL.7}
 ```
 
-This remainder has variable sign and may align with active expanding strain.
-Bare dyadic skew symmetry does not supply a same-packet negative partner for
-`(TSL.7)`.
+The exact obstruction is the estimate
+
+```math
+\sum_{j,k,\ell}
+\int_{I_P}
+|R_{j,k,\ell}^{lift}|\,dt
+\le
+o_N(1)+Loss_{legal}
+\tag{TSL.7'}
+```
+
+on the selected same-fluid terminal ledger.  The installed inputs do not prove
+`(TSL.7')`: the remainder has variable sign and may align with active expanding
+strain.  Bare dyadic skew symmetry does not supply a same-packet negative
+partner for `(TSL.7)`.
 
 ### 3. Terminal Positive Selection Can Strand The Counter-Edge
 
