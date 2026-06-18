@@ -58,7 +58,7 @@ Pressure recovery is spatial and slice-wise:
 T_y((\nabla u\otimes\nabla u)(t)).
 ```
 
-On the terminal-layer model:
+On the endpoint time-marginal witness:
 
 ```math
 d\mu_m^{src}(y,s)
@@ -144,9 +144,9 @@ BranchEntropyChargeLowerBound.A
 }
 ```
 
-It would have to prove that a diffuse legal parent cloud carrying order-one
-native positive source mass pays a positive scale-normalized entropy or donor
-reserve charge.  Without that, diffuse parent clouds keep defeating fixed
+It would have to prove that a diffuse legal parent cloud carrying native
+positive source mass bounded below by `M_0>0` pays a positive
+scale-normalized entropy or donor reserve charge.  Without that, diffuse parent clouds keep defeating fixed
 parent selection, source-drain, reverse Holder, and pressure time-spread
 routes.
 

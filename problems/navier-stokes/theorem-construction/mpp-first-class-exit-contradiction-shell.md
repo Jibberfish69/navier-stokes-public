@@ -75,7 +75,7 @@ uniqueness, so the chronological shell carries existence only, not exclusivity.
 
 Assume the separate Law 2 no-drop theorem `NDT.A`.
 
-Then the only immediate shell consequence is:
+Then the only shell consequence available at this stage is:
 
 ```math
 \text{the `(Part, Dead)` matrix entry is unavailable to the first-exit shell.}

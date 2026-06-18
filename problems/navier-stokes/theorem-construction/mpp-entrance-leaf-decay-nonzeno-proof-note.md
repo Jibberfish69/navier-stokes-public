@@ -6,8 +6,11 @@ This note proves the non-Zeno leaf half used in
 `mpp-refilltree-wellfounded-direct-attempt-note.md`.
 
 It does not prove `SourcePulseExclusion.A`, because the terminal Zeno branch
-remains open.  It does prove that any source-refill ancestry branch reaching a
-fixed preterminal entrance surface is harmless.
+remains open.  It proves only the fixed-gap half: any source-refill ancestry
+branch reaching a fixed preterminal entrance surface has either
+`t_v\le T_\ast-\tau` for a fixed `\tau>0` or `r_v\ge r_\ast>0` inside a compact
+preterminal same-fluid window, so its contribution is controlled by the
+displayed entrance-leaf bound below rather than by terminal Zeno behavior.
 
 ## Statement
 

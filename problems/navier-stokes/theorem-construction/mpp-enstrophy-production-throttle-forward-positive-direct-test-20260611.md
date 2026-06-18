@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-direct-forward-positive-throttle-reduces-to-classical-vortex-stretching-wall
   proof_role: forward_positive_high_tower_budget_direct_test
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Tests the exact high-tower budget needed after the cone, tower, and affine-collar notes. The required finite second-derivative/tower budget does not follow from the global energy law or the standard enstrophy identity: the vortex-stretching term has the critical sign/size that permits the same finite-time high-tower growth the argument must exclude."
+  edge_effect: "Tests the exact high-tower budget needed after the cone, tower, and affine-collar notes. The required finite second-derivative/tower budget does not follow from the global energy law or the enstrophy identity: the vortex-stretching estimate gives the comparison inequality Y' <= C nu^(-3)Y^3, whose ODE permits the finite-time high-tower growth the argument must exclude."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-critical-base-feed-to-tower-coherence-direct-test-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md
@@ -17,8 +17,8 @@ ns_viewer:
 Date: 2026-06-11
 
 Status: direct forward-positive test. This note checks whether the high-tower
-budget required by the cone/collar pricing follows from the standard
-Navier-Stokes differential identities.
+budget required by the cone/collar pricing follows from the exact energy and
+enstrophy differential identities for smooth unforced Navier-Stokes solutions.
 
 ## 0. Target
 
@@ -37,8 +37,8 @@ int_0^T int |grad^2 u|^2 dx dt < infinity
 on the terminal tail, or a localized substitute that dominates the same
 second-derivative costs produced by non-affine packets and affine collars.
 
-The question here is whether the usual energy/enstrophy machinery supplies that
-budget.
+The question here is whether the displayed energy/enstrophy identities supply
+that budget.
 
 ## 1. Energy Does Not See The Needed Bill
 
@@ -50,7 +50,8 @@ The global energy law is
 = 0
 ```
 
-for smooth unforced solutions on the standard finite-energy surfaces.
+for smooth unforced solutions on `R^3` with sufficient decay, or on the
+periodic torus after removing the spatial mean velocity mode.
 
 This gives
 
@@ -102,7 +103,11 @@ c_E^{-1}||grad^2 u||_2^2
 c_E||grad^2 u||_2^2
 ```
 
-on divergence-free fields, up to standard elliptic equivalence.
+on divergence-free fields on `R^3` with sufficient decay, or on the periodic
+torus after removing the mean.  This is the elliptic identity/equivalence
+between `curl grad u` and the full second derivative under the stated boundary
+class; without that boundary class, the high-tower drain is not licensed by
+this line.
 
 The right side is vortex stretching:
 
@@ -112,9 +117,9 @@ V(t)=int (omega dot grad u) dot omega dx.
 
 It has no fixed sign.
 
-## 3. The Standard Bound Is Critical And Does Not Close
+## 3. The Stretching Bound Is Critical And Does Not Close
 
-The usual estimate is
+The Gagliardo--Nirenberg/Calderon--Zygmund stretching estimate is
 
 ```text
 |V(t)|
@@ -155,7 +160,7 @@ The comparison ODE
 Z'(t)=C nu^(-3) Z(t)^3
 ```
 
-has terminal profile
+has comparison-ODE terminal behavior
 
 ```text
 Z(t)=((2C)nu^(-3)(T-t))^(-1/2).
@@ -163,7 +168,7 @@ Z(t)=((2C)nu^(-3)(T-t))^(-1/2).
 
 Thus the inequality permits finite-time growth at the comparison-ODE level.
 
-So the standard enstrophy identity does not give the missing finite high-tower
+So the displayed enstrophy identity does not give the missing finite high-tower
 budget. It describes exactly the channel through which the high-tower bill can
 grow.
 
@@ -194,7 +199,7 @@ The direct forward-positive throttle
 EnstrophyProductionThrottle.A
 ```
 
-is not proved from the standard energy/enstrophy machinery.
+is not proved from the displayed energy/enstrophy identities.
 
 The exact failed implication is
 
@@ -215,9 +220,9 @@ meaning one of:
    receiver;
 2. a Lyapunov quantity that absorbs stretching into viscosity without producing
    the `Y^3` comparison wall;
-3. a compactness/rigidity theorem proving that every terminal profile that
-   saturates the stretching wall is impossible on the same unforced finite-energy
-   surface;
+3. a compactness/rigidity theorem proving that every terminal rescaled-field
+   trajectory saturating the stretching wall is impossible on the same unforced
+   finite-energy surface;
 4. a localized high-tower budget that dominates the cone/collar bills by a
    structure stronger than the global energy law.
 
@@ -232,16 +237,17 @@ whole-cone physical accounting
 positive boundary feed
   false unless retained;
 
-retained localized feed
-  forces first tower cost;
+localized contrast A_r(t) >= a0
+  gives the slice gradient lower bound;
 
-non-affine retained feed
-  forces non-summable higher-tower cost;
+non-affine defect B_r(t) >= b0
+  gives a per-scale higher-tower lower bound, non-summable only after
+  scale-separated or bounded-overlap charging;
 
 affine critical core
   forces parent collar higher-tower cost;
 
-standard enstrophy identity
+displayed enstrophy identity
   does not supply the finite high-tower budget needed to contradict those costs.
 ```
 

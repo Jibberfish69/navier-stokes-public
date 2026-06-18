@@ -10,7 +10,7 @@ Shahmurov `arXiv:2605.09797` may be used in this repo only as:
 
 ```text
 external claimed strategy;
-heuristic search prompt;
+source-search prompt;
 audit target;
 conditional support after a repo-local bridge theorem is proved.
 ```

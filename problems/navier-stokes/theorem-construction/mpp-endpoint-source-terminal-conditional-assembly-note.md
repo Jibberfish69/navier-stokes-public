@@ -17,7 +17,7 @@ Claim-level convention. The retained route uses the exact post-`LCI.A` source
 claim
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
 as its primary source closure. The stronger branch
@@ -74,7 +74,7 @@ End_{NS}
 is proved.
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 \tag{EST.1}
@@ -956,7 +956,7 @@ On the strengthened branch this ledger is supplied by the already installed
 source closure:
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a
 \Longrightarrow
 FFSRC.A
 \Longrightarrow
@@ -966,7 +966,7 @@ FCI.5f.
 
 This import does not identify the strengthened branch with the exact old
 source wall. The exact same-depth source route remains the separate
-`FPCR.C+FSCR.C+FCC.C1` assembly recorded below.
+`FPCR.C+FSCR.C+FCC.C1+FCC.C1a` assembly recorded below.
 
 The promotion order is fixed:
 
@@ -1085,7 +1085,7 @@ The strain/cascade estimate is the post-`LCI.A` coefficient-side bound of the tr
 \tag{EST.B4}
 ```
 
-Its proof uses the cutoff absorption estimate
+Its proof uses the cutoff Young-margin estimate
 
 ```math
 \mathcal N^{src,cut}

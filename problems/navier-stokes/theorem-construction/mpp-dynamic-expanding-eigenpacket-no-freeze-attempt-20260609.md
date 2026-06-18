@@ -28,7 +28,7 @@ signed-source cost is paid.
 
 ## Installed Inputs Reused
 
-The existing notes already test the obvious doors:
+The existing notes already test the first direct doors:
 
 - `StrainSignCancellationForWeightedLiftedRemainder.A` fails after one-sided
   weights, terminal active-window selection, cutoffs, lifted remainders, and
@@ -78,9 +78,11 @@ D_t (n_P . S^{near} n_P)
   + frame/commutator terms.
 ```
 
-The heat and far-low pieces are already absorbable in the older turnover
-attempt. The unabsorbed part is the one-sided near-band pressure/material
-source term. A proof would need:
+The heat and far-low pieces are paid in the older turnover attempt only through
+the explicit gap penalty
+`FarLow_L <= C 2^{-2L} H_W + Legal_L`, after choosing
+`L` so that `C 2^{-2L} <= eta_far < 1`. The unspent part is the one-sided
+near-band pressure/material source term. A proof would need:
 
 ```text
 TerminalPressureHessianNoSustain.A

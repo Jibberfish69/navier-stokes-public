@@ -54,7 +54,8 @@ $$
 
 ## Continuation readout clause
 
-Fix route depth `N` large enough to dominate a classical continuation index
+Fix route depth `N` with `N\ge N_s`, where `N_s` is any declared finite depth
+that reads the classical continuation index
 
 $$
 s>\frac52.
@@ -123,7 +124,7 @@ $$
 \tau>0
 $$
 
-for solutions launched at each `t_j`. For `j` large enough,
+for solutions launched at each `t_j`. Choose `j` with `T_*-t_j<\tau`. Then
 
 $$
 t_j+\tau>T_*.

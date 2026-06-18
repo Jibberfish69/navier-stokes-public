@@ -194,5 +194,5 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A,
 END.Field.
 ```
 
-It prevents one false shortcut: treating a source residue as an immediate
+It prevents one false shortcut: treating a source residue as an automatic
 contradiction merely because it is endpoint-visible.

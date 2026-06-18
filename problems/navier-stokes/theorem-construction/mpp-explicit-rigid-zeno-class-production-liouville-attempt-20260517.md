@@ -131,7 +131,7 @@ Critical smallness in `L^\infty_sL^3_y`, `L^5_{y,s}`, or an equivalent scale-cri
 
 ### Bounded ancient vorticity
 
-Bounded vorticity would place the ancient limit in a regular class. The compactness input gives weak local energy and pressure control. It supplies no uniform ancient vorticity bound.
+A uniform ancient vorticity bound places the ancient limit in a regular class. The compactness input gives weak local energy and pressure control. It supplies no such vorticity bound.
 
 ### Self-similarity
 
@@ -158,7 +158,10 @@ B_{src}:=
 \{\mathcal N_{preCauchy}^{loc}(u_*;\varphi)=0\text{ for every licensed source test }\varphi\}.
 ```
 
-For this class, the Liouville half is immediate. Producing `B_src` from the surviving Zeno source-pulse branch is exactly the native source-depletion theorem. Thus this class packages the desired conclusion rather than generating a new rigid mechanism.
+For this class, the Liouville half is exactly the definition of `B_src`.
+Producing `B_src` from the surviving Zeno source-pulse branch is exactly the
+native source-depletion theorem. Thus this class packages the desired
+conclusion rather than generating a new rigid mechanism.
 
 ## Conditional theorem retained
 

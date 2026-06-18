@@ -125,7 +125,8 @@ packing\text{-}detached\vee tower\text{-}blown.
 
 ### Proof
 
-The first implication is immediate from the definition of the pack-native blown face: unbounded `\Gamma_{pack,Q}` is exactly `packing-detached`.
+The first implication is the definition of the pack-native blown face:
+unbounded `\Gamma_{pack,Q}` is exactly `packing-detached`.
 
 For the full split, assume `\mathfrak B_{N,Q}` escapes every finite bound. If both `\Gamma_{pack,Q}` and `\mathfrak A_{N,Q}` had finite bounds, say
 

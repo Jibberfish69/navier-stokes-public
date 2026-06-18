@@ -6,7 +6,7 @@ Status: failed unconditional discharge. Elliptic pressure recovery smears space 
 
 ## Target
 
-`EllipticTimeSmearing.A` asks for the pressure elliptic mechanism to produce terminal time-face spread for the native source marginal. In the needed form, it would support
+`EllipticTimeSmearing.A` asks for the pressure elliptic mechanism to produce terminal time-face spread for the native source marginal. In the needed form, it is precisely the estimate
 
 ```math
 \mu_m^{src}(B_R\times[-\varepsilon,0])
@@ -50,7 +50,10 @@ Therefore pressure tail spread is spatial, while the obstruction is temporal.
 
 ## Attempt 3: pressure time regularity from the equation
 
-A time-regularity estimate for pressure would require differentiating the elliptic equation in time and controlling material/source terms. That immediately reintroduces the native source-current and signed no-free-sink/PRD structure.
+A time-regularity estimate for pressure requires differentiating the
+elliptic equation in time and controlling material/source terms. That
+differentiation step reintroduces the native source-current and signed
+no-free-sink/PRD structure.
 
 So pressure time regularity is a separate production theorem, not a consequence of elliptic recovery.
 

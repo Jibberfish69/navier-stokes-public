@@ -134,11 +134,11 @@ The next theorem target is:
 
 ```text
 ZeroMomentReserveVisibility.A:
-on the first minimal terminal window, an order-one retained positive
-donor-square reserve surplus with vanishing first moment must either generate
-a same-ledger active height-flux level set after signed-pair decomposition or
-land as Pack carrier loss, Part dwell failure, licensed Field source charge,
-or terminal Zeno residue.
+on the first minimal terminal window, a retained positive donor-square reserve
+surplus bounded below by `c_0>0` with vanishing first moment must either
+generate a same-ledger active height-flux level set after signed-pair
+decomposition or land as Pack carrier loss, Part dwell failure, licensed Field
+source charge, or terminal Zeno residue.
 ```
 
 The proof method should be a same-ledger normal-form and extremal first-window

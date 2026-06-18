@@ -77,7 +77,11 @@ Combining these estimates proves `(2)`. `\square`
 
 ## Consequence of Lemma 1
 
-Lemma 1 proves the standard conditional result: if `\|w\|_{H^s}` stays finite, then the NS solution continues on the Euler-smooth interval. It also gives small-viscosity stability on a fixed Euler-smooth interval by bootstrap from `w(0)=0` when `\nu` is sufficiently small relative to the Euler norms on `[0,T]`.
+Lemma 1 proves the conditional result: if `\|w\|_{H^s}` stays finite, then the
+NS solution continues on the Euler-smooth interval by the `H^s`, `s>5/2`,
+continuation theorem. It also gives small-viscosity stability on a fixed
+Euler-smooth interval by bootstrap from `w(0)=0` when `\nu` is sufficiently
+small relative to the Euler norms on `[0,T]`.
 
 ## Failed closure of the target
 

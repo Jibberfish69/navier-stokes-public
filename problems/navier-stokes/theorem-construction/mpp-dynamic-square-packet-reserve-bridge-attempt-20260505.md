@@ -220,7 +220,8 @@ square reserve has contribution
 2^mA_m^2h_m^{-1}.
 ```
 
-Choosing `h_m=2^mA_m^2` keeps the square reserve order one while the
+Choosing `h_m=2^mA_m^2` makes the square reserve contribution
+\(2^mA_m^2h_m^{-1}=1\) while the
 first-moment charge tends to zero.  A packet-mass trace without an additional
 active-window height or source-normalization theorem cannot dominate this
 configuration.
@@ -322,9 +323,9 @@ local energy,
 pressure/cutoff routing.
 ```
 
-It would require a genuinely new no-null-source / active-window trace theorem:
-the donor square reserve on selected terminal windows must be visible to the
-dynamic adjoint packet mass ledger.
+The exact missing bridge is a genuinely new no-null-source / active-window
+trace theorem: the donor square reserve on selected terminal windows must be
+visible to the dynamic adjoint packet mass ledger.
 
 ## Working Verdict
 

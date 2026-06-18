@@ -25,8 +25,8 @@ The direct decorrelation target is:
 o_N(1)+\text{legal losses}.
 ```
 
-This would deplete the native positive active-strain source on selected
-terminal packets.
+This estimate depletes the native positive active-strain source on selected
+terminal packets once supplied.
 
 The repo does not prove this from current inputs. Incompressibility gives
 `tr S=0`, not nonpositive strain. A trace-free strain can have expanding

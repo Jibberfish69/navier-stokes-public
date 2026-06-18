@@ -103,11 +103,11 @@ terminal CM object, this endpoint is
 \neg Pack_Q.
 ```
 
-Equivalently, prove it by contradiction. If `Pack_Q` held at the endpoint, then
-there would be a positive retained carrier radius `r_Q>0` and a finite
+Equivalently, prove it by contradiction. If `Pack_Q` holds at the endpoint, then
+`Pack_Q` supplies a positive retained carrier radius `r_Q>0` and a finite
 same-fluid cover through the terminal window. For all sufficiently large `m`,
-the selected ancestry would have a legal representative inside that cover with
-radius bounded below by a fixed fraction of `r_Q`, contradicting
+the selected ancestry has a legal representative inside that cover with radius
+bounded below by a fixed fraction of `r_Q`, contradicting
 `r_m\downarrow0`. Thus the terminal object cannot satisfy Pack.
 
 It is already CM exit. Any Field/Jump language applied to the terminal residue

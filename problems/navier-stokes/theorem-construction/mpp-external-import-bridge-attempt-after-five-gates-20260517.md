@@ -22,7 +22,7 @@ The obstruction profile is
 g_m(s)=m1_{(-1/m,0]}(s).
 ```
 
-It has finite `L^1_s` mass and no fixed preterminal residence. Current `B_ASAC` data give no packet score, descendant packet, or lower temporal thickness extracted from this profile. A transfer-active burst theorem would need a new packet-score bridge from native terminal source measure to threshold-channel structure.
+It has finite `L^1_s` mass and no fixed preterminal residence. Current `B_ASAC` data give no packet score, descendant packet, or lower temporal thickness extracted from this profile. A transfer-active burst theorem requires a new packet-score bridge from native terminal source measure to threshold-channel structure.
 
 Thus `NativeTimeFaceAtomToTransferActiveBurst.A` is unavailable.
 

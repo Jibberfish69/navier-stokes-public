@@ -45,7 +45,8 @@ Then `w` obeys the forced viscous difference equation
 \nabla\cdot w=0.
 ```
 
-For `s>5/2`, the standard `H^s` estimate gives a conditional inequality:
+For `s>5/2`, applying `\Lambda^s`, pairing with `\Lambda^s w`, and using the
+Kato--Ponce/Sobolev product bounds gives:
 
 ```math
 \frac{d}{dt}\|w\|_{H^s}^2

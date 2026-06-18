@@ -65,7 +65,8 @@ The support already paid is real:
 
 ```text
 far-low temporal variation carries a parabolic scale-separation gain,
-subparabolic near-band heat variation is absorbable,
+subparabolic near-band heat variation contributes at most `C_L theta H_W` and
+is paid under `theta <= eta_abs/C_L`,
 parabolic-rate near-band amplitude routes to burst height / donor height / Zeno.
 ```
 
@@ -86,7 +87,8 @@ In that case the principal frame term can vanish while
 \sigma_P(t)>0
 ```
 
-on the selected shrinking terminal windows. The local model
+on the selected shrinking terminal windows. The exact frozen aligned test
+configuration
 
 ```text
 S=diag(2,-1,-1),  n=e_1

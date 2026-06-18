@@ -79,7 +79,8 @@ The forcing term is bounded by Young's inequality:
 C_s\nu^2\|u^E\|_{H^{s+2}}^2+	frac12\|w\|_{H^s}^2,
 ```
 
-with the harmless `\|w\|_{H^s}^2` absorbed into the Euler coefficient term. This proves `(ESA.3)`.
+with the `\|w\|_{H^s}^2` term added to the Gronwall coefficient on the Euler
+side. This proves `(ESA.3)`.
 
 ### Closure verdict
 

@@ -125,9 +125,22 @@ into `ACT.KX`. The only nonlinear non-`L^1` residue is
 \tag{DMA.5}
 ```
 
-and this is the term absorbed by the `ACT.KX` first-exit scheduler. Therefore
+This term is controlled only by the `ACT.KX` first-exit margin. Therefore
 `ACT.Stage(0)` and `ACT.Stage(1)` hold on each retained scheduler interval with
-`B_0,F_0,B_1,F_1\in L^1`.
+`B_0,F_0,B_1,F_1\in L^1` after the margin below is enforced.
+
+The exact first-exit condition is
+
+```math
+(C_{cut}+C_{press})(X_{\mathrm{exc}})^{1/2}\le \frac{c_\nu}{2},
+\qquad
+X_{\mathrm{exc}}\le 4\eta_X,
+\qquad
+\eta_X=\left(\frac{c_\nu}{4(C_{cut}+C_{press})}\right)^2.
+```
+
+Thus `(DMA.5)` is not a free scheduler payment; it is spendable only while the
+retained interval remains below the `ACT.KX` barrier.
 
 ### Middle Block
 
@@ -147,9 +160,12 @@ For `r\ge2`, the affine middle block is triangular:
 ```
 
 There is no same-rung product `R_{r,j}R_{r,j}`. By `ACT.Stage(r-1)`, every
-factor in `(DMA.6)` is either lower-rung bounded data or carries a derivative
-absorbed by `\mathcal D_r^{aff}`. Local finite-depth product estimates and
-Young's inequality give
+factor in `(DMA.6)` is either lower-rung bounded data or carries at most one
+same-rung derivative. The same-rung derivative terms are spent only through
+Young's inequality with a displayed margin: for each such product
+`ab`, choose the local parameter so that
+`ab <= eps_{r,\ell}\nu\mathcal D_r^{aff}+C_{r,\ell,eps} a^2`, with
+`\sum_\ell eps_{r,\ell}\le 1/8`. Local finite-depth product estimates then give
 
 ```math
 \left|
@@ -186,11 +202,12 @@ excess plus projected annular and harmonic/far-tail terms:
 \tag{DMA.9}
 ```
 
-Fixed-ball Calderon-Zygmund on the local term gives the same-rung contribution
-with derivatives absorbed by `\mathcal D_r^{aff}`; lower-rung factors are
-external by `ACT.Stage(r-1)`. The annular part is controlled by the projected
-annular ledger, and the harmonic part is controlled by the energy far-tail.
-Therefore
+Fixed-ball Calderon-Zygmund on the local term gives the same-rung contribution.
+The derivative factors are controlled by Young inequalities whose parameter
+sum is included in the displayed `\varepsilon\nu\mathcal D_r^{aff}` margin;
+lower-rung factors are external by `ACT.Stage(r-1)`. The annular part is
+controlled by the projected annular ledger, and the harmonic part is controlled
+by the energy far-tail. Therefore
 
 ```math
 |\mathcal T_{press,r}^{aff}|
@@ -229,9 +246,10 @@ G_j^{-1}\left(u(x,t)-u(c_j,t)-A_j(t)(x-c_j(t))\right).
 
 Hence the cutoff sees the affine defect, not the full center amplitude. In the
 base stages, its non-`L^1` piece is exactly the `C_{cut}X_{\mathrm{exc}}^{1/2}N`
-term already absorbed in `(DMA.5)`. At higher stages, the first-rung affine
-defect is a lower-stage controlled coefficient, and all same-rung derivative
-terms are absorbed by `\mathcal D_r^{aff}`. Thus
+term controlled by the `ACT.KX` first-exit condition above. At higher stages,
+the first-rung affine defect is a lower-stage controlled coefficient, and the
+same-rung derivative terms are again spent by Young parameters whose total
+dissipative leakage is chosen below the reserved viscous margin. Thus
 
 ```math
 |\mathcal T_{cut,r}^{aff}|+|\mathcal T_{frame,r}^{aff}|

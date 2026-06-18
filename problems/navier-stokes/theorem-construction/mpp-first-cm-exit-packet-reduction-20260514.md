@@ -214,7 +214,7 @@ Field are not interchangeable targets:
 To prove smoothness by this route, one must rule out all three alternatives in
 `(FCP.B)`.
 
-Pack does not close from the current facts.  The argument immediately asks for
+Pack does not close from the current facts. The argument next asks for
 the `L_t^1L_x^\infty` strain ledger `(FCP.3)`, which is a classical
 continuation-level estimate.
 

@@ -38,7 +38,7 @@ really this clean case.
 | `retained_positive_window_blowup_field_exit` | `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | Pack and Part survive; every positive scale loses coherent N-level field/readout. This is exactly the viscous one-field tether loss. | `cm-branch-family-certificate-ledger-20260526.yaml:218-238`; `mpp-any-finite-failure-witness-cm-exit-20260521.md:192-230`; `mpp-retained-pressure-package-cm-face-placement-20260605.md:60-117` |
 | `Jump_base` / tangential slip sheet | `Field / Jump`, possible `Dead_x` cross-entry | Normal flux and pressure compatibility survive, while tangential slip kills one-field coherence. This is the installed Euler model for the clean Field case; it becomes `Dead_x` only when the same slip is used as participation-failure evidence. | `mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md:63-121`; `mpp-euler-pressure-nonparticipation-vortex-sheet-witness-20260517.md:95-128`; `mpp-euler-control-case-to-ns-attack-map-20260517.md:45-121` |
 | retained terminal Field row / realized same-fluid terminal Jump | `Pack_Q + Part^{term}_{N,Q} + forall r>0 not Field_{N,r,Q}` | The retained terminal carrier and terminal Part are assumed; all-scales Field failure is realized as same-fluid terminal Jump. That is the clean one-field-loss row, followed by the installed collapse into terminal Part failure. | `mpp-clay-field-failure-realization-proof-20260607.md:24-75`; `mpp-field-failure-to-part-collapse-20260522.md:64-116` |
-| `Jump_avg` on the same admitted averaged terminal tail | `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | `Jump_avg := not Field_avg`; the installed admission theorem sends positive CM Field scale to `Field_avg`, so `Jump_avg` lands as no positive CM Field scale after Pack and Part survive. | `mpp-averaged-jumpavg-field-face-reduction-20260607.md:23-80`; `mpp-averaged-field-face-admission-20260607.md:23-108` |
+| `Jump_avg` on the same admitted averaged terminal tail | conditional `Pack_Q + Part_{N,Q} + forall r>0 not Field_{N,r,Q}` | `Jump_avg := not Field_avg`; the repaired admission theorem sends positive CM Field scale plus the same-tail `SCF_base` local modulus to `Field_avg`. Without that modulus, this row remains an analytic Field-admission burden rather than a discharged clean Euler case. | `mpp-averaged-jumpavg-field-face-reduction-20260607.md:23-140`; `mpp-averaged-field-face-admission-20260607.md:23-130` |
 
 ## Applies Only To A Clean Subcase
 
@@ -74,7 +74,7 @@ The clean Euler boundary comparison attaches to:
 2. retained one-field Field failure;
 3. tangential-slip / Jump_base Field model;
 4. retained terminal Jump / Field row and its Part-collapse cross-entry;
-5. Jump_avg after AveragedFieldFaceAdmission.A;
+5. Jump_avg after AveragedFieldFaceAdmission.A plus the same-tail SCF_base modulus;
 6. retained pressure-package Part or Field placements;
 7. source-pulse only on the retained Pack+Part jump-manifestation subcase;
 8. terminal L3 Duhamel mass only on the retained Pack+Part Field-incompatibility subcase;
