@@ -5,6 +5,11 @@ Date: 2026-06-18
 Status: Door 1 continuation; `WeightedLiftedSkewDefectLegal.A` not proved;
 post-ASAC core reduced to terminal signed-partner saturation.
 
+2026-06-18 continuation: the direct shadow-ledger attempt is recorded in
+`mpp-forward-gold-door1-shadow-ledger-attempt-20260618.md`.  It pays the finite
+edge-pairing cases and reduces the live Door 1 child to
+`Door1TerminalSourceTimeAntiAtom.A` or `StressFluxZenoRefillRigidity.A`.
+
 Role: continue from the current actual gold frontier:
 
 ```math
