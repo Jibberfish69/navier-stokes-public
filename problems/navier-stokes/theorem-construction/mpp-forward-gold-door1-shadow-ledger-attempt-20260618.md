@@ -12,6 +12,12 @@ same-shadow super-`L1_s` residence implies the anti-atom theorem; a surviving
 terminal atom has infinite super-`L1_s` residence cost and must be handled by
 `StressFluxZenoRefillRigidity.A` or `Door1InfiniteCostEndpointArtifact.A`.
 
+2026-06-18 continuation: `mpp-forward-gold-door1-no-free-terminal-zeno-donor-chain-20260618.md`
+sharpens the same branch.  The finite donor graph is paid by retained partners,
+legal exits, ASAC pair-weight charge, `LocalDonorBalance.A`, and
+`EntranceLeafDecay.A`; the remaining Door 1 atom is
+`NoFreeTerminalZenoDonorChain.A`.
+
 Role: continue the current forward-gold Door 1 frontier:
 
 ```math
@@ -212,9 +218,7 @@ The actual Door 1 child after this attempt is:
 
 ```math
 \boxed{
-\text{Door1TerminalSourceTimeAntiAtom.A}
-\quad\text{or}\quad
-\text{StressFluxZenoRefillRigidity.A}.
+\text{NoFreeTerminalZenoDonorChain.A}.
 }
 \tag{SL.12}
 ```
