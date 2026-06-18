@@ -5262,8 +5262,9 @@ and pressure operator control in the FIRP retry.
 
 Exact replacement:
 
-- Manuscript/support notes now say named/displayed/classical lemmas or routes
-  instead of "standard" or "immediate" where no proof mechanism was intended.
+- Manuscript/support notes now say named/displayed/classical lemmas, criteria,
+  surfaces, or routes instead of "standard" or "immediate" where no proof
+  mechanism was intended.
 - `mpp-jump-avg-branch-native-noescape-hard-wall-note.md` now says the displayed
   scale-critical interpolation still leaves a local-energy or sup-time channel,
   which requires a same-schedule zero-mode/affine residual theorem.
@@ -5285,6 +5286,7 @@ Edited live surfaces:
 
 - `theorem-construction/mcp-uniform-local-hs-bootstrap-from-whole-space-shell-tail-control-f79eac12d9.md`;
 - `theorem-construction/mcp-manuscript-smallest-standard-lemma-sequence.md`;
+- `theorem-construction/mcp-manuscript-consistency-audit-four-lemma-spine.md`;
 - `theorem-construction/mpp-forward-gold-weighted-skew-to-terminal-signed-saturation-20260618.md`;
 - `theorem-construction/frozen-exceptional-set-measure-localization.md`;
 - `theorem-construction/mixed-enstrophy-gradient-channel-result.md`;
