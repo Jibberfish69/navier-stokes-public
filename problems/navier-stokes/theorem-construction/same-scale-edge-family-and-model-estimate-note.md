@@ -270,7 +270,7 @@ because `(SS^\sharp\text{-}edge)` still carries the unresolved same-scale coeffi
 So the exact remaining same-scale theorem debt is now sharp:
 
 ```math
-\text{kill the same-scale coefficient term in `(UB^\sharp)` and `(MS^\sharp)` at barrier scale.}
+\text{include the same-scale coefficient term in the installed weighted carrier at barrier scale.}
 \tag{16}
 ```
 
