@@ -262,22 +262,23 @@ prints the same destination as \cref{sub:SubsectionLevelNumbering}.
 \end{remark}
 
 \subsection{Surface Hybrid Reference Examples}\label{sub:SurfaceHybridReferenceExamples}
-\SurfaceCrefAnchor{surf:ClayTerminalWitnessCMEntry}{Clay terminal witness CM entry}{ClayTerminalWitnessCMEntry.A}
-\SurfaceCrefAnchor{surf:WholeSpaceCMCompletionBranch}{whole-space CM completion branch}{R3.WholeSpaceCMCompletion.A}
-\SurfaceCrefAnchor{surf:LocalizedSkewCurrentPacket}{localized skew-current packet}{LocalizedSkewCurrent.A}
-\SurfaceCrefAnchor{surf:WholeSpaceHsTail}{whole-space Hs tail}{Tail.Hs\_R3}
-\SurfaceCrefAnchor{surf:SharedPackSplit}{shared Pack split}{ESM.N6}
-\SurfaceCrefAnchor{surf:ActionableViscousCrossReadout}{actionable viscous cross-readout}{ACT.X-Readout}
-\SurfaceCrefAnchor{surf:PackFace}{Pack face}{Pack\_Q}
-\SurfaceCrefAnchor{surf:PartFace}{Part face}{Part\_\{N,Q\}}
-\SurfaceCrefAnchor{surf:FieldFace}{Field face}{Field\_\{N,r,Q\}}
-Option 2 keeps the readable surface and exact repo handle together:
-\surfacecref{surf:ClayTerminalWitnessCMEntry},
-\surfacecref{surf:WholeSpaceCMCompletionBranch}, and
-\surfacecref{surf:LocalizedSkewCurrentPacket}. It also leaves compact branch
-codes legible, as in \surfacecref{surf:WholeSpaceHsTail},
-\surfacecref{surf:SharedPackSplit}, and
-\surfacecref{surf:ActionableViscousCrossReadout}.
+\SurfaceCrefAnchor{surf:ClayTerminalWitnessClassMembershipEntry}{ClayTerminalWitnessClassMembershipEntry}{ClayTerminalWitnessCMEntry.A}
+\SurfaceCrefAnchor{surf:WholeSpaceClassMembershipCompletion}{WholeSpaceClassMembershipCompletion}{R3.WholeSpaceCMCompletion.A}
+\SurfaceCrefAnchor{surf:LocalizedSkewCurrent}{LocalizedSkewCurrent}{LocalizedSkewCurrent.A}
+\SurfaceCrefAnchor{surf:WholeSpaceSobolevTail}{WholeSpaceSobolevTail}{Tail.Hs\_R3}
+\SurfaceCrefAnchor{surf:EulerMirrorSharedPackSplit}{EulerMirrorSharedPackSplit}{ESM.N6}
+\SurfaceCrefAnchor{surf:ReceiverReadoutBridge}{ReceiverReadoutBridge}{ACT.X-Readout}
+\SurfaceCrefAnchor{surf:PackFace}{PackFace}{Pack\_Q}
+\SurfaceCrefAnchor{surf:PartFace}{PartFace}{Part\_\{N,Q\}}
+\SurfaceCrefAnchor{surf:FieldFace}{FieldFace}{Field\_\{N,r,Q\}}
+Option 2 keeps option 1's strict expanded title rule, then appends the exact
+repo shorthand when the shorthand carries route, domain, status, or symbolic
+face information: \surfacecref{surf:ClayTerminalWitnessClassMembershipEntry},
+\surfacecref{surf:WholeSpaceClassMembershipCompletion}, and
+\surfacecref{surf:LocalizedSkewCurrent}. It also leaves compact branch codes
+legible, as in \surfacecref{surf:WholeSpaceSobolevTail},
+\surfacecref{surf:EulerMirrorSharedPackSplit}, and
+\surfacecref{surf:ReceiverReadoutBridge}.
 
 \begin{remark}[face primitive references]
 The same rule can name witness faces without forcing them into theorem-number
