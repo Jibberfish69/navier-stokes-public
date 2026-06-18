@@ -330,10 +330,12 @@ The sharp two-door frontier after the donor-graph continuation is:
 
 ```math
 \boxed{
-\Phi_0\ne0:
-\quad
-\text{prove MinimalZenoTerminalTraceCompactness.A or visible nonzero-flux
-native-carrier residue inside NoFreeTerminalZenoDonorChain.A.}
+\begin{gathered}
+\Phi_0\ne0:\\
+\text{prove MinimalZenoTerminalTraceCompactness.A}\\
+\text{or visible nonzero-flux native-carrier residue inside}\\
+\text{NoFreeTerminalZenoDonorChain.A.}
+\end{gathered}
 }
 \tag{TD.19}
 ```
