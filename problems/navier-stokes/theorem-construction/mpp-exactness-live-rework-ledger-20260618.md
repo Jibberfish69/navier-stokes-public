@@ -272,6 +272,46 @@ Edited live surfaces:
 - `submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex`;
 - `submission-bundle/proof-attempt-failure-appendix.tex`.
 
+## Kernelized Lifted-Band Scale-Separation Rework
+
+Old loose step:
+
+- `submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex` said
+  that when \(k\) is separated from \(j\), "the interaction kernel should carry a
+  factor that shrinks as \(j-k\) grows."
+- The derivative-bill paragraph described the arithmetic as happening "in the
+  separated model."
+
+Exact replacement:
+
+The live section now states that the proof burden is the separated-band
+inequality itself:
+
+```math
+\big|\langle P_j((P_k u\cdot\nabla)u^{\mathrm{near}}_j),u_j\rangle\big|
+\le C_{\alpha}2^{-\alpha(j-k)} A_{j,k}(t),
+\qquad k<j-C.
+```
+
+The section now says scale separation by itself is not a payment.  The remaining
+question is whether a proved decay factor \(2^{-\alpha(j-k)}\), with constants
+uniform in \(j,k\), is strong enough to make the lower-prefix sum legal.  The
+derivative-bill paragraph now describes the obstruction as dyadic bookkeeping for
+the displayed kernel gain:
+
+```math
+2^{-(j-k)}\cdot 2^j=2^k.
+```
+
+Downstream consequence: this branch no longer spends frequency-separation
+intuition or a model profile as proof force.  It remains open until the
+separated-band estimate above is proved with the stated uniformity and with an
+admissible \(A_{j,k}(t)\) that makes the \(k<j-C\) summation legal.
+
+Edited live surface:
+
+- `submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
