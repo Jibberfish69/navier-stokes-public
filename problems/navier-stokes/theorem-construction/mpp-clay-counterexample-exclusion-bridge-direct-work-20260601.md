@@ -90,8 +90,12 @@ sup_{t<T_*} ||u(t)||_{H^s(T^3)} < infinity,
 s>5/2.
 ```
 
-The standard periodic `H^s` continuation theorem extends the same solution past
-`T_*`. This contradicts the assumed finite endpoint.
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\).  Periodic \(H^s\) local theory
+supplies a lifespan \(\tau=\tau(\nu,s,M_s)>0\) for every datum with norm at most
+\(M_s\).  Choosing \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\), the solution
+launched from \(u(t_j)\) exists beyond \(T_*\), and uniqueness identifies it with
+the original solution on the overlap. This contradicts the assumed finite
+endpoint.
 
 So the pass outcome closes.
 

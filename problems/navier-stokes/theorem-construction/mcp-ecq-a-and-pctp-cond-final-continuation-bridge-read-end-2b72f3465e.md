@@ -60,7 +60,11 @@ CM_{N,r,Q}\text{ persists on the terminal retained cover}
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-Standard local classical Navier-Stokes theory in `H^s(T^3)` gives a common lifespan depending only on this bound. Choosing `t_j\uparrow T_*`, the solution relaunched at `t_j` extends past `T_*` for large `j`, and uniqueness identifies it with the original solution on the overlap. Hence
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\).  Periodic \(H^s\) local theory
+gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\) for every datum with norm at most
+\(M_s\).  Choose \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\).  The solution
+relaunched from \(u(t_j)\) exists past \(T_*\), and uniqueness identifies it with
+the original solution on the overlap. Hence
 
 ```math
 T_*=\infty.

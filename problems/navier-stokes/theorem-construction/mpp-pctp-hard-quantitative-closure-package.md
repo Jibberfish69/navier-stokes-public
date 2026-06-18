@@ -232,7 +232,19 @@ and the solution extends past `T_*`.
 
 ### Proof
 
-The tower bound controls pointwise velocity derivatives through order `N` on a finite terminal cover. Since `N>s+2`, finite-cover Sobolev patching gives a uniform `H^s` bound. The periodic Navier-Stokes local theory in `H^s`, `s>5/2`, extends the solution past any finite endpoint with bounded `H^s` norm.
+The tower bound controls pointwise velocity derivatives through order `N` on a
+finite terminal cover. Since `N>s+2`, finite-cover Sobolev patching gives a
+uniform `H^s` bound.  With
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
+```
+
+periodic \(H^s\) local theory gives a lifespan
+\(\tau=\tau(\nu,s,M_s)>0\) for every datum with norm at most \(M_s\).  Choosing
+\(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\), the solution launched from \(u(t_j)\)
+exists beyond \(T_*\), and uniqueness identifies it with the original solution
+on the overlap.
 
 ## 9. Final source theorem for `FCI.5f`
 

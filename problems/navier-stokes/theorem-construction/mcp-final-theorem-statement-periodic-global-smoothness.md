@@ -56,7 +56,12 @@ OriginalSmoothData\Longrightarrow\text{absence of finite classical endpoint}.
 
 Let `(u,p)` be the maximal classical solution on `[0,T_*)`. Suppose `T_*<\infty`. The `PCTP.hard` package gives the terminal-tail class-membership readout and removes every terminal endpoint face. The readout package gives the pointwise endpoint closure `End_NS`. The continuation bridge `ECQ.A` then implies a uniform `H^s(T^3)` bound for some `s>5/2` on `[0,T_*)`.
 
-Standard local well-posedness in `H^s(T^3)` gives a lifespan depending only on that bound. Relaunching at times `t_j\uparrow T_*` extends the solution beyond `T_*`, contradicting maximality. Hence `T_*=\infty`.
+Set \(M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\).  Periodic \(H^s\) local
+well-posedness gives a lifespan \(\tau=\tau(\nu,s,M_s)>0\) for every datum with
+norm at most \(M_s\).  Choose \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\).  The
+solution relaunched from \(u(t_j)\) exists beyond \(T_*\), and uniqueness
+identifies it with the original solution on the overlap. This contradicts
+maximality, so `T_*=\infty`.
 
 Smoothness for all positive time and preservation of smoothness follow from the classical periodic Navier-Stokes regularity theory applied on each finite interval.
 

@@ -129,7 +129,17 @@ The `H^s` continuation conversion then gives
 \qquad s>5/2,
 ```
 
-for finite route depth `N>s+2`. The classical periodic continuation criterion extends the solution past `T_*`, contradicting maximality.
+for finite route depth `N>s+2`.  Set
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}.
+```
+
+Periodic \(H^s\) local theory gives a lifespan
+\(\tau=\tau(\nu,s,M_s)>0\) for every datum with norm at most \(M_s\).  Choose
+\(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\).  The solution launched from
+\(u(t_j)\) exists beyond \(T_*\), and uniqueness identifies it with the original
+solution on the overlap.  This contradicts maximality.
 
 ## Non-spending gates
 

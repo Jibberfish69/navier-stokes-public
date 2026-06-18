@@ -171,7 +171,18 @@ The `H^s` continuation conversion gives, for finite route depth `N>s+2`,
 \qquad s>5/2.
 ```
 
-The standard periodic continuation criterion extends the solution past `T_*`, contradicting maximality.
+Set
+
+```math
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}.
+```
+
+The periodic \(H^s\) local theory supplies a lifespan
+\(\tau=\tau(\nu,s,M_s)>0\) for every datum with \(H^s\) norm at most \(M_s\).
+Choose \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\).  The solution launched from
+the datum \(u(t_j)\) exists on \([t_j,t_j+\tau]\), which reaches past \(T_*\);
+uniqueness identifies it with the original solution on \([t_j,T_*)\).  This
+extends the same solution past \(T_*\), contradicting maximality.
 
 Hence `PCTP.hard` holds in the installed theorem-program sense.
 
