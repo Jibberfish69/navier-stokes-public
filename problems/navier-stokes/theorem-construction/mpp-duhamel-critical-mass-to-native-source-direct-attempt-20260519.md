@@ -58,10 +58,16 @@ dxdt
 \ge c_1>0.
 ```
 
-Then the installed Radon-Nikodym decision criterion applies. If the installed
-ledger measure `\rho_m(E_m)` vanishes, the terminal extraction has
-`\mu_*^{sing}>0`. If the source mass is carried by the donor square reserve
-instead, failure to charge it is exactly selected
+The installed Radon--Nikodym decision criterion is the exact implication
+
+```math
+\rho_m(E_m)\to0,\qquad \nu_m(E_m)\ge c_1
+\quad\Longrightarrow\quad
+\mu_*^{sing}\neq0
+```
+
+on the selected terminal packet algebra. If the source mass is carried by the
+donor square reserve instead, failure to charge it is exactly selected
 `\neg ScaleCriticalTreeCarleson.A`; if it is charged by the installed legal
 ledger, it is not a retained counterexample.
 
