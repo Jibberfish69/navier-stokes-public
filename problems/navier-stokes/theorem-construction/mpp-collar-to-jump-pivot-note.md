@@ -452,7 +452,7 @@ and the installed anchored-center ledger is
 
 So `A^{low}_{m,\mathrm{anc}}` is the minimal component-anchor projection of
 `\mathfrak A^{ctr}`. If the proof uses all `LCI` cover centers, then the anchor
-burden is simply
+burden is
 
 ```math
 \mathfrak A_{N,m,\rho,\psi}^{ctr}\in L^1(I)
