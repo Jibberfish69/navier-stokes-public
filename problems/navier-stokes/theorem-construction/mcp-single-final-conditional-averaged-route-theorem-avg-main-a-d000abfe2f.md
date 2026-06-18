@@ -138,14 +138,14 @@ CFI.A+End_{NS}
 \text{no finite-time class exit}.
 ```
 
-By `ECQ.A`, absence of finite-time class exit implies the maximal classical lifespan is infinite. Equivalently, the class witness supplies a terminal-tail continuation readout
+By `ECQ.A`, absence of finite-time class exit implies the maximal classical lifespan is infinite. Equivalently, the already-displayed readout chain supplies the terminal-tail continuation bound
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty,
 \qquad s>5/2,
 ```
 
-and `PCTP.cond` extends the solution beyond any finite `T_*`, a contradiction. Hence
+and `PCTP.cond` extends the solution beyond any finite `T_*`. This conclusion is conditional on the upstream averaged route hypotheses listed in the theorem, including the same-tail `SCFBaseLocalModulus_N` input before `End_NS_avg`; the later `READ.COVER`/`READ.END` layer does not supply that input. Hence
 
 ```math
 T_* = \infty.
