@@ -591,14 +591,14 @@ Before this package, the open cone work could still blur into old slogans.  The
 exact replacements are:
 
 ```text
-old: finite physical energy should imply no point blow-up
+old slogan: finite physical energy was treated as ruling out point blow-up
 new: finite cone energy gives the moving-cone ledger and late-slab smallness
      only after the CKN scale-critical quantity is controlled on the selected
      moving cylinders.
 ```
 
 ```text
-old: the parabolic funnel automatically removes the discount
+old slogan: the parabolic funnel was treated as removing the discount
 new: the funnel identity separates the discounted physical budget from the
      undiscounted scale-critical budget; removing the discount is the open
      same-fluid participation / payment-rate theorem.
