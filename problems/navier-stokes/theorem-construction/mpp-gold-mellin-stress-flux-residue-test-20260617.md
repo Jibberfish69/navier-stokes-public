@@ -300,7 +300,7 @@ the other from current \(B_{ASAC}\) inputs.
 
 ## 7. What this records and does not prove
 
-It records a useful formal reduction:
+It records a useful conditional reduction:
 
 ```math
 \text{annular critical Zeno pole}
