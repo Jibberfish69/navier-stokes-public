@@ -251,8 +251,9 @@ budget. The further note
 [uniform-packet-bounds-collapse-small-radius-budget.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/uniform-packet-bounds-collapse-small-radius-budget.md)
 then removes the packet factor from that stronger route and reduces it to a
 radius-gap budget, and under a fixed gap floor plus finite active measure to a
-uniform shrinking-radius theorem. That remains a bypass realization, not the
-installed minimal theorem wall.
+uniform shrinking-radius theorem through the exact bound
+`\int r_J(z)^2\,d\mu_J^{pair}\,dt\le \mathfrak m_\ast\rho_J^2=o_J(1)`.
+That remains a bypass realization, not the installed minimal theorem wall.
 
 If one allows the stronger packet redesign recorded in
 [canonical-center-localized-projector-atlas-eliminates-overlap-mismatch.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/canonical-center-localized-projector-atlas-eliminates-overlap-mismatch.md),
