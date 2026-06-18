@@ -74,7 +74,8 @@ For every still-live approach window `Q`, failure of the exact class-membership 
 ```math
 \neg CM_{N,r,Q}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 ### Proof

@@ -756,7 +756,8 @@ END.Exh_{\mathrm{avg}}:
 \quad
 \neg CM_{\mathrm{avg}}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown_{\mathrm{avg}}\vee Jump_{\mathrm{avg}},
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown_{\mathrm{avg}}\vee Jump_{\mathrm{avg}},
 ```
 
 and

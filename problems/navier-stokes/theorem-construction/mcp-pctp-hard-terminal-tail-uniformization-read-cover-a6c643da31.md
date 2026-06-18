@@ -13,7 +13,8 @@ OriginalSmoothData \Longrightarrow \text{uniform terminal-tail retained class-me
 Equivalently, the required endpoint formulation is endpoint-face impossibility for the first finite classical endpoint:
 
 ```math
-Dead \vee packing\text{-}detached \vee tower\text{-}blown \vee Jump
+Dead \vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached \vee tower\text{-}blown \vee Jump
 ```
 
 is excluded as the terminal face of the maximal classical periodic solution.

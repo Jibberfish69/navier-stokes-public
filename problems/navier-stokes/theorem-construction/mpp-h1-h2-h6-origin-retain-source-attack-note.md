@@ -47,7 +47,8 @@ endpoint alternative:
 ```math
 \text{failure of retained admission}
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 Thus `End_NS` excludes the only first-failure faces, and `RSCB.NKF` persists on

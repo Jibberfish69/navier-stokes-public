@@ -41,7 +41,8 @@ CM=Pack\wedge Part\wedge Field.
 `CFI.A` propagates `CM` on retained same-fluid approach windows. If a first finite class exit occurred, the endpoint exhaustion row would force one old pointwise endpoint face:
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 But `End_NS` removes all of these old endpoint faces. Therefore no finite class exit occurs on the retained terminal branch.

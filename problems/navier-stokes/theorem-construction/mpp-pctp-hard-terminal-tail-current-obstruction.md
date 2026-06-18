@@ -17,7 +17,8 @@ OriginalSmoothData \Longrightarrow \text{uniform terminal-tail retained class-me
 Equivalently, for the maximal smooth periodic solution on `T^3`, no first finite classical endpoint may realize
 
 ```math
-Dead \vee packing\text{-}detached \vee tower\text{-}blown \vee Jump.
+Dead \vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached \vee tower\text{-}blown \vee Jump.
 ```
 
 The required readout is strong enough to yield a classical continuation bound, for example

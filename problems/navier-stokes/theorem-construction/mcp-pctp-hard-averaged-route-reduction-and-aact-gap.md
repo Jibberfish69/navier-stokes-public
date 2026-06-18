@@ -19,7 +19,7 @@ OriginalSmoothData
 Equivalently, at a first finite classical endpoint, the endpoint faces must be excluded:
 
 ```math
-Dead,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump,
+Dead,\qquad response\text{-}margin\text{-}collapse,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump,
 \qquad response\text{-}margin\text{-}collapse.
 ```
 

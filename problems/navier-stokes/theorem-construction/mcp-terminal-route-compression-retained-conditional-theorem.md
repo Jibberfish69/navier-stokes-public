@@ -122,7 +122,8 @@ END.TowerAmp\Longrightarrow END.TowerBound.
 `END.Exh` is the accepted endpoint exhaustiveness theorem:
 
 ```math
-\neg CM_{N,r,Q}\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+\neg CM_{N,r,Q}\Longrightarrow Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 `END.Cross` reduces cross entries to the installed native endpoint rows. `END.Pack` spends bounded pack gauge. `END.Field` spends `OFP.A` and the positive field-scale persistence.

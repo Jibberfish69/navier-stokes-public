@@ -1104,7 +1104,8 @@ END.Exh:
 \quad
 \neg CM
 \Longrightarrow
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 For `END.Cross`, use the accepted blown split
@@ -1203,7 +1204,8 @@ Under that reduction, the accepted endpoint certificate maps produce an
 endpoint certificate in
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 Consequently,
@@ -1371,7 +1373,8 @@ The fourth is the separate mixed tower face already carried by
 `END.TowerAmp`. Therefore the accepted endpoint certificate maps give
 
 ```math
-Dead\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
 ```
 
 Here `\neg Part_{N,Q}` gives `Dead`; `\neg Pack_Q` gives the pack-side
