@@ -2,8 +2,8 @@
 
 ## Purpose
 
-This note proves the exact lift from the displayed uniform edge-family
-hypothesis `(SS-model)` to the upper-boundary estimate `(UB)` and moving-spill
+This note proves the exact lift from the displayed coefficient-free edge-family
+hypothesis `(SS\text{-}edge)` to the upper-boundary estimate `(UB)` and moving-spill
 estimate `(MS)`.
 
 Unlike the open coefficient-free theorem `(SS)` itself, this family lift is
@@ -62,7 +62,7 @@ C_{sp,*}^{res}2^{-2\delta N}.
 \tag{4}
 ```
 
-Finally assume the following uniform edge-family hypothesis for every packet in
+Finally assume the following coefficient-free edge-family hypothesis for every packet in
 the union family `\mathcal A:=\mathcal A_{ub}\cup\mathcal A_{sp}`:
 
 ```math
@@ -72,7 +72,7 @@ the union family `\mathcal A:=\mathcal A_{ub}\cup\mathcal A_{sp}`:
 +
 C_{a,*}2^{-2\delta N},
 \qquad a\in\mathcal A.
-\tag{SS-model}
+\tag{SS\text{-}edge}
 ```
 
 ## Lemma
@@ -135,7 +135,7 @@ Integrate `(1)` in time:
 \tag{7}
 ```
 
-Apply the displayed hypothesis `(SS-model)` term by term and then `(3)`:
+Apply the displayed hypothesis `(SS\text{-}edge)` term by term and then `(3)`:
 
 ```math
 \int_0^T |\mathfrak B_N^{upper}(t)|\,dt
@@ -155,7 +155,7 @@ C_{ub,*}^{res}2^{-2\delta N}.
 
 Collect coefficients to obtain `(UB-lift)`.
 
-The moving-spill estimate is identical: integrate `(2)`, apply `(SS-model)` over
+The moving-spill estimate is identical: integrate `(2)`, apply `(SS\text{-}edge)` over
 `\mathcal A_{sp}`, then use `(4)`. This gives `(MS-lift)`.
 
 Finally `(5)` and `(6)` convert `(UB-lift)` and `(MS-lift)` into the target
@@ -169,6 +169,6 @@ The open same-scale burden is therefore reduced to exactly two items:
 
 1. write the explicit upper-boundary family reduction `(1)`;
 2. upgrade the currently available coefficient-bearing edge estimate
-   `(SS^\sharp\text{-}model)` to the coefficient-free theorem `(SS-model)`.
+   `(SS^\sharp\text{-}edge)` to the coefficient-free theorem `(SS\text{-}edge)`.
 
 Everything after that is finite summation.
