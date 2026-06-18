@@ -55,7 +55,8 @@ This includes the pressure part of
 K_q=-\nabla^{q+1}p+\nu\Delta U_q.
 ```
 
-Fourth, the old endpoint matrix can consume the pointwise objects:
+Fourth, the old endpoint matrix can consume the pointwise objects only together
+with the repaired Part response-margin input:
 
 ```math
 Field\Longrightarrow END.Field,

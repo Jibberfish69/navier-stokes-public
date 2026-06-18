@@ -44,7 +44,8 @@ READ.END
 End_{NS}.
 ```
 
-The old endpoint matrix is also installed conditionally:
+The old endpoint matrix is installed conditionally after the repaired Part
+response-margin input:
 
 ```math
 END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound

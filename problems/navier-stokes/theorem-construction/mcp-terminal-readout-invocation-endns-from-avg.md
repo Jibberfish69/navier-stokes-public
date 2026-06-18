@@ -116,9 +116,10 @@ READ.END:
 End_{NS,avg}+READ.COVER+Field.Read+DTC.Read\Longrightarrow End_{NS}.
 ```
 
-`Field.Read` supplies the old pointwise `Field` row. `DTC.Read` supplies the old pointwise transported-center/tower readout and hence `END.TowerAmp`. The `Pack` and `Part` rows are shared between the averaged and old endpoint grammars.
+`Field.Read` supplies the old pointwise `Field` row. `DTC.Read` supplies the old pointwise transported-center/tower readout and hence `END.TowerAmp`. The `Pack` row and the repaired Part response-margin row are shared between the averaged and old endpoint grammars.
 
-With pointwise `Field` and pointwise `DTC.A` recovered, the old endpoint matrix applies:
+With pointwise `Field`, pointwise `DTC.A`, and the repaired Part response-margin
+input recovered, the old endpoint matrix applies:
 
 ```math
 END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound\Longrightarrow End_{NS}.

@@ -411,6 +411,9 @@ $$
 
 The readout layer is downstream of the averaged endpoint package. `Field.Read` and `DTC.Read` are not spent in the construction of `SCF_base`, `ATD_m^\varepsilon`, `AACT.KX`, `AVG.RCV.A`, `LCI.A_avg`, `CSP.A_avg`, `OFP.A_avg`, `CFI.A_avg`, or `End_NS_avg`.
 
-`READ.COVER` is downstream of `End_NS_avg`; it is used only to recover the positive-scale cover needed for pointwise readout. The old endpoint matrix `End_NS` is obtained only at the terminal compatibility stage.
+`READ.COVER` is downstream of `End_NS_avg`; it is used only to recover the
+positive-scale cover needed for pointwise readout. The old endpoint matrix
+`End_NS` is obtained only at the terminal compatibility stage, together with the
+repaired Part response-margin input.
 
 Thus the promotion audit passes for the averaged-to-pointwise compatibility layer.

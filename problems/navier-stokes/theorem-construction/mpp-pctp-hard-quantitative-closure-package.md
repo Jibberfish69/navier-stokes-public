@@ -320,7 +320,13 @@ u\in C^\infty([0,\infty)\times\mathbb T^3).
 
 ### Route proof
 
-Assume the maximal smooth solution has finite endpoint `T_*`. By `TTU.A_quant`, the terminal tail is strict averaged-good or `Jump_avg`. The strict branch gives `DTC.A_avg` by `AACT.Global`; the `Jump_avg` branch is removed by `End_NS_avg`. The compressed averaged chain gives `End_NS_avg`, and `READ.END_N` gives old `End_NS`. The old endpoint matrix removes every first pointwise endpoint face. `Tower.Cont` then gives the `H^s` continuation contradiction. Therefore `T_*` is infinite.
+Assume the maximal smooth solution has finite endpoint `T_*`. By `TTU.A_quant`,
+the terminal tail is strict averaged-good or `Jump_avg`. The strict branch gives
+`DTC.A_avg` by `AACT.Global`; the `Jump_avg` branch is removed by `End_NS_avg`.
+The compressed averaged chain gives `End_NS_avg`, and `READ.END_N` gives old
+`End_NS` together with the repaired Part response-margin input. The endpoint
+matrix then removes every first pointwise endpoint face. `Tower.Cont` gives the
+`H^s` continuation contradiction. Therefore `T_*` is infinite.
 
 ## Claim boundary
 

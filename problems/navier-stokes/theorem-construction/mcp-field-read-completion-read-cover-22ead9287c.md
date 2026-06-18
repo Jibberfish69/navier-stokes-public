@@ -47,4 +47,6 @@ END.Field.
 
 ## Boundary
 
-`Field.Read` is a readout theorem after `READ.COVER`. It converts the averaged field object into the pointwise field object for the old endpoint matrix.
+`Field.Read` is a readout theorem after `READ.COVER`. It converts the averaged
+field object into the pointwise field object for the old endpoint matrix, while
+the repaired Part response-margin input remains a separate Part-row requirement.

@@ -50,7 +50,9 @@ DTC.A_{avg}+READ.COVER+ATD_m^\varepsilon\Longrightarrow DTC.A.
 DTC\text{-}to\text{-}TowerBound\Longrightarrow END.TowerAmp\Longrightarrow END.TowerBound.
 ```
 
-The pack and part rows are shared between the averaged and pointwise endpoint grammars. With pointwise `Field` and pointwise `DTC.A` recovered, the old endpoint matrix applies:
+The pack row and the repaired Part row are shared between the averaged and
+pointwise endpoint grammars. With pointwise `Field`, pointwise `DTC.A`, and the
+Part response-margin input recovered, the old endpoint matrix applies:
 
 ```math
 END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound\Longrightarrow End_{NS}.
