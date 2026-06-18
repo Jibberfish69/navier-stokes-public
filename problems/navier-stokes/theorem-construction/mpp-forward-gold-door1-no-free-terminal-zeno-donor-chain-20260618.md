@@ -6,6 +6,13 @@ Status: Door 1 reduction; `TerminalSignedSaturation.A` is reduced to the
 infinite terminal Zeno donor-chain atom.  The atom is not discharged from
 installed inputs.
 
+2026-06-18 continuation: `mpp-forward-gold-door1-minimal-zeno-donor-chain-trace-dichotomy-attempt-20260618.md`
+tests the atom directly.  The new sharpened pressure point is
+`MinimalZenoTerminalTraceCompactness.A`; if terminal trace compactness fails,
+the failure must become visible as either `MinimalChainProjectedResidueIdentity.A`
+on the nonzero-flux side or `MinimalZenoProfileProduction.A` on the zero-flux
+Door 2 side.
+
 Role: continue the Door 1 proof after the finite signed-current accounting has
 been paid.
 
