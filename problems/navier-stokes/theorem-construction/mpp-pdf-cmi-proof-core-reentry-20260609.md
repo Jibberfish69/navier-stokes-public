@@ -21,16 +21,20 @@ The papers must not hide that issue behind cleaner prose.
 
 ### 1. Terminal record entry is supported.
 
-`mpp-terminal-record-entry-standard-pde-hardening-20260608.md` proves the
-standard maximal-solution entry step:
+`mpp-terminal-record-entry-standard-pde-hardening-20260608.md` proves terminal
+record entry through the exact bounded-norm relaunch:
 
-```text
-finite maximal classical breakdown
-=> same original datum, same original branch, finite terminal time,
-   and failure of the continuation readout along that branch.
+```math
+M_s:=\sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
+\qquad
+\tau=\tau(\nu,s,M_s)>0.
 ```
 
-This is a PDE reduction. It is not a CM definition.
+For `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, local `H^s` theory relaunches
+from `u(t_j)` beyond `T_*`, and uniqueness on `[t_j,T_*)` identifies that
+solution with the original branch. Therefore a finite maximal classical
+breakdown on the same original branch must fail the continuation readout along
+that branch. This is a PDE reduction, not a CM definition.
 
 ### 2. Pack/Part/Field exhaustion is route-relative.
 
