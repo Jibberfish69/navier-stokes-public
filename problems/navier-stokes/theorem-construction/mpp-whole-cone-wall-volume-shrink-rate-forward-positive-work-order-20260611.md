@@ -162,16 +162,19 @@ measure has size
 int_0^{tau0} rho(t)^2 sqrt(1 + |rho'(t)|^2) d tau.
 ```
 
-When the slope term dominates, this behaves like
+For `rho(t)=lambda tau^beta`,
+`|rho'(t)|=lambda beta tau^(beta-1)`, and `sqrt(1+a^2)<=1+a` gives the exact
+upper bound
 
 ```text
-int_0^{tau0} tau^(2 beta) tau^(beta-1) d tau
-= int_0^{tau0} tau^(3 beta - 1) d tau
+int_0^{tau0} rho(t)^2 sqrt(1 + |rho'(t)|^2) d tau
+<=
+lambda^2 int_0^{tau0} tau^(2 beta) d tau
++ lambda^3 beta int_0^{tau0} tau^(3 beta - 1) d tau
 < infinity
 ```
 
-for every `beta>0`. When the slope term does not dominate, the integrand is
-even smaller near the tip.
+for every `beta>0`.
 
 So the cone does not solve the problem by having infinite raw surface area. The
 real "surface area" analogue is the weighted wall currency:
