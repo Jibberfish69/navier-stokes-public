@@ -4405,6 +4405,10 @@ readback is conditioned on the displayed `CSP.A_{\delta+\delta_{seg}}`,
 `END.TowerBound` is the direct contradiction between same-packet tower-amplitude
 boundedness and `tower-blown`. The receiver side is conditional after the
 ordered `ACT.KX` package is installed for every required parameter instance.
+The earlier multiplier and native-forcing bridge language now names the
+displayed multiplier structure and the direct algebraic consequence of
+`K_q(c_j)=-\nabla^{q+1}p(c_j)+\nu\Delta U_q(c_j)` plus bounded frame
+equivalence.
 
 Downstream consequence:
 
