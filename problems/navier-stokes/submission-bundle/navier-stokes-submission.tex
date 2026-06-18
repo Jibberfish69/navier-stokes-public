@@ -813,7 +813,11 @@ The fail side is supplied by finite-witness classification.  A finite terminal o
 \[
   \Pack_Q,\qquad \Part_{N_s,Q},\qquad \Field_{N_s,r,Q}
 \]
-at a depth \(N_s\) chosen so that the tower controls the \(H^s\), \(s>5/2\), readout, the local \(H^s\) theory restarts the classical solution past \(T_*\).  A genuine finite terminal obstruction must lose the first available face in Pack-first order:
+at a depth \(N_s\) chosen so that the tower controls a finite \(H^s\), \(s>5/2\), readout
+\[
+  M_s=\sup_{t<T_*}\|u(t)\|_{H^s}<\infty,
+\]
+then the local \(H^s\) theorem supplies a lifespan \(\tau(\nu,s,M_s)>0\).  Launching from any \(t_j<T_*\) with \(T_*-t_j<\tau/2\) gives a classical solution beyond \(T_*\), and uniqueness on the overlap identifies that relaunch with the original branch.  A genuine finite terminal obstruction must lose the first available face in Pack-first order:
 \[
   \neg\Pack_Q,
   \qquad
@@ -925,7 +929,11 @@ Assume Pack and Part both survive.  The final gate is Field.  A positive scale \
 \[
   \Pack_Q\wedge\Part_{N_s,Q}\wedge\Field_{N_s,r,Q}
 \]
-and the uniform \(H^s\), \(s>5/2\), bound needed by the classical continuation criterion.  That readout extends the same classical solution past \(T_*\), contradicting the assumption that \(\mathcal F\) is the finite terminal obstruction for the same branch.  Every positive Field scale with that readout fails:
+and a finite \(H^s\), \(s>5/2\), readout
+\[
+  M_s=\sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
+\]
+The local \(H^s\) theorem gives a lifespan \(\tau(\nu,s,M_s)>0\).  Choosing \(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\), the solution relaunched from \(u(t_j)\) exists beyond \(T_*\), and uniqueness identifies it with the original branch on the overlap.  That contradicts the assumption that \(\mathcal F\) is the finite terminal obstruction for the same branch.  Every positive Field scale with that readout fails:
 \[
   \Pack_Q\wedge\Part_{N_s,Q}\wedge\forall r>0\,\neg\Field_{N_s,r,Q}.
 \]
