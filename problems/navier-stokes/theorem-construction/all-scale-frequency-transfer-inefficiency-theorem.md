@@ -134,8 +134,9 @@ the same instinct:
 
 The scale-side kernelized lifted-band reduction
 `scale-kernelized-lifted-band-reduction-lemma.md`
-is concrete local evidence for this stronger idea, because it already exhibits
-a real gap factor `2^{-(j-k)}` on one exact packet.
+is concrete local evidence for this stronger idea, because the factor
+`2^{-(j-k)}` appears inside the displayed scale-side carrier for one exact
+packet.
 
 ## Honest Boundary
 
