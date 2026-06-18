@@ -47,7 +47,29 @@ OriginalSmoothData
 \int_{t_0}^{T_*}S_{pack,Q}(t)\,dt<\infty.
 ```
 
-The affine frame satisfies the same structural dependence: if `A(t)` is tied to the same-fluid deformation/transported chart, then `A^{-1}\dot A` is a strain-rate coefficient. Terminal scale-normalized control of that ledger requires the same kind of terminal strain budget.
+The affine frame must spend the actual matrix strain budget. If `A(t)` is tied
+to the same-fluid deformation/transported chart, the coefficient is
+
+```math
+B_A(t):=A(t)^{-1}\dot A(t),
+```
+
+and terminal scale-normalized control of that ledger requires
+
+```math
+\int_{t_0}^{T_*}\|B_A(t)\|\,dt<\infty.
+```
+
+The displayed strain budget implies this only after the same-frame comparison
+
+```math
+\|A(t)^{-1}\dot A(t)\|
+\le C_A\|\nabla u(t)\|_{L^\infty(\Omega_A(t))}
+```
+
+is proved on the transported chart domain `\Omega_A(t)`. Without that
+comparison, the affine frame budget remains a separate hypothesis rather than a
+"same kind" consequence.
 
 ## Failed substitutes
 
