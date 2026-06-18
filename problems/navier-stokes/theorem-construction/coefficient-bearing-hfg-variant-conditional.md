@@ -44,13 +44,68 @@ for finite-threshold tail energy. For the integrated HFG gain, the pointwise abs
 \le C_\varepsilon R_N(t).
 ```
 
-The usual damped-shell argument then yields the high-frequency gain
+This aggregate inequality gives the tail energy/dissipation bound
+
+```math
+\sup_{0\le t\le T}E_N(t)+\int_0^T D_N(t)dt<\infty.
+```
+
+It does not by itself give the Besov-summable HFG tail.  The exact shellwise
+upgrade needed for HFG is the following.  Set
+
+```math
+e_j(t):=\|\Delta_j\omega(t)\|_2^2.
+```
+
+Assume that, for every `j>=N`,
+
+```math
+{d\over dt}e_j(t)+\alpha\nu2^{2j}e_j(t)\le r_j(t),
+\qquad r_j(t)\ge0,
+```
+
+and assume the HFG-weighted shell reserve
+
+```math
+\sum_{j\ge N}2^{j/2}
+\left(e_j(0)+\int_0^T r_j(t)dt\right)^{1/2}<\infty.
+```
+
+Integrating the shell inequality gives
+
+```math
+\int_0^T e_j(t)dt
+\le
+{1\over \alpha\nu2^{2j}}
+\left(e_j(0)+\int_0^T r_j(t)dt\right).
+```
+
+Therefore Cauchy--Schwarz in time yields
+
+```math
+2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}
+\le
+{T^{1/2}\over(\alpha\nu)^{1/2}}2^{j/2}
+\left(e_j(0)+\int_0^T r_j(t)dt\right)^{1/2}.
+```
+
+Summing over `j>=N` gives the high-frequency gain
 
 ```math
 \sum_{j\ge N}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}<\infty.
 ```
 
-Adding the finite low-shell block gives `HFG`.
+The finite low-shell block is paid separately by the energy bound:
+
+```math
+\sum_{j<N}2^{3j/2}\|\Delta_j\omega\|_{L_t^1L_x^2}
+\le
+C T\|u\|_{L_t^\infty L_x^2}\sum_{j<N}2^{5j/2}<\infty.
+```
+
+Thus this branch gives full `HFG` only after the coefficient-margin estimate is
+available in this shellwise HFG-weighted form, not merely in the aggregate
+`E_N,D_N` form.
 
 ## Boundary
 
