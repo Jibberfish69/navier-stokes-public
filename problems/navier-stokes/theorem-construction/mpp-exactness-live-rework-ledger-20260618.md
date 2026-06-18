@@ -225,6 +225,53 @@ Residuals: the remaining "Immediate from" hits found in this batch are inside
 `mpp-exactness-residue-audit-classification-20260617.json`, a generated audit
 residue, not a live theorem/manuscript surface.
 
+## Compactness Scale-Estimate Rework
+
+Old loose step:
+
+- `submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex`
+  introduced the compactness branch by saying "Energy, enstrophy, and scale
+  estimates follow the original Navier--Stokes branch."
+- `submission-bundle/proof-attempt-failure-appendix.tex` mirrored the same
+  loose payment by saying "The scale estimate feeds the energy/enstrophy
+  bridge."
+
+Exact replacement:
+
+The live manuscript now says compactness may spend only estimates already proved
+for the original solution, for example
+
+```math
+\sup_{t<T_*}\|u(t)\|_{L^2}^2<\infty,
+\qquad
+\nu\int_0^{T_*}\|\nabla u(t)\|_{L^2}^2\,dt<\infty.
+```
+
+For an \(H^s\) extraction along \(t_n\uparrow T_*\), the high-frequency payment
+is the exact spectral tail
+
+```math
+\operatorname{Tail}_s(N;\{t_n\})
+:=
+\sup_n\sum_{j>N}2^{2sj}\|P_j u(t_n)\|_{L^2}^2,
+\qquad
+\lim_{N\to\infty}\operatorname{Tail}_s(N;\{t_n\})=0.
+```
+
+The failure appendix now names the first four-body arrow as a required
+scale-barrier inequality \(S_{\mathrm{cl}}\to Q_{\mathrm{cl}}\); without that
+inequality, scale language does not feed the energy/enstrophy bridge.
+
+Downstream consequence: compactness remains a receiver of already-proved tail,
+source, participation, and exact-object controls. It cannot create the scale or
+tail payment and cannot turn a weak terminal object into an \(H^s\) endpoint
+record unless the displayed tail limit is proved on the selected sequence.
+
+Edited live surfaces:
+
+- `submission-bundle/sections/rebuilt-compactness-exact-object-branch.tex`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
