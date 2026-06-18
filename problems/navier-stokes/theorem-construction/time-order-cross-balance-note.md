@@ -7,7 +7,7 @@ Navier-Stokes in the exact form the lane needs:
 
 ```math
 \boxed{
-\text{the differentiated time tower is not a monotone same-order ladder;}
+\text{the differentiated time tower is not a monotone same-derivative-order ladder;}
 }
 ```
 
@@ -188,7 +188,7 @@ Now the live burden is already spread:
 ```
 
 The pattern is unmistakable:
-the live terms are not monotone same-order source terms.
+the live terms are not monotone same-derivative-order source terms.
 They are a binomial spread over all lower splits.
 
 ## What this proves structurally
@@ -200,7 +200,7 @@ Formula `(7)` shows three exact facts.
 Pressure is present in the differentiated equation, but in the `L^2` energy
 balance it drops out exactly because of incompressibility.
 
-So pressure is a constraint carrier, not the live same-order forcing term in
+So pressure is a constraint carrier, not the live same-derivative-order forcing term in
 the energy recursion.
 
 ### Fact 2: the base transport term also drops out
