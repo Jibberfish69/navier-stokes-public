@@ -1,4 +1,4 @@
-# Same-Scale Coefficient Kill Into Weighted Carrier Note
+# Same-Scale Coefficient Inclusion Into Weighted Carrier Note
 
 ## Purpose
 
@@ -11,8 +11,8 @@ same-scale coefficient term
 ```
 
 It does **not** prove the stronger coefficient-free same-scale theorem `(SS)`.
-What it does prove is that the coefficient term appearing in the model theorem
-`(SS^\sharp)` is already included in the installed weighted carrier
+What it does prove is that the coefficient term appearing in the coefficient-bearing
+same-scale edge estimate `(SS^\sharp\text{-}edge)` is already included in the installed weighted carrier
 `\widetilde\Lambda_N^\sharp E_N` on the derivative-weighted spectral route.
 
 So this note kills `(1)` as a **separate barrier-scale burden**, even though it
@@ -155,7 +155,7 @@ the weighted spectral surface gives `(9)`.
 ## Corollary: weak same-scale closure is already on the carrier surface
 
 Insert `(8)` into the weak coefficient-bearing edge theorem
-`(SS^\sharp\text{-}model)` from
+`(SS^\sharp\text{-}edge)` from
 [same-scale-edge-family-and-model-estimate-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-family-and-model-estimate-note.md).
 Then each edge packet satisfies
 
@@ -198,7 +198,7 @@ Hence, on the weighted spectral carrier-floor-leakage surface, the same-scale
 side is no longer a distinct analytic burden. It is dominated by the
 already-installed carrier term `\widetilde\Lambda_N^\sharp E_N`.
 
-## Exact meaning of “kill” here
+## Exact meaning of the carrier reduction
 
 This note proves
 
@@ -210,12 +210,12 @@ This note proves
 \tag{14}
 ```
 
-So the effect is a **carrier kill**, not a coefficient-free algebraic
-elimination.
+So the effect is inclusion in the installed carrier, not coefficient-free
+algebraic elimination.
 
 ## Honest boundary
 
-This note does **not** prove the strong model theorem
+This note does **not** prove the strong coefficient-free edge theorem
 
 ```math
 \int_0^T \Pi_{N,a}^{edge}(t)\,dt
@@ -226,8 +226,8 @@ C_{a,*}2^{-2\delta N}.
 \tag{SS}
 ```
 
-It proves only that the coefficient-bearing term in `(SS^\sharp)` is bounded by
-the live weighted carrier through `(7)` and the carrier estimates above.
+It proves only that the coefficient-bearing term in `(SS^\sharp\text{-}edge)`
+is bounded by the live weighted carrier through `(7)` and the carrier estimates above.
 
 So the strong coefficient-free theorem `(SS)` remains open if one insists on a
 standalone same-scale packet theorem independent of
