@@ -144,7 +144,7 @@ provided the bilinear hinge closes:
 C_\varepsilon \Psi(\mathcal E_D(X)).
 ```
 
-The formal reduction is
+The displayed algebraic reduction is
 
 ```text
 \mathcal N_1(X)
