@@ -284,7 +284,7 @@ SRC.Final:
 
 ## 6. Endpoint matrix as finite formal theorem
 
-There are four endpoint faces:
+There are endpoint faces:
 
 ```math
 Dead,
@@ -293,7 +293,9 @@ packing\text{-}detached,
 \qquad
 tower\text{-}blown,
 \qquad
-Jump.
+Jump,
+\qquad
+response\text{-}margin\text{-}collapse.
 ```
 
 Each face maps to one row:
@@ -301,17 +303,25 @@ Each face maps to one row:
 | Face | Row | Discharge |
 |---|---|---|
 | Dead | participation loss | participation persistence |
+| response-margin-collapse | strict Part response margin loss | repaired Part closedness input / participation row |
 | packing-detached | pack gauge loss | pack-detachment endpoint reduction |
 | tower-blown | tower amplitude escape | tower readout and tower-bound row |
 | Jump | field coherence loss | field readout / field row |
 
-Cross entries reduce into these rows. If a first finite endpoint exists, endpoint exhaustiveness places it in one of the four rows, and the row discharge removes it. Hence the endpoint matrix gives contradiction.
+Cross entries reduce into these rows. If a first finite endpoint exists,
+endpoint exhaustiveness places it in one of the endpoint rows, and the row
+discharge removes it. Hence the endpoint matrix gives contradiction.
 
 ## 7. Conventional periodic manuscript proof
 
 The main proof can be written without route vocabulary as follows.
 
-Assume a finite maximal smooth endpoint `T_*`. By the terminal-tail uniformization theorem, the terminal tail has pointwise field and tower readouts on a finite cover. Endpoint exhaustiveness assigns any first endpoint to one of four endpoint faces. The endpoint matrix discharges all four faces. Hence the finite endpoint is impossible.
+Assume a finite maximal smooth endpoint `T_*`. By the terminal-tail
+uniformization theorem, the terminal tail has pointwise field and tower readouts
+on a finite cover and retains the Part response margins or closed terminal Part
+encoding. Endpoint exhaustiveness assigns any first endpoint to one of the
+endpoint faces. The endpoint matrix discharges those faces. Hence the finite
+endpoint is impossible.
 
 The tower bound gives, for some `s>5/2` and `N>s+2`,
 
