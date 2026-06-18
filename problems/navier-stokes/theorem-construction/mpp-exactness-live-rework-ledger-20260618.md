@@ -6313,6 +6313,9 @@ singularity.
 Surface edited:
 
 - `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`.
 
 ## Derivative-LP Paraproduct Split Wording Rework
 
