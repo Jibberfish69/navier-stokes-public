@@ -12,7 +12,7 @@ chunk:
   sequence: 139
   group_id: cm-audits-and-closure
   title: CM audits and closure 54
-  author_job: write CM audit material as class-exit proof payment, exact support,
+  author_job: write CM audit material as class-exit proof argument, exact support,
     or explicitly open continuation
   source_path: problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   source_span_mode: grouped_exact_source_refs
@@ -371,7 +371,7 @@ chunk:
 
       Entropy-type classes are not produced. Diffuse legal parentage can carry large branch entropy with no installed scale-normalized reserve controlling it.
 
-      The only produced class is B min; the only class with an immediate residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
+      The only produced class is B min; the only class with a direct residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
 
       For every fixed a>0, the limiting measure has no mass in s<-a, but it has positive terminal mass. This satisfies the no-earlier-selected-source shape while preserving terminal residue. so B min is too weak.
 
@@ -717,7 +717,7 @@ chunk:
 
     Entropy-type classes are not produced. Diffuse legal parentage can carry large branch entropy with no installed scale-normalized reserve controlling it.
 
-    The only produced class is B min; the only class with an immediate residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
+    The only produced class is B min; the only class with a direct residue Liouville proof is B time; the gap between them is precisely Temporal Non Atomic Source.A.
 
     For every fixed a>0, the limiting measure has no mass in s<-a, but it has positive terminal mass. This satisfies the no-earlier-selected-source shape while preserving terminal residue. so B min is too weak.
 
@@ -797,11 +797,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:56991
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -826,11 +826,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57030
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -855,11 +855,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57071
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -883,11 +883,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57108
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -912,11 +912,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57138
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -940,11 +940,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57185
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -969,11 +969,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57226
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -997,11 +997,11 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:57314
   endpoint_status: unset
-  reader_payments: []
+  reader_requirements: []
   math_reader_critic:
     claim_truth_attack: unset
     reader_thread_attack: unset
-    unpaid_derivation_attack: unset
+    open_derivation_attack: unset
     repair_decision: unset
     unresolved_failures: []
   rewrite_contract: replacement must preserve the subsection heading and write the
@@ -1022,7 +1022,7 @@ author_contract:
   must_criticize:
   - attack the strongest claim in the replacement
   - name the exact sentence where a reader could lose the thread
-  - name any unpaid derivation that remains, or say why it is paid on the page
+  - name any unpaid derivation that remains, or say why it is supplied on the page
   - record a repair decision before integration
   must_not_write:
   - raw note dump
@@ -1033,7 +1033,7 @@ author_contract:
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
@@ -1042,7 +1042,7 @@ math_containment_rule: no free-running theorem pursuit; math work may enter only
   a named source sentence in this chunk
 verification_plan:
   before_apply: replace every author_replacement_required body with final TeX and
-    fill repo_sources_used, endpoint_status, reader_payments, and math_reader_critic
+    fill repo_sources_used, endpoint_status, reader_requirements, and math_reader_critic
   apply_backend: ruby system/runner/bin/ns_source_spine_batch.rb --apply-pack problems/navier-stokes/submission-bundle/paper-arc-production-runs/2026-06-14-source-field-chunks/source-field-author-packets/source-field-cm-audits-and-closure-54.yaml
     --dry-run
   targeted_check: review only the changed source-field spans before any milestone
