@@ -1398,6 +1398,39 @@ Edited live surface:
 
 - `theorem-construction/collar-remainder-lower-order-estimate-result.md`.
 
+## Exact-Projection Resonant-Remainder Rework
+
+Old loose step:
+
+- `theorem-construction/weighted-exact-projection-resonant-shell-bilinear-theorem-candidate.md`
+  had a section titled "Why `(WEP.RR.5)` Should Follow From `(WEP.2')`" and
+  said order `-1` projector defects should demote the entire remainder packet.
+
+Exact replacement:
+
+The note now states the required shellwise defect estimate:
+
+```math
+\|R_{G,j}F_j\|_{L^2}
++\|[T_{p_G},a_{<j-C}]F_j\|_{L^2}
++\|[\Delta_j,\Pi_G^{ex}]F_j\|_{L^2}
+\le
+C_G2^{-j}\,\mathrm{Coef}_j(G,a)\,\|F_j\|_{L^2},
+\tag{WEP.RR.7a}
+```
+
+uniformly in the active shell and finite resonant offsets. Only after this is
+proved for each defect type may Cauchy--Schwarz / Young demote
+`\mathcal B_{G,j}^{rem}` to the same coefficient-bearing carrier.
+
+Downstream consequence: `(WEP.2')` is supporting evidence for the reserve
+branch, not a completed reduction to the pure resonant main term, until
+`(WEP.RR.7a)` is proved.
+
+Edited live surface:
+
+- `theorem-construction/weighted-exact-projection-resonant-shell-bilinear-theorem-candidate.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
