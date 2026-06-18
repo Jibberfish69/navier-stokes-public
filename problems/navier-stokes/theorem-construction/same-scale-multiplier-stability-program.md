@@ -142,7 +142,7 @@ Once `(SS)` is proved, both local debts close by finite summation.
 What is already honest on the current theorem surface is weaker than `(SS)` but
 stronger than “program only.” The model packet note
 [same-scale-edge-family-and-model-estimate-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-family-and-model-estimate-note.md)
-proves the coefficient-bearing model estimate
+proves the coefficient-bearing edge estimate
 
 ```math
 \int_0^T |\Pi_{N,a}^{edge}(t)|\,dt
@@ -194,8 +194,8 @@ antisymmetry.
 The exact family-lift step is now formalized in
 [same-scale-family-lift-lemma.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-family-lift-lemma.md):
 once the upper-boundary collar integral is written as an explicit finite
-same-scale edge family and the model packet estimate is available, the lift to
-`(UB)` and `(MS)` is a finite summation argument.
+same-scale edge family and the uniform edge-family hypothesis `(SS-model)` is
+available, the lift to `(UB)` and `(MS)` is a finite summation argument.
 
 ## Exact upper-boundary condition for `(SS)`
 
@@ -256,7 +256,7 @@ The dependency order is:
 
 1. write the global signed balance identity and isolate the upper-boundary
    integrand in frozen same-scale form;
-2. prove the weak model packet estimate `(SS^\sharp)` and record its weak lift to
+2. prove the weak coefficient-bearing edge estimate `(SS^\sharp)` and record its weak lift to
    `(UB^\sharp)` and `(MS^\sharp)`;
 3. include the same-scale coefficient term in the installed weighted carrier
    `\widetilde\Lambda_N^\sharp E_N`;
@@ -266,9 +266,9 @@ The dependency order is:
 
 The finite-family lift itself is now written out explicitly in
 [same-scale-family-lift-lemma.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-family-lift-lemma.md):
-once the upper boundary is written as a finite edge family and the model
-same-scale estimate is available uniformly, `(UB)` and `(MS)` follow by finite
-summation.
+once the upper boundary is written as a finite edge family and the uniform
+edge-family hypothesis `(SS-model)` is available, `(UB)` and `(MS)` follow by
+finite summation.
 
 So the route is
 
@@ -301,7 +301,7 @@ This note does **not** prove `(SS)`.
 What it settles is narrower and exact. The moving-spill debt is reduced to a
 finite edge family plus collar residual. The upper-boundary debt is reduced to
 the explicit algebraic task `(UB\text{-}fam)`, after which the same finite-family
-lift and coefficient-bearing model estimate apply. On the weighted spectral
+lift and coefficient-bearing edge estimate apply. On the weighted spectral
 route, the coefficient term is already part of the installed carrier; for a
 standalone coefficient-free packet theorem, the remaining stronger target is
 still `(SS)`.
