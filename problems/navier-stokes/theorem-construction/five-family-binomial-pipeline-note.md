@@ -2,8 +2,9 @@
 
 ## Purpose
 
-This note reruns the standard Navier--Stokes energy pipeline, but this time on
-the full derivative-family system instead of on the base equation alone.
+This note reruns the Navier--Stokes energy calculation through the displayed
+mixed-jet identities below, this time on the full derivative-family system
+instead of on the base equation alone.
 
 The point is:
 
@@ -198,9 +199,10 @@ This is the family-wide cancellation carrier.
 
 ## Run the same energy pipeline on the full system
 
-Take the `L_x^2` inner product of `(5)` with `J_{m,\alpha}`.
-
-The four standard pieces behave exactly as before.
+Take the `L_x^2` inner product of `(5)` with `J_{m,\alpha}`. The proof spends
+the following four displayed identities: the time derivative identity, pressure
+orthogonality from `(11)`, base-transport cancellation from
+`\nabla\cdot u=0`, and integration by parts for viscosity.
 
 ### 1. Time derivative gives jet energy
 
@@ -257,7 +259,7 @@ J_{m,\alpha}
 \tag{16}
 ```
 
-This is the full five-family version of the same pipeline.
+This is the full five-family version of the displayed energy calculation.
 
 ## What the pipeline gives you
 
@@ -337,8 +339,8 @@ So the family-wide statement is:
 
 ## What you get from the full system
 
-Running the full five-family derivative system through the standard NS energy
-pipeline gives one clean answer:
+Running the full five-family derivative system through the displayed energy
+identities gives one clean answer:
 
 ```math
 \boxed{
