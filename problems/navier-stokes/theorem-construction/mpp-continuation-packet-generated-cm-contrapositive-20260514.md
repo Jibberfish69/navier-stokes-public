@@ -40,9 +40,9 @@ The relevant installed readout is:
 - `mpp-six-positive-contrapositive-chunks-completion-20260506.md`.
 
 The clean continuation index is the classical `H^s(T^3)` index with `s>5/2`.
-The older `H^1` row remains a route-local continuation/reduction row, but this
-note uses the installed `H^s` continuation readout because it is the safer
-classical continuation packet.
+The older `H^1` row remains only an energy-level support/reduction row. This
+note uses the installed `H^s` continuation readout because it is the classical
+continuation packet.
 
 ## Continuation Packet
 
