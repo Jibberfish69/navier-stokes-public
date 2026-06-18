@@ -165,7 +165,24 @@ a\in\operatorname{supp}\psi,\ \eta\in\mathcal R_{\rho}^{ref}(t;\psi)
 
 ### Proof
 
-Immediate from `(PC.2)`--`(PC.7)`. ∎
+Let \(t\in I\). If
+\(\eta\in\mathcal R_{\rho}^{ref}(t;\psi)\), then `(PC.2)` gives
+\(|\eta|\le\Lambda_{\rho,\psi}^{ref}(I)\). Hence
+\(\eta\in\mathbb B_{\rho,\psi}^{ref}(I)\) by `(PC.3)`, and therefore
+\[
+X(a,t)+\eta\in\mathfrak B_{\rho,\psi}(t;I)
+\]
+by `(PC.4)` for every \(a\in\operatorname{supp}\psi\). Since
+\(\mathfrak B_{\rho,\psi}(t;I)\subset\mathfrak P_{\rho,\psi}(t)\) by
+`(PC.6)`, every such point has distance zero from
+\(\mathfrak P_{\rho,\psi}(t)\), and so belongs to
+\(\mathcal C_{\rho,\psi}^{\delta}(t)\) by `(PC.7)`.
+
+The same distance-zero argument applies to
+\(\mathfrak S_{\rho,\psi}(t)\): `(PC.6)` puts
+\(\mathfrak S_{\rho,\psi}(t)\) inside \(\mathfrak P_{\rho,\psi}(t)\), and
+then `(PC.7)` puts it inside the \(\delta\)-collar. These two inclusions are
+exactly `(PC.10)`. ∎
 
 ### Lemma PC.B (the direct segment envelope is dominated by the collar envelope)
 
