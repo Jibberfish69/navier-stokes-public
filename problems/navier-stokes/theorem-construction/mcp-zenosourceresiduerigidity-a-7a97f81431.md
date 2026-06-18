@@ -97,7 +97,7 @@ ZenoSourceResidueRigidity.A.
 
 ## Obstruction to an unconditional proof from installed inputs
 
-Finite positive Radon mass and `L^1_t` source control permit terminal concentration.  Model time densities
+The following `L^1_t` witness shows the terminal-concentration obstruction:
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
