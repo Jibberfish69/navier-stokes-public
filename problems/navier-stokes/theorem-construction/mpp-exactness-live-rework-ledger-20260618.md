@@ -6091,7 +6091,9 @@ Surfaces edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`;
 - `theorem-construction/mcp-whole-proof-skeleton-without-route-jargon-ecq-a-c1979dd73e.md`;
-- `theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md`.
+- `theorem-construction/mcp-single-final-conditional-averaged-route-theorem-avg-main-a-d000abfe2f.md`;
+- `theorem-construction/mcp-pctp-hard-averaged-route-reduction-and-aact-gap.md`;
+- `theorem-construction/mcp-terminal-route-compression-retained-conditional-theorem.md`.
 
 Downstream consequence:
 
