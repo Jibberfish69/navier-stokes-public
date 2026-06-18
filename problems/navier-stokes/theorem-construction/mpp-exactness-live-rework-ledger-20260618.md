@@ -6318,6 +6318,53 @@ Surfaces edited:
 - `theorem-construction/mpp-localpositivesourcecarleson-completion-attempt-20260517.md`;
 - `theorem-construction/tps-strong-bridge-sg-lemma-family.md`.
 
+## TPS Selector Reduction Wording Rework
+
+Old claim being spent:
+
+TPS selector surfaces used "it is enough" / "suffices" language around the
+angular-good feed, sign-compatible projector recovery, bootstrap controls, gap
+sublemmas, and sector-transfer packets.
+
+Exact replacement:
+
+The edited surfaces now name the required inputs directly:
+
+- the coarse-flow route requires an angular-good sub-arc on which
+  `lambda_{2,J}^+` contributes positively to the logarithmic pair-strain
+  identity;
+- the exact-potential simple-top branch has two inputs: recover a
+  sign-compatible rank-one projector from `W_J`, then compare it with the top
+  strain projector;
+- the bootstrap packet requires the four listed controls
+  `a_J^{lin}`, `a_J^{quad}`, `Theta_J^{comm}`, and the threshold `(D.7mm3)`;
+- closure of `(E.7)` is the three-sublemma decomposition with the displayed
+  vanishing error ledger;
+- the entrance-sector packet requires the coercive density
+  `underline d_j^{ent}>0`;
+- the sector-transfer packet requires constants `theta_diag>0` and
+  `C_loc<infty`;
+- TPS theorem titles now use implication language instead of "suffices."
+
+Proof or remaining burden:
+
+The reductions still depend on the named TPS sublemmas and transfer estimates.
+The edit removes proof-force shortcut wording and preserves the exact hypotheses
+that downstream surfaces may spend.
+
+Downstream consequence:
+
+The TPS selector branch no longer treats "enough/suffices" language as a proof
+step; downstream references must spend the named projector, bootstrap,
+gap-decomposition, or sector-transfer input.
+
+Surfaces edited:
+
+- `theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md`;
+- `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`;
+- `theorem-construction/transported-phase-space-selector-theorem-candidate.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
 ## Friedrichs Energy Identity And Appendix Same-Identity Rework
 
 Old claim being spent:
