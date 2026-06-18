@@ -1,0 +1,184 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{formal-environments}[2026/06/18 Generic formal environment template layer]
+
+\RequirePackage{amsthm}
+\RequirePackage{etoolbox}
+\RequirePackage{xparse}
+\RequirePackage{titlecaps}
+\RequirePackage[nameinlink,capitalise,noabbrev]{cleveref}
+
+% Stripped from monograph-V6/preamble/theoremstyle.tex:
+% formal environment blocks, printed names, optional-title casing,
+% section/subsection-aware numbering, and cref/Sref display conventions only.
+% This file deliberately omits V6 label wrappers, tooltip capture, named-ref
+% helpers, glossary/index machinery, and environment body rewriting.
+
+% Optional formal-environment titles use title case while preserving short
+% joining words.
+\Addlcwords{a an and as at but by for from in nor of on or per the to via with}
+\newcommand{\FormalEnvTitle}[1]{\titlecap{#1}}
+
+% If subsection==0: <Section>.(<Item>)
+% Else:              <Section>.<Subsection>.(<Item>)
+\makeatletter
+\newcommand{\FormalEnvNumber}[1]{%
+  \ifnum\value{subsection}=0
+    \thesection.(\arabic{#1})%
+  \else
+    \thesection.\arabic{subsection}.(\arabic{#1})%
+  \fi}
+\newcommand{\FormalEnvHyperNumber}[1]{%
+  \ifnum\value{subsection}=0
+    \number\value{part}.\number\value{section}.\number\value{#1}%
+  \else
+    \number\value{part}.\number\value{section}.\number\value{subsection}.\number\value{#1}%
+  \fi}
+\makeatother
+
+\newcommand{\BindFormalEnvNumbering}[1]{%
+  \expandafter\renewcommand\csname the#1\endcsname{\FormalEnvNumber{#1}}%
+  \expandafter\renewcommand\csname theH#1\endcsname{\FormalEnvHyperNumber{#1}}%
+}
+
+% Spacing policy for formal blocks.
+\newlength\FormalEnvPreSkipBase
+\setlength{\FormalEnvPreSkipBase}{1\baselineskip}
+\newlength\FormalEnvPostSkipBase
+\setlength{\FormalEnvPostSkipBase}{1\baselineskip}
+\newlength\FormalEnvNestDelta
+\setlength{\FormalEnvNestDelta}{1\baselineskip}
+\newlength\FormalEnvPreSkipList
+\setlength{\FormalEnvPreSkipList}{\dimexpr\FormalEnvPreSkipBase-\FormalEnvNestDelta\relax}
+\newlength\FormalEnvPostSkipList
+\setlength{\FormalEnvPostSkipList}{\dimexpr\FormalEnvPostSkipBase-\FormalEnvNestDelta\relax}
+
+\makeatletter
+\newcommand{\FormalEnvAddPreVspace}{%
+  \ifnum\@listdepth>0 \addvspace{\FormalEnvPreSkipList}\else \addvspace{\FormalEnvPreSkipBase}\fi}
+\newcommand{\FormalEnvAddPostVspace}{%
+  \ifnum\@listdepth>0 \addvspace{\FormalEnvPostSkipList}\else \addvspace{\FormalEnvPostSkipBase}\fi}
+\newcommand{\FormalEnvFirstParaNoIndent}{%
+  \@afterindentfalse\@afterheading}
+\makeatother
+
+\newcommand{\ApplyFormalEnvSpacing}[1]{%
+  \forcsvlist{\DeclareOneFormalEnvSpacing}{#1}}
+\newcommand{\DeclareOneFormalEnvSpacing}[1]{%
+  \AtBeginEnvironment{#1}{\par\FormalEnvAddPreVspace\FormalEnvFirstParaNoIndent}%
+  \AfterEndEnvironment{#1}{\par\FormalEnvAddPostVspace}}
+
+% Remark keeps the V6 unnumbered, proof-like lead-in convention.
+\NewDocumentEnvironment{remark}{o}{%
+  \par\noindent\textbf{\textit{Remark%
+    \IfNoValueTF{#1}{}{ (\FormalEnvTitle{#1})}%
+  :}}\hspace{1em}\ignorespaces
+}{%
+  \par
+}
+
+\newtheoremstyle{formalenv}
+  {0pt}
+  {0pt}
+  {\normalfont}
+  {0pt}
+  {}
+  {}
+  {0pt}
+  {\thmname{#1}~\thmnumber{#2}%
+   \thmnote{ -- \textit{\FormalEnvTitle{#3}} -- }%
+   \par\nobreak\vspace{0\baselineskip}\noindent\hspace*{0em}}
+
+\theoremstyle{formalenv}
+
+\newtheorem{definition}{Definition}[section]
+\makeatletter\@addtoreset{definition}{subsection}\makeatother
+\BindFormalEnvNumbering{definition}
+
+\newtheorem{notationenv}{Notation}[section]
+\makeatletter\@addtoreset{notationenv}{subsection}\makeatother
+\BindFormalEnvNumbering{notationenv}
+
+\newtheorem{theorem}{Theorem}[section]
+\makeatletter\@addtoreset{theorem}{subsection}\makeatother
+\BindFormalEnvNumbering{theorem}
+
+\newtheorem{lemma}{Lemma}[section]
+\makeatletter\@addtoreset{lemma}{subsection}\makeatother
+\BindFormalEnvNumbering{lemma}
+
+\newtheorem{corollary}{Corollary}[section]
+\makeatletter\@addtoreset{corollary}{subsection}\makeatother
+\BindFormalEnvNumbering{corollary}
+
+\newtheorem{axiom}{Axiom}[section]
+\makeatletter\@addtoreset{axiom}{subsection}\makeatother
+\BindFormalEnvNumbering{axiom}
+
+\newtheorem{conjecture}{Conjecture}[section]
+\makeatletter\@addtoreset{conjecture}{subsection}\makeatother
+\BindFormalEnvNumbering{conjecture}
+
+\newtheorem{assumption}{Assumption}[section]
+\makeatletter\@addtoreset{assumption}{subsection}\makeatother
+\BindFormalEnvNumbering{assumption}
+
+\newtheorem{proposition}{Proposition}[section]
+\makeatletter\@addtoreset{proposition}{subsection}\makeatother
+\BindFormalEnvNumbering{proposition}
+
+\newtheorem{principle}{Principle}[section]
+\makeatletter\@addtoreset{principle}{subsection}\makeatother
+\BindFormalEnvNumbering{principle}
+
+\newtheorem{example}{Example}[section]
+\makeatletter\@addtoreset{example}{subsection}\makeatother
+\BindFormalEnvNumbering{example}
+
+\ApplyFormalEnvSpacing{theorem,axiom,principle,definition,assumption,lemma,proposition,corollary,conjecture,notationenv,example,proof,remark}
+
+\makeatletter
+\newcommand{\DeclareFormalEnvCref}[2]{%
+  \crefname{#1}{#2}{#2}%
+  \Crefname{#1}{#2}{#2}%
+  \crefformat{#1}{##2#2.##1##3}%
+  \Crefformat{#1}{##2#2.##1##3}%
+}
+\newcommand{\SetupFormalEnvCrefNames}{%
+  \DeclareFormalEnvCref{definition}{Def}%
+  \DeclareFormalEnvCref{notationenv}{Not}%
+  \DeclareFormalEnvCref{theorem}{Thm}%
+  \DeclareFormalEnvCref{lemma}{Lem}%
+  \DeclareFormalEnvCref{corollary}{Cor}%
+  \DeclareFormalEnvCref{axiom}{Ax}%
+  \DeclareFormalEnvCref{assumption}{As}%
+  \DeclareFormalEnvCref{proposition}{Prop}%
+  \DeclareFormalEnvCref{principle}{Prin}%
+  \DeclareFormalEnvCref{conjecture}{Conj}%
+  \DeclareFormalEnvCref{example}{Ex}%
+  \crefname{part}{Volume}{Volumes}%
+  \Crefname{part}{Volume}{Volumes}%
+  \crefname{section}{\S}{\S}%
+  \Crefname{section}{\S}{\S}%
+  \crefformat{section}{##2\S\,##1##3}%
+  \Crefformat{section}{##2\S\,##1##3}%
+  \crefname{subsection}{\S}{\S}%
+  \Crefname{subsection}{\S}{\S}%
+  \crefformat{subsection}{##2\S\,##1##3}%
+  \Crefformat{subsection}{##2\S\,##1##3}%
+  \crefname{subsubsection}{\S}{\S}%
+  \Crefname{subsubsection}{\S}{\S}%
+  \crefformat{subsubsection}{##2\S\,##1##3}%
+  \Crefformat{subsubsection}{##2\S\,##1##3}%
+}
+\AtBeginDocument{\SetupFormalEnvCrefNames}
+\makeatother
+
+\makeatletter
+\newcommand{\Sref}[1]{%
+  \@ifpackageloaded{hyperref}{%
+    \hyperref[#1]{\S\ref*{#1}}%
+  }{%
+    \S\ref{#1}%
+  }%
+}
+\makeatother
