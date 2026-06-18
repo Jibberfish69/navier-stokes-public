@@ -16,7 +16,7 @@ Prove:
 \boxed{TransportedCylinderNoFlux_{B_{ASAC}}.A}
 ```
 
-Representative form:
+One sufficient target form:
 
 ```math
 \lim_{R\to\infty}\limsup_{s_0\to-\infty}

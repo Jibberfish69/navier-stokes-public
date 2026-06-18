@@ -111,7 +111,9 @@ and, for any fixed `\varepsilon>0`, all mass lies in `[-\varepsilon,0]` for larg
 
 The ASAC defect measure is the paid active-alignment / pair-weight channel. Its vanishing removes that paid leakage. The native positive source measure remains independent of that paid defect in the produced equality class.
 
-A terminal strip source marginal can carry order-one native positive mass with zero ASAC-paid defect. Hence `ASACDefectMeasure.A` supplies exit classification and no terminal-strip modulus.
+A terminal strip source marginal can carry native positive mass bounded below by
+`M_0>0` with zero ASAC-paid defect. Hence `ASACDefectMeasure.A` supplies exit
+classification and no terminal-strip modulus.
 
 ## Direct attempt 3: no earlier selected source slice
 

@@ -18,7 +18,7 @@ QuantizedParentCharge.A
 MinimalBadAncestryCompactness.A.
 ```
 
-A successful theorem would generate a finite or quantized obstruction to the infinite same-fluid terminal refill ancestry in `B_ASAC^closed,min`.
+A successful theorem must generate a finite or quantized obstruction to the infinite same-fluid terminal refill ancestry in `B_ASAC^closed,min`.
 
 ## Direct tests already completed
 

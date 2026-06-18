@@ -76,9 +76,9 @@ For every bounded selector size `B`,
 \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le {B\over M}\to0,
 ```
 
-while the total parent mass remains order one. `B_ASAC` adds zero ASAC defect
-and removes named exits, but it does not add a square/Carleson reserve that
-dominates this diffuse parent measure.
+while the total parent mass is \(\pi_P(\mathsf{Pred}(P))=1\). `B_ASAC` adds
+zero ASAC defect and removes named exits, but it does not add a
+square/Carleson reserve that dominates this diffuse parent measure.
 
 ## Attempt 3: no finite or non-Zeno donor-refill exit
 

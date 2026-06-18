@@ -62,7 +62,11 @@ For every `p>1`,
 
 Thus finite `L^1_s` source control gives no terminal anti-atom theorem.
 
-Diffuse legal parent clouds give the parallel branch-complexity obstruction: linear positive source can remain order one while available quadratic charges scale like `M^{-1}` and bounded selectors capture at most `B/M`.
+Diffuse legal parent clouds give the parallel branch-complexity obstruction:
+with \(M\) equal parents of mass \(M^{-1}\), the linear positive source mass is
+\(\sum_{\alpha=1}^M M^{-1}=1\), the available quadratic charge is
+\(\sum_{\alpha=1}^M M^{-2}=M^{-1}\), and every bounded selector captures at
+most \(B/M\).
 
 ## Conditional closures already obtained
 

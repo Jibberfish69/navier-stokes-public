@@ -53,7 +53,7 @@ Thus the ASAC equality has the wrong geometry for the target flux theorem.
 
 ## Attempt 4: Time-face anti-atom from lateral no-flux
 
-Even a pure lateral no-flux theorem would still need a terminal time-face clause for the native source measure. A terminal source atom can sit on `s=0` after all fixed negative-time source slices vanish. Spatial no-flux alone does not supply temporal anti-concentration.
+Even a pure lateral no-flux theorem still needs a terminal time-face clause for the native source measure. A terminal source atom can sit on `s=0` after all fixed negative-time source slices vanish. Spatial no-flux alone does not supply temporal anti-concentration.
 
 The useful theorem therefore has to combine:
 

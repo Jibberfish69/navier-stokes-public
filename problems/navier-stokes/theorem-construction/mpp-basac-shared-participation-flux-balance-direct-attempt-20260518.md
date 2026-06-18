@@ -72,7 +72,7 @@ on retained packets.
 
 ## Attempt
 
-The desired proof would treat `\mu^{src,+}` as the positive part of a conserved
+The desired proof must treat `\mu^{src,+}` as the positive part of a conserved
 transported participation current. One would integrate a continuity law on the
 transported packet region and estimate the interior residence by the finite
 CM envelope, leaving only incoming boundary flux.

@@ -29,7 +29,7 @@ The refined quantization candidate is
 ZenoAncestryQuantization.A.
 ```
 
-A useful form would assign a monotone resource `Q` to same-fluid Zeno ancestry such that every positive refill edge spends at least `eta>0`.
+A useful candidate form assigns a monotone resource `Q` to same-fluid Zeno ancestry such that every positive refill edge spends at least `eta>0`.
 
 The direct tests fail from installed inputs:
 

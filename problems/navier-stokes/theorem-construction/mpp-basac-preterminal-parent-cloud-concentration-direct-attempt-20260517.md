@@ -30,9 +30,13 @@ B_{ASAC}PreterminalParentTightness.A.
 
 ## Attempt 1: Pigeonhole the terminal source mass
 
-Order-one terminal source charge gives order-one total source mass in shrinking terminal layers. A pigeonhole argument can select a time layer where the density is large. The selected layer may still lie in `(-\epsilon_m,0]` with `\epsilon_m\downarrow0`.
+Terminal source charge bounded below by `M_0>0` gives total source mass at
+least `M_0` in shrinking terminal layers. A pigeonhole argument can select a
+time layer where the density is large. The selected layer may still lie in
+`(-\epsilon_m,0]` with `\epsilon_m\downarrow0`.
 
-The desired conclusion needs a fixed preterminal gap `a>0`. Total mass alone gives no such gap. The terminal model
+The desired conclusion needs a fixed preterminal gap `a>0`. Total mass alone
+gives no such gap. The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
@@ -42,14 +46,17 @@ concentrates all mass inside a vanishing time layer, so every fixed `[-1,-a]` re
 
 ## Attempt 2: Compactness of selected parent families
 
-A selected-parent compactness proof would need a threshold forcing one bounded selected family from the diffuse cloud. The obstruction is a cloud of many near-terminal legal pieces whose individual selected weights vanish while the total source charge remains order one.
+A selected-parent compactness proof would need a threshold forcing one bounded
+selected family from the diffuse cloud. The obstruction is a cloud of many
+near-terminal legal pieces whose individual selected weights vanish while the
+total source charge remains bounded below by `M_0>0`.
 
 The branch can satisfy:
 
 ```text
 no bounded selected family with fixed mass,
 infinitely many legal near-terminal pieces,
-total native source mass of order one,
+total native source mass bounded below by `M_0>0`,
 heat-time support shrinking to zero.
 ```
 
@@ -74,7 +81,7 @@ A diffuse terminal Zeno cloud can carry zero ASAC defect after the ASAC-paid lea
 A valid proof requires a quantitative concentration principle:
 
 ```text
-order-one terminal native source charge
+terminal native source charge bounded below by `M_0>0`
 => fixed preterminal selected same-fluid parent mass
 ```
 

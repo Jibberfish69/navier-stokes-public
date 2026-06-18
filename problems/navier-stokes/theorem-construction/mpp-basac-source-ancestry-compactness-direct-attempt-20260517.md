@@ -97,7 +97,7 @@ Proof of the second implication: source ancestry compactness converts terminal c
 
 ## Direct attempt 1: compactness of the source marginal
 
-The local Radon compactness of the positive source measures gives subsequential weak-star limits on compact cylinders. It allows a time marginal with an atom at heat-time zero. The scalar model
+The local Radon compactness of the positive source measures gives subsequential weak-star limits on compact cylinders. It allows a time marginal with an atom at heat-time zero. The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
@@ -109,14 +109,14 @@ Thus local finite source mass gives compactness of measures, while the desired t
 
 ## Direct attempt 2: bounded parent selection
 
-A terminal source charge may have diffuse legal same-fluid parentage. The parent measure model
+A terminal source charge may have diffuse legal same-fluid parentage. The exact parent measure family
 
 ```math
 \pi_m={1\over M_m}\sum_{\alpha=1}^{M_m}\delta_{P^-_{m,\alpha}},
 \qquad M_m\to\infty,
 ```
 
-has order-one total parent charge. Every bounded selected parent subfamily captures at most `B/M_m` of the mass.
+has total parent charge one. Every bounded selected parent subfamily captures at most `B/M_m` of the mass.
 
 The `B_ASAC` clauses remove finite and non-Zeno donor-refill exits. They still permit a terminal Zeno cloud with unbounded legal branching and no bounded parent selector. A bounded-parent compactness conclusion therefore needs a new branch-entropy charge, a scale-critical source reserve, or temporal anti-concentration.
 
@@ -227,7 +227,7 @@ finite or non-Zeno donor-refill exit,
 nonzero ASAC-paid defect measure.
 ```
 
-Since `B_ASAC` excludes these alternatives by construction, this theorem would imply:
+Since `B_ASAC` excludes these alternatives by construction, this theorem implies:
 
 ```math
 ZenoResidueLiouville_{B_{ASAC}}.A
@@ -300,7 +300,7 @@ A stronger selection argument would try to pass from nonzero terminal mass to a 
 ```text
 many near-terminal legal source pieces,
 each below the selected-parent threshold,
-total mass of order one,
+total mass bounded below by `M_0>0`,
 heat-time support shrinking to zero,
 no stable bounded selected subfamily at fixed negative time.
 ```
@@ -320,7 +320,7 @@ source-ancestry compactness needs a quantitative concentration-or-selection theo
 The parent-cloud compactness needed here is temporal and genealogical:
 
 ```text
-prevent order-one native source mass from remaining inside arbitrarily thin terminal heat layers while avoiding selected preterminal parents.
+prevent native source mass bounded below by `M_0>0` from remaining inside arbitrarily thin terminal heat layers while avoiding selected preterminal parents.
 ```
 
 Zero ASAC defect supplies no modulus for terminal heat-time thickness, parent-cloud cardinality, or transported-boundary influx. The scalar terminal atom model remains compatible with zero ASAC defect after the paid angular leakage is removed.
@@ -492,7 +492,10 @@ For every fixed selector size `B`,
 \le {B\over M_m}\to0.
 ```
 
-For every fixed `a>0`, the cloud eventually has no mass in `(-\infty,-a]`. Thus first-pulse minimality and bounded parent selection see no stable earlier selected parent, while the total terminal source mass remains order one.
+For every fixed `a>0`, the cloud eventually has no mass in `(-\infty,-a]`.
+Thus first-pulse minimality and bounded parent selection see no stable earlier
+selected parent, while the total terminal source mass remains bounded below by
+`M_0>0`.
 
 So bounded parent extraction fails.
 
@@ -506,13 +509,24 @@ So paid-exit exclusion and zero ASAC defect fail to produce source-ancestry comp
 
 ## Attempt 3: residual-square or entropy charge
 
-The older source-parent compactness audits isolate the same obstruction. Legal diffuse parentage may have order-one positive source mass and arbitrarily small quadratic donor/residual charge. In the model
+The older source-parent compactness audits isolate the same obstruction. Legal
+diffuse parentage may have positive source mass bounded below by `M_0>0` and
+arbitrarily small quadratic donor/residual charge. In the exact parent
+distribution
 
 ```math
-\pi_m={1\over M_m}\sum_{lpha=1}^{M_m}\delta_{P^-_{m,lpha}},
+\pi_m={1\over M_m}\sum_{\alpha=1}^{M_m}\delta_{P^-_{m,\alpha}},
 ```
 
-linear positive source stays order one, while quadratic charges scale like `M_m^{-1}`. Parent entropy `\log M_m` has no installed route ledger with positive coefficient.
+the normalized linear parent mass is
+```math
+\sum_{\alpha=1}^{M_m}M_m^{-1}=1,
+```
+and the quadratic donor/residual charge is
+```math
+\sum_{\alpha=1}^{M_m}M_m^{-2}=M_m^{-1}.
+```
+Parent entropy `\log M_m` has no installed route ledger with positive coefficient.
 
 Thus the installed energy, local-energy, pressure/cutoff, residual-square, same-fluid, and ASAC ledgers supply no finite charge for legal branching complexity.
 
@@ -548,7 +562,7 @@ The exact surviving obstruction is:
 
 ```math
 \boxed{
-\text{a legal same-fluid terminal Zeno parent cloud can carry order-one terminal source mass, spread across arbitrarily many predecessors, with zero ASAC defect and no bounded earlier selected slice.}
+\text{a legal same-fluid terminal Zeno parent cloud can carry fixed positive terminal source mass, spread across arbitrarily many predecessors, with zero ASAC defect and no bounded earlier selected slice.}
 }
 ```
 
@@ -566,7 +580,7 @@ Statement:
 Any nonzero diffuse terminal legal same-fluid parent cloud in B_ASAC carries a nonzero incoming transported-cylinder source flux for the B_ASAC tangent class.
 ```
 
-Then the no-flux reduction is immediate:
+Then the no-flux reduction is exactly:
 
 ```math
 BASACDiffuseParentFluxLocalization.A

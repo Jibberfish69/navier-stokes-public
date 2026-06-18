@@ -35,7 +35,7 @@ BASACLocalEnergyTraceNoPositiveJump.A.
 
 Desired effect: local energy traces would forbid a positive terminal source jump at `s=0`.
 
-Collapse: the local energy inequality allows terminal trace measures under finite `L^1_s` source input. A positive source measure concentrated in `[-1/m,0]` can converge to a terminal trace contribution. A no-positive-jump theorem would require the same missing terminal anti-atom or a super-`L^1_s` source residence estimate.
+Collapse: the local energy inequality allows terminal trace measures under finite `L^1_s` source input. A positive source measure concentrated in `[-1/m,0]` can converge to a terminal trace contribution. A no-positive-jump theorem requires the same missing terminal anti-atom or a super-`L^1_s` source residence estimate.
 
 ## Candidate 2: pressure carrier trace / elliptic time smearing
 

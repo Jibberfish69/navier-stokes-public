@@ -70,8 +70,9 @@ CoeffStop.A
 
 That package does not close this theorem-grade May 17 residue. The May 5
 correction identifies the failing step: `FirstPulseKill.A` does not control
-diffuse legal source-parent ancestry. A parent cloud can carry order-one total
-source charge while every bounded selected parent subfamily has vanishing mass.
+diffuse legal source-parent ancestry. A parent cloud can carry total source
+charge bounded below by `M_0>0` while every bounded selected parent subfamily has
+vanishing mass.
 
 `B_ASAC` removes named legal exits, finite donor trees, non-Zeno refill, and
 ASAC-paid defect leakage. It does not upgrade the diffuse terminal Zeno parent
@@ -154,7 +155,7 @@ fixed negative-time selected source parent or produce a legal/donor/ASAC exit.
 ```
 
 With that compactness theorem, `BASACNoIncomingSourceDrain.A` follows
-immediately. Since `B_ASAC` excludes the resulting alternatives, this would
+directly. Since `B_ASAC` excludes the resulting alternatives, this would
 prove `ZenoResidueLiouville_{B_ASAC}.A`.
 
 An equivalent sufficient form is:

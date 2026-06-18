@@ -22,7 +22,7 @@ where `B_ASAC^RH(p)` is the subclass with local uniform source residence
 \left\|\,\|F_m^{src,+}(s,\cdot)\|_{\mathcal M(B_R)}\,\right\|_{L^p_s((-1,0))}\le C_R.
 ```
 
-By `BASACReverseHolderRigidSubclassLiouville.A`, this would imply the desired residue Liouville statement for the produced class.
+By `BASACReverseHolderRigidSubclassLiouville.A`, this implies the desired residue Liouville statement for the produced class.
 
 Equivalent production targets are:
 
@@ -103,7 +103,7 @@ selected-parent ancestry is weaker than source-time anti-concentration.
 
 ## Attempt 4: use transported-cylinder no-incoming flux
 
-A class-specific transported no-flux theorem would close the production route by preventing source mass from entering through the frozen-strain transported boundary.
+A class-specific transported no-flux theorem closes the production route by preventing source mass from entering through the frozen-strain transported boundary.
 
 The existing direct attempts on `NoIncomingFlux_global.A` and `TransportedCylinderNoFlux.A` identify the missing estimate: first-pulse ancestry controls selected positive source parents, while full transported no-flux must control kinetic energy, pressure energy, and nonselected packet flux through incoming far-field channels.
 

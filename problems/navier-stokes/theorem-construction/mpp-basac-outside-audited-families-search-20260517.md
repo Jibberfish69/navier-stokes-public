@@ -20,7 +20,7 @@ for the surviving class
 B_{ASAC}^{closed}.
 ```
 
-The persistent terminal model is
+The persistent endpoint time-marginal witness is
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.
@@ -28,7 +28,7 @@ g_m(s)=m\,1_{(-1/m,0]}(s)\rightharpoonup\delta_{s=0}.
 
 ## Candidate 1: parabolic capacity exclusion
 
-A possible theorem would say that the native positive source measure cannot charge a terminal time slice because the time face has zero admissible parabolic capacity for the produced class.
+The candidate theorem says that the native positive source measure cannot charge a terminal time slice because the time face has zero admissible parabolic capacity for the produced class.
 
 The available data are finite local source mass and local suitable compactness. A finite Radon measure can charge a time slice. Current `B_ASAC` production gives no capacity estimate with density vanishing on `s=0`.
 
@@ -48,13 +48,13 @@ Therefore heat smoothing supplies no time-face anti-atom estimate under current 
 
 ## Candidate 4: backward uniqueness / unique continuation
 
-A backward uniqueness theorem would need a rigid PDE class, decay, or vanishing on an open time interval. `B_ASAC^closed` carries a terminal measure residue with no produced super-`L^1_s` residence and no generated rigid ancient class.
+A backward uniqueness theorem requires a rigid PDE class, decay, or vanishing on an open time interval. `B_ASAC^closed` carries a terminal measure residue with no produced super-`L^1_s` residence and no generated rigid ancient class.
 
 Thus unique continuation remains conditional on a new production theorem.
 
 ## Candidate 5: frequency monotonicity
 
-A frequency or Almgren-type monotonicity route would need a monotone quantity controlling the native positive source carrier. The installed route has energy, pressure, ASAC, and local source ledgers, while the one-sided positive source carrier lacks a monotone frequency functional.
+A frequency or Almgren-type monotonicity route requires a monotone quantity controlling the native positive source carrier. The installed route has energy, pressure, ASAC, and local source ledgers, while the one-sided positive source carrier lacks a monotone frequency functional.
 
 This route adds no installed closure theorem.
 
@@ -66,7 +66,31 @@ Div-curl and compensated compactness tools can exploit signed cancellation. The 
 |w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+.
 ```
 
-Positive selection removes the cancellation needed for the standard compensated compactness route. A theorem strong enough to restore it is exactly positive source carrier depletion.
+The signed product route requires cancellation for
+
+```math
+|w_j|^2\,e_j\cdot S_{<j}^{loc}e_j,
+```
+
+or weak convergence of that signed product against test functions.  The selected
+carrier instead asks for the one-sided quantity
+
+```math
+\int \phi\,|w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+,
+```
+
+and the negative part has been discarded before the terminal selection.  Thus a
+div-curl or compensated-compactness limit for the signed product does not imply
+the needed bound
+
+```math
+\limsup_j\int \phi\,|w_j|^2[e_j\cdot S_{<j}^{loc}e_j]_+
+\le
+\mathrm{Legal}+o(1).
+```
+
+A theorem sufficient to supply that one-sided bound is exactly positive
+source carrier depletion.
 
 ## Verdict
 

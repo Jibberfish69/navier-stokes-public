@@ -93,7 +93,7 @@ unless the argument proves a new quantitative terminal-thickness estimate.
 
 ## Energy and local energy test
 
-The standard local energy layer gives finite local source mass and soft
+The local energy inequality gives finite local source mass and soft
 space-time integrability. It does not dominate the native positive source
 measure:
 

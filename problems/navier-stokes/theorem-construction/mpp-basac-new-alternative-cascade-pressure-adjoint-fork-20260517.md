@@ -125,7 +125,7 @@ or
 \boxed{PurePressureSustainResidueLiouville.A.}
 ```
 
-Either fork would need new theorem content beyond the current `B_ASAC` equality-class production.
+Either fork requires new theorem content beyond the current `B_ASAC` equality-class production.
 
 ## Verdict
 

@@ -63,7 +63,11 @@ which has unit `L^1_s` mass, no fixed preterminal residence, and weak limit a no
 \|g_m\|_{L^p(-1,0)}=m^{1-1/p}\to\infty.
 ```
 
-Diffuse legal parent clouds give the parallel source-tree obstruction: a legal same-fluid parent cloud can split total positive source into many small parents, so bounded selectors and quadratic branch charges see `M^{-1}` while the linear source remains order one.
+Diffuse legal parent clouds give the parallel source-tree obstruction: a legal
+same-fluid parent cloud can split total positive source into many small parents,
+so bounded selectors capture at most \(B/M\), quadratic branch charge is
+\(\sum_{\alpha=1}^{M}M^{-2}=M^{-1}\), and the normalized linear source mass is
+\(\sum_{\alpha=1}^{M}M^{-1}=1\).
 
 ## What is closed
 

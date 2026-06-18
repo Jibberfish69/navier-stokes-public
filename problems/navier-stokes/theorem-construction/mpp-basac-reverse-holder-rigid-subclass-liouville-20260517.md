@@ -119,7 +119,7 @@ B_{ASAC}\Longrightarrow B_{ASAC}^{RH}(p)
 }
 ```
 
-The prior `TerminalSourceReverseHolder_{B_ASAC}.A` direct attempt shows that the current `B_ASAC` clauses do not produce this upgrade from installed ASAC, legal, donor, first-pulse, or local `L^1_t` source ledgers. The scalar terminal model
+The prior `TerminalSourceReverseHolder_{B_ASAC}.A` direct attempt shows that the current `B_ASAC` clauses do not produce this upgrade from installed ASAC, legal, donor, first-pulse, or local `L^1_t` source ledgers. The scalar endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)

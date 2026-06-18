@@ -24,7 +24,7 @@ The desired residue theorem is
 \mu_*^{press-sus}\ll \mu_*^{src}+\mu_*^{legal,src}.
 ```
 
-It would convert positive pressure-sustain residue into native source residue or legal source residue.
+It converts positive pressure-sustain residue into native source residue or legal source residue if the displayed absolute-continuity relation is proved.
 
 The direct route fails because pressure Poisson and Calderon-Zygmund structure place pressure sustain on a quadratic-gradient carrier. The native source-current carrier has same-fluid ancestry, donor/refill structure, and one-sided terminal source selection. The current route lacks a theorem dominating the pressure quadratic carrier by the native source carrier.
 

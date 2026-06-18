@@ -87,7 +87,7 @@ Global no-incoming flux would need an exhaustion estimate, for example finite gl
 \lim_{R\to\infty}Flux_{\partial Q_R^\Phi}=0.
 ```
 
-The extraction does not provide this. Under parabolic rescaling, original global energy can scale like `r_m^{-1}` and hence fails to produce finite global ancient energy for the tangent object.
+The extraction does not provide this. Under \(u_m(y,s)=r_m u(x_m+r_my,t_m+r_m^2s)\), the rescaled global energy is \(r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2\), so the extraction fails to produce finite global ancient energy for the tangent object.
 
 ## Attempt 6: first-pulse no-earlier-slice gives backward flux exclusion
 

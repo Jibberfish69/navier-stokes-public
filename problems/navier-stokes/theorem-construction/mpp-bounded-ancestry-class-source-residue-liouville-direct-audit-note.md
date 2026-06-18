@@ -91,7 +91,7 @@ class `\mathcal B`.
 ## Attempt 3: Use Classical Criteria As The Rigid Class
 
 BKM, Prodi-Serrin, critical regularity, Type I, and smallness criteria are
-valid consumers.  They would exclude the source-pulse branch if they were
+valid consumers.  They exclude the source-pulse branch only after the corresponding bound is
 proved on the terminal ancestry limit.  The installed original-data package
 does not supply those bounds on the selected active bad windows or on the
 rescaled ancient limit.
@@ -131,4 +131,3 @@ BoundedAncestryClass.A
 SourceResidueLiouville.A.
 }
 ```
-

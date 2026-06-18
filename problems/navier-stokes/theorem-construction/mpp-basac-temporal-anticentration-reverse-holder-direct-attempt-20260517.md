@@ -45,15 +45,20 @@ The source ledger gives local finite source mass:
 
 ## Attempt 1: Layer shrinkage from finite mass
 
-Finite source mass controls total mass on `[-1,0]`. It gives no uniform exponent for the last `\delta` units of heat time. A sequence can place order-one mass in a terminal layer whose thickness tends to zero while preserving the same total mass bound.
+Finite source mass controls total mass on `[-1,0]`. It gives no uniform
+exponent for the last `\delta` units of heat time. A sequence can place mass
+bounded below by `M_0>0` in a terminal layer whose thickness tends to zero while
+preserving the same total mass bound.
 
-The model
+The endpoint time-marginal witness
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
 ```
 
-has unit `L^1_s` mass and order-one terminal layer mass for `\delta\ge 1/m`. Its weak limit is a terminal atom. Therefore the finite-mass ledger lacks the requested `\delta^\alpha` decay.
+has unit `L^1_s` mass and fixed positive terminal layer mass for
+`\delta\ge 1/m`. Its weak limit is a terminal atom. Therefore the finite-mass
+ledger lacks the requested `\delta^\alpha` decay.
 
 ## Attempt 2: Zero ASAC defect as temporal density control
 

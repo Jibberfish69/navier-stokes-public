@@ -63,7 +63,7 @@ or any substitute that controls concentration of the native source time marginal
 
 ## Attempt 2: first-pulse and no earlier selected source slice
 
-No earlier selected source slice gives zero mass on every fixed interval away from the terminal time. A terminal reverse-Holder estimate would need positive thickness inside shrinking intervals. The first-pulse clause provides ancestry order, while terminal Zeno stacking has no fixed preterminal slice.
+No earlier selected source slice gives zero mass on every fixed interval away from the terminal time. A terminal reverse-Holder estimate requires positive thickness inside shrinking intervals, for example a uniform `L^p_s`, `p>1`, bound on the native positive source marginal. The first-pulse clause provides ancestry order, while terminal Zeno stacking has no fixed preterminal slice.
 
 ## Attempt 3: fixed viscosity
 

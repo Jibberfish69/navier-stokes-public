@@ -25,7 +25,7 @@ Flux^{in}_{B_{ASAC}}(\partial_{par}\mathcal C_R^S(s_0,0))=0,
 
 with the flux controlling incoming same-fluid source residue through the backward transported boundary.
 
-If combined with an explicit time-face anti-atom theorem, this would feed `ZenoResidueLiouville_{B_ASAC}.A`.
+Combined with an explicit time-face anti-atom theorem, this feeds `ZenoResidueLiouville_{B_ASAC}.A`.
 
 ## Installed inputs
 

@@ -93,7 +93,7 @@ or at least a CM Field-face exit for the terminal atom.
 
 ## Gap
 
-Current surfaces show the atom as a source-ledger measure. They do not yet explicitly identify that measure with physical density. The argument should use participation density, not physical mass density, unless the membership definition already makes that identification.
+Current surfaces show the atom as a source-ledger measure. They do not yet explicitly identify that measure with physical density. The argument uses participation density, not physical mass density, unless the membership definition already makes that identification.
 
 ## Verdict
 
