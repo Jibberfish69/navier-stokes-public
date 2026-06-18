@@ -162,7 +162,7 @@ class-exit notion rather than a mere low-velocity event.
 
 ## Formal Consequences Of The Triple Reading
 
-The formal consequences used by this note are the following.
+The displayed implications used by this note are the following.
 
 First, along the Lagrangian flow map
 
@@ -247,9 +247,9 @@ Under these readings, the endpoint consequences are:
 \tag{CM.5k}
 ```
 
-These are the formal consequences behind the verbal slogan that the
-incompressibility-pressure-viscosity triple keeps the field in motion as one
-shared object.
+These displayed implications are the exact content behind the verbal slogan
+that the incompressibility-pressure-viscosity triple keeps the field in motion
+as one shared object.
 
 ## The Three Endpoint Types
 
