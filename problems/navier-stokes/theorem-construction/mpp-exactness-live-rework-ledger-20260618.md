@@ -6447,6 +6447,59 @@ Surfaces edited:
 - `theorem-construction/mcp-zenosourceresiduerigidity-a-7a97f81431.md`;
 - `theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md`.
 
+## Suggested / Tempting Route Exactness Rework
+
+Old claim being spent:
+
+Several live surfaces introduced proof moves with language such as "tempting,"
+"suggested," "sign intuition," or "closure intuition."  In each case the
+mathematical issue was real, but the wording risked letting a route idea stand
+where an exact estimate or failed implication had to be named.
+
+Exact replacement:
+
+The affected surfaces now state the exact status:
+
+- collar-only Littlewood-Paley compatibility is a false collar-only statement;
+- projected-flow / TPS / SG.4 support requires a selector-preserving coercive
+  estimate, not generic parabolic smoothing;
+- the `L^3` heat-smoothing route is the uninstalled theorem
+  `SameLedgerHeatAncestorLocalization.A`;
+- positive-stretching PRD and terminal source-pulse PRD are failed inferences,
+  not consequences of energy variation, dissipation, local energy, or
+  heat-scale visibility;
+- minimal Zeno donor-chain work leaves the exact theorem target
+  `MinimalZenoTerminalTraceCompactness.A`;
+- zero-moment reserve visibility requires a same-ledger signed-pair
+  no-free-sink theorem or equivalent two-tower donor depletion theorem;
+- terminal time-face anti-atom work is the failed soft-cubic domination route,
+  whose missing input is domination of the native positive active source by the
+  soft cubic marginal;
+- transported-boundary signs are sector statements only: the unstable outgoing
+  sector has outward sign, while stable incoming and mixed/pressure sectors
+  remain unclosed without tail/no-incoming estimates;
+- the TPS "closure intuition" is now named as a proposed closure claim whose
+  proof burden is the pair of receiver-concentration and donor-death estimates.
+
+Downstream consequence:
+
+These live surfaces no longer introduce proof burdens by route intuition.  Each
+one now lands as a false implication, an exact uninstalled theorem target, or a
+sector-limited sign statement with the missing estimate named.
+
+Surfaces edited:
+
+- `theorem-construction/derivative-lp-compatibility-bridge-note.md`;
+- `submission-bundle/proof-attempt-failure-appendix.tex`;
+- `theorem-construction/mpp-critical-l3-concentration-to-native-source-residue-direct-attempt-20260519.md`;
+- `theorem-construction/mpp-independent-prd-alternative-proof-attempts-20260516.md`;
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mpp-forward-gold-door1-minimal-zeno-donor-chain-trace-dichotomy-attempt-20260618.md`;
+- `theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`;
+- `theorem-construction/mpp-terminal-timeface-antiatom-native-source-reentry-20260609.md`;
+- `theorem-construction/mpp-good-scale-noncollapse-replacement-target-audit-20260505.md`;
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
+
 ## Scale-Language / Behaves-Like Rework
 
 Old claim being spent:
