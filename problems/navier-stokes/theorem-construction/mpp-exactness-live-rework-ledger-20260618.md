@@ -4611,6 +4611,62 @@ Edited live surfaces:
 - `submission-verdict.yaml`;
 - `submission-bundle/submission-verdict.yaml`.
 
+## Reader-Appendix Formal-Language Downstream Repair
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` still carried copied TPS
+  and transported-center prose that said reductions were "formal," "purely
+  formal," or "formal consequences" even after the theorem notes had been
+  repaired. In the reader-facing appendix those words could still be spent as
+  proof force.
+- `transported-phase-space-selector-theorem-candidate.md` said the `SG.4B`
+  extraction was "already formal."
+- `mpp-class-membership-endpoint-exclusion-note.md`,
+  `mcp-terminal-source-estimates-closure-audit-ep-a-b34e8fb1f2.md`,
+  `utkd-to-ne-reduction-lemma.md`, and `sg4-and-br-lambda2-handoff.md` carried
+  the same failure type in theorem-note form.
+
+Exact replacement:
+
+- The TPS shadow-barrier appendix copy is now a conditional reduction packet:
+  it records only the exact conditional implications needed by the coarse
+  barrier, SG bridge factorization, and weak averaged shadow-time packet.
+- The strong-bridge appendix copy now says the lemma is algebraic under the
+  displayed transported-bundle and coarse/true-strip hypotheses; those
+  hypotheses still have to be realized from the Navier-Stokes selector packets.
+- The simple-top exact-potential passage now says the installed reductions leave
+  a concrete observability target, and that the reduction spends the displayed
+  spectral-floor and bundle-angle hypotheses rather than proving observability.
+- The transported-center passage now says the moving cutoff, pressure-response,
+  and residual-forcing cells are conditional consequences after stronger
+  pointwise-in-time tower-carrier control.
+- Endpoint/dead-participation prose now refers to displayed implications, not
+  formal consequences.
+- The terminal-source estimate note now says the implication chain is
+  conditional on the listed source estimates, which remain unproved from the
+  current canonical surfaces.
+- The UTKD-to-NE surfaces now say `(NE)` remains the first genuinely new theorem
+  after the displayed algebraic reductions.
+- The SG.4 handoff now says the downstream extraction is the `SG.4B` algebraic
+  handoff under the residual pairwise closure hypotheses.
+
+Downstream consequence:
+
+TPS/SG.4/DTC/source-estimate/UTKD authority can no longer spend the word
+"formal" as theorem payment. Each repaired passage names either the exact
+conditional implication, the algebraic handoff, or the remaining theorem
+hypotheses.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/transported-phase-space-selector-theorem-candidate.md`;
+- `theorem-construction/mpp-class-membership-endpoint-exclusion-note.md`;
+- `theorem-construction/mcp-terminal-source-estimates-closure-audit-ep-a-b34e8fb1f2.md`;
+- `theorem-construction/utkd-to-ne-reduction-lemma.md`;
+- `theorem-construction/sg4-and-br-lambda2-handoff.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
