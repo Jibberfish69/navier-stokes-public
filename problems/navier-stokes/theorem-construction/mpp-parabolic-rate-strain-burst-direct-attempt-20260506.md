@@ -45,8 +45,11 @@ LegalCharge_N(W)+o_N(1).
 \tag{PRS.2}
 ```
 
-This would charge the only region where positive viscosity-response damping
-does not absorb the aligned component of `partial_nu N_l`.
+The exact conditional consequence of `(PRS.2)` is this: once the response-flux
+reduction has localized the uncontrolled aligned component of `partial_nu N_l`
+to `ParabolicRateStrainBurst_l`, `(PRS.2)` charges that remaining component by
+`LegalCharge_N(W)+o_N(1)`. Outside that burst set, the positive
+viscosity-response damping term supplies the control.
 
 ## 1. Bernstein Inverse Burst Lemma
 
@@ -58,7 +61,7 @@ S_{<j}^{loc}
 \frac12(\nabla u_{<j}^{loc}+(\nabla u_{<j}^{loc})^T).
 ```
 
-The standard Bernstein estimate gives:
+The Littlewood--Paley Bernstein estimate gives:
 
 ```math
 \|S_{<j}^{loc}(t)\|_{L^\infty}
@@ -139,8 +142,8 @@ satisfies `(PRS.4)`.  `\square`
 ## 2. Consequence: A Burst Is Not Scale-Free
 
 The lemma says that a parabolic-rate strain burst at high shell `j` cannot be
-created by diffuse harmless low modes.  It forces a definite lower/intermediate
-shell concentration:
+created by diffuse low modes below the displayed threshold. It forces a
+definite lower/intermediate shell concentration:
 
 ```math
 D_{j-q}(t)

@@ -227,9 +227,8 @@ C_{PC,m}
 \tag{PC.14}
 ```
 
-This is the common stronger-object estimate. It is the theorem-facing point at
-which one higher-rung collar packet would discharge both branch-frontier
-interfaces.
+This is the common stronger-object estimate. Once the higher-rung collar packet
+is supplied, this estimate discharges both branch-frontier interfaces.
 
 ## Interpretation
 

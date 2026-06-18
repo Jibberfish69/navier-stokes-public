@@ -14,7 +14,7 @@ ParabolicEdgeResistance.A:
 }
 ```
 
-Representative forms from the current route are:
+Current route target forms are:
 
 ```math
 \int_I |J_e(t)|\,dt
@@ -133,7 +133,7 @@ ledger.
 
 ## Why The Cauchy Route Is Circular
 
-The desired resistance law would charge source current by endpoint heat action.
+The desired resistance law must charge source current by endpoint heat action.
 The product estimate instead has the structure
 
 ```math

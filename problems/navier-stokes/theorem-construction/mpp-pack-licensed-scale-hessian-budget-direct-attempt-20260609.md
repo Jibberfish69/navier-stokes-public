@@ -1,10 +1,10 @@
 ---
 ns_viewer:
   theorem_id: pack-licensed-scale-hessian-budget-direct-attempt-20260609
-  status: failed-retargeted-to-pack-ttu-uniformity
-  proof_role: pack_restoration_leaf_correction
+  status: failed-hessian-budget-open-pack-ttu-uniformity-primary
+  proof_role: pack_restoration_route_classification
   logical_landing_node: endpoint-selector-or-uniform-strain-tail
-  edge_effect: "Tests PackLicensedScaleHessianBudget.A. The material-Hessian scale route is stronger than the installed Pack.TTU authority and is not supplied by current original-data estimates. The checked Pack row already proves finite-selector Pack.TTU and leaves the continuum active-label case at EndpointSelector.TTU or UniformStrainTail.TTU, equivalently finite-complexity or integrable label-modulus control. The active leaf is retargeted to UniformStrainTail.TTU / EndpointSelector.TTU."
+  edge_effect: "Tests PackLicensedScaleHessianBudget.A. The inherited material-Hessian route would need rho_m M_m -> 0 on licensed Pack windows W_m=(A_m,I_m,rho_m), or a Pack-window Hessian-control norm N_m with M_m <= C N_m(D_aF) and rho_m N_m(D_aF) -> 0. Current original-data estimates do not supply that bound. The checked Pack.TTU route is a separate Pack-restoration route: it closes finite-selector Pack.TTU and leaves the continuum active-label case at EndpointSelector.TTU or UniformStrainTail.TTU, equivalently finite-complexity or integrable label-modulus control."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-licensed-hf-taylor-scale-budget-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mcp-pack-ttu-final-obstruction.md
@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mcp-straintail-ttu-route-to-pack-and-downstream.md
     - problems/navier-stokes/theorem-construction/mcp-endpointselector-or-uniformstraintail-theorem-audit-tgc-a-8304b922a8.md
     - problems/navier-stokes/theorem-construction/mpp-pack-ttu-selector-uniformity-closure-note.md
-  downstream_consequence: "The next theorem atom is UniformStrainTail.TTU / EndpointSelector.TTU: prove a fixed finite active-label reduction or an integrable terminal label-modulus/finite-complexity theorem that converts labelwise finite strain tails into the supremal Pack.TTU strain ledger."
+  downstream_consequence: "PackLicensedScaleHessianBudget.A remains open as a stronger optional route. The primary Pack-restoration atom is UniformStrainTail.TTU / EndpointSelector.TTU: prove a fixed finite active-label reduction or an integrable terminal label-modulus/finite-complexity theorem that converts labelwise finite strain tails into the supremal Pack.TTU strain ledger."
 ---
 
 # MPP Pack-Licensed Scale Hessian Budget Direct Attempt
@@ -32,14 +32,28 @@ The inherited active target was:
 PackLicensedScaleHessianBudget.A.
 ```
 
-It asks for either a licensed Pack-window shrink freedom or a terminal
-material-Hessian bound strong enough to make
+It asks for an exact licensed-window material-Hessian budget.  For a licensed
+terminal same-fluid Pack window `\mathcal W_m=(A_m,I_m,\rho_m)`, with
 
 ```text
-rho_window * ||D_a F|| -> 0
+M_m :=
+sup_{t in I_m}
+sup_{a in A_m}
+sup_{0<|r|<=rho_m}
+sup_{0<=s<=1}
+|D_a F(a+s r,t)|,
 ```
 
-on the same Pack windows.
+the actual-window budget is
+
+```text
+rho_m M_m -> 0.
+```
+
+An equivalent norm version must prove `M_m <= C N_m(D_aF)` and
+`rho_m N_m(D_aF) -> 0` with constants independent of `m`.  A shrink-freedom
+version must also prove that the shrunken schedule remains a licensed finite
+same-fluid Pack witness.
 
 ## Method Pass
 
@@ -52,32 +66,35 @@ Object role: supplier route for `Pack_Q`, beneath `Exit(Q):=not Member(Q)`.
 Logical skeleton: invariant-custody audit of the live Pack leaf, then direct
 test of the Hessian-scale route against installed Pack authority.
 
-Mechanism: pack-native strain ledger, finite active-label selector, continuum
-active-label supremum, and terminal label-modulus obstruction.
+Mechanism: Pack.TTU strain ledger, finite active-label selector, continuum
+active-label supremum, terminal label-modulus obstruction, and the separate
+material-Hessian segment-control budget `M_m`.
 
-Pivot: replace an over-strong material-Hessian demand with the minimal installed
-Pack.TTU obstruction unless the Hessian route is independently proved.
+Pivot: keep the material-Hessian route open as a stronger optional route, and
+use the minimal Pack.TTU obstruction as the current primary Pack-restoration
+leaf unless the Hessian budget is independently proved.
 
 ## Direct Hessian Route Test
 
-The h/F Taylor calculation from the previous pass is correct on fixed
-preterminal windows:
+The h/F Taylor calculation from the previous pass is exact on preterminal
+smooth windows:
 
 ```text
-|D_{h/F}(a,r,t)| / |r|
-<= |r| sup_{a' in [a,a+r]} |D_a F(a',t)|.
+|D_{h/F}(a,r,t)| / |r| <= |r| M_m
+on W_m.
 ```
 
 To use this on the actual terminal Pack windows, the route needs:
 
 ```text
-rho_window * ||D_a F|| -> 0.
+rho_m M_m -> 0.
 ```
 
 That is a material-Hessian scale statement. It is stronger than the installed
-Pack.TTU strain ledger, because `D_a F` evolves with differentiated velocity
-gradient terms and requires terminal control comparable to material-coordinate
-`D_x^2 u` information, together with the Pack geometry itself.
+Pack.TTU strain ledger.  The installed ledger controls the time integral of
+the strain supremum along active labels; it does not provide a bound
+`M_m <= C N_m(D_aF)` or a decay statement `rho_m M_m -> 0` for the material
+Hessian.
 
 The checked repo authority does not supply that estimate from
 `OriginalSmoothData`.
@@ -155,11 +172,13 @@ control into the supremal Pack.TTU ledger.
 
 ## Result
 
-`PackLicensedScaleHessianBudget.A` is not proved.
+`PackLicensedScaleHessianBudget.A` is not proved.  It remains an open stronger
+route: prove `rho_m M_m -> 0`, prove the dominated norm version
+`M_m <= C N_m(D_aF)` and `rho_m N_m(D_aF) -> 0`, or prove admissible shrink
+freedom plus preservation of the finite same-fluid Pack witness.
 
-More importantly, it is not the minimal installed Pack leaf. It is a stronger
-unlicensed route that would imply the needed terminal label-modulus behavior,
-but current authority has already isolated the live Pack obstruction at:
+The current primary Pack leaf is lower than that Hessian route.  The checked
+Pack.TTU authority has already isolated the live Pack obstruction at:
 
 ```text
 UniformStrainTail.TTU / EndpointSelector.TTU:
@@ -179,12 +198,12 @@ which feeds `OriginalSmoothDataPackSurvival.A`,
 
 ## New Live Criticism
 
-`NS-LIVE-20260609-160`: `PackLicensedScaleHessianBudget.A` is not proved and
-should not remain the primary active leaf. The material-Hessian scale route is
-stronger than current Pack.TTU authority and lacks an original-data supplier.
-The checked Pack row already closes the finite active-label case and leaves the
-general continuum active-label case at `UniformStrainTail.TTU /
-EndpointSelector.TTU`, equivalently finite-complexity or integrable terminal
-label-modulus control. CMI finality remains blocked until that Pack.TTU
-uniformity leaf is paid and propagated through Pack survival and the final PDF
-rereads.
+`NS-LIVE-20260609-160`: `PackLicensedScaleHessianBudget.A` is not proved. The
+material-Hessian scale route would need `rho_m M_m -> 0`, the corresponding
+dominated norm estimate, or admissible shrink freedom preserving the finite
+same-fluid Pack witness. The checked Pack row already closes the finite
+active-label case and leaves the general continuum active-label case at
+`UniformStrainTail.TTU / EndpointSelector.TTU`, equivalently finite-complexity
+or integrable terminal label-modulus control. CMI finality remains blocked
+until that Pack.TTU uniformity leaf is paid and propagated through Pack survival
+and the final PDF rereads.

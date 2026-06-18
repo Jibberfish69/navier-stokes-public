@@ -58,13 +58,18 @@ positive-time classical field.
 
 ## Imported Classical Infrastructure
 
-The proof uses only standard classical imports already legitimate on the
-declared theorem surface.
+The proof spends exactly the following imported classical facts. They are not
+scale estimates and they are not consequences of the class-membership grammar
+itself; they are external hypotheses of this note on the periodic or decaying
+whole-space classical Navier--Stokes surface.
 
 ### Import 1. Positive-time spatial analyticity
 
-For every `t_0>0`, a classical Navier--Stokes solution on `\mathbf T^3` and on
-the standard whole-space classical surface is spatially analytic in `x`.
+Let `\Omega=\mathbf T^3`, or let `\Omega=\mathbf R^3` with the same decaying
+classical solution class used below for pressure normalization and uniqueness.
+If `(u,p)` is a classical incompressible Navier--Stokes solution on
+`\Omega\times[0,T)` and `t_0\in(0,T)`, then each component
+`u_i(\cdot,t_0)` is real analytic on each connected component of `\Omega`.
 
 ### Import 2. Identity theorem for analytic fields
 
@@ -73,20 +78,24 @@ open set, then it vanishes identically on that connected component.
 
 ### Import 3. Classical uniqueness from zero data
 
-If a classical Navier--Stokes solution satisfies `u(\cdot,t_0)\equiv 0`, then on
-the periodic or standard decaying whole-space surface the continuation from
-`t_0` is the trivial solution.
+On the same periodic or decaying whole-space classical surface, with pressure
+normalized in the theorem-surface class, if
+`u(\cdot,t_0)\equiv 0`, then the classical continuation from `t_0` is unique and
+is the trivial velocity solution on `[t_0,T)`.
 
-These imports are part of the classical validation layer, not new local
-inventions of the class-membership route.
+Thus Theorem `DTR.1` uses only Import 1 plus the identity theorem. Corollary
+`DTR.3` additionally uses Import 3. No typical-profile, same-scale, or
+linearized dead-patch estimate is being used.
 
 ## Exact Theorem
 
 ### Theorem DTR.1 (open dead-patch rigidity at positive time)
 
 Let `\Omega=\mathbf T^3` or `\mathbf R^3`, and let `(u,p)` be a classical
-incompressible Navier--Stokes solution on `\Omega\times[0,T)`. Fix `t_0\in(0,T)`.
-Assume `\Omega` is connected on the chosen theorem surface.
+incompressible Navier--Stokes solution on `\Omega\times[0,T)` belonging to one
+of the imported theorem-surface classes above. Fix `t_0\in(0,T)`. Assume
+`\Omega` is connected on the chosen theorem surface, and use Import 1 so that
+each component `u_i(\cdot,t_0)` is real analytic on `\Omega`.
 
 If there exists a nonempty open set `U\subset\Omega` such that
 

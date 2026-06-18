@@ -160,7 +160,7 @@ Theorem content: if the live reduction quantities are already propagated on
 
 ## Proof Skeleton
 
-The transported defect part is immediate from the live reduction surface:
+The transported defect part is the live reduction surface itself:
 by `(RS.13)`,
 
 ```math

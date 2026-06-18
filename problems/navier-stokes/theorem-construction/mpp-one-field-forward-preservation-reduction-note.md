@@ -16,7 +16,7 @@ The exact one-field question is:
 
 ```math
 \boxed{
-\text{what precise propagated data is enough to keep the transported finite-difference defect from losing every positive coherence regime?}
+\text{which propagated data prove } \inf_{t\in I}\mathcal C_{\mathrm{coh}}(t)>0 \text{ for the transported finite-difference defect?}
 }
 \tag{OFR.0}
 ```
@@ -76,8 +76,9 @@ E_N\text{-control}
 ```
 
 So the one-field route does **not** reduce to a slogan like "just keep the
-field coherent." It reduces to proving enough propagated packet control to make
-the coherence modulus stay finite at one positive surviving scale.
+field coherent." It reduces to proving the displayed source-side and
+receiver-side packet bounds that keep the coherence modulus finite at one
+positive surviving scale.
 
 ## Corollary `OFR.A` (Supplier reduction of the one-field wall)
 
@@ -128,7 +129,7 @@ the frozen-net pressure channel, the frozen-net strain/cascade channel, and the
 frozen-net cutoff-commutator channel, i.e. the exact split `(FSL.A0)` with the
 companion cutoff note
 [mpp-frozen-family-cutoff-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-cutoff-channel-reduction-note.md):
-`(FCC.C1)` already absorbs the cutoff channel into the viscous/coefficient side
+`(FCC.C1)` already places the cutoff channel under the viscous/coefficient Young-margin inequality
 once the explicit packet-factor coefficient ledger `\mathfrak b_{\psi}^{cut}`
 is in `L^1(I)`, with the current route-native readout of that coefficient
 closure still coming from `CSP.B1c` plus the paired low-carrier ledger
@@ -157,7 +158,7 @@ still absent on disk and its bounded coarser self-attempt does not lower
 further on the current installed surfaces.
 The new companion note
 [mpp-frozen-family-strain-cascade-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md)
-now records the matching nonpressure survivor exactly: after cutoff absorption,
+now records the matching nonpressure survivor exactly: after cutoff Young-margin reduction,
 the remaining same-depth source theorem is `(FSCR.C)`, namely
 `\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(\cdot;I)\in L^1(I)`, while the
 adjacent sufficient note
@@ -197,7 +198,8 @@ So the source side of one-field forward preservation is:
 
 ```math
 \boxed{
-\text{propagate the interval-fixed Eulerian finite family strongly enough that its source-only neighboring-response ledger is integrable.}
+\mathcal N_{N,\rho,\psi}^{src,\varepsilon}(\cdot;I)\in L^1(I)
+\text{ on the interval-fixed Eulerian finite family.}
 }
 \tag{OFR.5}
 ```
@@ -229,7 +231,8 @@ So the receiver side of one-field forward preservation is:
 
 ```math
 \boxed{
-\text{propagate the collar packet strongly enough that the transported defect retains one positive coherence regime.}
+\sup_{t\in I}\mathcal K_{N+1,m,\rho,\psi}^{\delta}(t)<\infty
+\text{ on the same collar packet, hence } \inf_{t\in I}\mathcal C_{\mathrm{coh}}(t)>0.
 }
 \tag{OFR.7}
 ```
@@ -300,7 +303,7 @@ On the current theorem-facing surface, the direct supplier attack beneath
    exposes the frontier-level collar return and `FPL.G` the same return from the
    deeper local pressure stack to `CSP.B3a1`;
    on the top-viscous side the remaining direct branch runs through the
-   fixed-radius top-rung Sobolev theorem `FVR.F`, whose immediate readout
+   fixed-radius top-rung Sobolev theorem `FVR.F`, whose first readout
    corollaries are `FVR.D` and `FVR.A`, with `FTL.C` the branch-local direct
    sufficient theorem on that side, with `FTS.C` only the intermediate
    one-rung-lower Sobolev route, with `(FTL.Bc0)` the sharper route-native

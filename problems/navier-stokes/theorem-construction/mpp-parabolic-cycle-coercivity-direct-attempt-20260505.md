@@ -353,7 +353,7 @@ ParabolicEdgeResistance.A:
 \tag{PER}
 ```
 
-A representative form is:
+One sufficient target form is:
 
 ```math
 \int_I |J_e(t)|\,dt

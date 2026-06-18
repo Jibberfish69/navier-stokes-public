@@ -231,7 +231,7 @@ tower law fails for some `0\le k\le N` or else
 `\mathfrak C_{N,r,Q}(t)=\infty` on some time-slice meeting `Q`. This is exactly
 the clause family `(OP.R.6c)`. Hence `(OP.R.6f)` holds.
 
-Then `(OP.R.6g)` follows immediately from the definition
+Then `(OP.R.6g)` is the definition
 
 ```math
 \mathrm{CM}_{N,r,Q}(u,p,\Phi)
@@ -493,7 +493,7 @@ realized while primitive local membership remains installed on all approaching
 still-live windows with `(OP.R.8)` as its current witness family. This proves
 `(OP.R.9)`.
 
-The contrapositive `(OP.R.10)` is now immediate from Proposition `OP.R.A`: if a
+The contrapositive `(OP.R.10)` is now Proposition `OP.R.A` read backward: if a
 candidate terminal geometry is realized as an autonomous local sharpening on the
 approaching still-live windows, then on some such window `Q` the full witness
 family cannot hold. Equivalently, at least one of the three primitive predicate

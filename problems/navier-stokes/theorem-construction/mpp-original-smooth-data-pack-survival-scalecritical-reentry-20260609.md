@@ -103,7 +103,7 @@ The scalar terminal pulse obstruction still survives:
 
 ```text
 first moment -> 0
-while scale-critical square reserve stays order one.
+while the scale-critical square reserve is fixed by normalization.
 ```
 
 The zero-radius terminal residue branch is already a Pack/Part face witness in

@@ -10,7 +10,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/live-theorem-edge.yaml
-  downstream_consequence: "The fixed-cylinder shrinking-radius problem is replaced by a parabolic funnel/profile problem. The moving-domain energy identity and rescaled Navier-Stokes profile equation are installed. Finite physical funnel energy/dissipation does not control the unweighted scale-critical cone budget; the positive-forward supplier is now ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A."
+  downstream_consequence: "The fixed-cylinder shrinking-radius problem is replaced by a parabolic funnel/rescaled-field problem. The moving-domain energy identity and rescaled Navier-Stokes equation are installed. Finite physical funnel energy/dissipation does not control the unweighted scale-critical cone budget; the positive-forward supplier is now ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A."
 ---
 
 # MPP ParabolicFunnelForwardControlAnalysis.A
@@ -67,7 +67,7 @@ The forward-control question is now about the whole spacetime funnel:
 
 ```text
 Can the energy, pressure, viscosity, and transport accounting on F_lambda
-control the rescaled profile all the way to the tip?
+control the rescaled field all the way to the tip?
 ```
 
 ## 2. Moving-Domain Energy Identity
@@ -153,11 +153,14 @@ partial_s v
 div_y v = 0.
 ```
 
-The alleged terminal blow-up has become a profile problem:
+The alleged terminal blow-up has become a rescaled-field problem:
 
 ```text
 Does v(y,s) remain controlled on B_lambda as s -> infinity?
 ```
+
+Here "profile" means the exact rescaled unknown `v`, not a prescribed spatial
+shape or a linear model for `u` on the shrinking ball.
 
 This is the real mathematical advantage of the funnel. The relation is exact:
 
@@ -165,8 +168,8 @@ This is the real mathematical advantage of the funnel. The relation is exact:
 u(x,t) = tau^{-1/2} v((x-x0)/sqrt(tau), -log tau).
 ```
 
-Thus a statement about a terminal velocity profile must be made as a statement
-about `v` on late `s`-slabs. For example, a persistent scale-critical profile
+Thus a statement about terminal velocity behavior must be made as a statement
+about `v` on late `s`-slabs. For example, persistent scale-critical rescaled-field mass
 means a lower bound such as
 
 ```text
@@ -185,7 +188,7 @@ E_phys(t)
  = tau^{1/2} integral_{B_lambda} |v|^2 / 2 dy.
 ```
 
-So any rescaled profile with uniformly bounded `L^2(B_lambda)` norm has
+So any rescaled field with uniformly bounded `L^2(B_lambda)` norm has
 physical energy tending to zero.
 
 The physical dissipation over a terminal funnel tail is:
@@ -195,12 +198,12 @@ nu integral |nabla_x u|^2 dx dt
 = nu integral e^{-s/2} |nabla_y v|^2 dy ds.
 ```
 
-The factor `e^{-s/2}` is the parabolic discount. A profile may have a fixed
+The factor `e^{-s/2}` is the parabolic discount. The rescaled field may have a fixed
 positive lower bound for rescaled dissipation on infinitely many `s`-slabs
 while the corresponding physical dissipation remains finite.
 
 This corrects the naive Gabriel's-horn reading. The funnel may have finite
-physical energy and finite physical dissipation even when the rescaled profile
+physical energy and finite physical dissipation even when the rescaled field
 does not decay.
 
 ## 5. The Undiscounted Currency Is Scale-Critical
@@ -257,7 +260,7 @@ limsup_{S -> infinity}
 
 Then the terminal point cannot be singular inside that funnel branch. This is
 the usual epsilon-regularity mechanism written in the dynamic reference frame:
-small scale-critical profile mass on late parabolic slabs gives regularity in
+small scale-critical rescaled-field mass on late parabolic slabs gives regularity in
 the corresponding physical cylinders near the tip.
 
 So the funnel reframing is not cosmetic. It converts the forward problem into:
@@ -272,7 +275,7 @@ or prove a finite cone-critical tail whose late slabs become small.
 The direct estimate from physical energy/dissipation does not supply the
 needed late-slab control. The failure can be stated without order notation.
 
-Assume that late slabs carry a fixed amount of rescaled profile mass:
+Assume that late slabs carry a fixed amount of rescaled scale-critical mass:
 
 ```text
 there exists c0 > 0 such that
@@ -290,7 +293,7 @@ E_phys(t)
 So finite or even vanishing physical energy on the shrinking physical slices
 does not contradict persistent scale-critical slab mass. The physical
 dissipation identity remains exactly discounted by `e^{-s/2}`, so an
-undiscounted lower bound on late profile slabs is not ruled out by finite
+undiscounted lower bound on late rescaled slabs is not ruled out by finite
 physical dissipation.
 
 This shows the exact obstruction:
@@ -306,7 +309,7 @@ calculation.
 
 ## 8. Rescaled Energy Has No Immediate Coercive Sign
 
-On the whole rescaled space, formally multiplying the profile equation by `v`
+On the whole rescaled space, formally multiplying the rescaled equation by `v`
 gives:
 
 ```text
@@ -317,13 +320,13 @@ gives:
 
 On `B_lambda` there are additional boundary flux and pressure terms. The
 dilation term supplies the right-hand source. Thus the rescaled `L^2` energy is
-not an automatic Lyapunov function that damps the profile.
+not an automatic Lyapunov function that damps the rescaled field.
 
 This is the second obstruction:
 
 ```text
-the cone profile equation has the right shape,
-but the obvious rescaled energy does not close the estimate.
+the cone rescaled equation has the right shape,
+but the naive rescaled energy does not close the estimate.
 ```
 
 ## 9. Result Of This Pass
@@ -342,7 +345,7 @@ Installed in this note:
 
 ```text
 1. The moving-domain funnel energy identity.
-2. The parabolic rescaled profile equation.
+2. The parabolic rescaled field equation.
 3. The physical-budget discount calculation.
 4. The scale-critical cone currency.
 5. The conditional epsilon-regularity forward pass.

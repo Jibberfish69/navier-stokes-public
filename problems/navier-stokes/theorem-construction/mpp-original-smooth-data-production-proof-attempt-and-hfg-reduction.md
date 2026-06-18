@@ -278,7 +278,7 @@ H4 follows because `ACT.X-Scale` supplies restart seeds and absolute continuity 
 H5 follows from the post-`LCI.A` source split:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Rightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Rightarrow FCI.5f.
 ```
 
 `END.Exh` is supplied by `EndpointFace.Type`, and `END.Cross` is supplied by the endpoint matrix reduction through `(Part,Dead)`, `END.Pack`, `END.Field`, and `END.TowerBound`.

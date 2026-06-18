@@ -74,9 +74,10 @@ new cover chosen after a near-exit limit is taken.}
 \tag{ODC.4}
 ```
 
-This is the first compactness risk. A finite cover is harmless only if its
+This is the first compactness risk. A finite cover is legitimate only when its
 cardinality, radii, and labels are fixed by the pre-output packet data. It is
-not harmless if it is refreshed using the coherence or lower-carrier conclusion.
+not legitimate if it is refreshed using the coherence or lower-carrier
+conclusion.
 
 ### `ODC.A2` Scaling Gate
 

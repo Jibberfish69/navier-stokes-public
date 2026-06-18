@@ -165,12 +165,20 @@ That is `ScaleCriticalTreeCarleson.A`.
 
 ## External Flux Sanity Check
 
-This conclusion matches the standard Littlewood--Paley flux picture.  The
-Cheskidov--Constantin--Friedlander--Shvydkoy flux theorem controls energy flux
-by local interactions, not by a sign-free dissipative resistance law.  In the
-Navier--Stokes energy-equality literature, vanishing of the high-frequency flux
-requires an Onsager/Besov-type spacetime integrability condition; it is not a
-formal consequence of incompressibility plus finite energy alone.
+The installed theorem-facing conclusion is exactly the remainder `(6)`, namely
+`ScaleCriticalTreeCarleson.A`.  The outside Littlewood--Paley flux literature is
+used only as a sanity check: it treats high-frequency energy flux through
+frequency-local interactions and obtains flux vanishing under additional
+Onsager/Besov-type spacetime integrability.  It does not supply the sign-free
+edge-resistance inequality
+
+```math
+\int_I |J_e(t)|\,dt
+\le
+\varepsilon\int_I\mathcal R_e(t)\,dt+Loss_e+o_N(1)
+```
+
+from incompressibility and finite energy alone.
 
 References used only as a sanity check:
 

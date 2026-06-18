@@ -81,7 +81,7 @@ For every candidate row:
 1. choose the endpoint cause or causes that could generate it: `Dead`, `Jump`,
    or `Blown`;
 2. prove the direct face hit: which of `Pack`, `Part`, and `Field` the cause
-   immediately breaks;
+   breaks first;
 3. run the survivor test: assume the other faces remain terminally true and
    check whether that world is ontologically coherent;
 4. run the symmetric collapse test: repeat the implication in the reverse
@@ -176,7 +176,7 @@ So the eight formal rows collapse ontologically to three meaningful rows:
 
 The important forensic point is that `Pack-only`, `Part-only`, and `Field-only`
 are not honest endpoint stories. They are formal rows. The story that would
-make each one happen immediately changes another face.
+realize each one already changes another face.
 
 ## Strict Logic Behind The Reduction
 
@@ -285,7 +285,7 @@ So a possible decoupler is common-mode versus spatially varying failure:
 
 | Scenario shape | Expected landing |
 | --- | --- |
-| common-mode participation defect across the whole retained comparison component | may be Part-visible without immediate Field rupture |
+| common-mode participation defect across the whole retained comparison component | may be Part-visible without an accompanying Field rupture |
 | localized or spatially varying participation defect | Field-visible once neighboring blocks are included |
 | neighboring coherence fracture with one-point tower law still written down | candidate Field-with-formal-Part scenario, but terminal Part status must be audited |
 

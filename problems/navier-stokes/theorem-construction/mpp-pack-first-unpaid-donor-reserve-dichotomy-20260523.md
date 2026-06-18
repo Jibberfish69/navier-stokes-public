@@ -119,7 +119,7 @@ first-created square-reserve contribution:
 first_appearances(W) >= c eta
 ```
 
-for a fixed route constant `c>0`, after harmless loss shrinkage.
+for a fixed route constant `c>0`, after the prescribed loss shrinkage.
 
 If `TerminalReserveFirstAppearanceCharge.A` is available, that first-created
 reserve is charged.  A charged first appearance is paid inside the same window

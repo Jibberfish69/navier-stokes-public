@@ -218,7 +218,7 @@ accepted endpoint certificate maps; it is not an unconditional full claim.
 
 ## Exact Proof Spine
 
-The route-native proof spine should be:
+The route-native proof spine is:
 
 ### Lemma `OFP.B1` (Transported increment reduction)
 
@@ -400,7 +400,7 @@ honest form of the one-field wall is:
 
 ```math
 \boxed{
-\text{propagate the fixed finite packet family and the collar Sobolev packet strongly enough that the transported finite-difference defect never loses a positive coherence regime.}
+\text{propagate the fixed finite packet family and the collar Sobolev packet so that } \inf_{t\in I}\mathcal C_{\mathrm{coh}}(t)>0.
 }
 \tag{OFP.10}
 ```
@@ -413,7 +413,7 @@ For a compact theorem-facing compression of the one-field chain
 `OFP.A <- OFP.B4 <- OFP.C1/OFP.C2/OFP.C3`, see
 [mpp-one-field-forward-preservation-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-reduction-note.md).
 
-### Corollary `OFP.C3a` (A genuine one-field coherence regime would discharge the enlarged-ball oscillation supplier)
+### Corollary `OFP.C3a` (A genuine one-field coherence regime implies the enlarged-ball oscillation supplier)
 
 Retain the transported-center family `c_j(t)=\Phi(a^j,t)` from the lower-carrier
 note and the enlarged oscillation radius
@@ -533,7 +533,7 @@ compression: on the installed route-native branch it has terminated at an
 `EOC` / `LCI` fixed point, so any further progress now needs a genuinely
 non-circular supplier move rather than another widened-family identification.
 
-More concretely, the needed theorem should take as input:
+More concretely, the needed theorem target takes as input:
 
 1. bounded pack-side gauge on the packet label halo;
 2. a packet-local reference-increment defect control at scales comparable to
@@ -976,7 +976,7 @@ so
 
 Insert this bound into `(OFP.10ca)` and take the supremum in `j,r` to obtain
 `(OFP.10byb)`. The segment-thickness bounds `(OFP.10byc)`-`(OFP.10byf)` then
-follow immediately. ∎
+follow by unpacking the same supremum bound into the listed thickness ledgers. ∎
 
 ### Lemma `OFP.C1e2` (Route-native supplier for the label-halo deformation-gradient envelope)
 
@@ -1926,7 +1926,7 @@ installed ball radius. The present enlarged-ball theorem is built on
 
 ```math
 \boxed{
-\text{a variable-radius center-ball theorem strong enough to place }
+\text{a variable-radius center-ball theorem that places }
 \mathfrak U_{1,\rho}^{halo,ctr}
 \text{ in an integrable carrier class on }
 B(c_j(t),\Gamma_\sharp(t)\rho).
@@ -2176,8 +2176,8 @@ This candidate keeps the proof pressure on one real object:
 \tag{OFP.10l}
 ```
 
-So, if it lands, the route avoids growing into a long supplier ladder. It would
-replace the current split
+If this implication is proved, the route avoids growing into a long supplier
+ladder. Its exact consequence is replacement of the current split
 
 ```math
 \text{fixed finite family}
@@ -2320,7 +2320,7 @@ packet, but the route still bottlenecks on the collar propagation theorem
 
 The paired supplier debts are not symmetric in leverage.
 
-The collar Sobolev packet should be attacked first:
+The first live supplier debt is the collar Sobolev packet:
 
 ```math
 \sup_{t\in I}
@@ -2341,7 +2341,7 @@ because its downstream collar envelope
 2. the weighted-segment packet directly;
 3. the finite-net discharge on the reference side.
 
-Only after that should the fixed finite Eulerian packet family be attacked:
+The fixed finite Eulerian packet family is downstream of that collar packet:
 
 ```math
 \sup_{t\in I}
@@ -2388,7 +2388,7 @@ family. The companion note
 records the sharpest exact structural split currently on disk as frozen-net
 pressure, strain/cascade, and cutoff channels, with the companion cutoff note
 [mpp-frozen-family-cutoff-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-cutoff-channel-reduction-note.md):
-`(FCC.C1)` already absorbs the cutoff channel into the viscous/coefficient side
+`(FCC.C1)` already places the cutoff channel under the viscous/coefficient Young-margin inequality
 once the explicit packet-factor coefficient ledger `\mathfrak b_{\psi}^{cut}`
 is in `L^1(I)`, with the current route-native readout of that coefficient
 closure still coming from `CSP.B1c` plus the paired low-carrier ledger
@@ -2413,7 +2413,7 @@ still absent on disk and its bounded coarser self-attempt does not lower
 further on the current installed surfaces.
 The new companion note
 [mpp-frozen-family-strain-cascade-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-strain-cascade-channel-reduction-note.md)
-now records the matching nonpressure survivor exactly: after cutoff absorption,
+now records the matching nonpressure survivor exactly: after cutoff Young-margin reduction,
 the remaining same-depth source theorem is `(FSCR.C)`, namely
 `\mathcal N_{N,\rho,\psi}^{src,\varepsilon,sc}(\cdot;I)\in L^1(I)`, while the
 adjacent sufficient note
@@ -2481,7 +2481,7 @@ So the exact question is now:
 
 ```math
 \boxed{
-\text{can the fixed-family source side and the lower-carrier receiver side be propagated strongly enough to prevent the transported finite-difference defect from losing every positive coherence regime?}
+\text{do the fixed-family source side and the lower-carrier receiver side propagate } \inf_{t\in I}\mathcal C_{\mathrm{coh}}(t)>0?
 }
 \tag{OFP.11}
 ```
@@ -2496,7 +2496,7 @@ So the one-field problem is no longer vague. Its exact live split is:
    frozen-net pressure, strain/cascade, and cutoff channels, i.e. the exact
    split `(FSL.A0)`; the companion cutoff note
    [mpp-frozen-family-cutoff-channel-reduction-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-frozen-family-cutoff-channel-reduction-note.md),
-   where `(FCC.C1)` already absorbs the cutoff channel into the
+   where `(FCC.C1)` already places the cutoff channel under the
    viscous/coefficient side once the explicit packet-factor coefficient ledger
    `\mathfrak b_{\psi}^{cut}` is in `L^1(I)`, while the explicit packet
    commutator writeup in
@@ -2575,9 +2575,9 @@ So the one-field problem is no longer vague. Its exact live split is:
    now records that the exact Laplacian-ball branch is itself already
    downstream of the old widened-shell oscillation packet when `m\ge 3`.
    Corollary `OFP.C3a`
-   shows that a full one-field coherence regime would automatically discharge
-   that enlarged-ball oscillation supplier, but Obstruction `OFP.C3b` records
-   why that implication is circular at the current `LCI` stage. The older
+   shows that a full one-field coherence regime implies the enlarged-ball
+   oscillation supplier, but Obstruction `OFP.C3b` records why that implication
+   is circular at the current `LCI` stage. The older
    pointwise decomposition `OFP.C1b`--`OFP.C1j` is still on disk and remains a
    valid route decomposition of that enlarged-ball supplier. But after the
    route-native receiver compression terminates at the `EOC` / `LCI` fixed

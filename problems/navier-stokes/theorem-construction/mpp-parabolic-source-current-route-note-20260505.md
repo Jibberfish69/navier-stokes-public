@@ -125,7 +125,7 @@ It follows from three standard ingredients already used by the source route:
 
 Thus the right target is not a new scalar estimate at this stage.  The right
 target is to keep the signed packet exchange identity through the localization
-ledger instead of replacing it immediately by
+   ledger instead of prematurely replacing it by
 
 ```math
 \left[\mathcal N^{loc}_{preCauchy}\right]_+.

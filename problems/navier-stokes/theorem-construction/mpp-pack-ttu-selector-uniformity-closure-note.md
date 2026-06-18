@@ -2,7 +2,7 @@
 
 ## Status
 
-Bounded closure of the two subtargets left by the direct `Pack.TTU` fallback:
+Audit of the two subtargets left by the direct `Pack.TTU` fallback:
 
 ```math
 EndpointSelector.TTU
@@ -79,7 +79,18 @@ The desired uniformity theorem is:
 \int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)\,dt<\infty.
 ```
 
-Labelwise finite strain does not imply this. A moving-spike pattern can have
+Labelwise finite strain does not imply this.  Here is the exact obstruction
+model.  Let `A_Q=[0,1]`.  Choose pairwise disjoint label intervals `U_n` and
+pairwise disjoint terminal time intervals `I_n`.  Choose nonnegative bumps
+`\chi_n(a)` supported in `U_n` and `\psi_n(t)` supported in `I_n`, with
+`sup_a chi_n(a)=1`, and choose amplitudes `h_n` so that
+`h_n\int_{I_n}\psi_n(t)\,dt=1`.  Set
+
+```math
+s(a,t)=\sum_n h_n\chi_n(a)\psi_n(t),
+```
+
+Since the `U_n` are disjoint, each fixed label belongs to at most one support, so
 
 ```math
 \int_{t_0}^{T_*}s(a,t)\,dt<\infty
@@ -89,11 +100,18 @@ Labelwise finite strain does not imply this. A moving-spike pattern can have
 while
 
 ```math
-\int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)\,dt=\infty.
+\int_{t_0}^{T_*}\sup_{a\in A_Q}s(a,t)\,dt
+\ge
+\sum_n h_n\int_{I_n}\psi_n(t)\,dt
+=\sum_n 1
+=\infty.
 ```
 
-Such a pattern also defeats every fixed finite selector by moving later spikes
-away from the selector labels.
+The same construction defeats every fixed finite selector: choose all later
+`U_n` disjoint from that finite set, and the selected labels miss the later
+spikes.  This is a measure-theoretic obstruction to the implication from
+labelwise strain tails to the supremal ledger; it is not claimed here as a
+Navier--Stokes solution.
 
 ## Conditional Closure 1: Finite Complexity
 
@@ -176,7 +194,7 @@ modulus would require continuation-grade material-coordinate control such as
 terminal `\nabla_x^2u` and pack-gauge bounds, while finite complexity is not a
 consequence of the endpoint threshold-witness definitions.
 
-Therefore the direct pointwise fallback remains:
+The direct pointwise fallback remains:
 
 ```math
 Pack.TTU

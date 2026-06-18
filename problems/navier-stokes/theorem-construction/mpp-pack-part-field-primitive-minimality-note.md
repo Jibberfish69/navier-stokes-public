@@ -293,10 +293,9 @@ Equivalently, the exact remaining survivor-family theorem is:
 If `PMIN.E` is proved, then the lawful-survivor side of `TRI.E2` is closed as
 far as admissible primitive minimality is concerned.
 
-What would still remain beyond that is only the broader semantic
-pairwise-independence demand already recorded in the audit as route-relative
-only; it would no longer be a missing-fourth-law or survivor-admissibility
-question.
+Beyond that remains only the broader semantic pairwise-independence demand
+already recorded in the audit as route-relative only; it is no longer a
+missing-fourth-law or survivor-admissibility question.
 
 If `PMIN.E` fails, then the failure is concentrated in one exact admissible
 survivor-family obstruction on the surviving `Pack/Field` frontier rather than

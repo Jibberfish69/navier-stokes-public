@@ -345,7 +345,7 @@ primitive starts:
 
 ## 5. Downstream Consequence Map
 
-The refoundation changes the meaning of the following surfaces immediately.
+The refoundation changes the meaning of the following surfaces at once.
 
 ### A. Central constitutive surfaces
 

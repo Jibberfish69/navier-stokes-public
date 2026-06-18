@@ -12,7 +12,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-towerface-cm-row-projection-closure-note-20260503.md
     - problems/navier-stokes/theorem-construction/mcp-towerbound-upstream-direct-test.md
     - problems/navier-stokes/theorem-construction/mcp-tower-ttu-under-pack-ttu-test.md
-  downstream_consequence: "UniformStrainTail.TTU / EndpointSelector.TTU is no longer the active Pack leaf. The next theorem atom is TowerBound.Upstream / END.TowerAmp: supply terminal tower-amplitude control, typically through READ.COVER + ATD_m^epsilon + DTC.Read, or route tower-blown through the accepted endpoint matrix without promoting it to a pure CM row."
+  downstream_consequence: "UniformStrainTail.TTU / EndpointSelector.TTU is no longer the active Pack leaf. The next theorem atom is TowerBound.Upstream / END.TowerAmp: supply terminal tower-amplitude control, for example through READ.COVER + ATD_m^epsilon + DTC.Read, or route tower-blown through the accepted endpoint matrix without promoting it to a pure CM row."
 ---
 
 # MPP Pack.TTU Supremal-Strain Tower Dichotomy Proof
@@ -183,7 +183,7 @@ the accepted endpoint matrix without projecting it to a pure CM row.
 resolved as the active Pack leaf by the supremal-strain tower dichotomy:
 no-tower-blown gives `Pack.TTU => Pack_Q`. CMI finality remains blocked because
 the complementary `tower-blown` branch is still not removed from original
-smooth data; it requires `TowerBound.Upstream / END.TowerAmp`, typically via
+smooth data; it requires `TowerBound.Upstream / END.TowerAmp`, for example via
 `READ.COVER + ATD_m^epsilon + DTC.Read`, and tower-blown may not be promoted to
 a pure `Pack_Q`, `Part_{N,Q}`, or `Field_{N,r,Q}` failure without a licensed
 bridge.

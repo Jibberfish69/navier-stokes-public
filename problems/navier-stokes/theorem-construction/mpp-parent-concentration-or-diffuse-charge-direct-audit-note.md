@@ -60,7 +60,8 @@ j_{P^-}\in[j_P-M,j_P+M]
 up to the licensed lower-feed bands.  This does not bound physical parent
 complexity.  At heat scale `r_P`, a child cylinder can receive source
 contributions from many legal physical predecessor packets and many triadic
-pieces while the total positive parent measure remains order one.
+pieces while the total positive parent measure is normalized to
+\(\pi_P(\mathsf{Pred}(P))=1\).
 
 The obstruction is the diffuse model:
 
@@ -110,10 +111,10 @@ Pressure and cutoff ledgers route separated response terms after localization.
 They do not charge diffuse nonlinear source parentage on the same active bad
 windows.
 
-The active-square reserve would be strong enough only if the route already had
-the active-window Carleson / square-source theorem.  That theorem has already
-been audited as route-equivalent to `SourcePulseExclusion.A`, not as an
-installed reserve.
+An active-square reserve is sufficient here only under the exact additional
+hypothesis that the same terminal bad windows satisfy the active-window Carleson
+/ square-source bound.  That theorem has already been audited as
+route-equivalent to `SourcePulseExclusion.A`, not as an installed reserve.
 
 Source-localization loss is a legal charge only for edges outside the licensed
 same-fluid predecessor region.  It does not price legal diffuse parentage

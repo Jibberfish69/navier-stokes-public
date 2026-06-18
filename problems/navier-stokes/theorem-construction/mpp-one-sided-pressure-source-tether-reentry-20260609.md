@@ -5,7 +5,7 @@
 Active-completion proof attempt after
 `mpp-positive-source-adjoint-escape-identity-reentry-20260609.md`.
 
-This note tests the pressure/Leray tether and its immediate pressure-child
+This note tests the pressure/Leray tether and its first pressure-child
 gates.  It does not close public Clay finality.
 
 ## Target
@@ -72,7 +72,7 @@ PressureSourceTimeFaceSpread.A.
 
 This would give a terminal strip modulus for the native positive source
 marginal.  Spatial pressure recovery does not change the time support.  The
-terminal-layer model:
+endpoint time-marginal witness:
 
 ```math
 g_m(s)=m\,{\bf 1}_{(-1/m,0]}(s)
