@@ -165,25 +165,23 @@ nodes:
       ParentSquareEmbed.A controls the full diffuse parent cloud under packet
       Bessel hypotheses.
     open_part: >-
-      ScaleCriticalTreeCarleson.A remains the scalar reserve needed to close
-      LocalPositiveSourceCarleson.A. The tree-Bellman reserve attempt is
-      circular unless an independent active-window Carleson reserve,
-      active-shell amplitude gain, normalized square-source theorem,
+      ScaleCriticalTreeCarleson.A remains the historical scalar reserve needed
+      for the old LocalPositiveSourceCarleson.A direct branch, but that branch
+      is support-history after the Pack-first CM correction. The tree-Bellman
+      reserve attempt is circular unless an independent active-window Carleson
+      reserve, active-shell amplitude gain, normalized square-source theorem,
       branch-reserve theorem, or Zeno rigidity theorem is installed. The direct
       irreducibility note rules out tracking ScaleCriticalPulseReserve.A as a
       separate theorem object below ScaleCriticalTreeCarleson.A. The latest
       scalar dynamic attempt shows SquareReserveEvolution.A is not installed:
-      it reduces to the missing ReserveCreationCharge.A, with
-      DonorHeightCreation.A as the audit-open first-creation target and
-      HeightFluxControl.A as the shell-balance obstruction beneath that atom.
-      FirstHeightCreationDichotomy.A has been terminally attempted and collapsed
-      as an independent lower theorem: it is either tautological shell-flux
-      accounting or it spends the same active-alignment / TPNI / retained-pack
-      gain / Zeno machinery.
-      ActiveWindowHeight.A remains a stronger scalar sufficient condition.
-      The May 16 active-square attempt confirms that Bellman/endpoint control
-      pays only first-moment tail unless a functional already contains the
-      scale-critical active-square reserve.
+      differentiating the donor square exposes an unpriced positive weighted
+      source term, and the route reduces to source-reserve / donor-height
+      supplier support. DonorHeightCreation.A, HeightFluxControl.A, and
+      FirstHeightCreationDichotomy.A no longer set the current live target by
+      themselves. They feed the same-witness terminal anti-concentration /
+      source-Carleson / rigid-anti-atom / non-source Pack-survival frontier only
+      after same-ledger payment or CM-test admission plus a first Pack/Part/Field
+      face failure.
   parabolic_source_current_root:
     status: support-history-after-collapse
     theorem_ids:
