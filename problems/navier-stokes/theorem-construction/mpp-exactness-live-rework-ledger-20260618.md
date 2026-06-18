@@ -4996,6 +4996,74 @@ Edited live surfaces:
 - `theorem-construction/frame-recovery-wall-theorem-candidate-note.md`;
 - `theorem-construction/mcp-pack-ttu-energy-enstrophy-strain-test.md`.
 
+## Energy-Flux, Transport-Commutator, And Pressure-Work Repair
+
+Old loose step:
+
+- `moving-spill-fixed-offset-reduction-lemma.md` invoked a "standard coarse
+  energy-flux identity" before the moving-spill edge reduction.
+- `shadow-error-gronwall-continuation-criterion.md` used "standard transport
+  commutator estimate" as the proof bridge to Gronwall.
+- `mpp-flow-map-and-tower-continuation-note.md` used "standard commutator
+  estimate" before the \(H^s\) tower inequality.
+- `hfg-alt-all-scale-transfer-loss-no-free-gap.md` used "usual
+  commutator/paraproduct localization" before the low-high shell bound.
+- `mpp-ancient-nopulse-extraction-bridge-attempt-note.md` used "standard
+  scale-critical compactness" for the ancient extraction step.
+- `mpp-pressure-time-spread-elliptic-time-smearing-direct-attempt-20260517.md`
+  used "standard pressure-work integrability" in the local-energy time test.
+
+Exact replacement:
+
+The moving-spill note now writes the commutator-stress identity with
+\[
+  \tau_\ell(b_{\ell,m},u)=(b_{\ell,m}u)_{\le\ell}-b_{\ell,m}u_{\le\ell},
+\]
+so the edge packet reduction spends the displayed flux identity, not a named
+standard estimate.
+
+The shadow-error and Sobolev-tower notes now display the commutator split
+\[
+  \langle\Lambda^\sigma((u\cdot\nabla)u),\Lambda^\sigma u\rangle
+  =
+  \langle[\Lambda^\sigma,u\cdot\nabla]u,\Lambda^\sigma u\rangle
+  +\langle u\cdot\nabla\Lambda^\sigma u,\Lambda^\sigma u\rangle,
+\]
+with the last term zero by incompressibility, and then cite the Kato--Ponce
+bound that gives the displayed Gronwall coefficient.
+
+The HFG note now names the low-high paraproduct estimate directly:
+\[
+  |\langle \Delta_j((S_{j-1}\omega)\cdot\nabla S_{j-1}u),
+  \Delta_j\omega\rangle|
+  \le
+  C\|\nabla S_{j-1}u\|_\infty\|\Delta_j\omega\|_2^2 .
+\]
+
+The ancient no-pulse note now states the compactness inputs on fixed backward
+cylinders: \(L^\infty_sL^2_y\cap L^2_sH^1_y\) velocity bounds,
+\(L^{3/2}\) pressure bounds, and a negative-Sobolev time-derivative bound for
+Aubin--Lions. The pressure-time-spread note now identifies the local-energy
+pressure term as the cutoff-paired integral \(\iint p\,u\cdot\nabla\phi\).
+
+Downstream consequence:
+
+Moving-spill, shadow-error, Sobolev-tower, high-frequency-gap, ancient
+compactness, and pressure-time-spread arguments can no longer spend
+"standard/usual" labels as proof payments. They must cite the exact displayed
+commutator, flux, compactness, or pressure-work object and the remaining
+burden attached to it.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/moving-spill-fixed-offset-reduction-lemma.md`;
+- `theorem-construction/shadow-error-gronwall-continuation-criterion.md`;
+- `theorem-construction/mpp-flow-map-and-tower-continuation-note.md`;
+- `theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md`;
+- `theorem-construction/mpp-ancient-nopulse-extraction-bridge-attempt-note.md`;
+- `theorem-construction/mpp-pressure-time-spread-elliptic-time-smearing-direct-attempt-20260517.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
