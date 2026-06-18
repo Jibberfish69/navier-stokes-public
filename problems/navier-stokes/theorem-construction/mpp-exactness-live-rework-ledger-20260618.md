@@ -6489,6 +6489,43 @@ Surfaces edited:
 - `theorem-construction/mpp-two-profile-pack-molecule-rigidity-parameter-orthogonality-attempt-20260610.md`;
 - `theorem-construction/pd70z-cycle-exact-normal-covector-route.md`.
 
+## Order-One Size Claim Rework
+
+Old claim being spent:
+
+Several live notes used "order-one" to carry a scale-independent size claim.
+
+Exact replacement:
+
+The edited surfaces now state the actual size information being spent:
+
+- heat-scale pulse examples with first moment now state the unit integral;
+- terminal trace examples now state unit mass or jump size `1`;
+- field-exit and source-pulse passages now use fixed lower bounds
+  `c_0>0` or `c_1>0` independent of the shrinking scale or backward depth;
+- the PRD pulse model now computes
+  `int_{I_m} 2^m D_m^2 dt = 2^m A_m^2/h_m` and states the choice of `h_m`
+  needed to make it at least a prescribed `c_0>0`.
+
+Downstream consequence:
+
+The live notes may no longer spend "order-one" as a scale estimate.  They spend
+unit mass, explicit pulse formulas, or named fixed positive lower bounds.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-activeshellamplitudegain-completion-attempt-20260517.md`;
+- `theorem-construction/mpp-basac-positive-source-trace-ac-direct-attempt-20260609.md`;
+- `theorem-construction/mpp-cm-field-face-two-root-run-through-20260506.md`;
+- `theorem-construction/mpp-low-high-pack-source-carleson-reserve-direct-attempt-20260610.md`;
+- `theorem-construction/mpp-scalecritical-carleson-failure-field-face-diagnostic-20260514.md`;
+- `theorem-construction/mpp-prd-completion-attempt-20260517.md`;
+- `theorem-construction/mpp-sourcepulse-exclusion-active-target-note.md`;
+- `theorem-construction/mpp-read-cover-bypass-first-pulse-reduction-20260505.md`;
+- `theorem-construction/mpp-positive-source-trace-terminal-antiatom-common-obstruction-20260518.md`;
+- `theorem-construction/mpp-vanishing-ledger-bad-packet-field-exit-20260516.md`;
+- `theorem-construction/mpp-uniform-terminal-pack-tightness-from-first-exit-minimality-direct-attempt-20260610.md`.
+
 ## Collar Moving-Cutoff Summary Rework
 
 Old claim being spent:
