@@ -141,8 +141,9 @@ by Carath\'eodory.
 
 ### Proof
 
-The equivalence of `(SBF.4)` and `(SBF.5)` is the standard separation criterion
-in the affine hyperplane of trace-one symmetric tensors. Since
+The equivalence of `(SBF.4)` and `(SBF.5)` is the following finite-dimensional
+separation argument in the affine hyperplane of trace-one symmetric tensors.
+Since
 `\operatorname{tr}(\omega\otimes\omega)=1`, the affine dual consists exactly of
 traceless symmetric operators. If `(SBF.4)` fails, Hahn--Banach gives a
 nonzero traceless symmetric `A` such that either
