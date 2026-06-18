@@ -4,7 +4,8 @@
 
 Failed as an unconditional proof from current canonical surfaces.
 
-The formal implications are closed. The source estimates remain:
+The displayed implication chain is conditional on the following source
+estimates. These estimates remain unproved from the current canonical surfaces:
 
 ```text
 Err_cmp^frame / gamma_J -> 0,
