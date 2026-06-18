@@ -1318,7 +1318,8 @@ conclusion.
 \paragraph{Signed-pair reserve.}
 Signed-pair reserve shows why cancellation has to be tied to the witness
 ledger.
-Zero moment can coexist with order-one positive and negative packets.
+Zero moment can coexist with positive and negative packets whose retained
+masses are bounded below by a fixed \(c_0>0\).
 If the partners live on different carriers, the selected branch may fail Pack
 or Part before sign even matters.
 If the partners survive on the same carrier and same equation, the issue moves
@@ -1960,8 +1961,8 @@ One can have
   \qquad
   \int_W J_+ = \int_W J_-,
 \]
-while both \(J_+\) and \(J_-\) remain order-one on the same retained terminal
-ledger.
+while both \(J_+\) and \(J_-\) have retained mass at least \(c_0>0\) on the
+same retained terminal ledger.
 The first moment cancels.
 The reserve does not disappear.
 This is a genuine forward-positive blocker for a no-free-sink theorem.
@@ -3817,7 +3818,8 @@ failure is proved.
 \subsection{Zero-Moment Signed Pair}
 
 The zero-moment attempt sharpened the source-reserve survivor again.
-It showed that zero first moment can coexist with order-one mass.
+It showed that zero first moment can coexist with mass bounded below by a fixed
+positive constant.
 On the first terminal window,
 \[
   R_{\mathrm{first}}(W)\ge\eta,
@@ -3832,7 +3834,8 @@ Split the source carrier as
   \qquad
   c_J\le \int_W(J_++J_-)\le C_J .
 \]
-The square reserve can see an order-one pair while the signed first moment
+The square reserve can see a pair with
+\(c_J\le \int_W(J_++J_-)\le C_J\) while the signed first moment
 vanishes.
 
 Most cases route cleanly.
@@ -3843,7 +3846,7 @@ The hard case is
   J_+\text{ and }J_-
   \text{ survive at positive scale on the same retained ledger,}
 \]
-with order-one square reserve and zero first moment.
+with square reserve bounded below by \(\eta>0\) and zero first moment.
 
 The tempting proof says that one packet must produce visible active height flux.
 That implication is too fast.
