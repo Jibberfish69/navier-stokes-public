@@ -304,8 +304,8 @@ Delta_{rho(t)} u(t)
 <= 2 rho(t) sup_{B_{rho(t)}(x0)} |grad u(.,t)|.
 ```
 
-The critical velocity benchmark is now a definition, not an inferred typical
-size:
+The critical velocity benchmark is now a definition, not an inferred size
+estimate:
 
 ```text
 U_c(r) := nu / r.
