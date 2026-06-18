@@ -219,37 +219,37 @@ verdict_alignment:
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty primary_math_obligation
-      required_action: Clear or demote the source-frontier primary_math_obligation
+      required_action: Clear or classify the source-frontier primary_math_obligation with no proof authority
         before submission readiness.
     - candidate_id: source-frontier:first_unresolved_obligation
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty first_unresolved_obligation
-      required_action: Clear or demote the source-frontier first_unresolved_obligation
+      required_action: Clear or classify the source-frontier first_unresolved_obligation with no proof authority
         before submission readiness.
     - candidate_id: source-frontier:unresolved_obligations
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty unresolved_obligations
-      required_action: Clear or demote the source-frontier unresolved_obligations
+      required_action: Clear or classify the source-frontier unresolved_obligations with no proof authority
         before submission readiness.
     - candidate_id: source-frontier:dashboard_unresolved_obligations
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty dashboard_unresolved_obligations
-      required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+      required_action: Clear or classify the source-frontier dashboard_unresolved_obligations with no proof authority
         before submission readiness.
     - candidate_id: source-frontier:additional_context_obligations
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty additional_context_obligations
-      required_action: Clear or demote the source-frontier additional_context_obligations
+      required_action: Clear or classify the source-frontier additional_context_obligations with no proof authority
         before submission readiness.
     - candidate_id: source-frontier:active_frontier_labels
       kind: source_frontier
       surface: problems/navier-stokes/source-frontier.yaml
       evidence: nonempty active_frontier_labels
-      required_action: Clear or demote the source-frontier active_frontier_labels
+      required_action: Clear or classify the source-frontier active_frontier_labels with no proof authority
         before submission readiness.
     - candidate_id: live-theorem-edge:clay_closure_status
       kind: source_frontier
@@ -423,37 +423,37 @@ verdict_alignment:
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty primary_math_obligation
-        required_action: Clear or demote the source-frontier primary_math_obligation
+        required_action: Clear or classify the source-frontier primary_math_obligation with no proof authority
           before submission readiness.
       - candidate_id: source-frontier:first_unresolved_obligation
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty first_unresolved_obligation
-        required_action: Clear or demote the source-frontier first_unresolved_obligation
+        required_action: Clear or classify the source-frontier first_unresolved_obligation with no proof authority
           before submission readiness.
       - candidate_id: source-frontier:unresolved_obligations
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty unresolved_obligations
-        required_action: Clear or demote the source-frontier unresolved_obligations
+        required_action: Clear or classify the source-frontier unresolved_obligations with no proof authority
           before submission readiness.
       - candidate_id: source-frontier:dashboard_unresolved_obligations
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty dashboard_unresolved_obligations
-        required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+        required_action: Clear or classify the source-frontier dashboard_unresolved_obligations with no proof authority
           before submission readiness.
       - candidate_id: source-frontier:additional_context_obligations
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty additional_context_obligations
-        required_action: Clear or demote the source-frontier additional_context_obligations
+        required_action: Clear or classify the source-frontier additional_context_obligations with no proof authority
           before submission readiness.
       - candidate_id: source-frontier:active_frontier_labels
         kind: source_frontier
         surface: problems/navier-stokes/source-frontier.yaml
         evidence: nonempty active_frontier_labels
-        required_action: Clear or demote the source-frontier active_frontier_labels
+        required_action: Clear or classify the source-frontier active_frontier_labels with no proof authority
           before submission readiness.
       - candidate_id: live-theorem-edge:clay_closure_status
         kind: source_frontier

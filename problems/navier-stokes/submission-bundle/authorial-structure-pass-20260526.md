@@ -229,7 +229,7 @@ Blocked full-submission claim:
 
 ## Immediate TeX Repair Targets
 
-1. Rewrite title/abstract/opening so the first signal is the MPP CM contrapositive proof program, with periodic scope clearly located inside it.
+1. Rewrite title/abstract/opening so the first signal is the MPP CM contrapositive proof program, with periodic scope stated inside it.
 2. Replace the opening's branch/readout feel with proof-behavior explanation: positive pass/fail split, terminal witness entry, Pack/Part/Field face failure.
 3. Move the source-wall example later as a teaching example, or make the current placement explicitly subordinate.
 4. Fix the duplicate proof ending after the no-fourth-service corollary.

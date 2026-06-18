@@ -276,7 +276,7 @@ child_criticisms:
       are actually installed, or why the annular endpoint witness remains live.
     why_it_blocks_clay_ready_submission: >-
       A CMI-facing paper loses trust on the first page when the abstract claims
-      a broad contrapositive program without immediately naming the current
+      a broad contrapositive program without naming the current
       proof state, open mathematical boundary, and installed branch payments.
     required_change: >-
       Rewrite the abstract as a current-state handoff: identify the gold
@@ -454,7 +454,7 @@ child_criticisms:
       on the exit side. Without that scope statement, branch support could again
       masquerade as proof.
     required_change: >-
-      State immediately after the same-solution dichotomy that it is the
+      State right after the same-solution dichotomy that it is the
       class-consumption theorem and still requires surface payments. Record the
       periodic atlas payment, the whole-space Duhamel/exterior-source payment,
       and the still-open annular endpoint payment before any finality claim.
@@ -1246,7 +1246,7 @@ child_criticisms:
       - source-field-reader-appendix.tex#active-coherent-projector-spectral-identification-theorem
     problem: >-
       The first source-field appendix pages read like recovered notes and
-      commands: D.1 did not clearly tell the reader how the source stack
+      commands: D.1 did not tell the reader how the source stack
       supports the current proof, D.2 did not separate downstream export
       checking from route authority, and D.4 carried note-style prose and a
       duplicated selector sentence.
@@ -1516,7 +1516,7 @@ child_criticisms:
       tell which carrier/export layers are axioms, which are blocked export
       targets, and which selector warnings prevent ontology drift.
     why_it_blocks_clay_ready_submission: >-
-      Carrier/export material can support the paper only when it clearly
+      Carrier/export material can support the paper only when it explicitly
       separates first-principles carrier hypotheses, classical low-mode export
       obligations, and selector machinery from the actual proof route.
     required_change: >-
@@ -1749,7 +1749,7 @@ child_criticisms:
       unfinished HFG conditional sentence, filler therefore, and prose tokens
       like R j,A,M made the reader reconstruct the support role.
     why_it_blocks_clay_ready_submission: >-
-      These sections sit immediately after the discharge ladder. They must tell a
+      These sections follow the discharge ladder. They must tell a
       CMI-facing reader which closure package claims are conditional support,
       which coefficient estimates are available, and which HFG/product-control
       theorem remains open.
@@ -2362,7 +2362,7 @@ child_criticisms:
       same-surface scale-barrier return arrow inside raw notation and did not
       make the strict low-mode commutator audit visible. D.86 mixed a
       downstream Euclidean export criterion with CM-exit language without
-      clearly typing the A1a/A1b/A1c consumer inputs.
+      explicitly typing the A1a/A1b/A1c consumer inputs.
     why_it_blocks_clay_ready_submission: >-
       The appendix cannot responsibly use these support routes unless the reader
       sees that D.85 is conditional forward-positive support, not a closed
@@ -2403,7 +2403,7 @@ child_criticisms:
       - source-field-reader-appendix.tex#exact-potential-analytic-coefficient-v2-route-audit
     problem: >-
       D.87-D.88 still read as raw theorem/audit packets. D.87 left malformed
-      notation and did not clearly explain that the dyadic interaction identity
+      notation and did not explain that the dyadic interaction identity
       is an unconditional decomposition rather than a coercive closure. D.88
       preserved stale route-authority language by making the analytic V2 audit
       sound like the current exact-potential stop line even though the repaired
@@ -3823,7 +3823,7 @@ child_criticisms:
       D.289-D.294 still read as raw averaged-route fragments. D.289 had a
       dangling scheduler-budget sentence; D.290-D.291 mixed finite-increment
       failure, averaged packet data, pressure records, and the solve-path
-      inequality without explaining the route order; D.292-D.293 did not clearly
+      inequality without explaining the route order; D.292-D.293 did not explicitly
       separate averaged Field support from the later pointwise endpoint bridge;
       and D.294 stopped at "Gronwall yields" without writing the actual
       averaged lower-carrier conclusion.
@@ -4030,7 +4030,7 @@ child_criticisms:
       - source-field-reader-appendix.tex#branch-native-averaged-no-escape-obstruction-model
     problem: >-
       D.313-D.316 still read as raw comparison and failed-attempt notes. The BKM
-      comparison did not clearly state that it is conditional, the Boot Square
+      comparison did not state that it is conditional, the Boot Square
       criterion was missing its higher-moment form, and the averaged no-escape
       sections stated persistence without explaining the missing defect-charge
       lower bound and matching finite-energy upper bound.

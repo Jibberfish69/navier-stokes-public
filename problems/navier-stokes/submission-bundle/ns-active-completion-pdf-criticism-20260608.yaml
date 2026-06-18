@@ -394,7 +394,7 @@ criticism_inventory:
   why_it_blocks_clay_ready_submission: 'A CMI-facing paper cannot let its headline
     theorem sound conditional at the point where it states the submission result.
     The conditional belongs in a dependency audit or historical explanation unless
-    it is immediately discharged as the theorem being proved.
+    the paper proves and names the discharge before using it in the headline theorem.
 
 '
   required_change: 'Reorder or rewrite the machine-paper theorem statement so the
@@ -474,7 +474,7 @@ criticism_inventory:
   reader_role: plain-grad-student-reader
   location_or_scope: relationship between the two rendered PDF tracks
   problem: 'The 47-page machine paper and 1082-page human bundle do not yet give a
-    reader an obvious package-level explanation of how the compact submission track,
+    reader a plain package-level explanation of how the compact submission track,
     the human app-aligned track, and the large dossier track relate.
 
 '

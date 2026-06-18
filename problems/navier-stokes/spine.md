@@ -48,7 +48,7 @@ modern overlays, sidecars, and stale generated surfaces, see
 - Monotone-functional side: restored and explicit, and the exact handoff `Q(t)` -> necessary but not sufficient -> cascade carrier is now explicit.
 - Cascade-localization side: the dyadic tail/transport object `Xi_N` with transport packet `Phi_N` is no longer an open frontier. It is localized in `cascade-after-monotone-bridge-source-pack.md` and discharged through `theorem-construction/scale-barrier-transport-defect-lemma.md` plus `theorem-construction/scale-cubic-tail-absorption-lemma.md`.
 - Scale side: the discharge locus is present, reconciled, and now explicitly consumes the post-monotone cascade carrier. Among the failed local repairs, the preferred repair surface is the continuum cumulative-tail stress theorem `(CTS)`, with the dyadic lower-prefix active-square theorem `(LPAS)` treated as its shadow rather than as the primary language.
-- Defect-loop side: the failed local repairs now read as successive normal-form reductions of the same one-sided scale-memory survivor, and the classical four-body packet is therefore still live as the defect-reduction pipeline rather than as obsolete architecture; see [theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md).
+- Defect-loop side: the failed local repairs now read as successive normal-form reductions of the same one-sided scale-memory survivor. The classical four-body packet remains live only as the defect-reduction pipeline, with proof force supplied by the exact reduction notes it cites; see [theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/defect-reduction-tower-and-four-body-recurrence-note.md).
 - Compactness side: the downstream discharge locus is present and reconciled on one fixed classical approximation scheme.
 - Fourth-bridge side: same-surface heat-governed deformation or continuation is primary for the synchronized periodic branch; the old curvature route is retained only as deprecated provenance.
 - Closure side: the periodic bridge spine is integrated as the authoritative theorem direction on the declared theorem surface; Route B / Euclidean whole-space material remains downstream export/support.
@@ -59,7 +59,7 @@ modern overlays, sidecars, and stale generated surfaces, see
 - `modified PDE smoothness` is not `classical Clay regularity`
 - `bounded energy` is not `global smoothness`
 - `named monotone bridge` is not `the whole theorem by itself`
-- `heuristic spectral decay` is not `a proved scale barrier`
+- `spectral-decay motivation` is not `a proved scale barrier`
 - `legacy curvature provenance` is not `the live theorem-primary fourth bridge`
 - `archived provenance` is not `an active theorem blocker`
 - `compressed packet reduction` is not `theorem-grade discharge`

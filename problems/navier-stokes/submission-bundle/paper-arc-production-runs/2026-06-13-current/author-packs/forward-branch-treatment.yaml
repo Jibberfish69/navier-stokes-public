@@ -28,7 +28,7 @@ source_rewrites:
     \text{Field failure} &
       \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
     \text{support} &
-      \text{a real estimate whose selected record or face payment is still unwritten.}
+      \text{a real estimate whose selected record or face landing is still unwritten.}
     \end{array}
     \]
     This is the bookkeeping the reader needs.  A forward argument may pay a source term, rule out a donor refill, locate a terminal atom, or sharpen an endpoint readout.  It becomes proof text only at the line where it names \(Q\), names the class data carried by \(Q\), and pays one of the outcomes above.
@@ -45,7 +45,7 @@ source_rewrites:
     Compactness & Extract a terminal object from the preterminal branch & Detached or under-controlled terminal limit & Admits a candidate \(Q\) only when it remains attached to the same solution record\\
     Recovery/surface fidelity & Convert terminal control into continuation & Recovery available on the wrong surface or wrong object & Supplies member readout on the same object; otherwise leaves a face failure or support boundary\\
     Lower-prefix/upper-tail & Collapse split survivor families & Split terminal family & Tests each surviving family as its own same-solution witness\\
-    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face payment or readout payment\\
+    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face landing or readout payment\\
     Shell gain/half derivative & Use active-window smallness to pay lower strain & Active-window coefficient gap & Field pressure after Pack and Part have survived on the selected record\\
     Annular-limit witness & Control the residual scale-critical load on shrinking positive-radius annuli & Terminal residual pulse surrounding a radius-zero endpoint & Gold seeks direct annular control; silver classifies the admitted pulse by Part or Field\\
     \hline
@@ -186,4 +186,4 @@ author_contract:
   - current-state paper boilerplate
   - internal automation or progress-report voice
   - placeholder prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence

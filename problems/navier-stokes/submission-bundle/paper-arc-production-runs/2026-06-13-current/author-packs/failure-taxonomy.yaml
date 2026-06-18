@@ -157,7 +157,7 @@ author_contract:
   - current-state paper boilerplate
   - worker/runner/source-spine/bookkeeping voice
   - placeholder prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - failure
   - "(Pack|Part|Field)"
