@@ -184,9 +184,9 @@ C\,\mathcal L_N E_N + \varepsilon \nu D_N
 without either losing one power of `\mathcal L_N` or changing the coefficient
 surface.
 
-## Plausible New Bridge Fragment
+## Candidate New Bridge Fragment
 
-The only plausible positive route seen during this audit is still external to
+The only candidate positive route seen during this audit is still external to
 the already-discharged four-body package:
 
 1. tie the low-mode strain shell `j_0` to the Route B threshold `N`,
