@@ -22,7 +22,7 @@ Dead\Longrightarrow Jump\vee tower\text{-}blown,
 Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 ```
 
-These are supplied by the pack-detachment absorption, participation persistence, and field/jump absorption notes.
+These are supplied by the pack-detachment endpoint reduction, participation persistence, and field/jump endpoint reduction notes.
 
 ## Theorem
 
@@ -48,13 +48,18 @@ If
 F_*=packing\text{-}detached,
 ```
 
-then pack-detachment absorption gives
+then pack-detachment endpoint reduction gives
 
 ```math
 Dead\vee Jump\vee tower\text{-}blown.
 ```
 
-The first two alternatives would occur no later than the alleged first pack face, contradicting first-face minimality unless they coincide as already-present failures. Hence the only compatible first-face alternative is `tower-blown`.
+First-face ordering gives an exact dichotomy for the `Dead` and `Jump`
+alternatives: their endpoint time is either earlier than the alleged first pack
+face, which contradicts minimality, or equal to it, in which case a non-pack
+face is already present at the first endpoint. After those two subcases are
+removed from the retained first-pack branch, the only compatible first-face
+alternative is `tower-blown`.
 
 If
 
@@ -76,7 +81,7 @@ If
 F_*=Jump,
 ```
 
-field/jump absorption gives
+field/jump endpoint reduction gives
 
 ```math
 Dead\vee packing\text{-}detached\vee tower\text{-}blown.

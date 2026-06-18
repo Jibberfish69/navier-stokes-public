@@ -57,7 +57,10 @@ LCI.A_{avg}.
 With the strengthened source supplier
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses,}
 ```
 
 the averaged consumer chain gives

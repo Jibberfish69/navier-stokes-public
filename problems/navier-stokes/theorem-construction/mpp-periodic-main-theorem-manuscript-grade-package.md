@@ -146,7 +146,7 @@ D^+X_R+cN_R
 +F_R.
 ```
 
-The scale-small terms are absorbed by the `SCF_base` threshold and the `ATD_m^epsilon` seed. The common scheduler lemma below gives one finite partition for all cover elements and parameters. Summing the local outputs over bounded overlap gives `DTC.A_avg`.
+The scale-small terms stay inside the coefficient margin supplied by the `SCF_base` threshold and the `ATD_m^epsilon` seed. The common scheduler lemma below gives one finite partition for all cover elements and parameters. Summing the local outputs over bounded overlap gives `DTC.A_avg`.
 
 ## 4. Reusable scheduler lemma
 
@@ -184,7 +184,7 @@ Then `B,G in L^1`. By absolute continuity of the integral, choose finitely many 
 ### Theorem `SRC.Final`
 
 ```math
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)
 \Longrightarrow FCI.5f.
 ```
 
@@ -193,13 +193,18 @@ FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)
 The exact branch is the split
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FCI.5f.
 ```
 
 The strengthened sufficient branch is
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses.}
 ```
 
 Both branches produce the identical downstream frozen-family source object `FCI.5f`. Therefore the single consumer-facing theorem is `SRC.Final`.
@@ -292,7 +297,7 @@ Dead\vee packing\text{-}detached\vee Jump
 
 ### Proof
 
-The installed face absorptions are
+The installed first-face reductions are
 
 ```math
 packing\text{-}detached\Rightarrow Dead\vee Jump\vee tower\text{-}blown,
@@ -306,7 +311,10 @@ Dead\Rightarrow Jump\vee tower\text{-}blown,
 Jump\Rightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 ```
 
-At a first endpoint face, a non-tower face appearing on the right side would occur no later than the alleged first face. Thus the stable first-face alternative is `tower-blown`.
+At a first endpoint face, every non-tower face appearing on the right side is
+earlier than the alleged first face or is tied with it as an already-present
+first face. Removing those earlier-or-tied non-tower subcases leaves
+`tower-blown` as the stable first-face alternative.
 
 ## 9. Tower-to-continuation theorem
 

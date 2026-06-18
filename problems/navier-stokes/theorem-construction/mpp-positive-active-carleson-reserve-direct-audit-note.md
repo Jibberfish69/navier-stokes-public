@@ -37,7 +37,7 @@ bounded-overlap same-fluid terminal family.
 
 Raw energy and first-moment dissipation are not scale-critical tree reserves.
 They permit short heat-scale packets whose normalized positive source remains
-order one while raw quadratic cost shrinks with volume.
+equal to \(1\) while raw quadratic cost shrinks with volume.
 
 Local energy gives donor balance only modulo refill.  The installed
 `LocalDonorBalance.A` is already captured by the donor-balance note; upgrading
@@ -74,4 +74,3 @@ SourcePulseExclusion.A.
 
 Thus the positive-active reserve branch is a precise formulation of the
 remaining analytic theorem, not an installed discharge.
-

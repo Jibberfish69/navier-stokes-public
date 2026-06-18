@@ -84,7 +84,7 @@ The proof is the averaged lower-carrier Gronwall argument: `DTC.A_avg` supplies 
 The strengthened source supplier gives
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The averaged consumer chain then yields

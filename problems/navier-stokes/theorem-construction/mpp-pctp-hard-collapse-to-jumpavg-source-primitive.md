@@ -32,7 +32,10 @@ spending audit from `mpp-tgc-a-upstream-spending-audit-note.md`.
 Use the selected source/consumer row:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses,}
 ```
 
 as verified for the selected route by

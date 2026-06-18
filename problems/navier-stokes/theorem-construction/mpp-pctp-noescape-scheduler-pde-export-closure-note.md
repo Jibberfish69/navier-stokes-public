@@ -9,8 +9,8 @@ This note completes eight math-facing tasks:
 1. `PCTP.hard / TTU.A` proof polish.
 2. Continuum no-escape compactness hardening.
 3. `AACT.Global.noJump` scheduler audit.
-4. `DTC.Read.Press` standard PDE export.
-5. `CM.Readout` standard PDE export.
+4. `DTC.Read.Press` PDE export.
+5. `CM.Readout` PDE export.
 6. Target-fidelity exact branch statement.
 7. Route B / C3 / curvature classification.
 8. Final theorem dependency graph.
@@ -452,7 +452,7 @@ DTC.A_{avg}.
 
 The scheduler is uniform because every index set is finite and every estimate is controlled by common `L^1` majorants. The absorption threshold is global, chosen before the scheduler partition.
 
-## 4. `DTC.Read.Press` standard PDE export
+## 4. `DTC.Read.Press` PDE export
 
 ### Statement
 
@@ -522,7 +522,7 @@ Combining pressure and viscous terms gives
 
 Finite cover summation gives the pointwise transported-center forcing readout.
 
-## 5. `CM.Readout` standard PDE export
+## 5. `CM.Readout` PDE export
 
 ### Statement
 
@@ -565,7 +565,7 @@ The weighted mixed-jet surface supplies the canonical base-rung reading:
 \|u(t)\|_{H^s}\le\mathfrak A_s(\tau_0,r_0,t).
 ```
 
-Since `s>5/2`, this is a standard classical continuation norm.
+Since `s>5/2`, this is the classical Sobolev continuation norm.
 
 ## 6. Target-fidelity exact branch statement
 

@@ -9,14 +9,21 @@ This note does **not** prove the exact same-depth resonant pressure theorem
 `FIRP.A0`. It licenses the source supplier used by the averaged route:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)
+\Longrightarrow FCI.5f.
 \tag{PCTP.SRC.0}
 ```
+
+Here `\operatorname{Hyp}(FFSRC.A)` includes the weighted cutoff-defect
+integrability input
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 The exact branch remains:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f,
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FCI.5f,
 \qquad
 FPCR.C\text{ exact pressure wall below }FIRP.A0.
 \tag{PCTP.SRC.0e}
@@ -57,16 +64,19 @@ The cutoff commutator has the single-increment form
 \tag{PCTP.SRC.2}
 ```
 
-Young absorption gives
+The Young-margin split gives
 
 ```math
 |\mathcal C_N^{cut}(h,t;\psi)|
 \le
 \frac12\mathcal N_{N,h,\psi}^{visc}(t)
 +
-\mathfrak b_\psi^{cut}(t)E_N(h,t;\psi),
+4\nu\,\mathcal E_N^{cut,\nabla}(h,t;\psi),
 \qquad
-\mathfrak b_\psi^{cut}=4\nu(\Phi_\psi^{glob,(1)})^2.
+\mathcal E_N^{cut,\nabla}(h,t;\psi)
+:=
+\sum_{k=0}^{N}\lambda_k
+\int|\nabla\phi_t|^2|\delta_hU_k|^2.
 \tag{PCTP.SRC.3}
 ```
 
@@ -77,12 +87,13 @@ Summing over the finite frozen net,
 \le
 \frac12\mathcal N_{N,\rho,\psi}^{visc,\varepsilon}
 +
-\mathfrak b_\psi^{cut}\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+4\nu\,\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 \tag{PCTP.SRC.4}
 ```
 
 Therefore, after the pressure and strain/cascade source controls are in
-`L^1(I)` and `\mathfrak b_\psi^{cut}\in L^1(I)`, Gronwall gives
+`L^1(I)` and
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, Gronwall gives
 
 ```math
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
@@ -93,9 +104,9 @@ Therefore, after the pressure and strain/cascade source controls are in
 \tag{PCTP.SRC.5}
 ```
 
-This is the actual theorem-facing use of `FCC.C1`: cutoff is an absorption
-cell, not an independent replacement for the pressure and strain/cascade
-channels.
+This is the actual theorem-facing use of the corrected `FCC.C1`: cutoff is a
+Young-margin cell with a separate cutoff-defect input, not an independent
+replacement for the pressure and strain/cascade channels.
 
 ## Strain/Cascade Supplier `FSCR.C`
 
@@ -208,7 +219,8 @@ available only if `FIRP.A0` is proved.
 The averaged route is allowed to import the stronger source branch:
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1
+FFPB.A0+FFSC.C1+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FFSRC.A
 \Longrightarrow
@@ -245,15 +257,15 @@ After `(PCTP.SRC.16)`, `FFSC.C1` supplies
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-\Bigl(
-\mathfrak b_\psi^{cut}
+4\nu\,
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}
 +
 C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
-\Bigr)
 \mathcal F_{N,\rho,\psi}^{\varepsilon}.
 \tag{PCTP.SRC.17}
 ```
 
+With `\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`,
 Gronwall gives `\mathcal F^\varepsilon\in L^\infty(I)` and
 `\mathcal N^{visc,\varepsilon}\in L^1(I)`. Then `(PCTP.SRC.8)` and
 `(PCTP.SRC.5)` place the strain/cascade and cutoff channels in `L^1(I)`.
@@ -262,10 +274,12 @@ Using the split `(PCTP.SRC.1)` gives `FCI.5f`.
 ## Verdict
 
 For the main averaged route that explicitly imports `FFSRC.A`, the
-pressure/source supplier cell is discharged:
+pressure/source supplier cell is discharged only after the weighted
+cutoff-defect input is supplied:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)
+\Longrightarrow FCI.5f.
 \tag{PCTP.SRC.18}
 ```
 
@@ -276,9 +290,12 @@ FIRP.A0
 \Longrightarrow
 FPCR.C
 \Longrightarrow
-FCI.5f\quad\text{with }FSCR.C+FCC.C1.
+FCI.5f\quad\text{with }FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I).
 \tag{PCTP.SRC.19}
 ```
 
-Thus `PCTP.5.D` is closed for the selected strengthened source branch and
-remains open only for a stricter exact-source-route reconstruction.
+Thus `PCTP.5.D` is conditional for the selected strengthened source branch:
+the pressure and strain/cascade pieces are installed, while the cutoff channel
+requires the explicit weighted cutoff-defect integrability input or a separate
+domination theorem that proves it from the packet data.

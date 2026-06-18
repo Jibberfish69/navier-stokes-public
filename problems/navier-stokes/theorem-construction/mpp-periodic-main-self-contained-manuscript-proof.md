@@ -2,7 +2,7 @@
 
 ## Status
 
-Theorem-program manuscript hardening package for the periodic branch. The main line uses standard PDE language and names the route machinery as lemmas.
+Theorem-program manuscript hardening package for the periodic branch. The main line uses classical PDE language and names the route machinery as lemmas.
 
 ## Main theorem
 
@@ -129,7 +129,7 @@ D^+X_R+cN_R
 +F_R.
 ```
 
-Smallness from `SCF_base` and the seed from `ATD_m^epsilon` absorb the scale-critical terms. Lemma 2 supplies a common finite scheduler. Running the local first-exit argument on each cylinder and summing by bounded overlap gives `DTC.A_avg`.
+Smallness from `SCF_base` and the seed from `ATD_m^epsilon` keep the scale-critical terms inside the retained coefficient margin. Lemma 2 supplies a common finite scheduler. Running the local first-exit argument on each cylinder and summing by bounded overlap gives `DTC.A_avg`.
 
 ## Lemma 4: final source input
 
@@ -138,7 +138,7 @@ The source input consumed downstream is a single theorem:
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)
 \Longrightarrow FCI.5f.
 ```
 
@@ -212,7 +212,7 @@ with local Calderon--Zygmund/Schauder control for `p_i^{loc}` and harmonic far-t
 
 Pointwise `Field` and pointwise `DTC.A` then supply the old endpoint matrix, yielding `End_NS`.
 
-## Lemma 7: endpoint-face absorption
+## Lemma 7: endpoint-face reduction
 
 At the first finite endpoint face,
 
@@ -223,7 +223,7 @@ Dead\vee packing\text{-}detached\vee Jump
 
 ### Proof
 
-The installed absorptions are
+The installed first-face reductions are
 
 ```math
 packing\text{-}detached\Rightarrow Dead\vee Jump\vee tower\text{-}blown,
@@ -257,7 +257,13 @@ and the solution continues past `T_*`.
 
 ### Proof
 
-The tower bound controls velocity derivatives through order `N` on a finite terminal cover. Finite-cover Sobolev patching gives a uniform `H^s` bound because `N>s+2`. The standard periodic Navier--Stokes local theory in `H^s`, `s>5/2`, extends the solution beyond any finite endpoint with bounded `H^s` norm.
+The tower bound controls velocity derivatives through order `N` on a finite
+terminal cover. Finite-cover Sobolev patching gives a uniform `H^s` bound
+because `N>s+2`. The periodic `H^s`, `s>5/2`, local
+well-posedness/relaunch theorem gives a lifespan depending only on
+`s`, `nu`, and `sup_{t<T_*}||u(t)||_{H^s}`; relaunching from times
+`t_j\uparrow T_*` and using uniqueness on overlaps extends the same solution
+beyond `T_*`.
 
 ## Proof of the main theorem
 
@@ -281,7 +287,7 @@ u\in C^\infty([0,\infty)\times\mathbb T^3).
 | Final source input | downstream `FCI.5f` source object |
 | Averaged chain | `DTC.A_avg` to `End_NS_avg` |
 | Terminal readout | `End_NS_avg` to pointwise `End_NS` |
-| Endpoint-face absorption | old non-tower faces reduce to tower face |
+| Endpoint-face reduction | old non-tower faces reduce to tower face |
 | Tower continuation | pointwise tower control gives global continuation |
 
 ## Claim boundary

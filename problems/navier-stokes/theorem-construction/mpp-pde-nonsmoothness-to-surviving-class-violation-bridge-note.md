@@ -777,7 +777,7 @@ The execution order on the compactness route is:
 2. fix the contrapositive bridge form `(MBR.6)`;
 3. prove the extraction proposition `MBR.B`;
 4. prove the local reconstitution theorem `MBR.C`;
-5. apply the immediate contradiction corollary `MBR.D`;
+5. apply the direct contradiction corollary `MBR.D`;
 6. package the bridge as `MBR.E`;
 7. read the same bridge chronologically as `MBR.F`.
 
@@ -809,7 +809,7 @@ It only fixes:
 2. the contrapositive bridge form `(MBR.6)`;
 3. the extraction proposition `MBR.B`;
 4. the local reconstitution theorem `MBR.C` as the true middle theorem;
-5. the immediate contradiction corollary `MBR.D`;
+5. the direct contradiction corollary `MBR.D`;
 6. the compactness-route bridge theorem `MBR.E`;
 7. the chronological first-remaining-exit corollary `MBR.F`.
 

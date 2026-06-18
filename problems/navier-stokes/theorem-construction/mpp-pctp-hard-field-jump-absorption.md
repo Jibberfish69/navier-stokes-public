@@ -1,4 +1,4 @@
-# PCTP.hard Terminal Field / Jump Absorption
+# PCTP.hard Terminal Field / Jump Endpoint Reduction
 
 ## Status
 
@@ -80,7 +80,7 @@ Jump\Longrightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 
 ## Consequence
 
-Together with pack-detachment absorption and participation persistence, every non-tower first face is absorbed into the tower face. The remaining primitive endpoint face for `PCTP.hard` is therefore
+Together with pack-detachment endpoint reduction and participation persistence, every non-tower first face reduces to the tower face under first-face minimality. The remaining primitive endpoint face for `PCTP.hard` is therefore
 
 ```math
 tower\text{-}blown.

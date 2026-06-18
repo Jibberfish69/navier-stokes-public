@@ -54,7 +54,7 @@ Here `B_P` is the child active packet factor, `A_{P^-}` is the donor/parent
 source factor, and `\mathcal L_P` contains pressure normalization, cutoff,
 transport leakage, and off-packet shell losses.
 
-The legal-loss ledger is assumed in the standard form
+The legal-loss ledger is assumed in the explicit form
 
 ```math
 \sum_P\int_{Q(P)}\mathcal L_P

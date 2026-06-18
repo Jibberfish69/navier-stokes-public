@@ -86,7 +86,17 @@ as the next coarse target. The local algebraic half is already separated:
 LocalDonorBalance.A.
 ```
 
-The non-Zeno entrance branch is also controlled by original smooth tail decay.
+The non-Zeno entrance branch is paid by `EntranceLeafDecay.A`: fixed
+preterminal time or positive-scale entrance leaves satisfy
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
+
 The remaining donor burden is the terminal Zeno source-refill branch:
 
 ```math

@@ -25,11 +25,19 @@ finality and does not license PDF finality.
 The current active obstruction is the first terminal Pack/source failure in the
 public Clay finality bridge. The latest direct pass paid retained signed
 partners, legal exits, ASAC pair-weight defects, and finite donor trees, but
-left the terminal Zeno source-refill model
+left the terminal Zeno source-refill branch: nonnegative selected source-time
+marginals on shrinking terminal windows
 
 ```text
-g_m(s) = m 1_{(-1/m,0]}(s).
+I_m=(T_m-tau_m,T_m],
+tau_m -> 0,
+g_m >= 0,
+integral_{I_m} g_m(s) ds >= M0 > 0,
+sup_m integral_{I_m} g_m(s) ds < infinity.
 ```
+
+The scalar witness `g_m(s)=m 1_{(-1/m,0]}` is the sharp example for this
+branch; it is not an assumed profile for every branch.
 
 The existing note correctly says that CM face support is not the same as the
 forward payment needed by the public first-Pack survival chain. The false move
@@ -80,14 +88,27 @@ same scale.
 For a packet `P` at scale `r`, use:
 
 ```text
-U_P(t)       velocity amplitude at scale r
-A_P(t)       packet-normalized gradient/vorticity load A_P(t):=r^{-1}U_P(t),
-             unless a sharper local gradient or vorticity record is installed
+Delta_P u(t) velocity spread on the packet ball:
+             sup_{x,y in B_r(x_P)} |u(x,t)-u(y,t)|
+G_P(t)       installed packet readout, e.g. sup_{B_r(x_P)} |nabla u(.,t)|,
+             sup_{B_r(x_P)} |omega(.,t)|, or the selected source-current load
+A_P^osc(t)   r^{-1} Delta_P u(t), an oscillation-per-radius observable
 E_P(t)       localized kinetic energy
 D_P(I)       viscous dissipation over I
 F_P(I)       lawful incoming pressure / transport / neighbor flux
 Loss_P(I)    transfer loss / donor attenuation / return debt over I
 ```
+
+The exact relation available from differentiability is one-way:
+
+```text
+Delta_P u(t) <= 2r sup_{B_r(x_P)} |nabla u(.,t)|.
+```
+
+Thus `A_P^osc(t) <= 2G_P(t)` when `G_P` is the local gradient readout. The
+reverse replacement `G_P(t) = r^{-1}U_P(t)` is not available without an
+additional lower-bound or saturation hypothesis tying the selected readout to
+the packet oscillation.
 
 Raw local energy is not enough as the singularity cost. A scale-critical packet
 may carry small localized energy while still carrying large gradient or source
@@ -419,7 +440,7 @@ TerminalPeakBackoff.A
   prove a positive return/dissipation interval is required for large packet peaks
 
 LimitOfClassTerminalArtifact.A
-  decide whether the terminal strip model is only a boundary artifact
+  decide whether the surviving endpoint time marginal is only a boundary artifact
 
 SinguletSpinSmoothExteriorCompatibility.A
   test infinite point spin with smooth finite participating exterior
@@ -443,7 +464,7 @@ It changes the parent route. The next proof work must not be an isolated
 `LowHighTerminalSourceTimeAntiAtom.A` attempt unless that attempt is rewritten
 as part of the governed participation-debt mechanism above.
 
-The immediate parent targets are:
+The next parent targets are:
 
 ```text
 MinimumSingularityCostFunctional.A,
@@ -464,7 +485,7 @@ both rendered PDF final rereads.
 
 ## June 10 Target Closure Addendum
 
-The immediate parent targets above were then pursued directly in:
+The parent targets above were then pursued directly in:
 
 ```text
 mpp-participation-debt-pass-exit-target-closure-20260610.md

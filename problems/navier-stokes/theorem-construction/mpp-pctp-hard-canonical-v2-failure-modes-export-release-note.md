@@ -365,7 +365,8 @@ For the weighted tower formulation, the base rung gives
 \|u(t)\|_{H^s}\le\mathfrak A_s(\tau_0,r_0,t).
 ```
 
-Since `s>5/2`, this is a standard classical continuation norm. Thus the route-native class witness exports to the usual PDE continuation criterion.
+Since `s>5/2`, this is the classical Sobolev continuation norm. Thus the
+route-native class witness exports to the PDE continuation criterion.
 
 ---
 

@@ -1,4 +1,4 @@
-# PCTP.hard Pack-Detachment Absorption
+# PCTP.hard Pack-Detachment Endpoint Reduction
 
 ## Status
 
@@ -133,4 +133,4 @@ Jump,
 
 ## Boundary
 
-This note proves a conditional absorption lemma. It does not produce `Part`, `Field`, or bounded tower amplitude from `OriginalSmoothData`. Those remain the terminal-tail production obligations.
+This note proves a conditional endpoint-reduction lemma: under `Part`, `Field`, and bounded tower amplitude, pack detachment forces `Dead`, `Jump`, or `tower-blown`. It does not produce `Part`, `Field`, or bounded tower amplitude from `OriginalSmoothData`. Those remain the terminal-tail production obligations.

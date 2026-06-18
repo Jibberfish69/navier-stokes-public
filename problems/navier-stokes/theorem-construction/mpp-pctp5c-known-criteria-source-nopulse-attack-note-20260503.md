@@ -44,8 +44,9 @@ mixed bilinear dissipation on the same short windows where }\gamma_j
 \text{ is large.}
 ```
 
-Equivalently, forbid a terminal family of source-balanced active windows
-supporting the mixed bilinear dissipation measure
+In the route notation used here, the same target is the exclusion of a terminal
+family of source-balanced active windows supporting the mixed bilinear
+dissipation measure
 
 ```math
 \mathfrak B_N^\sigma(t)\,dt
@@ -115,8 +116,8 @@ cannot concentrate as a positive source-balanced active pulse, and the
 
 ### Proof
 
-Each clause is a standard regularity criterion applied to the same normalized
-source-pulse family.
+Each clause is conditional on a named placement hypothesis for the same
+normalized source-pulse family.
 
 For `KC.L3`, the terminal source pulse would give a bounded critical
 `L_t^\infty L_x^3` blow-up profile.  The backward-uniqueness route rules out a
@@ -128,8 +129,9 @@ placement hypothesis puts that limit in a Liouville class.  The Liouville
 conclusion removes the nonzero active source residue, contradicting the
 definition of the source-pulse limit.
 
-For `KC.CKN`, the small scale-invariant local quantities give epsilon
-regularity on the pulse cylinder.  A regular cylinder cannot carry the bad
+For `KC.CKN`, the placement hypothesis is the displayed smallness
+`C(r)+D(r)<epsilon_CKN` on the pulse cylinder.  CKN epsilon regularity then
+gives a regular cylinder, and a regular cylinder cannot carry the bad
 `Jump_avg` source-pulse defect.
 
 For `KC.Dir`, vorticity-direction coherence blocks concentration of the
@@ -137,7 +139,7 @@ stretching source in the active channel.  Without positive source-balanced
 stretching, `AWG.A` follows on the branch and hence
 `JAVG.1+JAVG.2` eliminates `Jump_avg`.
 
-Thus any one placement theorem gives
+Any one placement theorem gives
 
 ```math
 SOURCE.NO\text{-}PULSE.A
@@ -186,8 +188,8 @@ This matches the installed direct audits:
 
 ## Fast Full-Route Target
 
-The fastest broad theorem to prove is therefore not another supplier synonym.
-It is the placement dichotomy:
+The broad theorem still to prove is not another supplier synonym. It is the
+placement dichotomy:
 
 ```math
 \boxed{
@@ -219,7 +221,7 @@ PCTP.hard/TTU.A
 
 This is the current high-power attack surface for the contrapositive proof
 program.  It preserves the broad target while avoiding further churn among
-equivalent labels such as `AWG.A`, `SOURCE.NO-PULSE.A`, `QDrain.A`,
+route-alias labels such as `AWG.A`, `SOURCE.NO-PULSE.A`, `QDrain.A`,
 `MSC.BadAC`, `PulseCharge.A`, and `SignedLocalSource.A`.
 
 ## Candidate `KC.Place` Boundary Audit
@@ -240,9 +242,16 @@ Indeed, once a fixed positive retained field scale and finite endpoint depth are
 already available on the same source-pulse family, the retained-field anchoring
 lemma from
 `mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md`
-gives uniform interior velocity, pressure, and finite-tower bounds.  Shrinking
-inside the retained scale makes the CKN quantities small on a finite
-same-carrier subcover.
+gives uniform interior velocity, pressure, and finite-tower bounds.  The exact
+consumer statement is: for each retained cylinder there is a same-carrier
+subcylinder of radius `rho` inside the retained positive field scale such that
+
+```math
+C(\rho)+D(\rho)<\varepsilon_{CKN}.
+```
+
+That is a retained-branch CKN placement, not a branch-native `Jump_avg`
+placement.
 
 This is useful, but it is not a branch-native proof of `PCTP.5.C`.
 
@@ -257,7 +266,7 @@ terminal tail.  Spending retained `Field` or `Field_avg` to obtain the CKN
 subcover proves the non-jump retained branch only.  It does not eliminate the
 raw `Jump_avg` branch where that coherence is absent.
 
-Therefore the following stronger line is not installed:
+The following stronger line is not installed:
 
 ```math
 \boxed{
@@ -277,7 +286,7 @@ KC.L3\vee KC.Liouville\vee KC.CKN\vee KC.Dir
 ```
 
 or it must force an already-real class exit through `Pack`, `Part`, or `Field`
-by a theorem not equivalent to the missing field assumption.
+by a theorem that does not spend the missing field assumption.
 
 ## Boundary
 

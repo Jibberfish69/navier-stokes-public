@@ -81,7 +81,7 @@ singulet_compatibility: 1
 other / no six-mechanism title match: 168
 ```
 
-Representative mechanism files:
+Mechanism files used for the six-bucket workflow:
 
 ```text
 cost:

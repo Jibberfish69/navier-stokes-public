@@ -155,7 +155,8 @@ blocked status and are not independent theorem authority.
 | tower base rung | `H^s` norm control |
 | `s>5/2` | classical Sobolev continuation regime |
 
-At the final continuation step, the active hypothesis is the standard PDE norm bound
+At the final continuation step, the active hypothesis is the `H^s`, `s>5/2`,
+continuation norm bound
 
 ```math
 \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.

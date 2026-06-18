@@ -115,21 +115,28 @@ FCC.C1,\qquad FSCR.C,\qquad FPCR.C,
 and, if the strengthened route imports it,
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses.}
 \tag{PCTP.5.D2}
 ```
 
 The audit must keep the exact and strengthened source branches separate:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FCI.5f
 \tag{PCTP.5.D3}
 ```
 
 is the exact post-`LCI.A` source assembly, while
 
 ```math
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FFSRC.A\Longrightarrow FCI.5f
+FFPB.A0+FFSC.C1+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FFSRC.A\Longrightarrow FCI.5f
 \tag{PCTP.5.D4}
 ```
 
@@ -137,8 +144,8 @@ is the organized strengthened import. Neither branch may be silently used as
 the other.
 
 **Current discharge status.** For the selected averaged route that imports
-`FFSRC.A`, this cell is discharged by
-`mpp-pctp-hard-source-supplier-verification-note.md`. The exact same-depth
+`FFSRC.A`, this cell is conditional on the weighted cutoff-defect input recorded
+in `mpp-pctp-hard-source-supplier-verification-note.md`. The exact same-depth
 reconstruction remains open at `FIRP.A0` if that stricter route is required.
 
 ## PCTP.5.E — bridge-license audit into class membership
@@ -206,8 +213,8 @@ PCTP.5.B,\qquad PCTP.5.D,\qquad PCTP.5.E
 ```
 
 are discharged for the selected route by the restart-scheduler cover theorem,
-the strengthened `FFSRC.A=>FCI.5f` source verification, and the bridge-license
-audit into `CM=Pack+Part+Field`.
+the strengthened `FFSRC.A=>FCI.5f` source verification with its cutoff-defect
+hypothesis, and the bridge-license audit into `CM=Pack+Part+Field`.
 
 The active averaged-route primitive is now exactly:
 

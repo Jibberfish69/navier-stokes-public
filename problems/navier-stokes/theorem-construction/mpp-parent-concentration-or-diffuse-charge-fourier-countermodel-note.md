@@ -56,7 +56,8 @@ Then the model positive parent measure has the form
 {1\over M}\sum_{\alpha=1}^M \delta_{P^-_\alpha},
 ```
 
-after normalizing the total child-feeding source to be order one.
+after normalizing the total child-feeding source to
+\(\sum_{\alpha=1}^{M}M^{-1}=1\).
 
 ## Failure of bounded parent concentration
 
@@ -82,7 +83,7 @@ positive edge measure.
 
 ## Failure of the installed diffuse charges
 
-The natural donor energy of the low modes scales like
+For normalized low-mode pieces \(\|b_\alpha\|_2=1\), the natural donor energy is
 
 ```math
 \sum_{\alpha=1}^M \|a_\alpha\|_2^2
@@ -93,8 +94,8 @@ M\cdot M^{-2}\|b_\alpha\|_2^2
 
 The same phenomenon holds for any raw quadratic donor ledger tied only to the
 ordinary finite-energy or local-energy scale.  The total positive source feeding
-the child can remain order one while the raw quadratic donor cost of the diffuse
-family tends to zero.
+the child is \(\sum_{\alpha=1}^{M}M^{-1}=1\), while the raw quadratic donor cost
+of the diffuse family is \(M\cdot M^{-2}=M^{-1}\to0\).
 
 Pressure and cutoff ledgers do not price this legal nonlinear parent diffusion;
 they route separated response and localization terms.  `SourceLocalizationLoss`
@@ -138,8 +139,27 @@ installed finite charge for the diffuse part.
 ## Verdict
 
 The proposed localized-ancestry closure cannot be completed from current
-materials by proving `ParentConcentrationOrDiffuseCharge.A` as a bookkeeping or
-standard Littlewood-Paley consequence.
+materials by finite packet bookkeeping or Littlewood--Paley shell localization.
+The obstruction is quantitative: for the legal predecessor family above,
+
+```math
+\sup_{|\mathcal C|\le B}
+\pi_P(\mathcal C)
+\le
+{B\over M}\pi_P(\mathsf{Pred}(P))
+\to0,
+```
+
+while the installed raw quadratic donor cost satisfies
+
+```math
+\sum_{\alpha=1}^M\|a_\alpha\|_2^2=M^{-1}.
+```
+
+Thus bounded parent concentration fails and the currently installed diffuse
+charges vanish on the same model.  The missing input is an inverse
+Littlewood--Paley / reverse-Holder concentration theorem or an equivalent
+scale-normalized donor-depletion reserve for positive source-parent edges.
 
 The exact remaining theorem is sharpened to:
 

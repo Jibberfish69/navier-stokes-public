@@ -33,7 +33,11 @@ Thus
 \sup_{t<T_*}\|u(t)\|_{H^s(T^3)}<\infty.
 ```
 
-For the periodic incompressible Navier--Stokes equation, the standard local well-posedness and continuation criterion in `H^s`, `s>5/2`, says that a classical solution can be continued past `T_*` whenever the `H^s` norm remains bounded up to `T_*`. Therefore the assumed finite maximal endpoint contradicts local continuation.
+For the periodic incompressible Navier--Stokes equation, the `H^s`, `s>5/2`,
+local well-posedness/relaunch theorem gives a lifespan depending only on the
+displayed bound. Relaunching from times `t_j\uparrow T_*` and using uniqueness
+on overlaps continues the same classical solution past `T_*`, contradicting the
+assumed finite maximal endpoint.
 
 ## Consequence
 

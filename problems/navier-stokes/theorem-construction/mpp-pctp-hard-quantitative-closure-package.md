@@ -128,7 +128,10 @@ The proof is the averaged lower-carrier Gronwall closure: `DTC.A_avg` supplies t
 The source theorem supplies
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses.}
 ```
 
 Then
@@ -186,7 +189,7 @@ Dead\vee packing\text{-}detached\vee Jump
 
 ### Proof
 
-The pack-detachment absorption lemma gives
+The pack-detachment endpoint-reduction lemma gives
 
 ```math
 packing\text{-}detached\Rightarrow Dead\vee Jump\vee tower\text{-}blown.
@@ -204,7 +207,10 @@ Field/jump absorption gives
 Jump\Rightarrow Dead\vee packing\text{-}detached\vee tower\text{-}blown.
 ```
 
-Under first-face ordering, any non-tower alternative appearing on the right would precede or coincide with the alleged first face. Hence the only stable first-face alternative is `tower-blown`.
+Under first-face ordering, every non-tower alternative on the right is either
+earlier than the alleged first face or is itself already present at that first
+time. Removing those earlier-or-tied non-tower subcases leaves `tower-blown` as
+the only stable first-face alternative.
 
 ## 8. Tower-to-continuation theorem
 
@@ -241,13 +247,18 @@ FCI.5f.
 It is supplied by either the exact source split
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f,
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\Longrightarrow FCI.5f,
 ```
 
 or the strengthened sufficient branch
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f,
+\qquad
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
+\text{ among those hypotheses.}
 ```
 
 For the current route, the single consumer-facing theorem is therefore:
@@ -255,7 +266,7 @@ For the current route, the single consumer-facing theorem is therefore:
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)
+\operatorname{Hyp}(FFSRC.A)\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)
 \Longrightarrow FCI.5f.
 ```
 

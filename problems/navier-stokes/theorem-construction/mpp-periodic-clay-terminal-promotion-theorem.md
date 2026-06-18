@@ -31,14 +31,15 @@ Then `T_* = infinity`.
 
 ### Proof
 
-Choose `t_j\uparrow T_*`.  The uniform `H^s` bound and the standard local
-classical Navier-Stokes theory on `T^3` give a common lifespan
+Choose `t_j\uparrow T_*`.  The uniform `H^s`, `s>5/2`, bound and the periodic
+`H^s` local well-posedness/relaunch theorem give a common lifespan
 `\tau=\tau(\sup_{t<T_*}\|u(t)\|_{H^s})>0` for data launched at every `t_j`.
-For `j` large enough, `t_j+\tau>T_*`.  Classical uniqueness identifies the
+Choose `j` with `T_*-t_j<\tau`.  Then `t_j+\tau>T_*`.  Classical uniqueness identifies the
 relaunched solution with `(u,p)` on the overlap, extending `(u,p)` beyond
 `T_*`, contradicting maximality.  Hence `T_*=\infty`.
 
-This is the standard continuation step.  It is not the hard Clay step.
+This is the exact continuation conversion used here.  The hard Clay step is
+the endpoint-tail uniformization that supplies the uniform `H^s` readout.
 
 ## Remaining Theorem `PCTP.hard` (endpoint-tail uniformization)
 
@@ -115,10 +116,12 @@ analytic suppliers are genuinely proved, not merely assembled:
    "`LCI.A` is installed" assertion.
 2. Source supplier: the exact post-`LCI.A` source route is not proved by the
    terminal assembly note itself.  It reduces to the pressure/nonpressure pair
-   `FIRP.A0 + FSCR.C`, with `FCC.C1` serving as cutoff absorption once
-   `\mathfrak b_\psi^{cut}\in L^1(I)` is available.  The stronger route
-   `FFSRC.A => FCI.5f` may be used only as an explicitly named sufficient import;
-   it does not prove the exact same-depth branch `FPCR.C + FSCR.C`.
+   `FIRP.A0 + FSCR.C`, with `FCC.C1` contributing only through the Young-margin
+   cutoff estimate plus the weighted cutoff-defect input
+   `\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.  The stronger
+   route `FFSRC.A => FCI.5f` may be used only with the current `FFSRC.A`
+   hypotheses, including that cutoff-defect input; it does not prove the exact
+   same-depth branch `FPCR.C + FSCR.C`.
 3. Endpoint/readout supplier: prove `DTC-to-TowerBound` / `DTC.Read`, including
    the pressure component of
    `K_q=-\nabla^{q+1}p+\nu\Delta U_q`.  The missing readout estimate is the

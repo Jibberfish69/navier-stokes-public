@@ -42,19 +42,23 @@ It remains to check terminal closedness of the witness. By the positive `Field` 
 
 The participation predicates are closed finite predicates under these limits: incidence of the retained same-fluid labels, nonzero neighboring response, and finite-difference compatibility survive after restricting to a sufficiently late terminal subtail. Therefore the limiting terminal witness still satisfies `Part_{N,Q}`.
 
-If `Part_{N,Q}` were the first failed class-membership component, then `Field` and the tower amplitude would remain controlled by definition of first failure. The closedness argument above would then force `Part_{N,Q}` to remain true at the terminal tail, contradicting first failure.
+Assume `Part_{N,Q}` is the first failed class-membership component. Then
+`Field_{N,r,Q}` and the tower amplitude remain controlled by definition of
+first failure. The closedness argument above gives `Part_{N,Q}` on the terminal
+tail, contradicting the assumption that participation is the first failed
+component.
 
 Thus participation cannot fail first unless either the positive field scale has already failed or the tower amplitude has already blown.
 
 ## Consequence
 
-The dead endpoint is absorbed by the remaining primitive faces:
+The dead endpoint reduces to the remaining primitive faces:
 
 ```math
 Dead\Longrightarrow Jump\vee tower\text{-}blown.
 ```
 
-Together with the pack-detachment absorption lemma, the terminal-tail endpoint list reduces conditionally to
+Together with the pack-detachment endpoint-reduction lemma, the terminal-tail endpoint list reduces conditionally to
 
 ```math
 Jump\vee tower\text{-}blown.
