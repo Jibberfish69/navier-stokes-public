@@ -6214,3 +6214,37 @@ generic bootstrap phrase.
 Surface edited:
 
 - `theorem-construction/mcp-atd_m-epsilon-ckn-admissible-local-completion-read-cover-4fd93155f1.md`.
+
+## Retained Interior Radius And Flow-ODE Standard-Step Repair
+
+Old claims being spent:
+
+Two active notes used "standard" language at proof-spending points:
+
+- the retained-field energy anchor put the lower ball inside the local section
+  "after the standard interior shrink";
+- the smooth-window class-membership note invoked "Standard smooth ODE theory"
+  for the diffeomorphic same-fluid motion.
+
+Exact replacement:
+
+The retained-field lemma now assumes a retained interior subsection
+`Q_t^{int}` with radius `r_int>0` and uses
+
+```text
+rho = min{r, r_int, M/(2C)}.
+```
+
+The resulting bound is on `Q_t^{int}`.  Without `r_int>0`, the lemma does not
+give a uniform boundary-adjacent bound.
+
+The flow note now states the actual ODE argument: smoothness gives bounded
+continuous `nabla u` on the compact tube, the flow map is `C^1`, `F=D_a Phi`
+solves the variational equation, `det F=1` is nonzero, the inverse-function
+theorem gives local invertibility, and uniqueness of forward/backward flows gives
+the global inverse.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md`;
+- `theorem-construction/mpp-still-live-smooth-window-implies-class-membership-theorem.md`.
