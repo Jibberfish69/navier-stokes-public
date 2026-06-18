@@ -1900,6 +1900,44 @@ Edited live surfaces:
 - `theorem-construction/frozen-cap-pair-bilinear-form-lemma.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Terminal Record Entry Relaunch Rework
+
+Old loose step:
+
+- `theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`
+  proved terminal-record entry by calling it the "standard maximal-solution
+  argument" and described the relaunch theorem in prose.
+- The main manuscript proof cited the terminal record entry proposition and
+  said the restart-readout case continues the same solution without spelling
+  out the exact same-branch relaunch payment at that point.
+
+Exact replacement:
+
+The theorem note now spends only the explicit bounded-norm relaunch statement:
+
+```math
+M_s:=\sup_{0\le t<T_*}\|u(t)\|_{H^s}<\infty,
+\qquad
+\tau=\tau(\nu,s,M_s)>0.
+```
+
+For `t_j\uparrow T_*` with `T_*-t_j<\tau/2`, local `H^s`, `s>5/2`, theory
+relaunches from `u(t_j)` on `[t_j,t_j+\tau]`, and classical `H^s` uniqueness
+identifies that local solution with the original branch on `[t_j,T_*)`.
+Thus a bounded continuation norm extends the same branch past `T_*`, contrary
+to finite classical breakdown.
+
+Downstream consequence: the main manuscript's finite-obstruction/exhaustion
+proof now includes the same `M_s`, `\tau(\nu,s,M_s)`, relaunch, and uniqueness
+overlap statement before using the terminal record entry proposition. Consumers
+may no longer read terminal record entry as a generic "standard continuation"
+step.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-terminal-record-entry-standard-pde-hardening-20260608.md`;
+- `submission-bundle/navier-stokes-submission.tex`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
