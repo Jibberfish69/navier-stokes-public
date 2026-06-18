@@ -43,7 +43,7 @@ SourceResidueLiouville.A:
 \gamma_\ast\,d\mu_\ast^\sigma=0.
 ```
 
-This would contradict the inherited nonzero source residue.
+This contradicts the inherited nonzero source residue once the compact-bound production theorem places the limit in `\mathcal B`.
 
 ## Compact-Bound Test
 

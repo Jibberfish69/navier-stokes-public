@@ -25,7 +25,7 @@ plus one of the two closures audited here.
 
 ## Alternative 1: `AncestryDrain.A`
 
-The drain theorem would say that every legal source-parent step either spends a
+The drain theorem must say that every legal source-parent step either spends a
 fixed positive amount of a finite route reserve or strictly improves a bounded
 terminal charge.  Then an infinite same-fluid ancestry chain is impossible.
 

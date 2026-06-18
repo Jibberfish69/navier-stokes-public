@@ -63,16 +63,16 @@ zero-first-moment scalar-pulse visibility
 meaning:
 
 ```text
-an order-one first-created donor-square reserve surplus may remain visible in
-the square ledger while its first signed or height-flux moment cancels or
-collapses at terminal scale.
+a first-created donor-square reserve surplus bounded below by `c_0>0` may
+remain visible in the square ledger while its first signed or height-flux moment
+cancels or collapses at terminal scale.
 ```
 
 The current proof attempt uses dyadic layer-cake selection and then names the
 escape cases, but it does not prove that every zero-first-moment escape is
 forced into Pack, Part, Field, or Zeno on the same retained terminal ledger.
 That missing forcing statement is exactly the theorem, so using it to consume
-`SourceReserveBirthCharge.A` would be circular.
+`SourceReserveBirthCharge.A` is circular.
 
 ## Acceptance Rule
 
@@ -82,7 +82,7 @@ only after a proof surface supplies all of the following:
 
 1. a signed-cancellation normal form for the first-created positive
    donor-square reserve surplus;
-2. a same-ledger extraction showing that an order-one square reserve creates
+2. a same-ledger extraction showing that a square reserve bounded below by `c_0>0` creates
    either active height flux or a declared witness-face defect;
 3. a Pack/Part/Field/Zeno landing for every zero-first-moment scalar-pulse
    escape, without importing `ScaleCriticalTreeCarleson.A`,
@@ -106,14 +106,14 @@ The first proof object to write is a local visibility lemma:
 
 ```text
 ZeroMomentReserveVisibility.A:
-on the first minimal terminal window, an order-one retained positive
-donor-square reserve surplus with vanishing first moment must either generate
-a same-ledger active height-flux level set after signed-pair decomposition or
-land as Pack carrier loss, Part dwell failure, licensed Field source charge,
-or terminal Zeno residue.
+on the first minimal terminal window, a retained positive donor-square reserve
+surplus bounded below by `c_0>0` with vanishing first moment must either
+generate a same-ledger active height-flux level set after signed-pair
+decomposition or land as Pack carrier loss, Part dwell failure, licensed Field
+source charge, or terminal Zeno residue.
 ```
 
-This lemma is the honest missing bridge.  It should be attacked directly by
+This lemma is the honest missing bridge.  It must be attacked directly by
 normal-form decomposition of the signed terminal pulse, extremal first-window
 selection, and witness-face routing, not by declaring the trichotomy as already
 proved.

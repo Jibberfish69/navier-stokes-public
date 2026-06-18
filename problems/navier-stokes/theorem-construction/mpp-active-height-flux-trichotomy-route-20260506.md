@@ -146,11 +146,13 @@ while the source wall sees:
 
 So finite Pack gauge alone cannot control `(AHF.2)`.
 
-The trichotomy adds the missing heat-dwell sampling principle:
+The trichotomy target is the missing heat-dwell sampling principle:
 
 ```text
 If high packets only harvest the positive strain phases, the harvesting itself
-has to be paid by participation, Field source charge, or terminal Zeno residue.
+is bounded by the same participation, Field source-charge, and terminal Zeno
+residue ledgers appearing in (AHF.3). If that bound fails while Pack remains
+bounded, the selective heat-dwell sampler is the obstruction.
 ```
 
 The affine counterexample counts positive strain without a retained high packet
@@ -159,7 +161,7 @@ actual NS packet cannot teleport between positive phases for free.
 
 ## 3. Heat-dwell sampling lemma
 
-The first sublemma should be:
+The first named sublemma target is:
 
 ```text
 HeatDwellSampling.A.
@@ -212,9 +214,10 @@ saturation, active-alignment depletion, tangent-weight rigidity, or donor
 depletion is installed.
 
 The frame audit gives the same verdict for `FrameBVCharge.A`: subparabolic
-non-rotating frame variation is harmless, parabolic-amplitude variation routes
-to burst height, and the live remainder is active frame-alignment depletion
-through `ActiveStrainAlignmentCost.A / TPNI.A / TerminalSignedSaturation.A`.
+non-rotating frame variation is controlled by the subparabolic bound,
+parabolic-amplitude variation routes to burst height, and the live remainder is
+active frame-alignment depletion through
+`ActiveStrainAlignmentCost.A / TPNI.A / TerminalSignedSaturation.A`.
 
 The active-alignment depletion route is assembled in
 `mpp-asac-parent-drain-assembly-20260506.md` after
@@ -224,8 +227,8 @@ The active-alignment depletion route is assembled in
 ASAC.A
 ```
 
-on the terminal first-pulse parent-drain route.  Thus the frame-BV remainder
-should now consume `ASAC.A`; the remaining live microfrontier is the
+on the terminal first-pulse parent-drain route.  At this reduction level the
+frame-BV remainder consumes `ASAC.A`; the remaining live microfrontier is the
 near-band material/pressure source charge.
 
 The near-band source charge has now been sharpened in
@@ -360,8 +363,10 @@ the Pack face becomes relevant again:
 ```
 
 This is not the false accumulated-positive-strain claim.  It is only a
-net-strain claim on a heat-dwell window.  It should follow from the transported
-deformation equation plus frame/packet errors.
+net-strain claim on a heat-dwell window.  The proof input is the transported
+deformation equation together with the frame and packet error ledgers; until
+those estimates prove `(AHF.6)`, this clause is exactly the `NetPackSpend.A`
+burden.
 
 Thus:
 
@@ -484,13 +489,14 @@ Primary references used as outside intuition, not as proof imports:
 
 ## 9. Current verdict
 
-`ActiveHeightFluxTrichotomy.A` is the strongest next architecture because it is
+`ActiveHeightFluxTrichotomy.A` is the strongest current architecture because it is
 the first target that can lawfully spend all three CM faces plus the Zeno
 alternate.  It does not pretend to prove a positive source estimate from scalar
-energy.  It says positive source creation has to show up somewhere in the
-class-exit grammar.
+energy.  Its exact content is the inequality `(AHF.3)`: positive source creation
+is routed to Pack gain, Part/dwell failure, legal Field source charge, or a Zeno
+source-residue atom.
 
-The next direct proof attempt should be:
+The direct proof target is:
 
 ```text
 HeatDwellSampling.A.
@@ -503,4 +509,5 @@ high packets can selectively sample positive strain phases under heat dwell,
 bounded Pack, retained Part, legal Field loss, and no Zeno atom.
 ```
 
-That would be a concrete obstruction model, not another vague source-wall name.
+That is a concrete obstruction model under the displayed no-PACK/no-PART/no-FIELD/no-Zeno
+hypotheses, not another vague source-wall name.

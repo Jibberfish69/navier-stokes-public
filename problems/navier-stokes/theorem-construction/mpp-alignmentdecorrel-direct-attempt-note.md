@@ -13,7 +13,7 @@ AlignmentDecorrel.A.
 }
 ```
 
-It would prevent the active shell direction from retaining terminal positive
+The target estimate prevents the active shell direction from retaining terminal positive
 alignment with expanding eigendirections of the localized low/intermediate
 strain.
 

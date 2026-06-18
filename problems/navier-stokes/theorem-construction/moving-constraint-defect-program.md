@@ -44,7 +44,7 @@ Here `\mu,\eta` vanish at `t=t_0` and are small on short slabs.
 The natural move is to repair the nonzero divergence by a classical divergence
 solver in the frozen `x` variables.
 
-Let `\mathcal B` be a standard Bogovski\u012d-type right inverse of
+Let `\mathcal B` be a Bogovski\u012d-type right inverse of
 `\operatorname{div}_x` on the working patch/domain, and define
 
 ```math
@@ -102,7 +102,7 @@ Substituting `w=u+\mathcal B g` into `(1)` yields
 with `\operatorname{div}_x u=0`, where `\Pi` absorbs the pressure-equivalent
 gradient terms coming from the correction.
 
-This is now a genuine perturbation of classical Stokes on the **standard**
+This is now a genuine perturbation of classical Stokes on the fixed
 divergence-free space.
 
 ## Exact next lemma targets
@@ -147,7 +147,7 @@ C_{\mathcal B}C_s
 \tag{9a}
 ```
 
-For `s>\frac32`, this is a standard Moser/Bogovski\u012d estimate. The point is
+For `s>\frac32`, this is the Moser/Bogovski\u012d estimate `(9a)`. The point is
 that the divergence defect sits on the `H^{s+1}` part of the slab velocity
 ledger, not merely on `H^s`.
 
@@ -195,9 +195,9 @@ transport-type term once `\mu` is controlled in `H_x^s\cap W_x^{1,\infty}`.
 
 This is a real gain, but it does **not** by itself close the bridge: the system
 still has a nonzero divergence constraint and the pressure defect
-`\mu^\top\nabla_x\pi` remains. So `(9b)`-`(9c)` should be read as a diagnostic
-showing the divergence defect is perturbative, not as a replacement for the
-Bogovski\u012d/pressure package.
+`\mu^\top\nabla_x\pi` remains.  Thus `(9b)`-`(9c)` are a diagnostic showing that
+the divergence defect is perturbative; they are not a replacement for the
+Bogovskii/pressure package.
 
 ### Lemma B. Corrected forcing estimate
 
@@ -333,7 +333,7 @@ Then the classical Bogovski\u012d bounds give
 \tag{10i}
 ```
 
-and by standard same-depth Moser/Kato--Ponce product calculus,
+and by same-depth Moser/Kato--Ponce product calculus,
 
 ```math
 \|g\|_{L_t^2H_x^s}
@@ -459,8 +459,8 @@ the coefficient drift satisfies
 \tag{10r}
 ```
 
-so Lemma B is perturbative once the standard Sobolev embedding controlling
-`\|w\|_{L_t^2W_x^{1,\infty}}` is available on the chosen depth ledger.
+so Lemma B is perturbative once the chosen depth ledger gives the Sobolev
+embedding bound controlling `\|w\|_{L_t^2W_x^{1,\infty}}`.
 
 ### Lemma C. Pressure perturbation estimate
 
@@ -600,9 +600,9 @@ Therefore, once the short slab is chosen so that `C\delta<1`, every moving
 constraint/pressure defect term is perturbative on the same depth ledger.
 
 This does **not** yet mean the entire Layer 1 theorem has been globally proved:
-one still has to insert `(11i)` into the classical Stokes estimate for the
+one must still insert `(11i)` into the classical Stokes estimate for the
 corrected divergence-free unknown and iterate across slabs. But it does mean the
-remaining defect package is no longer structurally mysterious; it is a standard
+remaining defect package is no longer structurally mysterious; it is a
 small perturbation once the coefficient drift is small on the slab.
 
 ## Combined Operator-Level Closure
@@ -660,7 +660,7 @@ So the exact closure move is not raw pressure elimination. It is:
 
 1. repair the divergence by `u=w-\mathcal B g`;
 2. collect every remaining coefficient defect into one forcing term;
-3. apply the standard classical Stokes estimate to `u`.
+3. apply the constant-coefficient classical Stokes estimate to `u`.
 
 After the correction, the system is
 
@@ -773,7 +773,7 @@ Moreover, writing `z:=\mathcal B g`, Lemma B together with
 \tag{11ija}
 ```
 
-Since `z(t_0)=0`, the standard Lions--Magenes time-trace estimate gives
+Since `z(t_0)=0`, the Lions--Magenes time-trace estimate gives
 
 ```math
 \|z\|_{L_t^\infty H_x^s(I)}
@@ -1210,7 +1210,7 @@ The exact frozen-coordinate evolution law is
 \tag{11ja}
 ```
 
-so standard same-depth product calculus yields
+so same-depth product calculus yields
 
 ```math
 \|\partial_t M\|_{H_x^s}
@@ -1512,7 +1512,7 @@ order. So on the current same-depth ledger the better route is:
 
 ```math
 \boxed{
-\text{keep the classical Stokes operator on the standard divergence-free space,}
+\text{keep the classical Stokes operator on the fixed divergence-free space,}
 }
 ```
 
@@ -1540,7 +1540,7 @@ g=-\operatorname{div}_x(\mu w),
 \tag{12}
 ```
 
-So the most promising external ideas should be repurposed as follows:
+So the most promising external ideas are repurposed as follows:
 
 - generalized projections: a useful diagnostic, but not better than the
   Bogovski\u012d route on the current ledger;

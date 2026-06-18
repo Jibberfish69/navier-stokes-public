@@ -85,7 +85,8 @@ The pressure term drops because `\nabla\cdot\mathcal J=0`, and viscosity gives
 \tag{5}
 ```
 
-For the transport term, the standard Sobolev estimate gives
+For the transport term, the `H^s` product estimate with
+`\nabla\mathcal J\in L^\infty` gives
 
 ```math
 \big|

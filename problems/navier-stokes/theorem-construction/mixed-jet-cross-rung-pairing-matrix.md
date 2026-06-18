@@ -161,11 +161,11 @@ When `A=B`, it reduces to the familiar diagonal energy identity.
 
 ## Meaning of the matrix law
 
-This immediately answers the “line up the cancellations differently” question.
+This answers the “line up the cancellations differently” question.
 
 ### Pressure
 
-Pressure is even more harmless than the diagonal picture suggests:
+Pressure cancels more broadly than the diagonal picture suggests:
 
 ```math
 \boxed{

@@ -316,8 +316,12 @@ Hence
 \tag{24}
 ```
 
-For `s>\frac52`, this is a standard classical continuation norm, so the
-classical solution extends past `T`.
+For `s>\frac52`, use the `H^s` local-wellposedness continuation criterion:
+if `\sup_{t<T}\|u(t)\|_{H^s}\le M`, then the local existence time from any
+slice `u(t_0)` is bounded below by
+`\tau_{\mathrm{lwp}}(M,\nu)>0`.  Taking
+`t_0>T-\tau_{\mathrm{lwp}}(M,\nu)/2` restarts the same classical solution past
+`T`.
 
 Therefore:
 

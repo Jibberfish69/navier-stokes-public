@@ -6,7 +6,7 @@ This lemma localizes the exact step the runner is now targeting:
 
 `The original framework names a monotone functional Q(t) as a bridge`
 
-does not immediately imply
+does not by itself imply
 
 `global energy or enstrophy control is sufficient for theorem closure`.
 

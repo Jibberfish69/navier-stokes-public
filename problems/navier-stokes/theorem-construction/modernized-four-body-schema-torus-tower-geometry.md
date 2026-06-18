@@ -93,7 +93,7 @@ without changing the classical body assignments.
 
 ## 1A. The literal propagated packet still exists
 
-The modernization should **not** be read as four separate relabelings.
+The modernization is not four separate relabelings.
 
 The old four-body strategy was a propagated packet with a live defect handoff:
 
@@ -105,7 +105,7 @@ The old four-body strategy was a propagated packet with a live defect handoff:
 
 That same literal relay is still the right model here.
 
-The modernized packet should therefore be read as
+The modernized packet is
 
 ```math
 \mathcal P_{\mathrm{mod}}(T)
@@ -181,8 +181,8 @@ The modernized route must do the same:
 1. **Body I -> Body II**
    Body I exports not only a tail barrier but the current tail-side survivor
    `\mathcal E_{\mathrm{live}}^{(n)}`.
-   In the new language, the same object should reappear as the Body II
-   flux/debt packet:
+   The required same-surface transfer is that this same object becomes the
+   Body II flux/debt packet:
 
    ```math
    \mathcal E_{\mathrm{live}}^{(n)}
@@ -194,7 +194,7 @@ The modernized route must do the same:
    ```
 
 2. **Body II -> Body III**
-   Whatever drain law Body II claims has to survive exact same-surface passage.
+   Whatever drain law Body II claims must survive exact same-surface passage.
    Otherwise it has not really fed the next body:
 
    ```math
@@ -232,8 +232,7 @@ The modernized route must do the same:
    \tag{3g}
    ```
 
-   and in tower language the same shape would have to be made as an exact
-   inequality of the form
+   and in tower language the same shape requires an exact inequality of the form
 
    ```math
    \frac{d}{dt}\mathfrak T_R + c\,\mathfrak D_R
@@ -265,7 +264,7 @@ Body I is the scale barrier.
 
 ### Modern reading
 
-Body I should now be read in two layers:
+Body I now has two layers:
 
 1. **torus / carrier lab face**
    spectral tail barrier, persistent/nonpersistent split, coercive floor on the
@@ -277,7 +276,7 @@ The crucial upgrade is:
 
 ```math
 \boxed{
-\text{Body I should be read not just as “no escape across scales,” but as “no escape across scales and derivative depth.”}
+\text{Body I is not just “no escape across scales,” but “no escape across scales and derivative depth.”}
 }
 \tag{4a}
 ```
@@ -320,8 +319,7 @@ J_{m,\alpha}:=\partial_t^m\partial_x^\alpha u.
 \tag{4b}
 ```
 
-Then the corresponding high-depth tail should be stated as a precise family,
-for example
+Then the corresponding high-depth tail is a precise family, for example
 
 ```math
 \mathfrak T_R(t)
@@ -354,7 +352,7 @@ That is the modern tower reading of the scale barrier.
 
 ### 2A. Why the dyadic language still exists
 
-The dyadic language should **not** be treated as the deep engine of the route.
+The dyadic language is not the deep engine of the route.
 
 In the modernized packet, the preferred reading is:
 
@@ -434,7 +432,7 @@ The tower already does most of the conceptual heavy lifting:
 - it is the natural place to compare transport-created roughness against
   dissipation.
 
-So the modernized route should now be read as:
+So the modernized route is:
 
 ```math
 \boxed{
@@ -447,9 +445,9 @@ So the modernized route should now be read as:
 Equivalently:
 
 ```text
-if the tower eventually proves a same-surface no-escape theorem strong enough
-to replace the tail package and still feed compactness and recertification,
-then the dyadic layer can be demoted from theorem engine to archival interface.
+if the tower eventually proves a same-surface no-escape theorem that replaces
+the tail package while still feeding compactness and recertification, then the
+dyadic layer can be demoted from theorem engine to archival interface.
 ```
 
 At the present route state, that replacement has **not** yet been proved.
@@ -476,7 +474,7 @@ There are now three nested versions:
 3. **deep geometric face**
    deformation-geometry dissipation law on `(v,G)`.
 
-So Body II should now be read as:
+So Body II is:
 
 ```math
 \boxed{
@@ -498,7 +496,7 @@ The sharper reading is:
 
 ```math
 \boxed{
-\text{transport + viscosity + constraint should reorganize into a one-sided drain law on the dangerous derivative geometry.}
+\text{the target one-sided drain law must combine transport, viscosity, and the constraint on the dangerous derivative geometry.}
 }
 \tag{5b}
 ```
@@ -719,7 +717,7 @@ So the loop is now:
 \tag{12}
 ```
 
-Equivalently, the modern loop should be read as the propagated packet law
+Equivalently, the modern loop is the propagated packet law
 
 ```math
 \boxed{
@@ -855,7 +853,7 @@ This is exactly the old defect relay, now stated in the modern packet.
 
 The new theorem language does add one real insight.
 
-The same open packet should now be read simultaneously in three ways:
+The same open packet has three simultaneous readouts:
 
 1. **Body I face**
    unresolved no-escape theorem on a lifted shell / tower tail carrier;
@@ -870,7 +868,7 @@ It says:
 
 ```math
 \boxed{
-\text{the lifted remainder, the tower flux/debt packet, and the geometry commutator packet should be three readouts of the same survivor family.}
+\text{the lifted remainder, the tower flux/debt packet, and the geometry commutator packet are proposed as three readouts of the same survivor family.}
 }
 \tag{13e}
 ```
@@ -936,7 +934,7 @@ geometric argument is strongest.
 
 ## 9. Net update
 
-So the four-body packet should now be read as:
+So the four-body packet is:
 
 - **Body I**:
   torus/carrier-derived spectral tail barrier with classical tower readout;
@@ -949,9 +947,8 @@ So the four-body packet should now be read as:
   deformation-geometry continuation / regularity bridge whose shadow
   re-certifies Body I.
 
-That is a drastic update, but it should be read as a modernization of the
-classical packet, not as permission to replace the packet by the projected
-D-route wholesale.
+That is a drastic update, but it is a modernization of the classical packet,
+not permission to replace the packet by the projected D-route wholesale.
 
 ## Source anchors
 

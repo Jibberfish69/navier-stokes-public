@@ -37,8 +37,9 @@ SquareSourceEstimate.A / ActiveShellSourceNormalize.A.
 
 At the May 16 global source-supplier boundary this is one presentation of the
 same source-pulse/positive-source wall whose smallest current forward-facing
-atom is `PositiveRemainderDepletion.A`; the immediate ASAG collapse is the
-active-square reserve, not the Zeno temporal anti-concentration branch.
+atom is `PositiveRemainderDepletion.A`; the ASAG-facing collapse route is the
+ASAG-facing active-square reserve route, not the Zeno temporal
+anti-concentration branch.
 
 ## Sources Read
 
@@ -209,18 +210,20 @@ t\uparrow T_*.
 Data-dependent fixed-shell bounds do not provide `o_N(1)` scale-normalized
 control on the selected moving high shells.
 
-The source-flux obstruction is sharper. For a smooth finite-mode
-divergence-free profile with nonzero shell flux, amplitude scaling gives
+The source-flux obstruction is sharper and exact. Let `phi` be a smooth
+finite-mode divergence-free field with nonzero shell flux `F_j(phi)`. For the
+test family `u_A=A phi`, trilinearity gives
 
 ```math
-F_j(Au)=A^3F_j(u),
+F_j(u_A)=A^3F_j(\phi),
 \qquad
-|F_j(Au)|^2=A^6|F_j(u)|^2.
+|F_j(u_A)|^2=A^6|F_j(\phi)|^2.
 ```
 
 So a universal square-source estimate cannot be obtained from smoothness alone.
-For the fixed-data terminal theorem, the same obstruction appears as absence of
-a scale-normalized active-window source theorem.
+For the fixed-data terminal theorem, this does not by itself produce a
+Navier-Stokes terminal branch; it identifies the downstream burden as a
+scale-normalized active-window source theorem.
 
 Collapse of this attempt:
 
@@ -352,7 +355,7 @@ OriginalSmoothData\Longrightarrow ActiveShellAmplitudeGain.A
 
 is obtained from the installed repo inputs.
 
-The exact immediate surviving primitive is:
+The exact surviving primitive at this stage is:
 
 ```text
 ActiveSquareUpperTailCarleson.A / PositiveActiveCarlesonReserve.A.

@@ -4,13 +4,13 @@ ns_viewer:
   status: proved-forward-positive-affine-core-collar-cost-high-tower-budget-still-not-supplied
   proof_role: forward_positive_affine_escape_cost_test
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Tests the affine-only escape left by the critical-base-feed tower note. A critical affine core cannot be free inside a finite-energy parent region: if its first-gradient scale persists over a natural parabolic time, interpolation forces a fixed second-derivative collar/tower bill. This prices the affine escape but does not by itself supply the missing finite high-tower budget."
+  edge_effect: "Tests the affine-only escape left by the critical-base-feed tower note. The exact input is an affine-core gradient lower bound plus finite parent energy, not an assertion that the solution is exactly affine. If the first-gradient scale persists over a natural parabolic time, interpolation forces either explicit non-affine residual control inside the receiver or a fixed second-derivative matching/collar bill. This prices the affine escape but does not by itself supply the missing finite high-tower budget."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/mpp-critical-base-feed-to-tower-coherence-direct-test-20260611.md
     - problems/navier-stokes/theorem-construction/mpp-affine-material-readout-to-fixed-hs-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-affine-readout-condition-number-budget-direct-attempt-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md
-  downstream_consequence: "The affine-only branch is sharpened to a collar-cost theorem: either the critical affine core stops persisting, or a parent finite-energy region pays a fixed second-derivative bill on each natural critical slab. The remaining forward-positive gap is no longer geometric hiding; it is the absence of a finite high-tower/enstrophy-production budget strong enough to sum those collar bills."
+  downstream_consequence: "The affine-only branch is sharpened to an exact residual-or-collar-cost theorem: either the affine-core gradient lower bound stops persisting, the non-affine residual inside the receiver is explicitly controlled, or a parent finite-energy region pays a fixed second-derivative matching/collar bill on each natural critical slab. The remaining forward-positive gap is no longer geometric hiding; it is the absence of a finite high-tower/enstrophy-production budget whose conclusion bounds the sum of those bills."
 ---
 
 # MPP AffineCoreFiniteEnergyCollarCost.A
@@ -23,10 +23,11 @@ classification.
 
 ## 0. The Escape Under Test
 
-The previous note proved:
+The previous note proved only the exact charged non-affine lower-bound route:
 
 ```text
-retained non-affine critical feed
+B_r(t) >= b0 on positive heat-time subsets
+  plus scale-separated / bounded-overlap charging
   => non-summable higher-tower bill.
 ```
 
@@ -44,15 +45,18 @@ with critical first-gradient size
 c_A nu/r^2 <= |A(t)| <= C_A nu/r^2.
 ```
 
-Inside the exact affine core,
+For the affine comparator `b+A(t)(x-x0)`,
 
 ```text
-grad^2 u = 0.
+grad^2 [b+A(t)(x-x0)] = 0.
 ```
 
-So the second-derivative bill cannot be found in the core itself. It must be
-found in the collar where that affine core is matched back to the finite-energy
-fluid around it, or else the affine strain extends outward and spends energy on
+The L2 affine-core hypothesis does not imply `grad^2 u=0` for the actual
+solution inside `B_r`. It says only that the actual branch is close to an affine
+comparator at that scale. Therefore a collar-cost theorem must either estimate
+the non-affine residual inside `B_r` explicitly, or prove a matching/cutoff cost
+where the affine comparator is reconciled with the finite-energy fluid around it.
+If neither cost is paid, the affine strain extends outward and spends energy on
 larger and larger regions.
 
 This is the missing distinction.
@@ -115,7 +119,8 @@ For all scales satisfying
 eta nu^2/r >= 2 C R^{-2} E_R,
 ```
 
-the harmless parent-scale term can absorb only half the lower bound. Hence
+the displayed parent-scale upper bound can absorb only half the lower bound.
+Hence
 
 ```text
 ||grad^2 u||_{L^2(B_R)}
@@ -132,12 +137,14 @@ int_{B_R} |grad^2 u|^2 dx
 This proves the static collar cost:
 
 ```text
-critical affine core + finite parent energy
+affine-core gradient lower bound + finite parent energy
   => second-derivative cost somewhere in the parent region.
 ```
 
-The cost may sit outside `B_r`. That is the point. The core can be affine only
-by pushing the bill into the collar or into a larger affine extension.
+The cost may sit outside `B_r`. That is the point: an affine comparator can be
+used at the receiver scale only if the actual non-affine residual is controlled
+inside `B_r`, or the matching bill is paid in the collar or in a larger affine
+extension.
 
 ## 2. Parabolic Cost Over The Natural Clock
 
@@ -171,7 +178,7 @@ The right side is independent of `r`.
 
 Thus every persistent critical affine core pays a fixed higher-tower bill on
 its natural parabolic time scale, measured against the finite parent energy
-that has to contain it.
+that contains it.
 
 ## 3. Relation To The Derivative Tower
 
@@ -211,18 +218,19 @@ needed to place that strain inside a finite-energy parent fluid.
 
 ## 4. What This Does To The Cone Picture
 
-The cone tip cannot be defended by saying the affine core has
+The cone tip cannot be defended by saying the affine comparator has
 
 ```text
-grad^2 u = 0
+grad^2 [b+A(t)(x-x0)] = 0
 ```
 
-inside the core. That only moves the question outward.
+inside the core. For the actual solution, that only moves the question to the
+non-affine residual inside `B_r` and the exterior matching/collar cost.
 
 Either:
 
 1. the affine core persists only briefly, so it is not a persistent singular
-   cone profile;
+   cone branch;
 2. the affine core bends into the surrounding fluid, and the collar pays the
    second-derivative bill above;
 3. the affine core extends to larger radii, and the parent energy required to
@@ -237,7 +245,7 @@ escape. The core is not private. Its exterior matching is part of the cost.
 This note supplies the cost lower bound. It does not supply the upper budget
 that would contradict infinitely many such costs.
 
-The missing forward-positive estimate is a high-tower budget strong enough to
+The missing forward-positive estimate is a high-tower budget whose conclusion
 sum the collar bills:
 
 ```text
@@ -269,18 +277,19 @@ The cone/payment program now has this exact shape:
 positive-part base feed alone
   false by through-flow;
 
-retained localized feed
-  forces first derivative-tower cost;
+localized contrast A_r(t) >= a0
+  gives the slice gradient lower bound;
 
-retained non-affine feed
-  forces non-summable local higher-tower cost;
+non-affine defect B_r(t) >= b0
+  gives a per-scale higher-tower lower bound, non-summable only after
+  scale-separated or bounded-overlap charging;
 
 persistent affine critical core
   forces fixed parent collar higher-tower cost;
 
 remaining forward-positive gap
-  finite high-tower budget / enstrophy-production control strong enough to
-  sum the costs.
+  finite high-tower budget / enstrophy-production control whose conclusion
+  sums the costs.
 ```
 
 This is a real narrowing. The obstruction is no longer "maybe the cone hides

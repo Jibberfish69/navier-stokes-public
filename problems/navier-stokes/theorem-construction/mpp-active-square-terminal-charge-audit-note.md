@@ -39,7 +39,7 @@ The local energy inequality supplies finite energy and dissipation, and the pres
 
 For `nu_SCF`, the route already fails component selection when the threshold sits in `E_u`. For `nu_SCF^+`, component coverage is repaired but the upper estimate becomes harder: one must control normalized repeated `E_u` threshold packets across terminal windows. Finite `L_t^\infty L_x^2` and finite spacetime integrability do not prevent a terminal sequence with finite raw mass and divergent normalized active-square sum.
 
-No installed surface supplies a monotone quantity, square-source estimate, or active-shell gain that would close this.
+No installed surface supplies the closing input: a monotone quantity, square-source estimate, or active-shell gain with the same terminal normalization.
 
 ## Verdict
 

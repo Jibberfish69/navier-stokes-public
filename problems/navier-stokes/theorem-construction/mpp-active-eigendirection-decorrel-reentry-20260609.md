@@ -21,8 +21,8 @@ sum_{P in F_N} int_{Q(P)}
 <= o_N(1) + legal losses.
 ```
 
-This would deplete the positive native source carrier, give temporal
-thickness, and feed the first-exit Pack-survival route.
+This estimate depletes the positive native source carrier, gives temporal
+thickness, and feeds the first-exit Pack-survival route once supplied.
 
 ## Direct tests
 

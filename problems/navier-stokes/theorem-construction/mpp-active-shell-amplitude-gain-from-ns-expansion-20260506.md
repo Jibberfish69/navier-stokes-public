@@ -193,7 +193,7 @@ SourceDominance.A
 SourcePulseExclusion.A.
 ```
 
-Using `SourcePulseExclusion.A` to prove `ActiveShellAmplitudeGainFromNS.A` would be circular, since active-shell amplitude gain is one of the charge-route presentations of `SourcePulseExclusion.A`.
+Using `SourcePulseExclusion.A` to prove `ActiveShellAmplitudeGainFromNS.A` is circular, since active-shell amplitude gain is one of the charge-route presentations of `SourcePulseExclusion.A`.
 
 ## Verdict
 

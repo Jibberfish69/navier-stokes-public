@@ -5,7 +5,7 @@
 This note records a new exact PDE identity for the bilinear dissipation-tail
 object itself.
 
-Unlike the earlier routes that passed immediately to unsigned carriers, this
+Unlike the earlier routes that passed directly to unsigned carriers, this
 identity hits the weighted bilinear term
 
 ```math
@@ -356,8 +356,14 @@ matter.
 
 There exists a universal Littlewood-Paley collar width `M_{\mathrm{LP}}` such
 that if `\ell\ge k+M_{\mathrm{LP}}`, then
-`\Delta_k u\cdot\nabla\Delta_\ell u` has Fourier support in an annulus of size
-comparable to `2^\ell`. Therefore
+`\Delta_k u\cdot\nabla\Delta_\ell u` has Fourier support contained in an
+annulus
+
+```math
+c_{LP}2^\ell\le |\xi|\le C_{LP}2^\ell
+```
+
+with constants fixed by the cutoff system. Therefore
 
 ```math
 \Delta_j(\Delta_k u\cdot\nabla\Delta_\ell u)=0
@@ -366,8 +372,14 @@ comparable to `2^\ell`. Therefore
 \tag{18}
 ```
 
-After enlarging the harmless fixed collar `M` if necessary, the mixed-shell
-exchange geometry `j+M<k<\ell-4` forces
+Replace the collar once and for all by
+
+```math
+M':=\max\{M,M_{\mathrm{LP}}\}.
+\tag{18a}
+```
+
+Reading the mixed-shell exchange geometry as `j+M'<k<\ell-4` forces
 
 ```math
 \mathcal I_{j;k,\ell}(t)=0.
@@ -459,8 +471,9 @@ K_{j,\ell}^\sigma D_j(t)D_\ell(t)
 \tag{15}
 ```
 
-So the mixed high-high packet is absorbable into the bilinear dissipation term
-for all sufficiently large cutoffs.
+So the mixed high-high packet is spendable through the displayed
+`\varepsilon\nu/8` fraction of the bilinear dissipation term, after the cutoff
+is large enough for `(15)` to hold.
 
 ## What Is Now The Exact Burden
 
@@ -479,8 +492,14 @@ So the precise next proof attempt is no longer abstract:
 ## What This Buys
 
 Equation `(3)` is the first exact PDE identity on the branch that produces the
-desired weighted bilinear dissipation term itself, with only a harmless extra
-factor `1+2^{-2(\ell-j)}`.
+desired weighted bilinear dissipation term itself.  The extra multiplier is
+bounded explicitly by
+
+```math
+1\le 1+2^{-2(\ell-j)}\le 2,
+```
+
+so it changes only the absolute constant in the weighted dissipation term.
 
 So the branch-level question is sharpened to:
 

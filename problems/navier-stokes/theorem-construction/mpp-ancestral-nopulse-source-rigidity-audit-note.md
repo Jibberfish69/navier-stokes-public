@@ -88,7 +88,7 @@ One way to close the ancestry branch is a strict backward-drain theorem:
 same-fluid reserve, or strictly improves a bounded terminal charge.}
 ```
 
-Then infinite ancestry is impossible by finite reserve.  This would replace
+Then infinite ancestry is impossible by finite reserve.  This finite-reserve route replaces
 the need for a separate ancient Liouville theorem, but it is stronger than the
 installed energy, mixed-boundary, and pulse-charge ledgers.  Those ledgers were
 already tested in `mpp-msc-pulsecharge-attempt-note.md` and do not by

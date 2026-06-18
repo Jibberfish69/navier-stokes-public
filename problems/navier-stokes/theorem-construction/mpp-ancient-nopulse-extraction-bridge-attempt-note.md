@@ -205,15 +205,14 @@ terminal source pulse cannot carry a nonzero source-residue measure.}
 
 The intended mechanism is a sourced active-mass inequality.  Let
 `\mathcal A(s)` denote the active high-frequency mass in the limit and
-`\mathcal D(s)` the corresponding active dissipation.  The source residue should
-satisfy a forward propagation inequality of the form
+`\mathcal D(s)` the corresponding active dissipation.  The missing propagation
+theorem is the inequality
 
 ```math
 \frac{d}{ds}\mathcal A(s)+c\,\mathcal D(s)\le \nu_*(s).
 ```
 
-Because the pulse was chosen first, there is no incoming active source from the
-remote past, so the active mass should vanish there:
+The first-pulse choice must supply the no-incoming active-mass condition:
 
 ```math
 \mathcal A(s)=0
@@ -231,7 +230,7 @@ c\int_{-\infty}^{0}\mathcal D(s)\,ds
 \nu_*((-\infty,0]).
 ```
 
-To close the contradiction, one needs a source drain estimate
+To close the contradiction, one needs the source drain estimate
 
 ```math
 \nu_*((-\infty,0])

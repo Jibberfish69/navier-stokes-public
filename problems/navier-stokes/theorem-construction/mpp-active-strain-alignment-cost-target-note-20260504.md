@@ -106,8 +106,9 @@ If `ASAC.A` holds, then
 o_N(1),
 ```
 
-because the negative strain-alignment part is harmless and the lower-order
-commutator / packet errors are absorbable.
+because the negative strain-alignment part is discarded in this upper bound,
+and the lower-order commutator / packet errors are required to satisfy the
+displayed absorbability budget.
 
 ## Packet Normal Form
 
@@ -373,7 +374,7 @@ TPNI.A.
 }
 ```
 
-This is narrower and more plausible than the rejected positive-strain-zero
+This is narrower and more route-compatible than the rejected positive-strain-zero
 statement, but it remains a missing theorem.
 
 ## Lemma B Drain Route

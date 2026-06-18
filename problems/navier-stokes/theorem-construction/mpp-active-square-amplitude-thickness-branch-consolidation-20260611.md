@@ -66,7 +66,7 @@ int_I 2^(-j)D_j(t)^2 dt
 
 barrier-payable.
 
-The fixed-shell scaling test blocks this from smoothness or shell localization
+The fixed-shell amplitude identity blocks this from smoothness or shell localization
 alone. At a fixed shell, a divergence-free shell profile can be multiplied by a
 large amplitude. The shell remains smooth and localized, while `E_j` grows with
 the square of that amplitude.

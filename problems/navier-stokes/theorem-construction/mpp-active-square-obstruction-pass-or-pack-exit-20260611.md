@@ -48,7 +48,7 @@ estimate; the heat-shear counterexample is recorded in
 
 The valid forward target is the residual/source-balanced version of this
 template: the theorem must control the positive nonlinear refill left after
-harmless heat decay, through-flow, and paid linear dissipation are removed.
+exact heat decay, through-flow, and paid linear dissipation are removed.
 That residual refill density is defined in
 `mpp-residual-refill-ledger-and-spine-consolidation-20260611.md`.
 
@@ -90,7 +90,7 @@ This is the forward pass branch.
 
 Assume the residual forward pass branch is not available and a
 source-balanced active-square bill survives after legal losses, paid reserves,
-finite-donor payments, harmless heat decay, through-flow, and harmless readout
+finite-donor payments, exact heat decay, through-flow, and legal readout
 terms have been removed.
 
 By the source-pulse normal form already recorded in

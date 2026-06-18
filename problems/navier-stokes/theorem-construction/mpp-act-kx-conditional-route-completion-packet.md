@@ -198,7 +198,8 @@ X_{exc}(s_a;R_a)\le\eta_X.
 ```
 
 **H5 (post-receiver source inputs).** Once `LCI.A` is obtained, it supplies
-the coefficient controls required by `FPCR.C`, `FSCR.C`, and `FCC.C1`. In
+the coefficient controls required by `FPCR.C` and `FSCR.C`, and the corrected
+`FCC.C1` also requires the explicit cutoff-defect input. In
 particular the pressure source splits into `LH/HL + RR + far`, the
 strain/cascade coefficient satisfies
 
@@ -206,10 +207,10 @@ strain/cascade coefficient satisfies
 \mathfrak C_{N+1}^{\delta}\in L^1(I),
 ```
 
-and the cutoff packet-factor derivative coefficient satisfies
+and the cutoff channel is closed only after
 
 ```math
-\mathfrak b_\psi^{cut}\in L^1(I).
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I).
 ```
 
 **H6 (tower and endpoint certificates).** A finite transported-center cover
@@ -332,7 +333,8 @@ fixed-radius smallness.
 ```math
 LCI.A
 \Longrightarrow
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FCI.5f.
 ```
@@ -939,7 +941,8 @@ Thus `RCF.A` holds. With the bounded pack gauge from H2, `LCI.B2e` and
 Post-`LCI.A` coefficient control proves
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FCI.5f.
 ```
@@ -996,13 +999,16 @@ For `FCC.C1`,
 \le
 \frac12\mathcal N_{N,h,\psi}^{visc}
 +
-\mathfrak b_\psi^{cut}E_N(h,t;\psi),
+4\nu\,\mathcal E_N^{cut,\nabla}(h,t;\psi),
 ```
 
 where
 
 ```math
-\mathfrak b_\psi^{cut}=4\nu\|\nabla\phi_t\|_{L^\infty}^2.
+\mathcal E_N^{cut,\nabla}(h,t;\psi)
+:=
+\sum_{k=0}^{N}\lambda_k
+\int |\nabla\phi_t|^2|\delta_hU_k|^2.
 ```
 
 Summing over the frozen net gives
@@ -1012,11 +1018,13 @@ Summing over the frozen net gives
 \le
 \frac12\mathcal N^{visc,\varepsilon}
 +
-\mathfrak b_\psi^{cut}\mathcal F^\varepsilon.
+4\nu\,\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
-Post-`LCI.A` supplies `\mathfrak b_\psi^{cut}\in L^1(I)`, so Gronwall and
-absorption give `FCC.C1`. The exact source split
+Thus the source step needs
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`, or a separate
+domination theorem deriving that input from coefficient-side data. With that
+input, Gronwall and absorption give the corrected `FCC.C1`. The exact source split
 
 ```math
 \mathcal N^{src}
@@ -1427,7 +1435,8 @@ Proposition 13 gives the post-receiver source closure:
 ```math
 LCI.A
 \Longrightarrow
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+
+\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)
 \Longrightarrow
 FCI.5f.
 ```

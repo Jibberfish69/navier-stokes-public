@@ -189,7 +189,9 @@ and `(4)`, we obtain
 X_{j,p}(t)\le2\eta_X.
 ```
 
-At a strict first exit this is a contradiction; at a non-strict contact, standard upper-continuity / right-continuity of the energy envelope gives continuation. Therefore
+At a strict first exit this is a contradiction; at a non-strict contact, the
+upper-continuity / right-continuity hypothesis for the energy envelope gives
+continuation. Therefore
 
 ```math
 X_{j,p}\in L^\infty(I_\alpha),
@@ -276,7 +278,7 @@ This proof uses no pointwise `DTC.A`, no pointwise `Field`, no `READ.COVER`, no 
 
 ## 2. `DTC.Read.Press.EXPORT`
 
-The standard PDE pressure export is:
+The PDE pressure export is:
 
 ```math
 p=p_i^{loc}+h_i,
@@ -337,7 +339,10 @@ Finite overlap gives
 \sup_{t<T_*}\|u(t)\|_{H^s}<\infty.
 ```
 
-This is the standard continuation criterion.
+This is the exact relaunch criterion being used here: a uniform preterminal
+`H^s`, `s>5/2`, bound gives a common local lifespan from times approaching
+`T_*`, and uniqueness on overlaps continues the same classical solution past
+`T_*`.
 
 ---
 
