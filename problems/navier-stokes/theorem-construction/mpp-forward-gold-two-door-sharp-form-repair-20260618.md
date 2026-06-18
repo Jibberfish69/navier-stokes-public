@@ -15,6 +15,14 @@ Further Door 1 sharpening is recorded in
 Inside `WeightedLiftedSkewDefectLegal.A`, the post-ASAC live core is
 `TerminalSignedSaturation.A` or equivalent `InternalDonorSinkDepletion.A`.
 
+The next continuation attempts are recorded in
+`mpp-forward-gold-door1-shadow-ledger-attempt-20260618.md` and
+`mpp-forward-gold-door2-gauge-stationarity-attempt-20260618.md`.  They sharpen
+the current children to `Door1TerminalSourceTimeAntiAtom.A` /
+`StressFluxZenoRefillRigidity.A` on Door 1, and
+`SingleBubbleCanonicalGauge.A + ZeroFluxDriftVisibility.A +
+RenormalizedActionFinite.A + AnnularDefectEvacuation.A` on Door 2.
+
 Role: fix the June 17 two-door stress-flux packet after the generic anti-atom
 attempts and the direct two-door attempts.  The repair separates the solved
 finite selector and Liouville-consumer pieces from the two remaining production
