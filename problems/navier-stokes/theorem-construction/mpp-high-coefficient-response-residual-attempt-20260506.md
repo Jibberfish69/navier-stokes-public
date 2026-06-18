@@ -149,7 +149,7 @@ segment pays the coefficient charge.  Therefore the collar part belongs to:
 LinearizedCoeffStop.A for the finite-collar response mass.
 ```
 
-It should not be counted inside `HighCoefficientResponseResidual.A`.
+It is not counted inside `HighCoefficientResponseResidual.A`.
 
 ## 4. Far-High Support Localization
 
