@@ -197,8 +197,8 @@ OFP.A
 
 This is the field-native jump face.
 
-The proof is formal once `OFP.A` is installed: `OFP.A` propagates a positive
-coherence scale `r_{N,\sigma}>0` and finite coherence bound
+Once `OFP.A` is installed, the implication is direct: `OFP.A` propagates a
+positive coherence scale `r_{N,\sigma}>0` and finite coherence bound
 `C_{N,\sigma}<\infty` on the same-fluid family. `Jump` is the loss of every
 positive one-field coherence scale, so the propagated field predicate excludes
 it.
@@ -222,8 +222,8 @@ it.
 This is the mixed tower-amplitude blown face. It remains separate from the
 pack-native `packing-detached` face.
 
-The proof is formal once the tower-amplitude bound is supplied: `tower-blown`
-asserts that for every finite `M` there is `t\in I` with
+Once the tower-amplitude bound is supplied, the contradiction is direct:
+`tower-blown` asserts that for every finite `M` there is `t\in I` with
 `\mathfrak A_{N,Q}(t)>M`; an `L^\infty(I)` bound contradicts this by choosing
 `M` larger than that bound. The amplitude input is
 
