@@ -252,8 +252,8 @@ END.TowerAmp
 \tag{END.6c}
 ```
 
-Thus `END.TowerBound` is closed formally; the actual analytic input is
-`END.TowerAmp`.
+Thus `END.TowerBound` is the direct exclusion of `tower-blown` by the
+`L^\infty(I)` tower-amplitude bound supplied in `END.TowerAmp`.
 
 #### Bridge `DTC-to-TowerBound`
 
