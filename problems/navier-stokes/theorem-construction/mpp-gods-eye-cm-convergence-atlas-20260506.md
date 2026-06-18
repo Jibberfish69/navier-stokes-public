@@ -331,7 +331,7 @@ not publication-complete
 
 ## 8. Theorem-crank operating method
 
-Each automation or subagent pass should produce one of four artifacts:
+Each automation or subagent pass is required to produce one of four artifacts:
 
 ```text
 1. theorem attempt
