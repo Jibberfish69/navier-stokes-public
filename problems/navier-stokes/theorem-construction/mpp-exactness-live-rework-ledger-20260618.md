@@ -5064,6 +5064,37 @@ Edited live surfaces:
 - `theorem-construction/mpp-ancient-nopulse-extraction-bridge-attempt-note.md`;
 - `theorem-construction/mpp-pressure-time-spread-elliptic-time-smearing-direct-attempt-20260517.md`.
 
+## Same-Order Language Disambiguation Repair
+
+Old loose step:
+
+Several live theorem notes used "same-order" near derivative-tower and pressure
+recovery arguments. In context the intended meaning was same derivative depth or
+same parabolic order, but the phrase could be read as the forbidden loose
+same-size / same-scale estimate pattern.
+
+Exact replacement:
+
+The affected notes now say "same-derivative-depth" or
+"same-derivative-order" where that is the actual mathematical meaning. The
+pressure-recovery note also states that the loss is measured against the
+natural Dirichlet control for \(U_\alpha\), not by a scale-size comparison.
+
+Downstream consequence:
+
+Derivative-tower and pressure-recovery notes now distinguish exact derivative
+depth/order bookkeeping from scale-size estimates. No remaining live
+theorem-construction hit for `same-order` remains outside audit/ledger residue
+after this pass.
+
+Edited live surfaces:
+
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`;
+- `theorem-construction/time-order-cross-balance-note.md`;
+- `theorem-construction/clay-target-route-reduction-note.md`;
+- `theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md`;
+- `theorem-construction/parabolic-order-recursion-note.md`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
