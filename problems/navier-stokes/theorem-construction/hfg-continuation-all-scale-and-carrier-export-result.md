@@ -48,9 +48,17 @@ If `HFG(T)` holds on the classical surface, then
 \int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty.
 ```
 
-Consequently the standard critical vorticity continuation criterion applies:
-the classical solution cannot break down at time `T` through the retained
-classical surface.
+Consequently the critical-vorticity continuation hypothesis is exact on the
+same classical surface:
+
+```math
+\int_0^T\|\omega(t)\|_{B^0_{\infty,1}}\,dt<\infty.
+```
+
+The continuation theorem being spent is the Kozono--Taniuchi / BKM-type
+criterion in this Besov endpoint form: a smooth solution can be continued past
+`T` when the above integral is finite. Thus the retained classical surface
+cannot break down at time `T` through this vorticity channel.
 
 ### Proof
 
