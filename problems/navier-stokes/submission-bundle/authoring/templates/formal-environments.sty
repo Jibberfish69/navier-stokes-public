@@ -136,44 +136,209 @@
 
 \ApplyFormalEnvSpacing{theorem,axiom,principle,definition,assumption,lemma,proposition,corollary,conjecture,notationenv,example,proof,remark}
 
+% Custom internal cross-references, option 1:
+% preserve the monograph-V6 label-stem cref rule in a generic template layer.
 \makeatletter
-\newcommand{\DeclareFormalEnvCref}[2]{%
-  \crefname{#1}{#2}{#2}%
-  \Crefname{#1}{#2}{#2}%
-  \crefformat{#1}{##2#2.##1##3}%
-  \Crefformat{#1}{##2#2.##1##3}%
+\let\FormalEnvOriginalCref\cref
+\let\FormalEnvOriginalCrefCap\Cref
+
+\@tfor\FormalEnvSectionPrefix:=vol,sec,sub,ssb\do{%
+  \expandafter\gdef\csname formal@sectiontype@\FormalEnvSectionPrefix\endcsname{1}%
 }
+\newcommand{\FormalEnvRegisterCrefPrefix}[2]{%
+  \expandafter\gdef\csname formal@display@#1\endcsname{#2}%
+}
+\newcommand{\DeclareFormalEnvCref}[3]{%
+  \crefname{#1}{#3}{#3}%
+  \Crefname{#1}{#3}{#3}%
+  \FormalEnvRegisterCrefPrefix{#2}{#3}%
+}
+\newcommand{\FormalEnvIfTypeKnown}[1]{%
+  \ifcsname formal@display@#1\endcsname
+    \expandafter\@firstoftwo
+  \else
+    \expandafter\@secondoftwo
+  \fi
+}
+\newcommand{\FormalEnvDisplayForType}[1]{\csname formal@display@#1\endcsname}
+\newcommand{\FormalEnvIfSectionLikeType}[1]{%
+  \ifcsname formal@sectiontype@#1\endcsname
+    \expandafter\@firstoftwo
+  \else
+    \expandafter\@secondoftwo
+  \fi
+}
+\newcommand{\FormalEnvIfEmpty}[3]{%
+  \if\relax\detokenize{#1}\relax
+    #2%
+  \else
+    #3%
+  \fi
+}
+\newcommand{\FormalEnvLabelTypeString}{}
+\newcommand{\FormalEnvLabelKeyString}{}
+\newcommand{\FormalEnvSplitLabel}[1]{%
+  \FormalEnvSplitLabelAux#1\@nil
+}
+\def\FormalEnvSplitLabelAux#1:#2\@nil{%
+  \def\FormalEnvLabelTypeString{#1}%
+  \def\FormalEnvLabelKeyString{#2}%
+  \FormalEnvIfEmpty{\FormalEnvLabelKeyString}{\def\FormalEnvLabelKeyString{}}{}%
+}
+\makeatother
+
+\ExplSyntaxOn
+\seq_new:N \l_formal_env_label_surface_seq
+\cs_new_protected:Npn \formal_env_label_surface:n #1
+  {
+    \regex_extract_all:nnN
+      { [A-Z][a-z]* }
+      {#1}
+      \l_formal_env_label_surface_seq
+    \seq_if_empty:NTF \l_formal_env_label_surface_seq
+      {#1}
+      {\seq_use:Nn \l_formal_env_label_surface_seq {~}}
+  }
+\NewDocumentCommand{\FormalEnvLabelSurface}{m}{\formal_env_label_surface:n {#1}}
+\ExplSyntaxOff
+
+\newcommand{\FormalEnvCrefText}[1]{%
+  \begingroup
+    \setbox0=\hbox{\fontsize{9pt}{10.8pt}\selectfont\textbf{#1}}%
+    \dimen4=.5\dp\strutbox
+    \ifdim\dp0<\dimen4
+      \setbox0=\hbox{\unhbox0 \vrule width0pt depth\dimen4}%
+    \fi
+    \dimen0=\dimexpr(\ht\strutbox-\dp\strutbox)/2\relax
+    \dimen2=\dimexpr(\ht0-\dp0)/2\relax
+    \raisebox{\dimexpr\dimen0-\dimen2\relax}{\box0}%
+  \endgroup
+}
+\newcommand{\FormalEnvCrefPad}{\penalty0\hskip\fontdimen2\font\relax}
+\newcommand{\FormalEnvCrefPlain}[1]{%
+  \FormalEnvSplitLabel{#1}%
+  \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
+    \nameref*{#1}%
+  }{%
+    \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
+      \FormalEnvLabelSurface{\FormalEnvLabelKeyString}%
+    }{%
+      \ref*{#1}%
+    }%
+  }%
+}
+\newcommand{\FormalEnvCrefShort}[1]{%
+  \FormalEnvCrefPad\FormalEnvCrefText{\FormalEnvCrefPlain{#1}}\FormalEnvCrefPad
+}
+\newcommand{\FormalEnvCrefLinked}[1]{%
+  \FormalEnvCrefPad\hyperref[#1]{\FormalEnvCrefText{\FormalEnvCrefPlain{#1}}}\FormalEnvCrefPad
+}
+
+% Custom internal cross-references, option 2:
+% hybrid NS-surface refs: readable title plus exact repo tag.
+\makeatletter
+\newcommand{\SurfaceCrefDeclare}[3]{%
+  \expandafter\gdef\csname formal@surface@title@#1\endcsname{#2}%
+  \expandafter\gdef\csname formal@surface@tag@#1\endcsname{#3}%
+}
+\newcommand{\SurfaceCrefAnchor}[3]{%
+  \phantomsection\label{#1}%
+  \SurfaceCrefDeclare{#1}{#2}{#3}%
+}
+\newcommand{\SurfaceCrefIfKnown}[1]{%
+  \ifcsname formal@surface@title@#1\endcsname
+    \expandafter\@firstoftwo
+  \else
+    \expandafter\@secondoftwo
+  \fi
+}
+\newcommand{\SurfaceCrefTitle}[1]{%
+  \SurfaceCrefIfKnown{#1}{%
+    \csname formal@surface@title@#1\endcsname
+  }{%
+    \FormalEnvCrefPlain{#1}%
+  }%
+}
+\newcommand{\SurfaceCrefTag}[1]{%
+  \SurfaceCrefIfKnown{#1}{%
+    \csname formal@surface@tag@#1\endcsname
+  }{%
+    #1%
+  }%
+}
+\makeatother
+\newcommand{\SurfaceCrefTagText}[1]{%
+  \textnormal{\scriptsize\ttfamily[#1]}%
+}
+\newcommand{\SurfaceCrefDisplay}[1]{%
+  \FormalEnvCrefText{\SurfaceCrefTitle{#1}}%
+  \penalty0\hspace{0.2em}%
+  \SurfaceCrefTagText{\SurfaceCrefTag{#1}}%
+}
+\NewDocumentCommand{\surfacecref}{s m}{%
+  \IfBooleanTF{#1}{%
+    \FormalEnvCrefPad\SurfaceCrefDisplay{#2}\FormalEnvCrefPad
+  }{%
+    \FormalEnvCrefPad\hyperref[#2]{\SurfaceCrefDisplay{#2}}\FormalEnvCrefPad
+  }%
+}
+
+\makeatletter
 \newcommand{\SetupFormalEnvCrefNames}{%
-  \DeclareFormalEnvCref{definition}{Def}%
-  \DeclareFormalEnvCref{notationenv}{Not}%
-  \DeclareFormalEnvCref{theorem}{Thm}%
-  \DeclareFormalEnvCref{lemma}{Lem}%
-  \DeclareFormalEnvCref{corollary}{Cor}%
-  \DeclareFormalEnvCref{axiom}{Ax}%
-  \DeclareFormalEnvCref{assumption}{As}%
-  \DeclareFormalEnvCref{proposition}{Prop}%
-  \DeclareFormalEnvCref{principle}{Prin}%
-  \DeclareFormalEnvCref{conjecture}{Conj}%
-  \DeclareFormalEnvCref{example}{Ex}%
+  \DeclareFormalEnvCref{definition}{def}{Def}%
+  \DeclareFormalEnvCref{notationenv}{not}{Not}%
+  \DeclareFormalEnvCref{theorem}{thm}{Thm}%
+  \DeclareFormalEnvCref{lemma}{lem}{Lem}%
+  \DeclareFormalEnvCref{corollary}{cor}{Cor}%
+  \DeclareFormalEnvCref{axiom}{ax}{Ax}%
+  \DeclareFormalEnvCref{assumption}{as}{As}%
+  \DeclareFormalEnvCref{proposition}{prop}{Prop}%
+  \DeclareFormalEnvCref{principle}{prin}{Prin}%
+  \DeclareFormalEnvCref{conjecture}{con}{Conj}%
+  \DeclareFormalEnvCref{example}{ex}{Ex}%
   \crefname{part}{Volume}{Volumes}%
   \Crefname{part}{Volume}{Volumes}%
   \crefname{section}{\S}{\S}%
   \Crefname{section}{\S}{\S}%
-  \crefformat{section}{##2\S\,##1##3}%
-  \Crefformat{section}{##2\S\,##1##3}%
   \crefname{subsection}{\S}{\S}%
   \Crefname{subsection}{\S}{\S}%
-  \crefformat{subsection}{##2\S\,##1##3}%
-  \Crefformat{subsection}{##2\S\,##1##3}%
   \crefname{subsubsection}{\S}{\S}%
   \Crefname{subsubsection}{\S}{\S}%
-  \crefformat{subsubsection}{##2\S\,##1##3}%
-  \Crefformat{subsubsection}{##2\S\,##1##3}%
 }
-\AtBeginDocument{\SetupFormalEnvCrefNames}
-\makeatother
-
-\makeatletter
+\AtBeginDocument{%
+  \SetupFormalEnvCrefNames
+  \RenewDocumentCommand{\cref}{s o m}{%
+    \FormalEnvSplitLabel{##3}%
+    \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
+      \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
+    }{%
+      \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
+        \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
+      }{%
+        \IfBooleanTF{##1}{\FormalEnvOriginalCref*{##3}}{\FormalEnvOriginalCref{##3}}%
+      }%
+    }%
+  }%
+  \RenewDocumentCommand{\Cref}{s o m}{%
+    \FormalEnvSplitLabel{##3}%
+    \FormalEnvIfSectionLikeType{\FormalEnvLabelTypeString}{%
+      \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
+    }{%
+      \FormalEnvIfTypeKnown{\FormalEnvLabelTypeString}{%
+        \IfBooleanTF{##1}{\FormalEnvCrefShort{##3}}{\FormalEnvCrefLinked{##3}}%
+      }{%
+        \IfBooleanTF{##1}{\FormalEnvOriginalCrefCap*{##3}}{\FormalEnvOriginalCrefCap{##3}}%
+      }%
+    }%
+  }%
+  \pdfstringdefDisableCommands{%
+    \def\cref####1{\FormalEnvCrefPlain{####1}}%
+    \def\Cref####1{\FormalEnvCrefPlain{####1}}%
+    \def\surfacecref####1{\SurfaceCrefTitle{####1} [\SurfaceCrefTag{####1}]}%
+    \def\Sref####1{\S\ref*{####1}}%
+    \def\titlecap####1{####1}%
+  }%
+}
 \newcommand{\Sref}[1]{%
   \@ifpackageloaded{hyperref}{%
     \hyperref[#1]{\S\ref*{#1}}%
