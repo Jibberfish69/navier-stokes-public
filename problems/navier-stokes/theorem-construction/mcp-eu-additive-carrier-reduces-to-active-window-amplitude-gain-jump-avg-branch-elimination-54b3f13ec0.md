@@ -6,15 +6,49 @@ Construct an additive `E_u` carrier with bounded-overlap upper control for the `
 
 ## Test
 
-Raw finite carriers can control unweighted sums over bounded-overlap windows. This is the mechanism behind the installed `nu_SCF` upper estimate.
+Raw finite carriers can control unweighted sums over bounded-overlap windows.
+This is the mechanism behind the installed `nu_SCF` upper estimate.
 
-The branch contradiction requires more: a terminal scale-normalized upper estimate compatible with shrinking active windows. Schematically, for terminal windows `Q_k`, one needs an estimate of the form
+The branch contradiction requires more: a terminal scale-normalized upper
+estimate compatible with shrinking active windows.  For a separated terminal
+family
 
 ```math
-sum_k r_k^{-alpha} C_final(Q_k) <= C(E0,source).
+Q_k
+:=
+B_{r_k}(x_k)\times I_k,
+\qquad
+I_k=(t_k-r_k^2/\nu,t_k),
 ```
 
-For `E_u`, no additive carrier with this scale-normalized bounded-overlap estimate is installed.
+the required estimate is
+
+```math
+\sum_k r_k^{-\alpha} C_{\mathrm{final}}(Q_k)
+\le
+C(E_0,\mathcal S),
+\qquad \alpha>0,
+```
+
+where `C_{\mathrm{final}}(Q_k)` is the same final charge used in the Jumpavg
+no-escape contradiction and `\mathcal S` denotes the already-admitted source
+records.  Equivalently, for the energy component itself one would need a
+scale-normalized additive bound such as
+
+```math
+\sum_k \mathcal E_u^{sc}(Q_k)\le C(E_0,\mathcal S),
+\qquad
+\mathcal E_u^{sc}(Q_k)
+:=
+r_k^{-1}\sup_{t\in I_k}
+\int_{B_{r_k}(x_k)}|u(x,t)|^2\,dx,
+```
+
+or an equivalent scale-normalized additive bound on the same separated terminal
+window family.
+
+For `E_u`, no additive carrier with this scale-normalized bounded-overlap
+estimate is installed.
 
 ## Obstruction
 
