@@ -120,6 +120,37 @@ SourceWeightedPolarSaturation.A:
   by opposite-sheet cancellation.
 ```
 
+### Conditional no-ghost theorem
+
+The exact conditional theorem available from this formulation is:
+
+```math
+\begin{aligned}
+&T_m^{car}\text{ is a normal/integral selected carrier current,}\\
+&\mathbf M(\partial T_m^{car})\le \mathcal D_{\rm legal}+O(1),\\
+&|\xi_m|\lambda_m=\lambda_m
+\quad\text{on the selected terminal carrier},\\
+&\left\|
+q_m\,d\mu_m-\ell\cdot\Sigma_m\xi_m\,d\mu_m
+\right\|_{\rm selected\ shadow}
+\le
+\mathrm{Legal}_m+o_m(1)
+\\
+&\Longrightarrow
+\mathbf M(T_m^{car})=\lambda_m(X),
+\qquad
+\lambda_m(X)
+\le
+\int[\ell\cdot\Sigma_m\xi_m]_+\,d\mu_m
++\mathrm{Legal}_m+o_m(1).
+\end{aligned}
+\tag{CR.7a}
+```
+
+This proves a true no-ghost carrier theorem under source-resolved current,
+source-weighted polar saturation, and selected-shadow stress/source identity.
+It does not prove those hypotheses from installed Navier-Stokes inputs.
+
 Thus the no-ghost route does not close the gold obstruction, but it identifies
 the right object: a source-resolved carrier current, not a free annular
 surface.
