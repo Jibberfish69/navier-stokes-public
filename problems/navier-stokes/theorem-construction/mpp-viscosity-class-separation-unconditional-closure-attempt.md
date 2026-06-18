@@ -214,7 +214,7 @@ A positive-viscosity Navier--Stokes class member cannot have a vanishing normali
 
 ### Attempt
 
-If the normalized budget is the coefficient `\nu`, the statement is immediate:
+If the normalized budget is the coefficient `\nu`, the statement reduces to:
 
 ```math
 \nu>0

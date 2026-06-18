@@ -166,7 +166,8 @@ object once the increment is taken to be the transported separation.
 \tag{TB.11}
 ```
 
-This is immediate from the definitions:
+This is the definition of the transported packet evaluated at
+`h(a,r,t),X(a,t),t`:
 
 ```math
 \delta_{h(a,r,t)}U_k(X(a,t),t)
@@ -386,7 +387,9 @@ A_F^\sharp(t;\psi,r)\,\mathcal Q_{1,r,\psi}^{str}(t),
 ```
 
 Here `A_F^\sharp` is the exact packetwise absolute distortion ledger after the
-harmless shift needed to compare the `a` and `a+r` locations.
+fixed comparison shift between the `a` and `a+r` locations. The shift is part
+of the ledger definition used in `(TB.21)`--`(TB.24)`, not a profile or scale
+approximation.
 
 So the exact source term for relative packing mismatch is the rung-1 transported
 strain defect `\mathcal Q_{1,r,\psi}^{str}(t)`. The larger transported packet
@@ -412,7 +415,7 @@ where `\mathcal C_{N,r,\psi}(t)` is built from:
 1. packet strain envelopes;
 2. rung-split cascade coefficients up to depth `N`;
 3. the packet transport mismatch coming from the moving cutoff;
-4. the harmless packet enlargement needed in `(TB.28)`.
+4. the fixed packet enlargement used in `(TB.28)`.
 
 This remains a conditional bridge. The exact content of the bridge note is that the only
 new geometric source term introduced by the packing side is the rung-1

@@ -50,7 +50,7 @@ with:
 o_N(1)+Loss_{legal}.
 ```
 
-This would say that one-sided weights, lifted commutator replacement,
+The required statement is that one-sided weights, lifted commutator replacement,
 Leray/projector localization, cutoffs, and terminal selection leave only a legal
 defect after extracting an antisymmetric current.
 

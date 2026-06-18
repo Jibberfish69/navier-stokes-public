@@ -153,7 +153,22 @@ r_j\ge r_*/4>0,
 SCF_{base}(Q_{r_j}^{\Phi}(a_j,t_j))\le\varepsilon_m.
 ```
 
-The retained pack gauge gives bounded chart distortion. A finite cover has finite multiplicity after standard shrinking and color selection. Hence there is a finite overlap bound
+The retained pack gauge gives bounded chart distortion.  After the fixed shrink,
+the selected family is finite, so its multiplicity is the explicit finite
+number
+
+```math
+\Omega
+:=
+\sup_z
+\sum_{j=1}^{J}1_{Q_{r_j}^{\Phi}(a_j,t_j)}(z)
+\le J
+<\infty.
+```
+
+When the cover is chosen by a maximal \(r_*/4\)-separated label net, the sharper
+packing estimate gives \(\Omega\le \Omega_4(M_\sharp)\).  In either case the
+finite overlap bound used downstream is
 
 ```math
 \operatorname{ovlp}(\{Q_{r_j}^{\Phi}\}_{j=1}^J)\le\Omega<\infty.

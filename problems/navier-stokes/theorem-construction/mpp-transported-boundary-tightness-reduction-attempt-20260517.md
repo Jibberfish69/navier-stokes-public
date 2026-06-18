@@ -74,9 +74,12 @@ Even after spatial tightness, `TransportedCylinderNoFlux.A` still requires termi
 
 This pass rechecked `TransportedBoundaryTightness.A` after the all-reduced-routes certificate.
 
-The reduction remains sharp. Transported boundary tightness is the spatial-flux half of `TransportedCylinderNoFlux.A`. It would control kinetic, pressure, and nonselected packet flux through transported parabolic boundaries as radius and backward time exhaust.
+The reduction remains sharp. Transported boundary tightness is the spatial-flux
+half of `TransportedCylinderNoFlux.A`. Its required content is control of
+kinetic, pressure, and nonselected packet flux through transported parabolic
+boundaries as radius and backward time exhaust.
 
-Current branch data give fixed-cylinder local compactness, finite original energy before blowup, zero ASAC defect, selected no-parent ancestry, and local pressure decompositions. These inputs supply no transported-shell exhaustion: rescaled global energy grows like `r_m^{-1}`, ASAC controls a paid angular defect rather than full field tails, selected ancestry misses nonselected flux, and pressure estimates need tail decay on transported shells.
+Current branch data give fixed-cylinder local compactness, finite original energy before blowup, zero ASAC defect, selected no-parent ancestry, and local pressure decompositions. These inputs supply no transported-shell exhaustion: under \(u_m(y,s)=r_m u(x_m+r_my,t_m+r_m^2s)\), the rescaled global energy is \(r_m^{-1}\|u(t_m+r_m^2s)\|_{L^2_x}^2\); ASAC controls a paid angular defect rather than full field tails, selected ancestry misses nonselected flux, and pressure estimates need tail decay on transported shells.
 
 Conclusion: `TransportedBoundaryTightness.A` remains open. It reduces to one of the surfaced adjacent mechanisms:
 
@@ -90,4 +93,5 @@ BASACGlobalAncientSpatialExhaustion.A,
 NonselectedFluxControl.A.
 ```
 
-Even successful spatial tightness would still require terminal time-face anti-atom control for the native source measure.
+Spatial tightness alone still leaves terminal time-face anti-atom control for
+the native source measure.

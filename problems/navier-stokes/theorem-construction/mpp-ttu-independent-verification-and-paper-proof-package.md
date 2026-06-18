@@ -138,7 +138,15 @@ ATD_m^\varepsilon(Q_{\theta_m R}^\Phi).
 
 ### Proof
 
-Rescale the moving cylinder to unit size. Bounded same-fluid distortion transfers the cylinder to a CKN-admissible cylinder with controlled constants. Choose epsilon_m below the corresponding CKN epsilon threshold. Interior CKN regularity and parabolic bootstrapping give, for 0<=k<=m+2,
+Rescale the moving cylinder to unit size.  Bounded same-fluid distortion is spent
+through the CKN comparison constants and the exact threshold
+
+```math
+C_M\,SCF_{base}(Q_R^\Phi)\le\varepsilon_{CKN}(m+2,M_\sharp,\nu).
+```
+
+Choose `epsilon_m` below that threshold. Interior CKN regularity and parabolic
+bootstrapping give, for `0<=k<=m+2`,
 
 ```math
 \sup_{Q_{\theta_m R}^\Phi}R^{k+1}|\nabla^k u|
@@ -262,7 +270,7 @@ uses U_{q+2}. Hence DTC.Read gives pointwise DTC.A to endpoint depth N.
 ### Theorem-program source target `SRC.ExactFinal`
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f.
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
 ```
 
 The pressure channel `FPCR.C`, strain/cascade channel `FSCR.C`, and cutoff
@@ -274,7 +282,7 @@ integrability statement `FCI.5f`.
 The strengthened sufficient route is compatible because
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 Thus downstream proofs may consume the single source theorem
@@ -282,7 +290,7 @@ Thus downstream proofs may consume the single source theorem
 ```math
 SRC.Final:
 \qquad
-FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1)\Longrightarrow FCI.5f.
+FFSRC.A\vee(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)\Longrightarrow FCI.5f.
 ```
 
 ## 8. Endpoint matrix as a standalone theorem

@@ -106,11 +106,11 @@ positive terminal time.
 
 No such theorem is installed. The previous reverse-Holder parent concentration
 audit shows the same scaling problem: raw orthogonality prices unweighted donor
-energy, while the normalized positive child-feeding source can remain order one.
+energy, while the normalized positive child-feeding source has mass \(1\).
 
 Profile separation helps fixed signed tests. The selected positive terminal
-Pack density can still choose the vanishing terminal layer and retain order-one
-mass.
+Pack density can still choose the vanishing terminal layer and retain normalized
+mass \(1\).
 
 ## Result
 

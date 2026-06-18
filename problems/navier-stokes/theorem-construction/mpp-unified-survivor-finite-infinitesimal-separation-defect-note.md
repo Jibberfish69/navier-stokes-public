@@ -66,7 +66,7 @@ The raw expression
 \tag{USS.5}
 ```
 
-should not be used without a scale window. The theorem-facing object is the
+must not be used without a scale window. The theorem-facing object is the
 truncated scale-window measure. For a label cutoff `\psi`, and scales
 `0<\eta<\rho`, define
 
@@ -154,8 +154,8 @@ In plain route language:
 
 The scalar measure `\mathcal S_\ast^{h/F}` is not enough to carry all terminal
 readouts. It remembers positive defect mass, but it forgets signed and
-tensorial data. The theorem-facing survivor should therefore be the enhanced
-packet
+tensorial data. The proof-bearing replacement is conditional on the extraction
+hypotheses below: the enhanced packet
 
 ```math
 \boxed{
@@ -311,7 +311,7 @@ K_\rho(r)
 \tag{USS.19}
 ```
 
-The two-family collapse theorem should therefore be reformulated as:
+The two-family collapse theorem is reformulated as the following unpaid target:
 
 ```math
 \boxed{
@@ -363,8 +363,8 @@ or proof direction without a theorem is an illegal carrier change.
 
 ## Theorem Target `USS.C` (Two-Family Collapse)
 
-The bridge obligations `(B1)`--`(B3)` should be read as attempts to construct or
-compare the common source object:
+The bridge obligations `(B1)`--`(B3)` are attempts to construct or compare the
+common source object:
 
 ```math
 A
@@ -377,11 +377,11 @@ B.
 
 More exactly:
 
-1. `(B1)` should identify the signed gap-kernel route with an affine quotient
+1. `(B1)` must identify the signed gap-kernel route with an affine quotient
    readout of `\mathcal S_\ast^{h/F}`;
-2. `(B2)` should identify the positive gap-flux carrier as a square shadow of
+2. `(B2)` must identify the positive gap-flux carrier as a square shadow of
    the same defect measure;
-3. `(B3)` should install the stressification map comparing shell strain
+3. `(B3)` must install the stressification map comparing shell strain
    barriers to affine quotient moments of the same defect.
 
 If these are proved as legal atlas edges, then Family A and Family B are not
@@ -411,7 +411,7 @@ load to native pack norm restoration, native tower segment control, selector
 transverse visibility, and same-carrier identification of the historical
 Family A/B packets.
 The downstream ten-cell completion ledger is `USCP.T`, which appends
-`ACT.KX`, the source channel theorem `FPCR.C+FSCR.C+FCC.C1 -> FCI.5f`, and the
+`ACT.KX`, the source channel theorem `FPCR.C+FSCR.C+FCC.C1+FCC.C1a -> FCI.5f`, and the
 terminal endpoint matrix `End_NS`.
 
 ## Boundary

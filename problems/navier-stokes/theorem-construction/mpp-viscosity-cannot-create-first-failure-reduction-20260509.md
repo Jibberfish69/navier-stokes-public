@@ -115,7 +115,7 @@ EulerSmooth(u_0,[0,T])
 NoFirstNSSingularity_\nu(\tau).
 ```
 
-Then `FirstFailureReduction.A` immediately gives the desired hierarchy theorem:
+Then `FirstFailureReduction.A` gives the desired hierarchy theorem:
 
 ```math
 EulerSmooth(u_0,[0,T])

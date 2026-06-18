@@ -63,7 +63,7 @@ quantitative good-set bundle expansion or shadow-time decay strong enough to
 force L_I^{net} >= L_J^{thr}
 ```
 
-They also name `CF-bundle-coercive` as the most plausible first attack on the
+They also name `CF-bundle-coercive` as the current candidate first attack on the
 strong route, while `tps-shadow-time-budget-packet.md` records a weaker averaged
 shadow-time route.
 
@@ -147,7 +147,7 @@ witness.
 
 `NS-LIVE-20260609-198`: the first concrete new mechanism packet, the TPS
 good-set bundle route, is not installed as a first-Pack-survival theorem. Current
-TPS surfaces identify a plausible geometric/dynamic mechanism, but they stop at
+TPS surfaces identify a candidate geometric/dynamic mechanism, but they stop at
 open `CF-bundle-coercive` / shadow-time-decay inputs and packet-overlap
 consequences. They do not yet prove the same-atlas bridge from the original-data
 first Pack witness to positive active-time thickness, `OriginalSmoothDataPackSurvival.A`,

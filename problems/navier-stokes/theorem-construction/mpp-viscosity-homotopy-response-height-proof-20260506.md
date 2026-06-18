@@ -49,14 +49,24 @@ ViscosityNoFold.A:
 }
 ```
 
-If Euler is smooth on `[0,T]`, standard inviscid-limit stability gives a
-one-sided anchor:
+The one-sided anchor is a separate inviscid-limit input, not part of the
+topological no-fold argument:
 
 ```math
 (0,\nu_0]\subset \mathcal G_T
 ```
 
-for some `nu_0>0`.  If `ViscosityNoFold.A` is also proved, then
+It may be used only under an explicit hypothesis such as:
+
+```text
+InviscidLimitAnchor.A:
+if the Euler solution from the same datum satisfies
+sup_{0<=t<=T} ||u^0(t)||_{H^{s+2}} <= M, s>5/2,
+then there is nu_0=nu_0(M,T,s)>0 such that for every 0<nu<=nu_0
+the Navier-Stokes solution exists smoothly on [0,T] and belongs to G_T.
+```
+
+If this anchor is supplied and `ViscosityNoFold.A` is also proved, then
 `\mathcal G_T` is a nonempty open-and-closed subset of the connected interval
 `(0,\infty)`, hence:
 
@@ -173,10 +183,23 @@ Subtract the projected Navier-Stokes equations at viscosities `nu+h` and
 \nu\Delta r_h+\Delta u^{\nu+h}.
 ```
 
-The uniform bound `(2.1)` and standard parabolic energy estimates give a
-Cauchy bound for `r_h` in `C([0,T];H^s)` as `h\to0`.  Passing to the limit
-removes the quadratic remainder `h r_h\cdot\nabla r_h` and gives `(2.2)`.
-Uniqueness for the linear parabolic equation gives the full derivative.
+The proof uses the following exact energy consequence of `(2.1)`: for
+`\|u^\mu\|_{C([0,T];H^{s+2})}\le M_s` on `\mu\in[\nu-\delta,\nu+\delta]`,
+there is `C=C(s,T,\nu,M_s)` such that every sufficiently small `h,h'` satisfies
+
+```math
+\sup_{0\le t\le T}\|r_h(t)-r_{h'}(t)\|_{H^s}^2
++\nu\int_0^T\|\nabla(r_h-r_{h'})(t)\|_{H^s}^2\,dt
+\le C|h-h'|^2.
+\tag{2.1a}
+```
+
+This is obtained by subtracting the two difference-quotient equations, pairing
+with `\Lambda^{2s}(r_h-r_{h'})`, using the `H^s` product estimate for
+`s>5/2`, and absorbing the viscous term.  Thus `r_h` is Cauchy in
+`C([0,T];H^s)`.  Passing to the limit removes the quadratic remainder
+`h r_h\cdot\nabla r_h` and gives `(2.2)`.  Uniqueness for the linear parabolic
+equation gives the full derivative.
 
 This proves `LocalViscositySmoothDependence.A` and
 `ViscosityResponseEquation.A` under the classical smooth-family hypothesis.
@@ -474,7 +497,7 @@ old wall: positive nonlinear shell flux itself;
 new wall: positive viscosity derivative of that flux.
 ```
 
-This is honestly lower only if the derivative in `nu` exposes heat depletion
+This is honestly lower only when the derivative in `nu` exposes heat depletion
 or signed response cancellation before absolute values are taken.
 
 ## 7. Conditional Discharge of ResponseHeightControl.A
@@ -624,7 +647,7 @@ HeatMatchedShellCoercivity.A
 BoundaryResponseFirstHeight.A
 ```
 
-This is a genuine sharpening of the old source wall only if
+This is a genuine sharpening of the old source wall only when
 `partial_nu N_\ell` can be controlled by signed heat-response depletion before
 absolute values erase the sign.  If the proof of
 `ResponseFluxDerivativeControl.A` falls back to Cauchy-Young on `z`, it

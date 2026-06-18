@@ -21,7 +21,8 @@ A useful form would give, for transported cylinders `\mathcal C_R(t)`,
 Flux_N^{src,+}(\partial\mathcal C_R\times[T-\varepsilon,T])=0.
 ```
 
-Together with source conservation inside transported shells, this would imply `TerminalTimeFaceAntiAtom.A`.
+Together with source conservation inside transported shells, the exact
+consequence is `TerminalTimeFaceAntiAtom.A`.
 
 ## 1. Boundary accounting
 
@@ -43,7 +44,11 @@ A stronger target is
 \boxed{NoIncomingFluxTerminalShell.A.}
 ```
 
-For the full retained terminal class, this would rule out source mass entering through transported shell boundaries.  Existing no-flux survivors apply to restricted tangent classes such as the B_ASAC tangent class or transported-cylinder no-flux settings.  The current route lacks a theorem producing the full terminal source residue into those rigid classes.
+For the full retained terminal class, the theorem must rule out source mass
+entering through transported shell boundaries.  Existing no-flux survivors apply
+to restricted tangent classes such as the B_ASAC tangent class or
+transported-cylinder no-flux settings.  The current route lacks a theorem
+producing the full terminal source residue into those rigid classes.
 
 ## 3. Shrinking-shell obstruction
 

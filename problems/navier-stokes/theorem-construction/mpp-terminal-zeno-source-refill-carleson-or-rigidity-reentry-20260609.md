@@ -9,7 +9,9 @@ The parent-concentration route is not closed. The remaining terminal source
 refill branch has already removed:
 
 - finite refill trees, by `LocalDonorBalance.A`;
-- non-Zeno entrance leaves, by original smooth tail decay;
+- non-Zeno entrance leaves, by the `EntranceLeafDecay.A` high-frequency tail
+  bound
+  `sum_{v in partial T_N} E_N(v;t_v^-) <= C_leaf C_ov sup_{t<=T_*-tau} ||P_{>=N-C}u(t)||_2^2 -> 0`;
 - source-parent edge ambiguity, by localized pre-Cauchy `EdgeDisintegrate.A`.
 
 The only surviving branch is terminal Zeno source-refill:

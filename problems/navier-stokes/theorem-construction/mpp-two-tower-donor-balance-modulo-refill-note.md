@@ -187,9 +187,18 @@ identity.
 
 The direct attempt on that refined target is recorded in
 `mpp-refilltree-wellfounded-direct-attempt-note.md`.  It closes the non-Zeno
-entrance branch by original smooth tail decay, proved in
-`mpp-entrance-leaf-decay-nonzeno-proof-note.md`, and isolates the remaining
-terminal Zeno source-refill alternatives:
+entrance branch by the exact `EntranceLeafDecay.A` estimate
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0,
+```
+
+proved in `mpp-entrance-leaf-decay-nonzeno-proof-note.md`, and isolates the
+remaining terminal Zeno source-refill alternatives:
 
 ```math
 \boxed{

@@ -267,7 +267,7 @@ same-fluid packet data.
 The source line is formal once its channel theorems are accepted:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 \tag{USCP.11}
@@ -299,7 +299,7 @@ The theorem packet may be exported in the following honest form:
 \boxed{
 \begin{gathered}
 USCP.A+USCP.B+USCP.C,\\
-ACT.KX,\quad FPCR.C+FSCR.C+FCC.C1,\quad
+ACT.KX,\quad FPCR.C+FSCR.C+FCC.C1+FCC.C1a,\quad
 \mathsf{End}_{NS}
 \end{gathered}
 \Longrightarrow
@@ -525,7 +525,7 @@ ACT.KX\Longrightarrow ACT.A\Longrightarrow RCF.A\Longrightarrow LCI.A,
 ```
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f,
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f,
 \tag{USCP.P14}
 ```
 
@@ -551,7 +551,7 @@ The promoted live theorem should be:
 \begin{gathered}
 USCP.A2^\sharp,\quad USCP.B^\sharp,\quad
 (B1)^\sharp+(B2)^\sharp+(B3)^\sharp,\\
-ACT.KX,\quad FPCR.C+FSCR.C+FCC.C1,\quad
+ACT.KX,\quad FPCR.C+FSCR.C+FCC.C1+FCC.C1a,\quad
 \mathsf{End}_{NS}
 \end{gathered}
 \Longrightarrow
@@ -769,8 +769,8 @@ selector shadow.
 
 ### Corrected `USCP.C^\sharp`
 
-The enhanced survivor turns `(B1)`--`(B3)` into plausible atlas bridges instead
-of one-sided scalar inequalities.
+The enhanced survivor restates `(B1)`--`(B3)` as atlas-bridge targets instead of
+one-sided scalar inequalities.
 
 The signed gap-kernel bridge is:
 
@@ -833,7 +833,7 @@ USCP.A2^\sharp
 +USCP.B^\sharp
 +USCP.C^\sharp
 +ACT.KX
-+FPCR.C+FSCR.C+FCC.C1
++FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 +\mathsf{End}_{NS}
 \Longrightarrow
 \text{absence of terminal same-fluid class exit}.
@@ -1416,7 +1416,7 @@ USCP.A2^\sharp
 +USCP.B^\sharp
 +USCP.C^\sharp
 +ACT.KX
-+FPCR.C+FSCR.C+FCC.C1
++FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 +\mathsf{End}_{NS}
 \Longrightarrow
 \text{absence of terminal same-fluid class exit}.
@@ -1682,7 +1682,7 @@ Therefore
 
 ```math
 \boxed{
-FPCR.C+FSCR.C+FCC.C1
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a
 \Longrightarrow
 FCI.5f.
 }
@@ -1790,7 +1790,7 @@ USCP.A2\text{-}Pack
 +USCP.B\text{-}Selector\\
 +(B1)^\sharp+(B2)^\sharp+(B3)^\sharp
 +ACT.KX
-+(FPCR.C+FSCR.C+FCC.C1)
++(FPCR.C+FSCR.C+FCC.C1+FCC.C1a)
 +End_{NS}\\
 \Longrightarrow
 \text{absence of terminal same-fluid class exit}.

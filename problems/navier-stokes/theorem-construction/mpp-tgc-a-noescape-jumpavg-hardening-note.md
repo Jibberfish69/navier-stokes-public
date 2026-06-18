@@ -143,7 +143,7 @@ Equivalently, for every terminal subtail `\mathcal T'` and every `\rho>0`, there
 r_{good}(a,t)<\rho.
 ```
 
-Taking `\rho_n\downarrow0` yields a sequence of material points with good radii tending to zero. Compactness of the retained terminal label-time tail gives a convergent subsequence. If the limit point had a stable positive SCF-good radius, local stability of the SCF packet in bounded-distortion same-fluid charts would give a uniform positive lower radius for all sufficiently large sequence elements. This contradicts `r_{good}\to0`. Thus the limit is a terminal coherence fracture point in the averaged SCF-good sense, giving `Jump_avg`.
+Taking `\rho_n\downarrow0` yields a sequence of material points with good radii tending to zero. Compactness of the retained terminal label-time tail gives a convergent subsequence. If the limit point had a stable positive SCF-good radius, local stability of the SCF packet in bounded-distortion same-fluid charts gives a uniform positive lower radius for all sufficiently large sequence elements. This contradicts `r_{good}\to0`. Thus the limit is a terminal coherence fracture point in the averaged SCF-good sense, giving `Jump_avg`.
 
 ## Legal order
 

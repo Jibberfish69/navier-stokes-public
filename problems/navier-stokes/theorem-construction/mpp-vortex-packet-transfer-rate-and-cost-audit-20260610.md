@@ -170,7 +170,7 @@ Rate_E(r,t)
   + C nu r^{-2} integral_{A_r} |u|^2 dx,
 ```
 
-where `A_r = B_{2r}(x0) \ B_r(x0)` up to harmless cutoff collars.
+where `A_r = B_{2r}(x0) \ B_r(x0)` with fixed cutoff-collar constants.
 
 This is the answer to the fixed-scale version of:
 
@@ -199,7 +199,7 @@ The near pressure term has the same critical size after the pressure Poisson
 law and Calderon-Zygmund estimates. The far pressure term is nonlocal and must
 be carried as pressure-work or controlled by a separate pressure-tail theorem.
 
-After Young absorption, the transport/near-pressure part has the form:
+After the Young-margin split, the transport/near-pressure part has the form:
 
 ```text
 Rate_E(r,t)

@@ -421,7 +421,7 @@ must fail at a fixed-}\nu\text{ edge, and fixed }\nu>0\text{ blocks that edge.}
 \tag{VECM.11}
 ```
 
-The immediate theorem target sharpened by this audit is therefore:
+The theorem target sharpened by this audit is:
 
 ```math
 \boxed{

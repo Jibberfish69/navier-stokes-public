@@ -78,7 +78,7 @@ pointwise probes by definition.
 
 Home:
 
-- `Pack_Q` should stay a continuation-carrier gate.
+- `Pack_Q` is a continuation-carrier gate.
 - A point can interrogate the solution; it cannot by itself be the continuation
   packet.
 - The local rule is not "ignore point probes." It is "thicken the point into
@@ -154,11 +154,11 @@ The user identified vorticity/vortex language as different from generic
 analytic mass. A vortex is not a singleton. It requires more than one point: a
 radius, circulation, shear profile, inner/outer structure, and a spatial shape.
 
-This has to be said in the same plain terms as the Pack gate. Smoothness cannot
-be certified at a bare point. Nonsmoothness cannot be certified at a bare point
+This is stated in the same plain terms as the Pack gate. Smoothness cannot be
+certified at a bare point. Nonsmoothness cannot be certified at a bare point
 either. A point can show a suspicious value, limit, or blow-up signal, but the
-proof has to thicken the point to a neighborhood before it can decide what
-field object is really present.
+proof thickens the point to a neighborhood before it can decide what field object
+is really present.
 
 A vortex is one of those field objects. It requires more than a single point to
 even be called a vortex.

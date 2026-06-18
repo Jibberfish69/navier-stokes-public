@@ -2,15 +2,15 @@
 
 ## Status
 
-This note formalizes the old heuristic:
+This note formalizes the old donor-tower slogan:
 
 ```math
 \text{one tower can feed another only by depleting a donor tower.}
 ```
 
-The heuristic is meaningful, but it is not automatically a proof of
+The slogan is meaningful, but it is not automatically a proof of
 `SourcePulseExclusion.A`.  In theorem-facing form it becomes a precise donor
-depletion theorem.  That theorem would close the current ancestry route, but it
+depletion theorem.  Proving that theorem closes the current ancestry route, but it
 is not supplied by raw energy, local energy, finite dyadic band structure, or
 same-fluid transport alone.
 
@@ -202,7 +202,15 @@ The direct attempt
 `mpp-refilltree-wellfounded-direct-attempt-note.md` further reduces
 `RefillTreeWellFounded.A` to the Zeno branch alternatives
 `ScaleCriticalTreeCarleson.A` or `ZenoSourceResidueRigidity.A`, after the
-non-Zeno entrance branch is handled by original smooth tail decay.
+non-Zeno entrance branch is handled by `EntranceLeafDecay.A`:
+
+```math
+\sum_{v\in\partial\mathcal T_N}E_N(v;t_v^-)
+\le
+C_{\mathrm{leaf}}C_{\mathrm{ov}}
+\sup_{t\le T_\ast-\tau}\|P_{\ge N-C}u(t)\|_{L^2}^2
+\to0.
+```
 
 The Navier-Stokes shell flux identity gives antisymmetric transfer before
 weights and localization.  It does not by itself give `(TTD.1)` or `(TTD.2)` at
@@ -266,7 +274,7 @@ SourcePulseExclusion.A.
 }
 ```
 
-But it is not installed by the current route inputs.  Proving it would require
+But it is not installed by the current route inputs.  Proving it requires
 a scale-normalized donor-depletion / Carleson reserve, or a well-founded
 refill-tree theorem, for the positive nonlinear source-parent edges.  That is
 exactly the active source-pulse wall in two-tower language, not a softer

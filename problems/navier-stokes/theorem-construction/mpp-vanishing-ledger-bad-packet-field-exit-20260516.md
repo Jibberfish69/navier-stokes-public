@@ -75,7 +75,7 @@ ordinary route ledgers, or non-selected exits. Passing to the terminal
 subsequence gives a nonzero native source residue singular to the installed
 ledger.
 
-There are two retained shapes.
+There are two retained residue cases.
 
 1. If the residue persists along an infinite retained source-reserve tree, the
 installed theorem `ClassInternalSourceTreeExclusion.A` applies. Under `Pack_Q`
@@ -135,4 +135,3 @@ OriginalSmoothData=>NativeTrilinearDefectDomination.A.
 The reason is simple: the repo can now say what a failed domination theorem
 would mean inside the CM witness faces, but it still cannot rule out
 vanishing-ledger positive-source packets directly from original smooth data.
-

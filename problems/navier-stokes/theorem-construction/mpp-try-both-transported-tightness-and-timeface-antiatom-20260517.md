@@ -101,4 +101,6 @@ GoodTransportedShellExhaustion.A
 NativeSourceTraceDefectAtom.A
 ```
 
-Either one would move the conditional bridge closer to discharge. The second is equivalent to terminal temporal anti-concentration. The first requires a new global or anisotropic shell-tail budget for the tangent object.
+Either component supplies one side of the conditional bridge. The second is
+equivalent to terminal temporal anti-concentration. The first requires a new
+global or anisotropic shell-tail budget for the tangent object.
