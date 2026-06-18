@@ -88,13 +88,17 @@ A sufficient exact far theorem is the weighted Schur estimate
 \le C C_a^{far} M_a(t)^{3/2},
 ```
 
-with `C_a^{far}<infty` and `M_a^{3/2} in L^1(0,T)`.  A schematic decay form for
-the far pressure is
+with `C_a^{far}<infty` and `M_a^{3/2} in L^1(0,T)`.  One sufficient dyadic
+kernel hypothesis for the far pressure is the explicit bound
 
 ```math
 \|p_k^{far}\|_{L^2(A_k)}
 \le C_{far}2^{-\sigma k}\sum_{\ell}2^{-c|k-\ell|}M_a(t).
 ```
+
+This displayed kernel bound is a hypothesis strong enough to imply the weighted
+Schur estimate; it is not a replacement for proving that the actual pressure
+tail satisfies it on the same annular family.
 
 Thus the pressure-tail supplier follows from the exact pair
 `AnnL4.W + S_far`, with the weighted moment controlling the velocity factor in
