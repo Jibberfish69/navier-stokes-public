@@ -14,23 +14,27 @@ is available in the averaged branch without importing retained pointwise data.
 
 ## Source decision
 
-The averaged route selects the strengthened source supplier
+The averaged route selects the strengthened source supplier with the
+cutoff-defect input included:
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f.
 ```
 
 The strengthened package is
 
 ```math
-FFSRC.A:
-FFPB.A0+FFSC.C1+FCC.C1\Longrightarrow FCI.5f.
+\operatorname{Hyp}(FFSRC.A):
+FFPB.A0+FFSC.C1+FCC.C1+FCC.C1a\Longrightarrow FCI.5f.
 ```
+
+Here `FCC.C1a` is
+`\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}\in L^1(I)`.
 
 The stricter same-depth exact branch
 
 ```math
-FPCR.C/FIRP.A0+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C/FIRP.A0+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
 remains a separate alternate route. It is not silently claimed by this audit.
@@ -61,7 +65,7 @@ FFSC.C1\Longrightarrow
 The cutoff channel is supplied by
 
 ```math
-FCC.C1\Longrightarrow
+FCC.C1+FCC.C1a\Longrightarrow
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,cut}\in L^1(I).
 ```
 
@@ -81,11 +85,14 @@ The frozen-family energy inequality is
 \le
 \mathcal N_{N,\rho,\psi}^{src,\varepsilon,press}
 +
-\left(\mathfrak b_\psi^{cut}+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})\right)
-\mathcal F_{N,\rho,\psi}^{\varepsilon}.
+C(1+\mathfrak C_{N+1,\rho,\psi}^{\delta})
+\mathcal F_{N,\rho,\psi}^{\varepsilon}
++4\nu\mathcal E_{N,\rho,\psi}^{cut,\nabla,\varepsilon}.
 ```
 
-The coefficient is integrable by the source package and the averaged lower-carrier/collar inputs. Gronwall gives
+The coefficient term is integrable by the source package and the averaged
+lower-carrier/collar inputs; the cutoff-defect term is integrable only through
+`FCC.C1a`. Gronwall gives
 
 ```math
 \mathcal F_{N,\rho,\psi}^{\varepsilon}\in L^\infty(I),
@@ -136,7 +143,7 @@ It also does not treat `LCI.A_avg` as old pointwise `LCI.A`. The source ledger i
 The averaged branch may use
 
 ```math
-FFSRC.A\Longrightarrow FCI.5f
+\operatorname{Hyp}(FFSRC.A)\Longrightarrow FCI.5f
 ```
 
 as its selected source supplier. Then
