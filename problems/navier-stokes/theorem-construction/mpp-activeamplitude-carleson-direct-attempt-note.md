@@ -88,7 +88,7 @@ receiver/source route is admitted.  It does not provide a uniform
 branch-native active-window Carleson reserve over the same terminal bad packets
 that define the no-pulse branch.
 
-Thus `FFSRC.A=>FCI.5f` and its stronger source imports are consumers, not
+Thus `Hyp(FFSRC.A)=>FCI.5f` and its stronger source imports are consumers, not
 suppliers, for `ActiveAmplitudeCarleson.A`.
 
 ## Result
