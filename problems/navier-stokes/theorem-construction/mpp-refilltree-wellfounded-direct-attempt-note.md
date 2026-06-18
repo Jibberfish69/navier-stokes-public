@@ -68,7 +68,15 @@ Thus entrance termination is not installed.
 
 ## Attempt 2: Scale-Time Summation
 
-Comparable-scale ancestry gives backward time increments of order `r_m^2`.
+The scale-time summation branch needs explicit parabolic comparability along the
+ancestry edge: for some fixed constants `0<c<C<\infty`,
+
+```math
+c\,r_m^2\le \Delta t_m\le C\,r_m^2.
+```
+
+Under this hypothesis, the total backward time depth dominates the square-scale
+sum.
 If
 
 ```math
