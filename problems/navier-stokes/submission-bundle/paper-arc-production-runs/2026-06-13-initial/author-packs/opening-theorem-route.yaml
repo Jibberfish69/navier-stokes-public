@@ -28,7 +28,7 @@ source_rewrites:
 
     Two proof layers are kept visible.  The gold layer is the direct forward-positive route.  It tries to control the estimates that would continue the solution.  When that route succeeds, it proves regularity in the strongest possible way: the original solution stays in the continuation class.  The silver layer is the CM contrapositive route.  It begins only after the forward accounting has left a precise terminal obstruction.  It asks whether the selected terminal record is still a same-solution Navier--Stokes object.  That test is made through three witness faces: Pack for a positive same-fluid carrier or packet, Part for same-equation pressure-viscosity-incompressibility participation, and Field for a coherent positive-scale velocity-field readout.
 
-    The opening point of the proof is simple.  A terminal singularity is not just the point \((x_*,T_*)\).  The singularity claim is carried by positive-radius fields that shrink toward that point.  The live unpaid boundary is the annular witness formed by those shrinking fields.  Gold would close the boundary by proving scale-uniform annular control.  Silver may close it only after a surviving annular residue has been selected as the same-solution terminal record; after that admission, carrier has already been paid for that annular test, and the remaining CM landing is Part or Field.
+    The opening point of the proof is simple.  A terminal singularity is not just the point \((x_*,T_*)\).  The singularity claim is carried by positive-radius fields that shrink toward that point.  The live unpaid boundary is the annular witness formed by those shrinking fields.  Gold would close the boundary by proving scale-uniform annular control.  Silver may close it only after a surviving annular residue has been selected as the same-solution terminal record; after that admission, carrier has already been supplied for that annular test, and the remaining CM landing is Part or Field.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: Current Main Result and Proof Roadmap
@@ -72,7 +72,7 @@ source_rewrites:
 
     The live boundary is the annular endpoint witness.  A radius-zero point by itself is too small to carry the Clay breakdown claim.  The claim is carried by the surrounding positive-radius fields as their radii shrink toward \(0\).  The present manuscript records the gold supplier as open: the proof has not yet established scale-uniform smallness of the residual annular refill on every same-solution terminal schedule.  The silver side is also stated honestly.  Once a surviving residual annular witness is admitted as the same-solution terminal record, Pack is no longer the remaining CM argument for that annular test; selection and carrier have already been paid.  A nonsmooth admitted annular witness must then leave the class through Part or Field.
 
-    The rest of the paper makes this route readable.  The opening sections derive the first forward obstruction from the energy and enstrophy identities.  The CM sections define membership, Pack, Part, and Field.  The branch sections explain which support objects pay the proof, which are obsolete, and which remain open.  The appendices preserve the source-field material only where it helps the reader see a proof payment, obstruction, support role, or explicit continuation question.
+    The rest of the paper makes this route readable.  The opening sections derive the first forward obstruction from the energy and enstrophy identities.  The CM sections define membership, Pack, Part, and Field.  The branch sections explain which support objects pay the proof, which are obsolete, and which remain open.  The appendices preserve the source-field material only where it helps the reader see a proof argument, obstruction, support role, or explicit continuation question.
 - op: replace_section
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   section_title: Gold Standard Approach (Explained) + Live Example
@@ -186,7 +186,7 @@ source_rewrites:
       \le
       \|u_0\|_{L^2}^2.
     \]
-    This controls the total kinetic energy and the time integral of enstrophy.  It does not rule out concentration of higher derivatives near \(T_*\).  On higher rungs one obtains estimates of the schematic form
+    This controls the total kinetic energy and the time integral of enstrophy.  It does not rule out concentration of higher derivatives near \(T_*\).  On higher rungs one obtains inequalities such as
     \[
       \frac12\frac{d}{dt}\|\nabla^m u\|_{L^2}^2
       +\nu\|\nabla^{m+1}u\|_{L^2}^2
@@ -392,9 +392,9 @@ source_rewrites:
     \]
     The first failed face supports \(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
 
-    The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is not enough, because the singularity claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those payments is written, the paper keeps the boundary visible.
+    The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is not enough, because the singularity claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those arguments is written, the paper keeps the boundary visible.
 
-    The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof payment, support, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.
+    The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof argument, support, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.
 author_contract:
   arc_id: opening-theorem-route
   must_write:
@@ -409,7 +409,7 @@ author_contract:
   - current-state paper boilerplate
   - worker/runner/source-spine/bookkeeping voice
   - placeholder prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - Navier
   - proof

@@ -85,8 +85,8 @@ source_rewrites:
 
     This is the silver CM completion for admitted same-solution terminal records.
     It proves that an admitted finite terminal alternative is consumed as member-side continuation or class exit.
-    The public Clay conclusion still needs the final no-genuine-exit payment from the original smooth-data branch: the manuscript must prove that a smooth-data finite terminal record cannot be a genuine first exit, or equivalently must install \( \mathrm{NoGenuineExitFromSmoothData.A}\), \( \mathrm{OriginalSmoothDataPackSurvival.A}\), or an equivalent first-exit Pack-survival mechanism.
-    The theorem written above is the proved classification statement in this manuscript; the global Clay counterexample-exclusion theorem remains tied to that named payment.
+    The public Clay conclusion still needs the original smooth-data branch to enter the same pass-or-exit CM reading: the manuscript must prove that every smooth-data finite terminal record is either read on the member side or lands at a concrete first Pack, Part, or Field face failure, equivalently installing \( \mathrm{NoGenuineExitFromSmoothData.A}\), \( \mathrm{OriginalSmoothDataPackSurvival.A}\), or an equivalent first-exit Pack-survival mechanism inside that CM engine.
+    The theorem written above is the proved classification statement in this manuscript; the global Clay counterexample-exclusion theorem remains tied to that named CM branch law.
 
     \begin{proposition}[Torus-atlas terminal face exhaustion]
     On the periodic surface, the whole transported terminal atlas \(Q_{\mathrm{atlas}}\) gives the terminal CM test object.
@@ -147,10 +147,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   - problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is the two-outcome CM classification for
@@ -162,10 +162,10 @@ source_rewrites:
       Member(Q), and Exit(Q) first appear. The replacement now introduces the terminal
       record in ordinary language, then defines CM-test admissibility, then displays
       the ordered Pack/Part/Field chain before the theorem.
-    unpaid_derivation_attack: 'The Pack/Part/Field classification is paid by the theorem
+    open_derivation_attack: 'The Pack/Part/Field classification is paid by the theorem
       proof. The remaining global derivation is not hidden: the text names NoGenuineExitFromSmoothData,
       OriginalSmoothDataPackSurvival, or an equivalent first-exit Pack-survival mechanism
-      as the public Clay payment.'
+      as the public Clay bridge.'
     repair_decision: open endpoint written explicitly
     unresolved_failures: []
 - op: replace_section
@@ -198,7 +198,7 @@ source_rewrites:
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
     A support estimate matters only by strengthening one of these hinges while preserving the same terminal record.
-    The remaining public Clay payment is the no-genuine-exit bridge from original smooth data to the absence of a genuine first failed face.
+    The remaining public Clay bridge is the no-genuine-exit bridge from original smooth data to the absence of a genuine first failed face.
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1385
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -213,9 +213,9 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   - problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The hinge list could falsely sound like the whole Clay proof
@@ -224,7 +224,7 @@ source_rewrites:
     reader_thread_attack: 'A reader could lose the order of the close. The replacement
       now gives the four hinges in sequence: terminal record entry, same-object admission,
       member-side readout, and class exit.'
-    unpaid_derivation_attack: The hinge prose does not pretend to prove the no-genuine-exit
+    open_derivation_attack: The hinge prose does not pretend to prove the no-genuine-exit
       bridge. It states that support estimates matter only through the four hinges
       and identifies the remaining bridge as the named later payment.
     repair_decision: open endpoint written explicitly
@@ -262,7 +262,7 @@ source_rewrites:
     The record \(Q\) is that endpoint data: the selected material packet or its failure, the same-equation participation information or its failure, and the field readout information or its failure.
     \end{proof}
 
-    The proof has five payments.
+    The proof has five steps.
     First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).
     Second, \(Q\) is admitted to the CM packet tree, or the proposed obstruction is rejected as the wrong object for the original solution.
     Third, the admitted record is read in the order
@@ -312,12 +312,12 @@ source_rewrites:
     \end{proof}
 
     This theorem is the class-consumption theorem.
-    Surface payments still do the work that makes a terminal record legitimate.
+    Surface landings still do the work that makes a terminal record legitimate.
     The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.
     The whole-space branch selects the exterior Duhamel survivor after the initial heat tail and fixed compact-core far-field source are removed.
     The annular endpoint branch is the active gold-side obstruction: the surrounding positive-radius fields must be controlled by the forward-positive annular supplier.
     Silver receives that same annular witness only after admission, and then the nonsmooth residual is followed to Part or Field.
-    A complete Clay-facing proof must also include the gold obstruction analysis with its CM contrapositive counterpart, and it must prove the no-genuine-exit payment or replace it by an equivalent first-exit Pack-survival theorem.
+    A complete Clay-facing proof must also include the gold obstruction analysis with its CM contrapositive counterpart, and it must install the no-genuine-exit bridge inside the same pass-or-exit CM reading or replace it by an equivalent first-exit Pack-survival theorem.
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1409
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -331,10 +331,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   - problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The same-solution proof could overclaim a final Clay solution.
@@ -345,7 +345,7 @@ source_rewrites:
       entry and class membership. The replacement now separates terminal entry, same-object
       admission, Pack, Part, Field, readout, and exit before stating the no-third-branch
       corollary.
-    unpaid_derivation_attack: The CM classification is paid on the page through the
+    open_derivation_attack: The CM classification is supplied on the page through the
       ordered witness faces. The public Clay exclusion is left as an explicit named
       payment rather than buried inside the classification theorem.
     repair_decision: open endpoint written explicitly
@@ -497,9 +497,9 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   - problems/navier-stokes/theorem-construction/mpp-clay-bridge-reconciled-by-finite-obstruction-inventory-20260608.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The compactness section could be misread as a source of the
@@ -510,7 +510,7 @@ source_rewrites:
       splitting. The replacement now explains compactness as terminal-object formation,
       then gives the low/high split, tail control, exact-object residue, and routing
       roles in that order.
-    unpaid_derivation_attack: The section pays the compactness routing proof and explicitly
+    open_derivation_attack: The section pays the compactness routing proof and explicitly
       keeps the source estimate outside compactness. No missing source estimate is
       disguised as compactness.
     repair_decision: passes after repair
@@ -530,20 +530,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - same.solution
   - "(Exit|Member)"
   - proof
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

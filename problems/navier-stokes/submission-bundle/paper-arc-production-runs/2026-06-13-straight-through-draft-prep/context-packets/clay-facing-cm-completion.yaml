@@ -128,8 +128,8 @@ source_sections:
 
     This is the silver CM completion for admitted same-solution terminal records.
     It proves that an admitted finite terminal alternative is consumed as member-side continuation or class exit.
-    The public Clay conclusion still needs the final no-genuine-exit payment from the original smooth-data branch: the manuscript must prove that a smooth-data finite terminal record cannot be a genuine first exit, or equivalently must install \( \mathrm{NoGenuineExitFromSmoothData.A}\), \( \mathrm{OriginalSmoothDataPackSurvival.A}\), or an equivalent first-exit Pack-survival mechanism.
-    The theorem written above is the proved classification statement in this manuscript; the global Clay counterexample-exclusion theorem remains tied to that named payment.
+    The public Clay conclusion still needs the original smooth-data branch to enter the same pass-or-exit CM reading: the manuscript must prove that every smooth-data finite terminal record is either read on the member side or lands at a concrete first Pack, Part, or Field face failure, equivalently installing \( \mathrm{NoGenuineExitFromSmoothData.A}\), \( \mathrm{OriginalSmoothDataPackSurvival.A}\), or an equivalent first-exit Pack-survival mechanism inside that CM engine.
+    The theorem written above is the proved classification statement in this manuscript; the global Clay counterexample-exclusion theorem remains tied to that named CM branch law.
 
     \begin{proposition}[Torus-atlas terminal face exhaustion]
     On the periodic surface, the whole transported terminal atlas \(Q_{\mathrm{atlas}}\) gives the terminal CM test object.
@@ -208,7 +208,7 @@ source_sections:
       \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
     \]
     A support estimate matters only by strengthening one of these hinges while preserving the same terminal record.
-    The remaining public Clay payment is the no-genuine-exit bridge from original smooth data to the absence of a genuine first failed face.
+    The remaining public Clay bridge is the no-genuine-exit bridge from original smooth data to the absence of a genuine first failed face.
   truncated: false
 - spine_id: the-same-solution-cm-proof
   section_title: The Same-Solution CM Proof
@@ -243,7 +243,7 @@ source_sections:
     The record \(Q\) is that endpoint data: the selected material packet or its failure, the same-equation participation information or its failure, and the field readout information or its failure.
     \end{proof}
 
-    The proof has five payments.
+    The proof has five steps.
     First, the finite Clay negation is reduced to the same-branch alternative above: restart readout, or terminal record \(Q\).
     Second, \(Q\) is admitted to the CM packet tree, or the proposed obstruction is rejected as the wrong object for the original solution.
     Third, the admitted record is read in the order
@@ -293,12 +293,12 @@ source_sections:
     \end{proof}
 
     This theorem is the class-consumption theorem.
-    Surface payments still do the work that makes a terminal record legitimate.
+    Surface landings still do the work that makes a terminal record legitimate.
     The periodic branch selects the transported whole-torus atlas and reads non-continuation through that atlas.
     The whole-space branch selects the exterior Duhamel survivor after the initial heat tail and fixed compact-core far-field source are removed.
     The annular endpoint branch is the active gold-side obstruction: the surrounding positive-radius fields must be controlled by the forward-positive annular supplier.
     Silver receives that same annular witness only after admission, and then the nonsmooth residual is followed to Part or Field.
-    A CMI-final version must also include the gold obstruction analysis with its CM contrapositive counterpart, and it must prove the no-genuine-exit payment or replace it by an equivalent first-exit Pack-survival theorem.
+    A CMI-final version must also include the gold obstruction analysis with its CM contrapositive counterpart, and it must install the no-genuine-exit bridge inside the same pass-or-exit CM reading or replace it by an equivalent first-exit Pack-survival theorem.
   truncated: false
 - spine_id: compactness-and-exact-object-capture
   section_title: Compactness And Exact-Object Capture
@@ -483,7 +483,7 @@ support_refs:
   excerpt: |-
     The batch rewrote the active CM proof core in `navier-stokes-submission.tex`, from `Defining Class Membership` through `The Clay-Facing CM Completion`.  The rewritten source fixes one working object \(\mathcal O_{\mathrm{NS}}^{\mathrm{work}}\), defines membership and exit on that same object, teaches Pack/Part/Field as three membership faces, states the pass-or-exit split with branch readout on the pass side, and keeps the annular endpoint boundary visible instead of turning the CM grammar into a final proof claim.
 
-    The batch also puts the current gold/silver ledgers into reader-facing form.  Gold remains the forward-positive route and is narrowed to the residual annular refill problem, with terminal Zeno source-refill named as the surviving obstruction.  Silver remains the CM-exit contrapositive route and is stated as a first Pack/Part/Field face landing for any selected same-solution residual obstruction.  The periodic atlas payment and whole-space exterior-source branch are written as branch-specific payments, not as hidden closure of the open annular endpoint.
+    The batch also puts the current gold/silver ledgers into reader-facing form.  Gold remains the forward-positive route and is narrowed to the residual annular refill problem, with terminal Zeno source-refill named as the surviving obstruction.  Silver remains the CM-exit contrapositive route and is stated as a first Pack/Part/Field face landing for any selected same-solution residual obstruction.  The periodic atlas result and whole-space exterior-source branch are written as branch-specific payments, not as hidden closure of the open annular endpoint.
 - path: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260612-iteration-2.yaml
   matched_keywords:
   - Clay
@@ -547,7 +547,7 @@ support_refs:
     local cleanliness while leaving the paper's ordered reader spine
         underdeveloped: problem statement, gold route, obstruction, reframing,
         failure list, silver CM grammar, witness laws, class-law proof, Clay-facing
-        completion, branch payments, same-solution close, and appendix distillation.
+        completion, branch landings, same-solution close, and appendix distillation.
       missing_capability: >-
 - path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
   matched_keywords:
@@ -704,17 +704,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *1
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -738,6 +738,6 @@ mechanical_verifier:
   math_reader_critic_required:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   must_emit: ready author pack with replace_section rewrites, not notes or reports

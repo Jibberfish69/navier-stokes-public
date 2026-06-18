@@ -58,9 +58,9 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Pack has been defined as a real
@@ -71,7 +71,7 @@ source_rewrites:
       is not enough. The replacement repairs this by saying those objects may locate
       trouble, while the CM test needs a positive body before Part or Field can be
       asked.
-    unpaid_derivation_attack: The Pack witness law is paid in this arc. Later sections
+    open_derivation_attack: The Pack witness law is paid in this arc. Later sections
       still owe branch-specific evidence that a selected terminal record has or lacks
       that carrier.
     repair_decision: passes after repair
@@ -89,15 +89,15 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
   - problems/navier-stokes/theorem-construction/mpp-terminal-pack-compactness-modulus-direct-attempt-20260610.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Pack failures have a common first-face form. The source limits this to cases where the selected terminal story lacks the positive same-fluid body needed for Part and Field to be asked.
     reader_thread_attack: A reader could treat a terminal point, source atom, or residue as a full Clay witness too early. The section now says these are relevant only after they become the same-solution terminal object, and it keeps annular admission separate from a raw radius-zero point.
-    unpaid_derivation_attack: The section pays the Pack-side grammar and annular admission boundary. Branch-specific proof still has to show whether a concrete selected record has a carrier or stops at \(\neg\Pack_Q\).
+    open_derivation_attack: The section pays the Pack-side grammar and annular admission boundary. Branch-specific proof still has to show whether a concrete selected record has a carrier or stops at \(\neg\Pack_Q\).
     repair_decision: passes after repair
     unresolved_failures: []
 - op: certify_existing_section
@@ -113,15 +113,15 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md
   - problems/navier-stokes/theorem-construction/mpp-any-finite-failure-witness-cm-exit-20260521.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that dead, jump, and blown are lawful mechanism names only after the first failed face is located. The source pays this by routing dead through Part and jump/blown through the Pack/Part/Field order.
     reader_thread_attack: "A reader could mistake the names for a loose taxonomy. The section now states the sequence explicitly: fix \\(Q\\), check Pack, check Part, then check Field."
-    unpaid_derivation_attack: The section pays the mechanism vocabulary. Concrete branch sections still have to derive the face for each selected terminal record before the name can count as exit evidence.
+    open_derivation_attack: The section pays the mechanism vocabulary. Concrete branch sections still have to derive the face for each selected terminal record before the name can count as exit evidence.
     repair_decision: passes after repair
     unresolved_failures: []
 - op: replace_section
@@ -181,10 +181,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-cm-certificate-direction-correction-20260506.md
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the CM route has a lawful pass/fail
@@ -194,7 +194,7 @@ source_rewrites:
     reader_thread_attack: A reader could lose why arbitrary bad scales are not exits.
       The replacement repairs this by requiring a selected same-solution record Q
       and the Pack/Part/Field packet before any class-exit witness is named.
-    unpaid_derivation_attack: The logic proof is paid as certificate direction plus
+    open_derivation_attack: The logic proof is paid as certificate direction plus
       finite-witness classification. The branch readout and terminal obstruction must
       still be supplied by the branch being tested.
     repair_decision: passes after repair
@@ -237,10 +237,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-cm-certificate-direction-correction-20260506.md
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: 'The strongest claim is that the Boolean witness table collapses
@@ -249,7 +249,7 @@ source_rewrites:
     reader_thread_attack: A reader could lose Field as a genuine face after the collapse.
       The replacement repairs this by saying Field remains live after Pack and Part
       survive and every positive coherent field scale fails.
-    unpaid_derivation_attack: The section pays the logical simplification. It leaves
+    open_derivation_attack: The section pays the logical simplification. It leaves
       concrete branch evidence to later sections, where each selected record must
       derive the first failed face.
     repair_decision: passes after repair
@@ -440,10 +440,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-cm-certificate-direction-correction-20260506.md
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the witness grammar proves the
@@ -455,8 +455,8 @@ source_rewrites:
       law and the annular residual. The replacement repairs this by adding an annular
       specialization with the shell inequality, D_j^res, the heat-window obstruction,
       and the Part/Field landing after annular admission.
-    unpaid_derivation_attack: The class-law proof and annular Field contradiction
-      are paid on the page. The scale-uniform annular supplier remains unpaid on the
+    open_derivation_attack: The class-law proof and annular Field contradiction
+      are supplied on the page. The scale-uniform annular supplier remains open on the
       gold side and is explicitly named as the current gold obstruction.
     repair_decision: open endpoint written explicitly
     unresolved_failures: []
@@ -475,21 +475,21 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - Pack
   - Part
   - Field
   - "(Exit|Member)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

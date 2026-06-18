@@ -94,7 +94,7 @@ source_rewrites:
 
     \subsection{Retained Amplitude, Low Strain, And Height Flux}
 
-    Retained-amplitude and low-strain routes are hard because a branch can keep enough structure to avoid immediate Pack failure while still accumulating terminal field pressure.  The forward-positive route tries to prove a gain, bounded variation, or height-flux control strong enough to force readout.  The class route preserves the branch split.
+    Retained-amplitude and low-strain routes are hard because a branch can keep enough structure to avoid first Pack failure while still accumulating terminal field pressure.  The forward-positive route tries to prove a gain, bounded variation, or height-flux control strong enough to force readout.  The class route preserves the branch split.
 
     \begin{proposition}[Retained-amplitude routing]
     A retained-amplitude branch either creates Pack gain, loses Part participation or dwell, reaches a licensed Field diagnostic, or falls into a Zeno terminal subcase.
@@ -147,9 +147,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1029
   endpoint_status: open continuation with exact missing derivation
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section truthfully states the forward families as support
@@ -158,7 +158,7 @@ source_rewrites:
     reader_thread_attack: The reader can follow the branch job because each subsection
       first says the ordinary obstruction and then names the Pack/Part/Field or readout
       role; the annular endpoint remains visibly open instead of hidden.
-    unpaid_derivation_attack: The exact unpaid derivation is the gold theorem turning
+    open_derivation_attack: The exact unpaid derivation is the gold theorem turning
       same-solution residual source mass on shrinking heat-time windows into a controlled
       annular/source-residue alternative; the page names TerminalTimeFaceAntiAtom.A
       or an equivalent production theorem as the missing payment.
@@ -211,7 +211,7 @@ source_rewrites:
     \textbf{Branch family} & \textbf{Object it can select} & \textbf{Proof role in this manuscript}\\
     \hline
     Source reserve and donor refill & terminal source ancestry or residual refill & Pack first; Part after carrier survives; Field after Pack and Part\\
-    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field payment\\
+    Zeno, terminal atoms, and annular limit & point-object or shrinking annular witness & point-object Pack failure; admitted annular witness returns to Part or Field landing\\
     Retained amplitude and low strain & terminal amplitude, dwell, or height-flux branch & finite routing through Pack, Part, Field, or Zeno\\
     Signed current and no-free-sink & source-current or donor-balance record & support until it proves a same-record face or readout\\
     Square reserve and native trilinear control & selected square-source reserve & auxiliary until the reserve lands in first-face order\\
@@ -223,9 +223,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1161
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The proposition proves a classification of branch-family support
@@ -233,7 +233,7 @@ source_rewrites:
       branch material into Pack, Part, Field, readout, typed disjunction, or support.
     reader_thread_attack: The table and proof keep the reader oriented by naming the
       object each family can select and the manuscript role it may pay.
-    unpaid_derivation_attack: No derivation jump remains for the classification claim;
+    open_derivation_attack: No derivation jump remains for the classification claim;
       deeper analytic estimates are intentionally left as support until they name
       a selected face.
     repair_decision: passes after repair
@@ -283,16 +283,16 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1210
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The support-boundary proposition correctly restricts auxiliary
       estimates to selected same-solution face or readout landings.
     reader_thread_attack: The reader is told why strong estimates remain valuable
       while not becoming the class law by themselves.
-    unpaid_derivation_attack: 'The proof payment is conceptual rather than analytic:
+    open_derivation_attack: 'The proof argument is conceptual rather than analytic:
       it states the admissible proof positions and prevents unsupported supplier estimates
       from carrying the conclusion.'
     repair_decision: passes after repair
@@ -332,9 +332,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1360
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The branch-coverage proposition states an admissibility rule
@@ -343,7 +343,7 @@ source_rewrites:
     reader_thread_attack: 'The section reads as a short proof-role map: each branch
       must identify a same terminal witness, a first lost requirement, or a member-side
       readout.'
-    unpaid_derivation_attack: The derivation paid here is the logical reduction to
+    open_derivation_attack: The derivation paid here is the logical reduction to
       Pack, Part, Field, or readout; individual supplier estimates remain separate
       section debts.
     repair_decision: passes after repair
@@ -377,9 +377,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1491
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: 'The section makes a true support claim: an auxiliary estimate
@@ -387,7 +387,7 @@ source_rewrites:
       or readout.'
     reader_thread_attack: The reader gets the rule before the compact display, so
       the notation records a proof route already explained in words.
-    unpaid_derivation_attack: The section does not itself prove a new estimate; it
+    open_derivation_attack: The section does not itself prove a new estimate; it
       explicitly marks the estimate-to-face conversion as the required payment.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -402,25 +402,25 @@ source_rewrites:
 
     The appendices collect supporting calculations, failed direct estimates, and branch-local reductions.  Each appendix entry receives a limited proof status: it either supplies a Pack, Part, Field, or member-side readout payment for a selected terminal record, or it remains support, obstruction evidence, obsolete direct work, or a scope boundary.
 
-    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face payment or readout payment.
+    Those calculations are evidence for the theorem above.  When an appendix calculation says that a source-control theorem, no-pulse route, critical-norm route, or direct exterior \(H^s\) estimate failed to close, it records the failure of that direct estimate.  The calculation becomes an input to the proof only when the main body cites it as a selected-record face landing or readout payment.
 
-    The main-body theorem is the same-solution CM dichotomy together with the named surface payments.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Pack, Part, or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
+    The main-body theorem is the same-solution CM dichotomy together with the named surface landings.  A member branch gives continuation through its selected readout.  A failed branch gives class exit through the first failed Pack, Part, or Field face on the selected record.  The appendix keeps every unfinished or obsolete direct route visible and keeps that material from replacing the proof spine.
 
     \begingroup
     \sloppy
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1510
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The appendix-introduction claim is limited to organizing supporting
       calculations and failed direct estimates as evidence for the main CM theorem.
     reader_thread_attack: The reader is told how appendix calculations become proof
       inputs, which prevents the appendix from replacing the proof spine.
-    unpaid_derivation_attack: The section has no standalone analytic derivation to
+    open_derivation_attack: The section has no standalone analytic derivation to
       pay; its payment is the endpoint-status rule for appendix material.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -493,16 +493,16 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1520
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The carrier, participation, and field lemmas correctly present
       pattern-level Pack/Part/Field routing for selected branches.
     reader_thread_attack: The reader sees the repeated derivation pattern in plain
       words before the Pack, Part, and Field formulas are used.
-    unpaid_derivation_attack: The local proof payments are present as short lemmas;
+    open_derivation_attack: The local proof arguments are present as short lemmas;
       the remaining branch-specific analytic work stays in the preceding branch sections.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -529,7 +529,7 @@ source_rewrites:
     \text{Field failure} &
       \Pack_Q\wedge\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
     \text{support} &
-      \text{a real estimate whose selected record or face payment is still unwritten.}
+      \text{a real estimate whose selected record or face landing is still unwritten.}
     \end{array}
     \]
     This is the bookkeeping the reader needs.  A forward argument may pay a source term, rule out a donor refill, locate a terminal atom, or sharpen an endpoint readout.  It becomes proof text only at the line where it names \(Q\), names the class data carried by \(Q\), and pays one of the outcomes above.
@@ -546,7 +546,7 @@ source_rewrites:
     Compactness & Extract a terminal object from the preterminal branch & Detached or under-controlled terminal limit & Admits a candidate \(Q\) only when it remains attached to the same solution record\\
     Recovery/surface fidelity & Convert terminal control into continuation & Recovery available on the wrong surface or wrong object & Supplies member readout on the same object; otherwise leaves a face failure or support boundary\\
     Lower-prefix/upper-tail & Collapse split survivor families & Split terminal family & Tests each surviving family as its own same-solution witness\\
-    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face payment or readout payment\\
+    Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Supports the selected witness until it becomes a face landing or readout payment\\
     Shell gain/half derivative & Use active-window smallness to pay lower strain & Active-window coefficient gap & Field pressure after Pack and Part have survived on the selected record\\
     Annular-limit witness & Control the residual scale-critical load on shrinking positive-radius annuli & Terminal residual pulse surrounding a radius-zero endpoint & Gold seeks direct annular control; silver classifies the admitted pulse by Part or Field\\
     \hline
@@ -557,9 +557,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-branch-proof-roles.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section truthfully describes forward branches as terminal-object
@@ -567,7 +567,7 @@ source_rewrites:
       live boundary.
     reader_thread_attack: The reader receives the five outcomes and a table before
       being asked to interpret branch names.
-    unpaid_derivation_attack: The annular-limit row still has an open gold payment;
+    open_derivation_attack: The annular-limit row still has an open gold payment;
       the text states that silver needs admission plus a Part or Field failure rather
       than a radius-zero Pack shortcut.
     repair_decision: open endpoint written explicitly
@@ -851,9 +851,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-energy-enstrophy-source-branch.tex:1
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section derives the energy identity, enstrophy inequality,
@@ -862,7 +862,7 @@ source_rewrites:
     reader_thread_attack: The reader can follow the branch from classical energy to
       source-reserve obstruction because each formula is introduced by the role it
       plays.
-    unpaid_derivation_attack: The unpaid derivation is the gold residual source depletion
+    open_derivation_attack: The unpaid derivation is the gold residual source depletion
       / CTS-FCTS / source-residue rigidity theorem from the listed installed inputs;
       the section states this as an obligation and gives the CM counterpart.
     repair_decision: open endpoint written explicitly
@@ -884,7 +884,7 @@ source_rewrites:
     shrinks as \(j-k\) grows. The branch asks whether that separation gain is strong
     enough to pay the remaining lower-shell bill.
 
-    The motivating schematic estimate has the form
+    The motivating test inequality is
     \[
       \big|\langle P_j((P_k u\cdot\nabla)u_{\sim j}),u_j\rangle\big|
       \leq 2^{-\alpha(j-k)} A_{j,k}(t),
@@ -901,7 +901,7 @@ source_rewrites:
     The stopping point is the half-derivative remainder. The kernel gain can reduce
     the lower-shell interaction, yet after the derivative in the nonlinearity is
     accounted for, one is left with an extra active or lower-shell factor that is not
-    paid by the basic energy surface. In schematic form, the gain gives
+    paid by the basic energy surface. At the level of dyadic powers, the gain gives
     \[
       2^{-(j-k)}\cdot 2^j = 2^k,
     \]
@@ -934,17 +934,17 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-kernelized-lifted-band-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section correctly treats kernelized lifted-band gain as
       a refinement that exposes a half-derivative residue rather than a closed cascade
       proof.
-    reader_thread_attack: The reader is told the positive aim, the schematic estimate,
+    reader_thread_attack: The reader is told the positive aim, the displayed test inequality,
       the derivative bill, and the CM role in that order.
-    unpaid_derivation_attack: The section leaves stronger kernel decay, cancellation,
+    open_derivation_attack: The section leaves stronger kernel decay, cancellation,
       active-window smallness, and Volterra memory as possible future payments rather
       than hidden conclusions.
     repair_decision: passes after repair
@@ -1338,9 +1338,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-lower-prefix-upper-tail-branch.tex:1
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section derives why raw LPAS fails on a heat-decaying
@@ -1349,7 +1349,7 @@ source_rewrites:
     reader_thread_attack: The reader gets the dyadic currencies, the exact counterexample,
       the residual refill object, the Volterra quotient, and the CM pulse routing
       in a coherent sequence.
-    unpaid_derivation_attack: The unpaid derivation is residual LPAS / residual CTS-FCTS
+    open_derivation_attack: The unpaid derivation is residual LPAS / residual CTS-FCTS
       / active-square Carleson or an equivalent source-residue theorem; the section
       writes the selected terminal pulse and its CM face alternatives.
     repair_decision: open endpoint written explicitly
@@ -1471,9 +1471,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-positive-forward-and-four-body-diagnostic.tex:1
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The four-body section truthfully classifies the direct positive
@@ -1481,7 +1481,7 @@ source_rewrites:
       capture, and recovery.
     reader_thread_attack: The reader sees why the circuit mattered and why the paper
       changes proof polarity after the persistent terminal survivor appears.
-    unpaid_derivation_attack: 'The unpaid derivation is not hidden: the section states
+    open_derivation_attack: 'The unpaid derivation is not hidden: the section states
       that later branches must state the positive aim, show the calculation, identify
       the survivor, locate the stall, and classify it in CM.'
     repair_decision: open endpoint written explicitly
@@ -1569,16 +1569,16 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-recovery-surface-fidelity-branch.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section accurately treats derivative recovery as pass-side
       readout and surface-fidelity support, not as an independent proof of smoothness.
     reader_thread_attack: The reader is led from the H^s continuation criterion through
       packet, geometric, and endpoint recovery routes to the same-surface burden.
-    unpaid_derivation_attack: The remaining derivation debt is any specific same-surface
+    open_derivation_attack: The remaining derivation debt is any specific same-surface
       bridge for an auxiliary recovery mechanism; the section keeps that as support
       until supplied.
     repair_decision: passes after repair
@@ -1876,9 +1876,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-scale-barrier-tail-branch.tex:1
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section derives the tail inequality, identifies the scale-barrier
@@ -1887,7 +1887,7 @@ source_rewrites:
     reader_thread_attack: The reader can follow the shell calculation because the
       variables, paraproduct split, absorption target, and CM counterpart are introduced
       in order.
-    unpaid_derivation_attack: The unpaid derivation is the lifted-flux estimate L-Flux,
+    open_derivation_attack: The unpaid derivation is the lifted-flux estimate L-Flux,
       or an equivalent residual CTS/FCTS/all-scale amplitude theorem, from the installed
       inputs; CM classification of any surviving same-solution tail is written.
     repair_decision: open endpoint written explicitly
@@ -1909,7 +1909,7 @@ source_rewrites:
     window, then the missing half derivative might be paid dynamically rather than
     pointwise at every time.
 
-    A schematic active-shell quantity has the form
+    One active-shell test quantity is
     \[
       A_j(t)=\frac{\text{lower-shell strain seen by }u_j}{\nu 2^{2j}}.
     \]
@@ -1923,7 +1923,7 @@ source_rewrites:
     If this were available, the active shell could absorb the lower-prefix forcing
     into viscosity.
 
-    The branch is plausible because energy gives time-integrated control. A terminal
+    The branch stays alive at this step because energy gives time-integrated control. A terminal
     cascade has to concentrate in time as well as scale. One hopes that the bad shell
     cannot see enough lower-frequency strain for long enough to maintain a breakdown
     channel. This turns the branch from a static dyadic estimate into a time-window
@@ -1964,9 +1964,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/sections/rebuilt-shell-gain-half-derivative-branch.tex:1
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The section correctly treats shell gain as an active-window
@@ -1975,7 +1975,7 @@ source_rewrites:
     reader_thread_attack: The reader sees the coefficient A_j, the desired summable
       smallness, the energy-budget limitation, and the Field-first CM reading for
       retained objects.
-    unpaid_derivation_attack: The unpaid derivation is active-window coefficient smallness
+    open_derivation_attack: The unpaid derivation is active-window coefficient smallness
       strong enough to absorb lower-prefix forcing; the section states the Pack/Part
       alternatives for different witness failures.
     repair_decision: open endpoint written explicitly
@@ -2043,9 +2043,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:85
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The appendix section correctly groups forward material by
@@ -2053,7 +2053,7 @@ source_rewrites:
       silver counterpart.
     reader_thread_attack: The reader is spared file-name bookkeeping and instead sees
       comparison, legacy, supplier, and endpoint support roles.
-    unpaid_derivation_attack: No new theorem is claimed; the unpaid annular supplier
+    open_derivation_attack: No new theorem is claimed; the unpaid annular supplier
       estimate is stated as not yet written and is paired with Part/Field testing
       after admission.
     repair_decision: passes after repair
@@ -2121,17 +2121,17 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:138
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The appendix section accurately lists branch-family obligations
       as source-reserve, local translator, same-ledger, class-law, local energy/elliptic,
       comparison-boundary, and candidate-branch roles.
     reader_thread_attack: The reader gets each family in the language of selected
-      packet, face payment, readout payment, or open support.
-    unpaid_derivation_attack: The section does not assert all candidates are solved;
+      packet, face landing, readout payment, or open support.
+    open_derivation_attack: The section does not assert all candidates are solved;
       it leaves candidate branches open until they name terminal packet and witness
       face.
     repair_decision: passes after repair
@@ -2151,20 +2151,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - forward
   - branch
   - "(support|obstruction|open)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

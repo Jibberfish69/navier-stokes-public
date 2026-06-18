@@ -14,9 +14,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/proof-attempt-failure-appendix.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: 'The appendix is certified only as the support record behind
@@ -25,7 +25,7 @@ source_rewrites:
     reader_thread_attack: The opening contract gives the reader the route through
       a large failure record before the enumerated attempts begin, so the appendix
       is not presented as a second proof spine.
-    unpaid_derivation_attack: The appendix does not prove smoothness; it pays the
+    open_derivation_attack: The appendix does not prove smoothness; it pays the
       manuscript by making failed direct routes legible as source, residue, support,
       open theorem, or Pack/Part/Field handoff material.
     repair_decision: passes after repair
@@ -39,9 +39,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex:1
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The source-field appendix is certified as reader-facing source
@@ -50,8 +50,8 @@ source_rewrites:
     reader_thread_attack: 'The status map tells the reader how to use the huge source
       record: proof-bearing only when a same terminal record and Pack/Part/Field face
       are named, support-only for definitions and routes, historical for older blockers.'
-    unpaid_derivation_attack: The derivation burden remains in the main proof or in
-      cited face payments; the appendix is accepted here as organized support and
+    open_derivation_attack: The derivation burden remains in the main proof or in
+      cited face landings; the appendix is accepted here as organized support and
       historical/source-field integration rather than as final theorem closure.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -70,19 +70,19 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - "(appendix|source.field|derivation)"
   - "(proof|support|open|obsolete)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

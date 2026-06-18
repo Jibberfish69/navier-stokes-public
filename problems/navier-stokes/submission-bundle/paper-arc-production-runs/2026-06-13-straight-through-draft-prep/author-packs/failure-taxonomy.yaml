@@ -68,10 +68,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that many forward branch surfaces reduce
@@ -82,7 +82,7 @@ source_rewrites:
       family and a CM exit payment. The replacement repairs this by saying that a
       branch counts only after it selects the same-solution record Q and derives the
       first Pack, Part, or Field failure.
-    unpaid_derivation_attack: The role-map proof is paid on the page. Individual branch
+    open_derivation_attack: The role-map proof is supplied on the page. Individual branch
       estimates are not re-proved here; the section classifies their proof role and
       leaves branch-local derivations to the later branch sections.
     repair_decision: passes after repair
@@ -124,10 +124,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the endpoint taxonomy compresses
@@ -137,7 +137,7 @@ source_rewrites:
     reader_thread_attack: A reader could lose why Pack comes before Part and Field.
       The replacement repairs the thread by explaining that no equation or field question
       can be asked before the same-fluid carrier exists.
-    unpaid_derivation_attack: 'The compression argument is paid as a logical classification.
+    open_derivation_attack: 'The compression argument is paid as a logical classification.
       The annular endpoint is treated carefully: after annular admission Pack is paid
       for that test, while pre-admission or no-carrier failures still land at Pack.'
     repair_decision: passes after repair
@@ -167,10 +167,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Pack is the entry face for any
@@ -181,7 +181,7 @@ source_rewrites:
       and the original solution. The replacement repairs this by tying the carrier
       to the same velocity field, transported family, finite cover, incompressible
       Jacobian, and positive carrier scale.
-    unpaid_derivation_attack: This section pays the Pack witness law and gives periodic
+    open_derivation_attack: This section pays the Pack witness law and gives periodic
       and whole-space readings. It does not prove the later Part or Field failures,
       and it correctly sends retained carrier records forward to Part.
     repair_decision: passes after repair
@@ -221,10 +221,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Pack failure is exactly loss of
@@ -235,7 +235,7 @@ source_rewrites:
       repairs this by distinguishing the pre-admission selection boundary from the
       post-admission annular test, where Pack has survived and the remaining question
       is Part or Field.
-    unpaid_derivation_attack: The section pays the carrier-loss classification. It
+    open_derivation_attack: The section pays the carrier-loss classification. It
       does not claim every annular residue is Pack; it explicitly prevents that overreach
       by routing admitted annular witnesses to same-law participation and field coherence.
     repair_decision: passes after repair
@@ -279,10 +279,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-canonical-terminal-packet-capture-20260522.md
   - problems/navier-stokes/theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md
   - problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that dead, jump, and blown are mechanism
@@ -293,7 +293,7 @@ source_rewrites:
     reader_thread_attack: A reader could treat dead, jump, and blown as loose labels.
       The replacement repairs that by starting from selected Q, then Pack, then Part,
       then Field, and only then licensing the mechanism name.
-    unpaid_derivation_attack: The taxonomy derivation is paid as an ordered mechanism
+    open_derivation_attack: The taxonomy derivation is supplied as an ordered mechanism
       classification. Later sections still owe branch-specific proofs that a selected
       record has the stated first failed face.
     repair_decision: passes after repair
@@ -313,20 +313,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - failure
   - "(Pack|Part|Field)"
   - "(endpoint|obstruction)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

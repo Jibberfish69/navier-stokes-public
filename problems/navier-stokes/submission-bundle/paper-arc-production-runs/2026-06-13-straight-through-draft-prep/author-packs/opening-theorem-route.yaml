@@ -19,9 +19,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Original Problem Statement}
@@ -40,7 +40,7 @@ source_rewrites:
 
     The proof has two certification layers.  The gold layer is the direct forward-positive route.  It tries to control the original solution strongly enough to continue it.  A successful gold proof is the strongest certificate, because it keeps the same solution inside the continuation class.  The silver layer is the CM contrapositive route.  It begins after the forward accounting has produced a precise terminal obstruction.  It asks whether the selected terminal record is still an admissible same-solution Navier--Stokes object.  The CM test has three witness faces: Pack for a positive same-fluid carrier or packet, Part for same-equation pressure-viscosity-incompressibility participation, and Field for a coherent positive-scale velocity-field readout.
 
-    A terminal singularity claim is larger than the point \((x_*,T_*)\).  The claim is carried by positive-radius fields that shrink toward that point.  Those surrounding fields form the annular witness.  Gold would close the annular witness by proving scale-uniform control of the residual refill on every same-solution terminal schedule.  Silver can classify that same boundary only after a surviving annular residue has been selected as the same-solution terminal record.  After that admission, carrier has already been paid for the annular test, so a finite nonsmooth admitted residue must leave the class through Part or Field.
+    A terminal singularity claim is larger than the point \((x_*,T_*)\).  The claim is carried by positive-radius fields that shrink toward that point.  Those surrounding fields form the annular witness.  Gold would close the annular witness by proving scale-uniform control of the residual refill on every same-solution terminal schedule.  Silver can classify that same boundary only after a surviving annular residue has been selected as the same-solution terminal record.  After that admission, carrier has already been supplied for the annular test, so a finite nonsmooth admitted residue must leave the class through Part or Field.
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the paper has fixed the exact
       finite-time counterexample object before using gold or silver language. The
@@ -51,7 +51,7 @@ source_rewrites:
       being tested." The replacement repairs that by keeping the same datum, velocity,
       pressure, viscosity, pressure law, incompressibility constraint, and preterminal
       solution attached to the object before introducing Pack, Part, and Field.
-    unpaid_derivation_attack: This section is setup rather than proof of regularity.
+    open_derivation_attack: This section is setup rather than proof of regularity.
       It pays the object definition and proof-route distinction, and it leaves the
       scale-uniform annular supplier as an open gold payment rather than presenting
       it as proved.
@@ -70,10 +70,10 @@ source_rewrites:
   - problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Current Main Result and Proof Roadmap}
@@ -112,7 +112,7 @@ source_rewrites:
 
     The annular endpoint witness is the first place where the route must be read carefully.  A radius-zero point by itself is too small to carry the Clay breakdown claim.  The claim is carried by surrounding positive-radius fields as their radii shrink toward \(0\).  The gold supplier remains open at the scale-uniform residual refill bound on every same-solution terminal annular schedule.  The silver side begins after selection.  Once a surviving residual annular witness is admitted as the same-solution terminal record, Pack is no longer the remaining CM argument for that annular test; selection and carrier have already been paid.  A nonsmooth admitted annular witness then leaves the class through Part or Field.
 
-    The rest of the paper follows this order.  The opening sections derive the forward obstruction from the energy and enstrophy identities and then refine it into the annular residual refill problem.  The CM sections define membership, Pack, Part, and Field.  The branch sections explain which support objects pay the proof, which are obsolete, and which remain open.  The appendices are used only where they help the reader see a proof payment, obstruction, support role, or explicit continuation question.
+    The rest of the paper follows this order.  The opening sections derive the forward obstruction from the energy and enstrophy identities and then refine it into the annular residual refill problem.  The CM sections define membership, Pack, Part, and Field.  The branch sections explain which support objects pay the proof, which are obsolete, and which remain open.  The appendices are used only where they help the reader see a proof argument, obstruction, support role, or explicit continuation question.
   math_reader_critic:
     claim_truth_attack: The strongest claim is the same-solution terminal classification
       theorem after admission. The replacement limits the theorem to an admitted record
@@ -122,7 +122,7 @@ source_rewrites:
       proving global Clay regularity. The replacement now repeats that admission is
       the same-branch tie and then places the annular supplier as the first visible
       open boundary.
-    unpaid_derivation_attack: The displayed theorem pays the CM classification form.
+    open_derivation_attack: The displayed theorem pays the CM classification form.
       The global Clay exclusion is not paid here; the text names the scale-uniform
       residual refill bound as the remaining gold supplier and routes silver only
       after annular selection.
@@ -142,9 +142,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Gold Standard Approach (Explained) + Live Example}
@@ -205,7 +205,7 @@ source_rewrites:
       begins. The replacement keeps the calculation elementary: transport and pressure
       vanish in the energy identity, viscosity dissipates, the enstrophy source remains,
       and only an exact obstruction may feed CM.'
-    unpaid_derivation_attack: The energy and enstrophy identities are paid on the
+    open_derivation_attack: The energy and enstrophy identities are paid on the
       page. The tame bound needed to prevent finite-time growth of the derivative
       rung remains open and is written as the gold obstruction rather than treated
       as a solved estimate.
@@ -225,9 +225,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: gold obstruction
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Reaching Obstruction}
@@ -280,7 +280,7 @@ source_rewrites:
       \le
       \|u_0\|_{L^2}^2.
     \]
-    This controls total kinetic energy and the time integral of enstrophy.  Higher derivatives can still concentrate near \(T_*\).  To see what the next rung asks for, differentiate the equation \(m\) times, test the differentiated equation against \(\nabla^m u\), integrate by parts, and use incompressibility to keep the transport term off the left side.  The nonlinear commutator leaves the schematic bound
+    This controls total kinetic energy and the time integral of enstrophy.  Higher derivatives can still concentrate near \(T_*\).  To see what the next rung asks for, differentiate the equation \(m\) times, test the differentiated equation against \(\nabla^m u\), integrate by parts, and use incompressibility to keep the transport term off the left side.  The nonlinear commutator leaves the displayed bound
     \[
       \frac12\frac{d}{dt}\|\nabla^m u\|_{L^2}^2
       +\nu\|\nabla^{m+1}u\|_{L^2}^2
@@ -399,7 +399,7 @@ source_rewrites:
       refill. The replacement repairs the thread by moving in order from I(t), to
       Y prime, to the local comparison ceiling, to shrinking parabolic coordinates,
       to discounted physical energy, to residual heat-scale currency.
-    unpaid_derivation_attack: The local estimate and model pulse calculation are paid.
+    open_derivation_attack: The local estimate and model pulse calculation are paid.
       The anti-atom or time-thickness theorem that would rule out the terminal pulse
       is not paid; the text names that missing theorem and then sends an admitted
       residual annular witness to Part or Field on the CM side.
@@ -418,10 +418,10 @@ source_rewrites:
   - problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Reframing the Problem}
@@ -453,7 +453,7 @@ source_rewrites:
       states that a failed estimate becomes useful only after it produces a terminal
       record Q for the same branch, then lists the three CM questions in ordinary
       language before displaying the face failures.
-    unpaid_derivation_attack: This section pays the logical reframing and the Pack/Part/Field
+    open_derivation_attack: This section pays the logical reframing and the Pack/Part/Field
       branch form. It does not prove the annular supplier; it explicitly says silver
       receives a surviving annular residue only after same-solution selection, with
       nonsmooth admission landing in Part or Field.
@@ -472,15 +472,15 @@ source_rewrites:
   - problems/navier-stokes/submission-bundle/ns-completion-source-writing-batch-20260613.md
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Main Result}
 
-    The main theorem is a same-solution terminal classification theorem after admission.  It keeps the annular boundary visible because the stronger gold annular supplier remains unpaid.  The silver payment for an admitted annular residue is precise: once that residue is selected as the same-solution terminal record, Pack has already been paid, and a finite nonsmooth branch exits through Part or Field.
+    The main theorem is a same-solution terminal classification theorem after admission.  It keeps the annular boundary visible because the stronger gold annular supplier remains open.  The silver payment for an admitted annular residue is precise: once that residue is selected as the same-solution terminal record, Pack has already been paid, and a finite nonsmooth branch exits through Part or Field.
 
     \begin{theorem}[Same-solution terminal classification with annular boundary]
     Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the maximal classical Navier--Stokes solution generated by \(u_0\).  Suppose a finite terminal claim selects a terminal record \(Q\) for that same branch.  If \(Q\) is admitted as a same-solution terminal witness, then either
@@ -518,9 +518,9 @@ source_rewrites:
       The replacement repairs that by saying admission is the tie to the original
       branch and by explaining the annular boundary, the terminal Zeno source-refill
       obstruction, and the silver Part/Field landing separately.
-    unpaid_derivation_attack: The theorem statement and proof skeleton pay the classification
+    open_derivation_attack: The theorem statement and proof skeleton pay the classification
       form. The derivation of a general anti-atom or scale-uniform annular control
-      theorem remains unpaid and is left as the gold boundary rather than hidden inside
+      theorem remains open and is left as the gold boundary rather than hidden inside
       the main result.
     repair_decision: open endpoint written explicitly
     unresolved_failures: []
@@ -538,9 +538,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Notation and Internal Dependency Labels}
@@ -572,7 +572,7 @@ source_rewrites:
     reader_thread_attack: A reader could lose the distinction between Exit and a witness
       face. The replacement repairs that by defining Exit as not Member and then defining
       Pack, Part, and Field as the faces whose failure can support that conclusion.
-    unpaid_derivation_attack: 'No theorem is claimed in this notation section. The
+    open_derivation_attack: 'No theorem is claimed in this notation section. The
       section pays vocabulary and role separation, and it sends later branch material
       to one of the named roles: admission, Pack, Part, Field, member readout, exit,
       obstruction, support, obsolete route, or open continuation.'
@@ -592,9 +592,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Scope And Proof Polarity}
@@ -615,8 +615,8 @@ source_rewrites:
     reader_thread_attack: A reader could lose the domain and export scope. The replacement
       repairs that by naming the periodic zero-force problem as the first concrete
       domain, keeping whole-space export separate, and limiting comparison/Euler material
-      to proof-role or smoothness-boundary payments.
-    unpaid_derivation_attack: This section pays proof polarity and scope. It leaves
+      to proof-role or smoothness-boundary arguments.
+    open_derivation_attack: This section pays proof polarity and scope. It leaves
       branch-local-to-full-Clay export as a later argument and does not claim that
       the export has already been proved in this opening arc.
     repair_decision: open endpoint written explicitly
@@ -635,9 +635,9 @@ source_rewrites:
   - problems/navier-stokes/route-lock.yaml
   - problems/navier-stokes/spine.md
   endpoint_status: support for a named later proof step
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   replacement: |
     \section{Proof Roadmap}
@@ -664,9 +664,9 @@ source_rewrites:
     \]
     The first failed face supports \(\Exit(Q;\Owork):=\neg\Member(Q;\Owork)\).
 
-    The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is too small to carry the singularity claim by itself; the claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those payments is written, the paper keeps the boundary visible.
+    The annular endpoint witness is the marked boundary of the present manuscript.  The radius-zero point is too small to carry the singularity claim by itself; the claim is carried by fields on shrinking positive-radius annuli.  Gold may close the boundary by proving scale-uniform annular control.  Silver may close it by admitting the surviving annular residue as the same-solution terminal record and landing Part or Field.  Until one of those arguments is written, the paper keeps the boundary visible.
 
-    The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof payment, support, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.
+    The remaining sections follow this order.  They define the CM membership object, state the Pack/Part/Field witness laws, prove the class-law implication from face failure to exit, and then read the branch material as proof argument, support, obstruction, obsolete material, or open continuation.  The reader should always be able to tell which object is under test and which proof role the current paragraph is paying.
   math_reader_critic:
     claim_truth_attack: 'The strongest claim is that the reader can track the paper
       in the right order: object, gold obstruction, silver test, Pack/Part/Field,
@@ -676,7 +676,7 @@ source_rewrites:
       route splits. The replacement repairs that by beginning with the same-branch
       terminal record and by ending with the rule that each later paragraph must say
       which object and proof role it is paying.
-    unpaid_derivation_attack: The roadmap pays orientation, not the missing theorem.
+    open_derivation_attack: The roadmap pays orientation, not the missing theorem.
       It states that the scale-uniform annular control or admitted-residue Part/Field
       payment must still be written before that boundary closes.
     repair_decision: open endpoint written explicitly
@@ -696,21 +696,21 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - Navier
   - proof
   - gold
   - "(CM|contrapositive)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

@@ -118,7 +118,7 @@ source_rewrites:
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
-    Pack/Part/Field payment & native CM role until the same packet is cleanly typed\\
+    Pack/Part/Field landing & native CM role until the same packet is cleanly typed\\
     Smooth-side comparison & support for intuition or boundary comparison &
     smooth-side support for comparison\\
     \end{tabular}
@@ -140,9 +140,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The appendix proves only the selected-packet Euler boundary
@@ -150,7 +150,7 @@ source_rewrites:
       been typed.
     reader_thread_attack: The reader gets the base Euler predicates, the clean boundary
       hypotheses, two clean face theorems, and the retention rule in that order.
-    unpaid_derivation_attack: The proof payments are present for the clean Part and
+    open_derivation_attack: The proof arguments are present for the clean Part and
       Field cases; Pack failures, residues, Reynolds stress, and oscillation defects
       are explicitly kept native until separately typed.
     repair_decision: passes after repair
@@ -189,9 +189,9 @@ source_rewrites:
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1245
   endpoint_status: proved in this arc
-  reader_payments:
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: 'The section states the correct comparison rule: Euler comparison
@@ -200,7 +200,7 @@ source_rewrites:
     reader_thread_attack: The reader is not asked to accept broad transfer language;
       the proposition says exactly where comparison enters and where smooth-side comparison
       remains support.
-    unpaid_derivation_attack: The derivation is paid as a boundary-role proposition.
+    open_derivation_attack: The derivation is supplied as a boundary-role proposition.
       No broad smooth Euler-to-Navier-Stokes transfer theorem is asserted.
     repair_decision: passes after repair
     unresolved_failures: []
@@ -302,13 +302,13 @@ source_rewrites:
     The Duhamel split removes the initial heat tail and the fixed compact-core far-field source.  The remaining exterior nonlinear source either vanishes in \(H^s\) or survives.  In the vanishing case, the whole-space branch has the continuation tail needed by the member-side readout.  In the surviving case, bounded exterior frequencies vanish, so the survivor is a dyadic high-frequency escape.  The preceding proposition reads that escape as Pack failure, Part failure, or Field failure on the same terminal record.  The CM embedding consumes the first failed face as \(\Exit(Q;\Owork)\).  The direct positive exterior \(H^s\) theorem remains a stronger gold/export theorem.
     \end{proof}
 
-    This is the whole-space payment used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
+    This is the whole-space branch result used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
   repo_sources_used:
   - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1269
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The whole-space section derives the exterior Duhamel split,
@@ -317,7 +317,7 @@ source_rewrites:
     reader_thread_attack: The reader can follow the noncompact payment because the
       section first names the far-field risk, then defines W_R, then proves the survivor
       classification.
-    unpaid_derivation_attack: The direct exterior H^s tail theorem remains a stronger
+    open_derivation_attack: The direct exterior H^s tail theorem remains a stronger
       gold/export theorem; the silver branch is paid by the exterior survivor face
       classification already written on the page.
     repair_decision: passes after repair
@@ -337,19 +337,19 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - "(Euler|comparison|transfer)"
   - "(boundary|support)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

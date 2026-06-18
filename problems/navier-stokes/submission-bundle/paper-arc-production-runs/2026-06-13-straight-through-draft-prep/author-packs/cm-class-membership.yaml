@@ -49,10 +49,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md:205
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:1
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that silver is a genuine class-membership
@@ -63,7 +63,7 @@ source_rewrites:
       material. The replacement repairs this by saying the forward-positive work determines
       Q, then silver holds to that exact record and derives the first Pack, Part,
       or Field loss.
-    unpaid_derivation_attack: The section pays the silver closure test and witness-face
+    open_derivation_attack: The section pays the silver closure test and witness-face
       order. It leaves branch-specific face derivations to later sections and keeps
       unsupported diagnostic material in support status until a same-solution record
       is selected.
@@ -169,10 +169,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md:205
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:1
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Member(Q;Owork) has concrete Navier--Stokes
@@ -183,7 +183,7 @@ source_rewrites:
       object and membership in the original class. The replacement repairs this by
       saying related flows, Euler pictures, diagnostic traces, and exported records
       remain support until reattached to Owork and identified with Q.
-    unpaid_derivation_attack: The witness certificate direction and the Pack/Part/Field
+    open_derivation_attack: The witness certificate direction and the Pack/Part/Field
       fail-side forms are paid. The branch readout at a selected continuation depth
       is named as attached later, so the section does not overclaim a complete global
       readout proof by itself.
@@ -250,10 +250,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md:205
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:1
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that Part and Field are inspectable
@@ -263,7 +263,7 @@ source_rewrites:
     reader_thread_attack: A reader could lose which variables are held fixed across
       Pack, Part, and Field. The replacement repairs this by naming the entries of
       the witness record before defining the two laws.
-    unpaid_derivation_attack: The section pays the local definitions and an example
+    open_derivation_attack: The section pays the local definitions and an example
       analytic Field bound. It does not claim every later branch satisfies or fails
       the bound; it says later terminal branches are charged to the first face they
       lose.
@@ -398,7 +398,7 @@ source_rewrites:
     \]
     A selected residual pulse with \(D_{j_m}^{\mathrm{res}}\ge\eta>0\) cannot keep that positive-scale Field readout.  After Part has survived, the nonzero residual pulse is a Field failure.
 
-    \subsection{Periodic and whole-space payments}
+    \subsection{Periodic and whole-space branch results}
 
     The periodic branch pays selection by using the whole transported material atlas.  The terminal object is \(Q_{\mathrm{atlas}}\).  The atlas fixes the packet before local branch examples are read, so the proof cannot switch to a private diagnostic packet after seeing the obstruction.  Loss of atlas selection or material comparability is Pack failure for \(Q_{\mathrm{atlas}}\).  Once an annular residue has already been admitted through the atlas, carrier and selection have been paid for that residue; the remaining nonsmooth branch is decided by Part or Field.
 
@@ -430,10 +430,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md:205
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:1
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the CM method consumes a selected
@@ -444,7 +444,7 @@ source_rewrites:
       annular witness, residual D_res, gold supplier, and silver landing. The replacement
       repairs this by walking from positive-radius annuli to D_j^res, then to the
       heat-window obstruction, then to Part or Field after annular admission.'
-    unpaid_derivation_attack: The annular model pulse and Field contradiction are
+    open_derivation_attack: The annular model pulse and Field contradiction are
       paid by displayed inequalities. The scale-uniform annular supplier remains open
       on the gold side and is explicitly written as a forward-positive estimate rather
       than smuggled into CM.
@@ -546,10 +546,10 @@ source_rewrites:
   - problems/navier-stokes/theorem-construction/mpp-exact-class-membership-witness-theorem.md:205
   - problems/navier-stokes/theorem-construction/mpp-member-smooth-contrapositive-witness-face-bridge-20260504.md:1
   - problems/navier-stokes/theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md:1
-  endpoint_status: silver CM face payment
-  reader_payments:
+  endpoint_status: silver CM face landing
+  reader_requirements:
   - plain_explanation
-  - derivation_or_proof_payment
+  - derivation_or_proof_argument
   - endpoint_status
   math_reader_critic:
     claim_truth_attack: The strongest claim is that the branch inventory collapses
@@ -559,7 +559,7 @@ source_rewrites:
     reader_thread_attack: 'A reader could be overwhelmed by branch names. The replacement
       repairs this by making every family answer the same questions: what is Q, which
       class datum is tested, and which face closes the fail branch.'
-    unpaid_derivation_attack: The appendix pays the obligation map, not every branch-local
+    open_derivation_attack: The appendix pays the obligation map, not every branch-local
       proof. It explicitly keeps support-boundary entries as support until the page
       selects the same-solution record and proves Member or Exit.
     repair_decision: passes after repair
@@ -579,20 +579,20 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns:
   - "(Member|class membership)"
   - participation
   - "(CM|contrapositive)"
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build

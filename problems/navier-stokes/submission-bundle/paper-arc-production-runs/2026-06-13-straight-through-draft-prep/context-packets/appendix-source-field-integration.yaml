@@ -49,7 +49,7 @@ source_sections:
     that is where the\nsmoothness-control program first became a concrete circuit:\ncontrol
     the high scales, control energy and enstrophy, use those controls to\nproduce
     an exact object, and recover derivative control on that object.\nEvery later branch
-    below is a refinement of one of those payments.\n\nEach route is written in the
+    below is a refinement of one of those arguments.\n\nEach route is written in the
     same reader-facing order.  First it states the\npayment the route tried to make.
     \ Then it shows the calculation that made the\nroute worth trying.  Then it names
     the mathematical stopping point.  Finally it\nstates what survived into the class-membership
@@ -58,7 +58,7 @@ source_sections:
     witness can keep or lose membership.  The\nappendix now shows why the positive
     smoothness program leaves the objects\ntested by that grammar.\n\nFor that reason
     every route below has five obligations:\nthe attempted payment, the calculation
-    that made the route plausible, the exact\nmathematical stopping point, the surviving
+    that was supposed to carry the route, the exact\nmathematical stopping point, the surviving
     residue, and the later CM role.\nThose obligations are the admission rule for
     this appendix.  A route belongs\nhere when it helps the reader identify a terminal
     object, a member-side readout,\na Pack/Part/Field face, or a support theorem that
@@ -74,8 +74,7 @@ source_sections:
     one of these terminal objects into the\nPack/Part/Field test.\n\n\\begin{enumerate}[leftmargin=*,label=\\arabic*.]\n\\item
     \\textbf{Four-body circuit.}\nThe attempted payment is a loop:\ntail control gives
     \\(Q(t)\\) control, those controls give compactness, compactness\ngives an exact
-    object, and derivative recovery returns to tail control.\nThe calculation is plausible
-    because each body is a real mathematical tool:\nviscous high-frequency damping,
+    object, and derivative recovery returns to tail control.\nThe route uses four real mathematical tools:\nviscous high-frequency damping,
     the energy identity, compactness of controlled\napproximations, and derivative
     recovery on a geometric carrier.\nThe stopping point is circular debt.\nEach body
     needs the hard theorem promised by the next body.\nThe residue is the first complete
@@ -92,7 +91,7 @@ source_sections:
     and scale-memory\nwitness material after a terminal packet has been selected.\n\n\\item
     \\textbf{\\(Q(t)\\) and enstrophy.}\nThe attempted payment is a one-derivative
     extension of the kinetic energy law.\nThe calculation differentiates enstrophy
-    and reaches\n\\(Y'(t)+\\nu Z(t)\\lesssim \\|\\nabla u\\|_2^{3/2}\\|\\Delta u\\|_2^{3/2}\\),
+    and reaches\n\\(Y'(t)+\\nu Z(t)\\le C_0 \\|\\nabla u\\|_2^{3/2}\\|\\Delta u\\|_2^{3/2}\\),
     hence\n\\(Y'(t)\\le C_\\nu Y(t)^3\\) after absorption.\nThe stopping point is
     the vortex-stretching source.\nThe inequality is local-theory useful and still
     compatible with finite-time\ngrowth.\nThe residue is native source debt, later
@@ -212,7 +211,7 @@ source_sections:
     pure-pressure Liouville, and terminal\npressure-strain legality.\nThe stopping
     point is that none is installed unconditionally from the original\ndata.\nThe
     residue is the reduced source-wall obstruction list.\nIts CM role is honesty:
-    these are supplier doors, not completed proof payments.\n\n\\item \\textbf{Source
+    these are supplier doors, not completed proof arguments.\n\n\\item \\textbf{Source
     reserve birth.}\nThe attempted payment is charging first-created donor-square
     reserve to legal,\nresidual, or inherited ledgers.\nThe calculation chooses a
     first terminal same-fluid window \\(W\\) and contracts\npast reserve by minimality.\nThe
@@ -275,7 +274,7 @@ source_sections:
     scale payment.\nIt asks the equation to turn viscosity into a summable derivative
     tail.\n\nThe second body asks the same question in physical-space energy language.\nLet\n\\[\n
     \ Y(t)=\\frac12\\|\\nabla u(t)\\|_2^2 .\n\\]\nFor a smooth solution one obtains
-    an enstrophy identity of the schematic form\n\\[\n  Y'(t)+\\nu\\|\\Delta u(t)\\|_2^2\n
+    the enstrophy identity\n\\[\n  Y'(t)+\\nu\\|\\Delta u(t)\\|_2^2\n
     \   = \\int_{\\mathbb T^3}(u\\cdot\\nabla)u\\cdot\\Delta u\\,dx .\n\\]\nThe left
     side is the desired derivative payment.\nThe right side is the source that has
     to be paid.\nThe standard Sobolev-interpolation route gives a local-theory inequality
@@ -362,7 +361,7 @@ source_sections:
     residue, and Duhamel response.\nThe CM use is disciplined: a source object is
     not an exit because it is\ndangerous; it is proof material only when the selected
     terminal witness loses a\nclass face.\n\n\\paragraph{Compactness.}\nThe compactness
-    body tried to turn approximate control into an exact solution\nobject.\nThe route
+    body tried to turn control of approximating packets into an exact solution\nobject.\nThe route
     is mathematically honest.\nSplit an approximating sequence into low and high frequencies.\nThe
     low-frequency part is finite-dimensional after time compactness is\nsupplied,
     while the high-frequency part is small if the spectral tail is small.\nStrong
@@ -376,7 +375,7 @@ source_sections:
     becomes the rule that support estimates do not enter the proof\nuntil they identify
     the same terminal witness \\(Q\\).\n\n\\paragraph{Curvature or gradient recovery.}\nThe
     curvature route tried to recover derivative control from geometry.\nOn a curved
-    carrier, a schematic gradient evolution contains a Ricci term:\n\\[\n  \\partial_t|\\nabla
+    carrier, the branch uses a model gradient evolution with a Ricci term:\n\\[\n  \\partial_t|\\nabla
     u|^2=-\\mathrm{Ric}(g)(\\nabla u,\\nabla u)+\\nu\\Delta_g|\\nabla u|^2+C|\\nabla
     u|^3 .\n\\]\nA positive Ricci contribution would be exactly the missing derivative
     drain.\nThat is why this branch looked powerful.\nIt was trying to pay the fourth
@@ -386,7 +385,7 @@ source_sections:
     survivor is a demand for a replacement theorem inside the actual\nNavier--Stokes
     geometry: deformation-gradient control, commutator drain, or\nanother same-surface
     mechanism.\nUntil that theorem exists, the curvature branch is support and motivation,
-    not\na proof payment.\n\n\\paragraph{Modernized four-body packet.}\nThe modern
+    not\na proof argument.\n\n\\paragraph{Modernized four-body packet.}\nThe modern
     packet keeps the four old jobs and replaces their vague names by\nthe objects
     that actually survived.\nScale control becomes tail leakage.\nThe \\(Q(t)\\) source
     becomes source reserve.\nCompactness becomes terminal packet capture.\nCurvature
@@ -511,7 +510,7 @@ source_sections:
     strong enough to rule out the\natom.\nThe survivor is a zero-thickness native
     source residue.\nThis is exactly the kind of object that makes honesty essential.\nCalling
     it impossible would import the missing anti-atom theorem.\nCalling it an exit
-    immediately would skip the CM face test.\nThe paper must instead say what the
+    before the CM face test would skip the CM face test.\nThe paper must instead say what the
     object is, why the positive deletion route\nstopped there, and how CM tests it
     as zero-radius Pack/Part support after\nterminal admission.\n\n\\paragraph{Pressure
     sustain and pure pressure residue.}\nThe pressure branch asks whether pressure
@@ -685,7 +684,7 @@ source_sections:
     \begin{tabular}{L{0.24\textwidth} L{0.22\textwidth} L{0.42\textwidth}}
     \textbf{Material} & \textbf{Role in proof} & \textbf{Reader use} \\
     Original source stack and framework notes & support-only & Explain where the route came from; they do not replace the same-solution terminal test. \\
-    Direct Pack, Part, Field, and finite-disjunction rows & proof-bearing when tied to the same terminal record & Supply branch-level face payments for the pass-or-exit proof. \\
+    Direct Pack, Part, Field, and finite-disjunction rows & proof-bearing when tied to the same terminal record & Supply branch-level face landings for the pass-or-exit proof. \\
     Failed positive smoothness attempts & historical/support-only & Show why the forward estimate route did not pay the Clay burden and what residue entered the CM test. \\
     Earlier Clay-readiness and blocker checks & historical unless used by the main proof & Preserve the development history; they are not governing proof blockers by themselves. \\
     Reader/export notes & support-only & Explain presentation context without adding a fourth terminal branch. \\
@@ -1052,7 +1051,7 @@ source_sections:
     of the form
 
     \[
-    2^{-j}D_j\lesssim \nu
+    2^{-j}D_j\le C_0 \nu
     \]
 
     A newer direct tail-square surface closes the far-separated reserve by the
@@ -1124,14 +1123,14 @@ source_sections:
 
     \[
     \int_I 2^{-j}D_j(t)^2dt
-    \lesssim
+    \le C_0
     \varepsilon\nu2^{2k}|I|+C2^{-2\delta k}.
     \]
 
     The shell energy inequality supplies \(L^1_t\) dissipation control for \(D_j\).
     The desired measure estimate asks for \(L^2_t\), or Carleson, control of
     \(D_j^2\).  Near-diagonal absorption controls spatial shell products by the
-    global energy amplitude, and the time-square step remains unpaid.
+    global energy amplitude, and the time-square step remains open.
 
     This scalar obstruction is compatible with the current shell-energy inputs.  A
     time-square theorem, a monotonicity theorem, or a flux-regularity theorem would
@@ -1477,7 +1476,7 @@ source_sections:
     The current Body 1 surface controls the \(2^{2k}\) factor through the
     \(L^2_tH^1_x\) energy surface.  The remaining loss is the extra factor \(2^k\).
 
-    The missing theorem content is an additional \(k\)-side gain of roughly one half
+    The missing theorem content is an additional \(k\)-side gain of one half
     derivative on the intermediate shell.
 
     \[
@@ -1537,7 +1536,7 @@ source_sections:
 
     \[
     \lambda_j^2
-    \lesssim
+    \le C_0
     \sum_{N+M<k<j-4}
     2^{-(j-k)}\,2^{3k}\|\Delta_k u\|_{L^2_x}^2.
     \]
@@ -1710,7 +1709,7 @@ source_sections:
     The stress-strain flux route is valuable because it translates raw commutators
     into a geometric coarse-grained object.  It may be the bridge between the
     visible Eulerian defect and the deeper geometry law.  This note pays explanation
-    and route classification.  A proof payment still requires a same-solution
+    and route classification.  A proof argument still requires a same-solution
     packet, an inherited negative law, and a branch readout or first CM face.
 
 
@@ -1832,7 +1831,7 @@ source_sections:
     atlas. The scalar entrance and forcing packets still keep their own burdens.
     Thus the localized-projector globalization channel closes only for the
     projector-overlap problem.  The scalar source route still needs its own packet,
-    readout, or first-face payment.
+    readout, or first-face landing.
 
 
     \subsection{Cap-Null Coercivity-Rigidity Globalization Program}
@@ -1842,7 +1841,7 @@ source_sections:
     \big|
     \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
     \big|
-    \lesssim
+    \le C_0
     C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
     \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
     \]
@@ -1852,7 +1851,7 @@ source_sections:
     \sum_{(\omega,\omega')\in\mathcal R_j}
     \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
     \right|
-    \lesssim
+    \le C_0
     C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
     \Big(\sum_\omega \|u_{j,\omega}\|_{L^2_a}^2\Big)^{1/2}
     \Big(\sum_{\omega'} \|u_{j,\omega'}\|_{L^2_a}^2\Big)^{1/2},
@@ -1934,7 +1933,7 @@ source_sections:
     \big|
     \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
     \big|
-    \lesssim
+    \le C_0
     C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
     \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
     \]
@@ -1944,7 +1943,7 @@ source_sections:
     \sum_{(\omega,\omega')\in\mathcal R_j}
     \Lambda^{frozen}_{j,\omega,\omega'}(u_{j,\omega},u_{j,\omega'})
     \right|
-    \lesssim
+    \le C_0
     C_G\,N_{\mathrm{cap}}\,\rho_j\,2^j
     \sum_\omega \|u_{j,\omega}\|_{L^2_a}^2,
     \]
@@ -2446,17 +2445,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *1
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -2480,6 +2479,6 @@ mechanical_verifier:
   math_reader_critic_required:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   must_emit: ready author pack with replace_section rewrites, not notes or reports

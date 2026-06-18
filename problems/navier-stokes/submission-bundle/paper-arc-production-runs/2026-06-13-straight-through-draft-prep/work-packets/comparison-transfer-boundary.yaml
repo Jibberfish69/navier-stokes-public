@@ -46,31 +46,31 @@ arc:
   context_cost: 240
   completion_test: finished TeX prose for every spine_ref, verified mechanically,
     then integrated into TeX source
-source_payment_table:
+source_argument_table:
 - spine_id: selected-packet-euler-boundary-theorem
   section_title: Selected-Packet Euler Boundary Theorem
   source_ref: problems/navier-stokes/submission-bundle/euler-boundary-theorem-appendix.tex:1
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: &1
   - proved in this arc
   - support for a named later proof step
   - gold obstruction
-  - silver CM face payment
+  - silver CM face landing
   - obsolete or superseded with reason
   - logical contradiction
   - open continuation with exact missing derivation
 - spine_id: comparison-and-transfer-boundary
   section_title: Comparison And Transfer Boundary
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1245
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 - spine_id: whole-space-mathbb-r-3-r3-cm-exterior-source-branch
   section_title: Whole-Space \texorpdfstring{\(\mathbb R^3\)}{R3} CM Exterior-Source
     Branch
   source_ref: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex:1269
-  payment_required: reader-facing explanation, displayed derivation or proof payment
+  argument_required: reader-facing explanation, displayed derivation or proof argument
     where the section claims one, and explicit endpoint status
   acceptable_endpoint_statuses: *1
 source_sections:
@@ -187,7 +187,7 @@ source_sections:
     base boundary reading \(\Member_E(Q)\)\\
     Pack failure, detached ancestry, raw source residue, pressure-source residue,
     Reynolds-stress limit, or oscillation defect & first repair is still native
-    Pack/Part/Field payment & native CM role until the same packet is cleanly typed\\
+    Pack/Part/Field landing & native CM role until the same packet is cleanly typed\\
     Smooth-side comparison & support for intuition or boundary comparison &
     smooth-side support for comparison\\
     \end{tabular}
@@ -337,7 +337,7 @@ source_sections:
     The Duhamel split removes the initial heat tail and the fixed compact-core far-field source.  The remaining exterior nonlinear source either vanishes in \(H^s\) or survives.  In the vanishing case, the whole-space branch has the continuation tail needed by the member-side readout.  In the surviving case, bounded exterior frequencies vanish, so the survivor is a dyadic high-frequency escape.  The preceding proposition reads that escape as Pack failure, Part failure, or Field failure on the same terminal record.  The CM embedding consumes the first failed face as \(\Exit(Q;\Owork)\).  The direct positive exterior \(H^s\) theorem remains a stronger gold/export theorem.
     \end{proof}
 
-    This is the whole-space payment used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
+    This is the whole-space branch result used later in the paper.  It keeps the periodic atlas and the noncompact exterior-source branch separate.  It also keeps the direct \(H^s\) tail theorem in its proper role: a stronger forward-positive route, valuable when proved, while the silver whole-space branch uses the CM face landing written above.
   truncated: false
 support_refs:
 - path: problems/navier-stokes/route-lock.yaml
@@ -612,17 +612,17 @@ author_contract:
     or limits it
   - name the exact sentence, definition, or proof step where a reader could lose the
     thread
-  - name any derivation jump that remains unpaid, or state why the derivation is paid
+  - name any derivation jump that remains open, or state why the derivation is supplied
     on the page
   - record a repair decision before integration
   must_not_write:
   - boilerplate that presents the work as only a status snapshot
   - internal automation or progress-report voice
   - unfilled prose
-  - unpaid theorem claim hidden as narrative confidence
+  - unsupported theorem claim hidden as narrative confidence
   required_patterns: *2
   source_material_rule: every repo note, section, obstruction, and support item in
-    the packet must be turned into prose, proof payment, endpoint status, or a sourced
+    the packet must be turned into prose, proof argument, endpoint status, or a sourced
     exclusion
   integration_path: verify_author_pack -> integrate_author_pack -> targeted changed-section
     build
@@ -651,7 +651,7 @@ math_reader_critic_contract:
   must_answer:
   - claim_truth_attack
   - reader_thread_attack
-  - unpaid_derivation_attack
+  - open_derivation_attack
   - repair_decision
   acceptable_repair_decisions:
   - passes after repair

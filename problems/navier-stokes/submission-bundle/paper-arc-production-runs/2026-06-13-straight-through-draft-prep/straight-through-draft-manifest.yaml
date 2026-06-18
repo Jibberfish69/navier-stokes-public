@@ -104,7 +104,7 @@ verification_gate:
 first_draft_gate:
   scope: all ready arcs must have authored replacements integrated into TeX source
   critic_requirement: every replacement must carry claim-truth, reader-thread, and
-    unpaid-derivation criticism with a resolved repair decision
+    open-derivation criticism with a resolved repair decision
   completion_language: first draft approval means the paper itself is readable and
     current; packet generation, green verifiers, and builds are support evidence only
 math_containment_rule: no independent theorem pursuit before first-draft approval;
