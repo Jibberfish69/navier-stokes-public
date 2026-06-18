@@ -686,7 +686,7 @@ C_E
 ```
 
 is necessary for any regular classical route because it follows from the
-standard energy identity. It is not sufficient for the present theorem route.
+classical energy identity. It is not sufficient for the present theorem route.
 
 The missing information is scale-local and coercive:
 

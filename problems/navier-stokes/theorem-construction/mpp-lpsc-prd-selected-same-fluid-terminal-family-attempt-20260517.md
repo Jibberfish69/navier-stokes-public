@@ -96,7 +96,7 @@ ASAC\ pair\ defect\ payment
 \nRightarrow PositiveRemainderDepletion.A.
 ```
 
-## Attempt 5: Cauchy/Young absorption of the source remainder
+## Attempt 5: Cauchy/Young margin split for the source remainder
 
 The near-band active source-current reduces to the source-weighted angular term
 
@@ -117,7 +117,11 @@ A Cauchy/Young estimate has the form
 +\mathrm{Legal}_N.
 ```
 
-The first term is absorbable. The second term is exactly the active-square reserve / scale-critical Carleson quantity. Hence this route proves only the conditional statement
+The first term is spendable only as the displayed fraction
+`0<eta<1` of `sum_P int_{Q(P)} D_P`, leaving the remaining dissipative record
+coercive. The second term is exactly the active-square reserve /
+scale-critical Carleson quantity. Hence this route proves only the conditional
+statement
 
 ```math
 PositiveActiveCarlesonReserve.A

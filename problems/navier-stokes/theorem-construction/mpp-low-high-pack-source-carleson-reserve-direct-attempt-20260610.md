@@ -54,18 +54,29 @@ the positive source density has the form
 \left[\langle S_{<j_P}^{low} w_P,w_P\rangle\right]_+.
 ```
 
-Pointwise on the packet box,
+Pointwise on the packet box, the inequality is valid only after choosing a
+positive-strain envelope that dominates the low strain on that same box.  For
+example, define
+
+```math
+a_P
+:=
+\operatorname*{ess\,sup}_{(x,t)\in Q_P^{sel}}
+\lambda_{\max}^+\!\left(S_{<j_P}^{low}(x,t)\right),
+```
+
+where `Q_P^{sel}` is the selected packet window and
+`\lambda_{\max}^+(A)=\max(\lambda_{\max}(A),0)`. Then
 
 ```math
 \left[\langle S_{<j_P}^{low} w_P,w_P\rangle\right]_+
 \le
-a_P\,|w_P|^2,
+a_P\,|w_P|^2.
 ```
 
-where `a_P` is the positive top eigenvalue or an equivalent positive-strain
-average of the low profile on the same selected window.
-
-The high packets give the square measure. A Carleson estimate follows from this
+Any replacement of `a_P` by an averaged low-strain quantity requires a separate
+same-window domination theorem. The high packets give the square measure. A
+Carleson estimate follows from this
 decomposition only after one of the following additional payments is available:
 
 ```text
@@ -91,13 +102,14 @@ custody, first-exit minimality, and the CM paraproduct capture package. They do
 not give a bound on the selected positive low-strain multiplier `a_P` on the
 same terminal windows selected by the high packets.
 
-The same terminal strip model survives:
+The exact terminal strip time marginal still survives:
 
 ```math
 a_m(s)=m\,1_{(-1/m,0]}(s).
 ```
 
-If the high-packet occupancy is selected in that same strip, then
+If the high-packet occupancy measure `\mu_m` is selected in that same strip and
+has enough mass there, then
 
 ```math
 \int a_m(s)\,d\mu_m(s)
@@ -105,8 +117,9 @@ If the high-packet occupancy is selected in that same strip, then
 
 can carry order-one positive low-high source while the strip thickness tends to
 zero. Finite `L^1_s` mass and same-object custody do not prevent this
-co-location. The argument needs a decorrelation or residence theorem; it cannot
-be extracted from the paraproduct capture theorem itself.
+co-location. The argument needs a decorrelation, residence, domination, or
+strip-modulus theorem; it cannot be extracted from the paraproduct capture
+theorem itself.
 
 ## Result
 

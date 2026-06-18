@@ -251,6 +251,11 @@ through the transported-center coefficient split `LCI.B2c`--`LCI.B2d`.
 
 ### Proposition `LCI.B2a` (Nonlinear lower-order strain/cascade bound)
 
+The exact theorem-internal claim is the displayed packet estimate below. It is
+not a generic lower-order dismissal: every term is a finite Leibniz summand with
+one factor placed in `\Gamma_{N,m,\rho,\psi}^{low}` and the remaining weighted
+`L^2` factor pair placed in `\mathcal G_{N,m,\rho,\psi}^{low,\delta}`.
+
 For almost every `t\in I`,
 
 ```math
@@ -365,7 +370,7 @@ r+s=q+1+\alpha\le m+3.
 ```
 
 Because `m\ge 2`, both `r` and `s` cannot exceed `m`: otherwise
-`r,s\ge m+1` would force
+`r,s\ge m+1` forces
 `r+s\ge 2m+2>m+3`. So every Leibniz summand has one factor of order at most
 `m`, which is therefore bounded in `L^\infty` by
 `\Gamma_{N,m,\rho,\psi}^{low}(t)`, while the other factor has order at most
@@ -1129,7 +1134,7 @@ The theorem-facing version of this exact subslot is now isolated in
 whose target theorem `EOC.A` is precisely `(LCI.3c3z5j6)`.
 
 Corollary `OFP.C3a` in the one-field note shows that a *fully propagated*
-one-field coherence regime would indeed force `(LCI.3c3z5j6)`. But
+one-field coherence regime forces `(LCI.3c3z5j6)`. But
 Obstruction `OFP.C3b` records why that implication cannot be imported here on
 the present route: `OFP.B4` already spends the collar supplier `OFP.C2`, and
 `OFP.C2` consumes `CSP.A`, while `LCI.B2f2c` is still one of the receiver-side
@@ -1183,9 +1188,9 @@ so on the finite interval `I`,
 \tag{LCI.3c3z5l}
 ```
 
-So the oscillation-side wall should be solved by a companion widened-shell
-packet that actually reaches the full transported-center balls, not by trying
-to overread the smaller plateau packet beyond its geometric range.
+The oscillation-side wall therefore requires a companion widened-shell packet
+that actually reaches the full transported-center balls. The smaller plateau
+packet is not proof input beyond its geometric range.
 
 ### Proposition `LCI.B2f3` (Widened-shell packet readout gives the local Holder ledger)
 
@@ -1594,8 +1599,9 @@ K_q
 Evaluating `(LCI.3c3z19e)` at the transported centers `c_j(t)` and summing the
 triangle inequality over `j=1,\dots,J` yields `(LCI.3c3z19c)`.
 
-For `0\le q\le m-2`, each component of `\Delta U_q` is a universal contraction
-of the rung `U_{q+2}`. Hence
+For `0\le q\le m-2`, the identity `U_{q+2}=\nabla^2 U_q` makes each component of
+`\Delta U_q` the coordinate trace of the corresponding two derivative slots in
+`U_{q+2}`. Hence
 
 ```math
 \big|
@@ -1673,9 +1679,9 @@ L^\infty(I).
 
 ### Proof
 
-For `q=m-1`, each component of `\Delta U_{m-1}` is a universal contraction of
-the rung `U_{m+1}`. Likewise, each component of `\Delta U_m` is a universal
-contraction of the rung `U_{m+2}`. Hence
+For `q=m-1`, each component of `\Delta U_{m-1}` is the coordinate trace of the
+two derivative slots in `U_{m+1}`. Likewise, each component of `\Delta U_m` is
+the coordinate trace of the two derivative slots in `U_{m+2}`. Hence
 
 ```math
 \big|\Delta U_{m-1}(c_j(t),t)\big|
@@ -1845,8 +1851,7 @@ Now write
 \tag{LCI.3c3z19w}
 ```
 
-The standard interior estimate for harmonic functions on
-`B(c_j(t),R_\delta)` gives
+The harmonic interior estimate on `B(c_j(t),R_\delta)` gives
 
 ```math
 |\nabla^2 h_j(c_j(t),t)|
@@ -2084,7 +2089,7 @@ For `x\in B(c_j(t),R_\delta/2)` and `y` in the support of `1-\eta_j`, one has
 `h_j=\partial_a\partial_b\mathcal N * ((1-\eta_j)u_a u_b)`, the kernel bound
 `|\partial_a\partial_b\mathcal N(x-y)|\le C_{\mathcal N}|x-y|^{-3}` yields
 `(LCI.3c3z19ah)`. Summing over `j` gives `(LCI.3c3z19aj)`, and
-`(LCI.3c3z19ak)` is immediate from
+`(LCI.3c3z19ak)` comes from
 `|y-c_j(t)|^{-3}\le R_\delta^{-3}` on the integration region. ∎
 
 ### Candidate Reduction `LCI.B2g5f` (Return to the exact unsquared first center-rung law)
@@ -2197,9 +2202,10 @@ C_{\alpha,\rho,\psi,\delta,I}
 So the genuine remaining theorem is no longer another pressure-source or tail
 split. The route has now isolated the exact first-rung matrix law
 `(LCI.3c3z19ao)` together with the explicit lower-order forcing package
-`(LCI.3c3z19ap)`--`(LCI.3c3z19aq)`. The next question is whether the exact
-quadratic term `-U_1^2` is coercive enough on the full first-rung carrier to
-control that law without collapsing to a sign-destroying scalar estimate.
+`(LCI.3c3z19ap)`--`(LCI.3c3z19aq)`. The remaining theorem is a matrix
+coercivity estimate on the full first-rung carrier: the exact quadratic term
+`-U_1^2` must dominate the displayed forcing package without replacing the
+matrix law by a sign-destroying scalar estimate.
 
 ### Obstruction `LCI.B2g5h` (Bare first-rung matrix coercivity fails on the full carrier)
 
@@ -2317,7 +2323,7 @@ which the first-rung size can be arbitrarily large while the quadratic term
 vanishes exactly. Therefore the remaining first-rung wall is not a bare matrix
 comparison theorem on `|U_1|`; it must either:
 
-1. quotient out the harmless affine/shear sector; or
+1. quotient out the affine/shear gauge sector; or
 2. introduce an additional defect functional that vanishes on that nilpotent
    branch and measures only the genuinely dangerous first-rung modes.
 
@@ -2358,8 +2364,8 @@ the higher-rung system `(LCI.3c3z17)` still carries the coefficient
 
 So any successful first-rung repair must provide not only a defect theorem for
 the exact unsquared law `(LCI.3c3z19ao)`, but also a defect-to-higher-rung
-handoff strong enough to replace the full-carrier coefficient in
-`(LCI.3c3z17)`.
+handoff that replaces the full-carrier coefficient in `(LCI.3c3z17)` by the
+displayed center-rung product bound below.
 
 At minimum, the needed replacement has the form: for each `2\le q\le m`,
 
@@ -2391,7 +2397,7 @@ in `LCI.B2g3` be replayed with the defect in place of the full first-rung
 carrier. So the true first-rung wall is now a pair:
 
 1. a defect or quotient theorem for the exact first-rung matrix law
-   `(LCI.3c3z19ao)` that annihilates the harmless affine/shear branch;
+   `(LCI.3c3z19ao)` that annihilates the affine/shear gauge branch;
 2. a linearizing handoff from that defect to the higher-rung coefficient slot
    `(LCI.3c3z19az0)`.
 
@@ -2411,11 +2417,11 @@ G_j(t_0)=I.
 
 Here `G_j` is the exact affine frame generated by the first center rung. On the
 nilpotent shear branch from `LCI.B2g5h`, `A_j(t)\equiv A_M` and this frame is
-the whole harmless affine motion, so anything defined modulo `G_j` vanishes on
+the whole affine motion, so anything defined modulo `G_j` vanishes on
 that branch.
 
-The right first-rung defect should therefore not be a size functional of
-`A_j` itself. It should be the affine-frame defect
+The right first-rung defect is therefore not a size functional of `A_j` itself.
+It is the affine-frame defect
 
 ```math
 \mathfrak D_{1,j}^{aff}(t)
@@ -2452,8 +2458,8 @@ with the oscillation part fed by the center-ball supplier from
 
 ### Candidate Reduction `LCI.B2g5l` (Affine-frame handoff to the higher center rungs)
 
-Once `G_j` is installed, the higher center rungs should be transported in that
-affine frame. Writing
+Once `G_j` is installed, the proposed higher-center-rung handoff transports the
+higher rungs in that affine frame. Writing
 
 ```math
 \widetilde U_q^{\,j}(t)
@@ -2464,13 +2470,13 @@ affine frame. Writing
 \tag{LCI.3c3z19az7}
 ```
 
-for the natural tensor action of `G_j`, differentiating and using the center
+for the rank-`q` tensor action of `G_j`, differentiating and using the center
 law `(TC.14)` removes the exact linear action of `A_j(t)` from the higher-rung
 equations. The remaining coefficient is no longer the full carrier
 `|A_j(t)|`, but only the failure of the true field to match its affine center
 model, namely `\mathfrak D_{1,j}^{aff}(t)`.
 
-So the desired handoff theorem should replace `(LCI.3c3z19az1)` by
+So the desired handoff theorem is the replacement of `(LCI.3c3z19az1)` by
 
 ```math
 \mathfrak A_{1,\rho,\psi}^{ctr}(t)\,
@@ -2498,7 +2504,7 @@ S_{q,\rho,\psi}^{aff}\in L^1(I),
 so that the induction behind `LCI.B2g3` replays in the affine-quotiented
 frame.
 
-Therefore the first-center-rung package should be solved as one coupled repair:
+The first-center-rung package is therefore one coupled repair:
 
 1. prove the widened-shell oscillation theorem `LCI.B2f2`;
 2. use it together with `(LCI.3c3z19ap)`--`(LCI.3c3z19aq)` to control the
@@ -2623,7 +2629,7 @@ C_{\alpha,\rho,\psi,\delta,I}
 
 Combine `(LCI.3c3z19az15)` and `(LCI.3c3z19az17)` with the definition
 `(LCI.3c3z19az10)` to obtain `(LCI.3c3z19az11)`. The integrability statement
-`(LCI.3c3z19az13)` follows immediately from `(LCI.3c3z19az12)` on the finite
+`(LCI.3c3z19az13)` is `(LCI.3c3z19az12)` integrated on the finite
 interval `I`. ∎
 
 ### Proposition `LCI.B2g5n` (Exact affine-frame cancellation of the endpoint first-rung action)
@@ -2857,10 +2863,10 @@ C\,\Gamma_\sharp(t)\,\Gamma_\sharp(t_0),
 \tag{LCI.3c3z19az35}
 ```
 
-which yields `(LCI.3c3z19az29)` under the natural rank-`q` tensor action.
+which yields `(LCI.3c3z19az29)` under the rank-`q` tensor action.
 Applying this operator norm bound to the definition
-`(LCI.3c3z19az18)` gives `(LCI.3c3z19az30)`, and `(LCI.3c3z19az32)` follows
-immediately from `(LCI.3c3z19az31)`. ∎
+`(LCI.3c3z19az18)` gives `(LCI.3c3z19az30)`, and `(LCI.3c3z19az32)` is
+`(LCI.3c3z19az31)` evaluated with that bound. ∎
 
 ### Corollary `LCI.B2g5q` (The frame-weighted forcing bridge is downstream of the pack gauge)
 
@@ -2998,7 +3004,7 @@ a(t):=C_{\rho,\psi,\delta,I}\big(1+\Gamma_\sharp(t)\big).
 ```
 
 If `\mathcal G(t_0)=0`, then the zero function already solves
-`(LCI.3c5a)`, and standard comparison yields
+`(LCI.3c5a)`, and scalar comparison for `(LCI.3c5a)` yields
 `\mathcal G\equiv 0` on `I`. So only the nontrivial case
 `\mathcal G(t_0)>0` needs further analysis.
 
@@ -3042,9 +3048,9 @@ threshold
 \tag{LCI.3c5e}
 ```
 
-or under a genuinely stronger scalar reduction that replaces the self-coupled
-term by an Osgood-safe linear coefficient. A sufficient theorem-facing bridge
-would be any estimate of the form
+or under a scalar reduction that replaces the self-coupled term by an
+Osgood-safe linear coefficient. One sufficient theorem-facing bridge is an
+estimate of the form
 
 ```math
 \Gamma_{N,m,\rho,\psi}^{low}(t)\,
@@ -3281,8 +3287,8 @@ B_{\rho,\psi,\delta,I}^{osc}\in L^1(I).
 \tag{LCI.3c5n}
 ```
 
-Together with the absolute anchored-center ledger `(LCI.3c5k)`, this would
-recover the Osgood-safe linear bridge `(LCI.3c5f)`. So `(LCI.3c5n)` is a
+Together with the absolute anchored-center ledger `(LCI.3c5k)`, this recovers
+the Osgood-safe linear bridge `(LCI.3c5f)`. So `(LCI.3c5n)` is a
 fallback repair for the rough readout in Proposition `LCI.B3b`, not the
 primary transported-center scalar wall once the explicit oscillation ledger is
 kept on the theorem surface.
@@ -3499,7 +3505,7 @@ interval if one insists on the rough self-coupled readout
 `(LCI.3c4)`--`(LCI.3c5)`. But Proposition `LCI.B3a` shows that this Osgood
 obstruction is no longer the honest theorem stop on the transported-center
 scalar route. So `LCI.A` is not yet closed on disk because its receiver-side
-closure still has to reach the upstream transported-center package, not because
+closure remains the upstream transported-center package, not because
 the Osgood comparison itself is terminal. On the theorem-facing
 transported-center surface, the honest remaining statement is now
 `RCF.A` from

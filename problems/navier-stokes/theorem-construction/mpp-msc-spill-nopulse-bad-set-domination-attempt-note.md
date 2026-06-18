@@ -10,13 +10,21 @@ This note attacks the active no-pulse primitive in its mixed-shell form:
 MSC.Spill.NoPulse.
 ```
 
-It proves that the good-coefficient part is automatically absorbable and
-reduces the remaining burden to one exact bad-set domination theorem for the
-mixed bilinear dissipation measure.
+It proves only the exact good-coefficient payment
+
+```math
+C\gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)
+\le C\eta\,\mathfrak B_{j,\ell}^\sigma(t)
+\qquad\text{on }Bad_N(\eta)^c,
+```
+
+with `C\eta\le\nu/2`.  The remaining burden is one exact bad-set domination
+theorem for the mixed bilinear dissipation measure.
 
 ## Starting Point
 
-The mixed-shell identity and previous packet reductions give, for large `N`,
+The mixed-shell identity and previous packet reductions give, for all
+sufficiently large `N`,
 
 ```math
 \partial_t\mathfrak M_N^\sigma
@@ -32,8 +40,9 @@ where
 \gamma_j(t):=2^{-j}\sum_{m=j-M}^{j+M}E_m(t),
 ```
 
-and the boundary, high-high, bare exchange, and strict-low packets are already
-barrier-sized or absorbable.
+and the boundary, high-high, bare exchange, and strict-low packets enter only
+through the displayed `barrier_N(t)` term or through the good-set coefficient
+condition `gamma_j(t)<=eta` with `C eta <= nu/2`.
 
 Energy dissipation gives only
 
@@ -144,12 +153,13 @@ K_{j,\ell}^\sigma D_j(t)D_\ell(t)\,dt.
 ```
 
 The current inputs contain no absolute-continuity theorem saying that this
-measure cannot concentrate on the small Lebesgue-time set where the spill
-coefficient is large. The follow-up note
+measure cannot concentrate on the small Lebesgue-time set `Bad_N(\eta)`, where
+`\sup_{j>N}\gamma_j(t)>\eta`. The follow-up note
 `mpp-msc-badac-energy-measure-countermodel-note.md` makes this insufficiency
 formal: an abstract heat-scale pulse can satisfy the scheduler estimate
-`\int\sum_{j>N}\gamma_j=o_N(1)` while carrying order-one
-`\mathfrak B_N^\sigma(t)dt` mass entirely on `Bad_N(\eta)`.
+`\int\sum_{j>N}\gamma_j=o_N(1)` while carrying
+`\mathfrak B_N^\sigma(t)dt` mass bounded below by a fixed constant `c_0>0`
+entirely on `Bad_N(\eta)`.
 
 ## Self-Damping Attempt
 
@@ -194,7 +204,7 @@ same short windows where the spill coefficient
 \gamma_j(t)=2^{-j}\sum_{m=j-M}^{j+M}E_m(t)
 ```
 
-is large.
+exceeds the fixed threshold `\eta`.
 
 If `MSC.BadAC` is proved, then
 

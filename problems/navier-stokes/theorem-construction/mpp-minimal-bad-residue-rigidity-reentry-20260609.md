@@ -50,8 +50,11 @@ The obstruction is the diffuse legal parent cloud:
 \sup_{|\mathcal C|\le B}\pi_P(\mathcal C)\le {B\over M}\to0.
 ```
 
-The linear native source may remain order one while available quadratic charges
-scale like:
+The normalized linear native source mass is
+```math
+\sum_{\alpha=1}^{M}M^{-1}=1,
+```
+while the available quadratic charge is:
 
 ```math
 \sum_{\alpha=1}^{M}M^{-2}=M^{-1}.

@@ -2,7 +2,7 @@
 
 ## Status
 
-Execution loop on the immediate exits under the current native measure survivor:
+Execution loop on the three local exits under the current native measure survivor:
 
 ```math
 \boxed{
@@ -28,7 +28,7 @@ This note executes the three local exits named in
 
 ## Next Targets
 
-The immediate targets are exactly:
+The current local targets are exactly:
 
 ```math
 PositiveStrainDecorrelation.A,
@@ -60,6 +60,9 @@ jobs:
 ```
 
 No fourth local positive-supplier exit is present in the current theorem stack.
+The exactness consequence is that the split is licensed by the three displayed
+jobs for the singular measure `\mu_{\ast}^{sing}`--decorrelate, charge, or
+rigidify--not by an unproved claim that these exits follow automatically.
 
 ## 1. Decorrelation Exit
 
@@ -194,7 +197,8 @@ The installed inputs do not prove the target:
   self-similarity, two-dimensionality, axisymmetry, or a source-cancellation
   class produced from original data.
 - For the tautological source-cancellation class, the Liouville implication is
-  immediate, but producing that class is exactly positive source depletion.
+  formal only after that class has been produced; producing that class is exactly
+  positive source depletion.
 
 Thus:
 
@@ -211,7 +215,7 @@ ZenoResidueLiouville_{\mathcal B}.A
 
 ## Loop Result
 
-The three immediate exits have been executed against the installed route
+The three local exits have been executed against the installed route
 inputs.  None is currently discharged.
 
 Therefore the honest surviving target is still:

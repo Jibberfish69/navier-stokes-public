@@ -24,11 +24,14 @@ around what the terminal strip costs and what each branch means.
 
 The current live child after
 `LowHighTerminalSignedSaturationForwardNoFreeSink.A` is the terminal source
-strip:
+strip stated as an exact time-marginal obstruction:
 
 ```text
-positive selected low-high source mass
-in shrinking same-witness terminal windows.
+I_n=(T_n-tau_n,T_n],
+tau_n -> 0,
+g_n >= 0,
+integral_{I_n} g_n(s) ds >= M0 > 0,
+with the windows belonging to the same selected witness family.
 ```
 
 The old wording let this branch keep reproducing as:
@@ -150,13 +153,13 @@ as a forward no-free-sink theorem.
 
 This closes one ambiguity in the live obstruction.
 
-The branch
+The exact witness family
 
 ```text
 g_m(s)=m 1_{(-1/m,0]}(s)
 ```
 
-is not a mysterious untraceable event. It is exactly:
+shows the meaning of the branch. It is exactly:
 
 ```text
 L1-visible,
@@ -164,8 +167,8 @@ heat-moment invisible,
 super-L1 infinitely expensive.
 ```
 
-So the next proof step is no longer "find some source anti-atom theorem." The
-next step is one of two exact moves:
+So the next proof step is no longer an unspecified source anti-atom theorem.
+The next step is one of two exact moves:
 
 ```text
 1. prove the same participating fluid supplies the required super-L1 residence

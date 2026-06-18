@@ -8,7 +8,7 @@ Status: failed as a contradiction theorem. It formalizes the terminal obstructio
 
 `MinimalBadAncestryCompactness.A` asks for a compactness/minimality argument on the bad same-fluid terminal Zeno ancestry after entropy and parent-charge quantization fail.
 
-A successful theorem would extract a minimal bad object and then derive a contradiction from its extremality.
+The target theorem must extract a minimal bad object and derive a contradiction from its extremality.
 
 ## Input state
 

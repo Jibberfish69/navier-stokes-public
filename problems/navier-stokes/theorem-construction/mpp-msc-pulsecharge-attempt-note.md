@@ -44,13 +44,15 @@ PulseCharge.A:
 \quad
 \gamma_j\ge c_{pulse}\eta
 \ \text{and}\
-\int_{I_j}\mathfrak B_N^\sigma \text{ large}
+\int_{I_j}\mathfrak B_N^\sigma(t)\,dt \ge m_0
 \Longrightarrow
-\text{definite finite reserve is consumed on }I_j.
+\text{some finite reserve }R\text{ loses at least }c_Rm_0
+\text{ on }I_j,
 ```
 
-If this charge were summable over a stopping-time cover of `Bad_N(\eta)`, then
-`MSC.BadAC` would follow.
+for fixed constants `m_0>0` and `c_R>0`, with overlap constants independent of
+`N` and the selected pulse. If this quantitative charge were summable over a
+stopping-time cover of `Bad_N(\eta)`, then `MSC.BadAC` would follow.
 
 ## Step 1: Stopping-Time Localization
 
@@ -74,8 +76,8 @@ Bad_N(\eta)\subset \bigcup_\alpha 5I_\alpha,
 
 with bounded overlap on fixed shell classes.
 
-This part is harmless. It converts `MSC.BadAC` into a pulse estimate on
-selected heat-scale intervals.
+This part is the Vitali covering reduction: it converts `MSC.BadAC` into a
+pulse estimate on selected heat-scale intervals.
 
 ## Step 2: Candidate Charge Reserves
 
@@ -102,10 +104,11 @@ The desired charge would show that if
 
 ```math
 \int_{I_\alpha}\mathfrak B_N^\sigma(t)\,dt
+\ge m_0
 ```
 
-is large, then at least one of these reserves decreases or is spent by a
-comparable amount.
+then at least one of these reserves decreases by at least `c_Rm_0`, with
+`c_R>0` independent of `N` and of the selected bad pulse.
 
 ## Step 3: Energy Reserve Failure
 
@@ -169,8 +172,8 @@ That missing assertion is `MSC.Spill.NoPulse` / `MSC.BadAC` itself.
 
 The boundary, high-high, bare exchange, and strict-low packets are already
 barrier-sized after the previous mixed-shell reductions. They cannot pay for an
-order-one amount of mixed bilinear dissipation on every bad pulse without
-destroying the barrier conclusion.
+amount `m_0>0` of mixed bilinear dissipation on every bad pulse, with `m_0`
+independent of `N`, without destroying the barrier conclusion.
 
 Therefore charging bad pulses to the already-separated barrier terms is not
 available.

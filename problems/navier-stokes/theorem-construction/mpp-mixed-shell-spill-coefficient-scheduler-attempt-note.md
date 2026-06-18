@@ -152,7 +152,7 @@ C_M
 ```
 
 Thus the spill coefficient is small in aggregate time mass.  However `(2)` is
-not enough to absorb the spill term, because the term needing control is not
+only an `L^1_t` coefficient-mass statement.  The term needing control is not
 
 ```math
 \int\sum_j\gamma_j(t)\,dt.
@@ -166,6 +166,24 @@ It is the weighted pairing
 \gamma_j(t)\,\mathfrak B_{j,\ell}^\sigma(t)\,dt.
 \tag{3}
 ```
+
+The exact margin needed for closure is
+
+```math
+\int_0^{T_\ast}
+\sum_{N<j\le \ell}
+\gamma_j(t)\,\mathfrak B_{j,\ell}^\sigma(t)\,dt
+\le
+\theta
+\int_0^{T_\ast}
+\sum_{N<j\le \ell}
+\mathfrak B_{j,\ell}^\sigma(t)\,dt
++R_N,
+\qquad 0<\theta<1,
+\tag{4}
+```
+
+with `R_N` already assigned to the legal lower-order ledger.
 
 Energy dissipation permits large values of `\gamma_j` on small time sets, and
 the current inputs contain no theorem excluding concentration of

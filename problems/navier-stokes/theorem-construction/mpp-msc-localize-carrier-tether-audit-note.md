@@ -184,7 +184,7 @@ r_n\to0,
 t_n\uparrow T_\ast,
 ```
 
-with a uniform critical lower packet.  The standard rescaling
+with a uniform critical lower packet.  The parabolic rescaling
 
 ```math
 v_n(y,s)=r_nu(x_n+r_ny,t_n+r_n^2s),

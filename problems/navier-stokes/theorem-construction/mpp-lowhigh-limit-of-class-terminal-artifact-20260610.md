@@ -104,9 +104,10 @@ to `T*`.
 
 So `mu_n` converges weak-* to `M delta_{T*}`.
 
-The rest follows immediately. The measure `delta_{T*}` gives zero mass to every
-preterminal set `[T*-delta,T*)`, gives mass one to `{T*}`, and is singular with
-respect to Lebesgue time measure. Multiplying by `M` gives the stated result.
+The remaining claims are the defining properties of `delta_{T*}`: it gives zero
+mass to every preterminal set `[T*-delta,T*)`, gives mass one to `{T*}`, and is
+singular with respect to Lebesgue time measure. Multiplying by `M` gives the
+stated result.
 
 ## Consequence For Terminal Strip Moduli
 

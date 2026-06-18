@@ -90,7 +90,7 @@ For every fixed `eta<1`, the desired `MSC.BadAC` estimate would require
 o_N(1)+\eta,
 ```
 
-which fails for all large `N`.
+which fails for all sufficiently large `N`.
 
 Thus small Lebesgue-time mass of the bad set is logically insufficient to give
 small `\mathfrak B_N^\sigma(t)dt`-mass of the bad set.
@@ -120,9 +120,20 @@ Then
 ```
 
 The energy scheduler still sees a vanishing tail contribution. But a
-heat-scale derivative packet has natural dissipation density of order
-`2^{2j_N}` on a `2^{-2j_N}` interval, so it can carry order-one
-`\mathfrak B_N^\sigma dt` mass on the same pulse.
+heat-scale derivative witness can be chosen with the exact density
+
+```math
+\mathfrak B_N^\sigma(t):=2^{2j_N}\mathbf 1_{I_N}(t).
+```
+
+Since `|I_N|=2^{-2j_N}`,
+
+```math
+\int_{I_N}\mathfrak B_N^\sigma(t)\,dt=1.
+```
+
+Thus it carries `\mathfrak B_N^\sigma(t)dt` mass bounded below by the fixed
+constant `c_0=1` on the same pulse.
 
 That is exactly the profile `MSC.BadAC` must rule out.
 

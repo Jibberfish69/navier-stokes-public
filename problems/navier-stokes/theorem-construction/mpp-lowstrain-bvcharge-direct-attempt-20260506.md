@@ -184,9 +184,9 @@ Summing over `m<=j_P-L` gives `(LBV.8)`.  `\square`
 This is a real gain: very low modes cannot oscillate at the high-shell heat
 rate without paying an explicit material-derivative source term.
 
-## 4. Far-low absorption condition
+## 4. Far-low gap condition
 
-The far-low contribution is absorbable if the retained packet normalization
+The far-low contribution is spendable only if the retained packet normalization
 supplies
 
 ```math
@@ -200,7 +200,10 @@ C\mathcal P_Q^{net}(W)
 \tag{LBV.9}
 ```
 
-because the prefactor `2^{-2L}` can be made small before taking `N->infty`.
+Together with the heat-scale coefficient, the spend is
+`C2^{-2L}` times the displayed right side.  After fixing
+`0<eta_far<1`, choose `L` so that `C2^{-2L}<=eta_far` before taking
+`N->infty`.
 
 This is not the false accumulated-positive Pack claim.  It is an unsigned
 far-low variation tail with a small scale-separation coefficient.

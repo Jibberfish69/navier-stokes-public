@@ -61,25 +61,38 @@ These are real payments. They remove the generic graph-flow obstruction.
 
 ## Surviving Branch
 
-The only uncharged branch is a terminal Zeno source-refill chain:
+The only uncharged branch is a terminal Zeno source-refill chain with an
+explicit time-marginal form:
 
 ```text
-r_m -> 0,
-same-window selected positive source mass,
+I_m=(T_m-tau_m,T_m],
+tau_m -> 0,
+g_m >= 0,
+integral_{I_m} g_m(s) ds >= M0 > 0,
 no fixed preterminal entrance leaf,
-finite local L1_s source mass.
+sup_m integral_{I_m} g_m(s) ds < infinity.
 ```
 
-On this branch the installed estimates allow the terminal strip model:
+The installed estimates do not rule out such a marginal. In particular they
+do not rule out the exact witness family
 
 ```text
 g_m(s)=m 1_{(-1/m,0]}(s).
 ```
 
-It has order-one source mass, bounded local `L1_s` norm, vanishing heat-time
-moment, and weak convergence to a terminal atom at `s=0`. Fixed positive
-viscosity, local energy, same-fluid ancestry, selected no-parent data, lateral
-no-incoming language, and terminal capacity language do not remove this atom.
+For that family,
+
+```text
+integral g_m(s) ds = 1,
+integral |s| g_m(s) ds = 1/(2m) -> 0,
+g_m(s) ds weak-* -> delta_0.
+```
+
+The proof-bearing point is the general one: finite local `L1_s` mass plus
+vanishing time thickness does not imply a terminal anti-atom theorem. Fixed
+positive viscosity, local energy, same-fluid ancestry, selected no-parent data,
+lateral no-incoming language, and terminal capacity language do not supply the
+missing preterminal residence modulus.
 
 ## CM Face Support Is Not The Forward Payment
 
@@ -129,8 +142,11 @@ remain non-final.
 `NS-LIVE-20260609-224`: `LowHighTerminalSignedSaturationForwardNoFreeSink.A`
 is not proved. Retained partners, legal exits, ASAC pair-weight defects, and
 finite donor trees are paid, but the terminal Zeno source-refill branch still
-allows the shrinking strip model `g_m(s)=m 1_{(-1/m,0]}`. CM face classification
-uses that residue as exit-witness support; it does not provide the forward
+allows nonnegative time marginals supported in `I_m=(T_m-tau_m,T_m]`, with
+`tau_m -> 0`, fixed positive selected mass, and only finite `L1_s` control. The
+exact witness `g_m(s)=m 1_{(-1/m,0]}` has unit mass, vanishing heat-time
+moment, and weak-* endpoint limit `delta_0`. CM face classification uses that
+residue as exit-witness support; it does not provide the forward
 first-Pack-survival payment. The active loop must prove a low-high terminal
 source-time anti-atom, uniform temporal source integrability, positive active
 Carleson reserve, same-witness super-`L1` terminal residence, source Carleson

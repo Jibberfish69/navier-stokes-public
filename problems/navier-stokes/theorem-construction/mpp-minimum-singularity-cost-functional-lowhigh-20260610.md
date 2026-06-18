@@ -21,11 +21,18 @@ does not prove public Clay finality and does not license PDF finality.
 
 ## Target
 
-The live terminal source model is:
+The live terminal source obstruction is a sequence of nonnegative selected
+source-time marginals on shrinking terminal windows:
 
 ```text
-g_m(s) = m 1_{(-1/m,0]}(s).
+I_n=(T_n-tau_n,T_n],
+tau_n -> 0,
+g_n >= 0,
+M_n := integral_{I_n} g_n(s) ds >= M0 > 0.
 ```
+
+The scalar family `g_m(s)=m 1_{(-1/m,0]}(s)` is only the sharp witness for why
+finite `L1_s` mass and vanishing heat-time moment do not remove the branch.
 
 The proof needs an explicit answer to Thomas's question:
 
@@ -125,7 +132,7 @@ tau_n Phi(M0/tau_n)
 
 This proves the lower bounds.
 
-## Check On The Model Strip
+## Check On The Exact Witness Family
 
 For
 
@@ -157,8 +164,8 @@ That is the exact payment figure for the terminal strip.
 
 ## Result
 
-The terminal strip is not "untraceable" in the ontological sense. It has a
-precise cost profile:
+The terminal source-time marginal is not "untraceable" in the ontological
+sense. It has precise cost data:
 
 ```text
 finite L1_s mass,

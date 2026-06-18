@@ -109,7 +109,7 @@ A_m |I_m|^{-1}1_{I_m}(t),
 ```
 
 with `A_m` summable in the raw first-moment ledger but normalized active source
-mass order one on each selected terminal packet.
+mass fixed by the selected terminal-packet normalization.
 
 Fixed-shell absolute continuity is not violated because each shell is active
 only on its own shrinking window. Viscous damping is not violated because the

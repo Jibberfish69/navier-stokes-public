@@ -15,8 +15,9 @@ LocalStrainDepletion.A:
 }
 ```
 
-This would prove `LocalSource.NoPulse.A` by showing that the positive part of
-the same-fluid active local source vanishes on terminal bad windows.
+This proves `LocalSource.NoPulse.A` only if it proves that the positive part of
+the same-fluid active local source has vanishing mass on the terminal bad
+windows.
 
 The installed signed commutator and strain-sign notes do not prove this target.
 
@@ -83,8 +84,8 @@ projection, or the unweighted shell-exchange antisymmetry.
 The pressure Poisson law enforces incompressibility and redistributes the trace
 part of the nonlinearity.  It does not make the local strain-production term
 nonpositive.  The pressure-strain attempt already isolates the missing theorem:
-one would need a structural depletion law tied to the active packet, not merely
-the pressure equation.
+the proof requires a structural depletion law tied to the active packet, not
+merely the pressure equation.
 
 ## Reduction
 

@@ -71,7 +71,7 @@ The mixed measure contains products of active dissipation densities:
 ```
 
 First-moment control does not imply uniform integrability of this product
-measure on moving heat-scale bad sets. A direct proof would need an estimate of
+measure on moving heat-scale bad sets. A direct proof requires an estimate of
 the form
 
 ```math
@@ -100,9 +100,12 @@ C\sum_{N<j\le\ell}\gamma_j(t)\mathfrak B_{j,\ell}^\sigma(t)
 +\mathrm{barrier}_N(t).
 ```
 
-On `Bad_N(\eta)^c`, the coefficient is absorbable. On `Bad_N(\eta)`, the same
-identity gives a growth coefficient, not a measure domination theorem. To
-close by Gronwall one would need frequency-weighted control of
+On `Bad_N(\eta)^c`, the coefficient is paid only by the displayed good-set
+margin: since `\gamma_j(t)\le\eta`, the mixed identity contributes at most
+`C\eta\mathfrak B_{j,\ell}^\sigma(t)`, and choosing `C\eta\le\nu/2` moves that
+part into the dissipative term. On `Bad_N(\eta)`, the same identity gives a
+growth coefficient, not a measure domination theorem. To close by Gronwall one
+would need frequency-weighted control of
 
 ```math
 \int_{Bad_N(\eta)}

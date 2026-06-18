@@ -183,13 +183,13 @@ CM_{N,r,Q}
 s>\frac52,
 ```
 
-and the standard periodic continuation criterion gives `Smooth(Q)` at that
-continuation depth.
+and the periodic `H^s`, `s>5/2`, continuation theorem gives `Smooth(Q)` at
+that continuation depth: the local existence time depends only on the displayed
+`H^s` bound, so restarting before `T_Q` extends the same solution.
 
 ## Non-Smooth Witness Program, Not Blunt Converse
 
-If the all-depth smoothness bridge is separately promoted, its contrapositive
-would give
+If the all-depth smoothness bridge is separately promoted, its contrapositive is
 
 ```math
 \boxed{
@@ -266,7 +266,7 @@ Proof: if some `r>0` had `Field_{N,r,Q}`, then
 Pack_Q\wedge Part_{N,Q}\wedge Field_{N,r,Q}
 ```
 
-would give `CM_{N,r,Q}`, hence the depth-`N` classical tower on `Q`.  At the
+gives `CM_{N,r,Q}`, hence the depth-`N` classical tower on `Q`.  At the
 witness depth selected by non-smoothness, that contradicts the failure of the
 all-depth smooth tower.  Therefore retained pack plus retained participation
 forces the exit to land on the field face.

@@ -135,7 +135,7 @@ finite dissipation on `W`.  This proves `(LRS.4)`.  `\square`
 
 ## 2. What This Proves For The No-Fold Route
 
-The low-response-strain branch is harmless on every compact positive-viscosity
+The low-response-strain branch is controlled on every compact positive-viscosity
 subinterval where:
 
 ```math
@@ -204,7 +204,7 @@ Therefore `ResponseLowNormNoBlow.A` follows from a uniform bound on:
 on the same compact viscosity interval.
 
 But those are exactly high-regularity NS bounds near the candidate boundary.
-Using them unconditionally would import what the no-fold theorem must prove.
+Using them unconditionally imports what the no-fold theorem must prove.
 
 Thus the direct `H^s` response estimate is conditional.
 

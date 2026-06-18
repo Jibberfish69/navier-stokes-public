@@ -29,8 +29,9 @@ A sufficient theorem would produce a nonnegative active-window functional
 where the dissipation term dominates the normalized active-window charge
 appearing in `AWG.A`.
 
-Integrating would give the active-window Carleson bound and hence close the
-`Jump_avg` branch without `Field_avg`.
+Integrating the displayed monotone source-dominance inequality gives the
+active-window Carleson bound and hence closes the `Jump_avg` branch without
+`Field_avg`.
 
 ## Scalar Obstruction
 
