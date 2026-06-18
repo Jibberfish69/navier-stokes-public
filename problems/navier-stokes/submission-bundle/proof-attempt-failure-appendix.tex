@@ -330,8 +330,9 @@ CM-test face failure is supplied.
 
 \item \textbf{Zero-moment signed pair.}
 The attempted payment is cancellation of reserve by zero first moment.
-The calculation splits \(J=J_+-J_-\) with equal first moments and order-one
-mass.
+The calculation splits \(J=J_+-J_-\) with equal first moments and fixed
+positive mass: there is \(c_0>0\) such that
+\(|J_+|(W),|J_-|(W)\ge c_0\) on the retained window \(W\).
 The stopping point is that two packets can exchange through the same retained
 ledger while moments cancel on heat subwindows.
 The residue is a same-ledger signed-pair no-free-sink theorem.
@@ -955,11 +956,13 @@ face failure on the contrapositive side.
 The zero-moment branch shows why signed cancellation is not the same as
 reserve disappearance.
 One can split a current as \(J=J_+-J_-\), arrange equal first moments, and
-still retain order-one positive and negative packets on the same ledger.
+still retain positive and negative packets on the same ledger with
+\(|J_+|(W),|J_-|(W)\ge c_0\) for a fixed \(c_0>0\).
 The square reserve sees mass even when the signed moment cancels.
 Most easy cases route away: wrong carrier, shrinking terminal windows, or
 broken participation.
-The hard case is same retained ledger, positive scale, order-one reserve, and
+The hard case is same retained ledger, positive scale, reserve bounded below by
+a fixed \(c_0>0\), and
 zero first moment on heat subwindows.
 The missing theorem is a same-ledger signed-pair no-free-sink theorem or a
 two-tower donor depletion theorem.
@@ -2449,7 +2452,8 @@ That is the real survivor:
   \text{first-created positive-scale native donor-square reserve}.
 \]
 The zero-moment signed-pair attempt then shows why visibility is hard.
-One can have order-one square reserve and zero first moment:
+One can have square reserve bounded below by a fixed \(c_0>0\) and zero first
+moment:
 \[
   J=J_+-J_-,
   \qquad
