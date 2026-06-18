@@ -60,8 +60,8 @@ The enstrophy identity is:
 \int \omega\cdot S\omega.
 ```
 
-The tempting idea is to treat the positive stretching term as energy variation
-plus dissipation and then charge it to the installed drain ledger.
+The failed inference is that the positive stretching term can be treated as
+energy variation plus dissipation and charged to the installed drain ledger.
 
 This does not prove PRD.  The identity is signed before terminal localization
 and positive-part selection.  On selected same-fluid terminal windows, the
@@ -103,7 +103,7 @@ E_P(t_1)
 +F_{frame}.
 ```
 
-The tempting idea is that a terminal positive source pulse must show up as
+The failed inference is that a terminal positive source pulse must show up as
 energy growth or heat-scale dissipation.
 
 This also does not prove PRD.  The convective flux term is exactly the active
