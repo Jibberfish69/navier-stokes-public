@@ -36,7 +36,13 @@ The packet keeps ACT.KX upstream of LCI.A, CSP.A, OFP.A, and Field. It keeps RWS
 
 ## Remaining blockers
 
-A dedicated audit_theorem_attempt endpoint was absent from the exposed MCP tool list in this session. Formal mathematical verification is still absent. The separate lane-context burden named continuum coherent-sector replacement remains open for the related shared-control-object route.
+This audit paragraph does not supply a line-by-line theorem verification.  The
+mathematical status is conditional: the route may spend only the listed
+installed inputs, and the remaining verification burden is to prove that each
+listed dependency supplies the displayed `ACT.KX`, pressure/forcing,
+moving-cutoff/frame, endpoint-matrix, readout, and original-data upgrade claims
+on the same retained branch.  The continuum coherent-sector replacement remains
+a separate theorem burden for the related shared-control-object route.
 
 ## Action state
 
