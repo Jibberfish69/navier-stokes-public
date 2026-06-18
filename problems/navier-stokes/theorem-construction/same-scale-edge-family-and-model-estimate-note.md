@@ -9,11 +9,11 @@ after the same-scale side is split into its three exact pieces:
    [upper-boundary-frozen-edge-family-reduction-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/upper-boundary-frozen-edge-family-reduction-note.md);
 2. the finite-family lift from
    [same-scale-family-lift-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-family-lift-lemma.md);
-3. the still-open model same-scale edge theorem.
+3. the still-open coefficient-free same-scale edge theorem.
 
-What is proved here is the model packet estimate that is currently reachable on
-the Euclidean surface, and the weak upper-boundary / moving-spill bounds that it
-implies. What is **not** proved here is the stronger coefficient-free theorem
+What is proved here is the coefficient-bearing edge estimate that is currently
+reachable on the Euclidean surface, and the weak upper-boundary / moving-spill
+bounds that it implies. What is **not** proved here is the stronger coefficient-free theorem
 `(SS)`.
 
 ## Same-scale coefficient package
@@ -56,7 +56,7 @@ D_N(t):=\sum_{j\ge N}2^{4j}\|\Delta_j u(t)\|_{L_x^2}^2.
 \tag{4}
 ```
 
-## Proposition A: model same-scale edge estimate
+## Proposition A: coefficient-bearing same-scale edge estimate
 
 Let `M_a(\ell D)` be a smooth annular order-zero multiplier family with bounded
 symbol seminorms and bounded relative offset from the active scale. Assume the
@@ -200,7 +200,7 @@ C_{sp,*}^{res}2^{-2\delta N}.
 \tag{14}
 ```
 
-Then the model estimate `(SS^\sharp\text{-}model)` lifts to
+Then the coefficient-bearing estimate `(SS^\sharp\text{-}model)` lifts to
 
 ```math
 \int_0^T |\mathfrak B_N^{upper}(t)|\,dt
@@ -243,7 +243,7 @@ The moving-spill estimate is identical: integrate `(12)`, apply
 
 This note proves:
 
-1. one model same-scale edge estimate with the same-scale coefficient
+1. one coefficient-bearing same-scale edge estimate with the same-scale coefficient
    `\Theta_N^{ss,\sharp}E_N`;
 2. the weak lift of that estimate to both the upper-boundary and moving-spill
    sides, once the already-separated family-reduction and collar-residual inputs
@@ -274,6 +274,6 @@ So the exact remaining same-scale theorem debt is now sharp:
 \tag{16}
 ```
 
-That is the missing strengthening from the currently proved model estimate to the
+That is the missing strengthening from the currently proved coefficient-bearing estimate to the
 coefficient-free theorem `(SS)`, and therefore to the final same-scale bounds
 `(UB)` and `(MS)`.
