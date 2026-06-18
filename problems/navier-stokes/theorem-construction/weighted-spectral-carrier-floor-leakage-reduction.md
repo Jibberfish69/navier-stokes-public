@@ -52,7 +52,8 @@ D_N^{(n)}(t)
 \tag{2}
 ```
 
-Littlewood--Paley equivalence gives
+For the fixed smooth dyadic partition with uniformly finite overlap and
+threshold `K=2^N`, the weighted spectral tail norms satisfy
 
 ```math
 c_{LP}E_N^{(n)}(t)\le T_1^{(n)}(K,t)\le C_{LP}E_N^{(n)}(t),
@@ -155,10 +156,18 @@ surface:
    `gradient-paraproduct-reduction-lemma.md`,
 2. the threshold-local spill estimate from
    `gradient-spill-reduction-lemma.md`,
-3. the genuine high-high absorption from
+3. the genuine high-high estimate from
    `gradient-cubic-tail-absorption-lemma.md`.
 
-Then for every `K=2^N` with `N` large enough and almost every `t`,
+Let
+
+```math
+N_\ast:=\max\{N_{\mathrm{spill}},N_{\mathrm{HH}}\},
+```
+
+where `N_{\mathrm{spill}}` is the cutoff threshold in the threshold-local spill
+estimate and `N_{\mathrm{HH}}` is the cutoff threshold in the genuine high-high
+estimate. Then for every `K=2^N` with `N\ge N_\ast` and almost every `t`,
 
 ```math
 \mathrm{Leakage}_1^{(n)}(K,t)
@@ -378,5 +387,5 @@ What it proves is the exact upgraded reduction:
   exact geometry `N+M<k<j-4`.
 
 Returning from `\widetilde\Lambda_N^\sharp` to the old `\mathcal L_N` surface
-would require a new low-mode strain suppression theorem, not just further
+requires a new low-mode strain suppression theorem, not just further
 repackaging of the existing shell algebra.

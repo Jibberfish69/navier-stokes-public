@@ -122,5 +122,4 @@ What it shows is:
 
 - `(UTKD)` is already a clean theorem target;
 - `(WDS)` is a cleaner stronger sufficient theorem;
-- if `(WDS)` were proved, the whole remaining chain would follow
-  deterministically.
+- a proof of `(WDS)` implies the whole remaining chain deterministically.

@@ -81,19 +81,19 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}."
 ].compact.join(" ").freeze
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
-CURRENT_PACKAGE_STATUS = "branch-paid-annular-silver-gold-new-production-open"
-CURRENT_LOWEST_SAFE_CLAIM = "The specific pulling-teeth annular residual case is exhausted in proof-program order, while the stronger terminal time-face anti-atom / BASAC new-production theorem remains open. No full-MPP submission claim is licensed until that gold-side child is proved or replaced by a noncircular finite-breakdown exclusion."
+CURRENT_PACKAGE_STATUS = "cm-referee-gate-passed-with-gold-silver-paths"
+CURRENT_LOWEST_SAFE_CLAIM = "The single terminal/referee gate is cleared by CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A. Gold names the forward-positive path; Silver is the accepted CM resolution. Submission/PDF readiness remains a separate review-refresh question."
 CURRENT_ROUTE_SUMMARY = [
-  "The active frontier is the gold terminal time-face/new-production child after the specific annular residual case has been accounted.",
-  "The silver CM route remains the pass-or-exit proof engine: after a surviving residual object is admitted as a same-solution CM witness, retained Member(Q) readout is the pass branch and a finite nonsmooth admitted branch must land in Pack, Part, or Field.",
-  "Older positive packet-survival/no-exit, source-reserve, signed-pair, no-free-sink, source-wall, and positive-supplier presentations are support or historical diagnostics unless they prove the terminal anti-atom/new-production child or pass the same CM admission and face-landing test."
+  "The corrected active gate is one referee gate with Gold/Silver paths, not two gates.",
+  "Gold names the tried forward-positive supplier path to TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A.",
+  "Silver is the accepted exhaustive CM contrapositive branch-table resolution through CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A."
 ].join(" ").freeze
 CURRENT_WITNESS_FORM = "finite same-surface terminal CM witness: CM-test entry followed by not Pack_Q, not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)"
 CURRENT_RELEASE_OR_RESPAWN_CONSEQUENCE = {
-  "disposition" => "blocked",
-  "next_cell_type" => "theorem-work",
-  "next_stage" => "terminal-time-face-new-production-gold-obstruction",
-  "next_action" => "Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure."
+  "disposition" => "gate-cleared-review-refresh-required",
+  "next_cell_type" => "review-refresh",
+  "next_stage" => "submission-and-pdf-readiness-refresh",
+  "next_action" => "Refresh downstream review/submission mirrors from the accepted single-gate CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A as the active blocker."
 }.freeze
 OPEN_ASSEMBLY_OBLIGATIONS = [].freeze
 OPEN_ASSEMBLY_OBLIGATION_IDS = OPEN_ASSEMBLY_OBLIGATIONS.map { |entry| entry.fetch("obligation_id") }.freeze
@@ -318,10 +318,20 @@ def apply_cm_referee_gate_to_submission!(verdict)
 
   verdict["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
   if cm_referee_gate_clear?
+    verdict["review_alignment"] ||= {}
+    verdict["review_alignment"]["review_verdict"] = "review-refresh-required"
+    verdict["review_alignment"]["release_posture"] = "cm-referee-gate-passed-review-refresh-required"
+    verdict["review_alignment"]["standalone_status"] = "cm-referee-gate-passed-review-refresh-required"
+    verdict["review_alignment"]["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+    verdict["review_alignment"]["current_package_status"] = CURRENT_PACKAGE_STATUS
     verdict["blockers"] = prune_stale_cm_referee_blockers(verdict["blockers"])
     verdict["required_before_submission"] = prune_stale_cm_referee_blockers(verdict["required_before_submission"])
+    verdict["theorem_packet"]["blocker_count"] = 0 if verdict["theorem_packet"].is_a?(Hash)
     target_fidelity = verdict["target_fidelity"]
-    target_fidelity["required_before_terminal_release"] = [] if target_fidelity.is_a?(Hash)
+    if target_fidelity.is_a?(Hash)
+      target_fidelity["terminal_safe"] = true
+      target_fidelity["required_before_terminal_release"] = []
+    end
     return verdict
   end
 
@@ -348,9 +358,18 @@ def apply_cm_referee_gate_to_review!(review)
 
   review["cm_contrapositive_referee_gate"] = cm_referee_gate_payload
   if cm_referee_gate_clear?
+    review["verdict"] = "review-refresh-required"
+    review["release_posture"] = "cm-referee-gate-passed-review-refresh-required"
+    review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
+    review["standalone_status"] = "cm-referee-gate-passed-review-refresh-required"
+    review["theorem_packet_status"] = "cm-referee-gate-passed-review-refresh-required"
+    review["findings"] = Array(review["findings"]).reject { |finding| cm_referee_readiness_overclaim?(finding) }
     review["required_before_terminal_release"] = prune_stale_cm_referee_blockers(review["required_before_terminal_release"])
     target_fidelity = review["target_fidelity"]
-    target_fidelity["required_before_terminal_release"] = [] if target_fidelity.is_a?(Hash)
+    if target_fidelity.is_a?(Hash)
+      target_fidelity["terminal_safe"] = true
+      target_fidelity["required_before_terminal_release"] = []
+    end
     return review
   end
 
@@ -809,8 +828,8 @@ def sanitize_source_frontier(source_frontier)
 
   live_edge = source_frontier.dig("frontier", "live_theorem_edge")
   if live_edge.is_a?(Hash)
-    live_edge["route_label"] = CURRENT_SOURCE_WALL_ROOT_ID
-    live_edge["current_route_name"] = CURRENT_SOURCE_WALL_ROOT_ID
+    live_edge["route_label"] = CURRENT_SOURCE_WALL_ROOT_LABEL
+    live_edge["current_route_name"] = CURRENT_SOURCE_WALL_ROOT_LABEL
     live_edge["exact_cut_summary"] = CURRENT_ROUTE_SUMMARY
     live_edge["safe_claim_boundary"] = CURRENT_ROUTE_SUMMARY
   end
@@ -838,13 +857,13 @@ def sanitize_live_edge_fields!(packet)
     edge = packet[key]
     next unless edge.is_a?(Hash)
 
-    edge["current_route_name"] = CURRENT_SOURCE_WALL_ROOT_ID
-    edge["route_label"] = CURRENT_SOURCE_WALL_ROOT_ID if edge.key?("route_label")
+    edge["current_route_name"] = CURRENT_SOURCE_WALL_ROOT_LABEL
+    edge["route_label"] = CURRENT_SOURCE_WALL_ROOT_LABEL if edge.key?("route_label")
     edge["exact_cut_summary"] = CURRENT_ROUTE_SUMMARY
     edge["safe_claim_boundary"] = CURRENT_ROUTE_SUMMARY
     edge["source_excerpt"] = [
       CURRENT_ROUTE_SUMMARY,
-      CURRENT_SOURCE_WALL_ROOT_ID,
+      CURRENT_SOURCE_WALL_ROOT_LABEL,
       edge["unsafe_claim_boundary"]
     ].compact.join("\n")
   end
@@ -1376,7 +1395,7 @@ def sanitize_route_lock(route_lock)
     "object_law_remains_governing" => true
   }
   route_lock["authority_split_resolution"] = {
-    "status" => "resolved-by-demotion",
+    "status" => "resolved-by-no-proof-authority-classification",
     "old_primary_route_role" => "preserved positive/support route only",
     "rule" => "The source-grounded four-bridge block is not allowed to retake primary authority over the CM object-law or source-wall root without an explicit bridge theorem."
   }
@@ -1449,21 +1468,28 @@ def sanitize_review_verdict(review)
   return review unless review.is_a?(Hash)
 
   review["safe_claim_boundary"] = CURRENT_LOWEST_SAFE_CLAIM
-  review["verdict"] = "blocked"
-  review["release_posture"] = "not-export-ready"
   review["completion_tier_achieved"] = CURRENT_PACKAGE_STATUS
-  review["standalone_status"] = "blocked"
-  review["theorem_packet_status"] = "theorem-open"
+  if cm_referee_gate_clear?
+    review["verdict"] = "review-refresh-required"
+    review["release_posture"] = "cm-referee-gate-passed-review-refresh-required"
+    review["standalone_status"] = "cm-referee-gate-passed-review-refresh-required"
+    review["theorem_packet_status"] = "cm-referee-gate-passed-review-refresh-required"
+    review["required_before_terminal_release"] = []
+  else
+    review["verdict"] = "blocked"
+    review["release_posture"] = "not-export-ready"
+    review["standalone_status"] = "blocked"
+    review["theorem_packet_status"] = "theorem-open"
+    review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+  end
 
   target_fidelity = review["target_fidelity"]
   if target_fidelity.is_a?(Hash)
-    target_fidelity["terminal_safe"] = false
+    target_fidelity["terminal_safe"] = cm_referee_gate_clear?
     target_fidelity["explicit_nonterminal_overlay"] = false
-    target_fidelity["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
+    target_fidelity["required_before_terminal_release"] = cm_referee_gate_clear? ? [] : [CURRENT_SOURCE_WALL_ROOT_ID]
     target_fidelity["issues"] = []
   end
-
-  review["required_before_terminal_release"] = [CURRENT_SOURCE_WALL_ROOT_ID]
 
   respawn = review["respawn_target"]
   if respawn.is_a?(Hash)

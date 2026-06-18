@@ -164,7 +164,7 @@ else
 end
 
 problem_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/**/*.pdf").to_s).sort
-sample_input_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/docs/Samples/**/*.pdf").to_s)
+sample_input_pdfs = Dir.glob(ROOT.join("problems/navier-stokes/submission-bundle/authoring/lab/**/*.pdf").to_s)
 allowed_problem_pdfs = [HUMAN_SUBMISSION_PDF.expand_path.to_s] +
                        sample_input_pdfs.map { |path| Pathname.new(path).expand_path.to_s }
 unexpected_problem_pdfs = problem_pdfs.reject { |path| allowed_problem_pdfs.include?(Pathname.new(path).expand_path.to_s) }

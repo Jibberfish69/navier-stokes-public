@@ -97,7 +97,7 @@ p_G(a,\xi)^2=p_G(a,\xi),
 
 So the reserve route is not about an arbitrary elliptic inverse. It is about a
 variable-coefficient order-zero projector with an explicit principal symbol.
-The theorem-grade version therefore has to expose the coefficient regularity
+The theorem-grade version therefore exposes the coefficient regularity
 explicitly.
 
 ## Theorem-Grade Assumptions
@@ -289,8 +289,8 @@ where:
 The point is not the exact norm names. The point is the structure:
 
 - `\Pi_G^{ex}` is order zero;
-- the commutator should gain one derivative on the low coefficient;
-- the active shell should stay at same depth.
+- the commutator theorem requires one derivative of gain on the low coefficient;
+- the active shell stays at the same depth.
 
 The factor `2^{-j}` is the real gain: it says the commutator is order `-1` on
 the active shell, and `(WEP.2'c)` shows exactly where the metric dependence
@@ -379,8 +379,26 @@ where `S_{-2}` is one order better. Therefore
 \tag{WEP.2m4}
 ```
 
-The remainder `S_{-2}` contributes only order `-2` terms and is therefore
-harmless on the active shell.
+The remainder `S_{-2}` is paid by the same shell ledger through the explicit
+bound
+
+```math
+\|S_{-2}v_j\|_{L^2_a}
+\le
+C_G\,2^{-2j}\|a_{<j-C}\|_{C^2_a}\,\|v_j\|_{L^2_a}.
+\tag{WEP.2m4-rem}
+```
+
+Since `a_{<j-C}` is supported below the active shell, Bernstein gives
+
+```math
+2^{-2j}\|a_{<j-C}\|_{C^2_a}
+\le
+C\,2^{-j}\|\nabla_a a_{<j-C}\|_{L^\infty_a}.
+```
+
+Thus `S_{-2}` is not discarded; it is included in the same lower-order
+coefficient ledger as the principal commutator bound.
 
 ### Step 3. Lower-order remainder commutator
 
@@ -499,7 +517,8 @@ paradifferential commutator bound.
 
 If `(WEP.2')` holds, then the friendliest reserve packet is no worse than the
 already admitted low-high coefficient transport on the Euclidean side. That
-would discharge the only edge channel still plausibly capable of yielding a
+would discharge the only edge channel still capable, on the current route
+accounting, of yielding a
 real gain.
 
 So the reserve 4B route becomes:

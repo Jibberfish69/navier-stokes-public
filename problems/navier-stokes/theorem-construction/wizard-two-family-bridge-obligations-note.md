@@ -9,14 +9,14 @@ shows that the current terminal survivors split into two theorem families:
 1. lower-prefix / cumulative-readout survivors;
 2. gap-kernel / upper-tail survivors.
 
-This note records the exact bridge theorems that would be needed to collapse
+This note records the exact bridge theorems required to collapse
 those two families into a single survivor language.
 
 The point is to stop the comparison from dissolving back into slogans like
 “probably the same defect.” The question here is:
 
 ```math
-\text{what exact theorem would identify Family B with Family A?}
+\text{what exact theorem identifies Family B with Family A?}
 ```
 
 ## Family A
@@ -128,9 +128,8 @@ Prove the potential-average kill theorem
 
 ### Meaning
 
-If `(B1)` held, then the signed gap-kernel route would stop being merely
-analogous to the affine quotient route. It would actually collapse onto the
-same Family A terminal readout.
+`(B1)` implies that the signed gap-kernel route is not merely analogous to the
+affine quotient route; it collapses onto the same Family A terminal readout.
 
 ## Bridge Obligation II: Gap-Flux-to-Carrier Comparison
 
@@ -189,9 +188,8 @@ modulo already-accepted moving-spill and collar terms.
 
 ### Meaning
 
-If `(B2)` held, then the signed and positive lifted-band routes would no longer
-be merely “same branch, different vibe.” They would become provably exactness
-vs positivity presentations of one same terminal Family B defect.
+`(B2)` implies that the signed and positive lifted-band routes are exactness
+and positivity presentations of the same terminal Family B defect.
 
 ## Bridge Obligation III: Shell-to-Affine Family Comparison
 

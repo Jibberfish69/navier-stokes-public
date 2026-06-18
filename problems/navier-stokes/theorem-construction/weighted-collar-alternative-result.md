@@ -138,7 +138,9 @@ up to a collar region controlled by the lower-order ledger, then `C^{res}_{i,j}`
 
 ## Boundary
 
-The weighted collar alternative replaces the original collar coefficient by a weighted principal coefficient plus a residual. The residual is harmless under a plateau or collar-smallness theorem:
+The weighted collar alternative replaces the original collar coefficient by a
+weighted principal coefficient plus a residual. The residual can be discarded
+only under a plateau or collar-smallness theorem:
 
 ```text
 (1-w_j)u_coh is lower order on the collar support.

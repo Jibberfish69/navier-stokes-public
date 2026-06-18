@@ -19,7 +19,10 @@ EXCLUDED_PATH_PARTS = [
   "/runtime/leases/",
   "/runtime/events/",
   "/tools/build_forward_positive_surface_quarantine.rb",
-  "/forward-positive-proof-surface-quarantine-20260523.yaml"
+  "/forward-positive-proof-surface-quarantine-20260523.yaml",
+  # The completion audit quotes this index and exactness marker strings as
+  # provenance evidence; it is not itself a forward-positive support surface.
+  "/theorem-construction/mpp-exactness-completion-audit-20260617.md"
 ].freeze
 
 CATEGORY_PATTERNS = {
@@ -106,7 +109,7 @@ CATEGORY_PATTERNS = {
     /gradient-transfer/i,
     /classical closure/i
   ],
-  "already_demoted_or_quarantined_positive_surface" => [
+  "already_classified_or_quarantined_positive_surface" => [
     /not a forward positive/i,
     /not a positive smoothness proof/i,
     /not a forward positive-supplier discharge/i,
@@ -165,13 +168,13 @@ PATH_CATEGORY_PATTERNS = {
   ]
 }.freeze
 
-DEMOTION_CLASSES = {
+SUPPORT_CLASSES = {
   "positive_smoothness_or_continuation" => "separate-positive-smoothness-support",
   "forward_positive_supplier_or_source_wall" => "quarantined-forward-positive-supplier-support",
   "fixed_nu_or_euler_transfer" => "separate-transfer-or-euler-comparison-support",
   "receiver_readout_or_endpoint_support" => "receiver-readout-endpoint-support",
   "downstream_export_or_legacy_engine" => "downstream-export-or-legacy-engine-support",
-  "already_demoted_or_quarantined_positive_surface" => "already-demoted-positive-support-language"
+  "already_classified_or_quarantined_positive_surface" => "already-classified-positive-support-language"
 }.freeze
 
 def relative_path(path)
@@ -232,13 +235,15 @@ def quarantine_entry(path)
   end
   return nil if categories.empty?
 
-  demotion_classes = categories.keys.map { |category| DEMOTION_CLASSES.fetch(category) }.uniq
+  support_classes = categories.keys.map { |category| SUPPORT_CLASSES.fetch(category) }.uniq
   {
     "path" => rel,
     "surface_scope" => rel.include?("/theorem-construction/") ? "theorem-construction" : "repo-surface",
     "matched_categories" => categories,
-    "demotion_classes" => demotion_classes,
-    "cm_authority" => "demoted",
+    "support_classes" => support_classes,
+    "legacy_demotion_classes" => support_classes,
+    "cm_authority" => "no-proof-authority",
+    "proof_force" => "none_without_exact_cm_bridge",
     "promotion_allowed_only_by" => "explicit bridge-license landing in Pack_Q, Part_{N,Q}, or Field_{N,r,Q} after target-lock selects the CM contrapositive program",
     "forbidden_as_cm_substitute" => true
   }
@@ -257,7 +262,7 @@ end
 entries.sort_by! { |entry| entry.fetch("path") }
 
 summary_by_class = entries.each_with_object(Hash.new(0)) do |entry, counts|
-  entry.fetch("demotion_classes").each { |klass| counts[klass] += 1 }
+  entry.fetch("support_classes").each { |klass| counts[klass] += 1 }
 end.sort.to_h
 
 summary_by_scope = entries.each_with_object(Hash.new(0)) do |entry, counts|
@@ -270,15 +275,15 @@ payload = {
   "problem_id" => "navier-stokes",
   "generated_at" => Time.now.utc.iso8601,
   "generator" => "problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb",
-  "status" => "active-global-demotion-index",
+  "status" => "active-no-proof-authority-index",
   "scan_scope" => "problems/navier-stokes/** text surfaces",
   "excluded_generated_self_surfaces" => EXCLUDED_PATH_PARTS,
   "entry_count" => entries.length,
   "summary_by_class" => summary_by_class,
   "summary_by_scope" => summary_by_scope,
-  "demotion_law" => {
+  "support_classification_law" => {
     "governing_cm_program" => "Exit(Q):=not Member(Q) through Pack_Q / Part_{N,Q} / Field_{N,r,Q}",
-    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-demoted positive surface is support only for the CM contrapositive program.",
+    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Pack_Q, Part_{N,Q}, or Field_{N,r,Q}.",
     "cannot_do" => [
       "set the live CM frontier",
       "close TerminalCMNoExit.A / NoGenuineCMExit.A",

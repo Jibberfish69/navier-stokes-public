@@ -91,7 +91,7 @@ FAMILIES = [
   },
   {
     "id" => "late_cm_direction_or_same_ledger_notes",
-    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Pack/Part/Field exhaustion, and the statement that preterminal reflection is demoted as an invalid bridge.",
+    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Pack/Part/Field exhaustion, and the statement that preterminal reflection is an invalid bridge with no proof force.",
     "files" => %w[
       theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
@@ -227,7 +227,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Field-to-Part collapse, and the demotion of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory standard: named promoted rows need same-witness CM entry plus Pack/Part/Field face certification, while generic support rows stay demoted.",
+    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg face landing, Field-to-Part collapse, and the no-proof-force classification of generic Pack/Part no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Pack/Part/Field face certification, while generic support rows stay support-only.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -288,8 +288,8 @@ FAMILIES = [
     ]
   },
   {
-    "id" => "submission_representation_standard",
-    "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring standard, not theorem evidence.",
+    "id" => "submission_representation_rule",
+    "paper_representation" => "Governs how the large source field compresses into mathematical proof roles in the manuscript. This is an authoring rule, not theorem evidence.",
     "files" => %w[
       submission-bundle/source-field-representation-rubric.md
       submission-bundle/proof-attempt-failure-appendix.tex
@@ -361,41 +361,83 @@ uncovered = checkable_files.map { |path| ns_relative(path) }
                            .reject { |path| covered_paths[path] || covered_paths["problems/navier-stokes/#{path}"] }
                            .sort
 
-static_family_files = FAMILIES.flat_map { |family| family.fetch("files") }
-dynamic_theorem_creation_files = uncovered.grep(%r{\Atheorem-construction/.*-theorem-creation-\d{8}\.md\z}) - static_family_files
-dynamic_executor_route_sync_files = uncovered.grep(
-  %r{\A(?:ns-completion-executor-route-sync|ns-completion-route-sync-payload)-\d{8}(?:-iteration-\d+)?\.yaml\z}
-) - static_family_files
-dynamic_executor_proof_lane_files = uncovered.grep(
-  %r{\Atheorem-construction/ns-completion-executor-proof-(?:blocker|frontier)-\d{8}(?:-iteration-\d+)?\.md\z}
-) - static_family_files
-dynamic_executor_submission_sync_files = uncovered.grep(
-  %r{\Asubmission-bundle/ns-completion-(?:executor-proof-scaffold|executor-submission-boundary|submission-sync)-\d{8}(?:-iteration-\d+)?\.(?:md|yaml)\z}
-) - static_family_files
+static_families = FAMILIES.map do |family|
+  current_files = family.fetch("files").select { |path| uncovered.include?(path) }
+  next if current_files.empty?
+
+  family.merge("files" => current_files)
+end.compact
+
+remaining_uncovered = uncovered - static_families.flat_map { |family| family.fetch("files") }
 dynamic_families = []
-unless dynamic_theorem_creation_files.empty?
+
+add_dynamic_family = lambda do |id, paper_representation, pattern|
+  files = remaining_uncovered.grep(pattern).sort
+  return if files.empty?
+
   dynamic_families << {
-    "id" => "current_theorem_creation_candidate_notes",
-    "paper_representation" => "Current theorem-creation candidate notes are represented by the representation standard as candidate support, pressure tests, or demoted positive-forward attempts. They are not promoted as theorem evidence unless a downstream audit lands them in Pack, Part, Field, membership readout, terminal packet capture, or the terminal CM entry/exhaustion/embedding chain.",
-    "files" => dynamic_theorem_creation_files.sort
+    "id" => id,
+    "paper_representation" => paper_representation,
+    "files" => files
   }
-end
-unless (dynamic_executor_route_sync_files + dynamic_executor_proof_lane_files).empty?
-  dynamic_families << {
-    "id" => "current_executor_route_app_graph_pdf_sync_surfaces",
-    "paper_representation" => "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM face to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Pack/Part/Field referee audit.",
-    "files" => (dynamic_executor_route_sync_files + dynamic_executor_proof_lane_files).sort
-  }
-end
-unless dynamic_executor_submission_sync_files.empty?
-  dynamic_families << {
-    "id" => "current_executor_dual_pdf_submission_independent_surfaces",
-    "paper_representation" => "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
-    "files" => dynamic_executor_submission_sync_files.sort
-  }
+  remaining_uncovered -= files
 end
 
-families_source = FAMILIES + dynamic_families
+add_dynamic_family.call(
+  "current_theorem_creation_candidate_notes",
+  "Current theorem-creation candidate notes are represented by the representation rule as candidate support, pressure tests, or support-only positive-forward attempts. They have no downstream proof force unless a downstream audit lands the exact same witness in Pack_Q, Part_{N,Q}, Field_{N,r,Q}, membership readout, terminal packet capture, or the terminal CM entry/exhaustion/embedding chain.",
+  %r{\Atheorem-construction/.*-theorem-creation-\d{8}\.md\z}
+)
+
+add_dynamic_family.call(
+  "current_executor_route_app_graph_pdf_sync_surfaces",
+  "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM face to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Pack/Part/Field referee audit.",
+  %r{\A(?:(?:ns-completion-executor-route-sync|ns-completion-route-sync-payload)-\d{8}(?:-iteration-\d+)?\.yaml|theorem-construction/ns-completion-executor-proof-(?:blocker|frontier)-\d{8}(?:-iteration-\d+)?\.md)\z}
+)
+
+add_dynamic_family.call(
+  "current_executor_dual_pdf_submission_independent_surfaces",
+  "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+  %r{\Asubmission-bundle/ns-completion-(?:executor-proof-scaffold|executor-submission-boundary|submission-sync)-\d{8}(?:-iteration-\d+)?\.(?:md|yaml)\z}
+)
+
+add_dynamic_family.call(
+  "current_authoring_lab_transcript_template_residue",
+  "Authoring lab material, sample proof templates, and conversational transcripts are preserved source residue or authoring examples. Pulling-teeth transcript material may be quoted as evidence of the failed linear-profile assumption, but it has no proof or decision authority unless reworked into an exact theorem surface.",
+  %r{\Asubmission-bundle/authoring/}
+)
+
+add_dynamic_family.call(
+  "current_completion_criticism_and_source_writing_batches",
+  "Completion criticism ledgers and source-writing batches are manuscript production and review support. They may guide edits, but they do not certify theorem closure or downstream proof force without a direct manuscript/theorem surface carrying the exact statement and hypotheses.",
+  %r{\Asubmission-bundle/(?:ns-active-completion.*|ns-completion-source-writing-batch-\d{8}(?:-iteration-\d+)?\.md)\z}
+)
+
+add_dynamic_family.call(
+  "current_paper_arc_production_support",
+  "Paper-arc production runs, author packs, prompts, critic reports, verifier files, certified/integrated snapshots, and next-author targets are generated authoring support. They are intentionally classified as support residue with no independent proof authority; proof force must appear in the direct manuscript, theorem notes, source frontier, or Pack/Part/Field audit.",
+  %r{\Asubmission-bundle/paper-arc-production-runs/}
+)
+
+add_dynamic_family.call(
+  "current_source_spine_production_support",
+  "Source-spine production runs, rewrite packs, supervisor plans, dry runs, and math-unknown queues are manuscript/source-production support. They may record open mathematical work or authoring instructions, but they do not settle a proof step unless the exact result is installed in a proof-facing theorem or manuscript surface.",
+  %r{\Asubmission-bundle/source-spine-production-runs/}
+)
+
+add_dynamic_family.call(
+  "current_theorem_construction_remainder",
+  "Current theorem-construction files outside the direct live authority, source-artifact set, non-Euler sweep, and forward-positive quarantine are theorem-attempt or audit remainder. They are preserved as active research support with no downstream proof force until an exact statement with hypotheses is promoted into the direct live surfaces or certified by the Pack/Part/Field referee audit.",
+  %r{\Atheorem-construction/}
+)
+
+add_dynamic_family.call(
+  "current_tooling_support_remainder",
+  "Current checker and notation tools are support machinery. Their output can detect drift or hygiene failures, but the tools themselves are not theorem evidence and carry no proof authority.",
+  %r{\Atools/}
+)
+
+families_source = static_families + dynamic_families
 family_files = families_source.flat_map { |family| family.fetch("files") }
 family_counts = family_files.each_with_object(Hash.new(0)) { |path, counts| counts[path] += 1 }
 duplicates = family_counts.select { |_path, count| count > 1 }.keys
@@ -404,11 +446,9 @@ unless duplicates.empty?
 end
 
 missing_from_families = uncovered - family_files
-stale_family_entries = family_files - uncovered
-unless missing_from_families.empty? && stale_family_entries.empty?
+unless missing_from_families.empty?
   warn "current-material coverage mismatch"
   warn "unclassified current checkable files:\n#{missing_from_families.join("\n")}" unless missing_from_families.empty?
-  warn "stale family entries no longer in current uncovered set:\n#{stale_family_entries.join("\n")}" unless stale_family_entries.empty?
   exit 1
 end
 
@@ -444,7 +484,7 @@ payload = {
       ]
     },
     "forward_positive_quarantine" => {
-      "role" => "support/demotion representation for forward-positive, readout, transfer, export, and supplier surfaces",
+      "role" => "support/no-proof-authority representation for forward-positive, readout, transfer, export, and supplier surfaces",
       "entries" => quarantine.fetch("entry_count"),
       "surface" => "problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml"
     },

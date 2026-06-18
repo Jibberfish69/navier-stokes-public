@@ -54,7 +54,7 @@ WindowPackingLeakage.A. Find the missing local bridge that is strictly weaker th
 - exhaust the exact local theorem packets it implies, publish the resulting local
 - theorem-packet.yaml, theorem-repair.yaml, dependency-discharge.yaml.'
 - - 'Before promotion, run the bridge-license question: does this result enter Pack_Q,
-- - once a route packet or broad theorem burden is visible, the lane must immediately
+- - once a route packet or broad theorem burden is visible, the lane must record the selected target and route authority
 - Define or prove: Completed the Hopf/shuffle line as a theorem-program refinement. The correct algebraic fit for the time tower is the divided-power Hopf law on one primitive generator, and for the mixed jet tower it is the shuffle/unshuffle
 - Define or prove: Formalized the refined direct Lagrangian route as a six-lemma mainline: differentiated Lagrangian decomposition, deformation-adapted energy, ellipticity window, coefficient-commutator absorption, no-loss pressure recovery, 
 - Define or prove: Updated lemma-4b-no-loss-pressure-recovery-attack.md with a geometry-testing ladder for the elliptic test field W_test = A^T grad Phi solving -div_a(G grad Phi)=div_a Z_alpha. The note now distinguishes three rungs: (1) ene

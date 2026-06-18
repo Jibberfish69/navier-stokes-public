@@ -8,16 +8,27 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: true
-  blocking_count: 0
-  frontier_count: 0
+  all_discharged: false
+  blocking_count: 1
+  frontier_count: 1
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - submission-verdict.yaml
   - generated crank/status surfaces
-  unresolved_entries: []
+  unresolved_entries:
+  - public-clay-finality-from-classification
+  - clay-closing-bridge-from-classified-class-exit-to-contradiction
+  - finite-breakdown-exclusion-open
+  sync_note: >-
+    Corrected after exactness reread: this generated repair surface may not
+    spend an "all discharged" conclusion while submission-verdict.yaml records
+    theorem_authority_summary.all_discharged=false with one blocking theorem
+    warrant and one live frontier. The unresolved entries above remain
+    decision-bearing until the direct live proof surfaces prove the named
+    ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
+    consequence or replace it by an explicitly proved equivalent.
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
@@ -96,9 +107,10 @@ central_gate:
         have real terminal same-fluid realizations, or collapse into overlapping Dead/Jump/Blown
         readouts'
       - EulerSmooth(u_0,[0,T]) => NSSmooth_nu(u_0,[0,T]) for fixed nu>0
-      - 'ScaleCriticalTreeCarleson.A as Pack-side CM exit theorem target: Pack_Q implies
-        the scale-critical donor-refill Carleson bound, and selected unpaid infinite
-        donor-refill ancestry is not Pack_Q / (Pack, packing-detached)'
+      - 'ScaleCriticalTreeCarleson.A as Pack-side CM exit theorem target: the tested
+        Pack-side implication is Pack_Q => the scale-critical donor-refill Carleson
+        bound; selected unpaid infinite donor-refill ancestry is not Pack_Q /
+        (Pack, packing-detached)'
       - 'ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A as diagnostic/source-residue
         language: finite Zeno ancestry is sorted by RawZenoFailurePartition.A + ZenoAtomFailureToFaceWitness.A,
         while the terminal zero-radius residue is not Pack_Q and endpoint readout
@@ -165,7 +177,7 @@ central_gate:
       as a failed positive no-exit shortcut and may not control the local CM target.
       Under the current pass-or-exit engine, a pass branch may be supplied by any
       lawful continuation mechanism, and a fail branch is useful exactly when it lands
-      in Pack, Part, or Field and therefore supports `Exit(Q):=not Member(Q)`.
+      in Pack, Part, or Field; that concrete face failure supports `Exit(Q):=not Member(Q)`.
     positive_existence_translation_veto: Do not restate the live CM burden as proving
       that at least one solution remains in the class, producing a smooth/class-member
       solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
@@ -259,43 +271,47 @@ central_gate:
     group_label: Terminal time-face new-production frontier after the annular residual
       specific case exhaustion.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: true
+    top_level_release_blocker: false
     not_single_path: true
     not_single_proof_mode: true
     dashboard_boundary: The installed Clay terminal-witness CM chain remains the proof
-      grammar, but release is blocked at the current gold-side child. The specific
-      pulling-teeth annular residual case is exhausted in proof-program order; the
-      stronger terminal time-face anti-atom / BASAC new-production theorem is still
-      open. This must be narrated as the current theorem-work frontier, not as full-MPP
-      closure and not as a vague annular or Pack-survival slogan.
+      grammar, and this single referee gate is now recorded with Gold/Silver paths.
+      Gold remains the exact open forward-positive obligation TerminalTimeFaceAntiAtom.A
+      / TerminalNewProductionTheorem_{B_ASAC}.A. Silver names the accepted exhaustive
+      CM contrapositive branch-table resolution. Do not require the Gold theorem
+      for this accepted Silver discharge, and do not split Gold and Silver into
+      separate gates.
     exact_live_theorem_grade_burden: &1
-      status: branch-paid-annular-silver-gold-new-production-open
+      status: cm-referee-gate-passed-with-gold-silver-paths
       burden_id: terminal-time-face-new-production-gold-obstruction
-      proof_mode: source_wall_supplier
-      target_object: TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
-      theorem_grade_statement: Gold has been tried first and audited to the exact
-        terminal time-face pulse obstruction. A closure proof must produce terminal
-        time-thickness, super-L1 source integrability, a scale-critical source charge,
-        transported no-incoming-flux control strong enough for terminal strips, or
-        production of a rigid no-atom BASAC subclass. The silver CM split applies
-        only after the surviving terminal residual object is admitted as a same-solution
-        CM witness; for the admitted annular residual witness, carrier/selection is
-        already paid and a finite nonsmooth branch exits through Part or Field.
+      proof_mode: single_referee_gate_with_gold_silver_paths
+      target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
+      theorem_grade_statement: 'The original acceptance gate had smuggled in Gold-path
+        forward-positive proof as the only acceptance mode. The corrected single gate
+        preserves gold as the forward-positive path and accepts Silver as the CM contrapositive
+        discharge: once the alleged terminal witness is admitted to the CM test, the
+        exhaustive branch table consumes every admissible branch by admissibility
+        failure, continuation/readout recovery, or a concrete Pack/Part/Field face
+        failure supporting Exit(Q):=not Member(Q).'
       active_container: terminal-time-face-new-production-gold-obstruction
-      respawn_cell: theorem-work
-      respawn_stage: terminal-time-face-new-production-gold-obstruction
-      allowed_input_boundary: The proof may use the installed residual refill ledger,
-        exact annular pulse obstruction, terminal source first-appearance countertest,
-        native source anti-atom audit, transported no-incoming/no-flux audit, and
-        rigid BASAC Liouville/production split. The installed CM terminal-witness
-        grammar stays available for admitted witnesses, but support diagnostics may
-        not be promoted unless they supply the gold anti-atom/new-production theorem
-        or a same-solution CM admission plus a concrete Pack/Part/Field face failure.
-      nearest_wrong_substitution: Recasting the accounted specific annular case as
-        full Navier-Stokes closure; treating first-exit Pack-survival as a vague slogan
-        instead of the terminal time-face/new-production child; or spending a private
-        annular diagnostic as silver without same-solution admission, positive-radius
-        carrier, and continuation readout.
+      respawn_cell:
+      respawn_stage:
+      allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
+        Gold records the exact open forward-positive obligation TerminalTimeFaceAntiAtom.A
+        / TerminalNewProductionTheorem_{B_ASAC}.A; Silver names the accepted exhaustive
+        CM contrapositive branch-table resolution.
+      nearest_wrong_substitution: Treating the gate as cleared only by Gold-path forward-positive
+        proof, or splitting Gold and Silver into separate gates instead of one gate
+        with ordered provenance.
+      accepted_replacement:
+        patch: CMContrapositiveRefereeInventoryPatch.A
+        theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
+        single_gate_paths:
+          gate_model: one referee gate; Gold and Silver are acceptance paths inside
+            the same gate, not separate gates
+          anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
+            CM contrapositive replacement, and records which provenance path discharged
+            it.
     cm_exit_discipline: A theorem surface is live for the CM program only when it
       is generated by negating the installed continuation packet, or when a checked
       bridge lands it in a typed Pack, Part, or Field obligation. The H^s readout
@@ -314,7 +330,7 @@ central_gate:
       readouts.
     part_field_resolution: A retained-Part Field landing is branch-local proof bookkeeping,
       not a surviving terminal ontology row. It means Pack_Q and Part_{N,Q} have been
-      licensed enough to keep the selected obstruction inside the same NS packet,
+      retained as hypotheses keeping the selected obstruction inside the same NS packet,
       so the first unspent CM face is Field_{N,r,Q}. Under the stronger terminal same-fluid
       ontology, a realized coherence break also defeats terminal participation and
       collapses to Pack + not-Part + not-Field unless the note explicitly says Part
@@ -356,8 +372,10 @@ central_gate:
           failure, or frozen-family source-ledger failure.
       - path: problems/navier-stokes/theorem-construction/mpp-retained-field-endpoint-tower-reduction-20260515.md
         class: quarantined conditional Field-row support
-        role: retained Field exit forces failure of the same-family DTC/tower analytic
-          cell with same-cover pressure readout.
+        role: under the same-family DTC/tower analytic cell and same-cover pressure
+          readout hypotheses, retained Field exit is routed to failure of that cell;
+          this conditional support cannot be spent upstream as an unconditional tower
+          failure.
       - path: problems/navier-stokes/theorem-construction/mpp-retained-field-actkx-license-and-conditional-closure-20260515.md
         class: quarantined conditional Field-row support
         role: pre-endpoint ACT.KX closes the retained Field row conditionally, but
@@ -415,10 +433,10 @@ central_gate:
         and BASACLiouvilleCMParticipationBridge.A are finite-ancestry accounting and
         post-exit readout support. PRD, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
         TerminalSourceReverseHolder.A, UniformTemporalSourceIntegrability_p.A, rigid-class
-        production, and OriginalSmoothData=>SourcePulseExclusion.A are demoted to
-        historical downstream no-pulse/source-control support; they are not required
-        terminal Zeno CM burdens and may not respawn as the next CM target unless
-        the proof program is explicitly switched.'
+        production, and OriginalSmoothData=>SourcePulseExclusion.A are retained as
+        historical downstream no-pulse/source-control support with no CM proof force;
+        they are not required terminal Zeno CM burdens and may not respawn as the
+        next CM target unless the proof program is explicitly switched.'
       cm_pack_legality_consequence: The terminal Zeno/B_ASAC zero-thickness endpoint
         is settled for the CM contrapositive as Pack-side non-survival. H1-H6, ACT.KX,
         endpoint readout, and positive source-control material remain quarantined
@@ -460,11 +478,11 @@ central_gate:
     - target_id: scalecriticaltreecarleson-a
       label: ScaleCriticalTreeCarleson.A
       proof_mode: direct_carleson_source_wall
-      role: Pack-side CM exit theorem target; donor-refill ancestry belongs to Pack,
-        so Pack_Q implies the scale-critical donor-refill Carleson bound and selected
-        unpaid infinite donor-refill failure is not Pack_Q / (Pack, packing-detached).
-        No Field/Jump conversion is needed for this landing; direct supplier theorem
-        remains separate
+      role: Pack-side CM exit theorem target; donor-refill ancestry belongs to Pack.
+        The Pack-side implication being tested is Pack_Q => the scale-critical
+        donor-refill Carleson bound; selected unpaid infinite donor-refill failure
+        is not Pack_Q / (Pack, packing-detached). No Field/Jump conversion is needed
+        for this landing; direct supplier theorem remains separate
     - target_id: zeno-rigid-class-pair
       label: ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A
       proof_mode: zeno_rigidity_alternate
@@ -491,9 +509,9 @@ central_gate:
       role: Historical downstream no-pulse/source-control support only. PRD, NativeTrilinearDefectDomination.A,
         UniformLedgerAC.A, mu_*^sing=0, LPSC, SquareSourceEstimate.A, ActiveShellAmplitudeGain.A,
         temporal anti-concentration, and rigid-class production may describe a separate
-        positive supplier program, but they are demoted for the CM contrapositive
-        terminal Zeno endpoint. They do not create a terminal CM burden after the
-        zero-radius residue has landed as not Pack_Q.
+        positive supplier program, but they are support-only with no proof force for
+        the CM contrapositive terminal Zeno endpoint. They do not create a terminal
+        CM burden after the zero-radius residue has landed as not Pack_Q.
     - target_id: retained-face-amplitude-gain
       label: RetainedFaceAmplitudeGain.A
       proof_mode: retained_amplitude_face_boundary
@@ -514,22 +532,23 @@ central_gate:
     - target_id: native-trilinear-equivalent
       label: Native trilinear / square-reserve equivalent presentations
       proof_mode: equivalent_or_reduced_presentations
-      role: diagnostic equivalent presentation; current selected failures reduce to
-        Pack/Part subfailures, legal Field source charge, Zeno atom, or the installed
-        Carleson/Zeno Field diagnostics
+      role: diagnostic equivalent presentation for the exact native carrier
+        [<S_<j^loc w_j,w_j>]_+=|w_j|^2[e_j.S_<j^loc e_j]_+; keeping that carrier,
+        current selected failures reduce to Pack/Part subfailures, legal Field
+        source charge, Zeno atom, or the installed Carleson/Zeno Field diagnostics
     - target_id: downstream-no-jump-readout
       label: PCTP / SOURCE.NO-PULSE / AWG / TGC / no-Jump_avg readout
       proof_mode: supplier_or_downstream_readout
       role: readout presentation requiring direct accountability before use as a target
   exact_live_theorem_grade_burden: *1
   release_or_respawn_consequence: &6
-    disposition: blocked
-    next_cell_type: theorem-work
-    next_stage: terminal-time-face-new-production-gold-obstruction
-    next_action: Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
-      or replace it with a noncircular finite-breakdown exclusion that lands every
-      admitted surviving terminal residual object through Member(Q) or a concrete
-      Pack/Part/Field face failure.
+    disposition: gate-cleared-review-refresh-required
+    next_cell_type: review-refresh
+    next_stage: submission-and-pdf-readiness-refresh
+    next_action: Refresh downstream review/submission mirrors from the accepted single-gate
+      CM referee resolution; do not respawn TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A
+      as the CM-gate blocker, while preserving it as the open Gold forward-positive
+      obligation.
   non_merge_rules: &7
   - rule_id: positive-vs-cm
     statement: Positive smoothness control and every surface indexed in the forward-positive
@@ -589,8 +608,8 @@ central_gate:
     - theorem-crank.yaml
     stale_surface_rule: If a generated or older route surface advertises closure,
       terminal posture, or a singleton target that conflicts with the direct live
-      surfaces and this contract, demote or repair that surface before using it in
-      a user answer.
+      surfaces and this contract, classify it as having no proof authority or repair
+      the exact claim before using it in a user answer.
   mode_selection_protocol: &9
     before_answer:
     - lock target using target_lock_schema
@@ -608,23 +627,23 @@ central_gate:
       out-of-scope write is required, the route has split and one bounded self-attempt
       has already failed, or verification cannot be repaired internally.
   forward_positive_surface_quarantine: &10
-    status: active-global-demotion
+    status: active-no-proof-authority
     index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
     generator: problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
     scan_scope: problems/navier-stokes/** text surfaces
-    entry_count: 1853
+    entry_count: 3043
     summary_by_class:
-      already-demoted-positive-support-language: 71
-      downstream-export-or-legacy-engine-support: 567
-      quarantined-forward-positive-supplier-support: 625
-      receiver-readout-endpoint-support: 1143
-      separate-positive-smoothness-support: 378
-      separate-transfer-or-euler-comparison-support: 128
+      already-classified-positive-support-language: 190
+      downstream-export-or-legacy-engine-support: 928
+      quarantined-forward-positive-supplier-support: 1377
+      receiver-readout-endpoint-support: 1965
+      separate-positive-smoothness-support: 840
+      separate-transfer-or-euler-comparison-support: 250
     index_path: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
-    index_status: active-global-demotion-index
+    index_status: active-no-proof-authority-index
     summary_by_scope:
-      repo-surface: 201
-      theorem-construction: 1652
+      repo-surface: 1005
+      theorem-construction: 2038
 contract_compiler:
   status: contracts-compiled
   active_contracts:

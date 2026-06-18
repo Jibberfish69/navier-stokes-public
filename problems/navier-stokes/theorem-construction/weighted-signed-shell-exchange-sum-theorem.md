@@ -149,8 +149,14 @@ geometry `j\ll k\ll \ell`.
 
 There exists a universal Littlewood-Paley collar width `M_{\mathrm{LP}}` such
 that whenever `\ell\ge k+M_{\mathrm{LP}}`, the product
-`\Delta_k u\cdot\nabla\Delta_\ell u` has Fourier support in an annulus of size
-comparable to `2^\ell`. Therefore
+`\Delta_k u\cdot\nabla\Delta_\ell u` has Fourier support contained in an
+annulus
+
+```math
+c_{LP}2^\ell\le |\xi|\le C_{LP}2^\ell
+```
+
+with constants fixed by the cutoff system. Therefore
 
 ```math
 \Delta_j(\Delta_k u\cdot\nabla\Delta_\ell u)=0
@@ -160,8 +166,13 @@ comparable to `2^\ell`. Therefore
 ```
 
 Likewise, if `k\ge j+M_{\mathrm{LP}}`, then
-`\Delta_k u\cdot\nabla\Delta_j u` has Fourier support in an annulus of size
-comparable to `2^k`, so
+`\Delta_k u\cdot\nabla\Delta_j u` has Fourier support contained in an annulus
+
+```math
+c_{LP}2^k\le |\xi|\le C_{LP}2^k,
+```
+
+so
 
 ```math
 \Delta_\ell(\Delta_k u\cdot\nabla\Delta_j u)=0
@@ -170,11 +181,17 @@ comparable to `2^k`, so
 \tag{9}
 ```
 
-Hence, after enlarging the harmless fixed collar `M` if necessary, the branch
-geometry
+Hence replace the collar once and for all by
 
 ```math
-j+M<k<\ell-4
+M':=\max\{M,M_{\mathrm{LP}}\}.
+\tag{10}
+```
+
+Reading the branch geometry with `M'` instead of `M`,
+
+```math
+j+M'<k<\ell-4,
 ```
 
 forces

@@ -112,8 +112,8 @@ B_j \rightsquigarrow (M_0,M_1)
 \tag{8}
 ```
 
-would first need a nonlinear identification sending the low-frequency shell
-barrier into the one-sided stress source class.
+requires a nonlinear identification sending the low-frequency shell barrier
+into the one-sided stress source class.
 
 The current theorem stack does not provide such an identification.
 
@@ -126,7 +126,7 @@ So the bridge cannot even start until one chooses an exact stressification map.
 
 ## 5. Conditional bridge theorem
 
-The correct conditional bridge theorem would have to look like this.
+The correct conditional bridge theorem has the following form.
 
 Assume there is a lower-prefix stressification map
 
@@ -188,5 +188,5 @@ The current theorem-grade verdict is:
 }
 ```
 
-To turn it into a theorem, the branch would first need a stressification map
-carrying the shell barrier onto the one-sided scale-memory source.
+Turning this branch into a theorem requires a stressification map carrying the
+shell barrier onto the one-sided scale-memory source.

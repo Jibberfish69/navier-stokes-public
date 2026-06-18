@@ -94,7 +94,7 @@ SUPPORT_CLASS_PHRASES = {
   "downstream-export-or-legacy-engine-support" => "downstream export or legacy-engine support",
   "separate-positive-smoothness-support" => "separate positive-smoothness support",
   "separate-transfer-or-euler-comparison-support" => "transfer or Euler-comparison support",
-  "already-demoted-positive-support-language" => "demoted positive-support language"
+  "already-classified-positive-support-language" => "previously classified positive-support language"
 }.freeze
 
 SUPPORT_CLASS_HEADINGS = {
@@ -103,7 +103,7 @@ SUPPORT_CLASS_HEADINGS = {
   "downstream-export-or-legacy-engine-support" => "export/legacy",
   "separate-positive-smoothness-support" => "positive smoothness",
   "separate-transfer-or-euler-comparison-support" => "transfer/Euler",
-  "already-demoted-positive-support-language" => "demoted positive"
+  "already-classified-positive-support-language" => "classified positive"
 }.freeze
 
 def support_class_phrase(classes)
@@ -186,7 +186,7 @@ def cm_claim_and_proof(label, role)
 end
 
 def support_role(entry)
-  classes = Array(entry["demotion_classes"]).map(&:to_s)
+  classes = Array(entry["support_classes"] || entry["demotion_classes"]).map(&:to_s)
   return :comparison if classes.any? { |klass| klass.include?("transfer") || klass.include?("euler") || klass.include?("comparison") }
   return :readout if classes.any? { |klass| klass.include?("receiver") || klass.include?("readout") || klass.include?("endpoint") }
   return :positive_supplier if classes.any? { |klass| klass.include?("supplier") || klass.include?("positive") }
@@ -354,7 +354,7 @@ inventory = {
       "index" => index,
       "path" => entry["path"],
       "surface_scope" => entry["surface_scope"],
-      "demotion_classes" => Array(entry["demotion_classes"]),
+      "support_classes" => Array(entry["support_classes"] || entry["demotion_classes"]),
       "cm_authority" => entry["cm_authority"],
       "promotion_allowed_only_by" => entry["promotion_allowed_only_by"],
       "forbidden_as_cm_substitute" => entry["forbidden_as_cm_substitute"]
@@ -407,9 +407,9 @@ tex << ""
 support_groups = quarantine_entries.group_by { |entry| support_role(entry) }
 
 support_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_index do |(role, rows), group_index|
-  classes = rows.flat_map { |entry| Array(entry["demotion_classes"]).map(&:to_s) }.uniq.sort
+  classes = rows.flat_map { |entry| Array(entry["support_classes"] || entry["demotion_classes"]).map(&:to_s) }.uniq.sort
   tex << "\\subsection{Support proof role #{group_index + 1}: #{latex_escape(support_class_heading(classes))}}"
-  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license."
+  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Pack-first admission, a receiver/readout bridge, or a same-branch transfer license."
   tex << ""
   claim, proof, reader_role = support_claim_and_proof("Support proof role #{group_index + 1}", role)
   tex << "\\paragraph{Family proof role.}"

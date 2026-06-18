@@ -98,8 +98,8 @@ This is the point the new route tries to replace.
 
 ## Proposed theorem surface
 
-The new theorem should not estimate the whole Volterra primitive head-on.
-It should separate the one-sided primitive into parts with different PDE roles.
+The new theorem does not estimate the whole Volterra primitive head-on.
+It separates the one-sided primitive into parts with different PDE roles.
 
 The formal target is:
 
@@ -119,14 +119,14 @@ with the intended meanings:
 - `\mathcal R_r[Z]`: residual tail.
 
 This is not imported ontology machinery.
-It is the PDE translation of the idea that the accumulated object should first
+It is the PDE translation of the idea that the accumulated object is first
 be classified before it is treated as a live driver.
 
 ## Desired estimates
 
 The route would close if `(5)` came with the following three statements.
 
-### 1. Exact part is harmless
+### 1. Exact part is a scale derivative
 
 There exists a scale potential `S_r[Z]` such that
 
@@ -172,13 +172,13 @@ Then `FCTS` follows from `(5)`-`(8)` by the elementary square bound
 \Big).
 ```
 
-## What would count as progress
+## What counts as progress
 
 This route does **not** require the full decomposition `(5)` to be discovered
 at once.
 
 Any nontrivial theorem that improves on the crude Hardy collapse `(4)` by
-using the assembly history of `(\mathcal V Z)_r` would already count as real
+using the assembly history of `(\mathcal V Z)_r` counts as real
 progress.
 
 Examples:
@@ -187,8 +187,10 @@ Examples:
    vanishes in the weighted pairing `(3)`;
 2. a theorem showing that the active weight `a(r,t)` only sees a projected
    readout of `(\mathcal V Z)_r`, not its full accumulated mass;
-3. a theorem showing that the residual part of the Volterra primitive is
-   automatically absorbable by local dissipation.
+3. a theorem showing an explicit local-dissipation bound for the residual part,
+   for example
+   `|\langle a,\mathcal R\rangle|\le \theta\mathcal D_{\mathrm{loc}}+R_{\mathrm{summ}}`
+   with `0<theta<1` and summable `R_{\mathrm{summ}}`.
 
 ## First falsification test
 
@@ -302,9 +304,9 @@ Since `S` vanishes at both endpoints,
 \tag{15}
 ```
 
-So the exact part would decouple if the active weight were scale-flat or had a
-usable scale-derivative bound. On the inherited Euclidean surface, no such
-control on `\partial_s w` is available.
+So the exact part decouples under the explicit additional hypothesis that the
+active weight is scale-flat or has a usable scale-derivative bound. On the
+inherited Euclidean surface, no such control on `\partial_s w` is available.
 
 Therefore Attempt A is nontrivial and exact, but it does **not** yet improve
 the theorem because it converts the problem into controlling scale variation of

@@ -102,13 +102,15 @@ where:
   obtained by inserting the principal projector symbol `p_G(a,\zeta)` into the
   resonant shell interaction and keeping only the genuine finite-collar main
   term;
-- `b_G^{rem}` contains every term with at least one projector remainder
+- `b_G^{rem}` contains exactly the terms with at least one projector remainder
   `R_{G,j}`, one shell/projector commutator, or one extra metric defect beyond
-  the frozen projected resonant term.
+  the frozen projected resonant term, after those terms have been proved to
+  satisfy the remainder bound `(WERS.3a)` below.
 
-The point of this split is that `(WEP.2')` already demotes every projector
-defect by one shell factor `2^{-j}`. So only `b_G^{main}` should remain as a
-new same-depth burden.
+The point of this split is that `(WEP.2')` demotes projector defects by one
+shell factor `2^{-j}` only for terms satisfying the displayed remainder bound.
+Any term not satisfying `(WERS.3a)` remains in the same-depth theorem burden
+rather than being assigned to `b_G^{rem}` by notation.
 
 ## Theorem Pair
 
@@ -211,9 +213,10 @@ C_G\,2^{-j}.
 \tag{WERS.3a}
 ```
 
-The key point is that every projector replacement error should carry one extra
-metric or shell defect and therefore belong to `b_G^{rem}`, not to the true
-resonant main term.
+Thus a projector replacement error belongs to `b_G^{rem}` only after the
+estimate `(WERS.3a)` has been proved for that term.  The split does not assume
+that every projector error is lower order; it makes lower-order membership a
+checked shell-symbol estimate.
 
 For a proof-ready shell theorem, the honest live burden is sharper than
 `(WERS.3)`: it is one derivative shell-symbol estimate. Namely, for some fixed
@@ -375,7 +378,7 @@ b_{G,j}^{main}(a,\xi,\eta)
 ```
 
 with the transport tensor `\mathbf T_G` carrying one derivative on one
-projected input, then a typical differentiated factor has the shape
+projected input, the differentiated factors under test have the shape
 
 ```math
 \eta\cdot \Pi_G^\sigma(a,\xi)U
@@ -611,7 +614,7 @@ exact projected carrier. The symbolic upgrades `(WERS.3Cap-HV)` and
 `(WERS.3Cap-RF)` remain sufficient alternate routes because each of them would
 reinstall `(WERS.3R)`, but they are no longer the preferred endpoint.
 
-The clean operator-level target should be written first as a frozen capwise
+The clean operator-level target is written first as a frozen capwise
 operator theorem. Split the same-depth main term as
 
 ```math
@@ -627,9 +630,20 @@ operator theorem. Split the same-depth main term as
 where `\Lambda^{frozen}_{j,\omega,\omega'}` is the scalar bilinear form obtained
 from the frozen projected principal symbol on one active cap pair, and
 `\mathcal R_j^{freeze}` is the coefficient-variation remainder from freezing on
-the packet scale. That freezing remainder belongs to the already-budgeted
-projector / metric defect carrier and should be absorbed together with
-`b_G^{rem}` on the same ledger.
+the packet scale. That freezing remainder may be assigned to the
+already-budgeted projector / metric defect carrier only after it satisfies the
+same remainder test as `b_G^{rem}`, namely a bound of the form
+
+```math
+|\mathcal R_j^{freeze}(f_j,g_j)|
+\le
+C_G 2^{-j}\,\mathcal N_j(f_j,g_j),
+\tag{WERS.3Cap-freeze}
+```
+
+with `\mathcal N_j` equal to the shell norm product used in the active
+same-depth estimate. Until that bound is proved, the freezing error remains
+part of the same-depth capwise theorem burden.
 
 Because resonance is imposed by angular neighbors at width `\rho_j`, the active
 cap graph has bounded valence:
@@ -819,13 +833,16 @@ microlocal branch.
 
 In particular:
 
-- every occurrence of `R_{G,j}` belongs to `b_G^{rem}`;
-- every occurrence of `[\Delta_j,\Pi_G^{ex}]` belongs to `b_G^{rem}`;
+- every occurrence of `R_{G,j}` belongs to `b_G^{rem}` only after satisfying
+  `(WERS.3a)` or the matching operator remainder estimate;
+- every occurrence of `[\Delta_j,\Pi_G^{ex}]` belongs to `b_G^{rem}` only after
+  satisfying `(WERS.3a)` or the matching operator remainder estimate;
 - every extra coefficient variation beyond the frozen projected symbol belongs
-  to `b_G^{rem}`.
+  to `b_G^{rem}` only after satisfying `(WERS.3Cap-freeze)`.
 
 This is the resonant analogue of the commutator theorem: all projector defects
-must be stripped off before the genuine same-depth theorem is attacked.
+must be proved lower-order before they are stripped off from the genuine
+same-depth theorem.
 
 ## Proof Skeleton
 

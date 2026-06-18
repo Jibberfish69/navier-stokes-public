@@ -306,7 +306,7 @@ happen:
    effective scaling.
 
 3. **Prove an inequality instead of an identity.**
-   The mixed-source matrix may admit a one-sided estimate
+   The candidate burden is a one-sided estimate for the mixed-source matrix:
    ```math
    \mathcal N_W[u]
    \ge
@@ -314,7 +314,7 @@ happen:
    \tag{19}
    ```
    with `\mathcal F` not literally identical to the cubic source.
-   But that would require additional structure beyond the fixed quadratic Gram
+   That route requires additional structure beyond the fixed quadratic Gram
    identity.
 
 ## 8. Bottom line

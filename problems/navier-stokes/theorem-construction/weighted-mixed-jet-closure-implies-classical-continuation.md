@@ -50,7 +50,13 @@ Therefore `(2)` implies
 \tag{4}
 ```
 
-Since `s>\frac52`, this is a standard strong classical continuation norm.
+The continuation criterion being used is explicit: for `s>\frac52`, local
+wellposedness in `H^s` gives an existence time
+`\tau_{\mathrm{lwp}}=\tau_{\mathrm{lwp}}(M,\nu)>0` for every datum with
+`\|u(t_0)\|_{H^s}\le M`.  If `(4)` holds with bound `M`, the same lower bound on
+the local existence time applies at every `t_0<T`.  Choosing
+`t_0>T-\tau_{\mathrm{lwp}}(M,\nu)/2` extends the same classical solution past
+`T`.
 
 Hence:
 

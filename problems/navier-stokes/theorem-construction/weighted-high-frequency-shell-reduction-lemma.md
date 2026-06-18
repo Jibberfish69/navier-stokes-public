@@ -3,7 +3,7 @@
 ## Purpose
 
 This note isolates the reduced weighted-shell problem behind the strict
-low-mode packet on the Euclidean gradient-transfer surface. It should be read
+low-mode packet on the Euclidean gradient-transfer surface. It is read
 as a theorem target plus a bounded self-attempt, not as a discharged lemma.
 
 The exact local question is whether the transport-form strict low estimate
@@ -60,8 +60,8 @@ so the unresolved strict-low term is equivalently
 
 ## Target Statement
 
-The missing same-surface conversion would follow from any theorem-grade bound
-of the form
+Any theorem-grade bound of the following form supplies the missing
+same-surface conversion:
 
 ```math
 \mathcal L_N(t)\,F_N(t)
@@ -178,7 +178,7 @@ C\,\mathcal L_NE_N+\varepsilon \nu D_N.
 
 The collar term in `(5)` still carries an extra factor `2^N`, so the split
 does **not** reduce it to `C\mathcal L_NE_N` by itself. The far-tail term is
-closer to dissipation, but even there one would need
+closer to dissipation, but even there the reduction requires
 
 ```math
 2^{-(N+J)}\mathcal L_N(t)\ll \nu
@@ -186,7 +186,7 @@ closer to dissipation, but even there one would need
 
 uniformly on the theorem surface in order to absorb it into `\varepsilon \nu
 D_N`. The current fixed-cutoff admissibility of `\mathcal L_N` does not give
-that. On the contrary, the live fixed-cutoff bound grows like
+that. On the contrary, the live fixed-cutoff bound contains
 
 ```math
 \mathcal L_N(t)\le C_L\bigl(1 + C_0\,2^{3N/2}M\bigr),

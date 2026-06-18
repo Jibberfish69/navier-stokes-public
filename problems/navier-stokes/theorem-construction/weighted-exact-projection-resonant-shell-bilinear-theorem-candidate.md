@@ -97,8 +97,15 @@ p_G(a,\xi)^\top G(a)^{-1}p_G(a,\eta),
 \tag{WEP.RR.4}
 ```
 
-while every defect term in `b_G^{rem}` carries at least one extra metric or
-frequency loss of order `2^{-j}`.
+while a defect term is placed in `b_G^{rem}` only after it satisfies the explicit
+remainder estimate
+
+```math
+|b_G^{rem}(a,\xi,\eta)|\le C_G 2^{-j}.
+```
+
+Terms that do not satisfy this bound remain in the same-depth main theorem
+burden.
 
 ## Candidate Theorem
 
