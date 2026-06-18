@@ -2,7 +2,7 @@
 
 ## Status
 
-Failed direct discharge.  The cubic normal-form correction cancels the formal heat-linear cubic source, but the nonlinear derivative of the correction produces a quartic active-tree remainder with an unabsorbed low/intermediate strain coefficient.  Absorbing that coefficient requires exactly the still-open terminal source-coherence / local positive source Carleson input.  Therefore this note does not prove `ScaleCriticalTreeCarleson.A` from `OriginalSmoothData`.
+Failed direct discharge.  The cubic normal-form correction cancels only the heat-linear homological part of the cubic source.  The nonlinear Navier-Stokes derivative of the correction produces a quartic active-tree remainder with an unabsorbed low/intermediate strain coefficient.  Absorbing that coefficient requires exactly the still-open terminal source-coherence / local positive source Carleson input.  Therefore this note does not prove `ScaleCriticalTreeCarleson.A` from `OriginalSmoothData`.
 
 ## Target
 
@@ -80,7 +80,7 @@ The quadratic Bellman therefore produces the desired active-square density.  The
 
 ## Step 2. Heat-linear cubic normal-form correction
 
-A formal parabolic normal form attempts to cancel `\mathcal C_{3,N}`.  In Fourier variables, define a trilinear correction of the form
+The only cancellation supplied by the parabolic cubic normal form is the heat-linear homological cancellation of `\mathcal C_{3,N}`.  In Fourier variables, define a trilinear correction of the form
 
 ```math
 \mathcal B_{3,N}(t)
