@@ -140,7 +140,7 @@ Once `(SS)` is proved, both local debts close by finite summation.
 ## Weak same-scale theorem already available
 
 What is already honest on the current theorem surface is weaker than `(SS)` but
-stronger than “program only.” The model packet note
+stronger than “program only.” The coefficient-bearing edge note
 [same-scale-edge-family-and-model-estimate-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/same-scale-edge-family-and-model-estimate-note.md)
 proves the coefficient-bearing edge estimate
 
