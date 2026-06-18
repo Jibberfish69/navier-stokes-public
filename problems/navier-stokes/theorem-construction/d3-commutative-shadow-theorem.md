@@ -350,7 +350,8 @@ To prove
 \pi_f(B_D(X))=B_{\mathrm{loc}}(\pi_f(X)),
 ```
 
-it is enough to prove the three identities
+expand both sides using the definitions of `B_D` and `B_{\mathrm{loc}}`. The
+target follows from the three identities
 
 ```text
 \pi_f\mathbb P_{D,\omega}=P_{\mathrm{loc}}\pi_f,
@@ -359,6 +360,10 @@ it is enough to prove the three identities
 \qquad
 \pi_f(N_D(X))=N_{\mathrm{loc}}(\pi_f(X)).
 ```
+
+Indeed, substituting these three identities gives
+`\pi_f\mathbb P_{D,\omega}(\delta_\omega X+N_D(X))
+=P_{\mathrm{loc}}(\delta_{\mathrm{loc}}\pi_f(X)+N_{\mathrm{loc}}\pi_f(X))`.
 
 For the derivation identity, use `\delta_\omega X=[D_\omega,X]` and the local
 Dirac compression `D_{\mathrm{loc}}:=\pi_fD_\omega\pi_f^\sharp`.
