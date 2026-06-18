@@ -832,13 +832,14 @@ C_{\mathrm{loop}}^\star C_{\mathrm{harm}}^\star
 and `(SG.4Pa)` holds with the canonical budget `(SG.4Pe)`, hence the renewal
 package closes exactly as in `SG.4P`.
 
-On the cycle-exact branch, it is enough to prove the directional estimate
-`(SG.4Pf)` together with `\mathcal E_J^{harm}(I)=\mathcal E_J^{loop}(I)=0`,
-equivalently the vanishing-error directional theorem `(PD.70z11)` and, in the
-lossless exact-potential specialization, the older collapse `(PD.70z)`. On the
-general Hodge branch, once `(SG.4Ph)` / `(PD.70z3)` is granted as the export
-step, the exact live wall is the three-slot core of direction observability,
-harmonic observability, and selector-ledger vanishing, equivalently
+On the cycle-exact branch, the hypotheses are the directional estimate
+`(SG.4Pf)` and the vanishing ledgers
+`\mathcal E_J^{harm}(I)=\mathcal E_J^{loop}(I)=0`; this is the
+vanishing-error directional theorem `(PD.70z11)` and, in the lossless
+exact-potential specialization, the older collapse `(PD.70z)`. On the general
+Hodge branch, once `(SG.4Ph)` / `(PD.70z3)` is granted as the export step, the
+exact live wall is the three-slot core of direction observability, harmonic
+observability, and selector-ledger vanishing, equivalently
 `(PD.70z12)`-`(PD.70z14)`; the quartet `(SG.4Pf)`-`(SG.4Pi)` is the expanded
 bookkeeping form.
 
@@ -850,8 +851,10 @@ closure `(PD.70z10)`. That is the stripwise form of `(PD.70s)`, so
 Therefore `(SG.4Pa)` is available on the same strip family and the proof of
 `SG.4P` applies verbatim.
 
-If the active pair-gap cocycle is cycle-exact, the same packet kills the
-harmonic and loop terms, so `(PD.70z11)` is enough; in the exact-potential
+If the active pair-gap cocycle is cycle-exact, the harmonic and loop ledgers
+vanish:
+`\mathcal E_J^{harm}(I)=\mathcal E_J^{loop}(I)=0`. With those ledgers zero,
+`(PD.70z11)` is the remaining directional estimate; in the exact-potential
 lossless specialization, this is the older directional-only estimate
 `(PD.70z)`. Away from cycle-exactness, the pair-defect packet now localizes the
 genuinely new burden to `(PD.70z12)`-`(PD.70z14)` once the export step
