@@ -441,14 +441,14 @@ For a compact theorem-facing compression of the pack-side chain
 
 ### Corollary `CFI.C1a` (Exact pack-side interval-integrability burden)
 
-To upgrade `CFI.C1` to the usable route input
+The upgrade from `CFI.C1` to the usable route input
 
 ```math
 \Gamma_\sharp\in L^\infty(I),
 \tag{CFI.17a}
 ```
 
-it is enough to prove
+is the following interval-integrability burden:
 
 ```math
 \|\nabla u(\cdot,t)\|_{L^\infty(\Phi(A_\sharp,t))}\in L^1(I).
