@@ -449,8 +449,9 @@ N_Jm_J-B_J.
 Combining this with `(SG.4Bc)` yields `(SG.4Bd)`. The one-visit consequence
 `(SG.4Be)` follows by substitution. ∎
 
-This lemma is purely formal. The remaining creative theorem-search burden is to
-realize its hypotheses from the Navier-Stokes selector packets.
+This lemma is algebraic under hypotheses `(SG.4Ba)`--`(SG.4Bc)`. The remaining
+theorem-search burden is to realize those hypotheses from the Navier-Stokes
+selector packets.
 
 ## SG.4C Directional-Strain Lower-Envelope Realization
 
