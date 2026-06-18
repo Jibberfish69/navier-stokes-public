@@ -63,7 +63,7 @@ a theorem supplying the full pack/source control needed by the terminal route.
 
 ## Conclusion
 
-Vorticity-direction coherence remains a plausible analytic mechanism, but the
+Vorticity-direction coherence remains a candidate analytic mechanism, but the
 current repo has not proved the required terminal coherence or the bridge from
 that coherence to the active source packet.
 
@@ -78,4 +78,3 @@ SourcePulseExclusion.A.
 ```
 
 No promotion is licensed from this mechanism alone.
-
