@@ -71,7 +71,7 @@ with
 \le \varepsilon\int_I\sum_{q>N}D_q(t)\,dt+o_N(1).
 ```
 
-Then `A^-` is harmless for an upper bound, and `ASAC.A` implies
+Then `A^-` is discarded in the one-sided upper bound, and `ASAC.A` implies
 
 ```math
 \int_I G_N^{lift,\sigma}(t)\,dt

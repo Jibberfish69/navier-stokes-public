@@ -18,7 +18,12 @@ H1 RSCB.NKF retained-window admission. H2 bounded pack gauge. H3 ACT.KX differen
 
 5. Pressure/forcing closes by native affine annihilation, the annular/quadratic estimates, finite-energy far tail control, and post-ACT.KX pressure-cell readout.
 
-6. Moving cutoff/frame estimates close because affine coordinates see u(x)-u(c_j)-A_j(x-c_j). The cutoff contribution is absorbed by the X_exc scheduler budget.
+6. Moving cutoff/frame estimates close because affine coordinates see
+u(x)-u(c_j)-A_j(x-c_j). The cutoff residue has the form
+`C_cut X_exc^(1/2) N`; it is spendable only on first-exit cells satisfying
+`(C_cut+C_press)X_exc^(1/2) <= c_nu/2`, equivalently with
+`X_exc <= 4 eta_X` for
+`eta_X=(c_nu/(4(C_cut+C_press)))^2`.
 
 7. Native forcing supply closes along RSCB.NKF => NKF.Moll + NKF.Point => NKF.Native on retained center balls.
 

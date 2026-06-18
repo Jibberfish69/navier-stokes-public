@@ -4,7 +4,19 @@
 
 Conditional theorem.
 
-Let `F_al_var` denote the aligned derivative / gap source density from the variation reduction. Define
+Work on the retained aligned strip where the protected gaps satisfy
+`g_al(t,a)>0` and `g_seg(t,a)>0`. For this reduction, use the explicit
+upper-envelope density
+
+```math
+F_{al,var}(t,a)
+:=
+\frac{\|\partial_t C_{al}(t,a)\|\,\|C_{al}(t,a)\|}{g_{al}(t,a)}
++
+\frac{\|C_{al}(t,a)\|\,\|\partial_t S_{seg}(t,a)\|}{g_{seg}(t,a)}.
+```
+
+Define
 
 ```math
 eta_al_var(a) = integral_I F_al_var(t,a) dt.
@@ -23,15 +35,8 @@ Therefore `Lp` control of the aligned variation / gap term follows from
 integral_I ||F_al_var(t,.)||_Lp(dnu_J) dt <= C.
 ```
 
-In the explicit derivative / gap form, `F_al_var` is controlled by terms of the following type
-
-```math
-(||partial_t C_al|| ||C_al|| / g_al)
-+
-(||C_al|| ||partial_t S_seg|| / g_seg).
-```
-
-So the required source estimate is `L1_t Lp(dnu_J)` control of that derivative / gap density on the retained aligned strip.
+So the required source estimate is `L1_t Lp(dnu_J)` control of this displayed
+derivative / gap density on the retained aligned strip.
 
 ## Remaining source estimate
 

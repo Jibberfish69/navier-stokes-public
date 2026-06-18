@@ -62,7 +62,7 @@ Thus the exact reserve theorem is not scalar heat backward uniqueness. It is bac
 
 ## Finite-slab observation
 
-On each finite slab `[-R,0]`, `A(s)` is smooth and uniformly elliptic. Standard parabolic unique-continuation heuristics are plausible on finite slabs, provided the pressure/divergence system is handled in the anisotropic form above.
+On each finite slab `[-R,0]`, `A(s)` is smooth and uniformly elliptic. Standard finite-slab parabolic unique-continuation tools are the natural candidate here, provided the pressure/divergence system is handled in the anisotropic form above.
 
 This finite-slab fact is insufficient for `TPNI.A`, because `TPNI.A` concerns an ancient interval `(-\infty,0]` and requires a boundary condition at `s=-\infty` or an equivalent no-incoming flux condition.
 

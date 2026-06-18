@@ -31,7 +31,7 @@ Thus full-data lift and exact strict-shadow descent collapse to identity facts. 
 
 ## Hs Energy Identity
 
-For integer `s>5/2`, the standard commutator estimate gives
+For integer `s>5/2`, the Kato--Ponce `H^s` commutator estimate gives
 
 ```math
 \frac12\frac d{dt}\|u(t)\|_{H^s}^2

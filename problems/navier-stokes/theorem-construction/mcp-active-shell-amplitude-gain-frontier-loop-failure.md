@@ -6,7 +6,9 @@ Test the loop item:
 
 `active-shell amplitude gain from OriginalSmoothData`.
 
-The desired gain would imply scale-normalized `nu_SCF` Carleson control and would feed the `Jump_avg` branch-elimination route.
+The active-shell gain is a sufficient bridge to scale-normalized `nu_SCF`
+Carleson control, and that Carleson control feeds the `Jump_avg`
+branch-elimination route.
 
 ## Sources checked
 

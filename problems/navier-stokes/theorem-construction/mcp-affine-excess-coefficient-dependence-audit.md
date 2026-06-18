@@ -48,7 +48,7 @@ The scheduler requires
 \exp\left(\int_I B_R\right)\le2\eta_X,
 ```
 
-and the nonlinear absorption condition for the `X_R^{1/2}N_R` term. These are supplied by `L^1` control and absolute continuity on the finite cover.
+and the nonlinear coefficient-margin condition for the `X_R^{1/2}N_R` term. These are supplied by `L^1` control and absolute continuity on the finite cover.
 
 ## Verdict
 

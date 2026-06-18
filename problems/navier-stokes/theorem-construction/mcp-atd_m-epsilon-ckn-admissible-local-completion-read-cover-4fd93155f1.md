@@ -10,7 +10,7 @@ Let `Q_r^Phi(a_0,t_0)` be a same-fluid moving cylinder for a suitable Navier-Sto
 \Gamma_\sharp(Q_r^\Phi)\le M_\sharp,
 ```
 
-and that the same-fluid chart is CKN-admissible: after rescaling by `r` and pulling back by the moving frame, the cylinder is uniformly comparable to a standard parabolic cylinder and the local energy inequality is preserved with constants depending only on `M_sharp` and `nu`.
+and that the same-fluid chart is CKN-admissible: after rescaling by `r` and pulling back by the moving frame, the Jacobian, inverse Jacobian, metric tensor, parabolic measure, and gradient norms are comparable to the unit-cylinder quantities by constants depending only on `M_sharp`, and the local energy inequality is preserved with constants depending only on `M_sharp` and `nu`.
 
 Assume the normalized base packet satisfies
 

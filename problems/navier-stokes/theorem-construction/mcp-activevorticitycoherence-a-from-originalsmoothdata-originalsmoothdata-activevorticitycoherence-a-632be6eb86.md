@@ -24,7 +24,8 @@ Even under a direction-coherence hypothesis, the bridge must control the exact r
 
 ## Result
 
-`ActiveVorticityCoherence.A` is a plausible analytic mechanism, with two missing pieces:
+`ActiveVorticityCoherence.A` is a conditional analytic mechanism candidate with
+two exact missing pieces:
 
 ```math
 OriginalSmoothData\Longrightarrow \text{terminal vorticity-direction modulus},
@@ -35,6 +36,11 @@ and
 ```math
 \text{direction modulus}\Longrightarrow\text{exact active source-packet depletion}.
 ```
+
+It has no downstream proof force until both implications are proved for the
+actual route carrier, including transverse strain eigenvalues,
+low-vorticity/high-strain portions, shellwise mixed bilinear dissipation, and
+weighted lifted remainders.
 
 ## Verdict
 

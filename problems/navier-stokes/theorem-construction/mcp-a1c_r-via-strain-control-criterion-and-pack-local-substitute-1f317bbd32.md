@@ -29,7 +29,10 @@ u\|\nabla u\|_{H^s}^2
 \le C_s\|\nabla u\|_{L^\infty}\|u\|_{H^s}^2.
 ```
 
-Gronwall gives a finite `H^s` bound on `[0,T_*)`. Since `s>5/2`, the standard continuation criterion extends the solution. Hence `A1c_R` follows.
+Gronwall gives a finite `H^s` bound on `[0,T_*)`. Since `s>5/2`,
+the `H^s` local well-posedness/relaunch criterion gives a lifespan controlled
+from below by that bound and extends the same solution past any finite
+endpoint. Hence `A1c_R` follows.
 
 ## Theorem 2: Pack-Local Substitute
 

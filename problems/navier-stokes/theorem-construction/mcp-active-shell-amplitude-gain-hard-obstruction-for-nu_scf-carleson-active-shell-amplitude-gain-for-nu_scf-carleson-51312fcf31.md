@@ -15,7 +15,7 @@ In shell language, this is the missing step behind active-square control: the sh
 ## Attempt
 Energy dissipation gives finite raw mass. Flux/source estimates give source mass or signed exchange control. These estimates still allow short pulses or steady active-shell amplitudes at shrinking scales. Such amplitudes preserve finite raw mass while breaking the scale-normalized Carleson sum.
 
-To force the desired gain, the proof would need one of:
+The missing input is one of:
 
 1. a heat-scale square-source estimate;
 2. direct active-square control;

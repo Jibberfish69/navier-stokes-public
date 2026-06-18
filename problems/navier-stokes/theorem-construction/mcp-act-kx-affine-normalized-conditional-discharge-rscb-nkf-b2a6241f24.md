@@ -99,7 +99,7 @@ The top buffer modes live in the full readout packet
 \mathcal A_{core}^{ctr}+\mathcal A_{buf}^{ctr}+\mathcal X^{exc}.
 ```
 
-They are readout/buffer data, while only `\mathcal X^{exc}` is the small absorption variable.
+They are readout/buffer data, while only `\mathcal X^{exc}` is the small variable in the coefficient-margin term.
 
 ## Scheduler
 

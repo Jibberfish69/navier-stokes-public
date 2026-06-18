@@ -138,4 +138,10 @@ cannot be derived from coefficient-goodness alone. Such an estimate requires an 
 
 ## Consequence
 
-The branch chain can proceed unconditionally in the affine packet metric. Any downstream occurrence of the isotropic physical Gaussian should be replaced by the affine ellipsoid bound, unless a separate theorem supplies uniform control of `\|J_T\|\|J_T^{-1}\|`.
+The branch chain can proceed unconditionally only in the affine packet metric.
+A downstream isotropic physical Gaussian bound is licensed exactly when a
+separate theorem supplies a uniform aspect-ratio constant
+`\sup_{T,t}\|J_T(t)\|\|J_T(t)^{-1}\|<\infty`. Together with `\det J_T(t)=1`,
+that bound makes the affine ellipsoid and a physical ball comparable with
+constants depending only on the aspect-ratio constant. Without that theorem,
+the exact packet bound is the affine ellipsoid bound.

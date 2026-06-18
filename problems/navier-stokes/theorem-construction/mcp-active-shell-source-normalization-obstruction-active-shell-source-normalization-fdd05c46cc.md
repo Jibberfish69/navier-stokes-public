@@ -10,7 +10,19 @@ A sufficient local form is
 on active heat-scale intervals.
 
 ## Attempt
-The shell flux `F_j` is a trilinear expression in the Littlewood-Paley components of `u`. The fixed-shell amplitude test applies to any universal normalization derived only from smooth divergence-free original data: scaling a smooth finite-mode divergence-free profile by amplitude `A` makes `F_j` scale like `A^3`, so `|F_j|^2` scales like `A^6` on short intervals.
+The shell flux `F_j` is a trilinear expression in the Littlewood-Paley components
+of `u`. The fixed-shell amplitude obstruction is an exact test family: take a
+smooth finite-mode divergence-free field `phi` with `F_j(phi) != 0` and set
+`u_A=A phi`. Then
+
+```text
+F_j(u_A)=A^3 F_j(phi),
+|F_j(u_A)|^2=A^6 |F_j(phi)|^2.
+```
+
+Therefore a universal normalization derived only from smooth divergence-free
+original data cannot give the scale-normalized smallness required on active
+heat-scale intervals.
 
 Finite energy and preterminal smoothness bound the amplitude only by data-dependent quantities. They do not produce the scale-normalized smallness required by the active interval theorem. The active interval itself may occur near a terminal time and may drift to higher shells.
 

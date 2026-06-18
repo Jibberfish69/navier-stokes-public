@@ -1,8 +1,9 @@
-# ActiveTreeCoefficientCarleson.A direct absorption attempt
+# ActiveTreeCoefficientCarleson.A direct coefficient-margin attempt
 
 ## Status
 
-Failed direct discharge.  The good-coefficient portion of the quartic normal-form remainder is absorbable, but the bad-coefficient portion requires uniform integrability of the active-square density on terminal coefficient-bad sets.  That uniform integrability is route-equivalent to `ScaleCriticalTreeCarleson.A` / `LocalPositiveSourceCarleson.A`.  Therefore `ActiveTreeCoefficientCarleson.A` does not close the source wall as an independent theorem from `OriginalSmoothData`.
+Failed direct discharge.  The good-coefficient portion of the quartic normal-form remainder contributes only the explicit `\theta` fraction
+`\int_{G_\theta}\mathfrak S_N\mathcal A_N\le\theta\int_I\mathcal A_N`.  The bad-coefficient portion requires uniform integrability of the active-square density on terminal coefficient-bad sets.  That uniform integrability is route-equivalent to `ScaleCriticalTreeCarleson.A` / `LocalPositiveSourceCarleson.A`.  Therefore `ActiveTreeCoefficientCarleson.A` does not close the source wall as an independent theorem from `OriginalSmoothData`.
 
 ## Target
 
@@ -47,7 +48,8 @@ On `G_\theta`,
 \theta\int_I\mathcal A_N(t)\,dt.
 ```
 
-This is exactly the absorbable part needed by the corrected Bellman inequality.
+This is exactly the good-set payment needed by the corrected Bellman
+inequality; it is spendable only as the displayed `\theta` fraction.
 
 ## Step 2. Bad-coefficient remainder
 
@@ -106,7 +108,7 @@ the same active-square / scale-critical tree reserve.  Thus Cauchy/Young does no
 
 ```math
 \int_I\mathfrak S_N\mathcal A_N
-=\text{absorbable good part}+\text{bad-set active-square concentration},
+=\text{displayed }\theta\text{-good part}+\text{bad-set active-square concentration},
 ```
 
 but the bad-set active-square concentration is not controlled by `OriginalSmoothData` or by the parabolic cubic normal form.

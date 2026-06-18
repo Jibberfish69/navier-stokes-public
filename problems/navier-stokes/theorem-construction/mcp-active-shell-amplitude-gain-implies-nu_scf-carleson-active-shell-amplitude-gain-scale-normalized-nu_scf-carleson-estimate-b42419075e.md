@@ -61,7 +61,10 @@ For a terminal Carleson packing family, the heat-scale intervals satisfy `c_I2^{
 `sum_l SCF_norm(Q_l) <= C(E0, nu, atlas, reserves)`.
 
 ## Result
-The implication is proved: active-shell amplitude gain, together with the standard shell-to-window comparison and heat-scale dissipation tail control, yields scale-normalized `nu_SCF` Carleson control.
+The implication is proved from the displayed hypotheses: heat-scale intervals
+satisfy `c_I2^{-2k_l}\le |I_l|\le C_I2^{-2k_l}`, the selected family has
+bounded overlap, and the heat-scale dissipation tail obeys the displayed tail
+bound.  These exact inputs yield scale-normalized `nu_SCF` Carleson control.
 
 ## Boundary
 The implication is installed as a theorem bridge. The remaining analytic load is the active-shell amplitude gain itself, or an equivalent direct active-square theorem.

@@ -1,4 +1,4 @@
-# AACT.KX Absorption Repair Loop Closure
+# AACT.KX Coefficient-Margin Repair Loop Closure
 
 Status: local discharge claimed for the no-`Jump_avg` averaged branch.
 
@@ -10,7 +10,7 @@ Repair the averaged ACT budget so that the no-`Jump_avg` branch supplies
 DTC.A_{avg}.
 ```
 
-## Local absorption
+## Local coefficient margin
 
 On each shrunken same-fluid moving cylinder, local `AACT.KX` gives
 
@@ -25,7 +25,7 @@ Choose `eta_X` with
 C_X(2\eta_X)^{1/2}\le c/2.
 ```
 
-On the first-exit interval `X_R\le 2 eta_X`, the nonlinear dissipation coefficient is absorbed, giving
+On the first-exit interval `X_R\le 2 eta_X`, the nonlinear dissipation coefficient stays below the retained margin, giving
 
 ```math
 D^+X_R+{c\over2}N_R\le B_R(t)X_R+F_R(t).
@@ -82,4 +82,4 @@ Thus the averaged dynamic tower certificate is supplied:
 
 ## Loop decision
 
-The `AACT.KX` absorption target is closed for the no-`Jump_avg` branch. The next branch target is `Jump_avg` elimination.
+The `AACT.KX` coefficient-margin target is closed for the no-`Jump_avg` branch. The next branch target is `Jump_avg` elimination.

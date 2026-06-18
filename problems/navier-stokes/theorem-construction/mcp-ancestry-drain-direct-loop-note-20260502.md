@@ -20,7 +20,7 @@ or
 \mathcal R(P^{-m})\le \mathcal R(P^{-m+1})-\delta.
 ```
 
-This would exclude an infinite unpaid ancestry chain.
+This excludes an infinite unpaid ancestry chain once the reserve or bounded rank is supplied.
 
 ## Attempt
 
@@ -42,7 +42,7 @@ or enter licensed lower-feed bands. A terminal chain may keep comparable scale, 
 
 Same-fluid and endpoint-fibre coherence preserve legal ancestry once an edge is selected. They supply fidelity, while the target needs a monotone drain or reserve spend.
 
-A source-generation rank would need a bounded generation functional for source-balanced parentage. The current route has no such functional.
+A source-generation rank requires a bounded generation functional for source-balanced parentage. The current route has no such functional.
 
 ## Result
 

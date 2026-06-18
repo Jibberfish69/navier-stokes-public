@@ -113,7 +113,11 @@ Prove termwise:
 \sum_{j>N}\|R_j^{off}\|_{H^{-1}}^2=o_N(1).
 ```
 
-If this closes, it supplies the dissipation side of `WeightedAdjRes.A`. If it fails, the failure identifies the exact residual component preventing the drain proof.
+These four component estimates are the exact dissipation-side input for
+`WeightedAdjRes.A`. They supply that side only when the constants are uniform
+on the selected same-fluid family and the off-shell tail tends to zero. Failure
+of any displayed estimate identifies the residual component that still prevents
+the drain proof.
 
 ## CM typing
 

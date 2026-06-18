@@ -1,8 +1,8 @@
-# AACT.KX local absorption discharge via coefficient demotion
+# AACT.KX local coefficient-margin discharge
 
 ## Target
 
-Discharge the local obligation `aact-kx-local-absorption` created by the independent mathematical audit. The audit defect is specific: the previous local proof tried to absorb `(V_R^{1/3}+P_R^{2/3})N_R` using only `L^1_t` smallness of `V_R` and `P_R`. The repaired local proof removes those terms from the dissipation coefficient.
+Discharge the local coefficient-margin obligation created by the independent mathematical audit. The audit defect is specific: the previous local proof tried to control `(V_R^{1/3}+P_R^{2/3})N_R` using only `L^1_t` smallness of `V_R` and `P_R`. The repaired local proof removes those terms from the dissipation coefficient.
 
 ## Sources checked
 
@@ -43,7 +43,7 @@ Let `J subset I` be the maximal first-exit interval from `s` on which `X_R(t) <=
 
 `C_0 X_R(t)^{1/2} <= 2 C_0 eta_X^{1/2} <= c_1/4.`
 
-Therefore the only dissipation coefficient that needs absorption is controlled pointwise by the bootstrap smallness of `X_R`, and
+Therefore the only remaining dissipation coefficient is controlled pointwise by the bootstrap smallness of `X_R`, and
 
 `D^+ X_R + (3c_1/4) N_R <= bar B_R(t) X_R + bar F_R(t)`
 
@@ -53,19 +53,19 @@ Gronwall gives
 
 `sup_J X_R + (3c_1/4) int_J N_R <= exp(int_J bar B_R) ( X_R(s) + int_J bar F_R ).`
 
-The scheduler condition gives `sup_J X_R <= 2 eta_X`, improving the first-exit bound `4 eta_X`. Continuity extends the estimate through the whole scheduler cell. Integrating the absorbed inequality gives `N_R in L^1(I)`. The averaged tower ledger then gives `K_{<=m}^{avg,R} in L^1(I)`.
+The scheduler condition gives `sup_J X_R <= 2 eta_X`, improving the first-exit bound `4 eta_X`. Continuity extends the estimate through the whole scheduler cell. Integrating the retained-margin inequality gives `N_R in L^1(I)`. The averaged tower ledger then gives `K_{<=m}^{avg,R} in L^1(I)`.
 
-## Coefficient-demotion audit
+## Coefficient-margin audit
 
-The proof uses the direct-variable local calculation as the authority for the repaired inequality. Frame, cutoff, pressure-response, affine-core, viscous-commutator, harmonic/far-pressure, source, and finite-frame packets are estimated before first-exit absorption and are placed into `bar B_R X_R` plus `bar F_R`, with fixed small fractions of `N_R` already consumed inside the term audit.
+The proof uses the direct-variable local calculation as the authority for the repaired inequality. Frame, cutoff, pressure-response, affine-core, viscous-commutator, harmonic/far-pressure, source, and finite-frame packets are estimated before the first-exit coefficient-margin step and are placed into `bar B_R X_R` plus `bar F_R`, with fixed small fractions of `N_R` already consumed inside the term audit.
 
-The genuine affine-excess nonlinear term is the only term left as a coefficient multiplying `N_R`, and it has the form `C_0 X_R^{1/2}N_R`. This coefficient is absorbed through pointwise bootstrap smallness of `X_R`.
+The genuine affine-excess nonlinear term is the only term left as a coefficient multiplying `N_R`, and it has the form `C_0 X_R^{1/2}N_R`. This coefficient is controlled through pointwise bootstrap smallness of `X_R`.
 
-Thus the local proof spends no `L^1_t` smallness of `V_R` or `P_R` to absorb a pointwise coefficient multiplying `N_R`.
+Thus the local proof spends no `L^1_t` smallness of `V_R` or `P_R` to control a pointwise coefficient multiplying `N_R`.
 
 ## Discharge verdict
 
-`aact-kx-local-absorption` is locally discharged in the following scoped sense: on a scheduler cell where the direct-variable local ledger supplies the repaired inequality and the restart/Gronwall scheduler conditions hold, the AACT.KX local packet follows with a valid first-exit absorption.
+`AACT.KX.local` is locally discharged in the following scoped sense: on a scheduler cell where the direct-variable local ledger supplies the repaired inequality and the restart/Gronwall scheduler conditions hold, the AACT.KX local packet follows with a valid first-exit coefficient-margin step.
 
 ## Remaining route boundaries
 
@@ -76,4 +76,4 @@ The following obligations remain outside this local discharge:
 - `Jump_avg` branch elimination;
 - global pressure/source supplier expansion.
 
-These boundaries belong to the other live Navier-Stokes frontier items. They do not reopen the local absorption mechanism proved here.
+These boundaries belong to the other live Navier-Stokes frontier items. They do not reopen the local coefficient-margin mechanism proved here.
