@@ -6138,6 +6138,182 @@ Surface edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Collar Moving-Cutoff Summary Rework
+
+Old claim being spent:
+
+`mpp-collar-sobolev-packet-interval-propagation-theorem-program.md` still
+summarized the higher-rung collar identity by citing the "usual viscous cutoff
+commutator" and the "usual higher-rung strain/cascade" terms.
+
+Exact replacement:
+
+The later summary now repeats the actual viscous split:
+
+```text
+2 nu lambda_k int chi^2 W_{j,k} Delta W_{j,k}
+= -2 nu lambda_k int chi^2 |nabla W_{j,k}|^2
+  + nu lambda_k int Delta(chi^2) |W_{j,k}|^2.
+```
+
+The first term is the collar dissipation.  The second term, summed over
+`(j,k)`, is the exact viscous localization residue and is controlled by the
+annular derivative cost in `(CSP.22)`.  The strain/cascade summary now points to
+the displayed packets
+
+```text
+S_{j,k}^{hi}
+= - sum_{0<ell<=j} binom(j,ell)
+    nabla^ell u * nabla^{j+1-ell} U_{k+1},
+R_{j,k}^{hi}=nabla^j B_{k+1}.
+```
+
+Downstream consequence:
+
+The moving-collar note no longer lets a fixed-cutoff intuition carry the proof.
+The derivative cost of the moving cutoff remains visible in the collar packet
+bound, and no separate "usual" continuation norm is available to absorb the
+one-rung-higher strain/cascade terms.
+
+Surface edited:
+
+- `theorem-construction/mpp-collar-sobolev-packet-interval-propagation-theorem-program.md`.
+
+## Fixed-Increment Pressure Cutoff Derivative Rework
+
+Old claim being spent:
+
+`mpp-lci-a-fixed-increment-pressure-response-note.md` chose the pressure cutoff
+with "the usual radius-scale derivative bounds" and later spent that phrase in
+the Leibniz expansion for the localized pressure source.
+
+Exact replacement:
+
+The cutoff is now constructed from a fixed bump:
+
+```text
+chi_j^pr(x,t) = vartheta((x-c_j(t))/Lambda_halo),
+vartheta=1 on B(0,2), supp vartheta subset B(0,4).
+```
+
+The proof now displays the bounds
+
+```text
+||nabla^beta chi_j^pr||_infty <= C_beta Lambda_halo^(-|beta|),
+[nabla^beta chi_j^pr]_{C^{0,alpha}}
+  <= C_{beta,alpha} Lambda_halo^(-|beta|-alpha),
+||delta_eta nabla^beta chi_j^pr||_infty
+  <= C_beta min{Lambda_halo^(-|beta|),
+                |eta| Lambda_halo^(-|beta|-1)}.
+```
+
+Downstream consequence:
+
+The reduction `FPR.C4` now pays the finite-radius cutoff price explicitly in
+the widened local increment/collar carrier reduction.  The localized pressure
+source cannot use an unnamed radius-scale calculus step.
+
+Surface edited:
+
+- `theorem-construction/mpp-lci-a-fixed-increment-pressure-response-note.md`.
+
+## Low-Strain Pressure Relation Rework
+
+Old claim being spent:
+
+`mpp-lowstrain-bvcharge-direct-attempt-20260506.md` inserted the strain equation
+"with the usual incompressible pressure relation."
+
+Exact replacement:
+
+The note now states the pressure equation and gauge:
+
+```text
+-Delta p = partial_i u_j partial_j u_i
+         = tr((nabla u)^2)
+         = tr(S^2+Omega^2),
+```
+
+with zero spatial mean on the periodic model or the declared decay/local gauge
+on the whole-space model.
+
+Downstream consequence:
+
+The low-strain BV charge reduction now localizes and projects an explicit
+elliptic pressure Hessian, rather than spending an unnamed pressure relation
+inside the material derivative expansion.
+
+Surface edited:
+
+- `theorem-construction/mpp-lowstrain-bvcharge-direct-attempt-20260506.md`.
+
+## Still-Live Smooth Window Transport-Commutator Rework
+
+Old claim being spent:
+
+`mpp-still-live-smooth-window-implies-class-membership-theorem.md` defined
+`D_t U_k=K_k+B_k` with `B_k` described only as the "usual lower-order
+differentiated transport terms."
+
+Exact replacement:
+
+For each multi-index `gamma` with `|gamma|=k`, the note now defines
+
+```text
+B_gamma
+= u dot nabla partial^gamma u - partial^gamma(u dot nabla u)
+= - sum_{0<beta<=gamma} binom(gamma,beta)
+    (partial^beta u dot nabla) partial^{gamma-beta}u.
+```
+
+`B_k` is the finite tensor collection of these commutators, with `B_0=0`.
+
+Downstream consequence:
+
+The still-live-to-class-membership theorem now spends only a finite classical
+commutator identity on `Q^+`.  The proof no longer hides a transport estimate in
+the word "usual."
+
+Surface edited:
+
+- `theorem-construction/mpp-still-live-smooth-window-implies-class-membership-theorem.md`.
+
+## Parabolic Funnel Moving-Layer To CKN Rework
+
+Old claim being spent:
+
+`mpp-parabolic-funnel-forward-control-analysis-20260611.md` said the usual
+epsilon-regularity mechanism in the dynamic frame turns late rescaled slab
+smallness into regularity in the corresponding physical cylinders.
+
+Exact replacement:
+
+The note now computes the physical form of the rescaled slab:
+
+```text
+int_S^{S+1} int_{B_lambda} (|v|^3+|q|^{3/2}) dy ds
+= int_{T-e^{-S}}^{T-e^{-(S+1)}}
+  int_{|x-x0|<lambda sqrt(T-t)}
+    (|u|^3+|p|^{3/2})/(T-t) dx dt.
+```
+
+This is moving-funnel layer smallness with the exact weight `(T-t)^(-1)`, not a
+fixed CKN cylinder.  The forward route now requires
+`FunnelSlabToCKN.A`, namely moving-layer smallness plus the necessary exterior
+annulus/full-cylinder comparison, or a direct moving-funnel epsilon-regularity
+theorem.
+
+Downstream consequence:
+
+`ParabolicFunnelScaleCriticalBudget.A` and `FunnelProfileLyapunov.A` are no
+longer allowed to conclude regularity merely by making late slabs small.  They
+must also pay the moving-layer-to-CKN bridge before excluding a terminal
+singularity.
+
+Surface edited:
+
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+
 ## Direct Fixed-Nu Euler-NS Kato-Ponce Rework
 
 Old claim being spent:
