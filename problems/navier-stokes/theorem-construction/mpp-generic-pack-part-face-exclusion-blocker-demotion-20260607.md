@@ -115,7 +115,7 @@ gate, not by generic Pack/Part face exclusion.
 
 This note does not license future branch rows by default. It does not say that
 any possible public-critical, source-wall, readout, transfer, or comparison row
-is automatically closed.
+is closed by default.
 
 It says the opposite: a row only becomes proof-bearing after it is named on the
 same terminal witness record and then certified through Pack, Part, or Field.

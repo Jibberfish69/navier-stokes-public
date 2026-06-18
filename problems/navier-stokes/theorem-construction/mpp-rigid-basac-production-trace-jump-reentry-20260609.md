@@ -62,7 +62,7 @@ so direct production into `B_ASAC^{TA}` is unavailable.
 The only new mechanism in this branch is a localized source-balance trace route.
 
 If a terminal source atom exists, then after ASAC/legal/donor payments are
-removed it should produce a positive terminal jump in a localized
+removed the required trace theorem is a positive terminal jump in a localized
 source-balance primitive:
 
 ```math

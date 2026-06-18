@@ -6,7 +6,7 @@ Status: target-fidelity audit; no positive-forward estimate introduced.
 
 ## Test Question
 
-Does a Clay-admissible finite breakdown witness automatically supply the
+Does a Clay-admissible finite breakdown witness supply the
 same-solution terminal object needed for the CM test used by
 `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A /
 ClayCMContrapositiveEmbedding.A`?

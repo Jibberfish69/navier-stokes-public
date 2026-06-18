@@ -62,9 +62,10 @@ So the only retained branch is:
 Pack_Q + Part_{N,Q} + CritConc_{L^3}(\mathcal W).
 ```
 
-On this branch, a critical `L^3` concentration is scale invariant. A dyadic
-Littlewood-Paley reading of the selected terminal cylinders should produce one
-of the native source-wall objects already used by the CM diagnostics:
+On this branch, a critical `L^3` concentration is scale invariant. The required
+dyadic Littlewood-Paley reduction is that the selected terminal cylinders
+produce one of the native source-wall objects already used by the CM
+diagnostics:
 
 ```math
 \mu_*^{sing}>0
