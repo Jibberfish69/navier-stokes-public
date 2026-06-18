@@ -49,11 +49,23 @@ C\Phi_*(\mathcal E_D(X)),
 \tag{ARS.5}
 ```
 
-then all active readouts are subordinate to the carrier core modulo lower-order tail.
+then all active readouts are subordinate to the carrier core modulo the
+displayed `\Phi_*` tail bound.
 
 ## Proof
 
-The core part satisfies `ARS.4` by construction. The tail part contributes only through `ARS.5`, which is admitted into the lower-order ledger. Thus the collar support used for the principal estimate lies inside `\mathfrak C_j(t)`, and the discarded part is lower order. ∎
+The core part satisfies `ARS.4` by construction. The tail part contributes only
+through `ARS.5`, namely
+
+```math
+\|\widetilde Q_i(P_{\le j}v)_{tail}\|_{W^{1,\infty}}
+\le
+C\Phi_*(\mathcal E_D(X)).
+```
+
+Thus the collar support used for the principal estimate lies inside
+`\mathfrak C_j(t)`, and the discarded part is exactly the displayed `\Phi_*`
+tail contribution. ∎
 
 ## Exact-support corollary
 
@@ -132,7 +144,9 @@ Thus the old literal global-support claim is replaced by the exact statement
 
 ## Result
 
-Active-readout subordination is closed under physical localizer containment plus the core/tail lower-order estimate. The global plateau selector then acts on the carrier core and absorbs the smooth kernel tail into `\Phi_*`.
+Active-readout subordination is closed under physical localizer containment
+plus the displayed core/tail estimate. The global plateau selector then acts on
+the carrier core and absorbs the smooth kernel tail into `\Phi_*`.
 
 ## Boundary
 

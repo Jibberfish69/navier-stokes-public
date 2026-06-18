@@ -58,4 +58,7 @@ Under that active-scale leakage condition,
 
 ## Boundary
 
-The product estimate is formal once noncoherent leakage is lower order at the readout-compatible scale. The remaining nonformal input is the smallness of `\delta_j`, which is exactly the noncoherent leakage export theorem already reduced to the carrier commutator estimate.
+The product estimate is conditional on the noncoherent leakage satisfying the
+displayed readout-compatible bound at scale `j`. The remaining nonformal input
+is the smallness of `\delta_j`, which is exactly the noncoherent leakage export
+theorem already reduced to the carrier commutator estimate.

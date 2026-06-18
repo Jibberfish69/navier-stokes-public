@@ -98,8 +98,8 @@ Assume, on one common bridge surface:
    C\,\Psi(\mathcal E_D(X)),
    ```
 
-   with `\Psi(\mathcal E_D(X))` lower-order relative to the Euclidean shell
-   barrier.
+   with `\Psi(\mathcal E_D(X))` retained as the residual term to be compared
+   against the Euclidean shell barrier.
 
 Then
 

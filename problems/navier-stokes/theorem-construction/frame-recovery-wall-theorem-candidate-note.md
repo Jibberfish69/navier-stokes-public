@@ -998,9 +998,18 @@ H\nabla_x^2M
 ```
 
 Also `\nabla_xH=(\nabla_xM)M^\top+M(\nabla_xM)^\top`, so every occurrence of
-`\nabla_xH` is lower-order in `K_*+\Gamma_{j,\sup}^x`; the dependence of
-`H^{-1}` and `\nabla_xH^{-1}` on the slab envelope is controlled by the
-Moser/composition estimates included in `(13za)`.
+`\nabla_xH` is bounded by the slab envelope:
+
+```math
+\|\nabla_xH\|_{L^\infty}
+\le
+C\|M\|_{L^\infty}\|\nabla_xM\|_{L^\infty}
+\le
+C(K_*+\Gamma_{j,\sup}^x).
+```
+
+The dependence of `H^{-1}` and `\nabla_xH^{-1}` on the slab envelope is
+controlled by the Moser/composition estimates included in `(13za)`.
 
 For `\Theta_1`,
 

@@ -98,9 +98,10 @@ C_s c_{i,s}\,\nu\,2^{2j_0}\|Y\|_{H_D^s}
 \|\nabla R^{\mathrm{collar}}_{i,j_0}[X;Y]\|_{L^\infty_x}.
 ```
 
-In particular, if the collar remainder is lower-order on the same bridge
-surface, then selector-localized coherent transport exports to the classical
-side at the viscous scale.
+In particular, if the collar remainder satisfies the same bridge-surface bound
+as the displayed `R^{\mathrm{collar}}_{i,j_0}` term above, then
+selector-localized coherent transport exports to the classical side at the
+viscous scale.
 
 ## Proof
 

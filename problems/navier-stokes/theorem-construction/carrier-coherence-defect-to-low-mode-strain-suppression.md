@@ -123,8 +123,8 @@ Assume, on one common theorem surface:
    c\,\nu\,2^{2j_0}.
    ```
 3. **Leakage export.**
-   The off-block leakage produced by the exact identity remains lower order
-   after readout:
+   The off-block leakage produced by the exact identity satisfies the displayed
+   readout bound:
    ```math
    \|\nabla \rho(P_\perp Q_i\mathbb P_DN_D(X)e_\beta)\|_{L^\infty_x}
    \le
@@ -165,7 +165,8 @@ produce the suppression from scratch. It asks instead for a precise export of an
 already-isolated internal mechanism:
 
 - coherence stays on persistent support;
-- leakage is lower order by spectral gap plus commutator control;
+- leakage satisfies the displayed `C\,\Psi(\mathcal E_D(X))` bound by spectral
+  gap plus commutator control;
 - only the selector-localized coherent readout contributes at principal order
   to the low-frequency classical strain.
 
@@ -183,7 +184,8 @@ The unresolved pieces are now exactly:
   low-mode band of the full classical field;
 - an operator-norm comparison between the coherent carrier transport and the
   classical low-mode strain;
-- a proof that the carrier leakage remainder remains lower order after readout.
+- a proof that the carrier leakage remainder satisfies the displayed readout
+  bound after readout.
 
 If those three export steps are proved, then the ontic/carrier package becomes a
 genuine classical NS mechanism rather than a parallel internal architecture.

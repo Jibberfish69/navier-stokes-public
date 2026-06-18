@@ -104,7 +104,11 @@ C_{N,s}2^j\|Y\|_{H_D^s}\Phi_*(\mathcal E_D(X))^{-1}.
 
 ## Result
 
-Smooth Littlewood-Paley tails are lower order after enlarging the carrier core by a sufficiently large fixed or active radius `R_j2^{-j}`. For fixed `R`, the result holds on regimes where `2^jR^{-N}\|Y\|_{H_D^s}` is already inside the lower-order ledger. For arbitrary high precision, choose `N` and `R_j` according to `LPT.11`.
+Smooth Littlewood-Paley tails are controlled by the displayed tail condition
+`(LPT.10)` after enlarging the carrier core by a sufficiently large fixed or
+active radius `R_j2^{-j}`. For fixed `R`, the result holds on regimes where
+`2^jR^{-N}\|Y\|_{H_D^s}` satisfies `(LPT.10)`. For arbitrary high precision,
+choose `N` and `R_j` according to `(LPT.11)`.
 
 ## Boundary
 

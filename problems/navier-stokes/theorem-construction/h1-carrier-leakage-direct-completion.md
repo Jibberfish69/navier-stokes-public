@@ -313,8 +313,11 @@ By Corollary 1,
 C_i\big(\|\nabla_DZ\|+\|Z\|\big).
 ```
 
-Expand `Z` through the Lemma 2 structure and absorb lower-order terms using
-Lemma 3. `\square`
+Expand `Z` through the Lemma 2 structure. The terms
+`\|\nabla_DX\|`, `\|\Omega_D(X)\|`, and `\|X\|` are controlled by Lemma 3,
+leaving only the displayed
+`\varepsilon(\|\Delta_DX\|+\|\Delta_D^{1/2}\Omega_D(X)\|)` contribution and
+the `\mathcal E_D(X)^{1/2}` remainder. `\square`
 
 ## Theorem H.1 (Full D.2 commutator-leakage estimate)
 
