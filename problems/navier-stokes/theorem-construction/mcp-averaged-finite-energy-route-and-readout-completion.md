@@ -210,7 +210,7 @@ FCI.5f.
 The two routes are separated:
 
 ```math
-FPCR.C+FSCR.C+FCC.C1\Longrightarrow FCI.5f
+FPCR.C+FSCR.C+FCC.C1+FCC.C1a\Longrightarrow FCI.5f
 ```
 
 is the exact same-depth source branch, while

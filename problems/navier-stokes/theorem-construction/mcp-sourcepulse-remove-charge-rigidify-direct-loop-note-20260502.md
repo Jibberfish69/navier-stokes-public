@@ -34,7 +34,13 @@ The charge route needs a finite scale-normalized reserve `R_n` with
 \sum_n R_n<\infty
 ```
 
-that pays for every source-balanced heat-scale pulse. Energy and local energy price first moments. The scheduler estimate gives Lebesgue-time smallness of large coefficients. The signed reserve controls only the part already covered by the signed theorem. The downstream source supplier `FFSRC.A=>FCI.5f` supplies integrability after the receiver/source route, and cannot price the branch-native bad-window source pulse directly.
+that pays for every source-balanced heat-scale pulse. Energy and local energy
+price first moments. The scheduler estimate gives Lebesgue-time smallness of
+large coefficients. The signed reserve controls only the part already covered
+by the signed theorem. The downstream source supplier
+`Hyp(FFSRC.A)=>FCI.5f`, including `FCC.C1a`, supplies integrability after the
+receiver/source route, and cannot price the branch-native bad-window source
+pulse directly.
 
 Thus this route reduces to a new active-window Carleson / square-source reserve.
 

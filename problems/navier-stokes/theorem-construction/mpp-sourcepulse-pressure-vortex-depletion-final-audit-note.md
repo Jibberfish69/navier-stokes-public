@@ -74,12 +74,12 @@ source on a selected active window.
 The existing pressure/source supplier,
 
 ```math
-FFSRC.A\Rightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Rightarrow FCI.5f,
 ```
 
-is an integrability supplier after the source packet is controlled.  It does
-not prove that the positive part of the active source is absent on the
-terminal `Jump_avg` bad windows.
+is an integrability supplier after the source packet is controlled, with
+`FCC.C1a` included as a cutoff input. It does not prove that the positive part
+of the active source is absent on the terminal `Jump_avg` bad windows.
 
 ## Conclusion
 

@@ -4,10 +4,10 @@
 
 This is a local theorem/audit note for the `pressure-source-supplier-line-by-line`
 frontier item. The current root live/review surfaces close this item for the
-route-selected strengthened import `FFSRC.A=>FCI.5f`, while stale generated or
-submission-bundle surfaces may still list the old audit row as open. This note
-records the line-by-line supplier status and the exact/strengthened branch
-boundary plainly.
+route-selected strengthened import `Hyp(FFSRC.A)=>FCI.5f`, with `FCC.C1a`
+included, while stale generated or submission-bundle surfaces may still list
+the old audit row as open. This note records the line-by-line supplier status
+and the exact/strengthened branch boundary plainly.
 
 ## Source split
 
@@ -258,7 +258,7 @@ The expanded estimates are verified at the route ledger level:
 
 The supplier algebra is verified under the stated route assumptions and under
 the route-selected stronger import only when `FCC.C1a` is present. This closes
-the pressure/source supplier row for `Hyp(FFSRC.A)=>FCI.5f`, not for a
-three-input `FFSRC.A=>FCI.5f` chain. It does not prove `FCC.C1a`, and it does
+the pressure/source supplier row for `Hyp(FFSRC.A)=>FCI.5f`, not for an old
+three-input bare-source chain. It does not prove `FCC.C1a`, and it does
 not close the stricter exact source reconstruction unless `FIRP.A0` and the
 exact same-depth `FSCR.C` route are separately accepted.

@@ -348,7 +348,7 @@ $$
 The source-side input entering the collar step is
 
 $$
-FFSRC.A\Rightarrow FCI.5f,
+\operatorname{Hyp}(FFSRC.A)\Rightarrow FCI.5f,
 $$
 
 and it is spent at
