@@ -40,7 +40,7 @@ terminal jump. A usable form is a terminal strip modulus:
 \qquad \omega_R(\varepsilon)\downarrow0.
 ```
 
-Together with `SourceAtomToTraceJump.A`, this would rule out the terminal
+Together with `SourceAtomToTraceJump.A`, this rules out the terminal
 time-face source atom and supply `BASACTimeFaceAntiAtom.A`.
 
 ## Installed Inputs

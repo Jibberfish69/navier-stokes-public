@@ -30,7 +30,7 @@ invisible to every bounded earlier selected source family. It must contain a
 fixed negative-time selected source parent or produce a legal/donor/ASAC exit.
 ```
 
-This would prove `BASACNoIncomingSourceDrain.A`, then
+This proves `BASACNoIncomingSourceDrain.A`, then
 `ZenoResidueLiouville_{B_ASAC}.A`.
 
 ## Attempt 1: compactness of Radon source measures

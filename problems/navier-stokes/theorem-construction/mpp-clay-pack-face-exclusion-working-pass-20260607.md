@@ -297,7 +297,7 @@ For the canonical terminal atlas collar A_sharp,
 belongs to L^1([0,T_*)).
 ```
 
-By the installed pack-side Gronwall reduction, this would bound the common
+By the installed pack-side Gronwall reduction, this bounds the common
 deformation gauge and retain `Pack_{Q_atlas}`. Without this lemma, volume
 preservation and same-fluid ancestry leave open the determinant-one,
 unbounded-distortion terminal collapse that lands exactly at `not Pack_Q`.

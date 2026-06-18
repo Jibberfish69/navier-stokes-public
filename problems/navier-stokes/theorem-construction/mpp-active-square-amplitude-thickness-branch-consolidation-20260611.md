@@ -128,7 +128,7 @@ It satisfies `int g_m(s) ds = 1` for every `m`, while for every fixed
 converges to a terminal time atom. Finite `L^1` mass alone does not create a
 positive lower bound on time thickness.
 
-Orlicz, Morrey, super-`L^1`, or reverse-Holder control would close this branch
+Orlicz, Morrey, super-`L^1`, or reverse-Holder control closes this branch
 if produced. The terminal atom or minimality hypothesis does not produce those
 controls by itself.
 

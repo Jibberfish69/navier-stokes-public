@@ -31,7 +31,7 @@ or nonzero ASAC-paid defect measure.
 ```
 
 Since the definition of `B_ASAC` excludes those alternatives, this theorem
-would imply `ZenoResidueLiouville_{B_ASAC}.A`, then
+implies `ZenoResidueLiouville_{B_ASAC}.A`, then
 `SourceWeightedTerminalAngularDepletion.A`, and then
 `PositiveRemainderDepletion.A`.
 

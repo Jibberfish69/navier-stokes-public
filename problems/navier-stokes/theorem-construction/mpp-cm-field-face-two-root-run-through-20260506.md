@@ -202,7 +202,7 @@ Loss_{legal}
 o_N(1).
 ```
 
-If installed, this would close the Field-face wall.  Indeed, choose the first
+If installed, this closes the Field-face wall.  Indeed, choose the first
 terminal same-fluid window with reserve at least a fixed `c_0>0`, independent
 of the backward iteration depth.  Iterating backward gives:
 
@@ -450,7 +450,7 @@ a Liouville theorem in reach:
 \text{native signed cancellation strong enough to kill positive residue}.
 ```
 
-The temporal anti-atom route would close if produced:
+The temporal anti-atom route closes if it produces:
 
 ```math
 \mu_*^{src}(B_R\times\{0\})=0

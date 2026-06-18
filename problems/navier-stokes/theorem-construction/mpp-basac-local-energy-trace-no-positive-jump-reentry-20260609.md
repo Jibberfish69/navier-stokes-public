@@ -23,7 +23,7 @@ Together with:
 SourceAtomToTraceJump.A,
 ```
 
-this would produce the rigid time-face subclass:
+this produces the rigid time-face subclass:
 
 ```math
 B_{ASAC}\Longrightarrow B_{ASAC}^{TA}.
@@ -56,7 +56,7 @@ unless a stronger trace regularity or source-residence theorem is added.
 
 ## Conditional suppliers
 
-Any of these would imply the trace no-positive-jump theorem:
+Any of these implies the trace no-positive-jump theorem:
 
 ```text
 UniformTemporalSourceIntegrability_{p,B_ASAC}.A,

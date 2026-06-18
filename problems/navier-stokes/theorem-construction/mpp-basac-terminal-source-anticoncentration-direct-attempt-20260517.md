@@ -21,7 +21,7 @@ BASACTerminalSourceAntiConcentration.A:
 }
 ```
 
-This theorem would imply the time-face anti-atom condition:
+This theorem implies the time-face anti-atom condition:
 
 ```math
 \mu_*^{src}(B_R\times\{0\})=0
@@ -135,7 +135,7 @@ The next equivalent usable form is:
 \boxed{UniformTemporalSourceIntegrability_{p,B_{ASAC}}.A,\\ p>1.}
 ```
 
-A proof of that estimate would give the modulus by Holder:
+A proof of that estimate gives the modulus by Holder:
 
 ```math
 \mu_m^{src,+}(B_R\times[-\varepsilon,0])

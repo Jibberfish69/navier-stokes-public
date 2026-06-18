@@ -74,7 +74,7 @@ when all of the following hold.
    descendants, and paid finite terms have already been removed.
 4. The selected annular tail is readout-complete for the alleged obstruction:
    retaining the admitted carrier together with Part and Field on this same
-   tail would supply the installed `H^s`, `s>5/2`, continuation readout.
+   tail supplies the installed `H^s`, `s>5/2`, continuation readout.
 5. The selected annular tail has a same-solution positive-radius carrier for
    the CM test. A no-carrier or no-selection outcome is a failure of annular
    admission, not the silver consumption of an admitted annular supplier.

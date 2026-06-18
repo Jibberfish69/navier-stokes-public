@@ -24,7 +24,7 @@ terminal not Pack_Q for the same-solution terminal record
 => there exists an earlier still-live window with not Pack.
 ```
 
-This would close the first-Pack wall by contradiction, because the same
+This closes the first-Pack wall by contradiction, because the same
 classical solution is smooth on every compact preterminal window.
 
 # Authority Boundary
@@ -68,7 +68,7 @@ only in the limiting record.
 
 # Why This Cannot Be Counted
 
-The reflection route would prove:
+The reflection route proves:
 
 ```text
 terminal Pack loss
