@@ -198,10 +198,10 @@ The lifted obstruction is no longer being treated as a replacement theorem
 stack inside the live packet. On the theorem-primary route it remains the exact
 open gradient packet on the shell geometry `N+M<k<j-4`. The strongest
 auxiliary upstream repair candidate is still the Body `1` kernelized
-lifted-band leakage route: the scale-side packet carries a real gap factor
+lifted-band leakage route: the displayed scale-side carrier contains the factor
 `2^{-(j-k)}`, but the current integration audit still leaves a residual `2^k`
-weight, and the coupled lower-shell gain needed to defeat that residual is not
-yet proved.
+weight, and the coupled lower-shell estimate needed to defeat that residual is
+not yet proved.
 
 ## Tail-Energy Interface Stays Separate
 
