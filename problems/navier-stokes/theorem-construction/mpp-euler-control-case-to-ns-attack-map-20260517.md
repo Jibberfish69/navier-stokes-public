@@ -21,9 +21,8 @@ EReg.
 The vortex-sheet witness proves this directly: normal flux and pressure
 compatibility can hold while tangential slip breaks one-field coherence.
 
-Therefore the Navier-Stokes attack should not try to prove that pressure/Pack
-alone makes one coherent field. It should prove that fixed positive viscosity
-supplies the missing structure:
+Therefore the Navier-Stokes target is not pressure/Pack coherence alone.  The
+fixed-positive-viscosity target is the missing structure:
 
 ```math
 \nu>0
