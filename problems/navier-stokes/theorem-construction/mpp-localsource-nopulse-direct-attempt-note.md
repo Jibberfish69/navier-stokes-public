@@ -186,7 +186,7 @@ Jump_{avg}\Rightarrow\bot.
 
 ## Verdict
 
-`LocalSource.NoPulse.A` is not solved by the installed `FFSRC.A=>FCI.5f`
+`LocalSource.NoPulse.A` is not solved by the installed `Hyp(FFSRC.A)=>FCI.5f`
 supplier, by direct Cauchy/Young estimates, or by the current signed
 commutator package.
 
