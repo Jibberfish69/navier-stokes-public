@@ -10,6 +10,19 @@ introduction shape, Gold/Silver route explanation, class-membership witness
 sections, theorem/proof section forms, branch/leaf integration forms, and
 Pack/Part/Field exit prose patterns.
 
+Template rendering rule:
+
+Every `.tex` template in this folder must compile as its own standalone PDF,
+and the matching audit PDF must live beside it with the same basename. After
+adding or changing a template, run:
+
+```sh
+make -C problems/navier-stokes/submission-bundle/authoring/templates all
+```
+
+The `.build/` directory is temporary build scratch. The `.tex` source and its
+same-basename `.pdf` are the durable template pair.
+
 Current TOC templates:
 
 - `monograph-v6-toc-template-custom-macros.tex` keeps the V6 custom TOC layer:
