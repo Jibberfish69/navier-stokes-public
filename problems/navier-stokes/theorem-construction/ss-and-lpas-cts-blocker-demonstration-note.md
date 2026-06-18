@@ -96,7 +96,7 @@ multiplier family.
 That removes the last mismatch between the upper boundary and the already
 explicit moving-spill packets.
 
-### 2. Prove one model same-scale edge estimate
+### 2. Prove one coefficient-free same-scale edge estimate
 
 Prove `(SS)` first for a single divergence-free annular multiplier packet with
 uniform symbol bounds and bounded relative offset:
@@ -107,13 +107,13 @@ uniform symbol bounds and bounded relative offset:
 \varepsilon_a \nu D_N + C_{a,*}2^{-2\delta N}.
 ```
 
-The required model estimate is local-in-scale: its constants must be uniform
+The required coefficient-free edge-family estimate is local-in-scale: its constants must be uniform
 in the finite symbol family and it must not reintroduce any lower-prefix or
 far-corona queue.
 
-### 3. Lift from one model packet to the finite family
+### 3. Lift from one same-scale edge packet to the finite family
 
-Once the model estimate is proved with constants uniform in the symbol family,
+Once that displayed estimate is proved with constants uniform in the symbol family,
 finite summation gives both `(UB)` and `(MS)`.
 
 So the real solution to the same-scale side is:
@@ -121,7 +121,7 @@ So the real solution to the same-scale side is:
 ```math
 \text{explicit frozen normal form}
 \Longrightarrow
-\text{uniform model edge estimate}
+\text{uniform coefficient-free edge estimate}
 \Longrightarrow
 \text{finite-family `(SS)`}.
 ```
