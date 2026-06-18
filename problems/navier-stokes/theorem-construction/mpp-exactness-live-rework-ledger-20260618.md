@@ -4541,6 +4541,76 @@ Edited live theorem note:
 
 - `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
 
+## Source-Pulse Tower Anchoring Repair
+
+Old loose step:
+
+- `submission-bundle/source-field-reader-appendix.tex` repeated an
+  explanation-only source-pulse CM-exit proof sketch in which retained Field
+  was said to give a ball where the velocity had size \(M/2\), and then used
+  energy to bound the base rung. The sentence hid the actual hypothesis:
+  a Field oscillation/coherence modulus on a fixed positive cover ball. It also
+  compressed the higher-rung argument into "finite-difference gives derivative"
+  without stating the finite-order anchoring mechanism.
+- `theorem-construction/mcp-sourcepulsecmexit-a-explanation-only-read-mbr-e-463b9bda50.md`
+  carried the same source argument in theorem-note form.
+- Current authority summaries said `SourcePulseCMExit.A` was locally discharged
+  by "retained-Field tower anchoring" without saying what anchoring was being
+  spent.
+
+Exact replacement:
+
+On a retained cover ball \(B(c(t),r)\), the repaired argument defines
+\[
+  \Omega_q(r/2,t)=
+  \sup_{x,y\in B(c(t),r/2)}|U_q(x,t)-U_q(y,t)|.
+\]
+For the base rung, if \(x_0\in B(c(t),r/4)\) and \(M=|u(x_0,t)|\), then
+\[
+  M
+  \le
+  \Omega_0(r/2,t)
+  + |B(c(t),r/2)|^{-1/2}
+    \|u(\cdot,t)\|_{L^2(B(c(t),r/2))}.
+\]
+This follows by comparing \(u(x_0,t)\) to \(u(y,t)\) for
+\(y\in B(c(t),r/2)\) and integrating in \(y\). Energy bounds the local \(L^2\)
+term, and retained Field bounds \(\Omega_0\).
+
+For \(k\ge1\), the replacement spends the finite-order anchoring inequality
+\[
+  \|U_k(\cdot,t)\|_{L^\infty(B(c(t),r/4))}
+  \le
+  C_{k,r}\left(
+    \|u(\cdot,t)\|_{L^2(B(c(t),r/2))}
+    +\sum_{q=0}^{k}r^q\Omega_q(r/2,t)
+  \right),
+\]
+using \(U_q=\nabla^q u\) on the same retained field window. Force rungs are not
+obtained from velocity oscillation; retained Part supplies the
+pressure-viscosity carrier envelope, and escape of that envelope is a Part-face
+failure rather than a retained Pack+Part+Field branch.
+
+Downstream consequence:
+
+`SourcePulseCMExit.A` may still be read as locally discharged on the retained
+Pack+Part+Field source-pulse branch, but the discharge now spends the exact
+oscillation/local-energy/finite-order anchoring package above plus the retained
+Part envelope. It no longer spends an implicit linear-profile or generic
+"Field coherence" shortcut.
+
+Edited live surfaces:
+
+- `submission-bundle/source-field-reader-appendix.tex`;
+- `theorem-construction/mcp-sourcepulsecmexit-a-explanation-only-read-mbr-e-463b9bda50.md`;
+- `live-theorem-edge.yaml`;
+- `source-frontier.yaml`;
+- `submission-bundle/source-frontier.yaml`;
+- `theorem-packet.yaml`;
+- `theorem-repair.yaml`;
+- `submission-verdict.yaml`;
+- `submission-bundle/submission-verdict.yaml`.
+
 ## Remaining Primary-Surface Residue Classification
 
 After the TPS/spectral/selector repairs, the focused primary-surface scan still
