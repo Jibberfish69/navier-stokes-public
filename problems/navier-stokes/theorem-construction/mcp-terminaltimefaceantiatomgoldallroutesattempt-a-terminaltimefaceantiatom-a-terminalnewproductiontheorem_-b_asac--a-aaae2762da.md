@@ -204,7 +204,28 @@ The affine/collar cost of a persistent critical terminal core is summable only i
 
 Attempt:
 
-The existing collar estimate prices a frozen affine core on a parabolic clock, but the price must be summed over infinitely many shrinking terminal windows. Without a global finite high-tower/enstrophy-production budget strong enough to sum those costs, Zeno concentration remains possible.
+The existing affine-core collar estimate prices a persistent critical core only
+under the displayed parent-ball, heat-time subset, gradient lower-bound, and
+parent-energy hypotheses.  For a selected window it gives the exact bill
+
+```math
+B_m
+:=
+\nu\int_{G_m}\int_{B_{R_m}(x_m)}|\nabla^2u|^2\,dx\,dt
+\ge
+c\,\theta_m\eta_m^2\nu^4/E_{R,m}.
+```
+
+The route closes only if the same selected terminal family also has a finite
+high-tower/enstrophy-production budget controlling `sum_m B_m` and a
+non-summable lower side such as
+
+```math
+\sum_m\theta_m\eta_m^2/E_{R,m}=\infty.
+```
+
+Without those two exact statements, Zeno concentration remains possible even
+though each selected collar bill is positive.
 
 Verdict:
 
