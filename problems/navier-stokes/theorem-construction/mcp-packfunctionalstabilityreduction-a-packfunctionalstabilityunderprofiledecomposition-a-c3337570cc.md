@@ -15,10 +15,15 @@ The selected positive Pack functional is stable under terminal profile decomposi
 
 The live Pack-side quantity is not a signed quadratic form alone. It is a selected positive, scale-normalized, terminal-window object.
 
-Schematic form:
+Exact selected-positive form:
 
 ```text
-P(u_m) = selected positive part of a local low-high / source / tree-Carleson expression.
+For each admissible terminal selector sigma, let F_sigma(u) be the signed
+local low-high / source / tree-Carleson expression and set
+P_sigma(u):=[F_sigma(u)]_+.
+
+For the selected terminal record sigma_m, the Pack functional being tested is
+P_{sigma_m}(u_m)=[F_{sigma_m}(u_m)]_+.
 ```
 
 Under a profile decomposition
@@ -27,10 +32,25 @@ Under a profile decomposition
 u_m = sum_alpha U_alpha^m + r_A^m,
 ```
 
-one would need an expansion of the form:
+one would need a selected-positive decoupling inequality, not a linear
+expansion of `P`:
 
 ```text
-P(u_m) = sum_alpha P(U_alpha^m) + negligible cross terms + negligible remainder.
+F_{sigma_m}(u_m)
+=
+sum_alpha F_{sigma_m}(U_alpha^m)
++ C_{sigma_m}^{cross}(m,A)
++ R_{sigma_m}(m,A),
+```
+
+and therefore, by `[a+b]_+ <= [a]_+ + |b|`,
+
+```text
+P_{sigma_m}(u_m)
+<=
+sum_alpha P_{sigma_m}(U_alpha^m)
++ |C_{sigma_m}^{cross}(m,A)|
++ |R_{sigma_m}(m,A)|.
 ```
 
 This is stronger than ordinary energy orthogonality.
@@ -49,6 +69,20 @@ same-witness selector choice.
 ```
 
 A selector can follow a near-resonant cross-profile interaction or terminal window artifact. Therefore Pack functional stability is not obtained from standard profile decomposition alone.
+
+The exact missing estimate is uniform selected-positive cross-term control:
+
+```text
+lim_{A->infty} limsup_{m->infty}
+sup_{sigma in Sigma_m}
+(
+|C_sigma^{cross}(m,A)|+|R_sigma(m,A)|
+)
+=0,
+```
+
+or a theorem that routes every nonzero selected positive cross-profile defect to
+one genuine profile or to the endpoint-strip boundary class-exit case.
 
 ## Reduction
 
