@@ -5761,3 +5761,92 @@ The broader exactness goal remains active.  This batch does not discharge the
 ASAC residual/no-incoming/backward-uniqueness package, `FCC.C1a`, the same-tail
 `\mathrm{SCF}_{\mathrm{base}}` modulus, or the Clay-finality /
 finite-breakdown bridge.
+
+## Same-Tail SCFBase Modulus Downstream Repair
+
+Old loose step:
+
+The averaged route surfaces still compressed the finite-energy-native chain as
+though
+
+```text
+SCF_base + SGC.A_a.e + ATD_m^epsilon => SCF_avg^m
+```
+
+were an installed implication.  The periodic theorem-construction notes then
+spent the same compression to remove the `Jump_avg` branch and conclude
+`End_NS`, `H^s` continuation, and global periodic smoothness.
+
+Exact replacement:
+
+The exact averaged field-face admission already requires the same-tail local
+modulus
+
+```text
+SCFBaseLocalModulus_N(T,r):
+omega_SCF(rho):=sup_{z in T'} SCF_base(Q_rho^Phi(z)),
+lim_{rho downarrow 0} omega_SCF(rho)=0.
+```
+
+The repaired implication is therefore
+
+```text
+SCF_base + SGC.A_a.e + ATD_m^epsilon + SCFBaseLocalModulus_N
+  => SCF_avg^m.
+```
+
+Finite depth and readable `SCF_base` components do not by themselves supply this
+modulus.  The modulus must be proved from `Field_{N,r,Q}`, built into the Field
+face, or carried as an explicit hypothesis.
+
+Proof or remaining burden:
+
+This batch does not prove the same-tail modulus.  It makes the downstream
+spend exact.  The exact admission proof remains the already installed
+one-way bridge
+
+```text
+Field_{N,r,Q} + SCFBaseLocalModulus_N(T,r) => Field_avg(T),
+```
+
+so `Jump_avg := not Field_avg` rules out only positive Field scales that carry
+the same-tail modulus.  Without that input, `Jump_avg` does not yet give the
+unconditional `forall r>0, not Field_{N,r,Q}` face.
+
+Downstream consequence:
+
+`AVG.MAIN.A` and the periodic theorem-construction proof paragraphs are now
+conditional on `SCFBaseLocalModulus_N`.  `READ.COVER` is explicitly downstream of
+`End_NS_avg` and cannot be used to supply the upstream same-tail modulus.
+
+Edited live surfaces:
+
+- `live-theorem-edge.yaml`;
+- `theorem-construction/mcp-ttu-next-branch-averaged-terminal-tail-route-ffsrc-a-7cad0a4682.md`;
+- `theorem-construction/mpp-periodic-main-theorem-manuscript-grade-package.md`;
+- `theorem-construction/mpp-periodic-main-self-contained-manuscript-proof.md`;
+- `theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md`.
+
+Second downstream pass:
+
+The named authority mirrors `source-frontier.yaml`,
+`submission-bundle/source-frontier.yaml`, `theorem-packet.yaml`,
+`submission-bundle/theorem-packet.yaml`, `theorem-repair.yaml`,
+`submission-verdict.yaml`, and `submission-bundle/submission-verdict.yaml` were
+scanned for the faulty `SCF_base + ... => SCF_avg` spend.  They did not contain
+that compressed implication in this batch; their `READ.COVER` and
+`Field_{N,r,Q}` hits are downstream readout or CM-face taxonomy, not the
+same-tail admission shortcut.
+
+Verification:
+
+Targeted scans were run for the stale `SCF_base + ... => SCF_avg` implication
+and for periodic proof paragraphs that remove `Jump_avg` without the
+same-tail-modulus hypothesis.  YAML authority parsing and whitespace checks are
+run after the patch batch.
+
+Remaining mathematical status:
+
+The broader exactness goal remains active.  The same-tail modulus itself is
+still a mathematical input to prove or build into the Field face; it is no
+longer hidden inside the averaged route compression.
