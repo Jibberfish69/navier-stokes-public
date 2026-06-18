@@ -103,7 +103,16 @@ Finite positive Radon mass and `L^1_t` source control permit terminal concentrat
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)
 ```
 
-have uniformly bounded `L^1` mass and converge weakly to a terminal atom at `s=0`.  The heat semigroup over `|s|\le 1/m` is close to identity in rescaled heat units, so fixed viscosity alone permits order-size terminal response.
+have uniformly bounded `L^1` mass and converge weakly to a terminal atom at
+`s=0`.  More explicitly, for any nonzero `f in L^2` define
+
+```math
+R_m:=\int_{-1/m}^{0}m e^{(0-s)\nu\Delta}f\,ds .
+```
+
+Strong continuity of the heat semigroup gives `R_m -> f` in `L^2`; hence
+`\liminf_m ||R_m||_2 >= ||f||_2/2` for all large `m`.  Fixed viscosity alone
+therefore does not rule out a nonvanishing terminal response.
 
 Local suitable compactness gives ancient limits.  It supplies local energy and pressure bounds, while the installed surfaces supply no Type I bound, global finite ancient energy, critical smallness, symmetry, two-dimensionality, or source-cancellation class production for every surviving Zeno branch.
 
