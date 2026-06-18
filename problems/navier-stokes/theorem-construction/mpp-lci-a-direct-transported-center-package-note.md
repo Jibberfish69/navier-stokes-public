@@ -172,7 +172,7 @@ must use only the classical Navier-Stokes equations, the pressure Poisson law,
 finite seed data, finite energy, the bounded pack gauge `\Gamma_\sharp`, and
 direct center-ball localization.
 
-The formal multiplier structure of `(DTC.7a)` is:
+The displayed multiplier structure of `(DTC.7a)` is:
 
 ```math
 B_{\mathfrak p}^{TC}(t)
@@ -1625,7 +1625,7 @@ K_{\mathrm{visc},top}^{ctr}
 \tag{DTC.AFF-NKF2}
 ```
 
-The implication `(DTC.AFF-NKF1)` is formal from
+The implication `(DTC.AFF-NKF1)` is the direct algebraic consequence of
 
 ```math
 K_q(c_j)
