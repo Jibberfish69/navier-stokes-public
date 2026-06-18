@@ -107,7 +107,7 @@ tower\text{-}blown.
 ### Proof
 
 This is the contrapositive of `RFET.A`.  If the tower amplitude were bounded,
-`RFET.A` would supply a positive Field scale, contradicting `(RFET.2)`.
+`RFET.A` supplies a positive Field scale, contradicting `(RFET.2)`.
 `\square`
 
 ## Lemma `RFET.C` (DTC tower package kills retained Field exit)

@@ -116,7 +116,7 @@ BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A
 or a genuinely new terminal source-residence mechanism that implies it.
 
 This target is the correct continuation because it is the first named theorem
-that would remove the zero-thickness native positive source residue without
+that removes the zero-thickness native positive source residue without
 importing the failed affine readout, broad Pack deformation, terminal strain
 integrability, source Carleson, active-square reserve, or generic
 scale-normalized pulse-spend theorem as an unproved premise.

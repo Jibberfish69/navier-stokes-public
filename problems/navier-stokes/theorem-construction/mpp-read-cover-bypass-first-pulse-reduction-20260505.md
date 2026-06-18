@@ -92,7 +92,7 @@ dyadic same-fluid window, after legal losses are removed, such that
 ```
 
 Then the rescaled unit cylinder carries positive SCF carrier.  A buffered
-upper envelope on `Q_2^-` would follow if one had either:
+upper envelope on `Q_2^-` follows if one has either:
 
 ```math
 \nu_n^{SCF}(2W_n)\le C,

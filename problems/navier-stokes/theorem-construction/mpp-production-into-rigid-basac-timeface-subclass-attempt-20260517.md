@@ -22,7 +22,7 @@ The subclass `B_ASAC^TA` adds
 \qquad\forall R<\infty.
 ```
 
-Together with `RigidBASACTimeFaceSubclassLiouville.A`, this would prove
+Together with `RigidBASACTimeFaceSubclassLiouville.A`, this proves
 
 ```math
 ZenoResidueLiouville_{B_{ASAC}}.A.

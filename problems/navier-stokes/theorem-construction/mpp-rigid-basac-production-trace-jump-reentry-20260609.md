@@ -69,7 +69,7 @@ source-balance primitive:
 SourceAtomToTraceJump.A.
 ```
 
-Then a no-positive-jump theorem would produce the rigid subclass:
+Then a no-positive-jump theorem produces the rigid subclass:
 
 ```math
 SourceAtomToTraceJump.A

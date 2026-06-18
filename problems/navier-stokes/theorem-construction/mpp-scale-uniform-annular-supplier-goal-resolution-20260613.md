@@ -274,7 +274,7 @@ supplier boundary.  A retained positive-scale source-reserve branch stays on the
 pass side when paid on the same ledger.  A readout-complete admitted annular fail
 branch with nonzero residual heat-scale refill must fail through Part or Field:
 if Part fails, the face is Part; if Part survives, retained continuation-readout
-Field would force the residual refill to vanish, contradicting the selected
+Field forces the residual refill to vanish, contradicting the selected
 pulse lower bound.
 
 ## 5. Corrected Status

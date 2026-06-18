@@ -116,7 +116,7 @@ positive source-Carleson notes.
 
 ## Source-Carleson Test
 
-A real public-finality route would prove:
+A real public-finality route proves:
 
 ```text
 LowHighPackSourceCarlesonReserve.A

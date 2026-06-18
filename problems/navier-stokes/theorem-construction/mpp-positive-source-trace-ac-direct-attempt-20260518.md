@@ -30,7 +30,7 @@ u_N^{src,+}(B_R\times[T-\varepsilon,T])
 
 with the trace term carrying no positive atom at `T` once the terminal slab mass vanishes.
 
-## Why It Would Close The Atom
+## Why It Closes The Atom
 
 A terminal source atom gives a positive jump in the localized source-balance primitive:
 
@@ -78,7 +78,7 @@ Thus weak linear trace continuity cannot be promoted to `PositiveSourceTraceAC.A
 
 ## Attempt 3: Source-dissipation domination
 
-A quantitative source-dissipation AC theorem would close this route if it produced a super-`L^1_t` density or a terminal slab modulus. The current installed dissipation ledger is total time-integrated control. The density profile above preserves total mass while destroying every super-`L^1_t` bound.
+A quantitative source-dissipation AC theorem closes this route only if it produces a super-`L^1_t` density or a terminal slab modulus. The current installed dissipation ledger is total time-integrated control. The density profile above preserves total mass while destroying every super-`L^1_t` bound.
 
 ## Verdict
 

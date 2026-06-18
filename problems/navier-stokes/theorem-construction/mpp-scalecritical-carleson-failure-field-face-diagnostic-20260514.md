@@ -50,7 +50,7 @@ tower\text{-}blown,
 
 equivalently the same-family DTC/tower analytic package fails.  By
 `mpp-retained-field-actkx-license-and-conditional-closure-20260515.md`, a
-pre-endpoint `ACT.KX`/DTC package would rule out this retained Field exit.  Thus
+pre-endpoint `ACT.KX`/DTC package rules out this retained Field exit.  Thus
 the retained Carleson failure now lands in a precise Field-side analytic cell:
 
 ```math
