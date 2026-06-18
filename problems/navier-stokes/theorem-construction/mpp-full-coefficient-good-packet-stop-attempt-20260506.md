@@ -154,9 +154,37 @@ H_T^{aff}\Chi_T^{full}(t_+)
 \tag{FCG.9}
 ```
 
-Choose `epsilon` so `C epsilon < 1/10`.  The Duhamel term is absorbed in the
-standard packet norm.  This proves `(FCG.6)`.  Cotlar/Schur summability over
-bounded-overlap tubes then gives `(FCG.7)`. `\square`
+Choose `epsilon` so `C epsilon < 1/10`. The Duhamel term is absorbed in the
+packet norm by the following estimate. Let `\mathfrak N_T` be the packet norm
+for which the affine propagator obeys
+
+```math
+\mathfrak N_T(H_T^{aff}\Chi_T^{full}(t_+))\le C_0
+```
+
+and
+
+```math
+\mathfrak N_T\!\left(
+\int_t^{t_+}H_T^{aff}(t,s)E_T(s)F(s)\,ds
+\right)
+\le
+C_0\|E_T\|_{L_t^1(H^1\to H^{-1})}\mathfrak N_T(F).
+```
+
+Then `(FCG.8)` and `(FCG.9)` give
+
+```math
+\mathfrak N_T(\Chi_T^{full})
+\le
+C_0+C_0C\varepsilon\,\mathfrak N_T(\Chi_T^{full}).
+```
+
+Choosing `\varepsilon` so `C_0C\varepsilon\le 1/2` yields
+`\mathfrak N_T(\Chi_T^{full})\le 2C_0`, which is `(FCG.6)`. The passage from
+`(FCG.6)` to `(FCG.7)` uses the Schur test on the tube Gram matrix: bounded
+overlap gives finite row and column sums, hence the associated matrix is
+bounded on `\ell^2`. `\square`
 
 ## 4. Theorem `FullCoeffStopIdentity.A`
 
