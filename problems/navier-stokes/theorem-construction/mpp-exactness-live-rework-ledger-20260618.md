@@ -4111,6 +4111,32 @@ Edited live surfaces:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
 
+## Live Theorem-Note Trigger-Phrase Cleanup
+
+Old loose wording:
+
+- `mpp-class-membership-endpoint-matrix-closure-contract-note.md` said two
+  endpoint implications were "formal" after their inputs.
+- `ontic-projected-flow-exact-lift-package.md` said the classical-shadow proof
+  was "formal."
+- `mpp-cone-payment-closure-package-20260611.md` described the critical
+  velocity benchmark as not an inferred "typical" size.
+
+Exact replacement:
+
+The endpoint matrix now states the direct implications explicitly: `OFP.A`
+propagates a positive one-field coherence scale, excluding `Jump`, and the
+`L^\infty(I)` tower-amplitude input contradicts `tower-blown` by choosing
+`M` above the bound.  The ontic lift is named as an exact pushforward
+calculation through `\mathcal C` and the lift identities.  The cone benchmark is
+described as a definition, not an inferred size estimate.
+
+Edited live surfaces:
+
+- `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`;
+- `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
+- `theorem-construction/mpp-cone-payment-closure-package-20260611.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
