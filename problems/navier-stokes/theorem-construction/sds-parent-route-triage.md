@@ -251,7 +251,7 @@ That second route is now sharper too: the packetwise expansion in
 `mixed-shell-bilinear-dissipation-identity.md` now shows that the mixed
 boundary term is already barrier-sized from the smooth compactly supported
 initial data class, the residual mixed high-high packet is absorbable into
-`\mathfrak B_N^\sigma`, and strict and spill are lower-order against
+`\mathfrak B_N^\sigma`, and strict and spill are controlled by
 `\mathfrak M_N^\sigma` and `\mathfrak B_N^\sigma`. The latest support audit in
 that same note then goes one step further: for the bare pairwise interaction
 `\mathcal I_{j;k,\ell}`, the extreme separated geometry `j+M<k<\ell-4`
