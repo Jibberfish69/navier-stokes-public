@@ -73,11 +73,20 @@ residence.
 
 ## Attempt 2: stress-flux nonzero lower bound
 
-The Door 1 branch has a nonzero stress-flux residue and finite vector selector:
+The Door 1 branch has a nonzero stress-flux residue and finite vector selector.
+Let
+
+```math
+c_{\mathcal L}:=\inf_{|e|=1}\max_{\ell\in\mathcal L}[\ell\cdot e]_+ .
+```
+
+The selector gives `c_{\mathcal L}>0`, so
 
 ```math
 \max_{\ell\in\mathcal L}[\ell\cdot\Phi_0]_+
-\gtrsim |\Phi_0|.
+=
+|\Phi_0|\max_{\ell\in\mathcal L}[\ell\cdot(\Phi_0/|\Phi_0|)]_+
+\ge c_{\mathcal L}|\Phi_0|.
 \tag{SR.7}
 ```
 
