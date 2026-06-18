@@ -4385,6 +4385,38 @@ Edited live theorem note:
 
 - `theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md`.
 
+## Direct Transported-Center Package Conditionality Repair
+
+Old loose wording:
+
+- `mpp-lci-a-direct-transported-center-package-note.md` described moving cutoff,
+  pressure-response, and residual-forcing cells as "formal consequences";
+  receiver readback as "formal"; `END.Pack` and `END.Field` as "native formal
+  exclusions"; the receiver side as "formal" after `ACT.KX`; and
+  `END.TowerBound` as "formal."
+
+Exact replacement:
+
+The note now states that the cutoff/pressure/forcing cells are conditional on
+the local tower carrier with stronger pointwise-in-time control. Receiver
+readback is conditioned on the displayed `CSP.A_{\delta+\delta_{seg}}`,
+`(EOC.27)`, and `(OFP.10cb)` inputs. `END.Pack` requires
+`\Gamma_{\mathrm{pack},Q}\in L^\infty(I)`, `END.Field` requires `OFP.A`, and
+`END.TowerBound` is the direct contradiction between same-packet tower-amplitude
+boundedness and `tower-blown`. The receiver side is conditional after the
+ordered `ACT.KX` package is installed for every required parameter instance.
+
+Downstream consequence:
+
+`DTC.A`, receiver readback, and `End_NS` cannot be spent as formal assembly.
+Downstream uses must carry the pointwise tower carrier control, exact
+moving-center identity/commutator estimate, required `ACT.KX` parameter
+instances, pack gauge, `OFP.A`, and tower-amplitude bound.
+
+Edited live theorem note:
+
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
+
 ## Edited Or Preserved Residues
 
 Edited: live theorem/proof/manuscript surfaces whose route statements or
