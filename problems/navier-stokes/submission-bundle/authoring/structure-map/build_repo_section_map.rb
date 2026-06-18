@@ -10,8 +10,9 @@ RULES_PATH = Pathname.new(__dir__).join("repo-section-map-rules.yaml").expand_pa
 OUTPUT_PATH = Pathname.new(ARGV[0] || __dir__).expand_path.join("repo-section-map.yaml")
 
 SURFACE_PATTERN = /\b[A-Z][A-Za-z0-9]*(?:[._-][A-Za-z0-9{}\\]+)+\b/.freeze
-FACE_PATTERN = /\b(?:Pack_Q|Part_\{N,Q\}|Field_\{N,r,Q\})\b/.freeze
+FACE_PATTERN = /(?:Pack_Q|Part_\{N,Q\}|Field_\{N,r,Q\})/.freeze
 FILE_EXTENSION_PATTERN = /\.(?:md|ya?ml|tex|rb|py|pdf)\b/i.freeze
+KNOWN_FACE_HANDLES = %w[Pack_Q Part_{N,Q} Field_{N,r,Q}].freeze
 
 TITLE_WORD_EXPANSIONS = {
   "CM" => "Class-Membership",
@@ -45,9 +46,15 @@ end
 def clean_handle(handle)
   cleaned = handle.to_s.strip.gsub(/[.,;:)\]]+\z/, "")
   return nil if cleaned.empty?
+  return cleaned if KNOWN_FACE_HANDLES.include?(cleaned)
+
   return nil if cleaned.include?("/")
   return nil if cleaned.match?(FILE_EXTENSION_PATTERN)
   return nil if cleaned.match?(/\A\d/)
+  return nil if cleaned.include?("{") || cleaned.include?("\\")
+  return nil if cleaned.match?(/\A[A-Z](?:-[A-Z])+\z/)
+  return nil if cleaned.include?("-") && !cleaned.include?(".")
+  return nil if cleaned.include?("_") && !cleaned.include?(".")
 
   cleaned
 end
@@ -111,7 +118,7 @@ entries = handle_sources.keys.sort.map do |handle|
     "reader_title" => reader_title(handle, rules),
     "kind" => placement["kind"],
     "pdf_level" => placement["pdf_level"],
-    "pdf_path" => placement["pdf_path"],
+    "pdf_path" => Array(placement["pdf_path"]).map(&:dup),
     "visibility" => placement["visibility"],
     "placement_rule" => placement["id"],
     "source_files" => handle_sources[handle].sort.to_h,
