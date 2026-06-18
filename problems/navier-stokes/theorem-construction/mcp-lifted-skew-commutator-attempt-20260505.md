@@ -62,7 +62,26 @@ The bare dyadic skew exchange lives before the commutator replacement.  After th
 
 ## Failed proof route
 
-A formal decomposition into positive and negative eigendirection packets can be written, but the negative branch may lie outside the selected terminal same-fluid ledger.  Bringing it back requires `TerminalSignedSaturation.A`; charging it by magnitude requires `ScaleCriticalTreeCarleson.A`.
+At each packet point one may write the exact spectral split
+
+```math
+S_k=\sum_m\lambda_m e_m\otimes e_m,
+\qquad
+\sum_m\lambda_m=0,
+```
+
+and decompose the leading packet contribution into
+
+```math
+\sum_m(\lambda_m)_+|\langle u_j,e_m\rangle|^2
+-
+\sum_m(\lambda_m)_-|\langle u_j,e_m\rangle|^2.
+```
+
+The obstruction is not the algebraic split; it is terminal selection.  The
+negative branch need not lie in the selected terminal same-fluid ledger.
+Bringing it back requires `TerminalSignedSaturation.A`; charging it by
+magnitude requires `ScaleCriticalTreeCarleson.A`.
 
 Thus the desired antisymmetric edge representation would need one of:
 
