@@ -51,11 +51,62 @@ analytic-semigroup generator candidate on `H_k:=L^2(\Omega_k)`.
 
 ### Proof
 
-The principal part is coercive by uniform ellipticity. The first-order and
-zeroth-order terms are bounded perturbations of the `H^1_0` form on the bounded
-chart, so after adding a sufficiently large scalar shift the full form is closed
-and sectorial. Standard form theory then yields an m-sectorial realization,
-hence an analytic semigroup on `L^2(\Omega_k)`. ∎
+Let `V_k` be the homogeneous-boundary form domain, for example `H^1_0(\Omega_k)`
+in the Dirichlet case, and define the shifted form
+
+```math
+\mathfrak a_{k,\lambda}(u,v)
+:=
+\nu\int_{\Omega_k} G_k\nabla u\cdot \overline{\nabla v}
++
+\int_{\Omega_k}(\widetilde b_k\cdot\nabla u)\,\overline v
++
+\int_{\Omega_k}(\widetilde c_k+\lambda)u\overline v .
+\tag{ESR.2a}
+```
+
+Uniform ellipticity gives
+
+```math
+\nu\int G_k\nabla u\cdot\overline{\nabla u}
+\ge \nu\kappa\|\nabla u\|_{L^2}^2 .
+```
+
+Since `\Omega_k` is bounded and
+`\widetilde b_k,\widetilde c_k\in L^\infty`, Young's inequality gives, for every
+`\epsilon>0`,
+
+```math
+\left|\int(\widetilde b_k\cdot\nabla u)\overline u\right|
+\le
+\epsilon\|\nabla u\|_{L^2}^2
++C_{\epsilon,b}\|u\|_{L^2}^2,
+\qquad
+\left|\int\widetilde c_k|u|^2\right|
+\le \|\widetilde c_k\|_\infty\|u\|_{L^2}^2.
+```
+
+Choose `\epsilon<\nu\kappa/2` and then choose `\lambda` larger than the resulting
+`L^2` loss.  Then
+
+```math
+\operatorname{Re}\mathfrak a_{k,\lambda}(u,u)
+\ge
+c_1\|u\|_{H^1(\Omega_k)}^2,
+\qquad
+|\operatorname{Im}\mathfrak a_{k,\lambda}(u,u)|
+\le
+c_2\,\operatorname{Re}\mathfrak a_{k,\lambda}(u,u).
+\tag{ESR.2b}
+```
+
+Thus `\mathfrak a_{k,\lambda}` is densely defined, closed, and sectorial on
+`L^2(\Omega_k)`.  The first representation theorem for closed sectorial forms
+therefore gives a unique m-sectorial realization `A_{k,\lambda}`.  The semigroup
+`e^{-tA_{k,\lambda}}` is analytic on `L^2(\Omega_k)`, and undoing the shift only
+multiplies the semigroup by `e^{\lambda t}`.  With the sign convention of
+`(ESR.2)` and the Wang--Zhang note, this is the required analytic-semigroup
+realization of the homogeneous chart operator. ∎
 
 ## Proposition `ESR.B` (open-set observation is automatically admissible once the semigroup exists)
 
