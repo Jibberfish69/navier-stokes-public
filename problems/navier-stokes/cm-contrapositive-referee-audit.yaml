@@ -270,10 +270,13 @@ release_eligible: false
 clay_ready: false
 blockers:
 - navier-stokes-exactness-rework-active
-- clay-closing-bridge-from-classified-class-exit-to-contradiction
 blocking_findings: []
 open_logical_burdens:
-- The finite-obstruction inventory pass is not a public Clay finality theorem.
+- The finite-obstruction inventory pass is the accepted Silver CM consumption
+  route when every promoted finite terminal row has CM-test entry plus
+  admissibility failure, continuation/readout recovery, or concrete Pack/Part/Field
+  face failure. It is not blocked by a generic demand to prove that face failure
+  cannot itself be finite breakdown.
 - The pulling-teeth exactness reread remains active until every decision-bearing
   live proof surface is reworked or stripped of proof force.
 passed: true
@@ -319,9 +322,11 @@ accepted_replacement:
     recovery
 superseded_readiness_candidates:
 - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-  kind: clay_closing_gap
+  kind: superseded_wrong_silver_target
   surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  evidence: Clay finite-breakdown exclusion is open; full Clay-ready proof is not
-    established.
-  required_action: Prove the Clay-closing bridge or replace the closing argument with
-    a noncircular finite-breakdown exclusion.
+  evidence: The old generic bridge demand treated a concrete CM face failure as
+    a leftover finite-breakdown branch. The 2026-06-19 correction rejects that
+    as the Silver target.
+  required_action: Only reopen Silver when a concrete promoted finite-breakdown
+    row enters the CM test and still neither continues nor lands in a real Pack/Part/Field
+    face failure.

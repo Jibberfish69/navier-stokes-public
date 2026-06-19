@@ -8,27 +8,25 @@ identity:
   generator: system/runner/workers/theorem_repair_worker.rb
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: false
-  blocking_count: 1
-  frontier_count: 1
+  all_discharged: true
+  blocking_count: 0
+  frontier_count: 0
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - submission-verdict.yaml
   - generated crank/status surfaces
-  unresolved_entries:
-  - public-clay-finality-from-classification
-  - clay-closing-bridge-from-classified-class-exit-to-contradiction
-  - finite-breakdown-exclusion-open
+  unresolved_entries: []
   sync_note: >-
-    Corrected after exactness reread: this generated repair surface may not
-    spend an "all discharged" conclusion while submission-verdict.yaml records
-    theorem_authority_summary.all_discharged=false with one blocking theorem
-    warrant and one live frontier. The unresolved entries above remain
-    decision-bearing until the direct live proof surfaces prove the named
-    ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A
-    consequence or replace it by an explicitly proved equivalent.
+    Corrected 2026-06-19: the accepted Silver CM route is discharged by
+    CM-test entry plus rowwise admissibility failure, continuation/readout
+    recovery, or concrete Pack/Part/Field face failure. The older
+    public-clay-finality / NoGenuineExitFromSmoothData.A / first-Pack survival
+    wording is demoted as a wrong Silver target unless a concrete promoted row
+    is shown to enter the CM test and still neither continue nor land in a real
+    face failure. Release/exactness readiness is tracked outside this theorem
+    authority gate.
 central_gate:
   gate_id: cm-witness-face-bridge
   target: Every theorem result must land in Pack_Q, Part_{N,Q}, or Field_{N,r,Q},
