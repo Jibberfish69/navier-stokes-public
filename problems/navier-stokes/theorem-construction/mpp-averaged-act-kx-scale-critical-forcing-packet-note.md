@@ -1013,7 +1013,7 @@ F_{\theta R}\in L^1(I_{\theta R}).
 ```
 
 Proof. Rescale to `R=1`. Bounded pack gauge and CKN-admissibility transfer
-`Q_R^\Phi` to a standard parabolic cylinder with constants depending only on
+`Q_R^\Phi` to an ordinary parabolic cylinder with constants depending only on
 `M_\sharp`. The hypothesis becomes the normalized CKN smallness condition
 
 ```math
