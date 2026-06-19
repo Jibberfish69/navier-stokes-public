@@ -14921,3 +14921,60 @@ carrier/residual note and `source-frontier.yaml` finds no remaining `\lesssim`,
 `O(1)`, old `after minimal donor-chain reduction`, or `removes retained
 partners` shortcut on that slice.  `source-frontier.yaml` parses with Ruby YAML,
 and `git diff --check -- problems/navier-stokes` passes.
+
+## Minimal Zeno No-Escape Estimate Exactness Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md` used
+`\lesssim` for the fixed-annulus Stokes collar estimate and for the desired
+Gauss-map / curvature-to-ledger bridge.  It also identified the Door 1
+source-resolved identity with `MinimalChainProjectedResidueIdentity.A` after
+"minimal donor-chain reduction" without carrying the conditional finite-graph
+package.
+
+Exact replacement:
+
+The fixed-annulus Stokes estimate now states the exact conditional form
+
+```text
+||U||_{H1(A)} + ||P||_{L2(A)/R}
+<= C_A( ||Res_Stokes(U,P)||_{H^{-1}(A)}
+        + ||gamma U||_{H^{1/2}(partial A)} )
+```
+
+for a fixed smooth annulus `A`, fixed pressure gauge, and chosen trace spaces,
+with `C_A` independent of terminal packet scale.  The curvature bridge is now
+only a uniform target:
+
+```text
+int_A |dn|^2 dmu or int_A |h|^2 dmu
+<= C_curv * viscous/stress/source ledger,
+```
+
+where `C_curv` must be supplied by a same-fluid material-surface,
+Hessian/trace, and nondegeneracy theorem; it is not available from ordinary
+energy.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`.
+
+Downstream consequence:
+
+The no-escape route cannot spend Stokes/collar or curvature language as a
+terminal source estimate.  The source-resolved identity becomes
+`MinimalChainProjectedResidueIdentity.A` only after the conditional minimal
+donor-chain reduction, including the ASAC/positive-pair-weight finite-graph
+package.
+
+Second downstream pass and validation:
+
+The authority surface already keeps `MinimalZenoTraceNoEscape.A` conditional on
+annular no-loss, low-mode injectivity, high-mode Stokes/collar observability,
+residual routing, and moving readout compatibility.  No authority rewrite was
+needed beyond the carrier/residual dependency repaired above.  A fixed-string
+residue search over the no-escape note and `source-frontier.yaml` finds no
+remaining `\lesssim`, old `After minimal donor-chain reduction`, `reasonable
+coercive estimate`, or `Desired bridge:` wording on this slice, and `git diff
+--check -- problems/navier-stokes` passes.
