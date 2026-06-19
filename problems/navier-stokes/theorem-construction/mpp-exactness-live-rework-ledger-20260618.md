@@ -12260,7 +12260,11 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual compactness extraction` phrase in
+the edited refill-tree note.  It finds the replacement rescaled fields,
+uniform local energy/gradient/pressure bounds, same-fluid residue tightness,
+and vanishing legal-loss hypotheses.  `git diff --check` passed on the edited
+note and this ledger.
 
 ## ESNS Conditional Gronwall Comparison Rework
 
@@ -12300,7 +12304,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual inviscid-limit logic` phrase in the
+edited ESNS note.  It finds the replacement conditional Gronwall theorem with
+`Y(t)`, `C_E`, Euler `H^{s+2}` forcing integrability, and the explicit bootstrap
+bound.  `git diff --check` passed on the edited note and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
