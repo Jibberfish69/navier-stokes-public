@@ -50,7 +50,7 @@ C_\epsilon\,\mathcal R_{\rm legal},
 where `mathcal R_legal` is already finite/summable on the terminal branch, or
 else a signed identity that makes `mathcal P_phi` part of a positive square.
 
-## Standard estimate
+## Holder-pressure estimate
 
 On a local annulus or compact cylinder,
 
@@ -78,7 +78,7 @@ so
 
 ```math
 \|p-p_{\rm harm}\|_{L^{3/2}}
-\lesssim
+C_{\rm CZ}
 \|u\|_{L^3}^2.
 \tag{PFA.7}
 ```
@@ -87,7 +87,7 @@ Thus the nonlinear pressure flux is controlled by a cubic velocity currency:
 
 ```math
 |\mathcal P_\phi^{nl}|
-\lesssim
+C_{\rm CZ}\,
 \|\nabla\phi\|_{L^\infty}
 \|u\|_{L^3}^3.
 \tag{PFA.8}
