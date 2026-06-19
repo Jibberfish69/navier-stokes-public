@@ -171,8 +171,9 @@ adjoint transport-diffusion equation
 \tag{RF.12}
 ```
 
-Then the `|u|^2 u\cdot\nabla\phi` convection leakage is formally absorbed into
-the weight equation.  The local energy inequality reduces schematically to
+Then the `|u|^2 u\cdot\nabla\phi` convection leakage cancels in the
+differentiated weighted energy identity, provided the adjoint weight is an
+admissible test.  The remaining conditional local energy inequality is
 
 ```math
 \int |u|^2\phi(t_2)
