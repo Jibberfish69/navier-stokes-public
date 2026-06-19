@@ -183,7 +183,11 @@ If
 then the terminal window contains
 
 ```math
-N_m\sim \Theta_m
+\lfloor c\,\Theta_m\rfloor
+\le
+N_m
+\le
+\lceil C\,\Theta_m\rceil
 \tag{HTR.16}
 ```
 
@@ -197,7 +201,7 @@ Then the branch pays a residence, source-square, or Carleson cost:
 ```math
 \sum_{\ell=1}^{N_m}
 \int_{I_{m,\ell}}\lambda_m^+(t)\,dt
-\gtrsim N_m
+\ge c_\lambda c_t N_m
 \tag{HTR.17}
 ```
 
@@ -229,11 +233,16 @@ For a fixed radius \(R_0\), the maximum terminal transfer curve is linear:
 \tag{HTR.19}
 ```
 
-For a moving heat-scale packet, \(r(t)^2\sim\nu(T-t)\), the instantaneous
+For a moving heat-scale packet satisfying
+\(c_h\nu(T-t)\le r(t)^2\le C_h\nu(T-t)\), the instantaneous
 scale-compatible rate is
 
 ```math
-\lambda^+(t)\sim{1\over T-t}.
+{c_\lambda\over C_h}{1\over T-t}
+\le
+\lambda^+(t)
+\le
+{C_\lambda\over c_h}{1\over T-t}.
 \tag{HTR.20}
 ```
 
@@ -271,7 +280,7 @@ pulse falls into one of the following:
 
 ```math
 \boxed{
-\Theta\sim1
+0<c_\Theta\le\Theta\le C_\Theta<\infty
 \Longrightarrow
 \text{the genuine heat-scale critical packet remains.}
 }
