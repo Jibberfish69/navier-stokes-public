@@ -13850,3 +13850,49 @@ endpoint`, `standard spectral-series`, `standard selector-scale`, `standard
 parabolic cylinders`, `standard Navier-Stokes critical`, or `standard
 class-as-uniform-budget` wording outside ledger/provenance receipts.  `git diff
 --check` passed on the edited notes and this ledger.
+
+## CMI Criterion And Asymptotic-Stationarity Wording Rework
+
+Old claim being spent:
+
+Decision-bearing theorem notes still used `standard` and expectation language
+around CMI row consumption, CKN cylinder transfer, asymptotic stationarity, and
+referee objections.  The risky phrases were `inventory standard`,
+`route-control standard`, `row-consumption standard`, `standard parabolic
+cylinder`, `expectation that critical rescaling`, `approximately autonomous`,
+`Approximate criticality`, and `standard referee objections`.
+
+Exact replacement:
+
+The CMI bridge note now uses finite-obstruction inventory criterion,
+route-control criterion, row-consumption criterion, and June 8 inventory
+criterion.  The averaged ACT/KX forcing packet now transfers to an ordinary
+parabolic cylinder with constants depending on `M_sharp`.  The asymptotic
+stationarity note now says critical rescaling was being treated as autonomy
+without controlling residual terms, and states that critical scaling alone does
+not imply stationarity.  The final-referee ledger now names referee objections
+without a conventional standard label.
+
+Proof or downstream consequence:
+
+The CMI bridge remains a row-consumption criterion, not a Clay-finality theorem.
+The ACT/KX route spends only bounded Pack gauge plus CKN-admissibility for the
+ordinary cylinder transfer.  Zeno stationarity still requires the displayed
+residual-vanishing theorem for drift, selector-motion, scale-acceleration,
+source, and defect-measure terms.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pdf-cmi-bridge-arbitration-20260609.md`.
+- `theorem-construction/mpp-averaged-act-kx-scale-critical-forcing-packet-note.md`.
+- `theorem-construction/mcp-asymptoticstationarityattempt-a-asymptoticstationarity-a-zenocriticalprofileproduction-a-65fa0863d0.md`.
+- `theorem-construction/mcp-final-referee-objection-ledger.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `inventory standard`, `route-control
+standard`, `row-consumption standard`, `standard parabolic cylinder`,
+`expectation that critical rescaling`, `approximately autonomous`, `Approximate
+criticality`, or `standard referee objections` wording outside
+ledger/provenance receipts.  `git diff --check` passed on the edited notes and
+this ledger.
