@@ -6,7 +6,7 @@ Methodology repair note for the CM-exit proof program.
 
 ## Point
 
-The CM contrapositive program should generate its failure surfaces from the
+The CM contrapositive program generates its failure surfaces from the
 continuation packet.
 
 The governing move is:
