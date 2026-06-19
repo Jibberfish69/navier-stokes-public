@@ -78,7 +78,7 @@ forbid an infinite terminal source-parent chain.
 
 ## Result
 
-The endpoint-production audit should not be marked closed.
+The endpoint-production audit is not marked closed.
 
 The honest live burden remains:
 
