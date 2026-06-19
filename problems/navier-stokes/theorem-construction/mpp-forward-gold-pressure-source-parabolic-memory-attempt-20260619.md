@@ -214,7 +214,8 @@ TerminalSourceResidence.A,
 \qquad
 PositiveSourceTraceAC.A,
 \qquad
-PressureLobeSourceTether.A,
+PressureLobeSourceTether.A
+\text{ paired with residence/source-square/no-free-Zeno control},
 \qquad
 NoFreeTerminalZenoDonorChain.A,
 ```
@@ -232,3 +233,10 @@ CompactAncientRigidity.A.
 Failure of pressure memory is not a new hidden branch.  It is the same terminal
 pressure/source pulse: forward-gold still needs a residence/no-jump theorem,
 while CM-facing use must send the retained pulse into Pack/Part/Field exit.
+
+Addendum after the pressure-lobe tether direct test.  A carrier tether alone is
+not a no-jump theorem.  It can identify the pressure lobe with the same native
+source carrier while both measures still charge \(t=T^*\).  To become a
+forward-gold anti-atom theorem, the tether must also supply terminal residence,
+source-square coercivity, signed-saturation/no-free-Zeno depletion, or strict
+no-waste rigidity.
