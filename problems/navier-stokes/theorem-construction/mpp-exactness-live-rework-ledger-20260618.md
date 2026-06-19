@@ -11413,3 +11413,43 @@ The targeted scan finds no remaining `expected powers` or `standard normalized
 CKN` hit on the edited moving-cylinder CKN path.  It finds the replacement
 chain-rule factors and the `normalized CKN epsilon-regularity smallness`
 sentence.  `git diff --check` passes on the edited theorem note and appendix.
+
+## Exact-Potential Convex V2 Conductivity Algebra Rework
+
+Old claim being spent:
+
+The exact-potential convex \(V2\) simultaneous-isotropization note said the
+fixed spatial diffeomorphism uses the "standard conductivity pushforward law"
+and summarized the closing inference as "standard conductivity / metric
+algebra."
+
+Exact replacement:
+
+The note now states that the diffeomorphism changes the principal matrix by the
+determinant-normalized pushforward displayed in `(EVI.6)`, so the exact
+Phung--Wang target `-\nu\Delta_y` forces the pointwise identity `(EVI.5)`.
+It also states the metric definition directly:
+\[
+g=(\det a)^{1/(m-2)}a^{-1}.
+\]
+The closing paragraph now says the geometric inference is exactly `(EVI.6)`
+together with `(EVI.8)`.
+
+Proof or downstream consequence:
+
+The fixed-chart convex route may spend only the displayed pushforward and
+metric identities.  The missing theorem remains simultaneous isotropization /
+time-rigidity of the determinant-normalized anisotropy tensor; the external
+conductivity geometry support sharpens that missing object and does not
+discharge it.
+
+Surfaces edited:
+
+- `theorem-construction/exact-potential-convex-v2-simultaneous-isotropization-wall.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard conductivity` or `standard
+pushforward` phrase on the edited convex \(V2\) path.  It finds the replacement
+phrases `determinant-normalized pushforward`, `(EVI.6)`, and `(EVI.8)`.  `git
+diff --check` passes on the edited note.
