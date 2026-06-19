@@ -180,6 +180,14 @@ language the remaining pieces are:
 and the genuine high-high absorption with constants aligned on the same
 classical surface.
 
+Here the strict-low item means the coefficient-preserving estimate itself, not
+the compressed paraproduct line.  The direct damped test in
+`mpp-forward-gold-strict-low-coefficient-preservation-damped-test-20260619.md`
+shows that the presently available commutator estimates naturally produce
+\(K_NT_N\) or \(\mathcal L_N^2T_N\), both too large under only the energy
+surface.  So the scale-barrier package cannot reuse the old strict-low
+reduction as a closed input.
+
 The key distinction is:
 
 \[
