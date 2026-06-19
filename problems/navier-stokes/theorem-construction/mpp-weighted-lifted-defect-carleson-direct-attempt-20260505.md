@@ -361,4 +361,4 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 ```
 
 No proof of `TerminalSkewLocalizationLedger.A`, `LocalizedSkewCurrent.A`, or
-`ScaleCriticalTreeCarleson.A` should be promoted from this note.
+`ScaleCriticalTreeCarleson.A` is promoted from this note.

@@ -214,6 +214,6 @@ scalar obstruction model, but the live theorem object on the direct branch is
 exactly `ScaleCriticalTreeCarleson.A`; see
 `mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md`.
 
-No release/readout promotion should treat `SOURCE.NO-PULSE.A`,
+No release/readout promotion treats `SOURCE.NO-PULSE.A`,
 `LemmaB.SourceDrain`, `AWG.A`, or `Jump_{avg}\Rightarrow\bot` as unconditional
 until one of these root primitives is proved.

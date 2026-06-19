@@ -63,7 +63,7 @@ source-residue class produced by the older Zeno compactness attempts.
 
 ## New Theorem Pair
 
-The route should be split into exactly two new lemmas.
+The route is split into exactly two new lemmas.
 
 ### 1. TerminalNoFreeSinkEqualityClassProduction.A
 

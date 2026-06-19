@@ -130,8 +130,8 @@ telescoping, proving `SourcePulseExclusion.A`. `\square`
 
 ## Consequence For The Live Frontier
 
-`TwoTowerDonorDepletion.A` should no longer be treated as the sharp selected
-next attack.  The donor-balance half and the non-Zeno entrance half are already
+`TwoTowerDonorDepletion.A` is no longer treated as the sharp selected next
+attack.  The donor-balance half and the non-Zeno entrance half are already
 accounted for.  The active ancestry-side burden is the terminal Zeno closing
 package:
 

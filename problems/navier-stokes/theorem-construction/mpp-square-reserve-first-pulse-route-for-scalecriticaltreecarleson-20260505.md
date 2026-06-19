@@ -270,7 +270,7 @@ ScaleCriticalTreeCarleson.A.
 
 ## Proof Gates To Discharge
 
-The proof should be written through four gates.
+The proof has four gates to discharge.
 
 ### Gate 1: Square-reserve localization
 

@@ -18,7 +18,7 @@ ZeroMomentReserveVisibility.A.
 ```
 
 On the first minimal terminal window, a retained positive donor-square reserve
-surplus bounded below by `c_0>0` with vanishing first signed moment should
+surplus bounded below by `c_0>0` with vanishing first signed moment must
 either produce a same-ledger active height-flux level set or land as Pack
 carrier loss, Part dwell failure, licensed Field source charge, or terminal Zeno
 residue.
