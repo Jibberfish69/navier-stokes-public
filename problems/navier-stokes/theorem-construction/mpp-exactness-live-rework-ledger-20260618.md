@@ -11795,3 +11795,36 @@ do not produce the upgrade.
 Surfaces edited:
 
 - `theorem-construction/mpp-terminal-zeno-refill-proceed-resolution-20260519.md`.
+
+## Terminal Eigenframe Projected-Cutoff Ledger Rework
+
+Old claim being spent:
+
+The terminal eigenframe turnover direct attempt said the commutators are legal
+after the "usual projected-cutoff and boundary ledgers."  That sentence appears
+inside the material derivative split for the turnover charge and could let the
+argument discard projected-cutoff, path, collar, boundary, and frame
+commutators without a displayed estimate.
+
+Exact replacement:
+
+The note now states the exact estimate required before those terms can be
+removed from the analytic wall:
+\[
+\sum_{P\in\mathcal F_N}E_P^\#\tau_P
+\int_{I_P}|\mathrm{PathComm}_P+\mathrm{Comm}^{flow/cut}_{j_P,L}
++\mathrm{FrameComm}_P|\,dt
+\le Legal_N(\mathcal F_N)+o_N(1).
+\]
+
+Proof or downstream consequence:
+
+The eigenframe route may still reduce to
+`TerminalAngularVariationLegal.A`, `TerminalPressureHessianNoSustain.A`, and
+`TerminalBurstDonorSinkCharge.A`, but only after this commutator legal-loss
+estimate is proved or imported.  The pressure Hessian and selected
+source-current remain the analytic wall.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`.
