@@ -10053,3 +10053,45 @@ The targeted scan finds no remaining `simply taken` or `scales comparable`
 phrases in those two notes, live edge, or source-frontier.  The positive scan
 finds the exact admissible-zero statement.  `git diff --check` passes on both
 edited notes.
+
+## TPS Selector-Observability Formal-Reduction Rework
+
+Old claim being spent:
+
+The live selector-observability proof attempt said the simple-top branch was
+"reduced formally" to a misalignment ledger and that a Cauchy-Green slot was
+"formally reduced" to three budgets.  Both passages were backed by displayed
+identities and propositions, so the live theorem surface should spend those
+references directly.
+
+Exact replacement:
+
+The simple-top passage now states that identities `(D.7g)`--`(D.7i)` reduce the
+live theorem to observability of either the angle defect `\alpha_J` or the
+angular-forcing budget `\beta_J^2/g_J`.  The Cauchy-Green passage now states
+that Proposition `D.7mb` reduces `(D.7ma5)` on atom-free selector-good windows
+to the three displayed budgets:
+
+1. the initial projective residual `|m_J(t_0,a,b)|`;
+2. the off-axis forcing integral;
+3. the strain-variation / gap budget.
+
+Proof or downstream consequence:
+
+The TPS route may now spend `(D.7g)`--`(D.7i)` and Proposition `D.7mb`, not a
+generic formal reduction.  The generated `marvin-ingest-notes.yaml` still
+contains old status-summary language such as `formal simple-top reduction` and
+`side is now formal`; those are generated ingest residues, not live theorem
+claims, and are classified separately from the edited proof surface.
+
+Surfaces edited:
+
+- `theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formally reduced` wording in the edited
+TPS theorem surface, live edge, or source-frontier.  The positive scan finds the
+replacement references to `(D.7g)`--`(D.7i)` and Proposition `D.7mb`.
+`git diff --check` passes on the edited proof attempt.  Remaining same-family
+hits in `marvin-ingest-notes.yaml` are preserved generated-status residue.
