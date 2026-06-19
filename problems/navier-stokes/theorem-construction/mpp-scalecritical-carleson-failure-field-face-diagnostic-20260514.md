@@ -338,7 +338,7 @@ is the stronger direct supplier theorem and remains open.
 ```
 
 is the CM face diagnostic. It uses the already installed class-internal theorem
-and should be the first CM-facing use of the Carleson concept.
+and is the first CM-facing use of the Carleson concept.
 
 This also refines the older `SourcePulseFieldExit.A` posture. That older face
 said:

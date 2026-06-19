@@ -174,7 +174,7 @@ control first creation of the height that makes the square pulse possible.
 
 ## 4. New sharper target
 
-The next direct theorem atom should be:
+The next direct theorem atom is:
 
 ```math
 \boxed{

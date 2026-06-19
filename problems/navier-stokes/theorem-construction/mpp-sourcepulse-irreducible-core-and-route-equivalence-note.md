@@ -160,7 +160,7 @@ The formal parent-measure object behind this ancestry spelling is defined in
 
 The localized-core bypass
 `mpp-sourcepulse-localized-core-bypass-of-msclocalize-note.md` records that
-ancestry should start from failure of the localized `SourcePulseExclusion.A`
+ancestry starts from failure of the localized `SourcePulseExclusion.A`
 core, not from the global `MSC.BadAC` product carrier.  The parent-measure
 split `mpp-sourceparent-edge-disintegration-and-antidiffuse-split-note.md`
 then reduces `SourceParent.Measure` to `EdgeDisintegrate.A+AntiDiffuseParent.A`,

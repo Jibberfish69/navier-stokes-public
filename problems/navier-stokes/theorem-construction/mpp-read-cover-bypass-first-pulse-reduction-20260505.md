@@ -212,7 +212,7 @@ TemporalNonAtomicSCF.A:
 ```
 
 This is the `READ.COVER`-bypass analogue of the older source-wall target
-`TemporalNonAtomicSource.A`.  They should not be identified unless a separate
+`TemporalNonAtomicSource.A`.  They are not identified unless a separate
 source/SCF carrier comparison theorem is installed.
 
 With no earlier selected SCF carrier and temporal non-atomicity, the

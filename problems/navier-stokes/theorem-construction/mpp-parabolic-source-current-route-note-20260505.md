@@ -49,7 +49,7 @@ An oriented source current is a skew edge field
 J(P\to P')=-J(P'\to P).
 ```
 
-The local source identity should be read as the Kirchhoff law
+The local source identity is the Kirchhoff law
 
 ```math
 \partial_t E_P+D_P

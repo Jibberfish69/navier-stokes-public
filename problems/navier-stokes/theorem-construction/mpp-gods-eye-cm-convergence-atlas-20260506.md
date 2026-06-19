@@ -176,8 +176,8 @@ ZenoBoundedClass_B.A + ZenoResidueLiouville_B.A.
 
 ## 4. Source-wall alias collapse
 
-The following should not be tracked as independent lower roots unless a new
-proof note installs a genuinely independent theorem.
+The following are not tracked as independent lower roots unless a new proof note
+installs a genuinely independent theorem.
 
 ```text
 LocalPositiveSourceCarleson.A
@@ -353,9 +353,9 @@ intake candidate
 -> synchronize live surfaces
 ```
 
-The pipeline should never stop at "next move" when the next move is
-machine-actionable.  It should either write the theorem attempt, demote the
-false promotion, or update the exact open atom.
+The pipeline never stops at "next move" when the next move is
+machine-actionable.  It either writes the theorem attempt, demotes the false
+promotion, or updates the exact open atom.
 
 ## 9. Subagent work allocation
 

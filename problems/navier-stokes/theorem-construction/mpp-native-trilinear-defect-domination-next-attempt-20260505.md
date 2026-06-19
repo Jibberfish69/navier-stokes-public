@@ -397,4 +397,4 @@ ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A.
 ```
 
 No closure of `SourcePulseExclusion.A`, `NativeSourceAC.A`, or the periodic
-Navier-Stokes target should be promoted from this attempt.
+Navier-Stokes target is promoted from this attempt.

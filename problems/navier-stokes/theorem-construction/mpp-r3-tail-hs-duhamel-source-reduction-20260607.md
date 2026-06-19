@@ -167,13 +167,13 @@ export branch and must be replaced by a sharper exterior source mechanism.
 
 ## Effect On The Completion Map
 
-The `R^3` branch should no longer say only
+The `R^3` branch no longer says only
 
 ```text
 OriginalSmoothData_R3 => Tail.Hs_R3.
 ```
 
-It should say
+It says
 
 ```text
 OriginalSmoothData_R3

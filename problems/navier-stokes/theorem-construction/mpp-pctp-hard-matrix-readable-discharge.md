@@ -212,4 +212,5 @@ This note is aimed exactly at the live matrix obligation
 pctp-hard-terminal-tail-uniformization.
 ```
 
-It should be read together with the listed source surfaces as the direct theorem-facing discharge packet for that obligation.
+It is read together with the listed source surfaces as the direct theorem-facing
+discharge packet for that obligation.
