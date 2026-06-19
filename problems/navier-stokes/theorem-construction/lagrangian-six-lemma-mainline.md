@@ -1548,7 +1548,7 @@ So the current status is:
 
 ```math
 \boxed{
-\text{Lemma 6 and the contradiction theorem are formal once }
+\text{Lemma 6 and the contradiction theorem are conditional consequences once }
 \text{the far-corona theorem }(19n8)\text{ lands}
 \text{ and the remaining proposition-level packet threading in }(19o')\text{ is written.}
 }
