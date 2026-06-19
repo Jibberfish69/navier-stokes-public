@@ -7,7 +7,7 @@ The YAML edge file is the controlling surface:
 ## Active Route
 
 - Live route: `clay-cm-contrapositive-witness-consumption`
-- Primary frontier: `terminal-time-face-new-production-gold-obstruction`
+- Primary frontier: `release-exactness-and-manuscript-refresh`
 - Current route name: `ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A`
 - Current annular boundary:
   gold has been audited to the exact

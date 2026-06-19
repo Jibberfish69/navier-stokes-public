@@ -21,10 +21,10 @@ status:
   accepted_replacement:
     patch: CMContrapositiveRefereeInventoryPatch.A
     theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-    replaces: terminal-time-face-new-production-gold-obstruction
+    replaces: release-exactness-and-manuscript-refresh
     single_gate_paths:
       gate_model: one referee gate with Gold and Silver acceptance paths
-      gate_id: terminal-time-face-new-production-gold-obstruction
+      gate_id: release-exactness-and-manuscript-refresh
       accepted_resolution: CMContrapositiveRefereeInventoryPatch.A
       accepted_path: Silver
       anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
@@ -284,10 +284,10 @@ reconciled_by: problems/navier-stokes/theorem-construction/mcp-cmcontrapositiver
 accepted_replacement:
   patch: CMContrapositiveRefereeInventoryPatch.A
   theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
-  replaces: terminal-time-face-new-production-gold-obstruction
+  replaces: release-exactness-and-manuscript-refresh
   single_gate_paths:
     gate_model: one referee gate with Gold and Silver acceptance paths
-    gate_id: terminal-time-face-new-production-gold-obstruction
+    gate_id: release-exactness-and-manuscript-refresh
     accepted_resolution: CMContrapositiveRefereeInventoryPatch.A
     accepted_path: Silver
     anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive

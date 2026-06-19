@@ -13,7 +13,7 @@ certification:
   review_verdict: blocked
   theorem_packet_status: theorem-open
 audit_certification:
-  audit_status: terminal-time-face-new-production-open
+  audit_status: release-exactness-and-manuscript-refresh-open
   audit_completion_tier: cm-referee-gate-passed-with-gold-silver-paths
   audit_review_verdict: blocked
 branch_audit:
@@ -220,7 +220,7 @@ surface_snapshot:
       - problems/navier-stokes/theorem-packet.yaml
       - problems/navier-stokes/theorem-repair.yaml
       - problems/navier-stokes/dependency-discharge.yaml
-      installed_root_group_id: terminal-time-face-new-production-gold-obstruction
+      installed_root_group_id: release-exactness-and-manuscript-refresh
       proof_mode_must_be_selected: true
     target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
     target_preflight: &2
@@ -448,7 +448,7 @@ surface_snapshot:
       current_role: infrastructure repair; not mathematical progress unless it materializes
         theorem work
     open_root_group: &5
-      group_id: terminal-time-face-new-production-gold-obstruction
+      group_id: release-exactness-and-manuscript-refresh
       group_label: Terminal time-face new-production frontier after the annular residual
         specific case exhaustion.
       live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
@@ -463,7 +463,7 @@ surface_snapshot:
         Gold-side child, and do not split Gold and Silver into separate gates.
       exact_live_theorem_grade_burden: &1
         status: cm-referee-gate-passed-with-gold-silver-paths
-        burden_id: terminal-time-face-new-production-gold-obstruction
+        burden_id: release-exactness-and-manuscript-refresh
         proof_mode: single_referee_gate_with_gold_silver_paths
         target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
         theorem_grade_statement: 'The original acceptance gate had smuggled in Gold-path
@@ -473,7 +473,7 @@ surface_snapshot:
           to the CM test, the exhaustive branch table consumes every admissible branch
           by admissibility failure, continuation/readout recovery, or a concrete Pack/Part/Field
           face failure supporting Exit(Q):=not Member(Q).'
-        active_container: terminal-time-face-new-production-gold-obstruction
+        active_container: release-exactness-and-manuscript-refresh
         respawn_cell:
         respawn_stage:
         allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
@@ -869,7 +869,7 @@ cm_contrapositive_referee_gate:
   pass: false
   release_eligible: false
   blockers:
-  - 'terminal-time-face-new-production-gold-obstruction: Prove TerminalTimeFaceAntiAtom.A
+  - 'release-exactness-and-manuscript-refresh: Prove TerminalTimeFaceAntiAtom.A
     / TerminalNewProductionTheorem_{B_ASAC}.A, or replace it with a noncircular finite-breakdown
     exclusion that lands every admitted surviving terminal residual object through
     Member(Q) or a concrete Pack/Part/Field face failure.'

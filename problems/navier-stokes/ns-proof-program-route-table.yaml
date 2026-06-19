@@ -965,7 +965,7 @@ proof_program_topology:
   current_role: infrastructure repair; not mathematical progress unless it materializes
     theorem work
 open_root_group:
-  group_id: terminal-time-face-new-production-gold-obstruction
+  group_id: release-exactness-and-manuscript-refresh
   group_label: Terminal time-face new-production frontier after the annular residual
     specific case exhaustion.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
@@ -980,7 +980,7 @@ open_root_group:
     Gold-side child, and do not split Gold and Silver into separate gates.
   exact_live_theorem_grade_burden: &1
     status: cm-referee-gate-passed-with-gold-silver-paths
-    burden_id: terminal-time-face-new-production-gold-obstruction
+    burden_id: release-exactness-and-manuscript-refresh
     proof_mode: single_referee_gate_with_gold_silver_paths
     target_object: CMContrapositiveRefereeInventoryPatch.A / ExhaustiveContrapositiveFiniteBreakdownExclusion.A
     theorem_grade_statement: 'The original acceptance gate had smuggled in Gold-path
@@ -990,7 +990,7 @@ open_root_group:
       exhaustive branch table consumes every admissible branch by admissibility failure,
       continuation/readout recovery, or a concrete Pack/Part/Field face failure supporting
       Exit(Q):=not Member(Q).'
-    active_container: terminal-time-face-new-production-gold-obstruction
+    active_container: release-exactness-and-manuscript-refresh
     respawn_cell:
     respawn_stage:
     allowed_input_boundary: Gold and Silver are acceptance paths inside one gate.
