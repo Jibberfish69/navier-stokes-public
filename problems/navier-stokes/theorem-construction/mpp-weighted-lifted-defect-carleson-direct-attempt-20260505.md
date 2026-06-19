@@ -30,7 +30,7 @@ strain-production carrier already isolated in the native source-wall notes.
 
 Let `\mathcal F_N` be a bounded-overlap same-fluid terminal active packet
 family, and let `\operatorname{Sat}(\mathcal F_N)` denote a finite same-fluid
-formal signed hull when a truncation is needed.  For each formal paired edge
+saturated signed hull when a truncation is needed.  For each paired edge
 `e=(P,Q)` touching the usable terminal ledger, subtract the bare unweighted
 antisymmetric dyadic current.  The remaining live weighted/lifted defect has
 the form
