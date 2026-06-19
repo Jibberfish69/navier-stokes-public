@@ -12810,6 +12810,108 @@ AncestryDrain note.  It finds the replacement local tower-flux identity and
 displayed donor-balance insufficiency.  `git diff --check` passed on the
 edited note and this ledger.
 
+## Potential Average Gauge Rework
+
+Old claim being spent:
+
+The retained potential average positive-transfer note said the potential has
+the "usual additive gauge freedom."
+
+Exact replacement:
+
+The note now states the exact invariance: `Psi(sigma,t)` may be shifted by any
+`\sigma`-independent gauge `C(t,x)`.
+
+Proof or downstream consequence:
+
+The transfer only spends gauge-invariance of `partial_sigma Psi` and
+`Omega_J[Psi]`; it does not rely on an unnamed potential convention.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-retained-potential-average-positive-transfer-direct-attempt-20260609.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Flow-Map Pressure Gauge Rework
+
+Old claim being spent:
+
+The flow-map and tower continuation note recovered pressure up to the "usual
+additive normalization."
+
+Exact replacement:
+
+The continuation input now fixes the additive pressure gauge explicitly:
+`int_Omega p(t,x) dx=0` in the periodic case, or the declared decay/local
+normalization in the whole-space case.
+
+Proof or downstream consequence:
+
+The relaunch theorem spends a fixed pressure gauge for the Poisson recovery
+`-Delta p=partial_i partial_j(u_i u_j)`, not an unnamed normalization.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-flow-map-and-tower-continuation-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Periodic Final Pressure Gauge Rework
+
+Old claim being spent:
+
+The final periodic theorem statement said the solution uses the "usual periodic
+pressure normalization."
+
+Exact replacement:
+
+The note now fixes the pressure gauge by
+`int_{T^3} p(t,x) dx=0` for every `t`.
+
+Proof or downstream consequence:
+
+The theorem statement no longer hides the pressure equivalence class behind
+normalization language; the pressure is the zero-mean representative.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-final-theorem-statement-periodic-global-smoothness.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## SCF-AACT Periodic Pressure Gauge Rework
+
+Old claim being spent:
+
+The SCF/AACT elliptic source endpoint package used the "usual periodic
+zero-mean convention" for global pressure.
+
+Exact replacement:
+
+The note now fixes the global periodic pressure gauge by
+`int_{T^3}p(t,x) dx=0` for every `t`, while retaining the local ball average
+`p_R^{norm}(t)` for the scale-critical packet.
+
+Proof or downstream consequence:
+
+The local normalized pressure term spends the displayed ball-average
+normalization relative to a fixed global zero-mean representative.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-scf-aact-elliptic-source-endpoint-branch-package.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:

@@ -401,8 +401,10 @@ The exact continuation input is the `H^s`, `s>5/2`, Navier--Stokes local
 existence and uniqueness theorem on `\Omega`: for every divergence-free datum
 `v_0\in H^s(\Omega)` with `\|v_0\|_{H^s}\le M_s`, there is a lifespan
 `\tau=\tau(\nu,s,M_s)>0` and a unique solution in `C([0,\tau];H^s)`, with the
-pressure recovered from `-\Delta p=\partial_i\partial_j(u_i u_j)` up to the
-usual additive normalization.  Choose `t_n\uparrow T` with
+pressure recovered from `-\Delta p=\partial_i\partial_j(u_i u_j)` after fixing
+the additive gauge, for example `\int_\Omega p(t,x)\,dx=0` in the periodic
+case or the declared decay/local normalization in the whole-space case.
+Choose `t_n \uparrow T` with
 `T-t_n<\tau/2`.  Relaunching from the datum `u(t_n)` gives a solution on
 `[t_n,t_n+\tau]`; uniqueness identifies it with the original classical solution
 on `[t_n,T)`.  Since `t_n+\tau>T`, the same solution extends past `T`.

@@ -29,7 +29,12 @@ u\in C^\infty([0,\infty)\times\mathbb T^3),
 \qquad p\in C^\infty([0,\infty)\times\mathbb T^3),
 ```
 
-with the usual periodic pressure normalization.
+with the pressure gauge fixed by
+
+```math
+\int_{\mathbb T^3}p(t,x)\,dx=0
+\qquad\text{for every }t.
+```
 
 ## Internal theorem package hidden behind named lemmas
 

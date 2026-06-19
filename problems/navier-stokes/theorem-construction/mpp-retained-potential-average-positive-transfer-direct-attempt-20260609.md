@@ -32,7 +32,7 @@ from the signed source channel to the positive stress source
 
 ## Gauge test
 
-The potential has the usual additive gauge freedom:
+The potential is invariant under adding any `\sigma`-independent gauge:
 
 ```math
 \Psi(\sigma,t)\mapsto \Psi(\sigma,t)+C(t,x).

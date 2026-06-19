@@ -30,7 +30,12 @@ where `b_R(t)` is the spatial average of `u` on `B(c(t),R)` and `A_R(t)` is the 
 p_R^{norm}(t)=\fint_{B(c(t),R)}p(x,t)\,dx
 ```
 
-with the usual periodic zero-mean convention for the global pressure.
+with the global periodic pressure gauge fixed by
+
+```math
+\int_{\mathbb T^3}p(t,x)\,dx=0
+\qquad\text{for every }t.
+```
 
 The base scale-critical packet is
 
