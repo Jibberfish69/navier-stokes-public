@@ -79,16 +79,20 @@ M_0(s)=\int {1\over2}|v|^2\rho\,dy.
 \tag{RF.5}
 ```
 
-The linear heat/Ornstein-Uhlenbeck part is coercive in Gaussian space.  Formally,
+The linear heat/Ornstein-Uhlenbeck part is coercive in Gaussian space.  The
+estimate this attempt would need is
 
 ```math
 {d\over ds}M_0(s)
-\lesssim
--\int |\nabla v|^2\rho\,dy
--\int |v|^2\rho\,dy
-+\text{nonlinear/pressure flux}.
+\le
+-c_1\int |\nabla v|^2\rho\,dy
+-c_2\int |v|^2\rho\,dy
+\mathcal F_{\rm nl/pr}(s),
 \tag{RF.6}
 ```
+
+where `\mathcal F_{\rm nl/pr}` is the convection and pressure contribution
+computed in `(RF.7)` and `(RF.8)` below.
 
 The obstruction is explicit.  The convection term gives
 
