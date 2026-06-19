@@ -283,7 +283,7 @@ This is the desired Pack/Part/Field exhaustion.
 ### Row Addendum: Terminal L3 Duhamel Mass
 
 The June 5 row audit adds one concrete finite-obstruction row that had been
-blurred with generic public-critical translator support.
+blurred with unlocalized public-critical translator support.
 
 For a terminal `L^3` Duhamel response mass on the same Navier-Stokes witness
 record, the CM-test entry is supplied by
