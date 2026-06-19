@@ -4036,7 +4036,7 @@ that this positive-estimate theorem must pass before it can be promoted as a
 non-smuggling receiver supplier, see
 [mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ofp-dtc-compactness-scaling-circularity-audit-note.md).
 
-## Receiver-Side Formal Assembly After `DTC.A`
+## Receiver-Side Conditional Assembly After `DTC.A`
 
 Once `DTC.A_{\mathfrak p}` is proved for every
 `\mathfrak p\in\mathscr P_{\rm req}`, Corollary `DTC.C` gives
