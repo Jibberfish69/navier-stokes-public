@@ -139,7 +139,7 @@ So the current stack no longer fails at the choice of `\Xi_J`; it fails at the
 observability theorem from `W_J` to a concrete directional ledger.
 
 This failure is not just a missing proof attempt. The selector bridge note now
-records a formal theorem-schema no-go proposition:
+records a theorem-schema no-go proposition:
 
 ```text
 signless pair-defect control alone cannot determine the one-sided directional
@@ -158,7 +158,8 @@ The cycle-exact branch is therefore honest in the following form:
 closed:
 - spectral-floor and bundle-angle losses are peeled off;
 - loop/circulation loss vanishes on the exact-potential branch;
-- `SG.4B` extraction from a selector-defect budget is formal.
+- `SG.4B` extraction from a selector-defect budget is downstream bookkeeping
+  once the directional observability ledger `PD.70z` has been supplied.
 
 still open:
 - the directional observability theorem `PD.70z`;
@@ -175,7 +176,7 @@ still open:
   shadow-window support localization and a quantitative occupancy bound by
   `(CN.13t0)`-`(CN.13t7)` with exact occupancy ledger `(ST.12c)`.
 
-conditional and formal:
+conditional downstream:
 - once a measurable polarity map / expanding-direction readout is supplied, the
   downstream discharge to `PD.70`, `PD.70aa`, and `SG.4B` is already bookkeeping.
 ```
