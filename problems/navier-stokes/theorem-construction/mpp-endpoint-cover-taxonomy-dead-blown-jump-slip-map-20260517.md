@@ -175,8 +175,8 @@ Jump.
 \tag{ECOV.10}
 ```
 
-The endpoint matrix keeps those overlaps typed through cross bundles. It should
-not be read as a mutually exclusive phase diagram.
+The endpoint matrix keeps those overlaps typed through cross bundles. It is not
+read as a mutually exclusive phase diagram.
 
 ## Where This Sends The Work
 
