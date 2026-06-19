@@ -111,7 +111,7 @@ without a legal charge, one unit of twist can cost arbitrarily little:
 \tag{DT.9}
 ```
 
-Here `Theta_1;L` denotes the standard one-twist collar test map with the twist
+Here `Theta_1;L` denotes the declared one-twist collar test map with the twist
 spread uniformly across collar length `L`, and `C_tw` is independent of `L`.
 
 So Dehn twists do not by themselves close the Zeno branch.  They split it:

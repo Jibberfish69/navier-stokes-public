@@ -214,7 +214,7 @@ that geometry is legal inside the MPP class.
 ### Body III
 
 Body III is exact same-surface object production. Its feared failure picture is
-hidden defect closure: a sequence of approximate flows converges to a fake limit
+hidden defect closure: a sequence of prelimit flows converges to a fake limit
 or a bookkeeping ghost that the true fluid never lawfully owns.
 
 Its reverse role is:

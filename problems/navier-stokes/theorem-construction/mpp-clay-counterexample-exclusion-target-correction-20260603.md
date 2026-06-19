@@ -80,7 +80,7 @@ June 1 bridge as the next burden. It must use this corrected target:
 5. check that the pass branch remains the in-class continuation branch without
    demanding one named positive bootstrap estimate.
 
-If every terminal obstruction type is already covered at that standard, the
+If every terminal obstruction type is already covered by the installed row audit, the
 remaining work is manuscript/referee presentation. If one type is not covered,
 that type is the true blocker. A generic "Exit is inadmissible" bridge is not
 the true blocker.

@@ -278,7 +278,7 @@ So the minimal genuinely new mathematics upstream of `D.7mq` is:
 
 In exact-potential language, the projective branch is now waiting on one
 selector-good differentiability-exceptional-set theorem on the active pair
-packet and one selector-shape isotropy theorem. More sharply: on the standard
+packet and one selector-shape isotropy theorem. More sharply: on the declared
 selector-scale realization `\xi_{ab}=b-a` or `\xi_{ab}=(b-a)/\ell_J`, the
 linearization side admits the imported descendant `TPS.4u => DiffExc =>
 PTC-Lin.A`. The bounded-collar part of `PTC-Lin.A` is already downstream of

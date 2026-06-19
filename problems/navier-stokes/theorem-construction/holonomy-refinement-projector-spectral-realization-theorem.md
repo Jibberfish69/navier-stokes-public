@@ -235,7 +235,7 @@ Y\in K_D:
 \right\}.
 ```
 
-Since the `S_j` are mutually orthogonal projections, this is the standard
+Since the `S_j` are mutually orthogonal projections, this is the
 spectral-series construction of a positive self-adjoint operator on `K_D`.
 
 ### Step 5. Recover the selector family as spectral truncations

@@ -69,7 +69,7 @@ and no smaller already-routed first failure.
 ```
 
 This is enough to define a minimal bubble for the selected Pack functional. It
-does not automatically identify that bubble with a standard Navier-Stokes
+does not automatically identify that bubble with a classical Navier-Stokes
 critical element.
 
 ## Critical Norm Production Test

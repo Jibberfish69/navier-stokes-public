@@ -352,8 +352,8 @@ cannot be controlled at the `L^2` level by a bound of the form
 ```
 
 That estimate is scale-incompatible with the three-dimensional
-Navier-Stokes scaling and does not follow from the standard endpoint
-commutator machinery. Any valid `H3` closure must therefore replace it with a
+Navier-Stokes scaling and does not follow from the endpoint commutator estimates
+listed in this schema. Any valid `H3` closure must therefore replace it with a
 genuinely critical control input, such as an `L^\infty_x`/`BMO`-level bound
 or a shellwise gain estimate that supplies the missing half-derivative before
 the Gronwall step.

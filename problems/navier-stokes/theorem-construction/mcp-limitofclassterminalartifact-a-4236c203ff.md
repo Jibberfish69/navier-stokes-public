@@ -132,7 +132,7 @@ Therefore the endpoint strip cannot be a valid survivor in any class-membership 
 
 ## What this proves
 
-This proves the route-relative theorem under the standard class-as-uniform-budget reading:
+This proves the route-relative theorem under the class-as-uniform-budget reading:
 
 ```text
 finite L1 endpoint strip + infinite every-super-L1 cost

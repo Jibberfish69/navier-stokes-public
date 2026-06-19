@@ -261,7 +261,7 @@ pointwise endpoint matrix only after the two readout suppliers are present.
 - The compactness step needs a strict-margin bad-set exclusion, such as
   `CAVG.J_{\varepsilon_m/2}` plus `End_NS_avg => \neg Jump_avg`.
 - `ATD_m^\varepsilon` must be applied only on CKN-admissible same-fluid
-  cylinders uniformly comparable to standard parabolic cylinders, with suitable
+  cylinders uniformly comparable to ordinary parabolic cylinders, with suitable
   solution hypotheses in force.
 - `DTC.Read` requires the pressure component of `K_q`; velocity tower readout
   alone is insufficient.

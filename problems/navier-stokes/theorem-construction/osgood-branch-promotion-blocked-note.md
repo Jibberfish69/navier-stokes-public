@@ -16,7 +16,7 @@ The Osgood condition is not available on the current lifted carrier surface. The
 \Phi_s(r):=1+r+r^{3/2}
 ```
 
-or stronger polynomial growth from the standard lifted tame products.
+or stronger polynomial growth from the displayed lifted tame product estimates.
 
 Since
 
