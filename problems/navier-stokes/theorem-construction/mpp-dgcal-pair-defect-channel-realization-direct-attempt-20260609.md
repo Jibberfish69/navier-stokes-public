@@ -59,7 +59,7 @@ pair-to-cocycle error ledger.
 
 ## Attempt 1: Use Pair Linearization Alone
 
-The linearization note isolates `PTC-Lin.A`. On the standard selector-scale
+The linearization note isolates `PTC-Lin.A`. On the declared selector-scale
 branch it records a source-backed route through the qualitative differentiability
 supplier:
 
@@ -140,6 +140,6 @@ closure.
 `NS-LIVE-20260609-135`: `DGCalPairDefectChannelRealization.A` is still open.
 The installed `D.7mn -> D.7mq` reduction shows that observed-packet realization
 requires pair linearization plus selector-shape normalization and a quantitative
-Cauchy-Green gap. The pair-linearization side has a standard source-backed
-route, but the selector-shape normalization theorem remains unpaid. The next
-target is `PTCShapeNormalization.A`.
+Cauchy-Green gap. The pair-linearization side has the displayed source-backed
+route `TPS.4u => DiffExc => PTC-Lin.A`, but the selector-shape normalization
+theorem remains unpaid. The next target is `PTCShapeNormalization.A`.
