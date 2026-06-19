@@ -11767,3 +11767,31 @@ not a raw construction from `W_J` or from the local tuple alone.
 Surfaces edited:
 
 - `theorem-construction/observable-projector-surrogate-construction.md`.
+
+## Terminal Zeno Refill Holder Anti-Atom Rework
+
+Old claim being spent:
+
+The Zeno refill resolution note said the B_ASAC rigid subclass proof is "the
+expected Holder anti-atom argument."  That phrase named a proof without stating
+the exact hypothesis or inequality that kills a terminal time-face atom.
+
+Exact replacement:
+
+The note now states the exact conditional step: under `RH(p)`, if the terminal
+source marginal has density `g` with `\|g\|_{L^p_s}\le C` for some `p>1`, then
+for every terminal interval `I_h`,
+\[
+\int_{I_h} g(s)\,ds\le \|g\|_{L^p_s}|I_h|^{1-1/p}\le C h^{1-1/p}\to0.
+\]
+
+Proof or downstream consequence:
+
+The Liouville/anti-atom conclusion may be spent only after producing
+`B_{ASAC}=>B_{ASAC}^{RH(p)}` or an equivalent super-`L^1_s` thickness theorem.
+The existing `B_ASAC` clauses still allow terminal `L^1_s` concentration and
+do not produce the upgrade.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-zeno-refill-proceed-resolution-20260519.md`.
