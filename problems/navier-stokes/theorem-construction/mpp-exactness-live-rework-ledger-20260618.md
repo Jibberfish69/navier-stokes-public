@@ -14137,3 +14137,32 @@ Second downstream pass and validation:
 The targeted scan for these proof-force phrases is clean on live files; old
 phrases remain only in ledger evidence.  `git diff --check` passed on the
 edited surfaces and this ledger.
+
+## Same-Scale Finite-Window Meaning Repair
+
+Old claim being spent:
+
+The same-scale edge-family note used the phrase `same-scale` while introducing
+the coefficient package.  Although the formulas already defined the finite
+annular window, the prose did not explicitly exclude the same failure type as
+the pulling-teeth estimate: comparable-amplitude or linear-profile intuition.
+
+Exact replacement:
+
+The note now states that `same-scale` means exactly the finite annular index
+window `|m-N|\le C_{ss}`.  It does not assert comparable amplitudes, a linear
+profile, or a scale estimate.
+
+Proof or downstream consequence:
+
+The coefficient-bearing edge estimate may spend only the displayed finite-window
+coefficient `Theta_N^{ss,sharp}` and its weighted-carrier inclusion.  It cannot
+use `same-scale` as a heuristic amplitude relation or profile assumption.
+
+Surfaces edited:
+
+- `theorem-construction/same-scale-edge-family-and-model-estimate-note.md`.
+
+Second downstream pass and validation:
+
+Pending targeted same-scale scan and `git diff --check`.
