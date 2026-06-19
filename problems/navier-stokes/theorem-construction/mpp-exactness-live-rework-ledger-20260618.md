@@ -11739,3 +11739,31 @@ signed-saturation inputs are all supplied.
 Surfaces edited:
 
 - `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`.
+
+## Observable Projector Output-Route Rework
+
+Old claim being spent:
+
+The observable projector surrogate note said the branch-local projector packet
+is "expected to output" one transported reference projector field.  Since this
+sentence sits inside the exact theorem claim for `OPS.A`, it could treat the
+reference projector as an assumed packet product instead of a downstream
+construction burden.
+
+Exact replacement:
+
+The note now states that the branch-local packet supplies the theorem only
+after the transported reference projector is produced by downstream
+synchronization, transport-coherence, and gauge/phase normalization laws.  On
+the current exact-potential route, the exact reduction is
+`PTC-Lin + PTC-Shape => D.7mq => synchronized projective/reference packet`.
+
+Proof or downstream consequence:
+
+`OPS.A` may spend the synchronized reference projector only through the
+`PTC-Lin` / `PTC-Shape` / `D.7mq` route or an equivalent theorem packet.  It is
+not a raw construction from `W_J` or from the local tuple alone.
+
+Surfaces edited:
+
+- `theorem-construction/observable-projector-surrogate-construction.md`.
