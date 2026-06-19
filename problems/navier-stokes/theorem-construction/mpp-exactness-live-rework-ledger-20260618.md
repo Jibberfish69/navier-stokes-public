@@ -15552,6 +15552,72 @@ parses as YAML, a fixed-string residue search over the edited note and
 `immediate`, `schematic`, or `comparable` shortcut on this slice, and
 `git diff --check` passes for the edited files.
 
+## Authority-Derived Comparable Constant Repair
+
+Old claim being spent:
+
+The active authority-derived theorem-note scan still found `comparable` carrying
+proof-force conditions in theorem statements, route targets, and proof attempts:
+heat-window length, selected-carrier mass, multi-profile splitting, extremizer
+degeneracy, graph curvature energy, same-fluid window size, finite-band
+interactions, geometric sums, source-pulse parent mass, and Liouville-class
+conditions.
+
+Exact replacement:
+
+Each occurrence was rewritten as an explicit constant statement, finite-band
+condition, or exact formula.  The replacements include:
+
+- heat windows now satisfy `c_h\tau_j <= |W| <= C_h\tau_j`;
+- selected carrier currents now require
+  `c_car lambda_m(X) <= M(T_m^{car}) <= C_car lambda_m(X)`;
+- multi-profile and extremizer obstructions now specify lower-weight or
+  selected-functional thresholds such as `c_bub`, `c_ext`, and `c_stat`;
+- the minimal-Zeno graph estimate now points to the two-sided estimate
+  `(NEX.26g)` with constants independent of `k`;
+- the JAVG same-fluid target now requires a window `W_R'` with
+  `c_w R^2 <= |I(W_R')| <= C_w R^2` and
+  `D(W_R')+P^{loc}(W_R') >= c_a A_R^{aff}`;
+- finite-band interactions now require `|k-j| <= C_{\rm band}`;
+- the scalecritical tree inner sum now uses
+  `sum_{N<k<M-4}2^k = 2^{M-4}-2^{N+1}` and the exact two-sided bound for
+  `M>=N+6`;
+- source-pulse ancestry parents now carry generation-independent constants
+  `c_p,C_p`;
+- the Liouville-class note now names the Serrin-critical condition
+  `u_* in L^q_s L^p_y`, `2/q+3/p=1`, `3<p<=infty`.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-active-height-flux-trichotomy-route-20260506.md`.
+- `theorem-construction/mpp-forward-gold-carrier-residual-bridge-direct-attempt-20260618.md`.
+- `theorem-construction/mpp-forward-gold-door2-gauge-stationarity-attempt-20260618.md`.
+- `theorem-construction/mpp-forward-gold-door2-zero-flux-drift-visibility-attempt-20260618.md`.
+- `theorem-construction/mpp-forward-gold-minimal-zeno-trace-noescape-attempt-20260618.md`.
+- `theorem-construction/mpp-jump-avg-branch-native-noescape-hard-wall-note.md`.
+- `theorem-construction/mpp-native-trilinear-defect-domination-direct-attempt-note.md`.
+- `theorem-construction/mpp-scalecritical-tree-carleson-next-attempt-20260505.md`.
+- `theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md`.
+- `theorem-construction/mpp-zeno-residue-liouville-target-attack-note.md`.
+
+Downstream consequence:
+
+These surfaces can no longer spend "comparable" as a hidden profile or scale
+assumption.  Any downstream use must supply the named constants, finite-band
+bound, window-size bound, parent-mass bound, or exact summation formula before
+using the theorem target as paid.
+
+Second downstream pass and validation:
+
+A fixed-string marker scan over the ten edited notes finds no remaining
+`comparable`, `O(1)`, `\lesssim`, `\gtrsim`, `\sim`, `typical`, `schematic`,
+`same order`, `roughly`, or `approximately` hits.  The active authority-derived
+scan over 309 cited theorem surfaces from `current-route-dependency-graph.yaml`,
+`source-frontier.yaml`, `live-theorem-edge.yaml`, and `theorem-packet.yaml`
+finds zero remaining hits for `should`, `O(1)`, `\lesssim`, `\gtrsim`, `\sim`,
+`approximately`, `roughly`, `same order`, `typical`, `immediate`, `schematic`,
+and `comparable`.  `git diff --check -- problems/navier-stokes` passes.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
