@@ -12588,7 +12588,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard endpoint time-marginal` phrase
+in the edited B-ASAC note.  It finds the replacement endpoint time-marginal
+counterexample and the explicit reverse-Holder / super-`L^1_s` gap.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## ECQ Whole-Space/Patching Clause Rework
 
@@ -12617,7 +12620,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard whole-space or periodic`
+tail/patching phrase in the edited ECQ note.  It finds the replacement
+periodic finite-cover clause and whole-space same-depth tail condition.  `git
+diff --check` passed on the edited note and this ledger.
 
 ## Quantitative Source-Dissipation CKN-Carrier Rework
 
@@ -12644,7 +12650,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual local dissipation` phrase in the
+edited QSD-AC note.  It finds the replacement displayed CKN/local-energy
+quantities and the separate selected-source tether burden.  `git diff --check`
+passed on the edited note and this ledger.
 
 ## Pack.TTU Enstrophy-To-Continuation Rework
 
@@ -12672,7 +12681,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard periodic` phrase in the edited
+Pack.TTU fallback note.  It finds the replacement `H^s`, `s>5/2`, relaunch
+criterion and the explicit `QBoundToHsContinuation.A` missing upgrade.  `git
+diff --check` passed on the edited note and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
