@@ -8,9 +8,10 @@ Direct test of whether CKN critical concentration supplies the missing
 forward-gold coercive cap for the final heat-scale source-balanced packet.
 
 It does not.  CKN is the right visibility readout: a retained heat-scale packet
-has order-one normalized \(L^3\)/pressure mass.  But the unnormalized cubic mass
-of one packet is \(O(r^2)\), so a dyadic terminal Zeno stack can have infinitely
-many order-one normalized packets while keeping finite physical cubic mass.
+has normalized \(L^3\)/pressure mass bounded below by a fixed positive constant.
+But that exact lower bound only implies unnormalized cubic-pressure mass of
+size \(r^2\).  A dyadic terminal Zeno stack can have infinitely many normalized
+packets while keeping finite physical cubic-pressure mass.
 
 The missing theorem is not ordinary CKN visibility.  It is an unweighted
 selected-packet Carleson reserve for the normalized CKN charges.
@@ -39,54 +40,51 @@ the CKN-scale quantity is
 \tag{CKH.2}
 ```
 
-A critical packet has the scaling
+A retained CKN-visible packet means the normalized charge is bounded below:
 
 ```math
-|u|\sim {1\over r},
+c_0
+\le
+\mathcal C(Q_r)
+\le
+C_0,
 \qquad
-|p|\sim {1\over r^2}.
+0<c_0\le C_0<\infty.
 \tag{CKH.3}
 ```
 
-Then
+This is not a profile assumption on \(u\) or \(p\).  It permits arbitrary
+spatial distribution inside \(Q_r\).  By the definition `(CKH.2)`, it is exactly
+equivalent to
 
 ```math
-\int_{Q_r}|u|^3\,dxdt
-\sim
-r^{-3}\,r^3\,r^2
-=
-r^2,
+c_0 r^2
+\le
+\int_{Q_r}
+\left(|u|^3+|p|^{3/2}\right)\,dxdt
+\le
+C_0 r^2.
 \tag{CKH.4}
 ```
 
-and similarly
+Thus the physical mass seen by CKN on one packet is \(r^2\)-weighted.  The
+visibility statement is
 
 ```math
-\int_{Q_r}|p|^{3/2}\,dxdt
-\sim
-r^2.
+\mathcal C(Q_r)\ge c_0,
 \tag{CKH.5}
 ```
 
-Therefore
-
-```math
-\mathcal C(Q_r)\sim1.
-\tag{CKH.6}
-```
-
-This is exactly why CKN sees the critical heat-scale packet.
+which is exactly why CKN sees the critical heat-scale packet.
 
 With viscosity restored and velocity scale \(|u|\sim\nu/r\), pressure scale
 \(|p|\sim\nu^2/r^2\), and heat time \(r^2/\nu\), the unnormalized cubic mass is
 
 ```math
 \int_{Q_r}|u|^3\,dxdt
-\sim
-\left({\nu\over r}\right)^3r^3{r^2\over\nu}
-=
-\nu^2r^2,
-\tag{CKH.7}
+\le
+C_\nu\nu^2r^2,
+\tag{CKH.6}
 ```
 
 and the normalized CKN quantity is the corresponding dimensionless
@@ -116,10 +114,10 @@ The unnormalized cubic mass over the stack can still be finite:
 \sum_j
 \int_{Q_j}
 \left(|u|^3+|p|^{3/2}\right)\,dxdt
-\sim
-\sum_j r_j^2
+\le
+C_0\sum_j r_j^2
 <\infty.
-\tag{CKH.10}
+\tag{CKH.9a}
 ```
 
 Thus ordinary \(L^3_{t,x}\)/\(L^{3/2}_{t,x}\) physical integrability does not
