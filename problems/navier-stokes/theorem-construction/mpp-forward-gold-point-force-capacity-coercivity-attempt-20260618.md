@@ -157,9 +157,9 @@ The theorem is the point-force analogue of the multipole estimate.
 Landau/Stokeslet behavior has
 
 ```math
-|U(x)|\sim {| \Phi_0|\over |x|},
+|U(x)|\ge c_0 {| \Phi_0|\over |x|}
 \qquad
-|\nabla U(x)|\sim {| \Phi_0|\over |x|^2}.
+|\nabla U(x)|\ge c_1 {| \Phi_0|\over |x|^2}
 \tag{PF.14}
 ```
 
@@ -167,8 +167,8 @@ Therefore
 
 ```math
 \int_{B_r}|\nabla U|^2\,dx
-\sim
-|\Phi_0|^2\int_0^r \rho^{-2}\,d\rho
+\ge
+c_2|\Phi_0|^2\int_0^r \rho^{-2}\,d\rho
 =\infty.
 \tag{PF.15}
 ```
