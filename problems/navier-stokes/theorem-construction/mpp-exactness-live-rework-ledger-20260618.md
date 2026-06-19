@@ -15480,6 +15480,82 @@ finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
 slice, and `git diff --check` passes for the edited notes.
 
+## Source-Wall And Scale-Critical Interface Repair Batch
+
+Old claim being spent:
+
+Sixteen referenced theorem-construction notes used `should` language at active
+route-interface boundaries: source-wall aliases, direct theorem packets,
+critical-norm-to-CM sorting, `R^3` tail source reduction, first-pulse and
+source-pulse ancestry, sourcewall promotion, source-weighted angular depletion,
+square-reserve gates, weighted lifted defect promotion, and zero-moment reserve
+visibility.
+
+Exact replacement:
+
+The edited notes now state the route interfaces directly:
+
+- source-wall aliases are not independent lower roots without an independent
+  theorem;
+- machine-actionable next moves write the theorem attempt, demote the false
+  promotion, or update the exact open atom;
+- no NS target closure is promoted from notes that only test a narrower attempt;
+- local source identity is the Kirchhoff law;
+- PCTP-hard material is read with its listed source surfaces as the direct
+  discharge packet;
+- public critical-norm exits are only preliminary Field-side candidates unless a
+  Pack or Part mechanism is proved;
+- the `R^3` branch states the sharper exterior source mechanism rather than only
+  `OriginalSmoothData_R3 => Tail.Hs_R3`;
+- `READ.COVER` bypass and `TemporalNonAtomicSource.A` are not identified without
+  a carrier comparison theorem;
+- the next reserve-creation theorem atom is named directly;
+- Carleson failure is the first CM-facing Carleson use;
+- source-pulse ancestry starts at localized `SourcePulseExclusion.A` failure;
+- `TwoTowerDonorDepletion.A` is not the sharp next attack;
+- release/readout promotions do not treat source-wall support as unconditional;
+- source-weighted angular depletion is split into two lemmas;
+- square-reserve first-pulse proof has four gates to discharge;
+- `ScaleCriticalTreeCarleson.A` is not promoted from the weighted lifted defect
+  attempt;
+- zero-moment reserve visibility must land in one of the listed same-ledger
+  alternatives.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md`.
+- `theorem-construction/mpp-native-trilinear-defect-domination-next-attempt-20260505.md`.
+- `theorem-construction/mpp-parabolic-source-current-route-note-20260505.md`.
+- `theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md`.
+- `theorem-construction/mpp-public-critical-exit-to-cm-face-bridge-required-20260519.md`.
+- `theorem-construction/mpp-r3-tail-hs-duhamel-source-reduction-20260607.md`.
+- `theorem-construction/mpp-read-cover-bypass-first-pulse-reduction-20260505.md`.
+- `theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md`.
+- `theorem-construction/mpp-scalecritical-carleson-failure-field-face-diagnostic-20260514.md`.
+- `theorem-construction/mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md`.
+- `theorem-construction/mpp-sourcepulse-two-tower-zeno-refinement-20260515.md`.
+- `theorem-construction/mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md`.
+- `theorem-construction/mpp-sourceweighted-terminal-angular-depletion-solve-route-20260517.md`.
+- `theorem-construction/mpp-square-reserve-first-pulse-route-for-scalecriticaltreecarleson-20260505.md`.
+- `theorem-construction/mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md`.
+- `theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`.
+
+Downstream consequence:
+
+This batch does not close any theorem.  It prevents route-interface notes from
+being spent as closure by advisory wording, alias promotion, broad critical-norm
+sorting, or unsupported source-wall promotion.  Each edited surface now names the
+exact theorem, comparison, gate, or same-ledger alternative that must be paid
+before downstream use.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the sixteen edited notes plus
+`source-frontier.yaml` and `current-route-dependency-graph.yaml` finds no
+remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
+`same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
+`git diff --check` passes for the edited notes.
+
 ## CM Class-Exit Obstruction Split Repair
 
 Old claim being spent:
