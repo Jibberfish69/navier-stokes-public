@@ -89,9 +89,12 @@ The route only becomes theorem-bearing if the right-hand side is bounded by an a
 6. Reduce the genuine high-high packet itself to a near-diagonal cubic tail by `scale-high-high-near-diagonal-reduction-lemma.md`.
 7. Absorb that cubic tail into dissipation for all large cutoffs by `scale-cubic-tail-absorption-lemma.md`.
 8. Keep the lifted high-side remainder explicit as a separate open packet until it is controlled at theorem grade.
-9. Apply the final closure argument only after the threshold-local spill collar, the lifted high-side remainder, and the exact tail-compatible Gronwall condition
-   `sup_n T_N^(n)(0) exp(C int_0^T L_N^(n)) <= C_G 2^(-2 delta N)`
-   have all been supplied at theorem grade.
+9. Apply the final closure argument only after the threshold-local spill collar,
+   the lifted high-side remainder, the strict-low coefficient-preserving
+   commutator, and the genuine high-high absorption have all been supplied at
+   theorem grade on the same classical surface.  The final tail step must keep
+   the coercive damping `Q_N >= c 2^(2N) T_N`; with that damping retained, the
+   low-mode coefficient growth is beaten by `2^(2N)` for large `N`.
 
 This is the correct classical skeleton. It is also the same skeleton the
 gradient package needs when it upgrades from `L^2` tail control to
@@ -103,9 +106,11 @@ The current local corpus delivers the target statement, the dyadic carrier, and
 a compressed packet stack for the strict low-mode reduction, spill reduction,
 the near-diagonal high-high reduction, and the cubic-tail absorption step in
 [scale-barrier-tail-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-tail-lemma.md).
-It does not yet deliver the final scale-tail closure: the same tail lemma now
-records the exact additional coefficient hypothesis needed before Gronwall
-preserves a summable `2^{-2\delta N}` tail.
+It does not yet deliver the final scale-tail closure: the remaining issue is
+not a bare Gronwall exponential once the viscous tail damping is retained.  The
+current obstruction is theorem-grade production of the damped tail-energy
+inequality itself, including the strict-low coefficient-preserving commutator,
+the threshold-local spill collar, and the lifted high-side mesoscopic flux.
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
@@ -146,7 +151,9 @@ classical tail bound supplied by Proposition S.1.
 
 The scale-barrier bridge is not yet theorem-grade discharged on the classical
 surface. The remaining live work on this bridge is the line-by-line expansion
-of the strict low-mode, spill, and genuine high-high packet reductions together
-with their constant budgets, plus the exact coefficient-weighted tail condition
-`sup_n T_N^(n)(0) exp(C int_0^T L_N^(n)) <= C_G 2^(-2 delta N)` exposed in
-`scale-barrier-tail-lemma.md`.
+of the strict low-mode, spill, lifted mesoscopic flux, and genuine high-high
+packet reductions together with their constant budgets.  The tail integration
+must use the retained coercive damping `Q_N >= c 2^(2N) T_N`, as recorded in
+`mpp-forward-gold-scale-barrier-tail-damping-reconciliation-20260619.md`; the
+older bare-Gronwall coefficient condition is no longer the sharp final blocker
+once that damping is kept.
