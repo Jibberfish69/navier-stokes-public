@@ -12,9 +12,15 @@ It does not claim the higher weighted `s>0` closures.
 ## Setting
 
 Let `\{u^{(n)},p^{(n)}\}` be the fixed classical approximation family on
-`(0,T)\times \mathbb R^3` used by the Navier--Stokes lane, with the standard
-energy budget and the same packet assumptions as in the dyadic scale-barrier
-bridge.
+`(0,T)\times \mathbb R^3` used by the Navier--Stokes lane, with the same
+packet assumptions as in the dyadic scale-barrier bridge and with the exact
+energy budget
+```math
+\sup_{0\le t<T}\|u^{(n)}(t)\|_{L^2_x}^2
++2\nu\int_0^T\|\nabla u^{(n)}(t)\|_{L^2_x}^2\,dt
+\le C_E
+```
+uniformly in `n`.
 
 Fix a dyadic frequency threshold `K=2^N`.
 Define the spectral tail state and tail dissipation by

@@ -11,7 +11,7 @@ source-control hypothesis:
 OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 ```
 
-At the current exactness standard, that hypothesis is not sufficient by itself:
+Under the installed exactness hypotheses, that hypothesis is not sufficient by itself:
 the same-tail `SCFBaseLocalModulus_N` input is also required before the retained
 Field row can be admitted into the averaged Field row.  Under both inputs, the
 averaged-route assembly gives

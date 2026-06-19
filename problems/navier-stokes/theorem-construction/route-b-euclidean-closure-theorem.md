@@ -399,7 +399,7 @@ three-dimensional incompressible Navier-Stokes equation on `[0,T) x R^3`
 arising from smooth compactly supported divergence-free initial data extends
 beyond `T` only after the same surface also supplies the `H^s`, `s>5/2`,
 continuation bridge or an equivalent named criterion. Under the stricter audit
-standard, this remains a theorem packet rather than a fully discharged theorem
+requirement, this remains a theorem packet rather than a fully discharged theorem
 because the decisive packet reductions and the continuation bridge still need
 line-by-line manuscript-grade audit.
 

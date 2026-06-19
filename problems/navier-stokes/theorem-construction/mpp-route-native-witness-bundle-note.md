@@ -56,7 +56,7 @@ class-language
 \text{dead / blown / jump are class-exit events}
 ```
 
-into a standard-looking bundle of amplitudes, coherence moduli, and carrier
+into a generic bundle of amplitudes, coherence moduli, and carrier
 quantities. If so, the note should be read as an exploratory detour rather than
 as the route itself.
 
