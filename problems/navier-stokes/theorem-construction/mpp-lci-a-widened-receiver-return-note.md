@@ -42,7 +42,7 @@ The lower-carrier packet theorem `LCI.B` is already stated for arbitrary depth
 \tag{LCI.3c}
 ```
 
-So the widened receiver-side return simply substitutes
+The widened receiver-side return is the parameter substitution
 
 ```math
 N\mapsto N+4,
