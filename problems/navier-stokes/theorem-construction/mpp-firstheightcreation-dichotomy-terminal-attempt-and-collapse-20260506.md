@@ -206,7 +206,7 @@ or:
   RetainedPackGainProduction.A / Zeno residue evacuation.
 ```
 
-Therefore it should not remain a live next target.
+Therefore it does not remain a live next target.
 
 Historical direct supplier stack:
 
@@ -228,8 +228,8 @@ TerminalTangentNoIncomingRigidity.A / TPNI.A,
 or a truly independent signed/decorrelation/depletion theorem.
 ```
 
-The route should move on from `FirstHeightCreationDichotomy.A` as a headline
-target.  Current live use is narrower: this note only proves that the
+The route moves on from `FirstHeightCreationDichotomy.A` as a headline target.
+Current live use is narrower: this note only proves that the
 first-height dichotomy label cannot be spent as a proof step.  The next live
 burden is a same-witness terminal anti-concentration / source-Carleson /
 rigid-anti-atom / non-source Pack-survival theorem, or an equivalent same-ledger
