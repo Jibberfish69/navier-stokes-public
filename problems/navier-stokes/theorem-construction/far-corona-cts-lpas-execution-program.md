@@ -403,6 +403,38 @@ theorem.
 This is strictly smaller than `(CTS)` / `(LPAS)`: no moving lower prefix
 survives. The burden has become a fixed-width active-band packet.
 
+The endpoint energy test in
+`mpp-forward-gold-fbe-endpoint-energy-test-20260619.md` shows that this
+fixed-width shrinkage is not yet a closure theorem.  For \(m=j+O(1)\), a
+heat-scale pulse with
+
+```math
+E_m(t)=P\,\mathbf 1_{I_j}(t),
+\qquad
+D_j(t)=\frac{M}{|I_j|}\mathbf 1_{I_j}(t),
+\qquad
+|I_j|\sim 2^{-2j},
+```
+
+has first-moment dissipation cost
+
+```math
+\int_{I_j}(D_m+D_j)\,dt\sim P+M,
+```
+
+but endpoint square cost
+
+```math
+\int_{I_j}E_m(t)\,2^{-j}D_j(t)^2\,dt
+\sim P M^2 2^j.
+```
+
+Thus `(FBE)` is not supplied by the inherited energy-dissipation ledger.  It is
+the fixed-band form of the same terminal active-square time-pulse obstruction:
+one still needs an endpoint active-square, trace-absolute-continuity,
+source-square, pressure-corrected no-waste, or genuinely coupled two-scale
+theorem.
+
 There is also a sharper local reduction on the fixed-collar route. The direct
 shell-pair commutator test in
 `far-corona-carleson-direct-attack.md`
