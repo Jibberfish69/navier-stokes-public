@@ -73,9 +73,9 @@ LocalEnergyTraceAntiAtom.A
 
 fails because the local energy inequality supplies compactness and admits terminal defect measures. The trace route restates the anti-atom target in energy language.
 
-## 2. Model obstruction
+## 2. Exact obstruction pattern
 
-The common obstruction is the terminal time-face concentration model
+The common obstruction is the terminal time-face concentration sequence
 
 ```math
 F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
@@ -130,7 +130,7 @@ LocalEnergyTraceAntiAtom.A
 
 ## 4. Closure status
 
-The current installed inputs reduce the source-wall root to this hard endpoint. The route has a precise closure target and a precise obstruction model. The closure itself requires a new terminal time-thickness mechanism.
+The current installed inputs reduce the source-wall root to this hard endpoint. The route has a precise closure target and a precise obstruction sequence. The closure itself requires a new terminal time-thickness mechanism.
 
 ## 5. Verdict
 
