@@ -185,7 +185,7 @@ then
 \tag{A13b}
 ```
 
-Under the standard selector-scale realization `\xi_{ab}=b-a` or
+Under the declared selector-scale realization `\xi_{ab}=b-a` or
 `\xi_{ab}=(b-a)/\ell_J`, the installed active-pair scale packet is the fixed
 neighbor-collar condition
 `a-b\in N_a` and `c_N\ell_J\le |a-b|\le C_N\ell_J`, with constants `0<c_N<C_N`
@@ -415,7 +415,7 @@ In other words, the projective exact-potential branch is now waiting on one
 selector-good differentiability-exceptional-set theorem `DiffExc` and one
 selector-shape isotropy theorem, with the bounded-collar realization of
 `PTC-Lin.A` already downstream of the installed active-pair scale selection.
-On the standard selector-scale branch, `TPS.4u` is one exact sufficient
+On the declared selector-scale branch, `TPS.4u` is one exact sufficient
 realization of `DiffExc` and hence of the qualitative linearization side.
 More sharply, on the frozen measurable-derivative splice the live
 linearization wall is the paired packet
