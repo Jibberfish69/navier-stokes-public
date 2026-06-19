@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-06-19T02:41:45Z'
+generated_at: '2026-06-19T03:52:02Z'
 status: exported
 render_quality: typeset
 manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
@@ -41,8 +41,8 @@ readiness_blocker: 'Navier-Stokes completion readiness is blocked by 12 unresolv
   clay-closing-bridge-from-classified-class-exit-to-contradiction, contract-readiness-after-manuscript-expansion,
   clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
 active_supplier_blocker: first-exit-pack-survival-mechanism-search
-manuscript_tex_sha1: 0a72c066756e72d5979a4a712e78e667773cc61e
-completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260618-iteration-2.yaml
+manuscript_tex_sha1: 9eaf9e28de2c363be924b09436fe0e3dbb8015d8
+completion_executor_sync_ref: problems/navier-stokes/submission-bundle/ns-completion-submission-sync-20260618.yaml
 readiness_evidence:
   source_frontier_clear: false
   open_d8_proof_blockers: 1
