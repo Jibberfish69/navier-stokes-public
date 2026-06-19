@@ -190,7 +190,7 @@ theorem:
 
 - `(SDS') \Rightarrow (SDS) \Rightarrow (NE)`.
 
-## Formal Reduction 2: UTKD Also Reduces To WDS
+## Algebraic Reduction 2: UTKD Also Reduces To WDS
 
 Define
 
