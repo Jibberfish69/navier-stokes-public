@@ -317,13 +317,30 @@ Hardy/Schur summation itself is no longer the real obstruction. The remaining
 open theorem is the far-scale square/Carleson input `(4c)` (or any equivalent
 one-sided square theorem strong enough to supply it).
 
-In that precise sense, the middle-band frontier is now:
+In that precise sense, the pure middle-band frontier was:
 
 ```math
 \text{moving spill theorem}
 \quad+\quad
 \text{one-sided square input for the far corona}.
 ```
+
+The 2026-06-19 weighted-carrier resolution changes the active route.  The
+moving-spill side is controlled on the weighted-carrier surface:
+
+```math
+\int_0^T \Pi_N^{mov\text{-}spill,L}(t)\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++
+C_{\varepsilon,L,\nu}
+\int_0^T \widetilde\Lambda_N^\sharp(t)E_N(t)\,dt .
+\tag{MS-WC}
+```
+
+So the active weighted-carrier frontier is the far-corona one-sided square /
+Carleson input, together with the global carrier control that spends
+`\widetilde\Lambda_N^\sharp E_N`.
 
 Equivalently, the open theorem may be phrased directly on the two-scale
 density `\mathcal A_{\ell,r}`. What is **not** enough by itself is a square
@@ -345,11 +362,14 @@ C_*2^{-2\delta N}.
 \tag{MBF}
 ```
 
-By the previous lemmas, a sufficient route to `(MBF)` is:
+By the previous lemmas, a coefficient-free route to `(MBF)` is:
 
 1. uniform moving-spill control for `\Pi_N^{mid,near,L}`;
 2. a continuum square/Hardy theorem controlling `(3)` at the same barrier
    scale.
+
+On the weighted-carrier route, item 1 is replaced by `(MS-WC)`, and the
+remaining new middle-band theorem is item 2.
 
 ## Missing links from reduction to closure
 
@@ -372,7 +392,7 @@ with `\mathcal E^{near}_{collar}\in\mathscr A_{collar}`. This is already
 proved at the reduction level: the near corona is a same-scale moving packet,
 not a new large-gap interaction.
 
-### Link 2: moving spill theorem
+### Link 2: moving spill theorem / weighted-carrier replacement
 
 What is still open on the near side is the quantitative barrier theorem
 
@@ -384,7 +404,22 @@ What is still open on the near side is the quantitative barrier theorem
 \tag{5b}
 ```
 
-So the near piece is reduced, but not yet closed.
+This coefficient-free theorem remains open.  The weighted-carrier replacement
+is installed in
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md`:
+
+```math
+\int_0^T \Pi_N^{mov\text{-}spill,L}(t)\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++
+C_{\varepsilon,L,\nu}
+\int_0^T \widetilde\Lambda_N^\sharp(t)E_N(t)\,dt .
+\tag{5b'}
+```
+
+So the near piece is closed on the weighted-carrier surface, but not as a
+standalone coefficient-free packet.
 
 ### Link 3: far corona becomes a kernelized two-scale density
 
@@ -463,22 +498,27 @@ one-scale shadow such as `\widetilde\Sigma_r` alone.
 
 ## Reduced closure package
 
-Combining `(5a)`-`(5h)`, the middle-band theorem closes once one proves just
-two genuinely new ingredients:
+Combining `(5a)`-`(5h)`, the coefficient-free middle-band theorem closes once
+one proves two genuinely new ingredients:
 
 1. the moving spill theorem `(5b)`;
 2. a one-sided square / Carleson theorem on the far-corona two-scale density
    `\mathcal A_{\ell,r}` strong enough to imply `(5h)`.
 
+On the weighted-carrier route, `(5b)` is replaced by `(5b')`.  The only new
+middle-band theorem still open there is the far-corona two-scale density
+estimate.
+
 ## What this does not justify
 
 Two tempting stronger claims are **not** currently justified by the reduction.
 
-First, the near-corona theorem is not proved merely by observing that
+First, the coefficient-free near-corona theorem is not proved merely by observing that
 `\Pi_N^{mov\text{-}spill,L}` is a same-scale trilinear family. A naive
 Bernstein bound on a same-scale packet loses the active scale and does not by
-itself yield the barrier estimate `(5b)`. So the moving-spill theorem remains
-an open theorem, not an already-discharged corollary of the reduction.
+itself yield the barrier estimate `(5b)`. The weighted-carrier theorem `(5b')`
+is the installed substitute; it spends the carrier term instead of proving the
+coefficient-free estimate.
 
 Second, the far-corona theorem is not equivalent to a square bound on a
 one-scale shadow such as
@@ -490,8 +530,8 @@ one-scale shadow such as
 Such a bound may arise from a crude Hölder-Bernstein collapse of the
 two-scale density, and it would indeed be sufficient if proved. But it is only
 one possible sufficient overestimate. It is not the exact theorem surface.
-The exact remaining theorem still lives on the coupled two-scale density
-`\mathcal A_{\ell,r}` in `(5c)` and on the moving packet `\Pi_N^{mov\text{-}spill,L}`.
+On the active weighted-carrier route, the exact remaining middle-band theorem
+still lives on the coupled two-scale density `\mathcal A_{\ell,r}` in `(5c)`.
 
 ## Interpretation
 
