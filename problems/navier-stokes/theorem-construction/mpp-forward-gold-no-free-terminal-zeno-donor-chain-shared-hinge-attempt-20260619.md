@@ -205,6 +205,61 @@ enough to sum over an infinite Zeno schedule.
 
 Result: budget alone gives visibility, not exclusion.
 
+## Attempt 2b: material stress participation
+
+The strongest available same-fluid participation identity is the transported
+material stress balance.  For nested material volumes it gives an exact finite
+chain telescoping law:
+
+```math
+W_0(I)
+=
+W_M(I)
+-
+\sum_{j=1}^{M}\Delta E_{A_j}
+-
+\sum_{j=1}^{M}D_{A_j}(I).
+\tag{NZH.17a}
+```
+
+Here pressure, viscosity, and boundary stress are all inside the same tensor
+flux \(u\cdot(-pI+2\nu S)n\).  This is the cleanest mathematical form of the
+participation law for finite material donor chains: the center cannot receive a
+stress/source transfer without the surrounding material interfaces recording
+the corresponding stress work, donor energy depletion, or dissipation.
+
+But the identity is still a physical-currency identity.  At heat scale \(r_j\),
+
+```math
+W_j^{phys}=r_j W_j^{ren},
+\qquad
+D_j^{phys}=r_jD_j^{ren},
+\qquad
+E_j^{phys}=r_jE_j^{ren}.
+\tag{NZH.17b}
+```
+
+Thus a Zeno chain with \(r_j=2^{-j}\) and order-one normalized stress/action
+quanta has
+
+```math
+\sum_j r_j W_j^{ren}<\infty
+\tag{NZH.17c}
+```
+
+while the unweighted recurrence ledger sees
+
+```math
+\sum_j W_j^{ren}=\infty.
+\tag{NZH.17d}
+```
+
+So material participation proves the finite-chain accounting exactly, and it
+identifies the infinite-chain obstruction sharply.  It does not by itself prove
+`NoFreeTerminalZenoDonorChain.A`; that theorem needs an unweighted material
+stress-work Carleson bound, source-square reserve, critical-strain/CKN reserve,
+or strict no-waste rigidity.
+
 ## Attempt 3: terminal debt curves
 
 This is the curve form of the shell-underpayment idea.  For the normalized
