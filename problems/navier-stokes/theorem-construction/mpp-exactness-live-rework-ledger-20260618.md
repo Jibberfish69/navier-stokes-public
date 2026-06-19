@@ -12924,6 +12924,114 @@ phrase in the edited SCF/AACT endpoint package.  It finds the replacement
 global zero-mean pressure gauge and the retained local ball-average
 normalization.  `git diff --check` passed on the edited note and this ledger.
 
+## QSD-AC Terminal Concentration Countermodel Rework
+
+Old claim being spent:
+
+The quantitative source-dissipation absolute-continuity attempt called
+`G_N(t)=tau_N^{-1}1_{[T-tau_N,T]}(t)` the "standard terminal concentration
+model."
+
+Exact replacement:
+
+The note now calls it the exact terminal concentration countermodel compatible
+with `L^1` dissipation control.
+
+Proof or downstream consequence:
+
+The model has `||G_N||_{L^1}=1` while
+`||G_N||_{L^p}=tau_N^{1/p-1}->infty` for `p>1`, so total dissipation control
+cannot imply the required super-`L^1_t` source-density bound.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-quantitative-source-dissipation-absolute-continuity-direct-attempt-20260518.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Ancient No-Pulse Beltrami Example Rework
+
+Old claim being spent:
+
+The ancient no-pulse rigidity audit called a Beltrami mode the "standard
+geometric example."
+
+Exact replacement:
+
+The note now calls it the concrete eigenmode example satisfying
+`-\Delta phi=lambda^2 phi` and `P((phi dot nabla)phi)=0`.
+
+Proof or downstream consequence:
+
+The example still refutes only the broad no-nontrivial-ancient-packet
+statement; it does not refute the source-balanced no-pulse theorem because the
+Leray-projected nonlinearity vanishes.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-ancient-nopulse-rigidity-audit-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Conditional Pack Positive-Radius Typed-Chain Rework
+
+Old claim being spent:
+
+The conditional Pack positive-radius certification said the remaining branch
+may be tested by the "standard Pack/Part/Field chain."
+
+Exact replacement:
+
+The note now states the typed CM order: first `Pack_Q`, then `Part_{N,Q}`, then
+`Field_{N,r,Q}`.
+
+Proof or downstream consequence:
+
+The certification spends the Pack-first CM witness grammar after singular
+cases are exhausted through Part/Field first; it does not rely on a generic
+chain convention.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-conditionalpackpositiveradiuscertification-a-packpositiveradiuscertification-a-fb90b2a408.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Scale-Barrier Euclidean Leray Projection Rework
+
+Old claim being spent:
+
+The scale-barrier package and transport-defect lemma referred to the "standard
+Euclidean Leray projection."
+
+Exact replacement:
+
+The package now writes the projection as
+`P=I-nabla Delta^{-1} div`, equivalently
+`-Delta p^(n)=partial_i partial_j(u_i^(n)u_j^(n))` with the declared
+whole-space decay/local normalization.  The transport-defect lemma now names
+the same projection operator on the approximation family.
+
+Proof or downstream consequence:
+
+The scale-barrier surfaces spend the exact Leray projection/pressure recovery
+on the same approximation sequence, not a generic Euclidean convention.
+
+Surfaces edited:
+
+- `theorem-construction/scale-barrier-package.md`.
+- `theorem-construction/scale-barrier-transport-defect-lemma.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
