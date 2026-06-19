@@ -10239,3 +10239,37 @@ The targeted scan finds no remaining `Gates 1 and 2 are formal finite-network
 bookkeeping` hit in the edited source note or appendix copy.  The positive scan
 finds the exact finite-network replacement, and `git diff --check` passes on
 both edited surfaces.
+
+## Endpoint-Face Vocabulary Packaging Rework
+
+Old claim being spent:
+
+The terminal-tail uniformization/read-cover note said the ordered attempt
+"closes Step 1 as formalization," while the appendix copy said it "closes the
+formal endpoint vocabulary."  That wording blurred definition of the endpoint
+faces with analytic discharge.
+
+Exact replacement:
+
+The note and appendix now state that the ordered attempt closes Step 1 only as
+the definition of the endpoint-face vocabulary and validates Steps 7-8 only as
+conditional packaging.  Steps 2-6 remain the analytic barrier: terminal-tail
+admission from original dynamics without spending `End_NS` as an upstream
+supplier.
+
+Proof or downstream consequence:
+
+Endpoint-face vocabulary may be used as the typed language for the route, but
+the manuscript may not spend that vocabulary as a proof of the terminal-tail
+analytic inputs.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-pctp-hard-terminal-tail-uniformization-read-cover-a6c643da31.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal endpoint vocabulary` or `closes
+Step 1 as formalization` hit in the edited source note or appendix copy.
+`git diff --check` passes on both edited surfaces.
