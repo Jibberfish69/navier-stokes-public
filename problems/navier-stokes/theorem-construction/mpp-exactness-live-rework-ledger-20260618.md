@@ -11626,3 +11626,50 @@ The targeted scan finds no remaining `Expected Closure` heading in the edited
 live note.  It finds the replacement `Conditional Downstream Chain` heading and
 the explicit `does not promote` downstream consequence.  `git diff --check`
 passes on the edited note and this ledger.
+
+## Localized-Projector Weighted-Coverage Interface Rework
+
+Old claim being spent:
+
+Several localized-projector proof surfaces referred to the "usual weighted
+coverage/globalization" packet, or used `weighted coverage/globalization` as a
+bare bullet in a proof wall.  That phrasing hid the actual theorem interface
+needed to pass local projector estimates into the global synchronization
+channel.
+
+Exact replacement:
+
+The affected surfaces now name the exact interfaces.  In the HWY packet, the
+coverage item is the weighted coverage theorem `(EP.10l1)`-`(EP.10l4)`, or its
+pointwise envelope form `(EP.10m1)`-`(EP.10m3)`.  In the angular-forcing chain,
+the corresponding interface is the `AFR.G` maximal-envelope globalization
+theorem for `q_\ell^{mat}` or `q_\ell^{aux}`, together with the installed
+pair-family forcing ledger.  Downstream localized-projector notes now spend
+that exact interface before the overlap-surrogate / kernel-mismatch /
+localizer-modulus reductions.
+
+Proof or downstream consequence:
+
+The localized-projector branch may no longer spend a generic globalization
+packet.  It must use the displayed coverage hypotheses and weighted local error
+sum in `EP.10l`, the envelope reduction in `EP.10m`, or the `AFR.G`
+maximal-envelope form before invoking the later overlap/gluing reductions.
+
+Surfaces edited:
+
+- `theorem-construction/hwy-instability-attack-packet.md`.
+- `theorem-construction/localized-projector-angular-forcing-ledger-reduction.md`.
+- `theorem-construction/localized-projector-moment-weighted-residual-suppliers.md`.
+- `theorem-construction/localized-projector-weighted-psj-plus-22-suppliers.md`.
+- `theorem-construction/frozen-transported-localized-projector-packet-eliminates-coefficient-drift.md`.
+- `theorem-construction/exact-psj-plus-1-construction-eliminates-localization-tail.md`.
+
+Second downstream pass and validation:
+
+The theorem-construction scan finds no remaining `usual weighted
+coverage/globalization`, bare `weighted coverage/globalization packet`, or
+sentence-final `weighted coverage/globalization.` hit.  It finds the replacement
+`EP.10l` / `EP.10m` and `AFR.G` interfaces in the edited live notes.  `git diff
+--check` passes on the edited angular-forcing and HWY surfaces; the earlier
+localized-projector edits were checkpointed before this ledger entry and were
+verified by source scans.
