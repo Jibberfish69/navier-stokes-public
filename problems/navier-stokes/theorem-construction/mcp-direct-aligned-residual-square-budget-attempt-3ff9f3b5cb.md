@@ -19,7 +19,7 @@ The direct aligned square budget is
 \int \alpha_J^2\,d\nu_J=o_J(1).
 ```
 
-## Formal implication
+## Algebraic implication from the residual calculation
 
 The aligned residual calculation gives
 
