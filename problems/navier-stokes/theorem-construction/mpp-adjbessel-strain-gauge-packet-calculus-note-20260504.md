@@ -8,8 +8,8 @@ Superseded target note. Current live status: discharged by
 This note isolates `WeightedAdjBessel.A`, the first packet-calculus gate in the
 principal-flow adjoint route.  It now has a required preliminary layer:
 `CoeffStop.A`.  Once this stopped packet frame is valid,
-`ResidualPair.A` is expected to be mostly Calderon--Zygmund / commutator
-bookkeeping in the resulting coordinates.
+the residual gate is the displayed normalized estimate `WeightedAdjRes.A`;
+it is not a generic Calderon--Zygmund / commutator bookkeeping claim.
 
 The active route now uses weighted adjoint Bessel as the primary theorem.  It
 drops uniform `G_T` control and sends strain amplification into the parent
@@ -583,7 +583,8 @@ This is `ParentKernel.A`.
 
 ## Combined Weighted Iteration
 
-Weighted `AdjBessel.A` plus `ResidualPair.A` gives
+Weighted `AdjBessel.A` plus the displayed residual theorem `WeightedAdjRes.A`
+gives
 
 ```math
 \sum_T
