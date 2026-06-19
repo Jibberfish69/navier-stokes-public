@@ -61,8 +61,8 @@ the schematic inequality
 
 ```math
 M'(s)
-\alpha D(s)
-\beta M(s)
++\alpha D(s)
++\beta M(s)
 \le
 \mathcal F_{\rm conv}(s)+\mathcal F_{\rm press}(s)
 +\mathcal R_{\rm tail}(s),
