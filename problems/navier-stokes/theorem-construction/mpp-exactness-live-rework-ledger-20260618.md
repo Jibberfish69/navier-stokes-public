@@ -15287,3 +15287,48 @@ Second downstream pass and validation:
 This was the only shortcut hit in the current main reduction slice containing
 `clay-target-route-reduction-note.md`; the repaired phrase has no remaining
 `should` hit.
+
+## Parabolic Funnel Moving-Radius Route Repair
+
+Old claim being spent:
+
+`mpp-parabolic-funnel-forward-control-analysis-20260611.md` still said the
+shrinking-radius problem "should not be treated" as disconnected fixed-cylinder
+tests and that only after a forward obstruction appears "should" it be inspected
+as a CM class-exit witness.  Those route sentences sat on the same pulling-teeth
+surface as the moving-radius repair.
+
+Exact replacement:
+
+The note now states the route as installed logic: the shrinking-radius problem is
+not treated as disconnected fixed-cylinder tests; it is treated as the parabolic
+funnel with `rho(t)=lambda sqrt(T-t)`.  A CM class-exit inspection occurs only
+after a forward attempt produces a precise obstruction, and the note still does
+not spend that obstruction as `not Pack_Q`, `not Part_{N,Q}`, or
+`forall r>0 not Field_{N,r,Q}`.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+
+Downstream consequence:
+
+The downstream surface remains aligned with the main submission's exact
+oscillation replacement:
+
+```text
+Delta_r u(t) = sup_{x,y in B_r(x_*)}|u(x,t)-u(y,t)|,
+Delta_{rho(t)}u(t) <= 2 rho(t) sup_{B_{rho(t)}(x_*)}|grad u(.,t)|.
+```
+
+The funnel route may use the moving-domain identity and rescaled-field equation;
+it may not use a fixed-cylinder proxy, a linear `U/r` profile, or a CM face
+failure before a precise surviving obstruction is produced.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the funnel note, main submission, and
+`source-frontier.yaml` finds no remaining `should`, `O(1)`, `\lesssim`,
+`\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
+`schematic` shortcut on this slice, and `git diff --check` passes for the
+edited note plus downstream authority surfaces.
