@@ -15609,6 +15609,47 @@ finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `\sim` shortcut on this slice, and `git diff --check` passes for the edited
 note.
 
+## Endpoint Taxonomy And Synthesis Operating-Rule Repair
+
+Old claim being spent:
+
+`mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md` said the
+endpoint matrix "should not" be read as mutually exclusive.  `mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md`
+said a governing sentence "should" govern future repo work.  `mpp-senior-research-architect-synthesis-memo-20260506.md`
+said the repo "should" be read as a class-exit atlas, theorem-crank passes
+"should" follow operating rules, new branches "should not" be accepted without
+route-equivalence proof, and the rest of the repo "should" organize around the
+convergent atom list.
+
+Exact replacement:
+
+The endpoint matrix is not read as a mutually exclusive phase diagram.  The
+NS/CM regularity-map note now identifies its boundary sentence as the governing
+sentence.  The synthesis memo now states that the repo is read as a class-exit
+atlas, future theorem-crank passes must run the listed gates, the repo does not
+accept a branch as new without a route-equivalence proof, and the repo is
+organized around proving, refuting, or source-recovering the named atoms.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-endpoint-cover-taxonomy-dead-blown-jump-slip-map-20260517.md`.
+- `theorem-construction/mpp-ns-cm-smoothness-euler-dual-regularity-map-20260516.md`.
+- `theorem-construction/mpp-senior-research-architect-synthesis-memo-20260506.md`.
+
+Downstream consequence:
+
+Endpoint labels can overlap through cross bundles; they are not exclusive phases.
+The repo operating frame is fixed as CM class-exit atlas work with explicit
+bridge-license, endpoint-spend, alias-collapse, bounded-atom, exact-obstruction,
+and no-premature-export gates.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the three edited notes and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
+slice, and `git diff --check` passes for the edited notes.
+
 ## CM Class-Exit Obstruction Split Repair
 
 Old claim being spent:
