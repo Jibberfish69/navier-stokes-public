@@ -75,7 +75,9 @@ So no unhandled zero-radius singular witness remains.
 
 ### Case 2: `Q` remains in the ordinary branch
 
-By the second hypothesis, `Q` has enough positive carrier / comparability structure to enter the ordinary Pack test. It may be tested by the standard Pack/Part/Field chain:
+By the second hypothesis, `Q` has enough positive carrier / comparability
+structure to enter the ordinary Pack test.  The remaining branch is tested in
+the typed CM order:
 
 ```text
 Pack_Q,
