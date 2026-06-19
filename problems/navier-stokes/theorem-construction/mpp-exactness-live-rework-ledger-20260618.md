@@ -12298,3 +12298,80 @@ edited HWY packet.  It finds the replacement coefficient
 `a_k(t)=C_prod ||nabla v_J||_{L^\infty(U_k)}` and the integral bound producing
 the exponential in `(EP.10bg3)`.  `git diff --check` passed on the edited note
 and this ledger.
+
+## Terminal CZ Pressure No-Free-Sink Interface Rework
+
+Old claim being spent:
+
+The terminal CZ pressure cancellation direct attempt said a missing interior
+pressure lobe must be converted into a native source/donor edge before the
+"usual no-free-sink machinery" can apply.
+
+Exact replacement:
+
+The note now names the exact inputs: `PressureDonorNoFreeSink.A` or an
+equivalent `TerminalWeightedNoFreeSink` same-fluid donor ledger, together with
+the pressure/collar legal-loss input.
+
+Proof or downstream consequence:
+
+The pressure cancellation route may not spend generic no-free-sink machinery.
+It must convert the missing pressure lobe to a same-fluid source/donor edge and
+then apply the named donor/no-free-sink and legal-collar inputs.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-cz-pressure-cancellation-direct-attempt-20260517.md`.
+
+## Pressure-Hessian Terminal-Rescaling Extraction Rework
+
+Old claim being spent:
+
+The pressure-Hessian partner graph normal form said that after the "usual
+terminal rescaling" a failed pressure graph yields an extracted pressure
+sustain residue.
+
+Exact replacement:
+
+The note now states the extraction hypotheses: terminal rescaling and compactness
+from `(PHG.15)` under the same local energy/pressure bounds, same-fluid packet
+tightness, and vanishing legal-loss hypotheses used in the pressure graph.
+
+Proof or downstream consequence:
+
+The extracted object
+`(u_*,p_*,mu_*^{press-sus})` with
+`mu_*^{press-sus}(Q_1^-)>=c_0` is available only after those compactness and
+legal-loss hypotheses.  The route still needs
+`PressureSustainResidueToSourceResidue.A` to tie this pressure residue back to
+native source residue.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md`.
+
+## Terminal Strain-Alignment Cutoff-Leray Rework
+
+Old claim being spent:
+
+The terminal strain-alignment frozen packet pressure test said that after the
+"usual smooth cutoff and Leray correction" the leading selected source readout
+remains positive.
+
+Exact replacement:
+
+The note now constructs
+`u_lambda=P_div(chi a e^{i lambda k.x})` with `k.a=0` and states that the
+cutoff/Leray correction is lower order in the high-frequency limit, so the
+selected source readout is `<S a,a>+o_lambda(1)=2+o_lambda(1)>0` for large
+`lambda`.
+
+Proof or downstream consequence:
+
+The pressure-test obstruction spends a high-frequency solenoidal principal
+symbol plus a controlled lower-order Leray/cutoff error.  It does not assume
+the correction is harmless by convention.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-strain-alignment-frozen-packet-pressure-test-20260609.md`.
