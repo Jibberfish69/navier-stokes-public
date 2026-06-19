@@ -10472,3 +10472,39 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `Formal Averaged Endpoint Lemma` hit in
 the edited source note or appendix copy.  The positive scan finds `Averaged
 Endpoint Lemma`, and `git diff --check` passes on both edited surfaces.
+
+## SourceParent.Measure Exact Definition Rework
+
+Old claim being spent:
+
+The source-parent measure surface was titled as a formal definition note, and
+the appendix copy described it as the "formal version" of the old
+tower-transfer intuition that a child pulse cannot blow up for free.
+
+Exact replacement:
+
+The source note is now titled `SourceParent.Measure Exact Definition Note`.
+The appendix states the exact replacement for the old intuition: a child active
+pulse is not handled by slogan; the usable theorem is the parent-measure
+statement with source recovery, parent lower density, same-fluid edge fidelity,
+summable loss, and charge alternative producing either finite charge or a
+lawful comparable same-fluid predecessor packet.
+
+Proof or downstream consequence:
+
+The ancestry route may spend only the parent-measure axioms and directed-edge
+object.  It may not spend tower-transfer intuition as a proof of parentage,
+finite charge, or pulse exclusion.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-sourceparent-measure-formal-definition-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `SourceParent.Measure Formal Definition`,
+`formally defined`, or `formal version of the old tower-transfer intuition` hit
+in the edited source note or appendix copy.  The positive scan finds
+`SourceParent.Measure Exact Definition`, `exactly defined`, and the exact
+replacement sentence.  `git diff --check` passes on both edited surfaces.
