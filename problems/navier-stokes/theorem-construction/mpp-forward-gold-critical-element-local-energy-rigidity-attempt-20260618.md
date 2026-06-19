@@ -201,7 +201,7 @@ and packet class, not on the terminal cutoff scale, such that
 \mathcal D_{\rm diss}
 +|\operatorname{Flux}_{\rm loc}(\mathcal F)|
 +\mathcal D_{\rm pressure}
-+\mathcal D_{\rm defect}.
++\mathcal D_{\rm defect}
 \Big)
 \tag{CE.16}
 ```
