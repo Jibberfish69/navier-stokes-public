@@ -100,9 +100,12 @@ Object roles:
 \tag{OPS.4c}
 ```
 
-The branch-local projector packet is expected to output one transported
-reference projector field on the good family, so the theorem should be read in
-the sharper route form
+The branch-local projector packet supplies the theorem only after the
+transported reference projector is produced by its downstream synchronization,
+transport-coherence, and gauge/phase normalization laws.  On the current
+exact-potential route this is the concrete reduction
+`PTC-Lin + PTC-Shape => D.7mq => synchronized projective/reference packet`, so
+the theorem should be read in the sharper route form
 
 ```math
 (\text{EWI.A},\ \text{exact-potential branch-local projector packet})
