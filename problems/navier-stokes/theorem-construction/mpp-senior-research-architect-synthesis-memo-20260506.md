@@ -48,7 +48,7 @@ NonSmooth(Q) or first class exit
 => not Pack_Q or not Part_{N,Q} or not Field_{N,r,Q}.
 ```
 
-The repo should therefore be read as a class-exit atlas.  Every theorem note,
+The repo is therefore read as a class-exit atlas.  Every theorem note,
 branch, source-wall packet, receiver estimate, endpoint row, compactness
 argument, or signed-current idea must identify which of the three CM faces it
 serves and what licensed bridge moves it into Pack, Part, or Field witness face, class-membership direction, or an
@@ -676,7 +676,7 @@ Anything else is likely naming noise.
 
 ## 13. Operating Rules for the Repo
 
-Every future theorem-crank pass should:
+Every future theorem-crank pass must:
 
 ```text
 1. classify the target as CM core, face supplier, source root, readout,
@@ -690,7 +690,7 @@ Every future theorem-crank pass should:
 8. refuse export/promotion while source-wall-root-after-reconcile is open.
 ```
 
-The repo should not accept another branch as "new" unless it proves why it is
+The repo does not accept another branch as "new" unless it proves why it is
 not route-equivalent to:
 
 ```text
@@ -741,5 +741,5 @@ WeightedLiftedSkewDefectLegal.A
 
 is proved without circularly spending the same source wall.
 
-That is the convergent proof architecture.  The rest of the repo should now be
+That is the convergent proof architecture.  The rest of the repo is now
 organized around proving, refuting, or source-recovering those atoms.
