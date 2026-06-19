@@ -14047,3 +14047,45 @@ The targeted cone/funnel source-frontier scan now leaves only the anti-hand-wave
 sentence saying no linear model for `u` on the shrinking ball is assumed, plus
 two cited filenames containing `same-scale`.  `git diff --check` passed on the
 edited cluster and this ledger.
+
+## Terminal Source Anti-Atom Witness-Sequence Rework
+
+Old claim being spent:
+
+The active terminal-source anti-atom/source-pulse batch still used `model` and
+`generic` wording around exact terminal concentration witnesses: `The model`,
+`terminal concentration model`, `model term`, `The model:`, `concentration
+model`, `generic annular statement`, `witness model`, `model source density`,
+`The model violates`, `terminal layer model`, and `diffuse legal parent model`.
+
+Exact replacement:
+
+Those passages now call the displayed objects witness sequences, terminal
+concentration sequences, test terms, concentration sequences, unadmitted annular
+statements, test source densities, terminal layer sequences, and diffuse legal
+parent constructions.
+
+Proof or downstream consequence:
+
+The proof surfaces now spend the exact displayed witnesses
+`g_m(s)=m 1_{(-1/m,0]}(s)` and
+`F_N^{src,+}(t)=tau_N^{-1}1_{[T-tau_N,T]}(t)`.  These sequences show that
+finite `L^1_s`, BV trace control, boundary no-inflow, first-moment drain, and
+diffuse parent accounting do not exclude terminal time-face atoms.  The gold
+anti-atom/new-production theorem remains the required new input.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-basac-terminal-source-anticoncentration-direct-attempt-20260517.md`.
+- `theorem-construction/mpp-positive-source-trace-ac-direct-attempt-20260518.md`.
+- `theorem-construction/mpp-selected-source-dissipation-tether-forward-positive-direct-test-20260611.md`.
+- `theorem-construction/mpp-terminal-zeno-refill-forward-positive-bottleneck-20260611.md`.
+- `theorem-construction/mpp-terminal-time-face-new-production-frontier-20260614.md`.
+- `theorem-construction/mpp-full-transported-no-incoming-flux-direct-attempt-20260518.md`.
+- `theorem-construction/mpp-basac-timeface-antiatom-rigid-subclass-production-reentry-20260609.md`.
+- `theorem-construction/mpp-terminal-source-reverse-holder-forward-positive-collapse-20260611.md`.
+
+Second downstream pass and validation:
+
+Pending targeted rescan of the terminal-source anti-atom batch and `git diff
+--check`.
