@@ -13377,3 +13377,111 @@ The targeted scan finds no remaining `usual smooth cutoff` phrase in the edited
 terminal strain-alignment note.  It finds the replacement high-frequency
 Leray-projected cutoff construction and `o_lambda(1)` source-readout error.
 `git diff --check` passed on the edited note and this ledger.
+
+## Heat-Ancestor Parent Localization Rework
+
+Old claim being spent:
+
+The submission appendix said the heat kernel at a "time depth comparable to
+`ell_m^2`" is concentrated on a parent ball.  That phrasing hid the actual
+Gaussian tail estimate and made the parent radius sound schematic.
+
+Exact replacement:
+
+The appendix now chooses constants `0<c_h<C_h<infty` and
+`s_m in [t_m-C_h ell_m^2, t_m-c_h ell_m^2]`.  It splits the heat kernel into
+`B_{C_par ell_m}(x_m)` and its complement and states the Gaussian tail bound
+\[
+  \int_{\mathbb R^3\setminus B_{C_{par}\ell_m}(x_m)}
+  G_\nu(t_m-s_m,x_m-y)\,dy
+  \le A_h e^{-a_h C_{par}^2}.
+\]
+
+Proof or downstream consequence:
+
+The heat-remainder route may spend parent localization only through the exact
+Gaussian split.  The off-parent alternative is charged to Pack carrier loss,
+not hidden as an informal retained heat atom.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `time depth comparable` wording in the
+edited appendix.  `git diff --check` passed on the edited appendix and this
+ledger.
+
+## Near-Diagonal Dyadic Band Rework
+
+Old claim being spent:
+
+The appendix said that for the near-diagonal block, "the dyadic factors are
+comparable" and then summed over the band.  The band constants and counting
+factor were not written.
+
+Exact replacement:
+
+The appendix now states the exact band inequality
+`2^{-C_0}2^k <= 2^j <= 2^{C_0}2^k` for `|j-k|<=C_0`, and records that each
+fixed `j` has at most `2C_0+1` admissible `k`.
+
+Proof or downstream consequence:
+
+The near-diagonal tail-square reserve closes by explicit finite-band counting
+and the global energy bound, not by an unnamed comparability step.  The only
+remaining tail-square burden is the far-separated block.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `dyadic factors are comparable` or
+`|j-k| C 0` wording in the edited appendix.  `git diff --check` passed on the
+edited appendix and this ledger.
+
+## Weighted Exact-Projection Resonant Packet Rework
+
+Old claim being spent:
+
+The submission appendix contained corrupted shorthand in the weighted
+exact-projection and resonant shell packet: `G ex`, `b G(a, , )`, an angular
+scale written as `j`, an omitted cap split, and a blank "must install" global
+claim.  That was not theorem-grade text.
+
+Exact replacement:
+
+The appendix now states the exact operator
+`\Pi_G^{ex}:=-G\nabla_a L_G^{-1}\operatorname{div}_a`, the principal symbol
+`p_G(a,xi)`, the shell decomposition
+`\Pi_G^{ex}\Delta_j=T_{p_G}\Delta_j+R_{G,j}`, the remainder bound
+`||R_{G,j}f||_{L^2_a} <= C_G 2^{-j}||f||_{L^2_a}`, the resonant shell
+`2^{j-1} <= |xi|, |eta|, |xi+eta| <= 2^{j+1}`, the null-form bound
+`|b_{G,j}^{main}| <= C_G 2^j sin angle(xi,eta)`, and the exact
+`\rho_j` cap partition with derivative bound
+`|partial_xi^alpha psi_{j,omega}| <= C_alpha 2^{-j|alpha|}rho_j^{-|alpha|}`.
+It also installs the cap-pair symbol sum, the frozen capwise operator split,
+and the freeze-remainder bound
+`|R_j^{freeze}(f_j,g_j)| <= C_G 2^{-j} N_j(f_j,g_j)`.
+
+Proof or downstream consequence:
+
+The resonant reserve route is now a concrete capwise theorem packet.  Projector
+defects and freezing errors may be demoted only after satisfying the displayed
+`2^{-j}` remainder tests.  The remaining local upgrade must be one of the
+recorded mechanisms: higher-order angular vanishing, rigid factorization, or
+the primary capwise bilinear operator estimate `(WERS.3Cap-BO)`.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `where b G`, `G ex`, `b G(a, , )`,
+`frozen j`, `D j is`, `lot j`, `angular diameter comparable to j`, or orphaned
+`must install` wording in the edited resonant packet.  `git diff --check` passed
+on the edited appendix and this ledger.
