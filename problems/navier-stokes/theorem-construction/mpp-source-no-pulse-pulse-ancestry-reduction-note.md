@@ -175,7 +175,7 @@ signed, positive-carrier, pressure, cutoff, and local-energy packages do not
 yet construct a positive same-fluid source-parent measure.  The ancestry route
 therefore sharpens the compactness route to the following theorem package:
 
-The formal definition of the missing parent object is recorded in
+The exact definition of the missing parent object is recorded in
 `mpp-sourceparent-measure-formal-definition-note.md`.  There a pulse packet
 `P`, predecessor region `\mathsf{Pred}(P)`, positive edge measure
 `d\pi_P(P^-)`, source recovery, parent lower-density, same-fluid edge fidelity,
