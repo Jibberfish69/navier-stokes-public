@@ -77,6 +77,44 @@ So if \(a_m(t)\) is supported on a shrinking terminal layer, the pressure is
 supported on that same shrinking terminal layer.  Pressure spreads the spatial
 carrier.  It does not spread the time marginal.
 
+The pressure-work time marginal shows the obstruction in the exact cubic
+currency.  Take
+
+```math
+a_m(t)=\tau_m^{-1/3}{\bf 1}_{(T_m-\tau_m,T_m]}(t),
+\qquad
+\tau_m\downarrow0 .
+\tag{PSM.1}
+```
+
+Then
+
+```math
+a_m(t)^3=\tau_m^{-1}{\bf 1}_{(T_m-\tau_m,T_m]}(t),
+\qquad
+\int a_m(t)^3\,dt=1,
+\tag{PSM.2}
+```
+
+and the nonlinear pressure-work term has the same time factor:
+
+```math
+\int
+\bigl(p_m(t)-p_{m,h}(t)\bigr)
+u_m(t)\cdot\nabla\phi\,dx
+=
+a_m(t)^3
+\int
+R_iR_j(U_{m,i}U_{m,j})
+U_m\cdot\nabla\phi\,dx .
+\tag{PSM.3}
+```
+
+Thus the pressure channel can carry fixed normalized cubic/pressure-work mass
+on a terminal layer whose thickness tends to zero.  The elliptic pressure
+operator changes the spatial profile at each time slice; it does not create a
+time residence modulus.
+
 This is the core obstruction to `PressureSourceParabolicMemory.A`.
 
 ## Local energy pressure-work test
