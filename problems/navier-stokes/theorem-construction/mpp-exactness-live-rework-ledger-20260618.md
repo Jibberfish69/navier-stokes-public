@@ -9355,3 +9355,66 @@ or `consequently` hits.  The fake-immediacy scan has no live
 `immediate` / `obvious` / `straightforward` / `routine` proof-step hits, all
 live authority YAML files parse, and `git diff --check` passes on the edited
 files.
+
+## Downstream Periodic Terminal-Promotion Rework
+
+Old claim being spent:
+
+The first downstream pass from `periodic-main-clean.tex` found two active
+theorem-construction surfaces still spending the old endpoint-package claim:
+
+- `mcp-periodic-clay-terminal-promotion-theorem-from-theorem-2-1-warrant-ofp-a-a5dfc6bf03.md`
+  asserted that the installed Theorem 2.1 warrant plus the endpoint package
+  gives `T_* = +infty` and discharges the periodic Clay branch;
+- `mpp-periodic-terminal-promotion-bridge.md` asserted that the installed
+  class-membership warrant excludes every first finite classical endpoint on the
+  periodic branch.
+
+Exact replacement:
+
+Both surfaces now state the exact conditional bridge.  On the original periodic
+maximal classical solution, the final continuation step requires the
+same-branch readout
+
+\[
+  \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty
+  \qquad (s>5/2).
+\]
+
+With this readout, periodic \(H^s\) local well-posedness supplies a restart
+lifespan \(\tau=\tau(\nu,s,M_s)>0\), and restarting at
+\(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\) extends the same classical branch
+past \(T_*\).
+
+Proof or remaining burden:
+
+The proof of the relaunch step is classical and is now written directly in both
+surfaces.  The remaining mathematical burden is `PCTP.hard` / `TTU.A`: prove
+from the original periodic Navier-Stokes dynamics that the terminal-tail package
+actually supplies the uniform \(H^s\) readout, or directly prove that no first
+finite endpoint realizes the remaining endpoint faces.  The installed
+class-membership warrant and `End_NS` are upstream support for producing that
+readout; they do not replace it.
+
+Downstream surfaces edited:
+
+- `theorem-construction/mcp-periodic-clay-terminal-promotion-theorem-from-theorem-2-1-warrant-ofp-a-a5dfc6bf03.md`;
+- `theorem-construction/mpp-periodic-terminal-promotion-bridge.md`.
+
+Unresolved gaps with proof force removed:
+
+- periodic terminal promotion is no longer claimed from the installed warrant
+  alone;
+- the live periodic Clay burden is explicitly `PCTP.hard` / `TTU.A` on the
+  original periodic branch;
+- authority surfaces that already typed `PCTP.hard / TTU.A` as
+  downstream-consumer/readout support were left unchanged because their current
+  wording matches this repaired theorem role.
+
+Validation:
+
+The active periodic-promotion scan now returns only negating guard sentences
+such as "no longer closes terminal promotion ... by appeal to the installed
+warrant alone" and the already-correct frontier note
+`mpp-periodic-clay-terminal-promotion-theorem.md`.  `git diff --check` passes on
+the repaired files.
