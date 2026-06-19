@@ -80,7 +80,7 @@ with:
 o_N(1)+Loss_{legal}.
 ```
 
-This is the algebraic step.  It should be proved by:
+This is the algebraic step.  Its proof requires:
 
 1. dyadic triadic energy antisymmetry;
 2. incompressibility and Leray projection;
@@ -242,4 +242,3 @@ CycleHeatAction.A:
 This is sharper than the scalar `SquareReserveEvolution.A` demand and avoids
 treating the donor square factor as if it already had an independent evolution
 law.
-
