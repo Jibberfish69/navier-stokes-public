@@ -84,7 +84,16 @@ The route only becomes theorem-bearing if the right-hand side is bounded by an a
 1. Apply `P_j` to the classical Euclidean Navier-Stokes equation.
 2. Pair the `j`th dyadic block with `P_j u^(n)` and sum over `j >= N` to obtain the high-frequency energy identity.
 3. Decompose `P_j((u^(n) . grad)u^(n))` into low-high, high-low, and high-high paraproduct interactions.
-4. Reduce the strict low-mode pieces to the admissible coefficient surface `\mathcal L_N^{(n)} E_N^{(n)}` by `scale-paraproduct-reduction-lemma.md`.
+4. Reduce the strict low-mode pieces to the admissible coefficient surface
+   `\mathcal L_N^{(n)} E_N^{(n)}` only after the coefficient-preserving
+   commutator is proved.  The compressed line in
+   `scale-paraproduct-reduction-lemma.md` is not yet enough by itself: the
+   direct damped test in
+   `mpp-forward-gold-strict-low-coefficient-preservation-damped-test-20260619.md`
+   shows that the currently visible commutator estimates produce either the
+   Lipschitz coefficient \(K_NT_N\) or the squared coefficient
+   \(\mathcal L_N^2T_N\), and both are too large for the retained
+   \(2^{2N}\) tail damping under only the energy surface.
 5. Isolate the threshold-local spill collar by `scale-spill-reduction-lemma.md`.
 6. Reduce the genuine high-high packet itself to a near-diagonal cubic tail by `scale-high-high-near-diagonal-reduction-lemma.md`.
 7. Absorb that cubic tail into dissipation for all large cutoffs by `scale-cubic-tail-absorption-lemma.md`.
@@ -111,6 +120,11 @@ not a bare Gronwall exponential once the viscous tail damping is retained.  The
 current obstruction is theorem-grade production of the damped tail-energy
 inequality itself, including the strict-low coefficient-preserving commutator,
 the threshold-local spill collar, and the lifted high-side mesoscopic flux.
+The strict-low obstruction is now sharpened by
+`mpp-forward-gold-strict-low-coefficient-preservation-damped-test-20260619.md`:
+the desired packet estimate is
+\(\mathcal N_{N,\mathrm{strict}}\le C\mathcal L_NT_N+\varepsilon\nu Q_N\),
+while the checked direct routes give \(K_NT_N\) or \(\mathcal L_N^2T_N\).
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
