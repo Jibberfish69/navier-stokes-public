@@ -20,7 +20,7 @@ C_\eta<\infty
 ```
 
 on infinitely many unit log-time slabs \(J_k=[s_k,s_k+1]\), together with
-order-one local rescaled energy.
+local rescaled energy bounded above and below by fixed positive constants.
 
 This note tests whether `(BRP.1)` automatically produces the compact no-waste
 recurrent profile needed for rigidity.  It does not.  It produces, at best, a
