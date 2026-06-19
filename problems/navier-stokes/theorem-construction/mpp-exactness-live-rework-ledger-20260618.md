@@ -10273,3 +10273,35 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formal endpoint vocabulary` or `closes
 Step 1 as formalization` hit in the edited source note or appendix copy.
 `git diff --check` passes on both edited surfaces.
+
+## First-Time Class-Exit Shell Copy Rework
+
+Old claim being spent:
+
+The class-membership contradiction frontier source note had already named the
+compactness-route bridge as conditional, but the appendix copy still described
+the chronological first-time class-exit shell as sitting on top of a "formal"
+compactness-route bridge.
+
+Exact replacement:
+
+The appendix now matches the source note: the first-time class-exit shell is an
+explicit chronological wrapper on top of the conditional compactness-route
+bridge.
+
+Proof or downstream consequence:
+
+The chronological shell may index the earliest route-visible exit only as a
+conditional wrapper.  It does not become the governing restart surface and does
+not assert a unique primitive failure mode.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal compactness-route bridge` hit in
+the source note or appendix copy.  The positive scan finds `conditional
+compactness-route bridge` in both surfaces, and `git diff --check` passes on
+the edited appendix.
