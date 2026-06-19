@@ -10537,3 +10537,31 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `Route C is formally true` hit in the
 edited source note or appendix copy.  The positive scan finds `Route C is
 tautological`, and `git diff --check` passes on both edited surfaces.
+
+## UTKD Reduction Audit Wording Rework
+
+Old claim being spent:
+
+The appendix UTKD proof-attempt audit said every "formally valid" reduction of
+UTKD is derived from the current Body 1 surface.
+
+Exact replacement:
+
+The audit now says every algebraically valid reduction of UTKD in this audit is
+derived from the current Body 1 surface, exposing the first genuinely new
+estimate required for the theorem.
+
+Proof or downstream consequence:
+
+The reduction is an algebraic audit of the displayed Body 1 reductions.  It is
+not a generic formal license to spend UTKD before the new estimate is proved.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formally valid reduction` hit in the
+appendix.  The positive scan finds `algebraically valid reduction`, and `git
+diff --check` passes on the edited appendix.
