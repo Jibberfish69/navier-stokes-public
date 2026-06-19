@@ -15618,6 +15618,58 @@ finds zero remaining hits for `should`, `O(1)`, `\lesssim`, `\gtrsim`, `\sim`,
 `approximately`, `roughly`, `same order`, `typical`, `immediate`, `schematic`,
 and `comparable`.  `git diff --check -- problems/navier-stokes` passes.
 
+## Main Appendix Comparable-To-Constants Repair
+
+Old claim being spent:
+
+The reader-facing submission appendix and roadmap still contained `should` and
+`comparable` language in proof-facing geometry, packet, parent, and
+source-wall passages.  Some instances were legitimate bounded-distortion
+statements, but the manuscript text did not always state the constants or the
+exact finite-band/window condition being used.
+
+Exact replacement:
+
+The roadmap sentence now directly states that each paragraph identifies the
+object under test and the proof role it pays.  The appendix replacements
+convert `comparable` into:
+
+- two-sided packet-volume and ball-containment bounds such as
+  `c_E r_T^3 <= |E_T| <= C_E r_T^3` and radii in `[c_P r,C_P r]`;
+- bounded-distortion pullback statements with constants depending only on
+  frame bounds or `M_\sharp`;
+- heat and same-fluid window bounds such as
+  `c_t r_m^2 <= Delta t_m <= C_t r_m^2` and
+  `c_w|W| <= |W'| <= C_w|W|`;
+- fixed-fraction parent/source statements such as parent mass at least `c_p`
+  times the child normalized source/mix mass;
+- finite-band shell conditions such as `|j-k| <= C_{\rm LP}` and
+  `|k-j| <= C_{\rm band}`;
+- fixed-fraction angular partner and source-wall mismatch statements such as
+  weights in `[c_\omega\omega_+,\omega_+]` or mismatch at least
+  `c_\omega` times the selected positive source.
+
+Surfaces edited:
+
+- `submission-bundle/sections/roadmap.tex`.
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Downstream consequence:
+
+The reader-facing appendix can no longer spend geometric comparability, parent
+selection, finite-band interaction, or source-wall partner strength as a loose
+scale phrase.  Downstream uses now require the explicit constants, fixed window
+sizes, finite shell gaps, or fixed-fraction mass statements written on the page.
+
+Second downstream pass and validation:
+
+A fixed-string marker scan over `submission-bundle/navier-stokes-submission.tex`,
+`submission-bundle/source-field-reader-appendix.tex`, and
+`submission-bundle/sections/roadmap.tex` finds no remaining `should`, `O(1)`,
+`\lesssim`, `\gtrsim`, `\sim`, `approximately`, `roughly`, `same order`,
+`typical`, `immediate`, `schematic`, or `comparable` hits.  `git diff --check`
+passes for the edited TeX surfaces.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
