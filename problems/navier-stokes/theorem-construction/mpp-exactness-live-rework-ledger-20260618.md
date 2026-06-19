@@ -9925,3 +9925,38 @@ or source-frontier.  The positive scan finds
 `TPS-selector-defect-budget`, `TPS-selector-defect-bridge-to-SG4B`, and the new
 pair-defect product/energy heading.  `git diff --check` passes on both edited
 files.
+
+## Clay Discharge Ladder Conditional-Implication Rework
+
+Old claim being spent:
+
+The Clay discharge ladder said it recorded what "would formally follow" after a
+remaining theorem step, and described `(A1a)` and `(B1)` as "isolated formally."
+This was context-only relative to the current CM mainline, but the note is still
+listed in source-frontier and theorem-packet surfaces, so the branch prose must
+state the exact conditional burden rather than rely on formal-follow language.
+
+Exact replacement:
+
+The purpose section now says the note records what still has to be proved and
+which conditional implication would be available after the named remaining
+theorem step is proved.  The `(A1a)` datum-side component and the weaker-route
+`(B1)` component are now described as exact burdens, with their governing notes
+linked.
+
+Proof or downstream consequence:
+
+The ladder can be used only as a conditional route map: a downstream surface may
+spend the implication after the named theorem step is proved, not because the
+route is formally isolated.  This keeps the Euclidean strict-shadow branch as
+downstream context and prevents it from masquerading as current Clay closure.
+
+Surfaces edited:
+
+- `theorem-construction/clay-discharge-ladder-from-current-reductions.md`.
+
+Second downstream pass and validation:
+
+The targeted scan no longer finds `formally` in the edited ladder.  The positive
+scan finds `conditional implication` and `exact burden` wording, and
+`git diff --check` passes on the edited note.
