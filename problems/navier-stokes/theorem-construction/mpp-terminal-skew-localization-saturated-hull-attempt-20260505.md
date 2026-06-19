@@ -149,7 +149,7 @@ source-control wall: it is the old `SignedWeightedLiftedBalance.A` /
 
 ### 2. Full Saturation Loses The Terminal Consumer Geometry
 
-If the hull is forced to contain every formal signed partner, it may propagate
+If the hull is forced to contain every corresponding signed partner, it may propagate
 through donor packets, lower-scale parents, and same-time internal sinks that
 were not selected as terminal bad packets.  On finite truncations this is a
 finite set, but it is not the original bounded-overlap terminal consumer family
