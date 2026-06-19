@@ -263,8 +263,9 @@ Equivalently, for dyadic unit slabs \(J_j=[j,j+1]\),
 \tag{LAR.21}
 ```
 
-Each source-balanced heat-scale packet has an order-one contribution to this
-sum.  Therefore `(LAR.20)` would exclude an infinite terminal stack.
+Each source-balanced heat-scale packet has a contribution bounded below by a
+fixed positive constant in this sum.  Therefore `(LAR.20)` would exclude an
+infinite terminal stack.
 
 But `(LAR.20)` is precisely the unweighted normalized critical reserve, not a
 consequence of the discounted physical energy inequality.

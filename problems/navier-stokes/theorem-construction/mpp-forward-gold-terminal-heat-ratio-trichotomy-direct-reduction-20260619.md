@@ -38,7 +38,8 @@ and
 \tag{HTR.4}
 ```
 
-The subheat regime cannot carry order-one normalized feed.  The many-heat-times
+The subheat regime cannot carry normalized feed bounded below by a fixed
+positive constant.  The many-heat-times
 regime either exposes an earlier selected source/residence cost or can be
 truncated to the last heat-scale slab.  The unresolved forward-gold case is
 therefore the heat-scale endpoint packet.
@@ -105,8 +106,8 @@ then `(HTR.8)` gives
 \tag{HTR.10}
 ```
 
-The normalized packet cannot receive order-one feed in that window, apart from
-legal exits already charged elsewhere.
+The normalized packet cannot receive feed bounded below by a fixed positive
+constant in that window, apart from legal exits already charged elsewhere.
 
 This is the exact version of "earlier cannot be immediate because there is a
 speed limit."  A window shorter than the heat clock has too little time to feed
@@ -123,7 +124,7 @@ If
 \tag{HTR.11}
 ```
 
-then an order-one normalized feed is compatible with the packet balance exactly
+then a bounded-below normalized feed is compatible with the packet balance exactly
 when the selected coefficient also has a matching lower bound on a comparable
 subwindow.  Under
 
@@ -228,8 +229,8 @@ For a fixed radius \(R_0\), the maximum terminal transfer curve is linear:
 
 ```math
 \int_{T-\tau}^{T}\lambda^+(t)\,dt
-\lesssim
-{\nu\over R_0^2}\tau.
+\le
+C{\nu\over R_0^2}\tau.
 \tag{HTR.19}
 ```
 
@@ -247,8 +248,9 @@ scale-compatible rate is
 ```
 
 This does not mean a fixed packet transfers infinite energy.  The physical
-energy in each critical packet is only \(O(r)\).  It means the normalized
-critical feed can remain order one on each dyadic heat-scale terminal layer.
+energy in each critical packet is bounded above by \(C r\).  It means the
+normalized critical feed can stay bounded below on each dyadic heat-scale
+terminal layer.
 
 The calculus therefore does not need a generic monotonicity theorem over all
 terminal windows.  It needs a coercive theorem for the final heat-scale layers.
@@ -262,7 +264,7 @@ pulse falls into one of the following:
 \boxed{
 \Theta\downarrow0
 \Longrightarrow
-\text{no order-one normalized terminal feed}.
+\text{no bounded-below normalized terminal feed}.
 }
 \tag{HTR.21}
 ```

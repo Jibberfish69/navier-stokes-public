@@ -212,7 +212,7 @@ or a terminal-tail version
 \tag{CKH.16}
 ```
 
-Since each retained heat-scale packet has \(\mathcal C(Q(P))\gtrsim c_0\),
+Since each retained heat-scale packet has \(\mathcal C(Q(P))\ge c_0\),
 `(CKH.15)` or `(CKH.16)` would forbid an infinite terminal chain.
 
 But `(CKH.15)` is not a consequence of CKN, energy, local energy, pressure

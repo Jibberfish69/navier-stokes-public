@@ -39,8 +39,7 @@ local-energy/native-source identification, and compact orbit production.
 
 ## 1. Fixed positive radius really is killed
 
-For a retained packet at a fixed physical scale \(R_0\), the local rate bound
-has the schematic form
+For a retained packet at a fixed physical scale \(R_0\), the local rate bound is
 
 ```math
 \lambda^+(t)
@@ -181,8 +180,8 @@ The physical energy amount goes to zero.  The normalized packet feed does not:
 ```
 
 This is the central mismatch.  Ordinary energy accounting can lose the packet
-at scale \(r_m\) because its physical energy is only \(O(r_m)\).  The
-scale-normalized profile still sees an order-one event.
+at scale \(r_m\) because its physical energy is bounded above by \(C r_m\).  The
+scale-normalized profile still sees a fixed positive normalized event.
 
 ## 4. Attempted scalar barrier
 
@@ -287,7 +286,7 @@ The heat-scale feed event becomes order one in the normalized variables:
 \langle S_{<}^{loc}(U_m)W_m,W_m\rangle
 \right]_+
 dyds
-\gtrsim c_0.
+\ge c_0.
 \tag{HCT.21}
 ```
 
@@ -409,7 +408,7 @@ The surviving obstruction is:
 \boxed{
 \text{shrinking heat-scale radius + critical trilinear throttle}
 \Longrightarrow
-\text{order-one normalized feed with vanishing physical energy.}
+\text{bounded-below normalized feed with vanishing physical energy.}
 }
 \tag{HCT.30}
 ```

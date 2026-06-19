@@ -221,7 +221,8 @@ M\ge \sqrt{c/C}.
 \tag{LST.18}
 ```
 
-Thus the inequality permits an order-one rescaled packet.  The model scalar
+Thus the inequality permits a bounded-below rescaled packet.  The scalar
+comparison
 profile
 
 ```math

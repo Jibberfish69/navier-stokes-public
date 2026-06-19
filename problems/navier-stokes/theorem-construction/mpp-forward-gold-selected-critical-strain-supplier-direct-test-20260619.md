@@ -140,8 +140,8 @@ does not produce a scale-uniform estimate.  For modes below \(j\),
 
 and the strain itself already carries one derivative.  The fixed-cutoff
 coefficient therefore grows with the scale threshold.  On a heat window
-`|I_j|\sim2^{-2j}/\nu`, this growth is not enough to force tail smallness of
-the selected critical feed coefficient.
+`alpha_t 2^{-2j}/nu <= |I_j| <= A_t 2^{-2j}/nu`, this growth is not enough to
+force tail smallness of the selected critical feed coefficient.
 
 Equivalently, a selected critical packet is represented here by the exact
 normalization
@@ -246,7 +246,7 @@ heat-scale problem:
 \boxed{
 \text{critical feed event}
 \Longrightarrow
-\text{order-one }L^{5/2}_{t,x}\text{ strain bill}.
+\text{fixed-positive }L^{5/2}_{t,x}\text{ strain bill}.
 }
 \tag{SCS.19}
 ```
