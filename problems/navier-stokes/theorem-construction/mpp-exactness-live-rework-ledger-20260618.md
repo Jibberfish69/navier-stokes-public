@@ -9292,3 +9292,66 @@ The focused asymptotic `\sim` scan now returns only relation/summation notation,
 the scale-language scan returns only preserved guard or technical-term hits, all
 live authority YAML files parse, and `git diff --check` passes on the edited
 files.
+
+## Fake-Immediacy / Consequence-Word Rework
+
+Old claim being spent:
+
+The live fake-immediacy scan found no proof-step uses of `immediate`,
+`obvious`, `straightforward`, or `routine` in the live authority set.  The
+broader consequence-word scan did find one compact manuscript surface where the
+old text still spent an endpoint package as though it had already been proved:
+`periodic-main-clean.tex` stated unconditional periodic global smoothness, then
+used `Hence` / `Therefore` after the sentence "The endpoint package removes all
+four rows."
+
+Exact replacement:
+
+`periodic-main-clean.tex` now states a conditional theorem.  The hypotheses are
+listed explicitly on the same periodic solution branch:
+
+- \(\mathrm{TTU}\): terminal-tail uniformization supplies a finite retained
+  terminal readout cover, pointwise field coherence, and a finite-depth
+  transported-center tower;
+- \(\mathrm{END}\): the endpoint matrix is exhaustive and the four rows
+  \(Dead\), packing-detached, tower-blown, and \(Jump\) are removed by the named
+  row theorems, with cross entries reduced to those rows;
+- \(\mathrm{PATCH}\): for some \(s>5/2\) and \(N>s+2\), the finite terminal
+  cover and depth-\(N\) tower give
+  \(\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty\).
+
+The proof then spends only the classical continuation step: the displayed
+\(H^s\) bound gives a local lifespan
+\(\tau(\nu,s,M_s)>0\) from any time slice, so restarting at
+\(t_j\uparrow T_*\) with \(T_*-t_j<\tau/2\) extends the same classical branch
+past \(T_*\).
+
+Downstream consequence:
+
+The periodic clean file no longer presents a paid Clay theorem behind a legacy
+cap.  It is a conditional reduction: once \(\mathrm{TTU}\), \(\mathrm{END}\),
+and \(\mathrm{PATCH}\) are supplied on the same branch, the continuation
+conclusion is classical.  The missing endpoint-package mathematics remains in
+the named inputs rather than being hidden behind `hence` or `therefore`.
+
+Surfaces edited:
+
+- `submission-bundle/periodic-main-clean.tex`.
+
+Intentionally preserved hits:
+
+- `Gold Standard` / `Silver Standard` uses of `standard` are route names, not
+  proof shortcuts;
+- `trivial` in `trivial solution`, `pressure-trivial`, or `contact-trivial` is
+  mathematical terminology;
+- consequence words remaining in theorem/proof files are kept only where they
+  follow a displayed identity/inequality or explicitly name a conditional
+  theorem burden.
+
+Validation:
+
+`periodic-main-clean.tex` has no remaining `therefore`, `hence`, `it follows`,
+or `consequently` hits.  The fake-immediacy scan has no live
+`immediate` / `obvious` / `straightforward` / `routine` proof-step hits, all
+live authority YAML files parse, and `git diff --check` passes on the edited
+files.
