@@ -12215,3 +12215,59 @@ or the pressure/cutoff/collar legal-loss estimate is missing.
 Surfaces edited:
 
 - `theorem-construction/mpp-pressure-lobe-source-tether-direct-attempt-20260517.md`.
+
+## TPNI Finite-Slab Boundary-Term Rework
+
+Old claim being spent:
+
+The TPNI no-incoming anisotropic backward-uniqueness note said a finite-slab
+Carleman theorem yields finite-slab unique continuation under the "usual
+boundary hypotheses."  The same note identifies boundary/no-incoming control as
+the missing obstruction, so the boundary terms cannot remain unnamed.
+
+Exact replacement:
+
+The finite-slab result now says the implication is conditional on a Carleman
+theorem for the anisotropic Stokes system with boundary terms stated and
+controlled: terminal/initial slab terms, lateral transported-boundary flux or
+trace terms, pressure boundary contribution, and
+`\nabla_z\cdot(A(s)w)=0` constraint terms.
+
+Proof or downstream consequence:
+
+`TPNI.A` remains open through
+`NoIncomingFlux_global.A + AnisotropicStokesCarleman.A`.  Finite-slab unique
+continuation may not be spent without the stated boundary controls.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-tpni-noincoming-anisotropic-bu-solver-pass-20260505.md`.
+
+## HWY Transport-Diffusion Gronwall Factor Rework
+
+Old claim being spent:
+
+The HWY instability packet proof of `(EP.10bg3)` said the stretching term is
+absorbed into the "usual transport-diffusion Gronwall factor."  The bound is a
+specific coefficient integration, not a generic factor.
+
+Exact replacement:
+
+The proof now defines the Gronwall coefficient
+`a_k(t)=C_prod ||nabla v_J(.,t)||_{L^\infty(U_k)}` and uses the coefficient
+packet `(EP.10be1)` to get
+\[
+\int_{I_k^{gap}}a_k(t)\,dt\le C\Lambda_k^v,
+\]
+which produces the displayed exponential `e^{C_td' Lambda_k^v}` in
+`(EP.10bg3)`.
+
+Proof or downstream consequence:
+
+The retained-chart propagation may spend the product estimate `(EP.10bg1)` only
+through this coefficient packet.  The remaining inhomogeneous source is exactly
+the cutoff commutator packet `F_{J,k}^{cut}`.
+
+Surfaces edited:
+
+- `theorem-construction/hwy-instability-attack-packet.md`.
