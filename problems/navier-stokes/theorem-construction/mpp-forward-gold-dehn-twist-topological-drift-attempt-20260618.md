@@ -106,9 +106,13 @@ The estimate `(DT.8)` also shows the escape.  If the collar length/modulus grows
 without a legal charge, one unit of twist can cost arbitrarily little:
 
 ```math
-\mathcal A_{tw}(\Theta_1)\sim {1\over L}\to0.
+0\le \mathcal A_{tw}(\Theta_1;L)\le {C_{tw}\over L}\to0
+\qquad (L\to\infty),
 \tag{DT.9}
 ```
+
+Here `Theta_1;L` denotes the standard one-twist collar test map with the twist
+spread uniformly across collar length `L`, and `C_tw` is independent of `L`.
 
 So Dehn twists do not by themselves close the Zeno branch.  They split it:
 
