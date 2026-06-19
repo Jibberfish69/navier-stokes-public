@@ -206,9 +206,9 @@ local affine Gronwall bound.
 
 The bundled version of the same target is `ACT.A`: one affine-center master
 packet has closure force only if it closes `D_1^aff in L1(I)`,
-`F_ctr_res in L1(I)`, and `H_osc^alpha in L2(I)` together. This is licensed only if the affine-center
-energy inequality is proved with external or dissipatively absorbed `L1`
-coefficients. The bootstrap
+`F_ctr_res in L1(I)`, and `H_osc^alpha in L2(I)` together. This is licensed only
+if the affine-center energy inequality is proved with external or dissipatively
+absorbed `L1` coefficients. The bootstrap
 
 ```text
 E_ACT in Linfty => B_ACT,F_ACT in L1 => E_ACT in Linfty
