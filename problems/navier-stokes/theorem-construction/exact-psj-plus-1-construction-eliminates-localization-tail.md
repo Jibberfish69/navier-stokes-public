@@ -95,4 +95,7 @@ remain. The sharper follow-on reduction in
 [localized-projector-angular-forcing-ledger-reduction.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-angular-forcing-ledger-reduction.md)
 shows that, on the simple-top cone, item `3` itself is already equivalent to
 the installed pair-family forcing ledger `D.7ie1` or the adiabatic ledger
-`D.7ie3`, modulo the usual weighted coverage/globalization packet.
+`D.7ie3`, modulo the explicit angular-forcing globalization interface: after
+`AFR.G`, one maximal-envelope theorem for `q_\ell^{mat}` or
+`q_\ell^{aux}` together with the installed pair-family forcing ledger, before
+the overlap-surrogate gluing split.
