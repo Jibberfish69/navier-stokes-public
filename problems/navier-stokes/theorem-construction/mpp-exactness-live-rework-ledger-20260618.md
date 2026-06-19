@@ -10550,14 +10550,16 @@ tautological`, and `git diff --check` passes on both edited surfaces.
 
 Old claim being spent:
 
-The appendix UTKD proof-attempt audit said every "formally valid" reduction of
-UTKD is derived from the current Body 1 surface.
+The UTKD proof-attempt audit source note and appendix copy said every
+"formally valid" reduction of UTKD is derived from the current Body 1 surface,
+and the source note labeled the reductions as formal.
 
 Exact replacement:
 
 The audit now says every algebraically valid reduction of UTKD in this audit is
 derived from the current Body 1 surface, exposing the first genuinely new
-estimate required for the theorem.
+estimate required for the theorem.  The source note headings now read
+`Algebraic Reduction`.
 
 Proof or downstream consequence:
 
@@ -10566,13 +10568,15 @@ not a generic formal license to spend UTKD before the new estimate is proved.
 
 Surfaces edited:
 
+- `theorem-construction/utkd-proof-attempt-audit.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
-The targeted scan finds no remaining `formally valid reduction` hit in the
-appendix.  The positive scan finds `algebraically valid reduction`, and `git
-diff --check` passes on the edited appendix.
+The targeted scan finds no remaining `formally valid` or `Formal Reduction` hit
+in the edited source note or appendix copy.  The positive scan finds
+`algebraically valid reduction` and `Algebraic Reduction`, and `git diff
+--check` passes on both edited surfaces.
 
 ## Constitutive-First Branch-Start Wording Rework
 
