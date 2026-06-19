@@ -63,4 +63,16 @@ T_*=\infty.
 
 ## Boundary
 
-This conversion is standard and conditional on terminal tower control. The live mathematical blocker remains the noncircular production of terminal tower control from the original periodic Navier-Stokes dynamics.
+This conversion spends only the periodic `H^s`, `s>5/2`, relaunch theorem:
+if
+
+```math
+\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\le M_s,
+```
+
+then the local lifespan has a lower bound
+`\delta=\delta(s,\nu,M_s)>0`, and uniqueness on overlaps continues the same
+classical solution beyond `T_*`.  The conversion is therefore conditional on
+terminal tower control producing that uniform `H^s` bound.  The live
+mathematical blocker remains the noncircular production of terminal tower
+control from the original periodic Navier-Stokes dynamics.
