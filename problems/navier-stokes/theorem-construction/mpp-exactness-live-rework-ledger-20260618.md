@@ -12229,6 +12229,79 @@ edited pressure-lobe note.  It finds the replacement
 `TerminalPressureCollarLegal.A` condition and displayed legal-loss estimate.
 `git diff --check` passed on the edited note and this ledger.
 
+## RefillTree Zeno Compactness Extraction Rework
+
+Old claim being spent:
+
+The refill-tree direct attempt said a Zeno branch can be rescaled around its
+terminal packets and then produce a local suitable ancient limit after the
+"usual compactness extraction."
+
+Exact replacement:
+
+The note now states the extraction packet: branch centers and scales
+`(x_m,t_m,r_m)` with `r_m -> 0`; rescaled fields
+`u_m(y,s)=r_m u(x_m+r_m y,t_m+r_m^2s)` and pressure gauges
+`p_m=r_m^2(p-[p]_{B_{r_m}})`; uniform local energy, gradient, and
+`L^{3/2}` pressure bounds on every backward cylinder `Q_R^-`; same-fluid
+tightness of source-residue measures; and vanishing legal-loss errors.
+
+Proof or downstream consequence:
+
+Those hypotheses give only subsequential convergence to a local suitable
+ancient object `(u_*,p_*,mu_*^{src})` carrying inherited source residue.  They
+do not supply Type I control, finite global ancient energy, critical smallness,
+self-similarity, symmetry, or the Liouville theorem needed to prove
+`ZenoSourceResidueRigidity.A`.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-refilltree-wellfounded-direct-attempt-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## ESNS Conditional Gronwall Comparison Rework
+
+Old claim being spent:
+
+The ESNS B1/B2 closure attempt said the difference estimate supports the "usual
+inviscid-limit logic" on intervals where Euler is smooth and the difference
+remains controlled.
+
+Exact replacement:
+
+The note now states the conditional comparison theorem with
+`Y(t)=||w(t)||_{H^s}^2`, integrability of `C_E`, integrability of
+`||u^E||_{H^{s+2}}^2`, and an explicit bootstrap bound `Y^{1/2}<=M`.  Under
+those hypotheses the displayed differential inequality becomes a Gronwall
+estimate:
+
+```math
+Y(t)
+\le
+C\nu^2
+\exp\left(\int_0^t(C_E(\tau)+C_sM)\,d\tau\right)
+\int_0^t||u^E(\tau)||_{H^{s+2}}^2\,d\tau.
+```
+
+Proof or downstream consequence:
+
+The ESNS surface may spend this only as conditional finite-time comparison or
+small-viscosity stability on already-controlled intervals.  It does not prove
+`EulerSmoothToNSnuSmooth.A` for arbitrary fixed positive viscosity and large
+data, because that still requires a positive-viscosity `H^s` a priori bound or
+the live source/receiver closure package.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-esns-b1-b2-closure-attempt-20260506.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
