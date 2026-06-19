@@ -14281,3 +14281,28 @@ Second downstream pass and validation:
 The targeted standard/criterion scan is clean on live files; old phrases remain
 only in ledger evidence.  `git diff --check` passed on the edited surfaces and
 this ledger.
+
+## Residual Standard-Criterion Cleanup
+
+Old claim being spent:
+
+Two remaining live notes used `standard` to name a proof bar: `proof standard`
+and `The standard here is strict`.
+
+Exact replacement:
+
+Those lines now say proof criterion and strict criterion.
+
+Proof or downstream consequence:
+
+The notes now refer to a checked proof/certification criterion instead of
+allowing `standard` to carry authority.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-external-frontier-and-claim-quarantine-audit-20260518.md`.
+- `theorem-construction/wizard-terminal-impasse-comparison-note.md`.
+
+Second downstream pass and validation:
+
+Pending targeted residual standard scan and `git diff --check`.
