@@ -141,8 +141,9 @@ assume the target.
 ## Ledger Lower Bound
 
 Let `P\in\mathcal F_N` be selected and let `Q\notin Ledger(\mathcal F_N)` be
-the formal same-fluid signed partner.  After subtracting any antisymmetric
-current value `J_{PQ}`, the endpoint residuals are
+the corresponding same-fluid signed partner in the full unlocalized graph.
+After subtracting any antisymmetric current value `J_{PQ}`, the endpoint
+residuals are
 
 ```math
 L_P=A_P-J_{PQ},
