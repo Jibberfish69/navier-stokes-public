@@ -1,13 +1,11 @@
-# Formal Package: Ontic Projected Flow, Exact Lift, Classical Corollary
+# Conditional Package: Ontic Projected Flow, Exact Lift, Classical Corollary
 
 ## Status
 
-This is the strongest formal package currently derivable from the live NS lane
-surfaces.
-
-It is theorem-bearing local package material, not a discharged proof.
-Its job is to state the projected-flow route in the sharpest theorem order now
-supported on the lane:
+This is a theorem-bearing conditional package, not a discharged proof of the
+Navier-Stokes theorem.  Its proved content is the implication from named route
+packages to the classical shadow theorem.  Its job is to state the
+projected-flow route in the sharpest theorem order now supported on the lane:
 
 ```text
 ontic theorem first,
@@ -406,9 +404,9 @@ global smooth classical solution.
 
 ## Honest status
 
-This is the strongest formal derivation currently supported by the lane.
+This is the strongest conditional derivation currently supported by the lane.
 
-What is formal here:
+What is proved as an implication here:
 
 - the ontic projected-flow route architecture,
 - the exact lift package,
