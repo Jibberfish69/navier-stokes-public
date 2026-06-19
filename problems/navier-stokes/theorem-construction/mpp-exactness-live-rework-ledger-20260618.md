@@ -13914,7 +13914,8 @@ object a terminal time-face concentration sequence: the displayed densities
 counter-sequences against the available `L^1` source ledger, not schematic
 profiles.  The annular silver boundary now says an unadmitted private annular
 diagnostic must satisfy the stated same-solution admission, positive-radius
-carrier, and continuation-readout conditions before it can be spent.  The Clay
+carrier, and continuation-readout conditions before it can be spent; the
+annular selection/readout support note now states the same boundary.  The Clay
 row addendum names unlocalized public-critical translator support, and the
 zero-moment note splits the source carrier into positive and negative parts of
 the same selected terminal carrier.
@@ -13934,6 +13935,7 @@ Surfaces edited:
 - `theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md`.
 - `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`.
 - `theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`.
+- `theorem-construction/mpp-annular-selection-readout-torus-atlas-payment-20260611.md`.
 
 Second downstream pass and validation:
 
