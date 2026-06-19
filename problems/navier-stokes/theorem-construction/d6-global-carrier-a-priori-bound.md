@@ -797,7 +797,8 @@ recorded from the block symbols, `D.6a'` is closed.
 Once `D.6b'` and `D.6a''` are proved, the following become bookkeeping
 consequences rather than separate live burdens.
 In the route order, `D.6b'` feeds `D.6a''`, then `D.6a'`, then `D.6` closes,
-then `D.7` and `D.8` follow formally.
+then `D.7` and `D.8` follow as bookkeeping consequences of that stated route
+order.
 
 ### D.6a (coercivity dominates the cubic term)
 
