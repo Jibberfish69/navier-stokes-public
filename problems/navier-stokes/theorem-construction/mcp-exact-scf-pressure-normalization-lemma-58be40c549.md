@@ -33,10 +33,28 @@ The moving frame contributes an inertial affine force. Its potential `p^{frame}_
 After subtracting this potential, the transformed local energy inequality has the CKN pressure fluctuation `p^{norm}`. Thus the pressure component of `SCF_base` is
 
 ```math
-r^{-2}\iint_{Q_r^\Phi}|p^{norm}-(p^{norm})_{Q_r}|^{3/2},
+r^{-2}
+\int_{t_0-r^2}^{t_0}
+\int_{B_r^\Phi(t)}
+\left|
+p^{norm}(x,t)
+-
+\langle p^{norm}\rangle_{B_r^\Phi(t)}(t)
+\right|^{3/2}
+\,dx\,dt,
 ```
 
-with the usual CKN pressure gauge convention.
+where
+
+```math
+\langle p^{norm}\rangle_{B_r^\Phi(t)}(t)
+:=
+|B_r^\Phi(t)|^{-1}\int_{B_r^\Phi(t)}p^{norm}(x,t)\,dx.
+```
+
+This is a spatial-slice gauge at each time, so the subtraction removes only the
+pressure constant on the local ball and does not change any pressure gradient
+or derivative used later.
 
 ## Readout compatibility
 
