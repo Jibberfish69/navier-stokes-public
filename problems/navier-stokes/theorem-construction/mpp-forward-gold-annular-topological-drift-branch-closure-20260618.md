@@ -62,10 +62,12 @@ On a fixed-modulus collar, one unit of twist has nonzero action:
 
 ```math
 |\operatorname{Tw}_{ann}|^2
-\lesssim
-\operatorname{Mod}(A)\,\mathcal A_{tw}.
+\le
+C_{tw}'\,\operatorname{Mod}(A)\,\mathcal A_{tw}.
 \tag{CL.4}
 ```
+
+Here `C_tw'` is fixed by the annular marking and connection norm.
 
 Thus nonzero topological drift becomes visible as connection/twist action.
 
@@ -188,8 +190,9 @@ with
 \tag{CL.12}
 ```
 
-on the nonzero-flux side, and `MinimalZenoProfileProduction.A` on the zero-flux
-side.
+after the conditional minimal donor-chain reduction on the nonzero-flux side,
+including the ASAC/positive-pair-weight finite-graph package; the zero-flux side
+remains `MinimalZenoProfileProduction.A`.
 
 Thus this branch is exhausted and closed as an independent line of inquiry.
 Its surviving content is now a support term inside the complete annular
