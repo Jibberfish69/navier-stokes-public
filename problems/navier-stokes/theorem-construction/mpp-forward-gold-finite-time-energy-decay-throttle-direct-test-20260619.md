@@ -11,54 +11,44 @@ form.
 It does not close the forward-gold branch.  The reason is simple: a critical
 heat-scale packet carries vanishing physical energy and vanishing physical
 dissipation cost as \(r\downarrow0\), while its normalized critical profile
-remains order one.
+stays bounded below in the selected normalized quantities.
 
 So finite-time energy accounting can coexist with an infinite terminal
 heat-scale stack.
 
 ## 1. Total energy can go to zero locally while density blows up
 
-On a critical packet of radius \(r\), with viscosity normalized to \(\nu=1\),
-the velocity scale is
+Let \(M_2(r)=\int_{B_r}|u|^2dx\).  The exact heat-scale energy normalization
+needed for the endpoint test is
 
 ```math
-|u|\sim {1\over r}.
+c_E r\le M_2(r)\le C_E r
+\qquad(0<c_E\le C_E<\infty),
 \tag{EDT.1}
 ```
 
-The local kinetic energy is
-
-```math
-M_2(r)
-:=
-\int_{B_r}|u|^2dx
-\sim
-r^{-2}r^3
-=
-r.
-\tag{EDT.2}
-```
-
-Thus
+with viscosity normalized to \(\nu=1\).  This condition is a statement about the
+total energy in the ball, not a pointwise profile assumption.
 
 ```math
 M_2(r)\to0
 \quad\text{as}\quad
 r\downarrow0.
+\tag{EDT.2}
+```
+
+But the average kinetic-energy density in the ball obeys
+
+```math
+c_d\,r^{-2}
+\le
+{M_2(r)\over |B_r|}
+\le
+C_d\,r^{-2},
 \tag{EDT.3}
 ```
 
-But the average kinetic-energy density in the ball is
-
-```math
-{M_2(r)\over |B_r|}
-\sim
-{r\over r^3}
-=
-{1\over r^2}
-\to\infty.
-\tag{EDT.4}
-```
+so the average density diverges as \(r\downarrow0\).
 
 This is the basic geometric fact behind the apparent paradox.  A shrinking ball
 can contain vanishing total energy while its average density and pointwise
