@@ -19,12 +19,17 @@ ClayAdmissibleFiniteBreakdown(W_*)
 => contradiction with W_* being a finite Clay counterexample.
 ```
 
-The intended bridge is:
+The tempting shortcut tested here is:
 
 ```text
 classified Exit(Q_atlas)
 => not a valid finite-breakdown counterexample.
 ```
+
+The proof attempt below rejects that shortcut.  The exact bridge has to exclude
+the first-face failure side for the original smooth datum, or equivalently
+produce the same-solution continuation packet; target fidelity alone does not
+turn `Exit(Q_atlas)` into a Clay contradiction.
 
 ## Installed Inputs Checked
 
