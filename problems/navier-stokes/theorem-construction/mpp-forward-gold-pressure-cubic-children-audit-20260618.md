@@ -30,10 +30,13 @@ cubic velocity currency:
 
 ```math
 |\mathcal P_\phi^{nl}|
-\lesssim
-\|\nabla\phi\|_\infty\|u\|_{L^3}^3.
+\le
+C_{\rm CZ}\|\nabla\phi\|_\infty\|u\|_{L^3(\operatorname{supp}\nabla\phi)}^3.
 \tag{PCC.2}
 ```
+
+Here `C_CZ` is the fixed Calderon-Zygmund/localization constant for the chosen
+cutoff class.
 
 The repo does have a CM-facing critical `L^3` branch.  In
 `mpp-critical-norm-cm-exit-unification-20260528.md`, terminal `L^3`
