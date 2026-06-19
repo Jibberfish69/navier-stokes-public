@@ -38,8 +38,10 @@ The exact burden here is:
 ```
 
 The route has already been reduced far enough that these are the two next
-successor burdens. Once they are available, the common-object discharge is
-formal and the branch can move on to closure packaging and first-exit work.
+successor burdens. Once they are available, this surface supplies the exact
+handoff data in `(FCI.13)`--`(FCI.16)`. Closure packaging and first-exit work may
+spend only those displayed bounds with the hypotheses that produced them; the
+word "formal" carries no proof force.
 
 ## Setup
 
@@ -376,7 +378,7 @@ So `(FCI.6)` is the exact common-object supplier theorem on the next-rung side.
 
 ## Exact Downstream Corollary
 
-### Corollary FCI.C (paired interval propagation formalizes the common-object discharge)
+### Corollary FCI.C (paired interval propagation supplies the common-object handoff)
 
 Assume:
 
@@ -441,7 +443,7 @@ Then:
 \tag{FCI.16}
 ```
 
-Hence the defended common-object route becomes formal:
+Thus the defended common-object route has the following exact handoff data:
 
 ```math
 \widehat{\mathcal E}^{Eul,ref}_{N,\rho,\psi}
@@ -450,8 +452,9 @@ Hence the defended common-object route becomes formal:
 \tag{FCI.17}
 ```
 
-are both propagated on `I`, and the class-membership branch can hand off to the
-closure-packaging layer.
+are both propagated on `I`. The class-membership branch may hand off to the
+closure-packaging layer only by carrying `(FCI.8)`--`(FCI.12)` and the outputs
+`(FCI.13)`--`(FCI.16)` as the downstream hypotheses.
 
 ### Proof
 
