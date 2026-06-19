@@ -536,8 +536,8 @@ non-circular supplier move rather than another widened-family identification.
 More concretely, the needed theorem target takes as input:
 
 1. bounded pack-side gauge on the packet label halo;
-2. a packet-local reference-increment defect control at scales comparable to
-   `R_\delta^{osc}`;
+2. a packet-local reference-increment defect control on the explicit enlarged
+   balls `B(\Phi(a^j,t),2R_\delta^{osc})`;
 3. the matching local next-rung segment control from the reference side;
 
 and conclude the enlarged-ball oscillation bound from `LCI.B2f2b` without
