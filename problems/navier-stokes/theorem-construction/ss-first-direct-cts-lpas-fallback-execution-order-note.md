@@ -50,9 +50,12 @@ with
 \tag{3}
 ```
 
-So the packet does **not** bottleneck symmetrically.
+So the coefficient-free packet does **not** bottleneck symmetrically.  On the
+weighted-carrier route, the moving-spill side is already controlled by
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md`, which
+leaves the far-corona route as the active middle-band theorem debt.
 
-## Why `(SS)` comes first
+## Why `(SS)` came first on the coefficient-free route
 
 The same-scale side is already local and fully packet-identified.
 
@@ -67,7 +70,7 @@ What is known:
 So the same-scale side is blocked only at the theorem step, not at the geometry
 step.
 
-That makes it the right first target:
+That made it the right first target before the weighted-carrier replacement:
 
 ```math
 \text{local packet geometry settled}
@@ -236,28 +239,23 @@ The mathematically sane route order is therefore:
 
 ```math
 \boxed{
-\text{Step A: close `(SS)` first.}
+\text{Step B: attempt direct `(CTS)` on } \mathcal A_{\ell,r} \text{ second.}
 }
 \tag{12}
 ```
 
 ```math
 \boxed{
-\text{Step B: attempt direct `(CTS)` on } \mathcal A_{\ell,r} \text{ second.}
+\text{Step C: use `(LPAS)` only as fallback debt if Step B still collapses to dyadic form.}
 }
 \tag{13}
 ```
 
-```math
-\boxed{
-\text{Step C: use `(LPAS)` only as fallback debt if Step B still collapses to dyadic form.}
-}
-\tag{14}
-```
-
 ## Honest boundary
 
-This note does **not** prove `(SS)`, `(CTS)`, or `(LPAS)`.
+This note does **not** prove `(CTS)` or `(LPAS)`.  The coefficient-free `(SS)`
+theorem remains open as a stronger standalone theorem, but the moving-spill
+side has been absorbed on the weighted-carrier route.
 
 What it fixes is the order in which those open debts are worked.
 
@@ -267,9 +265,9 @@ The route is no longer:
 \text{“some mixture of same-scale and CTS/LPAS work.”}
 ```
 
-It is:
+On the active weighted-carrier route it is:
 
 ```math
-\text{same-scale first, direct continuum second, dyadic fallback third.}
-\tag{15}
+\text{direct continuum CTS first, dyadic LPAS fallback second.}
+\tag{14}
 ```
