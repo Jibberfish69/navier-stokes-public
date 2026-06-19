@@ -9488,3 +9488,103 @@ The stale `velocity jump across scale`, `gradient scale is`, `A_r:= U_r/r`, and
 literal `U_r/r` hits are gone from the repaired note; the replacement
 `Delta_r` and positive-measure lower-bound statements are present, and
 `git diff --check` passes on the repaired file.
+
+## Endpoint Matrix Part-Margin Downstream Rework
+
+Old claim being spent:
+
+The active endpoint-matrix contract still contained an old four-face / 21-cell
+endpoint package:
+
+```text
+Dead, packing-detached, tower-blown, Jump
+```
+
+and the component map
+
+```text
+not Part => Dead.
+```
+
+That wording conflicted with the earlier Part-closedness repair, which exposed
+`response-margin-collapse` as a genuine Part-side endpoint subface unless the
+terminal Part predicate is closed or the strict response margins are retained.
+The same old package was repeated in the full bridge ledger, receiver/certificate
+map, receiver-side route note, route table, and `live-theorem-edge.yaml`.
+
+Exact replacement:
+
+The endpoint package now includes the repaired Part-margin eliminator:
+
+\[
+End_{NS}
+:=
+END.Pack\wedge END.PartMargin\wedge END.Field
+\wedge END.TowerBound\wedge END.Cross\wedge END.Exh.
+\]
+
+The endpoint exhaustiveness alternative is now
+
+\[
+\neg CM_{N,r,Q}
+\Longrightarrow
+Dead\vee response\text{-}margin\text{-}collapse
+\vee packing\text{-}detached\vee tower\text{-}blown\vee Jump.
+\]
+
+The new exact Part-margin row is:
+
+\[
+Part_{N,Q}^{closed}
+\quad\text{or}\quad
+\bigl(Part_{N,Q}\ \text{with}\ \mathcal R_\ell(t)\ge\gamma_\ell>0
+\text{ for every strict Part response clause on }I\bigr)
+\Longrightarrow
+\neg response\text{-}margin\text{-}collapse.
+\]
+
+Here `response-margin-collapse` means that some strict Part response functional
+loses its margin along the terminal approach, for example
+\(\mathcal R_\ell(t_j)\downarrow0\) with \(t_j\uparrow T_\ast\).
+
+Proof or remaining burden:
+
+The proof is finite endpoint-case elimination on the same terminal record.  At a
+first finite class exit, `END.Exh` yields one of the five endpoint faces.
+`(Part,Dead)` excludes the dead participation face, `END.PartMargin` excludes
+the repaired Part response-margin face, `END.Pack` excludes
+packing-detached from the same-packet pack-gauge bound, `END.Field` excludes
+Jump from the positive one-field scale and finite coherence bound, and
+`END.TowerBound` excludes tower-blown from the same-cover tower-amplitude
+bound.  `END.Cross` may reduce only to those same-record discharged entries.
+
+Without the closed-predicate/retained-margin input, the endpoint contradiction
+does not close; response-margin collapse remains a Part-side face rather than a
+hidden theorem.
+
+Downstream consequence:
+
+`End_NS` can no longer be spent as the old four-row endpoint package.  Every
+downstream use must carry `END.PartMargin`, or explicitly restrict to the branch
+where closed terminal Part predicates or retained strict margins have already
+removed the response-margin subface.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`;
+- `theorem-construction/mpp-class-membership-full-bridge-ledger-note.md`;
+- `theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md`;
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`;
+- `ns-proof-program-route-table.md`;
+- `live-theorem-edge.yaml`.
+
+Second downstream pass and validation:
+
+The targeted active-slice scan for stale `21-cell`,
+`\mathcal M_{End}^{21}`, old `END.Exh+END.Cross+END.Pack+END.Field`,
+old `END.Pack+END.Field+END.TowerBound`, old four-face / four-row wording, and
+endpoint-matrix "excludes every face" shortcuts returns no hits on the repaired
+authority slice.  The positive scan finds `END.PartMargin`,
+`response-margin-collapse`, retained strict margins, and repaired endpoint-matrix
+wording on the edited surfaces.  All live authority YAML files parse, and
+`git diff --check` passes on the repaired files.
