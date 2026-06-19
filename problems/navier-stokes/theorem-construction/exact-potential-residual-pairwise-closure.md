@@ -67,7 +67,8 @@ RPC.3.
 This is exactly the residual pairwise closure slot already isolated in
 `(PD.70q)/(PD.70s)`. Once the directional ledger is written in the form
 `(EPR.1)`, the remaining step is integration and packaging of the loop term.
-That is the same formal step recorded abstractly as `RPC.3`. ∎
+That is the same conditional integration step recorded abstractly as `RPC.3`.
+∎
 
 ### Corollary EPR.B (installed exact-potential supplier to residual closure)
 
