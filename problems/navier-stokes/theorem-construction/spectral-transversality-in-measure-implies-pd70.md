@@ -178,8 +178,10 @@ C_{SG}
 
 This is exactly the sharper budget `(PD.70r)` from
 [tps-pair-defect-pde-packet.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md).
-Hence `(PD.70)`, `(PD.70aa)`, and the refined-good-family extraction of `SG.4B`
-follow formally from the installed pair-defect packet.
+The installed pair-defect packet then supplies the named implications
+`TPS-selector-defect-budget` and `TPS-selector-defect-bridge-to-SG4B`.  Applying
+those implications to `(ST.7)=(PD.70r)` gives `(PD.70)`, `(PD.70aa)`, and the
+refined-good-family extraction of `SG.4B`.
 
 ### Proof
 
