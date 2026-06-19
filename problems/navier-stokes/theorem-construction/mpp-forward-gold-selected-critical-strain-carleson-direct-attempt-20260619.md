@@ -368,3 +368,72 @@ strain packet.}
 At the current route resolution, selected critical strain is not a new
 independent closure.  It is the clean coercive exponent that identifies why the
 energy-level throttle is short by one half-power.
+
+## 8. Exact no-go for an energy-only derivation
+
+The previous bounded-overlap calculation can be stated as a precise no-go
+lemma.  It rules out any proof of `(SCC.1)` whose only quantitative inputs are
+finite energy-level strain, bounded overlap of the selected cylinders, and
+heat-scale normalization.
+
+Let \(V\in C_c^\infty((-1,0)\times B_1;\mathbb R^3)\) be divergence-free and
+chosen so that its strain \(S(V)\) is not identically zero.  Put
+
+```math
+u_j(t,x)
+=
+r_j^{-1}V\!\left({t-t_j\over r_j^2},{x-x_j\over r_j}\right),
+\qquad
+Q_j=B_{r_j}(x_j)\times(t_j-r_j^2,t_j),
+\tag{SCC.27}
+```
+
+with \(r_j=2^{-j}\) and with the cylinders pairwise disjoint.  Then
+
+```math
+S_x(u_j)(t,x)
+=
+r_j^{-2}
+S_y(V)\!\left({t-t_j\over r_j^2},{x-x_j\over r_j}\right).
+\tag{SCC.28}
+```
+
+Hence the energy-level strain bill is
+
+```math
+\int_{Q_j}|S_x(u_j)|^2\,dxdt
+=
+r_j
+\int_{-1}^{0}\int_{B_1}|S_y(V)|^2\,dyds,
+\tag{SCC.29}
+```
+
+while the selected critical-strain bill is
+
+```math
+\int_{Q_j}|S_x(u_j)|^{5/2}\,dxdt
+=
+\int_{-1}^{0}\int_{B_1}|S_y(V)|^{5/2}\,dyds.
+\tag{SCC.30}
+```
+
+Therefore
+
+```math
+\sum_j
+\int_{Q_j}|S_x(u_j)|^2\,dxdt
+<\infty,
+\qquad
+\sum_j
+\int_{Q_j}|S_x(u_j)|^{5/2}\,dxdt
+=\infty.
+\tag{SCC.31}
+```
+
+This is not being used as a Navier--Stokes solution counterexample.  Its role
+is narrower and exact: every estimate that tries to derive
+`SelectedCriticalStrainCarleson.A` from the energy inequality plus packet
+overlap alone is false by scaling.  A successful proof must use an additional
+Navier--Stokes mechanism that is invisible to `(SCC.29)`, such as source-square
+creation charge, no-free terminal donor-chain rigidity, normalized CKN
+depletion, or strict no-waste Lyapunov coercivity.
