@@ -192,6 +192,54 @@ scale-critical square reserve remains order one.
 This is a scale-bookkeeping countermodel to deriving `(NSS.5)` from
 `(NSS.4)`.  It is not asserted as a Navier-Stokes solution.
 
+The same model also shows why this is compatible with the participation picture.
+The pulse does not need a fixed positive shell energy.  On a dyadic shell,
+write schematically
+
+```math
+D_{m+5}(t)\simeq \nu\,2^{2m}E_{m+5}(t).
+\tag{NSS.13a}
+```
+
+For the heat-scale pulse `(NSS.9)`--`(NSS.12)`,
+
+```math
+E_{m+5}(t)
+\simeq
+\nu^{-1}2^{-2m}A_mh_m^{-1}\mathbf 1_{I_m}(t)
+=
+\nu^{-1}A_m\mathbf 1_{I_m}(t)
+\to0
+\quad\text{in amplitude.}
+\tag{NSS.13b}
+```
+
+Its shell-energy residence is even smaller:
+
+```math
+\int_{I_m}E_{m+5}(t)\,dt
+\simeq
+\nu^{-1}A_mh_m
+=
+\nu^{-1}2^{-7m/2}
+\to0.
+\tag{NSS.13c}
+```
+
+So the remaining terminal enemy is not a hidden fixed mass-energy lump.  It is
+a high-frequency rate-density event: the energy amount and first-moment
+dissipation both vanish, while the normalized square action stays visible:
+
+```math
+\mathcal F_m(I_m)=A_m\to0,
+\qquad
+\int_{I_m}2^mT_m(t)^2\,dt=1.
+\tag{NSS.13d}
+```
+
+This is the exact reason a participation/rate-limit law closes fixed-radius
+time atoms but does not by itself close shrinking heat-scale atoms.
+
 ## 4. The missing pointwise height bound
 
 The algebraic reason is simple.  Define the active tail height
