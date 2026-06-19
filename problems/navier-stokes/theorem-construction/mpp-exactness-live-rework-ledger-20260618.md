@@ -11991,3 +11991,33 @@ Bogovskii tools is not enough.
 Surfaces edited:
 
 - `theorem-construction/lagrangian-stokes-bridge-program.md`.
+
+## AdjBessel Residual-Gate Rework
+
+Old claim being spent:
+
+The AdjBessel strain-gauge packet calculus note said `ResidualPair.A` was
+expected to be mostly Calderon-Zygmund / commutator bookkeeping after
+`CoeffStop.A`.  Later it also spent `ResidualPair.A` together with weighted
+AdjBessel to obtain the residual estimate.
+
+Exact replacement:
+
+The note now says the residual gate is the displayed normalized theorem
+`WeightedAdjRes.A`, not a generic CZ/commutator bookkeeping claim.  The combined
+iteration now spends weighted `AdjBessel.A` plus `WeightedAdjRes.A` to obtain
+\[
+\sum_T g_T^{-2}\left|\int_{I_T}\langle R,\psi_T\rangle\,dt\right|^2
+\le C\int\sum_{q>N}D_q+o_N(1).
+\]
+
+Proof or downstream consequence:
+
+The parent-or-charge iteration may use residual control only through
+`WeightedAdjRes.A` after coefficient stopping and weighted Bessel control are
+installed.  The old `ResidualPair.A` expectation no longer functions as proof
+authority.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-adjbessel-strain-gauge-packet-calculus-note-20260504.md`.
