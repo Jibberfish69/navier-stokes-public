@@ -158,5 +158,5 @@ The forward-positive cone/payment/drain route is now narrowed to two families:
    DirectCTSOrFCTS.A
 ```
 
-The source-time language should no longer appear as a vague separate child
-until a new source-weighted native carrier theorem is actually written.
+The source-time language no longer appears as a vague separate child until a new
+source-weighted native carrier theorem is actually written.
