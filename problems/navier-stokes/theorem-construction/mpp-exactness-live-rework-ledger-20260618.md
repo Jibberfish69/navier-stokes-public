@@ -13942,3 +13942,48 @@ Second downstream pass and validation:
 The targeted live-anchor scan now leaves only the R3 sentence saying that no
 `H^s` profile assumption is spent; that is an anti-hand-wave statement, not a
 proof carrier.  `git diff --check` passed on the edited anchors and this ledger.
+
+## Theorem-Packet Primary Surface Model/Generic Rework
+
+Old claim being spent:
+
+The theorem-packet primary surfaces still used `generic` and `model` wording on
+proof-route claims: `generic witness bundle`, `generic shadow-remainder
+problem`, `external model`, `quantized-transfer model`, `This model is
+stronger`, `right model`, `compact spectral model`, `equality model`,
+`generic smoothness`, `superlinear model`, `native affine pressure model`, and
+`affine heat packet model`.
+
+Exact replacement:
+
+Those passages now use exact route objects: unspecified witness bundle,
+unspecified shadow-remainder problem, Constantin--Iyer-type external
+representation, quantized-transfer proposal, discrete transfer rule, literal
+relay template, compact spectral realization, equality case, the displayed
+route-native coefficient estimate `(CSP.25g2a)`, superlinear differential
+inequality, native affine pressure component, and affine heat packet
+realization.
+
+Proof or downstream consequence:
+
+The packet-primary surfaces now spend displayed formulas, named representations,
+and defined components.  The class-membership route keeps the singular
+Pack/Part/Field chain as primary instead of a witness-bundle surrogate.  The TPS
+source-fit branch remains a route proposal until a lane-local estimate supplies
+the required constants.  The LCI and DTC notes point to the specific coefficient
+estimate and differential inequality rather than smoothness or model language.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-class-membership-contradiction-frontier-packet.md`.
+- `theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md`.
+- `theorem-construction/tps-dynamic-source-fit-and-open-frontier.md`.
+- `theorem-construction/modernized-four-body-schema-torus-tower-geometry.md`.
+- `theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`.
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
+- `theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md`.
+
+Second downstream pass and validation:
+
+Pending targeted rescan of theorem-packet primary surfaces and `git diff
+--check`.
