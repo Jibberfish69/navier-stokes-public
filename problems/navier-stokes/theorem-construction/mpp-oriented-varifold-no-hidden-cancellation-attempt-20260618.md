@@ -84,7 +84,10 @@ Proof.  For every compactly supported continuous vector test field `phi`,
 =\int |\phi|\,d\mu.
 ```
 
-The measure domination follows by the usual dual characterization.
+Taking the supremum over all compactly supported continuous `phi` with
+`|\phi|\le f` gives `|\eta|(f)\le\mu(f)` for every nonnegative
+`f\in C_c`, hence `|\eta|\le\mu` by outer regularity of the finite Radon
+measures.
 
 This is only mass-compatible compactness.  It does not give
 
