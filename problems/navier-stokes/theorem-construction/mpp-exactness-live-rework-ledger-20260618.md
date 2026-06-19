@@ -13105,7 +13105,11 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard supports`, `current exactness
+standard`, or `expected consequence` wording in `live-theorem-edge.yaml`.  It
+finds the replacement installed-hypotheses wording and the explicit remaining
+theorem status for `(TC.31a)`.  `git diff --check` passed on the edited live
+edge and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
