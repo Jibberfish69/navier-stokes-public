@@ -44,7 +44,8 @@ or fails `Field_{N,r,Q}` as a non-one-field cross-profile object.
 
 ## Direct attempt
 
-A direct proof from standard profile decomposition would try to use frequency, scale, or spacetime orthogonality to remove cross terms.
+A direct proof from ordinary profile-decomposition orthogonality would try to
+use frequency, scale, or spacetime separation to remove cross terms.
 
 That is not enough. The Pack defect is selected after several operations:
 
