@@ -91,8 +91,8 @@ positive sampling
 
 ## 2. Deterministic replacement lemma
 
-The useful scalar lemma is elementary and should be treated as installed once
-the packet variables are identified.
+The scalar lemma installed by this note is the following BV sampling inequality,
+after the packet variables are identified.
 
 Let `W=[a,b]`, `|W|=\tau`, `0<=e(t)<=E`, and let
 `\sigma\in BV(W)`.  Then
@@ -149,7 +149,7 @@ This is the precise missing charge in the first HeatDwellSampling formulation.
 
 ## 3. Packet-level corrected theorem
 
-The corrected heat-dwell sampling theorem should be:
+The corrected heat-dwell sampling theorem is:
 
 ```text
 HeatDwellSampling.BV.
@@ -223,9 +223,8 @@ C\mathcal P_Q^{gain}(W)
 \tag{HDS.7}
 ```
 
-This should be a deformation-gradient / transported-frame theorem.  It is
-strictly weaker than `PackGainLedger.A`, because it controls only heat-window
-net strain.
+This is a deformation-gradient / transported-frame theorem.  It is strictly
+weaker than `PackGainLedger.A`, because it controls only heat-window net strain.
 
 ## 5. The new real PDE wall
 
@@ -275,8 +274,8 @@ C_{\mathrm{BV}}
 \tag{HDS.10}
 ```
 
-Along same-fluid trajectories the same expression should be read with
-`D_t` instead of bare `partial_t`, plus the packet transport commutator.
+Along same-fluid trajectories the same expression is read with `D_t` instead of
+bare `partial_t`, plus the packet transport commutator.
 Therefore `(HDS.9)` is exactly a low-strain temporal BV theorem:
 
 ```text
@@ -319,7 +318,7 @@ branch.  This is the correct placement of the parabolic-rate theorem inside
 
 ## 7. Corrected closure packet
 
-The previous route should be sharpened from:
+The previous route is sharpened from:
 
 ```text
 HeatDwellSampling.A + NetPackSpend.A
