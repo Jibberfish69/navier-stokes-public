@@ -15427,6 +15427,49 @@ finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
 slice, and `git diff --check` passes for the edited notes.
 
+## CM Class-Exit Obstruction Split Repair
+
+Old claim being spent:
+
+`mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md` said a
+target-fidelity shortcut "should be replaced" by the obstruction split.
+`mpp-cm-field-face-two-root-run-through-20260506.md` said the CM witness-face
+framing "should be kept" while leaving Field-face residual work open.
+
+Exact replacement:
+
+The class-exit note now states that the shortcut is replaced by the obstruction
+split:
+
+```text
+failure/non-smooth branch outside CM,
+smooth branch inside CM.
+```
+
+The Field-face two-root note now states that the CM witness-face framing remains
+the framing and still does not solve the Field-face residual wall by itself.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-clay-breakdown-class-exit-inadmissibility-proof-attempt-20260524.md`.
+- `theorem-construction/mpp-cm-field-face-two-root-run-through-20260506.md`.
+
+Downstream consequence:
+
+The CM route no longer leaves the target-fidelity shortcut as an optional future
+replacement.  The proof split is fixed: a failure capable of nonsmoothness is
+outside CM, while the smooth/pass branch is inside CM.  The witness-face framing
+continues to organize the work, but Field-face residual closure is not counted
+as solved by that framing.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the edited notes plus `live-theorem-edge.yaml`
+and `source-frontier.yaml` finds no remaining `should`, `O(1)`, `\lesssim`,
+`\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
+`schematic` shortcut on this slice, and `git diff --check` passes for the edited
+notes.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
