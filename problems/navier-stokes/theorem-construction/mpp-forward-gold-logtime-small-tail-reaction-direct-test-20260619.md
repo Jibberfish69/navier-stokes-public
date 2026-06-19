@@ -222,8 +222,7 @@ M\ge \sqrt{c/C}.
 ```
 
 Thus the inequality permits a bounded-below rescaled packet.  The scalar
-comparison
-profile
+comparison profile
 
 ```math
 M(s)\equiv M_0,
