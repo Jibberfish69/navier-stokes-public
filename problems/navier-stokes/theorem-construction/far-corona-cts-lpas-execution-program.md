@@ -435,6 +435,48 @@ one still needs an endpoint active-square, trace-absolute-continuity,
 source-square, pressure-corrected no-waste, or genuinely coupled two-scale
 theorem.
 
+The dominance note
+`mpp-forward-gold-fbe-source-square-dominance-20260619.md` sharpens this further.
+Using only the global energy bound and the fixed width of the endpoint bands,
+for \(m=j+O(1)\),
+
+```math
+E_m(t)\,2^{-j}D_j(t)^2
+\le
+C_E2^jD_j(t)^2.
+```
+
+Choosing \(k=j-5\) in the source-square tail gives
+
+```math
+2^k\left(\sum_{\ell>k+4}D_\ell(t)\right)^2
+\ge
+2^{j-5}D_j(t)^2.
+```
+
+Therefore
+
+```math
+\mathrm{FBE}_N(W)
+\le
+C_{I,J,E_0}\,\mathcal R_{N-C_{I,J}}(W),
+```
+
+where
+
+```math
+\mathcal R_{N_0}(W)
+=
+\int_W\sum_{k>N_0}2^k
+\left(\sum_{\ell>k+4}D_\ell(t)\right)^2dt.
+```
+
+So `(FBE)/(EP)` is not an independent endpoint supplier once the native
+source-square reserve is proved.  It is a finite-band projection of that same
+reserve.  The reverse implication is not available because `(FBE)` sees the
+square reserve only through the lower-band multiplier
+`\sum_{m\in\mathcal B_I(N)}E_m`.
+
 There is also a sharper local reduction on the fixed-collar route. The direct
 shell-pair commutator test in
 `far-corona-carleson-direct-attack.md`
