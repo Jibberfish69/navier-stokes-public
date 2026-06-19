@@ -13699,3 +13699,100 @@ The targeted scan finds no remaining `standard selector-scale`,
 `standard-selector`, or `standard source-backed` wording outside
 ledger/provenance receipts.  `git diff --check` passed on the edited selector
 notes and this ledger.
+
+## Singular-Pack And Rigid-Class Wording Rework
+
+Old claim being spent:
+
+Several singularity/Zeno notes still used proof-facing shortcut language:
+a singular terminal object was `expected to hide` where Pack positive-radius
+structure degenerates; Liouville and analytic route discussions used `usual`;
+rigid-class passages used `standard rigid classes`; and the anisotropic
+backward-uniqueness transform said the pressure gradient is `standard` while
+contrasting with the `standard Euclidean` divergence condition.
+
+Exact replacement:
+
+The Pack non-exclusion note now states the exact reason Pack cannot be the first
+exclusion test: a singular terminal object can sit at degeneration of positive
+radius, positive carrier, and finite deformation comparability.  The Liouville
+and strain-integrability notes now name the available route lists directly.
+The Zeno notes now use `classical rigid classes` and state that installed inputs
+do not produce the listed ancient-energy, Type-I, critical-norm, or rigidity
+classes.  The anisotropic transform note now says the pressure gradient
+transforms directly, while the divergence constraint is
+`\nabla_z\cdot(A(s)w)=0`, not the unweighted Euclidean condition.
+
+Proof or downstream consequence:
+
+The route no longer spends expectation or conventional route names.  Zero-radius
+singular terminal objects must be tested by Part/Field before Pack recertifies
+the positive-radius branch; Liouville rigidity requires one of the displayed
+rigid classes; and TPNI/backward uniqueness remains an anisotropic Stokes
+problem with the displayed divergence constraint.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-packnonexclusionrecertificationroute-limitofclassterminalartifact-a-partfieldbeforepacklicensing-a-terminalatompartfieldexit-a-838838293c.md`.
+- `theorem-construction/mpp-zero-thickness-residue-liouville-direct-attempt-20260518.md`.
+- `theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md`.
+- `theorem-construction/mpp-zeno-source-residue-frontier-after-asac-20260506.md`.
+- `theorem-construction/mpp-ancestral-nopulse-source-rigidity-audit-note.md`.
+- `theorem-construction/mcp-anisotropic-backward-uniqueness-transform-test-20260504.md`.
+- `theorem-construction/mpp-zeno-rigid-class-alternative-frontier-20260516.md`.
+- `theorem-construction/mpp-zeno-rigid-class-option-b-full-run-20260506.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected to hide`, `usual Liouville`,
+`usual analytic`, `standard rigid`, `standard global ancient`, `pressure
+gradient is standard`, or `standard Euclidean condition` wording outside
+ledger/provenance receipts.  `git diff --check` passed on the edited notes and
+this ledger.
+
+## Frequency-Quotient And Declared-Geometry Wording Rework
+
+Old claim being spent:
+
+Several theorem notes still used conventional labels where exact objects were
+available: `standard frequency quotient`, `standard terminal-window
+entrance-tail condition`, `standard pushforward readout`, `standard shell/cap
+geometry`, `standard smooth maximum regularization`, and `standard limiting
+interpretation`.
+
+Exact replacement:
+
+The renormalized local-energy note now names the uncorrected frequency quotient
+`r int_{B_r}|nabla u|^2 / int_{B_r}|u|^2` and states that the missing
+monotonicity object must include a pressure/flux correction, material adjoint
+weight, or new coercive pressure-flux theorem.  The terminal-window note points
+to the displayed entrance-tail condition.  The exact-potential notes use
+declared pushforward readout and declared shell/cap geometry.  The height
+dichotomy note uses the displayed smooth maximum regularization without
+authority wording.  The affine heat packet note states the limiting
+distributional identity `K_T(s,s;y,z)=delta_z(y)`.
+
+Proof or downstream consequence:
+
+The affected passages now spend named formulas or displayed hypotheses rather
+than conventional labels.  The terminal time-face atom remains visible but not
+excluded until one of the named corrected monotonicity mechanisms is proved;
+terminal-window closure requires the displayed entrance-tail smallness; and the
+affine heat packet uses the exact heat-kernel endpoint identity.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-renormalized-local-energy-frequency-attempt-20260618.md`.
+- `theorem-construction/terminal-window-finite-mode-coefficient-measure.md`.
+- `theorem-construction/exact-potential-v2-operator-class-normalization-wall.md`.
+- `theorem-construction/exact-potential-balanced-frame-to-d7mq.md`.
+- `theorem-construction/mpp-first-height-creation-dichotomy-expansion-20260506.md`.
+- `theorem-construction/mcp-affine-heat-packet-bound-ahp-a-20260504-001.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard frequency quotient`, `standard
+terminal-window`, `standard pushforward`, `standard shell/cap`, `standard smooth
+maximum`, or `standard limiting interpretation` wording outside
+ledger/provenance receipts.  `git diff --check` passed on the edited notes and
+this ledger.
