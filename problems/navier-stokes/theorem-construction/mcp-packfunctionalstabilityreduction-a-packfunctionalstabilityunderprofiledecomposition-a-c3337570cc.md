@@ -68,7 +68,9 @@ positive-part extraction,
 same-witness selector choice.
 ```
 
-A selector can follow a near-resonant cross-profile interaction or terminal window artifact. Therefore Pack functional stability is not obtained from standard profile decomposition alone.
+A selector can follow a near-resonant cross-profile interaction or terminal
+window artifact.  Therefore Pack functional stability is not obtained from
+ordinary profile-decomposition orthogonality alone.
 
 The exact missing estimate is uniform selected-positive cross-term control:
 
