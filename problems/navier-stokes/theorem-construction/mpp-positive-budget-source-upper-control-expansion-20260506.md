@@ -83,7 +83,7 @@ Thus a fixed positive first-moment budget gives no square-source upper bound. In
 
 ### Proof
 
-Immediate calculation:
+Direct calculation:
 
 ```math
 \int_0^{1/n}n\,dt=1,

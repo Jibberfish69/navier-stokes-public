@@ -30,7 +30,7 @@ Assume that for some fixed `\tau_0,r_0\ge0`,
 \tag{2}
 ```
 
-## Immediate consequence
+## Direct coefficient consequence
 
 The `(m,\alpha)=(0,0)` term appears in `(1)` with coefficient `1`, so
 

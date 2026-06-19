@@ -102,7 +102,7 @@ to
 \text{prove that cross-scale interactions are not worst-case aligned.}
 ```
 
-## Immediate Reduction
+## Conditional Reduction
 
 If one also proves a same-scale square estimate of the form
 

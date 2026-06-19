@@ -115,7 +115,7 @@ zero-radius or unbounded terminal atlas collapse lands as `not Pack_Q`.
 They do not yet turn that Pack face into a contradiction with the Clay
 counterexample assumption.
 
-## Immediate Consequence
+## Direct Consequence For The Proof Blocker
 
 The live proof blocker is sharper than the earlier phrase
 `SameSolutionTerminalPackRetention.A`.

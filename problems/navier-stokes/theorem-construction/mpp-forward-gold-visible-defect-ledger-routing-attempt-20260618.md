@@ -175,7 +175,7 @@ Then `(VD.11)` says precisely
 \tag{VD.14}
 ```
 
-So the visibility statement is immediate:
+Thus the visibility statement is the definition-level implication:
 
 ```math
 \boxed{
