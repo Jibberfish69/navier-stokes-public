@@ -198,6 +198,6 @@ the honest local packet is now
 \tag{PPE.11}
 ```
 
-Once those suppliers hold, `(LPMR.22)` and then `(LPMC.26)` are formal, feeding
-the already installed exact-potential splice
+Once those suppliers hold, `(LPMR.22)` and then `(LPMC.26)` are conditional
+packaging consequences, feeding the already installed exact-potential splice
 `SSC => D.7mr2 => RPC.3 => SG.4B`.
