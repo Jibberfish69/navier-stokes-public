@@ -416,7 +416,7 @@ The route compression is:
 
 ```text
 SCF_base + ATD_m^epsilon + CAVG.J => AVG.MAIN.A
-AVG.MAIN.A + READ.END => old endpoint closure
+AVG.MAIN.A + READ.END => repaired pointwise endpoint closure with END.PartMargin
 ```
 
 `ATD_m^epsilon` is installed as the local epsilon-regularity gain from small
