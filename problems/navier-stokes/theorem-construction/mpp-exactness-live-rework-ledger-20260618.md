@@ -11886,3 +11886,40 @@ The targeted scan finds no remaining `usual projected-cutoff` phrase in the
 edited eigenframe note.  It finds the replacement definite legal-loss bound for
 the projected-cutoff, path, collar, boundary, and frame commutators.  `git diff
 --check` passed on the edited note and this ledger.
+
+## AACT Transported-Cutoff Chain-Rule Rework
+
+Old claim being spent:
+
+The AACT.KX local averaged budget audit said spatial and temporal derivatives
+of the transported cutoff produce bounded same-fluid distortion factors and
+"expected powers of `R`."  That hid the moving-frame chain-rule identities
+behind scale language.
+
+Exact replacement:
+
+The note now writes
+\[
+\chi_R(x,t)=\chi(y_R(x,t)),\qquad
+y_R=R^{-1}A(t)^{-1}(x-c(t)),
+\]
+and gives the exact identities
+\[
+\nabla_x\chi_R=R^{-1}A^{-T}\nabla\chi(y_R),\qquad
+D_x^2\chi_R=R^{-2}A^{-T}D^2\chi(y_R)A^{-1},
+\]
+\[
+\partial_t\chi_R
+=-(A^{-1}\dot A\,y_R+R^{-1}A^{-1}c'(t))\cdot\nabla\chi(y_R).
+\]
+
+Proof or downstream consequence:
+
+The cutoff estimate
+`|I_cut| <= C(1+V_R)X_R + (c nu/16)N_R + F_cut,R` may be spent only when the
+same-fluid distortion ledger `V_R` bounds `A`, `A^{-1}`, `A^{-1}\dot A`, and
+`R^{-1}A^{-1}c'` on the cell.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-aact-kx-local-averaged-budget-audit.md`.
