@@ -305,41 +305,105 @@ clause of `CMW.A` and the no-autonomous-local-sharpening conclusion of `OP.R`.
 Hence it must be read as failure of at least one CM face, not as a fourth
 solution type. `\square`
 
-## Euclidean Infinite-Sheet Note
+## Whole-Space `R^3` Branch
 
-The `R^3` infinite-sheet variant is not the same theorem as the wrapped torus
-sheet.
+The `R^3` infinite-sheet variant is not governed by the torus wrapping law.
+There is no periodic identification forcing `\Omega n=0`. The whole-space
+payment is instead finite energy, decay, and localization.
 
-An exact infinite slab with a nonzero rigid rotation has velocity growing
-linearly along the slab. An exact infinite slab with nonzero translation carries
-nondecaying velocity on an infinite-volume region. Thus the whole-space version
-must pay a separate admissibility or localization price before it can be tested
-as a finite-energy Navier--Stokes object.
+### Proposition `FSW.R3.A` (Finite-energy infinite rigid slabs are stationary)
 
-So the Euclidean branch splits as follows:
+Let `S\subset R^3` contain a finite-thickness infinite slab:
 
 ```math
-\boxed{
-\text{literal infinite same-amplitude sheet}
-\Rightarrow
-\text{whole-space admissibility / finite-energy problem,}
-}
+S\supset
+\{x_0+s_1e_1+s_2e_2+\rho e_3:\ s_1,s_2\in\mathbf R,\ |\rho|<\delta\}
 \tag{FSW.11}
 ```
 
-while
+for orthonormal `e_1,e_2,e_3` and `\delta>0`. Suppose that on `S` the velocity
+has the exact rigid form
+
+```math
+u(x)=a+\Omega(x-x_0),
+\qquad
+\Omega\in\mathfrak{so}(3).
+\tag{FSW.12}
+```
+
+If `u\in L^2(R^3)`, then
+
+```math
+a=0,
+\qquad
+\Omega=0.
+\tag{FSW.13}
+```
+
+So a literal infinite frozen sheet in the finite-energy whole-space class cannot
+translate or rotate as a nonzero rigid body. It is stationary in the exact
+same-amplitude rigid-slab model.
+
+### Proof
+
+If `a\ne0` and `\Omega=0`, then `|u|=|a|` on a set of infinite measure, so
+`u\notin L^2(R^3)`.
+
+If `\Omega\ne0`, write `\Omega z=\omega\times z`. The kernel of `\Omega` is the
+line spanned by `\omega`. The two-dimensional slab plane contains some unbounded
+direction `v\in\mathrm{span}\{e_1,e_2\}` with `\Omega v\ne0`. Along the line
+`x=x_0+sv+\rho e_3`, the velocity grows like `|s|\,|\Omega v|` up to lower-order
+terms. Integrating over the slab gives infinite `L^2` mass. Thus finite energy
+forces `\Omega=0`, and then the previous paragraph forces `a=0`. `\square`
+
+### Corollary `FSW.R3.B` (The whole-space legal split)
+
+In `R^3`, the ice-sheet question splits into exactly these legal cases:
+
+```math
+\boxed{
+\text{literal infinite same-amplitude rigid sheet}
+\Rightarrow
+\text{zero rigid motion in the finite-energy class;}
+}
+\tag{FSW.14}
+```
 
 ```math
 \boxed{
 \text{localized or decaying sheet}
 \Rightarrow
-\text{ordinary material-packet/collar problem.}
+\text{same-fluid material packet / collar problem;}
 }
-\tag{FSW.12}
+\tag{FSW.15}
 ```
 
-The torus theorem above is cleaner because the wrapping obstruction is purely
-topological and does not first pass through spatial infinity.
+```math
+\boxed{
+\text{claimed autonomous moving wall}
+\Rightarrow
+\text{whole-space admissibility failure or Pack/Part/Field face failure.}
+}
+\tag{FSW.16}
+```
+
+Thus `R^3` permits local ice cubes and localized frozen-feeling sheets for the
+same reason as before: they are smooth same-fluid material packets while the
+collar and participation law remain installed. What `R^3` does not permit in the
+finite-energy Clay class is a literal infinite moving rigid slab with nonzero
+translation or rotation.
+
+This is the whole-space analogue of the torus result, but the mechanism is
+different:
+
+```math
+\boxed{
+T^3:\ \text{periodicity kills wrapped rotations;}
+\qquad
+R^3:\ \text{finite energy / decay kills infinite rigid motion.}
+}
+\tag{FSW.17}
+```
 
 ## Near-Rigid Quantitative Strengthening Target
 
