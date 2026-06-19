@@ -76,8 +76,21 @@ near-band nonlinear / pressure material source,
 path/cutoff/projector commutators.
 ```
 
-The commutators are legal only after the usual projected-cutoff and boundary
-ledgers.  They are not the analytic wall.
+The commutators are legal only after the projected-cutoff and boundary ledgers
+prove a definite legal-loss bound.  In this attempt that means the
+projected-cutoff, path, collar, and boundary commutators must satisfy
+
+```math
+\sum_{P\in\mathcal F_N}
+E_P^\#\tau_P
+\int_{I_P}|\mathrm{PathComm}_P+\mathrm{Comm}^{flow/cut}_{j_P,L}+\mathrm{FrameComm}_P|
+\,dt
+\le
+Legal_N(\mathcal F_N)+o_N(1).
+```
+
+Only after that estimate is proved or imported may these terms be removed from
+the analytic wall.
 
 ## 2. Heat and small-amplitude pieces
 
