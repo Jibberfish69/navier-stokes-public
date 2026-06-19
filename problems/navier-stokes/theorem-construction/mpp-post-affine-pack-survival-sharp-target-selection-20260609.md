@@ -13,7 +13,7 @@ ns_viewer:
     - problems/navier-stokes/theorem-construction/mpp-scale-normalized-pulse-reserve-spend-fanout-reentry-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-source-refill-carleson-or-rigidity-reentry-20260609.md
     - problems/navier-stokes/theorem-construction/mpp-basac-timeface-antiatom-reentry-20260609.md
-  downstream_consequence: "The active loop should continue at the B_ASAC time-face anti-atom / super-L1 residence theorem. Broad Pack deformation, TerminalCollarStrainIntegrability.A, and generic ScaleNormalizedPulseReserveSpend.A are too broad at current resolution unless a new non-alias mechanism is supplied."
+  downstream_consequence: "The active loop continues at the B_ASAC time-face anti-atom / super-L1 residence theorem. Broad Pack deformation, TerminalCollarStrainIntegrability.A, and generic ScaleNormalizedPulseReserveSpend.A are too broad at current resolution unless a new non-alias mechanism is supplied."
 ---
 
 # MPP Post-Affine Pack-Survival Sharp Target Selection
@@ -107,7 +107,7 @@ UniformTemporalSourceIntegrability_{p,B_ASAC}.A, p>1.
 
 ## Sharp Target
 
-The next proof pass should attack:
+The next proof pass attacks:
 
 ```text
 BASACTimeFaceAntiAtom.A / UniformTemporalSourceIntegrability_{p,B_ASAC}.A
