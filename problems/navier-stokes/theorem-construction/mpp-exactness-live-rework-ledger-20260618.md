@@ -14473,3 +14473,64 @@ Live proof-confidence scan:
 Validation:
 
 `git diff --check -- problems/navier-stokes` passed after the current edits.
+
+## Clay Field-Failure Bridge Syntax And Consequence Repair
+
+Old claim being spent:
+
+The appendix copy of the Clay bridge contained two proof-surface breaks.  The
+Clay counterexample-exclusion bridge left a dangling sentence after "So the
+rule", and the Clay Field Failure Realization section stated "Assume" without
+displaying the retained Pack, retained terminal Part, and all-scale not-Field
+hypotheses.  The same Field note also used "service" for a CM witness face.
+
+Exact replacement:
+
+The bridge now states the exact non-implication
+
+```text
+Exit(Q_atlas) => no valid finite Clay counterexample
+```
+
+as a claim that does not follow from target fidelity alone.  The Field section
+now displays the actual hypotheses
+
+```text
+Pack_Q,
+Part^{term}_{N,Q},
+forall r>0 not Field_{N,r,Q},
+```
+
+and the downstream collapse
+
+```text
+Pack_Q + J_Q + forall r>0 not Field_{N,r,Q}
+=> not Part^{term}_{N,Q}.
+```
+
+The theorem-construction source note now names the remaining object as the
+Field witness face, not a "service".
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/mpp-clay-field-failure-realization-proof-20260607.md`.
+
+Downstream consequence:
+
+The reader-facing appendix no longer spends an empty assumption or an implicit
+Field-to-Part step.  It states that retained Pack plus terminal Part and
+all-scale Field failure realizes a same-fluid terminal jump, and the installed
+`TerminalFieldJumpPartCollapse.A` sends that endpoint back to
+`not Part^{term}_{N,Q}`.  The authority YAMLs already record the same
+consequence, so no status-surface rewrite was needed for this bridge.
+
+Second downstream pass and validation:
+
+The targeted authority pass over `live-theorem-edge.yaml`,
+`source-frontier.yaml`, `theorem-packet.yaml`, `theorem-repair.yaml`,
+`dependency-discharge.yaml`, and both `submission-verdict.yaml` copies found
+the Field bridge already spending the corrected consequence.  The targeted
+residue scan no longer finds the dangling `So the rule`, empty `Assume` in the
+patched Field section, `Jump J Q`, `Part term N,Q`, or `not Part term` on the
+patched bridge surfaces.
