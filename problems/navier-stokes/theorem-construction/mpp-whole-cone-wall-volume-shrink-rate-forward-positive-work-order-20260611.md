@@ -557,7 +557,7 @@ This note proves or records as proved from the cited notes:
 3. power-law shrink accounting for physical wall terms;
 4. finite physical wall accounting for parabolic type-I profiles;
 5. finite physical wall accounting even for mild supercritical amplitudes
-   alpha < 1/6 in the model scaling;
+   alpha < 1/6 in the test scaling;
 6. CKN singularity cost belongs to unweighted scale-critical cone mass, not raw
    physical energy;
 7. shrink-law optimization is a real tradeoff between payment time and drain
