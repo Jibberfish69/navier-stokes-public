@@ -331,7 +331,7 @@ where the true top-slot deformation defect is
 \tag{14c}
 ```
 
-The model term is
+The displayed term is
 
 ```math
 \left|

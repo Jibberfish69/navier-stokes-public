@@ -23,7 +23,8 @@ Several recent exact-potential `V2` notes inherited the theorem-facing readout
 \tag{EFS.1}
 ```
 
-with a principal coefficient previously written schematically as
+with a principal coefficient previously written as the displayed frozen-metric
+operator
 
 ```math
 a_k=\nu G_k+a_k^{chart},

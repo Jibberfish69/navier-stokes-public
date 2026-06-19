@@ -123,7 +123,7 @@ The direct attempt reaches the active strain/source product.  The selected activ
 
 ## Attempt 3: parent reverse Holder concentration
 
-A parent concentration theorem would force source mass into finitely many legal parents, making temporal residence follow through donor-balance telescoping.  The model obstruction is diffuse legal parentage:
+A parent concentration theorem would force source mass into finitely many legal parents, making temporal residence follow through donor-balance telescoping.  The obstruction is diffuse legal parentage:
 
 ```math
 \pi_P={1\over M}\sum_{\alpha=1}^M\delta_{P^-_\alpha},

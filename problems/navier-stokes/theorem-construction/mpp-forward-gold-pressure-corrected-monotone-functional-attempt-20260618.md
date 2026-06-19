@@ -54,7 +54,7 @@ For the projected Navier-Stokes equation
 \tag{PCM.4}
 ```
 
-one obtains schematically
+one obtains the formal differentiated identity
 
 ```math
 {d\over ds}M_A(s)

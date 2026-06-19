@@ -40,7 +40,7 @@ These facts organize the remaining branch.  They do not by themselves state a te
 
 ## Direct proof test
 
-Let `\tau_m\downarrow0` and let `\rho(y)dy` be a retained packet-local source profile on the same-fluid carrier.  The model terminal source density
+Let `\tau_m\downarrow0` and let `\rho(y)dy` be a retained packet-local source density on the same-fluid carrier.  The witness terminal source density
 
 ```math
 d\mu_m^{src,+}(y,s)

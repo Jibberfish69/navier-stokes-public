@@ -85,7 +85,7 @@ on selected windows, and
 
 The second statement is a no-terminal-dissipation-atom property for the rescaled selected sequence.  It is stronger than finite total dissipation.  Bounded `L^1` families of densities can converge to time atoms.
 
-The model profile
+The witness density
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

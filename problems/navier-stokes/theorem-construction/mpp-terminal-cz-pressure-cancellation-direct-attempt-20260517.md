@@ -175,9 +175,9 @@ or legally charged.}
 This is the pressure analogue of `TerminalSignedSaturation.A`, but it is not a
 formal consequence of dyadic skew exchange.
 
-## 5. Diffuse partner model
+## 5. Diffuse partner obstruction
 
-A model obstruction is the angular kernel marginal
+The obstruction is the angular kernel marginal
 
 ```math
 \Pi_m(\theta)

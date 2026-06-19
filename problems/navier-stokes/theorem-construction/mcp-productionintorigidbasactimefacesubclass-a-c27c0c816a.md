@@ -69,7 +69,7 @@ The installed inputs give finite local `L^1_s` source mass and weak/local energy
 
 Weak `L^2` time continuity controls linear pairings with test functions.  The localized trace here is quadratic and can lose mass under concentration.  Local energy inequality gives one-sided balance information, while the positive terminal source atom can be absorbed as a terminal bounded-variation jump in the balance primitive.
 
-The model source marginal
+The witness source marginal
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

@@ -71,7 +71,7 @@ has twist derivative
 \tag{DT.6}
 ```
 
-Hence the connection/twist action satisfies schematically
+Hence the connection/twist action satisfies the displayed lower bound
 
 ```math
 \mathcal A_{tw}

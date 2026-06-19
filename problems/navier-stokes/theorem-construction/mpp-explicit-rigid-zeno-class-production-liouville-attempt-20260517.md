@@ -69,7 +69,7 @@ This class is stronger than the bare compactness class `B_min`, because it recor
 
 ## Liouville test for the generated class
 
-`B_{sfZ,ASAC}` still admits terminal native source atoms. The model source marginal
+`B_{sfZ,ASAC}` still admits terminal native source atoms. The witness source marginal
 
 ```math
 d\mu_m^{src}(y,s)
