@@ -9599,3 +9599,53 @@ authority slice.  The positive scan finds `END.PartMargin`,
 `response-margin-collapse`, retained strict margins, and repaired endpoint-matrix
 wording on the edited surfaces.  All live authority YAML files parse, and
 `git diff --check` passes on the repaired files.
+
+## Fixed-Family / Collar Formal-Handoff Rework
+
+Old claim being spent:
+
+`mpp-fixed-family-and-collar-interval-propagation.md` and its live appendix
+mirror said that once the fixed finite Eulerian packet family and collar
+Sobolev packet were available, the common-object discharge was "formal" and the
+branch could move on to closure packaging and first-exit work.
+
+Exact replacement:
+
+The surface now states only the exact handoff data.  Under the listed hypotheses
+`(FCI.8)`--`(FCI.12)`, the corollary supplies
+
+\[
+\sup_{t\in I}\mathfrak C_{N+1,\rho,\psi}^{\delta}(t)<\infty,
+\qquad
+\sup_{t\in I}\widehat{\mathcal E}^{Eul,ref}_{N,\rho,\psi}(t)<\infty,
+\]
+\[
+\sup_{t\in I}\mathfrak N^{seg}_{N+1,\rho,\psi}(t)<\infty,
+\qquad
+\sup_{t\in I}\mathcal M^{wseg}_{N+1,\rho,\psi}(t)<\infty.
+\]
+
+Closure packaging and first-exit work may spend only those displayed bounds
+together with the hypotheses that produced them.
+
+Proof or downstream consequence:
+
+The proof is the existing finite implication chain: `(FCI.10)` and `(FCI.11)`
+give the collar envelope bound; the finite-net reference-envelope theorem gives
+the Eulerian reference envelope bound from `(FCI.9)` and that collar bound;
+`(PC.11)` gives the segment envelope bound; `(PC.13)` plus `(FCI.12)` gives the
+weighted-segment bound.  No downstream theorem may spend "formal discharge" as
+an additional conclusion.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-fixed-family-and-collar-interval-propagation.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Validation:
+
+The targeted FCI scan for stale `common-object discharge is formal`,
+`common-object route becomes formal`, `formalizes the common-object`, and
+`the branch can move on to closure packaging` now returns only the repaired
+exact-handoff language and the explicit guard that the word `formal` carries no
+proof force.  `git diff --check` passes on both edited files.
