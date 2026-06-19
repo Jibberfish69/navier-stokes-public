@@ -15099,3 +15099,49 @@ pressure production versus Gaussian/monotone loss, not as a proved reserve.  A
 fixed-string residue search over the pressure/cubic note and `source-frontier.yaml`
 finds no remaining `\lesssim` on this slice, and `git diff --check --
 problems/navier-stokes` passes.
+
+## Modulated Renormalization Profile Obligation Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-modulated-renormalization-profile-20260617.md` used several
+route-forming `should` claims: the gold route "should use" viscosity/pressure/
+annular ledgers against noncompact renormalized motion, the error estimate
+"should charge" the uncontrolled residue, the Laurent note "should be treated"
+as a rung, and the live route "should try" controlled modulation.
+
+Exact replacement:
+
+The note now states exact obligations instead of expectations.  The branch must
+rule out unpaid noncompact renormalized motion by viscosity, pressure, and the
+annular source ledger; any error-carried terminal atom must pay one of the
+listed charges
+
+```text
+dissipation charge,
+source-residence charge,
+high-tower radius spend,
+annular no-incoming flux charge.
+```
+
+The Laurent branch is now explicitly only an intermediate rung, and the live
+gold target is controlled modulation plus exclusion of nonzero renormalized
+terminal orbits.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-modulated-renormalization-profile-20260617.md`.
+
+Downstream consequence:
+
+The modulated branch cannot spend a stationary Laurent normal-form exclusion as
+if it covered every Zeno profile.  It must supply `RenormalizedProfileClass.A`,
+`RenormalizationFlowCompactness.A`, `NoForwardZenoRenormalizationOrbit.A`, and
+`RadiationErrorAbsorption.A`, or an equivalent theorem package that pays the
+same noncompact-motion and residue-error alternatives.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the repaired note finds no remaining
+`should` shortcut on this slice, and `git diff --check -- problems/navier-stokes`
+passes.
