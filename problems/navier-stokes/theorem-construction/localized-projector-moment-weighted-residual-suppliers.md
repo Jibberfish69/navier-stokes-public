@@ -325,12 +325,11 @@ corotational drift. Finally, the sharper angular-forcing note
 shows that this remaining local forcing side is itself not a new linear
 `\beta_J` supplier: on the cone it collapses to the already-installed
 pair-family ledger `\int \beta_J^2/g_J`, or to `D.7ie3` on the adiabatic
-subbranch, together with the usual weighted coverage/globalization packet. The
-same note then sharpens the coverage side once more: after maximal-envelope
-promotion, the exact remaining localized-projector globalization debt is one
-maximal-envelope theorem for the explicit local entrance scalars
-`q_\ell^{mat}` or `q_\ell^{aux}`, plus the installed pair-family forcing
-ledger. The further gluing note
+subbranch. The globalization side at that stage is not a generic coverage
+step: after the maximal-envelope promotion `AFR.G`, the exact remaining
+localized-projector globalization debt is one maximal-envelope theorem for the
+explicit local entrance scalars `q_\ell^{mat}` or `q_\ell^{aux}`, plus the
+installed pair-family forcing ledger. The further gluing note
 [localized-projector-overlap-mismatch-globalization.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-overlap-mismatch-globalization.md)
 shows that the exact remaining globalization wall is now the pair
 
