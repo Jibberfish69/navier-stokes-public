@@ -69,15 +69,15 @@ E(0).
 \tag{EDT.5}
 ```
 
-This is a physical energy/dissipation budget.  On one critical heat-scale
-packet,
+This is a physical energy/dissipation budget.  On one selected heat-scale
+packet, the exact dissipation normalization is
 
 ```math
+c_D r
+\le
 \int_{Q_r}|\nabla u|^2\,dxdt
-\sim
-r^{-4}\,r^3\,r^2
-=
-r.
+\le
+C_D r.
 \tag{EDT.6}
 ```
 
@@ -85,8 +85,8 @@ With viscosity restored,
 
 ```math
 \nu\int_{Q_r}|\nabla u|^2\,dxdt
-\sim
-\nu^2 r.
+\le
+C_D\nu^2 r.
 \tag{EDT.7}
 ```
 
@@ -136,19 +136,19 @@ cost of the shrinking heat-scale packets also tends to zero.
 
 ## 4. What remains order one
 
-The quantities that remain order one are the normalized critical quantities:
+The quantities that stay bounded below are the normalized critical quantities:
 
 ```math
 {1\over r^2}
 \int_{Q_r}
 \left(|u|^3+|p|^{3/2}\right)
-\sim1,
+\ge c_{CKN},
 \tag{EDT.11}
 ```
 
 ```math
 \int_{Q_r}|S|^{5/2}\,dxdt
-\sim1,
+\ge c_S,
 \tag{EDT.12}
 ```
 
@@ -161,7 +161,7 @@ and the normalized trilinear feed
 \langle S_{<}^{loc}w,w\rangle
 \right]_+
 dxdt
-\sim1.
+\ge c_T.
 \tag{EDT.13}
 ```
 
