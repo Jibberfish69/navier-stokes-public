@@ -68,7 +68,7 @@ For a smooth heat-matched Littlewood-Paley shell, write:
 on the packet support, where the shell multiplier has been restricted to
 
 ```math
-\left||\xi|^2/2^{2j}-1\right|\le \epsilon_{width}.
+\left|\frac{|\xi|^2}{2^{2j}}-1\right|\le \epsilon_{width}.
 ```
 
 Then:
