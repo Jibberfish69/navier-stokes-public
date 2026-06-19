@@ -10628,3 +10628,34 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formally intact` hit in the edited source
 notes or appendix copy.  The positive scan finds `still typed as present`, and
 `git diff --check` passes on all edited surfaces.
+
+## Carrier-Law-Only Part Reading Rework
+
+Old claim being spent:
+
+Pack/Part/Field triadicity and shared-participation surfaces warned against a
+"formal carrier-law" or "weak formal" reading of `Part`.
+
+Exact replacement:
+
+Those passages now identify the exact bad reading as the weak
+carrier-law-only reading of `Part`, distinct from terminal pressure-viscosity
+participation.
+
+Proof or downstream consequence:
+
+The route may distinguish written carrier-law persistence from terminal
+pressure-viscosity participation explicitly.  A carrier-law-only `Part` reading
+cannot be spent as the terminal participation face.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pack-part-field-triadicity-audit-note.md`;
+- `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal carrier-law` or `weak formal
+reading` hit in the edited source notes or appendix copy.  The positive scan
+finds `carrier-law-only`, and `git diff --check` passes on all edited surfaces.
