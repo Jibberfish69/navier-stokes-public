@@ -799,7 +799,7 @@ So the observability side is now theorem-grade as a conditional dependency:
 the unresolved parabolic input is isolated by name as either
 `PDO-Carleman` or `PDO-BU-weighted`, rather than being left implicit.
 
-## Formal Closure Package
+## Pair-Defect Product And Energy Closure Package
 
 Retain the explicit forcing
 
