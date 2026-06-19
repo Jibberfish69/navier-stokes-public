@@ -9418,3 +9418,73 @@ such as "no longer closes terminal promotion ... by appeal to the installed
 warrant alone" and the already-correct frontier note
 `mpp-periodic-clay-terminal-promotion-theorem.md`.  `git diff --check` passes on
 the repaired files.
+
+## Vortex Packet `U_r/r` Exactness Rework
+
+Old claim being spent:
+
+`mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md` still contained the
+old scale step in the velocity-gradient readout:
+
+```text
+If the velocity jump across scale r is U_r, the gradient scale is A_r:=U_r/r.
+```
+
+Even though the surrounding note warned that profile information was missing,
+that sentence still treated a velocity jump as a gradient scale.
+
+Exact replacement:
+
+The surface now uses the profile-free oscillation
+
+\[
+\Delta_r u(t):=\sup_{x,y\in B_r(x_0)}|u(x,t)-u(y,t)|
+\]
+
+and the exact one-way inequality
+
+\[
+\Delta_r u(t)\le 2r\sup_{B_r(x_0)}|\nabla u(\cdot,t)|.
+\]
+
+It then separates this from the energy lower-bound question.  A lower \(L^2\)
+packet cost is written only under a positive-measure amplitude hypothesis:
+if \(G_r(t)\subset B_r(x_0)\), \(|G_r(t)|\ge\theta |B_r|\), and
+\(|u-u_{B_r}|\ge cU_r\) on \(G_r(t)\), then
+
+\[
+\int_{B_r(x_0)} |u-u_{B_r}|^2\,dx
+  \ge \theta |B_1|c^2 U_r^2 r^3.
+\]
+
+Under the benchmark \(U_r=A_r r\), this becomes
+\(\theta |B_1|c^2A_r^2r^5\); under the critical benchmark \(U_r=r^{-1}\), it is
+proportional to \(r\).
+
+Proof or remaining burden:
+
+The oscillation inequality is the mean-value theorem along line segments inside
+the ball.  The \(L^2\) lower bound is the direct integral over \(G_r(t)\).  What
+remains unproved is exactly the missing lower-oscillation or positive-measure
+amplitude theorem that would let this benchmark be spent for an arbitrary
+terminal packet.
+
+Downstream consequence:
+
+The note no longer uses a velocity-jump scale as a gradient statement.  Its
+conclusion is now conditional: the raw-energy insufficiency example is a
+benchmark under a stated amplitude-distribution hypothesis, not a profile claim
+about every shrinking packet.  The downstream positive-forward burden remains a
+scale-critical pressure/flux/donor/return bound, while failure of lawful payment
+still routes through Pack, Part, or Field.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-vortex-packet-transfer-rate-and-cost-audit-20260610.md`.
+
+Validation:
+
+The stale `velocity jump across scale`, `gradient scale is`, `A_r:= U_r/r`, and
+literal `U_r/r` hits are gone from the repaired note; the replacement
+`Delta_r` and positive-measure lower-bound statements are present, and
+`git diff --check` passes on the repaired file.
