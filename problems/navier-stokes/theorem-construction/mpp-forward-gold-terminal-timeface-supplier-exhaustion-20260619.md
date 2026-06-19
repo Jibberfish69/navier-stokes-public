@@ -164,7 +164,74 @@ source-balanced heat-scale terminal pulse.
 Result: the residual active-square branch has a pass-or-Pack-exit theorem, but
 the forward-positive residual estimate itself is not installed.
 
-### 8. Critical element / no-waste / rigidity
+### 8. Source-square / active height
+
+The native source-square reserve is the packet-native form of the unweighted
+terminal critical-action reserve:
+
+```math
+\mathcal R_N(W)
+=
+\int_W\sum_{k>N}2^k
+\left(
+\sum_{\ell>k+4}D_\ell(t)
+\right)^2dt.
+```
+
+Energy gives only the first-moment tail
+
+```math
+\mathcal F_N(W)
+=
+\int_W\sum_{\ell>N}D_\ell(t)\,dt.
+```
+
+The heat-scale pulse
+
+```math
+|I_m|=2^{-2m},
+\qquad
+D_{m+5}(t)=2^{-3m/2}|I_m|^{-1}\mathbf 1_{I_m}(t)
+```
+
+has \(\mathcal F_N(I_m)\to0\) while the \(k=m\) contribution to
+\(\mathcal R_N(I_m)\) stays order one.  Thus first moment does not imply the
+source-square reserve.
+
+The active-height algebra is clean.  If
+
+```math
+H_N(W)
+:=
+\sup_{t\in W}\sup_{k>N}
+2^k\sum_{\ell>k+4}D_\ell(t)
+```
+
+were uniformly bounded, then
+
+```math
+\mathcal R_N(W)
+\le
+C|W|H_N(W)^2 2^{-N},
+```
+
+so global active height would close the reserve.  That theorem is not a small
+ledger correction: it gives a uniform high-frequency \(H^1\) tail up to the
+terminal time and is continuation-strength.
+
+The normalized-adjoint route does not lower the burden.  The child adjoint
+ledger gives a dynamic parent-or-charge law for selected child mass, while
+`ParentSquareEmbed.A` is only an upper Bessel image estimate from donor
+coefficients to child images.  Closing the donor reserve through this route
+would require an inverse lower-frame/no-null-source theorem
+`DonorReserveAdjointTrace.A`, and that theorem is not installed.
+
+Result: source-square is the right coercive currency, but current inputs do not
+produce it.  The exact suppliers are global active height, selected height plus
+log-tail control, `ReserveCreationCharge.A`, source residence, or no-waste
+rigidity.
+
+### 9. Critical element / no-waste / rigidity
 
 The native critical-element architecture is still the best compression:
 
@@ -201,6 +268,7 @@ requires one genuinely new supplier:
 \begin{gathered}
 TerminalMovingPacketTraceModulus.A,\\
 ScaleCriticalCubicFluxReserve.A,\\
+SourceSquareReserve.A\text{ / global ActiveWindowHeight.A},\\
 PressureSourceParabolicMemory.A,\\
 TerminalSourceResidence.A,\\
 PositiveSourceTraceAC.A,\\
