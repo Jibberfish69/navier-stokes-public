@@ -336,18 +336,59 @@ calculation.
 
 ## 8. Rescaled Energy Has No Coercive Sign By Itself
 
-On the whole rescaled space, formally multiplying the rescaled equation by `v`
-gives:
+The exact localized statement is the fixed-ball energy identity.  Let
 
 ```text
-(1/2) d/ds integral |v|^2 dy
- + nu integral |nabla v|^2 dy
-= (1/4) integral |v|^2 dy.
+A_lambda(s) = integral_{B_lambda} |v(y,s)|^2 dy.
 ```
 
-On `B_lambda` there are additional boundary flux and pressure terms. The
-dilation term supplies the right-hand source. Thus the rescaled `L^2` energy is
-not an automatic Lyapunov function that damps the rescaled field.
+For a smooth rescaled solution on a neighborhood of `B_lambda`, multiply
+
+```text
+partial_s v
+- nu Delta_y v
++ (v dot nabla_y)v
++ nabla_y q
++ (1/2)y dot nabla_y v
++ (1/2)v
+= 0,
+div_y v = 0
+```
+
+by `v` and integrate over `B_lambda`.  Integration by parts gives
+
+```text
+(1/2) A_lambda'(s)
++ nu integral_{B_lambda} |nabla v|^2 dy
+- (1/4) A_lambda(s)
++ Boundary_lambda(s)
+= 0,
+```
+
+where
+
+```text
+Boundary_lambda(s)
+= -nu integral_{partial B_lambda} partial_n v dot v dS
+  + (1/2) integral_{partial B_lambda} |v|^2 v dot n dS
+  + integral_{partial B_lambda} q v dot n dS
+  + (1/4) integral_{partial B_lambda} |v|^2 y dot n dS.
+```
+
+Equivalently,
+
+```text
+(1/2) A_lambda'(s)
++ nu integral_{B_lambda} |nabla v|^2 dy
+= (1/4) A_lambda(s) - Boundary_lambda(s).
+```
+
+The whole-space formula is only a corollary under decay or boundary conditions
+strong enough to remove `Boundary_lambda`.  It is not the funnel estimate being
+used here.  On the actual fixed cone ball `B_lambda`, the unweighted rescaled
+energy has a growth-side term `A_lambda/4` and uncontrolled boundary pressure,
+transport, dilation, and viscous exchange terms.  Thus the rescaled `L^2`
+energy is not an automatic Lyapunov function that damps the rescaled field.
 
 This is the second obstruction:
 
@@ -377,6 +418,8 @@ Installed in this note:
 4. The scale-critical cone currency.
 5. The conditional moving-slab-to-CKN forward pass.
 6. The failed direct estimate from physical energy.
+7. The exact localized rescaled-energy identity on B_lambda, including the
+   boundary term that blocks the naive Lyapunov conclusion.
 ```
 
 Open after this note:
