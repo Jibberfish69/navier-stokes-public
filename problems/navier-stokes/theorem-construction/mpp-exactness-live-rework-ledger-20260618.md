@@ -13488,3 +13488,44 @@ The targeted scan finds no remaining `where b G`, `G ex`, `b G(a, , )`,
 `frozen j`, `D j is`, `lot j`, `angular diameter comparable to j`, or orphaned
 `must install` wording in the edited resonant packet.  `git diff --check` passed
 on the edited appendix and this ledger.
+
+## Downstream Theorem-Note Authority-Label Sync
+
+Old claim being spent:
+
+Several theorem-construction notes still used `stricter audit standard` as the
+authority label for live packet status, and the ASAC target note still referred
+to the `standard Euclidean divergence` constraint.
+
+Exact replacement:
+
+The notes now use `stricter audit requirement` for the audit gate and
+`unweighted Euclidean divergence constraint` for the Stokes/Carleman comparison
+constraint.
+
+Proof or downstream consequence:
+
+The downstream notes no longer use `standard` as a vague source of proof
+authority.  The status remains exact: those packets are still live requirements
+unless their displayed proposition-level reductions are audited and discharged;
+the ASAC Carleman theorem remains tied to
+`\nabla_z\cdot(A(s)w)=0`, not to the unweighted Euclidean constraint.
+
+Surfaces edited:
+
+- `theorem-construction/route-b-euclidean-closure-theorem.md`.
+- `theorem-construction/mpp-active-strain-alignment-cost-target-note-20260504.md`.
+- `theorem-construction/gradient-transfer-coercivity-object.md`.
+- `theorem-construction/scale-cubic-tail-absorption-lemma.md`.
+- `theorem-construction/combined-closure-sufficiency-lemma.md`.
+- `theorem-construction/scale-genuine-high-high-packet.md`.
+- `theorem-construction/scale-barrier-tail-lemma.md`.
+- `theorem-construction/euclidean-scale-barrier-recertification-lemma.md`.
+- `theorem-construction/scale-barrier-transport-defect-lemma.md`.
+
+Second downstream pass and validation:
+
+The targeted downstream scan finds no remaining `audit standard`, `supplier
+standard`, `positive-export standard`, `CM referee standard`, or `standard
+Euclidean divergence` wording outside ledger receipts.  `git diff --check`
+passed on all edited theorem-construction notes and this ledger.
