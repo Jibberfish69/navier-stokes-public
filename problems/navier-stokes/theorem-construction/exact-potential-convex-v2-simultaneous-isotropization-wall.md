@@ -108,14 +108,14 @@ shares one common isotropizing chart `\Phi_k`.
 ### Proof
 
 Multiplication by the scalar gauge `e^{\psi_k}` changes only first-order and
-zeroth-order coefficient terms, so it does not alter the principal second-order coefficient. A time-independent
-spatial diffeomorphism transforms the principal matrix by the standard
-conductivity pushforward law `(EVI.6)`. Therefore the exact target
-`-\nu\Delta_y` in `(EVI.4)` forces `(EVI.5)`.
+zeroth-order coefficient terms, so it does not alter the principal second-order
+coefficient. A time-independent spatial diffeomorphism changes the principal
+matrix by the determinant-normalized pushforward displayed in `(EVI.6)`.
+Therefore the exact target `-\nu\Delta_y` in `(EVI.4)` forces the pointwise
+identity `(EVI.5)`.
 
 For divergence-form scalar operators in dimension `m\ge 3`, the conductivity
-matrix and the associated metric are related by the standard conductivity /
-metric correspondence
+matrix determines the associated metric by
 
 ```math
 g=(\det a)^{\frac1{m-2}}a^{-1}.
@@ -237,7 +237,8 @@ If instead one allows a time-dependent chart `\Phi_{k,t}`, then
 term and potentially a moving observation chart. That is a different theorem
 route, not the installed fixed-domain packet `(F.11g2)`-`(F.11g3)`.
 
-The geometric inference above is standard conductivity / metric algebra:
+The geometric inference above is exactly the determinant-normalized
+pushforward `(EVI.6)` together with the metric definition `(EVI.8)`.
 Greenleaf--Lassas--Uhlmann identify the conductivity-metric correspondence in
 dimensions `n\ge 3`, and Kolehmainen--Lassas--Ola identify isotropic
 pushforwards in dimensions three and higher by Cotton--York / Weyl diagnostics.
