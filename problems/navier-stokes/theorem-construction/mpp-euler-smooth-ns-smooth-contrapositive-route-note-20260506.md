@@ -58,9 +58,9 @@ The first thesis is:
 ```
 
 This is the strong form. It is not the weaker inviscid-limit stability statement
-"for sufficiently small `\nu`." The route thesis says that adding any positive
-viscosity should not create a singularity in a scenario where the non-viscous
-Euler carrier is already smooth.
+"for sufficiently small `\nu`." The route thesis asserts that adding any
+positive viscosity does not create a singularity in a scenario where the
+non-viscous Euler carrier is already smooth.
 
 ## Euler Regularity-Failure Scenario Family
 
