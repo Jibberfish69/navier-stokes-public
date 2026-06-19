@@ -14808,3 +14808,62 @@ shortcuts such as `PositivePairWeightDefectCharge.A is paid by ASAC`,
 `finite donor graph has already been paid`, `after ASAC pair-weight charge`,
 or the `should` defect-visibility statements.  `source-frontier.yaml` parses
 with Ruby YAML, and `git diff --check -- problems/navier-stokes` passes.
+
+## Stokes Multipole Coercivity Route-Fork Exactness Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-stokes-multipole-coercivity-attempt-20260618.md` proved the
+distribution/Stokes scaling lemma, but its route readout still said the route
+"should now be read" through a fork and described the hypotheses as things that
+"should not be read" passively.  It also summarized the projected test bound as
+`O(1)` and used `r^{-k} >> 1` for the multipole contradiction.
+
+Exact replacement:
+
+The note now names the exact scale-independent constant from `(SM.17)`:
+
+```text
+|<R,phi_r>| <= C_phi(nu,E_*)
+```
+
+with `C_phi(nu,E_*)` independent of the test scale `r`.  The derivative
+point-mass obstruction is stated as the actual limit
+
+```text
+lim_{r downarrow 0} r^{-k}=+infinity, k>=1.
+```
+
+The route readout is now the exact pre-lemma fork: before applying the coercive
+lemma, a terminal Zeno defect is either not point-supported / not frozen / not
+critically bounded, or it is the monopole `Phi_0 delta_0`.  The point-support and
+critical-energy hypotheses are active readout gates; their failure is itself a
+visible branch.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-stokes-multipole-coercivity-attempt-20260618.md`.
+- `source-frontier.yaml`.
+
+Downstream consequence:
+
+The Stokes multipole lemma remains a conditional discharge, not a full Gold
+closure:
+
+```text
+TerminalProjectedResiduePointSupport.A
++ CriticalLocalEnergyBoundForResidue.A
+=> no hidden higher projected point multipoles.
+```
+
+The remaining branches are still `OffPointResidualToLedger.A`,
+`ScaleCriticalEnergyDefectToLedger.A`, and the monopole bridge
+`LocalEnergyFluxNativeResidueIdentity.A / ProjectedLocalPreCauchyResidueIdentity.A`.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` now records the same scale-independent bound rather than
+a loose `O(1)` summary.  A fixed-string residue search over the repaired Stokes
+note and `source-frontier.yaml` finds no remaining `route should`, `should not be
+read`, `O(1)`, `should`, or `\gg` shortcuts on that slice, and `git diff --check
+-- problems/navier-stokes` passes.
