@@ -11240,3 +11240,87 @@ Second downstream pass and validation:
 The targeted scan on these four surfaces finds no remaining `\sim`, `\lesssim`,
 `standard estimate`, `schematic form`, `schematically`, `formally absorbed`, or
 `up to scale factors` hit.  `git diff --check` passes on the edited surfaces.
+
+## Immediate / Schematic Proof-Language Follow-up Rework
+
+Old claim being spent:
+
+Several theorem-construction notes still used `Immediate` in section titles or
+inline proof-conclusion prose, and two guard passages used `heuristic` or
+`schematic` labels near theorem-facing material.
+
+Exact replacement:
+
+Proof-conclusion language now names the mechanism:
+`definition-level implication`, `Conditional Reduction`, `Direct calculation`,
+`Direct coefficient consequence`, and `Direct Consequence For The Proof
+Blocker`.  Status/work headings now use `Current` or `Direct` rather than
+`Immediate`.  The closure risk table now says `Descriptive frequency decay`,
+and the increment-stability note says `Unproved estimates begin only later`.
+
+Proof or downstream consequence:
+
+The edited notes no longer let `immediate` or `schematic` stand in for a proof
+step.  Where the conclusion is definitional, conditional, coefficient-level, or
+a direct calculation, the text says so.  Where the item is only a current work
+target, the heading no longer implies a proof has become automatic.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-visible-defect-ledger-routing-attempt-20260618.md`;
+- `theorem-construction/cross-scale-decorrelation-theorem.md`;
+- `theorem-construction/mpp-positive-budget-source-upper-control-expansion-20260506.md`;
+- `theorem-construction/weighted-mixed-jet-closure-implies-classical-continuation.md`;
+- `theorem-construction/mpp-terminal-collar-strain-integrability-proof-method-audit-20260607.md`;
+- `theorem-construction/carrier-ontology-refactor-obligations.md`;
+- `theorem-construction/mpp-participation-debt-mechanism-reentry-20260610.md`;
+- `theorem-construction/mpp-deformation-tower-receiver-supplier-theorem-program.md`;
+- `theorem-construction/mpp-class-membership-constitutive-import-map.md`;
+- `theorem-construction/lemma-4b-no-loss-pressure-recovery-attack.md`;
+- `theorem-construction/transport-frame-recentering-use-note.md`;
+- `theorem-construction/mpp-constitutive-first-rederivation-note.md`;
+- `theorem-construction/mpp-sourcepulse-cm-three-exit-target-map-note-20260503.md`;
+- `theorem-construction/mpp-flow-map-and-tower-continuation-note.md`;
+- `theorem-construction/infinite-jet-bicomplex-brst-survivor-route-note.md`;
+- `theorem-construction/mpp-terminal-weighted-no-free-sink-after-asac-20260506.md`;
+- `theorem-construction/main-theorem-draft.md`;
+- `theorem-construction/mpp-cm-contrapositive-course-correction-plan-20260503.md`;
+- `theorem-construction/tower-to-shuffle-to-deformation-endgame-program.md`;
+- `theorem-construction/mixed-shell-bilinear-dissipation-identity.md`;
+- `theorem-construction/mcp-ttu-branch-selection-and-averaged-terminal-tail-target-ffsrc-a-2de33251b0.md`;
+- `theorem-construction/closure-package.md`;
+- `theorem-construction/mpp-increment-stability-and-transported-packet-comparison.md`.
+
+Second downstream pass and validation:
+
+The narrowed non-audit theorem-construction scan no longer reports
+`immediate`, `routine`, `obvious`, `clearly`, `typical`, `heuristic`,
+`schematic`, `same order`, `standard estimate`, or `up to constants` as
+proof-force language.  Remaining hits are exact same-scale or scale-normalized
+objects, named barrier/all-scale/shell-scale estimates, or negative guard
+sentences saying that no profile/scale estimate is being used.  `git diff
+--check` passes on `problems/navier-stokes/theorem-construction`.
+
+## Remaining Literal `\sim` / `U/r` Classification
+
+Remaining literal `\sim` hits:
+
+The current non-audit theorem-construction scan leaves only relation or dyadic
+notation: survivor equivalence `\sim_surv`, route equivalence `\sim_route`,
+selector-neighbor and active-pair relations `Q' \sim Q` / `b \sim a`, dyadic
+collars such as `u_{\sim j}`, and sums over neighbor relations.  These are
+notation for relations or shell localization, not asymptotic size claims.
+
+Remaining `U/r` hits:
+
+The live manuscript and appendix hits are negative exactness statements:
+`submission-bundle/navier-stokes-submission.tex` says the moving-ball
+oscillation inequality is not a slope `U/r` or profile claim, and
+`submission-bundle/source-field-reader-appendix.tex` says the same-field
+small-scale bridge is not a profile assumption or linear `U/r` estimate.
+
+Downstream consequence:
+
+No remaining checked live hit spends `\nabla u ~ U/r`, literal `U/r`, or
+asymptotic `\sim` as proof force in the checked active theorem-construction
+subset.  The remaining relation/shell notation is intentionally preserved.
