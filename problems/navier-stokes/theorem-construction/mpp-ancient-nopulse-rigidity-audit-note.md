@@ -37,7 +37,7 @@ eigenmode with
 ```
 
 A single divergence-free Fourier mode has this property; a Beltrami mode is the
-standard geometric example.  Set, for `s\le 0`,
+concrete eigenmode example.  Set, for `s\le 0`,
 
 ```math
 v(y,s)=A e^{-\nu\lambda^2s}\phi(y),
