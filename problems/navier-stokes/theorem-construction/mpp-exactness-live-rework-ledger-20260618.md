@@ -11461,6 +11461,9 @@ Old claim being spent:
 The Zeno critical-profile attempt said that if
 `ZenoCriticalProfileProduction.A` were proved, the zero-force branch could
 "plausibly" be killed by a Landau/Sverak-classification Liouville theorem.
+The terminal stress-flux two-door packet repeated the same plausibility bridge:
+it called the Liouville theorem plausible and said Door 2 profiles could
+plausibly be killed by the Landau/Sverak route.
 
 Exact replacement:
 
@@ -11470,6 +11473,10 @@ the downstream theorem
 `ZeroFluxCriticalProfileLiouville.A`, whose displayed hypotheses are a
 stationary `(-1)`-homogeneous smooth-sphere profile and `Phi_0=0`, with
 conclusion `U=0`.
+The two-door packet now says the Liouville theorem is a conditional downstream
+theorem requiring a local Landau/Sverak bridge, and that Door 2 yields a
+contradiction only after both the exact profile-production bridge and the
+zero-flux Liouville bridge are supplied.
 
 Proof or downstream consequence:
 
@@ -11480,10 +11487,11 @@ Liouville theorem is a downstream consumer and does not produce the profile.
 Surfaces edited:
 
 - `theorem-construction/mcp-zenocriticalprofileproductionattempt-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-6024ef0bd0.md`.
+- `theorem-construction/mcp-terminalstressfluxantiatomtwodoorpacketattempt-a-stressfluxselectordomination-a-zenocriticalprofileproduction-a-zerofluxcriticalprofileliouville-a-1c958d83b9.md`.
 
 Second downstream pass and validation:
 
-The targeted scan finds no remaining `plausib` hit in the edited note.  It
-finds the replacement phrases `would reduce to the following downstream
-Liouville theorem` and `only after both pieces are proved`.  `git diff --check`
-passes on the edited note.
+The targeted scan finds no remaining `plausib` hit in the edited Zeno/Landau
+source notes.  It finds the replacement phrases `would reduce to the following
+downstream Liouville theorem`, `conditional downstream theorem`, and `only
+after`.  `git diff --check` passes on the edited notes.
