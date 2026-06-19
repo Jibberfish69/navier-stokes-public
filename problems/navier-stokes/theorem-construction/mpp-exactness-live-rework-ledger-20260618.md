@@ -9729,3 +9729,84 @@ line: the repaired conditional-reduction note says it "does not discharge
 and same-branch \(H^s\) relaunch requirements across the edited live surfaces.
 All live authority YAML files parse, and `git diff --check` passes on the
 repaired PCTP/TTU files, `live-theorem-edge.yaml`, and the appendix mirror.
+
+## Parabolic Funnel Rescaled-Energy Exactness Rework
+
+Old claim being spent:
+
+The live funnel note still said that, on the whole rescaled space, one
+"formally" multiplies the rescaled equation by \(v\) and obtains a bare
+rescaled \(L^2\) identity.  The surrounding paragraph then used the statement
+to say the naive rescaled energy does not close.  That conclusion is right, but
+the proof surface was still spending a formal whole-space shortcut on a
+fixed-ball funnel problem.
+
+Exact replacement:
+
+On the actual cone ball \(B_\lambda\), set
+
+\[
+A_\lambda(s):=\int_{B_\lambda}|v(y,s)|^2\,dy.
+\]
+
+For a smooth rescaled solution on a neighborhood of \(B_\lambda\),
+
+\[
+\partial_s v-\nu\Delta_yv+(v\cdot\nabla_y)v+\nabla_yq
+  +\frac12 y\cdot\nabla_yv+\frac12v=0,
+\qquad \nabla_y\cdot v=0,
+\]
+
+integration by parts gives
+
+\[
+\frac12 A_\lambda'(s)
++\nu\int_{B_\lambda}|\nabla v|^2\,dy
+-\frac14 A_\lambda(s)
++Boundary_\lambda(s)=0,
+\]
+
+where
+
+\[
+\begin{aligned}
+Boundary_\lambda(s)
+&=-\nu\int_{\partial B_\lambda}\partial_n v\cdot v\,dS
+  +\frac12\int_{\partial B_\lambda}|v|^2v\cdot n\,dS \\
+&\quad+\int_{\partial B_\lambda}q\,v\cdot n\,dS
+  +\frac14\int_{\partial B_\lambda}|v|^2y\cdot n\,dS .
+\end{aligned}
+\]
+
+Thus
+
+\[
+\frac12 A_\lambda'(s)
++\nu\int_{B_\lambda}|\nabla v|^2\,dy
+=\frac14 A_\lambda(s)-Boundary_\lambda(s).
+\]
+
+The whole-space identity is only a corollary after replacing \(B_\lambda\) by
+exhausting balls \(B_R\) and proving \(Boundary_R(s)\to0\), or after imposing
+boundary conditions that make the four boundary integrals vanish.
+
+Proof or downstream consequence:
+
+`FunnelProfileLyapunov.A` can no longer spend the bare whole-space multiplier
+identity.  It must add a real weight, pressure cancellation, boundary condition,
+or coercive rescaled-field identity that controls both the growth-side
+\(A_\lambda/4\) term and the fixed-ball boundary pressure, transport, dilation,
+and viscous exchange terms.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+
+Second downstream pass and validation:
+
+The targeted stale scan no longer finds `formally multiplying`, whole-space
+energy used as the funnel estimate, or the old boundary/pressure prose on the
+funnel note.  The positive scan finds `A_lambda`, `Boundary_lambda`, the exact
+localized identity, and the installed note item naming the exact localized
+rescaled-energy identity on \(B_\lambda\).  `git diff --check` passes on the
+edited funnel note.
