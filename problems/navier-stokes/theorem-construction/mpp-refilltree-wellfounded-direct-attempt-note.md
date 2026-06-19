@@ -125,11 +125,35 @@ So finite banding does not produce bounded branching or a finite-depth tree.
 
 ## Attempt 5: Compact Zeno Branch
 
-A Zeno branch can be rescaled around its terminal packets.  The installed local
-energy and pressure structure can produce a local suitable ancient limit after
-the usual compactness extraction.  However, the current route does not force
-that limit into a rigid class such as Type I, finite global ancient energy,
-critical smallness, self-similarity, or symmetry.
+A Zeno branch can be rescaled around its terminal packets, but the extraction
+has to spend a precise compactness packet.  Choose terminal branch centers and
+scales `(x_m,t_m,r_m)` with `r_m\downarrow0`, and define
+
+```math
+u_m(y,s)=r_m u(x_m+r_m y,t_m+r_m^2 s),
+\qquad
+p_m(y,s)=r_m^2\bigl(p(x_m+r_m y,t_m+r_m^2 s)-[p]_{B_{r_m}}(t_m+r_m^2s)\bigr).
+```
+
+For each fixed backward cylinder `Q_R^-=B_R\times(-R^2,0)`, the compactness
+step requires uniform bounds
+
+```math
+\sup_{s\in(-R^2,0)}\int_{B_R}|u_m(s)|^2
++\int_{Q_R^-}|\nabla u_m|^2
++\int_{Q_R^-}|p_m|^{3/2}
+\le C_R,
+```
+
+same-fluid tightness of the rescaled source-residue measures, and vanishing
+legal-loss errors on compact subcylinders.  Under those hypotheses, the local
+energy compactness theorem gives a subsequence converging to a local suitable
+ancient object `(u_*,p_*,\mu_*^{src})` carrying the inherited source-residue
+measure.
+
+This extraction alone does not force the limit into a rigid class such as
+Type I, finite global ancient energy, critical smallness, self-similarity, or
+symmetry.
 
 This is exactly the compact-Liouville package:
 
