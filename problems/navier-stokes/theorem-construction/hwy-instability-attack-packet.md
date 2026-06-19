@@ -2558,7 +2558,8 @@ In particular, the exact local inputs for synchronization are now:
 1. local simple-top gap floor;
 2. local corotational drift packet;
 3. theorem-safe entrance packet;
-4. weighted coverage/globalization packet.
+4. the weighted coverage theorem `(EP.10l1)`-`(EP.10l4)`, or its envelope
+   form `(EP.10m1)`-`(EP.10m3)`.
 
 ### Corollary EP.10i (the local entrance side of projector extraction already has two installed suppliers)
 
@@ -2613,7 +2614,8 @@ Consequently the remaining local synchronization wall is now:
 1. local simple-top gap floor;
 2. local corotational drift packet;
 3. one theorem-safe entrance supplier from `(EP.10i4)`;
-4. weighted coverage/globalization.
+4. the weighted coverage theorem `(EP.10l1)`-`(EP.10l4)`, or its envelope
+   form `(EP.10m1)`-`(EP.10m3)`.
 
 ### Corollary EP.10j (the local corotational drift side is exactly a windowwise `\beta_J` supplier)
 
@@ -2672,7 +2674,8 @@ by existing packet types:
 2. local `\beta_J`-sup supplier, or its adiabatic sufficient form
    `(EP.10j4)`;
 3. one theorem-safe entrance supplier from `(EP.10i4)`;
-4. weighted coverage/globalization.
+4. the weighted coverage theorem `(EP.10l1)`-`(EP.10l4)`, or its envelope
+   form `(EP.10m1)`-`(EP.10m3)`.
 
 ### Corollary EP.10k (the local simple-top gap side is exactly the localized face of `V1`)
 
@@ -2695,7 +2698,8 @@ fully aligned with the existing exact-potential branch packets:
 1. localized `V1` gap floor;
 2. localized `\beta_J` supplier;
 3. localized entrance supplier `D.7ic` or `D.7ig`;
-4. weighted coverage/globalization.
+4. the weighted coverage theorem `(EP.10l1)`-`(EP.10l4)`, or its envelope
+   form `(EP.10m1)`-`(EP.10m3)`.
 
 That is the sharpest theorem-safe local decomposition of the synchronization
 wall available on disk.
