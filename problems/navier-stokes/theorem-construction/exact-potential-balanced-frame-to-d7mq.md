@@ -236,7 +236,7 @@ same route one step further: the genuinely new TPS geometric burden is only a
 packet-center-to-entrance-direction tether. Corollary `QSP.AA` then reduces
 that again to a pure selected-cell entrance-direction cap-aperture theorem, and
 Corollary `QSP.AB` makes the ambient packet-width input explicit: on the
-standard shell/cap geometry the remaining new burden is only selected-parent-cap
+declared shell/cap geometry the remaining new burden is only selected-parent-cap
 entrance membership. Corollary `QSP.AC` then rewrites even that as one
 entrance-direction-adapted selected-cell assignment theorem, and Corollary
 `QSP.AD` fuses that assignment burden back into the same selector refinement

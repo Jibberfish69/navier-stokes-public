@@ -66,7 +66,7 @@ H_N(Past(W))+Loss_N^{height}(W)+\eta/2.
 \tag{FHC.2}
 ```
 
-Moreover, after replacing `H_k` by the standard smooth maximum regularization
+Moreover, after replacing `H_k` by the smooth maximum regularization
 
 ```math
 H_N^\varepsilon(t)

@@ -84,7 +84,8 @@ Thus, after choosing `N` large on the terminal window,
 
 ## Result
 
-The terminal-window finite-mode coefficient measure closes under the standard terminal-window entrance-tail condition:
+The terminal-window finite-mode coefficient measure closes under the displayed
+terminal-window entrance-tail condition:
 
 ```math
 E_N(t_0)+2^{-2\delta N}\ll1,

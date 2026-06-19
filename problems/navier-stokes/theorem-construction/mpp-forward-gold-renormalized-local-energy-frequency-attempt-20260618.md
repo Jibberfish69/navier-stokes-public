@@ -293,6 +293,7 @@ The attempted monotonicity formula exposes the real pressure point:
 
 This does not make the final transcript pivot wrong.  It makes it precise.  The
 right monotonicity object would have to be more than a Gaussian local energy or
-a standard frequency quotient.  It must include a pressure/flux correction, a
+the uncorrected frequency quotient \(r\int_{B_r}|\nabla u|^2/\int_{B_r}|u|^2\).
+It must include a pressure/flux correction, a
 material adjoint weight, or a new coercive pressure-flux theorem.  Without that,
 the terminal time-face atom remains visible but not excluded.

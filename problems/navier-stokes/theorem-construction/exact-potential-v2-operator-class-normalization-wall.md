@@ -96,7 +96,7 @@ menu stage.
 Inside the convex branch, the active theorem-facing sharpening is now the
 static-diffusion audit
 [exact-potential-f11d-static-diffusion-audit.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/exact-potential-f11d-static-diffusion-audit.md):
-on the standard pushforward readout of `F.11d`, the principal diffusion matrix
+on the declared pushforward readout of `F.11d`, the principal diffusion matrix
 is the fixed chart metric `\nu G_k`, so the live convex wall is static
 chart-metric flattening plus lower-order admissibility on the flattened chart,
 or more conservatively the direct static-diffusion abstract route packaged in

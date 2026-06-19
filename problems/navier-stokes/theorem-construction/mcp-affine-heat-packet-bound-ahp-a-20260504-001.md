@@ -131,7 +131,8 @@ The ellipticity bounds imply
 \exp\left(-c\frac{|y-z|^2}{s-t}\right)
 ```
 
-for `t<s`, with the standard limiting interpretation at `t=s`.
+for `t<s`, with the limiting distributional identity
+`K_T(s,s;y,z)=\delta_z(y)`.
 
 Because `s-t\le \Lambda r_T^2`, convolution with a scale-`r_T` terminal Gaussian preserves the scale. Thus
 
