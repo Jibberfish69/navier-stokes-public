@@ -73,7 +73,7 @@ Thus `B_min` gives production, while residue Liouville remains unavailable.
 
 ## Audit of stronger classes
 
-The standard rigid classes fail at production from the installed Zeno extraction:
+The classical rigid classes fail at production from the installed Zeno extraction:
 
 ```text
 finite global ancient energy,
