@@ -153,5 +153,5 @@ and the smooth/pass branch is inside CM.
 
 This proof attempt does not revive `TerminalCMNoExit.A / NoGenuineCMExit.A` as
 the terminal classification theorem. It records why the proposed target-fidelity
-shortcut should be replaced by the obstruction split:
+shortcut is replaced by the obstruction split:
 failure/non-smooth branch outside CM, smooth branch inside CM.
