@@ -11104,3 +11104,64 @@ implication from the residual calculation`, and `Ordered conditional implication
 chain`.  It finds no remaining `is formal`, `Formal implication`, or `Formal
 implication chain` hit in the edited LPM / SG4 source-estimate cluster.
 `git diff --check` passes on the edited notes.
+
+## Terminal SG4 / Survivor / Resonant Conditional Rework
+
+Old claim being spent:
+
+Eight source notes still used shortcut closure language: a requested terminal
+SG4/TPS packet had a "Formal closure" heading; the temporal source chain called
+its chain a formal implication; the terminal irreducible SG4 cut said downstream
+assembly was formal once three inputs were supplied; the weighted lifted skew
+attempt called its first pieces "formal/geometric"; the good-scale note said an
+interface closes formally; the survivor packet said its source and endpoint
+lines were formal once inputs were accepted; the SG4 lower-envelope handoff
+called itself a formal downstream handoff; and the resonant shell note said the
+pure resonant theorem follows formally after `(WERS.3R)`.
+
+Exact replacement:
+
+The SG4/TPS terminal packet is now conditional closure under the seven listed
+source estimates.  The temporal source chain now names the square-source,
+Holder, and weak-limit proof below it.  The terminal irreducible cut now says
+downstream assembly is conditional on `BridgeA`, `DG-Line^sharp`, and
+`BootSquare`.  The weighted lifted skew attempt now calls its first two pieces
+explicit geometric constructions.  The good-scale interface is now a
+conditional discharge under either current root supplier.  The survivor source
+and endpoint lines are now conditional implications under the named channel
+theorems, certificates, and analytic inputs.  The SG4 lower-envelope note is a
+conditional downstream handoff.  The resonant shell candidate now says
+`(WERS.3R)` supplies the shell-symbol estimate required by the pure resonant
+theorem.
+
+Proof or downstream consequence:
+
+These branches may spend their downstream conclusions only after their named
+source estimates, certificates, root suppliers, or shell-symbol bounds are in
+place.  Where a proof exists on the page, the note now names the proof mechanism
+instead of hiding it under "formal"; where the input is still missing, the note
+now states conditional dependence rather than closure.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-requested-terminal-sg4-tps-proof-packet-and-source-boundary-ep-a-e2af5d871f.md`;
+- `theorem-construction/mcp-temporal-integrability-square-source-chain-solver-20260505.md`;
+- `theorem-construction/mcp-terminal-irreducible-cut-for-sg-4-tps-branch-lpm-c-4f9918ea08.md`;
+- `theorem-construction/mcp-weightedliftedskewdefectlegalattempt-a-weightedliftedskewdefectlegal-a-projectedlocalprecauchyresidueidentity-a-01109edc57.md`;
+- `theorem-construction/mpp-good-scale-noncollapse-replacement-target-audit-20260505.md`;
+- `theorem-construction/mpp-unified-survivor-conditional-theorem-packet-audit-note.md`;
+- `theorem-construction/sg4-lower-envelope-and-continuation-handoff.md`;
+- `theorem-construction/weighted-exact-projection-resonant-shell-theorem-candidate.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds only replacement phrases in the edited eight-note
+cluster: `Conditional closure under the listed source estimates`,
+`square-source, Holder, and weak-limit`, `downstream assembly is conditional`,
+`explicit geometric constructions`, `conditional discharge`, `conditional
+implication once`, `conditional downstream handoff`, and `shell-symbol estimate
+required`.  The broad theorem-construction scan for `follows formally`,
+`closes formally`, `formal once`, `formal assembly`, `Formal implication`,
+`Formal closure`, and related phrases now leaves only ledger evidence and the
+separately classified `chatgpt-items-1-8-completion-attempt.md` residue.
+`git diff --check` passes on the edited notes.
