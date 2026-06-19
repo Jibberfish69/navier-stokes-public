@@ -12049,3 +12049,61 @@ The targeted scan finds no remaining `expected to be mostly` or proof-facing
 `ResidualPair.A` spend in the edited AdjBessel note.  It finds the replacement
 `WeightedAdjRes.A` residual gate and combined iteration statement.  `git diff
 --check` passed on the edited note and this ledger.
+
+## PCTP Hs Relaunch Conversion Rework
+
+Old claim being spent:
+
+The PCTP hard `H^s` continuation conversion note ended by saying the conversion
+is "standard" and conditional on terminal tower control, even though this
+conversion is the final classical relaunch step.
+
+Exact replacement:
+
+The boundary now states the exact relaunch theorem being spent: for periodic
+Navier-Stokes with `s>5/2`, a uniform bound
+\[
+\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\le M_s
+\]
+gives a local lifespan lower bound `\delta=\delta(s,\nu,M_s)>0`, and
+uniqueness on overlaps continues the same classical solution beyond `T_*`.
+
+Proof or downstream consequence:
+
+The conversion remains only a consumer of terminal tower control.  The live
+blocker is still the noncircular production of the uniform `H^s` bound from the
+original periodic dynamics.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pctp-hard-hs-continuation-conversion.md`.
+
+## Forced Periodic Relaunch Forcing-Norm Rework
+
+Old claim being spent:
+
+The forced periodic branch attempt said the classical continuation theorem
+requires a forcing norm, "for example a standard hypothesis" of
+`f in L^1_loc H^{s-1}`.  The forced branch is explicitly not installed, so the
+forcing requirement should be stated as a concrete relaunch hypothesis rather
+than a standard placeholder.
+
+Exact replacement:
+
+The note now states that one sufficient forced relaunch hypothesis is
+\[
+f\in L^1_{loc}([0,\infty);H^{s-1}(T^3)),
+\]
+or a stronger smooth forcing class, and that on a relaunch interval the
+lifespan depends on the current `H^s` norm of `u` and the local
+`L^1_tH^{s-1}_x` forcing norm.
+
+Proof or downstream consequence:
+
+The zero-force theorem remains unchanged.  A forced branch still requires new
+forced packets `FFSRC.A_forced`, `DTC.Read_forced`, and
+`ECQ.A_forced/PCTP.cond_forced`.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-forced-periodic-branch-attempt-ecq-a_-1c92800349.md`.
