@@ -127,7 +127,10 @@ If `U` is a stationary `(-1)`-homogeneous Navier-Stokes profile on `R^3 \ {0}`, 
 
 ### Door 2 Liouville analysis
 
-This is plausible as a conditional theorem via Sverak's Landau classification. The external candidate is Vladimir Sverak, "On Landau's Solutions of the Navier-Stokes Equations", arXiv:math/0604550.
+This is a conditional downstream theorem whose proof must be supplied by a
+local Landau/Sverak classification bridge.  The external candidate is Vladimir
+Sverak, "On Landau's Solutions of the Navier-Stokes Equations",
+arXiv:math/0604550.
 
 Use boundary:
 
@@ -165,7 +168,10 @@ ZenoCriticalProfileProduction.A
 
 If Door 1 is proved, nonzero stress flux feeds the native source atom route.
 
-If Door 2 production is proved, zero-flux critical profiles can plausibly be killed by the Landau/Sverak Liouville route.
+If Door 2 production is proved, zero-flux critical profiles reduce to the
+downstream `ZeroFluxCriticalProfileLiouville.A` theorem.  The contradiction is
+available only after the repo supplies both the exact profile-production bridge
+and the zero-flux Liouville bridge.
 
 Until one of those production bridges is proved, the forward gold theorem remains open.
 
