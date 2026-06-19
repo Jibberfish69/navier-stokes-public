@@ -178,6 +178,32 @@ AlignmentDecorrel.A
 provided the chosen face is strong enough on the same selected source-weighted
 packet.
 
+The heat-scale coefficient supplement
+`mpp-forward-gold-heat-scale-coefficient-throttle-direct-test-20260619.md`
+tests the most literal coefficient route.  It shows that energy, enstrophy, and
+Bernstein give at best
+
+\[
+\int_{I_j}\|S_{<j}^{loc}(t)\|_\infty\,dt
+\lesssim
+2^{j/2}\nu^{-1}
+\left(\int_{I_j}\mathcal D(t)\,dt\right)^{1/2},
+\tag{SSC.12a}
+\]
+
+so an \(O(1)\) coefficient residence bound requires the stronger heat-window
+rate
+
+\[
+\int_{I_j}\mathcal D(t)\,dt\lesssim \nu^2 2^{-j}.
+\tag{SSC.12b}
+\]
+
+Finite \(L^1_t\) dissipation gives smallness on shrinking windows, but not this
+specific \(O(2^{-j})\) rate.  Thus `CoeffBound.A` is not a cheap consequence of
+the energy ledger; it needs selected critical strain, selected heat-window
+dissipation rate, or direct native product control.
+
 Equivalently, it is supplied by a direct product estimate
 
 \[
