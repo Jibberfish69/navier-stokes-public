@@ -14134,4 +14134,6 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted rescan of these proof-force phrases and `git diff --check`.
+The targeted scan for these proof-force phrases is clean on live files; old
+phrases remain only in ledger evidence.  `git diff --check` passed on the
+edited surfaces and this ledger.
