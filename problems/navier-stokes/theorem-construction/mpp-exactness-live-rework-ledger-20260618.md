@@ -10894,3 +10894,35 @@ The targeted scan finds no remaining `same formal step` or `(LPMR.22) ... are
 formal` hit in the edited exact-potential source notes or appendix copy.  The
 positive scan finds `conditional integration step` and `conditional packaging
 consequences`, and `git diff --check` passes on both edited surfaces.
+
+## Localized Projector-Moment Supplier Chain Rework
+
+Old claim being spent:
+
+The localized projector-moment concentration note said that once `(LPM.19)` is
+proved, the pair-level suppliers, `SSC`, `D.7mr2`, `RPC.3`, and `SG.4B` all
+"follow formally."
+
+Exact replacement:
+
+The source note now says those objects follow through the cited supplier chain
+on this subroute once `(LPM.19)` is proved.  It also repeats the appendix's
+existing restriction: this is a sufficient reduction only and does not replace
+the later averaged projector dynamics and moment-closure supplier.
+
+Proof or downstream consequence:
+
+The localized-projector branch may cite this route only as a sufficient
+subroute under `(LPM.19)` and the cited supplier chain, not as a generic formal
+closure of `SG.4B`.
+
+Surfaces edited:
+
+- `theorem-construction/localized-projector-moment-concentration-implies-pair-suppliers.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `follow formally` or `follows formally`
+hit in the edited localized-projector note or appendix copy.  The positive scan
+finds `cited supplier chain` and `sufficient reduction only`, and `git diff
+--check` passes on the edited source note.
