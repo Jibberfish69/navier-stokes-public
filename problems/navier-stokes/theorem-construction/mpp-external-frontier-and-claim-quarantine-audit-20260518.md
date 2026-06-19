@@ -56,7 +56,7 @@ Primary source:
 
 Verified shape:
 
-The program is candidate-profile search plus adaptive numerical resolution plus computer-assisted proof discipline. The useful feature for this repo is not the existence of a public classical-Navier-Stokes proof, but the proof standard: rescaled variables, monotone/controlled quantities, interval or computer-assisted estimates, and a clear certification route.
+The program is candidate-profile search plus adaptive numerical resolution plus computer-assisted proof discipline. The useful feature for this repo is not the existence of a public classical-Navier-Stokes proof, but the proof criterion: rescaled variables, monotone/controlled quantities, interval or computer-assisted estimates, and a clear certification route.
 
 Repo use:
 
