@@ -63,7 +63,7 @@ the historical four rows.
 
 Each face removes a distinct primitive obstruction.
 
-1. `Dead` concerns participation. It can occur with pack, field, and tower amplitude formally intact, so it is not represented by the other three faces.
+1. `Dead` concerns participation. It can occur with pack, field, and tower amplitude still typed as present, so it is not represented by the other three faces.
 
 2. `packing-detached` concerns loss of the shared pack/diffeomorphic gauge. It can occur without participation failure, averaged tower blowup, or field-scale loss, so it is independent.
 
