@@ -13662,3 +13662,40 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `standard profile decomposition` wording
 outside ledger/provenance receipts.  `git diff --check` passed on the edited
 notes and this ledger.
+
+## Selector-Scale Branch Authority Rework
+
+Old claim being spent:
+
+The PTC/TPS selector notes repeatedly referred to the `standard selector-scale`
+or `standard-selector` branch, and one DGCal note said the pair-linearization
+side had a `standard source-backed route`.
+
+Exact replacement:
+
+Those surfaces now call this the declared selector-scale realization and tie it
+to the named assumptions `(PTCL.3ai)` and `(PTCL.3aj)`.  The DGCal note now
+spends the displayed implication
+`TPS.4u => DiffExc => PTC-Lin.A` rather than a generic source-backed route.
+
+Proof or downstream consequence:
+
+The selector-scale branch is licensed only by its declared realization and
+active-pair scale packet.  The remaining unpaid theorem is still selector-shape
+normalization / `PTCShapeNormalization.A`, together with the frozen
+threshold-vs-linearization synchronization input where that stronger route is
+used.
+
+Surfaces edited:
+
+- `theorem-construction/ptc-linearization-and-shape-closure.md`.
+- `theorem-construction/mpp-dgcal-pair-defect-channel-realization-direct-attempt-20260609.md`.
+- `theorem-construction/frozen-threshold-vs-linearization-synchronization.md`.
+- `theorem-construction/ptc-shape-normalization-closure.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard selector-scale`,
+`standard-selector`, or `standard source-backed` wording outside
+ledger/provenance receipts.  `git diff --check` passed on the edited selector
+notes and this ledger.
