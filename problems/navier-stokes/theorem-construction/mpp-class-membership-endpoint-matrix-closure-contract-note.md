@@ -540,8 +540,7 @@ The endpoint block now closes from:
 
 ```math
 \boxed{
-END.Pack+END.Field+END.TowerBound+END.Cross+END.Exh
-+END.PartMargin
+END.Pack+END.PartMargin+END.Field+END.TowerBound+END.Cross+END.Exh
 \Longrightarrow
 End_{NS}.
 }
