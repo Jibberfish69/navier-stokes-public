@@ -8,7 +8,7 @@ discharge before the lane can advance beyond bridge-pending status.
 
 ## Object
 
-- `object_id`: `formal-object-d2-carrier-commutator-coercive-lemma`
+- `object_id`: `conditional-object-d2-carrier-commutator-coercive-lemma`
 - `object_name`: `carrier_commutator_coercive_lemma`
 - `object_role`: mediating bridge object
 - `primary_target`: `Prove D.2 global coercive energy estimate`
@@ -126,5 +126,6 @@ c_D\,\mathcal D_D(X)
 C\,\Psi(\mathcal E_D(X)).
 ```
 
-That is the formal D.2 discharge surface on the current lane.
-
+That is the conditional D.2 discharge surface on the current lane: it is
+available only under Hypothesis H and the same-surface choice of `\Psi` that
+closes the displayed differential inequality uniformly in time.

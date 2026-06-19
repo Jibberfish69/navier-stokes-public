@@ -1147,7 +1147,8 @@ That estimate is now closed on the realized carrier through the
 coherent/remainder discharge packet recorded in this note, so it should be read
 as a proved D.2 theorem surface rather than as an unfinished scaffold.
 
-The strongest current local reduction is the formal coherent/remainder package:
+The strongest current local reduction is the exact coherent/remainder split
+with its carrier and energy-domain bounds:
 
 ```text
 \mathbb P_DN_D(X)=N_{\mathrm{coh}}(X)+N_{\mathrm{rem}}(X),
