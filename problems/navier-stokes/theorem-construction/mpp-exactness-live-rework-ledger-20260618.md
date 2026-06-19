@@ -12465,7 +12465,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual strain ledger` phrase in the edited
+terminal CM no-exit note.  It finds the replacement `Gamma_Q` deformation
+gauge and exact retained-tube strain inequality.  `git diff --check` passed on
+the edited note and this ledger.
 
 ## Gradient High-Side Integrated-Circularity Rewording
 
@@ -12492,7 +12495,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual integrated shortcut` phrase in the
+edited gradient high-side packet.  It finds the replacement circularity warning
+for the integrated proof and the unchanged exact shell-sum burden.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## SourcePulse Terminal Subsequence Selection Rework
 
@@ -12521,7 +12527,11 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard terminal subsequence` phrase in
+the edited source-pulse normal-form note.  It finds the replacement
+failed-window selection, legal-loss discard, finite-choice diagonal
+subsequence, and same-fluid active-window survival conditions.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## Response-Height Shell-Narrowing Rework
 
@@ -12548,7 +12558,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard shell narrowing` phrase in the
+edited response-height note.  It finds the replacement heat-matched shell
+support restriction and the resulting `rho_j` width error.  `git diff --check`
+passed on the edited note and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
