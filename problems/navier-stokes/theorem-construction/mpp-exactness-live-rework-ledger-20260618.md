@@ -11324,3 +11324,41 @@ Downstream consequence:
 No remaining checked live hit spends `\nabla u ~ U/r`, literal `U/r`, or
 asymptotic `\sim` as proof force in the checked active theorem-construction
 subset.  The remaining relation/shell notation is intentionally preserved.
+
+## Forward-Gold Frontier/Header Downstream Sync
+
+Old claim being spent:
+
+After the forward-gold pressure/frequency source notes were repaired, their
+headers and the top-level `source-frontier.yaml` mirror still used confidence
+phrases: `expected coercive`, `usual local-energy currencies`, and `standard
+local energy currencies`.
+
+Exact replacement:
+
+The renormalized-frequency header and frontier status now say the heat/viscous
+part supplies a coercive term only after the nonlinear/pressure contribution
+`F_{nl/pr}` is controlled, with the exact indefinite terms computed in `(RF.7)`
+and `(RF.8)`.  The pressure-flux header and frontier status now say the flux is
+bounded by the Holder/CZ pressure estimate and local-cylinder interpolation, and
+that Young absorption leaves the explicit `tau E_I^3` reserve.
+
+Proof or downstream consequence:
+
+The frontier can no longer summarize this branch as a standard or expected
+estimate.  Its status now carries the same open mathematical burden as the
+source notes: control `F_{nl/pr}`, prove admissibility of the adjoint test, or
+pay the `tau E_I^3` reserve / pressure-trace theorem.
+
+Surfaces edited:
+
+- `source-frontier.yaml`;
+- `theorem-construction/mpp-forward-gold-renormalized-local-energy-frequency-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-pressure-flux-absorption-attempt-20260618.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected coercive`, `usual local`, or
+`standard local` phrase in the synced forward-gold branch.  It finds the
+replacement phrases `F_{nl/pr}`, `Holder/CZ`, and `tau E_I^3`.  `git diff
+--check` passes on the edited surfaces.
