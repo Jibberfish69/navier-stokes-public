@@ -13896,3 +13896,45 @@ standard`, `row-consumption standard`, `standard parabolic cylinder`,
 criticality`, or `standard referee objections` wording outside
 ledger/provenance receipts.  `git diff --check` passed on the edited notes and
 this ledger.
+
+## Live Authority Anchor Obstruction-Language Rework
+
+Old claim being spent:
+
+Active authority anchors still used proof-facing shorthand around exact
+obstructions and admission boundaries: `terminal time-face concentration model`,
+`precise obstruction model`, `generic private annular diagnostic`, `generic`
+public-critical support, and `same-scale packets`.
+
+Exact replacement:
+
+The terminal anti-atom certificate and annular supplier resolution now call the
+object a terminal time-face concentration sequence: the displayed densities
+`tau_N^{-1} 1_{[T-tau_N,T]}` and `g_m(s)=m 1_{(-1/m,0]}(s)` are exact
+counter-sequences against the available `L^1` source ledger, not schematic
+profiles.  The annular silver boundary now says an unadmitted private annular
+diagnostic must satisfy the stated same-solution admission, positive-radius
+carrier, and continuation-readout conditions before it can be spent.  The Clay
+row addendum names unlocalized public-critical translator support, and the
+zero-moment note splits the source carrier into positive and negative parts of
+the same selected terminal carrier.
+
+Proof or downstream consequence:
+
+The live anchors now spend exact displayed sequences, exact admission clauses,
+and exact selected-carrier decomposition.  The gold annular/source-wall
+obstruction remains open until a terminal anti-atom/new-production theorem gives
+time-thickness beyond the `L^1` ledger.  The silver annular branch remains
+available only after readout-complete same-solution admission; no private
+diagnostic packet is promoted by loose `generic` language.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-time-face-anti-atom-hard-obstruction-certificate-20260517.md`.
+- `theorem-construction/mpp-scale-uniform-annular-supplier-goal-resolution-20260613.md`.
+- `theorem-construction/mpp-clay-terminal-witness-invalidation-20260523.md`.
+- `theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md`.
+
+Second downstream pass and validation:
+
+Pending targeted rescan of live authority anchors and `git diff --check`.
