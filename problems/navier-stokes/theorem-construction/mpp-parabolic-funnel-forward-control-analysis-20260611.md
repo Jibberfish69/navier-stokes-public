@@ -383,12 +383,14 @@ Equivalently,
 = (1/4) A_lambda(s) - Boundary_lambda(s).
 ```
 
-The whole-space formula is only a corollary under decay or boundary conditions
-strong enough to remove `Boundary_lambda`.  It is not the funnel estimate being
-used here.  On the actual fixed cone ball `B_lambda`, the unweighted rescaled
-energy has a growth-side term `A_lambda/4` and uncontrolled boundary pressure,
-transport, dilation, and viscous exchange terms.  Thus the rescaled `L^2`
-energy is not an automatic Lyapunov function that damps the rescaled field.
+The whole-space formula is only a corollary after replacing `B_lambda` by
+exhausting balls `B_R` and proving `Boundary_R(s) -> 0`, or after imposing
+boundary conditions that make the four displayed boundary integrals vanish.  It
+is not the funnel estimate being used here.  On the actual fixed cone ball
+`B_lambda`, the unweighted rescaled energy has a growth-side term `A_lambda/4`
+and uncontrolled boundary pressure, transport, dilation, and viscous exchange
+terms.  Thus the rescaled `L^2` energy is not an automatic Lyapunov function
+that damps the rescaled field.
 
 This is the second obstruction:
 
