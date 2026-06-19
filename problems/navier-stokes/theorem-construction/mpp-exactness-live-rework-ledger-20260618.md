@@ -14978,3 +14978,48 @@ residue search over the no-escape note and `source-frontier.yaml` finds no
 remaining `\lesssim`, old `After minimal donor-chain reduction`, `reasonable
 coercive estimate`, or `Desired bridge:` wording on this slice, and `git diff
 --check -- problems/navier-stokes` passes.
+
+## Dehn-Twist Topological Drift Exactness Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-dehn-twist-topological-drift-attempt-20260618.md` said the
+complete annular readout "should include" a topological component and the Door 1
+paired-trace package "should include" a monodromy readout.  Its fixed-collar
+twist estimates used `\gtrsim` and `\lesssim` rather than named constants.
+
+Exact replacement:
+
+The note now says that the annular readout has proof force against Dehn-twist
+drift only after it includes either the integer twist readout
+`Tw_ann(Z) in Z` or the twist-action term `A_tw(Z)`.  On a fixed collar the
+action satisfies
+
+```text
+c_tw k^2/L <= A_tw <= C_tw k^2/L,
+|Tw_ann(Z)|^2 <= C_tw' Mod(A) A_tw(Z),
+```
+
+with constants depending only on the fixed collar normalization, annular marking,
+and connection norm.  The Door 1 paired-trace package now has the exact child
+`DonorEdgeMonodromyReadout.A`.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-dehn-twist-topological-drift-attempt-20260618.md`.
+
+Downstream consequence:
+
+Dehn-twist drift remains a discrete/topological visibility channel inside
+`MinimalZenoTraceNoEscape.A`; it is not a standalone closure theorem.  A nonzero
+twist is charged only through `AnnularMarkingCompactness.A`,
+`BoundedModulusOrCollarCharge.A`, `AnnularTwistActionLedger.A`, and
+`DonorEdgeMonodromyReadout.A`.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` already records that Dehn twists contribute as a discrete
+annular mapping-class drift channel, not a direct PDE closure.  A fixed-string
+residue search over the repaired Dehn-twist note and `source-frontier.yaml` finds
+no remaining `should`, `\lesssim`, or `\gtrsim` shortcut on this slice, and
+`git diff --check -- problems/navier-stokes` passes.
