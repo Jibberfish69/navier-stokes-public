@@ -9510,7 +9510,8 @@ That wording conflicted with the earlier Part-closedness repair, which exposed
 `response-margin-collapse` as a genuine Part-side endpoint subface unless the
 terminal Part predicate is closed or the strict response margins are retained.
 The same old package was repeated in the full bridge ledger, receiver/certificate
-map, receiver-side route note, route table, and `live-theorem-edge.yaml`.
+map, receiver-side route note, route table, `live-theorem-edge.yaml`, and the
+dependency-referenced terminal class-membership / `PCTP.cond` note.
 
 Exact replacement:
 
@@ -9569,12 +9570,22 @@ downstream use must carry `END.PartMargin`, or explicitly restrict to the branch
 where closed terminal Part predicates or retained strict margins have already
 removed the response-margin subface.
 
+The terminal `PCTP.cond` note now also separates the two steps: repaired
+`End_NS` excludes finite class exit only with `END.PartMargin`, while the
+periodic relaunch still requires the same-branch continuation readout
+\[
+M_s:=\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty,
+\qquad s>5/2,
+\]
+which gives a local lifespan \(\tau=\tau(\nu,s,M_s)>0\).
+
 Surfaces edited:
 
 - `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`;
 - `theorem-construction/mpp-class-membership-full-bridge-ledger-note.md`;
 - `theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md`;
 - `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`;
+- `theorem-construction/mcp-terminal-class-membership-chain-and-pctp-cond-application-ecq-a-750c75df52.md`;
 - `ns-proof-program-route-table.md`;
 - `live-theorem-edge.yaml`.
 
