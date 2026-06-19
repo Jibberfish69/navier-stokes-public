@@ -62,4 +62,4 @@ Resolution: the final theorem is explicitly periodic on `T^3`. A whole-space `R^
 
 ## Verdict
 
-The standard referee objections are resolved by named surfaces and the final dependency order.
+The referee objections are resolved by named surfaces and the final dependency order.
