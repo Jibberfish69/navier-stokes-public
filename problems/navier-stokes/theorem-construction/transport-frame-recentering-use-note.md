@@ -22,7 +22,7 @@ deformation-geometry route.
 
 So this idea has real use, but only in two precise places.
 
-## 1. Immediate classical use: compress the tower into one transport defect
+## 1. Direct classical use: compress the tower into one transport defect
 
 For the spatial tower,
 

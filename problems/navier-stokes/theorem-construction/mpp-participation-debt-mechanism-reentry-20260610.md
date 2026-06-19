@@ -422,7 +422,7 @@ These surfaces show that the work has narrowed the obstruction. They also show
 why the next pass cannot be another ungoverned terminal anti-atom attempt. The
 missing thing is a unified payment / clock / ontology mechanism.
 
-## Immediate Governed Work Packet
+## Current Governed Work Packet
 
 The next theorem work must be split by mechanism, not by another leaf label.
 

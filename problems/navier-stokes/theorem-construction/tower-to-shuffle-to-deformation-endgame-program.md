@@ -31,7 +31,7 @@ The route is:
 This is not a proof.
 It is the strongest current equation-level program with honest obstructions.
 
-## Immediate verdict
+## Current verdict
 
 The route does **not** say:
 

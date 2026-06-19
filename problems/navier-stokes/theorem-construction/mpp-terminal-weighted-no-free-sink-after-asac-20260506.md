@@ -270,7 +270,7 @@ the normalized source lower bound on the selected branch.  Hence every selected
 edge is paid by legal loss or `o_N(1)`.  Summing over the bounded-overlap
 terminal family gives `(TWNFS.2)`.
 
-## 6. Immediate closure consequence
+## 6. Direct closure consequence
 
 Combining this theorem with
 `mpp-nearband-material-source-after-asac-reduction-20260506.md` gives:

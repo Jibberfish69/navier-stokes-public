@@ -86,7 +86,7 @@ SourcePulseFieldExit.A:
 Meaning: the pulse cannot remain one smooth neighboring velocity-pressure field
 at any uniform positive coherence scale. This is the one-field fracture face.
 
-## Immediate Reduction
+## Direct Reduction
 
 Any one of the three faces closes the source-pulse branch theorem:
 

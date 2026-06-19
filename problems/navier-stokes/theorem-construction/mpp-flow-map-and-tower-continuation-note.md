@@ -107,7 +107,7 @@ M_s(t):=\|u(t)\|_{H^s_x}.
 \tag{FC.6}
 ```
 
-## Forced Calibration: Immediate Global Readjustment
+## Forced Calibration: Global Readjustment
 
 The Clay target is the unforced problem after `t=0`, but the class-membership
 discussion in the current chat also asked for the following calibration
