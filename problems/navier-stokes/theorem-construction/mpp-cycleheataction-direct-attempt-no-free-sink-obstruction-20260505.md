@@ -192,7 +192,7 @@ exchange paths and are not forced through heat action.
 
 ## Corrected Theorem Interface
 
-The signed parabolic-current route should be restated as:
+The signed parabolic-current route is restated as:
 
 ```math
 LocalizedSkewCurrent.A
