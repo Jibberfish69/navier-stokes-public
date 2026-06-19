@@ -11362,3 +11362,54 @@ The targeted scan finds no remaining `expected coercive`, `usual local`, or
 `standard local` phrase in the synced forward-gold branch.  It finds the
 replacement phrases `F_{nl/pr}`, `Holder/CZ`, and `tau E_I^3`.  `git diff
 --check` passes on the edited surfaces.
+
+## Moving-Cylinder CKN Chain-Rule Exactness Rework
+
+Old claim being spent:
+
+The moving-cylinder CKN admissibility note and its appendix mirror said the
+chain rule produced bounded frame coefficients and the "expected powers" of
+the cylinder radius.  A nearby affine-cutoff appendix passage said transported
+cutoff derivatives produced bounded distortion factors and the "expected
+powers" of \(R\).
+
+Exact replacement:
+
+The theorem note and appendix now display the affine pullback chain rule.  With
+\(X(t)=\Phi(a_0,t)\) and \(y=A(t)^{-1}(x-X(t))/r\),
+\[
+\nabla_x\varphi=r^{-1}A(t)^{-T}\nabla_y\phi,
+\]
+\[
+\Delta_x\varphi
+=r^{-2}\operatorname{tr}\!\left(A(t)^{-1}A(t)^{-T}D_y^2\phi\right),
+\]
+and
+\[
+\partial_t\varphi
+=r^{-2}\partial_s\phi+
+\left[-A(t)^{-1}\dot A(t)y-r^{-1}A(t)^{-1}\dot X(t)\right]\cdot\nabla_y\phi.
+\]
+The affine-cutoff appendix passage now displays the corresponding
+\(R^{-1}A_R^{-T}\nabla\chi\), \(R^{-2}\operatorname{tr}(A_R^{-1}A_R^{-T}D^2\chi)\),
+and frame/center-velocity terms.
+
+Proof or downstream consequence:
+
+The CKN-admissibility step may spend only these displayed radius factors,
+metric coefficients, frame-velocity terms, and center-velocity terms.  The
+local CKN invocation remains conditional on the explicit threshold
+\(C_M\,SCF_{base}(Q_r^\Phi)\le\varepsilon_{CKN}\), and the moving-frame terms
+must be included in the normalized \(SCF_{base}\) record.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-moving-cylinder-ckn-admissibility-lemma-f2a546e26f.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected powers` or `standard normalized
+CKN` hit on the edited moving-cylinder CKN path.  It finds the replacement
+chain-rule factors and the `normalized CKN epsilon-regularity smallness`
+sentence.  `git diff --check` passes on the edited theorem note and appendix.
