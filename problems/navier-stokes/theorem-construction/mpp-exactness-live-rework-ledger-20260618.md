@@ -14170,3 +14170,39 @@ window/no-profile/no-scale-estimate meaning.  The remaining `same-scale
 intuition` hit is an active-height audit sentence rejecting that intuition as
 authority.  `git diff --check` passed on the edited same-scale note and this
 ledger.
+
+## Generic-Theorem/Witness Wording Rework
+
+Old claim being spent:
+
+Several live/support theorem notes still used broad `generic` language while
+stating what cannot be promoted: `generic support`, `generic theorem`, `generic
+theorem family`, `generic bridge packet`, and `generic witness bundle`.
+
+Exact replacement:
+
+The row audit now says unlocalized support.  The Pack/Part demotion support note
+now says unrowed theorem.  The theorem-creation testdrive now says broad theorem
+family and broad bridge packet.  The shared-participation and primitive class-law
+notes now say unspecified witness bundle.  The Liouville external audit now says
+unlicensed theorem.
+
+Proof or downstream consequence:
+
+The affected notes now distinguish concrete row mechanisms, licensed theorem
+imports, and route-faithful primitive laws from broad witness-bundle or generic
+theorem substitutes.  The Pack/Part demotion support note remains support
+evidence; it is not counted as live proof repair by itself.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-finite-terminal-obstruction-inventory-row-audit-20260605.md`.
+- `theorem-construction/mpp-generic-pack-part-face-exclusion-blocker-demotion-20260607.md`.
+- `theorem-construction/mpp-theorem-creation-testdrive-20260506.md`.
+- `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`.
+- `theorem-construction/mpp-terminal-defect-liouville-external-audit-20260505.md`.
+- `theorem-construction/mpp-primitive-class-laws-note.md`.
+
+Second downstream pass and validation:
+
+Pending targeted generic-theorem/witness scan and `git diff --check`.
