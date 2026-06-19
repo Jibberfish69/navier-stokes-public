@@ -106,6 +106,100 @@ local energy identity controls the paired fixed test.  It does not give a
 uniform terminal modulus for this moving family unless an additional
 scale-critical reserve is supplied.
 
+## Heat-scale scaling obstruction
+
+The sequence obstruction above is not merely an arbitrary measure pathology.
+It matches the heat-scale Navier--Stokes scaling.
+
+On a packet
+
+```math
+Q_j=B_{r_j}(x_j)\times(T_j-r_j^2,T_j],
+\qquad
+r_j\downarrow0,
+\tag{TLEFT.1}
+```
+
+use normalized variables
+
+```math
+x=x_j+r_jy,
+\qquad
+t=T_j+r_j^2s,
+\qquad
+u(t,x)=r_j^{-1}v_j(s,y),
+\qquad
+p(t,x)=r_j^{-2}q_j(s,y).
+\tag{TLEFT.2}
+```
+
+Every term in the local-energy balance has physical spacetime mass weighted by
+one radius.  For example,
+
+```math
+\int_{Q_j}\nu|\nabla_xu|^2\,dxdt
+=
+r_j
+\int_{-1}^{0}\int_{B_1}\nu|\nabla_yv_j|^2\,dyds,
+\tag{TLEFT.3}
+```
+
+and the moving-cutoff flux terms have the same radius weight after
+\(|\nabla\phi_j|\sim r_j^{-1}\) and \(|\Delta\phi_j|\sim r_j^{-2}\) are included.
+
+Thus finite physical local-energy defect can control at most a weighted sum
+
+```math
+\sum_j r_j\,M_j^{ren},
+\tag{TLEFT.4}
+```
+
+where \(M_j^{ren}\) is the normalized local-energy defect or flux mass on the
+rescaled packet.  It does not control the unweighted sum
+
+```math
+\sum_j M_j^{ren}.
+\tag{TLEFT.5}
+```
+
+The terminal atom model can be put directly into this normalized currency:
+
+```math
+a_j(s)=\theta_j^{-1}\mathbf 1_{(-\theta_j,0]}(s),
+\qquad
+\theta_j\downarrow0,
+\qquad
+\int_{-1}^{0}a_j(s)\,ds=1.
+\tag{TLEFT.6}
+```
+
+The corresponding physical local-energy defect mass on \(Q_j\) is only
+order \(r_j\):
+
+```math
+\mu_{LE}^{phys}(Q_j)
+\simeq
+r_j\int_{-1}^{0}a_j(s)\,ds
+=r_j.
+\tag{TLEFT.7}
+```
+
+For \(r_j=2^{-j}\),
+
+```math
+\sum_j\mu_{LE}^{phys}(Q_j)<\infty,
+\qquad
+\lim_{\varepsilon\downarrow0}\limsup_j
+\int_{-\varepsilon}^{0}a_j(s)\,ds
+=1.
+\tag{TLEFT.8}
+```
+
+So finite physical local-energy defect is compatible with an order-one
+normalized terminal atom on infinitely many shrinking heat packets.  The
+missing theorem is precisely the removal of the radius weight in `(TLEFT.4)`,
+or an equivalent terminal strip modulus in normalized variables.
+
 ## Dissipation test
 
 The positive dissipation part
