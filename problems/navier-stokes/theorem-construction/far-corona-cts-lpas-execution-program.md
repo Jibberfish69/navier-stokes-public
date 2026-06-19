@@ -477,6 +477,42 @@ reserve.  The reverse implication is not available because `(FBE)` sees the
 square reserve only through the lower-band multiplier
 `\sum_{m\in\mathcal B_I(N)}E_m`.
 
+The pass-or-exit bridge
+`mpp-forward-gold-fbe-source-square-pass-or-cm-exit-20260619.md` fixes the
+failure-side reading.  Once the fixed-band endpoint survivor has been dominated
+by the native source-square reserve, the endpoint branch has only two lawful
+continuations:
+
+```math
+\text{SourceSquareReserve.A}
+\Longrightarrow
+\text{FBE/EP/AQK endpoint pass},
+```
+
+or, on the selected failure branch after legal losses, readout exits, and
+non-selected alternatives have been removed,
+
+```math
+\neg_{\mathrm{sel}}\text{SourceSquareReserve.A}
+\Longrightarrow
+\neg Pack_Q
+\vee
+\neg Part_{N,Q}
+\vee
+\forall r>0\,\neg Field_{N,r,Q}.
+```
+
+In particular, a terminal zero-radius endpoint is Pack-first by the Zeno
+correction:
+
+```math
+r_*=0\Longrightarrow\neg Pack_Q.
+```
+
+So the fixed-band endpoint is no longer carried as a separate live obstruction.
+It is either supplied by the source-square reserve or sorted by the installed CM
+face hierarchy.
+
 There is also a sharper local reduction on the fixed-collar route. The direct
 shell-pair commutator test in
 `far-corona-carleson-direct-attack.md`
