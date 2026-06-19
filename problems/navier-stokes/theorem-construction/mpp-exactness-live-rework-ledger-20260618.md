@@ -11924,6 +11924,13 @@ Surfaces edited:
 
 - `theorem-construction/mcp-aact-kx-local-averaged-budget-audit.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected powers` hit in the edited AACT
+budget note.  It finds the replacement transported-cutoff identities and the
+`V_R` distortion-ledger hypothesis.  `git diff --check` passed on the edited
+note and this ledger.
+
 ## SCF Pressure Gauge Normalization Rework
 
 Old claim being spent:
@@ -11956,6 +11963,13 @@ frame-coefficient ledger.
 Surfaces edited:
 
 - `theorem-construction/mcp-exact-scf-pressure-normalization-lemma-58be40c549.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual CKN pressure gauge` hit in the
+edited SCF pressure-normalization note.  It finds the replacement
+spatial-slice pressure gauge definition.  `git diff --check` passed on the
+edited note and this ledger.
 
 ## Lagrangian Stokes Divergence-Repair Interface Rework
 
@@ -11992,6 +12006,13 @@ Surfaces edited:
 
 - `theorem-construction/lagrangian-stokes-bridge-program.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected to enter` hit in the edited
+Lagrangian-Stokes bridge note.  It finds the replacement divergence-repair
+theorem sentence tied to `(7u)`.  `git diff --check` passed on the edited note
+and this ledger.
+
 ## AdjBessel Residual-Gate Rework
 
 Old claim being spent:
@@ -12021,3 +12042,10 @@ authority.
 Surfaces edited:
 
 - `theorem-construction/mpp-adjbessel-strain-gauge-packet-calculus-note-20260504.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected to be mostly` or proof-facing
+`ResidualPair.A` spend in the edited AdjBessel note.  It finds the replacement
+`WeightedAdjRes.A` residual gate and combined iteration statement.  `git diff
+--check` passed on the edited note and this ledger.
