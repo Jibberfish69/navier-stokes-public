@@ -130,6 +130,57 @@ counter-shape.  Replacing `u` by `-u` reverses the sign of
 `\nu\int\chi|\nabla u|^2` unchanged.  Therefore no sign-definite monotone
 inequality can follow from projection/localization alone.
 
+There is also a pure amplitude obstruction to any absorption statement whose
+right side contains only viscosity plus legal terms that are no stronger than
+quadratic/energy-size.  Choose a smooth divergence-free collar profile \(U\)
+with
+
+```math
+c_U:=
+\frac12\int |U|^2U\cdot\nabla\chi\,dy
+\neq0,
+\qquad
+d_U:=\int\chi|\nabla U|^2\,dy<\infty.
+\tag{PLC.1}
+```
+
+For \(u_{\lambda,r}(x)=\lambda r^{-1}U((x-x_0)/r)\),
+
+```math
+\frac12\int |u_{\lambda,r}|^2u_{\lambda,r}\cdot\nabla\chi_r\,dx
+=
+\lambda^3r^{-1}c_U,
+\tag{PLC.2}
+```
+
+while
+
+```math
+\nu\int\chi_r|\nabla u_{\lambda,r}|^2\,dx
+=
+\nu\lambda^2r^{-1}d_U.
+\tag{PLC.3}
+```
+
+After replacing \(U\) by \(-U\) if needed, the positive collar flux grows like
+\(\lambda^3\) while the viscous term grows like \(\lambda^2\).  Hence an
+estimate of the form
+
+```math
+\left[
+\frac12\int |u|^2u\cdot\nabla\chi
+\right]_+
+\le
+\varepsilon\nu\int\chi|\nabla u|^2
++Legal(u)
+\tag{PLC.4}
+```
+
+is false uniformly unless \(Legal(u)\) contains an unweighted cubic/action
+reserve of the same size, or the theorem assumes a separate smallness,
+residence, or no-incoming hypothesis.  This is the exact reason the corrected
+target must carry an explicit reserve instead of a bare commutator absorption.
+
 ## Leray Commutator Test
 
 The projection commutator has the form
