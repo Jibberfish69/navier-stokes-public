@@ -15512,6 +15512,52 @@ and `current-route-dependency-graph.yaml` finds no remaining `should`,
 `same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
 `git diff --check` passes for the edited note.
 
+## Heat-Dwell BV Sampling Theorem Repair
+
+Old claim being spent:
+
+`mpp-heatdwell-sampling-direct-attempt-and-bv-correction-20260506.md` said the
+scalar lemma was "elementary" and "should be treated as installed," that the
+corrected theorem "should be" `HeatDwellSampling.BV`, that the deformation-frame
+statement "should be" a transported-frame theorem, that same-fluid expressions
+"should be read" with `D_t`, and that the previous route "should be sharpened."
+
+Exact replacement:
+
+The scalar lemma is now stated as the BV sampling inequality installed by the
+note after packet-variable identification:
+
+```text
+int_W e(t)[sigma(t)]_+ dt
+ <= E [int_W sigma(t) dt]_+ + E tau Var_W(sigma).
+```
+
+The corrected packet theorem is `HeatDwellSampling.BV`; the deformation-gradient
+/ transported-frame statement is the required theorem; same-fluid trajectories
+use `D_t` plus the packet transport commutator; and the old
+`HeatDwellSampling.A + NetPackSpend.A` route is sharpened to the displayed packet
+including `LowStrainBVCharge.A`, `ParabolicBurstInheritance.A`, and
+`ResidueEvacuationWithoutSquareSource.A`.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-heatdwell-sampling-direct-attempt-and-bv-correction-20260506.md`.
+
+Downstream consequence:
+
+The height-flux route no longer spends "elementary" scalar sampling or an
+informal transported-frame reading.  It must pay the BV variation term and the
+same-fluid transported-frame commutator before `ActiveHeightFluxTrichotomy.A`
+can feed `HeightFluxControl.A`.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the heat-dwell note, the height-flux
+architecture note, and `source-frontier.yaml` finds no remaining `should`,
+`elementary`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
+`same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
+`git diff --check` passes for the edited note.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
