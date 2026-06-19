@@ -8,7 +8,7 @@ Route B surface.
 Its job is to record, on the same Euclidean theorem surface as Propositions
 4.1, 5.1, and 6.1, how the Euclidean gradient-transfer bridge is intended to
 recertify the dangerous-scale barrier rather than merely bounding a downstream
-continuation norm. Under the stricter audit standard, this note remains a
+continuation norm. Under the stricter audit requirement, this note remains a
 compressed proof packet until its imported reductions are fully audited inside
 the manuscript.
 

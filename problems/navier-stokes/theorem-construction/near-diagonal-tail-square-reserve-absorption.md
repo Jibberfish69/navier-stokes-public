@@ -50,7 +50,10 @@ for every `t` in the classical interval, and hence
 
 ## Proof
 
-For `|j-k|\le C_0`, the dyadic factors are comparable. Using the energy bound on the `k` shell,
+For `|j-k|\le C_0`, the exact band inequality is
+`2^{-C_0}2^k <= 2^j <= 2^{C_0}2^k`. Thus every dyadic factor in the diagonal
+band is bounded by an explicit `C_0`-dependent multiple of the corresponding
+`k`-shell factor. Using the energy bound on the `k` shell,
 
 ```math
 E_k(t)=2^{2k}\|\Delta_k u(t)\|_2^2

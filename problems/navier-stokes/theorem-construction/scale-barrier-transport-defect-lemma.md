@@ -143,5 +143,5 @@ mesoscopic stress-strain flux recorded in
 ## Honest Boundary
 
 This lemma no longer hides a route-selection ambiguity, but under the stricter
-audit standard its pure high-high remainder still belongs to the open
+audit requirement its pure high-high remainder still belongs to the open
 proof-critical packet stack on the classical surface.

@@ -78,7 +78,7 @@ Choose `N_*` so that `C' 2^{-N} C_E^{1/2} \le \eta\nu/2` for all `N \ge N_*`. In
 ## Consequence
 
 This lemma supplies the intended cubic-tail coefficient-margin mechanism on the
-classical equation. Under the stricter audit standard, however, the scale-side
+classical equation. Under the stricter audit requirement, however, the scale-side
 bridge does not yet count as fully discharged until the packet reductions are
 expanded line by line and audited inside the live theorem surface.
 

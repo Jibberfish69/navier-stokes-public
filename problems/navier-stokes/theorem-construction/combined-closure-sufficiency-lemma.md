@@ -292,7 +292,7 @@ audited. The same-surface carrier for that promotion is recorded in
 ## Honest Boundary
 
 The theorem text is explicit in the promoted Euclidean notation, but under the
-stricter audit standard it does not yet count as fully discharged.
+stricter audit requirement it does not yet count as fully discharged.
 
 The remaining work is no longer route selection. The local Route B packet now
 has:

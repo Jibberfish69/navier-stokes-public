@@ -374,7 +374,7 @@ anisotropic Stokes system
 \nabla_z\cdot(A(s)w)=0,
 ```
 
-not for the scalar heat surrogate or for the standard Euclidean divergence
+not for the scalar heat surrogate or for the unweighted Euclidean divergence
 constraint.
 
 Therefore the sharpened target is:

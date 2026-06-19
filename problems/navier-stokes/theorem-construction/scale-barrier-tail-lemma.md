@@ -225,7 +225,7 @@ prove that coefficient bound.
 ## Honest Boundary
 
 This lemma remains a theorem-construction target on the fixed classical
-Euclidean surface. Under the stricter audit standard, the remaining live burdens
+Euclidean surface. Under the stricter audit requirement, the remaining live burdens
 are proposition-level packet alignment, the coupled lifted-band flux theorem
 `(L-Flux)` from `scale-lifted-band-stress-strain-flux-repair.md`, and the
 tail-compatible Gronwall coefficient bound displayed in the lemma statement.

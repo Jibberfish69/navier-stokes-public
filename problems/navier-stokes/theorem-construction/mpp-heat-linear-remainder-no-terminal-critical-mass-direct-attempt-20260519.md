@@ -45,15 +45,23 @@ Assume the terminal critical `L^3` concentration is carried by the linear part:
 \ge c_0>0.
 ```
 
-The heat kernel at time depth comparable to `\ell_m^2` is concentrated on a
-spatial parent ball of radius `C\ell_m`. Splitting the kernel into the
-same-ledger parent and its complement gives two alternatives.
+Choose fixed constants `0<c_h<C_h<infty` and
+`s_m in [t_m-C_h\ell_m^2,t_m-c_h\ell_m^2]`. Split the heat kernel into
+`B_{C_par\ell_m}(x_m)` and its complement. Since
+`t_m-s_m in [c_h\ell_m^2,C_h\ell_m^2]`, the Gaussian tail satisfies
+```math
+\int_{\mathbb R^3\setminus B_{C_{par}\ell_m}(x_m)}
+G_\nu(t_m-s_m,x_m-y)\,dy
+\le A_h e^{-a_h C_{par}^2},
+```
+with constants `A_h,a_h>0` depending only on `c_h,C_h,\nu`. Splitting the
+kernel into this same-ledger parent and its complement gives two alternatives.
 
 If the parent contribution dominates, local `L^3` contraction and the parabolic
 maximal inequality force an earlier slice `s_m<t_m-c\ell_m^2` with
 
 ```math
-\int_{B_{C\ell_m}(x_m)}|u_m(s_m)|^3\,dx
+\int_{B_{C_{par}\ell_m}(x_m)}|u_m(s_m)|^3\,dx
 \ge c_1>0.
 ```
 

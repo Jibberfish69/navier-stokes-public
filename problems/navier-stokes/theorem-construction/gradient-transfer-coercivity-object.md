@@ -51,7 +51,7 @@ same admissible reduction chain recorded in the live Route B theorem stack:
 strict low-mode reduction, spill reduction, genuine high-high isolation, and
 cubic-tail absorption.
 
-Under the stricter audit standard, that chain should be read as the active
+Under the stricter audit requirement, that chain should be read as the active
 packet target, not as a fully discharged proposition-level estimate. The
 strict low-mode gate and the repaired high-side packet propagation remain live
 burdens on this surface. More precisely, the exact gradient-side strict

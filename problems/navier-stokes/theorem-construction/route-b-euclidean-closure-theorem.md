@@ -125,7 +125,7 @@ This is the exact coefficient used by the live Euclidean route. No
 The fixed-cutoff admissibility proof is isolated explicitly in
 [classical-low-mode-coefficient-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-low-mode-coefficient-lemma.md).
 
-Under the stricter audit standard, this is the fixed-cutoff coefficient input.
+Under the stricter audit requirement, this is the fixed-cutoff coefficient input.
 On the local `4 -> 1` surface, the same coefficient is sufficient because the
 tail-energy recertification keeps the coercive damping
 `Q_N \ge c_Q2^{2N}T_N`, and that `2^{2N}` term dominates the `2^{3N/2}`
