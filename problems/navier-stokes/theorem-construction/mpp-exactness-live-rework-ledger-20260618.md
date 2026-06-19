@@ -10798,3 +10798,33 @@ discharge`, or `formal coherent/remainder package` hit in the edited D.2
 surfaces.  The positive scan finds `conditional-object-d2-carrier`,
 `conditional D.2 discharge`, and `exact coherent/remainder split`.  `git diff
 --check` passes on both edited surfaces.
+
+## D.5 Ontic Composition Downstream Rework
+
+Old claim being spent:
+
+After the ontic package repair, the D.5 Clay theorem integration note still
+called the sequence "ontic theorem first, exact lift second, classical theorem
+as corollary third" the sharpest formal composition.
+
+Exact replacement:
+
+D.5 now calls that sequence the sharpest conditional composition supported by
+the live lane.
+
+Proof or downstream consequence:
+
+The D.5 integration route may be spent only after D.1--D.4, exact lift, and the
+D.2 bounded-energy consequence are available on the same chain.  It is not an
+unconditional formal composition.
+
+Surfaces edited:
+
+- `theorem-construction/d5-clay-theorem-integration.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `sharpest formal composition` hit in D.5
+or the appendix copy.  The appendix already states the same-chain conditional
+availability of D.1--D.4 and exact lift.  `git diff --check` passes on the
+edited D.5 surface.
