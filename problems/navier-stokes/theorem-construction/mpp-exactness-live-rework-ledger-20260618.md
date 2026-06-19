@@ -13047,6 +13047,36 @@ submission appendix.  It finds the replacement operator
 `P=I-nabla Delta^{-1}div` and pressure Poisson recovery.  `git diff --check`
 passed on the edited notes, appendix, and this ledger.
 
+## Pack-Part-Field Overlap Rule Rework
+
+Old claim being spent:
+
+The triadicity audit note and the submission appendix said Pack/Part/Field
+"overlap is expected."
+
+Exact replacement:
+
+Both surfaces now state the exact rule: the witness axes are allowed to
+overlap.  A finite-time material distortion blow-up is Pack-facing because it
+breaks usable common packing coordinates, while its strain/tower cause must be
+checked against Field or the tower-amplitude slot; it breaks Part only under
+the weak carrier-law-only reading, not under terminal pressure-viscosity
+participation.
+
+Proof or downstream consequence:
+
+The CM classifier may spend the overlap statement as a typed witness-axis rule,
+not as a heuristic expectation or a fourth primitive failure family.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pack-part-field-triadicity-audit-note.md`.
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
