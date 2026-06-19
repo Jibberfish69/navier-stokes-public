@@ -10857,3 +10857,36 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formal package file sharpens` hit in D.1
 or the appendix copy.  The positive scan finds `conditional ontic package`, and
 `git diff --check` passes on the edited D.1 surface.
+
+## Exact-Potential Residual Packaging Rework
+
+Old claim being spent:
+
+The exact-potential residual pairwise closure note called the move to `RPC.3`
+"the same formal step," and the exact-segment transport note said `(LPMR.22)`
+and `(LPMC.26)` are "formal" once the suppliers hold.
+
+Exact replacement:
+
+`RPC.3` is now described as the same conditional integration step after the
+directional ledger is written in the required form.  `(LPMR.22)` and
+`(LPMC.26)` are now described as conditional packaging consequences after the
+listed suppliers hold.
+
+Proof or downstream consequence:
+
+The exact-potential branch may spend these steps only under the displayed
+supplier hypotheses on the active strip.  The packaging steps are no longer
+advertised as generic formal consequences.
+
+Surfaces edited:
+
+- `theorem-construction/exact-potential-residual-pairwise-closure.md`;
+- `theorem-construction/exact-segment-transport-collapses-pair-projector-error.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `same formal step` or `(LPMR.22) ... are
+formal` hit in the edited exact-potential source notes or appendix copy.  The
+positive scan finds `conditional integration step` and `conditional packaging
+consequences`, and `git diff --check` passes on both edited surfaces.
