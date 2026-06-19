@@ -73,7 +73,7 @@ This cubic-tail form is the intended input for the coefficient-margin estimate i
 ## Honest Boundary
 
 This object remains part of the proof-critical packet stack on the classical
-theorem surface. Under the stricter audit standard it does not yet count as
+theorem surface. Under the stricter audit requirement it does not yet count as
 fully discharged merely because the downstream cubic-tail coefficient lemma has
 been isolated. The separate lifted high-side remainder left over after the
 threshold-local spill collar is separated is not part of this packet.
