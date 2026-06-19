@@ -44,8 +44,13 @@ There is no distributional solution of
 \tag{PF.3}
 ```
 
-in a ball containing `0`, with `U\in H^1_{\rm loc}` through the origin and the
-usual local suitable pressure integrability, unless
+in a ball containing `0`, with `U\in H^1_{\rm loc}` through the origin and
+
+```math
+P\in L^{3/2}_{\rm loc}(B),
+```
+
+unless
 
 ```math
 \Phi_0=0.
