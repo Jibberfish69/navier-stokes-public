@@ -15209,3 +15209,53 @@ renormalization notes finds no remaining `should`, `O(1)`, `\lesssim`,
 `\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
 `schematic` shortcut on this slice, and `git diff --check --
 problems/navier-stokes` passes.
+
+## Root Route-License Authority Language Repair
+
+Old claim being spent:
+
+Root proof-route surfaces used advisory `should` language where later theorem
+work depends on exact bridge-licensing rules:
+
+- `ns-proof-program-route-table.md` said CM-exit "should" get failure surfaces
+  by negating continuation packets, `ACT.A` "should" close three affine-center
+  quantities, and every route note "should" state its propagated object.
+- `projected-nc-flow-clay-frontier.md` said the D.2 wall "should now be read"
+  through the transport-law checkpoint.
+- `proof-source-pack.md` said the lane "should" read legacy NS proof sources
+  directly and "should" import V6/Marvin synthesis language.
+
+Exact replacement:
+
+The root route table now states the rule as an obligation: CM-exit failure
+surfaces come from negating the sufficient continuation packet; `ACT.A` has
+closure force only if one affine-center master packet closes `D_1^aff in L1(I)`,
+`F_ctr_res in L1(I)`, and `H_osc^alpha in L2(I)` together; and every route note,
+theorem packet, or proof obligation must state the propagated object and bridge
+theorem required before another program may use it as closure.
+
+The projected NC-flow frontier now reads D.2 through the transport-law checkpoint
+as the installed lane interpretation.  The proof-source pack now states that the
+lane reads direct proof from the legacy NS corpus and uses Marvin/V6 only as a
+verified synthesis-import family unless future direct NS-bearing files are
+verified and promoted.
+
+Surfaces edited:
+
+- `ns-proof-program-route-table.md`.
+- `projected-nc-flow-clay-frontier.md`.
+- `proof-source-pack.md`.
+
+Downstream consequence:
+
+These root surfaces no longer leave bridge import, route closure, or CM failure
+surface generation as discretionary wording.  Downstream proof notes must land
+their propagated object and bridge license before being spent as closure, and V6
+synthesis language remains subordinate to verified direct NS proof sources.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over these three root surfaces finds no remaining
+`should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`, `same order`,
+`typical`, `immediate`, or `schematic` shortcut on this slice, and
+`git diff --check` passes for the edited root files.
