@@ -13952,7 +13952,9 @@ proof-route claims: `generic witness bundle`, `generic shadow-remainder
 problem`, `external model`, `quantized-transfer model`, `This model is
 stronger`, `right model`, `compact spectral model`, `equality model`,
 `generic smoothness`, `superlinear model`, `native affine pressure model`, and
-`affine heat packet model`.
+`affine heat packet model`.  The second pass on the same primary packet slice
+also caught `generic lower-order dismissal`, `affine center model`,
+`fixed-thickness generic theorem`, and `generic blowup classification`.
 
 Exact replacement:
 
@@ -13962,7 +13964,9 @@ representation, quantized-transfer proposal, discrete transfer rule, literal
 relay template, compact spectral realization, equality case, the displayed
 route-native coefficient estimate `(CSP.25g2a)`, superlinear differential
 inequality, native affine pressure component, and affine heat packet
-realization.
+realization.  The second-pass corrections now say unnamed lower-order
+dismissal, affine center component, fixed-thickness theorem, and unspecified
+blowup classification.
 
 Proof or downstream consequence:
 
@@ -13982,6 +13986,8 @@ Surfaces edited:
 - `theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md`.
 - `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
 - `theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md`.
+- `theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md`.
+- `theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md`.
 
 Second downstream pass and validation:
 
