@@ -4,7 +4,7 @@ Date: 2026-06-19
 
 ## Status
 
-Direct \(L^p\)-factorization test complete.  Varying the spatial Hölder
+Direct \(L^p\)-factorization test complete.  Varying the spatial Holder
 exponent in the far-corona density does not remove the endpoint obstruction.
 Every such factorization leaves the same finite-band active endpoint factor
 near the lower edge of the far-corona:
@@ -99,7 +99,7 @@ dyadic exponent in \((\mathrm{FC\text{-}LP}.5)\) is
 -\frac12 .
 \]
 
-So every Hölder exponent leaves the same endpoint structure:
+So every Holder exponent leaves the same endpoint structure:
 
 \[
 2^{k-j}\mathcal A_{j,k}(t)
@@ -123,7 +123,7 @@ The direct factorization route
 \]
 
 cannot be closed from the inherited Euclidean energy surface by a different
-spatial Hölder choice.  Near the far-corona lower edge it still asks for control
+spatial Holder choice.  Near the far-corona lower edge it still asks for control
 of
 
 \[
