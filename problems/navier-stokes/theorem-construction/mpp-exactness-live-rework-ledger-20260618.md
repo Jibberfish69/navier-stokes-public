@@ -10954,3 +10954,32 @@ The targeted scan finds no remaining `formal assembly` hit in the edited
 pair-topslot source note or appendix copy.  The positive scan finds
 `conditional assembly from the two displayed supplier estimates`, and `git diff
 --check` passes on the edited source note.
+
+## D.6 Route-Order Bookkeeping Rework
+
+Old claim being spent:
+
+The D.6 global carrier a priori bound note said that after D.6 closes, `D.7`
+and `D.8` "follow formally."
+
+Exact replacement:
+
+The note now says `D.7` and `D.8` follow as bookkeeping consequences of the
+stated route order:
+`D.6b' -> D.6a'' -> D.6a' -> D.6 -> D.7 -> D.8`.
+
+Proof or downstream consequence:
+
+The lane may spend `D.7` and `D.8` only after the stated D.6 chain is proved.
+They are not generic formal consequences independent of that route order.
+
+Surfaces edited:
+
+- `theorem-construction/d6-global-carrier-a-priori-bound.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `D.7` / `D.8` `follow formally` hit in the
+edited D.6 note or appendix copy.  The positive source read shows
+`bookkeeping consequences of that stated route order`, and `git diff --check`
+passes on the edited D.6 surface.
