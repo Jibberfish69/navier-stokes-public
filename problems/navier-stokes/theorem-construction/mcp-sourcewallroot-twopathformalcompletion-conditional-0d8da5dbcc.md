@@ -1,8 +1,11 @@
-# SourceWallRoot.TwoPathFormalCompletion.Conditional
+# SourceWallRoot.TwoPathConditionalCompletion
 
 ## Status
 
-This note gives the formal two-path completion shape for the source-wall root after `SourceWall.Reconcile.A`.  It is a conditional local theorem/audit artifact.  It records the exact closure implications and the present open burdens.
+This note gives the conditional two-path completion shape for the source-wall
+root after `SourceWall.Reconcile.A`.  It is a conditional local theorem/audit
+artifact.  It records the exact closure implications and the present open
+burdens.
 
 ## Common objects
 
@@ -179,7 +182,7 @@ Failure of `(SW.1)` yields the positive-residue sequence `(Z.1)`.  The compactne
 
 The Zeno path currently has compactness extraction, yielding a candidate source-residue limit.  It lacks a produced rigid class `B` from the installed `OriginalSmoothData` and Zeno ancestry inputs.  Audited candidates fail to be produced: finite global ancient energy, Type I control, critical smallness, bounded ancient vorticity, self-similarity, two-dimensionality, axisymmetry, and source-cancellation class.  The class `B` and its residue Liouville theorem remain the open objects.
 
-## Combined formal endpoint
+## Combined conditional endpoint
 
 The two paths combine as
 
@@ -250,7 +253,7 @@ Thus the source-wall residue does source-side work only after it is synchronized
 
 ## Final local verdict
 
-The formal completion is exact:
+The conditional completion is exact:
 
 ```math
 ScaleCriticalTreeCarleson.A
