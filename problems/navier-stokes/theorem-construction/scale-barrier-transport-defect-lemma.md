@@ -10,7 +10,11 @@ This note isolates the exact remaining local debt inside the scale-barrier bridg
 
 ## Fixed Classical Surface
 
-Let `\{u^{(n)},p^{(n)}\}` be the same smooth divergence-free classical approximation family used throughout the Navier-Stokes lane, on `(0,T)\times\mathbb{R}^3`, with the standard Euclidean Leray projection and the admissible energy/enstrophy budget already recorded elsewhere in the route.
+Let `\{u^{(n)},p^{(n)}\}` be the same smooth divergence-free classical
+approximation family used throughout the Navier-Stokes lane, on
+`(0,T)\times\mathbb{R}^3`, with the Euclidean Leray projection
+`P=I-\nabla\Delta^{-1}\operatorname{div}` and the admissible energy/enstrophy
+budget already recorded elsewhere in the route.
 
 Let `\Delta_j := P_j` and `S_m := \sum_{k<m}\Delta_k`. Define the high-frequency tail and dissipation tail by
 
