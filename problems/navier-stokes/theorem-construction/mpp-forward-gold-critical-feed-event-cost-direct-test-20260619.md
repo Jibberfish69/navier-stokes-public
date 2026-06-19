@@ -13,12 +13,20 @@ bound.  This note checks the only surviving case:
 ```math
 r_j\downarrow0,
 \qquad
-|I_j|\sim r_j^2/\nu,
+\alpha_t {r_j^2\over\nu}\le |I_j|\le A_t {r_j^2\over\nu},
 \qquad
-\lambda_j^+\sim\nu r_j^{-2}
+\alpha_\lambda{\nu\over r_j^2}
+\le
+\lambda_j^+
+\le
+A_\lambda{\nu\over r_j^2}
 \quad\text{on }I_j.
 \tag{CFC.1}
 ```
+
+Here and below `alpha_t,A_t,alpha_lambda,A_lambda` are fixed positive constants
+independent of `j`.  Thus the calculation is a two-sided heat-scale
+comparability statement, not a pointwise profile assumption.
 
 The question is whether the participation/rate law itself forces a
 nonsummable bill over a Zeno sequence.
@@ -39,7 +47,7 @@ with
 
 ```math
 \Phi_j^+(t)
-\sim
+:=
 \int
 \left[
 \langle S_{<j}^{loc}w_j,w_j\rangle
@@ -62,19 +70,25 @@ A source-balanced critical feed event is exactly the case where this coefficient
 matches the viscous clock:
 
 ```math
-\lambda_j^+\sim\nu r_j^{-2}
+\alpha_\lambda{\nu\over r_j^2}
+\le
+\lambda_j^+
+\le
+A_\lambda{\nu\over r_j^2}
 \quad\text{for}\quad
-|I_j|\sim r_j^2/\nu.
+ \alpha_t {r_j^2\over\nu}\le |I_j|\le A_t {r_j^2\over\nu}.
 \tag{CFC.5}
 ```
 
-Then the accumulated normalized feed is order one:
+Then the accumulated normalized feed is bounded above and below by fixed
+positive constants:
 
 ```math
+\alpha_\lambda\alpha_t
+\le
 \int_{I_j}\lambda_j^+(t)\,dt
-\sim
-(\nu r_j^{-2})(r_j^2/\nu)
-\sim 1.
+\le
+A_\lambda A_t .
 \tag{CFC.6}
 ```
 
@@ -88,25 +102,34 @@ Assume the feed occupies a parabolic packet
 ```math
 Q_j=B_{r_j}(x_j)\times I_j,
 \qquad
-|Q_j|\sim r_j^3(r_j^2/\nu).
+\alpha_Q {r_j^5\over\nu}
+\le
+|Q_j|
+\le
+A_Q {r_j^5\over\nu}.
 \tag{CFC.7}
 ```
 
 On this packet, the strain size needed for `(CFC.5)` is
 
 ```math
-|S|\sim\nu r_j^{-2}.
+\alpha_S{\nu\over r_j^2}
+\le
+|S|
+\le
+A_S{\nu\over r_j^2}
+\quad\text{on the selected active subset.}
 \tag{CFC.8}
 ```
 
 The spacetime \(L^2\) strain bill is then
 
 ```math
+c_2\nu r_j
+\le
 \int_{Q_j}|S|^2\,dxdt
-\sim
-(\nu^2r_j^{-4})\,r_j^3\,{r_j^2\over\nu}
-=
-\nu r_j.
+\le
+C_2\nu r_j.
 \tag{CFC.9}
 ```
 
@@ -123,8 +146,8 @@ law only changes the fixed factor:
 
 ```math
 \nu\int_{Q_j}|S|^2\,dxdt
-\sim
-\nu^2 r_j.
+\le
+C_2\nu^2 r_j.
 \tag{CFC.11}
 ```
 
@@ -133,14 +156,14 @@ The bill still tends to zero and remains summable on a geometric cascade.
 ## 3. The critical exponent is \(5/2\)
 
 For a general spacetime strain exponent \(p\), the same critical feed event has
-cost
+two-sided cost
 
 ```math
+c_p\nu^{p-1}r_j^{5-2p}
+\le
 \int_{Q_j}|S|^p\,dxdt
-\sim
-(\nu r_j^{-2})^p\,r_j^3\,{r_j^2\over\nu}
-=
-\nu^{p-1}r_j^{5-2p}.
+\le
+C_p\nu^{p-1}r_j^{5-2p}.
 \tag{CFC.12}
 ```
 
@@ -156,7 +179,11 @@ p<5/2
 ```math
 p=5/2
 \quad\Longrightarrow\quad
-\int_{Q_j}|S|^{5/2}\sim\nu^{3/2},
+c_{5/2}\nu^{3/2}
+\le
+\int_{Q_j}|S|^{5/2}\,dxdt
+\le
+C_{5/2}\nu^{3/2},
 \tag{CFC.14}
 ```
 
@@ -189,18 +216,21 @@ The equivalent velocity critical currency is \(L^5_{t,x}\).  On the same packet,
 the critical velocity scale is
 
 ```math
-|u|\sim {\nu\over r_j}.
+\alpha_u{\nu\over r_j}
+\le |u|\le
+A_u{\nu\over r_j}
+\quad\text{on the selected active subset.}
 \tag{CFC.17}
 ```
 
 Then
 
 ```math
+c_u\nu^4
+\le
 \int_{Q_j}|u|^5\,dxdt
-\sim
-(\nu r_j^{-1})^5\,r_j^3\,{r_j^2\over\nu}
-=
-\nu^4.
+\le
+C_u\nu^4.
 \tag{CFC.18}
 ```
 
@@ -233,21 +263,21 @@ The trilinear source over \(Q_j\) is
 If \(w_j\) is a critical velocity packet, its physical kinetic energy is
 
 ```math
-E_j\sim \left({\nu\over r_j}\right)^2r_j^3
-=
-\nu^2 r_j.
+c_E\nu^2 r_j
+\le
+E_j
+\le
+C_E\nu^2 r_j.
 \tag{CFC.20}
 ```
 
-Then the physical source/dissipation amount over one heat window is also
-scale-small:
+Then the physical source/dissipation amount over one heat window is bounded by
+the same scale-small factor:
 
 ```math
 \mathcal T_j^+
-\sim
-(\nu r_j^{-2})(\nu^2r_j)(r_j^2/\nu)
-=
-\nu^2 r_j.
+\le
+A_\lambda A_t C_E\,\nu^2 r_j.
 \tag{CFC.21}
 ```
 
