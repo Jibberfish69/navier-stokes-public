@@ -154,6 +154,37 @@ producing and killing a minimal compact ancient terminal element.
 Each supplier is stronger than finite local energy and finite dissipation.  None
 is produced by fixed cutoffs, pressure ellipticity, or raw flux estimates.
 
+The source-square supplier now has an exact bridge to this theorem.  The note
+`mpp-forward-gold-source-square-to-moving-trace-modulus-20260619.md` proves:
+if the selected normalized source trace \(a_m(s)\) is dominated by the
+source-square density
+
+```math
+G_m(s)=r_m^{1/2}
+\sum_{\ell>k_m+4}D_\ell(T_m+r_m^2s),
+\qquad
+r_m=2^{-k_m},
+```
+
+plus legal residue with its own terminal strip modulus, and if
+
+```math
+\sup_m\int_{-1}^{0}G_m(s)^2\,ds<\infty,
+```
+
+then
+
+```math
+\int_{-\varepsilon}^{0}a_m(s)\,ds
+\le
+C\varepsilon^{1/2}+o_{\rm legal}(\varepsilon).
+```
+
+So `SourceSquareReserve.A` implies `TerminalMovingPacketTraceModulus.A` once
+the selected positive carrier is really the carrier controlled by the square
+reserve.  The remaining unpaid piece is that carrier-domination/saturation
+identification, not the Cauchy--Schwarz time-modulus step.
+
 ## Failure branch: pass-or-exit form
 
 Assume the moving-packet modulus fails after legal exits and finite donor
