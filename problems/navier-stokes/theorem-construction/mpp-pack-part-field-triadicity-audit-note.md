@@ -47,11 +47,12 @@ driven by the same differentiated Navier--Stokes carrier law.
 `Field` is the neighboring-coherence axis: those lawful local towers still
 read as one smooth field at positive scale.
 
-Consequently, overlap is expected. A finite-time material distortion blow-up
-is Pack-facing because it breaks usable common packing coordinates, while its
-analytic cause is the strain/tower channel and must be checked against
-`Field` or the tower-amplitude slot. It does not automatically break `Part`
-only when `Part` is read as the carrier-law-only clause.
+The witness axes are allowed to overlap.  A finite-time material distortion
+blow-up is Pack-facing because it breaks usable common packing coordinates,
+while its analytic cause is the strain/tower channel and must be checked
+against `Field` or the tower-amplitude slot.  It breaks `Part` only under the
+weak carrier-law-only reading, not under terminal pressure-viscosity
+participation.
 
 For terminal theorem use, the note distinguishes:
 
