@@ -10496,7 +10496,8 @@ The appendix states the exact replacement for the old intuition: a child active
 pulse is not handled by slogan; the usable theorem is the parent-measure
 statement with source recovery, parent lower density, same-fluid edge fidelity,
 summable loss, and charge alternative producing either finite charge or a
-lawful comparable same-fluid predecessor packet.
+lawful comparable same-fluid predecessor packet.  The pulse-ancestry reduction
+consumer now also refers to the exact definition of the missing parent object.
 
 Proof or downstream consequence:
 
@@ -10507,15 +10508,18 @@ finite charge, or pulse exclusion.
 Surfaces edited:
 
 - `theorem-construction/mpp-sourceparent-measure-formal-definition-note.md`;
+- `theorem-construction/mpp-source-no-pulse-pulse-ancestry-reduction-note.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `SourceParent.Measure Formal Definition`,
-`formally defined`, or `formal version of the old tower-transfer intuition` hit
-in the edited source note or appendix copy.  The positive scan finds
-`SourceParent.Measure Exact Definition`, `exactly defined`, and the exact
-replacement sentence.  `git diff --check` passes on both edited surfaces.
+`formally defined`, `formal definition of the missing parent object`, or
+`formal version of the old tower-transfer intuition` hit in the edited source,
+consumer, or appendix surfaces.  The positive scan finds `SourceParent.Measure
+Exact Definition`, `exactly defined`, `exact definition of the missing parent
+object`, and the exact replacement sentence.  `git diff --check` passes on all
+edited surfaces.
 
 ## Persistent Weighted Quotient Route C Rework
 
