@@ -140,12 +140,16 @@ It reduces to one of the already-known pressure/source gates:
 \boxed{
 \text{PressureSourceParabolicMemory.A}
 \quad\text{or}\quad
-\text{PressureLobeSourceTether.A}
+\text{PressureLobeSourceTether.A plus terminal residence/source-square gain}
 \quad\text{or}\quad
 \text{FinitePacketLeraySourceAnchoring.A}.
 }
 \tag{PCC.10}
 ```
+
+The 2026-06-19 pressure-lobe tether test sharpens this point: tether alone is
+only a carrier-identification theorem.  It does not prevent the identified
+pressure/source carrier from charging the terminal time face.
 
 ## Consequence for the monotonicity route
 
