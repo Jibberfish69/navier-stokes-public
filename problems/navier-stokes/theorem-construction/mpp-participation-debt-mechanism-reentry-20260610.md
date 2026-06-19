@@ -52,20 +52,32 @@ fluid.
 
 ## Participation Law
 
-`Participation` means the combined same-fluid law:
+The participation law itself is narrower than the downstream debt language.
+The selected packet remains part of the same coupled fluid, so its motion is
+governed by the same pressure-viscosity-incompressibility-neighbor relation as
+the surrounding fluid.
 
-```text
-pressure coupling
-+ viscosity
-+ incompressibility
-+ neighbor coupling
-+ transport
-+ no private packet economy.
+In the route-native form, this is the shared carrier law
+
+```math
+D_tu=-\nabla p+\nu\Delta u,
+\qquad
+\nabla\cdot u=0.
+\tag{PDM.1}
 ```
 
-A packet is never allowed to become a private object. Its concentration must be
-paid for by the same fluid, through lawful transfer, while the same field is
-also dissipating, responding, and remaining coupled.
+At tower depth \(k\), it is
+
+```math
+D_tU_k=K_k+B_k,
+\qquad
+K_k=-\nabla^{k+1}p+\nu\Delta U_k.
+\tag{PDM.2}
+```
+
+The no-private-packet economy, lawful transfer/payment, donor drain,
+dissipation/return clock, and debt curves are consequences or readouts of this
+law.  They are not the law itself.
 
 ## Three Clocks
 
