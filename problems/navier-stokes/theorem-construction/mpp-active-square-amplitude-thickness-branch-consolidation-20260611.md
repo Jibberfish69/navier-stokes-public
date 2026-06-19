@@ -171,7 +171,7 @@ residual-tail bill.
 
 ## 5. Consolidated Forward-Positive Children
 
-The active-square branch should now be routed only through these mechanisms:
+The active-square branch is now routed only through these mechanisms:
 
 ```text
 SquareSourceEstimate.A
@@ -226,7 +226,7 @@ LPAS.
 
 The amplitude/thickness split is now consolidated.
 
-The loop should not spend another pass on:
+The loop does not spend another pass on:
 
 ```text
 active-shell amplitude normalization from energy,
