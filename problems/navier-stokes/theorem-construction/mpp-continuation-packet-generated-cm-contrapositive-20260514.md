@@ -116,8 +116,8 @@ the following missing CM slots:
 
 The `H^s` readout is a proof bridge from the CM witness package to the
 classical continuation norm. If that bridge is missing, the repo has a bridge
-gap. It is not a fourth CM failure face and should not steer the CM-exit
-calculus as a PDE failure type.
+gap. It is not a fourth CM failure face and does not steer the CM-exit calculus
+as a PDE failure type.
 
 ## Methodological Rule
 
