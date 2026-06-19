@@ -13075,7 +13075,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `overlap is expected` phrase in the edited
+triadicity note or submission appendix.  It finds the replacement witness-axis
+overlap rule.  `git diff --check` passed on the edited note, appendix, and this
+ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
