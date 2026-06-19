@@ -264,7 +264,8 @@ same-fluid packet data.
 
 ## Source And Endpoint Blocks
 
-The source line is formal once its channel theorems are accepted:
+The source line is a conditional implication once its channel theorems are
+accepted:
 
 ```math
 FPCR.C+FSCR.C+FCC.C1+FCC.C1a
@@ -276,8 +277,8 @@ FCI.5f.
 This does not erase the exact pressure wall beneath `FPCR.C`, nor does it allow
 post-`LCI.A` source shortcuts to masquerade as pre-receiver inputs.
 
-The endpoint line is formal once its certificates and analytic inputs are
-accepted:
+The endpoint line is a conditional implication once its certificates and
+analytic inputs are accepted:
 
 ```math
 END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound

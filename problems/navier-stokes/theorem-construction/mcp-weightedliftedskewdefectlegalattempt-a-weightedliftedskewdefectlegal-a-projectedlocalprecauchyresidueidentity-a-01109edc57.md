@@ -14,7 +14,9 @@ ProjectedStressTestCompatibility.A
 => ProjectedLocalPreCauchyResidueIdentity.A.
 ```
 
-The first two pieces are formal/geometric: choose the projected stress test and partition the terminal annular stress flux into bounded-overlap same-fluid active packets.
+The first two pieces are explicit geometric constructions: choose the projected
+stress test and partition the terminal annular stress flux into
+bounded-overlap same-fluid active packets.
 
 The live issue is the third piece:
 

@@ -4,7 +4,7 @@
 
 Conditional proof packet.
 
-## Formal closure
+## Conditional closure under the listed source estimates
 
 The requested terminal branch closes under the following source estimates:
 

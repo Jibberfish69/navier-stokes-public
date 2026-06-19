@@ -12,7 +12,8 @@
 
 ## Solved implication chain
 
-The formal implication chain is valid:
+The following implication chain is proved by the square-source, Holder, and
+weak-limit argument below:
 
 ```math
 HeatScaleSquareSource.A

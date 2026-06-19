@@ -14,7 +14,7 @@ BootSquare.
 
 ## Closed assembly
 
-The downstream assembly is formal once those three inputs are supplied:
+The downstream assembly is conditional on those three inputs:
 
 ```text
 BridgeA + DG-Line^sharp + BootSquare

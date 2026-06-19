@@ -234,7 +234,8 @@ C_{\alpha,\beta}\,C_G\,\rho_j\,2^{j(1-|\alpha|-|\beta|)}
 
 on the resonant shell `2^{j-1}\le|\xi|,|\eta|,|\xi+\eta|\le2^{j+1}`, where `\rho_j`
 is the exact resonant gain carried by the same-scale geometry. Once
-`(WERS.3R)` is proved, the pure resonant theorem follows formally.
+`(WERS.3R)` is proved, it supplies the shell-symbol estimate required by the
+pure resonant theorem.
 
 ### Null-factor sufficient mechanism
 

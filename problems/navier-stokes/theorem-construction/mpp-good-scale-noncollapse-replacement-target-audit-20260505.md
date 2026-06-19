@@ -374,7 +374,7 @@ inputs.
 
 ## Conditional Discharge From The Current Root Split
 
-The interface closes formally under either current root supplier.
+The interface has a conditional discharge under either current root supplier.
 
 ### Direct Carleson supplier
 
