@@ -569,10 +569,10 @@ has three advantages.
    a correlation operator or synchronized line field from `W_J`.
 
 What it does **not** do is remove the need for new geometry. The transport step
-is now supportable as `TCJ'`, and the projector-comparison step is formal once
-an observable symmetric surrogate is supplied via `PPCJ'`. The genuinely open
-theorem is still `PSJ`: recovering a synchronization observable from the
-signless packet itself.
+is now supportable as `TCJ'`, and the projector-comparison step is a
+conditional `PPCJ'` consequence once an observable symmetric surrogate is
+supplied. The genuinely open theorem is still `PSJ`: recovering a
+synchronization observable from the signless packet itself.
 
 ## Relation to external ideas
 
@@ -784,7 +784,7 @@ projector with `N_J(x,t)`, and suppose the concentration estimate `(PSJ+.6)`
 holds with an integrated budget absorbed into the strip ledger. Then the
 localized surrogate `\widetilde S_J` furnishes the observable symmetric
 surrogate required by `PPCJ'`, and the projective-surrogate side of the
-cycle-exact branch closes formally.
+cycle-exact branch closes conditionally through `PPCJ'`.
 
 **Proof.**
 By `PSJ+.1`, the surrogate exists and is measurable. By `PSJ+.2`, its top
