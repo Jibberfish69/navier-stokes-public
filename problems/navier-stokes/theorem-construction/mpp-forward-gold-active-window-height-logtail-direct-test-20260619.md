@@ -99,6 +99,37 @@ No independent logarithmic tail hypothesis is needed when
 `ActiveWindowHeight.A` is interpreted as `(AWH.3)` uniformly over the whole
 cumulative tail.
 
+This also shows why global active height is not a small bookkeeping theorem.
+Since
+
+```math
+T_k(t)=\sum_{\ell>k+4}\nu 2^{2\ell}\|u_\ell(t)\|_2^2,
+\tag{AWH.9a}
+```
+
+the global height bound gives, after the harmless finite index shift,
+
+```math
+\sum_{\ell>N}\nu 2^{2\ell}\|u_\ell(t)\|_2^2
+\le
+C\,2^{-N}
+\tag{AWH.9b}
+```
+
+uniformly on the terminal window.  Low shells are bounded at each fixed cutoff
+by energy:
+
+```math
+\sum_{\ell\le N}2^{2\ell}\|u_\ell(t)\|_2^2
+\le
+C_N\|u(t)\|_2^2.
+\tag{AWH.9c}
+```
+
+Thus global active height supplies a uniform \(H^1\) bound up to the terminal
+time.  As a Navier-Stokes input, it is continuation-strength; it cannot be
+treated as a cheap consequence of the first-moment energy ledger.
+
 ## 2. Where the logarithmic tail enters
 
 The weaker algebraic inequality is
