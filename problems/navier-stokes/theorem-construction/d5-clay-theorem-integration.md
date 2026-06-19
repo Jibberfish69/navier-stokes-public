@@ -200,7 +200,7 @@ So the final theorem target is no longer merely implied by the route; it is now
 written explicitly in the lane-local theorem file.
 
 The strongest current local statement is: ontic theorem first, exact lift
-second, classical theorem as corollary third. That is the sharpest formal
+second, classical theorem as corollary third. That is the sharpest conditional
 composition supported by the live lane.
 
 The clean by-hand integration statement is:
