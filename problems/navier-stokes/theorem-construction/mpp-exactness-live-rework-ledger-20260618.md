@@ -14087,5 +14087,6 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted rescan of the terminal-source anti-atom batch and `git diff
---check`.
+The targeted terminal-source anti-atom scan is empty on live files; old phrases
+remain only in ledger evidence.  `git diff --check` passed on the edited batch
+and this ledger.
