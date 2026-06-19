@@ -116,10 +116,22 @@ D_\ell D_m
 \sum_{N<k<\min(\ell,m)-4}2^k,
 ```
 
-and the inner geometric sum is comparable to
+and for `M:=\min(\ell,m)` the inner geometric sum is exact:
 
 ```math
-2^{\min(\ell,m)}.
+\sum_{N<k<M-4}2^k
+=
+2^{M-4}-2^{N+1}.
+```
+
+In particular, when `M\ge N+6`,
+
+```math
+2^{M-5}
+\le
+\sum_{N<k<M-4}2^k
+\le
+2^{M-4}.
 ```
 
 Splitting the double sum at `\ell\le m` gives `(H1)`.

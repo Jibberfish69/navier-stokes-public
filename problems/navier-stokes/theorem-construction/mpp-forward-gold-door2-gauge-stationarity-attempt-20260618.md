@@ -185,8 +185,9 @@ That requires a single-bubble / no-switching theorem:
 \tag{GS.10}
 ```
 
-It rules out comparable multi-profile Zeno splitting, selector nonuniqueness,
-and subsequence switching under the canonical gauge.
+It rules out multi-profile Zeno splitting with two selected profile weights at
+least `c_bub` times the total selected weight, selector nonuniqueness, and
+subsequence switching under the canonical gauge.
 
 ## Result of the attempt
 

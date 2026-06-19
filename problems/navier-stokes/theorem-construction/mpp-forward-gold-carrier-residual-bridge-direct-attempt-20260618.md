@@ -114,7 +114,8 @@ Federer-Fleming or stress-current compactness, one still needs:
 ```text
 SourceResolvedCarrierCurrent.A:
   the selected native source carrier defines a normal/integral current with
-  mass comparable to the selected carrier.
+  constants 0<c_car<=C_car<infty, independent of the terminal scale, such that
+  c_car lambda_m(X) <= M(T_m^{car}) <= C_car lambda_m(X).
 
 CarrierBoundaryLegalBound.A:
   the boundary mass of that carrier current is retained in the annular readout

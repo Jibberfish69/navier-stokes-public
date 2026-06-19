@@ -618,9 +618,9 @@ C_\phi k
 \tag{NEX.26g}
 ```
 
-Indeed, for a graph with `||grad f_k||_\infty -> 0`, the graph metric is
-uniformly equivalent to the Euclidean metric and
-`\int_{\Sigma_k}|h_k|^2 d\mu_k` is comparable to
+Indeed, for a graph with `||grad f_k||_\infty -> 0`, there are constants
+`0<c_\phi<=C_\phi<infty`, independent of `k>=K_\phi`, such that the graph
+metric and Euclidean metric give the two-sided estimate `(NEX.26g)` from
 `\int |D^2 f_k|^2 dxdy`.  Since
 `f_{k,xx}=-k^{1/2}\phi(x,y)\sin(kx)+O(k^{-1/2})`, the latter integral equals
 `(k/2)\int \phi^2 dxdy+o(k)` for nonzero compactly supported `\phi`.

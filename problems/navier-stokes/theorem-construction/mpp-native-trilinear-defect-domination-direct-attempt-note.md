@@ -127,8 +127,8 @@ Thus pressure projection does not prove `(NTD.1)`.
 
 Finite Littlewood-Paley banding and orthogonality help separate interactions by
 frequency.  The active packet already lives at a legal finite band.  The
-surviving source term is a legal low/high or comparable-band interaction in
-that finite band.
+surviving source term is a legal low/high interaction or a same-band interaction
+with shell indices satisfying `|k-j|\le C_{\rm band}` in that finite band.
 
 Orthogonality does not prevent spatial/temporal concentration of the positive
 trilinear defect on selected heat-scale windows.

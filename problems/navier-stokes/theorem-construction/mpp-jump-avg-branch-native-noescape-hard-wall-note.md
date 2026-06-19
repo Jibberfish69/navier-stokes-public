@@ -172,7 +172,8 @@ JAVG.Amp:
 \quad
 A_R^{aff}\text{ terminal threshold}
 \Longrightarrow
-D_R+P_R^{loc}\text{ mass on a comparable same-fluid window}.
+\exists W_R'\text{ same-fluid with }c_wR^2\le |I(W_R')|\le C_wR^2
+\text{ and }D(W_R')+P^{loc}(W_R')\ge c_a A_R^{aff}.
 ```
 
 No current surface proves `JAVG.Amp`.

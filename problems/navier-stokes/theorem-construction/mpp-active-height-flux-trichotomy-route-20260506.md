@@ -303,10 +303,15 @@ ZenoSourceResidueRigidity.A
 plus the already named boundary/projected-cutoff/frame bookkeeping ledgers.
 
 Model statement.  Let `e(t)>=0` be the active high-shell packet energy on a
-heat window of length comparable to:
+heat window `W` whose length is fixed by constants independent of `j`:
 
 ```math
 \tau_j=(\nu2^{2j})^{-1}.
+```
+
+```math
+c_h\tau_j\le |W|\le C_h\tau_j.
+\tag{AHF.3a}
 ```
 
 Let:

@@ -116,8 +116,9 @@ Jacobian:
 
 No constant `C_{\mathrm{gauge}}` with this coercive gauge estimate is installed.
 The Zeno profile may have nearly degenerate moments,
-multiple comparable extremizers, or switching packet selectors.  Then the gauge
-can move without producing a coercive residual.
+multiple extremizers whose selected functional values lie in
+`[c_{\rm ext}M,M]` for the same maximum value `M`, or switching packet
+selectors.  Then the gauge can move without producing a coercive residual.
 
 The missing theorem is:
 
@@ -130,10 +131,11 @@ The missing theorem is:
 
 ## Attempt 4: neutral symmetry loops
 
-Even with a gauge, the orbit may move around a neutral family: comparable
-stationary profiles, rotations preserving the selected functional, or
-profile-switching subsequences.  Such motion need not create a nonzero flux
-residue unless single-bubble uniqueness has already been proved.
+Even with a gauge, the orbit may move around a neutral family: stationary
+profiles whose selected functional values lie in `[c_{\rm stat}M,M]`, rotations
+preserving the selected functional, or profile-switching subsequences.  Such
+motion need not create a nonzero flux residue unless single-bubble uniqueness
+has already been proved.
 
 This returns to:
 

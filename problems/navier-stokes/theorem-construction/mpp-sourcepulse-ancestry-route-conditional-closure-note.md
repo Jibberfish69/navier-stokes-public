@@ -76,8 +76,10 @@ disintegration plus parent concentration/diffuse charge gives either:
 
 1. a finite charge, contradicting the installed finite reserve along an
    infinite terminal family; or
-2. a legal same-fluid parent `P^{-1}` with comparable normalized source/mix
-   mass.
+2. a legal same-fluid parent `P^{-1}` with constants
+   `0<c_p<=C_p<infty`, independent of the ancestry generation, such that its
+   normalized source/mix mass lies between `c_p` and `C_p` times the child
+   normalized source/mix mass.
 
 Iterating gives either infinitely many finite charges or an infinite legal
 ancestry chain.  `BackwardDrainFunctional.A` rules out the infinite unpaid

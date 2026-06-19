@@ -74,7 +74,11 @@ class:
 \|u_\ast\|_{L^\infty_s L^3_y}<\infty,
 ```
 
-or a comparable critical condition.
+or a stated Serrin-critical hypothesis
+
+```math
+u_\ast\in L^q_sL^p_y,\qquad \frac2q+\frac3p=1,\quad 3<p\le\infty.
+```
 
 The source-pulse / Zeno branch supplies a lower bound on normalized active
 source residue.  It does not provide an upper Type I envelope, critical
