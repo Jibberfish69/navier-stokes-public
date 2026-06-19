@@ -14534,3 +14534,61 @@ the Field bridge already spending the corrected consequence.  Outside this
 ledger entry, the targeted residue scan no longer finds the dangling `So the
 rule`, empty `Assume` in the patched Field section, `Jump J Q`,
 `Part term N,Q`, or `not Part term` on the patched bridge surfaces.
+
+## Clay Counterexample-Exclusion Bridge Conditionality Repair
+
+Old claim being spent:
+
+The reader appendix moved from the torus-atlas trichotomy
+
+```text
+full Pack+Part+Field readout, or first Pack/Part/Field face failure
+```
+
+to "So the full readout-complete packet survives" without stating the
+face-exclusion input that removes the failure side.  The source theorem note
+also introduced `Exit(Q_atlas) => no valid finite-breakdown counterexample` as
+the "intended bridge" before later rejecting that shortcut.
+
+Exact replacement:
+
+The appendix now states the missing bridge as the exact conditional burden:
+
+```text
+not(
+  not Pack_{Q_atlas}
+  or Pack_{Q_atlas} and not Part_{N_s,Q_atlas}
+  or Pack_{Q_atlas} and Part_{N_s,Q_atlas}
+     and forall r>0 not Field_{N_s,r,Q_atlas}
+)
+```
+
+from the original smooth datum and the same terminal-entry hypotheses.  Only
+under that face-exclusion input does the trichotomy force the full
+readout-complete packet, after which the `H^s` relaunch/uniqueness argument
+contradicts finite terminal non-continuation.  The source note now calls
+`Exit(Q_atlas) => no valid finite-breakdown counterexample` the tempting
+shortcut tested and rejected, not the intended bridge.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/mpp-clay-counterexample-exclusion-bridge-direct-work-20260601.md`.
+
+Downstream consequence:
+
+The Clay-closing step remains exactly the open
+`ClayCounterexampleExclusionBridge.A / NoGenuineExitFromSmoothData.A` burden.
+The live authority and verdict surfaces already record that public finite
+breakdown exclusion still requires that bridge, so no downstream status rewrite
+was needed.  The proof surface now refuses the old shortcut instead of spending
+it.
+
+Second downstream pass and validation:
+
+The targeted authority pass over `live-theorem-edge.yaml`, `source-frontier.yaml`,
+`theorem-packet.yaml`, `theorem-repair.yaml`, `submission-verdict.yaml`, and
+`submission-bundle/submission-verdict.yaml` found the bridge still recorded as
+open rather than discharged by `Exit(Q_atlas)`.  The targeted residue search no
+longer finds `So the full readout-complete packet survives` or the old
+`intended bridge` wording on the patched surfaces.
