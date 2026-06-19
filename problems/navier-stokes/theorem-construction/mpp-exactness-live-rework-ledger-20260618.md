@@ -12107,3 +12107,32 @@ forced packets `FFSRC.A_forced`, `DTC.Read_forced`, and
 Surfaces edited:
 
 - `theorem-construction/mcp-forced-periodic-branch-attempt-ecq-a_-1c92800349.md`.
+
+## Point-Force Local-Suitable Pressure-Class Rework
+
+Old claim being spent:
+
+The forward-gold point-force capacity/coercivity note stated
+`FiniteDissipationPointForceExclusion.A` with "usual local suitable pressure
+integrability."  The proof tests the point-force equation against compactly
+supported divergence-free functions, so the pressure condition should be named
+exactly rather than left to convention.
+
+Exact replacement:
+
+The theorem statement now assumes the local suitable pressure class
+\[
+P\in L^{3/2}_{loc}(B).
+\]
+
+Proof or downstream consequence:
+
+The pressure still drops out of the capacity test because
+`\nabla\cdot\varphi_\epsilon=0`.  The point-force exclusion may be spent only
+for a distributional profile with `U in H^1_loc` through the origin and
+`P in L^{3/2}_loc` on the same ball, or an equivalent pressure distribution
+framework that justifies the divergence-free test pairing.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-point-force-capacity-coercivity-attempt-20260618.md`.
