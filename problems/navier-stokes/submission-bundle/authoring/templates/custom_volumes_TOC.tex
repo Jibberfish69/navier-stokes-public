@@ -67,7 +67,7 @@
 \renewcommand{\cftpartpresnum}{}
 \renewcommand{\cftpartaftersnum}{}
 \setlength{\cftbeforepartskip}{2.0\baselineskip}
-\settowidth{\cftpartnumwidth}{Volume~00\, -- \ }
+\settowidth{\cftpartnumwidth}{Volume\nobreakspace{}00\, -- \ }
 
 % V6-style flow controls.
 \newif\ifToEGroupHold
@@ -145,7 +145,7 @@
   \refstepcounter{part}%
   \phantomsection
   \if\relax\detokenize{#1}\relax\else\label{#1}\fi
-  \addcontentsline{toc}{part}{Volume~\thepart\ \textemdash\ #2}%
+  \addcontentsline{toc}{part}{Volume\nobreakspace{}\thepart\ \textemdash\ #2}%
   \par\vspace{1.0ex}%
   \noindent{\centering\bfseries\HeadingSizeVolume Volume \thepart\ -- \ #2\par}%
   \vspace{0.8ex}%
