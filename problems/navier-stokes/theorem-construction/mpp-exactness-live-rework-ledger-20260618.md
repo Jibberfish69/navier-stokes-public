@@ -11189,3 +11189,54 @@ uses the repaired endpoint/tower surfaces where `END.TowerBound` is the direct
 same-cover tower-amplitude contradiction supplied by the finite
 transported-center cover, pressure/viscous `K_k` readout, and endpoint matrix
 rows.  The historical residue remains only to preserve provenance.
+
+## Forward-Gold Scaling / Pressure-Flux Exactness Rework
+
+Old claim being spent:
+
+Four active forward-gold attempts used loose proof language: the point-force
+coercivity note used Stokeslet `\sim` asymptotics and an asymptotic dissipation
+integral; the Stokes multipole note used `\sim` for test scaling and the
+critical `u~r^{-1}` phrase; the pressure-flux absorption note used a "Standard
+estimate" heading plus schematic interpolation "up to scale factors"; and the
+renormalized local-energy frequency note used "schematic form," a formal
+Gaussian-energy inequality, and a "formally absorbed" material-weight sentence.
+
+Exact replacement:
+
+The point-force note now uses explicit lower bounds
+`|U(x)| >= c_0 |Phi_0|/|x|` and
+`|grad U(x)| >= c_1 |Phi_0|/|x|^2`, producing the lower-bound divergence
+`c_2 |Phi_0|^2 int_0^r rho^{-2} d rho = infinity`.  The multipole note now
+uses the exact test-scaling identities
+`||Delta varphi_r||_2 = r^{-1/2}||Delta varphi||_2` and
+`<partial^alpha delta_0,varphi_r> = (-1)^|alpha| r^(-|alpha|)
+partial^alpha varphi(0)`, and names the critical local-energy condition instead
+of `u~r^{-1}`.  The pressure-flux note now states the Holder/CZ estimate and
+the local-cylinder interpolation
+`int_I ||u(t)||_3^3 dt <= C_S^{3/2} tau^{1/4} E_I^{3/4} D_I^{3/4}`,
+with the Young remainder `C_epsilon tau E_I^3`.  The renormalized-frequency note
+now states the needed coercive inequality with constants `c_1,c_2` and the exact
+nonlinear/pressure term `F_{nl/pr}`, and makes the material-weight cancellation
+conditional on the adjoint weight being an admissible test.
+
+Proof or downstream consequence:
+
+These forward-gold attempts may spend point-force/multipole coercivity,
+pressure-flux absorption, or local-energy monotonicity only through the displayed
+lower bounds, scaling identities, interpolation theorem, and admissibility
+hypotheses.  The pressure route still leaves the explicit `tau E_I^3` reserve,
+and the material-weight route still leaves the pressure-conormal term.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-point-force-capacity-coercivity-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-stokes-multipole-coercivity-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-pressure-flux-absorption-attempt-20260618.md`;
+- `theorem-construction/mpp-forward-gold-renormalized-local-energy-frequency-attempt-20260618.md`.
+
+Second downstream pass and validation:
+
+The targeted scan on these four surfaces finds no remaining `\sim`, `\lesssim`,
+`standard estimate`, `schematic form`, `schematically`, `formally absorbed`, or
+`up to scale factors` hit.  `git diff --check` passes on the edited surfaces.
