@@ -359,8 +359,27 @@ So the most promising intrinsic formulation of Step `1c` is:
 The key caution is that the `A_*`-adapted projection is not yet a ready-made
 object on the current lane. It is a tactical design target. In particular,
 localization breaks the frozen constraint and therefore forces a divergence
-repair step; this is exactly where Bogovski\u012d-type tools are expected to
-enter.
+repair step.  The required object is the `A_*`-adapted right inverse stated
+below in `(7ab)`-`(7ad)`: after cutoff one must construct
+
+```math
+\widetilde v_\chi
+:=
+\chi v-\mathcal R_{A_*}\big(\operatorname{div}_a(A_*(\chi v))\big)
+```
+
+with
+
+```math
+\operatorname{div}_a(A_*\widetilde v_\chi)=0,
+\qquad
+\|\mathcal R_{A_*}g\|_{W^{1,p}}\le C\|g\|_{L^p},
+\qquad
+\|\mathcal R_{A_*}g\|_{H^{s+1}}\le C_s\|g\|_{H^s}.
+```
+
+That divergence-repair theorem is what must be spent in the patchwise estimate
+`(7u)`.
 
 #### Minimal operator objects for Step 1c
 
