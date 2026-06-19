@@ -27,8 +27,9 @@ C+o_N(1)
 \tag{SCC.1}
 ```
 
-If `(SCC.1)` were available, each critical feed event would pay an order-one
-bill, so an infinite terminal Zeno feed chain would be impossible.
+If `(SCC.1)` were available, each critical feed event would pay a bill bounded
+below by a fixed positive constant, so an infinite terminal Zeno feed chain
+would be impossible.
 
 This note tests whether `(SCC.1)` follows from the actual Navier--Stokes
 energy/local-energy/pressure/strain equations.  It does not close from current
