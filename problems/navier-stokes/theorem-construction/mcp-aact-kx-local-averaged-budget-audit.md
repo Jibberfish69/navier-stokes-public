@@ -60,7 +60,37 @@ This passes provided the scale-normalized frame ledger is included in `V_R` and 
 
 ### 2. Cutoff and moving-boundary terms
 
-Spatial and temporal derivatives of the transported cutoff produce only bounded same-fluid distortion factors and expected powers of `R`. The cutoff packet satisfies
+Write the transported cutoff as
+
+```math
+\chi_R(x,t)=\chi(y_R(x,t)),
+\qquad
+y_R(x,t):=R^{-1}A(t)^{-1}(x-c(t)).
+```
+
+Then the actual derivative identities are
+
+```math
+\nabla_x\chi_R
+=
+R^{-1}A(t)^{-T}\nabla\chi(y_R),
+\qquad
+D_x^2\chi_R
+=
+R^{-2}A(t)^{-T}D^2\chi(y_R)A(t)^{-1},
+```
+
+and
+
+```math
+\partial_t\chi_R
+=
+-\left(A^{-1}\dot A\,y_R+R^{-1}A^{-1}c'(t)\right)\cdot\nabla\chi(y_R).
+```
+
+The cutoff packet can be spent only after the same-fluid distortion ledger in
+`V_R` bounds `A`, `A^{-1}`, `A^{-1}\dot A`, and `R^{-1}A^{-1}c'` on the
+cell.  Under those hypotheses it satisfies
 
 ```math
 |I_{cut}|\le C(1+V_R)X_R+\frac{c\nu}{16}N_R+F_{cut,R}.
