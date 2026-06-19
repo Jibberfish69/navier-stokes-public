@@ -12833,7 +12833,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual additive gauge` phrase in the
+edited retained-potential note.  It finds the replacement
+`\sigma`-independent gauge invariance.  `git diff --check` passed on the edited
+note and this ledger.
 
 ## Flow-Map Pressure Gauge Rework
 
@@ -12859,7 +12862,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual additive normalization` phrase in
+the edited flow-map continuation note.  It finds the replacement pressure gauge
+normalization for periodic and whole-space cases.  `git diff --check` passed
+on the edited note and this ledger.
 
 ## Periodic Final Pressure Gauge Rework
 
@@ -12884,7 +12890,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual periodic pressure normalization`
+phrase in the edited final periodic theorem statement.  It finds the
+replacement zero-mean pressure gauge on `T^3`.  `git diff --check` passed on
+the edited note and this ledger.
 
 ## SCF-AACT Periodic Pressure Gauge Rework
 
@@ -12910,7 +12919,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual periodic zero-mean convention`
+phrase in the edited SCF/AACT endpoint package.  It finds the replacement
+global zero-mean pressure gauge and the retained local ball-average
+normalization.  `git diff --check` passed on the edited note and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
