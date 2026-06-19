@@ -45,13 +45,16 @@ so the participation and source ledgers need forcing terms such as
 
 in the appropriate route spaces.
 
-The classical continuation theorem also requires a forcing norm, for example a standard hypothesis of the form
+The forced classical relaunch theorem also requires a forcing norm.  One
+sufficient hypothesis is
 
 ```math
 f\in L^1_{loc}([0,\infty);H^{s-1}(T^3))
 ```
 
-or a stronger smooth forcing class.
+or a stronger smooth forcing class; on a relaunch interval the lifespan depends
+on the current `H^s` norm of `u` and the corresponding local
+`L^1_tH^{s-1}_x` forcing norm.
 
 ## Verdict
 
