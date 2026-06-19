@@ -11590,3 +11590,32 @@ The targeted scan finds no remaining `expected compactness` phrase in the
 edited note.  It finds the replacement local-energy/local-pressure compactness
 hypothesis and the remaining `ProducedMinimalFirstPackBubbleRigidity.A` burden.
 `git diff --check` passes on the edited note.
+
+## Square-Reserve First-Pulse Conditional Chain Rework
+
+Old claim being spent:
+
+The square-reserve first-pulse route ended with an "Expected Closure" section
+and said the normalized-adjoint source-drain package can be promoted after the
+displayed implication chain.  In context the note already records that Gate 2
+is not installed, so this wording let a conditional route read like downstream
+proof progress.
+
+Exact replacement:
+
+The section is now titled "Conditional Downstream Chain."  It states that the
+implication is available only if Gate 1 through Gate 4 are proved, including the
+Gate 2 square parent-or-charge inequality for the donor reserve measure
+\(\mathcal R_N\).
+
+Proof or downstream consequence:
+
+The downstream normalized-adjoint source-drain promotion is explicitly
+conditional on that chain.  Since installed inputs do not currently prove Gate 2
+for \(\mathcal R_N\), the note does not promote the package from conditional
+support to source-wall closure for the downstream
+`AWG.A / Jump_{avg}\Rightarrow\bot / PCTP.hard` route.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-square-reserve-first-pulse-route-for-scalecriticaltreecarleson-20260505.md`.
