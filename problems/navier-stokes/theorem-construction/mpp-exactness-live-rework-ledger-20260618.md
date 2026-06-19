@@ -11707,3 +11707,35 @@ rigid anti-atom, non-source Pack-survival, or an equivalent same-ledger payment.
 Surfaces edited:
 
 - `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
+
+## Terminal Skew Remainder-Ledger Rework
+
+Old claim being spent:
+
+The terminal skew saturated-hull note wrote the bare antisymmetric dyadic
+current identity with "the usual pressure/cutoff/off-truncation terms recorded
+in `L_P`."  Because the identity is part of the attempted route to
+`TerminalSkewLocalizationLedger.A`, the phrase could make pressure/projection,
+cutoff, collar, and finite-truncation errors look automatically legal.
+
+Exact replacement:
+
+The note now defines `L_P` as a remainder ledger consisting of
+pressure/projection localization, packet-cutoff, collar, and finite-truncation
+boundary terms.  It also states the exact legal-loss estimate required before
+the hull argument may spend the ledger:
+\[
+\sum_{P\in\operatorname{Sat}(\mathcal F_N)}\int |L_P(t)|\,dt
+\le Loss_{legal}+o_N(1).
+\]
+
+Proof or downstream consequence:
+
+`BareDyadicSaturatedHull.0` remains only a finite unweighted antisymmetric
+current ledger.  It does not install `TerminalSkewLocalizationLedger.A` unless
+the `L_P` legal-loss estimate, weighted/lifted defect control, and terminal
+signed-saturation inputs are all supplied.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`.
