@@ -10200,6 +10200,7 @@ three-channel "formal" closure as an independent PDE blowup classification.
 Surfaces edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/mpp-heat-linear-remainder-no-terminal-critical-mass-direct-attempt-20260519.md`.
 
 Second downstream pass and validation:
 
@@ -13410,8 +13411,8 @@ Surfaces edited:
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `time depth comparable` wording in the
-edited appendix.  `git diff --check` passed on the edited appendix and this
-ledger.
+edited appendix or downstream heat-linear-remainder note.  `git diff --check`
+passed on the edited appendix, downstream note, and this ledger.
 
 ## Near-Diagonal Dyadic Band Rework
 
@@ -13436,12 +13437,14 @@ remaining tail-square burden is the far-separated block.
 Surfaces edited:
 
 - `submission-bundle/source-field-reader-appendix.tex`.
+- `theorem-construction/near-diagonal-tail-square-reserve-absorption.md`.
 
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `dyadic factors are comparable` or
-`|j-k| C 0` wording in the edited appendix.  `git diff --check` passed on the
-edited appendix and this ledger.
+`|j-k| C 0` wording in the edited appendix or downstream near-diagonal note.
+`git diff --check` passed on the edited appendix, downstream note, and this
+ledger.
 
 ## Weighted Exact-Projection Resonant Packet Rework
 
