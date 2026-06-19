@@ -54,7 +54,33 @@ For any nonnegative smooth test function `phi(y,s)` compactly supported in the n
 \varphi(x,t)=\phi(y(x,t),s(t)).
 ```
 
-The chain rule writes `partial_t varphi`, `nabla varphi`, and `Delta varphi` as finite sums of normalized derivatives of `phi` multiplied by bounded frame coefficients and the expected powers of `r`. Inserting `varphi` into the Eulerian local energy inequality gives the same inequality in the normalized cylinder, with lower-order frame terms controlled by the bounded distortion constants. These terms are exactly the moving-frame contributions included in the normalized `SCF_base` convention.
+Writing `X(t):=Phi(a_0,t)` and
+`y=A(t)^{-1}(x-X(t))/r`, the chain rule gives
+
+```math
+\nabla_x\varphi
+=r^{-1}A(t)^{-T}\nabla_y\phi,
+```
+
+```math
+\Delta_x\varphi
+=r^{-2}\operatorname{tr}\!\left(A(t)^{-1}A(t)^{-T}D_y^2\phi\right),
+```
+
+and, at fixed `x`,
+
+```math
+\partial_t\varphi
+=r^{-2}\partial_s\phi
+\left[-A(t)^{-1}\dot A(t)y-r^{-1}A(t)^{-1}\dot X(t)\right]\cdot\nabla_y\phi.
+```
+
+Thus the only non-unit-cylinder terms are the displayed `r^{-1}`, `r^{-2}`,
+metric, frame-velocity, and center-velocity coefficients. Inserting
+`\varphi` into the Eulerian local energy inequality gives the normalized
+cylinder inequality with precisely these lower-order moving-frame terms, and
+those terms are the moving-frame contributions included in the normalized
+`SCF_base` convention.
 
 The scale-critical quantities transform as
 
@@ -90,7 +116,8 @@ again with constants depending only on `M_sharp,nu`. Thus
 SCF_{base}(Q_r^\Phi)\le\varepsilon_m
 ```
 
-implies the standard normalized CKN smallness after choosing `epsilon_m` below the CKN threshold divided by the comparability constant.
+implies the normalized CKN epsilon-regularity smallness condition after choosing
+`epsilon_m` below the CKN threshold divided by the comparability constant.
 
 Therefore the moving same-fluid cylinder is CKN-admissible, and the local `ATD_m^epsilon` theorem may invoke CKN epsilon regularity on the normalized cylinder.
 
