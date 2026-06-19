@@ -197,6 +197,50 @@ bridge:
 \tag{CEA.16}
 ```
 
+The tightness child has a heat-scale scaling obstruction in the native local
+energy currency.  Under
+
+```math
+x=x_j+r_jy,
+\qquad
+t=T_j+r_j^2s,
+\qquad
+u=r_j^{-1}v_j,
+\tag{CEA.16a}
+```
+
+physical local-energy defect, dissipation, and flux masses carry one radius of
+weight:
+
+```math
+\mu_{LE}^{phys}(Q_j)
+\simeq
+r_j\,\mu_{LE}^{ren}(Q_1^-).
+\tag{CEA.16b}
+```
+
+Thus finite physical local-energy measure can control
+
+```math
+\sum_j r_j\mu_{LE}^{ren}(Q_1^-),
+\tag{CEA.16c}
+```
+
+while the no-waste terminal strip modulus needs unweighted control of
+\(\mu_{LE}^{ren}\).  A normalized endpoint layer
+
+```math
+a_j(s)=\theta_j^{-1}\mathbf 1_{(-\theta_j,0]},
+\qquad
+\theta_j\downarrow0,
+\tag{CEA.16d}
+```
+
+has order-one terminal mass in renormalized variables and only order \(r_j\)
+physical local-energy mass.  This is why the endpoint atom can survive as a
+boundary defect of the extracted package even when the physical local-energy
+ledger is finite.
+
 The current local-energy attempts show both children remain open.  Finite
 Radon/BV trace structure gives endpoint visibility; it does not give endpoint
 absolute continuity or same-ledger positive-carrier saturation.
