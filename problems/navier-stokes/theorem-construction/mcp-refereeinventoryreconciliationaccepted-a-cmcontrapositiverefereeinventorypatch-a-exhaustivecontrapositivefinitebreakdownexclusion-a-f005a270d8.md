@@ -7,7 +7,7 @@ Validate whether the official CM contrapositive referee/review layer accepted th
 ## Preceding local theorem
 
 The predecessor note
-`mcp-terminaltimefacesourceatomcmconsumption-a-terminal-time-face-new-production-gold-obstruction-exhaustivecontrapositivefinitebreakdownexclusion-a-d438445eaa.md`
+`mcp-terminaltimefacesourceatomcmconsumption-a-release-exactness-and-manuscript-refresh-exhaustivecontrapositivefinitebreakdownexclusion-a-d438445eaa.md`
 records the local CM consumption theorem:
 
 ```text
@@ -17,7 +17,7 @@ TerminalTimeFaceSourceAtomCMConsumption.A
 for the live obstruction:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 It consumed the exact finite-`L^1_s` terminal source atom branch by the exhaustive cases:
@@ -53,7 +53,7 @@ This is the required official acceptance signal for the local branch-consumption
 The previous live blocker:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 has been replaced at the active-frontier level by:

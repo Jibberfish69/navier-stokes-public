@@ -19,7 +19,7 @@ ExhaustiveContrapositiveFiniteBreakdownExclusion.A
 The live referee/review blocker remains:
 
 ```text
-terminal-time-face-new-production-gold-obstruction:
+release-exactness-and-manuscript-refresh:
 Prove TerminalTimeFaceAntiAtom.A / TerminalNewProductionTheorem_{B_ASAC}.A,
 or replace it with a noncircular finite-breakdown exclusion that lands every admitted surviving terminal residual object through Member(Q) or a concrete Pack/Part/Field face failure.
 ```
@@ -100,7 +100,7 @@ official referee acceptance pending.
 The official referee inventory must explicitly record that:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 is replaced by:

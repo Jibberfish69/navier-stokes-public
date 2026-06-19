@@ -31,7 +31,7 @@ Prove the Clay-closing bridge or replace the closing argument with a noncircular
 The live lane still advertises the active burden:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 with the review formulation:
@@ -95,7 +95,7 @@ CMContrapositiveRefereeInventoryPatch.A
 or equivalent update to the official audit/review/theorem-packet layer, explicitly mapping:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 onto:

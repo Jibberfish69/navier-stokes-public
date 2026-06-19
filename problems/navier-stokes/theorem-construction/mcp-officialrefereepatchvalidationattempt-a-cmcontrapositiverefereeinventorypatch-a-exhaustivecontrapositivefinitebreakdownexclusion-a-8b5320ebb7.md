@@ -15,7 +15,7 @@ has been accepted by the official CM contrapositive referee/review layer.
 The active lane rehydration after the patch still reports the live route as:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 with the active review burden:
@@ -63,7 +63,7 @@ official referee/review reconciliation of the exhaustive contrapositive patch.
 Concretely, the official review layer must replace:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 with the branch table in:

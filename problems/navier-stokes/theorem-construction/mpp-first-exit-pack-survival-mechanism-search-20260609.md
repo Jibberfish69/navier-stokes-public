@@ -136,7 +136,7 @@ The next pass must produce one of these with proof:
 3. a direct theorem that the produced B_ASAC source atom cannot be the first
    Pack exit from original smooth data;
 4. a genuinely new Pack/Part/Field witness theorem strong enough to feed
-   OriginalSmoothDataPackSurvival.A and then NoGenuineExitFromSmoothData.A.
+   OriginalSmoothDataPackSurvival.A and with NoGenuineExitFromSmoothData.A retained only as positive supplier/manuscript support.
 ```
 
 ## Next loop target

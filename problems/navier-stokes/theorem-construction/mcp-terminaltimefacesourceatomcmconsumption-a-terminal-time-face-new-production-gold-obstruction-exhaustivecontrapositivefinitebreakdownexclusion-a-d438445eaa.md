@@ -5,7 +5,7 @@
 Consume the exact live official obstruction under the corrected CM contrapositive route:
 
 ```text
-terminal-time-face-new-production-gold-obstruction
+release-exactness-and-manuscript-refresh
 ```
 
 The live gold obstruction is the selected terminal time-face source atom permitted by finite `L^1_s` source mass:
