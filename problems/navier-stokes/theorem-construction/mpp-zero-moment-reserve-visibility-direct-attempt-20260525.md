@@ -48,7 +48,7 @@ M_first(W) = 0.
 ```
 
 Split the first-created terminal source carrier into positive and negative
-same-scale packets:
+parts of the same selected terminal carrier:
 
 ```text
 J = J_+ - J_-,
