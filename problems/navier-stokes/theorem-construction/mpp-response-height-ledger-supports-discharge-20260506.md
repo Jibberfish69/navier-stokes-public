@@ -65,7 +65,13 @@ For a smooth heat-matched Littlewood-Paley shell, write:
 |\rho_j(\xi)|\le \epsilon_{width}2^{2j}
 ```
 
-on the packet support after the standard shell narrowing.  Then:
+on the packet support, where the shell multiplier has been restricted to
+
+```math
+\left||\xi|^2/2^{2j}-1\right|\le \epsilon_{width}.
+```
+
+Then:
 
 ```math
 2\langle\nabla u_j,\nabla z_j\rangle
