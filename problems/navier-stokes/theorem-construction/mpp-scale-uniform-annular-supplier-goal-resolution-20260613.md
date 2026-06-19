@@ -92,7 +92,7 @@ class, or production of a rigid ancient source-residue class with a Liouville
 vanishing theorem.
 
 The current installed inputs do not prove that production theorem.  The hard
-obstruction is the terminal time-face concentration model
+obstruction is the terminal time-face concentration sequence
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s),
@@ -101,7 +101,7 @@ g_m(s)\,ds\rightharpoonup \delta_0.
 ```
 
 It has bounded \(L_s^1\) mass and zero fixed preterminal residence, while it
-keeps unit terminal source mass.  This model is compatible with the current
+keeps unit terminal source mass.  This sequence is compatible with the current
 finite source ledger and with the paid non-Zeno donor/refill exclusions.  It is
 the exact reason the gold route cannot be closed from raw physical accounting,
 local energy, lateral no-flux, source ancestry, or trace bounded variation
@@ -166,7 +166,7 @@ Call the selected object \(Q_{ann}\).  It enters the CM test when it is:
 The periodic branch pays this selection/carrier/readout boundary through the transported
 whole-torus atlas \(Q_{\mathrm{atlas}}\).  The whole-space branch pays its
 corresponding boundary through the exterior Duhamel survivor / dyadic escape
-CM matrix.  A generic private annular diagnostic packet still has to meet the
+CM matrix.  An unadmitted private annular diagnostic packet still has to meet the
 five admission clauses above before it can be spent as \(Q_{ann}\).
 
 This is where the previous draft made the wrong move.  Once \(Q_{ann}\) is
@@ -300,7 +300,7 @@ Field failure.  Pack is not spent as the CM argument here.
 
 This does not prove the general scale-uniform annular supplier.  The remaining
 gold work is now explicit: prove the anti-atom/new-production theorem.  The
-silver use is branch-paid rather than generic: the periodic branch pays it
+silver use is branch-paid rather than unadmitted: the periodic branch pays it
 through the whole-torus atlas, the whole-space branch pays it through
 R3.WholeSpaceCMCompletion.A, and a private annular diagnostic remains support
 until a branch theorem supplies same-solution admission, positive-radius carrier,
