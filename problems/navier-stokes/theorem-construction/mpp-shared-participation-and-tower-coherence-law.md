@@ -270,7 +270,7 @@ and
 \tag{TC.16c}
 ```
 
-It does not by itself assert failure of formal carrier-law `Part`. The same
+It does not by itself assert failure of carrier-law-only `Part`. The same
 differentiated Navier--Stokes law may remain the written carrier law while the
 strain/tower channel drives loss of usable packing or neighbor coherence.
 
