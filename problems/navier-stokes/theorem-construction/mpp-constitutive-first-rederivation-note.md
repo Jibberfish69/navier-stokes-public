@@ -189,7 +189,7 @@ From now on, every closure-driving NS branch should expose two starts:
 2. `consumer start`:
    the first branch-local equation after that export has been consumed.
 
-That is the exact formal meaning of injecting class membership into the start of
+That is the exact meaning of injecting class membership into the start of
 the branches.
 
 For the surface-by-surface version of this rule, see
