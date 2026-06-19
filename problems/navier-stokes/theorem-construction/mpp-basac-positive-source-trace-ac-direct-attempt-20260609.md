@@ -30,9 +30,10 @@ The active sufficient theorem is:
 PositiveSourceTraceAC_{B_ASAC}.A
 ```
 
-For every compact spatial cutoff, the localized one-sided native positive
-source-balance trace for the produced `B_ASAC` class should have no positive
-terminal jump. A usable form is a terminal strip modulus:
+For every compact spatial cutoff, `PositiveSourceTraceAC_{B_ASAC}.A` asserts
+that the localized one-sided native positive source-balance trace for the
+produced `B_ASAC` class has no positive terminal jump. A usable form is a
+terminal strip modulus:
 
 ```math
 \mu_m^{src,+}(B_R\times[-\varepsilon,0])
@@ -41,7 +42,7 @@ terminal jump. A usable form is a terminal strip modulus:
 ```
 
 Together with `SourceAtomToTraceJump.A`, this rules out the terminal
-time-face source atom and supply `BASACTimeFaceAntiAtom.A`.
+time-face source atom and supplies `BASACTimeFaceAntiAtom.A`.
 
 ## Installed Inputs
 
