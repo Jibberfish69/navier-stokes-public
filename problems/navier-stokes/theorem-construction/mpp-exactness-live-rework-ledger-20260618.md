@@ -15023,3 +15023,41 @@ annular mapping-class drift channel, not a direct PDE closure.  A fixed-string
 residue search over the repaired Dehn-twist note and `source-frontier.yaml` finds
 no remaining `should`, `\lesssim`, or `\gtrsim` shortcut on this slice, and
 `git diff --check -- problems/navier-stokes` passes.
+
+## Annular Topological-Drift Closure Bound Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-annular-topological-drift-branch-closure-20260618.md` repeated
+the Dehn-twist fixed-modulus bound using `\lesssim`, and it identified
+`ResidualPreCauchyReadoutRouting.A` with `MinimalChainProjectedResidueIdentity.A`
+without carrying the conditional minimal donor-chain reduction.
+
+Exact replacement:
+
+The fixed-modulus twist readout is now
+
+```text
+|Tw_ann|^2 <= C_tw' Mod(A) A_tw,
+```
+
+where `C_tw'` is fixed by the annular marking and connection norm.  The
+residual-routing equivalence is now explicitly downstream of the conditional
+minimal donor-chain reduction on the nonzero-flux side, including the
+ASAC/positive-pair-weight finite-graph package.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-annular-topological-drift-branch-closure-20260618.md`.
+
+Downstream consequence:
+
+The branch remains closed only as an independent line of inquiry.  Its surviving
+proof force is a support term inside the complete annular no-escape readout; it
+does not make residual routing or finite signed-current accounting unconditional.
+
+Second downstream pass and validation:
+
+The repaired note has no remaining `\lesssim` or old `after minimal donor-chain
+reduction` shortcut on this slice, and `git diff --check -- problems/navier-stokes`
+passes.
