@@ -1135,7 +1135,7 @@ is just the widened-thickness instance of the old common-object collar packet
 target `FCI.B`, not a new theorem family. The companion note
 [mpp-lci-a-widened-thickness-collar-wall-note.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-lci-a-widened-thickness-collar-wall-note.md)
 now records the sharper consequence: because `CSP.A` is already a fixed-
-thickness generic theorem, this thicker consumer reopens only the old collar
+thickness theorem, this thicker consumer reopens only the old collar
 wall `CSP.8`, not a new enlarged-thickness collar burden; and within that
 widened receiver package, the only thickness-sensitive slot is the thicker
 lower same-fluid carrier ledger, which the companion widened-thickness
