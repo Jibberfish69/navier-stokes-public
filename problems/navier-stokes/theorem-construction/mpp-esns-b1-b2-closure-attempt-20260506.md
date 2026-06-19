@@ -57,7 +57,43 @@ C_E(t)\|w\|_{H^s}^2
 +C\nu^2\|u^E\|_{H^{s+2}}^2.
 ```
 
-This proves finite-time stability when the right side is controlled, and it supports the usual inviscid-limit logic on intervals where the Euler solution is smooth and the difference remains controlled.
+This gives only the following conditional comparison theorem.  Set
+
+```math
+Y(t)=\|w(t)\|_{H^s}^2.
+```
+
+On an interval `[0,T]` where
+
+```math
+\int_0^T C_E(t)\,dt<\infty,
+\qquad
+\int_0^T\|u^E(t)\|_{H^{s+2}}^2\,dt<\infty,
+```
+
+and a bootstrap bound `Y(t)^{1/2}\le M` is already available, the differential
+inequality implies
+
+```math
+Y'(t)
+\le
+\bigl(C_E(t)+C_s M\bigr)Y(t)
++C\nu^2\|u^E(t)\|_{H^{s+2}}^2.
+```
+
+Since the initial data agree, `Y(0)=0`, so Gronwall gives
+
+```math
+Y(t)
+\le
+C\nu^2
+\exp\!\left(\int_0^t(C_E(\tau)+C_sM)\,d\tau\right)
+\int_0^t\|u^E(\tau)\|_{H^{s+2}}^2\,d\tau.
+```
+
+The estimate therefore supplies small-viscosity comparison or finite-time
+stability only on intervals where the bootstrap/control hypothesis has already
+been secured.
 
 ### Obstruction
 
