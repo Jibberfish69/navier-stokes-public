@@ -36,6 +36,10 @@ and the corresponding quadratic same-scale coefficient
 \tag{2}
 ```
 
+Here `same-scale` means exactly the finite annular index window
+`|m-N|\le C_{ss}`.  It does not assert comparable amplitudes, a linear profile,
+or a scale estimate.
+
 Because the band width is finite,
 
 ```math
