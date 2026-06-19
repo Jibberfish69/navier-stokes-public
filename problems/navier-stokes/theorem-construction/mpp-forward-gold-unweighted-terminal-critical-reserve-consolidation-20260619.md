@@ -324,6 +324,32 @@ selected packet setting:
 Current inputs prove none of `(UTC.27)` in the needed unweighted terminal form.
 They prove visibility and weighted physical control.
 
+## 8. Continuation-strength warning
+
+The unweighted critical reserve is not a harmless estimate.  A global terminal
+version of the strain branch,
+
+```math
+\int_{T_\ast-\varepsilon}^{T_\ast}
+\int_{\mathbb R^3}
+|\nabla u|^{5/2}\,dxdt
+<\infty,
+\tag{UTC.28}
+```
+
+is at the Navier-Stokes critical regularity threshold:
+
+```math
+{2\over 5/2}+{3\over 5/2}=2.
+\tag{UTC.29}
+```
+
+So an argument that simply assumes `(UTC.28)`, or proves it by a route that
+already presupposes terminal regularity, has not supplied an independent gold
+estimate.  The selected-packet reserve must be produced from a smaller
+mechanism: source-square, no-free terminal donor chain, strict no-waste
+Lyapunov, or a genuine compact-rigidity theorem.
+
 ## Verdict
 
 The forward-gold heat-scale branch has been reduced to one exact reserve:
@@ -334,7 +360,7 @@ The forward-gold heat-scale branch has been reduced to one exact reserve:
 \not\Rightarrow
 \text{unweighted terminal critical-action control}.
 }
-\tag{UTC.28}
+\tag{UTC.30}
 ```
 
 The remaining mathematical work is not to rename the supplier.  It is to prove
