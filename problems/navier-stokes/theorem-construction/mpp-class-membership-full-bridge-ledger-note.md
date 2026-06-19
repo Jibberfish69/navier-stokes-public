@@ -366,24 +366,25 @@ CFI.A.
 
 ### 11.0 Endpoint/Tower-Bound Conditional Packet
 
-The endpoint and tower-bound part of the conditional 21-cell route theorem is
-the finite Pack/Part/Field endpoint matrix plus the tower-amplitude bridge:
+The endpoint and tower-bound part of the repaired endpoint-matrix conditional
+theorem is the finite Pack/Part/Field endpoint matrix plus the tower-amplitude
+bridge:
 
 ```math
-\mathcal M_{End}^{21}
+\mathcal M_{End}
 :=
 \{Pack,Part,Field\}
 \times
 \{
-Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+Dead,\ response\text{-}margin\text{-}collapse,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
 \}.
 \tag{BL.E0}
 ```
 
-The native entries are `(Part,Dead)`, `(Pack,packing-detached)`,
-`(Field,Jump)`, and the row-independent mixed `tower-blown` slot. The remaining
-cells are cross entries, not new primitive law failures. The endpoint theorem
-packet is:
+The native entries are `(Part,Dead)`, `(Part,response-margin-collapse)`,
+`(Pack,packing-detached)`, `(Field,Jump)`, and the row-independent mixed
+`tower-blown` slot. The remaining cells are cross entries, not new primitive law
+failures. The endpoint theorem packet is:
 
 ```math
 DTC\text{-}to\text{-}TowerBound
@@ -395,7 +396,7 @@ END.TowerBound,
 ```
 
 ```math
-END.Exh+END.Cross+END.Pack+END.Field+END.TowerBound
+END.Exh+END.Cross+END.Pack+END.PartMargin+END.Field+END.TowerBound
 \Longrightarrow
 End\_NS.
 \tag{BL.E2}
@@ -419,6 +420,8 @@ Endpoint exhaustiveness is:
 \neg CM_{N,r,Q}
 \Longrightarrow
 Dead
+\vee
+response\text{-}margin\text{-}collapse
 \vee
 packing\text{-}detached
 \vee
