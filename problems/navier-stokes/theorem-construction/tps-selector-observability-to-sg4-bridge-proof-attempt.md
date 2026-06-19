@@ -602,9 +602,10 @@ and whenever `\alpha_J\le \tfrac12` on `I`,
 \tag{D.7i}
 ```
 
-So on the simple-top exact-potential branch the live theorem is already reduced
-formally to observability of one concrete misalignment ledger: either the angle
-defect `\alpha_J` itself or the sharper angular-forcing budget `\beta_J^2/g_J`.
+So on the simple-top exact-potential branch, identities `(D.7g)`--`(D.7i)`
+reduce the live theorem to observability of one concrete misalignment ledger:
+either the angle defect `\alpha_J` itself or the sharper angular-forcing budget
+`\beta_J^2/g_J`.
 
 **Proof.**
 Identity `(D.7g)` is exactly `(AS.35)`. Inequality `(D.7h)` is `(AS.21)` after
@@ -1803,8 +1804,8 @@ implies `(D.7ma5)`. The eigenspace statement for `\widetilde{\mathcal C}_J^N`
 is `(D.7ma2)` written for the same top eigenspace. ∎
 
 So the selector-strain compatibility slot `(D.7ma5)` is no longer a hidden
-black box. On the atom-free selector-good windows it is formally reduced to
-three concrete budgets:
+black box. Proposition `D.7mb` reduces it on the atom-free selector-good windows
+to three concrete budgets:
 
 1. the initial projective residual `|m_J(t_0,a,b)|`;
 2. the off-axis forcing integral
