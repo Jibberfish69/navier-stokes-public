@@ -230,14 +230,13 @@ The preserved TPS-branch reading is therefore:
 with the branch-local theorem cut inside `(HC.7)` given by `(HC.6a)` and
 `(HC.6b)`.
 
-So the old seven-item frontier list should be read as a historical route
-dashboard, not as seven independent new lemmas and not as the current lane-wide
-frontier.
+So the old seven-item frontier list is a historical route dashboard, not seven
+independent new lemmas and not the current lane-wide frontier.
 
 Historical Marvin route pivots that have already been absorbed into the current
-live theorem edge remain preserved in the tracked archive, but they should not
-continue to sit inside the active theorem packet as separate current frontier
-items once their content has been integrated into the live authority cut.
+live theorem edge remain preserved in the tracked archive, but they do not sit
+inside the active theorem packet as separate current frontier items once their
+content has been integrated into the live authority cut.
 
 For current rehydrates, this note's only authority is negative: it blocks the
 mistake of promoting old TPS / `SG.4`, exact-potential / `PSJ+`, or Hodge
