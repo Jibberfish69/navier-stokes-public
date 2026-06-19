@@ -10719,3 +10719,33 @@ The targeted scan finds no remaining `lifted exactness is still only formal` or
 `formal on the lifted side` hit in the edited source note or appendix copy.  The
 positive scan finds `algebraic lifted identity` and `still unproved on the
 lifted side`, and `git diff --check` passes on both edited surfaces.
+
+## Tower-Face Actual-Gap Wording Rework
+
+Old claim being spent:
+
+The towerface CM row projection note and appendix copy said spatially coherent
+high-amplitude tower packets are the "formal gap."
+
+Exact replacement:
+
+Both surfaces now call this the actual gap: the coherence modulus may remain
+finite while the absolute tower amplitude becomes large along the terminal
+approach.
+
+Proof or downstream consequence:
+
+Tower-amplitude escape still does not by itself imply one-field coherence
+fracture.  The route must keep tower amplitude, Field coherence, Pack, and Part
+as separate predicate-grammar checks.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-towerface-cm-row-projection-closure-note-20260503.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal gap` hit in the edited source note
+or appendix copy.  The positive scan finds `actual gap`, and `git diff --check`
+passes on both edited surfaces.
