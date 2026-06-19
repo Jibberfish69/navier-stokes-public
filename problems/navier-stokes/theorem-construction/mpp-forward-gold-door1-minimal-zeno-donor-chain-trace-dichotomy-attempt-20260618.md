@@ -50,7 +50,8 @@ With that package installed, the remaining implication is
 \tag{MZ.2a}
 ```
 
-So this attempt starts only with the infinite same-fluid internal donor chain:
+With that package installed, this attempt starts only with the infinite
+same-fluid internal donor chain:
 
 ```math
 D_0\to D_1\to D_2\to\cdots,
