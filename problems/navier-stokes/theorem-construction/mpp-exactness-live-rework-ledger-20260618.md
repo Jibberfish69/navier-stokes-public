@@ -10508,3 +10508,32 @@ The targeted scan finds no remaining `SourceParent.Measure Formal Definition`,
 in the edited source note or appendix copy.  The positive scan finds
 `SourceParent.Measure Exact Definition`, `exactly defined`, and the exact
 replacement sentence.  `git diff --check` passes on both edited surfaces.
+
+## Persistent Weighted Quotient Route C Rework
+
+Old claim being spent:
+
+The persistent weighted quotient kill-route audit and appendix copy said Route
+C is "formally true but useless."
+
+Exact replacement:
+
+Route C is now classified as tautological and useless as a repair mechanism by
+itself, because it only bounds the persistent readout by the full object already
+being closed.
+
+Proof or downstream consequence:
+
+Route C may be cited only as a tautological bound by the full FCTS object.  It
+does not supply a smaller theorem burden or an independent repair mechanism.
+
+Surfaces edited:
+
+- `theorem-construction/persistent-weighted-quotient-kill-routes-audit.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Route C is formally true` hit in the
+edited source note or appendix copy.  The positive scan finds `Route C is
+tautological`, and `git diff --check` passes on both edited surfaces.
