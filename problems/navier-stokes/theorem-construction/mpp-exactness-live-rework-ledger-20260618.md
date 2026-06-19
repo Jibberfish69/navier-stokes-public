@@ -15061,3 +15061,41 @@ Second downstream pass and validation:
 The repaired note has no remaining `\lesssim` or old `after minimal donor-chain
 reduction` shortcut on this slice, and `git diff --check -- problems/navier-stokes`
 passes.
+
+## Pressure/Cubic Child Audit Constant Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-pressure-cubic-children-audit-20260618.md` reduced the nonlinear
+pressure term to a critical cubic currency using `\lesssim`, without naming the
+localization constant or support of the \(L^3\) norm.
+
+Exact replacement:
+
+The estimate now reads
+
+```text
+|P_phi^{nl}| <= C_CZ ||grad phi||_infty
+                ||u||_{L^3(supp grad phi)}^3,
+```
+
+where `C_CZ` is the fixed Calderon-Zygmund/localization constant for the chosen
+cutoff class.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-pressure-cubic-children-audit-20260618.md`.
+
+Downstream consequence:
+
+The conclusion is unchanged but sharper: the cubic branch remains a
+forward-positive reserve gap.  Existing critical `L^3` material is still only
+CM-facing fallback/readout, not a forward-positive no-waste estimate.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` already records the downstream status as cubic nonlinear
+pressure production versus Gaussian/monotone loss, not as a proved reserve.  A
+fixed-string residue search over the pressure/cubic note and `source-frontier.yaml`
+finds no remaining `\lesssim` on this slice, and `git diff --check --
+problems/navier-stokes` passes.
