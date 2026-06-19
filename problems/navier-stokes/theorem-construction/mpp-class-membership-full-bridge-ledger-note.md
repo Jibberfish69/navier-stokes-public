@@ -434,7 +434,8 @@ Jump.
 It closes from the component certificate definitions/theorems:
 
 ```math
-\neg Part_{N,Q}\Longrightarrow Dead,
+\neg Part_{N,Q}\Longrightarrow
+Dead\vee response\text{-}margin\text{-}collapse,
 \qquad
 \neg Pack_Q\Longrightarrow packing\text{-}detached\vee tower\text{-}blown,
 \qquad
@@ -445,7 +446,7 @@ It closes from the component certificate definitions/theorems:
 This is the main semantic endpoint bridge.
 
 This bridge is closed as a witness-certificate completeness theorem once the
-three displayed certificate maps are installed. It is a theorem about the
+displayed certificate maps are installed. It is a theorem about the
 repo's class-membership witness vocabulary, not an independent classical PDE
 blowup classification.
 
@@ -460,7 +461,24 @@ The pack-native blown face is discharged by:
 \tag{BL.28}
 ```
 
-### 13. `END.Field`
+### 13. `END.PartMargin`
+
+The repaired Part response-margin face is discharged only by closed terminal
+Part predicates or retained strict margins on the same terminal tail:
+
+```math
+Part_{N,Q}^{closed}
+\quad\text{or}\quad
+\left(\mathcal R_\ell(t)\ge\gamma_\ell>0
+\text{ on }I\text{ for every strict Part response clause }\ell\right)
+\Longrightarrow
+\neg response\text{-}margin\text{-}collapse.
+\tag{BL.28m}
+```
+
+Without this input, response-margin collapse remains a Part-side endpoint face.
+
+### 14. `END.Field`
 
 The field jump face is discharged by:
 
@@ -474,7 +492,7 @@ OFP.A
 The propagated positive coherence scale and finite field bound exclude loss of
 every positive one-field coherence scale.
 
-### 14. `DTC-to-TowerBound`
+### 15. `DTC-to-TowerBound`
 
 The actual tower-amplitude input is:
 
@@ -516,7 +534,7 @@ The `K_k` readout is part of this bridge; it must not be silently replaced by
 raw `U_q` control unless the tower identities and local pressure/viscous
 response have been included.
 
-### 15. `END.TowerBound`
+### 16. `END.TowerBound`
 
 Once `END.TowerAmp` is supplied,
 
