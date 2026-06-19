@@ -108,7 +108,11 @@ reciprocal amount.
 Equivalently, if the radius follows the terminal heat scale
 
 ```math
-r(t)^2\sim \nu(T-t),
+c_h\nu(T-t)
+\le
+r(t)^2
+\le
+C_h\nu(T-t),
 \tag{HCT.7}
 ```
 
