@@ -10168,3 +10168,41 @@ The targeted scan finds no remaining `close the formal path`,
 Projected Flow`, `strongest formal package`, `strongest formal derivation`, or
 `What is formal here` hits in the live theorem notes or appendix copy.  The
 authority YAML set has no matching ontic-package overclaim.
+
+## Class-Membership Bridge Appendix-Copy Rework
+
+Old claim being spent:
+
+The source theorem note had already repaired the full class-membership bridge
+as a witness-certificate completeness theorem, but the appendix copy still
+contained the stale sentence: the bridge is "formal and closed once the three
+channel theorems are available."  That wording could spend the channel theorem
+names as proof force without preserving the exact witness-certificate
+hypotheses.
+
+Exact replacement:
+
+The appendix now matches the source theorem note:
+
+```text
+This bridge is closed as a witness-certificate completeness theorem once the
+displayed certificate maps are installed. It is a theorem about the
+class-membership witness vocabulary, not an independent classical PDE blowup
+classification.
+```
+
+Proof or downstream consequence:
+
+The manuscript may spend only the installed certificate maps and their
+class-membership witness-vocabulary conclusion.  It may not cite a generic
+three-channel "formal" closure as an independent PDE blowup classification.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `This bridge is formal and closed once` or
+`source account splits pointwise as` text in the theorem notes or appendix copy.
+`git diff --check` passes on the edited appendix.
