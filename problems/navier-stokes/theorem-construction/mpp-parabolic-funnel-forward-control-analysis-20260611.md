@@ -454,7 +454,7 @@ spend the obstruction as `not Pack_Q`, `not Part_{N,Q}`, or
 The repaired route for the shrinking-radius case is:
 
 ```text
-gold standard first:
+gold criterion first:
   prove ParabolicFunnelScaleCriticalBudget.A or FunnelProfileLyapunov.A, i.e.
   prove late-slab scale-critical smallness or a finite undiscounted cone tail,
   then pay the moving-layer-to-CKN bridge;
@@ -462,7 +462,7 @@ gold standard first:
 impassable obstruction:
   physical energy and physical dissipation are exactly discounted in cone time,
   and the rescaled L2 energy has a dilation source plus boundary/pressure
-  terms, so those two raw budgets do not prove the gold standard;
+  terms, so those two raw budgets do not prove the gold criterion;
 
 silver CM-exit test:
   only a surviving source-balanced terminal residual after the exact

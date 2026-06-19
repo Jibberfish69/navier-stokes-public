@@ -4,7 +4,7 @@ ns_viewer:
   status: failed-direct-first-moment-drain-does-not-control-active-square-payment
   proof_role: forward_positive_far_corona_lpas_direct_test
   logical_landing_node: cone_payment_static_hiding_and_flux_maximization
-  edge_effect: "Tests the drain-versus-local-accumulation idea at the exact far-corona blocker. The global energy law supplies a first-moment dissipation ledger, but LPAS asks for a lower-prefix weighted active-square payment. In the heat-scale pulse model, the active-square cost contains the factor 2^j times the square of the delivered amount while the first moment stays finite. Thus the route needs a genuine amplitude, pulse-thickness, or cumulative-tail stress theorem; global drain alone does not prove the far-corona payment bound."
+  edge_effect: "Tests the drain-versus-local-accumulation idea at the exact far-corona blocker. The global energy law supplies a first-moment dissipation ledger, but LPAS asks for a lower-prefix weighted active-square payment. In the heat-scale pulse test, the active-square cost contains the factor 2^j times the square of the delivered amount while the first moment stays finite. Thus the route needs a genuine amplitude, pulse-thickness, or cumulative-tail stress theorem; global drain alone does not prove the far-corona payment bound."
   upstream_origin:
     - problems/navier-stokes/theorem-construction/lifted-packet-closure-result.md
     - problems/navier-stokes/theorem-construction/far-corona-cumulative-tail-stress-theorem.md
@@ -30,7 +30,7 @@ upper boundary
 + far corona.
 ```
 
-The same-scale side is on the weighted carrier surface. The remaining far
+The selected-scale side is on the weighted carrier surface. The remaining far
 corona can be closed by the continuum stress theorems
 
 ```text
@@ -99,7 +99,7 @@ Fix one active shell `j` and a heat-scale time window
 c_h2^(-2j) <= |I_j| <= C_h2^(-2j).
 ```
 
-Assume the active shell carries a constant model load
+Assume the active shell carries a constant test load
 
 ```text
 E_j(t)=A_j

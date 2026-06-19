@@ -123,7 +123,7 @@ can maintain a short active pulse by taking:
 F_j(t)=E_j'(t)+c\nu D_j(t).
 ```
 
-This model is not a Navier-Stokes proof, but it is a sharp audit of the
+This scalar test is not a Navier-Stokes proof, but it is a sharp audit of the
 estimate: shell damping plus first-moment drain alone cannot exclude the pulse.
 The proof must use nonlinear flux/source structure.
 

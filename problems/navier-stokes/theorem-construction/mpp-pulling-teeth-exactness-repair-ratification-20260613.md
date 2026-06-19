@@ -159,8 +159,8 @@ gold-to-obstruction-to-silver route.  The stronger gold supplier is still not
 proved.  The silver branch is complete only for branches whose admission and
 readout boundary has already been paid, such as the periodic `Q_atlas` branch
 recorded in `mpp-annular-selection-readout-torus-atlas-payment-20260611.md` and
-the separate whole-space `R3.WholeSpaceCMCompletion.A` surface.  A private
-generic annular diagnostic is still support-only until it is admitted as a
+the separate whole-space `R3.WholeSpaceCMCompletion.A` surface.  An unadmitted
+private annular diagnostic is still support-only until it is admitted as a
 selected same-solution terminal object with a positive-radius carrier and
 readout data visible.
 

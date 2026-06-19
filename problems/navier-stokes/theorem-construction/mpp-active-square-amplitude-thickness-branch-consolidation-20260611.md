@@ -94,7 +94,7 @@ viscosity plus first-moment drain.
 The Volterra/retained-stress selector sees the bad packet through the
 far-corona accumulated stress object. That is detection information.
 
-It does not upper-bound the active amplitude. In a coherent packet model,
+It does not upper-bound the active amplitude. In a coherent packet test,
 increasing amplitude increases both the readout and the active-square cost.
 Selection becomes easier, not harder.
 

@@ -68,9 +68,9 @@ Beltrami, helical, vorticity-direction coherence, angular equipartition, and
 anti-coherence classes help only after a theorem produces the active terminal
 packet inside those classes. The current inputs do not produce that theorem.
 
-## 2. Persistent Alignment Is The Sharp Remaining Model
+## 2. Persistent Alignment Is The Sharp Remaining Pattern
 
-The hard model is not random angular behavior. It is persistent positive
+The hard pattern is not random angular behavior. It is persistent positive
 alignment:
 
 ```text

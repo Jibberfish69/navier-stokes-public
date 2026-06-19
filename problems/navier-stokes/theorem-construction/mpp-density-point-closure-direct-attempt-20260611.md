@@ -52,7 +52,7 @@ If this holds and the terminal point is reached through the same ordinary field,
 
 ## Failure Of The Direct Energy Step
 
-Finite local integral control alone is weaker than the required density-point bound. The density model
+Finite local integral control alone is weaker than the required density-point bound. The density counterexample
 
 ```math
 k_\alpha(x):=|x-x_0|^{-\alpha},

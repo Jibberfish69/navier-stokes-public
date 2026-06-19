@@ -277,7 +277,7 @@ But finite integral density alone is not enough:
 integral_{B_R(x0)} k dx < infinity
 ```
 
-does not imply pointwise `k(x0,T)<infinity`. For example, the exact model
+does not imply pointwise `k(x0,T)<infinity`. For example, the exact density counterexample
 
 ```text
 k_alpha(x) = |x-x0|^{-alpha}, 0 < alpha < 3,

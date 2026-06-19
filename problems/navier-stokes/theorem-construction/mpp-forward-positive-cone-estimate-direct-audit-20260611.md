@@ -63,7 +63,7 @@ int ( |u|^3 + |p|^{3/2} ) dx dt
 
 up to fixed constants on unit `s` slabs.
 
-The pure ledger cannot remove that discount. A model rescaled field
+The pure ledger cannot remove that discount. A test rescaled field
 
 ```text
 v(y,s) = phi(y),       q(y,s) = pi(y),

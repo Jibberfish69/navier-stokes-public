@@ -85,10 +85,10 @@ same-scale-coefficient-kill-into-weighted-carrier-note.md
 
 Those notes show:
 
-1. the lower fixed collar and same-scale spill reduce to accepted collar or
+1. the lower fixed collar and selected-scale spill reduce to accepted collar or
    finite edge families in the signed continuous-scale channel;
 2. the moving near-corona spill reduces to a finite family of fixed-offset
-   same-scale edge packets;
+   selected-scale edge packets;
 3. each fixed-offset edge packet satisfies the coefficient-bearing edge estimate
 
 ```math
@@ -101,7 +101,7 @@ C_{\varepsilon,a,\nu}
 \tag{3}
 ```
 
-4. the same-scale coefficient term is absorbed into the weighted carrier:
+4. the selected-scale coefficient term is absorbed into the weighted carrier:
 
 ```math
 \Theta_N^{ss,\sharp}(t)E_N(t)
@@ -111,7 +111,7 @@ C_{\varepsilon,a,\nu}
 ```
 
 So flux reorganization does not leave the fixed spill as an independent open
-theorem.  It moves the same-scale and near-corona side onto the weighted
+theorem.  It moves the selected-scale and near-corona side onto the weighted
 carrier surface.
 
 ## Weighted Carrier Boundary
@@ -140,7 +140,7 @@ remains blocked by the far-corona active-square theorem:
 So the honest result is:
 
 ```text
-same-scale / moving-spill / upper-boundary pieces
+selected-scale / moving-spill / upper-boundary pieces
 => weighted carrier
 => residual far-corona LPAS/CTS remains.
 ```
