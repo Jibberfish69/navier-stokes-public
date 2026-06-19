@@ -297,7 +297,9 @@ o_J(1).
 ```
 
 Once `(LPM.19)` is proved, the pair-level suppliers, `SSC`, `D.7mr2`,
-`RPC.3`, and `SG.4B` all follow formally.
+`RPC.3`, and `SG.4B` follow through the cited supplier chain on this
+subroute. This is a sufficient reduction only; it does not replace the later
+averaged projector dynamics and moment-closure supplier.
 
 Audit correction: this does **not** mean `(LPM.19)` is the honest first local
 wall forced by the projector-moment construction. The new note
