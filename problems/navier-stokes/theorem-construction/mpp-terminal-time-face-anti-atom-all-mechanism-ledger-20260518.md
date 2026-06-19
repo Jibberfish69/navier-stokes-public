@@ -139,7 +139,7 @@ BackwardUniquenessTimeFaceSource.A.
 
 ## 6. Common obstruction
 
-All five attempts meet the same model obstruction:
+All five attempts meet the same witness-sequence obstruction:
 
 ```math
 F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
