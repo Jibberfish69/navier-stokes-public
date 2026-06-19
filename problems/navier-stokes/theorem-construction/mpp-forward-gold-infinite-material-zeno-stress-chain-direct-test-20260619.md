@@ -294,6 +294,51 @@ Current inputs do not prove `(IZS.20)`.  The known possible suppliers remain:
 \tag{IZS.21}
 ```
 
+## 7. Relation to the CKN supplier tests
+
+The normalized CKN route has the same structure in a different physical
+currency.  For a heat cylinder \(Q_r\),
+
+```math
+\mathcal C(Q_r)
+=
+r^{-2}
+\int_{Q_r}
+\left(|u|^3+|p|^{3/2}\right)\,dxdt.
+\tag{IZS.22}
+```
+
+Finite physical cubic-pressure mass gives
+
+```math
+\sum_j r_j^2\mathcal C(Q_{r_j})<\infty,
+\tag{IZS.23}
+```
+
+while the terminal anti-atom needs
+
+```math
+\sum_j\mathcal C(Q_{r_j})<\infty
+\quad\text{or terminal-tail decay.}
+\tag{IZS.24}
+```
+
+Thus the material-stress route and the CKN route fail at the same kind of
+place:
+
+```math
+\boxed{
+\text{physical finite measure controls a weighted normalized sum,}
+\quad
+\text{not the unweighted terminal packet count.}
+}
+\tag{IZS.25}
+```
+
+The material stress-work currency has weight \(r_j\).  The CKN
+cubic-pressure currency has weight \(r_j^2\).  Both leave the dyadic terminal
+Zeno stack compatible with finite physical cost.
+
 ## Verdict
 
 The material participation law pays every finite donor chain exactly.  The
