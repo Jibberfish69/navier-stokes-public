@@ -14278,4 +14278,6 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted standard/criterion scan and `git diff --check`.
+The targeted standard/criterion scan is clean on live files; old phrases remain
+only in ledger evidence.  `git diff --check` passed on the edited surfaces and
+this ledger.
