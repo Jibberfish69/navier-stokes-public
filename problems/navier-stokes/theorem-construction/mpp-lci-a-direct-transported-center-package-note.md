@@ -504,7 +504,7 @@ DTC.PRE_{\mathfrak p}.
 ```
 
 Reading `\mathcal M_{\mathfrak p}^{TC}` back from
-`\mathcal Z_{\mathfrak p}^{TC}` alone gives only the superlinear model
+`\mathcal Z_{\mathfrak p}^{TC}` alone gives only the superlinear differential inequality
 
 ```math
 \frac{d}{dt}\mathcal Z_{\mathfrak p}^{TC}
@@ -2001,7 +2001,7 @@ p=p_j^{loc}+h_j,
 \tag{DTC.AFF-Kcore1b2}
 ```
 
-Define the native affine pressure model by matching center-cell functionals,
+Define the native affine pressure component by matching center-cell functionals,
 not merely by solving for the pure affine polynomial pressure. Let
 
 ```math

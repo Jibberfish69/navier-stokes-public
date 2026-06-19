@@ -3021,7 +3021,7 @@ y'(t)
 \tag{LCI.3c5b}
 ```
 
-For the equality model, `w:=1/y` satisfies
+For the equality case, `w:=1/y` satisfies
 
 ```math
 w'(t)=-\frac12\,a(t)\big(1+w(t)\big),
@@ -3392,7 +3392,7 @@ The clean intended proof shape is now:
 2. specialize the collar identity `CSP.B2` to the lower family
    `Z_{\alpha,q}=\nabla^\alpha U_q`, giving `(LCI.3c2)`;
 3. prove the route-native coefficient estimate `(LCI.3c3)`, i.e.
-   `(CSP.25g2a)`, instead of appealing to generic smoothness of a still-live
+   `(CSP.25g2a)`, instead of appealing to unspecified smoothness of a still-live
    window;
 4. either stay on the sharper coefficient branch and prove
    `\mathfrak B_{N,m,\rho,\psi}^{coef,\varepsilon}\in L^1(I)` in

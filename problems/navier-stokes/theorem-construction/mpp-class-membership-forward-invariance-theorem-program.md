@@ -765,7 +765,8 @@ compressed realization of `CFI.A`.
 
 ## Guardrail
 
-This note does **not** promote a generic witness bundle back to primary status.
+This note does **not** promote an unspecified witness bundle back to primary
+status.
 
 The defect route is acceptable only if the defect is derived from the exact
 `Pack / Part / Field` predicates and preserves their meaning:

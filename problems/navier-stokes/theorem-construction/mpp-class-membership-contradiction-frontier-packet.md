@@ -557,7 +557,7 @@ the old widened-shell oscillation packet when `m\ge 3`.
 This packet explicitly refuses the following substitutions.
 
 1. do **not** widen the route into a menu of many completion paths;
-2. do **not** treat the generic witness bundle as the primary live object;
+2. do **not** treat an unspecified witness bundle as the primary live object;
 3. do **not** let object-law packaging replace the singular route chain;
 4. do **not** collapse the route into the plain `H^s` continuation wall
    `\int_0^T \|\nabla u\|_{L^\infty}\,dt`.

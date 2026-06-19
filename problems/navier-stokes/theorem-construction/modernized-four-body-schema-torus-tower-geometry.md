@@ -103,7 +103,7 @@ The old four-body strategy was a propagated packet with a live defect handoff:
 -> \mathcal P_cl(T^+), refined live defect.
 ```
 
-That same literal relay is still the right model here.
+That same literal relay is still the right template here.
 
 The modernized packet is
 
@@ -295,7 +295,7 @@ The torus role is exactly the one recorded in
 
 ```text
 continuum ontology
--> compact spectral model
+-> compact spectral realization
 -> derive exact operator mechanism
 -> lift back to continuum.
 ```
