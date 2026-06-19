@@ -350,9 +350,9 @@ close.
 
 ## Off-Diagonal Support Audit: The Exchange Block Vanishes
 
-The sign question for `(17)` has a sharper answer than expected: in the
-declared geometry the bare pairwise interaction vanishes before sign can
-matter.
+The sign question for `(17)` is removed by support geometry: in the declared
+Littlewood-Paley geometry the bare pairwise interaction vanishes before sign
+can matter.
 
 There exists a universal Littlewood-Paley collar width `M_{\mathrm{LP}}` such
 that if `\ell\ge k+M_{\mathrm{LP}}`, then
