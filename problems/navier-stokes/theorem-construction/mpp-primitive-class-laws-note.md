@@ -8,7 +8,7 @@ Role: primitive statement surface for the class-membership route.
 
 This note is the route-faithful primitive surface for the current
 class-membership contradiction program. It does **not** replace the live
-selector/defect route. It does **not** introduce a generic witness bundle. Its
+selector/defect route. It does **not** introduce an unspecified witness bundle. Its
 job is simpler: write down the primitive class laws the user is actually trying
 to build for the classical incompressible Navier--Stokes equations.
 
@@ -454,7 +454,7 @@ The next sharpening step is now explicit:
 
 ```math
 \boxed{
-\text{and lead the proof engine with finite-difference tower coherence rather than a generic witness bundle.}
+\text{and lead the proof engine with finite-difference tower coherence rather than an unspecified witness bundle.}
 }
 \tag{PL.20}
 ```

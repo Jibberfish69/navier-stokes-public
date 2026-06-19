@@ -62,7 +62,7 @@ LocalizedParabolicResistanceCoercivity.A
 Meaning: `CycleHeatAction.A` cannot be spent on the unlocalized signed current
 without a localized coercivity theorem after boundary pricing.
 
-`RetainedFaceAmplitudeGain.A` fell through the generic theorem family and reduced
+`RetainedFaceAmplitudeGain.A` fell through the broad theorem family and reduced
 only to:
 
 ```text
@@ -94,7 +94,7 @@ The first automatic theorem-creation run also selected the low-information
 source-wall-root-after-reconcile
 ```
 
-instead of a sharper source-wall primitive. The resulting note was a generic bridge
+instead of a sharper source-wall primitive. The resulting note was a broad bridge
 packet rather than a theorem-facing attack on square reserve, Zeno residue, or
 parabolic current.
 

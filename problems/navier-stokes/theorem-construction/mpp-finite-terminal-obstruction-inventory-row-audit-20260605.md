@@ -53,7 +53,7 @@ positive-scale one-field coherence fails    => forall r>0 not Field_{N,r,Q}.
 ```
 
 The ledger was weaker at one concrete row: it kept local critical translators as
-generic support even though the local `L^3` Duhamel-mass branch already has an
+unlocalized support even though the local `L^3` Duhamel-mass branch already has an
 installed same-witness CM landing.
 
 ## Added Concrete Row: Terminal L3 Duhamel Mass

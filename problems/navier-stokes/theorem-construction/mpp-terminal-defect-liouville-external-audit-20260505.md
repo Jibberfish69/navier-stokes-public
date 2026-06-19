@@ -53,7 +53,7 @@ That is weaker than the hypotheses in the usable external Liouville theorems.
 
 ## Consequence for the bypass route
 
-The current route cannot lawfully insert a generic theorem of the form
+The current route cannot lawfully insert an unlicensed theorem of the form
 
 ```math
 \text{ancient local suitable tangent}

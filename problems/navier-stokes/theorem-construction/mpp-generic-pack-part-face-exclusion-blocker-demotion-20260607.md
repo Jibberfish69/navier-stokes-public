@@ -51,7 +51,7 @@ For each proof-bearing finite terminal obstruction O:
 
 ## Audit
 
-The Pack working pass correctly showed that a generic theorem
+The Pack working pass correctly showed that an unrowed theorem
 
 ```text
 same-solution terminal obstruction => Pack_Q
@@ -63,7 +63,7 @@ open global Clay blocker. It means Pack is still a live first-face label for
 named terminal obstructions such as zero-radius or detached terminal carrier
 rows.
 
-The Part working pass correctly showed that a generic theorem
+The Part working pass correctly showed that an unrowed theorem
 
 ```text
 same original preterminal equation + Pack_Q => Part_{N,Q}

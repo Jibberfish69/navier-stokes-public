@@ -13,7 +13,7 @@ The failure taxonomy and the proof posture recorded here are the current
 route-native candidate formalization, not a claimed closure theorem.
 
 This note does **not** replace the live selector/defect route. It does **not**
-lead with a generic witness bundle. It does **not** promote full coherence-matrix
+lead with an unspecified witness bundle. It does **not** promote full coherence-matrix
 or coherence-cone packaging as the first proof engine.
 
 ## Purpose
