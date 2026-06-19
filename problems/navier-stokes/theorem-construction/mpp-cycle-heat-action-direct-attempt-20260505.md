@@ -62,9 +62,10 @@ The proof plan proposes:
 3. prove every closed cycle loses a fixed fraction of its transported mass
    through viscous heat edges.
 
-Gates 1 and 2 are formal finite-network bookkeeping once a finite packet/time
-truncation and a choice of positive edge capacities are fixed.  Gate 3 is the
-hard theorem.  It is not a consequence of the packet balance alone.
+Gates 1 and 2 are exact finite-network bookkeeping after a finite packet/time
+truncation and a choice of positive edge capacities are fixed.  Gate 3 remains
+the hard theorem: a cycle-capacity / heat-loss lower bound.  It is not a
+consequence of packet balance alone.
 
 ## Direct Attempt
 
