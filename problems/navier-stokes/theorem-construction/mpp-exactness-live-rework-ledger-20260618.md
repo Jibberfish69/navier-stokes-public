@@ -9875,3 +9875,53 @@ The targeted stale scan finds no remaining `Schur step is formal` or
 source-frontier, or appendix mirror.  The positive scan finds `(CTS.1)` and
 `(CTS.4)` plus the new sentence that Schur summation is paid only under
 `(CTS.1)`--`(CTS.3)`.  `git diff --check` passes on the edited note.
+
+## Spectral / Pair-Defect Formal-Splice Rework
+
+Old claim being spent:
+
+`spectral-transversality-in-measure-implies-pd70.md` said that `(PD.70)`,
+`(PD.70aa)`, and the refined-good-family extraction of `SG.4B` "follow
+formally" from the installed pair-defect packet.  The cited packet did contain
+the needed implications, but the corollary statement was still spending the
+word "formally" instead of naming the exact dependency.
+
+Exact replacement:
+
+The corollary now says that the installed pair-defect packet supplies the named
+implications
+
+\[
+TPS\text{-}selector\text{-}defect\text{-}budget
+\quad\text{and}\quad
+TPS\text{-}selector\text{-}defect\text{-}bridge\text{-}to\text{-}SG4B.
+\]
+
+Applying those implications to `(ST.7)=(PD.70r)` gives `(PD.70)`,
+`(PD.70aa)`, and the refined-good-family extraction of `SG.4B`.
+
+The pair-defect packet heading was also changed from the vague
+`Formal Closure Package` to `Pair-Defect Product And Energy Closure Package`,
+matching the product estimate, energy identity, strip ledger, and selector
+defect implications actually present in that section.
+
+Proof or downstream consequence:
+
+The splice is no longer a free formal step.  It is a named dependency on the
+installed pair-defect selector-budget and SG4B bridge implications.  Any later
+surface spending this branch must cite those implications or reprove the same
+budget-to-extraction passage.
+
+Surfaces edited:
+
+- `theorem-construction/spectral-transversality-in-measure-implies-pd70.md`;
+- `theorem-construction/tps-pair-defect-pde-packet.md`.
+
+Second downstream pass and validation:
+
+The targeted stale scan finds no remaining `follow formally` or
+`Formal Closure Package` wording in those two live theorem surfaces, live edge,
+or source-frontier.  The positive scan finds
+`TPS-selector-defect-budget`, `TPS-selector-defect-bridge-to-SG4B`, and the new
+pair-defect product/energy heading.  `git diff --check` passes on both edited
+files.
