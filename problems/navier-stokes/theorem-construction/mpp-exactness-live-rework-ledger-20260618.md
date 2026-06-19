@@ -12715,7 +12715,11 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard fattened` or `Standard
+pseudodifferential` phrase in the edited strict-low audit.  It finds the
+replacement finite Littlewood-Paley fattening statement and displayed
+commutator estimate.  `git diff --check` passed on the edited note and this
+ledger.
 
 ## LCI Affine Coefficient Surface Rework
 
@@ -12742,7 +12746,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `expected coefficient surface` phrase in
+the edited LCI transported-center package.  It finds the replacement
+coefficient surface required by the reduction.  `git diff --check` passed on
+the edited note and this ledger.
 
 ## Gradient Lifted Integrated-Time Candidate Rework
 
@@ -12768,7 +12775,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual integrated-time` phrase in the
+edited gradient lifted-remainder audit.  It finds the replacement candidate
+integrated-time estimate and the unchanged circularity verdict.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## AncestryDrain Tower-Flux Identity Rework
 
@@ -12795,7 +12805,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual tower-flux` phrase in the edited
+AncestryDrain note.  It finds the replacement local tower-flux identity and
+displayed donor-balance insufficiency.  `git diff --check` passed on the
+edited note and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
