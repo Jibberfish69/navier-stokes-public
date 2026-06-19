@@ -61,7 +61,7 @@ Local energy gives a one-sided balance and compactness infrastructure. It also g
 
 ## Attempt 1: Bounded variation trace regularity
 
-Bounded variation gives existence of traces. It also permits jumps. The terminal concentration model
+Bounded variation gives existence of traces. It also permits jumps. The terminal concentration sequence
 
 ```math
 F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),

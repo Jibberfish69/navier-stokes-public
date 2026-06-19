@@ -194,7 +194,7 @@ The terminal-support exclusion target is:
 \mu_\ast^{src}(B_R\times\{0\})=0.
 ```
 
-Current `L^1` source mass allows the concentration model:
+Current `L^1` source mass allows the concentration sequence:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s),

@@ -93,7 +93,7 @@ BASACNoIncomingSourceDrain.A.
 
 ## Direct attempt 1: local source mass
 
-The only installed temporal bound is `L^1_s`. It permits terminal strip concentration. The model
+The only installed temporal bound is `L^1_s`. It permits terminal strip concentration. The witness sequence
 
 ```math
 g_m(s)=m\mathbf 1_{(-1/m,0]}(s)

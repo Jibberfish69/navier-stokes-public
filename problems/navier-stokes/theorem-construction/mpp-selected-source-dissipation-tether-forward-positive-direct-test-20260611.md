@@ -79,7 +79,7 @@ ledger from the scale-critical regularity quantities.
 
 ## Direct Pointwise Test
 
-The localized nonlinear source has trilinear structure. One model term in the
+The localized nonlinear source has trilinear structure. One test term in the
 test has the form:
 
 ```math
@@ -124,7 +124,7 @@ The CKN scale-critical quantities are:
 ```
 
 They are the correct regularity currency, but finite `L^1` control of this
-currency still permits terminal concentration at the measure level.  The model:
+currency still permits terminal concentration at the measure level.  The witness sequence:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)

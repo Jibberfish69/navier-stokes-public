@@ -50,7 +50,7 @@ The installed branch gives finite terminal source mass:
 \le C_R.
 ```
 
-This is only `L^1_s`.  The terminal layer model:
+This is only `L^1_s`.  The terminal layer sequence:
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)
@@ -124,7 +124,7 @@ active-square/source-control reserve.
 ## Parent Inverse Route
 
 A parent reverse-Holder theorem forces boundedly many legal parents to
-carry a fixed fraction of source-parent mass.  The diffuse legal parent model
+carry a fixed fraction of source-parent mass.  The diffuse legal parent construction
 keeps normalized positive source mass while spreading over arbitrarily many
 legal predecessors.
 

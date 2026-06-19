@@ -36,7 +36,7 @@ Boundary inflow control alone is insufficient. The terminal source atom can form
 
 ## 2. Interior production component
 
-The missing part is an interior source-production exclusion. A model source density
+The missing part is an interior source-production exclusion. A test source density
 
 ```math
 F_N^{src,+}(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t)

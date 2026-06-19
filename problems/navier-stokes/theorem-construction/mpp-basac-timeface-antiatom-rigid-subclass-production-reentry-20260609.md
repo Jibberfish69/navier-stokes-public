@@ -61,7 +61,7 @@ with unit `L_s^1` mass and terminal weak limit:
 g_m(s)\,ds\rightharpoonup \delta_0.
 ```
 
-The model violates every uniform `L_s^p`, `p>1`, bound and carries exactly the
+This sequence violates every uniform `L_s^p`, `p>1`, bound and carries exactly the
 terminal time-face atom that the theorem must remove.
 
 ## Reverse-Holder / Super-L1 Test

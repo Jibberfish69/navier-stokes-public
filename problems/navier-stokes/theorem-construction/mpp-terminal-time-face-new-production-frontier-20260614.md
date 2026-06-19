@@ -49,7 +49,7 @@ admitted Part/Field exit.
 ```
 
 The remaining gold-side theorem is the child that removes the exact pulse
-obstruction.  It is not another generic annular statement.  It is the terminal
+obstruction.  It is not another unadmitted annular statement.  It is the terminal
 time-face anti-atom or new-production theorem:
 
 ```math
@@ -73,7 +73,7 @@ Current installed inputs provide finite terminal source mass:
 \le C_R.
 ```
 
-Finite `L^1_s` source mass permits a terminal time-face atom.  The witness model
+Finite `L^1_s` source mass permits a terminal time-face atom.  The witness sequence
 is:
 
 ```math
