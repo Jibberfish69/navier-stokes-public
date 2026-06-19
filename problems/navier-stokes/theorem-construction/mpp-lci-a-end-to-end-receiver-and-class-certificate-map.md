@@ -190,6 +190,8 @@ Only the `(Part,Dead)` endpoint exclusion is recorded as installed. The
 remaining terminal exclusions
 
 ```math
+(Part,\text{response-margin-collapse}),
+\qquad
 (Pack,\text{packing-detached}),
 \qquad
 (Field,\text{Jump}),
@@ -201,16 +203,18 @@ remaining terminal exclusions
 ```
 
 are still part of `\mathsf{End}_{NS}`. Therefore the final certificate is a
-conditional terminal assembly, not an installed conclusion.
+conditional terminal assembly, not an installed conclusion. The repaired Part
+response-margin subface is absent only under closed terminal Part predicates or
+retained strict response margins on the same terminal tail.
 
-In the endpoint theorem packet, this is the conditional 21-cell
-Pack/Part/Field matrix:
+In the endpoint theorem packet, this is the repaired conditional
+Pack/Part/Field endpoint matrix:
 
 ```math
 \{Pack,Part,Field\}
 \times
 \{
-Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+Dead,\ response\text{-}margin\text{-}collapse,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
 \}.
 \tag{RCC.12a}
 ```
