@@ -226,7 +226,8 @@ A derivative point defect of order `k` is detected at scale `r` with size
 ```
 
 The Navier-Stokes critical local-energy ledger bounds all such projected tests
-by `O(1)`.  The gap
+by the constant `C_varphi(nu,E_*)` in `(SM.17)`, independent of the test scale
+`r`.  The gap
 
 ```math
 r^{-k}\gg1
@@ -354,7 +355,8 @@ It says that once the no-waste problem has been reduced to point-supported
 projected spatial momentum defects, the only remaining physical defect is the
 already-known vector point force.
 
-So the route should now be read as:
+Therefore, after `TerminalProjectedResiduePointSupport.A` and
+`CriticalLocalEnergyBoundForResidue.A`, the exact route fork is:
 
 ```math
 \text{terminal Zeno defect}
@@ -372,8 +374,8 @@ two-door stress-flux branch already under study.
 
 ## Visibility dichotomy
 
-The preceding hypotheses should not be read as passive assumptions.  Their
-failure is itself a readout.
+The preceding hypotheses are active readout gates.  Failure of either hypothesis
+is itself a visible branch.
 
 Let `mathfrak R` be the projected spatial residual seen by divergence-free
 tests near the terminal point.
