@@ -11165,3 +11165,27 @@ required`.  The broad theorem-construction scan for `follows formally`,
 `Formal closure`, and related phrases now leaves only ledger evidence and the
 separately classified `chatgpt-items-1-8-completion-attempt.md` residue.
 `git diff --check` passes on the edited notes.
+
+## Preserved Residue Classification: ChatGPT Items 1-8 Completion Attempt
+
+Remaining hit:
+
+- `theorem-construction/chatgpt-items-1-8-completion-attempt.md` still contains
+  `Then END.TowerAmp => END.TowerBound is formal.`
+
+Classification:
+
+Intentionally preserved historical-support residue, not a live theorem route.
+The file front matter states `status: historical-support`, `proof_role:
+support`, and says the current route superseding the note is
+`clay-cm-contrapositive-witness-consumption`; its downstream consequence says
+viewer placement keeps this note as historical support, not as an active route
+or fallback theorem target.
+
+Downstream consequence:
+
+This hit is not counted as a repaired live proof surface.  The live route now
+uses the repaired endpoint/tower surfaces where `END.TowerBound` is the direct
+same-cover tower-amplitude contradiction supplied by the finite
+transported-center cover, pressure/viscous `K_k` readout, and endpoint matrix
+rows.  The historical residue remains only to preserve provenance.
