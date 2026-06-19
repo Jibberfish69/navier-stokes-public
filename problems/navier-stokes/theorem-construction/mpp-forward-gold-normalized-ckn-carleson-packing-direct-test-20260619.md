@@ -74,7 +74,7 @@ Let
 ```math
 r_j=2^{-j},
 \qquad
-\mathcal C(Q_j)\sim1,
+c_0\le \mathcal C(Q_j)\le C_0,
 \tag{NCP.6}
 ```
 
@@ -84,8 +84,8 @@ Then
 
 ```math
 \sum_j r_j^2\mathcal C(Q_j)
-\sim
-\sum_j2^{-2j}
+\le
+C_0\sum_j2^{-2j}
 <\infty,
 \tag{NCP.7}
 ```
@@ -94,8 +94,8 @@ but
 
 ```math
 \sum_j\mathcal C(Q_j)
-\sim
-\sum_j1
+\ge
+c_0\sum_j1
 =\infty.
 \tag{NCP.8}
 ```
