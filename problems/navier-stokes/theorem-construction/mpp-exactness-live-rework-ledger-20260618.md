@@ -11059,3 +11059,48 @@ downstream`, `downstream bookkeeping once`, `displayed
 `conditional PPCJ' consequence`.  It finds no remaining `follows formally`,
 `closes formally`, `formal once`, or `formal assembly` hit in the edited cycle
 cluster.  `git diff --check` passes on the edited cycle notes and this ledger.
+
+## LPM / SG4 Source-Estimate Conditional Chain Rework
+
+Old claim being spent:
+
+The LPM transport comparison note said the downstream `LPM.19 -> ... -> SG.4B`
+chain "is formal" after four theorem debts.  The DG-line packet, aligned
+residual attempt, and ordered SG4/TPS work queue used "formal implication"
+headings for implications that depend on displayed estimates or algebraic
+residual bounds.
+
+Exact replacement:
+
+The LPM note now says the installed supplier chain may be applied only after
+the four listed theorem debts prove `(LPM.19)`, and explicitly says the
+downstream `SG.4B` conclusion is not available from this route without those
+debts.  The DG-line note is now a conditional implication from the displayed
+source estimates.  The aligned-residual note is now an algebraic implication
+from the displayed residual calculation.  The ordered SG4/TPS queue is now an
+ordered conditional implication chain and states that the queue does not prove
+the seven source estimates.
+
+Proof or downstream consequence:
+
+The localized-projector / SG4 branch may spend `DG-Line^sharp`, `BootSquare`,
+`D.7mq`, `SSC-EP.A`, `D.7mr2`, `RPC.3`, and `SG.4B` only under the exact
+source-estimate hypotheses listed in the edited notes.  A displayed algebraic
+inequality may be used as algebra, but it is no longer presented as a generic
+formal proof step.
+
+Surfaces edited:
+
+- `theorem-construction/lpm-transport-comparison-and-residual-split.md`;
+- `theorem-construction/mcp-dg-line-source-estimates-pass-f4e57aa92f.md`;
+- `theorem-construction/mcp-direct-aligned-residual-square-budget-attempt-3ff9f3b5cb.md`;
+- `theorem-construction/mcp-ordered-sg4-tps-source-estimate-work-queue-ep-a-55a0779fa9.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds the replacement phrases `conditional source-chain use`,
+`Conditional implication from the displayed source estimates`, `Algebraic
+implication from the residual calculation`, and `Ordered conditional implication
+chain`.  It finds no remaining `is formal`, `Formal implication`, or `Formal
+implication chain` hit in the edited LPM / SG4 source-estimate cluster.
+`git diff --check` passes on the edited notes.
