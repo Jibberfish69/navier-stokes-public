@@ -15470,6 +15470,48 @@ and `source-frontier.yaml` finds no remaining `should`, `O(1)`, `\lesssim`,
 `schematic` shortcut on this slice, and `git diff --check` passes for the edited
 notes.
 
+## HeightFluxControl Structural Mechanism Repair
+
+Old claim being spent:
+
+`mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`
+framed the missing work as what `HeightFluxControl.A` "probably needs," said the
+dangerous flux "should be read" as an aligned positive strain carrier, and said
+a competing branch "should receive fewer cycles" until it produced a durable
+cancellation theorem.
+
+Exact replacement:
+
+The section is now titled `Structural Mechanisms Required For HeightFluxControl.A`.
+The dangerous flux is stated as the aligned positive strain carrier
+
+```text
+|w_l|^2 [ e_l . S_{<l} e_l ]_+.
+```
+
+The competing branch stays secondary to `HeightFluxControl.A` until it produces
+a cancellation theorem surviving localization, saturation, lifted commutators,
+one-sided weights, and positive-part extraction.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
+
+Downstream consequence:
+
+`HeightFluxControl.A` no longer rests on a "probably" mechanism list or a
+suggested reading of flux.  It requires one of the named structural mechanisms,
+and the dangerous positive strain carrier is the object those mechanisms must
+control.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the edited note plus `source-frontier.yaml`
+and `current-route-dependency-graph.yaml` finds no remaining `should`,
+`probably`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
+`same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
+`git diff --check` passes for the edited note.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
