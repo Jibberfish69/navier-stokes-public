@@ -20,7 +20,26 @@ The live Door 1 blocker is
 \tag{MZ.1}
 ```
 
-The finite donor graph has already been paid:
+The finite donor graph is available only under the conditional payment package:
+
+```math
+\text{ASAC.A}
++
+\text{PositivePairWeightDefectCharge.A}
++
+\text{ProjectedCutoffLedger.A}
++
+\text{LegalBoundaryLedger.A}
++
+\text{LocalDonorBalance.A}
++
+\text{EntranceLeafDecay.A}
+\Longrightarrow
+\text{TerminalDonorGraphDecomposition.A}
+\tag{MZ.2}
+```
+
+With that package installed, the remaining implication is
 
 ```math
 \text{TerminalDonorGraphDecomposition.A}
@@ -28,7 +47,7 @@ The finite donor graph has already been paid:
 \text{NoFreeTerminalZenoDonorChain.A}
 \Longrightarrow
 \text{TerminalSignedSaturation.A}.
-\tag{MZ.2}
+\tag{MZ.2a}
 ```
 
 So this attempt starts only with the infinite same-fluid internal donor chain:
@@ -108,8 +127,9 @@ remains compatible with the installed source currencies.
 
 ## Minimal unpaid chain setup
 
-Assume `(MZ.1)` fails.  After passing to a minimal unpaid chain, the following
-quantities are exhausted along the selected branch:
+Assume `(MZ.1)` fails after the conditional finite-graph payment package in
+`(MZ.2)` has been supplied.  After passing to a minimal unpaid chain, the
+following quantities are exhausted along the selected branch:
 
 ```math
 \mathcal L_m+\mathcal P_m+\mathcal E_m\to0.
@@ -120,9 +140,14 @@ Here:
 
 ```text
 L_m = legal spill/cutoff/pressure/collar/projection losses,
-P_m = retained signed partner deficit after ASAC pair-weight charge,
+P_m = retained signed partner deficit after the proved ASAC/positive-pair-weight
+      payment hypotheses in (MZ.2),
 E_m = finite donor / entrance depletion residue.
 ```
+
+If the ASAC/positive-pair-weight payment hypotheses are not supplied, this note
+does not reduce Door 1 to the infinite Zeno chain; it returns to the retained
+signed-partner payment gate.
 
 The selected positive source survives:
 
@@ -131,10 +156,10 @@ The selected positive source survives:
 \tag{MZ.12}
 ```
 
-The point of minimality is not to add a new estimate.  It removes the already
-paid exits from the branch so that any remaining obstruction must be visible as
-terminal trace failure, modulation drift, defect measure, or zero-flux profile
-production.
+The point of minimality is not to add a new estimate.  Under the conditional
+finite-graph payment package, it removes those exits from the branch so that any
+remaining obstruction must be visible as terminal trace failure, modulation
+drift, defect measure, or zero-flux profile production.
 
 ## First split: temporal source support
 
@@ -253,8 +278,9 @@ The needed visibility theorem is:
 \tag{MZ.21}
 ```
 
-It should say that a minimal unpaid terminal trace defect has a visible
-renormalized residue.  That residue then splits by stress flux.
+The exact target is: failure of `(MZ.17)` for a minimal unpaid chain produces a
+renormalized residue functional `mathfrak R` and a stress-flux number `Phi_*`
+on the same selected terminal trace.  The residue then splits by `Phi_*`.
 
 ### Nonzero flux branch
 
@@ -265,9 +291,8 @@ If the visible residue has
 \tag{MZ.22}
 ```
 
-then the branch should return to Door 1.  The finite selector is already paid,
-so the missing point is the minimal-chain version of native carrier
-identification:
+then the branch returns to Door 1 only after the minimal-chain native carrier
+identification is proved:
 
 ```math
 \boxed{
@@ -278,7 +303,7 @@ identification:
 
 This is narrower than the original `ProjectedLocalPreCauchyResidueIdentity.A`
 because retained partners, legal exits, pair-weight defects, and finite donor
-branches have already been removed by minimality.
+branches have been removed only under the conditional payment package `(MZ.2)`.
 
 ### Zero flux branch
 
