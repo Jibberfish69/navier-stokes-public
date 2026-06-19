@@ -101,7 +101,9 @@ On a localized high packet the shell energy balance has the form
 \partial_t E_P+D_P
 \le
 \langle S_{<j}^{loc}w_j,w_j\rangle
+\+
 \operatorname{div}_{\Phi}J_P
+\+
 \operatorname{Legal}_P .
 \tag{NTD.6}
 ```
@@ -116,7 +118,9 @@ A local absorption estimate would need
 \right]_+
 \le
 \theta D_P
+\+
 \operatorname{Drain}_{parent}(P)
+\+
 \operatorname{Loss}_{legal}(P),
 \qquad 0<\theta<1.
 \tag{NTD.7}
