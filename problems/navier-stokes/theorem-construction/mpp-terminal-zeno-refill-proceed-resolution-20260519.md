@@ -87,8 +87,21 @@ B_{ASAC}^{RH(p)}
 ZenoResidueLiouville_{B_{ASAC}^{RH(p)}}.A.
 ```
 
-The proof is the expected Holder anti-atom argument. The remaining production
-burden is exact:
+The anti-atom step is exactly conditional on the super-`L^1_s` time-density
+bound in `RH(p)`: if the terminal source marginal has density `g` with
+`\|g\|_{L^p_s}\le C` for some `p>1`, then for every terminal interval `I_h`
+with length `h`,
+
+```math
+\int_{I_h} g(s)\,ds
+\le
+\|g\|_{L^p_s}|I_h|^{1-1/p}
+\le
+C h^{1-1/p}\to0.
+```
+
+Thus no positive terminal time-face atom can remain under `RH(p)`.  The
+remaining production burden is exact:
 
 ```math
 \boxed{
