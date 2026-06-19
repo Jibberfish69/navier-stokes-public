@@ -63,8 +63,8 @@ The normalized source-square density is therefore, after the fixed shift,
 
 \[
 G(s)=2^{-k/2}T_k(T+2^{-2k}s),
-\qquad 2^{-k/2}\simeq r^{1/2}.
 \qquad
+2^{-k/2}\simeq r^{1/2}.
 \tag{SSC.3b}
 \]
 
