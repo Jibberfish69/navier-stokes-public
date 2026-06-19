@@ -95,7 +95,7 @@ So `(2)` becomes the exact mixed-shell bilinear identity
 
 This is the new PDE structure.
 
-## Immediate Consequence
+## Direct Consequence
 
 Integrating `(3)` on `[0,T]` gives
 

@@ -267,7 +267,7 @@ The most conservative first attack is to prove
 
 This is the cleanest formal estimate from `(8)`.
 
-### Immediate problem
+### Current problem
 
 The third term on the right still carries the same derivative loss already
 seen in `(15)`.
@@ -321,7 +321,7 @@ Using `(8)` gives the decomposition
 If `\Phi_\alpha` can be controlled at the same depth by ellipticity of `G`,
 this route may bypass part of the raw `H^{-1}` loss.
 
-### Immediate problem
+### Current problem
 
 The viscous-pressure interaction term in `(22)` still carries the operator
 
@@ -778,7 +778,7 @@ It shows the precise fork:
 2. one proves a stronger same-depth theorem for the weighted bilinear form
    `\mathcal B_G`, not for the full `L^2` norm of `\nabla_aW_\alpha^{test}`.
 
-## Immediate attack on the viscous-pressure bilinear term
+## Direct attack on the viscous-pressure bilinear term
 
 The live object is now
 

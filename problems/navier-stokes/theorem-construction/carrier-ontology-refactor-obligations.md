@@ -146,7 +146,7 @@ This is now the third debt in the ordered stack. Its current status is open,
 with the exact export surface recorded in
 [noncoherent-leakage-export-theorem.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/noncoherent-leakage-export-theorem.md).
 
-## Immediate Note-Level Consequences
+## Direct Note-Level Consequences
 
 The following note classes are structurally misframed whenever they treat a
 selector/window/projector family as the carrier itself:

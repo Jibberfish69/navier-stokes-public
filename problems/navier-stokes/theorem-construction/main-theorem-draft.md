@@ -205,7 +205,7 @@ The admissible theorem shape for any remaining refinement is the direct Euclidea
 
 With `S1`, `M1`, `M2`, `K1`-`K3`, and the Euclidean `G1`/`G2` packages all present on one theorem surface, `C3` yields `T1` as the genuine no-blow-up theorem for the stated solution class.
 
-## Immediate Paper-Section Conversion
+## Direct Paper-Section Conversion
 
 This document now converts almost directly into the paper body in the following order:
 

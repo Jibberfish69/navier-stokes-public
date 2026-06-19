@@ -118,7 +118,7 @@ The solve list now becomes:
 6. Feed `End_NS` into the terminal class-membership chain.
 7. Apply `PCTP.cond` for continuation.
 
-## Immediate next target
+## Current next target
 
 The next theorem item is
 

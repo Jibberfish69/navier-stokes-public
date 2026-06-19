@@ -19,7 +19,7 @@ Smoothness is then read by contraposition. A positive estimate may help, but it
 is only a supplier/readout theorem until it explicitly bridges into failure or
 persistence of Pack, Part, or Field.
 
-## Immediate Reseat
+## Current Reseat
 
 The source-pulse branch should be read as:
 

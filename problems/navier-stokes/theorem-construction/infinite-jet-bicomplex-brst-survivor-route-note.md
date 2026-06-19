@@ -25,7 +25,7 @@ The question is:
 }
 ```
 
-## Immediate verdict
+## Current verdict
 
 The route splits into three different verdicts.
 

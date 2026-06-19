@@ -237,7 +237,7 @@ specialization:
 
 and similarly on the Hodge branch with the harmonic slot included.
 
-## Immediate Integration Queue
+## Current Integration Queue
 
 The highest-leverage next injections are:
 

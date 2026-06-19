@@ -180,7 +180,7 @@ So if a branch currently begins too late, the repair is not “mention CM in the
 introduction.” The repair is “move the branch start upstream until the CM
 doctrine has already constrained the admissible hypotheses.”
 
-## Immediate Practical Rule
+## Current Practical Rule
 
 From now on, every closure-driving NS branch should expose two starts:
 

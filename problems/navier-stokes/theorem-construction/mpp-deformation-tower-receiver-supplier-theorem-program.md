@@ -1023,7 +1023,7 @@ Then decide whether those four statements merely give `DTR.A`, or whether the
 same structure can be upgraded to `DTR.E` by proving the affine-normalized
 packet inequality `ATE.A` directly.
 
-## Immediate Proof Wall
+## Current Proof Wall
 
 The next work is exactly `ATE.A`. No new route object is needed before this is
 tested.
