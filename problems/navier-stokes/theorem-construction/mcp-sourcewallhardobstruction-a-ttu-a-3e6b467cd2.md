@@ -139,4 +139,8 @@ or
 
 ## Stop condition
 
-This note records a hard mathematical obstruction for the current route family.  Continuing the same loop without a new mechanism is expected to repeat the same blocker.  The next productive action is not another reformulation of the existing reserve; it is a new theorem idea for either active-square Carleson control or terminal-Zeno rigidity.
+This note records a hard mathematical obstruction for the current route family.
+The installed inputs contain no mechanism that changes this blocker.  A further
+reformulation of the existing reserve is therefore not a proof step; the
+remaining mathematical burden is a new theorem idea for either active-square
+Carleson control or terminal-Zeno rigidity.
