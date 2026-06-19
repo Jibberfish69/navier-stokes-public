@@ -23,7 +23,7 @@ Verdict:
 }
 ```
 
-The CM witness-face framing is correct and should be kept.  It does not by
+The CM witness-face framing is correct and remains the framing.  It does not by
 itself solve the Field-face residual wall.
 
 ## Periodic Navier--Stokes Target
