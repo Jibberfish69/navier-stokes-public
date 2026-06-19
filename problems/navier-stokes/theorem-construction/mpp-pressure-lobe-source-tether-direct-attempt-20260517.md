@@ -115,7 +115,15 @@ TerminalSkewLocalizationLedger.A
 \tag{PLST.8}
 ```
 
-up to the standard pressure/cutoff/collar ledgers.
+provided the pressure/cutoff/collar remainders are paid by the named legal
+input `TerminalPressureCollarLegal.A`, i.e. by an estimate of the form
+
+```math
+\sum_{\mathrm{pressure/cutoff/collar}}
+\mathrm{Loss}_{pc}
+\le
+Legal_N+o_N(1).
+```
 
 Therefore the Leray tether route is valid only conditionally:
 
