@@ -217,7 +217,6 @@ the cubic term has the wrong sign:
 -cM+CM^3
 \ge0
 \quad\text{when}\quad
-M\gtrsim \sqrt{c/C}.
 M\ge \sqrt{c/C}.
 \tag{LST.18}
 ```
