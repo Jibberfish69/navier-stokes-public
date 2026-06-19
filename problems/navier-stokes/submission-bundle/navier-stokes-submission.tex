@@ -1,5 +1,16 @@
 \documentclass[11pt]{article}
 
+\makeatletter
+\def\nsExpectedJobname{navier-stokes-human-submission}
+\edef\nsActualJobname{\jobname}
+\ifx\nsActualJobname\nsExpectedJobname
+\else
+  \PackageError{navier-stokes-submission}
+    {Wrong jobname: compile with -jobname=navier-stokes-human-submission}
+    {This source is the human/app-aligned submission source.  The repo-declared PDF track is navier-stokes-human-submission.pdf.}
+\fi
+\makeatother
+
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1.02in]{geometry}
