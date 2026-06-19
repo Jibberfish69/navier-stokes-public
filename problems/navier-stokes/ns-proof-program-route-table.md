@@ -370,7 +370,7 @@ Field_avg + uniform positive-scale SCF-good finite cover + ATD_m^epsilon => Fiel
 CM_avg => CM
 ```
 
-Receiver-side route-valid cells from the user's 21-cell conditional route theorem:
+Receiver-side route-valid cells from the repaired endpoint-matrix conditional route theorem:
 
 | Cell | Receiver object materialized | Route-valid role |
 | --- | --- | --- |
