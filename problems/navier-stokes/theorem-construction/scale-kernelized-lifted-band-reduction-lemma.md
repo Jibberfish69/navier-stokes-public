@@ -111,7 +111,7 @@ pieces shell by shell in `k`:
 \Delta_j\big((\widetilde\Delta_j u^{(n)}\cdot\nabla)\Delta_k u^{(n)}\big),
 ```
 
-where `\widetilde\Delta_j` denotes the usual finite `j`-collar.
+where `\widetilde\Delta_j` denotes the fixed finite `j`-collar.
 
 ### Low-high term
 
