@@ -29,21 +29,43 @@ itself must be charged by a source-weighted theorem.
 
 ## 1. The needed domination
 
-For a selected packet with \(r=2^{-j}\), write
+For a selected active shell \(j\), choose the source-square parent index
+
+\[
+k=j-C_0,
+\qquad C_0\ge5,
+\tag{SSC.1a}
+\]
+
+so \(2^{-k}\simeq2^{-j}\) with only a fixed dyadic constant.  Write
 
 \[
 D_j(t)=\nu r^{-2}\|w_j(t)\|_2^2
 \tag{SSC.2}
 \]
 
-up to the fixed Littlewood--Paley constants used in the route.  The square
-trace bridge uses the normalized tail density
+with \(r=2^{-j}\), up to the fixed Littlewood--Paley constants used in the
+route.  The square trace bridge uses the parent-tail density
 
 \[
-G(s)=r^{1/2}T_j(T+r^2s),
-\qquad
-T_j(t)=\sum_{\ell>j+4}D_\ell(t).
+T_k(t)=\sum_{\ell>k+4}D_\ell(t).
 \tag{SSC.3}
+\]
+
+Since \(j>k+4\), the selected shell is included:
+
+\[
+D_j(t)\le T_k(t).
+\tag{SSC.3a}
+\]
+
+The normalized source-square density is therefore, after the fixed shift,
+
+\[
+G(s)=2^{-k/2}T_k(T+2^{-2k}s),
+\qquad 2^{-k/2}\simeq r^{1/2}.
+\qquad
+\tag{SSC.3b}
 \]
 
 The selected source density has the schematic normalized form
@@ -72,7 +94,18 @@ C\nu r^{-2}
 \tag{SSC.5}
 \]
 
-on the selected source carrier, modulo legal residue.  More generally it
+on the selected source carrier, modulo legal residue, because `(SSC.5)` gives
+
+\[
+a(s)
+\le
+C\,r^{1/2}D_j(T+r^2s)
+\le
+C\,2^{-k/2}T_k(T+2^{-2k}s)
+\tag{SSC.5a}
+\]
+
+after absorbing the fixed dyadic shift into the constants.  More generally it
 follows from the weighted product estimate
 
 \[
@@ -83,7 +116,7 @@ e_j\cdot S_{<j}^{loc}e_j
 \right]_+
 dx
 \le
-C\,T_j(t)
+C\,T_k(t)
 +\operatorname{Legal}_j(t)
 \tag{SSC.6}
 \]
