@@ -109,9 +109,9 @@ and
 + C_0 2^{-2\delta N}.
 ```
 
-The intended reduction is:
+The intended reduction, after the 2026-06-19 proportional-gap audit, is:
 
-1. The strict low-mode parts of `\mathcal{T}^{LH}_{j,n}` and `\mathcal{T}^{HL}_{j,n}`, isolated in `theorem-construction/scale-paraproduct-reduction-lemma.md`, are reduced to `\mathcal{L}_N^{(n)}(t)E_N^{(n)}(t)` plus an arbitrarily small dissipation fraction.
+1. The old fixed-cutoff strict low-mode parts of `\mathcal{T}^{LH}_{j,n}` and `\mathcal{T}^{HL}_{j,n}` are split proportionally.  The deep-low range `k <= (4/5)j-Gamma` is absorbed directly into the viscous term by `mpp-forward-gold-proportional-deep-low-split-20260619.md`.  The remaining shallow-low range `(4/5)j-Gamma < k < j-4` is a mesoscopic high-frequency band and must be included in the lifted stress-strain / middle-band flux packet.
 2. Replacing `S_{j-4}` with `S_{N-4}` creates two different remainder packets: a threshold-local spill collar handled by `theorem-construction/scale-spill-reduction-lemma.md`, and a lifted high-side remainder which remains separate from the genuine high-high packet.
 3. The genuine high-high packet is reduced to a cubic dyadic tail by `scale-high-high-near-diagonal-reduction-lemma.md` and is usable only through the `scale-cubic-tail-absorption-lemma.md` coefficient-margin estimate with `N>=N_*` and a fixed `0<eta<1` dissipation fraction.
 4. The lifted high-side remainder is now reduced, by `scale-lifted-band-stress-strain-flux-repair.md`, to a single coupled mesoscopic stress-strain flux theorem `(L-Flux)` rather than a shellwise leakage estimate.
@@ -123,8 +123,9 @@ Once the transport-defect bound above is established, the scale-barrier bridge i
 
 ## Precise Missing Step
 
-The remaining missing step is the lifted-band flux theorem on the same
-classical approximation family, with constants independent of `n` and `N`:
+The central missing step is the lifted-band flux theorem on the same classical
+approximation family, with the shallow-low mesoscopic band included and with
+constants independent of `n` and `N`:
 
 ```math
 \sup_n
@@ -135,10 +136,11 @@ classical approximation family, with constants independent of `n` and `N`:
 C_0 2^{-2\delta N}.
 ```
 
-The low-high, high-low, threshold-local spill, and genuine high-high packets
-are isolated separately. The only genuinely new coupled burden is the lifted
-mesoscopic stress-strain flux recorded in
-`scale-lifted-band-stress-strain-flux-repair.md`.
+The proportional deep-low part is now paid.  The threshold-local spill and
+genuine high-high packets remain separately tracked.  The genuinely coupled
+burden is the lifted mesoscopic stress-strain flux recorded in
+`scale-lifted-band-stress-strain-flux-repair.md`, now with the shallow-low band
+explicitly included.
 
 ## Honest Boundary
 

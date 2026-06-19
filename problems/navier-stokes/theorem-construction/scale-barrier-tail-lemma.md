@@ -35,10 +35,14 @@ T_N(0)\exp\left(C\int_0^T\mathcal L_N(s)\,ds\right)
 ```
 
 The remaining theorem-grade burdens are the packet estimates that produce the
-damped tail-energy inequality on the same classical surface: the strict-low
-coefficient-preserving commutator, the threshold spill collar, the lifted
-mesoscopic stress-strain flux, and the aligned high-high absorption.  See
-`mpp-forward-gold-scale-barrier-tail-damping-reconciliation-20260619.md`.
+damped tail-energy inequality on the same classical surface.  The strict-low
+packet has now been sharpened: the proportional deep-low subrange is absorbed,
+and the unpaid shallow-low band must be carried inside the mesoscopic
+stress-strain / middle-band flux burden.  The remaining list is therefore the
+threshold spill collar, the lifted mesoscopic flux with shallow-low included,
+and the aligned high-high absorption.  See
+`mpp-forward-gold-scale-barrier-tail-damping-reconciliation-20260619.md` and
+`mpp-forward-gold-proportional-deep-low-split-20260619.md`.
 
 ## Setting
 
@@ -122,22 +126,30 @@ By the exact Bony split recorded in
 the nonlinear term decomposes into strict low-mode, threshold-local spill,
 lifted high-side remainder, and genuine high-high packets.
 
-The strict low-mode packets are reduced by
-[scale-paraproduct-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-paraproduct-reduction-lemma.md):
+The earlier fixed-cutoff strict-low reduction by
+[scale-paraproduct-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-paraproduct-reduction-lemma.md)
+is not installed as a theorem-grade coefficient estimate.  The audited
+replacement is the proportional split in
+`mpp-forward-gold-proportional-deep-low-split-20260619.md`: for a large fixed
+\(\Gamma\),
 
 ```math
 \sum_{j\ge N}
-\left(
-\left|\left\langle \mathcal T^{SLH}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
-+
-\left|\left\langle \mathcal T^{SHL}_{j,n},\Delta_j u^{(n)}\right\rangle\right|
-\right)
+\sum_{k\le (4/5)j-\Gamma}
+\left|I_{j,k}^{(n)}\right|
 \le
-C\,\mathcal L_N^{(n)}(t)\,E_N^{(n)}(t)
-+
-\frac{\eta\nu}{4}D_N^{(n)}(t).
+\frac{\eta\nu}{16}D_N^{(n)}(t).
 \tag{2}
 ```
+
+The complementary shallow band
+
+```math
+(4/5)j-\Gamma<k<j-4
+```
+
+is a mesoscopic high-frequency band and remains part of the lifted
+stress-strain / middle-band flux burden.
 
 The threshold-local spill collar is isolated by
 [scale-spill-reduction-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-spill-reduction-lemma.md):
@@ -252,7 +264,7 @@ prove that coefficient bound.
 - `invariance`: pressure gauge and equivalent dyadic partitions
 - `theorem_interface`: exact upstream input for compactness and gradient continuation
 - `critical_scale_measure`: `T_N^{(n)}` / `E_N^{(n)}` and the dissipation tail
-- `closure_mechanism`: paraproduct reduction, spill reduction, high-high coefficient margin, `(L-Flux)`, and Gronwall under the tail-compatible coefficient hypothesis
+- `closure_mechanism`: proportional deep-low absorption, spill reduction, high-high coefficient margin, `(L-Flux)` with the shallow-low mesoscopic band included, and final tail integration with retained coercive damping
 - `gradient_transfer_role`: supplies the same dyadic barrier later recertified by the Euclidean fourth bridge
 
 ## Honest Boundary
@@ -260,7 +272,9 @@ prove that coefficient bound.
 This lemma remains a theorem-construction target on the fixed classical
 Euclidean surface. Under the stricter audit requirement, the remaining live burdens
 are proposition-level packet alignment, the coupled lifted-band flux theorem
-`(L-Flux)` from `scale-lifted-band-stress-strain-flux-repair.md`, and the
-tail-compatible Gronwall coefficient bound displayed in the lemma statement.
+`(L-Flux)` from `scale-lifted-band-stress-strain-flux-repair.md` with the
+shallow-low band included, and the threshold spill collar. The older
+tail-compatible Gronwall coefficient is not the sharp remaining blocker once
+the coercive tail damping is retained.
 Without those theorem-grade inputs, the proposition cannot honestly count as
 closed.

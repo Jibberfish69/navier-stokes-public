@@ -178,7 +178,13 @@ with the genuine high-high interaction.
 
 ## Output Of This Lemma
 
-The strict low-mode low-high and high-low transport pieces are no longer part
-of the live scale-barrier mystery. The remaining scale-side debt begins with
-the threshold-local spill collar and the lifted high-side remainder created
-when `S_{j-4}` is frozen at `N`.
+The displayed fixed-cutoff reduction is not theorem-grade in its present form.
+The 2026-06-19 damped test shows that the direct fixed-cutoff estimate produces
+either a Lipschitz coefficient \(K_NT_N\) or a squared coefficient
+\(\mathcal L_N^2T_N\), both too large for the retained \(2^{2N}\) damping under
+only the energy surface.
+
+The usable replacement is the proportional split recorded in
+`mpp-forward-gold-proportional-deep-low-split-20260619.md`: the genuinely
+deep-low range is absorbed, while the shallow-low range is merged into the
+lifted mesoscopic stress-strain / middle-band packet.
