@@ -11956,3 +11956,38 @@ frame-coefficient ledger.
 Surfaces edited:
 
 - `theorem-construction/mcp-exact-scf-pressure-normalization-lemma-58be40c549.md`.
+
+## Lagrangian Stokes Divergence-Repair Interface Rework
+
+Old claim being spent:
+
+The Lagrangian-Stokes bridge program said localization breaks the frozen
+constraint and that Bogovskii-type tools are "expected to enter."  That hid the
+actual object needed to repair the localized constraint
+`\operatorname{div}_a(A_*v)=0`.
+
+Exact replacement:
+
+The note now points to the concrete `A_*`-adapted right inverse `(7ab)`-`(7ad)`.
+After cutoff it requires
+\[
+\widetilde v_\chi
+=\chi v-\mathcal R_{A_*}(\operatorname{div}_a(A_*(\chi v))),
+\qquad
+\operatorname{div}_a(A_*\widetilde v_\chi)=0,
+\]
+with same-depth bounds
+\[
+\|\mathcal R_{A_*}g\|_{W^{1,p}}\le C\|g\|_{L^p},\qquad
+\|\mathcal R_{A_*}g\|_{H^{s+1}}\le C_s\|g\|_{H^s}.
+\]
+
+Proof or downstream consequence:
+
+The patchwise estimate `(7u)` may spend the localized cutoff solution only
+after this divergence-repair theorem is available.  A generic appeal to
+Bogovskii tools is not enough.
+
+Surfaces edited:
+
+- `theorem-construction/lagrangian-stokes-bridge-program.md`.
