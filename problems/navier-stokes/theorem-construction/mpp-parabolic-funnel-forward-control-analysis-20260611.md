@@ -23,8 +23,8 @@ kept as a downstream fallback only after the forward obstruction is named.
 
 ## 0. Source Correction Being Preserved
 
-Thomas's correction is that the shrinking-radius problem should not be treated
-as disconnected fixed-cylinder tests:
+Thomas's correction is that the shrinking-radius problem is not treated as
+disconnected fixed-cylinder tests:
 
 ```text
 try the forward-positive estimate control analysis first, see if it passes, and
@@ -444,8 +444,8 @@ FunnelSlabToCKN.A
 
 or a direct moving-funnel epsilon-regularity theorem.
 
-Only after one of those forward attempts hits a precise obstruction should the
-obstruction be inspected as a CM class-exit witness. The current note does not
+Only after one of those forward attempts hits a precise obstruction is the
+obstruction inspected as a CM class-exit witness. The current note does not
 spend the obstruction as `not Pack_Q`, `not Part_{N,Q}`, or
 `forall r>0 not Field_{N,r,Q}`.
 
