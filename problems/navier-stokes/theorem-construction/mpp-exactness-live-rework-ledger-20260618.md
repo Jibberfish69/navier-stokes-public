@@ -10305,3 +10305,40 @@ The targeted scan finds no remaining `formal compactness-route bridge` hit in
 the source note or appendix copy.  The positive scan finds `conditional
 compactness-route bridge` in both surfaces, and `git diff --check` passes on
 the edited appendix.
+
+## Working Ontic Object Package Rework
+
+Old claim being spent:
+
+The ontic object package source note and appendix copy were titled as a
+"Formal Ontic Object Package," and the neighboring-response law said it made
+cross-rung/cross-neighbor coupling "formal rather than semantic only."  The
+body of the note was definitional, so this wording risked turning a working
+law-bundle into proof force.
+
+Exact replacement:
+
+The source and appendix now call the surface the working ontic object package.
+The neighboring-response law now says it makes cross-rung and cross-neighbor
+coupling an explicit law-level constraint rather than a semantic analogy.  The
+admissibility target is introduced as an exact admissibility target, not as a
+generic formalism.
+
+Proof or downstream consequence:
+
+Later packets may use `\mathfrak O_{\mathrm{NS}}^{\mathrm{work}}` only as the
+shared one-fluid law-bundle and admissibility object.  This surface does not
+close the analytic class-membership witness by itself.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-formal-ontic-object-package.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Formal Ontic Object Package`, `formal
+rather than semantic only`, or `Formally:` hit in the edited source note or
+appendix copy.  The positive scan finds `Working Ontic Object Package` and the
+explicit law-level replacement, and `git diff --check` passes on both edited
+surfaces.
