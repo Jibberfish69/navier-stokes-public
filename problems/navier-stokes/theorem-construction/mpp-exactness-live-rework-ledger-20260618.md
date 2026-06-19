@@ -15556,6 +15556,59 @@ remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
 `same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
 `git diff --check` passes for the edited notes.
 
+## Terminal Time-Face Jump-Sink Exact Marginal Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-terminal-timeface-jump-sink-alternative-20260619.md` described
+the selected scalar terminal source marginal and terminal slab balance
+"schematically" and used `\approx` / `\sim` in the heat-scale source-balanced
+packet example.
+
+Exact replacement:
+
+The note now defines the compact-cutoff time marginal as
+
+```text
+nu_{m,chi}^{src,+}(I)
+  := int_{R^3 x I} chi(x) d mu_m^{src,+}(x,s).
+```
+
+The terminal slab identity is written with an explicit residual:
+
+```text
+nu_{m,chi}^{src,+}((-eps,0])
+ = J_m + D_m + F_m^{bdry} + P_m^{con} + C_m^{sgn} + L_m + R_m,
+lim_{m->infty} R_m(eps;chi)=0 for each fixed eps>0.
+```
+
+The source-balanced packet example now uses fixed comparability constants:
+
+```text
+c_0 nu D_j(t) <= F_j(t) <= C_0 nu D_j(t) on I_j,
+c_I 2^{-2j} <= |I_j| <= C_I 2^{-2j}.
+```
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-terminal-timeface-jump-sink-alternative-20260619.md`.
+
+Downstream consequence:
+
+`TerminalTimeFaceJumpSinkAlternative.A` now rests on an exact cutoff marginal,
+an explicit balance residual, and named heat-scale comparability constants.  The
+visibility theorem still does not prove terminal anti-atom; it reduces exclusion
+to `NoFreeTerminalTraceSink.A` or one of the listed sink-payment/coercive
+suppliers.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the edited note and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, `schematic`, `\approx`, or
+`\sim` shortcut on this slice, and `git diff --check` passes for the edited
+note.
+
 ## CM Class-Exit Obstruction Split Repair
 
 Old claim being spent:
