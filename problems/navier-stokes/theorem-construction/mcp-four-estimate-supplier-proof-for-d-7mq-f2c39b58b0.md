@@ -2,7 +2,13 @@
 
 ## Status
 
-Conditional supplier proof. The four requested estimates close the formal path to `D.7mq` once their source hypotheses are supplied on the same selector-good strip.
+Conditional supplier reduction.  On one selector-good strip, assume the four
+source packets below hold with the same terminal core-cap family: anchored
+density/Holder control, finite shell comparability, regular-window `C^2`
+transport stability, and exact-potential comparison with a reference
+Cauchy-Green gap.  Under those hypotheses the finite-frame expansion and the
+Davis-Kahan step prove `D.7mq`; without the same-strip hypotheses this note
+supplies no `D.7mq` input.
 
 ## Target
 
