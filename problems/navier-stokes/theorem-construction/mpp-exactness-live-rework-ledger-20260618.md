@@ -15642,6 +15642,44 @@ remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
 `same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
 `git diff --check` passes for the edited notes.
 
+## LCI Receiver Bridge-License Repair
+
+Old claim being spent:
+
+`mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md` said the receiver
+certificate "should not" be stated as closing the segment-thickness cell by
+itself.  `mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md` said
+the finite-parameter Gronwall theorem "should not" be used to prove base
+`EOC.A` from itself and that only after `(ULCI.29)` is available "should" the
+base transported-center return be spent.
+
+Exact replacement:
+
+The receiver certificate now states that it does not close the
+segment-thickness cell by itself and that the segment-thickness conclusion also
+spends the separated `OFP.C1e2` inputs.  The uniform lower-carrier note states
+that `(ULCI.24)` is not used to pretend `EOC.A` has been proved from itself, and
+that the base transported-center return is spent only after `(ULCI.29)` is
+available.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md`.
+- `theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md`.
+
+Downstream consequence:
+
+Receiver-side LCI material cannot be counted as segment-thickness closure or as
+a circular proof of base `EOC.A`.  It has proof force only after the separated
+inputs and `(ULCI.29)` have been supplied.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the two edited notes and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
+slice, and `git diff --check` passes for the edited notes.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
