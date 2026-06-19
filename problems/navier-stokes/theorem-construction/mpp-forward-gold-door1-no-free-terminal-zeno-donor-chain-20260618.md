@@ -14,7 +14,8 @@ on the nonzero-flux side or `MinimalZenoProfileProduction.A` on the zero-flux
 Door 2 side.
 
 Role: continue the Door 1 proof after the finite signed-current accounting has
-been paid.
+been reduced to explicit signed-payment, legal-loss, and donor-telescoping
+hypotheses.
 
 ## Target
 
@@ -61,14 +62,17 @@ mcp-terminalzenorefillnofreesink-a_ind-0238bb3507.md
 It agrees with the current Door 1 reduction:
 
 ```text
-LocalDonorBalance.A
-EntranceLeafDecay.A
-retained signed partners
-legal exits
-ASAC pair-weight charge
+LocalDonorBalance.A,
+EntranceLeafDecay.A,
+legal exits,
+and retained signed partners only after
+ASAC.A + PositivePairWeightDefectCharge.A
+with the packet-residual, no-incoming, and backward-uniqueness inputs.
 ```
 
-pay every finite branch.  The only surviving branch is terminal Zeno refill.
+Under those hypotheses the finite branches are paid.  Without the ASAC/sign
+payment hypotheses, the retained signed-partner branch is still an active
+same-witness signed-payment gate, not part of the terminal Zeno refill atom.
 
 The post-ASAC donor/no-free-sink surface
 
@@ -93,8 +97,9 @@ states the same implication:
 \tag{NZD.4}
 ```
 
-So the current Door 1 reduction should not keep finite donor depletion on the
-blocker list.
+Thus finite donor depletion is removed from the blocker list only under the
+displayed post-ASAC hypotheses.  If those inputs are absent, the blocker list
+still contains the retained signed-partner payment gate.
 
 ## Donor graph decomposition
 
@@ -117,12 +122,15 @@ there are three cases.
 ### 1. Retained signed partner
 
 The signed counter-edge `e^*` remains in the same terminal ledger.  Bare
-antisymmetry gives the pair, and the post-ASAC one-sided mismatch is paid by
+antisymmetry gives the pair.  The one-sided mismatch is paid only under proved
+`ASAC.A` with the residual/no-incoming/backward-uniqueness inputs and
 
 ```math
 \text{PositivePairWeightDefectCharge.A}.
 \tag{NZD.6}
 ```
+
+Without those hypotheses, this is not a resolved finite graph case.
 
 ### 2. Legal exit
 
@@ -159,13 +167,28 @@ Thus:
 \tag{NZD.9}
 ```
 
-is paid at the current route resolution: the finite graph cases are no longer
-the hard theorem.
+is conditional at the current route resolution:
+
+```math
+\text{ASAC.A}
++\text{PositivePairWeightDefectCharge.A}
++\text{ProjectedCutoffLedger.A}
++\text{LegalBoundaryLedger.A}
++\text{LocalDonorBalance.A}
++\text{EntranceLeafDecay.A}
+\Longrightarrow
+\text{TerminalDonorGraphDecomposition.A}.
+\tag{NZD.9a}
+```
+
+The finite graph cases leave the hard theorem only after these inputs are
+actually supplied.
 
 ## Remaining atom
 
-The only branch not paid by `(NZD.6)`--`(NZD.8)` is an infinite same-fluid donor
-chain accumulating at the terminal time/scale:
+After `(NZD.6)`--`(NZD.8)` and the hypotheses in `(NZD.9a)` are supplied, the
+only branch not paid is an infinite same-fluid donor chain accumulating at the
+terminal time/scale:
 
 ```math
 r_m\downarrow0,
@@ -207,9 +230,11 @@ The Door 1 implication is:
 \tag{NZD.13}
 ```
 
-Since `TerminalDonorGraphDecomposition.A` is paid by the checked finite
-edge-partition and donor telescoping, the live Door 1 blocker is just
-`NoFreeTerminalZenoDonorChain.A`.
+Once `TerminalDonorGraphDecomposition.A` is supplied by the checked finite
+edge-partition, legal ledgers, signed-payment hypotheses, and donor telescoping,
+the live Door 1 blocker is `NoFreeTerminalZenoDonorChain.A`.  Before that
+payment is supplied, the retained signed-partner gate remains a separate active
+Door 1 burden.
 
 ## Internal forks of `NoFreeTerminalZenoDonorChain.A`
 
