@@ -10926,3 +10926,31 @@ The targeted scan finds no remaining `follow formally` or `follows formally`
 hit in the edited localized-projector note or appendix copy.  The positive scan
 finds `cited supplier chain` and `sufficient reduction only`, and `git diff
 --check` passes on the edited source note.
+
+## Pair Topslot / Offaxis Supplier Assembly Rework
+
+Old claim being spent:
+
+The pair-topslot/offaxis supplier note ended by saying everything downstream of
+the two suppliers is "formal assembly."
+
+Exact replacement:
+
+The note now says everything downstream of `Pair-OffAxis` and `Pair-TopSlot` is
+conditional assembly from the two displayed supplier estimates.
+
+Proof or downstream consequence:
+
+The exact-potential simple-top branch may spend the downstream selector-strain
+assembly only after both pair-level supplier estimates are available.
+
+Surfaces edited:
+
+- `theorem-construction/pair-topslot-and-offaxis-suppliers-imply-ssc.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal assembly` hit in the edited
+pair-topslot source note or appendix copy.  The positive scan finds
+`conditional assembly from the two displayed supplier estimates`, and `git diff
+--check` passes on the edited source note.
