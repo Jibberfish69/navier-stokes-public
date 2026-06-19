@@ -122,7 +122,7 @@ The following audit must remain explicit in the final theorem proof:
 | Spectral truncation treated as a new PDE | Truncation may appear only as a removable analytical device tied back to the same carrier |
 | Silent branch substitution | Resolved locally: the Euclidean route is theorem-primary and the curvature route is deprecated provenance only |
 | Stronger hidden data assumptions | The data class used by all packages must match the theorem target and be stated once |
-| Heuristic frequency decay | The dangerous-scale control must be a proved quantitative estimate, not descriptive prose |
+| Descriptive frequency decay | The dangerous-scale control must be a proved quantitative estimate, not descriptive prose |
 
 ## Strong-Enough Functional Interface
 
