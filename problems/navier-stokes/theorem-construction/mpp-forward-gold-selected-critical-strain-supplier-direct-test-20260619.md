@@ -99,7 +99,7 @@ with
 
 ```math
 \|u\|_{L^{10/3}_{t,x}}^{10/3}
-\lesssim
+\le C
 \|u\|_{L^\infty_tL^2_x}^{4/3}
 \|\nabla u\|_{L^2_{t,x}}^2.
 \tag{SCS.8}
@@ -133,7 +133,7 @@ does not produce a scale-uniform estimate.  For modes below \(j\),
 
 ```math
 \|S_{<j}\|_{L^{5/2}_x}
-\lesssim
+\le C
 2^{3j/10}\|S_{<j}\|_{L^2_x},
 \tag{SCS.11}
 ```
@@ -143,26 +143,42 @@ coefficient therefore grows with the scale threshold.  On a heat window
 `|I_j|\sim2^{-2j}/\nu`, this growth is not enough to force tail smallness of
 the selected critical feed coefficient.
 
-Equivalently, the critical model
+Equivalently, a selected critical packet is represented here by the exact
+normalization
 
 ```math
-|S|\sim\nu r_j^{-2}
+\alpha_S{\nu\over r_j^2}
+\le
+|S|
+\le
+A_S{\nu\over r_j^2}
 \quad\text{on}\quad
-B_{r_j}\times I_j
+B_{r_j}\times I_j,
+\qquad
+\alpha_t{r_j^2\over\nu}\le |I_j|\le A_t{r_j^2\over\nu},
 \tag{SCS.12}
 ```
 
 has
 
 ```math
-\int_{Q_j}|S|^2\,dxdt\sim\nu r_j\to0,
+c_2\nu r_j
+\le
+\int_{Q_j}|S|^2\,dxdt
+\le
+C_2\nu r_j
+\to0,
 \tag{SCS.13}
 ```
 
 but
 
 ```math
-\int_{Q_j}|S|^{5/2}\,dxdt\sim\nu^{3/2}.
+c_{5/2}\nu^{3/2}
+\le
+\int_{Q_j}|S|^{5/2}\,dxdt
+\le
+C_{5/2}\nu^{3/2}.
 \tag{SCS.14}
 ```
 
