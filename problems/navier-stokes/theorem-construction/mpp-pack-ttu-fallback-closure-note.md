@@ -175,8 +175,18 @@ QBound.A:\qquad
 \sup_{t<T_*}\|\nabla u(t)\|_2<\infty
 ```
 
-were upgraded to a continuation-scale bound through the standard periodic
-smooth theory, it would give terminal continuation and hence `Pack.TTU`.
+were upgraded to a continuation-scale bound, the relaunch step would be exact:
+for some `s>5/2`,
+
+```math
+\sup_{t<T_*}\|u(t)\|_{H^s(T^3)}\le M
+```
+
+gives a local lifespan `\delta=\delta(s,\nu,M)>0`; launching from
+`t_j \uparrow T_*` and using uniqueness on overlaps extends the same solution
+past `T_*`, hence gives `Pack.TTU`.  The enstrophy bound `QBound.A` itself is
+not that continuation norm unless a separate upgrade theorem
+`QBoundToHsContinuation.A` is proved.
 
 The route-local stronger supplier is
 

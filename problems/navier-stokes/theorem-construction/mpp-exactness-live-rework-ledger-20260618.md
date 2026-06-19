@@ -12563,6 +12563,117 @@ edited response-height note.  It finds the replacement heat-matched shell
 support restriction and the resulting `rho_j` width error.  `git diff --check`
 passed on the edited note and this ledger.
 
+## B-ASAC Endpoint Time-Marginal Counterexample Rework
+
+Old claim being spent:
+
+The B-ASAC residue Liouville attempt called the terminal atom witness the
+"standard endpoint time-marginal witness."
+
+Exact replacement:
+
+The note now calls it the exact endpoint time-marginal counterexample:
+`g_m(s)=m 1_{(-1/m,0]}(s)`, with bounded `L^1_s` mass converging to a terminal
+atom.
+
+Proof or downstream consequence:
+
+The counterexample records the measure-theoretic gap: finite source mass and no
+earlier selected source slice do not imply a reverse Holder or `L^p_s`, `p>1`,
+anti-concentration input.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-b-asac-residue-liouville-direct-attempt-20260517.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## ECQ Whole-Space/Patching Clause Rework
+
+Old claim being spent:
+
+The ECQ classical continuation equivalence note said the retained-cover readout
+uses a "standard whole-space or periodic tail/patching convention."
+
+Exact replacement:
+
+The note now separates the two cases.  On `T^3`, a finite retained cover with
+bounded overlap globalizes the local `H^s` readout.  On `R^3`, the readout
+becomes a global `H^s(R^3)` continuation norm only with a same-depth tail bound
+`sup_{t in I}||(1-chi_R)u(t)||_{H^s}->0` or an installed
+carrier-realization surface supplying that depth-`s` tail/patching.
+
+Proof or downstream consequence:
+
+The whole-space ECQ implication may not spend local retained-cover control as a
+global continuation norm without the tail clause.  The periodic case remains
+finite-cover/bounded-overlap.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-ecq-classical-continuation-equivalence-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Quantitative Source-Dissipation CKN-Carrier Rework
+
+Old claim being spent:
+
+The QSD-AC direct reentry said the CKN carrier controls the "usual local
+dissipation and local pressure quantities."
+
+Exact replacement:
+
+The tether test now displays the actual local-energy quantities controlled on
+the transported cylinder: `int |nabla u|^2`, `int |u|^3`, and
+`int |p-<p>_{B_R^\Phi(t)}|^{3/2}`.
+
+Proof or downstream consequence:
+
+The selected one-sided same-fluid source marginal remains a separate tether
+burden.  CKN/local-energy control does not automatically imply
+`mu_m^{src,+} << D_m^{CKN}` on the selected terminal windows.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-quantitative-source-dissipation-ac-direct-reentry-20260609.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Pack.TTU Enstrophy-To-Continuation Rework
+
+Old claim being spent:
+
+The Pack.TTU fallback note said an enstrophy bound upgraded through "standard
+periodic smooth theory" would give terminal continuation.
+
+Exact replacement:
+
+The note now states the exact relaunch requirement: a bound
+`sup_{t<T_*}||u(t)||_{H^s(T^3)}<=M` for some `s>5/2` gives a lifespan
+`delta=delta(s,nu,M)>0`; launching from `t_j -> T_*` and using uniqueness on
+overlaps extends the same solution past `T_*`.  `QBound.A` is not this
+continuation norm without a separate `QBoundToHsContinuation.A` theorem.
+
+Proof or downstream consequence:
+
+The Pack.TTU fallback can spend `QDrain.A/SOURCE.NO-PULSE.A` only after it
+supplies the continuation-scale upgrade, not merely an enstrophy statement.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pack-ttu-fallback-closure-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:

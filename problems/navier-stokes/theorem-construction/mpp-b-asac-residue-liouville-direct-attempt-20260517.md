@@ -72,8 +72,8 @@ escape, or an ASAC-paid defect.
 ## Attempt 3: temporal anti-atom from current class data
 
 The class gives finite terminal source mass and no earlier selected source
-slice.  It does not give any super-`L^1_s` temporal control.  The standard
-endpoint time-marginal witness
+slice.  It does not give any super-`L^1_s` temporal control.  The exact
+endpoint time-marginal counterexample is
 
 ```math
 g_m(s)=m\,1_{(-1/m,0]}(s)

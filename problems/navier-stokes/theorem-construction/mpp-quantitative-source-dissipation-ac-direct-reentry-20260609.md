@@ -104,9 +104,19 @@ The native positive source term has the model form
 \right]_+.
 ```
 
-The CKN carrier controls the usual local dissipation and local pressure
-quantities. It does not by itself control the one-sided same-fluid selected
-positive source marginal.
+The CKN carrier controls the displayed local-energy quantities on the same
+transported cylinder, for example
+
+```math
+\int_{Q_R^\Phi}|\nabla u|^2,
+\qquad
+\int_{Q_R^\Phi}|u|^3,
+\qquad
+\int_{Q_R^\Phi}|p-\langle p\rangle_{B_R^\Phi(t)}|^{3/2}.
+```
+
+It does not by itself control the one-sided same-fluid selected positive source
+marginal.
 
 The available pointwise inequality is only
 

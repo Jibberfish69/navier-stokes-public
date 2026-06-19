@@ -69,7 +69,20 @@ CM_{N,r,Q}\text{ persists on the retained cover}
 \sup_{t\in I}\|u(t)\|_{H^s(Q_t)}<\infty
 $$
 
-with the standard whole-space or periodic tail/patching convention from the carrier-realization surfaces.
+with the following globalization clause.  On `T^3`, the retained cover is
+finite with bounded overlap, so summing the finitely many local readouts gives
+a global `H^s(T^3)` bound.  On `R^3`, the same implication gives a global
+`H^s(R^3)` continuation norm only together with a declared same-depth tail
+bound
+
+$$
+\sup_{t\in I}\|(1-\chi_R)u(t)\|_{H^s(R^3)}\to0
+\qquad(R\to\infty)
+$$
+
+or an installed carrier-realization surface that supplies this tail/patching
+at depth `s`.  Without that tail clause, the readout is local and cannot by
+itself launch the whole-space continuation theorem.
 
 This readout is supplied by the installed endpoint-to-readout chain:
 
