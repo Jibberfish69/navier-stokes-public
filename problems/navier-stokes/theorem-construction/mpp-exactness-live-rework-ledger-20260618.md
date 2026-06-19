@@ -11923,3 +11923,36 @@ same-fluid distortion ledger `V_R` bounds `A`, `A^{-1}`, `A^{-1}\dot A`, and
 Surfaces edited:
 
 - `theorem-construction/mcp-aact-kx-local-averaged-budget-audit.md`.
+
+## SCF Pressure Gauge Normalization Rework
+
+Old claim being spent:
+
+The exact SCF pressure normalization lemma wrote the CKN pressure fluctuation
+with "the usual CKN pressure gauge convention."  The pressure gauge is a real
+mathematical object in the local energy criterion, so the convention should not
+stand in for the definition.
+
+Exact replacement:
+
+The note now writes the pressure component as
+\[
+r^{-2}\int_{t_0-r^2}^{t_0}\int_{B_r^\Phi(t)}
+|p^{norm}(x,t)-\langle p^{norm}\rangle_{B_r^\Phi(t)}(t)|^{3/2}\,dx\,dt,
+\]
+with
+\[
+\langle p^{norm}\rangle_{B_r^\Phi(t)}(t)
+=|B_r^\Phi(t)|^{-1}\int_{B_r^\Phi(t)}p^{norm}(x,t)\,dx.
+\]
+
+Proof or downstream consequence:
+
+The normalization spends only the spatial-slice pressure gauge on each moving
+ball.  It does not alter pressure gradients or the original-pressure derivative
+readout later recovered through `DTC.Read.Press.local` and the finite
+frame-coefficient ledger.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-exact-scf-pressure-normalization-lemma-58be40c549.md`.
