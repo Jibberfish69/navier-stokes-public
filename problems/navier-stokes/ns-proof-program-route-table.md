@@ -67,8 +67,8 @@ as closure.
 
 ## Continuation-Packet Generation Rule
 
-The CM-exit program should get its failure surfaces by negating the sufficient
-packet for classical continuation.
+The CM-exit program gets its failure surfaces by negating the sufficient packet
+for classical continuation.
 
 The live test is:
 
@@ -205,8 +205,8 @@ source-ledger readout from `ATE.3`, the pressure-tail supplier, `m>=3`, and the
 local affine Gronwall bound.
 
 The bundled version of the same target is `ACT.A`: one affine-center master
-packet should close `D_1^aff in L1(I)`, `F_ctr_res in L1(I)`, and
-`H_osc^alpha in L2(I)` together. This is licensed only if the affine-center
+packet has closure force only if it closes `D_1^aff in L1(I)`,
+`F_ctr_res in L1(I)`, and `H_osc^alpha in L2(I)` together. This is licensed only if the affine-center
 energy inequality is proved with external or dissipatively absorbed `L1`
 coefficients. The bootstrap
 
@@ -447,6 +447,6 @@ packet. The remaining global issue is coverage, handled on this branch by
 
 Multiple routes are useful. The risk is bridge-license failure.
 
-Every route note, theorem packet, or proof obligation should say which object it
+Every route note, theorem packet, or proof obligation must state which object it
 propagates and which bridge theorem is required before another program may use
 it as closure.
