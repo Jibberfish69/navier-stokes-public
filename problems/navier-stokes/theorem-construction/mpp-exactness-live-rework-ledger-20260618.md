@@ -12229,6 +12229,73 @@ edited pressure-lobe note.  It finds the replacement
 `TerminalPressureCollarLegal.A` condition and displayed legal-loss estimate.
 `git diff --check` passed on the edited note and this ledger.
 
+## Main-Surface Authority-Label Wording Rework
+
+Old claim being spent:
+
+The submission appendix still used several vague authority labels such as
+`audit standard`, `supplier standard`, `positive-export standard`, and `CM
+referee standard` on proof-bearing live surfaces.  The surrounding mathematics
+was mostly exact, but the word `standard` was still doing avoidable authority
+work.
+
+Exact replacement:
+
+The appendix now names the actual role in each case: `audit requirement`,
+`Pack.TTU supplier requirement`, `positive-export criterion`, `unweighted
+Euclidean divergence constraint`, and `CM referee gate`.
+
+Proof or downstream consequence:
+
+The page no longer lets a vague standard-label substitute for a theorem,
+criterion, gate, or requirement.  The affected passages remain attached to the
+same exact mathematical burdens: Pack.TTU two-sided material supremum control,
+periodic-to-R3 export hypotheses, anisotropic Stokes divergence structure, and
+promoted-row CM face certification.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan over the edited appendix and `source-frontier.yaml` finds no
+remaining proof-authority uses of `standard`; the only remaining `standard` hit
+is the literal phrase `standard basis` in a linear-algebra proof.  `git diff
+--check` passed on the edited appendix and `source-frontier.yaml`.
+
+## Stokes Multipole Distribution-Scaling Rework
+
+Old claim being spent:
+
+`source-frontier.yaml` said that a derivative point mass of order `k>=1` "tests
+like `r^{-k}`."  That was directionally right, but still phrased as a scale
+analogy.
+
+Exact replacement:
+
+The frontier now states the exact distribution pairing: for
+`D^alpha delta_0`, `|alpha|=k>=1`, and a scale-normalized test `phi_r` using
+fixed normalization `c_norm`,
+`<D^alpha delta_0, phi_r> = c_norm (-1)^k r^{-k} partial^alpha phi(0)`.
+
+Proof or downstream consequence:
+
+The higher-multipole exclusion is now supported by the exact scaling of
+distributional derivatives against the test family, not by a verbal scale
+estimate.  The downstream visibility fork remains the same: off-point residual,
+scale-critical energy blowup, or the surviving monopole branch `Phi_0 delta_0`.
+
+Surfaces edited:
+
+- `source-frontier.yaml`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `tests like r` wording and no `up to fixed
+normalization` fallback on the edited frontier surface.  `git diff --check`
+passed on the edited frontier and appendix.
+
 ## RefillTree Zeno Compactness Extraction Rework
 
 Old claim being spent:
