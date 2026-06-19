@@ -11708,6 +11708,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Expected proof components` phrase in the
+edited HeightFluxControl note.  It finds the replacement `Required proof
+interfaces before this estimate can be spent`.  `git diff --check` passed on
+the edited note and this ledger.
+
 ## Terminal Skew Remainder-Ledger Rework
 
 Old claim being spent:
@@ -11740,6 +11747,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-terminal-skew-localization-saturated-hull-attempt-20260505.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual pressure/cutoff` phrase in the
+edited terminal-skew note.  It finds the replacement remainder-ledger sentence
+and displayed `Loss_{legal}+o_N(1)` estimate.  `git diff --check` passed on the
+edited note and this ledger.
+
 ## Observable Projector Output-Route Rework
 
 Old claim being spent:
@@ -11768,6 +11782,13 @@ Surfaces edited:
 
 - `theorem-construction/observable-projector-surrogate-construction.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected to output` phrase in the edited
+observable-projector note.  It finds the exact
+`PTC-Lin + PTC-Shape => D.7mq => synchronized projective/reference packet`
+route.  `git diff --check` passed on the edited note and this ledger.
+
 ## Terminal Zeno Refill Holder Anti-Atom Rework
 
 Old claim being spent:
@@ -11795,6 +11816,36 @@ do not produce the upgrade.
 Surfaces edited:
 
 - `theorem-construction/mpp-terminal-zeno-refill-proceed-resolution-20260519.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected Holder` phrase in the edited
+Zeno refill note.  It finds the exact anti-atom step and the
+`C h^{1-1/p}\to0` inequality.  `git diff --check` passed on the edited note and
+this ledger.
+
+## Asymptotic Stationarity Approximate-Autonomy Cleared
+
+Candidate phrase inspected:
+
+The `AsymptoticStationarity.A` attempt contains the phrase that critical
+rescaling was expected to make the profile "approximately autonomous" and that
+"Approximate criticality" does not imply stationarity.
+
+Current exact statement already on the page:
+
+The note already identifies that phrase as the old loose step and replaces it
+with the exact residual-vanishing theorem.  It requires
+`\partial_s U_n\to0` in `L^1(J;H^{-1}(K))`, vanishing drift/selector/scale and
+source terms in the same topology, and `M_n^{def}\to0` as a measure on
+`J\times K`, before a stationary Navier-Stokes profile on
+`\mathbb R^3\setminus\{0\}` may be spent.
+
+Downstream consequence:
+
+No edit was needed in this pass because the hit is already a negative
+exactness statement with the replacement theorem stated immediately below it.
+The Door 2 obstruction remains `ModulationFreezing.A + AsymptoticStationarity.A`.
 
 ## Terminal Eigenframe Projected-Cutoff Ledger Rework
 
@@ -11828,3 +11879,10 @@ source-current remain the analytic wall.
 Surfaces edited:
 
 - `theorem-construction/mpp-terminal-eigenframe-turnover-charge-direct-attempt-20260517.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual projected-cutoff` phrase in the
+edited eigenframe note.  It finds the replacement definite legal-loss bound for
+the projected-cutoff, path, collar, boundary, and frame commutators.  `git diff
+--check` passed on the edited note and this ledger.
