@@ -18,7 +18,7 @@ OriginalSmoothData\Longrightarrow SourcePulseExclusion.A.
 
 ## Theorem
 
-At the current exactness standard, the conditional theorem also requires the
+Under the installed exactness hypotheses, the conditional theorem also requires the
 same-tail Field-admission input.  Assume
 
 ```math
