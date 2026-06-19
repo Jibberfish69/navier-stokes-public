@@ -1,9 +1,7 @@
 \documentclass[11pt]{article}
 
 \makeatletter
-\def\nsExpectedJobname{navier-stokes-human-submission}
-\edef\nsActualJobname{\jobname}
-\ifx\nsActualJobname\nsExpectedJobname
+\ifnum\pdfstrcmp{\jobname}{navier-stokes-human-submission}=0\relax
 \else
   \PackageError{navier-stokes-submission}
     {Wrong jobname: compile with -jobname=navier-stokes-human-submission}
