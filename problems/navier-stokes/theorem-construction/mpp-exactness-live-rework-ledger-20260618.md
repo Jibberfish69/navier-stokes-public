@@ -10689,3 +10689,33 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formal missing bridge` hit in the edited
 source note or appendix copy.  The positive scan finds `unproved required
 bridge`, and `git diff --check` passes on both edited surfaces.
+
+## Three-Gap Lifted-Side Exactness Rework
+
+Old claim being spent:
+
+The three-gap attack note and appendix copy said lifted exactness was "still
+only formal" and that Gap 1 was "formal on the lifted side."
+
+Exact replacement:
+
+The lifted exactness is now described as an algebraic lifted identity that does
+not yet imply theorem-grade annihilation of the displayed lifted residuals.
+Gap 1 is explicit on the jet side and still unproved on the lifted side.
+
+Proof or downstream consequence:
+
+The route may use the lifted identity as an algebraic candidate, but it cannot
+spend it as theorem-grade annihilation or as a proved lifted-to-packet map.
+
+Surfaces edited:
+
+- `theorem-construction/three-gap-honest-attack-note.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `lifted exactness is still only formal` or
+`formal on the lifted side` hit in the edited source note or appendix copy.  The
+positive scan finds `algebraic lifted identity` and `still unproved on the
+lifted side`, and `git diff --check` passes on both edited surfaces.
