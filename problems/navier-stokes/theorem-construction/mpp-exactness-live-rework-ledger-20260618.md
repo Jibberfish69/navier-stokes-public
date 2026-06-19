@@ -15427,6 +15427,59 @@ finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
 `roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
 slice, and `git diff --check` passes for the edited notes.
 
+## CM Pack And Scale-Critical Promotion-Guard Repair
+
+Old claim being spent:
+
+Several active CM/Pack/scale-critical notes used `should` wording at proof
+promotion boundaries:
+
+- whole no-exit formulations "should not" be promoted as local branch burdens;
+- Pack-side work "should" attack retained positive-scale first appearance and
+  "should not" spend the `L^3` translator without a bridge;
+- retained-face amplitude gain "should not" be a raw finite-energy theorem and
+  "should" be relative to retained CM faces;
+- CM critical-concentration import "should" wait for carrier and same-PDE
+  survival;
+- `ScaleCriticalPulseReserve.A` "should not" be tracked as independent from
+  `ScaleCriticalTreeCarleson.A`.
+
+Exact replacement:
+
+The edited notes now state these as direct promotion rules: whole no-exit slogans
+are not promoted as local branch-law burdens unless the proof program switches
+to a positive no-exit attempt; the Pack-side target is the retained
+positive-scale first-appearance charge; the `L^3` translator is not spent without
+`FirstReservePulseToCriticalL3.A`; retained-face amplitude gain is a
+retained-CM-face proof, not a raw finite-energy theorem; CM imports critical
+concentration only after carrier and same-PDE sides survive; and
+`ScaleCriticalPulseReserve.A` is only a descriptive alias, not an independent
+live theorem target.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-genuine-cm-exit-equivalence-20260521.md`.
+- `theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md`.
+- `theorem-construction/mpp-pack-first-unpaid-donor-reserve-dichotomy-20260523.md`.
+- `theorem-construction/mpp-retained-face-amplitude-gain-target-and-pack-gain-gap-20260505.md`.
+- `theorem-construction/mpp-retained-pack-part-critical-concentration-to-field-bridge-20260519.md`.
+- `theorem-construction/mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md`.
+
+Downstream consequence:
+
+The live proof surface no longer permits promotion by slogan, translator, alias,
+or raw finite-energy analogy.  Each use now has an explicit bridge condition:
+positive no-exit switch, `FirstReservePulseToCriticalL3.A`, retained-CM-face
+input, carrier/same-PDE survival, or identification with
+`ScaleCriticalTreeCarleson.A`.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the six edited notes and `source-frontier.yaml`
+finds no remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`,
+`roughly`, `same order`, `typical`, `immediate`, or `schematic` shortcut on this
+slice, and `git diff --check` passes for the edited notes.
+
 ## CM Class-Exit Obstruction Split Repair
 
 Old claim being spent:
