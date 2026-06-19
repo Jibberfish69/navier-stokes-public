@@ -15259,3 +15259,31 @@ A fixed-string residue search over these three root surfaces finds no remaining
 `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`, `same order`,
 `typical`, `immediate`, or `schematic` shortcut on this slice, and
 `git diff --check` passes for the edited root files.
+
+## Clay Target Route Reduction Parity Repair
+
+Old claim being spent:
+
+`clay-target-route-reduction-note.md` said parity sorted "where cancellation
+should be searched."  In an active route-reduction note that leaves the
+cancellation burden as a heuristic search direction.
+
+Exact replacement:
+
+The parity helper now says it sorts "which cancellation identities must be
+tested."  Parity remains explicitly not a closure theorem.
+
+Surfaces edited:
+
+- `theorem-construction/clay-target-route-reduction-note.md`.
+
+Downstream consequence:
+
+The note no longer lets parity itself carry proof force.  It only generates
+specific cancellation identities for later theorem tests.
+
+Second downstream pass and validation:
+
+This was the only shortcut hit in the current main reduction slice containing
+`clay-target-route-reduction-note.md`; the repaired phrase has no remaining
+`should` hit.
