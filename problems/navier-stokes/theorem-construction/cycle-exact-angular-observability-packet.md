@@ -370,7 +370,7 @@ What it **does** claim:
 1. once the exact-potential consumer start under `EWI.A` is in place and
    transport coherence and trajectorywise expanding-direction alignment are
    granted in the explicit forms `TCJ` and `TEA`, the exact-potential branch
-   closes formally by the current packet stack;
+   closes conditionally through the current packet stack;
 2. the exact remaining theorem is therefore no longer ambiguous.
 
 ## Why nearby abstract ideas are not better
