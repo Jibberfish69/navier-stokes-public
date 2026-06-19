@@ -189,6 +189,37 @@ In three dimensions a nonzero skew matrix has a one-dimensional kernel: if
 rotation around the single wrapped axis. Rank `0` imposes no periodicity equation
 on the rotational part. `\square`
 
+## Corollary `FSW.A1` (When the remaining motion is stationary)
+
+The mode left by `FSW.A` is not free solid-body drift. It is only the
+translation read out by the same periodic velocity field.
+
+On the active periodic zero-force branch with zero spatial mean, if the frozen
+packet is the whole torus/total-fluid rigid mode and `FSW.A` has reduced the
+exact rigid velocity to
+
+```math
+\widetilde u(x,t_0)=a(t_0),
+\tag{FSW.6a}
+```
+
+then
+
+```math
+a(t_0)
+=
+\int_{\mathbf T^3}u(x,t_0)\,dx
+=0.
+\tag{FSW.6b}
+```
+
+So the whole-volume frozen mode is stationary in the zero-mean torus branch.
+
+A proper finite-thickness wrapped sheet can still be advected by the common
+fluid field, but that translation is not an independent solid-wall motion. It
+must be the trace of the same `u,p,\Phi` and must pass through the same collar,
+Pack, Part, and Field tests as the surrounding fluid.
+
 ## Corollary `FSW.B` (The wrapped sheet is constrained, not automatically dead)
 
 Under the hypotheses of `FSW.A`, the loss of rotational degrees of freedom is
