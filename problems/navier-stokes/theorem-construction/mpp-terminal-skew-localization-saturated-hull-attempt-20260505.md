@@ -81,7 +81,16 @@ as an antisymmetric edge divergence:
 J(P\to P')=-J(P'\to P),
 ```
 
-with the usual pressure/cutoff/off-truncation terms recorded in `L_P`.
+where `L_P` is only a remainder ledger.  It consists of the pressure/projection
+localization, packet-cutoff, collar, and finite-truncation boundary terms, and
+the hull argument can spend it only under a legal-loss estimate of the form
+
+```math
+\sum_{P\in\operatorname{Sat}(\mathcal F_N)}
+\int |L_P(t)|\,dt
+\le
+Loss_{legal}+o_N(1).
+```
 
 This is the strongest honest output of the hull construction:
 
