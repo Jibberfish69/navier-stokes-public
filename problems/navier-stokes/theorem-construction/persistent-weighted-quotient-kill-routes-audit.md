@@ -155,9 +155,9 @@ Integrating in time,
 
 ### Outcome
 
-Route C is formally true but useless as a repair mechanism by itself.
-It only says that the persistent readout is controlled by the full object we
-were already trying to close.
+Route C is tautological and useless as a repair mechanism by itself.  It only
+says that the persistent readout is controlled by the full object we were
+already trying to close.
 
 So:
 
