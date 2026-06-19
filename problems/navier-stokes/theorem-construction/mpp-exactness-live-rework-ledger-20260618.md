@@ -12323,6 +12323,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-terminal-cz-pressure-cancellation-direct-attempt-20260517.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual no-free-sink` phrase in the edited
+terminal CZ pressure cancellation note.  It finds the replacement
+`PressureDonorNoFreeSink.A` / `TerminalWeightedNoFreeSink` interface.  `git diff
+--check` passed on the edited note and this ledger.
+
 ## Pressure-Hessian Terminal-Rescaling Extraction Rework
 
 Old claim being spent:
@@ -12350,6 +12357,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-pressure-hessian-partner-graph-normal-form-20260517.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual terminal rescaling` phrase in the
+edited pressure-Hessian partner graph note.  It finds the replacement compactness
+extraction hypotheses, including same-fluid packet tightness and vanishing
+legal losses.  `git diff --check` passed on the edited note and this ledger.
+
 ## Terminal Strain-Alignment Cutoff-Leray Rework
 
 Old claim being spent:
@@ -12375,3 +12389,10 @@ the correction is harmless by convention.
 Surfaces edited:
 
 - `theorem-construction/mpp-terminal-strain-alignment-frozen-packet-pressure-test-20260609.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual smooth cutoff` phrase in the edited
+terminal strain-alignment note.  It finds the replacement high-frequency
+Leray-projected cutoff construction and `o_lambda(1)` source-readout error.
+`git diff --check` passed on the edited note and this ledger.
