@@ -10983,3 +10983,34 @@ The targeted scan finds no remaining `D.7` / `D.8` `follow formally` hit in the
 edited D.6 note or appendix copy.  The positive source read shows
 `bookkeeping consequences of that stated route order`, and `git diff --check`
 passes on the edited D.6 surface.
+
+## Lagrangian Six-Lemma Conditional Consequence Rework
+
+Old claim being spent:
+
+The Lagrangian six-lemma mainline said that Lemma 6 and the contradiction
+theorem are "formal" once the far-corona theorem lands and proposition-level
+packet threading is written.
+
+Exact replacement:
+
+The source note now says Lemma 6 and the contradiction theorem are conditional
+consequences once the far-corona theorem `(19n8)` lands and the remaining
+proposition-level packet threading in `(19o')` is written.
+
+Proof or downstream consequence:
+
+The six-lemma chain may spend the contradiction theorem only under the
+far-corona theorem and packet-threading hypotheses.  The wording no longer
+advertises the terminal contradiction as a generic formal consequence.
+
+Surfaces edited:
+
+- `theorem-construction/lagrangian-six-lemma-mainline.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Lemma 6 and the contradiction theorem are
+formal once` hit in the edited source note or appendix copy.  The positive
+source read shows `conditional consequences once`, and `git diff --check`
+passes on the edited Lagrangian surface.
