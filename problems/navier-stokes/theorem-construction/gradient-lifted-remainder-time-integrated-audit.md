@@ -120,7 +120,7 @@ proved packet estimate.
 
 ## Third Obstruction: Circular Use Of `E_N`
 
-Even if one accepts the candidate route `(S)`, the usual integrated-time
+Even if one accepts the candidate route `(S)`, the candidate integrated-time
 estimate becomes
 
 ```math

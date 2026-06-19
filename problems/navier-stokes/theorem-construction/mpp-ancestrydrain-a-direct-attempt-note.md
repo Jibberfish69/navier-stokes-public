@@ -95,9 +95,9 @@ BackwardDrainFunctional.A.
 }
 ```
 
-That note also records why the usual tower-flux identity is not enough: it does
-not produce a finite scale-normalized donor reserve for every positive
-source-parent edge.
+That note also records why the local tower-flux identity is not enough: the
+displayed donor balance does not produce a finite scale-normalized donor
+reserve for every positive source-parent edge.
 
 The local tower-balance identity itself is no longer open.  The note
 `mpp-two-tower-donor-balance-modulo-refill-note.md` proves the donor balance

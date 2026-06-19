@@ -48,7 +48,8 @@ Then the summed strict-low transport contribution is represented by
 \big\langle B_N\big((u_{\ge N}\cdot\nabla)a\big),u_{\ge N}\big\rangle,
 ```
 
-after absorbing the standard fattened-shell overlap into the multiplier.
+where the finite Littlewood--Paley fattening is included in the definition of
+`B_N`; the constants `c_B,C_B` above are the only overlap loss being spent.
 
 ## First Cancellation: Transport Against The Summed Energy
 
@@ -76,8 +77,8 @@ structure itself.
 ## What The Summed Commutator Produces
 
 The multiplier `B_N` has symbol `m_N(\xi)` of order `2` on the high-frequency
-region. Standard pseudodifferential/Coifman-Meyer commutator calculus therefore
-gives
+region, with the fixed dyadic symbol bounds inherited from the chosen
+Littlewood--Paley partition.  The commutator estimate being spent is:
 
 ```math
 \big|\langle [B_N,a\cdot\nabla]u_{\ge N},u_{\ge N}\rangle\big|
@@ -89,6 +90,10 @@ C_{comm}C_B
 \|\nabla a\|_{L^\infty_x}\,E_N.
 \tag{2}
 ```
+
+This is the Coifman--Meyer commutator bound for that specific multiplier and a
+Lipschitz coefficient `a`; it is not a cancellation beyond the displayed
+commutator estimate.
 
 Likewise, the high-low partner satisfies
 

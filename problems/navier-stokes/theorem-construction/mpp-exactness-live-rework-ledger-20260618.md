@@ -12686,6 +12686,117 @@ Pack.TTU fallback note.  It finds the replacement `H^s`, `s>5/2`, relaunch
 criterion and the explicit `QBoundToHsContinuation.A` missing upgrade.  `git
 diff --check` passed on the edited note and this ledger.
 
+## Strict-Low Sum-Level Commutator Rework
+
+Old claim being spent:
+
+The strict-low sum-level cancellation audit said the fattened-shell overlap is
+absorbed in a "standard" way and that "standard pseudodifferential/Coifman-Meyer"
+calculus gives the commutator bound.
+
+Exact replacement:
+
+The note now states that the finite Littlewood-Paley fattening is included in
+the multiplier `B_N`, with `c_B,C_B` as the only overlap loss.  It also names
+the exact commutator estimate being spent:
+`|<[B_N,a dot nabla]u_{>=N},u_{>=N}>| <= C_comm ||nabla a||_infty <B_Nu,u>`,
+for the order-2 dyadic multiplier with fixed symbol bounds and Lipschitz
+coefficient `a`.
+
+Proof or downstream consequence:
+
+The sum-level strict-low cancellation removes only the pure transport term and
+leaves the displayed commutator controlled by low-mode strain.  It does not
+create a new telescoping flux between dyadic shells.
+
+Surfaces edited:
+
+- `theorem-construction/strict-low-sum-level-cancellation-audit.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## LCI Affine Coefficient Surface Rework
+
+Old claim being spent:
+
+The LCI transported-center package called the affine coefficient packet the
+"expected coefficient surface."
+
+Exact replacement:
+
+The note now calls `(DTC.AFF18)` the coefficient surface required by the
+reduction, followed by the corresponding affine pressure and top-viscous forcing
+terms in `F_p^{aff}`.
+
+Proof or downstream consequence:
+
+The downstream Gronwall implication may spend `(DTC.AFF18)` only as the
+required coefficient package for pre-`DTC.A` coefficients; it is not merely an
+expected or schematic surface.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-lci-a-direct-transported-center-package-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Gradient Lifted Integrated-Time Candidate Rework
+
+Old claim being spent:
+
+The gradient lifted remainder time-integrated audit called the integrated-time
+bound the "usual integrated-time estimate."
+
+Exact replacement:
+
+The note now calls it the candidate integrated-time estimate after accepting
+route `(S)`.
+
+Proof or downstream consequence:
+
+The circularity verdict remains exact: finishing from that candidate would
+still import `sup_t E_N` or `int E_ND_N`, which Proposition `6.1` is supposed
+to produce.  The integrated lifted-remainder statement remains open.
+
+Surfaces edited:
+
+- `theorem-construction/gradient-lifted-remainder-time-integrated-audit.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## AncestryDrain Tower-Flux Identity Rework
+
+Old claim being spent:
+
+The AncestryDrain direct attempt said the "usual tower-flux identity" is not
+enough.
+
+Exact replacement:
+
+The note now refers to the local tower-flux identity and the displayed donor
+balance.  The reason it is insufficient is exact: that balance does not produce
+a finite scale-normalized donor reserve for every positive source-parent edge.
+
+Proof or downstream consequence:
+
+The drain branch remains conditional on `RefillTreeWellFounded.A` or another
+functional that supplies bounded monotone ancestry rank or quantized edge
+reserve.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-ancestrydrain-a-direct-attempt-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:

@@ -3676,7 +3676,7 @@ AXP.A.
 \tag{DTC.AFF-XSched3}
 ```
 
-The expected coefficient surface is
+The coefficient surface required by this reduction is
 
 ```math
 B_{\mathfrak p}^{aff}
