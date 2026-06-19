@@ -135,7 +135,15 @@ Preterminal smoothness gives a flow map on every compact time interval below
 `T_*`. Passing Pack through `T_*` requires a terminal same-fluid carrier with
 positive scale and finite deformation gauge.
 
-The deformation gauge obeys the usual strain ledger:
+For the flow map `X(a,t)` on the same-fluid carrier, set
+
+```math
+\Gamma_Q(t):=\sup_{a\ne b\in Q_0}
+\frac{|X(a,t)-X(b,t)|}{|a-b|}.
+```
+
+Whenever the carrier remains in the retained tube `Q_t`, differentiating the
+separation of two transported particles gives the exact strain bound
 
 ```math
 \frac{d}{dt}\log\Gamma_Q(t)
