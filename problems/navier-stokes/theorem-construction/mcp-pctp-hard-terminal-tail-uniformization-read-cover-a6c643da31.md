@@ -136,4 +136,10 @@ faces.
 
 ## Short verdict
 
-The ordered attempt closes Step 1 as formalization and validates Steps 7-8 as conditional packaging. Steps 2-6 remain the same analytic barrier in endpoint-face coordinates: the old four rows plus the repaired response-margin subface unless the Part margin/closed-predicate input has already removed it. The first decisive obstruction is terminal-tail admission from original dynamics without spending `End_NS` as an upstream supplier.
+The ordered attempt closes Step 1 as the definition of the endpoint-face
+vocabulary and validates Steps 7-8 only as conditional packaging.  Steps 2-6
+remain the same analytic barrier in endpoint-face coordinates: the old four
+rows plus the repaired response-margin subface unless the Part
+margin/closed-predicate input has already removed it.  The first decisive
+obstruction is terminal-tail admission from original dynamics without spending
+`End_NS` as an upstream supplier.
