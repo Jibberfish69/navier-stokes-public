@@ -14090,3 +14090,48 @@ Second downstream pass and validation:
 The targeted terminal-source anti-atom scan is empty on live files; old phrases
 remain only in ledger evidence.  `git diff --check` passed on the edited batch
 and this ledger.
+
+## Schematic-Derivation And Witness-Marginal Rework
+
+Old claim being spent:
+
+The next proof-force scan found live theorem notes using shortcut phrasing on
+derivations and terminal witness constructions: `satisfies schematically`,
+`obtains schematically`, `previously written schematically`, `same model
+obstruction`, `model source marginal`, `model terminal source density`, `Diffuse
+partner model`, `model obstruction`, `model profile`, and `model term`.
+
+Exact replacement:
+
+The dehn-twist note now spends the displayed lower bound.  The pressure-corrected
+monotone note now names the formal differentiated identity.  The exact-potential
+static-diffusion note names the displayed frozen-metric operator.  Terminal
+source notes now use witness-sequence obstruction, witness source marginal,
+witness terminal source density, angular-kernel obstruction, diffuse legal
+parentage obstruction, witness density, and displayed term.
+
+Proof or downstream consequence:
+
+The affected surfaces no longer let `schematic` language carry an inequality or
+identity.  The terminal-source surfaces spend explicit marginals and densities
+rather than model labels, preserving the conclusion that terminal atoms remain
+possible without a genuine anti-atom, reverse-Holder, no-inflow, parent
+concentration, or source-depletion theorem.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-dehn-twist-topological-drift-attempt-20260618.md`.
+- `theorem-construction/mpp-forward-gold-pressure-corrected-monotone-functional-attempt-20260618.md`.
+- `theorem-construction/exact-potential-f11d-static-diffusion-audit.md`.
+- `theorem-construction/mpp-terminal-time-face-anti-atom-all-mechanism-ledger-20260518.md`.
+- `theorem-construction/mcp-productionintorigidbasactimefacesubclass-a-c27c0c816a.md`.
+- `theorem-construction/mpp-explicit-rigid-zeno-class-production-liouville-attempt-20260517.md`.
+- `theorem-construction/mpp-basac-terminal-zero-thickness-antiatom-direct-attempt-20260518.md`.
+- `theorem-construction/mpp-terminal-cz-pressure-cancellation-direct-attempt-20260517.md`.
+- `theorem-construction/mcp-samefluidsourceresidence-directcontinuation-aa9a842bee.md`.
+- `theorem-construction/mcp-selectedsourcedissipationtether-a-a40dfb9e35.md`.
+- `theorem-construction/lagrangian-six-lemma-mainline.md`.
+
+Second downstream pass and validation:
+
+Pending targeted rescan of these proof-force phrases and `git diff --check`.
