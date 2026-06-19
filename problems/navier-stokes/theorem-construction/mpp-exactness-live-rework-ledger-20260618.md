@@ -12949,7 +12949,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard terminal concentration` phrase
+in the edited QSD-AC direct attempt.  It finds the replacement exact terminal
+concentration countermodel and the `L^1` versus `L^p`, `p>1`, calculation.
+`git diff --check` passed on the edited note and this ledger.
 
 ## Ancient No-Pulse Beltrami Example Rework
 
@@ -12975,7 +12978,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard geometric example` phrase in
+the edited ancient no-pulse audit.  It finds the replacement concrete
+eigenmode example and the retained source-balanced distinction.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## Conditional Pack Positive-Radius Typed-Chain Rework
 
@@ -13001,7 +13007,9 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard Pack/Part/Field` phrase in the
+edited conditional Pack positive-radius note.  It finds the replacement typed
+CM order.  `git diff --check` passed on the edited note and this ledger.
 
 ## Scale-Barrier Euclidean Leray Projection Rework
 
@@ -13030,7 +13038,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard Euclidean Leray projection`
+phrase in the edited scale-barrier package or transport-defect lemma.  It finds
+the replacement operator `P=I-nabla Delta^{-1}div` and pressure Poisson
+recovery.  `git diff --check` passed on the edited notes and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
