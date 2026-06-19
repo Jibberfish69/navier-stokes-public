@@ -29,7 +29,7 @@ Use only the already-installed lower-carrier surfaces.
 
 The widened-shell route already reduces the oscillation-side package to one
 carrier readout. The exact remaining question is no longer a new packet
-identity. It is simply:
+identity. It is the enlarged-ball coefficient-integrability question:
 
 ```math
 \boxed{
