@@ -10322,7 +10322,9 @@ The source and appendix now call the surface the working ontic object package.
 The neighboring-response law now says it makes cross-rung and cross-neighbor
 coupling an explicit law-level constraint rather than a semantic analogy.  The
 admissibility target is introduced as an exact admissibility target, not as a
-generic formalism.
+generic formalism.  The exact class-membership witness theorem now also refers
+to the working ontic object package when describing the analytic witness debt it
+closes.
 
 Proof or downstream consequence:
 
@@ -10333,15 +10335,16 @@ close the analytic class-membership witness by itself.
 Surfaces edited:
 
 - `theorem-construction/mpp-formal-ontic-object-package.md`;
+- `theorem-construction/mpp-exact-class-membership-witness-theorem.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
 The targeted scan finds no remaining `Formal Ontic Object Package`, `formal
-rather than semantic only`, or `Formally:` hit in the edited source note or
-appendix copy.  The positive scan finds `Working Ontic Object Package` and the
-explicit law-level replacement, and `git diff --check` passes on both edited
-surfaces.
+rather than semantic only`, `formal ontic object package`, or `Formally:` hit in
+the edited source/consumer notes or appendix copy.  The positive scan finds
+`Working Ontic Object Package`, `working ontic object package`, and the explicit
+law-level replacement, and `git diff --check` passes on all edited surfaces.
 
 ## Source Wall Two-Path Heading Rework
 
