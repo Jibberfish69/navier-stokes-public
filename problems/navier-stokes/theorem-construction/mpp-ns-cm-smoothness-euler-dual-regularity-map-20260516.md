@@ -273,7 +273,7 @@ it cannot be used to replace the fixed-`nu` transfer theorem.
 
 ## Exact Boundary
 
-The sentence that should govern future repo work is:
+The sentence governing future repo work is:
 
 ```math
 \boxed{
