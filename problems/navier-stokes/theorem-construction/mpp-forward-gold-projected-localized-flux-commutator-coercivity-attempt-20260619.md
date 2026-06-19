@@ -125,10 +125,10 @@ ratio.  Viscosity does not make the flux perturbative unless a separate
 smallness, reserve, or no-incoming condition is present.
 
 A smooth divergence-free packet crossing the cutoff collar gives the elementary
-counter-shape.  Reversing the direction of the packet reverses the sign of the
-collar flux while leaving the local dissipation size comparable.  Therefore no
-sign-definite monotone inequality can follow from projection/localization
-alone.
+counter-shape.  Replacing `u` by `-u` reverses the sign of
+`\int |u|^2u\cdot\nabla\chi` and leaves
+`\nu\int\chi|\nabla u|^2` unchanged.  Therefore no sign-definite monotone
+inequality can follow from projection/localization alone.
 
 ## Leray Commutator Test
 
