@@ -14632,3 +14632,53 @@ Second downstream pass and validation:
 The targeted search no longer finds `One concrete model is the finite-difference
 bound` on live surfaces, and it finds the exact replacement in the main
 submission definition.
+
+## Retained Positive-Scale Reserve-Birth ASAC Payment Repair
+
+Old claim being spent:
+
+`mpp-retained-positive-scale-reserve-birth-charge-reentry-20260609.md` said that
+when a same-ledger signed partner is retained, "the ASAC / pair-weight charge
+pays the positive mismatch", and then concluded that the first three cases are
+paid by installed ledgers.  That spent `ASAC.A` and pair-weight payment as if
+they were already installed same-witness ledgers.
+
+Exact replacement:
+
+The note now states that the retained signed-partner case is paid only under an
+explicit same-witness signed-payment theorem, for example proved `ASAC.A`
+together with `PositivePairWeightDefectCharge.A` and the packet-residual,
+no-incoming, and backward-uniqueness hypotheses required by the live edge.
+Installed CM-face reductions alone classify failed signed balance as
+Pack/Part/Field support for `Exit(Q):=not Member(Q)`; they do not pay the
+positive mismatch.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-retained-positive-scale-reserve-birth-charge-reentry-20260609.md`.
+
+Downstream consequence:
+
+The forward supplier is no longer a single `ZenoResidueLiouville_{B_ASAC}.A`
+line after pretending ASAC/pair-weight is installed.  It splits into:
+
+```text
+ASAC.A + PositivePairWeightDefectCharge.A
+```
+
+with the same-witness residual/no-incoming/backward-uniqueness hypotheses for
+the retained signed-partner branch, or a Gold-supplier theorem excluding the
+produced `B_ASAC` terminal time-face atom.  Under the Pack-first CM
+contrapositive route, the terminal zero-thickness `B_ASAC` residue is consumed
+as Pack-side non-survival rather than as a required deletion theorem.
+
+Second downstream pass and validation:
+
+The live authority already records `ASAC.A` as a hard PDE gate, records
+`PositivePairWeightDefectCharge.A` as conditional on proved ASAC, and records
+the terminal `B_ASAC` zero-thickness residue as Pack-side non-survival in the
+CM route.  No authority rewrite was needed.  The targeted residue search no
+longer finds the old "ASAC / pair-weight charge pays", "first three cases are
+paid", or "correct next forward supplier" shortcuts; the remaining "paid by
+installed ledgers" hit is the corrected statement that cases 2 and 3 are paid
+while case 1 is conditional.
