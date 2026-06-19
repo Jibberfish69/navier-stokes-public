@@ -14043,5 +14043,7 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted rescan of the cone/funnel source-frontier cluster and `git
-diff --check`.
+The targeted cone/funnel source-frontier scan now leaves only the anti-hand-wave
+sentence saying no linear model for `u` on the shrinking ball is assumed, plus
+two cited filenames containing `same-scale`.  `git diff --check` passed on the
+edited cluster and this ledger.
