@@ -674,12 +674,13 @@ N_{\mathrm{cap}}.
 \tag{CN.13h14}
 ```
 
-Thus the overlap subtask in `(CN.13h4)` follows formally from a transported
-weighted-overlap packet plus active-valence control. In particular, under any
-unit-mass carrier normalization where the transported selector theorem upgrades
-`(TPS.1a)` to `(CN.13h10)`, the remaining observability subgap is only the
-stripwise pair-defect energy ledger `(CN.13h15)`, equivalently `(PD.51b)`
-feeding `(PD.51c)`.
+Thus the overlap subtask in `(CN.13h4)` follows by the displayed
+`(CN.13h13)`-`(CN.13h14)` counting bound from a transported weighted-overlap
+packet plus active-valence control. In particular, under any unit-mass carrier
+normalization where the transported selector theorem upgrades `(TPS.1a)` to
+`(CN.13h10)`, the remaining observability subgap is only the stripwise
+pair-defect energy ledger `(CN.13h15)`, equivalently `(PD.51b)` feeding
+`(PD.51c)`.
 
 **Proof.**
 Fix `(x,y,t)`. If `(x,y)\in K_J^{\perp}(a,b,t)`, then by `(CN.13f)` and
