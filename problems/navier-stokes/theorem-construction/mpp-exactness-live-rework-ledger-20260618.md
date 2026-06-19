@@ -9810,3 +9810,68 @@ funnel note.  The positive scan finds `A_lambda`, `Boundary_lambda`, the exact
 localized identity, and the installed note item naming the exact localized
 rescaled-energy identity on \(B_\lambda\).  `git diff --check` passes on the
 edited funnel note.
+
+## LPAS / CTS Hardy-Schur Exactness Rework
+
+Old claim being spent:
+
+The direct LPAS/CTS test said the referenced middle-band theorem proved that
+the Schur step was "formal" once the two-scale density factored.  The note's
+conclusion was correct, but the proof surface still let a proof-force word
+stand where the exact conditional inequality should appear.
+
+Exact replacement:
+
+The live note now states the actual Hardy/Schur input.  If
+
+\[
+\mathcal A_{\ell,r}(t)\le U(\ell,t)V(r,t),
+\qquad r\ge c_1\ell,
+\tag{CTS.1}
+\]
+
+with square budgets
+
+\[
+\int_0^T\int_0^{\ell_N}U(\ell,t)^2\,{d\ell\over\ell}\,dt
+\le C_U\int_0^TD_N(t)\,dt
+\tag{CTS.2}
+\]
+
+and
+
+\[
+\int_0^T\int_{\ell\le r/c_1}V(r,t)^2\,{dr\over r}\,dt
+\le C_V2^{-2\delta N},
+\tag{CTS.3}
+\]
+
+then Schur's test for
+\(K(\ell,r)=\mathbf 1_{r\ge c_1\ell}\ell/r\), followed by
+Cauchy-Schwarz and the chosen absorption constants, gives
+
+\[
+\int_0^T\Pi_N^{mid,far,L}(t)\,dt
+\le {\eta\nu\over16}\int_0^TD_N(t)\,dt+C_*2^{-2\delta N}.
+\tag{CTS.4}
+\]
+
+Proof or downstream consequence:
+
+CTS summation is paid only under `(CTS.1)`--`(CTS.3)`.  The natural `U` side is
+the active stress square, and the natural `V` side is the lower accumulated
+strain/prefix.  Substituting those natural budgets is exactly `(LPAS)`, so the
+continuum CTS route does not bypass LPAS from current inputs; it exposes LPAS
+as the missing dyadic square budget.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-direct-lpas-cts-hardy-volterra-test-20260611.md`.
+
+Second downstream pass and validation:
+
+The targeted stale scan finds no remaining `Schur step is formal` or
+`formal once the density factors` wording in the edited note, live edge,
+source-frontier, or appendix mirror.  The positive scan finds `(CTS.1)` and
+`(CTS.4)` plus the new sentence that Schur summation is paid only under
+`(CTS.1)`--`(CTS.3)`.  `git diff --check` passes on the edited note.
