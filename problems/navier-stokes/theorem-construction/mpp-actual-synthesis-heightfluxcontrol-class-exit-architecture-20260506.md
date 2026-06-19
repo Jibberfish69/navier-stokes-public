@@ -251,7 +251,7 @@ control the positive weighted shell flux by legal native charge.
 
 This is the highest-value audit-open atom.
 
-## 4. What HeightFluxControl.A probably needs
+## 4. Structural Mechanisms Required For HeightFluxControl.A
 
 Scalar damping cannot prove it.  Energy area cannot prove it.  Absolute
 commutator bounds loop back to the source wall.
@@ -266,7 +266,7 @@ native height-charge monotonicity
 terminal tangent rigidity
 ```
 
-The dangerous flux should be read as the aligned positive strain carrier:
+The dangerous flux is the aligned positive strain carrier:
 
 ```math
 |w_\ell|^2
@@ -374,9 +374,9 @@ TPNI.A
 + LimitPass.A.
 ```
 
-This branch should receive fewer cycles than `HeightFluxControl.A` until it
-produces a cancellation theorem that survives localization, saturation, lifted
-commutators, one-sided weights, and positive-part extraction.
+This branch stays secondary to `HeightFluxControl.A` until it produces a
+cancellation theorem that survives localization, saturation, lifted commutators,
+one-sided weights, and positive-part extraction.
 
 ## 7. Endpoint matrix discipline
 
