@@ -4,7 +4,7 @@
 
 Conditional source-estimate packet.
 
-## Formal implication
+## Conditional implication from the displayed source estimates
 
 For the fixed-frame reduced cocycle `H_J`, set
 
