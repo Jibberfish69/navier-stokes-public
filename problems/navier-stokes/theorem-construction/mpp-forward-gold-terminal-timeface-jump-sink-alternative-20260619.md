@@ -18,11 +18,14 @@ what representation handles a source pulse concentrated at the final time?
 The right representation is not a fixed Laurent expansion and not classical
 surface geometry.  It is the local-energy/source-balance trace in time.
 
-For a selected terminal packet family, write the scalar terminal source marginal
-schematically as
+For a selected terminal packet family, let `\mu_m^{src,+}` be the native positive
+source Radon measure on the localized spacetime slab and define its compact-cutoff
+time marginal by
 
 ```math
-d\mu_m^{src,+}(s)
+\nu_{m,\chi}^{src,+}(I)
+:=
+\int_{\mathbb R^3\times I}\chi(x)\,d\mu_m^{src,+}(x,s)
 ```
 
 and test the native local balance on a compact spatial cutoff `chi` and a
@@ -32,7 +35,7 @@ The desired anti-atom conclusion would be
 
 ```math
 \lim_{\eps\downarrow0}\limsup_m
-\mu_m^{src,+}(\chi\,1_{(-\eps,0]})=0.
+\nu_{m,\chi}^{src,+}((-\eps,0])=0.
 ```
 
 The weaker theorem tested here is the jump-sink alternative:
@@ -53,11 +56,10 @@ or legal/donor spill.
 
 ## Balance Identity
 
-For a localized packet balance, the terminal slab identity has the schematic
-form
+For a localized packet balance, the terminal slab identity has the form
 
 ```math
-\mu_m^{src,+}(\chi\,1_{(-\eps,0]})
+\nu_{m,\chi}^{src,+}((-\eps,0])
 =
 J_m(\eps;\chi)
 +D_m(\eps;\chi)
@@ -65,7 +67,10 @@ J_m(\eps;\chi)
 +P_m^{con}(\eps;\chi)
 +C_m^{sgn}(\eps;\chi)
 +L_m(\eps;\chi)
-+o_m(1).
++R_m(\eps;\chi),
+\qquad
+\lim_{m\to\infty}R_m(\eps;\chi)=0
+\text{ for each fixed }\eps>0.
 ```
 
 Here:
@@ -89,7 +94,7 @@ Assume a nonzero terminal atom:
 
 ```math
 \lim_{\eps\downarrow0}\limsup_m
-\mu_m^{src,+}(\chi\,1_{(-\eps,0]})=a>0.
+\nu_{m,\chi}^{src,+}((-\eps,0])=a>0.
 ```
 
 Integrate the localized balance over `(-eps,0]`.  Each term on the right is a
@@ -136,9 +141,13 @@ against dissipation on the same shrinking interval:
 ```math
 E_j'(t)+c\nu D_j(t)\le F_j(t)+L_j(t),
 \qquad
-F_j(t)\approx c\nu D_j(t)
-\quad\text{on }I_j,\ |I_j|\sim2^{-2j}.
+c_0\nu D_j(t)\le F_j(t)\le C_0\nu D_j(t)
+\quad\text{on }I_j,
+\qquad
+c_I2^{-2j}\le |I_j|\le C_I2^{-2j},
 ```
+
+with fixed positive constants `c_0`, `C_0`, `c_I`, and `C_I` independent of `j`.
 
 This produces no contradiction from fixed-shell absolute continuity or finite
 first-moment source mass.
