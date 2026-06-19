@@ -254,7 +254,7 @@ from installed inputs.
 
 ## Attempted Class Production
 
-The standard rigid classes were tested and are not produced.
+The classical rigid classes were tested and are not produced.
 
 Finite global ancient energy fails because under the Zeno scaling:
 
