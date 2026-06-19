@@ -13994,3 +13994,54 @@ Second downstream pass and validation:
 The targeted theorem-packet primary surface scan is empty on live files; the
 only remaining old phrases are this before/after ledger evidence.  `git diff
 --check` passed on the edited packet-primary surfaces and this ledger.
+
+## Cone/Funnel Source-Frontier Exactness Rework
+
+Old claim being spent:
+
+The active cone/funnel source-frontier cluster still used loose labels around
+exact counterexamples, test fields, and admission boundaries: `density model`,
+`exact model`, `model rescaled field`, `gold standard`, `periodic model`,
+`whole-space model`, `coherent packet model`, `model scaling`, `heat-scale
+pulse model`, `constant model load`, `This model is not a Navier-Stokes proof`,
+`hard model`, `same-scale` spill language, and `generic annular diagnostic`.
+
+Exact replacement:
+
+The repaired surfaces now name density counterexamples, test rescaled fields,
+gold criteria, periodic/whole-space settings, coherent packet tests, test
+scaling, the heat-scale pulse test, constant test load, scalar test, persistent
+alignment pattern, selected-scale spill/coefficient pieces, and unadmitted
+private annular diagnostics.  The parabolic funnel note already retained the
+exact pulling-teeth correction: profile means the rescaled unknown `v`, not a
+prescribed spatial shape or linear model for `u` on the shrinking ball.
+
+Proof or downstream consequence:
+
+The cluster now spends exact displayed counterexamples and tests.  The gold
+cone/funnel route remains a criterion requiring late-slab scale-critical
+smallness, an undiscounted cone tail, or terminal anti-atom/new-production input.
+The scalar and packet tests show insufficiency of local integral energy,
+discounted cone ledgers, first-moment drain, and selector visibility alone.
+The silver annular branch remains conditional on same-solution admission,
+positive-radius carrier, and readout completeness.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-density-point-closure-direct-attempt-20260611.md`.
+- `theorem-construction/mpp-cone-payment-closure-package-20260611.md`.
+- `theorem-construction/mpp-forward-positive-cone-estimate-direct-audit-20260611.md`.
+- `theorem-construction/mpp-parabolic-funnel-forward-control-analysis-20260611.md`.
+- `theorem-construction/mpp-active-shell-square-payment-source-no-pulse-collapse-20260611.md`.
+- `theorem-construction/mpp-signed-decorrelation-branch-collapse-to-time-cost-or-active-square-20260611.md`.
+- `theorem-construction/mpp-weighted-profile-production-absorption-direct-test-20260611.md`.
+- `theorem-construction/mpp-active-square-amplitude-thickness-branch-consolidation-20260611.md`.
+- `theorem-construction/mpp-whole-cone-wall-volume-shrink-rate-forward-positive-work-order-20260611.md`.
+- `theorem-construction/mpp-lower-prefix-active-square-global-drain-direct-test-20260611.md`.
+- `theorem-construction/mpp-spill-collar-to-far-corona-forward-positive-collapse-20260611.md`.
+- `theorem-construction/mpp-pulling-teeth-exactness-repair-ratification-20260613.md`.
+
+Second downstream pass and validation:
+
+Pending targeted rescan of the cone/funnel source-frontier cluster and `git
+diff --check`.
