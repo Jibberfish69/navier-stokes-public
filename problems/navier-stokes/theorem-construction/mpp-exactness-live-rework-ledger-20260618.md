@@ -14530,7 +14530,7 @@ Second downstream pass and validation:
 The targeted authority pass over `live-theorem-edge.yaml`,
 `source-frontier.yaml`, `theorem-packet.yaml`, `theorem-repair.yaml`,
 `dependency-discharge.yaml`, and both `submission-verdict.yaml` copies found
-the Field bridge already spending the corrected consequence.  The targeted
-residue scan no longer finds the dangling `So the rule`, empty `Assume` in the
-patched Field section, `Jump J Q`, `Part term N,Q`, or `not Part term` on the
-patched bridge surfaces.
+the Field bridge already spending the corrected consequence.  Outside this
+ledger entry, the targeted residue scan no longer finds the dangling `So the
+rule`, empty `Assume` in the patched Field section, `Jump J Q`,
+`Part term N,Q`, or `not Part term` on the patched bridge surfaces.
