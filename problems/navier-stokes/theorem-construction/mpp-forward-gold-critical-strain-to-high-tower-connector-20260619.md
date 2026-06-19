@@ -30,9 +30,10 @@ On a heat-scale feed packet
 ```math
 Q_r=B_r\times I_r,
 \qquad
-|I_r|\sim r^2/\nu,
+\alpha_t{r^2\over\nu}\le |I_r|\le A_t{r^2\over\nu},
 \qquad
-|S|\sim\nu r^{-2},
+\alpha_S{\nu\over r^2}\le |S|\le A_S{\nu\over r^2}
+\quad\text{on the selected active subset,}
 \tag{CSHT.2}
 ```
 
@@ -40,8 +41,8 @@ the energy-rung strain cost is
 
 ```math
 \int_{Q_r}|S|^2\,dxdt
-\sim
-\nu r.
+\le
+C_2\nu r.
 \tag{CSHT.3}
 ```
 
@@ -51,8 +52,8 @@ The critical strain cost is
 
 ```math
 \int_{Q_r}|S|^{5/2}\,dxdt
-\sim
-\nu^{3/2}.
+\ge
+c_{5/2}\nu^{3/2}.
 \tag{CSHT.4}
 ```
 
