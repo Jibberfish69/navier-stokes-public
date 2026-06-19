@@ -10095,3 +10095,72 @@ TPS theorem surface, live edge, or source-frontier.  The positive scan finds the
 replacement references to `(D.7g)`--`(D.7i)` and Proposition `D.7mb`.
 `git diff --check` passes on the edited proof attempt.  Remaining same-family
 hits in `marvin-ingest-notes.yaml` are preserved generated-status residue.
+
+## Manuscript Conditional-Bridge Copy Rework
+
+Old claim being spent:
+
+Two live manuscript-facing surfaces still carried shortcut wording after earlier
+source repair.  The `D.7mq` supplier note and appendix copy said the four
+estimates close a "formal path" once their source hypotheses are supplied.  The
+ontic projected-flow package and appendix copy presented a "formal package" and
+a global classical corollary in a way that could be read as a result before the
+named route packages were fully discharged.
+
+Exact replacement:
+
+The `D.7mq` bridge now states a same-strip conditional reduction.  On one
+selector-good strip, the following hypotheses must hold on the same terminal
+core-cap family:
+
+1. anchored density/Holder control;
+2. finite shell comparability;
+3. regular-window `C^2` transport stability;
+4. exact-potential comparison with a reference Cauchy-Green gap.
+
+Only under those hypotheses do the finite-frame expansion and Davis-Kahan step
+prove `D.7mq`; without those same-strip hypotheses the note supplies no
+`D.7mq` input.
+
+The ontic package now states an exact implication:
+
+```math
+\mathcal C(\partial_t X)=\partial_t u,\quad
+\mathcal C(\Delta_DX)=\Delta u,\quad
+\mathcal C(\mathbb P_DX)=\mathbb P_{\mathrm{Leray}}u,\quad
+\mathcal C(\mathbb P_DN_D(X))=\mathbb P_{\mathrm{Leray}}(u\cdot\nabla u),
+```
+
+plus
+
+```math
+\|u\|_{H^s}\le C\|X\|_{H_D^s},\qquad s>5/2.
+```
+
+These hypotheses imply the projected classical Navier-Stokes equation for
+`u=\mathcal C(X)`.  Adding
+`\sup_t\|X(t)\|_{H_D^s}<\infty` gives
+`\sup_t\|u(t)\|_{H^s}<\infty`, and only then may the classical continuation
+theorem yield a global smooth classical solution.
+
+Proof or downstream consequence:
+
+Consumers may not spend `D.7mq` until all four same-strip packets plus the
+exact-potential/Cauchy-Green gap data are available on the same carrier.  The
+ontic package may be cited only as a conditional implication from D.1, the D.2
+bilinear hinge, the exact lift identities, and the global `H_D^s` bound.  It is
+not an unconditional Navier-Stokes closure.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-four-estimate-supplier-proof-for-d-7mq-f2c39b58b0.md`;
+- `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `close the formal path`,
+`formal path to D.7mq`, `Conditional supplier proof`, `Formal Package: Ontic
+Projected Flow`, `strongest formal package`, `strongest formal derivation`, or
+`What is formal here` hits in the live theorem notes or appendix copy.  The
+authority YAML set has no matching ontic-package overclaim.
