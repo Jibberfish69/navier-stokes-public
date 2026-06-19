@@ -102,9 +102,18 @@ LegalBoundaryLedger.A,
 pressure / collar / off-family legal-loss ledgers.
 ```
 
-This includes the usual localization, projection, cutoff, harmonic pressure,
-and boundary residues.  Absolute estimates are not being used to pay the
-principal source-current; only the already named exit ledgers are spent.
+This spends only residues assigned to those named ledgers: localization,
+projection, cutoff, harmonic-pressure, collar, off-family, and boundary terms
+must enter through an estimate of the form
+
+```math
+\sum_{\mathrm{legal\ exits}}\mathrm{Loss}_{exit}
+\le
+Legal_N+o_N(1).
+```
+
+Absolute estimates are not being used to pay the principal source-current; only
+the already named exit ledgers are spent.
 
 ## 4. Finite donor trees are paid
 
