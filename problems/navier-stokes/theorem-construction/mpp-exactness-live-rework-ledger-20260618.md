@@ -13138,7 +13138,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `sharper answer than expected` phrase in
+the edited mixed-shell note or submission appendix.  It finds the replacement
+support-geometry cancellation statement.  `git diff --check` passed on the
+edited note, appendix, and this ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
