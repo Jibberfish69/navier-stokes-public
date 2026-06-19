@@ -48,8 +48,13 @@ and native positive active source lower bound
 
 The packet may be chosen so that all already-installed legal losses are
 absorbed into `o_n(1)` and all same-fluid labels, collars, cutoffs, and active
-windows are fixed from the same preterminal packet.  This is just the standard
-terminal subsequence selection used throughout the source-pulse notes.
+windows are fixed from the same preterminal packet.  Concretely, choose failed
+source windows with `t_n\uparrow T_*` and `j_n\to\infty`; discard windows whose
+legal pressure/cutoff/collar losses are a fixed positive fraction of the active
+source mass; pass to a diagonal subsequence on the finite label/collar/cutoff
+choices; and keep the branch on which the same-fluid ancestry and active-window
+normalization survive.  On that subsequence the remaining legal losses are
+`o_n(1)` relative to the normalized pulse lower bound.
 
 ## Normal-Form Theorem `SPNF.A`
 
