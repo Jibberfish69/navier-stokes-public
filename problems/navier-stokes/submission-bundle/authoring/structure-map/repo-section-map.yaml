@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-18T22:36:01Z'
+generated_at: '2026-06-19T21:36:40Z'
 rules: problems/navier-stokes/submission-bundle/authoring/structure-map/repo-section-map-rules.yaml
 source_files:
 - problems/navier-stokes/spine.md
@@ -13,7 +13,7 @@ source_files:
 - problems/navier-stokes/whole-space-r3-matrix-branch.md
 - problems/navier-stokes/euler-mirror/completion-contract.md
 missing_source_files: []
-entry_count: 447
+entry_count: 449
 entries:
 - repo_handle: AACT.Global.noJump
   reader_title: AACT Global No Jump
@@ -662,7 +662,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -726,7 +727,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Gold Standard (forward-positive proof)
   - Realizations, Insights, and Final Obstructions to the gold standard route
   visibility: proof_program_support
@@ -764,7 +766,8 @@ entries:
   kind: spine_surface
   pdf_level: subsubsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Handling gold standard obstructions
   - Finite-Time Breakdown as a Same-Solution Terminal-Object Claim
@@ -778,7 +781,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -828,7 +832,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1193,7 +1198,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1207,7 +1213,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1323,7 +1330,8 @@ entries:
   kind: spine_surface
   pdf_level: subsubsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Handling gold standard obstructions
   - Finite-Time Breakdown as a Same-Solution Terminal-Object Claim
@@ -1365,7 +1373,8 @@ entries:
   kind: spine_surface
   pdf_level: subsubsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Handling gold standard obstructions
   - Finite-Time Breakdown as a Same-Solution Terminal-Object Claim
@@ -1382,7 +1391,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1395,7 +1405,8 @@ entries:
   kind: spine_surface
   pdf_level: subsubsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Handling gold standard obstructions
   - Finite-Time Breakdown as a Same-Solution Terminal-Object Claim
@@ -1461,7 +1472,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1486,7 +1498,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -1992,6 +2005,19 @@ entries:
     problems/navier-stokes/live-theorem-edge.md: 1
     problems/navier-stokes/live-theorem-edge.yaml: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
+- repo_handle: END.PartMargin
+  reader_title: END Part Margin
+  kind: route_node
+  pdf_level: appendix
+  pdf_path:
+  - Main Theorem and Proof
+  - Branch route maps and readout support
+  visibility: appendix_or_route_map
+  placement_rule: receiver_readout_route
+  source_files:
+    problems/navier-stokes/live-theorem-edge.yaml: 1
+    problems/navier-stokes/ns-proof-program-route-table.md: 1
+  cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: END.TowerAmp
   reader_title: END Tower Amp
   kind: route_node
@@ -2178,7 +2204,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -2455,9 +2482,10 @@ entries:
 - repo_handle: Field_{N,r,Q}
   reader_title: Field Face
   kind: witness_face
-  pdf_level: subsection
+  pdf_level: paragraph
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   - Smoothness Certification Window and Witnesses
@@ -2597,7 +2625,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -3180,7 +3209,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -3619,9 +3649,10 @@ entries:
 - repo_handle: Pack_Q
   reader_title: Pack Face
   kind: witness_face
-  pdf_level: subsection
+  pdf_level: paragraph
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   - Smoothness Certification Window and Witnesses
@@ -3785,9 +3816,10 @@ entries:
 - repo_handle: Part_{N,Q}
   reader_title: Part Face
   kind: witness_face
-  pdf_level: subsection
+  pdf_level: paragraph
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   - Smoothness Certification Window and Witnesses
@@ -3963,7 +3995,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -3976,7 +4009,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -4670,7 +4704,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Gold Standard (forward-positive proof)
   - Realizations, Insights, and Final Obstructions to the gold standard route
   visibility: proof_program_support
@@ -4745,7 +4780,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -5017,6 +5053,18 @@ entries:
   source_files:
     problems/navier-stokes/whole-space-r3-matrix-branch.md: 1
   cross_reference_boundary: structure-map only; not a formal ENV cref target
+- repo_handle: TTU.cond
+  reader_title: TTU Cond
+  kind: repo_surface
+  pdf_level: appendix
+  pdf_path:
+  - Main Theorem and Proof
+  - Surface support inventory
+  visibility: authoring_review
+  placement_rule: unmapped_surface
+  source_files:
+    problems/navier-stokes/live-theorem-edge.yaml: 1
+  cross_reference_boundary: structure-map only; not a formal ENV cref target
 - repo_handle: Tail.Hs_R3
   reader_title: Whole-Space Sobolev Tail
   kind: branch_surface
@@ -5145,7 +5193,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -5293,7 +5342,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
@@ -5332,7 +5382,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Gold Standard (forward-positive proof)
   - Realizations, Insights, and Final Obstructions to the gold standard route
   visibility: proof_program_support
@@ -5641,7 +5692,8 @@ entries:
   kind: proof_program_surface
   pdf_level: subsection
   pdf_path:
-  - Proof program
+  - Proof program ((demonstrated and explained with example)(full top-level reasoning
+    and train-of-thought)(reader facing walkthrough))
   - Silver Standard (Class membership and Contrapositive proof)
   - Class Membership
   visibility: proof_program_support
