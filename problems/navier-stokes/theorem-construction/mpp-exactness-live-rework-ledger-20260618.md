@@ -10350,28 +10350,36 @@ law-level replacement, and `git diff --check` passes on all edited surfaces.
 
 Old claim being spent:
 
-The appendix heading `Source Wall Root.Two Path Formal Completion.Conditional`
-advertised formal completion while the section body is a conditional source-wall
-completion surface.
+The source-wall two-path note and appendix heading advertised formal completion
+while the section body is a conditional source-wall completion surface.
 
 Exact replacement:
 
-The heading now reads `Source Wall Root.Two Path Conditional Completion`.
+The source note now reads `SourceWallRoot.TwoPathConditionalCompletion`; its
+status, combined endpoint, and final verdict use conditional-completion wording.
+The appendix heading now reads `Source Wall Root.Two Path Conditional
+Completion`.
 
 Proof or downstream consequence:
 
 The section can be cited only as a conditional completion surface, not as a
-formal-completion certificate independent of its hypotheses.
+formal-completion certificate independent of its hypotheses.  Both source-wall
+root burdens remain open unless either `ScaleCriticalTreeCarleson.A` or the
+Zeno rigid-class/Liouville package is proved.
 
 Surfaces edited:
 
+- `theorem-construction/mcp-sourcewallroot-twopathformalcompletion-conditional-0d8da5dbcc.md`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
 
-The targeted scan finds no remaining `Source Wall Root.Two Path Formal
-Completion.Conditional` heading in the appendix.  The positive scan finds the
-conditional heading, and `git diff --check` passes on the edited appendix.
+The targeted scan finds no remaining `TwoPathFormalCompletion`, `formal
+two-path completion`, `Combined formal endpoint`, `formal completion is exact`,
+or `Source Wall Root.Two Path Formal Completion.Conditional` hit in the edited
+source note or appendix heading.  The positive scan finds the conditional source
+title, status, endpoint, verdict, and appendix heading, and `git diff --check`
+passes on the edited source note and appendix.
 
 ## Signed-Partner And Saturated-Hull Rework
 
