@@ -13991,5 +13991,6 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted rescan of theorem-packet primary surfaces and `git diff
---check`.
+The targeted theorem-packet primary surface scan is empty on live files; the
+only remaining old phrases are this before/after ledger evidence.  `git diff
+--check` passed on the edited packet-primary surfaces and this ledger.
