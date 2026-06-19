@@ -15477,6 +15477,81 @@ A fixed-string residue search over the three edited notes plus
 `schematic` shortcut on this slice, and `git diff --check` passes for the edited
 notes.
 
+## Projected Localized Flux Commutator Coercivity Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-projected-localized-flux-commutator-coercivity-attempt-20260619.md`
+used a `\sim` leading-flux relation and a "typical"/"schematic" `\lesssim`
+commutator estimate.  The note's verdict was correct that unrestricted
+projected localized commutator coercivity is too strong, but the proof surface
+still relied on heuristic scale and tail language instead of the actual
+decomposition and inequality.
+
+Exact replacement:
+
+For `A=P\chi P`, `P` self-adjoint, and `Pu=u`, the localized convection term is
+now written as the exact identity
+
+```math
+\mathcal C_\chi(u)
+=
+\frac12\int |u|^2u\cdot\nabla\chi
++\mathcal R_\chi^P(u),
+\qquad
+\mathcal R_\chi^P(u)
+:=\int (u\otimes u):\nabla([P,\chi]u).
+```
+
+For `\chi_r(x)=\chi((x-x_0)/r)` and
+`u_r(x)=r^{-1}U((x-x_0)/r)`, the scaling comparison is now explicit:
+
+```math
+\mathsf{Flux}_{\chi_r}(u_r)
+=
+r^{-1}\int_{\operatorname{supp}\nabla\chi}|U|^3|\nabla\chi|,
+\qquad
+\nu\int \chi_r|\nabla u_r|^2
+=
+\nu r^{-1}\int \chi|\nabla U|^2.
+```
+
+The sign obstruction is now exact: replacing `u` by `-u` reverses the cubic flux
+and leaves `\nu\int\chi|\nabla u|^2` unchanged.  The Leray commutator is now
+paid by the explicit Coifman-Meyer estimate
+
+```math
+\|[P,\chi]\nabla\cdot F\|_{L^p}
+\le
+C_{p,\chi,P}\|F\|_{L^p},
+\qquad
+\bigl|\langle [P,\chi]\nabla\cdot(u\otimes u),u\rangle\bigr|
+\le
+C_{\chi,P}\|u\|_{L^3}^3.
+```
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-projected-localized-flux-commutator-coercivity-attempt-20260619.md`.
+- `source-frontier.yaml`.
+
+Downstream consequence:
+
+The pressure-corrected monotone branch cannot spend projection/localization as a
+standalone positive coercivity mechanism.  The branch now reduces to a
+reserved/no-incoming commutator theorem, a pressure-conormal/material-gauge
+payment, or CM-facing classification of retained critical collar flux.
+
+Second downstream pass and validation:
+
+The active frontier status was updated to carry the exact decomposition,
+scaling comparison, sign reversal, and commutator estimate.  `source-frontier.yaml`
+parses as YAML, a fixed-string residue search over the edited note and
+`source-frontier.yaml` finds no remaining `should`, `O(1)`, `\lesssim`,
+`\gtrsim`, `\sim`, `approximately`, `roughly`, `same order`, `typical`,
+`immediate`, `schematic`, or `comparable` shortcut on this slice, and
+`git diff --check` passes for the edited files.
+
 ## CM Pack And Scale-Critical Promotion-Guard Repair
 
 Old claim being spent:
