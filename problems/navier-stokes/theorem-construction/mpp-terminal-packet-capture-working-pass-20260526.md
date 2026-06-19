@@ -207,7 +207,7 @@ CM-test-admissible terminal packet
 => Exit(Q):=not Member(Q).
 ```
 
-The current repo does not yet prove, at referee standard, the unconditional
+The current repo does not yet prove, at referee threshold, the unconditional
 capture step:
 
 ```text
@@ -299,7 +299,7 @@ Clay finite breakdown witness
 => admitted readout-complete terminal packet Q_*
 ```
 
-at referee standard.
+at referee threshold.
 
 ## What This Means For The CM Program
 

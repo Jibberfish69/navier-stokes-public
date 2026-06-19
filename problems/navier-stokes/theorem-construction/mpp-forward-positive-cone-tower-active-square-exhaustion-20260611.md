@@ -492,7 +492,7 @@ density.
 For this specific cone/tower case, the exact problem-solving flow is:
 
 ```text
-gold standard:
+gold criterion:
   prove ResidualSourceBalancedLPAS.A / ResidualDirectCTSOrFCTS.A, or a stronger
   residual source-depletion theorem that gives the finite undiscounted cone
   budget and hence the late-slab CKN pass;

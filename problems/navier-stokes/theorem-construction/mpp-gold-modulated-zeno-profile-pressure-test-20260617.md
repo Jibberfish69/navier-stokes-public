@@ -2,7 +2,7 @@
 
 Status: exploratory gold-route pressure test, not an installed proof.
 
-This note records the June 17 gold-standard experiment: replace the rigid
+This note records the June 17 gold-criterion experiment: replace the rigid
 Laurent terminal expansion by a modulated parabolic Zeno rescaled field and test
 whether a terminal annular collapse can be killed before it becomes a CM exit.
 

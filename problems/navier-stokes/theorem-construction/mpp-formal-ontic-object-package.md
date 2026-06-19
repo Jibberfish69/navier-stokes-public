@@ -443,7 +443,7 @@ It is strong enough that later local branches can be audited by a single test:
 \tag{OP.18}
 ```
 
-That is the correct carry-forward standard.
+That is the correct carry-forward criterion.
 
 ### Installed carry-forward closures
 

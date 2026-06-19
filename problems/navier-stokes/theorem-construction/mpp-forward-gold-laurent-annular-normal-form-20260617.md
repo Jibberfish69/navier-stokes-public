@@ -4,7 +4,7 @@ Date: 2026-06-17
 
 Status: new investigation branch; not proved.
 
-Role: continue the gold-standard factorial-radius line by testing whether the
+Role: continue the gold-criterion factorial-radius line by testing whether the
 terminal annular/Zeno collapse can be handled as a removable-singularity problem
 through a Laurent-type principal part.
 
