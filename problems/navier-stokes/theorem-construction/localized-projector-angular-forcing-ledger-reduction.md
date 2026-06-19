@@ -569,16 +569,18 @@ is now:
 +
 \texttt{pair-family angular forcing ledger}
 +
-\texttt{weighted coverage/globalization}.
+\texttt{the }AFR.G\texttt{ maximal-envelope globalization theorem}
+\texttt{ for }q_\ell^{mat}\texttt{ or }q_\ell^{aux}.
 }
 \tag{AFR.20}
 ```
 
 Equivalently, the localized-projector branch has reached the point where its
 remaining forcing debt is no longer a new local theorem. It is the already
-recognized pair-family forcing budget from `D.7ie1` together with the coverage
-packet that transports local window estimates into the global synchronization
-channel. The remaining explicit entrance suppliers are still exactly the two
+recognized pair-family forcing budget from `D.7ie1` together with the explicit
+maximal-envelope globalization theorem that transports local window estimates
+into the global synchronization channel. The remaining explicit entrance
+suppliers are still exactly the two
 installed routes `D.7ic` and `D.7ig`, now written as the concrete globalization
 envelopes `\mathfrak q_J^{mat}` and `\mathfrak q_J^{aux}` above. After the
 maximal-envelope promotion `AFR.G`, the remaining globalization wall is even
