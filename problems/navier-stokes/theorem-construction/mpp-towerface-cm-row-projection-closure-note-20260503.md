@@ -157,7 +157,7 @@ coherence:
 ```
 
 It does not control the absolute basepoint amplitude of `U_k` or `K_k`.
-Spatially coherent high-amplitude tower packets are exactly the formal gap: the
+Spatially coherent high-amplitude tower packets are exactly the actual gap: the
 coherence modulus may remain finite while the absolute tower amplitude becomes
 large along the terminal approach.  Therefore tower-amplitude escape does not
 by itself imply one-field coherence fracture.
