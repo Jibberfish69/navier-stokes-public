@@ -51,7 +51,7 @@ Consequently, overlap is expected. A finite-time material distortion blow-up
 is Pack-facing because it breaks usable common packing coordinates, while its
 analytic cause is the strain/tower channel and must be checked against
 `Field` or the tower-amplitude slot. It does not automatically break `Part`
-only when `Part` is read as the formal carrier-law clause.
+only when `Part` is read as the carrier-law-only clause.
 
 For terminal theorem use, the note distinguishes:
 
@@ -430,7 +430,7 @@ isolation from every `Field` quantity, or whether weak carrier-law `Part`
 survives as a formal identity. The useful question is whether a Pack-facing
 failure has a route-native proof role distinct from the neighboring-coherence
 estimates that also see its strain source, while terminal participation is kept
-separate from that weak formal carrier-law reading.
+separate from that weak carrier-law-only reading.
 
 ### 3. No-Fourth-Primitive-Law Theorem
 
