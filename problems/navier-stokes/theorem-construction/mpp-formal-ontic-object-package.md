@@ -1,4 +1,4 @@
-# MPP Formal Ontic Object Package
+# MPP Working Ontic Object Package
 
 ## Status
 
@@ -11,7 +11,7 @@ This note is not a branch theorem and not a consumer packet. Its job is to fix
 the object together with the live laws and induced structures that later
 arguments are allowed to use.
 
-## Formal Working Package
+## Working Package
 
 Fix one theorem surface `\Omega\in\{\mathbf T^3,\mathbf R^3\}`, one lifetime
 `[0,T)`, one viscosity `\nu>0`, and one divergence-free initial datum `u_0`.
@@ -206,8 +206,8 @@ For `U_k:=\nabla^k u` and `\delta_h f(x):=f(x+h)-f(x)`,
 ```
 
 This is the canonical neighboring-response law already carried by the same
-object. It makes cross-rung and cross-neighbor coupling formal rather than
-semantic only.
+object. It makes cross-rung and cross-neighbor coupling an explicit law-level
+constraint rather than a semantic analogy.
 
 ### 9. Rung-energy law
 
@@ -234,7 +234,7 @@ the current route only if it is induced from
 `\mathfrak O_{\mathrm{NS}}^{\mathrm{work}}` and obeys the same law-bundle on
 its window.
 
-Formally:
+Exact admissibility target:
 
 ```math
 \boxed{
