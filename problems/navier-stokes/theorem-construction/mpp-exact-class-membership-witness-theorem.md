@@ -9,7 +9,7 @@ predicate-family on still-live windows without replacing the governing object by
 a generic substitute.
 
 This note is not a branch theorem and not a downstream readout packet. Its job
-is narrower: close the exact analytic witness debt that the formal ontic object
+is narrower: close the exact analytic witness debt that the working ontic object
 package was still carrying.
 
 ## Purpose
