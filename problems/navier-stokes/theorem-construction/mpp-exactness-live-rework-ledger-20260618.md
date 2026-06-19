@@ -14682,3 +14682,65 @@ longer finds the old "ASAC / pair-weight charge pays", "first three cases are
 paid", or "correct next forward supplier" shortcuts; the remaining "paid by
 installed ledgers" hit is the corrected statement that cases 2 and 3 are paid
 while case 1 is conditional.
+
+## Forward-Gold Critical-Element Route Should-Language Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-critical-element-local-energy-rigidity-attempt-20260618.md`
+used "should" at the theorem-forming points of the active forward-Gold route:
+the native limiting object, the status of annular/current/topological material,
+the statement of `NoWasteLocalEnergyFlux.A`, and the final route architecture.
+It also used `\lesssim` in the no-waste display without naming the uniformity
+needed for the terminal cutoff scale.
+
+Exact replacement:
+
+The note now states that the route requires a subsequential local-energy package
+
+```text
+(U, Pi, E, F, D)
+```
+
+from the parabolic blow-up scaling, and that annular/current/topological material
+has proof force only when it supplies compact-orbit production, native
+flux/source visibility, or a rigidity hypothesis for that package.  The
+`NoWasteLocalEnergyFlux.A` target is now the exact uniform-cutoff statement:
+for each minimal element produced by `CriticalTerminalElementExtraction.A` and
+each shrinking terminal cutoff exhaustion, there is a constant `C`, independent
+of the terminal cutoff scale, such that
+
+```text
+|Z|_terminal <= C(D_diss + |Flux_loc(F)| + D_pressure + D_defect).
+```
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-critical-element-local-energy-rigidity-attempt-20260618.md`.
+
+Downstream consequence:
+
+The critical-element route remains active only under the three named native
+hypotheses:
+
+```text
+CriticalTerminalElementExtraction.A
++ NoWasteLocalEnergyFlux.A
++ CompactAncientRigidity.A.
+```
+
+The annular/topological branches are not globally demoted as a shortcut; their
+downstream proof force is now explicitly typed as supplier/test material for
+compactness production, native no-waste visibility, or compact ancient rigidity.
+
+Second downstream pass and validation:
+
+`source-frontier.yaml` already records the same conditional closure: existing
+inputs supply only `ZenoCompactnessExtraction.A`; they do not produce the compact
+critical element; `NoWasteLocalEnergyFlux.A` still needs
+`LocalEnergyFluxNativeResidueIdentity.A` and `TerminalLocalEnergyFluxTightness.A`;
+and `CompactAncientRigidity.A` remains a consumer after those hypotheses are
+supplied.  No authority rewrite was needed.  A targeted scan over the patched
+note and live authority surfaces finds no remaining `should`, `demotes`, `older
+junk`, or `lesssim` wording from this failure class, and `git diff --check --
+problems/navier-stokes` passes.
