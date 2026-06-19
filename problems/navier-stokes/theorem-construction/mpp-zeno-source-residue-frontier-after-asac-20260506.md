@@ -59,7 +59,7 @@ force the limiting residue to vanish.
 
 ## 2. Narrowest rigid class found
 
-The standard rigid classes are not produced by installed inputs:
+The classical rigid classes are not produced by installed inputs:
 
 ```text
 finite global ancient energy,

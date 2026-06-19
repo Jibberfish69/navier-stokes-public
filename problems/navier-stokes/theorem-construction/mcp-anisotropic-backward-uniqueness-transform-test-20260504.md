@@ -44,13 +44,13 @@ where
 A(s)=E(s)^{-1}E(s)^{-T}=e^{-sS}e^{-sS^T}.
 ```
 
-For symmetric `S`, the pressure gradient is standard in these variables, but the divergence constraint becomes anisotropic:
+For symmetric `S`, the pressure gradient transforms directly in these variables, but the divergence constraint becomes anisotropic:
 
 ```math
 \nabla_z\cdot(A(s)w)=0,
 ```
 
-not the standard Euclidean condition `\nabla_z\cdot w=0`.
+not the unweighted Euclidean condition `\nabla_z\cdot w=0`.
 
 Thus the exact reserve theorem is not scalar heat backward uniqueness. It is backward uniqueness for the anisotropic Stokes system
 

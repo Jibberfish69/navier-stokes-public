@@ -53,7 +53,7 @@ does not supply a monotone quantity that must strictly decrease at every parent
 step.  Therefore an infinite ancestry chain can, in principle, move through
 shrinking or translating packets while spending only summable local cost.
 
-The installed compactness package also does not give any of the standard
+The installed compactness package also does not give any of the classical
 global ancient restrictions that would make a Liouville theorem available:
 
 ```math

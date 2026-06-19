@@ -68,7 +68,7 @@ Gamma_sharp(t)
 So `TerminalCollarStrainIntegrability.A` is enough for Pack retention. The
 problem is proving the hypothesis.
 
-The usual analytic routes do not make it smaller:
+The following analytic routes do not make the burden smaller:
 
 1. A Beale-Kato-Majda style route replaces `||Du||_{L^\infty}` by vorticity
    control at continuation scale. That is a continuation criterion, not a

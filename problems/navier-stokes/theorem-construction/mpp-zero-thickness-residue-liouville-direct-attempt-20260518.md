@@ -40,9 +40,9 @@ B_ASAC/equality geometry in selected subcases.
 
 This data gives compactness and a measure-valued source object. It does not create a classical or critical regularity class.
 
-## 2. Standard rigid classes
+## 2. Classical rigid classes
 
-The usual Liouville routes require one of:
+The Liouville routes available here require one of:
 
 ```text
 global finite ancient energy,
