@@ -10761,3 +10761,40 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `formal gap` hit in the edited source note
 or appendix copy.  The positive scan finds `actual gap`, and `git diff --check`
 passes on both edited surfaces.
+
+## D.2 Carrier-Commutator Conditional Discharge Rework
+
+Old claim being spent:
+
+The carrier-commutator coercive lemma used `formal-object` in its object id and
+called the result the "formal D.2 discharge surface."  The downstream D.2 global
+coercive estimate called the coherent/remainder package "formal" while relying
+on it as the live bilinear hinge.
+
+Exact replacement:
+
+The carrier object is now `conditional-object-d2-carrier-commutator-coercive-lemma`.
+The D.2 discharge sentence states the exact conditional: the discharge is
+available only under Hypothesis H and the same-surface choice of `\Psi` that
+closes the displayed differential inequality uniformly in time.  The D.2 note
+now describes the local reduction as the exact coherent/remainder split with
+its carrier and energy-domain bounds.
+
+Proof or downstream consequence:
+
+The projected-flow route may spend the D.2 bilinear hinge only after the
+coherent/remainder split, commutator bounds, and `\Psi` closure are supplied on
+the same surface.  It may not spend a generic formal D.2 package.
+
+Surfaces edited:
+
+- `theorem-construction/carrier-commutator-coercive-lemma.md`;
+- `theorem-construction/d2-global-coercive-energy-estimate.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal-object-d2-carrier`, `formal D.2
+discharge`, or `formal coherent/remainder package` hit in the edited D.2
+surfaces.  The positive scan finds `conditional-object-d2-carrier`,
+`conditional D.2 discharge`, and `exact coherent/remainder split`.  `git diff
+--check` passes on both edited surfaces.
