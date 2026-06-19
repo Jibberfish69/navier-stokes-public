@@ -104,7 +104,7 @@ TerminalSourceReverseHolder.A\\
 \right).
 ```
 
-The installed ledgers do not prove this dichotomy. The class `B_ASAC^{closed}` is exactly the formal complement of the right-hand side inside the extracted terminal atom branch.
+The installed ledgers do not prove this dichotomy. The class `B_ASAC^{closed}` is exactly the logical complement of the right-hand side inside the extracted terminal atom branch.
 
 ## Verdict
 
