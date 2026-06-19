@@ -58,8 +58,8 @@ human_pdf:
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: 0a72c066756e72d5979a4a712e78e667773cc61e
-  bytes: 126192
+  sha1: 9eaf9e28de2c363be924b09436fe0e3dbb8015d8
+  bytes: 126629
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
