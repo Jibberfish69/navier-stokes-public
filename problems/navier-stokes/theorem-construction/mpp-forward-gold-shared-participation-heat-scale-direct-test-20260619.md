@@ -165,7 +165,115 @@ but it does not give:
 
 That missing implication is the actual forward-gold payment.
 
-## 5. Exact reduced supplier
+## 5. Radius-time-amplitude accounting
+
+The exact scalar obstruction has three variables, not one:
+
+```math
+\text{radius }r_j,\qquad
+\text{heat time }\tau_j\simeq r_j^2,\qquad
+\text{amplitude }a_j.
+\tag{SPH.10}
+```
+
+For a normalized heat-scale packet
+
+```math
+u_j(t,x)
+=
+a_jr_j^{-1}
+V\!\left({t-t_j\over r_j^2},{x-x_j\over r_j}\right),
+\tag{SPH.11}
+```
+
+the physical energy and dissipation costs scale like
+
+```math
+E_j+D_j
+\simeq
+a_j^2r_j.
+\tag{SPH.12}
+```
+
+The critical interface currencies scale instead like
+
+```math
+\|u_j(t)\|_{L^3(B_{r_j})}^3
+\simeq
+a_j^3,
+\tag{SPH.13}
+```
+
+```math
+{1\over r_j^2}
+\int_{Q_j}\left(|u_j|^3+|p_j|^{3/2}\right)\,dx\,dt
+\simeq
+a_j^3,
+\tag{SPH.14}
+```
+
+and, for the Serrin \(L^5\) action,
+
+```math
+\int_{Q_j}|u_j|^5\,dx\,dt
+\simeq
+a_j^5.
+\tag{SPH.15}
+```
+
+So participation plus physical energy gives at most a first-moment budget:
+
+```math
+\sum_j a_j^2r_j<\infty.
+\tag{SPH.16}
+```
+
+The forward-gold no-jump theorem needs an unweighted critical budget or a
+terminal-tail version:
+
+```math
+\sum_j a_j^3<\infty,
+\qquad
+\sum_j\mathcal C(Q_j)<\infty,
+\qquad
+\text{or}\qquad
+\lim_{N\to\infty}\sum_{j\ge N}\mathcal C(Q_j)=0.
+\tag{SPH.17}
+```
+
+There is no scale-independent inequality upgrading `(SPH.16)` into
+`(SPH.17)`.  For example, with \(r_j=2^{-j}\) and
+
+```math
+a_j=r_j^{-1/4},
+\tag{SPH.18}
+```
+
+one has
+
+```math
+\sum_j a_j^2r_j
+=
+\sum_j r_j^{1/2}
+<\infty,
+\tag{SPH.19}
+```
+
+while
+
+```math
+a_j^3=r_j^{-3/4}\to\infty.
+\tag{SPH.20}
+```
+
+This is the precise mathematical form of the underpayment issue.  At fixed
+positive radius, a terminal time window cannot carry a fixed packet for free.
+At heat-scale radius, the radius factor \(r_j\) discounts the physical payment.
+The remaining burden is to prove that the amplitude cannot exploit that
+discount without becoming a source-square, normalized CKN, critical-strain, or
+CM Field readout.
+
+## 6. Exact reduced supplier
 
 The corrected target is not an isolated pressure estimate.  The target is a
 coercive readout of the whole shared participation interface.  One usable form
@@ -177,7 +285,7 @@ would be a strict no-waste Lyapunov inequality
 c\,\mathcal A_R(s)
 -
 \mathcal R_{\rm legal}(s),
-\tag{SPH.10}
+\tag{SPH.21}
 ```
 
 where \(L_R\) is bounded below, \(\mathcal R_{\rm legal}\) is summable, and
@@ -201,7 +309,7 @@ remaining gold supplier is:
 \boxed{
 \text{coercive shared-participation readout of the heat-scale interface}
 }
-\tag{SPH.11}
+\tag{SPH.22}
 ```
 
 in one of the concrete forms:
@@ -210,7 +318,7 @@ in one of the concrete forms:
 \boxed{
 \text{StrictRescaledNoWasteLyapunov.A}
 }
-\tag{SPH.12}
+\tag{SPH.23}
 ```
 
 or
@@ -225,7 +333,7 @@ or
 \quad\text{/}\quad
 \text{SourceSquareReserve.A}.
 }
-\tag{SPH.13}
+\tag{SPH.24}
 ```
 
 So the branch is not "pressure obstruction."  It is shared participation
