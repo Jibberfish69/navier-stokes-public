@@ -7,6 +7,39 @@ classical approximation surface. Its job is to state the exact hypotheses under
 which localized dyadic transport-defect reductions convert into the uniform
 high-frequency tail bound needed by compactness and the Euclidean fourth bridge.
 
+## 2026-06-19 sharpness addendum
+
+The coefficient-weighted Gronwall hypothesis below is a valid sufficient
+condition for the bare-Gronwall version of the tail estimate, where the
+coercive \(D_N\) term is discarded.  It is not the sharp final blocker once the
+viscous tail damping is retained.
+
+The sharper tail step keeps
+
+```math
+D_N(t)\ge c_{\rm LP}2^{2N}T_N(t).
+```
+
+Then the low-mode coefficient bound
+
+```math
+\mathcal L_N(t)\le 1+C_E^{1/2}2^{3N/2}
+```
+
+is dominated by the \(2^{2N}\) damping for large \(N\).  Smooth initial Sobolev
+tail decay then recovers the desired \(2^{-2\delta N}\) tail without assuming
+
+```math
+T_N(0)\exp\left(C\int_0^T\mathcal L_N(s)\,ds\right)
+\le C_G2^{-2\delta N}.
+```
+
+The remaining theorem-grade burdens are the packet estimates that produce the
+damped tail-energy inequality on the same classical surface: the strict-low
+coefficient-preserving commutator, the threshold spill collar, the lifted
+mesoscopic stress-strain flux, and the aligned high-high absorption.  See
+`mpp-forward-gold-scale-barrier-tail-damping-reconciliation-20260619.md`.
+
 ## Setting
 
 Let `\{u^(n), p^(n)\}_{n \in \mathbb N}` be classical solutions of
