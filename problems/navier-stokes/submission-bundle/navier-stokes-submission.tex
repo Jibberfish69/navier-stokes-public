@@ -17,6 +17,8 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage{microtype}
+\usepackage{tocloft}
+\usepackage{titlesec}
 \usepackage[hidelinks]{hyperref}
 
 \newtheorem{theorem}{Theorem}
@@ -45,11 +47,44 @@
 \setlength{\emergencystretch}{4em}
 \allowdisplaybreaks
 
+% TOC and heading shape follow
+% authoring/templates/standard_sections_TOC.tex.
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\renewcommand{\cftsecfont}{\bfseries\large}
+\renewcommand{\cftsecpagefont}{\bfseries\large}
+\renewcommand{\cftsecleader}{\hfill}
+\setlength{\cftbeforesecskip}{1.7\baselineskip}
+\setlength{\cftsecindent}{0pt}
+\setlength{\cftsecnumwidth}{2.5em}
+
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cftsubsecpagefont}{\itshape}
+\renewcommand{\cftsubsecleader}{\hfill}
+\setlength{\cftbeforesubsecskip}{0.6\baselineskip}
+\setlength{\cftsubsecindent}{0pt}
+\setlength{\cftsubsecnumwidth}{3.2em}
+
+\renewcommand{\cftsubsubsecfont}{\normalfont}
+\renewcommand{\cftsubsubsecpagefont}{\normalfont}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftbeforesubsubsecskip}{0pt}
+\setlength{\cftsubsubsecindent}{1.6em}
+\setlength{\cftsubsubsecnumwidth}{4.4em}
+
+\titleformat{\section}[block]{\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\bfseries\large\itshape}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\bfseries\normalsize}{\thesubsubsection}{1em}{}
+\titleformat{\paragraph}[runin]{\bfseries\normalsize}{\theparagraph}{0.75em}{}
+\titlespacing*{\paragraph}{0pt}{1.0\baselineskip}{0.6em}
+
 \title{Three-Dimensional Navier--Stokes: Class Membership and the Contrapositive Proof Program}
 \author{Thomas Birnie}
 \date{June 17, 2026}
 
 \begin{document}
+\pagenumbering{roman}
 \maketitle
 \clearpage
 
@@ -94,10 +129,10 @@ branch, and no hidden third terminal alternative remains.
 \end{abstract}
 \clearpage
 
-\setcounter{tocdepth}{1}
 \tableofcontents
 \clearpage
 
+\pagenumbering{arabic}
 \input{sections/reader-facing-proof-program-front-pages.tex}
 
 \iffalse
