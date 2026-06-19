@@ -10,7 +10,8 @@ This note keeps the endpoint matrix inside the repo witness-certificate
 vocabulary. It does not replace the analytic tower supplier with a generic
 blowup classification: `END.TowerAmp` is supplied by the installed
 `DTC-to-TowerBound` theorem, while `END.Exh`, `END.Cross`, `END.Pack`,
-`END.Field`, and `END.TowerBound` are theorem-grade certificate cells.
+`END.PartMargin`, `END.Field`, and `END.TowerBound` are theorem-grade
+certificate cells.
 
 ## Installed Entry
 
@@ -22,8 +23,9 @@ The installed endpoint exclusion is:
 ```
 
 The analytic tower-amplitude supplier is `END.TowerAmp`, now installed through
-`DTC-to-TowerBound`; the native pack and field exclusions are spent downstream
-from pack preservation and `OFP.A`.
+`DTC-to-TowerBound`; the native pack, repaired Part-margin, and field exclusions
+are spent downstream from pack preservation, retained response-margin or closed
+terminal Part predicates, and `OFP.A`.
 
 ## Endpoint Matrix Block
 
@@ -37,7 +39,7 @@ Pack,\qquad Part,\qquad Field.
 The endpoint shells are:
 
 ```math
-Dead,\qquad Blown,\qquad Jump.
+Dead,\qquad response\text{-}margin\text{-}collapse,\qquad Blown,\qquad Jump.
 \tag{END.2}
 ```
 
@@ -47,6 +49,8 @@ The installed endpoint theorem block is
 \mathsf{End}_{NS}
 :=
 END.Pack
+\wedge
+END.PartMargin
 \wedge
 END.Field
 \wedge
@@ -87,18 +91,18 @@ activate `tower-blown` or Field-side coherence pressure. The matrix keeps those
 readouts typed rather than pretending that one visible endpoint has only one
 cause.
 
-### Conditional 21-Cell Endpoint Matrix
+### Conditional Endpoint Matrix
 
 For the terminal route theorem, the Pack/Part/Field endpoint matrix is the
 finite bookkeeping object
 
 ```math
-\mathcal M_{End}^{21}
+\mathcal M_{End}
 :=
 \{Pack,Part,Field\}
 \times
 \{
-Dead,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
+Dead,\ response\text{-}margin\text{-}collapse,\ packing\text{-}detached,\ tower\text{-}blown,\ Jump,\ Dead_\times,\ Blown_\times,\ Jump_\times
 \}.
 \tag{END.3m}
 ```
@@ -110,17 +114,20 @@ The route-native cells are discharged by:
 | matrix block | discharge route |
 | --- | --- |
 | `(Part,Dead)` | installed entry `(END.0)` |
+| `(Part,response-margin-collapse)` | `END.PartMargin` |
 | `(Pack,packing-detached)` | `END.Pack` |
 | `(Field,Jump)` | `END.Field` |
 | `tower-blown` row-independent slot | `DTC-to-TowerBound => END.TowerAmp => END.TowerBound` |
 | `Dead_x`, `Blown_x`, `Jump_x` cross bundles | `END.Cross` reduction to the installed/native rows |
 
-Thus the endpoint side of the 21-cell conditional theorem is exactly:
+Thus the endpoint side of the repaired endpoint-matrix conditional theorem is
+exactly:
 
 ```math
 DTC\text{-}to\text{-}TowerBound
 +END.Exh+END.Cross
 +Pack/Part/Field\text{ endpoint matrix}
++END.PartMargin
 \Longrightarrow
 End\_NS.
 \tag{END.3n}
@@ -140,6 +147,8 @@ must imply one of the endpoint shells:
 ```math
 Dead
 \vee
+response\text{-}margin\text{-}collapse
+\vee
 packing\text{-}detached
 \vee
 tower\text{-}blown
@@ -148,10 +157,14 @@ Jump.
 \tag{END.3b}
 ```
 
-This is the endpoint exhaustiveness theorem. It is a definition-level theorem
-for the repo witness system once the certificate maps
-`\neg Part=>Dead`, `\neg Pack=>packing-detached\vee tower-blown`, and
-`\neg Field=>Jump` are accepted.
+This is the endpoint exhaustiveness theorem. It is a certificate theorem for the
+same terminal record once the maps
+`\neg Part=>Dead\vee response-margin-collapse`,
+`\neg Pack=>packing-detached\vee tower-blown`, and `\neg Field=>Jump` are
+accepted. The repaired Part row is essential: loss of strict neighboring
+response margin is a Part-side endpoint subface unless the terminal Part
+predicate is encoded by closed clauses or the strict response margins are
+retained on the approach tail.
 
 ### Theorem Target `END.Pack`
 
@@ -183,6 +196,45 @@ The bound
 ```
 
 contradicts `(END.4a)` by choosing `M>C_Q`.
+
+### Theorem Target `END.PartMargin`
+
+Let `\mathcal R_\ell(t)` be the finite neighboring-response functionals that
+enter the strict Part clauses for the terminal record. The repaired Part-margin
+exclusion is:
+
+```math
+Part_{N,Q}^{closed}(u,p,\Phi)
+\quad\text{or}\quad
+\left[
+Part_{N,Q}(u,p,\Phi)
+\ \text{and}\
+\mathcal R_\ell(t)\ge\gamma_\ell>0
+\ \text{for all }t\in I,\ \ell\in\Lambda_{Part}
+\right]
+\Longrightarrow
+\text{no response-margin-collapse endpoint on }I.
+\tag{END.4c}
+```
+
+Here `Part_{N,Q}^{closed}` means that the terminal Part predicate has been
+encoded by closed non-strict terminal clauses. The strict-margin alternative
+means every strict response clause has a positive retained margin on the same
+terminal approach tail.
+
+`response-margin-collapse` asserts that some strict Part response clause loses
+its margin along the terminal approach, equivalently that for some
+`\ell\in\Lambda_{Part}` there is `t_j\uparrow T_\ast` with
+
+```math
+\mathcal R_\ell(t_j)\downarrow 0.
+\tag{END.4d}
+```
+
+The retained-margin alternative contradicts `(END.4d)` by choosing the retained
+`\gamma_\ell>0`. Under the closed-predicate alternative, this loss is not a
+separate endpoint shell; the closed Part predicate is tested directly at the
+terminal record.
 
 ### Theorem Target `END.Field`
 
@@ -355,7 +407,7 @@ the same local pressure/viscous readout already tracked in the `DTC` package.
 
 ```math
 \text{Every non-native shell interaction reduces to }
-END.Pack,\ END.Field,\ END.TowerBound,\ \text{or }(Part,Dead).
+END.Pack,\ END.PartMargin,\ END.Field,\ END.TowerBound,\ \text{or }(Part,Dead).
 \tag{END.7}
 ```
 
@@ -395,7 +447,7 @@ field-coherence reduction and the installed `(Part,Dead)` row:
 END.Cross:
 \qquad
 \text{all cross entries reduce to }
-(Part,Dead),\ END.Pack,\ END.Field,\ END.TowerBound.
+(Part,Dead),\ END.Pack,\ END.PartMargin,\ END.Field,\ END.TowerBound.
 \tag{END.7c}
 ```
 
@@ -407,6 +459,7 @@ Assume:
 
 ```math
 END.Exh,\qquad END.TowerAmp,\qquad END.Cross,
+\qquad END.PartMargin,
 \tag{END.C0}
 ```
 
@@ -428,12 +481,12 @@ and the one-field input `OFP.A` needed by `END.Field`. Then
 holds.
 
 This theorem is an exact assembly under the listed hypotheses. Its
-definition-level content is `END.Exh` and `END.Cross`; its non-endpoint
-analytic input is `END.TowerAmp`, plus the already-tracked pack-gauge and
-one-field inputs. The implication `END.TowerAmp => END.TowerBound` is the
-direct contradiction between a uniform tower-amplitude bound on the same
-finite cover/depth and the `tower-blown` requirement of arbitrarily large
-tower amplitude.
+certificate content is `END.Exh`, `END.Cross`, and `END.PartMargin`; its
+non-endpoint analytic input is `END.TowerAmp`, plus the already-tracked
+pack-gauge and one-field inputs. The implication
+`END.TowerAmp => END.TowerBound` is the direct contradiction between a uniform
+tower-amplitude bound on the same finite cover/depth and the `tower-blown`
+requirement of arbitrarily large tower amplitude.
 
 Assume a first finite-time class exit at `T_\ast`. If `CFI.A` is installed, then
 on every same-fluid still-live approach window before `T_\ast`,
@@ -452,10 +505,13 @@ Field_{N,r,Q_s}
 is propagated forward.
 
 By `END.Exh`, the first exit has one of the endpoint shells. The installed entry
-`(Part,Dead)` removes the dead participation endpoint.
-`END.Pack` removes `(Pack,packing-detached)`. `END.Field` removes
-`(Field,Jump)`. `END.TowerBound` removes the mixed `tower-blown` endpoint. `END.Cross`
-reduces every remaining shell interaction to one of those discharged entries.
+`(Part,Dead)` excludes the dead participation endpoint. `END.PartMargin`
+excludes the repaired Part response-margin subface, or else the closed terminal
+Part predicate makes that subface unavailable. `END.Pack` excludes
+`(Pack,packing-detached)`. `END.Field` excludes `(Field,Jump)`.
+`END.TowerBound` excludes the mixed `tower-blown` endpoint. `END.Cross` reduces
+every remaining shell interaction to one of those discharged entries on the
+same endpoint packet.
 
 Thus the assumed first class exit has no endpoint shell left in the matrix.
 Contradiction.
@@ -485,6 +541,7 @@ The endpoint block now closes from:
 ```math
 \boxed{
 END.Pack+END.Field+END.TowerBound+END.Cross+END.Exh
++END.PartMargin
 \Longrightarrow
 End_{NS}.
 }
@@ -495,16 +552,19 @@ The analytic tower input is the installed theorem
 `DTC-to-TowerBound => END.TowerAmp => END.TowerBound`. `END.Pack` follows from
 the native pack-gauge bound
 `\Gamma_{\mathrm{pack},Q}\in L^\infty(I)`, which excludes the
-packing-detached endpoint on the same packet. `END.Field` follows when `OFP.A`
-supplies a positive field scale and finite coherence bound, excluding the
-`Jump`/field-failure endpoint on the same packet. `END.TowerBound` is the
-direct tower-amplitude contradiction described above. `END.Cross` is available
-only under the accepted cross-entry certificate reductions.
+packing-detached endpoint on the same packet. `END.PartMargin` follows only from
+closed terminal Part predicates or retained strict response margins on the same
+approach tail. `END.Field` follows when `OFP.A` supplies a positive field scale
+and finite coherence bound, excluding the `Jump`/field-failure endpoint on the
+same packet. `END.TowerBound` is the direct tower-amplitude contradiction
+described above. `END.Cross` is available only under the accepted cross-entry
+certificate reductions.
 
 Finally, `END.Exh` closes from the endpoint certificate definitions/theorems:
 
 ```math
 \neg Part_{N,Q}\Longrightarrow Dead,
+\vee response\text{-}margin\text{-}collapse,
 \qquad
 \neg Pack_Q\Longrightarrow packing\text{-}detached\vee tower\text{-}blown,
 \qquad
