@@ -105,7 +105,7 @@ Sobolev interpolation gives
 C\,\tau^{1/4}E_I^{3/4}D_I^{3/4}.
 ```
 
-Young's inequality gives
+For a fixed cutoff this gives, by Young's inequality,
 
 ```math
 \int_I\|u(t)\|_{L^3(B)}^3\,dt
@@ -113,8 +113,23 @@ Young's inequality gives
 \eta D_I+C_\eta\,\tau E_I^3 .
 ```
 
-The first term can be absorbed by viscosity.  The second term is the problem.
-It is not a legal error; it is the scale-critical reserve.
+The moving-packet flux contains the cutoff derivative.  If
+\(\phi_r(x)=\phi((x-x_m)/r)\), then
+\(\|\nabla\phi_r\|_\infty\le C_\phi r^{-1}\), and the actual flux estimate is
+
+```math
+\|\nabla\phi_r\|_\infty
+\int_I\|u(t)\|_{L^3(B_r)}^3\,dt
+\le
+\eta D_I
++
+C_{\eta,\phi}\,
+r^{-4}\tau E_I^3 .
+\tag{SCF.1}
+```
+
+This is the correct moving-cutoff form.  The first term can be absorbed by
+viscosity.  The second term is not legal; it is the scale-critical reserve.
 
 On the heat-scale packet, the critical profile has amplitude
 
@@ -127,18 +142,29 @@ u(t,x)\sim r_m^{-1}U\!\left(\frac{x-x_m}{r_m}\right),
 Then
 
 ```math
-E_I\sim r_m^{-1}
+E_I\sim r_m,
 ```
 
 in the unnormalized local \(L^2\) notation used above, and
 
 ```math
-\tau E_I^3\sim r_m^{-1},
+r_m^{-4}\tau E_I^3\sim r_m,
 ```
 
-which is the same scale as the dissipation and collar flux.  After dividing by
-the packet's critical normalization, no smallness is gained as
-\(r_m\downarrow0\).
+which is the same physical scale as the dissipation and collar flux:
+
+```math
+D_I\sim r_m,
+\qquad
+\|\nabla\phi_{r_m}\|_\infty
+\int_I\|u(t)\|_{L^3(B_{r_m})}^3dt
+\sim r_m.
+\tag{SCF.2}
+```
+
+After division by the packet's energy scale \(r_m\), equivalently after passing
+to the normalized heat-scale packet, no smallness is gained as
+\(r_m\downarrow0\).  This is the exact scale-critical obstruction.
 
 Thus the interpolation estimate does not prove
 `ScaleCriticalCubicFluxReserve.A`.  It rewrites the desired reserve as the
