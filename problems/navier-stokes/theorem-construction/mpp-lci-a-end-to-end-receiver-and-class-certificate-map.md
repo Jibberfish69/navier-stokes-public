@@ -46,9 +46,8 @@ U2H.A:
 \tag{RCC.1}
 ```
 
-It should not be stated as closing the segment-thickness cell by itself. The
-segment-thickness conclusion also spends the already-separated `OFP.C1e2`
-inputs:
+It does not close the segment-thickness cell by itself. The segment-thickness
+conclusion also spends the already-separated `OFP.C1e2` inputs:
 
 ```math
 \Gamma_\sharp\in L^\infty(I),
