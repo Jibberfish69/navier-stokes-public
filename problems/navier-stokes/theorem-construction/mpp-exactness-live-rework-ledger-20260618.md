@@ -14308,3 +14308,37 @@ Second downstream pass and validation:
 The targeted residual standard scan is clean on live files; old phrases remain
 only in ledger evidence.  `git diff --check` passed on the edited surfaces and
 this ledger.
+
+## Current Live Residual Marker Classification Checkpoint
+
+Live original-danger scan:
+
+- Edited / exact anti-hand-wave:
+  `submission-bundle/navier-stokes-submission.tex:368`,
+  `submission-bundle/source-field-reader-appendix.tex:74110`,
+  `same-scale-multiplier-stability-program.md:13`,
+  `middle-band-flux-gap-kernel-theorem.md:208`, and
+  `same-scale-edge-family-and-model-estimate-note.md:40` explicitly reject a
+  linear profile, slope ansatz, profile law, or scale-estimate reading.
+- Intentionally preserved mathematical objects:
+  `source-field-reader-appendix.tex:32732` and
+  `middle-band-flux-gap-kernel-theorem.md:208` use the normalized density
+  `r|nabla \widetilde Q_r u|` as a defined object, not as `nabla u ~ U/r`.
+  The two remaining `profile interaction` hits name nonlinear profile
+  interactions in Pack critical-element notes, not a slope or typical-gradient
+  assumption.
+
+Live proof-confidence scan:
+
+- Intentionally preserved literal uses:
+  `standard basis`, `standard torus Sobolev scales`, `standard Navier-Stokes`,
+  `standard amsmath syntax`, `standard public surfaces`, and filenames
+  containing `standard`.
+- Edited / anti-shortcut:
+  remaining theorem prose with `standard` says the line is not discharged by
+  the word `standard`, not spendable as a `standard` estimate, or not an
+  unrecorded `standard` import.
+
+Validation:
+
+`git diff --check -- problems/navier-stokes` passed after the current edits.
