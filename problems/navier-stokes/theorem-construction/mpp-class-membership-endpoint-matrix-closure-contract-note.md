@@ -107,7 +107,7 @@ Dead,\ response\text{-}margin\text{-}collapse,\ packing\text{-}detached,\ tower\
 \tag{END.3m}
 ```
 
-This is not seven new primitive endpoint laws. It is the three class rows
+This is not eight new primitive endpoint laws. It is the three class rows
 tested against the native endpoint faces plus the three cross-entry bundles.
 The route-native cells are discharged by:
 
@@ -563,8 +563,8 @@ certificate reductions.
 Finally, `END.Exh` closes from the endpoint certificate definitions/theorems:
 
 ```math
-\neg Part_{N,Q}\Longrightarrow Dead,
-\vee response\text{-}margin\text{-}collapse,
+\neg Part_{N,Q}\Longrightarrow
+Dead\vee response\text{-}margin\text{-}collapse,
 \qquad
 \neg Pack_Q\Longrightarrow packing\text{-}detached\vee tower\text{-}blown,
 \qquad
