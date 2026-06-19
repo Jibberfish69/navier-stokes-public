@@ -67,7 +67,7 @@ Without item 3, the public result is supplier/readout support only.
 ## Adapted repo burden
 
 Use the analogue as a local design criterion for CM-facing theorem candidates.
-The formal missing bridge is written in
+The unproved required bridge is written in
 [mpp-public-critical-exit-to-cm-face-bridge-required-20260519.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-public-critical-exit-to-cm-face-bridge-required-20260519.md).
 
 ```math
