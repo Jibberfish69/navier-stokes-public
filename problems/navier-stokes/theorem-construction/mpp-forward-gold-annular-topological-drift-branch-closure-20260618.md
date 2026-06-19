@@ -72,9 +72,13 @@ Thus nonzero topological drift becomes visible as connection/twist action.
 On a degenerating collar, twist can become cheap:
 
 ```math
-\mathcal A_{tw}(\Theta_1)\sim L^{-1}\to0.
+0\le \mathcal A_{tw}(\Theta_1;L)\le C_{tw}L^{-1}\to0
+\qquad (L\to\infty),
 \tag{CL.5}
 ```
+
+Here `Theta_1;L` is the one-unit twist spread uniformly over a collar of length
+`L`; the constant `C_tw` does not depend on `L`.
 
 That is not a new escape route.  It is exactly the collar/modulus branch:
 
