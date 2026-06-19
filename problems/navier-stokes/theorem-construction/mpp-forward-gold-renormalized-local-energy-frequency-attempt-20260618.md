@@ -3,11 +3,13 @@
 Date: 2026-06-18
 
 Status: direct monotonicity/frequency attempt; not closed.  The heat/viscous
-part gives the expected coercive drop, but Navier-Stokes convection and pressure
-produce indefinite flux terms.  A transported/material weight cancels part of
-the convective leakage, but the pressure-conormal term remains exactly the
-native flux/source bridge problem.  No unconditional monotone frequency formula
-is installed by the current local-energy package.
+part supplies a coercive term only after the nonlinear/pressure contribution
+`F_{nl/pr}` is controlled; Navier-Stokes convection and pressure produce the
+indefinite terms computed below.  A transported/material weight cancels part of
+the convective leakage only under the admissible-adjoint-test hypothesis, while
+the pressure-conormal term remains exactly the native flux/source bridge
+problem.  No unconditional monotone frequency formula is installed by the
+current local-energy package.
 
 ## Target
 
