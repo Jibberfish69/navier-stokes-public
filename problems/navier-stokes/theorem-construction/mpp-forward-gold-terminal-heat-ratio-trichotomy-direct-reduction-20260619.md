@@ -25,7 +25,7 @@ The three regimes are:
 ```
 
 ```math
-\Theta\sim1
+0<c_\Theta\le\Theta\le C_\Theta<\infty
 \quad\text{heat-scale window,}
 \tag{HTR.3}
 ```
@@ -67,10 +67,10 @@ where
 
 is the selected trilinear feed coefficient seen by the packet direction.
 
-The largest scale-compatible feed coefficient is
+The largest scale-compatible feed coefficient is bounded by
 
 ```math
-\lambda^+(t)\lesssim {\nu\over r^2}
+\lambda^+(t)\le C_\lambda{\nu\over r^2}
 \tag{HTR.7}
 ```
 
@@ -79,10 +79,11 @@ over a terminal window of length \(\tau\) gives
 
 ```math
 \int_{T-\tau}^{T}\lambda^+(t)\,dt
-\lesssim
+\le
+C_\lambda
 {\nu\tau\over r^2}
 =
-\Theta.
+C_\lambda\Theta.
 \tag{HTR.8}
 ```
 
@@ -122,23 +123,38 @@ If
 \tag{HTR.11}
 ```
 
-then
+then an order-one normalized feed is compatible with the packet balance exactly
+when the selected coefficient also has a matching lower bound on a comparable
+subwindow.  Under
 
 ```math
-\int_{T-\tau_m}^{T}\lambda_m^+(t)\,dt
-\sim 1
+\lambda_m^+(t)\ge c_\lambda{\nu\over r_m^2}
+\quad\text{on a set }G_m\subset[T-\tau_m,T]
+\quad\text{with}\quad
+|G_m|\ge c_t{r_m^2\over\nu},
 \tag{HTR.12}
 ```
 
-is compatible with the packet balance.
+one gets
+
+```math
+\int_{T-\tau_m}^{T}\lambda_m^+(t)\,dt
+\ge
+c_\lambda c_t.
+\tag{HTR.13}
+```
 
 This is exactly the already isolated critical feed event:
 
 ```math
-\tau_m\sim {r_m^2\over\nu},
+\alpha_t{r_m^2\over\nu}\le \tau_m\le A_t{r_m^2\over\nu},
 \qquad
-\lambda_m^+\sim{\nu\over r_m^2}.
-\tag{HTR.13}
+\alpha_\lambda{\nu\over r_m^2}
+\le
+\lambda_m^+
+\le
+A_\lambda{\nu\over r_m^2}.
+\tag{HTR.13a}
 ```
 
 All forward-gold coercivity must therefore act on this regime by one of the
