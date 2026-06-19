@@ -135,6 +135,10 @@ The proportional split note
 `mpp-forward-gold-proportional-deep-low-split-20260619.md` removes the
 genuinely deep-low part from this obstruction and identifies the remaining
 piece as a shallow mesoscopic threshold band.
+The routing note
+`mpp-forward-gold-shallow-low-middle-band-routing-20260619.md` then places that
+shallow band inside the existing middle-band flux package, rather than leaving
+it as a separate strict-low theorem.
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,
