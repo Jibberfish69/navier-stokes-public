@@ -1,6 +1,6 @@
 \section{Introduction}
 
-\subsection{Classical Navier-Stokes Problem and Continuation Criterion}
+\subsection{Classical Navier--Stokes Problem and Continuation Criterion}
 
 The classical Navier--Stokes problem asks whether a smooth divergence-free
 velocity field can lose smoothness in finite time under the three-dimensional
@@ -22,10 +22,10 @@ A finite-time counterexample is a claim about one branch of this equation.  It
 starts from \(u_0\), follows the classical Navier--Stokes solution on a
 maximal interval \([0,T_*)\), and says that the \(H^s\), \(s>5/2\),
 continuation readout needed for local relaunch across \(T_*\) fails at
-\(T_*<\infty\).  The proof keeps that branch fixed.  The velocity, pressure,
-viscosity, pressure law, incompressibility constraint, initial data, and
-preterminal smooth solution all remain attached to the terminal object being
-tested.
+\(T_*<\infty\).  This manuscript keeps that branch fixed.  The velocity,
+pressure, viscosity, pressure law, incompressibility constraint, initial data,
+domain, and preterminal smooth solution all remain attached to the terminal
+object being tested.
 
 \subsection{Methods}
 
@@ -42,44 +42,59 @@ lawful Navier--Stokes terminal object.  A claimed finite-time breakdown has to
 identify a same-solution terminal object at \(T_*\).  Once that object is
 selected, the proof tests class membership.
 
-The proof program is arranged so the reader can see the route before the full
-branch inventory begins:
+The reader-facing route is:
 \[
 \begin{aligned}
   \hbox{Gold obstruction}
   &\longrightarrow
-  \hbox{smooth/nonsmooth split}\\
+  \hbox{smooth/non-smooth split}\\
   &\longrightarrow
   \hbox{same-solution terminal object at }T_*\\
   &\longrightarrow
-  \hbox{Pack/Part/Field test}\\
+  \hbox{Class Membership}\\
+  &\longrightarrow
+  \hbox{Pack/Part/Field witness faces}\\
   &\longrightarrow
   \Exit(Q):=\neg\Member(Q).
 \end{aligned}
 \]
+That displayed route is not a substitute for the proof.  It is the map that
+tells the reader why the later branch material is sorted the way it is.
 
 \subsubsection{Repository structure and terminology (trunk, branch, leaf)}
 
-The words `trunk', `branch', and `leaf' are used as proof-organization words.
-The trunk is the governing proof route.  A branch is a major proof family, case
-family, or route family.  A leaf is a local obligation where a branch has to
-prove, reduce, certify, or exit.
+The words ``trunk'', ``branch'', and ``leaf'' are used as proof-organization
+words.  The trunk is the governing proof route.  A branch is a major proof
+family, case family, or route family.  A leaf is a local obligation where a
+branch has to prove, reduce, certify, or exit.
 
-The Main Theorem and Proof section is the show-your-work portion.  It gives the
-full branch-and-leaf inventory for \(\mathbb T^3\) and \(\mathbb R^3\) after
-the reader has already seen why the proof program has this shape.
+The manuscript translation is direct.  The trunk becomes the section-level
+proof program.  Branches become the main theorem subdivisions, principally the
+\(\mathbb T^3\) and \(\mathbb R^3\) branches and the support appendices that
+feed them.  Leaves become theorem, proposition, lemma, definition, calculation,
+or proof blocks only after the paper has translated their repo-native names
+into reader-facing titles and explained their proof role.
+
+This distinction matters.  Repo-native surface names, route handles, branch
+labels, and leaf abbreviations are authoring coordinates.  They do not become
+formal cross-reference environments by themselves.  A repo surface enters the
+paper only when the manuscript says what mathematical object it controls, where
+it belongs in the proof route, and whether it pays a continuation readout,
+selects a same-solution terminal object, proves a Pack/Part/Field face failure,
+or remains support.
 
 \section{Proof program ((demonstrated and explained with example)(full top-level reasoning and train-of-thought)(reader facing walkthrough))}
 
-This section walks the reader through the proof program.  It begins with the
-Gold Standard because that is the natural first attempt.  It then shows why the
-proof moves into the Silver Standard: class membership and contrapositive
-proof.
+This section walks the reader through the proof program before the full
+branch inventory begins.  It begins with the Gold Standard because that is the
+natural first attempt.  It then shows why the proof moves into the Silver
+Standard: class membership and contrapositive proof.
 
 \subsection{Gold Standard (forward-positive proof)}
 
-The Gold Standard is the forward-positive proof.  It tries to keep the original
-solution inside the continuation argument by controlling the estimates directly.
+The Gold Standard is the forward-positive proof.  It tries to keep the
+original solution inside the continuation argument by controlling the estimates
+directly.
 
 \subsubsection{Public mainstream attempts (common-place revisiting of known routes)}
 
@@ -92,13 +107,15 @@ obstruction has a clear shape.
 \subsubsection{Our Original attempt: four body method (trying to handle everything at once)}
 
 The original attempt was the four body method.  It tried to handle everything
-at once: source, carrier, pressure, and readout.  Its burden is four simultaneous
-forward-positive inputs on the same Navier--Stokes object.
+at once: source, carrier, pressure, and readout.  Its burden is four
+simultaneous forward-positive inputs on the same Navier--Stokes object.  The
+method was useful because it exposed the dependencies.  It was not the final
+shape because trying to pay every dependency at once can hide which object the
+proof is actually testing.
 
-\subsubsection{Still Bootstrapping estimates and narrowing the * (by example (aka ``the never ending chase''))}
+\subsubsection{Still Bootstrapping estimates and narrowing the \texorpdfstring{\(\ast\)}{*} (by example (aka ``the never ending chase''))}
 
-The difficulty is visible already in the basic estimate ladder.  The energy
-identity gives
+The never ending chase begins with a real estimate.  The energy identity gives
 \[
   \frac12\frac{d}{dt}\|u(t)\|_{L^2}^2
   +\nu\|\nabla u(t)\|_{L^2}^2
@@ -116,8 +133,8 @@ the nonlinear term produces the source
 \[
   \int (u\cdot\nabla)u\cdot\Delta u\,dx.
 \]
-For smooth divergence-free \(u\), Hölder, Sobolev, interpolation, and Young's
-inequality give the exact estimate
+For smooth divergence-free \(u\), H\"older, Sobolev, interpolation, and
+Young's inequality give
 \[
   \left|\int (u\cdot\nabla)u\cdot\Delta u\,dx\right|
   \le
@@ -138,13 +155,18 @@ smaller window, a smaller carrier, or a more delicate readout.  The Gold
 Standard keeps pursuing those refinements until the proof can name what the
 preceding estimates require the obstruction to be.
 
-\subsubsection{Realizations, Insights, and Final Obstructions to the Gold Standard Route}
+\subsubsection{Realizations, Insights, and Final Obstructions to the gold standard route}
 
-The realization is that the forward route can begin to run in the wrong order:
-it may analyze branches before proving that they are lawful same-solution
-terminal objects.  That is why the method changes.  The question becomes:
-before a nonsmooth scenario can threaten Navier--Stokes smoothness, can it even
-be a lawful terminal object for the same Navier--Stokes solution?
+The realization is that the forward route can begin to run in the wrong order.
+It can spend effort on imagined failures that might not even be possible before
+it has proved that those failures are lawful same-solution terminal objects.
+The proof should not keep making up terminal-looking scenarios and then trying
+to estimate them away one by one.  It has to ask first whether a nonsmooth
+scenario can even be the terminal object of the same Navier--Stokes solution.
+
+That is the final obstruction to the pure Gold route in this paper.  The
+remaining object has to be selected and tested.  The method changes because the
+question changes.
 
 \subsection{Silver Standard (Class membership and Contrapositive proof)}
 
@@ -159,43 +181,49 @@ keeps the same solution fixed and tests the alleged terminal object against the
 requirements already present in the classical problem.
 
 \paragraph{Splitting Obstructions: smooth and non-smooth scenarios (example continued).}
-Every obstruction splits into smooth and nonsmooth scenarios.  The smooth
-scenario belongs to the continuation side.  The nonsmooth scenario has to enter
-the class-membership test as a same-solution terminal object.
+Every obstruction splits into smooth and non-smooth scenarios.  The smooth
+scenario belongs to the continuation side.  The non-smooth scenario has to
+enter the class-membership test as a same-solution terminal object.
 
-\paragraph{Finite-Time Breakdown as a Same-Solution Terminal-Object Claim ((explaining T*)(your version of ``Terminal-Record Bridge:''))}
+\paragraph{Finite-Time Breakdown as a Same-Solution Terminal-Object Claim ((explaining \(T_*\))).}
 A finite-time breakdown claim at \(T_*\) has to identify the terminal object
 of the same solution generated by the same initial data.  The terminal time is
 not enough by itself.  The proof needs the terminal record \(Q\) that is being
-offered as the reason the same solution cannot continue.
+offered as the reason the same solution cannot continue.  This is the
+reader-facing form of the terminal-record bridge: \(T_*\) is not a free
+floating bad time; it is a claim that the same preterminal branch has a
+terminal object.
 
 \paragraph{Class membership exit (the idea Explained): handling all non-smooth scenarios (``giving exhaustive contrapositive'').}
-The nonsmooth side is handled by class membership exit.  Once \(Q\) is admitted
-as the same-solution terminal object under test, the proof asks whether \(Q\)
-can remain a member of the working Navier--Stokes class.  If the first failed
-face is Pack, Part, or Field, then
+The non-smooth side is handled by class membership exit.  Once \(Q\) is
+admitted as the same-solution terminal object under test, the proof asks
+whether \(Q\) can remain a member of the working Navier--Stokes class.  If the
+first failed face is Pack, Part, or Field, then
 \[
   \Exit(Q):=\neg\Member(Q).
 \]
-That is the exhaustive contrapositive.
+That is the exhaustive contrapositive: every admitted non-smooth terminal
+scenario must either pass as the continuation/member side or exit through the
+first failed witness face.
 
 \subsubsection{Class Membership}
 
 Class Membership defines what the alleged terminal object must carry in order
 to be a terminal record of the same Navier--Stokes solution.
 
-\paragraph{Conceptual Genesis (``If NS fluid is assumed Smooth, then everything in the problem statement must guarantee the smoothness'')(re-examing the classic NS problem statement).}
+\paragraph{Conceptual Genesis (``If NS fluid is assumed Smooth, then everything in the problem statement must guarantee the smoothness'')(re-examining the classic NS problem statement).}
 The conceptual genesis is a rereading of the classical problem statement.  If
 the Navier--Stokes fluid is assumed smooth, then everything in the problem
 statement has to support that smoothness: the initial conditions, pressure,
-viscosity, incompressibility, and the domain language.
+viscosity, incompressibility, continuation criterion, and domain language.
 
-\paragraph{NS one-fluid-object (contraints by problem definition).}
+\paragraph{NS one-fluid-object (constraints by problem definition).}
 The one-fluid-object reading says that the solution is one fluid object.  A
 terminal scenario cannot detach itself from the same pressure, same viscosity,
 same incompressibility, same initial data, and same domain.
 
-\subparagraph{Participation law (breakdown (viscosity+pressure+incompressiblity).}
+\begin{description}[style=nextline,leftmargin=2em,labelwidth=0pt]
+\item[\textbf{Participation law (breakdown: viscosity + pressure + incompressibility).}]
 Participation means that the terminal object still participates in the same
 Navier--Stokes law:
 \[
@@ -208,7 +236,7 @@ Navier--Stokes law:
 Viscosity, pressure, and incompressibility are not separate decorations.  They
 are the law of the one fluid object.
 
-\subparagraph{velocity tower representation,}
+\item[\textbf{velocity tower representation.}]
 The velocity tower representation records the differentiated readings
 \[
   U_k:=\nabla^k u,\qquad
@@ -221,45 +249,49 @@ and the differentiated law
 \]
 This tower is the original Navier--Stokes law read at higher derivative depth.
 
-\subparagraph{Failure types (reclassified from 5.1.4).}
-The failure types are reclassified after the Pack/Part/Field test is in place.
-Dead is the Part-side loss of same-object dynamics.  Jump is the Field-side
-loss of one coherent field.  Blown is routed by the first face it destroys.
-Euler by comparison is a boundary reading against the fixed-viscosity
-Navier--Stokes class.
+\item[\textbf{Failure types (reclassified from 5.1.4): Dead, Jump, Blown, Euler by comparison.}]
+The failure types are reclassified only after the Pack/Part/Field test is in
+place.  Dead is the Part-side loss of same-object dynamics.  Jump is the
+Field-side loss of one coherent field.  Blown is routed by the first face it
+destroys: carrier loss is Pack, same-law tower loss is Part, and retained
+positive-window unbounded field after Pack and Part survive is Field.  Euler
+by comparison is a boundary reading against the fixed-viscosity
+Navier--Stokes class; it helps only after a fixed-\(\nu\) transfer or a
+same-solution face landing has been written.
 
-\subparagraph{Insights (viscosity reimagined as a tether, think honey pulling itself out of a container).}
+\item[\textbf{Insights (viscosity reimagined as a tether, think honey pulling itself out of a container).}]
 Viscosity is reimagined as a tether.  Think of honey pulling itself out of a
 container.  A local piece cannot become a private terminal event without
-tugging on the whole connected field.  This is why participation and one-field
-coherence are proof requirements.
+tugging on the whole connected field.  This is why participation and
+one-field coherence are proof requirements.
 
-\subparagraph{One-field coherence law (by time-dependent consequence of participation ().}
+\item[\textbf{One-field coherence law (by time-dependent consequence of participation).}]
 One-field coherence is the time-dependent consequence of participation.  The
 whole field responds.  The paper rejects a picture where a terminal fragment
 breaks off while the rest of the same fluid waits for a delayed transfer.
 
-\subparagraph{instant whole-field fluid reaction (versus delayed energy transfer calculation (SHOWN)).}
+\item[\textbf{instant whole-field fluid reaction (versus delayed energy transfer calculation (SHOWN)).}]
 The instant whole-field fluid reaction is the pressure-viscosity-incompressible
 response of the same field.  A delayed energy transfer calculation can show a
 channel of motion, but it cannot replace the one-field reaction required by the
 problem statement.
 
-\subparagraph{Viscous whole-field drained by T* proof.}
-The \(T_*\) proof has to show that the viscous whole-field response has already
-acted by the alleged terminal time.  A terminal object that still claims to be
-the same solution has to carry the consequence of that response.
+\item[\textbf{Viscous whole-field drained by \(T_*\) proof.}]
+The \(T_*\) proof has to show that the viscous whole-field response has
+already acted by the alleged terminal time.  A terminal object that still
+claims to be the same solution has to carry the consequence of that response.
 
-\subparagraph{Initial conditions.}
+\item[\textbf{Initial conditions.}]
 The initial conditions anchor the same-solution identity.  A terminal record
 belongs to this proof only while it remains tied to the smooth divergence-free
 datum \(u_0\).
 
-\subparagraph{Ontology on T\texorpdfstring{\(^3\)}{3} versus R\texorpdfstring{\(^3\)}{3} (how that makes the problem language different).}
+\item[\textbf{Ontology on \(\mathbb T^3\) versus \(\mathbb R^3\) (how that makes the problem language different).}]
 The torus and whole-space settings make the language different.  On
-\(\mathbb T^3\), the fluid has a closed periodic ontology.  On \(\mathbb R^3\),
-exterior tails, decay, and far-field source bookkeeping become part of the
-object language.
+\(\mathbb T^3\), the fluid has a closed periodic ontology.  On
+\(\mathbb R^3\), exterior tails, decay, far-field source bookkeeping, and
+export from compact-core control become part of the object language.
+\end{description}
 
 \subsubsection{Smoothness Certification Window and Witnesses}
 
@@ -272,84 +304,77 @@ smoothness requirements can test.  A point, trace, source label, or diagnostic
 quantity is not enough by itself.  The proof needs a positive same-fluid
 carrier.
 
-\paragraph{Part Face (explained by participation law,}
+\paragraph{Part Face (explained by participation law).}
 Part Face asks whether that object still participates in the same pressure,
 viscosity, and incompressibility law.  A body that no longer carries the same
 Navier--Stokes dynamics exits here.
 
-\paragraph{Field Face (direct consequence of time-dependent participation law, whole field responds )}
+\paragraph{Field Face (direct consequence of time-dependent participation law, whole field responds).}
 Field Face is the one-field coherence test.  Once Pack and Part survive, the
 proof asks whether the readings still form one coherent positive-scale velocity
 field.
 
-\paragraph{Assembly:}
-The assembly step ties the witness faces to class exit.
-
-\subparagraph{Pack/Part/Field Failure Gives Exit(Q):=not Member(Q).}
-The first failed face gives
+\paragraph{Assembly.}
+The assembly step ties the witness faces to class exit.  Pack/Part/Field
+Failure Gives
 \[
   \Exit(Q):=\neg\Member(Q).
 \]
-The failure is the class-membership result for the selected terminal object.
+The logic table reductions say that every admitted terminal object is either
+on the pass side or on the first-failed-face side.  A retained Pack/Part/Field
+packet belongs to the member continuation side.  A first failed face belongs
+to exit.
 
-\subparagraph{Logic table reductions.}
-The logic tables reduce terminal alternatives to the pass side and the
-Pack/Part/Field fail side.  A retained Pack/Part/Field packet belongs to the
-member continuation side.  A first failed face belongs to exit.
+\paragraph{Closure/completeness arguments.}
+The closure arguments prove that the witness system covers the non-smooth
+side.  Part and Field are closed by Class Membership in the ``NS one-fluid
+object'' definition, because participation and one-field coherence are already
+part of what it means to remain the same Navier--Stokes fluid object.
 
-\paragraph{Closure/completeness arguments}
-The closure arguments prove that the witness system covers the nonsmooth side.
-
-\subparagraph{Part/Field closed by CM in ``NS one-fluid-object'' definition.}
-The one-fluid-object definition closes Part and Field because participation and
-one-field coherence are already part of what it means to remain the same
-Navier--Stokes fluid object.
-
-\subparagraph{Pack leaves semantic gap.}
-Pack leaves a semantic gap because a zero-radius terminal obstruction or a
+Pack leaves a semantic gap.  A zero-radius terminal obstruction or a
 source/readout object may look like a terminal record before it supplies a
-positive same-fluid carrier.
-
-\subparagraph{Zero-radius terminal obstructions}
-Zero-radius terminal obstructions have to be handled as object claims.  A
-radius-zero point is not the whole terminal object.
-
-\subparagraph{Source versus Readout}
-Source and readout have different jobs.  Source describes how activity is
-produced or transported.  Readout is the continuation-facing regularity
-information needed to restart the solution.
-
-\subparagraph{How Handling them through part/field certifies Pack.}
-When a source/readout candidate is handled through participation and one-field
-coherence, it can certify Pack by showing that the alleged object has been tied
-back to the same fluid.
-
-\subparagraph{Witness Completeness}
-Witness completeness says that every admitted nonsmooth terminal object is
-covered by Pack, Part, or Field.
+positive same-fluid carrier.  Zero-radius terminal obstructions have to be
+handled as object claims; a radius-zero point is not the whole terminal
+object.  Source and readout have different jobs.  Source describes how
+activity is produced or transported.  Readout is the continuation-facing
+regularity information needed to restart the solution.  Handling a
+source/readout candidate through Part and Field can certify Pack only when it
+ties the candidate back to the same fluid.  Witness completeness says that
+every admitted non-smooth terminal object is covered by Pack, Part, or Field.
 
 \subsubsection{Silver-standard CM completeness (No Hidden Third Terminal Alternative: (proves the classification is exhaustive: after the pass case and the Pack/Part/Field failures, there is no extra terminal object that escapes the argument.))}
 
 Silver-standard CM completeness proves that the classification is exhaustive.
 After the pass case and the Pack/Part/Field failures, there is no extra
-terminal object that escapes the argument.
+terminal object that escapes the argument.  A claimed third alternative has to
+say what the same-solution terminal object is, which class-membership data it
+keeps, and which class-membership data it loses.  Once it answers those
+questions, it has already returned to the pass side or to the first-failed-face
+side.
 
 \section{Main Theorem and Proof (``the entire NS repo'' / the ``show your work'' portion)}
 
-\subsection{Claim (overview and results upfront in main theorem}
+This is where the repo\_app material is placed.  The opening sections explain
+the proof program.  This section is the show-your-work portion: the claim comes
+first, then the \(\mathbb T^3\) branch material, then the \(\mathbb R^3\)
+branch material, with support and comparison material kept in the appendices
+when it is not itself a main-branch proof payment.
+
+\subsection{Claim (overview and results upfront in main theorem)}
 
 The main theorem states the result upfront.  A finite-time breakdown claim for
 the same Navier--Stokes solution must pass through the class-membership test.
-The pass side is the smooth/member continuation side.  The nonsmooth side exits
-through Pack, Part, or Field.
+The pass side is the smooth/member continuation side.  The non-smooth side
+exits through Pack, Part, or Field after the same-solution terminal object has
+been admitted to the test.
 
 \begin{theorem}[Class-membership contrapositive structure]
 Let \(u_0\) be smooth and divergence-free, and let \((u,p)\) be the classical
 Navier--Stokes solution generated by \(u_0\) on its maximal interval
 \([0,T_*)\).  Suppose a finite-time breakdown claim selects a terminal record
-\(Q\) for that same solution at \(T_*<\infty\).  Then the proof program has the
-following alternatives.  Either \(Q\) retains the membership data needed for
-the continuation side, or the first failed witness face gives
+\(Q\) for that same solution at \(T_*<\infty\).  Then the proof program has
+the following alternatives.  Either \(Q\) retains the membership data needed
+for the continuation side, or the first failed witness face gives
 \[
   \neg\Pack_Q,\qquad
   \Pack_Q\wedge\neg\Part_{N,Q},\qquad
@@ -361,6 +386,12 @@ In the second case,
 \]
 \end{theorem}
 
+The reader should understand this theorem as the governing placement rule for
+the full proof body.  A repo branch is not inserted because it has an
+important-looking name.  It is inserted because it pays one of the jobs in the
+theorem: direct continuation readout, same-solution terminal-object selection,
+Pack failure, Part failure, Field failure, or support for one of those moves.
+
 \subsection{\texorpdfstring{\(\mathbb T^3\)}{T3}}
 
 The torus part of the show-your-work proof carries all branches and leaves for
@@ -368,12 +399,22 @@ the periodic setting.  This is where the closed-domain object, whole-field
 reaction, pressure law, viscosity tether, and class-membership witnesses are
 checked branch by branch.
 
-\begin{enumerate}[leftmargin=2em]
-\item (All branches and leaves)
-\item *
-\item *
-\item \(\ldots\)
-\end{enumerate}
+The branch placement rule is:
+\begin{description}[style=nextline,leftmargin=2em,labelwidth=0pt]
+\item[\textbf{All branches and leaves.}]
+Every torus branch and leaf from the repo\_app belongs here when its object is
+periodic, same-solution, and proof-bearing for the main \(\mathbb T^3\)
+argument.
+\item[\textbf{Forward-positive leaves.}]
+Gold-side torus material is placed here when it supplies a continuation
+readout or exposes the exact obstruction that later enters the Silver test.
+\item[\textbf{Same-solution terminal-record leaves.}]
+Leaves that identify the terminal object of the periodic branch are placed
+before the witness-face conclusion they support.
+\item[\textbf{Witness-face leaves.}]
+Pack, Part, and Field leaves are placed at the point where the first failed
+face is derived on the selected periodic record.
+\end{description}
 
 \subsection{\texorpdfstring{\(\mathbb R^3\)}{R3}}
 
@@ -381,12 +422,24 @@ The whole-space part of the show-your-work proof carries the branches and
 leaves where decay, exterior source, far-field behavior, and whole-space
 ontology change the language of the problem.
 
-\begin{enumerate}[leftmargin=2em]
-\item *
-\item *
-\item *
-\item \(\ldots\)
-\end{enumerate}
+The branch placement rule is:
+\begin{description}[style=nextline,leftmargin=2em,labelwidth=0pt]
+\item[\textbf{All branches and leaves.}]
+Every whole-space branch and leaf from the repo\_app belongs here when its
+object is genuinely \(\mathbb R^3\), not a periodic result, comparison result,
+or exported support statement wearing whole-space language.
+\item[\textbf{Exterior and tail leaves.}]
+Decay, tightness, exterior source, and tail-control material is placed here
+when it acts on the original whole-space branch.
+\item[\textbf{Same-solution terminal-record leaves.}]
+Whole-space survivors enter the main proof only after the paper identifies the
+same-solution record that carries them.
+\item[\textbf{Witness-face leaves.}]
+The final whole-space placement is the same Pack/Part/Field test, with the
+domain language changed by decay, exterior tails, and far-field bookkeeping.
+\end{description}
 
 The detailed proof machinery begins below with the same-law participation and
-one-field coherence tests that the opening has just set up.
+one-field coherence tests that the opening has just set up.  Later branch
+sections and appendices are read as downstream proof payments under this map,
+not as a second competing outline.
