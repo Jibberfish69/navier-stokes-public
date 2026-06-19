@@ -6,7 +6,6 @@ Active theorem-facing upstream debt note.
 
 Role: isolate the exact synchronized threshold theorem that upgrades the
 qualitative selector-good `DiffExc` packet to the stronger frozen
-measurable-derivative geometric wall on the standard selector-scale branch.
 measurable-derivative geometric wall on the declared selector-scale branch.
 
 ## Purpose
