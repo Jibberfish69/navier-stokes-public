@@ -15600,6 +15600,48 @@ A fixed-string residue search over the three edited notes and
 `immediate`, or `schematic` shortcut on this slice, and `git diff --check`
 passes for the edited notes.
 
+## Source-Wall Live Target Selection Repair
+
+Old claim being spent:
+
+The source-wall target-selection notes used `should` language where the live
+target needed to be fixed: `mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md`
+said `FirstHeightCreationDichotomy.A` "should not" remain live and the route
+"should move on"; `mpp-source-no-pulse-read-cover-bypass-discharge-20260505.md`
+said theorem work "should not" target finite extraction again and "should" target
+the post-extraction primitive; `mpp-sourcepulse-first-unpaid-self-attempt-20260515.md`
+said the endpoint-production audit "should not" be closed.
+
+Exact replacement:
+
+`FirstHeightCreationDichotomy.A` does not remain the live next target; the route
+moves on from it as a headline target, and the note's current use is only to show
+that the first-height dichotomy label cannot be spent as a proof step.  The next
+source-no-pulse theorem work targets the post-extraction terminal primitive, not
+finite extraction again.  The endpoint-production audit is not marked closed.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md`.
+- `theorem-construction/mpp-source-no-pulse-read-cover-bypass-discharge-20260505.md`.
+- `theorem-construction/mpp-sourcepulse-first-unpaid-self-attempt-20260515.md`.
+
+Downstream consequence:
+
+Finite extraction and first-height labels cannot be reused as proof payments.
+The remaining source-wall burden is the same-witness terminal
+anti-concentration/source-Carleson/rigid-anti-atom/non-source Pack-survival
+theorem family or an equivalent same-ledger theorem, and endpoint production
+remains open.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the three edited notes plus
+`current-route-dependency-graph.yaml` and `source-frontier.yaml` finds no
+remaining `should`, `O(1)`, `\lesssim`, `\gtrsim`, `approximately`, `roughly`,
+`same order`, `typical`, `immediate`, or `schematic` shortcut on this slice, and
+`git diff --check` passes for the edited notes.
+
 ## Post-Affine B_ASAC Target And Source-Time Child Repair
 
 Old claim being spent:
