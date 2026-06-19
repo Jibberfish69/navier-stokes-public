@@ -11495,3 +11495,34 @@ The targeted scan finds no remaining `plausib` hit in the edited Zeno/Landau
 source notes.  It finds the replacement phrases `would reduce to the following
 downstream Liouville theorem`, `conditional downstream theorem`, and `only
 after`.  `git diff --check` passes on the edited notes.
+
+## Oriented Varifold Measure-Domination Rework
+
+Old claim being spent:
+
+The oriented-varifold no-hidden-cancellation attempt derived the vector-measure
+test inequality and then said the measure domination follows by the "usual dual
+characterization."
+
+Exact replacement:
+
+The proof now states the exact last step: take the supremum over compactly
+supported continuous vector tests \(\phi\) with \(|\phi|\le f\), obtain
+\(|\eta|(f)\le\mu(f)\) for every nonnegative \(f\in C_c\), and conclude
+\(|\eta|\le\mu\) by outer regularity of the finite Radon measures.
+
+Proof or downstream consequence:
+
+The note may spend only mass-compatible compactness and the displayed Radon
+measure domination.  It still does not prove equality \(|\eta|=\mu\) or prevent
+opposite orientations from cancelling in the weak vector limit.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-oriented-varifold-no-hidden-cancellation-attempt-20260618.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual dual characterization` hit in the
+edited note.  It finds the replacement `outer regularity` sentence, and `git
+diff --check` passes on the edited note.
