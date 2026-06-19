@@ -14246,3 +14246,36 @@ Second downstream pass and validation:
 The targeted residual generic/model scan is clean on live files; old phrases
 remain only in ledger evidence.  `git diff --check` passed on the edited
 surfaces and this ledger.
+
+## Standard-To-Criterion Route Wording Rework
+
+Old claim being spent:
+
+Several theorem notes used `standard` where the text meant a criterion,
+threshold, or route branch: `gold-standard`, `gold standard`, `carry-forward
+standard`, and `referee standard`.
+
+Exact replacement:
+
+Those passages now say gold-criterion, gold criterion, carry-forward criterion,
+and referee threshold.
+
+Proof or downstream consequence:
+
+The affected notes no longer let `standard` sound like an imported proof norm.
+They name the branch criterion or acceptance threshold being tested: gold
+forward-positive closure, ontic carry-forward membership, or referee-level
+terminal packet capture.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-factorial-radius-branch-20260617.md`.
+- `theorem-construction/mpp-forward-gold-laurent-annular-normal-form-20260617.md`.
+- `theorem-construction/mpp-forward-positive-cone-tower-active-square-exhaustion-20260611.md`.
+- `theorem-construction/mpp-gold-modulated-zeno-profile-pressure-test-20260617.md`.
+- `theorem-construction/mpp-formal-ontic-object-package.md`.
+- `theorem-construction/mpp-terminal-packet-capture-working-pass-20260526.md`.
+
+Second downstream pass and validation:
+
+Pending targeted standard/criterion scan and `git diff --check`.
