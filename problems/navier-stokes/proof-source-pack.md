@@ -8,7 +8,7 @@ TeX/PDF corpus under
 Marvin/V6 currently contributes cross-bridge synthesis, coercivity/projection
 language, and curvature-obstruction scaffolding from the monograph root under
 `/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6`, but not a direct
-`problems/navier-stokes/**` subtree. The lane should therefore read the direct
+`problems/navier-stokes/**` subtree. The lane therefore reads the direct
 proof from the legacy NS files and use the Marvin/V6 imports as dynamic
 adaptation notes that tighten the loop structure and terminology.
 
@@ -121,7 +121,7 @@ They may not silently replace the direct Navier-Stokes theorem-bearing base.
 - Theorem environments: `0`
 - Proof environments: `0`
 - Why it matters:
-  This is a support file for the named monotone bridge and should be used as a
+  This is a support file for the named monotone bridge and is used as a
   companion rather than a standalone program file.
 
 ## Torus proving ground
@@ -163,8 +163,8 @@ ontic projected-flow theorem, exact lift package, classical corollary.
 ## Marvin/V6 Synthesis Imports
 
 These files are not the direct theorem-bearing base for Navier-Stokes, but they
-do contain bridge language and loop-level synthesis that should be imported into
-lane-local notes when they sharpen a named Navier-Stokes bridge.
+do contain bridge language and loop-level synthesis that are imported into
+lane-local notes only when they sharpen a named Navier-Stokes bridge.
 
 ## Marvin Source 1
 - Path: `/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex`
@@ -188,7 +188,7 @@ lane-local notes when they sharpen a named Navier-Stokes bridge.
 - Role: `generated scale-resolution keyword index`
 - Why it matters:
   This file is a search aide, not proof evidence. It helps locate V6 passages
-  where scale/resolution/coercivity language should be imported into local NS
+  where scale/resolution/coercivity language is imported into local NS
   notes.
 
 ## Marvin Source 4
@@ -341,6 +341,6 @@ lane-local notes when they sharpen a named Navier-Stokes bridge.
 
 The direct proof-bearing base remains the legacy NS corpus.
 Marvin/V6 is now wired into the lane as a live synthesis import family.
-If future direct NS-bearing files appear under the V6 tree, they should be
-added to `authoritative-source-discovery.yaml` after verification and promoted
+Future direct NS-bearing files under the V6 tree must be added to
+`authoritative-source-discovery.yaml` after verification and promoted
 ahead of mere synthesis notes.
