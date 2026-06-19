@@ -28,7 +28,7 @@ Then an infinite Zeno refill chain would force divergent total charge, contradic
 
 At terminal scale `r`, Navier-Stokes parabolic scaling permits packet-normalized quantities such as the displayed \(F_r\) below to remain fixed while physical spacetime charge scales with powers of `r`.
 
-A model terminal source density on a parabolic cylinder has
+A witness terminal source density on a parabolic cylinder has
 
 ```math
 F_r(t,x):= r^{-2}\mathbf 1_{[T-r^2,T]}(t)\mathbf 1_{B_r}(x)

@@ -463,7 +463,7 @@ exists, and its receiver is smaller than the old branch ladder.
   the defect is admissible only if it preserves one common deformation /
   participation / one-field carrier.
 - Transport / coherence predicates:
-  `Pack`, `Part`, and `Field` must remain exact, not generic witness surrogates.
+  `Pack`, `Part`, and `Field` must remain exact, not unspecified witness surrogates.
 - Exported observables:
   a zero-set realization of class membership.
 - Derived error budgets:

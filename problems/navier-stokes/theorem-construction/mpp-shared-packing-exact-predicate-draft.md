@@ -167,7 +167,7 @@ live object.
 1. It uses the common motion map directly.
 2. It uses incompressibility directly through `\det D\Phi=1`.
 3. It names collapse/blowout as failure of the deformation class itself.
-4. It does **not** require a generic witness bundle.
+4. It does **not** require an unspecified witness bundle.
 5. It does **not** yet collapse the route into the classical continuation wall.
 
 ## Honest Limitation

@@ -69,7 +69,7 @@ That is enough to remove the referee objection that the CM terminal-entry step d
 ## Supersession Boundary
 
 This note hardens terminal-record entry. The later finite-obstruction inventory
-reconciles the old generic bridge demand: a promoted finite terminal row must
+reconciles the old broad bridge demand: a promoted finite terminal row must
 either pass as the same-solution `Member(Q)` branch or fail a named Pack, Part,
 or Field face and therefore support `Exit(Q):=not Member(Q)`.
 

@@ -85,7 +85,7 @@ Pack_Q and not Part_{N,Q}.
 ```
 
 The newer June 3 correction and the June 7 referee audit change the local
-target. The proof does not need a generic theorem saying every retained Pack
+target. The proof does not need an unrowed theorem saying every retained Pack
 terminal packet must satisfy `Part_{N,Q}`. That would delete a lawful fail
 branch. The required proof work is row-by-row:
 

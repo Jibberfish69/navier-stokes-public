@@ -66,7 +66,7 @@ geometry. The live object is the weighted lifted remainder
 \sum W_{j,k,\ell}^{\sigma}\mathcal R_{j,k,\ell}^{lift},
 ```
 
-whose principal model term is the strain interaction
+whose principal term is the strain interaction
 
 ```math
 \mathcal R_{j,k,\ell}^{prin}

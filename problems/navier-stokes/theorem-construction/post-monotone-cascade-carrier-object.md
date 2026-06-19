@@ -14,7 +14,7 @@ installed and marked insufficient by itself.
 
 Its job is not to prove the scale barrier again.
 Its job is to make the unresolved post-`Q(t)` singularity pressure exact enough that the
-next discharge pass can test it locally instead of reopening generic theorem search.
+next discharge pass can test it locally instead of reopening broad theorem search.
 
 ## Domain
 

@@ -61,7 +61,7 @@ A route-relative nonderivability certificate is:
 \Gamma_{inst}\nvdash PositiveRemainderDepletion.A.
 ```
 
-The useful proof method is a model witness: construct a normal-form selected
+The useful proof method is an explicit witness: construct a normal-form selected
 terminal packet configuration satisfying every clause in `Gamma_inst`, while
 the PRD inequality fails.
 
