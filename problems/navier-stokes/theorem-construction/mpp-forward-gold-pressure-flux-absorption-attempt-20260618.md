@@ -110,7 +110,7 @@ C_S^{3/2}\tau^{1/4}E_I^{3/4}D_I^{3/4}.
 \tag{PFA.9}
 ```
 
-Young's inequality can produce
+Young's inequality can produce the fixed-cutoff estimate
 
 ```math
 \int_I\|u(t)\|_{L^3(B)}^3dt
@@ -121,10 +121,35 @@ C_\epsilon \tau E_I^3,
 \tag{PFA.10}
 ```
 
-This absorbs pressure flux only when the remaining `\tau E_I^3` currency is
-already controlled in the terminal schedule.  Current inputs do not supply that
-control.  The terminal Zeno branch is precisely a scale-critical concentration
-branch.
+For the moving terminal packet, the pressure/convection flux also carries
+\(\|\nabla\phi_r\|_\infty\).  With
+\(\phi_r(x)=\phi((x-x_m)/r)\), the estimate actually used by the terminal
+packet is
+
+```math
+\|\nabla\phi_r\|_\infty
+\int_I\|u(t)\|_{L^3(B_r)}^3dt
+\le
+\epsilon D_I
++
+C_{\epsilon,\phi}\|\nabla\phi_r\|_\infty^4\tau E_I^3 .
+\tag{PFA.10a}
+```
+
+Since \(\|\nabla\phi_r\|_\infty\simeq r^{-1}\), the remaining term is
+
+```math
+C_{\epsilon,\phi}r^{-4}\tau E_I^3.
+\tag{PFA.10b}
+```
+
+For a critical heat-scale profile, \(E_I\simeq r\) and \(\tau\simeq r^2\), so
+`(PFA.10b)` is of size \(r\), the same physical scale as the local dissipation
+and flux.  After normalized packet division by \(r\), it is order one.
+
+Thus pressure flux is absorbed only when this moving-packet critical remainder
+is already controlled.  Current inputs do not supply that control.  The
+terminal Zeno branch is precisely a scale-critical concentration branch.
 
 So `(PFA.10)` is not a no-waste theorem.  It moves the problem to a
 scale-critical energy/cubic reserve:
