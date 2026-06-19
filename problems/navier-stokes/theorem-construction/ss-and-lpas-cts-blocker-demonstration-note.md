@@ -25,12 +25,19 @@ with:
 \text{(LPAS)} \Longrightarrow \text{(CTS)} \Longrightarrow \text{(FC)}.
 ```
 
-So the only live component theorems are:
+For the coefficient-free route, the live component theorems are:
 
 1. the same-scale multiplier-stability theorem `(SS)`;
 2. the far-corona cumulative-tail route `(LPAS) -> (CTS)`.
 
-## Blocker 1: `(SS)` is still only a program theorem
+On the weighted-carrier route, the moving-spill side of `(SS)` has been
+absorbed by
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md`.  Thus
+`(SS)` remains open only as a stronger standalone coefficient-free theorem,
+while the active lifted-packet blocker is the far-corona route together with
+the global control of the weighted carrier.
+
+## Blocker 1: coefficient-free `(SS)` is still only a program theorem
 
 The same-scale note identifies the exact theorem target:
 
@@ -81,7 +88,9 @@ that the route still lacks a theorem of the form:
 ```
 
 Without that theorem, the upper boundary and moving spill remain reduced but not
-closed.
+closed in the coefficient-free sense.  On the weighted-carrier surface, the
+moving-spill side is already controlled with the carrier term
+`\widetilde\Lambda_N^\sharp E_N`.
 
 ## Sane solution to `(SS)`
 
@@ -265,7 +274,7 @@ It is:
 
 ## Practical recommendation
 
-The sane current ranking is:
+The sane current ranking on the coefficient-free route is:
 
 1. finish the same-scale side first by proving the explicit frozen-family theorem
    `(SS)`, because that is local and no longer conceptually tangled;
@@ -275,12 +284,11 @@ The sane current ranking is:
    as the exact dyadic theorem debt and attack it with a lower-prefix Hardy/Volterra
    theorem, not with upper-tail queue technology.
 
-So the honest recommendation is:
+On the weighted-carrier route, the same-scale moving-spill side has already
+been reduced to the carrier, so the honest current focus is:
 
 ```math
 \boxed{
-\text{close `(SS)` by explicit same-scale normal form,}
-\qquad
 \text{and attack the far-corona side by direct `(CTS)` first,}
 \qquad
 \text{with `(LPAS)` as the exact fallback theorem debt.}
