@@ -330,6 +330,72 @@ contractive parent map for `\mathcal R_N`.
 Therefore `(NTD.22)` is the exact missing gold inequality, not a consequence of
 the current packet calculus.
 
+## Attempt 7: Classical enstrophy coercivity
+
+The closest standard coercive estimate is the differentiated energy identity.
+For smooth solutions,
+
+```math
+{1\over2}{d\over dt}\|\nabla u\|_2^2
++\nu\|\Delta u\|_2^2
+=
+-\int (u\cdot\nabla)u\cdot\Delta u\,dx.
+\tag{NTD.24}
+```
+
+The right-hand side is the global vortex-stretching / trilinear source.  The
+standard bound is
+
+```math
+\left|
+\int (u\cdot\nabla)u\cdot\Delta u\,dx
+\right|
+\le
+C\|\nabla u\|_2^{3/2}\|\Delta u\|_2^{3/2}.
+\tag{NTD.25}
+```
+
+Young's inequality gives
+
+```math
+\left|
+\int (u\cdot\nabla)u\cdot\Delta u\,dx
+\right|
+\le
+{\nu\over2}\|\Delta u\|_2^2
++C_\nu\|\nabla u\|_2^6.
+\tag{NTD.26}
+```
+
+This is useful for local existence and continuation criteria, but it is not the
+terminal gold estimate.  It leaves the supercritical term
+
+```math
+\|\nabla u\|_2^6.
+\tag{NTD.27}
+```
+
+The packet version has the same defect.  Localizing `(NTD.24)` to a selected
+terminal heat packet replaces the global trilinear term by `(NTD.1)` plus
+pressure, cutoff, and commutator terms.  The viscous piece absorbs one copy of
+the high derivative, but the remaining factor is exactly an active height /
+square-reserve coefficient.  Thus the classical enstrophy estimate produces a
+conditional statement of the form
+
+```math
+\mathcal T_P^+
+\le
+\theta D_P
++C_\theta\,\operatorname{ActiveHeight}_P\,E_P
++\operatorname{Loss}_{legal}(P),
+\tag{NTD.28}
+```
+
+and the unabsorbed active-height factor is another form of
+`ReserveCreationCharge.A`.  The estimate does not rule out a terminal
+source-balanced heat-window pulse; it says the pulse must carry the same
+scale-critical active coefficient already isolated above.
+
 ## Current forward-gold obstruction
 
 All direct positive estimates reduce to the same native obstruction:
@@ -341,7 +407,7 @@ low-strain direction on a vanishing heat window, creating a positive native
 trilinear source while all installed first-moment and signed ledgers stay
 finite.}
 }
-\tag{NTD.24}
+\tag{NTD.29}
 ```
 
 The direct forward-gold proof closes only after one of the following genuinely
@@ -354,7 +420,7 @@ noncircular theorems is proved:
 \le
 o_N(1)+\operatorname{Loss}_{legal}(\mathcal F_N).
 }
-\tag{NTD.25}
+\tag{NTD.30}
 ```
 
 or the equivalent square-reserve first-creation theorem:
@@ -370,7 +436,7 @@ or the equivalent square-reserve first-creation theorem:
 \le
 \operatorname{Charge}_N(W)+o_N(1).
 }
-\tag{NTD.26}
+\tag{NTD.31}
 ```
 
 or a source-residence theorem:
@@ -383,7 +449,7 @@ or a source-residence theorem:
 C\varepsilon^\theta+o_N(1),
 \qquad \theta>0,
 }
-\tag{NTD.27}
+\tag{NTD.32}
 ```
 
 or a rigid compactness theorem:
@@ -394,7 +460,7 @@ or a rigid compactness theorem:
 \text{every terminal Zeno limit carrying the residue in }(NTD.1)
 \text{ lies in a rigid class whose source residue must vanish.}
 }
-\tag{NTD.28}
+\tag{NTD.33}
 ```
 
 ## Verdict
