@@ -265,8 +265,10 @@ Failure of `(PHG.14)` gives a normalized sequence with
 \tag{PHG.15}
 ```
 
-After the usual terminal rescaling, the extracted object carries a pressure
-sustain residue:
+After terminal rescaling and compactness extraction from `(PHG.15)`, under the
+same local energy/pressure bounds, same-fluid packet tightness, and vanishing
+legal-loss hypotheses used in the pressure graph, the extracted object carries
+a pressure sustain residue:
 
 ```math
 (u_\ast,p_\ast,\mu_\ast^{press-sus}),
