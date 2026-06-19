@@ -10149,12 +10149,16 @@ Consumers may not spend `D.7mq` until all four same-strip packets plus the
 exact-potential/Cauchy-Green gap data are available on the same carrier.  The
 ontic package may be cited only as a conditional implication from D.1, the D.2
 bilinear hinge, the exact lift identities, and the global `H_D^s` bound.  It is
-not an unconditional Navier-Stokes closure.
+not an unconditional Navier-Stokes closure.  The live authority edge now names
+the downstream `D.7mq+SSC-EP.A=>D.7mr2=>RPC.3` path as a conditional
+branch-local assembly available only after the same-strip `D.7mq` bridge
+hypotheses are proved.
 
 Surfaces edited:
 
 - `theorem-construction/mcp-four-estimate-supplier-proof-for-d-7mq-f2c39b58b0.md`;
 - `theorem-construction/ontic-projected-flow-exact-lift-package.md`;
+- `live-theorem-edge.yaml`;
 - `submission-bundle/source-field-reader-appendix.tex`.
 
 Second downstream pass and validation:
