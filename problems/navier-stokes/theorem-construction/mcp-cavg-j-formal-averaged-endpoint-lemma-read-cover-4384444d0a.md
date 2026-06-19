@@ -1,4 +1,4 @@
-# CAVG.J Formal Averaged Endpoint Lemma
+# CAVG.J Averaged Endpoint Lemma
 
 Status: conditional endpoint-definition lemma.
 
