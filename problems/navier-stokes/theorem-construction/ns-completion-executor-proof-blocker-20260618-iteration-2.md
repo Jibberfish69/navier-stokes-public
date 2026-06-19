@@ -15,7 +15,7 @@ This pass re-entered changed refs from the first executor pass:
 
 Stop state: exact blocker, not theorem closure.
 
-ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A remains open at clay-cm-contrapositive-witness-consumption; the CM obstruction has not yet been landed in Pack/Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
+ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A remains open at clay-closing-bridge-from-classified-class-exit-to-contradiction; the CM obstruction has not yet been landed in Pack/Part/Field (Pack_Q, Part_{N,Q}, Field_{N,r,Q}) or closed by legitimacy rejection.
 
 Next executable proof tasks:
 - name the first open CM face from source-frontier.yaml and live-theorem-edge.yaml

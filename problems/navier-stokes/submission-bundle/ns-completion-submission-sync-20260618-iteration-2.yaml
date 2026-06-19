@@ -66,21 +66,21 @@ human_pdf:
 manuscript_tex:
   path: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   present: true
-  sha1: 0e43ace564e552b097379182cc2ea5a8784edbb0
-  bytes: 126022
+  sha1: 0a72c066756e72d5979a4a712e78e667773cc61e
+  bytes: 126192
 verdict_alignment:
   root_verdict_synced: true
   bundle_verdict_synced: true
   export_status_synced: true
   submission_ready: false
-  blocking_reason: 'Navier-Stokes completion readiness is blocked by 7 unresolved
+  blocking_reason: 'Navier-Stokes completion readiness is blocked by 12 unresolved
     candidate(s): public-clay-finality-from-classification, pdf-reader-proof-integration,
     clay-closing-bridge-from-classified-class-exit-to-contradiction, contract-readiness-after-manuscript-expansion,
     clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
   readiness_evidence:
-    source_frontier_clear: true
+    source_frontier_clear: false
     open_d8_proof_blockers: 1
-    completion_candidate_count: 7
+    completion_candidate_count: 12
     completion_candidates:
     - candidate_id: public-clay-finality-from-classification
       kind: d8_open_blocker
@@ -212,6 +212,36 @@ verdict_alignment:
         mechanism attempts are not installed as same-witness Pack survival. The next
         executable work is proving same-witness terminal anti-concentration for the
         original-data first Pack witness, then NoGenuineExitFromSmoothData.A.'
+    - candidate_id: source-frontier:primary_math_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty primary_math_obligation
+      required_action: Clear or demote the source-frontier primary_math_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:first_unresolved_obligation
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty first_unresolved_obligation
+      required_action: Clear or demote the source-frontier first_unresolved_obligation
+        before submission readiness.
+    - candidate_id: source-frontier:unresolved_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty unresolved_obligations
+      required_action: Clear or demote the source-frontier unresolved_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:dashboard_unresolved_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty dashboard_unresolved_obligations
+      required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+        before submission readiness.
+    - candidate_id: source-frontier:additional_context_obligations
+      kind: source_frontier
+      surface: problems/navier-stokes/source-frontier.yaml
+      evidence: nonempty additional_context_obligations
+      required_action: Clear or demote the source-frontier additional_context_obligations
+        before submission readiness.
     - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
       kind: clay_closing_gap
       surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -222,7 +252,7 @@ verdict_alignment:
     completion_readiness:
       status: blocked
       submission_ready: false
-      candidate_count: 7
+      candidate_count: 12
       candidates:
       - candidate_id: public-clay-finality-from-classification
         kind: d8_open_blocker
@@ -358,6 +388,36 @@ verdict_alignment:
           as same-witness Pack survival. The next executable work is proving same-witness
           terminal anti-concentration for the original-data first Pack witness, then
           NoGenuineExitFromSmoothData.A.'
+      - candidate_id: source-frontier:primary_math_obligation
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty primary_math_obligation
+        required_action: Clear or demote the source-frontier primary_math_obligation
+          before submission readiness.
+      - candidate_id: source-frontier:first_unresolved_obligation
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty first_unresolved_obligation
+        required_action: Clear or demote the source-frontier first_unresolved_obligation
+          before submission readiness.
+      - candidate_id: source-frontier:unresolved_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty unresolved_obligations
+        required_action: Clear or demote the source-frontier unresolved_obligations
+          before submission readiness.
+      - candidate_id: source-frontier:dashboard_unresolved_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty dashboard_unresolved_obligations
+        required_action: Clear or demote the source-frontier dashboard_unresolved_obligations
+          before submission readiness.
+      - candidate_id: source-frontier:additional_context_obligations
+        kind: source_frontier
+        surface: problems/navier-stokes/source-frontier.yaml
+        evidence: nonempty additional_context_obligations
+        required_action: Clear or demote the source-frontier additional_context_obligations
+          before submission readiness.
       - candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
         kind: clay_closing_gap
         surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
@@ -373,7 +433,7 @@ verdict_alignment:
         child_paper_repo_candidates: 0
         manuscript_unresolved_candidates: 0
         active_pdf_criticism_candidates: 0
-        source_frontier_candidates: 0
+        source_frontier_candidates: 5
         route_state_agreement_candidates: 0
         submission_verdict_agreement_candidates: 0
         pdf_track_candidates: 0

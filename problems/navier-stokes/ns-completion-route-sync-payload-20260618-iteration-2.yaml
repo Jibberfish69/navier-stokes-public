@@ -18,7 +18,7 @@ source_refs:
 - problems/navier-stokes/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-verdict.yaml
 - problems/navier-stokes/submission-bundle/submission-export-status.yaml
-route_headline: clay-cm-contrapositive-witness-consumption
+route_headline: clay-closing-bridge-from-classified-class-exit-to-contradiction
 route_nodes:
 - node_id: cm_convergence_atlas
   label: cm_convergence_atlas
@@ -519,11 +519,41 @@ integration_chain:
     contract-readiness-after-manuscript-expansion, clay-readiness-not-claimed, finite-breakdown-exclusion-open.'
   mirror_of_completion_candidate: true
 open_blockers:
+- blocker_id: source-frontier:primary_math_obligation
+  blocker: 'source-frontier:primary_math_obligation: Clear or demote the source-frontier
+    primary_math_obligation before submission readiness.'
+  refs: &25
+  - problems/navier-stokes/source-frontier.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: source-frontier:first_unresolved_obligation
+  blocker: 'source-frontier:first_unresolved_obligation: Clear or demote the source-frontier
+    first_unresolved_obligation before submission readiness.'
+  refs: &26
+  - problems/navier-stokes/source-frontier.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: source-frontier:unresolved_obligations
+  blocker: 'source-frontier:unresolved_obligations: Clear or demote the source-frontier
+    unresolved_obligations before submission readiness.'
+  refs: &27
+  - problems/navier-stokes/source-frontier.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: source-frontier:dashboard_unresolved_obligations
+  blocker: 'source-frontier:dashboard_unresolved_obligations: Clear or demote the
+    source-frontier dashboard_unresolved_obligations before submission readiness.'
+  refs: &28
+  - problems/navier-stokes/source-frontier.yaml
+  mirror_of_completion_candidate: true
+- blocker_id: source-frontier:additional_context_obligations
+  blocker: 'source-frontier:additional_context_obligations: Clear or demote the source-frontier
+    additional_context_obligations before submission readiness.'
+  refs: &29
+  - problems/navier-stokes/source-frontier.yaml
+  mirror_of_completion_candidate: true
 - blocker_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   blocker: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove the
     Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
-  refs: &25
+  refs: &30
   - problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
   mirror_of_completion_candidate: true
 branch_rows:
@@ -840,6 +870,51 @@ branch_rows:
   - problems/navier-stokes/d8-completion-route-map.yaml
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
+- row_id: blocker:source-frontier:primary_math_obligation
+  row_kind: open_blocker
+  label: source-frontier:primary_math_obligation
+  state: blocked
+  next_burden: 'source-frontier:primary_math_obligation: Clear or demote the source-frontier
+    primary_math_obligation before submission readiness.'
+  evidence_refs: *25
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:source-frontier:first_unresolved_obligation
+  row_kind: open_blocker
+  label: source-frontier:first_unresolved_obligation
+  state: blocked
+  next_burden: 'source-frontier:first_unresolved_obligation: Clear or demote the source-frontier
+    first_unresolved_obligation before submission readiness.'
+  evidence_refs: *26
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:source-frontier:unresolved_obligations
+  row_kind: open_blocker
+  label: source-frontier:unresolved_obligations
+  state: blocked
+  next_burden: 'source-frontier:unresolved_obligations: Clear or demote the source-frontier
+    unresolved_obligations before submission readiness.'
+  evidence_refs: *27
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:source-frontier:dashboard_unresolved_obligations
+  row_kind: open_blocker
+  label: source-frontier:dashboard_unresolved_obligations
+  state: blocked
+  next_burden: 'source-frontier:dashboard_unresolved_obligations: Clear or demote
+    the source-frontier dashboard_unresolved_obligations before submission readiness.'
+  evidence_refs: *28
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
+- row_id: blocker:source-frontier:additional_context_obligations
+  row_kind: open_blocker
+  label: source-frontier:additional_context_obligations
+  state: blocked
+  next_burden: 'source-frontier:additional_context_obligations: Clear or demote the
+    source-frontier additional_context_obligations before submission readiness.'
+  evidence_refs: *29
+  mirror_of_completion_candidate: true
+  mcp_visibility_status: visible-in-route-state
 - row_id: blocker:clay-counterexample-gap-audit:finite-breakdown-exclusion-open
   row_kind: open_blocker
   label: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
@@ -847,15 +922,17 @@ branch_rows:
   next_burden: 'clay-counterexample-gap-audit:finite-breakdown-exclusion-open: Prove
     the Clay-closing bridge or replace the closing argument with a noncircular finite-breakdown
     exclusion.'
-  evidence_refs: *25
+  evidence_refs: *30
   mirror_of_completion_candidate: true
   mcp_visibility_status: visible-in-route-state
 sync_verdict:
   graph_nodes_count: 24
   graph_edges_count: 31
   d8_integration_rows_count: 5
-  open_blockers_count: 1
+  open_blockers_count: 6
   mcp_route_state_updated: true
   status: changed-open
   remaining_gap: 'Open proof/app/submission blockers remain visible in the route payload
-    and MCP route-state: clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
+    and MCP route-state: source-frontier:primary_math_obligation, source-frontier:first_unresolved_obligation,
+    source-frontier:unresolved_obligations, source-frontier:dashboard_unresolved_obligations,
+    source-frontier:additional_context_obligations, clay-counterexample-gap-audit:finite-breakdown-exclusion-open.'
