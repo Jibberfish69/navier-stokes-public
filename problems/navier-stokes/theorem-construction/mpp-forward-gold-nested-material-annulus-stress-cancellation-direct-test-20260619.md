@@ -198,14 +198,21 @@ Equivalently,
 W_0(I)
 \le
 W_M(I)_+
-+\sum_{j=1}^{M}E_{A_j}(a)
 +\sum_{j=1}^{M}\left[-(E_{A_j}(b)-E_{A_j}(a))\right]_+.
 \tag{NMA.18}
 ```
 
 The exact signed version `(NMA.17)` is the useful statement.  The inequality
 `(NMA.18)` is only a corollary after discarding nonnegative dissipation and
-taking the positive outer supply.
+taking the positive outer supply.  Since \(E_{A_j}(b)\ge0\), it also implies
+
+```math
+W_0(I)
+\le
+W_M(I)_+
++\sum_{j=1}^{M}E_{A_j}(a).
+\tag{NMA.18a}
+```
 
 Thus every finite same-fluid donor chain is paid by one of:
 
