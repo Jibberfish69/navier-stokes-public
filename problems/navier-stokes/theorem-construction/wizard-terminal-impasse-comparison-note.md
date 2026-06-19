@@ -12,7 +12,7 @@ compact theorem-language form:
 \text{for each major failed route, what is the first exact survivor not discharged by the present method stack?}
 ```
 
-The standard here is strict:
+The criterion here is strict:
 
 ```math
 \boxed{
