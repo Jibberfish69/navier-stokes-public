@@ -9,7 +9,7 @@ Marvin/V6 currently contributes cross-bridge synthesis, coercivity/projection
 language, and curvature-obstruction scaffolding from the monograph root under
 `/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6`, but not a direct
 `problems/navier-stokes/**` subtree. The lane therefore reads the direct
-proof from the legacy NS files and use the Marvin/V6 imports as dynamic
+proof from the legacy NS files and uses the Marvin/V6 imports as dynamic
 adaptation notes that tighten the loop structure and terminology.
 
 The one important upgrade is that the V6/working-note family now also supplies
