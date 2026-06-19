@@ -15145,3 +15145,67 @@ Second downstream pass and validation:
 A fixed-string residue search over the repaired note finds no remaining
 `should` shortcut on this slice, and `git diff --check -- problems/navier-stokes`
 passes.
+
+## Factorial-Radius Branch Exact Payment Repair
+
+Old claim being spent:
+
+`mpp-forward-gold-factorial-radius-branch-20260617.md` used the factorial-radius
+line as a plausible gold supplier while leaving three proof-force shortcuts in
+place: the modulated continuation "should be treated" as stronger, the branch
+"should next try" exact statements, and parabolic smoothing "should re-inject"
+analyticity at a heat-scale rate.  The headline no-collapse box also spent a
+generic "non-summable viscous/source/collar cost" rather than a named payment.
+
+Exact replacement:
+
+The modulated continuation is now stated as the stronger Navier-Stokes-native
+normal form for terminal annular/Zeno radius collapse.  The branch now has three
+explicit proof obligations:
+
+```text
+1. logarithmic radius-spend lower bound plus ledger domination;
+2. same-packet heat-radius/source-charge alternative;
+3. pressure-compatible radius law.
+```
+
+The first obligation is recorded as
+
+```text
+int_{t0}^{tm}(-d/dt log R_t(t))_+ dt >= log(R_*/(C tau_m)),
+c_rad int_{t0}^{tm}(-d/dt log R_t(t))_+ dt
+  <= L_jet([t0,tm]) + L_src/collar([t0,tm]).
+```
+
+The viscous reinjection obligation is recorded as
+
+```text
+R_fact(t_m) >= c_h (nu delta_m)^{1/2}
+or
+C_src(I_m,B_{(nu delta_m)^{1/2}}) >= c_C,
+```
+
+with constants fixed by the cutoff class, dimension, viscosity, and admitted
+energy envelope.  The no-collapse theorem box now points to these explicit
+radius-spend, source-charge, and pressure-compatible ledger alternatives.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-forward-gold-factorial-radius-branch-20260617.md`.
+- `theorem-construction/mpp-forward-gold-modulated-renormalization-profile-20260617.md`.
+
+Downstream consequence:
+
+The factorial-radius branch no longer counts as a gold payment merely because
+radius collapse is a plausible analytic symptom.  It becomes proof-force only
+after one of the exact payment obligations is proved, and the downstream
+modulated-renormalization branch remains the stronger normal-form target that
+must exclude nonzero renormalized terminal orbits.
+
+Second downstream pass and validation:
+
+A fixed-string residue search over the factorial-radius and modulated
+renormalization notes finds no remaining `should`, `O(1)`, `\lesssim`,
+`\gtrsim`, `approximately`, `roughly`, `same order`, `typical`, `immediate`, or
+`schematic` shortcut on this slice, and `git diff --check --
+problems/navier-stokes` passes.
