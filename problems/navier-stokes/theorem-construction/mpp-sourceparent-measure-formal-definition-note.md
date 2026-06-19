@@ -1,4 +1,4 @@
-# MPP SourceParent.Measure Formal Definition Note
+# MPP SourceParent.Measure Exact Definition Note
 
 ## Status
 
