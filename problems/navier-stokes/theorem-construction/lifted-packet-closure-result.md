@@ -63,6 +63,20 @@ The installed weighted carrier surface already absorbs the coefficient-bearing s
 
 Thus same-scale is controlled on the weighted carrier surface, while coefficient-free `SS` remains a stronger standalone theorem.
 
+The moving-spill side is now explicit:
+
+```math
+\int_0^T\Pi_N^{mov\text{-}spill,L}dt
+\le
+\varepsilon\nu\int_0^TD_Ndt
++
+C_{\varepsilon,L,\nu}\int_0^T\widetilde\Lambda_N^\sharp E_Ndt.
+```
+
+So moving spill is not an independent open theorem on the weighted-carrier
+route.  The pure coefficient-free estimate remains open only as a stronger
+standalone replacement for spending the carrier.
+
 ## Far-corona side
 
 The genuine lifted-packet bottleneck is
@@ -81,7 +95,7 @@ Equivalently, the fallback dyadic target is the lower-prefix active-square theor
 
 ## Result
 
-The lifted packet is conditionally closed under same-scale weighted carrier control plus far-corona closure. The currently open piece is the far-corona theorem:
+The lifted packet is conditionally closed under same-scale weighted carrier control plus far-corona closure. The currently open middle-band piece is the far-corona theorem:
 
 ```math
 CTS/FCTS/Car\Rightarrow FC
