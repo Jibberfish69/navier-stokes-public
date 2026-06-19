@@ -13939,4 +13939,6 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending targeted rescan of live authority anchors and `git diff --check`.
+The targeted live-anchor scan now leaves only the R3 sentence saying that no
+`H^s` profile assumption is spent; that is an anti-hand-wave statement, not a
+proof carrier.  `git diff --check` passed on the edited anchors and this ledger.
