@@ -55,7 +55,7 @@ v(s,y)=\sqrt{T-t}\,u(t,x).
 \tag{RF.3}
 ```
 
-The equation has the schematic form
+The attempt uses the following rescaled equation
 
 ```math
 \partial_s v
