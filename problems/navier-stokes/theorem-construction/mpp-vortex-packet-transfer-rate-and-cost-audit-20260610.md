@@ -261,28 +261,55 @@ the readout.
 
 ### Velocity-gradient readout
 
-If the velocity jump across scale `r` is `U_r`, the gradient scale is:
+The profile-free quantity is the oscillation on the actual ball:
 
 ```text
-A_r:= U_r/r.
+Delta_r u(t):=sup_{x,y in B_r(x0)} |u(x,t)-u(y,t)|.
 ```
 
-The local kinetic energy needed to support that velocity size is:
+For differentiable `u`, the exact one-way bridge to the gradient is:
 
 ```text
-E_{r,\mathrm{model}}:= U_r^2 r^3 = A_r^2 r^5.
+Delta_r u(t) <= 2r sup_{B_r(x0)} |grad u(.,t)|.
+```
+
+Thus `Delta_r u/r` is an oscillation rate, not an equality for the pointwise
+gradient.  A kinetic-energy lower bound also needs a distribution hypothesis,
+not only two separated point values.  For example, if a set
+`G_r(t) subset B_r(x0)` satisfies
+
+```text
+|G_r(t)| >= theta |B_r|,
+|u(x,t)-u_{B_r}(t)| >= c U_r  for x in G_r(t),
+```
+
+then the exact lower bound is:
+
+```text
+integral_{B_r(x0)} |u-u_{B_r}|^2 dx
+  >= theta |B_1| c^2 U_r^2 r^3.
+```
+
+Under the benchmark `U_r=A_r r`, this reads
+
+```text
+integral_{B_r(x0)} |u-u_{B_r}|^2 dx
+  >= theta |B_1| c^2 A_r^2 r^5.
 ```
 
 So an infinite gradient requires large raw energy in a shrinking ball only after
-an additional profile or lower-bound theorem. For example, under Navier-Stokes
-scaling `U_r:=r^{-1}`,
+an additional lower-oscillation or positive-measure amplitude theorem.  Under
+the Navier-Stokes critical benchmark `U_r:=r^{-1}`, the corresponding
+oscillation rate is `A_r:=r^{-2}`, and the displayed positive-measure lower
+bound is proportional to `r`.
 
 ```text
-A_r:= r^{-2},
-E_{r,\mathrm{model}}:= r.
+positive-measure critical packet cost >= theta |B_1| c^2 r.
 ```
 
-The gradient blows up while local raw energy tends to zero.
+The gradient scale can blow up while this raw energy lower bound tends to zero.
+This is a benchmark under the stated amplitude-distribution hypothesis, not a
+profile assumption about an arbitrary packet.
 
 ### Enstrophy / vorticity readout
 
