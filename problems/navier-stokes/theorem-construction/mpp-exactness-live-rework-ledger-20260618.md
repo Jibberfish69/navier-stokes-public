@@ -12157,3 +12157,61 @@ The targeted scan finds no remaining `usual local suitable pressure` phrase in
 the edited point-force note.  It finds the replacement
 `P\in L^{3/2}_{loc}(B)` hypothesis.  `git diff --check` passed on the edited
 note and this ledger.
+
+## Terminal Weighted No-Free-Sink Legal-Exit Rework
+
+Old claim being spent:
+
+The terminal weighted no-free-sink independent attempt said the named legal
+exits include the "usual localization, projection, cutoff, harmonic pressure,
+and boundary residues."  That sentence sits where signed partners leaving the
+usable ledger are declared paid.
+
+Exact replacement:
+
+The note now states that only residues assigned to the named ledgers are spent:
+localization, projection, cutoff, harmonic-pressure, collar, off-family, and
+boundary terms must enter through
+\[
+\sum_{\mathrm{legal\ exits}}\mathrm{Loss}_{exit}\le Legal_N+o_N(1).
+\]
+
+Proof or downstream consequence:
+
+The principal source-current is still not paid by absolute estimates.  The
+no-free-sink route may spend only already named legal exits satisfying the
+displayed legal-loss bound.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-weighted-no-free-sink-independent-attempt-20260517.md`.
+
+## Pressure Lobe Source-Tether Legal-Ledger Rework
+
+Old claim being spent:
+
+The pressure-lobe source-tether direct attempt identified
+`LocalizedLeraySourceTether.A` with `TerminalSkewLocalizationLedger.A` "up to
+the standard pressure/cutoff/collar ledgers."  That phrase hid the legal
+condition needed to keep the pressure tether route from spending unpaid
+remainders.
+
+Exact replacement:
+
+The note now makes the route conditional on `TerminalPressureCollarLegal.A`,
+with
+\[
+\sum_{\mathrm{pressure/cutoff/collar}}\mathrm{Loss}_{pc}
+\le Legal_N+o_N(1).
+\]
+
+Proof or downstream consequence:
+
+`PressureLobeSourceTether.A` remains conditional on
+`TerminalSkewLocalizationLedger.A + TerminalPressureCollarLegal.A`.  It is
+circular for the pressure/eigenframe route if either the signed-current ledger
+or the pressure/cutoff/collar legal-loss estimate is missing.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-pressure-lobe-source-tether-direct-attempt-20260517.md`.
