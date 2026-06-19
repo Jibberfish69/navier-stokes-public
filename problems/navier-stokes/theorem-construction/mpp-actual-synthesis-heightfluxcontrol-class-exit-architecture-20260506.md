@@ -569,15 +569,22 @@ dt
 Charge_N^{height}(W)+o_N(1).
 ```
 
-Expected proof components:
+Required proof interfaces before this estimate can be spent:
 
 ```text
-dyadic shell balance
-positive strain decomposition
-parent/child packet ancestry
-finite-overlap terminal packet selection
-legal pressure/cutoff ledger
-active strain decorrelation or depletion
+dyadic shell balance proving an exact identity for the positive weighted
+  shell-flux term in the displayed integrand;
+positive strain decomposition isolating the one-sided carrier
+  |w_\ell|^2[e_\ell\cdot S_{<\ell}e_\ell]_+ without replacing it by an
+  unsigned source-wall bound;
+parent/child packet ancestry showing every uncharged first-created donor
+  height has same-fluid ancestry or a Pack/Part face failure;
+finite-overlap terminal packet selection with a stated overlap constant and
+  no bounded-selector loss against diffuse parent clouds;
+legal pressure/cutoff ledger bounding only the recorded `L_P` terms, not the
+  positive height flux itself;
+active strain decorrelation, depletion, or terminal tangent rigidity producing
+  the same-ledger charge `Charge_N^{height}(W)`.
 ```
 
 Current status: this remains a supplier estimate template.  It is not an
