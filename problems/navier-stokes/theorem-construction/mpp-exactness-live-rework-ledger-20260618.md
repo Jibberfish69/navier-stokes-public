@@ -12336,7 +12336,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `usual no-free-sink/donor` phrase in the
+edited pressure-lobe note.  It finds the replacement named same-fluid donor
+interface and `TerminalPressureCollarLegal.A` legal-loss estimate.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## OP.R Analytic-Control-To-CM Bridge Rework
 
@@ -12365,7 +12368,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard-to-MPP` or `whatever standard`
+phrases in the edited OP.R route-options note.  It finds the replacement
+analytic-control-to-CM bridge and the three explicit CM outputs.  `git diff
+--check` passed on the edited note and this ledger.
 
 ## D2 Carrier Coercivity Identity Rework
 
@@ -12394,7 +12400,10 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard Stokes/Leray` phrase in the
+edited D2 note.  It finds the replacement exact Stokes/Leray identities:
+coercive quadratic form, nonlinear cancellation, and zero commutator.  `git
+diff --check` passed on the edited note and this ledger.
 
 ## Continuation-Complete Hs Relaunch Boundary Rework
 
@@ -12423,7 +12432,11 @@ Surfaces edited:
 
 Second downstream pass and validation:
 
-Pending after targeted scan and syntax check for this batch.
+The targeted scan finds no remaining `standard implication` phrase in the
+edited terminal-face exhaustion note.  It finds the replacement conditional
+`H^s` relaunch theorem with lifespan `delta=delta(s,nu,M)` and same-solution
+uniqueness on overlaps.  `git diff --check` passed on the edited note and this
+ledger.
 
 ## TPNI Finite-Slab Boundary-Term Rework
 
