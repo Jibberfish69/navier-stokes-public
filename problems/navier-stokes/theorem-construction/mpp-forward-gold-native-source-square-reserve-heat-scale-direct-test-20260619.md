@@ -305,6 +305,36 @@ Thus the dynamic route reduces to the same missing theorem:
 or equivalently the height/log-tail throttle `(NSS.18)`, an inverse
 donor-adjoint trace, or a retained Pack-gain/amplitude theorem.
 
+The heat-scale first-appearance test in
+`mpp-forward-gold-reserve-creation-heat-scale-first-appearance-test-20260619.md`
+shows that this missing creation charge cannot be the inherited first-moment
+tail in disguise.  On a natural heat window \(h_m=2^{-2m}\), the pulse
+
+```math
+D_{m+5}(t)=A_mh_m^{-1}{\bf 1}_{I_m}(t),
+\qquad
+A_m=2^{-3m/2},
+```
+
+has
+
+```math
+\int_{I_m}D_{m+5}(t)\,dt=A_m\to0,
+```
+
+but
+
+```math
+\int_{I_m}2^m
+\left(\sum_{\ell>m+4}D_\ell(t)\right)^2dt
+=1.
+```
+
+So `ReserveCreationCharge.A` must charge active height, a true
+source-square/critical-action reserve, a donor lower-frame trace, or a
+no-waste/source-residence mechanism.  It is not obtained by relabeling the
+first-moment dissipation tail.
+
 ## 7. Exact reduced supplier
 
 The direct source-square test therefore leaves:
