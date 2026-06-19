@@ -407,17 +407,23 @@ Without carrier realization, a low-mode ghost current is a countermodel.
 
 ### 3. High-mode collar estimate
 
-For a fixed annulus and a linear Stokes operator, the velocity part has a
-reasonable coercive estimate of the form
+For a fixed smooth annulus `A`, fixed pressure gauge, and the linear Stokes
+operator with the displayed boundary trace, the velocity part has the conditional
+coercive estimate
 
 ```math
 \|U\|_{H^1(A)}
 +\|P\|_{L^2(A)/\mathbb R}
-\lesssim
+\le
+C_A\Big(
 \|\operatorname{Res}_{Stokes}(U,P)\|_{H^{-1}(A)}
-+\|\gamma U\|_{H^{1/2}(\partial A)}.
++\|\gamma U\|_{H^{1/2}(\partial A)}
+\Big).
 \tag{NEX.23}
 ```
+
+The constant `C_A` depends on the fixed annulus and chosen trace spaces, not on
+the terminal packet scale.
 
 With smoother norms one can include conormal traces and separate high modes.
 This is an elliptic boundary estimate, not a Navier-Stokes terminal source
@@ -476,7 +482,8 @@ q_m\,d\mu_m-\ell\cdot\Sigma_m\xi_m\,d\mu_m
 \tag{NEX.24a}
 ```
 
-modulo legal losses.  After minimal donor-chain reduction this is precisely
+modulo legal losses.  After the conditional minimal donor-chain reduction,
+including the ASAC/positive-pair-weight finite-graph package, this is precisely
 `MinimalChainProjectedResidueIdentity.A`.
 
 ### 5. Readout compatibility
@@ -501,16 +508,20 @@ after a bridge to the selected NS carrier.
 
 ### Candidate 1: Gauss map / `L^2` curvature
 
-Desired bridge:
+Desired bridge as a uniform target:
 
 ```math
 \int_A |dn|^2\,d\mu
 \quad\text{or}\quad
 \int_A |h|^2\,d\mu
-\lesssim
-\text{viscous/stress/source ledger}.
+\le
+C_{\rm curv}\,\text{viscous/stress/source ledger}.
 \tag{NEX.25}
 ```
+
+Here `C_curv` must be independent of the terminal scale and must be supplied by
+a same-fluid material-surface, Hessian/trace, and nondegeneracy theorem; it is
+not available from the ordinary energy ledger.
 
 For material surfaces the exact identity target has the form
 
