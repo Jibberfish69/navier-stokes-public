@@ -4,8 +4,9 @@ Date: 2026-06-18
 
 Status: route tested.  This is the cleanest native Navier-Stokes architecture
 among the recent forward-gold alternatives, but it does not close from current
-inputs.  It demotes the annular/GMT/topological/coercive-inequality branches to
-diagnostic tools and replaces them by one native route:
+inputs.  It classifies the annular/GMT/topological/coercive-inequality branches
+as diagnostic readouts unless they prove one of the native hypotheses in the
+displayed route:
 
 ```math
 \text{finite-time breakdown}
@@ -38,7 +39,8 @@ p_n(t,x)
 \tag{CE.2}
 ```
 
-with `lambda_n downarrow 0`.  The native limiting object should be
+with `lambda_n downarrow 0`.  The native limiting object required by this route
+is the subsequential local-energy package
 
 ```math
 (U,\Pi,\mathcal E,\mathcal F,\mathcal D),
@@ -71,8 +73,11 @@ The local energy inequality is
 \tag{CE.6}
 ```
 
-Everything in the annular/current/topological package should be a derived
-readout from `(CE.3)` rather than the central object.
+The annular/current/topological package has proof force in this route only when
+it supplies a derived readout from `(CE.3)`, for example compact-orbit
+production, native flux/source visibility, or a rigidity hypothesis.  Without
+one of those readouts it remains a diagnostic test of why `(CE.11)`, `(CE.15)`,
+or `(CE.20)` has not been proved.
 
 ## What is already available
 
@@ -146,7 +151,7 @@ admissible frame/selector choices already exposed by the annular branch:
 \tag{CE.13}
 ```
 
-This is the point where the older junk is absorbed:
+This is the point where the older obstruction list is absorbed:
 
 ```text
 scale drift,
@@ -185,17 +190,19 @@ The second needed theorem is:
 \tag{CE.15}
 ```
 
-It should say that the minimal element has no terminal residue invisible to the
-native local-energy ledger.  In concrete form, after testing `(CE.6)` against
-shrinking terminal cutoffs,
+The exact theorem needed is: for each minimal element produced by `(CE.11)` and
+each shrinking terminal cutoff exhaustion used to read the selected residue,
+there is a constant `C` depending only on the fixed local-energy normalization
+and packet class, not on the terminal cutoff scale, such that
 
 ```math
 |\mathcal Z|_{\rm terminal}
-\lesssim
+\le C\Big(
 \mathcal D_{\rm diss}
 +|\operatorname{Flux}_{\rm loc}(\mathcal F)|
 +\mathcal D_{\rm pressure}
 +\mathcal D_{\rm defect}.
+\Big)
 \tag{CE.16}
 ```
 
@@ -455,6 +462,7 @@ and
 \tag{CE.35}
 ```
 
-Thus the route should replace the annular/topological branches as the main
-organizing architecture, while those branches remain subordinate diagnostic
-tests for failures of compactness or no-waste visibility.
+Thus the route is the active forward-gold organizing architecture exactly under
+the three displayed native hypotheses.  The annular/topological branches have
+downstream proof force only as tests or suppliers for compactness production,
+native no-waste visibility, or compact ancient rigidity.
