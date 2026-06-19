@@ -10342,3 +10342,30 @@ rather than semantic only`, or `Formally:` hit in the edited source note or
 appendix copy.  The positive scan finds `Working Ontic Object Package` and the
 explicit law-level replacement, and `git diff --check` passes on both edited
 surfaces.
+
+## Source Wall Two-Path Heading Rework
+
+Old claim being spent:
+
+The appendix heading `Source Wall Root.Two Path Formal Completion.Conditional`
+advertised formal completion while the section body is a conditional source-wall
+completion surface.
+
+Exact replacement:
+
+The heading now reads `Source Wall Root.Two Path Conditional Completion`.
+
+Proof or downstream consequence:
+
+The section can be cited only as a conditional completion surface, not as a
+formal-completion certificate independent of its hypotheses.
+
+Surfaces edited:
+
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `Source Wall Root.Two Path Formal
+Completion.Conditional` heading in the appendix.  The positive scan finds the
+conditional heading, and `git diff --check` passes on the edited appendix.
