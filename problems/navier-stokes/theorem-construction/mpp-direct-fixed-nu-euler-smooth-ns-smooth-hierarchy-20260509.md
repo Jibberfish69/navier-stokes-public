@@ -42,8 +42,9 @@ This is a scenario-inclusion claim:
 \qquad(\nu>0\text{ fixed}).
 ```
 
-Interpretation: viscosity should not downgrade smoothness on a scenario where
-the inviscid equation is already smooth.
+Interpretation: the fixed-`nu` transfer target is that viscosity does not
+downgrade smoothness on a scenario where the inviscid equation is already
+smooth.
 
 ## Non-claims
 
@@ -289,8 +290,8 @@ It is not a `nu->0` class-exit statement.
 
 ## What to do next
 
-The next theorem work should target the missing fixed-`nu` relative bound. The
-three useful routes are:
+The remaining theorem work is the missing fixed-`nu` relative bound. The three
+active reductions/routes are:
 
 1. `RelativeBoundByEulerNorms.A`: close the `w` energy inequality using a
    damping/absorbing mechanism that works for every fixed `nu>0`.
