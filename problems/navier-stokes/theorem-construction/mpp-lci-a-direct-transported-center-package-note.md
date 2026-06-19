@@ -4407,8 +4407,8 @@ pre-`ACT.KX` suppliers.
 
 #### Receiver-Side Conditional Route Cells
 
-Worker R owns only the receiver-side portion of the user's 21-cell conditional
-route theorem. The route-valid receiver cells materialized here are:
+Worker R owns only the receiver-side portion of the repaired endpoint-matrix
+conditional route theorem. The route-valid receiver cells materialized here are:
 
 | Cell | Materialized object | Receiver-side assertion |
 | --- | --- | --- |
