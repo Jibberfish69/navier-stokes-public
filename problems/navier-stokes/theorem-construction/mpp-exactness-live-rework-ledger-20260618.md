@@ -11526,3 +11526,34 @@ Second downstream pass and validation:
 The targeted scan finds no remaining `usual dual characterization` hit in the
 edited note.  It finds the replacement `outer regularity` sentence, and `git
 diff --check` passes on the edited note.
+
+## TPS Pair-Defect Near-Diagonal Tube Factor Rework
+
+Old claim being spent:
+
+The TPS pair-defect PDE packet said the near-diagonal gain carries the
+"expected" \(\rho^{3/2}\) factor after localization in the \(x\)-window.
+
+Exact replacement:
+
+The note now says the \(\rho^{3/2}\) factor is the displayed consequence of the
+localized tube-volume bound
+\[
+|(E\times\mathbb R^3)\cap D_\rho|\le C_{tube}|E|\rho^3.
+\]
+
+Proof or downstream consequence:
+
+The pair-defect route may spend the \(\rho^{3/2}\) gain only under finite
+\(x\)-window localization and the displayed tube-volume estimate.  A global
+\(\rho^{3/2}\) statement on all of \(\mathbb R^6\) remains explicitly false.
+
+Surfaces edited:
+
+- `theorem-construction/tps-pair-defect-pde-packet.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `expected rho` / `expected \rho` hit in
+the edited TPS note.  It finds the replacement `displayed` and `tube-volume
+bound` sentences, and `git diff --check` passes on the edited note.
