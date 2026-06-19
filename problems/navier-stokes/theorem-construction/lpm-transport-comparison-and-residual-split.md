@@ -344,7 +344,7 @@ route is:
 4. one localization-tail theorem for the truncated projector-moment packet.
 
 Once those are proved, `(LPM.19)` follows, and the already installed on-disk
-chain
+supplier chain may then be applied:
 
 ```math
 \texttt{LPM.19}
@@ -362,7 +362,9 @@ chain
 \texttt{SG.4B}
 ```
 
-is formal.
+This is a conditional source-chain use of `(LPM.19)`: without the four theorem
+debts above, the downstream `SG.4B` conclusion is not available from this
+route.
 
 But the honest first supplier theorem on the localized projector-moment branch
 is no longer this one. It is the exact averaged projector dynamics plus the
