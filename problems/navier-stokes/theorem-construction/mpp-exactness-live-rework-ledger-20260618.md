@@ -10407,3 +10407,37 @@ The targeted scan finds no remaining `formal same-fluid signed partner`,
 the edited source notes or appendix copy.  The positive scan finds the
 corresponding signed-partner and saturated-hull replacements, and `git diff
 --check` passes on all edited surfaces.
+
+## Logical Complement And Participation-Row Rework
+
+Old claim being spent:
+
+The B-ASAC all-doors notes and appendix copy used "formal complement" for a
+logical obstruction class, and the TTU facewise alternatives note called `Dead`
+the "formal participation row."
+
+Exact replacement:
+
+The B-ASAC surfaces now say `B_ASAC^{closed}` is the logical complement of the
+right-hand side inside the extracted terminal atom branch.  The TTU surface now
+says `Dead` is the participation-failure row.
+
+Proof or downstream consequence:
+
+The route may use these as exact logical/Boolean classifications.  It may not
+spend "formal" complement or row language as proof of a production theorem or a
+PDE endpoint exclusion.
+
+Surfaces edited:
+
+- `theorem-construction/mcp-basactimefacealldoors-a-c8215b5d93.md`;
+- `theorem-construction/mpp-basac-all-doors-closed-atom-obstruction-20260517.md`;
+- `theorem-construction/mcp-ttu-facewise-alternatives-analysis.md`;
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `formal complement` or `formal
+participation row` hit in the edited source notes or appendix copy.  The
+positive scan finds `logical complement` and `participation-failure row`, and
+`git diff --check` passes on all edited surfaces.
