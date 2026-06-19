@@ -173,10 +173,10 @@ and then further by the exact angular-forcing reduction in
 [localized-projector-angular-forcing-ledger-reduction.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-angular-forcing-ledger-reduction.md).
 So the sharp local forcing side is no longer a linear `\beta_J` convolution; it
 is the installed pair-family ledger `D.7ie1`, or on the adiabatic subbranch the
-ledger `D.7ie3`, together with the usual weighted coverage/globalization
-packet. After the maximal-envelope promotion in the same note, the remaining
-globalization debt is one maximal-envelope theorem for the local entrance
-scalars and that installed pair-family forcing ledger. The final gluing split is
+ledger `D.7ie3`.  The globalization side is the exact interface isolated in
+the angular-forcing note: after maximal-envelope promotion, one
+maximal-envelope theorem for the local entrance scalars and the installed
+pair-family forcing ledger. The final gluing split is
 then isolated in
 [localized-projector-overlap-mismatch-globalization.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/localized-projector-overlap-mismatch-globalization.md):
 one maximal-envelope theorem for the explicit entrance scalars, plus one
