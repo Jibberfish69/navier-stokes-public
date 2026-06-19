@@ -154,7 +154,7 @@ The honest order from the Euler control case is:
 
 ## Current Theorem Burden
 
-The next theorem-facing burden should be named something like:
+The theorem-facing burden is:
 
 ```math
 ViscousSlipExclusion.A
