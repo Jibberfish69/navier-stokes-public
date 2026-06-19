@@ -12438,6 +12438,118 @@ edited terminal-face exhaustion note.  It finds the replacement conditional
 uniqueness on overlaps.  `git diff --check` passed on the edited note and this
 ledger.
 
+## Terminal CM Pack Strain-Ledger Rework
+
+Old claim being spent:
+
+The terminal CM no-exit attempt said the deformation gauge obeys the "usual
+strain ledger."
+
+Exact replacement:
+
+The Pack no-exit section now defines the same-fluid flow deformation gauge
+`Gamma_Q(t)=sup_{a ne b in Q_0}|X(a,t)-X(b,t)|/|a-b|` and derives the exact
+particle-separation bound
+`d/dt log Gamma_Q(t) <= C_Gamma ||nabla u(.,t)||_{L^\infty(Q_t)}` while the
+carrier remains in the retained tube.
+
+Proof or downstream consequence:
+
+Pack persistence can spend this only through integrability of the retained-tube
+strain or a route-native substitute that keeps the carrier scale positive.  It
+does not follow from original smooth data plus finite energy.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-terminal-cm-no-exit-direct-attempt-20260522.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Gradient High-Side Integrated-Circularity Rewording
+
+Old claim being spent:
+
+The gradient high-side remainder packet called the circular route the "usual
+integrated shortcut."
+
+Exact replacement:
+
+The note now says directly that the integrated proof is circular if it routes
+through the candidate reduced estimate and then imports the `sup_t E_N(t)`
+bound that Proposition `6.1` is supposed to prove.
+
+Proof or downstream consequence:
+
+The mathematical status is unchanged: the integrated theorem interface remains
+open until the exact shell sum over `N+M<k<j-4` is collapsed to an admissible
+time-integrable high-tail factor without using the desired high-energy bound.
+
+Surfaces edited:
+
+- `theorem-construction/gradient-high-side-remainder-packet.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## SourcePulse Terminal Subsequence Selection Rework
+
+Old claim being spent:
+
+The source-pulse normal-form note said the packet choice is "just the standard
+terminal subsequence selection."
+
+Exact replacement:
+
+The note now spells out the selection: choose failed source windows
+`t_n -> T_*`, `j_n -> infinity`; discard windows whose pressure/cutoff/collar
+legal losses are a fixed positive fraction of active source mass; pass to a
+diagonal subsequence over the finite label/collar/cutoff choices; and keep the
+branch where same-fluid ancestry and active-window normalization survive.
+
+Proof or downstream consequence:
+
+The normal-form theorem may spend only that subsequence-selection reduction.
+It still needs the reserve audits below to show that every installed reserve
+vanishes or is legal loss on the selected packets.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-sourcepulse-normal-form-and-unspent-reserve-audit-note.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
+## Response-Height Shell-Narrowing Rework
+
+Old claim being spent:
+
+The response-height ledger said the packet support had the required multiplier
+bound after "standard shell narrowing."
+
+Exact replacement:
+
+The note now states the exact support restriction:
+`||xi|^2/2^{2j}-1| <= epsilon_width`, which gives
+`|rho_j(xi)| <= epsilon_width 2^{2j}`.
+
+Proof or downstream consequence:
+
+The response-height lower bound spends the heat-matched shell-width condition
+and the explicit `rho_j(D)` error estimate, not an unnamed narrowing
+convention.
+
+Surfaces edited:
+
+- `theorem-construction/mpp-response-height-ledger-supports-discharge-20260506.md`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
