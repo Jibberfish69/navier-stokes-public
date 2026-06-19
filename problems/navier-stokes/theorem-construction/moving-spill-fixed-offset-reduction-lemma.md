@@ -200,22 +200,33 @@ would yield
 
 This is the desired moving-spill barrier theorem.
 
-## Honest boundary
+## 2026-06-19 weighted-carrier addendum
 
-This note proves the finite-offset reduction `(5)`. It does **not** prove the
-stability theorem `(6)`.
+The coefficient-free moving-spill theorem `(7)` remains open as a standalone
+same-scale theorem.  On the weighted-carrier route, however, the moving-spill
+packet is no longer an independent analytic debt.
 
-That remaining step is exactly the point where the current spill technology
-must be checked for invariance under replacing the canonical edge operator by
-a finite family of annular order-zero multiplier families `T_m(\ell D)`.
-
-So the correct theorem-level verdict is:
+The collar error in `(5)` is produced only by bounded-gap same-scale multiplier
+perturbations.  Expanding those perturbations into the finite same-scale edge
+family and applying the coefficient-bearing same-scale estimate gives
 
 ```math
-\text{moving spill theorem}
-\Longleftarrow
-\text{finite-offset same-scale stability theorem}.
+\int_0^T \Pi_N^{mov\text{-}spill,L}(t)\,dt
+\le
+\varepsilon\nu\int_0^T D_N(t)\,dt
++
+C_{\varepsilon,L,\nu}
+\int_0^T \widetilde\Lambda_N^\sharp(t)E_N(t)\,dt.
+\tag{8}
 ```
 
-The reduction is now explicit; the quantitative stability theorem remains
-open.
+This is proved in
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md`.
+
+So the correct theorem-level verdict is now:
+
+```math
+\text{moving spill is controlled on the weighted-carrier surface;}
+\qquad
+\text{coefficient-free `(MS)` remains open only as a stronger standalone theorem.}
+```

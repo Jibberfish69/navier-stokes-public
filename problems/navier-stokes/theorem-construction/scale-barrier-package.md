@@ -139,6 +139,12 @@ The routing note
 `mpp-forward-gold-shallow-low-middle-band-routing-20260619.md` then places that
 shallow band inside the existing middle-band flux package, rather than leaving
 it as a separate strict-low theorem.
+The moving-spill weighted-carrier note
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md` removes
+the near-corona moving-spill part as a separate theorem debt on the
+weighted-carrier route.  The remaining middle-band obstruction is the
+far-corona two-scale Carleson / CTS / LPAS family, together with the surrounding
+weighted-carrier control needed by the scale-barrier package.
 
 In particular, the older TeX sources describe the barrier only in informal
 spectral terms through quantities such as `E(k,t)`, `T(k,t)`, and `Pi(k,t)`,

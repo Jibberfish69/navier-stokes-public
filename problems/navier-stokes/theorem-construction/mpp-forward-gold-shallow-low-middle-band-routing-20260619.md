@@ -101,17 +101,11 @@ lower-prefix active-square theorem \((\mathrm{LPAS})\).
 ## 3. What remains open
 
 This note does not prove the middle-band estimate.  It only removes duplicated
-frontier language.
+frontier language.  The follow-up note
+`mpp-forward-gold-moving-spill-weighted-carrier-resolution-20260619.md` proves
+that the moving-spill side is controlled on the weighted-carrier surface.
 
-The remaining middle-band burden is exactly:
-
-\[
-\boxed{
-\text{MovingSpillBound.A}
-}
-\]
-
-plus
+The remaining middle-band burden on that route is therefore:
 
 \[
 \boxed{
@@ -143,6 +137,6 @@ The scale-barrier tree is smaller after this routing:
 +\text{middle-band mesoscopic flux}.
 \]
 
-The deep-low term is paid.  The middle-band term is already the lifted
-stress-strain / CTS / LPAS family.  So strict-low is no longer an independent
-frontier once the proportional split is adopted.
+The deep-low term is paid.  The near-corona moving-spill term is controlled on
+the weighted-carrier surface.  The remaining unclosed middle-band term is the
+far-corona lifted stress-strain / CTS / LPAS family.
