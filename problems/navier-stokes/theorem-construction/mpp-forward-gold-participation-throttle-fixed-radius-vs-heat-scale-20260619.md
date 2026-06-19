@@ -22,11 +22,15 @@ The remaining forward-gold obstruction is the heat-scale case:
 ```math
 r_m\downarrow0,
 \qquad
-\tau_m\sim r_m^2/\nu,
+\alpha_t{r_m^2\over\nu}\le \tau_m\le A_t{r_m^2\over\nu},
 \qquad
 t_m\uparrow T_*.
 \tag{PT.1}
 ```
+
+The constants `alpha_t,A_t` are fixed positive constants.  The heat-scale
+statement is a two-sided time-window hypothesis, not a claim that the velocity
+profile is linear or self-similar.
 
 There the lawful instantaneous rate is not scale-uniform.  The local balance
 contains powers of `r_m^{-1}` and `r_m^{-2}`.  A critical packet can have
@@ -153,22 +157,33 @@ U_c(r)={\nu\over r}.
 A packet with size `U_c(r)` on a ball of radius `r` has stored kinetic energy
 
 ```math
-E_c(r)\sim U_c(r)^2r^3\sim \nu^2 r,
+c_E\nu^2r
+\le
+E_c(r)
+\le
+C_E\nu^2r
 \tag{PT.13}
 ```
 
 which tends to zero as `r\downarrow0`.  Its natural heat time is
 
 ```math
-\tau_\nu(r)\sim {r^2\over\nu}.
+\alpha_t{r^2\over\nu}
+\le
+\tau_\nu(r)
+\le
+A_t{r^2\over\nu}.
 \tag{PT.14}
 ```
 
 The power needed to sustain or create the critical packet on that clock is
 
 ```math
-P_c(r)\sim {E_c(r)\over\tau_\nu(r)}
-\sim {\nu^3\over r},
+c_P{\nu^3\over r}
+\le
+P_c(r):={E_c(r)\over\tau_\nu(r)}
+\le
+C_P{\nu^3\over r},
 \tag{PT.15}
 ```
 
@@ -203,7 +218,7 @@ where the positive native source is
 
 ```math
 \Phi_j^+(t)
-\sim
+:=
 \int
 \left[
 \langle S_{<j}^{loc}w_j,w_j\rangle
@@ -248,19 +263,24 @@ Viscosity drains on the clock
 The dangerous source-balanced case is exactly
 
 ```math
-\lambda_j^+(t)\sim\nu r_j^{-2}
+\alpha_\lambda{\nu\over r_j^2}
+\le
+\lambda_j^+(t)
+\le
+A_\lambda{\nu\over r_j^2}
 \quad\text{on}\quad
-|I_j|\sim r_j^2/\nu.
+\alpha_t{r_j^2\over\nu}\le |I_j|\le A_t{r_j^2\over\nu}.
 \tag{PT.22}
 ```
 
 Then
 
 ```math
+\alpha_\lambda\alpha_t
+\le
 \int_{I_j}\lambda_j^+(t)\,dt
-\sim
-(\nu r_j^{-2})(r_j^2/\nu)
-\sim1.
+\le
+A_\lambda A_t.
 \tag{PT.23}
 ```
 
@@ -345,8 +365,8 @@ be stated as the scale-critical heat-window throttle:
 ```math
 \boxed{
 \text{Can Navier--Stokes produce }
-\lambda_j^+\sim\nu r_j^{-2}
-\text{ on } |I_j|\sim r_j^2/\nu
+\alpha_\lambda{\nu\over r_j^2}\le\lambda_j^+\le A_\lambda{\nu\over r_j^2}
+\text{ on } \alpha_t{r_j^2\over\nu}\le |I_j|\le A_t{r_j^2\over\nu}
 \text{ for infinitely many }j
 \text{ without paying a Carleson/source-square/CM-face cost?}
 }
