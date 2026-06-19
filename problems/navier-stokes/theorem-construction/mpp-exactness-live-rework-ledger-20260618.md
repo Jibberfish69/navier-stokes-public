@@ -12078,6 +12078,13 @@ Surfaces edited:
 
 - `theorem-construction/mpp-pctp-hard-hs-continuation-conversion.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `conversion is standard` phrase in the
+edited PCTP `H^s` conversion note.  It finds the replacement lifespan
+`\delta=\delta(s,\nu,M_s)>0` relaunch statement.  `git diff --check` passed on
+the edited note and this ledger.
+
 ## Forced Periodic Relaunch Forcing-Norm Rework
 
 Old claim being spent:
@@ -12108,6 +12115,13 @@ Surfaces edited:
 
 - `theorem-construction/mcp-forced-periodic-branch-attempt-ecq-a_-1c92800349.md`.
 
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `standard hypothesis` phrase in the edited
+forced periodic branch note.  It finds the replacement
+`L^1_{loc}([0,\infty);H^{s-1}(T^3))` forcing hypothesis and relaunch-norm
+dependency.  `git diff --check` passed on the edited note and this ledger.
+
 ## Point-Force Local-Suitable Pressure-Class Rework
 
 Old claim being spent:
@@ -12136,3 +12150,10 @@ framework that justifies the divergence-free test pairing.
 Surfaces edited:
 
 - `theorem-construction/mpp-forward-gold-point-force-capacity-coercivity-attempt-20260618.md`.
+
+Second downstream pass and validation:
+
+The targeted scan finds no remaining `usual local suitable pressure` phrase in
+the edited point-force note.  It finds the replacement
+`P\in L^{3/2}_{loc}(B)` hypothesis.  `git diff --check` passed on the edited
+note and this ledger.
