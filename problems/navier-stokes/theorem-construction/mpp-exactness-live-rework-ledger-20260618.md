@@ -13111,6 +13111,35 @@ finds the replacement installed-hypotheses wording and the explicit remaining
 theorem status for `(TC.31a)`.  `git diff --check` passed on the edited live
 edge and this ledger.
 
+## Mixed-Shell Off-Diagonal Support Rework
+
+Old claim being spent:
+
+The mixed-shell bilinear dissipation identity and submission appendix said the
+sign question for `(17)` had a "sharper answer than expected."
+
+Exact replacement:
+
+Both surfaces now state the exact support result: the sign question is removed
+by Littlewood-Paley support geometry, because the bare pairwise interaction
+vanishes before sign can matter.
+
+Proof or downstream consequence:
+
+The mixed-shell route may spend the universal LP collar support condition
+`Delta_j(Delta_k u dot nabla Delta_l u)=0` unless `|j-l|<=M_LP`.  Any nontrivial
+signed theorem must live on the commutatorized lifted remainder, not on the
+bare off-diagonal exchange.
+
+Surfaces edited:
+
+- `theorem-construction/mixed-shell-bilinear-dissipation-identity.md`.
+- `submission-bundle/source-field-reader-appendix.tex`.
+
+Second downstream pass and validation:
+
+Pending after targeted scan and syntax check for this batch.
+
 ## TPNI Finite-Slab Boundary-Term Rework
 
 Old claim being spent:
