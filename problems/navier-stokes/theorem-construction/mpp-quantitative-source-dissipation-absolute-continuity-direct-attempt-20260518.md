@@ -39,7 +39,8 @@ The desired theorem requires super-`L^1` time integrability. That upgrade is abs
 
 ## 2. Concentration test
 
-The standard terminal concentration model remains compatible with `L^1` dissipation control:
+The exact terminal concentration countermodel remains compatible with `L^1`
+dissipation control:
 
 ```math
 G_N(t)=\tau_N^{-1}\mathbf 1_{[T-\tau_N,T]}(t),
